@@ -1,0 +1,102 @@
+{
+  "pass_id": "evidence",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-evidence-1"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 77,
+        "line_end": 77,
+        "exact_quote": "`principal` は通常、名詞の前に置く限定用法で使う。`the principal concern` は自然だが、`The concern is principal.` のような叙述用法は一般文では不自然または非常に形式的で、通常は `The concern is the main one.` や `The concern is primary.` とする。"
+      },
+      "severity": "blocking",
+      "rationale": "C-001 links this usage target to F-001, F-013, and F-016, but those facts establish only the adjective's importance/rank meaning. None records chiefly attributive distribution, the claimed markedness of predicative use, or the proposed replacements, so the linked evidence does not directly support this grammatical restriction.",
+      "evidence_link_ids": [
+        "C-001"
+      ],
+      "suggested_direction": "Limit the target to the supported importance meaning, or replace/add a fixed fact whose locator directly documents attributive versus predicative use."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 184,
+        "line_end": 184,
+        "exact_quote": "具体的には企業の共同経営者・責任者、交渉の主要当事者、バレエ団の首席ダンサー、オーケストラの首席奏者などを指し、肩書きとして大文字で書かれることもある。"
+      },
+      "severity": "blocking",
+      "rationale": "C-003 is supported by F-007 and F-018 for leading performers and orchestral section players, and by F-029 for a historical chief-person/leading-representative sense. Those linked facts do not directly establish the current company co-owner, negotiation-party, or capitalization claims in this target; the evidence therefore supports only part of the enumerated scope.",
+      "evidence_link_ids": [
+        "C-003"
+      ],
+      "suggested_direction": "Restrict the enumeration to the supported leading-person and performing-arts uses, or supply fixed facts directly covering business ownership, negotiation parties, and capitalization."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 305,
+        "line_end": 305,
+        "exact_quote": "具体的な法的効果や責任範囲は法域、実際の権限、外観上の権限などによって異なるため、この語自体だけから一律に決まらない。"
+      },
+      "severity": "blocking",
+      "rationale": "C-006 links F-004, F-020, and F-023, which support authorization, acting on the principal's behalf, control, and the principal as the source of authority. They do not record the stated jurisdictional variability or the actual-authority/apparent-authority distinctions, even though C-006 extends its claim to effects under governing law.",
+      "evidence_link_ids": [
+        "C-006"
+      ],
+      "suggested_direction": "Keep the definition to authorization, behalf, and control, or replace/add a fixed legal fact that directly supports the jurisdiction and authority-type qualification."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "word_formation",
+        "line_start": 25,
+        "line_end": 25,
+        "exact_quote": "・principalship：名詞。校長・学長など `principal` の職、任期、地位を表す。  "
+      },
+      "severity": "blocking",
+      "rationale": "C-011 claims office, position, or tenure, but its sole support F-011 records only the office or position of a principal. The target's `任期` (tenure/term) component is not directly supported by the linked fact.",
+      "evidence_link_ids": [
+        "C-011"
+      ],
+      "suggested_direction": "Remove the tenure/term component, or replace/add a fixed fact whose locator explicitly gives that sense."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "word_formation",
+        "line_start": 24,
+        "line_end": 24,
+        "exact_quote": "・principally：副詞。「主として、主に」の意味で、`mainly` よりやや形式的に響くことがある。  "
+      },
+      "severity": "blocking",
+      "rationale": "C-012 relies only on F-012, whose statement and source detail establish that `principally` is the adverb formed from `principal`; they do not record the gloss `mainly/chiefly` or the asserted formality contrast with `mainly`. The linked evidence therefore does not directly support the target as written.",
+      "evidence_link_ids": [
+        "C-012"
+      ],
+      "suggested_direction": "Limit the entry to the supported derivational relationship, or replace/add a fixed fact directly documenting the meaning and register comparison."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "pronunciation",
+        "line_start": 15,
+        "line_end": 15,
+        "exact_quote": "`principle` も通常まったく同じ /ˈprɪnsəpəl/ なので、音だけでは区別できない。"
+      },
+      "severity": "blocking",
+      "rationale": "F-009 directly supplies only the pronunciation of `principal`. C-013's sole linked fact F-032 distinguishes the spellings, meanings, and parts of speech, but its recorded statement and detail do not give the pronunciation of `principle`. U-013 and the target therefore assert homophony beyond their cited fact support.",
+      "evidence_link_ids": [
+        "C-009",
+        "C-013"
+      ],
+      "suggested_direction": "Remove the homophony claim, or replace/add a fixed pronunciation fact that directly gives `principle` and establishes the match."
+    }
+  ]
+}

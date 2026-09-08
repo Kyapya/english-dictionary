@@ -1,0 +1,638 @@
+{
+  "schema_version": "normal_review_v2",
+  "stage": "normal_review",
+  "run_id": "normal-principal-20260907T233257Z-44da61f2",
+  "context_id": "normal-principal-context-20260907T233257Z-44da61f2",
+  "input_body_sha256": "0ce3b3f2256f78d6a313ae1445d684390dfb421a0112c14efeaaec945bd42057",
+  "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
+  "input_artifacts": [
+    "router_selected_sections",
+    "checker_pass_specs"
+  ],
+  "recorded_at": "2026-09-08T00:20:07.090515+00:00",
+  "pass_outputs": [
+    {
+      "pass_id": "translation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "principal-translation-1"
+      },
+      "findings": []
+    },
+    {
+      "pass_id": "sense-structure",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "principal-sense-structure-1"
+      },
+      "findings": [
+        {
+          "taxonomy_id": "sense_boundary_overlap",
+          "location": {
+            "section": "sense_structure",
+            "line_start": 362,
+            "line_end": 362,
+            "exact_quote": "6. 【名詞・可算・法律】正犯、犯罪の主要関与者；主たる債務者・第一次的責任者"
+          },
+          "severity": "blocking",
+          "rationale": "刑事法上の principal（犯罪を実行する、または一定の法体系で実行に主要な形で関与する者）と、債務・保証関係の principal（保証人などに対して第一次的に義務を負う者）は、対立項も成立する法的フレームも異なる。両者を「第一義的責任」という抽象化だけで一語義にまとめると、学習上重要な項構造と用域境界が失われる。",
+          "evidence_link_ids": [],
+          "suggested_direction": "語義6を刑事法の用法と債務・保証の用法に分割し、コアイメージの対応枝もそれぞれ一度ずつ対応する形に分ける。"
+        },
+        {
+          "taxonomy_id": "cross_section_internal_contradiction",
+          "location": {
+            "section": "usage_notes",
+            "line_start": 276,
+            "line_end": 276,
+            "exact_quote": "【語法・注意】`principal` は元の基礎額、`interest` は借入の対価または貸付・投資から生じる収益であり、同じ金額を指さない。`principal amount` では `principal` が形容詞として `amount` を修飾する一方、`repay the principal` では名詞である。日本語の「元利金」は `principal and interest` であり、`principal interest` とはしない。信託・遺産の文脈では、収益を生む財産本体を `principal` または `corpus` と呼び、そこから生じる `income` と区別する。この用法も「収益に対する元の財産」という同じ金融・財産上の対立に属する。  "
+          },
+          "severity": "blocking",
+          "rationale": "語法欄は `principal amount` の `principal` を形容詞と明示しているが、番号付きの形容詞語義1は重要度・影響力・順位の高さだけを定義し、金融上の「元の／利息を除く」という意味は名詞語義4にしか収録していない。したがって本文自身が認定する主要な品詞用法が語法欄にだけ存在し、語義構造とコアイメージの品詞対応が一致していない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "`principal amount` の分析を確定し、形容詞用法とするなら金融上の「元の、利息を除く」を番号付き形容詞語義として追加してコアイメージにも対応させる。名詞の連体修飾とするなら、形容詞と断定する記述を修正して語義4との関係を明示する。"
+        }
+      ]
+    },
+    {
+      "pass_id": "frame-relation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "principal-frame-relation-1"
+      },
+      "findings": [],
+      "antonym_axis_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "0ce3b3f2256f78d6a313ae1445d684390dfb421a0112c14efeaaec945bd42057",
+        "blind_request_sha256": "3fdb797482ccfd3387a58b1afa8327955d4a2e35291e680a3d404abea89804a8",
+        "recorded_at": "2026-09-08T00:07:46Z",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "principal-frame-relation-1"
+        },
+        "axes": [
+          {
+            "item_id": "ant-5215a334cb31",
+            "axis": "元利区分",
+            "relation_type": "補完",
+            "reason": "貸付・投資額の元の部分と、その元金から生じる利息部分の対立。"
+          },
+          {
+            "item_id": "ant-74b19a19d243",
+            "axis": "重要度",
+            "relation_type": "程度",
+            "reason": "重要性や影響力が特に高いものと比較的小さいものの対立。"
+          },
+          {
+            "item_id": "ant-80c206000217",
+            "axis": "責任順位",
+            "relation_type": "状態",
+            "reason": "義務について第一次的に責任を負う者と不履行時に二次的責任を負う者の対立。"
+          },
+          {
+            "item_id": "ant-8959d5c10634",
+            "axis": "順位",
+            "relation_type": "程度",
+            "reason": "重要度や順位が第一のものと二次的なものの対立。"
+          },
+          {
+            "item_id": "ant-f6cb375aa51a",
+            "axis": "代理関係",
+            "relation_type": "補完",
+            "reason": "代理権を与える本人と、その権限に基づいて本人のために行動する代理人の対立。"
+          }
+        ]
+      }
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "principal-example-attribution-1"
+      },
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "principal-example-attribution-1"
+        },
+        "recorded_at": "2026-09-08T00:09:10.343691Z",
+        "input_body_sha256": "0ce3b3f2256f78d6a313ae1445d684390dfb421a0112c14efeaaec945bd42057",
+        "blind_request_sha256": "6efa88754e3dcf3c467d21dcea5e32fd63e90b31b42c282e0f55f25abbc47db1",
+        "attributions": [
+          {
+            "example_id": "ex-fdf173bc7ad4",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "acted for an undisclosed principal"
+            ],
+            "rationale": "「acted for an undisclosed principal」は、principal が行為を授権し、そのために別人が行動する代理関係を直接表すため sense:005 に帰属する。sense:003 の組織上の責任者であれば、principal 自身のために acting for するという法的関係と undisclosed という地位の組合せを説明できない。"
+          },
+          {
+            "example_id": "ex-72934a48c8b4",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "principal amount"
+            ],
+            "rationale": "「principal amount」が interest の計算基礎となる未返済額を指しており、元金の sense:004 に一意に合う。主要性を表す形容詞 sense:001 では、利息と区別される金額という principal の役割を表せない。"
+          },
+          {
+            "example_id": "ex-4232909ceaa2",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "a principal at an engineering consultancy"
+            ],
+            "rationale": "「a principal at an engineering consultancy」は会社・専門業務組織での名詞の役職を表すため sense:003 が自然である。sense:002 も principal を人の役職名として使うが、その語義が要求する教育機関の長という関係は consultancy を補部とするこの用法には成立しない。"
+          },
+          {
+            "example_id": "ex-0d47a04a7fd9",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "on behalf of the principal"
+            ],
+            "rationale": "「on behalf of the principal」で agent が principal のために署名する権限関係が明示され、sense:005 に一意に帰属する。sense:003 の主要人物には、agent がその者を代理して法律行為をするという対になる意味関係が含まれない。"
+          },
+          {
+            "example_id": "ex-48416206aa83",
+            "classification": "ambiguous",
+            "candidate_sense_ids": [
+              "sense:002",
+              "sense:003"
+            ],
+            "discriminating_terms": [],
+            "rationale": "「She served as principal for twelve years.」だけでは、教育機関の長として務めた sense:002 と、会社・専門組織などの責任者として務めた sense:003 の双方が自然である。期間を表す for twelve years はどちらにも使え、英文中に所属機関や principal の関係役割を特定する語がない。訳は校長を選んでいるが、英文の principal 自体の使われ方から競合語義を排除できない。"
+          },
+          {
+            "example_id": "ex-d440a4c1cda5",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "protect the principal while generating modest returns"
+            ],
+            "rationale": "「protect the principal while generating modest returns」は、投資元本とそこから生じる収益を対置するため sense:004 に一意に合う。sense:001 の「主要な」という評価では、returns と区別して保全される金額としての principal を説明できない。"
+          },
+          {
+            "example_id": "ex-8a67f3525667",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "principal obligor after payment"
+            ],
+            "rationale": "「principal obligor after payment」は、支払った guarantor が償還を求める相手として第一次的責任を負う債務者を示し、sense:006 に帰属する。sense:005 の本人であれば agent への授権関係が必要だが、この文が示すのは保証人との主従的な債務責任である。"
+          },
+          {
+            "example_id": "ex-163c63b2967b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "appointed Dr. Lee principal of the academy"
+            ],
+            "rationale": "「appointed Dr. Lee principal of the academy」は principal を academy の長に任命する目的格補語構文であり sense:002 に一意に合う。sense:003 の一般的な責任者では、principal of が教育機関 academy の最高管理者を表すこの役割関係を同じ自然さで説明できない。"
+          },
+          {
+            "example_id": "ex-94b7a91f4962",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "became a principal dancer with the company"
+            ],
+            "rationale": "「became a principal dancer with the company」はバレエ団内の首席という制度化された主要メンバーの役割を表し、sense:003 に帰属する。sense:001 の一般的な「主要な」では、became と with the company が表す昇格後の人的地位を単なる重要度としてしか扱えず、この役職関係を捉えられない。"
+          },
+          {
+            "example_id": "ex-47c18b5436d2",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "school principal"
+            ],
+            "rationale": "「school principal」は principal の管理対象が school であることを複合語内で直接指定するため sense:002 に一意に合う。sense:003 の一般的な組織責任者ではなく、教育機関の長という関係が headword に結び付いている。"
+          },
+          {
+            "example_id": "ex-49c6d1fe1f87",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "principal place of business"
+            ],
+            "rationale": "「principal place of business」では principal が place を限定して会社の中心的な事業所を表すため、形容詞 sense:001 に帰属する。人を指す名詞 sense:003 では place を修飾するこの統語・意味関係が成立しない。"
+          },
+          {
+            "example_id": "ex-f14d2b17bc1e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "pay down the principal"
+            ],
+            "rationale": "「pay down the principal」は追加返済によって未返済の基礎額を減らす関係を表し、sense:004 に一意に合う。sense:006 の主たる債務者なら pay down の目的語は人ではなくその人が負う debt になるため、この構文では成立しない。"
+          },
+          {
+            "example_id": "ex-ae3b36dcca8e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "repaying principal"
+            ],
+            "rationale": "「repaying principal」は borrower が返済する金額を principal が直接表すため sense:004 に帰属する。sense:006 の主たる債務者は repaying の行為者にはなり得ても、無冠詞で返済対象となる principal そのものにはならない。"
+          },
+          {
+            "example_id": "ex-0bd92573efd0",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "principal cause of the failure"
+            ],
+            "rationale": "「principal cause of the failure」では複数の可能な原因の中の主因として cause を限定しており、形容詞 sense:001 に一意に合う。人物を指す名詞 sense:003 では cause を修飾して重要度を示すこの用法にならない。"
+          },
+          {
+            "example_id": "ex-8eb0261eda14",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "classified the defendant as a principal in the first degree"
+            ],
+            "rationale": "「classified the defendant as a principal in the first degree」は刑事上の正犯区分を明示し、sense:006 に一意に帰属する。sense:003 の中心人物なら defendant を犯罪法上の degree 付き類型へ classified するこの補語構造を説明できない。"
+          },
+          {
+            "example_id": "ex-5367d0414df6",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "principal of the college"
+            ],
+            "rationale": "「principal of the college」は principal が長として管理する教育機関を of 補部で直接示すため sense:002 に一意に合う。sense:003 の企業・交渉等の責任者には college の教育機関長という固有の役割関係がない。"
+          },
+          {
+            "example_id": "ex-64fcb271ebf1",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "agent generally owes duties of loyalty and care to the principal"
+            ],
+            "rationale": "「agent generally owes duties of loyalty and care to the principal」は agent と principal の代理関係に固有の義務の方向を示し、sense:005 に帰属する。sense:003 の主要人物に対しても忠実に行動することはあり得るが、agent が principal に負う loyalty and care という対概念は組織上の順位だけでは成立しない。"
+          },
+          {
+            "example_id": "ex-3703bb49e52f",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "principal reason for the delay"
+            ],
+            "rationale": "「principal reason for the delay」では reason を重要度の高い理由として限定しており、形容詞 sense:001 に一意に合う。金額を指す名詞 sense:004 では reason を修飾するこの意味関係を作れない。"
+          },
+          {
+            "example_id": "ex-31ca39a064e5",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "principals in the merger met without their advisers"
+            ],
+            "rationale": "「principals in the merger met without their advisers」は、合併の主要当事者である複数の人物が advisers と区別されて会談するため sense:003 に帰属する。sense:005 の本人なら agent に権限を与える関係が principal の意味を選ぶはずだが、この文の without their advisers は助言者との同席の有無であり代理授権を表さない。"
+          },
+          {
+            "example_id": "ex-92549cf1f6b9",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "assists the offense as a principal"
+            ],
+            "rationale": "「assists the offense as a principal」は、犯罪を情を知って援助した者を statute が正犯として扱う刑事分類を表すため sense:006 に一意に合う。sense:003 の主要人物には offense への関与に基づき法令が as a principal と扱う責任類型がない。"
+          },
+          {
+            "example_id": "ex-cc28294ad89a",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "principal clarinet played the opening solo"
+            ],
+            "rationale": "「principal clarinet played the opening solo」は clarinet を奏者の役割として用い、その首席奏者が solo を演奏する制度化された人的地位を表すため sense:003 に帰属する。sense:001 の一般的な主要性だけなら principal clarinet を中心的な楽器とも読めるが、主語が played して奏者として振る舞うため、その競合解釈は成立しない。"
+          },
+          {
+            "example_id": "ex-4203a9ed810b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "a principal source of income"
+            ],
+            "rationale": "「a principal source of income」は source を主要な収入源の一つとして限定するため、形容詞 sense:001 に一意に合う。責任者を指す名詞 sense:003 では source に対するこの修飾関係を説明できない。"
+          },
+          {
+            "example_id": "ex-3a660aec3db3",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "one of the principal architects of the reform"
+            ],
+            "rationale": "「one of the principal architects of the reform」では principal が複数の architects を重要度で限定しており、形容詞 sense:001 に帰属する。sense:003 も中心人物を指せるが、その場合 principal 自体が名詞の中心となるのに対し、この文では architects を修飾しているため競合しない。"
+          },
+          {
+            "example_id": "ex-118a0c4f74a1",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "principal-agent relationship"
+            ],
+            "rationale": "「principal-agent relationship」は owner と broker の間に本人・代理人という対を成立させ、principal を権限の源としているため sense:005 に一意に合う。sense:003 の組織上の責任者には agent と対になって relationship を構成する必須の意味関係がない。"
+          },
+          {
+            "example_id": "ex-c391c2db4b1c",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "both principal and interest"
+            ],
+            "rationale": "「both principal and interest」は返済額を元金と利息の二部分に分けて対置するため sense:004 に一意に帰属する。形容詞 sense:001 の主要性では、interest と並列される支払対象の金額として principal を解釈できない。"
+          },
+          {
+            "example_id": "ex-9ce5caa56e39",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "liable as principal for the debt"
+            ],
+            "rationale": "「liable as principal for the debt」は会社が債務について第一次的責任を負う地位を表すため sense:006 に一意に合う。sense:005 の本人でも代理人の行為に関する責任が問題になり得るが、この文には agent や授権がなく、as principal for the debt が直接示すのは主たる債務者としての責任である。"
+          }
+        ]
+      },
+      "aligned_at": "2026-09-08T00:20:07.074601+00:00",
+      "findings": [
+        {
+          "taxonomy_id": "example_sense_attribution_mismatch",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 154,
+            "line_end": 154,
+            "exact_quote": "例: She served as principal for twelve years.  "
+          },
+          "severity": "blocking",
+          "rationale": "段階1でsense:002, sense:003が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "判別語の追加"
+        }
+      ],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "qualification",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "principal-qualification-1"
+      },
+      "findings": [
+        {
+          "taxonomy_id": "regional_qualification",
+          "location": {
+            "section": "frequency_register",
+            "line_start": 129,
+            "line_end": 129,
+            "exact_quote": "【頻度】〈9/10〉"
+          },
+          "severity": "minor",
+          "rationale": "この語義は直後で、学校長を principal と呼ぶのは米国・カナダなどでは一般的だが、イギリスでは head teacher / head が一般的だと地域限定されている。それにもかかわらず 9/10 という値だけでは英語全体での遭遇頻度なのか北米内の頻度なのか判別できず、地域内の高頻度を英語全体へ一般化して見える。",
+          "evidence_link_ids": [],
+          "suggested_direction": "頻度値を英語全体での遭遇頻度として再評価するか、値が対象とする地域・コーパスを明示して、直後の地域差説明と整合させる。"
+        },
+        {
+          "taxonomy_id": "technical_terminology_conventionality",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 73,
+            "line_end": 73,
+            "exact_quote": "用途: 企業が主として事業を管理・運営する場所を指す定着した法律・ビジネス表現。"
+          },
+          "severity": "minor",
+          "rationale": "principal place of business を法律表現として扱いながら、どの場所が該当するかを一律の語義的基準として説明している。法律上の判定基準と効果は法域・法令・手続きによって異なり、一般的な語彙説明だけでは制度上の成立要件を確定できない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "一般語としては「主たる事業所」と説明し、法律上どの場所が該当するかの判定基準と効果は法域・法令によって異なる旨を添える。"
+        }
+      ]
+    },
+    {
+      "pass_id": "pronunciation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "principal-pronunciation-1"
+      },
+      "findings": []
+    },
+    {
+      "pass_id": "evidence",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "principal-evidence-1"
+      },
+      "findings": [
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "usage_notes",
+            "line_start": 77,
+            "line_end": 77,
+            "exact_quote": "`principal` は通常、名詞の前に置く限定用法で使う。`the principal concern` は自然だが、`The concern is principal.` のような叙述用法は一般文では不自然または非常に形式的で、通常は `The concern is the main one.` や `The concern is primary.` とする。"
+          },
+          "severity": "blocking",
+          "rationale": "C-001 links this usage target to F-001, F-013, and F-016, but those facts establish only the adjective's importance/rank meaning. None records chiefly attributive distribution, the claimed markedness of predicative use, or the proposed replacements, so the linked evidence does not directly support this grammatical restriction.",
+          "evidence_link_ids": [
+            "C-001"
+          ],
+          "suggested_direction": "Limit the target to the supported importance meaning, or replace/add a fixed fact whose locator directly documents attributive versus predicative use."
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "sense_structure",
+            "line_start": 184,
+            "line_end": 184,
+            "exact_quote": "具体的には企業の共同経営者・責任者、交渉の主要当事者、バレエ団の首席ダンサー、オーケストラの首席奏者などを指し、肩書きとして大文字で書かれることもある。"
+          },
+          "severity": "blocking",
+          "rationale": "C-003 is supported by F-007 and F-018 for leading performers and orchestral section players, and by F-029 for a historical chief-person/leading-representative sense. Those linked facts do not directly establish the current company co-owner, negotiation-party, or capitalization claims in this target; the evidence therefore supports only part of the enumerated scope.",
+          "evidence_link_ids": [
+            "C-003"
+          ],
+          "suggested_direction": "Restrict the enumeration to the supported leading-person and performing-arts uses, or supply fixed facts directly covering business ownership, negotiation parties, and capitalization."
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "sense_structure",
+            "line_start": 305,
+            "line_end": 305,
+            "exact_quote": "具体的な法的効果や責任範囲は法域、実際の権限、外観上の権限などによって異なるため、この語自体だけから一律に決まらない。"
+          },
+          "severity": "blocking",
+          "rationale": "C-006 links F-004, F-020, and F-023, which support authorization, acting on the principal's behalf, control, and the principal as the source of authority. They do not record the stated jurisdictional variability or the actual-authority/apparent-authority distinctions, even though C-006 extends its claim to effects under governing law.",
+          "evidence_link_ids": [
+            "C-006"
+          ],
+          "suggested_direction": "Keep the definition to authorization, behalf, and control, or replace/add a fixed legal fact that directly supports the jurisdiction and authority-type qualification."
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "word_formation",
+            "line_start": 25,
+            "line_end": 25,
+            "exact_quote": "・principalship：名詞。校長・学長など `principal` の職、任期、地位を表す。  "
+          },
+          "severity": "blocking",
+          "rationale": "C-011 claims office, position, or tenure, but its sole support F-011 records only the office or position of a principal. The target's `任期` (tenure/term) component is not directly supported by the linked fact.",
+          "evidence_link_ids": [
+            "C-011"
+          ],
+          "suggested_direction": "Remove the tenure/term component, or replace/add a fixed fact whose locator explicitly gives that sense."
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "word_formation",
+            "line_start": 24,
+            "line_end": 24,
+            "exact_quote": "・principally：副詞。「主として、主に」の意味で、`mainly` よりやや形式的に響くことがある。  "
+          },
+          "severity": "blocking",
+          "rationale": "C-012 relies only on F-012, whose statement and source detail establish that `principally` is the adverb formed from `principal`; they do not record the gloss `mainly/chiefly` or the asserted formality contrast with `mainly`. The linked evidence therefore does not directly support the target as written.",
+          "evidence_link_ids": [
+            "C-012"
+          ],
+          "suggested_direction": "Limit the entry to the supported derivational relationship, or replace/add a fixed fact directly documenting the meaning and register comparison."
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "pronunciation",
+            "line_start": 15,
+            "line_end": 15,
+            "exact_quote": "`principle` も通常まったく同じ /ˈprɪnsəpəl/ なので、音だけでは区別できない。"
+          },
+          "severity": "blocking",
+          "rationale": "F-009 directly supplies only the pronunciation of `principal`. C-013's sole linked fact F-032 distinguishes the spellings, meanings, and parts of speech, but its recorded statement and detail do not give the pronunciation of `principle`. U-013 and the target therefore assert homophony beyond their cited fact support.",
+          "evidence_link_ids": [
+            "C-009",
+            "C-013"
+          ],
+          "suggested_direction": "Remove the homophony claim, or replace/add a fixed pronunciation fact that directly gives `principle` and establishes the match."
+        }
+      ]
+    }
+  ],
+  "checker_reviewers": {
+    "translation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "principal-translation-1"
+    },
+    "sense-structure": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "principal-sense-structure-1"
+    },
+    "frame-relation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "principal-frame-relation-1"
+    },
+    "example-attribution": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "principal-example-attribution-1"
+    },
+    "qualification": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "principal-qualification-1"
+    },
+    "pronunciation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "principal-pronunciation-1"
+    },
+    "evidence": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "principal-evidence-1"
+    }
+  },
+  "independent_candidates": [],
+  "summary": "Independent checker stage 1 completed by seven parallel handoff agents; frame-relation stage 2 remains pending."
+}

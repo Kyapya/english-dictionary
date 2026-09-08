@@ -1,0 +1,97 @@
+{
+  "summary": "問題候補3件。語義1の前置詞パターンが不適切な組合せまで許すように読める点、名詞として立てた語義3・6に形容詞用法が混在して品詞境界が曖昧な点、語義6のレジスター説明に意味をなさない誤記がある点を指摘する。",
+  "findings": [
+    {
+      "id": "principal-cold-001",
+      "location": "語義1の文法パターン",
+      "severity": "medium",
+      "description": "複数の名詞と前置詞をスラッシュで一括したため、学習者が reason of や source for などを同等の基本パターンとして一般化しかねない。",
+      "reason": "「`the principal cause/source/reason of/for ...`＝～の主因・主要源・主な理由」は、各名詞と前置詞の対応関係を示していない。本文の実例が reason for、cause of、source of である一方、この表記は cause for、source for、reason of も無条件に推奨するように読め、語法案内として曖昧である。",
+      "suggested_direction": "名詞ごとに `the principal cause of ...`、`a principal source of ...`、`the principal reason for ...` と分けて示す。cause for など別の意味・構文で成立しうる組合せは、この基本パターンから外す。",
+      "scope_anchors": [
+        {
+          "id": "principal-cold-001-a",
+          "exact_quote": "`the principal cause/source/reason of/for ...`＝～の主因・主要源・主な理由",
+          "location_hint": "語義1「文法パターン」の末尾"
+        }
+      ]
+    },
+    {
+      "id": "principal-cold-002",
+      "location": "語義3・語義6の品詞と用法区分",
+      "severity": "medium",
+      "description": "名詞・可算と標示した語義の中に、principal が後続名詞を修飾する形容詞用法を主要パターンとして入れており、名詞単独の用法との境界が不明瞭になっている。",
+      "reason": "語義3は「3. 【名詞・可算】責任者、中心人物、首席・主要メンバー」と標示されるが、同じ節の `a principal dancer/player` は本文自身が形容詞的修飾だと認めている。また語義6でも `the principal obligor/debtor` は principal 単独の名詞用法ではなく形容詞による修飾である。品詞を学ぶ読者には、これらが名詞 principal の構文なのか、語義1の形容詞 principal の専門的な組合せなのかが判別しにくい。",
+      "suggested_direction": "名詞単独の `a principal` と、形容詞としての `principal dancer`、`principal clarinet`、`principal obligor/debtor` を明示的に分ける。後者を各専門領域での語義1の用法として相互参照するか、節内に独立した「形容詞用法」小区分を設ける。",
+      "scope_anchors": [
+        {
+          "id": "principal-cold-002-a",
+          "exact_quote": "3. 【名詞・可算】責任者、中心人物、首席・主要メンバー",
+          "location_hint": "語義3の見出し"
+        },
+        {
+          "id": "principal-cold-002-b",
+          "exact_quote": "`a principal dancer/player`＝首席ダンサー・首席奏者／`the principal 〈楽器名〉`＝オーケストラの首席～奏者",
+          "location_hint": "語義3「文法パターン」の後半"
+        },
+        {
+          "id": "principal-cold-002-c",
+          "exact_quote": "`principal dancer` の `principal` は形容詞的に名詞を修飾しているため、「首席という地位の人」を指す名詞単独の `a principal` と構造を区別する。",
+          "location_hint": "語義3「語法・注意」の末文"
+        },
+        {
+          "id": "principal-cold-002-d",
+          "exact_quote": "`the principal obligor/debtor`＝主たる債務者",
+          "location_hint": "語義6「文法パターン」の中盤"
+        }
+      ]
+    },
+    {
+      "id": "principal-cold-003",
+      "location": "語義6のレジスター/領域",
+      "severity": "low",
+      "description": "「犯罪義」という語が意味をなさず、誤記のため説明が読み取れない。",
+      "reason": "「犯罪義は現代の法域によって分類法が異なり」は日本語として成立せず、文脈上は「犯罪語義」または「犯罪に関する用法」などの脱字・誤記と考えられる。法律用法の法域差を説明する重要な注意書きなので、意図が明確になるよう直す必要がある。",
+      "suggested_direction": "意図に応じて「犯罪に関するこの語義は、現代の法域によって分類法が異なり」など、意味の通る表現に修正する。",
+      "scope_anchors": [
+        {
+          "id": "principal-cold-003-a",
+          "exact_quote": "犯罪義は現代の法域によって分類法が異なり",
+          "location_hint": "語義6「レジスター/領域」の第2文"
+        }
+      ]
+    }
+  ],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-cold-review-1"
+  },
+  "_output_metadata": {
+    "schema_version": "cold_review_v1",
+    "stage": "cold_review",
+    "run_id": "cold-principal-20260907T233257Z-44da61f2",
+    "context_id": "cold-principal-context-20260907T233257Z-44da61f2",
+    "input_body_sha256": "0ce3b3f2256f78d6a313ae1445d684390dfb421a0112c14efeaaec945bd42057",
+    "prompt_sha256": "25c298d1a4305746147791bd442cd725a92737c8f0802b992ea88e5c6ff76a5d",
+    "input_artifacts": [
+      "entry_body",
+      "cold_review_prompt"
+    ],
+    "audit_visible": false
+  },
+  "contract_version": "review_preflight_v1",
+  "schema_version": "cold_review_v1",
+  "stage": "cold_review",
+  "run_id": "cold-principal-20260907T233257Z-44da61f2",
+  "context_id": "cold-principal-context-20260907T233257Z-44da61f2",
+  "input_body_sha256": "0ce3b3f2256f78d6a313ae1445d684390dfb421a0112c14efeaaec945bd42057",
+  "prompt_sha256": "25c298d1a4305746147791bd442cd725a92737c8f0802b992ea88e5c6ff76a5d",
+  "input_artifacts": [
+    "entry_body",
+    "cold_review_prompt"
+  ],
+  "audit_visible": false,
+  "recorded_at": "2026-09-08T00:30:52.256611+00:00"
+}

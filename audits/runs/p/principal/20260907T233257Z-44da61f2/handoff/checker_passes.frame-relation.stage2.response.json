@@ -1,0 +1,104 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "0ce3b3f2256f78d6a313ae1445d684390dfb421a0112c14efeaaec945bd42057",
+  "stage2_request_sha256": "4ef88102c829b2c965b1016150277189fe89bffdbffbfcf505df037f08a6aacf",
+  "blind_record_sha256": "76fe96140e09f65bc57ed652553ab46aa333706b5824655ed1d5efdc3c1db76f",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-frame-relation-1"
+  },
+  "aligned_at": "2026-09-08T00:20:00Z",
+  "adjudications": [
+    {
+      "item_id": "ant-8959d5c10634",
+      "flags": [],
+      "rationale": "第一順位・主要性と二次的順位は、当該語義から直接導ける順位の程度軸で対立し、違い行もその対立を維持している。F1〜F4なし。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-74b19a19d243",
+      "flags": [],
+      "rationale": "重要度・影響力が特に高いものと比較的小さいものは、当該語義の重要度の程度軸で対立する。違い行に自己否定はない。F1〜F4なし。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-5215a334cb31",
+      "flags": [],
+      "rationale": "元金とそこから生じる利息は、貸付・投資額の構成上の補完的区分として当該語義から導け、違い行も同じ区分を説明している。F1〜F4なし。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-f6cb375aa51a",
+      "flags": [],
+      "rationale": "権限を与える本人と、その権限で行動する代理人は、同じ代理関係における補完的役割であり、当該語義と違い行が一致する。F1〜F4なし。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-80c206000217",
+      "flags": [],
+      "rationale": "債務について第一次的責任を負う者と不履行時に責任を負う保証人は、責任順位・役割の状態軸で対照され、当該語義の債務用法と違い行に整合する。F1〜F4なし。",
+      "suggested_direction": null,
+      "f4_severity": null
+    }
+  ],
+  "frame_findings": [
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 48,
+        "line_end": 48,
+        "exact_quote": "【文法パターン】`the principal 〈名詞〉`＝主要な～／`a principal 〈名詞〉`＝主な～の一つ／`one of the principal 〈複数名詞〉`＝主要な～の一つ／`the principal cause/source/reason of/for ...`＝～の主因・主要源・主な理由  "
+      },
+      "severity": "blocking",
+      "rationale": "結合したプレースホルダは cause/source/reason と of/for の全組合せが成立するように見えるが、標準的な組合せは主に cause of、source of、reason for であり、reason of や通常の source for を同列に生成させる。",
+      "evidence_link_ids": [],
+      "suggested_direction": "名詞ごとに完全フレームを分離し、the principal cause of ...／a principal source of ...／the principal reason for ... とする。"
+    },
+    {
+      "taxonomy_id": "lexical_relation_mislabel",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 287,
+        "line_end": 287,
+        "exact_quote": "・principal balance  "
+      },
+      "severity": "blocking",
+      "rationale": "principal balance は見出し語 principal を含む限定的な複合表現であり、principal の中心義と重なる別の語ではないため類義語として成立しない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "類義語欄から削除し、必要なら元金語義のコロケーションまたは語法欄へ移動する。"
+    },
+    {
+      "taxonomy_id": "lexical_relation_mislabel",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 405,
+        "line_end": 405,
+        "exact_quote": "・principal debtor  "
+      },
+      "severity": "blocking",
+      "rationale": "principal debtor は見出し語 principal を含む、債務者であることを明示した複合語であり、principal の類義語ではない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "類義語欄から削除し、文法パターンまたはコロケーションとして扱う。"
+    }
+  ],
+  "unrouted_observations": [
+    {
+      "target_pass_id": "sense-structure",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 362,
+        "line_end": 364,
+        "exact_quote": "6. 【名詞・可算・法律】正犯、犯罪の主要関与者；主たる債務者・第一次的責任者"
+      },
+      "rationale": "刑事法上の正犯と債務・保証上の第一次的責任者は異なる法的フレームであり、同一語義に統合すると surety との反意関係が債務用法にだけ適用される。"
+    }
+  ]
+}
