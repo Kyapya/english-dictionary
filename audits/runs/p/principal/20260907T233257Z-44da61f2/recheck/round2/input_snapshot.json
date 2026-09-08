@@ -1,0 +1,925 @@
+{
+  "schema_version": "checker_recheck_input_snapshot_v1",
+  "round": 2,
+  "source_inventory": {
+    "schema_version": "source_inventory_v2",
+    "stage": "source_inventory",
+    "headword": "principal",
+    "run_id": "source-principal-20260907T233257Z-44da61f2",
+    "context_id": "source-principal-context-20260907T233257Z-44da61f2",
+    "input_body_sha256": "a90e8ce4e9b278894c354be6358063e378816073104700b90e9a801635efff87",
+    "prompt_sha256": "9b098479af4d18acf89543a2b62c81ed21f99aac429743bed1aa2b0c489864dd",
+    "input_artifacts": [
+      "headword",
+      "source_first_spec"
+    ],
+    "recorded_at": "2026-09-07T23:55:00Z",
+    "source_first_audit": {
+      "version": "source_first_audit_v2",
+      "profile": "standard",
+      "profile_reason": "bounded default profile",
+      "limits": {
+        "max_sources": 6,
+        "max_facts": 48,
+        "max_research_rounds": 2,
+        "max_post_cold_rechecks": 1,
+        "max_final_attempts": 2
+      },
+      "usage": {
+        "sources_used": 6,
+        "facts_used": 32,
+        "research_rounds_used": 2,
+        "post_cold_rechecks_used": 0,
+        "final_attempts_used": 0
+      },
+      "research_status": "complete",
+      "stop_reason": "coverage_axes_closed",
+      "open_questions": [],
+      "inventory_completed_before_article_comparison": true,
+      "inventory_completed_at": "2026-09-07T23:55:00Z",
+      "article_comparison_started_at": "2026-09-07T23:55:01Z",
+      "coverage_axes": [
+        {
+          "axis": "lexical_senses",
+          "status": "covered",
+          "source_fact_ids": [
+            "F-001",
+            "F-002",
+            "F-003",
+            "F-004",
+            "F-005",
+            "F-006",
+            "F-007",
+            "F-008",
+            "F-013",
+            "F-014",
+            "F-015",
+            "F-016",
+            "F-017",
+            "F-018",
+            "F-019",
+            "F-020",
+            "F-021",
+            "F-022",
+            "F-023",
+            "F-024",
+            "F-025",
+            "F-026",
+            "F-027",
+            "F-029",
+            "F-030",
+            "F-031"
+          ],
+          "notes": "Three independent general dictionaries cover the adjective and the education, leadership, performance, finance, agency, criminal, and obligation noun uses."
+        },
+        {
+          "axis": "part_of_speech_and_frames",
+          "status": "covered",
+          "source_fact_ids": [
+            "F-001",
+            "F-002",
+            "F-003",
+            "F-004",
+            "F-008",
+            "F-013",
+            "F-014",
+            "F-015",
+            "F-016",
+            "F-017",
+            "F-018",
+            "F-019",
+            "F-020",
+            "F-023",
+            "F-027"
+          ],
+          "notes": "Adjective premodification, countable person nouns, and mass/count uses of the finance noun are directly represented."
+        },
+        {
+          "axis": "derived_and_related_forms",
+          "status": "covered",
+          "source_fact_ids": [
+            "F-011",
+            "F-012",
+            "F-032",
+            "F-023"
+          ],
+          "notes": "Principalship and principally are atomic derivative facts; principal-agent and the principal/principle distinction are also represented."
+        },
+        {
+          "axis": "specialist_and_legal_uses",
+          "status": "covered",
+          "source_fact_ids": [
+            "F-004",
+            "F-005",
+            "F-006",
+            "F-008",
+            "F-018",
+            "F-019",
+            "F-020",
+            "F-021",
+            "F-022",
+            "F-023",
+            "F-024",
+            "F-025",
+            "F-026",
+            "F-027"
+          ],
+          "notes": "Cornell Wex and Investor.gov directly cover agency, primary liability, trust corpus, and financial principal; general dictionaries corroborate criminal and performance uses."
+        },
+        {
+          "axis": "register_region_and_frequency",
+          "status": "covered",
+          "source_fact_ids": [
+            "F-001",
+            "F-003",
+            "F-005",
+            "F-006",
+            "F-007",
+            "F-013",
+            "F-014",
+            "F-016",
+            "F-017",
+            "F-018",
+            "F-019",
+            "F-021",
+            "F-022"
+          ],
+          "notes": "Learner and general dictionaries distinguish ordinary attributive use, regional education titles, professional performance, and specialist legal-financial uses."
+        },
+        {
+          "axis": "pronunciation_and_etymology",
+          "status": "covered",
+          "source_fact_ids": [
+            "F-009",
+            "F-010",
+            "F-028",
+            "F-029",
+            "F-030",
+            "F-031"
+          ],
+          "notes": "Merriam-Webster supplies pronunciation and a concise Latin lineage; Etymonline independently documents the adjective, person, education, and money histories."
+        }
+      ],
+      "sources": [
+        {
+          "id": "S-001",
+          "title": "Merriam-Webster — principal",
+          "locator": "https://www.merriam-webster.com/dictionary/principal",
+          "source_type": "general_dictionary",
+          "source_role": "general_lexicon",
+          "independence_group": "merriam_webster",
+          "facts": [
+            {
+              "id": "F-001",
+              "form": "principal",
+              "kind": "lexical_sense",
+              "statement": "As an adjective, principal means most important, consequential, or influential.",
+              "source_detail": "Adjective sense 1 and examples principal ingredient and principal city."
+            },
+            {
+              "id": "F-002",
+              "form": "principal",
+              "kind": "lexical_sense",
+              "statement": "As a noun, principal can be a person with controlling authority or a leading position.",
+              "source_detail": "Noun sense 1 introduces the authority and leading-position group."
+            },
+            {
+              "id": "F-003",
+              "form": "principal",
+              "kind": "lexical_sense",
+              "statement": "Principal can denote the chief executive of an educational institution.",
+              "source_detail": "Noun sense 1b directly defines the education-head use."
+            },
+            {
+              "id": "F-004",
+              "form": "principal",
+              "kind": "specialist_use",
+              "statement": "In agency, a principal engages another to act as an agent and is the source of the agent's authority.",
+              "source_detail": "Noun sense 1c states both engagement and derivation of authority."
+            },
+            {
+              "id": "F-005",
+              "form": "principal",
+              "kind": "specialist_use",
+              "statement": "In criminal-law usage, principal can denote a chief or actual participant in a crime.",
+              "source_detail": "Noun sense 1d and the legal definition distinguish principal participation from accessory status."
+            },
+            {
+              "id": "F-006",
+              "form": "principal",
+              "kind": "specialist_use",
+              "statement": "Principal can denote the person primarily or ultimately liable on a legal obligation.",
+              "source_detail": "Noun sense 1e and legal sense 1c contrast primary and secondary liability."
+            },
+            {
+              "id": "F-007",
+              "form": "principal",
+              "kind": "lexical_sense",
+              "statement": "Principal can denote a leading performer or star.",
+              "source_detail": "Noun sense 1f directly records the performer use."
+            },
+            {
+              "id": "F-008",
+              "form": "principal",
+              "kind": "specialist_use",
+              "statement": "Financial principal is a capital sum earning interest, due as debt, or used as a fund.",
+              "source_detail": "Noun sense 2a and the legal definition distinguish principal from interest."
+            },
+            {
+              "id": "F-009",
+              "form": "principal",
+              "kind": "pronunciation",
+              "statement": "Principal is pronounced /ˈprɪnsəpəl/, with optional phonetic variants represented in the dictionary respelling.",
+              "source_detail": "The adjective and noun share the same pronunciation entry."
+            },
+            {
+              "id": "F-010",
+              "form": "principal",
+              "kind": "etymology",
+              "statement": "Principal entered Middle English through Anglo-French from Latin principalis and princeps.",
+              "source_detail": "Merriam-Webster word history gives the Anglo-French and Latin lineage."
+            },
+            {
+              "id": "F-011",
+              "form": "principalship",
+              "kind": "derived_form",
+              "statement": "Principalship is listed as a noun derivative of principal.",
+              "source_detail": "Merriam-Webster lists principalship as a derived noun."
+            },
+            {
+              "id": "F-012",
+              "form": "principally",
+              "kind": "derived_form",
+              "statement": "Principally is the adverb formed from principal.",
+              "source_detail": "Merriam-Webster lists principally directly after the adjective."
+            },
+            {
+              "id": "F-032",
+              "form": "principle",
+              "kind": "usage_distinction",
+              "statement": "Principle is a noun for a fundamental rule or law, whereas principal is also an adjective for most important.",
+              "source_detail": "The usage note explicitly warns against confusing principal with principle."
+            }
+          ]
+        },
+        {
+          "id": "S-002",
+          "title": "Cambridge Dictionary — principal",
+          "locator": "https://dictionary.cambridge.org/dictionary/english/principal",
+          "source_type": "learner_dictionary",
+          "source_role": "general_lexicon",
+          "independence_group": "cambridge_university_press",
+          "facts": [
+            {
+              "id": "F-013",
+              "form": "principal",
+              "kind": "lexical_sense",
+              "statement": "The adjective principal means first in order of importance.",
+              "source_detail": "Cambridge learner definition and examples cover principal aim and principal reason."
+            },
+            {
+              "id": "F-014",
+              "form": "principal",
+              "kind": "lexical_sense",
+              "statement": "The noun principal denotes a person in charge of a school.",
+              "source_detail": "Cambridge's school-person noun sense directly records the title."
+            },
+            {
+              "id": "F-015",
+              "form": "principal",
+              "kind": "specialist_use",
+              "statement": "In finance, principal is an amount lent, borrowed, or invested apart from additional money such as interest.",
+              "source_detail": "Cambridge's finance noun sense separates the underlying amount from additions."
+            }
+          ]
+        },
+        {
+          "id": "S-003",
+          "title": "Collins English Dictionary — principal",
+          "locator": "https://www.collinsdictionary.com/dictionary/english/principal",
+          "source_type": "general_dictionary",
+          "source_role": "general_lexicon",
+          "independence_group": "harpercollins",
+          "facts": [
+            {
+              "id": "F-016",
+              "form": "principal",
+              "kind": "lexical_sense",
+              "statement": "The adjective principal marks the highest or among the highest in rank, authority, importance, or degree.",
+              "source_detail": "The American English adjective definition gives the rank-and-importance range."
+            },
+            {
+              "id": "F-017",
+              "form": "principal",
+              "kind": "register_region",
+              "statement": "Principal denotes the head of a school and, especially in England, may denote the head of a college.",
+              "source_detail": "Collins distinguishes the school title and the English college use."
+            },
+            {
+              "id": "F-018",
+              "form": "principal",
+              "kind": "specialist_use",
+              "statement": "In performing arts and orchestras, principal can denote a leading performer or the first player of a section.",
+              "source_detail": "Collins lists leading actor, principal dancer, and orchestral first-player uses."
+            },
+            {
+              "id": "F-019",
+              "form": "principal",
+              "kind": "specialist_use",
+              "statement": "In finance, principal is a capital sum distinguished from interest or profit and can include bond face value.",
+              "source_detail": "The finance senses distinguish debt or investment amount from interest and income."
+            },
+            {
+              "id": "F-020",
+              "form": "principal",
+              "kind": "specialist_use",
+              "statement": "In law, principal can be the person who employs or authorizes an agent.",
+              "source_detail": "The law sense directly gives the principal-agent role."
+            },
+            {
+              "id": "F-021",
+              "form": "principal",
+              "kind": "specialist_use",
+              "statement": "In law, principal can be a person directly responsible for a crime, including specified participation under the applicable classification.",
+              "source_detail": "The criminal-law sense compares principal with accessory."
+            },
+            {
+              "id": "F-022",
+              "form": "principal",
+              "kind": "specialist_use",
+              "statement": "Principal can be the person primarily liable for an obligation.",
+              "source_detail": "The liability sense contrasts the principal with an endorser or similar secondary party."
+            }
+          ]
+        },
+        {
+          "id": "S-004",
+          "title": "Cornell Legal Information Institute Wex — principal",
+          "locator": "https://www.law.cornell.edu/wex/principal",
+          "source_type": "legal_reference",
+          "source_role": "specialist_reference",
+          "independence_group": "cornell_lii",
+          "facts": [
+            {
+              "id": "F-023",
+              "form": "principal-agent relationship",
+              "kind": "specialist_use",
+              "statement": "An agency-law principal is a person or entity authorizing an agent to act on its behalf and subject to its control.",
+              "source_detail": "Wex states the authority, behalf, and control elements and notes duties owed by the agent."
+            },
+            {
+              "id": "F-024",
+              "form": "principal",
+              "kind": "specialist_use",
+              "statement": "Financial principal is the original debt or investment amount excluding interest, profit, or other earnings.",
+              "source_detail": "Wex separates the underlying amount from additions and explains that repayment reduces the obligation."
+            },
+            {
+              "id": "F-025",
+              "form": "principal",
+              "kind": "specialist_use",
+              "statement": "In trust law, principal is the trust corpus or property itself, distinct from its income or earnings.",
+              "source_detail": "Wex directly defines the trust-law corpus contrast."
+            },
+            {
+              "id": "F-026",
+              "form": "principal",
+              "kind": "specialist_use",
+              "statement": "Principal can denote the party bearing primary responsibility for an obligation, as distinct from a surety or guarantor with secondary liability.",
+              "source_detail": "Wex directly states the primary-versus-secondary liability contrast."
+            }
+          ]
+        },
+        {
+          "id": "S-005",
+          "title": "Investor.gov — Principal",
+          "locator": "https://www.investor.gov/introduction-investing/investing-basics/glossary/principal",
+          "source_type": "government_finance_glossary",
+          "source_role": "specialist_reference",
+          "independence_group": "us_sec_investor_gov",
+          "facts": [
+            {
+              "id": "F-027",
+              "form": "principal",
+              "kind": "specialist_use",
+              "statement": "Principal is the total amount borrowed or lent, or the initial amount invested.",
+              "source_detail": "Investor.gov gives this concise finance glossary definition."
+            }
+          ]
+        },
+        {
+          "id": "S-006",
+          "title": "Online Etymology Dictionary — principal",
+          "locator": "https://www.etymonline.com/word/principal",
+          "source_type": "etymology_reference",
+          "source_role": "etymology",
+          "independence_group": "etymonline",
+          "facts": [
+            {
+              "id": "F-028",
+              "form": "principal",
+              "kind": "etymology",
+              "statement": "The adjective is attested around 1300 from Old French principal and Latin principalis, ultimately connected with princeps, primus, and capere.",
+              "source_detail": "Etymonline records the main/chief adjective and analyzes princeps as first plus take."
+            },
+            {
+              "id": "F-029",
+              "form": "principal",
+              "kind": "etymology",
+              "statement": "The noun is attested around 1300 for a chief person or leading representative and also had an early legal use.",
+              "source_detail": "Etymonline's noun history records chief-person and law senses from the early period."
+            },
+            {
+              "id": "F-030",
+              "form": "principal",
+              "kind": "etymology",
+              "statement": "The public-school-head use is recorded from 1827, while a college-head use is older.",
+              "source_detail": "Etymonline distinguishes the nineteenth-century school use from the mid-fifteenth-century college use."
+            },
+            {
+              "id": "F-031",
+              "form": "principal",
+              "kind": "etymology",
+              "statement": "The main-sum-of-money noun use is recorded from the early fifteenth century.",
+              "source_detail": "Etymonline connects this sense with money on which interest is paid."
+            }
+          ]
+        }
+      ],
+      "source_union": [
+        {
+          "id": "U-001",
+          "source_fact_ids": [
+            "F-001",
+            "F-013",
+            "F-016"
+          ],
+          "canonical_statement": "The adjective principal marks something first or especially high in importance, rank, or influence.",
+          "disposition": "included",
+          "rationale": "High-frequency adjective sense supported by three independent dictionaries."
+        },
+        {
+          "id": "U-002",
+          "source_fact_ids": [
+            "F-002",
+            "F-003",
+            "F-014",
+            "F-017",
+            "F-029",
+            "F-030"
+          ],
+          "canonical_statement": "Principal denotes a person in authority and conventionally the head of specified educational institutions, with regional title differences.",
+          "disposition": "included",
+          "rationale": "Major person noun and education title with regional qualification; F-029 supplies the historical chief-person sense."
+        },
+        {
+          "id": "U-003",
+          "source_fact_ids": [
+            "F-007",
+            "F-018"
+          ],
+          "canonical_statement": "Principal can denote a leading performer, including a principal artist or orchestral section leader.",
+          "disposition": "included",
+          "rationale": "Established performing-arts noun use."
+        },
+        {
+          "id": "U-004",
+          "source_fact_ids": [
+            "F-008",
+            "F-015",
+            "F-019",
+            "F-024",
+            "F-027",
+            "F-031"
+          ],
+          "canonical_statement": "Financial principal is the underlying debt, loan, or investment amount distinguished from interest, profit, or later earnings.",
+          "disposition": "included",
+          "rationale": "Major specialist sense corroborated by general and government-specialist sources."
+        },
+        {
+          "id": "U-005",
+          "source_fact_ids": [
+            "F-025"
+          ],
+          "canonical_statement": "Trust principal is the property or corpus distinguished from income earned by it.",
+          "disposition": "integrated",
+          "rationale": "Direct specialist extension of the finance/property sense."
+        },
+        {
+          "id": "U-006",
+          "source_fact_ids": [
+            "F-004",
+            "F-020",
+            "F-023"
+          ],
+          "canonical_statement": "An agency principal authorizes an agent to act on the principal's behalf and is the source of the agent's authority.",
+          "disposition": "included",
+          "rationale": "Important legal and economics role supported by two dictionaries and Wex."
+        },
+        {
+          "id": "U-007",
+          "source_fact_ids": [
+            "F-005",
+            "F-021"
+          ],
+          "canonical_statement": "Criminal-law principal denotes a person treated as a primary participant under the applicable legal classification.",
+          "disposition": "included",
+          "rationale": "Low-frequency but encounterable specialist legal use; scope is explicitly jurisdiction-sensitive."
+        },
+        {
+          "id": "U-008",
+          "source_fact_ids": [
+            "F-006",
+            "F-022",
+            "F-026"
+          ],
+          "canonical_statement": "In obligation law, principal denotes the primarily liable party, contrasted with a secondarily liable surety or guarantor.",
+          "disposition": "included",
+          "rationale": "Directly supported specialist responsibility contrast."
+        },
+        {
+          "id": "U-009",
+          "source_fact_ids": [
+            "F-009"
+          ],
+          "canonical_statement": "The adjective and noun principal share the pronunciation /ˈprɪnsəpəl/.",
+          "disposition": "included",
+          "rationale": "Pronunciation support for the entry."
+        },
+        {
+          "id": "U-010",
+          "source_fact_ids": [
+            "F-010",
+            "F-028"
+          ],
+          "canonical_statement": "Principal came through French from Latin principalis and princeps, with a semantic core of first or chief.",
+          "disposition": "included",
+          "rationale": "Etymology is supported by two references."
+        },
+        {
+          "id": "U-011",
+          "source_fact_ids": [
+            "F-011"
+          ],
+          "canonical_statement": "Principalship is listed as a noun derivative of principal.",
+          "disposition": "included",
+          "rationale": "Recorded noun derivative."
+        },
+        {
+          "id": "U-012",
+          "source_fact_ids": [
+            "F-012"
+          ],
+          "canonical_statement": "Principally is the adverb formed from principal.",
+          "disposition": "included",
+          "rationale": "Recorded adverb derivative."
+        },
+        {
+          "id": "U-013",
+          "source_fact_ids": [
+            "F-032"
+          ],
+          "canonical_statement": "Principal and principle differ in spelling, parts of speech, and current meanings.",
+          "disposition": "included",
+          "rationale": "Major learner confusion directly addressed by dictionary usage guidance."
+        }
+      ],
+      "claim_units": [
+        {
+          "id": "C-001",
+          "union_ids": [
+            "U-001"
+          ],
+          "subject_form": "principal",
+          "claim_type": "lexical_sense",
+          "statement": "The adjective means principal, main, or first in relative importance.",
+          "article_target_ids": [
+            "definition:001",
+            "grammar_pattern:001"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F-001",
+              "support_summary": "Merriam-Webster directly defines the adjective."
+            },
+            {
+              "source_fact_id": "F-013",
+              "support_summary": "Cambridge independently supplies the importance definition."
+            },
+            {
+              "source_fact_id": "F-016",
+              "support_summary": "Collins adds rank, authority, and degree."
+            }
+          ]
+        },
+        {
+          "id": "C-002",
+          "union_ids": [
+            "U-002"
+          ],
+          "subject_form": "principal",
+          "claim_type": "lexical_sense",
+          "statement": "Principal is a person in authority and conventionally a school or education head, with the institution and preferred title varying by region.",
+          "article_target_ids": [
+            "definition:002",
+            "definition:003",
+            "grammar_pattern:002",
+            "usage_note:002"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F-002",
+              "support_summary": "Merriam-Webster supplies the broader authority and leading-position sense."
+            },
+            {
+              "source_fact_id": "F-003",
+              "support_summary": "Merriam-Webster directly gives the educational executive sense."
+            },
+            {
+              "source_fact_id": "F-014",
+              "support_summary": "Cambridge independently gives school head."
+            },
+            {
+              "source_fact_id": "F-017",
+              "support_summary": "Collins supplies the English college qualification."
+            },
+            {
+              "source_fact_id": "F-029",
+              "support_summary": "Etymonline records the historical chief-person and leading-representative noun sense."
+            },
+            {
+              "source_fact_id": "F-030",
+              "support_summary": "Etymonline documents the different historical dates for public-school and college-head uses."
+            }
+          ]
+        },
+        {
+          "id": "C-003",
+          "union_ids": [
+            "U-003"
+          ],
+          "subject_form": "principal",
+          "claim_type": "lexical_sense",
+          "statement": "Principal can be a leading performer or orchestral section player.",
+          "article_target_ids": [
+            "definition:003",
+            "grammar_pattern:003"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F-007",
+              "support_summary": "Merriam-Webster gives leading performer."
+            },
+            {
+              "source_fact_id": "F-018",
+              "support_summary": "Collins supplies performer and orchestral uses."
+            }
+          ]
+        },
+        {
+          "id": "C-004",
+          "union_ids": [
+            "U-004"
+          ],
+          "subject_form": "principal",
+          "claim_type": "specialist_use",
+          "statement": "Financial principal is the underlying borrowed, lent, or invested amount, distinct from interest and returns.",
+          "article_target_ids": [
+            "definition:004",
+            "grammar_pattern:004",
+            "usage_note:004"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F-008",
+              "support_summary": "Merriam-Webster defines the capital-sum sense."
+            },
+            {
+              "source_fact_id": "F-015",
+              "support_summary": "Cambridge independently covers lending, borrowing, and investment."
+            },
+            {
+              "source_fact_id": "F-019",
+              "support_summary": "Collins independently distinguishes capital sum and bond face value from interest or profit."
+            },
+            {
+              "source_fact_id": "F-024",
+              "support_summary": "Wex states the interest and earnings contrast."
+            },
+            {
+              "source_fact_id": "F-027",
+              "support_summary": "Investor.gov supplies the government finance definition."
+            },
+            {
+              "source_fact_id": "F-031",
+              "support_summary": "Etymonline documents the early-fifteenth-century main-sum history."
+            }
+          ]
+        },
+        {
+          "id": "C-005",
+          "union_ids": [
+            "U-005"
+          ],
+          "subject_form": "principal",
+          "claim_type": "specialist_use",
+          "statement": "Trust principal is property or corpus distinct from the income it produces.",
+          "article_target_ids": [
+            "usage_note:004"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F-025",
+              "support_summary": "Wex directly defines trust principal and its income contrast."
+            }
+          ]
+        },
+        {
+          "id": "C-006",
+          "union_ids": [
+            "U-006"
+          ],
+          "subject_form": "principal-agent relationship",
+          "claim_type": "specialist_use",
+          "statement": "An agency principal gives authority to an agent acting on its behalf and is the source of that authority.",
+          "article_target_ids": [
+            "definition:005",
+            "grammar_pattern:005",
+            "word_formation:003"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F-004",
+              "support_summary": "Merriam-Webster identifies the source-of-authority role."
+            },
+            {
+              "source_fact_id": "F-020",
+              "support_summary": "Collins independently gives the agent-employing principal."
+            },
+            {
+              "source_fact_id": "F-023",
+              "support_summary": "Wex gives authority, behalf, and control elements."
+            }
+          ]
+        },
+        {
+          "id": "C-007",
+          "union_ids": [
+            "U-007"
+          ],
+          "subject_form": "principal",
+          "claim_type": "specialist_use",
+          "statement": "Criminal-law principal denotes a primary participant according to a jurisdiction-specific legal classification.",
+          "article_target_ids": [
+            "definition:006",
+            "grammar_pattern:006",
+            "usage_note:006"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F-005",
+              "support_summary": "Merriam-Webster supplies criminal participant and historical degree classifications."
+            },
+            {
+              "source_fact_id": "F-021",
+              "support_summary": "Collins independently compares principal and accessory."
+            }
+          ]
+        },
+        {
+          "id": "C-008",
+          "union_ids": [
+            "U-008"
+          ],
+          "subject_form": "principal obligor",
+          "claim_type": "specialist_use",
+          "statement": "An obligation-law principal is primarily liable, in contrast with a surety or guarantor with secondary liability.",
+          "article_target_ids": [
+            "definition:007",
+            "grammar_pattern:007",
+            "usage_note:007"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F-006",
+              "support_summary": "Merriam-Webster gives primary or ultimate liability."
+            },
+            {
+              "source_fact_id": "F-022",
+              "support_summary": "Collins independently gives the obligation sense."
+            },
+            {
+              "source_fact_id": "F-026",
+              "support_summary": "Wex directly states the surety and guarantor contrast."
+            }
+          ]
+        },
+        {
+          "id": "C-009",
+          "union_ids": [
+            "U-009"
+          ],
+          "subject_form": "principal",
+          "claim_type": "pronunciation",
+          "statement": "Principal is pronounced /ˈprɪnsəpəl/ as both adjective and noun.",
+          "article_target_ids": [
+            "pronunciation:001"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F-009",
+              "support_summary": "Merriam-Webster supplies the shared pronunciation."
+            }
+          ]
+        },
+        {
+          "id": "C-010",
+          "union_ids": [
+            "U-010"
+          ],
+          "subject_form": "principal",
+          "claim_type": "etymology",
+          "statement": "Principal derives through French from Latin principalis and princeps and retains a first-or-chief semantic connection.",
+          "article_target_ids": [
+            "etymology:001"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F-010",
+              "support_summary": "Merriam-Webster supplies the transmission path."
+            },
+            {
+              "source_fact_id": "F-028",
+              "support_summary": "Etymonline supplies the semantic and morphological analysis."
+            }
+          ]
+        },
+        {
+          "id": "C-011",
+          "union_ids": [
+            "U-011"
+          ],
+          "subject_form": "principalship",
+          "claim_type": "derived_form",
+          "statement": "Principalship is listed as a noun derivative of principal.",
+          "article_target_ids": [
+            "word_formation:002"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F-011",
+              "support_summary": "Merriam-Webster records principalship as the noun derivative."
+            }
+          ]
+        },
+        {
+          "id": "C-012",
+          "union_ids": [
+            "U-012"
+          ],
+          "subject_form": "principally",
+          "claim_type": "derived_form",
+          "statement": "Principally is the adverb formed from principal.",
+          "article_target_ids": [
+            "word_formation:001"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F-012",
+              "support_summary": "Merriam-Webster records the adverb derivative."
+            }
+          ]
+        },
+        {
+          "id": "C-013",
+          "union_ids": [
+            "U-013"
+          ],
+          "subject_form": "principle",
+          "claim_type": "usage_distinction",
+          "statement": "Principle is the noun for a rule or fundamental truth and must not replace principal as the adjective or person-and-money noun.",
+          "article_target_ids": [
+            "usage_note:001"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F-032",
+              "support_summary": "Merriam-Webster directly explains the spelling, meaning, and part-of-speech contrast."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "input_body_sha256": "a90e8ce4e9b278894c354be6358063e378816073104700b90e9a801635efff87",
+  "source_artifact_sha256": "75775826336e48ec69bfa9e1d8457a9bb317da958651705395575df377922cf5",
+  "request_hashes": {
+    "translation": "d0f609228127b1b126868f04c28f67d17925a1831342744ba6a2432ea795979a",
+    "sense-structure": "bffbb50fdacd024717bde0fb1d87deeee4193867ded79bcca6ef9d0338173d4c",
+    "frame-relation": "a9752bd0c29f43d4ac32e877269fd4810a50de8d93b03cbbabe6146fc8f6e9cf",
+    "example-attribution": "c7ad64fe45096affd125d399c8f92c5969515bdc4def296dd666ff05960f72b1",
+    "qualification": "a328ffc185bee70a7e6f1beab24fd1e18d95fc53932959c46a773cef8f86ce06",
+    "pronunciation": "649ca91d3da5110d1e33ea16aa8f330dde470939d55de4155d81de5ea628a713",
+    "evidence": "61c713bd7440360677872e0678ad32b9c865861d424d53debef2cf367a251123"
+  }
+}

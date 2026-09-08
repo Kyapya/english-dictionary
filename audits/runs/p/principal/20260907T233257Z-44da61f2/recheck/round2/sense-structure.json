@@ -1,0 +1,29 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "sense-structure",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-round2-sense-structure-1",
+    "started_at": "2026-09-08T02:02:19Z",
+    "completed_at": "2026-09-08T02:02:19Z"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "cross_section_internal_contradiction",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 237,
+        "line_end": 237,
+        "exact_quote": "【日本語訳・定義】借入・貸付の元の金額、または投資された当初の金額で、そこから生じる利息・利益・収益とは区別される金額。返済文脈では、元金への支払いは未返済債務の基礎額を減らす。個別の元本額や複数の契約上の元金を数える専門文脈では可算的にも扱われる。  "
+      },
+      "severity": "blocking",
+      "rationale": "語義4の見出し・定義とコアイメージ枝は `principal` の指示対象を一貫して「金額」に限定している一方、語法注記は信託・遺産で収益を生む財産本体（trust corpus/property）も同じ語義へ統合すると明記している。信託財産は金銭に限られないため、主要な専門用法が番号付き語義の意味範囲にもコアイメージ枝にも収まらず、セクション間で語義4の外延が一致していない。",
+      "evidence_link_ids": [
+        "F-025"
+      ],
+      "suggested_direction": "語義4の見出し・定義と対応するコアイメージ枝を、利息・収益を生む基礎的な金額だけでなく信託の財産本体・corpus も含む範囲へ明示的に広げる。金額用法と信託財産用法を統合したままにするなら、両方を番号付き語義内で提示する。"
+    }
+  ]
+}

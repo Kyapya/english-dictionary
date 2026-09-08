@@ -1,0 +1,104 @@
+{
+  "pass_id": "frame-relation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-round2-frame-relation-1"
+  },
+  "antonym_axis_blind_record": {
+    "schema_version": "antonym_axis_blind_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "a90e8ce4e9b278894c354be6358063e378816073104700b90e9a801635efff87",
+    "blind_request_sha256": "a9752bd0c29f43d4ac32e877269fd4810a50de8d93b03cbbabe6146fc8f6e9cf",
+    "recorded_at": "2026-09-08T11:00:43+09:00",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "principal-round2-frame-relation-1"
+    },
+    "axes": [
+      {
+        "item_id": "ant-5c0a2907d01d",
+        "axis": "責任順位",
+        "relation_type": "補完"
+      },
+      {
+        "item_id": "ant-ca1f22f9479a",
+        "axis": "重要性",
+        "relation_type": "程度"
+      },
+      {
+        "item_id": "ant-00093e37eb2f",
+        "axis": "優先順位",
+        "relation_type": "程度"
+      },
+      {
+        "item_id": "ant-db5bb78c7625",
+        "axis": "代理役割",
+        "relation_type": "補完"
+      },
+      {
+        "item_id": "ant-126679867341",
+        "axis": "元利区分",
+        "relation_type": "補完"
+      }
+    ]
+  },
+  "antonym_axis_adjudication_record": {
+    "schema_version": "antonym_axis_adjudication_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "a90e8ce4e9b278894c354be6358063e378816073104700b90e9a801635efff87",
+    "stage2_request_sha256": "e7f3ef6138b3dac11349e9ad429f89cb5bbfd7a5492506927bfda0129c224108",
+    "blind_record_sha256": "fe5cbd2b0427389ed37da876049be2bacf72fc17317e993b9ddca58f953e9ae6",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "principal-round2-frame-relation-1"
+    },
+    "adjudications": [
+      {
+        "item_id": "ant-00093e37eb2f",
+        "flags": [],
+        "rationale": "「優先順位」は当該語義の重要度・順位から直接導出でき、principal と secondary は同じ順位尺度上の程度対立をなす。違い行も対立を否定または限定していない。",
+        "suggested_direction": null,
+        "f4_severity": null
+      },
+      {
+        "item_id": "ant-ca1f22f9479a",
+        "flags": [],
+        "rationale": "「重要性」は当該語義の重要度・影響力から直接導出でき、principal と minor は重要性の程度対立をなす。違い行も対立を否定または限定していない。",
+        "suggested_direction": null,
+        "f4_severity": null
+      },
+      {
+        "item_id": "ant-126679867341",
+        "flags": [],
+        "rationale": "「元利区分」は当該語義が元の基礎額を利息・収益から区別することから直接導出でき、principal と interest は金融上の金額構成を分ける補完的対立をなす。違い行も対立を否定または限定していない。",
+        "suggested_direction": null,
+        "f4_severity": null
+      },
+      {
+        "item_id": "ant-db5bb78c7625",
+        "flags": [],
+        "rationale": "「代理役割」は当該語義に明示された権限付与者と代理行為者の区別から直接導出でき、principal と agent は同じ代理関係内の補完的な役割対立をなす。違い行も対立を否定または限定していない。",
+        "suggested_direction": null,
+        "f4_severity": null
+      },
+      {
+        "item_id": "ant-5c0a2907d01d",
+        "flags": [],
+        "rationale": "「責任順位」は当該語義に明示された第一次的責任と二次的責任の区別から直接導出でき、principal と surety は同じ保証関係内の補完的な責任役割をなす。違い行も対立を否定または限定していない。",
+        "suggested_direction": null,
+        "f4_severity": null
+      }
+    ],
+    "frame_findings": [],
+    "unrouted_observations": []
+  },
+  "aligned_at": "2026-09-08T02:23:16.150568+00:00",
+  "findings": [],
+  "unrouted_observations": []
+}

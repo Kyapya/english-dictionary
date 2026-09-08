@@ -1,0 +1,28 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "qualification",
+  "input_body_sha256": "a90e8ce4e9b278894c354be6358063e378816073104700b90e9a801635efff87",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-round2-qualification-1"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "technical_terminology_conventionality",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 294,
+        "line_end": 294,
+        "exact_quote": "【日本語訳・定義】別の人・法人である `agent` に、自分のために行動する権限を与える人または法人。代理人は本人のために行動し、代理関係では `principal` が権限の源となる。  "
+      },
+      "severity": "blocking",
+      "rationale": "法律上の代理関係の定義として、本人のために行動する権限の付与だけを示し、当該代理人が本人の支配・指揮に服するという要素を落としている。引用された米国法資料 F-023 は behalf に加えて subject to the principal's control を明示しており、現状では権限を与えた独立請負人などまで代理人・本人関係に含め得る。さらに法域の限定もないため、一般的な語彙説明と特定法域での成立要件が分離されていない。",
+      "evidence_link_ids": [
+        "F-023"
+      ],
+      "suggested_direction": "一般語義としての役割説明と法的成立要件を分け、少なくとも米国の一般的な代理法については agent が principal のために、かつその支配・指揮に服して行動する点を加える。他法域まで一律に断定せず、具体的要件は適用法により得ることを明記する。"
+    }
+  ]
+}
