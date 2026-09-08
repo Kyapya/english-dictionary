@@ -15,7 +15,14 @@
   "prepared_at": "2026-09-08T08:43:08.792429+00:00",
   "start_exit_code": 0,
   "workflow_status": "in_progress",
-  "stage": "preflight",
-  "last_heartbeat_at": "2026-09-08T08:43:38Z",
-  "time_warnings": {}
+  "stage": "blind_seal_complete",
+  "last_heartbeat_at": "2026-09-08T10:20:38Z",
+  "time_warnings": {
+    "elapsed_target_exceeded": {
+      "first_observed_at": "2026-09-08T09:51:04Z",
+      "target_at": "2026-09-08T09:43:38Z",
+      "stage": "cold_review_complete",
+      "action": "record the delay cause and resume the same run; do not restart reviews"
+    }
+  }
 }
