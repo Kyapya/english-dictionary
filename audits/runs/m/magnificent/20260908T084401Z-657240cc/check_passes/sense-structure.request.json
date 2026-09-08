@@ -1,0 +1,85 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "sense-structure",
+  "taxonomy_ids": [
+    "sense_boundary_overlap",
+    "cross_section_internal_contradiction",
+    "compound_component_generalization"
+  ],
+  "specification": "prompts/check_pass_sense_structure_v6.md",
+  "input_body_sha256": "258c1b3a17708126df77cb8e5db1556a9e738d56dd4183d8ccca00569461cdb7",
+  "input_sections": {
+    "core_image": [],
+    "sense_structure": [
+      {
+        "line": 28,
+        "text": "1. 【形容詞・限定／叙述】壮麗な、非常に美しく印象的な"
+      },
+      {
+        "line": 30,
+        "text": "【日本語訳・定義】建物、景色、部屋、衣装、動物などが、規模、美しさ、豪華さ、威厳によって見る人に強い感銘を与えることを表す。単に大きいだけでなく、目を見張るほど見事だという肯定的評価を含む。  "
+      },
+      {
+        "line": 113,
+        "text": "2. 【形容詞・限定／叙述】すばらしい、見事な、極めて優れた"
+      },
+      {
+        "line": 115,
+        "text": "【日本語訳・定義】成果、演技、仕事、行為、機会、出来事などの質や価値が非常に高く、強く称賛したくなることを表す。外見の壮麗さを必要とせず、能力、出来、効果、経験の満足度などを高く評価する。単独の `Magnificent!` は「見事だ」「すばらしい」という感嘆になる。  "
+      }
+    ],
+    "usage_notes": [
+      {
+        "line": 28,
+        "text": "1. 【形容詞・限定／叙述】壮麗な、非常に美しく印象的な"
+      },
+      {
+        "line": 65,
+        "text": "【語法・注意】`magnificent` は限定用法にも叙述用法にも使える。外観について使うと、「きれいな」だけでなく、規模、豪華さ、威厳などが生む強い感銘まで表す。人に使う場合、`She looks magnificent.` のように外見を称賛できるが、`a magnificent person` は文脈により語義2の人格・力量への高い評価にもなる。比較変化は文法上可能だが、通常は `more/most magnificent` を用い、絶対的な称賛として原級で使うことも多い。  "
+      },
+      {
+        "line": 113,
+        "text": "2. 【形容詞・限定／叙述】すばらしい、見事な、極めて優れた"
+      },
+      {
+        "line": 155,
+        "text": "【語法・注意】語義2では、対象の外観ではなく質・出来・価値を評価する。`a magnificent performance` は演技や演奏が非常に優れていたという意味であり、必ずしも豪華な舞台だったという意味ではない。`feel magnificent` は「堂々として感じる」ではなく「気分・体調が最高だ」という読みになる。`magnificent` は強い称賛なので、日常の小さな良さに使うと意図的に大げさ、ユーモラス、または熱のこもった響きになることがある。  "
+      }
+    ],
+    "word_formation": [
+      {
+        "line": 21,
+        "text": "＃語形成"
+      },
+      {
+        "line": 23,
+        "text": "・`magnificence`（名詞）— 壮麗さ、すばらしさ。建物・景観などの威容にも、行為・成果のすばらしさにも使う。  "
+      },
+      {
+        "line": 24,
+        "text": "・`magnificently`（副詞）— 壮麗に、見事に、すばらしく。`perform magnificently`「見事に演じる」のように動作の出来も評価する。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "a815b90fbc456e2bc194220ee0f3bfa164790bbb6e1f2f740144ac62bb03b87c",
+  "source_artifact_sha256": "681a574947ead18b804096165079a4800c3edc22edfc1d7189d38bc0e6cafbb6",
+  "normalized_input_sha256": "146a97744f85495929c6b9be0bf783ffbc56567ac13d31185d2c63facc63ba85"
+}

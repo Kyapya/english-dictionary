@@ -1,0 +1,131 @@
+{
+  "schema_version": "example_attribution_alignment_key_v1",
+  "pass_id": "example-attribution",
+  "input_body_sha256": "68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162",
+  "blind_request_sha256": "2c2911ed030c4c7300e0fd76e55db12e190880e83c4d2ffa48fbc2b8c6ce077d",
+  "shuffle_seed": "20260908T084401Z-657240cc:checker_recheck:round1",
+  "examples": [
+    {
+      "example_id": "ex-ed5050e7973c",
+      "assigned_sense_id": "sense:001",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 42,
+        "line_end": 42,
+        "exact_quote": "例: The restored palace is a magnificent eighteenth-century building.  "
+      },
+      "source_example_id": "example:001"
+    },
+    {
+      "example_id": "ex-8afcc0ffe905",
+      "assigned_sense_id": "sense:001",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 47,
+        "line_end": 47,
+        "exact_quote": "例: From the terrace, we had a magnificent view of the snow-covered mountains.  "
+      },
+      "source_example_id": "example:002"
+    },
+    {
+      "example_id": "ex-98cc9eefc985",
+      "assigned_sense_id": "sense:001",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 52,
+        "line_end": 52,
+        "exact_quote": "例: A magnificent eagle circled above the valley.  "
+      },
+      "source_example_id": "example:003"
+    },
+    {
+      "example_id": "ex-c496d8815c09",
+      "assigned_sense_id": "sense:001",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 57,
+        "line_end": 57,
+        "exact_quote": "例: She looked magnificent in the deep blue gown.  "
+      },
+      "source_example_id": "example:004"
+    },
+    {
+      "example_id": "ex-c376506fcce9",
+      "assigned_sense_id": "sense:001",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 62,
+        "line_end": 62,
+        "exact_quote": "例: Visitors stopped to admire the cathedral's magnificent interior.  "
+      },
+      "source_example_id": "example:005"
+    },
+    {
+      "example_id": "ex-a74faaad755a",
+      "assigned_sense_id": "sense:002",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 120,
+        "line_end": 120,
+        "exact_quote": "例: Completing the bridge ahead of schedule was a magnificent achievement.  "
+      },
+      "source_example_id": "example:006"
+    },
+    {
+      "example_id": "ex-3290ae8d9e48",
+      "assigned_sense_id": "sense:002",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 125,
+        "line_end": 125,
+        "exact_quote": "例: The violinist gave a magnificent performance in the final movement.  "
+      },
+      "source_example_id": "example:007"
+    },
+    {
+      "example_id": "ex-05f0d84926f4",
+      "assigned_sense_id": "sense:002",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 130,
+        "line_end": 130,
+        "exact_quote": "例: The rescue team did a magnificent job under dangerous conditions.  "
+      },
+      "source_example_id": "example:008"
+    },
+    {
+      "example_id": "ex-db1b726380a6",
+      "assigned_sense_id": "sense:002",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 135,
+        "line_end": 135,
+        "exact_quote": "例: The scholarship gave her a magnificent opportunity to study abroad.  "
+      },
+      "source_example_id": "example:009"
+    },
+    {
+      "example_id": "ex-635b3b7971ab",
+      "assigned_sense_id": "sense:002",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 140,
+        "line_end": 140,
+        "exact_quote": "例: “We finished the repairs.” “Magnificent! We can reopen tomorrow.”  "
+      },
+      "source_example_id": "example:010"
+    }
+  ],
+  "sense_usage_notes": [
+    {
+      "sense_id": "sense:001",
+      "line": 65,
+      "text": "`magnificent` は限定用法にも叙述用法にも使える。外観について使うと、「きれいな」だけでなく、規模、豪華さ、威厳などが生む強い感銘まで表す。人に使う場合、`She looks magnificent.` のように外見を称賛できるが、`a magnificent person` は文脈により語義2の人格・力量への高い評価にもなる。"
+    },
+    {
+      "sense_id": "sense:002",
+      "line": 143,
+      "text": "語義2では、対象の外観ではなく質・出来・価値を評価する。`a magnificent performance` は演技や演奏が非常に優れていたという意味であり、必ずしも豪華な舞台だったという意味ではない。`magnificent` は強い称賛なので、日常の小さな良さに使うと意図的に大げさな響きになることがある。"
+    }
+  ]
+}

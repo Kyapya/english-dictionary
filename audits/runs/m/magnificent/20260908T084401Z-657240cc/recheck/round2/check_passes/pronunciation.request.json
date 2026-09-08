@@ -1,0 +1,42 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "pronunciation",
+  "taxonomy_ids": [
+    "pronunciation_symbol_explanation"
+  ],
+  "specification": "prompts/check_pass_pronunciation_v6.md",
+  "input_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d",
+  "input_sections": {
+    "pronunciation": [
+      {
+        "line": 13,
+        "text": "＃発音記号"
+      },
+      {
+        "line": 15,
+        "text": "米: /mæɡˈnɪfəsənt/｜英: /mæɡˈnɪfɪsənt/。基本形はいずれも4音節で、第2音節に主強勢がある。米語では第3音節の母音を /ə/、英語では /ɪ/ と表記する辞書が多い。語末の `-cent` は強い /sent/ ではなく、基本的に弱い /sənt/ となる。速い発話ではこのシュワーがさらに弱まったり脱落したりすることがあり、辞書によっては語末を /snt/ と表記する。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "7e3e94267ac9f917c901c12580b91e570b5989df7adfbf2a39b833478c766d8a",
+  "source_artifact_sha256": "b2d01444ec2babab0e1a5bbbed5efaef80b5329ba3213dff719350c3ed4bdd00",
+  "normalized_input_sha256": "b5af0533657ce9c852a06618740a149879a72f65711ba6f5b63a2119b01dc9a8"
+}

@@ -1,0 +1,220 @@
+{
+  "schema_version": "final_blind_review_v2",
+  "stage": "final_blind",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "final-blind-magnificent-20260908"
+  },
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "ic-01",
+      "surface_form": "magnificent",
+      "frame": "a magnificent + <building/place/view/interior/display/animal or other visually perceived entity>; <entity> + be/look magnificent",
+      "meaning": "規模、美しさ、豪華さ、威厳などによって視覚的に強い肯定的印象を与える",
+      "disposition": "included",
+      "rationale": "magnificent の中心的な形容詞用法であり、建築物、景観、内装、展示、動物などを限定的にも叙述的にも評価できる。本文は単なる大きさではなく、美しさや豪華さなどによる強い感銘を意味境界として示している。",
+      "semantic_assertions": [
+        {
+          "id": "ic-01-sa-01",
+          "statement": "この用法は対象の外観または知覚される威容を強く肯定的に評価しなければならない。",
+          "polarity": "must_hold",
+          "scope": "visual-impressiveness sense"
+        },
+        {
+          "id": "ic-01-sa-02",
+          "statement": "対象が単に物理的に大きいという事実だけを表してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "visual-impressiveness sense"
+        }
+      ]
+    },
+    {
+      "id": "ic-02",
+      "surface_form": "look magnificent in <clothing/color>",
+      "frame": "<person> + look magnificent in + <clothing/color>",
+      "meaning": "服装や色を身につけた人が非常に美しく、華やかまたは堂々として見える",
+      "disposition": "included",
+      "rationale": "look magnificent in <clothing/color> は人の人格や能力ではなく、その場で知覚される外見を評価する独立した統語フレームであり、本文は視覚的意味の側に適切に置いている。",
+      "semantic_assertions": [
+        {
+          "id": "ic-02-sa-01",
+          "statement": "評価は主語である人の知覚可能な外見に作用し、in 句はその外見を成立させる服装または色を示さなければならない。",
+          "polarity": "must_hold",
+          "scope": "human-appearance frame"
+        },
+        {
+          "id": "ic-02-sa-02",
+          "statement": "このフレームを人の人格、技能、道徳的価値への評価として説明してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "human-appearance frame"
+        }
+      ]
+    },
+    {
+      "id": "ic-03",
+      "surface_form": "magnificent",
+      "frame": "a magnificent + <achievement/performance/job/work/action>; <achievement/performance/work> + be magnificent; do a magnificent job",
+      "meaning": "成果、演技、仕事、行為などの質や出来が極めて優れており、強い称賛に値する",
+      "disposition": "included",
+      "rationale": "magnificent の一般的な評価用法であり、外見の豪華さを前提にせず、成果や遂行の質を強く称賛する。本文は視覚的意味からこの評価対象を明確に分け、限定用法・叙述用法・do a magnificent job を示している。",
+      "semantic_assertions": [
+        {
+          "id": "ic-03-sa-01",
+          "statement": "評価の中心は成果物や遂行の質、効果、達成度の非常な高さでなければならない。",
+          "polarity": "must_hold",
+          "scope": "quality-of-performance sense"
+        },
+        {
+          "id": "ic-03-sa-02",
+          "statement": "舞台、会場、外装などの豪華な外観だけを根拠とする意味に限定してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "quality-of-performance sense"
+        }
+      ]
+    },
+    {
+      "id": "ic-04",
+      "surface_form": "a magnificent opportunity",
+      "frame": "a magnificent + <opportunity/occasion/experience>",
+      "meaning": "機会、出来事、経験などの価値、好ましさ、可能性が非常に大きい",
+      "disposition": "included",
+      "rationale": "a magnificent opportunity は遂行物の出来ではなく、機会がもたらす価値や可能性を評価するが、強い一般的称賛という同じ広義の評価領域に属する。本文は機会を定義、文法パターン、例文で明示している。",
+      "semantic_assertions": [
+        {
+          "id": "ic-04-sa-01",
+          "statement": "この用法では対象となる機会や経験が非常に価値ある、好ましい、または有望なものとして評価されなければならない。",
+          "polarity": "must_hold",
+          "scope": "opportunity-and-experience frame"
+        },
+        {
+          "id": "ic-04-sa-02",
+          "statement": "対象の視覚的な美しさや物理的規模を必須条件としてはならない。",
+          "polarity": "must_not_hold",
+          "scope": "opportunity-and-experience frame"
+        }
+      ]
+    },
+    {
+      "id": "ic-05",
+      "surface_form": "Magnificent!",
+      "frame": "Magnificent! as a standalone exclamation responding to news, an outcome, or a performance",
+      "meaning": "出来事や成果に対する「見事だ」「すばらしい」という強い感嘆",
+      "disposition": "included",
+      "rationale": "Magnificent! は形容詞の補語が省略された独立感嘆表現として実用上重要であり、本文は意味、談話機能、対話例を明示している。",
+      "semantic_assertions": [
+        {
+          "id": "ic-05-sa-01",
+          "statement": "独立発話は直前の知らせ、結果、出来などに対する強い肯定的反応として解釈されなければならない。",
+          "polarity": "must_hold",
+          "scope": "standalone-exclamation frame"
+        }
+      ]
+    },
+    {
+      "id": "ic-06",
+      "surface_form": "a magnificent person",
+      "frame": "a magnificent + <person>; <person> + be magnificent",
+      "meaning": "人の人格、力量、行為全体を非常に高く評価する",
+      "disposition": "included",
+      "rationale": "a magnificent person は外見を直接評価するとは限らず、人の人格や力量への強い称賛になり得る。本文はこの曖昧性を語義1の注意で明示し、語義2への帰属可能性を適切に案内している。",
+      "semantic_assertions": [
+        {
+          "id": "ic-06-sa-01",
+          "statement": "この読みでは評価が人の人格、能力、功績、または総合的な価値に作用しなければならない。",
+          "polarity": "must_hold",
+          "scope": "human-quality frame"
+        },
+        {
+          "id": "ic-06-sa-02",
+          "statement": "人を目的語とするだけで、自動的に外見の意味へ分類してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "human-quality frame"
+        }
+      ]
+    },
+    {
+      "id": "ic-07",
+      "surface_form": "magnificence",
+      "frame": "the magnificence of + <entity>; <possessive> magnificence",
+      "meaning": "壮麗さ、威容、または非常なすばらしさを表す対応名詞",
+      "disposition": "included",
+      "rationale": "magnificence は magnificent に対応する主要な派生名詞であり、本文の語形成欄に形と中心的な日本語義が示されている。",
+      "semantic_assertions": [
+        {
+          "id": "ic-07-sa-01",
+          "statement": "名詞は magnificent が表す壮麗さまたは卓越性という性質を指示しなければならない。",
+          "polarity": "must_hold",
+          "scope": "derivational noun"
+        }
+      ]
+    },
+    {
+      "id": "ic-08",
+      "surface_form": "magnificently",
+      "frame": "magnificently + <verb/adjective>; <verb> + magnificently",
+      "meaning": "壮麗な様態で、または極めて見事に行われることを表す対応副詞",
+      "disposition": "included",
+      "rationale": "magnificently は magnificent に対応する主要な派生副詞であり、本文の語形成欄は視覚的様態と質的な出来の双方に対応する訳語を簡潔に示している。",
+      "semantic_assertions": [
+        {
+          "id": "ic-08-sa-01",
+          "statement": "副詞は動作や状態の様態を、壮麗または極めて優秀だと強く肯定的に評価しなければならない。",
+          "polarity": "must_hold",
+          "scope": "derivational adverb"
+        }
+      ]
+    },
+    {
+      "id": "ic-09",
+      "surface_form": "the Magnificent",
+      "frame": "<proper name/title> + the Magnificent",
+      "meaning": "歴史上の人物などに付く「壮麗王」「大帝」相当の称号的・後置的形容表現",
+      "disposition": "excluded",
+      "rationale": "the Magnificent は固有名に付く称号として認められるが、生産性が低く固有名詞依存の周辺的フレームであるため、一般学習辞書記事の主要語義からの省略は許容できる。",
+      "semantic_assertions": [
+        {
+          "id": "ic-09-sa-01",
+          "statement": "この表現を含める場合は、通常の限定用法ではなく、固有名に後置される称号的用法として扱わなければならない。",
+          "polarity": "must_hold",
+          "scope": "titular postpositive use"
+        }
+      ]
+    },
+    {
+      "id": "ic-10",
+      "surface_form": "magnificent",
+      "frame": "magnificent + <gift/expenditure/household or conduct> in an obsolete or historical lavish/munificent sense",
+      "meaning": "気前がよい、惜しみなく豪勢に費やすという古風な意味",
+      "disposition": "excluded",
+      "rationale": "magnificent には歴史的に豪勢な支出や気前のよさに関わる読みを立て得るが、現代一般英語の主要用法ではなく、本文の対象範囲から除外しても主要な学習価値を損なわない。",
+      "semantic_assertions": [
+        {
+          "id": "ic-10-sa-01",
+          "statement": "この歴史的用法を含める場合は、単なる優秀さではなく、支出、贈与、振る舞いの豪勢さまたは気前のよさを表さなければならない。",
+          "polarity": "must_hold",
+          "scope": "obsolete lavish-or-munificent sense"
+        }
+      ]
+    },
+    {
+      "id": "ic-11",
+      "surface_form": "the magnificent",
+      "frame": "the magnificent as a substantivized adjective denoting magnificent people or things in general",
+      "meaning": "壮麗なもの、見事なもの一般を集合的または抽象的に指す名詞化用法",
+      "disposition": "excluded",
+      "rationale": "the magnificent は文脈依存の形容詞名詞化として構成可能だが、magnificent 固有の独立した主要名詞語義ではないため、本文に別見出しとして設ける必要はない。",
+      "semantic_assertions": [
+        {
+          "id": "ic-11-sa-01",
+          "statement": "名詞化として扱う場合も、独立した可算名詞 magnificent が成立すると主張してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "contextual substantivization"
+        }
+      ]
+    }
+  ],
+  "article_findings": []
+}

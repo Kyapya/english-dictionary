@@ -1,0 +1,25 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "qualification",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "/root/magnificent_word/check_qualification"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "absolute_scope_counterexample",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 155,
+        "line_end": 155,
+        "exact_quote": "【語法・注意】語義2では、対象の外観ではなく質・出来・価値を評価する。`a magnificent performance` は演技や演奏が非常に優れていたという意味であり、必ずしも豪華な舞台だったという意味ではない。`feel magnificent` は「堂々として感じる」ではなく「気分・体調が最高だ」という読みになる。`magnificent` は強い称賛なので、日常の小さな良さに使うと意図的に大げさ、ユーモラス、または熱のこもった響きになることがある。  "
+      },
+      "severity": "minor",
+      "rationale": "`feel magnificent` の読みを主語や構文の限定なしに「気分・体調が最高だ」と断定しているが、無生物主語の `The fabric feels magnificent.` のような感覚連結動詞の構文では「触った感じがすばらしい」という対象の性質の評価になり、気分・体調を表さない。提示された例文のように、人を主語とし、主語自身の状態を述べる場合に限られる読みである。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「人が自分の状態について `feel magnificent` と言う場合」のように主語と構文を限定し、無生物主語では触覚上の評価になり得ることと混同しない表現に直す。"
+    }
+  ]
+}

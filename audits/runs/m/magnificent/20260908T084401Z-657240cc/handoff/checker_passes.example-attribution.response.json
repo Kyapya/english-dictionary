@@ -1,0 +1,136 @@
+{
+    "schema_version": "example_attribution_blind_record_v1",
+    "pass_id": "example-attribution",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "magnificent-example-attribution-checker-3e8b43f5"
+    },
+    "recorded_at": "2026-09-08T09:08:26Z",
+    "input_body_sha256": "258c1b3a17708126df77cb8e5db1556a9e738d56dd4183d8ccca00569461cdb7",
+    "blind_request_sha256": "436effe3d8a0b695a9e160c934ac1d9abfc5e0050dbd11102af59e5191f80297",
+    "attributions": [
+      {
+        "example_id": "ex-cf81219fc371",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "view of the snow-covered mountains"
+        ],
+        "rationale": "`view of the snow-covered mountains` は magnificent が眼前の景観の美しさ・印象深さを評価する sense:001 を直接示す。質・価値を称賛する sense:002 なら成果や経験などの出来を評価する必要があり、この視覚的な眺望を表す用法にはならない。"
+      },
+      {
+        "example_id": "ex-bbfadb33b30b",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "looked magnificent in the deep blue gown"
+        ],
+        "rationale": "`looked magnificent in the deep blue gown` は衣装をまとった外見が華やかで堂々としている sense:001 の叙述用法である。sense:002 の能力・出来・経験への称賛では、looked ... in the gown という外見評価の補語構文を説明できない。"
+      },
+      {
+        "example_id": "ex-85ccab8633f4",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "cathedral's magnificent interior"
+        ],
+        "rationale": "`cathedral's magnificent interior` は建築内部の見た目の壮麗さを表す sense:001 であり、admire の対象もその内部空間である。sense:002 は仕事や演技などの質を評価する語義なので、interior 自体の視覚的威容を修飾するこの用法とは合わない。"
+      },
+      {
+        "example_id": "ex-76c67b48c3d7",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "A magnificent eagle"
+        ],
+        "rationale": "`A magnificent eagle` は動物そのものの堂々とした姿・威厳を評価する sense:001 である。sense:002 が要求する成果・行為・能力などの出来を eagle に帰属させておらず、飛行の質を評価する構文でもない。"
+      },
+      {
+        "example_id": "ex-0e8daa177fff",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "Magnificent!"
+        ],
+        "rationale": "修理完了の知らせに対する単独の `Magnificent!` は、出来事を「すばらしい」と称賛する感嘆の sense:002 である。sense:001 は建物・景観などの外見的壮麗さを述べる語義であり、名詞を修飾せず知らせ全体に反応するこの発話には成立しない。"
+      },
+      {
+        "example_id": "ex-cb4812e09bf9",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "felt magnificent"
+        ],
+        "rationale": "`felt magnificent` は一晩眠った後の主語自身の好調な感覚・満足状態を述べるため、質や経験を非常に高く評価する sense:002 に属する。外見の壮麗さを表す sense:001 なら looked magnificent など視覚評価が必要で、内的感覚を表す felt の補語にはならない。"
+      },
+      {
+        "example_id": "ex-ac2f6b2b0183",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "did a magnificent job"
+        ],
+        "rationale": "`did a magnificent job` は遂行した仕事の質を高く称賛する sense:002 の構文である。sense:001 は対象の外見的な美しさや威容を表すため、do a ... job の目的語が示す働きの出来を評価するこの用法には適合しない。"
+      },
+      {
+        "example_id": "ex-f17b9b2481bd",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "a magnificent example of eighteenth-century architecture"
+        ],
+        "rationale": "`a magnificent example of eighteenth-century architecture` では magnificent が palace ではなく example を直接修飾し、「非常に優れた実例」と評価する sense:002 である。sense:001 なら宮殿自体の外観を magnificent palace のように修飾するはずで、example としての代表性・質を述べる現構造とは異なる。"
+      },
+      {
+        "example_id": "ex-eaff3fba4456",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "a magnificent achievement"
+        ],
+        "rationale": "`a magnificent achievement` は予定より早い橋完成という成果の価値を称賛する sense:002 を明示する。sense:001 は視覚対象の壮麗さを表すが、ここで magnificent が修飾する achievement は結果としての偉業であり、橋の外見ではない。"
+      },
+      {
+        "example_id": "ex-764b9021c254",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "a magnificent opportunity to study abroad"
+        ],
+        "rationale": "`a magnificent opportunity to study abroad` は留学機会の価値を非常に高く評価する sense:002 である。sense:001 が表す外見上の美しさ・威容は抽象名詞 opportunity に帰属せず、to study abroad は機会の内容を示している。"
+      },
+      {
+        "example_id": "ex-25ee569a06cb",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "gave a magnificent performance"
+        ],
+        "rationale": "`gave a magnificent performance` は演奏の出来を強く称賛する sense:002 の項構造である。sense:001 は人物・物の外見的壮麗さを表す語義なので、give の目的語 performance の質を評価するこの用法を説明しない。"
+      }
+    ]
+}

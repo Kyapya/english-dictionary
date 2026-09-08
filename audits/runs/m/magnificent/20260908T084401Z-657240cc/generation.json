@@ -1,0 +1,48 @@
+{
+  "schema_version": "generation_output_v1",
+  "stage": "generation",
+  "headword": "magnificent",
+  "input_specifications": [
+    "prompts/entry_spec_v5.md",
+    "prompts/process_improvement_learning_delta_v2.md"
+  ],
+  "entry_path": "entries/m/magnificent.md",
+  "output_body_sha256": "258c1b3a17708126df77cb8e5db1556a9e738d56dd4183d8ccca00569461cdb7",
+  "entry_features": [
+    "part_of_speech:adjective",
+    "sense_count:2",
+    "semantic_domain:evaluation"
+  ],
+  "candidate_inventory": [
+    {
+      "id": "GEN-01",
+      "surface_form": "magnificent building/view/interior; look magnificent",
+      "frame": "a magnificent + visually perceived entity; entity/person + be/look magnificent",
+      "meaning": "壮麗な、非常に美しく印象的な",
+      "disposition": "included",
+      "article_sense": 1
+    },
+    {
+      "id": "GEN-02",
+      "surface_form": "magnificent achievement/performance/job/opportunity; Magnificent!",
+      "frame": "a magnificent + evaluated event/result; standalone evaluative exclamation",
+      "meaning": "すばらしい、見事な、極めて優れた",
+      "disposition": "included",
+      "article_sense": 2
+    },
+    {
+      "id": "GEN-X01",
+      "surface_form": "magnificent expenditure/generosity",
+      "frame": "historical lavish or munificent conduct",
+      "meaning": "気前のよい、豪勢な",
+      "disposition": "excluded",
+      "rationale": "現代の一般学習者には独立語義としての頻度と学習価値が低く、通常の評価義から文脈的に理解できる"
+    }
+  ],
+  "learning_delta": {
+    "schema_version": "process_improvement_learning_delta_v2",
+    "reviewed": true,
+    "items": []
+  },
+  "generated_at": "2026-09-08T08:52:00Z"
+}

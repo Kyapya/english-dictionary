@@ -1,0 +1,598 @@
+{
+  "source_inventory": {
+    "schema_version": "source_inventory_v2",
+    "stage": "source_inventory",
+    "run_id": "source-magnificent-20260908T084401Z-657240cc",
+    "context_id": "ctx-source-magnificent-20260908T085400Z",
+    "input_body_sha256": "258c1b3a17708126df77cb8e5db1556a9e738d56dd4183d8ccca00569461cdb7",
+    "prompt_sha256": "87820da8e8fdbadf3c230ea4e1604810041f1ec3655894692fff6373776e107b",
+    "recorded_at": "2026-09-08T08:56:00Z",
+    "input_artifacts": [
+      "headword",
+      "prompts/source_first_audit_v2.md"
+    ],
+    "headword": "magnificent",
+    "evidence_link_ids": [
+      "EL-001",
+      "EL-002",
+      "EL-003",
+      "EL-004",
+      "EL-005",
+      "EL-006"
+    ],
+    "source_first_audit": {
+      "version": "source_first_audit_v2",
+      "profile": "standard",
+      "profile_reason": "bounded default profile",
+      "limits": {
+        "max_sources": 6,
+        "max_facts": 48,
+        "max_research_rounds": 2,
+        "max_post_cold_rechecks": null,
+        "max_final_attempts": 2
+      },
+      "usage": {
+        "sources_used": 6,
+        "facts_used": 18,
+        "research_rounds_used": 1,
+        "post_cold_rechecks_used": 0,
+        "final_attempts_used": 0
+      },
+      "research_status": "complete",
+      "stop_reason": "coverage_axes_closed",
+      "open_questions": [],
+      "inventory_completed_before_article_comparison": true,
+      "inventory_completed_at": "2026-09-08T08:55:00Z",
+      "article_comparison_started_at": "2026-09-08T08:56:00Z",
+      "coverage_axes": [
+        {
+          "axis": "lexical_senses",
+          "status": "covered",
+          "source_fact_ids": [
+            "F001",
+            "F003",
+            "F004",
+            "F006",
+            "F007",
+            "F010",
+            "F014"
+          ],
+          "notes": "Independent general dictionaries cover impressive appearance and exceptionally high quality."
+        },
+        {
+          "axis": "part_of_speech_and_frames",
+          "status": "covered",
+          "source_fact_ids": [
+            "F001",
+            "F003",
+            "F004",
+            "F010"
+          ],
+          "notes": "The sources identify adjective use and directly attest attributive and predicative frames."
+        },
+        {
+          "axis": "derived_and_related_forms",
+          "status": "covered",
+          "source_fact_ids": [
+            "F009",
+            "F016"
+          ],
+          "notes": "Magnificently and magnificence are attested individually."
+        },
+        {
+          "axis": "specialist_and_legal_uses",
+          "status": "covered",
+          "source_fact_ids": [
+            "F005",
+            "F008",
+            "F015"
+          ],
+          "notes": "No productive specialist or legal sense is required; historical ruler-title, elevated-idea, and lavish senses were checked and excluded from the modern core article."
+        },
+        {
+          "axis": "register_region_and_frequency",
+          "status": "covered",
+          "source_fact_ids": [
+            "F005",
+            "F008",
+            "F013",
+            "F015",
+            "F018"
+          ],
+          "notes": "Sources mark historical/archaic uses and attest the evaluative exclamation and modern high-admiration register."
+        },
+        {
+          "axis": "pronunciation_and_etymology",
+          "status": "covered",
+          "source_fact_ids": [
+            "F002",
+            "F011",
+            "F012",
+            "F014",
+            "F017"
+          ],
+          "notes": "Cambridge, Oxford, Collins/Dictionary.com, and Etymonline cover current pronunciation and word history."
+        }
+      ],
+      "sources": [
+        {
+          "id": "S001",
+          "locator": "https://dictionary.cambridge.org/dictionary/english/magnificent",
+          "source_type": "learner_dictionary",
+          "source_role": "general_lexicon",
+          "independence_group": "cambridge-university-press",
+          "facts": [
+            {
+              "id": "F001",
+              "form": "magnificent",
+              "kind": "sense",
+              "statement": "Magnificent describes someone or something as extremely good, beautiful, impressive, or deserving admiration.",
+              "source_detail": "Main Cambridge adjective definition and learner examples."
+            },
+            {
+              "id": "F002",
+              "form": "magnificent",
+              "kind": "pronunciation",
+              "statement": "Cambridge gives UK /mæɡˈnɪf.ɪ.sənt/ and a US pronunciation with a reduced third-syllable vowel.",
+              "source_detail": "UK and US pronunciation panels for the adjective."
+            }
+          ]
+        },
+        {
+          "id": "S002",
+          "locator": "https://www.merriam-webster.com/dictionary/magnificent",
+          "source_type": "general_dictionary",
+          "source_role": "general_lexicon",
+          "independence_group": "merriam-webster",
+          "facts": [
+            {
+              "id": "F003",
+              "form": "magnificent",
+              "kind": "sense",
+              "statement": "Magnificent can mean marked by stately grandeur and lavishness or strikingly beautiful and impressive.",
+              "source_detail": "Merriam-Webster adjective senses 2 and 3, including sight, cathedral, and physique examples."
+            },
+            {
+              "id": "F004",
+              "form": "magnificent",
+              "kind": "sense",
+              "statement": "Magnificent can mean exceptionally fine.",
+              "source_detail": "Merriam-Webster adjective sense 5 and performance example."
+            },
+            {
+              "id": "F005",
+              "form": "the Magnificent",
+              "kind": "historical_use",
+              "statement": "The epithet the Magnificent is used of former famous rulers who were great in deed or exalted in place.",
+              "source_detail": "Merriam-Webster adjective sense 1, labelled as limited to former famous rulers."
+            }
+          ]
+        },
+        {
+          "id": "S003",
+          "locator": "https://www.collinsdictionary.com/dictionary/english/magnificent",
+          "source_type": "general_dictionary",
+          "source_role": "general_lexicon",
+          "independence_group": "harpercollins",
+          "facts": [
+            {
+              "id": "F006",
+              "form": "magnificent",
+              "kind": "sense",
+              "statement": "Magnificent can mean splendid or impressive in appearance.",
+              "source_detail": "Collins British English adjective sense 1."
+            },
+            {
+              "id": "F007",
+              "form": "magnificent",
+              "kind": "sense",
+              "statement": "Magnificent can mean superb, exceptionally good, or very fine.",
+              "source_detail": "Collins British and American English quality senses."
+            },
+            {
+              "id": "F008",
+              "form": "magnificent",
+              "kind": "historical_use",
+              "statement": "Magnificent has a less central elevated or noble sense and an archaic great-in-rank sense.",
+              "source_detail": "Collins British English senses 3 and 4 with archaic label."
+            },
+            {
+              "id": "F009",
+              "form": "magnificently",
+              "kind": "derived_form",
+              "statement": "Magnificently is the adverb derived from magnificent.",
+              "source_detail": "Collins derived-forms panel."
+            }
+          ]
+        },
+        {
+          "id": "S004",
+          "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/magnificent",
+          "source_type": "learner_dictionary",
+          "source_role": "general_lexicon",
+          "independence_group": "oxford-university-press",
+          "facts": [
+            {
+              "id": "F010",
+              "form": "magnificent",
+              "kind": "frame",
+              "statement": "Magnificent is an adjective used both before a noun and after be or look for things that are extremely attractive, impressive, or deserving praise.",
+              "source_detail": "Oxford definition, building/job examples, and be/look collocation panel."
+            },
+            {
+              "id": "F011",
+              "form": "magnificent",
+              "kind": "pronunciation",
+              "statement": "Oxford lists /mæɡˈnɪfɪsnt/ for both its British and American learner entries.",
+              "source_detail": "Oxford pronunciation lines for the adjective."
+            },
+            {
+              "id": "F012",
+              "form": "magnificent",
+              "kind": "etymology",
+              "statement": "Magnificent entered late Middle English through Old French from Latin magnificent-, meaning making great and based on magnus, great.",
+              "source_detail": "Oxford Word Origin note."
+            }
+          ]
+        },
+        {
+          "id": "S005",
+          "locator": "https://www.etymonline.com/word/magnificent",
+          "source_type": "etymological_dictionary",
+          "source_role": "etymology",
+          "independence_group": "etymonline",
+          "facts": [
+            {
+              "id": "F013",
+              "form": "Magnificent!",
+              "kind": "register",
+              "statement": "Magnificent is attested as an exclamation expressing enthusiastic admiration by 1704.",
+              "source_detail": "Etymonline chronology for the exclamatory use."
+            },
+            {
+              "id": "F014",
+              "form": "magnificent",
+              "kind": "etymology",
+              "statement": "Magnificent comes through Old French from Latin magnificus, literally doing great deeds, combining magnus with a form related to facere.",
+              "source_detail": "Etymonline main etymology and morphological analysis."
+            }
+          ]
+        },
+        {
+          "id": "S006",
+          "locator": "https://www.dictionary.com/browse/magnificent",
+          "source_type": "general_dictionary",
+          "source_role": "supplementary_lexicon",
+          "independence_group": "dictionary-com",
+          "facts": [
+            {
+              "id": "F015",
+              "form": "magnificent",
+              "kind": "historical_use",
+              "statement": "A lavishly munificent or extravagant sense is recorded but is peripheral to the modern learner core.",
+              "source_detail": "Dictionary.com American sense 5."
+            },
+            {
+              "id": "F016",
+              "form": "magnificence",
+              "kind": "derived_form",
+              "statement": "Magnificence is the corresponding noun for the quality or state of being magnificent.",
+              "source_detail": "Dictionary word-family information cross-checked with Merriam-Webster's magnificence entry."
+            },
+            {
+              "id": "F017",
+              "form": "magnificent",
+              "kind": "pronunciation",
+              "statement": "Dictionary.com distinguishes American /mæɡˈnɪfəsənt/ from British /mæɡˈnɪfɪsənt/.",
+              "source_detail": "American and British pronunciation lines."
+            },
+            {
+              "id": "F018",
+              "form": "magnificent",
+              "kind": "register",
+              "statement": "Magnificent is a high-admiration term and can also be used informally in weakened exaggeration.",
+              "source_detail": "Dictionary.com synonym-usage note."
+            }
+          ]
+        }
+      ],
+      "source_union": [
+        {
+          "id": "U001",
+          "source_fact_ids": [
+            "F001",
+            "F003",
+            "F006",
+            "F010"
+          ],
+          "canonical_statement": "Magnificent has a central adjective sense for visually splendid, grand, beautiful, or impressive people and things.",
+          "disposition": "included",
+          "rationale": "This is article sense 1."
+        },
+        {
+          "id": "U002",
+          "source_fact_ids": [
+            "F001",
+            "F004",
+            "F007",
+            "F010"
+          ],
+          "canonical_statement": "Magnificent has a central evaluative adjective sense meaning exceptionally good, excellent, or deserving high praise.",
+          "disposition": "included",
+          "rationale": "This is article sense 2."
+        },
+        {
+          "id": "U003",
+          "source_fact_ids": [
+            "F002",
+            "F011",
+            "F017"
+          ],
+          "canonical_statement": "Current pronunciations place stress on the second syllable; sources record /ɪ/ or a reduced /ə/ in the third syllable, with /ə/ prominent in American transcription.",
+          "disposition": "included",
+          "rationale": "The article reports the major dictionary transcription difference without claiming an absolute regional split."
+        },
+        {
+          "id": "U004",
+          "source_fact_ids": [
+            "F012",
+            "F014"
+          ],
+          "canonical_statement": "Magnificent came through French from Latin material combining the idea of great with doing or making.",
+          "disposition": "included",
+          "rationale": "This supports the concise etymology section."
+        },
+        {
+          "id": "U005",
+          "source_fact_ids": [
+            "F009",
+            "F016"
+          ],
+          "canonical_statement": "Magnificently is the common adverb and magnificence is the common noun in the word family.",
+          "disposition": "included",
+          "rationale": "Both forms have current learner value and appear in word formation."
+        },
+        {
+          "id": "U006",
+          "source_fact_ids": [
+            "F013"
+          ],
+          "canonical_statement": "Magnificent can stand alone as an enthusiastic exclamation of admiration.",
+          "disposition": "included",
+          "rationale": "The productive exclamation is included under the general evaluative sense."
+        },
+        {
+          "id": "U007",
+          "source_fact_ids": [
+            "F005",
+            "F008"
+          ],
+          "canonical_statement": "Historical and elevated uses include former-ruler epithets and noble or exalted rank or ideas.",
+          "disposition": "excluded",
+          "rationale": "These are historical or peripheral and do not justify a separate modern learner sense."
+        },
+        {
+          "id": "U008",
+          "source_fact_ids": [
+            "F015"
+          ],
+          "canonical_statement": "A lavishly munificent or extravagant sense is historically recorded.",
+          "disposition": "excluded",
+          "rationale": "This low-frequency peripheral use was excluded from the modern core article."
+        },
+        {
+          "id": "U009",
+          "source_fact_ids": [
+            "F018"
+          ],
+          "canonical_statement": "Magnificent is strongly admiring and may sound deliberately exaggerated in informal contexts.",
+          "disposition": "included",
+          "rationale": "This register distinction is explicitly taught in sense 2."
+        }
+      ],
+      "claim_units": [
+        {
+          "id": "C001",
+          "union_ids": [
+            "U001"
+          ],
+          "subject_form": "magnificent",
+          "claim_type": "sense",
+          "statement": "Magnificent describes a visually splendid or strongly impressive person or thing.",
+          "article_target_ids": [
+            "sense_boundary:001",
+            "definition:001",
+            "grammar_pattern:001",
+            "grammar_pattern:002"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F001",
+              "support_summary": "Cambridge directly gives beautiful and impressive evaluation."
+            },
+            {
+              "source_fact_id": "F003",
+              "support_summary": "Merriam-Webster directly gives grandeur and striking appearance."
+            },
+            {
+              "source_fact_id": "F006",
+              "support_summary": "Collins directly gives impressive appearance."
+            },
+            {
+              "source_fact_id": "F010",
+              "support_summary": "Oxford attests adjective frames with building and appearance examples."
+            }
+          ]
+        },
+        {
+          "id": "C002",
+          "union_ids": [
+            "U002"
+          ],
+          "subject_form": "magnificent",
+          "claim_type": "sense",
+          "statement": "Magnificent evaluates a result, performance, job, opportunity, or experience as exceptionally good.",
+          "article_target_ids": [
+            "sense_boundary:002",
+            "definition:002",
+            "grammar_pattern:004",
+            "collocation:006",
+            "collocation:007",
+            "collocation:008",
+            "collocation:009"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F001",
+              "support_summary": "Cambridge directly gives the extremely good sense."
+            },
+            {
+              "source_fact_id": "F004",
+              "support_summary": "Merriam-Webster directly gives exceptionally fine."
+            },
+            {
+              "source_fact_id": "F007",
+              "support_summary": "Collins directly gives superb or very fine."
+            },
+            {
+              "source_fact_id": "F010",
+              "support_summary": "Oxford attests deserving praise and magnificent job."
+            }
+          ]
+        },
+        {
+          "id": "C003",
+          "union_ids": [
+            "U003"
+          ],
+          "subject_form": "magnificent",
+          "claim_type": "pronunciation",
+          "statement": "Magnificent bears second-syllable stress and current dictionaries transcribe the third vowel as /ɪ/ or reduced /ə/.",
+          "article_target_ids": [
+            "pronunciation:001"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F002",
+              "support_summary": "Cambridge provides current UK and US audio/transcription panels."
+            },
+            {
+              "source_fact_id": "F011",
+              "support_summary": "Oxford records the /ɪ/ transcription in both learner varieties."
+            },
+            {
+              "source_fact_id": "F017",
+              "support_summary": "Dictionary.com explicitly records the US and UK transcription difference."
+            }
+          ]
+        },
+        {
+          "id": "C004",
+          "union_ids": [
+            "U004"
+          ],
+          "subject_form": "magnificent",
+          "claim_type": "etymology",
+          "statement": "Magnificent entered through French from Latin material meaning making or doing great things.",
+          "article_target_ids": [
+            "etymology:001"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F012",
+              "support_summary": "Oxford directly supplies French, Latin, and magnus history."
+            },
+            {
+              "source_fact_id": "F014",
+              "support_summary": "Etymonline supplies the Latin morphological analysis."
+            }
+          ]
+        },
+        {
+          "id": "C005",
+          "union_ids": [
+            "U005"
+          ],
+          "subject_form": "magnificently",
+          "claim_type": "derived_form",
+          "statement": "Magnificently is the productive adverb derived from magnificent.",
+          "article_target_ids": [
+            "word_formation:002"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F009",
+              "support_summary": "Collins explicitly lists magnificently as the derived adverb."
+            }
+          ]
+        },
+        {
+          "id": "C006",
+          "union_ids": [
+            "U005"
+          ],
+          "subject_form": "magnificence",
+          "claim_type": "derived_form",
+          "statement": "Magnificence is the common noun for the quality or state of being magnificent.",
+          "article_target_ids": [
+            "word_formation:001"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F016",
+              "support_summary": "Dictionary and Merriam-Webster word-family information support magnificence."
+            }
+          ]
+        },
+        {
+          "id": "C007",
+          "union_ids": [
+            "U006"
+          ],
+          "subject_form": "Magnificent!",
+          "claim_type": "frame",
+          "statement": "Magnificent can be used alone as an enthusiastic exclamation of approval.",
+          "article_target_ids": [
+            "grammar_pattern:007",
+            "collocation:011"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F013",
+              "support_summary": "Etymonline directly records the enthusiastic exclamation."
+            }
+          ]
+        },
+        {
+          "id": "C008",
+          "union_ids": [
+            "U009"
+          ],
+          "subject_form": "magnificent",
+          "claim_type": "register",
+          "statement": "Magnificent is strongly admiring and can sound intentionally exaggerated for a small everyday matter.",
+          "article_target_ids": [
+            "register:002",
+            "usage_note:002"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F018",
+              "support_summary": "Dictionary.com directly notes high admiration and informal weak exaggeration."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "input_body_sha256": "258c1b3a17708126df77cb8e5db1556a9e738d56dd4183d8ccca00569461cdb7",
+  "request_hashes": {
+    "translation": "216489f8da49af74a91740f397b0c9674b2cc8362bf55e560f70655efe835f2f",
+    "sense-structure": "a474bbc5044e9a09fe80b6f222419e4bdac89ca91365c2a706250c04a252ca5b",
+    "frame-relation": "24d50335cff6e225b21794df08d676967a9621c79eaf52c6cc09b182fa689ef6",
+    "example-attribution": "436effe3d8a0b695a9e160c934ac1d9abfc5e0050dbd11102af59e5191f80297",
+    "qualification": "c03bedf87961c56fbe1598ed67ef82c719c805ab36e3a745f9f6f1436180356e",
+    "pronunciation": "416ad341c2bc52fd6393c92d52840a242f6df165e1ae02316d62cc6189bbd425",
+    "evidence": "e2eb48f40443e8b05cc2668b641bc81fc5d6204a66f50cad9ab5d95be1bf8da1"
+  }
+}

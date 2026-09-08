@@ -1,0 +1,109 @@
+{
+  "schema_version": "example_attribution_blind_request_v1",
+  "pass_id": "example-attribution",
+  "taxonomy_ids": [
+    "example_sense_attribution_mismatch"
+  ],
+  "specification": "prompts/check_pass_example_attribution_v6.md",
+  "input_body_sha256": "68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162",
+  "input_sections": {
+    "sense_structure": [
+      {
+        "sense_id": "sense:001",
+        "line": 28,
+        "label": "1. 【形容詞・限定／叙述】壮麗な、非常に美しく印象的な",
+        "definition": "建物、景色、部屋、衣装、動物などが、規模、美しさ、豪華さ、威厳によって見る人に強い感銘を与えることを表す。単に大きいだけでなく、目を見張るほど見事だという肯定的評価を含む。"
+      },
+      {
+        "sense_id": "sense:002",
+        "line": 106,
+        "label": "2. 【形容詞・限定／叙述】すばらしい、見事な、極めて優れた",
+        "definition": "成果、演技、仕事、行為、機会、出来事などの質や価値が非常に高く、強く称賛したくなることを表す。外見の壮麗さを必要とせず、能力、出来、効果、経験の満足度などを高く評価する。単独の `Magnificent!` は「見事だ」「すばらしい」という感嘆になる。"
+      }
+    ],
+    "collocations_examples": [
+      {
+        "example_id": "ex-98cc9eefc985",
+        "example": "A magnificent eagle circled above the valley.",
+        "translation": "一羽の堂々たるワシが谷の上空を旋回していた。"
+      },
+      {
+        "example_id": "ex-c376506fcce9",
+        "example": "Visitors stopped to admire the cathedral's magnificent interior.",
+        "translation": "来訪者たちは足を止めて、その大聖堂の壮麗な内部に見入った。"
+      },
+      {
+        "example_id": "ex-a74faaad755a",
+        "example": "Completing the bridge ahead of schedule was a magnificent achievement.",
+        "translation": "予定より早く橋を完成させたことは、見事な偉業だった。"
+      },
+      {
+        "example_id": "ex-ed5050e7973c",
+        "example": "The restored palace is a magnificent eighteenth-century building.",
+        "translation": "修復されたその宮殿は、壮麗な18世紀の建築物である。"
+      },
+      {
+        "example_id": "ex-635b3b7971ab",
+        "example": "“We finished the repairs.” “Magnificent! We can reopen tomorrow.”",
+        "translation": "「修理が終わりました」「すばらしい！ 明日には再開できる」"
+      },
+      {
+        "example_id": "ex-05f0d84926f4",
+        "example": "The rescue team did a magnificent job under dangerous conditions.",
+        "translation": "救助隊は危険な状況下で実に見事な働きをした。"
+      },
+      {
+        "example_id": "ex-8afcc0ffe905",
+        "example": "From the terrace, we had a magnificent view of the snow-covered mountains.",
+        "translation": "テラスからは、雪に覆われた山々のすばらしい眺めが広がっていた。"
+      },
+      {
+        "example_id": "ex-3290ae8d9e48",
+        "example": "The violinist gave a magnificent performance in the final movement.",
+        "translation": "そのバイオリニストは最終楽章で見事な演奏を披露した。"
+      },
+      {
+        "example_id": "ex-db1b726380a6",
+        "example": "The scholarship gave her a magnificent opportunity to study abroad.",
+        "translation": "その奨学金は、彼女に留学するすばらしい機会を与えた。"
+      },
+      {
+        "example_id": "ex-c496d8815c09",
+        "example": "She looked magnificent in the deep blue gown.",
+        "translation": "彼女は濃い青のドレスをまとい、実に華やかで堂々として見えた。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "assigned_sense_id",
+      "collocation_heading",
+      "usage_line",
+      "example_group_boundary",
+      "document_order"
+    ],
+    "required_output_schema": "example_attribution_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "e0bbb032bc0c50bf9bef5ff8f7854188287e635c58e599479891e11e3343a017",
+  "source_artifact_sha256": "681a574947ead18b804096165079a4800c3edc22edfc1d7189d38bc0e6cafbb6",
+  "normalized_input_sha256": "ea83fb0a569a6ce19f5434a74c83bff701cfb668fdceb49c07270b9899d3d006"
+}
