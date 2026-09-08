@@ -1,0 +1,99 @@
+{
+  "schema_version": "resolutions_v1",
+  "stage": "resolutions",
+  "run_id": "resolution-principal-20260908T073126Z-740135b4",
+  "context_id": "resolution-principal-context-20260908T073126Z-740135b4",
+  "input_body_sha256": "f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4",
+  "prompt_sha256": "7dfcaa0a828a334dbb84d1d31ed97312d0a9661a7aca70a7815a9f88b31ea2f1",
+  "recorded_at": "2026-09-08T09:45:00Z",
+  "input_artifacts": [
+    "entry_body",
+    "all_findings"
+  ],
+  "resolutions": [
+    {
+      "id": "normal-evidence-001",
+      "finding_id": "normal-evidence-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "F-032 supports the principle-as-rule versus principal-as-most-important-adjective distinction, but not the note's added noun inventory or its basic-principle substitution example.",
+      "required_changes": [
+        "Limit the spelling note to the distinction directly recorded by F-032."
+      ],
+      "implemented_changes": [
+        "Removed the unbound person-and-amount noun summary and the unsupported basic principle/basic principal example; retained only F-032's rule-noun versus most-important-adjective contrast."
+      ],
+      "resolved_body_sha256": "f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4"
+    },
+    {
+      "id": "normal-evidence-002",
+      "finding_id": "normal-evidence-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "F-002 directly supports a person with controlling authority and F-014 directly supports a principal as the person in charge of a school, while the former at/of/compound templates were not recorded in the fixed facts.",
+      "required_changes": [
+        "Replace the unsupported organization and education templates with complete frames that directly express the fixed authority and school-in-charge facts without narrowing U-002."
+      ],
+      "implemented_changes": [
+        "Replaced the at/of/school-principal/college-principal set with a principal with controlling authority and the principal be in charge of a school, each with a matching example; tightened the C-002 support summaries without changing facts or U-002."
+      ],
+      "resolved_body_sha256": "f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4"
+    },
+    {
+      "id": "normal-evidence-003",
+      "finding_id": "normal-evidence-003",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "F-018 directly records principal dancer and the first player of an orchestral section, but not perform or serve as a principal with an organization or the possessive one-of-principals construction.",
+      "required_changes": [
+        "Replace the unsupported complements with complete frames grounded in F-018 while preserving both branches of U-003."
+      ],
+      "implemented_changes": [
+        "Replaced the perform/serve-with and possessive frames with a principal dancer and the principal be the first player of an orchestral section, each with a matching example; tightened C-003's F-018 binding without changing facts or U-003."
+      ],
+      "resolved_body_sha256": "f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4"
+    },
+    {
+      "id": "normal-evidence-004",
+      "finding_id": "normal-evidence-004",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The fixed finance and trust facts directly support an initial invested amount and contrasts with interest or income, but do not support the bundled pay-down, protect, repay, and distinguish verb frames.",
+      "required_changes": [
+        "Remove the unsupported verb bundle and retain complete frames that state only the directly supported amount and contrast relations."
+      ],
+      "implemented_changes": [
+        "Replaced the former finance/trust construction set with principal as the initial amount invested, principal distinct from interest, and trust principal distinct from income, with matching examples; tightened the C-004/C-005 binding summaries without adding facts."
+      ],
+      "resolved_body_sha256": "f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4"
+    },
+    {
+      "id": "normal-evidence-005",
+      "finding_id": "normal-evidence-005",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "F-021 directly supports a principal as a person directly responsible for a crime, but not the former in-complement or treat-as constructions.",
+      "required_changes": [
+        "Replace both unsupported criminal-law templates with the complete directly-responsible-for-a-crime frame."
+      ],
+      "implemented_changes": [
+        "Replaced the in and treat-as frames and examples with the principal be directly responsible for a crime, and tightened C-007's F-021 binding summary."
+      ],
+      "resolved_body_sha256": "f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4"
+    },
+    {
+      "id": "normal-evidence-006",
+      "finding_id": "normal-evidence-006",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "F-006 and F-022 directly support primary liability for an obligation, and F-026 directly supports the distinction from a surety or guarantor with secondary liability; the former liable-as, obligation-of, and coordination templates exceeded those records.",
+      "required_changes": [
+        "Replace the unsupported liability templates with complete frames directly expressing primary liability and the secondary-liability contrast."
+      ],
+      "implemented_changes": [
+        "Replaced the former three-template set with the principal be primarily liable for an obligation and the principal distinct from a surety or guarantor with secondary liability, with matching examples; tightened C-008's binding summaries without adding facts."
+      ],
+      "resolved_body_sha256": "f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4"
+    }
+  ]
+}

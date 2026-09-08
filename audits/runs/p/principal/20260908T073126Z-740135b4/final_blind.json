@@ -1,0 +1,336 @@
+{
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "FB-C001",
+      "surface_form": "principal",
+      "frame": "principal + noun",
+      "meaning": "複数の候補の中で重要性・中心性・順位が第一級の、主要な",
+      "disposition": "included",
+      "rationale": "principal + noun は形容詞の中心用法であり、理由・原因・供給源・人物などを重要度の軸で主要と位置づける記事の語義1に明確に含まれる。",
+      "semantic_assertions": [
+        {
+          "id": "FB-A001",
+          "statement": "形容詞 principal は原則として同じ集合内での相対的重要性または中心性を表す。",
+          "polarity": "must_hold",
+          "scope": "形容詞の定義、文法パターン、コロケーション、類義語比較"
+        },
+        {
+          "id": "FB-A002",
+          "statement": "形容詞 principal を単なる時間順の『最初の』と同一視してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "形容詞の定義と語法"
+        }
+      ]
+    },
+    {
+      "id": "FB-C002",
+      "surface_form": "a principal",
+      "frame": "a principal with controlling authority",
+      "meaning": "組織で支配的権限または主導的地位を持つ人物",
+      "disposition": "included",
+      "rationale": "a principal with controlling authority は一般人物用法を権限の有無で限定しており、単なる著名人へ不当に広げず記事の語義2に含まれる。",
+      "semantic_assertions": [
+        {
+          "id": "FB-A003",
+          "statement": "人物名詞 principal の一般用法には、その組織内での権限または主導的地位が必要である。",
+          "polarity": "must_hold",
+          "scope": "一般人物用法の定義、用例、注意"
+        },
+        {
+          "id": "FB-A004",
+          "statement": "人物名詞 principal を文脈上の地位を問わない一般的な『重要人物』として扱ってはならない。",
+          "polarity": "must_not_hold",
+          "scope": "一般人物用法の包含・除外境界"
+        }
+      ]
+    },
+    {
+      "id": "FB-C003",
+      "surface_form": "the principal",
+      "frame": "the principal + be + in charge of a school or educational institution",
+      "meaning": "学校・カレッジなど教育機関を管理する長",
+      "disposition": "included",
+      "rationale": "the principal + be + in charge of a school or educational institution は一般の権限者より狭い教育上の役職フレームで、地域・制度差の注意を伴って記事の語義2に含まれる。",
+      "semantic_assertions": [
+        {
+          "id": "FB-A005",
+          "statement": "教育用法の principal は教育機関を管理する長という制度上の役職を表す。",
+          "polarity": "must_hold",
+          "scope": "教育用法の定義、レジスター、文法パターン"
+        },
+        {
+          "id": "FB-A006",
+          "statement": "あらゆる地域・制度の日本語『校長』を無条件に principal と訳せると一般化してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "教育用法の地域・制度上の限定"
+        }
+      ]
+    },
+    {
+      "id": "FB-C004",
+      "surface_form": "a principal",
+      "frame": "performer + be + a principal",
+      "meaning": "舞台芸術団体で主要な役を担う演者",
+      "disposition": "included",
+      "rationale": "performer + be + a principal は舞台芸術で確立した役割名としての記事の語義3に含まれ、一般人物用法とは領域で明確に分離されている。",
+      "semantic_assertions": [
+        {
+          "id": "FB-A007",
+          "statement": "舞台芸術の名詞 principal は団体内で主要な役を担う演者を指す。",
+          "polarity": "must_hold",
+          "scope": "舞台芸術用法の定義、文法パターン、用例"
+        },
+        {
+          "id": "FB-A008",
+          "statement": "舞台芸術の役割名を芸術分野外の重要人物一般へ拡張してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "舞台芸術用法の除外境界"
+        }
+      ]
+    },
+    {
+      "id": "FB-C005",
+      "surface_form": "the principal",
+      "frame": "the principal + be + the first player of an orchestra section",
+      "meaning": "オーケストラの一つのセクションを率いる首席奏者",
+      "disposition": "included",
+      "rationale": "the principal + be + the first player of an orchestra section は舞台演者とは異なるオーケストラの職務フレームであり、記事の語義3の内部で個別に説明されている。",
+      "semantic_assertions": [
+        {
+          "id": "FB-A009",
+          "statement": "オーケストラ用法の principal は特定セクションの第一奏者または首席という役割を表す。",
+          "polarity": "must_hold",
+          "scope": "オーケストラ用法の定義、文法パターン、用例"
+        },
+        {
+          "id": "FB-A010",
+          "statement": "オーケストラの principal を団体全体の管理責任者という意味に取り違えてはならない。",
+          "polarity": "must_not_hold",
+          "scope": "オーケストラ用法の意味役割"
+        }
+      ]
+    },
+    {
+      "id": "FB-C006",
+      "surface_form": "principal",
+      "frame": "principal + be + distinct from interest",
+      "meaning": "貸付・借入・投資で利息や収益の基礎となる元金または元本",
+      "disposition": "included",
+      "rationale": "principal + be + distinct from interest は金融上の金額構成要素を区別する中心フレームで、記事の語義4に元金への返済効果も含めて説明されている。",
+      "semantic_assertions": [
+        {
+          "id": "FB-A011",
+          "statement": "金融用法の principal は利息・利益・収益の計算または発生の基礎となる資本額を指す。",
+          "polarity": "must_hold",
+          "scope": "金融用法の定義、文法パターン、用例"
+        },
+        {
+          "id": "FB-A012",
+          "statement": "principal と interest を反意語として扱ってはならない。",
+          "polarity": "must_not_hold",
+          "scope": "金融用法の語法と関係分類"
+        }
+      ]
+    },
+    {
+      "id": "FB-C007",
+      "surface_form": "trust principal",
+      "frame": "trust principal + be + distinct from income",
+      "meaning": "信託で収益と区別される財産本体または corpus",
+      "disposition": "included",
+      "rationale": "trust principal + be + distinct from income は金融元金とは別の信託法上の対象を明示し、記事の語義4に専門的限定とともに含まれる。",
+      "semantic_assertions": [
+        {
+          "id": "FB-A013",
+          "statement": "信託用法の principal は信託財産の本体を指し、そこから生じる income と区別される。",
+          "polarity": "must_hold",
+          "scope": "信託法用法の定義、文法パターン、用例"
+        },
+        {
+          "id": "FB-A014",
+          "statement": "trust principal を信託から発生する収益そのものとして扱ってはならない。",
+          "polarity": "must_not_hold",
+          "scope": "信託法用法の作用方向と除外境界"
+        }
+      ]
+    },
+    {
+      "id": "FB-C008",
+      "surface_form": "principal",
+      "frame": "agent + act on behalf of the principal",
+      "meaning": "代理人に自分のために行動する権限を与える本人または法人",
+      "disposition": "included",
+      "rationale": "agent + act on behalf of the principal は代理関係の役割方向を固定し、権限の源である本人を受権者の agent と混同せず記事の語義5に含めている。",
+      "semantic_assertions": [
+        {
+          "id": "FB-A015",
+          "statement": "代理法上の principal は agent がその者のために行動する側であり、代理権の源となる。",
+          "polarity": "must_hold",
+          "scope": "代理関係用法の定義、文法パターン、用例"
+        },
+        {
+          "id": "FB-A016",
+          "statement": "代理関係で principal と agent の権限付与側・行動側を逆転させてはならない。",
+          "polarity": "must_not_hold",
+          "scope": "代理関係の役割軸と反意関係"
+        }
+      ]
+    },
+    {
+      "id": "FB-C009",
+      "surface_form": "principal",
+      "frame": "act or trade as principal rather than as agent",
+      "meaning": "取引で他人の代理ではなく自己の計算・責任で当事者として行動する",
+      "disposition": "excluded",
+      "rationale": "act or trade as principal rather than as agent は代理人との対比から生じる専門的な取引上の拡張であり、独立した主要語義として追加しなくても代理関係の役割境界から理解できるため除外できる。",
+      "semantic_assertions": [
+        {
+          "id": "FB-A017",
+          "statement": "自己勘定取引で as principal と言う場合は、他人の agent としてではなく自己の計算・責任で行動する対比が中心となる。",
+          "polarity": "must_hold",
+          "scope": "取引上の文脈的拡張を説明する場合"
+        },
+        {
+          "id": "FB-A018",
+          "statement": "この取引表現を教育機関の長や元金の語義へ帰属させてはならない。",
+          "polarity": "must_not_hold",
+          "scope": "取引表現の語義境界"
+        }
+      ]
+    },
+    {
+      "id": "FB-C010",
+      "surface_form": "the principal",
+      "frame": "the principal + be + directly responsible for a crime under applicable law",
+      "meaning": "適用法の分類により犯罪について直接の刑事責任を負う関与者",
+      "disposition": "included",
+      "rationale": "the principal + be + directly responsible for a crime under applicable law は犯罪の物理的実行者だけに絶対化せず、法域依存の分類として記事の語義6に含まれる。",
+      "semantic_assertions": [
+        {
+          "id": "FB-A019",
+          "statement": "刑事法上の principal の範囲は適用法の分類に従い、犯罪への一定の関与による直接責任を表す。",
+          "polarity": "must_hold",
+          "scope": "刑事法用法の定義、レジスター、注意"
+        },
+        {
+          "id": "FB-A020",
+          "statement": "すべての法域で principal が物理的実行者だけを指すと絶対化してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "刑事法用法の一般化範囲"
+        }
+      ]
+    },
+    {
+      "id": "FB-C011",
+      "surface_form": "the principal",
+      "frame": "the principal + be + primarily liable for a debt or obligation",
+      "meaning": "保証人などと対比して義務に第一次的責任を負う主たる債務者・義務者",
+      "disposition": "included",
+      "rationale": "the principal + be + primarily liable for a debt or obligation は責任順位を表す債務・保証法の役割であり、金額を指す元金用法と分離して記事の語義7に含まれる。",
+      "semantic_assertions": [
+        {
+          "id": "FB-A021",
+          "statement": "債務・保証法上の principal は当該義務について第一次的責任を負う者を指す。",
+          "polarity": "must_hold",
+          "scope": "債務・保証法用法の定義、文法パターン、用例"
+        },
+        {
+          "id": "FB-A022",
+          "statement": "第一次的責任者を二次的責任を負う surety または guarantor と同一視してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "債務・保証関係の責任順位軸"
+        }
+      ]
+    },
+    {
+      "id": "FB-C012",
+      "surface_form": "principally",
+      "frame": "principally + verb, adjective, or clause",
+      "meaning": "主として、主にという副詞派生",
+      "disposition": "included",
+      "rationale": "principally + verb, adjective, or clause は principal の重要性中心から規則的に派生する副詞であり、記事の語形成欄に principally として含まれる。",
+      "semantic_assertions": [
+        {
+          "id": "FB-A023",
+          "statement": "principally は『主として、主に』という割合または中心性を表す副詞派生である。",
+          "polarity": "must_hold",
+          "scope": "語形成欄"
+        }
+      ]
+    },
+    {
+      "id": "FB-C013",
+      "surface_form": "principalship",
+      "frame": "the principalship of an institution",
+      "meaning": "principal の地位・職、特に教育機関の長の職",
+      "disposition": "included",
+      "rationale": "the principalship of an institution は人物を表す principal から地位・職を作る規則的な名詞派生であり、記事の語形成欄に principalship として含まれる。",
+      "semantic_assertions": [
+        {
+          "id": "FB-A024",
+          "statement": "principalship は principal の役職またはその在職を表す名詞派生である。",
+          "polarity": "must_hold",
+          "scope": "語形成欄"
+        }
+      ]
+    },
+    {
+      "id": "FB-C014",
+      "surface_form": "principal-agent relationship",
+      "frame": "a principal-agent relationship between principal and agent",
+      "meaning": "本人と代理人の権限・行動関係を表す法律上の複合表現",
+      "disposition": "included",
+      "rationale": "a principal-agent relationship between principal and agent は語義5の役割対立を複合語に固定した表現で、記事の語形成欄と代理関係のコロケーションに含まれる。",
+      "semantic_assertions": [
+        {
+          "id": "FB-A025",
+          "statement": "principal-agent relationship は本人と、その本人のために行動する代理人との関係を表す。",
+          "polarity": "must_hold",
+          "scope": "語形成欄と代理関係用法"
+        },
+        {
+          "id": "FB-A026",
+          "statement": "複合表現内の principal と agent の意味役割を交換してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "複合表現の構成要素と役割方向"
+        }
+      ]
+    },
+    {
+      "id": "FB-C015",
+      "surface_form": "principal",
+      "frame": "principal rafter or another historically lexicalized technical noun",
+      "meaning": "建築などで主部材を指す歴史的・限定的な名詞用法",
+      "disposition": "excluded",
+      "rationale": "principal rafter or another historically lexicalized technical noun は現代一般学習者向け記事で独立語義として必須となるほど中心的ではなく、形容詞 principal の専門的な限定用法として扱えるため除外できる。",
+      "semantic_assertions": [
+        {
+          "id": "FB-A027",
+          "statement": "歴史的・分野限定の部材名を扱う場合は、現代一般語の主要名詞用法と区別する。",
+          "polarity": "must_hold",
+          "scope": "稀な専門用法を追加する場合の語義境界"
+        }
+      ]
+    }
+  ],
+  "article_findings": [],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal_cycle3_final_blind"
+  },
+  "schema_version": "final_blind_v2",
+  "stage": "final_blind",
+  "run_id": "blind-principal-20260908T073126Z-740135b4",
+  "context_id": "blind-principal-context-20260908T073126Z-740135b4",
+  "input_body_sha256": "f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4",
+  "prompt_sha256": "3a481b4b5b1236ff386e148bcacc574570b305e79f5e155e9afcd34091f7785c",
+  "input_artifacts": [
+    "entry_body",
+    "final_blind_prompt"
+  ],
+  "audit_visible": false,
+  "recorded_at": "2026-09-08T09:40:41.654023+00:00"
+}
