@@ -1,8 +1,8 @@
-# Independent cold-review handoff
+# Independent review handoff
 
-Run concurrently with the seven checker subagents when a slot is available. The input contains only the fixed entry body and cold-review prompt; checker findings, source-first artifacts, and generation context are prohibited.
+Stage: `cold_review`
 
-Save one JSON response as `cold_review.response.json`.
+The response must be one JSON object matching the supplied review schema. Create it in a separate model session; do not use the generation session.
 
 ## Prompt
 

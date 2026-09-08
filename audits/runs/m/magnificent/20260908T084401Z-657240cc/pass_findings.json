@@ -1,0 +1,920 @@
+{
+  "schema_version": "normal_review_v2",
+  "stage": "normal_review",
+  "run_id": "normal-magnificent-20260908T084401Z-657240cc",
+  "context_id": "normal-magnificent-context-20260908T084401Z-657240cc",
+  "input_body_sha256": "258c1b3a17708126df77cb8e5db1556a9e738d56dd4183d8ccca00569461cdb7",
+  "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
+  "input_artifacts": [
+    "router_selected_sections",
+    "checker_pass_specs"
+  ],
+  "recorded_at": "2026-09-08T09:20:10.802479+00:00",
+  "pass_outputs": [
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "translation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "translation-checker-8db7db39-32b7-4ae9-902e-01cb8b89a3c8"
+      },
+      "findings": [
+        {
+          "taxonomy_id": "example_translation_alignment",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 42,
+            "line_end": 42,
+            "exact_quote": "例: The restored palace is a magnificent example of eighteenth-century architecture.  "
+          },
+          "severity": "blocking",
+          "rationale": "この英文では magnificent は palace/building ではなく example を修飾しており、提示されたコロケーション `a magnificent building/palace` の完全フレームを実例化していない。宮殿そのものが magnificent だという語義・構文の用例として学習させると、修飾対象を取り違えさせる。",
+          "evidence_link_ids": [],
+          "suggested_direction": "`a magnificent building/palace` をそのまま実例化し、magnificent が建物または宮殿を直接修飾する英文と、それに対応する訳に差し替える。"
+        },
+        {
+          "taxonomy_id": "example_translation_alignment",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 63,
+            "line_end": 63,
+            "exact_quote": "訳: 来訪者たちは足を止めて、その大聖堂の壮麗な内部を眺めた。  "
+          },
+          "severity": "blocking",
+          "rationale": "英文の admire は対象を称賛・感嘆しながら見るという評価を含むが、訳の「眺めた」は単なる視覚行為に弱まり、その述語の評価的意味が保存されていない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "「足を止めて、その大聖堂の壮麗な内部に見入った」など、admire の感嘆・称賛を含む述語に直す。"
+        }
+      ]
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "sense-structure",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "agent-check-sense-structure-3e8b43f5c35a423f96f6b0c3350973d7"
+      },
+      "findings": []
+    },
+    {
+      "pass_id": "frame-relation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "/root/magnificent_word/check_frame"
+      },
+      "antonym_axis_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "258c1b3a17708126df77cb8e5db1556a9e738d56dd4183d8ccca00569461cdb7",
+        "blind_request_sha256": "24d50335cff6e225b21794df08d676967a9621c79eaf52c6cc09b182fa689ef6",
+        "recorded_at": "2026-09-08T09:07:07Z",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "/root/magnificent_word/check_frame"
+        },
+        "axes": [
+          {
+            "item_id": "ant-2a37f3ed9ae8",
+            "axis": "感銘度",
+            "relation_type": "程度",
+            "reason": ""
+          },
+          {
+            "item_id": "ant-5372ba08044e",
+            "axis": "華美性",
+            "relation_type": "程度",
+            "reason": ""
+          },
+          {
+            "item_id": "ant-f61ced8cd873",
+            "axis": "卓越性",
+            "relation_type": "程度",
+            "reason": ""
+          },
+          {
+            "item_id": "ant-d110bb7bd5b1",
+            "axis": "品質",
+            "relation_type": "評価",
+            "reason": ""
+          }
+        ]
+      },
+      "antonym_axis_adjudication_record": {
+        "schema_version": "antonym_axis_adjudication_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "258c1b3a17708126df77cb8e5db1556a9e738d56dd4183d8ccca00569461cdb7",
+        "stage2_request_sha256": "b2f5ac8f6882537ed32611d2e4ca7e4ad2bb5d6c087030dae562d589294aa9f4",
+        "blind_record_sha256": "26ff9c12b3a53077a99a0fd3075b7b7a12b37d23a594a9dce91bd54d0ae0e7e8",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "/root/magnificent_word/check_frame"
+        },
+        "adjudications": [
+          {
+            "item_id": "ant-2a37f3ed9ae8",
+            "flags": [],
+            "rationale": "感銘度の軸は当該語義の強い感銘という定義から直接導出でき、強い感銘と感銘の欠如は程度対立として成立する。違い行にも対立を否定または限定する記述はない。",
+            "suggested_direction": "対立軸修正",
+            "f4_severity": null
+          },
+          {
+            "item_id": "ant-5372ba08044e",
+            "flags": [
+              "F4"
+            ],
+            "rationale": "華美性の軸と程度型は、語義定義に明記された豪華さと反意語定義の装飾・華やかさの欠如から成立する。しかし違い行が『限定された軸』であることに加え、『全面的な反対語ではない』と反意関係の限定を明示しており、F4に該当する。",
+            "suggested_direction": "語法・注意への対照表現としての移動",
+            "f4_severity": "minor"
+          },
+          {
+            "item_id": "ant-f61ced8cd873",
+            "flags": [],
+            "rationale": "卓越性の軸は質・価値が非常に高いという当該語義から導出でき、極めて高い評価と平凡な評価は程度対立として成立する。違い行にも対立を否定または限定する記述はない。",
+            "suggested_direction": "対立軸修正",
+            "f4_severity": null
+          },
+          {
+            "item_id": "ant-d110bb7bd5b1",
+            "flags": [],
+            "rationale": "品質の軸は質や出来を高く評価する当該語義から導出でき、非常に高い側と非常に低い側の評価対立として成立する。違い行にも対立を否定または限定する記述はない。",
+            "suggested_direction": "対立軸修正",
+            "f4_severity": null
+          }
+        ],
+        "frame_findings": [
+          {
+            "taxonomy_id": "argument_slot_role_mismatch",
+            "location": {
+              "section": "collocations_examples",
+              "line_start": 42,
+              "line_end": 42,
+              "exact_quote": "例: The restored palace is a magnificent example of eighteenth-century architecture.  "
+            },
+            "severity": "blocking",
+            "rationale": "直前のコロケーションは `a magnificent building/palace` だが、例文で `magnificent` が直接修飾する名詞は `example` であり、`palace` は主語である。宣言された名詞スロットを例文が実現していない。",
+            "evidence_link_ids": [],
+            "suggested_direction": "`magnificent` が `building` または `palace` を直接修飾する例文に差し替え、コロケーションと修飾対象を一対一で対応させる。"
+          },
+          {
+            "taxonomy_id": "argument_slot_role_mismatch",
+            "location": {
+              "section": "frames",
+              "line_start": 36,
+              "line_end": 36,
+              "exact_quote": "【文法パターン】`a magnificent + 〈建物・景色・物〉`＝壮麗な～／`〈建物・景色・物〉 + be/look/seem magnificent`＝～が壮麗である・壮麗に見える／`a magnificent view of 〈場所・景色〉`＝〈場所・景色〉のすばらしい眺め  "
+            },
+            "severity": "blocking",
+            "rationale": "文法パターンの叙述用法は主語を建物・景色・物に限定しているが、主要コロケーション `look magnificent in 〈服・色〉` と例文は人を主語とする。主語の意味役割と補部 `in 〈服・色〉` が完全フレームに反映されていない。",
+            "evidence_link_ids": [],
+            "suggested_direction": "`〈人〉 + look magnificent in 〈服・色〉` を独立した完全フレームとして追加し、主語スロットと補部を明示する。"
+          },
+          {
+            "taxonomy_id": "argument_slot_role_mismatch",
+            "location": {
+              "section": "frames",
+              "line_start": 121,
+              "line_end": 121,
+              "exact_quote": "【文法パターン】`a magnificent + 〈成果・演技・仕事・機会〉`＝すばらしい～／`〈成果・演技・仕事〉 + be/seem magnificent`＝～が見事である／`do/play/perform magnificently`＝見事に行う・演じる／`Magnificent!`＝見事だ・すばらしい  "
+            },
+            "severity": "blocking",
+            "rationale": "語義は形容詞 `magnificent` と宣言されているのに、文法パターンへ派生副詞 `magnificently` の動詞修飾フレームが同列に混入しており、宣言品詞と構文単位が一致しない。",
+            "evidence_link_ids": [],
+            "suggested_direction": "`do/play/perform magnificently` を形容詞の文法パターンから除き、必要なら派生語の語法として別に扱う。"
+          },
+          {
+            "taxonomy_id": "argument_slot_role_mismatch",
+            "location": {
+              "section": "collocations_examples",
+              "line_start": 145,
+              "line_end": 145,
+              "exact_quote": "・`feel magnificent`  "
+            },
+            "severity": "blocking",
+            "rationale": "主要コロケーションでは経験者である人を主語に取る `〈人〉 + feel magnificent` が示されるが、文法パターンには成果・演技・仕事を主語とする `be/seem` しかなく、この連結動詞フレームと主語役割が対応づけられていない。",
+            "evidence_link_ids": [],
+            "suggested_direction": "`〈人〉 + feel magnificent` を独立した叙述フレームとして明記し、経験者主語と心身状態の補語解釈を示す。"
+          }
+        ],
+        "unrouted_observations": [
+          {
+            "target_pass": "sense-structure",
+            "location": {
+              "section": "collocations_examples",
+              "line_start": 145,
+              "line_end": 145,
+              "exact_quote": "・`feel magnificent`  "
+            },
+            "rationale": "語義2の中心定義は成果・演技・仕事・機会・出来事の質や価値への高評価だが、`feel magnificent` は人の心身状態が非常によいという経験者状態を表す。定義がこの主要フレームへそのまま適用できないため、独立語義化または定義構造の再編を検討する必要がある。",
+            "suggested_direction": "`feel magnificent` の心身状態用法を独立語義へ分離するか、語義2の定義をその意味役割まで明示的に包含するよう再構成する。"
+          }
+        ]
+      },
+      "aligned_at": "2026-09-08T09:25:42.064160+00:00",
+      "findings": [
+        {
+          "taxonomy_id": "argument_slot_role_mismatch",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 42,
+            "line_end": 42,
+            "exact_quote": "例: The restored palace is a magnificent example of eighteenth-century architecture.  "
+          },
+          "severity": "blocking",
+          "rationale": "直前のコロケーションは `a magnificent building/palace` だが、例文で `magnificent` が直接修飾する名詞は `example` であり、`palace` は主語である。宣言された名詞スロットを例文が実現していない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "`magnificent` が `building` または `palace` を直接修飾する例文に差し替え、コロケーションと修飾対象を一対一で対応させる。"
+        },
+        {
+          "taxonomy_id": "argument_slot_role_mismatch",
+          "location": {
+            "section": "frames",
+            "line_start": 36,
+            "line_end": 36,
+            "exact_quote": "【文法パターン】`a magnificent + 〈建物・景色・物〉`＝壮麗な～／`〈建物・景色・物〉 + be/look/seem magnificent`＝～が壮麗である・壮麗に見える／`a magnificent view of 〈場所・景色〉`＝〈場所・景色〉のすばらしい眺め  "
+          },
+          "severity": "blocking",
+          "rationale": "文法パターンの叙述用法は主語を建物・景色・物に限定しているが、主要コロケーション `look magnificent in 〈服・色〉` と例文は人を主語とする。主語の意味役割と補部 `in 〈服・色〉` が完全フレームに反映されていない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "`〈人〉 + look magnificent in 〈服・色〉` を独立した完全フレームとして追加し、主語スロットと補部を明示する。"
+        },
+        {
+          "taxonomy_id": "argument_slot_role_mismatch",
+          "location": {
+            "section": "frames",
+            "line_start": 121,
+            "line_end": 121,
+            "exact_quote": "【文法パターン】`a magnificent + 〈成果・演技・仕事・機会〉`＝すばらしい～／`〈成果・演技・仕事〉 + be/seem magnificent`＝～が見事である／`do/play/perform magnificently`＝見事に行う・演じる／`Magnificent!`＝見事だ・すばらしい  "
+          },
+          "severity": "blocking",
+          "rationale": "語義は形容詞 `magnificent` と宣言されているのに、文法パターンへ派生副詞 `magnificently` の動詞修飾フレームが同列に混入しており、宣言品詞と構文単位が一致しない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "`do/play/perform magnificently` を形容詞の文法パターンから除き、必要なら派生語の語法として別に扱う。"
+        },
+        {
+          "taxonomy_id": "argument_slot_role_mismatch",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 145,
+            "line_end": 145,
+            "exact_quote": "・`feel magnificent`  "
+          },
+          "severity": "blocking",
+          "rationale": "主要コロケーションでは経験者である人を主語に取る `〈人〉 + feel magnificent` が示されるが、文法パターンには成果・演技・仕事を主語とする `be/seem` しかなく、この連結動詞フレームと主語役割が対応づけられていない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "`〈人〉 + feel magnificent` を独立した叙述フレームとして明記し、経験者主語と心身状態の補語解釈を示す。"
+        },
+        {
+          "taxonomy_id": "lexical_relation_mislabel",
+          "location": {
+            "section": "lexical_relations",
+            "line_start": 109,
+            "line_end": 109,
+            "exact_quote": "違い: 豪華さ・華やかさという限定された軸で対照をなす。`plain` は必ずしも質が悪いという否定的評価を含まず、`magnificent` の全面的な反対語ではない。  "
+          },
+          "severity": "minor",
+          "rationale": "F4: 華美性の軸と程度型は、語義定義に明記された豪華さと反意語定義の装飾・華やかさの欠如から成立する。しかし違い行が『限定された軸』であることに加え、『全面的な反対語ではない』と反意関係の限定を明示しており、F4に該当する。",
+          "evidence_link_ids": [],
+          "suggested_direction": "語法・注意への対照表現としての移動"
+        }
+      ],
+      "unrouted_observations": [
+        {
+          "target_pass": "sense-structure",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 145,
+            "line_end": 145,
+            "exact_quote": "・`feel magnificent`  "
+          },
+          "rationale": "語義2の中心定義は成果・演技・仕事・機会・出来事の質や価値への高評価だが、`feel magnificent` は人の心身状態が非常によいという経験者状態を表す。定義がこの主要フレームへそのまま適用できないため、独立語義化または定義構造の再編を検討する必要がある。",
+          "suggested_direction": "`feel magnificent` の心身状態用法を独立語義へ分離するか、語義2の定義をその意味役割まで明示的に包含するよう再構成する。"
+        }
+      ]
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "magnificent-example-attribution-checker-3e8b43f5"
+      },
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "magnificent-example-attribution-checker-3e8b43f5"
+        },
+        "recorded_at": "2026-09-08T09:08:26Z",
+        "input_body_sha256": "258c1b3a17708126df77cb8e5db1556a9e738d56dd4183d8ccca00569461cdb7",
+        "blind_request_sha256": "436effe3d8a0b695a9e160c934ac1d9abfc5e0050dbd11102af59e5191f80297",
+        "attributions": [
+          {
+            "example_id": "ex-cf81219fc371",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "view of the snow-covered mountains"
+            ],
+            "rationale": "`view of the snow-covered mountains` は magnificent が眼前の景観の美しさ・印象深さを評価する sense:001 を直接示す。質・価値を称賛する sense:002 なら成果や経験などの出来を評価する必要があり、この視覚的な眺望を表す用法にはならない。"
+          },
+          {
+            "example_id": "ex-bbfadb33b30b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "looked magnificent in the deep blue gown"
+            ],
+            "rationale": "`looked magnificent in the deep blue gown` は衣装をまとった外見が華やかで堂々としている sense:001 の叙述用法である。sense:002 の能力・出来・経験への称賛では、looked ... in the gown という外見評価の補語構文を説明できない。"
+          },
+          {
+            "example_id": "ex-85ccab8633f4",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "cathedral's magnificent interior"
+            ],
+            "rationale": "`cathedral's magnificent interior` は建築内部の見た目の壮麗さを表す sense:001 であり、admire の対象もその内部空間である。sense:002 は仕事や演技などの質を評価する語義なので、interior 自体の視覚的威容を修飾するこの用法とは合わない。"
+          },
+          {
+            "example_id": "ex-76c67b48c3d7",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "A magnificent eagle"
+            ],
+            "rationale": "`A magnificent eagle` は動物そのものの堂々とした姿・威厳を評価する sense:001 である。sense:002 が要求する成果・行為・能力などの出来を eagle に帰属させておらず、飛行の質を評価する構文でもない。"
+          },
+          {
+            "example_id": "ex-0e8daa177fff",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "Magnificent!"
+            ],
+            "rationale": "修理完了の知らせに対する単独の `Magnificent!` は、出来事を「すばらしい」と称賛する感嘆の sense:002 である。sense:001 は建物・景観などの外見的壮麗さを述べる語義であり、名詞を修飾せず知らせ全体に反応するこの発話には成立しない。"
+          },
+          {
+            "example_id": "ex-cb4812e09bf9",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "felt magnificent"
+            ],
+            "rationale": "`felt magnificent` は一晩眠った後の主語自身の好調な感覚・満足状態を述べるため、質や経験を非常に高く評価する sense:002 に属する。外見の壮麗さを表す sense:001 なら looked magnificent など視覚評価が必要で、内的感覚を表す felt の補語にはならない。"
+          },
+          {
+            "example_id": "ex-ac2f6b2b0183",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "did a magnificent job"
+            ],
+            "rationale": "`did a magnificent job` は遂行した仕事の質を高く称賛する sense:002 の構文である。sense:001 は対象の外見的な美しさや威容を表すため、do a ... job の目的語が示す働きの出来を評価するこの用法には適合しない。"
+          },
+          {
+            "example_id": "ex-f17b9b2481bd",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "a magnificent example of eighteenth-century architecture"
+            ],
+            "rationale": "`a magnificent example of eighteenth-century architecture` では magnificent が palace ではなく example を直接修飾し、「非常に優れた実例」と評価する sense:002 である。sense:001 なら宮殿自体の外観を magnificent palace のように修飾するはずで、example としての代表性・質を述べる現構造とは異なる。"
+          },
+          {
+            "example_id": "ex-eaff3fba4456",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "a magnificent achievement"
+            ],
+            "rationale": "`a magnificent achievement` は予定より早い橋完成という成果の価値を称賛する sense:002 を明示する。sense:001 は視覚対象の壮麗さを表すが、ここで magnificent が修飾する achievement は結果としての偉業であり、橋の外見ではない。"
+          },
+          {
+            "example_id": "ex-764b9021c254",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "a magnificent opportunity to study abroad"
+            ],
+            "rationale": "`a magnificent opportunity to study abroad` は留学機会の価値を非常に高く評価する sense:002 である。sense:001 が表す外見上の美しさ・威容は抽象名詞 opportunity に帰属せず、to study abroad は機会の内容を示している。"
+          },
+          {
+            "example_id": "ex-25ee569a06cb",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "gave a magnificent performance"
+            ],
+            "rationale": "`gave a magnificent performance` は演奏の出来を強く称賛する sense:002 の項構造である。sense:001 は人物・物の外見的壮麗さを表す語義なので、give の目的語 performance の質を評価するこの用法を説明しない。"
+          }
+        ]
+      },
+      "aligned_at": "2026-09-08T09:20:10.789549+00:00",
+      "findings": [
+        {
+          "taxonomy_id": "example_sense_attribution_mismatch",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 42,
+            "line_end": 42,
+            "exact_quote": "例: The restored palace is a magnificent example of eighteenth-century architecture.  "
+          },
+          "severity": "blocking",
+          "rationale": "段階1の最も自然な帰属はsense:002だが、実際の所属はsense:001である。",
+          "evidence_link_ids": [],
+          "suggested_direction": "語義ブロック間の移動"
+        }
+      ],
+      "unrouted_observations": []
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "qualification",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "/root/magnificent_word/check_qualification"
+      },
+      "findings": [
+        {
+          "taxonomy_id": "absolute_scope_counterexample",
+          "location": {
+            "section": "usage_notes",
+            "line_start": 155,
+            "line_end": 155,
+            "exact_quote": "【語法・注意】語義2では、対象の外観ではなく質・出来・価値を評価する。`a magnificent performance` は演技や演奏が非常に優れていたという意味であり、必ずしも豪華な舞台だったという意味ではない。`feel magnificent` は「堂々として感じる」ではなく「気分・体調が最高だ」という読みになる。`magnificent` は強い称賛なので、日常の小さな良さに使うと意図的に大げさ、ユーモラス、または熱のこもった響きになることがある。  "
+          },
+          "severity": "minor",
+          "rationale": "`feel magnificent` の読みを主語や構文の限定なしに「気分・体調が最高だ」と断定しているが、無生物主語の `The fabric feels magnificent.` のような感覚連結動詞の構文では「触った感じがすばらしい」という対象の性質の評価になり、気分・体調を表さない。提示された例文のように、人を主語とし、主語自身の状態を述べる場合に限られる読みである。",
+          "evidence_link_ids": [],
+          "suggested_direction": "「人が自分の状態について `feel magnificent` と言う場合」のように主語と構文を限定し、無生物主語では触覚上の評価になり得ることと混同しない表現に直す。"
+        }
+      ]
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "pronunciation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "checker-pronunciation-7f3c26e9"
+      },
+      "findings": []
+    },
+    {
+      "pass_id": "evidence",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "/root/magnificent_word/check_evidence"
+      },
+      "findings": [
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "etymology",
+            "line_start": 19,
+            "line_end": 19,
+            "exact_quote": "中英語期に古フランス語 `magnificent` またはラテン語 `magnificent-` を経て入り、ラテン語 `magnificus`「偉大なことを行う、壮麗な」にさかのぼる。`magnus`「大きい、偉大な」と `facere`「作る、行う」に関係し、もともとの「偉大なことを行う」という評価が、現在の「壮麗な」「すばらしい」につながっている。`magnitude`「大きさ、重大さ」や `magnify`「拡大する、誇張する」は同じ `magn-` の語族である。"
+          },
+          "severity": "blocking",
+          "rationale": "F012/F014は古フランス語を通じてラテン語にさかのぼる経路とmagnus/facereの分析までは支えるが、「古フランス語またはラテン語」という代替経路、現代語義への意味発達、magnitudeとmagnifyを同一語族として挙げる部分は提示されたfactにない。単一のetymology claim unitが本文全体の追加主張を直接支持していない。",
+          "suggested_direction": "根拠が直接支えるフランス語経由・ラテン語由来の範囲に限定し、意味発達と関連語は対応する語源factを追加できるまでholdする。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "word_formation",
+            "line_start": 23,
+            "line_end": 23,
+            "exact_quote": "・`magnificence`（名詞）— 壮麗さ、すばらしさ。建物・景観などの威容にも、行為・成果のすばらしさにも使う。"
+          },
+          "severity": "blocking",
+          "rationale": "F016/C006はmagnificenceがmagnificentに対応する名詞であることだけを支える。建物・景観と行為・成果の双方に使えるという適用範囲は根拠内に示されていない。",
+          "suggested_direction": "対応名詞であるとの説明に限定するか、各適用範囲を直接例証するfactを付す。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "word_formation",
+            "line_start": 24,
+            "line_end": 24,
+            "exact_quote": "・`magnificently`（副詞）— 壮麗に、見事に、すばらしく。`perform magnificently`「見事に演じる」のように動作の出来も評価する。"
+          },
+          "severity": "blocking",
+          "rationale": "F009/C005は派生副詞であることしか示さず、perform magnificentlyという動詞結合や「動作の出来を評価する」という用法範囲を直接支えない。",
+          "suggested_direction": "派生副詞との説明に限定するか、当該結合を掲載する辞書factを付す。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "frequency_register",
+            "line_start": 32,
+            "line_end": 32,
+            "exact_quote": "【頻度】〈7/10〉"
+          },
+          "severity": "blocking",
+          "rationale": "提示されたsource factには語義1の頻度を10段階で7とする頻度データ、尺度、集計方法がない。",
+          "suggested_direction": "尺度付き頻度根拠を追加するまで数値評価をholdする。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "frequency_register",
+            "line_start": 34,
+            "line_end": 34,
+            "exact_quote": "【レジスター/領域】標準語。日常会話、旅行・芸術・建築の描写、報道、文学的な文章まで広く使う。`beautiful` より評価が強く、やや高揚した響きを持つことがある。"
+          },
+          "severity": "blocking",
+          "rationale": "U001は視覚的な語義を支えるが、標準語という分類、列挙された媒体・領域での分布、beautifulとの強度差はどのsource factにもない。",
+          "suggested_direction": "根拠のある視覚的・強い肯定評価だけに限定し、分布と比較は対応するusage evidenceを追加するまでholdする。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "frequency_register",
+            "line_start": 117,
+            "line_end": 117,
+            "exact_quote": "【頻度】〈7/10〉"
+          },
+          "severity": "blocking",
+          "rationale": "提示されたsource factには語義2の頻度を10段階で7とする頻度データ、尺度、集計方法がない。",
+          "suggested_direction": "尺度付き頻度根拠を追加するまで数値評価をholdする。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "frequency_register",
+            "line_start": 119,
+            "line_end": 119,
+            "exact_quote": "【レジスター/領域】標準語。やや強く高揚した称賛で、会話、批評、スポーツ、報道などに使う。日常会話では `great` や `excellent` のほうが中立的で頻繁である。"
+          },
+          "severity": "blocking",
+          "rationale": "F018/C008は強い称賛と非公式な誇張を支えるが、標準語という分類、会話・批評・スポーツ・報道への分布、great/excellentのほうが中立的かつ高頻度という比較を支えない。",
+          "suggested_direction": "強い称賛という範囲に限定し、領域分布と比較頻度は直接根拠を追加するまでholdする。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "frames",
+            "line_start": 36,
+            "line_end": 36,
+            "exact_quote": "【文法パターン】`a magnificent + 〈建物・景色・物〉`＝壮麗な～／`〈建物・景色・物〉 + be/look/seem magnificent`＝～が壮麗である・壮麗に見える／`a magnificent view of 〈場所・景色〉`＝〈場所・景色〉のすばらしい眺め"
+          },
+          "severity": "blocking",
+          "rationale": "F010/C001は名詞前およびbe/look後の用法を直接支えるが、seem補語とa magnificent view ofという完全フレームはsource supportに示されず、grammar_pattern:003に対応するclaim unitもない。",
+          "suggested_direction": "before-nounとbe/lookの範囲に限定し、seemおよびview ofは直接掲載する辞書factを付す。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "frames",
+            "line_start": 121,
+            "line_end": 121,
+            "exact_quote": "【文法パターン】`a magnificent + 〈成果・演技・仕事・機会〉`＝すばらしい～／`〈成果・演技・仕事〉 + be/seem magnificent`＝～が見事である／`do/play/perform magnificently`＝見事に行う・演じる／`Magnificent!`＝見事だ・すばらしい"
+          },
+          "severity": "blocking",
+          "rationale": "C002は一般的な高評価語義と一部名詞対象、C007は単独感嘆を支える。しかしbe/seem補語およびdo/play/perform magnificentlyという完全フレームはどのsource factにも直接示されておらず、派生副詞であるF009だけでは動詞結合を支えない。",
+          "suggested_direction": "根拠のある名詞前用法と単独感嘆に限定し、残る完全フレームは直接根拠を付す。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 50,
+            "line_end": 53,
+            "exact_quote": "・`a magnificent 〈animal/bird〉`"
+          },
+          "severity": "blocking",
+          "rationale": "C001の一般的なperson or thingという語義説明は、animal/birdとのコロケーションおよび例文の自然さを直接例証しない。対応するarticle_target_idとsource supportがない。",
+          "suggested_direction": "animal/birdとの実例を持つfactを付すか、このコロケーションをholdする。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 55,
+            "line_end": 58,
+            "exact_quote": "・`look magnificent in 〈服・色〉`"
+          },
+          "severity": "blocking",
+          "rationale": "F010はlookの後の形容詞用法を支えるが、in + 服・色まで含む完全な結合と提示例文を直接支えるfactはない。",
+          "suggested_direction": "look magnificentまでに限定するか、in + clothing/colourを例証するfactを付す。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 60,
+            "line_end": 63,
+            "exact_quote": "・`a magnificent interior/display`"
+          },
+          "severity": "blocking",
+          "rationale": "視覚的に印象的という一般語義はあるが、interior/displayという個別コロケーションおよび例文の自然さに対応するsource supportがない。",
+          "suggested_direction": "当該名詞との辞書・用例根拠を付すか、この項目をholdする。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 125,
+            "line_end": 128,
+            "exact_quote": "・`a magnificent achievement`"
+          },
+          "severity": "blocking",
+          "rationale": "C002はachievementを列挙するが、そのsource_supportは一般的なexcellent senseにとどまり、achievementとの結合を示すlocator内容が記録されていない。一般定義だけでは個別コロケーションと例文の自然さを直接支持しない。",
+          "suggested_direction": "achievementとの実例を示すfactに差し替えるか、このコロケーションをholdする。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 140,
+            "line_end": 143,
+            "exact_quote": "・`a magnificent opportunity`"
+          },
+          "severity": "blocking",
+          "rationale": "C002はopportunityを列挙するが、F001/F004/F007の一般定義とF010のjob例はいずれもopportunityとの結合を直接示さない。例文の自然さにも個別のsource supportがない。",
+          "suggested_direction": "opportunityとの実例を持つfactを付すか、このコロケーションをholdする。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 145,
+            "line_end": 148,
+            "exact_quote": "・`feel magnificent`"
+          },
+          "severity": "blocking",
+          "rationale": "feel magnificentを気分・体調が非常によい意味で使うという主張には対応するclaim unit、article_target_id、source factがない。一般的な高評価語義から当該主語経験用法を直接導くことはできない。",
+          "suggested_direction": "当該feel補語用法を直接記載する辞書factを付すまでholdする。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "usage_notes",
+            "line_start": 65,
+            "line_end": 65,
+            "exact_quote": "比較変化は文法上可能だが、通常は `more/most magnificent` を用い、絶対的な称賛として原級で使うことも多い。"
+          },
+          "severity": "blocking",
+          "rationale": "比較級・最上級の形成、more/mostの通常性、原級使用の頻度に対応するsource factがない。F010の統語情報はbefore nounとbe/lookに限られる。",
+          "suggested_direction": "比較変化と使用頻度を直接扱う文法根拠を追加するまで削除またはholdする。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "usage_notes",
+            "line_start": 155,
+            "line_end": 155,
+            "exact_quote": "`feel magnificent` は「堂々として感じる」ではなく「気分・体調が最高だ」という読みになる。"
+          },
+          "severity": "blocking",
+          "rationale": "この語義限定を直接支えるsource factがなく、feel magnificent自体がclaim unitに収録されていない。",
+          "suggested_direction": "feel補語用法とその語義を明記する辞書factを追加するまでholdする。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "usage_notes",
+            "line_start": 155,
+            "line_end": 155,
+            "exact_quote": "`magnificent` は強い称賛なので、日常の小さな良さに使うと意図的に大げさ、ユーモラス、または熱のこもった響きになることがある。"
+          },
+          "severity": "blocking",
+          "rationale": "F018/C008は強い称賛と非公式な弱化した誇張までは支えるが、ユーモラスまたは熱のこもった響きという追加的な語用効果は提示された根拠にない。",
+          "suggested_direction": "強い称賛・意図的な誇張に限定し、ユーモアと熱意は直接根拠が得られるまでholdする。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "lexical_relations",
+            "line_start": 70,
+            "line_end": 72,
+            "exact_quote": "定義: 見た目、質、成果などが非常にすばらしく、称賛に値する。"
+          },
+          "severity": "blocking",
+          "rationale": "splendidの定義、頻度7/10、およびmagnificentとの差を支えるsource、fact、claim unitがevidence_contextに存在しない。",
+          "suggested_direction": "splendidの定義・頻度・対照を直接支える根拠を付すまで項目をholdする。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "lexical_relations",
+            "line_start": 77,
+            "line_end": 79,
+            "exact_quote": "定義: 王侯のような威厳や堂々とした壮大さを感じさせる。"
+          },
+          "severity": "blocking",
+          "rationale": "majesticの定義、頻度6/10、およびmagnificentとの差を支えるsource、fact、claim unitがない。",
+          "suggested_direction": "majesticの各主張を直接支える根拠を付すまで項目をholdする。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "lexical_relations",
+            "line_start": 84,
+            "line_end": 86,
+            "exact_quote": "定義: 規模、設計、外観が大きく立派で、重要さや格式を感じさせる。"
+          },
+          "severity": "blocking",
+          "rationale": "grandの定義、頻度8/10、およびmagnificentとの差を支えるsource、fact、claim unitがない。",
+          "suggested_direction": "grandの各主張を直接支える根拠を付すまで項目をholdする。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "lexical_relations",
+            "line_start": 91,
+            "line_end": 93,
+            "exact_quote": "定義: 美しさ、輝かしさ、喜ばしさによって非常にすばらしい。"
+          },
+          "severity": "blocking",
+          "rationale": "gloriousの定義、頻度7/10、およびmagnificentとの差を支えるsource、fact、claim unitがない。",
+          "suggested_direction": "gloriousの各主張を直接支える根拠を付すまで項目をholdする。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "lexical_relations",
+            "line_start": 100,
+            "line_end": 102,
+            "exact_quote": "定義: 特に感銘を与えず、目立った美点や迫力がない。"
+          },
+          "severity": "blocking",
+          "rationale": "unimpressiveの定義、頻度6/10、およびmagnificentとの反意関係の軸を支えるsource、fact、claim unitがない。",
+          "suggested_direction": "unimpressiveの各主張を直接支える根拠を付すまで項目をholdする。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "lexical_relations",
+            "line_start": 107,
+            "line_end": 109,
+            "exact_quote": "定義: 装飾や華やかさがなく、簡素な。"
+          },
+          "severity": "blocking",
+          "rationale": "plainの定義、頻度8/10、限定された対照軸、および全面的な反対語ではないという境界を支えるsource、fact、claim unitがない。",
+          "suggested_direction": "plainの各主張を直接支える根拠を付すまで項目をholdする。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "lexical_relations",
+            "line_start": 160,
+            "line_end": 162,
+            "exact_quote": "定義: 質、能力、出来が非常に高い。"
+          },
+          "severity": "blocking",
+          "rationale": "excellentの定義、頻度9/10、およびmagnificentとの中立性・感情強度の差を支えるsource、fact、claim unitがない。F010に語としてexcellentは現れず、F018もこの比較を扱わない。",
+          "suggested_direction": "excellentとの比較を直接支える根拠を付すまで項目をholdする。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "lexical_relations",
+            "line_start": 167,
+            "line_end": 169,
+            "exact_quote": "定義: 質や出来が最高水準である。"
+          },
+          "severity": "blocking",
+          "rationale": "superbの定義、頻度7/10、および洗練・規模・感銘という差を支えるsource、fact、claim unitがない。F007がmagnificentの同義的説明にsuperbを用いることだけでは、この詳細対照を支持しない。",
+          "suggested_direction": "superbとの詳細比較を直接支える根拠を付すまで項目をholdする。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "lexical_relations",
+            "line_start": 174,
+            "line_end": 176,
+            "exact_quote": "定義: 同種のものの中で際立って優れている。"
+          },
+          "severity": "blocking",
+          "rationale": "outstandingの定義、頻度8/10、および比較集団の明示性に関する差を支えるsource、fact、claim unitがない。",
+          "suggested_direction": "outstandingの各主張を直接支える根拠を付すまで項目をholdする。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "lexical_relations",
+            "line_start": 181,
+            "line_end": 183,
+            "exact_quote": "定義: 喜び、満足、感嘆をもたらすほどすばらしい。"
+          },
+          "severity": "blocking",
+          "rationale": "wonderfulの定義、頻度9/10、および日常性・称賛の強さ・堂々さに関する差を支えるsource、fact、claim unitがない。",
+          "suggested_direction": "wonderfulとの比較を直接支える根拠を付すまで項目をholdする。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "lexical_relations",
+            "line_start": 190,
+            "line_end": 192,
+            "exact_quote": "定義: 質や能力が平凡で、特に優れていない。"
+          },
+          "severity": "blocking",
+          "rationale": "mediocreの定義、頻度6/10、および平均的で期待を満たさないという対照を支えるsource、fact、claim unitがない。",
+          "suggested_direction": "mediocreとの反意関係を直接支える根拠を付すまで項目をholdする。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "lexical_relations",
+            "line_start": 197,
+            "line_end": 199,
+            "exact_quote": "定義: 質や出来が非常に悪い。"
+          },
+          "severity": "blocking",
+          "rationale": "terribleの定義、頻度9/10、および質評価軸上の反対関係を支えるsource、fact、claim unitがない。",
+          "suggested_direction": "terribleとの反意関係を直接支える根拠を付すまで項目をholdする。"
+        }
+      ]
+    }
+  ],
+  "checker_reviewers": {
+    "translation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "translation-checker-8db7db39-32b7-4ae9-902e-01cb8b89a3c8"
+    },
+    "sense-structure": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "agent-check-sense-structure-3e8b43f5c35a423f96f6b0c3350973d7"
+    },
+    "frame-relation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "/root/magnificent_word/check_frame"
+    },
+    "example-attribution": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "magnificent-example-attribution-checker-3e8b43f5"
+    },
+    "qualification": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "/root/magnificent_word/check_qualification"
+    },
+    "pronunciation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "checker-pronunciation-7f3c26e9"
+    },
+    "evidence": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "/root/magnificent_word/check_evidence"
+    }
+  },
+  "independent_candidates": [],
+  "summary": "Independent checker passes completed by parallel handoff; frame-relation preserved its serial blind/adjudication dependency."
+}

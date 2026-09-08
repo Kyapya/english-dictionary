@@ -1,0 +1,112 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "258c1b3a17708126df77cb8e5db1556a9e738d56dd4183d8ccca00569461cdb7",
+  "stage2_request_sha256": "670dbf70ffeb2c423931510dc2e5b0600b98873a8064e8670682fa3900e0d8a2",
+  "blind_record_sha256": "26ff9c12b3a53077a99a0fd3075b7b7a12b37d23a594a9dce91bd54d0ae0e7e8",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "/root/magnificent_word/check_frame"
+  },
+  "adjudications": [
+    {
+      "item_id": "ant-2a37f3ed9ae8",
+      "flags": [],
+      "rationale": "感銘度の軸は当該語義の強い感銘という定義から直接導出でき、強い感銘と感銘の欠如は程度対立として成立する。違い行にも対立を否定または限定する記述はない。",
+      "suggested_direction": "対立軸修正",
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-5372ba08044e",
+      "flags": [
+        "F4"
+      ],
+      "rationale": "華美性の軸と程度型は、語義定義に明記された豪華さと反意語定義の装飾・華やかさの欠如から成立する。しかし違い行が『限定された軸』であることに加え、『全面的な反対語ではない』と反意関係の限定を明示しており、F4に該当する。",
+      "suggested_direction": "語法・注意への対照表現としての移動",
+      "f4_severity": "minor"
+    },
+    {
+      "item_id": "ant-f61ced8cd873",
+      "flags": [],
+      "rationale": "卓越性の軸は質・価値が非常に高いという当該語義から導出でき、極めて高い評価と平凡な評価は程度対立として成立する。違い行にも対立を否定または限定する記述はない。",
+      "suggested_direction": "対立軸修正",
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-d110bb7bd5b1",
+      "flags": [],
+      "rationale": "品質の軸は質や出来を高く評価する当該語義から導出でき、非常に高い側と非常に低い側の評価対立として成立する。違い行にも対立を否定または限定する記述はない。",
+      "suggested_direction": "対立軸修正",
+      "f4_severity": null
+    }
+  ],
+  "frame_findings": [
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 42,
+        "line_end": 42,
+        "exact_quote": "例: The restored palace is a magnificent example of eighteenth-century architecture.  "
+      },
+      "severity": "blocking",
+      "rationale": "直前のコロケーションは `a magnificent building/palace` だが、例文で `magnificent` が直接修飾する名詞は `example` であり、`palace` は主語である。宣言された名詞スロットを例文が実現していない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "`magnificent` が `building` または `palace` を直接修飾する例文に差し替え、コロケーションと修飾対象を一対一で対応させる。"
+    },
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 36,
+        "line_end": 36,
+        "exact_quote": "【文法パターン】`a magnificent + 〈建物・景色・物〉`＝壮麗な～／`〈建物・景色・物〉 + be/look/seem magnificent`＝～が壮麗である・壮麗に見える／`a magnificent view of 〈場所・景色〉`＝〈場所・景色〉のすばらしい眺め  "
+      },
+      "severity": "blocking",
+      "rationale": "文法パターンの叙述用法は主語を建物・景色・物に限定しているが、主要コロケーション `look magnificent in 〈服・色〉` と例文は人を主語とする。主語の意味役割と補部 `in 〈服・色〉` が完全フレームに反映されていない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "`〈人〉 + look magnificent in 〈服・色〉` を独立した完全フレームとして追加し、主語スロットと補部を明示する。"
+    },
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 121,
+        "line_end": 121,
+        "exact_quote": "【文法パターン】`a magnificent + 〈成果・演技・仕事・機会〉`＝すばらしい～／`〈成果・演技・仕事〉 + be/seem magnificent`＝～が見事である／`do/play/perform magnificently`＝見事に行う・演じる／`Magnificent!`＝見事だ・すばらしい  "
+      },
+      "severity": "blocking",
+      "rationale": "語義は形容詞 `magnificent` と宣言されているのに、文法パターンへ派生副詞 `magnificently` の動詞修飾フレームが同列に混入しており、宣言品詞と構文単位が一致しない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "`do/play/perform magnificently` を形容詞の文法パターンから除き、必要なら派生語の語法として別に扱う。"
+    },
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 145,
+        "line_end": 145,
+        "exact_quote": "・`feel magnificent`  "
+      },
+      "severity": "blocking",
+      "rationale": "主要コロケーションでは経験者である人を主語に取る `〈人〉 + feel magnificent` が示されるが、文法パターンには成果・演技・仕事を主語とする `be/seem` しかなく、この連結動詞フレームと主語役割が対応づけられていない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "`〈人〉 + feel magnificent` を独立した叙述フレームとして明記し、経験者主語と心身状態の補語解釈を示す。"
+    }
+  ],
+  "unrouted_observations": [
+    {
+      "target_pass": "sense-structure",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 145,
+        "line_end": 145,
+        "exact_quote": "・`feel magnificent`  "
+      },
+      "rationale": "語義2の中心定義は成果・演技・仕事・機会・出来事の質や価値への高評価だが、`feel magnificent` は人の心身状態が非常によいという経験者状態を表す。定義がこの主要フレームへそのまま適用できないため、独立語義化または定義構造の再編を検討する必要がある。",
+      "suggested_direction": "`feel magnificent` の心身状態用法を独立語義へ分離するか、語義2の定義をその意味役割まで明示的に包含するよう再構成する。"
+    }
+  ]
+}
