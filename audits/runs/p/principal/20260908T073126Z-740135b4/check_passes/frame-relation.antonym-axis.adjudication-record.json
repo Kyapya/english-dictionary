@@ -1,0 +1,45 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "1a52681200f8151d905196cfb05550ddc423af07e1d4fee6da8e752e0a523528",
+  "stage2_request_sha256": "3d255cea4e86acc9414dd304df8796f4f9993d5fb146af43c9f3b58a412d20b7",
+  "blind_record_sha256": "0b04735e9f3fc6e9ad0c98f7aa3d945f2e6d722c904e0c3a55b1d5841e7269bf",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "/root/principal_cycle3_frame"
+  },
+  "adjudications": [
+    {
+      "item_id": "ant-c450e878c609",
+      "flags": [],
+      "rationale": "重要度は当該語義の定義に明示され、principal と secondary はその高低を表す程度対立であり、違い行も対立の成立を否定・限定していない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-65d902381b24",
+      "flags": [],
+      "rationale": "重要度は当該語義から直接導け、principal と minor は重要性・影響の大小を表す程度対立であり、違い行に自己否定はない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-ab226152f491",
+      "flags": [],
+      "rationale": "授権方向は本人が権限を与え代理人がその権限で行動するという当該語義そのものから導け、両者は同一代理関係における方向対立であり、違い行もその対立を明確にしている。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-633fad4cce44",
+      "flags": [],
+      "rationale": "責任順位は第一次的責任者という当該語義から導け、保証関係で principal と surety は第一次責任側と二次的保証側という補完的役割を表し、違い行に対立の不成立を示す記述はない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    }
+  ],
+  "frame_findings": [],
+  "unrouted_observations": []
+}

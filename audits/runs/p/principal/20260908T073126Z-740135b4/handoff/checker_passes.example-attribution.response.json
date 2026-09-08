@@ -1,0 +1,169 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal_cycle3_example"
+  },
+  "recorded_at": "2026-09-08T07:50:26Z",
+  "input_body_sha256": "1a52681200f8151d905196cfb05550ddc423af07e1d4fee6da8e752e0a523528",
+  "blind_request_sha256": "1b561aa1db1fa8f994f71c47943a24d938458742b0ab0a4ee80feea3a2fcf069",
+  "attributions": [
+    {
+      "example_id": "ex-b7770efe14b0",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:007"],
+      "discriminating_terms": ["liable as principal for the debt", "guarantor is only secondarily liable"],
+      "rationale": "\"liable as principal for the debt\" が第一次的な債務責任を表し、\"guarantor is only secondarily liable\" が保証人との責任順位の対比を明示するため sense:007。一見近い代理関係の sense:005 では、本人と代理人の権限関係であって保証人との第一次・第二次責任の対比にならない。"
+    },
+    {
+      "example_id": "ex-ff8a9f3de0b3",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:002"],
+      "discriminating_terms": ["principal of the college", "welcomed the new students"],
+      "rationale": "\"principal of the college\" は教育機関の長を指し、\"welcomed the new students\" もその人物役割として自然なので sense:002。主要性を表す形容詞 sense:001 なら principal は名詞 college を前置修飾するはずで、ここでの \"The principal of\" という可算名詞構文にはならない。"
+    },
+    {
+      "example_id": "ex-ba43c2e93bf7",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["principal architects of the reform", "one of the principal architects"],
+      "rationale": "\"principal architects of the reform\" では principal が architects の重要度を限定する形容詞なので sense:001。組織上の責任者を表す名詞 sense:002 なら \"a principal\" のように principal 自体が名詞となり、\"one of the principal architects\" の修飾構造にはならない。"
+    },
+    {
+      "example_id": "ex-8588c3003173",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["principal cause of the failure", "identified corrosion as the principal cause"],
+      "rationale": "\"principal cause of the failure\" は複数の原因候補中で最重要の原因を示す形容詞用法で sense:001。犯罪関与者の名詞 sense:006 なら principal は人を指すが、ここでは \"cause\" を直接修飾しておりその解釈は成立しない。"
+    },
+    {
+      "example_id": "ex-fb9a270c2e10",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:006"],
+      "discriminating_terms": ["knowingly assists the offense", "treats a person", "as a principal"],
+      "rationale": "\"knowingly assists the offense\" という犯罪関与を根拠に制定法が人を \"as a principal\" と分類しているため sense:006。代理関係の本人 sense:005 なら agent に権限を与える関係が必要で、犯罪への援助を直接の分類根拠にはしない。"
+    },
+    {
+      "example_id": "ex-d8b6748e2197",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:002"],
+      "discriminating_terms": ["school principal", "met with parents"],
+      "rationale": "\"school principal\" は学校の管理責任者を表し、\"met with parents\" もその人物の行為なので sense:002。芸術上の主要演者 sense:003 なら ballet company や orchestra の役割を示す必要があり、school の役職名としては成立しない。"
+    },
+    {
+      "example_id": "ex-d1bb2ba25937",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:004"],
+      "discriminating_terms": ["protect the principal", "generating modest returns"],
+      "rationale": "\"protect the principal\" と \"generating modest returns\" の対比は、運用収益と区別される投資元本を示すので sense:004。主要人物の名詞 sense:002 では protect の対象が人になり得ても、元本から returns を生むこの対比を説明できない。"
+    },
+    {
+      "example_id": "ex-723f34fae887",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:007"],
+      "discriminating_terms": ["duties of the principal and the surety", "principal and the surety"],
+      "rationale": "\"duties of the principal and the surety\" は主たる義務者と保証人の義務を並置する保証法上の関係なので sense:007。代理関係の sense:005 で通常対になるのは principal と agent であり、\"principal and the surety\" という対比にはならない。"
+    },
+    {
+      "example_id": "ex-ae5337089da5",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:003"],
+      "discriminating_terms": ["performs as a principal", "with the ballet company"],
+      "rationale": "\"performs as a principal\" が舞台上の役割を表し、\"with the ballet company\" がその役割をバレエ団に結び付けるため sense:003。組織の上級責任者 sense:002 なら performs as ではなく管理職として works as などが自然で、この演者フレームには合わない。"
+    },
+    {
+      "example_id": "ex-e51fd1fbad90",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:004"],
+      "discriminating_terms": ["payments", "pay down the principal", "faster"],
+      "rationale": "\"payments\" によって \"pay down the principal\" するという減額構造は債務元金を指す sense:004。主たる債務者 sense:007 は人・法人であり、支払いによってその principal 自体を pay down するとは言えない。"
+    },
+    {
+      "example_id": "ex-4d0ac6bd9b02",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:006"],
+      "discriminating_terms": ["court identified him", "as a principal in the crime", "in the crime"],
+      "rationale": "\"court identified him\" と \"as a principal in the crime\" は、犯罪への関与に基づく法的分類を明示するので sense:006。組織の責任者 sense:002 なら principal of/at an organization の形が自然で、\"in the crime\" を補部として犯罪者区分を表せない。"
+    },
+    {
+      "example_id": "ex-c519f856e58d",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:002"],
+      "discriminating_terms": ["college principal", "addressed the graduating class"],
+      "rationale": "\"college principal\" はカレッジの管理責任者で、\"addressed the graduating class\" はその役職者の行為として読むため sense:002。形容詞 sense:001 なら principal が別の名詞を修飾する必要があるが、ここでは principal 自体が addressed の主語である。"
+    },
+    {
+      "example_id": "ex-0d27f4910c52",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:002"],
+      "discriminating_terms": ["a principal at an architecture firm", "at an architecture firm"],
+      "rationale": "\"a principal at an architecture firm\" では可算名詞 principal が組織内の上級責任者という人物役割を表すため sense:002。形容詞 sense:001 なら a principal の後に被修飾名詞が必要であり、金融元本 sense:004 も人を主語とする \"She is a principal at\" には合わない。"
+    },
+    {
+      "example_id": "ex-20560a47be0c",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:004"],
+      "discriminating_terms": ["trust document", "distinguishes principal from income", "from income"],
+      "rationale": "\"trust document\" が \"distinguishes principal from income\" と定めるのは、信託財産の元本と収益の法的区別なので sense:004。重要人物 sense:002 なら income と対置される財産区分にならず、distinguish A from B の同種項目関係も崩れる。"
+    },
+    {
+      "example_id": "ex-9076d82301ea",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["principal reason for the delay", "was a shortage of parts"],
+      "rationale": "\"principal reason for the delay\" は理由群のうち中心的な理由を示す形容詞用法で sense:001。人を指す名詞 sense:002 なら principal は reason を修飾できず、\"was a shortage of parts\" という理由内容を受ける構文にもならない。"
+    },
+    {
+      "example_id": "ex-44f5af1e0087",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:005"],
+      "discriminating_terms": ["principal-agent relationship", "between the owner and the broker"],
+      "rationale": "\"principal-agent relationship\" が本人と代理人の法的関係を名称として明示し、\"between the owner and the broker\" がその二者を具体化するため sense:005。主たる債務者 sense:007 なら counterpart は surety/guarantor であり、agent との権限関係とはならない。"
+    },
+    {
+      "example_id": "ex-3ffcd59d349e",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["a principal source of income", "principal source"],
+      "rationale": "\"a principal source of income\" では principal が source の重要性を評価する形容詞なので sense:001。金融上の元本 sense:004 は principal 自体が名詞で income と区別されるが、この文では principal が source を修飾し、income の源を述べている。"
+    },
+    {
+      "example_id": "ex-9c64883c678d",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:005"],
+      "discriminating_terms": ["The agent", "on behalf of the principal", "may sign the document"],
+      "rationale": "\"The agent\" が \"on behalf of the principal\" 書類に署名するという代理権の行使なので sense:005。主たる債務者 sense:007 では agent が本人のために行為する関係を表さず、\"on behalf of\" の権限源を説明できない。"
+    },
+    {
+      "example_id": "ex-94f8b9ecab35",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:004"],
+      "discriminating_terms": ["borrower", "repaying principal", "next year"],
+      "rationale": "\"borrower\" が \"repaying principal\" する対象は借入元金なので sense:004。主たる債務者 sense:007 なら principal は返済する人側を指し、borrower が principal そのものを repay する目的語関係にはならない。"
+    },
+    {
+      "example_id": "ex-fb3e273ffd49",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:003"],
+      "discriminating_terms": ["concert program lists her", "one of the orchestra's principals", "orchestra's principals"],
+      "rationale": "\"concert program lists her\" と \"one of the orchestra's principals\" はオーケストラ内の首席奏者という確立した演奏役割を示すため sense:003。組織の一般的責任者 sense:002 では orchestra の所有格複数 principals が演奏会プログラムに演者として載る関係を説明できない。"
+    },
+    {
+      "example_id": "ex-bbbad2c23b4a",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:004"],
+      "discriminating_terms": ["monthly payment", "both principal and interest", "interest"],
+      "rationale": "\"monthly payment\" が \"both principal and interest\" を含むという内訳は、利息と区別される元金 sense:004 を直接示す。主たる債務者 sense:007 は人・法人なので interest と並列する支払内訳にはなれない。"
+    },
+    {
+      "example_id": "ex-1cba258f3e43",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:007"],
+      "discriminating_terms": ["The guarantee", "obligation of the principal", "does not replace"],
+      "rationale": "\"The guarantee\" が \"does not replace\" する対象として \"obligation of the principal\" が置かれ、保証人に対する第一次的義務者を示すので sense:007。代理法の本人 sense:005 にも obligation はあり得るが、保証が主債務を代替しないという principal-guarantor の責任構造は sense:005 では成立しない。"
+    }
+  ]
+}

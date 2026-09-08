@@ -1,0 +1,102 @@
+{
+  "pass_id": "evidence",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-sol",
+    "ingested_by": "human",
+    "agent_id": "/root/principal_cycle3_evidence"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 72,
+        "line_end": 72,
+        "exact_quote": "`principal` と `principle` は綴りも意味も異なる。`principal` には形容詞で「最も重要な」を表す用法があり、別に人や金額などを指す名詞用法もある。一方、`principle` は「原理・原則」を表す名詞である。したがって「基本原則」は `basic principle` であり、`basic principal` ではない。"
+      },
+      "severity": "blocking",
+      "rationale": "C-013 links this whole usage note only to F-032 at the Merriam-Webster locator. F-032 directly supports the principle-as-rule versus principal-as-adjective distinction, but its recorded statement and source detail do not directly support the added claim that principal has noun uses for people and amounts, nor do they preserve the specific basic principle/basic principal substitution example. Those noun assertions are supported elsewhere in the inventory (for example C-002 and C-004), but they are not linked to usage_note:001, so the existing link's scope is narrower than the target claim.",
+      "evidence_link_ids": [
+        "C-013"
+      ],
+      "suggested_direction": "Limit the note to the distinction directly recorded by F-032, or bind the noun-use clauses to the relevant person and finance claim units and add direct support for the specific substitution example."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 128,
+        "line_end": 128,
+        "exact_quote": "【文法パターン】組織上の地位は `a principal at 〈企業・専門組織〉`。教育上の役職は `the principal of 〈限定詞を含む学校・教育機関の名詞句〉`／`a school principal`／`a college principal`。"
+      },
+      "severity": "blocking",
+      "rationale": "C-002 maps F-002, F-003, F-014, and F-017 to grammar_pattern:002. At the Merriam-Webster, Cambridge, and Collins locators, the fixed fact statements support the authority/person sense, the school-head title, and the England-college qualification. None of the recorded source details directly attests the promised business at-frame or establishes all three education constructions as grammatical frames. A lexical definition cannot by itself support these exact complements and compounds.",
+      "evidence_link_ids": [
+        "C-002"
+      ],
+      "suggested_direction": "Retain only constructions directly attested in the fixed facts, or add fixed fact records with locators and passages that explicitly show each proposed frame."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 171,
+        "line_end": 171,
+        "exact_quote": "【文法パターン】舞台芸術の役職は `perform/serve as a principal with 〈舞台芸術団体〉`。オーケストラの役職は `one of 〈オーケストラを表す所有格〉 principals`。"
+      },
+      "severity": "blocking",
+      "rationale": "C-003 links grammar_pattern:003 to F-007 and F-018. The Merriam-Webster and Collins facts directly establish the leading-performer and orchestral-section-player senses, but their recorded source details do not attest perform/serve as ... with or the possessive one-of-principals construction. The evidence therefore supports the role meaning, not the complete syntactic frames stated here.",
+      "evidence_link_ids": [
+        "C-003"
+      ],
+      "suggested_direction": "Replace the patterns with constructions explicitly present at the fixed locators, or hold the frame claims until direct construction evidence is recorded."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 204,
+        "line_end": 204,
+        "exact_quote": "【文法パターン】金融では `principal and interest`／`pay down, protect, or repay + (the) principal`。信託法では `distinguish + principal + from + income`。"
+      },
+      "severity": "blocking",
+      "rationale": "C-004 and C-005 map the finance and trust facts to grammar_pattern:004. The facts directly support the principal-versus-interest/income contrasts and F-024 supports repayment reducing the obligation. However, none of F-008, F-015, F-019, F-024, F-025, or F-027 at the listed dictionary, Wex, and Investor.gov locators records protect the principal as a supported collocation or validates the bundled verb-frame pay down, protect, or repay + (the) principal. The target is broader than the linked evidence even though its underlying senses are supported.",
+      "evidence_link_ids": [
+        "C-004",
+        "C-005"
+      ],
+      "suggested_direction": "Remove protect from the bundled frame or supply a direct fixed fact for that collocation; keep the remaining patterns only to the extent their exact construction is attested."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 294,
+        "line_end": 294,
+        "exact_quote": "【文法パターン】`a principal in 〈犯罪を表す名詞句〉`／`treat 〈人〉 as a principal`"
+      },
+      "severity": "blocking",
+      "rationale": "C-007 links F-005 and F-021 to grammar_pattern:006. Those fixed Merriam-Webster and Collins facts support the jurisdiction-sensitive criminal-participant classification and the accessory contrast, but their recorded passages do not directly attest both complete syntactic frames. Treating the legal classification as evidence for the exact in-complement and treat-as constructions exceeds the recorded support.",
+      "evidence_link_ids": [
+        "C-007"
+      ],
+      "suggested_direction": "State only the supported legal sense, or add locator-specific facts that directly attest each construction before presenting them as grammar patterns."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 327,
+        "line_end": 327,
+        "exact_quote": "【文法パターン】`be/remain liable as principal for 〈債務・義務〉`／`the obligation of the principal`／`the principal and the surety`"
+      },
+      "severity": "blocking",
+      "rationale": "C-008 maps F-006, F-022, and F-026 to grammar_pattern:007. These facts at Merriam-Webster, Collins, and Wex directly support primary liability and the contrast with a surety or guarantor, but the fixed source details do not attest the full be/remain liable as principal for frame or all two noun-phrase patterns. The responsibility contrast supports the definition, not every specific construction bundled here.",
+      "evidence_link_ids": [
+        "C-008"
+      ],
+      "suggested_direction": "Narrow this section to phrases directly attested by the fixed evidence, or add fact records with exact passages for the proposed liability constructions."
+    }
+  ]
+}

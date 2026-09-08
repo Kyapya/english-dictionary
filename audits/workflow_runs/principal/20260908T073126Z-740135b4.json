@@ -19,11 +19,11 @@
     "candidate_pages": 0
   },
   "status": "in_progress",
-  "stage": "preflight_pushed",
+  "stage": "cold_review_complete",
   "started_at": "2026-09-08T07:31:26Z",
   "deadline_at": "2026-09-08T09:01:26Z",
   "pre_draft_deadline_at": "2026-09-08T08:01:26Z",
-  "last_heartbeat_at": "2026-09-08T07:39:32Z",
+  "last_heartbeat_at": "2026-09-08T08:09:36Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-08T07:39:32Z",
@@ -39,6 +39,26 @@
       "stage": "preflight_pushed",
       "recorded_at": "2026-09-08T07:39:32Z",
       "notes": "remote start checkpoint verified"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-09-08T07:45:07Z",
+      "notes": "orchestrator completed generation"
+    },
+    {
+      "stage": "source_inventory_complete",
+      "recorded_at": "2026-09-08T08:04:06Z",
+      "notes": "orchestrator completed checker_passes"
+    },
+    {
+      "stage": "normal_review_complete",
+      "recorded_at": "2026-09-08T08:04:06Z",
+      "notes": "orchestrator completed checker_passes"
+    },
+    {
+      "stage": "cold_review_complete",
+      "recorded_at": "2026-09-08T08:09:35Z",
+      "notes": "orchestrator completed cold_review"
     }
   ],
   "stop_reason": "",
@@ -494,7 +514,15 @@
     "schema_version": "workflow_process_improvement_v2",
     "knowledge_epoch": "pi2-2026-09-06",
     "features": [
-      "workflow:extended"
+      "domain:agency-law",
+      "domain:criminal-law",
+      "domain:education",
+      "domain:finance",
+      "domain:performing-arts",
+      "part_of_speech:adjective",
+      "part_of_speech:noun",
+      "polysemy:multiple-senses",
+      "register:formal"
     ],
     "snapshots": [
       {
@@ -519,16 +547,64 @@
         "machine_duration_seconds": 0.001719,
         "additional_llm_calls": 0,
         "stage": "generation"
+      },
+      {
+        "schema_version": "process_improvement_input_v2",
+        "knowledge_epoch": "pi2-2026-09-06",
+        "recipient": "coordinator",
+        "phase": "pre_blind_resolution",
+        "features": [
+          "domain:agency-law",
+          "domain:criminal-law",
+          "domain:education",
+          "domain:finance",
+          "domain:performing-arts",
+          "part_of_speech:adjective",
+          "part_of_speech:noun",
+          "polysemy:multiple-senses",
+          "register:formal"
+        ],
+        "limits": {
+          "max_items": 8,
+          "max_bytes": 8192
+        },
+        "selected": [],
+        "skipped": [],
+        "input_bytes": 348,
+        "input_sha256": "15f14c2d725291b96b5dbe2db56cbb7491829119f31878ea570d69fa5ff91e14",
+        "run_id": "20260908T073126Z-740135b4",
+        "created_at": "2026-09-08T08:09:35Z",
+        "snapshot_path": "audits/runs/p/principal/20260908T073126Z-740135b4/process_improvement/coordinator-pre_blind_resolution.snapshot.md",
+        "machine_duration_seconds": 0.002179,
+        "additional_llm_calls": 0,
+        "stage": "pre_blind_resolution"
       }
     ],
-    "processing": {},
+    "processing": {
+      "generation": {
+        "status": "no_applicable",
+        "source_refs": [
+          "audits/runs/p/principal/20260908T073126Z-740135b4/generation.json"
+        ],
+        "receipt_event_id": "workflow:20260908T073126Z-740135b4:generation:2a70cd4fa4cb",
+        "recorded_at": "2026-09-08T07:45:07Z"
+      },
+      "pre_blind_resolution": {
+        "status": "no_applicable",
+        "source_refs": [
+          "audits/runs/p/principal/20260908T073126Z-740135b4/pre_blind_resolution.json"
+        ],
+        "receipt_event_id": "workflow:20260908T073126Z-740135b4:pre_blind_resolution:dfefbcef995d",
+        "recorded_at": "2026-09-08T08:21:00Z"
+      }
+    },
     "pending_events": [],
     "selection_errors": []
   },
   "metrics": {
     "schema_version": "workflow_cost_v1",
     "total_cycles": 1,
-    "total_revisions": 0,
+    "total_revisions": 1,
     "total_duration_seconds": 0.0,
     "completed_at": "",
     "stages": [
@@ -548,7 +624,7 @@
         "duration_seconds": 0.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "mechanical_validator",
@@ -557,34 +633,34 @@
         "duration_seconds": 0.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "checker_passes",
         "instruction_bytes": 0,
-        "input_bytes": 0,
+        "input_bytes": 200860,
         "duration_seconds": 0.0,
-        "defects_detected": 0,
+        "defects_detected": 6,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "cold_review",
         "instruction_bytes": 1759,
-        "input_bytes": 0,
+        "input_bytes": 21433,
         "duration_seconds": 0.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "pre_blind_resolution",
         "instruction_bytes": 5567,
         "input_bytes": 0,
         "duration_seconds": 0.0,
-        "defects_detected": 0,
-        "revision_count": 0,
-        "completed": false
+        "defects_detected": 6,
+        "revision_count": 1,
+        "completed": true
       },
       {
         "id": "checker_recheck",
@@ -654,73 +730,98 @@
       {
         "id": "translation",
         "instruction_bytes": 2402,
-        "input_bytes": 0,
+        "input_bytes": 29206,
         "duration_seconds": 0.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "sense-structure",
         "instruction_bytes": 3031,
-        "input_bytes": 0,
+        "input_bytes": 9913,
         "duration_seconds": 0.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "frame-relation",
         "instruction_bytes": 8294,
-        "input_bytes": 0,
+        "input_bytes": 57792,
         "duration_seconds": 0.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "example-attribution",
         "instruction_bytes": 5552,
-        "input_bytes": 0,
+        "input_bytes": 9695,
         "duration_seconds": 0.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "qualification",
         "instruction_bytes": 2876,
-        "input_bytes": 0,
+        "input_bytes": 24185,
         "duration_seconds": 0.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "pronunciation",
         "instruction_bytes": 1815,
-        "input_bytes": 0,
+        "input_bytes": 1132,
         "duration_seconds": 0.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "evidence",
         "instruction_bytes": 3260,
-        "input_bytes": 0,
+        "input_bytes": 68937,
         "duration_seconds": 0.0,
-        "defects_detected": 0,
-        "completed": false
+        "defects_detected": 6,
+        "completed": true
       }
     ],
     "process_rules": [],
     "process_improvement": {
-      "selection_input_bytes": 336,
-      "machine_duration_seconds": 0.001719,
+      "selection_input_bytes": 684,
+      "machine_duration_seconds": 0.003898,
       "additional_llm_calls": 0
     }
   },
   "orchestrator_state": {
-    "next_stage_index": 1,
+    "next_stage_index": 6,
     "completed_stages": [
-      "guard_start"
+      "guard_start",
+      "generation",
+      "mechanical_validator",
+      "checker_passes",
+      "cold_review",
+      "pre_blind_resolution"
     ],
-    "stage_outputs": {}
+    "stage_outputs": {
+      "generation": [
+        "entries/p/principal.md",
+        "audits/runs/p/principal/20260908T073126Z-740135b4/generation.json"
+      ],
+      "mechanical_validator": [
+        "audits/runs/p/principal/20260908T073126Z-740135b4/validator.json"
+      ],
+      "checker_passes": [
+        "audits/runs/p/principal/20260908T073126Z-740135b4/source_inventory.json",
+        "audits/runs/p/principal/20260908T073126Z-740135b4/check_passes/",
+        "audits/runs/p/principal/20260908T073126Z-740135b4/pass_findings.json"
+      ],
+      "cold_review": [
+        "audits/runs/p/principal/20260908T073126Z-740135b4/cold_review.json"
+      ],
+      "pre_blind_resolution": [
+        "audits/runs/p/principal/20260908T073126Z-740135b4/pre_blind_resolution.json",
+        "audits/runs/p/principal/20260908T073126Z-740135b4/pre_blind_revision.json"
+      ]
+    }
   },
   "validation_cycle": {
     "mode": "fresh_extended_validation",

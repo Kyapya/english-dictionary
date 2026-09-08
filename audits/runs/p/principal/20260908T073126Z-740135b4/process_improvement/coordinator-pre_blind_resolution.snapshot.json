@@ -1,0 +1,30 @@
+{
+  "schema_version": "process_improvement_input_v2",
+  "knowledge_epoch": "pi2-2026-09-06",
+  "recipient": "coordinator",
+  "phase": "pre_blind_resolution",
+  "features": [
+    "domain:agency-law",
+    "domain:criminal-law",
+    "domain:education",
+    "domain:finance",
+    "domain:performing-arts",
+    "part_of_speech:adjective",
+    "part_of_speech:noun",
+    "polysemy:multiple-senses",
+    "register:formal"
+  ],
+  "limits": {
+    "max_items": 8,
+    "max_bytes": 8192
+  },
+  "selected": [],
+  "skipped": [],
+  "input_bytes": 348,
+  "input_sha256": "15f14c2d725291b96b5dbe2db56cbb7491829119f31878ea570d69fa5ff91e14",
+  "run_id": "20260908T073126Z-740135b4",
+  "created_at": "2026-09-08T08:09:35Z",
+  "snapshot_path": "audits/runs/p/principal/20260908T073126Z-740135b4/process_improvement/coordinator-pre_blind_resolution.snapshot.md",
+  "machine_duration_seconds": 0.002179,
+  "additional_llm_calls": 0
+}
