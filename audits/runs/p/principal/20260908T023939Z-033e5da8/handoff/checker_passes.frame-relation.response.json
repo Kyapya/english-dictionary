@@ -1,0 +1,45 @@
+{
+  "schema_version": "antonym_axis_blind_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "a5b1c713557927dd314fa13cbb7145566d17126a469d53625959d1c764e65a5a",
+  "blind_request_sha256": "8433655ed5c83564872923cdf728ddd545e111f97cc02a7c6565abf5edf8d11d",
+  "recorded_at": "2026-09-08T11:53:32+09:00",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-fresh-frame-relation-1"
+  },
+  "axes": [
+    {
+      "item_id": "ant-220cded44507",
+      "axis": "元利区分",
+      "relation_type": "補完",
+      "reason": ""
+    },
+    {
+      "item_id": "ant-285f80b0eaa6",
+      "axis": "代理役割",
+      "relation_type": "補完",
+      "reason": ""
+    },
+    {
+      "item_id": "ant-1e2001c886a0",
+      "axis": "責任順位",
+      "relation_type": "補完",
+      "reason": ""
+    },
+    {
+      "item_id": "ant-717ad7790f82",
+      "axis": "重要度",
+      "relation_type": "程度",
+      "reason": ""
+    },
+    {
+      "item_id": "ant-c58ad771f55a",
+      "axis": "重要度",
+      "relation_type": "程度",
+      "reason": ""
+    }
+  ]
+}

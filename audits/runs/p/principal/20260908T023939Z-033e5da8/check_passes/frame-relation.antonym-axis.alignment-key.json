@@ -1,0 +1,872 @@
+{
+  "schema_version": "antonym_axis_alignment_key_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "a5b1c713557927dd314fa13cbb7145566d17126a469d53625959d1c764e65a5a",
+  "blind_request_sha256": "61363a87390e72ffe9113ad719a31fb0abd1531207c1d2d4fc7b83877b568b0c",
+  "shuffle_seed": "20260908T023939Z-033e5da8",
+  "items": [
+    {
+      "source_item_id": "antonym:001",
+      "sense_id": "sense:001",
+      "headword": "principal",
+      "sense_definition": "【日本語訳・定義】複数の原因、目的、人物、場所、要素などの中で、重要度・影響力・順位が最も高い、または特に高いものを示す。単に時間的に最初という意味ではなく、重要性や中心性の評価を表す。",
+      "antonym": "secondary",
+      "antonym_definition": "定義: 第一ではなく、重要度・順位が二次的である。",
+      "anchor": {
+        "section": "lexical_relations",
+        "line_start": 112,
+        "line_end": 112,
+        "exact_quote": "・secondary  "
+      },
+      "difference_anchor": {
+        "section": "lexical_relations",
+        "line_start": 115,
+        "line_end": 115,
+        "exact_quote": "違い: 重要度・順位の軸で `principal` と方向が反対になり、主要なものに対する従属的・補助的なものを表す。  "
+      },
+      "item_id": "ant-717ad7790f82"
+    },
+    {
+      "source_item_id": "antonym:002",
+      "sense_id": "sense:001",
+      "headword": "principal",
+      "sense_definition": "【日本語訳・定義】複数の原因、目的、人物、場所、要素などの中で、重要度・影響力・順位が最も高い、または特に高いものを示す。単に時間的に最初という意味ではなく、重要性や中心性の評価を表す。",
+      "antonym": "minor",
+      "antonym_definition": "定義: 重要性・規模・影響が比較的小さい。",
+      "anchor": {
+        "section": "lexical_relations",
+        "line_start": 119,
+        "line_end": 119,
+        "exact_quote": "・minor  "
+      },
+      "difference_anchor": {
+        "section": "lexical_relations",
+        "line_start": 122,
+        "line_end": 122,
+        "exact_quote": "違い: `principal` との程度軸上の対立で、最重要・主要ではない小さな要素を表す。  "
+      },
+      "item_id": "ant-c58ad771f55a"
+    },
+    {
+      "source_item_id": "antonym:003",
+      "sense_id": "sense:004",
+      "headword": "principal",
+      "sense_definition": "【日本語訳・定義】金融では、借入・貸付の元の金額、または投資された当初の金額で、そこから生じる利息・利益・収益とは区別される金額。返済文脈では、元金への支払いは未返済債務の基礎額を減らす。信託では、収益を生む財産本体または `corpus` を指し、そこから生じる収益と区別する。",
+      "antonym": "interest",
+      "antonym_definition": "定義: 借りた元金に対して支払う、または貸した・預けた元金から得る金額。",
+      "anchor": {
+        "section": "lexical_relations",
+        "line_start": 270,
+        "line_end": 270,
+        "exact_quote": "・interest  "
+      },
+      "difference_anchor": {
+        "section": "lexical_relations",
+        "line_start": 273,
+        "line_end": 273,
+        "exact_quote": "違い: 金額構成の軸で、`principal` が基礎となる元の額なのに対し、`interest` は時間の経過と利率に応じて生じる追加額である。  "
+      },
+      "item_id": "ant-220cded44507"
+    },
+    {
+      "source_item_id": "antonym:004",
+      "sense_id": "sense:005",
+      "headword": "principal",
+      "sense_definition": "【日本語訳・定義】別の人・法人である `agent` に、自分のために行動する権限を与える人または法人。代理人は本人のために行動し、代理関係では `principal` が権限の源となる。米国の一般的な代理法の説明では、代理人は本人のために、かつ本人の支配の下で行動する。具体的な成立要件は適用法によって異なり得る。",
+      "antonym": "agent",
+      "antonym_definition": "定義: 他者から権限を与えられ、その者のために行動する人または法人。",
+      "anchor": {
+        "section": "lexical_relations",
+        "line_start": 324,
+        "line_end": 324,
+        "exact_quote": "・agent  "
+      },
+      "difference_anchor": {
+        "section": "lexical_relations",
+        "line_start": 327,
+        "line_end": 327,
+        "exact_quote": "違い: 同じ代理関係の役割軸で、`principal` が権限を与える側、`agent` が与えられた権限で行動する側である。  "
+      },
+      "item_id": "ant-285f80b0eaa6"
+    },
+    {
+      "source_item_id": "antonym:005",
+      "sense_id": "sense:007",
+      "headword": "principal",
+      "sense_definition": "【日本語訳・定義】債務・保証の文脈で、保証人などの二次的責任者と対比され、義務について第一次的に責任を負う人または法人。",
+      "antonym": "surety",
+      "antonym_definition": "定義: 主たる債務者が履行しない場合に責任を負う保証人。",
+      "anchor": {
+        "section": "lexical_relations",
+        "line_start": 416,
+        "line_end": 416,
+        "exact_quote": "・surety  "
+      },
+      "difference_anchor": {
+        "section": "lexical_relations",
+        "line_start": 419,
+        "line_end": 419,
+        "exact_quote": "違い: 責任順位の軸で、`principal` が第一次的に責任を負うのに対し、`surety` は他人の義務を担保する側に立つ。  "
+      },
+      "item_id": "ant-1e2001c886a0"
+    }
+  ],
+  "senses": [
+    {
+      "sense_id": "sense:001",
+      "full_sense": [
+        {
+          "line": 41,
+          "text": "1. 【形容詞】主要な、最も重要な、第一の"
+        },
+        {
+          "line": 43,
+          "text": "【日本語訳・定義】複数の原因、目的、人物、場所、要素などの中で、重要度・影響力・順位が最も高い、または特に高いものを示す。単に時間的に最初という意味ではなく、重要性や中心性の評価を表す。  "
+        },
+        {
+          "line": 45,
+          "text": "【頻度】〈9/10〉  "
+        },
+        {
+          "line": 47,
+          "text": "【レジスター/領域】標準～やや形式的。報道、ビジネス、学術、行政で広く使う。日常会話では `main` がより普通なことが多い。  "
+        },
+        {
+          "line": 49,
+          "text": "【文法パターン】`the principal 〈名詞〉`＝主要な～／`a principal 〈名詞〉`＝主な～の一つ／`one of the principal 〈複数名詞〉`＝主要な～の一つ／`the principal cause of ...`＝～の主因／`a principal source of ...`＝～の主要源の一つ／`the principal reason for ...`＝～の主な理由  "
+        },
+        {
+          "line": 51,
+          "text": "【コロケーション】"
+        },
+        {
+          "line": 53,
+          "text": "・`the principal reason for ...`  "
+        },
+        {
+          "line": 54,
+          "text": "用途: 出来事・状況・判断・行動などについて、最も重要な理由を示す。  "
+        },
+        {
+          "line": 55,
+          "text": "例: The principal reason for the delay was a shortage of parts.  "
+        },
+        {
+          "line": 56,
+          "text": "訳: 遅延の主な理由は部品不足だった。  "
+        },
+        {
+          "line": 58,
+          "text": "・`the principal cause of ...`  "
+        },
+        {
+          "line": 59,
+          "text": "用途: 出来事を引き起こした最も重要な原因を示す。  "
+        },
+        {
+          "line": 60,
+          "text": "例: Investigators identified corrosion as the principal cause of the failure.  "
+        },
+        {
+          "line": 61,
+          "text": "訳: 調査担当者は、腐食をその故障の主因と特定した。  "
+        },
+        {
+          "line": 63,
+          "text": "・`a principal source of ...`  "
+        },
+        {
+          "line": 64,
+          "text": "用途: 物・情報・収入などの主要な供給源を示す。  "
+        },
+        {
+          "line": 65,
+          "text": "例: Tourism is a principal source of income for the island.  "
+        },
+        {
+          "line": 66,
+          "text": "訳: 観光はその島の主要な収入源の一つである。  "
+        },
+        {
+          "line": 68,
+          "text": "・`one of the principal 〈複数名詞〉`  "
+        },
+        {
+          "line": 69,
+          "text": "用途: 最重要候補が複数ある中の一つであることを示す。  "
+        },
+        {
+          "line": 70,
+          "text": "例: She is one of the principal architects of the reform.  "
+        },
+        {
+          "line": 71,
+          "text": "訳: 彼女はその改革の主要な立案者の一人である。  "
+        },
+        {
+          "line": 73,
+          "text": "・`the principal place of business`  "
+        },
+        {
+          "line": 74,
+          "text": "用途: 企業の主たる事業所を指す定着した法律・ビジネス表現。該当場所を決める法的基準や効果は、適用される法や法域によって異なる。  "
+        },
+        {
+          "line": 75,
+          "text": "例: The company moved its principal place of business to Osaka.  "
+        },
+        {
+          "line": 76,
+          "text": "訳: その会社は主たる事業所を大阪に移した。  "
+        },
+        {
+          "line": 78,
+          "text": "【語法・注意】`principal` と `principle` は綴りも意味も異なる。`principal` は形容詞で「最も重要な」を表す一方、`principle` は「原理・原則」を表す名詞である。したがって「基本原則」は `basic principle` であり、`basic principal` ではない。  "
+        },
+        {
+          "line": 80,
+          "text": "【類義語】"
+        },
+        {
+          "line": 82,
+          "text": "・main  "
+        },
+        {
+          "line": 83,
+          "text": "定義: 複数のものの中で中心的・最重要である。  "
+        },
+        {
+          "line": 84,
+          "text": "頻度: 〈10/10〉  "
+        },
+        {
+          "line": 85,
+          "text": "違い: `main` は日常語で範囲が広い。`principal` はより形式的で、順位・重要性・影響力が高いことを意識させる。  "
+        },
+        {
+          "line": 86,
+          "text": "例: Our main goal is to reduce waiting times.  "
+        },
+        {
+          "line": 87,
+          "text": "訳: 私たちの主な目標は待ち時間を減らすことだ。  "
+        },
+        {
+          "line": 89,
+          "text": "・primary  "
+        },
+        {
+          "line": 90,
+          "text": "定義: 第一順位・第一段階である、または最も基本的である。  "
+        },
+        {
+          "line": 91,
+          "text": "頻度: 〈9/10〉  "
+        },
+        {
+          "line": 92,
+          "text": "違い: `primary` は重要性に加え、順序・段階・基本性にも焦点を置ける。`principal` は主として相対的な重要度や地位を表す。  "
+        },
+        {
+          "line": 93,
+          "text": "例: Safety is our primary concern.  "
+        },
+        {
+          "line": 94,
+          "text": "訳: 安全が私たちの最優先事項である。  "
+        },
+        {
+          "line": 96,
+          "text": "・chief  "
+        },
+        {
+          "line": 97,
+          "text": "定義: 同種の中で最上位・最重要である。  "
+        },
+        {
+          "line": 98,
+          "text": "頻度: 〈8/10〉  "
+        },
+        {
+          "line": 99,
+          "text": "違い: `chief` は役職名や「最大の原因・懸念」によく使われ、最上位性を強く示す。`principal` は文章語として原因・目的・人物・場所などに幅広く使う。  "
+        },
+        {
+          "line": 100,
+          "text": "例: Cost remains the chief obstacle to expansion.  "
+        },
+        {
+          "line": 101,
+          "text": "訳: 費用が依然として拡大の最大の障害である。  "
+        },
+        {
+          "line": 103,
+          "text": "・leading  "
+        },
+        {
+          "line": 104,
+          "text": "定義: ある分野で先頭に立ち、大きな影響力や高い評価を持つ。  "
+        },
+        {
+          "line": 105,
+          "text": "頻度: 〈9/10〉  "
+        },
+        {
+          "line": 106,
+          "text": "違い: `leading` は人・企業・研究機関などの実績や影響力を強調しやすい。`principal` は実績評価を必須とせず、対象内での中心性を示す。  "
+        },
+        {
+          "line": 107,
+          "text": "例: She is a leading expert on marine ecosystems.  "
+        },
+        {
+          "line": 108,
+          "text": "訳: 彼女は海洋生態系の第一人者である。  "
+        },
+        {
+          "line": 110,
+          "text": "【反意語】"
+        },
+        {
+          "line": 112,
+          "text": "・secondary  "
+        },
+        {
+          "line": 113,
+          "text": "定義: 第一ではなく、重要度・順位が二次的である。  "
+        },
+        {
+          "line": 114,
+          "text": "頻度: 〈8/10〉  "
+        },
+        {
+          "line": 115,
+          "text": "違い: 重要度・順位の軸で `principal` と方向が反対になり、主要なものに対する従属的・補助的なものを表す。  "
+        },
+        {
+          "line": 116,
+          "text": "例: Price was only a secondary consideration.  "
+        },
+        {
+          "line": 117,
+          "text": "訳: 価格は二次的な考慮事項にすぎなかった。  "
+        },
+        {
+          "line": 119,
+          "text": "・minor  "
+        },
+        {
+          "line": 120,
+          "text": "定義: 重要性・規模・影響が比較的小さい。  "
+        },
+        {
+          "line": 121,
+          "text": "頻度: 〈9/10〉  "
+        },
+        {
+          "line": 122,
+          "text": "違い: `principal` との程度軸上の対立で、最重要・主要ではない小さな要素を表す。  "
+        },
+        {
+          "line": 123,
+          "text": "例: The report contains a few minor errors.  "
+        },
+        {
+          "line": 124,
+          "text": "訳: その報告書には小さな誤りがいくつかある。  "
+        }
+      ]
+    },
+    {
+      "sense_id": "sense:004",
+      "full_sense": [
+        {
+          "line": 220,
+          "text": "4. 【名詞・金融／信託】元金、元本、信託財産の本体"
+        },
+        {
+          "line": 222,
+          "text": "【日本語訳・定義】金融では、借入・貸付の元の金額、または投資された当初の金額で、そこから生じる利息・利益・収益とは区別される金額。返済文脈では、元金への支払いは未返済債務の基礎額を減らす。信託では、収益を生む財産本体または `corpus` を指し、そこから生じる収益と区別する。  "
+        },
+        {
+          "line": 224,
+          "text": "【頻度】〈7/10〉  "
+        },
+        {
+          "line": 226,
+          "text": "【レジスター/領域】金融、融資、投資、会計、信託。米国英語で特に一般的で、日常的なローン説明にも現れる。  "
+        },
+        {
+          "line": 228,
+          "text": "【文法パターン】`pay/repay 〈金額〉 of principal`＝元金を～返済する／`pay down/reduce the principal`＝元金を減らす／`principal and interest`＝元利金／`the principal on a loan`＝ローンの元金／`an outstanding principal balance`＝未返済元金残高／`the principal amount`＝元本金額  "
+        },
+        {
+          "line": 230,
+          "text": "【コロケーション】"
+        },
+        {
+          "line": 232,
+          "text": "・`principal and interest`  "
+        },
+        {
+          "line": 233,
+          "text": "用途: 借入金の元金と、それに対して発生する利息を対で示す。  "
+        },
+        {
+          "line": 234,
+          "text": "例: The monthly payment includes both principal and interest.  "
+        },
+        {
+          "line": 235,
+          "text": "訳: 毎月の返済額には元金と利息の両方が含まれる。  "
+        },
+        {
+          "line": 237,
+          "text": "・`pay down the principal`  "
+        },
+        {
+          "line": 238,
+          "text": "用途: 返済によって未返済の元金を減らすことを表す。  "
+        },
+        {
+          "line": 239,
+          "text": "例: Extra payments can help you pay down the principal faster.  "
+        },
+        {
+          "line": 240,
+          "text": "訳: 追加返済をすれば、元金をより早く減らせる。  "
+        },
+        {
+          "line": 242,
+          "text": "・`the principal amount`  "
+        },
+        {
+          "line": 243,
+          "text": "用途: 契約・債券・ローンで利息等を除いた基礎額を明示する。  "
+        },
+        {
+          "line": 244,
+          "text": "例: Interest is calculated on the outstanding principal amount.  "
+        },
+        {
+          "line": 245,
+          "text": "訳: 利息は未返済の元本金額に対して計算される。  "
+        },
+        {
+          "line": 247,
+          "text": "・`protect the principal`  "
+        },
+        {
+          "line": 248,
+          "text": "用途: 投資で、元本そのものの毀損を避けることを表す。  "
+        },
+        {
+          "line": 249,
+          "text": "例: The fund aims to protect the principal while generating modest returns.  "
+        },
+        {
+          "line": 250,
+          "text": "訳: そのファンドは、控えめな収益を生みながら元本を保全することを目指している。  "
+        },
+        {
+          "line": 252,
+          "text": "・`repay principal`  "
+        },
+        {
+          "line": 253,
+          "text": "用途: 利息とは別に借入の元金を返済することを表す。  "
+        },
+        {
+          "line": 254,
+          "text": "例: The borrower will begin repaying principal next year.  "
+        },
+        {
+          "line": 255,
+          "text": "訳: 借り手は来年、元金の返済を開始する。  "
+        },
+        {
+          "line": 257,
+          "text": "【語法・注意】`principal` は元の基礎額、`interest` は借入の対価または貸付・投資から生じる収益であり、同じ金額を指さない。`principal amount` や `principal balance` は、語義4の名詞が前から金額・残高の種類を限定する複合的な名詞句として扱い、`repay the principal` では `principal` 自体が目的語の名詞になる。日本語の「元利金」は `principal and interest` であり、`principal interest` とはしない。信託・遺産の文脈では、収益を生む財産本体を `principal` または `corpus` と呼び、そこから生じる `income` と区別する。この用法も「収益に対する元の財産」という同じ金融・財産上の対立に属する。  "
+        },
+        {
+          "line": 259,
+          "text": "【類義語】"
+        },
+        {
+          "line": 261,
+          "text": "・capital  "
+        },
+        {
+          "line": 262,
+          "text": "定義: 投資・事業に用いられる資金または資産。  "
+        },
+        {
+          "line": 263,
+          "text": "頻度: 〈9/10〉  "
+        },
+        {
+          "line": 264,
+          "text": "違い: `capital` は事業資金・生産資産まで広く表す。`principal` は特定の貸付・借入・投資で利息や収益の基礎となる元の額を指す。  "
+        },
+        {
+          "line": 265,
+          "text": "例: The company raised additional capital from investors.  "
+        },
+        {
+          "line": 266,
+          "text": "訳: その会社は投資家から追加資金を調達した。  "
+        },
+        {
+          "line": 268,
+          "text": "【反意語】"
+        },
+        {
+          "line": 270,
+          "text": "・interest  "
+        },
+        {
+          "line": 271,
+          "text": "定義: 借りた元金に対して支払う、または貸した・預けた元金から得る金額。  "
+        },
+        {
+          "line": 272,
+          "text": "頻度: 〈9/10〉  "
+        },
+        {
+          "line": 273,
+          "text": "違い: 金額構成の軸で、`principal` が基礎となる元の額なのに対し、`interest` は時間の経過と利率に応じて生じる追加額である。  "
+        },
+        {
+          "line": 274,
+          "text": "例: Most of the first payment went toward interest.  "
+        },
+        {
+          "line": 275,
+          "text": "訳: 初回の支払いの大部分は利息に充てられた。  "
+        }
+      ]
+    },
+    {
+      "sense_id": "sense:005",
+      "full_sense": [
+        {
+          "line": 277,
+          "text": "5. 【名詞・可算・法律／代理関係】本人、依頼者、代理権を与える当事者"
+        },
+        {
+          "line": 279,
+          "text": "【日本語訳・定義】別の人・法人である `agent` に、自分のために行動する権限を与える人または法人。代理人は本人のために行動し、代理関係では `principal` が権限の源となる。米国の一般的な代理法の説明では、代理人は本人のために、かつ本人の支配の下で行動する。具体的な成立要件は適用法によって異なり得る。  "
+        },
+        {
+          "line": 281,
+          "text": "【頻度】〈5/10〉  "
+        },
+        {
+          "line": 283,
+          "text": "【レジスター/領域】法律、保険、不動産、商取引、経済学。日常語として人を「依頼主」と呼ぶだけなら `client` が自然な場合も多い。  "
+        },
+        {
+          "line": 285,
+          "text": "【文法パターン】`a principal appoints/authorizes an agent to do ...`＝本人が代理人に～する権限を与える／`act on behalf of the principal`＝本人を代理して行動する／`owe a duty to the principal`＝本人に対して義務を負う／`a principal-agent relationship`＝本人・代理人関係  "
+        },
+        {
+          "line": 287,
+          "text": "【コロケーション】"
+        },
+        {
+          "line": 289,
+          "text": "・`a principal-agent relationship`  "
+        },
+        {
+          "line": 290,
+          "text": "用途: 権限を与える本人と、そのために行動する代理人との関係を表す。  "
+        },
+        {
+          "line": 291,
+          "text": "例: The contract created a principal-agent relationship between the owner and the broker.  "
+        },
+        {
+          "line": 292,
+          "text": "訳: その契約は所有者と仲介業者の間に本人・代理人関係を成立させた。  "
+        },
+        {
+          "line": 294,
+          "text": "・`act on behalf of the principal`  "
+        },
+        {
+          "line": 295,
+          "text": "用途: 代理人が本人を代理して行動することを表す。  "
+        },
+        {
+          "line": 296,
+          "text": "例: The agent may sign the document on behalf of the principal.  "
+        },
+        {
+          "line": 297,
+          "text": "訳: 代理人は本人を代理してその書類に署名できる。  "
+        },
+        {
+          "line": 299,
+          "text": "・`owe a duty to the principal`  "
+        },
+        {
+          "line": 300,
+          "text": "用途: 代理人が本人に対して忠実義務・注意義務などを負うことを示す。  "
+        },
+        {
+          "line": 301,
+          "text": "例: An agent generally owes duties of loyalty and care to the principal.  "
+        },
+        {
+          "line": 302,
+          "text": "訳: 代理人は一般に、本人に対して忠実義務と注意義務を負う。  "
+        },
+        {
+          "line": 304,
+          "text": "【語法・注意】法律用語の `principal` は「重要人物」という一般義だけでなく、`agent` に対する特定の関係上の役割名である。`client` はサービスを受ける顧客・依頼人を広く指すが、必ずしも代理権を与える法律上の本人ではない。`the principal's agent` は「本人の代理人」であり、「校長の代理人」と決めつけない。  "
+        },
+        {
+          "line": 306,
+          "text": "【類義語】"
+        },
+        {
+          "line": 308,
+          "text": "・client  "
+        },
+        {
+          "line": 309,
+          "text": "定義: 専門家や事業者からサービスを受ける顧客・依頼人。  "
+        },
+        {
+          "line": 310,
+          "text": "頻度: 〈9/10〉  "
+        },
+        {
+          "line": 311,
+          "text": "違い: `client` はサービス関係を表す広い語で、代理権の付与を必要としない。`principal` は代理人が権限を得る法律関係上の本人に焦点がある。  "
+        },
+        {
+          "line": 312,
+          "text": "例: The lawyer advised the client to seek a second opinion.  "
+        },
+        {
+          "line": 313,
+          "text": "訳: 弁護士は依頼人にセカンドオピニオンを求めるよう助言した。  "
+        },
+        {
+          "line": 315,
+          "text": "・mandator  "
+        },
+        {
+          "line": 316,
+          "text": "定義: 他人に委任・代理の権限を与える者。  "
+        },
+        {
+          "line": 317,
+          "text": "頻度: 〈2/10〉  "
+        },
+        {
+          "line": 318,
+          "text": "違い: 特定の法体系や専門文脈で使われる低頻度語である。英米法の一般的な代理関係では `principal` が標準的。  "
+        },
+        {
+          "line": 319,
+          "text": "例: The mandator may revoke the mandate subject to the agreement.  "
+        },
+        {
+          "line": 320,
+          "text": "訳: 委任者は、契約に従って委任を撤回できる場合がある。  "
+        },
+        {
+          "line": 322,
+          "text": "【反意語】"
+        },
+        {
+          "line": 324,
+          "text": "・agent  "
+        },
+        {
+          "line": 325,
+          "text": "定義: 他者から権限を与えられ、その者のために行動する人または法人。  "
+        },
+        {
+          "line": 326,
+          "text": "頻度: 〈8/10〉  "
+        },
+        {
+          "line": 327,
+          "text": "違い: 同じ代理関係の役割軸で、`principal` が権限を与える側、`agent` が与えられた権限で行動する側である。  "
+        },
+        {
+          "line": 328,
+          "text": "例: The agent negotiated the sale for the owner.  "
+        },
+        {
+          "line": 329,
+          "text": "訳: 代理人は所有者のために売却交渉を行った。  "
+        }
+      ]
+    },
+    {
+      "sense_id": "sense:007",
+      "full_sense": [
+        {
+          "line": 369,
+          "text": "7. 【名詞・可算・債務／保証法】主たる債務者・義務者、第一次的責任者"
+        },
+        {
+          "line": 371,
+          "text": "【日本語訳・定義】債務・保証の文脈で、保証人などの二次的責任者と対比され、義務について第一次的に責任を負う人または法人。  "
+        },
+        {
+          "line": 373,
+          "text": "【頻度】〈2/10〉  "
+        },
+        {
+          "line": 375,
+          "text": "【レジスター/領域】債務法・保証法の専門語。  "
+        },
+        {
+          "line": 377,
+          "text": "【文法パターン】`be liable as principal`＝主たる当事者として責任を負う／`the obligation of the principal`＝主たる義務者の義務／`the principal and the surety`＝主たる義務者と保証人  "
+        },
+        {
+          "line": 379,
+          "text": "【コロケーション】"
+        },
+        {
+          "line": 381,
+          "text": "・`be liable as principal`  "
+        },
+        {
+          "line": 382,
+          "text": "用途: 二次的な保証責任ではなく、主たる当事者として第一次的責任を負うことを示す。  "
+        },
+        {
+          "line": 383,
+          "text": "例: Under the agreement, the company remains liable as principal for the debt.  "
+        },
+        {
+          "line": 384,
+          "text": "訳: その契約の下で、会社はその債務について主たる当事者として引き続き責任を負う。  "
+        },
+        {
+          "line": 386,
+          "text": "・`the obligation of the principal`  "
+        },
+        {
+          "line": 387,
+          "text": "用途: 主たる当事者が第一次的に負う義務を示す。  "
+        },
+        {
+          "line": 388,
+          "text": "例: The guarantee does not replace the obligation of the principal.  "
+        },
+        {
+          "line": 389,
+          "text": "訳: その保証は主たる義務者の義務に取って代わるものではない。  "
+        },
+        {
+          "line": 391,
+          "text": "・`the principal and the surety`  "
+        },
+        {
+          "line": 392,
+          "text": "用途: 第一次的責任を負う当事者と、保証する側を対で示す。  "
+        },
+        {
+          "line": 393,
+          "text": "例: The agreement states the duties of the principal and the surety.  "
+        },
+        {
+          "line": 394,
+          "text": "訳: その契約は主たる義務者と保証人の義務を定めている。  "
+        },
+        {
+          "line": 396,
+          "text": "【語法・注意】この語義では、`principal` は `be liable as principal` のように人・法人を指す名詞である。`principal debtor` や `principal obligor` では語義1の形容詞が `debtor`・`obligor` を修飾するため、名詞単独の構造と区別する。また、金額を指す語義4の「元金」とも区別する。  "
+        },
+        {
+          "line": 398,
+          "text": "【類義語】"
+        },
+        {
+          "line": 400,
+          "text": "・obligor  "
+        },
+        {
+          "line": 401,
+          "text": "定義: 契約や法律上の義務を負う者。  "
+        },
+        {
+          "line": 402,
+          "text": "頻度: 〈3/10〉  "
+        },
+        {
+          "line": 403,
+          "text": "違い: `obligor` は義務を負う者を広く表す。`principal` は保証人などと対比して、その義務について第一次的に責任を負う側を示す。  "
+        },
+        {
+          "line": 404,
+          "text": "例: The obligor must perform the duty by the stated date.  "
+        },
+        {
+          "line": 405,
+          "text": "訳: 義務者は定められた日までに義務を履行しなければならない。  "
+        },
+        {
+          "line": 407,
+          "text": "・debtor  "
+        },
+        {
+          "line": 408,
+          "text": "定義: 金銭その他の債務を負う者。  "
+        },
+        {
+          "line": 409,
+          "text": "頻度: 〈6/10〉  "
+        },
+        {
+          "line": 410,
+          "text": "違い: `debtor` は債務者一般を指す。`principal` は保証関係で第一次的責任を負う当事者という役割を強調する。  "
+        },
+        {
+          "line": 411,
+          "text": "例: The debtor made the payment on time.  "
+        },
+        {
+          "line": 412,
+          "text": "訳: 債務者は期限どおりに支払った。  "
+        },
+        {
+          "line": 414,
+          "text": "【反意語】"
+        },
+        {
+          "line": 416,
+          "text": "・surety  "
+        },
+        {
+          "line": 417,
+          "text": "定義: 主たる債務者が履行しない場合に責任を負う保証人。  "
+        },
+        {
+          "line": 418,
+          "text": "頻度: 〈3/10〉  "
+        },
+        {
+          "line": 419,
+          "text": "違い: 責任順位の軸で、`principal` が第一次的に責任を負うのに対し、`surety` は他人の義務を担保する側に立つ。  "
+        },
+        {
+          "line": 420,
+          "text": "例: The surety paid after the borrower defaulted.  "
+        },
+        {
+          "line": 421,
+          "text": "訳: 借り手が債務不履行となった後、保証人が支払った。  "
+        }
+      ]
+    }
+  ]
+}

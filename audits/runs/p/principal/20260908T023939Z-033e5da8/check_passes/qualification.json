@@ -1,0 +1,61 @@
+{
+  "pass_id": "qualification",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-fresh-qualification-1"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "regional_qualification",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 132,
+        "line_end": 132,
+        "exact_quote": "【レジスター/領域】標準語。米国・カナダなどでは小中高校の「校長」に一般的。イギリスでは学校の長には `head teacher` または `head` が一般的で、`principal` はカレッジなど特定の教育機関の長に使われることがある。  "
+      },
+      "severity": "blocking",
+      "rationale": "「イギリス」を英国全体の地域ラベルとして一括しているが、北アイルランドでは学校長の一般的・公式な役職名として `principal` が広く用いられるため、England を中心とする傾向を UK 全域へ一般化している。根拠 F-017 自体も college-head 用法を `especially in England` と限定しており、この UK 全域の対比を支えない。学習者に地域別の役職名を選ばせる注意書きとして適用範囲が不正確である。",
+      "evidence_link_ids": [
+        "F-014",
+        "F-017"
+      ],
+      "suggested_direction": "少なくとも England と Northern Ireland を分け、England では school head に `head teacher` / `head` が一般的である一方、Northern Ireland では `principal` が一般的であることを明示する。`イギリス` を用いるなら UK 全域の一様な規則として書かない。"
+    },
+    {
+      "taxonomy_id": "absolute_scope_counterexample",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 78,
+        "line_end": 78,
+        "exact_quote": "【語法・注意】`principal` と `principle` は綴りも意味も異なる。`principal` は形容詞で「最も重要な」を表す一方、`principle` は「原理・原則」を表す名詞である。したがって「基本原則」は `basic principle` であり、`basic principal` ではない。  "
+      },
+      "severity": "minor",
+      "rationale": "`principal` を無限定に「形容詞」と言い切ると、この項目自身が続けて扱う校長・元金・本人などの主要な名詞用法が反例になる。綴りの使い分けを説明する局所的な文脈では意図は推測できるが、品詞についての絶対表現としては範囲が広すぎる。",
+      "evidence_link_ids": [
+        "F-002",
+        "F-003",
+        "F-008"
+      ],
+      "suggested_direction": "「`principal` には形容詞で『最も重要な』を表す用法がある一方」のように非排他的にし、`principal` には名詞用法もあると短く補う。"
+    },
+    {
+      "taxonomy_id": "technical_terminology_conventionality",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 192,
+        "line_end": 192,
+        "exact_quote": "例: The concert program lists her as a principal.  "
+      },
+      "severity": "minor",
+      "rationale": "専門義の中心例としては領域と職階が特定されていない。`concert program` だけでは、オーケストラの section principal、独奏者、主要出演者のどれを指すか決められず、単独の `a principal` も実際の専門肩書きの形を十分に示さないため、語義3の慣用的な読みを明確に実証できていない。",
+      "evidence_link_ids": [
+        "F-007",
+        "F-018"
+      ],
+      "suggested_direction": "`She is the orchestra's principal oboist.` や `She was promoted to principal dancer.` のように、分野と定着した職階表現を明示する例へ置き換える。"
+    }
+  ],
+  "unrouted_observations": []
+}
