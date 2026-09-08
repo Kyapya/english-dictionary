@@ -1953,7 +1953,27 @@ def validate_pass_output(
             except ValueError as exc:
                 errors.append(str(exc))
             else:
-                if output.get("findings") != expected["findings"]:
+                actual_findings = output.get("findings")
+                sealed_findings = expected["findings"]
+                comparable = actual_findings
+                if isinstance(actual_findings, list) and len(actual_findings) == len(sealed_findings):
+                    comparable = []
+                    canonical_ids: set[str] = {
+                        finding["id"] for finding in sealed_findings
+                        if isinstance(finding, dict) and isinstance(finding.get("id"), str)
+                    }
+                    for actual, sealed in zip(actual_findings, sealed_findings):
+                        value = dict(actual) if isinstance(actual, dict) else actual
+                        # Reconciliation assigns stable IDs after the independent
+                        # review. Only this added identity metadata may differ;
+                        # a sealed ID and every substantive field remain exact.
+                        if isinstance(value, dict) and "id" in value and "id" not in sealed:
+                            finding_id = value["id"]
+                            if isinstance(finding_id, str) and finding_id.strip() and finding_id not in canonical_ids:
+                                canonical_ids.add(finding_id)
+                                value.pop("id")
+                        comparable.append(value)
+                if comparable != sealed_findings:
                     errors.append(
                         "frame-relation findings diverge from sealed axis adjudication"
                     )

@@ -305,6 +305,23 @@ class CheckPassTests(unittest.TestCase):
             aligned_at="2026-08-28T10:01:00+00:00",
         )
         self.assertEqual(result, expected_result)
+        def validate_identified(value):
+            return check_passes.validate_pass_output(
+                value, self.router, entry_path=entry, antonym_request=request,
+                antonym_stage2_request=materialized, antonym_alignment_key=alignment,
+                request_payload=materialized,
+            )
+        identified = json.loads(json.dumps(result))
+        self.assertTrue(identified["findings"])
+        for index, finding in enumerate(identified["findings"]):
+            finding["id"] = f"normal-frame-relation-{index + 1:03d}"
+        self.assertEqual(validate_identified(identified), [])
+        for field, replacement in (("rationale", "changed rationale"), ("severity", "minor"), ("location", {}), ("id", "")):
+            tampered = json.loads(json.dumps(identified))
+            if tampered["findings"][0].get(field) == replacement:
+                replacement = "blocking"
+            tampered["findings"][0][field] = replacement
+            self.assertIn("frame-relation findings diverge from sealed axis adjudication", validate_identified(tampered))
         self.assertEqual(
             check_passes.validate_pass_output(
                 result,
