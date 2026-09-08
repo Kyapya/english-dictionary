@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import subprocess
 import sys
 import uuid
@@ -460,6 +461,39 @@ def resume_legacy_time_stop(manifest: dict[str, Any], *, now: datetime | None = 
     manifest["stop_reason"] = ""
     # Questions remain available to the coordinator, not silently resolved.
     enforce_budget(manifest, now=current)
+    return True
+
+
+def is_legacy_recheck_stop(manifest: dict[str, Any]) -> bool:
+    reason = manifest.get("stop_reason", "")
+    known = reason == "post-cold recheck budget exhausted" or (
+        isinstance(reason, str) and re.fullmatch(
+            r"Source-first (?:standard|extended) post-cold recheck limit reached \([0-9]+/[12]\); accepted corrections still require verification",
+            reason,
+        ) is not None
+    )
+    failures = manifest.get("review_ingest_failures", {})
+    return (manifest.get("status") == "budget_exhausted" and known
+            and isinstance(failures, dict)
+            and isinstance(failures.get("count", 0), int)
+            and failures.get("count", 0) < MAX_REVIEW_INGEST_FAILURES)
+
+
+def resume_legacy_recheck_stop(manifest: dict[str, Any]) -> bool:
+    if not is_legacy_recheck_stop(manifest):
+        return False
+    errors = validate_manifest(manifest)
+    if errors:
+        raise ValueError("cannot resume invalid recheck-stopped run: " + "; ".join(errors))
+    manifest.setdefault("recheck_stop_recoveries", []).append({
+        "recovered_at": _format_time(_now()),
+        "previous_stop_reason": manifest["stop_reason"],
+        "previous_open_questions": list(manifest.get("open_questions", [])),
+        "stage": manifest["stage"],
+    })
+    manifest["status"] = "in_progress"
+    manifest["stop_reason"] = ""
+    manifest["recheck_policy"] = "unlimited_v1"
     return True
 
 

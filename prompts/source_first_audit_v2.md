@@ -29,8 +29,8 @@ source-firstは「ウェブ上の情報を見つからなくなるまで探す�
 
 | profile | sources | atomic facts | research rounds | post-cold rechecks | final attempts |
 |---|---:|---:|---:|---:|---:|
-| standard | 6 | 48 | 2 | 1 | 2 |
-| extended | 8 | 80 | 3 | 2 | 2 |
+| standard | 6 | 48 | 2 | 制限なし | 2 |
+| extended | 8 | 80 | 3 | 制限なし | 2 |
 
 `extended` は、多義性または専門領域の広さからstandardでは6軸を閉じられない具体的理由を `profile_reason` に記録した場合だけ使う。profileの上限値を個別に引き上げてはならない。
 
@@ -111,6 +111,7 @@ python scripts/source_first_audit_gate.py stop entries/a/apple.md \
 - コールドレビューは固定draftに対して1回だけ行い、採用修正後に同じ目的で全面再実行しない。
 - 採用修正後は `scripts/workflow_revision.py` が意味上の影響範囲checkerだけを失効させる。複数sectionの局所修正は依存passの和集合とし、分類不能、語義統合・分割、品詞・語義順序の変更は全checkerへ倒す。
 - `post_cold_rechecks_used` は影響範囲checkerの再検査roundを数え、未変更passの有効な結果再利用を再実行として数えない。
+- 修正後のchecker再検査回数には上限を設けない。各回の前に `record-attempt <entry> --stage post-cold` で累積回数を記録し、必要な独立検査を同じrunで続ける。新規profileの `max_post_cold_rechecks` はnull、旧inventoryの1/2は履歴値として保持する。旧回数制限だけの停止は通常の `--resume` で履歴付き復帰する。未解決事項、入力snapshot、累積回数をリセットせず、品質gateを通るまでcheckedにはしない。
 - 再検査のためにsource、fact、research roundを自動追加しない。根拠対象claimを変更した場合は、同じ既存資料に基づくclaim/source support対応と本文hashを更新して検証する。
 - 最終審査は初回とREJECT後の再審査を合わせて最大2回とする。
 - 上限で問題が残る場合、同じ依頼内で新cycleを自動開始しない。`needs_review`、checked false、blocker付きで停止する。

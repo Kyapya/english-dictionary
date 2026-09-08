@@ -2541,6 +2541,27 @@ def _resume(
     publication = manifest.get("publication", {})
     if publication.get("mode") in {"git", "connector"}:
         publish_checkpoint.select(REPO_ROOT, publication["mode"])
+    if guard.is_legacy_recheck_stop(manifest):
+        if publication.get("mode") == "connector" and not publish_checkpoint.publish(REPO_ROOT):
+            print(json.dumps({"status": "publication_pending", "action": "publish existing checkpoint before recheck recovery"}))
+            return 0
+        import source_first_audit_gate
+        recovered = copy.deepcopy(manifest)
+        guard.resume_legacy_recheck_stop(recovered)
+        entry = Path(manifest["entry_path"])
+        inventory_path = REPO_ROOT / "audits/runs" / entry.parent.name / entry.stem / manifest["run_id"] / "source_inventory.json"
+        inventory = json.loads(inventory_path.read_text(encoding="utf-8"))
+        source_first_audit_gate.resume_legacy_recheck_stop(inventory)
+        errors = source_first_audit_gate.validate_manifest(inventory, allow_incomplete=True)
+        if errors:
+            raise ValueError("cannot resume invalid recheck inventory: " + "; ".join(errors))
+        guard._write(inventory_path, inventory)
+        manifest = recovered
+        guard._write(resolved, manifest)
+        _commit_and_push(REPO_ROOT, (resolved, inventory_path), "Resume correction checks without resetting review progress")
+        if publication.get("mode") == "connector":
+            print(json.dumps({"status": "publication_pending", "action": "publish recheck recovery, then resume the same run"}))
+            return 0
     if guard.is_legacy_time_stop(manifest):
         # First finish any outstanding publication; never overwrite its checkpoint.
         if publication.get("mode") == "connector" and not publish_checkpoint.publish(REPO_ROOT):
