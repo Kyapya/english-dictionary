@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/p/parliament.md",
+  "created_at": "2026-09-08T16:14:37Z",
+  "base_body_sha256": "4de9f86bfac3ac1b1cd2fe13fbcc70ebe072b14e57780b43139c06e53f85a2ff",
+  "head_body_sha256": "5bc4e39e2bd467d5f78b936a340804a08be1f8605222f3ee4b0cd2c44ca8ad68",
+  "diff_sha256": "d8f30a4b8fd8d03af567676d5d693acd65466d267701c4e0b4cc8275226576e5",
+  "user_request": "Apply R1-R4 from parliament-revision-request.md as a localized correction, changing only the specified five existing lines and preserving the two-sense structure, all 14 examples and translations, and unrelated content.",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "Codex Work targeted-review",
+    "verdict": "pass",
+    "notes": "R1-R4 changed hunks and immediate context were reviewed against the request. UK Parliament official guidance confirms that MPs represent constituencies in the House of Commons and that a hung Parliament concerns a Commons majority. The five requested lines changed; the two-sense structure and all 14 examples and translations remain unchanged."
+  },
+  "pi_processing": {
+    "status": "no_applicable",
+    "event_id": "targeted:parliament:d8f30a4b8fd8"
+  }
+}
