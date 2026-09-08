@@ -22,7 +22,7 @@
   "started_at": "2026-09-08T04:52:28Z",
   "deadline_at": "2026-09-08T06:22:28Z",
   "pre_draft_deadline_at": "2026-09-08T05:22:28Z",
-  "last_heartbeat_at": "2026-09-08T05:57:31Z",
+  "last_heartbeat_at": "2026-09-08T06:23:30Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-08T05:01:10Z",
@@ -837,5 +837,12 @@
     "source_inventory_sha256": "76053cbb610a8fc02573e7578745f55164a5629c794e27128b77ec753c7eebea",
     "research_reopened": false
   },
-  "time_warnings": {}
+  "time_warnings": {
+    "elapsed_target_exceeded": {
+      "first_observed_at": "2026-09-08T06:23:30Z",
+      "target_at": "2026-09-08T06:22:28Z",
+      "stage": "cold_review_complete",
+      "action": "record the delay cause and resume the same run; do not restart reviews"
+    }
+  }
 }

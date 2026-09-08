@@ -1,0 +1,89 @@
+{
+  "pass_id": "evidence",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-cycle2-recheck-evidence-1"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "etymology",
+        "line_start": 20,
+        "line_end": 20,
+        "exact_quote": "同語源語には `prince`「王子、君主」と `principality`「公国」がある。綴りのよく似た `principle`「原理、原則」も同じラテン語群に由来するが、現代英語では別の単語として使い分ける。  "
+      },
+      "severity": "blocking",
+      "rationale": "C-010 の F-010/F-028 は principal 自体の French/Latin 伝来と princeps・primus・capere の分析を支持し、C-013 の F-032 は principal と principle の現代の綴り・品詞・意味の相違を支持する。しかし、固定 fact は prince と principality が principal の同語源語であることも、principle が同じラテン語群に由来することも直接記録していない。現代的使い分けの根拠を、記録されていない語源関係へ拡張している。",
+      "evidence_link_ids": [
+        "C-010",
+        "C-013"
+      ],
+      "suggested_direction": "同語源語・同じラテン語群という主張を削除して F-032 が支える現代の綴り・意味・品詞の区別に限定するか、各語の語源関係を直接記録した固定 fact と claim unit に差し替える。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 74,
+        "line_end": 74,
+        "exact_quote": "用途: 企業の主たる事業所を指す定着した法律・ビジネス表現。該当場所を決める法的基準や効果は、適用される法や法域によって異なる。  "
+      },
+      "severity": "blocking",
+      "rationale": "C-001 の F-001/F-013/F-016 は principal という形容詞の重要度・順位の意味を示すだけであり、改訂後の C-001 の article_target_ids も definition:001 のみである。固定 source union と claim unit には principal place of business が定着した法律表現であることや、その判定基準・法的効果が法・法域で異なることを直接支える fact がない。",
+      "evidence_link_ids": [
+        "C-001"
+      ],
+      "suggested_direction": "通常の形容詞義から構成できる『主たる事業所』という用例だけに限定するか、法律上の定着性・法域差を直接扱う固定専門資料へ根拠を差し替える。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 237,
+        "line_end": 237,
+        "exact_quote": "【日本語訳・定義】別の人・法人である `agent` に、自分のために行動する権限を与える人または法人。代理人は本人のために行動し、代理関係では `principal` が権限の源となる。米国の一般的な代理法の説明では、代理人は本人のために、かつ本人の支配の下で行動する。具体的な成立要件は適用法によって異なり得る。  "
+      },
+      "severity": "blocking",
+      "rationale": "C-006 の F-004/F-020/F-023 は、権限付与、本人のための行動、権限の源、ならびに Wex の米国法説明における本人の支配を直接支持する。一方、これらの固定 fact は代理関係の具体的成立要件が適用法によって異なるという比較法・法域差の主張を記録していない。米国法資料への限定から、記録のない法域差を推論している。",
+      "evidence_link_ids": [
+        "C-006"
+      ],
+      "suggested_direction": "末尾の成立要件・適用法に関する一文を削除して authority・behalf・control の範囲に限定するか、成立要件の法域差を直接扱う固定専門資料に差し替える。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 257,
+        "line_end": 257,
+        "exact_quote": "【語法・注意】法律用語の `principal` は「重要人物」という一般義だけでなく、`agent` に対する特定の関係上の役割名である。`client` はサービスを受ける顧客・依頼人を広く指すが、必ずしも代理権を与える法律上の本人ではない。`the principal's agent` は「本人の代理人」であり、「校長の代理人」と決めつけない。  "
+      },
+      "severity": "blocking",
+      "rationale": "改訂後は C-006 が usage_note:005 を対象に含むが、その F-004/F-020/F-023 は principal と agent の権限関係だけを記録している。client の意味範囲、client と agency-law principal が一致しない場合があること、また principal's agent の文脈解釈は固定 facts のいずれにも直接記録されておらず、この usage note 全体を C-006 の根拠へ結び付けることはできない。",
+      "evidence_link_ids": [
+        "C-006"
+      ],
+      "suggested_direction": "usage note を固定 facts が支える principal-agent の役割対比に限定するか、client との対比と所有格句の解釈を直接扱う固定辞書 fact を追加して claim unit を分ける。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 337,
+        "line_end": 337,
+        "exact_quote": "【語法・注意】この語義では、`principal` は `be liable as principal` のように人・法人を指す名詞である。`principal debtor` や `principal obligor` では語義1の形容詞が `debtor`・`obligor` を修飾するため、名詞単独の構造と区別する。また、金額を指す語義4の「元金」とも区別する。  "
+      },
+      "severity": "blocking",
+      "rationale": "C-008 の F-006/F-022/F-026 は principal が義務について第一次的に責任を負う当事者を指し、surety/guarantor と対比されることを支持するが、principal debtor/principal obligor における principal の品詞解析や、それを語義1の形容詞と同定する主張を直接記録していない。C-001 も一般的な重要度の形容詞義のみで、この専門的複合句の統語・語義区分を裏づけない。",
+      "evidence_link_ids": [
+        "C-008",
+        "C-001"
+      ],
+      "suggested_direction": "語義7を金額義と区別し、第一次的責任者を指す名詞であるという既存 facts の範囲に限定するか、principal debtor/principal obligor の品詞と用法を直接示す固定辞書・専門資料に差し替える。"
+    }
+  ],
+  "unrouted_observations": []
+}

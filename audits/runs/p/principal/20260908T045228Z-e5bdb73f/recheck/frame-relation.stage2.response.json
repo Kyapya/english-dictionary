@@ -1,0 +1,107 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "cdfd31b9e0407f51f99397eda23de6ad98b0113bd74d922527ec37125ae83694",
+  "stage2_request_sha256": "bde004be192ed8f7c42e4869375e8dd6d0c04b7314464b8e6fa2352d2e40117f",
+  "blind_record_sha256": "46a4631329c5f3cca009aa8bc57ca3e1133055566877fee41ee0cef7cea57550",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-fresh2-frame-relation-recheck1"
+  },
+  "adjudications": [
+    {
+      "item_id": "ant-7a5355b6c049",
+      "flags": [],
+      "rationale": "`principal` の最重要・高順位と `secondary` の二次的重要性は、当該語義の定義から重要度の程度対立として直接導出でき、違い行も対立を否定または限定していない。",
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-f5f13e9b951b",
+      "flags": [],
+      "rationale": "`principal` の高い重要性と `minor` の比較的小さい重要性は、当該語義に属する重要度の程度対立であり、違い行に自己否定はない。",
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-7477e18058ee",
+      "flags": [],
+      "rationale": "権限を与える `principal` と、その権限で本人のために行動する `agent` は、当該定義に明示された同一代理関係内の補完的役割であり、違い行も対立の不成立を示していない。",
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-28424ac40a56",
+      "flags": [],
+      "rationale": "第一次的に責任を負う `principal` と、不履行時に保証責任を負う `surety` は、当該債務・保証語義から導出できる責任順位上の補完対立であり、違い行にも自己否定はない。",
+      "f4_severity": null
+    }
+  ],
+  "frame_findings": [
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 134,
+        "line_end": 134,
+        "exact_quote": "【文法パターン】可算名詞として、組織上の権限・地位を持つ人を指す。教育文脈では学校・カレッジなどの長を表す役職名として用いる。  "
+      },
+      "severity": "blocking",
+      "rationale": "これは用法説明であって完全な統語フレームではなく、後続の `the principal of 〈限定詞を含む学校・教育機関の名詞句〉`、`a school principal`、`a college principal` の構造とスロットを列挙していない。また定義・パターンが許す教育以外の組織上の principal には対応コロケーションもないため、主要構文とコロケーションを一対一に照合できない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "後続三コロケーションを完全フレームとして明記し、教育以外の組織用法を維持するなら、その名詞フレームと実例も追加する。"
+    },
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 172,
+        "line_end": 172,
+        "exact_quote": "【文法パターン】可算名詞として、舞台芸術・音楽で確立した主要演者や首席奏者の役割を表す。  "
+      },
+      "severity": "blocking",
+      "rationale": "可算名詞という宣言だけで、団体を所有格・`of`・`with` などのどの構造で結び付けるかが示されていない。唯一のコロケーションはオーケストラの所有格フレームだけで、定義が追加した舞台芸術の主要演者を実現する構文・例文がない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "オーケストラ用法の `one of the orchestra's principals` と、舞台芸術用法を維持する場合の完全な名詞フレームをそれぞれ明示し、対応例を置く。"
+    },
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 200,
+        "line_end": 200,
+        "exact_quote": "【文法パターン】金融では利息・収益の基礎となる金額を、信託法では収益と区別される財産本体を表す名詞として用いる。  "
+      },
+      "severity": "blocking",
+      "rationale": "意味領域の説明だけで、金融用法の `principal and interest`、`pay down/protect/repay principal` という各完全フレームを示していない。さらに新たに含めた信託元本用法には対応する文法パターン・コロケーション・例文が一つもなく、二領域の名詞スロットと項役割を照合できない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "金融の各主要構文を完全フレームとして列挙し、信託用法を維持するなら `principal` と `income` を区別する実在フレームおよび対応例を追加する。"
+    },
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 285,
+        "line_end": 285,
+        "exact_quote": "【文法パターン】刑事法で可算名詞として用い、犯罪関与者を適用される法的分類に従って指す。  "
+      },
+      "severity": "blocking",
+      "rationale": "この記述は後続の主要構文 `a principal in a crime` と `treat someone as a principal` を示さず、前者の犯罪を表す `in` 補部と後者の人目的語・`as` 補語を区別していないため、項と意味役割を例文へ一対一に対応付けられない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "`a principal in 〈犯罪〉` と `treat 〈人〉 as a principal` を別々の完全フレームとして明記する。"
+    },
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 318,
+        "line_end": 318,
+        "exact_quote": "【文法パターン】可算名詞として、保証人・`surety`・`guarantor` と対比される第一次的責任者を指す。  "
+      },
+      "severity": "blocking",
+      "rationale": "意味役割の説明だけで、後続の `be liable as principal`、`the obligation of the principal`、`the principal and the surety` という三つの異なる構造を示していない。とくに `as` 補語、`of` 所有関係、等位構造の差が文法パターンから復元できず、主要構文とコロケーションの相互対応が欠けている。",
+      "evidence_link_ids": [],
+      "suggested_direction": "後続三項目をそれぞれ完全フレームとして文法パターンに明記する。"
+    }
+  ],
+  "unrouted_observations": []
+}

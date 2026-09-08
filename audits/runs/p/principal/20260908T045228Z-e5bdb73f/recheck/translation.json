@@ -1,0 +1,24 @@
+{
+  "pass_id": "translation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-cycle2-recheck-translation-1"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 324,
+        "line_end": 325,
+        "exact_quote": "例: Under the agreement, the company remains liable as principal for the debt, while the guarantor is only secondarily liable.  \n訳: その契約の下で、会社はその債務について主たる当事者として責任を負い、保証人は二次的にのみ責任を負う。  "
+      },
+      "severity": "blocking",
+      "rationale": "英文の `remains liable` は会社の第一次的責任が引き続き存続することを明示しているが、訳文の「責任を負い」は継続相を落とし、単に責任を負うという一般的状態に弱めている。保証人との責任順位の対比は保存されているものの、時相・継続性が一致していない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「会社はその債務について主たる当事者として引き続き責任を負い」のように、`remains` の継続性を訳に残す。"
+    }
+  ]
+}

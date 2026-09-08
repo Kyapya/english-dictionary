@@ -1,0 +1,131 @@
+{
+  "schema_version": "checker_recheck_resolutions_v1",
+  "stage": "checker_recheck_resolution",
+  "run_id": "20260908T045228Z-e5bdb73f",
+  "input_body_sha256": "cdfd31b9e0407f51f99397eda23de6ad98b0113bd74d922527ec37125ae83694",
+  "resolved_body_sha256": "c248d0720ab4d77bd1b783bb179af32632c7d790b95da43621c684feb1d3d035",
+  "recorded_at": "2026-09-08T06:44:00Z",
+  "resolutions": [
+    {
+      "id": "recheck-translation-001",
+      "finding_id": "recheck-translation-001",
+      "origin_pass": "translation",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The English example explicitly uses remains liable, so the Japanese translation must preserve the continuing state.",
+      "required_changes": ["Preserve the continuative meaning of remains liable."],
+      "implemented_changes": ["Added 引き続き to the Japanese translation."],
+      "resolved_body_sha256": "c248d0720ab4d77bd1b783bb179af32632c7d790b95da43621c684feb1d3d035"
+    },
+    {
+      "id": "recheck-frame-relation-001",
+      "finding_id": "recheck-frame-relation-001",
+      "origin_pass": "frame-relation",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Sense 2's prose label did not expose the complement and noun-compound structures used by its examples.",
+      "required_changes": ["State the three attested education-head noun frames explicitly and avoid an uncovered general-organization realization."],
+      "implemented_changes": ["Narrowed sense 2 to education heads and listed the principal of, school principal, and college principal frames."],
+      "resolved_body_sha256": "c248d0720ab4d77bd1b783bb179af32632c7d790b95da43621c684feb1d3d035"
+    },
+    {
+      "id": "recheck-frame-relation-002",
+      "finding_id": "recheck-frame-relation-002",
+      "origin_pass": "frame-relation",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Sense 3 had no complete realization for the broader performer wording; the fixed inventory directly supports the orchestral role realized by the existing example.",
+      "required_changes": ["Limit the entry to the directly supported orchestral realization and state its complete noun frame."],
+      "implemented_changes": ["Narrowed sense 3 to orchestral section principals and added one of + orchestra possessive + principals."],
+      "resolved_body_sha256": "c248d0720ab4d77bd1b783bb179af32632c7d790b95da43621c684feb1d3d035"
+    },
+    {
+      "id": "recheck-frame-relation-003",
+      "finding_id": "recheck-frame-relation-003",
+      "origin_pass": "frame-relation",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The finance and trust facts directly support the principal-interest and principal-income contrasts, while the prior grammar line did not expose their syntax.",
+      "required_changes": ["List the covered finance frames and a complete trust principal-income frame."],
+      "implemented_changes": ["Added principal and interest, transitive principal-payment/protection frames, and distinguish principal from income with a matching example."],
+      "resolved_body_sha256": "c248d0720ab4d77bd1b783bb179af32632c7d790b95da43621c684feb1d3d035"
+    },
+    {
+      "id": "recheck-frame-relation-004",
+      "finding_id": "recheck-frame-relation-004",
+      "origin_pass": "frame-relation",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The criminal-law examples realize distinct in-complement and object-plus-as-complement frames.",
+      "required_changes": ["State both complete criminal-law frames separately."],
+      "implemented_changes": ["Added a principal in a crime and treat a person as a principal frames."],
+      "resolved_body_sha256": "c248d0720ab4d77bd1b783bb179af32632c7d790b95da43621c684feb1d3d035"
+    },
+    {
+      "id": "recheck-frame-relation-005",
+      "finding_id": "recheck-frame-relation-005",
+      "origin_pass": "frame-relation",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The obligation-law examples use an as-complement, an of-genitive, and coordination, none of which was recoverable from the old prose-only grammar line.",
+      "required_changes": ["List the three covered obligation-law structures explicitly."],
+      "implemented_changes": ["Added be/remain liable as principal for, the obligation of the principal, and the principal and the surety."],
+      "resolved_body_sha256": "c248d0720ab4d77bd1b783bb179af32632c7d790b95da43621c684feb1d3d035"
+    },
+    {
+      "id": "recheck-evidence-001",
+      "finding_id": "recheck-evidence-001",
+      "origin_pass": "evidence",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The fixed facts support principal's own etymology and the modern principal-principle distinction, but not the asserted cognate relationships.",
+      "required_changes": ["Remove the unsupported prince, principality, and same-Latin-family claims."],
+      "implemented_changes": ["Removed the unsupported etymology sentence; retained the independently supported modern distinction in usage notes."],
+      "resolved_body_sha256": "c248d0720ab4d77bd1b783bb179af32632c7d790b95da43621c684feb1d3d035"
+    },
+    {
+      "id": "recheck-evidence-002",
+      "finding_id": "recheck-evidence-002",
+      "origin_pass": "evidence",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "No fixed fact establishes principal place of business as a conventional legal term or supports the asserted jurisdictional variation.",
+      "required_changes": ["Remove the unsupported specialist collocation block."],
+      "implemented_changes": ["Removed principal place of business and its unsupported legal qualification."],
+      "resolved_body_sha256": "c248d0720ab4d77bd1b783bb179af32632c7d790b95da43621c684feb1d3d035"
+    },
+    {
+      "id": "recheck-evidence-003",
+      "finding_id": "recheck-evidence-003",
+      "origin_pass": "evidence",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The agency facts support authority, acting on behalf, and control, but do not establish comparative-law variation in formation requirements.",
+      "required_changes": ["Delete the unsupported applicable-law sentence."],
+      "implemented_changes": ["Removed the sentence about formation requirements varying by applicable law."],
+      "resolved_body_sha256": "c248d0720ab4d77bd1b783bb179af32632c7d790b95da43621c684feb1d3d035"
+    },
+    {
+      "id": "recheck-evidence-004",
+      "finding_id": "recheck-evidence-004",
+      "origin_pass": "evidence",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The fixed agency facts do not support the client comparison or the contextual interpretation claim about the principal's agent.",
+      "required_changes": ["Limit the note to the directly supported principal-agent authority relationship."],
+      "implemented_changes": ["Removed the client and possessive-phrase claims and retained only authority-source and behalf/control distinctions."],
+      "resolved_body_sha256": "c248d0720ab4d77bd1b783bb179af32632c7d790b95da43621c684feb1d3d035"
+    },
+    {
+      "id": "recheck-evidence-005",
+      "finding_id": "recheck-evidence-005",
+      "origin_pass": "evidence",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The obligation facts support the noun role and its distinction from financial principal, but not the asserted part-of-speech analysis of principal debtor or principal obligor.",
+      "required_changes": ["Remove the unsupported compound-analysis claim."],
+      "implemented_changes": ["Removed the principal debtor/principal obligor analysis and retained the supported noun-role and finance-sense distinction."],
+      "resolved_body_sha256": "c248d0720ab4d77bd1b783bb179af32632c7d790b95da43621c684feb1d3d035"
+    }
+  ]
+}
