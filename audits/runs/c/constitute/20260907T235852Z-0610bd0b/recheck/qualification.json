@@ -1,0 +1,26 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "qualification",
+  "input_body_sha256": "73e6d5431e01d7f456008a0ba8fee3c6e1e8f2692b6714d2e53e68ddf71a04d0",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "constitute-recheck-qualification-1"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "regional_qualification",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 44,
+        "line_end": 44,
+        "exact_quote": "【頻度】〈8/10〉"
+      },
+      "severity": "minor",
+      "rationale": "語義1と語義2をともに8/10、語義3を5/10とする数値は、英語全体での遭遇頻度を示す尺度・コーパス範囲・語義別根拠が入力資料に示されていない。入力の頻度・レジスター根拠は主として formal、usually passive、archaic などの用域情報であり、この数値評価、とりわけ日常会話では代替表現の方が一般的とされる語の各語義を高頻度とする評価を裏づけない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "英語変種とジャンルを横断するコーパス等に基づいて10段階尺度と語義別頻度を再較正する。数値を裏づけられない場合は、頻度を定性的に示し、書き言葉・報道・学術・法律などでの偏りと日常会話での低さを分けて述べる。"
+    }
+  ]
+}

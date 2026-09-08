@@ -3,7 +3,7 @@
   "stage": "source_inventory",
   "run_id": "20260907T235852Z-0610bd0b",
   "context_id": "source-constitute-20260907T235852Z-0610bd0b",
-  "input_body_sha256": "bc5fd320a4e6026bd4209c99c588e7f87029232f85f6c73b9b166ce053d5b6f1",
+  "input_body_sha256": "438440ad672a2ee1a035ade560c75d44d526b4a396bcd3f2706cda02c2ae9d93",
   "prompt_sha256": "9b098479af4d18acf89543a2b62c81ed21f99aac429743bed1aa2b0c489864dd",
   "recorded_at": "2026-09-08T00:12:10Z",
   "input_artifacts": [
@@ -26,7 +26,7 @@
       "sources_used": 7,
       "facts_used": 26,
       "research_rounds_used": 2,
-      "post_cold_rechecks_used": 0,
+      "post_cold_rechecks_used": 1,
       "final_attempts_used": 0
     },
     "research_status": "complete",
@@ -160,7 +160,7 @@
     ],
     "source_union": [
       {"id": "U001", "source_fact_ids": ["F001", "F009"], "canonical_statement": "Constitute has first-syllable primary stress, with UK /ɒ/ and /tjuːt/ and common US /ɑː/ and /tuːt/ realizations.", "disposition": "included", "rationale": "The pronunciation section records the regionally differentiated forms."},
-      {"id": "U002", "source_fact_ids": ["F002"], "canonical_statement": "Constituted and constituting are the principal inflected forms of the transitive verb constitute.", "disposition": "included", "rationale": "Inflections and their pronunciation are taught explicitly."},
+      {"id": "U002", "source_fact_ids": ["F002"], "canonical_statement": "Constituted and constituting are listed as inflected forms of the transitive verb constitute.", "disposition": "excluded", "rationale": "The selected locator lists the forms but does not atomically label each grammatical function, so the article omits the bundled inflection claim."},
       {"id": "U003", "source_fact_ids": ["F003", "F011", "F017"], "canonical_statement": "Parts, members, or a category constitute a whole or a share of it in the parts-to-whole sense.", "disposition": "included", "rationale": "Sense 1 and its central frames directly express this well-attested relation."},
       {"id": "U004", "source_fact_ids": ["F007", "F010"], "canonical_statement": "An act, fact, or situation constitutes a category when it qualifies as or can be regarded as that category.", "disposition": "included", "rationale": "Sense 2 separates this linking-like classification meaning from composition."},
       {"id": "U005", "source_fact_ids": ["F004", "F012", "F016", "F018"], "canonical_statement": "Constitute formally establishes and authorizes an institution, committee, government, court, or similar body.", "disposition": "included", "rationale": "Sense 3 covers formal institutional establishment and its passive realization."},
@@ -182,10 +182,6 @@
           {"source_fact_id": "F001", "support_summary": "Merriam-Webster directly records the American stressed form and /tuːt/ or /tjuːt/ variation."},
           {"source_fact_id": "F009", "support_summary": "Collins independently contrasts British /ɒ, tjuːt/ with the common American /tuːt/ ending."}
         ]
-      },
-      {
-        "id": "C002", "union_ids": ["U002"], "subject_form": "constituted", "claim_type": "derived_form", "statement": "Constituted and constituting are regular inflected forms of constitute.", "article_target_ids": ["pronunciation:002", "word_formation:001"],
-        "source_supports": [{"source_fact_id": "F002", "support_summary": "Merriam-Webster explicitly lists constituted and constituting as the verb's inflected forms."}]
       },
       {
         "id": "C003", "union_ids": ["U003"], "subject_form": "constitute", "claim_type": "sense", "statement": "Parts or members constitute a whole, and a category may constitute a stated share of the whole.", "article_target_ids": ["definition:001", "grammar_pattern:001", "grammar_pattern:002"],

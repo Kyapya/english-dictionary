@@ -1,0 +1,34 @@
+{
+  "schema_version": "checker_recheck_revision_v1",
+  "input_body_sha256": "73e6d5431e01d7f456008a0ba8fee3c6e1e8f2692b6714d2e53e68ddf71a04d0",
+  "output_body_sha256": "438440ad672a2ee1a035ade560c75d44d526b4a396bcd3f2706cda02c2ae9d93",
+  "recorded_at": "2026-09-08T02:02:10.002481Z",
+  "changed_units": [
+    "word_formation"
+  ],
+  "body_invalidated_passes": [
+    "evidence",
+    "qualification",
+    "sense-structure"
+  ],
+  "source_binding_changed": true,
+  "before_source_artifact_sha256": "457f711c7ff2a833b3fcbf5e2b3e306a94e449aea2cb965d3c21b26ac281ab35",
+  "after_source_artifact_sha256": "2d6fe01d0b3a63b9eda58b793bb47263f975256b88868c2417fa0194ff0bc8d3",
+  "source_binding_changes": [
+    "U002 disposition changed from included to excluded.",
+    "C002 article claim removed.",
+    "post_cold_rechecks_used recorded as 1 for the completed first recheck round."
+  ],
+  "effective_invalidated_passes": [
+    "evidence",
+    "example-attribution",
+    "frame-relation",
+    "pronunciation",
+    "qualification",
+    "sense-structure",
+    "translation"
+  ],
+  "reusable_passes": [],
+  "invalidation_rationale": "The word_formation edit invalidates sense-structure, qualification, and evidence. Because the source-first artifact hash also changed, every prior result has a stale source_artifact_sha256 under the final audit binding rule, so all seven passes require fresh requests after publication.",
+  "publication_required": true
+}
