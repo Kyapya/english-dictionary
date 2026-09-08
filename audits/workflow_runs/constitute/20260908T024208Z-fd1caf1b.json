@@ -17,12 +17,12 @@
     "research_queries": 0,
     "candidate_pages": 0
   },
-  "status": "in_progress",
-  "stage": "blind_seal_complete",
+  "status": "completed",
+  "stage": "completed",
   "started_at": "2026-09-08T02:42:08Z",
   "deadline_at": "2026-09-08T04:12:08Z",
   "pre_draft_deadline_at": "2026-09-08T03:12:08Z",
-  "last_heartbeat_at": "2026-09-08T04:21:31Z",
+  "last_heartbeat_at": "2026-09-08T04:55:49Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-08T02:45:21Z",
@@ -63,6 +63,16 @@
       "stage": "blind_seal_complete",
       "recorded_at": "2026-09-08T04:21:19Z",
       "notes": "orchestrator completed blind_seal"
+    },
+    {
+      "stage": "final_review_complete",
+      "recorded_at": "2026-09-08T04:53:05Z",
+      "notes": "orchestrator completed final_review"
+    },
+    {
+      "stage": "completed",
+      "recorded_at": "2026-09-08T04:55:48Z",
+      "notes": "orchestrator completed export"
     }
   ],
   "stop_reason": "",
@@ -624,6 +634,15 @@
         ],
         "receipt_event_id": "workflow:20260908T024208Z-fd1caf1b:pre_blind_resolution:9fa686c04c5f",
         "recorded_at": "2026-09-08T03:44:50Z"
+      },
+      "post_blind_resolution": {
+        "status": "save_error",
+        "source_refs": [
+          "audits/runs/c/constitute/20260908T024208Z-fd1caf1b/post_blind_resolution.json",
+          "audits/runs/c/constitute/20260908T024208Z-fd1caf1b/resolutions.json"
+        ],
+        "reason": "multiple learning_delta payloads found for one stage",
+        "recorded_at": "2026-09-08T04:55:49Z"
       }
     },
     "pending_events": [],
@@ -633,8 +652,8 @@
     "schema_version": "workflow_cost_v1",
     "total_cycles": 1,
     "total_revisions": 1,
-    "total_duration_seconds": 0.0,
-    "completed_at": "",
+    "total_duration_seconds": 8020.995156,
+    "completed_at": "2026-09-08T04:55:48Z",
     "stages": [
       {
         "id": "guard_start",
@@ -720,38 +739,38 @@
       {
         "id": "post_blind_resolution",
         "instruction_bytes": 5411,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
-        "defects_detected": 0,
+        "input_bytes": 76101,
+        "duration_seconds": 300.0,
+        "defects_detected": 1,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "final_review",
         "instruction_bytes": 4597,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 299059,
+        "duration_seconds": 756.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "status_update",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 85029,
+        "duration_seconds": 60.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "export",
         "instruction_bytes": 0,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 2.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       }
     ],
     "checker_passes": [
@@ -820,7 +839,7 @@
     }
   },
   "orchestrator_state": {
-    "next_stage_index": 9,
+    "next_stage_index": 13,
     "completed_stages": [
       "guard_start",
       "generation",
@@ -830,7 +849,11 @@
       "pre_blind_resolution",
       "checker_recheck",
       "final_blind",
-      "blind_seal"
+      "blind_seal",
+      "post_blind_resolution",
+      "final_review",
+      "status_update",
+      "export"
     ],
     "stage_outputs": {
       "generation": [
@@ -860,6 +883,24 @@
       ],
       "blind_seal": [
         "audits/runs/c/constitute/20260908T024208Z-fd1caf1b/blind_seal.json"
+      ],
+      "post_blind_resolution": [
+        "audits/runs/c/constitute/20260908T024208Z-fd1caf1b/post_blind_resolution.json",
+        "audits/runs/c/constitute/20260908T024208Z-fd1caf1b/post_blind_verification.json",
+        "audits/runs/c/constitute/20260908T024208Z-fd1caf1b/resolutions.json"
+      ],
+      "final_review": [
+        "audits/runs/c/constitute/20260908T024208Z-fd1caf1b/final_review.json",
+        "audits/c/constitute.json"
+      ],
+      "status_update": [
+        "entries/c/constitute.md",
+        "queue/words.csv",
+        "audits/runs/c/constitute/20260908T024208Z-fd1caf1b/status_update.json"
+      ],
+      "export": [
+        "exports/dictionary_all.md",
+        "exports/dictionary_index.csv"
       ]
     }
   },

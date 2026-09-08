@@ -1,16 +1,77 @@
 {
-  "schema_version": "source_inventory_v2",
-  "stage": "source_inventory",
-  "run_id": "20260908T024208Z-fd1caf1b",
-  "context_id": "source-constitute-20260908T024208Z-fd1caf1b",
-  "input_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d",
-  "prompt_sha256": "9b098479af4d18acf89543a2b62c81ed21f99aac429743bed1aa2b0c489864dd",
-  "recorded_at": "2026-09-08T02:59:08.052546Z",
-  "input_artifacts": [
-    "headword",
-    "source_first_spec"
-  ],
-  "headword": "constitute",
+  "schema_version": "content_audit_v4",
+  "generated_by": "generate_audit_manifest_v1",
+  "entry_path": "entries/c/constitute.md",
+  "cycle_id": "20260908T024208Z-fd1caf1b",
+  "cycle_dir": "audits/runs/c/constitute/20260908T024208Z-fd1caf1b",
+  "body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d",
+  "raw_outputs": {
+    "source_inventory": {
+      "path": "audits/runs/c/constitute/20260908T024208Z-fd1caf1b/source_inventory.json",
+      "sha256": "feb88c9d89dbe5e282f1db5bdd213ba1d2d91b174409d58781eadf2a1f19b44b",
+      "stage": "source_inventory",
+      "run_id": "20260908T024208Z-fd1caf1b",
+      "context_id": "source-constitute-20260908T024208Z-fd1caf1b",
+      "input_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d",
+      "prompt_sha256": "9b098479af4d18acf89543a2b62c81ed21f99aac429743bed1aa2b0c489864dd",
+      "recorded_at": "2026-09-08T02:59:08.052546Z"
+    },
+    "normal_review": {
+      "path": "audits/runs/c/constitute/20260908T024208Z-fd1caf1b/pass_findings.json",
+      "sha256": "7bd6383618cff085179a0d06094a3cae9ce04594a1c9f574b15ba0b98ada4548",
+      "stage": "normal_review",
+      "run_id": "normal-constitute-20260908T024208Z-fd1caf1b",
+      "context_id": "normal-constitute-context-20260908T024208Z-fd1caf1b",
+      "input_body_sha256": "341958940f8496856aeb8c0cfff9a4664b95d91d5ad66bc5a5a5e04c11689389",
+      "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
+      "recorded_at": "2026-09-08T03:18:09.145725+00:00"
+    },
+    "cold_review": {
+      "path": "audits/runs/c/constitute/20260908T024208Z-fd1caf1b/cold_review.json",
+      "sha256": "25640520be865f6272c68396a6751392d3204d08d7369df273adf3ec65558ce2",
+      "stage": "cold_review",
+      "run_id": "cold-constitute-20260908T024208Z-fd1caf1b",
+      "context_id": "cold-constitute-context-20260908T024208Z-fd1caf1b",
+      "input_body_sha256": "341958940f8496856aeb8c0cfff9a4664b95d91d5ad66bc5a5a5e04c11689389",
+      "prompt_sha256": "25c298d1a4305746147791bd442cd725a92737c8f0802b992ea88e5c6ff76a5d",
+      "recorded_at": "2026-09-08T03:25:44.325298+00:00"
+    },
+    "resolutions": {
+      "path": "audits/runs/c/constitute/20260908T024208Z-fd1caf1b/resolutions.json",
+      "sha256": "3222a1cec6f7803574078362b10888ae921d8b2c9e6e7b4bf95b2fb9867fb646",
+      "stage": "resolutions",
+      "run_id": "resolution-constitute-20260908T024208Z-fd1caf1b",
+      "context_id": "resolution-constitute-context-20260908T024208Z-fd1caf1b",
+      "input_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d",
+      "prompt_sha256": "7dfcaa0a828a334dbb84d1d31ed97312d0a9661a7aca70a7815a9f88b31ea2f1",
+      "recorded_at": "2026-09-08T04:30:03Z"
+    },
+    "final_blind": {
+      "path": "audits/runs/c/constitute/20260908T024208Z-fd1caf1b/final_blind.json",
+      "sha256": "dd3b59cc2c2c68157bd84d96e995017bc6f8806e4232ba100bb8db71b8ec49d1",
+      "stage": "final_blind",
+      "run_id": "blind-constitute-20260908T024208Z-fd1caf1b",
+      "context_id": "blind-constitute-context-20260908T024208Z-fd1caf1b",
+      "input_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d",
+      "prompt_sha256": "3a481b4b5b1236ff386e148bcacc574570b305e79f5e155e9afcd34091f7785c",
+      "recorded_at": "2026-09-08T04:18:57.569127+00:00"
+    },
+    "blind_seal": {
+      "path": "audits/runs/c/constitute/20260908T024208Z-fd1caf1b/blind_seal.json",
+      "sha256": "ab27784813fcdc8841adcbc2188c535ff44cb1967b8d37245132b59205f2304d",
+      "stage": "blind_seal"
+    },
+    "final_review": {
+      "path": "audits/runs/c/constitute/20260908T024208Z-fd1caf1b/final_review.json",
+      "sha256": "e19da38a39cdf1d8926569ab9c363f028ff1964539a06b5b2167b0669106ddbe",
+      "stage": "final_review",
+      "run_id": "blind-constitute-20260908T024208Z-fd1caf1b",
+      "context_id": "blind-constitute-context-20260908T024208Z-fd1caf1b",
+      "input_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d",
+      "prompt_sha256": "5fa21ad0e8186e05e00c459e6201d7062a5d550a003831b40e182ba27c7a625a",
+      "recorded_at": "2026-09-08T04:52:23.179800+00:00"
+    }
+  },
   "source_first_audit": {
     "version": "source_first_audit_v2",
     "profile": "extended",
@@ -807,6 +868,205 @@
       }
     ]
   },
-  "evidence_link_ids": [],
-  "reused_from": "audits/runs/c/constitute/20260907T235852Z-0610bd0b/source_inventory.json"
+  "findings": [
+    {
+      "id": "normal-translation-001",
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 107,
+        "line_end": 107,
+        "exact_quote": "違い: 割合の用法では近いが、account for は「全体のうちどれだけを説明・占有するか」に焦点がある。constitute は割合だけでなく、部分が全体そのものを形作る関係にも使える。  "
+      },
+      "severity": "minor",
+      "rationale": "この割合用法で必要なのは「全体のうちどれだけを占めるか」という数量関係だが、「占有する」は物や権利を所有・占拠する意味に寄り、直後の割合例が示す意味と日本語の述語が局所的にずれる。部分と全体の方向自体は逆転していない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「全体のうちどれだけを説明できるか・占めるか」のように、数量的な割合を表す「占める」へ直す。",
+      "origin": "check_pass:translation"
+    },
+    {
+      "id": "normal-sense-structure-001",
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 190,
+        "line_end": 190,
+        "exact_quote": "【日本語訳・定義】組織、委員会、裁判所、政府などを正式に形成・設置し、公式の組織体として成立させることを表す。制度や文脈によって所定の手続きや権限付与を伴うことはあるが、constitute という語だけで法的有効性や実際の活動可能性まで一律に保証するわけではない。  "
+      },
+      "severity": "blocking",
+      "rationale": "語義3の境界が「組織体を設立する」に限定されているため、法的用法の constitute an agreement（契約・合意を所定の形式に整える）に収録先がない。これは単なる対象分野の違いではなく、既存の設立フレームとは目的語の意味タイプと結果状態が異なる使役的な法的形式化であり、現行の定義・文法パターン・コアイメージ第3枝はいずれも agreement を「公式の組織体」として扱えない。",
+      "evidence_link_ids": [
+        "F005"
+      ],
+      "suggested_direction": "語義3を「組織・会議体を正式に成立させる／契約などを所定の法的形式に整える」まで明示的に拡張し、対応する目的語と構文を追加する。両フレームを一つの簡潔な定義で扱えない場合は、法的形式化を独立した語義として分割し、コアイメージにも対応枝を設ける。",
+      "origin": "check_pass:sense-structure"
+    },
+    {
+      "id": "normal-qualification-001",
+      "taxonomy_id": "absolute_scope_counterexample",
+      "location": {
+        "section": "word_formation",
+        "line_start": 26,
+        "line_end": 26,
+        "exact_quote": "`constituent` — 名詞「構成要素、選挙区民」、形容詞「構成する」。政治の「選挙区民」は constitute の目的語ではなく、代表者を選ぶ constituency の構成員を指す。  "
+      },
+      "severity": "blocking",
+      "rationale": "「選挙区民」は constitute の目的語ではない、という無限定の統語的主張には反例がある。たとえば `These voters constitute the senator's constituents.` では政治義の constituents が constitute の直接目的語になる。ここで説明すべきなのは constituent の語義・名称が『constitute の目的語』という関係から定義されるのではないことだが、現状の文は実際の文中で目的語にできないという禁止にも読め、誤った一般化を生む。",
+      "evidence_link_ids": [],
+      "suggested_direction": "絶対的な構文制約を削除し、「政治義の constituent は『constitute の目的語』を意味する名称ではなく、constituency の構成員を指す」のように語形成上の関係だけへ限定する。",
+      "origin": "check_pass:qualification"
+    },
+    {
+      "id": "normal-evidence-001",
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "pronunciation",
+        "line_start": 15,
+        "line_end": 15,
+        "exact_quote": "米: /ˈkɑːnstəˌtuːt/｜英: /ˈkɒnstɪˌtjuːt/。3音節で、第1音節に主強勢、第3音節に第二強勢がある。米音では第1音節の母音が /ɑː/、第2音節が弱い /stə/、第3音節の初めが /t/ となる。英音では第1音節が /ɒ/、第2音節が /stɪ/、第3音節が /tjuːt/ となる。"
+      },
+      "severity": "blocking",
+      "rationale": "C001 の F001 は米音の語末について /tuːt/ と /tjuːt/ の両方を記録し、F009 の根拠詳細も英音 /tjuːt/ に対して米音では一般的に /tuːt/ と限定している。本文は米音全般を単一の /tuːt/（第3音節初頭 /t/）として無限定に提示しており、引用根拠が示す米音 /tjuːt/ の変異を反映していない。",
+      "evidence_link_ids": [
+        "C001"
+      ],
+      "suggested_direction": "米音を『一般に /tuːt/』と限定し、/tjuːt/ も米音の変異として認められる旨を添えるか、米音を一つの代表形だけ示す表示だと明示する。",
+      "origin": "check_pass:evidence"
+    },
+    {
+      "id": "cold-constitute-001",
+      "location": "語義1「構成する、（全体の一定割合を）占める」の日本語訳・定義／文法パターン",
+      "severity": "low",
+      "description": "割合を表す constitute の構文で、全体を示す of 句が常に明示されるかのように一般化している。",
+      "reason": "「一方、割合・部分量を示す構文では、目的語が割合・部分量となり、全体は of 句に現れる。」という説明は、完全な形の構造説明としては有用だが、全体が文脈から回収できる場合の省略を扱っていない。たとえば、直前に対象集団が示されていれば `Women constitute 45 percent.` や `Part-time staff constitute the majority.` のように of 句なしでも自然に言える。このままだと、学習者が of 句を必須要素だと誤って一般化する可能性がある。",
+      "suggested_direction": "全体は通常 `of ...` で示すが、文脈上明らかな場合は `constitute 45 percent` や `constitute the majority` のように省略できる、と補足する。文法パターンにも of 句を任意にできる表記または省略例を加える。",
+      "scope_anchors": [
+        {
+          "id": "anchor-constitute-001-a",
+          "exact_quote": "一方、割合・部分量を示す構文では、目的語が割合・部分量となり、全体は of 句に現れる。",
+          "location_hint": "語義1の【日本語訳・定義】第2文"
+        },
+        {
+          "id": "anchor-constitute-001-b",
+          "exact_quote": "`〈group/category〉 constitute 〈割合〉 of 〈whole〉`＝集団・分類が全体の一定割合を占める",
+          "location_hint": "語義1の【文法パターン】中央"
+        }
+      ],
+      "origin": "cold_review"
+    },
+    {
+      "id": "AF-01",
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 196,
+        "line_end": 196,
+        "exact_quote": "`constitute 〈agreement/body〉`＝契約・組織体に所定の法的形式を与える"
+      },
+      "severity": "blocking",
+      "rationale": "「`constitute 〈agreement/body〉`＝契約・組織体に所定の法的形式を与える」は、正当な組織設立フレームと、agreement を目的語にする別の意味関係を一括している。さらに「法律文脈の `constitute an agreement/body` は、契約や組織体に必要な法的形式を与える意味になり得る。」と反復しているが、通常の constitute an agreement/contract は、言動・文書・条項などが合意・契約に「当たる／それを成す」という語義2の分類・成立条件フレームである。authority/parties が agreement を目的語に取って法的形式を付与するという使役的フレームを、constitute a body から一般化して教えるのは語義混入であり、学習者に不自然な産出を促すため修正が必要である。agreement/contract は語義2側へ再分類し、語義3は committee/body/court/government など公式に成立させる対象に限定すべきである。",
+      "scope_anchors": [
+        {
+          "id": "AF-01-S1",
+          "exact_quote": "`constitute 〈agreement/body〉`＝契約・組織体に所定の法的形式を与える",
+          "location_hint": "語義3・文法パターン"
+        },
+        {
+          "id": "AF-01-S2",
+          "exact_quote": "法律文脈の `constitute an agreement/body` は、契約や組織体に必要な法的形式を与える意味になり得る。",
+          "location_hint": "語義3・語法・注意"
+        }
+      ],
+      "origin": "final_blind"
+    }
+  ],
+  "resolutions": [
+    {
+      "id": "normal-translation-001",
+      "finding_id": "normal-translation-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "割合用法の account for は所有・占拠ではなく説明可能性または数量的割合を表すため、日本語を「説明できるか・占めるか」に修正した。",
+      "resolved_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d"
+    },
+    {
+      "id": "normal-sense-structure-001",
+      "finding_id": "normal-sense-structure-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "既存根拠 F005 が契約・組織体に所定の法的形式を与える用法を支えるため、語義3の定義・フレーム・コアイメージを法的形式化まで拡張した。",
+      "resolved_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d"
+    },
+    {
+      "id": "normal-qualification-001",
+      "finding_id": "normal-qualification-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "政治義 constituent が構文上 constitute の目的語になれないという無限定の主張を避け、名称・語形成上の関係だけを説明する表現へ限定した。",
+      "resolved_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d"
+    },
+    {
+      "id": "normal-evidence-001",
+      "finding_id": "normal-evidence-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "既存根拠 F001・F009 に合わせ、米音 /tuːt/ を一般形と限定し、米音にも /tjuːt/ の変異があることを明記した。",
+      "resolved_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d"
+    },
+    {
+      "id": "cold-constitute-001",
+      "finding_id": "cold-constitute-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "割合構文の全体を示す of 句は文脈上明らかな場合に省略できるため、定義と文法パターンの両方へ任意性を明記した。",
+      "resolved_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d"
+    },
+    {
+      "id": "AF-01",
+      "finding_id": "AF-01",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "指摘は通常の分類用法 constitute an agreement と、既存根拠 F005 が明示する法律用法「agreement または body に所定・適法な形式を与える」を同一視している。本文は後者を法律文脈に限定し、法的有効性を一律に保証しないとも明記しており、U007/C007の直接根拠範囲内であるため修正しない。",
+      "resolved_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d"
+    }
+  ],
+  "final_decision": {
+    "decision": "pass",
+    "blockers": [],
+    "notes": [
+      "本文 SHA-256 4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d は pre-blind revision、全 checker 再検査、final blind、blind seal、post-blind verification で一致する。",
+      "pre-blind 5件と post-blind 1件はすべて裁定済みで、未解決、hold、insufficient_evidence、未確認の修正影響、blocker は0件である。",
+      "AF-01 は F005/U007 が直接支える限定的法律用法を通常の分類用法と同一視した指摘であり、本文は法律文脈への限定と法的効果の非保証を明記するため、rejected resolution は妥当である。"
+    ],
+    "reviewed_at": "2026-09-08T04:52:23.179800+00:00",
+    "blind_output_sha256": "5383af808e242403140d65d6c48197237bf3eced080ab53f62e9e4e36cf9173d"
+  },
+  "workflow_revision": {
+    "schema_version": "workflow_revision_v1",
+    "artifacts": {
+      "pre_blind_resolution": {
+        "path": "audits/runs/c/constitute/20260908T024208Z-fd1caf1b/pre_blind_resolution.json",
+        "sha256": "9fa686c04c5fbc1a1fdda4ad79666e87ccef5af0f3fea718e3042528a1a04cc7"
+      },
+      "pre_blind_revision": {
+        "path": "audits/runs/c/constitute/20260908T024208Z-fd1caf1b/pre_blind_revision.json",
+        "sha256": "3fb190dae6ffb7de37c270cefe677b9f57d3a8a42eaab0ca0092b931fb41fc9f"
+      },
+      "checker_recheck_manifest": {
+        "path": "audits/runs/c/constitute/20260908T024208Z-fd1caf1b/checker_recheck_manifest.json",
+        "sha256": "2f2495a694b0492ed4c48d4b6032998fc611ff679b166839ed99c8e1370d89f3"
+      },
+      "post_blind_resolution": {
+        "path": "audits/runs/c/constitute/20260908T024208Z-fd1caf1b/post_blind_resolution.json",
+        "sha256": "8c4c14fdced24797cf7902e9366d432abd9d1b7b3c991c6aff019aedd54f16cb"
+      },
+      "post_blind_verification": {
+        "path": "audits/runs/c/constitute/20260908T024208Z-fd1caf1b/post_blind_verification.json",
+        "sha256": "d01789a9c9ebd3cdc324c12f2d1d2bc068dfd6ac02e3c83254132c4baf6fc6fc"
+      }
+    },
+    "targeted_adjudications": []
+  },
+  "invalidated_by": [],
+  "review_liveness_errors": []
 }

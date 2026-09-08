@@ -1,0 +1,68 @@
+{
+  "schema_version": "resolutions_v1",
+  "stage": "resolutions",
+  "run_id": "resolution-constitute-20260908T024208Z-fd1caf1b",
+  "context_id": "resolution-constitute-context-20260908T024208Z-fd1caf1b",
+  "input_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d",
+  "prompt_sha256": "7dfcaa0a828a334dbb84d1d31ed97312d0a9661a7aca70a7815a9f88b31ea2f1",
+  "recorded_at": "2026-09-08T04:30:03Z",
+  "input_artifacts": [
+    "entry_body",
+    "all_findings"
+  ],
+  "resolutions": [
+    {
+      "id": "normal-translation-001",
+      "finding_id": "normal-translation-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "割合用法の account for は所有・占拠ではなく説明可能性または数量的割合を表すため、日本語を「説明できるか・占めるか」に修正した。",
+      "resolved_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d"
+    },
+    {
+      "id": "normal-sense-structure-001",
+      "finding_id": "normal-sense-structure-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "既存根拠 F005 が契約・組織体に所定の法的形式を与える用法を支えるため、語義3の定義・フレーム・コアイメージを法的形式化まで拡張した。",
+      "resolved_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d"
+    },
+    {
+      "id": "normal-qualification-001",
+      "finding_id": "normal-qualification-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "政治義 constituent が構文上 constitute の目的語になれないという無限定の主張を避け、名称・語形成上の関係だけを説明する表現へ限定した。",
+      "resolved_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d"
+    },
+    {
+      "id": "normal-evidence-001",
+      "finding_id": "normal-evidence-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "既存根拠 F001・F009 に合わせ、米音 /tuːt/ を一般形と限定し、米音にも /tjuːt/ の変異があることを明記した。",
+      "resolved_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d"
+    },
+    {
+      "id": "cold-constitute-001",
+      "finding_id": "cold-constitute-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "割合構文の全体を示す of 句は文脈上明らかな場合に省略できるため、定義と文法パターンの両方へ任意性を明記した。",
+      "resolved_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d"
+    },
+    {
+      "id": "AF-01",
+      "finding_id": "AF-01",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "指摘は通常の分類用法 constitute an agreement と、既存根拠 F005 が明示する法律用法「agreement または body に所定・適法な形式を与える」を同一視している。本文は後者を法律文脈に限定し、法的有効性を一律に保証しないとも明記しており、U007/C007の直接根拠範囲内であるため修正しない。",
+      "resolved_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d"
+    }
+  ],
+  "learning_delta": {
+    "schema_version": "process_improvement_learning_delta_v2",
+    "reviewed": true,
+    "items": []
+  }
+}

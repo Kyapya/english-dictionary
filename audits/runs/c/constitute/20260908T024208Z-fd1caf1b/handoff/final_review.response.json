@@ -1,0 +1,1491 @@
+{
+  "schema_version": "final_review_v2",
+  "stage": "final_review",
+  "reviewer_agent_id": "constitute-final-review-1",
+  "model": "gpt-5",
+  "decision": "pass",
+  "blockers": [],
+  "notes": [
+    "本文 SHA-256 4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d は pre-blind revision、全 checker 再検査、final blind、blind seal、post-blind verification で一致する。",
+    "pre-blind 5件と post-blind 1件はすべて裁定済みで、未解決、hold、insufficient_evidence、未確認の修正影響、blocker は0件である。",
+    "AF-01 は F005/U007 が直接支える限定的法律用法を通常の分類用法と同一視した指摘であり、本文は法律文脈への限定と法的効果の非保証を明記するため、rejected resolution は妥当である。"
+  ],
+  "target_results": [
+    {
+      "id": "pronunciation:001",
+      "status": "pass",
+      "notes": "「米（一般的な形）: /ˈkɑːnstəˌtuːt/｜英: /ˈkɒnstɪˌtjuːt/。3音節で、第1音節に主強勢、第3音節に第二強勢がある。米音では第1音節の母音が /ɑː/、第2音節が弱い /stə/ となり、第3音節は一般に /tuːt/ だが /tjuːt/ の変異もある。英音では第1音節が /ɒ/、第2音節が /stɪ/、第3音節が /tjuːt/ となる。」— 地域別の音価、強勢、米音変異が F001/F009 と一致する。",
+      "target_id": "pronunciation:001"
+    },
+    {
+      "id": "etymology:001",
+      "status": "pass",
+      "notes": "「中英語を経て、ラテン語 constituere「立てる、据える、設ける、定める」に由来する。これは con- と statuere「立てる、置く」から成り、statuere は「立つ」を表す語根につながる。現在の「全体を構成する」「制度・組織を正式に成立させる」「人を役職に就ける」という用法には、「ある形・位置に据えて成立させる」という歴史的な意味が残っている。」— 語源分析と抑制的な意味橋渡しが F008/F018/F020 と一致する。",
+      "target_id": "etymology:001"
+    },
+    {
+      "id": "etymology:002",
+      "status": "pass",
+      "notes": "「同語源・同じ語族の学習語には constitution「構成、体質、憲法」、constitutional「構成上の、憲法上の」、constituent「構成要素、選挙区民；構成する」、statute「制定法」がある。」— 語源分析と抑制的な意味橋渡しが F008/F018/F020 と一致する。",
+      "target_id": "etymology:002"
+    },
+    {
+      "id": "word_formation:001",
+      "status": "pass",
+      "notes": "「`constitution` — 名詞。「構成・体質」のほか、国家・組織の基本原則を定める「憲法・規約」を表す。」— 派生語の品詞・主要語義を区別し、語形成関係を構文禁止へ誤一般化しない。",
+      "target_id": "word_formation:001"
+    },
+    {
+      "id": "word_formation:002",
+      "status": "pass",
+      "notes": "「`constitutional / constitutionally` — 形容詞「構成上の、体質上の、憲法上の」／副詞「体質的に、憲法上」。」— 派生語の品詞・主要語義を区別し、語形成関係を構文禁止へ誤一般化しない。",
+      "target_id": "word_formation:002"
+    },
+    {
+      "id": "word_formation:003",
+      "status": "pass",
+      "notes": "「`constituent` — 名詞「構成要素、選挙区民」、形容詞「構成する」。政治義の constituent は「constitute の目的語」を意味する名称ではなく、代表者を選ぶ constituency の構成員を指す。」— 派生語の品詞・主要語義を区別し、語形成関係を構文禁止へ誤一般化しない。",
+      "target_id": "word_formation:003"
+    },
+    {
+      "id": "word_formation:004",
+      "status": "pass",
+      "notes": "「`reconstitute` — 動詞「再構成する、元の状態に戻す」。乾燥食品・薬剤などに液体を加えて戻す用法もある。」— 派生語の品詞・主要語義を区別し、語形成関係を構文禁止へ誤一般化しない。",
+      "target_id": "word_formation:004"
+    },
+    {
+      "id": "core_image:001",
+      "status": "pass",
+      "notes": "「constitute の共通核は、要素・行為・組織・人を、ある全体・分類・制度・役割として成り立つ位置に据えることである。文脈によって、すでにそうであるという関係を述べる場合と、意図的・正式に成立させる行為を述べる場合がある。」— 構成・分類と設立・任命を分岐させ、各語義の方向を保存する。",
+      "target_id": "core_image:001"
+    },
+    {
+      "id": "core_image:002",
+      "status": "pass",
+      "notes": "「・要素を全体として成り立つ位置に据える → 「構成する、占める」（語義1）」— 構成・分類と設立・任命を分岐させ、各語義の方向を保存する。",
+      "target_id": "core_image:002"
+    },
+    {
+      "id": "core_image:003",
+      "status": "pass",
+      "notes": "「・行為や事実を分類として成り立つ位置に据える → 「～に当たる、～となる」（語義2）」— 構成・分類と設立・任命を分岐させ、各語義の方向を保存する。",
+      "target_id": "core_image:003"
+    },
+    {
+      "id": "core_image:004",
+      "status": "pass",
+      "notes": "「・組織や契約を正式な制度・法的形式として成り立つ位置に据える → 「正式に設立する、所定の形式に整える」（語義3）」— 構成・分類と設立・任命を分岐させ、各語義の方向を保存する。 agreement/body の法的形式化は F005/U007 が直接支え、法律文脈と文脈的区別も明記される。",
+      "target_id": "core_image:004"
+    },
+    {
+      "id": "core_image:005",
+      "status": "pass",
+      "notes": "「・人を公的な役割として成り立つ位置に据える → 「正式に任命・指定する」（語義4）」— 構成・分類と設立・任命を分岐させ、各語義の方向を保存する。",
+      "target_id": "core_image:005"
+    },
+    {
+      "id": "sense_boundary:001",
+      "status": "pass",
+      "notes": "「1. 【他動詞】構成する、（全体の一定割合を）占める」— 見出しの品詞・訳語・範囲が定義と一致し、隣接語義を過剰包含しない。",
+      "target_id": "sense_boundary:001"
+    },
+    {
+      "id": "definition:001",
+      "status": "pass",
+      "notes": "「一つまたは複数の人・物・部分・期間などが、一つの全体を形作る、またはその全体の一定割合・重要部分を占めることを表す。全体構成の能動構文では主語が構成要素、目的語がそれらによってできる全体である。一方、割合・部分量を示す構文では、目的語が割合・部分量となり、全体は通常 of 句に現れるが、文脈上明らかな場合は省略できる。意図的に組み立てる行為ではなく、部分と全体の関係を記述することが多い。」— 意味役割、成立条件、範囲と限定が明示され、誤方向を生じない。",
+      "target_id": "definition:001"
+    },
+    {
+      "id": "frequency:001",
+      "status": "pass",
+      "notes": "「〈8/10〉」— 学習用頻度尺度が語義の一般性とレジスター差に整合する。",
+      "target_id": "frequency:001"
+    },
+    {
+      "id": "register:001",
+      "status": "pass",
+      "notes": "「やや硬い標準語。報道、統計、学術、ビジネス、公式説明でよく使う。日常会話では make up や form の方が一般的なことが多い。」— 公式性・分野・日常語との差を限定し、無標な用法として過大提示しない。",
+      "target_id": "register:001"
+    },
+    {
+      "id": "grammar_pattern:001",
+      "status": "pass",
+      "notes": "「`〈parts/members〉 constitute 〈whole/group〉`＝部分・構成員が全体・集団を構成する」— 項構造、補語、前置詞句と意味方向が対応語義に一致する。",
+      "target_id": "grammar_pattern:001"
+    },
+    {
+      "id": "grammar_pattern:002",
+      "status": "pass",
+      "notes": "「`〈group/category〉 constitute 〈割合〉 (of 〈whole〉)`＝集団・分類が全体の一定割合を占める（全体が文脈上明らかなら of 句を省略可）」— 項構造、補語、前置詞句と意味方向が対応語義に一致する。",
+      "target_id": "grammar_pattern:002"
+    },
+    {
+      "id": "grammar_pattern:003",
+      "status": "pass",
+      "notes": "「`〈whole〉 be constituted of 〈parts〉`＝全体が部分から構成されている」— 項構造、補語、前置詞句と意味方向が対応語義に一致する。",
+      "target_id": "grammar_pattern:003"
+    },
+    {
+      "id": "collocation:001",
+      "status": "pass",
+      "notes": "「・`〈parts/members〉 constitute 〈whole/group〉`\n用途: 複数の部分・構成員が一つの全体や集団を作ることを述べる。\n例: Twelve jurors constitute the full jury in this court.\n訳: この裁判所では、12人の陪審員が陪審全体を構成する。」— 用途・英文・訳が主語、目的語、補語、肯否、数量、法、修飾範囲を保存する。",
+      "target_id": "collocation:001"
+    },
+    {
+      "id": "collocation:002",
+      "status": "pass",
+      "notes": "「・`constitute the majority/minority of 〈group〉`\n用途: ある分類の人・物が、集団の過半数または少数派を占めることを述べる。\n例: Part-time employees constitute the majority of the evening staff.\n訳: 非常勤職員が夜間スタッフの過半数を占めている。」— 用途・英文・訳が主語、目的語、補語、肯否、数量、法、修飾範囲を保存する。",
+      "target_id": "collocation:002"
+    },
+    {
+      "id": "collocation:003",
+      "status": "pass",
+      "notes": "「・`constitute 〈percentage〉 of 〈whole〉`\n用途: 全体に占める割合を、統計的・客観的に示す。\n例: Online sales now constitute 35 percent of the company's revenue.\n訳: オンライン販売は現在、その会社の売上高の35パーセントを占めている。」— 用途・英文・訳が主語、目的語、補語、肯否、数量、法、修飾範囲を保存する。",
+      "target_id": "collocation:003"
+    },
+    {
+      "id": "collocation:004",
+      "status": "pass",
+      "notes": "「・`constitute a large/significant part of 〈whole〉`\n用途: ある要素が全体の大きな部分・重要部分を占めることを示す。\n例: Maintenance costs constitute a significant part of the annual budget.\n訳: 維持費は年間予算のかなりの部分を占める。」— 用途・英文・訳が主語、目的語、補語、肯否、数量、法、修飾範囲を保存する。",
+      "target_id": "collocation:004"
+    },
+    {
+      "id": "collocation:005",
+      "status": "pass",
+      "notes": "「・`be constituted of 〈parts/materials〉`\n用途: 全体を主語にして、その構成要素や材料を示す硬い受動表現。\n例: The panel is constituted of experts from five different fields.\n訳: その委員会は5つの異なる分野の専門家で構成されている。」— 用途・英文・訳が主語、目的語、補語、肯否、数量、法、修飾範囲を保存する。",
+      "target_id": "collocation:005"
+    },
+    {
+      "id": "usage_note:001",
+      "status": "pass",
+      "notes": "「能動の `A, B, and C constitute X` では A・B・C が部分、X が全体である。`X consists of A, B, and C` や `X is composed of A, B, and C` では向きが逆になり、X が全体、A・B・C が部分になる。」— 意味方向・統語・範囲を明確にし、絶対化や機械的判定を避ける。",
+      "target_id": "usage_note:001"
+    },
+    {
+      "id": "usage_note:002",
+      "status": "pass",
+      "notes": "「`be constituted of` は可能だが硬い。通常は `be composed of` または `consist of` が自然である。`consist` は自動詞なので `X is consisted of A` とはしない。」— 意味方向・統語・範囲を明確にし、絶対化や機械的判定を避ける。",
+      "target_id": "usage_note:002"
+    },
+    {
+      "id": "usage_note:003",
+      "status": "pass",
+      "notes": "「`comprise` は伝統的には `X comprises A, B, and C` のように全体を主語、部分を目的語にするため、能動の constitute とは基本方向が逆である。ただし現代英語では parts comprise a whole や be comprised of も広く使われるので、厳密さが必要な文章では parts/whole の関係が明確な表現を選ぶ。」— 意味方向・統語・範囲を明確にし、絶対化や機械的判定を避ける。",
+      "target_id": "usage_note:003"
+    },
+    {
+      "id": "synonym:001",
+      "status": "pass",
+      "notes": "「・make up\n定義: 複数の部分・人が集まって全体を構成する。\n頻度: 〈9/10〉\n違い: make up は constitute より口語的で幅広い。`A and B make up X` と同じ parts-to-whole の向きで使える。\n例: Small firms make up most of the local economy.\n訳: 小規模企業が地域経済の大部分を構成している。」— 類義語との範囲、方向、レジスター、焦点の差が語義と矛盾しない。",
+      "target_id": "synonym:001"
+    },
+    {
+      "id": "synonym:002",
+      "status": "pass",
+      "notes": "「・form\n定義: 部分が集まって全体・形・集団を作る。\n頻度: 〈10/10〉\n違い: form は中立的で、構成関係にも実際に作る過程にも使える。constitute は硬く、部分と全体の関係を分類・統計として述べることが多い。\n例: These streams form the main river.\n訳: これらの小川が本流を形作っている。」— 類義語との範囲、方向、レジスター、焦点の差が語義と矛盾しない。",
+      "target_id": "synonym:002"
+    },
+    {
+      "id": "synonym:003",
+      "status": "pass",
+      "notes": "「・compose\n定義: 複数の要素が全体を構成する。\n頻度: 〈7/10〉\n違い: compose は構成要素の組み合わせに焦点があり、受動の `be composed of` が特に一般的である。constitute は割合を述べる構文にもよく使う。\n例: Four short sections compose the final movement.\n訳: 4つの短い部分が終楽章を構成している。」— 類義語との範囲、方向、レジスター、焦点の差が語義と矛盾しない。",
+      "target_id": "synonym:003"
+    },
+    {
+      "id": "synonym:004",
+      "status": "pass",
+      "notes": "「・account for\n定義: 数量・割合・原因などのうち、特定の分を占める。\n頻度: 〈8/10〉\n違い: 割合の用法では近いが、account for は「全体のうちどれだけを説明できるか・占めるか」に焦点がある。constitute は割合だけでなく、部分が全体そのものを形作る関係にも使える。\n例: Exports account for nearly half of total sales.\n訳: 輸出が総売上高のほぼ半分を占める。」— 類義語との範囲、方向、レジスター、焦点の差が語義と矛盾しない。",
+      "target_id": "synonym:004"
+    },
+    {
+      "id": "sense_boundary:002",
+      "status": "pass",
+      "notes": "「2. 【他動詞・連結的用法】～に当たる、～を意味する、～となる」— 見出しの品詞・訳語・範囲が定義と一致し、隣接語義を過剰包含しない。",
+      "target_id": "sense_boundary:002"
+    },
+    {
+      "id": "definition:002",
+      "status": "pass",
+      "notes": "「行為、状況、事実、結果などが、ある分類・評価・状態の定義や成立条件を満たし、そのものと見なせることを表す。目的語には crime、breach、threat、evidence、change、problem などが来る。法律用語だけではなく一般の評価にも使うが、何がその分類に当たるかをやや改まって判断する響きがある。」— 意味役割、成立条件、範囲と限定が明示され、誤方向を生じない。",
+      "target_id": "definition:002"
+    },
+    {
+      "id": "frequency:002",
+      "status": "pass",
+      "notes": "「〈8/10〉」— 学習用頻度尺度が語義の一般性とレジスター差に整合する。",
+      "target_id": "frequency:002"
+    },
+    {
+      "id": "register:002",
+      "status": "pass",
+      "notes": "「やや硬い標準語。報道、法律、規則、倫理、学術、ビジネス上の評価で頻出する。法律文脈では、実際に犯罪・違反などが成立するかは適用法と事実認定によって決まるため、単語自体が法的結論を保証するわけではない。」— 公式性・分野・日常語との差を限定し、無標な用法として過大提示しない。",
+      "target_id": "register:002"
+    },
+    {
+      "id": "grammar_pattern:004",
+      "status": "pass",
+      "notes": "「`〈act/fact/situation〉 constitute 〈category/result〉`＝行為・事実・状況が分類・結果に当たる」— 項構造、補語、前置詞句と意味方向が対応語義に一致する。",
+      "target_id": "grammar_pattern:004"
+    },
+    {
+      "id": "grammar_pattern:005",
+      "status": "pass",
+      "notes": "「`constitute a crime/breach/violation`＝犯罪・契約違反・規則違反に当たる」— 項構造、補語、前置詞句と意味方向が対応語義に一致する。",
+      "target_id": "grammar_pattern:005"
+    },
+    {
+      "id": "grammar_pattern:006",
+      "status": "pass",
+      "notes": "「`constitute a threat/risk/problem`＝脅威・危険・問題となる」— 項構造、補語、前置詞句と意味方向が対応語義に一致する。",
+      "target_id": "grammar_pattern:006"
+    },
+    {
+      "id": "grammar_pattern:007",
+      "status": "pass",
+      "notes": "「`what constitutes 〈category〉`＝何がその分類を成り立たせるか」— 項構造、補語、前置詞句と意味方向が対応語義に一致する。",
+      "target_id": "grammar_pattern:007"
+    },
+    {
+      "id": "collocation:006",
+      "status": "pass",
+      "notes": "「・`constitute a crime/offence`\n用途: ある行為が法律上の犯罪・違反に当たり得ることを述べる。\n例: Deliberately altering the records may constitute a criminal offence.\n訳: 記録を故意に改ざんすることは、刑事犯罪に当たる可能性がある。」— 用途・英文・訳が主語、目的語、補語、肯否、数量、法、修飾範囲を保存する。",
+      "target_id": "collocation:006"
+    },
+    {
+      "id": "collocation:007",
+      "status": "pass",
+      "notes": "「・`constitute a breach/violation of 〈rule/duty〉`\n用途: 行為・不作為が契約、規則、義務などへの違反に当たると判断する。\n例: Sharing the data without permission would constitute a breach of the agreement.\n訳: 許可なくデータを共有すれば、その契約への違反に当たる。」— 用途・英文・訳が主語、目的語、補語、肯否、数量、法、修飾範囲を保存する。",
+      "target_id": "collocation:007"
+    },
+    {
+      "id": "collocation:008",
+      "status": "pass",
+      "notes": "「・`constitute a threat/risk to 〈person/system〉`\n用途: 状況・存在が人や制度への脅威・危険となることを示す。\n例: The damaged bridge constitutes a serious risk to public safety.\n訳: その損傷した橋は公共の安全に対する重大な危険となっている。」— 用途・英文・訳が主語、目的語、補語、肯否、数量、法、修飾範囲を保存する。",
+      "target_id": "collocation:008"
+    },
+    {
+      "id": "collocation:009",
+      "status": "pass",
+      "notes": "「・`constitute evidence/proof of 〈事実〉`\n用途: ある資料・行為が、事実を裏づける証拠に当たるかを論じる。\n例: A single anonymous message does not constitute proof of fraud.\n訳: 匿名のメッセージ一通だけでは、詐欺の証明にはならない。」— 用途・英文・訳が主語、目的語、補語、肯否、数量、法、修飾範囲を保存する。",
+      "target_id": "collocation:009"
+    },
+    {
+      "id": "collocation:010",
+      "status": "pass",
+      "notes": "「・`constitute a significant change/improvement`\n用途: 出来事や措置が、単なる小差ではなく、意味のある変化・改善に当たると評価する。\n例: The revised policy constitutes a significant change in the company's approach.\n訳: 改訂された方針は、その会社の取り組み方の大きな変化に当たる。」— 用途・英文・訳が主語、目的語、補語、肯否、数量、法、修飾範囲を保存する。",
+      "target_id": "collocation:010"
+    },
+    {
+      "id": "collocation:011",
+      "status": "pass",
+      "notes": "「・`what constitutes 〈category/standard〉`\n用途: 何がある概念・分類・基準に該当するのかを問う・定義する。\n例: The guidelines explain what constitutes acceptable use of the system.\n訳: その指針は、どのようなシステム利用が許容されるかを説明している。」— 用途・英文・訳が主語、目的語、補語、肯否、数量、法、修飾範囲を保存する。",
+      "target_id": "collocation:011"
+    },
+    {
+      "id": "usage_note:004",
+      "status": "pass",
+      "notes": "「この語義の constitute は、主語と目的語を同一の分類関係で結ぶが、文法上は目的語を取る動詞であり、通常 `constitute as a threat` のように as を挟まない。`The delay constitutes a problem.` のように直接目的語を置く。」— 意味方向・統語・範囲を明確にし、絶対化や機械的判定を避ける。",
+      "target_id": "usage_note:004"
+    },
+    {
+      "id": "usage_note:005",
+      "status": "pass",
+      "notes": "「語義1との区別は、目的語が「主語を部分として含む全体」か、「主語が該当すると判断される分類・評価」かで行う。`Ten members constitute the committee.` は構成、`Their absence constitutes a problem.` は評価・該当である。」— 意味方向・統語・範囲を明確にし、絶対化や機械的判定を避ける。",
+      "target_id": "usage_note:005"
+    },
+    {
+      "id": "usage_note:006",
+      "status": "pass",
+      "notes": "「否定文の `does not constitute proof/consent/approval` は、「証拠・同意・承認として十分ではない」という境界を明示する定型的な用法である。constitute 自体は、事態を引き起こす cause や、証拠によって証明する prove を意味しない。」— 意味方向・統語・範囲を明確にし、絶対化や機械的判定を避ける。",
+      "target_id": "usage_note:006"
+    },
+    {
+      "id": "synonym:005",
+      "status": "pass",
+      "notes": "「・amount to\n定義: 行為・状況が、実質的にある結果・評価と同じである。\n頻度: 〈8/10〉\n違い: amount to は「結局は～に等しい」という実質的帰結を強調する。constitute は定義・基準への該当を、より公式・分析的に述べやすい。\n例: Ignoring repeated warnings amounts to negligence.\n訳: 度重なる警告を無視することは、怠慢に等しい。」— 類義語との範囲、方向、レジスター、焦点の差が語義と矛盾しない。",
+      "target_id": "synonym:005"
+    },
+    {
+      "id": "synonym:006",
+      "status": "pass",
+      "notes": "「・qualify as\n定義: 必要な条件を満たして、ある分類・資格に該当する。\n頻度: 〈7/10〉\n違い: qualify as は明示的な条件を満たす点を強調する。constitute は条件が厳密に列挙されていない一般評価にも使える。\n例: The structure qualifies as a protected historic building.\n訳: その構造物は、保護対象の歴史的建造物に該当する。」— 類義語との範囲、方向、レジスター、焦点の差が語義と矛盾しない。",
+      "target_id": "synonym:006"
+    },
+    {
+      "id": "synonym:007",
+      "status": "pass",
+      "notes": "「・count as\n定義: 規則・判断・一般的理解の上で、あるものとして数えられる。\n頻度: 〈8/10〉\n違い: count as は口語的で、日常的な分類にも使いやすい。constitute はより硬く、公式の基準や重大な評価に合う。\n例: Does volunteer work count as relevant experience?\n訳: ボランティア活動は関連経験として認められますか。」— 類義語との範囲、方向、レジスター、焦点の差が語義と矛盾しない。",
+      "target_id": "synonym:007"
+    },
+    {
+      "id": "synonym:008",
+      "status": "pass",
+      "notes": "「・represent\n定義: 状況・出来事が、ある意味・変化・危険などを体現する。\n頻度: 〈9/10〉\n違い: represent は象徴・典型・意味づけまで広く表す。constitute は主語が実際にその分類・状態に当たるという同一視がより強い。\n例: The agreement represents an important step toward peace.\n訳: その合意は、平和に向けた重要な一歩を意味する。」— 類義語との範囲、方向、レジスター、焦点の差が語義と矛盾しない。",
+      "target_id": "synonym:008"
+    },
+    {
+      "id": "sense_boundary:003",
+      "status": "pass",
+      "notes": "「3. 【他動詞】（組織などを）正式に設立する；（契約などを）所定の法的形式に整える」— 見出しの品詞・訳語・範囲が定義と一致し、隣接語義を過剰包含しない。 agreement/body の法的形式化は F005/U007 が直接支え、法律文脈と文脈的区別も明記される。",
+      "target_id": "sense_boundary:003"
+    },
+    {
+      "id": "definition:003",
+      "status": "pass",
+      "notes": "「組織、委員会、裁判所、政府などを正式に形成・設置し、公式の組織体として成立させることを表す。法律用法では、契約や組織体に所定の法的形式を与えることも表す。制度や文脈によって所定の手続きや権限付与を伴うことはあるが、constitute という語だけで法的有効性や実際の活動可能性まで一律に保証するわけではない。」— 意味役割、成立条件、範囲と限定が明示され、誤方向を生じない。 agreement/body の法的形式化は F005/U007 が直接支え、法律文脈と文脈的区別も明記される。",
+      "target_id": "definition:003"
+    },
+    {
+      "id": "frequency:003",
+      "status": "pass",
+      "notes": "「〈5/10〉」— 学習用頻度尺度が語義の一般性とレジスター差に整合する。",
+      "target_id": "frequency:003"
+    },
+    {
+      "id": "register:003",
+      "status": "pass",
+      "notes": "「非常に硬い公式・行政・法律・組織運営の用法。契約などを所定の法的形式に整える意味も法律文脈に限られる。一般的な会社・団体の設立では establish、form、set up がより広く使われる。」— 公式性・分野・日常語との差を限定し、無標な用法として過大提示しない。",
+      "target_id": "register:003"
+    },
+    {
+      "id": "grammar_pattern:008",
+      "status": "pass",
+      "notes": "「`〈authority/institution/parties〉 constitute 〈committee/body/court/government〉`＝権限主体・機関・当事者が委員会・機関・裁判所・政府を正式に設ける」— 項構造、補語、前置詞句と意味方向が対応語義に一致する。",
+      "target_id": "grammar_pattern:008"
+    },
+    {
+      "id": "grammar_pattern:009",
+      "status": "pass",
+      "notes": "「`constitute 〈agreement/body〉`＝契約・組織体に所定の法的形式を与える」— 項構造、補語、前置詞句と意味方向が対応語義に一致する。 agreement/body の法的形式化は F005/U007 が直接支え、法律文脈と文脈的区別も明記される。",
+      "target_id": "grammar_pattern:009"
+    },
+    {
+      "id": "grammar_pattern:010",
+      "status": "pass",
+      "notes": "「`〈body〉 be constituted under/by 〈law/authority〉`＝機関が法律・権限に基づいて設立される」— 項構造、補語、前置詞句と意味方向が対応語義に一致する。",
+      "target_id": "grammar_pattern:010"
+    },
+    {
+      "id": "grammar_pattern:011",
+      "status": "pass",
+      "notes": "「`a properly/legally/duly constituted 〈body/authority〉`＝適切・合法・正式に成立した機関・権限主体」— 項構造、補語、前置詞句と意味方向が対応語義に一致する。",
+      "target_id": "grammar_pattern:011"
+    },
+    {
+      "id": "collocation:012",
+      "status": "pass",
+      "notes": "「・`constitute a committee/panel`\n用途: 特定の目的をもつ委員会や審査団を正式に設ける。\n例: The ministry constituted an independent panel to investigate the accident.\n訳: 同省は、その事故を調査する独立委員会を正式に設置した。」— 用途・英文・訳が主語、目的語、補語、肯否、数量、法、修飾範囲を保存する。",
+      "target_id": "collocation:012"
+    },
+    {
+      "id": "collocation:013",
+      "status": "pass",
+      "notes": "「・`constitute a court/tribunal`\n用途: 裁判所・審判機関を正式に設ける。\n例: The treaty provides for a tribunal to be constituted when a dispute arises.\n訳: その条約は、紛争が生じた際に審判機関を設置することを定めている。」— 用途・英文・訳が主語、目的語、補語、肯否、数量、法、修飾範囲を保存する。",
+      "target_id": "collocation:013"
+    },
+    {
+      "id": "collocation:014",
+      "status": "pass",
+      "notes": "「・`constitute a government/authority`\n用途: 政府・公的機関を正式な組織体として成立させる。\n例: The parties agreed to constitute a transitional government.\n訳: 当事者らは暫定政府を発足させることで合意した。」— 用途・英文・訳が主語、目的語、補語、肯否、数量、法、修飾範囲を保存する。",
+      "target_id": "collocation:014"
+    },
+    {
+      "id": "collocation:015",
+      "status": "pass",
+      "notes": "「・`be constituted under 〈law/charter〉`\n用途: 組織が法律・憲章などを根拠として設立されていることを示す。\n例: The commission was constituted under the new environmental law.\n訳: その委員会は新しい環境法に基づいて設置された。」— 用途・英文・訳が主語、目的語、補語、肯否、数量、法、修飾範囲を保存する。",
+      "target_id": "collocation:015"
+    },
+    {
+      "id": "collocation:016",
+      "status": "pass",
+      "notes": "「・`a duly/properly constituted 〈body/meeting〉`\n用途: 機関・会議が必要な手続きや構成要件を満たして正式に成立していることを示す。\n例: Only a duly constituted board may approve the transaction.\n訳: 正式に構成された取締役会だけが、その取引を承認できる。」— 用途・英文・訳が主語、目的語、補語、肯否、数量、法、修飾範囲を保存する。",
+      "target_id": "collocation:016"
+    },
+    {
+      "id": "usage_note:007",
+      "status": "pass",
+      "notes": "「語義1の「部分が全体を構成している」は状態的な関係、語義3の「組織を正式に設立する」は意図的・制度的な行為である。`The members constitute the board.` は「構成員が取締役会を構成する」、`The agency constituted a board.` は「機関が取締役会を正式に設置した」となる。」— 意味方向・統語・範囲を明確にし、絶対化や機械的判定を避ける。",
+      "target_id": "usage_note:007"
+    },
+    {
+      "id": "usage_note:008",
+      "status": "pass",
+      "notes": "「法律文脈の `constitute an agreement/body` は、契約や組織体に必要な法的形式を与える意味になり得る。組織を新設する意味と、既存の契約・組織体を所定の形式に整える意味は文脈で区別する。」— 意味方向・統語・範囲を明確にし、絶対化や機械的判定を避ける。 agreement/body の法的形式化は F005/U007 が直接支え、法律文脈と文脈的区別も明記される。",
+      "target_id": "usage_note:008"
+    },
+    {
+      "id": "usage_note:009",
+      "status": "pass",
+      "notes": "「`be constituted under ...` は通常、設立根拠を示す。`be constituted by ...` の by 句は文脈により、設立主体を示す場合と、語義1で全体を形作る構成要素を示す場合がある。`be constituted of ...` は構成要素を示すため、前置詞だけで語義を機械的に判断しない。」— 意味方向・統語・範囲を明確にし、絶対化や機械的判定を避ける。",
+      "target_id": "usage_note:009"
+    },
+    {
+      "id": "usage_note:010",
+      "status": "pass",
+      "notes": "「`duly/properly/legally constituted` は constituted が過去分詞として名詞を修飾する定着表現で、「正当に権限をもつ・手続き上有効に成立した」という含みを持つ。ただし、その組織の個々の決定まで自動的に適法だと保証する表現ではない。」— 意味方向・統語・範囲を明確にし、絶対化や機械的判定を避ける。",
+      "target_id": "usage_note:010"
+    },
+    {
+      "id": "synonym:009",
+      "status": "pass",
+      "notes": "「・establish\n定義: 組織・制度・関係などを作り、安定して存在するようにする。\n頻度: 〈9/10〉\n違い: establish は設立全般に使える標準的な語である。constitute は、組織体を公式な形で成立させる硬い表現である。\n例: The university established a new research center.\n訳: その大学は新しい研究センターを設立した。」— 類義語との範囲、方向、レジスター、焦点の差が語義と矛盾しない。",
+      "target_id": "synonym:009"
+    },
+    {
+      "id": "synonym:010",
+      "status": "pass",
+      "notes": "「・form\n定義: 人・組織・要素を集めて、新しい集団・組織を作る。\n頻度: 〈10/10〉\n違い: form は日常的で、正式な法的手続きを必ずしも含まない。constitute は公式・制度的な文脈で使われやすい。\n例: Residents formed a committee to protect the park.\n訳: 住民たちは公園を守るために委員会を結成した。」— 類義語との範囲、方向、レジスター、焦点の差が語義と矛盾しない。",
+      "target_id": "synonym:010"
+    },
+    {
+      "id": "synonym:011",
+      "status": "pass",
+      "notes": "「・set up\n定義: 組織・制度・仕組みなどを作って動かし始める。\n頻度: 〈9/10〉\n違い: set up は口語的で、準備・運用開始まで幅広く表す。constitute は設立の公式性・制度性に焦点がある。\n例: The city set up a task force to address housing shortages.\n訳: 市は住宅不足に対処する特別チームを立ち上げた。」— 類義語との範囲、方向、レジスター、焦点の差が語義と矛盾しない。",
+      "target_id": "synonym:011"
+    },
+    {
+      "id": "sense_boundary:004",
+      "status": "pass",
+      "notes": "「4. 【他動詞・公式・法律】（人を役職・地位に）正式に任命・指定する」— 見出しの品詞・訳語・範囲が定義と一致し、隣接語義を過剰包含しない。",
+      "target_id": "sense_boundary:004"
+    },
+    {
+      "id": "definition:004",
+      "status": "pass",
+      "notes": "「権限をもつ者・法律・公式文書などが、人を特定の役職・地位・役割に正式に任命・指定することを表す。任命の法的有効性、付与される権限、その立場で行動できる範囲は、該当する文書・制度・法域によって決まる。」— 意味役割、成立条件、範囲と限定が明示され、誤方向を生じない。",
+      "target_id": "definition:004"
+    },
+    {
+      "id": "frequency:004",
+      "status": "pass",
+      "notes": "「〈2/10〉」— 学習用頻度尺度が語義の一般性とレジスター差に整合する。",
+      "target_id": "frequency:004"
+    },
+    {
+      "id": "register:004",
+      "status": "pass",
+      "notes": "「法律・公文書などの公式文体。`a legally constituted officer` のような表現では、法や制度に基づいて正式に任命された役職者を指す。」— 公式性・分野・日常語との差を限定し、無標な用法として過大提示しない。",
+      "target_id": "register:004"
+    },
+    {
+      "id": "grammar_pattern:012",
+      "status": "pass",
+      "notes": "「`〈authority/law/document〉 constitute someone 〈office/role〉`＝権限者・法律・公式文書が人を役職・役割に任命する」— 項構造、補語、前置詞句と意味方向が対応語義に一致する。",
+      "target_id": "grammar_pattern:012"
+    },
+    {
+      "id": "grammar_pattern:013",
+      "status": "pass",
+      "notes": "「`someone be constituted 〈office/role〉`＝人が役職に任命される」— 項構造、補語、前置詞句と意味方向が対応語義に一致する。",
+      "target_id": "grammar_pattern:013"
+    },
+    {
+      "id": "grammar_pattern:014",
+      "status": "pass",
+      "notes": "「`a legally constituted 〈officer/official〉`＝法に基づいて正式に任命された役職者」— 項構造、補語、前置詞句と意味方向が対応語義に一致する。",
+      "target_id": "grammar_pattern:014"
+    },
+    {
+      "id": "collocation:017",
+      "status": "pass",
+      "notes": "「・`constitute someone 〈office/role〉`\n用途: 人を特定の役職・職務に就けることを、古風または法律的に述べる。\n例: The charter constituted him treasurer of the association.\n訳: その憲章によって、彼は協会の会計役に任命された。」— 用途・英文・訳が主語、目的語、補語、肯否、数量、法、修飾範囲を保存する。",
+      "target_id": "collocation:017"
+    },
+    {
+      "id": "collocation:018",
+      "status": "pass",
+      "notes": "「・`be constituted 〈office/role〉`\n用途: 人が役職・地位に正式に任命されたことを受動態で示す。\n例: She was constituted guardian for the limited purpose stated in the order.\n訳: 彼女は、その命令に記された限定的な目的のための後見人に任命された。」— 用途・英文・訳が主語、目的語、補語、肯否、数量、法、修飾範囲を保存する。",
+      "target_id": "collocation:018"
+    },
+    {
+      "id": "collocation:019",
+      "status": "pass",
+      "notes": "「・`a legally constituted 〈officer/official〉`\n用途: 法や制度に基づいて正式に任命された役職者を指す。\n例: The charter identifies the treasurer as a legally constituted officer of the association.\n訳: その憲章は、会計役を協会において法に基づき正式に任命された役職者として明記している。」— 用途・英文・訳が主語、目的語、補語、肯否、数量、法、修飾範囲を保存する。",
+      "target_id": "collocation:019"
+    },
+    {
+      "id": "usage_note:011",
+      "status": "pass",
+      "notes": "「人を直接目的語にし、役職を目的格補語として置く `constitute someone treasurer` のような形で使う。現代の一般文では非常に硬いため、通常は `appoint someone treasurer` などとする。」— 意味方向・統語・範囲を明確にし、絶対化や機械的判定を避ける。",
+      "target_id": "usage_note:011"
+    },
+    {
+      "id": "usage_note:012",
+      "status": "pass",
+      "notes": "「語義3は committee や court などの組織そのものを成立させ、語義4は person を役職・地位に就ける。`constitute a committee` と `constitute someone treasurer` を同じ目的語構造として扱わない。」— 意味方向・統語・範囲を明確にし、絶対化や機械的判定を避ける。",
+      "target_id": "usage_note:012"
+    },
+    {
+      "id": "usage_note:013",
+      "status": "pass",
+      "notes": "「`a legally constituted officer` は「構成された役職者」という逐語訳ではなく、「法に基づいて正式に任命された役職者」を意味する。」— 意味方向・統語・範囲を明確にし、絶対化や機械的判定を避ける。",
+      "target_id": "usage_note:013"
+    },
+    {
+      "id": "synonym:012",
+      "status": "pass",
+      "notes": "「・appoint\n定義: 人を役職・職務に正式に就ける。\n頻度: 〈9/10〉\n違い: appoint は現代英語の標準表現で、constitute より広く自然に使う。constitute は法律・公文書などの硬い公式文体に現れる。\n例: The board appointed Maya treasurer.\n訳: 取締役会はマヤを会計責任者に任命した。」— 類義語との範囲、方向、レジスター、焦点の差が語義と矛盾しない。",
+      "target_id": "synonym:012"
+    },
+    {
+      "id": "synonym:013",
+      "status": "pass",
+      "notes": "「・designate\n定義: 人を特定の役割・地位の担当者として公式に指定する。\n頻度: 〈7/10〉\n違い: designate は役割を割り当て、明示することに焦点がある。constitute は法律・公式文体で、人をその役職・地位に正式に就けることを表す。\n例: The minister designated Lee as the official spokesperson.\n訳: 大臣はリーを公式報道官に指定した。」— 類義語との範囲、方向、レジスター、焦点の差が語義と矛盾しない。",
+      "target_id": "synonym:013"
+    },
+    {
+      "id": "synonym:014",
+      "status": "pass",
+      "notes": "「・name\n定義: 人を役職・候補・受賞者などとして発表・指定する。\n頻度: 〈9/10〉\n違い: name は簡潔で一般的であり、発表・選定に焦点がある。constitute は法律・制度上の役職へ正式に任命する文脈で使われる。\n例: The council named Rivera chair of the committee.\n訳: 評議会はリベラを委員会の議長に指名した。」— 類義語との範囲、方向、レジスター、焦点の差が語義と矛盾しない。",
+      "target_id": "synonym:014"
+    }
+  ],
+  "relation_results": [
+    {
+      "id": "risk_sense_pair:001",
+      "status": "pass",
+      "notes": "「記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: usage_note:005 explicitly contrasts sense 2 with sense 1」— 参照語義は部分→全体、分類該当、制度的設立、人物任命の最小差で区別される。 対象ID: sense_boundary:001, sense_boundary:002。",
+      "relation_id": "risk_sense_pair:001"
+    },
+    {
+      "id": "risk_sense_pair:002",
+      "status": "pass",
+      "notes": "「記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: usage_note:007 explicitly contrasts sense 3 with sense 1; usage_note:009 explicitly contrasts sense 3 with sense 1」— 参照語義は部分→全体、分類該当、制度的設立、人物任命の最小差で区別される。 対象ID: sense_boundary:001, sense_boundary:003。",
+      "relation_id": "risk_sense_pair:002"
+    },
+    {
+      "id": "risk_sense_pair:003",
+      "status": "pass",
+      "notes": "「記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: usage_note:012 explicitly contrasts sense 4 with sense 3」— 参照語義は部分→全体、分類該当、制度的設立、人物任命の最小差で区別される。 対象ID: sense_boundary:003, sense_boundary:004。",
+      "relation_id": "risk_sense_pair:003"
+    },
+    {
+      "id": "example_translation:001",
+      "status": "pass",
+      "notes": "「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」— 対象の用途・英文・訳は意味役割、肯否、数量、法、時制、修飾範囲を保存する。 対象ID: collocation:001。",
+      "relation_id": "example_translation:001"
+    },
+    {
+      "id": "example_translation:002",
+      "status": "pass",
+      "notes": "「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」— 対象の用途・英文・訳は意味役割、肯否、数量、法、時制、修飾範囲を保存する。 対象ID: collocation:002。",
+      "relation_id": "example_translation:002"
+    },
+    {
+      "id": "example_translation:003",
+      "status": "pass",
+      "notes": "「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」— 対象の用途・英文・訳は意味役割、肯否、数量、法、時制、修飾範囲を保存する。 対象ID: collocation:003。",
+      "relation_id": "example_translation:003"
+    },
+    {
+      "id": "example_translation:004",
+      "status": "pass",
+      "notes": "「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」— 対象の用途・英文・訳は意味役割、肯否、数量、法、時制、修飾範囲を保存する。 対象ID: collocation:004。",
+      "relation_id": "example_translation:004"
+    },
+    {
+      "id": "example_translation:005",
+      "status": "pass",
+      "notes": "「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」— 対象の用途・英文・訳は意味役割、肯否、数量、法、時制、修飾範囲を保存する。 対象ID: collocation:005。",
+      "relation_id": "example_translation:005"
+    },
+    {
+      "id": "example_translation:006",
+      "status": "pass",
+      "notes": "「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」— 対象の用途・英文・訳は意味役割、肯否、数量、法、時制、修飾範囲を保存する。 対象ID: collocation:006。",
+      "relation_id": "example_translation:006"
+    },
+    {
+      "id": "example_translation:007",
+      "status": "pass",
+      "notes": "「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」— 対象の用途・英文・訳は意味役割、肯否、数量、法、時制、修飾範囲を保存する。 対象ID: collocation:007。",
+      "relation_id": "example_translation:007"
+    },
+    {
+      "id": "example_translation:008",
+      "status": "pass",
+      "notes": "「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」— 対象の用途・英文・訳は意味役割、肯否、数量、法、時制、修飾範囲を保存する。 対象ID: collocation:008。",
+      "relation_id": "example_translation:008"
+    },
+    {
+      "id": "example_translation:009",
+      "status": "pass",
+      "notes": "「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」— 対象の用途・英文・訳は意味役割、肯否、数量、法、時制、修飾範囲を保存する。 対象ID: collocation:009。",
+      "relation_id": "example_translation:009"
+    },
+    {
+      "id": "example_translation:010",
+      "status": "pass",
+      "notes": "「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」— 対象の用途・英文・訳は意味役割、肯否、数量、法、時制、修飾範囲を保存する。 対象ID: collocation:010。",
+      "relation_id": "example_translation:010"
+    },
+    {
+      "id": "example_translation:011",
+      "status": "pass",
+      "notes": "「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」— 対象の用途・英文・訳は意味役割、肯否、数量、法、時制、修飾範囲を保存する。 対象ID: collocation:011。",
+      "relation_id": "example_translation:011"
+    },
+    {
+      "id": "example_translation:012",
+      "status": "pass",
+      "notes": "「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」— 対象の用途・英文・訳は意味役割、肯否、数量、法、時制、修飾範囲を保存する。 対象ID: collocation:012。",
+      "relation_id": "example_translation:012"
+    },
+    {
+      "id": "example_translation:013",
+      "status": "pass",
+      "notes": "「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」— 対象の用途・英文・訳は意味役割、肯否、数量、法、時制、修飾範囲を保存する。 対象ID: collocation:013。",
+      "relation_id": "example_translation:013"
+    },
+    {
+      "id": "example_translation:014",
+      "status": "pass",
+      "notes": "「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」— 対象の用途・英文・訳は意味役割、肯否、数量、法、時制、修飾範囲を保存する。 対象ID: collocation:014。",
+      "relation_id": "example_translation:014"
+    },
+    {
+      "id": "example_translation:015",
+      "status": "pass",
+      "notes": "「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」— 対象の用途・英文・訳は意味役割、肯否、数量、法、時制、修飾範囲を保存する。 対象ID: collocation:015。",
+      "relation_id": "example_translation:015"
+    },
+    {
+      "id": "example_translation:016",
+      "status": "pass",
+      "notes": "「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」— 対象の用途・英文・訳は意味役割、肯否、数量、法、時制、修飾範囲を保存する。 対象ID: collocation:016。",
+      "relation_id": "example_translation:016"
+    },
+    {
+      "id": "example_translation:017",
+      "status": "pass",
+      "notes": "「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」— 対象の用途・英文・訳は意味役割、肯否、数量、法、時制、修飾範囲を保存する。 対象ID: collocation:017。",
+      "relation_id": "example_translation:017"
+    },
+    {
+      "id": "example_translation:018",
+      "status": "pass",
+      "notes": "「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」— 対象の用途・英文・訳は意味役割、肯否、数量、法、時制、修飾範囲を保存する。 対象ID: collocation:018。",
+      "relation_id": "example_translation:018"
+    },
+    {
+      "id": "example_translation:019",
+      "status": "pass",
+      "notes": "「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」— 対象の用途・英文・訳は意味役割、肯否、数量、法、時制、修飾範囲を保存する。 対象ID: collocation:019。",
+      "relation_id": "example_translation:019"
+    },
+    {
+      "id": "sense_definition_consistency:001",
+      "status": "pass",
+      "notes": "「語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。」— 見出しと定義の範囲・意味役割は一致し、過剰断定がない。 対象ID: sense_boundary:001, definition:001。",
+      "relation_id": "sense_definition_consistency:001"
+    },
+    {
+      "id": "definition_usage_consistency:001",
+      "status": "pass",
+      "notes": "「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」— 定義と注意は同じ境界を共有し、方向・レジスター・例外範囲が矛盾しない。 対象ID: sense_boundary:001, definition:001, usage_note:001。",
+      "relation_id": "definition_usage_consistency:001"
+    },
+    {
+      "id": "definition_usage_consistency:002",
+      "status": "pass",
+      "notes": "「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」— 定義と注意は同じ境界を共有し、方向・レジスター・例外範囲が矛盾しない。 対象ID: sense_boundary:001, definition:001, usage_note:002。",
+      "relation_id": "definition_usage_consistency:002"
+    },
+    {
+      "id": "definition_usage_consistency:003",
+      "status": "pass",
+      "notes": "「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」— 定義と注意は同じ境界を共有し、方向・レジスター・例外範囲が矛盾しない。 対象ID: sense_boundary:001, definition:001, usage_note:003。",
+      "relation_id": "definition_usage_consistency:003"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:001",
+      "status": "pass",
+      "notes": "「語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。」— 定義と類義語群は同義性を過大化せず、方向、一般性、公式性、焦点の差を示す。 対象ID: sense_boundary:001, definition:001, synonym:001, synonym:002, synonym:003, synonym:004。",
+      "relation_id": "definition_lexical_relation_consistency:001"
+    },
+    {
+      "id": "pattern_example_coverage:001",
+      "status": "pass",
+      "notes": "「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」— パターンは同一語義の用例群と統語・意味役割が整合し、主要フレームに自然な例がある。 対象ID: grammar_pattern:001, collocation:001, collocation:002, collocation:003, collocation:004, collocation:005。",
+      "relation_id": "pattern_example_coverage:001"
+    },
+    {
+      "id": "pattern_example_coverage:002",
+      "status": "pass",
+      "notes": "「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」— パターンは同一語義の用例群と統語・意味役割が整合し、主要フレームに自然な例がある。 対象ID: grammar_pattern:002, collocation:001, collocation:002, collocation:003, collocation:004, collocation:005。",
+      "relation_id": "pattern_example_coverage:002"
+    },
+    {
+      "id": "pattern_example_coverage:003",
+      "status": "pass",
+      "notes": "「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」— パターンは同一語義の用例群と統語・意味役割が整合し、主要フレームに自然な例がある。 対象ID: grammar_pattern:003, collocation:001, collocation:002, collocation:003, collocation:004, collocation:005。",
+      "relation_id": "pattern_example_coverage:003"
+    },
+    {
+      "id": "sense_definition_consistency:002",
+      "status": "pass",
+      "notes": "「語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。」— 見出しと定義の範囲・意味役割は一致し、過剰断定がない。 対象ID: sense_boundary:002, definition:002。",
+      "relation_id": "sense_definition_consistency:002"
+    },
+    {
+      "id": "definition_usage_consistency:004",
+      "status": "pass",
+      "notes": "「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」— 定義と注意は同じ境界を共有し、方向・レジスター・例外範囲が矛盾しない。 対象ID: sense_boundary:002, definition:002, usage_note:004。",
+      "relation_id": "definition_usage_consistency:004"
+    },
+    {
+      "id": "definition_usage_consistency:005",
+      "status": "pass",
+      "notes": "「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」— 定義と注意は同じ境界を共有し、方向・レジスター・例外範囲が矛盾しない。 対象ID: sense_boundary:002, definition:002, usage_note:005。",
+      "relation_id": "definition_usage_consistency:005"
+    },
+    {
+      "id": "definition_usage_consistency:006",
+      "status": "pass",
+      "notes": "「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」— 定義と注意は同じ境界を共有し、方向・レジスター・例外範囲が矛盾しない。 対象ID: sense_boundary:002, definition:002, usage_note:006。",
+      "relation_id": "definition_usage_consistency:006"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:002",
+      "status": "pass",
+      "notes": "「語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。」— 定義と類義語群は同義性を過大化せず、方向、一般性、公式性、焦点の差を示す。 対象ID: sense_boundary:002, definition:002, synonym:005, synonym:006, synonym:007, synonym:008。",
+      "relation_id": "definition_lexical_relation_consistency:002"
+    },
+    {
+      "id": "pattern_example_coverage:004",
+      "status": "pass",
+      "notes": "「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」— パターンは同一語義の用例群と統語・意味役割が整合し、主要フレームに自然な例がある。 対象ID: grammar_pattern:004, collocation:006, collocation:007, collocation:008, collocation:009, collocation:010, collocation:011。",
+      "relation_id": "pattern_example_coverage:004"
+    },
+    {
+      "id": "pattern_example_coverage:005",
+      "status": "pass",
+      "notes": "「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」— パターンは同一語義の用例群と統語・意味役割が整合し、主要フレームに自然な例がある。 対象ID: grammar_pattern:005, collocation:006, collocation:007, collocation:008, collocation:009, collocation:010, collocation:011。",
+      "relation_id": "pattern_example_coverage:005"
+    },
+    {
+      "id": "pattern_example_coverage:006",
+      "status": "pass",
+      "notes": "「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」— パターンは同一語義の用例群と統語・意味役割が整合し、主要フレームに自然な例がある。 対象ID: grammar_pattern:006, collocation:006, collocation:007, collocation:008, collocation:009, collocation:010, collocation:011。",
+      "relation_id": "pattern_example_coverage:006"
+    },
+    {
+      "id": "pattern_example_coverage:007",
+      "status": "pass",
+      "notes": "「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」— パターンは同一語義の用例群と統語・意味役割が整合し、主要フレームに自然な例がある。 対象ID: grammar_pattern:007, collocation:006, collocation:007, collocation:008, collocation:009, collocation:010, collocation:011。",
+      "relation_id": "pattern_example_coverage:007"
+    },
+    {
+      "id": "sense_definition_consistency:003",
+      "status": "pass",
+      "notes": "「語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。」— 見出しと定義の範囲・意味役割は一致し、過剰断定がない。 対象ID: sense_boundary:003, definition:003。",
+      "relation_id": "sense_definition_consistency:003"
+    },
+    {
+      "id": "definition_usage_consistency:007",
+      "status": "pass",
+      "notes": "「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」— 定義と注意は同じ境界を共有し、方向・レジスター・例外範囲が矛盾しない。 対象ID: sense_boundary:003, definition:003, usage_note:007。",
+      "relation_id": "definition_usage_consistency:007"
+    },
+    {
+      "id": "definition_usage_consistency:008",
+      "status": "pass",
+      "notes": "「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」— 定義と注意は同じ境界を共有し、方向・レジスター・例外範囲が矛盾しない。 対象ID: sense_boundary:003, definition:003, usage_note:008。",
+      "relation_id": "definition_usage_consistency:008"
+    },
+    {
+      "id": "definition_usage_consistency:009",
+      "status": "pass",
+      "notes": "「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」— 定義と注意は同じ境界を共有し、方向・レジスター・例外範囲が矛盾しない。 対象ID: sense_boundary:003, definition:003, usage_note:009。",
+      "relation_id": "definition_usage_consistency:009"
+    },
+    {
+      "id": "definition_usage_consistency:010",
+      "status": "pass",
+      "notes": "「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」— 定義と注意は同じ境界を共有し、方向・レジスター・例外範囲が矛盾しない。 対象ID: sense_boundary:003, definition:003, usage_note:010。",
+      "relation_id": "definition_usage_consistency:010"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:003",
+      "status": "pass",
+      "notes": "「語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。」— 定義と類義語群は同義性を過大化せず、方向、一般性、公式性、焦点の差を示す。 対象ID: sense_boundary:003, definition:003, synonym:009, synonym:010, synonym:011。",
+      "relation_id": "definition_lexical_relation_consistency:003"
+    },
+    {
+      "id": "pattern_example_coverage:008",
+      "status": "pass",
+      "notes": "「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」— パターンは同一語義の用例群と統語・意味役割が整合し、主要フレームに自然な例がある。 対象ID: grammar_pattern:008, collocation:012, collocation:013, collocation:014, collocation:015, collocation:016。",
+      "relation_id": "pattern_example_coverage:008"
+    },
+    {
+      "id": "pattern_example_coverage:009",
+      "status": "pass",
+      "notes": "「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」— 特殊法律用法は F005/U007 が直接支え、同語義の body 例と定義・語法の限定で範囲が閉じる。agreement の独立例追加は任意改善である。 対象ID: grammar_pattern:009, collocation:012, collocation:013, collocation:014, collocation:015, collocation:016。",
+      "relation_id": "pattern_example_coverage:009"
+    },
+    {
+      "id": "pattern_example_coverage:010",
+      "status": "pass",
+      "notes": "「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」— パターンは同一語義の用例群と統語・意味役割が整合し、主要フレームに自然な例がある。 対象ID: grammar_pattern:010, collocation:012, collocation:013, collocation:014, collocation:015, collocation:016。",
+      "relation_id": "pattern_example_coverage:010"
+    },
+    {
+      "id": "pattern_example_coverage:011",
+      "status": "pass",
+      "notes": "「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」— パターンは同一語義の用例群と統語・意味役割が整合し、主要フレームに自然な例がある。 対象ID: grammar_pattern:011, collocation:012, collocation:013, collocation:014, collocation:015, collocation:016。",
+      "relation_id": "pattern_example_coverage:011"
+    },
+    {
+      "id": "sense_definition_consistency:004",
+      "status": "pass",
+      "notes": "「語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。」— 見出しと定義の範囲・意味役割は一致し、過剰断定がない。 対象ID: sense_boundary:004, definition:004。",
+      "relation_id": "sense_definition_consistency:004"
+    },
+    {
+      "id": "definition_usage_consistency:011",
+      "status": "pass",
+      "notes": "「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」— 定義と注意は同じ境界を共有し、方向・レジスター・例外範囲が矛盾しない。 対象ID: sense_boundary:004, definition:004, usage_note:011。",
+      "relation_id": "definition_usage_consistency:011"
+    },
+    {
+      "id": "definition_usage_consistency:012",
+      "status": "pass",
+      "notes": "「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」— 定義と注意は同じ境界を共有し、方向・レジスター・例外範囲が矛盾しない。 対象ID: sense_boundary:004, definition:004, usage_note:012。",
+      "relation_id": "definition_usage_consistency:012"
+    },
+    {
+      "id": "definition_usage_consistency:013",
+      "status": "pass",
+      "notes": "「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」— 定義と注意は同じ境界を共有し、方向・レジスター・例外範囲が矛盾しない。 対象ID: sense_boundary:004, definition:004, usage_note:013。",
+      "relation_id": "definition_usage_consistency:013"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:004",
+      "status": "pass",
+      "notes": "「語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。」— 定義と類義語群は同義性を過大化せず、方向、一般性、公式性、焦点の差を示す。 対象ID: sense_boundary:004, definition:004, synonym:012, synonym:013, synonym:014。",
+      "relation_id": "definition_lexical_relation_consistency:004"
+    },
+    {
+      "id": "pattern_example_coverage:012",
+      "status": "pass",
+      "notes": "「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」— パターンは同一語義の用例群と統語・意味役割が整合し、主要フレームに自然な例がある。 対象ID: grammar_pattern:012, collocation:017, collocation:018, collocation:019。",
+      "relation_id": "pattern_example_coverage:012"
+    },
+    {
+      "id": "pattern_example_coverage:013",
+      "status": "pass",
+      "notes": "「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」— パターンは同一語義の用例群と統語・意味役割が整合し、主要フレームに自然な例がある。 対象ID: grammar_pattern:013, collocation:017, collocation:018, collocation:019。",
+      "relation_id": "pattern_example_coverage:013"
+    },
+    {
+      "id": "pattern_example_coverage:014",
+      "status": "pass",
+      "notes": "「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」— パターンは同一語義の用例群と統語・意味役割が整合し、主要フレームに自然な例がある。 対象ID: grammar_pattern:014, collocation:017, collocation:018, collocation:019。",
+      "relation_id": "pattern_example_coverage:014"
+    },
+    {
+      "id": "core_inventory_consistency:001",
+      "status": "pass",
+      "notes": "「語義番号を限定しない総括的なコアイメージが、記事の語義目録全体を不当に一般化していないことを確認する。」— 総括は四語義を状態関係と成立行為に分け、不当に一般化しない。 対象ID: core_image:001, sense_boundary:001, sense_boundary:002, sense_boundary:003, sense_boundary:004。",
+      "relation_id": "core_inventory_consistency:001"
+    },
+    {
+      "id": "core_sense_mapping:001",
+      "status": "pass",
+      "notes": "「コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。」— コアイメージの枝と定義・注意が対応し、現代語義と歴史語義を混同しない。 対象ID: core_image:002, sense_boundary:001, definition:001, usage_note:001, usage_note:002, usage_note:003。",
+      "relation_id": "core_sense_mapping:001"
+    },
+    {
+      "id": "core_sense_mapping:002",
+      "status": "pass",
+      "notes": "「コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。」— コアイメージの枝と定義・注意が対応し、現代語義と歴史語義を混同しない。 対象ID: core_image:003, sense_boundary:002, definition:002, usage_note:004, usage_note:005, usage_note:006。",
+      "relation_id": "core_sense_mapping:002"
+    },
+    {
+      "id": "core_sense_mapping:003",
+      "status": "pass",
+      "notes": "「コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。」— コアイメージの枝と定義・注意が対応し、現代語義と歴史語義を混同しない。 対象ID: core_image:004, sense_boundary:003, definition:003, usage_note:007, usage_note:008, usage_note:009, usage_note:010。",
+      "relation_id": "core_sense_mapping:003"
+    },
+    {
+      "id": "core_sense_mapping:004",
+      "status": "pass",
+      "notes": "「コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。」— コアイメージの枝と定義・注意が対応し、現代語義と歴史語義を混同しない。 対象ID: core_image:005, sense_boundary:004, definition:004, usage_note:011, usage_note:012, usage_note:013。",
+      "relation_id": "core_sense_mapping:004"
+    },
+    {
+      "id": "article_learning_risk:001",
+      "status": "pass",
+      "notes": "「記事全体の語義構成、対比、訳語、限定表現から学習者が誤った一般化をしないことを横断確認する。」— 構成・分類・設立・任命の方向、範囲、訳語、限定が一貫し、誤一般化を誘発しない。 対象ID: core_image:001, core_image:002, core_image:003, core_image:004, core_image:005, sense_boundary:001, definition:001, usage_note:001, usage_note:002, usage_note:003, sense_boundary:002, definition:002, usage_note:004, usage_note:005, usage_note:006, sense_boundary:003, definition:003, usage_note:007, usage_note:008, usage_note:009, usage_note:010, sense_boundary:004, definition:004, usage_note:011, usage_note:012, usage_note:013。",
+      "relation_id": "article_learning_risk:001"
+    }
+  ],
+  "normal_candidate_results": [],
+  "blind_candidate_results": [
+    {
+      "id": "IC-01",
+      "status": "pass",
+      "notes": "「〈parts/members〉 constitute 〈whole/group〉」／「複数の部分・構成員が全体を構成する」— disposition=included は本文の語義境界と一致する。",
+      "assertion_ids": [
+        "IC-01-A1",
+        "IC-01-A2"
+      ],
+      "verified_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d",
+      "assertion_results": [
+        {
+          "id": "IC-01-A1",
+          "status": "pass",
+          "notes": "「主語は目的語で表される全体の構成要素または構成員でなければならない。」— scope=能動態の parts-to-whole 構文 で polarity=must_hold を満たし、反対方向・過剰包含・無標化がない。"
+        },
+        {
+          "id": "IC-01-A2",
+          "status": "pass",
+          "notes": "「このフレームを、全体を主語にして部分を目的語に取る方向として説明してはならない。」— scope=能動態の意味役割 で polarity=must_not_hold を満たし、反対方向・過剰包含・無標化がない。"
+        }
+      ]
+    },
+    {
+      "id": "IC-02",
+      "status": "pass",
+      "notes": "「〈group/category/item〉 constitute 〈percentage/majority/minority/part〉 (of 〈whole〉)」／「ある集団・項目が全体に占める割合または部分量を表す」— disposition=included は本文の語義境界と一致する。",
+      "assertion_ids": [
+        "IC-02-A1",
+        "IC-02-A2"
+      ],
+      "verified_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d",
+      "assertion_results": [
+        {
+          "id": "IC-02-A1",
+          "status": "pass",
+          "notes": "「目的語は主語が占める割合・多数／少数区分・部分量を表さなければならない。」— scope=割合・部分量フレーム で polarity=must_hold を満たし、反対方向・過剰包含・無標化がない。"
+        },
+        {
+          "id": "IC-02-A2",
+          "status": "pass",
+          "notes": "「of 句の全体は、文脈から回復できる場合に限って省略可能である。」— scope=割合・部分量フレームの省略 で polarity=must_hold を満たし、反対方向・過剰包含・無標化がない。"
+        }
+      ]
+    },
+    {
+      "id": "IC-03",
+      "status": "pass",
+      "notes": "「〈whole〉 be constituted of 〈parts/materials〉」／「全体が複数の部分・材料から構成されている」— disposition=included は本文の語義境界と一致する。",
+      "assertion_ids": [
+        "IC-03-A1"
+      ],
+      "verified_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d",
+      "assertion_results": [
+        {
+          "id": "IC-03-A1",
+          "status": "pass",
+          "notes": "「主語は全体で、of 句はその構成要素または材料でなければならない。」— scope=be constituted of 構文 で polarity=must_hold を満たし、反対方向・過剰包含・無標化がない。"
+        }
+      ]
+    },
+    {
+      "id": "IC-04",
+      "status": "pass",
+      "notes": "「〈act/fact/situation/result〉 constitute 〈category/evaluation/state〉」／「行為・事実・状況などが分類・評価・状態に該当する」— disposition=included は本文の語義境界と一致する。",
+      "assertion_ids": [
+        "IC-04-A1",
+        "IC-04-A2"
+      ],
+      "verified_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d",
+      "assertion_results": [
+        {
+          "id": "IC-04-A1",
+          "status": "pass",
+          "notes": "「主語は目的語が表す分類・評価・状態の成立条件に該当すると判断されなければならない。」— scope=分類・評価用法 で polarity=must_hold を満たし、反対方向・過剰包含・無標化がない。"
+        },
+        {
+          "id": "IC-04-A2",
+          "status": "pass",
+          "notes": "「constitute 自体を、その分類対象を引き起こす cause の意味として扱ってはならない。」— scope=分類・評価用法 で polarity=must_not_hold を満たし、反対方向・過剰包含・無標化がない。"
+        }
+      ]
+    },
+    {
+      "id": "IC-05",
+      "status": "pass",
+      "notes": "「〈evidence/act/silence/etc.〉 does not constitute 〈proof/consent/approval/etc.〉」／「ある材料や行為だけでは所定の証明・同意・承認に該当するほど十分ではない」— disposition=included は本文の語義境界と一致する。",
+      "assertion_ids": [
+        "IC-05-A1",
+        "IC-05-A2"
+      ],
+      "verified_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d",
+      "assertion_results": [
+        {
+          "id": "IC-05-A1",
+          "status": "pass",
+          "notes": "「否定は、主語が目的語の分類に達するための十分条件を満たさないことに作用しなければならない。」— scope=否定された分類フレーム で polarity=must_hold を満たし、反対方向・過剰包含・無標化がない。"
+        },
+        {
+          "id": "IC-05-A2",
+          "status": "pass",
+          "notes": "「このフレームを、主語が証拠によって何かを証明するという他動的な prove の意味にしてはならない。」— scope=proof/evidence を伴う否定フレーム で polarity=must_not_hold を満たし、反対方向・過剰包含・無標化がない。"
+        }
+      ]
+    },
+    {
+      "id": "IC-06",
+      "status": "pass",
+      "notes": "「what constitutes 〈category/standard〉」／「何が特定の分類・基準を成立させるかを問う・定義する」— disposition=included は本文の語義境界と一致する。",
+      "assertion_ids": [
+        "IC-06-A1"
+      ],
+      "verified_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d",
+      "assertion_results": [
+        {
+          "id": "IC-06-A1",
+          "status": "pass",
+          "notes": "「what は、目的語の分類・基準に該当する内容または条件を表さなければならない。」— scope=what constitutes フレーム で polarity=must_hold を満たし、反対方向・過剰包含・無標化がない。"
+        }
+      ]
+    },
+    {
+      "id": "IC-07",
+      "status": "pass",
+      "notes": "「〈communications/documents/conduct/terms〉 constitute 〈agreement/contract〉」／「複数の言動・文書・条項などが総体として合意・契約に当たる」— disposition=included は本文の語義境界と一致する。",
+      "assertion_ids": [
+        "IC-07-A1",
+        "IC-07-A2"
+      ],
+      "verified_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d",
+      "assertion_results": [
+        {
+          "id": "IC-07-A1",
+          "status": "pass",
+          "notes": "「主語となる言動・文書・条項が、目的語の合意・契約に該当するか、その成立条件を満たす関係でなければならない。」— scope=agreement/contract を目的語にする分類フレーム で polarity=must_hold を満たし、反対方向・過剰包含・無標化がない。"
+        },
+        {
+          "id": "IC-07-A2",
+          "status": "pass",
+          "notes": "「agreement/contract を、権限主体が目的語として法的形式に整える組織設立フレームへ自動的に移してはならない。」— scope=agreement/contract の語義帰属 で polarity=must_not_hold を満たし、反対方向・過剰包含・無標化がない。"
+        }
+      ]
+    },
+    {
+      "id": "IC-08",
+      "status": "pass",
+      "notes": "「〈authority/institution/parties〉 constitute 〈committee/body/court/government〉」／「権限主体などが組織・機関を公式に設立する」— disposition=included は本文の語義境界と一致する。",
+      "assertion_ids": [
+        "IC-08-A1",
+        "IC-08-A2"
+      ],
+      "verified_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d",
+      "assertion_results": [
+        {
+          "id": "IC-08-A1",
+          "status": "pass",
+          "notes": "「主語は組織体を公式に設ける行為主体で、目的語はその行為により成立する組織体でなければならない。」— scope=組織設立の能動フレーム で polarity=must_hold を満たし、反対方向・過剰包含・無標化がない。"
+        },
+        {
+          "id": "IC-08-A2",
+          "status": "pass",
+          "notes": "「単なる構成員と全体の静的関係を、公式な設立行為として扱ってはならない。」— scope=組織設立と部分―全体の境界 で polarity=must_not_hold を満たし、反対方向・過剰包含・無標化がない。"
+        }
+      ]
+    },
+    {
+      "id": "IC-09",
+      "status": "pass",
+      "notes": "「〈body〉 be constituted under/by 〈law/charter/authority〉」／「機関が法律・憲章・権限主体を根拠または設立主体として公式に成立する」— disposition=included は本文の語義境界と一致する。",
+      "assertion_ids": [
+        "IC-09-A1",
+        "IC-09-A2"
+      ],
+      "verified_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d",
+      "assertion_results": [
+        {
+          "id": "IC-09-A1",
+          "status": "pass",
+          "notes": "「under 句は通常、機関の設立根拠となる法・憲章を表さなければならない。」— scope=be constituted under フレーム で polarity=must_hold を満たし、反対方向・過剰包含・無標化がない。"
+        },
+        {
+          "id": "IC-09-A2",
+          "status": "pass",
+          "notes": "「by 句は文脈により設立主体または構成要素となるため、前置詞だけで語義を固定してはならない。」— scope=be constituted by の曖昧性 で polarity=must_not_hold を満たし、反対方向・過剰包含・無標化がない。"
+        }
+      ]
+    },
+    {
+      "id": "IC-10",
+      "status": "pass",
+      "notes": "「a duly/properly/legally constituted 〈body/authority/meeting〉」／「機関・権限主体・会議が必要な手続きや構成要件を満たして正式に成立している」— disposition=included は本文の語義境界と一致する。",
+      "assertion_ids": [
+        "IC-10-A1",
+        "IC-10-A2"
+      ],
+      "verified_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d",
+      "assertion_results": [
+        {
+          "id": "IC-10-A1",
+          "status": "pass",
+          "notes": "「修飾対象そのものが必要な法的・手続的・構成上の要件を満たして成立していなければならない。」— scope=duly/properly/legally constituted の分詞修飾 で polarity=must_hold を満たし、反対方向・過剰包含・無標化がない。"
+        },
+        {
+          "id": "IC-10-A2",
+          "status": "pass",
+          "notes": "「その修飾対象が行うすべての個別行為の適法性まで含意してはならない。」— scope=分詞修飾の含意範囲 で polarity=must_not_hold を満たし、反対方向・過剰包含・無標化がない。"
+        }
+      ]
+    },
+    {
+      "id": "IC-11",
+      "status": "pass",
+      "notes": "「〈authority/law/document〉 constitute someone 〈office/role〉」／「権限者・法・公式文書が人を役職・役割に正式に任命する」— disposition=included は本文の語義境界と一致する。",
+      "assertion_ids": [
+        "IC-11-A1",
+        "IC-11-A2"
+      ],
+      "verified_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d",
+      "assertion_results": [
+        {
+          "id": "IC-11-A1",
+          "status": "pass",
+          "notes": "「直接目的語は任命される人、目的格補語はその人に付与される役職・役割でなければならない。」— scope=人の任命を表す能動フレーム で polarity=must_hold を満たし、反対方向・過剰包含・無標化がない。"
+        },
+        {
+          "id": "IC-11-A2",
+          "status": "pass",
+          "notes": "「一般的な現代文体で appoint と同程度に無標な表現として扱ってはならない。」— scope=任命用法のレジスター で polarity=must_not_hold を満たし、反対方向・過剰包含・無標化がない。"
+        }
+      ]
+    },
+    {
+      "id": "IC-12",
+      "status": "pass",
+      "notes": "「someone be constituted 〈office/role〉」／「人が役職・役割に正式に任命される」— disposition=included は本文の語義境界と一致する。",
+      "assertion_ids": [
+        "IC-12-A1"
+      ],
+      "verified_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d",
+      "assertion_results": [
+        {
+          "id": "IC-12-A1",
+          "status": "pass",
+          "notes": "「主語は任命される人で、補語は付与される役職・役割でなければならない。」— scope=人の任命を表す受動フレーム で polarity=must_hold を満たし、反対方向・過剰包含・無標化がない。"
+        }
+      ]
+    },
+    {
+      "id": "IC-13",
+      "status": "pass",
+      "notes": "「a legally constituted 〈officer/official〉」／「法や制度に基づいて正式な地位・権限を与えられた役職者」— disposition=included は本文の語義境界と一致する。",
+      "assertion_ids": [
+        "IC-13-A1"
+      ],
+      "verified_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d",
+      "assertion_results": [
+        {
+          "id": "IC-13-A1",
+          "status": "pass",
+          "notes": "「修飾される役職者は、法または制度上の正規の根拠により地位・権限を得ていなければならない。」— scope=役職者を修飾する legally constituted で polarity=must_hold を満たし、反対方向・過剰包含・無標化がない。"
+        }
+      ]
+    },
+    {
+      "id": "IC-14",
+      "status": "pass",
+      "notes": "「constitute as 〈category/role〉」／「as を介して分類・評価または任命を表す一般的な基本構文」— disposition=excluded は本文の語義境界と一致する。",
+      "assertion_ids": [
+        "IC-14-A1"
+      ],
+      "verified_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d",
+      "assertion_results": [
+        {
+          "id": "IC-14-A1",
+          "status": "pass",
+          "notes": "「分類・評価用法の標準フレームに as を必須要素として立ててはならない。」— scope=分類・評価用法の補文型 で polarity=must_not_hold を満たし、反対方向・過剰包含・無標化がない。"
+        }
+      ]
+    },
+    {
+      "id": "IC-15",
+      "status": "pass",
+      "notes": "「〈authority/parties〉 constitute 〈agreement/contract〉」／「権限主体・当事者が契約を目的語に取り、それに所定の法的形式を与える」— disposition=excluded は本文の語義境界と一致する。",
+      "assertion_ids": [
+        "IC-15-A1"
+      ],
+      "verified_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d",
+      "assertion_results": [
+        {
+          "id": "IC-15-A1",
+          "status": "pass",
+          "notes": "「agreement/contract を目的語とするだけで、主語がその法的形式を整える使役的設立用法が成立するとしてはならない。」— 本文は agreement の全例を自動的に使役的法律用法へ移さず、法律文脈で「なり得る」と限定し、文脈で区別するため禁止条件を満たす。"
+        }
+      ]
+    },
+    {
+      "id": "IC-16",
+      "status": "pass",
+      "notes": "「派生名詞 constitution」／「構成・体質、または国家・組織の基本原則を定める憲法・規約」— disposition=included は本文の語義境界と一致する。",
+      "assertion_ids": [
+        "IC-16-A1"
+      ],
+      "verified_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d",
+      "assertion_results": [
+        {
+          "id": "IC-16-A1",
+          "status": "pass",
+          "notes": "「派生名詞は構成・体質の意味と、基本原則を定める憲法・規約の意味を区別して含まなければならない。」— scope=語形成欄の constitution で polarity=must_hold を満たし、反対方向・過剰包含・無標化がない。"
+        }
+      ]
+    },
+    {
+      "id": "IC-17",
+      "status": "pass",
+      "notes": "「派生形容詞 constitutional と派生副詞 constitutionally」／「構成上・体質上・憲法上の性質、またはその様態」— disposition=included は本文の語義境界と一致する。",
+      "assertion_ids": [
+        "IC-17-A1"
+      ],
+      "verified_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d",
+      "assertion_results": [
+        {
+          "id": "IC-17-A1",
+          "status": "pass",
+          "notes": "「形容詞と副詞の品詞差を保ち、体質的意味と憲法上の意味の双方を文脈に応じて認めなければならない。」— scope=語形成欄の constitutional / constitutionally で polarity=must_hold を満たし、反対方向・過剰包含・無標化がない。"
+        }
+      ]
+    },
+    {
+      "id": "IC-18",
+      "status": "pass",
+      "notes": "「派生名詞・形容詞 constituent」／「構成要素・選挙区民、または構成する性質」— disposition=included は本文の語義境界と一致する。",
+      "assertion_ids": [
+        "IC-18-A1",
+        "IC-18-A2"
+      ],
+      "verified_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d",
+      "assertion_results": [
+        {
+          "id": "IC-18-A1",
+          "status": "pass",
+          "notes": "「政治義の constituent は代表者を選ぶ constituency の構成員を指さなければならない。」— scope=語形成欄の政治義 constituent で polarity=must_hold を満たし、反対方向・過剰包含・無標化がない。"
+        },
+        {
+          "id": "IC-18-A2",
+          "status": "pass",
+          "notes": "「政治義を constitute の文法上の目的語という関係から定義してはならない。」— scope=語形成欄の政治義 constituent で polarity=must_not_hold を満たし、反対方向・過剰包含・無標化がない。"
+        }
+      ]
+    },
+    {
+      "id": "IC-19",
+      "status": "pass",
+      "notes": "「派生動詞 reconstitute 〈thing/substance〉」／「再構成する、元の状態へ戻す、または乾燥品などを液体で戻す」— disposition=included は本文の語義境界と一致する。",
+      "assertion_ids": [
+        "IC-19-A1"
+      ],
+      "verified_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d",
+      "assertion_results": [
+        {
+          "id": "IC-19-A1",
+          "status": "pass",
+          "notes": "「液体を加える専門用法では、乾燥・濃縮された対象を所定の状態または濃度へ戻す作用でなければならない。」— scope=語形成欄の reconstitute で polarity=must_hold を満たし、反対方向・過剰包含・無標化がない。"
+        }
+      ]
+    }
+  ],
+  "finding_results": [
+    {
+      "id": "normal-translation-001",
+      "status": "pass",
+      "notes": "adopted。account for は「説明できるか・占めるか」に修正され、数量的割合が復元された。"
+    },
+    {
+      "id": "normal-sense-structure-001",
+      "status": "pass",
+      "notes": "adopted。F005/U007 の限定的法律用法を語義3へ反映し、現本文上で再検査済みである。"
+    },
+    {
+      "id": "normal-qualification-001",
+      "status": "pass",
+      "notes": "adopted。政治義 constituent の構文上の絶対化は除去された。"
+    },
+    {
+      "id": "normal-evidence-001",
+      "status": "pass",
+      "notes": "adopted。米音 /tuːt/ を一般形とし、/tjuːt/ の変異も明記して F001/F009 と一致する。"
+    },
+    {
+      "id": "cold-constitute-001",
+      "status": "pass",
+      "notes": "adopted。割合フレームの of 句の文脈的省略を定義・パターン双方へ明記した。"
+    },
+    {
+      "id": "AF-01",
+      "status": "pass",
+      "notes": "rejected は妥当。F005/U007 は agreement/body に法的形式を与える法律用法を直接記録し、本文は文脈・可能性・法的効果の非保証で限定する。"
+    }
+  ],
+  "evidence_checks": [],
+  "source_inventory_results": [
+    {
+      "id": "U001",
+      "status": "pass",
+      "notes": "「Constitute has first-syllable primary stress, with UK /ɒ/ and /tjuːt/ and common US /ɑː/ and /tuːt/ realizations.」— disposition=included; source facts=F001, F009。本文はこの canonical statement と disposition を反映する。",
+      "union_id": "U001"
+    },
+    {
+      "id": "U002",
+      "status": "pass",
+      "notes": "「Constituted and constituting are listed as inflected forms of the transitive verb constitute.」— disposition=excluded; source facts=F002。除外理由が明示され、主要な現代学習範囲を欠かさない。",
+      "union_id": "U002"
+    },
+    {
+      "id": "U003",
+      "status": "pass",
+      "notes": "「Parts, members, or a category constitute a whole or a share of it in the parts-to-whole sense.」— disposition=included; source facts=F003, F011, F017。本文はこの canonical statement と disposition を反映する。",
+      "union_id": "U003"
+    },
+    {
+      "id": "U004",
+      "status": "pass",
+      "notes": "「An act, fact, or situation constitutes a category when it qualifies as or can be regarded as that category.」— disposition=included; source facts=F007, F010。本文はこの canonical statement と disposition を反映する。",
+      "union_id": "U004"
+    },
+    {
+      "id": "U005",
+      "status": "pass",
+      "notes": "「Constitute formally establishes and authorizes an institution, committee, government, court, or similar body.」— disposition=included; source facts=F004, F012, F016, F018。本文はこの canonical statement と disposition を反映する。",
+      "union_id": "U005"
+    },
+    {
+      "id": "U006",
+      "status": "pass",
+      "notes": "「In formal or legal language constitute can appoint a person to an office or function.」— disposition=included; source facts=F006, F013, F019。本文はこの canonical statement と disposition を反映する。",
+      "union_id": "U006"
+    },
+    {
+      "id": "U007",
+      "status": "pass",
+      "notes": "「Constitute can give a body or agreement the form required for legal validity.」— disposition=integrated; source facts=F005。F005 が直接支え、本文は法的効果を一律保証しない。",
+      "union_id": "U007"
+    },
+    {
+      "id": "U008",
+      "status": "pass",
+      "notes": "「The passive constituted of construction may identify the components of a whole.」— disposition=included; source facts=F014。本文はこの canonical statement と disposition を反映する。",
+      "union_id": "U008"
+    },
+    {
+      "id": "U009",
+      "status": "pass",
+      "notes": "「Constitute derives through Middle English from Latin constituere, built from com- and statuere and associated with setting or establishing.」— disposition=included; source facts=F008, F020。本文はこの canonical statement と disposition を反映する。",
+      "union_id": "U009"
+    },
+    {
+      "id": "U010",
+      "status": "pass",
+      "notes": "「Constitution is the related noun for makeup or structure and for fundamental governing principles or their document.」— disposition=included; source facts=F021。本文はこの canonical statement と disposition を反映する。",
+      "union_id": "U010"
+    },
+    {
+      "id": "U011",
+      "status": "pass",
+      "notes": "「Constitutional is the related adjective for bodily or structural makeup and for a governing constitution.」— disposition=included; source facts=F022。本文はこの canonical statement と disposition を反映する。",
+      "union_id": "U011"
+    },
+    {
+      "id": "U012",
+      "status": "pass",
+      "notes": "「Constitutionally is the adverb derived from constitutional.」— disposition=included; source facts=F023。本文はこの canonical statement と disposition を反映する。",
+      "union_id": "U012"
+    },
+    {
+      "id": "U013",
+      "status": "pass",
+      "notes": "「Constituent is a related noun for a component or constituency member and an adjective meaning forming a whole.」— disposition=included; source facts=F024, F025。本文はこの canonical statement と disposition を反映する。",
+      "union_id": "U013"
+    },
+    {
+      "id": "U014",
+      "status": "pass",
+      "notes": "「Reconstitute means constitute anew or restore a material by adding liquid.」— disposition=included; source facts=F026。本文はこの canonical statement と disposition を反映する。",
+      "union_id": "U014"
+    },
+    {
+      "id": "U015",
+      "status": "pass",
+      "notes": "「The physical set-or-place sense of constitute is archaic.」— disposition=excluded; source facts=F015。除外理由が明示され、主要な現代学習範囲を欠かさない。",
+      "union_id": "U015"
+    }
+  ],
+  "checker_recheck_results": [
+    {
+      "id": "translation",
+      "pass_id": "translation",
+      "status": "pass",
+      "notes": "mode=rechecked; schema_valid=true; reviewer_independent=true; request_binding_valid=true; validated_on_body_sha256=4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d。各 binding SHA-256 は manifest に固定される。"
+    },
+    {
+      "id": "sense-structure",
+      "pass_id": "sense-structure",
+      "status": "pass",
+      "notes": "mode=rechecked; schema_valid=true; reviewer_independent=true; request_binding_valid=true; validated_on_body_sha256=4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d。各 binding SHA-256 は manifest に固定される。"
+    },
+    {
+      "id": "frame-relation",
+      "pass_id": "frame-relation",
+      "status": "pass",
+      "notes": "mode=rechecked; schema_valid=true; reviewer_independent=true; request_binding_valid=true; validated_on_body_sha256=4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d。各 binding SHA-256 は manifest に固定される。"
+    },
+    {
+      "id": "example-attribution",
+      "pass_id": "example-attribution",
+      "status": "pass",
+      "notes": "mode=rechecked; schema_valid=true; reviewer_independent=true; request_binding_valid=true; validated_on_body_sha256=4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d。各 binding SHA-256 は manifest に固定される。"
+    },
+    {
+      "id": "qualification",
+      "pass_id": "qualification",
+      "status": "pass",
+      "notes": "mode=rechecked; schema_valid=true; reviewer_independent=true; request_binding_valid=true; validated_on_body_sha256=4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d。各 binding SHA-256 は manifest に固定される。"
+    },
+    {
+      "id": "pronunciation",
+      "pass_id": "pronunciation",
+      "status": "pass",
+      "notes": "mode=rechecked; schema_valid=true; reviewer_independent=true; request_binding_valid=true; validated_on_body_sha256=4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d。各 binding SHA-256 は manifest に固定される。"
+    },
+    {
+      "id": "evidence",
+      "pass_id": "evidence",
+      "status": "pass",
+      "notes": "mode=rechecked; schema_valid=true; reviewer_independent=true; request_binding_valid=true; validated_on_body_sha256=4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d。各 binding SHA-256 は manifest に固定される。"
+    }
+  ],
+  "chronology_results": [
+    {
+      "id": "body_hash_binding",
+      "check_id": "body_hash_binding",
+      "status": "pass",
+      "notes": "entry_body、pre-blind output、checker recheck、final blind、blind seal、post-blind verification は同じ本文 SHA-256 に一致する。"
+    },
+    {
+      "id": "cold_and_normal_before_revision",
+      "check_id": "cold_and_normal_before_revision",
+      "status": "pass",
+      "notes": "normal 03:18Z、cold 03:25:44Z は pre-blind revision 03:31:33Z より前である。"
+    },
+    {
+      "id": "revision_before_final_blind",
+      "check_id": "revision_before_final_blind",
+      "status": "pass",
+      "notes": "pre-blind revision 03:31:33Z は final blind 04:18:57.569127Z より前で、blind は修正後 hash に束縛される。"
+    },
+    {
+      "id": "final_blind_before_seal",
+      "check_id": "final_blind_before_seal",
+      "status": "pass",
+      "notes": "final blind 04:18:57.569127Z は seal 04:21:07Z より前で、blind/output SHA-256 も一致する。"
+    },
+    {
+      "id": "post_blind_completion",
+      "check_id": "post_blind_completion",
+      "status": "pass",
+      "notes": "AF-01 は resolved/rejected。本文変更なしのため final blind 再実行は不要で、checker_recheck_completed=true、attempt_number=1 である。"
+    }
+  ]
+}
