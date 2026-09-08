@@ -23,7 +23,7 @@
   "started_at": "2026-09-08T08:44:01Z",
   "deadline_at": "2026-09-08T09:44:01Z",
   "pre_draft_deadline_at": "2026-09-08T09:04:01Z",
-  "last_heartbeat_at": "2026-09-08T09:30:25Z",
+  "last_heartbeat_at": "2026-09-08T09:48:33Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-08T08:47:47Z",
@@ -578,6 +578,14 @@
         ],
         "receipt_event_id": "workflow:20260908T084401Z-657240cc:generation:f38329e24cc3",
         "recorded_at": "2026-09-08T08:54:51Z"
+      },
+      "pre_blind_resolution": {
+        "status": "no_applicable",
+        "source_refs": [
+          "audits/runs/m/magnificent/20260908T084401Z-657240cc/pre_blind_resolution.json"
+        ],
+        "receipt_event_id": "workflow:20260908T084401Z-657240cc:pre_blind_resolution:7be7b17d9631",
+        "recorded_at": "2026-09-08T09:48:33Z"
       }
     },
     "pending_events": [],
@@ -586,7 +594,7 @@
   "metrics": {
     "schema_version": "workflow_cost_v1",
     "total_cycles": 1,
-    "total_revisions": 0,
+    "total_revisions": 1,
     "total_duration_seconds": 0.0,
     "completed_at": "",
     "stages": [
@@ -638,11 +646,11 @@
       {
         "id": "pre_blind_resolution",
         "instruction_bytes": 5567,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
-        "defects_detected": 0,
-        "revision_count": 0,
-        "completed": false
+        "input_bytes": 5567,
+        "duration_seconds": 1200.0,
+        "defects_detected": 42,
+        "revision_count": 1,
+        "completed": true
       },
       {
         "id": "checker_recheck",
@@ -774,13 +782,14 @@
     }
   },
   "orchestrator_state": {
-    "next_stage_index": 5,
+    "next_stage_index": 6,
     "completed_stages": [
       "guard_start",
       "generation",
       "mechanical_validator",
       "checker_passes",
-      "cold_review"
+      "cold_review",
+      "pre_blind_resolution"
     ],
     "stage_outputs": {
       "generation": [
@@ -797,6 +806,10 @@
       ],
       "cold_review": [
         "audits/runs/m/magnificent/20260908T084401Z-657240cc/cold_review.json"
+      ],
+      "pre_blind_resolution": [
+        "audits/runs/m/magnificent/20260908T084401Z-657240cc/pre_blind_resolution.json",
+        "audits/runs/m/magnificent/20260908T084401Z-657240cc/pre_blind_revision.json"
       ]
     }
   },
@@ -804,5 +817,12 @@
     "mode": "connector"
   },
   "review_preflight": "review_preflight_v1",
-  "time_warnings": {}
+  "time_warnings": {
+    "elapsed_target_exceeded": {
+      "first_observed_at": "2026-09-08T09:48:33Z",
+      "target_at": "2026-09-08T09:44:01Z",
+      "stage": "cold_review_complete",
+      "action": "record the delay cause and resume the same run; do not restart reviews"
+    }
+  }
 }

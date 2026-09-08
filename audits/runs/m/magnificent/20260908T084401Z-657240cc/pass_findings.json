@@ -22,6 +22,7 @@
       },
       "findings": [
         {
+          "id": "normal-translation-001",
           "taxonomy_id": "example_translation_alignment",
           "location": {
             "section": "collocations_examples",
@@ -35,6 +36,7 @@
           "suggested_direction": "`a magnificent building/palace` をそのまま実例化し、magnificent が建物または宮殿を直接修飾する英文と、それに対応する訳に差し替える。"
         },
         {
+          "id": "normal-translation-002",
           "taxonomy_id": "example_translation_alignment",
           "location": {
             "section": "collocations_examples",
@@ -222,6 +224,7 @@
       "aligned_at": "2026-09-08T09:25:42.064160+00:00",
       "findings": [
         {
+          "id": "normal-frame-relation-001",
           "taxonomy_id": "argument_slot_role_mismatch",
           "location": {
             "section": "collocations_examples",
@@ -235,6 +238,7 @@
           "suggested_direction": "`magnificent` が `building` または `palace` を直接修飾する例文に差し替え、コロケーションと修飾対象を一対一で対応させる。"
         },
         {
+          "id": "normal-frame-relation-002",
           "taxonomy_id": "argument_slot_role_mismatch",
           "location": {
             "section": "frames",
@@ -248,6 +252,7 @@
           "suggested_direction": "`〈人〉 + look magnificent in 〈服・色〉` を独立した完全フレームとして追加し、主語スロットと補部を明示する。"
         },
         {
+          "id": "normal-frame-relation-003",
           "taxonomy_id": "argument_slot_role_mismatch",
           "location": {
             "section": "frames",
@@ -261,6 +266,7 @@
           "suggested_direction": "`do/play/perform magnificently` を形容詞の文法パターンから除き、必要なら派生語の語法として別に扱う。"
         },
         {
+          "id": "normal-frame-relation-004",
           "taxonomy_id": "argument_slot_role_mismatch",
           "location": {
             "section": "collocations_examples",
@@ -274,6 +280,7 @@
           "suggested_direction": "`〈人〉 + feel magnificent` を独立した叙述フレームとして明記し、経験者主語と心身状態の補語解釈を示す。"
         },
         {
+          "id": "normal-frame-relation-005",
           "taxonomy_id": "lexical_relation_mislabel",
           "location": {
             "section": "lexical_relations",
@@ -448,6 +455,7 @@
       "aligned_at": "2026-09-08T09:20:10.789549+00:00",
       "findings": [
         {
+          "id": "normal-example-attribution-001",
           "taxonomy_id": "example_sense_attribution_mismatch",
           "location": {
             "section": "collocations_examples",
@@ -474,6 +482,7 @@
       },
       "findings": [
         {
+          "id": "normal-qualification-001",
           "taxonomy_id": "absolute_scope_counterexample",
           "location": {
             "section": "usage_notes",
@@ -509,6 +518,7 @@
       },
       "findings": [
         {
+          "id": "normal-evidence-001",
           "taxonomy_id": "evidence_claim_mismatch",
           "location": {
             "section": "etymology",
@@ -521,6 +531,7 @@
           "suggested_direction": "根拠が直接支えるフランス語経由・ラテン語由来の範囲に限定し、意味発達と関連語は対応する語源factを追加できるまでholdする。"
         },
         {
+          "id": "normal-evidence-002",
           "taxonomy_id": "evidence_claim_mismatch",
           "location": {
             "section": "word_formation",
@@ -533,6 +544,7 @@
           "suggested_direction": "対応名詞であるとの説明に限定するか、各適用範囲を直接例証するfactを付す。"
         },
         {
+          "id": "normal-evidence-003",
           "taxonomy_id": "evidence_claim_mismatch",
           "location": {
             "section": "word_formation",
@@ -545,6 +557,7 @@
           "suggested_direction": "派生副詞との説明に限定するか、当該結合を掲載する辞書factを付す。"
         },
         {
+          "id": "normal-evidence-004",
           "taxonomy_id": "evidence_claim_mismatch",
           "location": {
             "section": "frequency_register",
@@ -557,6 +570,7 @@
           "suggested_direction": "尺度付き頻度根拠を追加するまで数値評価をholdする。"
         },
         {
+          "id": "normal-evidence-005",
           "taxonomy_id": "evidence_claim_mismatch",
           "location": {
             "section": "frequency_register",
@@ -569,6 +583,7 @@
           "suggested_direction": "根拠のある視覚的・強い肯定評価だけに限定し、分布と比較は対応するusage evidenceを追加するまでholdする。"
         },
         {
+          "id": "normal-evidence-006",
           "taxonomy_id": "evidence_claim_mismatch",
           "location": {
             "section": "frequency_register",
@@ -581,6 +596,7 @@
           "suggested_direction": "尺度付き頻度根拠を追加するまで数値評価をholdする。"
         },
         {
+          "id": "normal-evidence-007",
           "taxonomy_id": "evidence_claim_mismatch",
           "location": {
             "section": "frequency_register",
@@ -593,6 +609,7 @@
           "suggested_direction": "強い称賛という範囲に限定し、領域分布と比較頻度は直接根拠を追加するまでholdする。"
         },
         {
+          "id": "normal-evidence-008",
           "taxonomy_id": "evidence_claim_mismatch",
           "location": {
             "section": "frames",
@@ -605,6 +622,7 @@
           "suggested_direction": "before-nounとbe/lookの範囲に限定し、seemおよびview ofは直接掲載する辞書factを付す。"
         },
         {
+          "id": "normal-evidence-009",
           "taxonomy_id": "evidence_claim_mismatch",
           "location": {
             "section": "frames",
@@ -617,6 +635,7 @@
           "suggested_direction": "根拠のある名詞前用法と単独感嘆に限定し、残る完全フレームは直接根拠を付す。"
         },
         {
+          "id": "normal-evidence-010",
           "taxonomy_id": "evidence_claim_mismatch",
           "location": {
             "section": "collocations_examples",
@@ -629,6 +648,7 @@
           "suggested_direction": "animal/birdとの実例を持つfactを付すか、このコロケーションをholdする。"
         },
         {
+          "id": "normal-evidence-011",
           "taxonomy_id": "evidence_claim_mismatch",
           "location": {
             "section": "collocations_examples",
@@ -641,6 +661,7 @@
           "suggested_direction": "look magnificentまでに限定するか、in + clothing/colourを例証するfactを付す。"
         },
         {
+          "id": "normal-evidence-012",
           "taxonomy_id": "evidence_claim_mismatch",
           "location": {
             "section": "collocations_examples",
@@ -653,6 +674,7 @@
           "suggested_direction": "当該名詞との辞書・用例根拠を付すか、この項目をholdする。"
         },
         {
+          "id": "normal-evidence-013",
           "taxonomy_id": "evidence_claim_mismatch",
           "location": {
             "section": "collocations_examples",
@@ -665,6 +687,7 @@
           "suggested_direction": "achievementとの実例を示すfactに差し替えるか、このコロケーションをholdする。"
         },
         {
+          "id": "normal-evidence-014",
           "taxonomy_id": "evidence_claim_mismatch",
           "location": {
             "section": "collocations_examples",
@@ -677,6 +700,7 @@
           "suggested_direction": "opportunityとの実例を持つfactを付すか、このコロケーションをholdする。"
         },
         {
+          "id": "normal-evidence-015",
           "taxonomy_id": "evidence_claim_mismatch",
           "location": {
             "section": "collocations_examples",
@@ -689,6 +713,7 @@
           "suggested_direction": "当該feel補語用法を直接記載する辞書factを付すまでholdする。"
         },
         {
+          "id": "normal-evidence-016",
           "taxonomy_id": "evidence_claim_mismatch",
           "location": {
             "section": "usage_notes",
@@ -701,6 +726,7 @@
           "suggested_direction": "比較変化と使用頻度を直接扱う文法根拠を追加するまで削除またはholdする。"
         },
         {
+          "id": "normal-evidence-017",
           "taxonomy_id": "evidence_claim_mismatch",
           "location": {
             "section": "usage_notes",
@@ -713,6 +739,7 @@
           "suggested_direction": "feel補語用法とその語義を明記する辞書factを追加するまでholdする。"
         },
         {
+          "id": "normal-evidence-018",
           "taxonomy_id": "evidence_claim_mismatch",
           "location": {
             "section": "usage_notes",
@@ -725,6 +752,7 @@
           "suggested_direction": "強い称賛・意図的な誇張に限定し、ユーモアと熱意は直接根拠が得られるまでholdする。"
         },
         {
+          "id": "normal-evidence-019",
           "taxonomy_id": "evidence_claim_mismatch",
           "location": {
             "section": "lexical_relations",
@@ -737,6 +765,7 @@
           "suggested_direction": "splendidの定義・頻度・対照を直接支える根拠を付すまで項目をholdする。"
         },
         {
+          "id": "normal-evidence-020",
           "taxonomy_id": "evidence_claim_mismatch",
           "location": {
             "section": "lexical_relations",
@@ -749,6 +778,7 @@
           "suggested_direction": "majesticの各主張を直接支える根拠を付すまで項目をholdする。"
         },
         {
+          "id": "normal-evidence-021",
           "taxonomy_id": "evidence_claim_mismatch",
           "location": {
             "section": "lexical_relations",
@@ -761,6 +791,7 @@
           "suggested_direction": "grandの各主張を直接支える根拠を付すまで項目をholdする。"
         },
         {
+          "id": "normal-evidence-022",
           "taxonomy_id": "evidence_claim_mismatch",
           "location": {
             "section": "lexical_relations",
@@ -773,6 +804,7 @@
           "suggested_direction": "gloriousの各主張を直接支える根拠を付すまで項目をholdする。"
         },
         {
+          "id": "normal-evidence-023",
           "taxonomy_id": "evidence_claim_mismatch",
           "location": {
             "section": "lexical_relations",
@@ -785,6 +817,7 @@
           "suggested_direction": "unimpressiveの各主張を直接支える根拠を付すまで項目をholdする。"
         },
         {
+          "id": "normal-evidence-024",
           "taxonomy_id": "evidence_claim_mismatch",
           "location": {
             "section": "lexical_relations",
@@ -797,6 +830,7 @@
           "suggested_direction": "plainの各主張を直接支える根拠を付すまで項目をholdする。"
         },
         {
+          "id": "normal-evidence-025",
           "taxonomy_id": "evidence_claim_mismatch",
           "location": {
             "section": "lexical_relations",
@@ -809,6 +843,7 @@
           "suggested_direction": "excellentとの比較を直接支える根拠を付すまで項目をholdする。"
         },
         {
+          "id": "normal-evidence-026",
           "taxonomy_id": "evidence_claim_mismatch",
           "location": {
             "section": "lexical_relations",
@@ -821,6 +856,7 @@
           "suggested_direction": "superbとの詳細比較を直接支える根拠を付すまで項目をholdする。"
         },
         {
+          "id": "normal-evidence-027",
           "taxonomy_id": "evidence_claim_mismatch",
           "location": {
             "section": "lexical_relations",
@@ -833,6 +869,7 @@
           "suggested_direction": "outstandingの各主張を直接支える根拠を付すまで項目をholdする。"
         },
         {
+          "id": "normal-evidence-028",
           "taxonomy_id": "evidence_claim_mismatch",
           "location": {
             "section": "lexical_relations",
@@ -845,6 +882,7 @@
           "suggested_direction": "wonderfulとの比較を直接支える根拠を付すまで項目をholdする。"
         },
         {
+          "id": "normal-evidence-029",
           "taxonomy_id": "evidence_claim_mismatch",
           "location": {
             "section": "lexical_relations",
@@ -857,6 +895,7 @@
           "suggested_direction": "mediocreとの反意関係を直接支える根拠を付すまで項目をholdする。"
         },
         {
+          "id": "normal-evidence-030",
           "taxonomy_id": "evidence_claim_mismatch",
           "location": {
             "section": "lexical_relations",
