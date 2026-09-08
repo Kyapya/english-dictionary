@@ -54,7 +54,9 @@ handoffの担当は応答保存後、`--resume <run> --validate-review <stage>` 
 通常checker/coldの全面再実行をしない。`time_warnings` に超過時刻と工程を記録し、
 調整役は遅延原因を報告して同じrunの未完了工程へ進む。旧時間切れだけの停止は
 `--resume` が履歴を残して復帰する。開始時刻、期限目安、失敗回数、検査入力は戻さない。
-検索・再審査回数の上限、通信・コマンドtimeout、公開条件は維持する。時間停止と
+修正後checker再検査は回数無制限とし、累積回数を記録して同じrunを続ける。
+旧再検査回数だけの停止は `--resume` が履歴と未解決事項を保って復帰する。
+検索・最終審査回数の上限、通信・コマンドtimeout、公開条件は維持する。時間停止と
 回数上限停止を混同せず、後者を新runで回避しない。heartbeatの古さだけで停止と断定しない。
 checker、example-attribution、cold review、final blind、final reviewは生成担当と
 独立した `scripts/review_call.py` または handoff のサブエージェント出力だけを受け付ける。

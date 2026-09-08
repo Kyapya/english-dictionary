@@ -46,7 +46,7 @@ class SourceFirstContractWiringTests(unittest.TestCase):
         self.assertNotIn("問題がなくなるまで繰り返す", checks)
         self.assertNotIn("問題がなくなるまで繰り返す", final)
         self.assertIn("final attempts", source)
-        self.assertIn("| standard | 6 | 48 | 2 | 1 | 2 |", source)
+        self.assertIn("| standard | 6 | 48 | 2 | 制限なし | 2 |", source)
         self.assertIn("安全停止", source)
 
     def test_ci_runs_source_first_gate_for_changed_audits(self) -> None:

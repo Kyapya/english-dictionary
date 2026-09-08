@@ -72,7 +72,9 @@ checker/final_blind/final_reviewも同じ指定形式を使う。検証は一時
 同じrunを復帰し、`time_stop_recoveries` に旧停止理由と時刻を保存します。復帰checkpointも
 通常の公開経路で保存します。旧late-draft停止でdraft checkpointと工程cursorがずれた
 場合も、保存済みの全生成出力・計測値を確認してcursorだけを同期し、生成をやり直しません。
-出力が欠けている場合は復帰を拒否します。検索上限・再審査回数上限・取り込み失敗・理由不明の停止は
+修正後checkerの再検査回数も無制限です。旧回数制限だけの停止は `--resume` が
+`recheck_stop_recoveries` に理由を保存し、同じrunと累積回数・未解決事項を保って復帰します。
+出力が欠けている場合は復帰を拒否します。検索上限・最終審査回数上限・取り込み失敗・理由不明の停止は
 自動解除しません。下記のrestartフラグでも時間切れrunの再作成は許可しません。
 
 ```bash
@@ -145,7 +147,7 @@ evidence checker requestには、完成済みsource-first正本から対象claim
 履歴互換と計測のため保持しますが、どの工程でも時間超過だけでは停止しません。
 `time_warnings` に最初の超過観測時刻・工程・同一run継続の指示を保存します。
 調整役は原因を報告し、未完了工程を続けます。時間のために完了済みのchecker/coldを
-再実行しません。検索・再審査回数上限、不正応答の反復停止、通信・コマンドtimeout、
+再実行しません。検索・最終審査回数上限、不正応答の反復停止、通信・コマンドtimeout、
 CIの実行timeoutは別の安全策として維持します。更新時刻だけで実行停止と断定しません。
 
 オーケストレータはguard開始、生成、機械validator、同一固定draftへの7 checker/cold、pre-blind resolution、一括修正、影響範囲checker再検査、最新版への独立final blind、blind seal、post-blind resolution、final review、status同期、exportの順序を記録します。final-blind修正を採用した場合は、影響pass再検査後に新本文でfinal blindを再実行します。budget、remote checkpoint、段階成果物の存在、blind入力分離、本文hash、seal時系列、status遷移はスクリプトが強制します。

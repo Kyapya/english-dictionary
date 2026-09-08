@@ -28,14 +28,14 @@ PROFILES = {
         "max_sources": 6,
         "max_facts": 48,
         "max_research_rounds": 2,
-        "max_post_cold_rechecks": 1,
+        "max_post_cold_rechecks": None,
         "max_final_attempts": 2,
     },
     "extended": {
         "max_sources": 8,
         "max_facts": 80,
         "max_research_rounds": 3,
-        "max_post_cold_rechecks": 2,
+        "max_post_cold_rechecks": None,
         "max_final_attempts": 2,
     },
 }
@@ -310,6 +310,10 @@ def _validate_v2(
         errors.append("source_first_audit.limits must be an object")
         limits = {}
     for key, expected in profile_limits.items():
+        # Historical inventories are immutable review inputs. Their old cap
+        # remains readable, but no longer limits necessary correction checks.
+        if key == "max_post_cold_rechecks" and limits.get(key) in (None, 1 if profile == "standard" else 2):
+            continue
         if limits.get(key) != expected:
             errors.append(f"source_first_audit.limits.{key} must equal {expected} for {profile}")
 
@@ -326,7 +330,8 @@ def _validate_v2(
     )
     for used_key, limit_key in counters:
         used = _integer(usage.get(used_key), f"source_first_audit.usage.{used_key}", errors)
-        if used is not None and used > profile_limits.get(limit_key, used):
+        limit = profile_limits.get(limit_key)
+        if used is not None and limit is not None and used > limit:
             errors.append(f"source_first_audit.usage.{used_key} exceeds {limit_key}")
 
     status = gate.get("research_status")
@@ -855,6 +860,27 @@ def command_prepare_final(args: argparse.Namespace) -> int:
     return 0
 
 
+def resume_legacy_recheck_stop(manifest: dict[str, Any]) -> bool:
+    """Reopen completed research paused solely for correction verification."""
+    gate = manifest.get("source_first_audit", {})
+    if gate.get("research_status") != "budget_exhausted":
+        return False
+    if gate.get("stop_reason") not in {
+        "post-cold recheck budget exhausted",
+        "post-cold recheck limit reached with adopted corrections awaiting verification",
+    }:
+        raise ValueError("source inventory stopped for a reason other than the removed recheck cap")
+    gate.setdefault("recheck_stop_recoveries", []).append({
+        "recovered_at": datetime.now().astimezone().isoformat(),
+        "previous_stop_reason": gate["stop_reason"],
+        "previous_open_questions": list(gate.get("open_questions", [])),
+    })
+    # Research completion is not acceptance of the pending content corrections.
+    gate["research_status"] = "complete"
+    gate["stop_reason"] = "coverage_axes_closed"
+    return True
+
+
 def command_record_attempt(args: argparse.Namespace) -> int:
     try:
         path, manifest = _load_entry(args.entry)
@@ -871,13 +897,16 @@ def command_record_attempt(args: argparse.Namespace) -> int:
         else ("final_attempts_used", "max_final_attempts")
     )
     current = gate["usage"][key]
-    limit = gate["limits"][limit_key]
-    if current >= limit:
+    limit = None if args.stage == "post-cold" else gate["limits"][limit_key]
+    if not isinstance(current, int) or isinstance(current, bool) or current < 0:
+        print(f"FAIL invalid {key}", file=sys.stderr)
+        return 1
+    if limit is not None and current >= limit:
         print(f"STOP {args.stage} budget exhausted ({current}/{limit})", file=sys.stderr)
         return 2
     gate["usage"][key] = current + 1
     _write(path, manifest)
-    print(f"RECORDED {args.stage} {current + 1}/{limit}")
+    print(f"RECORDED {args.stage} {current + 1}/{limit if limit is not None else 'unlimited'}")
     return 0
 
 
