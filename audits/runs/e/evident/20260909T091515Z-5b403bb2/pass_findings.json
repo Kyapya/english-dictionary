@@ -1,0 +1,324 @@
+{
+  "schema_version": "normal_review_v2",
+  "stage": "normal_review",
+  "run_id": "normal-evident-20260909T091515Z-5b403bb2",
+  "context_id": "normal-evident-context-20260909T091515Z-5b403bb2",
+  "input_body_sha256": "7daa0d416ecef06000548e2f59c08bd4394750574e23f19e24855a4a6339257a",
+  "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
+  "input_artifacts": [
+    "router_selected_sections",
+    "checker_pass_specs"
+  ],
+  "recorded_at": "2026-09-09T09:50:29.010879+00:00",
+  "pass_outputs": [
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "translation",
+      "input_body_sha256": "7daa0d416ecef06000548e2f59c08bd4394750574e23f19e24855a4a6339257a",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-6-astra-wm",
+        "ingested_by": "human",
+        "agent_id": "evident-checker-translation-20260909",
+        "same_model_as_generation": true
+      },
+      "findings": []
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "sense-structure",
+      "input_body_sha256": "7daa0d416ecef06000548e2f59c08bd4394750574e23f19e24855a4a6339257a",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-6-astra-wm",
+        "ingested_by": "human",
+        "agent_id": "evident-checker-sense-structure-20260909",
+        "same_model_as_generation": true
+      },
+      "findings": []
+    },
+    {
+      "pass_id": "frame-relation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-6-astra-wm",
+        "ingested_by": "human",
+        "agent_id": "evident-checker-frame-relation-20260909",
+        "same_model_as_generation": true
+      },
+      "antonym_axis_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "7daa0d416ecef06000548e2f59c08bd4394750574e23f19e24855a4a6339257a",
+        "blind_request_sha256": "b73825d6a66022d6fa67a1530a3a3f3603ae8158d505f5cc1a45279a64a9c4f8",
+        "recorded_at": "2026-09-09T09:50:00+00:00",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-6-astra-wm",
+          "ingested_by": "human",
+          "agent_id": "evident-checker-frame-relation-20260909",
+          "same_model_as_generation": true
+        },
+        "axes": [
+          {
+            "item_id": "ant-bae621c7c63f",
+            "axis": "明瞭性",
+            "relation_type": "程度",
+            "reason": ""
+          },
+          {
+            "item_id": "ant-4cdb1196ed11",
+            "axis": "明瞭性",
+            "relation_type": "程度",
+            "reason": ""
+          }
+        ]
+      },
+      "antonym_axis_adjudication_record": {
+        "schema_version": "antonym_axis_adjudication_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "7daa0d416ecef06000548e2f59c08bd4394750574e23f19e24855a4a6339257a",
+        "stage2_request_sha256": "469f4346728abe88d023129a8f1e1c3e41a383035b82236bcf617649b1cd6537",
+        "blind_record_sha256": "10eb70dbef73fe372f8a3204b68af59d1fd87bf2c59436f304d426ca64beb33e",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-6-astra-wm",
+          "ingested_by": "human",
+          "agent_id": "evident-checker-frame-relation-20260909",
+          "same_model_as_generation": true
+        },
+        "adjudications": [
+          {
+            "item_id": "ant-4cdb1196ed11",
+            "flags": [],
+            "rationale": "The 明瞭性 axis is directly recoverable from the definition and both pairs contrast degrees of clarity; the difference line does not deny the lexical opposition.",
+            "suggested_direction": null,
+            "f4_severity": null
+          },
+          {
+            "item_id": "ant-bae621c7c63f",
+            "flags": [],
+            "rationale": "The 明瞭性 axis is directly recoverable from the definition and both pairs contrast degrees of clarity; the difference line does not deny the lexical opposition.",
+            "suggested_direction": null,
+            "f4_severity": null
+          }
+        ],
+        "frame_findings": [],
+        "unrouted_observations": []
+      },
+      "aligned_at": "2026-09-09T09:51:05.670107+00:00",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-6-astra-wm",
+        "ingested_by": "human",
+        "agent_id": "evident-checker-example-attribution-20260909",
+        "same_model_as_generation": true
+      },
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "stage": 1,
+        "pass_id": "example-attribution",
+        "input_body_sha256": "7daa0d416ecef06000548e2f59c08bd4394750574e23f19e24855a4a6339257a",
+        "blind_request_sha256": "341023f462ba06b14425892ca77122b12966d2ea9f9a0a9423768bd1008a2242",
+        "recorded_at": "2026-09-09T09:50:00+00:00",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-6-astra-wm",
+          "ingested_by": "human",
+          "agent_id": "evident-checker-example-attribution-20260909",
+          "same_model_as_generation": true
+        },
+        "attributions": [
+          {
+            "example_id": "ex-27671b562b67",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "evident relief"
+            ],
+            "rationale": "The phrase 'evident relief' presents a visible emotional state; the single sense fits better than a merely apparent-seeming alternative."
+          },
+          {
+            "example_id": "ex-d5c3976c5ee8",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "evident that"
+            ],
+            "rationale": "The frame 'evident that' states a conclusion clear from the situation; no separate lexical sense is needed for this that-clause use."
+          },
+          {
+            "example_id": "ex-ca236bb38407",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "evident in"
+            ],
+            "rationale": "The frame 'evident in' locates a visible emotional result in behavior; it remains the entry's clarity sense rather than a different sense."
+          },
+          {
+            "example_id": "ex-bfd0b0e28751",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "evident to the staff"
+            ],
+            "rationale": "The phrase 'evident to the staff' marks who recognizes the clear benefit; the same core adjective sense applies."
+          },
+          {
+            "example_id": "ex-0a09d91fc92d",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "became evident"
+            ],
+            "rationale": "The phrase 'became evident' marks a change into a clear state after new information; it does not introduce another lexical sense."
+          },
+          {
+            "example_id": "ex-620e836a4f4a",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "made it evident that"
+            ],
+            "rationale": "The frame 'made it evident that' presents evidence making a conclusion clear; the causative frame still expresses the one listed sense."
+          },
+          {
+            "example_id": "ex-4cf6bc1c9cb5",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "evident signs of recovery"
+            ],
+            "rationale": "The collocation 'evident signs of recovery' describes observable evidence of a change; the adjective keeps its clarity meaning."
+          },
+          {
+            "example_id": "ex-8e465c71750b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "evident from the audit results"
+            ],
+            "rationale": "The frame 'evident from the audit results' identifies the information source for a clear conclusion; it matches the sole sense."
+          }
+        ]
+      },
+      "aligned_at": "2026-09-09T09:50:29.007860+00:00",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "qualification",
+      "input_body_sha256": "7daa0d416ecef06000548e2f59c08bd4394750574e23f19e24855a4a6339257a",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-6-astra-wm",
+        "ingested_by": "human",
+        "agent_id": "evident-checker-qualification-20260909",
+        "same_model_as_generation": true
+      },
+      "findings": []
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "pronunciation",
+      "input_body_sha256": "7daa0d416ecef06000548e2f59c08bd4394750574e23f19e24855a4a6339257a",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-6-astra-wm",
+        "ingested_by": "human",
+        "agent_id": "evident-checker-pronunciation-20260909",
+        "same_model_as_generation": true
+      },
+      "findings": []
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "evidence",
+      "input_body_sha256": "7daa0d416ecef06000548e2f59c08bd4394750574e23f19e24855a4a6339257a",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-6-astra-wm",
+        "ingested_by": "human",
+        "agent_id": "evident-checker-evidence-20260909",
+        "same_model_as_generation": true
+      },
+      "findings": []
+    }
+  ],
+  "checker_reviewers": {
+    "translation": {
+      "mode": "handoff",
+      "declared_model": "gpt-6-astra-wm",
+      "ingested_by": "human",
+      "agent_id": "evident-checker-translation-20260909",
+      "same_model_as_generation": true
+    },
+    "sense-structure": {
+      "mode": "handoff",
+      "declared_model": "gpt-6-astra-wm",
+      "ingested_by": "human",
+      "agent_id": "evident-checker-sense-structure-20260909",
+      "same_model_as_generation": true
+    },
+    "frame-relation": {
+      "mode": "handoff",
+      "declared_model": "gpt-6-astra-wm",
+      "ingested_by": "human",
+      "agent_id": "evident-checker-frame-relation-20260909",
+      "same_model_as_generation": true
+    },
+    "example-attribution": {
+      "mode": "handoff",
+      "declared_model": "gpt-6-astra-wm",
+      "ingested_by": "human",
+      "agent_id": "evident-checker-example-attribution-20260909",
+      "same_model_as_generation": true
+    },
+    "qualification": {
+      "mode": "handoff",
+      "declared_model": "gpt-6-astra-wm",
+      "ingested_by": "human",
+      "agent_id": "evident-checker-qualification-20260909",
+      "same_model_as_generation": true
+    },
+    "pronunciation": {
+      "mode": "handoff",
+      "declared_model": "gpt-6-astra-wm",
+      "ingested_by": "human",
+      "agent_id": "evident-checker-pronunciation-20260909",
+      "same_model_as_generation": true
+    },
+    "evidence": {
+      "mode": "handoff",
+      "declared_model": "gpt-6-astra-wm",
+      "ingested_by": "human",
+      "agent_id": "evident-checker-evidence-20260909",
+      "same_model_as_generation": true
+    }
+  },
+  "independent_candidates": [],
+  "summary": "Independent checker passes completed by parallel handoff; frame-relation preserved its serial blind/adjudication dependency."
+}
