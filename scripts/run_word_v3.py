@@ -20,6 +20,7 @@ import review_call
 import validate_entry
 import publish_checkpoint
 import review_preflight
+import review_recovery
 from slugify import slugify
 
 
@@ -965,7 +966,8 @@ def _normal_review_metadata(
 
 
 def prepare_review_inputs(
-    manifest: dict[str, Any], *, repo_root: Path = REPO_ROOT
+    manifest: dict[str, Any], *, repo_root: Path = REPO_ROOT,
+    refresh_final: bool = False,
 ) -> tuple[list[Path], dict[str, Any]]:
     """Materialize the immutable JSON packets used by API or handoff review."""
     request = next_stage_request(manifest)
@@ -1086,6 +1088,12 @@ def prepare_review_inputs(
     packet_path = cycle_dir / f"{stage}.request.json"
     if manifest.get("review_preflight") == review_preflight.VERSION:
         packet["contract_version"] = review_preflight.VERSION
+        if stage == "final_review":
+            review_recovery.bind_final_packet(packet, packet_path, refresh=refresh_final)
+            if refresh_final:
+                review_recovery.replace_final_packet(manifest, packet_path, packet)
+        elif refresh_final:
+            raise ValueError("packet refresh is supported only for final_review")
         review_preflight.freeze(packet_path, packet)
         return [packet_path], packet
     packet_path.parent.mkdir(parents=True, exist_ok=True)
@@ -1407,6 +1415,9 @@ def ingest_handoff_review(
         )
         if request_packet.get("contract_version") == review_preflight.VERSION:
             review_preflight.check_bindings(request_packet, entry, cycle_dir)
+        revision_id = request_packet.get("input_revision_id")
+        if revision_id and value.get("input_revision_id") != revision_id:
+            raise ValueError("response input_revision_id does not match the current final-review packet; obtain a fresh independent response")
         metadata = request_packet.get("_output_metadata")
         if not isinstance(metadata, dict):
             raise ValueError("review request has no output metadata")
@@ -1507,7 +1518,15 @@ def execute_api_review_stage(
         if stage == "checker_passes"
         else output_paths[0].parent
     )
-    _, packet = prepare_review_inputs(manifest, repo_root=repo_root)
+    try:
+        _, packet = prepare_review_inputs(manifest, repo_root=repo_root)
+    except review_preflight.PreflightError:
+        raise
+    except (ValueError, FileNotFoundError, UnicodeDecodeError) as exc:
+        raise review_preflight.PreflightError({
+            "valid": False, "errors": [{"code": "input_contract", "path": stage, "message": str(exc)}],
+            "blocked_checks": [],
+        }) from exc
 
     if stage == "checker_passes":
         check_dir = cycle_dir / "check_passes"
@@ -2500,6 +2519,27 @@ def _report_review_failure(
     return 2 if not running else 1
 
 
+def _report_preflight_failure(
+    manifest: dict[str, Any], run_path: Path, *, stage: str,
+    error: BaseException, fingerprint: str | None = None,
+) -> int:
+    event = review_recovery.record_validation_failure(
+        manifest, stage=stage, error=error, input_fingerprint=fingerprint
+    )
+    record_pending_process_event(manifest, kind="review_failure", stage=stage,
+                                 fact="repairable preflight rejection: " + str(error))
+    guard._write(run_path, manifest)
+    print(json.dumps({
+        "status": "needs_review_correction", "run_status": manifest["status"],
+        "review_stage": stage, "error": str(error),
+        "validation_failure_count": manifest["review_preflight_failures"]["count"],
+        "ingest_failure_count": manifest.get("review_ingest_failures", {}).get("count", 0),
+        "diagnostics": event.get("diagnostics"),
+        "action": "correct the reported inputs/response and resume this same run",
+    }, ensure_ascii=False, indent=2))
+    return 1
+
+
 def _recover_time_stop(manifest: dict[str, Any], *, repo_root: Path) -> bool:
     original = manifest
     manifest = copy.deepcopy(manifest)
@@ -2535,6 +2575,7 @@ def _resume(
     declared_model: str = "",
     reviewer_agent_id: str = "",
     call_review: bool = False,
+    refresh_review: str | None = None,
 ) -> int:
     resolved = path.resolve()
     manifest = guard._read(resolved)
@@ -2586,6 +2627,41 @@ def _resume(
             _commit_and_push(REPO_ROOT, (resolved,), "Confirm connector workflow checkpoint")
             print(json.dumps({"status": "publication_pending", "action": "publish confirmation checkpoint, then resume the same run"}))
             return 0
+    if refresh_review:
+        if refresh_review != "final_review" or manifest.get("review_preflight") != review_preflight.VERSION:
+            raise ValueError("refresh-review requires a versioned final-review packet")
+        if manifest.get("status") != "in_progress" and not review_recovery.is_recoverable_preflight_stop(manifest, stage=refresh_review):
+            print(json.dumps({"status": "stopped", "reason": manifest.get("stop_reason", "terminal run")}))
+            return 2
+        try:
+            if (next_stage_request(manifest) or {}).get("name") != refresh_review:
+                raise ValueError("refresh-review must target the pending final-review stage")
+            paths, _ = prepare_review_inputs(manifest, repo_root=REPO_ROOT, refresh_final=True)
+            request = next_stage_request(manifest)
+            if request and request.get("reviewer_mode") == "handoff":
+                paths.append(prepare_handoff(manifest, repo_root=REPO_ROOT))
+        except (ValueError, FileNotFoundError, UnicodeDecodeError) as exc:
+            return _report_preflight_failure(manifest, resolved, stage=refresh_review, error=exc)
+        guard._write(resolved, manifest)
+        print(json.dumps({"status": "review_input_refreshed", "run_status": manifest["status"],
+                          "requests": [str(p.relative_to(REPO_ROOT)) for p in paths],
+                          "action": "obtain a fresh independent response, then ingest it on this same run"}, ensure_ascii=False))
+        return 0
+    if ingest_review and review_recovery.is_recoverable_preflight_stop(manifest, stage=ingest_review):
+        try:
+            review_recovery.recover_preflight_stop(
+                manifest, stage=ingest_review, declared_model=declared_model,
+                reviewer_agent_id=reviewer_agent_id or None, repo_root=REPO_ROOT,
+                ingest=ingest_handoff_review,
+            )
+        except (ValueError, FileNotFoundError, UnicodeDecodeError) as exc:
+            fingerprint = review_recovery.fingerprint(
+                manifest, stage=ingest_review, declared_model=declared_model,
+                reviewer_agent_id=reviewer_agent_id, repo_root=REPO_ROOT,
+            )
+            return _report_preflight_failure(manifest, resolved, stage=ingest_review,
+                                             error=exc, fingerprint=fingerprint)
+        guard._write(resolved, manifest)
     if not isinstance(manifest.get("process_improvement"), dict):
         try:
             epoch = process_improvement.current_epoch(REPO_ROOT)
@@ -2632,44 +2708,49 @@ def _resume(
     if ingest_review:
         try:
             if manifest.get("review_preflight") == review_preflight.VERSION:
-                pending = next_stage_request(manifest)
-                cycle = (REPO_ROOT / pending["output_paths"][-1 if ingest_review == "checker_passes" else 0]).parent
-                fingerprint = review_preflight.digest({
-                    "stage": ingest_review, "model": declared_model, "agent": reviewer_agent_id,
-                    "files": {str(p.relative_to(cycle)): hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(cycle.rglob("*.json"))},
-                    "body": _entry_body(REPO_ROOT / manifest["entry_path"]),
-                })
+                fingerprint = review_recovery.fingerprint(
+                    manifest, stage=ingest_review, declared_model=declared_model,
+                    reviewer_agent_id=reviewer_agent_id, repo_root=REPO_ROOT,
+                )
                 failed = manifest.get("last_rejected_review", {})
                 if failed.get("fingerprint") == fingerprint:
                     print(json.dumps({"status": "unchanged_invalid_response", "error": failed["error"]}, ensure_ascii=False))
                     return 1
                 try:
                     review_preflight.validate(manifest, stage=ingest_review, declared_model=declared_model, reviewer_agent_id=reviewer_agent_id or None, repo_root=REPO_ROOT, ingest=ingest_handoff_review)
-                except Exception as exc:
-                    manifest["last_rejected_review"] = {"fingerprint": fingerprint, "error": str(exc)}
-                    raise
+                except (ValueError, FileNotFoundError, UnicodeDecodeError) as exc:
+                    return _report_preflight_failure(
+                        manifest, resolved, stage=ingest_review, error=exc,
+                        fingerprint=fingerprint,
+                    )
             ingested_path = ingest_handoff_review(
                 manifest,
                 stage=ingest_review,
                 declared_model=declared_model,
                 reviewer_agent_id=reviewer_agent_id or None,
             )
-        except Exception as exc:  # the guard owns every failed ingestion
+        except Exception as exc:  # actual ingestion/runtime failures retain the bounded guard
             return _report_review_failure(
                 manifest, resolved, stage=ingest_review, error=exc
             )
         guard.clear_review_ingest_failures(manifest)
+        review_recovery.resolve_validation_failure(manifest, stage=ingest_review)
         manifest.pop("last_rejected_review", None)
         guard._write(resolved, manifest)
     elif call_review:
         stage_name = (next_stage_request(manifest) or {}).get("name", "review")
         try:
             api_review_paths = execute_api_review_stage(manifest)
+        except review_preflight.PreflightError as exc:
+            return _report_preflight_failure(manifest, resolved, stage=str(stage_name), error=exc)
         except Exception as exc:  # the guard owns every failed review call
             return _report_review_failure(
                 manifest, resolved, stage=str(stage_name), error=exc
             )
         guard.clear_review_ingest_failures(manifest)
+        review_recovery.resolve_validation_failure(manifest, stage=str(stage_name))
+        manifest.pop("last_rejected_review", None)
+        guard._write(resolved, manifest)
     next_request = next_stage_request(manifest)
     if next_request is not None:
         ensure_process_improvement_input(
@@ -2686,10 +2767,13 @@ def _resume(
         and not ingest_review
         and not call_review
     ):
-        if next_request.get("reviewer_mode") == "handoff":
-            handoff_path = prepare_handoff(manifest)
-        else:
-            review_request_paths, _ = prepare_review_inputs(manifest)
+        try:
+            if next_request.get("reviewer_mode") == "handoff":
+                handoff_path = prepare_handoff(manifest)
+            else:
+                review_request_paths, _ = prepare_review_inputs(manifest)
+        except (ValueError, FileNotFoundError, UnicodeDecodeError) as exc:
+            return _report_preflight_failure(manifest, resolved, stage=str(next_request["name"]), error=exc)
     print(
         json.dumps(
             {
@@ -2732,6 +2816,7 @@ def build_parser() -> argparse.ArgumentParser:
         "--reviewer-mode", choices=("api", "handoff"), default="api" if os.environ.get("DICT_REVIEW_API_KEY") else "handoff"
     )
     parser.add_argument("--publish-mode", choices=("git", "connector"), default="connector")
+    parser.add_argument("--refresh-review", choices=("final_review",))
     parser.add_argument("--validate-review", choices=sorted(REVIEW_STAGES))
     parser.add_argument("--ingest-review", choices=sorted(REVIEW_STAGES))
     parser.add_argument("--call-review", action="store_true")
@@ -2755,13 +2840,19 @@ def build_parser() -> argparse.ArgumentParser:
 
 def main() -> int:
     args = build_parser().parse_args()
+    if args.refresh_review:
+        if (not args.resume or args.headword or args.dry_run or args.validate_review
+                or args.ingest_review or args.call_review or args.complete_stage
+                or args.record_revision or args.declared_model or args.reviewer_agent_id):
+            raise SystemExit("--refresh-review requires only --resume")
+        return _resume(args.resume, refresh_review=args.refresh_review)
     if args.validate_review:
         if not args.resume or args.ingest_review or args.call_review or args.headword:
             raise SystemExit("--validate-review requires only --resume and reviewer identity options")
         try:
             result = review_preflight.validate(guard._read(args.resume.resolve()), stage=args.validate_review, declared_model=args.declared_model, reviewer_agent_id=args.reviewer_agent_id or None, repo_root=REPO_ROOT, ingest=ingest_handoff_review)
         except Exception as exc:
-            print(json.dumps({"valid": False, "error": str(exc)}, ensure_ascii=False))
+            print(json.dumps({"valid": False, "error": str(exc), "diagnostics": getattr(exc, "report", None)}, ensure_ascii=False))
             return 1
         print(json.dumps(result))
         return 0

@@ -498,8 +498,11 @@ def resume_legacy_recheck_stop(manifest: dict[str, Any]) -> bool:
 
 
 def clear_review_ingest_failures(manifest: dict[str, Any]) -> None:
-    """Drop the failure streak after a review stage is ingested successfully."""
-    manifest.pop("review_ingest_failures", None)
+    """Close the active streak while preserving its counts and error history."""
+    previous = manifest.pop("review_ingest_failures", None)
+    if isinstance(previous, dict):
+        manifest.setdefault("review_ingest_failure_history", []).append(dict(previous))
+        manifest.setdefault("review_ingest_failure_total", previous.get("count", 0))
 
 
 def record_review_ingest_failure(
@@ -533,6 +536,10 @@ def record_review_ingest_failure(
         "last_failed_at": _format_time(current),
     }
     manifest["review_ingest_failures"] = failures
+    manifest["review_ingest_failure_total"] = int(
+        manifest.get("review_ingest_failure_total", count)
+    ) + 1
+    manifest.setdefault("review_ingest_failure_events", []).append(dict(failures))
     if not enforce_budget(manifest, now=current):
         return False
     if failures["count"] >= MAX_REVIEW_INGEST_FAILURES:

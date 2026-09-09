@@ -41,8 +41,14 @@ GitHub接続で実行してから同じrunをresumeする（手順はREADME）�
 
 handoffの担当は応答保存後、`--resume <run> --validate-review <stage>` と担当ID・モデルを
 指定して事前検証し、指摘をまとめて修正したうえで正式取り込みする。事前検証はLLMを
-呼ばず、正式取り込みと同じ処理を一時コピーで実行する。検証の反復を新たな無制限の
-修正ループにしない。同じ未修正応答の再投入、失敗回数を戻すための新run作成は禁止。
+呼ばず、正式取り込みと同じ処理を一時コピーで実行する。入力・応答の契約不備は `needs_review_correction` として履歴へ分離し、
+実取り込み・通信・実行失敗の停止回数へ算入しない。同じ未修正応答の再投入は拒否する。
+旧事前検証エラーだけによる停止は、修正した応答の完全検証後に同じrunで復旧する。
+失敗回数を戻すための新run作成は禁止。開始時刻・完了工程・累積失敗履歴を維持する。
+最終レビュー依頼前に入力不整合を一括検証し、missing/extra・期待値/実値・検証不能項目を
+まとめて修正する。本文が不変で依頼済みの入力だけを直した場合は
+`--resume <run> --refresh-review final_review` で旧依頼・応答を保存して再依頼する。
+新応答はひな形の `input_revision_id` と一致させる。本文変更は従来のrevision/recheck経路を使う。
 
 新runの検査入力は固定される。`check_passes/input_snapshot.json` と元のrequestを
 上書きせず、変更後は既存のrevision/recheck経路を使う。出典の使用回数等も再検査前に
@@ -94,7 +100,8 @@ checker、example-attribution、cold review、final blind、final reviewは生�
 7応答を `checker_passes.stage1.json` に保存し、frame-relationだけ第2往復へ進める。
 `checker_passes.stage2.request.md` と並列名のrequestを作り、stage 1と同じサブエージェント/model
 のcanonical response `checker_passes.frame-relation.stage2.response.json` だけを受け付ける。旧aggregate checker handoffへのフォールバックは認めない。この
-2往復中の取り込み失敗3回は `budget_exhausted` とし、並列中もheartbeat・budgetを進める。
+2往復中の実取り込み・通信失敗3回は `budget_exhausted` とし、事前検証の契約不備は
+修正待ちとして別記録する。並列中もheartbeat・budgetを進める。
 
 新規runはmanifestに `checker_execution_protocol: parallel_subagents_v2` と
 `checker_subagent_count` を持つ。`scripts/checker_subagent_gate.py` はcompleted handoff runの
