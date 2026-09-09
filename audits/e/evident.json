@@ -1,4 +1,77 @@
 {
+  "schema_version": "content_audit_v4",
+  "generated_by": "generate_audit_manifest_v1",
+  "entry_path": "entries/e/evident.md",
+  "cycle_id": "20260909T104259Z-e44fbe0e",
+  "cycle_dir": "audits/runs/e/evident/20260909T104259Z-e44fbe0e",
+  "body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+  "raw_outputs": {
+    "source_inventory": {
+      "path": "audits/runs/e/evident/20260909T104259Z-e44fbe0e/source_inventory.json",
+      "sha256": "b83f7f598a6d19223b0cabb8d36232be97430237e8bfb845586bbb6b3d98c273",
+      "stage": "source_inventory",
+      "run_id": "source-evident-20260909T104259Z-e44fbe0e",
+      "context_id": "source-evident-context-20260909T104259Z-e44fbe0e",
+      "input_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+      "prompt_sha256": "a5172ff43a877d1434d7396c9e545bd40fb15b4af21b0dc74624088e6bca0b45",
+      "recorded_at": "2026-09-09T09:45:35Z"
+    },
+    "normal_review": {
+      "path": "audits/runs/e/evident/20260909T104259Z-e44fbe0e/pass_findings.json",
+      "sha256": "d590797540286dabf018065a41ce7f19b7f3fb34752ac065a0ae1fcfe00f1152",
+      "stage": "normal_review",
+      "run_id": "normal-evident-20260909T104259Z-e44fbe0e",
+      "context_id": "normal-evident-context-20260909T104259Z-e44fbe0e",
+      "input_body_sha256": "7daa0d416ecef06000548e2f59c08bd4394750574e23f19e24855a4a6339257a",
+      "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
+      "recorded_at": "2026-09-09T09:50:29.010879+00:00"
+    },
+    "cold_review": {
+      "path": "audits/runs/e/evident/20260909T104259Z-e44fbe0e/cold_review.json",
+      "sha256": "2fd627e28492a42c866c6335a02028c8a2cfd025939d6488094672be9eb46489",
+      "stage": "cold_review",
+      "run_id": "cold-evident-20260909T104259Z-e44fbe0e",
+      "context_id": "cold-evident-context-20260909T104259Z-e44fbe0e",
+      "input_body_sha256": "7daa0d416ecef06000548e2f59c08bd4394750574e23f19e24855a4a6339257a",
+      "prompt_sha256": "25c298d1a4305746147791bd442cd725a92737c8f0802b992ea88e5c6ff76a5d",
+      "recorded_at": "2026-09-09T09:55:01.294449+00:00"
+    },
+    "resolutions": {
+      "path": "audits/runs/e/evident/20260909T104259Z-e44fbe0e/resolutions.json",
+      "sha256": "1bab8a5b9e4aca53d6dc9bf10a81ebda8a5e7c33787ad1369ecd8b547f663463",
+      "stage": "resolutions",
+      "run_id": "resolution-evident-20260909T104259Z-e44fbe0e",
+      "context_id": "resolution-evident-context-20260909T104259Z-e44fbe0e",
+      "input_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+      "prompt_sha256": "8b734bbd5a13bf7ca640a596788c974eb81154848f2deb942a4a7472721078ba",
+      "recorded_at": "2026-09-09T10:25:35.378824+00:00"
+    },
+    "final_blind": {
+      "path": "audits/runs/e/evident/20260909T104259Z-e44fbe0e/final_blind.json",
+      "sha256": "26a321ee360a6d97a86d7e4b5971d2d3af14e934cfc30a439656602012fce2e3",
+      "stage": "final_blind",
+      "run_id": "blind-evident-20260909T104259Z-e44fbe0e",
+      "context_id": "blind-evident-context-20260909T104259Z-e44fbe0e",
+      "input_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+      "prompt_sha256": "3a481b4b5b1236ff386e148bcacc574570b305e79f5e155e9afcd34091f7785c",
+      "recorded_at": "2026-09-09T10:21:29.078532+00:00"
+    },
+    "blind_seal": {
+      "path": "audits/runs/e/evident/20260909T104259Z-e44fbe0e/blind_seal.json",
+      "sha256": "c09886c403305883ec1d097f24fb48616373e46bcadf40636bc4087b828cc413",
+      "stage": "blind_seal"
+    },
+    "final_review": {
+      "path": "audits/runs/e/evident/20260909T104259Z-e44fbe0e/final_review.json",
+      "sha256": "28a41b7ccf17a1b0f2503a6a1b5dfc1d5f439c8a9db717ee81c4749dd15b6a75",
+      "stage": "final_review",
+      "run_id": "blind-evident-20260909T104259Z-e44fbe0e",
+      "context_id": "blind-evident-context-20260909T104259Z-e44fbe0e",
+      "input_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+      "prompt_sha256": "5fa21ad0e8186e05e00c459e6201d7062a5d550a003831b40e182ba27c7a625a",
+      "recorded_at": "2026-09-09T10:55:20.519444+00:00"
+    }
+  },
   "source_first_audit": {
     "version": "source_first_audit_v2",
     "profile": "standard",
@@ -15,7 +88,7 @@
       "facts_used": 16,
       "research_rounds_used": 1,
       "post_cold_rechecks_used": 0,
-      "final_attempts_used": 0
+      "final_attempts_used": 1
     },
     "research_status": "complete",
     "stop_reason": "coverage_axes_closed",
@@ -467,7 +540,111 @@
       }
     ]
   },
-  "final_review": {
-    "source_inventory_results": []
-  }
+  "findings": [
+    {
+      "id": "CR-001",
+      "location": "文法パターン",
+      "severity": "high",
+      "description": "make something と make it evident that ... を一つのパターンとして結合しており、前者に that 節を直接続ける誤った構文を示している。",
+      "reason": "該当本文「make something・make it evident + that 〈節〉＝何かを明白にする・～であることを明らかにする／」。make it evident that ... は成立するが、make something evident は目的語補語構文であり、通常は make something evident that ... とは続かない。学習者が make + 目的語 + that 節を一般化するため、二つのフレームを分けて示す必要がある。",
+      "suggested_direction": "make something evident（何かを明白にする）と make it evident that ...（…であることを明らかにする）を別パターンに分ける。",
+      "scope_anchors": [
+        {
+          "id": "CR-001-a1",
+          "exact_quote": "make something・make it evident + that 〈節〉＝何かを明白にする・～であることを明らかにする／",
+          "location_hint": "＃意味・用法・関連表現の【文法パターン】行"
+        }
+      ],
+      "origin": "cold_review"
+    },
+    {
+      "id": "CR-002",
+      "location": "語源・語形成の evidently 説明",
+      "severity": "medium",
+      "description": "evidently の意味に reportedly に近い「伝えられるところでは」を通常の用法として含めている。",
+      "reason": "該当本文「・evidently：副詞。「明らかに、見たところ」。文全体を修飾して「どうやら、伝えられるところでは」のように使うこともある。」。evidently は基本的に「明らかに、どう見ても」または推論的な「どうやら」を表すが、「伝えられるところでは」は情報源を示す reportedly の意味に寄り、別の副詞の意味を学習させる。",
+      "suggested_direction": "「明らかに、どうやら（状況から判断すると）」に限定し、「伝えられるところでは」は削除するか reportedly との違いを明示する。",
+      "scope_anchors": [
+        {
+          "id": "CR-002-a1",
+          "exact_quote": "・evidently：副詞。「明らかに、見たところ」。文全体を修飾して「どうやら、伝えられるところでは」のように使うこともある。",
+          "location_hint": "＃語形成の evidently 項目"
+        },
+        {
+          "id": "CR-002-a2",
+          "exact_quote": "同じラテン語系統の evidence「証拠、証拠を示す」、evidently「明らかに、どうやら」、self-evident「自明な」と意味上・形態上つながる。",
+          "location_hint": "＃語源の関連語列挙"
+        }
+      ],
+      "origin": "cold_review"
+    }
+  ],
+  "resolutions": [
+    {
+      "id": "CR-001",
+      "finding_id": "CR-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "make something evident は目的語補語構文、make it evident + that 〈節〉は形式目的語 it を用いる that 節構文であり、同一のパターンとして結合すると make + 目的語 + that 節という誤った一般化を招くため、別項目に分ける。",
+      "required_changes": [
+        "make something evident と make it evident + that 〈節〉を別パターンとして示す。"
+      ],
+      "implemented_changes": [
+        "文法パターンを二つの独立したフレームと訳に分割した。"
+      ],
+      "resolved_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0"
+    },
+    {
+      "id": "CR-002",
+      "finding_id": "CR-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "evidently は明らかな根拠や状況からの推論を示す副詞であり、情報源を示す reportedly に近い「伝えられるところでは」を通常の意味として併記すると、推論と伝聞を混同させるため、説明を推論的な意味に限定する。",
+      "required_changes": [
+        "evidently の説明から reportedly 寄りの「伝えられるところでは」を除く。"
+      ],
+      "implemented_changes": [
+        "「明らかに、どうやら（状況から判断すると）」と、根拠や状況から推論した内容を示す説明に改めた。"
+      ],
+      "resolved_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0"
+    }
+  ],
+  "final_decision": {
+    "decision": "pass",
+    "blockers": [],
+    "notes": [
+      "All article targets, relations, source unions, and sealed blind assertions pass the final reconciliation.",
+      "All checker/cold findings are resolved, the six invalidated checker passes were rechecked, pronunciation reuse was validated, and no post-blind findings remain."
+    ],
+    "reviewed_at": "2026-09-09T10:55:20.519444+00:00",
+    "blind_output_sha256": "0fef293b619223b8331de4ae20d75e0dc7c32557e06f0d4b95bd89c4a3712d02"
+  },
+  "workflow_revision": {
+    "schema_version": "workflow_revision_v1",
+    "artifacts": {
+      "pre_blind_resolution": {
+        "path": "audits/runs/e/evident/20260909T104259Z-e44fbe0e/pre_blind_resolution.json",
+        "sha256": "b9b2fa8f52d7b6f1ecd3dadacb9723dff170bdba46a6329544e0858f907f812e"
+      },
+      "pre_blind_revision": {
+        "path": "audits/runs/e/evident/20260909T104259Z-e44fbe0e/pre_blind_revision.json",
+        "sha256": "94d63903618488166ef65f6a9c7f15544f9e01f439b8dbaa4e3422646dc6ba59"
+      },
+      "checker_recheck_manifest": {
+        "path": "audits/runs/e/evident/20260909T104259Z-e44fbe0e/checker_recheck_manifest.json",
+        "sha256": "928e68ef57764c08bb98e3db7f9d6f8a235d69e18e633241ed1d89aa073f00fd"
+      },
+      "post_blind_resolution": {
+        "path": "audits/runs/e/evident/20260909T104259Z-e44fbe0e/post_blind_resolution.json",
+        "sha256": "7dc2f920057bc5fa6ac3d76f75e2d66c3a0b209dd3c849f5a7dcb88dd57d0e51"
+      },
+      "post_blind_verification": {
+        "path": "audits/runs/e/evident/20260909T104259Z-e44fbe0e/post_blind_verification.json",
+        "sha256": "2a0c236d737f79ae9fb3c175a9c6f415149cfe501191798644c6a058cef8c44d"
+      }
+    },
+    "targeted_adjudications": []
+  },
+  "invalidated_by": [],
+  "review_liveness_errors": []
 }

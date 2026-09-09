@@ -1,0 +1,3157 @@
+# Independent review handoff
+
+Stage: `final_review`
+
+The response must be one JSON object matching the supplied review schema. Create it in a separate model session; do not use the generation session.
+
+## Prompt
+
+# final_review_spec_v2
+
+この仕様は、最新版の記事本文、pre/post-blind resolution、影響範囲checkerの再検査・再利用manifest、固定済みblind inventory、具体的未解決事項だけを入力として、第三者最終審査が合否を判断するための意味基準だけを定める。入力分離、順序、hash、seal、記録、件数網羅、status同期は `scripts/run_word.py`、`scripts/workflow_revision.py`、`scripts/generate_audit_manifest.py` が強制する。
+
+final reviewは新たな全面レビューをもう一巡する段階ではない。本文hash、すべてのfindingの完全な裁定、pass再検査・再利用条件、source union、blind chronology、未解決blockerゼロを照合する。hash、件数、集合、時系列、schemaはコードの結果を使い、内容を長大に復唱しない。
+
+## PASSの意味基準
+
+次をすべて満たす場合だけ `PASS` とする。
+
+1. 記事の事実、語法、発音、例文、訳が正しく、見出し語の意味方向・意味役割・適用範囲を誤学習させない。
+2. 主要な品詞、語義、派生・転換、専門用法、完全な統語フレームが過不足なく扱われ、語義境界、コアイメージ、定義、語法、コロケーション、語彙関係の間に矛盾がない。
+3. 例文と訳で、述語、主語・目的語・補語、行為者・経験者・対象・結果、肯否、比較基準、程度、数量、時制・相・法、条件・因果・目的、修飾範囲、焦点、情報構造、レジスター、話者評価が保存されている。
+4. 地域差、専門・制度用法、頻度、語源、語形成、語義境界、文法制約、絶対表現などの高リスク主張が、当該主張へ適用できる根拠に支えられ、反例・矛盾・適用範囲が確認されている。検索見出し、資料名だけ、別義の用例は根拠にしない。
+5. checker/cold findingはpre-blind、final-blind findingはpost-blindで重複・欠落なく裁定され、採用修正の影響範囲checkerが再検査済みで、再利用passはspec・正規化入力・source artifact・schema・独立性・request bindingがすべて一致している。
+6. blind inventoryの各 `semantic_assertion` を最新版へ適用しても、候補の境界・作用方向・包含/除外関係・一般化範囲に反する記述がない。
+7. final blindがcold reviewおよびpre-blind revisionより後で、pre-blind修正後本文hashに束縛されている。final-blind findingの採用修正がある場合は、影響checker再検査後の新本文を新しい独立final blindが確認している。
+8. `insufficient_evidence`、未検査範囲、無効pass、判断衝突、未確認の修正影響が残っていない。
+
+## REJECTの意味基準
+
+上記のいずれかを満たさない場合は `REJECT` とする。blockerにできるのは、事実・語法・発音の誤り、例文/訳の誤り、主要語義・構文の欠落または過剰収録、根拠と本文の矛盾、内容仕様の必須項目違反、未判定・未解決項目である。各blockerには対象ID、問題、必要な修正を記録する。条件付き合格は使わない。
+
+本文と矛盾しない分類粒度・棚卸し構成の差、より良い表現の提案、任意の改善余地は、それだけを理由に `REJECT` にせず、非blocking noteとして記録する。`REJECT` は審査失敗ではなく、問題を検出して完了した正常な最終判定である。
+
+## 出力
+
+入力に `inventories` / `response_template` がある場合、それが照合対象IDの正本である。IDを作り直さず、ひな形の未判定欄を独立に判定する。未判定は合格ではない。`target_results` / `relation_results` の `notes` には、対応する対象の `text` / 関係の `description` 全文を引用し、その対象固有の判断理由を記載する。入力欠落を空集合と推測しない。
+
+`final_review_v2` JSONとして、全target/relation/normal candidate/blind candidate/finding/evidence/source-unionの個別結果、再検査・再利用manifestの照合結果、`decision` (`pass | reject`)、`blockers`、非blocking `notes` を返す。`PASS` は全個別結果がpass、未解決・hold・`insufficient_evidence`が0件、blockerが0件の場合に限る。本文は変更しない。新しい内容上のblockerを見つけた場合は正常なREJECTとし、修正、影響範囲再検査、final blind再実行へ戻す。
+
+
+## Input packet
+
+```json
+{
+  "stage": "final_review",
+  "entry_body": "\n＃発音記号\n\n米・英: /ˈevɪdənt/。3音節で、第1音節に主強勢がある。第1音節の /ˈev/ に強勢を置き、第2音節の /ɪ/ は弱く、第3音節は /dənt/ と発音する。語尾の /t/ を落として「エビデン」のようにせず、最後を閉じる。派生副詞 evidently は /ˈevɪdəntli/、同語族の名詞 evidence は /ˈevɪdəns/ で、いずれも語頭側に強勢がある。  \n\n＃語源\n\n中英語後期に、古フランス語またはラテン語 evidens・evident-「目や心に明らかな、明白な」から英語に入った。ラテン語の形は e-（ex-「外へ、十分に」の変形）と videre「見る」に関係し、もともと「外に現れて見える」という発想を含む。  \n同じラテン語系統の evidence「証拠、証拠を示す」、evidently「明らかに、どうやら」、self-evident「自明な」と意味上・形態上つながる。  \n\n＃語形成\n\n・evidently：副詞。「明らかに、どうやら（状況から判断すると）」。文全体を修飾し、明らかな根拠や状況から推論した内容を示す。  \n・self-evident：複合形容詞。「証明や説明を必要としないほど明らかな、自明の」。  \n・evidence：名詞・動詞。evident と同じ語源系統に属し、名詞では「証拠」、動詞では「証拠を示す」を表す。現代英語で evident に単純に接尾辞を付けた派生語ではない。  \n\n＃意味・用法・関連表現\n\n1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている\n\n【日本語訳・定義】見える特徴、行動、データ、状況などから、ある事実・状態・感情・評価を容易に認識または理解できることを表す。観察した人にとって明白だという意味であり、語そのものが論理的な証明や絶対的な確実性まで保証するわけではない。  \n\n【頻度】〈8/10〉  \n\n【レジスター/領域】標準語だが、会話中心の obvious や clear よりやや形式的。報告書、学術文、ニュース、ビジネスの説明で多く、感情や特徴が外から読み取れることにも使う。  \n\n【文法パターン】something + be・seem・become・remain evident＝事実・状態などが明らかである／it + be・become + evident + that 〈節〉＝～であることが明らかだ／something + be evident to someone＝〈人〉にとって明らかだ／it + be evident to someone + that 〈節〉＝〈人〉には～が明らかだ／it + be evident from 〈data・evidence・behavior〉 + that 〈節〉＝〈データ・証拠・行動〉から～が明らかだ／something + be evident in 〈expression・results・pattern〉＝感情・特徴などが〈表情・結果・パターン〉に表れている／make something evident＝何かを明白にする／make it evident + that 〈節〉＝～であることを明らかにする／evident + 〈change・difference・sign・need〉＝明らかな〈変化・違い・兆候・必要性〉。  \n\n【コロケーション】\n\n・it is evident that 〈節〉  \n用途: 状況や観察結果から、ある判断が明らかだと述べる基本構文。  \n例: It is evident that the current plan cannot meet the deadline.  \n訳: 現在の計画では期限に間に合わないことが明らかだ。  \n\n・be evident to someone  \n用途: 何が誰にとって明らかなのかを示す。  \n例: The benefits of the new system were immediately evident to the staff.  \n訳: 新しいシステムの利点は職員にはすぐに明らかになった。  \n\n・be evident from 〈data・evidence・results〉 that 〈節〉  \n用途: 明白だと判断する根拠や情報源を示す。  \n例: It was evident from the audit results that several invoices had been duplicated.  \n訳: 監査結果から、複数の請求書が重複していたことは明らかだった。  \n\n・be evident in 〈expression・behavior・pattern〉  \n用途: 感情や特徴が表情・行動・結果などに現れていることを表す。  \n例: Her disappointment was evident in the way she avoided eye contact.  \n訳: 彼女が目を合わせようとしなかったことに、失望がはっきり表れていた。  \n\n・become evident  \n用途: 時間の経過や追加情報によって、それまで不明だったことが明らかになることを表す。  \n例: The scale of the damage became evident after the smoke cleared.  \n訳: 煙が晴れた後、被害の規模が明らかになった。  \n\n・make it evident that 〈節〉  \n用途: 数値、言動、結果などによって、ある判断を明白にする。  \n例: The revised figures made it evident that the original estimate was too optimistic.  \n訳: 修正後の数値によって、当初の見積もりが楽観的すぎたことが明らかになった。  \n\n・evident signs of 〈change・stress・recovery〉  \n用途: 変化、ストレス、回復などが起きていると分かる兆候を表す。  \n例: The patient showed evident signs of recovery after the treatment.  \n訳: その患者には治療後、回復の明らかな兆候が見られた。  \n\n・with evident 〈relief・pleasure・concern〉  \n用途: 表情や声などに感情が明確に現れている様子を表す。  \n例: She spoke with evident relief after the results were announced.  \n訳: 結果が発表された後、彼女はほっとした様子をはっきり見せて話した。  \n\n【語法・注意】`evident to someone` は「誰にとって明らかか」、`evident from something` は「何を根拠に明らかか」、`evident in something` は「どこに表れているか」を示す。`evident that ...` のように内容を続ける場合は、通常 `It is evident that ...` と形式主語 it を置く。  \n\nevident は「観察や情報から明らかだ」という評価であり、必ずしも「証明済み」「疑いなく真実」と同じではない。`It was evident from the preliminary data that ...` のように、判断の根拠が限定的であることも表せる。  \n\n日常会話では obvious や clear の方が自然な場面が多い。`evident` は報告・説明調の響きがあり、`evident concern`、`evident improvement` のように、外から読み取れる感情や変化を名詞の前で修飾できる。`evidently` は副詞なので、`It is evident that ...` と `Evidently, ...` を品詞ごとに使い分ける。  \n\n【類義語】\n\n・obvious  \n定義: 見たり考えたりすれば容易に分かる、明白な。  \n頻度: 〈10/10〉  \n違い: obvious は日常的で、証拠がなくても直観的に分かることに使える。evident は兆候や状況から判断できることをやや形式的に述べる。  \n例: It was obvious from his expression that he was disappointed.  \n訳: 彼の表情から、彼が失望しているのは明らかだった。  \n\n・clear  \n定義: 意味・事実・状況などが疑いなく理解できる、明確な。  \n頻度: 〈10/10〉  \n違い: clear は説明や指示を「分かりやすくする」意図にも使え、対象範囲が広い。evident は観察可能な兆候から明らかになることに焦点を置きやすい。  \n例: The instructions were clear to everyone on the team.  \n訳: その指示はチームの全員にとって明確だった。  \n\n・apparent  \n定義: 観察や状況から、そうだと見て取れる・思われる。  \n頻度: 〈8/10〉  \n違い: apparent は「そう見える」という含みから、実際には異なる可能性を残すことがある。evident は通常、利用可能な兆候から明らかだという判断をより直接に表す。  \n例: It soon became apparent that the schedule was unrealistic.  \n訳: その予定が現実的でないことは、まもなく明らかになった。  \n\n・plain  \n定義: 隠れたところがなく、見たり聞いたりすれば明らかな。  \n頻度: 〈7/10〉  \n違い: plain は `plain to see`、`make it plain` などで、率直に明示する感じも持つ。evident は感情や結果が兆候として現れる説明に向く。  \n例: It was plain to see that the proposal needed more work.  \n訳: その提案にさらに検討が必要なのは一目瞭然だった。  \n\n・manifest  \n定義: 性質・事実・感情などがはっきり外に現れている、明白な。  \n頻度: 〈5/10〉  \n違い: manifest は evident より硬く、文学・学術・形式的な文脈で、隠れたものが明確に現れたことを強調する。  \n例: The report revealed a manifest lack of oversight.  \n訳: その報告書は監督が明らかに欠けていたことを示した。  \n\n・noticeable  \n定義: 見たり感じたりして気づくことができる、目立つ。  \n頻度: 〈8/10〉  \n違い: noticeable は知覚上の目立ちやすさに焦点があり、そこから命題や判断が理解できることまでは含まない。evident は抽象的な事実や結論にも使える。  \n例: There was a noticeable change in his attitude.  \n訳: 彼の態度には目立った変化があった。  \n\n【反意語】\n\n・unclear  \n定義: 意味・理由・状況などがはっきりせず、容易には理解できない。  \n頻度: 〈9/10〉  \n違い: evident の「情報や兆候から明らかである」という理解可能性の軸に対し、unclear は解釈や判断がまだ定まらない状態を表す。  \n例: The reason for the sudden change remains unclear.  \n訳: その突然の変化の理由は依然として不明だ。  \n\n・obscure  \n定義: 見えにくく、知られておらず、理解しにくい。  \n頻度: 〈6/10〉  \n違い: obscure は情報や特徴が隠れている・目立たないために認識しにくいことを強調し、evident の「前面に現れて分かる」と程度の軸で対照をなす。  \n例: The connection between the two events was initially obscure.  \n訳: その2つの出来事のつながりは、当初は分かりにくかった。  ",
+  "_output_metadata": {
+    "schema_version": "final_review_v2",
+    "stage": "final_review",
+    "run_id": "blind-evident-20260909T104259Z-e44fbe0e",
+    "context_id": "blind-evident-context-20260909T104259Z-e44fbe0e",
+    "input_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+    "prompt_sha256": "5fa21ad0e8186e05e00c459e6201d7062a5d550a003831b40e182ba27c7a625a",
+    "input_artifacts": [
+      "entry_body",
+      "sealed_final_blind",
+      "pre_blind_resolution",
+      "post_blind_resolution",
+      "checker_recheck_manifest",
+      "targeted_adjudications",
+      "final_review_spec"
+    ],
+    "blind_output_sha256": "0fef293b619223b8331de4ae20d75e0dc7c32557e06f0d4b95bd89c4a3712d02"
+  },
+  "pass_findings": {
+    "schema_version": "normal_review_v2",
+    "stage": "normal_review",
+    "run_id": "normal-evident-20260909T104259Z-e44fbe0e",
+    "context_id": "normal-evident-context-20260909T104259Z-e44fbe0e",
+    "input_body_sha256": "7daa0d416ecef06000548e2f59c08bd4394750574e23f19e24855a4a6339257a",
+    "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
+    "input_artifacts": [
+      "router_selected_sections",
+      "checker_pass_specs"
+    ],
+    "recorded_at": "2026-09-09T09:50:29.010879+00:00",
+    "pass_outputs": [
+      {
+        "schema_version": "check_pass_response_v6",
+        "pass_id": "translation",
+        "input_body_sha256": "7daa0d416ecef06000548e2f59c08bd4394750574e23f19e24855a4a6339257a",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-6-astra-wm",
+          "ingested_by": "human",
+          "agent_id": "evident-checker-translation-20260909",
+          "same_model_as_generation": true
+        },
+        "findings": []
+      },
+      {
+        "schema_version": "check_pass_response_v6",
+        "pass_id": "sense-structure",
+        "input_body_sha256": "7daa0d416ecef06000548e2f59c08bd4394750574e23f19e24855a4a6339257a",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-6-astra-wm",
+          "ingested_by": "human",
+          "agent_id": "evident-checker-sense-structure-20260909",
+          "same_model_as_generation": true
+        },
+        "findings": []
+      },
+      {
+        "pass_id": "frame-relation",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-6-astra-wm",
+          "ingested_by": "human",
+          "agent_id": "evident-checker-frame-relation-20260909",
+          "same_model_as_generation": true
+        },
+        "antonym_axis_blind_record": {
+          "schema_version": "antonym_axis_blind_record_v1",
+          "pass_id": "frame-relation",
+          "input_body_sha256": "7daa0d416ecef06000548e2f59c08bd4394750574e23f19e24855a4a6339257a",
+          "blind_request_sha256": "b73825d6a66022d6fa67a1530a3a3f3603ae8158d505f5cc1a45279a64a9c4f8",
+          "recorded_at": "2026-09-09T09:50:00+00:00",
+          "reviewer": {
+            "mode": "handoff",
+            "declared_model": "gpt-6-astra-wm",
+            "ingested_by": "human",
+            "agent_id": "evident-checker-frame-relation-20260909",
+            "same_model_as_generation": true
+          },
+          "axes": [
+            {
+              "item_id": "ant-bae621c7c63f",
+              "axis": "明瞭性",
+              "relation_type": "程度",
+              "reason": ""
+            },
+            {
+              "item_id": "ant-4cdb1196ed11",
+              "axis": "明瞭性",
+              "relation_type": "程度",
+              "reason": ""
+            }
+          ]
+        },
+        "antonym_axis_adjudication_record": {
+          "schema_version": "antonym_axis_adjudication_record_v1",
+          "pass_id": "frame-relation",
+          "input_body_sha256": "7daa0d416ecef06000548e2f59c08bd4394750574e23f19e24855a4a6339257a",
+          "stage2_request_sha256": "469f4346728abe88d023129a8f1e1c3e41a383035b82236bcf617649b1cd6537",
+          "blind_record_sha256": "10eb70dbef73fe372f8a3204b68af59d1fd87bf2c59436f304d426ca64beb33e",
+          "reviewer": {
+            "mode": "handoff",
+            "declared_model": "gpt-6-astra-wm",
+            "ingested_by": "human",
+            "agent_id": "evident-checker-frame-relation-20260909",
+            "same_model_as_generation": true
+          },
+          "adjudications": [
+            {
+              "item_id": "ant-4cdb1196ed11",
+              "flags": [],
+              "rationale": "The 明瞭性 axis is directly recoverable from the definition and both pairs contrast degrees of clarity; the difference line does not deny the lexical opposition.",
+              "suggested_direction": null,
+              "f4_severity": null
+            },
+            {
+              "item_id": "ant-bae621c7c63f",
+              "flags": [],
+              "rationale": "The 明瞭性 axis is directly recoverable from the definition and both pairs contrast degrees of clarity; the difference line does not deny the lexical opposition.",
+              "suggested_direction": null,
+              "f4_severity": null
+            }
+          ],
+          "frame_findings": [],
+          "unrouted_observations": []
+        },
+        "aligned_at": "2026-09-09T09:51:05.670107+00:00",
+        "findings": [],
+        "unrouted_observations": []
+      },
+      {
+        "pass_id": "example-attribution",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-6-astra-wm",
+          "ingested_by": "human",
+          "agent_id": "evident-checker-example-attribution-20260909",
+          "same_model_as_generation": true
+        },
+        "blind_attribution_record": {
+          "schema_version": "example_attribution_blind_record_v1",
+          "stage": 1,
+          "pass_id": "example-attribution",
+          "input_body_sha256": "7daa0d416ecef06000548e2f59c08bd4394750574e23f19e24855a4a6339257a",
+          "blind_request_sha256": "341023f462ba06b14425892ca77122b12966d2ea9f9a0a9423768bd1008a2242",
+          "recorded_at": "2026-09-09T09:50:00+00:00",
+          "reviewer": {
+            "mode": "handoff",
+            "declared_model": "gpt-6-astra-wm",
+            "ingested_by": "human",
+            "agent_id": "evident-checker-example-attribution-20260909",
+            "same_model_as_generation": true
+          },
+          "attributions": [
+            {
+              "example_id": "ex-27671b562b67",
+              "classification": "unique",
+              "candidate_sense_ids": [
+                "sense:001"
+              ],
+              "discriminating_terms": [
+                "evident relief"
+              ],
+              "rationale": "The phrase 'evident relief' presents a visible emotional state; the single sense fits better than a merely apparent-seeming alternative."
+            },
+            {
+              "example_id": "ex-d5c3976c5ee8",
+              "classification": "unique",
+              "candidate_sense_ids": [
+                "sense:001"
+              ],
+              "discriminating_terms": [
+                "evident that"
+              ],
+              "rationale": "The frame 'evident that' states a conclusion clear from the situation; no separate lexical sense is needed for this that-clause use."
+            },
+            {
+              "example_id": "ex-ca236bb38407",
+              "classification": "unique",
+              "candidate_sense_ids": [
+                "sense:001"
+              ],
+              "discriminating_terms": [
+                "evident in"
+              ],
+              "rationale": "The frame 'evident in' locates a visible emotional result in behavior; it remains the entry's clarity sense rather than a different sense."
+            },
+            {
+              "example_id": "ex-bfd0b0e28751",
+              "classification": "unique",
+              "candidate_sense_ids": [
+                "sense:001"
+              ],
+              "discriminating_terms": [
+                "evident to the staff"
+              ],
+              "rationale": "The phrase 'evident to the staff' marks who recognizes the clear benefit; the same core adjective sense applies."
+            },
+            {
+              "example_id": "ex-0a09d91fc92d",
+              "classification": "unique",
+              "candidate_sense_ids": [
+                "sense:001"
+              ],
+              "discriminating_terms": [
+                "became evident"
+              ],
+              "rationale": "The phrase 'became evident' marks a change into a clear state after new information; it does not introduce another lexical sense."
+            },
+            {
+              "example_id": "ex-620e836a4f4a",
+              "classification": "unique",
+              "candidate_sense_ids": [
+                "sense:001"
+              ],
+              "discriminating_terms": [
+                "made it evident that"
+              ],
+              "rationale": "The frame 'made it evident that' presents evidence making a conclusion clear; the causative frame still expresses the one listed sense."
+            },
+            {
+              "example_id": "ex-4cf6bc1c9cb5",
+              "classification": "unique",
+              "candidate_sense_ids": [
+                "sense:001"
+              ],
+              "discriminating_terms": [
+                "evident signs of recovery"
+              ],
+              "rationale": "The collocation 'evident signs of recovery' describes observable evidence of a change; the adjective keeps its clarity meaning."
+            },
+            {
+              "example_id": "ex-8e465c71750b",
+              "classification": "unique",
+              "candidate_sense_ids": [
+                "sense:001"
+              ],
+              "discriminating_terms": [
+                "evident from the audit results"
+              ],
+              "rationale": "The frame 'evident from the audit results' identifies the information source for a clear conclusion; it matches the sole sense."
+            }
+          ]
+        },
+        "aligned_at": "2026-09-09T09:50:29.007860+00:00",
+        "findings": [],
+        "unrouted_observations": []
+      },
+      {
+        "schema_version": "check_pass_response_v6",
+        "pass_id": "qualification",
+        "input_body_sha256": "7daa0d416ecef06000548e2f59c08bd4394750574e23f19e24855a4a6339257a",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-6-astra-wm",
+          "ingested_by": "human",
+          "agent_id": "evident-checker-qualification-20260909",
+          "same_model_as_generation": true
+        },
+        "findings": []
+      },
+      {
+        "schema_version": "check_pass_response_v6",
+        "pass_id": "pronunciation",
+        "input_body_sha256": "7daa0d416ecef06000548e2f59c08bd4394750574e23f19e24855a4a6339257a",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-6-astra-wm",
+          "ingested_by": "human",
+          "agent_id": "evident-checker-pronunciation-20260909",
+          "same_model_as_generation": true
+        },
+        "findings": []
+      },
+      {
+        "schema_version": "check_pass_response_v6",
+        "pass_id": "evidence",
+        "input_body_sha256": "7daa0d416ecef06000548e2f59c08bd4394750574e23f19e24855a4a6339257a",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-6-astra-wm",
+          "ingested_by": "human",
+          "agent_id": "evident-checker-evidence-20260909",
+          "same_model_as_generation": true
+        },
+        "findings": []
+      }
+    ],
+    "checker_reviewers": {
+      "translation": {
+        "mode": "handoff",
+        "declared_model": "gpt-6-astra-wm",
+        "ingested_by": "human",
+        "agent_id": "evident-checker-translation-20260909",
+        "same_model_as_generation": true
+      },
+      "sense-structure": {
+        "mode": "handoff",
+        "declared_model": "gpt-6-astra-wm",
+        "ingested_by": "human",
+        "agent_id": "evident-checker-sense-structure-20260909",
+        "same_model_as_generation": true
+      },
+      "frame-relation": {
+        "mode": "handoff",
+        "declared_model": "gpt-6-astra-wm",
+        "ingested_by": "human",
+        "agent_id": "evident-checker-frame-relation-20260909",
+        "same_model_as_generation": true
+      },
+      "example-attribution": {
+        "mode": "handoff",
+        "declared_model": "gpt-6-astra-wm",
+        "ingested_by": "human",
+        "agent_id": "evident-checker-example-attribution-20260909",
+        "same_model_as_generation": true
+      },
+      "qualification": {
+        "mode": "handoff",
+        "declared_model": "gpt-6-astra-wm",
+        "ingested_by": "human",
+        "agent_id": "evident-checker-qualification-20260909",
+        "same_model_as_generation": true
+      },
+      "pronunciation": {
+        "mode": "handoff",
+        "declared_model": "gpt-6-astra-wm",
+        "ingested_by": "human",
+        "agent_id": "evident-checker-pronunciation-20260909",
+        "same_model_as_generation": true
+      },
+      "evidence": {
+        "mode": "handoff",
+        "declared_model": "gpt-6-astra-wm",
+        "ingested_by": "human",
+        "agent_id": "evident-checker-evidence-20260909",
+        "same_model_as_generation": true
+      }
+    },
+    "independent_candidates": [],
+    "summary": "Independent checker passes completed by parallel handoff; frame-relation preserved its serial blind/adjudication dependency."
+  },
+  "cold_review": {
+    "summary": "文法パターンの結合方法と evidently の日本語説明に、学習者の誤用・誤解につながる問題候補がある。",
+    "findings": [
+      {
+        "id": "CR-001",
+        "location": "文法パターン",
+        "severity": "high",
+        "description": "make something と make it evident that ... を一つのパターンとして結合しており、前者に that 節を直接続ける誤った構文を示している。",
+        "reason": "該当本文「make something・make it evident + that 〈節〉＝何かを明白にする・～であることを明らかにする／」。make it evident that ... は成立するが、make something evident は目的語補語構文であり、通常は make something evident that ... とは続かない。学習者が make + 目的語 + that 節を一般化するため、二つのフレームを分けて示す必要がある。",
+        "suggested_direction": "make something evident（何かを明白にする）と make it evident that ...（…であることを明らかにする）を別パターンに分ける。",
+        "scope_anchors": [
+          {
+            "id": "CR-001-a1",
+            "exact_quote": "make something・make it evident + that 〈節〉＝何かを明白にする・～であることを明らかにする／",
+            "location_hint": "＃意味・用法・関連表現の【文法パターン】行"
+          }
+        ]
+      },
+      {
+        "id": "CR-002",
+        "location": "語源・語形成の evidently 説明",
+        "severity": "medium",
+        "description": "evidently の意味に reportedly に近い「伝えられるところでは」を通常の用法として含めている。",
+        "reason": "該当本文「・evidently：副詞。「明らかに、見たところ」。文全体を修飾して「どうやら、伝えられるところでは」のように使うこともある。」。evidently は基本的に「明らかに、どう見ても」または推論的な「どうやら」を表すが、「伝えられるところでは」は情報源を示す reportedly の意味に寄り、別の副詞の意味を学習させる。",
+        "suggested_direction": "「明らかに、どうやら（状況から判断すると）」に限定し、「伝えられるところでは」は削除するか reportedly との違いを明示する。",
+        "scope_anchors": [
+          {
+            "id": "CR-002-a1",
+            "exact_quote": "・evidently：副詞。「明らかに、見たところ」。文全体を修飾して「どうやら、伝えられるところでは」のように使うこともある。",
+            "location_hint": "＃語形成の evidently 項目"
+          },
+          {
+            "id": "CR-002-a2",
+            "exact_quote": "同じラテン語系統の evidence「証拠、証拠を示す」、evidently「明らかに、どうやら」、self-evident「自明な」と意味上・形態上つながる。",
+            "location_hint": "＃語源の関連語列挙"
+          }
+        ]
+      }
+    ],
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-6-astra-wm",
+      "ingested_by": "human",
+      "agent_id": "evident-cold-reuse-20260909T104259Z-e44fbe0e",
+      "same_model_as_generation": true
+    },
+    "schema_version": "cold_review_v1",
+    "stage": "cold_review",
+    "run_id": "cold-evident-20260909T104259Z-e44fbe0e",
+    "context_id": "cold-evident-context-20260909T104259Z-e44fbe0e",
+    "input_body_sha256": "7daa0d416ecef06000548e2f59c08bd4394750574e23f19e24855a4a6339257a",
+    "prompt_sha256": "25c298d1a4305746147791bd442cd725a92737c8f0802b992ea88e5c6ff76a5d",
+    "input_artifacts": [
+      "entry_body",
+      "cold_review_prompt"
+    ],
+    "audit_visible": false,
+    "recorded_at": "2026-09-09T09:55:01.294449+00:00"
+  },
+  "final_blind": {
+    "provisional_decision": "pass",
+    "independent_candidates": [
+      {
+        "id": "IC-001",
+        "surface_form": "evident",
+        "frame": "evident + 〈change・difference・sign・need〉",
+        "meaning": "明らかな、明白な、はっきり表れている",
+        "disposition": "included",
+        "rationale": "The frame evident + 〈change・difference・sign・need〉 is the attributive adjective use for a property that can be recognized from observable signs or results, not a guarantee of proof.",
+        "semantic_assertions": [
+          {
+            "id": "IC-001-SA-001",
+            "statement": "The adjective describes a recognizable property or state rather than guaranteeing logical proof.",
+            "polarity": "must_hold",
+            "scope": "main adjective sense"
+          }
+        ]
+      },
+      {
+        "id": "IC-002",
+        "surface_form": "evident",
+        "frame": "it + be・become + evident + that 〈節〉",
+        "meaning": "ある判断・事実が状況から明らかだ",
+        "disposition": "included",
+        "rationale": "The frame it + be・become + evident + that 〈節〉 presents a proposition as clear from available circumstances and keeps the formal subject it with the that-clause.",
+        "semantic_assertions": [
+          {
+            "id": "IC-002-SA-001",
+            "statement": "The that-clause is the content judged evident, and the construction does not turn evident into an evidential noun or verb.",
+            "polarity": "must_hold",
+            "scope": "that-clause frame"
+          }
+        ]
+      },
+      {
+        "id": "IC-003",
+        "surface_form": "evident",
+        "frame": "something + be evident to someone",
+        "meaning": "〈人〉にとって何かが明らかだ",
+        "disposition": "included",
+        "rationale": "The frame something + be evident to someone identifies the person for whom the fact or benefit is recognizable; the to-phrase is a perceiver or evaluator, not a source of evidence.",
+        "semantic_assertions": [
+          {
+            "id": "IC-003-SA-001",
+            "statement": "The to-phrase marks the recognizing person and does not replace the adjective subject.",
+            "polarity": "must_hold",
+            "scope": "to-someone frame"
+          }
+        ]
+      },
+      {
+        "id": "IC-004",
+        "surface_form": "evident",
+        "frame": "it + be evident from 〈data・evidence・behavior〉 + that 〈節〉",
+        "meaning": "根拠から判断すると明らかだ",
+        "disposition": "included",
+        "rationale": "The frame it + be evident from 〈data・evidence・behavior〉 + that 〈節〉 separates the conclusion from the evidence or behavior used as its basis.",
+        "semantic_assertions": [
+          {
+            "id": "IC-004-SA-001",
+            "statement": "The from-phrase identifies the basis for an inference, while the that-clause states the conclusion.",
+            "polarity": "must_hold",
+            "scope": "from-basis frame"
+          }
+        ]
+      },
+      {
+        "id": "IC-005",
+        "surface_form": "evident",
+        "frame": "something + be evident in 〈expression・results・pattern〉",
+        "meaning": "感情・特徴などが何かに表れている",
+        "disposition": "included",
+        "rationale": "The frame something + be evident in 〈expression・results・pattern〉 locates a visible manifestation of an emotion or feature and does not create a separate lexical sense.",
+        "semantic_assertions": [
+          {
+            "id": "IC-005-SA-001",
+            "statement": "The in-phrase identifies where the otherwise abstract property is manifested.",
+            "polarity": "must_hold",
+            "scope": "in-manifestation frame"
+          }
+        ]
+      },
+      {
+        "id": "IC-006",
+        "surface_form": "evident",
+        "frame": "make something evident",
+        "meaning": "何かを明白にする",
+        "disposition": "included",
+        "rationale": "The frame make something evident is a causative object-complement construction: make causes the object to become evident, without licensing a direct that-clause after something.",
+        "semantic_assertions": [
+          {
+            "id": "IC-006-SA-001",
+            "statement": "The object and adjective complement form the causative result, and the object-complement frame must not be generalized to make something that-clause.",
+            "polarity": "must_hold",
+            "scope": "causative object-complement frame"
+          },
+          {
+            "id": "IC-006-SA-002",
+            "statement": "The causative construction does not itself assert that the object was already evident.",
+            "polarity": "must_hold",
+            "scope": "causative scope"
+          }
+        ]
+      },
+      {
+        "id": "IC-007",
+        "surface_form": "evident",
+        "frame": "make it evident + that 〈節〉",
+        "meaning": "～であることを明らかにする",
+        "disposition": "included",
+        "rationale": "The frame make it evident + that 〈節〉 uses formal it for the proposition and is distinct from make something evident; separating the frames prevents an incorrect make + object + that-clause generalization.",
+        "semantic_assertions": [
+          {
+            "id": "IC-007-SA-001",
+            "statement": "The formal it anticipates the that-clause, and the construction is separate from the object-complement frame.",
+            "polarity": "must_hold",
+            "scope": "causative that-clause frame"
+          }
+        ]
+      },
+      {
+        "id": "IC-008",
+        "surface_form": "evidently",
+        "frame": "Evidently, ...",
+        "meaning": "明らかに、どうやら（状況から判断すると）",
+        "disposition": "included",
+        "rationale": "The surface form evidently and the meaning 明らかに、どうやら（状況から判断すると） identify the related adverb that modifies a whole clause and signals an inference from circumstances.",
+        "semantic_assertions": [
+          {
+            "id": "IC-008-SA-001",
+            "statement": "Evidently is an adverbial form and should not be substituted for the adjective in It is evident that ... .",
+            "polarity": "must_hold",
+            "scope": "derived adverb"
+          }
+        ]
+      },
+      {
+        "id": "IC-009",
+        "surface_form": "self-evident",
+        "frame": "self-evident",
+        "meaning": "証明や説明を必要としないほど明らかな、自明の",
+        "disposition": "included",
+        "rationale": "The frame self-evident is the listed compound adjective meaning 証明や説明を必要としないほど明らかな、自明の, not an independent inflectional sense of evident.",
+        "semantic_assertions": [
+          {
+            "id": "IC-009-SA-001",
+            "statement": "The compound keeps evident inside a fixed compound meaning and does not license every compound component as a free synonym.",
+            "polarity": "must_hold",
+            "scope": "compound adjective"
+          }
+        ]
+      },
+      {
+        "id": "IC-010",
+        "surface_form": "evidence",
+        "frame": "evidence",
+        "meaning": "evident と同じ語源系統に属する関連語",
+        "disposition": "excluded",
+        "rationale": "The surface form evidence is a related noun and verb in the same etymological family, but the article explicitly excludes treating evidence as a simple suffixal derivative of evident.",
+        "semantic_assertions": [
+          {
+            "id": "IC-010-SA-001",
+            "statement": "Evidence must remain a related lexical item rather than being presented as a regular modern suffixal formation from evident.",
+            "polarity": "must_hold",
+            "scope": "related word formation"
+          },
+          {
+            "id": "IC-010-SA-002",
+            "statement": "Evidence is not an additional adjective sense of the headword evident.",
+            "polarity": "must_not_hold",
+            "scope": "headword boundary"
+          }
+        ]
+      }
+    ],
+    "article_findings": [],
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-6-astra-wm",
+      "ingested_by": "human",
+      "agent_id": "evident-blind-reuse-20260909T104259Z-e44fbe0e",
+      "same_model_as_generation": true
+    },
+    "schema_version": "final_blind_v2",
+    "stage": "final_blind",
+    "run_id": "blind-evident-20260909T104259Z-e44fbe0e",
+    "context_id": "blind-evident-context-20260909T104259Z-e44fbe0e",
+    "input_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+    "prompt_sha256": "3a481b4b5b1236ff386e148bcacc574570b305e79f5e155e9afcd34091f7785c",
+    "input_artifacts": [
+      "entry_body",
+      "final_blind_prompt"
+    ],
+    "audit_visible": false,
+    "recorded_at": "2026-09-09T10:21:29.078532+00:00"
+  },
+  "blind_seal": {
+    "schema_version": "blind_seal_v3",
+    "stage": "blind_seal",
+    "entry_path": "entries/e/evident.md",
+    "body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+    "final_blind_path": "audits/runs/e/evident/20260909T104259Z-e44fbe0e/final_blind.json",
+    "final_blind_sha256": "26a321ee360a6d97a86d7e4b5971d2d3af14e934cfc30a439656602012fce2e3",
+    "blind_output_sha256": "0fef293b619223b8331de4ae20d75e0dc7c32557e06f0d4b95bd89c4a3712d02",
+    "sealed_at": "2026-09-09T10:46:00Z"
+  },
+  "pre_blind_resolution": {
+    "schema_version": "pre_blind_resolution_v1",
+    "stage": "pre_blind_resolution",
+    "input_body_sha256": "7daa0d416ecef06000548e2f59c08bd4394750574e23f19e24855a4a6339257a",
+    "output_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+    "recorded_at": "2026-09-09T10:04:01.911179+00:00",
+    "resolutions": [
+      {
+        "id": "CR-001",
+        "finding_id": "CR-001",
+        "status": "resolved",
+        "disposition": "adopted",
+        "rationale": "make something evident は目的語補語構文、make it evident + that 〈節〉は形式目的語 it を用いる that 節構文であり、同一のパターンとして結合すると make + 目的語 + that 節という誤った一般化を招くため、別項目に分ける。",
+        "required_changes": [
+          "make something evident と make it evident + that 〈節〉を別パターンとして示す。"
+        ],
+        "implemented_changes": [
+          "文法パターンを二つの独立したフレームと訳に分割した。"
+        ],
+        "resolved_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0"
+      },
+      {
+        "id": "CR-002",
+        "finding_id": "CR-002",
+        "status": "resolved",
+        "disposition": "adopted",
+        "rationale": "evidently は明らかな根拠や状況からの推論を示す副詞であり、情報源を示す reportedly に近い「伝えられるところでは」を通常の意味として併記すると、推論と伝聞を混同させるため、説明を推論的な意味に限定する。",
+        "required_changes": [
+          "evidently の説明から reportedly 寄りの「伝えられるところでは」を除く。"
+        ],
+        "implemented_changes": [
+          "「明らかに、どうやら（状況から判断すると）」と、根拠や状況から推論した内容を示す説明に改めた。"
+        ],
+        "resolved_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0"
+      }
+    ],
+    "learning_delta": {
+      "schema_version": "process_improvement_learning_delta_v2",
+      "reviewed": true,
+      "items": []
+    }
+  },
+  "pre_blind_revision": {
+    "schema_version": "pre_blind_revision_v1",
+    "input_body_sha256": "7daa0d416ecef06000548e2f59c08bd4394750574e23f19e24855a4a6339257a",
+    "output_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+    "recorded_at": "2026-09-09T10:04:01.911179+00:00",
+    "changed_units": [
+      "frames",
+      "word_formation"
+    ],
+    "invalidated_passes": [
+      "evidence",
+      "example-attribution",
+      "frame-relation",
+      "qualification",
+      "sense-structure",
+      "translation"
+    ],
+    "full_recheck": false
+  },
+  "checker_recheck_manifest": {
+    "schema_version": "checker_recheck_manifest_v1",
+    "current_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+    "revision_plan_sha256": "774b65efa567d51b6029bd1d62a22db20ef63c32d11a373683121e71aab8b226",
+    "full_recheck": false,
+    "invalidated_passes": [
+      "evidence",
+      "example-attribution",
+      "frame-relation",
+      "qualification",
+      "sense-structure",
+      "translation"
+    ],
+    "pass_results": [
+      {
+        "pass_id": "translation",
+        "mode": "rechecked",
+        "spec_sha256": "d09d822f58ea8bcff9aa2890f988ad7aca9a9d3a773b5f9da5427f783ae25bb3",
+        "normalized_input_sha256": "cc50ed901a9eb506be15a7c7811c7904c4254910eb912a3ff0f811583b23b3ca",
+        "source_artifact_sha256": "332d09df7349e755d8dc6fd003742cfb167fb68b64ad41f2a7d6f90fd5d329d9",
+        "output_sha256": "dddb21f84cc05f43d2bab8ea7e1c55055a9c748cf1208dc5599efca54144a12f",
+        "schema_valid": true,
+        "reviewer_independent": true,
+        "request_binding_valid": true,
+        "reuse_validated": false,
+        "reviewer_agent_id": "evident-recheck-translation-20260909",
+        "output_path": "audits/runs/e/evident/20260909T091515Z-5b403bb2/recheck/round1/check_passes/translation.json",
+        "reuse_proof_path": null,
+        "validated_on_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0"
+      },
+      {
+        "pass_id": "sense-structure",
+        "mode": "rechecked",
+        "spec_sha256": "a815b90fbc456e2bc194220ee0f3bfa164790bbb6e1f2f740144ac62bb03b87c",
+        "normalized_input_sha256": "903318774e036d4684a392a0ee8deed344af72caee3dee23a89815235c5947e8",
+        "source_artifact_sha256": "332d09df7349e755d8dc6fd003742cfb167fb68b64ad41f2a7d6f90fd5d329d9",
+        "output_sha256": "4349e79ba522d3c12b1490ea65fc8d9e60088e34419770bb055a9931291252b9",
+        "schema_valid": true,
+        "reviewer_independent": true,
+        "request_binding_valid": true,
+        "reuse_validated": false,
+        "reviewer_agent_id": "evident-recheck-sense-structure-20260909",
+        "output_path": "audits/runs/e/evident/20260909T091515Z-5b403bb2/recheck/round1/check_passes/sense-structure.json",
+        "reuse_proof_path": null,
+        "validated_on_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0"
+      },
+      {
+        "pass_id": "frame-relation",
+        "mode": "rechecked",
+        "spec_sha256": "3598ca81a5784639c6b43a0806d0981a985bf4174f424c744aad1dde787bfcef",
+        "normalized_input_sha256": "4c8926709e1a0b5a684aa59caa6ed9db8387c2e044b5d1fcbda0b4aca582bdca",
+        "source_artifact_sha256": "332d09df7349e755d8dc6fd003742cfb167fb68b64ad41f2a7d6f90fd5d329d9",
+        "output_sha256": "c06ba347f3a3e18874a31016b5e4ccfb01750900e6650b7165403c4c0d1ef33e",
+        "schema_valid": true,
+        "reviewer_independent": true,
+        "request_binding_valid": true,
+        "reuse_validated": false,
+        "reviewer_agent_id": "evident-recheck-frame-relation-20260909",
+        "output_path": "audits/runs/e/evident/20260909T091515Z-5b403bb2/recheck/round1/check_passes/frame-relation.json",
+        "reuse_proof_path": null,
+        "validated_on_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0"
+      },
+      {
+        "pass_id": "example-attribution",
+        "mode": "rechecked",
+        "spec_sha256": "e0bbb032bc0c50bf9bef5ff8f7854188287e635c58e599479891e11e3343a017",
+        "normalized_input_sha256": "491de5306d4b7a899e313603a16066fea19b0293b4e258dbd2330901817973c6",
+        "source_artifact_sha256": "332d09df7349e755d8dc6fd003742cfb167fb68b64ad41f2a7d6f90fd5d329d9",
+        "output_sha256": "05989a2b4b370f90c8927e1bdbc75c8198f84abfdb2d1070374ec93c50e85542",
+        "schema_valid": true,
+        "reviewer_independent": true,
+        "request_binding_valid": true,
+        "reuse_validated": false,
+        "reviewer_agent_id": "evident-recheck-example-attribution-20260909",
+        "output_path": "audits/runs/e/evident/20260909T091515Z-5b403bb2/recheck/round1/check_passes/example-attribution.json",
+        "reuse_proof_path": null,
+        "validated_on_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0"
+      },
+      {
+        "pass_id": "qualification",
+        "mode": "rechecked",
+        "spec_sha256": "1cf8a434bbe1213c0ef739f4c47ffb41014ab2cd5156d297471af6df85ae40a2",
+        "normalized_input_sha256": "235f47818138fb557f0f8baef90882fe99c7e1f5321248439bffef7f34db30b5",
+        "source_artifact_sha256": "332d09df7349e755d8dc6fd003742cfb167fb68b64ad41f2a7d6f90fd5d329d9",
+        "output_sha256": "d58095960cd842bdb576b5d42233b3afa6e112a7e26e97f6681fbc5af72fc4bf",
+        "schema_valid": true,
+        "reviewer_independent": true,
+        "request_binding_valid": true,
+        "reuse_validated": false,
+        "reviewer_agent_id": "evident-recheck-qualification-20260909",
+        "output_path": "audits/runs/e/evident/20260909T091515Z-5b403bb2/recheck/round1/check_passes/qualification.json",
+        "reuse_proof_path": null,
+        "validated_on_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0"
+      },
+      {
+        "pass_id": "pronunciation",
+        "mode": "reused",
+        "spec_sha256": "7e3e94267ac9f917c901c12580b91e570b5989df7adfbf2a39b833478c766d8a",
+        "normalized_input_sha256": "a28cf8cd22927fa516f795888ef0fe4d4d0bd7a1960fba17084613633357192b",
+        "source_artifact_sha256": "332d09df7349e755d8dc6fd003742cfb167fb68b64ad41f2a7d6f90fd5d329d9",
+        "output_sha256": "d45870adf29e0a32a74b7f2297a2c2230642af84e1df94e2110d1c7676b99bd6",
+        "schema_valid": true,
+        "reviewer_independent": true,
+        "request_binding_valid": true,
+        "reuse_validated": true,
+        "reviewer_agent_id": "evident-checker-pronunciation-20260909",
+        "output_path": "audits/runs/e/evident/20260909T091515Z-5b403bb2/recheck/round2/check_passes/pronunciation.json",
+        "reuse_proof_path": "audits/runs/e/evident/20260909T091515Z-5b403bb2/recheck/round2/reuse_proof.json",
+        "validated_on_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0"
+      },
+      {
+        "pass_id": "evidence",
+        "mode": "rechecked",
+        "spec_sha256": "dc0826565109b0be96c5ef7c13943a01b0e42616fecff87ab25102e5cda4cb8d",
+        "normalized_input_sha256": "d34626387cf7bf61f695694d25f076b21ca3cfc1336409c221b209bd3761b008",
+        "source_artifact_sha256": "332d09df7349e755d8dc6fd003742cfb167fb68b64ad41f2a7d6f90fd5d329d9",
+        "output_sha256": "98ee2f5b748ad53dbf508f69502ee7c0dfc78acb2ec22747a4a11b5686ecaded",
+        "schema_valid": true,
+        "reviewer_independent": true,
+        "request_binding_valid": true,
+        "reuse_validated": false,
+        "reviewer_agent_id": "evident-recheck-evidence-20260909",
+        "output_path": "audits/runs/e/evident/20260909T091515Z-5b403bb2/recheck/round1/check_passes/evidence.json",
+        "reuse_proof_path": null,
+        "validated_on_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0"
+      }
+    ]
+  },
+  "post_blind_resolution": {
+    "schema_version": "post_blind_resolution_v1",
+    "resolutions": [],
+    "learning_delta": {
+      "schema_version": "process_improvement_learning_delta_v2",
+      "reviewed": true,
+      "items": []
+    }
+  },
+  "post_blind_verification": {
+    "schema_version": "post_blind_verification_v1",
+    "verified_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+    "checker_recheck_completed": true,
+    "final_blind_repeated": false,
+    "final_blind_sha256": "e47e4fd78e5158321508cfd45a0131d67d4a220f84be7b11b85afbb427d60963",
+    "attempt_number": 1
+  },
+  "targeted_adjudications": {
+    "requests": [],
+    "adjudications": []
+  },
+  "source_inventory": {
+    "schema_version": "source_inventory_v2",
+    "stage": "source_inventory",
+    "headword": "evident",
+    "run_id": "source-evident-20260909T104259Z-e44fbe0e",
+    "context_id": "source-evident-context-20260909T104259Z-e44fbe0e",
+    "input_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+    "prompt_sha256": "a5172ff43a877d1434d7396c9e545bd40fb15b4af21b0dc74624088e6bca0b45",
+    "input_artifacts": [
+      "headword",
+      "source_first_spec"
+    ],
+    "recorded_at": "2026-09-09T09:45:35Z",
+    "source_first_audit": {
+      "version": "source_first_audit_v2",
+      "profile": "standard",
+      "profile_reason": "bounded default profile",
+      "limits": {
+        "max_sources": 6,
+        "max_facts": 48,
+        "max_research_rounds": 2,
+        "max_post_cold_rechecks": null,
+        "max_final_attempts": 2
+      },
+      "usage": {
+        "sources_used": 5,
+        "facts_used": 16,
+        "research_rounds_used": 1,
+        "post_cold_rechecks_used": 0,
+        "final_attempts_used": 0
+      },
+      "research_status": "complete",
+      "stop_reason": "coverage_axes_closed",
+      "open_questions": [],
+      "inventory_completed_before_article_comparison": true,
+      "inventory_completed_at": "2026-09-09T02:35:13.887440-07:00",
+      "article_comparison_started_at": "2026-09-09T02:35:13.947087-07:00",
+      "coverage_axes": [
+        {
+          "axis": "lexical_senses",
+          "status": "covered",
+          "source_fact_ids": [
+            "F001",
+            "F003",
+            "F009"
+          ],
+          "notes": "Independent learner and general dictionaries converge on one modern adjective sense: clear or easy to see or understand."
+        },
+        {
+          "axis": "part_of_speech_and_frames",
+          "status": "covered",
+          "source_fact_ids": [
+            "F002",
+            "F005",
+            "F007"
+          ],
+          "notes": "The sources attest adjective use with that-clauses and to/from/in complements, including become and make patterns."
+        },
+        {
+          "axis": "derived_and_related_forms",
+          "status": "covered",
+          "source_fact_ids": [
+            "F012",
+            "F013",
+            "F014"
+          ],
+          "notes": "The related forms evidence, evidently, and self-evident are separately attested."
+        },
+        {
+          "axis": "specialist_and_legal_uses",
+          "status": "not_applicable",
+          "source_fact_ids": [],
+          "notes": "The consulted sources do not establish a separate specialist or legal lexical sense for evident."
+        },
+        {
+          "axis": "register_region_and_frequency",
+          "status": "covered",
+          "source_fact_ids": [
+            "F006",
+            "F015",
+            "F016"
+          ],
+          "notes": "Oxford marks evident as rather formal and distinguishes it from apparent and other clarity adjectives."
+        },
+        {
+          "axis": "pronunciation_and_etymology",
+          "status": "covered",
+          "source_fact_ids": [
+            "F004",
+            "F008",
+            "F010",
+            "F011"
+          ],
+          "notes": "Oxford, Merriam-Webster, and Etymonline cover current IPA and the Latin videre history."
+        }
+      ],
+      "sources": [
+        {
+          "id": "S001",
+          "title": "Cambridge Dictionary — evident",
+          "locator": "https://dictionary.cambridge.org/dictionary/english/evident",
+          "source_type": "learner_dictionary",
+          "source_role": "general_lexicon",
+          "independence_group": "cambridge_university_press",
+          "facts": [
+            {
+              "id": "F001",
+              "form": "evident",
+              "kind": "lexical_sense",
+              "statement": "Evident means easily seen or understood; obvious.",
+              "source_detail": "Cambridge gives the adjective definition as easily seen or understood and supplies an example with a that-clause."
+            },
+            {
+              "id": "F002",
+              "form": "evident",
+              "kind": "grammar_frame",
+              "statement": "Evident occurs in the pattern evident from something that ... .",
+              "source_detail": "Cambridge illustrates that a state was evident from a person's voice, followed by a that-clause."
+            }
+          ]
+        },
+        {
+          "id": "S002",
+          "title": "Oxford Advanced Learner's Dictionary — evident",
+          "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/evident",
+          "source_type": "learner_dictionary",
+          "source_role": "general_lexicon",
+          "independence_group": "oxford_university_press",
+          "facts": [
+            {
+              "id": "F003",
+              "form": "evident",
+              "kind": "lexical_sense",
+              "statement": "Evident means clear or easily seen.",
+              "source_detail": "Oxford gives the single adjective sense clear; easily seen and links it to obvious."
+            },
+            {
+              "id": "F004",
+              "form": "evident",
+              "kind": "pronunciation",
+              "statement": "Oxford gives /ˈevɪdənt/ in both its British and American panels.",
+              "source_detail": "The entry prints the IPA form above the definition in both regional panels."
+            },
+            {
+              "id": "F005",
+              "form": "evident",
+              "kind": "grammar_frame",
+              "statement": "Evident is used with to somebody, that-clauses, and in/from something complements.",
+              "source_detail": "Oxford examples and patterns include evident to somebody that ..., evident in/from something, and evident that ... ."
+            },
+            {
+              "id": "F006",
+              "form": "evident",
+              "kind": "register",
+              "statement": "Evident is rather formal compared with everyday clarity adjectives.",
+              "source_detail": "Oxford's synonym comparison labels evident rather formal."
+            },
+            {
+              "id": "F007",
+              "form": "evident",
+              "kind": "collocation",
+              "statement": "Appear, be, and seem occur with evident; from, in, and to are listed prepositions.",
+              "source_detail": "Oxford Collocations Dictionary material lists appear, be, seem; extremely, fairly, very; and from, in, to."
+            },
+            {
+              "id": "F008",
+              "form": "evident",
+              "kind": "etymology",
+              "statement": "Evident entered English from Old French or Latin evidens, evident-, related to e-/ex- and videre ‘to see’.",
+              "source_detail": "Oxford's word-origin note gives the late Middle English route and the Latin components."
+            }
+          ]
+        },
+        {
+          "id": "S003",
+          "title": "Merriam-Webster — evident",
+          "locator": "https://www.merriam-webster.com/dictionary/evident",
+          "source_type": "general_dictionary",
+          "source_role": "general_lexicon",
+          "independence_group": "merriam_webster",
+          "facts": [
+            {
+              "id": "F009",
+              "form": "evident",
+              "kind": "lexical_sense",
+              "statement": "Evident means clear to the sight or mind; plain.",
+              "source_detail": "Merriam-Webster's definition describes evident as clear to the sight or mind."
+            },
+            {
+              "id": "F010",
+              "form": "evident",
+              "kind": "etymology",
+              "statement": "The first known use of evident is in the 14th century and its history passes through Middle English, Anglo-French, and Latin.",
+              "source_detail": "Merriam-Webster gives the first-known-use century and the Latin evidens etymology."
+            }
+          ]
+        },
+        {
+          "id": "S004",
+          "title": "Online Etymology Dictionary — evident",
+          "locator": "https://www.etymonline.com/word/evident",
+          "source_type": "etymology_dictionary",
+          "source_role": "etymology_reference",
+          "independence_group": "etymonline",
+          "facts": [
+            {
+              "id": "F011",
+              "form": "evident",
+              "kind": "etymology",
+              "statement": "Evident means plainly seen or perceived and goes through Old French to Latin evidentem, from ex and videre.",
+              "source_detail": "Etymonline traces the late-fourteenth-century adjective and explains the Latin elements."
+            },
+            {
+              "id": "F012",
+              "form": "evidence",
+              "kind": "derived_form",
+              "statement": "Evidence is a related noun for proof or grounds for belief.",
+              "source_detail": "The evident entry links to evidence and describes its historical sense as an appearance from which inferences may be drawn."
+            },
+            {
+              "id": "F013",
+              "form": "evidently",
+              "kind": "derived_form",
+              "statement": "Evidently is the related adverb meaning clearly or plainly.",
+              "source_detail": "The linked evidently entry defines the adverb as clearly, obviously, or plainly."
+            },
+            {
+              "id": "F014",
+              "form": "self-evident",
+              "kind": "derived_form",
+              "statement": "Self-evident describes something evident in itself without proof or reasoning.",
+              "source_detail": "Etymonline links self-evident and gives the compound's no-proof-or-reasoning sense."
+            }
+          ]
+        },
+        {
+          "id": "S005",
+          "title": "Oxford Advanced American Dictionary — apparent",
+          "locator": "https://www.oxfordlearnersdictionaries.com/definition/american_english/apparent",
+          "source_type": "learner_dictionary",
+          "source_role": "supporting_lexicon",
+          "independence_group": "oxford_university_press",
+          "facts": [
+            {
+              "id": "F015",
+              "form": "apparent",
+              "kind": "contrast",
+              "statement": "Apparent can mean easy to see or understand, but it can also mean seeming real or true while possibly not being so.",
+              "source_detail": "Oxford's apparent entry gives both the clarity sense and the usually-attributive seeming sense."
+            },
+            {
+              "id": "F016",
+              "form": "evident",
+              "kind": "contrast",
+              "statement": "Evident is grouped with clear, obvious, apparent, and plain as a clarity adjective and is marked somewhat formal.",
+              "source_detail": "Oxford's thesaurus comparison states the shared clarity meaning and the register distinction."
+            }
+          ]
+        }
+      ],
+      "source_union": [
+        {
+          "id": "U001",
+          "source_fact_ids": [
+            "F001",
+            "F003",
+            "F009"
+          ],
+          "canonical_statement": "Evident is an adjective meaning clear or easily seen or understood.",
+          "disposition": "included",
+          "rationale": "This is the article's single modern lexical sense."
+        },
+        {
+          "id": "U002",
+          "source_fact_ids": [
+            "F002",
+            "F005",
+            "F007"
+          ],
+          "canonical_statement": "Evident combines with to, from, in, and that-clause patterns and with become, be, seem, and make frames.",
+          "disposition": "included",
+          "rationale": "These constructions are central to accurate learner use."
+        },
+        {
+          "id": "U003",
+          "source_fact_ids": [
+            "F006",
+            "F015",
+            "F016"
+          ],
+          "canonical_statement": "Evident is a somewhat formal clarity adjective and contrasts with apparent when apparent retains a seeming-or-not-necessarily-real sense.",
+          "disposition": "included",
+          "rationale": "The register and synonym boundary are important for avoiding overgeneralization."
+        },
+        {
+          "id": "U004",
+          "source_fact_ids": [
+            "F004"
+          ],
+          "canonical_statement": "The current learner-dictionary pronunciation is /ˈevɪdənt/.",
+          "disposition": "included",
+          "rationale": "The IPA and its stress explanation are stated in the pronunciation section."
+        },
+        {
+          "id": "U005",
+          "source_fact_ids": [
+            "F008",
+            "F010",
+            "F011"
+          ],
+          "canonical_statement": "Evident has a late Middle English history connected through French and Latin to the idea of seeing clearly.",
+          "disposition": "included",
+          "rationale": "Multiple etymological references support the bounded origin explanation."
+        },
+        {
+          "id": "U006",
+          "source_fact_ids": [
+            "F012",
+            "F013",
+            "F014"
+          ],
+          "canonical_statement": "Evidence, evidently, and self-evident are related forms with distinct parts of speech or compound structure.",
+          "disposition": "included",
+          "rationale": "The word-formation section limits itself to directly attested related forms."
+        }
+      ],
+      "claim_units": [
+        {
+          "id": "C001",
+          "union_ids": [
+            "U001"
+          ],
+          "subject_form": "evident",
+          "claim_type": "definition",
+          "statement": "Evident describes something that is clear or easily seen or understood from available information.",
+          "article_target_ids": [
+            "definition:001",
+            "usage_note:001"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F001",
+              "support_summary": "Cambridge defines evident as easily seen or understood."
+            },
+            {
+              "source_fact_id": "F003",
+              "support_summary": "Oxford defines the adjective as clear and easily seen."
+            },
+            {
+              "source_fact_id": "F009",
+              "support_summary": "Merriam-Webster defines evident as clear to sight or mind."
+            }
+          ]
+        },
+        {
+          "id": "C002",
+          "union_ids": [
+            "U002"
+          ],
+          "subject_form": "evident",
+          "claim_type": "grammar_frame",
+          "statement": "Evident is used in to, from, in, and that-clause constructions and in become or make frames.",
+          "article_target_ids": [
+            "grammar_pattern:001",
+            "collocation:001"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F002",
+              "support_summary": "Cambridge attests evident from a source followed by a that-clause."
+            },
+            {
+              "source_fact_id": "F005",
+              "support_summary": "Oxford lists evident to somebody, evident that, and evident in or from something."
+            },
+            {
+              "source_fact_id": "F007",
+              "support_summary": "Oxford collocations list be, seem, appear, and from, in, and to."
+            }
+          ]
+        },
+        {
+          "id": "C003",
+          "union_ids": [
+            "U003"
+          ],
+          "subject_form": "evident",
+          "claim_type": "register",
+          "statement": "Evident is somewhat formal, and apparent may retain a seeming-not-necessarily-real sense that evident normally does not foreground.",
+          "article_target_ids": [
+            "register:001",
+            "synonym:001",
+            "usage_note:001"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F006",
+              "support_summary": "Oxford labels evident rather formal in its synonym comparison."
+            },
+            {
+              "source_fact_id": "F015",
+              "support_summary": "Oxford gives apparent's seeming-real-or-true-but-may-not-be sense."
+            },
+            {
+              "source_fact_id": "F016",
+              "support_summary": "Oxford compares evident with clear, obvious, apparent, and plain."
+            }
+          ]
+        },
+        {
+          "id": "C004",
+          "union_ids": [
+            "U004"
+          ],
+          "subject_form": "evident",
+          "claim_type": "pronunciation",
+          "statement": "Evident is pronounced /ˈevɪdənt/ with first-syllable stress in the cited learner-dictionary representation.",
+          "article_target_ids": [
+            "pronunciation"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F004",
+              "support_summary": "Oxford prints /ˈevɪdənt/ in both regional panels."
+            }
+          ]
+        },
+        {
+          "id": "C005",
+          "union_ids": [
+            "U005"
+          ],
+          "subject_form": "evident",
+          "claim_type": "etymology",
+          "statement": "The word's history connects French and Latin forms with seeing and clear perception.",
+          "article_target_ids": [
+            "etymology:001"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F008",
+              "support_summary": "Oxford gives the Old French or Latin route and videre connection."
+            },
+            {
+              "source_fact_id": "F010",
+              "support_summary": "Merriam-Webster supplies the Middle English, Anglo-French, and Latin history."
+            },
+            {
+              "source_fact_id": "F011",
+              "support_summary": "Etymonline gives evidentem from ex and videre and the plainly-seen sense."
+            }
+          ]
+        },
+        {
+          "id": "C006",
+          "union_ids": [
+            "U006"
+          ],
+          "subject_form": "evidence",
+          "claim_type": "derived_form",
+          "statement": "Evidence, evidently, and self-evident are related forms used as a noun, adverb, and compound adjective.",
+          "article_target_ids": [
+            "word_formation:001"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F012",
+              "support_summary": "Etymonline links evidence and describes its proof-related noun history."
+            },
+            {
+              "source_fact_id": "F013",
+              "support_summary": "Etymonline defines evidently as the related clearly or plainly adverb."
+            },
+            {
+              "source_fact_id": "F014",
+              "support_summary": "Etymonline defines self-evident as evident without proof or reasoning."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "resolutions": {
+    "schema_version": "resolutions_v1",
+    "stage": "resolutions",
+    "run_id": "resolution-evident-20260909T104259Z-e44fbe0e",
+    "context_id": "resolution-evident-context-20260909T104259Z-e44fbe0e",
+    "input_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+    "prompt_sha256": "8b734bbd5a13bf7ca640a596788c974eb81154848f2deb942a4a7472721078ba",
+    "input_artifacts": [
+      "entry_body",
+      "all_findings"
+    ],
+    "recorded_at": "2026-09-09T10:25:35.378824+00:00",
+    "resolutions": [
+      {
+        "id": "CR-001",
+        "finding_id": "CR-001",
+        "status": "resolved",
+        "disposition": "adopted",
+        "rationale": "make something evident は目的語補語構文、make it evident + that 〈節〉は形式目的語 it を用いる that 節構文であり、同一のパターンとして結合すると make + 目的語 + that 節という誤った一般化を招くため、別項目に分ける。",
+        "required_changes": [
+          "make something evident と make it evident + that 〈節〉を別パターンとして示す。"
+        ],
+        "implemented_changes": [
+          "文法パターンを二つの独立したフレームと訳に分割した。"
+        ],
+        "resolved_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0"
+      },
+      {
+        "id": "CR-002",
+        "finding_id": "CR-002",
+        "status": "resolved",
+        "disposition": "adopted",
+        "rationale": "evidently は明らかな根拠や状況からの推論を示す副詞であり、情報源を示す reportedly に近い「伝えられるところでは」を通常の意味として併記すると、推論と伝聞を混同させるため、説明を推論的な意味に限定する。",
+        "required_changes": [
+          "evidently の説明から reportedly 寄りの「伝えられるところでは」を除く。"
+        ],
+        "implemented_changes": [
+          "「明らかに、どうやら（状況から判断すると）」と、根拠や状況から推論した内容を示す説明に改めた。"
+        ],
+        "resolved_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0"
+      }
+    ],
+    "learning_delta": {
+      "schema_version": "process_improvement_learning_delta_v2",
+      "reviewed": true,
+      "items": []
+    }
+  },
+  "inventories": {
+    "target_results": [
+      {
+        "id": "pronunciation:001",
+        "kind": "pronunciation",
+        "location": "line:4",
+        "section": "＃発音記号",
+        "sense": "",
+        "text_sha256": "48ae335b556dae2abf09bbcc5e4367365632f25eda28abf7d34847e14742dbd8",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "米・英: /ˈevɪdənt/。3音節で、第1音節に主強勢がある。第1音節の /ˈev/ に強勢を置き、第2音節の /ɪ/ は弱く、第3音節は /dənt/ と発音する。語尾の /t/ を落として「エビデン」のようにせず、最後を閉じる。派生副詞 evidently は /ˈevɪdəntli/、同語族の名詞 evidence は /ˈevɪdəns/ で、いずれも語頭側に強勢がある。"
+      },
+      {
+        "id": "etymology:001",
+        "kind": "etymology",
+        "location": "line:8",
+        "section": "＃語源",
+        "sense": "",
+        "text_sha256": "0e0aea72a2b6d5348ec8b0ec97703268740f7129f8b3dca5dcc375a3fbab7bf6",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "中英語後期に、古フランス語またはラテン語 evidens・evident-「目や心に明らかな、明白な」から英語に入った。ラテン語の形は e-（ex-「外へ、十分に」の変形）と videre「見る」に関係し、もともと「外に現れて見える」という発想を含む。"
+      },
+      {
+        "id": "etymology:002",
+        "kind": "etymology",
+        "location": "line:9",
+        "section": "＃語源",
+        "sense": "",
+        "text_sha256": "844598aabc1f2d832199260362eedd110bf15cde40ea286305c0113964f3de7e",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "同じラテン語系統の evidence「証拠、証拠を示す」、evidently「明らかに、どうやら」、self-evident「自明な」と意味上・形態上つながる。"
+      },
+      {
+        "id": "word_formation:001",
+        "kind": "word_formation",
+        "location": "line:13",
+        "section": "＃語形成",
+        "sense": "",
+        "text_sha256": "c0952ce0ac7b08db376d3b47f848a8afb96a8dace4dd6799c1ef18a23ad358f7",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "・evidently：副詞。「明らかに、どうやら（状況から判断すると）」。文全体を修飾し、明らかな根拠や状況から推論した内容を示す。"
+      },
+      {
+        "id": "word_formation:002",
+        "kind": "word_formation",
+        "location": "line:14",
+        "section": "＃語形成",
+        "sense": "",
+        "text_sha256": "dd0d6bd5dc256279980e6a76155829056ebc221875a272ce32ee8fc688cf3453",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "・self-evident：複合形容詞。「証明や説明を必要としないほど明らかな、自明の」。"
+      },
+      {
+        "id": "word_formation:003",
+        "kind": "word_formation",
+        "location": "line:15",
+        "section": "＃語形成",
+        "sense": "",
+        "text_sha256": "fd7e9bd2ffad8a123af5de6c468c12747c1cb7950bda6b22c2ecb4a4dd0fc357",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "・evidence：名詞・動詞。evident と同じ語源系統に属し、名詞では「証拠」、動詞では「証拠を示す」を表す。現代英語で evident に単純に接尾辞を付けた派生語ではない。"
+      },
+      {
+        "id": "sense_boundary:001",
+        "kind": "sense_boundary",
+        "location": "line:19",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている",
+        "text_sha256": "a5f03585b20a7d3fcff4a8055da63c363fec40497def20a6602b824662d4c8cb",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている"
+      },
+      {
+        "id": "definition:001",
+        "kind": "definition",
+        "location": "line:21",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている",
+        "text_sha256": "4fbf54ad641a809c67e833135a14d05107bb2c41a5553772e4842b64965ef3e8",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "見える特徴、行動、データ、状況などから、ある事実・状態・感情・評価を容易に認識または理解できることを表す。観察した人にとって明白だという意味であり、語そのものが論理的な証明や絶対的な確実性まで保証するわけではない。"
+      },
+      {
+        "id": "frequency:001",
+        "kind": "frequency",
+        "location": "line:23",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている",
+        "text_sha256": "223f0f3bb105d64687ce0ff83ae044846c2f48c7a55d9d015dbc0ce12503d473",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "〈8/10〉"
+      },
+      {
+        "id": "register:001",
+        "kind": "register",
+        "location": "line:25",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている",
+        "text_sha256": "1fbde80b50ccb9cab606aa74e9629ba15d16fdb6f3ab893d38a7527abade97c9",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "標準語だが、会話中心の obvious や clear よりやや形式的。報告書、学術文、ニュース、ビジネスの説明で多く、感情や特徴が外から読み取れることにも使う。"
+      },
+      {
+        "id": "grammar_pattern:001",
+        "kind": "grammar_pattern",
+        "location": "line:27",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている",
+        "text_sha256": "6cd722744c91b587c53ffe37c8d8385fd4daac7b260470e6062fc65463199b20",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "something + be・seem・become・remain evident＝事実・状態などが明らかである"
+      },
+      {
+        "id": "grammar_pattern:002",
+        "kind": "grammar_pattern",
+        "location": "line:27",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている",
+        "text_sha256": "eefa7291f49d811c9ed053d6df8a127a8cfd218bf5477a733f37a5fba4563894",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "it + be・become + evident + that 〈節〉＝～であることが明らかだ"
+      },
+      {
+        "id": "grammar_pattern:003",
+        "kind": "grammar_pattern",
+        "location": "line:27",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている",
+        "text_sha256": "14b51c29fa9ed4500c0d802f0394bfa6ba6a10459d2038e0a0bcc4ab2565c236",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "something + be evident to someone＝〈人〉にとって明らかだ"
+      },
+      {
+        "id": "grammar_pattern:004",
+        "kind": "grammar_pattern",
+        "location": "line:27",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている",
+        "text_sha256": "1f75e116826db9e8bb7c77787c684eb5b97dbeba2d946f67da5cc8fe6154a295",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "it + be evident to someone + that 〈節〉＝〈人〉には～が明らかだ"
+      },
+      {
+        "id": "grammar_pattern:005",
+        "kind": "grammar_pattern",
+        "location": "line:27",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている",
+        "text_sha256": "eb5e6f00bad079b9d841a3f079f0517f5602374ef6d1f7b4a06f516fb36456f7",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "it + be evident from 〈data・evidence・behavior〉 + that 〈節〉＝〈データ・証拠・行動〉から～が明らかだ"
+      },
+      {
+        "id": "grammar_pattern:006",
+        "kind": "grammar_pattern",
+        "location": "line:27",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている",
+        "text_sha256": "f1c1cf96a965257397497a6348e12124d4b122e7b07e3d3d5592a677f7c4b746",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "something + be evident in 〈expression・results・pattern〉＝感情・特徴などが〈表情・結果・パターン〉に表れている"
+      },
+      {
+        "id": "grammar_pattern:007",
+        "kind": "grammar_pattern",
+        "location": "line:27",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている",
+        "text_sha256": "2170d94f57340036ddee10ca3fb0dca2ceddf648a5719879cfc5ed7498d12ac8",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "make something evident＝何かを明白にする"
+      },
+      {
+        "id": "grammar_pattern:008",
+        "kind": "grammar_pattern",
+        "location": "line:27",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている",
+        "text_sha256": "e99c31f60473643901cd7d8884e37943b095cd2398d5e7cc14ba64a680d27b87",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "make it evident + that 〈節〉＝～であることを明らかにする"
+      },
+      {
+        "id": "grammar_pattern:009",
+        "kind": "grammar_pattern",
+        "location": "line:27",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている",
+        "text_sha256": "1a543d9d125a66d2a90d4f59c52bfd1a18ff30fac9914b9a2a0581e0e3e22813",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "evident + 〈change・difference・sign・need〉＝明らかな〈変化・違い・兆候・必要性〉。"
+      },
+      {
+        "id": "collocation:001",
+        "kind": "collocation",
+        "location": "lines:31-34",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている",
+        "text_sha256": "7dc0acf703e95fc651e640247968e23d9a7fa80f23d85e0c7d628ce260cfb14d",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "・it is evident that 〈節〉\n用途: 状況や観察結果から、ある判断が明らかだと述べる基本構文。\n例: It is evident that the current plan cannot meet the deadline.\n訳: 現在の計画では期限に間に合わないことが明らかだ。"
+      },
+      {
+        "id": "collocation:002",
+        "kind": "collocation",
+        "location": "lines:36-39",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている",
+        "text_sha256": "8e35691d4b462a8c859b6b9e4df84f41496042c2093b3ccfb9f13a7e69623c8c",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "・be evident to someone\n用途: 何が誰にとって明らかなのかを示す。\n例: The benefits of the new system were immediately evident to the staff.\n訳: 新しいシステムの利点は職員にはすぐに明らかになった。"
+      },
+      {
+        "id": "collocation:003",
+        "kind": "collocation",
+        "location": "lines:41-44",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている",
+        "text_sha256": "7faad1b0a6ad2e2d97951738701b45dd9b0a6cf07f5436e7455bbff1b7ac11a6",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "・be evident from 〈data・evidence・results〉 that 〈節〉\n用途: 明白だと判断する根拠や情報源を示す。\n例: It was evident from the audit results that several invoices had been duplicated.\n訳: 監査結果から、複数の請求書が重複していたことは明らかだった。"
+      },
+      {
+        "id": "collocation:004",
+        "kind": "collocation",
+        "location": "lines:46-49",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている",
+        "text_sha256": "837343b57bd920476f4ab5213c3ad3523d72307c3f63d23ca1c44e602f2e0e3f",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "・be evident in 〈expression・behavior・pattern〉\n用途: 感情や特徴が表情・行動・結果などに現れていることを表す。\n例: Her disappointment was evident in the way she avoided eye contact.\n訳: 彼女が目を合わせようとしなかったことに、失望がはっきり表れていた。"
+      },
+      {
+        "id": "collocation:005",
+        "kind": "collocation",
+        "location": "lines:51-54",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている",
+        "text_sha256": "d8c028bceaed7ce700fc44e95adec25b5076a0ca785ef9bed00ed72acaef179b",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "・become evident\n用途: 時間の経過や追加情報によって、それまで不明だったことが明らかになることを表す。\n例: The scale of the damage became evident after the smoke cleared.\n訳: 煙が晴れた後、被害の規模が明らかになった。"
+      },
+      {
+        "id": "collocation:006",
+        "kind": "collocation",
+        "location": "lines:56-59",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている",
+        "text_sha256": "fb0c1cbe12c8a462c6561663d51c3981f6c1b19f58d5cb5be5d4c022e518648b",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "・make it evident that 〈節〉\n用途: 数値、言動、結果などによって、ある判断を明白にする。\n例: The revised figures made it evident that the original estimate was too optimistic.\n訳: 修正後の数値によって、当初の見積もりが楽観的すぎたことが明らかになった。"
+      },
+      {
+        "id": "collocation:007",
+        "kind": "collocation",
+        "location": "lines:61-64",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている",
+        "text_sha256": "faccd42a1e292367f05022a86e87e93591114f566c6c9e33b67e92e523875c35",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "・evident signs of 〈change・stress・recovery〉\n用途: 変化、ストレス、回復などが起きていると分かる兆候を表す。\n例: The patient showed evident signs of recovery after the treatment.\n訳: その患者には治療後、回復の明らかな兆候が見られた。"
+      },
+      {
+        "id": "collocation:008",
+        "kind": "collocation",
+        "location": "lines:66-69",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている",
+        "text_sha256": "f32a5ec9462a46fadc4653046662e5b987a67059c32d4bece539ad8a493cc436",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "・with evident 〈relief・pleasure・concern〉\n用途: 表情や声などに感情が明確に現れている様子を表す。\n例: She spoke with evident relief after the results were announced.\n訳: 結果が発表された後、彼女はほっとした様子をはっきり見せて話した。"
+      },
+      {
+        "id": "usage_note:001",
+        "kind": "usage_note",
+        "location": "line:71",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている",
+        "text_sha256": "64dc7894bdb18ecc5fdbc5f26dc583877ca0a189466ef988a37f4875d56a8378",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "`evident to someone` は「誰にとって明らかか」、`evident from something` は「何を根拠に明らかか」、`evident in something` は「どこに表れているか」を示す。`evident that ...` のように内容を続ける場合は、通常 `It is evident that ...` と形式主語 it を置く。"
+      },
+      {
+        "id": "usage_note:002",
+        "kind": "usage_note",
+        "location": "line:73",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている",
+        "text_sha256": "b2a21c14a2eab06e2bd81d4435d08e48398deb36d0b42f4a1b2fb496106409b7",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "evident は「観察や情報から明らかだ」という評価であり、必ずしも「証明済み」「疑いなく真実」と同じではない。`It was evident from the preliminary data that ...` のように、判断の根拠が限定的であることも表せる。"
+      },
+      {
+        "id": "usage_note:003",
+        "kind": "usage_note",
+        "location": "line:75",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている",
+        "text_sha256": "53fa1c783d31be4fb150621ed27b1c0a361699af1914f38bc07c6d7b299cf920",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "日常会話では obvious や clear の方が自然な場面が多い。`evident` は報告・説明調の響きがあり、`evident concern`、`evident improvement` のように、外から読み取れる感情や変化を名詞の前で修飾できる。`evidently` は副詞なので、`It is evident that ...` と `Evidently, ...` を品詞ごとに使い分ける。"
+      },
+      {
+        "id": "synonym:001",
+        "kind": "synonym",
+        "location": "lines:79-84",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている",
+        "text_sha256": "64da1589b139a5e45194e32ae08f78405c753a62d768aaace1c7f3e842f465e9",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "・obvious\n定義: 見たり考えたりすれば容易に分かる、明白な。\n頻度: 〈10/10〉\n違い: obvious は日常的で、証拠がなくても直観的に分かることに使える。evident は兆候や状況から判断できることをやや形式的に述べる。\n例: It was obvious from his expression that he was disappointed.\n訳: 彼の表情から、彼が失望しているのは明らかだった。"
+      },
+      {
+        "id": "synonym:002",
+        "kind": "synonym",
+        "location": "lines:86-91",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている",
+        "text_sha256": "2cc8d6a0b41285fe3cb05a50b66b106c323fe964f8ff4566f65c1d76140dc660",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "・clear\n定義: 意味・事実・状況などが疑いなく理解できる、明確な。\n頻度: 〈10/10〉\n違い: clear は説明や指示を「分かりやすくする」意図にも使え、対象範囲が広い。evident は観察可能な兆候から明らかになることに焦点を置きやすい。\n例: The instructions were clear to everyone on the team.\n訳: その指示はチームの全員にとって明確だった。"
+      },
+      {
+        "id": "synonym:003",
+        "kind": "synonym",
+        "location": "lines:93-98",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている",
+        "text_sha256": "20fbeaef049afe7fa299003e0bd1c84d828c72b513cceab54a1d425050340bb0",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "・apparent\n定義: 観察や状況から、そうだと見て取れる・思われる。\n頻度: 〈8/10〉\n違い: apparent は「そう見える」という含みから、実際には異なる可能性を残すことがある。evident は通常、利用可能な兆候から明らかだという判断をより直接に表す。\n例: It soon became apparent that the schedule was unrealistic.\n訳: その予定が現実的でないことは、まもなく明らかになった。"
+      },
+      {
+        "id": "synonym:004",
+        "kind": "synonym",
+        "location": "lines:100-105",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている",
+        "text_sha256": "6d37247ba5de1edf5c437d12854beca009687499dae9e59f32e70a675531fb5a",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "・plain\n定義: 隠れたところがなく、見たり聞いたりすれば明らかな。\n頻度: 〈7/10〉\n違い: plain は `plain to see`、`make it plain` などで、率直に明示する感じも持つ。evident は感情や結果が兆候として現れる説明に向く。\n例: It was plain to see that the proposal needed more work.\n訳: その提案にさらに検討が必要なのは一目瞭然だった。"
+      },
+      {
+        "id": "synonym:005",
+        "kind": "synonym",
+        "location": "lines:107-112",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている",
+        "text_sha256": "c2f51eab4cd313e3b95990be5d773e69a41b3f3f53bf716e10be7eb614103a18",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "・manifest\n定義: 性質・事実・感情などがはっきり外に現れている、明白な。\n頻度: 〈5/10〉\n違い: manifest は evident より硬く、文学・学術・形式的な文脈で、隠れたものが明確に現れたことを強調する。\n例: The report revealed a manifest lack of oversight.\n訳: その報告書は監督が明らかに欠けていたことを示した。"
+      },
+      {
+        "id": "synonym:006",
+        "kind": "synonym",
+        "location": "lines:114-119",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている",
+        "text_sha256": "8749f169c6c244a816c6a22303e2faff9efa97130694f78a690d583d0705e94c",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "・noticeable\n定義: 見たり感じたりして気づくことができる、目立つ。\n頻度: 〈8/10〉\n違い: noticeable は知覚上の目立ちやすさに焦点があり、そこから命題や判断が理解できることまでは含まない。evident は抽象的な事実や結論にも使える。\n例: There was a noticeable change in his attitude.\n訳: 彼の態度には目立った変化があった。"
+      },
+      {
+        "id": "antonym:001",
+        "kind": "antonym",
+        "location": "lines:123-128",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている",
+        "text_sha256": "2ead3d1358b4363219f58592802e4c5010a3b0371fa31433a3f6c63e99168d42",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "・unclear\n定義: 意味・理由・状況などがはっきりせず、容易には理解できない。\n頻度: 〈9/10〉\n違い: evident の「情報や兆候から明らかである」という理解可能性の軸に対し、unclear は解釈や判断がまだ定まらない状態を表す。\n例: The reason for the sudden change remains unclear.\n訳: その突然の変化の理由は依然として不明だ。"
+      },
+      {
+        "id": "antonym:002",
+        "kind": "antonym",
+        "location": "lines:130-135",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている",
+        "text_sha256": "7aee291c6ac37476dfef04b5ad135d628558ce6b6246be49062712767b9113f9",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "・obscure\n定義: 見えにくく、知られておらず、理解しにくい。\n頻度: 〈6/10〉\n違い: obscure は情報や特徴が隠れている・目立たないために認識しにくいことを強調し、evident の「前面に現れて分かる」と程度の軸で対照をなす。\n例: The connection between the two events was initially obscure.\n訳: その2つの出来事のつながりは、当初は分かりにくかった。"
+      }
+    ],
+    "relation_results": [
+      {
+        "id": "example_translation:001",
+        "kind": "example_translation",
+        "target_ids": [
+          "collocation:001"
+        ],
+        "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+        "text_sha256": "26750269ee9dd5b51b69765498e65b4a87effedbbc0238eb29e302fcc51b1271",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "example_translation:002",
+        "kind": "example_translation",
+        "target_ids": [
+          "collocation:002"
+        ],
+        "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+        "text_sha256": "0fddd7231b615b1468c1bb23515fe6ee82ffdf770efff68aeac4dbb2df355152",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "example_translation:003",
+        "kind": "example_translation",
+        "target_ids": [
+          "collocation:003"
+        ],
+        "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+        "text_sha256": "ae6f03bfc90aa62807a5306af7169ced4893be7f3fe0c7eef691a27f2c6671be",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "example_translation:004",
+        "kind": "example_translation",
+        "target_ids": [
+          "collocation:004"
+        ],
+        "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+        "text_sha256": "b7bd8e4f64f2b5b4416c868f399db21d336bb2525a56cb9582dc575f8de0f7d3",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "example_translation:005",
+        "kind": "example_translation",
+        "target_ids": [
+          "collocation:005"
+        ],
+        "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+        "text_sha256": "2c3d879214f4eaf61bfe50841656663a25b4c418dce8fa21d84fb2637c575cf5",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "example_translation:006",
+        "kind": "example_translation",
+        "target_ids": [
+          "collocation:006"
+        ],
+        "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+        "text_sha256": "e6b70b6f529d0afd20caa1af0a66c20b2b508c59841b4f32f3ef20f4e775bf02",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "example_translation:007",
+        "kind": "example_translation",
+        "target_ids": [
+          "collocation:007"
+        ],
+        "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+        "text_sha256": "70ef911dd4616153972b44f7c6764b22f0d4c69c0f3128250f4e79719f5c37d9",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "example_translation:008",
+        "kind": "example_translation",
+        "target_ids": [
+          "collocation:008"
+        ],
+        "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+        "text_sha256": "5f2bc65b94c6a305d15a4a7799b1b5f405b78d66c43ed082ddae23034fa9d638",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "sense_definition_consistency:001",
+        "kind": "sense_definition_consistency",
+        "target_ids": [
+          "sense_boundary:001",
+          "definition:001"
+        ],
+        "description": "語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。",
+        "text_sha256": "a610295e5ff2f26df8c51c3804bd7d2fb7fd9bef0c6ea2226069e2ad051c2267",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "definition_usage_consistency:001",
+        "kind": "definition_usage_consistency",
+        "target_ids": [
+          "sense_boundary:001",
+          "definition:001",
+          "usage_note:001"
+        ],
+        "description": "語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。",
+        "text_sha256": "fce9e9eb0b0e86ca9ca46179914e226d1702b8d93d1ac7cbe7296a1d33593011",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "definition_usage_consistency:002",
+        "kind": "definition_usage_consistency",
+        "target_ids": [
+          "sense_boundary:001",
+          "definition:001",
+          "usage_note:002"
+        ],
+        "description": "語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。",
+        "text_sha256": "643dbf15b2eb98a464600df9ff5cc7b8d233bdb7073c825c5f39381a28747679",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "definition_usage_consistency:003",
+        "kind": "definition_usage_consistency",
+        "target_ids": [
+          "sense_boundary:001",
+          "definition:001",
+          "usage_note:003"
+        ],
+        "description": "語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。",
+        "text_sha256": "248a98e6c0b01dc71f2605b73299c4c3e9c6f079fab5529bfdc76486cc370bac",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "definition_lexical_relation_consistency:001",
+        "kind": "definition_lexical_relation_consistency",
+        "target_ids": [
+          "sense_boundary:001",
+          "definition:001",
+          "synonym:001",
+          "synonym:002",
+          "synonym:003",
+          "synonym:004",
+          "synonym:005",
+          "synonym:006",
+          "antonym:001",
+          "antonym:002"
+        ],
+        "description": "語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。",
+        "text_sha256": "b946cafea12c5f5d2e164c5f8687d53cf3fe7dbaaf4fb5868b121a8902940f1e",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "pattern_example_coverage:001",
+        "kind": "pattern_example_coverage",
+        "target_ids": [
+          "grammar_pattern:001",
+          "collocation:001",
+          "collocation:002",
+          "collocation:003",
+          "collocation:004",
+          "collocation:005",
+          "collocation:006",
+          "collocation:007",
+          "collocation:008"
+        ],
+        "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+        "text_sha256": "059f0efb3a236d03384a4cb1530a2ee9b258b7b8a3fb98ea4d78237f0c0ed87f",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "pattern_example_coverage:002",
+        "kind": "pattern_example_coverage",
+        "target_ids": [
+          "grammar_pattern:002",
+          "collocation:001",
+          "collocation:002",
+          "collocation:003",
+          "collocation:004",
+          "collocation:005",
+          "collocation:006",
+          "collocation:007",
+          "collocation:008"
+        ],
+        "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+        "text_sha256": "6969e8f8ceaea2ec76f323e0a189902d2dbfd1caa02b279eb1ec27f36ad7099f",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "pattern_example_coverage:003",
+        "kind": "pattern_example_coverage",
+        "target_ids": [
+          "grammar_pattern:003",
+          "collocation:001",
+          "collocation:002",
+          "collocation:003",
+          "collocation:004",
+          "collocation:005",
+          "collocation:006",
+          "collocation:007",
+          "collocation:008"
+        ],
+        "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+        "text_sha256": "62f9868d5578875a39930a83a8a59f5885ae9a3ef8431ba3960bba7967063165",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "pattern_example_coverage:004",
+        "kind": "pattern_example_coverage",
+        "target_ids": [
+          "grammar_pattern:004",
+          "collocation:001",
+          "collocation:002",
+          "collocation:003",
+          "collocation:004",
+          "collocation:005",
+          "collocation:006",
+          "collocation:007",
+          "collocation:008"
+        ],
+        "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+        "text_sha256": "2837ea8768d67d600d7aa045961e3b466b008d811fa4dc13987f401e35499d28",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "pattern_example_coverage:005",
+        "kind": "pattern_example_coverage",
+        "target_ids": [
+          "grammar_pattern:005",
+          "collocation:001",
+          "collocation:002",
+          "collocation:003",
+          "collocation:004",
+          "collocation:005",
+          "collocation:006",
+          "collocation:007",
+          "collocation:008"
+        ],
+        "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+        "text_sha256": "f001afabc87036cee0cbc55d8ed9931685995e4cce553bc4b6306e6c71314699",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "pattern_example_coverage:006",
+        "kind": "pattern_example_coverage",
+        "target_ids": [
+          "grammar_pattern:006",
+          "collocation:001",
+          "collocation:002",
+          "collocation:003",
+          "collocation:004",
+          "collocation:005",
+          "collocation:006",
+          "collocation:007",
+          "collocation:008"
+        ],
+        "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+        "text_sha256": "3d08420abce1f22bbbae5c85abd83837b166d361f7863804e9207f77c542118c",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "pattern_example_coverage:007",
+        "kind": "pattern_example_coverage",
+        "target_ids": [
+          "grammar_pattern:007",
+          "collocation:001",
+          "collocation:002",
+          "collocation:003",
+          "collocation:004",
+          "collocation:005",
+          "collocation:006",
+          "collocation:007",
+          "collocation:008"
+        ],
+        "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+        "text_sha256": "fcb0634c6264df4b6e53a322120eb6707044d27ead2062de1800172437498a93",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "pattern_example_coverage:008",
+        "kind": "pattern_example_coverage",
+        "target_ids": [
+          "grammar_pattern:008",
+          "collocation:001",
+          "collocation:002",
+          "collocation:003",
+          "collocation:004",
+          "collocation:005",
+          "collocation:006",
+          "collocation:007",
+          "collocation:008"
+        ],
+        "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+        "text_sha256": "f3bda06d8e7cd83963384270aa1fb6482c4fa07feadc818f22e1c2fad00b2137",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "pattern_example_coverage:009",
+        "kind": "pattern_example_coverage",
+        "target_ids": [
+          "grammar_pattern:009",
+          "collocation:001",
+          "collocation:002",
+          "collocation:003",
+          "collocation:004",
+          "collocation:005",
+          "collocation:006",
+          "collocation:007",
+          "collocation:008"
+        ],
+        "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+        "text_sha256": "34a93eacbe58835d846efd16b00df4aed06cd76d772773e14bd22500248d3291",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "article_learning_risk:001",
+        "kind": "article_learning_risk",
+        "target_ids": [
+          "sense_boundary:001",
+          "definition:001",
+          "usage_note:001",
+          "usage_note:002",
+          "usage_note:003"
+        ],
+        "description": "記事全体の語義構成、対比、訳語、限定表現から学習者が誤った一般化をしないことを横断確認する。",
+        "text_sha256": "03bc26f5d1dd1990574d5b5c963c29873d72f51d47a632a6324c00f0f72c534f",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary"
+      }
+    ],
+    "normal_candidate_results": [],
+    "blind_candidate_results": [
+      {
+        "id": "IC-001",
+        "surface_form": "evident",
+        "frame": "evident + 〈change・difference・sign・need〉",
+        "meaning": "明らかな、明白な、はっきり表れている",
+        "disposition": "included",
+        "rationale": "The frame evident + 〈change・difference・sign・need〉 is the attributive adjective use for a property that can be recognized from observable signs or results, not a guarantee of proof.",
+        "semantic_assertions": [
+          {
+            "id": "IC-001-SA-001",
+            "statement": "The adjective describes a recognizable property or state rather than guaranteeing logical proof.",
+            "polarity": "must_hold",
+            "scope": "main adjective sense"
+          }
+        ]
+      },
+      {
+        "id": "IC-002",
+        "surface_form": "evident",
+        "frame": "it + be・become + evident + that 〈節〉",
+        "meaning": "ある判断・事実が状況から明らかだ",
+        "disposition": "included",
+        "rationale": "The frame it + be・become + evident + that 〈節〉 presents a proposition as clear from available circumstances and keeps the formal subject it with the that-clause.",
+        "semantic_assertions": [
+          {
+            "id": "IC-002-SA-001",
+            "statement": "The that-clause is the content judged evident, and the construction does not turn evident into an evidential noun or verb.",
+            "polarity": "must_hold",
+            "scope": "that-clause frame"
+          }
+        ]
+      },
+      {
+        "id": "IC-003",
+        "surface_form": "evident",
+        "frame": "something + be evident to someone",
+        "meaning": "〈人〉にとって何かが明らかだ",
+        "disposition": "included",
+        "rationale": "The frame something + be evident to someone identifies the person for whom the fact or benefit is recognizable; the to-phrase is a perceiver or evaluator, not a source of evidence.",
+        "semantic_assertions": [
+          {
+            "id": "IC-003-SA-001",
+            "statement": "The to-phrase marks the recognizing person and does not replace the adjective subject.",
+            "polarity": "must_hold",
+            "scope": "to-someone frame"
+          }
+        ]
+      },
+      {
+        "id": "IC-004",
+        "surface_form": "evident",
+        "frame": "it + be evident from 〈data・evidence・behavior〉 + that 〈節〉",
+        "meaning": "根拠から判断すると明らかだ",
+        "disposition": "included",
+        "rationale": "The frame it + be evident from 〈data・evidence・behavior〉 + that 〈節〉 separates the conclusion from the evidence or behavior used as its basis.",
+        "semantic_assertions": [
+          {
+            "id": "IC-004-SA-001",
+            "statement": "The from-phrase identifies the basis for an inference, while the that-clause states the conclusion.",
+            "polarity": "must_hold",
+            "scope": "from-basis frame"
+          }
+        ]
+      },
+      {
+        "id": "IC-005",
+        "surface_form": "evident",
+        "frame": "something + be evident in 〈expression・results・pattern〉",
+        "meaning": "感情・特徴などが何かに表れている",
+        "disposition": "included",
+        "rationale": "The frame something + be evident in 〈expression・results・pattern〉 locates a visible manifestation of an emotion or feature and does not create a separate lexical sense.",
+        "semantic_assertions": [
+          {
+            "id": "IC-005-SA-001",
+            "statement": "The in-phrase identifies where the otherwise abstract property is manifested.",
+            "polarity": "must_hold",
+            "scope": "in-manifestation frame"
+          }
+        ]
+      },
+      {
+        "id": "IC-006",
+        "surface_form": "evident",
+        "frame": "make something evident",
+        "meaning": "何かを明白にする",
+        "disposition": "included",
+        "rationale": "The frame make something evident is a causative object-complement construction: make causes the object to become evident, without licensing a direct that-clause after something.",
+        "semantic_assertions": [
+          {
+            "id": "IC-006-SA-001",
+            "statement": "The object and adjective complement form the causative result, and the object-complement frame must not be generalized to make something that-clause.",
+            "polarity": "must_hold",
+            "scope": "causative object-complement frame"
+          },
+          {
+            "id": "IC-006-SA-002",
+            "statement": "The causative construction does not itself assert that the object was already evident.",
+            "polarity": "must_hold",
+            "scope": "causative scope"
+          }
+        ]
+      },
+      {
+        "id": "IC-007",
+        "surface_form": "evident",
+        "frame": "make it evident + that 〈節〉",
+        "meaning": "～であることを明らかにする",
+        "disposition": "included",
+        "rationale": "The frame make it evident + that 〈節〉 uses formal it for the proposition and is distinct from make something evident; separating the frames prevents an incorrect make + object + that-clause generalization.",
+        "semantic_assertions": [
+          {
+            "id": "IC-007-SA-001",
+            "statement": "The formal it anticipates the that-clause, and the construction is separate from the object-complement frame.",
+            "polarity": "must_hold",
+            "scope": "causative that-clause frame"
+          }
+        ]
+      },
+      {
+        "id": "IC-008",
+        "surface_form": "evidently",
+        "frame": "Evidently, ...",
+        "meaning": "明らかに、どうやら（状況から判断すると）",
+        "disposition": "included",
+        "rationale": "The surface form evidently and the meaning 明らかに、どうやら（状況から判断すると） identify the related adverb that modifies a whole clause and signals an inference from circumstances.",
+        "semantic_assertions": [
+          {
+            "id": "IC-008-SA-001",
+            "statement": "Evidently is an adverbial form and should not be substituted for the adjective in It is evident that ... .",
+            "polarity": "must_hold",
+            "scope": "derived adverb"
+          }
+        ]
+      },
+      {
+        "id": "IC-009",
+        "surface_form": "self-evident",
+        "frame": "self-evident",
+        "meaning": "証明や説明を必要としないほど明らかな、自明の",
+        "disposition": "included",
+        "rationale": "The frame self-evident is the listed compound adjective meaning 証明や説明を必要としないほど明らかな、自明の, not an independent inflectional sense of evident.",
+        "semantic_assertions": [
+          {
+            "id": "IC-009-SA-001",
+            "statement": "The compound keeps evident inside a fixed compound meaning and does not license every compound component as a free synonym.",
+            "polarity": "must_hold",
+            "scope": "compound adjective"
+          }
+        ]
+      },
+      {
+        "id": "IC-010",
+        "surface_form": "evidence",
+        "frame": "evidence",
+        "meaning": "evident と同じ語源系統に属する関連語",
+        "disposition": "excluded",
+        "rationale": "The surface form evidence is a related noun and verb in the same etymological family, but the article explicitly excludes treating evidence as a simple suffixal derivative of evident.",
+        "semantic_assertions": [
+          {
+            "id": "IC-010-SA-001",
+            "statement": "Evidence must remain a related lexical item rather than being presented as a regular modern suffixal formation from evident.",
+            "polarity": "must_hold",
+            "scope": "related word formation"
+          },
+          {
+            "id": "IC-010-SA-002",
+            "statement": "Evidence is not an additional adjective sense of the headword evident.",
+            "polarity": "must_not_hold",
+            "scope": "headword boundary"
+          }
+        ]
+      }
+    ],
+    "finding_results": [
+      {
+        "id": "CR-001",
+        "location": "文法パターン",
+        "severity": "high",
+        "description": "make something と make it evident that ... を一つのパターンとして結合しており、前者に that 節を直接続ける誤った構文を示している。",
+        "reason": "該当本文「make something・make it evident + that 〈節〉＝何かを明白にする・～であることを明らかにする／」。make it evident that ... は成立するが、make something evident は目的語補語構文であり、通常は make something evident that ... とは続かない。学習者が make + 目的語 + that 節を一般化するため、二つのフレームを分けて示す必要がある。",
+        "suggested_direction": "make something evident（何かを明白にする）と make it evident that ...（…であることを明らかにする）を別パターンに分ける。",
+        "scope_anchors": [
+          {
+            "id": "CR-001-a1",
+            "exact_quote": "make something・make it evident + that 〈節〉＝何かを明白にする・～であることを明らかにする／",
+            "location_hint": "＃意味・用法・関連表現の【文法パターン】行"
+          }
+        ]
+      },
+      {
+        "id": "CR-002",
+        "location": "語源・語形成の evidently 説明",
+        "severity": "medium",
+        "description": "evidently の意味に reportedly に近い「伝えられるところでは」を通常の用法として含めている。",
+        "reason": "該当本文「・evidently：副詞。「明らかに、見たところ」。文全体を修飾して「どうやら、伝えられるところでは」のように使うこともある。」。evidently は基本的に「明らかに、どう見ても」または推論的な「どうやら」を表すが、「伝えられるところでは」は情報源を示す reportedly の意味に寄り、別の副詞の意味を学習させる。",
+        "suggested_direction": "「明らかに、どうやら（状況から判断すると）」に限定し、「伝えられるところでは」は削除するか reportedly との違いを明示する。",
+        "scope_anchors": [
+          {
+            "id": "CR-002-a1",
+            "exact_quote": "・evidently：副詞。「明らかに、見たところ」。文全体を修飾して「どうやら、伝えられるところでは」のように使うこともある。",
+            "location_hint": "＃語形成の evidently 項目"
+          },
+          {
+            "id": "CR-002-a2",
+            "exact_quote": "同じラテン語系統の evidence「証拠、証拠を示す」、evidently「明らかに、どうやら」、self-evident「自明な」と意味上・形態上つながる。",
+            "location_hint": "＃語源の関連語列挙"
+          }
+        ]
+      }
+    ],
+    "evidence_checks": [],
+    "source_inventory_results": [
+      {
+        "id": "U001",
+        "source_fact_ids": [
+          "F001",
+          "F003",
+          "F009"
+        ],
+        "canonical_statement": "Evident is an adjective meaning clear or easily seen or understood.",
+        "disposition": "included",
+        "rationale": "This is the article's single modern lexical sense."
+      },
+      {
+        "id": "U002",
+        "source_fact_ids": [
+          "F002",
+          "F005",
+          "F007"
+        ],
+        "canonical_statement": "Evident combines with to, from, in, and that-clause patterns and with become, be, seem, and make frames.",
+        "disposition": "included",
+        "rationale": "These constructions are central to accurate learner use."
+      },
+      {
+        "id": "U003",
+        "source_fact_ids": [
+          "F006",
+          "F015",
+          "F016"
+        ],
+        "canonical_statement": "Evident is a somewhat formal clarity adjective and contrasts with apparent when apparent retains a seeming-or-not-necessarily-real sense.",
+        "disposition": "included",
+        "rationale": "The register and synonym boundary are important for avoiding overgeneralization."
+      },
+      {
+        "id": "U004",
+        "source_fact_ids": [
+          "F004"
+        ],
+        "canonical_statement": "The current learner-dictionary pronunciation is /ˈevɪdənt/.",
+        "disposition": "included",
+        "rationale": "The IPA and its stress explanation are stated in the pronunciation section."
+      },
+      {
+        "id": "U005",
+        "source_fact_ids": [
+          "F008",
+          "F010",
+          "F011"
+        ],
+        "canonical_statement": "Evident has a late Middle English history connected through French and Latin to the idea of seeing clearly.",
+        "disposition": "included",
+        "rationale": "Multiple etymological references support the bounded origin explanation."
+      },
+      {
+        "id": "U006",
+        "source_fact_ids": [
+          "F012",
+          "F013",
+          "F014"
+        ],
+        "canonical_statement": "Evidence, evidently, and self-evident are related forms with distinct parts of speech or compound structure.",
+        "disposition": "included",
+        "rationale": "The word-formation section limits itself to directly attested related forms."
+      }
+    ]
+  },
+  "response_template": {
+    "decision": null,
+    "blockers": [],
+    "notes": [],
+    "target_results": [
+      {
+        "id": "pronunciation:001",
+        "status": null,
+        "notes": "",
+        "target_id": "pronunciation:001"
+      },
+      {
+        "id": "etymology:001",
+        "status": null,
+        "notes": "",
+        "target_id": "etymology:001"
+      },
+      {
+        "id": "etymology:002",
+        "status": null,
+        "notes": "",
+        "target_id": "etymology:002"
+      },
+      {
+        "id": "word_formation:001",
+        "status": null,
+        "notes": "",
+        "target_id": "word_formation:001"
+      },
+      {
+        "id": "word_formation:002",
+        "status": null,
+        "notes": "",
+        "target_id": "word_formation:002"
+      },
+      {
+        "id": "word_formation:003",
+        "status": null,
+        "notes": "",
+        "target_id": "word_formation:003"
+      },
+      {
+        "id": "sense_boundary:001",
+        "status": null,
+        "notes": "",
+        "target_id": "sense_boundary:001"
+      },
+      {
+        "id": "definition:001",
+        "status": null,
+        "notes": "",
+        "target_id": "definition:001"
+      },
+      {
+        "id": "frequency:001",
+        "status": null,
+        "notes": "",
+        "target_id": "frequency:001"
+      },
+      {
+        "id": "register:001",
+        "status": null,
+        "notes": "",
+        "target_id": "register:001"
+      },
+      {
+        "id": "grammar_pattern:001",
+        "status": null,
+        "notes": "",
+        "target_id": "grammar_pattern:001"
+      },
+      {
+        "id": "grammar_pattern:002",
+        "status": null,
+        "notes": "",
+        "target_id": "grammar_pattern:002"
+      },
+      {
+        "id": "grammar_pattern:003",
+        "status": null,
+        "notes": "",
+        "target_id": "grammar_pattern:003"
+      },
+      {
+        "id": "grammar_pattern:004",
+        "status": null,
+        "notes": "",
+        "target_id": "grammar_pattern:004"
+      },
+      {
+        "id": "grammar_pattern:005",
+        "status": null,
+        "notes": "",
+        "target_id": "grammar_pattern:005"
+      },
+      {
+        "id": "grammar_pattern:006",
+        "status": null,
+        "notes": "",
+        "target_id": "grammar_pattern:006"
+      },
+      {
+        "id": "grammar_pattern:007",
+        "status": null,
+        "notes": "",
+        "target_id": "grammar_pattern:007"
+      },
+      {
+        "id": "grammar_pattern:008",
+        "status": null,
+        "notes": "",
+        "target_id": "grammar_pattern:008"
+      },
+      {
+        "id": "grammar_pattern:009",
+        "status": null,
+        "notes": "",
+        "target_id": "grammar_pattern:009"
+      },
+      {
+        "id": "collocation:001",
+        "status": null,
+        "notes": "",
+        "target_id": "collocation:001"
+      },
+      {
+        "id": "collocation:002",
+        "status": null,
+        "notes": "",
+        "target_id": "collocation:002"
+      },
+      {
+        "id": "collocation:003",
+        "status": null,
+        "notes": "",
+        "target_id": "collocation:003"
+      },
+      {
+        "id": "collocation:004",
+        "status": null,
+        "notes": "",
+        "target_id": "collocation:004"
+      },
+      {
+        "id": "collocation:005",
+        "status": null,
+        "notes": "",
+        "target_id": "collocation:005"
+      },
+      {
+        "id": "collocation:006",
+        "status": null,
+        "notes": "",
+        "target_id": "collocation:006"
+      },
+      {
+        "id": "collocation:007",
+        "status": null,
+        "notes": "",
+        "target_id": "collocation:007"
+      },
+      {
+        "id": "collocation:008",
+        "status": null,
+        "notes": "",
+        "target_id": "collocation:008"
+      },
+      {
+        "id": "usage_note:001",
+        "status": null,
+        "notes": "",
+        "target_id": "usage_note:001"
+      },
+      {
+        "id": "usage_note:002",
+        "status": null,
+        "notes": "",
+        "target_id": "usage_note:002"
+      },
+      {
+        "id": "usage_note:003",
+        "status": null,
+        "notes": "",
+        "target_id": "usage_note:003"
+      },
+      {
+        "id": "synonym:001",
+        "status": null,
+        "notes": "",
+        "target_id": "synonym:001"
+      },
+      {
+        "id": "synonym:002",
+        "status": null,
+        "notes": "",
+        "target_id": "synonym:002"
+      },
+      {
+        "id": "synonym:003",
+        "status": null,
+        "notes": "",
+        "target_id": "synonym:003"
+      },
+      {
+        "id": "synonym:004",
+        "status": null,
+        "notes": "",
+        "target_id": "synonym:004"
+      },
+      {
+        "id": "synonym:005",
+        "status": null,
+        "notes": "",
+        "target_id": "synonym:005"
+      },
+      {
+        "id": "synonym:006",
+        "status": null,
+        "notes": "",
+        "target_id": "synonym:006"
+      },
+      {
+        "id": "antonym:001",
+        "status": null,
+        "notes": "",
+        "target_id": "antonym:001"
+      },
+      {
+        "id": "antonym:002",
+        "status": null,
+        "notes": "",
+        "target_id": "antonym:002"
+      }
+    ],
+    "relation_results": [
+      {
+        "id": "example_translation:001",
+        "status": null,
+        "notes": "",
+        "relation_id": "example_translation:001"
+      },
+      {
+        "id": "example_translation:002",
+        "status": null,
+        "notes": "",
+        "relation_id": "example_translation:002"
+      },
+      {
+        "id": "example_translation:003",
+        "status": null,
+        "notes": "",
+        "relation_id": "example_translation:003"
+      },
+      {
+        "id": "example_translation:004",
+        "status": null,
+        "notes": "",
+        "relation_id": "example_translation:004"
+      },
+      {
+        "id": "example_translation:005",
+        "status": null,
+        "notes": "",
+        "relation_id": "example_translation:005"
+      },
+      {
+        "id": "example_translation:006",
+        "status": null,
+        "notes": "",
+        "relation_id": "example_translation:006"
+      },
+      {
+        "id": "example_translation:007",
+        "status": null,
+        "notes": "",
+        "relation_id": "example_translation:007"
+      },
+      {
+        "id": "example_translation:008",
+        "status": null,
+        "notes": "",
+        "relation_id": "example_translation:008"
+      },
+      {
+        "id": "sense_definition_consistency:001",
+        "status": null,
+        "notes": "",
+        "relation_id": "sense_definition_consistency:001"
+      },
+      {
+        "id": "definition_usage_consistency:001",
+        "status": null,
+        "notes": "",
+        "relation_id": "definition_usage_consistency:001"
+      },
+      {
+        "id": "definition_usage_consistency:002",
+        "status": null,
+        "notes": "",
+        "relation_id": "definition_usage_consistency:002"
+      },
+      {
+        "id": "definition_usage_consistency:003",
+        "status": null,
+        "notes": "",
+        "relation_id": "definition_usage_consistency:003"
+      },
+      {
+        "id": "definition_lexical_relation_consistency:001",
+        "status": null,
+        "notes": "",
+        "relation_id": "definition_lexical_relation_consistency:001"
+      },
+      {
+        "id": "pattern_example_coverage:001",
+        "status": null,
+        "notes": "",
+        "relation_id": "pattern_example_coverage:001"
+      },
+      {
+        "id": "pattern_example_coverage:002",
+        "status": null,
+        "notes": "",
+        "relation_id": "pattern_example_coverage:002"
+      },
+      {
+        "id": "pattern_example_coverage:003",
+        "status": null,
+        "notes": "",
+        "relation_id": "pattern_example_coverage:003"
+      },
+      {
+        "id": "pattern_example_coverage:004",
+        "status": null,
+        "notes": "",
+        "relation_id": "pattern_example_coverage:004"
+      },
+      {
+        "id": "pattern_example_coverage:005",
+        "status": null,
+        "notes": "",
+        "relation_id": "pattern_example_coverage:005"
+      },
+      {
+        "id": "pattern_example_coverage:006",
+        "status": null,
+        "notes": "",
+        "relation_id": "pattern_example_coverage:006"
+      },
+      {
+        "id": "pattern_example_coverage:007",
+        "status": null,
+        "notes": "",
+        "relation_id": "pattern_example_coverage:007"
+      },
+      {
+        "id": "pattern_example_coverage:008",
+        "status": null,
+        "notes": "",
+        "relation_id": "pattern_example_coverage:008"
+      },
+      {
+        "id": "pattern_example_coverage:009",
+        "status": null,
+        "notes": "",
+        "relation_id": "pattern_example_coverage:009"
+      },
+      {
+        "id": "article_learning_risk:001",
+        "status": null,
+        "notes": "",
+        "relation_id": "article_learning_risk:001"
+      }
+    ],
+    "normal_candidate_results": [],
+    "blind_candidate_results": [
+      {
+        "id": "IC-001",
+        "status": null,
+        "notes": "",
+        "assertion_ids": [
+          "IC-001-SA-001"
+        ],
+        "verified_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+        "assertion_results": [
+          {
+            "id": "IC-001-SA-001",
+            "status": null,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "id": "IC-002",
+        "status": null,
+        "notes": "",
+        "assertion_ids": [
+          "IC-002-SA-001"
+        ],
+        "verified_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+        "assertion_results": [
+          {
+            "id": "IC-002-SA-001",
+            "status": null,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "id": "IC-003",
+        "status": null,
+        "notes": "",
+        "assertion_ids": [
+          "IC-003-SA-001"
+        ],
+        "verified_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+        "assertion_results": [
+          {
+            "id": "IC-003-SA-001",
+            "status": null,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "id": "IC-004",
+        "status": null,
+        "notes": "",
+        "assertion_ids": [
+          "IC-004-SA-001"
+        ],
+        "verified_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+        "assertion_results": [
+          {
+            "id": "IC-004-SA-001",
+            "status": null,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "id": "IC-005",
+        "status": null,
+        "notes": "",
+        "assertion_ids": [
+          "IC-005-SA-001"
+        ],
+        "verified_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+        "assertion_results": [
+          {
+            "id": "IC-005-SA-001",
+            "status": null,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "id": "IC-006",
+        "status": null,
+        "notes": "",
+        "assertion_ids": [
+          "IC-006-SA-001",
+          "IC-006-SA-002"
+        ],
+        "verified_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+        "assertion_results": [
+          {
+            "id": "IC-006-SA-001",
+            "status": null,
+            "notes": ""
+          },
+          {
+            "id": "IC-006-SA-002",
+            "status": null,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "id": "IC-007",
+        "status": null,
+        "notes": "",
+        "assertion_ids": [
+          "IC-007-SA-001"
+        ],
+        "verified_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+        "assertion_results": [
+          {
+            "id": "IC-007-SA-001",
+            "status": null,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "id": "IC-008",
+        "status": null,
+        "notes": "",
+        "assertion_ids": [
+          "IC-008-SA-001"
+        ],
+        "verified_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+        "assertion_results": [
+          {
+            "id": "IC-008-SA-001",
+            "status": null,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "id": "IC-009",
+        "status": null,
+        "notes": "",
+        "assertion_ids": [
+          "IC-009-SA-001"
+        ],
+        "verified_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+        "assertion_results": [
+          {
+            "id": "IC-009-SA-001",
+            "status": null,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "id": "IC-010",
+        "status": null,
+        "notes": "",
+        "assertion_ids": [
+          "IC-010-SA-001",
+          "IC-010-SA-002"
+        ],
+        "verified_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+        "assertion_results": [
+          {
+            "id": "IC-010-SA-001",
+            "status": null,
+            "notes": ""
+          },
+          {
+            "id": "IC-010-SA-002",
+            "status": null,
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "finding_results": [
+      {
+        "id": "CR-001",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "CR-002",
+        "status": null,
+        "notes": ""
+      }
+    ],
+    "evidence_checks": [],
+    "source_inventory_results": [
+      {
+        "id": "U001",
+        "status": null,
+        "notes": "",
+        "union_id": "U001"
+      },
+      {
+        "id": "U002",
+        "status": null,
+        "notes": "",
+        "union_id": "U002"
+      },
+      {
+        "id": "U003",
+        "status": null,
+        "notes": "",
+        "union_id": "U003"
+      },
+      {
+        "id": "U004",
+        "status": null,
+        "notes": "",
+        "union_id": "U004"
+      },
+      {
+        "id": "U005",
+        "status": null,
+        "notes": "",
+        "union_id": "U005"
+      },
+      {
+        "id": "U006",
+        "status": null,
+        "notes": "",
+        "union_id": "U006"
+      }
+    ],
+    "checker_recheck_results": [
+      {
+        "id": "translation",
+        "pass_id": "translation",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "sense-structure",
+        "pass_id": "sense-structure",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "frame-relation",
+        "pass_id": "frame-relation",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "example-attribution",
+        "pass_id": "example-attribution",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "qualification",
+        "pass_id": "qualification",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "pronunciation",
+        "pass_id": "pronunciation",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "evidence",
+        "pass_id": "evidence",
+        "status": null,
+        "notes": ""
+      }
+    ],
+    "chronology_results": [
+      {
+        "id": "body_hash_binding",
+        "check_id": "body_hash_binding",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "cold_and_normal_before_revision",
+        "check_id": "cold_and_normal_before_revision",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "revision_before_final_blind",
+        "check_id": "revision_before_final_blind",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "final_blind_before_seal",
+        "check_id": "final_blind_before_seal",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "post_blind_completion",
+        "check_id": "post_blind_completion",
+        "status": null,
+        "notes": ""
+      }
+    ]
+  },
+  "input_bindings": {
+    "pass_findings.json": "d590797540286dabf018065a41ce7f19b7f3fb34752ac065a0ae1fcfe00f1152",
+    "cold_review.json": "2fd627e28492a42c866c6335a02028c8a2cfd025939d6488094672be9eb46489",
+    "final_blind.json": "26a321ee360a6d97a86d7e4b5971d2d3af14e934cfc30a439656602012fce2e3",
+    "blind_seal.json": "c09886c403305883ec1d097f24fb48616373e46bcadf40636bc4087b828cc413",
+    "pre_blind_resolution.json": "b9b2fa8f52d7b6f1ecd3dadacb9723dff170bdba46a6329544e0858f907f812e",
+    "pre_blind_revision.json": "94d63903618488166ef65f6a9c7f15544f9e01f439b8dbaa4e3422646dc6ba59",
+    "checker_recheck_manifest.json": "78afe70412eb8a00aa73ae9e6bb49e7b6317822d8a18c3d261ecb9a0573dbf2a",
+    "post_blind_resolution.json": "7dc2f920057bc5fa6ac3d76f75e2d66c3a0b209dd3c849f5a7dcb88dd57d0e51",
+    "post_blind_verification.json": "2a0c236d737f79ae9fb3c175a9c6f415149cfe501191798644c6a058cef8c44d",
+    "targeted_adjudications.json": "170bcecc13fe9ab6439407fcebba3dfef9a7160d4f7ac76c211d38cd5d161b80",
+    "source_inventory.json": "76456e9e1318bae8eccc807b5ef12113a47f7a38ba54cd6efeb1d39dcc4dcef7",
+    "resolutions.json": "1bab8a5b9e4aca53d6dc9bf10a81ebda8a5e7c33787ad1369ecd8b547f663463",
+    "check_passes/checker_passes.stage1.json": "90917da47c428612e61c1f1235f23977b42940d2353702a2c4c6f049251a117c",
+    "check_passes/evidence.json": "f1d10d70c1f947adb88e137ab75864892ee07e7d754ea1a2af82ce1e2a8e6735",
+    "check_passes/evidence.request.json": "b847a191ec048da417d21b911b99476f2cc9f20f15bd56cc148aa1662f4d7636",
+    "check_passes/example-attribution.alignment-key.json": "aa46bd254a5a535434fa3982d0be7d2489ecb123a176c126a3305c31fa5ebe1b",
+    "check_passes/example-attribution.blind-record.json": "d02180a7be9097597476c9ed44e5a67415c618f8dcb5522cf7bfc232c0994e95",
+    "check_passes/example-attribution.json": "24738c6eeb023008c68c9ba9c9f4e788cb584782f1d752cba85ab55d2cf572c9",
+    "check_passes/example-attribution.request.json": "253c0faa8574e0137aff73e8a5da3f4aa325262aa193390ec6041a2baa7a027b",
+    "check_passes/frame-relation.antonym-axis.adjudication-record.json": "cc97d28655cc7fd0ec89b692ef3132ef51d97ac4507c5ae2e7bf762bd430f6d0",
+    "check_passes/frame-relation.antonym-axis.alignment-key.json": "ad1901d1c2b9d12bde58258c0259d224cad1e8ee8b785f723f048e7d3815d180",
+    "check_passes/frame-relation.antonym-axis.blind-record.json": "c21a42f5be231cd022887f3ae14a0cea84f038cf8a21caed11ed33c6645e3088",
+    "check_passes/frame-relation.antonym-axis.stage2.request.json": "f09dbef2069b37586dccb8876988da402b1cf2a4e3e155add9b1a9c4b8f1e296",
+    "check_passes/frame-relation.request.json": "2063535933919bfa57fdee071a7ed1ae16630f35a26d1d49d34500449a466506",
+    "check_passes/input_snapshot.json": "7b9c99cf634e0b0fb7b76e260f76e5c20da245bf7126f3bed84af0c33e05dc3c",
+    "check_passes/pronunciation.json": "c330381a9261e829b6610622d1a394b355ec737764eb629ee151fe17f408d316",
+    "check_passes/pronunciation.request.json": "ccd42f131d18e792a2246f97f2751a863dc5885e7a3fde00e636ae3f893e062b",
+    "check_passes/qualification.json": "7a5ac2a718d9cdd9c315c75ae475f1f159c15e273cd02d4b189401ee7ff29e03",
+    "check_passes/qualification.request.json": "064060eddad2ef10dd235c444128803d66f9c4582ad4fd47aadce37936d99684",
+    "check_passes/sense-structure.json": "a2980ac5e580c5e7c203d67cb98566b35ffa007f86ce1478c8cbbf72f75ae25a",
+    "check_passes/sense-structure.request.json": "a79f0d4200bb93fc408f54a8219bb79e82bba56c31546101bd0ace9ca86631f9",
+    "check_passes/translation.json": "69a9c1a879676f26ad5fed77103e3919602cf974fffe33ae2631a5ae41ce0313",
+    "check_passes/translation.request.json": "2544300cc63c927c750ff7ac22c601c1c8dea094909d362a819fb85c08dd289d"
+  },
+  "contract_version": "review_preflight_v1"
+}
+```
