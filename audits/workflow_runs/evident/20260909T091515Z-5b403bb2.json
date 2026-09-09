@@ -18,12 +18,12 @@
     "research_queries": 5,
     "candidate_pages": 7
   },
-  "status": "in_progress",
+  "status": "budget_exhausted",
   "stage": "blind_seal_complete",
   "started_at": "2026-09-09T09:15:15Z",
   "deadline_at": "2026-09-09T10:15:15Z",
   "pre_draft_deadline_at": "2026-09-09T09:35:15Z",
-  "last_heartbeat_at": "2026-09-09T10:23:18Z",
+  "last_heartbeat_at": "2026-09-09T10:34:10Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-09T09:18:00Z",
@@ -66,8 +66,11 @@
       "notes": "orchestrator completed blind_seal"
     }
   ],
-  "stop_reason": "",
-  "open_questions": [],
+  "stop_reason": "final_review handoff ingestion failed 3 times",
+  "open_questions": [
+    "last final_review ingestion error: resolutions must cover every finding exactly once",
+    "fix the handoff response contract before resuming this run"
+  ],
   "orchestrator": {
     "workflow_contract_version": "workflow_improvement_v1",
     "orchestrator_version": "run_word_v3",
@@ -632,7 +635,35 @@
         "recorded_at": "2026-09-09T10:25:40Z"
       }
     },
-    "pending_events": [],
+    "pending_events": [
+      {
+        "event_id": "pending:20260909T091515Z-5b403bb2:final_review:1e45ecb23833",
+        "knowledge_epoch": "pi2-2026-09-06",
+        "kind": "review_failure",
+        "stage": "final_review",
+        "fact": "B2_rationale_not_distinct: relation_results distinct ratio 0.261 is below 0.60",
+        "status": "pending",
+        "recorded_at": "2026-09-09T10:29:36Z"
+      },
+      {
+        "event_id": "pending:20260909T091515Z-5b403bb2:final_review:9172ffa260a4",
+        "knowledge_epoch": "pi2-2026-09-06",
+        "kind": "review_failure",
+        "stage": "final_review",
+        "fact": "source_inventory.input_body_sha256 is stale",
+        "status": "pending",
+        "recorded_at": "2026-09-09T10:29:54Z"
+      },
+      {
+        "event_id": "pending:20260909T091515Z-5b403bb2:final_review:6589cfb09d81",
+        "knowledge_epoch": "pi2-2026-09-06",
+        "kind": "review_failure",
+        "stage": "final_review",
+        "fact": "resolutions must cover every finding exactly once",
+        "status": "pending",
+        "recorded_at": "2026-09-09T10:34:10Z"
+      }
+    ],
     "selection_errors": []
   },
   "metrics": {
@@ -886,5 +917,15 @@
       "stage": "cold_review_complete",
       "action": "record the delay cause and resume the same run; do not restart reviews"
     }
+  },
+  "last_rejected_review": {
+    "fingerprint": "82dc49916be026237678839432c6ccb763933436ea8801b53348b197889b2d99",
+    "error": "resolutions must cover every finding exactly once"
+  },
+  "review_ingest_failures": {
+    "stage": "final_review",
+    "count": 3,
+    "last_error": "resolutions must cover every finding exactly once",
+    "last_failed_at": "2026-09-09T10:34:10Z"
   }
 }

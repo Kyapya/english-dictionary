@@ -10,5 +10,39 @@
     "all_findings"
   ],
   "recorded_at": "2026-09-09T10:25:35.378824+00:00",
-  "resolutions": []
+  "resolutions": [
+    {
+      "id": "CR-001",
+      "finding_id": "CR-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "make something evident は目的語補語構文、make it evident + that 〈節〉は形式目的語 it を用いる that 節構文であり、同一のパターンとして結合すると make + 目的語 + that 節という誤った一般化を招くため、別項目に分ける。",
+      "required_changes": [
+        "make something evident と make it evident + that 〈節〉を別パターンとして示す。"
+      ],
+      "implemented_changes": [
+        "文法パターンを二つの独立したフレームと訳に分割した。"
+      ],
+      "resolved_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0"
+    },
+    {
+      "id": "CR-002",
+      "finding_id": "CR-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "evidently は明らかな根拠や状況からの推論を示す副詞であり、情報源を示す reportedly に近い「伝えられるところでは」を通常の意味として併記すると、推論と伝聞を混同させるため、説明を推論的な意味に限定する。",
+      "required_changes": [
+        "evidently の説明から reportedly 寄りの「伝えられるところでは」を除く。"
+      ],
+      "implemented_changes": [
+        "「明らかに、どうやら（状況から判断すると）」と、根拠や状況から推論した内容を示す説明に改めた。"
+      ],
+      "resolved_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0"
+    }
+  ],
+  "learning_delta": {
+    "schema_version": "process_improvement_learning_delta_v2",
+    "reviewed": true,
+    "items": []
+  }
 }
