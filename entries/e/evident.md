@@ -21,7 +21,7 @@ tags: []
 
 ＃語形成
 
-・evidently：副詞。「明らかに、見たところ」。文全体を修飾して「どうやら、伝えられるところでは」のように使うこともある。  
+・evidently：副詞。「明らかに、どうやら（状況から判断すると）」。文全体を修飾し、明らかな根拠や状況から推論した内容を示す。  
 ・self-evident：複合形容詞。「証明や説明を必要としないほど明らかな、自明の」。  
 ・evidence：名詞・動詞。evident と同じ語源系統に属し、名詞では「証拠」、動詞では「証拠を示す」を表す。現代英語で evident に単純に接尾辞を付けた派生語ではない。  
 
@@ -35,7 +35,7 @@ tags: []
 
 【レジスター/領域】標準語だが、会話中心の obvious や clear よりやや形式的。報告書、学術文、ニュース、ビジネスの説明で多く、感情や特徴が外から読み取れることにも使う。  
 
-【文法パターン】something + be・seem・become・remain evident＝事実・状態などが明らかである／it + be・become + evident + that 〈節〉＝～であることが明らかだ／something + be evident to someone＝〈人〉にとって明らかだ／it + be evident to someone + that 〈節〉＝〈人〉には～が明らかだ／it + be evident from 〈data・evidence・behavior〉 + that 〈節〉＝〈データ・証拠・行動〉から～が明らかだ／something + be evident in 〈expression・results・pattern〉＝感情・特徴などが〈表情・結果・パターン〉に表れている／make something・make it evident + that 〈節〉＝何かを明白にする・～であることを明らかにする／evident + 〈change・difference・sign・need〉＝明らかな〈変化・違い・兆候・必要性〉。  
+【文法パターン】something + be・seem・become・remain evident＝事実・状態などが明らかである／it + be・become + evident + that 〈節〉＝～であることが明らかだ／something + be evident to someone＝〈人〉にとって明らかだ／it + be evident to someone + that 〈節〉＝〈人〉には～が明らかだ／it + be evident from 〈data・evidence・behavior〉 + that 〈節〉＝〈データ・証拠・行動〉から～が明らかだ／something + be evident in 〈expression・results・pattern〉＝感情・特徴などが〈表情・結果・パターン〉に表れている／make something evident＝何かを明白にする／make it evident + that 〈節〉＝～であることを明らかにする／evident + 〈change・difference・sign・need〉＝明らかな〈変化・違い・兆候・必要性〉。  
 
 【コロケーション】
 
