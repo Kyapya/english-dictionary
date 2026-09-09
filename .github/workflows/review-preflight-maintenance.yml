@@ -27,9 +27,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Apply exact-source-checked changes
-        run: |
-          python .maintenance/review-preflight/apply.py
-          python .maintenance/review-preflight/compat.py
+        run: python .maintenance/review-preflight/finalize.py
       - name: Compile scripts and tests
         run: python -m compileall -q scripts tests
       - name: Run regression suite
@@ -42,6 +40,6 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -- scripts tests AGENTS.md
           if ! git diff --cached --quiet; then
-            git commit -m 'Separate repairable preflight failures and aggregate final-review input checks'
+            git commit -m 'Verify malformed input aggregation and corrected API review recovery'
             git push origin HEAD:refs/heads/fix/review-preflight-recovery-20260909
           fi
