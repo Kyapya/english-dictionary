@@ -659,11 +659,11 @@
       {
         "id": "checker_recheck",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 60000,
+        "duration_seconds": 360.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "final_blind",
@@ -786,14 +786,15 @@
     }
   },
   "orchestrator_state": {
-    "next_stage_index": 6,
+    "next_stage_index": 7,
     "completed_stages": [
       "guard_start",
       "generation",
       "mechanical_validator",
       "checker_passes",
       "cold_review",
-      "pre_blind_resolution"
+      "pre_blind_resolution",
+      "checker_recheck"
     ],
     "stage_outputs": {
       "generation": [
@@ -814,6 +815,9 @@
       "pre_blind_resolution": [
         "audits/runs/e/evident/20260909T091515Z-5b403bb2/pre_blind_resolution.json",
         "audits/runs/e/evident/20260909T091515Z-5b403bb2/pre_blind_revision.json"
+      ],
+      "checker_recheck": [
+        "audits/runs/e/evident/20260909T091515Z-5b403bb2/checker_recheck_manifest.json"
       ]
     }
   },
