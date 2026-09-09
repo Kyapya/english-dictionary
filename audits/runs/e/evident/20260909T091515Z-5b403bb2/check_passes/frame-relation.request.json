@@ -1,0 +1,68 @@
+{
+  "schema_version": "antonym_axis_blind_request_v1",
+  "pass_id": "frame-relation",
+  "taxonomy_ids": [
+    "argument_slot_role_mismatch",
+    "lexical_relation_mislabel"
+  ],
+  "specification": "prompts/check_pass_frame_relation_v7.md",
+  "input_body_sha256": "7daa0d416ecef06000548e2f59c08bd4394750574e23f19e24855a4a6339257a",
+  "input_sections": {
+    "antonym_items": [
+      {
+        "item_id": "ant-bae621c7c63f",
+        "headword": "evident",
+        "sense_definition": "【日本語訳・定義】見える特徴、行動、データ、状況などから、ある事実・状態・感情・評価を容易に認識または理解できることを表す。観察した人にとって明白だという意味であり、語そのものが論理的な証明や絶対的な確実性まで保証するわけではない。",
+        "antonym": "obscure",
+        "antonym_definition": "定義: 見えにくく、知られておらず、理解しにくい。"
+      },
+      {
+        "item_id": "ant-4cdb1196ed11",
+        "headword": "evident",
+        "sense_definition": "【日本語訳・定義】見える特徴、行動、データ、状況などから、ある事実・状態・感情・評価を容易に認識または理解できることを表す。観察した人にとって明白だという意味であり、語そのものが論理的な証明や絶対的な確実性まで保証するわけではない。",
+        "antonym": "unclear",
+        "antonym_definition": "定義: 意味・理由・状況などがはっきりせず、容易には理解できない。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "difference_line",
+      "frequency_line",
+      "example_line",
+      "translation_line",
+      "synonym_section",
+      "core_image",
+      "other_senses",
+      "document_order"
+    ],
+    "questions": [
+      "name_axis_as_one_noun",
+      "classify_as_補完_程度_方向_評価_状態",
+      "record_unnamable_with_one_sentence_reason"
+    ],
+    "required_output_schema": "antonym_axis_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "3598ca81a5784639c6b43a0806d0981a985bf4174f424c744aad1dde787bfcef",
+  "source_artifact_sha256": "30b66db08f75dd69b45d2c04e3c7e49edce013c046dafbcd965f201c1691195c",
+  "normalized_input_sha256": "4c8926709e1a0b5a684aa59caa6ed9db8387c2e044b5d1fcbda0b4aca582bdca"
+}

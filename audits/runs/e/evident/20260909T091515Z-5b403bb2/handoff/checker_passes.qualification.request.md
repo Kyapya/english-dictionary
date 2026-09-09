@@ -1,0 +1,304 @@
+# Independent checker handoff
+
+Stage: `checker_passes/qualification`
+
+Run this request in its own independent subagent/session. The seven checker pass requests are designed to run concurrently; do not concatenate them into one prompt or reuse one subagent for multiple passes.
+
+Save exactly one JSON response as `checker_passes.qualification.response.json`. The top-level JSON must include the routed `pass_id` and a `reviewer` object with `mode: "handoff"`, the actual `declared_model`, `ingested_by: "human"`, and a non-empty `agent_id`. Each checker pass must use a different agent_id.
+## Prompt
+
+# check_pass_qualification_v6
+
+## 目的
+
+地域・レジスター・頻度・専門制度の限定と、絶対表現の適用範囲を検査する。
+
+## 担当タクソノミー分類
+
+- `regional_qualification`
+- `absolute_scope_counterexample`
+- `technical_terminology_conventionality`
+
+## 検査ルール
+
+- 米英差・地域差は綴りや発音だけでなく、語義、構文、頻度、自然さ、法域・制度の範囲を確認する。一地域の資料を英語全体へ一般化しない。
+- 頻度は英語全体での遭遇頻度として判定し、同一見出し語内の相対順位や特定領域内だけの頻度を使わない。
+- 高頻度の主要品詞・主要構文を低頻度の古語・地域語・専門語より先に置き、説明量も優先する。項目数の多さで主要用法の欠落を相殺しない。
+- 「必ず」「常に」「最低限」「のみ」「できない」「人なら／物なら」等は、否定、比較、程度表現、別フレームによる反例・打ち消し可能性を探す。傾向・含みを必須条件にしない。
+- 各定義主張を、必須条件、傾向・含み、特定条件に限定されるものへ分け、主要フレームへの適用範囲を確認する。
+- 法律、保険、税務、医療、資格制度等では、辞書上の語彙的意味と制度上の成立要件、手続き、当事者、対象、効果を分ける。
+- 専門訳語・慣用表現を一般語の直訳で置換せず、対象法域・制度の一次資料または信頼できる専門資料で慣用性と範囲を確認する。
+- 専門義ブロックの各pattern・collocation・exampleが当該専門義として明確に成立するか確認する。一般義にも同程度に読める例は専門義の中心例にしない。
+- 専門・地域ラベルを語義全体へ付けたとき、ブロック内の別一般義・別法域・別レジスターが混入しないか確認する。
+- 語源、年代、意味変化、地域差、頻度を根拠以上に断定しない。資料が食い違い範囲を限定できなければhold相当のfindingを返す。
+
+## 入力として受け取るセクション
+
+- `etymology`
+- `word_formation`
+- `sense_structure`
+- `frequency_register`
+- `usage_notes`
+- `collocations_examples`
+
+## findingの出力スキーマ
+
+```json
+{
+  "taxonomy_id": "regional_qualification | absolute_scope_counterexample | technical_terminology_conventionality",
+  "location": {
+    "section": "router section selector",
+    "line_start": 1,
+    "line_end": 1,
+    "exact_quote": "本文からの改変していない引用"
+  },
+  "severity": "blocking | minor",
+  "rationale": "限定不足・反例・専門慣用性の問題",
+  "evidence_link_ids": [],
+  "suggested_direction": "適用範囲、法域、傾向、専門訳を直す方向"
+}
+```
+
+
+## Input packet
+
+```json
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "qualification",
+  "taxonomy_ids": [
+    "regional_qualification",
+    "absolute_scope_counterexample",
+    "technical_terminology_conventionality"
+  ],
+  "specification": "prompts/check_pass_qualification_v6.md",
+  "input_body_sha256": "7daa0d416ecef06000548e2f59c08bd4394750574e23f19e24855a4a6339257a",
+  "input_sections": {
+    "etymology": [
+      {
+        "line": 17,
+        "text": "＃語源"
+      },
+      {
+        "line": 19,
+        "text": "中英語後期に、古フランス語またはラテン語 evidens・evident-「目や心に明らかな、明白な」から英語に入った。ラテン語の形は e-（ex-「外へ、十分に」の変形）と videre「見る」に関係し、もともと「外に現れて見える」という発想を含む。  "
+      },
+      {
+        "line": 20,
+        "text": "同じラテン語系統の evidence「証拠、証拠を示す」、evidently「明らかに、どうやら」、self-evident「自明な」と意味上・形態上つながる。  "
+      }
+    ],
+    "word_formation": [
+      {
+        "line": 22,
+        "text": "＃語形成"
+      },
+      {
+        "line": 24,
+        "text": "・evidently：副詞。「明らかに、見たところ」。文全体を修飾して「どうやら、伝えられるところでは」のように使うこともある。  "
+      },
+      {
+        "line": 25,
+        "text": "・self-evident：複合形容詞。「証明や説明を必要としないほど明らかな、自明の」。  "
+      },
+      {
+        "line": 26,
+        "text": "・evidence：名詞・動詞。evident と同じ語源系統に属し、名詞では「証拠」、動詞では「証拠を示す」を表す。現代英語で evident に単純に接尾辞を付けた派生語ではない。  "
+      }
+    ],
+    "sense_structure": [
+      {
+        "line": 30,
+        "text": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている"
+      },
+      {
+        "line": 32,
+        "text": "【日本語訳・定義】見える特徴、行動、データ、状況などから、ある事実・状態・感情・評価を容易に認識または理解できることを表す。観察した人にとって明白だという意味であり、語そのものが論理的な証明や絶対的な確実性まで保証するわけではない。  "
+      }
+    ],
+    "frequency_register": [
+      {
+        "line": 30,
+        "text": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている"
+      },
+      {
+        "line": 34,
+        "text": "【頻度】〈8/10〉  "
+      },
+      {
+        "line": 36,
+        "text": "【レジスター/領域】標準語だが、会話中心の obvious や clear よりやや形式的。報告書、学術文、ニュース、ビジネスの説明で多く、感情や特徴が外から読み取れることにも使う。  "
+      }
+    ],
+    "usage_notes": [
+      {
+        "line": 30,
+        "text": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている"
+      },
+      {
+        "line": 82,
+        "text": "【語法・注意】`evident to someone` は「誰にとって明らかか」、`evident from something` は「何を根拠に明らかか」、`evident in something` は「どこに表れているか」を示す。`evident that ...` のように内容を続ける場合は、通常 `It is evident that ...` と形式主語 it を置く。  "
+      }
+    ],
+    "collocations_examples": [
+      {
+        "line": 30,
+        "text": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている"
+      },
+      {
+        "line": 40,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 42,
+        "text": "・it is evident that 〈節〉  "
+      },
+      {
+        "line": 43,
+        "text": "用途: 状況や観察結果から、ある判断が明らかだと述べる基本構文。  "
+      },
+      {
+        "line": 44,
+        "text": "例: It is evident that the current plan cannot meet the deadline.  "
+      },
+      {
+        "line": 45,
+        "text": "訳: 現在の計画では期限に間に合わないことが明らかだ。  "
+      },
+      {
+        "line": 47,
+        "text": "・be evident to someone  "
+      },
+      {
+        "line": 48,
+        "text": "用途: 何が誰にとって明らかなのかを示す。  "
+      },
+      {
+        "line": 49,
+        "text": "例: The benefits of the new system were immediately evident to the staff.  "
+      },
+      {
+        "line": 50,
+        "text": "訳: 新しいシステムの利点は職員にはすぐに明らかになった。  "
+      },
+      {
+        "line": 52,
+        "text": "・be evident from 〈data・evidence・results〉 that 〈節〉  "
+      },
+      {
+        "line": 53,
+        "text": "用途: 明白だと判断する根拠や情報源を示す。  "
+      },
+      {
+        "line": 54,
+        "text": "例: It was evident from the audit results that several invoices had been duplicated.  "
+      },
+      {
+        "line": 55,
+        "text": "訳: 監査結果から、複数の請求書が重複していたことは明らかだった。  "
+      },
+      {
+        "line": 57,
+        "text": "・be evident in 〈expression・behavior・pattern〉  "
+      },
+      {
+        "line": 58,
+        "text": "用途: 感情や特徴が表情・行動・結果などに現れていることを表す。  "
+      },
+      {
+        "line": 59,
+        "text": "例: Her disappointment was evident in the way she avoided eye contact.  "
+      },
+      {
+        "line": 60,
+        "text": "訳: 彼女が目を合わせようとしなかったことに、失望がはっきり表れていた。  "
+      },
+      {
+        "line": 62,
+        "text": "・become evident  "
+      },
+      {
+        "line": 63,
+        "text": "用途: 時間の経過や追加情報によって、それまで不明だったことが明らかになることを表す。  "
+      },
+      {
+        "line": 64,
+        "text": "例: The scale of the damage became evident after the smoke cleared.  "
+      },
+      {
+        "line": 65,
+        "text": "訳: 煙が晴れた後、被害の規模が明らかになった。  "
+      },
+      {
+        "line": 67,
+        "text": "・make it evident that 〈節〉  "
+      },
+      {
+        "line": 68,
+        "text": "用途: 数値、言動、結果などによって、ある判断を明白にする。  "
+      },
+      {
+        "line": 69,
+        "text": "例: The revised figures made it evident that the original estimate was too optimistic.  "
+      },
+      {
+        "line": 70,
+        "text": "訳: 修正後の数値によって、当初の見積もりが楽観的すぎたことが明らかになった。  "
+      },
+      {
+        "line": 72,
+        "text": "・evident signs of 〈change・stress・recovery〉  "
+      },
+      {
+        "line": 73,
+        "text": "用途: 変化、ストレス、回復などが起きていると分かる兆候を表す。  "
+      },
+      {
+        "line": 74,
+        "text": "例: The patient showed evident signs of recovery after the treatment.  "
+      },
+      {
+        "line": 75,
+        "text": "訳: その患者には治療後、回復の明らかな兆候が見られた。  "
+      },
+      {
+        "line": 77,
+        "text": "・with evident 〈relief・pleasure・concern〉  "
+      },
+      {
+        "line": 78,
+        "text": "用途: 表情や声などに感情が明確に現れている様子を表す。  "
+      },
+      {
+        "line": 79,
+        "text": "例: She spoke with evident relief after the results were announced.  "
+      },
+      {
+        "line": 80,
+        "text": "訳: 結果が発表された後、彼女はほっとした様子をはっきり見せて話した。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "1cf8a434bbe1213c0ef739f4c47ffb41014ab2cd5156d297471af6df85ae40a2",
+  "source_artifact_sha256": "30b66db08f75dd69b45d2c04e3c7e49edce013c046dafbcd965f201c1691195c",
+  "normalized_input_sha256": "be413e0fb557bf292da1fb24e1fbfc925df6d6ed3cbb47f3b5941d6d00938fad"
+}
+```

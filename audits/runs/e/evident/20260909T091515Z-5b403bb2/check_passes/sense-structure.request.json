@@ -1,0 +1,73 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "sense-structure",
+  "taxonomy_ids": [
+    "sense_boundary_overlap",
+    "cross_section_internal_contradiction",
+    "compound_component_generalization"
+  ],
+  "specification": "prompts/check_pass_sense_structure_v6.md",
+  "input_body_sha256": "7daa0d416ecef06000548e2f59c08bd4394750574e23f19e24855a4a6339257a",
+  "input_sections": {
+    "core_image": [],
+    "sense_structure": [
+      {
+        "line": 30,
+        "text": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている"
+      },
+      {
+        "line": 32,
+        "text": "【日本語訳・定義】見える特徴、行動、データ、状況などから、ある事実・状態・感情・評価を容易に認識または理解できることを表す。観察した人にとって明白だという意味であり、語そのものが論理的な証明や絶対的な確実性まで保証するわけではない。  "
+      }
+    ],
+    "usage_notes": [
+      {
+        "line": 30,
+        "text": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている"
+      },
+      {
+        "line": 82,
+        "text": "【語法・注意】`evident to someone` は「誰にとって明らかか」、`evident from something` は「何を根拠に明らかか」、`evident in something` は「どこに表れているか」を示す。`evident that ...` のように内容を続ける場合は、通常 `It is evident that ...` と形式主語 it を置く。  "
+      }
+    ],
+    "word_formation": [
+      {
+        "line": 22,
+        "text": "＃語形成"
+      },
+      {
+        "line": 24,
+        "text": "・evidently：副詞。「明らかに、見たところ」。文全体を修飾して「どうやら、伝えられるところでは」のように使うこともある。  "
+      },
+      {
+        "line": 25,
+        "text": "・self-evident：複合形容詞。「証明や説明を必要としないほど明らかな、自明の」。  "
+      },
+      {
+        "line": 26,
+        "text": "・evidence：名詞・動詞。evident と同じ語源系統に属し、名詞では「証拠」、動詞では「証拠を示す」を表す。現代英語で evident に単純に接尾辞を付けた派生語ではない。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "a815b90fbc456e2bc194220ee0f3bfa164790bbb6e1f2f740144ac62bb03b87c",
+  "source_artifact_sha256": "30b66db08f75dd69b45d2c04e3c7e49edce013c046dafbcd965f201c1691195c",
+  "normalized_input_sha256": "20c9ab2ad32d698573629c73070ea9654c2a22d8998e12300014c2edb13e9638"
+}
