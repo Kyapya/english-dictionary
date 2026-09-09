@@ -12,7 +12,7 @@ tags: []
 
 ＃発音記号
 
-米: /ˈkɑːn.sə.kwənt.li/｜英: /ˈkɒn.sɪ.kwənt.li/。いずれも4音節で、第1音節に主強勢がある。米語では第2音節の母音が /ə/、英語では /ɪ/ となり、`quent` の母音は弱く /ə/ と発音する。  
+米: /ˈkɑːn.sə.kwənt.li/｜英: /ˈkɒn.sɪ.kwənt.li/。いずれも4音節で、第1音節に主強勢がある。米語は第1音節が /ɑː/、英語は /ɒ/ で、さらに米語では第2音節が /ə/、英語では /ɪ/ となる。`quent` の母音はいずれも弱く /ə/ と発音する。  
 
 ＃語源
 
@@ -63,7 +63,7 @@ tags: []
 例: The region receives little rainfall and consequently faces frequent water shortages.  
 訳: その地域は降雨量が少なく、その結果しばしば水不足に直面する。  
 
-【語法・注意】`consequently` が示すのは因果関係であり、単なる時間順ではない。後に起きただけなら `subsequently`、次の手順を示すなら `then` を使う。`Because the road was closed, we took a detour.` のように原因を従属節で述べる形と違い、`consequently` は原因と結果をそれぞれ独立した節として示す。`The road was closed; consequently, we took a detour.` のようにピリオドまたはセミコロンを用いる。  
+【語法・注意】`consequently` が示すのは因果関係であり、単なる時間順ではない。後に起きただけなら `subsequently`、次の手順を示すなら `then` を使う。`Because the road was closed, we took a detour.` のように原因を従属節で述べる形と違い、`consequently` は原因から帰結を示す副詞である。`The road was closed; consequently, we took a detour.` のようにピリオドまたはセミコロンで二つの独立節をつなぐのは代表的な書き方だが、`the application was consequently rejected` のように文中でも使える。  
 
 【類義語】
 
