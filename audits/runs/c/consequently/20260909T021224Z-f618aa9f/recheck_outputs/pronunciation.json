@@ -1,0 +1,25 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "pronunciation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-sol",
+    "ingested_by": "human",
+    "agent_id": "recheck-pronunciation-consequently-20260909T021224Z-f618aa9f"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "pronunciation_symbol_explanation",
+      "location": {
+        "section": "pronunciation",
+        "line_start": 15,
+        "line_end": 15,
+        "exact_quote": "第2音節と後半の母音には、辞書間で表記差がある。"
+      },
+      "severity": "blocking",
+      "rationale": "4つのIPAを比べると、Cambridge米語 /ˈkɑːn.sə.kwənt.li/ とOxford米語 /ˈkɑːn.sɪ.kwent.li/ の差は、第2音節の /ə/ と /ɪ/、および第3音節の /kwənt/ と /kwent/ である。一方、この説明は「第2音節と後半」とだけ述べ、各辞書のどの記号がどう異なるかを列挙していないため、示した複数転写の差分を完全に扱えていない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "米語転写の辞書間差を具体化し、Cambridgeの第2音節 /ə/・第3音節 /kwənt/ とOxfordの /ɪ/・/kwent/ を対応づけて明記する。英語転写は両辞書で同じであることも併記する。"
+    }
+  ]
+}

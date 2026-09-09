@@ -1,0 +1,660 @@
+{
+  "schema_version": "content_audit_v4",
+  "generated_by": "generate_audit_manifest_v1",
+  "entry_path": "entries/c/consequently.md",
+  "cycle_id": "20260909T021224Z-f618aa9f",
+  "cycle_dir": "audits/runs/c/consequently/20260909T021224Z-f618aa9f",
+  "body_sha256": "23329760d3d9cb045d4edda70223bd380de1685d5ebd089e1d2f2578ce3c94ae",
+  "raw_outputs": {
+    "source_inventory": {
+      "path": "audits/runs/c/consequently/20260909T021224Z-f618aa9f/source_inventory.json",
+      "sha256": "bad5d8e9e488f146a079aecef165cc72716e979e0dadff48d81e485809f5ddd8",
+      "stage": "source_inventory",
+      "run_id": "source-consequently-20260909T021224Z-f618aa9f",
+      "context_id": "source-consequently-context-20260909T021224Z-f618aa9f",
+      "input_body_sha256": "23329760d3d9cb045d4edda70223bd380de1685d5ebd089e1d2f2578ce3c94ae",
+      "prompt_sha256": "a5172ff43a877d1434d7396c9e545bd40fb15b4af21b0dc74624088e6bca0b45",
+      "recorded_at": "2026-09-09T02:20:00Z"
+    },
+    "normal_review": {
+      "path": "audits/runs/c/consequently/20260909T021224Z-f618aa9f/pass_findings.json",
+      "sha256": "9c52be81c17aa1610366ef77fe2eb9d5a79680e2c632c694e61c33d1b18847db",
+      "stage": "normal_review",
+      "run_id": "normal-consequently-20260909T021224Z-f618aa9f",
+      "context_id": "normal-consequently-context-20260909T021224Z-f618aa9f",
+      "input_body_sha256": "bfd615520d08ca8ffe1289c11b66e47dd876aabff126d7400418a6fd69ada0fd",
+      "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
+      "recorded_at": "2026-09-09T02:26:05.405483+00:00"
+    },
+    "cold_review": {
+      "path": "audits/runs/c/consequently/20260909T021224Z-f618aa9f/cold_review.json",
+      "sha256": "f47db51c6aadf5fe8129a0f19be4299ff144ccdff5e27bc010659400dd19987b",
+      "stage": "cold_review",
+      "run_id": "cold-consequently-20260909T021224Z-f618aa9f",
+      "context_id": "cold-consequently-context-20260909T021224Z-f618aa9f",
+      "input_body_sha256": "bfd615520d08ca8ffe1289c11b66e47dd876aabff126d7400418a6fd69ada0fd",
+      "prompt_sha256": "25c298d1a4305746147791bd442cd725a92737c8f0802b992ea88e5c6ff76a5d",
+      "recorded_at": "2026-09-09T02:30:46.800135+00:00"
+    },
+    "resolutions": {
+      "path": "audits/runs/c/consequently/20260909T021224Z-f618aa9f/resolutions.json",
+      "sha256": "3a3a1fed0804c69472fd06937e8ed606953b87a27557511ff709540d4b3869fc",
+      "stage": "resolutions",
+      "run_id": "resolution-consequently-20260909T021224Z-f618aa9f",
+      "context_id": "resolution-consequently-context-20260909T021224Z-f618aa9f",
+      "input_body_sha256": "23329760d3d9cb045d4edda70223bd380de1685d5ebd089e1d2f2578ce3c94ae",
+      "prompt_sha256": "7dfcaa0a828a334dbb84d1d31ed97312d0a9661a7aca70a7815a9f88b31ea2f1",
+      "recorded_at": "2026-09-09T04:04:00Z"
+    },
+    "final_blind": {
+      "path": "audits/runs/c/consequently/20260909T021224Z-f618aa9f/final_blind.json",
+      "sha256": "c0a3eb07fa10a8615eda514de66ee135a31363a89a240dfe694a989038f62416",
+      "stage": "final_blind",
+      "run_id": "blind-consequently-20260909T021224Z-f618aa9f",
+      "context_id": "blind-consequently-context-20260909T021224Z-f618aa9f",
+      "input_body_sha256": "23329760d3d9cb045d4edda70223bd380de1685d5ebd089e1d2f2578ce3c94ae",
+      "prompt_sha256": "3a481b4b5b1236ff386e148bcacc574570b305e79f5e155e9afcd34091f7785c",
+      "recorded_at": "2026-09-09T04:03:30.949140+00:00"
+    },
+    "blind_seal": {
+      "path": "audits/runs/c/consequently/20260909T021224Z-f618aa9f/blind_seal.json",
+      "sha256": "2a209bd412ecb80eafcfd5ec9653e05f1a90e95e84c907a318875eafdc8c5e75",
+      "stage": "blind_seal"
+    },
+    "final_review": {
+      "path": "audits/runs/c/consequently/20260909T021224Z-f618aa9f/final_review.json",
+      "sha256": "818736cf232ae05315f4a5b5f98676762c0cb3383c91a34595ad40093086c846",
+      "stage": "final_review",
+      "run_id": "blind-consequently-20260909T021224Z-f618aa9f",
+      "context_id": "blind-consequently-context-20260909T021224Z-f618aa9f",
+      "input_body_sha256": "23329760d3d9cb045d4edda70223bd380de1685d5ebd089e1d2f2578ce3c94ae",
+      "prompt_sha256": "5fa21ad0e8186e05e00c459e6201d7062a5d550a003831b40e182ba27c7a625a",
+      "recorded_at": "2026-09-09T07:40:05.210141+00:00"
+    }
+  },
+  "source_first_audit": {
+    "version": "source_first_audit_v2",
+    "profile": "standard",
+    "profile_reason": "bounded default profile",
+    "limits": {
+      "max_sources": 6,
+      "max_facts": 48,
+      "max_research_rounds": 2,
+      "max_post_cold_rechecks": null,
+      "max_final_attempts": 2
+    },
+    "usage": {
+      "sources_used": 5,
+      "facts_used": 10,
+      "research_rounds_used": 1,
+      "post_cold_rechecks_used": 0,
+      "final_attempts_used": 1
+    },
+    "research_status": "complete",
+    "stop_reason": "coverage_axes_closed",
+    "open_questions": [],
+    "inventory_completed_before_article_comparison": true,
+    "inventory_completed_at": "2026-09-08T18:06:13.884074-07:00",
+    "article_comparison_started_at": "2026-09-08T18:06:13.925826-07:00",
+    "coverage_axes": [
+      {
+        "axis": "lexical_senses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F001",
+          "F003",
+          "F005"
+        ],
+        "notes": "Three independent learner/general dictionaries give the causal-result sense."
+      },
+      {
+        "axis": "part_of_speech_and_frames",
+        "status": "covered",
+        "source_fact_ids": [
+          "F001",
+          "F003",
+          "F006"
+        ],
+        "notes": "The sources identify an adverb and illustrate sentence-initial and clause-internal placement."
+      },
+      {
+        "axis": "derived_and_related_forms",
+        "status": "covered",
+        "source_fact_ids": [
+          "F007",
+          "F008",
+          "F009",
+          "F010"
+        ],
+        "notes": "Directly attested related forms cover the article's word-formation note."
+      },
+      {
+        "axis": "specialist_and_legal_uses",
+        "status": "not_applicable",
+        "source_fact_ids": [],
+        "notes": "The consulted dictionaries record no separate specialist or legal sense for the headword."
+      },
+      {
+        "axis": "register_region_and_frequency",
+        "status": "covered",
+        "source_fact_ids": [
+          "F003",
+          "F005"
+        ],
+        "notes": "Oxford places the word in its effect/cause language-bank material; Merriam-Webster lists it with causal-result synonyms."
+      },
+      {
+        "axis": "pronunciation_and_etymology",
+        "status": "covered",
+        "source_fact_ids": [
+          "F002",
+          "F004",
+          "F007"
+        ],
+        "notes": "Oxford and Cambridge provide regional IPA, and Etymonline supplies the consequent/consequi lineage."
+      }
+    ],
+    "sources": [
+      {
+        "id": "S001",
+        "title": "Cambridge Dictionary — consequently",
+        "locator": "https://dictionary.cambridge.org/dictionary/english/consequently",
+        "source_type": "learner_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "cambridge_university_press",
+        "facts": [
+          {
+            "id": "F001",
+            "form": "consequently",
+            "kind": "lexical_sense",
+            "statement": "Consequently is an adverb meaning as a result or therefore.",
+            "source_detail": "The headword definition gives ‘as a result’ and ‘as a result; therefore’."
+          },
+          {
+            "id": "F002",
+            "form": "consequently",
+            "kind": "pronunciation",
+            "statement": "Cambridge gives UK /ˈkɒn.sɪ.kwənt.li/ and US /ˈkɑːn.sə.kwənt.li/.",
+            "source_detail": "The pronunciation entry displays the two regional IPA forms."
+          }
+        ]
+      },
+      {
+        "id": "S002",
+        "title": "Oxford Advanced Learner's Dictionary — consequently",
+        "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/consequently",
+        "source_type": "learner_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "oxford_university_press",
+        "facts": [
+          {
+            "id": "F003",
+            "form": "consequently",
+            "kind": "lexical_sense",
+            "statement": "Consequently means as a result or therefore and is used to describe an effect.",
+            "source_detail": "The sole adverb sense gives ‘as a result; therefore’ and its language-bank section is headed ‘Describing the effect of something’."
+          },
+          {
+            "id": "F004",
+            "form": "consequently",
+            "kind": "pronunciation",
+            "statement": "Oxford gives British /ˈkɒnsɪkwəntli/ and American /ˈkɑːnsɪkwentli/.",
+            "source_detail": "The entry prints separate British and North American IPA forms."
+          },
+          {
+            "id": "F006",
+            "form": "consequently",
+            "kind": "grammar_frame",
+            "statement": "Consequently can occur after a coordinator or in a copular clause before a complement.",
+            "source_detail": "Oxford illustrates ‘and consequently to human health’ and ‘was consequently unable to start’."
+          }
+        ]
+      },
+      {
+        "id": "S003",
+        "title": "Merriam-Webster — consequently",
+        "locator": "https://www.merriam-webster.com/dictionary/consequently",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "merriam_webster",
+        "facts": [
+          {
+            "id": "F005",
+            "form": "consequently",
+            "kind": "lexical_sense",
+            "statement": "Consequently means as a result, in view of what has been stated, or accordingly.",
+            "source_detail": "The definition explicitly gives these three formulations."
+          }
+        ]
+      },
+      {
+        "id": "S004",
+        "title": "Etymonline — consequent",
+        "locator": "https://www.etymonline.com/word/consequent",
+        "source_type": "etymology_dictionary",
+        "source_role": "etymology_reference",
+        "independence_group": "etymonline",
+        "facts": [
+          {
+            "id": "F007",
+            "form": "consequently",
+            "kind": "etymology",
+            "statement": "Consequently is related to consequent, from Latin consequi ‘to follow after’, formed from com- and sequi ‘to follow’.",
+            "source_detail": "The consequent entry gives the Latin formation and explicitly lists Consequently as related."
+          },
+          {
+            "id": "F010",
+            "form": "consequent",
+            "kind": "derived_form",
+            "statement": "Consequent is an adjective for something following as an effect or result.",
+            "source_detail": "The source defines consequent as following or resulting and identifies it as related to consequently."
+          }
+        ]
+      },
+      {
+        "id": "S005",
+        "title": "Oxford Advanced Learner's Dictionary — consequential and consequence",
+        "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/consequential",
+        "source_type": "learner_dictionary",
+        "source_role": "supporting_lexicon",
+        "independence_group": "oxford_university_press",
+        "facts": [
+          {
+            "id": "F008",
+            "form": "consequential",
+            "kind": "derived_form",
+            "statement": "Consequential is a formal adjective that can mean resulting or important with important results.",
+            "source_detail": "Oxford records both the resultant sense and the ‘important’ sense."
+          },
+          {
+            "id": "F009",
+            "form": "consequence",
+            "kind": "derived_form",
+            "statement": "Consequence is a noun for a result; plural consequences often suggests adverse results.",
+            "source_detail": "Oxford's consequence entry states the result sense and its tendency toward negative results."
+          }
+        ]
+      }
+    ],
+    "source_union": [
+      {
+        "id": "U001",
+        "source_fact_ids": [
+          "F001",
+          "F003",
+          "F005"
+        ],
+        "canonical_statement": "Consequently is an adverb that marks a result or conclusion following from stated circumstances.",
+        "disposition": "included",
+        "rationale": "This is the article's sole lexical sense."
+      },
+      {
+        "id": "U002",
+        "source_fact_ids": [
+          "F002",
+          "F004"
+        ],
+        "canonical_statement": "The word has distinct British and American vowel realizations in the first two syllables.",
+        "disposition": "included",
+        "rationale": "The regional IPA is stated in the pronunciation section."
+      },
+      {
+        "id": "U003",
+        "source_fact_ids": [
+          "F006"
+        ],
+        "canonical_statement": "Consequently can occur inside a clause as well as in result-linking sentence position.",
+        "disposition": "included",
+        "rationale": "The article teaches clause-internal placement with attested patterns."
+      },
+      {
+        "id": "U004",
+        "source_fact_ids": [
+          "F007"
+        ],
+        "canonical_statement": "The word derives through consequent from the Latin follow-after verb consequi.",
+        "disposition": "included",
+        "rationale": "This supports the compact etymology."
+      },
+      {
+        "id": "U005",
+        "source_fact_ids": [
+          "F008"
+        ],
+        "canonical_statement": "Consequential is a related adjective and is not the causal connective adverb consequently.",
+        "disposition": "included",
+        "rationale": "This contrast prevents a common form-based confusion."
+      },
+      {
+        "id": "U006",
+        "source_fact_ids": [
+          "F009"
+        ],
+        "canonical_statement": "Consequence is a related result noun whose plural often has negative-result associations.",
+        "disposition": "included",
+        "rationale": "This is a directly supported word-formation note."
+      },
+      {
+        "id": "U007",
+        "source_fact_ids": [
+          "F010"
+        ],
+        "canonical_statement": "Consequent is a related adjective for something that follows as an effect or result.",
+        "disposition": "included",
+        "rationale": "This supports the related-form entry."
+      }
+    ],
+    "claim_units": [
+      {
+        "id": "C001",
+        "union_ids": [
+          "U001"
+        ],
+        "subject_form": "consequently",
+        "claim_type": "definition",
+        "statement": "It introduces a result rather than a merely later event.",
+        "article_target_ids": [
+          "sense-1-definition",
+          "sense-1-usage"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F001",
+            "support_summary": "Cambridge defines the adverb as ‘as a result’."
+          },
+          {
+            "source_fact_id": "F003",
+            "support_summary": "Oxford defines it as ‘as a result; therefore’."
+          },
+          {
+            "source_fact_id": "F005",
+            "support_summary": "Merriam-Webster includes ‘in view of the foregoing’."
+          }
+        ]
+      },
+      {
+        "id": "C002",
+        "union_ids": [
+          "U002"
+        ],
+        "subject_form": "consequently",
+        "claim_type": "pronunciation",
+        "statement": "British and American pronunciation differ in the first and second syllable vowels.",
+        "article_target_ids": [
+          "pronunciation"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F002",
+            "support_summary": "Cambridge supplies separate UK and US IPA forms."
+          },
+          {
+            "source_fact_id": "F004",
+            "support_summary": "Oxford independently supplies British and American IPA."
+          }
+        ]
+      },
+      {
+        "id": "C003",
+        "union_ids": [
+          "U003"
+        ],
+        "subject_form": "consequently",
+        "claim_type": "grammar_frame",
+        "statement": "It can modify a clause internally, including after a coordinator and before a complement.",
+        "article_target_ids": [
+          "sense-1-patterns",
+          "sense-1-collocations"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F006",
+            "support_summary": "Oxford examples attest both clause-internal placements."
+          }
+        ]
+      },
+      {
+        "id": "C004",
+        "union_ids": [
+          "U004"
+        ],
+        "subject_form": "consequently",
+        "claim_type": "etymology",
+        "statement": "Its history is tied to the idea of following after.",
+        "article_target_ids": [
+          "etymology"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F007",
+            "support_summary": "Etymonline traces consequent to Latin consequi ‘follow after’."
+          }
+        ]
+      },
+      {
+        "id": "C005",
+        "union_ids": [
+          "U005"
+        ],
+        "subject_form": "consequential",
+        "claim_type": "derived_form",
+        "statement": "Consequential is an adjective with resultant and important senses.",
+        "article_target_ids": [
+          "word-formation"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F008",
+            "support_summary": "Oxford records both adjectival senses."
+          }
+        ]
+      },
+      {
+        "id": "C006",
+        "union_ids": [
+          "U006"
+        ],
+        "subject_form": "consequence",
+        "claim_type": "derived_form",
+        "statement": "Consequence is a related result noun and its plural often suggests negative results.",
+        "article_target_ids": [
+          "word-formation"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F009",
+            "support_summary": "Oxford gives the noun sense and the plural association."
+          }
+        ]
+      },
+      {
+        "id": "C007",
+        "union_ids": [
+          "U007"
+        ],
+        "subject_form": "consequent",
+        "claim_type": "derived_form",
+        "statement": "Consequent is a related adjective for an effect or result that follows.",
+        "article_target_ids": [
+          "word-formation"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F010",
+            "support_summary": "The source describes consequent as following as an effect or result."
+          }
+        ]
+      }
+    ]
+  },
+  "findings": [
+    {
+      "id": "CHECK-EVID-001",
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "pronunciation",
+        "line_start": 15,
+        "line_end": 15,
+        "exact_quote": "さらに米語では第2音節が /ə/、英語では /ɪ/ となる。"
+      },
+      "severity": "blocking",
+      "rationale": "C002/U002 の根拠は地域別IPAを示すが、F002（Cambridge）は米語第2音節を /ə/ とする一方、F004（Oxford）は米語を /ˈkɑːnsɪkwentli/ と記録する。本文はこの食い違いを示さず、米語第2音節 /ə/ を無条件に断定しているため、提示された根拠集合からこの主張を直接支持できない。",
+      "evidence_link_ids": [
+        "F002",
+        "F004"
+      ],
+      "suggested_direction": "Cambridgeの表記に帰属させるか、両資料に共通して支持される地域差の記述へ主張を限定する。",
+      "origin": "check_pass:evidence"
+    },
+    {
+      "id": "CHECK-EVID-002",
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "etymology",
+        "line_start": 19,
+        "line_end": 19,
+        "exact_quote": "形容詞 `consequent` に副詞語尾 `-ly` が付いた語である。`consequent` はラテン語 *consequi*「あとに従う、続いて起こる」にさかのぼり、`con-`「ともに」と *sequi*「従う」に関係する。"
+      },
+      "severity": "blocking",
+      "rationale": "C004/F007 は consequently が consequent に関連し、ラテン語 consequi（follow after）、com-、sequi（follow）へつながることを支持する。しかし提示されたfactは consequent + -ly という語形成、または `con-` が「ともに」を意味することを記録していない。本文はF007が直接支持する範囲を超えている。",
+      "evidence_link_ids": [
+        "F007"
+      ],
+      "suggested_direction": "F007が直接記録する consequent と consequi『follow after』の関係に限定するか、形態素と日本語グロスを直接支持する根拠へ差し替える。",
+      "origin": "check_pass:evidence"
+    },
+    {
+      "id": "COLD-001",
+      "location": "発音記号",
+      "severity": "high",
+      "description": "米語第2音節を /ə/、英語第2音節を /ɪ/ と一律に対比し、さらに quent の母音はいずれも /ə/ と断定している。発音辞書には米語を /ɪ/、quent を /e/ と表記するものもあり得るため、この説明だけを唯一の発音規則として学ばせるのは不正確になり得る。",
+      "reason": "「米語は第1音節が /ɑː/、英語は /ɒ/ で、さらに米語では第2音節が /ə/、英語では /ɪ/ となる。`quent` の母音はいずれも弱く /ə/ と発音する。」は、本文に示した一組のIPAを地域差一般として断定している。実際の辞書表記には第2音節・quent 部分に揺れがあり得るので、学習者が /ə/ と /ɪ/ の対立を常に守るべき規則だと誤解するおそれがある。",
+      "suggested_direction": "採用した辞書・表記体系を明示するか、「辞書により米語の第2音節や quent 部分の表記に揺れがある」と注記して、地域差を単一の絶対規則として説明しない。",
+      "scope_anchors": [
+        {
+          "id": "COLD-001-A1",
+          "exact_quote": "米語は第1音節が /ɑː/、英語は /ɒ/ で、さらに米語では第2音節が /ə/、英語では /ɪ/ となる。`quent` の母音はいずれも弱く /ə/ と発音する。",
+          "location_hint": "発音記号節の2文目から3文目"
+        }
+      ],
+      "origin": "cold_review"
+    },
+    {
+      "id": "COLD-002",
+      "location": "語形成",
+      "severity": "medium",
+      "description": "consequential を「重要な、重大な」に限定し、consequently と対比して因果関係をつなぐ語ではないと述べると、結果として続くという consequential の別の語義・用法との関係が見えなくなる。",
+      "reason": "「・`consequential`：形容詞。「重要な、重大な」。`consequently` と違い、因果関係をつなぐ副詞ではない。」は、品詞の違いを説明する意図は分かるものの、consequential にも「結果として生じる・続く」という語義がある点を落としている。そのため、学習者はこの語が consequence / consequent と共有する結果に関する意味を持たないと一般化しかねない。",
+      "suggested_direction": "「重要な、重大な」を主要な現代用法として示すなら、結果として生じる意味もあることを補い、consequently とは『因果をつなぐ副詞ではなく形容詞である』と品詞・機能の差に限定して対比する。",
+      "scope_anchors": [
+        {
+          "id": "COLD-002-A1",
+          "exact_quote": "・`consequential`：形容詞。「重要な、重大な」。`consequently` と違い、因果関係をつなぐ副詞ではない。",
+          "location_hint": "語形成節の consequential 項目"
+        }
+      ],
+      "origin": "cold_review"
+    },
+    {
+      "id": "COLD-003",
+      "location": "意味・用法・関連表現／文法パターン",
+      "severity": "low",
+      "description": "主語の直後・主要動詞の前という語順を基本形として示すだけでは、助動詞・完了形・受動態のある文で consequently を置く位置を狭く覚えさせやすい。後段に be の例はあるが、パターン説明自体が包括的ではない。",
+      "reason": "「`〈主語〉 + consequently + 〈動詞句〉`＝その結果〈主語〉は…する。文頭で使うときは通常後ろにコンマを置き、二つの独立した節をコンマだけでつなぐ `…, consequently, …` は避ける。」は、consequently の文中位置を主語直後・主要動詞前に固定的に読める形で提示している。実際には助動詞・be・完了形などに応じた位置もあるため、このパターンだけを一般規則とすると誤用につながり得る。",
+      "suggested_direction": "「主語の後、主要動詞の前」は一例・よくある位置として示し、助動詞や be の後にも置けることを短く補足するか、文中配置のパターンを複数提示する。",
+      "scope_anchors": [
+        {
+          "id": "COLD-003-A1",
+          "exact_quote": "`〈主語〉 + consequently + 〈動詞句〉`＝その結果〈主語〉は…する。文頭で使うときは通常後ろにコンマを置き、二つの独立した節をコンマだけでつなぐ `…, consequently, …` は避ける。",
+          "location_hint": "意味・用法・関連表現節の文法パターン"
+        },
+        {
+          "id": "COLD-003-A2",
+          "exact_quote": "用途: 結果を表す副詞として、主語の後、主要動詞の前に置く。",
+          "location_hint": "コロケーションの〈主語〉 + consequently + 〈動詞句〉項目"
+        }
+      ],
+      "origin": "cold_review"
+    }
+  ],
+  "resolutions": [
+    {
+      "id": "CHECK-EVID-001",
+      "finding_id": "CHECK-EVID-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Cambridge と Oxford の米語IPA表記の差を併記し、単一の地域規則としての断定を削除した。",
+      "resolved_body_sha256": "23329760d3d9cb045d4edda70223bd380de1685d5ebd089e1d2f2578ce3c94ae"
+    },
+    {
+      "id": "CHECK-EVID-002",
+      "finding_id": "CHECK-EVID-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "語源説明を consequent と Latin consequi の直接に支持された関係に限定した。",
+      "resolved_body_sha256": "23329760d3d9cb045d4edda70223bd380de1685d5ebd089e1d2f2578ce3c94ae"
+    },
+    {
+      "id": "COLD-001",
+      "finding_id": "COLD-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "採用辞書ごとのIPAを明示し、後半母音を一律に教える説明を削除した。",
+      "resolved_body_sha256": "23329760d3d9cb045d4edda70223bd380de1685d5ebd089e1d2f2578ce3c94ae"
+    },
+    {
+      "id": "COLD-002",
+      "finding_id": "COLD-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "consequential の結果として生じる語義と重要な結果を伴う語義を、既存の根拠に沿って追記した。",
+      "resolved_body_sha256": "23329760d3d9cb045d4edda70223bd380de1685d5ebd089e1d2f2578ce3c94ae"
+    },
+    {
+      "id": "COLD-003",
+      "finding_id": "COLD-003",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "文中配置を主語後だけに固定せず、be の後で補語の前に置く形も示した。",
+      "resolved_body_sha256": "23329760d3d9cb045d4edda70223bd380de1685d5ebd089e1d2f2578ce3c94ae"
+    }
+  ],
+  "final_decision": {
+    "decision": "pass",
+    "blockers": [],
+    "notes": [
+      "独立最終照合として、現行本文、封印済み final-blind 出力、source-first inventory、全 checker recheck の結合を確認した。",
+      "記録済みの checker/cold 指摘はすべて採用済み修正として現行本文に反映され、未解決の阻害事項はない。"
+    ],
+    "reviewed_at": "2026-09-09T07:40:05.210141+00:00",
+    "blind_output_sha256": "772b984433379e919865a919d92c83ed0eca97907eabee8c18310d60167a8bdd"
+  },
+  "workflow_revision": {
+    "schema_version": "workflow_revision_v1",
+    "artifacts": {
+      "pre_blind_resolution": {
+        "path": "audits/runs/c/consequently/20260909T021224Z-f618aa9f/pre_blind_resolution.json",
+        "sha256": "791aab170c264b7e1cdab54e1721aec395fabb94b475df406c15bbbd88f2422a"
+      },
+      "pre_blind_revision": {
+        "path": "audits/runs/c/consequently/20260909T021224Z-f618aa9f/pre_blind_revision.json",
+        "sha256": "a56f9a2f429a85e32da0ffbec4bd53ec71001e09c339e24659986c8b61e917dd"
+      },
+      "checker_recheck_manifest": {
+        "path": "audits/runs/c/consequently/20260909T021224Z-f618aa9f/checker_recheck_manifest.json",
+        "sha256": "3c5943f544c98325c9d2feeb35a1bee95f7719b8f063c5a10a0086950316a03e"
+      },
+      "post_blind_resolution": {
+        "path": "audits/runs/c/consequently/20260909T021224Z-f618aa9f/post_blind_resolution.json",
+        "sha256": "d570a60ac7a9e04e748cbf368df3a0142c9abc740713501b019f9f6c13bdcfa5"
+      },
+      "post_blind_verification": {
+        "path": "audits/runs/c/consequently/20260909T021224Z-f618aa9f/post_blind_verification.json",
+        "sha256": "d0ae8b481385480408c1d4cbc24399c5d404561af1ffef8326bf4c3108759d27"
+      }
+    },
+    "targeted_adjudications": []
+  },
+  "invalidated_by": [],
+  "review_liveness_errors": []
+}

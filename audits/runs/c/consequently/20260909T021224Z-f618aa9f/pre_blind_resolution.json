@@ -1,0 +1,45 @@
+{
+  "schema_version": "pre_blind_resolution_v1",
+  "resolutions": [
+    {
+      "id": "CHECK-EVID-001",
+      "finding_id": "CHECK-EVID-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Cambridge と Oxford の米語IPA表記の差を併記し、単一の地域規則としての断定を削除した。",
+      "resolved_body_sha256": "23329760d3d9cb045d4edda70223bd380de1685d5ebd089e1d2f2578ce3c94ae"
+    },
+    {
+      "id": "CHECK-EVID-002",
+      "finding_id": "CHECK-EVID-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "語源説明を consequent と Latin consequi の直接に支持された関係に限定した。",
+      "resolved_body_sha256": "23329760d3d9cb045d4edda70223bd380de1685d5ebd089e1d2f2578ce3c94ae"
+    },
+    {
+      "id": "COLD-001",
+      "finding_id": "COLD-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "採用辞書ごとのIPAを明示し、後半母音を一律に教える説明を削除した。",
+      "resolved_body_sha256": "23329760d3d9cb045d4edda70223bd380de1685d5ebd089e1d2f2578ce3c94ae"
+    },
+    {
+      "id": "COLD-002",
+      "finding_id": "COLD-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "consequential の結果として生じる語義と重要な結果を伴う語義を、既存の根拠に沿って追記した。",
+      "resolved_body_sha256": "23329760d3d9cb045d4edda70223bd380de1685d5ebd089e1d2f2578ce3c94ae"
+    },
+    {
+      "id": "COLD-003",
+      "finding_id": "COLD-003",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "文中配置を主語後だけに固定せず、be の後で補語の前に置く形も示した。",
+      "resolved_body_sha256": "23329760d3d9cb045d4edda70223bd380de1685d5ebd089e1d2f2578ce3c94ae"
+    }
+  ]
+}

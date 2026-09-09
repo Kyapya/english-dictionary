@@ -1,0 +1,186 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "qualification",
+  "taxonomy_ids": [
+    "regional_qualification",
+    "absolute_scope_counterexample",
+    "technical_terminology_conventionality"
+  ],
+  "specification": "prompts/check_pass_qualification_v6.md",
+  "input_body_sha256": "bfd615520d08ca8ffe1289c11b66e47dd876aabff126d7400418a6fd69ada0fd",
+  "input_sections": {
+    "etymology": [
+      {
+        "line": 17,
+        "text": "＃語源"
+      },
+      {
+        "line": 19,
+        "text": "形容詞 `consequent` に副詞語尾 `-ly` が付いた語である。`consequent` はラテン語 *consequi*「あとに従う、続いて起こる」にさかのぼり、`con-`「ともに」と *sequi*「従う」に関係する。  "
+      }
+    ],
+    "word_formation": [
+      {
+        "line": 21,
+        "text": "＃語形成"
+      },
+      {
+        "line": 23,
+        "text": "・`consequence`：名詞。「結果、影響」。特に複数形 `consequences` は好ましくない結果を指しやすい。  "
+      },
+      {
+        "line": 24,
+        "text": "・`consequent`：形容詞。ある出来事の結果として続くことを表す、ややフォーマルな語。  "
+      },
+      {
+        "line": 25,
+        "text": "・`consequential`：形容詞。「重要な、重大な」。`consequently` と違い、因果関係をつなぐ副詞ではない。  "
+      }
+    ],
+    "sense_structure": [
+      {
+        "line": 29,
+        "text": "1. 【副詞・文副詞／接続副詞】その結果、したがって"
+      },
+      {
+        "line": 31,
+        "text": "【日本語訳・定義】前に述べた事実・状況・判断を理由として、後に述べる結果が続くことを示す。単に出来事が後の時点で起こることではなく、前件から後件が結果として導かれることを表す。`so` よりフォーマルで、報告、説明、論証などで使われやすい。  "
+      }
+    ],
+    "frequency_register": [
+      {
+        "line": 29,
+        "text": "1. 【副詞・文副詞／接続副詞】その結果、したがって"
+      },
+      {
+        "line": 33,
+        "text": "【頻度】〈6/10〉  "
+      },
+      {
+        "line": 35,
+        "text": "【レジスター/領域】ややフォーマル。学術文、報告書、ニュース、論理的な説明でよく用いられる。  "
+      }
+    ],
+    "usage_notes": [
+      {
+        "line": 29,
+        "text": "1. 【副詞・文副詞／接続副詞】その結果、したがって"
+      },
+      {
+        "line": 66,
+        "text": "【語法・注意】`consequently` が示すのは因果関係であり、単なる時間順ではない。後に起きただけなら `subsequently`、次の手順を示すなら `then` を使う。`Because the road was closed, we took a detour.` のように原因を従属節で述べる形と違い、`consequently` は原因から帰結を示す副詞である。`The road was closed; consequently, we took a detour.` のようにピリオドまたはセミコロンで二つの独立節をつなぐのは代表的な書き方だが、`the application was consequently rejected` のように文中でも使える。  "
+      }
+    ],
+    "collocations_examples": [
+      {
+        "line": 29,
+        "text": "1. 【副詞・文副詞／接続副詞】その結果、したがって"
+      },
+      {
+        "line": 39,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 41,
+        "text": "・`Consequently, 〈結果の文〉`  "
+      },
+      {
+        "line": 42,
+        "text": "用途: 直前に述べた原因・根拠を受けて、文全体の結論や結果を明示する。  "
+      },
+      {
+        "line": 43,
+        "text": "例: The train service was suspended. Consequently, many employees worked from home.  "
+      },
+      {
+        "line": 44,
+        "text": "訳: 列車の運行が停止された。その結果、多くの従業員が在宅勤務をした。  "
+      },
+      {
+        "line": 46,
+        "text": "・`〈原因となる文〉; consequently, 〈結果の文〉`  "
+      },
+      {
+        "line": 47,
+        "text": "用途: 密接な因果関係にある二つの独立節を、セミコロンでつなぐフォーマルな書き方である。  "
+      },
+      {
+        "line": 48,
+        "text": "例: The evidence was incomplete; consequently, the committee postponed its decision.  "
+      },
+      {
+        "line": 49,
+        "text": "訳: 証拠が不十分だったため、委員会は決定を延期した。  "
+      },
+      {
+        "line": 51,
+        "text": "・`〈主語〉 + consequently + 〈動詞句〉`  "
+      },
+      {
+        "line": 52,
+        "text": "用途: 結果を表す副詞として、主語の後、主要動詞の前に置く。  "
+      },
+      {
+        "line": 53,
+        "text": "例: Demand fell sharply, and the company consequently reduced production.  "
+      },
+      {
+        "line": 54,
+        "text": "訳: 需要が急減したため、その会社は結果として生産を減らした。  "
+      },
+      {
+        "line": 56,
+        "text": "・`be consequently + 〈過去分詞・形容詞〉`  "
+      },
+      {
+        "line": 57,
+        "text": "用途: 原因の結果として生じた状態や判断を、`be` の後で説明する。  "
+      },
+      {
+        "line": 58,
+        "text": "例: The deadline was missed, and the application was consequently rejected.  "
+      },
+      {
+        "line": 59,
+        "text": "訳: 締切に間に合わなかったため、その申請は結果として却下された。  "
+      },
+      {
+        "line": 61,
+        "text": "・`and consequently + 〈動詞句〉`  "
+      },
+      {
+        "line": 62,
+        "text": "用途: 一つの節の中で、前の節・句に示された事情の帰結として後続の行為や状態を示す。  "
+      },
+      {
+        "line": 63,
+        "text": "例: The region receives little rainfall and consequently faces frequent water shortages.  "
+      },
+      {
+        "line": 64,
+        "text": "訳: その地域は降雨量が少なく、その結果しばしば水不足に直面する。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "1cf8a434bbe1213c0ef739f4c47ffb41014ab2cd5156d297471af6df85ae40a2",
+  "source_artifact_sha256": "bcea85e6857e24d95179eec8199560c6b551bb2889d5dae928b29cda43626824",
+  "normalized_input_sha256": "9a3a86599a97c970e4bf098b1169bfbbcb38d9eae9f5358085a01495b2e8afb4"
+}

@@ -1,0 +1,83 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-sol",
+    "ingested_by": "human",
+    "agent_id": "recheck_examples_consequently_20260909T021224Z_f618aa9f"
+  },
+  "blind_attribution_record": {
+    "schema_version": "example_attribution_blind_record_v1",
+    "pass_id": "example-attribution",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5.6-sol",
+      "ingested_by": "human",
+      "agent_id": "recheck_examples_consequently_20260909T021224Z_f618aa9f"
+    },
+    "recorded_at": "2026-09-09T02:35:42Z",
+    "input_body_sha256": "23329760d3d9cb045d4edda70223bd380de1685d5ebd089e1d2f2578ce3c94ae",
+    "blind_request_sha256": "69716cb8a10a77f727573ffc9586c89ab916eff7f7fce167cd6264a3a4f30a1d",
+    "attributions": [
+      {
+        "example_id": "ex-2d9514ff92b8",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "was suspended. Consequently, many employees worked from home"
+        ],
+        "rationale": "“was suspended. Consequently, many employees worked from home” explicitly presents the latter clause as the result of the former. A merely temporal ‘after that’ reading is not supported, because the connective marks the suspension as the reason for working from home; the listed causal-result sense is therefore unique."
+      },
+      {
+        "example_id": "ex-a268ba8053de",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "the application was consequently rejected"
+        ],
+        "rationale": "In “the application was consequently rejected,” consequently links the missed deadline to the rejection as its outcome. A simple-sequence alternative would leave that causal link unexpressed, whereas this adverb directly marks it; only the causal-result sense fits."
+      },
+      {
+        "example_id": "ex-e0696ea08991",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "and consequently faces frequent water shortages"
+        ],
+        "rationale": "“and consequently faces frequent water shortages” makes facing shortages the consequence of receiving little rainfall. Reading consequently as only a later-time marker would not account for the result relation encoded between the two predicates, so the causal-result sense is uniquely selected."
+      },
+      {
+        "example_id": "ex-da6f989fefab",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "the company consequently reduced production"
+        ],
+        "rationale": "In “the company consequently reduced production,” the reduction is framed as the consequence of demand falling sharply. The plausible noncausal sequence reading is excluded because consequently itself establishes the demand-to-reduction relation; this uniquely realizes the causal-result sense."
+      },
+      {
+        "example_id": "ex-19cf2d6995f3",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "The evidence was incomplete; consequently, the committee postponed its decision"
+        ],
+        "rationale": "“The evidence was incomplete; consequently, the committee postponed its decision” explicitly casts the postponement as the result of incomplete evidence. It cannot be reduced to a neutral chronological transition, since consequently supplies the causal inference; the causal-result sense is the sole listed attribution."
+      }
+    ]
+  },
+  "aligned_at": "2026-09-09T02:35:43Z",
+  "findings": [],
+  "unrouted_observations": []
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "qualification",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-sol",
+    "agent_id": "recheck-qualification-20260909T021224Z-f618aa9f"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "absolute_scope_counterexample",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 66,
+        "line_end": 66,
+        "exact_quote": "`consequently` が示すのは因果関係であり、単なる時間順ではない。"
+      },
+      "severity": "blocking",
+      "rationale": "「因果関係」とだけすると、前の命題から論理的に結論・帰結を導く用法まで因果という必須条件に狭めてしまう。実際には、現実の出来事どうしの因果だけでなく、前述の事実・根拠からの推論上の帰結を示すこともある。単なる時間的な後続とは区別される、という対比自体は妥当である。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「因果関係」だけでなく「前述の事情・根拠からの結果または論理的帰結」のように対象を広げ、単なる時間順を示す副詞ではないという限定を残す。"
+    }
+  ]
+}

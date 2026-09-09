@@ -1,0 +1,24 @@
+{
+  "pass_id": "qualification",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "checker-qualification-9f3c72"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "absolute_scope_counterexample",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 66,
+        "line_end": 66,
+        "exact_quote": "【語法・注意】`consequently` が示すのは因果関係であり、単なる時間順ではない。後に起きただけなら `subsequently`、次の手順を示すなら `then` を使う。`Because the road was closed, we took a detour.` のように原因を従属節で述べる形と違い、`consequently` は原因と結果をそれぞれ独立した節として示す。`The road was closed; consequently, we took a detour.` のようにピリオドまたはセミコロンを用いる。  "
+      },
+      "severity": "blocking",
+      "rationale": "因果・推論上の帰結を示すという説明自体は妥当だが、`consequently` が原因と結果を常にそれぞれ独立した節として示すわけではない。文中で動詞・形容詞・前置詞句を修飾する位置にも置けるため、原因が別の独立節で明示されないフレームや、帰結側が独立節ではないフレームがある。直後のコロケーション欄にも文中配置を扱う項目があるので、この断定は用法範囲を不当に狭める。",
+      "evidence_link_ids": [],
+      "suggested_direction": "セミコロンまたはピリオドで二つの独立節を結ぶのは代表的な書き方の一つと限定し、文中で帰結を示す用法では原因・結果が同一文中の二つの独立節として現れないことも明記する。"
+    }
+  ]
+}

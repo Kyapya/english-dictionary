@@ -1,0 +1,73 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "sense-structure",
+  "taxonomy_ids": [
+    "sense_boundary_overlap",
+    "cross_section_internal_contradiction",
+    "compound_component_generalization"
+  ],
+  "specification": "prompts/check_pass_sense_structure_v6.md",
+  "input_body_sha256": "bfd615520d08ca8ffe1289c11b66e47dd876aabff126d7400418a6fd69ada0fd",
+  "input_sections": {
+    "core_image": [],
+    "sense_structure": [
+      {
+        "line": 29,
+        "text": "1. 【副詞・文副詞／接続副詞】その結果、したがって"
+      },
+      {
+        "line": 31,
+        "text": "【日本語訳・定義】前に述べた事実・状況・判断を理由として、後に述べる結果が続くことを示す。単に出来事が後の時点で起こることではなく、前件から後件が結果として導かれることを表す。`so` よりフォーマルで、報告、説明、論証などで使われやすい。  "
+      }
+    ],
+    "usage_notes": [
+      {
+        "line": 29,
+        "text": "1. 【副詞・文副詞／接続副詞】その結果、したがって"
+      },
+      {
+        "line": 66,
+        "text": "【語法・注意】`consequently` が示すのは因果関係であり、単なる時間順ではない。後に起きただけなら `subsequently`、次の手順を示すなら `then` を使う。`Because the road was closed, we took a detour.` のように原因を従属節で述べる形と違い、`consequently` は原因から帰結を示す副詞である。`The road was closed; consequently, we took a detour.` のようにピリオドまたはセミコロンで二つの独立節をつなぐのは代表的な書き方だが、`the application was consequently rejected` のように文中でも使える。  "
+      }
+    ],
+    "word_formation": [
+      {
+        "line": 21,
+        "text": "＃語形成"
+      },
+      {
+        "line": 23,
+        "text": "・`consequence`：名詞。「結果、影響」。特に複数形 `consequences` は好ましくない結果を指しやすい。  "
+      },
+      {
+        "line": 24,
+        "text": "・`consequent`：形容詞。ある出来事の結果として続くことを表す、ややフォーマルな語。  "
+      },
+      {
+        "line": 25,
+        "text": "・`consequential`：形容詞。「重要な、重大な」。`consequently` と違い、因果関係をつなぐ副詞ではない。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "a815b90fbc456e2bc194220ee0f3bfa164790bbb6e1f2f740144ac62bb03b87c",
+  "source_artifact_sha256": "bcea85e6857e24d95179eec8199560c6b551bb2889d5dae928b29cda43626824",
+  "normalized_input_sha256": "b9bfdb1ba22c13a74cafb739ec663e59f7125d9c44dce0653727f22d8f80816f"
+}

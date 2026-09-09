@@ -1,0 +1,82 @@
+{
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "checker-example-attribution-82bec0a9-a1"
+  },
+  "blind_attribution_record": {
+    "schema_version": "example_attribution_blind_record_v1",
+    "pass_id": "example-attribution",
+    "input_body_sha256": "69edce949e95966c0c65d679533e5e1fb0c7ffc717fcd59249f13b8fdc603720",
+    "blind_request_sha256": "2e9b31a02cb11d156ab02b3722207928ffe70be9498352171dea614c1297cce6",
+    "recorded_at": "2026-09-09T01:09:37Z",
+    "attributions": [
+      {
+        "example_id": "ex-4e62bac34aec",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "The train service was suspended",
+          "Consequently, many employees worked from home"
+        ],
+        "rationale": "The sentence explicitly presents suspension as the antecedent and employees working from home as its resulting consequence, which realizes sense:001's causal-result connective relation. No other sense is supplied as a plausible competing reading; a merely temporal 'afterward' reading would not express that the suspension leads to the work arrangement."
+      },
+      {
+        "example_id": "ex-fd21a4832fe9",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "Demand fell sharply",
+          "consequently reduced production"
+        ],
+        "rationale": "The company action is framed as a consequence of the demand fall, directly matching the causal-result relation of sense:001. No competing listed sense is available; a temporal-sequence reading would fail to account for the reduction being presented as following from, rather than simply occurring after, the fall."
+      },
+      {
+        "example_id": "ex-4f252819b6b6",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "receives little rainfall",
+          "consequently faces frequent water shortages"
+        ],
+        "rationale": "Little rainfall is the stated cause and facing water shortages is the stated result, so the headword has sense:001's inferential causal function. No other supplied sense competes; a chronological reading cannot capture the persistent causal link encoded between the two clauses."
+      },
+      {
+        "example_id": "ex-1a403ee00526",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "The evidence was incomplete",
+          "consequently, the committee postponed its decision"
+        ],
+        "rationale": "The incomplete evidence licenses the committee's postponement as its result, which is exactly sense:001. No alternative listed sense is a viable competitor; an 'after that' interpretation would omit the causal justification carried by consequently."
+      },
+      {
+        "example_id": "ex-cfa831304e2b",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "The deadline was missed",
+          "was consequently rejected"
+        ],
+        "rationale": "The missed deadline is explicitly the basis for rejection, and consequently links that antecedent to its result as in sense:001. There is no competing supplied sense; a bare temporal interpretation would not make the missed deadline the reason for rejection."
+      }
+    ]
+  },
+  "aligned_at": null,
+  "alignment_status": "pending_withheld_alignment_key",
+  "findings": [],
+  "unrouted_observations": []
+}

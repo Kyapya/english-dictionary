@@ -1,0 +1,25 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "translation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "consequently-translation-checker-20260909-82bec0a9"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 89,
+        "line_end": 89,
+        "exact_quote": "訳: 試料が汚染されていたため、したがって分析できなかった。  "
+      },
+      "severity": "minor",
+      "rationale": "英文の and thus は汚染を理由、分析不能を結果として一度だけ結ぶ。訳文は「ため」と「したがって」で同じ因果関係を二重に標示しており、日本語として不自然である。因果の方向・主体・結果自体は保存されているため、局所的な訳文調整で足りる。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「試料が汚染されていたため、分析できなかった」または「試料が汚染されていた。したがって、分析できなかった」のように、因果標識を一つにする。"
+    }
+  ]
+}

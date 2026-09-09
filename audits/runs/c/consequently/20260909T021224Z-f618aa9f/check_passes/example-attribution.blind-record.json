@@ -1,0 +1,75 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "input_body_sha256": "bfd615520d08ca8ffe1289c11b66e47dd876aabff126d7400418a6fd69ada0fd",
+  "blind_request_sha256": "6e2276b191f0c1fd64fec8a4040003cb34aabb62557a4280b2987df6b4a5b372",
+  "recorded_at": "2026-09-09T02:20:05.000Z",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "consequently-example-attribution-checker-20260909"
+  },
+  "attributions": [
+    {
+      "example_id": "ex-f767a03494db",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "Demand fell sharply",
+        "consequently reduced production"
+      ],
+      "rationale": "「Demand fell sharply」と「consequently reduced production」が需要急減を前件、減産を帰結として結ぶため sense:001 が一意に自然である。単なる後続時点を示す subsequently/then 的な読みでは、減産が需要急減から導かれるという同じ文内の結果関係を表せない。"
+    },
+    {
+      "example_id": "ex-975eb656016f",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "The deadline was missed",
+        "application was consequently rejected"
+      ],
+      "rationale": "「The deadline was missed」と「application was consequently rejected」が締切不履行を理由、申請却下を帰結として連結するため sense:001 が一意に自然である。単なる時間的な後続を表す読みでは、却下が締切不履行の結果として示されるこの構文関係を説明できない。"
+    },
+    {
+      "example_id": "ex-626810ae87f4",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "receives little rainfall",
+        "consequently faces frequent water shortages"
+      ],
+      "rationale": "「receives little rainfall」と「consequently faces frequent water shortages」が少雨を前件、水不足に直面することを帰結として結ぶため sense:001 が一意に自然である。単に後に水不足が起きるという時間順の読みでは、少雨から水不足へ至る結果関係を担う副詞の働きにならない。"
+    },
+    {
+      "example_id": "ex-df19cd38f4d1",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "The evidence was incomplete",
+        "consequently, the committee postponed its decision"
+      ],
+      "rationale": "「The evidence was incomplete」と「consequently, the committee postponed its decision」が不完全な証拠を理由、決定延期を帰結として接続するので sense:001 が一意に自然である。then のような次の手順・時点を示す読みでは、延期が証拠不十分から導かれる関係を表せない。"
+    },
+    {
+      "example_id": "ex-7f32ad2a3e0d",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "The train service was suspended",
+        "Consequently, many employees worked from home"
+      ],
+      "rationale": "「The train service was suspended」と「Consequently, many employees worked from home」が列車運休を前件、在宅勤務を帰結として結ぶため sense:001 が一意に自然である。subsequently のように単なる出来事の順序を示す読みでは、在宅勤務が運休を受けた結果であるという同一文脈の意味関係を表せない。"
+    }
+  ]
+}

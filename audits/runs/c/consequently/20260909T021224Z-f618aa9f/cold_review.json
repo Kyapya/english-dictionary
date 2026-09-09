@@ -1,0 +1,73 @@
+{
+  "summary": "問題候補あり。発音説明が辞書間・話者間にあり得る表記差を断定しており、派生語 consequential の説明も結果に関する語義を落としている。いずれも学習者が不正確な一般化をするおそれがある。",
+  "findings": [
+    {
+      "id": "COLD-001",
+      "location": "発音記号",
+      "severity": "high",
+      "description": "米語第2音節を /ə/、英語第2音節を /ɪ/ と一律に対比し、さらに quent の母音はいずれも /ə/ と断定している。発音辞書には米語を /ɪ/、quent を /e/ と表記するものもあり得るため、この説明だけを唯一の発音規則として学ばせるのは不正確になり得る。",
+      "reason": "「米語は第1音節が /ɑː/、英語は /ɒ/ で、さらに米語では第2音節が /ə/、英語では /ɪ/ となる。`quent` の母音はいずれも弱く /ə/ と発音する。」は、本文に示した一組のIPAを地域差一般として断定している。実際の辞書表記には第2音節・quent 部分に揺れがあり得るので、学習者が /ə/ と /ɪ/ の対立を常に守るべき規則だと誤解するおそれがある。",
+      "suggested_direction": "採用した辞書・表記体系を明示するか、「辞書により米語の第2音節や quent 部分の表記に揺れがある」と注記して、地域差を単一の絶対規則として説明しない。",
+      "scope_anchors": [
+        {
+          "id": "COLD-001-A1",
+          "exact_quote": "米語は第1音節が /ɑː/、英語は /ɒ/ で、さらに米語では第2音節が /ə/、英語では /ɪ/ となる。`quent` の母音はいずれも弱く /ə/ と発音する。",
+          "location_hint": "発音記号節の2文目から3文目"
+        }
+      ]
+    },
+    {
+      "id": "COLD-002",
+      "location": "語形成",
+      "severity": "medium",
+      "description": "consequential を「重要な、重大な」に限定し、consequently と対比して因果関係をつなぐ語ではないと述べると、結果として続くという consequential の別の語義・用法との関係が見えなくなる。",
+      "reason": "「・`consequential`：形容詞。「重要な、重大な」。`consequently` と違い、因果関係をつなぐ副詞ではない。」は、品詞の違いを説明する意図は分かるものの、consequential にも「結果として生じる・続く」という語義がある点を落としている。そのため、学習者はこの語が consequence / consequent と共有する結果に関する意味を持たないと一般化しかねない。",
+      "suggested_direction": "「重要な、重大な」を主要な現代用法として示すなら、結果として生じる意味もあることを補い、consequently とは『因果をつなぐ副詞ではなく形容詞である』と品詞・機能の差に限定して対比する。",
+      "scope_anchors": [
+        {
+          "id": "COLD-002-A1",
+          "exact_quote": "・`consequential`：形容詞。「重要な、重大な」。`consequently` と違い、因果関係をつなぐ副詞ではない。",
+          "location_hint": "語形成節の consequential 項目"
+        }
+      ]
+    },
+    {
+      "id": "COLD-003",
+      "location": "意味・用法・関連表現／文法パターン",
+      "severity": "low",
+      "description": "主語の直後・主要動詞の前という語順を基本形として示すだけでは、助動詞・完了形・受動態のある文で consequently を置く位置を狭く覚えさせやすい。後段に be の例はあるが、パターン説明自体が包括的ではない。",
+      "reason": "「`〈主語〉 + consequently + 〈動詞句〉`＝その結果〈主語〉は…する。文頭で使うときは通常後ろにコンマを置き、二つの独立した節をコンマだけでつなぐ `…, consequently, …` は避ける。」は、consequently の文中位置を主語直後・主要動詞前に固定的に読める形で提示している。実際には助動詞・be・完了形などに応じた位置もあるため、このパターンだけを一般規則とすると誤用につながり得る。",
+      "suggested_direction": "「主語の後、主要動詞の前」は一例・よくある位置として示し、助動詞や be の後にも置けることを短く補足するか、文中配置のパターンを複数提示する。",
+      "scope_anchors": [
+        {
+          "id": "COLD-003-A1",
+          "exact_quote": "`〈主語〉 + consequently + 〈動詞句〉`＝その結果〈主語〉は…する。文頭で使うときは通常後ろにコンマを置き、二つの独立した節をコンマだけでつなぐ `…, consequently, …` は避ける。",
+          "location_hint": "意味・用法・関連表現節の文法パターン"
+        },
+        {
+          "id": "COLD-003-A2",
+          "exact_quote": "用途: 結果を表す副詞として、主語の後、主要動詞の前に置く。",
+          "location_hint": "コロケーションの〈主語〉 + consequently + 〈動詞句〉項目"
+        }
+      ]
+    }
+  ],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "cold-reviewer-f618aa9f"
+  },
+  "schema_version": "cold_review_v1",
+  "stage": "cold_review",
+  "run_id": "cold-consequently-20260909T021224Z-f618aa9f",
+  "context_id": "cold-consequently-context-20260909T021224Z-f618aa9f",
+  "input_body_sha256": "bfd615520d08ca8ffe1289c11b66e47dd876aabff126d7400418a6fd69ada0fd",
+  "prompt_sha256": "25c298d1a4305746147791bd442cd725a92737c8f0802b992ea88e5c6ff76a5d",
+  "input_artifacts": [
+    "entry_body",
+    "cold_review_prompt"
+  ],
+  "audit_visible": false,
+  "recorded_at": "2026-09-09T02:30:46.800135+00:00"
+}

@@ -1,0 +1,85 @@
+{
+  "schema_version": "final_blind_v2",
+  "stage": "final_blind",
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "independent-candidate-1",
+      "surface_form": "consequently",
+      "frame": "Consequently, clause; clause; consequently, clause",
+      "meaning": "前件として述べられた事実・状況・判断から、後件が結果または論理的帰結として導かれることを示す文副詞・接続副詞",
+      "disposition": "included",
+      "rationale": "Consequently, clause; clause; consequently, clause は、先行する命題を根拠・原因として後続の命題を結果又は帰結として提示する同一の文接続的用法である。",
+      "semantic_assertions": [
+        {
+          "id": "assertion-1",
+          "statement": "後件は前件との単なる時間的な前後関係ではなく、前件から生じる結果又は論理的帰結として解釈されなければならない。",
+          "polarity": "must_hold",
+          "scope": "前置された consequently とセミコロン後の consequently が結ぶ二つの命題"
+        },
+        {
+          "id": "assertion-2",
+          "statement": "consequently は後件の内容全体を、先行命題に照らした結果・帰結として位置づけなければならない。",
+          "polarity": "must_hold",
+          "scope": "文頭又はセミコロン後に置かれる consequently"
+        }
+      ]
+    },
+    {
+      "id": "independent-candidate-2",
+      "surface_form": "consequently",
+      "frame": "subject + consequently + verb phrase; subject + be + consequently + complement; verb phrase 1 and consequently + verb phrase 2",
+      "meaning": "前に示された事情・出来事を原因又は根拠として、その節内の行為・状態・判断を結果又は帰結として示す副詞",
+      "disposition": "included",
+      "rationale": "subject + consequently + verb phrase; subject + be + consequently + complement; verb phrase 1 and consequently + verb phrase 2 は、いずれも先行する事情に対する結果として節内の述語又は補語を修飾する同一の因果的副詞用法である。",
+      "semantic_assertions": [
+        {
+          "id": "assertion-3",
+          "statement": "修飾される行為・状態・判断は、文脈又は同じ文の先行内容に示される事情の結果として理解されなければならない。",
+          "polarity": "must_hold",
+          "scope": "動詞前、be の後、又は and の後に置かれる consequently"
+        },
+        {
+          "id": "assertion-4",
+          "statement": "この用法は出来事の単なる後続時点だけを表してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "節内の consequently"
+        }
+      ]
+    },
+    {
+      "id": "independent-candidate-3",
+      "surface_form": "consequently",
+      "frame": "temporal-adverb use meaning 'afterwards' or 'later'",
+      "meaning": "単に時間的に後で起きることを示す副詞",
+      "disposition": "excluded",
+      "rationale": "temporal-adverb use meaning 'afterwards' or 'later' は consequent の因果・帰結関係を要求せず、consequently の主要な意味範囲には含めない。",
+      "semantic_assertions": [
+        {
+          "id": "assertion-5",
+          "statement": "先行事実と後続事実の時間順序だけで用法が成立してはならず、結果又は論理的帰結の関係が必要である。",
+          "polarity": "must_not_hold",
+          "scope": "consequently の意味範囲"
+        }
+      ]
+    }
+  ],
+  "article_findings": [],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-sol",
+    "ingested_by": "human",
+    "agent_id": "final-blind-consequently-f618aa9f",
+    "same_model_as_generation": true
+  },
+  "run_id": "blind-consequently-20260909T021224Z-f618aa9f",
+  "context_id": "blind-consequently-context-20260909T021224Z-f618aa9f",
+  "input_body_sha256": "23329760d3d9cb045d4edda70223bd380de1685d5ebd089e1d2f2578ce3c94ae",
+  "prompt_sha256": "3a481b4b5b1236ff386e148bcacc574570b305e79f5e155e9afcd34091f7785c",
+  "input_artifacts": [
+    "entry_body",
+    "final_blind_prompt"
+  ],
+  "audit_visible": false,
+  "recorded_at": "2026-09-09T04:03:30.949140+00:00"
+}
