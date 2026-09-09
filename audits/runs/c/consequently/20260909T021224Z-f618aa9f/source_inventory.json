@@ -1,0 +1,430 @@
+{
+  "schema_version": "source_inventory_v2",
+  "stage": "source_inventory",
+  "headword": "consequently",
+  "run_id": "source-consequently-20260909T021224Z-f618aa9f",
+  "context_id": "source-consequently-context-20260909T021224Z-f618aa9f",
+  "input_body_sha256": "bfd615520d08ca8ffe1289c11b66e47dd876aabff126d7400418a6fd69ada0fd",
+  "prompt_sha256": "a5172ff43a877d1434d7396c9e545bd40fb15b4af21b0dc74624088e6bca0b45",
+  "input_artifacts": [
+    "headword",
+    "source_first_spec"
+  ],
+  "recorded_at": "2026-09-09T02:20:00Z",
+  "source_first_audit": {
+    "version": "source_first_audit_v2",
+    "profile": "standard",
+    "profile_reason": "bounded default profile",
+    "limits": {
+      "max_sources": 6,
+      "max_facts": 48,
+      "max_research_rounds": 2,
+      "max_post_cold_rechecks": null,
+      "max_final_attempts": 2
+    },
+    "usage": {
+      "sources_used": 5,
+      "facts_used": 10,
+      "research_rounds_used": 1,
+      "post_cold_rechecks_used": 0,
+      "final_attempts_used": 0
+    },
+    "research_status": "complete",
+    "stop_reason": "coverage_axes_closed",
+    "open_questions": [],
+    "inventory_completed_before_article_comparison": true,
+    "inventory_completed_at": "2026-09-08T18:06:13.884074-07:00",
+    "article_comparison_started_at": "2026-09-08T18:06:13.925826-07:00",
+    "coverage_axes": [
+      {
+        "axis": "lexical_senses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F001",
+          "F003",
+          "F005"
+        ],
+        "notes": "Three independent learner/general dictionaries give the causal-result sense."
+      },
+      {
+        "axis": "part_of_speech_and_frames",
+        "status": "covered",
+        "source_fact_ids": [
+          "F001",
+          "F003",
+          "F006"
+        ],
+        "notes": "The sources identify an adverb and illustrate sentence-initial and clause-internal placement."
+      },
+      {
+        "axis": "derived_and_related_forms",
+        "status": "covered",
+        "source_fact_ids": [
+          "F007",
+          "F008",
+          "F009",
+          "F010"
+        ],
+        "notes": "Directly attested related forms cover the article's word-formation note."
+      },
+      {
+        "axis": "specialist_and_legal_uses",
+        "status": "not_applicable",
+        "source_fact_ids": [],
+        "notes": "The consulted dictionaries record no separate specialist or legal sense for the headword."
+      },
+      {
+        "axis": "register_region_and_frequency",
+        "status": "covered",
+        "source_fact_ids": [
+          "F003",
+          "F005"
+        ],
+        "notes": "Oxford places the word in its effect/cause language-bank material; Merriam-Webster lists it with causal-result synonyms."
+      },
+      {
+        "axis": "pronunciation_and_etymology",
+        "status": "covered",
+        "source_fact_ids": [
+          "F002",
+          "F004",
+          "F007"
+        ],
+        "notes": "Oxford and Cambridge provide regional IPA, and Etymonline supplies the consequent/consequi lineage."
+      }
+    ],
+    "sources": [
+      {
+        "id": "S001",
+        "title": "Cambridge Dictionary — consequently",
+        "locator": "https://dictionary.cambridge.org/dictionary/english/consequently",
+        "source_type": "learner_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "cambridge_university_press",
+        "facts": [
+          {
+            "id": "F001",
+            "form": "consequently",
+            "kind": "lexical_sense",
+            "statement": "Consequently is an adverb meaning as a result or therefore.",
+            "source_detail": "The headword definition gives ‘as a result’ and ‘as a result; therefore’."
+          },
+          {
+            "id": "F002",
+            "form": "consequently",
+            "kind": "pronunciation",
+            "statement": "Cambridge gives UK /ˈkɒn.sɪ.kwənt.li/ and US /ˈkɑːn.sə.kwənt.li/.",
+            "source_detail": "The pronunciation entry displays the two regional IPA forms."
+          }
+        ]
+      },
+      {
+        "id": "S002",
+        "title": "Oxford Advanced Learner's Dictionary — consequently",
+        "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/consequently",
+        "source_type": "learner_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "oxford_university_press",
+        "facts": [
+          {
+            "id": "F003",
+            "form": "consequently",
+            "kind": "lexical_sense",
+            "statement": "Consequently means as a result or therefore and is used to describe an effect.",
+            "source_detail": "The sole adverb sense gives ‘as a result; therefore’ and its language-bank section is headed ‘Describing the effect of something’."
+          },
+          {
+            "id": "F004",
+            "form": "consequently",
+            "kind": "pronunciation",
+            "statement": "Oxford gives British /ˈkɒnsɪkwəntli/ and American /ˈkɑːnsɪkwentli/.",
+            "source_detail": "The entry prints separate British and North American IPA forms."
+          },
+          {
+            "id": "F006",
+            "form": "consequently",
+            "kind": "grammar_frame",
+            "statement": "Consequently can occur after a coordinator or in a copular clause before a complement.",
+            "source_detail": "Oxford illustrates ‘and consequently to human health’ and ‘was consequently unable to start’."
+          }
+        ]
+      },
+      {
+        "id": "S003",
+        "title": "Merriam-Webster — consequently",
+        "locator": "https://www.merriam-webster.com/dictionary/consequently",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "merriam_webster",
+        "facts": [
+          {
+            "id": "F005",
+            "form": "consequently",
+            "kind": "lexical_sense",
+            "statement": "Consequently means as a result, in view of what has been stated, or accordingly.",
+            "source_detail": "The definition explicitly gives these three formulations."
+          }
+        ]
+      },
+      {
+        "id": "S004",
+        "title": "Etymonline — consequent",
+        "locator": "https://www.etymonline.com/word/consequent",
+        "source_type": "etymology_dictionary",
+        "source_role": "etymology_reference",
+        "independence_group": "etymonline",
+        "facts": [
+          {
+            "id": "F007",
+            "form": "consequently",
+            "kind": "etymology",
+            "statement": "Consequently is related to consequent, from Latin consequi ‘to follow after’, formed from com- and sequi ‘to follow’.",
+            "source_detail": "The consequent entry gives the Latin formation and explicitly lists Consequently as related."
+          },
+          {
+            "id": "F010",
+            "form": "consequent",
+            "kind": "derived_form",
+            "statement": "Consequent is an adjective for something following as an effect or result.",
+            "source_detail": "The source defines consequent as following or resulting and identifies it as related to consequently."
+          }
+        ]
+      },
+      {
+        "id": "S005",
+        "title": "Oxford Advanced Learner's Dictionary — consequential and consequence",
+        "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/consequential",
+        "source_type": "learner_dictionary",
+        "source_role": "supporting_lexicon",
+        "independence_group": "oxford_university_press",
+        "facts": [
+          {
+            "id": "F008",
+            "form": "consequential",
+            "kind": "derived_form",
+            "statement": "Consequential is a formal adjective that can mean resulting or important with important results.",
+            "source_detail": "Oxford records both the resultant sense and the ‘important’ sense."
+          },
+          {
+            "id": "F009",
+            "form": "consequence",
+            "kind": "derived_form",
+            "statement": "Consequence is a noun for a result; plural consequences often suggests adverse results.",
+            "source_detail": "Oxford's consequence entry states the result sense and its tendency toward negative results."
+          }
+        ]
+      }
+    ],
+    "source_union": [
+      {
+        "id": "U001",
+        "source_fact_ids": [
+          "F001",
+          "F003",
+          "F005"
+        ],
+        "canonical_statement": "Consequently is an adverb that marks a result or conclusion following from stated circumstances.",
+        "disposition": "included",
+        "rationale": "This is the article's sole lexical sense."
+      },
+      {
+        "id": "U002",
+        "source_fact_ids": [
+          "F002",
+          "F004"
+        ],
+        "canonical_statement": "The word has distinct British and American vowel realizations in the first two syllables.",
+        "disposition": "included",
+        "rationale": "The regional IPA is stated in the pronunciation section."
+      },
+      {
+        "id": "U003",
+        "source_fact_ids": [
+          "F006"
+        ],
+        "canonical_statement": "Consequently can occur inside a clause as well as in result-linking sentence position.",
+        "disposition": "included",
+        "rationale": "The article teaches clause-internal placement with attested patterns."
+      },
+      {
+        "id": "U004",
+        "source_fact_ids": [
+          "F007"
+        ],
+        "canonical_statement": "The word derives through consequent from the Latin follow-after verb consequi.",
+        "disposition": "included",
+        "rationale": "This supports the compact etymology."
+      },
+      {
+        "id": "U005",
+        "source_fact_ids": [
+          "F008"
+        ],
+        "canonical_statement": "Consequential is a related adjective and is not the causal connective adverb consequently.",
+        "disposition": "included",
+        "rationale": "This contrast prevents a common form-based confusion."
+      },
+      {
+        "id": "U006",
+        "source_fact_ids": [
+          "F009"
+        ],
+        "canonical_statement": "Consequence is a related result noun whose plural often has negative-result associations.",
+        "disposition": "included",
+        "rationale": "This is a directly supported word-formation note."
+      },
+      {
+        "id": "U007",
+        "source_fact_ids": [
+          "F010"
+        ],
+        "canonical_statement": "Consequent is a related adjective for something that follows as an effect or result.",
+        "disposition": "included",
+        "rationale": "This supports the related-form entry."
+      }
+    ],
+    "claim_units": [
+      {
+        "id": "C001",
+        "union_ids": [
+          "U001"
+        ],
+        "subject_form": "consequently",
+        "claim_type": "definition",
+        "statement": "It introduces a result rather than a merely later event.",
+        "article_target_ids": [
+          "sense-1-definition",
+          "sense-1-usage"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F001",
+            "support_summary": "Cambridge defines the adverb as ‘as a result’."
+          },
+          {
+            "source_fact_id": "F003",
+            "support_summary": "Oxford defines it as ‘as a result; therefore’."
+          },
+          {
+            "source_fact_id": "F005",
+            "support_summary": "Merriam-Webster includes ‘in view of the foregoing’."
+          }
+        ]
+      },
+      {
+        "id": "C002",
+        "union_ids": [
+          "U002"
+        ],
+        "subject_form": "consequently",
+        "claim_type": "pronunciation",
+        "statement": "British and American pronunciation differ in the first and second syllable vowels.",
+        "article_target_ids": [
+          "pronunciation"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F002",
+            "support_summary": "Cambridge supplies separate UK and US IPA forms."
+          },
+          {
+            "source_fact_id": "F004",
+            "support_summary": "Oxford independently supplies British and American IPA."
+          }
+        ]
+      },
+      {
+        "id": "C003",
+        "union_ids": [
+          "U003"
+        ],
+        "subject_form": "consequently",
+        "claim_type": "grammar_frame",
+        "statement": "It can modify a clause internally, including after a coordinator and before a complement.",
+        "article_target_ids": [
+          "sense-1-patterns",
+          "sense-1-collocations"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F006",
+            "support_summary": "Oxford examples attest both clause-internal placements."
+          }
+        ]
+      },
+      {
+        "id": "C004",
+        "union_ids": [
+          "U004"
+        ],
+        "subject_form": "consequently",
+        "claim_type": "etymology",
+        "statement": "Its history is tied to the idea of following after.",
+        "article_target_ids": [
+          "etymology"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F007",
+            "support_summary": "Etymonline traces consequent to Latin consequi ‘follow after’."
+          }
+        ]
+      },
+      {
+        "id": "C005",
+        "union_ids": [
+          "U005"
+        ],
+        "subject_form": "consequential",
+        "claim_type": "derived_form",
+        "statement": "Consequential is an adjective with resultant and important senses.",
+        "article_target_ids": [
+          "word-formation"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F008",
+            "support_summary": "Oxford records both adjectival senses."
+          }
+        ]
+      },
+      {
+        "id": "C006",
+        "union_ids": [
+          "U006"
+        ],
+        "subject_form": "consequence",
+        "claim_type": "derived_form",
+        "statement": "Consequence is a related result noun and its plural often suggests negative results.",
+        "article_target_ids": [
+          "word-formation"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F009",
+            "support_summary": "Oxford gives the noun sense and the plural association."
+          }
+        ]
+      },
+      {
+        "id": "C007",
+        "union_ids": [
+          "U007"
+        ],
+        "subject_form": "consequent",
+        "claim_type": "derived_form",
+        "statement": "Consequent is a related adjective for an effect or result that follows.",
+        "article_target_ids": [
+          "word-formation"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F010",
+            "support_summary": "The source describes consequent as following as an effect or result."
+          }
+        ]
+      }
+    ]
+  }
+}
+
