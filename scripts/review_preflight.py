@@ -10,14 +10,13 @@ from pathlib import Path
 
 import content_audit
 import generate_audit_manifest as audit
+import review_validation
 
+# Keep dispatched v1 packet bindings compatible; the execution policy is versioned
+# separately in review_recovery.POLICY_VERSION.
 VERSION = "review_preflight_v1"
-FINAL_INPUTS = (
-    "pass_findings", "cold_review", "final_blind", "blind_seal",
-    "pre_blind_resolution", "pre_blind_revision", "checker_recheck_manifest",
-    "post_blind_resolution", "post_blind_verification", "targeted_adjudications",
-    "source_inventory", "resolutions",
-)
+FINAL_INPUTS = review_validation.FINAL_INPUTS
+PreflightError = review_validation.PreflightError
 
 
 def digest(value: object) -> str:
@@ -33,69 +32,28 @@ def freeze(path: Path, value: dict) -> None:
 
 
 def final_inputs(entry: Path, cycle: Path, root: Path) -> dict:
-    missing = [name for name in FINAL_INPUTS if not (cycle / (name + ".json")).is_file()]
-    if missing:
-        raise ValueError("final review input missing: " + ", ".join(missing))
+    report = review_validation.final_input_report(entry, cycle, root)
+    if not report["valid"]:
+        raise PreflightError(report)
     values = {name: json.loads((cycle / (name + ".json")).read_text()) for name in FINAL_INPUTS}
     body_hash = audit.body_sha256(entry)
-    if values["final_blind"].get("input_body_sha256") != body_hash:
-        raise ValueError("final blind references an old body")
-    seal = values["blind_seal"]
-    if seal.get("final_blind_sha256") != hashlib.sha256((cycle / "final_blind.json").read_bytes()).hexdigest():
-        raise ValueError("blind seal references a different raw output")
-    import workflow_revision
-    errors = workflow_revision.validate_recheck_manifest(values["checker_recheck_manifest"], current_body_sha256=body_hash)
-    current_source = values["source_inventory"]
-    for result in values["checker_recheck_manifest"].get("pass_results", []):
-        if result.get("source_artifact_sha256") != digest(current_source.get("source_first_audit")):
-            errors.append(f"{result.get('pass_id')}: source changed since checker verification; verify against the fixed current source before final review")
-    for path in sorted((cycle / "check_passes").glob("*.request.json")):
-        # Stage-specific request binding is also enforced by the original ingester.
-        request = json.loads(path.read_text())
-        snapshot_path = cycle / "check_passes" / "input_snapshot.json"
-        if snapshot_path.exists():
-            snapshot = json.loads(snapshot_path.read_text())
-            expected = snapshot["request_hashes"].get(request.get("pass_id"))
-            if path.name == f"{request.get('pass_id')}.request.json" and expected != digest(request):
-                errors.append("original checker request was rewritten: " + path.name)
-    if errors:
-        raise ValueError("; ".join(errors))
-    # Require the actual immutable bytes in an ancestor before calling the reviewer.
-    relative = cycle.relative_to(root).as_posix()
-    import subprocess
-    history = subprocess.check_output(["git", "-C", str(root), "rev-list", "HEAD", "--", relative + "/blind_seal.json"], text=True).splitlines()
-    sealed = False
-    for sha in history:
-        if all(audit._git_file_at(sha, relative + "/" + name + ".json", root) == (cycle / (name + ".json")).read_bytes() for name in ("final_blind", "blind_seal")) and audit._git_file_at(sha, relative + "/final_review.json", root) is None:
-            sealed = True
-            break
-    if not sealed:
-        raise ValueError("commit final_blind and blind_seal before preparing final review")
     targets = content_audit.extract_targets(entry)
     relations = content_audit.extract_relations(targets)
     source = values["source_inventory"]
-    if not isinstance(source.get("source_first_audit"), dict) or not isinstance(source["source_first_audit"].get("source_union"), list):
-        raise ValueError("source union must be explicitly present, including when empty")
-    for value, field in ((values["pass_findings"], "independent_candidates"), (values["pass_findings"], "pass_outputs"), (values["cold_review"], "findings"), (values["final_blind"], "independent_candidates"), (values["final_blind"], "article_findings")):
-        if not isinstance(value.get(field), list):
-            raise ValueError(field + " must be explicitly present, including when empty")
-    findings = [row for output in values["pass_findings"].get("pass_outputs", []) for row in output.get("findings", [])]
-    findings += values["cold_review"].get("findings", []) + values["final_blind"].get("article_findings", [])
+    findings = [row for output in values["pass_findings"]["pass_outputs"] for row in output["findings"]]
+    findings += values["cold_review"]["findings"] + values["final_blind"]["article_findings"]
     inventories = {
         "target_results": targets,
         "relation_results": relations,
-        "normal_candidate_results": values["pass_findings"].get("independent_candidates", []),
-        "blind_candidate_results": values["final_blind"].get("independent_candidates", []),
+        "normal_candidate_results": values["pass_findings"]["independent_candidates"],
+        "blind_candidate_results": values["final_blind"]["independent_candidates"],
         "finding_results": findings,
-        "evidence_checks": [{"id": item} for item in source.get("evidence_link_ids", [])],
+        "evidence_checks": [{"id": item} for item in source["evidence_link_ids"]],
         "source_inventory_results": source["source_first_audit"]["source_union"],
     }
     template = {"decision": None, "blockers": [], "notes": []}
     typed_ids = {"target_results": "target_id", "relation_results": "relation_id", "source_inventory_results": "union_id"}
     for field, rows in inventories.items():
-        ids = [row["id"] for row in rows]
-        if len(set(ids)) != len(ids):
-            raise ValueError("duplicate IDs in " + field)
         template[field] = []
         for row in rows:
             result = {"id": row["id"], "status": None, "notes": ""}
@@ -117,12 +75,27 @@ def final_inputs(entry: Path, cycle: Path, root: Path) -> dict:
 
 
 def check_bindings(packet: dict, entry: Path, cycle: Path) -> None:
-    if packet.get("_output_metadata", {}).get("input_body_sha256") != audit.body_sha256(entry):
-        raise ValueError("review input body changed after dispatch")
-    for name, expected in packet.get("input_bindings", {}).items():
+    errors: list[dict] = []
+    expected_body = packet.get("_output_metadata", {}).get("input_body_sha256")
+    actual_body = audit.body_sha256(entry)
+    if expected_body != actual_body:
+        errors.append(review_validation.issue("body_changed_after_dispatch", "entry_body", "review input body changed after dispatch", expected=expected_body, actual=actual_body))
+    bindings = packet.get("input_bindings", {})
+    if not isinstance(bindings, dict):
+        errors.append(review_validation.issue("invalid_bindings", "input_bindings", "input_bindings must be an object"))
+        bindings = {}
+    for name, expected in bindings.items():
+        if not isinstance(name, str):
+            errors.append(review_validation.issue("invalid_binding_path", "input_bindings", "binding path must be a string"))
+            continue
         path = cycle / name
-        if not path.resolve().is_relative_to(cycle.resolve()) or not path.is_file() or hashlib.sha256(path.read_bytes()).hexdigest() != expected:
-            raise ValueError("review input changed after dispatch: " + name)
+        actual = None
+        if path.resolve().is_relative_to(cycle.resolve()) and path.is_file():
+            actual = hashlib.sha256(path.read_bytes()).hexdigest()
+        if actual is None or actual != expected:
+            errors.append(review_validation.issue("input_changed_after_dispatch", name, "review input changed after dispatch: " + name, expected=expected, actual=actual))
+    if errors:
+        raise PreflightError({"valid": False, "errors": errors, "blocked_checks": []})
 
 
 def validate(manifest: dict, *, stage: str, declared_model: str, reviewer_agent_id: str | None, repo_root: Path, ingest) -> dict:
@@ -136,6 +109,10 @@ def validate(manifest: dict, *, stage: str, declared_model: str, reviewer_agent_
         raise ValueError("validate-review must target the pending stage")
     entry = repo_root / manifest["entry_path"]
     cycle = (repo_root / request["output_paths"][-1 if stage == "checker_passes" else 0]).parent
+    if stage == "final_review" and manifest.get("review_preflight") == VERSION:
+        report = review_validation.final_input_report(entry, cycle, repo_root)
+        if not report["valid"]:
+            raise PreflightError(report)
     packet_path = cycle / (stage + ".request.json")
     if packet_path.exists():
         packet = json.loads(packet_path.read_text())
