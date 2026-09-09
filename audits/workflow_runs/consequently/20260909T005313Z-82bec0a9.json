@@ -18,12 +18,12 @@
     "research_queries": 4,
     "candidate_pages": 6
   },
-  "status": "in_progress",
+  "status": "budget_exhausted",
   "stage": "source_inventory_complete",
   "started_at": "2026-09-09T00:53:13Z",
   "deadline_at": "2026-09-09T01:53:13Z",
   "pre_draft_deadline_at": "2026-09-09T01:13:13Z",
-  "last_heartbeat_at": "2026-09-09T01:06:51Z",
+  "last_heartbeat_at": "2026-09-09T01:15:45Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-09T00:55:31Z",
@@ -51,8 +51,11 @@
       "notes": "five-source bounded source inventory completed before checker comparison"
     }
   ],
-  "stop_reason": "",
-  "open_questions": [],
+  "stop_reason": "checker_passes handoff ingestion failed 3 times",
+  "open_questions": [
+    "last checker_passes ingestion error: blind_attribution_record.schema_version must be example_attribution_blind_record_v1; blind_attribution_record.recorded_at must be an aware ISO timestamp; blind_attribution_record.input_body_sha256 must be a sha256; blind_attribution_record.blind_request_sha256 must be a sha256; blind attribution body hash does not match its stage 1 request; blind attribution request hash does not match stage 1 input; blind_attribution_record.attributions must be a list",
+    "fix the handoff response contract before resuming this run"
+  ],
   "orchestrator": {
     "workflow_contract_version": "workflow_improvement_v1",
     "orchestrator_version": "run_word_v3",
@@ -546,7 +549,26 @@
         "recorded_at": "2026-09-09T00:58:41Z"
       }
     },
-    "pending_events": [],
+    "pending_events": [
+      {
+        "event_id": "pending:20260909T005313Z-82bec0a9:checker_passes:425bc67db8c8",
+        "knowledge_epoch": "pi2-2026-09-06",
+        "kind": "review_failure",
+        "stage": "checker_passes",
+        "fact": "API review execution requires reviewer mode api",
+        "status": "pending",
+        "recorded_at": "2026-09-09T01:08:07Z"
+      },
+      {
+        "event_id": "pending:20260909T005313Z-82bec0a9:checker_passes:7971a87717a6",
+        "knowledge_epoch": "pi2-2026-09-06",
+        "kind": "review_failure",
+        "stage": "checker_passes",
+        "fact": "blind_attribution_record.schema_version must be example_attribution_blind_record_v1; blind_attribution_record.recorded_at must be an aware ISO timestamp; blind_attribution_record.input_body_sha256 must be a sha256; blind_attribution_record.blind_request_sha256 must be a sha256; blind attribution body hash does not match its stage 1 request; blind attribution request hash does not match stage 1 input; blind_attribution_record.attributions must be a list",
+        "status": "pending",
+        "recorded_at": "2026-09-09T01:11:34Z"
+      }
+    ],
     "selection_errors": []
   },
   "metrics": {
@@ -760,5 +782,15 @@
     "mode": "connector"
   },
   "review_preflight": "review_preflight_v1",
-  "time_warnings": {}
+  "time_warnings": {},
+  "review_ingest_failures": {
+    "stage": "checker_passes",
+    "count": 3,
+    "last_error": "blind_attribution_record.schema_version must be example_attribution_blind_record_v1; blind_attribution_record.recorded_at must be an aware ISO timestamp; blind_attribution_record.input_body_sha256 must be a sha256; blind_attribution_record.blind_request_sha256 must be a sha256; blind attribution body hash does not match its stage 1 request; blind attribution request hash does not match stage 1 input; blind_attribution_record.attributions must be a list",
+    "last_failed_at": "2026-09-09T01:15:45Z"
+  },
+  "last_rejected_review": {
+    "fingerprint": "5b1a42262200de2a1ae31d91ec79ca91978bb79048043436ab8f2fdf27ef955a",
+    "error": "blind_attribution_record.schema_version must be example_attribution_blind_record_v1; blind_attribution_record.recorded_at must be an aware ISO timestamp; blind_attribution_record.input_body_sha256 must be a sha256; blind_attribution_record.blind_request_sha256 must be a sha256; blind attribution body hash does not match its stage 1 request; blind attribution request hash does not match stage 1 input; blind_attribution_record.attributions must be a list"
+  }
 }

@@ -1,0 +1,24 @@
+{
+  "pass_id": "pronunciation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "checker-pronunciation-20260909T005313Z-82bec0a9"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "pronunciation_symbol_explanation",
+      "location": {
+        "section": "pronunciation",
+        "line_start": 15,
+        "line_end": 15,
+        "exact_quote": "米: /ˈkɑːn.sə.kwənt.li/｜英: /ˈkɒn.sɪ.kwənt.li/。いずれも4音節で、第1音節に主強勢がある。米語では第2音節の母音が /ə/、英語では /ɪ/ となり、`quent` の母音は弱く /ə/ と発音する。  "
+      },
+      "severity": "blocking",
+      "rationale": "米英の表記には第2音節の /ə/ と /ɪ/ だけでなく、第1音節にも米 /ɑː/ と英 /ɒ/ の差がある。説明は第2音節の差のみを扱っており、提示された複数IPAの差分をすべて説明していない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "第1音節の母音（米 /ɑː/・英 /ɒ/）の変種差も明記し、両IPAの差分を漏れなく説明する。"
+    }
+  ]
+}
