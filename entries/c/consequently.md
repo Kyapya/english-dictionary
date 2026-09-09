@@ -1,12 +1,12 @@
 ---
 headword: consequently
 type: word
-status: draft
+status: checked
 prompt_version: entry_spec_v5
 model: gpt-5.6-sol
 created_at: 2026-09-09
 updated_at: 2026-09-09
-checked: false
+checked: true
 tags: []
 ---
 
