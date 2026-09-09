@@ -171,6 +171,25 @@ class EvidentInputRegressionTests(unittest.TestCase):
         call.assert_not_called()
         self.assertFalse(packet_path.exists())
 
+    def test_missing_original_snapshot_binding_is_reported(self):
+        snapshot_path = self.cycle / "check_passes/input_snapshot.json"
+        snapshot = read(snapshot_path)
+        removed = next(iter(snapshot["request_hashes"]))
+        del snapshot["request_hashes"][removed]
+        write(snapshot_path, snapshot)
+        report = self.report()
+        self.assertFalse(report["valid"])
+        self.assertTrue(any(e["code"] == "immutable_request_changed"
+                            and e["path"] == removed + ".request.json" for e in report["errors"]))
+
+    def test_explicit_bad_evidence_ids_are_not_treated_as_optional(self):
+        source = read(self.cycle / "source_inventory.json")
+        source["evidence_link_ids"] = None
+        write(self.cycle / "source_inventory.json", source)
+        report = self.report()
+        self.assertFalse(report["valid"])
+        self.assertTrue(any(e["code"] == "evidence_ids" for e in report["errors"]))
+
     def test_template_keeps_every_decision_unjudged(self):
         values = review_preflight.final_inputs(self.entry, self.cycle, self.root)
         template = values["response_template"]

@@ -11,6 +11,7 @@ from typing import Any
 
 import review_liveness
 import workflow_revision
+import review_validation
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -184,22 +185,9 @@ def _require_exact_results(
 def _validate_metadata(
     raw: dict[str, Any], stage: str, body_hash: str, expected_artifacts: set[str]
 ) -> None:
-    if raw.get("stage") != stage:
-        raise ValueError(f"{stage}: raw stage field must be {stage}")
-    for key in ("run_id", "context_id", "prompt_sha256", "recorded_at"):
-        if not str(raw.get(key, "")).strip():
-            raise ValueError(f"{stage}.{key} is required")
-    if raw.get("input_body_sha256") != body_hash:
-        raise ValueError(f"{stage}.input_body_sha256 is stale")
-    artifacts = raw.get("input_artifacts")
-    if not isinstance(artifacts, list) or set(artifacts) != expected_artifacts:
-        raise ValueError(
-            f"{stage}.input_artifacts must be exactly {sorted(expected_artifacts)}"
-        )
-    try:
-        datetime.fromisoformat(str(raw["recorded_at"]).replace("Z", "+00:00"))
-    except ValueError as exc:
-        raise ValueError(f"{stage}.recorded_at must be ISO-8601") from exc
+    errors = review_validation.metadata_errors(raw, stage, body_hash, expected_artifacts)
+    if errors:
+        raise ValueError("; ".join(row["message"] for row in errors))
 
 
 def _validate_workflow_improvement_artifacts(
@@ -210,6 +198,7 @@ def _validate_workflow_improvement_artifacts(
     current_hash: str,
     checker_and_cold_ids: set[str],
     final_blind_ids: set[str],
+    require_resolved: bool = False,
 ) -> dict[str, Any] | None:
     paths = {
         key: cycle_dir / filename
@@ -366,9 +355,9 @@ def _validate_workflow_improvement_artifacts(
             adjudication_ids.add(str(record.get("issue_id")))
         if record_errors:
             errors.extend(record_errors)
-        if workflow_revision.targeted_adjudication_blocks_pass(record) and raw[
-            "final_review"
-        ].get("decision") == "pass":
+        if workflow_revision.targeted_adjudication_blocks_pass(record) and (
+            require_resolved or raw.get("final_review", {}).get("decision") == "pass"
+        ):
             errors.append("insufficient or invalid targeted adjudication cannot pass")
     if adjudication_ids != required_targeted_ids:
         errors.append(
@@ -779,20 +768,12 @@ def generate_manifest(
             findings.append({**item, "origin": origin})
     finding_index = _index(findings, "all findings")
 
+    resolution_issues = review_validation.resolution_errors(
+        raw["resolutions"].get("resolutions"), set(finding_index), current_hash
+    )
+    if resolution_issues:
+        raise ValueError("; ".join(row["message"] for row in resolution_issues))
     resolutions = _index(raw["resolutions"].get("resolutions"), "resolutions")
-    if set(resolutions) != set(finding_index):
-        raise ValueError("resolutions must cover every finding exactly once")
-    for resolution_id, resolution in resolutions.items():
-        if resolution.get("finding_id") != resolution_id:
-            raise ValueError(f"resolution {resolution_id}.finding_id must equal its id")
-        if resolution.get("status") != "resolved":
-            raise ValueError(f"resolution {resolution_id}.status must be resolved")
-        if resolution.get("disposition") not in {"adopted", "rejected"}:
-            raise ValueError(f"resolution {resolution_id}.disposition is invalid")
-        if resolution.get("resolved_body_sha256") != current_hash:
-            raise ValueError(f"resolution {resolution_id} is stale")
-        if not str(resolution.get("rationale", "")).strip():
-            raise ValueError(f"resolution {resolution_id}.rationale is required")
 
     checker_and_cold_ids = {
         finding_id

@@ -218,6 +218,9 @@ def final_input_report(entry: Path, cycle: Path, root: Path, *,
                         ("final_blind", "independent_candidates"), ("final_blind", "article_findings")):
         label = name + "." + field
         collections[label] = index_rows(values[name].get(field), label, errors) if name in values else None
+    import check_passes
+    router = check_passes.load_router(root / "prompts/check_router_v6.md")
+    expected_passes = {row["id"] for row in router["passes"]}
     outputs = values.get("pass_findings", {}).get("pass_outputs")
     normal_findings: list[dict] = []
     normal_ready = isinstance(outputs, list)
@@ -239,16 +242,45 @@ def final_input_report(entry: Path, cycle: Path, root: Path, *,
             normal_ready = False
         else:
             normal_findings.extend(rows.values())
-            for rid, row in rows.items():
-                collect(f"pass_outputs[{i}].findings.{rid}", lambda row=row, rid=rid: audit._validate_finding(row, rid))
     if isinstance(outputs, list):
-        import check_passes
-        router = check_passes.load_router(root / "prompts/check_router_v6.md")
-        expected_passes = {row["id"] for row in router["passes"]}
         duplicate = sorted(pid for pid, count in Counter(pass_ids).items() if count > 1)
         if set(pass_ids) != expected_passes or duplicate:
             errors.append(issue("pass_coverage", "pass_findings.pass_outputs", "normal review must cover every routed pass exactly once",
                                 missing=sorted(expected_passes - set(pass_ids)), extra=sorted(set(pass_ids) - expected_passes), duplicates=duplicate))
+    # Checker findings use the router's native taxonomy, not the article-finding
+    # taxonomy. Reuse the same validator and provenance inputs as final audit.
+    def optional(relative: str) -> dict | None:
+        path = cycle / relative
+        return load(path, relative) if path.is_file() else None
+
+    attribution = optional("check_passes/example-attribution.request.json")
+    attribution_key = optional("check_passes/example-attribution.alignment-key.json")
+    antonym = optional("check_passes/frame-relation.request.json")
+    antonym_stage2 = optional("check_passes/frame-relation.antonym-axis.stage2.request.json")
+    antonym_key = optional("check_passes/frame-relation.antonym-axis.alignment-key.json")
+    provenance = not audit._is_historical_cycle(cycle) or any(
+        isinstance(values.get(name, {}).get("reviewer"), dict)
+        for name in ("cold_review", "final_blind")
+    ) or any(isinstance(row, dict) and isinstance(row.get("reviewer"), dict)
+             for row in (outputs if isinstance(outputs, list) else []))
+    generation_model = audit._entry_front_matter(entry).get("model")
+    for i, output in enumerate(outputs if isinstance(outputs, list) else []):
+        if not isinstance(output, dict) or output.get("pass_id") not in expected_passes:
+            continue
+        pid = output["pass_id"]
+        request = optional("check_passes/" + pid + ".request.json")
+        if pid == "frame-relation" and antonym_stage2 is not None:
+            request = antonym_stage2
+        collect(f"pass_outputs[{i}]", lambda output=output, request=request: check_passes.validate_pass_output(
+            output, router, entry_path=entry, repo_root=root,
+            example_request=attribution, alignment_key=attribution_key,
+            antonym_request=antonym, antonym_stage2_request=antonym_stage2,
+            antonym_alignment_key=antonym_key, request_payload=request,
+            check_liveness=False, generation_model=generation_model,
+            require_reviewer=provenance,
+            require_antonym_axis=("antonym_axis_blind_record" in output
+                                  or any(value is not None for value in (antonym, antonym_stage2, antonym_key))),
+        ))
     cold = collections.get("cold_review.findings")
     blind = collections.get("final_blind.article_findings")
     for name, rows, validator in (("cold_review.findings", cold, audit._validate_cold_finding),
@@ -276,10 +308,11 @@ def final_input_report(entry: Path, cycle: Path, root: Path, *,
             errors.append(issue("invalid_object", "source_inventory.source_first_audit", "source_first_audit must be an object"))
         else:
             index_rows(source_first.get("source_union"), "source_inventory.source_first_audit.source_union", errors)
-        evidence = source.get("evidence_link_ids")
+        # The v1 field is optional; explicit malformed values are still rejected.
+        evidence = source.get("evidence_link_ids", [])
         if (not isinstance(evidence, list) or not all(isinstance(x, str) and x for x in evidence)
                 or len(evidence) != len(set(evidence))):
-            errors.append(issue("evidence_ids", "source_inventory.evidence_link_ids", "evidence_link_ids must be an explicit list of unique non-empty IDs"))
+            errors.append(issue("evidence_ids", "source_inventory.evidence_link_ids", "evidence_link_ids, when present, must be a list of unique non-empty IDs"))
 
     if ready("checker_recheck", "checker_recheck_manifest"):
         recheck = values["checker_recheck_manifest"]
@@ -300,7 +333,11 @@ def final_input_report(entry: Path, cycle: Path, root: Path, *,
         if not isinstance(request_hashes, dict):
             errors.append(issue("invalid_object", "input_snapshot.request_hashes", "request_hashes must be an object"))
         else:
-            for pid, expected in request_hashes.items():
+            original_ids = {p.name.removesuffix(".request.json")
+                            for p in (cycle / "check_passes").glob("*.request.json")
+                            if p.name.removesuffix(".request.json") in expected_passes}
+            for pid in sorted(set(request_hashes) | original_ids):
+                expected = request_hashes.get(pid)
                 if not isinstance(pid, str) or Path(pid).name != pid or pid in {".", ".."}:
                     errors.append(issue("invalid_id", "input_snapshot.request_hashes", "invalid checker request pass_id"))
                     continue

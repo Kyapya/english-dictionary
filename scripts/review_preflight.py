@@ -48,7 +48,7 @@ def final_inputs(entry: Path, cycle: Path, root: Path) -> dict:
         "normal_candidate_results": values["pass_findings"]["independent_candidates"],
         "blind_candidate_results": values["final_blind"]["independent_candidates"],
         "finding_results": findings,
-        "evidence_checks": [{"id": item} for item in source["evidence_link_ids"]],
+        "evidence_checks": [{"id": item} for item in source.get("evidence_link_ids", [])],
         "source_inventory_results": source["source_first_audit"]["source_union"],
     }
     template = {"decision": None, "blockers": [], "notes": []}

@@ -115,7 +115,8 @@ class ReviewPreflightTests(unittest.TestCase):
                 self.assertEqual(implementation._resume(path, ingest_review="cold_review", declared_model="gpt-5", reviewer_agent_id="independent"), 1)
         result = json.loads(path.read_text())
         self.assertEqual(result["status"], "in_progress")
-        self.assertEqual(result["review_ingest_failures"]["count"], 1)
+        self.assertNotIn("review_ingest_failures", result)
+        self.assertEqual(result["review_preflight_failures"]["count"], 1)
         self.assertEqual(validation.call_count, 1)
 
 
