@@ -1,0 +1,42 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "frame-relation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-sol",
+    "same_model_as_generation": true,
+    "ingested_by": "human",
+    "agent_id": "frame-relation-recheck-f618aa9f-codex-root-recheck-frame"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 37,
+        "line_end": 37,
+        "exact_quote": "【文法パターン】`〈原因となる文〉. Consequently, 〈結果の文〉`＝その結果、…／`〈原因となる文〉; consequently, 〈結果の文〉`＝…、したがって…／`〈主語〉 + consequently + 〈動詞句〉`＝その結果〈主語〉は…する／`〈be〉 + consequently + 〈補語〉`＝〈主語〉はその結果…である。文中では主語の後で主要動詞の前に置く形のほか、`be` の後で補語の前に置く形がある。文頭で使うときは通常後ろにコンマを置き、二つの独立した節をコンマだけでつなぐ `…, consequently, …` は避ける。"
+      },
+      "severity": "blocking",
+      "rationale": "`〈be〉 + consequently + 〈補語〉` は主語を欠くため、単独で代入可能な完全フレームではない。後段の説明と例文はいずれも主語を伴うため、patternのslotと実現形が一致していない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "`〈主語〉 + be + consequently + 〈過去分詞・形容詞〉` のように主語を含む完全フレームへ修正する。"
+    },
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 61,
+        "line_end": 63,
+        "exact_quote": "・`and consequently + 〈動詞句〉`  \n用途: 一つの節の中で、前の節・句に示された事情の帰結として後続の行為や状態を示す。  \n例: The region receives little rainfall and consequently faces frequent water shortages."
+      },
+      "severity": "blocking",
+      "rationale": "この表示形は接続詞、共有主語、および先行する述語を欠き、例文のような同一主語の述語連結を再現できない。`and` の後だけを完全フレームとして提示しているため、必須slotと例文内の実現が一対一に対応しない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "`〈主語〉 + 〈動詞句1〉 and consequently + 〈動詞句2〉` のように共有主語と先行述語を含む完全フレームへ修正する。"
+    }
+  ],
+  "unrouted_observations": [
+    "【反意語】欄は存在しない。反意語の不在は許容される完成状態であり、antonym-axis判定およびlexical_relation_mislabel findingはない。"
+  ]
+}

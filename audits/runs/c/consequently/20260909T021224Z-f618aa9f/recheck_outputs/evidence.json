@@ -1,0 +1,102 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "evidence",
+  "reviewer": {
+    "agent_id": "root_recheck_evidence_20260909T021224Z_f618aa9f",
+    "role": "independent evidence recheck",
+    "reviewed_at": "2026-09-09T00:00:00Z"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 31,
+        "line_end": 31,
+        "exact_quote": "`so` よりフォーマルで、報告、説明、論証などで使われやすい。"
+      },
+      "severity": "blocking",
+      "rationale": "C001/F001・F003・F005 directly support the causal-result meaning, but none supplies comparative formality against so or use-frequency/domain evidence for reports, explanations, and argumentation.",
+      "evidence_link_ids": ["F001", "F003", "F005"],
+      "suggested_direction": "Limit this definition to the causal-result meaning, or add direct register and usage-distribution evidence for the comparative claim."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 33,
+        "line_end": 35,
+        "exact_quote": "【頻度】〈6/10〉  【レジスター/領域】ややフォーマル。学術文、報告書、ニュース、論理的な説明でよく用いられる。"
+      },
+      "severity": "blocking",
+      "rationale": "The supplied support for register is only the causal-result definitions and Oxford's effect language-bank heading (F003) plus Merriam-Webster's listed causal synonyms (F005). It does not establish a 6/10 frequency rating, a formal register, or the named domains' relative prevalence.",
+      "evidence_link_ids": ["F003", "F005"],
+      "suggested_direction": "Hold or remove the numeric frequency and distribution/register assertions unless direct frequency and register sources are linked."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 37,
+        "line_end": 37,
+        "exact_quote": "文中では主語の後で主要動詞の前に置く形のほか、`be` の後で補語の前に置く形がある。文頭で使うときは通常後ろにコンマを置き、二つの独立した節をコンマだけでつなぐ `…, consequently, …` は避ける。"
+      },
+      "severity": "blocking",
+      "rationale": "C003/F006 attests an occurrence after a coordinator and one copular placement before a complement. It does not support the stated pre-main-verb generalization, the normal comma rule, or the comma-splice prohibition.",
+      "evidence_link_ids": ["F006"],
+      "suggested_direction": "Restrict the frame description to the two attested placements, or link a grammar/punctuation authority for the broader placement and punctuation rules."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 41,
+        "line_end": 64,
+        "exact_quote": "`Consequently, 〈結果の文〉` … `and consequently + 〈動詞句〉`"
+      },
+      "severity": "blocking",
+      "rationale": "The source-first record provides no evidence link for the five complete frames or for the naturalness of their constructed examples. F006 supports only two limited clause-internal placements and cannot substantiate the sentence-initial, semicolon, pre-main-verb, or full-frame claims presented here.",
+      "evidence_link_ids": ["F006"],
+      "suggested_direction": "Supply frame- and example-level evidence, or reduce this section to the specifically attested internal placements."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 66,
+        "line_end": 66,
+        "exact_quote": "後に起きただけなら `subsequently`、次の手順を示すなら `then` を使う。`Because ...` のように原因を従属節で述べる形と違い、`consequently` は原因から帰結を示す副詞である。"
+      },
+      "severity": "blocking",
+      "rationale": "C001 supports the result sense, but the inventory contains no source facts or claim units about subsequently, then, because-clauses, or the asserted contrast in syntactic function. The semicolon/period prescription later in the same note is likewise unsupported by F006.",
+      "evidence_link_ids": ["F001", "F003", "F005", "F006"],
+      "suggested_direction": "Limit the note to the source-supported result meaning, or add direct comparative and punctuation evidence."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "word_formation",
+        "line_start": 24,
+        "line_end": 24,
+        "exact_quote": "`consequent`：形容詞。ある出来事の結果として続くことを表す、ややフォーマルな語。"
+      },
+      "severity": "blocking",
+      "rationale": "C007/F010 supports the adjectival result/following sense but supplies no register evidence for describing consequent as somewhat formal.",
+      "evidence_link_ids": ["F010"],
+      "suggested_direction": "Remove the register label or support it with a source that explicitly marks the adjective's register."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 70,
+        "line_end": 101,
+        "exact_quote": "`therefore`、`as a result`、`thus`、`accordingly`、`hence` の頻度値・語義差・レジスター差"
+      },
+      "severity": "blocking",
+      "rationale": "The source-first inventory contains no source, fact, claim unit, or evidence link for any of these five comparator forms. Therefore neither their numeric frequencies nor their stated distinctions from consequently are directly supported.",
+      "evidence_link_ids": [],
+      "suggested_direction": "Add direct evidence for each comparator and each contrast, or omit the lexical-relations section from this entry."
+    }
+  ]
+}

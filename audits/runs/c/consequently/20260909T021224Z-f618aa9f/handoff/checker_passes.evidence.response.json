@@ -1,0 +1,44 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "evidence",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "checker-evidence-f618aa9f-r2-59e221"
+  },
+  "checked": true,
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "pronunciation",
+        "line_start": 15,
+        "line_end": 15,
+        "exact_quote": "さらに米語では第2音節が /ə/、英語では /ɪ/ となる。"
+      },
+      "severity": "blocking",
+      "rationale": "C002/U002 の根拠は地域別IPAを示すが、F002（Cambridge）は米語第2音節を /ə/ とする一方、F004（Oxford）は米語を /ˈkɑːnsɪkwentli/ と記録する。本文はこの食い違いを示さず、米語第2音節 /ə/ を無条件に断定しているため、提示された根拠集合からこの主張を直接支持できない。",
+      "evidence_link_ids": [
+        "F002",
+        "F004"
+      ],
+      "suggested_direction": "Cambridgeの表記に帰属させるか、両資料に共通して支持される地域差の記述へ主張を限定する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "etymology",
+        "line_start": 19,
+        "line_end": 19,
+        "exact_quote": "形容詞 `consequent` に副詞語尾 `-ly` が付いた語である。`consequent` はラテン語 *consequi*「あとに従う、続いて起こる」にさかのぼり、`con-`「ともに」と *sequi*「従う」に関係する。"
+      },
+      "severity": "blocking",
+      "rationale": "C004/F007 は consequently が consequent に関連し、ラテン語 consequi（follow after）、com-、sequi（follow）へつながることを支持する。しかし提示されたfactは consequent + -ly という語形成、または `con-` が「ともに」を意味することを記録していない。本文はF007が直接支持する範囲を超えている。",
+      "evidence_link_ids": [
+        "F007"
+      ],
+      "suggested_direction": "F007が直接記録する consequent と consequi『follow after』の関係に限定するか、形態素と日本語グロスを直接支持する根拠へ差し替える。"
+    }
+  ]
+}

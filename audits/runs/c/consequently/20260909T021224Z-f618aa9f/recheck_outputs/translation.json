@@ -1,0 +1,25 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "translation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-sol",
+    "ingested_by": "human",
+    "agent_id": "translation-recheck-20260909T021224Z-f618aa9f"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 88,
+        "line_end": 89,
+        "exact_quote": "例: The sample was contaminated and thus could not be analyzed.  \n訳: 試料が汚染されていたため、したがって分析できなかった。  "
+      },
+      "severity": "minor",
+      "rationale": "英文の and thus は汚染という状態と、その帰結である分析不能を自然に接続している。訳文は「ため」と「したがって」で因果関係を二重に標示しており不自然だが、原因・結果の方向や内容自体は保たれている。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「試料は汚染されていたため、分析できなかった。」または「試料は汚染されており、そのため分析できなかった。」のように因果標識を一つにする。"
+    }
+  ]
+}

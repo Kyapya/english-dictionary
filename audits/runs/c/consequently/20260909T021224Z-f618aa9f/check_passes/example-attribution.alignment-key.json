@@ -1,0 +1,71 @@
+{
+  "schema_version": "example_attribution_alignment_key_v1",
+  "pass_id": "example-attribution",
+  "input_body_sha256": "bfd615520d08ca8ffe1289c11b66e47dd876aabff126d7400418a6fd69ada0fd",
+  "blind_request_sha256": "6e2276b191f0c1fd64fec8a4040003cb34aabb62557a4280b2987df6b4a5b372",
+  "shuffle_seed": "20260909T021224Z-f618aa9f",
+  "examples": [
+    {
+      "example_id": "ex-7f32ad2a3e0d",
+      "assigned_sense_id": "sense:001",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 43,
+        "line_end": 43,
+        "exact_quote": "例: The train service was suspended. Consequently, many employees worked from home.  "
+      },
+      "source_example_id": "example:001"
+    },
+    {
+      "example_id": "ex-df19cd38f4d1",
+      "assigned_sense_id": "sense:001",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 48,
+        "line_end": 48,
+        "exact_quote": "例: The evidence was incomplete; consequently, the committee postponed its decision.  "
+      },
+      "source_example_id": "example:002"
+    },
+    {
+      "example_id": "ex-f767a03494db",
+      "assigned_sense_id": "sense:001",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 53,
+        "line_end": 53,
+        "exact_quote": "例: Demand fell sharply, and the company consequently reduced production.  "
+      },
+      "source_example_id": "example:003"
+    },
+    {
+      "example_id": "ex-975eb656016f",
+      "assigned_sense_id": "sense:001",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 58,
+        "line_end": 58,
+        "exact_quote": "例: The deadline was missed, and the application was consequently rejected.  "
+      },
+      "source_example_id": "example:004"
+    },
+    {
+      "example_id": "ex-626810ae87f4",
+      "assigned_sense_id": "sense:001",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 63,
+        "line_end": 63,
+        "exact_quote": "例: The region receives little rainfall and consequently faces frequent water shortages.  "
+      },
+      "source_example_id": "example:005"
+    }
+  ],
+  "sense_usage_notes": [
+    {
+      "sense_id": "sense:001",
+      "line": 66,
+      "text": "`consequently` が示すのは因果関係であり、単なる時間順ではない。後に起きただけなら `subsequently`、次の手順を示すなら `then` を使う。`Because the road was closed, we took a detour.` のように原因を従属節で述べる形と違い、`consequently` は原因から帰結を示す副詞である。`The road was closed; consequently, we took a detour.` のようにピリオドまたはセミコロンで二つの独立節をつなぐのは代表的な書き方だが、`the application was consequently rejected` のように文中でも使える。"
+    }
+  ]
+}

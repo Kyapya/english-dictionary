@@ -1,0 +1,78 @@
+{
+  "schema_version": "example_attribution_blind_request_v1",
+  "pass_id": "example-attribution",
+  "taxonomy_ids": [
+    "example_sense_attribution_mismatch"
+  ],
+  "specification": "prompts/check_pass_example_attribution_v6.md",
+  "input_body_sha256": "bfd615520d08ca8ffe1289c11b66e47dd876aabff126d7400418a6fd69ada0fd",
+  "input_sections": {
+    "sense_structure": [
+      {
+        "sense_id": "sense:001",
+        "line": 29,
+        "label": "1. 【副詞・文副詞／接続副詞】その結果、したがって",
+        "definition": "前に述べた事実・状況・判断を理由として、後に述べる結果が続くことを示す。単に出来事が後の時点で起こることではなく、前件から後件が結果として導かれることを表す。`so` よりフォーマルで、報告、説明、論証などで使われやすい。"
+      }
+    ],
+    "collocations_examples": [
+      {
+        "example_id": "ex-f767a03494db",
+        "example": "Demand fell sharply, and the company consequently reduced production.",
+        "translation": "需要が急減したため、その会社は結果として生産を減らした。"
+      },
+      {
+        "example_id": "ex-975eb656016f",
+        "example": "The deadline was missed, and the application was consequently rejected.",
+        "translation": "締切に間に合わなかったため、その申請は結果として却下された。"
+      },
+      {
+        "example_id": "ex-626810ae87f4",
+        "example": "The region receives little rainfall and consequently faces frequent water shortages.",
+        "translation": "その地域は降雨量が少なく、その結果しばしば水不足に直面する。"
+      },
+      {
+        "example_id": "ex-df19cd38f4d1",
+        "example": "The evidence was incomplete; consequently, the committee postponed its decision.",
+        "translation": "証拠が不十分だったため、委員会は決定を延期した。"
+      },
+      {
+        "example_id": "ex-7f32ad2a3e0d",
+        "example": "The train service was suspended. Consequently, many employees worked from home.",
+        "translation": "列車の運行が停止された。その結果、多くの従業員が在宅勤務をした。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "assigned_sense_id",
+      "collocation_heading",
+      "usage_line",
+      "example_group_boundary",
+      "document_order"
+    ],
+    "required_output_schema": "example_attribution_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "e0bbb032bc0c50bf9bef5ff8f7854188287e635c58e599479891e11e3343a017",
+  "source_artifact_sha256": "bcea85e6857e24d95179eec8199560c6b551bb2889d5dae928b29cda43626824",
+  "normalized_input_sha256": "fd2bfcfb7e4b582efd719a6fe9ea96c27e47ae5221acce157e992a405884fd2f"
+}
