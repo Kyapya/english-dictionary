@@ -1,0 +1,45 @@
+name: Review preflight maintenance verification
+
+on:
+  push:
+    branches: [fix/review-preflight-recovery-20260909]
+    paths:
+      - .maintenance/review-preflight/**
+
+permissions:
+  contents: write
+
+concurrency:
+  group: review-preflight-maintenance
+  cancel-in-progress: false
+
+jobs:
+  apply-and-test:
+    if: github.repository == 'Kyapya/english-dictionary'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: fix/review-preflight-recovery-20260909
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Apply exact-source-checked changes
+        run: python .maintenance/review-preflight/apply.py
+      - name: Compile scripts and tests
+        run: python -m compileall -q scripts tests
+      - name: Run regression suite
+        run: python -m unittest discover -s tests -v
+      - name: Commit verified implementation on the work branch only
+        run: |
+          set -eu
+          test "$(git branch --show-current)" = 'fix/review-preflight-recovery-20260909'
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- scripts tests AGENTS.md
+          if ! git diff --cached --quiet; then
+            git commit -m 'Separate repairable preflight failures and aggregate final-review input checks'
+            git push origin HEAD:refs/heads/fix/review-preflight-recovery-20260909
+          fi
