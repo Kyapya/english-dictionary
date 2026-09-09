@@ -11,7 +11,7 @@
       "headword",
       "source_first_spec"
     ],
-    "recorded_at": "2026-09-09T09:36:23Z",
+    "recorded_at": "2026-09-09T09:45:35Z",
     "source_first_audit": {
       "version": "source_first_audit_v2",
       "profile": "standard",
@@ -335,8 +335,8 @@
           "claim_type": "definition",
           "statement": "Evident describes something that is clear or easily seen or understood from available information.",
           "article_target_ids": [
-            "sense-1-definition",
-            "sense-1-usage"
+            "definition:001",
+            "usage_note:001"
           ],
           "source_supports": [
             {
@@ -362,8 +362,8 @@
           "claim_type": "grammar_frame",
           "statement": "Evident is used in to, from, in, and that-clause constructions and in become or make frames.",
           "article_target_ids": [
-            "sense-1-patterns",
-            "sense-1-collocations"
+            "grammar_pattern:001",
+            "collocation:001"
           ],
           "source_supports": [
             {
@@ -389,9 +389,9 @@
           "claim_type": "register",
           "statement": "Evident is somewhat formal, and apparent may retain a seeming-not-necessarily-real sense that evident normally does not foreground.",
           "article_target_ids": [
-            "sense-1-register",
-            "sense-1-synonyms",
-            "sense-1-usage"
+            "register:001",
+            "synonym:001",
+            "usage_note:001"
           ],
           "source_supports": [
             {
@@ -435,7 +435,7 @@
           "claim_type": "etymology",
           "statement": "The word's history connects French and Latin forms with seeing and clear perception.",
           "article_target_ids": [
-            "etymology"
+            "etymology:001"
           ],
           "source_supports": [
             {
@@ -461,7 +461,7 @@
           "claim_type": "derived_form",
           "statement": "Evidence, evidently, and self-evident are related forms used as a noun, adverb, and compound adjective.",
           "article_target_ids": [
-            "word-formation"
+            "word_formation:001"
           ],
           "source_supports": [
             {
@@ -483,12 +483,12 @@
   },
   "input_body_sha256": "7daa0d416ecef06000548e2f59c08bd4394750574e23f19e24855a4a6339257a",
   "request_hashes": {
-    "translation": "3b9596a9597a4844cf3d0b6278699d66d01ef8616f23b5491e7d9e0d58140e01",
-    "sense-structure": "c8daa164c5091a8a1aae1af64e882df949462f6c5fd4fd0ef7f3d4a19c152cb1",
-    "frame-relation": "0cae6684d0ecc797f644fdd4d08b268d00fd9fcc4d1a425c1536a0849f89a729",
-    "example-attribution": "6eb33455af11bd62a829949cf3f5b535c758350373a59b10009ba8fc55464a77",
-    "qualification": "78d0f32f78d216ad9263dd8683c0abd2ef7c965c0237fb496e318ae9546e1310",
-    "pronunciation": "c3c093f175671a7db6471870352cb5fc6f5c5916ad05067d2430022a6d8721a2",
-    "evidence": "7ac8c5f23132ec7f5079718b296af1e2e8229e4e5b5e54c35630144269356f71"
+    "translation": "4b6a5a911d8b245fa1ff884a0e7ddd5e3bce3db96f81b27135f2cb5394a12b8d",
+    "sense-structure": "521c8c73c2bed49ec17e372a6effbcfda469ffb6407be6a2308956e6607c8ecf",
+    "frame-relation": "b73825d6a66022d6fa67a1530a3a3f3603ae8158d505f5cc1a45279a64a9c4f8",
+    "example-attribution": "341023f462ba06b14425892ca77122b12966d2ea9f9a0a9423768bd1008a2242",
+    "qualification": "df82d6fc112f94aedcbd1d05d5a4100401395f60a8a482e34eb6443e13164958",
+    "pronunciation": "eefc2bab9594b731a102290216051b8cf7ef1325a5de00990e7412b2de1c784a",
+    "evidence": "5b1567b79d60da4d16f73b5720889cb53b02cba6ca59b74e9c476406482a60c5"
   }
 }

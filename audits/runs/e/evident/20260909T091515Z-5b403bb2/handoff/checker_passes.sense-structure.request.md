@@ -133,7 +133,7 @@ Save exactly one JSON response as `checker_passes.sense-structure.response.json`
     ]
   },
   "specification_sha256": "a815b90fbc456e2bc194220ee0f3bfa164790bbb6e1f2f740144ac62bb03b87c",
-  "source_artifact_sha256": "30b66db08f75dd69b45d2c04e3c7e49edce013c046dafbcd965f201c1691195c",
+  "source_artifact_sha256": "332d09df7349e755d8dc6fd003742cfb167fb68b64ad41f2a7d6f90fd5d329d9",
   "normalized_input_sha256": "20c9ab2ad32d698573629c73070ea9654c2a22d8998e12300014c2edb13e9638"
 }
 ```

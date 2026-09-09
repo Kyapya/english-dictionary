@@ -298,7 +298,7 @@ Save exactly one JSON response as `checker_passes.qualification.response.json`. 
     ]
   },
   "specification_sha256": "1cf8a434bbe1213c0ef739f4c47ffb41014ab2cd5156d297471af6df85ae40a2",
-  "source_artifact_sha256": "30b66db08f75dd69b45d2c04e3c7e49edce013c046dafbcd965f201c1691195c",
+  "source_artifact_sha256": "332d09df7349e755d8dc6fd003742cfb167fb68b64ad41f2a7d6f90fd5d329d9",
   "normalized_input_sha256": "be413e0fb557bf292da1fb24e1fbfc925df6d6ed3cbb47f3b5941d6d00938fad"
 }
 ```
