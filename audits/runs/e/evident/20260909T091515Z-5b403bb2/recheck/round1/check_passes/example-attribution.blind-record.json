@@ -1,0 +1,105 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "stage": 1,
+  "pass_id": "example-attribution",
+  "input_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+  "blind_request_sha256": "9b76eabbdfa3502348826bd6fa66f73cb1a23fdcb0b0d2900b19d8eec75b8a7a",
+  "recorded_at": "2026-09-09T10:16:41+00:00",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-6-astra-wm",
+    "ingested_by": "human",
+    "agent_id": "evident-recheck-example-attribution-20260909",
+    "same_model_as_generation": true
+  },
+  "attributions": [
+    {
+      "example_id": "ex-27671b562b67",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "evident relief"
+      ],
+      "rationale": "The phrase 'evident relief' presents a visible emotional state; the single sense fits better than a merely apparent-seeming alternative."
+    },
+    {
+      "example_id": "ex-d5c3976c5ee8",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "evident that"
+      ],
+      "rationale": "The frame 'evident that' states a conclusion clear from the situation; no separate lexical sense is needed for this that-clause use."
+    },
+    {
+      "example_id": "ex-ca236bb38407",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "evident in"
+      ],
+      "rationale": "The frame 'evident in' locates a visible emotional result in behavior; it remains the entry's clarity sense rather than a different sense."
+    },
+    {
+      "example_id": "ex-bfd0b0e28751",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "evident to the staff"
+      ],
+      "rationale": "The phrase 'evident to the staff' marks who recognizes the clear benefit; the same core adjective sense applies."
+    },
+    {
+      "example_id": "ex-0a09d91fc92d",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "became evident"
+      ],
+      "rationale": "The phrase 'became evident' marks a change into a clear state after new information; it does not introduce another lexical sense."
+    },
+    {
+      "example_id": "ex-620e836a4f4a",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "made it evident that"
+      ],
+      "rationale": "The frame 'made it evident that' presents evidence making a conclusion clear; the causative frame still expresses the one listed sense."
+    },
+    {
+      "example_id": "ex-4cf6bc1c9cb5",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "evident signs of recovery"
+      ],
+      "rationale": "The collocation 'evident signs of recovery' describes observable evidence of a change; the adjective keeps its clarity meaning."
+    },
+    {
+      "example_id": "ex-8e465c71750b",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "evident from the audit results"
+      ],
+      "rationale": "The frame 'evident from the audit results' identifies the information source for a clear conclusion; it matches the sole sense."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "recheck_resolution_checkpoint_v1",
+  "run_id": "20260909T091515Z-5b403bb2",
+  "recorded_at": "2026-09-09T10:17:06+00:00",
+  "review_output": "recheck/round1/pass_findings.json",
+  "revision_plan": {
+    "schema_version": "workflow_revision_v1",
+    "before_body_sha256": "7daa0d416ecef06000548e2f59c08bd4394750574e23f19e24855a4a6339257a",
+    "after_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+    "changed_units": [
+      "frames",
+      "word_formation"
+    ],
+    "full_recheck": false,
+    "fallback_reasons": [],
+    "invalidated_passes": [
+      "evidence",
+      "example-attribution",
+      "frame-relation",
+      "qualification",
+      "sense-structure",
+      "translation"
+    ],
+    "reusable_passes": [
+      "pronunciation"
+    ]
+  },
+  "resolutions": [],
+  "completed_recheck_rounds": 1,
+  "learning_delta": {
+    "schema_version": "process_improvement_learning_delta_v2",
+    "reviewed": true,
+    "items": []
+  },
+  "verification_completed_at": "2026-09-09T10:17:07+00:00",
+  "verified_by_round": 1,
+  "open_questions": [],
+  "stop_reason": ""
+}

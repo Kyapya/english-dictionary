@@ -1,0 +1,93 @@
+{
+  "schema_version": "example_attribution_blind_request_v1",
+  "pass_id": "example-attribution",
+  "taxonomy_ids": [
+    "example_sense_attribution_mismatch"
+  ],
+  "specification": "prompts/check_pass_example_attribution_v6.md",
+  "input_body_sha256": "7daa0d416ecef06000548e2f59c08bd4394750574e23f19e24855a4a6339257a",
+  "input_sections": {
+    "sense_structure": [
+      {
+        "sense_id": "sense:001",
+        "line": 30,
+        "label": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている",
+        "definition": "見える特徴、行動、データ、状況などから、ある事実・状態・感情・評価を容易に認識または理解できることを表す。観察した人にとって明白だという意味であり、語そのものが論理的な証明や絶対的な確実性まで保証するわけではない。"
+      }
+    ],
+    "collocations_examples": [
+      {
+        "example_id": "ex-27671b562b67",
+        "example": "She spoke with evident relief after the results were announced.",
+        "translation": "結果が発表された後、彼女はほっとした様子をはっきり見せて話した。"
+      },
+      {
+        "example_id": "ex-d5c3976c5ee8",
+        "example": "It is evident that the current plan cannot meet the deadline.",
+        "translation": "現在の計画では期限に間に合わないことが明らかだ。"
+      },
+      {
+        "example_id": "ex-ca236bb38407",
+        "example": "Her disappointment was evident in the way she avoided eye contact.",
+        "translation": "彼女が目を合わせようとしなかったことに、失望がはっきり表れていた。"
+      },
+      {
+        "example_id": "ex-bfd0b0e28751",
+        "example": "The benefits of the new system were immediately evident to the staff.",
+        "translation": "新しいシステムの利点は職員にはすぐに明らかになった。"
+      },
+      {
+        "example_id": "ex-0a09d91fc92d",
+        "example": "The scale of the damage became evident after the smoke cleared.",
+        "translation": "煙が晴れた後、被害の規模が明らかになった。"
+      },
+      {
+        "example_id": "ex-620e836a4f4a",
+        "example": "The revised figures made it evident that the original estimate was too optimistic.",
+        "translation": "修正後の数値によって、当初の見積もりが楽観的すぎたことが明らかになった。"
+      },
+      {
+        "example_id": "ex-4cf6bc1c9cb5",
+        "example": "The patient showed evident signs of recovery after the treatment.",
+        "translation": "その患者には治療後、回復の明らかな兆候が見られた。"
+      },
+      {
+        "example_id": "ex-8e465c71750b",
+        "example": "It was evident from the audit results that several invoices had been duplicated.",
+        "translation": "監査結果から、複数の請求書が重複していたことは明らかだった。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "assigned_sense_id",
+      "collocation_heading",
+      "usage_line",
+      "example_group_boundary",
+      "document_order"
+    ],
+    "required_output_schema": "example_attribution_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "e0bbb032bc0c50bf9bef5ff8f7854188287e635c58e599479891e11e3343a017",
+  "source_artifact_sha256": "332d09df7349e755d8dc6fd003742cfb167fb68b64ad41f2a7d6f90fd5d329d9",
+  "normalized_input_sha256": "491de5306d4b7a899e313603a16066fea19b0293b4e258dbd2330901817973c6"
+}

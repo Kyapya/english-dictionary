@@ -1,0 +1,17 @@
+{
+  "schema_version": "checker_metadata_reuse_proof_v1",
+  "reason": "The pre-blind revision changed only frames and word formation; the pronunciation section and its normalized semantic request remained unchanged, so the validated pronunciation result is reused against the current body hash.",
+  "results": [
+    {
+      "pass_id": "pronunciation",
+      "original_request_sha256": "eefc2bab9594b731a102290216051b8cf7ef1325a5de00990e7412b2de1c784a",
+      "current_request_sha256": "a460af4f129eb25165332dd4c45a6edd5a90c250e3b9de78180082a5c020a052",
+      "normalized_input_sha256": "a28cf8cd22927fa516f795888ef0fe4d4d0bd7a1960fba17084613633357192b",
+      "schema_valid": true,
+      "reviewer_independent": true,
+      "request_binding_valid": true,
+      "reuse_validated": true,
+      "output_sha256": "d45870adf29e0a32a74b7f2297a2c2230642af84e1df94e2110d1c7676b99bd6"
+    }
+  ]
+}

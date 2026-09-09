@@ -1,0 +1,59 @@
+{
+  "summary": "文法パターンの結合方法と evidently の日本語説明に、学習者の誤用・誤解につながる問題候補がある。",
+  "findings": [
+    {
+      "id": "CR-001",
+      "location": "文法パターン",
+      "severity": "high",
+      "description": "make something と make it evident that ... を一つのパターンとして結合しており、前者に that 節を直接続ける誤った構文を示している。",
+      "reason": "該当本文「make something・make it evident + that 〈節〉＝何かを明白にする・～であることを明らかにする／」。make it evident that ... は成立するが、make something evident は目的語補語構文であり、通常は make something evident that ... とは続かない。学習者が make + 目的語 + that 節を一般化するため、二つのフレームを分けて示す必要がある。",
+      "suggested_direction": "make something evident（何かを明白にする）と make it evident that ...（…であることを明らかにする）を別パターンに分ける。",
+      "scope_anchors": [
+        {
+          "id": "CR-001-a1",
+          "exact_quote": "make something・make it evident + that 〈節〉＝何かを明白にする・～であることを明らかにする／",
+          "location_hint": "＃意味・用法・関連表現の【文法パターン】行"
+        }
+      ]
+    },
+    {
+      "id": "CR-002",
+      "location": "語源・語形成の evidently 説明",
+      "severity": "medium",
+      "description": "evidently の意味に reportedly に近い「伝えられるところでは」を通常の用法として含めている。",
+      "reason": "該当本文「・evidently：副詞。「明らかに、見たところ」。文全体を修飾して「どうやら、伝えられるところでは」のように使うこともある。」。evidently は基本的に「明らかに、どう見ても」または推論的な「どうやら」を表すが、「伝えられるところでは」は情報源を示す reportedly の意味に寄り、別の副詞の意味を学習させる。",
+      "suggested_direction": "「明らかに、どうやら（状況から判断すると）」に限定し、「伝えられるところでは」は削除するか reportedly との違いを明示する。",
+      "scope_anchors": [
+        {
+          "id": "CR-002-a1",
+          "exact_quote": "・evidently：副詞。「明らかに、見たところ」。文全体を修飾して「どうやら、伝えられるところでは」のように使うこともある。",
+          "location_hint": "＃語形成の evidently 項目"
+        },
+        {
+          "id": "CR-002-a2",
+          "exact_quote": "同じラテン語系統の evidence「証拠、証拠を示す」、evidently「明らかに、どうやら」、self-evident「自明な」と意味上・形態上つながる。",
+          "location_hint": "＃語源の関連語列挙"
+        }
+      ]
+    }
+  ],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-6-astra-wm",
+    "ingested_by": "human",
+    "agent_id": "evident-cold-reuse-20260909T104259Z-e44fbe0e",
+    "same_model_as_generation": true
+  },
+  "schema_version": "cold_review_v1",
+  "stage": "cold_review",
+  "run_id": "cold-evident-20260909T104259Z-e44fbe0e",
+  "context_id": "cold-evident-context-20260909T104259Z-e44fbe0e",
+  "input_body_sha256": "7daa0d416ecef06000548e2f59c08bd4394750574e23f19e24855a4a6339257a",
+  "prompt_sha256": "25c298d1a4305746147791bd442cd725a92737c8f0802b992ea88e5c6ff76a5d",
+  "input_artifacts": [
+    "entry_body",
+    "cold_review_prompt"
+  ],
+  "audit_visible": false,
+  "recorded_at": "2026-09-09T09:55:01.294449+00:00"
+}

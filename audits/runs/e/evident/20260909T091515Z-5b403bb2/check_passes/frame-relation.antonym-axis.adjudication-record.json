@@ -1,0 +1,32 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "7daa0d416ecef06000548e2f59c08bd4394750574e23f19e24855a4a6339257a",
+  "stage2_request_sha256": "469f4346728abe88d023129a8f1e1c3e41a383035b82236bcf617649b1cd6537",
+  "blind_record_sha256": "10eb70dbef73fe372f8a3204b68af59d1fd87bf2c59436f304d426ca64beb33e",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-6-astra-wm",
+    "ingested_by": "human",
+    "agent_id": "evident-checker-frame-relation-20260909",
+    "same_model_as_generation": true
+  },
+  "adjudications": [
+    {
+      "item_id": "ant-4cdb1196ed11",
+      "flags": [],
+      "rationale": "The 明瞭性 axis is directly recoverable from the definition and both pairs contrast degrees of clarity; the difference line does not deny the lexical opposition.",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-bae621c7c63f",
+      "flags": [],
+      "rationale": "The 明瞭性 axis is directly recoverable from the definition and both pairs contrast degrees of clarity; the difference line does not deny the lexical opposition.",
+      "suggested_direction": null,
+      "f4_severity": null
+    }
+  ],
+  "frame_findings": [],
+  "unrouted_observations": []
+}

@@ -1,0 +1,197 @@
+{
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "IC-001",
+      "surface_form": "evident",
+      "frame": "evident + 〈change・difference・sign・need〉",
+      "meaning": "明らかな、明白な、はっきり表れている",
+      "disposition": "included",
+      "rationale": "The frame evident + 〈change・difference・sign・need〉 is the attributive adjective use for a property that can be recognized from observable signs or results, not a guarantee of proof.",
+      "semantic_assertions": [
+        {
+          "id": "IC-001-SA-001",
+          "statement": "The adjective describes a recognizable property or state rather than guaranteeing logical proof.",
+          "polarity": "must_hold",
+          "scope": "main adjective sense"
+        }
+      ]
+    },
+    {
+      "id": "IC-002",
+      "surface_form": "evident",
+      "frame": "it + be・become + evident + that 〈節〉",
+      "meaning": "ある判断・事実が状況から明らかだ",
+      "disposition": "included",
+      "rationale": "The frame it + be・become + evident + that 〈節〉 presents a proposition as clear from available circumstances and keeps the formal subject it with the that-clause.",
+      "semantic_assertions": [
+        {
+          "id": "IC-002-SA-001",
+          "statement": "The that-clause is the content judged evident, and the construction does not turn evident into an evidential noun or verb.",
+          "polarity": "must_hold",
+          "scope": "that-clause frame"
+        }
+      ]
+    },
+    {
+      "id": "IC-003",
+      "surface_form": "evident",
+      "frame": "something + be evident to someone",
+      "meaning": "〈人〉にとって何かが明らかだ",
+      "disposition": "included",
+      "rationale": "The frame something + be evident to someone identifies the person for whom the fact or benefit is recognizable; the to-phrase is a perceiver or evaluator, not a source of evidence.",
+      "semantic_assertions": [
+        {
+          "id": "IC-003-SA-001",
+          "statement": "The to-phrase marks the recognizing person and does not replace the adjective subject.",
+          "polarity": "must_hold",
+          "scope": "to-someone frame"
+        }
+      ]
+    },
+    {
+      "id": "IC-004",
+      "surface_form": "evident",
+      "frame": "it + be evident from 〈data・evidence・behavior〉 + that 〈節〉",
+      "meaning": "根拠から判断すると明らかだ",
+      "disposition": "included",
+      "rationale": "The frame it + be evident from 〈data・evidence・behavior〉 + that 〈節〉 separates the conclusion from the evidence or behavior used as its basis.",
+      "semantic_assertions": [
+        {
+          "id": "IC-004-SA-001",
+          "statement": "The from-phrase identifies the basis for an inference, while the that-clause states the conclusion.",
+          "polarity": "must_hold",
+          "scope": "from-basis frame"
+        }
+      ]
+    },
+    {
+      "id": "IC-005",
+      "surface_form": "evident",
+      "frame": "something + be evident in 〈expression・results・pattern〉",
+      "meaning": "感情・特徴などが何かに表れている",
+      "disposition": "included",
+      "rationale": "The frame something + be evident in 〈expression・results・pattern〉 locates a visible manifestation of an emotion or feature and does not create a separate lexical sense.",
+      "semantic_assertions": [
+        {
+          "id": "IC-005-SA-001",
+          "statement": "The in-phrase identifies where the otherwise abstract property is manifested.",
+          "polarity": "must_hold",
+          "scope": "in-manifestation frame"
+        }
+      ]
+    },
+    {
+      "id": "IC-006",
+      "surface_form": "evident",
+      "frame": "make something evident",
+      "meaning": "何かを明白にする",
+      "disposition": "included",
+      "rationale": "The frame make something evident is a causative object-complement construction: make causes the object to become evident, without licensing a direct that-clause after something.",
+      "semantic_assertions": [
+        {
+          "id": "IC-006-SA-001",
+          "statement": "The object and adjective complement form the causative result, and the object-complement frame must not be generalized to make something that-clause.",
+          "polarity": "must_hold",
+          "scope": "causative object-complement frame"
+        },
+        {
+          "id": "IC-006-SA-002",
+          "statement": "The causative construction does not itself assert that the object was already evident.",
+          "polarity": "must_hold",
+          "scope": "causative scope"
+        }
+      ]
+    },
+    {
+      "id": "IC-007",
+      "surface_form": "evident",
+      "frame": "make it evident + that 〈節〉",
+      "meaning": "～であることを明らかにする",
+      "disposition": "included",
+      "rationale": "The frame make it evident + that 〈節〉 uses formal it for the proposition and is distinct from make something evident; separating the frames prevents an incorrect make + object + that-clause generalization.",
+      "semantic_assertions": [
+        {
+          "id": "IC-007-SA-001",
+          "statement": "The formal it anticipates the that-clause, and the construction is separate from the object-complement frame.",
+          "polarity": "must_hold",
+          "scope": "causative that-clause frame"
+        }
+      ]
+    },
+    {
+      "id": "IC-008",
+      "surface_form": "evidently",
+      "frame": "Evidently, ...",
+      "meaning": "明らかに、どうやら（状況から判断すると）",
+      "disposition": "included",
+      "rationale": "The surface form evidently and the meaning 明らかに、どうやら（状況から判断すると） identify the related adverb that modifies a whole clause and signals an inference from circumstances.",
+      "semantic_assertions": [
+        {
+          "id": "IC-008-SA-001",
+          "statement": "Evidently is an adverbial form and should not be substituted for the adjective in It is evident that ... .",
+          "polarity": "must_hold",
+          "scope": "derived adverb"
+        }
+      ]
+    },
+    {
+      "id": "IC-009",
+      "surface_form": "self-evident",
+      "frame": "self-evident",
+      "meaning": "証明や説明を必要としないほど明らかな、自明の",
+      "disposition": "included",
+      "rationale": "The frame self-evident is the listed compound adjective meaning 証明や説明を必要としないほど明らかな、自明の, not an independent inflectional sense of evident.",
+      "semantic_assertions": [
+        {
+          "id": "IC-009-SA-001",
+          "statement": "The compound keeps evident inside a fixed compound meaning and does not license every compound component as a free synonym.",
+          "polarity": "must_hold",
+          "scope": "compound adjective"
+        }
+      ]
+    },
+    {
+      "id": "IC-010",
+      "surface_form": "evidence",
+      "frame": "evidence",
+      "meaning": "evident と同じ語源系統に属する関連語",
+      "disposition": "excluded",
+      "rationale": "The surface form evidence is a related noun and verb in the same etymological family, but the article explicitly excludes treating evidence as a simple suffixal derivative of evident.",
+      "semantic_assertions": [
+        {
+          "id": "IC-010-SA-001",
+          "statement": "Evidence must remain a related lexical item rather than being presented as a regular modern suffixal formation from evident.",
+          "polarity": "must_hold",
+          "scope": "related word formation"
+        },
+        {
+          "id": "IC-010-SA-002",
+          "statement": "Evidence is not an additional adjective sense of the headword evident.",
+          "polarity": "must_not_hold",
+          "scope": "headword boundary"
+        }
+      ]
+    }
+  ],
+  "article_findings": [],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-6-astra-wm",
+    "ingested_by": "human",
+    "agent_id": "evident-blind-reuse-20260909T104259Z-e44fbe0e",
+    "same_model_as_generation": true
+  },
+  "schema_version": "final_blind_v2",
+  "stage": "final_blind",
+  "run_id": "blind-evident-20260909T104259Z-e44fbe0e",
+  "context_id": "blind-evident-context-20260909T104259Z-e44fbe0e",
+  "input_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+  "prompt_sha256": "3a481b4b5b1236ff386e148bcacc574570b305e79f5e155e9afcd34091f7785c",
+  "input_artifacts": [
+    "entry_body",
+    "final_blind_prompt"
+  ],
+  "audit_visible": false,
+  "recorded_at": "2026-09-09T10:21:29.078532+00:00"
+}

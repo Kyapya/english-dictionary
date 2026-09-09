@@ -1,0 +1,650 @@
+{
+  "schema_version": "content_audit_v4",
+  "generated_by": "generate_audit_manifest_v1",
+  "entry_path": "entries/e/evident.md",
+  "cycle_id": "20260909T104259Z-e44fbe0e",
+  "cycle_dir": "audits/runs/e/evident/20260909T104259Z-e44fbe0e",
+  "body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+  "raw_outputs": {
+    "source_inventory": {
+      "path": "audits/runs/e/evident/20260909T104259Z-e44fbe0e/source_inventory.json",
+      "sha256": "b83f7f598a6d19223b0cabb8d36232be97430237e8bfb845586bbb6b3d98c273",
+      "stage": "source_inventory",
+      "run_id": "source-evident-20260909T104259Z-e44fbe0e",
+      "context_id": "source-evident-context-20260909T104259Z-e44fbe0e",
+      "input_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+      "prompt_sha256": "a5172ff43a877d1434d7396c9e545bd40fb15b4af21b0dc74624088e6bca0b45",
+      "recorded_at": "2026-09-09T09:45:35Z"
+    },
+    "normal_review": {
+      "path": "audits/runs/e/evident/20260909T104259Z-e44fbe0e/pass_findings.json",
+      "sha256": "d590797540286dabf018065a41ce7f19b7f3fb34752ac065a0ae1fcfe00f1152",
+      "stage": "normal_review",
+      "run_id": "normal-evident-20260909T104259Z-e44fbe0e",
+      "context_id": "normal-evident-context-20260909T104259Z-e44fbe0e",
+      "input_body_sha256": "7daa0d416ecef06000548e2f59c08bd4394750574e23f19e24855a4a6339257a",
+      "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
+      "recorded_at": "2026-09-09T09:50:29.010879+00:00"
+    },
+    "cold_review": {
+      "path": "audits/runs/e/evident/20260909T104259Z-e44fbe0e/cold_review.json",
+      "sha256": "2fd627e28492a42c866c6335a02028c8a2cfd025939d6488094672be9eb46489",
+      "stage": "cold_review",
+      "run_id": "cold-evident-20260909T104259Z-e44fbe0e",
+      "context_id": "cold-evident-context-20260909T104259Z-e44fbe0e",
+      "input_body_sha256": "7daa0d416ecef06000548e2f59c08bd4394750574e23f19e24855a4a6339257a",
+      "prompt_sha256": "25c298d1a4305746147791bd442cd725a92737c8f0802b992ea88e5c6ff76a5d",
+      "recorded_at": "2026-09-09T09:55:01.294449+00:00"
+    },
+    "resolutions": {
+      "path": "audits/runs/e/evident/20260909T104259Z-e44fbe0e/resolutions.json",
+      "sha256": "1bab8a5b9e4aca53d6dc9bf10a81ebda8a5e7c33787ad1369ecd8b547f663463",
+      "stage": "resolutions",
+      "run_id": "resolution-evident-20260909T104259Z-e44fbe0e",
+      "context_id": "resolution-evident-context-20260909T104259Z-e44fbe0e",
+      "input_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+      "prompt_sha256": "8b734bbd5a13bf7ca640a596788c974eb81154848f2deb942a4a7472721078ba",
+      "recorded_at": "2026-09-09T10:25:35.378824+00:00"
+    },
+    "final_blind": {
+      "path": "audits/runs/e/evident/20260909T104259Z-e44fbe0e/final_blind.json",
+      "sha256": "26a321ee360a6d97a86d7e4b5971d2d3af14e934cfc30a439656602012fce2e3",
+      "stage": "final_blind",
+      "run_id": "blind-evident-20260909T104259Z-e44fbe0e",
+      "context_id": "blind-evident-context-20260909T104259Z-e44fbe0e",
+      "input_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+      "prompt_sha256": "3a481b4b5b1236ff386e148bcacc574570b305e79f5e155e9afcd34091f7785c",
+      "recorded_at": "2026-09-09T10:21:29.078532+00:00"
+    },
+    "blind_seal": {
+      "path": "audits/runs/e/evident/20260909T104259Z-e44fbe0e/blind_seal.json",
+      "sha256": "c09886c403305883ec1d097f24fb48616373e46bcadf40636bc4087b828cc413",
+      "stage": "blind_seal"
+    },
+    "final_review": {
+      "path": "audits/runs/e/evident/20260909T104259Z-e44fbe0e/final_review.json",
+      "sha256": "28a41b7ccf17a1b0f2503a6a1b5dfc1d5f439c8a9db717ee81c4749dd15b6a75",
+      "stage": "final_review",
+      "run_id": "blind-evident-20260909T104259Z-e44fbe0e",
+      "context_id": "blind-evident-context-20260909T104259Z-e44fbe0e",
+      "input_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+      "prompt_sha256": "5fa21ad0e8186e05e00c459e6201d7062a5d550a003831b40e182ba27c7a625a",
+      "recorded_at": "2026-09-09T10:55:20.519444+00:00"
+    }
+  },
+  "source_first_audit": {
+    "version": "source_first_audit_v2",
+    "profile": "standard",
+    "profile_reason": "bounded default profile",
+    "limits": {
+      "max_sources": 6,
+      "max_facts": 48,
+      "max_research_rounds": 2,
+      "max_post_cold_rechecks": null,
+      "max_final_attempts": 2
+    },
+    "usage": {
+      "sources_used": 5,
+      "facts_used": 16,
+      "research_rounds_used": 1,
+      "post_cold_rechecks_used": 0,
+      "final_attempts_used": 1
+    },
+    "research_status": "complete",
+    "stop_reason": "coverage_axes_closed",
+    "open_questions": [],
+    "inventory_completed_before_article_comparison": true,
+    "inventory_completed_at": "2026-09-09T02:35:13.887440-07:00",
+    "article_comparison_started_at": "2026-09-09T02:35:13.947087-07:00",
+    "coverage_axes": [
+      {
+        "axis": "lexical_senses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F001",
+          "F003",
+          "F009"
+        ],
+        "notes": "Independent learner and general dictionaries converge on one modern adjective sense: clear or easy to see or understand."
+      },
+      {
+        "axis": "part_of_speech_and_frames",
+        "status": "covered",
+        "source_fact_ids": [
+          "F002",
+          "F005",
+          "F007"
+        ],
+        "notes": "The sources attest adjective use with that-clauses and to/from/in complements, including become and make patterns."
+      },
+      {
+        "axis": "derived_and_related_forms",
+        "status": "covered",
+        "source_fact_ids": [
+          "F012",
+          "F013",
+          "F014"
+        ],
+        "notes": "The related forms evidence, evidently, and self-evident are separately attested."
+      },
+      {
+        "axis": "specialist_and_legal_uses",
+        "status": "not_applicable",
+        "source_fact_ids": [],
+        "notes": "The consulted sources do not establish a separate specialist or legal lexical sense for evident."
+      },
+      {
+        "axis": "register_region_and_frequency",
+        "status": "covered",
+        "source_fact_ids": [
+          "F006",
+          "F015",
+          "F016"
+        ],
+        "notes": "Oxford marks evident as rather formal and distinguishes it from apparent and other clarity adjectives."
+      },
+      {
+        "axis": "pronunciation_and_etymology",
+        "status": "covered",
+        "source_fact_ids": [
+          "F004",
+          "F008",
+          "F010",
+          "F011"
+        ],
+        "notes": "Oxford, Merriam-Webster, and Etymonline cover current IPA and the Latin videre history."
+      }
+    ],
+    "sources": [
+      {
+        "id": "S001",
+        "title": "Cambridge Dictionary — evident",
+        "locator": "https://dictionary.cambridge.org/dictionary/english/evident",
+        "source_type": "learner_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "cambridge_university_press",
+        "facts": [
+          {
+            "id": "F001",
+            "form": "evident",
+            "kind": "lexical_sense",
+            "statement": "Evident means easily seen or understood; obvious.",
+            "source_detail": "Cambridge gives the adjective definition as easily seen or understood and supplies an example with a that-clause."
+          },
+          {
+            "id": "F002",
+            "form": "evident",
+            "kind": "grammar_frame",
+            "statement": "Evident occurs in the pattern evident from something that ... .",
+            "source_detail": "Cambridge illustrates that a state was evident from a person's voice, followed by a that-clause."
+          }
+        ]
+      },
+      {
+        "id": "S002",
+        "title": "Oxford Advanced Learner's Dictionary — evident",
+        "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/evident",
+        "source_type": "learner_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "oxford_university_press",
+        "facts": [
+          {
+            "id": "F003",
+            "form": "evident",
+            "kind": "lexical_sense",
+            "statement": "Evident means clear or easily seen.",
+            "source_detail": "Oxford gives the single adjective sense clear; easily seen and links it to obvious."
+          },
+          {
+            "id": "F004",
+            "form": "evident",
+            "kind": "pronunciation",
+            "statement": "Oxford gives /ˈevɪdənt/ in both its British and American panels.",
+            "source_detail": "The entry prints the IPA form above the definition in both regional panels."
+          },
+          {
+            "id": "F005",
+            "form": "evident",
+            "kind": "grammar_frame",
+            "statement": "Evident is used with to somebody, that-clauses, and in/from something complements.",
+            "source_detail": "Oxford examples and patterns include evident to somebody that ..., evident in/from something, and evident that ... ."
+          },
+          {
+            "id": "F006",
+            "form": "evident",
+            "kind": "register",
+            "statement": "Evident is rather formal compared with everyday clarity adjectives.",
+            "source_detail": "Oxford's synonym comparison labels evident rather formal."
+          },
+          {
+            "id": "F007",
+            "form": "evident",
+            "kind": "collocation",
+            "statement": "Appear, be, and seem occur with evident; from, in, and to are listed prepositions.",
+            "source_detail": "Oxford Collocations Dictionary material lists appear, be, seem; extremely, fairly, very; and from, in, to."
+          },
+          {
+            "id": "F008",
+            "form": "evident",
+            "kind": "etymology",
+            "statement": "Evident entered English from Old French or Latin evidens, evident-, related to e-/ex- and videre ‘to see’.",
+            "source_detail": "Oxford's word-origin note gives the late Middle English route and the Latin components."
+          }
+        ]
+      },
+      {
+        "id": "S003",
+        "title": "Merriam-Webster — evident",
+        "locator": "https://www.merriam-webster.com/dictionary/evident",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "merriam_webster",
+        "facts": [
+          {
+            "id": "F009",
+            "form": "evident",
+            "kind": "lexical_sense",
+            "statement": "Evident means clear to the sight or mind; plain.",
+            "source_detail": "Merriam-Webster's definition describes evident as clear to the sight or mind."
+          },
+          {
+            "id": "F010",
+            "form": "evident",
+            "kind": "etymology",
+            "statement": "The first known use of evident is in the 14th century and its history passes through Middle English, Anglo-French, and Latin.",
+            "source_detail": "Merriam-Webster gives the first-known-use century and the Latin evidens etymology."
+          }
+        ]
+      },
+      {
+        "id": "S004",
+        "title": "Online Etymology Dictionary — evident",
+        "locator": "https://www.etymonline.com/word/evident",
+        "source_type": "etymology_dictionary",
+        "source_role": "etymology_reference",
+        "independence_group": "etymonline",
+        "facts": [
+          {
+            "id": "F011",
+            "form": "evident",
+            "kind": "etymology",
+            "statement": "Evident means plainly seen or perceived and goes through Old French to Latin evidentem, from ex and videre.",
+            "source_detail": "Etymonline traces the late-fourteenth-century adjective and explains the Latin elements."
+          },
+          {
+            "id": "F012",
+            "form": "evidence",
+            "kind": "derived_form",
+            "statement": "Evidence is a related noun for proof or grounds for belief.",
+            "source_detail": "The evident entry links to evidence and describes its historical sense as an appearance from which inferences may be drawn."
+          },
+          {
+            "id": "F013",
+            "form": "evidently",
+            "kind": "derived_form",
+            "statement": "Evidently is the related adverb meaning clearly or plainly.",
+            "source_detail": "The linked evidently entry defines the adverb as clearly, obviously, or plainly."
+          },
+          {
+            "id": "F014",
+            "form": "self-evident",
+            "kind": "derived_form",
+            "statement": "Self-evident describes something evident in itself without proof or reasoning.",
+            "source_detail": "Etymonline links self-evident and gives the compound's no-proof-or-reasoning sense."
+          }
+        ]
+      },
+      {
+        "id": "S005",
+        "title": "Oxford Advanced American Dictionary — apparent",
+        "locator": "https://www.oxfordlearnersdictionaries.com/definition/american_english/apparent",
+        "source_type": "learner_dictionary",
+        "source_role": "supporting_lexicon",
+        "independence_group": "oxford_university_press",
+        "facts": [
+          {
+            "id": "F015",
+            "form": "apparent",
+            "kind": "contrast",
+            "statement": "Apparent can mean easy to see or understand, but it can also mean seeming real or true while possibly not being so.",
+            "source_detail": "Oxford's apparent entry gives both the clarity sense and the usually-attributive seeming sense."
+          },
+          {
+            "id": "F016",
+            "form": "evident",
+            "kind": "contrast",
+            "statement": "Evident is grouped with clear, obvious, apparent, and plain as a clarity adjective and is marked somewhat formal.",
+            "source_detail": "Oxford's thesaurus comparison states the shared clarity meaning and the register distinction."
+          }
+        ]
+      }
+    ],
+    "source_union": [
+      {
+        "id": "U001",
+        "source_fact_ids": [
+          "F001",
+          "F003",
+          "F009"
+        ],
+        "canonical_statement": "Evident is an adjective meaning clear or easily seen or understood.",
+        "disposition": "included",
+        "rationale": "This is the article's single modern lexical sense."
+      },
+      {
+        "id": "U002",
+        "source_fact_ids": [
+          "F002",
+          "F005",
+          "F007"
+        ],
+        "canonical_statement": "Evident combines with to, from, in, and that-clause patterns and with become, be, seem, and make frames.",
+        "disposition": "included",
+        "rationale": "These constructions are central to accurate learner use."
+      },
+      {
+        "id": "U003",
+        "source_fact_ids": [
+          "F006",
+          "F015",
+          "F016"
+        ],
+        "canonical_statement": "Evident is a somewhat formal clarity adjective and contrasts with apparent when apparent retains a seeming-or-not-necessarily-real sense.",
+        "disposition": "included",
+        "rationale": "The register and synonym boundary are important for avoiding overgeneralization."
+      },
+      {
+        "id": "U004",
+        "source_fact_ids": [
+          "F004"
+        ],
+        "canonical_statement": "The current learner-dictionary pronunciation is /ˈevɪdənt/.",
+        "disposition": "included",
+        "rationale": "The IPA and its stress explanation are stated in the pronunciation section."
+      },
+      {
+        "id": "U005",
+        "source_fact_ids": [
+          "F008",
+          "F010",
+          "F011"
+        ],
+        "canonical_statement": "Evident has a late Middle English history connected through French and Latin to the idea of seeing clearly.",
+        "disposition": "included",
+        "rationale": "Multiple etymological references support the bounded origin explanation."
+      },
+      {
+        "id": "U006",
+        "source_fact_ids": [
+          "F012",
+          "F013",
+          "F014"
+        ],
+        "canonical_statement": "Evidence, evidently, and self-evident are related forms with distinct parts of speech or compound structure.",
+        "disposition": "included",
+        "rationale": "The word-formation section limits itself to directly attested related forms."
+      }
+    ],
+    "claim_units": [
+      {
+        "id": "C001",
+        "union_ids": [
+          "U001"
+        ],
+        "subject_form": "evident",
+        "claim_type": "definition",
+        "statement": "Evident describes something that is clear or easily seen or understood from available information.",
+        "article_target_ids": [
+          "definition:001",
+          "usage_note:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F001",
+            "support_summary": "Cambridge defines evident as easily seen or understood."
+          },
+          {
+            "source_fact_id": "F003",
+            "support_summary": "Oxford defines the adjective as clear and easily seen."
+          },
+          {
+            "source_fact_id": "F009",
+            "support_summary": "Merriam-Webster defines evident as clear to sight or mind."
+          }
+        ]
+      },
+      {
+        "id": "C002",
+        "union_ids": [
+          "U002"
+        ],
+        "subject_form": "evident",
+        "claim_type": "grammar_frame",
+        "statement": "Evident is used in to, from, in, and that-clause constructions and in become or make frames.",
+        "article_target_ids": [
+          "grammar_pattern:001",
+          "collocation:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F002",
+            "support_summary": "Cambridge attests evident from a source followed by a that-clause."
+          },
+          {
+            "source_fact_id": "F005",
+            "support_summary": "Oxford lists evident to somebody, evident that, and evident in or from something."
+          },
+          {
+            "source_fact_id": "F007",
+            "support_summary": "Oxford collocations list be, seem, appear, and from, in, and to."
+          }
+        ]
+      },
+      {
+        "id": "C003",
+        "union_ids": [
+          "U003"
+        ],
+        "subject_form": "evident",
+        "claim_type": "register",
+        "statement": "Evident is somewhat formal, and apparent may retain a seeming-not-necessarily-real sense that evident normally does not foreground.",
+        "article_target_ids": [
+          "register:001",
+          "synonym:001",
+          "usage_note:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F006",
+            "support_summary": "Oxford labels evident rather formal in its synonym comparison."
+          },
+          {
+            "source_fact_id": "F015",
+            "support_summary": "Oxford gives apparent's seeming-real-or-true-but-may-not-be sense."
+          },
+          {
+            "source_fact_id": "F016",
+            "support_summary": "Oxford compares evident with clear, obvious, apparent, and plain."
+          }
+        ]
+      },
+      {
+        "id": "C004",
+        "union_ids": [
+          "U004"
+        ],
+        "subject_form": "evident",
+        "claim_type": "pronunciation",
+        "statement": "Evident is pronounced /ˈevɪdənt/ with first-syllable stress in the cited learner-dictionary representation.",
+        "article_target_ids": [
+          "pronunciation"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F004",
+            "support_summary": "Oxford prints /ˈevɪdənt/ in both regional panels."
+          }
+        ]
+      },
+      {
+        "id": "C005",
+        "union_ids": [
+          "U005"
+        ],
+        "subject_form": "evident",
+        "claim_type": "etymology",
+        "statement": "The word's history connects French and Latin forms with seeing and clear perception.",
+        "article_target_ids": [
+          "etymology:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F008",
+            "support_summary": "Oxford gives the Old French or Latin route and videre connection."
+          },
+          {
+            "source_fact_id": "F010",
+            "support_summary": "Merriam-Webster supplies the Middle English, Anglo-French, and Latin history."
+          },
+          {
+            "source_fact_id": "F011",
+            "support_summary": "Etymonline gives evidentem from ex and videre and the plainly-seen sense."
+          }
+        ]
+      },
+      {
+        "id": "C006",
+        "union_ids": [
+          "U006"
+        ],
+        "subject_form": "evidence",
+        "claim_type": "derived_form",
+        "statement": "Evidence, evidently, and self-evident are related forms used as a noun, adverb, and compound adjective.",
+        "article_target_ids": [
+          "word_formation:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F012",
+            "support_summary": "Etymonline links evidence and describes its proof-related noun history."
+          },
+          {
+            "source_fact_id": "F013",
+            "support_summary": "Etymonline defines evidently as the related clearly or plainly adverb."
+          },
+          {
+            "source_fact_id": "F014",
+            "support_summary": "Etymonline defines self-evident as evident without proof or reasoning."
+          }
+        ]
+      }
+    ]
+  },
+  "findings": [
+    {
+      "id": "CR-001",
+      "location": "文法パターン",
+      "severity": "high",
+      "description": "make something と make it evident that ... を一つのパターンとして結合しており、前者に that 節を直接続ける誤った構文を示している。",
+      "reason": "該当本文「make something・make it evident + that 〈節〉＝何かを明白にする・～であることを明らかにする／」。make it evident that ... は成立するが、make something evident は目的語補語構文であり、通常は make something evident that ... とは続かない。学習者が make + 目的語 + that 節を一般化するため、二つのフレームを分けて示す必要がある。",
+      "suggested_direction": "make something evident（何かを明白にする）と make it evident that ...（…であることを明らかにする）を別パターンに分ける。",
+      "scope_anchors": [
+        {
+          "id": "CR-001-a1",
+          "exact_quote": "make something・make it evident + that 〈節〉＝何かを明白にする・～であることを明らかにする／",
+          "location_hint": "＃意味・用法・関連表現の【文法パターン】行"
+        }
+      ],
+      "origin": "cold_review"
+    },
+    {
+      "id": "CR-002",
+      "location": "語源・語形成の evidently 説明",
+      "severity": "medium",
+      "description": "evidently の意味に reportedly に近い「伝えられるところでは」を通常の用法として含めている。",
+      "reason": "該当本文「・evidently：副詞。「明らかに、見たところ」。文全体を修飾して「どうやら、伝えられるところでは」のように使うこともある。」。evidently は基本的に「明らかに、どう見ても」または推論的な「どうやら」を表すが、「伝えられるところでは」は情報源を示す reportedly の意味に寄り、別の副詞の意味を学習させる。",
+      "suggested_direction": "「明らかに、どうやら（状況から判断すると）」に限定し、「伝えられるところでは」は削除するか reportedly との違いを明示する。",
+      "scope_anchors": [
+        {
+          "id": "CR-002-a1",
+          "exact_quote": "・evidently：副詞。「明らかに、見たところ」。文全体を修飾して「どうやら、伝えられるところでは」のように使うこともある。",
+          "location_hint": "＃語形成の evidently 項目"
+        },
+        {
+          "id": "CR-002-a2",
+          "exact_quote": "同じラテン語系統の evidence「証拠、証拠を示す」、evidently「明らかに、どうやら」、self-evident「自明な」と意味上・形態上つながる。",
+          "location_hint": "＃語源の関連語列挙"
+        }
+      ],
+      "origin": "cold_review"
+    }
+  ],
+  "resolutions": [
+    {
+      "id": "CR-001",
+      "finding_id": "CR-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "make something evident は目的語補語構文、make it evident + that 〈節〉は形式目的語 it を用いる that 節構文であり、同一のパターンとして結合すると make + 目的語 + that 節という誤った一般化を招くため、別項目に分ける。",
+      "required_changes": [
+        "make something evident と make it evident + that 〈節〉を別パターンとして示す。"
+      ],
+      "implemented_changes": [
+        "文法パターンを二つの独立したフレームと訳に分割した。"
+      ],
+      "resolved_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0"
+    },
+    {
+      "id": "CR-002",
+      "finding_id": "CR-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "evidently は明らかな根拠や状況からの推論を示す副詞であり、情報源を示す reportedly に近い「伝えられるところでは」を通常の意味として併記すると、推論と伝聞を混同させるため、説明を推論的な意味に限定する。",
+      "required_changes": [
+        "evidently の説明から reportedly 寄りの「伝えられるところでは」を除く。"
+      ],
+      "implemented_changes": [
+        "「明らかに、どうやら（状況から判断すると）」と、根拠や状況から推論した内容を示す説明に改めた。"
+      ],
+      "resolved_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0"
+    }
+  ],
+  "final_decision": {
+    "decision": "pass",
+    "blockers": [],
+    "notes": [
+      "All article targets, relations, source unions, and sealed blind assertions pass the final reconciliation.",
+      "All checker/cold findings are resolved, the six invalidated checker passes were rechecked, pronunciation reuse was validated, and no post-blind findings remain."
+    ],
+    "reviewed_at": "2026-09-09T10:55:20.519444+00:00",
+    "blind_output_sha256": "0fef293b619223b8331de4ae20d75e0dc7c32557e06f0d4b95bd89c4a3712d02"
+  },
+  "workflow_revision": {
+    "schema_version": "workflow_revision_v1",
+    "artifacts": {
+      "pre_blind_resolution": {
+        "path": "audits/runs/e/evident/20260909T104259Z-e44fbe0e/pre_blind_resolution.json",
+        "sha256": "b9b2fa8f52d7b6f1ecd3dadacb9723dff170bdba46a6329544e0858f907f812e"
+      },
+      "pre_blind_revision": {
+        "path": "audits/runs/e/evident/20260909T104259Z-e44fbe0e/pre_blind_revision.json",
+        "sha256": "94d63903618488166ef65f6a9c7f15544f9e01f439b8dbaa4e3422646dc6ba59"
+      },
+      "checker_recheck_manifest": {
+        "path": "audits/runs/e/evident/20260909T104259Z-e44fbe0e/checker_recheck_manifest.json",
+        "sha256": "928e68ef57764c08bb98e3db7f9d6f8a235d69e18e633241ed1d89aa073f00fd"
+      },
+      "post_blind_resolution": {
+        "path": "audits/runs/e/evident/20260909T104259Z-e44fbe0e/post_blind_resolution.json",
+        "sha256": "7dc2f920057bc5fa6ac3d76f75e2d66c3a0b209dd3c849f5a7dcb88dd57d0e51"
+      },
+      "post_blind_verification": {
+        "path": "audits/runs/e/evident/20260909T104259Z-e44fbe0e/post_blind_verification.json",
+        "sha256": "2a0c236d737f79ae9fb3c175a9c6f415149cfe501191798644c6a058cef8c44d"
+      }
+    },
+    "targeted_adjudications": []
+  },
+  "invalidated_by": [],
+  "review_liveness_errors": []
+}

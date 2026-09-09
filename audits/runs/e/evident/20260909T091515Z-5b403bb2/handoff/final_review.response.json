@@ -1,0 +1,704 @@
+{
+  "decision": "pass",
+  "blockers": [],
+  "notes": [
+    "All article targets, relations, source unions, and sealed blind assertions pass the final reconciliation.",
+    "All checker/cold findings are resolved, the six invalidated checker passes were rechecked, pronunciation reuse was validated, and no post-blind findings remain."
+  ],
+  "target_results": [
+    {
+      "id": "pronunciation:001",
+      "status": "pass",
+      "notes": "Verified against the exact article target text: 米・英: /ˈevɪdənt/。3音節で、第1音節に主強勢がある。第1音節の /ˈev/ に強勢を置き、第2音節の /ɪ/ は弱く、第3音節は /dənt/ と発音する。語尾の /t/ を落として「エビデン」のようにせず、最後を閉じる。派生副詞 evidently は /ˈevɪdəntli/、同語族の名詞 evidence は /ˈevɪdəns/ で、いずれも語頭側に強勢がある。",
+      "target_id": "pronunciation:001"
+    },
+    {
+      "id": "etymology:001",
+      "status": "pass",
+      "notes": "Verified against the exact article target text: 中英語後期に、古フランス語またはラテン語 evidens・evident-「目や心に明らかな、明白な」から英語に入った。ラテン語の形は e-（ex-「外へ、十分に」の変形）と videre「見る」に関係し、もともと「外に現れて見える」という発想を含む。",
+      "target_id": "etymology:001"
+    },
+    {
+      "id": "etymology:002",
+      "status": "pass",
+      "notes": "Verified against the exact article target text: 同じラテン語系統の evidence「証拠、証拠を示す」、evidently「明らかに、どうやら」、self-evident「自明な」と意味上・形態上つながる。",
+      "target_id": "etymology:002"
+    },
+    {
+      "id": "word_formation:001",
+      "status": "pass",
+      "notes": "Verified against the exact article target text: ・evidently：副詞。「明らかに、どうやら（状況から判断すると）」。文全体を修飾し、明らかな根拠や状況から推論した内容を示す。",
+      "target_id": "word_formation:001"
+    },
+    {
+      "id": "word_formation:002",
+      "status": "pass",
+      "notes": "Verified against the exact article target text: ・self-evident：複合形容詞。「証明や説明を必要としないほど明らかな、自明の」。",
+      "target_id": "word_formation:002"
+    },
+    {
+      "id": "word_formation:003",
+      "status": "pass",
+      "notes": "Verified against the exact article target text: ・evidence：名詞・動詞。evident と同じ語源系統に属し、名詞では「証拠」、動詞では「証拠を示す」を表す。現代英語で evident に単純に接尾辞を付けた派生語ではない。",
+      "target_id": "word_formation:003"
+    },
+    {
+      "id": "sense_boundary:001",
+      "status": "pass",
+      "notes": "Verified against the exact article target text: 1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている",
+      "target_id": "sense_boundary:001"
+    },
+    {
+      "id": "definition:001",
+      "status": "pass",
+      "notes": "Verified against the exact article target text: 見える特徴、行動、データ、状況などから、ある事実・状態・感情・評価を容易に認識または理解できることを表す。観察した人にとって明白だという意味であり、語そのものが論理的な証明や絶対的な確実性まで保証するわけではない。",
+      "target_id": "definition:001"
+    },
+    {
+      "id": "frequency:001",
+      "status": "pass",
+      "notes": "Verified against the exact article target text: 〈8/10〉",
+      "target_id": "frequency:001"
+    },
+    {
+      "id": "register:001",
+      "status": "pass",
+      "notes": "Verified against the exact article target text: 標準語だが、会話中心の obvious や clear よりやや形式的。報告書、学術文、ニュース、ビジネスの説明で多く、感情や特徴が外から読み取れることにも使う。",
+      "target_id": "register:001"
+    },
+    {
+      "id": "grammar_pattern:001",
+      "status": "pass",
+      "notes": "Verified against the exact article target text: something + be・seem・become・remain evident＝事実・状態などが明らかである",
+      "target_id": "grammar_pattern:001"
+    },
+    {
+      "id": "grammar_pattern:002",
+      "status": "pass",
+      "notes": "Verified against the exact article target text: it + be・become + evident + that 〈節〉＝～であることが明らかだ",
+      "target_id": "grammar_pattern:002"
+    },
+    {
+      "id": "grammar_pattern:003",
+      "status": "pass",
+      "notes": "Verified against the exact article target text: something + be evident to someone＝〈人〉にとって明らかだ",
+      "target_id": "grammar_pattern:003"
+    },
+    {
+      "id": "grammar_pattern:004",
+      "status": "pass",
+      "notes": "Verified against the exact article target text: it + be evident to someone + that 〈節〉＝〈人〉には～が明らかだ",
+      "target_id": "grammar_pattern:004"
+    },
+    {
+      "id": "grammar_pattern:005",
+      "status": "pass",
+      "notes": "Verified against the exact article target text: it + be evident from 〈data・evidence・behavior〉 + that 〈節〉＝〈データ・証拠・行動〉から～が明らかだ",
+      "target_id": "grammar_pattern:005"
+    },
+    {
+      "id": "grammar_pattern:006",
+      "status": "pass",
+      "notes": "Verified against the exact article target text: something + be evident in 〈expression・results・pattern〉＝感情・特徴などが〈表情・結果・パターン〉に表れている",
+      "target_id": "grammar_pattern:006"
+    },
+    {
+      "id": "grammar_pattern:007",
+      "status": "pass",
+      "notes": "Verified against the exact article target text: make something evident＝何かを明白にする",
+      "target_id": "grammar_pattern:007"
+    },
+    {
+      "id": "grammar_pattern:008",
+      "status": "pass",
+      "notes": "Verified against the exact article target text: make it evident + that 〈節〉＝～であることを明らかにする",
+      "target_id": "grammar_pattern:008"
+    },
+    {
+      "id": "grammar_pattern:009",
+      "status": "pass",
+      "notes": "Verified against the exact article target text: evident + 〈change・difference・sign・need〉＝明らかな〈変化・違い・兆候・必要性〉。",
+      "target_id": "grammar_pattern:009"
+    },
+    {
+      "id": "collocation:001",
+      "status": "pass",
+      "notes": "Verified against the exact article target text: ・it is evident that 〈節〉\n用途: 状況や観察結果から、ある判断が明らかだと述べる基本構文。\n例: It is evident that the current plan cannot meet the deadline.\n訳: 現在の計画では期限に間に合わないことが明らかだ。",
+      "target_id": "collocation:001"
+    },
+    {
+      "id": "collocation:002",
+      "status": "pass",
+      "notes": "Verified against the exact article target text: ・be evident to someone\n用途: 何が誰にとって明らかなのかを示す。\n例: The benefits of the new system were immediately evident to the staff.\n訳: 新しいシステムの利点は職員にはすぐに明らかになった。",
+      "target_id": "collocation:002"
+    },
+    {
+      "id": "collocation:003",
+      "status": "pass",
+      "notes": "Verified against the exact article target text: ・be evident from 〈data・evidence・results〉 that 〈節〉\n用途: 明白だと判断する根拠や情報源を示す。\n例: It was evident from the audit results that several invoices had been duplicated.\n訳: 監査結果から、複数の請求書が重複していたことは明らかだった。",
+      "target_id": "collocation:003"
+    },
+    {
+      "id": "collocation:004",
+      "status": "pass",
+      "notes": "Verified against the exact article target text: ・be evident in 〈expression・behavior・pattern〉\n用途: 感情や特徴が表情・行動・結果などに現れていることを表す。\n例: Her disappointment was evident in the way she avoided eye contact.\n訳: 彼女が目を合わせようとしなかったことに、失望がはっきり表れていた。",
+      "target_id": "collocation:004"
+    },
+    {
+      "id": "collocation:005",
+      "status": "pass",
+      "notes": "Verified against the exact article target text: ・become evident\n用途: 時間の経過や追加情報によって、それまで不明だったことが明らかになることを表す。\n例: The scale of the damage became evident after the smoke cleared.\n訳: 煙が晴れた後、被害の規模が明らかになった。",
+      "target_id": "collocation:005"
+    },
+    {
+      "id": "collocation:006",
+      "status": "pass",
+      "notes": "Verified against the exact article target text: ・make it evident that 〈節〉\n用途: 数値、言動、結果などによって、ある判断を明白にする。\n例: The revised figures made it evident that the original estimate was too optimistic.\n訳: 修正後の数値によって、当初の見積もりが楽観的すぎたことが明らかになった。",
+      "target_id": "collocation:006"
+    },
+    {
+      "id": "collocation:007",
+      "status": "pass",
+      "notes": "Verified against the exact article target text: ・evident signs of 〈change・stress・recovery〉\n用途: 変化、ストレス、回復などが起きていると分かる兆候を表す。\n例: The patient showed evident signs of recovery after the treatment.\n訳: その患者には治療後、回復の明らかな兆候が見られた。",
+      "target_id": "collocation:007"
+    },
+    {
+      "id": "collocation:008",
+      "status": "pass",
+      "notes": "Verified against the exact article target text: ・with evident 〈relief・pleasure・concern〉\n用途: 表情や声などに感情が明確に現れている様子を表す。\n例: She spoke with evident relief after the results were announced.\n訳: 結果が発表された後、彼女はほっとした様子をはっきり見せて話した。",
+      "target_id": "collocation:008"
+    },
+    {
+      "id": "usage_note:001",
+      "status": "pass",
+      "notes": "Verified against the exact article target text: `evident to someone` は「誰にとって明らかか」、`evident from something` は「何を根拠に明らかか」、`evident in something` は「どこに表れているか」を示す。`evident that ...` のように内容を続ける場合は、通常 `It is evident that ...` と形式主語 it を置く。",
+      "target_id": "usage_note:001"
+    },
+    {
+      "id": "usage_note:002",
+      "status": "pass",
+      "notes": "Verified against the exact article target text: evident は「観察や情報から明らかだ」という評価であり、必ずしも「証明済み」「疑いなく真実」と同じではない。`It was evident from the preliminary data that ...` のように、判断の根拠が限定的であることも表せる。",
+      "target_id": "usage_note:002"
+    },
+    {
+      "id": "usage_note:003",
+      "status": "pass",
+      "notes": "Verified against the exact article target text: 日常会話では obvious や clear の方が自然な場面が多い。`evident` は報告・説明調の響きがあり、`evident concern`、`evident improvement` のように、外から読み取れる感情や変化を名詞の前で修飾できる。`evidently` は副詞なので、`It is evident that ...` と `Evidently, ...` を品詞ごとに使い分ける。",
+      "target_id": "usage_note:003"
+    },
+    {
+      "id": "synonym:001",
+      "status": "pass",
+      "notes": "Verified against the exact article target text: ・obvious\n定義: 見たり考えたりすれば容易に分かる、明白な。\n頻度: 〈10/10〉\n違い: obvious は日常的で、証拠がなくても直観的に分かることに使える。evident は兆候や状況から判断できることをやや形式的に述べる。\n例: It was obvious from his expression that he was disappointed.\n訳: 彼の表情から、彼が失望しているのは明らかだった。",
+      "target_id": "synonym:001"
+    },
+    {
+      "id": "synonym:002",
+      "status": "pass",
+      "notes": "Verified against the exact article target text: ・clear\n定義: 意味・事実・状況などが疑いなく理解できる、明確な。\n頻度: 〈10/10〉\n違い: clear は説明や指示を「分かりやすくする」意図にも使え、対象範囲が広い。evident は観察可能な兆候から明らかになることに焦点を置きやすい。\n例: The instructions were clear to everyone on the team.\n訳: その指示はチームの全員にとって明確だった。",
+      "target_id": "synonym:002"
+    },
+    {
+      "id": "synonym:003",
+      "status": "pass",
+      "notes": "Verified against the exact article target text: ・apparent\n定義: 観察や状況から、そうだと見て取れる・思われる。\n頻度: 〈8/10〉\n違い: apparent は「そう見える」という含みから、実際には異なる可能性を残すことがある。evident は通常、利用可能な兆候から明らかだという判断をより直接に表す。\n例: It soon became apparent that the schedule was unrealistic.\n訳: その予定が現実的でないことは、まもなく明らかになった。",
+      "target_id": "synonym:003"
+    },
+    {
+      "id": "synonym:004",
+      "status": "pass",
+      "notes": "Verified against the exact article target text: ・plain\n定義: 隠れたところがなく、見たり聞いたりすれば明らかな。\n頻度: 〈7/10〉\n違い: plain は `plain to see`、`make it plain` などで、率直に明示する感じも持つ。evident は感情や結果が兆候として現れる説明に向く。\n例: It was plain to see that the proposal needed more work.\n訳: その提案にさらに検討が必要なのは一目瞭然だった。",
+      "target_id": "synonym:004"
+    },
+    {
+      "id": "synonym:005",
+      "status": "pass",
+      "notes": "Verified against the exact article target text: ・manifest\n定義: 性質・事実・感情などがはっきり外に現れている、明白な。\n頻度: 〈5/10〉\n違い: manifest は evident より硬く、文学・学術・形式的な文脈で、隠れたものが明確に現れたことを強調する。\n例: The report revealed a manifest lack of oversight.\n訳: その報告書は監督が明らかに欠けていたことを示した。",
+      "target_id": "synonym:005"
+    },
+    {
+      "id": "synonym:006",
+      "status": "pass",
+      "notes": "Verified against the exact article target text: ・noticeable\n定義: 見たり感じたりして気づくことができる、目立つ。\n頻度: 〈8/10〉\n違い: noticeable は知覚上の目立ちやすさに焦点があり、そこから命題や判断が理解できることまでは含まない。evident は抽象的な事実や結論にも使える。\n例: There was a noticeable change in his attitude.\n訳: 彼の態度には目立った変化があった。",
+      "target_id": "synonym:006"
+    },
+    {
+      "id": "antonym:001",
+      "status": "pass",
+      "notes": "Verified against the exact article target text: ・unclear\n定義: 意味・理由・状況などがはっきりせず、容易には理解できない。\n頻度: 〈9/10〉\n違い: evident の「情報や兆候から明らかである」という理解可能性の軸に対し、unclear は解釈や判断がまだ定まらない状態を表す。\n例: The reason for the sudden change remains unclear.\n訳: その突然の変化の理由は依然として不明だ。",
+      "target_id": "antonym:001"
+    },
+    {
+      "id": "antonym:002",
+      "status": "pass",
+      "notes": "Verified against the exact article target text: ・obscure\n定義: 見えにくく、知られておらず、理解しにくい。\n頻度: 〈6/10〉\n違い: obscure は情報や特徴が隠れている・目立たないために認識しにくいことを強調し、evident の「前面に現れて分かる」と程度の軸で対照をなす。\n例: The connection between the two events was initially obscure.\n訳: その2つの出来事のつながりは、当初は分かりにくかった。",
+      "target_id": "antonym:002"
+    }
+  ],
+  "relation_results": [
+    {
+      "id": "example_translation:001",
+      "status": "pass",
+      "notes": "Review sequence 1: relation example_translation:001 was checked independently; exact relation description verified: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "relation_id": "example_translation:001"
+    },
+    {
+      "id": "example_translation:002",
+      "status": "pass",
+      "notes": "Review sequence 2: relation example_translation:002 was checked independently; exact relation description verified: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "relation_id": "example_translation:002"
+    },
+    {
+      "id": "example_translation:003",
+      "status": "pass",
+      "notes": "Review sequence 3: relation example_translation:003 was checked independently; exact relation description verified: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "relation_id": "example_translation:003"
+    },
+    {
+      "id": "example_translation:004",
+      "status": "pass",
+      "notes": "Review sequence 4: relation example_translation:004 was checked independently; exact relation description verified: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "relation_id": "example_translation:004"
+    },
+    {
+      "id": "example_translation:005",
+      "status": "pass",
+      "notes": "Review sequence 5: relation example_translation:005 was checked independently; exact relation description verified: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "relation_id": "example_translation:005"
+    },
+    {
+      "id": "example_translation:006",
+      "status": "pass",
+      "notes": "Review sequence 6: relation example_translation:006 was checked independently; exact relation description verified: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "relation_id": "example_translation:006"
+    },
+    {
+      "id": "example_translation:007",
+      "status": "pass",
+      "notes": "Review sequence 7: relation example_translation:007 was checked independently; exact relation description verified: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "relation_id": "example_translation:007"
+    },
+    {
+      "id": "example_translation:008",
+      "status": "pass",
+      "notes": "Review sequence 8: relation example_translation:008 was checked independently; exact relation description verified: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "relation_id": "example_translation:008"
+    },
+    {
+      "id": "sense_definition_consistency:001",
+      "status": "pass",
+      "notes": "Review sequence 9: relation sense_definition_consistency:001 was checked independently; exact relation description verified: 語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。",
+      "relation_id": "sense_definition_consistency:001"
+    },
+    {
+      "id": "definition_usage_consistency:001",
+      "status": "pass",
+      "notes": "Review sequence 10: relation definition_usage_consistency:001 was checked independently; exact relation description verified: 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。",
+      "relation_id": "definition_usage_consistency:001"
+    },
+    {
+      "id": "definition_usage_consistency:002",
+      "status": "pass",
+      "notes": "Review sequence 11: relation definition_usage_consistency:002 was checked independently; exact relation description verified: 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。",
+      "relation_id": "definition_usage_consistency:002"
+    },
+    {
+      "id": "definition_usage_consistency:003",
+      "status": "pass",
+      "notes": "Review sequence 12: relation definition_usage_consistency:003 was checked independently; exact relation description verified: 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。",
+      "relation_id": "definition_usage_consistency:003"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:001",
+      "status": "pass",
+      "notes": "Review sequence 13: relation definition_lexical_relation_consistency:001 was checked independently; exact relation description verified: 語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。",
+      "relation_id": "definition_lexical_relation_consistency:001"
+    },
+    {
+      "id": "pattern_example_coverage:001",
+      "status": "pass",
+      "notes": "Review sequence 14: relation pattern_example_coverage:001 was checked independently; exact relation description verified: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+      "relation_id": "pattern_example_coverage:001"
+    },
+    {
+      "id": "pattern_example_coverage:002",
+      "status": "pass",
+      "notes": "Review sequence 15: relation pattern_example_coverage:002 was checked independently; exact relation description verified: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+      "relation_id": "pattern_example_coverage:002"
+    },
+    {
+      "id": "pattern_example_coverage:003",
+      "status": "pass",
+      "notes": "Review sequence 16: relation pattern_example_coverage:003 was checked independently; exact relation description verified: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+      "relation_id": "pattern_example_coverage:003"
+    },
+    {
+      "id": "pattern_example_coverage:004",
+      "status": "pass",
+      "notes": "Review sequence 17: relation pattern_example_coverage:004 was checked independently; exact relation description verified: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+      "relation_id": "pattern_example_coverage:004"
+    },
+    {
+      "id": "pattern_example_coverage:005",
+      "status": "pass",
+      "notes": "Review sequence 18: relation pattern_example_coverage:005 was checked independently; exact relation description verified: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+      "relation_id": "pattern_example_coverage:005"
+    },
+    {
+      "id": "pattern_example_coverage:006",
+      "status": "pass",
+      "notes": "Review sequence 19: relation pattern_example_coverage:006 was checked independently; exact relation description verified: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+      "relation_id": "pattern_example_coverage:006"
+    },
+    {
+      "id": "pattern_example_coverage:007",
+      "status": "pass",
+      "notes": "Review sequence 20: relation pattern_example_coverage:007 was checked independently; exact relation description verified: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+      "relation_id": "pattern_example_coverage:007"
+    },
+    {
+      "id": "pattern_example_coverage:008",
+      "status": "pass",
+      "notes": "Review sequence 21: relation pattern_example_coverage:008 was checked independently; exact relation description verified: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+      "relation_id": "pattern_example_coverage:008"
+    },
+    {
+      "id": "pattern_example_coverage:009",
+      "status": "pass",
+      "notes": "Review sequence 22: relation pattern_example_coverage:009 was checked independently; exact relation description verified: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+      "relation_id": "pattern_example_coverage:009"
+    },
+    {
+      "id": "article_learning_risk:001",
+      "status": "pass",
+      "notes": "Review sequence 23: relation article_learning_risk:001 was checked independently; exact relation description verified: 記事全体の語義構成、対比、訳語、限定表現から学習者が誤った一般化をしないことを横断確認する。",
+      "relation_id": "article_learning_risk:001"
+    }
+  ],
+  "normal_candidate_results": [],
+  "blind_candidate_results": [
+    {
+      "id": "IC-001",
+      "status": "pass",
+      "notes": "Candidate IC-001 and every sealed semantic assertion were verified against body cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0.",
+      "assertion_ids": [
+        "IC-001-SA-001"
+      ],
+      "verified_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+      "assertion_results": [
+        {
+          "id": "IC-001-SA-001",
+          "status": "pass",
+          "notes": "Assertion IC-001-SA-001 holds in the current body hash cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0."
+        }
+      ]
+    },
+    {
+      "id": "IC-002",
+      "status": "pass",
+      "notes": "Candidate IC-002 and every sealed semantic assertion were verified against body cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0.",
+      "assertion_ids": [
+        "IC-002-SA-001"
+      ],
+      "verified_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+      "assertion_results": [
+        {
+          "id": "IC-002-SA-001",
+          "status": "pass",
+          "notes": "Assertion IC-002-SA-001 holds in the current body hash cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0."
+        }
+      ]
+    },
+    {
+      "id": "IC-003",
+      "status": "pass",
+      "notes": "Candidate IC-003 and every sealed semantic assertion were verified against body cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0.",
+      "assertion_ids": [
+        "IC-003-SA-001"
+      ],
+      "verified_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+      "assertion_results": [
+        {
+          "id": "IC-003-SA-001",
+          "status": "pass",
+          "notes": "Assertion IC-003-SA-001 holds in the current body hash cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0."
+        }
+      ]
+    },
+    {
+      "id": "IC-004",
+      "status": "pass",
+      "notes": "Candidate IC-004 and every sealed semantic assertion were verified against body cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0.",
+      "assertion_ids": [
+        "IC-004-SA-001"
+      ],
+      "verified_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+      "assertion_results": [
+        {
+          "id": "IC-004-SA-001",
+          "status": "pass",
+          "notes": "Assertion IC-004-SA-001 holds in the current body hash cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0."
+        }
+      ]
+    },
+    {
+      "id": "IC-005",
+      "status": "pass",
+      "notes": "Candidate IC-005 and every sealed semantic assertion were verified against body cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0.",
+      "assertion_ids": [
+        "IC-005-SA-001"
+      ],
+      "verified_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+      "assertion_results": [
+        {
+          "id": "IC-005-SA-001",
+          "status": "pass",
+          "notes": "Assertion IC-005-SA-001 holds in the current body hash cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0."
+        }
+      ]
+    },
+    {
+      "id": "IC-006",
+      "status": "pass",
+      "notes": "Candidate IC-006 and every sealed semantic assertion were verified against body cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0.",
+      "assertion_ids": [
+        "IC-006-SA-001",
+        "IC-006-SA-002"
+      ],
+      "verified_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+      "assertion_results": [
+        {
+          "id": "IC-006-SA-001",
+          "status": "pass",
+          "notes": "Assertion IC-006-SA-001 holds in the current body hash cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0."
+        },
+        {
+          "id": "IC-006-SA-002",
+          "status": "pass",
+          "notes": "Assertion IC-006-SA-002 holds in the current body hash cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0."
+        }
+      ]
+    },
+    {
+      "id": "IC-007",
+      "status": "pass",
+      "notes": "Candidate IC-007 and every sealed semantic assertion were verified against body cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0.",
+      "assertion_ids": [
+        "IC-007-SA-001"
+      ],
+      "verified_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+      "assertion_results": [
+        {
+          "id": "IC-007-SA-001",
+          "status": "pass",
+          "notes": "Assertion IC-007-SA-001 holds in the current body hash cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0."
+        }
+      ]
+    },
+    {
+      "id": "IC-008",
+      "status": "pass",
+      "notes": "Candidate IC-008 and every sealed semantic assertion were verified against body cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0.",
+      "assertion_ids": [
+        "IC-008-SA-001"
+      ],
+      "verified_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+      "assertion_results": [
+        {
+          "id": "IC-008-SA-001",
+          "status": "pass",
+          "notes": "Assertion IC-008-SA-001 holds in the current body hash cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0."
+        }
+      ]
+    },
+    {
+      "id": "IC-009",
+      "status": "pass",
+      "notes": "Candidate IC-009 and every sealed semantic assertion were verified against body cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0.",
+      "assertion_ids": [
+        "IC-009-SA-001"
+      ],
+      "verified_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+      "assertion_results": [
+        {
+          "id": "IC-009-SA-001",
+          "status": "pass",
+          "notes": "Assertion IC-009-SA-001 holds in the current body hash cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0."
+        }
+      ]
+    },
+    {
+      "id": "IC-010",
+      "status": "pass",
+      "notes": "Candidate IC-010 and every sealed semantic assertion were verified against body cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0.",
+      "assertion_ids": [
+        "IC-010-SA-001",
+        "IC-010-SA-002"
+      ],
+      "verified_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+      "assertion_results": [
+        {
+          "id": "IC-010-SA-001",
+          "status": "pass",
+          "notes": "Assertion IC-010-SA-001 holds in the current body hash cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0."
+        },
+        {
+          "id": "IC-010-SA-002",
+          "status": "pass",
+          "notes": "Assertion IC-010-SA-002 holds in the current body hash cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0."
+        }
+      ]
+    }
+  ],
+  "finding_results": [
+    {
+      "id": "CR-001",
+      "status": "pass",
+      "notes": "Finding CR-001 was resolved once in pre-blind resolution and its adopted change is present in the current body: make something evident（何かを明白にする）と make it evident that ...（…であることを明らかにする）を別パターンに分ける。"
+    },
+    {
+      "id": "CR-002",
+      "status": "pass",
+      "notes": "Finding CR-002 was resolved once in pre-blind resolution and its adopted change is present in the current body: 「明らかに、どうやら（状況から判断すると）」に限定し、「伝えられるところでは」は削除するか reportedly との違いを明示する。"
+    }
+  ],
+  "evidence_checks": [],
+  "source_inventory_results": [
+    {
+      "id": "U001",
+      "status": "pass",
+      "notes": "Verified source union U001: Evident is an adjective meaning clear or easily seen or understood.",
+      "union_id": "U001"
+    },
+    {
+      "id": "U002",
+      "status": "pass",
+      "notes": "Verified source union U002: Evident combines with to, from, in, and that-clause patterns and with become, be, seem, and make frames.",
+      "union_id": "U002"
+    },
+    {
+      "id": "U003",
+      "status": "pass",
+      "notes": "Verified source union U003: Evident is a somewhat formal clarity adjective and contrasts with apparent when apparent retains a seeming-or-not-necessarily-real sense.",
+      "union_id": "U003"
+    },
+    {
+      "id": "U004",
+      "status": "pass",
+      "notes": "Verified source union U004: The current learner-dictionary pronunciation is /ˈevɪdənt/.",
+      "union_id": "U004"
+    },
+    {
+      "id": "U005",
+      "status": "pass",
+      "notes": "Verified source union U005: Evident has a late Middle English history connected through French and Latin to the idea of seeing clearly.",
+      "union_id": "U005"
+    },
+    {
+      "id": "U006",
+      "status": "pass",
+      "notes": "Verified source union U006: Evidence, evidently, and self-evident are related forms with distinct parts of speech or compound structure.",
+      "union_id": "U006"
+    }
+  ],
+  "checker_recheck_results": [
+    {
+      "id": "translation",
+      "pass_id": "translation",
+      "status": "pass",
+      "notes": "Checker pass translation is valid on body cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0; mode=rechecked."
+    },
+    {
+      "id": "sense-structure",
+      "pass_id": "sense-structure",
+      "status": "pass",
+      "notes": "Checker pass sense-structure is valid on body cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0; mode=rechecked."
+    },
+    {
+      "id": "frame-relation",
+      "pass_id": "frame-relation",
+      "status": "pass",
+      "notes": "Checker pass frame-relation is valid on body cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0; mode=rechecked."
+    },
+    {
+      "id": "example-attribution",
+      "pass_id": "example-attribution",
+      "status": "pass",
+      "notes": "Checker pass example-attribution is valid on body cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0; mode=rechecked."
+    },
+    {
+      "id": "qualification",
+      "pass_id": "qualification",
+      "status": "pass",
+      "notes": "Checker pass qualification is valid on body cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0; mode=rechecked."
+    },
+    {
+      "id": "pronunciation",
+      "pass_id": "pronunciation",
+      "status": "pass",
+      "notes": "Checker pass pronunciation is valid on body cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0; mode=reused."
+    },
+    {
+      "id": "evidence",
+      "pass_id": "evidence",
+      "status": "pass",
+      "notes": "Checker pass evidence is valid on body cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0; mode=rechecked."
+    }
+  ],
+  "chronology_results": [
+    {
+      "id": "body_hash_binding",
+      "check_id": "body_hash_binding",
+      "status": "pass",
+      "notes": "Entry, pre-blind revision, checker recheck, final blind, and blind seal bind to body cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0."
+    },
+    {
+      "id": "cold_and_normal_before_revision",
+      "check_id": "cold_and_normal_before_revision",
+      "status": "pass",
+      "notes": "Normal checker review and cold review both use the fixed pre-revision body hash before the pre-blind revision."
+    },
+    {
+      "id": "revision_before_final_blind",
+      "check_id": "revision_before_final_blind",
+      "status": "pass",
+      "notes": "The pre-blind revision was recorded before the final blind input and the final blind uses the revised body."
+    },
+    {
+      "id": "final_blind_before_seal",
+      "check_id": "final_blind_before_seal",
+      "status": "pass",
+      "notes": "The final blind was recorded before blind seal; seal hashes match the final blind raw output."
+    },
+    {
+      "id": "post_blind_completion",
+      "check_id": "post_blind_completion",
+      "status": "pass",
+      "notes": "Post-blind resolution is complete with no final-blind findings and no adopted post-blind changes."
+    }
+  ],
+  "schema_version": "final_review_v2",
+  "stage": "final_review",
+  "run_id": "blind-evident-20260909T091515Z-5b403bb2",
+  "context_id": "blind-evident-context-20260909T091515Z-5b403bb2",
+  "input_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+  "prompt_sha256": "5fa21ad0e8186e05e00c459e6201d7062a5d550a003831b40e182ba27c7a625a",
+  "input_artifacts": [
+    "entry_body",
+    "sealed_final_blind",
+    "pre_blind_resolution",
+    "post_blind_resolution",
+    "checker_recheck_manifest",
+    "targeted_adjudications",
+    "final_review_spec"
+  ],
+  "blind_output_sha256": "b725aef34ddd4b6532d6f0d842e593159f6606ab9e936c21a4ac81e9c037d45f",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-6-astra-wm",
+    "ingested_by": "human",
+    "agent_id": "evident-final-reconciliation-20260909",
+    "same_model_as_generation": true
+  },
+  "recorded_at": "2026-09-09T10:29:36.208214+00:00"
+}

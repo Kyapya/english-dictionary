@@ -1,0 +1,451 @@
+# Independent checker handoff
+
+Stage: `checker_passes/translation`
+
+Run this request in its own independent subagent/session. The seven checker pass requests are designed to run concurrently; do not concatenate them into one prompt or reuse one subagent for multiple passes.
+
+Save exactly one JSON response as `checker_passes.translation.response.json`. The top-level JSON must include the routed `pass_id` and a `reviewer` object with `mode: "handoff"`, the actual `declared_model`, `ingested_by: "human"`, and a non-empty `agent_id`. Each checker pass must use a different agent_id.
+## Prompt
+
+# check_pass_translation_v6
+
+## 目的
+
+英文・訳文・定義における意味の保存と方向を検査する。自然な意訳は認めるが、見出し語の構文差・含意・作用関係を誤学習させる変化は認めない。
+
+## 担当タクソノミー分類
+
+- `example_translation_alignment`
+- `semantic_direction_reversal`
+
+## 検査ルール
+
+- 各例文と訳について、述語、主語・目的語・補語、行為者・経験者・対象・結果の意味役割を対応させる。
+- 肯定・否定、比較基準、程度、数量、時制、相、法、条件、因果、目的を保存する。
+- 修飾範囲、焦点、対比、情報構造、明示内容と文脈推論の境界、レジスターと話者評価を保存する。
+- コロケーションのpattern・用途・英文・訳が同じ語義、品詞、完全フレームを表すか確認する。英文が別語義でも成立するだけでは合格にしない。
+- 作用する側／される側、上位／下位、原因／結果、全体／部分、評価主体／評価対象を逆転させない。
+- 日本語訳が自然でも、英文にない必然性・意図・結果・専門的効果を追加していればfindingとする。
+- 同じ例文を異なる構文や語義の証明に使い回していないか確認する。
+- 問題が1箇所に見える場合も、同じ訳語・関係が入力section内の別箇所で再発していないか確認する。
+
+## 入力として受け取るセクション
+
+- `definitions`
+- `collocations_examples`
+- `lexical_relations`
+
+front matter、生成過程、通常チェックの過去判断、ACTIVE.mdは受け取らない。
+
+## findingの出力スキーマ
+
+```json
+{
+  "taxonomy_id": "example_translation_alignment | semantic_direction_reversal",
+  "location": {
+    "section": "router section selector",
+    "line_start": 1,
+    "line_end": 1,
+    "exact_quote": "本文からの改変していない引用"
+  },
+  "severity": "blocking | minor",
+  "rationale": "何がどの方向・範囲・強さで不一致か",
+  "evidence_link_ids": [],
+  "suggested_direction": "意味を変えずに直す方向"
+}
+```
+
+`taxonomy_id`、位置、severity、根拠を必須とする。事実・語法・例文/訳の正誤に関わるものは `blocking`、事実関係を変えない局所的な日本語調整だけを `minor` とする。
+
+
+## Input packet
+
+```json
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "translation",
+  "taxonomy_ids": [
+    "example_translation_alignment",
+    "semantic_direction_reversal"
+  ],
+  "specification": "prompts/check_pass_translation_v6.md",
+  "input_body_sha256": "7daa0d416ecef06000548e2f59c08bd4394750574e23f19e24855a4a6339257a",
+  "input_sections": {
+    "definitions": [
+      {
+        "line": 30,
+        "text": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている"
+      },
+      {
+        "line": 32,
+        "text": "【日本語訳・定義】見える特徴、行動、データ、状況などから、ある事実・状態・感情・評価を容易に認識または理解できることを表す。観察した人にとって明白だという意味であり、語そのものが論理的な証明や絶対的な確実性まで保証するわけではない。  "
+      }
+    ],
+    "collocations_examples": [
+      {
+        "line": 30,
+        "text": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている"
+      },
+      {
+        "line": 40,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 42,
+        "text": "・it is evident that 〈節〉  "
+      },
+      {
+        "line": 43,
+        "text": "用途: 状況や観察結果から、ある判断が明らかだと述べる基本構文。  "
+      },
+      {
+        "line": 44,
+        "text": "例: It is evident that the current plan cannot meet the deadline.  "
+      },
+      {
+        "line": 45,
+        "text": "訳: 現在の計画では期限に間に合わないことが明らかだ。  "
+      },
+      {
+        "line": 47,
+        "text": "・be evident to someone  "
+      },
+      {
+        "line": 48,
+        "text": "用途: 何が誰にとって明らかなのかを示す。  "
+      },
+      {
+        "line": 49,
+        "text": "例: The benefits of the new system were immediately evident to the staff.  "
+      },
+      {
+        "line": 50,
+        "text": "訳: 新しいシステムの利点は職員にはすぐに明らかになった。  "
+      },
+      {
+        "line": 52,
+        "text": "・be evident from 〈data・evidence・results〉 that 〈節〉  "
+      },
+      {
+        "line": 53,
+        "text": "用途: 明白だと判断する根拠や情報源を示す。  "
+      },
+      {
+        "line": 54,
+        "text": "例: It was evident from the audit results that several invoices had been duplicated.  "
+      },
+      {
+        "line": 55,
+        "text": "訳: 監査結果から、複数の請求書が重複していたことは明らかだった。  "
+      },
+      {
+        "line": 57,
+        "text": "・be evident in 〈expression・behavior・pattern〉  "
+      },
+      {
+        "line": 58,
+        "text": "用途: 感情や特徴が表情・行動・結果などに現れていることを表す。  "
+      },
+      {
+        "line": 59,
+        "text": "例: Her disappointment was evident in the way she avoided eye contact.  "
+      },
+      {
+        "line": 60,
+        "text": "訳: 彼女が目を合わせようとしなかったことに、失望がはっきり表れていた。  "
+      },
+      {
+        "line": 62,
+        "text": "・become evident  "
+      },
+      {
+        "line": 63,
+        "text": "用途: 時間の経過や追加情報によって、それまで不明だったことが明らかになることを表す。  "
+      },
+      {
+        "line": 64,
+        "text": "例: The scale of the damage became evident after the smoke cleared.  "
+      },
+      {
+        "line": 65,
+        "text": "訳: 煙が晴れた後、被害の規模が明らかになった。  "
+      },
+      {
+        "line": 67,
+        "text": "・make it evident that 〈節〉  "
+      },
+      {
+        "line": 68,
+        "text": "用途: 数値、言動、結果などによって、ある判断を明白にする。  "
+      },
+      {
+        "line": 69,
+        "text": "例: The revised figures made it evident that the original estimate was too optimistic.  "
+      },
+      {
+        "line": 70,
+        "text": "訳: 修正後の数値によって、当初の見積もりが楽観的すぎたことが明らかになった。  "
+      },
+      {
+        "line": 72,
+        "text": "・evident signs of 〈change・stress・recovery〉  "
+      },
+      {
+        "line": 73,
+        "text": "用途: 変化、ストレス、回復などが起きていると分かる兆候を表す。  "
+      },
+      {
+        "line": 74,
+        "text": "例: The patient showed evident signs of recovery after the treatment.  "
+      },
+      {
+        "line": 75,
+        "text": "訳: その患者には治療後、回復の明らかな兆候が見られた。  "
+      },
+      {
+        "line": 77,
+        "text": "・with evident 〈relief・pleasure・concern〉  "
+      },
+      {
+        "line": 78,
+        "text": "用途: 表情や声などに感情が明確に現れている様子を表す。  "
+      },
+      {
+        "line": 79,
+        "text": "例: She spoke with evident relief after the results were announced.  "
+      },
+      {
+        "line": 80,
+        "text": "訳: 結果が発表された後、彼女はほっとした様子をはっきり見せて話した。  "
+      }
+    ],
+    "lexical_relations": [
+      {
+        "line": 30,
+        "text": "1. 【形容詞・限定用法／叙述用法】明らかな、明白な、はっきり表れている"
+      },
+      {
+        "line": 88,
+        "text": "【類義語】"
+      },
+      {
+        "line": 90,
+        "text": "・obvious  "
+      },
+      {
+        "line": 91,
+        "text": "定義: 見たり考えたりすれば容易に分かる、明白な。  "
+      },
+      {
+        "line": 92,
+        "text": "頻度: 〈10/10〉  "
+      },
+      {
+        "line": 93,
+        "text": "違い: obvious は日常的で、証拠がなくても直観的に分かることに使える。evident は兆候や状況から判断できることをやや形式的に述べる。  "
+      },
+      {
+        "line": 94,
+        "text": "例: It was obvious from his expression that he was disappointed.  "
+      },
+      {
+        "line": 95,
+        "text": "訳: 彼の表情から、彼が失望しているのは明らかだった。  "
+      },
+      {
+        "line": 97,
+        "text": "・clear  "
+      },
+      {
+        "line": 98,
+        "text": "定義: 意味・事実・状況などが疑いなく理解できる、明確な。  "
+      },
+      {
+        "line": 99,
+        "text": "頻度: 〈10/10〉  "
+      },
+      {
+        "line": 100,
+        "text": "違い: clear は説明や指示を「分かりやすくする」意図にも使え、対象範囲が広い。evident は観察可能な兆候から明らかになることに焦点を置きやすい。  "
+      },
+      {
+        "line": 101,
+        "text": "例: The instructions were clear to everyone on the team.  "
+      },
+      {
+        "line": 102,
+        "text": "訳: その指示はチームの全員にとって明確だった。  "
+      },
+      {
+        "line": 104,
+        "text": "・apparent  "
+      },
+      {
+        "line": 105,
+        "text": "定義: 観察や状況から、そうだと見て取れる・思われる。  "
+      },
+      {
+        "line": 106,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 107,
+        "text": "違い: apparent は「そう見える」という含みから、実際には異なる可能性を残すことがある。evident は通常、利用可能な兆候から明らかだという判断をより直接に表す。  "
+      },
+      {
+        "line": 108,
+        "text": "例: It soon became apparent that the schedule was unrealistic.  "
+      },
+      {
+        "line": 109,
+        "text": "訳: その予定が現実的でないことは、まもなく明らかになった。  "
+      },
+      {
+        "line": 111,
+        "text": "・plain  "
+      },
+      {
+        "line": 112,
+        "text": "定義: 隠れたところがなく、見たり聞いたりすれば明らかな。  "
+      },
+      {
+        "line": 113,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 114,
+        "text": "違い: plain は `plain to see`、`make it plain` などで、率直に明示する感じも持つ。evident は感情や結果が兆候として現れる説明に向く。  "
+      },
+      {
+        "line": 115,
+        "text": "例: It was plain to see that the proposal needed more work.  "
+      },
+      {
+        "line": 116,
+        "text": "訳: その提案にさらに検討が必要なのは一目瞭然だった。  "
+      },
+      {
+        "line": 118,
+        "text": "・manifest  "
+      },
+      {
+        "line": 119,
+        "text": "定義: 性質・事実・感情などがはっきり外に現れている、明白な。  "
+      },
+      {
+        "line": 120,
+        "text": "頻度: 〈5/10〉  "
+      },
+      {
+        "line": 121,
+        "text": "違い: manifest は evident より硬く、文学・学術・形式的な文脈で、隠れたものが明確に現れたことを強調する。  "
+      },
+      {
+        "line": 122,
+        "text": "例: The report revealed a manifest lack of oversight.  "
+      },
+      {
+        "line": 123,
+        "text": "訳: その報告書は監督が明らかに欠けていたことを示した。  "
+      },
+      {
+        "line": 125,
+        "text": "・noticeable  "
+      },
+      {
+        "line": 126,
+        "text": "定義: 見たり感じたりして気づくことができる、目立つ。  "
+      },
+      {
+        "line": 127,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 128,
+        "text": "違い: noticeable は知覚上の目立ちやすさに焦点があり、そこから命題や判断が理解できることまでは含まない。evident は抽象的な事実や結論にも使える。  "
+      },
+      {
+        "line": 129,
+        "text": "例: There was a noticeable change in his attitude.  "
+      },
+      {
+        "line": 130,
+        "text": "訳: 彼の態度には目立った変化があった。  "
+      },
+      {
+        "line": 132,
+        "text": "【反意語】"
+      },
+      {
+        "line": 134,
+        "text": "・unclear  "
+      },
+      {
+        "line": 135,
+        "text": "定義: 意味・理由・状況などがはっきりせず、容易には理解できない。  "
+      },
+      {
+        "line": 136,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 137,
+        "text": "違い: evident の「情報や兆候から明らかである」という理解可能性の軸に対し、unclear は解釈や判断がまだ定まらない状態を表す。  "
+      },
+      {
+        "line": 138,
+        "text": "例: The reason for the sudden change remains unclear.  "
+      },
+      {
+        "line": 139,
+        "text": "訳: その突然の変化の理由は依然として不明だ。  "
+      },
+      {
+        "line": 141,
+        "text": "・obscure  "
+      },
+      {
+        "line": 142,
+        "text": "定義: 見えにくく、知られておらず、理解しにくい。  "
+      },
+      {
+        "line": 143,
+        "text": "頻度: 〈6/10〉  "
+      },
+      {
+        "line": 144,
+        "text": "違い: obscure は情報や特徴が隠れている・目立たないために認識しにくいことを強調し、evident の「前面に現れて分かる」と程度の軸で対照をなす。  "
+      },
+      {
+        "line": 145,
+        "text": "例: The connection between the two events was initially obscure.  "
+      },
+      {
+        "line": 146,
+        "text": "訳: その2つの出来事のつながりは、当初は分かりにくかった。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "d09d822f58ea8bcff9aa2890f988ad7aca9a9d3a773b5f9da5427f783ae25bb3",
+  "source_artifact_sha256": "332d09df7349e755d8dc6fd003742cfb167fb68b64ad41f2a7d6f90fd5d329d9",
+  "normalized_input_sha256": "cc50ed901a9eb506be15a7c7811c7904c4254910eb912a3ff0f811583b23b3ca"
+}
+```
