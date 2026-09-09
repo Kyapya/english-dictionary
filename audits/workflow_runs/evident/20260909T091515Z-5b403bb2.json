@@ -582,6 +582,14 @@
         ],
         "receipt_event_id": "workflow:20260909T091515Z-5b403bb2:generation:7211e14f0e82",
         "recorded_at": "2026-09-09T09:25:36Z"
+      },
+      "pre_blind_resolution": {
+        "status": "no_applicable",
+        "source_refs": [
+          "audits/runs/e/evident/20260909T091515Z-5b403bb2/pre_blind_resolution.json"
+        ],
+        "receipt_event_id": "workflow:20260909T091515Z-5b403bb2:pre_blind_resolution:b9b2fa8f52d7",
+        "recorded_at": "2026-09-09T10:09:54Z"
       }
     },
     "pending_events": [],
@@ -590,7 +598,7 @@
   "metrics": {
     "schema_version": "workflow_cost_v1",
     "total_cycles": 1,
-    "total_revisions": 0,
+    "total_revisions": 1,
     "total_duration_seconds": 0.0,
     "completed_at": "",
     "stages": [
@@ -642,11 +650,11 @@
       {
         "id": "pre_blind_resolution",
         "instruction_bytes": 5567,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
-        "defects_detected": 0,
-        "revision_count": 0,
-        "completed": false
+        "input_bytes": 30000,
+        "duration_seconds": 120.0,
+        "defects_detected": 2,
+        "revision_count": 1,
+        "completed": true
       },
       {
         "id": "checker_recheck",
@@ -778,13 +786,14 @@
     }
   },
   "orchestrator_state": {
-    "next_stage_index": 5,
+    "next_stage_index": 6,
     "completed_stages": [
       "guard_start",
       "generation",
       "mechanical_validator",
       "checker_passes",
-      "cold_review"
+      "cold_review",
+      "pre_blind_resolution"
     ],
     "stage_outputs": {
       "generation": [
@@ -801,6 +810,10 @@
       ],
       "cold_review": [
         "audits/runs/e/evident/20260909T091515Z-5b403bb2/cold_review.json"
+      ],
+      "pre_blind_resolution": [
+        "audits/runs/e/evident/20260909T091515Z-5b403bb2/pre_blind_resolution.json",
+        "audits/runs/e/evident/20260909T091515Z-5b403bb2/pre_blind_revision.json"
       ]
     }
   },
