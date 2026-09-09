@@ -23,7 +23,7 @@
   "started_at": "2026-09-09T09:15:15Z",
   "deadline_at": "2026-09-09T10:15:15Z",
   "pre_draft_deadline_at": "2026-09-09T09:35:15Z",
-  "last_heartbeat_at": "2026-09-09T09:55:12Z",
+  "last_heartbeat_at": "2026-09-09T10:21:29Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-09T09:18:00Z",
@@ -668,11 +668,11 @@
       {
         "id": "final_blind",
         "instruction_bytes": 3580,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 12000,
+        "duration_seconds": 120.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "blind_seal",
@@ -786,7 +786,7 @@
     }
   },
   "orchestrator_state": {
-    "next_stage_index": 7,
+    "next_stage_index": 8,
     "completed_stages": [
       "guard_start",
       "generation",
@@ -794,7 +794,8 @@
       "checker_passes",
       "cold_review",
       "pre_blind_resolution",
-      "checker_recheck"
+      "checker_recheck",
+      "final_blind"
     ],
     "stage_outputs": {
       "generation": [
@@ -818,6 +819,9 @@
       ],
       "checker_recheck": [
         "audits/runs/e/evident/20260909T091515Z-5b403bb2/checker_recheck_manifest.json"
+      ],
+      "final_blind": [
+        "audits/runs/e/evident/20260909T091515Z-5b403bb2/final_blind.json"
       ]
     }
   },
@@ -825,5 +829,12 @@
     "mode": "connector"
   },
   "review_preflight": "review_preflight_v1",
-  "time_warnings": {}
+  "time_warnings": {
+    "elapsed_target_exceeded": {
+      "first_observed_at": "2026-09-09T10:19:45Z",
+      "target_at": "2026-09-09T10:15:15Z",
+      "stage": "cold_review_complete",
+      "action": "record the delay cause and resume the same run; do not restart reviews"
+    }
+  }
 }
