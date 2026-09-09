@@ -27,7 +27,9 @@ jobs:
         with:
           python-version: '3.12'
       - name: Apply exact-source-checked changes
-        run: python .maintenance/review-preflight/apply.py
+        run: |
+          python .maintenance/review-preflight/apply.py
+          python .maintenance/review-preflight/compat.py
       - name: Compile scripts and tests
         run: python -m compileall -q scripts tests
       - name: Run regression suite
