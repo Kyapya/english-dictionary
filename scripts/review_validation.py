@@ -108,7 +108,7 @@ def resolution_errors(items: Any, expected_ids: set[str] | None,
                            else f"resolution {rid}.status must be resolved")
                 errors.append(issue("resolution_mismatch", f"resolutions.{rid}.{field}",
                                     message, expected=expected, actual=row.get(field)))
-        if row.get("disposition") not in {"adopted", "rejected"}:
+        if row.get("disposition") not in ("adopted", "rejected"):
             errors.append(issue("resolution_disposition", f"resolutions.{rid}.disposition", f"resolution {rid}.disposition is invalid"))
         if not str(row.get("rationale", "")).strip():
             errors.append(issue("resolution_rationale", f"resolutions.{rid}.rationale", f"resolution {rid}.rationale is required"))
@@ -265,7 +265,8 @@ def final_input_report(entry: Path, cycle: Path, root: Path, *,
              for row in (outputs if isinstance(outputs, list) else []))
     generation_model = audit._entry_front_matter(entry).get("model")
     for i, output in enumerate(outputs if isinstance(outputs, list) else []):
-        if not isinstance(output, dict) or output.get("pass_id") not in expected_passes:
+        if (not isinstance(output, dict) or not isinstance(output.get("pass_id"), str)
+                or output["pass_id"] not in expected_passes):
             continue
         pid = output["pass_id"]
         request = optional("check_passes/" + pid + ".request.json")

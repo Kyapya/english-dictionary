@@ -2748,6 +2748,9 @@ def _resume(
                 manifest, resolved, stage=str(stage_name), error=exc
             )
         guard.clear_review_ingest_failures(manifest)
+        review_recovery.resolve_validation_failure(manifest, stage=str(stage_name))
+        manifest.pop("last_rejected_review", None)
+        guard._write(resolved, manifest)
     next_request = next_stage_request(manifest)
     if next_request is not None:
         ensure_process_improvement_input(
