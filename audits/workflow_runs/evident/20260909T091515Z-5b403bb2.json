@@ -622,6 +622,14 @@
         ],
         "receipt_event_id": "workflow:20260909T091515Z-5b403bb2:pre_blind_resolution:b9b2fa8f52d7",
         "recorded_at": "2026-09-09T10:09:54Z"
+      },
+      "post_blind_resolution": {
+        "status": "no_applicable",
+        "source_refs": [
+          "audits/runs/e/evident/20260909T091515Z-5b403bb2/post_blind_resolution.json"
+        ],
+        "receipt_event_id": "workflow:20260909T091515Z-5b403bb2:post_blind_resolution:7dc2f920057b",
+        "recorded_at": "2026-09-09T10:25:40Z"
       }
     },
     "pending_events": [],
@@ -718,11 +726,11 @@
       {
         "id": "post_blind_resolution",
         "instruction_bytes": 5411,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 25000,
+        "duration_seconds": 120.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "final_review",
@@ -818,7 +826,7 @@
     }
   },
   "orchestrator_state": {
-    "next_stage_index": 9,
+    "next_stage_index": 10,
     "completed_stages": [
       "guard_start",
       "generation",
@@ -828,7 +836,8 @@
       "pre_blind_resolution",
       "checker_recheck",
       "final_blind",
-      "blind_seal"
+      "blind_seal",
+      "post_blind_resolution"
     ],
     "stage_outputs": {
       "generation": [
@@ -858,6 +867,11 @@
       ],
       "blind_seal": [
         "audits/runs/e/evident/20260909T091515Z-5b403bb2/blind_seal.json"
+      ],
+      "post_blind_resolution": [
+        "audits/runs/e/evident/20260909T091515Z-5b403bb2/post_blind_resolution.json",
+        "audits/runs/e/evident/20260909T091515Z-5b403bb2/post_blind_verification.json",
+        "audits/runs/e/evident/20260909T091515Z-5b403bb2/resolutions.json"
       ]
     }
   },
