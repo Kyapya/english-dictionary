@@ -1508,5 +1508,29 @@
       "notes": "Chronology check post_blind_completion passed against the sealed workflow records."
     }
   ],
-  "input_revision_id": "7bf4e45b1fd8f2c5c18f909e5765ed1e7f3380e1e7c3e4b984424555f41444fa"
+  "input_revision_id": "7bf4e45b1fd8f2c5c18f909e5765ed1e7f3380e1e7c3e4b984424555f41444fa",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "codex-gpt-5",
+    "ingested_by": "human",
+    "agent_id": "sensible-final-review-20260910T051329Z-d04b0c6c",
+    "same_model_as_generation": true
+  },
+  "schema_version": "final_review_v2",
+  "stage": "final_review",
+  "run_id": "blind-sensible-20260910T051329Z-d04b0c6c",
+  "context_id": "blind-sensible-context-20260910T051329Z-d04b0c6c",
+  "input_body_sha256": "dce1e8375f2e9709647eb4c0fd89fa016895cec32363a81b3950d8cdb28a2078",
+  "prompt_sha256": "5fa21ad0e8186e05e00c459e6201d7062a5d550a003831b40e182ba27c7a625a",
+  "input_artifacts": [
+    "entry_body",
+    "sealed_final_blind",
+    "pre_blind_resolution",
+    "post_blind_resolution",
+    "checker_recheck_manifest",
+    "targeted_adjudications",
+    "final_review_spec"
+  ],
+  "blind_output_sha256": "6bccf9b0a6023b9b433666c3fdf11bf3ba92be7e561224f2065b0bdea16afc3b",
+  "recorded_at": "2026-09-10T06:19:14.970171+00:00"
 }

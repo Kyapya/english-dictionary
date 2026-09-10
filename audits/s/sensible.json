@@ -1,44 +1,76 @@
 {
-  "schema_version": "content_audit_v3",
+  "schema_version": "content_audit_v4",
+  "generated_by": "generate_audit_manifest_v1",
   "entry_path": "entries/s/sensible.md",
-  "final_review": {
-    "source_inventory_results": [
-      {
-        "union_id": "U001",
-        "status": "pending",
-        "notes": ""
-      },
-      {
-        "union_id": "U002",
-        "status": "pending",
-        "notes": ""
-      },
-      {
-        "union_id": "U003",
-        "status": "pending",
-        "notes": ""
-      },
-      {
-        "union_id": "U004",
-        "status": "pending",
-        "notes": ""
-      },
-      {
-        "union_id": "U005",
-        "status": "pending",
-        "notes": ""
-      },
-      {
-        "union_id": "U006",
-        "status": "pending",
-        "notes": ""
-      },
-      {
-        "union_id": "U007",
-        "status": "pending",
-        "notes": ""
-      }
-    ]
+  "cycle_id": "20260910T051329Z-d04b0c6c",
+  "cycle_dir": "audits/runs/s/sensible/20260910T051329Z-d04b0c6c",
+  "body_sha256": "dce1e8375f2e9709647eb4c0fd89fa016895cec32363a81b3950d8cdb28a2078",
+  "raw_outputs": {
+    "source_inventory": {
+      "path": "audits/runs/s/sensible/20260910T051329Z-d04b0c6c/source_inventory.json",
+      "sha256": "bc034f886bfc561d61c0286ae93c72691e976448aa4e19018dd21d869890beb7",
+      "stage": "source_inventory",
+      "run_id": "source-sensible-20260910T051329Z-d04b0c6c",
+      "context_id": "source-sensible-context-20260910T051329Z-d04b0c6c",
+      "input_body_sha256": "dce1e8375f2e9709647eb4c0fd89fa016895cec32363a81b3950d8cdb28a2078",
+      "prompt_sha256": "a5172ff43a877d1434d7396c9e545bd40fb15b4af21b0dc74624088e6bca0b45",
+      "recorded_at": "2026-09-10T05:31:26Z"
+    },
+    "normal_review": {
+      "path": "audits/runs/s/sensible/20260910T051329Z-d04b0c6c/pass_findings.json",
+      "sha256": "6d57a4d649674fdb1344af849a4171924781740ca03a9b7db16db7632a809f30",
+      "stage": "normal_review",
+      "run_id": "normal-sensible-20260910T051329Z-d04b0c6c",
+      "context_id": "normal-sensible-context-20260910T051329Z-d04b0c6c",
+      "input_body_sha256": "dce1e8375f2e9709647eb4c0fd89fa016895cec32363a81b3950d8cdb28a2078",
+      "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
+      "recorded_at": "2026-09-10T05:43:35.783003+00:00"
+    },
+    "cold_review": {
+      "path": "audits/runs/s/sensible/20260910T051329Z-d04b0c6c/cold_review.json",
+      "sha256": "19c4fc0238e1a52b7fdab8cf03b9b2d5107a2e610455629fc5c4a5211fa822d4",
+      "stage": "cold_review",
+      "run_id": "cold-sensible-20260910T051329Z-d04b0c6c",
+      "context_id": "cold-sensible-context-20260910T051329Z-d04b0c6c",
+      "input_body_sha256": "dce1e8375f2e9709647eb4c0fd89fa016895cec32363a81b3950d8cdb28a2078",
+      "prompt_sha256": "25c298d1a4305746147791bd442cd725a92737c8f0802b992ea88e5c6ff76a5d",
+      "recorded_at": "2026-09-10T05:50:43.480617+00:00"
+    },
+    "resolutions": {
+      "path": "audits/runs/s/sensible/20260910T051329Z-d04b0c6c/resolutions.json",
+      "sha256": "87648dfb7746490bda17f9a11882eff8db87f9f2aea1b8b8380cb55a7c914ad7",
+      "stage": "resolutions",
+      "run_id": "resolution-sensible-20260910T051329Z-d04b0c6c",
+      "context_id": "resolution-sensible-context-20260910T051329Z-d04b0c6c",
+      "input_body_sha256": "dce1e8375f2e9709647eb4c0fd89fa016895cec32363a81b3950d8cdb28a2078",
+      "prompt_sha256": "a9d45b3ce76ce719002bdd08001e84be0fb984119e14376dc1cd2e964c7e3f92",
+      "recorded_at": "2026-09-10T06:05:04.538836+00:00"
+    },
+    "final_blind": {
+      "path": "audits/runs/s/sensible/20260910T051329Z-d04b0c6c/final_blind.json",
+      "sha256": "f384d4eec70f9da2a537e58cf752ebdfac1b7bac44b17d0f9b70b4165d48c5fe",
+      "stage": "final_blind",
+      "run_id": "blind-sensible-20260910T051329Z-d04b0c6c",
+      "context_id": "blind-sensible-context-20260910T051329Z-d04b0c6c",
+      "input_body_sha256": "dce1e8375f2e9709647eb4c0fd89fa016895cec32363a81b3950d8cdb28a2078",
+      "prompt_sha256": "3a481b4b5b1236ff386e148bcacc574570b305e79f5e155e9afcd34091f7785c",
+      "recorded_at": "2026-09-10T06:00:13.921738+00:00"
+    },
+    "blind_seal": {
+      "path": "audits/runs/s/sensible/20260910T051329Z-d04b0c6c/blind_seal.json",
+      "sha256": "7c30ada8881667e79201c16064ccce75ede76422fdf34c4d07e569bf15c0a54f",
+      "stage": "blind_seal"
+    },
+    "final_review": {
+      "path": "audits/runs/s/sensible/20260910T051329Z-d04b0c6c/final_review.json",
+      "sha256": "057464cbf2014578a5a2d1fa509ba033bfc179c8d497a5cf17f7c5935ead0634",
+      "stage": "final_review",
+      "run_id": "blind-sensible-20260910T051329Z-d04b0c6c",
+      "context_id": "blind-sensible-context-20260910T051329Z-d04b0c6c",
+      "input_body_sha256": "dce1e8375f2e9709647eb4c0fd89fa016895cec32363a81b3950d8cdb28a2078",
+      "prompt_sha256": "5fa21ad0e8186e05e00c459e6201d7062a5d550a003831b40e182ba27c7a625a",
+      "recorded_at": "2026-09-10T06:19:14.970171+00:00"
+    }
   },
   "source_first_audit": {
     "version": "source_first_audit_v2",
@@ -630,5 +662,46 @@
         ]
       }
     ]
-  }
+  },
+  "findings": [],
+  "resolutions": [],
+  "final_decision": {
+    "decision": "pass",
+    "blockers": [],
+    "notes": [
+      "All target and relation results are individually grounded in the current entry text and preserve the recorded semantic relations.",
+      "The seven checker passes, cold review, pre/post-blind resolution partitions, checker recheck/reuse manifest, and targeted-adjudication inventory are complete with no unresolved blocker.",
+      "The sealed final blind inventory is consistent with the current body hash and the final reconciliation chronology."
+    ],
+    "reviewed_at": "2026-09-10T06:19:14.970171+00:00",
+    "blind_output_sha256": "6bccf9b0a6023b9b433666c3fdf11bf3ba92be7e561224f2065b0bdea16afc3b"
+  },
+  "workflow_revision": {
+    "schema_version": "workflow_revision_v1",
+    "artifacts": {
+      "pre_blind_resolution": {
+        "path": "audits/runs/s/sensible/20260910T051329Z-d04b0c6c/pre_blind_resolution.json",
+        "sha256": "62eae0bf53e5dbbed2dafb02737531a9616526f711ad2ffeb8db6123a56acd09"
+      },
+      "pre_blind_revision": {
+        "path": "audits/runs/s/sensible/20260910T051329Z-d04b0c6c/pre_blind_revision.json",
+        "sha256": "19283528fc06f1622231f5a2981823c4e10d99821e68875ff82930df930997b2"
+      },
+      "checker_recheck_manifest": {
+        "path": "audits/runs/s/sensible/20260910T051329Z-d04b0c6c/checker_recheck_manifest.json",
+        "sha256": "1461bc09bc4422bb4e33994048b23655659e44d22f38cca96f1a2f4fd1978cd3"
+      },
+      "post_blind_resolution": {
+        "path": "audits/runs/s/sensible/20260910T051329Z-d04b0c6c/post_blind_resolution.json",
+        "sha256": "7dc2f920057bc5fa6ac3d76f75e2d66c3a0b209dd3c849f5a7dcb88dd57d0e51"
+      },
+      "post_blind_verification": {
+        "path": "audits/runs/s/sensible/20260910T051329Z-d04b0c6c/post_blind_verification.json",
+        "sha256": "3b58ca728b12916ca36721363ba77377a4f4a11b57acc058afcccf75e0d68efd"
+      }
+    },
+    "targeted_adjudications": []
+  },
+  "invalidated_by": [],
+  "review_liveness_errors": []
 }
