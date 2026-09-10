@@ -661,11 +661,11 @@
       {
         "id": "checker_recheck",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 65000,
+        "duration_seconds": 420.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "final_blind",
@@ -788,14 +788,15 @@
     }
   },
   "orchestrator_state": {
-    "next_stage_index": 6,
+    "next_stage_index": 7,
     "completed_stages": [
       "guard_start",
       "generation",
       "mechanical_validator",
       "checker_passes",
       "cold_review",
-      "pre_blind_resolution"
+      "pre_blind_resolution",
+      "checker_recheck"
     ],
     "stage_outputs": {
       "generation": [
@@ -816,6 +817,9 @@
       "pre_blind_resolution": [
         "audits/runs/s/sensible/20260910T051329Z-d04b0c6c/pre_blind_resolution.json",
         "audits/runs/s/sensible/20260910T051329Z-d04b0c6c/pre_blind_revision.json"
+      ],
+      "checker_recheck": [
+        "audits/runs/s/sensible/20260910T051329Z-d04b0c6c/checker_recheck_manifest.json"
       ]
     }
   },
