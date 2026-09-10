@@ -1,0 +1,29 @@
+{
+  "schema_version": "process_improvement_input_v2",
+  "knowledge_epoch": "pi2-2026-09-06",
+  "recipient": "coordinator",
+  "phase": "post_blind_resolution",
+  "features": [
+    "concessive_admission",
+    "formal_award",
+    "formal_permission",
+    "funding_noun",
+    "legal_approval",
+    "legal_noun",
+    "take_for_granted",
+    "verb"
+  ],
+  "limits": {
+    "max_items": 8,
+    "max_bytes": 8192
+  },
+  "selected": [],
+  "skipped": [],
+  "input_bytes": 349,
+  "input_sha256": "1512ab0b32a27e42b076070e6d63023cb8e0948f73d7e3c363cd3ead053159a9",
+  "run_id": "20260909T144340Z-1f52139a",
+  "created_at": "2026-09-09T15:16:48Z",
+  "snapshot_path": "audits/runs/g/grant/20260909T144340Z-1f52139a/process_improvement/coordinator-post_blind_resolution.snapshot.md",
+  "machine_duration_seconds": 0.003122,
+  "additional_llm_calls": 0
+}

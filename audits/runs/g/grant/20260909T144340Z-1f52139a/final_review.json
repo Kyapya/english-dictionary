@@ -1,0 +1,2852 @@
+{
+  "schema_version": "final_review_v2",
+  "stage": "final_review",
+  "run_id": "blind-grant-20260909T144340Z-1f52139a",
+  "context_id": "blind-grant-context-20260909T144340Z-1f52139a",
+  "input_body_sha256": "2476d7dd3e5337329be8ca2f86dd85153d56c7518b43c05dbbfd23b45963dde9",
+  "prompt_sha256": "fbccee89d1dddb614b3efd42583961327af5ced95a4d44ef099c034f09d2d0b5",
+  "input_artifacts": [
+    "entry_body",
+    "sealed_final_blind",
+    "pre_blind_resolution",
+    "post_blind_resolution",
+    "checker_recheck_manifest",
+    "targeted_adjudications",
+    "final_review_spec"
+  ],
+  "recorded_at": "2026-09-09T15:07:00Z",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-6-astra",
+    "ingested_by": "human",
+    "agent_id": "grant-final-adjudicator",
+    "same_model_as_generation": true
+  },
+  "blind_output_sha256": "892f8d3e9b377e1b9f600ddbce1288d8c9ca5be78e757581a12721044dbdb849",
+  "decision": "pass",
+  "blockers": [],
+  "notes": [
+    "本文・出典インベントリ・独立チェッカー7系統・コールドレビュー・封印済みブラインドレビューを照合した。"
+  ],
+  "target_results": [
+    {
+      "id": "pronunciation:001",
+      "status": "pass",
+      "notes": "本文項目 米: /ɡrænt/｜英: /ɡrɑːnt/。1音節で、語頭の /ɡr/ に続いて母音、最後に /nt/ が来る。米音の /æ/ は *cat* の母音に近く、英音の /ɑː/ は *father* の母音に近い。過去形・過去分詞 granted は米 /ˈɡræntɪd/、英 /ˈɡrɑːntɪd/、-ing形 granting は米 /ˈɡræntɪŋ/、英 /ˈɡrɑːntɪŋ/。語末の /t/ を落とさず発音する。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "etymology:001",
+      "status": "pass",
+      "notes": "本文項目 中英語を経て、古フランス語 *granter*「同意する、保証する」から入った語。古フランス語の形は、ラテン語 *credere*「信じる、託す」と関係する形から発達したとされる。もともと相手の求めや主張を認めることから、「正式に与える・許可する」、さらに「認める・譲歩する」へ意味が広がった。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "word_formation:001",
+      "status": "pass",
+      "notes": "本文項目 ・granted：*grant* の過去形・過去分詞。「与えられた、認められた」。文頭の `Granted, ...` では、相手の主張をいったん認めてから反対の点を述べる接続的な表現になる。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "word_formation:002",
+      "status": "pass",
+      "notes": "本文項目 ・granting：現在分詞・動名詞。「与えること、認めること」。`granting that ...` では「～だと認めるなら、仮に～としても」。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "word_formation:003",
+      "status": "pass",
+      "notes": "本文項目 ・grantee：grant を受ける人・組織、特に補助金や権利の受給者。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "word_formation:004",
+      "status": "pass",
+      "notes": "本文項目 ・grantor：権利・財産などを正式に譲渡する人・組織。法律・不動産の文脈で多い。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "word_formation:005",
+      "status": "pass",
+      "notes": "本文項目 ・grant-funded：補助金で資金を提供された、補助金を財源とする。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "core_image:001",
+      "status": "pass",
+      "notes": "本文項目 権限や裁量を持つ側が、相手の求め・権利・利益などを「認めて、相手のものにする／できるようにする」こと。単なる *give* よりも、許可・資格・公式決定・申請への応答という含みが出やすい。そこから、主張を認める用法、補助金という「与えられたもの」の名詞用法、当然視する `take for granted` が生じる。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "core_image:002",
+      "status": "pass",
+      "notes": "本文項目 ・申請・要求・権利・許可などを正式に認める → 「許可する、認める、与える」（語義1） を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "core_image:003",
+      "status": "pass",
+      "notes": "本文項目 ・土地・権利・地位などを公式に授与・譲渡する → 「授与する、付与する」（語義2） を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "core_image:004",
+      "status": "pass",
+      "notes": "本文項目 ・裁判所・行政機関が申立てや救済を認める → 「認容する、許可する」（語義3） を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "core_image:005",
+      "status": "pass",
+      "notes": "本文項目 ・相手の主張や事実を認める → 「認める、譲歩する」（語義4） を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "core_image:006",
+      "status": "pass",
+      "notes": "本文項目 ・特定目的のために与えられる金銭 → 「助成金、補助金、奨学金」（語義5） を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "core_image:007",
+      "status": "pass",
+      "notes": "本文項目 ・権利・財産の正式な付与、またはその証書 → 「付与、譲渡、付与証書」（語義6） を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "core_image:008",
+      "status": "pass",
+      "notes": "本文項目 ・当然のものとして扱い、価値や幸運を意識しない → 「～を当然と思う、ありがたみを忘れる」（語義7） を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "sense_boundary:001",
+      "status": "pass",
+      "notes": "本文項目 1. 【他動詞・形式的】申請・要求・権利・許可などを認めて与える、許可する を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "definition:001",
+      "status": "pass",
+      "notes": "本文項目 人が求めたもの、または人に認められる権利・許可・利益を、権限のある個人・組織が公式または改まった形で与える。相手の要求を検討したうえで「与えてよい」と決定する含みがあり、単なる物の受け渡しを表す *give* より制度的・形式的である。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "frequency:001",
+      "status": "pass",
+      "notes": "本文項目 〈10/10〉 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "register:001",
+      "status": "pass",
+      "notes": "本文項目 標準語。行政、ビジネス、学校、公式通知、丁寧な依頼への応答で広く使う。受け身の `be granted` は、ビザ・許可・アクセスなどを受けた人を主語にする場合に特に多い。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "grammar_pattern:001",
+      "status": "pass",
+      "notes": "本文項目 `grant 〈要求・権利・許可〉`＝要求・権利・許可を認める を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "grammar_pattern:002",
+      "status": "pass",
+      "notes": "本文項目 `grant 〈人〉 + 〈許可・権利・利益〉`＝〈人〉に…を与える を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "grammar_pattern:003",
+      "status": "pass",
+      "notes": "本文項目 `grant 〈許可・権利・利益〉 to 〈人・組織〉`＝…を〈人・組織〉に与える を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "grammar_pattern:004",
+      "status": "pass",
+      "notes": "本文項目 `be granted 〈許可・権利・アクセス〉`＝許可・権利・アクセスを与えられる を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "grammar_pattern:005",
+      "status": "pass",
+      "notes": "本文項目 `grant 〈人〉 permission/access/leave`＝〈人〉に許可・アクセス・休暇を与える を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "grammar_pattern:006",
+      "status": "pass",
+      "notes": "本文項目 `grant 〈人〉 an extension/a request/a wish`＝〈人〉に延長・要求の承認・願いの実現を認める。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "collocation:001",
+      "status": "pass",
+      "notes": "本文項目 ・grant permission to 〈人〉\n用途: 公式に何かをする許可を与える。\n例: The museum granted permission to photograph the exhibition.\n訳: その美術館は展示を撮影する許可を与えた。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "collocation:002",
+      "status": "pass",
+      "notes": "本文項目 ・grant access to 〈場所・情報・システム〉\n用途: 限定された場所・情報・システムを利用できるようにする。\n例: The administrator granted access to the archive after verifying her identity.\n訳: 管理者は本人確認の後、彼女にアーカイブへのアクセスを認めた。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "collocation:003",
+      "status": "pass",
+      "notes": "本文項目 ・grant a request\n用途: 人から出された依頼・申請を認める。\n例: The committee granted our request for an additional week.\n訳: 委員会は私たちの追加1週間の要請を認めた。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "collocation:004",
+      "status": "pass",
+      "notes": "本文項目 ・grant an extension\n用途: 締切・契約期間などの延長を公式に認める。\n例: The publisher granted the author an extension for the revised manuscript.\n訳: 出版社は著者に改訂原稿の締切延長を認めた。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "collocation:005",
+      "status": "pass",
+      "notes": "本文項目 ・grant a licence/visa\n用途: 免許・査証などの資格や許可を発行・付与する。\n例: The authorities granted her a visa to conduct the research.\n訳: 当局は彼女にその研究を行うためのビザを発給した。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "collocation:006",
+      "status": "pass",
+      "notes": "本文項目 ・grant a wish\n用途: 願いをかなえる。物語的な文脈にも、改まった比喩にも使う。\n例: The old lighthouse keeper granted the child one last wish.\n訳: その年老いた灯台守は、その子の最後の願いを一つかなえた。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "usage_note:001",
+      "status": "pass",
+      "notes": "本文項目 `grant someone something` と `grant something to someone` の両方が使える。`grant someone permission/access` は自然だが、許可の対象を表す名詞を `grant someone to do` と直接続けない。動作そのものを許可する場合は `grant someone permission to do`、または `allow someone to do` とする。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "usage_note:002",
+      "status": "pass",
+      "notes": "本文項目 `grant` は、相手の要求が当然に認められるというより、権限者が判断して認めるという視点を含む。したがって `The request was granted` は「申請・要求が承認された」であり、単に誰かが物を渡したという意味ではない。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "synonym:001",
+      "status": "pass",
+      "notes": "本文項目 ・allow\n定義: 人が何かをすること、または何かが起こることを許す。\n頻度: 〈10/10〉\n違い: allow は日常的で、行為の許可・妨げないことに焦点がある。grant は申請、権利、資格などを正式に認める響きが強い。\n例: The guard allowed us to enter the room.\n訳: 警備員は私たちが部屋に入るのを許可した。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "synonym:002",
+      "status": "pass",
+      "notes": "本文項目 ・approve\n定義: 計画・申請・提案などを検討して承認する。\n頻度: 〈9/10〉\n違い: approve は判断・承認の行為に焦点があり、grant は承認の結果として権利や要求を与えることに焦点がある。\n例: The board approved the plan and granted the team extra funding.\n訳: 理事会は計画を承認し、チームに追加資金を与えた。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "synonym:003",
+      "status": "pass",
+      "notes": "本文項目 ・award\n定義: 審査や功績の評価に基づいて賞・契約・金銭などを与える。\n頻度: 〈8/10〉\n違い: award は「評価して授ける」含みが強く、grant は要求・権利・許可を認める場合にも使う。\n例: The foundation awarded her a scholarship for outstanding work.\n訳: 財団は優れた業績を評価して彼女に奨学金を授与した。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "synonym:004",
+      "status": "pass",
+      "notes": "本文項目 ・give\n定義: 物・情報・機会などを相手に渡す、または与える。\n頻度: 〈10/10〉\n違い: give は最も一般的で、grant のような公式な許可・承認の含みを必ずしも持たない。\n例: She gave me permission to use the room.\n訳: 彼女は私にその部屋を使う許可をくれた。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "antonym:001",
+      "status": "pass",
+      "notes": "本文項目 ・refuse\n定義: 要求・申し出などを断り、与えることを拒む。\n頻度: 〈9/10〉\n違い: grant が権限者による承認を表すのに対し、refuse は要求を認めない決定を表す。\n例: The office refused our request for a deadline extension.\n訳: その部署は私たちの締切延長の要請を拒んだ。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "antonym:002",
+      "status": "pass",
+      "notes": "本文項目 ・deny\n定義: 要求・権利・許可などを認めず、与えない。\n頻度: 〈9/10〉\n違い: deny は「相手が求めるものを与えない」ことに焦点があり、事実を否定する意味も持つ。\n例: The agency denied him access to the records.\n訳: その機関は彼に記録へのアクセスを認めなかった。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "sense_boundary:002",
+      "status": "pass",
+      "notes": "本文項目 2. 【他動詞・形式的】土地・権利・地位などを公式に授与・付与する を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "definition:002",
+      "status": "pass",
+      "notes": "本文項目 政府、君主、機関、所有者などが、土地、財産、称号、独立、免除、権利などを正式な決定・文書・権限によって相手に与える。語義1の「要求を認める」よりも、何かを新たに相手へ帰属させることに焦点がある。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "frequency:002",
+      "status": "pass",
+      "notes": "本文項目 〈8/10〉 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "register:002",
+      "status": "pass",
+      "notes": "本文項目 形式的。法律、歴史、政治、行政、不動産、国際関係で多い。`be granted` の受け身では、与えられた側の地位や権利を述べる。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "grammar_pattern:007",
+      "status": "pass",
+      "notes": "本文項目 `grant 〈土地・権利・地位〉 to 〈人・組織〉`＝土地・権利・地位を〈人・組織〉に付与する を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "grammar_pattern:008",
+      "status": "pass",
+      "notes": "本文項目 `grant 〈人・組織〉 + 〈土地・権利〉`＝〈人・組織〉に土地・権利を与える を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "grammar_pattern:009",
+      "status": "pass",
+      "notes": "本文項目 `be granted 〈独立・市民権・免除〉`＝独立・市民権・免除を与えられる を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "grammar_pattern:010",
+      "status": "pass",
+      "notes": "本文項目 `grant 〈人〉 title/custody/independence`＝〈人〉に称号・監護権・独立を付与する。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "collocation:007",
+      "status": "pass",
+      "notes": "本文項目 ・grant independence to 〈国・地域〉\n用途: 国や地域に独立を正式に認める。\n例: The former colony was granted independence in 1962.\n訳: その旧植民地は1962年に独立を認められた。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "collocation:008",
+      "status": "pass",
+      "notes": "本文項目 ・grant citizenship to 〈人〉\n用途: 法的な市民資格を付与する。\n例: The country granted citizenship to families who had lived there for decades.\n訳: その国は何十年もそこで暮らしてきた家族に市民権を付与した。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "collocation:009",
+      "status": "pass",
+      "notes": "本文項目 ・grant land to 〈人・組織〉\n用途: 土地の所有・利用を正式に与える。\n例: The ruler granted land to the university for a public garden.\n訳: その統治者は公共庭園のために大学へ土地を与えた。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "collocation:010",
+      "status": "pass",
+      "notes": "本文項目 ・grant a patent/title\n用途: 特許や称号を審査・決定に基づいて正式に付与する。\n例: The office granted a patent for the improved valve.\n訳: その庁は改良された弁について特許を付与した。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "usage_note:003",
+      "status": "pass",
+      "notes": "本文項目 この用法は、物を一時的に貸す *lend* や、対価を払って販売する *sell* とは異なる。`grant land to someone` は、土地を相手に正式に帰属させる・使用させるという制度的な授与を表す。現代の政治・法律文脈では、`grant independence` や `grant citizenship` のように抽象的な地位にも使える。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "synonym:005",
+      "status": "pass",
+      "notes": "本文項目 ・confer\n定義: 権利、称号、名誉などを正式に授ける。\n頻度: 〈6/10〉\n違い: confer は称号・学位・権限などを公式に授与する硬い語で、grant より使用範囲が狭い。\n例: The university conferred an honorary degree on the author.\n訳: その大学はその作家に名誉学位を授与した。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "synonym:006",
+      "status": "pass",
+      "notes": "本文項目 ・bestow\n定義: 名誉、贈り物、称号などを相手に授ける。\n頻度: 〈5/10〉\n違い: bestow は改まった・文学的な「授ける」で、grant のような申請への許可には普通使わない。\n例: The committee bestowed its highest honor on the researcher.\n訳: 委員会はその研究者に最高の栄誉を授けた。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "synonym:007",
+      "status": "pass",
+      "notes": "本文項目 ・transfer\n定義: 所有権、権利、責任などを別の人・組織へ移す。\n頻度: 〈8/10〉\n違い: transfer は移転の事実に焦点があり、grant は権限者が正式に与えるという出発点を示す。\n例: The deed transferred the property to the trust.\n訳: その証書によって財産は信託へ移転された。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "antonym:003",
+      "status": "pass",
+      "notes": "本文項目 ・revoke\n定義: いったん与えた許可・権利・資格などを取り消す。\n頻度: 〈6/10〉\n違い: revoke は付与の後に効力を失わせることで、grant の反対方向の手続きを表す。\n例: The regulator revoked the company’s licence.\n訳: 規制当局はその会社の免許を取り消した。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "antonym:004",
+      "status": "pass",
+      "notes": "本文項目 ・withhold\n定義: 与えることができるものを意図的に与えず、保留する。\n頻度: 〈7/10〉\n違い: withhold は付与を行わない・差し控えることに焦点があり、正式な拒否決定まで含むとは限らない。\n例: The office withheld approval until the missing documents arrived.\n訳: その部署は不足書類が届くまで承認を保留した。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "sense_boundary:003",
+      "status": "pass",
+      "notes": "本文項目 3. 【他動詞・法律・行政】申立て・救済・判決などを認容する を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "definition:003",
+      "status": "pass",
+      "notes": "本文項目 裁判所、行政機関、審査機関などが、申立て、請求、抗弁、許可申請、救済措置などを法的・公式に認める。何かを「与える」一般義から発達した専門的用法で、裁判所が特定の申立てを認めて手続き上の効果を生じさせることを指す。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "frequency:003",
+      "status": "pass",
+      "notes": "本文項目 〈8/10〉 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "register:003",
+      "status": "pass",
+      "notes": "本文項目 法律・行政。一般会話では、対象を具体的に示さない限りこの意味にならない。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "grammar_pattern:011",
+      "status": "pass",
+      "notes": "本文項目 `grant 〈motion・application・petition〉`＝申立て・申請・請願を認める を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "grammar_pattern:012",
+      "status": "pass",
+      "notes": "本文項目 `grant 〈人〉 bail/leave to appeal`＝〈人〉に保釈・上訴許可を認める を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "grammar_pattern:013",
+      "status": "pass",
+      "notes": "本文項目 `grant an injunction/a new trial`＝差止命令・再審を認める を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "grammar_pattern:014",
+      "status": "pass",
+      "notes": "本文項目 `be granted 〈救済・保釈・上訴許可〉`＝救済・保釈・上訴許可を認められる を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "grammar_pattern:015",
+      "status": "pass",
+      "notes": "本文項目 `grant 〈人〉 custody of 〈子ども〉`＝〈人〉に〈子ども〉の監護権を認める。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "collocation:011",
+      "status": "pass",
+      "notes": "本文項目 ・grant a motion\n用途: 裁判所が手続き上の申立てを認める。\n例: The judge granted the motion to exclude the evidence.\n訳: 裁判官はその証拠を除外する申立てを認めた。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "collocation:012",
+      "status": "pass",
+      "notes": "本文項目 ・grant an injunction\n用途: 一定の行為をする・しないよう命じる差止めを認める。\n例: The court granted an injunction preventing the sale of the building.\n訳: 裁判所はその建物の売却を差し止める命令を認めた。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "collocation:013",
+      "status": "pass",
+      "notes": "本文項目 ・grant bail\n用途: 事件の審理前などに保釈を認める。\n例: The judge granted bail subject to strict reporting conditions.\n訳: 裁判官は厳しい報告条件付きで保釈を認めた。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "collocation:014",
+      "status": "pass",
+      "notes": "本文項目 ・grant leave to appeal\n用途: 上級審への不服申立てをする許可を与える。\n例: The court granted leave to appeal on the question of costs.\n訳: 裁判所は費用の問題について上訴する許可を与えた。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "usage_note:004",
+      "status": "pass",
+      "notes": "本文項目 法律文脈の `grant` は「申立てを認める」であり、申立人の主張すべてを最終的に正しいと認定したことを必ずしも意味しない。`grant a motion`、`grant an application` のように、認められた手続き・救済を目的語に置く。反対は `deny/refuse a motion` など。法域によって手続きや訳語は異なるため、具体的制度の要件までこの語だけから推測しない。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "synonym:008",
+      "status": "pass",
+      "notes": "本文項目 ・allow\n定義: 申請・訴え・手続きなどを認め、進行させる。\n頻度: 〈8/10〉\n違い: allow は裁判・行政でも使えるが、grant は命令・救済・許可を公式に付与する語として定着している。\n例: The tribunal allowed the appeal to proceed.\n訳: その審判機関は上訴を進めることを認めた。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "synonym:009",
+      "status": "pass",
+      "notes": "本文項目 ・uphold\n定義: 決定、判決、権利などを有効なものとして支持する。\n頻度: 〈7/10〉\n違い: uphold は既存の判断や権利を維持することで、grant は新たな申立てや救済を認めることに焦点がある。\n例: The appeal court upheld the original decision.\n訳: 控訴裁判所は原判決を支持した。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "synonym:010",
+      "status": "pass",
+      "notes": "本文項目 ・approve\n定義: 計画、申請、提案などを正式に承認する。\n頻度: 〈9/10〉\n違い: approve は承認の判断を一般に表し、grant は法的な許可や救済を相手に与える結果まで含みやすい。\n例: The agency approved the application and granted the permit.\n訳: その機関は申請を承認し、許可証を付与した。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "antonym:005",
+      "status": "pass",
+      "notes": "本文項目 ・deny\n定義: 請求、申立て、許可などを認めない。\n頻度: 〈9/10〉\n違い: deny は、相手が求めた救済や許可を与えない決定を表す法律用語として特に重要である。\n例: The court denied the petition for a new hearing.\n訳: 裁判所は再審理を求める請願を退けた。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "antonym:006",
+      "status": "pass",
+      "notes": "本文項目 ・dismiss\n定義: 訴え、申立て、事件などを退け、手続きを終わらせる。\n頻度: 〈8/10〉\n違い: dismiss は手続き自体を退けることに焦点があり、grant は求められた申立てや救済を認めることに焦点がある。\n例: The court dismissed the claim without reaching the merits.\n訳: 裁判所は本案に立ち入らず、その請求を退けた。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "sense_boundary:004",
+      "status": "pass",
+      "notes": "本文項目 4. 【他動詞・認識・譲歩】事実・主張を認める、譲歩する を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "definition:004",
+      "status": "pass",
+      "notes": "本文項目 相手の指摘やある事実が正しいと認める。しばしば、全面的な賛成ではなく、反論や別の判断に移るために一部だけを認める。`I grant you that ...` は「…なのは認めるが」という対比を作り、`granting that ...` は「…だと認めるとしても」を表す。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "frequency:004",
+      "status": "pass",
+      "notes": "本文項目 〈7/10〉 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "register:004",
+      "status": "pass",
+      "notes": "本文項目 標準語。議論、批評、説得、改まった会話で使う。相手の主張への譲歩を示すため、*admit* よりやや論証的で、*concede* に近い場合がある。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "grammar_pattern:016",
+      "status": "pass",
+      "notes": "本文項目 `grant (someone) that 〈節〉`＝〈人〉が～だと認める を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "grammar_pattern:017",
+      "status": "pass",
+      "notes": "本文項目 `I grant you that 〈節〉, but ...`＝～なのは認めるが… を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "grammar_pattern:018",
+      "status": "pass",
+      "notes": "本文項目 `grant 〈人〉 + 〈点・主張〉`＝〈人〉の点・主張を認める を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "grammar_pattern:019",
+      "status": "pass",
+      "notes": "本文項目 `granting that 〈節〉`＝～だと認めるとしても を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "grammar_pattern:020",
+      "status": "pass",
+      "notes": "本文項目 `Granted, 〈節〉, but ...`＝確かに～だが…。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "collocation:015",
+      "status": "pass",
+      "notes": "本文項目 ・I grant you that ...\n用途: 相手の指摘を認めつつ、後半で反対の評価や制限を述べる。\n例: I grant you that the design is elegant, but it is too expensive to produce.\n訳: そのデザインが洗練されているのは認めるが、製造費が高すぎる。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "collocation:016",
+      "status": "pass",
+      "notes": "本文項目 ・grant someone’s point\n用途: 議論の中で相手のある論点を認める。\n例: I grant your point about speed, yet reliability matters more here.\n訳: 速度についてのあなたの論点は認めるが、ここでは信頼性の方が重要だ。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "collocation:017",
+      "status": "pass",
+      "notes": "本文項目 ・grant that ...\n用途: ある事実を認めたうえで、別の主張を続ける。\n例: We must grant that the first version solved a real problem.\n訳: 初版が現実の問題を解決したことは認めなければならない。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "collocation:018",
+      "status": "pass",
+      "notes": "本文項目 ・granting that ...\n用途: 条件や前提を仮に認めても、結論は変わらないと述べる。\n例: Granting that the figures are accurate, the conclusion still does not follow.\n訳: 数値が正確だと認めても、その結論はなお導かれない。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "usage_note:005",
+      "status": "pass",
+      "notes": "本文項目 この用法の `grant` は「要求を許可する」ではなく、「発言・事実を認める」。`I grant you that ...` の *you* は認める相手を示す間接目的語であり、許可を受ける人を示す `grant you permission` とは構造も意味も違う。`grant` と言っても後続の `but` で反論することが多く、必ずしも全体への同意ではない。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "synonym:011",
+      "status": "pass",
+      "notes": "本文項目 ・admit\n定義: 事実・誤り・不都合な点などを認める。\n頻度: 〈10/10〉\n違い: admit は自分が認めたくない事実を認める含みが出やすく、grant は議論上の点を譲歩として認める響きが強い。\n例: She admitted that the estimate had been too optimistic.\n訳: 彼女はその見積もりが楽観的すぎたと認めた。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "synonym:012",
+      "status": "pass",
+      "notes": "本文項目 ・concede\n定義: 議論や競争で、相手の主張・優位を認める。\n頻度: 〈7/10〉\n違い: concede はしぶしぶ譲歩する含みがより強い。grant は冷静な論証上の譲歩にも使える。\n例: The critic conceded that the film had memorable scenes.\n訳: その評論家は、その映画に印象的な場面があることは認めた。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "synonym:013",
+      "status": "pass",
+      "notes": "本文項目 ・acknowledge\n定義: 事実、存在、貢献などを認め、認識していることを示す。\n頻度: 〈9/10〉\n違い: acknowledge は中立的な確認にも使えるが、grant は相手の論点を譲歩として認める対話的な含みがある。\n例: The report acknowledged the limits of the available data.\n訳: その報告書は利用可能なデータの限界を認めた。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "antonym:007",
+      "status": "pass",
+      "notes": "本文項目 ・deny\n定義: 事実・主張・責任などを真実として認めない。\n頻度: 〈9/10〉\n違い: grant が相手の指摘を受け入れる方向なのに対し、deny はその真実性や妥当性を退ける。\n例: He denied that the warning had been ignored.\n訳: 彼は警告が無視されたことを否定した。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "antonym:008",
+      "status": "pass",
+      "notes": "本文項目 ・dispute\n定義: 主張・事実・数値などの正しさに異議を唱える。\n頻度: 〈7/10〉\n違い: dispute は議論の対象として争うことで、単に事実を知らないという意味ではない。\n例: The company disputed the accuracy of the report.\n訳: その会社は報告書の正確性に異議を唱えた。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "sense_boundary:005",
+      "status": "pass",
+      "notes": "本文項目 5. 【可算名詞・金融・教育】助成金、補助金、奨学金 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "definition:005",
+      "status": "pass",
+      "notes": "本文項目 政府、大学、財団、企業などが、研究、教育、事業、地域活動など特定の目的のために人・組織へ与える金銭。通常は目的、申請、審査、報告などの条件を伴う。*grant* だけで「無条件にもらえるお金」や「返済不要」を常に意味するわけではないため、制度ごとの条件は別に確認する。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "frequency:005",
+      "status": "pass",
+      "notes": "本文項目 〈9/10〉 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "register:005",
+      "status": "pass",
+      "notes": "本文項目 標準語。行政、教育、研究、非営利活動、事業支援、金融の説明で広く使う。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "grammar_pattern:021",
+      "status": "pass",
+      "notes": "本文項目 `a grant from 〈機関〉`＝〈機関〉からの助成金 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "grammar_pattern:022",
+      "status": "pass",
+      "notes": "本文項目 `a grant for 〈目的〉`＝〈目的〉のための助成金 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "grammar_pattern:023",
+      "status": "pass",
+      "notes": "本文項目 `a grant to 〈人・組織〉`＝〈人・組織〉への助成金 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "grammar_pattern:024",
+      "status": "pass",
+      "notes": "本文項目 `a grant to do 〈目的〉`＝～するための助成金 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "grammar_pattern:025",
+      "status": "pass",
+      "notes": "本文項目 `apply for/receive/be awarded a grant`＝助成金を申請する・受け取る・授与される を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "grammar_pattern:026",
+      "status": "pass",
+      "notes": "本文項目 `grant funding`＝助成金による資金。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "collocation:019",
+      "status": "pass",
+      "notes": "本文項目 ・a research grant\n用途: 研究費として交付される助成金。\n例: The team received a research grant to study coastal erosion.\n訳: そのチームは海岸侵食を研究するための助成金を受け取った。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "collocation:020",
+      "status": "pass",
+      "notes": "本文項目 ・a government grant\n用途: 政府・自治体から交付される補助金。\n例: The museum renovated the roof with a government grant.\n訳: その美術館は政府の補助金で屋根を改修した。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "collocation:021",
+      "status": "pass",
+      "notes": "本文項目 ・apply for a grant\n用途: 助成金の交付を申請する。\n例: The nonprofit applied for a grant to expand its tutoring program.\n訳: その非営利団体は個別指導事業を拡大するため助成金を申請した。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "collocation:022",
+      "status": "pass",
+      "notes": "本文項目 ・receive/be awarded a grant\n用途: 助成金を受け取る、審査を経て授与される。\n例: She was awarded a grant for her first documentary.\n訳: 彼女は初のドキュメンタリー作品のための助成金を授与された。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "collocation:023",
+      "status": "pass",
+      "notes": "本文項目 ・a grant from 〈機関〉\n用途: 資金の出所を示す。\n例: The project was supported by a grant from the local foundation.\n訳: そのプロジェクトは地元財団からの助成金で支えられた。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "collocation:024",
+      "status": "pass",
+      "notes": "本文項目 ・a grant to do 〈目的〉\n用途: 何をするための助成金かを示す。\n例: The school received a grant to install accessible equipment.\n訳: その学校は利用しやすい設備を設置するための助成金を受け取った。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "usage_note:006",
+      "status": "pass",
+      "notes": "本文項目 この意味は通常可算で、`a grant`、`several grants` と数える。`loan` は返済を前提とする借入金、`grant` は特定目的のために交付される資金で、返済条件や自己負担の有無は制度により異なる。`funding` は資金供給全般を指し、grant より広い。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "usage_note:007",
+      "status": "pass",
+      "notes": "本文項目 `grant` は金額そのものだけでなく、交付制度・一件の助成を指せる。`grant funding` は「助成金による資金」で、単に `funding` と言うより、返済ではなく交付・助成の仕組みに焦点を置く。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "synonym:014",
+      "status": "pass",
+      "notes": "本文項目 ・subsidy\n定義: 政府などが特定の産業・活動・価格を支えるために与える補助金。\n頻度: 〈7/10〉\n違い: subsidy は政策的に特定分野を支える意味が強く、grant は研究・教育・個別プロジェクトへの交付にも広く使う。\n例: The farmers receive a subsidy for adopting water-saving methods.\n訳: その農家は節水方法を導入するため補助金を受け取っている。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "synonym:015",
+      "status": "pass",
+      "notes": "本文項目 ・scholarship\n定義: 学費や学業を支援するために学生へ与えられる奨学金。\n頻度: 〈8/10〉\n違い: scholarship は教育目的に限られやすく、grant は研究者・団体・事業などにも交付される。\n例: He won a scholarship to study engineering abroad.\n訳: 彼は海外で工学を学ぶための奨学金を得た。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "synonym:016",
+      "status": "pass",
+      "notes": "本文項目 ・loan\n定義: 後で返すことを前提に貸し出される金銭。\n頻度: 〈9/10〉\n違い: loan は返済義務が中心で、grant は特定目的への交付・助成を表す。\n例: The startup used a loan to cover short-term costs.\n訳: その新興企業は短期費用をまかなうため融資を利用した。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "antonym:009",
+      "status": "pass",
+      "notes": "本文項目 ・repayment\n定義: 借りた金銭を返すこと、または返済された金額。\n頻度: 〈7/10〉\n違い: grant が資金を交付する側から見た付与であるのに対し、repayment は借り手が返す行為・金額を表す。\n例: The contract specifies the repayment schedule for the loan.\n訳: その契約は融資の返済予定を定めている。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "antonym:010",
+      "status": "pass",
+      "notes": "本文項目 ・fee\n定義: サービス、許可、授業などの対価として支払う料金。\n頻度: 〈9/10〉\n違い: grant は目的のために資金を受け取ることで、fee のように受益者がサービスの対価を支払うものではない。\n例: The course has a registration fee but offers grants to students in need.\n訳: その講座には登録料があるが、困窮する学生には助成金を提供している。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "sense_boundary:006",
+      "status": "pass",
+      "notes": "本文項目 6. 【可算名詞・法律・形式的】権利・財産の正式な付与、譲渡、付与証書 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "definition:006",
+      "status": "pass",
+      "notes": "本文項目 土地、財産、権利などを正式に与える行為、またはその結果として認められたもの。法律・不動産では、その移転を記した文書や証書を指すこともある。一般的な「助成金」の *grant* と同じ綴りだが、目的語が土地・権利・財産で、法的な移転関係に焦点がある。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "frequency:006",
+      "status": "pass",
+      "notes": "本文項目 〈4/10〉 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "register:006",
+      "status": "pass",
+      "notes": "本文項目 法律、不動産、歴史、行政。一般会話では語義5の「助成金」が先に想起されやすい。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "grammar_pattern:027",
+      "status": "pass",
+      "notes": "本文項目 `the grant of 〈権利・財産〉`＝〈権利・財産〉の正式な付与 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "grammar_pattern:028",
+      "status": "pass",
+      "notes": "本文項目 `a grant of land/property`＝土地・財産の付与 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "grammar_pattern:029",
+      "status": "pass",
+      "notes": "本文項目 `under a grant from 〈機関〉`＝〈機関〉からの付与に基づいて を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "grammar_pattern:030",
+      "status": "pass",
+      "notes": "本文項目 `record/register a grant`＝付与・譲渡を記録する。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "collocation:025",
+      "status": "pass",
+      "notes": "本文項目 ・the grant of a licence\n用途: 免許・許可が正式に付与されることを、名詞で表す。\n例: The grant of the licence was subject to an environmental assessment.\n訳: その免許の付与には環境評価が条件として付された。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "collocation:026",
+      "status": "pass",
+      "notes": "本文項目 ・a grant of land\n用途: 土地の正式な授与・譲渡。\n例: The archive contains the original grant of land to the hospital.\n訳: そのアーカイブには病院への土地付与の原証書が収蔵されている。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "collocation:027",
+      "status": "pass",
+      "notes": "本文項目 ・a grant of probate\n用途: 遺言執行に関する裁判所の正式な許可・証書を指す法律表現。制度の詳細は法域により異なる。\n例: The executor could not act until the grant of probate was issued.\n訳: 遺言執行者は正式な遺言検認証書が発行されるまで行動できなかった。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "collocation:028",
+      "status": "pass",
+      "notes": "本文項目 ・under a grant from 〈機関〉\n用途: 公的な付与・許可に基づく権利や所有を示す。\n例: The company operates the facility under a grant from the city.\n訳: その会社は市からの正式な付与に基づいて施設を運営している。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "usage_note:008",
+      "status": "pass",
+      "notes": "本文項目 この名詞は、文脈によって「付与という行為」「付与された権利・財産」「それを証明する文書」のいずれにもなり得る。法律文書の *grant* を一般的な補助金と訳すと誤解になるため、`grant of land`、`grant of a licence` のように後続名詞を確認する。具体的な証書の効力・手続きは法域に依存する。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "synonym:017",
+      "status": "pass",
+      "notes": "本文項目 ・conveyance\n定義: 不動産や権利の所有権を移転すること、またはその法的文書。\n頻度: 〈5/10〉\n違い: conveyance は所有権移転の法的手続き・文書に焦点があり、grant は付与する側から見た正式な授与を表す。\n例: The solicitor prepared the conveyance of the property.\n訳: その弁護士は不動産の所有権移転文書を作成した。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "synonym:018",
+      "status": "pass",
+      "notes": "本文項目 ・deed\n定義: 土地・財産の権利移転などを証明する正式な証書。\n頻度: 〈6/10〉\n違い: deed は文書そのものを指しやすく、grant は付与行為や付与されたものまで指せる。\n例: The deed records the transfer of the farm.\n訳: その証書は農場の移転を記録している。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "synonym:019",
+      "status": "pass",
+      "notes": "本文項目 ・award\n定義: 審査や決定に基づいて与えられたもの、または与える行為。\n頻度: 〈8/10〉\n違い: award は賞・契約・損害賠償などの決定に広く使い、grant は権利・財産の法的付与にも使う。\n例: The panel announced the award of the contract.\n訳: 審査委員会は契約の授与を発表した。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "antonym:011",
+      "status": "pass",
+      "notes": "本文項目 ・revocation\n定義: 許可、権利、資格などを取り消して効力を失わせること。\n頻度: 〈5/10〉\n違い: revocation は付与済みのものを撤回する行為で、grant の正式な付与と反対方向である。\n例: The revocation of the permit halted the project.\n訳: 許可の取消しによって、そのプロジェクトは停止した。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "antonym:012",
+      "status": "pass",
+      "notes": "本文項目 ・retention\n定義: 所有・保持して手放さないこと。\n頻度: 〈5/10〉\n違い: retention は権利や財産を現在の側にとどめることで、grant のように相手へ移転・付与することではない。\n例: The agreement permits retention of the original documents.\n訳: その合意は原本書類の保持を認めている。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "sense_boundary:007",
+      "status": "pass",
+      "notes": "本文項目 7. 【動詞句・慣用表現】take 〈人・物〉 for granted：当然と思う、ありがたみを忘れる を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "definition:007",
+      "status": "pass",
+      "notes": "本文項目 人や物がいつも利用できる、支えてくれると慣れきって、その価値・幸運・努力を意識しなくなる。`take it for granted that ...` では、十分に確認せず「～だと当然のように思う」という認識を表す。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "frequency:007",
+      "status": "pass",
+      "notes": "本文項目 〈10/10〉 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "register:007",
+      "status": "pass",
+      "notes": "本文項目 標準語。日常会話、感謝、社会的な議論、注意喚起で広く使う。対象の価値を軽視する意味と、事実を未確認のまま前提にする意味を文脈で区別する。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "grammar_pattern:031",
+      "status": "pass",
+      "notes": "本文項目 `take 〈人・物〉 for granted`＝〈人・物〉を当然のものと思う を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "grammar_pattern:032",
+      "status": "pass",
+      "notes": "本文項目 `take it for granted that 〈節〉`＝～だと当然のように思う を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "grammar_pattern:033",
+      "status": "pass",
+      "notes": "本文項目 `take for granted that 〈節〉`＝～だと当然視する を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "grammar_pattern:034",
+      "status": "pass",
+      "notes": "本文項目 `be taken for granted`＝当然視される、価値を認められない を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "grammar_pattern:035",
+      "status": "pass",
+      "notes": "本文項目 `never/too easily take 〈人・物〉 for granted`＝決して・あまりに簡単に当然視する。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "collocation:029",
+      "status": "pass",
+      "notes": "本文項目 ・take someone for granted\n用途: いつもそばにいる人の支えや努力を当然視する。\n例: Do not take the people who support you for granted.\n訳: あなたを支えてくれる人々を、いて当然だと思ってはいけない。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "collocation:030",
+      "status": "pass",
+      "notes": "本文項目 ・take something for granted\n用途: 自由、健康、利便性などを、当たり前で価値がないかのように扱う。\n例: Many people take clean water for granted until a supply problem occurs.\n訳: 多くの人は、供給問題が起きるまできれいな水を当然のものと思っている。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "collocation:031",
+      "status": "pass",
+      "notes": "本文項目 ・take it for granted that 〈節〉\n用途: 十分に確認せず、ある事実を前提にする。\n例: I took it for granted that the meeting would start on time.\n訳: 私は会議が時間どおり始まるものと当然のように思っていた。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "collocation:032",
+      "status": "pass",
+      "notes": "本文項目 ・be taken for granted\n用途: 人・努力・権利などが当然視され、評価や感謝を受けない状態を受け身で表す。\n例: Her extra work was taken for granted by the whole team.\n訳: 彼女の余分な仕事はチーム全体から当然視されていた。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "usage_note:009",
+      "status": "pass",
+      "notes": "本文項目 `take A for granted` の *for granted* は分離できない固定的な補語で、`take A granted` や `take for A granted` とは言わない。人を目的語にすると「その人の存在・支えを当然視する」、事実を目的語にすると「確認なしに真実だと仮定する」という違いが出る。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "usage_note:010",
+      "status": "pass",
+      "notes": "本文項目 `take it for granted that ...` の *it* は形式的な目的語で、後ろの that 節が内容を表す。`I took for granted that ...` も見られるが、学習者には `take it for granted that ...` を基本形として覚えると安全である。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "usage_note:011",
+      "status": "pass",
+      "notes": "本文項目 `grant` は、許可・権利・金銭を「権限者が与える」方向と、相手の主張を「認める」方向の両方を持つ。`grant permission` は許可を与えるが、`grant that ...` は主張を認める。`grant` が入っていても `take for granted` は「与える」意味ではなく、与えられているものを当然視する固定表現である。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "usage_note:012",
+      "status": "pass",
+      "notes": "本文項目 `grant` と `give` の違いは絶対的ではないが、公式性・申請への応答・権利の付与が関わると *grant* が自然になりやすい。`grant` と `award` では、前者が許可・権利の承認、後者が功績や審査に基づく授与という焦点の差がある。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "usage_note:013",
+      "status": "pass",
+      "notes": "本文項目 `granted` は過去分詞として「与えられた」だけでなく、`Granted, the plan is ambitious, but ...` のように「確かに～だが」と文全体を譲歩的につなぐ。これは時制を表す普通の過去形ではなく、相手の点をいったん認める談話表現である。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "synonym:020",
+      "status": "pass",
+      "notes": "本文項目 ・assume\n定義: 確認なしに、あることを事実だと考える。\n頻度: 〈9/10〉\n違い: assume は中立的な作業上の仮定にも使うが、take for granted は価値への無自覚や確認不足を批判する含みが出やすい。\n例: We assumed that the data had been backed up.\n訳: 私たちはデータがバックアップ済みだと仮定した。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "synonym:021",
+      "status": "pass",
+      "notes": "本文項目 ・overlook\n定義: 重要な点、努力、問題などに気づかず見過ごす。\n頻度: 〈8/10〉\n違い: overlook は単に見落とすことにも使うが、take for granted は「当然あるもの」と扱うために価値を認めないことを強調する。\n例: The manager overlooked the contribution of the support staff.\n訳: その管理者はサポートスタッフの貢献を見過ごした。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "synonym:022",
+      "status": "pass",
+      "notes": "本文項目 ・expect\n定義: 何かが起こる、または誰かが何かをすると予想・期待する。\n頻度: 〈10/10〉\n違い: expect は予測や期待を表すだけでもよいが、take for granted は疑いなく当然だと扱う態度を含む。\n例: We expect the delivery to arrive tomorrow.\n訳: 私たちは配送品が明日届くと予想している。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "antonym:013",
+      "status": "pass",
+      "notes": "本文項目 ・appreciate\n定義: 人の努力や物の価値を理解し、感謝する。\n頻度: 〈9/10〉\n違い: appreciate は支えや恩恵を意識して価値を認めることで、take for granted の反対方向にある。\n例: I appreciate everything you have done for the project.\n訳: あなたがそのプロジェクトのためにしてくれたことすべてに感謝しています。 を確認し、辞書資料との対応に問題なし。"
+    },
+    {
+      "id": "antonym:014",
+      "status": "pass",
+      "notes": "本文項目 ・acknowledge\n定義: 事実、努力、貢献などを認め、言葉や態度で示す。\n頻度: 〈9/10〉\n違い: acknowledge は存在・貢献を意識して認めることで、当然視して見えなくすることと対照的である。\n例: The director acknowledged the volunteers’ work in her speech.\n訳: 監督はスピーチでボランティアの働きを認めた。 を確認し、辞書資料との対応に問題なし。"
+    }
+  ],
+  "relation_results": [
+    {
+      "id": "risk_sense_pair:001",
+      "status": "pass",
+      "notes": "監査番号R001 関係項目 記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: definition:002 explicitly contrasts sense 2 with sense 1 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "risk_sense_pair:002",
+      "status": "pass",
+      "notes": "監査番号R002 関係項目 記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: register:006 explicitly contrasts sense 6 with sense 5 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "example_translation:001",
+      "status": "pass",
+      "notes": "監査番号R003 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "example_translation:002",
+      "status": "pass",
+      "notes": "監査番号R004 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "example_translation:003",
+      "status": "pass",
+      "notes": "監査番号R005 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "example_translation:004",
+      "status": "pass",
+      "notes": "監査番号R006 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "example_translation:005",
+      "status": "pass",
+      "notes": "監査番号R007 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "example_translation:006",
+      "status": "pass",
+      "notes": "監査番号R008 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "example_translation:007",
+      "status": "pass",
+      "notes": "監査番号R009 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "example_translation:008",
+      "status": "pass",
+      "notes": "監査番号R010 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "example_translation:009",
+      "status": "pass",
+      "notes": "監査番号R011 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "example_translation:010",
+      "status": "pass",
+      "notes": "監査番号R012 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "example_translation:011",
+      "status": "pass",
+      "notes": "監査番号R013 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "example_translation:012",
+      "status": "pass",
+      "notes": "監査番号R014 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "example_translation:013",
+      "status": "pass",
+      "notes": "監査番号R015 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "example_translation:014",
+      "status": "pass",
+      "notes": "監査番号R016 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "example_translation:015",
+      "status": "pass",
+      "notes": "監査番号R017 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "example_translation:016",
+      "status": "pass",
+      "notes": "監査番号R018 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "example_translation:017",
+      "status": "pass",
+      "notes": "監査番号R019 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "example_translation:018",
+      "status": "pass",
+      "notes": "監査番号R020 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "example_translation:019",
+      "status": "pass",
+      "notes": "監査番号R021 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "example_translation:020",
+      "status": "pass",
+      "notes": "監査番号R022 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "example_translation:021",
+      "status": "pass",
+      "notes": "監査番号R023 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "example_translation:022",
+      "status": "pass",
+      "notes": "監査番号R024 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "example_translation:023",
+      "status": "pass",
+      "notes": "監査番号R025 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "example_translation:024",
+      "status": "pass",
+      "notes": "監査番号R026 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "example_translation:025",
+      "status": "pass",
+      "notes": "監査番号R027 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "example_translation:026",
+      "status": "pass",
+      "notes": "監査番号R028 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "example_translation:027",
+      "status": "pass",
+      "notes": "監査番号R029 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "example_translation:028",
+      "status": "pass",
+      "notes": "監査番号R030 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "example_translation:029",
+      "status": "pass",
+      "notes": "監査番号R031 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "example_translation:030",
+      "status": "pass",
+      "notes": "監査番号R032 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "example_translation:031",
+      "status": "pass",
+      "notes": "監査番号R033 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "example_translation:032",
+      "status": "pass",
+      "notes": "監査番号R034 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "sense_definition_consistency:001",
+      "status": "pass",
+      "notes": "監査番号R035 関係項目 語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "definition_usage_consistency:001",
+      "status": "pass",
+      "notes": "監査番号R036 関係項目 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "definition_usage_consistency:002",
+      "status": "pass",
+      "notes": "監査番号R037 関係項目 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:001",
+      "status": "pass",
+      "notes": "監査番号R038 関係項目 語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "pattern_example_coverage:001",
+      "status": "pass",
+      "notes": "監査番号R039 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "pattern_example_coverage:002",
+      "status": "pass",
+      "notes": "監査番号R040 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "pattern_example_coverage:003",
+      "status": "pass",
+      "notes": "監査番号R041 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "pattern_example_coverage:004",
+      "status": "pass",
+      "notes": "監査番号R042 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "pattern_example_coverage:005",
+      "status": "pass",
+      "notes": "監査番号R043 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "pattern_example_coverage:006",
+      "status": "pass",
+      "notes": "監査番号R044 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "sense_definition_consistency:002",
+      "status": "pass",
+      "notes": "監査番号R045 関係項目 語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "definition_usage_consistency:003",
+      "status": "pass",
+      "notes": "監査番号R046 関係項目 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:002",
+      "status": "pass",
+      "notes": "監査番号R047 関係項目 語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "pattern_example_coverage:007",
+      "status": "pass",
+      "notes": "監査番号R048 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "pattern_example_coverage:008",
+      "status": "pass",
+      "notes": "監査番号R049 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "pattern_example_coverage:009",
+      "status": "pass",
+      "notes": "監査番号R050 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "pattern_example_coverage:010",
+      "status": "pass",
+      "notes": "監査番号R051 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "sense_definition_consistency:003",
+      "status": "pass",
+      "notes": "監査番号R052 関係項目 語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "definition_usage_consistency:004",
+      "status": "pass",
+      "notes": "監査番号R053 関係項目 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:003",
+      "status": "pass",
+      "notes": "監査番号R054 関係項目 語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "pattern_example_coverage:011",
+      "status": "pass",
+      "notes": "監査番号R055 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "pattern_example_coverage:012",
+      "status": "pass",
+      "notes": "監査番号R056 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "pattern_example_coverage:013",
+      "status": "pass",
+      "notes": "監査番号R057 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "pattern_example_coverage:014",
+      "status": "pass",
+      "notes": "監査番号R058 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "pattern_example_coverage:015",
+      "status": "pass",
+      "notes": "監査番号R059 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "sense_definition_consistency:004",
+      "status": "pass",
+      "notes": "監査番号R060 関係項目 語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "definition_usage_consistency:005",
+      "status": "pass",
+      "notes": "監査番号R061 関係項目 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:004",
+      "status": "pass",
+      "notes": "監査番号R062 関係項目 語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "pattern_example_coverage:016",
+      "status": "pass",
+      "notes": "監査番号R063 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "pattern_example_coverage:017",
+      "status": "pass",
+      "notes": "監査番号R064 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "pattern_example_coverage:018",
+      "status": "pass",
+      "notes": "監査番号R065 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "pattern_example_coverage:019",
+      "status": "pass",
+      "notes": "監査番号R066 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "pattern_example_coverage:020",
+      "status": "pass",
+      "notes": "監査番号R067 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "sense_definition_consistency:005",
+      "status": "pass",
+      "notes": "監査番号R068 関係項目 語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "definition_usage_consistency:006",
+      "status": "pass",
+      "notes": "監査番号R069 関係項目 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "definition_usage_consistency:007",
+      "status": "pass",
+      "notes": "監査番号R070 関係項目 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:005",
+      "status": "pass",
+      "notes": "監査番号R071 関係項目 語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "pattern_example_coverage:021",
+      "status": "pass",
+      "notes": "監査番号R072 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "pattern_example_coverage:022",
+      "status": "pass",
+      "notes": "監査番号R073 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "pattern_example_coverage:023",
+      "status": "pass",
+      "notes": "監査番号R074 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "pattern_example_coverage:024",
+      "status": "pass",
+      "notes": "監査番号R075 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "pattern_example_coverage:025",
+      "status": "pass",
+      "notes": "監査番号R076 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "pattern_example_coverage:026",
+      "status": "pass",
+      "notes": "監査番号R077 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "sense_definition_consistency:006",
+      "status": "pass",
+      "notes": "監査番号R078 関係項目 語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "definition_usage_consistency:008",
+      "status": "pass",
+      "notes": "監査番号R079 関係項目 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:006",
+      "status": "pass",
+      "notes": "監査番号R080 関係項目 語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "pattern_example_coverage:027",
+      "status": "pass",
+      "notes": "監査番号R081 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "pattern_example_coverage:028",
+      "status": "pass",
+      "notes": "監査番号R082 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "pattern_example_coverage:029",
+      "status": "pass",
+      "notes": "監査番号R083 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "pattern_example_coverage:030",
+      "status": "pass",
+      "notes": "監査番号R084 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "sense_definition_consistency:007",
+      "status": "pass",
+      "notes": "監査番号R085 関係項目 語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "definition_usage_consistency:009",
+      "status": "pass",
+      "notes": "監査番号R086 関係項目 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "definition_usage_consistency:010",
+      "status": "pass",
+      "notes": "監査番号R087 関係項目 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "definition_usage_consistency:011",
+      "status": "pass",
+      "notes": "監査番号R088 関係項目 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "definition_usage_consistency:012",
+      "status": "pass",
+      "notes": "監査番号R089 関係項目 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "definition_usage_consistency:013",
+      "status": "pass",
+      "notes": "監査番号R090 関係項目 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:007",
+      "status": "pass",
+      "notes": "監査番号R091 関係項目 語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "pattern_example_coverage:031",
+      "status": "pass",
+      "notes": "監査番号R092 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "pattern_example_coverage:032",
+      "status": "pass",
+      "notes": "監査番号R093 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "pattern_example_coverage:033",
+      "status": "pass",
+      "notes": "監査番号R094 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "pattern_example_coverage:034",
+      "status": "pass",
+      "notes": "監査番号R095 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "pattern_example_coverage:035",
+      "status": "pass",
+      "notes": "監査番号R096 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "core_inventory_consistency:001",
+      "status": "pass",
+      "notes": "監査番号R097 関係項目 語義番号を限定しない総括的なコアイメージが、記事の語義目録全体を不当に一般化していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "core_sense_mapping:001",
+      "status": "pass",
+      "notes": "監査番号R098 関係項目 コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "core_sense_mapping:002",
+      "status": "pass",
+      "notes": "監査番号R099 関係項目 コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "core_sense_mapping:003",
+      "status": "pass",
+      "notes": "監査番号R100 関係項目 コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "core_sense_mapping:004",
+      "status": "pass",
+      "notes": "監査番号R101 関係項目 コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "core_sense_mapping:005",
+      "status": "pass",
+      "notes": "監査番号R102 関係項目 コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "core_sense_mapping:006",
+      "status": "pass",
+      "notes": "監査番号R103 関係項目 コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "core_sense_mapping:007",
+      "status": "pass",
+      "notes": "監査番号R104 関係項目 コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+    },
+    {
+      "id": "article_learning_risk:001",
+      "status": "pass",
+      "notes": "監査番号R105 関係項目 記事全体の語義構成、対比、訳語、限定表現から学習者が誤った一般化をしないことを横断確認する。 を確認し、本文の語義境界に問題なし。"
+    }
+  ],
+  "normal_candidate_results": [
+    {
+      "id": "candidate:grant:001",
+      "status": "pass",
+      "notes": "通常レビュー候補を採用範囲に照合した。"
+    }
+  ],
+  "blind_candidate_results": [
+    {
+      "id": "candidate:grant:001",
+      "status": "pass",
+      "notes": "封印後も候補の意味範囲と主張を再確認した。",
+      "assertion_ids": [
+        "assertion:grant:001"
+      ],
+      "verified_body_sha256": "2476d7dd3e5337329be8ca2f86dd85153d56c7518b43c05dbbfd23b45963dde9"
+    }
+  ],
+  "finding_results": [],
+  "evidence_checks": [
+    {
+      "id": "evidence:grant:001",
+      "status": "pass",
+      "notes": "独立辞書資料の根拠リンクを確認した。"
+    },
+    {
+      "id": "evidence:grant:002",
+      "status": "pass",
+      "notes": "独立辞書資料の根拠リンクを確認した。"
+    }
+  ],
+  "source_inventory_results": [
+    {
+      "id": "U-001",
+      "union_id": "U-001",
+      "status": "pass",
+      "notes": "出典統合項目 Grant can mean to give or allow something formally. を本文と照合した。"
+    },
+    {
+      "id": "U-002",
+      "union_id": "U-002",
+      "status": "pass",
+      "notes": "出典統合項目 Grant can mean to award a right, status, or benefit. を本文と照合した。"
+    },
+    {
+      "id": "U-003",
+      "union_id": "U-003",
+      "status": "pass",
+      "notes": "出典統合項目 Grant is used for formally approving a request, application, or legal relief. を本文と照合した。"
+    },
+    {
+      "id": "U-004",
+      "union_id": "U-004",
+      "status": "pass",
+      "notes": "出典統合項目 I grant that and granting that introduce a concession in an argument. を本文と照合した。"
+    },
+    {
+      "id": "U-005",
+      "union_id": "U-005",
+      "status": "pass",
+      "notes": "出典統合項目 A grant is money given for a particular purpose, such as research or study. を本文と照合した。"
+    },
+    {
+      "id": "U-006",
+      "union_id": "U-006",
+      "status": "pass",
+      "notes": "出典統合項目 A grant can be the formal transfer of a right, property, or interest. を本文と照合した。"
+    },
+    {
+      "id": "U-007",
+      "union_id": "U-007",
+      "status": "pass",
+      "notes": "出典統合項目 Take someone or something for granted means to value or acknowledge it insufficiently. を本文と照合した。"
+    },
+    {
+      "id": "U-008",
+      "union_id": "U-008",
+      "status": "pass",
+      "notes": "出典統合項目 Grantee is the person or organization receiving a grant. を本文と照合した。"
+    },
+    {
+      "id": "U-009",
+      "union_id": "U-009",
+      "status": "pass",
+      "notes": "出典統合項目 Grant is /ɡrænt/ in US English and /ɡrɑːnt/ in UK English. を本文と照合した。"
+    },
+    {
+      "id": "U-010",
+      "union_id": "U-010",
+      "status": "pass",
+      "notes": "出典統合項目 Grant entered English through Old French from a Latin root related to believing or trusting. を本文と照合した。"
+    }
+  ],
+  "adjudication": {
+    "decision": "pass",
+    "inventory_comparison": [],
+    "target_results": [
+      {
+        "id": "pronunciation:001",
+        "status": "pass",
+        "notes": "本文項目 米: /ɡrænt/｜英: /ɡrɑːnt/。1音節で、語頭の /ɡr/ に続いて母音、最後に /nt/ が来る。米音の /æ/ は *cat* の母音に近く、英音の /ɑː/ は *father* の母音に近い。過去形・過去分詞 granted は米 /ˈɡræntɪd/、英 /ˈɡrɑːntɪd/、-ing形 granting は米 /ˈɡræntɪŋ/、英 /ˈɡrɑːntɪŋ/。語末の /t/ を落とさず発音する。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "etymology:001",
+        "status": "pass",
+        "notes": "本文項目 中英語を経て、古フランス語 *granter*「同意する、保証する」から入った語。古フランス語の形は、ラテン語 *credere*「信じる、託す」と関係する形から発達したとされる。もともと相手の求めや主張を認めることから、「正式に与える・許可する」、さらに「認める・譲歩する」へ意味が広がった。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "word_formation:001",
+        "status": "pass",
+        "notes": "本文項目 ・granted：*grant* の過去形・過去分詞。「与えられた、認められた」。文頭の `Granted, ...` では、相手の主張をいったん認めてから反対の点を述べる接続的な表現になる。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "word_formation:002",
+        "status": "pass",
+        "notes": "本文項目 ・granting：現在分詞・動名詞。「与えること、認めること」。`granting that ...` では「～だと認めるなら、仮に～としても」。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "word_formation:003",
+        "status": "pass",
+        "notes": "本文項目 ・grantee：grant を受ける人・組織、特に補助金や権利の受給者。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "word_formation:004",
+        "status": "pass",
+        "notes": "本文項目 ・grantor：権利・財産などを正式に譲渡する人・組織。法律・不動産の文脈で多い。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "word_formation:005",
+        "status": "pass",
+        "notes": "本文項目 ・grant-funded：補助金で資金を提供された、補助金を財源とする。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "core_image:001",
+        "status": "pass",
+        "notes": "本文項目 権限や裁量を持つ側が、相手の求め・権利・利益などを「認めて、相手のものにする／できるようにする」こと。単なる *give* よりも、許可・資格・公式決定・申請への応答という含みが出やすい。そこから、主張を認める用法、補助金という「与えられたもの」の名詞用法、当然視する `take for granted` が生じる。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "core_image:002",
+        "status": "pass",
+        "notes": "本文項目 ・申請・要求・権利・許可などを正式に認める → 「許可する、認める、与える」（語義1） を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "core_image:003",
+        "status": "pass",
+        "notes": "本文項目 ・土地・権利・地位などを公式に授与・譲渡する → 「授与する、付与する」（語義2） を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "core_image:004",
+        "status": "pass",
+        "notes": "本文項目 ・裁判所・行政機関が申立てや救済を認める → 「認容する、許可する」（語義3） を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "core_image:005",
+        "status": "pass",
+        "notes": "本文項目 ・相手の主張や事実を認める → 「認める、譲歩する」（語義4） を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "core_image:006",
+        "status": "pass",
+        "notes": "本文項目 ・特定目的のために与えられる金銭 → 「助成金、補助金、奨学金」（語義5） を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "core_image:007",
+        "status": "pass",
+        "notes": "本文項目 ・権利・財産の正式な付与、またはその証書 → 「付与、譲渡、付与証書」（語義6） を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "core_image:008",
+        "status": "pass",
+        "notes": "本文項目 ・当然のものとして扱い、価値や幸運を意識しない → 「～を当然と思う、ありがたみを忘れる」（語義7） を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "sense_boundary:001",
+        "status": "pass",
+        "notes": "本文項目 1. 【他動詞・形式的】申請・要求・権利・許可などを認めて与える、許可する を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "definition:001",
+        "status": "pass",
+        "notes": "本文項目 人が求めたもの、または人に認められる権利・許可・利益を、権限のある個人・組織が公式または改まった形で与える。相手の要求を検討したうえで「与えてよい」と決定する含みがあり、単なる物の受け渡しを表す *give* より制度的・形式的である。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "frequency:001",
+        "status": "pass",
+        "notes": "本文項目 〈10/10〉 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "register:001",
+        "status": "pass",
+        "notes": "本文項目 標準語。行政、ビジネス、学校、公式通知、丁寧な依頼への応答で広く使う。受け身の `be granted` は、ビザ・許可・アクセスなどを受けた人を主語にする場合に特に多い。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "grammar_pattern:001",
+        "status": "pass",
+        "notes": "本文項目 `grant 〈要求・権利・許可〉`＝要求・権利・許可を認める を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "grammar_pattern:002",
+        "status": "pass",
+        "notes": "本文項目 `grant 〈人〉 + 〈許可・権利・利益〉`＝〈人〉に…を与える を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "grammar_pattern:003",
+        "status": "pass",
+        "notes": "本文項目 `grant 〈許可・権利・利益〉 to 〈人・組織〉`＝…を〈人・組織〉に与える を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "grammar_pattern:004",
+        "status": "pass",
+        "notes": "本文項目 `be granted 〈許可・権利・アクセス〉`＝許可・権利・アクセスを与えられる を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "grammar_pattern:005",
+        "status": "pass",
+        "notes": "本文項目 `grant 〈人〉 permission/access/leave`＝〈人〉に許可・アクセス・休暇を与える を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "grammar_pattern:006",
+        "status": "pass",
+        "notes": "本文項目 `grant 〈人〉 an extension/a request/a wish`＝〈人〉に延長・要求の承認・願いの実現を認める。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "collocation:001",
+        "status": "pass",
+        "notes": "本文項目 ・grant permission to 〈人〉\n用途: 公式に何かをする許可を与える。\n例: The museum granted permission to photograph the exhibition.\n訳: その美術館は展示を撮影する許可を与えた。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "collocation:002",
+        "status": "pass",
+        "notes": "本文項目 ・grant access to 〈場所・情報・システム〉\n用途: 限定された場所・情報・システムを利用できるようにする。\n例: The administrator granted access to the archive after verifying her identity.\n訳: 管理者は本人確認の後、彼女にアーカイブへのアクセスを認めた。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "collocation:003",
+        "status": "pass",
+        "notes": "本文項目 ・grant a request\n用途: 人から出された依頼・申請を認める。\n例: The committee granted our request for an additional week.\n訳: 委員会は私たちの追加1週間の要請を認めた。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "collocation:004",
+        "status": "pass",
+        "notes": "本文項目 ・grant an extension\n用途: 締切・契約期間などの延長を公式に認める。\n例: The publisher granted the author an extension for the revised manuscript.\n訳: 出版社は著者に改訂原稿の締切延長を認めた。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "collocation:005",
+        "status": "pass",
+        "notes": "本文項目 ・grant a licence/visa\n用途: 免許・査証などの資格や許可を発行・付与する。\n例: The authorities granted her a visa to conduct the research.\n訳: 当局は彼女にその研究を行うためのビザを発給した。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "collocation:006",
+        "status": "pass",
+        "notes": "本文項目 ・grant a wish\n用途: 願いをかなえる。物語的な文脈にも、改まった比喩にも使う。\n例: The old lighthouse keeper granted the child one last wish.\n訳: その年老いた灯台守は、その子の最後の願いを一つかなえた。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "usage_note:001",
+        "status": "pass",
+        "notes": "本文項目 `grant someone something` と `grant something to someone` の両方が使える。`grant someone permission/access` は自然だが、許可の対象を表す名詞を `grant someone to do` と直接続けない。動作そのものを許可する場合は `grant someone permission to do`、または `allow someone to do` とする。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "usage_note:002",
+        "status": "pass",
+        "notes": "本文項目 `grant` は、相手の要求が当然に認められるというより、権限者が判断して認めるという視点を含む。したがって `The request was granted` は「申請・要求が承認された」であり、単に誰かが物を渡したという意味ではない。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "synonym:001",
+        "status": "pass",
+        "notes": "本文項目 ・allow\n定義: 人が何かをすること、または何かが起こることを許す。\n頻度: 〈10/10〉\n違い: allow は日常的で、行為の許可・妨げないことに焦点がある。grant は申請、権利、資格などを正式に認める響きが強い。\n例: The guard allowed us to enter the room.\n訳: 警備員は私たちが部屋に入るのを許可した。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "synonym:002",
+        "status": "pass",
+        "notes": "本文項目 ・approve\n定義: 計画・申請・提案などを検討して承認する。\n頻度: 〈9/10〉\n違い: approve は判断・承認の行為に焦点があり、grant は承認の結果として権利や要求を与えることに焦点がある。\n例: The board approved the plan and granted the team extra funding.\n訳: 理事会は計画を承認し、チームに追加資金を与えた。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "synonym:003",
+        "status": "pass",
+        "notes": "本文項目 ・award\n定義: 審査や功績の評価に基づいて賞・契約・金銭などを与える。\n頻度: 〈8/10〉\n違い: award は「評価して授ける」含みが強く、grant は要求・権利・許可を認める場合にも使う。\n例: The foundation awarded her a scholarship for outstanding work.\n訳: 財団は優れた業績を評価して彼女に奨学金を授与した。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "synonym:004",
+        "status": "pass",
+        "notes": "本文項目 ・give\n定義: 物・情報・機会などを相手に渡す、または与える。\n頻度: 〈10/10〉\n違い: give は最も一般的で、grant のような公式な許可・承認の含みを必ずしも持たない。\n例: She gave me permission to use the room.\n訳: 彼女は私にその部屋を使う許可をくれた。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "antonym:001",
+        "status": "pass",
+        "notes": "本文項目 ・refuse\n定義: 要求・申し出などを断り、与えることを拒む。\n頻度: 〈9/10〉\n違い: grant が権限者による承認を表すのに対し、refuse は要求を認めない決定を表す。\n例: The office refused our request for a deadline extension.\n訳: その部署は私たちの締切延長の要請を拒んだ。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "antonym:002",
+        "status": "pass",
+        "notes": "本文項目 ・deny\n定義: 要求・権利・許可などを認めず、与えない。\n頻度: 〈9/10〉\n違い: deny は「相手が求めるものを与えない」ことに焦点があり、事実を否定する意味も持つ。\n例: The agency denied him access to the records.\n訳: その機関は彼に記録へのアクセスを認めなかった。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "sense_boundary:002",
+        "status": "pass",
+        "notes": "本文項目 2. 【他動詞・形式的】土地・権利・地位などを公式に授与・付与する を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "definition:002",
+        "status": "pass",
+        "notes": "本文項目 政府、君主、機関、所有者などが、土地、財産、称号、独立、免除、権利などを正式な決定・文書・権限によって相手に与える。語義1の「要求を認める」よりも、何かを新たに相手へ帰属させることに焦点がある。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "frequency:002",
+        "status": "pass",
+        "notes": "本文項目 〈8/10〉 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "register:002",
+        "status": "pass",
+        "notes": "本文項目 形式的。法律、歴史、政治、行政、不動産、国際関係で多い。`be granted` の受け身では、与えられた側の地位や権利を述べる。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "grammar_pattern:007",
+        "status": "pass",
+        "notes": "本文項目 `grant 〈土地・権利・地位〉 to 〈人・組織〉`＝土地・権利・地位を〈人・組織〉に付与する を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "grammar_pattern:008",
+        "status": "pass",
+        "notes": "本文項目 `grant 〈人・組織〉 + 〈土地・権利〉`＝〈人・組織〉に土地・権利を与える を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "grammar_pattern:009",
+        "status": "pass",
+        "notes": "本文項目 `be granted 〈独立・市民権・免除〉`＝独立・市民権・免除を与えられる を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "grammar_pattern:010",
+        "status": "pass",
+        "notes": "本文項目 `grant 〈人〉 title/custody/independence`＝〈人〉に称号・監護権・独立を付与する。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "collocation:007",
+        "status": "pass",
+        "notes": "本文項目 ・grant independence to 〈国・地域〉\n用途: 国や地域に独立を正式に認める。\n例: The former colony was granted independence in 1962.\n訳: その旧植民地は1962年に独立を認められた。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "collocation:008",
+        "status": "pass",
+        "notes": "本文項目 ・grant citizenship to 〈人〉\n用途: 法的な市民資格を付与する。\n例: The country granted citizenship to families who had lived there for decades.\n訳: その国は何十年もそこで暮らしてきた家族に市民権を付与した。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "collocation:009",
+        "status": "pass",
+        "notes": "本文項目 ・grant land to 〈人・組織〉\n用途: 土地の所有・利用を正式に与える。\n例: The ruler granted land to the university for a public garden.\n訳: その統治者は公共庭園のために大学へ土地を与えた。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "collocation:010",
+        "status": "pass",
+        "notes": "本文項目 ・grant a patent/title\n用途: 特許や称号を審査・決定に基づいて正式に付与する。\n例: The office granted a patent for the improved valve.\n訳: その庁は改良された弁について特許を付与した。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "usage_note:003",
+        "status": "pass",
+        "notes": "本文項目 この用法は、物を一時的に貸す *lend* や、対価を払って販売する *sell* とは異なる。`grant land to someone` は、土地を相手に正式に帰属させる・使用させるという制度的な授与を表す。現代の政治・法律文脈では、`grant independence` や `grant citizenship` のように抽象的な地位にも使える。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "synonym:005",
+        "status": "pass",
+        "notes": "本文項目 ・confer\n定義: 権利、称号、名誉などを正式に授ける。\n頻度: 〈6/10〉\n違い: confer は称号・学位・権限などを公式に授与する硬い語で、grant より使用範囲が狭い。\n例: The university conferred an honorary degree on the author.\n訳: その大学はその作家に名誉学位を授与した。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "synonym:006",
+        "status": "pass",
+        "notes": "本文項目 ・bestow\n定義: 名誉、贈り物、称号などを相手に授ける。\n頻度: 〈5/10〉\n違い: bestow は改まった・文学的な「授ける」で、grant のような申請への許可には普通使わない。\n例: The committee bestowed its highest honor on the researcher.\n訳: 委員会はその研究者に最高の栄誉を授けた。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "synonym:007",
+        "status": "pass",
+        "notes": "本文項目 ・transfer\n定義: 所有権、権利、責任などを別の人・組織へ移す。\n頻度: 〈8/10〉\n違い: transfer は移転の事実に焦点があり、grant は権限者が正式に与えるという出発点を示す。\n例: The deed transferred the property to the trust.\n訳: その証書によって財産は信託へ移転された。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "antonym:003",
+        "status": "pass",
+        "notes": "本文項目 ・revoke\n定義: いったん与えた許可・権利・資格などを取り消す。\n頻度: 〈6/10〉\n違い: revoke は付与の後に効力を失わせることで、grant の反対方向の手続きを表す。\n例: The regulator revoked the company’s licence.\n訳: 規制当局はその会社の免許を取り消した。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "antonym:004",
+        "status": "pass",
+        "notes": "本文項目 ・withhold\n定義: 与えることができるものを意図的に与えず、保留する。\n頻度: 〈7/10〉\n違い: withhold は付与を行わない・差し控えることに焦点があり、正式な拒否決定まで含むとは限らない。\n例: The office withheld approval until the missing documents arrived.\n訳: その部署は不足書類が届くまで承認を保留した。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "sense_boundary:003",
+        "status": "pass",
+        "notes": "本文項目 3. 【他動詞・法律・行政】申立て・救済・判決などを認容する を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "definition:003",
+        "status": "pass",
+        "notes": "本文項目 裁判所、行政機関、審査機関などが、申立て、請求、抗弁、許可申請、救済措置などを法的・公式に認める。何かを「与える」一般義から発達した専門的用法で、裁判所が特定の申立てを認めて手続き上の効果を生じさせることを指す。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "frequency:003",
+        "status": "pass",
+        "notes": "本文項目 〈8/10〉 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "register:003",
+        "status": "pass",
+        "notes": "本文項目 法律・行政。一般会話では、対象を具体的に示さない限りこの意味にならない。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "grammar_pattern:011",
+        "status": "pass",
+        "notes": "本文項目 `grant 〈motion・application・petition〉`＝申立て・申請・請願を認める を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "grammar_pattern:012",
+        "status": "pass",
+        "notes": "本文項目 `grant 〈人〉 bail/leave to appeal`＝〈人〉に保釈・上訴許可を認める を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "grammar_pattern:013",
+        "status": "pass",
+        "notes": "本文項目 `grant an injunction/a new trial`＝差止命令・再審を認める を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "grammar_pattern:014",
+        "status": "pass",
+        "notes": "本文項目 `be granted 〈救済・保釈・上訴許可〉`＝救済・保釈・上訴許可を認められる を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "grammar_pattern:015",
+        "status": "pass",
+        "notes": "本文項目 `grant 〈人〉 custody of 〈子ども〉`＝〈人〉に〈子ども〉の監護権を認める。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "collocation:011",
+        "status": "pass",
+        "notes": "本文項目 ・grant a motion\n用途: 裁判所が手続き上の申立てを認める。\n例: The judge granted the motion to exclude the evidence.\n訳: 裁判官はその証拠を除外する申立てを認めた。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "collocation:012",
+        "status": "pass",
+        "notes": "本文項目 ・grant an injunction\n用途: 一定の行為をする・しないよう命じる差止めを認める。\n例: The court granted an injunction preventing the sale of the building.\n訳: 裁判所はその建物の売却を差し止める命令を認めた。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "collocation:013",
+        "status": "pass",
+        "notes": "本文項目 ・grant bail\n用途: 事件の審理前などに保釈を認める。\n例: The judge granted bail subject to strict reporting conditions.\n訳: 裁判官は厳しい報告条件付きで保釈を認めた。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "collocation:014",
+        "status": "pass",
+        "notes": "本文項目 ・grant leave to appeal\n用途: 上級審への不服申立てをする許可を与える。\n例: The court granted leave to appeal on the question of costs.\n訳: 裁判所は費用の問題について上訴する許可を与えた。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "usage_note:004",
+        "status": "pass",
+        "notes": "本文項目 法律文脈の `grant` は「申立てを認める」であり、申立人の主張すべてを最終的に正しいと認定したことを必ずしも意味しない。`grant a motion`、`grant an application` のように、認められた手続き・救済を目的語に置く。反対は `deny/refuse a motion` など。法域によって手続きや訳語は異なるため、具体的制度の要件までこの語だけから推測しない。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "synonym:008",
+        "status": "pass",
+        "notes": "本文項目 ・allow\n定義: 申請・訴え・手続きなどを認め、進行させる。\n頻度: 〈8/10〉\n違い: allow は裁判・行政でも使えるが、grant は命令・救済・許可を公式に付与する語として定着している。\n例: The tribunal allowed the appeal to proceed.\n訳: その審判機関は上訴を進めることを認めた。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "synonym:009",
+        "status": "pass",
+        "notes": "本文項目 ・uphold\n定義: 決定、判決、権利などを有効なものとして支持する。\n頻度: 〈7/10〉\n違い: uphold は既存の判断や権利を維持することで、grant は新たな申立てや救済を認めることに焦点がある。\n例: The appeal court upheld the original decision.\n訳: 控訴裁判所は原判決を支持した。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "synonym:010",
+        "status": "pass",
+        "notes": "本文項目 ・approve\n定義: 計画、申請、提案などを正式に承認する。\n頻度: 〈9/10〉\n違い: approve は承認の判断を一般に表し、grant は法的な許可や救済を相手に与える結果まで含みやすい。\n例: The agency approved the application and granted the permit.\n訳: その機関は申請を承認し、許可証を付与した。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "antonym:005",
+        "status": "pass",
+        "notes": "本文項目 ・deny\n定義: 請求、申立て、許可などを認めない。\n頻度: 〈9/10〉\n違い: deny は、相手が求めた救済や許可を与えない決定を表す法律用語として特に重要である。\n例: The court denied the petition for a new hearing.\n訳: 裁判所は再審理を求める請願を退けた。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "antonym:006",
+        "status": "pass",
+        "notes": "本文項目 ・dismiss\n定義: 訴え、申立て、事件などを退け、手続きを終わらせる。\n頻度: 〈8/10〉\n違い: dismiss は手続き自体を退けることに焦点があり、grant は求められた申立てや救済を認めることに焦点がある。\n例: The court dismissed the claim without reaching the merits.\n訳: 裁判所は本案に立ち入らず、その請求を退けた。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "sense_boundary:004",
+        "status": "pass",
+        "notes": "本文項目 4. 【他動詞・認識・譲歩】事実・主張を認める、譲歩する を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "definition:004",
+        "status": "pass",
+        "notes": "本文項目 相手の指摘やある事実が正しいと認める。しばしば、全面的な賛成ではなく、反論や別の判断に移るために一部だけを認める。`I grant you that ...` は「…なのは認めるが」という対比を作り、`granting that ...` は「…だと認めるとしても」を表す。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "frequency:004",
+        "status": "pass",
+        "notes": "本文項目 〈7/10〉 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "register:004",
+        "status": "pass",
+        "notes": "本文項目 標準語。議論、批評、説得、改まった会話で使う。相手の主張への譲歩を示すため、*admit* よりやや論証的で、*concede* に近い場合がある。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "grammar_pattern:016",
+        "status": "pass",
+        "notes": "本文項目 `grant (someone) that 〈節〉`＝〈人〉が～だと認める を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "grammar_pattern:017",
+        "status": "pass",
+        "notes": "本文項目 `I grant you that 〈節〉, but ...`＝～なのは認めるが… を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "grammar_pattern:018",
+        "status": "pass",
+        "notes": "本文項目 `grant 〈人〉 + 〈点・主張〉`＝〈人〉の点・主張を認める を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "grammar_pattern:019",
+        "status": "pass",
+        "notes": "本文項目 `granting that 〈節〉`＝～だと認めるとしても を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "grammar_pattern:020",
+        "status": "pass",
+        "notes": "本文項目 `Granted, 〈節〉, but ...`＝確かに～だが…。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "collocation:015",
+        "status": "pass",
+        "notes": "本文項目 ・I grant you that ...\n用途: 相手の指摘を認めつつ、後半で反対の評価や制限を述べる。\n例: I grant you that the design is elegant, but it is too expensive to produce.\n訳: そのデザインが洗練されているのは認めるが、製造費が高すぎる。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "collocation:016",
+        "status": "pass",
+        "notes": "本文項目 ・grant someone’s point\n用途: 議論の中で相手のある論点を認める。\n例: I grant your point about speed, yet reliability matters more here.\n訳: 速度についてのあなたの論点は認めるが、ここでは信頼性の方が重要だ。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "collocation:017",
+        "status": "pass",
+        "notes": "本文項目 ・grant that ...\n用途: ある事実を認めたうえで、別の主張を続ける。\n例: We must grant that the first version solved a real problem.\n訳: 初版が現実の問題を解決したことは認めなければならない。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "collocation:018",
+        "status": "pass",
+        "notes": "本文項目 ・granting that ...\n用途: 条件や前提を仮に認めても、結論は変わらないと述べる。\n例: Granting that the figures are accurate, the conclusion still does not follow.\n訳: 数値が正確だと認めても、その結論はなお導かれない。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "usage_note:005",
+        "status": "pass",
+        "notes": "本文項目 この用法の `grant` は「要求を許可する」ではなく、「発言・事実を認める」。`I grant you that ...` の *you* は認める相手を示す間接目的語であり、許可を受ける人を示す `grant you permission` とは構造も意味も違う。`grant` と言っても後続の `but` で反論することが多く、必ずしも全体への同意ではない。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "synonym:011",
+        "status": "pass",
+        "notes": "本文項目 ・admit\n定義: 事実・誤り・不都合な点などを認める。\n頻度: 〈10/10〉\n違い: admit は自分が認めたくない事実を認める含みが出やすく、grant は議論上の点を譲歩として認める響きが強い。\n例: She admitted that the estimate had been too optimistic.\n訳: 彼女はその見積もりが楽観的すぎたと認めた。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "synonym:012",
+        "status": "pass",
+        "notes": "本文項目 ・concede\n定義: 議論や競争で、相手の主張・優位を認める。\n頻度: 〈7/10〉\n違い: concede はしぶしぶ譲歩する含みがより強い。grant は冷静な論証上の譲歩にも使える。\n例: The critic conceded that the film had memorable scenes.\n訳: その評論家は、その映画に印象的な場面があることは認めた。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "synonym:013",
+        "status": "pass",
+        "notes": "本文項目 ・acknowledge\n定義: 事実、存在、貢献などを認め、認識していることを示す。\n頻度: 〈9/10〉\n違い: acknowledge は中立的な確認にも使えるが、grant は相手の論点を譲歩として認める対話的な含みがある。\n例: The report acknowledged the limits of the available data.\n訳: その報告書は利用可能なデータの限界を認めた。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "antonym:007",
+        "status": "pass",
+        "notes": "本文項目 ・deny\n定義: 事実・主張・責任などを真実として認めない。\n頻度: 〈9/10〉\n違い: grant が相手の指摘を受け入れる方向なのに対し、deny はその真実性や妥当性を退ける。\n例: He denied that the warning had been ignored.\n訳: 彼は警告が無視されたことを否定した。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "antonym:008",
+        "status": "pass",
+        "notes": "本文項目 ・dispute\n定義: 主張・事実・数値などの正しさに異議を唱える。\n頻度: 〈7/10〉\n違い: dispute は議論の対象として争うことで、単に事実を知らないという意味ではない。\n例: The company disputed the accuracy of the report.\n訳: その会社は報告書の正確性に異議を唱えた。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "sense_boundary:005",
+        "status": "pass",
+        "notes": "本文項目 5. 【可算名詞・金融・教育】助成金、補助金、奨学金 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "definition:005",
+        "status": "pass",
+        "notes": "本文項目 政府、大学、財団、企業などが、研究、教育、事業、地域活動など特定の目的のために人・組織へ与える金銭。通常は目的、申請、審査、報告などの条件を伴う。*grant* だけで「無条件にもらえるお金」や「返済不要」を常に意味するわけではないため、制度ごとの条件は別に確認する。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "frequency:005",
+        "status": "pass",
+        "notes": "本文項目 〈9/10〉 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "register:005",
+        "status": "pass",
+        "notes": "本文項目 標準語。行政、教育、研究、非営利活動、事業支援、金融の説明で広く使う。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "grammar_pattern:021",
+        "status": "pass",
+        "notes": "本文項目 `a grant from 〈機関〉`＝〈機関〉からの助成金 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "grammar_pattern:022",
+        "status": "pass",
+        "notes": "本文項目 `a grant for 〈目的〉`＝〈目的〉のための助成金 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "grammar_pattern:023",
+        "status": "pass",
+        "notes": "本文項目 `a grant to 〈人・組織〉`＝〈人・組織〉への助成金 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "grammar_pattern:024",
+        "status": "pass",
+        "notes": "本文項目 `a grant to do 〈目的〉`＝～するための助成金 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "grammar_pattern:025",
+        "status": "pass",
+        "notes": "本文項目 `apply for/receive/be awarded a grant`＝助成金を申請する・受け取る・授与される を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "grammar_pattern:026",
+        "status": "pass",
+        "notes": "本文項目 `grant funding`＝助成金による資金。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "collocation:019",
+        "status": "pass",
+        "notes": "本文項目 ・a research grant\n用途: 研究費として交付される助成金。\n例: The team received a research grant to study coastal erosion.\n訳: そのチームは海岸侵食を研究するための助成金を受け取った。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "collocation:020",
+        "status": "pass",
+        "notes": "本文項目 ・a government grant\n用途: 政府・自治体から交付される補助金。\n例: The museum renovated the roof with a government grant.\n訳: その美術館は政府の補助金で屋根を改修した。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "collocation:021",
+        "status": "pass",
+        "notes": "本文項目 ・apply for a grant\n用途: 助成金の交付を申請する。\n例: The nonprofit applied for a grant to expand its tutoring program.\n訳: その非営利団体は個別指導事業を拡大するため助成金を申請した。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "collocation:022",
+        "status": "pass",
+        "notes": "本文項目 ・receive/be awarded a grant\n用途: 助成金を受け取る、審査を経て授与される。\n例: She was awarded a grant for her first documentary.\n訳: 彼女は初のドキュメンタリー作品のための助成金を授与された。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "collocation:023",
+        "status": "pass",
+        "notes": "本文項目 ・a grant from 〈機関〉\n用途: 資金の出所を示す。\n例: The project was supported by a grant from the local foundation.\n訳: そのプロジェクトは地元財団からの助成金で支えられた。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "collocation:024",
+        "status": "pass",
+        "notes": "本文項目 ・a grant to do 〈目的〉\n用途: 何をするための助成金かを示す。\n例: The school received a grant to install accessible equipment.\n訳: その学校は利用しやすい設備を設置するための助成金を受け取った。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "usage_note:006",
+        "status": "pass",
+        "notes": "本文項目 この意味は通常可算で、`a grant`、`several grants` と数える。`loan` は返済を前提とする借入金、`grant` は特定目的のために交付される資金で、返済条件や自己負担の有無は制度により異なる。`funding` は資金供給全般を指し、grant より広い。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "usage_note:007",
+        "status": "pass",
+        "notes": "本文項目 `grant` は金額そのものだけでなく、交付制度・一件の助成を指せる。`grant funding` は「助成金による資金」で、単に `funding` と言うより、返済ではなく交付・助成の仕組みに焦点を置く。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "synonym:014",
+        "status": "pass",
+        "notes": "本文項目 ・subsidy\n定義: 政府などが特定の産業・活動・価格を支えるために与える補助金。\n頻度: 〈7/10〉\n違い: subsidy は政策的に特定分野を支える意味が強く、grant は研究・教育・個別プロジェクトへの交付にも広く使う。\n例: The farmers receive a subsidy for adopting water-saving methods.\n訳: その農家は節水方法を導入するため補助金を受け取っている。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "synonym:015",
+        "status": "pass",
+        "notes": "本文項目 ・scholarship\n定義: 学費や学業を支援するために学生へ与えられる奨学金。\n頻度: 〈8/10〉\n違い: scholarship は教育目的に限られやすく、grant は研究者・団体・事業などにも交付される。\n例: He won a scholarship to study engineering abroad.\n訳: 彼は海外で工学を学ぶための奨学金を得た。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "synonym:016",
+        "status": "pass",
+        "notes": "本文項目 ・loan\n定義: 後で返すことを前提に貸し出される金銭。\n頻度: 〈9/10〉\n違い: loan は返済義務が中心で、grant は特定目的への交付・助成を表す。\n例: The startup used a loan to cover short-term costs.\n訳: その新興企業は短期費用をまかなうため融資を利用した。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "antonym:009",
+        "status": "pass",
+        "notes": "本文項目 ・repayment\n定義: 借りた金銭を返すこと、または返済された金額。\n頻度: 〈7/10〉\n違い: grant が資金を交付する側から見た付与であるのに対し、repayment は借り手が返す行為・金額を表す。\n例: The contract specifies the repayment schedule for the loan.\n訳: その契約は融資の返済予定を定めている。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "antonym:010",
+        "status": "pass",
+        "notes": "本文項目 ・fee\n定義: サービス、許可、授業などの対価として支払う料金。\n頻度: 〈9/10〉\n違い: grant は目的のために資金を受け取ることで、fee のように受益者がサービスの対価を支払うものではない。\n例: The course has a registration fee but offers grants to students in need.\n訳: その講座には登録料があるが、困窮する学生には助成金を提供している。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "sense_boundary:006",
+        "status": "pass",
+        "notes": "本文項目 6. 【可算名詞・法律・形式的】権利・財産の正式な付与、譲渡、付与証書 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "definition:006",
+        "status": "pass",
+        "notes": "本文項目 土地、財産、権利などを正式に与える行為、またはその結果として認められたもの。法律・不動産では、その移転を記した文書や証書を指すこともある。一般的な「助成金」の *grant* と同じ綴りだが、目的語が土地・権利・財産で、法的な移転関係に焦点がある。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "frequency:006",
+        "status": "pass",
+        "notes": "本文項目 〈4/10〉 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "register:006",
+        "status": "pass",
+        "notes": "本文項目 法律、不動産、歴史、行政。一般会話では語義5の「助成金」が先に想起されやすい。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "grammar_pattern:027",
+        "status": "pass",
+        "notes": "本文項目 `the grant of 〈権利・財産〉`＝〈権利・財産〉の正式な付与 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "grammar_pattern:028",
+        "status": "pass",
+        "notes": "本文項目 `a grant of land/property`＝土地・財産の付与 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "grammar_pattern:029",
+        "status": "pass",
+        "notes": "本文項目 `under a grant from 〈機関〉`＝〈機関〉からの付与に基づいて を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "grammar_pattern:030",
+        "status": "pass",
+        "notes": "本文項目 `record/register a grant`＝付与・譲渡を記録する。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "collocation:025",
+        "status": "pass",
+        "notes": "本文項目 ・the grant of a licence\n用途: 免許・許可が正式に付与されることを、名詞で表す。\n例: The grant of the licence was subject to an environmental assessment.\n訳: その免許の付与には環境評価が条件として付された。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "collocation:026",
+        "status": "pass",
+        "notes": "本文項目 ・a grant of land\n用途: 土地の正式な授与・譲渡。\n例: The archive contains the original grant of land to the hospital.\n訳: そのアーカイブには病院への土地付与の原証書が収蔵されている。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "collocation:027",
+        "status": "pass",
+        "notes": "本文項目 ・a grant of probate\n用途: 遺言執行に関する裁判所の正式な許可・証書を指す法律表現。制度の詳細は法域により異なる。\n例: The executor could not act until the grant of probate was issued.\n訳: 遺言執行者は正式な遺言検認証書が発行されるまで行動できなかった。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "collocation:028",
+        "status": "pass",
+        "notes": "本文項目 ・under a grant from 〈機関〉\n用途: 公的な付与・許可に基づく権利や所有を示す。\n例: The company operates the facility under a grant from the city.\n訳: その会社は市からの正式な付与に基づいて施設を運営している。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "usage_note:008",
+        "status": "pass",
+        "notes": "本文項目 この名詞は、文脈によって「付与という行為」「付与された権利・財産」「それを証明する文書」のいずれにもなり得る。法律文書の *grant* を一般的な補助金と訳すと誤解になるため、`grant of land`、`grant of a licence` のように後続名詞を確認する。具体的な証書の効力・手続きは法域に依存する。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "synonym:017",
+        "status": "pass",
+        "notes": "本文項目 ・conveyance\n定義: 不動産や権利の所有権を移転すること、またはその法的文書。\n頻度: 〈5/10〉\n違い: conveyance は所有権移転の法的手続き・文書に焦点があり、grant は付与する側から見た正式な授与を表す。\n例: The solicitor prepared the conveyance of the property.\n訳: その弁護士は不動産の所有権移転文書を作成した。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "synonym:018",
+        "status": "pass",
+        "notes": "本文項目 ・deed\n定義: 土地・財産の権利移転などを証明する正式な証書。\n頻度: 〈6/10〉\n違い: deed は文書そのものを指しやすく、grant は付与行為や付与されたものまで指せる。\n例: The deed records the transfer of the farm.\n訳: その証書は農場の移転を記録している。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "synonym:019",
+        "status": "pass",
+        "notes": "本文項目 ・award\n定義: 審査や決定に基づいて与えられたもの、または与える行為。\n頻度: 〈8/10〉\n違い: award は賞・契約・損害賠償などの決定に広く使い、grant は権利・財産の法的付与にも使う。\n例: The panel announced the award of the contract.\n訳: 審査委員会は契約の授与を発表した。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "antonym:011",
+        "status": "pass",
+        "notes": "本文項目 ・revocation\n定義: 許可、権利、資格などを取り消して効力を失わせること。\n頻度: 〈5/10〉\n違い: revocation は付与済みのものを撤回する行為で、grant の正式な付与と反対方向である。\n例: The revocation of the permit halted the project.\n訳: 許可の取消しによって、そのプロジェクトは停止した。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "antonym:012",
+        "status": "pass",
+        "notes": "本文項目 ・retention\n定義: 所有・保持して手放さないこと。\n頻度: 〈5/10〉\n違い: retention は権利や財産を現在の側にとどめることで、grant のように相手へ移転・付与することではない。\n例: The agreement permits retention of the original documents.\n訳: その合意は原本書類の保持を認めている。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "sense_boundary:007",
+        "status": "pass",
+        "notes": "本文項目 7. 【動詞句・慣用表現】take 〈人・物〉 for granted：当然と思う、ありがたみを忘れる を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "definition:007",
+        "status": "pass",
+        "notes": "本文項目 人や物がいつも利用できる、支えてくれると慣れきって、その価値・幸運・努力を意識しなくなる。`take it for granted that ...` では、十分に確認せず「～だと当然のように思う」という認識を表す。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "frequency:007",
+        "status": "pass",
+        "notes": "本文項目 〈10/10〉 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "register:007",
+        "status": "pass",
+        "notes": "本文項目 標準語。日常会話、感謝、社会的な議論、注意喚起で広く使う。対象の価値を軽視する意味と、事実を未確認のまま前提にする意味を文脈で区別する。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "grammar_pattern:031",
+        "status": "pass",
+        "notes": "本文項目 `take 〈人・物〉 for granted`＝〈人・物〉を当然のものと思う を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "grammar_pattern:032",
+        "status": "pass",
+        "notes": "本文項目 `take it for granted that 〈節〉`＝～だと当然のように思う を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "grammar_pattern:033",
+        "status": "pass",
+        "notes": "本文項目 `take for granted that 〈節〉`＝～だと当然視する を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "grammar_pattern:034",
+        "status": "pass",
+        "notes": "本文項目 `be taken for granted`＝当然視される、価値を認められない を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "grammar_pattern:035",
+        "status": "pass",
+        "notes": "本文項目 `never/too easily take 〈人・物〉 for granted`＝決して・あまりに簡単に当然視する。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "collocation:029",
+        "status": "pass",
+        "notes": "本文項目 ・take someone for granted\n用途: いつもそばにいる人の支えや努力を当然視する。\n例: Do not take the people who support you for granted.\n訳: あなたを支えてくれる人々を、いて当然だと思ってはいけない。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "collocation:030",
+        "status": "pass",
+        "notes": "本文項目 ・take something for granted\n用途: 自由、健康、利便性などを、当たり前で価値がないかのように扱う。\n例: Many people take clean water for granted until a supply problem occurs.\n訳: 多くの人は、供給問題が起きるまできれいな水を当然のものと思っている。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "collocation:031",
+        "status": "pass",
+        "notes": "本文項目 ・take it for granted that 〈節〉\n用途: 十分に確認せず、ある事実を前提にする。\n例: I took it for granted that the meeting would start on time.\n訳: 私は会議が時間どおり始まるものと当然のように思っていた。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "collocation:032",
+        "status": "pass",
+        "notes": "本文項目 ・be taken for granted\n用途: 人・努力・権利などが当然視され、評価や感謝を受けない状態を受け身で表す。\n例: Her extra work was taken for granted by the whole team.\n訳: 彼女の余分な仕事はチーム全体から当然視されていた。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "usage_note:009",
+        "status": "pass",
+        "notes": "本文項目 `take A for granted` の *for granted* は分離できない固定的な補語で、`take A granted` や `take for A granted` とは言わない。人を目的語にすると「その人の存在・支えを当然視する」、事実を目的語にすると「確認なしに真実だと仮定する」という違いが出る。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "usage_note:010",
+        "status": "pass",
+        "notes": "本文項目 `take it for granted that ...` の *it* は形式的な目的語で、後ろの that 節が内容を表す。`I took for granted that ...` も見られるが、学習者には `take it for granted that ...` を基本形として覚えると安全である。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "usage_note:011",
+        "status": "pass",
+        "notes": "本文項目 `grant` は、許可・権利・金銭を「権限者が与える」方向と、相手の主張を「認める」方向の両方を持つ。`grant permission` は許可を与えるが、`grant that ...` は主張を認める。`grant` が入っていても `take for granted` は「与える」意味ではなく、与えられているものを当然視する固定表現である。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "usage_note:012",
+        "status": "pass",
+        "notes": "本文項目 `grant` と `give` の違いは絶対的ではないが、公式性・申請への応答・権利の付与が関わると *grant* が自然になりやすい。`grant` と `award` では、前者が許可・権利の承認、後者が功績や審査に基づく授与という焦点の差がある。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "usage_note:013",
+        "status": "pass",
+        "notes": "本文項目 `granted` は過去分詞として「与えられた」だけでなく、`Granted, the plan is ambitious, but ...` のように「確かに～だが」と文全体を譲歩的につなぐ。これは時制を表す普通の過去形ではなく、相手の点をいったん認める談話表現である。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "synonym:020",
+        "status": "pass",
+        "notes": "本文項目 ・assume\n定義: 確認なしに、あることを事実だと考える。\n頻度: 〈9/10〉\n違い: assume は中立的な作業上の仮定にも使うが、take for granted は価値への無自覚や確認不足を批判する含みが出やすい。\n例: We assumed that the data had been backed up.\n訳: 私たちはデータがバックアップ済みだと仮定した。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "synonym:021",
+        "status": "pass",
+        "notes": "本文項目 ・overlook\n定義: 重要な点、努力、問題などに気づかず見過ごす。\n頻度: 〈8/10〉\n違い: overlook は単に見落とすことにも使うが、take for granted は「当然あるもの」と扱うために価値を認めないことを強調する。\n例: The manager overlooked the contribution of the support staff.\n訳: その管理者はサポートスタッフの貢献を見過ごした。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "synonym:022",
+        "status": "pass",
+        "notes": "本文項目 ・expect\n定義: 何かが起こる、または誰かが何かをすると予想・期待する。\n頻度: 〈10/10〉\n違い: expect は予測や期待を表すだけでもよいが、take for granted は疑いなく当然だと扱う態度を含む。\n例: We expect the delivery to arrive tomorrow.\n訳: 私たちは配送品が明日届くと予想している。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "antonym:013",
+        "status": "pass",
+        "notes": "本文項目 ・appreciate\n定義: 人の努力や物の価値を理解し、感謝する。\n頻度: 〈9/10〉\n違い: appreciate は支えや恩恵を意識して価値を認めることで、take for granted の反対方向にある。\n例: I appreciate everything you have done for the project.\n訳: あなたがそのプロジェクトのためにしてくれたことすべてに感謝しています。 を確認し、辞書資料との対応に問題なし。"
+      },
+      {
+        "id": "antonym:014",
+        "status": "pass",
+        "notes": "本文項目 ・acknowledge\n定義: 事実、努力、貢献などを認め、言葉や態度で示す。\n頻度: 〈9/10〉\n違い: acknowledge は存在・貢献を意識して認めることで、当然視して見えなくすることと対照的である。\n例: The director acknowledged the volunteers’ work in her speech.\n訳: 監督はスピーチでボランティアの働きを認めた。 を確認し、辞書資料との対応に問題なし。"
+      }
+    ],
+    "relation_results": [
+      {
+        "id": "risk_sense_pair:001",
+        "status": "pass",
+        "notes": "監査番号R001 関係項目 記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: definition:002 explicitly contrasts sense 2 with sense 1 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "risk_sense_pair:002",
+        "status": "pass",
+        "notes": "監査番号R002 関係項目 記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: register:006 explicitly contrasts sense 6 with sense 5 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "example_translation:001",
+        "status": "pass",
+        "notes": "監査番号R003 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "example_translation:002",
+        "status": "pass",
+        "notes": "監査番号R004 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "example_translation:003",
+        "status": "pass",
+        "notes": "監査番号R005 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "example_translation:004",
+        "status": "pass",
+        "notes": "監査番号R006 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "example_translation:005",
+        "status": "pass",
+        "notes": "監査番号R007 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "example_translation:006",
+        "status": "pass",
+        "notes": "監査番号R008 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "example_translation:007",
+        "status": "pass",
+        "notes": "監査番号R009 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "example_translation:008",
+        "status": "pass",
+        "notes": "監査番号R010 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "example_translation:009",
+        "status": "pass",
+        "notes": "監査番号R011 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "example_translation:010",
+        "status": "pass",
+        "notes": "監査番号R012 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "example_translation:011",
+        "status": "pass",
+        "notes": "監査番号R013 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "example_translation:012",
+        "status": "pass",
+        "notes": "監査番号R014 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "example_translation:013",
+        "status": "pass",
+        "notes": "監査番号R015 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "example_translation:014",
+        "status": "pass",
+        "notes": "監査番号R016 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "example_translation:015",
+        "status": "pass",
+        "notes": "監査番号R017 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "example_translation:016",
+        "status": "pass",
+        "notes": "監査番号R018 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "example_translation:017",
+        "status": "pass",
+        "notes": "監査番号R019 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "example_translation:018",
+        "status": "pass",
+        "notes": "監査番号R020 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "example_translation:019",
+        "status": "pass",
+        "notes": "監査番号R021 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "example_translation:020",
+        "status": "pass",
+        "notes": "監査番号R022 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "example_translation:021",
+        "status": "pass",
+        "notes": "監査番号R023 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "example_translation:022",
+        "status": "pass",
+        "notes": "監査番号R024 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "example_translation:023",
+        "status": "pass",
+        "notes": "監査番号R025 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "example_translation:024",
+        "status": "pass",
+        "notes": "監査番号R026 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "example_translation:025",
+        "status": "pass",
+        "notes": "監査番号R027 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "example_translation:026",
+        "status": "pass",
+        "notes": "監査番号R028 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "example_translation:027",
+        "status": "pass",
+        "notes": "監査番号R029 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "example_translation:028",
+        "status": "pass",
+        "notes": "監査番号R030 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "example_translation:029",
+        "status": "pass",
+        "notes": "監査番号R031 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "example_translation:030",
+        "status": "pass",
+        "notes": "監査番号R032 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "example_translation:031",
+        "status": "pass",
+        "notes": "監査番号R033 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "example_translation:032",
+        "status": "pass",
+        "notes": "監査番号R034 関係項目 コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "sense_definition_consistency:001",
+        "status": "pass",
+        "notes": "監査番号R035 関係項目 語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "definition_usage_consistency:001",
+        "status": "pass",
+        "notes": "監査番号R036 関係項目 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "definition_usage_consistency:002",
+        "status": "pass",
+        "notes": "監査番号R037 関係項目 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "definition_lexical_relation_consistency:001",
+        "status": "pass",
+        "notes": "監査番号R038 関係項目 語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "pattern_example_coverage:001",
+        "status": "pass",
+        "notes": "監査番号R039 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "pattern_example_coverage:002",
+        "status": "pass",
+        "notes": "監査番号R040 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "pattern_example_coverage:003",
+        "status": "pass",
+        "notes": "監査番号R041 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "pattern_example_coverage:004",
+        "status": "pass",
+        "notes": "監査番号R042 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "pattern_example_coverage:005",
+        "status": "pass",
+        "notes": "監査番号R043 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "pattern_example_coverage:006",
+        "status": "pass",
+        "notes": "監査番号R044 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "sense_definition_consistency:002",
+        "status": "pass",
+        "notes": "監査番号R045 関係項目 語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "definition_usage_consistency:003",
+        "status": "pass",
+        "notes": "監査番号R046 関係項目 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "definition_lexical_relation_consistency:002",
+        "status": "pass",
+        "notes": "監査番号R047 関係項目 語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "pattern_example_coverage:007",
+        "status": "pass",
+        "notes": "監査番号R048 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "pattern_example_coverage:008",
+        "status": "pass",
+        "notes": "監査番号R049 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "pattern_example_coverage:009",
+        "status": "pass",
+        "notes": "監査番号R050 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "pattern_example_coverage:010",
+        "status": "pass",
+        "notes": "監査番号R051 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "sense_definition_consistency:003",
+        "status": "pass",
+        "notes": "監査番号R052 関係項目 語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "definition_usage_consistency:004",
+        "status": "pass",
+        "notes": "監査番号R053 関係項目 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "definition_lexical_relation_consistency:003",
+        "status": "pass",
+        "notes": "監査番号R054 関係項目 語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "pattern_example_coverage:011",
+        "status": "pass",
+        "notes": "監査番号R055 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "pattern_example_coverage:012",
+        "status": "pass",
+        "notes": "監査番号R056 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "pattern_example_coverage:013",
+        "status": "pass",
+        "notes": "監査番号R057 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "pattern_example_coverage:014",
+        "status": "pass",
+        "notes": "監査番号R058 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "pattern_example_coverage:015",
+        "status": "pass",
+        "notes": "監査番号R059 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "sense_definition_consistency:004",
+        "status": "pass",
+        "notes": "監査番号R060 関係項目 語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "definition_usage_consistency:005",
+        "status": "pass",
+        "notes": "監査番号R061 関係項目 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "definition_lexical_relation_consistency:004",
+        "status": "pass",
+        "notes": "監査番号R062 関係項目 語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "pattern_example_coverage:016",
+        "status": "pass",
+        "notes": "監査番号R063 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "pattern_example_coverage:017",
+        "status": "pass",
+        "notes": "監査番号R064 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "pattern_example_coverage:018",
+        "status": "pass",
+        "notes": "監査番号R065 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "pattern_example_coverage:019",
+        "status": "pass",
+        "notes": "監査番号R066 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "pattern_example_coverage:020",
+        "status": "pass",
+        "notes": "監査番号R067 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "sense_definition_consistency:005",
+        "status": "pass",
+        "notes": "監査番号R068 関係項目 語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "definition_usage_consistency:006",
+        "status": "pass",
+        "notes": "監査番号R069 関係項目 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "definition_usage_consistency:007",
+        "status": "pass",
+        "notes": "監査番号R070 関係項目 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "definition_lexical_relation_consistency:005",
+        "status": "pass",
+        "notes": "監査番号R071 関係項目 語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "pattern_example_coverage:021",
+        "status": "pass",
+        "notes": "監査番号R072 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "pattern_example_coverage:022",
+        "status": "pass",
+        "notes": "監査番号R073 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "pattern_example_coverage:023",
+        "status": "pass",
+        "notes": "監査番号R074 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "pattern_example_coverage:024",
+        "status": "pass",
+        "notes": "監査番号R075 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "pattern_example_coverage:025",
+        "status": "pass",
+        "notes": "監査番号R076 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "pattern_example_coverage:026",
+        "status": "pass",
+        "notes": "監査番号R077 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "sense_definition_consistency:006",
+        "status": "pass",
+        "notes": "監査番号R078 関係項目 語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "definition_usage_consistency:008",
+        "status": "pass",
+        "notes": "監査番号R079 関係項目 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "definition_lexical_relation_consistency:006",
+        "status": "pass",
+        "notes": "監査番号R080 関係項目 語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "pattern_example_coverage:027",
+        "status": "pass",
+        "notes": "監査番号R081 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "pattern_example_coverage:028",
+        "status": "pass",
+        "notes": "監査番号R082 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "pattern_example_coverage:029",
+        "status": "pass",
+        "notes": "監査番号R083 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "pattern_example_coverage:030",
+        "status": "pass",
+        "notes": "監査番号R084 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "sense_definition_consistency:007",
+        "status": "pass",
+        "notes": "監査番号R085 関係項目 語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "definition_usage_consistency:009",
+        "status": "pass",
+        "notes": "監査番号R086 関係項目 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "definition_usage_consistency:010",
+        "status": "pass",
+        "notes": "監査番号R087 関係項目 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "definition_usage_consistency:011",
+        "status": "pass",
+        "notes": "監査番号R088 関係項目 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "definition_usage_consistency:012",
+        "status": "pass",
+        "notes": "監査番号R089 関係項目 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "definition_usage_consistency:013",
+        "status": "pass",
+        "notes": "監査番号R090 関係項目 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "definition_lexical_relation_consistency:007",
+        "status": "pass",
+        "notes": "監査番号R091 関係項目 語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "pattern_example_coverage:031",
+        "status": "pass",
+        "notes": "監査番号R092 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "pattern_example_coverage:032",
+        "status": "pass",
+        "notes": "監査番号R093 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "pattern_example_coverage:033",
+        "status": "pass",
+        "notes": "監査番号R094 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "pattern_example_coverage:034",
+        "status": "pass",
+        "notes": "監査番号R095 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "pattern_example_coverage:035",
+        "status": "pass",
+        "notes": "監査番号R096 関係項目 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "core_inventory_consistency:001",
+        "status": "pass",
+        "notes": "監査番号R097 関係項目 語義番号を限定しない総括的なコアイメージが、記事の語義目録全体を不当に一般化していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "core_sense_mapping:001",
+        "status": "pass",
+        "notes": "監査番号R098 関係項目 コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "core_sense_mapping:002",
+        "status": "pass",
+        "notes": "監査番号R099 関係項目 コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "core_sense_mapping:003",
+        "status": "pass",
+        "notes": "監査番号R100 関係項目 コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "core_sense_mapping:004",
+        "status": "pass",
+        "notes": "監査番号R101 関係項目 コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "core_sense_mapping:005",
+        "status": "pass",
+        "notes": "監査番号R102 関係項目 コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "core_sense_mapping:006",
+        "status": "pass",
+        "notes": "監査番号R103 関係項目 コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "core_sense_mapping:007",
+        "status": "pass",
+        "notes": "監査番号R104 関係項目 コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。 を確認し、本文の語義境界に問題なし。"
+      },
+      {
+        "id": "article_learning_risk:001",
+        "status": "pass",
+        "notes": "監査番号R105 関係項目 記事全体の語義構成、対比、訳語、限定表現から学習者が誤った一般化をしないことを横断確認する。 を確認し、本文の語義境界に問題なし。"
+      }
+    ],
+    "candidate_results": [
+      {
+        "id": "candidate:grant:001",
+        "status": "pass",
+        "notes": "通常レビュー候補を採用範囲に照合した。"
+      }
+    ],
+    "blind_finding_results": [],
+    "finding_results": [],
+    "evidence_checks": [
+      {
+        "id": "evidence:grant:001",
+        "status": "pass",
+        "notes": "独立辞書資料の根拠リンクを確認した。"
+      },
+      {
+        "id": "evidence:grant:002",
+        "status": "pass",
+        "notes": "独立辞書資料の根拠リンクを確認した。"
+      }
+    ],
+    "final_inventory_checks": [
+      {
+        "candidate_id": "candidate:grant:001",
+        "assertion_ids": [
+          "assertion:grant:001"
+        ],
+        "checked_on_body_sha256": "2476d7dd3e5337329be8ca2f86dd85153d56c7518b43c05dbbfd23b45963dde9",
+        "status": "pass",
+        "notes": "封印した意味主張を本文に照合した。",
+        "article_target_ids_checked": [
+          "pronunciation:001",
+          "etymology:001"
+        ],
+        "article_relation_ids_checked": [
+          "risk_sense_pair:001"
+        ],
+        "article_queries_checked": [
+          "grant"
+        ],
+        "article_query_results": [
+          {
+            "query": "grant",
+            "status": "pass",
+            "notes": "見出し語と主要用法を確認した。"
+          }
+        ]
+      }
+    ],
+    "blockers": []
+  },
+  "independent_candidates": [
+    {
+      "id": "candidate:grant:001",
+      "surface_form": "grant",
+      "frame": "grant + recipient + thing; take ... for granted",
+      "meaning": "formal giving, permission, concession, funding, and legal transfer",
+      "disposition": "included",
+      "rationale": "grant + recipient + thing と take ... for granted が主要な用法範囲を示す。",
+      "semantic_assertions": [
+        {
+          "id": "assertion:grant:001",
+          "statement": "The entry separates formal giving, concession, funding, legal noun use, and take for granted.",
+          "polarity": "must_hold",
+          "scope": "the complete entry"
+        }
+      ],
+      "article_target_ids": [
+        "pronunciation:001",
+        "etymology:001"
+      ],
+      "evidence_link_ids": [
+        "evidence:grant:001",
+        "evidence:grant:002"
+      ]
+    }
+  ]
+}

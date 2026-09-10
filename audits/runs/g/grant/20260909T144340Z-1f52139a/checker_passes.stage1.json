@@ -1,0 +1,83 @@
+{
+  "schema_version": "checker_passes_stage1_v2",
+  "stage": "checker_passes",
+  "pass_outputs": [
+    {
+      "pass_id": "translation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-6-astra",
+        "ingested_by": "human",
+        "agent_id": "grant-checker-translation",
+        "same_model_as_generation": true
+      },
+      "status": "pass"
+    },
+    {
+      "pass_id": "sense-structure",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-6-astra",
+        "ingested_by": "human",
+        "agent_id": "grant-checker-sense-structure",
+        "same_model_as_generation": true
+      },
+      "status": "pass"
+    },
+    {
+      "pass_id": "frame-relation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-6-astra",
+        "ingested_by": "human",
+        "agent_id": "grant-checker-frame-relation",
+        "same_model_as_generation": true
+      },
+      "status": "pass"
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-6-astra",
+        "ingested_by": "human",
+        "agent_id": "grant-checker-example-attribution",
+        "same_model_as_generation": true
+      },
+      "status": "pass"
+    },
+    {
+      "pass_id": "qualification",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-6-astra",
+        "ingested_by": "human",
+        "agent_id": "grant-checker-qualification",
+        "same_model_as_generation": true
+      },
+      "status": "pass"
+    },
+    {
+      "pass_id": "pronunciation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-6-astra",
+        "ingested_by": "human",
+        "agent_id": "grant-checker-pronunciation",
+        "same_model_as_generation": true
+      },
+      "status": "pass"
+    },
+    {
+      "pass_id": "evidence",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-6-astra",
+        "ingested_by": "human",
+        "agent_id": "grant-checker-evidence",
+        "same_model_as_generation": true
+      },
+      "status": "pass"
+    }
+  ]
+}

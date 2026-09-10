@@ -1,0 +1,473 @@
+{
+  "schema_version": "source_inventory_v2",
+  "stage": "source_inventory",
+  "headword": "grant",
+  "run_id": "source-grant-20260909T144340Z-1f52139a",
+  "context_id": "source-grant-context-20260909T144340Z-1f52139a",
+  "input_body_sha256": "2476d7dd3e5337329be8ca2f86dd85153d56c7518b43c05dbbfd23b45963dde9",
+  "prompt_sha256": "2fe81f61d39e984b43aa4936fd5a532113c6db533c4feb8b8d25aa7661fceddc",
+  "input_artifacts": [
+    "headword",
+    "source_first_spec"
+  ],
+  "recorded_at": "2026-09-09T15:00:00Z",
+  "source_first_audit": {
+    "version": "source_first_audit_v2",
+    "profile": "standard",
+    "profile_reason": "bounded default profile",
+    "limits": {
+      "max_sources": 6,
+      "max_facts": 48,
+      "max_research_rounds": 2,
+      "max_post_cold_rechecks": 1,
+      "max_final_attempts": 2
+    },
+    "usage": {
+      "sources_used": 2,
+      "facts_used": 10,
+      "research_rounds_used": 2,
+      "post_cold_rechecks_used": 0,
+      "final_attempts_used": 1
+    },
+    "research_status": "complete",
+    "stop_reason": "coverage_axes_closed",
+    "open_questions": [],
+    "inventory_completed_before_article_comparison": true,
+    "inventory_completed_at": "2026-09-09T15:00:00Z",
+    "article_comparison_started_at": "2026-09-09T15:00:01Z",
+    "coverage_axes": [
+      {
+        "axis": "lexical_senses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-001",
+          "F-002",
+          "F-003",
+          "F-004",
+          "F-005",
+          "F-006",
+          "F-007"
+        ],
+        "notes": "Core verb, concession, noun, and idiom senses are covered."
+      },
+      {
+        "axis": "part_of_speech_and_frames",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-001",
+          "F-002",
+          "F-005",
+          "F-007"
+        ],
+        "notes": "Verb frames, noun countability, and idiom patterns are covered."
+      },
+      {
+        "axis": "derived_and_related_forms",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-008"
+        ],
+        "notes": "The recipient derivative is covered."
+      },
+      {
+        "axis": "specialist_and_legal_uses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-003",
+          "F-006"
+        ],
+        "notes": "Legal and administrative uses are covered."
+      },
+      {
+        "axis": "register_region_and_frequency",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-001",
+          "F-004",
+          "F-005",
+          "F-007"
+        ],
+        "notes": "Formal register and common idiomatic use are covered."
+      },
+      {
+        "axis": "pronunciation_and_etymology",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-009",
+          "F-010"
+        ],
+        "notes": "Pronunciation and historical development are covered."
+      }
+    ],
+    "sources": [
+      {
+        "id": "S-001",
+        "title": "Oxford Learner's Dictionaries — grant",
+        "locator": "https://www.oxfordlearnersdictionaries.com/us/definition/english/grant_1",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "oxford_languages",
+        "facts": [
+          {
+            "id": "F-001",
+            "form": "grant",
+            "kind": "lexical_sense",
+            "statement": "Grant can mean to give or allow something formally.",
+            "source_detail": "Oxford verb senses cover formal giving and allowing."
+          },
+          {
+            "id": "F-002",
+            "form": "grant",
+            "kind": "lexical_sense",
+            "statement": "Grant can mean to award a right, status, or benefit.",
+            "source_detail": "Oxford and Cambridge distinguish formal bestowal and award."
+          },
+          {
+            "id": "F-003",
+            "form": "grant",
+            "kind": "legal_use",
+            "statement": "Grant is used for formally approving a request, application, or legal relief.",
+            "source_detail": "Dictionary examples include granting permission and legal requests."
+          },
+          {
+            "id": "F-004",
+            "form": "grant",
+            "kind": "concession",
+            "statement": "I grant that and granting that introduce a concession in an argument.",
+            "source_detail": "Oxford records the formal concede sense and concessive pattern."
+          },
+          {
+            "id": "F-005",
+            "form": "grant",
+            "kind": "noun",
+            "statement": "A grant is money given for a particular purpose, such as research or study.",
+            "source_detail": "Oxford noun entry defines a sum of money for a purpose."
+          },
+          {
+            "id": "F-007",
+            "form": "take for granted",
+            "kind": "idiom",
+            "statement": "Take someone or something for granted means to value or acknowledge it insufficiently.",
+            "source_detail": "Oxford and Cambridge record the idiom and its assumption extension."
+          }
+        ]
+      },
+      {
+        "id": "S-002",
+        "title": "Cambridge Dictionary and Merriam-Webster — grant",
+        "locator": "https://dictionary.cambridge.org/us/dictionary/english/grant",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "cambridge_merriam_webster",
+        "facts": [
+          {
+            "id": "F-006",
+            "form": "grant",
+            "kind": "legal_noun",
+            "statement": "A grant can be the formal transfer of a right, property, or interest.",
+            "source_detail": "Merriam-Webster records the legal transfer and deed sense."
+          },
+          {
+            "id": "F-008",
+            "form": "grantee",
+            "kind": "derived_form",
+            "statement": "Grantee is the person or organization receiving a grant.",
+            "source_detail": "The transparent -ee derivative names the recipient of the transfer."
+          },
+          {
+            "id": "F-009",
+            "form": "grant",
+            "kind": "pronunciation",
+            "statement": "Grant is /ɡrænt/ in US English and /ɡrɑːnt/ in UK English.",
+            "source_detail": "Cambridge pronunciation entry supplies the US and UK forms."
+          },
+          {
+            "id": "F-010",
+            "form": "grant",
+            "kind": "etymology",
+            "statement": "Grant entered English through Old French from a Latin root related to believing or trusting.",
+            "source_detail": "Merriam-Webster traces grant through Middle English and Anglo-French to Vulgar Latin."
+          }
+        ]
+      }
+    ],
+    "source_union": [
+      {
+        "id": "U-001",
+        "source_fact_ids": [
+          "F-001"
+        ],
+        "canonical_statement": "Grant can mean to give or allow something formally.",
+        "disposition": "included",
+        "rationale": "Directly relevant to the requested headword explanation."
+      },
+      {
+        "id": "U-002",
+        "source_fact_ids": [
+          "F-002"
+        ],
+        "canonical_statement": "Grant can mean to award a right, status, or benefit.",
+        "disposition": "included",
+        "rationale": "Directly relevant to the requested headword explanation."
+      },
+      {
+        "id": "U-003",
+        "source_fact_ids": [
+          "F-003"
+        ],
+        "canonical_statement": "Grant is used for formally approving a request, application, or legal relief.",
+        "disposition": "included",
+        "rationale": "Directly relevant to the requested headword explanation."
+      },
+      {
+        "id": "U-004",
+        "source_fact_ids": [
+          "F-004"
+        ],
+        "canonical_statement": "I grant that and granting that introduce a concession in an argument.",
+        "disposition": "included",
+        "rationale": "Directly relevant to the requested headword explanation."
+      },
+      {
+        "id": "U-005",
+        "source_fact_ids": [
+          "F-005"
+        ],
+        "canonical_statement": "A grant is money given for a particular purpose, such as research or study.",
+        "disposition": "included",
+        "rationale": "Directly relevant to the requested headword explanation."
+      },
+      {
+        "id": "U-006",
+        "source_fact_ids": [
+          "F-006"
+        ],
+        "canonical_statement": "A grant can be the formal transfer of a right, property, or interest.",
+        "disposition": "included",
+        "rationale": "Directly relevant to the requested headword explanation."
+      },
+      {
+        "id": "U-007",
+        "source_fact_ids": [
+          "F-007"
+        ],
+        "canonical_statement": "Take someone or something for granted means to value or acknowledge it insufficiently.",
+        "disposition": "included",
+        "rationale": "Directly relevant to the requested headword explanation."
+      },
+      {
+        "id": "U-008",
+        "source_fact_ids": [
+          "F-008"
+        ],
+        "canonical_statement": "Grantee is the person or organization receiving a grant.",
+        "disposition": "included",
+        "rationale": "Directly relevant to the requested headword explanation."
+      },
+      {
+        "id": "U-009",
+        "source_fact_ids": [
+          "F-009"
+        ],
+        "canonical_statement": "Grant is /ɡrænt/ in US English and /ɡrɑːnt/ in UK English.",
+        "disposition": "included",
+        "rationale": "Directly relevant to the requested headword explanation."
+      },
+      {
+        "id": "U-010",
+        "source_fact_ids": [
+          "F-010"
+        ],
+        "canonical_statement": "Grant entered English through Old French from a Latin root related to believing or trusting.",
+        "disposition": "included",
+        "rationale": "Directly relevant to the requested headword explanation."
+      }
+    ],
+    "claim_units": [
+      {
+        "id": "C-001",
+        "union_ids": [
+          "U-001"
+        ],
+        "subject_form": "grant",
+        "claim_type": "lexical_sense",
+        "statement": "Grant can mean to give or allow something formally.",
+        "article_target_ids": [
+          "pronunciation:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-001",
+            "support_summary": "Oxford verb senses cover formal giving and allowing."
+          }
+        ]
+      },
+      {
+        "id": "C-002",
+        "union_ids": [
+          "U-002"
+        ],
+        "subject_form": "grant",
+        "claim_type": "lexical_sense",
+        "statement": "Grant can mean to award a right, status, or benefit.",
+        "article_target_ids": [
+          "etymology:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-002",
+            "support_summary": "Oxford and Cambridge distinguish formal bestowal and award."
+          }
+        ]
+      },
+      {
+        "id": "C-003",
+        "union_ids": [
+          "U-003"
+        ],
+        "subject_form": "grant",
+        "claim_type": "legal_use",
+        "statement": "Grant is used for formally approving a request, application, or legal relief.",
+        "article_target_ids": [
+          "word_formation:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-003",
+            "support_summary": "Dictionary examples include granting permission and legal requests."
+          }
+        ]
+      },
+      {
+        "id": "C-004",
+        "union_ids": [
+          "U-004"
+        ],
+        "subject_form": "grant",
+        "claim_type": "concession",
+        "statement": "I grant that and granting that introduce a concession in an argument.",
+        "article_target_ids": [
+          "word_formation:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-004",
+            "support_summary": "Oxford records the formal concede sense and concessive pattern."
+          }
+        ]
+      },
+      {
+        "id": "C-005",
+        "union_ids": [
+          "U-005"
+        ],
+        "subject_form": "grant",
+        "claim_type": "noun",
+        "statement": "A grant is money given for a particular purpose, such as research or study.",
+        "article_target_ids": [
+          "word_formation:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-005",
+            "support_summary": "Oxford noun entry defines a sum of money for a purpose."
+          }
+        ]
+      },
+      {
+        "id": "C-006",
+        "union_ids": [
+          "U-006"
+        ],
+        "subject_form": "grant",
+        "claim_type": "legal_noun",
+        "statement": "A grant can be the formal transfer of a right, property, or interest.",
+        "article_target_ids": [
+          "word_formation:004"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-006",
+            "support_summary": "Merriam-Webster records the legal transfer and deed sense."
+          }
+        ]
+      },
+      {
+        "id": "C-007",
+        "union_ids": [
+          "U-007"
+        ],
+        "subject_form": "take for granted",
+        "claim_type": "idiom",
+        "statement": "Take someone or something for granted means to value or acknowledge it insufficiently.",
+        "article_target_ids": [
+          "word_formation:005"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-007",
+            "support_summary": "Oxford and Cambridge record the idiom and its assumption extension."
+          }
+        ]
+      },
+      {
+        "id": "C-008",
+        "union_ids": [
+          "U-008"
+        ],
+        "subject_form": "grantee",
+        "claim_type": "derived_form",
+        "statement": "Grantee is the person or organization receiving a grant.",
+        "article_target_ids": [
+          "core_image:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-008",
+            "support_summary": "The transparent -ee derivative names the recipient of the transfer."
+          }
+        ]
+      },
+      {
+        "id": "C-009",
+        "union_ids": [
+          "U-009"
+        ],
+        "subject_form": "grant",
+        "claim_type": "pronunciation",
+        "statement": "Grant is /ɡrænt/ in US English and /ɡrɑːnt/ in UK English.",
+        "article_target_ids": [
+          "core_image:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-009",
+            "support_summary": "Cambridge pronunciation entry supplies the US and UK forms."
+          }
+        ]
+      },
+      {
+        "id": "C-010",
+        "union_ids": [
+          "U-010"
+        ],
+        "subject_form": "grant",
+        "claim_type": "etymology",
+        "statement": "Grant entered English through Old French from a Latin root related to believing or trusting.",
+        "article_target_ids": [
+          "core_image:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-010",
+            "support_summary": "Merriam-Webster traces grant through Middle English and Anglo-French to Vulgar Latin."
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_link_ids": [
+    "evidence:grant:001",
+    "evidence:grant:002"
+  ]
+}
