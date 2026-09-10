@@ -1,0 +1,231 @@
+{
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "IC-FB-001",
+      "surface_form": "sensible",
+      "frame": "a sensible person/choice/decision/plan; be sensible; it is sensible to do",
+      "meaning": "分別のある、道理にかなった、現実的な",
+      "disposition": "included",
+      "rationale": "The frame a sensible person/choice/decision/plan; be sensible; it is sensible to do supports the judgment use, where sensible means 分別のある、道理にかなった、現実的な and evaluates a practical choice or action.",
+      "semantic_assertions": [
+        {
+          "id": "IC-FB-001-SA-001",
+          "statement": "The adjective evaluates a person, plan, choice, or action as reasonable under real conditions and consequences.",
+          "polarity": "must_hold",
+          "scope": "judgment adjective"
+        },
+        {
+          "id": "IC-FB-001-SA-002",
+          "statement": "This judgment use must not be generalized to mean high intelligence or guaranteed correctness.",
+          "polarity": "must_not_hold",
+          "scope": "judgment boundary"
+        }
+      ]
+    },
+    {
+      "id": "IC-FB-002",
+      "surface_form": "sensible",
+      "frame": "sensible shoes/clothes/footwear/coat",
+      "meaning": "実用的な、実用本位の",
+      "disposition": "included",
+      "rationale": "The frame sensible shoes/clothes/footwear/coat marks the clothing-and-footwear use, in which sensible means 実用的な、実用本位の and favors function for the situation over fashion alone.",
+      "semantic_assertions": [
+        {
+          "id": "IC-FB-002-SA-001",
+          "statement": "With clothing or footwear, sensible describes suitability, durability, comfort-related practicality, or protection for use.",
+          "polarity": "must_hold",
+          "scope": "practical clothing use"
+        },
+        {
+          "id": "IC-FB-002-SA-002",
+          "statement": "The practical clothing use must not entail that the item is ugly, old-fashioned, or low quality.",
+          "polarity": "must_not_hold",
+          "scope": "practical clothing boundary"
+        }
+      ]
+    },
+    {
+      "id": "IC-FB-003",
+      "surface_form": "sensible",
+      "frame": "a sensible difference/increase/decrease/change",
+      "meaning": "感じ取れる、明確に分かる、かなりの",
+      "disposition": "included",
+      "rationale": "The frame a sensible difference/increase/decrease/change identifies the formal perceptibility-and-degree use, where sensible means 感じ取れる、明確に分かる、かなりの rather than reasonable.",
+      "semantic_assertions": [
+        {
+          "id": "IC-FB-003-SA-001",
+          "statement": "A difference, increase, decrease, or change described this way must be large or clear enough to be recognized or not ignored.",
+          "polarity": "must_hold",
+          "scope": "formal perceptibility and degree"
+        },
+        {
+          "id": "IC-FB-003-SA-002",
+          "statement": "This formal use must not be read as judging a plan or person to be sensible.",
+          "polarity": "must_not_hold",
+          "scope": "formal perceptibility boundary"
+        }
+      ]
+    },
+    {
+      "id": "IC-FB-004",
+      "surface_form": "sensible",
+      "frame": "be sensible to pain/heat/light; sensible to the touch",
+      "meaning": "（刺激などを）感じ取れる、知覚できる",
+      "disposition": "included",
+      "rationale": "The frame be sensible to pain/heat/light; sensible to the touch covers the formal or old sensory-capacity use, meaning （刺激などを）感じ取れる、知覚できる for an external stimulus.",
+      "semantic_assertions": [
+        {
+          "id": "IC-FB-004-SA-001",
+          "statement": "The to-phrase names an external stimulus that can be received by the senses or body.",
+          "polarity": "must_hold",
+          "scope": "sensory to-frame"
+        },
+        {
+          "id": "IC-FB-004-SA-002",
+          "statement": "This use must not be treated as the ordinary modern equivalent of every meaning of sensitive.",
+          "polarity": "must_not_hold",
+          "scope": "sensory register and lexical boundary"
+        }
+      ]
+    },
+    {
+      "id": "IC-FB-005",
+      "surface_form": "sensible",
+      "frame": "be sensible of a fact/danger/duty/error/kindness/benefit",
+      "meaning": "～を意識している、～を深く感じている",
+      "disposition": "included",
+      "rationale": "The frame be sensible of a fact/danger/duty/error/kindness/benefit identifies the formal or literary awareness use, where sensible means ～を意識している、～を深く感じている.",
+      "semantic_assertions": [
+        {
+          "id": "IC-FB-005-SA-001",
+          "statement": "The of-phrase names an abstract fact, responsibility, error, danger, kindness, or benefit that is consciously recognized or deeply felt.",
+          "polarity": "must_hold",
+          "scope": "sensible-of frame"
+        },
+        {
+          "id": "IC-FB-005-SA-002",
+          "statement": "The sensible of frame must not be collapsed into sensible to for physical stimulus or into the ordinary judgment adjective.",
+          "polarity": "must_not_hold",
+          "scope": "awareness boundary"
+        }
+      ]
+    },
+    {
+      "id": "IC-FB-006",
+      "surface_form": "sensibly",
+      "frame": "sensibly modify a verb, adjective, or whole clause",
+      "meaning": "分別をもって、現実的に、適切に",
+      "disposition": "included",
+      "rationale": "The frame sensibly modify a verb, adjective, or whole clause identifies the adverb sensibly, meaning 分別をもって、現実的に、適切に, rather than another inflected adjective sense.",
+      "semantic_assertions": [
+        {
+          "id": "IC-FB-006-SA-001",
+          "statement": "Sensibly functions as an adverb describing a reasonable or practical manner of judging or acting.",
+          "polarity": "must_hold",
+          "scope": "adverbial derivation"
+        }
+      ]
+    },
+    {
+      "id": "IC-FB-007",
+      "surface_form": "sensibleness",
+      "frame": "the sensibleness of a decision/plan",
+      "meaning": "分別のあること、現実的であること",
+      "disposition": "included",
+      "rationale": "The frame the sensibleness of a decision/plan identifies the less frequent noun sensibleness, meaning 分別のあること、現実的であること, as a related nominal form.",
+      "semantic_assertions": [
+        {
+          "id": "IC-FB-007-SA-001",
+          "statement": "Sensibleness names the quality of being sensible in the judgment or practical sense.",
+          "polarity": "must_hold",
+          "scope": "derived noun"
+        }
+      ]
+    },
+    {
+      "id": "IC-FB-008",
+      "surface_form": "insensible",
+      "frame": "insensible to pain / insensible",
+      "meaning": "感じない、意識がない、気づかない",
+      "disposition": "excluded",
+      "rationale": "The frame insensible to pain / insensible identifies a related word meaning 感じない、意識がない、気づかない; it is excluded as a separate headword sense because the article warns that insensible is not a simple opposite across every sensible meaning.",
+      "semantic_assertions": [
+        {
+          "id": "IC-FB-008-SA-001",
+          "statement": "Insensible is a separate related adjective and must not be presented as a uniform antonym for every use of sensible.",
+          "polarity": "must_hold",
+          "scope": "related form boundary"
+        }
+      ]
+    },
+    {
+      "id": "IC-FB-009",
+      "surface_form": "sensitive / sensibility",
+      "frame": "sensitive to a stimulus; sensibility as a related noun",
+      "meaning": "sensibleと同じ語族に属するが、別の語として覚える関連語",
+      "disposition": "excluded",
+      "rationale": "The frame sensitive to a stimulus; sensibility as a related noun identifies the neighboring word-family items described by the article as sensibleと同じ語族に属するが、別の語として覚える関連語, not additional forms of the headword.",
+      "semantic_assertions": [
+        {
+          "id": "IC-FB-009-SA-001",
+          "statement": "Sensitive and sensibility remain separate lexical items whose meanings cannot be freely substituted for all uses of sensible.",
+          "polarity": "must_hold",
+          "scope": "related word family"
+        }
+      ]
+    },
+    {
+      "id": "IC-FB-010",
+      "surface_form": "sensible",
+      "frame": "the sensible (rare noun)",
+      "meaning": "感覚で知覚できるもの（まれな名詞）",
+      "disposition": "excluded",
+      "rationale": "The frame the sensible (rare noun) represents the rare noun sense 感覚で知覚できるもの（まれな名詞）, which is acknowledged in the usage note but excluded from the main learner-facing adjective senses.",
+      "semantic_assertions": [
+        {
+          "id": "IC-FB-010-SA-001",
+          "statement": "The rare noun use must not be allowed to obscure that the main entry is organized around adjective uses.",
+          "polarity": "must_hold",
+          "scope": "rare noun exclusion"
+        }
+      ]
+    },
+    {
+      "id": "IC-FB-011",
+      "surface_form": "sensible",
+      "frame": "the sensible note (rare music term)",
+      "meaning": "導音（音楽用語・まれ）",
+      "disposition": "excluded",
+      "rationale": "The frame the sensible note (rare music term) represents the rare musical meaning 導音（音楽用語・まれ）, which the article explicitly notes but excludes from the ordinary learner-facing sense list.",
+      "semantic_assertions": [
+        {
+          "id": "IC-FB-011-SA-001",
+          "statement": "The rare musical noun or technical use must remain an explicit exclusion rather than being confused with the adjective senses.",
+          "polarity": "must_hold",
+          "scope": "rare musical exclusion"
+        }
+      ]
+    }
+  ],
+  "article_findings": [],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "codex-gpt-5",
+    "ingested_by": "human",
+    "agent_id": "sensible-final-blind-20260910T051329Z-d04b0c6c",
+    "same_model_as_generation": true
+  },
+  "schema_version": "final_blind_v2",
+  "stage": "final_blind",
+  "run_id": "blind-sensible-20260910T051329Z-d04b0c6c",
+  "context_id": "blind-sensible-context-20260910T051329Z-d04b0c6c",
+  "input_body_sha256": "dce1e8375f2e9709647eb4c0fd89fa016895cec32363a81b3950d8cdb28a2078",
+  "prompt_sha256": "3a481b4b5b1236ff386e148bcacc574570b305e79f5e155e9afcd34091f7785c",
+  "input_artifacts": [
+    "entry_body",
+    "final_blind_prompt"
+  ],
+  "audit_visible": false,
+  "recorded_at": "2026-09-10T06:00:13.921738+00:00"
+}
