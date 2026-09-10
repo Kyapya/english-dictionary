@@ -951,5 +951,15 @@
     },
     "status": "needs_correction"
   },
-  "review_preflight_policy": "repairable_review_preflight_v2"
+  "review_preflight_policy": "repairable_review_preflight_v2",
+  "review_packet_revisions": [
+    {
+      "stage": "final_review",
+      "recorded_at": "2026-09-10T06:14:02.840645+00:00",
+      "old_packet_sha256": "99249d0a179e628c887aad815d4cdd7e0d5f3310a64de5e3fd770afc7b61cbc7",
+      "new_packet_sha256": "96125fd55a182017c82d19095fb3ea4420547bfcd9a8b408d53e8b24b891cc49",
+      "archive": "review_packet_history/final_review/99249d0a179e628c887aad815d4cdd7e0d5f3310a64de5e3fd770afc7b61cbc7",
+      "input_revision_id": "7bf4e45b1fd8f2c5c18f909e5765ed1e7f3380e1e7c3e4b984424555f41444fa"
+    }
+  ]
 }

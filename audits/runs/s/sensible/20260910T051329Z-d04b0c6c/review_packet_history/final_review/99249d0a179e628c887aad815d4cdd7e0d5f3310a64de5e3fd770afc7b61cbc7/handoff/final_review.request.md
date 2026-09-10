@@ -1,3 +1,46 @@
+# Independent review handoff
+
+Stage: `final_review`
+
+The response must be one JSON object matching the supplied review schema. Create it in a separate model session; do not use the generation session.
+
+## Prompt
+
+# final_review_spec_v2
+
+この仕様は、最新版の記事本文、pre/post-blind resolution、影響範囲checkerの再検査・再利用manifest、固定済みblind inventory、具体的未解決事項だけを入力として、第三者最終審査が合否を判断するための意味基準だけを定める。入力分離、順序、hash、seal、記録、件数網羅、status同期は `scripts/run_word.py`、`scripts/workflow_revision.py`、`scripts/generate_audit_manifest.py` が強制する。
+
+final reviewは新たな全面レビューをもう一巡する段階ではない。本文hash、すべてのfindingの完全な裁定、pass再検査・再利用条件、source union、blind chronology、未解決blockerゼロを照合する。hash、件数、集合、時系列、schemaはコードの結果を使い、内容を長大に復唱しない。
+
+## PASSの意味基準
+
+次をすべて満たす場合だけ `PASS` とする。
+
+1. 記事の事実、語法、発音、例文、訳が正しく、見出し語の意味方向・意味役割・適用範囲を誤学習させない。
+2. 主要な品詞、語義、派生・転換、専門用法、完全な統語フレームが過不足なく扱われ、語義境界、コアイメージ、定義、語法、コロケーション、語彙関係の間に矛盾がない。
+3. 例文と訳で、述語、主語・目的語・補語、行為者・経験者・対象・結果、肯否、比較基準、程度、数量、時制・相・法、条件・因果・目的、修飾範囲、焦点、情報構造、レジスター、話者評価が保存されている。
+4. 地域差、専門・制度用法、頻度、語源、語形成、語義境界、文法制約、絶対表現などの高リスク主張が、当該主張へ適用できる根拠に支えられ、反例・矛盾・適用範囲が確認されている。検索見出し、資料名だけ、別義の用例は根拠にしない。
+5. checker/cold findingはpre-blind、final-blind findingはpost-blindで重複・欠落なく裁定され、採用修正の影響範囲checkerが再検査済みで、再利用passはspec・正規化入力・source artifact・schema・独立性・request bindingがすべて一致している。
+6. blind inventoryの各 `semantic_assertion` を最新版へ適用しても、候補の境界・作用方向・包含/除外関係・一般化範囲に反する記述がない。
+7. final blindがcold reviewおよびpre-blind revisionより後で、pre-blind修正後本文hashに束縛されている。final-blind findingの採用修正がある場合は、影響checker再検査後の新本文を新しい独立final blindが確認している。
+8. `insufficient_evidence`、未検査範囲、無効pass、判断衝突、未確認の修正影響が残っていない。
+
+## REJECTの意味基準
+
+上記のいずれかを満たさない場合は `REJECT` とする。blockerにできるのは、事実・語法・発音の誤り、例文/訳の誤り、主要語義・構文の欠落または過剰収録、根拠と本文の矛盾、内容仕様の必須項目違反、未判定・未解決項目である。各blockerには対象ID、問題、必要な修正を記録する。条件付き合格は使わない。
+
+本文と矛盾しない分類粒度・棚卸し構成の差、より良い表現の提案、任意の改善余地は、それだけを理由に `REJECT` にせず、非blocking noteとして記録する。`REJECT` は審査失敗ではなく、問題を検出して完了した正常な最終判定である。
+
+## 出力
+
+入力に `inventories` / `response_template` がある場合、それが照合対象IDの正本である。IDを作り直さず、ひな形の未判定欄を独立に判定する。未判定は合格ではない。`target_results` / `relation_results` の `notes` には、対応する対象の `text` / 関係の `description` 全文を引用し、その対象固有の判断理由を記載する。入力欠落を空集合と推測しない。
+
+`final_review_v2` JSONとして、全target/relation/normal candidate/blind candidate/finding/evidence/source-unionの個別結果、再検査・再利用manifestの照合結果、`decision` (`pass | reject`)、`blockers`、非blocking `notes` を返す。`PASS` は全個別結果がpass、未解決・hold・`insufficient_evidence`が0件、blockerが0件の場合に限る。本文は変更しない。新しい内容上のblockerを見つけた場合は正常なREJECTとし、修正、影響範囲再検査、final blind再実行へ戻す。
+
+
+## Input packet
+
+```json
 {
   "stage": "final_review",
   "entry_body": "\n＃発音記号\n\n米・英: /ˈsensəbl/。3音節で、第1音節に主強勢がある。第1音節の /sen/ を明瞭に発音し、第2音節は弱い /sə/、語尾は /bəl/ と続ける。強勢を後ろに移して「センシブゥル」のように発音しない。  \n\n＃語源\n\n中英語後期に、古フランス語 sensible またはラテン語 sensibilis「感じ取れる、知覚できる」から英語に入った。ラテン語 sensibilis は sensus「感覚・知覚」に関係し、さらに sentire「感じる」にさかのぼる。  \nもともとの「感覚で捉えられる」という意味から、「心で気づいている」、さらに「道理をわきまえて適切に判断する」という意味へ広がった。衣服についての「実用的な」という用法は後の発達で、語源上の意味をそのまま現代の各用法に当てはめない。  \n\n＃語形成\n\n・sensibly：副詞。「分別をもって、現実的に、適切に」。判断や行動の仕方を表す。  \n・sensibleness：名詞。「分別のあること、現実的であること」。sensible より使用頻度が低い。  \n・insensible：接頭辞 in- を伴う関連語。「感じない、意識がない、気づかない」。sensible のすべての意味の単純な反意語ではない。  \n・sensitive、sensibility：同じラテン語の感覚・知覚の語族に属する関連語。ただし、sensitive は「影響を受けやすい・敏感な」、sensibility は「感受性・分別」という別の語として覚える。  \n\n＃コアイメージ\n\n「感覚・理解・判断を通して、対象をきちんと捉える」。この広い核から、対象を理解して妥当な判断をする用法、実用性を優先して選ぶ用法、対象が感覚や理解に届く用法、刺激を感覚として受け取る用法、事実や感情を意識に受け取る用法が生じる。  \n1の「対象を理解して妥当な判断をする」から、分別のある・道理にかなった・現実的なという意味になる。  \n2の「実用性を優先して選ぶ」から、衣服や靴などが実用的な、実用本位のという意味になる。  \n3の「対象が感覚・理解に届く」から、差や変化などが感じ取れる、はっきりしたという意味になる。  \n4の「外部刺激を感覚として受け取る」から、痛みや熱などを感じ取れるという意味になる。  \n5の「事実・感情を意識に受け取る」から、事実や恩恵などを意識している、深く感じているという意味になる。  \n\n＃意味・用法・関連表現\n\n1. 【形容詞・人・判断】分別のある、道理にかなった、現実的な\n\n【日本語訳・定義】感情だけで決めず、理由・経験・実際の条件を考えて、適切で無理のない判断や行動をすることを表す。人にも、考え・助言・計画・解決策などにも使い、話し手が妥当だと評価する含みがある。  \n\n【頻度】〈9/10〉  \n\n【レジスター/領域】標準語で、会話にも文章にも使える基本語。practical は実行可能性、reasonable は道理・公平さ、rational は感情を抑えた論理性に焦点を置きやすいのに対し、sensible は日常の分別と現実感をまとめて表す。  \n\n【文法パターン】a sensible person/choice/decision/plan＝分別のある人・妥当な選択・判断・計画／sensible advice＝現実的で適切な助言／be sensible＝分別をもって行動する／be sensible about 〈money・risk・food〉＝〈お金・危険・食事〉について現実的に考える／it is sensible to do ＝～するのが妥当だ／it is sensible for someone to do ＝〈人〉が～するのが妥当だ／the sensible thing to do＝取るべき妥当な行動／be sensible enough to do ＝分別があるので～する。  \n\n【コロケーション】\n\n・a sensible decision  \n用途: 条件や結果を考えたうえで、妥当な判断であることを表す。  \n例: Taking the earlier train was a sensible decision.  \n訳: 早い方の電車に乗ったのは妥当な判断だった。  \n\n・a sensible approach to 〈problem〉  \n用途: 問題に対して、現実的で無理のない取り組み方を示す。  \n例: We need a sensible approach to reducing unnecessary costs.  \n訳: 不要な費用を減らすには、現実的な取り組み方が必要だ。  \n\n・sensible advice  \n用途: 経験や事情に基づく、実行しやすい助言を表す。  \n例: Her sensible advice helped me avoid a costly mistake.  \n訳: 彼女の現実的な助言のおかげで、私は高くつく間違いを避けられた。  \n\n・it is sensible to do  \n用途: ある行動を取るのが分別にかなっていると述べる基本構文。  \n例: It is sensible to keep a copy of the receipt.  \n訳: 領収書の写しを保管しておくのが賢明だ。  \n\n・it is sensible for someone to do  \n用途: 特定の人がある行動をするのが妥当だと述べる。  \n例: It would be sensible for you to check the figures again.  \n訳: あなたがもう一度数字を確認するのが賢明だろう。  \n\n・the sensible thing to do  \n用途: いくつかの選択肢の中で、最も妥当な行動を指す。  \n例: The sensible thing to do is wait until the weather improves.  \n訳: 天候が回復するまで待つのが妥当な行動だ。  \n\n・be sensible about 〈issue〉  \n用途: 問題や資源について、感情的にならず現実的に考える。  \n例: Please be sensible about how much equipment you bring.  \n訳: どれだけ機材を持ってくるかは、現実的に考えてください。  \n\n・be sensible enough to do  \n用途: 分別があるため、危険や不利益を避ける行動を取ることを表す。  \n例: He was sensible enough to ask for help before the problem grew.  \n訳: 彼は問題が大きくなる前に助けを求めるだけの分別があった。  \n\n【語法・注意】人を主語にした be sensible は「分別をもって行動する」、物事を主語にした a sensible plan は「妥当で現実的な計画」を表す。sensible は必ずしも「賢さ」や高い知能を評価する語ではなく、その場の条件に合った判断をほめる語である。  \n\n【類義語】\n\n・reasonable  \n定義: 道理にかなった、妥当な、無理のない。  \n頻度: 〈10/10〉  \n違い: reasonable は判断・要求・価格などが公平で受け入れやすいことに焦点がある。sensible は現実の結果を考えて適切に行動する分別を強調しやすい。  \n例: That seems like a reasonable compromise.  \n訳: それは妥当な妥協案のように思える。  \n\n・practical  \n定義: 実際に役立ち、実行できる、実用的な。  \n頻度: 〈9/10〉  \n違い: practical は理論や見た目より実用性・実行可能性に焦点がある。sensible は実用性に加え、状況に応じた判断の適切さも表す。  \n例: We chose a practical solution that fit the budget.  \n訳: 私たちは予算に合う実用的な解決策を選んだ。  \n\n・rational  \n定義: 理性や論理に基づく、合理的な。  \n頻度: 〈8/10〉  \n違い: rational は感情や衝動ではなく、論理的な理由に基づくことを強調する。sensible の方が日常的で、生活上の分別にも使いやすい。  \n例: There is no rational reason to reject the proposal.  \n訳: その提案を拒む合理的な理由はない。  \n\n・prudent  \n定義: 将来の危険や損失を考えて慎重で賢明な。  \n頻度: 〈6/10〉  \n違い: prudent は特に危険・費用・将来の結果を避ける慎重さを含み、sensible より硬い。  \n例: It would be prudent to set aside some emergency savings.  \n訳: 緊急時のために貯蓄をいくらか取っておくのが賢明だろう。  \n\n・wise  \n定義: 経験や深い理解に基づいて、賢明な。  \n頻度: 〈9/10〉  \n違い: wise は長期的な洞察や人生経験まで含むことがある。sensible はもっと身近な状況での現実的な判断に焦点を置く。  \n例: It was wise to discuss the risks before signing.  \n訳: 署名する前に危険性を話し合ったのは賢明だった。  \n\n・judicious  \n定義: 判断力があり、慎重で適切な。  \n頻度: 〈4/10〉  \n違い: judicious は選択・配分・発言などを慎重に見極めたことを表す硬い語。sensible の方が一般的で親しみやすい。  \n例: A judicious use of examples can clarify the argument.  \n訳: 例を適切に使えば、その議論を明確にできる。  \n\n【反意語】\n\n・silly  \n定義: 分別を欠いた、ばかげた。  \n頻度: 〈9/10〉  \n違い: silly は判断や行動が軽率で、子どもっぽくばかげていることを表す。sensible の「現実を踏まえた分別」と対照的である。  \n例: It would be silly to ignore the warning.  \n訳: その警告を無視するのはばかげている。  \n\n・foolish  \n定義: 判断力や分別を欠いた、愚かな。  \n頻度: 〈8/10〉  \n違い: foolish は結果を考えない愚かな判断を強く非難する語で、sensible の反対側に位置する。  \n例: It was foolish to spend all the money at once.  \n訳: お金を全部一度に使うのは愚かなことだった。  \n\n・impractical  \n定義: 実行しにくく、現実の条件に合わない。  \n頻度: 〈7/10〉  \n違い: impractical は計画や提案などの実行可能性の不足に焦点を置く。人の分別全般の反意語ではないが、sensible plan などとは実用性の軸で対照をなす。  \n例: The design is attractive but impractical for daily use.  \n訳: そのデザインは魅力的だが、日常使用には実用的でない。  \n\n2. 【形容詞・衣類・靴】実用的な、実用本位の\n\n【日本語訳・定義】衣服・靴・かばんなどが、流行や見た目よりも、歩きやすさ・丈夫さ・防寒性などの実用性を重視して作られたり選ばれたりしていることを表す。必ずしも醜い、古い、または質が低いという意味ではない。  \n\n【頻度】〈6/10〉  \n\n【レジスター/領域】標準語で、日常会話にも使う。sensible shoes は特に定着した組み合わせで、長時間歩く場面などに適した、派手さより快適さを優先した靴を指す。  \n\n【文法パターン】sensible shoes/clothes/footwear＝実用的な靴・衣服・履物／a sensible coat＝実用本位のコート／wear/choose sensible clothing＝実用的な服を着る・選ぶ／something is sensible for 〈weather・travel〉＝〈天候・旅行〉に適して実用的だ。  \n\n【コロケーション】\n\n・sensible shoes  \n用途: 流行性よりも歩きやすさや足の保護を重視した靴を表す。  \n例: Wear sensible shoes because the tour involves a lot of walking.  \n訳: たくさん歩くツアーなので、歩きやすい靴を履いてください。  \n\n・sensible clothing  \n用途: 天候や活動に合い、実用性を優先した衣服を表す。  \n例: Pack sensible clothing for the cold and wet conditions.  \n訳: 寒くて雨の多い状況に合う実用的な服を荷造りしてください。  \n\n・sensible footwear  \n用途: 見た目より機能性を重視した履物を、やや説明的に表す。  \n例: The guide recommends sensible footwear for the uneven ground.  \n訳: ガイドは、でこぼこした地面には実用的な履物を勧めている。  \n\n・a sensible coat  \n用途: 防寒・耐久性・天候への対応を重視したコートを表す。  \n例: I bought a sensible coat rather than a delicate fashion jacket.  \n訳: 繊細なファッションジャケットではなく、実用的なコートを買った。  \n\n・choose sensible clothing  \n用途: 活動や天候に合わせて、見た目より使いやすさを基準に衣服を選ぶ。  \n例: Choose sensible clothing for the long flight.  \n訳: 長時間のフライトには実用的な服を選んでください。  \n\n【語法・注意】この用法では、sensible は人の判断を直接修飾するのではなく、実用性を重視して選ばれた物を評価する。fashionable は「流行している」、comfortable は「快適な」に焦点があり、sensible shoes が必ず fashionable でない、または完全に comfortable であるとは限らない。  \n\n【類義語】\n\n・practical  \n定義: 実際の用途に役立つ、実用的な。  \n頻度: 〈9/10〉  \n違い: practical は衣服・道具・計画の実用性を広く表す。sensible は使用場面に合うように選ばれたという判断の含みを持ちやすい。  \n例: These practical boots are good for walking in the rain.  \n訳: この実用的なブーツは雨の中を歩くのに向いている。  \n\n・functional  \n定義: 見た目より機能を果たすことを重視した、機能的な。  \n頻度: 〈7/10〉  \n違い: functional はデザインや構造が目的の機能を果たすかに焦点があり、sensible は日常の選択として妥当かを評価する。  \n例: The clothes are simple but highly functional.  \n訳: その服はシンプルだが、機能性が非常に高い。  \n\n・serviceable  \n定義: 十分に使える、丈夫で役に立つ。  \n頻度: 〈5/10〉  \n違い: serviceable は見た目の魅力より、必要な用途に耐えることを表すやや硬い語。sensible は選択の分別にも使える。  \n例: The hotel provides clean and serviceable furnishings.  \n訳: そのホテルは清潔で十分に使える備品を備えている。  \n\n・utilitarian  \n定義: 実用性だけを重視した、実用主義的な。  \n頻度: 〈4/10〉  \n違い: utilitarian は装飾性をほとんど考慮しない硬い・批評的な響きがある。sensible は実用的でも、見た目のよさを排除するとは限らない。  \n例: The building has a plain, utilitarian design.  \n訳: その建物は簡素で実用本位の設計になっている。  \n\n3. 【形容詞・形式的】感じ取れる、明確に分かる、かなりの\n\n【日本語訳・定義】差・変化・増減・量などが、感覚や判断によって認識できる程度にはっきりしていることを表す。現代の一般会話での「分別のある」という意味より形式的で、sensible difference や sensible increase のように、無視できない程度を述べる。  \n\n【頻度】〈3/10〉  \n\n【レジスター/領域】形式的・書き言葉寄りで、一般会話では noticeable、clear、appreciable などが自然なことが多い。辞書によっては「知覚できる」「かなりの」という別項目として扱われる。  \n\n【文法パターン】a sensible difference＝感じ取れる明確な差／a sensible increase/decrease in something＝〈物事〉のかなりはっきりした増加・減少／a sensible change in something＝〈物事〉の認識できる変化／sensible 〈amount・degree〉＝無視できない程度の量・度合い。  \n\n【コロケーション】\n\n・a sensible difference  \n用途: 2つの状態や結果の間に、認識できるほどの差があることを表す。  \n例: The software update made a sensible difference to the loading time.  \n訳: ソフトウェアの更新によって、読み込み時間に明らかな違いが出た。  \n\n・a sensible increase in something  \n用途: 数値や量が、認識できる程度に増えたことを形式的に表す。  \n例: The policy led to a sensible increase in public access.  \n訳: その政策によって、一般の利用可能性がはっきり増した。  \n\n・a sensible reduction in something  \n用途: 費用・危険・排出量などが、無視できない程度に減ったことを表す。  \n例: The new process produced a sensible reduction in waste.  \n訳: 新しい工程によって、廃棄物が明らかに減少した。  \n\n・a sensible change in something  \n用途: 状態や傾向に、認識できるほどの変化が起きたことを述べる。  \n例: There has been a sensible change in the patient's condition.  \n訳: 患者の状態には、はっきり分かる変化があった。  \n\n【語法・注意】この用法の sensible は「妥当な」という意味ではなく、「感覚や判断に届くほど明らかな」という意味である。ただし、sensible amount は文脈によって「妥当な量」という1の意味にもなるため、差や増減の文脈で理解する。  \n\n【類義語】\n\n・perceptible  \n定義: 感覚や心によって知覚できる、感じ取れる。  \n頻度: 〈5/10〉  \n違い: perceptible は知覚可能性を直接表す硬い語で、sensible のこの用法と最も近い。sensible には「かなりの」という評価が加わることがある。  \n例: There was a perceptible change in the tone of the discussion.  \n訳: 議論の雰囲気には感じ取れる変化があった。  \n\n・noticeable  \n定義: 見たり感じたりして気づくことができる、目立つ。  \n頻度: 〈8/10〉  \n違い: noticeable は日常的で、目や耳などで気づきやすいことに焦点がある。sensible のこの用法はより形式的で、量や程度にも使いやすい。  \n例: There was a noticeable improvement in her balance.  \n訳: 彼女のバランスには目立った改善があった。  \n\n・appreciable  \n定義: はっきり認められる、かなりの、無視できない。  \n頻度: 〈5/10〉  \n違い: appreciable は差・量・変化が評価上無視できないことを強調する。sensible と近いが、程度の大きさに焦点を置きやすい。  \n例: The repair resulted in an appreciable reduction in noise.  \n訳: 修理によって騒音がかなり減少した。  \n\n・marked  \n定義: はっきりした、顕著な。  \n頻度: 〈7/10〉  \n違い: marked は変化や差が目立つことを簡潔に示す。sensible は、認識できる程度に達したことをやや控えめに述べる。  \n例: The study found a marked difference between the two groups.  \n訳: その研究は、2つのグループの間に顕著な差があることを見いだした。  \n\n【反意語】\n\n・imperceptible  \n定義: 感覚や心では知覚できない、気づけない。  \n頻度: 〈5/10〉  \n違い: imperceptible は差や変化が小さすぎて感じ取れないことを表し、sensible の「認識できる」という軸と直接対照をなす。  \n例: The change in temperature was almost imperceptible.  \n訳: 気温の変化はほとんど感じ取れないほどだった。  \n\n・negligible  \n定義: 小さすぎて考慮する必要がない、取るに足りない。  \n頻度: 〈6/10〉  \n違い: negligible は重要性や影響の小ささに焦点がある。知覚できるかどうかを直接述べる語ではないが、sensible increase などの「無視できない程度」と量の軸で対照をなす。  \n例: The difference in cost is negligible.  \n訳: 費用の差は取るに足りない。  \n\n4. 【形容詞・形式的／古風】（刺激などを）感じ取れる、知覚できる\n\n【日本語訳・定義】痛み・熱・光などの外部刺激を、感覚器官や身体で受け取る能力があることを表す。現代の一般英語では sensitive to が普通で、sensible to は古風・形式的または専門的に響く。  \n\n【頻度】〈2/10〉  \n\n【レジスター/領域】低頻度の形式的・古風な用法。一般学習者が自分の知覚について述べる場合は、通常 be sensitive to 〈刺激〉を使う。sensible to pain は「痛みを感じ取れる」であり、1の「分別のある」とは別の意味である。  \n\n【文法パターン】be sensible to 〈pain・heat・light〉＝〈痛み・熱・光〉を感じ取れる／become sensible to 〈stimulus〉＝〈刺激〉を知覚するようになる／sensible to the touch＝触れて感じ取れる。  \n\n【コロケーション】\n\n・be sensible to pain  \n用途: 痛みを感覚として受け取る能力があることを、形式的に表す。  \n例: The injured area remained sensible to pain after the procedure.  \n訳: 処置後も、負傷した部位は痛みを感じ取る状態だった。  \n\n・be sensible to heat  \n用途: 熱を感じ取ることができることを述べる。  \n例: The instrument is sensible to heat from a nearby flame.  \n訳: その器具は近くの炎から出る熱を感知できる。  \n\n・be sensible to light  \n用途: 光を感知する性質があることを、古風または技術的に表す。  \n例: The material is sensible to light and should be stored in the dark.  \n訳: その素材は光を感知する性質があるので、暗所で保管すべきだ。  \n\n【語法・注意】現代英語の sensitive to は「刺激を感じやすい」だけでなく、「影響を受けやすい」「気を悪くしやすい」も表せる。一方、sensible to はこの語義では主に感覚的な知覚を述べ、一般的な「敏感な」の言い換えとして自由に使えるわけではない。  \n\n【類義語】\n\n・sensitive to 〈stimulus〉  \n定義: 〈刺激〉を感じ取る、またはその影響を受けやすい。  \n頻度: 〈10/10〉  \n違い: sensitive to は現代英語で普通の表現で、感覚的な知覚に加えて化学反応・感情・社会的影響にも使える。sensible to は形式的・古風で範囲が狭い。  \n例: Some people are highly sensitive to bright light.  \n訳: 明るい光に非常に敏感な人もいる。  \n\n・responsive to 〈stimulus〉  \n定義: 〈刺激〉に反応する、反応を示す。  \n頻度: 〈7/10〉  \n違い: responsive to は刺激を感じることより、それに反応や変化が生じることを強調する。sensible to はまず知覚可能性を表す。  \n例: The sensor is responsive to small changes in pressure.  \n訳: そのセンサーは圧力の小さな変化にも反応する。  \n\n【反意語】\n\n・insensible to 〈stimulus〉  \n定義: 〈刺激〉を感じない、意識しない。  \n頻度: 〈4/10〉  \n違い: insensible to は痛み・熱などを知覚できないことを表し、この用法の sensible to と直接対照をなす。  \n例: The tissue was insensible to light touch.  \n訳: その組織は軽く触れても感じなかった。  \n\n・impervious to 〈stimulus〉  \n定義: 〈刺激・影響〉を通さず、受け付けない。  \n頻度: 〈5/10〉  \n違い: impervious to は単に知覚できないだけでなく、刺激や影響が作用しないことを強く表す。sensible to より遮断の含みが強い。  \n例: The coating is impervious to heat and moisture.  \n訳: そのコーティングは熱や湿気を通さない。  \n\n5. 【形容詞・形式的／文学的・sensible of】～を意識している、～を深く感じている\n\n【日本語訳・定義】事実・危険・義務・誤り・親切などを心で認識し、強く意識していることを表す。通常 sensible of 〈名詞〉の形で使い、現代の会話では aware of、conscious of、grateful for などが自然なことが多い。  \n\n【頻度】〈3/10〉  \n\n【レジスター/領域】形式的・文学的で、古風な響きがある。sensible of the fact、sensible of one's error、sensible of someone's kindness のように、抽象的な事実や感情を意識していることに使う。  \n\n【文法パターン】be sensible of 〈fact・danger・duty・error〉＝〈事実・危険・義務・誤り〉を意識している／be sensible of 〈kindness・benefit〉＝〈親切・恩恵〉を深く感じている／be deeply/keenly sensible of something＝～を深く・強く意識している／sensible of the fact that 〈節〉＝～という事実を認識している。  \n\n【コロケーション】\n\n・be sensible of 〈fact〉  \n用途: ある事実を心で認識していることを、形式的に表す。  \n例: She was sensible of the fact that her decision affected the whole team.  \n訳: 彼女は、自分の決定がチーム全体に影響するという事実を意識していた。  \n\n・be sensible of one's error  \n用途: 自分の誤りに気づき、それを認識していることを表す。  \n例: He soon became sensible of his error and apologized.  \n訳: 彼はすぐに自分の誤りに気づき、謝罪した。  \n\n・be sensible of someone's kindness  \n用途: 人から受けた親切や恩恵を深く感じていることを表す。  \n例: I am deeply sensible of your kindness during this difficult time.  \n訳: この困難な時期にあなたが親切にしてくださったことを深く感じています。  \n\n・be keenly sensible of something  \n用途: 危険・責任・苦境などを強く意識していることを、硬い表現で述べる。  \n例: The volunteers were keenly sensible of the risks involved.  \n訳: ボランティアたちは、そこに伴う危険を強く意識していた。  \n\n【語法・注意】sensible of は「～を意識している」であり、1の sensible「分別のある」とは意味が異なる。sensible to は4の「刺激を感じ取れる」と結びつきやすく、事実・恩恵への意識には sensible of を使う。現代的な文章では aware of や conscious of の方が普通である。  \n\n辞書によっては、名詞 sensible「感覚で知覚できるもの」や音楽の用語 sensible「導音」を載せることがあるが、いずれも非常にまれで、一般学習者がまず覚える形容詞の用法ではないため、本文の独立した語義には含めない。  \n\n【類義語】\n\n・aware of something  \n定義: 〈事実・状況・問題〉に気づいている、知っている。  \n頻度: 〈10/10〉  \n違い: aware of は現代英語で最も普通の「認識している」で、感情の深さを必ずしも含まない。sensible of は形式的で、強く感じている含みを持つことがある。  \n例: Are you aware of the possible consequences?  \n訳: 起こりうる結果を認識していますか。  \n\n・conscious of something  \n定義: 〈事実・存在・自分の行動〉を意識している。  \n頻度: 〈9/10〉  \n違い: conscious of は意識に上っていることや自覚を強調する。sensible of より現代的だが、文脈によっては「気にしている」という含みも出る。  \n例: She was conscious of every movement in the quiet room.  \n訳: 彼女は静かな部屋でのあらゆる動きを意識していた。  \n\n・cognizant of something  \n定義: 〈事実・問題・義務〉を十分に認識している。  \n頻度: 〈4/10〉  \n違い: cognizant of は非常に形式的で、事実を理解・把握していることに焦点がある。sensible of は認識に加えて感情的な受け止め方も表しうる。  \n例: The committee is cognizant of the need for further evidence.  \n訳: 委員会は、さらなる証拠が必要であることを十分に認識している。  \n\n・mindful of something  \n定義: 〈危険・影響・必要性〉を意識し、注意を払っている。  \n頻度: 〈7/10〉  \n違い: mindful of は認識したうえで注意深く行動する含みが強い。sensible of は単に気づいていることや、恩恵を感じていることにも使える。  \n例: Please be mindful of the needs of other passengers.  \n訳: 他の乗客のニーズに配慮してください。  \n\n【反意語】\n\n・unaware of something  \n定義: 〈事実・状況〉に気づいていない、知らない。  \n頻度: 〈9/10〉  \n違い: unaware of は認識がないことを直接表し、sensible of の「意識している」と対照をなす。  \n例: He was unaware of the rule when he submitted the form.  \n訳: 彼はその用紙を提出したとき、その規則を知らなかった。  \n\n・oblivious to something  \n定義: 〈事実・危険・周囲の状況〉にまったく気づいていない。  \n頻度: 〈7/10〉  \n違い: oblivious to は気づいていない程度が強く、しばしば周囲への無関心を含む。sensible of と反対方向だが、単なる知識不足より強い。  \n例: The driver seemed oblivious to the warning signs.  \n訳: その運転手は警告標識にまったく気づいていないようだった。  ",
@@ -936,7 +979,7 @@
         "mode": "reused",
         "spec_sha256": "d09d822f58ea8bcff9aa2890f988ad7aca9a9d3a773b5f9da5427f783ae25bb3",
         "normalized_input_sha256": "13fa14044dc2abf4288c806051163967f32b66dbe87ec438a25a53a85fa403ef",
-        "source_artifact_sha256": "9fd8ba1d7ee0692c47018efa38e9624488ff8bbe6bffc9ea08af7da28eee6e5a",
+        "source_artifact_sha256": "0035642740b1174f92eb8173dfb0455de3648f65c58090795bb3e13932a0c417",
         "output_sha256": "f04a082ac999ec4376ac816a6c6fa679a19f656e017a7e884f8fa3a30be091bb",
         "schema_valid": true,
         "reviewer_independent": true,
@@ -952,7 +995,7 @@
         "mode": "reused",
         "spec_sha256": "a815b90fbc456e2bc194220ee0f3bfa164790bbb6e1f2f740144ac62bb03b87c",
         "normalized_input_sha256": "600c31b4e9be9f76a4df3259ebcc4ab132a6e2ddd7a3a38204938a3a6fc88683",
-        "source_artifact_sha256": "9fd8ba1d7ee0692c47018efa38e9624488ff8bbe6bffc9ea08af7da28eee6e5a",
+        "source_artifact_sha256": "0035642740b1174f92eb8173dfb0455de3648f65c58090795bb3e13932a0c417",
         "output_sha256": "8a7ae1e8e3e2c932dfbe42b741bd6e87cb91f876ba9826d7c6d928319e26072e",
         "schema_valid": true,
         "reviewer_independent": true,
@@ -968,7 +1011,7 @@
         "mode": "reused",
         "spec_sha256": "3598ca81a5784639c6b43a0806d0981a985bf4174f424c744aad1dde787bfcef",
         "normalized_input_sha256": "22a2e0895cc8a43bf66aebfefb9aa051fad3a75e90917ada58b9190bb793cbc2",
-        "source_artifact_sha256": "9fd8ba1d7ee0692c47018efa38e9624488ff8bbe6bffc9ea08af7da28eee6e5a",
+        "source_artifact_sha256": "0035642740b1174f92eb8173dfb0455de3648f65c58090795bb3e13932a0c417",
         "output_sha256": "e953c3136542fc49a00b349adc1845de7b7c4dfa315fef4d48c0f552c19d27a4",
         "schema_valid": true,
         "reviewer_independent": true,
@@ -984,7 +1027,7 @@
         "mode": "reused",
         "spec_sha256": "e0bbb032bc0c50bf9bef5ff8f7854188287e635c58e599479891e11e3343a017",
         "normalized_input_sha256": "bc83a7d0363f67dba987d96aa366208c26c87576fe1ee5b1a7b8e688666908a5",
-        "source_artifact_sha256": "9fd8ba1d7ee0692c47018efa38e9624488ff8bbe6bffc9ea08af7da28eee6e5a",
+        "source_artifact_sha256": "0035642740b1174f92eb8173dfb0455de3648f65c58090795bb3e13932a0c417",
         "output_sha256": "3963512df4611aac42f1fefb41413ea02f201e65756d5d170b831f06b197875b",
         "schema_valid": true,
         "reviewer_independent": true,
@@ -1000,7 +1043,7 @@
         "mode": "reused",
         "spec_sha256": "1cf8a434bbe1213c0ef739f4c47ffb41014ab2cd5156d297471af6df85ae40a2",
         "normalized_input_sha256": "064f7351f606406b00925b49066701e49d3e8ad83552f1c2760f0d74e4a163fe",
-        "source_artifact_sha256": "9fd8ba1d7ee0692c47018efa38e9624488ff8bbe6bffc9ea08af7da28eee6e5a",
+        "source_artifact_sha256": "0035642740b1174f92eb8173dfb0455de3648f65c58090795bb3e13932a0c417",
         "output_sha256": "e694cb3cea08934e9643502edf954f8c4347982e032f9f6c41cbf3dc8b9d2729",
         "schema_valid": true,
         "reviewer_independent": true,
@@ -1016,7 +1059,7 @@
         "mode": "reused",
         "spec_sha256": "7e3e94267ac9f917c901c12580b91e570b5989df7adfbf2a39b833478c766d8a",
         "normalized_input_sha256": "16a3c8f00b5b87a47609494d534a8c04f7c43733f90904418eef3eca37e1a81d",
-        "source_artifact_sha256": "9fd8ba1d7ee0692c47018efa38e9624488ff8bbe6bffc9ea08af7da28eee6e5a",
+        "source_artifact_sha256": "0035642740b1174f92eb8173dfb0455de3648f65c58090795bb3e13932a0c417",
         "output_sha256": "2cbf20a1986e2e4dc747636e67a54b882b346f825e1e3bb64521220f2cfff443",
         "schema_valid": true,
         "reviewer_independent": true,
@@ -1032,7 +1075,7 @@
         "mode": "reused",
         "spec_sha256": "dc0826565109b0be96c5ef7c13943a01b0e42616fecff87ab25102e5cda4cb8d",
         "normalized_input_sha256": "e85337d4646ad76eb9928ca16a028cf13c8a6ab4f98677f972f8b60b45d5cd35",
-        "source_artifact_sha256": "9fd8ba1d7ee0692c47018efa38e9624488ff8bbe6bffc9ea08af7da28eee6e5a",
+        "source_artifact_sha256": "0035642740b1174f92eb8173dfb0455de3648f65c58090795bb3e13932a0c417",
         "output_sha256": "2009dbb52dbd4a262ff89e25e83ba1bb9ecca70544c62fd367ee95645716e7eb",
         "schema_valid": true,
         "reviewer_independent": true,
@@ -1096,7 +1139,7 @@
         "facts_used": 20,
         "research_rounds_used": 1,
         "post_cold_rechecks_used": 0,
-        "final_attempts_used": 1
+        "final_attempts_used": 0
       },
       "research_status": "complete",
       "stop_reason": "coverage_axes_closed",
@@ -5741,7 +5784,7 @@
         "notes": ""
       }
     ],
-    "input_revision_id": "7bf4e45b1fd8f2c5c18f909e5765ed1e7f3380e1e7c3e4b984424555f41444fa"
+    "input_revision_id": "65a06ca7cbcf51870f9713ec665b270bd31c1e0fa55d4710dc7e2abd803daac8"
   },
   "input_bindings": {
     "pass_findings.json": "6d57a4d649674fdb1344af849a4171924781740ca03a9b7db16db7632a809f30",
@@ -5750,11 +5793,11 @@
     "blind_seal.json": "7c30ada8881667e79201c16064ccce75ede76422fdf34c4d07e569bf15c0a54f",
     "pre_blind_resolution.json": "62eae0bf53e5dbbed2dafb02737531a9616526f711ad2ffeb8db6123a56acd09",
     "pre_blind_revision.json": "19283528fc06f1622231f5a2981823c4e10d99821e68875ff82930df930997b2",
-    "checker_recheck_manifest.json": "1461bc09bc4422bb4e33994048b23655659e44d22f38cca96f1a2f4fd1978cd3",
+    "checker_recheck_manifest.json": "49b2b22060f510901fc043febdae7e8b7fdea1cfd813a63c05289fb5623810ee",
     "post_blind_resolution.json": "7dc2f920057bc5fa6ac3d76f75e2d66c3a0b209dd3c849f5a7dcb88dd57d0e51",
     "post_blind_verification.json": "3b58ca728b12916ca36721363ba77377a4f4a11b57acc058afcccf75e0d68efd",
     "targeted_adjudications.json": "170bcecc13fe9ab6439407fcebba3dfef9a7160d4f7ac76c211d38cd5d161b80",
-    "source_inventory.json": "bc034f886bfc561d61c0286ae93c72691e976448aa4e19018dd21d869890beb7",
+    "source_inventory.json": "f007a9e6513a3b55b20d8f9dd64e350ab1e2e4f199a30c41ce12c19a4b44d637",
     "resolutions.json": "87648dfb7746490bda17f9a11882eff8db87f9f2aea1b8b8380cb55a7c914ad7",
     "check_passes/checker_passes.stage1.json": "e8b8457652feacaba5dee262e4b5b1bcc7751b05437b03504abc486ff7306807",
     "check_passes/evidence.json": "dca2168dedb3d7a029d8bd93686f63d513f311c2abd60a7bc7839c099ecdde0b",
@@ -5780,5 +5823,6 @@
     "check_passes/translation.request.json": "7e1b940a81a27b37b209d53bd5dd7f00ad035f08ceef71ef15d2b535f8018e0e"
   },
   "contract_version": "review_preflight_v1",
-  "input_revision_id": "7bf4e45b1fd8f2c5c18f909e5765ed1e7f3380e1e7c3e4b984424555f41444fa"
+  "input_revision_id": "65a06ca7cbcf51870f9713ec665b270bd31c1e0fa55d4710dc7e2abd803daac8"
 }
+```
