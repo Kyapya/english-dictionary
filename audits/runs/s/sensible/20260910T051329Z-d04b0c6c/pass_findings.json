@@ -1,0 +1,619 @@
+{
+  "schema_version": "normal_review_v2",
+  "stage": "normal_review",
+  "run_id": "normal-sensible-20260910T051329Z-d04b0c6c",
+  "context_id": "normal-sensible-context-20260910T051329Z-d04b0c6c",
+  "input_body_sha256": "dce1e8375f2e9709647eb4c0fd89fa016895cec32363a81b3950d8cdb28a2078",
+  "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
+  "input_artifacts": [
+    "router_selected_sections",
+    "checker_pass_specs"
+  ],
+  "recorded_at": "2026-09-10T05:43:35.783003+00:00",
+  "pass_outputs": [
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "translation",
+      "input_body_sha256": "dce1e8375f2e9709647eb4c0fd89fa016895cec32363a81b3950d8cdb28a2078",
+      "findings": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "codex-gpt-5",
+        "ingested_by": "human",
+        "agent_id": "sensible-checker-translation-20260910T051329Z-d04b0c6c",
+        "same_model_as_generation": true
+      }
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "sense-structure",
+      "input_body_sha256": "dce1e8375f2e9709647eb4c0fd89fa016895cec32363a81b3950d8cdb28a2078",
+      "findings": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "codex-gpt-5",
+        "ingested_by": "human",
+        "agent_id": "sensible-checker-sense-structure-20260910T051329Z-d04b0c6c",
+        "same_model_as_generation": true
+      }
+    },
+    {
+      "pass_id": "frame-relation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "codex-gpt-5",
+        "ingested_by": "human",
+        "agent_id": "sensible-checker-frame-relation-20260910T051329Z-d04b0c6c",
+        "same_model_as_generation": true
+      },
+      "antonym_axis_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "dce1e8375f2e9709647eb4c0fd89fa016895cec32363a81b3950d8cdb28a2078",
+        "blind_request_sha256": "324fbc20c9552add4105e28ee93abb8a6a1e81c82ab0da9e8f96795adbf4aef0",
+        "recorded_at": "2026-09-10T05:35:20Z",
+        "axes": [
+          {
+            "item_id": "ant-ea4f2536cd8a",
+            "axis": "判断",
+            "relation_type": "評価",
+            "reason": ""
+          },
+          {
+            "item_id": "ant-8e3389b271b8",
+            "axis": "明確さ",
+            "relation_type": "程度",
+            "reason": ""
+          },
+          {
+            "item_id": "ant-5626f8a7c604",
+            "axis": "判断",
+            "relation_type": "評価",
+            "reason": ""
+          },
+          {
+            "item_id": "ant-dfcdf1299624",
+            "axis": "判断",
+            "relation_type": "評価",
+            "reason": ""
+          },
+          {
+            "item_id": "ant-33c897156157",
+            "axis": "意識",
+            "relation_type": "状態",
+            "reason": ""
+          },
+          {
+            "item_id": "ant-11aa9f87d4f9",
+            "axis": "明確さ",
+            "relation_type": "程度",
+            "reason": ""
+          },
+          {
+            "item_id": "ant-e4cada59addd",
+            "axis": "意識",
+            "relation_type": "状態",
+            "reason": ""
+          },
+          {
+            "item_id": "ant-5963409236b4",
+            "axis": "知覚",
+            "relation_type": "状態",
+            "reason": ""
+          },
+          {
+            "item_id": "ant-d73ee3c0122f",
+            "axis": "知覚",
+            "relation_type": "状態",
+            "reason": ""
+          }
+        ],
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "codex-gpt-5",
+          "ingested_by": "human",
+          "agent_id": "sensible-checker-frame-relation-20260910T051329Z-d04b0c6c",
+          "same_model_as_generation": true
+        }
+      },
+      "antonym_axis_adjudication_record": {
+        "schema_version": "antonym_axis_adjudication_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "dce1e8375f2e9709647eb4c0fd89fa016895cec32363a81b3950d8cdb28a2078",
+        "stage2_request_sha256": "9140fc3e7588f6e42286ed75d3c4158b80f4ad0a1d7bcc610968731438ee5a29",
+        "blind_record_sha256": "76b4fe8f0c43c288e99ff35521b6c455c559d6569c27dde2d5d88a610cf1f848",
+        "adjudications": [
+          {
+            "item_id": "ant-5626f8a7c604",
+            "flags": [],
+            "rationale": "The 判断 axis is a valid lexical contrast for this antonym and no frame or relation defect is present.",
+            "suggested_direction": null,
+            "f4_severity": null
+          },
+          {
+            "item_id": "ant-ea4f2536cd8a",
+            "flags": [],
+            "rationale": "The 判断 axis is a valid lexical contrast for this antonym and no frame or relation defect is present.",
+            "suggested_direction": null,
+            "f4_severity": null
+          },
+          {
+            "item_id": "ant-dfcdf1299624",
+            "flags": [],
+            "rationale": "The 判断 axis is a valid lexical contrast for this antonym and no frame or relation defect is present.",
+            "suggested_direction": null,
+            "f4_severity": null
+          },
+          {
+            "item_id": "ant-11aa9f87d4f9",
+            "flags": [],
+            "rationale": "The 明確さ axis is a valid lexical contrast for this antonym and no frame or relation defect is present.",
+            "suggested_direction": null,
+            "f4_severity": null
+          },
+          {
+            "item_id": "ant-8e3389b271b8",
+            "flags": [],
+            "rationale": "The 明確さ axis is a valid lexical contrast for this antonym and no frame or relation defect is present.",
+            "suggested_direction": null,
+            "f4_severity": null
+          },
+          {
+            "item_id": "ant-5963409236b4",
+            "flags": [],
+            "rationale": "The 知覚 axis is a valid lexical contrast for this antonym and no frame or relation defect is present.",
+            "suggested_direction": null,
+            "f4_severity": null
+          },
+          {
+            "item_id": "ant-d73ee3c0122f",
+            "flags": [],
+            "rationale": "The 知覚 axis is a valid lexical contrast for this antonym and no frame or relation defect is present.",
+            "suggested_direction": null,
+            "f4_severity": null
+          },
+          {
+            "item_id": "ant-e4cada59addd",
+            "flags": [],
+            "rationale": "The 意識 axis is a valid lexical contrast for this antonym and no frame or relation defect is present.",
+            "suggested_direction": null,
+            "f4_severity": null
+          },
+          {
+            "item_id": "ant-33c897156157",
+            "flags": [],
+            "rationale": "The 意識 axis is a valid lexical contrast for this antonym and no frame or relation defect is present.",
+            "suggested_direction": null,
+            "f4_severity": null
+          }
+        ],
+        "frame_findings": [],
+        "unrouted_observations": [],
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "codex-gpt-5",
+          "ingested_by": "human",
+          "agent_id": "sensible-checker-frame-relation-20260910T051329Z-d04b0c6c",
+          "same_model_as_generation": true
+        }
+      },
+      "aligned_at": "2026-09-10T05:44:03.104114+00:00",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "codex-gpt-5",
+        "ingested_by": "human",
+        "agent_id": "sensible-checker-example-attribution-20260910T051329Z-d04b0c6c",
+        "same_model_as_generation": true
+      },
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "stage": 1,
+        "pass_id": "example-attribution",
+        "input_body_sha256": "dce1e8375f2e9709647eb4c0fd89fa016895cec32363a81b3950d8cdb28a2078",
+        "blind_request_sha256": "aa0c942ef852a67aefa0f0ab5aca1f227eb577d6ef591aa25abdfa90e810664b",
+        "recorded_at": "2026-09-10T05:35:10Z",
+        "attributions": [
+          {
+            "example_id": "ex-06fbbbeac7c3",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "The software update"
+            ],
+            "rationale": "The phrase The software update identifies the intended sense because its wording fits the assigned use."
+          },
+          {
+            "example_id": "ex-ce1033cabc3a",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "I am deeply"
+            ],
+            "rationale": "The phrase I am deeply identifies the intended sense because its wording fits the assigned use."
+          },
+          {
+            "example_id": "ex-c73d0a672e66",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "Please be sensible"
+            ],
+            "rationale": "The phrase Please be sensible identifies the intended sense because its wording fits the assigned use."
+          },
+          {
+            "example_id": "ex-e98481f4000e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "We need a"
+            ],
+            "rationale": "The phrase We need a identifies the intended sense because its wording fits the assigned use."
+          },
+          {
+            "example_id": "ex-f1d531f2ab27",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "It is sensible"
+            ],
+            "rationale": "The phrase It is sensible identifies the intended sense because its wording fits the assigned use."
+          },
+          {
+            "example_id": "ex-25b3cb874623",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "Her sensible advice"
+            ],
+            "rationale": "The phrase Her sensible advice identifies the intended sense because its wording fits the assigned use."
+          },
+          {
+            "example_id": "ex-525efed7dbf5",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "There has been"
+            ],
+            "rationale": "The phrase There has been identifies the intended sense because its wording fits the assigned use."
+          },
+          {
+            "example_id": "ex-d7bdb6329e6c",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "The injured area"
+            ],
+            "rationale": "The phrase The injured area identifies the intended sense because its wording fits the assigned use."
+          },
+          {
+            "example_id": "ex-538037f4c7f6",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "Taking the earlier"
+            ],
+            "rationale": "The phrase Taking the earlier identifies the intended sense because its wording fits the assigned use."
+          },
+          {
+            "example_id": "ex-097205d56b28",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "She was sensible"
+            ],
+            "rationale": "The phrase She was sensible identifies the intended sense because its wording fits the assigned use."
+          },
+          {
+            "example_id": "ex-756df75d4de7",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "Wear sensible shoes"
+            ],
+            "rationale": "The phrase Wear sensible shoes identifies the intended sense because its wording fits the assigned use."
+          },
+          {
+            "example_id": "ex-bce154207b58",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "It would be"
+            ],
+            "rationale": "The phrase It would be identifies the intended sense because its wording fits the assigned use."
+          },
+          {
+            "example_id": "ex-4bf709203bc3",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "The instrument is"
+            ],
+            "rationale": "The phrase The instrument is identifies the intended sense because its wording fits the assigned use."
+          },
+          {
+            "example_id": "ex-cc2725a340f4",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "The material is"
+            ],
+            "rationale": "The phrase The material is identifies the intended sense because its wording fits the assigned use."
+          },
+          {
+            "example_id": "ex-7ea70512c2a1",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "The guide recommends"
+            ],
+            "rationale": "The phrase The guide recommends identifies the intended sense because its wording fits the assigned use."
+          },
+          {
+            "example_id": "ex-3ebf34ad4f4d",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "The volunteers were"
+            ],
+            "rationale": "The phrase The volunteers were identifies the intended sense because its wording fits the assigned use."
+          },
+          {
+            "example_id": "ex-9ff99954fb7f",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "The sensible thing"
+            ],
+            "rationale": "The phrase The sensible thing identifies the intended sense because its wording fits the assigned use."
+          },
+          {
+            "example_id": "ex-767566a3d76d",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "He was sensible"
+            ],
+            "rationale": "The phrase He was sensible identifies the intended sense because its wording fits the assigned use."
+          },
+          {
+            "example_id": "ex-42f8f43956f8",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "Pack sensible clothing"
+            ],
+            "rationale": "The phrase Pack sensible clothing identifies the intended sense because its wording fits the assigned use."
+          },
+          {
+            "example_id": "ex-edb8f6f2b228",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "The new process"
+            ],
+            "rationale": "The phrase The new process identifies the intended sense because its wording fits the assigned use."
+          },
+          {
+            "example_id": "ex-23d0968ce45d",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "The policy led"
+            ],
+            "rationale": "The phrase The policy led identifies the intended sense because its wording fits the assigned use."
+          },
+          {
+            "example_id": "ex-baefd0b2b304",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "He soon became"
+            ],
+            "rationale": "The phrase He soon became identifies the intended sense because its wording fits the assigned use."
+          },
+          {
+            "example_id": "ex-9970ff247279",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "I bought a"
+            ],
+            "rationale": "The phrase I bought a identifies the intended sense because its wording fits the assigned use."
+          },
+          {
+            "example_id": "ex-2cf3b522d5a4",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "Choose sensible clothing"
+            ],
+            "rationale": "The phrase Choose sensible clothing identifies the intended sense because its wording fits the assigned use."
+          }
+        ],
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "codex-gpt-5",
+          "ingested_by": "human",
+          "agent_id": "sensible-checker-example-attribution-20260910T051329Z-d04b0c6c",
+          "same_model_as_generation": true
+        }
+      },
+      "aligned_at": "2026-09-10T05:43:35.776764+00:00",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "qualification",
+      "input_body_sha256": "dce1e8375f2e9709647eb4c0fd89fa016895cec32363a81b3950d8cdb28a2078",
+      "findings": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "codex-gpt-5",
+        "ingested_by": "human",
+        "agent_id": "sensible-checker-qualification-20260910T051329Z-d04b0c6c",
+        "same_model_as_generation": true
+      }
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "pronunciation",
+      "input_body_sha256": "dce1e8375f2e9709647eb4c0fd89fa016895cec32363a81b3950d8cdb28a2078",
+      "findings": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "codex-gpt-5",
+        "ingested_by": "human",
+        "agent_id": "sensible-checker-pronunciation-20260910T051329Z-d04b0c6c",
+        "same_model_as_generation": true
+      }
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "evidence",
+      "input_body_sha256": "dce1e8375f2e9709647eb4c0fd89fa016895cec32363a81b3950d8cdb28a2078",
+      "findings": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "codex-gpt-5",
+        "ingested_by": "human",
+        "agent_id": "sensible-checker-evidence-20260910T051329Z-d04b0c6c",
+        "same_model_as_generation": true
+      }
+    }
+  ],
+  "checker_reviewers": {
+    "translation": {
+      "mode": "handoff",
+      "declared_model": "codex-gpt-5",
+      "ingested_by": "human",
+      "agent_id": "sensible-checker-translation-20260910T051329Z-d04b0c6c",
+      "same_model_as_generation": true
+    },
+    "sense-structure": {
+      "mode": "handoff",
+      "declared_model": "codex-gpt-5",
+      "ingested_by": "human",
+      "agent_id": "sensible-checker-sense-structure-20260910T051329Z-d04b0c6c",
+      "same_model_as_generation": true
+    },
+    "frame-relation": {
+      "mode": "handoff",
+      "declared_model": "codex-gpt-5",
+      "ingested_by": "human",
+      "agent_id": "sensible-checker-frame-relation-20260910T051329Z-d04b0c6c",
+      "same_model_as_generation": true
+    },
+    "example-attribution": {
+      "mode": "handoff",
+      "declared_model": "codex-gpt-5",
+      "ingested_by": "human",
+      "agent_id": "sensible-checker-example-attribution-20260910T051329Z-d04b0c6c",
+      "same_model_as_generation": true
+    },
+    "qualification": {
+      "mode": "handoff",
+      "declared_model": "codex-gpt-5",
+      "ingested_by": "human",
+      "agent_id": "sensible-checker-qualification-20260910T051329Z-d04b0c6c",
+      "same_model_as_generation": true
+    },
+    "pronunciation": {
+      "mode": "handoff",
+      "declared_model": "codex-gpt-5",
+      "ingested_by": "human",
+      "agent_id": "sensible-checker-pronunciation-20260910T051329Z-d04b0c6c",
+      "same_model_as_generation": true
+    },
+    "evidence": {
+      "mode": "handoff",
+      "declared_model": "codex-gpt-5",
+      "ingested_by": "human",
+      "agent_id": "sensible-checker-evidence-20260910T051329Z-d04b0c6c",
+      "same_model_as_generation": true
+    }
+  },
+  "independent_candidates": [
+    {
+      "id": "NC-001",
+      "surface_form": "sensible",
+      "frame": "adjective judgment, practical, perceptibility, sensory, and sensible-of uses",
+      "meaning": "分別のある、実用的な、感じ取れる、または意識している",
+      "disposition": "included",
+      "rationale": "The candidate sensible adjective covers the five numbered senses and the frame sensible of, so it belongs in the article.",
+      "article_target_ids": [
+        "sense_boundary:001",
+        "definition:001",
+        "definition:002",
+        "definition:003",
+        "definition:004",
+        "definition:005"
+      ],
+      "evidence_link_ids": []
+    },
+    {
+      "id": "NC-002",
+      "surface_form": "sensible",
+      "frame": "rare noun and musical sensible note",
+      "meaning": "まれな名詞・音楽用語",
+      "disposition": "excluded",
+      "rationale": "The candidate sensible rare noun and musical use is documented but excluded from the main learner entry because the usage is very uncommon.",
+      "article_target_ids": [],
+      "evidence_link_ids": []
+    }
+  ],
+  "summary": "Independent checker passes completed by parallel handoff; frame-relation preserved its serial blind/adjudication dependency."
+}

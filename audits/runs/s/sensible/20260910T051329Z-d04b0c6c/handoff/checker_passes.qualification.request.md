@@ -1,0 +1,708 @@
+# Independent checker handoff
+
+Stage: `checker_passes/qualification`
+
+Run this request in its own independent subagent/session. The seven checker pass requests are designed to run concurrently; do not concatenate them into one prompt or reuse one subagent for multiple passes.
+
+Save exactly one JSON response as `checker_passes.qualification.response.json`. The top-level JSON must include the routed `pass_id` and a `reviewer` object with `mode: "handoff"`, the actual `declared_model`, `ingested_by: "human"`, and a non-empty `agent_id`. Each checker pass must use a different agent_id.
+## Prompt
+
+# check_pass_qualification_v6
+
+## 目的
+
+地域・レジスター・頻度・専門制度の限定と、絶対表現の適用範囲を検査する。
+
+## 担当タクソノミー分類
+
+- `regional_qualification`
+- `absolute_scope_counterexample`
+- `technical_terminology_conventionality`
+
+## 検査ルール
+
+- 米英差・地域差は綴りや発音だけでなく、語義、構文、頻度、自然さ、法域・制度の範囲を確認する。一地域の資料を英語全体へ一般化しない。
+- 頻度は英語全体での遭遇頻度として判定し、同一見出し語内の相対順位や特定領域内だけの頻度を使わない。
+- 高頻度の主要品詞・主要構文を低頻度の古語・地域語・専門語より先に置き、説明量も優先する。項目数の多さで主要用法の欠落を相殺しない。
+- 「必ず」「常に」「最低限」「のみ」「できない」「人なら／物なら」等は、否定、比較、程度表現、別フレームによる反例・打ち消し可能性を探す。傾向・含みを必須条件にしない。
+- 各定義主張を、必須条件、傾向・含み、特定条件に限定されるものへ分け、主要フレームへの適用範囲を確認する。
+- 法律、保険、税務、医療、資格制度等では、辞書上の語彙的意味と制度上の成立要件、手続き、当事者、対象、効果を分ける。
+- 専門訳語・慣用表現を一般語の直訳で置換せず、対象法域・制度の一次資料または信頼できる専門資料で慣用性と範囲を確認する。
+- 専門義ブロックの各pattern・collocation・exampleが当該専門義として明確に成立するか確認する。一般義にも同程度に読める例は専門義の中心例にしない。
+- 専門・地域ラベルを語義全体へ付けたとき、ブロック内の別一般義・別法域・別レジスターが混入しないか確認する。
+- 語源、年代、意味変化、地域差、頻度を根拠以上に断定しない。資料が食い違い範囲を限定できなければhold相当のfindingを返す。
+
+## 入力として受け取るセクション
+
+- `etymology`
+- `word_formation`
+- `sense_structure`
+- `frequency_register`
+- `usage_notes`
+- `collocations_examples`
+
+## findingの出力スキーマ
+
+```json
+{
+  "taxonomy_id": "regional_qualification | absolute_scope_counterexample | technical_terminology_conventionality",
+  "location": {
+    "section": "router section selector",
+    "line_start": 1,
+    "line_end": 1,
+    "exact_quote": "本文からの改変していない引用"
+  },
+  "severity": "blocking | minor",
+  "rationale": "限定不足・反例・専門慣用性の問題",
+  "evidence_link_ids": [],
+  "suggested_direction": "適用範囲、法域、傾向、専門訳を直す方向"
+}
+```
+
+
+## Input packet
+
+```json
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "qualification",
+  "taxonomy_ids": [
+    "regional_qualification",
+    "absolute_scope_counterexample",
+    "technical_terminology_conventionality"
+  ],
+  "specification": "prompts/check_pass_qualification_v6.md",
+  "input_body_sha256": "dce1e8375f2e9709647eb4c0fd89fa016895cec32363a81b3950d8cdb28a2078",
+  "input_sections": {
+    "etymology": [
+      {
+        "line": 17,
+        "text": "＃語源"
+      },
+      {
+        "line": 19,
+        "text": "中英語後期に、古フランス語 sensible またはラテン語 sensibilis「感じ取れる、知覚できる」から英語に入った。ラテン語 sensibilis は sensus「感覚・知覚」に関係し、さらに sentire「感じる」にさかのぼる。  "
+      },
+      {
+        "line": 20,
+        "text": "もともとの「感覚で捉えられる」という意味から、「心で気づいている」、さらに「道理をわきまえて適切に判断する」という意味へ広がった。衣服についての「実用的な」という用法は後の発達で、語源上の意味をそのまま現代の各用法に当てはめない。  "
+      }
+    ],
+    "word_formation": [
+      {
+        "line": 22,
+        "text": "＃語形成"
+      },
+      {
+        "line": 24,
+        "text": "・sensibly：副詞。「分別をもって、現実的に、適切に」。判断や行動の仕方を表す。  "
+      },
+      {
+        "line": 25,
+        "text": "・sensibleness：名詞。「分別のあること、現実的であること」。sensible より使用頻度が低い。  "
+      },
+      {
+        "line": 26,
+        "text": "・insensible：接頭辞 in- を伴う関連語。「感じない、意識がない、気づかない」。sensible のすべての意味の単純な反意語ではない。  "
+      },
+      {
+        "line": 27,
+        "text": "・sensitive、sensibility：同じラテン語の感覚・知覚の語族に属する関連語。ただし、sensitive は「影響を受けやすい・敏感な」、sensibility は「感受性・分別」という別の語として覚える。  "
+      }
+    ],
+    "sense_structure": [
+      {
+        "line": 40,
+        "text": "1. 【形容詞・人・判断】分別のある、道理にかなった、現実的な"
+      },
+      {
+        "line": 42,
+        "text": "【日本語訳・定義】感情だけで決めず、理由・経験・実際の条件を考えて、適切で無理のない判断や行動をすることを表す。人にも、考え・助言・計画・解決策などにも使い、話し手が妥当だと評価する含みがある。  "
+      },
+      {
+        "line": 161,
+        "text": "2. 【形容詞・衣類・靴】実用的な、実用本位の"
+      },
+      {
+        "line": 163,
+        "text": "【日本語訳・定義】衣服・靴・かばんなどが、流行や見た目よりも、歩きやすさ・丈夫さ・防寒性などの実用性を重視して作られたり選ばれたりしていることを表す。必ずしも醜い、古い、または質が低いという意味ではない。  "
+      },
+      {
+        "line": 230,
+        "text": "3. 【形容詞・形式的】感じ取れる、明確に分かる、かなりの"
+      },
+      {
+        "line": 232,
+        "text": "【日本語訳・定義】差・変化・増減・量などが、感覚や判断によって認識できる程度にはっきりしていることを表す。現代の一般会話での「分別のある」という意味より形式的で、sensible difference や sensible increase のように、無視できない程度を述べる。  "
+      },
+      {
+        "line": 310,
+        "text": "4. 【形容詞・形式的／古風】（刺激などを）感じ取れる、知覚できる"
+      },
+      {
+        "line": 312,
+        "text": "【日本語訳・定義】痛み・熱・光などの外部刺激を、感覚器官や身体で受け取る能力があることを表す。現代の一般英語では sensitive to が普通で、sensible to は古風・形式的または専門的に響く。  "
+      },
+      {
+        "line": 371,
+        "text": "5. 【形容詞・形式的／文学的・sensible of】～を意識している、～を深く感じている"
+      },
+      {
+        "line": 373,
+        "text": "【日本語訳・定義】事実・危険・義務・誤り・親切などを心で認識し、強く意識していることを表す。通常 sensible of 〈名詞〉の形で使い、現代の会話では aware of、conscious of、grateful for などが自然なことが多い。  "
+      }
+    ],
+    "frequency_register": [
+      {
+        "line": 40,
+        "text": "1. 【形容詞・人・判断】分別のある、道理にかなった、現実的な"
+      },
+      {
+        "line": 44,
+        "text": "【頻度】〈9/10〉  "
+      },
+      {
+        "line": 46,
+        "text": "【レジスター/領域】標準語で、会話にも文章にも使える基本語。practical は実行可能性、reasonable は道理・公平さ、rational は感情を抑えた論理性に焦点を置きやすいのに対し、sensible は日常の分別と現実感をまとめて表す。  "
+      },
+      {
+        "line": 161,
+        "text": "2. 【形容詞・衣類・靴】実用的な、実用本位の"
+      },
+      {
+        "line": 165,
+        "text": "【頻度】〈6/10〉  "
+      },
+      {
+        "line": 167,
+        "text": "【レジスター/領域】標準語で、日常会話にも使う。sensible shoes は特に定着した組み合わせで、長時間歩く場面などに適した、派手さより快適さを優先した靴を指す。  "
+      },
+      {
+        "line": 230,
+        "text": "3. 【形容詞・形式的】感じ取れる、明確に分かる、かなりの"
+      },
+      {
+        "line": 234,
+        "text": "【頻度】〈3/10〉  "
+      },
+      {
+        "line": 236,
+        "text": "【レジスター/領域】形式的・書き言葉寄りで、一般会話では noticeable、clear、appreciable などが自然なことが多い。辞書によっては「知覚できる」「かなりの」という別項目として扱われる。  "
+      },
+      {
+        "line": 310,
+        "text": "4. 【形容詞・形式的／古風】（刺激などを）感じ取れる、知覚できる"
+      },
+      {
+        "line": 314,
+        "text": "【頻度】〈2/10〉  "
+      },
+      {
+        "line": 316,
+        "text": "【レジスター/領域】低頻度の形式的・古風な用法。一般学習者が自分の知覚について述べる場合は、通常 be sensitive to 〈刺激〉を使う。sensible to pain は「痛みを感じ取れる」であり、1の「分別のある」とは別の意味である。  "
+      },
+      {
+        "line": 371,
+        "text": "5. 【形容詞・形式的／文学的・sensible of】～を意識している、～を深く感じている"
+      },
+      {
+        "line": 375,
+        "text": "【頻度】〈3/10〉  "
+      },
+      {
+        "line": 377,
+        "text": "【レジスター/領域】形式的・文学的で、古風な響きがある。sensible of the fact、sensible of one's error、sensible of someone's kindness のように、抽象的な事実や感情を意識していることに使う。  "
+      }
+    ],
+    "usage_notes": [
+      {
+        "line": 40,
+        "text": "1. 【形容詞・人・判断】分別のある、道理にかなった、現実的な"
+      },
+      {
+        "line": 92,
+        "text": "【語法・注意】人を主語にした be sensible は「分別をもって行動する」、物事を主語にした a sensible plan は「妥当で現実的な計画」を表す。sensible は必ずしも「賢さ」や高い知能を評価する語ではなく、その場の条件に合った判断をほめる語である。  "
+      },
+      {
+        "line": 161,
+        "text": "2. 【形容詞・衣類・靴】実用的な、実用本位の"
+      },
+      {
+        "line": 198,
+        "text": "【語法・注意】この用法では、sensible は人の判断を直接修飾するのではなく、実用性を重視して選ばれた物を評価する。fashionable は「流行している」、comfortable は「快適な」に焦点があり、sensible shoes が必ず fashionable でない、または完全に comfortable であるとは限らない。  "
+      },
+      {
+        "line": 230,
+        "text": "3. 【形容詞・形式的】感じ取れる、明確に分かる、かなりの"
+      },
+      {
+        "line": 262,
+        "text": "【語法・注意】この用法の sensible は「妥当な」という意味ではなく、「感覚や判断に届くほど明らかな」という意味である。ただし、sensible amount は文脈によって「妥当な量」という1の意味にもなるため、差や増減の文脈で理解する。  "
+      },
+      {
+        "line": 310,
+        "text": "4. 【形容詞・形式的／古風】（刺激などを）感じ取れる、知覚できる"
+      },
+      {
+        "line": 337,
+        "text": "【語法・注意】現代英語の sensitive to は「刺激を感じやすい」だけでなく、「影響を受けやすい」「気を悪くしやすい」も表せる。一方、sensible to はこの語義では主に感覚的な知覚を述べ、一般的な「敏感な」の言い換えとして自由に使えるわけではない。  "
+      },
+      {
+        "line": 371,
+        "text": "5. 【形容詞・形式的／文学的・sensible of】～を意識している、～を深く感じている"
+      },
+      {
+        "line": 403,
+        "text": "【語法・注意】sensible of は「～を意識している」であり、1の sensible「分別のある」とは意味が異なる。sensible to は4の「刺激を感じ取れる」と結びつきやすく、事実・恩恵への意識には sensible of を使う。現代的な文章では aware of や conscious of の方が普通である。  "
+      }
+    ],
+    "collocations_examples": [
+      {
+        "line": 40,
+        "text": "1. 【形容詞・人・判断】分別のある、道理にかなった、現実的な"
+      },
+      {
+        "line": 50,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 52,
+        "text": "・a sensible decision  "
+      },
+      {
+        "line": 53,
+        "text": "用途: 条件や結果を考えたうえで、妥当な判断であることを表す。  "
+      },
+      {
+        "line": 54,
+        "text": "例: Taking the earlier train was a sensible decision.  "
+      },
+      {
+        "line": 55,
+        "text": "訳: 早い方の電車に乗ったのは妥当な判断だった。  "
+      },
+      {
+        "line": 57,
+        "text": "・a sensible approach to 〈problem〉  "
+      },
+      {
+        "line": 58,
+        "text": "用途: 問題に対して、現実的で無理のない取り組み方を示す。  "
+      },
+      {
+        "line": 59,
+        "text": "例: We need a sensible approach to reducing unnecessary costs.  "
+      },
+      {
+        "line": 60,
+        "text": "訳: 不要な費用を減らすには、現実的な取り組み方が必要だ。  "
+      },
+      {
+        "line": 62,
+        "text": "・sensible advice  "
+      },
+      {
+        "line": 63,
+        "text": "用途: 経験や事情に基づく、実行しやすい助言を表す。  "
+      },
+      {
+        "line": 64,
+        "text": "例: Her sensible advice helped me avoid a costly mistake.  "
+      },
+      {
+        "line": 65,
+        "text": "訳: 彼女の現実的な助言のおかげで、私は高くつく間違いを避けられた。  "
+      },
+      {
+        "line": 67,
+        "text": "・it is sensible to do  "
+      },
+      {
+        "line": 68,
+        "text": "用途: ある行動を取るのが分別にかなっていると述べる基本構文。  "
+      },
+      {
+        "line": 69,
+        "text": "例: It is sensible to keep a copy of the receipt.  "
+      },
+      {
+        "line": 70,
+        "text": "訳: 領収書の写しを保管しておくのが賢明だ。  "
+      },
+      {
+        "line": 72,
+        "text": "・it is sensible for someone to do  "
+      },
+      {
+        "line": 73,
+        "text": "用途: 特定の人がある行動をするのが妥当だと述べる。  "
+      },
+      {
+        "line": 74,
+        "text": "例: It would be sensible for you to check the figures again.  "
+      },
+      {
+        "line": 75,
+        "text": "訳: あなたがもう一度数字を確認するのが賢明だろう。  "
+      },
+      {
+        "line": 77,
+        "text": "・the sensible thing to do  "
+      },
+      {
+        "line": 78,
+        "text": "用途: いくつかの選択肢の中で、最も妥当な行動を指す。  "
+      },
+      {
+        "line": 79,
+        "text": "例: The sensible thing to do is wait until the weather improves.  "
+      },
+      {
+        "line": 80,
+        "text": "訳: 天候が回復するまで待つのが妥当な行動だ。  "
+      },
+      {
+        "line": 82,
+        "text": "・be sensible about 〈issue〉  "
+      },
+      {
+        "line": 83,
+        "text": "用途: 問題や資源について、感情的にならず現実的に考える。  "
+      },
+      {
+        "line": 84,
+        "text": "例: Please be sensible about how much equipment you bring.  "
+      },
+      {
+        "line": 85,
+        "text": "訳: どれだけ機材を持ってくるかは、現実的に考えてください。  "
+      },
+      {
+        "line": 87,
+        "text": "・be sensible enough to do  "
+      },
+      {
+        "line": 88,
+        "text": "用途: 分別があるため、危険や不利益を避ける行動を取ることを表す。  "
+      },
+      {
+        "line": 89,
+        "text": "例: He was sensible enough to ask for help before the problem grew.  "
+      },
+      {
+        "line": 90,
+        "text": "訳: 彼は問題が大きくなる前に助けを求めるだけの分別があった。  "
+      },
+      {
+        "line": 161,
+        "text": "2. 【形容詞・衣類・靴】実用的な、実用本位の"
+      },
+      {
+        "line": 171,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 173,
+        "text": "・sensible shoes  "
+      },
+      {
+        "line": 174,
+        "text": "用途: 流行性よりも歩きやすさや足の保護を重視した靴を表す。  "
+      },
+      {
+        "line": 175,
+        "text": "例: Wear sensible shoes because the tour involves a lot of walking.  "
+      },
+      {
+        "line": 176,
+        "text": "訳: たくさん歩くツアーなので、歩きやすい靴を履いてください。  "
+      },
+      {
+        "line": 178,
+        "text": "・sensible clothing  "
+      },
+      {
+        "line": 179,
+        "text": "用途: 天候や活動に合い、実用性を優先した衣服を表す。  "
+      },
+      {
+        "line": 180,
+        "text": "例: Pack sensible clothing for the cold and wet conditions.  "
+      },
+      {
+        "line": 181,
+        "text": "訳: 寒くて雨の多い状況に合う実用的な服を荷造りしてください。  "
+      },
+      {
+        "line": 183,
+        "text": "・sensible footwear  "
+      },
+      {
+        "line": 184,
+        "text": "用途: 見た目より機能性を重視した履物を、やや説明的に表す。  "
+      },
+      {
+        "line": 185,
+        "text": "例: The guide recommends sensible footwear for the uneven ground.  "
+      },
+      {
+        "line": 186,
+        "text": "訳: ガイドは、でこぼこした地面には実用的な履物を勧めている。  "
+      },
+      {
+        "line": 188,
+        "text": "・a sensible coat  "
+      },
+      {
+        "line": 189,
+        "text": "用途: 防寒・耐久性・天候への対応を重視したコートを表す。  "
+      },
+      {
+        "line": 190,
+        "text": "例: I bought a sensible coat rather than a delicate fashion jacket.  "
+      },
+      {
+        "line": 191,
+        "text": "訳: 繊細なファッションジャケットではなく、実用的なコートを買った。  "
+      },
+      {
+        "line": 193,
+        "text": "・choose sensible clothing  "
+      },
+      {
+        "line": 194,
+        "text": "用途: 活動や天候に合わせて、見た目より使いやすさを基準に衣服を選ぶ。  "
+      },
+      {
+        "line": 195,
+        "text": "例: Choose sensible clothing for the long flight.  "
+      },
+      {
+        "line": 196,
+        "text": "訳: 長時間のフライトには実用的な服を選んでください。  "
+      },
+      {
+        "line": 230,
+        "text": "3. 【形容詞・形式的】感じ取れる、明確に分かる、かなりの"
+      },
+      {
+        "line": 240,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 242,
+        "text": "・a sensible difference  "
+      },
+      {
+        "line": 243,
+        "text": "用途: 2つの状態や結果の間に、認識できるほどの差があることを表す。  "
+      },
+      {
+        "line": 244,
+        "text": "例: The software update made a sensible difference to the loading time.  "
+      },
+      {
+        "line": 245,
+        "text": "訳: ソフトウェアの更新によって、読み込み時間に明らかな違いが出た。  "
+      },
+      {
+        "line": 247,
+        "text": "・a sensible increase in something  "
+      },
+      {
+        "line": 248,
+        "text": "用途: 数値や量が、認識できる程度に増えたことを形式的に表す。  "
+      },
+      {
+        "line": 249,
+        "text": "例: The policy led to a sensible increase in public access.  "
+      },
+      {
+        "line": 250,
+        "text": "訳: その政策によって、一般の利用可能性がはっきり増した。  "
+      },
+      {
+        "line": 252,
+        "text": "・a sensible reduction in something  "
+      },
+      {
+        "line": 253,
+        "text": "用途: 費用・危険・排出量などが、無視できない程度に減ったことを表す。  "
+      },
+      {
+        "line": 254,
+        "text": "例: The new process produced a sensible reduction in waste.  "
+      },
+      {
+        "line": 255,
+        "text": "訳: 新しい工程によって、廃棄物が明らかに減少した。  "
+      },
+      {
+        "line": 257,
+        "text": "・a sensible change in something  "
+      },
+      {
+        "line": 258,
+        "text": "用途: 状態や傾向に、認識できるほどの変化が起きたことを述べる。  "
+      },
+      {
+        "line": 259,
+        "text": "例: There has been a sensible change in the patient's condition.  "
+      },
+      {
+        "line": 260,
+        "text": "訳: 患者の状態には、はっきり分かる変化があった。  "
+      },
+      {
+        "line": 310,
+        "text": "4. 【形容詞・形式的／古風】（刺激などを）感じ取れる、知覚できる"
+      },
+      {
+        "line": 320,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 322,
+        "text": "・be sensible to pain  "
+      },
+      {
+        "line": 323,
+        "text": "用途: 痛みを感覚として受け取る能力があることを、形式的に表す。  "
+      },
+      {
+        "line": 324,
+        "text": "例: The injured area remained sensible to pain after the procedure.  "
+      },
+      {
+        "line": 325,
+        "text": "訳: 処置後も、負傷した部位は痛みを感じ取る状態だった。  "
+      },
+      {
+        "line": 327,
+        "text": "・be sensible to heat  "
+      },
+      {
+        "line": 328,
+        "text": "用途: 熱を感じ取ることができることを述べる。  "
+      },
+      {
+        "line": 329,
+        "text": "例: The instrument is sensible to heat from a nearby flame.  "
+      },
+      {
+        "line": 330,
+        "text": "訳: その器具は近くの炎から出る熱を感知できる。  "
+      },
+      {
+        "line": 332,
+        "text": "・be sensible to light  "
+      },
+      {
+        "line": 333,
+        "text": "用途: 光を感知する性質があることを、古風または技術的に表す。  "
+      },
+      {
+        "line": 334,
+        "text": "例: The material is sensible to light and should be stored in the dark.  "
+      },
+      {
+        "line": 335,
+        "text": "訳: その素材は光を感知する性質があるので、暗所で保管すべきだ。  "
+      },
+      {
+        "line": 371,
+        "text": "5. 【形容詞・形式的／文学的・sensible of】～を意識している、～を深く感じている"
+      },
+      {
+        "line": 381,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 383,
+        "text": "・be sensible of 〈fact〉  "
+      },
+      {
+        "line": 384,
+        "text": "用途: ある事実を心で認識していることを、形式的に表す。  "
+      },
+      {
+        "line": 385,
+        "text": "例: She was sensible of the fact that her decision affected the whole team.  "
+      },
+      {
+        "line": 386,
+        "text": "訳: 彼女は、自分の決定がチーム全体に影響するという事実を意識していた。  "
+      },
+      {
+        "line": 388,
+        "text": "・be sensible of one's error  "
+      },
+      {
+        "line": 389,
+        "text": "用途: 自分の誤りに気づき、それを認識していることを表す。  "
+      },
+      {
+        "line": 390,
+        "text": "例: He soon became sensible of his error and apologized.  "
+      },
+      {
+        "line": 391,
+        "text": "訳: 彼はすぐに自分の誤りに気づき、謝罪した。  "
+      },
+      {
+        "line": 393,
+        "text": "・be sensible of someone's kindness  "
+      },
+      {
+        "line": 394,
+        "text": "用途: 人から受けた親切や恩恵を深く感じていることを表す。  "
+      },
+      {
+        "line": 395,
+        "text": "例: I am deeply sensible of your kindness during this difficult time.  "
+      },
+      {
+        "line": 396,
+        "text": "訳: この困難な時期にあなたが親切にしてくださったことを深く感じています。  "
+      },
+      {
+        "line": 398,
+        "text": "・be keenly sensible of something  "
+      },
+      {
+        "line": 399,
+        "text": "用途: 危険・責任・苦境などを強く意識していることを、硬い表現で述べる。  "
+      },
+      {
+        "line": 400,
+        "text": "例: The volunteers were keenly sensible of the risks involved.  "
+      },
+      {
+        "line": 401,
+        "text": "訳: ボランティアたちは、そこに伴う危険を強く意識していた。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "1cf8a434bbe1213c0ef739f4c47ffb41014ab2cd5156d297471af6df85ae40a2",
+  "source_artifact_sha256": "0035642740b1174f92eb8173dfb0455de3648f65c58090795bb3e13932a0c417",
+  "normalized_input_sha256": "064f7351f606406b00925b49066701e49d3e8ad83552f1c2760f0d74e4a163fe"
+}
+```

@@ -1,0 +1,606 @@
+{
+  "schema_version": "source_inventory_v2",
+  "stage": "source_inventory",
+  "headword": "sensible",
+  "run_id": "source-sensible-20260910T051329Z-d04b0c6c",
+  "context_id": "source-sensible-context-20260910T051329Z-d04b0c6c",
+  "input_body_sha256": "dce1e8375f2e9709647eb4c0fd89fa016895cec32363a81b3950d8cdb28a2078",
+  "prompt_sha256": "a5172ff43a877d1434d7396c9e545bd40fb15b4af21b0dc74624088e6bca0b45",
+  "input_artifacts": [
+    "headword",
+    "source_first_spec"
+  ],
+  "recorded_at": "2026-09-10T05:31:26Z",
+  "evidence_link_ids": [],
+  "source_first_audit": {
+    "version": "source_first_audit_v2",
+    "profile": "standard",
+    "profile_reason": "bounded source-first inventory for sensible",
+    "limits": {
+      "max_sources": 6,
+      "max_facts": 48,
+      "max_research_rounds": 2,
+      "max_post_cold_rechecks": null,
+      "max_final_attempts": 2
+    },
+    "usage": {
+      "sources_used": 4,
+      "facts_used": 20,
+      "research_rounds_used": 1,
+      "post_cold_rechecks_used": 0,
+      "final_attempts_used": 1
+    },
+    "research_status": "complete",
+    "stop_reason": "coverage_axes_closed",
+    "open_questions": [],
+    "inventory_completed_before_article_comparison": true,
+    "inventory_completed_at": "2026-09-10T14:38:01.399788+09:00",
+    "article_comparison_started_at": "2026-09-10T14:38:01.987759+09:00",
+    "coverage_axes": [
+      {
+        "axis": "lexical_senses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F001",
+          "F002",
+          "F003",
+          "F009",
+          "F010",
+          "F013",
+          "F014",
+          "F015"
+        ],
+        "notes": "Independent learner and general dictionaries cover judgment, practical clothing, perceptibility, sensory capacity, and sensible-of awareness uses."
+      },
+      {
+        "axis": "part_of_speech_and_frames",
+        "status": "covered",
+        "source_fact_ids": [
+          "F004",
+          "F013",
+          "F015"
+        ],
+        "notes": "The sources attest adjective patterns with sensible about, sensible to do, sensible for somebody to do, sensible of, and sensible to."
+      },
+      {
+        "axis": "derived_and_related_forms",
+        "status": "covered",
+        "source_fact_ids": [
+          "F011",
+          "F016",
+          "F017"
+        ],
+        "notes": "Related adverb and noun forms are recorded, while rare noun and musical uses are explicitly kept outside the main learner sense list."
+      },
+      {
+        "axis": "specialist_and_legal_uses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F011",
+          "F016"
+        ],
+        "notes": "The inventory checks the rare noun and musical leading-note uses; no separate legal sense is established by the consulted sources."
+      },
+      {
+        "axis": "register_region_and_frequency",
+        "status": "covered",
+        "source_fact_ids": [
+          "F003",
+          "F014",
+          "F015",
+          "F020"
+        ],
+        "notes": "The sources distinguish common judgment and clothing uses from formal, literary, old, and low-frequency perceptual or sensible-of uses."
+      },
+      {
+        "axis": "pronunciation_and_etymology",
+        "status": "covered",
+        "source_fact_ids": [
+          "F005",
+          "F006",
+          "F012",
+          "F018",
+          "F019",
+          "F020"
+        ],
+        "notes": "Learner dictionaries and etymological references cover current pronunciation and the historical movement from sensation to awareness and judgment."
+      }
+    ],
+    "sources": [
+      {
+        "id": "S001",
+        "title": "Oxford Learner's Dictionaries — sensible",
+        "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/sensible",
+        "source_type": "learner_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "oxford_university_press",
+        "facts": [
+          {
+            "id": "F001",
+            "form": "sensible",
+            "kind": "lexical_sense",
+            "statement": "Sensible describes people or behavior showing good judgement based on reason and experience rather than emotion.",
+            "source_detail": "Oxford's first adjective sense defines sensible people and behavior in terms of good judgement and practical reason."
+          },
+          {
+            "id": "F002",
+            "form": "sensible",
+            "kind": "lexical_sense",
+            "statement": "Sensible clothing and shoes are useful and practical rather than mainly fashionable.",
+            "source_detail": "Oxford gives a separate clothing sense for useful rather than fashionable clothes and shoes."
+          },
+          {
+            "id": "F003",
+            "form": "sensible",
+            "kind": "lexical_sense",
+            "statement": "Sensible of something is a formal or literary way to say aware of or conscious of it.",
+            "source_detail": "Oxford lists the formal/literary sensible of construction for awareness of a fact or feeling."
+          },
+          {
+            "id": "F004",
+            "form": "sensible",
+            "kind": "grammar_frame",
+            "statement": "Sensible occurs in sensible about, sensible to do, sensible for somebody to do, and common sensible noun combinations.",
+            "source_detail": "Oxford examples and usage patterns include sensible about a matter, sensible to do something, sensible for somebody to do something, and sensible idea/thing/approach/decision/solution."
+          },
+          {
+            "id": "F005",
+            "form": "sensible",
+            "kind": "pronunciation",
+            "statement": "Oxford gives the current learner-dictionary pronunciation /ˈsensəbl/.",
+            "source_detail": "The Oxford entry displays /ˈsensəbl/ with the headword."
+          },
+          {
+            "id": "F006",
+            "form": "sensible",
+            "kind": "etymology",
+            "statement": "Sensible entered English in the late Middle English period through French or Latin forms related to sensation and feeling.",
+            "source_detail": "Oxford traces sensible to Old French or Latin sensibilis, related to sensus and sentire."
+          }
+        ]
+      },
+      {
+        "id": "S002",
+        "title": "Merriam-Webster — sensible",
+        "locator": "https://www.merriam-webster.com/dictionary/sensible",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "merriam_webster",
+        "facts": [
+          {
+            "id": "F007",
+            "form": "sensible",
+            "kind": "lexical_sense",
+            "statement": "Sensible means having or showing good sense and reason.",
+            "source_detail": "Merriam-Webster gives having or indicative of good sense and reason as a main adjective definition."
+          },
+          {
+            "id": "F008",
+            "form": "sensible",
+            "kind": "lexical_sense",
+            "statement": "Sensible can describe something designed for practical ends rather than appearance.",
+            "source_detail": "Merriam-Webster gives the practical-ends-rather-than-appearance definition for objects and choices."
+          },
+          {
+            "id": "F009",
+            "form": "sensible",
+            "kind": "lexical_sense",
+            "statement": "Sensible can mean perceptible to the senses or reason and capable of receiving sensory impressions.",
+            "source_detail": "Merriam-Webster lists perceptible and capable-of-sensory-impression definitions in its adjective entry."
+          },
+          {
+            "id": "F010",
+            "form": "sensible",
+            "kind": "grammar_frame",
+            "statement": "Sensible of can express direct or intuitive awareness of an intangible or emotional state.",
+            "source_detail": "Merriam-Webster's usage note explains sensible of as perceiving directly or intuitively, especially an intangible or emotional state."
+          },
+          {
+            "id": "F011",
+            "form": "sensible",
+            "kind": "specialist_use",
+            "statement": "Sensible is also listed as a rare noun for something that can be sensed.",
+            "source_detail": "Merriam-Webster includes a noun entry meaning something perceptible to the senses."
+          },
+          {
+            "id": "F012",
+            "form": "sensible",
+            "kind": "etymology",
+            "statement": "Sensible is recorded from Middle English through Anglo-French and Latin, with a first-known-use date in the fourteenth century.",
+            "source_detail": "Merriam-Webster's etymology gives the Middle English, Anglo-French, and Latin route and dates the first known use to the 14th century."
+          }
+        ]
+      },
+      {
+        "id": "S003",
+        "title": "Collins English Dictionary — sensible",
+        "locator": "https://www.collinsdictionary.com/dictionary/english/sensible",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "harpercollins",
+        "facts": [
+          {
+            "id": "F013",
+            "form": "sensible",
+            "kind": "lexical_sense",
+            "statement": "Sensible actions and decisions are based on reasons rather than emotions, and sensible people behave in that way.",
+            "source_detail": "Collins COBUILD defines sensible actions and decisions as reason-based rather than emotion-based and supplies people and behavior examples."
+          },
+          {
+            "id": "F014",
+            "form": "sensible",
+            "kind": "lexical_sense",
+            "statement": "Sensible shoes and clothing are practical and strong rather than fashionable or attractive.",
+            "source_detail": "Collins gives the practical-clothing sense and specifically describes sensible shoes and footwear."
+          },
+          {
+            "id": "F015",
+            "form": "sensible",
+            "kind": "lexical_sense",
+            "statement": "Broader dictionary entries include sensible to for sensory perception, sensible of for awareness, and perceptible or appreciable uses.",
+            "source_detail": "Collins British and American entries list capacity for sensation, perceptibility, significant degree, and sensible of awareness constructions."
+          },
+          {
+            "id": "F016",
+            "form": "sensible",
+            "kind": "specialist_use",
+            "statement": "Sensible is also recorded as an uncommon musical noun for the leading note.",
+            "source_detail": "Collins lists sensible note as a less common musical term for the leading note."
+          },
+          {
+            "id": "F017",
+            "form": "sensibly",
+            "kind": "derived_form",
+            "statement": "Sensibly is the related adverb, and sensibleness is the related noun for the quality of being sensible.",
+            "source_detail": "Collins lists sensibly and sensibleness among the derivatives of sensible."
+          }
+        ]
+      },
+      {
+        "id": "S004",
+        "title": "Online Etymology Dictionary — sensible",
+        "locator": "https://www.etymonline.com/word/sensible",
+        "source_type": "etymology_dictionary",
+        "source_role": "etymology_reference",
+        "independence_group": "etymonline",
+        "facts": [
+          {
+            "id": "F018",
+            "form": "sensible",
+            "kind": "etymology",
+            "statement": "The late-fourteenth-century adjective first referred to being capable of sensation or to being perceptible.",
+            "source_detail": "Etymonline describes the late 14th-century sensation and perceptibility senses in its historical account."
+          },
+          {
+            "id": "F019",
+            "form": "sensible",
+            "kind": "etymology",
+            "statement": "By around the early fifteenth century sensible also referred to mental perception, good sense, and awareness.",
+            "source_detail": "Etymonline records the developments toward mental perception, good sense, and being aware or cognizant."
+          },
+          {
+            "id": "F020",
+            "form": "sensible",
+            "kind": "etymology",
+            "statement": "The good-sense use for actions or discourse is later, while the practical-clothing use is attested in the nineteenth century.",
+            "source_detail": "Etymonline dates the good-sense action/discourse use to the 1650s and the practical clothes/shoes use to 1855."
+          }
+        ]
+      }
+    ],
+    "source_union": [
+      {
+        "id": "U001",
+        "source_fact_ids": [
+          "F001",
+          "F004",
+          "F007",
+          "F013"
+        ],
+        "canonical_statement": "Sensible describes people, behavior, actions, and decisions that show good sense and are based on reason rather than emotion.",
+        "disposition": "included",
+        "rationale": "This is the high-frequency core adjective sense and is the first article sense."
+      },
+      {
+        "id": "U002",
+        "source_fact_ids": [
+          "F002",
+          "F008",
+          "F014"
+        ],
+        "canonical_statement": "Sensible clothing and shoes prioritize practical use over fashion or appearance.",
+        "disposition": "included",
+        "rationale": "The clothing use is common enough to deserve a separate learner sense and its own collocations."
+      },
+      {
+        "id": "U003",
+        "source_fact_ids": [
+          "F003",
+          "F010",
+          "F015"
+        ],
+        "canonical_statement": "Sensible of expresses formal or literary awareness of a fact, feeling, or intangible state.",
+        "disposition": "included",
+        "rationale": "The sensible of frame is distinct from the judgment sense and is important for reading older or formal prose."
+      },
+      {
+        "id": "U004",
+        "source_fact_ids": [
+          "F009",
+          "F015",
+          "F018"
+        ],
+        "canonical_statement": "Sensible can describe a difference, change, or other feature that is perceptible or appreciable.",
+        "disposition": "included",
+        "rationale": "This lower-frequency perceptibility sense explains formal examples such as sensible difference and sensible increase."
+      },
+      {
+        "id": "U005",
+        "source_fact_ids": [
+          "F009",
+          "F015",
+          "F018"
+        ],
+        "canonical_statement": "Sensible to can describe the capacity to receive a physical sensation, especially in formal or old usage.",
+        "disposition": "included",
+        "rationale": "The sensory frame is separated from perceptibility of a difference because it takes stimulus complements such as pain, heat, and light."
+      },
+      {
+        "id": "U006",
+        "source_fact_ids": [
+          "F011",
+          "F016",
+          "F017"
+        ],
+        "canonical_statement": "Sensible has related adverb and noun forms, while rare noun and musical uses are acknowledged but not promoted as main learner senses.",
+        "disposition": "integrated",
+        "rationale": "The article records the forms and the rare uses in word-formation or usage notes, with an explicit exclusion from the numbered main senses."
+      },
+      {
+        "id": "U007",
+        "source_fact_ids": [
+          "F005",
+          "F006",
+          "F012",
+          "F018",
+          "F019",
+          "F020"
+        ],
+        "canonical_statement": "Sensible is historically connected with sensation, mental awareness, and later good judgment and practical clothing.",
+        "disposition": "included",
+        "rationale": "The pronunciation and etymology sections state the current form and the bounded historical semantic development."
+      }
+    ],
+    "claim_units": [
+      {
+        "id": "C001",
+        "union_ids": [
+          "U001"
+        ],
+        "subject_form": "sensible",
+        "claim_type": "definition",
+        "statement": "Sensible commonly praises a person, plan, or action for being reasonable, practical, and guided by good judgment.",
+        "article_target_ids": [
+          "definition:001",
+          "sense_boundary:001",
+          "usage_note:001",
+          "core_image:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F001",
+            "support_summary": "Oxford defines the core use through good judgement and practical reason."
+          },
+          {
+            "source_fact_id": "F004",
+            "support_summary": "Oxford attests the central sensible about and sensible to do patterns."
+          },
+          {
+            "source_fact_id": "F007",
+            "support_summary": "Merriam-Webster directly gives good sense and reason as the adjective meaning."
+          },
+          {
+            "source_fact_id": "F013",
+            "support_summary": "Collins ties sensible actions and decisions to reasons rather than emotions."
+          }
+        ]
+      },
+      {
+        "id": "C002",
+        "union_ids": [
+          "U002"
+        ],
+        "subject_form": "sensible",
+        "claim_type": "definition",
+        "statement": "Sensible clothing and footwear are evaluated as practical rather than primarily fashionable.",
+        "article_target_ids": [
+          "definition:002",
+          "register:002",
+          "collocation:009",
+          "usage_note:002",
+          "core_image:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F002",
+            "support_summary": "Oxford separates the useful-rather-than-fashionable clothing sense."
+          },
+          {
+            "source_fact_id": "F008",
+            "support_summary": "Merriam-Webster describes practical ends rather than appearance."
+          },
+          {
+            "source_fact_id": "F014",
+            "support_summary": "Collins explicitly attests practical sensible shoes and clothing."
+          }
+        ]
+      },
+      {
+        "id": "C003",
+        "union_ids": [
+          "U003"
+        ],
+        "subject_form": "sensible of",
+        "claim_type": "grammar_frame",
+        "statement": "Sensible of is a formal or literary frame for being aware of or deeply conscious of a fact, feeling, or intangible state.",
+        "article_target_ids": [
+          "definition:005",
+          "grammar_pattern:020",
+          "collocation:021",
+          "usage_note:005",
+          "usage_note:006",
+          "core_image:006"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F003",
+            "support_summary": "Oxford identifies sensible of as the formal awareness construction."
+          },
+          {
+            "source_fact_id": "F010",
+            "support_summary": "Merriam-Webster explains sensible of as direct or intuitive awareness."
+          },
+          {
+            "source_fact_id": "F015",
+            "support_summary": "Collins lists sensible of awareness and perceptual constructions."
+          }
+        ]
+      },
+      {
+        "id": "C004",
+        "union_ids": [
+          "U004"
+        ],
+        "subject_form": "sensible",
+        "claim_type": "definition",
+        "statement": "In formal usage sensible can mean perceptible or appreciable, as in a sensible difference or increase.",
+        "article_target_ids": [
+          "definition:003",
+          "grammar_pattern:013",
+          "collocation:014",
+          "usage_note:003",
+          "synonym:011",
+          "antonym:004",
+          "core_image:004"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F009",
+            "support_summary": "Merriam-Webster includes perceptible-to-the-senses-or-reason meanings."
+          },
+          {
+            "source_fact_id": "F015",
+            "support_summary": "Collins includes perceptible, appreciable, and significant uses in broader entries."
+          },
+          {
+            "source_fact_id": "F018",
+            "support_summary": "Etymonline records the historical perceptibility meaning."
+          }
+        ]
+      },
+      {
+        "id": "C005",
+        "union_ids": [
+          "U005"
+        ],
+        "subject_form": "sensible to",
+        "claim_type": "grammar_frame",
+        "statement": "Sensible to can mean capable of receiving physical sensation, but sensitive to is the normal modern expression.",
+        "article_target_ids": [
+          "definition:004",
+          "grammar_pattern:017",
+          "collocation:018",
+          "usage_note:004",
+          "synonym:015",
+          "antonym:006",
+          "core_image:005"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F009",
+            "support_summary": "Merriam-Webster records capable-of-sensory-impression meanings."
+          },
+          {
+            "source_fact_id": "F015",
+            "support_summary": "Collins lists sensible to in the sensory-capacity portion of the entry."
+          },
+          {
+            "source_fact_id": "F018",
+            "support_summary": "Etymonline documents the older capable-of-sensation history."
+          }
+        ]
+      },
+      {
+        "id": "C006",
+        "union_ids": [
+          "U006"
+        ],
+        "subject_form": "sensible",
+        "claim_type": "word_formation",
+        "statement": "Sensibly and sensibleness are related forms, and rare noun or musical uses are acknowledged without being treated as core learner senses.",
+        "article_target_ids": [
+          "word_formation:001",
+          "word_formation:002",
+          "word_formation:003",
+          "word_formation:004",
+          "usage_note:006"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F011",
+            "support_summary": "Merriam-Webster records a rare noun for something sensed."
+          },
+          {
+            "source_fact_id": "F016",
+            "support_summary": "Collins records the uncommon musical noun sensible note."
+          },
+          {
+            "source_fact_id": "F017",
+            "support_summary": "Collins lists sensibly and sensibleness as related forms."
+          }
+        ]
+      },
+      {
+        "id": "C007",
+        "union_ids": [
+          "U007"
+        ],
+        "subject_form": "sensible",
+        "claim_type": "etymology",
+        "statement": "The word's historical path runs from sensation and perception through awareness to good judgment and practical evaluation.",
+        "article_target_ids": [
+          "pronunciation:001",
+          "etymology:001",
+          "etymology:002",
+          "core_image:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F005",
+            "support_summary": "Oxford supplies the current pronunciation used in the article."
+          },
+          {
+            "source_fact_id": "F006",
+            "support_summary": "Oxford supplies the French and Latin origin connected with sensation."
+          },
+          {
+            "source_fact_id": "F012",
+            "support_summary": "Merriam-Webster confirms the Middle English, French, and Latin route."
+          },
+          {
+            "source_fact_id": "F018",
+            "support_summary": "Etymonline establishes the earlier sensation and perceptibility meanings."
+          },
+          {
+            "source_fact_id": "F019",
+            "support_summary": "Etymonline records the movement toward mental perception and awareness."
+          },
+          {
+            "source_fact_id": "F020",
+            "support_summary": "Etymonline dates the later good-sense and practical-clothing developments."
+          }
+        ]
+      }
+    ]
+  }
+}

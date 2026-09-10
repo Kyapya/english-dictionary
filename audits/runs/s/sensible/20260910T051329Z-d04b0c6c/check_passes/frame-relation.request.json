@@ -1,0 +1,117 @@
+{
+  "schema_version": "antonym_axis_blind_request_v1",
+  "pass_id": "frame-relation",
+  "taxonomy_ids": [
+    "argument_slot_role_mismatch",
+    "lexical_relation_mislabel"
+  ],
+  "specification": "prompts/check_pass_frame_relation_v7.md",
+  "input_body_sha256": "dce1e8375f2e9709647eb4c0fd89fa016895cec32363a81b3950d8cdb28a2078",
+  "input_sections": {
+    "antonym_items": [
+      {
+        "item_id": "ant-ea4f2536cd8a",
+        "headword": "sensible",
+        "sense_definition": "【日本語訳・定義】感情だけで決めず、理由・経験・実際の条件を考えて、適切で無理のない判断や行動をすることを表す。人にも、考え・助言・計画・解決策などにも使い、話し手が妥当だと評価する含みがある。",
+        "antonym": "foolish",
+        "antonym_definition": "定義: 判断力や分別を欠いた、愚かな。"
+      },
+      {
+        "item_id": "ant-8e3389b271b8",
+        "headword": "sensible",
+        "sense_definition": "【日本語訳・定義】差・変化・増減・量などが、感覚や判断によって認識できる程度にはっきりしていることを表す。現代の一般会話での「分別のある」という意味より形式的で、sensible difference や sensible increase のように、無視できない程度を述べる。",
+        "antonym": "negligible",
+        "antonym_definition": "定義: 小さすぎて考慮する必要がない、取るに足りない。"
+      },
+      {
+        "item_id": "ant-5626f8a7c604",
+        "headword": "sensible",
+        "sense_definition": "【日本語訳・定義】感情だけで決めず、理由・経験・実際の条件を考えて、適切で無理のない判断や行動をすることを表す。人にも、考え・助言・計画・解決策などにも使い、話し手が妥当だと評価する含みがある。",
+        "antonym": "silly",
+        "antonym_definition": "定義: 分別を欠いた、ばかげた。"
+      },
+      {
+        "item_id": "ant-dfcdf1299624",
+        "headword": "sensible",
+        "sense_definition": "【日本語訳・定義】感情だけで決めず、理由・経験・実際の条件を考えて、適切で無理のない判断や行動をすることを表す。人にも、考え・助言・計画・解決策などにも使い、話し手が妥当だと評価する含みがある。",
+        "antonym": "impractical",
+        "antonym_definition": "定義: 実行しにくく、現実の条件に合わない。"
+      },
+      {
+        "item_id": "ant-33c897156157",
+        "headword": "sensible",
+        "sense_definition": "【日本語訳・定義】事実・危険・義務・誤り・親切などを心で認識し、強く意識していることを表す。通常 sensible of 〈名詞〉の形で使い、現代の会話では aware of、conscious of、grateful for などが自然なことが多い。",
+        "antonym": "oblivious to something",
+        "antonym_definition": "定義: 〈事実・危険・周囲の状況〉にまったく気づいていない。"
+      },
+      {
+        "item_id": "ant-11aa9f87d4f9",
+        "headword": "sensible",
+        "sense_definition": "【日本語訳・定義】差・変化・増減・量などが、感覚や判断によって認識できる程度にはっきりしていることを表す。現代の一般会話での「分別のある」という意味より形式的で、sensible difference や sensible increase のように、無視できない程度を述べる。",
+        "antonym": "imperceptible",
+        "antonym_definition": "定義: 感覚や心では知覚できない、気づけない。"
+      },
+      {
+        "item_id": "ant-e4cada59addd",
+        "headword": "sensible",
+        "sense_definition": "【日本語訳・定義】事実・危険・義務・誤り・親切などを心で認識し、強く意識していることを表す。通常 sensible of 〈名詞〉の形で使い、現代の会話では aware of、conscious of、grateful for などが自然なことが多い。",
+        "antonym": "unaware of something",
+        "antonym_definition": "定義: 〈事実・状況〉に気づいていない、知らない。"
+      },
+      {
+        "item_id": "ant-5963409236b4",
+        "headword": "sensible",
+        "sense_definition": "【日本語訳・定義】痛み・熱・光などの外部刺激を、感覚器官や身体で受け取る能力があることを表す。現代の一般英語では sensitive to が普通で、sensible to は古風・形式的または専門的に響く。",
+        "antonym": "insensible to 〈stimulus〉",
+        "antonym_definition": "定義: 〈刺激〉を感じない、意識しない。"
+      },
+      {
+        "item_id": "ant-d73ee3c0122f",
+        "headword": "sensible",
+        "sense_definition": "【日本語訳・定義】痛み・熱・光などの外部刺激を、感覚器官や身体で受け取る能力があることを表す。現代の一般英語では sensitive to が普通で、sensible to は古風・形式的または専門的に響く。",
+        "antonym": "impervious to 〈stimulus〉",
+        "antonym_definition": "定義: 〈刺激・影響〉を通さず、受け付けない。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "difference_line",
+      "frequency_line",
+      "example_line",
+      "translation_line",
+      "synonym_section",
+      "core_image",
+      "other_senses",
+      "document_order"
+    ],
+    "questions": [
+      "name_axis_as_one_noun",
+      "classify_as_補完_程度_方向_評価_状態",
+      "record_unnamable_with_one_sentence_reason"
+    ],
+    "required_output_schema": "antonym_axis_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "3598ca81a5784639c6b43a0806d0981a985bf4174f424c744aad1dde787bfcef",
+  "source_artifact_sha256": "0035642740b1174f92eb8173dfb0455de3648f65c58090795bb3e13932a0c417",
+  "normalized_input_sha256": "22a2e0895cc8a43bf66aebfefb9aa051fad3a75e90917ada58b9190bb793cbc2"
+}
