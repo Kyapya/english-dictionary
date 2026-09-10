@@ -168,7 +168,7 @@ def execute_review(
     raw_path = cycle_dir / "raw" / f"{stage}.response.json"
     raw_path.parent.mkdir(parents=True, exist_ok=True)
     raw_path.write_text(
-        json.dumps(raw, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+        json.dumps(raw, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n"
     )
     normalized = normalize_response(
         provider,
@@ -180,7 +180,7 @@ def execute_review(
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(
         json.dumps(normalized, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
+        encoding="utf-8", newline="\n",
     )
     return normalized
 

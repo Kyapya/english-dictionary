@@ -24,18 +24,18 @@ def digest(value: object) -> str:
 
 
 def freeze(path: Path, value: dict) -> None:
-    if path.exists() and json.loads(path.read_text()) != value:
+    if path.exists() and json.loads(path.read_text(encoding="utf-8")) != value:
         raise ValueError(f"immutable review input changed: {path.name}; preserve the old packet and create the required revision/recheck")
     path.parent.mkdir(parents=True, exist_ok=True)
     if not path.exists():
-        path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n")
+        path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
 
 
 def final_inputs(entry: Path, cycle: Path, root: Path) -> dict:
     report = review_validation.final_input_report(entry, cycle, root)
     if not report["valid"]:
         raise PreflightError(report)
-    values = {name: json.loads((cycle / (name + ".json")).read_text()) for name in FINAL_INPUTS}
+    values = {name: json.loads((cycle / (name + ".json")).read_text(encoding="utf-8")) for name in FINAL_INPUTS}
     body_hash = audit.body_sha256(entry)
     targets = content_audit.extract_targets(entry)
     relations = content_audit.extract_relations(targets)
@@ -115,7 +115,7 @@ def validate(manifest: dict, *, stage: str, declared_model: str, reviewer_agent_
             raise PreflightError(report)
     packet_path = cycle / (stage + ".request.json")
     if packet_path.exists():
-        packet = json.loads(packet_path.read_text())
+        packet = json.loads(packet_path.read_text(encoding="utf-8"))
         if packet.get("contract_version") == VERSION:
             check_bindings(packet, entry, cycle)
     with tempfile.TemporaryDirectory(prefix="dictionary-review-check-") as directory:

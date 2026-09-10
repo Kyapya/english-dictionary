@@ -58,7 +58,7 @@ def _load(path: Path, errors: list[str]) -> dict[str, Any]:
 
 
 def _write(path: Path, value: dict[str, Any]) -> None:
-    path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
 
 
 def _index(items: Any, label: str, key: str, errors: list[str]) -> dict[str, dict[str, Any]]:

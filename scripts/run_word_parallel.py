@@ -95,7 +95,7 @@ def _parallel_cold_request(
         _v3.review_preflight.freeze(path, packet)
         return path, packet
     path.write_text(
-        json.dumps(packet, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+        json.dumps(packet, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n"
     )
     return path, packet
 
@@ -119,7 +119,7 @@ def _write_parallel_cold_handoff(
         + "\n\n## Input packet\n\n```json\n"
         + json.dumps(packet, ensure_ascii=False, indent=2)
         + "\n```\n",
-        encoding="utf-8",
+        encoding="utf-8", newline="\n",
     )
     return path
 
@@ -326,9 +326,9 @@ def prepare_handoff(
             + "\n```\n"
         )
         parallel_path = _parallel_frame_stage2_request_path(cycle_dir)
-        parallel_path.write_text(body, encoding="utf-8")
+        parallel_path.write_text(body, encoding="utf-8", newline="\n")
         legacy_path = handoff_dir / "checker_passes.stage2.request.md"
-        legacy_path.write_text(body, encoding="utf-8")
+        legacy_path.write_text(body, encoding="utf-8", newline="\n")
         return legacy_path
 
     _, packet = _ORIGINAL_PREPARE_REVIEW_INPUTS(manifest, repo_root=repo_root)
@@ -358,7 +358,7 @@ def prepare_handoff(
                 packet=bundle,
                 response_name=response_name,
             ),
-            encoding="utf-8",
+            encoding="utf-8", newline="\n",
         )
         rows.append(f"- `{pass_id}`: `{request_path.name}` -> `{response_name}`")
 
@@ -390,7 +390,7 @@ def prepare_handoff(
         "## Fan-out files\n\n"
         + "\n".join(rows)
         + "\n",
-        encoding="utf-8",
+        encoding="utf-8", newline="\n",
     )
     return index_path
 
@@ -441,7 +441,7 @@ def _process_parallel_stage1(
                 raise ValueError("frame-relation stage 1: " + "; ".join(blind_errors))
             frame_blind_path.write_text(
                 json.dumps(blind_record, ensure_ascii=False, indent=2) + "\n",
-                encoding="utf-8",
+                encoding="utf-8", newline="\n",
             )
             outputs.append(
                 {
@@ -457,7 +457,7 @@ def _process_parallel_stage1(
             blind_path = check_dir / "example-attribution.blind-record.json"
             blind_path.write_text(
                 json.dumps(response, ensure_ascii=False, indent=2) + "\n",
-                encoding="utf-8",
+                encoding="utf-8", newline="\n",
             )
             output = _v3.check_passes.reconcile_example_attribution(
                 bundle,
@@ -483,7 +483,7 @@ def _process_parallel_stage1(
             raise ValueError(f"pass output {pass_id}: " + "; ".join(errors))
         (check_dir / f"{pass_id}.json").write_text(
             json.dumps(output, ensure_ascii=False, indent=2) + "\n",
-            encoding="utf-8",
+            encoding="utf-8", newline="\n",
         )
         outputs.append(output)
 
@@ -499,7 +499,7 @@ def _process_parallel_stage1(
     stage2_request_path = check_dir / "frame-relation.antonym-axis.stage2.request.json"
     stage2_request_path.write_text(
         json.dumps(stage2_request, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
+        encoding="utf-8", newline="\n",
     )
 
     checkpoint = {
@@ -515,7 +515,7 @@ def _process_parallel_stage1(
     checkpoint_path = check_dir / "checker_passes.stage1.json"
     checkpoint_path.write_text(
         json.dumps(checkpoint, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
+        encoding="utf-8", newline="\n",
     )
     return prepare_handoff(manifest, repo_root=repo_root)
 
@@ -586,7 +586,7 @@ def _process_parallel_stage2(
     adjudication_path = check_dir / "frame-relation.antonym-axis.adjudication-record.json"
     adjudication_path.write_text(
         json.dumps(adjudication, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
+        encoding="utf-8", newline="\n",
     )
     output = _v3.check_passes.reconcile_antonym_axis(
         antonym_request,
@@ -632,7 +632,7 @@ def _process_parallel_stage2(
     target = cycle_dir / "pass_findings.json"
     target.write_text(
         json.dumps(checkpoint, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
+        encoding="utf-8", newline="\n",
     )
     return target
 
@@ -744,7 +744,7 @@ def _execute_checker_bundle_api(
         )
         blind_record_path.write_text(
             json.dumps(blind_record, ensure_ascii=False, indent=2) + "\n",
-            encoding="utf-8",
+            encoding="utf-8", newline="\n",
         )
         blind_errors = _v3.check_passes.validate_antonym_axis_blind_record(
             blind_record,
@@ -765,7 +765,7 @@ def _execute_checker_bundle_api(
         stage2_request_path = check_dir / "frame-relation.antonym-axis.stage2.request.json"
         stage2_request_path.write_text(
             json.dumps(stage2_request, ensure_ascii=False, indent=2) + "\n",
-            encoding="utf-8",
+            encoding="utf-8", newline="\n",
         )
         adjudication_path = check_dir / "frame-relation.antonym-axis.adjudication-record.json"
         adjudication = _v3.review_call.execute_review(
@@ -785,7 +785,7 @@ def _execute_checker_bundle_api(
         )
         adjudication_path.write_text(
             json.dumps(adjudication, ensure_ascii=False, indent=2) + "\n",
-            encoding="utf-8",
+            encoding="utf-8", newline="\n",
         )
         output = _v3.check_passes.reconcile_antonym_axis(
             bundle,
@@ -798,7 +798,7 @@ def _execute_checker_bundle_api(
         )
         final_path.write_text(
             json.dumps(output, ensure_ascii=False, indent=2) + "\n",
-            encoding="utf-8",
+            encoding="utf-8", newline="\n",
         )
         errors = _v3.check_passes.validate_pass_output(
             output,
@@ -841,7 +841,7 @@ def _execute_checker_bundle_api(
         )
         final_path.write_text(
             json.dumps(output, ensure_ascii=False, indent=2) + "\n",
-            encoding="utf-8",
+            encoding="utf-8", newline="\n",
         )
         created.append(model_output_path)
     else:
@@ -906,7 +906,7 @@ def _execute_cold_api(
     if errors:
         raise ValueError("cold review: " + "; ".join(errors))
     output_path.write_text(
-        json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+        json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n"
     )
     return output_path
 
@@ -1047,7 +1047,7 @@ def execute_api_review_stage(
     pass_findings_path = cycle_dir / "pass_findings.json"
     pass_findings_path.write_text(
         json.dumps(normal_review, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
+        encoding="utf-8", newline="\n",
     )
     return [*created, pass_findings_path, cold_path]
 

@@ -375,7 +375,7 @@ def command_record(args: argparse.Namespace) -> int:
         created_at=created_at,
     )
     output.parent.mkdir(parents=True, exist_ok=True)
-    output.write_text(json.dumps(record, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    output.write_text(json.dumps(record, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
     print(output.relative_to(repo_root).as_posix())
     return 0
 

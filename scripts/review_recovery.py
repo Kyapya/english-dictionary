@@ -161,7 +161,7 @@ def replace_final_packet(manifest: dict, packet_path: Path, packet: dict) -> Non
         if source.is_file():
             source.unlink()
     replacement = packet_path.with_suffix(".replacement.tmp")
-    replacement.write_text(json.dumps(packet, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    replacement.write_text(json.dumps(packet, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
     replacement.replace(packet_path)
     manifest.setdefault("review_packet_revisions", []).append({
         "stage": "final_review", "recorded_at": _now(),

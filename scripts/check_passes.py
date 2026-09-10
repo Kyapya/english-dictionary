@@ -2058,7 +2058,7 @@ def write_bundles(
         path = output_dir / f"{bundle['pass_id']}.request.json"
         path.write_text(
             json.dumps(bundle, ensure_ascii=False, indent=2) + "\n",
-            encoding="utf-8",
+            encoding="utf-8", newline="\n",
         )
         paths.append(path)
     return paths
@@ -2270,7 +2270,7 @@ def main() -> int:
                 indent=2,
             )
             + "\n",
-            encoding="utf-8",
+            encoding="utf-8", newline="\n",
         )
         paths.append(alignment_path)
         antonym_alignment_path = (
@@ -2285,7 +2285,7 @@ def main() -> int:
                 indent=2,
             )
             + "\n",
-            encoding="utf-8",
+            encoding="utf-8", newline="\n",
         )
         paths.append(antonym_alignment_path)
         for path in paths:
@@ -2316,7 +2316,7 @@ def main() -> int:
         args.output.parent.mkdir(parents=True, exist_ok=True)
         args.output.write_text(
             json.dumps(output, ensure_ascii=False, indent=2) + "\n",
-            encoding="utf-8",
+            encoding="utf-8", newline="\n",
         )
         print(args.output)
         return 0
@@ -2332,7 +2332,7 @@ def main() -> int:
         args.output.parent.mkdir(parents=True, exist_ok=True)
         args.output.write_text(
             json.dumps(output, ensure_ascii=False, indent=2) + "\n",
-            encoding="utf-8",
+            encoding="utf-8", newline="\n",
         )
         print(args.output)
         return 0
@@ -2361,7 +2361,7 @@ def main() -> int:
         args.output.parent.mkdir(parents=True, exist_ok=True)
         args.output.write_text(
             json.dumps(output, ensure_ascii=False, indent=2) + "\n",
-            encoding="utf-8",
+            encoding="utf-8", newline="\n",
         )
         print(args.output)
         return 0
@@ -2370,7 +2370,7 @@ def main() -> int:
         log = render_regression_log(results, args.cases)
         if args.output:
             args.output.parent.mkdir(parents=True, exist_ok=True)
-            args.output.write_text(log, encoding="utf-8")
+            args.output.write_text(log, encoding="utf-8", newline="\n")
             print(args.output)
         else:
             print(log, end="")

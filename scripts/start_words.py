@@ -49,7 +49,7 @@ def write(path: Path, value: dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     fd, temporary = tempfile.mkstemp(prefix=".batch-", dir=path.parent)
     try:
-        with os.fdopen(fd, "w", encoding="utf-8") as stream:
+        with os.fdopen(fd, "w", encoding="utf-8", newline="\n") as stream:
             json.dump(value, stream, ensure_ascii=False, indent=2)
             stream.write("\n")
             stream.flush()
@@ -331,7 +331,7 @@ class Queue:
                 "A sibling's failure is not a reason to stop this word.\n"
                 "Do not mark the batch complete or merge sibling branches yourself.\n\n"
                 f"```sh\n{shlex.join([sys.executable, 'scripts/run_word.py', '--resume', relative])}\n```\n")
-        (workspace.parent / f"{job['job_id']}.request.md").write_text(text, encoding="utf-8")
+        (workspace.parent / f"{job['job_id']}.request.md").write_text(text, encoding="utf-8", newline="\n")
 
     def dispatch(self, max_active: int | None = None) -> dict:
         if max_active is not None and not 1 <= max_active <= 16:
