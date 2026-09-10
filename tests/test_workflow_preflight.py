@@ -60,6 +60,17 @@ class ReviewPreflightTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "source_inventory"):
                 preflight.final_inputs(ENTRY, Path(directory), ROOT)
 
+    def test_concise_template_has_full_coverage_without_pass_reasons_or_assumed_passes(self):
+        packet = preflight.final_inputs(self.entry, self.cycle, self.root, compact=True)
+        template = packet["response_template"]
+        self.assertNotIn("chronology_results", template)
+        self.assertNotIn("checker_recheck_results", template)
+        for field, inventory in packet["inventories"].items():
+            self.assertEqual([r["id"] for r in inventory], [r["id"] for r in template[field]])
+            self.assertTrue(all(r["status"] is None for r in template[field]))
+            if field != "finding_results":
+                self.assertTrue(all("notes" not in r for r in template[field]))
+
     def test_frozen_packet_cannot_be_rebound(self):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "request.json"

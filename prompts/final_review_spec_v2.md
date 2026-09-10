@@ -1,3 +1,5 @@
+> 旧runの再現・検証用。以下の「現行」等の表記は当時のものです。新規runは `prompts/final_review_spec_v3.md` と `AGENTS.md` を使用し、この旧版の出力要件を追加適用しません。
+
 # final_review_spec_v2
 
 この仕様は、最新版の記事本文、pre/post-blind resolution、影響範囲checkerの再検査・再利用manifest、固定済みblind inventory、具体的未解決事項だけを入力として、第三者最終審査が合否を判断するための意味基準だけを定める。入力分離、順序、hash、seal、記録、件数網羅、status同期は `scripts/run_word.py`、`scripts/workflow_revision.py`、`scripts/generate_audit_manifest.py` が強制する。

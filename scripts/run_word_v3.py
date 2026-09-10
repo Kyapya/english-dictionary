@@ -27,7 +27,7 @@ from slugify import slugify
 REPO_ROOT = Path(__file__).resolve().parents[1]
 ORCHESTRATOR_VERSION = "run_word_v3"
 DEFAULT_CHECK_SPEC = "prompts/check_router_v6.md"
-DEFAULT_FINAL_SPEC = "prompts/final_review_spec_v2.md"
+DEFAULT_FINAL_SPEC = "prompts/final_review_spec_v3.md"
 DEFAULT_FINAL_BLIND_SPEC = "prompts/final_blind_prompt_v2.md"
 COST_SCHEMA_VERSION = "workflow_cost_v1"
 WORKFLOW_CONTRACT_VERSION = "workflow_improvement_v1"
@@ -939,6 +939,8 @@ def _review_output_metadata(
         "prompt_sha256": hashlib.sha256(prompt_bytes).hexdigest(),
         "input_artifacts": input_artifacts[stage],
     }
+    if stage == "final_review" and "prompts/final_review_spec_v3.md" in specification_files:
+        metadata["schema_version"] = "final_review_v3"
     if stage in {"cold_review", "final_blind"}:
         metadata["audit_visible"] = False
     return metadata
@@ -1062,7 +1064,10 @@ def prepare_review_inputs(
     }
     if stage == "final_review":
         if manifest.get("review_preflight") == review_preflight.VERSION:
-            packet.update(review_preflight.final_inputs(entry, cycle_dir, repo_root))
+            packet.update(review_preflight.final_inputs(
+                entry, cycle_dir, repo_root,
+                compact=packet["_output_metadata"]["schema_version"] == "final_review_v3",
+            ))
         for name in (
             "pass_findings.json",
             "cold_review.json",

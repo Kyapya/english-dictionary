@@ -125,7 +125,7 @@ def _source_inventory(body: str) -> dict[str, object]:
 
 class EvidenceContextTests(unittest.TestCase):
     def setUp(self) -> None:
-        self.body = "＃ 発音\n/sample/\n\n＃ 語義\n1. 【名詞】見本"
+        self.body = "＃発音記号\n/sample/\n\n＃ 語義\n1. 【名詞】見本"
         self.inventory = _source_inventory(self.body)
 
     def test_evidence_context_is_minimal_bound_and_usage_neutral(self) -> None:
@@ -196,6 +196,10 @@ class EvidenceContextTests(unittest.TestCase):
         handoff_evidence = next(row for row in handoff if row["pass_id"] == "evidence")
         self.assertEqual(api_evidence, handoff_evidence)
         self.assertIn("evidence_context", api_evidence)
+        context = api_evidence["evidence_context"]
+        self.assertEqual(context["schema_version"], "evidence_context_v2")
+        self.assertEqual(context["article_targets"][0]["id"], "pronunciation:001")
+        self.assertEqual(context["article_targets"][0]["text"], "/sample/")
         expected_source_hash = check_passes._digest_json(
             self.inventory["source_first_audit"]
         )
@@ -255,6 +259,26 @@ class EvidenceContextTests(unittest.TestCase):
         evidence["evidence_context"]["claim_units"][0]["statement"] = "tampered"
         errors = check_passes.validate_request_integrity(evidence, repo_root=ROOT)
         self.assertIn("checker normalized input hash mismatch", errors)
+
+    def test_evidence_rejects_nonexistent_target_before_dispatch(self) -> None:
+        self.inventory["source_first_audit"]["claim_units"][0]["article_target_ids"] = ["pronunciation:999"]
+        with tempfile.TemporaryDirectory() as directory:
+            entry = Path(directory) / "sample.md"
+            entry.write_text(self.body, encoding="utf-8")
+            with self.assertRaisesRegex(ValueError, "missing article targets: pronunciation:999"):
+                check_passes.build_bundles(entry, source_inventory=self.inventory, repo_root=ROOT)
+
+    def test_existing_but_wrong_target_is_exposed_for_semantic_review(self) -> None:
+        # A valid ID is not proof that its text supports the claim (grant regression).
+        self.inventory["source_first_audit"]["claim_units"][0]["statement"] = "Permission is formally given."
+        packet = check_passes.build_evidence_context(
+            self.inventory, input_body_sha256=_digest(self.body), relevant_sections={"pronunciation"},
+            article_targets=[{"id": "pronunciation:001", "text": "/sample/"}],
+        )
+        self.assertEqual(packet["claim_units"][0]["statement"], "Permission is formally given.")
+        self.assertEqual(packet["article_targets"][0]["text"], "/sample/")
+        packet["article_targets"].clear()
+        self.assertTrue(any("exactly cover" in e for e in check_passes.validate_evidence_context(packet)))
 
 
 class RevisionScopeTests(unittest.TestCase):

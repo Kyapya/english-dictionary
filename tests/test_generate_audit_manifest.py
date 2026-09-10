@@ -323,6 +323,62 @@ class GeneratedAuditManifestTests(unittest.TestCase):
         self.assertIn("legacy snapshot build is retired", completed.stderr)
         self.assertFalse(output.exists())
 
+    def _concise_final(self) -> dict:
+        final = json.loads((self.cycle / "final_review.json").read_text(encoding="utf-8"))
+        final["schema_version"] = "final_review_v3"
+        for field in ("target_results", "relation_results", "normal_candidate_results",
+                      "blind_candidate_results", "evidence_checks", "source_inventory_results"):
+            for row in final[field]:
+                row.pop("notes", None)
+        return final
+
+    def test_concise_pass_preserves_raw_decisions_without_synthetic_reasons(self) -> None:
+        final = self._concise_final()
+        self._write("final_review.json", final)
+        original = (self.cycle / "final_review.json").read_bytes()
+        value = self._generate()
+        self.assertEqual(value["final_decision"]["decision"], "pass")
+        self.assertEqual(generator.validate_generated_manifest(self.entry, self.audit, repo_root=self.root), [])
+        import source_first_audit_gate
+        errors = []
+        hydrated = source_first_audit_gate._hydrate_generated_final_review(value, repo_root=self.root, errors=errors)
+        self.assertEqual(errors, [])
+        self.assertEqual(source_first_audit_gate.validate_manifest(hydrated, require_current=True), [])
+        self.assertEqual((self.cycle / "final_review.json").read_bytes(), original)
+
+    def test_concise_results_still_reject_missing_duplicate_pending_and_unexplained_fail(self) -> None:
+        original = self._concise_final()
+        changes = (
+            (lambda rows: rows.pop(), "id mismatch"),
+            (lambda rows: rows.append(copy.deepcopy(rows[0])), "duplicate id"),
+            (lambda rows: rows[0].update(status=None), "status must"),
+            (lambda rows: rows[0].update(status="fail"), "notes is required"),
+            (lambda rows: rows[0].update(status="fail", notes="wrong frame"), "every target_results"),
+        )
+        for change, message in changes:
+            with self.subTest(message=message):
+                final = copy.deepcopy(original)
+                change(final["target_results"])
+                self._write("final_review.json", final)
+                with self.assertRaisesRegex(ValueError, message):
+                    self._generate()
+
+    def test_concise_findings_and_stale_assertions_keep_their_gates(self) -> None:
+        with self.assertRaisesRegex(ValueError, "notes is required"):
+            generator._require_exact_results({"F1"}, [{"id": "F1", "status": "pass"}], "finding_results", passing=True, compact=True)
+        final = self._concise_final()
+        final["blind_candidate_results"][0]["verified_body_sha256"] = "0" * 64
+        self._write("final_review.json", final)
+        with self.assertRaisesRegex(ValueError, "stale"):
+            self._generate()
+
+    def test_legacy_pass_still_requires_notes(self) -> None:
+        final = self._concise_final()
+        final["schema_version"] = "final_review_v2"
+        self._write("final_review.json", final)
+        with self.assertRaisesRegex(ValueError, "notes is required"):
+            self._generate()
+
     def test_manual_manifest_decision_cannot_diverge_from_raw_output(self) -> None:
         value = self._generate()
         value["final_decision"]["decision"] = "reject"

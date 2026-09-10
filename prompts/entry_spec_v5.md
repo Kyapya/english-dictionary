@@ -504,17 +504,13 @@ draft checkpoint後、通常チェックへ進む前に、次を一項目ずつ�
 - 新規記事は `prompt_version: entry_spec_v5`、生成直後は front matter と `queue/words.csv` を `status: draft`、`checked: false` とする。
 - Markdownファイルへ保存した後、必ず `scripts/validate_entry.py` で形式検査を行う。
 - 形式検査の終了コード0は形式合格だけを意味する。
-- 形式合格後、`prompts/check_spec_v5.md` だけを最初から最後まで読み、生成時のマトリクスや本文構成を候補集合として再利用しない独立チェックを行う。
-- 独立チェックで修正が必要な場合は、記事ファイルへ修正版全文を反映する。差分だけを残して本文を未修正にしてはならない。
-- 修正後は `updated_at` を更新し、再度 `scripts/validate_entry.py` を実行する。
-- 通常チェックが完了し、主要項目の収録先と品詞整合を説明できる場合も、この時点では `status: checked`、`checked: true` にしない。通常チェック担当は記事本文から `scripts/content_audit.py build` で全監査対象を生成し、全対象の判定、独立棚卸し候補、根拠台帳を監査ファイルへ外部化する。
-- 通常チェック後は `prompts/check_spec_v5.md` の必須コールドレビューを、1回の文脈非継承独立実行で行う。コールドレビューは仕様が想定していない問題候補の発見だけを担当する。front matterを除く最新版本文と `prompts/cold_review_prompt_v1.md` の全文だけを渡し、見出し語名、生成仕様、target/relation、既知の懸念は渡さない。通常チェック担当は本文引用付きscope anchorを持つ全問題候補を判定して必要な修正を反映するが、最終合否は決めない。
-- コールドレビューの指摘について、採用が1件以上の場合は、語義境界と学習者の誤った一般化を含めて修正版の最新版全文を再検査する。採用が0件の場合は全文再検査を省略する。問題候補も0件ならlogsに「コールドレビューでは問題候補なし」、問題候補はあるが採用0件なら「コールドレビューの採用0件につき全文再検査省略」と記録する。保留があれば従来どおり `needs_review` とする。
-- 内容確認または保留が残る場合は `status: needs_review`、`checked: false` とし、理由をqueueのnotes、logs、監査ファイルに記録する。
-- 必要な候補判定・修正と、採用がある場合の全文再検査を終えて保留が0件になった後、通常チェック担当はfront matterとqueueをstatus `review_ready`、checked `false` に同期する。通常チェック担当、コールドレビュー担当のどちらとも異なる実行が `prompts/final_review_spec_v1.md` を読み、全target、全独立候補、全finding、根拠台帳を個別判定する。
-- 最終審査が `PASS` の場合だけ、調整役が判定を変更せずfront matterとqueueをstatus `checked`、checked `true` へ同期する。最終状態で `scripts/validate_entry.py`、`scripts/validate_repository.py`、`scripts/content_audit.py validate`、全単体テストを実行し、すべて成功した場合だけ確定する。失敗または初回 `REJECT` では `needs_review`、checked `false` に戻して1回だけ修正・再審査できる。2回目のREJECTまたは `prompts/source_first_audit_v2.md` のbudget到達時は、同一依頼内で処理を続けず、未解決理由を保存して安全停止する。
-- 通常チェックまたはコールドレビュー後の判定で本文修正を行った場合は修正概要をlogsに記録し、通常チェックで修正不要の場合も「通常チェックでは修正不要」と明記する。
-- `queue/words.csv`、日付付きの `logs/`、必要なエクスポートを更新する。
-- draft保存、source-first inventory完了、通常チェック完了、コールドレビュー完了、blind seal、最終照合完了の各段階で `entry_workflow_guard.py checkpoint` を順番に実行し、成果物とrun JSONをcommit・pushする。最終状態を確定する前にrunを `completed` まで進め、変更entryと同じPRへ完了runを含める。
+- 保存後の工程は `AGENTS.md` と `scripts/run_word.py` の現行stage planに従う。旧 `check_spec_v5.md` / `final_review_spec_v1.md` / `final_review_spec_v2.md` の工程・出力表を追加適用しない。
+- 完成済みsource-first inventoryを固定し、`prompts/check_router_v6.md` の7パスを別々のreviewerで実行する。同じdraftに対して `prompts/cold_review_prompt_v1.md` の独立コールドレビューも行い、本文と指定prompt以外の既知判断を渡さない。
+- checker/coldの全findingをpre-blindで裁定し、採用修正を本文へ反映する。影響範囲checkerを再実行し、影響のないpassはspec・入力・source・schema・独立性・binding一致時だけ再利用する。単に指摘を採用したことを理由に全工程をやり直さない。
+- 修正後の最新本文だけから `prompts/final_blind_prompt_v2.md` の独立盲検を実行・固定する。post-blindで全findingを裁定し、採用修正があれば影響範囲の再検査と新本文の独立final blindを行う。
+- `prompts/final_review_spec_v3.md` に従って最終照合する。全対象の判定は維持するが、正常passの合格理由・本文全文引用・機械検証の説明表は作らない。本文と外部資料の照合、問題の発見、修正確認に時間を使う。
+- 未判定・保留・未解決・`insufficient_evidence`が残る場合は `needs_review`、`checked: false`。最終PASS時だけ調整役がfront matterとqueueを `checked` / `true` へ機械同期する。生成・通常チェック担当は自己合格を宣言しない。
+- 改稿後は `updated_at` とlogsを更新し、形式検証・監査検証・repository検証など現行stage planの必須チェックを実行する。監査manifestはraw出力からスクリプトで生成し、合格理由の手書きで検証を通そうとしない。
+- 記録・commit/push・guard checkpoint・安全停止は `AGENTS.md` と `prompts/source_first_audit_v2.md` に従う。完了run、queue、logs、必要なエクスポートを含めて確定する。
 
 【現行完全版生成仕様終わり】
