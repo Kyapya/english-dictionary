@@ -23,7 +23,7 @@
   "started_at": "2026-09-10T05:13:29Z",
   "deadline_at": "2026-09-10T06:13:29Z",
   "pre_draft_deadline_at": "2026-09-10T05:33:29Z",
-  "last_heartbeat_at": "2026-09-10T06:02:52Z",
+  "last_heartbeat_at": "2026-09-10T06:07:56Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-10T05:15:19Z",
@@ -601,7 +601,7 @@
           "audits/runs/s/sensible/20260910T051329Z-d04b0c6c/generation.json"
         ],
         "reason": "saved stage output has no coordinator learning_delta decision",
-        "recorded_at": "2026-09-10T06:00:13Z"
+        "recorded_at": "2026-09-10T06:07:56Z"
       },
       "pre_blind_resolution": {
         "status": "no_applicable",
@@ -618,7 +618,7 @@
           "audits/runs/s/sensible/20260910T051329Z-d04b0c6c/resolutions.json"
         ],
         "reason": "multiple learning_delta payloads found for one stage",
-        "recorded_at": "2026-09-10T06:05:04Z"
+        "recorded_at": "2026-09-10T06:07:56Z"
       }
     },
     "pending_events": [
@@ -630,6 +630,15 @@
         "fact": "repairable preflight rejection: checker handoff requires one response from each parallel subagent; legacy aggregate checker handoff is not accepted",
         "status": "pending",
         "recorded_at": "2026-09-10T05:42:11Z"
+      },
+      {
+        "event_id": "pending:20260910T051329Z-d04b0c6c:final_review:855460e25332",
+        "knowledge_epoch": "pi2-2026-09-06",
+        "kind": "review_failure",
+        "stage": "final_review",
+        "fact": "repairable preflight rejection: final review input missing: targeted_adjudications; blocked check: workflow_partition",
+        "status": "pending",
+        "recorded_at": "2026-09-10T06:07:19Z"
       }
     ],
     "selection_errors": []
@@ -880,7 +889,7 @@
   "review_preflight": "review_preflight_v1",
   "time_warnings": {},
   "review_preflight_failures": {
-    "count": 1,
+    "count": 2,
     "history": [
       {
         "stage": "checker_passes",
@@ -888,17 +897,59 @@
         "recorded_at": "2026-09-10T05:42:11.027954+00:00",
         "fingerprint": "fcb0ee75532161c82d948ff450c8550ebb378b95556f229b9d6a05731739204e",
         "classification": "repairable_validation"
+      },
+      {
+        "stage": "final_review",
+        "error": "final review input missing: targeted_adjudications; blocked check: workflow_partition",
+        "recorded_at": "2026-09-10T06:07:19.155954+00:00",
+        "fingerprint": null,
+        "classification": "repairable_validation",
+        "diagnostics": {
+          "valid": false,
+          "errors": [
+            {
+              "code": "missing_input",
+              "path": "targeted_adjudications",
+              "message": "final review input missing: targeted_adjudications"
+            }
+          ],
+          "blocked_checks": [
+            {
+              "check": "workflow_partition",
+              "requires": [
+                "targeted_adjudications"
+              ]
+            }
+          ]
+        }
       }
     ]
   },
   "review_correction": {
-    "stage": "checker_passes",
-    "error": "checker handoff requires one response from each parallel subagent; legacy aggregate checker handoff is not accepted",
-    "recorded_at": "2026-09-10T05:42:11.027954+00:00",
-    "fingerprint": "fcb0ee75532161c82d948ff450c8550ebb378b95556f229b9d6a05731739204e",
+    "stage": "final_review",
+    "error": "final review input missing: targeted_adjudications; blocked check: workflow_partition",
+    "recorded_at": "2026-09-10T06:07:19.155954+00:00",
+    "fingerprint": null,
     "classification": "repairable_validation",
-    "status": "resolved",
-    "resolved_at": "2026-09-10T05:44:03.105928+00:00"
+    "diagnostics": {
+      "valid": false,
+      "errors": [
+        {
+          "code": "missing_input",
+          "path": "targeted_adjudications",
+          "message": "final review input missing: targeted_adjudications"
+        }
+      ],
+      "blocked_checks": [
+        {
+          "check": "workflow_partition",
+          "requires": [
+            "targeted_adjudications"
+          ]
+        }
+      ]
+    },
+    "status": "needs_correction"
   },
   "review_preflight_policy": "repairable_review_preflight_v2"
 }
