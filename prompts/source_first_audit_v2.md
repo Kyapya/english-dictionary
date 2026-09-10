@@ -68,7 +68,7 @@ research roundの内部も無制限ではない。`scripts/entry_workflow_guard.
 
 本文へ `included` または `integrated` したunionだけ、原子的なclaim unitを作る。各claimは `id`、`union_ids`、`subject_form`、`claim_type`、`statement`、直接対応する `article_target_ids`、`source_supports` を持つ。除外factを形式的な本文claimへ複製しない。
 
-最終審査はblind seal後に全unionを直接確認する。`final_review.source_inventory_results` はunionごとに `union_id`、`status`、`notes` だけを記録する。fact IDとtarget IDはunionとclaimから導出できるため、v1のように最終結果へ再複製しない。
+最終審査はblind seal後に全unionを直接確認する。`final_review_v3` の `source_inventory_results` はunionごとに `id`、同値の `union_id`、`status` を記録し、正常passの `notes` は省略する。failの場合だけ問題と必要な修正を短く記す。旧v1/v2の最終出力は従来のnotes要件で検証する。fact IDとtarget IDはunionとclaimから導出できるため、v1のように最終結果へ再複製しない。
 
 ## 機械支援コマンド
 

@@ -159,20 +159,21 @@ def _index(items: Any, label: str) -> dict[str, dict[str, Any]]:
     return result
 
 
-def _result_ids(items: Any, label: str) -> tuple[set[str], list[dict[str, Any]]]:
+def _result_ids(items: Any, label: str, *, compact: bool = False) -> tuple[set[str], list[dict[str, Any]]]:
+    import review_results
     indexed = _index(items, label)
     for item_id, item in indexed.items():
         if item.get("status") not in {"pass", "fail"}:
             raise ValueError(f"{label} {item_id}.status must be pass or fail")
-        if not str(item.get("notes", "")).strip():
+        if review_results.needs_notes(item, compact=compact, field=label) and not str(item.get("notes", "")).strip():
             raise ValueError(f"{label} {item_id}.notes is required")
     return set(indexed), list(indexed.values())
 
 
 def _require_exact_results(
-    expected: set[str], items: Any, label: str, *, passing: bool
+    expected: set[str], items: Any, label: str, *, passing: bool, compact: bool = False
 ) -> list[dict[str, Any]]:
-    actual, normalized = _result_ids(items, label)
+    actual, normalized = _result_ids(items, label, compact=compact)
     if actual != expected:
         missing = sorted(expected - actual)
         extra = sorted(actual - expected)
@@ -848,22 +849,27 @@ def generate_manifest(
     if decision not in {"pass", "reject"}:
         raise ValueError("final_review.decision must be pass or reject")
     passing = decision == "pass"
-    _require_exact_results(
+    import review_results
+    compact = review_results.concise(raw["final_review"])
+    # Do not manufacture PASS rows or reasons: every reviewer decision is retained.
+    def require_results(expected, items, label, *, passing):
+        return _require_exact_results(expected, items, label, passing=passing, compact=compact)
+    require_results(
         target_ids, raw["final_review"].get("target_results"), "target_results", passing=passing
     )
-    _require_exact_results(
+    require_results(
         relation_ids,
         raw["final_review"].get("relation_results"),
         "relation_results",
         passing=passing,
     )
-    _require_exact_results(
+    require_results(
         normal_candidates,
         raw["final_review"].get("normal_candidate_results"),
         "normal_candidate_results",
         passing=passing,
     )
-    blind_results = _require_exact_results(
+    blind_results = require_results(
         blind_candidates,
         raw["final_review"].get("blind_candidate_results"),
         "blind_candidate_results",
@@ -886,19 +892,19 @@ def generate_manifest(
             )
         if result.get("verified_body_sha256") != current_hash:
             raise ValueError(f"blind candidate result {result['id']} is stale")
-    _require_exact_results(
+    require_results(
         set(finding_index),
         raw["final_review"].get("finding_results"),
         "finding_results",
         passing=passing,
     )
-    _require_exact_results(
+    require_results(
         evidence_ids,
         raw["final_review"].get("evidence_checks"),
         "evidence_checks",
         passing=passing,
     )
-    source_results = _require_exact_results(
+    source_results = require_results(
         source_union_ids,
         raw["final_review"].get("source_inventory_results"),
         "source_inventory_results",
@@ -915,6 +921,7 @@ def generate_manifest(
         {
             "source_first_audit": source_gate,
             "final_review": {
+                "schema_version": raw["final_review"].get("schema_version"),
                 "decision": decision,
                 "source_inventory_results": source_results,
             },

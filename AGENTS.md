@@ -109,8 +109,16 @@ checker、example-attribution、cold review、final blind、final reviewは生�
 既存レビューのprovenanceを機械検証するだけである。
 
 evidence passは、同じrunの完成済み `source_inventory.json` を正本とする
-`evidence_context_v1` を受け取る。対象claimに必要なsource/fact/union/supportだけを
-機械抽出し、本文・正本hash、schema、参照整合が不正ならfail closedとする。再探索はしない。
+`evidence_context_v2`（`prompts/check_pass_evidence_v7.md`） を受け取る。対象claimのsource/fact/union/supportと最新本文の
+対応targetを機械抽出し、本文・正本hash、schema、参照整合が不正ならfail closedとする。
+reviewerは本文→claim→外部資料を照合し、意味上の接続違いも検出する。既存locatorを
+実際に開く。作成者の要約だけで確認済みにせず、閲覧不能なら `insufficient_evidence`
+をblocking findingにする。探索計画・全factの作り直しは不要だが、資料の再閲覧は省略しない。
+標準APIには閲覧機能がないため、外部資料を閲覧できるhandoff reviewerを使う。
+
+最終照合は `final_review_v3`。全IDの判定を保ち、正常passのnotes・本文全文引用を省略する。
+failとfindingの修正確認・不採用判断だけに短い説明を残す。hash・時系列・再検査条件を
+機械検証し、合格理由表を再作成しない。未判定のpass補完は禁止。過去runは旧schemaで検証する。
 
 ### 修正・final blind・追加裁定
 
@@ -140,7 +148,7 @@ final blindを再実行する。findingゼロは追加レビュー理由にし�
 | 通常チェック | `prompts/check_router_v6.md`、`prompts/check_pass_frame_relation_v7.md`、`prompts/check_pass_*_v6.md` |
 | コールドレビュー | `prompts/cold_review_prompt_v1.md` |
 | 最終盲検 | `prompts/final_blind_prompt_v2.md` |
-| finding解決・最終合否 | `prompts/pre_blind_resolution_v1.md`、`prompts/post_blind_resolution_v1.md`、`prompts/targeted_adjudication_v1.md`、`prompts/final_review_spec_v2.md` |
+| finding解決・最終合否 | `prompts/pre_blind_resolution_v1.md`、`prompts/post_blind_resolution_v1.md`、`prompts/targeted_adjudication_v1.md`、`prompts/final_review_spec_v3.md` |
 | 局所修整 | `prompts/targeted_correction_review_v1.md`、`scripts/targeted_correction.py` |
 | source-first・semantic gate | `prompts/source_first_audit_v2.md`、`prompts/semantic_resolution_gate_v1.md` |
 | 工程・形式・整合 | `scripts/run_word.py`、`scripts/workflow_revision.py`、`scripts/checker_subagent_gate.py`、`scripts/entry_workflow_guard.py`、`scripts/validate_entry.py`、`scripts/validate_repository.py` |

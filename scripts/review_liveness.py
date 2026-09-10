@@ -247,6 +247,11 @@ def validate_final_review_liveness(
 ) -> list[str]:
     if not isinstance(review, dict):
         return []
+    import review_results
+    if review_results.concise(review):
+        # Exact coverage, explicit status and failure explanations are validated
+        # by generate_audit_manifest. Copying the article is not proof of review.
+        return []
     errors: list[str] = []
     for field, quotes in (
         ("target_results", target_quotes or {}),

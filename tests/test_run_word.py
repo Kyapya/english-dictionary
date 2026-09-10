@@ -684,7 +684,7 @@ class RunWordTests(unittest.TestCase):
             ),
         )
         self.assertEqual(
-            final.specification_files, ("prompts/final_review_spec_v2.md",)
+            final.specification_files, ("prompts/final_review_spec_v3.md",)
         )
 
     def test_orchestrator_completes_every_stage_in_order_with_costs(self) -> None:

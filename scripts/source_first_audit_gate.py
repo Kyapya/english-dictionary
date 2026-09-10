@@ -515,7 +515,10 @@ def _validate_v2(
             errors.append(f"final source result {union_id} cannot remain pending")
         if decision == "pass" and result_status != "pass":
             errors.append(f"final decision pass requires source inventory result {union_id} to pass")
-        if result_status in {"pass", "fail"} and not _nonempty(result.get("notes")):
+        import review_results
+        if result_status in {"pass", "fail"} and review_results.needs_notes(
+            result, compact=review_results.concise(final), field="source_inventory_results"
+        ) and not _nonempty(result.get("notes")):
             errors.append(f"final source result {union_id}.notes is required")
     final_attempts = usage.get("final_attempts_used")
     if (
@@ -609,6 +612,8 @@ def _hydrate_generated_final_review(
         "decision": raw.get("decision"),
         "source_inventory_results": raw.get("source_inventory_results"),
     }
+    if "schema_version" in raw:
+        hydrated["final_review"]["schema_version"] = raw["schema_version"]
     return hydrated
 
 
