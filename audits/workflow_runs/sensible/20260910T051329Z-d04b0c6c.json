@@ -18,12 +18,12 @@
     "research_queries": 0,
     "candidate_pages": 0
   },
-  "status": "in_progress",
-  "stage": "final_review_complete",
+  "status": "completed",
+  "stage": "completed",
   "started_at": "2026-09-10T05:13:29Z",
   "deadline_at": "2026-09-10T06:13:29Z",
   "pre_draft_deadline_at": "2026-09-10T05:33:29Z",
-  "last_heartbeat_at": "2026-09-10T06:19:33Z",
+  "last_heartbeat_at": "2026-09-10T06:22:58Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-10T05:15:19Z",
@@ -69,6 +69,11 @@
       "stage": "final_review_complete",
       "recorded_at": "2026-09-10T06:19:33Z",
       "notes": "orchestrator completed final_review"
+    },
+    {
+      "stage": "completed",
+      "recorded_at": "2026-09-10T06:22:58Z",
+      "notes": "orchestrator completed export"
     }
   ],
   "stop_reason": "",
@@ -652,8 +657,8 @@
     "schema_version": "workflow_cost_v1",
     "total_cycles": 1,
     "total_revisions": 0,
-    "total_duration_seconds": 0.0,
-    "completed_at": "",
+    "total_duration_seconds": 4169.140911,
+    "completed_at": "2026-09-10T06:22:58Z",
     "stages": [
       {
         "id": "guard_start",
@@ -757,20 +762,20 @@
       {
         "id": "status_update",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 777,
+        "duration_seconds": 5.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "export",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 1592944,
+        "duration_seconds": 5.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       }
     ],
     "checker_passes": [
@@ -839,7 +844,7 @@
     }
   },
   "orchestrator_state": {
-    "next_stage_index": 11,
+    "next_stage_index": 13,
     "completed_stages": [
       "guard_start",
       "generation",
@@ -851,7 +856,9 @@
       "final_blind",
       "blind_seal",
       "post_blind_resolution",
-      "final_review"
+      "final_review",
+      "status_update",
+      "export"
     ],
     "stage_outputs": {
       "generation": [
@@ -890,6 +897,15 @@
       "final_review": [
         "audits/runs/s/sensible/20260910T051329Z-d04b0c6c/final_review.json",
         "audits/s/sensible.json"
+      ],
+      "status_update": [
+        "entries/s/sensible.md",
+        "queue/words.csv",
+        "audits/runs/s/sensible/20260910T051329Z-d04b0c6c/status_update.json"
+      ],
+      "export": [
+        "exports/dictionary_all.md",
+        "exports/dictionary_index.csv"
       ]
     }
   },
