@@ -574,6 +574,14 @@
         ],
         "reason": "saved stage output has no coordinator learning_delta decision",
         "recorded_at": "2026-09-10T05:50:43Z"
+      },
+      "pre_blind_resolution": {
+        "status": "no_applicable",
+        "source_refs": [
+          "audits/runs/s/sensible/20260910T051329Z-d04b0c6c/pre_blind_resolution.json"
+        ],
+        "receipt_event_id": "workflow:20260910T051329Z-d04b0c6c:pre_blind_resolution:62eae0bf53e5",
+        "recorded_at": "2026-09-10T05:53:19Z"
       }
     },
     "pending_events": [
@@ -644,11 +652,11 @@
       {
         "id": "pre_blind_resolution",
         "instruction_bytes": 5567,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 29147,
+        "duration_seconds": 60.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "checker_recheck",
@@ -780,13 +788,14 @@
     }
   },
   "orchestrator_state": {
-    "next_stage_index": 5,
+    "next_stage_index": 6,
     "completed_stages": [
       "guard_start",
       "generation",
       "mechanical_validator",
       "checker_passes",
-      "cold_review"
+      "cold_review",
+      "pre_blind_resolution"
     ],
     "stage_outputs": {
       "generation": [
@@ -803,6 +812,10 @@
       ],
       "cold_review": [
         "audits/runs/s/sensible/20260910T051329Z-d04b0c6c/cold_review.json"
+      ],
+      "pre_blind_resolution": [
+        "audits/runs/s/sensible/20260910T051329Z-d04b0c6c/pre_blind_resolution.json",
+        "audits/runs/s/sensible/20260910T051329Z-d04b0c6c/pre_blind_revision.json"
       ]
     }
   },
