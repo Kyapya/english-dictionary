@@ -512,7 +512,7 @@ def main() -> int:
     args = parser.parse_args()
     if args.command == "render":
         args.output.parent.mkdir(parents=True, exist_ok=True)
-        args.output.write_text(render_table(), encoding="utf-8")
+        args.output.write_text(render_table(), encoding="utf-8", newline="\n")
         print(args.output.relative_to(REPO_ROOT))
         return 0
     errors = validate_table(args.output)

@@ -497,7 +497,7 @@ def seal_blind(
     }
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(
-        json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+        json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n"
     )
     return payload
 
@@ -1241,7 +1241,7 @@ def main() -> int:
             value = generate_manifest(args.entry.resolve(), args.cycle_dir.resolve())
             args.output.parent.mkdir(parents=True, exist_ok=True)
             args.output.write_text(
-                json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+                json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n"
             )
             print(args.output)
             return 0

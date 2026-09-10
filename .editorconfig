@@ -1,0 +1,8 @@
+root = true
+
+[{scripts,prompts,entries,audits,process_improvement,queue}/**.{py,js,md,json}]
+charset = utf-8
+end_of_line = lf
+# Do not add or strip trailing content from hash-bound artifacts.
+insert_final_newline = unset
+trim_trailing_whitespace = false

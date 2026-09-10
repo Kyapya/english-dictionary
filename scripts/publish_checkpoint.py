@@ -39,7 +39,7 @@ def receipt_path(root: Path) -> Path:
 
 def receipt(root: Path) -> dict:
     path = receipt_path(root)
-    return json.loads(path.read_text()) if path.exists() else {}
+    return json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
 
 
 def publish(root: Path) -> bool:
@@ -100,7 +100,7 @@ def accept(root: Path, remote_head: str) -> dict:
     if not chain and remote_head != publication["remote_base"]:
         raise ValueError("unexpected remote head")
     value = {"local_head": publication["local_head"], "remote_head": remote_head, "branch": branch}
-    receipt_path(root).write_text(json.dumps(value, indent=2) + "\n")
+    receipt_path(root).write_text(json.dumps(value, indent=2) + "\n", encoding="utf-8", newline="\n")
     return value
 
 

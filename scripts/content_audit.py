@@ -2926,7 +2926,7 @@ def _write_latest_revision_snapshot(
     if snapshot is None:
         raise ValueError("generated revision snapshot path is not safe")
     snapshot.parent.mkdir(parents=True, exist_ok=True)
-    snapshot.write_text(_entry_body(entry_path), encoding="utf-8")
+    snapshot.write_text(_entry_body(entry_path), encoding="utf-8", newline="\n")
 
 
 def start_review_cycle(
@@ -2988,7 +2988,7 @@ def start_review_cycle(
     cycle["body_revisions"][0]["snapshot_path"] = new_revision_path.as_posix()
     _write_latest_revision_snapshot(new, entry_path, repo_root)
     audit_path.write_text(
-        json.dumps(new, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+        json.dumps(new, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n"
     )
     return []
 
@@ -3042,7 +3042,7 @@ def add_body_revision(
     manifest["relations"] = extract_relations(targets)
     _write_latest_revision_snapshot(manifest, entry_path, repo_root)
     audit_path.write_text(
-        json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+        json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n"
     )
     return []
 
@@ -3228,7 +3228,7 @@ def seal_blind_review(audit_path: Path) -> list[str]:
     reference["sealed_output_sha256"] = blind["output_sha256"]
     audit_path.write_text(
         json.dumps(manifest, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
+        encoding="utf-8", newline="\n",
     )
     return []
 

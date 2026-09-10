@@ -485,7 +485,7 @@ def _fallback_pi_snapshot(
         "既存の品質検証・レビュー・公開条件はすべて維持します。\n"
     )
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(text, encoding="utf-8")
+    path.write_text(text, encoding="utf-8", newline="\n")
     snapshot = {
         "schema_version": process_improvement.SNAPSHOT_SCHEMA_VERSION,
         "knowledge_epoch": manifest.get("process_improvement", {}).get(
@@ -511,7 +511,7 @@ def _fallback_pi_snapshot(
     }
     path.with_suffix(".json").write_text(
         json.dumps(snapshot, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
+        encoding="utf-8", newline="\n",
     )
     return snapshot
 
@@ -1028,7 +1028,7 @@ def prepare_review_inputs(
         alignment_path = check_dir / "example-attribution.alignment-key.json"
         alignment_path.write_text(
             json.dumps(alignment, ensure_ascii=False, indent=2) + "\n",
-            encoding="utf-8",
+            encoding="utf-8", newline="\n",
         )
         antonym_alignment = check_passes.build_antonym_axis_alignment_key(
             entry, repo_root=repo_root, blind_seed=str(manifest["run_id"])
@@ -1041,7 +1041,7 @@ def prepare_review_inputs(
         )
         antonym_alignment_path.write_text(
             json.dumps(antonym_alignment, ensure_ascii=False, indent=2) + "\n",
-            encoding="utf-8",
+            encoding="utf-8", newline="\n",
         )
         return [
             *paths,
@@ -1099,7 +1099,7 @@ def prepare_review_inputs(
     packet_path.parent.mkdir(parents=True, exist_ok=True)
     packet_path.write_text(
         json.dumps(packet, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
+        encoding="utf-8", newline="\n",
     )
     return [packet_path], packet
 
@@ -1150,7 +1150,7 @@ def prepare_handoff(
                 "## Input packet\n\n```json\n"
                 + json.dumps(packet, ensure_ascii=False, indent=2)
                 + "\n```\n",
-                encoding="utf-8",
+                encoding="utf-8", newline="\n",
             )
             return handoff_path
     _, packet = prepare_review_inputs(manifest, repo_root=repo_root)
@@ -1176,7 +1176,7 @@ def prepare_handoff(
         "## Input packet\n\n```json\n"
         + json.dumps(packet, ensure_ascii=False, indent=2)
         + "\n```\n",
-        encoding="utf-8",
+        encoding="utf-8", newline="\n",
     )
     return handoff_path
 
@@ -1306,7 +1306,7 @@ def ingest_handoff_review(
                         )
                     blind_record_path.write_text(
                         json.dumps(blind_record, ensure_ascii=False, indent=2) + "\n",
-                        encoding="utf-8",
+                        encoding="utf-8", newline="\n",
                     )
                     continue
                 record = output.get("blind_attribution_record")
@@ -1346,12 +1346,12 @@ def ingest_handoff_review(
             )
             stage2_request_path.write_text(
                 json.dumps(stage2_request, ensure_ascii=False, indent=2) + "\n",
-                encoding="utf-8",
+                encoding="utf-8", newline="\n",
             )
             assert checker_checkpoint is not None
             checker_checkpoint.write_text(
                 json.dumps(value, ensure_ascii=False, indent=2) + "\n",
-                encoding="utf-8",
+                encoding="utf-8", newline="\n",
             )
             return prepare_handoff(manifest, repo_root=repo_root)
 
@@ -1380,7 +1380,7 @@ def ingest_handoff_review(
         )
         adjudication_path.write_text(
             json.dumps(value, ensure_ascii=False, indent=2) + "\n",
-            encoding="utf-8",
+            encoding="utf-8", newline="\n",
         )
         for index, candidate in enumerate(outputs):
             if isinstance(candidate, dict) and candidate.get("pass_id") == "frame-relation":
@@ -1465,7 +1465,7 @@ def ingest_handoff_review(
         target = output_paths[0]
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(
-        json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+        json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n"
     )
     return target
 
@@ -1567,7 +1567,7 @@ def execute_api_review_stage(
                 )
                 blind_record_path.write_text(
                     json.dumps(blind_record, ensure_ascii=False, indent=2) + "\n",
-                    encoding="utf-8",
+                    encoding="utf-8", newline="\n",
                 )
                 blind_errors = check_passes.validate_antonym_axis_blind_record(
                     blind_record,
@@ -1591,7 +1591,7 @@ def execute_api_review_stage(
                 )
                 stage2_request_path.write_text(
                     json.dumps(stage2_request, ensure_ascii=False, indent=2) + "\n",
-                    encoding="utf-8",
+                    encoding="utf-8", newline="\n",
                 )
                 adjudication_path = (
                     check_dir
@@ -1614,7 +1614,7 @@ def execute_api_review_stage(
                 )
                 adjudication_path.write_text(
                     json.dumps(adjudication, ensure_ascii=False, indent=2) + "\n",
-                    encoding="utf-8",
+                    encoding="utf-8", newline="\n",
                 )
                 output = check_passes.reconcile_antonym_axis(
                     bundle,
@@ -1627,7 +1627,7 @@ def execute_api_review_stage(
                 )
                 final_path.write_text(
                     json.dumps(output, ensure_ascii=False, indent=2) + "\n",
-                    encoding="utf-8",
+                    encoding="utf-8", newline="\n",
                 )
                 errors = check_passes.validate_pass_output(
                     output,
@@ -1675,7 +1675,7 @@ def execute_api_review_stage(
                 )
                 final_path.write_text(
                     json.dumps(output, ensure_ascii=False, indent=2) + "\n",
-                    encoding="utf-8",
+                    encoding="utf-8", newline="\n",
                 )
                 created.append(model_output_path)
             else:
@@ -1708,7 +1708,7 @@ def execute_api_review_stage(
         pass_findings_path = cycle_dir / "pass_findings.json"
         pass_findings_path.write_text(
             json.dumps(normal_review, ensure_ascii=False, indent=2) + "\n",
-            encoding="utf-8",
+            encoding="utf-8", newline="\n",
         )
         return [*created, pass_findings_path]
 
@@ -1873,7 +1873,7 @@ def run_yield_acceptance(*, repo_root: Path = REPO_ROOT) -> dict[str, Any]:
     alignment_path = check_dir / "example-attribution.alignment-key.json"
     alignment_path.write_text(
         json.dumps(alignment, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
+        encoding="utf-8", newline="\n",
     )
     antonym_alignment = check_passes.build_antonym_axis_alignment_key(
         fixture, repo_root=repo_root, blind_seed=run_id
@@ -1882,7 +1882,7 @@ def run_yield_acceptance(*, repo_root: Path = REPO_ROOT) -> dict[str, Any]:
         check_dir / "frame-relation.antonym-axis.alignment-key.json"
     ).write_text(
         json.dumps(antonym_alignment, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
+        encoding="utf-8", newline="\n",
     )
     router = check_passes.load_router(repo_root / DEFAULT_CHECK_SPEC)
     pass_outputs: list[dict[str, Any]] = []
@@ -1911,7 +1911,7 @@ def run_yield_acceptance(*, repo_root: Path = REPO_ROOT) -> dict[str, Any]:
             )
             blind_record_path.write_text(
                 json.dumps(blind_record, ensure_ascii=False, indent=2) + "\n",
-                encoding="utf-8",
+                encoding="utf-8", newline="\n",
             )
             stage2_request = check_passes.materialize_antonym_axis_stage2_request(
                 fixture,
@@ -1925,7 +1925,7 @@ def run_yield_acceptance(*, repo_root: Path = REPO_ROOT) -> dict[str, Any]:
             )
             stage2_request_path.write_text(
                 json.dumps(stage2_request, ensure_ascii=False, indent=2) + "\n",
-                encoding="utf-8",
+                encoding="utf-8", newline="\n",
             )
             adjudication = review_call.execute_review(
                 stage="checker-frame-relation-antonym-axis-stage2",
@@ -1950,7 +1950,7 @@ def run_yield_acceptance(*, repo_root: Path = REPO_ROOT) -> dict[str, Any]:
                 / "frame-relation.antonym-axis.adjudication-record.json"
             ).write_text(
                 json.dumps(adjudication, ensure_ascii=False, indent=2) + "\n",
-                encoding="utf-8",
+                encoding="utf-8", newline="\n",
             )
             output = check_passes.reconcile_antonym_axis(
                 bundle,
@@ -2025,7 +2025,7 @@ def run_yield_acceptance(*, repo_root: Path = REPO_ROOT) -> dict[str, Any]:
                 indent=2,
             )
             + "\n",
-            encoding="utf-8",
+            encoding="utf-8", newline="\n",
         )
         stage_outputs[stage] = review_call.execute_review(
             stage=stage,
@@ -2042,7 +2042,7 @@ def run_yield_acceptance(*, repo_root: Path = REPO_ROOT) -> dict[str, Any]:
 
     (cycle_dir / "pass_findings.json").write_text(
         json.dumps({"pass_outputs": pass_outputs}, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
+        encoding="utf-8", newline="\n",
     )
     liveness_errors: list[str] = []
     attribution_output = next(
@@ -2128,7 +2128,7 @@ def run_yield_acceptance(*, repo_root: Path = REPO_ROOT) -> dict[str, Any]:
         "```json\n"
         + json.dumps(report, ensure_ascii=False, indent=2)
         + "\n```\n",
-        encoding="utf-8",
+        encoding="utf-8", newline="\n",
     )
     return report
 

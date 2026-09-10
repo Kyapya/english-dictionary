@@ -1,0 +1,14 @@
+# Specifications are hashed from disk; checkout must match the Git blob on all OSes.
+prompts/** text eol=lf
+scripts/*.py text eol=lf
+scripts/*.js text eol=lf
+
+# Generated artifacts are written as UTF-8/LF by the producers. Preserve their
+# exact bytes in Git, including existing sealed artifacts with CRLF/mixed EOLs.
+# Do not run a repository-wide renormalization of historical evidence.
+audits/** -text
+entries/** -text
+process_improvement/** -text
+queue/** -text
+backups/** -text
+tests/fixtures/** -text

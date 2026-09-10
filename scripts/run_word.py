@@ -82,7 +82,7 @@ def _rewrite_checker_handoff_terminology(index_path: Path) -> None:
         for old, new in replacements:
             revised = revised.replace(old, new)
         if revised != text:
-            path.write_text(revised, encoding="utf-8")
+            path.write_text(revised, encoding="utf-8", newline="\n")
 
 
 def _strict_prepare_handoff(*args: Any, **kwargs: Any) -> Any:
