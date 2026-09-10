@@ -1,0 +1,23 @@
+{
+  "summary": "問題候補なし。本文の語義区分、文型、例文、訳、レジスター表示に重大な問題は見当たらない。",
+  "findings": [],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "codex-gpt-5",
+    "ingested_by": "human",
+    "agent_id": "sensible-cold-review-20260910T051329Z-d04b0c6c",
+    "same_model_as_generation": true
+  },
+  "schema_version": "cold_review_v1",
+  "stage": "cold_review",
+  "run_id": "cold-sensible-20260910T051329Z-d04b0c6c",
+  "context_id": "cold-sensible-context-20260910T051329Z-d04b0c6c",
+  "input_body_sha256": "dce1e8375f2e9709647eb4c0fd89fa016895cec32363a81b3950d8cdb28a2078",
+  "prompt_sha256": "25c298d1a4305746147791bd442cd725a92737c8f0802b992ea88e5c6ff76a5d",
+  "input_artifacts": [
+    "entry_body",
+    "cold_review_prompt"
+  ],
+  "audit_visible": false,
+  "recorded_at": "2026-09-10T05:50:43.480617+00:00"
+}
