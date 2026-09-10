@@ -1,0 +1,249 @@
+{
+  "schema_version": "example_attribution_blind_request_v1",
+  "pass_id": "example-attribution",
+  "taxonomy_ids": [
+    "example_sense_attribution_mismatch"
+  ],
+  "specification": "prompts/check_pass_example_attribution_v6.md",
+  "input_body_sha256": "2476d7dd3e5337329be8ca2f86dd85153d56c7518b43c05dbbfd23b45963dde9",
+  "input_sections": {
+    "sense_structure": [
+      {
+        "sense_id": "sense:001",
+        "line": 42,
+        "label": "1. 【他動詞・形式的】申請・要求・権利・許可などを認めて与える、許可する",
+        "definition": "人が求めたもの、または人に認められる権利・許可・利益を、権限のある個人・組織が公式または改まった形で与える。相手の要求を検討したうえで「与えてよい」と決定する含みがあり、単なる物の受け渡しを表す *give* より制度的・形式的である。"
+      },
+      {
+        "sense_id": "sense:002",
+        "line": 134,
+        "label": "2. 【他動詞・形式的】土地・権利・地位などを公式に授与・付与する",
+        "definition": "政府、君主、機関、所有者などが、土地、財産、称号、独立、免除、権利などを正式な決定・文書・権限によって相手に与える。語義1の「要求を認める」よりも、何かを新たに相手へ帰属させることに焦点がある。"
+      },
+      {
+        "sense_id": "sense:003",
+        "line": 207,
+        "label": "3. 【他動詞・法律・行政】申立て・救済・判決などを認容する",
+        "definition": "裁判所、行政機関、審査機関などが、申立て、請求、抗弁、許可申請、救済措置などを法的・公式に認める。何かを「与える」一般義から発達した専門的用法で、裁判所が特定の申立てを認めて手続き上の効果を生じさせることを指す。"
+      },
+      {
+        "sense_id": "sense:004",
+        "line": 280,
+        "label": "4. 【他動詞・認識・譲歩】事実・主張を認める、譲歩する",
+        "definition": "相手の指摘やある事実が正しいと認める。しばしば、全面的な賛成ではなく、反論や別の判断に移るために一部だけを認める。`I grant you that ...` は「…なのは認めるが」という対比を作り、`granting that ...` は「…だと認めるとしても」を表す。"
+      },
+      {
+        "sense_id": "sense:005",
+        "line": 353,
+        "label": "5. 【可算名詞・金融・教育】助成金、補助金、奨学金",
+        "definition": "政府、大学、財団、企業などが、研究、教育、事業、地域活動など特定の目的のために人・組織へ与える金銭。通常は目的、申請、審査、報告などの条件を伴う。*grant* だけで「無条件にもらえるお金」や「返済不要」を常に意味するわけではないため、制度ごとの条件は別に確認する。"
+      },
+      {
+        "sense_id": "sense:006",
+        "line": 438,
+        "label": "6. 【可算名詞・法律・形式的】権利・財産の正式な付与、譲渡、付与証書",
+        "definition": "土地、財産、権利などを正式に与える行為、またはその結果として認められたもの。法律・不動産では、その移転を記した文書や証書を指すこともある。一般的な「助成金」の *grant* と同じ綴りだが、目的語が土地・権利・財産で、法的な移転関係に焦点がある。"
+      },
+      {
+        "sense_id": "sense:007",
+        "line": 511,
+        "label": "7. 【動詞句・慣用表現】take 〈人・物〉 for granted：当然と思う、ありがたみを忘れる",
+        "definition": "人や物がいつも利用できる、支えてくれると慣れきって、その価値・幸運・努力を意識しなくなる。`take it for granted that ...` では、十分に確認せず「～だと当然のように思う」という認識を表す。"
+      }
+    ],
+    "collocations_examples": [
+      {
+        "example_id": "ex-64e7be17bd8a",
+        "example": "The judge granted the motion to exclude the evidence.",
+        "translation": "裁判官はその証拠を除外する申立てを認めた。"
+      },
+      {
+        "example_id": "ex-5bc32f2b0c89",
+        "example": "Granting that the figures are accurate, the conclusion still does not follow.",
+        "translation": "数値が正確だと認めても、その結論はなお導かれない。"
+      },
+      {
+        "example_id": "ex-f63129592e6b",
+        "example": "I grant your point about speed, yet reliability matters more here.",
+        "translation": "速度についてのあなたの論点は認めるが、ここでは信頼性の方が重要だ。"
+      },
+      {
+        "example_id": "ex-5d1f3f7128e6",
+        "example": "The school received a grant to install accessible equipment.",
+        "translation": "その学校は利用しやすい設備を設置するための助成金を受け取った。"
+      },
+      {
+        "example_id": "ex-518f1929992c",
+        "example": "The executor could not act until the grant of probate was issued.",
+        "translation": "遺言執行者は正式な遺言検認証書が発行されるまで行動できなかった。"
+      },
+      {
+        "example_id": "ex-44c2281bba24",
+        "example": "We must grant that the first version solved a real problem.",
+        "translation": "初版が現実の問題を解決したことは認めなければならない。"
+      },
+      {
+        "example_id": "ex-33f78cfcb19e",
+        "example": "The archive contains the original grant of land to the hospital.",
+        "translation": "そのアーカイブには病院への土地付与の原証書が収蔵されている。"
+      },
+      {
+        "example_id": "ex-5a25584bc9a2",
+        "example": "The administrator granted access to the archive after verifying her identity.",
+        "translation": "管理者は本人確認の後、彼女にアーカイブへのアクセスを認めた。"
+      },
+      {
+        "example_id": "ex-2148afbb89d3",
+        "example": "Do not take the people who support you for granted.",
+        "translation": "あなたを支えてくれる人々を、いて当然だと思ってはいけない。"
+      },
+      {
+        "example_id": "ex-0e9481e784a2",
+        "example": "Her extra work was taken for granted by the whole team.",
+        "translation": "彼女の余分な仕事はチーム全体から当然視されていた。"
+      },
+      {
+        "example_id": "ex-9f66d34890d9",
+        "example": "The ruler granted land to the university for a public garden.",
+        "translation": "その統治者は公共庭園のために大学へ土地を与えた。"
+      },
+      {
+        "example_id": "ex-afe4ab717ffd",
+        "example": "The team received a research grant to study coastal erosion.",
+        "translation": "そのチームは海岸侵食を研究するための助成金を受け取った。"
+      },
+      {
+        "example_id": "ex-793e52449091",
+        "example": "The court granted an injunction preventing the sale of the building.",
+        "translation": "裁判所はその建物の売却を差し止める命令を認めた。"
+      },
+      {
+        "example_id": "ex-729e00cdbf61",
+        "example": "The judge granted bail subject to strict reporting conditions.",
+        "translation": "裁判官は厳しい報告条件付きで保釈を認めた。"
+      },
+      {
+        "example_id": "ex-92a31b7622df",
+        "example": "The old lighthouse keeper granted the child one last wish.",
+        "translation": "その年老いた灯台守は、その子の最後の願いを一つかなえた。"
+      },
+      {
+        "example_id": "ex-4719ba6bf631",
+        "example": "The museum granted permission to photograph the exhibition.",
+        "translation": "その美術館は展示を撮影する許可を与えた。"
+      },
+      {
+        "example_id": "ex-a4a5358cdcfe",
+        "example": "The nonprofit applied for a grant to expand its tutoring program.",
+        "translation": "その非営利団体は個別指導事業を拡大するため助成金を申請した。"
+      },
+      {
+        "example_id": "ex-ab54920ff01c",
+        "example": "The company operates the facility under a grant from the city.",
+        "translation": "その会社は市からの正式な付与に基づいて施設を運営している。"
+      },
+      {
+        "example_id": "ex-d1cd7bec701e",
+        "example": "The publisher granted the author an extension for the revised manuscript.",
+        "translation": "出版社は著者に改訂原稿の締切延長を認めた。"
+      },
+      {
+        "example_id": "ex-f6de69e043e4",
+        "example": "The former colony was granted independence in 1962.",
+        "translation": "その旧植民地は1962年に独立を認められた。"
+      },
+      {
+        "example_id": "ex-a11040843822",
+        "example": "The project was supported by a grant from the local foundation.",
+        "translation": "そのプロジェクトは地元財団からの助成金で支えられた。"
+      },
+      {
+        "example_id": "ex-c8c9671d3265",
+        "example": "Many people take clean water for granted until a supply problem occurs.",
+        "translation": "多くの人は、供給問題が起きるまできれいな水を当然のものと思っている。"
+      },
+      {
+        "example_id": "ex-f2560ae9bdd6",
+        "example": "The committee granted our request for an additional week.",
+        "translation": "委員会は私たちの追加1週間の要請を認めた。"
+      },
+      {
+        "example_id": "ex-afc5030cfdef",
+        "example": "The museum renovated the roof with a government grant.",
+        "translation": "その美術館は政府の補助金で屋根を改修した。"
+      },
+      {
+        "example_id": "ex-fb3d9de5afd9",
+        "example": "The court granted leave to appeal on the question of costs.",
+        "translation": "裁判所は費用の問題について上訴する許可を与えた。"
+      },
+      {
+        "example_id": "ex-64eda4589549",
+        "example": "The grant of the licence was subject to an environmental assessment.",
+        "translation": "その免許の付与には環境評価が条件として付された。"
+      },
+      {
+        "example_id": "ex-e50822827b97",
+        "example": "The authorities granted her a visa to conduct the research.",
+        "translation": "当局は彼女にその研究を行うためのビザを発給した。"
+      },
+      {
+        "example_id": "ex-1b8388725968",
+        "example": "I took it for granted that the meeting would start on time.",
+        "translation": "私は会議が時間どおり始まるものと当然のように思っていた。"
+      },
+      {
+        "example_id": "ex-b900617293cb",
+        "example": "The country granted citizenship to families who had lived there for decades.",
+        "translation": "その国は何十年もそこで暮らしてきた家族に市民権を付与した。"
+      },
+      {
+        "example_id": "ex-2d56307cc703",
+        "example": "I grant you that the design is elegant, but it is too expensive to produce.",
+        "translation": "そのデザインが洗練されているのは認めるが、製造費が高すぎる。"
+      },
+      {
+        "example_id": "ex-9a097fe99fbb",
+        "example": "She was awarded a grant for her first documentary.",
+        "translation": "彼女は初のドキュメンタリー作品のための助成金を授与された。"
+      },
+      {
+        "example_id": "ex-f7976f134ef8",
+        "example": "The office granted a patent for the improved valve.",
+        "translation": "その庁は改良された弁について特許を付与した。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "assigned_sense_id",
+      "collocation_heading",
+      "usage_line",
+      "example_group_boundary",
+      "document_order"
+    ],
+    "required_output_schema": "example_attribution_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "e0bbb032bc0c50bf9bef5ff8f7854188287e635c58e599479891e11e3343a017",
+  "source_artifact_sha256": "0d183b239b8a8b16f2729134295082d94b9a1167c2f0d5c457bfa4f8b9b7489d",
+  "normalized_input_sha256": "f5240ce2cc17cbd7dbd4739c16f4b1a19e8ebd8e25b469ca4bb8fc51f005fab3"
+}

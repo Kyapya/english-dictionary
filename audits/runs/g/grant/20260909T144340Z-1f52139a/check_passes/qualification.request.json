@@ -1,0 +1,842 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "qualification",
+  "taxonomy_ids": [
+    "regional_qualification",
+    "absolute_scope_counterexample",
+    "technical_terminology_conventionality"
+  ],
+  "specification": "prompts/check_pass_qualification_v6.md",
+  "input_body_sha256": "2476d7dd3e5337329be8ca2f86dd85153d56c7518b43c05dbbfd23b45963dde9",
+  "input_sections": {
+    "etymology": [
+      {
+        "line": 17,
+        "text": "＃語源"
+      },
+      {
+        "line": 19,
+        "text": "中英語を経て、古フランス語 *granter*「同意する、保証する」から入った語。古フランス語の形は、ラテン語 *credere*「信じる、託す」と関係する形から発達したとされる。もともと相手の求めや主張を認めることから、「正式に与える・許可する」、さらに「認める・譲歩する」へ意味が広がった。  "
+      }
+    ],
+    "word_formation": [
+      {
+        "line": 21,
+        "text": "＃語形成"
+      },
+      {
+        "line": 23,
+        "text": "・granted：*grant* の過去形・過去分詞。「与えられた、認められた」。文頭の `Granted, ...` では、相手の主張をいったん認めてから反対の点を述べる接続的な表現になる。  "
+      },
+      {
+        "line": 24,
+        "text": "・granting：現在分詞・動名詞。「与えること、認めること」。`granting that ...` では「～だと認めるなら、仮に～としても」。  "
+      },
+      {
+        "line": 25,
+        "text": "・grantee：grant を受ける人・組織、特に補助金や権利の受給者。  "
+      },
+      {
+        "line": 26,
+        "text": "・grantor：権利・財産などを正式に譲渡する人・組織。法律・不動産の文脈で多い。  "
+      },
+      {
+        "line": 27,
+        "text": "・grant-funded：補助金で資金を提供された、補助金を財源とする。  "
+      }
+    ],
+    "sense_structure": [
+      {
+        "line": 42,
+        "text": "1. 【他動詞・形式的】申請・要求・権利・許可などを認めて与える、許可する"
+      },
+      {
+        "line": 44,
+        "text": "【日本語訳・定義】人が求めたもの、または人に認められる権利・許可・利益を、権限のある個人・組織が公式または改まった形で与える。相手の要求を検討したうえで「与えてよい」と決定する含みがあり、単なる物の受け渡しを表す *give* より制度的・形式的である。  "
+      },
+      {
+        "line": 134,
+        "text": "2. 【他動詞・形式的】土地・権利・地位などを公式に授与・付与する"
+      },
+      {
+        "line": 136,
+        "text": "【日本語訳・定義】政府、君主、機関、所有者などが、土地、財産、称号、独立、免除、権利などを正式な決定・文書・権限によって相手に与える。語義1の「要求を認める」よりも、何かを新たに相手へ帰属させることに焦点がある。  "
+      },
+      {
+        "line": 207,
+        "text": "3. 【他動詞・法律・行政】申立て・救済・判決などを認容する"
+      },
+      {
+        "line": 209,
+        "text": "【日本語訳・定義】裁判所、行政機関、審査機関などが、申立て、請求、抗弁、許可申請、救済措置などを法的・公式に認める。何かを「与える」一般義から発達した専門的用法で、裁判所が特定の申立てを認めて手続き上の効果を生じさせることを指す。  "
+      },
+      {
+        "line": 280,
+        "text": "4. 【他動詞・認識・譲歩】事実・主張を認める、譲歩する"
+      },
+      {
+        "line": 282,
+        "text": "【日本語訳・定義】相手の指摘やある事実が正しいと認める。しばしば、全面的な賛成ではなく、反論や別の判断に移るために一部だけを認める。`I grant you that ...` は「…なのは認めるが」という対比を作り、`granting that ...` は「…だと認めるとしても」を表す。  "
+      },
+      {
+        "line": 353,
+        "text": "5. 【可算名詞・金融・教育】助成金、補助金、奨学金"
+      },
+      {
+        "line": 355,
+        "text": "【日本語訳・定義】政府、大学、財団、企業などが、研究、教育、事業、地域活動など特定の目的のために人・組織へ与える金銭。通常は目的、申請、審査、報告などの条件を伴う。*grant* だけで「無条件にもらえるお金」や「返済不要」を常に意味するわけではないため、制度ごとの条件は別に確認する。  "
+      },
+      {
+        "line": 438,
+        "text": "6. 【可算名詞・法律・形式的】権利・財産の正式な付与、譲渡、付与証書"
+      },
+      {
+        "line": 440,
+        "text": "【日本語訳・定義】土地、財産、権利などを正式に与える行為、またはその結果として認められたもの。法律・不動産では、その移転を記した文書や証書を指すこともある。一般的な「助成金」の *grant* と同じ綴りだが、目的語が土地・権利・財産で、法的な移転関係に焦点がある。  "
+      },
+      {
+        "line": 511,
+        "text": "7. 【動詞句・慣用表現】take 〈人・物〉 for granted：当然と思う、ありがたみを忘れる"
+      },
+      {
+        "line": 513,
+        "text": "【日本語訳・定義】人や物がいつも利用できる、支えてくれると慣れきって、その価値・幸運・努力を意識しなくなる。`take it for granted that ...` では、十分に確認せず「～だと当然のように思う」という認識を表す。  "
+      }
+    ],
+    "frequency_register": [
+      {
+        "line": 42,
+        "text": "1. 【他動詞・形式的】申請・要求・権利・許可などを認めて与える、許可する"
+      },
+      {
+        "line": 46,
+        "text": "【頻度】〈10/10〉  "
+      },
+      {
+        "line": 48,
+        "text": "【レジスター/領域】標準語。行政、ビジネス、学校、公式通知、丁寧な依頼への応答で広く使う。受け身の `be granted` は、ビザ・許可・アクセスなどを受けた人を主語にする場合に特に多い。  "
+      },
+      {
+        "line": 134,
+        "text": "2. 【他動詞・形式的】土地・権利・地位などを公式に授与・付与する"
+      },
+      {
+        "line": 138,
+        "text": "【頻度】〈8/10〉  "
+      },
+      {
+        "line": 140,
+        "text": "【レジスター/領域】形式的。法律、歴史、政治、行政、不動産、国際関係で多い。`be granted` の受け身では、与えられた側の地位や権利を述べる。  "
+      },
+      {
+        "line": 207,
+        "text": "3. 【他動詞・法律・行政】申立て・救済・判決などを認容する"
+      },
+      {
+        "line": 211,
+        "text": "【頻度】〈8/10〉  "
+      },
+      {
+        "line": 213,
+        "text": "【レジスター/領域】法律・行政。一般会話では、対象を具体的に示さない限りこの意味にならない。  "
+      },
+      {
+        "line": 280,
+        "text": "4. 【他動詞・認識・譲歩】事実・主張を認める、譲歩する"
+      },
+      {
+        "line": 284,
+        "text": "【頻度】〈7/10〉  "
+      },
+      {
+        "line": 286,
+        "text": "【レジスター/領域】標準語。議論、批評、説得、改まった会話で使う。相手の主張への譲歩を示すため、*admit* よりやや論証的で、*concede* に近い場合がある。  "
+      },
+      {
+        "line": 353,
+        "text": "5. 【可算名詞・金融・教育】助成金、補助金、奨学金"
+      },
+      {
+        "line": 357,
+        "text": "【頻度】〈9/10〉  "
+      },
+      {
+        "line": 359,
+        "text": "【レジスター/領域】標準語。行政、教育、研究、非営利活動、事業支援、金融の説明で広く使う。  "
+      },
+      {
+        "line": 438,
+        "text": "6. 【可算名詞・法律・形式的】権利・財産の正式な付与、譲渡、付与証書"
+      },
+      {
+        "line": 442,
+        "text": "【頻度】〈4/10〉  "
+      },
+      {
+        "line": 444,
+        "text": "【レジスター/領域】法律、不動産、歴史、行政。一般会話では語義5の「助成金」が先に想起されやすい。  "
+      },
+      {
+        "line": 511,
+        "text": "7. 【動詞句・慣用表現】take 〈人・物〉 for granted：当然と思う、ありがたみを忘れる"
+      },
+      {
+        "line": 515,
+        "text": "【頻度】〈10/10〉  "
+      },
+      {
+        "line": 517,
+        "text": "【レジスター/領域】標準語。日常会話、感謝、社会的な議論、注意喚起で広く使う。対象の価値を軽視する意味と、事実を未確認のまま前提にする意味を文脈で区別する。  "
+      }
+    ],
+    "usage_notes": [
+      {
+        "line": 42,
+        "text": "1. 【他動詞・形式的】申請・要求・権利・許可などを認めて与える、許可する"
+      },
+      {
+        "line": 84,
+        "text": "【語法・注意】`grant someone something` と `grant something to someone` の両方が使える。`grant someone permission/access` は自然だが、許可の対象を表す名詞を `grant someone to do` と直接続けない。動作そのものを許可する場合は `grant someone permission to do`、または `allow someone to do` とする。  "
+      },
+      {
+        "line": 134,
+        "text": "2. 【他動詞・形式的】土地・権利・地位などを公式に授与・付与する"
+      },
+      {
+        "line": 166,
+        "text": "【語法・注意】この用法は、物を一時的に貸す *lend* や、対価を払って販売する *sell* とは異なる。`grant land to someone` は、土地を相手に正式に帰属させる・使用させるという制度的な授与を表す。現代の政治・法律文脈では、`grant independence` や `grant citizenship` のように抽象的な地位にも使える。  "
+      },
+      {
+        "line": 207,
+        "text": "3. 【他動詞・法律・行政】申立て・救済・判決などを認容する"
+      },
+      {
+        "line": 239,
+        "text": "【語法・注意】法律文脈の `grant` は「申立てを認める」であり、申立人の主張すべてを最終的に正しいと認定したことを必ずしも意味しない。`grant a motion`、`grant an application` のように、認められた手続き・救済を目的語に置く。反対は `deny/refuse a motion` など。法域によって手続きや訳語は異なるため、具体的制度の要件までこの語だけから推測しない。  "
+      },
+      {
+        "line": 280,
+        "text": "4. 【他動詞・認識・譲歩】事実・主張を認める、譲歩する"
+      },
+      {
+        "line": 312,
+        "text": "【語法・注意】この用法の `grant` は「要求を許可する」ではなく、「発言・事実を認める」。`I grant you that ...` の *you* は認める相手を示す間接目的語であり、許可を受ける人を示す `grant you permission` とは構造も意味も違う。`grant` と言っても後続の `but` で反論することが多く、必ずしも全体への同意ではない。  "
+      },
+      {
+        "line": 353,
+        "text": "5. 【可算名詞・金融・教育】助成金、補助金、奨学金"
+      },
+      {
+        "line": 395,
+        "text": "【語法・注意】この意味は通常可算で、`a grant`、`several grants` と数える。`loan` は返済を前提とする借入金、`grant` は特定目的のために交付される資金で、返済条件や自己負担の有無は制度により異なる。`funding` は資金供給全般を指し、grant より広い。  "
+      },
+      {
+        "line": 438,
+        "text": "6. 【可算名詞・法律・形式的】権利・財産の正式な付与、譲渡、付与証書"
+      },
+      {
+        "line": 470,
+        "text": "【語法・注意】この名詞は、文脈によって「付与という行為」「付与された権利・財産」「それを証明する文書」のいずれにもなり得る。法律文書の *grant* を一般的な補助金と訳すと誤解になるため、`grant of land`、`grant of a licence` のように後続名詞を確認する。具体的な証書の効力・手続きは法域に依存する。  "
+      },
+      {
+        "line": 511,
+        "text": "7. 【動詞句・慣用表現】take 〈人・物〉 for granted：当然と思う、ありがたみを忘れる"
+      },
+      {
+        "line": 543,
+        "text": "【語法・注意】`take A for granted` の *for granted* は分離できない固定的な補語で、`take A granted` や `take for A granted` とは言わない。人を目的語にすると「その人の存在・支えを当然視する」、事実を目的語にすると「確認なしに真実だと仮定する」という違いが出る。  "
+      }
+    ],
+    "collocations_examples": [
+      {
+        "line": 42,
+        "text": "1. 【他動詞・形式的】申請・要求・権利・許可などを認めて与える、許可する"
+      },
+      {
+        "line": 52,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 54,
+        "text": "・grant permission to 〈人〉  "
+      },
+      {
+        "line": 55,
+        "text": "用途: 公式に何かをする許可を与える。  "
+      },
+      {
+        "line": 56,
+        "text": "例: The museum granted permission to photograph the exhibition.  "
+      },
+      {
+        "line": 57,
+        "text": "訳: その美術館は展示を撮影する許可を与えた。  "
+      },
+      {
+        "line": 59,
+        "text": "・grant access to 〈場所・情報・システム〉  "
+      },
+      {
+        "line": 60,
+        "text": "用途: 限定された場所・情報・システムを利用できるようにする。  "
+      },
+      {
+        "line": 61,
+        "text": "例: The administrator granted access to the archive after verifying her identity.  "
+      },
+      {
+        "line": 62,
+        "text": "訳: 管理者は本人確認の後、彼女にアーカイブへのアクセスを認めた。  "
+      },
+      {
+        "line": 64,
+        "text": "・grant a request  "
+      },
+      {
+        "line": 65,
+        "text": "用途: 人から出された依頼・申請を認める。  "
+      },
+      {
+        "line": 66,
+        "text": "例: The committee granted our request for an additional week.  "
+      },
+      {
+        "line": 67,
+        "text": "訳: 委員会は私たちの追加1週間の要請を認めた。  "
+      },
+      {
+        "line": 69,
+        "text": "・grant an extension  "
+      },
+      {
+        "line": 70,
+        "text": "用途: 締切・契約期間などの延長を公式に認める。  "
+      },
+      {
+        "line": 71,
+        "text": "例: The publisher granted the author an extension for the revised manuscript.  "
+      },
+      {
+        "line": 72,
+        "text": "訳: 出版社は著者に改訂原稿の締切延長を認めた。  "
+      },
+      {
+        "line": 74,
+        "text": "・grant a licence/visa  "
+      },
+      {
+        "line": 75,
+        "text": "用途: 免許・査証などの資格や許可を発行・付与する。  "
+      },
+      {
+        "line": 76,
+        "text": "例: The authorities granted her a visa to conduct the research.  "
+      },
+      {
+        "line": 77,
+        "text": "訳: 当局は彼女にその研究を行うためのビザを発給した。  "
+      },
+      {
+        "line": 79,
+        "text": "・grant a wish  "
+      },
+      {
+        "line": 80,
+        "text": "用途: 願いをかなえる。物語的な文脈にも、改まった比喩にも使う。  "
+      },
+      {
+        "line": 81,
+        "text": "例: The old lighthouse keeper granted the child one last wish.  "
+      },
+      {
+        "line": 82,
+        "text": "訳: その年老いた灯台守は、その子の最後の願いを一つかなえた。  "
+      },
+      {
+        "line": 134,
+        "text": "2. 【他動詞・形式的】土地・権利・地位などを公式に授与・付与する"
+      },
+      {
+        "line": 144,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 146,
+        "text": "・grant independence to 〈国・地域〉  "
+      },
+      {
+        "line": 147,
+        "text": "用途: 国や地域に独立を正式に認める。  "
+      },
+      {
+        "line": 148,
+        "text": "例: The former colony was granted independence in 1962.  "
+      },
+      {
+        "line": 149,
+        "text": "訳: その旧植民地は1962年に独立を認められた。  "
+      },
+      {
+        "line": 151,
+        "text": "・grant citizenship to 〈人〉  "
+      },
+      {
+        "line": 152,
+        "text": "用途: 法的な市民資格を付与する。  "
+      },
+      {
+        "line": 153,
+        "text": "例: The country granted citizenship to families who had lived there for decades.  "
+      },
+      {
+        "line": 154,
+        "text": "訳: その国は何十年もそこで暮らしてきた家族に市民権を付与した。  "
+      },
+      {
+        "line": 156,
+        "text": "・grant land to 〈人・組織〉  "
+      },
+      {
+        "line": 157,
+        "text": "用途: 土地の所有・利用を正式に与える。  "
+      },
+      {
+        "line": 158,
+        "text": "例: The ruler granted land to the university for a public garden.  "
+      },
+      {
+        "line": 159,
+        "text": "訳: その統治者は公共庭園のために大学へ土地を与えた。  "
+      },
+      {
+        "line": 161,
+        "text": "・grant a patent/title  "
+      },
+      {
+        "line": 162,
+        "text": "用途: 特許や称号を審査・決定に基づいて正式に付与する。  "
+      },
+      {
+        "line": 163,
+        "text": "例: The office granted a patent for the improved valve.  "
+      },
+      {
+        "line": 164,
+        "text": "訳: その庁は改良された弁について特許を付与した。  "
+      },
+      {
+        "line": 207,
+        "text": "3. 【他動詞・法律・行政】申立て・救済・判決などを認容する"
+      },
+      {
+        "line": 217,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 219,
+        "text": "・grant a motion  "
+      },
+      {
+        "line": 220,
+        "text": "用途: 裁判所が手続き上の申立てを認める。  "
+      },
+      {
+        "line": 221,
+        "text": "例: The judge granted the motion to exclude the evidence.  "
+      },
+      {
+        "line": 222,
+        "text": "訳: 裁判官はその証拠を除外する申立てを認めた。  "
+      },
+      {
+        "line": 224,
+        "text": "・grant an injunction  "
+      },
+      {
+        "line": 225,
+        "text": "用途: 一定の行為をする・しないよう命じる差止めを認める。  "
+      },
+      {
+        "line": 226,
+        "text": "例: The court granted an injunction preventing the sale of the building.  "
+      },
+      {
+        "line": 227,
+        "text": "訳: 裁判所はその建物の売却を差し止める命令を認めた。  "
+      },
+      {
+        "line": 229,
+        "text": "・grant bail  "
+      },
+      {
+        "line": 230,
+        "text": "用途: 事件の審理前などに保釈を認める。  "
+      },
+      {
+        "line": 231,
+        "text": "例: The judge granted bail subject to strict reporting conditions.  "
+      },
+      {
+        "line": 232,
+        "text": "訳: 裁判官は厳しい報告条件付きで保釈を認めた。  "
+      },
+      {
+        "line": 234,
+        "text": "・grant leave to appeal  "
+      },
+      {
+        "line": 235,
+        "text": "用途: 上級審への不服申立てをする許可を与える。  "
+      },
+      {
+        "line": 236,
+        "text": "例: The court granted leave to appeal on the question of costs.  "
+      },
+      {
+        "line": 237,
+        "text": "訳: 裁判所は費用の問題について上訴する許可を与えた。  "
+      },
+      {
+        "line": 280,
+        "text": "4. 【他動詞・認識・譲歩】事実・主張を認める、譲歩する"
+      },
+      {
+        "line": 290,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 292,
+        "text": "・I grant you that ...  "
+      },
+      {
+        "line": 293,
+        "text": "用途: 相手の指摘を認めつつ、後半で反対の評価や制限を述べる。  "
+      },
+      {
+        "line": 294,
+        "text": "例: I grant you that the design is elegant, but it is too expensive to produce.  "
+      },
+      {
+        "line": 295,
+        "text": "訳: そのデザインが洗練されているのは認めるが、製造費が高すぎる。  "
+      },
+      {
+        "line": 297,
+        "text": "・grant someone’s point  "
+      },
+      {
+        "line": 298,
+        "text": "用途: 議論の中で相手のある論点を認める。  "
+      },
+      {
+        "line": 299,
+        "text": "例: I grant your point about speed, yet reliability matters more here.  "
+      },
+      {
+        "line": 300,
+        "text": "訳: 速度についてのあなたの論点は認めるが、ここでは信頼性の方が重要だ。  "
+      },
+      {
+        "line": 302,
+        "text": "・grant that ...  "
+      },
+      {
+        "line": 303,
+        "text": "用途: ある事実を認めたうえで、別の主張を続ける。  "
+      },
+      {
+        "line": 304,
+        "text": "例: We must grant that the first version solved a real problem.  "
+      },
+      {
+        "line": 305,
+        "text": "訳: 初版が現実の問題を解決したことは認めなければならない。  "
+      },
+      {
+        "line": 307,
+        "text": "・granting that ...  "
+      },
+      {
+        "line": 308,
+        "text": "用途: 条件や前提を仮に認めても、結論は変わらないと述べる。  "
+      },
+      {
+        "line": 309,
+        "text": "例: Granting that the figures are accurate, the conclusion still does not follow.  "
+      },
+      {
+        "line": 310,
+        "text": "訳: 数値が正確だと認めても、その結論はなお導かれない。  "
+      },
+      {
+        "line": 353,
+        "text": "5. 【可算名詞・金融・教育】助成金、補助金、奨学金"
+      },
+      {
+        "line": 363,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 365,
+        "text": "・a research grant  "
+      },
+      {
+        "line": 366,
+        "text": "用途: 研究費として交付される助成金。  "
+      },
+      {
+        "line": 367,
+        "text": "例: The team received a research grant to study coastal erosion.  "
+      },
+      {
+        "line": 368,
+        "text": "訳: そのチームは海岸侵食を研究するための助成金を受け取った。  "
+      },
+      {
+        "line": 370,
+        "text": "・a government grant  "
+      },
+      {
+        "line": 371,
+        "text": "用途: 政府・自治体から交付される補助金。  "
+      },
+      {
+        "line": 372,
+        "text": "例: The museum renovated the roof with a government grant.  "
+      },
+      {
+        "line": 373,
+        "text": "訳: その美術館は政府の補助金で屋根を改修した。  "
+      },
+      {
+        "line": 375,
+        "text": "・apply for a grant  "
+      },
+      {
+        "line": 376,
+        "text": "用途: 助成金の交付を申請する。  "
+      },
+      {
+        "line": 377,
+        "text": "例: The nonprofit applied for a grant to expand its tutoring program.  "
+      },
+      {
+        "line": 378,
+        "text": "訳: その非営利団体は個別指導事業を拡大するため助成金を申請した。  "
+      },
+      {
+        "line": 380,
+        "text": "・receive/be awarded a grant  "
+      },
+      {
+        "line": 381,
+        "text": "用途: 助成金を受け取る、審査を経て授与される。  "
+      },
+      {
+        "line": 382,
+        "text": "例: She was awarded a grant for her first documentary.  "
+      },
+      {
+        "line": 383,
+        "text": "訳: 彼女は初のドキュメンタリー作品のための助成金を授与された。  "
+      },
+      {
+        "line": 385,
+        "text": "・a grant from 〈機関〉  "
+      },
+      {
+        "line": 386,
+        "text": "用途: 資金の出所を示す。  "
+      },
+      {
+        "line": 387,
+        "text": "例: The project was supported by a grant from the local foundation.  "
+      },
+      {
+        "line": 388,
+        "text": "訳: そのプロジェクトは地元財団からの助成金で支えられた。  "
+      },
+      {
+        "line": 390,
+        "text": "・a grant to do 〈目的〉  "
+      },
+      {
+        "line": 391,
+        "text": "用途: 何をするための助成金かを示す。  "
+      },
+      {
+        "line": 392,
+        "text": "例: The school received a grant to install accessible equipment.  "
+      },
+      {
+        "line": 393,
+        "text": "訳: その学校は利用しやすい設備を設置するための助成金を受け取った。  "
+      },
+      {
+        "line": 438,
+        "text": "6. 【可算名詞・法律・形式的】権利・財産の正式な付与、譲渡、付与証書"
+      },
+      {
+        "line": 448,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 450,
+        "text": "・the grant of a licence  "
+      },
+      {
+        "line": 451,
+        "text": "用途: 免許・許可が正式に付与されることを、名詞で表す。  "
+      },
+      {
+        "line": 452,
+        "text": "例: The grant of the licence was subject to an environmental assessment.  "
+      },
+      {
+        "line": 453,
+        "text": "訳: その免許の付与には環境評価が条件として付された。  "
+      },
+      {
+        "line": 455,
+        "text": "・a grant of land  "
+      },
+      {
+        "line": 456,
+        "text": "用途: 土地の正式な授与・譲渡。  "
+      },
+      {
+        "line": 457,
+        "text": "例: The archive contains the original grant of land to the hospital.  "
+      },
+      {
+        "line": 458,
+        "text": "訳: そのアーカイブには病院への土地付与の原証書が収蔵されている。  "
+      },
+      {
+        "line": 460,
+        "text": "・a grant of probate  "
+      },
+      {
+        "line": 461,
+        "text": "用途: 遺言執行に関する裁判所の正式な許可・証書を指す法律表現。制度の詳細は法域により異なる。  "
+      },
+      {
+        "line": 462,
+        "text": "例: The executor could not act until the grant of probate was issued.  "
+      },
+      {
+        "line": 463,
+        "text": "訳: 遺言執行者は正式な遺言検認証書が発行されるまで行動できなかった。  "
+      },
+      {
+        "line": 465,
+        "text": "・under a grant from 〈機関〉  "
+      },
+      {
+        "line": 466,
+        "text": "用途: 公的な付与・許可に基づく権利や所有を示す。  "
+      },
+      {
+        "line": 467,
+        "text": "例: The company operates the facility under a grant from the city.  "
+      },
+      {
+        "line": 468,
+        "text": "訳: その会社は市からの正式な付与に基づいて施設を運営している。  "
+      },
+      {
+        "line": 511,
+        "text": "7. 【動詞句・慣用表現】take 〈人・物〉 for granted：当然と思う、ありがたみを忘れる"
+      },
+      {
+        "line": 521,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 523,
+        "text": "・take someone for granted  "
+      },
+      {
+        "line": 524,
+        "text": "用途: いつもそばにいる人の支えや努力を当然視する。  "
+      },
+      {
+        "line": 525,
+        "text": "例: Do not take the people who support you for granted.  "
+      },
+      {
+        "line": 526,
+        "text": "訳: あなたを支えてくれる人々を、いて当然だと思ってはいけない。  "
+      },
+      {
+        "line": 528,
+        "text": "・take something for granted  "
+      },
+      {
+        "line": 529,
+        "text": "用途: 自由、健康、利便性などを、当たり前で価値がないかのように扱う。  "
+      },
+      {
+        "line": 530,
+        "text": "例: Many people take clean water for granted until a supply problem occurs.  "
+      },
+      {
+        "line": 531,
+        "text": "訳: 多くの人は、供給問題が起きるまできれいな水を当然のものと思っている。  "
+      },
+      {
+        "line": 533,
+        "text": "・take it for granted that 〈節〉  "
+      },
+      {
+        "line": 534,
+        "text": "用途: 十分に確認せず、ある事実を前提にする。  "
+      },
+      {
+        "line": 535,
+        "text": "例: I took it for granted that the meeting would start on time.  "
+      },
+      {
+        "line": 536,
+        "text": "訳: 私は会議が時間どおり始まるものと当然のように思っていた。  "
+      },
+      {
+        "line": 538,
+        "text": "・be taken for granted  "
+      },
+      {
+        "line": 539,
+        "text": "用途: 人・努力・権利などが当然視され、評価や感謝を受けない状態を受け身で表す。  "
+      },
+      {
+        "line": 540,
+        "text": "例: Her extra work was taken for granted by the whole team.  "
+      },
+      {
+        "line": 541,
+        "text": "訳: 彼女の余分な仕事はチーム全体から当然視されていた。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "1cf8a434bbe1213c0ef739f4c47ffb41014ab2cd5156d297471af6df85ae40a2",
+  "source_artifact_sha256": "0d183b239b8a8b16f2729134295082d94b9a1167c2f0d5c457bfa4f8b9b7489d",
+  "normalized_input_sha256": "6b4a3cdd908418799508bcbd0a7044cf2247200975de060f1d4b15f5b93a4983"
+}
