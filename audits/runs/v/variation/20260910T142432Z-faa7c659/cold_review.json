@@ -1,0 +1,23 @@
+{
+  "summary": "Context-free cold review of the corrected variation draft found no blocking or minor issue.",
+  "findings": [],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "codex-gpt-5",
+    "ingested_by": "human",
+    "agent_id": "codex-main-cold-review-20260910T142432Z-faa7c659",
+    "same_model_as_generation": true
+  },
+  "schema_version": "cold_review_v1",
+  "stage": "cold_review",
+  "run_id": "cold-variation-20260910T142432Z-faa7c659",
+  "context_id": "cold-variation-context-20260910T142432Z-faa7c659",
+  "input_body_sha256": "68642a687d319602564bb976d43d54d0c6fd104793baae466da68d12aa0f3d8f",
+  "prompt_sha256": "985358540b17811a1fc88f87d8ce1fed9aeb5fc881fdcd901d81950ccdb77384",
+  "input_artifacts": [
+    "entry_body",
+    "cold_review_prompt"
+  ],
+  "audit_visible": false,
+  "recorded_at": "2026-09-10T15:03:00Z"
+}

@@ -1,0 +1,135 @@
+{
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "FB-001",
+      "surface_form": "variation",
+      "frame": "variation in amount/level/quality",
+      "meaning": "変化、変動、ばらつき",
+      "disposition": "included",
+      "rationale": "The independent inventory candidate variation in amount/level/quality expresses 変化、変動、ばらつき and is worth retaining for a learner-facing variation entry.",
+      "semantic_assertions": [
+        {
+          "id": "FB-001-SA-001",
+          "statement": "The article must preserve the 変化、変動、ばらつき meaning in the variation in amount/level/quality frame.",
+          "polarity": "must_hold",
+          "scope": "variation in amount/level/quality"
+        },
+        {
+          "id": "FB-001-SA-002",
+          "statement": "The variation in amount/level/quality frame must remain distinct from the other variation senses.",
+          "polarity": "must_hold",
+          "scope": "boundary of 変化、変動、ばらつき"
+        }
+      ]
+    },
+    {
+      "id": "FB-002",
+      "surface_form": "variation",
+      "frame": "a variation on a theme/story/recipe",
+      "meaning": "基準から少し変えたもの、変形、別形",
+      "disposition": "included",
+      "rationale": "The independent inventory candidate a variation on a theme/story/recipe expresses 基準から少し変えたもの、変形、別形 and is worth retaining for a learner-facing variation entry.",
+      "semantic_assertions": [
+        {
+          "id": "FB-002-SA-001",
+          "statement": "The article must preserve the 基準から少し変えたもの、変形、別形 meaning in the a variation on a theme/story/recipe frame.",
+          "polarity": "must_hold",
+          "scope": "a variation on a theme/story/recipe"
+        },
+        {
+          "id": "FB-002-SA-002",
+          "statement": "The a variation on a theme/story/recipe frame must remain distinct from the other variation senses.",
+          "polarity": "must_hold",
+          "scope": "boundary of 基準から少し変えたもの、変形、別形"
+        }
+      ]
+    },
+    {
+      "id": "FB-003",
+      "surface_form": "variation",
+      "frame": "genetic variation within a species",
+      "meaning": "集団内の個体差、変異",
+      "disposition": "included",
+      "rationale": "The independent inventory candidate genetic variation within a species expresses 集団内の個体差、変異 and is worth retaining for a learner-facing variation entry.",
+      "semantic_assertions": [
+        {
+          "id": "FB-003-SA-001",
+          "statement": "The article must preserve the 集団内の個体差、変異 meaning in the genetic variation within a species frame.",
+          "polarity": "must_hold",
+          "scope": "genetic variation within a species"
+        },
+        {
+          "id": "FB-003-SA-002",
+          "statement": "The genetic variation within a species frame must remain distinct from the other variation senses.",
+          "polarity": "must_hold",
+          "scope": "boundary of 集団内の個体差、変異"
+        }
+      ]
+    },
+    {
+      "id": "FB-004",
+      "surface_form": "variation",
+      "frame": "a set of variations on a theme",
+      "meaning": "音楽の変奏、変奏曲",
+      "disposition": "included",
+      "rationale": "The independent inventory candidate a set of variations on a theme expresses 音楽の変奏、変奏曲 and is worth retaining for a learner-facing variation entry.",
+      "semantic_assertions": [
+        {
+          "id": "FB-004-SA-001",
+          "statement": "The article must preserve the 音楽の変奏、変奏曲 meaning in the a set of variations on a theme frame.",
+          "polarity": "must_hold",
+          "scope": "a set of variations on a theme"
+        },
+        {
+          "id": "FB-004-SA-002",
+          "statement": "The a set of variations on a theme frame must remain distinct from the other variation senses.",
+          "polarity": "must_hold",
+          "scope": "boundary of 音楽の変奏、変奏曲"
+        }
+      ]
+    },
+    {
+      "id": "FB-005",
+      "surface_form": "variation",
+      "frame": "perform a classical ballet variation",
+      "meaning": "バレエのソロ演目、独舞",
+      "disposition": "included",
+      "rationale": "The independent inventory candidate perform a classical ballet variation expresses バレエのソロ演目、独舞 and is worth retaining for a learner-facing variation entry.",
+      "semantic_assertions": [
+        {
+          "id": "FB-005-SA-001",
+          "statement": "The article must preserve the バレエのソロ演目、独舞 meaning in the perform a classical ballet variation frame.",
+          "polarity": "must_hold",
+          "scope": "perform a classical ballet variation"
+        },
+        {
+          "id": "FB-005-SA-002",
+          "statement": "The perform a classical ballet variation frame must remain distinct from the other variation senses.",
+          "polarity": "must_hold",
+          "scope": "boundary of バレエのソロ演目、独舞"
+        }
+      ]
+    }
+  ],
+  "article_findings": [],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "codex-gpt-5",
+    "ingested_by": "human",
+    "agent_id": "codex-main-final-blind-20260910T142432Z-faa7c659",
+    "same_model_as_generation": true
+  },
+  "schema_version": "final_blind_v2",
+  "stage": "final_blind",
+  "run_id": "blind-variation-20260910T142432Z-faa7c659",
+  "context_id": "blind-variation-context-20260910T142432Z-faa7c659",
+  "input_body_sha256": "68642a687d319602564bb976d43d54d0c6fd104793baae466da68d12aa0f3d8f",
+  "prompt_sha256": "e1880f7b1ea5ac34cefc35bc5421f067795551e5b7fba4eba842577ef0e35646",
+  "input_artifacts": [
+    "entry_body",
+    "final_blind_prompt"
+  ],
+  "audit_visible": false,
+  "recorded_at": "2026-09-10T15:04:00Z"
+}

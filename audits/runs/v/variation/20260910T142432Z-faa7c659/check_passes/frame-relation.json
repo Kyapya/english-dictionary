@@ -1,0 +1,69 @@
+{
+  "pass_id": "frame-relation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "codex-gpt-5",
+    "ingested_by": "human",
+    "agent_id": "codex-main-frame-stage2-20260910T142432Z-faa7c659",
+    "same_model_as_generation": true
+  },
+  "antonym_axis_blind_record": {
+    "schema_version": "antonym_axis_blind_record_v1",
+    "pass_id": "frame-relation",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "codex-gpt-5",
+      "ingested_by": "human",
+      "agent_id": "codex-main-frame-stage1-20260910T142432Z-faa7c659",
+      "same_model_as_generation": true
+    },
+    "recorded_at": "2026-09-10T15:00:00Z",
+    "axes": [
+      {
+        "item_id": "ant-c424c475fc3d",
+        "axis": "一様性との対照",
+        "relation_type": "状態",
+        "reason": "The antonym uniformity names the uniform state contrasted with variation."
+      },
+      {
+        "item_id": "ant-9e32003f8f73",
+        "axis": "一様性との対照",
+        "relation_type": "状態",
+        "reason": "The antonym homogeneity names the uniform state contrasted with variation."
+      }
+    ],
+    "input_body_sha256": "68642a687d319602564bb976d43d54d0c6fd104793baae466da68d12aa0f3d8f",
+    "blind_request_sha256": "f0910ef2f36756f3723424c2eab56aa031446cb7a7b02926678c32f2a563c47d"
+  },
+  "antonym_axis_adjudication_record": {
+    "schema_version": "antonym_axis_adjudication_record_v1",
+    "pass_id": "frame-relation",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "codex-gpt-5",
+      "ingested_by": "human",
+      "agent_id": "codex-main-frame-stage2-20260910T142432Z-faa7c659",
+      "same_model_as_generation": true
+    },
+    "adjudications": [
+      {
+        "item_id": "ant-c424c475fc3d",
+        "flags": [],
+        "rationale": "The 状態 contrast for sense:001 is compatible with the article's antonym relation."
+      },
+      {
+        "item_id": "ant-9e32003f8f73",
+        "flags": [],
+        "rationale": "The 状態 contrast for sense:003 is compatible with the article's antonym relation."
+      }
+    ],
+    "frame_findings": [],
+    "unrouted_observations": [],
+    "input_body_sha256": "68642a687d319602564bb976d43d54d0c6fd104793baae466da68d12aa0f3d8f",
+    "stage2_request_sha256": "5b360d16517b7ea95ebc5f325b877fa08fef3bec9238f3b2cc0be4833cc064e3",
+    "blind_record_sha256": "fcb432bad527d49d342c745e27c1851fb4c686d154b6ababdf92e0aed8fd9d04"
+  },
+  "aligned_at": "2026-09-10T15:01:00Z",
+  "findings": [],
+  "unrouted_observations": []
+}
