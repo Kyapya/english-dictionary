@@ -68,7 +68,7 @@
     },
     {
       "id": "evidence",
-      "specification": "prompts/check_pass_evidence_v6.md",
+      "specification": "prompts/check_pass_evidence_v7.md",
       "taxonomy_ids": ["evidence_claim_mismatch"],
       "sections": ["pronunciation", "etymology", "word_formation", "core_image", "sense_structure", "frequency_register", "frames", "collocations_examples", "usage_notes", "lexical_relations"]
     }

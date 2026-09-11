@@ -31,7 +31,7 @@ def freeze(path: Path, value: dict) -> None:
         path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
 
 
-def final_inputs(entry: Path, cycle: Path, root: Path) -> dict:
+def final_inputs(entry: Path, cycle: Path, root: Path, *, compact: bool = False) -> dict:
     report = review_validation.final_input_report(entry, cycle, root)
     if not report["valid"]:
         raise PreflightError(report)
@@ -57,15 +57,23 @@ def final_inputs(entry: Path, cycle: Path, root: Path) -> dict:
         template[field] = []
         for row in rows:
             result = {"id": row["id"], "status": None, "notes": ""}
+            if compact and field != "finding_results":
+                result.pop("notes")
             if field in typed_ids:
                 result[typed_ids[field]] = row["id"]
             if field == "blind_candidate_results":
                 result.update(assertion_ids=[a["id"] for a in row["semantic_assertions"]], verified_body_sha256=body_hash)
-                result["assertion_results"] = [{"id": a["id"], "status": None, "notes": ""} for a in row["semantic_assertions"]]
+                if not compact:
+                    result["assertion_results"] = [{"id": a["id"], "status": None, "notes": ""} for a in row["semantic_assertions"]]
             template[field].append(result)
     values["inventories"] = inventories
     template["checker_recheck_results"] = [{"id": row["pass_id"], "pass_id": row["pass_id"], "status": None, "notes": ""} for row in values["checker_recheck_manifest"]["pass_results"]]
     template["chronology_results"] = [{"id": name, "check_id": name, "status": None, "notes": ""} for name in ("body_hash_binding", "cold_and_normal_before_revision", "revision_before_final_blind", "final_blind_before_seal", "post_blind_completion")]
+    if compact:
+        # These prerequisites have just been checked by final_input_report and
+        # are checked again at ingestion; do not ask the model to narrate them.
+        del template["checker_recheck_results"]
+        del template["chronology_results"]
     values["response_template"] = template
     values["input_bindings"] = {name + ".json": hashlib.sha256((cycle / (name + ".json")).read_bytes()).hexdigest() for name in FINAL_INPUTS}
     for directory in ("check_passes", "recheck"):

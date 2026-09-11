@@ -77,13 +77,22 @@ class PromptContractTests(unittest.TestCase):
                         "採用した資料だけでなく、検索を試みるqueryと開く候補pageを、各外部調査batchの前に `entry_workflow_guard.py record-research` で記録する。`heartbeat` は各batchの前後などで進捗時刻を残すために実行できるが、間隔超過を停止条件にしない。終了コード2またはbudget到達時は、同じ依頼内で探索・再生成・新cycleを続けず、存在するdraftを `checked: false` のまま保存し、run JSONの `stop_reason` と `open_questions` をcommit・pushして安全停止する。時間不足を理由に合格基準を緩めてはならない。",
                         "採用した資料だけでなく、検索を試みるqueryと開く候補pageを、各外部調査batchの前に `entry_workflow_guard.py record-research` で記録する。各batchの前後と、作業中少なくとも10分ごとに `heartbeat` を実行する。終了コード2またはbudget到達時は、同じ依頼内で探索・再生成・新cycleを続けず、存在するdraftを `checked: false` のまま保存し、run JSONの `stop_reason` と `open_questions` をcommit・pushして安全停止する。時間不足を理由に合格基準を緩めてはならない。",
                     )
-                self.assertEqual(current, (backup / name).read_text(encoding="utf-8"))
+                expected = (backup / name).read_text(encoding="utf-8")
+                if name == "entry_spec_v5.md":
+                    # Content requirements remain exact; the operational tail
+                    # now routes to the current workflow instead of v1/v5 tables.
+                    boundary = "## リポジトリへの保存と独立チェック"
+                    self.assertEqual(current.split(boundary)[0], expected.split(boundary)[0])
+                    self.assertIn("prompts/final_review_spec_v3.md", current.split(boundary)[1])
+                else:
+                    self.assertTrue(current.startswith("> 旧runの再現・検証用。"))
+                    self.assertEqual(current.split("\n\n", 1)[1], expected)
         current_final = (REPO_ROOT / "prompts" / "final_review_spec_v1.md").read_text(encoding="utf-8").replace(
             "全体時間・検索query・候補page budget",
             "全体時間・検索query・候補page・heartbeat budget",
         )
         self.assertEqual(
-            current_final,
+            current_final.split("\n\n", 1)[1],
             (backup / "final_review_spec_v1.md").read_text(encoding="utf-8"),
         )
 
@@ -156,6 +165,13 @@ class PromptContractTests(unittest.TestCase):
         self.assertNotIn("start-cycle", text)
         self.assertNotIn("add-revision", text)
 
+    def test_final_v3_preserves_quality_without_requiring_pass_prose(self) -> None:
+        text = (REPO_ROOT / "prompts/final_review_spec_v3.md").read_text(encoding="utf-8")
+        for marker in ("全IDを重複なく", "未判定は合格ではない", "notes` は省略", "finding_results",
+                       "verified_body_sha256", "insufficient_evidence", "条件付き合格は使わない",
+                       "事実、語法、発音、例文、訳", "反例・矛盾・適用範囲"):
+            self.assertIn(marker, text)
+
     def test_final_blind_prompt_has_no_reconciliation_identifiers(self) -> None:
         text = (REPO_ROOT / "prompts" / "final_blind_prompt_v2.md").read_text(
             encoding="utf-8"
@@ -174,7 +190,7 @@ class PromptContractTests(unittest.TestCase):
             "prompts/check_router_v6.md",
             "prompts/check_pass_*_v6.md",
             "prompts/final_blind_prompt_v2.md",
-            "prompts/final_review_spec_v2.md",
+            "prompts/final_review_spec_v3.md",
             "prompts/notion_spec_v1.md",
         ):
             self.assertIn(marker, text)

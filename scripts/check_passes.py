@@ -29,7 +29,7 @@ ANTONYM_DIRECTIONS = {
     "語法・注意への対照表現としての移動",
     "対立軸修正",
 }
-EVIDENCE_CONTEXT_VERSION = "evidence_context_v1"
+EVIDENCE_CONTEXT_VERSION = "evidence_context_v2"
 TARGET_PREFIX_TO_SECTION = {
     "pronunciation": "pronunciation",
     "etymology": "etymology",
@@ -93,7 +93,7 @@ def validate_evidence_context(packet: Any) -> list[str]:
     errors: list[str] = []
     if not isinstance(packet, dict):
         return ["evidence context must be an object"]
-    if packet.get("schema_version") != EVIDENCE_CONTEXT_VERSION:
+    if packet.get("schema_version") not in {"evidence_context_v1", EVIDENCE_CONTEXT_VERSION}:
         errors.append(f"evidence context schema_version must be {EVIDENCE_CONTEXT_VERSION}")
     if packet.get("source_inventory_schema_version") != "source_inventory_v2":
         errors.append("evidence context source inventory schema must be source_inventory_v2")
@@ -147,6 +147,21 @@ def validate_evidence_context(packet: Any) -> list[str]:
             if fact_id not in facts:
                 errors.append(f"evidence union {union_id} references unknown fact {fact_id}")
     claims = index(packet.get("claim_units"), "claim_units")
+    article_targets = (
+        index(packet.get("article_targets"), "article_targets")
+        if packet.get("schema_version") == EVIDENCE_CONTEXT_VERSION else None
+    )
+    if article_targets is not None:
+        expected_targets = {
+            target for claim in claims.values()
+            for target in (claim.get("article_target_ids") if isinstance(claim.get("article_target_ids"), list) else [])
+            if isinstance(target, str)
+        }
+        if set(article_targets) != expected_targets:
+            errors.append("evidence context article_targets must exactly cover claim target IDs")
+        for target_id, target in article_targets.items():
+            if not isinstance(target.get("text"), str) or not target["text"].strip():
+                errors.append(f"evidence target {target_id}.text is required")
     referenced_facts: set[str] = set()
     referenced_unions: set[str] = set()
     for claim_id, claim in claims.items():
@@ -154,7 +169,7 @@ def validate_evidence_context(packet: Any) -> list[str]:
             if not str(claim.get(field, "")).strip():
                 errors.append(f"evidence claim {claim_id}.{field} is required")
         targets = claim.get("article_target_ids")
-        if not isinstance(targets, list) or not targets:
+        if not isinstance(targets, list) or not targets or not all(isinstance(t, str) and t for t in targets):
             errors.append(f"evidence claim {claim_id}.article_target_ids is required")
         for union_id in claim.get("union_ids", []):
             referenced_unions.add(str(union_id))
@@ -188,6 +203,7 @@ def build_evidence_context(
     *,
     input_body_sha256: str,
     relevant_sections: set[str],
+    article_targets: list[dict[str, Any]] | None = None,
 ) -> dict[str, Any]:
     """Extract only source-first rows used by claims in routed sections."""
 
@@ -227,6 +243,15 @@ def build_evidence_context(
         for item in gate.get("source_union", [])
         if isinstance(item, dict) and item.get("id")
     }
+    if article_targets is not None:
+        known_targets = {row["id"] for row in article_targets}
+        all_claim_targets = {
+            target for claim in gate.get("claim_units", [])
+            for target in claim.get("article_target_ids", [])
+        }
+        missing = all_claim_targets - known_targets
+        if missing:
+            raise ValueError("evidence claims reference missing article targets: " + ", ".join(sorted(missing)))
     claims = [
         item
         for item in gate.get("claim_units", [])
@@ -266,7 +291,7 @@ def build_evidence_context(
             }
         )
     packet = {
-        "schema_version": EVIDENCE_CONTEXT_VERSION,
+        "schema_version": EVIDENCE_CONTEXT_VERSION if article_targets is not None else "evidence_context_v1",
         "input_body_sha256": input_body_sha256,
         "source_inventory_schema_version": source_inventory.get("schema_version"),
         "source_inventory_sha256": _digest_json(source_inventory),
@@ -276,6 +301,13 @@ def build_evidence_context(
         "source_union": selected_unions,
         "claim_units": claims,
     }
+    if article_targets is not None:
+        target_map = {row["id"]: row for row in article_targets}
+        required_ids = {target for claim in claims for target in claim["article_target_ids"]}
+        missing = required_ids - set(target_map)
+        if missing:
+            raise ValueError("evidence claims reference missing article targets: " + ", ".join(sorted(missing)))
+        packet["article_targets"] = [target_map[target] for target in sorted(required_ids)]
     errors = validate_evidence_context(packet)
     if errors:
         raise ValueError("evidence context is invalid: " + "; ".join(errors))
@@ -1612,10 +1644,13 @@ def build_bundles(
                     "source-first artifact is required for the evidence checker"
                 )
             if source_inventory is not None:
+                import content_audit
                 request["evidence_context"] = build_evidence_context(
                     source_inventory,
                     input_body_sha256=_digest_bytes(body_bytes),
                     relevant_sections=set(check_pass["sections"]),
+                    article_targets=(content_audit.extract_targets(entry_path)
+                                     if check_pass["specification"] != "prompts/check_pass_evidence_v6.md" else None),
                 )
         bundles.append(
             _bind_request_hashes(

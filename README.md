@@ -139,7 +139,9 @@ checker_passes handoffは以上の意味で **2往復** ですが、最初の往
 
 新規runのorchestrator manifestには `checker_execution_protocol: parallel_subagents_v2` と `checker_subagent_count` を記録します。CIの `scripts/checker_subagent_gate.py` は、このプロトコルを持つcompleted handoff runについて7パスの被覆と `reviewer.agent_id` の一意性を再検証します。モデル名の一意性は要求しません。旧runは過去の監査証跡を改変しないため、この新プロトコルを持たない限り遡及的に失敗させません。
 
-evidence checker requestには、完成済みsource-first正本から対象claimに関係するsource、fact、source union、claim unit、source supportだけを抽出した `evidence_context_v1` を入れます。全artifactの丸ごと複製や再探索は行いません。source-first欠落・未完了・参照切れ・本文hash不一致はchecker開始前に拒否し、API/handoffはいずれも同じrequest JSONを使います。
+evidence checker requestには、完成済みsource-first正本のsource、fact、source union、claim unit、source supportと、最新本文から抽出した対応target本文を `evidence_context_v2`（`prompts/check_pass_evidence_v7.md`） として渡します。source-first欠落・未完了・参照切れ・本文hash不一致・存在しないtarget IDはchecker開始前に拒否します。実在するIDでもclaimと意味が違う問題は、reviewerが本文→claim→外部資料を読んで検出します。既存locatorの資料は実際に開いて確認し、作成者の要約だけで合格にしません。同じ資料は一度の閲覧でまとめて照合でき、探索計画や全factを作り直す必要はありません。外部資料が読めなければ対象claimを `insufficient_evidence` のblocking findingとします。API/handoffは同じrequestを使いますが、標準API呼出しは閲覧ツールを提供しないため、この確認には外部閲覧のできるhandoff reviewerを使います。
+
+新規runの最終照合は `final_review_v3` です。全IDの明示的なpass/fail判定は維持し、正常項目のnotesと本文全文の引用を省略します。failとfindingの修正確認・不採用判断には短い理由を残します。hash・時系列・再検査条件はコードで検証し、同じ事項の説明表をモデルに作らせません。空欄をpassで埋める処理はありません。旧runのv1/v2出力と証拠入力v1は従来の条件で検証し、保存済みraw記録を移行・書換えしません。
 
 ## オーケストレータ
 
@@ -195,7 +197,7 @@ python scripts/process_improvement.py reconfirm \
 | checker/cold finding解決 | `prompts/pre_blind_resolution_v1.md` |
 | final-blind finding解決 | `prompts/post_blind_resolution_v1.md` |
 | 争点別追加裁定 | `prompts/targeted_adjudication_v1.md` |
-| 最終合否 | `prompts/final_review_spec_v2.md` |
+| 最終合否 | `prompts/final_review_spec_v3.md` |
 | source-first | `prompts/source_first_audit_v2.md` |
 | process improvement | `process_improvement/README.md`、`prompts/process_improvement_learning_delta_v2.md`、`scripts/process_improvement.py` |
 | Notion表示変換 | `prompts/notion_spec_v1.md` |
