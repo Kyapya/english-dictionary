@@ -19,21 +19,26 @@
     "candidate_pages": 0
   },
   "status": "in_progress",
-  "stage": "preflight",
+  "stage": "preflight_pushed",
   "started_at": "2026-09-11T03:34:30Z",
   "deadline_at": "2026-09-11T04:34:30Z",
   "pre_draft_deadline_at": "2026-09-11T03:54:30Z",
-  "last_heartbeat_at": "2026-09-11T03:34:30Z",
+  "last_heartbeat_at": "2026-09-11T04:18:22Z",
   "remote_checkpoint": {
-    "confirmed": false,
-    "confirmed_at": null,
-    "commit_sha": ""
+    "confirmed": true,
+    "confirmed_at": "2026-09-11T04:18:22Z",
+    "commit_sha": "2c5c2aa277f5a5ba93a5cc0c2b86cd5d756bd85d"
   },
   "stage_history": [
     {
       "stage": "preflight",
       "recorded_at": "2026-09-11T03:34:30Z",
       "notes": "run initialized"
+    },
+    {
+      "stage": "preflight_pushed",
+      "recorded_at": "2026-09-11T04:18:22Z",
+      "notes": "remote start checkpoint verified"
     }
   ],
   "stop_reason": "",
@@ -722,5 +727,13 @@
   "publication": {
     "mode": "connector"
   },
-  "review_preflight": "review_preflight_v1"
+  "review_preflight": "review_preflight_v1",
+  "time_warnings": {
+    "pre_draft_target_exceeded": {
+      "first_observed_at": "2026-09-11T04:18:22Z",
+      "target_at": "2026-09-11T03:54:30Z",
+      "stage": "preflight",
+      "action": "record the delay cause and resume the same run; do not restart reviews"
+    }
+  }
 }
