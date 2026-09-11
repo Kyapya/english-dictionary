@@ -31,7 +31,8 @@ env:
   PYTHONUTF8: "1"
 
 jobs:
-  validate:
+  validate-platforms:
+    name: validate (${{ matrix.os }})
     strategy:
       fail-fast: false
       matrix:
@@ -122,3 +123,16 @@ jobs:
         run: |
           python scripts/content_audit.py validate-audited
           python scripts/semantic_resolution_gate.py validate-audited --compat
+
+  # Preserve the existing required-check name. This is an AND gate over both
+  # platforms, not a synthetic success or a branch-protection exception.
+  validate:
+    name: validate
+    needs: validate-platforms
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: Require every platform validation to succeed
+        env:
+          RESULT: ${{ needs.validate-platforms.result }}
+        run: test "$RESULT" = "success"

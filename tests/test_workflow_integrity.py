@@ -20,6 +20,12 @@ from file_lock import exclusive_lock
 
 
 class ProvenanceTests(unittest.TestCase):
+    def test_required_check_name_is_an_and_gate_over_platform_jobs(self):
+        workflow = (ROOT / ".github/workflows/validate.yml").read_text(encoding="utf-8")
+        self.assertIn("  validate:\n    name: validate\n    needs: validate-platforms", workflow)
+        self.assertIn("if: always()", workflow)
+        self.assertIn('run: test "$RESULT" = "success"', workflow)
+
     def test_missing_original_is_not_independent_provenance(self):
         self.assertTrue(provenance.validate(
             {"reviewer": {"mode": "handoff", "agent_id": "invented"}},
