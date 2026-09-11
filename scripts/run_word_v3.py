@@ -1229,6 +1229,10 @@ def ingest_handoff_review(
     }
     if agent_id:
         reviewer["agent_id"] = agent_id
+    import handoff_provenance
+    if manifest.get("orchestrator", {}).get("review_provenance_protocol") == handoff_provenance.PROTOCOL:
+        reviewer["source_response"] = handoff_provenance.bind(response_path, repo_root)
+        reviewer["ingested_by"] = "orchestrator"
     entry = repo_root / str(manifest["entry_path"])
     front, _ = validate_entry._split_front_matter(entry.read_text(encoding="utf-8"))
     generation_model = validate_entry._front_matter_values(front or []).get("model", "")

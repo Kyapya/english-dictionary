@@ -26,6 +26,11 @@ python scripts/start_words.py --status
 
 ## オーケストレータ
 
+開始前に `python -X utf8 scripts/environment_preflight.py` を実行する。
+監査原本の保存、公開再開、マージ方式、マージ後確認は
+`docs/workflow_integrity.md` に従う。ID・hash・CI成功だけを独立レビューの証明と
+呼ばず、正解表から判定を作らない。原応答を保存して正式取り込みする。
+
 ```bash
 python scripts/run_word.py --dry-run <headword>
 python scripts/start_word.py <headword>

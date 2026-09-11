@@ -20,6 +20,7 @@ B2_RATIONALE_NOT_DISTINCT = "B2_rationale_not_distinct"
 B2_RATIONALE_NOT_GROUNDED = "B2_rationale_not_grounded"
 B3_ATTRIBUTION_COPY_PATTERN = "B3_attribution_copy_pattern"
 B4_ZERO_FINDING_SINGLE_REVIEW = "B4_zero_finding_single_review"
+C1_SYNTHETIC_REVIEW = "C1_synthetic_review"
 
 
 def normalize_text(value: Any) -> str:
@@ -71,8 +72,8 @@ def validate_reviewer(
         for key in ("declared_model", "ingested_by"):
             if not isinstance(value.get(key), str) or not value[key].strip():
                 errors.append(f"reviewer.{key} is required for handoff mode")
-        if value.get("ingested_by") not in {None, "human"}:
-            errors.append("reviewer.ingested_by must be human")
+        if value.get("ingested_by") not in {None, "human", "orchestrator"}:
+            errors.append("reviewer.ingested_by must be human or orchestrator")
 
     agent_id = value.get("agent_id")
     if agent_id is not None and (not isinstance(agent_id, str) or not agent_id.strip()):
@@ -162,6 +163,7 @@ def validate_attribution_liveness(
     examples = _example_map(request)
     errors: list[str] = []
     all_terms: list[str] = []
+    copied_prefixes = 0
     for index, row in enumerate(rows):
         if not isinstance(row, dict):
             continue
@@ -177,6 +179,13 @@ def validate_attribution_liveness(
         ]
         all_terms.extend(terms)
         valid_terms = [term for term in terms if term in haystack]
+        sentence = str(example.get("example", ""))
+        prefix = " ".join(sentence.split()[:4])
+        expected_rationale = (
+            f'The phrase "{prefix}" in the example {sentence} supports '
+        )
+        if terms == [normalize_text(prefix)] and str(row.get("rationale", "")).startswith(expected_rationale):
+            copied_prefixes += 1
         if row.get("classification") == "unique" and not valid_terms:
             errors.append(
                 f"{B1_TERM_NOT_IN_EXAMPLE}: attribution {example_id or index} has no "
@@ -193,6 +202,11 @@ def validate_attribution_liveness(
                 "rationale contains neither an exact quote nor a valid discriminating term"
             )
 
+    if copied_prefixes >= 4 and copied_prefixes / max(1, len(rows)) >= 0.8:
+        errors.append(
+            f"{C1_SYNTHETIC_REVIEW}: repeated first-four-word attribution template; "
+            "preserve original independent responses and re-review, do not vary filler text"
+        )
     errors.extend(
         _distinctness_errors(
             [row for row in rows if isinstance(row, dict)],
@@ -275,6 +289,14 @@ def validate_final_review_liveness(
             )
             quote = normalize_text(quotes.get(item_id, ""))
             notes = normalize_text(row.get("notes"))
+            if quote and re.fullmatch(
+                r"reviewed(?: relation sequence \d+ \([^)]*\)| [^:]+): " + re.escape(quote),
+                notes,
+            ):
+                errors.append(
+                    f"{C1_SYNTHETIC_REVIEW}: {field} {item_id} only echoes its target; "
+                    "this is not evidence of adjudication"
+                )
             if quote and quote not in notes:
                 errors.append(
                     f"{B2_RATIONALE_NOT_GROUNDED}: {field} {item_id} notes do not "
@@ -395,6 +417,7 @@ def invalidation_ids(errors: Iterable[str]) -> list[str]:
         B2_RATIONALE_NOT_GROUNDED,
         B3_ATTRIBUTION_COPY_PATTERN,
         B4_ZERO_FINDING_SINGLE_REVIEW,
+        C1_SYNTHETIC_REVIEW,
     )
     return sorted({item for error in errors for item in known if error.startswith(item)})
 

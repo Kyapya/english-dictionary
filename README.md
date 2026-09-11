@@ -248,3 +248,9 @@ Pull Requestでは `.github/workflows/validate.yml` が変更記事と監査の�
 - `exports/`: 結合Markdownと索引
 
 Notion同期は `prompts/notion_spec_v1.md` と `.github/workflows/sync-notion.yml` に従います。GitHub上のMarkdownを現行本文の正本とし、既存の同一見出し語ページは内容を更新します。
+## Workflow integrity
+
+Review evidence, Windows preflight, resumable connector publication, and
+history-preserving merges: [workflow integrity](docs/workflow_integrity.md).
+The [variation evidence incident](docs/incidents/variation-review-integrity.md)
+is preserved; its previous PASS does not authorize publication.

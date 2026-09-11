@@ -81,6 +81,9 @@ jobs:
             args+=(--entry "$file")
           done
           python scripts/content_audit.py validate-sync "${files[@]}"
+          if [[ "$GITHUB_EVENT_NAME" != "workflow_dispatch" && ! "$BEFORE_SHA" =~ ^0+$ ]]; then
+            python scripts/merge_preflight.py --base "$BEFORE_SHA" --head "$CURRENT_SHA"
+          fi
           if [[ "$GITHUB_EVENT_NAME" == "workflow_dispatch" ]]; then
             python scripts/semantic_resolution_gate.py validate-entries --compat "${files[@]}"
           else

@@ -215,6 +215,14 @@ def _load_parallel_checker_responses(
                 f"for every pass; duplicate: {reviewer['agent_id']}"
             )
         agent_ids.add(normalized_agent_id)
+        import handoff_provenance
+        # The path is derived from this cycle, not supplied by the response.
+        source_root = next((parent.parent for parent in cycle_dir.parents if parent.name == "audits"), None)
+        if source_root and handoff_provenance.required_for_cycle(cycle_dir, source_root):
+            reviewer["source_response"] = handoff_provenance.bind(
+                paths[expected_pass_id], source_root
+            )
+            reviewer["ingested_by"] = "orchestrator"
         value["reviewer"] = reviewer
         loaded[expected_pass_id] = value
 
@@ -563,6 +571,10 @@ def _process_parallel_stage2(
         raise ValueError(
             "frame-relation stage 2 must use the same declared_model as stage 1"
         )
+    import handoff_provenance
+    if manifest.get("orchestrator", {}).get("review_provenance_protocol") == handoff_provenance.PROTOCOL:
+        reviewer["source_response"] = handoff_provenance.bind(response_path, repo_root)
+        reviewer["ingested_by"] = "orchestrator"
     value["reviewer"] = reviewer
 
     check_dir = cycle_dir / "check_passes"

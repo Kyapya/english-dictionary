@@ -10,6 +10,8 @@ values so independent contexts cannot be represented as one reused subagent.
 
 import argparse
 import json
+import subprocess
+from datetime import datetime
 from pathlib import Path
 from typing import Any
 
@@ -127,6 +129,11 @@ def validate_manifest_subagents(
     for index, item in enumerate(outputs):
         assert isinstance(item, dict)
         pass_id = expected[index]
+        import handoff_provenance
+        errors.extend(f"{label}: {pass_id}: {error}" for error in
+                      handoff_provenance.validate_checker(
+                          item, repo_root,
+                          required=orchestrator.get("review_provenance_protocol") == handoff_provenance.PROTOCOL))
         reviewer = item.get("reviewer")
         if not isinstance(reviewer, dict):
             errors.append(f"{label}: {pass_id} reviewer metadata is required")
@@ -174,6 +181,46 @@ def validate_manifest_subagents(
                     errors.append(
                         f"{label}: checker_reviewers.{pass_id}.declared_model must match pass output"
                     )
+    if orchestrator.get("review_provenance_protocol") == handoff_provenance.PROTOCOL:
+        for stage in ("cold_review", "final_blind", "final_review"):
+            raw = _load_object(target.parent / (stage + ".json"), label + ": " + stage, errors)
+            if raw is None:
+                continue
+            errors.extend(f"{label}: {stage}: {error}" for error in
+                          handoff_provenance.validate(raw, repo_root, required=True))
+            if manifest.get("status") == "completed":
+                try:
+                    completed = max(datetime.fromisoformat(row["recorded_at"].replace("Z", "+00:00"))
+                                    for row in manifest.get("stage_history", [])
+                                    if row.get("stage") == "completed")
+                    recorded = datetime.fromisoformat(raw["recorded_at"].replace("Z", "+00:00"))
+                    if completed < recorded:
+                        errors.append(f"{label}: completion precedes {stage} output")
+                except (KeyError, ValueError, TypeError):
+                    errors.append(f"{label}: cannot verify completed review timestamps")
+    return errors
+
+
+def validate_changed_protocol(base: str, head: str, root: Path = REPO_ROOT) -> list[str]:
+    """New completed runs cannot opt out by omitting the protocol marker."""
+    import handoff_provenance
+    errors = []
+    paths = subprocess.check_output(["git", "diff", "--name-only", "--diff-filter=AM", base, head,
+                                     "--", "audits/workflow_runs"], cwd=root,
+                                    text=True, encoding="utf-8").splitlines()
+    for relative in paths:
+        manifest = _load_object(root / relative, relative, errors)
+        if not manifest:
+            continue
+        old = subprocess.run(["git", "show", f"{base}:{relative}"], cwd=root, capture_output=True)
+        if old.returncode == 0:
+            old_manifest = json.loads(old.stdout)
+            required = old_manifest.get("orchestrator", {}).get("review_provenance_protocol") == handoff_provenance.PROTOCOL
+        else:
+            required = True
+        if required and manifest.get("orchestrator", {}).get("review_provenance_protocol") != handoff_provenance.PROTOCOL:
+            errors.append(relative + ": new runs require preserved_handoff_v1; protocol cannot be removed")
+        errors.extend(validate_manifest_subagents(manifest, repo_root=root, merge_ready=True))
     return errors
 
 
@@ -203,9 +250,13 @@ def main(argv: list[str] | None = None) -> int:
     sub = parser.add_subparsers(dest="command", required=True)
     validate = sub.add_parser("validate")
     validate.add_argument("--merge-ready", action="store_true")
+    changed = sub.add_parser("validate-changed")
+    changed.add_argument("--base", required=True)
+    changed.add_argument("--head", required=True)
     args = parser.parse_args(argv)
 
-    errors = validate_all(merge_ready=args.merge_ready)
+    errors = (validate_changed_protocol(args.base, args.head)
+              if args.command == "validate-changed" else validate_all(merge_ready=args.merge_ready))
     if errors:
         for error in errors:
             print(f"ERROR: {error}")

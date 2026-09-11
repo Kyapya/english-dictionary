@@ -52,6 +52,7 @@ def _subagent_plan_payload(*args: Any, **kwargs: Any) -> dict[str, Any]:
     value = _plan_payload_impl(*args, **kwargs)
     checker_passes = value.get("checker_passes")
     value["checker_execution_protocol"] = CHECKER_SUBAGENT_PROTOCOL_VERSION
+    value["review_provenance_protocol"] = "preserved_handoff_v1"
     value["checker_subagent_count"] = (
         len(checker_passes) if isinstance(checker_passes, list) else 0
     )
