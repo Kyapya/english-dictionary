@@ -33,7 +33,7 @@ class ReviewPreflightTests(unittest.TestCase):
         cls.root = Path(cls.temp.name)
         # Freeze regression inputs at the incident commit, so future commission
         # corrections do not silently change the expected review fixture.
-        data = subprocess.check_output(["git", "-C", str(ROOT), "archive", "dbcdfce512fa825f995896570692ac904b832393", "prompts", "entries/c/commission.md", "audits/runs/c/commission", "audits/workflow_runs/commission", "audits/escaped_defect_taxonomy.json", "audits/review_invalidations.json"])
+        data = subprocess.check_output(["git", "-c", "core.autocrlf=false", "-C", str(ROOT), "archive", "dbcdfce512fa825f995896570692ac904b832393", "prompts", "entries/c/commission.md", "audits/runs/c/commission", "audits/workflow_runs/commission", "audits/escaped_defect_taxonomy.json", "audits/review_invalidations.json"])
         with tarfile.open(fileobj=io.BytesIO(data)) as archive:
             archive.extractall(cls.root, filter="data")
         gitdir = publish.git(ROOT, "rev-parse", "--absolute-git-dir")

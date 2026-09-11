@@ -1,6 +1,8 @@
 name: Validate dictionary changes
 
 on:
+  push:
+    branches: [main]
   pull_request:
     paths:
       - "entries/**/*.md"
@@ -8,6 +10,8 @@ on:
       - "process_improvement/**"
       - "queue/**"
       - "docs/multi_word*.md"
+      - "docs/workflow_integrity.md"
+      - "docs/incidents/**"
       - "prompts/**/*.md"
       - "scripts/**/*.py"
       - "scripts/**/*.js"
@@ -17,15 +21,26 @@ on:
       - ".github/workflows/sync-notion.yml"
       - "AGENTS.md"
       - "README.md"
+      - ".gitattributes"
   workflow_dispatch:
 
 permissions:
   contents: read
 
+env:
+  PYTHONUTF8: "1"
+
 jobs:
   validate:
-    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
     timeout-minutes: 15
+    defaults:
+      run:
+        shell: bash
 
     steps:
       - name: Check out repository
@@ -65,15 +80,16 @@ jobs:
         run: python scripts/checker_subagent_gate.py validate --merge-ready
 
       - name: Validate bounded entry workflow runs
-        if: github.event_name != 'pull_request'
+        if: github.event_name == 'workflow_dispatch'
         run: python scripts/entry_workflow_guard.py validate --merge-ready
 
       - name: Validate changed content review path
-        if: github.event_name == 'pull_request'
+        if: github.event_name == 'pull_request' || github.event_name == 'push'
         env:
-          BASE_SHA: ${{ github.event.pull_request.base.sha }}
-          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha || github.sha }}
         run: |
+          python scripts/checker_subagent_gate.py validate-changed --base "$BASE_SHA" --head "$HEAD_SHA"
           if git diff --name-only "$BASE_SHA" "$HEAD_SHA" -- | grep -Eq '^audits/targeted_corrections/.+\.json$'; then
             python scripts/targeted_correction.py validate-changed \
               --base "$BASE_SHA" \
@@ -94,8 +110,15 @@ jobs:
               --head "$HEAD_SHA"
           fi
 
+      - name: Verify actual merged review chronology
+        if: github.event_name == 'push'
+        env:
+          BASE_SHA: ${{ github.event.before }}
+          HEAD_SHA: ${{ github.sha }}
+        run: python scripts/merge_preflight.py --base "$BASE_SHA" --head "$HEAD_SHA"
+
       - name: Validate all existing content audits
-        if: github.event_name != 'pull_request'
+        if: github.event_name == 'workflow_dispatch'
         run: |
           python scripts/content_audit.py validate-audited
           python scripts/semantic_resolution_gate.py validate-audited --compat

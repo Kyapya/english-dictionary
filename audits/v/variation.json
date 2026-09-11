@@ -565,16 +565,28 @@
   "findings": [],
   "resolutions": [],
   "final_decision": {
-    "decision": "pass",
-    "blockers": [],
+    "decision": "reject",
+    "blockers": [
+      "Independent review evidence invalidated; original responses must be re-obtained."
+    ],
     "notes": [
       "The corrected article was reconciled against every extracted target and relation.",
       "The source-first inventory records independent general dictionaries plus specialist coverage.",
       "The sealed final blind candidate assertions were all rechecked against the current body hash."
     ],
     "reviewed_at": "2026-09-10T15:07:00Z",
-    "blind_output_sha256": "c2de7d0ca98a7912ff400f9159400cf7c2706af428cda22e109c4331c3dc798d"
+    "blind_output_sha256": "c2de7d0ca98a7912ff400f9159400cf7c2706af428cda22e109c4331c3dc798d",
+    "recorded_decision": "pass"
   },
-  "invalidated_by": [],
-  "review_liveness_errors": []
+  "invalidated_by": [
+    "C1_synthetic_review"
+  ],
+  "review_liveness_errors": [
+    "C1_synthetic_review: repeated first-four-word attribution template; preserve original independent responses and re-review, do not vary filler text",
+    "C1_synthetic_review: relation_results risk_sense_pair:001 only echoes its target; this is not evidence of adjudication",
+    "C1_synthetic_review: relation_results risk_sense_pair:002 only echoes its target; this is not evidence of adjudication",
+    "C1_synthetic_review: relation_results example_translation:001 only echoes its target; this is not evidence of adjudication",
+    "C1_synthetic_review: relation_results example_translation:002 only echoes its target; this is not evidence of adjudication",
+    "C1_synthetic_review: 74 additional violations omitted"
+  ]
 }

@@ -530,6 +530,14 @@ def generate_manifest(
     if missing:
         raise ValueError("required raw outputs are missing: " + ", ".join(missing))
     raw = {stage: _read_json(path) for stage, path in paths.items()}
+    import handoff_provenance
+    require_handoff = handoff_provenance.required_for_cycle(cycle_dir, repo_root)
+    for stage in ("cold_review", "final_blind", "final_review"):
+        provenance_errors = handoff_provenance.validate(
+            raw[stage], repo_root, required=require_handoff
+        )
+        if provenance_errors:
+            raise ValueError(stage + ": " + "; ".join(provenance_errors))
     revision_path = cycle_dir / WORKFLOW_IMPROVEMENT_FILENAMES["pre_blind_revision"]
     workflow_revision_raw = (
         _read_json(revision_path) if revision_path.is_file() else None
@@ -688,6 +696,11 @@ def generate_manifest(
     for output in outputs:
         if not isinstance(output, dict):
             raise ValueError("normal_review.pass_outputs contains a non-object")
+        provenance_errors = handoff_provenance.validate_checker(
+            output, repo_root, required=require_handoff
+        )
+        if provenance_errors:
+            raise ValueError(str(output.get("pass_id")) + ": " + "; ".join(provenance_errors))
         pass_id = str(output.get("pass_id", ""))
         if pass_id in actual_passes:
             raise ValueError(f"normal_review has duplicate pass output: {pass_id}")
@@ -1081,7 +1094,28 @@ def generate_manifest(
                 secondary_reviews=secondary_reviews,
             )
         )
+    # Apply the new template detector prospectively, plus explicitly invalidated
+    # historical runs. Do not silently reclassify every legacy audit.
+    if not require_handoff and not _registered_run_invalidation(cycle_dir, repo_root):
+        liveness_errors = [error for error in liveness_errors
+                           if not error.startswith(review_liveness.C1_SYNTHETIC_REVIEW)]
     invalidated_by = review_liveness.invalidation_ids(liveness_errors)
+    registry_path = repo_root / "audits/review_invalidations.json"
+    if registry_path.exists():
+        registry = _read_json(registry_path)
+        for record in registry.get("invalidations", []):
+            if (record.get("status") == "invalidated_run"
+                    and record.get("run_id") == cycle_dir.name
+                    and record.get("entry_path") == _relative(entry_path, repo_root)):
+                for reason in record.get("invalidated_by", []):
+                    # Do not reinstate retired legacy liveness policies (e.g.
+                    # the old zero-findings/second-model rule).
+                    if reason != review_liveness.C1_SYNTHETIC_REVIEW:
+                        continue
+                    if reason not in invalidated_by:
+                        invalidated_by.append(reason)
+                        liveness_errors.append(reason + ": " + record["reason"])
+    invalidated_by.sort()
 
     manifest = {
         "schema_version": SCHEMA_VERSION,
@@ -1112,6 +1146,12 @@ def generate_manifest(
         manifest["review_liveness_errors"] = review_liveness.summarize_errors(
             liveness_errors
         )
+    if review_liveness.C1_SYNTHETIC_REVIEW in invalidated_by:
+        manifest["final_decision"]["recorded_decision"] = decision
+        manifest["final_decision"]["decision"] = "reject"
+        manifest["final_decision"]["blockers"] = [
+            *blockers, "Independent review evidence invalidated; original responses must be re-obtained."
+        ]
     return manifest
 
 

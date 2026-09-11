@@ -106,7 +106,7 @@ class EvidentInputRegressionTests(unittest.TestCase):
         # Freeze the incident bundle; future dictionary edits must not silently
         # change these regression inputs or create new dependencies on current text.
         data = subprocess.check_output([
-            "git", "-C", str(ROOT), "archive",
+            "git", "-c", "core.autocrlf=false", "-C", str(ROOT), "archive",
             "ced03833849db093d0a9581dd7be7277d9f32869",
             "prompts", "entries/e/evident.md", "audits/runs/e/evident",
         ])
