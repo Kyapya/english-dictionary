@@ -15,15 +15,15 @@
   },
   "time_policy": "advisory_v1",
   "usage": {
-    "research_queries": 0,
-    "candidate_pages": 0
+    "research_queries": 4,
+    "candidate_pages": 6
   },
   "status": "in_progress",
-  "stage": "preflight_pushed",
+  "stage": "draft_saved",
   "started_at": "2026-09-12T01:55:42Z",
   "deadline_at": "2026-09-12T02:55:42Z",
   "pre_draft_deadline_at": "2026-09-12T02:15:42Z",
-  "last_heartbeat_at": "2026-09-12T02:00:20Z",
+  "last_heartbeat_at": "2026-09-12T02:10:58Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-12T02:00:20Z",
@@ -39,6 +39,11 @@
       "stage": "preflight_pushed",
       "recorded_at": "2026-09-12T02:00:20Z",
       "notes": "remote start checkpoint verified"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-09-12T02:10:58Z",
+      "notes": "orchestrator completed generation"
     }
   ],
   "stop_reason": "",
@@ -524,7 +529,16 @@
         "stage": "generation"
       }
     ],
-    "processing": {},
+    "processing": {
+      "generation": {
+        "status": "pending",
+        "source_refs": [
+          "audits/runs/c/controversial/20260912T015542Z-872034dc/generation.json"
+        ],
+        "reason": "saved stage output has no coordinator learning_delta decision",
+        "recorded_at": "2026-09-12T02:10:58Z"
+      }
+    },
     "pending_events": [],
     "selection_errors": []
   },
@@ -547,11 +561,11 @@
       {
         "id": "generation",
         "instruction_bytes": 53450,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 53450,
+        "duration_seconds": 180.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "mechanical_validator",
@@ -719,11 +733,17 @@
     }
   },
   "orchestrator_state": {
-    "next_stage_index": 1,
+    "next_stage_index": 2,
     "completed_stages": [
-      "guard_start"
+      "guard_start",
+      "generation"
     ],
-    "stage_outputs": {}
+    "stage_outputs": {
+      "generation": [
+        "entries/c/controversial.md",
+        "audits/runs/c/controversial/20260912T015542Z-872034dc/generation.json"
+      ]
+    }
   },
   "publication": {
     "mode": "connector"
