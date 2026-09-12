@@ -1,0 +1,152 @@
+{
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "IC-FB-001",
+      "surface_form": "controversial",
+      "frame": "a controversial issue/decision/figure/remark",
+      "meaning": "論争を呼ぶ、賛否が分かれる、物議を醸す",
+      "disposition": "included",
+      "rationale": "The frame a controversial issue/decision/figure/remark supports the meaning 論争を呼ぶ、賛否が分かれる、物議を醸す because the adjective describes a subject that attracts strong public disagreement.",
+      "semantic_assertions": [
+        {
+          "id": "IC-FB-001-SA-001",
+          "statement": "The adjective applies to an issue, decision, figure, or remark that provokes substantial disagreement or criticism.",
+          "polarity": "must_hold",
+          "scope": "ordinary public-controversy use"
+        },
+        {
+          "id": "IC-FB-001-SA-002",
+          "statement": "The ordinary adjective does not by itself entail that the subject is false, illegal, bad, or deliberately provocative.",
+          "polarity": "must_not_hold",
+          "scope": "ordinary public-controversy boundary"
+        }
+      ]
+    },
+    {
+      "id": "IC-FB-002",
+      "surface_form": "controversial",
+      "frame": "controversial among/within a group; controversial in some circles",
+      "meaning": "特定の集団の中で論争を呼ぶ",
+      "disposition": "included",
+      "rationale": "The frame controversial among/within a group; controversial in some circles supports the meaning 特定の集団の中で論争を呼ぶ by restricting where the disagreement is reported.",
+      "semantic_assertions": [
+        {
+          "id": "IC-FB-002-SA-001",
+          "statement": "An among, within, or in-some-circles phrase can limit the community in which the controversy exists.",
+          "polarity": "must_hold",
+          "scope": "scoped controversy"
+        }
+      ]
+    },
+    {
+      "id": "IC-FB-003",
+      "surface_form": "controversial",
+      "frame": "become/remain/prove controversial; highly or widely controversial",
+      "meaning": "論争状態になる、論争状態が続く、論争の広がりや強さが大きい",
+      "disposition": "included",
+      "rationale": "The frame become/remain/prove controversial; highly or widely controversial shows that controversial can describe a changing or continuing state, with modifiers for intensity or reach.",
+      "semantic_assertions": [
+        {
+          "id": "IC-FB-003-SA-001",
+          "statement": "Become, remain, and prove can present controversy as a state that begins, continues, or becomes evident.",
+          "polarity": "must_hold",
+          "scope": "copular and resultative frames"
+        },
+        {
+          "id": "IC-FB-003-SA-002",
+          "statement": "Highly and widely distinguish strength of opposition from the breadth of the group involved.",
+          "polarity": "must_hold",
+          "scope": "degree and scope modifiers"
+        }
+      ]
+    },
+    {
+      "id": "IC-FB-004",
+      "surface_form": "controversial",
+      "frame": "a controversial temperament/manner; be controversial by temperament",
+      "meaning": "論争を好む、論争を引き起こしがちな、論争的な",
+      "disposition": "included",
+      "rationale": "The frame a controversial temperament/manner; be controversial by temperament supports the meaning 論争を好む、論争を引き起こしがちな、論争的な as a rare dispositional reading about a person's habitual conduct.",
+      "semantic_assertions": [
+        {
+          "id": "IC-FB-004-SA-001",
+          "statement": "A temperament, manner, or by-temperament frame can shift the adjective from public evaluation of a person to a rare description of disputatious disposition.",
+          "polarity": "must_hold",
+          "scope": "rare dispositional use"
+        },
+        {
+          "id": "IC-FB-004-SA-002",
+          "statement": "A controversial person in ordinary current usage must not automatically be interpreted as someone who enjoys arguing.",
+          "polarity": "must_not_hold",
+          "scope": "person-reading boundary"
+        }
+      ]
+    },
+    {
+      "id": "IC-FB-005",
+      "surface_form": "controversially",
+      "frame": "controversially modify a claim, decision, or clause",
+      "meaning": "物議を醸す形で、論争を呼ぶ形で",
+      "disposition": "included",
+      "rationale": "The frame controversially modify a claim, decision, or clause supports the meaning 物議を醸す形で、論争を呼ぶ形で as the adverbial form describing how an assertion or action is presented.",
+      "semantic_assertions": [
+        {
+          "id": "IC-FB-005-SA-001",
+          "statement": "Controversially is an adverbial derivative and does not create a new adjective sense of controversial.",
+          "polarity": "must_hold",
+          "scope": "adverbial derivation"
+        }
+      ]
+    },
+    {
+      "id": "IC-FB-006",
+      "surface_form": "controversy",
+      "frame": "public controversy / a controversy over a policy",
+      "meaning": "論争、論争点、物議",
+      "disposition": "included",
+      "rationale": "The frame public controversy / a controversy over a policy supports the meaning 論争、論争点、物議 as the noun naming the dispute associated with controversial subjects.",
+      "semantic_assertions": [
+        {
+          "id": "IC-FB-006-SA-001",
+          "statement": "Controversy is a related noun naming a dispute or contentious public issue, not an inflected form of the adjective.",
+          "polarity": "must_hold",
+          "scope": "noun derivation"
+        }
+      ]
+    },
+    {
+      "id": "IC-FB-007",
+      "surface_form": "controversialist",
+      "frame": "a controversialist in a debate",
+      "meaning": "論争家、論争に加わる人",
+      "disposition": "included",
+      "rationale": "The frame a controversialist in a debate supports the meaning 論争家、論争に加わる人 as a formal related noun for a participant or advocate in controversy.",
+      "semantic_assertions": [
+        {
+          "id": "IC-FB-007-SA-001",
+          "statement": "Controversialist refers to a person associated with controversy and remains a separate noun from controversial.",
+          "polarity": "must_hold",
+          "scope": "person-denoting derivation"
+        }
+      ]
+    },
+    {
+      "id": "IC-FB-008",
+      "surface_form": "controvert",
+      "frame": "to controvert a claim",
+      "meaning": "反論する、論駁する",
+      "disposition": "included",
+      "rationale": "The frame to controvert a claim supports the meaning 反論する、論駁する as a related verb for directly challenging a proposition, while remaining lexically separate from controversial.",
+      "semantic_assertions": [
+        {
+          "id": "IC-FB-008-SA-001",
+          "statement": "Controvert is a separate verb meaning to dispute or refute a claim and is not a direct inflection of controversial.",
+          "polarity": "must_hold",
+          "scope": "verb-family boundary"
+        }
+      ]
+    }
+  ],
+  "article_findings": []
+}
