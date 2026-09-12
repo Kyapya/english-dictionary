@@ -1,12 +1,12 @@
 ---
 headword: controversial
 type: word
-status: draft
+status: checked
 prompt_version: entry_spec_v5
 model: codex-gpt-5
 created_at: 2026-09-12
 updated_at: 2026-09-12
-checked: false
+checked: true
 tags: []
 ---
 
