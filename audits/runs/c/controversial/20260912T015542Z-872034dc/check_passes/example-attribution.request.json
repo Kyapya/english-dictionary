@@ -1,0 +1,124 @@
+{
+  "schema_version": "example_attribution_blind_request_v1",
+  "pass_id": "example-attribution",
+  "taxonomy_ids": [
+    "example_sense_attribution_mismatch"
+  ],
+  "specification": "prompts/check_pass_example_attribution_v6.md",
+  "input_body_sha256": "81a1d26c2b696bfd6afeee63cc863b8e3f8bcfbe0e9dd5fde1a124523d5379c5",
+  "input_sections": {
+    "sense_structure": [
+      {
+        "sense_id": "sense:001",
+        "line": 30,
+        "label": "1. 【形容詞・限定用法／叙述用法・対象／人】論争を呼ぶ、賛否が分かれる、物議を醸す",
+        "definition": "政策・決定・主張・作品・発言・人物などが、社会全体または特定の集団の中で、強い意見の対立、批判、反対を引き起こしていることを表す。事実として真偽が決まっていないことを必ずしも含まず、悪い、違法、意図的に挑発的だという意味でもない。"
+      },
+      {
+        "sense_id": "sense:002",
+        "line": 156,
+        "label": "2. 【形容詞・人の性向・まれ】論争を好む、論争を引き起こしがちな、論争的な",
+        "definition": "人が性格や態度の傾向として、議論を好んだり、既存の立場に反論して対立を生みやすかったりすることを表す。辞書に記載される低頻度の語義で、現代の controversial person は通常、語義1の「論争の的となっている人物」と解釈される。"
+      }
+    ],
+    "collocations_examples": [
+      {
+        "example_id": "ex-ac1f37066679",
+        "example": "It remains controversial whether the policy reduced inequality.",
+        "translation": "その政策が格差を縮小したかどうかは、今も議論が分かれている。"
+      },
+      {
+        "example_id": "ex-4b69ba5d4c7d",
+        "example": "Her controversial manner turned minor technical disagreements into public arguments.",
+        "translation": "彼女の対立を生みやすい態度は、ささいな技術上の意見の違いまで公の論争に変えた。"
+      },
+      {
+        "example_id": "ex-521917da671b",
+        "example": "The city council postponed a highly controversial proposal.",
+        "translation": "市議会は非常に物議を醸している提案を延期した。"
+      },
+      {
+        "example_id": "ex-1ae410060fc9",
+        "example": "The advertising campaign is controversial in some circles but popular with younger viewers.",
+        "translation": "その広告キャンペーンは一部では物議を醸しているが、若い視聴者には人気がある。"
+      },
+      {
+        "example_id": "ex-e9c0f853bc9b",
+        "example": "The committee made a controversial decision to cancel the exhibition.",
+        "translation": "委員会は展示会を中止するという物議を醸す決定を下した。"
+      },
+      {
+        "example_id": "ex-4cbe0301a48f",
+        "example": "The renovation plan became controversial after residents learned the full cost.",
+        "translation": "住民が総費用を知った後、その改修計画は物議を醸すようになった。"
+      },
+      {
+        "example_id": "ex-685e754c92c7",
+        "example": "He was controversial by temperament, challenging even minor points in every debate.",
+        "translation": "彼は性向として論争的で、どの討論でもささいな点にまで反論した。"
+      },
+      {
+        "example_id": "ex-2b864bd448fb",
+        "example": "The speaker was controversial in debate because he deliberately attacked each established position.",
+        "translation": "その話者は確立した立場を一つ一つ意図的に攻撃したため、討論では論争的だった。"
+      },
+      {
+        "example_id": "ex-e74721a3133b",
+        "example": "The historian remains a controversial figure in the region.",
+        "translation": "その歴史家はその地域で今も評価が大きく分かれる人物だ。"
+      },
+      {
+        "example_id": "ex-069c7db5553b",
+        "example": "The minister's controversial remark drew criticism from both parties.",
+        "translation": "大臣の物議を醸す発言は両党から批判を招いた。"
+      },
+      {
+        "example_id": "ex-7b75c5c09c71",
+        "example": "The use of facial-recognition technology remains a controversial issue.",
+        "translation": "顔認証技術の利用は依然として論争を呼ぶ問題だ。"
+      },
+      {
+        "example_id": "ex-ee135a966740",
+        "example": "The columnist has a controversial temperament and treats every meeting as a public debate.",
+        "translation": "そのコラムニストは論争を好む気質で、どの会議も公開討論のように扱う。"
+      },
+      {
+        "example_id": "ex-7927fe1bf63d",
+        "example": "The interpretation is controversial among constitutional scholars.",
+        "translation": "その解釈は憲法学者の間で議論が分かれている。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "assigned_sense_id",
+      "collocation_heading",
+      "usage_line",
+      "example_group_boundary",
+      "document_order"
+    ],
+    "required_output_schema": "example_attribution_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "e0bbb032bc0c50bf9bef5ff8f7854188287e635c58e599479891e11e3343a017",
+  "source_artifact_sha256": "77ed6903c70ca9ccab05a50f54ae8740a0cbc1b14859eb360871347314edd2d8",
+  "normalized_input_sha256": "f5f6bd4a1b6efa01656892e3463b05da349bd90c954729744a277833d3869ad2"
+}
