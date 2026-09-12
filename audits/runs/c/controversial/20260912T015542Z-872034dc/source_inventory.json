@@ -1,0 +1,383 @@
+{
+  "schema_version": "source_inventory_v2",
+  "stage": "source_inventory",
+  "headword": "controversial",
+  "run_id": "source-controversial-20260912T015542Z-872034dc",
+  "context_id": "source-controversial-context-20260912T015542Z-872034dc",
+  "input_body_sha256": "81a1d26c2b696bfd6afeee63cc863b8e3f8bcfbe0e9dd5fde1a124523d5379c5",
+  "prompt_sha256": "0377df9f9e2eeeed2d38f6a7072f675fc4eea38e948ed672004f96bc2d88f783",
+  "input_artifacts": [
+    "headword",
+    "source_first_spec"
+  ],
+  "recorded_at": "2026-09-12T02:18:00Z",
+  "evidence_link_ids": [],
+  "source_first_audit": {
+    "version": "source_first_audit_v2",
+    "profile": "standard",
+    "profile_reason": "bounded source-first inventory for controversial",
+    "limits": {
+      "max_sources": 6,
+      "max_facts": 48,
+      "max_research_rounds": 2,
+      "max_post_cold_rechecks": null,
+      "max_final_attempts": 2
+    },
+    "usage": {
+      "sources_used": 4,
+      "facts_used": 18,
+      "research_rounds_used": 1,
+      "post_cold_rechecks_used": 0,
+      "final_attempts_used": 1
+    },
+    "research_status": "complete",
+    "stop_reason": "coverage_axes_closed",
+    "open_questions": [],
+    "inventory_completed_before_article_comparison": true,
+    "inventory_completed_at": "2026-09-12T02:18:00Z",
+    "article_comparison_started_at": "2026-09-12T02:18:30Z",
+    "coverage_axes": [
+      {
+        "axis": "lexical_senses",
+        "status": "covered",
+        "source_fact_ids": ["F001", "F003", "F008", "F013"],
+        "notes": "Independent dictionaries attest the common public-disagreement sense and the rare disputatious-personality sense."
+      },
+      {
+        "axis": "part_of_speech_and_frames",
+        "status": "covered",
+        "source_fact_ids": ["F002", "F009", "F014"],
+        "notes": "The sources attest attributive and predicative adjective patterns, degree modification, and group-limiting complements."
+      },
+      {
+        "axis": "derived_and_related_forms",
+        "status": "covered",
+        "source_fact_ids": ["F012"],
+        "notes": "The general dictionary lists the related adverb, noun, and verb forms used in the formation section."
+      },
+      {
+        "axis": "specialist_and_legal_uses",
+        "status": "not_applicable",
+        "source_fact_ids": [],
+        "notes": "The consulted current dictionaries do not establish a separate legal or specialist lexical sense for controversial."
+      },
+      {
+        "axis": "register_region_and_frequency",
+        "status": "covered",
+        "source_fact_ids": ["F004", "F015"],
+        "notes": "Learner-dictionary level labels and dictionary usage descriptions support the common standard register and the rare personality sense."
+      },
+      {
+        "axis": "pronunciation_and_etymology",
+        "status": "covered",
+        "source_fact_ids": ["F005", "F006", "F010", "F016", "F017", "F018"],
+        "notes": "Learner and general dictionaries provide current pronunciation and the etymology references provide the late-sixteenth-century history."
+      }
+    ],
+    "sources": [
+      {
+        "id": "S001",
+        "title": "Oxford Learner's Dictionaries — controversial",
+        "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/controversial",
+        "source_type": "learner_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "oxford_university_press",
+        "facts": [
+          {
+            "id": "F001",
+            "form": "controversial",
+            "kind": "lexical_sense",
+            "statement": "Controversial describes something that causes a lot of angry public discussion and disagreement.",
+            "source_detail": "Oxford gives the main adjective sense for topics, plans, and people that provoke public disagreement."
+          },
+          {
+            "id": "F002",
+            "form": "controversial",
+            "kind": "grammar_frame",
+            "statement": "Controversial is used before issue, plan, figure, and similar nouns and can be modified by highly.",
+            "source_detail": "Oxford examples include a highly controversial topic, a controversial plan, and controversial figures."
+          },
+          {
+            "id": "F003",
+            "form": "controversial",
+            "kind": "lexical_sense",
+            "statement": "A controversial person or figure is one whose public reputation or views provoke disagreement.",
+            "source_detail": "Oxford includes controversial figures among its examples for the adjective."
+          },
+          {
+            "id": "F004",
+            "form": "controversial",
+            "kind": "register_frequency",
+            "statement": "Controversial is a common learner-level adjective, listed at Oxford 5000 level B2.",
+            "source_detail": "Oxford labels the headword B2 in its learner vocabulary information."
+          },
+          {
+            "id": "F005",
+            "form": "controversial",
+            "kind": "pronunciation",
+            "statement": "Oxford gives British /ˌkɒntrəˈvɜːʃl/ and American /ˌkɑːntrəˈvɜːrʃl/ pronunciations.",
+            "source_detail": "The Oxford entry displays separate British and American pronunciation transcriptions."
+          },
+          {
+            "id": "F006",
+            "form": "controversial",
+            "kind": "etymology",
+            "statement": "Controversial comes from late Latin controversialis and is related to controversia and controversus.",
+            "source_detail": "Oxford's word-origin note traces the adjective to late Latin forms associated with controversy."
+          }
+        ]
+      },
+      {
+        "id": "S002",
+        "title": "Merriam-Webster — controversial",
+        "locator": "https://www.merriam-webster.com/dictionary/controversial",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "merriam_webster",
+        "facts": [
+          {
+            "id": "F007",
+            "form": "controversial",
+            "kind": "lexical_sense",
+            "statement": "Controversial means relating to or arousing controversy.",
+            "source_detail": "Merriam-Webster gives of, relating to, or arousing controversy as its first adjective definition."
+          },
+          {
+            "id": "F008",
+            "form": "controversial",
+            "kind": "lexical_sense",
+            "statement": "Controversial can also mean given to controversy or disputatious when describing a person or temperament.",
+            "source_detail": "Merriam-Webster lists a second adjective sense meaning given to controversy and gives a controversial temperament example."
+          },
+          {
+            "id": "F009",
+            "form": "controversial",
+            "kind": "grammar_frame",
+            "statement": "Controversial commonly modifies policy, film, and similar nouns in attributive adjective phrases.",
+            "source_detail": "Merriam-Webster illustrates the adjective with a controversial policy and a controversial film."
+          },
+          {
+            "id": "F010",
+            "form": "controversial",
+            "kind": "pronunciation",
+            "statement": "American pronunciation includes a main /ˌkän-trə-ˈvər-shəl/ form and a variant with a more syllabic final sequence.",
+            "source_detail": "Merriam-Webster displays the US pronunciation and the -ˈvər-sē-əl variant."
+          },
+          {
+            "id": "F011",
+            "form": "controversial",
+            "kind": "etymology",
+            "statement": "Merriam-Webster records controversial as first known from 1583.",
+            "source_detail": "The dictionary's first-known-use field gives 1583 for the adjective."
+          },
+          {
+            "id": "F012",
+            "form": "controversially",
+            "kind": "derived_form",
+            "statement": "Controversially is the related adverb, and controversialist and controversialism are related noun forms; controvert is a related verb.",
+            "source_detail": "Merriam-Webster's related-word information lists the adverb, noun forms, and the related verb controvert."
+          }
+        ]
+      },
+      {
+        "id": "S003",
+        "title": "Collins English Dictionary — controversial",
+        "locator": "https://www.collinsdictionary.com/dictionary/english/controversial",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "harpercollins",
+        "facts": [
+          {
+            "id": "F013",
+            "form": "controversial",
+            "kind": "lexical_sense",
+            "statement": "Controversial describes a person or thing that is the subject of intense public argument, disagreement, or disapproval, and it can rarely mean disputatious.",
+            "source_detail": "Collins gives the public-argument sense and labels the disputatious personality sense rare in its American entry."
+          },
+          {
+            "id": "F014",
+            "form": "controversial",
+            "kind": "grammar_frame",
+            "statement": "Controversial forms common phrases with deal, decision, figure, film, issue, plan, proposal, remark, ruling, statement, theory, and view.",
+            "source_detail": "Collins lists these noun collocations and degree modifiers such as highly, widely, and potentially."
+          },
+          {
+            "id": "F015",
+            "form": "controversial",
+            "kind": "register_frequency",
+            "statement": "Controversial is a B2 adjective, while its disputatious-personality use is rare.",
+            "source_detail": "Collins labels the general headword B2 and marks the second American sense rare."
+          },
+          {
+            "id": "F016",
+            "form": "controversial",
+            "kind": "pronunciation_etymology",
+            "statement": "Collins gives American variants with both /-vɜrʃəl/ and /-vɜrsiəl/ and dates the origin to 1575–85.",
+            "source_detail": "The Collins entry displays the pronunciation variants and the 1575–85 origin range."
+          }
+        ]
+      },
+      {
+        "id": "S004",
+        "title": "Online Etymology Dictionary — controversial",
+        "locator": "https://www.etymonline.com/word/controversial",
+        "source_type": "etymology_dictionary",
+        "source_role": "etymology_reference",
+        "independence_group": "etymonline",
+        "facts": [
+          {
+            "id": "F017",
+            "form": "controversial",
+            "kind": "etymology",
+            "statement": "Controversial is recorded in the 1580s in the sense of debatable or disputed, from late Latin controversialis.",
+            "source_detail": "Etymonline dates the early adjective use to the 1580s and gives the late Latin source."
+          },
+          {
+            "id": "F018",
+            "form": "controversial",
+            "kind": "etymology",
+            "statement": "The Latin form is related to controversus, literally turned against, from contra and versus, the past participle of vertere.",
+            "source_detail": "Etymonline explains the Latin components and the underlying sense of being turned against."
+          }
+        ]
+      }
+    ],
+    "source_union": [
+      {
+        "id": "U001",
+        "source_fact_ids": ["F001", "F002", "F003", "F007", "F009", "F013", "F014"],
+        "canonical_statement": "Controversial commonly describes an issue, decision, claim, work, remark, or person that arouses strong public or group disagreement.",
+        "disposition": "included",
+        "rationale": "This is the high-frequency main adjective sense and is the first numbered sense."
+      },
+      {
+        "id": "U002",
+        "source_fact_ids": ["F008", "F013", "F015"],
+        "canonical_statement": "Controversial can rarely describe a person or temperament inclined to controversy or disputation.",
+        "disposition": "included",
+        "rationale": "The rare personality sense is retained because independent dictionaries record it and it prevents a person-use ambiguity."
+      },
+      {
+        "id": "U003",
+        "source_fact_ids": ["F005", "F010", "F016"],
+        "canonical_statement": "Controversial has a four-syllable pronunciation with main stress on the third syllable and a US variant with a more syllabic ending.",
+        "disposition": "included",
+        "rationale": "The pronunciation section records the mainstream British/American forms and qualifies the US variant."
+      },
+      {
+        "id": "U004",
+        "source_fact_ids": ["F006", "F011", "F016", "F017", "F018"],
+        "canonical_statement": "Controversial is a late-sixteenth-century adjective from late Latin controversialis, related to controversia and controversus.",
+        "disposition": "included",
+        "rationale": "The etymology section states the shared late-sixteenth-century range and avoids treating conflicting first-use dates as exact."
+      },
+      {
+        "id": "U005",
+        "source_fact_ids": ["F012"],
+        "canonical_statement": "Controversially, controversialist, controversialism, and controvert are related forms, with different parts of speech and frequency.",
+        "disposition": "integrated",
+        "rationale": "The formation section records useful related forms without presenting the adverb or nouns as additional senses of the headword."
+      },
+      {
+        "id": "U006",
+        "source_fact_ids": ["F004", "F015"],
+        "canonical_statement": "The public-disagreement adjective is a common B2-level word, while the personality sense is rare.",
+        "disposition": "integrated",
+        "rationale": "The two frequency/register labels are attached to their respective numbered senses."
+      }
+    ],
+    "claim_units": [
+      {
+        "id": "C001",
+        "union_ids": ["U001"],
+        "subject_form": "controversial",
+        "claim_type": "definition",
+        "statement": "The common sense describes topics, decisions, claims, works, remarks, and people that provoke strong disagreement or criticism.",
+        "article_target_ids": [
+          "sense_boundary:001", "definition:001", "frequency:001", "register:001",
+          "grammar_pattern:001", "grammar_pattern:002", "grammar_pattern:003", "grammar_pattern:004", "grammar_pattern:005", "grammar_pattern:006", "grammar_pattern:007", "grammar_pattern:008", "grammar_pattern:009",
+          "collocation:001", "collocation:002", "collocation:003", "collocation:004", "collocation:005", "collocation:006", "collocation:007", "collocation:008", "collocation:009",
+          "usage_note:001", "synonym:001", "synonym:002", "synonym:003", "synonym:004", "synonym:005", "synonym:006", "synonym:007", "antonym:001", "antonym:002"
+        ],
+        "source_supports": [
+          {"source_fact_id": "F001", "support_summary": "Oxford directly defines the public discussion and disagreement sense."},
+          {"source_fact_id": "F002", "support_summary": "Oxford supplies the main noun combinations and degree modifier."},
+          {"source_fact_id": "F003", "support_summary": "Oxford attests the use for controversial figures."},
+          {"source_fact_id": "F007", "support_summary": "Merriam-Webster defines the adjective through arousing controversy."},
+          {"source_fact_id": "F009", "support_summary": "Merriam-Webster illustrates the attributive policy and film frames."},
+          {"source_fact_id": "F013", "support_summary": "Collins defines intense public argument and disapproval."},
+          {"source_fact_id": "F014", "support_summary": "Collins records the article's common noun collocations."}
+        ]
+      },
+      {
+        "id": "C002",
+        "union_ids": ["U002"],
+        "subject_form": "controversial",
+        "claim_type": "definition",
+        "statement": "The rare personality sense describes a person inclined to controversy or disputation rather than merely a person who is being publicly debated.",
+        "article_target_ids": [
+          "sense_boundary:002", "definition:002", "frequency:002", "register:002",
+          "grammar_pattern:010", "grammar_pattern:011", "grammar_pattern:012", "grammar_pattern:013",
+          "collocation:010", "collocation:011", "collocation:012", "collocation:013", "usage_note:002",
+          "synonym:008", "synonym:009", "synonym:010", "synonym:011"
+        ],
+        "source_supports": [
+          {"source_fact_id": "F008", "support_summary": "Merriam-Webster explicitly gives the disputatious personality sense."},
+          {"source_fact_id": "F013", "support_summary": "Collins records the rare disputatious use in its American entry."},
+          {"source_fact_id": "F015", "support_summary": "Collins marks the personality use rare and contrasts it with the common sense."}
+        ]
+      },
+      {
+        "id": "C003",
+        "union_ids": ["U003"],
+        "subject_form": "controversial",
+        "claim_type": "pronunciation",
+        "statement": "The word normally has four syllables and main stress on the third, with a US variant that may realize the ending as an extra syllable.",
+        "article_target_ids": ["pronunciation:001"],
+        "source_supports": [
+          {"source_fact_id": "F005", "support_summary": "Oxford supplies the main British and American transcriptions."},
+          {"source_fact_id": "F010", "support_summary": "Merriam-Webster records the American ending variant."},
+          {"source_fact_id": "F016", "support_summary": "Collins independently displays the American pronunciation variants."}
+        ]
+      },
+      {
+        "id": "C004",
+        "union_ids": ["U004"],
+        "subject_form": "controversial",
+        "claim_type": "etymology",
+        "statement": "The adjective belongs to a late-sixteenth-century Latin-derived controversy word family involving the idea of being turned against.",
+        "article_target_ids": ["etymology:001"],
+        "source_supports": [
+          {"source_fact_id": "F006", "support_summary": "Oxford traces the adjective to late Latin controversialis."},
+          {"source_fact_id": "F011", "support_summary": "Merriam-Webster's 1583 first-use date supports the late-sixteenth-century range."},
+          {"source_fact_id": "F016", "support_summary": "Collins gives a 1575–85 origin range rather than a modern date."},
+          {"source_fact_id": "F017", "support_summary": "Etymonline gives the 1580s debatable or disputed use."},
+          {"source_fact_id": "F018", "support_summary": "Etymonline explains controversus, contra, versus, and vertere."}
+        ]
+      },
+      {
+        "id": "C005",
+        "union_ids": ["U005"],
+        "subject_form": "controversially",
+        "claim_type": "word_formation",
+        "statement": "The article distinguishes the related adverb, noun forms, and verb rather than treating them as inflections of the adjective.",
+        "article_target_ids": ["word_formation:001", "word_formation:002", "word_formation:003", "word_formation:004"],
+        "source_supports": [
+          {"source_fact_id": "F012", "support_summary": "Merriam-Webster lists the related adverb, nouns, and verb forms."}
+        ]
+      },
+      {
+        "id": "C006",
+        "union_ids": ["U006"],
+        "subject_form": "controversial",
+        "claim_type": "register_frequency",
+        "statement": "The public-disagreement use is standard and common, whereas the disputatious-personality use is rare and dictionary-oriented.",
+        "article_target_ids": ["register:001", "frequency:001", "register:002", "frequency:002"],
+        "source_supports": [
+          {"source_fact_id": "F004", "support_summary": "Oxford labels the headword B2 in its learner vocabulary."},
+          {"source_fact_id": "F015", "support_summary": "Collins labels the personality use rare and the general word B2."}
+        ]
+      }
+    ]
+  }
+}
