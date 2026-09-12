@@ -23,7 +23,7 @@
   "started_at": "2026-09-12T01:55:42Z",
   "deadline_at": "2026-09-12T02:55:42Z",
   "pre_draft_deadline_at": "2026-09-12T02:15:42Z",
-  "last_heartbeat_at": "2026-09-12T02:13:23Z",
+  "last_heartbeat_at": "2026-09-12T02:14:54Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-12T02:00:20Z",
@@ -536,10 +536,20 @@
           "audits/runs/c/controversial/20260912T015542Z-872034dc/generation.json"
         ],
         "reason": "saved stage output has no coordinator learning_delta decision",
-        "recorded_at": "2026-09-12T02:13:23Z"
+        "recorded_at": "2026-09-12T02:14:54Z"
       }
     },
-    "pending_events": [],
+    "pending_events": [
+      {
+        "event_id": "pending:20260912T015542Z-872034dc:checker_passes:cd14586f23be",
+        "knowledge_epoch": "pi2-2026-09-06",
+        "kind": "review_failure",
+        "stage": "checker_passes",
+        "fact": "repairable preflight rejection: source-first artifact is required before checker requests are built",
+        "status": "pending",
+        "recorded_at": "2026-09-12T02:14:54Z"
+      }
+    ],
     "selection_errors": []
   },
   "metrics": {
@@ -753,5 +763,26 @@
     "mode": "connector"
   },
   "review_preflight": "review_preflight_v1",
-  "time_warnings": {}
+  "time_warnings": {},
+  "review_preflight_failures": {
+    "count": 1,
+    "history": [
+      {
+        "stage": "checker_passes",
+        "error": "source-first artifact is required before checker requests are built",
+        "recorded_at": "2026-09-12T02:14:54.555970+00:00",
+        "fingerprint": null,
+        "classification": "repairable_validation"
+      }
+    ]
+  },
+  "review_correction": {
+    "stage": "checker_passes",
+    "error": "source-first artifact is required before checker requests are built",
+    "recorded_at": "2026-09-12T02:14:54.555970+00:00",
+    "fingerprint": null,
+    "classification": "repairable_validation",
+    "status": "needs_correction"
+  },
+  "review_preflight_policy": "repairable_review_preflight_v2"
 }
