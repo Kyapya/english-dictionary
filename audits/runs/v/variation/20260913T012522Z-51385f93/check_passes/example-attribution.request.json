@@ -1,0 +1,233 @@
+{
+  "schema_version": "example_attribution_blind_request_v1",
+  "pass_id": "example-attribution",
+  "taxonomy_ids": [
+    "example_sense_attribution_mismatch"
+  ],
+  "specification": "prompts/check_pass_example_attribution_v6.md",
+  "input_body_sha256": "f94b51a0c437869d997f727a89666bdfa4c5ffe575c78f10042998526972201c",
+  "input_sections": {
+    "sense_structure": [
+      {
+        "sense_id": "sense:001",
+        "line": 43,
+        "label": "1. 【名詞・不可算／可算】変化、変動、ばらつき",
+        "definition": "量・水準・品質・状態などが一定ではなく変わること、またはその変化の幅・個々の違いを表す。変動・ばらつきを総体として述べる場合は不可算が多く、個々の変化・差・型を数える場合は可算になることが多い。変化が望ましいか望ましくないかは、文脈によって決まり、variation 自体には必ずしも悪い評価はない。"
+      },
+      {
+        "sense_id": "sense:002",
+        "line": 124,
+        "label": "2. 【名詞・可算】基準から少し変えたもの、変形、別形",
+        "definition": "同じ基本的な考え方・型・作品・方法を保ちながら、内容や構成の一部を変えたものを表す。元と無関係な別物ではなく、「元のものを少し変えた版」という含みがある。`a variation on ...` は「…を土台にした変形・アレンジ」として特に重要である。"
+      },
+      {
+        "sense_id": "sense:003",
+        "line": 196,
+        "label": "3. 【名詞・不可算／可算・生物学・遺伝学・医学】集団内の個体差、変異",
+        "definition": "同じ種・集団に属する個体の間に見られる、遺伝的・構造的・機能的な差を表す。基準や平均からの逸脱を必須とせず、個体間に自然に存在する差を中立的に指す。言語・地域・社会層などの一般的な形式差は語義1で扱う。"
+      },
+      {
+        "sense_id": "sense:004",
+        "line": 272,
+        "label": "4. 【名詞・可算・音楽】変奏；（複数・作品全体）変奏曲",
+        "definition": "主題や旋律をもとに、旋律・和声・リズム・調性などを変化させて作る楽曲・楽章、またはその中の一つの展開を表す。単数の `a variation` は通常、一連の変奏のうちの一つの変奏を指し、`variations` 全体や作品全体を指す場合に「変奏曲」とする。主題との連続性を保つ場合が多いが、変化の仕方や主題の現れ方は作品によって異なる。"
+      },
+      {
+        "sense_id": "sense:005",
+        "line": 320,
+        "label": "5. 【名詞・可算・バレエ】ソロ演目、独舞",
+        "definition": "クラシック・バレエで、踊り手が一人で踊る独立した演目または場面を表す。特に pas de deux などの中で、男女それぞれのソロとして踊られる部分を指すことがある。音楽の変奏曲ではなく、舞踊作品上の演目名である。"
+      },
+      {
+        "sense_id": "sense:006",
+        "line": 363,
+        "label": "6. 【名詞・不可算・航海・地球科学・測量】磁気偏角",
+        "definition": "地球上のある地点で、真北と磁北がなす水平角、またはその方位差を表す。地域や時期によって異なるため、航海・測量・方位の補正で考慮される。"
+      }
+    ],
+    "collocations_examples": [
+      {
+        "example_id": "ex-8dab2a411504",
+        "example": "The revised procedure is a minor variation from the standard procedure.",
+        "translation": "改訂された手順は、標準手順からわずかに異なる形になっている。"
+      },
+      {
+        "example_id": "ex-c2ff869c659a",
+        "example": "She is preparing a classical ballet variation for the competition.",
+        "translation": "彼女はコンクールに向けてクラシック・バレエのソロ演目を準備している。"
+      },
+      {
+        "example_id": "ex-582e7db4e341",
+        "example": "The survey found considerable variation according to age and region.",
+        "translation": "その調査では、年齢と地域によってかなりの差が見つかった。"
+      },
+      {
+        "example_id": "ex-4060096f251e",
+        "example": "The study measured variation within a population over several generations.",
+        "translation": "その研究は、数世代にわたる集団内の変異を測定した。"
+      },
+      {
+        "example_id": "ex-938cc29941e9",
+        "example": "The two samples showed only slight variation in color.",
+        "translation": "その2つの試料には色のわずかな違いしか見られなかった。"
+      },
+      {
+        "example_id": "ex-bad597b9ce2f",
+        "example": "The team tested a variation of the original method.",
+        "translation": "そのチームは元の方法を変形した手法を試した。"
+      },
+      {
+        "example_id": "ex-75dcbb58dec8",
+        "example": "This version is a useful variation on the original design.",
+        "translation": "この版は元の設計を土台にした有用なアレンジだ。"
+      },
+      {
+        "example_id": "ex-76387fe7e175",
+        "example": "The study found wide variation between schools in the use of digital devices.",
+        "translation": "その研究では、デジタル機器の使用について学校間に大きな差が見つかった。"
+      },
+      {
+        "example_id": "ex-95187c1f37a0",
+        "example": "The pianist chose a demanding theme and variations for the recital.",
+        "translation": "そのピアニストはリサイタルに、難度の高い主題と変奏曲を選んだ。"
+      },
+      {
+        "example_id": "ex-9c2b79565d3e",
+        "example": "The store adjusts its stock for seasonal variation in demand.",
+        "translation": "その店は需要の季節変動に合わせて在庫を調整する。"
+      },
+      {
+        "example_id": "ex-9bde9bf7328d",
+        "example": "This soup is a lighter variation on a traditional winter dish.",
+        "translation": "このスープは伝統的な冬の料理をより軽めにしたアレンジだ。"
+      },
+      {
+        "example_id": "ex-4bbb02a31cba",
+        "example": "The forecast takes seasonal variation into account.",
+        "translation": "その予測は季節変動を考慮に入れている。"
+      },
+      {
+        "example_id": "ex-986915fb915e",
+        "example": "The study found substantial genetic variation among individuals in their response to the vaccine.",
+        "translation": "その研究では、ワクチンへの反応に個体間の大きな遺伝的差が見つかった。"
+      },
+      {
+        "example_id": "ex-de4f89eb7cf8",
+        "example": "The workshop asks students to develop a variation on the basic pattern.",
+        "translation": "その講習では、基本パターンを変形したものを学生に考案させる。"
+      },
+      {
+        "example_id": "ex-638487ec6870",
+        "example": "There is considerable variation in the time needed to complete the task.",
+        "translation": "その作業を終えるのに必要な時間にはかなりのばらつきがある。"
+      },
+      {
+        "example_id": "ex-c52b6522519a",
+        "example": "The novel is a clever variation on a familiar coming-of-age story.",
+        "translation": "その小説は、よく知られた成長物語を巧みに変形した作品だ。"
+      },
+      {
+        "example_id": "ex-57e1b7a89de9",
+        "example": "The dancer performed her variation with controlled, precise movements.",
+        "translation": "そのダンサーは抑制の効いた正確な動きでソロ演目を踊った。"
+      },
+      {
+        "example_id": "ex-761d33e11cbe",
+        "example": "The samples show variation in leaf shape and size.",
+        "translation": "その試料には葉の形と大きさに違いが見られる。"
+      },
+      {
+        "example_id": "ex-b94f45e3194d",
+        "example": "Genetic variation within a species can affect its response to disease.",
+        "translation": "種内の遺伝的変異は、病気への反応に影響することがある。"
+      },
+      {
+        "example_id": "ex-18221978ac53",
+        "example": "The graph shows the variation of pressure with altitude.",
+        "translation": "そのグラフは高度に伴う圧力の変化を示している。"
+      },
+      {
+        "example_id": "ex-53c82f253477",
+        "example": "He chose a variation from The Sleeping Beauty for the audition.",
+        "translation": "彼はオーディションに『眠れる森の美女』のソロ演目を選んだ。"
+      },
+      {
+        "example_id": "ex-60945e97b53b",
+        "example": "The researchers compared genetic variation between populations living in different environments.",
+        "translation": "研究者たちは、異なる環境に住む集団間の遺伝的変異を比較した。"
+      },
+      {
+        "example_id": "ex-4379956fc8b5",
+        "example": "The program included variations by Beethoven and Brahms.",
+        "translation": "そのプログラムにはベートーベンとブラームスの変奏曲が含まれていた。"
+      },
+      {
+        "example_id": "ex-f2b67c2af23d",
+        "example": "Genetic variation in drug response should be considered when interpreting the results.",
+        "translation": "結果を解釈する際は、薬物反応における遺伝的変異を考慮すべきだ。"
+      },
+      {
+        "example_id": "ex-26fd9903214e",
+        "example": "She played the final variation with remarkable clarity.",
+        "translation": "彼女は最後の変奏を見事な明瞭さで演奏した。"
+      },
+      {
+        "example_id": "ex-85b30d7cc234",
+        "example": "The pianist performed a variation on the melody with subtle rhythmic changes.",
+        "translation": "そのピアニストは、リズムを微妙に変えたその旋律の一つの変奏を演奏した。"
+      },
+      {
+        "example_id": "ex-29ecee07274e",
+        "example": "The students rehearsed a variation from the ballet before class.",
+        "translation": "生徒たちは授業の前に、そのバレエ作品のソロ演目を練習した。"
+      },
+      {
+        "example_id": "ex-b958c7b764f7",
+        "example": "Navigators must account for magnetic variation when plotting a course.",
+        "translation": "航海者は航路を設定する際に磁気偏角を考慮しなければならない。"
+      },
+      {
+        "example_id": "ex-2c1c7a896103",
+        "example": "The instructions show a slight variation in wording.",
+        "translation": "その説明書には表現のわずかな違いが見られる。"
+      },
+      {
+        "example_id": "ex-678432ffc630",
+        "example": "The concert opened with a set of variations on a folk melody.",
+        "translation": "その演奏会は民謡の旋律による変奏曲集で幕を開けた。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "assigned_sense_id",
+      "collocation_heading",
+      "usage_line",
+      "example_group_boundary",
+      "document_order"
+    ],
+    "required_output_schema": "example_attribution_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "e0bbb032bc0c50bf9bef5ff8f7854188287e635c58e599479891e11e3343a017",
+  "source_artifact_sha256": "64c9981f230b9dfb6e39bf7c429f761f7c5f11a14216883237f10e45fddead74",
+  "normalized_input_sha256": "f311dab5fa11cf3d20c1f0a858d081319941e19f9508c92530f5367ac1d19489"
+}
