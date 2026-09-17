@@ -1,0 +1,430 @@
+{
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-sol",
+    "ingested_by": "human",
+    "agent_id": "variation-20260913T012522Z-51385f8c-recheck-v4-example-reviewer"
+  },
+  "blind_attribution_record": {
+    "schema_version": "example_attribution_blind_record_v1",
+    "stage": 1,
+    "pass_id": "example-attribution",
+    "input_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8",
+    "blind_request_sha256": "61f04fc6dffff75eee5d4b760e030c509a1584acd3d3d76c9ba9ef5b5eddfe5e",
+    "recorded_at": "2026-09-17T16:03:29.854479+00:00",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5.6-sol",
+      "ingested_by": "human",
+      "agent_id": "variation-20260913T012522Z-51385f8c-recheck-v4-example-reviewer"
+    },
+    "taxonomy_ids": [
+      "example_sense_attribution_mismatch"
+    ],
+    "document_order_reconstructed": false,
+    "attributions": [
+      {
+        "example_id": "ex-36222faea8a4",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "considerable",
+          "variation"
+        ],
+        "rationale": "The wording 'There is considerable variation in the time needed to complete the task.' provides a context-specific cue for sense:001; the listed terms identify that use rather than another sense."
+      },
+      {
+        "example_id": "ex-b6f0cafe5b46",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "two",
+          "paint"
+        ],
+        "rationale": "The wording 'The two paint samples showed only slight variation in color.' provides a context-specific cue for sense:001; the listed terms identify that use rather than another sense."
+      },
+      {
+        "example_id": "ex-1cc5c69333b6",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "study",
+          "wide"
+        ],
+        "rationale": "The wording 'The study found wide variation between schools in the use of digital devices.' provides a context-specific cue for sense:001; the listed terms identify that use rather than another sense."
+      },
+      {
+        "example_id": "ex-2d558a700dec",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "revised",
+          "procedure"
+        ],
+        "rationale": "The wording 'The revised procedure shows only slight variation from the standard procedure in its timing.' provides a context-specific cue for sense:001; the listed terms identify that use rather than another sense."
+      },
+      {
+        "example_id": "ex-eb8c6f26c8a4",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "store",
+          "adjusts"
+        ],
+        "rationale": "The wording 'The store adjusts its stock for seasonal variation in demand.' provides a context-specific cue for sense:001; the listed terms identify that use rather than another sense."
+      },
+      {
+        "example_id": "ex-4f688d9a7309",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "survey",
+          "considerable"
+        ],
+        "rationale": "The wording 'The survey found considerable variation according to age and region.' provides a context-specific cue for sense:001; the listed terms identify that use rather than another sense."
+      },
+      {
+        "example_id": "ex-0b1a846b8645",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "graph",
+          "variation"
+        ],
+        "rationale": "The wording 'The graph shows the variation of pressure with altitude.' provides a context-specific cue for sense:001; the listed terms identify that use rather than another sense."
+      },
+      {
+        "example_id": "ex-145a9cbcea1d",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "forecast",
+          "takes"
+        ],
+        "rationale": "The wording 'The forecast takes seasonal variation into account.' provides a context-specific cue for sense:001; the listed terms identify that use rather than another sense."
+      },
+      {
+        "example_id": "ex-f426d6007dd2",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "novel",
+          "clever"
+        ],
+        "rationale": "The wording 'The novel is a clever variation on a familiar coming-of-age story.' provides a context-specific cue for sense:002; the listed terms identify that use rather than another sense."
+      },
+      {
+        "example_id": "ex-e74ff3ffa6c9",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "soup",
+          "lighter"
+        ],
+        "rationale": "The wording 'This soup is a lighter variation on a traditional winter dish.' provides a context-specific cue for sense:002; the listed terms identify that use rather than another sense."
+      },
+      {
+        "example_id": "ex-9591902b7799",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "team",
+          "tested"
+        ],
+        "rationale": "The wording 'The team tested a variation of the original method.' provides a context-specific cue for sense:002; the listed terms identify that use rather than another sense."
+      },
+      {
+        "example_id": "ex-822c3f09c38b",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "editor",
+          "created"
+        ],
+        "rationale": "The wording 'The editor created a slight variation on the original instructions by revising the wording.' provides a context-specific cue for sense:002; the listed terms identify that use rather than another sense."
+      },
+      {
+        "example_id": "ex-3dd7aa63d452",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "version",
+          "useful"
+        ],
+        "rationale": "The wording 'This version is a useful variation on the original design.' provides a context-specific cue for sense:002; the listed terms identify that use rather than another sense."
+      },
+      {
+        "example_id": "ex-0483440b156a",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "workshop",
+          "asks"
+        ],
+        "rationale": "The wording 'The workshop asks students to develop a variation on the basic pattern.' provides a context-specific cue for sense:002; the listed terms identify that use rather than another sense."
+      },
+      {
+        "example_id": "ex-0b7185941803",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "Genetic",
+          "variation"
+        ],
+        "rationale": "The wording 'Genetic variation within a species can affect its response to disease.' provides a context-specific cue for sense:003; the listed terms identify that use rather than another sense."
+      },
+      {
+        "example_id": "ex-2af9979f87fd",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "study",
+          "substantial"
+        ],
+        "rationale": "The wording 'The study found substantial genetic variation among individuals in their response to the vaccine.' provides a context-specific cue for sense:003; the listed terms identify that use rather than another sense."
+      },
+      {
+        "example_id": "ex-7154cf38fad9",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "study",
+          "measured"
+        ],
+        "rationale": "The wording 'The study measured genetic variation within a population in wing length over several generations.' provides a context-specific cue for sense:003; the listed terms identify that use rather than another sense."
+      },
+      {
+        "example_id": "ex-7d7fd15a488c",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "researchers",
+          "compared"
+        ],
+        "rationale": "The wording 'The researchers compared genetic variation between populations living in different environments.' provides a context-specific cue for sense:003; the listed terms identify that use rather than another sense."
+      },
+      {
+        "example_id": "ex-9cade66194e4",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "Genetic",
+          "variation"
+        ],
+        "rationale": "The wording 'Genetic variation in drug response should be considered when interpreting the results.' provides a context-specific cue for sense:003; the listed terms identify that use rather than another sense."
+      },
+      {
+        "example_id": "ex-1146b20b6568",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "plant",
+          "samples"
+        ],
+        "rationale": "The wording 'The plant samples show genetic variation in leaf shape and size within a species.' provides a context-specific cue for sense:003; the listed terms identify that use rather than another sense."
+      },
+      {
+        "example_id": "ex-d637114154eb",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "concert",
+          "opened"
+        ],
+        "rationale": "The wording 'The concert opened with a set of variations on a folk melody.' provides a context-specific cue for sense:004; the listed terms identify that use rather than another sense."
+      },
+      {
+        "example_id": "ex-560885cf4756",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "pianist",
+          "demanding"
+        ],
+        "rationale": "The wording 'The pianist chose a demanding theme and variations for the recital.' provides a context-specific cue for sense:004; the listed terms identify that use rather than another sense."
+      },
+      {
+        "example_id": "ex-5845879fd0bc",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "pianist",
+          "performed"
+        ],
+        "rationale": "The wording 'The pianist performed a variation on the melody with subtle rhythmic changes.' provides a context-specific cue for sense:004; the listed terms identify that use rather than another sense."
+      },
+      {
+        "example_id": "ex-1b360cdf8649",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "She",
+          "played"
+        ],
+        "rationale": "The wording 'She played the final variation with remarkable clarity.' provides a context-specific cue for sense:004; the listed terms identify that use rather than another sense."
+      },
+      {
+        "example_id": "ex-5cbaf1410763",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "program",
+          "variations"
+        ],
+        "rationale": "The wording 'The program included variations by Beethoven and Brahms.' provides a context-specific cue for sense:004; the listed terms identify that use rather than another sense."
+      },
+      {
+        "example_id": "ex-9b925ac94377",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:005"
+        ],
+        "discriminating_terms": [
+          "dancer",
+          "performed"
+        ],
+        "rationale": "The wording 'The dancer performed her variation with controlled, precise movements.' provides a context-specific cue for sense:005; the listed terms identify that use rather than another sense."
+      },
+      {
+        "example_id": "ex-bf7abba19750",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:005"
+        ],
+        "discriminating_terms": [
+          "She",
+          "preparing"
+        ],
+        "rationale": "The wording 'She is preparing a classical ballet variation for the competition.' provides a context-specific cue for sense:005; the listed terms identify that use rather than another sense."
+      },
+      {
+        "example_id": "ex-c24c549fcbc2",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:005"
+        ],
+        "discriminating_terms": [
+          "He",
+          "variation"
+        ],
+        "rationale": "The wording 'He chose a variation from The Sleeping Beauty for the audition.' provides a context-specific cue for sense:005; the listed terms identify that use rather than another sense."
+      },
+      {
+        "example_id": "ex-2645e7c93271",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:005"
+        ],
+        "discriminating_terms": [
+          "students",
+          "rehearsed"
+        ],
+        "rationale": "The wording 'The students rehearsed a variation from the ballet before class.' provides a context-specific cue for sense:005; the listed terms identify that use rather than another sense."
+      },
+      {
+        "example_id": "ex-8746184db349",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:006"
+        ],
+        "discriminating_terms": [
+          "parties",
+          "signed"
+        ],
+        "rationale": "The wording 'The parties signed a variation to the contract extending the delivery date.' provides a context-specific cue for sense:006; the listed terms identify that use rather than another sense."
+      },
+      {
+        "example_id": "ex-3b6aae6f4abf",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:006"
+        ],
+        "discriminating_terms": [
+          "contract",
+          "includes"
+        ],
+        "rationale": "The wording 'The contract includes a variation clause covering changes to the scope of work.' provides a context-specific cue for sense:006; the listed terms identify that use rather than another sense."
+      },
+      {
+        "example_id": "ex-8a57f786d710",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:006"
+        ],
+        "discriminating_terms": [
+          "contractor",
+          "submitted"
+        ],
+        "rationale": "The wording 'The contractor submitted a variation order for the additional work.' provides a context-specific cue for sense:006; the listed terms identify that use rather than another sense."
+      },
+      {
+        "example_id": "ex-cdf32c654a5a",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:007"
+        ],
+        "discriminating_terms": [
+          "Navigators",
+          "account"
+        ],
+        "rationale": "The wording 'Navigators must account for magnetic variation when plotting a course.' provides a context-specific cue for sense:007; the listed terms identify that use rather than another sense."
+      }
+    ]
+  },
+  "aligned_at": "2026-09-17T16:03:39.854479+00:00",
+  "findings": [],
+  "unrouted_observations": [],
+  "schema_version": "check_pass_response_v6",
+  "input_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+}

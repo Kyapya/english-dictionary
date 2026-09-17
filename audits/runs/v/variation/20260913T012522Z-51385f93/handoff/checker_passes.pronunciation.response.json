@@ -1,0 +1,24 @@
+{
+  "pass_id": "pronunciation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-6-pro",
+    "ingested_by": "human",
+    "agent_id": "variation-20260913T012522Z-51385f93-pronunciation-reviewer"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "pronunciation_symbol_explanation",
+      "location": {
+        "section": "pronunciation",
+        "line_start": 15,
+        "line_end": 15,
+        "exact_quote": "米: /ˌveriˈeɪʃn/｜英: /ˌveəriˈeɪʃn/。4音節で、第3音節の /eɪ/ に主強勢、第1音節に副次強勢がある。米音では第1音節が /ver/、英音では /veə/ となる。語尾の /ʃn/ は、つづり字の -tion を「ション」に近く発音する部分に当たる。"
+      },
+      "severity": "blocking",
+      "rationale": "「4音節」と説明している一方、両方のIPA末尾の /ʃn/ には第4音節の母音または音節主音子音の標示がなく、通常は3音節相当にも読める。-tion の発音を第4音節として示すなら /ʃən/、または採用する表記法に応じて /ʃn̩/ などとし、IPAと音節説明を整合させる必要がある。",
+      "evidence_link_ids": [],
+      "suggested_direction": "米英とも末尾を /ʃən/（または明示的な音節主音表記）に修正して4音節の説明と対応させる。/ʃn/ を維持する場合は音節数の説明を修正する。"
+    }
+  ]
+}

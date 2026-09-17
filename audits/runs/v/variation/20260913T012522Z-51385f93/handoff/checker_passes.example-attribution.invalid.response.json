@@ -1,0 +1,554 @@
+{
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-6-pro",
+    "ingested_by": "human",
+    "agent_id": "variation-20260913T012522Z-51385f93-example-attribution-reviewer"
+  },
+  "blind_attribution_record": {
+    "schema_version": "example_attribution_blind_record_v1",
+    "stage": 1,
+    "input_body_sha256": "f94b51a0c437869d997f727a89666bdfa4c5ffe575c78f10042998526972201c",
+    "taxonomy_ids": [
+      "example_sense_attribution_mismatch"
+    ],
+    "document_order_reconstructed": false,
+    "items": [
+      {
+        "example_id": "ex-8dab2a411504",
+        "example": "The revised procedure is a minor variation from the standard procedure.",
+        "translation": "改訂された手順は、標準手順からわずかに異なる形になっている。",
+        "judgment": "ambiguous",
+        "top_sense_id": "sense:002",
+        "candidate_sense_ids": [
+          "sense:002",
+          "sense:001"
+        ],
+        "next_best_sense_ids": [],
+        "discriminating_terms": [
+          "a minor variation from the standard procedure",
+          "revised procedure"
+        ],
+        "rationale": "The revised procedure reading favors sense:002, a modified version of the standard procedure, but sense:001 can also describe a minor departure from a standard procedure. The from-construction and minor do not fully force whether variation denotes the variant itself or the degree of difference."
+      },
+      {
+        "example_id": "ex-c2ff869c659a",
+        "example": "She is preparing a classical ballet variation for the competition.",
+        "translation": "彼女はコンクールに向けてクラシック・バレエのソロ演目を準備している。",
+        "judgment": "unique",
+        "top_sense_id": "sense:005",
+        "candidate_sense_ids": [
+          "sense:005"
+        ],
+        "next_best_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "classical ballet variation",
+          "preparing ... variation for the competition"
+        ],
+        "rationale": "The phrase classical ballet variation denotes an individual ballet solo being prepared for performance. Sense:004 would require a musical development of a theme or melody; the headword here is the dance number, not a musical composition."
+      },
+      {
+        "example_id": "ex-582e7db4e341",
+        "example": "The survey found considerable variation according to age and region.",
+        "translation": "その調査では、年齢と地域によってかなりの差が見つかった。",
+        "judgment": "unique",
+        "top_sense_id": "sense:001",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "next_best_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "considerable variation according to age and region"
+        ],
+        "rationale": "The sentence describes differences across age and region categories, with variation functioning as general variability. Sense:003 would require an individual or within-population biological relation; no such relation is expressed, so the use is not specifically biological variation."
+      },
+      {
+        "example_id": "ex-4060096f251e",
+        "example": "The study measured variation within a population over several generations.",
+        "translation": "その研究は、数世代にわたる集団内の変異を測定した。",
+        "judgment": "ambiguous",
+        "top_sense_id": "sense:003",
+        "candidate_sense_ids": [
+          "sense:003",
+          "sense:001"
+        ],
+        "next_best_sense_ids": [],
+        "discriminating_terms": [
+          "variation within a population",
+          "over several generations"
+        ],
+        "rationale": "Sense:003 is natural because the sentence places variation within a population across generations, but sense:001 also fits if the measured variation is an unspecified quantitative trait changing across generations. No genetic, individual, or named measured-property relation excludes the general sense."
+      },
+      {
+        "example_id": "ex-938cc29941e9",
+        "example": "The two samples showed only slight variation in color.",
+        "translation": "その2つの試料には色のわずかな違いしか見られなかった。",
+        "judgment": "ambiguous",
+        "top_sense_id": "sense:001",
+        "candidate_sense_ids": [
+          "sense:001",
+          "sense:003"
+        ],
+        "next_best_sense_ids": [],
+        "discriminating_terms": [
+          "the two samples",
+          "slight variation in color"
+        ],
+        "rationale": "Sense:001 naturally describes a small difference in the measured color attribute, but sense:003 is also possible if the samples are biological individuals or specimens. Samples and color do not establish whether the difference is general measurement variation or biological variation."
+      },
+      {
+        "example_id": "ex-bad597b9ce2f",
+        "example": "The team tested a variation of the original method.",
+        "translation": "そのチームは元の方法を変形した手法を試した。",
+        "judgment": "unique",
+        "top_sense_id": "sense:002",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "next_best_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "a variation of the original method"
+        ],
+        "rationale": "The of-phrase supplies an original method from which the tested method is modified, directly selecting sense:002. Sense:001 would describe variability in a measurement or process, but the sentence presents a concrete altered method as the object tested."
+      },
+      {
+        "example_id": "ex-75dcbb58dec8",
+        "example": "This version is a useful variation on the original design.",
+        "translation": "この版は元の設計を土台にした有用なアレンジだ。",
+        "judgment": "unique",
+        "top_sense_id": "sense:002",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "next_best_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "a useful variation on the original design",
+          "This version"
+        ],
+        "rationale": "Variation on the original design explicitly identifies a version that preserves the design while altering it, which is sense:002. Sense:001 could express a degree of design difference, but the copular version relation makes this a modified design rather than an observed spread."
+      },
+      {
+        "example_id": "ex-76387fe7e175",
+        "example": "The study found wide variation between schools in the use of digital devices.",
+        "translation": "その研究では、デジタル機器の使用について学校間に大きな差が見つかった。",
+        "judgment": "unique",
+        "top_sense_id": "sense:001",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "next_best_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "wide variation between schools",
+          "in the use of digital devices"
+        ],
+        "rationale": "Variation is the spread in a measurable practice across schools, selected by between schools and in the use of digital devices. Sense:003 would require differences among biological individuals, which cannot supply the school-level institutional comparison in this sentence."
+      },
+      {
+        "example_id": "ex-95187c1f37a0",
+        "example": "The pianist chose a demanding theme and variations for the recital.",
+        "translation": "そのピアニストはリサイタルに、難度の高い主題と変奏曲を選んだ。",
+        "judgment": "unique",
+        "top_sense_id": "sense:004",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "next_best_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "theme and variations",
+          "pianist",
+          "recital"
+        ],
+        "rationale": "Theme and variations is the musical form in which variations develop a theme, and the object is selected for a pianist's recital. Sense:002 could denote a generic altered version, but it does not account for the musical theme-and-variations construction."
+      },
+      {
+        "example_id": "ex-9c2b79565d3e",
+        "example": "The store adjusts its stock for seasonal variation in demand.",
+        "translation": "その店は需要の季節変動に合わせて在庫を調整する。",
+        "judgment": "unique",
+        "top_sense_id": "sense:001",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "next_best_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "seasonal variation in demand",
+          "adjusts its stock"
+        ],
+        "rationale": "Seasonal variation in demand denotes recurring fluctuation in a quantity over time, selecting sense:001. Sense:002 would require a modified version of an original item; demand is the changing quantity being managed, not a variant object."
+      },
+      {
+        "example_id": "ex-9bde9bf7328d",
+        "example": "This soup is a lighter variation on a traditional winter dish.",
+        "translation": "このスープは伝統的な冬の料理をより軽めにしたアレンジだ。",
+        "judgment": "unique",
+        "top_sense_id": "sense:002",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "next_best_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "a lighter variation on a traditional winter dish",
+          "This soup is"
+        ],
+        "rationale": "The soup is explicitly framed as an altered version of a named traditional dish, which is sense:002. Sense:001 would describe variability in a property such as taste or quantity, but the on-phrase identifies a recipe adaptation."
+      },
+      {
+        "example_id": "ex-4bbb02a31cba",
+        "example": "The forecast takes seasonal variation into account.",
+        "translation": "その予測は季節変動を考慮に入れている。",
+        "judgment": "unique",
+        "top_sense_id": "sense:001",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "next_best_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "seasonal variation",
+          "takes ... into account"
+        ],
+        "rationale": "Seasonal variation is a recurring change or fluctuation incorporated into a forecast, selecting sense:001. Sense:002 would require an object that is a modified version of an original; no such base object or version relation appears."
+      },
+      {
+        "example_id": "ex-986915fb915e",
+        "example": "The study found substantial genetic variation among individuals in their response to the vaccine.",
+        "translation": "その研究では、ワクチンへの反応に個体間の大きな遺伝的差が見つかった。",
+        "judgment": "unique",
+        "top_sense_id": "sense:003",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "next_best_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "genetic variation among individuals",
+          "their response to the vaccine"
+        ],
+        "rationale": "Genetic variation among individuals in response is directly the biological individual-difference sense:003. Sense:001 could describe a general spread in responses, but the genetic basis and among-individual relation identify population biology rather than unspecified variability."
+      },
+      {
+        "example_id": "ex-de4f89eb7cf8",
+        "example": "The workshop asks students to develop a variation on the basic pattern.",
+        "translation": "その講習では、基本パターンを変形したものを学生に考案させる。",
+        "judgment": "unique",
+        "top_sense_id": "sense:002",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "next_best_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "develop a variation on the basic pattern"
+        ],
+        "rationale": "Students are asked to create an altered form based on an explicitly named basic pattern, the defining relation for sense:002. Sense:001 would describe variability in patterns, not a deliberately developed version of one pattern."
+      },
+      {
+        "example_id": "ex-638487ec6870",
+        "example": "There is considerable variation in the time needed to complete the task.",
+        "translation": "その作業を終えるのに必要な時間にはかなりのばらつきがある。",
+        "judgment": "unique",
+        "top_sense_id": "sense:001",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "next_best_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "variation in the time needed to complete the task"
+        ],
+        "rationale": "The phrase in the time needed names a spread in a measurable duration, selecting sense:001. Sense:002 would require a modified task or procedure, but the task remains constant and only completion times vary."
+      },
+      {
+        "example_id": "ex-c52b6522519a",
+        "example": "The novel is a clever variation on a familiar coming-of-age story.",
+        "translation": "その小説は、よく知られた成長物語を巧みに変形した作品だ。",
+        "judgment": "unique",
+        "top_sense_id": "sense:002",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "next_best_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "a clever variation on a familiar coming-of-age story",
+          "The novel is"
+        ],
+        "rationale": "The novel is presented as a work adapted from a named familiar story, directly selecting sense:002. Sense:001 could describe general differences among stories, but the on-phrase and copular novel-to-source relation identify one modified version."
+      },
+      {
+        "example_id": "ex-57e1b7a89de9",
+        "example": "The dancer performed her variation with controlled, precise movements.",
+        "translation": "そのダンサーは抑制の効いた正確な動きでソロ演目を踊った。",
+        "judgment": "unique",
+        "top_sense_id": "sense:005",
+        "candidate_sense_ids": [
+          "sense:005"
+        ],
+        "next_best_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "The dancer performed her variation",
+          "controlled, precise movements"
+        ],
+        "rationale": "The headword is the solo dance number performed by a dancer, selecting sense:005. Sense:004 would be a musical composition or development played from a theme; the performed object is realized through dance movements."
+      },
+      {
+        "example_id": "ex-761d33e11cbe",
+        "example": "The samples show variation in leaf shape and size.",
+        "translation": "その試料には葉の形と大きさに違いが見られる。",
+        "judgment": "ambiguous",
+        "top_sense_id": "sense:003",
+        "candidate_sense_ids": [
+          "sense:003",
+          "sense:001"
+        ],
+        "next_best_sense_ids": [],
+        "discriminating_terms": [
+          "variation in leaf shape and size",
+          "The samples"
+        ],
+        "rationale": "Leaf shape and size make biological individual variation sense:003 plausible, but sense:001 also fits ordinary observed differences in measured leaf traits. The sentence does not state individuals, species, genetics, or another relation that excludes the general sense."
+      },
+      {
+        "example_id": "ex-b94f45e3194d",
+        "example": "Genetic variation within a species can affect its response to disease.",
+        "translation": "種内の遺伝的変異は、病気への反応に影響することがある。",
+        "judgment": "unique",
+        "top_sense_id": "sense:003",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "next_best_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "Genetic variation within a species",
+          "its response to disease"
+        ],
+        "rationale": "Genetic variation within a species is the explicit population-biological relation of sense:003. Sense:001 could describe a general difference in disease response, but it cannot account for the genetic and within-species relation stated here."
+      },
+      {
+        "example_id": "ex-18221978ac53",
+        "example": "The graph shows the variation of pressure with altitude.",
+        "translation": "そのグラフは高度に伴う圧力の変化を示している。",
+        "judgment": "unique",
+        "top_sense_id": "sense:001",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "next_best_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "variation of pressure with altitude"
+        ],
+        "rationale": "The of-with construction identifies change in the measurable physical quantity pressure as altitude changes, selecting sense:001. Sense:003 would require variation among biological individuals or within a population, not a pressure-versus-altitude relation."
+      },
+      {
+        "example_id": "ex-53c82f253477",
+        "example": "He chose a variation from The Sleeping Beauty for the audition.",
+        "translation": "彼はオーディションに『眠れる森の美女』のソロ演目を選んだ。",
+        "judgment": "unique",
+        "top_sense_id": "sense:005",
+        "candidate_sense_ids": [
+          "sense:005"
+        ],
+        "next_best_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "a variation from The Sleeping Beauty",
+          "for the audition"
+        ],
+        "rationale": "A variation from The Sleeping Beauty in an audition context denotes a repertory ballet solo, selecting sense:005. Sense:004 would require a musical theme, melody, or score-based performance; the use is the dance number rather than a musical variation."
+      },
+      {
+        "example_id": "ex-60945e97b53b",
+        "example": "The researchers compared genetic variation between populations living in different environments.",
+        "translation": "研究者たちは、異なる環境に住む集団間の遺伝的変異を比較した。",
+        "judgment": "unique",
+        "top_sense_id": "sense:003",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "next_best_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "genetic variation between populations",
+          "between populations living in different environments"
+        ],
+        "rationale": "The genetic comparison between populations is directly sense:003. Sense:001 could express a general difference between groups, but the genetic and population-level relation specifies biological variation."
+      },
+      {
+        "example_id": "ex-4379956fc8b5",
+        "example": "The program included variations by Beethoven and Brahms.",
+        "translation": "そのプログラムにはベートーベンとブラームスの変奏曲が含まれていた。",
+        "judgment": "unique",
+        "top_sense_id": "sense:004",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "next_best_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "variations by Beethoven and Brahms",
+          "The program included"
+        ],
+        "rationale": "Variations attributed to composers and included in a performance program are musical variation works, selecting sense:004. Sense:002 could denote generic altered versions, but the authorship-of-compositions construction identifies the musical sense."
+      },
+      {
+        "example_id": "ex-f2b67c2af23d",
+        "example": "Genetic variation in drug response should be considered when interpreting the results.",
+        "translation": "結果を解釈する際は、薬物反応における遺伝的変異を考慮すべきだ。",
+        "judgment": "unique",
+        "top_sense_id": "sense:003",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "next_best_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "Genetic variation in drug response"
+        ],
+        "rationale": "The genetic qualifier makes this variation in biologically based individual response, selecting sense:003. Sense:001 could describe an unspecified spread in drug responses, but it would not explain the explicit genetic basis."
+      },
+      {
+        "example_id": "ex-26fd9903214e",
+        "example": "She played the final variation with remarkable clarity.",
+        "translation": "彼女は最後の変奏を見事な明瞭さで演奏した。",
+        "judgment": "unique",
+        "top_sense_id": "sense:004",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "next_best_sense_ids": [
+          "sense:005"
+        ],
+        "discriminating_terms": [
+          "played the final variation",
+          "with remarkable clarity"
+        ],
+        "rationale": "Played and final variation identify one musical movement or development, selecting sense:004. Sense:005 could denote a ballet solo, but a dance number is performed or danced through movement rather than played with musical clarity."
+      },
+      {
+        "example_id": "ex-85b30d7cc234",
+        "example": "The pianist performed a variation on the melody with subtle rhythmic changes.",
+        "translation": "そのピアニストは、リズムを微妙に変えたその旋律の一つの変奏を演奏した。",
+        "judgment": "unique",
+        "top_sense_id": "sense:004",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "next_best_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "pianist performed a variation on the melody",
+          "subtle rhythmic changes"
+        ],
+        "rationale": "The pianist, melody, and rhythmic changes make variation on the melody a musical development, selecting sense:004. Sense:002 also allows a modified version, but the musical subject and the specific melody/rhythm relation identify the musical sense."
+      },
+      {
+        "example_id": "ex-29ecee07274e",
+        "example": "The students rehearsed a variation from the ballet before class.",
+        "translation": "生徒たちは授業の前に、そのバレエ作品のソロ演目を練習した。",
+        "judgment": "unique",
+        "top_sense_id": "sense:005",
+        "candidate_sense_ids": [
+          "sense:005"
+        ],
+        "next_best_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "a variation from the ballet",
+          "rehearsed ... before class"
+        ],
+        "rationale": "A variation from the ballet rehearsed by students is a ballet solo, selecting sense:005. Sense:004 would require a musical theme, melody, or instrumental realization; the source and rehearsal relation concern a dance number."
+      },
+      {
+        "example_id": "ex-b958c7b764f7",
+        "example": "Navigators must account for magnetic variation when plotting a course.",
+        "translation": "航海者は航路を設定する際に磁気偏角を考慮しなければならない。",
+        "judgment": "unique",
+        "top_sense_id": "sense:006",
+        "candidate_sense_ids": [
+          "sense:006"
+        ],
+        "next_best_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "magnetic variation",
+          "Navigators ... plotting a course"
+        ],
+        "rationale": "Magnetic variation in a navigational course-setting frame is the technical angular difference between magnetic and true north, selecting sense:006. Sense:001 could describe ordinary fluctuation in a magnetic quantity, but that is not the navigational correction expressed here."
+      },
+      {
+        "example_id": "ex-2c1c7a896103",
+        "example": "The instructions show a slight variation in wording.",
+        "translation": "その説明書には表現のわずかな違いが見られる。",
+        "judgment": "ambiguous",
+        "top_sense_id": "sense:001",
+        "candidate_sense_ids": [
+          "sense:001",
+          "sense:002"
+        ],
+        "next_best_sense_ids": [],
+        "discriminating_terms": [
+          "a slight variation in wording",
+          "instructions show"
+        ],
+        "rationale": "Sense:001 naturally describes a difference in wording across the instructions, but sense:002 can describe an alternate wording as a modified version of an underlying text. No explicit source version or intentional adaptation resolves the two readings."
+      },
+      {
+        "example_id": "ex-678432ffc630",
+        "example": "The concert opened with a set of variations on a folk melody.",
+        "translation": "その演奏会は民謡の旋律による変奏曲集で幕を開けた。",
+        "judgment": "unique",
+        "top_sense_id": "sense:004",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "next_best_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "a set of variations on a folk melody",
+          "The concert opened with"
+        ],
+        "rationale": "A set of variations on a melody performed at a concert is the musical variation form, selecting sense:004. Sense:002 could describe a generic adaptation of a melody, but set, concert, and melody identify successive musical developments."
+      }
+    ]
+  },
+  "aligned_at": null,
+  "alignment_status": "not_run_missing_stage2_artifact",
+  "findings": [],
+  "unrouted_observations": []
+}

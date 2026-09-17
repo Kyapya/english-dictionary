@@ -1,0 +1,23 @@
+{
+  "pass_id": "qualification",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-6-pro",
+    "ingested_by": "human",
+    "agent_id": "variation-20260913T012522Z-51385f93-qualification-reviewer"
+  },
+  "findings": [
+    {
+      "taxonomy_id":"regional_qualification","location":{"section":"frequency_register","line_start":130,"line_end":130,"exact_quote":"【レジスター/領域】標準語。料理、物語、デザイン、研究方法、議論など、同じ型の展開やアレンジを説明する文章でよく使う。契約・法務では契約内容の変更を指し、`variation of/to the contract`、`variation clause`、`variation order` などの専門表現で用いる。"},"severity":"minor","rationale":"`variation order` は主に建設契約の変更指示を表す実務語で、契約変更表現の自然さ・慣用性も法域で異なる。米国では `change order` や `contract modification` が一般的であり、契約・法務全般の無標識な用法としてまとめると地域・制度の範囲を広げすぎる。","suggested_direction":"契約変更一般、建設契約の `variation order`、`variation clause` を分け、法域・地域差と米国での `change order` 等を注記する。","evidence_link_ids":[]
+    },
+    {
+      "taxonomy_id":"technical_terminology_conventionality","location":{"section":"sense_structure","line_start":198,"line_end":198,"exact_quote":"【日本語訳・定義】同じ種・集団に属する個体の間に見られる、遺伝的・構造的・機能的な差を表す。基準や平均からの逸脱を必須とせず、個体間に自然に存在する差を中立的に指す。言語・地域・社会層などの一般的な形式差は語義1で扱う。"},"severity":"minor","rationale":"定義を同じ種・集団に属する個体間へ狭く限定する一方、同じ専門義の例には `genetic variation between populations` がある。集団間・個体群間の遺伝的差という標準的な専門用法を取りこぼし、定義と例の適用範囲がずれている。","suggested_direction":"個体・集団内および集団間の生物学的差を含め、`within`、`among`、`between` のフレームを区別して説明する。","evidence_link_ids":[]
+    },
+    {
+      "taxonomy_id":"technical_terminology_conventionality","location":{"section":"sense_structure","line_start":322,"line_end":322,"exact_quote":"【日本語訳・定義】クラシック・バレエで、踊り手が一人で踊る独立した演目または場面を表す。特に pas de deux などの中で、男女それぞれのソロとして踊られる部分を指すことがある。音楽の変奏曲ではなく、舞踊作品上の演目名である。"},"severity":"minor","rationale":"バレエの `variation` は専門的には一人の踊り手によるソロ番号・独舞、または作品内のソロ部分を指し、一般的な「場面」全体を指す語ではない。「演目または場面」とすると範囲が広がり、後段の「一場面全体ではなく」とも不整合になる。","suggested_direction":"「独舞・ソロ番号」または「一場面内のソロ部分」と定義し、一般的な場面を指すように読める表現を削る。","evidence_link_ids":[]
+    },
+    {
+      "taxonomy_id":"regional_qualification","location":{"section":"usage_notes","line_start":380,"line_end":380,"exact_quote":"【語法・注意】この用法は一般的な「変動」ではなく、真北に対する磁北の角度を指す。`magnetic declination` とほぼ同義だが、地理・海図の資料では `magnetic variation` が使われることがある。"},"severity":"minor","rationale":"`magnetic variation` は単に地理・海図資料で時に使われる語ではなく、航海・海図などでは確立した呼称であり、`magnetic declination` との優勢な用語は分野・地域・標準によって異なる。現記述は `variation` の専門的慣用性を弱めている。","suggested_direction":"航海・海図等での `magnetic variation` と地球科学・測量等での `magnetic declination` の分野・地域差を示し、該当文脈では同義であることを説明する。","evidence_link_ids":[]
+    }
+  ]
+}
