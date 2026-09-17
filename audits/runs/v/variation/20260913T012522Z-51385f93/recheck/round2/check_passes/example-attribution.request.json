@@ -5,7 +5,7 @@
     "example_sense_attribution_mismatch"
   ],
   "specification": "prompts/check_pass_example_attribution_v6.md",
-  "input_body_sha256": "7a1c3221f86973c44779501d237f80e00ac2a3e694728b799759b77539e0492c",
+  "input_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b",
   "input_sections": {
     "sense_structure": [
       {
@@ -42,7 +42,7 @@
         "sense_id": "sense:006",
         "line": 365,
         "label": "6. 【名詞・可算／不可算・契約・法務】契約変更、契約変更事項",
-        "definition": "契約締結後に、作業範囲・仕様・数量・価格・納期などの契約条件を変更すること、またはその変更内容を表す。契約書に定められた手続に従い、当事者の合意・承認・記録を伴う専門用法である。"
+        "definition": "契約締結後に、作業範囲・仕様・数量・価格・納期などの契約条件を変更すること、またはその変更内容を表す。契約書や適用法に定められた手続が問題となる専門用法で、合意・承認・記録を伴うことも多いが、必要な要件は契約・法域によって異なる。"
       },
       {
         "sense_id": "sense:007",
@@ -249,6 +249,6 @@
     ]
   },
   "specification_sha256": "e0bbb032bc0c50bf9bef5ff8f7854188287e635c58e599479891e11e3343a017",
-  "source_artifact_sha256": "c9a2ac662d00d24d8b764e44bddbe8d7948960ebfcf5fcac047adce949ec7bc1",
-  "normalized_input_sha256": "ff3384ae55a3c066631f37f3f43383d72dc9a730c5e0532ae927f26f0e22f607"
+  "source_artifact_sha256": "7b6717267d963a550a9b471137aa39ab45047609e7b6e23d0ac067ad4a871c0a",
+  "normalized_input_sha256": "b01f21a0169be30a17938f6f249e045eb307314d2d4d85632b7f1ff63f8a8017"
 }

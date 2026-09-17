@@ -2,232 +2,156 @@
   "provisional_decision": "pass",
   "independent_candidates": [
     {
-      "id": "ind-01",
+      "id": "cand_general_change",
       "surface_form": "variation",
-      "frame": "variation in/of 〈amount/level/quality/temperature/pressure〉",
-      "meaning": "量・水準・品質・状態などの変化・変動・ばらつき",
+      "frame": "variation in/of + quantity, level, quality, temperature, or pressure; variation between/among + entities; variation according to + factor; variation of A with B",
+      "meaning": "change, fluctuation, or dispersion, including differences across comparable observations",
       "disposition": "included",
-      "rationale": "本文の frame『variation in/of 〈amount/level/quality/temperature/pressure〉』は、variation を量や状態の変化・ばらつきとして扱っており、例文と訳もこの中心意味に一致する。",
+      "rationale": "The variation frame covers change or spread in a measured attribute and separately accommodates comparisons among entities without turning every difference into a specialized biological sense.",
       "semantic_assertions": [
         {
-          "id": "ind-01-a",
-          "statement": "variation は、量・水準・品質・状態などが一定でないこと、またはその変化幅を表さなければならない。",
+          "id": "assert_general_boundary",
+          "statement": "The meaning must denote change, fluctuation, or neutral spread in a comparable attribute or set of observations, rather than a deliberately modified version of an original object.",
           "polarity": "must_hold",
-          "scope": "variation in/of + quantity, level, quality, temperature, or pressure"
+          "scope": "general noun frames"
         },
         {
-          "id": "ind-01-b",
-          "statement": "このフレームは、元の型を土台にした作品・方法の別形そのものではなく、変化またはばらつきを中心に表す。",
+          "id": "assert_general_exclusion",
+          "statement": "The frame must not require a biological population, a musical theme, a ballet solo, a contract, or magnetic north as its semantic context.",
           "polarity": "must_not_hold",
-          "scope": "general quantitative/state-change frame"
+          "scope": "general noun frames"
         }
       ]
     },
     {
-      "id": "ind-02",
+      "id": "cand_modified_version",
       "surface_form": "variation",
-      "frame": "variation between 〈A〉 and 〈B〉 / variation among 〈people/regions〉",
-      "meaning": "同種の対象の間にある差・ばらつき",
+      "frame": "a variation on/of + original design, idea, story, recipe, method, or instructions",
+      "meaning": "a modified version that retains a basic relation to its source",
       "disposition": "included",
-      "rationale": "本文の frame『variation between 〈A〉 and 〈B〉 / variation among 〈people/regions〉』は、対象間の比較結果としての variation を独立に説明し、一般的な差・ばらつきの用例も示している。",
+      "rationale": "The variation on frame is presented as a source-related modified version, with continuity to the original rather than an unrelated alternative.",
       "semantic_assertions": [
         {
-          "id": "ind-02-a",
-          "statement": "between/among の対象は比較される複数の対象であり、variation はそれらが同一でない程度や分布を指さなければならない。",
+          "id": "assert_modified_source",
+          "statement": "The frame must preserve a recognizable source, basic idea, or type while allowing part of the content or form to change.",
           "polarity": "must_hold",
-          "scope": "between/among comparison frame"
+          "scope": "variation on/of source frames"
         },
         {
-          "id": "ind-02-b",
-          "statement": "一般的な比較フレームは、生物学的な遺伝・形態差に限定されてはならない。",
+          "id": "assert_modified_exclusion",
+          "statement": "The frame must not be generalized to every numerical fluctuation or to the formal alteration of a contract.",
           "polarity": "must_not_hold",
-          "scope": "general between/among frame"
+          "scope": "variation on/of source frames"
         }
       ]
     },
     {
-      "id": "ind-03",
+      "id": "cand_biological_difference",
       "surface_form": "variation",
-      "frame": "variation according to 〈a factor〉 / variation of 〈A〉 with 〈B〉",
-      "meaning": "要因や別の変数に応じた変化",
+      "frame": "genetic/biological variation within a species or population; variation among individuals; variation between populations",
+      "meaning": "biological differences or non-uniformity within or between related populations",
       "disposition": "included",
-      "rationale": "本文の frame『variation according to 〈a factor〉 / variation of 〈A〉 with 〈B〉』は、何が何に応じて変化するかという関係を明示し、年齢・地域・高度の例でその作用方向を保っている。",
+      "rationale": "The biological variation frame is independently identifiable by its population and inherited-or-structural difference context, including within-group and between-group relations.",
       "semantic_assertions": [
         {
-          "id": "ind-03-a",
-          "statement": "according to/with の後続要素は変化の条件または独立変数であり、variation の対象がその要因に伴って変わる関係を表さなければならない。",
+          "id": "assert_biological_population",
+          "statement": "The meaning must concern differences among organisms or populations in biological characteristics, not merely any everyday difference between two things.",
           "polarity": "must_hold",
-          "scope": "factor-dependent change frame"
-        }
-      ]
-    },
-    {
-      "id": "ind-04",
-      "surface_form": "a variation from 〈the norm/standard〉",
-      "frame": "a variation from 〈the norm/standard〉",
-      "meaning": "基準・標準からの相違やずれ",
-      "disposition": "included",
-      "rationale": "本文の frame『a variation from 〈the norm/standard〉』は、比較基準からのずれを表す用法として variation on の別形用法と区別され、標準手順からの差の例で具体化されている。",
-      "semantic_assertions": [
-        {
-          "id": "ind-04-a",
-          "statement": "from の後続要素は基準または標準であり、variation はそこからの相違を表さなければならない。",
-          "polarity": "must_hold",
-          "scope": "deviation-from-standard frame"
+          "scope": "biological noun frames"
         },
         {
-          "id": "ind-04-b",
-          "statement": "このフレームは、元の考え・設計・作品を土台にした別形を必ず意味するものとして一般化してはならない。",
+          "id": "assert_biological_not_mutation",
+          "statement": "The meaning must not equate variation with mutation; mutation may be a cause of genetic variation but is not synonymous with the observed variation.",
           "polarity": "must_not_hold",
-          "scope": "variation from norm/standard"
+          "scope": "biological noun frames"
         }
       ]
     },
     {
-      "id": "ind-05",
-      "surface_form": "a variation on ...",
-      "frame": "a variation on 〈the original design/an idea/a story/a recipe〉",
-      "meaning": "同じ基本型を保ちながら一部を変えたもの・アレンジ",
+      "id": "cand_music",
+      "surface_form": "variation",
+      "frame": "a variation on a theme/melody; a set of variations; theme and variations; play/perform a variation",
+      "meaning": "a musical treatment that develops a theme or melody through changes in melody, harmony, rhythm, or key",
       "disposition": "included",
-      "rationale": "本文の surface_form『a variation on ...』は、元の設計・考え・物語・料理を土台にした別形という意味で一貫しており、元と無関係な代替案とは区別されている。",
+      "rationale": "The musical variation frame is separated by its theme-and-development relation and by the distinction between an individual variation and a set or complete work.",
       "semantic_assertions": [
         {
-          "id": "ind-05-a",
-          "statement": "on の対象は元となる考え・型・方法・作品であり、variation はその連続性を保った変形でなければならない。",
+          "id": "assert_music_theme",
+          "statement": "The meaning must involve a musical theme or melody that is retained as the basis while musical features are changed or ornamented.",
           "polarity": "must_hold",
-          "scope": "general variation-on frame"
+          "scope": "musical noun frames"
         },
         {
-          "id": "ind-05-b",
-          "statement": "契約条件の正式な変更、音楽の主題による変奏、またはバレエの独舞を、この一般的な別形フレームだけに吸収してはならない。",
+          "id": "assert_music_not_version",
+          "statement": "The meaning must not reduce to any different recording or performance; version or arrangement may be more appropriate when no theme-and-variation relation is intended.",
           "polarity": "must_not_hold",
-          "scope": "general variation-on frame"
+          "scope": "musical noun frames"
         }
       ]
     },
     {
-      "id": "ind-06",
-      "surface_form": "genetic variation",
-      "frame": "genetic/biological variation within 〈a species/group〉, among 〈individuals〉, or between 〈populations〉",
-      "meaning": "生物の個体・集団内または集団間の遺伝的・構造的・機能的な差",
+      "id": "cand_ballet",
+      "surface_form": "variation",
+      "frame": "perform/rehearse/learn a variation; a classical ballet variation; a variation from a ballet",
+      "meaning": "a ballet solo or solo number",
       "disposition": "included",
-      "rationale": "本文の surface_form『genetic variation』は、生物学・遺伝学における個体差や集団差として独立した専門用法に置かれ、mutation や deviation との境界も説明されている。",
+      "rationale": "The ballet variation frame is a distinct specialist use for a dancer's solo number, not the musical work that may accompany it.",
       "semantic_assertions": [
         {
-          "id": "ind-06-a",
-          "statement": "この専門フレームの variation は、同じ種・集団に属する個体または集団の間で観察される差やその分布を表さなければならない。",
+          "id": "assert_ballet_solo",
+          "statement": "The meaning must denote a solo dance number or solo section in a classical ballet context.",
           "polarity": "must_hold",
-          "scope": "biological/genetic variation"
+          "scope": "ballet noun frames"
         },
         {
-          "id": "ind-06-b",
-          "statement": "variation は mutation そのものと同義として扱われてはならない。",
+          "id": "assert_ballet_not_general_dance",
+          "statement": "The meaning must not be generalized to every one-person dance outside the ballet context.",
           "polarity": "must_not_hold",
-          "scope": "genetic variation versus mutation"
+          "scope": "ballet noun frames"
         }
       ]
     },
     {
-      "id": "ind-07",
-      "surface_form": "a variation on a theme",
-      "frame": "a variation on 〈a theme/melody〉 / a set of variations on 〈a theme〉",
-      "meaning": "主題や旋律を変化・装飾した音楽上の変奏、またはその一組",
+      "id": "cand_contract",
+      "surface_form": "variation",
+      "frame": "a variation to/of the contract; variation clause; variation order; agree/approve/document a variation",
+      "meaning": "a formal change to an existing contract or to contracted work",
       "disposition": "included",
-      "rationale": "本文の surface_form『a variation on a theme』は、一般的な比喩的展開とは分けて、主題・旋律に基づく音楽上の変奏として説明されている。単数の一変奏と複数・作品全体の区別も保たれている。",
+      "rationale": "The contract variation frame is delimited by an existing agreement and by formal changes to its terms, scope, price, quantity, or schedule.",
       "semantic_assertions": [
         {
-          "id": "ind-07-a",
-          "statement": "音楽フレームの variation は、主題または旋律との関係を保ちつつ、旋律・和声・リズム・調性などに変化を加えた一つの展開または一連の作品を表さなければならない。",
+          "id": "assert_contract_existing",
+          "statement": "The meaning must concern a change to an already formed contract or its contracted work, with the exact procedural requirements left to the contract and applicable law.",
           "polarity": "must_hold",
-          "scope": "music variation"
+          "scope": "contract and legal noun frames"
         },
         {
-          "id": "ind-07-b",
-          "statement": "単に別の演奏・録音を意味する version と同一視してはならない。",
+          "id": "assert_contract_not_alternative",
+          "statement": "The meaning must not be treated as merely an optional alternative proposal unrelated to changing an existing contract.",
           "polarity": "must_not_hold",
-          "scope": "music variation"
+          "scope": "contract and legal noun frames"
         }
       ]
     },
     {
-      "id": "ind-08",
-      "surface_form": "perform a variation",
-      "frame": "perform/rehearse a variation; a variation from 〈a ballet〉",
-      "meaning": "クラシック・バレエの一人用ソロ演目・独舞",
-      "disposition": "included",
-      "rationale": "本文の frame『perform/rehearse a variation; a variation from 〈a ballet〉』は、音楽の変奏ではなく、クラシック・バレエで一人が踊る演目という専門用法を明確に示している。",
-      "semantic_assertions": [
-        {
-          "id": "ind-08-a",
-          "statement": "バレエの variation は、特定の作品や伝統に属する独舞・ソロ番号を指さなければならない。",
-          "polarity": "must_hold",
-          "scope": "classical ballet variation"
-        },
-        {
-          "id": "ind-08-b",
-          "statement": "このフレームを、音楽作品として演奏する変奏曲、または一般のあらゆる一人踊りへ拡張してはならない。",
-          "polarity": "must_not_hold",
-          "scope": "classical ballet variation"
-        }
-      ]
-    },
-    {
-      "id": "ind-09",
-      "surface_form": "a variation to 〈the contract〉",
-      "frame": "a variation of/to 〈the contract〉; variation clause; variation order",
-      "meaning": "契約条件・作業範囲などの正式な変更または変更事項",
-      "disposition": "included",
-      "rationale": "本文の surface_form『a variation to 〈the contract〉』は、一般的な別形ではなく、契約条件を変更する専門用法として整理され、variation clause と variation order も同じ領域の定着フレームとして示されている。",
-      "semantic_assertions": [
-        {
-          "id": "ind-09-a",
-          "statement": "契約フレームの variation は、既存契約の範囲・仕様・数量・価格・納期などの条件に対する正式な変更またはその変更事項を表さなければならない。",
-          "polarity": "must_hold",
-          "scope": "contract/legal variation"
-        },
-        {
-          "id": "ind-09-b",
-          "statement": "この専門用法を、契約と無関係な一般的なアレンジや単なる代替案として扱ってはならない。",
-          "polarity": "must_not_hold",
-          "scope": "contract/legal variation"
-        }
-      ]
-    },
-    {
-      "id": "ind-10",
+      "id": "cand_magnetic",
       "surface_form": "magnetic variation",
-      "frame": "magnetic variation at 〈a location〉; account for magnetic variation",
-      "meaning": "真北と磁北の間の方位差・磁気偏角",
+      "frame": "magnetic variation; magnetic variation at a location; account for magnetic variation",
+      "meaning": "the angular difference between true north and magnetic north",
       "disposition": "included",
-      "rationale": "本文の surface_form『magnetic variation』は、航海・海図などで真北と磁北の角度を扱う定着した名詞句として示され、magnetic declination との関係と分野差も明記されている。",
+      "rationale": "The magnetic variation frame is a fixed navigation and surveying expression for the true-north/magnetic-north angular difference, with magnetic declination identified as a field-dependent alternative term.",
       "semantic_assertions": [
         {
-          "id": "ind-10-a",
-          "statement": "magnetic variation は、地点における真北と磁北の水平角または方位差を表さなければならない。",
+          "id": "assert_magnetic_angle",
+          "statement": "The meaning must denote the directional angle or bearing difference between true north and magnetic north at a place, relevant to navigation or surveying.",
           "polarity": "must_hold",
-          "scope": "magnetic variation"
+          "scope": "magnetic variation compound"
         },
         {
-          "id": "ind-10-b",
-          "statement": "この定着句を、一般的な値の変動という意味だけで解釈してはならない。",
+          "id": "assert_magnetic_not_generic",
+          "statement": "The compound must not be interpreted as ordinary seasonal, numerical, or population variation merely because it contains variation.",
           "polarity": "must_not_hold",
-          "scope": "magnetic variation"
-        }
-      ]
-    },
-    {
-      "id": "ind-11",
-      "surface_form": "variation",
-      "frame": "verb or adjective use of variation",
-      "meaning": "変化する・変動するという動詞用法、または変化に富むという形容詞用法",
-      "disposition": "excluded",
-      "rationale": "surface_form『variation』自体は本文全体で名詞として扱われており、動詞または形容詞としての variation という別の品詞用法は含まれていない。",
-      "semantic_assertions": [
-        {
-          "id": "ind-11-a",
-          "statement": "標準的な見出し語 variation の中心的な品詞は名詞であり、vary や varied/various の用法を variation 自体の用法として数えてはならない。",
-          "polarity": "must_hold",
-          "scope": "part-of-speech inventory"
+          "scope": "magnetic variation compound"
         }
       ]
     }
@@ -237,22 +161,22 @@
     "mode": "handoff",
     "declared_model": "gpt-5.6-sol",
     "ingested_by": "orchestrator",
-    "agent_id": "01a0b040-64a1-7bc1-9c86-792488fb30bd",
+    "agent_id": "01a0b05e-5ff5-7501-b54d-2125d6cab0bc",
     "source_response": {
-      "path": "audits/runs/v/variation/20260913T012522Z-51385f93/handoff/source_responses/471810b569b233612455faabe27f81350af12110740ed616ce4ecb2995286cf9.json",
-      "sha256": "471810b569b233612455faabe27f81350af12110740ed616ce4ecb2995286cf9"
+      "path": "audits/runs/v/variation/20260913T012522Z-51385f93/handoff/source_responses/2392c277d63c79ba7a1936d315b533e07b6209f3d03b78a689b1d6e8fed473b2.json",
+      "sha256": "2392c277d63c79ba7a1936d315b533e07b6209f3d03b78a689b1d6e8fed473b2"
     }
   },
   "schema_version": "final_blind_v2",
   "stage": "final_blind",
   "run_id": "blind-variation-20260913T012522Z-51385f93",
   "context_id": "blind-variation-context-20260913T012522Z-51385f93",
-  "input_body_sha256": "7a1c3221f86973c44779501d237f80e00ac2a3e694728b799759b77539e0492c",
+  "input_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b",
   "prompt_sha256": "3a481b4b5b1236ff386e148bcacc574570b305e79f5e155e9afcd34091f7785c",
   "input_artifacts": [
     "entry_body",
     "final_blind_prompt"
   ],
   "audit_visible": false,
-  "recorded_at": "2026-09-17T16:47:24.569410+00:00"
+  "recorded_at": "2026-09-17T17:20:14.116527+00:00"
 }

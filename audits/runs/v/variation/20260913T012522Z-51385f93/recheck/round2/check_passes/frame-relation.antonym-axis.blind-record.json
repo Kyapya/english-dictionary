@@ -1,0 +1,27 @@
+{
+  "schema_version": "antonym_axis_blind_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b",
+  "blind_request_sha256": "fdc206b46e66d0fe67fe91423e034ba47bad608ed547382fc64721683566b7d1",
+  "recorded_at": "2026-09-17T17:30:00+00:00",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-sol",
+    "ingested_by": "human",
+    "agent_id": "variation-20260913T012522Z-51385f93-recheck-round2-independent"
+  },
+  "axes": [
+    {
+      "item_id": "ant-519ed0f68e0e",
+      "axis": "一様性",
+      "relation_type": "状態",
+      "reason": "変動・ばらつきのある状態と、対象間の差がほとんどなくそろった状態の対立である。"
+    },
+    {
+      "item_id": "ant-4fcd8d375a12",
+      "axis": "均質性",
+      "relation_type": "状態",
+      "reason": "集団内の個体差・変異と、構成要素が互いによく似て一様な状態の対立である。"
+    }
+  ]
+}

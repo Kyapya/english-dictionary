@@ -5,7 +5,7 @@
     "evidence_claim_mismatch"
   ],
   "specification": "prompts/check_pass_evidence_v7.md",
-  "input_body_sha256": "7a1c3221f86973c44779501d237f80e00ac2a3e694728b799759b77539e0492c",
+  "input_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b",
   "input_sections": {
     "pronunciation": [
       {
@@ -150,7 +150,7 @@
       },
       {
         "line": 367,
-        "text": "【日本語訳・定義】契約締結後に、作業範囲・仕様・数量・価格・納期などの契約条件を変更すること、またはその変更内容を表す。契約書に定められた手続に従い、当事者の合意・承認・記録を伴う専門用法である。  "
+        "text": "【日本語訳・定義】契約締結後に、作業範囲・仕様・数量・価格・納期などの契約条件を変更すること、またはその変更内容を表す。契約書や適用法に定められた手続が問題となる専門用法で、合意・承認・記録を伴うことも多いが、必要な要件は契約・法域によって異なる。  "
       },
       {
         "line": 403,
@@ -1396,10 +1396,10 @@
   },
   "evidence_context": {
     "schema_version": "evidence_context_v2",
-    "input_body_sha256": "7a1c3221f86973c44779501d237f80e00ac2a3e694728b799759b77539e0492c",
+    "input_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b",
     "source_inventory_schema_version": "source_inventory_v2",
-    "source_inventory_sha256": "65e0ad813a646596217f1d658a6a4d19a380e8fa1a7d9608ee4d2ead6d95d2b1",
-    "source_first_artifact_sha256": "c9a2ac662d00d24d8b764e44bddbe8d7948960ebfcf5fcac047adce949ec7bc1",
+    "source_inventory_sha256": "d5854db77ca4127580c52b2b6c0ce81f2d246dd4adc07c56859e3c6894cb4d37",
+    "source_first_artifact_sha256": "7b6717267d963a550a9b471137aa39ab45047609e7b6e23d0ac067ad4a871c0a",
     "relevant_sections": [
       "collocations_examples",
       "core_image",
@@ -2661,10 +2661,10 @@
         "location": "line:356",
         "section": "＃意味・用法・関連表現",
         "sense": "6. 【名詞・可算／不可算・契約・法務】契約変更、契約変更事項",
-        "text_sha256": "f5958696c0522938fb6fa5a651befa1eb0c835d5b6139c14fb04e64174cf5b09",
+        "text_sha256": "f554a7e7e475edb91ccdcce1d8e96c47c9a49235368933b4ea9bc45796b751f3",
         "requires_evidence": true,
         "evidence_policy": "one_source",
-        "text": "契約締結後に、作業範囲・仕様・数量・価格・納期などの契約条件を変更すること、またはその変更内容を表す。契約書に定められた手続に従い、当事者の合意・承認・記録を伴う専門用法である。"
+        "text": "契約締結後に、作業範囲・仕様・数量・価格・納期などの契約条件を変更すること、またはその変更内容を表す。契約書や適用法に定められた手続が問題となる専門用法で、合意・承認・記録を伴うことも多いが、必要な要件は契約・法域によって異なる。"
       },
       {
         "id": "definition:007",
@@ -3142,6 +3142,6 @@
     ]
   },
   "specification_sha256": "f0de393d4d064190e23916b2e8bfda25b2b83fd29e14cf52395c894b8539d7e9",
-  "source_artifact_sha256": "c9a2ac662d00d24d8b764e44bddbe8d7948960ebfcf5fcac047adce949ec7bc1",
-  "normalized_input_sha256": "e252dee4e74cb00fb1d29cafbcc04708159115c950ea874617f5c3ae3026afc4"
+  "source_artifact_sha256": "7b6717267d963a550a9b471137aa39ab45047609e7b6e23d0ac067ad4a871c0a",
+  "normalized_input_sha256": "f25434819002d2a7e6647f783b2df2a30166f7eaf1fa344774bb51565bf5c4b0"
 }

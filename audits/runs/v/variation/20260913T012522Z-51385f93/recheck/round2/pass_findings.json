@@ -1,0 +1,549 @@
+{
+  "schema_version": "normal_review_v2",
+  "stage": "normal_review",
+  "run_id": "normal-variation-20260913T012522Z-51385f93-recheck-round2",
+  "context_id": "normal-variation-context-20260913T012522Z-51385f93-recheck-round2",
+  "input_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b",
+  "prompt_sha256": "0b485ac494ff9f114a9061bbc7d789803f05ee6d79b908885efae2da2b0cebf5",
+  "input_artifacts": [
+    "router_selected_sections",
+    "checker_pass_specs"
+  ],
+  "recorded_at": "2026-09-17T17:15:11.062105+00:00",
+  "pass_outputs": [
+    {
+      "pass_id": "translation",
+      "findings": [],
+      "schema_version": "check_pass_response_v6",
+      "input_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-sol",
+        "ingested_by": "human",
+        "agent_id": "variation-20260913T012522Z-51385f93-recheck-round2-independent"
+      }
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "sense-structure",
+      "input_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-sol",
+        "ingested_by": "human",
+        "agent_id": "variation-20260913T012522Z-51385f93-recheck-round2-independent"
+      },
+      "findings": []
+    },
+    {
+      "pass_id": "frame-relation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-sol",
+        "ingested_by": "human",
+        "agent_id": "variation-20260913T012522Z-51385f93-recheck-round2-independent"
+      },
+      "antonym_axis_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b",
+        "blind_request_sha256": "fdc206b46e66d0fe67fe91423e034ba47bad608ed547382fc64721683566b7d1",
+        "recorded_at": "2026-09-17T17:30:00+00:00",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5.6-sol",
+          "ingested_by": "human",
+          "agent_id": "variation-20260913T012522Z-51385f93-recheck-round2-independent"
+        },
+        "axes": [
+          {
+            "item_id": "ant-519ed0f68e0e",
+            "axis": "一様性",
+            "relation_type": "状態",
+            "reason": "変動・ばらつきのある状態と、対象間の差がほとんどなくそろった状態の対立である。"
+          },
+          {
+            "item_id": "ant-4fcd8d375a12",
+            "axis": "均質性",
+            "relation_type": "状態",
+            "reason": "集団内の個体差・変異と、構成要素が互いによく似て一様な状態の対立である。"
+          }
+        ]
+      },
+      "antonym_axis_adjudication_record": {
+        "schema_version": "antonym_axis_adjudication_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b",
+        "stage2_request_sha256": "de7357bd9af060a71dd238769db7e9b935fbde0dd350ac3f4c7770444ee4ddb9",
+        "blind_record_sha256": "7807d608a01b5b8d20caef4a6af6ec004fe00b6012f34bc569154d352df282c5",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5.6-sol",
+          "ingested_by": "human",
+          "agent_id": "variation-20260913T012522Z-51385f93-recheck-round2-independent"
+        },
+        "adjudications": [
+          {
+            "item_id": "ant-519ed0f68e0e",
+            "flags": [],
+            "rationale": "一様性は、語義1の変動・ばらつきに対する、対象間の差がほとんどなくそろった状態という同じ状態軸から導出でき、違い行も対立を維持している。",
+            "f4_severity": null
+          },
+          {
+            "item_id": "ant-4fcd8d375a12",
+            "flags": [],
+            "rationale": "均質性は、語義3の集団内の個体差・変異に対する、構成要素が互いによく似て一様な状態という同じ状態軸から導出でき、違い行も対立を維持している。",
+            "f4_severity": null
+          }
+        ],
+        "frame_findings": [],
+        "unrouted_observations": []
+      },
+      "aligned_at": "2026-09-17T17:31:00+00:00",
+      "findings": [],
+      "unrouted_observations": [],
+      "schema_version": "check_pass_response_v6",
+      "input_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-sol",
+        "ingested_by": "human",
+        "agent_id": "variation-20260913T012522Z-51385f93-recheck-round2-independent"
+      },
+      "blind_attribution_record": {
+        "attributions": [
+          {
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "classification": "unique",
+            "discriminating_terms": [
+              "variation in the time"
+            ],
+            "example_id": "ex-c90de102fdcc",
+            "rationale": "The phrase variation in the time describes measurable spread in completion time, not a modified object or specialist variation."
+          },
+          {
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "classification": "unique",
+            "discriminating_terms": [
+              "variation in color"
+            ],
+            "example_id": "ex-02b5193e4f2b",
+            "rationale": "The phrase variation in color compares the amount of difference between samples, not a separate adapted version."
+          },
+          {
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "classification": "unique",
+            "discriminating_terms": [
+              "between schools"
+            ],
+            "example_id": "ex-5d891f49932c",
+            "rationale": "The phrase between schools makes variation a spread across comparison groups, not a modified design or music work."
+          },
+          {
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "classification": "unique",
+            "discriminating_terms": [
+              "variation from the standard procedure"
+            ],
+            "example_id": "ex-39ef173d7b3e",
+            "rationale": "The frame variation from the standard procedure marks a measured departure from a standard, which is sense 1 rather than a variation on an adapted object."
+          },
+          {
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "classification": "unique",
+            "discriminating_terms": [
+              "seasonal variation in demand"
+            ],
+            "example_id": "ex-e98d9b6b822f",
+            "rationale": "Seasonal variation in demand is recurring change in a quantity, not a changed version of a recipe, story, or method."
+          },
+          {
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "classification": "unique",
+            "discriminating_terms": [
+              "according to age and region"
+            ],
+            "example_id": "ex-ffc06b56494f",
+            "rationale": "Variation according to age and region expresses distributional differences across factors, not a specialist biological or musical item."
+          },
+          {
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "classification": "unique",
+            "discriminating_terms": [
+              "variation of temperature with altitude"
+            ],
+            "example_id": "ex-3e118e16bb92",
+            "rationale": "Variation of temperature with altitude is change in a measured quantity as a factor changes, not a transformed work."
+          },
+          {
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "classification": "unique",
+            "discriminating_terms": [
+              "seasonal variation"
+            ],
+            "example_id": "ex-8f5ebe8fdcaf",
+            "rationale": "The noun seasonal variation is the changing seasonal component being considered in a forecast, not a discrete altered version."
+          },
+          {
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "classification": "unique",
+            "discriminating_terms": [
+              "variation on a familiar coming-of-age story"
+            ],
+            "example_id": "ex-b52fa872b347",
+            "rationale": "Variation on a familiar coming-of-age story means a novel adapted from the same story type; it is not a quantitative spread or a musical variation."
+          },
+          {
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "classification": "unique",
+            "discriminating_terms": [
+              "variation on a traditional winter dish"
+            ],
+            "example_id": "ex-aed538df742f",
+            "rationale": "Variation on a traditional winter dish is a modified recipe retaining the original type, not change in a measured quantity or a musical piece."
+          },
+          {
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "classification": "unique",
+            "discriminating_terms": [
+              "variation on the original method"
+            ],
+            "example_id": "ex-d74707598c9d",
+            "rationale": "Variation on the original method explicitly denotes an adapted method; it is not a numerical fluctuation or a contract change."
+          },
+          {
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "classification": "unique",
+            "discriminating_terms": [
+              "variation on the original instructions"
+            ],
+            "example_id": "ex-3475f8a253db",
+            "rationale": "Variation on the original instructions is a revised version of the same instructions, not a measured difference or music terminology."
+          },
+          {
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "classification": "unique",
+            "discriminating_terms": [
+              "variation on the original design"
+            ],
+            "example_id": "ex-f719f184f435",
+            "rationale": "Variation on the original design names a changed design that preserves the source design, not general variability or a legal variation."
+          },
+          {
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "classification": "unique",
+            "discriminating_terms": [
+              "theories on punishment",
+              "variations on a theme"
+            ],
+            "example_id": "ex-f68c1b8d51fe",
+            "rationale": "Theories on punishment are variations on a theme in the figurative conceptual sense; the subject is not a musical set, so sense 2 is more natural than sense 4."
+          },
+          {
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "classification": "unique",
+            "discriminating_terms": [
+              "genetic variation within a species"
+            ],
+            "example_id": "ex-ad400daef08d",
+            "rationale": "Genetic variation within a species denotes inherited differences among members of one species, not general quantitative variation or an adapted version."
+          },
+          {
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "classification": "unique",
+            "discriminating_terms": [
+              "genetic variation among individuals"
+            ],
+            "example_id": "ex-dca492e0e83c",
+            "rationale": "Genetic variation among individuals is a population-level biological difference, which excludes the general, musical, and design senses."
+          },
+          {
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "classification": "unique",
+            "discriminating_terms": [
+              "genetic variation within a population"
+            ],
+            "example_id": "ex-32b59ffc454e",
+            "rationale": "Genetic variation within a population is the biological distribution of individual traits, not ordinary variation in a measurement or a modified object."
+          },
+          {
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "classification": "unique",
+            "discriminating_terms": [
+              "genetic variation between populations"
+            ],
+            "example_id": "ex-6caf7695a49c",
+            "rationale": "Genetic variation between populations directly identifies the biological population-difference sense, rather than a general comparison or musical variation."
+          },
+          {
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "classification": "unique",
+            "discriminating_terms": [
+              "genetic variation in drug response"
+            ],
+            "example_id": "ex-d011f6021198",
+            "rationale": "Genetic variation in drug response describes inherited biological differences affecting a trait, not a contract, design, or numerical fluctuation."
+          },
+          {
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "classification": "unique",
+            "discriminating_terms": [
+              "leaf shape and size within a species"
+            ],
+            "example_id": "ex-835ff166e953",
+            "rationale": "Leaf shape and size within a species are biological characteristics showing population variation, not a general color or level difference."
+          },
+          {
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "classification": "unique",
+            "discriminating_terms": [
+              "set of variations on a folk melody"
+            ],
+            "example_id": "ex-5fb0f270561c",
+            "rationale": "A set of variations on a folk melody is a musical work built from a melody, not a figurative variation on a story or method."
+          },
+          {
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "classification": "unique",
+            "discriminating_terms": [
+              "theme and variations",
+              "pianist"
+            ],
+            "example_id": "ex-71afc5b9c03f",
+            "rationale": "Theme and variations chosen by a pianist for a recital is the established musical form, not a conceptual set of adapted theories."
+          },
+          {
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "classification": "unique",
+            "discriminating_terms": [
+              "performed a variation on the melody"
+            ],
+            "example_id": "ex-71b5fba3935a",
+            "rationale": "Performed a variation on the melody with rhythmic changes identifies one musical variation, not a general modified recipe or ballet solo."
+          },
+          {
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "classification": "unique",
+            "discriminating_terms": [
+              "played the final variation"
+            ],
+            "example_id": "ex-b2be8d6cfeeb",
+            "rationale": "Played the final variation is an instrumental performance of one item in a musical sequence, not the ballet or general-change sense."
+          },
+          {
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "classification": "unique",
+            "discriminating_terms": [
+              "variations on a theme by Mozart"
+            ],
+            "example_id": "ex-5646a7959551",
+            "rationale": "Variations on a theme by Mozart in a program denotes music based on a theme, not figurative theories or a ballet solo."
+          },
+          {
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "classification": "unique",
+            "discriminating_terms": [
+              "dancer performed her variation"
+            ],
+            "example_id": "ex-0b794fa9ce0b",
+            "rationale": "A dancer performed her variation with controlled movements, so variation is a ballet solo item rather than a musical performance."
+          },
+          {
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "classification": "unique",
+            "discriminating_terms": [
+              "classical ballet variation"
+            ],
+            "example_id": "ex-b9d7de11af61",
+            "rationale": "Classical ballet variation is the explicit ballet-solo expression, excluding the music, design, and general-change senses."
+          },
+          {
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "classification": "unique",
+            "discriminating_terms": [
+              "variation from The Sleeping Beauty"
+            ],
+            "example_id": "ex-c61650ba25f9",
+            "rationale": "Variation from The Sleeping Beauty is a ballet solo selected for an audition, not a musical variation on a melody."
+          },
+          {
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "classification": "unique",
+            "discriminating_terms": [
+              "rehearsed a variation from the ballet"
+            ],
+            "example_id": "ex-7196935585b1",
+            "rationale": "Rehearsed a variation from the ballet identifies a dance item being practiced, not a piece being played or a general change."
+          },
+          {
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "classification": "unique",
+            "discriminating_terms": [
+              "variation to the contract"
+            ],
+            "example_id": "ex-adba8adbbc99",
+            "rationale": "Variation to the contract is a formal contractual change signed by parties, not an ordinary adapted version or numerical variation."
+          },
+          {
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "classification": "unique",
+            "discriminating_terms": [
+              "variation clause",
+              "scope of work"
+            ],
+            "example_id": "ex-781204f9388f",
+            "rationale": "A variation clause covering scope of work is a contract mechanism for changes, which excludes the ordinary, music, and biology senses."
+          },
+          {
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "classification": "unique",
+            "discriminating_terms": [
+              "variation order",
+              "additional work"
+            ],
+            "example_id": "ex-80c3b563d532",
+            "rationale": "A variation order for additional work is a construction-contract change instruction, not a changed version or statistical spread."
+          },
+          {
+            "candidate_sense_ids": [
+              "sense:007"
+            ],
+            "classification": "unique",
+            "discriminating_terms": [
+              "magnetic variation",
+              "plotting a course"
+            ],
+            "example_id": "ex-2796f0b1b247",
+            "rationale": "Magnetic variation while plotting a course is the fixed navigation term for the true-north/magnetic-north angle, not generic variation."
+          }
+        ],
+        "blind_request_sha256": "de2de09ed17d6b3dd4c7de35211b2ccb87360c56640d9bc712b1c04faf68f370",
+        "document_order_reconstructed": false,
+        "input_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b",
+        "pass_id": "example-attribution",
+        "recorded_at": "2026-09-17T17:10:00+00:00",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5.6-sol",
+          "ingested_by": "human",
+          "agent_id": "variation-20260913T012522Z-51385f93-recheck-round2-independent"
+        },
+        "schema_version": "example_attribution_blind_record_v1",
+        "stage": 1,
+        "taxonomy_ids": [
+          "example_sense_attribution_mismatch"
+        ]
+      },
+      "aligned_at": "2026-09-17T17:20:00+00:00",
+      "findings": [],
+      "unrouted_observations": [],
+      "schema_version": "check_pass_response_v6",
+      "input_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "qualification",
+      "input_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-sol",
+        "ingested_by": "human",
+        "agent_id": "variation-20260913T012522Z-51385f93-recheck-round2-independent"
+      },
+      "findings": []
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "pronunciation",
+      "input_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-sol",
+        "ingested_by": "human",
+        "agent_id": "variation-20260913T012522Z-51385f93-recheck-round2-independent"
+      },
+      "findings": []
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "evidence",
+      "input_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-sol",
+        "ingested_by": "human",
+        "agent_id": "variation-20260913T012522Z-51385f93-recheck-round2-independent"
+      },
+      "findings": []
+    }
+  ],
+  "independent_candidates": [],
+  "summary": "Independent checker recheck completed for all seven passes against the repaired current body."
+}
