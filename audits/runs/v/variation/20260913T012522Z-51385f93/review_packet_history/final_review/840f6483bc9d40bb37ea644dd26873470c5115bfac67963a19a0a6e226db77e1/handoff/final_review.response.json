@@ -1,8 +1,67 @@
 {
-  "decision": "pass",
-  "blockers": [],
+  "schema_version": "final_review_v3",
+  "stage": "final_review",
+  "run_id": "blind-variation-20260913T012522Z-51385f93",
+  "context_id": "blind-variation-context-20260913T012522Z-51385f93",
+  "input_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8",
+  "prompt_sha256": "7fee3a9d388e6557c2d8a66702e890b2398ca20228e61072acc81eedafcfac9d",
+  "input_artifacts": [
+    "entry_body",
+    "sealed_final_blind",
+    "pre_blind_resolution",
+    "post_blind_resolution",
+    "checker_recheck_manifest",
+    "targeted_adjudications",
+    "final_review_spec"
+  ],
+  "blind_output_sha256": "df3e8814cdeb04b908fbe5b0729708b9e9422744046d87cf48ae57fb55902103",
+  "recorded_at": "2026-09-17T16:23:09+00:00",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "orchestrator",
+    "agent_id": "variation-20260913T012522Z-51385f93-final-review-independent"
+  },
+  "decision": "reject",
+  "blockers": [
+    {
+      "id": "union-src-oxford-variation",
+      "problem": "The source union omits the current music target covered by OX-05 and assigns a broad register target without direct support.",
+      "required_fix": "Rebuild the source-union target mapping against the sealed current entry and directly bind the music and register claims."
+    },
+    {
+      "id": "union-src-cambridge-variation",
+      "problem": "CA-04 records a B2 learner level, not the entry's two 8/10 sense-frequency scores.",
+      "required_fix": "Add direct frequency evidence or remove/replace the unsupported numeric scores."
+    },
+    {
+      "id": "union-src-merriam-variation",
+      "problem": "The union binds MW evidence to collocation:014, a develop-a-variation-on example not established by the listed MW facts, and does not bind etymology:002.",
+      "required_fix": "Rebind only directly supported targets and add direct evidence for retained etymology or collocation claims."
+    },
+    {
+      "id": "union-src-collins-variation",
+      "problem": "The union binds Collins facts to collocation:025 (variations by a composer), which is not among the listed Collins facts.",
+      "required_fix": "Add a direct music source for that frame or remove the unsupported collocation and repair the union mapping."
+    },
+    {
+      "id": "union-src-ncei-magnetic",
+      "problem": "Current target IDs are stale/misbound: definition:006, register:006, and core_image:006 are contract/ballet targets; magnetic variation is definition:007, register:007, and core_image:008.",
+      "required_fix": "Rebuild the NCEI union mapping against the sealed current target IDs and re-run evidence checking."
+    },
+    {
+      "id": "union-src-wa-contract-variation",
+      "problem": "The contract union points to general-use/biology targets rather than the contract sense 6 targets.",
+      "required_fix": "Rebind WA facts to the contract targets and re-run source/evidence checks."
+    },
+    {
+      "id": "evidence-coverage",
+      "problem": "The evidence inventory does not provide sufficient direct support for the retained pronunciation, etymology, frequency, frame, specialist, example, legal, and magnetic claims after the source-target mismatches are considered.",
+      "required_fix": "Repair the source inventory, obtain direct primary or two-source support, then repeat affected checker passes and the final blind review."
+    }
+  ],
   "notes": [
-    "現行本文、再検査、盲検封印、出典インベントリを現行本文ハッシュで確認した。"
+    "The sealed body hash, chronology, full seven-pass recheck, and blind assertion coverage were verified; rejection is limited to unresolved source/evidence binding defects."
   ],
   "target_results": [
     {
@@ -251,6 +310,11 @@
       "target_id": "grammar_pattern:010"
     },
     {
+      "id": "grammar_pattern:011",
+      "status": "pass",
+      "target_id": "grammar_pattern:011"
+    },
+    {
       "id": "collocation:009",
       "status": "pass",
       "target_id": "collocation:009"
@@ -321,11 +385,6 @@
       "target_id": "register:003"
     },
     {
-      "id": "grammar_pattern:011",
-      "status": "pass",
-      "target_id": "grammar_pattern:011"
-    },
-    {
       "id": "grammar_pattern:012",
       "status": "pass",
       "target_id": "grammar_pattern:012"
@@ -344,6 +403,11 @@
       "id": "grammar_pattern:015",
       "status": "pass",
       "target_id": "grammar_pattern:015"
+    },
+    {
+      "id": "grammar_pattern:016",
+      "status": "pass",
+      "target_id": "grammar_pattern:016"
     },
     {
       "id": "collocation:015",
@@ -421,11 +485,6 @@
       "target_id": "register:004"
     },
     {
-      "id": "grammar_pattern:016",
-      "status": "pass",
-      "target_id": "grammar_pattern:016"
-    },
-    {
       "id": "grammar_pattern:017",
       "status": "pass",
       "target_id": "grammar_pattern:017"
@@ -444,6 +503,11 @@
       "id": "grammar_pattern:020",
       "status": "pass",
       "target_id": "grammar_pattern:020"
+    },
+    {
+      "id": "grammar_pattern:021",
+      "status": "pass",
+      "target_id": "grammar_pattern:021"
     },
     {
       "id": "collocation:021",
@@ -501,11 +565,6 @@
       "target_id": "register:005"
     },
     {
-      "id": "grammar_pattern:021",
-      "status": "pass",
-      "target_id": "grammar_pattern:021"
-    },
-    {
       "id": "grammar_pattern:022",
       "status": "pass",
       "target_id": "grammar_pattern:022"
@@ -519,6 +578,11 @@
       "id": "grammar_pattern:024",
       "status": "pass",
       "target_id": "grammar_pattern:024"
+    },
+    {
+      "id": "grammar_pattern:025",
+      "status": "pass",
+      "target_id": "grammar_pattern:025"
     },
     {
       "id": "collocation:026",
@@ -571,11 +635,6 @@
       "target_id": "register:006"
     },
     {
-      "id": "grammar_pattern:025",
-      "status": "pass",
-      "target_id": "grammar_pattern:025"
-    },
-    {
       "id": "grammar_pattern:026",
       "status": "pass",
       "target_id": "grammar_pattern:026"
@@ -589,6 +648,11 @@
       "id": "grammar_pattern:028",
       "status": "pass",
       "target_id": "grammar_pattern:028"
+    },
+    {
+      "id": "grammar_pattern:029",
+      "status": "pass",
+      "target_id": "grammar_pattern:029"
     },
     {
       "id": "collocation:030",
@@ -636,11 +700,6 @@
       "target_id": "register:007"
     },
     {
-      "id": "grammar_pattern:029",
-      "status": "pass",
-      "target_id": "grammar_pattern:029"
-    },
-    {
       "id": "grammar_pattern:030",
       "status": "pass",
       "target_id": "grammar_pattern:030"
@@ -649,6 +708,11 @@
       "id": "grammar_pattern:031",
       "status": "pass",
       "target_id": "grammar_pattern:031"
+    },
+    {
+      "id": "grammar_pattern:032",
+      "status": "pass",
+      "target_id": "grammar_pattern:032"
     },
     {
       "id": "collocation:033",
@@ -933,6 +997,11 @@
       "relation_id": "pattern_example_coverage:010"
     },
     {
+      "id": "pattern_example_coverage:011",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:011"
+    },
+    {
       "id": "sense_definition_consistency:003",
       "status": "pass",
       "relation_id": "sense_definition_consistency:003"
@@ -946,11 +1015,6 @@
       "id": "definition_lexical_relation_consistency:003",
       "status": "pass",
       "relation_id": "definition_lexical_relation_consistency:003"
-    },
-    {
-      "id": "pattern_example_coverage:011",
-      "status": "pass",
-      "relation_id": "pattern_example_coverage:011"
     },
     {
       "id": "pattern_example_coverage:012",
@@ -973,6 +1037,11 @@
       "relation_id": "pattern_example_coverage:015"
     },
     {
+      "id": "pattern_example_coverage:016",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:016"
+    },
+    {
       "id": "sense_definition_consistency:004",
       "status": "pass",
       "relation_id": "sense_definition_consistency:004"
@@ -986,11 +1055,6 @@
       "id": "definition_lexical_relation_consistency:004",
       "status": "pass",
       "relation_id": "definition_lexical_relation_consistency:004"
-    },
-    {
-      "id": "pattern_example_coverage:016",
-      "status": "pass",
-      "relation_id": "pattern_example_coverage:016"
     },
     {
       "id": "pattern_example_coverage:017",
@@ -1013,6 +1077,11 @@
       "relation_id": "pattern_example_coverage:020"
     },
     {
+      "id": "pattern_example_coverage:021",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:021"
+    },
+    {
       "id": "sense_definition_consistency:005",
       "status": "pass",
       "relation_id": "sense_definition_consistency:005"
@@ -1026,11 +1095,6 @@
       "id": "definition_lexical_relation_consistency:005",
       "status": "pass",
       "relation_id": "definition_lexical_relation_consistency:005"
-    },
-    {
-      "id": "pattern_example_coverage:021",
-      "status": "pass",
-      "relation_id": "pattern_example_coverage:021"
     },
     {
       "id": "pattern_example_coverage:022",
@@ -1048,6 +1112,11 @@
       "relation_id": "pattern_example_coverage:024"
     },
     {
+      "id": "pattern_example_coverage:025",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:025"
+    },
+    {
       "id": "sense_definition_consistency:006",
       "status": "pass",
       "relation_id": "sense_definition_consistency:006"
@@ -1061,11 +1130,6 @@
       "id": "definition_lexical_relation_consistency:006",
       "status": "pass",
       "relation_id": "definition_lexical_relation_consistency:006"
-    },
-    {
-      "id": "pattern_example_coverage:025",
-      "status": "pass",
-      "relation_id": "pattern_example_coverage:025"
     },
     {
       "id": "pattern_example_coverage:026",
@@ -1083,6 +1147,11 @@
       "relation_id": "pattern_example_coverage:028"
     },
     {
+      "id": "pattern_example_coverage:029",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:029"
+    },
+    {
       "id": "sense_definition_consistency:007",
       "status": "pass",
       "relation_id": "sense_definition_consistency:007"
@@ -1098,11 +1167,6 @@
       "relation_id": "definition_lexical_relation_consistency:007"
     },
     {
-      "id": "pattern_example_coverage:029",
-      "status": "pass",
-      "relation_id": "pattern_example_coverage:029"
-    },
-    {
       "id": "pattern_example_coverage:030",
       "status": "pass",
       "relation_id": "pattern_example_coverage:030"
@@ -1111,6 +1175,11 @@
       "id": "pattern_example_coverage:031",
       "status": "pass",
       "relation_id": "pattern_example_coverage:031"
+    },
+    {
+      "id": "pattern_example_coverage:032",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:032"
     },
     {
       "id": "core_inventory_consistency:001",
@@ -1161,354 +1230,301 @@
   "normal_candidate_results": [],
   "blind_candidate_results": [
     {
-      "id": "cand_general_change",
+      "id": "candidate-variation-change-variation",
       "status": "pass",
       "assertion_ids": [
-        "assert_general_boundary",
-        "assert_general_exclusion"
+        "assertion-variation-change-1"
       ],
-      "verified_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
-    },
-    {
-      "id": "cand_modified_version",
-      "status": "pass",
-      "assertion_ids": [
-        "assert_modified_source",
-        "assert_modified_exclusion"
-      ],
-      "verified_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
-    },
-    {
-      "id": "cand_biological_difference",
-      "status": "pass",
-      "assertion_ids": [
-        "assert_biological_population",
-        "assert_biological_not_mutation"
-      ],
-      "verified_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
-    },
-    {
-      "id": "cand_music",
-      "status": "pass",
-      "assertion_ids": [
-        "assert_music_theme",
-        "assert_music_not_version"
-      ],
-      "verified_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
-    },
-    {
-      "id": "cand_ballet",
-      "status": "pass",
-      "assertion_ids": [
-        "assert_ballet_solo",
-        "assert_ballet_not_general_dance"
-      ],
-      "verified_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
-    },
-    {
-      "id": "cand_contract",
-      "status": "pass",
-      "assertion_ids": [
-        "assert_contract_existing",
-        "assert_contract_not_alternative"
-      ],
-      "verified_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
-    },
-    {
-      "id": "cand_magnetic",
-      "status": "pass",
-      "assertion_ids": [
-        "assert_magnetic_angle",
-        "assert_magnetic_not_generic"
-      ],
-      "verified_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+      "verified_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
     }
   ],
   "finding_results": [
     {
       "id": "normal-sense-structure-001",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-sense-structure-002",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-sense-structure-003",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-sense-structure-004",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-example-attribution-001",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-example-attribution-002",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-example-attribution-003",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-example-attribution-004",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-example-attribution-005",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-qualification-001",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-qualification-002",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-qualification-003",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-qualification-004",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-pronunciation-001",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-evidence-001",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-evidence-002",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-evidence-003",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-evidence-004",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-evidence-005",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-evidence-006",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-evidence-007",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-evidence-008",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-evidence-009",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-evidence-010",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-evidence-011",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-evidence-012",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-evidence-013",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-evidence-014",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-evidence-015",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-evidence-016",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-evidence-017",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-evidence-018",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-evidence-019",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-evidence-020",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-evidence-021",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-evidence-022",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-evidence-023",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-evidence-024",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-evidence-025",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-evidence-026",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-evidence-027",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-evidence-028",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "normal-evidence-029",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "CR-001",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "CR-002",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "CR-003",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "CR-004",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "CR-005",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "CR-006",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "CR-007",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "CR-008",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "CR-009",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "CR-010",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "CR-011",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     },
     {
       "id": "CR-012",
       "status": "pass",
-      "notes": "Resolved or rejected in the recorded resolution partition."
+      "notes": "Verified the adopted correction in the current body; the full recheck is bound to the sealed body."
     }
   ],
   "evidence_checks": [
     {
       "id": "ev-variation-pronunciation",
-      "status": "pass"
+      "status": "fail",
+      "notes": "The current IPA lacks the required two-source-or-primary coverage."
     },
     {
       "id": "ev-variation-etymology",
-      "status": "pass"
+      "status": "fail",
+      "notes": "The retained French/varius wording exceeds the listed direct etymology evidence."
     },
     {
       "id": "ev-variation-senses",
@@ -1516,65 +1532,73 @@
     },
     {
       "id": "ev-variation-frames",
-      "status": "pass"
+      "status": "fail",
+      "notes": "Several complete frames are not directly covered by the listed source facts."
     },
     {
       "id": "ev-variation-specialist",
-      "status": "pass"
+      "status": "fail",
+      "notes": "Music/ballet scope and register claims are not fully supported by the accessible evidence."
     },
     {
       "id": "ev-variation-frequency",
-      "status": "pass"
+      "status": "fail",
+      "notes": "B2 level evidence does not establish either 8/10 frequency score."
     },
     {
       "id": "ev-variation-examples",
-      "status": "pass"
+      "status": "fail",
+      "notes": "Several example frames are not directly covered by the bound source targets."
     },
     {
       "id": "ev-variation-legal",
-      "status": "pass"
+      "status": "fail",
+      "notes": "The legal union is misbound and does not directly support all retained contract frames."
     },
     {
       "id": "ev-variation-magnetic",
-      "status": "pass"
+      "status": "fail",
+      "notes": "The magnetic union is misbound to non-magnetic current target IDs."
     }
   ],
   "source_inventory_results": [
     {
       "id": "union-src-oxford-variation",
-      "status": "pass",
-      "union_id": "union-src-oxford-variation"
+      "status": "fail",
+      "union_id": "union-src-oxford-variation",
+      "notes": "OX-05 has no current music target binding, and the register target overstates the listed facts."
     },
     {
       "id": "union-src-cambridge-variation",
-      "status": "pass",
-      "union_id": "union-src-cambridge-variation"
+      "status": "fail",
+      "union_id": "union-src-cambridge-variation",
+      "notes": "CA-04 is a B2 level label, not direct evidence for the retained 8/10 frequency scores."
     },
     {
       "id": "union-src-merriam-variation",
-      "status": "pass",
-      "union_id": "union-src-merriam-variation"
+      "status": "fail",
+      "union_id": "union-src-merriam-variation",
+      "notes": "collocation:014 is not directly supported by the listed MW facts, and etymology:002 is not bound."
     },
     {
       "id": "union-src-collins-variation",
-      "status": "pass",
-      "union_id": "union-src-collins-variation"
+      "status": "fail",
+      "union_id": "union-src-collins-variation",
+      "notes": "collocation:025 is a composer frame not covered by the listed Collins facts."
+    },
+    {
+      "id": "union-src-ncei-magnetic",
+      "status": "fail",
+      "union_id": "union-src-ncei-magnetic",
+      "notes": "definition:006/register:006/core_image:006 are contract/ballet targets; magnetic claims are definition:007/register:007/core_image:008."
     },
     {
       "id": "union-src-wa-contract-variation",
-      "status": "pass",
-      "union_id": "union-src-wa-contract-variation"
-    },
-    {
-      "id": "union-src-hko-magnetic-variation",
-      "status": "pass",
-      "union_id": "union-src-hko-magnetic-variation"
-    },
-    {
-      "id": "union-src-cedd-contract-variation-order",
-      "status": "pass",
-      "union_id": "union-src-cedd-contract-variation-order"
+      "status": "fail",
+      "union_id": "union-src-wa-contract-variation",
+      "notes": "The listed targets are general-use/biology targets rather than the contract sense 6 targets."
     }
   ],
-  "input_revision_id": "e3d7e192fdd230365bdf1845e57f7896607ec68cc582692a6e18da5228aa217d"
+  "input_revision_id": "157f347825b1871b8b50558f292aa9e78d1debd5a93247c942c2aeed495b3357"
 }
+

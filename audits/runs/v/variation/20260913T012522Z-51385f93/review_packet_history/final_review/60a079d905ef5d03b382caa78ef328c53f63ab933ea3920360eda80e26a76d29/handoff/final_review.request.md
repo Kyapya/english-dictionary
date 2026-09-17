@@ -1,3 +1,51 @@
+# Independent review handoff
+
+Stage: `final_review`
+
+The response must be one JSON object matching the supplied review schema. Create it in a separate model session; do not use the generation session.
+
+## Prompt
+
+# final_review_spec_v3
+
+最新版本文と固定済みレビューを照合し、最終合否を判断する。正常項目の合格理由を大量に作る時間を、本文・資料・修正箇所の実読へ戻す。品質基準、全件の判定、独立性、未解決事項を残さない条件は維持する。
+
+## 照合
+
+- `inventories` / `response_template` を対象IDの正本とする。欠落を空集合と推測しない。未判定は合格ではない。
+- 事実、語法、発音、例文、訳が正しく、主要な品詞、語義、派生・転換、専門用法、完全な統語フレームが過不足なく扱われていることを確認する。語義境界、コアイメージ、定義、語法、コロケーション、語彙関係に矛盾がないこと。例文と訳の意味役割、作用方向、肯否、数量、時制・法、条件、修飾範囲、レジスターを確認する。
+- 証拠の内容確認は evidence checker が本文・claim・外部資料を照合した結果を使う。合格理由の長さや findings が0件であることは正確さの根拠にしない。高リスク主張の反例・矛盾・適用範囲が未確認、資料にアクセスできない、主張と根拠が食い違う場合は `insufficient_evidence` として解決するまで合格にしない。
+- すべてのfindingについて、採用修正が最新版へ反映され、不採用理由が資料と仕様に支えられ、修正の影響が再検査されているかを確認する。修正前の説明だけで解決扱いにしない。
+- 固定済みblind candidateの各 `semantic_assertion` を最新版へ適用し、候補の境界・作用方向・包含/除外関係・一般化範囲に反する記述がないことを確認する。
+- final reviewは全面レビューを繰り返す工程ではない。具体的な矛盾・未解決事項・修正確認に注力する。疑義のある外部資料は該当箇所を再確認する。hash、ID集合、時系列、seal、再検査・再利用条件は `scripts/run_word.py`、`scripts/workflow_revision.py`、`scripts/generate_audit_manifest.py` の検証を使い、説明文を作り直さない。
+
+## 出力
+
+`final_review_v3` JSONを返す。対象ID・判定・必要な束縛情報を記録する。
+
+`response_template` の結果欄と `_output_metadata` を使う。同じ結果を `adjudication` 配下へ再掲したり、固定済み `independent_candidates` を応答へ複製したりしない。
+
+- `target_results`、`relation_results`、`normal_candidate_results`、`blind_candidate_results`、`evidence_checks`、`source_inventory_results` は全IDを重複なく含み、各 `status` を `pass` または `fail` とする。
+- 正常な `pass` の `notes` は省略する。本文の全文引用、対象ごとの「問題なし」の言い換え、合格理由の水増しは不要。判定を初期値のpassで一括補完してはならない。
+- `fail` は `notes` に問題と必要な修正を短く記す。引用は問題の特定に必要な範囲だけにする。
+- `finding_results` は各findingを一度だけ含め、`pass` でも最新版のどの修正または不採用根拠を確認したかを `notes` に短く残す。元のfinding・resolutionを全文再掲しない。
+- `blind_candidate_results` は全 `assertion_ids` と `verified_body_sha256` を保持する。candidateのpassは列挙した全assertionの確認を意味する。一つでも未確認または不成立ならfailとする。assertionごとの合格理由表を別に作らない。
+- `source_inventory_results` の `union_id` は `id` と一致させる。
+- `checker_recheck_results` / `chronology_results` の説明表は作らない。機械検証の原記録を参照する。
+- `decision` は `pass | reject`、`blockers` と全体の非blocking `notes` は配列とする。本文は変更しない。
+
+## 合否
+
+全対象がpass、未解決・hold・`insufficient_evidence`・未検査範囲・無効pass・判断衝突・未確認の修正影響が0件、blockerが0件の場合だけPASSとする。条件付き合格は使わない。
+
+誤り、主要語義・構文の欠落や過剰収録、根拠との矛盾、必須内容の違反、未判定・未解決事項があればREJECTとする。blockerには対象ID、問題、必要な修正を記録し、修正・影響範囲の再検査・final blind再実行へ戻す。`REJECT` は審査失敗ではなく、問題を検出した正常な成果である。分類粒度や任意の表現改善だけを理由にrejectせず、非blocking noteとする。
+
+v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず、そのschemaの条件で検証する。
+
+
+## Input packet
+
+```json
 {
   "stage": "final_review",
   "entry_body": "\n＃発音記号\n\n米: /ˌveriˈeɪʃən/｜英: /ˌveəriˈeɪʃən/。4音節で、第3音節の /eɪ/ に主強勢、第1音節に副次強勢がある。米音では第1音節が /ver/、英音では /veə/ となる。語尾の /ʃən/ は、つづり字の -tion を「ション」に近く発音する部分に当たる。  \n\n＃語源\n\n現代英語 variation は、中英語 variacioun ← 古フランス語系のアングロフレンチ variation ← ラテン語 variātiō「変化、相違、変形」という流れでさかのぼる。ラテン語 variātiō は variare「変える、異ならせる」から作られ、variare は varius「さまざまな、異なる」と同語源である。  \n語源欄では、ラテン語の「多様化・相違」という意味までを示す。現代英語で共有される「同じ型を保ちながら一部が異なる」という説明上の核は、次のコアイメージ欄で整理する。  \n\n＃語形成\n\n・vary：動詞。「変わる、異なる、変える」。variation と同語源の関連動詞。  \n・variable：形容詞・名詞。「変動する、可変の；変数」。variation と同語源の重要な関連語で、変化しうる性質や変化する値・要因を表す。  \n・variant：名詞・形容詞。「異形、変種；異なる」。同じ語族で、同種のものの別形や標準形と異なる型を表し、語義2と特に関係が深い。  \n・varied：形容詞。「変化に富んだ、さまざまな」。単に variation があるという意味と、内容が豊富だという評価を区別する。  \n・various：形容詞。「さまざまな、種々の」。同じ語族だが、通常は名詞の前に置いて種類の多さを表す。  \n・variety：名詞。「多様性、種類、変種」。variation が変化や個々の違いに焦点を置くのに対し、variety は種類の豊富さや選択肢に焦点を置きやすい。  \n・variational：形容詞。数学・物理などで「変分の、変分法の」。一般会話の「変化に富む」という意味では使わない。  \n\n＃コアイメージ\n\n「同じ対象・尺度・型を前提に、値や状態が変わること、または同類のものの間に違いがあること」。この核から、変化の大きさ、同じ型の別形、集団内外の差、主題を変形した作品、契約条件の変更などの語義が生じる。  \n・同じ尺度で見た値や状態の変化・ばらつき → 「変動・ばらつき」（語義1）  \n・同じ基本型を保った別の形 → 「変形・別形」（語義2）  \n・同類の個体や集団の内外にある差 → 「個体差・変異」（語義3）  \n・同じ主題をもとにした展開 → 「変奏・変奏曲」（語義4）  \n・一人の踊り手が踊るバレエのソロ → 「ソロ演目・独舞」（語義5）  \n・契約条件の正式な変更 → 「契約変更」（語義6）  \n・真北と磁北の間の方位差 → 「磁気偏角」（語義7）  \n\n＃意味・用法・関連表現\n\n1. 【名詞・不可算／可算】変化、変動、ばらつき\n\n【日本語訳・定義】量・水準・品質・状態などが一定ではなく変わること、またはその変化の幅・ばらつきを表す。変動・ばらつきを総体として述べる場合は不可算が多く、個々の変化・差・型を数える場合は可算になることが多い。個々の対象間の差や専門分野の変異を主に述べる場合は、語義3などの用法になる。  \n\n【頻度】〈8/10〉  \n\n【レジスター/領域】標準語。量・水準・品質などの変化や、同種の対象の間の差を一般に述べる。データや価格では「変動」「ばらつき」、対象間の比較では「差異」「違い」と訳し分ける。  \n\n【文法パターン】variation in 〈amount/level/quality〉＝〈量・水準・品質〉の変動／variation of 〈temperature/pressure〉＝〈温度・圧力〉の変化／variation between 〈A〉 and 〈B〉＝〈A〉と〈B〉の差／variation among 〈people/regions〉＝〈人・地域〉の間のばらつき／variation according to 〈a factor〉＝〈要因〉に応じた変化／the variation of 〈A〉 with 〈B〉＝〈B〉に伴う〈A〉の変化／show/reflect variation in something＝何かの変動を示す／take seasonal variation into account＝季節変動を考慮に入れる。  \n\n【コロケーション】\n\n・considerable variation in something  \n用途: 〈何か〉にかなり大きな差やばらつきがあることを表す。  \n例: There is considerable variation in the time needed to complete the task.  \n訳: その作業を終えるのに必要な時間にはかなりのばらつきがある。  \n\n・slight variation in something  \n用途: 基本的には同じだが、わずかな違いがあることを表す。  \n例: The two paint samples showed only slight variation in color.  \n訳: その2つの塗料見本には色のわずかな違いしか見られなかった。  \n\n・wide variation between 〈A〉 and 〈B〉  \n用途: 2つの対象の値・状態・結果が大きく異なることを示す。  \n例: The study found wide variation between schools in the use of digital devices.  \n訳: その研究では、デジタル機器の使用について学校間に大きな差が見つかった。  \n\n・a variation from 〈the norm/standard〉  \n用途: 基準・標準からの相違やずれを強調する。元のものを土台にした別形を中立的に指す場合は、語義2の `variation on` の方が典型的である。  \n例: The revised procedure shows only slight variation from the standard procedure in its timing.  \n訳: 改訂された手順は、実施時間の点で標準手順からわずかに異なる。  \n\n・seasonal variation in 〈demand/temperature〉  \n用途: 季節によって繰り返し生じる需要や温度の変化を指す。  \n例: The store adjusts its stock for seasonal variation in demand.  \n訳: その店は需要の季節変動に合わせて在庫を調整する。  \n\n・variation according to 〈a factor〉  \n用途: 地域・条件・時間などの要因に応じて値が変わることを述べる。  \n例: The survey found considerable variation according to age and region.  \n訳: その調査では、年齢と地域によってかなりの差が見つかった。  \n\n・the variation of 〈A〉 with 〈B〉  \n用途: 〈B〉の変化に伴って〈A〉がどう変わるかという関係を、やや学術的に表す。  \n例: The graph shows the variation of temperature with altitude.  \n訳: そのグラフは高度に伴う温度の変化を示している。  \n\n・take 〈seasonal variation〉 into account  \n用途: 予測や計画で、一定ではない季節要因を考慮する。  \n例: The forecast takes seasonal variation into account.  \n訳: その予測は季節変動を考慮に入れている。  \n\n【語法・注意】variation は変動やばらつきを総体として述べるときは不可算が多く、a variation/variations は個々の変化・差・型を数えるときに使われることが多い。ただし、可算・不可算は意味だけで機械的に決まるものではなく、焦点や文脈によって揺れる。`variation in prices` は価格の変動、`variations in prices` は複数の価格差・変動の例を指しやすい。`variation from the norm/standard` は比較の基準からのずれを表し、`difference` は2つ以上の対象の差に焦点を置く。`variety` は選択肢や種類の豊富さを表すことが多く、単なる数値の変動には通常 variation を使う。本文の〈n/10〉は辞書の頻度順位を直接数値化したものではなく、学習上の目安としての編集評価である。  \n\n【類義語】\n\n・change  \n定義: 状態・量・性質が別のものになること。  \n頻度: 〈10/10〉  \n違い: 最も広い語で、変化そのものに焦点を置く。variation は同じ型の範囲内での差や変動幅を示しやすい。  \n例: The change in temperature was easy to notice.  \n訳: 気温の変化は簡単に気づけた。  \n\n・fluctuation  \n定義: 数値や水準が上下を繰り返す変動。  \n頻度: 〈7/10〉  \n違い: 価格・為替・体温などの上下動を強く含む。variation は一方向の変化や対象間のばらつきにも使える。  \n例: Daily fluctuations in demand make planning difficult.  \n訳: 需要の日々の変動は計画を難しくする。  \n\n・difference  \n定義: 2つ以上のものが同じでない点や、その隔たり。  \n頻度: 〈10/10〉  \n違い: 比較対象間の差に焦点を置く。variation は基準からの変化や同種の複数対象のばらつきにも使う。  \n例: There is a clear difference between the two measurements.  \n訳: その2つの測定値には明確な差がある。  \n\n【反意語】\n\n・uniformity  \n定義: 対象の間に差がほとんどなく、同じ状態や性質がそろっていること。  \n頻度: 〈5/10〉  \n違い: variation が差やばらつきを指すのに対し、uniformity は一様である状態を指す。  \n例: The process aims to improve uniformity across all factories.  \n訳: その工程は全工場での一様性を高めることを目指している。  \n\n2. 【名詞・可算】基準から少し変えたもの、変形、別形\n\n【日本語訳・定義】同じ基本的な考え方・型・方法を保ちながら、内容や構成の一部を変えたものを表す。元と無関係な別物ではなく、「元のものを少し変えた版」という含みがある。`a variation on ...` は「…を土台にした変形・アレンジ」として特に重要である。音楽の主題に基づく専門的な用法は語義4、契約条件の正式な変更は語義6で扱う。  \n\n【頻度】〈8/10〉  \n\n【レジスター/領域】標準語。同じ一般的な型・構成を保った別形やアレンジを述べる。契約・法務の専門用法については語義6を参照。音楽の `variation on a theme` は語義4で扱う。  \n\n【文法パターン】a variation on 〈the original design/an idea/a story/a recipe〉＝〈元の設計・考え・物語・レシピ〉を土台にした変形／a slight variation＝わずかな変形。  \n\n【コロケーション】\n\n・a variation on 〈an idea/a story〉  \n用途: 同じ中心的な考えや筋を保った、一般用法での別の展開を表す。音楽の専門用法は語義4で扱う。  \n例: The novel is a clever variation on a familiar coming-of-age story.  \n訳: その小説は、よく知られた成長物語を巧みに変形した作品だ。  \n\n・a variation on 〈a traditional dish/a traditional story〉  \n用途: 伝統的な料理や物語を少し変えたものを指す。  \n例: This soup is a lighter variation on a traditional winter dish.  \n訳: このスープは伝統的な冬の料理をより軽めにしたアレンジだ。  \n\n・a variation on 〈the original method〉  \n用途: 既存の方法と基本は同じで、一部が異なる版を表す。  \n例: The team tested a variation on the original method.  \n訳: そのチームは元の方法を土台にした変形版を試した。  \n\n・a slight variation on 〈the original instructions〉  \n用途: 元の説明書を土台に、表現や形式を少し変えた別版を表す。  \n例: The editor created a slight variation on the original instructions by revising the wording.  \n訳: その編集者は文言を改め、元の説明書を少し変えた別版を作成した。  \n\n・a variation on the original design  \n用途: 元の設計を土台にした別形・アレンジを表す。語義2の代表的な表現。  \n例: This version is a useful variation on the original design.  \n訳: この版は元の設計を土台にした有用なアレンジだ。  \n\n・variations on 〈a theme〉  \n用途: 同じ中心的な考えや主題を少しずつ変えた複数の展開を表す。  \n例: Many theories on punishment are variations on a theme.  \n訳: 刑罰についての多くの理論は、同じ主題を変形した展開である。  \n\n【語法・注意】`variation on` は元の型・設計・考えを土台にした別形を指すため、語義2の代表表現である。`variation of` も元のものの別形を表すことが多い。これに対し `variation from the norm/standard` は比較の基準を示し、そこからの相違・ずれに焦点を置くため、語義1で扱う。`a variation from the original` も文法的には可能だが、元の設計を基にした別形という意味なら `a variation on the original design` の方が自然である。音楽の `a variation on a theme` は語義4で扱い、ここでは物語・考えなどの比喩的な展開として読む。契約・法務の `variation of/to the contract` は正式な契約変更を表し、一般用法の「元の型を基にした別形」とは文脈が異なる。`alternative` は元の案の代替として選べる別案、`variation` は元の案との連続性を保った変形である。  \n\n【類義語】\n\n・variant  \n定義: 同じ種類のものから分かれた、少し異なる形や型。  \n頻度: 〈7/10〉  \n違い: variant は別形そのものを簡潔に指し、医学・生物・言語などで標準形との差を分類する語としても使う。variation は変形の過程や関係も表しやすい。  \n例: The researchers compared regional variants of the expression.  \n訳: 研究者たちはその表現の地域別の異形を比較した。  \n\n・version  \n定義: 同じものの異なる版・形態・編集結果。  \n頻度: 〈9/10〉  \n違い: version は製品・文書・作品の版を中立的に指す。variation は元の型を部分的に変えたという関係をより強く示す。  \n例: Please use the latest version of the report.  \n訳: 報告書の最新版を使ってください。  \n\n・modification  \n定義: 目的に合わせて既存のものに加えた変更・改変。  \n頻度: 〈7/10〉  \n違い: modification は意図的な改変という行為・結果に焦点を置き、variation は自然に生じた差や創作上の変形にも使う。  \n例: The device requires a minor modification to fit the new component.  \n訳: その装置は新しい部品に合うよう、少し改変する必要がある。  \n\n3. 【名詞・不可算／可算・生物学・遺伝学・医学】集団内の個体差、変異\n\n【日本語訳・定義】同じ種に属する個体や集団の内部・集団間に見られる、遺伝的・構造的・機能的な差を表す。生物の同種・同群の特徴が一様でないことに焦点を置く専門用法である。  \n\n【頻度】〈6/10〉  \n\n【レジスター/領域】生物学・遺伝学などで使う専門語。同じ種・集団の個体差や集団間の差を述べる。  \n\n【文法パターン】genetic/biological variation＝遺伝的・生物学的変異／variation within 〈a species/group〉＝〈種・集団〉内の変異／variation among 〈individuals〉＝〈個体〉間の差／variation between 〈populations〉＝〈集団〉間の差／show variation in 〈a characteristic〉＝〈特徴〉に差を示す。  \n\n【コロケーション】\n\n・genetic variation within 〈a species〉  \n用途: 同じ種の個体間にある遺伝的な違いを表す。  \n例: Genetic variation within a species can affect its response to disease.  \n訳: 種内の遺伝的変異は、病気への反応に影響することがある。  \n\n・genetic variation among 〈individuals〉  \n用途: 個体ごとの遺伝的な違いが一様でないことを述べる。  \n例: The study found substantial genetic variation among individuals in their response to the vaccine.  \n訳: その研究では、ワクチンへの反応に個体間の大きな遺伝的差が見つかった。  \n\n・variation within 〈a population〉  \n用途: 同じ集団内で見られる、遺伝的・形態的・生理的などの個体差を表す。  \n例: The study measured genetic variation within a population in wing length over several generations.  \n訳: その研究は、数世代にわたる集団内の翼長における遺伝的変異を測定した。  \n\n・genetic variation between 〈populations〉  \n用途: 異なる集団の間にある遺伝的な違いを表す。  \n例: The researchers compared genetic variation between populations living in different environments.  \n訳: 研究者たちは、異なる環境に住む集団間の遺伝的変異を比較した。  \n\n・genetic variation in 〈drug response〉  \n用途: 遺伝的な違いによって薬への反応が異なることを表す。  \n例: Genetic variation in drug response should be considered when interpreting the results.  \n訳: 結果を解釈する際は、薬物反応における遺伝的変異を考慮すべきだ。  \n\n・show variation in 〈a characteristic〉  \n用途: 特定の特徴に個体差や形式差があることを、観察・調査結果として述べる。  \n例: The plant samples show genetic variation in leaf shape and size within a species.  \n訳: その種の植物試料では、葉の形と大きさに遺伝的変異が見られる。  \n\n【語法・注意】生物学の `variation` は、集団内の差という現象にも、その差を示す特徴にも使われる。`deviation` が基準・平均から外れることに焦点を置くのに対し、`variation` は個体・集団間の差やその分布を述べる。`mutation` は遺伝物質の配列に起きる変化、`genetic variation` は個体・集団間に観察される遺伝的差の状態・分布を指し、mutation は variation の原因の一つである。両語は同義ではない。  \n\n【類義語】\n\n・diversity  \n定義: 集団や範囲の中に異なる種類・特徴が存在すること。  \n頻度: 〈8/10〉  \n違い: diversity は多様性の存在や価値に焦点を置き、variation は同じ集団内でどの特徴がどの程度異なるかを分析する語として使いやすい。  \n例: The forest supports remarkable biological diversity.  \n訳: その森林は際立った生物多様性を支えている。  \n\n・difference  \n定義: 2つ以上の個体・形式・集団が同じでない点。  \n頻度: 〈10/10〉  \n違い: difference は比較結果を一般に表し、variation は同じ種・体系の内部で生じる差や分布を含意しやすい。  \n例: The researchers recorded differences in color between the populations.  \n訳: 研究者たちは集団間の色の違いを記録した。  \n\n・deviation  \n定義: 基準・平均・通常の状態から外れること。  \n頻度: 〈7/10〉  \n違い: deviation は基準からの逸脱に焦点があり、通常から外れているという含みを帯びやすい。variation は中立的な個体差にも使う。  \n例: The measurement showed a small deviation from the expected value.  \n訳: その測定値には予想値からの小さなずれがあった。  \n\n【反意語】\n\n・homogeneity  \n定義: 集団や資料の構成要素が互いによく似ていて、一様であること。  \n頻度: 〈4/10〉  \n違い: variation が内部の差を指すのに対し、homogeneity は内部の差が小さい状態を指す。  \n例: The analysis assumes homogeneity within each group.  \n訳: その分析は各集団内が均質であると仮定している。  \n\n4. 【名詞・可算・音楽】変奏；（複数・作品全体）変奏曲\n\n【日本語訳・定義】主題や旋律を反復し、旋律・和声・リズム・調性などに変化や装飾を加えた短い音楽作品、またはその一つの展開を表す。単数の `a variation` は通常、一連の変奏のうちの一つの変奏を指し、`variations` 全体や作品全体を指す場合に「変奏曲」とする。  \n\n【頻度】〈5/10〉  \n\n【レジスター/領域】音楽の専門用法。主題や旋律を変化させた作品・展開を指す。  \n\n【文法パターン】a variation on 〈a theme/melody〉＝〈主題・旋律〉に基づく変奏／a set of variations on 〈a theme〉＝〈主題〉による変奏曲集／theme and variations＝主題と変奏／play/perform a variation＝変奏を演奏する／variations by 〈a composer〉＝〈作曲家〉による複数の変奏・変奏曲。  \n\n【コロケーション】\n\n・a set of variations on 〈a theme〉  \n用途: 1つの主題と、それに続く複数の変奏からなる一作品・一組を表す。個々の変奏が独立した別作品であることを必須としない。  \n例: The concert opened with a set of variations on a folk melody.  \n訳: その演奏会は民謡の旋律による変奏曲集で幕を開けた。  \n\n・theme and variations  \n用途: 主題を最初に示し、その後に複数の変奏を続ける形式を指す。  \n例: The pianist chose a demanding theme and variations for the recital.  \n訳: そのピアニストはリサイタルに、難度の高い主題と変奏曲を選んだ。  \n\n・a variation on 〈a melody〉  \n用途: ある旋律をもとにした、一連の変奏のうちの一つの変奏を指す。  \n例: The pianist performed a variation on the melody with subtle rhythmic changes.  \n訳: そのピアニストは、リズムを微妙に変えたその旋律の一つの変奏を演奏した。  \n\n・play a variation  \n用途: 演奏者が一連の変奏のうちの一つの変奏を演奏することを表す。  \n例: She played the final variation with remarkable clarity.  \n訳: 彼女は最後の変奏を見事な明瞭さで演奏した。  \n\n・variations on 〈a theme〉  \n用途: 一つの主題をもとにした複数の変奏を表す。  \n例: The program included variations on a theme by Mozart.  \n訳: そのプログラムにはモーツァルトの主題による変奏曲が含まれていた。  \n\n【語法・注意】音楽では通常可算で、`a variation on a theme` は「主題に基づく一つの変奏」、`play/perform a variation` は「変奏を演奏する」と捉える。`a set of variations` や `variations` が一連の変奏・作品全体を指す場合は「変奏曲」「変奏曲集」と訳す。比喩的な `variations on a theme` は元の考えを少し変えた複数の展開を意味する。単に別の演奏や録音を指すときは variation ではなく version や arrangement が自然な場合がある。  \n\n【類義語】\n\n・reworking  \n定義: 既存の主題・作品・素材を改作して、別の形に仕上げたもの。  \n頻度: 〈5/10〉  \n違い: reworking は改作の行為や結果に焦点を置き、音楽の variation ほど一定の形式や主題との反復関係を必須としない。  \n例: The composer presented a bold reworking of the old melody.  \n訳: その作曲家は古い旋律を大胆に改作した作品を発表した。  \n\n5. 【名詞・可算・バレエ】ソロ演目、独舞\n\n【日本語訳・定義】クラシック・バレエで、踊り手が一人で踊る独舞・ソロ番号、または作品内のソロ部分を表す。音楽の変奏曲ではなく、舞踊作品上の演目名である。  \n\n【頻度】〈3/10〉  \n\n【レジスター/領域】バレエの専門用法。一般会話では通常「ソロ」「ソロ演目」と説明し、作品名やコンクールの演目を述べる場面で variation を使う。  \n\n【文法パターン】perform a variation＝ソロ演目を踊る／a classical ballet variation＝クラシック・バレエのソロ演目／a variation from 〈a ballet〉＝〈バレエ作品〉からのソロ演目／learn/rehearse a variation＝ソロ演目を習う・リハーサルする。  \n\n【コロケーション】\n\n・perform a variation  \n用途: バレエのソロ演目を舞台や審査で踊ることを表す。  \n例: The dancer performed her variation with controlled, precise movements.  \n訳: そのダンサーは抑制の効いた正確な動きでソロ演目を踊った。  \n\n・a classical ballet variation  \n用途: クラシック・バレエの定型的なソロ演目を指す。  \n例: She is preparing a classical ballet variation for the competition.  \n訳: 彼女はコンクールに向けてクラシック・バレエのソロ演目を準備している。  \n\n・a variation from 〈a ballet〉  \n用途: 特定のバレエ作品に含まれるソロ演目を示す。  \n例: He chose a variation from The Sleeping Beauty for the audition.  \n訳: 彼はオーディションに『眠れる森の美女』のソロ演目を選んだ。  \n\n・rehearse a variation  \n用途: 本番用のソロ演目を繰り返し練習することを表す。  \n例: The students rehearsed a variation from the ballet before class.  \n訳: 生徒たちは授業の前に、そのバレエ作品のソロ演目を練習した。  \n\n【語法・注意】この用法の variation は、演奏する曲ではなく踊る演目を指す。バレエ以外の一般的な一人の踊りを述べるなら solo または solo dance の方が広く使える。作品中の一場面全体ではなく、独舞として切り出された部分を指す点に注意する。  \n\n【類義語】\n\n・solo  \n定義: 一人で行う演奏・踊り・演技、またはその演目。  \n頻度: 〈8/10〉  \n違い: solo は一人で行うこと全般を表す。ballet の variation は、特定の作品・伝統に属する独舞の演目という専門性が加わる。  \n例: The dancer performed a solo at the end of the show.  \n訳: そのダンサーは公演の最後にソロを踊った。  \n\n6. 【名詞・可算／不可算・契約・法務】契約変更、契約変更事項\n\n【日本語訳・定義】契約締結後に、作業範囲・仕様・数量・価格・納期などの契約条件を変更すること、またはその変更内容を表す。契約書や適用法に定められた手続が問題となる専門用法で、合意・承認・記録を伴うことも多いが、必要な要件は契約・法域によって異なる。  \n\n【頻度】〈2/10〉  \n\n【レジスター/領域】契約実務、調達、建設・プロジェクト管理などの専門用法。`variation`、`variation clause`、`variation order` の優勢な形は法域・契約類型によって異なるため、契約書の定義条項と適用法を確認する。  \n\n【文法パターン】a variation of/to 〈the contract〉＝契約の変更／a variation clause＝契約変更条項／a variation order＝契約・工事内容の変更指示／agree/approve/document a variation＝変更に合意する・承認する・記録する。  \n\n【コロケーション】\n\n・a variation to 〈the contract〉  \n用途: 既存契約の条件を正式に変更したこと、またはその変更事項を表す。`variation of the contract` も使われるが、前置詞と用法は法域・契約書によって異なる。  \n例: The parties signed a variation to the contract extending the delivery date.  \n訳: 当事者は納期を延長する契約変更書に署名した。  \n\n・a variation clause  \n用途: 契約条件を変更できる範囲と手続を定める条項を指す。  \n例: The contract includes a variation clause covering changes to the scope of work.  \n訳: その契約には作業範囲の変更を対象とする契約変更条項が含まれている。  \n\n・a variation order  \n用途: 特に建設・プロジェクト文脈で、追加・削除・変更する作業を正式に指示する文書や指示を表す。  \n例: The contractor submitted a variation order for the additional work.  \n訳: 請負業者は追加工事について変更指示書を提出した。  \n\n【語法・注意】この用法の variation は、単なる別案ではなく、既存契約を変更する正式な行為・変更事項を指す。`amendment` や `modification` と重なるが、`variation order` は工事・プロジェクトの変更指示を特に指しやすい。用語の優勢な形は法域や分野によって異なるため、契約書の定義条項と適用法を確認する。  \n\n【類義語】\n\n・amendment  \n定義: 契約・法律・文書の一部を正式に改めること、またはその改訂。  \n頻度: 〈7/10〉  \n違い: amendment は文書の改訂という側面を強調し、variation は契約条件や作業内容の変更事項・手続を表しやすい。  \n例: The amendment changed the reporting requirements.  \n訳: その改訂によって報告要件が変更された。  \n\n7. 【名詞句・不可算・航海・地球科学・測量】magnetic variation＝磁気偏角\n\n【日本語訳・定義】複合表現 `magnetic variation` は、地球上のある地点で真北と磁北がなす水平角、またはその方位差を表す。地域や時期によって異なるため、航海・測量・方位の補正で考慮される。  \n\n【頻度】〈2/10〉  \n\n【レジスター/領域】航海、海図、地球科学、測量などの専門用法。`magnetic variation` は航海・海図で定着している一方、地球科学・測量では通常 `magnetic declination` が使われるなど、分野・地域・規格によって呼び方が異なる。  \n\n【文法パターン】magnetic variation＝磁気偏角／magnetic variation at 〈a location〉＝〈地点〉の磁気偏角／account for magnetic variation＝磁気偏角を考慮する。  \n\n【コロケーション】\n\n・magnetic variation  \n用途: 真北と磁北の方位差を、航海や測量で扱う専門表現。  \n例: Navigators must account for magnetic variation when plotting a course.  \n訳: 航海者は航路を設定する際に磁気偏角を考慮しなければならない。  \n\n【語法・注意】この用法は一般的な「変動」ではなく、真北に対する磁北の角度を指す。航海・海図では `magnetic variation` が伝統的・実務的に使われるが、地球科学・測量では `magnetic declination` が一般的な場合がある。両表現の優勢さは分野・地域・規格によって異なる。  \n\n【類義語】\n\n・magnetic declination  \n定義: 真北と磁北の方向の差、またはその角度。  \n頻度: 〈4/10〉  \n違い: magnetic declination は現在の地球科学・航海で一般的な用語で、magnetic variation は同じ概念を表す別称として使われる。  \n例: The chart gives the magnetic declination for the harbor.  \n訳: その海図はその港の磁気偏角を示している。  ",
@@ -40,8 +88,8 @@
           "ingested_by": "orchestrator",
           "agent_id": "variation-20260913T012522Z-51385f93-translation-reviewer",
           "source_response": {
-            "path": "audits/runs/v/variation/20260913T012522Z-51385f93/handoff/source_responses/1b735fd33e9d236a9383c4a3124b7f84ff2da2383d42404df15591037658f89f.json",
-            "sha256": "1b735fd33e9d236a9383c4a3124b7f84ff2da2383d42404df15591037658f89f"
+            "path": "audits/runs/v/variation/20260913T012522Z-51385f93/handoff/source_responses/65486fcf3dd37b5679661237b70d2c341d173ae14bb711224dd6dfbb2f435493.json",
+            "sha256": "65486fcf3dd37b5679661237b70d2c341d173ae14bb711224dd6dfbb2f435493"
           }
         },
         "findings": []
@@ -54,8 +102,8 @@
           "ingested_by": "orchestrator",
           "agent_id": "variation-20260913T012522Z-51385f93-sense-structure-reviewer",
           "source_response": {
-            "path": "audits/runs/v/variation/20260913T012522Z-51385f93/handoff/source_responses/7364f91917a95a45799dfde5e6cc7b2a93cf4bbcb04019bc4b46e26e8aaf6c20.json",
-            "sha256": "7364f91917a95a45799dfde5e6cc7b2a93cf4bbcb04019bc4b46e26e8aaf6c20"
+            "path": "audits/runs/v/variation/20260913T012522Z-51385f93/handoff/source_responses/2343010fd9626c5f591327330028d93ff73c892999f688caf82d22b2b30faf0c.json",
+            "sha256": "2343010fd9626c5f591327330028d93ff73c892999f688caf82d22b2b30faf0c"
           }
         },
         "findings": [
@@ -125,8 +173,8 @@
           "ingested_by": "orchestrator",
           "agent_id": "variation-20260913T012522Z-51385f93-frame-relation-reviewer",
           "source_response": {
-            "path": "audits/runs/v/variation/20260913T012522Z-51385f93/handoff/source_responses/5659f13ed7d0a633ca249f0078d5a6db27a6179e8e9782edf15f5092424d26ef.json",
-            "sha256": "5659f13ed7d0a633ca249f0078d5a6db27a6179e8e9782edf15f5092424d26ef"
+            "path": "audits/runs/v/variation/20260913T012522Z-51385f93/handoff/source_responses/0049d89d328addfc9d2c10957543d783b03f6496896f954d074b7afa3c0fdefb.json",
+            "sha256": "0049d89d328addfc9d2c10957543d783b03f6496896f954d074b7afa3c0fdefb"
           }
         },
         "antonym_axis_blind_record": {
@@ -207,8 +255,8 @@
           "ingested_by": "orchestrator",
           "agent_id": "variation-20260913T012522Z-51385f93-example-attribution-reviewer",
           "source_response": {
-            "path": "audits/runs/v/variation/20260913T012522Z-51385f93/handoff/source_responses/b45428874b09a5a2483e830599a49ca116843ba996782f5ee89c23bd70d6dd57.json",
-            "sha256": "b45428874b09a5a2483e830599a49ca116843ba996782f5ee89c23bd70d6dd57"
+            "path": "audits/runs/v/variation/20260913T012522Z-51385f93/handoff/source_responses/7f380105cf40ac5d534849f060184fac9d8f242fc0784b2383ecf25b442fb1ca.json",
+            "sha256": "7f380105cf40ac5d534849f060184fac9d8f242fc0784b2383ecf25b442fb1ca"
           }
         },
         "blind_attribution_record": {
@@ -663,8 +711,8 @@
           "ingested_by": "orchestrator",
           "agent_id": "variation-20260913T012522Z-51385f93-qualification-reviewer",
           "source_response": {
-            "path": "audits/runs/v/variation/20260913T012522Z-51385f93/handoff/source_responses/1da8b027203a83d1f10055428a950e72b1b4bc4b111613f46aaa90680def03b7.json",
-            "sha256": "1da8b027203a83d1f10055428a950e72b1b4bc4b111613f46aaa90680def03b7"
+            "path": "audits/runs/v/variation/20260913T012522Z-51385f93/handoff/source_responses/1503163887eb509012c43f261f3e2568d1539a0921792b67db2109497a0a35fd.json",
+            "sha256": "1503163887eb509012c43f261f3e2568d1539a0921792b67db2109497a0a35fd"
           }
         },
         "findings": [
@@ -734,8 +782,8 @@
           "ingested_by": "orchestrator",
           "agent_id": "variation-20260913T012522Z-51385f93-pronunciation-reviewer",
           "source_response": {
-            "path": "audits/runs/v/variation/20260913T012522Z-51385f93/handoff/source_responses/4fb2e41abeb27a9d3eac2c493f3f8e9ad71538bc2f01c3c3481f277e295b1185.json",
-            "sha256": "4fb2e41abeb27a9d3eac2c493f3f8e9ad71538bc2f01c3c3481f277e295b1185"
+            "path": "audits/runs/v/variation/20260913T012522Z-51385f93/handoff/source_responses/7db133110ba17090796b3a0d9ac876884f3c2da8c08ba47741dc1c25b39b30ad.json",
+            "sha256": "7db133110ba17090796b3a0d9ac876884f3c2da8c08ba47741dc1c25b39b30ad"
           }
         },
         "findings": [
@@ -766,8 +814,8 @@
           "agent_id": "variation-20260913T012522Z-51385f93-evidence-reviewer-20260917",
           "same_model_as_generation": true,
           "source_response": {
-            "path": "audits/runs/v/variation/20260913T012522Z-51385f93/handoff/source_responses/52d9416c9b87435c63ed78e62776b241f5f7e4e7d95635623bfd99917492690e.json",
-            "sha256": "52d9416c9b87435c63ed78e62776b241f5f7e4e7d95635623bfd99917492690e"
+            "path": "audits/runs/v/variation/20260913T012522Z-51385f93/handoff/source_responses/be33cf3919640173754c8087a39c6b0018f62035e8b62b442204ac5867805e03.json",
+            "sha256": "be33cf3919640173754c8087a39c6b0018f62035e8b62b442204ac5867805e03"
           }
         },
         "findings": [
@@ -9390,10 +9438,10 @@
         "union_id": "union-src-cedd-contract-variation-order"
       }
     ],
-    "input_revision_id": "e3d7e192fdd230365bdf1845e57f7896607ec68cc582692a6e18da5228aa217d"
+    "input_revision_id": "0cbd10d63cebff12b806609b01326de7900cc34680d0e0c501486f70a52b702b"
   },
   "input_bindings": {
-    "pass_findings.json": "a45d76c2bb71c705726b014320d200c48ea1c618de98950dd3744844a820deff",
+    "pass_findings.json": "e09f6f2df8fc0ca1c19e084da2fa53aa565065b96f5ad60febd46525cb131c00",
     "cold_review.json": "b1b3dbb778207dfff3bfe5f6fd38ed819f2361dfa89ce361a6051fa30aad436a",
     "final_blind.json": "2dbf7f7bf86addc97fb041691d35d894a79fb999177f21ddbd46577d1937d44e",
     "blind_seal.json": "388748a39d094467a57ea73f112fbf7855702b177f16cf8ae4d85bd6cfa9e6dc",
@@ -9428,5 +9476,6 @@
     "check_passes/translation.request.json": "009b4effd4bf56f636399c13c0ec8b468bf485521f9d245cd388fcaecfd5e8bd"
   },
   "contract_version": "review_preflight_v1",
-  "input_revision_id": "e3d7e192fdd230365bdf1845e57f7896607ec68cc582692a6e18da5228aa217d"
+  "input_revision_id": "0cbd10d63cebff12b806609b01326de7900cc34680d0e0c501486f70a52b702b"
 }
+```

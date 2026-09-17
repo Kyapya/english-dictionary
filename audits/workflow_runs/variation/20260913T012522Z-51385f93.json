@@ -925,5 +925,23 @@
     "classification": "repairable_validation",
     "status": "needs_correction"
   },
-  "review_preflight_policy": "repairable_review_preflight_v2"
+  "review_preflight_policy": "repairable_review_preflight_v2",
+  "review_packet_revisions": [
+    {
+      "stage": "final_review",
+      "recorded_at": "2026-09-17T17:21:24.778723+00:00",
+      "old_packet_sha256": "840f6483bc9d40bb37ea644dd26873470c5115bfac67963a19a0a6e226db77e1",
+      "new_packet_sha256": "60a079d905ef5d03b382caa78ef328c53f63ab933ea3920360eda80e26a76d29",
+      "archive": "review_packet_history/final_review/840f6483bc9d40bb37ea644dd26873470c5115bfac67963a19a0a6e226db77e1",
+      "input_revision_id": "0cbd10d63cebff12b806609b01326de7900cc34680d0e0c501486f70a52b702b"
+    },
+    {
+      "stage": "final_review",
+      "recorded_at": "2026-09-17T17:34:33.795807+00:00",
+      "old_packet_sha256": "60a079d905ef5d03b382caa78ef328c53f63ab933ea3920360eda80e26a76d29",
+      "new_packet_sha256": "7ba78d4c91c5412570ac4886e5262e64e7376e70d9c100dd0e23ade020532dd4",
+      "archive": "review_packet_history/final_review/60a079d905ef5d03b382caa78ef328c53f63ab933ea3920360eda80e26a76d29",
+      "input_revision_id": "e3d7e192fdd230365bdf1845e57f7896607ec68cc582692a6e18da5228aa217d"
+    }
+  ]
 }

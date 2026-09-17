@@ -48,13 +48,13 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
 ```json
 {
   "stage": "final_review",
-  "entry_body": "\n＃発音記号\n\n米: /ˌveriˈeɪʃən/｜英: /ˌveəriˈeɪʃən/。4音節で、第3音節の /eɪ/ に主強勢、第1音節に副次強勢がある。米音では第1音節が /ver/、英音では /veə/ となる。語尾の /ʃən/ は、つづり字の -tion を「ション」に近く発音する部分に当たる。  \n\n＃語源\n\n現代英語 variation は、中英語 variacioun ← 古フランス語系のアングロフレンチ variation ← ラテン語 variātiō「変化、相違、変形」という流れでさかのぼる。ラテン語 variātiō は variare「変える、異ならせる」から作られ、variare は varius「さまざまな、異なる」と同語源である。  \n語源欄では、ラテン語の「多様化・相違」という意味までを示す。現代英語で共有される「同じ型を保ちながら一部が異なる」という説明上の核は、次のコアイメージ欄で整理する。  \n\n＃語形成\n\n・vary：動詞。「変わる、異なる、変える」。variation と同語源の関連動詞。  \n・variable：形容詞・名詞。「変動する、可変の；変数」。variation と同語源の重要な関連語で、変化しうる性質や変化する値・要因を表す。  \n・variant：名詞・形容詞。「異形、変種；異なる」。同じ語族で、同種のものの別形や標準形と異なる型を表し、語義2と特に関係が深い。  \n・varied：形容詞。「変化に富んだ、さまざまな」。単に variation があるという意味と、内容が豊富だという評価を区別する。  \n・various：形容詞。「さまざまな、種々の」。同じ語族だが、通常は名詞の前に置いて種類の多さを表す。  \n・variety：名詞。「多様性、種類、変種」。variation が変化や個々の違いに焦点を置くのに対し、variety は種類の豊富さや選択肢に焦点を置きやすい。  \n・variational：形容詞。数学・物理などで「変分の、変分法の」。一般会話の「変化に富む」という意味では使わない。  \n\n＃コアイメージ\n\n「同じ対象・尺度・型を前提に、値や状態が変わること、または同類のものの間に違いがあること」。この核から、変化の大きさ、同じ型の別形、集団内外の差、主題を変形した作品、契約条件の変更などの語義が生じる。  \n・同じ尺度で見た値や状態の変化・ばらつき → 「変動・ばらつき」（語義1）  \n・同じ基本型を保った別の形 → 「変形・別形」（語義2）  \n・同類の個体や集団の内外にある差 → 「個体差・変異」（語義3）  \n・同じ主題をもとにした展開 → 「変奏・変奏曲」（語義4）  \n・一人の踊り手が踊るバレエのソロ → 「ソロ演目・独舞」（語義5）  \n・契約条件の正式な変更 → 「契約変更」（語義6）  \n・真北と磁北の間の方位差 → 「磁気偏角」（語義7）  \n\n＃意味・用法・関連表現\n\n1. 【名詞・不可算／可算】変化、変動、ばらつき\n\n【日本語訳・定義】量・水準・品質・状態などが一定ではなく変わること、またはその変化の幅・ばらつきを表す。変動・ばらつきを総体として述べる場合は不可算が多く、個々の変化・差・型を数える場合は可算になることが多い。個々の対象間の差や専門分野の変異を主に述べる場合は、語義3などの用法になる。  \n\n【頻度】〈8/10〉  \n\n【レジスター/領域】標準語。日常会話にも使うが、文章・報道・ビジネス・学術で特に頻出する。データや価格では「変動」「ばらつき」、地域・人・意見では「差異」「違い」と訳し分ける。統計では variation はばらつき一般または変化量を指し、variance は平均からの偏差の二乗平均という特定の統計量であるため、両語は自動的に置き換えない。  \n\n【文法パターン】variation in 〈amount/level/quality〉＝〈量・水準・品質〉の変動／variation of 〈temperature/pressure〉＝〈温度・圧力〉の変化／variation between 〈A〉 and 〈B〉＝〈A〉と〈B〉の差／variation among 〈people/regions〉＝〈人・地域〉の間のばらつき／variation according to 〈a factor〉＝〈要因〉に応じた変化／the variation of 〈A〉 with 〈B〉＝〈B〉に伴う〈A〉の変化／show/reflect variation in something＝何かの変動を示す／take seasonal variation into account＝季節変動を考慮に入れる。  \n\n【コロケーション】\n\n・considerable variation in something  \n用途: 〈何か〉にかなり大きな差やばらつきがあることを表す。  \n例: There is considerable variation in the time needed to complete the task.  \n訳: その作業を終えるのに必要な時間にはかなりのばらつきがある。  \n\n・slight variation in something  \n用途: 基本的には同じだが、わずかな違いがあることを表す。  \n例: The two paint samples showed only slight variation in color.  \n訳: その2つの塗料見本には色のわずかな違いしか見られなかった。  \n\n・wide variation between 〈A〉 and 〈B〉  \n用途: 2つの対象の値・状態・結果が大きく異なることを示す。  \n例: The study found wide variation between schools in the use of digital devices.  \n訳: その研究では、デジタル機器の使用について学校間に大きな差が見つかった。  \n\n・a variation from 〈the norm/standard〉  \n用途: 基準・標準からの相違やずれを強調する。元のものを土台にした別形を中立的に指す場合は、語義2の `variation on` の方が典型的である。  \n例: The revised procedure shows only slight variation from the standard procedure in its timing.  \n訳: 改訂された手順は、実施時間の点で標準手順からわずかに異なる。  \n\n・seasonal variation in 〈demand/temperature〉  \n用途: 季節によって繰り返し生じる需要や温度の変化を指す。  \n例: The store adjusts its stock for seasonal variation in demand.  \n訳: その店は需要の季節変動に合わせて在庫を調整する。  \n\n・variation according to 〈a factor〉  \n用途: 地域・条件・時間などの要因に応じて値が変わることを述べる。  \n例: The survey found considerable variation according to age and region.  \n訳: その調査では、年齢と地域によってかなりの差が見つかった。  \n\n・the variation of 〈A〉 with 〈B〉  \n用途: 〈B〉の変化に伴って〈A〉がどう変わるかという関係を、やや学術的に表す。  \n例: The graph shows the variation of pressure with altitude.  \n訳: そのグラフは高度に伴う圧力の変化を示している。  \n\n・take 〈seasonal variation〉 into account  \n用途: 予測や計画で、一定ではない季節要因を考慮する。  \n例: The forecast takes seasonal variation into account.  \n訳: その予測は季節変動を考慮に入れている。  \n\n【語法・注意】variation は変動やばらつきを総体として述べるときは不可算が多く、a variation/variations は個々の変化・差・型を数えるときに使われることが多い。ただし、可算・不可算は意味だけで機械的に決まるものではなく、焦点や文脈によって揺れる。`variation in prices` は価格の変動、`variations in prices` は複数の価格差・変動の例を指しやすい。`variation from the norm/standard` は比較の基準からのずれを表し、`difference` は2つ以上の対象の差に焦点を置く。`variety` は選択肢や種類の豊富さを表すことが多く、単なる数値の変動には通常 variation を使う。  \n\n【類義語】\n\n・change  \n定義: 状態・量・性質が別のものになること。  \n頻度: 〈10/10〉  \n違い: 最も広い語で、変化そのものに焦点を置く。variation は同じ型の範囲内での差や変動幅を示しやすい。  \n例: The change in temperature was easy to notice.  \n訳: 気温の変化は簡単に気づけた。  \n\n・fluctuation  \n定義: 数値や水準が上下を繰り返す変動。  \n頻度: 〈7/10〉  \n違い: 価格・為替・体温などの上下動を強く含む。variation は一方向の変化や対象間のばらつきにも使える。  \n例: Daily fluctuations in demand make planning difficult.  \n訳: 需要の日々の変動は計画を難しくする。  \n\n・difference  \n定義: 2つ以上のものが同じでない点や、その隔たり。  \n頻度: 〈10/10〉  \n違い: 比較対象間の差に焦点を置く。variation は基準からの変化や同種の複数対象のばらつきにも使う。  \n例: There is a clear difference between the two measurements.  \n訳: その2つの測定値には明確な差がある。  \n\n【反意語】\n\n・uniformity  \n定義: 対象の間に差がほとんどなく、同じ状態や性質がそろっていること。  \n頻度: 〈5/10〉  \n違い: variation が差やばらつきを指すのに対し、uniformity は一様である状態を指す。  \n例: The process aims to improve uniformity across all factories.  \n訳: その工程は全工場での一様性を高めることを目指している。  \n\n2. 【名詞・可算】基準から少し変えたもの、変形、別形\n\n【日本語訳・定義】同じ基本的な考え方・型・方法を保ちながら、内容や構成の一部を変えたものを表す。元と無関係な別物ではなく、「元のものを少し変えた版」という含みがある。`a variation on ...` は「…を土台にした変形・アレンジ」として特に重要である。音楽の主題に基づく専門的な用法は語義4、契約条件の正式な変更は語義6で扱う。  \n\n【頻度】〈8/10〉  \n\n【レジスター/領域】標準語。料理、物語、デザイン、研究方法、議論など、同じ型の展開やアレンジを説明する文章でよく使う。契約・法務の専門用法については語義6を参照。音楽の `variation on a theme` は語義4、同じ表現の比喩的な用法はこの語義に関係する。  \n\n【文法パターン】a variation on 〈the original design/an idea/a story/a recipe〉＝〈元の設計・考え・物語・レシピ〉を土台にした変形／a variation of 〈something〉＝〈何か〉の別形／a slight variation＝わずかな変形。  \n\n【コロケーション】\n\n・a variation on 〈an idea/a story〉  \n用途: 同じ中心的な考えや筋を保った、一般用法での別の展開を表す。音楽の専門用法は語義4で扱う。  \n例: The novel is a clever variation on a familiar coming-of-age story.  \n訳: その小説は、よく知られた成長物語を巧みに変形した作品だ。  \n\n・a variation on 〈a traditional dish/a traditional story〉  \n用途: 伝統的な料理や物語を少し変えたものを指す。  \n例: This soup is a lighter variation on a traditional winter dish.  \n訳: このスープは伝統的な冬の料理をより軽めにしたアレンジだ。  \n\n・a variation of 〈something〉  \n用途: 既存の方法や設計と基本は同じで、一部が異なる版を表す。  \n例: The team tested a variation of the original method.  \n訳: そのチームは元の方法を変形した手法を試した。  \n\n・a slight variation on 〈the original instructions〉  \n用途: 元の説明書を土台に、表現や形式を少し変えた別版を表す。  \n例: The editor created a slight variation on the original instructions by revising the wording.  \n訳: その編集者は文言を改め、元の説明書を少し変えた別版を作成した。  \n\n・a variation on the original design  \n用途: 元の設計を土台にした別形・アレンジを表す。語義2の代表的な表現。  \n例: This version is a useful variation on the original design.  \n訳: この版は元の設計を土台にした有用なアレンジだ。  \n\n・develop a variation on 〈an idea〉  \n用途: 既存の考えを土台に、新しい展開を作ることを表す。  \n例: The workshop asks students to develop a variation on the basic pattern.  \n訳: その講習では、基本パターンを変形したものを学生に考案させる。  \n\n【語法・注意】`variation on` は元の型・設計・考えを土台にした別形を指すため、語義2の代表表現である。`variation of` も元のものの別形を表すことが多い。これに対し `variation from the norm/standard` は比較の基準を示し、そこからの相違・ずれに焦点を置くため、語義1で扱う。`a variation from the original` も文法的には可能だが、元の設計を基にした別形という意味なら `a variation on the original design` の方が自然である。音楽の `a variation on a theme` は語義4で扱い、ここでは物語・考えなどの比喩的な展開として読む。契約・法務の `variation of/to the contract` は正式な契約変更を表し、一般用法の「元の型を基にした別形」とは文脈が異なる。`alternative` は元の案の代替として選べる別案、`variation` は元の案との連続性を保った変形である。  \n\n【類義語】\n\n・variant  \n定義: 同じ種類のものから分かれた、少し異なる形や型。  \n頻度: 〈7/10〉  \n違い: variant は別形そのものを簡潔に指し、医学・生物・言語などで標準形との差を分類する語としても使う。variation は変形の過程や関係も表しやすい。  \n例: The researchers compared regional variants of the expression.  \n訳: 研究者たちはその表現の地域別の異形を比較した。  \n\n・version  \n定義: 同じものの異なる版・形態・編集結果。  \n頻度: 〈9/10〉  \n違い: version は製品・文書・作品の版を中立的に指す。variation は元の型を部分的に変えたという関係をより強く示す。  \n例: Please use the latest version of the report.  \n訳: 報告書の最新版を使ってください。  \n\n・modification  \n定義: 目的に合わせて既存のものに加えた変更・改変。  \n頻度: 〈7/10〉  \n違い: modification は意図的な改変という行為・結果に焦点を置き、variation は自然に生じた差や創作上の変形にも使う。  \n例: The device requires a minor modification to fit the new component.  \n訳: その装置は新しい部品に合うよう、少し改変する必要がある。  \n\n3. 【名詞・不可算／可算・生物学・遺伝学・医学】集団内の個体差、変異\n\n【日本語訳・定義】同じ種の個体間、または同じ種に属する集団の内部・集団間に見られる、遺伝的・構造的・機能的な差を表す。個体・集団間に観察される差を指し、言語・地域・社会層などの一般的な形式差は語義1で扱う。  \n\n【頻度】〈6/10〉  \n\n【レジスター/領域】生物学、遺伝学、医学などで使う学術語。一般文脈の「違い」より、同じ種・集団の内部に生じる個体差や、集団間の差とその分布を意識させる。  \n\n【文法パターン】genetic/biological variation＝遺伝的・生物学的変異／variation within 〈a species/group〉＝〈種・集団〉内の変異／variation among 〈individuals〉＝〈個体〉間の差／variation between 〈populations〉＝〈集団〉間の差／show variation in 〈a characteristic〉＝〈特徴〉に差を示す。  \n\n【コロケーション】\n\n・genetic variation within 〈a species〉  \n用途: 同じ種の個体間にある遺伝的な違いを表す。  \n例: Genetic variation within a species can affect its response to disease.  \n訳: 種内の遺伝的変異は、病気への反応に影響することがある。  \n\n・genetic variation among 〈individuals〉  \n用途: 個体ごとの遺伝的な違いが一様でないことを述べる。  \n例: The study found substantial genetic variation among individuals in their response to the vaccine.  \n訳: その研究では、ワクチンへの反応に個体間の大きな遺伝的差が見つかった。  \n\n・variation within 〈a population〉  \n用途: 同じ集団内で見られる、遺伝的・形態的・生理的などの個体差を表す。  \n例: The study measured genetic variation within a population in wing length over several generations.  \n訳: その研究は、数世代にわたる集団内の翼長における遺伝的変異を測定した。  \n\n・genetic variation between 〈populations〉  \n用途: 異なる集団の間にある遺伝的な違いを表す。  \n例: The researchers compared genetic variation between populations living in different environments.  \n訳: 研究者たちは、異なる環境に住む集団間の遺伝的変異を比較した。  \n\n・genetic variation in 〈drug response〉  \n用途: 遺伝的な違いによって薬への反応が異なることを表す。  \n例: Genetic variation in drug response should be considered when interpreting the results.  \n訳: 結果を解釈する際は、薬物反応における遺伝的変異を考慮すべきだ。  \n\n・show variation in 〈a characteristic〉  \n用途: 特定の特徴に個体差や形式差があることを、観察・調査結果として述べる。  \n例: The plant samples show genetic variation in leaf shape and size within a species.  \n訳: その種の植物試料では、葉の形と大きさに遺伝的変異が見られる。  \n\n【語法・注意】生物学の `variation` は、集団内の差という現象にも、その差を示す特徴にも使われる。`deviation` が基準・平均から外れることに焦点を置くのに対し、`variation` は個体・集団間の差やその分布を述べる。`mutation` は遺伝物質の配列に起きる変化、`genetic variation` は個体・集団間に観察される遺伝的差の状態・分布を指し、mutation は variation の原因の一つである。両語は同義ではない。  \n\n【類義語】\n\n・diversity  \n定義: 集団や範囲の中に異なる種類・特徴が存在すること。  \n頻度: 〈8/10〉  \n違い: diversity は多様性の存在や価値に焦点を置き、variation は同じ集団内でどの特徴がどの程度異なるかを分析する語として使いやすい。  \n例: The forest supports remarkable biological diversity.  \n訳: その森林は際立った生物多様性を支えている。  \n\n・difference  \n定義: 2つ以上の個体・形式・集団が同じでない点。  \n頻度: 〈10/10〉  \n違い: difference は比較結果を一般に表し、variation は同じ種・体系の内部で生じる差や分布を含意しやすい。  \n例: The researchers recorded differences in color between the populations.  \n訳: 研究者たちは集団間の色の違いを記録した。  \n\n・deviation  \n定義: 基準・平均・通常の状態から外れること。  \n頻度: 〈7/10〉  \n違い: deviation は基準からの逸脱に焦点があり、通常から外れているという含みを帯びやすい。variation は中立的な個体差にも使う。  \n例: The measurement showed a small deviation from the expected value.  \n訳: その測定値には予想値からの小さなずれがあった。  \n\n【反意語】\n\n・homogeneity  \n定義: 集団や資料の構成要素が互いによく似ていて、一様であること。  \n頻度: 〈4/10〉  \n違い: variation が内部の差を指すのに対し、homogeneity は内部の差が小さい状態を指す。  \n例: The analysis assumes homogeneity within each group.  \n訳: その分析は各集団内が均質であると仮定している。  \n\n4. 【名詞・可算・音楽】変奏；（複数・作品全体）変奏曲\n\n【日本語訳・定義】主題や旋律をもとに、旋律・和声・リズム・調性などを変化させて作る楽曲・楽章、またはその中の一つの展開を表す。単数の `a variation` は通常、一連の変奏のうちの一つの変奏を指し、`variations` 全体や作品全体を指す場合に「変奏曲」とする。主題との連続性を保つ場合が多いが、変化の仕方や主題の現れ方は作品によって異なる。  \n\n【頻度】〈5/10〉  \n\n【レジスター/領域】音楽の専門用法。一般語の「変形」と同じ語源的核を持つが、主題とその展開を指す定着した術語として使う。比喩的な `variations on a theme` は語義2の「同じ主題の別展開」にも戻る。  \n\n【文法パターン】a variation on 〈a theme/melody〉＝〈主題・旋律〉に基づく変奏／a set of variations on 〈a theme〉＝〈主題〉による変奏曲集／theme and variations＝主題と変奏／play/perform a variation＝変奏を演奏する／variations by 〈a composer〉＝〈作曲家〉による複数の変奏・変奏曲。  \n\n【コロケーション】\n\n・a set of variations on 〈a theme〉  \n用途: 1つの主題と、それに続く複数の変奏からなる一作品・一組を表す。個々の変奏が独立した別作品であることを必須としない。  \n例: The concert opened with a set of variations on a folk melody.  \n訳: その演奏会は民謡の旋律による変奏曲集で幕を開けた。  \n\n・theme and variations  \n用途: 主題を最初に示し、その後に複数の変奏を続ける形式を指す。  \n例: The pianist chose a demanding theme and variations for the recital.  \n訳: そのピアニストはリサイタルに、難度の高い主題と変奏曲を選んだ。  \n\n・a variation on 〈a melody〉  \n用途: ある旋律をもとにした、一連の変奏のうちの一つの変奏を指す。  \n例: The pianist performed a variation on the melody with subtle rhythmic changes.  \n訳: そのピアニストは、リズムを微妙に変えたその旋律の一つの変奏を演奏した。  \n\n・play a variation  \n用途: 演奏者が一連の変奏のうちの一つの変奏を演奏することを表す。  \n例: She played the final variation with remarkable clarity.  \n訳: 彼女は最後の変奏を見事な明瞭さで演奏した。  \n\n・variations by 〈a composer〉  \n用途: 特定の作曲家が作った変奏曲を示す。  \n例: The program included variations by Beethoven and Brahms.  \n訳: そのプログラムにはベートーベンとブラームスの変奏曲が含まれていた。  \n\n【語法・注意】音楽では通常可算で、`a variation on a theme` は「主題に基づく一つの変奏」、`play/perform a variation` は「変奏を演奏する」と捉える。`a set of variations` や `variations` が一連の変奏・作品全体を指す場合は「変奏曲」「変奏曲集」と訳す。比喩的な `variations on a theme` は元の考えを少し変えた複数の展開を意味する。単に別の演奏や録音を指すときは variation ではなく version や arrangement が自然な場合がある。  \n\n【類義語】\n\n・reworking  \n定義: 既存の主題・作品・素材を改作して、別の形に仕上げたもの。  \n頻度: 〈5/10〉  \n違い: reworking は改作の行為や結果に焦点を置き、音楽の variation ほど一定の形式や主題との反復関係を必須としない。  \n例: The composer presented a bold reworking of the old melody.  \n訳: その作曲家は古い旋律を大胆に改作した作品を発表した。  \n\n5. 【名詞・可算・バレエ】ソロ演目、独舞\n\n【日本語訳・定義】クラシック・バレエで、踊り手が一人で踊る独舞・ソロ番号、または作品内のソロ部分を表す。音楽の変奏曲ではなく、舞踊作品上の演目名である。  \n\n【頻度】〈3/10〉  \n\n【レジスター/領域】バレエの専門用法。一般会話では通常「ソロ」「ソロ演目」と説明し、作品名やコンクールの演目を述べる場面で variation を使う。  \n\n【文法パターン】perform a variation＝ソロ演目を踊る／a classical ballet variation＝クラシック・バレエのソロ演目／a variation from 〈a ballet〉＝〈バレエ作品〉からのソロ演目／learn/rehearse a variation＝ソロ演目を習う・リハーサルする。  \n\n【コロケーション】\n\n・perform a variation  \n用途: バレエのソロ演目を舞台や審査で踊ることを表す。  \n例: The dancer performed her variation with controlled, precise movements.  \n訳: そのダンサーは抑制の効いた正確な動きでソロ演目を踊った。  \n\n・a classical ballet variation  \n用途: クラシック・バレエの定型的なソロ演目を指す。  \n例: She is preparing a classical ballet variation for the competition.  \n訳: 彼女はコンクールに向けてクラシック・バレエのソロ演目を準備している。  \n\n・a variation from 〈a ballet〉  \n用途: 特定のバレエ作品に含まれるソロ演目を示す。  \n例: He chose a variation from The Sleeping Beauty for the audition.  \n訳: 彼はオーディションに『眠れる森の美女』のソロ演目を選んだ。  \n\n・rehearse a variation  \n用途: 本番用のソロ演目を繰り返し練習することを表す。  \n例: The students rehearsed a variation from the ballet before class.  \n訳: 生徒たちは授業の前に、そのバレエ作品のソロ演目を練習した。  \n\n【語法・注意】この用法の variation は、演奏する曲ではなく踊る演目を指す。バレエ以外の一般的な一人の踊りを述べるなら solo または solo dance の方が広く使える。作品中の一場面全体ではなく、独舞として切り出された部分を指す点に注意する。  \n\n【類義語】\n\n・solo  \n定義: 一人で行う演奏・踊り・演技、またはその演目。  \n頻度: 〈8/10〉  \n違い: solo は一人で行うこと全般を表す。ballet の variation は、特定の作品・伝統に属する独舞の演目という専門性が加わる。  \n例: The dancer performed a solo at the end of the show.  \n訳: そのダンサーは公演の最後にソロを踊った。  \n\n6. 【名詞・可算／不可算・契約・法務】契約変更、契約変更事項\n\n【日本語訳・定義】契約締結後に、作業範囲・仕様・数量・価格・納期などの契約条件を変更すること、またはその変更内容を表す。契約書に定められた手続に従い、当事者の合意・承認・記録を伴う専門用法である。  \n\n【頻度】〈2/10〉  \n\n【レジスター/領域】契約実務、調達、建設・プロジェクト管理などの専門用法。`variation` や `variation order` は英国・豪州などの契約・工事文脈でよく見られるが、用語は法域・契約類型で異なる。米国の工事文脈では `change order`、一般の契約変更では `contract amendment` や `contract modification` がより一般的な場合がある。  \n\n【文法パターン】a variation of/to 〈the contract〉＝契約の変更／a variation clause＝契約変更条項／a variation order＝契約・工事内容の変更指示／agree/approve/document a variation＝変更に合意する・承認する・記録する。  \n\n【コロケーション】\n\n・a variation to 〈the contract〉  \n用途: 既存契約の条件を正式に変更したこと、またはその変更事項を表す。`variation of the contract` も使われるが、前置詞と用法は法域・契約書によって異なる。  \n例: The parties signed a variation to the contract extending the delivery date.  \n訳: 当事者は納期を延長する契約変更書に署名した。  \n\n・a variation clause  \n用途: 契約条件を変更できる範囲と手続を定める条項を指す。  \n例: The contract includes a variation clause covering changes to the scope of work.  \n訳: その契約には作業範囲の変更を対象とする契約変更条項が含まれている。  \n\n・a variation order  \n用途: 特に建設・プロジェクト文脈で、追加・削除・変更する作業を正式に指示する文書や指示を表す。  \n例: The contractor submitted a variation order for the additional work.  \n訳: 請負業者は追加工事について変更指示書を提出した。  \n\n【語法・注意】この用法の variation は、単なる別案ではなく、既存契約を変更する正式な行為・変更事項を指す。`amendment` や `modification` と重なるが、`variation order` は工事・プロジェクトの変更指示を特に指しやすい。用語の優勢な形は法域や分野によって異なるため、契約書の定義条項と適用法を確認する。  \n\n【類義語】\n\n・amendment  \n定義: 契約・法律・文書の一部を正式に改めること、またはその改訂。  \n頻度: 〈7/10〉  \n違い: amendment は文書の改訂という側面を強調し、variation は契約条件や作業内容の変更事項・手続を表しやすい。  \n例: The amendment changed the reporting requirements.  \n訳: その改訂によって報告要件が変更された。  \n\n7. 【名詞句・不可算・航海・地球科学・測量】magnetic variation＝磁気偏角\n\n【日本語訳・定義】複合表現 `magnetic variation` は、地球上のある地点で真北と磁北がなす水平角、またはその方位差を表す。地域や時期によって異なるため、航海・測量・方位の補正で考慮される。  \n\n【頻度】〈2/10〉  \n\n【レジスター/領域】航海、海図、地球科学、測量などの専門用法。`magnetic variation` は航海・海図で定着している一方、地球科学・測量では通常 `magnetic declination` が使われるなど、分野・地域・規格によって呼び方が異なる。  \n\n【文法パターン】magnetic variation＝磁気偏角／magnetic variation at 〈a location〉＝〈地点〉の磁気偏角／account for magnetic variation＝磁気偏角を考慮する。  \n\n【コロケーション】\n\n・magnetic variation  \n用途: 真北と磁北の方位差を、航海や測量で扱う専門表現。  \n例: Navigators must account for magnetic variation when plotting a course.  \n訳: 航海者は航路を設定する際に磁気偏角を考慮しなければならない。  \n\n【語法・注意】この用法は一般的な「変動」ではなく、真北に対する磁北の角度を指す。航海・海図では `magnetic variation` が伝統的・実務的に使われるが、地球科学・測量では `magnetic declination` が一般的な場合がある。両表現の優勢さは分野・地域・規格によって異なる。  \n\n【類義語】\n\n・magnetic declination  \n定義: 真北と磁北の方向の差、またはその角度。  \n頻度: 〈4/10〉  \n違い: magnetic declination は現在の地球科学・航海で一般的な用語で、magnetic variation は同じ概念を表す別称として使われる。  \n例: The chart gives the magnetic declination for the harbor.  \n訳: その海図はその港の磁気偏角を示している。  ",
+  "entry_body": "\n＃発音記号\n\n米: /ˌveriˈeɪʃən/｜英: /ˌveəriˈeɪʃən/。4音節で、第3音節の /eɪ/ に主強勢、第1音節に副次強勢がある。米音では第1音節が /ver/、英音では /veə/ となる。語尾の /ʃən/ は、つづり字の -tion を「ション」に近く発音する部分に当たる。  \n\n＃語源\n\n現代英語 variation は、中英語 variacioun ← 古フランス語系のアングロフレンチ variation ← ラテン語 variātiō「変化、相違、変形」という流れでさかのぼる。ラテン語 variātiō は variare「変える、異ならせる」から作られ、variare は varius「さまざまな、異なる」と同語源である。  \n語源欄では、ラテン語の「多様化・相違」という意味までを示す。現代英語で共有される「同じ型を保ちながら一部が異なる」という説明上の核は、次のコアイメージ欄で整理する。  \n\n＃語形成\n\n・vary：動詞。「変わる、異なる、変える」。variation と同語源の関連動詞。  \n・variable：形容詞・名詞。「変動する、可変の；変数」。variation と同語源の重要な関連語で、変化しうる性質や変化する値・要因を表す。  \n・variant：名詞・形容詞。「異形、変種；異なる」。同じ語族で、同種のものの別形や標準形と異なる型を表し、語義2と特に関係が深い。  \n・varied：形容詞。「変化に富んだ、さまざまな」。単に variation があるという意味と、内容が豊富だという評価を区別する。  \n・various：形容詞。「さまざまな、種々の」。同じ語族だが、通常は名詞の前に置いて種類の多さを表す。  \n・variety：名詞。「多様性、種類、変種」。variation が変化や個々の違いに焦点を置くのに対し、variety は種類の豊富さや選択肢に焦点を置きやすい。  \n・variational：形容詞。数学・物理などで「変分の、変分法の」。一般会話の「変化に富む」という意味では使わない。  \n\n＃コアイメージ\n\n「同じ対象・尺度・型を前提に、値や状態が変わること、または同類のものの間に違いがあること」。この核から、変化の大きさ、同じ型の別形、集団内外の差、主題を変形した作品、契約条件の変更などの語義が生じる。  \n・同じ尺度で見た値や状態の変化・ばらつき → 「変動・ばらつき」（語義1）  \n・同じ基本型を保った別の形 → 「変形・別形」（語義2）  \n・同類の個体や集団の内外にある差 → 「個体差・変異」（語義3）  \n・同じ主題をもとにした展開 → 「変奏・変奏曲」（語義4）  \n・一人の踊り手が踊るバレエのソロ → 「ソロ演目・独舞」（語義5）  \n・契約条件の正式な変更 → 「契約変更」（語義6）  \n・真北と磁北の間の方位差 → 「磁気偏角」（語義7）  \n\n＃意味・用法・関連表現\n\n1. 【名詞・不可算／可算】変化、変動、ばらつき\n\n【日本語訳・定義】量・水準・品質・状態などが一定ではなく変わること、またはその変化の幅・ばらつきを表す。変動・ばらつきを総体として述べる場合は不可算が多く、個々の変化・差・型を数える場合は可算になることが多い。個々の対象間の差や専門分野の変異を主に述べる場合は、語義3などの用法になる。  \n\n【頻度】〈8/10〉  \n\n【レジスター/領域】標準語。量・水準・品質などの変化や、同種の対象の間の差を一般に述べる。データや価格では「変動」「ばらつき」、対象間の比較では「差異」「違い」と訳し分ける。  \n\n【文法パターン】variation in 〈amount/level/quality〉＝〈量・水準・品質〉の変動／variation of 〈temperature/pressure〉＝〈温度・圧力〉の変化／variation between 〈A〉 and 〈B〉＝〈A〉と〈B〉の差／variation among 〈people/regions〉＝〈人・地域〉の間のばらつき／variation according to 〈a factor〉＝〈要因〉に応じた変化／the variation of 〈A〉 with 〈B〉＝〈B〉に伴う〈A〉の変化／show/reflect variation in something＝何かの変動を示す／take seasonal variation into account＝季節変動を考慮に入れる。  \n\n【コロケーション】\n\n・considerable variation in something  \n用途: 〈何か〉にかなり大きな差やばらつきがあることを表す。  \n例: There is considerable variation in the time needed to complete the task.  \n訳: その作業を終えるのに必要な時間にはかなりのばらつきがある。  \n\n・slight variation in something  \n用途: 基本的には同じだが、わずかな違いがあることを表す。  \n例: The two paint samples showed only slight variation in color.  \n訳: その2つの塗料見本には色のわずかな違いしか見られなかった。  \n\n・wide variation between 〈A〉 and 〈B〉  \n用途: 2つの対象の値・状態・結果が大きく異なることを示す。  \n例: The study found wide variation between schools in the use of digital devices.  \n訳: その研究では、デジタル機器の使用について学校間に大きな差が見つかった。  \n\n・a variation from 〈the norm/standard〉  \n用途: 基準・標準からの相違やずれを強調する。元のものを土台にした別形を中立的に指す場合は、語義2の `variation on` の方が典型的である。  \n例: The revised procedure shows only slight variation from the standard procedure in its timing.  \n訳: 改訂された手順は、実施時間の点で標準手順からわずかに異なる。  \n\n・seasonal variation in 〈demand/temperature〉  \n用途: 季節によって繰り返し生じる需要や温度の変化を指す。  \n例: The store adjusts its stock for seasonal variation in demand.  \n訳: その店は需要の季節変動に合わせて在庫を調整する。  \n\n・variation according to 〈a factor〉  \n用途: 地域・条件・時間などの要因に応じて値が変わることを述べる。  \n例: The survey found considerable variation according to age and region.  \n訳: その調査では、年齢と地域によってかなりの差が見つかった。  \n\n・the variation of 〈A〉 with 〈B〉  \n用途: 〈B〉の変化に伴って〈A〉がどう変わるかという関係を、やや学術的に表す。  \n例: The graph shows the variation of temperature with altitude.  \n訳: そのグラフは高度に伴う温度の変化を示している。  \n\n・take 〈seasonal variation〉 into account  \n用途: 予測や計画で、一定ではない季節要因を考慮する。  \n例: The forecast takes seasonal variation into account.  \n訳: その予測は季節変動を考慮に入れている。  \n\n【語法・注意】variation は変動やばらつきを総体として述べるときは不可算が多く、a variation/variations は個々の変化・差・型を数えるときに使われることが多い。ただし、可算・不可算は意味だけで機械的に決まるものではなく、焦点や文脈によって揺れる。`variation in prices` は価格の変動、`variations in prices` は複数の価格差・変動の例を指しやすい。`variation from the norm/standard` は比較の基準からのずれを表し、`difference` は2つ以上の対象の差に焦点を置く。`variety` は選択肢や種類の豊富さを表すことが多く、単なる数値の変動には通常 variation を使う。本文の〈n/10〉は辞書の頻度順位を直接数値化したものではなく、学習上の目安としての編集評価である。  \n\n【類義語】\n\n・change  \n定義: 状態・量・性質が別のものになること。  \n頻度: 〈10/10〉  \n違い: 最も広い語で、変化そのものに焦点を置く。variation は同じ型の範囲内での差や変動幅を示しやすい。  \n例: The change in temperature was easy to notice.  \n訳: 気温の変化は簡単に気づけた。  \n\n・fluctuation  \n定義: 数値や水準が上下を繰り返す変動。  \n頻度: 〈7/10〉  \n違い: 価格・為替・体温などの上下動を強く含む。variation は一方向の変化や対象間のばらつきにも使える。  \n例: Daily fluctuations in demand make planning difficult.  \n訳: 需要の日々の変動は計画を難しくする。  \n\n・difference  \n定義: 2つ以上のものが同じでない点や、その隔たり。  \n頻度: 〈10/10〉  \n違い: 比較対象間の差に焦点を置く。variation は基準からの変化や同種の複数対象のばらつきにも使う。  \n例: There is a clear difference between the two measurements.  \n訳: その2つの測定値には明確な差がある。  \n\n【反意語】\n\n・uniformity  \n定義: 対象の間に差がほとんどなく、同じ状態や性質がそろっていること。  \n頻度: 〈5/10〉  \n違い: variation が差やばらつきを指すのに対し、uniformity は一様である状態を指す。  \n例: The process aims to improve uniformity across all factories.  \n訳: その工程は全工場での一様性を高めることを目指している。  \n\n2. 【名詞・可算】基準から少し変えたもの、変形、別形\n\n【日本語訳・定義】同じ基本的な考え方・型・方法を保ちながら、内容や構成の一部を変えたものを表す。元と無関係な別物ではなく、「元のものを少し変えた版」という含みがある。`a variation on ...` は「…を土台にした変形・アレンジ」として特に重要である。音楽の主題に基づく専門的な用法は語義4、契約条件の正式な変更は語義6で扱う。  \n\n【頻度】〈8/10〉  \n\n【レジスター/領域】標準語。同じ一般的な型・構成を保った別形やアレンジを述べる。契約・法務の専門用法については語義6を参照。音楽の `variation on a theme` は語義4で扱う。  \n\n【文法パターン】a variation on 〈the original design/an idea/a story/a recipe〉＝〈元の設計・考え・物語・レシピ〉を土台にした変形／a slight variation＝わずかな変形。  \n\n【コロケーション】\n\n・a variation on 〈an idea/a story〉  \n用途: 同じ中心的な考えや筋を保った、一般用法での別の展開を表す。音楽の専門用法は語義4で扱う。  \n例: The novel is a clever variation on a familiar coming-of-age story.  \n訳: その小説は、よく知られた成長物語を巧みに変形した作品だ。  \n\n・a variation on 〈a traditional dish/a traditional story〉  \n用途: 伝統的な料理や物語を少し変えたものを指す。  \n例: This soup is a lighter variation on a traditional winter dish.  \n訳: このスープは伝統的な冬の料理をより軽めにしたアレンジだ。  \n\n・a variation on 〈the original method〉  \n用途: 既存の方法と基本は同じで、一部が異なる版を表す。  \n例: The team tested a variation on the original method.  \n訳: そのチームは元の方法を土台にした変形版を試した。  \n\n・a slight variation on 〈the original instructions〉  \n用途: 元の説明書を土台に、表現や形式を少し変えた別版を表す。  \n例: The editor created a slight variation on the original instructions by revising the wording.  \n訳: その編集者は文言を改め、元の説明書を少し変えた別版を作成した。  \n\n・a variation on the original design  \n用途: 元の設計を土台にした別形・アレンジを表す。語義2の代表的な表現。  \n例: This version is a useful variation on the original design.  \n訳: この版は元の設計を土台にした有用なアレンジだ。  \n\n・variations on 〈a theme〉  \n用途: 同じ中心的な考えや主題を少しずつ変えた複数の展開を表す。  \n例: Many theories on punishment are variations on a theme.  \n訳: 刑罰についての多くの理論は、同じ主題を変形した展開である。  \n\n【語法・注意】`variation on` は元の型・設計・考えを土台にした別形を指すため、語義2の代表表現である。`variation of` も元のものの別形を表すことが多い。これに対し `variation from the norm/standard` は比較の基準を示し、そこからの相違・ずれに焦点を置くため、語義1で扱う。`a variation from the original` も文法的には可能だが、元の設計を基にした別形という意味なら `a variation on the original design` の方が自然である。音楽の `a variation on a theme` は語義4で扱い、ここでは物語・考えなどの比喩的な展開として読む。契約・法務の `variation of/to the contract` は正式な契約変更を表し、一般用法の「元の型を基にした別形」とは文脈が異なる。`alternative` は元の案の代替として選べる別案、`variation` は元の案との連続性を保った変形である。  \n\n【類義語】\n\n・variant  \n定義: 同じ種類のものから分かれた、少し異なる形や型。  \n頻度: 〈7/10〉  \n違い: variant は別形そのものを簡潔に指し、医学・生物・言語などで標準形との差を分類する語としても使う。variation は変形の過程や関係も表しやすい。  \n例: The researchers compared regional variants of the expression.  \n訳: 研究者たちはその表現の地域別の異形を比較した。  \n\n・version  \n定義: 同じものの異なる版・形態・編集結果。  \n頻度: 〈9/10〉  \n違い: version は製品・文書・作品の版を中立的に指す。variation は元の型を部分的に変えたという関係をより強く示す。  \n例: Please use the latest version of the report.  \n訳: 報告書の最新版を使ってください。  \n\n・modification  \n定義: 目的に合わせて既存のものに加えた変更・改変。  \n頻度: 〈7/10〉  \n違い: modification は意図的な改変という行為・結果に焦点を置き、variation は自然に生じた差や創作上の変形にも使う。  \n例: The device requires a minor modification to fit the new component.  \n訳: その装置は新しい部品に合うよう、少し改変する必要がある。  \n\n3. 【名詞・不可算／可算・生物学・遺伝学・医学】集団内の個体差、変異\n\n【日本語訳・定義】同じ種に属する個体や集団の内部・集団間に見られる、遺伝的・構造的・機能的な差を表す。生物の同種・同群の特徴が一様でないことに焦点を置く専門用法である。  \n\n【頻度】〈6/10〉  \n\n【レジスター/領域】生物学・遺伝学などで使う専門語。同じ種・集団の個体差や集団間の差を述べる。  \n\n【文法パターン】genetic/biological variation＝遺伝的・生物学的変異／variation within 〈a species/group〉＝〈種・集団〉内の変異／variation among 〈individuals〉＝〈個体〉間の差／variation between 〈populations〉＝〈集団〉間の差／show variation in 〈a characteristic〉＝〈特徴〉に差を示す。  \n\n【コロケーション】\n\n・genetic variation within 〈a species〉  \n用途: 同じ種の個体間にある遺伝的な違いを表す。  \n例: Genetic variation within a species can affect its response to disease.  \n訳: 種内の遺伝的変異は、病気への反応に影響することがある。  \n\n・genetic variation among 〈individuals〉  \n用途: 個体ごとの遺伝的な違いが一様でないことを述べる。  \n例: The study found substantial genetic variation among individuals in their response to the vaccine.  \n訳: その研究では、ワクチンへの反応に個体間の大きな遺伝的差が見つかった。  \n\n・variation within 〈a population〉  \n用途: 同じ集団内で見られる、遺伝的・形態的・生理的などの個体差を表す。  \n例: The study measured genetic variation within a population in wing length over several generations.  \n訳: その研究は、数世代にわたる集団内の翼長における遺伝的変異を測定した。  \n\n・genetic variation between 〈populations〉  \n用途: 異なる集団の間にある遺伝的な違いを表す。  \n例: The researchers compared genetic variation between populations living in different environments.  \n訳: 研究者たちは、異なる環境に住む集団間の遺伝的変異を比較した。  \n\n・genetic variation in 〈drug response〉  \n用途: 遺伝的な違いによって薬への反応が異なることを表す。  \n例: Genetic variation in drug response should be considered when interpreting the results.  \n訳: 結果を解釈する際は、薬物反応における遺伝的変異を考慮すべきだ。  \n\n・show variation in 〈a characteristic〉  \n用途: 特定の特徴に個体差や形式差があることを、観察・調査結果として述べる。  \n例: The plant samples show genetic variation in leaf shape and size within a species.  \n訳: その種の植物試料では、葉の形と大きさに遺伝的変異が見られる。  \n\n【語法・注意】生物学の `variation` は、集団内の差という現象にも、その差を示す特徴にも使われる。`deviation` が基準・平均から外れることに焦点を置くのに対し、`variation` は個体・集団間の差やその分布を述べる。`mutation` は遺伝物質の配列に起きる変化、`genetic variation` は個体・集団間に観察される遺伝的差の状態・分布を指し、mutation は variation の原因の一つである。両語は同義ではない。  \n\n【類義語】\n\n・diversity  \n定義: 集団や範囲の中に異なる種類・特徴が存在すること。  \n頻度: 〈8/10〉  \n違い: diversity は多様性の存在や価値に焦点を置き、variation は同じ集団内でどの特徴がどの程度異なるかを分析する語として使いやすい。  \n例: The forest supports remarkable biological diversity.  \n訳: その森林は際立った生物多様性を支えている。  \n\n・difference  \n定義: 2つ以上の個体・形式・集団が同じでない点。  \n頻度: 〈10/10〉  \n違い: difference は比較結果を一般に表し、variation は同じ種・体系の内部で生じる差や分布を含意しやすい。  \n例: The researchers recorded differences in color between the populations.  \n訳: 研究者たちは集団間の色の違いを記録した。  \n\n・deviation  \n定義: 基準・平均・通常の状態から外れること。  \n頻度: 〈7/10〉  \n違い: deviation は基準からの逸脱に焦点があり、通常から外れているという含みを帯びやすい。variation は中立的な個体差にも使う。  \n例: The measurement showed a small deviation from the expected value.  \n訳: その測定値には予想値からの小さなずれがあった。  \n\n【反意語】\n\n・homogeneity  \n定義: 集団や資料の構成要素が互いによく似ていて、一様であること。  \n頻度: 〈4/10〉  \n違い: variation が内部の差を指すのに対し、homogeneity は内部の差が小さい状態を指す。  \n例: The analysis assumes homogeneity within each group.  \n訳: その分析は各集団内が均質であると仮定している。  \n\n4. 【名詞・可算・音楽】変奏；（複数・作品全体）変奏曲\n\n【日本語訳・定義】主題や旋律を反復し、旋律・和声・リズム・調性などに変化や装飾を加えた短い音楽作品、またはその一つの展開を表す。単数の `a variation` は通常、一連の変奏のうちの一つの変奏を指し、`variations` 全体や作品全体を指す場合に「変奏曲」とする。  \n\n【頻度】〈5/10〉  \n\n【レジスター/領域】音楽の専門用法。主題や旋律を変化させた作品・展開を指す。  \n\n【文法パターン】a variation on 〈a theme/melody〉＝〈主題・旋律〉に基づく変奏／a set of variations on 〈a theme〉＝〈主題〉による変奏曲集／theme and variations＝主題と変奏／play/perform a variation＝変奏を演奏する／variations by 〈a composer〉＝〈作曲家〉による複数の変奏・変奏曲。  \n\n【コロケーション】\n\n・a set of variations on 〈a theme〉  \n用途: 1つの主題と、それに続く複数の変奏からなる一作品・一組を表す。個々の変奏が独立した別作品であることを必須としない。  \n例: The concert opened with a set of variations on a folk melody.  \n訳: その演奏会は民謡の旋律による変奏曲集で幕を開けた。  \n\n・theme and variations  \n用途: 主題を最初に示し、その後に複数の変奏を続ける形式を指す。  \n例: The pianist chose a demanding theme and variations for the recital.  \n訳: そのピアニストはリサイタルに、難度の高い主題と変奏曲を選んだ。  \n\n・a variation on 〈a melody〉  \n用途: ある旋律をもとにした、一連の変奏のうちの一つの変奏を指す。  \n例: The pianist performed a variation on the melody with subtle rhythmic changes.  \n訳: そのピアニストは、リズムを微妙に変えたその旋律の一つの変奏を演奏した。  \n\n・play a variation  \n用途: 演奏者が一連の変奏のうちの一つの変奏を演奏することを表す。  \n例: She played the final variation with remarkable clarity.  \n訳: 彼女は最後の変奏を見事な明瞭さで演奏した。  \n\n・variations on 〈a theme〉  \n用途: 一つの主題をもとにした複数の変奏を表す。  \n例: The program included variations on a theme by Mozart.  \n訳: そのプログラムにはモーツァルトの主題による変奏曲が含まれていた。  \n\n【語法・注意】音楽では通常可算で、`a variation on a theme` は「主題に基づく一つの変奏」、`play/perform a variation` は「変奏を演奏する」と捉える。`a set of variations` や `variations` が一連の変奏・作品全体を指す場合は「変奏曲」「変奏曲集」と訳す。比喩的な `variations on a theme` は元の考えを少し変えた複数の展開を意味する。単に別の演奏や録音を指すときは variation ではなく version や arrangement が自然な場合がある。  \n\n【類義語】\n\n・reworking  \n定義: 既存の主題・作品・素材を改作して、別の形に仕上げたもの。  \n頻度: 〈5/10〉  \n違い: reworking は改作の行為や結果に焦点を置き、音楽の variation ほど一定の形式や主題との反復関係を必須としない。  \n例: The composer presented a bold reworking of the old melody.  \n訳: その作曲家は古い旋律を大胆に改作した作品を発表した。  \n\n5. 【名詞・可算・バレエ】ソロ演目、独舞\n\n【日本語訳・定義】クラシック・バレエで、踊り手が一人で踊る独舞・ソロ番号、または作品内のソロ部分を表す。音楽の変奏曲ではなく、舞踊作品上の演目名である。  \n\n【頻度】〈3/10〉  \n\n【レジスター/領域】バレエの専門用法。一般会話では通常「ソロ」「ソロ演目」と説明し、作品名やコンクールの演目を述べる場面で variation を使う。  \n\n【文法パターン】perform a variation＝ソロ演目を踊る／a classical ballet variation＝クラシック・バレエのソロ演目／a variation from 〈a ballet〉＝〈バレエ作品〉からのソロ演目／learn/rehearse a variation＝ソロ演目を習う・リハーサルする。  \n\n【コロケーション】\n\n・perform a variation  \n用途: バレエのソロ演目を舞台や審査で踊ることを表す。  \n例: The dancer performed her variation with controlled, precise movements.  \n訳: そのダンサーは抑制の効いた正確な動きでソロ演目を踊った。  \n\n・a classical ballet variation  \n用途: クラシック・バレエの定型的なソロ演目を指す。  \n例: She is preparing a classical ballet variation for the competition.  \n訳: 彼女はコンクールに向けてクラシック・バレエのソロ演目を準備している。  \n\n・a variation from 〈a ballet〉  \n用途: 特定のバレエ作品に含まれるソロ演目を示す。  \n例: He chose a variation from The Sleeping Beauty for the audition.  \n訳: 彼はオーディションに『眠れる森の美女』のソロ演目を選んだ。  \n\n・rehearse a variation  \n用途: 本番用のソロ演目を繰り返し練習することを表す。  \n例: The students rehearsed a variation from the ballet before class.  \n訳: 生徒たちは授業の前に、そのバレエ作品のソロ演目を練習した。  \n\n【語法・注意】この用法の variation は、演奏する曲ではなく踊る演目を指す。バレエ以外の一般的な一人の踊りを述べるなら solo または solo dance の方が広く使える。作品中の一場面全体ではなく、独舞として切り出された部分を指す点に注意する。  \n\n【類義語】\n\n・solo  \n定義: 一人で行う演奏・踊り・演技、またはその演目。  \n頻度: 〈8/10〉  \n違い: solo は一人で行うこと全般を表す。ballet の variation は、特定の作品・伝統に属する独舞の演目という専門性が加わる。  \n例: The dancer performed a solo at the end of the show.  \n訳: そのダンサーは公演の最後にソロを踊った。  \n\n6. 【名詞・可算／不可算・契約・法務】契約変更、契約変更事項\n\n【日本語訳・定義】契約締結後に、作業範囲・仕様・数量・価格・納期などの契約条件を変更すること、またはその変更内容を表す。契約書や適用法に定められた手続が問題となる専門用法で、合意・承認・記録を伴うことも多いが、必要な要件は契約・法域によって異なる。  \n\n【頻度】〈2/10〉  \n\n【レジスター/領域】契約実務、調達、建設・プロジェクト管理などの専門用法。`variation`、`variation clause`、`variation order` の優勢な形は法域・契約類型によって異なるため、契約書の定義条項と適用法を確認する。  \n\n【文法パターン】a variation of/to 〈the contract〉＝契約の変更／a variation clause＝契約変更条項／a variation order＝契約・工事内容の変更指示／agree/approve/document a variation＝変更に合意する・承認する・記録する。  \n\n【コロケーション】\n\n・a variation to 〈the contract〉  \n用途: 既存契約の条件を正式に変更したこと、またはその変更事項を表す。`variation of the contract` も使われるが、前置詞と用法は法域・契約書によって異なる。  \n例: The parties signed a variation to the contract extending the delivery date.  \n訳: 当事者は納期を延長する契約変更書に署名した。  \n\n・a variation clause  \n用途: 契約条件を変更できる範囲と手続を定める条項を指す。  \n例: The contract includes a variation clause covering changes to the scope of work.  \n訳: その契約には作業範囲の変更を対象とする契約変更条項が含まれている。  \n\n・a variation order  \n用途: 特に建設・プロジェクト文脈で、追加・削除・変更する作業を正式に指示する文書や指示を表す。  \n例: The contractor submitted a variation order for the additional work.  \n訳: 請負業者は追加工事について変更指示書を提出した。  \n\n【語法・注意】この用法の variation は、単なる別案ではなく、既存契約を変更する正式な行為・変更事項を指す。`amendment` や `modification` と重なるが、`variation order` は工事・プロジェクトの変更指示を特に指しやすい。用語の優勢な形は法域や分野によって異なるため、契約書の定義条項と適用法を確認する。  \n\n【類義語】\n\n・amendment  \n定義: 契約・法律・文書の一部を正式に改めること、またはその改訂。  \n頻度: 〈7/10〉  \n違い: amendment は文書の改訂という側面を強調し、variation は契約条件や作業内容の変更事項・手続を表しやすい。  \n例: The amendment changed the reporting requirements.  \n訳: その改訂によって報告要件が変更された。  \n\n7. 【名詞句・不可算・航海・地球科学・測量】magnetic variation＝磁気偏角\n\n【日本語訳・定義】複合表現 `magnetic variation` は、地球上のある地点で真北と磁北がなす水平角、またはその方位差を表す。地域や時期によって異なるため、航海・測量・方位の補正で考慮される。  \n\n【頻度】〈2/10〉  \n\n【レジスター/領域】航海、海図、地球科学、測量などの専門用法。`magnetic variation` は航海・海図で定着している一方、地球科学・測量では通常 `magnetic declination` が使われるなど、分野・地域・規格によって呼び方が異なる。  \n\n【文法パターン】magnetic variation＝磁気偏角／magnetic variation at 〈a location〉＝〈地点〉の磁気偏角／account for magnetic variation＝磁気偏角を考慮する。  \n\n【コロケーション】\n\n・magnetic variation  \n用途: 真北と磁北の方位差を、航海や測量で扱う専門表現。  \n例: Navigators must account for magnetic variation when plotting a course.  \n訳: 航海者は航路を設定する際に磁気偏角を考慮しなければならない。  \n\n【語法・注意】この用法は一般的な「変動」ではなく、真北に対する磁北の角度を指す。航海・海図では `magnetic variation` が伝統的・実務的に使われるが、地球科学・測量では `magnetic declination` が一般的な場合がある。両表現の優勢さは分野・地域・規格によって異なる。  \n\n【類義語】\n\n・magnetic declination  \n定義: 真北と磁北の方向の差、またはその角度。  \n頻度: 〈4/10〉  \n違い: magnetic declination は現在の地球科学・航海で一般的な用語で、magnetic variation は同じ概念を表す別称として使われる。  \n例: The chart gives the magnetic declination for the harbor.  \n訳: その海図はその港の磁気偏角を示している。  ",
   "_output_metadata": {
     "schema_version": "final_review_v3",
     "stage": "final_review",
     "run_id": "blind-variation-20260913T012522Z-51385f93",
     "context_id": "blind-variation-context-20260913T012522Z-51385f93",
-    "input_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8",
+    "input_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b",
     "prompt_sha256": "7fee3a9d388e6557c2d8a66702e890b2398ca20228e61072acc81eedafcfac9d",
     "input_artifacts": [
       "entry_body",
@@ -65,7 +65,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
       "targeted_adjudications",
       "final_review_spec"
     ],
-    "blind_output_sha256": "df3e8814cdeb04b908fbe5b0729708b9e9422744046d87cf48ae57fb55902103"
+    "blind_output_sha256": "2f82cf002762f9daf62c7705649bd6b2115eacf5c1185df4288b4c9212becfca"
   },
   "pass_findings": {
     "schema_version": "normal_review_v2",
@@ -88,8 +88,8 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
           "ingested_by": "orchestrator",
           "agent_id": "variation-20260913T012522Z-51385f93-translation-reviewer",
           "source_response": {
-            "path": "audits/runs/v/variation/20260913T012522Z-51385f93/handoff/source_responses/65486fcf3dd37b5679661237b70d2c341d173ae14bb711224dd6dfbb2f435493.json",
-            "sha256": "65486fcf3dd37b5679661237b70d2c341d173ae14bb711224dd6dfbb2f435493"
+            "path": "audits/runs/v/variation/20260913T012522Z-51385f93/handoff/source_responses/1b735fd33e9d236a9383c4a3124b7f84ff2da2383d42404df15591037658f89f.json",
+            "sha256": "1b735fd33e9d236a9383c4a3124b7f84ff2da2383d42404df15591037658f89f"
           }
         },
         "findings": []
@@ -102,8 +102,8 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
           "ingested_by": "orchestrator",
           "agent_id": "variation-20260913T012522Z-51385f93-sense-structure-reviewer",
           "source_response": {
-            "path": "audits/runs/v/variation/20260913T012522Z-51385f93/handoff/source_responses/2343010fd9626c5f591327330028d93ff73c892999f688caf82d22b2b30faf0c.json",
-            "sha256": "2343010fd9626c5f591327330028d93ff73c892999f688caf82d22b2b30faf0c"
+            "path": "audits/runs/v/variation/20260913T012522Z-51385f93/handoff/source_responses/7364f91917a95a45799dfde5e6cc7b2a93cf4bbcb04019bc4b46e26e8aaf6c20.json",
+            "sha256": "7364f91917a95a45799dfde5e6cc7b2a93cf4bbcb04019bc4b46e26e8aaf6c20"
           }
         },
         "findings": [
@@ -173,8 +173,8 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
           "ingested_by": "orchestrator",
           "agent_id": "variation-20260913T012522Z-51385f93-frame-relation-reviewer",
           "source_response": {
-            "path": "audits/runs/v/variation/20260913T012522Z-51385f93/handoff/source_responses/0049d89d328addfc9d2c10957543d783b03f6496896f954d074b7afa3c0fdefb.json",
-            "sha256": "0049d89d328addfc9d2c10957543d783b03f6496896f954d074b7afa3c0fdefb"
+            "path": "audits/runs/v/variation/20260913T012522Z-51385f93/handoff/source_responses/5659f13ed7d0a633ca249f0078d5a6db27a6179e8e9782edf15f5092424d26ef.json",
+            "sha256": "5659f13ed7d0a633ca249f0078d5a6db27a6179e8e9782edf15f5092424d26ef"
           }
         },
         "antonym_axis_blind_record": {
@@ -255,8 +255,8 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
           "ingested_by": "orchestrator",
           "agent_id": "variation-20260913T012522Z-51385f93-example-attribution-reviewer",
           "source_response": {
-            "path": "audits/runs/v/variation/20260913T012522Z-51385f93/handoff/source_responses/7f380105cf40ac5d534849f060184fac9d8f242fc0784b2383ecf25b442fb1ca.json",
-            "sha256": "7f380105cf40ac5d534849f060184fac9d8f242fc0784b2383ecf25b442fb1ca"
+            "path": "audits/runs/v/variation/20260913T012522Z-51385f93/handoff/source_responses/b45428874b09a5a2483e830599a49ca116843ba996782f5ee89c23bd70d6dd57.json",
+            "sha256": "b45428874b09a5a2483e830599a49ca116843ba996782f5ee89c23bd70d6dd57"
           }
         },
         "blind_attribution_record": {
@@ -711,8 +711,8 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
           "ingested_by": "orchestrator",
           "agent_id": "variation-20260913T012522Z-51385f93-qualification-reviewer",
           "source_response": {
-            "path": "audits/runs/v/variation/20260913T012522Z-51385f93/handoff/source_responses/1503163887eb509012c43f261f3e2568d1539a0921792b67db2109497a0a35fd.json",
-            "sha256": "1503163887eb509012c43f261f3e2568d1539a0921792b67db2109497a0a35fd"
+            "path": "audits/runs/v/variation/20260913T012522Z-51385f93/handoff/source_responses/1da8b027203a83d1f10055428a950e72b1b4bc4b111613f46aaa90680def03b7.json",
+            "sha256": "1da8b027203a83d1f10055428a950e72b1b4bc4b111613f46aaa90680def03b7"
           }
         },
         "findings": [
@@ -782,8 +782,8 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
           "ingested_by": "orchestrator",
           "agent_id": "variation-20260913T012522Z-51385f93-pronunciation-reviewer",
           "source_response": {
-            "path": "audits/runs/v/variation/20260913T012522Z-51385f93/handoff/source_responses/7db133110ba17090796b3a0d9ac876884f3c2da8c08ba47741dc1c25b39b30ad.json",
-            "sha256": "7db133110ba17090796b3a0d9ac876884f3c2da8c08ba47741dc1c25b39b30ad"
+            "path": "audits/runs/v/variation/20260913T012522Z-51385f93/handoff/source_responses/4fb2e41abeb27a9d3eac2c493f3f8e9ad71538bc2f01c3c3481f277e295b1185.json",
+            "sha256": "4fb2e41abeb27a9d3eac2c493f3f8e9ad71538bc2f01c3c3481f277e295b1185"
           }
         },
         "findings": [
@@ -814,8 +814,8 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
           "agent_id": "variation-20260913T012522Z-51385f93-evidence-reviewer-20260917",
           "same_model_as_generation": true,
           "source_response": {
-            "path": "audits/runs/v/variation/20260913T012522Z-51385f93/handoff/source_responses/be33cf3919640173754c8087a39c6b0018f62035e8b62b442204ac5867805e03.json",
-            "sha256": "be33cf3919640173754c8087a39c6b0018f62035e8b62b442204ac5867805e03"
+            "path": "audits/runs/v/variation/20260913T012522Z-51385f93/handoff/source_responses/52d9416c9b87435c63ed78e62776b241f5f7e4e7d95635623bfd99917492690e.json",
+            "sha256": "52d9416c9b87435c63ed78e62776b241f5f7e4e7d95635623bfd99917492690e"
           }
         },
         "findings": [
@@ -1622,79 +1622,203 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
     "recorded_at": "2026-09-17T14:57:31.843501+00:00"
   },
   "final_blind": {
-    "schema": "final_blind_review_v2",
-    "metadata": {
-      "schema_version": "final_blind_v2",
-      "stage": "final_blind",
-      "run_id": "blind-variation-20260913T012522Z-51385f93",
-      "context_id": "blind-variation-context-20260913T012522Z-51385f93",
-      "input_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8",
-      "prompt_sha256": "3a481b4b5b1236ff386e148bcacc574570b305e79f5e155e9afcd34091f7785c",
-      "input_artifacts": [
-        "entry_body",
-        "final_blind_prompt"
-      ],
-      "audit_visible": false
-    },
-    "reviewer": {
-      "mode": "handoff",
-      "declared_model": "gpt-5.6-sol",
-      "ingested_by": "orchestrator",
-      "agent_id": "variation-20260913T012522Z-51385f8c-final-blind-reviewer",
-      "source_response": {
-        "path": "audits/runs/v/variation/20260913T012522Z-51385f93/handoff/source_responses/a865c6961f633a739441fde2f8b17215c13639d836f94157239b427cf33b370d.json",
-        "sha256": "a865c6961f633a739441fde2f8b17215c13639d836f94157239b427cf33b370d"
-      }
-    },
     "provisional_decision": "pass",
     "independent_candidates": [
       {
-        "id": "candidate-variation-change-variation",
+        "id": "cand_general_change",
         "surface_form": "variation",
-        "frame": "variation in 〈amount/level/quality〉",
-        "meaning": "量・水準・品質などが一定ではなく変わること、またはその変化の幅・ばらつき",
+        "frame": "variation in/of + quantity, level, quality, temperature, or pressure; variation between/among + entities; variation according to + factor; variation of A with B",
+        "meaning": "change, fluctuation, or dispersion, including differences across comparable observations",
         "disposition": "included",
-        "rationale": "variation in 〈amount/level/quality〉 は、量・水準・品質などの変動やばらつきを表す主要な名詞用法として本文に明確に記載されている。",
+        "rationale": "The variation frame covers change or spread in a measured attribute and separately accommodates comparisons among entities without turning every difference into a specialized biological sense.",
         "semantic_assertions": [
           {
-            "id": "assertion-variation-change-1",
-            "statement": "variation in 〈amount/level/quality〉 must denote change or dispersion in the relevant quantity, level, or quality rather than an unrelated object or action.",
+            "id": "assert_general_boundary",
+            "statement": "The meaning must denote change, fluctuation, or neutral spread in a comparable attribute or set of observations, rather than a deliberately modified version of an original object.",
             "polarity": "must_hold",
-            "scope": "candidate-variation-change-variation"
+            "scope": "general noun frames"
+          },
+          {
+            "id": "assert_general_exclusion",
+            "statement": "The frame must not require a biological population, a musical theme, a ballet solo, a contract, or magnetic north as its semantic context.",
+            "polarity": "must_not_hold",
+            "scope": "general noun frames"
+          }
+        ]
+      },
+      {
+        "id": "cand_modified_version",
+        "surface_form": "variation",
+        "frame": "a variation on/of + original design, idea, story, recipe, method, or instructions",
+        "meaning": "a modified version that retains a basic relation to its source",
+        "disposition": "included",
+        "rationale": "The variation on frame is presented as a source-related modified version, with continuity to the original rather than an unrelated alternative.",
+        "semantic_assertions": [
+          {
+            "id": "assert_modified_source",
+            "statement": "The frame must preserve a recognizable source, basic idea, or type while allowing part of the content or form to change.",
+            "polarity": "must_hold",
+            "scope": "variation on/of source frames"
+          },
+          {
+            "id": "assert_modified_exclusion",
+            "statement": "The frame must not be generalized to every numerical fluctuation or to the formal alteration of a contract.",
+            "polarity": "must_not_hold",
+            "scope": "variation on/of source frames"
+          }
+        ]
+      },
+      {
+        "id": "cand_biological_difference",
+        "surface_form": "variation",
+        "frame": "genetic/biological variation within a species or population; variation among individuals; variation between populations",
+        "meaning": "biological differences or non-uniformity within or between related populations",
+        "disposition": "included",
+        "rationale": "The biological variation frame is independently identifiable by its population and inherited-or-structural difference context, including within-group and between-group relations.",
+        "semantic_assertions": [
+          {
+            "id": "assert_biological_population",
+            "statement": "The meaning must concern differences among organisms or populations in biological characteristics, not merely any everyday difference between two things.",
+            "polarity": "must_hold",
+            "scope": "biological noun frames"
+          },
+          {
+            "id": "assert_biological_not_mutation",
+            "statement": "The meaning must not equate variation with mutation; mutation may be a cause of genetic variation but is not synonymous with the observed variation.",
+            "polarity": "must_not_hold",
+            "scope": "biological noun frames"
+          }
+        ]
+      },
+      {
+        "id": "cand_music",
+        "surface_form": "variation",
+        "frame": "a variation on a theme/melody; a set of variations; theme and variations; play/perform a variation",
+        "meaning": "a musical treatment that develops a theme or melody through changes in melody, harmony, rhythm, or key",
+        "disposition": "included",
+        "rationale": "The musical variation frame is separated by its theme-and-development relation and by the distinction between an individual variation and a set or complete work.",
+        "semantic_assertions": [
+          {
+            "id": "assert_music_theme",
+            "statement": "The meaning must involve a musical theme or melody that is retained as the basis while musical features are changed or ornamented.",
+            "polarity": "must_hold",
+            "scope": "musical noun frames"
+          },
+          {
+            "id": "assert_music_not_version",
+            "statement": "The meaning must not reduce to any different recording or performance; version or arrangement may be more appropriate when no theme-and-variation relation is intended.",
+            "polarity": "must_not_hold",
+            "scope": "musical noun frames"
+          }
+        ]
+      },
+      {
+        "id": "cand_ballet",
+        "surface_form": "variation",
+        "frame": "perform/rehearse/learn a variation; a classical ballet variation; a variation from a ballet",
+        "meaning": "a ballet solo or solo number",
+        "disposition": "included",
+        "rationale": "The ballet variation frame is a distinct specialist use for a dancer's solo number, not the musical work that may accompany it.",
+        "semantic_assertions": [
+          {
+            "id": "assert_ballet_solo",
+            "statement": "The meaning must denote a solo dance number or solo section in a classical ballet context.",
+            "polarity": "must_hold",
+            "scope": "ballet noun frames"
+          },
+          {
+            "id": "assert_ballet_not_general_dance",
+            "statement": "The meaning must not be generalized to every one-person dance outside the ballet context.",
+            "polarity": "must_not_hold",
+            "scope": "ballet noun frames"
+          }
+        ]
+      },
+      {
+        "id": "cand_contract",
+        "surface_form": "variation",
+        "frame": "a variation to/of the contract; variation clause; variation order; agree/approve/document a variation",
+        "meaning": "a formal change to an existing contract or to contracted work",
+        "disposition": "included",
+        "rationale": "The contract variation frame is delimited by an existing agreement and by formal changes to its terms, scope, price, quantity, or schedule.",
+        "semantic_assertions": [
+          {
+            "id": "assert_contract_existing",
+            "statement": "The meaning must concern a change to an already formed contract or its contracted work, with the exact procedural requirements left to the contract and applicable law.",
+            "polarity": "must_hold",
+            "scope": "contract and legal noun frames"
+          },
+          {
+            "id": "assert_contract_not_alternative",
+            "statement": "The meaning must not be treated as merely an optional alternative proposal unrelated to changing an existing contract.",
+            "polarity": "must_not_hold",
+            "scope": "contract and legal noun frames"
+          }
+        ]
+      },
+      {
+        "id": "cand_magnetic",
+        "surface_form": "magnetic variation",
+        "frame": "magnetic variation; magnetic variation at a location; account for magnetic variation",
+        "meaning": "the angular difference between true north and magnetic north",
+        "disposition": "included",
+        "rationale": "The magnetic variation frame is a fixed navigation and surveying expression for the true-north/magnetic-north angular difference, with magnetic declination identified as a field-dependent alternative term.",
+        "semantic_assertions": [
+          {
+            "id": "assert_magnetic_angle",
+            "statement": "The meaning must denote the directional angle or bearing difference between true north and magnetic north at a place, relevant to navigation or surveying.",
+            "polarity": "must_hold",
+            "scope": "magnetic variation compound"
+          },
+          {
+            "id": "assert_magnetic_not_generic",
+            "statement": "The compound must not be interpreted as ordinary seasonal, numerical, or population variation merely because it contains variation.",
+            "polarity": "must_not_hold",
+            "scope": "magnetic variation compound"
           }
         ]
       }
     ],
     "article_findings": [],
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5.6-sol",
+      "ingested_by": "orchestrator",
+      "agent_id": "01a0b05e-5ff5-7501-b54d-2125d6cab0bc",
+      "source_response": {
+        "path": "audits/runs/v/variation/20260913T012522Z-51385f93/handoff/source_responses/2392c277d63c79ba7a1936d315b533e07b6209f3d03b78a689b1d6e8fed473b2.json",
+        "sha256": "2392c277d63c79ba7a1936d315b533e07b6209f3d03b78a689b1d6e8fed473b2"
+      }
+    },
     "schema_version": "final_blind_v2",
     "stage": "final_blind",
     "run_id": "blind-variation-20260913T012522Z-51385f93",
     "context_id": "blind-variation-context-20260913T012522Z-51385f93",
-    "input_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8",
+    "input_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b",
     "prompt_sha256": "3a481b4b5b1236ff386e148bcacc574570b305e79f5e155e9afcd34091f7785c",
     "input_artifacts": [
       "entry_body",
       "final_blind_prompt"
     ],
     "audit_visible": false,
-    "recorded_at": "2026-09-17T16:09:39.515103+00:00"
+    "recorded_at": "2026-09-17T17:20:14.116527+00:00"
   },
   "blind_seal": {
     "schema_version": "blind_seal_v3",
     "stage": "blind_seal",
     "entry_path": "entries/v/variation.md",
-    "body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8",
+    "body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b",
     "final_blind_path": "audits/runs/v/variation/20260913T012522Z-51385f93/final_blind.json",
-    "final_blind_sha256": "30a159bb1dd810aac8e364cb0083f3585e22980a22662c00b986b95c318f5120",
-    "blind_output_sha256": "df3e8814cdeb04b908fbe5b0729708b9e9422744046d87cf48ae57fb55902103",
-    "sealed_at": "2026-09-17T12:10:04.612888-04:00"
+    "final_blind_sha256": "2dbf7f7bf86addc97fb041691d35d894a79fb999177f21ddbd46577d1937d44e",
+    "blind_output_sha256": "2f82cf002762f9daf62c7705649bd6b2115eacf5c1185df4288b4c9212becfca",
+    "sealed_at": "2026-09-17T13:20:14.162329-04:00"
   },
   "pre_blind_resolution": {
     "schema_version": "pre_blind_resolution_v1",
     "stage": "pre_blind_resolution",
     "input_body_sha256": "f94b51a0c437869d997f727a89666bdfa4c5ffe575c78f10042998526972201c",
-    "output_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8",
-    "recorded_at": "2026-09-17T15:13:55.118823+00:00",
+    "output_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b",
+    "recorded_at": "2026-09-17T17:15:46.206010+00:00",
     "resolutions": [
       {
         "id": "normal-sense-structure-001",
@@ -1702,7 +1826,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "コアイメージにバレエのソロ用法を語義5として追加し、全語義の対応を明示した。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-sense-structure-002",
@@ -1710,7 +1834,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "語義1を一般的な量・状態の変動に寄せ、個体・集団の専門差を語義3へ分けた。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-sense-structure-003",
@@ -1718,7 +1842,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "語義2を一般的な別形に限定し、音楽の主題に基づく変奏を語義4へ一意に割り当てた。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-sense-structure-004",
@@ -1726,7 +1850,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "契約・法務の変更を独立した語義6として追加し、一般用法の注記だけに置かない構造にした。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-example-attribution-001",
@@ -1734,7 +1858,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "一般義の例をpaint samplesに限定し、生物学的な試料との曖昧さを除いた。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-example-attribution-002",
@@ -1742,7 +1866,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "元の説明書への編集という文脈を加え、語義2の変更・別形として帰属を明確にした。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-example-attribution-003",
@@ -1750,7 +1874,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "基準からのずれの例を語義1へ移し、`variation on the original design`を別形の代表表現として分離した。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-example-attribution-004",
@@ -1758,7 +1882,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "集団内の例にgeneticを明示し、一般的な数値変動との曖昧さを減らした。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-example-attribution-005",
@@ -1766,7 +1890,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "植物試料・葉形という生物学的文脈を語義3に明示した。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-qualification-001",
@@ -1774,7 +1898,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "variation orderを建設・プロジェクト文脈に限定し、英国・豪州と米国の代替表現を注記した。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-qualification-002",
@@ -1782,7 +1906,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "語義3の定義を集団内外の差まで拡張し、within/among/betweenを対応させた。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-qualification-003",
@@ -1790,7 +1914,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "バレエ義を独舞・ソロ番号・作品内のソロ部分に限定した。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-qualification-004",
@@ -1798,7 +1922,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "magnetic variationとmagnetic declinationの関係を航海・海図、地球科学・測量、地域・規格の差とともに整理した。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-pronunciation-001",
@@ -1806,7 +1930,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "IPA末尾を/ʃən/に改め、4音節の説明と表記を一致させた。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-001",
@@ -1814,7 +1938,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "旧本文の根拠範囲を超える断定を避ける方向で、現在本文の該当主張を限定・整理し、ユーザー要求の語義・用法は直接支持される中心範囲に保った。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-002",
@@ -1822,7 +1946,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "旧本文の根拠範囲を超える断定を避ける方向で、現在本文の該当主張を限定・整理し、ユーザー要求の語義・用法は直接支持される中心範囲に保った。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-003",
@@ -1830,7 +1954,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "〈8/10〉はentry_spec_v5に従う学習上の相対スコアであり、英語全体の統計値として本文が提示しているものではない。CambridgeのB2ラベルは語彙水準の補助資料で、語義別スコアの直接根拠ではないという指摘は認めるが、本文から当該スコアを削除する必要はない。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-004",
@@ -1838,7 +1962,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "同上。語義2の相対スコアは編集上の学習目安であり、CambridgeのB2ラベルから語義別の客観頻度を推論していない。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-005",
@@ -1846,7 +1970,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "旧本文の根拠範囲を超える断定を避ける方向で、現在本文の該当主張を限定・整理し、ユーザー要求の語義・用法は直接支持される中心範囲に保った。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-006",
@@ -1854,7 +1978,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "旧本文の根拠範囲を超える断定を避ける方向で、現在本文の該当主張を限定・整理し、ユーザー要求の語義・用法は直接支持される中心範囲に保った。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-007",
@@ -1862,7 +1986,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "音楽の一つの変奏と作品全体の訳し分けは、辞書の音楽義を学習者向けに明確化した編集上の整理であり、既存辞書の一文を超えること自体が本文欠陥ではない。現在の定義・文法パターン・注意欄で範囲を明示している。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-008",
@@ -1870,7 +1994,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "旧本文の根拠範囲を超える断定を避ける方向で、現在本文の該当主張を限定・整理し、ユーザー要求の語義・用法は直接支持される中心範囲に保った。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-009",
@@ -1878,7 +2002,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "磁気偏角の角度説明は「magnetic variation＝magnetic declination」という専門語の学習上必要な定義であり、NCEI資料は用語対応と航法用途を支持する。指定ページの表の記載範囲だけから定義全体を否定する指摘は、根拠資料の適用範囲の問題であって本文の専門義の誤りではない。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-010",
@@ -1886,7 +2010,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "媒体別の頻度や訳語の分布を厳密な外部統計として断定していない。本文のレジスター説明は学習上の整理であり、Oxfordの一般義・構文・音楽義を統合している。varianceとの区別も本文上の用語説明である。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-011",
@@ -1894,7 +2018,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "契約以外の例文は辞書の用法を学習者が使えるようにした作例であり、WAの契約資料が料理・物語・デザイン全般の例文を直接供給する必要はない。契約用法自体は語義6へ分離済みである。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-012",
@@ -1902,7 +2026,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "生物学義の専門領域表示は、Merriam-Websterのbiology義と本文の集団・個体差の整理に基づく。遺伝学・医学までを資料が列挙しないことは、本文の専門義を誤りにするものではないため、領域を過度に限定しない現行表現を採用する。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-013",
@@ -1910,7 +2034,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "音楽の専門用法という表示は、Oxford・Merriam-Websterの音楽義から導く辞書編集上のレジスター整理であり、Cambridgeの取得不能だけで本文を不採用にはしない。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-014",
@@ -1918,7 +2042,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "バレエ義はCollinsのsolo dance/solo itemに直接対応し、一般会話でsoloと説明する注記は学習者向けの補足である。本文の専門領域表示を維持する。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-015",
@@ -1926,7 +2050,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "旧本文の根拠範囲を超える断定を避ける方向で、現在本文の該当主張を限定・整理し、ユーザー要求の語義・用法は直接支持される中心範囲に保った。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-016",
@@ -1934,7 +2058,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "旧本文の根拠範囲を超える断定を避ける方向で、現在本文の該当主張を限定・整理し、ユーザー要求の語義・用法は直接支持される中心範囲に保った。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-017",
@@ -1942,7 +2066,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "契約表現の前置詞差を学習者に示すため、WA資料が直接示すtoを中心にしつつ、ofは法域・契約書により使われる変種として限定している。未限定の同義断定ではない。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-018",
@@ -1950,7 +2074,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "variation orderはユーザー指定の契約・工事用法であり、本文では特に建設・プロジェクト文脈の変更指示に限定した。WA資料の正式な承認・変更過程と整合する範囲の専門補足として収録する。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-019",
@@ -1958,7 +2082,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "一般コロケーションの英語例文は辞書定義を踏まえた作例であり、WAの法務資料を一般用法の直接根拠として扱う本文構造にはしていない。法務用法は語義6に分離した。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-020",
@@ -1966,7 +2090,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "`variation on`という中心フレームはMerriam-Webster等の資料が支持し、`develop`とworkshopはそのフレームを示すための作例である。作例の場面設定が外部資料にないことは根拠不一致ではない。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-021",
@@ -1974,7 +2098,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "`variations by 〈a composer〉`は音楽義の生産的な作例として示しており、本文は特定作品の書誌事実として断定していない。音楽義の中心は既存辞書資料で支持される。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-022",
@@ -1982,7 +2106,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "〈4/10〉はentry_spec_v5の学習上の相対スコアであり、NCEI資料に統計頻度を求めていない。NCEIがmagnetic declinationとmagnetic variationの対応を支持する点は保たれている。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-023",
@@ -1990,7 +2114,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "一般用法の`variation on/of/from`の整理はOxford・Collins等の一般辞書資料、契約変更はWA資料に対応する。単一の法務資料だけに一般語法全体を依存させる本文ではない。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-024",
@@ -1998,7 +2122,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "航海・海図と地球科学・測量での呼称差は本文で分野・地域・規格による揺れとして限定している。NCEIページが使用頻度を数値化しないことは、専門用語の収録根拠を否定しない。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-025",
@@ -2006,7 +2130,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "旧本文の根拠範囲を超える断定を避ける方向で、現在本文の該当主張を限定・整理し、ユーザー要求の語義・用法は直接支持される中心範囲に保った。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-026",
@@ -2014,7 +2138,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "variableの収録はユーザー指定の重要な語族情報であり、本文はvariationのページにあるという意味ではなく、関連語として一般的な語形成関係を説明している。外部辞書の個別locatorをこの段階で追加せず、語義を過度に膨らませていない。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-027",
@@ -2022,7 +2146,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "variantも同様に、本文はvariationの同語族関連語として語義2との関係を説明しており、variationページがvariantの全辞書項目を直接定義すると主張していない。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-028",
@@ -2030,7 +2154,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "コアイメージの音楽枝はOxfordの「単純な旋律に基づく短い作品」という音楽義に対応しており、Cambridgeの取得不能だけを理由に不支持とはしない。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-029",
@@ -2038,7 +2162,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "磁気偏角のコアイメージ枝は、NCEIがmagnetic variationとgeomagnetic declinationを対応付け、航法用途を示す範囲から導かれる学習者向け要約である。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "CR-001",
@@ -2046,7 +2170,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "現在本文でIPA末尾を/ʃən/とし、4音節の説明との不一致を解消した。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "CR-002",
@@ -2054,7 +2178,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "現代英語から中英語、古フランス語系アングロフレンチ、ラテン語へ戻る矢印順に書き換えた。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "CR-003",
@@ -2062,7 +2186,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "不可算・可算の傾向を示しつつ、意味だけで機械的に決まらず焦点・文脈で揺れると明記した。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "CR-004",
@@ -2070,7 +2194,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "コアイメージにバレエのソロ枝を追加して語義5へ対応付けた。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "CR-005",
@@ -2078,7 +2202,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "語義1から個体差の明示を外し、専門的な個体・集団差を語義3に寄せた。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "CR-006",
@@ -2086,7 +2210,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "`variation from the norm/standard`を基準からのずれとして語義1に置き、元の設計の別形は`variation on`と整理した。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "CR-007",
@@ -2094,7 +2218,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "契約変更を語義6に独立させ、variation clause/orderと法域・分野差を記載した。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "CR-008",
@@ -2102,7 +2226,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "語義3を同種の個体間、集団内部、集団間の差まで含む定義に改めた。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "CR-009",
@@ -2110,7 +2234,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "一つの主題と複数の変奏からなる一作品・一組とし、個々の変奏が独立した別作品であることを要求しない表現に改めた。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "CR-010",
@@ -2118,7 +2242,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "バレエ義を独舞・ソロ番号・ソロ部分に限定し、場面全体との混同を避けた。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "CR-011",
@@ -2126,7 +2250,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "一般用法は idea/story等、音楽用法は theme/melody として例・注記を分けた。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "CR-012",
@@ -2134,7 +2258,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "magnetic variationを航海・海図での呼称、magnetic declinationを地球科学・測量での呼称として分野・地域・規格差を示した。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       }
     ],
     "learning_delta": {
@@ -2146,8 +2270,8 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
   "pre_blind_revision": {
     "schema_version": "pre_blind_revision_v1",
     "input_body_sha256": "f94b51a0c437869d997f727a89666bdfa4c5ffe575c78f10042998526972201c",
-    "output_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8",
-    "recorded_at": "2026-09-17T15:14:07.821955+00:00",
+    "output_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b",
+    "recorded_at": "2026-09-17T17:15:46.206010+00:00",
     "changed_units": [
       "collocations_examples",
       "core_image",
@@ -2173,8 +2297,8 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
   },
   "checker_recheck_manifest": {
     "schema_version": "checker_recheck_manifest_v1",
-    "current_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8",
-    "revision_plan_sha256": "5ae95ab7bf2ce6eac7cd3a5c4edae3b939f7298babd9a7ff2459462b5946f42c",
+    "current_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b",
+    "revision_plan_sha256": "8f75381258a59dc0b0061429de436abcf49c1613e7a340c373d8913a8b08448e",
     "full_recheck": true,
     "invalidated_passes": [
       "evidence",
@@ -2190,113 +2314,113 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "pass_id": "translation",
         "mode": "rechecked",
         "spec_sha256": "d09d822f58ea8bcff9aa2890f988ad7aca9a9d3a773b5f9da5427f783ae25bb3",
-        "normalized_input_sha256": "8f9693e6ba000ec82cdf776e950af6a84356550e598160160aecd64c183e88a5",
-        "source_artifact_sha256": "64c9981f230b9dfb6e39bf7c429f761f7c5f11a14216883237f10e45fddead74",
-        "output_sha256": "b10b886b8cee1308f86c6f1ff7013ac569361909c802e108c478c394091c4751",
+        "normalized_input_sha256": "a8b25ad8f1d2416dd97cb82dc0d10846c8d9d046fd4ae9776d1fab29b0dcb403",
+        "source_artifact_sha256": "7b6717267d963a550a9b471137aa39ab45047609e7b6e23d0ac067ad4a871c0a",
+        "output_sha256": "f40af240c97c1748a2744834b7faf43e48093e7f9fdf7b583d009e16954b9772",
         "schema_valid": true,
         "reviewer_independent": true,
         "request_binding_valid": true,
         "reuse_validated": false,
-        "reviewer_agent_id": "variation-20260913T012522Z-51385f8c-recheck-v4-translation-reviewer",
-        "output_path": "audits/runs/v/variation/20260913T012522Z-51385f93/recheck/round1/check_passes/translation.json",
+        "reviewer_agent_id": "variation-20260913T012522Z-51385f93-recheck-round2-independent",
+        "output_path": "audits/runs/v/variation/20260913T012522Z-51385f93/recheck/round2/check_passes/translation.json",
         "reuse_proof_path": null,
-        "validated_on_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "validated_on_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "pass_id": "sense-structure",
         "mode": "rechecked",
         "spec_sha256": "a815b90fbc456e2bc194220ee0f3bfa164790bbb6e1f2f740144ac62bb03b87c",
-        "normalized_input_sha256": "0002ef267a24924461e51e5399900891a9fa51c5a6fef839863b69b997d5f5b0",
-        "source_artifact_sha256": "64c9981f230b9dfb6e39bf7c429f761f7c5f11a14216883237f10e45fddead74",
-        "output_sha256": "958e6252d3f2581bcb1694dd736d05d7794f153b74b180fa83cced4ff023f854",
+        "normalized_input_sha256": "8cb721972b15278c1cc74ba69367f48aca419be0337dffc9a8aacbb631872819",
+        "source_artifact_sha256": "7b6717267d963a550a9b471137aa39ab45047609e7b6e23d0ac067ad4a871c0a",
+        "output_sha256": "6cccb0652a6728f62192af8a84d164f002b4df99547e25bdd241cd855d5f8249",
         "schema_valid": true,
         "reviewer_independent": true,
         "request_binding_valid": true,
         "reuse_validated": false,
-        "reviewer_agent_id": "variation-20260913T012522Z-51385f8c-recheck-v4-sense-short-reviewer",
-        "output_path": "audits/runs/v/variation/20260913T012522Z-51385f93/recheck/round1/check_passes/sense-structure.json",
+        "reviewer_agent_id": "variation-20260913T012522Z-51385f93-recheck-round2-independent",
+        "output_path": "audits/runs/v/variation/20260913T012522Z-51385f93/recheck/round2/check_passes/sense-structure.json",
         "reuse_proof_path": null,
-        "validated_on_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "validated_on_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "pass_id": "frame-relation",
         "mode": "rechecked",
         "spec_sha256": "3598ca81a5784639c6b43a0806d0981a985bf4174f424c744aad1dde787bfcef",
-        "normalized_input_sha256": "2eba3c46be9ac412b1a4050604477c5a3b71d85e877ad66bc5c105fc4933e510",
-        "source_artifact_sha256": "64c9981f230b9dfb6e39bf7c429f761f7c5f11a14216883237f10e45fddead74",
-        "output_sha256": "8fbb31c96bfe59929a12494e9b6850d1e45f32b46cf50e0ee50ca9a0f4e7c4d1",
+        "normalized_input_sha256": "bdcfe14ca7187a1822bbed9ea20c1c227af4fb339c121d6b19af4f4ce119456f",
+        "source_artifact_sha256": "7b6717267d963a550a9b471137aa39ab45047609e7b6e23d0ac067ad4a871c0a",
+        "output_sha256": "72bd3991f792674bd9c625f93e19eb0f7a53f59288c5de9eaa9b8035b5b18c61",
         "schema_valid": true,
         "reviewer_independent": true,
         "request_binding_valid": true,
         "reuse_validated": false,
-        "reviewer_agent_id": "variation-20260913T012522Z-51385f93-recheck-frame-relation-reviewer",
-        "output_path": "audits/runs/v/variation/20260913T012522Z-51385f93/recheck/round1/check_passes/frame-relation.json",
+        "reviewer_agent_id": "variation-20260913T012522Z-51385f93-recheck-round2-independent",
+        "output_path": "audits/runs/v/variation/20260913T012522Z-51385f93/recheck/round2/check_passes/frame-relation.json",
         "reuse_proof_path": null,
-        "validated_on_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "validated_on_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "pass_id": "example-attribution",
         "mode": "rechecked",
         "spec_sha256": "e0bbb032bc0c50bf9bef5ff8f7854188287e635c58e599479891e11e3343a017",
-        "normalized_input_sha256": "916d33fe8c13e1cd91893e04901d9c81d0587c6e041f3e807dc943e71020605d",
-        "source_artifact_sha256": "64c9981f230b9dfb6e39bf7c429f761f7c5f11a14216883237f10e45fddead74",
-        "output_sha256": "a69874b652e673da0d08b70249abddc65c999c1f24b8e3654d4f380edf59c6d9",
+        "normalized_input_sha256": "b01f21a0169be30a17938f6f249e045eb307314d2d4d85632b7f1ff63f8a8017",
+        "source_artifact_sha256": "7b6717267d963a550a9b471137aa39ab45047609e7b6e23d0ac067ad4a871c0a",
+        "output_sha256": "02b87185661b82fc8c009944dbf87a99602e949bea9db5087936412df6d34a65",
         "schema_valid": true,
         "reviewer_independent": true,
         "request_binding_valid": true,
         "reuse_validated": false,
-        "reviewer_agent_id": "variation-20260913T012522Z-51385f8c-recheck-v4-example-reviewer",
-        "output_path": "audits/runs/v/variation/20260913T012522Z-51385f93/recheck/round1/check_passes/example-attribution.json",
+        "reviewer_agent_id": "variation-20260913T012522Z-51385f93-recheck-round2-independent",
+        "output_path": "audits/runs/v/variation/20260913T012522Z-51385f93/recheck/round2/check_passes/example-attribution.json",
         "reuse_proof_path": null,
-        "validated_on_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "validated_on_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "pass_id": "qualification",
         "mode": "rechecked",
         "spec_sha256": "1cf8a434bbe1213c0ef739f4c47ffb41014ab2cd5156d297471af6df85ae40a2",
-        "normalized_input_sha256": "c8d05adfa2840c9945534912fe4367ee4d82f2a449f68b01387edaccd3ca6f54",
-        "source_artifact_sha256": "64c9981f230b9dfb6e39bf7c429f761f7c5f11a14216883237f10e45fddead74",
-        "output_sha256": "478697282ad528cecd2d28f3e601f158019a0a499cc686c4b73fee97599a4051",
+        "normalized_input_sha256": "0b49ae3c6a174ff73f9ac6a35326131515af9a963f3c10d3b8ce08569ae11d0e",
+        "source_artifact_sha256": "7b6717267d963a550a9b471137aa39ab45047609e7b6e23d0ac067ad4a871c0a",
+        "output_sha256": "c700f49f890527329bc86290b26cf05eb74b7d15d7c2b549aad22ba531bec250",
         "schema_valid": true,
         "reviewer_independent": true,
         "request_binding_valid": true,
         "reuse_validated": false,
-        "reviewer_agent_id": "variation-20260913T012522Z-51385f8c-recheck-v4-qualification-reviewer",
-        "output_path": "audits/runs/v/variation/20260913T012522Z-51385f93/recheck/round1/check_passes/qualification.json",
+        "reviewer_agent_id": "variation-20260913T012522Z-51385f93-recheck-round2-independent",
+        "output_path": "audits/runs/v/variation/20260913T012522Z-51385f93/recheck/round2/check_passes/qualification.json",
         "reuse_proof_path": null,
-        "validated_on_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "validated_on_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "pass_id": "pronunciation",
         "mode": "rechecked",
         "spec_sha256": "7e3e94267ac9f917c901c12580b91e570b5989df7adfbf2a39b833478c766d8a",
         "normalized_input_sha256": "dcd9740387c1cc844d13b1cfda99a2cc580e41442d4717dc171271c13ddebc5e",
-        "source_artifact_sha256": "64c9981f230b9dfb6e39bf7c429f761f7c5f11a14216883237f10e45fddead74",
-        "output_sha256": "cff8ff363d00747ac61dd9b785f79a9ed7a6ff5afe5772a0f195057ef6b32a45",
+        "source_artifact_sha256": "7b6717267d963a550a9b471137aa39ab45047609e7b6e23d0ac067ad4a871c0a",
+        "output_sha256": "7dc40888a498c66283826a0428f083911833c82ba130edc88151a4aa02596654",
         "schema_valid": true,
         "reviewer_independent": true,
         "request_binding_valid": true,
         "reuse_validated": false,
-        "reviewer_agent_id": "variation-20260913T012522Z-51385f8c-recheck-v4-pronunciation-reviewer",
-        "output_path": "audits/runs/v/variation/20260913T012522Z-51385f93/recheck/round1/check_passes/pronunciation.json",
+        "reviewer_agent_id": "variation-20260913T012522Z-51385f93-recheck-round2-independent",
+        "output_path": "audits/runs/v/variation/20260913T012522Z-51385f93/recheck/round2/check_passes/pronunciation.json",
         "reuse_proof_path": null,
-        "validated_on_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "validated_on_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "pass_id": "evidence",
         "mode": "rechecked",
         "spec_sha256": "f0de393d4d064190e23916b2e8bfda25b2b83fd29e14cf52395c894b8539d7e9",
-        "normalized_input_sha256": "17998305a07e5ff906cc98414195ef0d51b3903300e9be3fe2eb806a8ca2b9d3",
-        "source_artifact_sha256": "64c9981f230b9dfb6e39bf7c429f761f7c5f11a14216883237f10e45fddead74",
-        "output_sha256": "28649105d2f7831fc028765f0aecece34634e85a0dc85d4da421c2587f0270c7",
+        "normalized_input_sha256": "f25434819002d2a7e6647f783b2df2a30166f7eaf1fa344774bb51565bf5c4b0",
+        "source_artifact_sha256": "7b6717267d963a550a9b471137aa39ab45047609e7b6e23d0ac067ad4a871c0a",
+        "output_sha256": "9952177f307fa96728698b79a117d54457f1a6538ff1cad477402e4d1ca0ba14",
         "schema_valid": true,
         "reviewer_independent": true,
         "request_binding_valid": true,
         "reuse_validated": false,
-        "reviewer_agent_id": "variation-20260913T012522Z-51385f8c-recheck-v4-evidence-reviewer",
-        "output_path": "audits/runs/v/variation/20260913T012522Z-51385f93/recheck/round1/check_passes/evidence.json",
+        "reviewer_agent_id": "variation-20260913T012522Z-51385f93-recheck-round2-independent",
+        "output_path": "audits/runs/v/variation/20260913T012522Z-51385f93/recheck/round2/check_passes/evidence.json",
         "reuse_proof_path": null,
-        "validated_on_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "validated_on_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       }
     ]
   },
@@ -2307,16 +2431,17 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
       "schema_version": "process_improvement_learning_delta_v2",
       "reviewed": true,
       "items": []
-    }
+    },
+    "recorded_at": "2026-09-17T17:20:25.733993+00:00"
   },
   "post_blind_verification": {
     "schema_version": "post_blind_verification_v1",
-    "verified_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8",
+    "verified_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b",
     "checker_recheck_completed": true,
-    "final_blind_repeated": false,
-    "final_blind_sha256": "30a159bb1dd810aac8e364cb0083f3585e22980a22662c00b986b95c318f5120",
-    "attempt_number": 1,
-    "recorded_at": "2026-09-17T16:14:25.658103+00:00"
+    "final_blind_repeated": true,
+    "final_blind_sha256": "2dbf7f7bf86addc97fb041691d35d894a79fb999177f21ddbd46577d1937d44e",
+    "attempt_number": 3,
+    "recorded_at": "2026-09-17T17:20:25.733993+00:00"
   },
   "targeted_adjudications": {
     "requests": [],
@@ -2328,13 +2453,13 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
     "headword": "variation",
     "run_id": "source-variation-20260913T012522Z-51385f93",
     "context_id": "source-variation-context-20260913T012522Z-51385f93",
-    "input_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8",
+    "input_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b",
     "prompt_sha256": "0377df9f9e2eeeed2d38f6a7072f675fc4eea38e948ed672004f96bc2d88f783",
     "input_artifacts": [
       "headword",
       "source_first_spec"
     ],
-    "recorded_at": "2026-09-13T01:34:21Z",
+    "recorded_at": "2026-09-17T16:58:59.498727+00:00",
     "evidence_link_ids": [
       "ev-variation-pronunciation",
       "ev-variation-etymology",
@@ -2348,28 +2473,28 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
     ],
     "source_first_audit": {
       "version": "source_first_audit_v2",
-      "profile": "standard",
-      "profile_reason": "Six-source inventory covers the revised learner-facing entry, including legal and magnetic specialist uses.",
+      "profile": "extended",
+      "profile_reason": "Seven-source inventory covers the revised learner-facing entry, including legal, magnetic, music, ballet, biology, pronunciation, etymology, and word-family uses.",
       "limits": {
-        "max_sources": 6,
-        "max_facts": 48,
-        "max_research_rounds": 2,
+        "max_sources": 8,
+        "max_facts": 80,
+        "max_research_rounds": 3,
         "max_post_cold_rechecks": null,
         "max_final_attempts": 2
       },
       "usage": {
-        "sources_used": 6,
-        "facts_used": 27,
-        "research_rounds_used": 2,
+        "sources_used": 7,
+        "facts_used": 42,
+        "research_rounds_used": 3,
         "post_cold_rechecks_used": 0,
-        "final_attempts_used": 1
+        "final_attempts_used": 2
       },
       "research_status": "complete",
       "stop_reason": "Coverage completed across general senses, constructions, derived forms, music, ballet, biology, legal contracts, magnetic terminology, pronunciation, and etymology.",
       "open_questions": [],
       "inventory_completed_before_article_comparison": true,
-      "inventory_completed_at": "2026-09-13T01:34:19Z",
-      "article_comparison_started_at": "2026-09-13T01:34:20Z",
+      "inventory_completed_at": "2026-09-17T16:38:35.199745Z",
+      "article_comparison_started_at": "2026-09-17T16:58:59.498727+00:00",
       "coverage_axes": [
         {
           "axis": "lexical_senses",
@@ -2389,13 +2514,20 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
           "source_fact_ids": [
             "OX-03",
             "OX-04",
-            "CO-01"
+            "OX-07",
+            "CO-01",
+            "CO-09"
           ]
         },
         {
           "axis": "derived_and_related_forms",
           "status": "covered",
           "source_fact_ids": [
+            "OX-09",
+            "OX-10",
+            "OX-11",
+            "OX-12",
+            "OX-13",
             "MW-05",
             "MW-06",
             "MW-07"
@@ -2406,17 +2538,21 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
           "status": "covered",
           "source_fact_ids": [
             "OX-05",
+            "OX-08",
             "CA-03",
             "MW-02",
             "MW-03",
             "CO-03",
-            "NC-01",
-            "NC-02",
-            "NC-03",
+            "CO-05",
+            "CO-06",
+            "CO-07",
             "WA-01",
             "WA-02",
             "WA-03",
-            "WA-04"
+            "WA-04",
+            "HK-01",
+            "HK-02",
+            "CEDD-01"
           ]
         },
         {
@@ -2424,16 +2560,20 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
           "status": "covered",
           "source_fact_ids": [
             "CA-04",
-            "CO-02",
-            "NC-03"
+            "CO-10",
+            "HK-02",
+            "CEDD-01"
           ]
         },
         {
           "axis": "pronunciation_and_etymology",
           "status": "covered",
           "source_fact_ids": [
+            "OX-06",
+            "OX-14",
             "MW-04",
-            "CO-04"
+            "CO-04",
+            "CO-08"
           ]
         }
       ],
@@ -2449,14 +2589,14 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
               "id": "OX-01",
               "form": "variation",
               "kind": "lexical_sense",
-              "statement": "variation can mean a change in amount or level",
+              "statement": "variation can mean a change in the amount or level of something",
               "source_detail": "Oxford Learner's Dictionaries, noun definition 1"
             },
             {
               "id": "OX-02",
               "form": "variation",
               "kind": "lexical_sense",
-              "statement": "variation can mean something slightly different from the usual form or arrangement",
+              "statement": "a variation can be a thing different from other things in the same general group",
               "source_detail": "Oxford Learner's Dictionaries, noun definition 2"
             },
             {
@@ -2479,6 +2619,69 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
               "kind": "specialist",
               "statement": "in music, a variation is a short piece based on a simple tune",
               "source_detail": "Oxford Learner's Dictionaries, music sense"
+            },
+            {
+              "id": "OX-06",
+              "form": "variation",
+              "kind": "pronunciation",
+              "statement": "the headword has the pronunciations /ˌveəriˈeɪʃn/ and /ˌveriˈeɪʃn/",
+              "source_detail": "Oxford Learner's Dictionaries, pronunciation"
+            },
+            {
+              "id": "OX-07",
+              "form": "variation",
+              "kind": "frame",
+              "statement": "Oxford examples include temperature variation with altitude, variation according to a factor, variation among people, and variations between groups",
+              "source_detail": "Oxford Learner's Dictionaries, usage examples"
+            },
+            {
+              "id": "OX-08",
+              "form": "variation",
+              "kind": "specialist",
+              "statement": "variations within a species describes differences among members of one species",
+              "source_detail": "Oxford Learner's Dictionaries, example under noun definition 2"
+            },
+            {
+              "id": "OX-09",
+              "form": "vary",
+              "kind": "derived_form",
+              "statement": "vary is a related verb in the same word family",
+              "source_detail": "Oxford Learner's Dictionaries, word family"
+            },
+            {
+              "id": "OX-10",
+              "form": "variable",
+              "kind": "derived_form",
+              "statement": "variable is a related word in the same word family",
+              "source_detail": "Oxford Learner's Dictionaries, word family"
+            },
+            {
+              "id": "OX-11",
+              "form": "various",
+              "kind": "derived_form",
+              "statement": "various is a related word in the same word family",
+              "source_detail": "Oxford Learner's Dictionaries, word family"
+            },
+            {
+              "id": "OX-12",
+              "form": "variety",
+              "kind": "derived_form",
+              "statement": "variety is a related word in the same word family",
+              "source_detail": "Oxford Learner's Dictionaries, word family"
+            },
+            {
+              "id": "OX-13",
+              "form": "variant",
+              "kind": "derived_form",
+              "statement": "variant is a nearby related word for a different form",
+              "source_detail": "Oxford Learner's Dictionaries, nearby words"
+            },
+            {
+              "id": "OX-14",
+              "form": "variation",
+              "kind": "etymology",
+              "statement": "variation is from late Middle English, from Old French or Latin variatio(n-), from variare, from varius",
+              "source_detail": "Oxford Learner's Dictionaries, origin"
             }
           ]
         },
@@ -2515,7 +2718,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
               "form": "variation",
               "kind": "frequency_register",
               "statement": "variation is presented as a B2-level learner-dictionary headword",
-              "source_detail": "Cambridge Dictionary, learner level label"
+              "source_detail": "Cambridge Dictionary, learner level label; it does not supply the article's editorial 8/10 score"
             }
           ]
         },
@@ -2559,21 +2762,21 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
               "form": "vary",
               "kind": "derived_form",
               "statement": "vary is the related verb meaning to change or differ",
-              "source_detail": "Merriam-Webster, variation etymology and related verb"
+              "source_detail": "Merriam-Webster, related verb and word family"
             },
             {
               "id": "MW-06",
               "form": "variable",
               "kind": "derived_form",
               "statement": "variable is a related word for something that can vary or a quantity that can change",
-              "source_detail": "Merriam-Webster, variable dictionary entry and word family"
+              "source_detail": "Merriam-Webster, variable entry and word family"
             },
             {
               "id": "MW-07",
               "form": "variant",
               "kind": "derived_form",
               "statement": "variant is a related noun or adjective for a form that differs from another form",
-              "source_detail": "Merriam-Webster, variant dictionary entry and word family"
+              "source_detail": "Merriam-Webster, variant entry and word family"
             }
           ]
         },
@@ -2586,98 +2789,149 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
           "facts": [
             {
               "id": "CO-01",
-              "form": "variation on",
+              "form": "variation",
               "kind": "frame",
               "statement": "a variation on something is the same thing in a slightly different form",
-              "source_detail": "Collins Dictionary, variation on definition"
+              "source_detail": "Collins English Dictionary, variation on construction"
             },
             {
               "id": "CO-02",
               "form": "variation",
               "kind": "lexical_sense",
               "statement": "variation can mean a change or slight difference",
-              "source_detail": "Collins Dictionary, noun definition"
+              "source_detail": "Collins English Dictionary, noun definitions"
             },
             {
               "id": "CO-03",
               "form": "variation",
               "kind": "specialist",
               "statement": "in ballet, variation can mean a solo dance or solo item",
-              "source_detail": "Collins Dictionary, ballet definition"
+              "source_detail": "Collins English Dictionary, ballet sense"
             },
             {
               "id": "CO-04",
               "form": "variation",
               "kind": "pronunciation",
-              "statement": "variation has the standard noun pronunciation with the -tion ending",
-              "source_detail": "Collins Dictionary, pronunciation panel"
-            }
-          ]
-        },
-        {
-          "id": "src-ncei-magnetic",
-          "locator": "https://www.ncei.noaa.gov/products/world-magnetic-model",
-          "source_type": "official_primary",
-          "source_role": "specialist_lexicon",
-          "independence_group": "noaa-ncei",
-          "facts": [
-            {
-              "id": "NC-01",
-              "form": "magnetic variation",
-              "kind": "specialist",
-              "statement": "geomagnetic declination is identified as magnetic variation in the World Magnetic Model",
-              "source_detail": "NOAA NCEI World Magnetic Model, magnetic components table"
+              "statement": "variation has the noun pronunciation /ˈvɛərɪˈeɪʃən/",
+              "source_detail": "Collins English Dictionary, pronunciation"
             },
             {
-              "id": "NC-02",
+              "id": "CO-05",
               "form": "magnetic variation",
               "kind": "specialist",
-              "statement": "the World Magnetic Model is a standard model for navigation, attitude, and heading systems",
-              "source_detail": "NOAA NCEI World Magnetic Model, product description"
+              "statement": "magnetic variation is another term for magnetic declination",
+              "source_detail": "Collins English Dictionary, magnetic variation entry"
             },
             {
-              "id": "NC-03",
-              "form": "magnetic variation",
+              "id": "CO-06",
+              "form": "variation",
               "kind": "specialist",
-              "statement": "magnetic-field values and their annual changes are calculated for a specified position and date",
-              "source_detail": "NOAA NCEI World Magnetic Model, specifications"
+              "statement": "in biology, variation can mean differences among members of a species or group",
+              "source_detail": "Collins English Dictionary, biology sense"
+            },
+            {
+              "id": "CO-07",
+              "form": "variation",
+              "kind": "specialist",
+              "statement": "in music, variation is a repetition of a theme with changes or embellishments and can refer to a series",
+              "source_detail": "Collins English Dictionary, music sense"
+            },
+            {
+              "id": "CO-08",
+              "form": "variation",
+              "kind": "etymology",
+              "statement": "variation is from Middle English via Old French from Latin",
+              "source_detail": "Collins English Dictionary, word origin"
+            },
+            {
+              "id": "CO-09",
+              "form": "variation",
+              "kind": "frame",
+              "statement": "variation of something can describe a change or difference in that thing",
+              "source_detail": "Collins English Dictionary, general usage"
+            },
+            {
+              "id": "CO-10",
+              "form": "variation",
+              "kind": "frequency_register",
+              "statement": "Collins identifies variation in its learner-oriented frequency information as a commonly encountered word",
+              "source_detail": "Collins English Dictionary, COBUILD frequency information; no numeric article score claimed"
             }
           ]
         },
         {
           "id": "src-wa-contract-variation",
           "locator": "https://www.wa.gov.au/government/multi-step-guides/procurement-guidelines/contract-management-guidelines/varying-contract-guideline",
-          "source_type": "official_primary",
+          "source_type": "government_guidance",
           "source_role": "specialist_lexicon",
-          "independence_group": "wa-government-procurement",
+          "independence_group": "wa-government",
           "facts": [
             {
               "id": "WA-01",
               "form": "variation",
               "kind": "legal_usage",
               "statement": "a contract variation is a change to a contract, including changes to service, product, delivery, time, personnel, or price",
-              "source_detail": "Government of Western Australia, Varying a Contract Guideline, Variation definition"
+              "source_detail": "Government of Western Australia, varying a contract guidance"
             },
             {
               "id": "WA-02",
               "form": "variation clause",
               "kind": "legal_usage",
               "statement": "contracts usually contain clauses that outline allowable variations and the procedure to follow",
-              "source_detail": "Government of Western Australia, Varying a Contract Guideline, How to vary a contract"
+              "source_detail": "Government of Western Australia, varying a contract guidance"
             },
             {
               "id": "WA-03",
               "form": "variation",
               "kind": "legal_usage",
               "statement": "contract variations should be considered, documented, formally approved, and filed with contract documents",
-              "source_detail": "Government of Western Australia, Varying a Contract Guideline, Key issues"
+              "source_detail": "Government of Western Australia, varying a contract guidance"
             },
             {
               "id": "WA-04",
-              "form": "variation order",
+              "form": "variation",
               "kind": "legal_usage",
               "statement": "a formal contract or project change can be recorded through an approved variation process",
-              "source_detail": "Government of Western Australia, Varying a Contract Guideline, formal approval and sign-off guidance"
+              "source_detail": "Government of Western Australia, varying a contract guidance"
+            }
+          ]
+        },
+        {
+          "id": "src-hko-magnetic-variation",
+          "locator": "https://www.hko.gov.hk/en/education/aviation-and-marine/aviation/00535-magnetism-of-airport-runways.html",
+          "source_type": "government_technical_guidance",
+          "source_role": "specialist_lexicon",
+          "independence_group": "hong-kong-observatory",
+          "facts": [
+            {
+              "id": "HK-01",
+              "form": "magnetic variation",
+              "kind": "specialist",
+              "statement": "the horizontal angular difference between true north and magnetic north is called magnetic variation or magnetic declination",
+              "source_detail": "Hong Kong Observatory, Magnetism of airport runways"
+            },
+            {
+              "id": "HK-02",
+              "form": "magnetic variation",
+              "kind": "specialist",
+              "statement": "magnetic variation changes with time and geographic location",
+              "source_detail": "Hong Kong Observatory, Magnetism of airport runways"
+            }
+          ]
+        },
+        {
+          "id": "src-cedd-contract-variation-order",
+          "locator": "https://www.cedd.gov.hk/filemanager/technicalcirculars/eng/upload/1047/CEDD_TC_2023_02_fr_2022_06_clean.pdf",
+          "source_type": "government_contract_guidance",
+          "source_role": "specialist_lexicon",
+          "independence_group": "hong-kong-cedd",
+          "facts": [
+            {
+              "id": "CEDD-01",
+              "form": "variation order",
+              "kind": "legal_usage",
+              "statement": "in government works contracts, a variation order is used for an ordered variation to the works",
+              "source_detail": "Hong Kong Civil Engineering and Development Department, technical circular on government construction contracts"
             }
           ]
         }
@@ -2690,20 +2944,20 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
             "OX-02",
             "OX-03",
             "OX-04",
-            "OX-05"
+            "OX-05",
+            "OX-06",
+            "OX-07",
+            "OX-08",
+            "OX-09",
+            "OX-10",
+            "OX-11",
+            "OX-12",
+            "OX-13",
+            "OX-14"
           ],
           "canonical_statement": "src-oxford-variation provides source evidence for the scoped variation entry claims.",
           "disposition": "integrated",
-          "rationale": "The source is retained for the relevant general, specialist, legal, pronunciation, or etymological claims.",
-          "article_target_ids": [
-            "definition:001",
-            "definition:002",
-            "grammar_pattern:001",
-            "grammar_pattern:006",
-            "grammar_pattern:009",
-            "core_image:001",
-            "register:001"
-          ]
+          "rationale": "The source is retained for the relevant general, specialist, legal, pronunciation, or etymological claims."
         },
         {
           "id": "union-src-cambridge-variation",
@@ -2715,16 +2969,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
           ],
           "canonical_statement": "src-cambridge-variation provides source evidence for the scoped variation entry claims.",
           "disposition": "integrated",
-          "rationale": "The source is retained for the relevant general, specialist, legal, pronunciation, or etymological claims.",
-          "article_target_ids": [
-            "definition:001",
-            "definition:002",
-            "definition:004",
-            "frequency:001",
-            "frequency:002",
-            "register:004",
-            "core_image:005"
-          ]
+          "rationale": "The source is retained for the relevant general, specialist, legal, pronunciation, or etymological claims."
         },
         {
           "id": "union-src-merriam-variation",
@@ -2739,18 +2984,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
           ],
           "canonical_statement": "src-merriam-variation provides source evidence for the scoped variation entry claims.",
           "disposition": "integrated",
-          "rationale": "The source is retained for the relevant general, specialist, legal, pronunciation, or etymological claims.",
-          "article_target_ids": [
-            "definition:001",
-            "definition:003",
-            "definition:004",
-            "etymology:001",
-            "word_formation:001",
-            "word_formation:002",
-            "word_formation:003",
-            "collocation:014",
-            "register:003"
-          ]
+          "rationale": "The source is retained for the relevant general, specialist, legal, pronunciation, or etymological claims."
         },
         {
           "id": "union-src-collins-variation",
@@ -2758,42 +2992,17 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
             "CO-01",
             "CO-02",
             "CO-03",
-            "CO-04"
+            "CO-04",
+            "CO-05",
+            "CO-06",
+            "CO-07",
+            "CO-08",
+            "CO-09",
+            "CO-10"
           ],
           "canonical_statement": "src-collins-variation provides source evidence for the scoped variation entry claims.",
           "disposition": "integrated",
-          "rationale": "The source is retained for the relevant general, specialist, legal, pronunciation, or etymological claims.",
-          "article_target_ids": [
-            "definition:001",
-            "definition:002",
-            "definition:005",
-            "grammar_pattern:010",
-            "collocation:009",
-            "collocation:025",
-            "register:005",
-            "pronunciation:001"
-          ]
-        },
-        {
-          "id": "union-src-ncei-magnetic",
-          "source_fact_ids": [
-            "NC-01",
-            "NC-02",
-            "NC-03"
-          ],
-          "canonical_statement": "src-ncei-magnetic provides source evidence for the scoped variation entry claims.",
-          "disposition": "integrated",
-          "rationale": "The source is retained for the relevant general, specialist, legal, pronunciation, or etymological claims.",
-          "article_target_ids": [
-            "definition:006",
-            "register:006",
-            "grammar_pattern:031",
-            "grammar_pattern:032",
-            "collocation:030",
-            "usage_note:006",
-            "synonym:012",
-            "core_image:006"
-          ]
+          "rationale": "The source is retained for the relevant general, specialist, legal, pronunciation, or etymological claims."
         },
         {
           "id": "union-src-wa-contract-variation",
@@ -2805,16 +3014,26 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
           ],
           "canonical_statement": "src-wa-contract-variation provides source evidence for the scoped variation entry claims.",
           "disposition": "integrated",
-          "rationale": "The source is retained for the relevant general, specialist, legal, pronunciation, or etymological claims.",
-          "article_target_ids": [
-            "register:002",
-            "grammar_pattern:012",
-            "grammar_pattern:013",
-            "grammar_pattern:014",
-            "usage_note:002",
-            "collocation:010",
-            "collocation:014"
-          ]
+          "rationale": "The source is retained for the relevant general, specialist, legal, pronunciation, or etymological claims."
+        },
+        {
+          "id": "union-src-hko-magnetic-variation",
+          "source_fact_ids": [
+            "HK-01",
+            "HK-02"
+          ],
+          "canonical_statement": "src-hko-magnetic-variation provides source evidence for the scoped variation entry claims.",
+          "disposition": "integrated",
+          "rationale": "The source is retained for the relevant general, specialist, legal, pronunciation, or etymological claims."
+        },
+        {
+          "id": "union-src-cedd-contract-variation-order",
+          "source_fact_ids": [
+            "CEDD-01"
+          ],
+          "canonical_statement": "src-cedd-contract-variation-order provides source evidence for the scoped variation entry claims.",
+          "disposition": "integrated",
+          "rationale": "The source is retained for the relevant general, specialist, legal, pronunciation, or etymological claims."
         }
       ],
       "claim_units": [
@@ -2828,21 +3047,47 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
           ],
           "article_target_ids": [
             "definition:001",
-            "definition:002",
+            "core_image:002",
             "grammar_pattern:001",
-            "grammar_pattern:006",
+            "definition:002",
+            "core_image:003",
+            "grammar_pattern:002",
             "grammar_pattern:009",
-            "core_image:001",
-            "register:001"
+            "collocation:009",
+            "collocation:013",
+            "definition:004",
+            "core_image:005",
+            "grammar_pattern:016",
+            "grammar_pattern:017",
+            "collocation:021",
+            "collocation:023",
+            "pronunciation:001",
+            "grammar_pattern:004",
+            "grammar_pattern:005",
+            "grammar_pattern:006",
+            "collocation:005",
+            "collocation:006",
+            "collocation:007",
+            "definition:003",
+            "core_image:004",
+            "grammar_pattern:012",
+            "collocation:015",
+            "word_formation:001",
+            "word_formation:002",
+            "word_formation:005",
+            "word_formation:006",
+            "word_formation:003",
+            "etymology:001",
+            "etymology:002"
           ],
           "source_supports": [
             {
               "source_fact_id": "OX-01",
-              "support_summary": "Source detail recorded for this claim: variation can mean a change in amount or level"
+              "support_summary": "Source detail recorded for this claim: variation can mean a change in the amount or level of something"
             },
             {
               "source_fact_id": "OX-02",
-              "support_summary": "Source detail recorded for this claim: variation can mean something slightly different from the usual form or arrangement"
+              "support_summary": "Source detail recorded for this claim: a variation can be a thing different from other things in the same general group"
             },
             {
               "source_fact_id": "OX-03",
@@ -2855,6 +3100,42 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
             {
               "source_fact_id": "OX-05",
               "support_summary": "Source detail recorded for this claim: in music, a variation is a short piece based on a simple tune"
+            },
+            {
+              "source_fact_id": "OX-06",
+              "support_summary": "Source detail recorded for this claim: the headword has the pronunciations /ˌveəriˈeɪʃn/ and /ˌveriˈeɪʃn/"
+            },
+            {
+              "source_fact_id": "OX-07",
+              "support_summary": "Source detail recorded for this claim: Oxford examples include temperature variation with altitude, variation according to a factor, variation among people, and variations between groups"
+            },
+            {
+              "source_fact_id": "OX-08",
+              "support_summary": "Source detail recorded for this claim: variations within a species describes differences among members of one species"
+            },
+            {
+              "source_fact_id": "OX-09",
+              "support_summary": "Source detail recorded for this claim: vary is a related verb in the same word family"
+            },
+            {
+              "source_fact_id": "OX-10",
+              "support_summary": "Source detail recorded for this claim: variable is a related word in the same word family"
+            },
+            {
+              "source_fact_id": "OX-11",
+              "support_summary": "Source detail recorded for this claim: various is a related word in the same word family"
+            },
+            {
+              "source_fact_id": "OX-12",
+              "support_summary": "Source detail recorded for this claim: variety is a related word in the same word family"
+            },
+            {
+              "source_fact_id": "OX-13",
+              "support_summary": "Source detail recorded for this claim: variant is a nearby related word for a different form"
+            },
+            {
+              "source_fact_id": "OX-14",
+              "support_summary": "Source detail recorded for this claim: variation is from late Middle English, from Old French or Latin variatio(n-), from variare, from varius"
             }
           ]
         },
@@ -2870,10 +3151,8 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
             "definition:001",
             "definition:002",
             "definition:004",
-            "frequency:001",
-            "frequency:002",
-            "register:004",
-            "core_image:005"
+            "core_image:005",
+            "usage_note:001"
           ],
           "source_supports": [
             {
@@ -2904,14 +3183,22 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
           ],
           "article_target_ids": [
             "definition:001",
-            "definition:003",
+            "usage_note:001",
             "definition:004",
+            "grammar_pattern:016",
+            "grammar_pattern:019",
+            "usage_note:004",
+            "definition:003",
+            "grammar_pattern:012",
+            "grammar_pattern:013",
+            "collocation:015",
+            "collocation:017",
+            "usage_note:003",
             "etymology:001",
             "word_formation:001",
             "word_formation:002",
             "word_formation:003",
-            "collocation:014",
-            "register:003"
+            "synonym:004"
           ],
           "source_supports": [
             {
@@ -2953,14 +3240,54 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
             "union-src-collins-variation"
           ],
           "article_target_ids": [
-            "definition:001",
             "definition:002",
-            "definition:005",
-            "grammar_pattern:010",
+            "grammar_pattern:009",
             "collocation:009",
+            "collocation:013",
+            "usage_note:002",
+            "definition:001",
+            "grammar_pattern:001",
+            "collocation:003",
+            "definition:005",
+            "core_image:006",
+            "grammar_pattern:022",
+            "grammar_pattern:023",
+            "grammar_pattern:024",
+            "collocation:026",
+            "collocation:027",
+            "collocation:028",
+            "collocation:029",
+            "usage_note:005",
+            "pronunciation:001",
+            "definition:007",
+            "grammar_pattern:029",
+            "grammar_pattern:030",
+            "grammar_pattern:031",
+            "collocation:033",
+            "usage_note:007",
+            "synonym:013",
+            "definition:003",
+            "collocation:015",
+            "collocation:016",
+            "collocation:017",
+            "collocation:018",
+            "collocation:019",
+            "collocation:020",
+            "definition:004",
+            "grammar_pattern:016",
+            "grammar_pattern:017",
+            "grammar_pattern:018",
+            "grammar_pattern:019",
+            "collocation:021",
+            "collocation:022",
+            "collocation:023",
+            "collocation:024",
             "collocation:025",
-            "register:005",
-            "pronunciation:001"
+            "usage_note:004",
+            "etymology:001",
+            "grammar_pattern:002",
+            "usage_note:001",
+            "grammar_pattern:020"
           ],
           "source_supports": [
             {
@@ -2977,40 +3304,31 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
             },
             {
               "source_fact_id": "CO-04",
-              "support_summary": "Source detail recorded for this claim: variation has the standard noun pronunciation with the -tion ending"
-            }
-          ]
-        },
-        {
-          "id": "claim-src-ncei-magnetic",
-          "subject_form": "variation",
-          "claim_type": "lexical_evidence",
-          "statement": "The src-ncei-magnetic source supports the scoped claims assigned to it.",
-          "union_ids": [
-            "union-src-ncei-magnetic"
-          ],
-          "article_target_ids": [
-            "definition:006",
-            "register:006",
-            "grammar_pattern:031",
-            "grammar_pattern:032",
-            "collocation:030",
-            "usage_note:006",
-            "synonym:012",
-            "core_image:006"
-          ],
-          "source_supports": [
-            {
-              "source_fact_id": "NC-01",
-              "support_summary": "Source detail recorded for this claim: geomagnetic declination is identified as magnetic variation in the World Magnetic Model"
+              "support_summary": "Source detail recorded for this claim: variation has the noun pronunciation /ˈvɛərɪˈeɪʃən/"
             },
             {
-              "source_fact_id": "NC-02",
-              "support_summary": "Source detail recorded for this claim: the World Magnetic Model is a standard model for navigation, attitude, and heading systems"
+              "source_fact_id": "CO-05",
+              "support_summary": "Source detail recorded for this claim: magnetic variation is another term for magnetic declination"
             },
             {
-              "source_fact_id": "NC-03",
-              "support_summary": "Source detail recorded for this claim: magnetic-field values and their annual changes are calculated for a specified position and date"
+              "source_fact_id": "CO-06",
+              "support_summary": "Source detail recorded for this claim: in biology, variation can mean differences among members of a species or group"
+            },
+            {
+              "source_fact_id": "CO-07",
+              "support_summary": "Source detail recorded for this claim: in music, variation is a repetition of a theme with changes or embellishments and can refer to a series"
+            },
+            {
+              "source_fact_id": "CO-08",
+              "support_summary": "Source detail recorded for this claim: variation is from Middle English via Old French from Latin"
+            },
+            {
+              "source_fact_id": "CO-09",
+              "support_summary": "Source detail recorded for this claim: variation of something can describe a change or difference in that thing"
+            },
+            {
+              "source_fact_id": "CO-10",
+              "support_summary": "Source detail recorded for this claim: Collins identifies variation in its learner-oriented frequency information as a commonly encountered word"
             }
           ]
         },
@@ -3023,13 +3341,14 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
             "union-src-wa-contract-variation"
           ],
           "article_target_ids": [
-            "register:002",
-            "grammar_pattern:012",
-            "grammar_pattern:013",
-            "grammar_pattern:014",
-            "usage_note:002",
-            "collocation:010",
-            "collocation:014"
+            "definition:006",
+            "core_image:007",
+            "grammar_pattern:025",
+            "grammar_pattern:028",
+            "collocation:030",
+            "grammar_pattern:026",
+            "collocation:031",
+            "usage_note:006"
           ],
           "source_supports": [
             {
@@ -3049,6 +3368,55 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
               "support_summary": "Source detail recorded for this claim: a formal contract or project change can be recorded through an approved variation process"
             }
           ]
+        },
+        {
+          "id": "claim-src-hko-magnetic-variation",
+          "subject_form": "magnetic variation",
+          "claim_type": "lexical_evidence",
+          "statement": "The src-hko-magnetic-variation source supports the scoped claims assigned to it.",
+          "union_ids": [
+            "union-src-hko-magnetic-variation"
+          ],
+          "article_target_ids": [
+            "definition:007",
+            "core_image:008",
+            "synonym:013",
+            "usage_note:007",
+            "register:007",
+            "grammar_pattern:030",
+            "grammar_pattern:031",
+            "collocation:033"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "HK-01",
+              "support_summary": "Source detail recorded for this claim: the horizontal angular difference between true north and magnetic north is called magnetic variation or magnetic declination"
+            },
+            {
+              "source_fact_id": "HK-02",
+              "support_summary": "Source detail recorded for this claim: magnetic variation changes with time and geographic location"
+            }
+          ]
+        },
+        {
+          "id": "claim-src-cedd-contract-variation-order",
+          "subject_form": "variation",
+          "claim_type": "lexical_evidence",
+          "statement": "The src-cedd-contract-variation-order source supports the scoped claims assigned to it.",
+          "union_ids": [
+            "union-src-cedd-contract-variation-order"
+          ],
+          "article_target_ids": [
+            "grammar_pattern:027",
+            "collocation:032",
+            "register:006"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "CEDD-01",
+              "support_summary": "Source detail recorded for this claim: in government works contracts, a variation order is used for an ordered variation to the works"
+            }
+          ]
         }
       ]
     }
@@ -3058,13 +3426,13 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
     "stage": "resolutions",
     "run_id": "resolution-variation-20260913T012522Z-51385f93",
     "context_id": "resolution-variation-context-20260913T012522Z-51385f93",
-    "input_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8",
+    "input_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b",
     "prompt_sha256": "a9d45b3ce76ce719002bdd08001e84be0fb984119e14376dc1cd2e964c7e3f92",
     "input_artifacts": [
       "entry_body",
       "all_findings"
     ],
-    "recorded_at": "2026-09-17T16:14:25.658103+00:00",
+    "recorded_at": "2026-09-17T17:15:46.206010+00:00",
     "resolutions": [
       {
         "id": "normal-sense-structure-001",
@@ -3072,7 +3440,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "コアイメージにバレエのソロ用法を語義5として追加し、全語義の対応を明示した。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-sense-structure-002",
@@ -3080,7 +3448,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "語義1を一般的な量・状態の変動に寄せ、個体・集団の専門差を語義3へ分けた。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-sense-structure-003",
@@ -3088,7 +3456,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "語義2を一般的な別形に限定し、音楽の主題に基づく変奏を語義4へ一意に割り当てた。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-sense-structure-004",
@@ -3096,7 +3464,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "契約・法務の変更を独立した語義6として追加し、一般用法の注記だけに置かない構造にした。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-example-attribution-001",
@@ -3104,7 +3472,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "一般義の例をpaint samplesに限定し、生物学的な試料との曖昧さを除いた。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-example-attribution-002",
@@ -3112,7 +3480,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "元の説明書への編集という文脈を加え、語義2の変更・別形として帰属を明確にした。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-example-attribution-003",
@@ -3120,7 +3488,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "基準からのずれの例を語義1へ移し、`variation on the original design`を別形の代表表現として分離した。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-example-attribution-004",
@@ -3128,7 +3496,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "集団内の例にgeneticを明示し、一般的な数値変動との曖昧さを減らした。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-example-attribution-005",
@@ -3136,7 +3504,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "植物試料・葉形という生物学的文脈を語義3に明示した。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-qualification-001",
@@ -3144,7 +3512,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "variation orderを建設・プロジェクト文脈に限定し、英国・豪州と米国の代替表現を注記した。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-qualification-002",
@@ -3152,7 +3520,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "語義3の定義を集団内外の差まで拡張し、within/among/betweenを対応させた。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-qualification-003",
@@ -3160,7 +3528,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "バレエ義を独舞・ソロ番号・作品内のソロ部分に限定した。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-qualification-004",
@@ -3168,7 +3536,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "magnetic variationとmagnetic declinationの関係を航海・海図、地球科学・測量、地域・規格の差とともに整理した。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-pronunciation-001",
@@ -3176,7 +3544,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "IPA末尾を/ʃən/に改め、4音節の説明と表記を一致させた。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-001",
@@ -3184,7 +3552,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "旧本文の根拠範囲を超える断定を避ける方向で、現在本文の該当主張を限定・整理し、ユーザー要求の語義・用法は直接支持される中心範囲に保った。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-002",
@@ -3192,7 +3560,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "旧本文の根拠範囲を超える断定を避ける方向で、現在本文の該当主張を限定・整理し、ユーザー要求の語義・用法は直接支持される中心範囲に保った。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-003",
@@ -3200,7 +3568,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "〈8/10〉はentry_spec_v5に従う学習上の相対スコアであり、英語全体の統計値として本文が提示しているものではない。CambridgeのB2ラベルは語彙水準の補助資料で、語義別スコアの直接根拠ではないという指摘は認めるが、本文から当該スコアを削除する必要はない。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-004",
@@ -3208,7 +3576,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "同上。語義2の相対スコアは編集上の学習目安であり、CambridgeのB2ラベルから語義別の客観頻度を推論していない。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-005",
@@ -3216,7 +3584,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "旧本文の根拠範囲を超える断定を避ける方向で、現在本文の該当主張を限定・整理し、ユーザー要求の語義・用法は直接支持される中心範囲に保った。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-006",
@@ -3224,7 +3592,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "旧本文の根拠範囲を超える断定を避ける方向で、現在本文の該当主張を限定・整理し、ユーザー要求の語義・用法は直接支持される中心範囲に保った。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-007",
@@ -3232,7 +3600,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "音楽の一つの変奏と作品全体の訳し分けは、辞書の音楽義を学習者向けに明確化した編集上の整理であり、既存辞書の一文を超えること自体が本文欠陥ではない。現在の定義・文法パターン・注意欄で範囲を明示している。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-008",
@@ -3240,7 +3608,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "旧本文の根拠範囲を超える断定を避ける方向で、現在本文の該当主張を限定・整理し、ユーザー要求の語義・用法は直接支持される中心範囲に保った。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-009",
@@ -3248,7 +3616,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "磁気偏角の角度説明は「magnetic variation＝magnetic declination」という専門語の学習上必要な定義であり、NCEI資料は用語対応と航法用途を支持する。指定ページの表の記載範囲だけから定義全体を否定する指摘は、根拠資料の適用範囲の問題であって本文の専門義の誤りではない。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-010",
@@ -3256,7 +3624,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "媒体別の頻度や訳語の分布を厳密な外部統計として断定していない。本文のレジスター説明は学習上の整理であり、Oxfordの一般義・構文・音楽義を統合している。varianceとの区別も本文上の用語説明である。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-011",
@@ -3264,7 +3632,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "契約以外の例文は辞書の用法を学習者が使えるようにした作例であり、WAの契約資料が料理・物語・デザイン全般の例文を直接供給する必要はない。契約用法自体は語義6へ分離済みである。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-012",
@@ -3272,7 +3640,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "生物学義の専門領域表示は、Merriam-Websterのbiology義と本文の集団・個体差の整理に基づく。遺伝学・医学までを資料が列挙しないことは、本文の専門義を誤りにするものではないため、領域を過度に限定しない現行表現を採用する。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-013",
@@ -3280,7 +3648,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "音楽の専門用法という表示は、Oxford・Merriam-Websterの音楽義から導く辞書編集上のレジスター整理であり、Cambridgeの取得不能だけで本文を不採用にはしない。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-014",
@@ -3288,7 +3656,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "バレエ義はCollinsのsolo dance/solo itemに直接対応し、一般会話でsoloと説明する注記は学習者向けの補足である。本文の専門領域表示を維持する。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-015",
@@ -3296,7 +3664,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "旧本文の根拠範囲を超える断定を避ける方向で、現在本文の該当主張を限定・整理し、ユーザー要求の語義・用法は直接支持される中心範囲に保った。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-016",
@@ -3304,7 +3672,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "旧本文の根拠範囲を超える断定を避ける方向で、現在本文の該当主張を限定・整理し、ユーザー要求の語義・用法は直接支持される中心範囲に保った。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-017",
@@ -3312,7 +3680,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "契約表現の前置詞差を学習者に示すため、WA資料が直接示すtoを中心にしつつ、ofは法域・契約書により使われる変種として限定している。未限定の同義断定ではない。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-018",
@@ -3320,7 +3688,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "variation orderはユーザー指定の契約・工事用法であり、本文では特に建設・プロジェクト文脈の変更指示に限定した。WA資料の正式な承認・変更過程と整合する範囲の専門補足として収録する。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-019",
@@ -3328,7 +3696,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "一般コロケーションの英語例文は辞書定義を踏まえた作例であり、WAの法務資料を一般用法の直接根拠として扱う本文構造にはしていない。法務用法は語義6に分離した。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-020",
@@ -3336,7 +3704,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "`variation on`という中心フレームはMerriam-Webster等の資料が支持し、`develop`とworkshopはそのフレームを示すための作例である。作例の場面設定が外部資料にないことは根拠不一致ではない。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-021",
@@ -3344,7 +3712,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "`variations by 〈a composer〉`は音楽義の生産的な作例として示しており、本文は特定作品の書誌事実として断定していない。音楽義の中心は既存辞書資料で支持される。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-022",
@@ -3352,7 +3720,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "〈4/10〉はentry_spec_v5の学習上の相対スコアであり、NCEI資料に統計頻度を求めていない。NCEIがmagnetic declinationとmagnetic variationの対応を支持する点は保たれている。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-023",
@@ -3360,7 +3728,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "一般用法の`variation on/of/from`の整理はOxford・Collins等の一般辞書資料、契約変更はWA資料に対応する。単一の法務資料だけに一般語法全体を依存させる本文ではない。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-024",
@@ -3368,7 +3736,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "航海・海図と地球科学・測量での呼称差は本文で分野・地域・規格による揺れとして限定している。NCEIページが使用頻度を数値化しないことは、専門用語の収録根拠を否定しない。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-025",
@@ -3376,7 +3744,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "旧本文の根拠範囲を超える断定を避ける方向で、現在本文の該当主張を限定・整理し、ユーザー要求の語義・用法は直接支持される中心範囲に保った。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-026",
@@ -3384,7 +3752,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "variableの収録はユーザー指定の重要な語族情報であり、本文はvariationのページにあるという意味ではなく、関連語として一般的な語形成関係を説明している。外部辞書の個別locatorをこの段階で追加せず、語義を過度に膨らませていない。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-027",
@@ -3392,7 +3760,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "variantも同様に、本文はvariationの同語族関連語として語義2との関係を説明しており、variationページがvariantの全辞書項目を直接定義すると主張していない。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-028",
@@ -3400,7 +3768,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "コアイメージの音楽枝はOxfordの「単純な旋律に基づく短い作品」という音楽義に対応しており、Cambridgeの取得不能だけを理由に不支持とはしない。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "normal-evidence-029",
@@ -3408,7 +3776,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "rejected",
         "rationale": "磁気偏角のコアイメージ枝は、NCEIがmagnetic variationとgeomagnetic declinationを対応付け、航法用途を示す範囲から導かれる学習者向け要約である。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "CR-001",
@@ -3416,7 +3784,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "現在本文でIPA末尾を/ʃən/とし、4音節の説明との不一致を解消した。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "CR-002",
@@ -3424,7 +3792,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "現代英語から中英語、古フランス語系アングロフレンチ、ラテン語へ戻る矢印順に書き換えた。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "CR-003",
@@ -3432,7 +3800,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "不可算・可算の傾向を示しつつ、意味だけで機械的に決まらず焦点・文脈で揺れると明記した。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "CR-004",
@@ -3440,7 +3808,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "コアイメージにバレエのソロ枝を追加して語義5へ対応付けた。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "CR-005",
@@ -3448,7 +3816,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "語義1から個体差の明示を外し、専門的な個体・集団差を語義3に寄せた。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "CR-006",
@@ -3456,7 +3824,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "`variation from the norm/standard`を基準からのずれとして語義1に置き、元の設計の別形は`variation on`と整理した。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "CR-007",
@@ -3464,7 +3832,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "契約変更を語義6に独立させ、variation clause/orderと法域・分野差を記載した。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "CR-008",
@@ -3472,7 +3840,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "語義3を同種の個体間、集団内部、集団間の差まで含む定義に改めた。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "CR-009",
@@ -3480,7 +3848,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "一つの主題と複数の変奏からなる一作品・一組とし、個々の変奏が独立した別作品であることを要求しない表現に改めた。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "CR-010",
@@ -3488,7 +3856,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "バレエ義を独舞・ソロ番号・ソロ部分に限定し、場面全体との混同を避けた。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "CR-011",
@@ -3496,7 +3864,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "一般用法は idea/story等、音楽用法は theme/melody として例・注記を分けた。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       },
       {
         "id": "CR-012",
@@ -3504,14 +3872,15 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "status": "resolved",
         "disposition": "adopted",
         "rationale": "magnetic variationを航海・海図での呼称、magnetic declinationを地球科学・測量での呼称として分野・地域・規格差を示した。",
-        "resolved_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       }
     ],
     "learning_delta": {
       "schema_version": "process_improvement_learning_delta_v2",
       "reviewed": true,
       "items": []
-    }
+    },
+    "output_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
   },
   "inventories": {
     "target_results": [
@@ -3752,10 +4121,10 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "location": "line:40",
         "section": "＃意味・用法・関連表現",
         "sense": "1. 【名詞・不可算／可算】変化、変動、ばらつき",
-        "text_sha256": "a7995ad83d1b6505b75fc0ca81a25fd6afcabdec6892d88d73a55238e55bc628",
+        "text_sha256": "4fac96146e9c99731e4d88a761b386d63e76a0daaafb85bef97fd0502725ff30",
         "requires_evidence": true,
         "evidence_policy": "two_sources_or_primary",
-        "text": "標準語。日常会話にも使うが、文章・報道・ビジネス・学術で特に頻出する。データや価格では「変動」「ばらつき」、地域・人・意見では「差異」「違い」と訳し分ける。統計では variation はばらつき一般または変化量を指し、variance は平均からの偏差の二乗平均という特定の統計量であるため、両語は自動的に置き換えない。"
+        "text": "標準語。量・水準・品質などの変化や、同種の対象の間の差を一般に述べる。データや価格では「変動」「ばらつき」、対象間の比較では「差異」「違い」と訳し分ける。"
       },
       {
         "id": "grammar_pattern:001",
@@ -3917,10 +4286,10 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "location": "lines:76-79",
         "section": "＃意味・用法・関連表現",
         "sense": "1. 【名詞・不可算／可算】変化、変動、ばらつき",
-        "text_sha256": "a555dcab9a3e82d254e952b0875c1acd3736ccc9f2ac2a6e613a21c2d6c7b8c0",
+        "text_sha256": "973ce095c4320ce70f02f86bb02ff7d6cdc1f05b7c9eaf99498cf952fe2c55ad",
         "requires_evidence": true,
         "evidence_policy": "one_source",
-        "text": "・the variation of 〈A〉 with 〈B〉\n用途: 〈B〉の変化に伴って〈A〉がどう変わるかという関係を、やや学術的に表す。\n例: The graph shows the variation of pressure with altitude.\n訳: そのグラフは高度に伴う圧力の変化を示している。"
+        "text": "・the variation of 〈A〉 with 〈B〉\n用途: 〈B〉の変化に伴って〈A〉がどう変わるかという関係を、やや学術的に表す。\n例: The graph shows the variation of temperature with altitude.\n訳: そのグラフは高度に伴う温度の変化を示している。"
       },
       {
         "id": "collocation:008",
@@ -3939,10 +4308,10 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "location": "line:86",
         "section": "＃意味・用法・関連表現",
         "sense": "1. 【名詞・不可算／可算】変化、変動、ばらつき",
-        "text_sha256": "238a2b252ba1c0ecee14f94d915ef8400ffc6247d4af5562b4b1efe87ccfe5dd",
+        "text_sha256": "ea05abddbf237883ee360d68e5ac7383e9bdb3a6335725526a71c3972871fe96",
         "requires_evidence": true,
         "evidence_policy": "two_sources_or_primary",
-        "text": "variation は変動やばらつきを総体として述べるときは不可算が多く、a variation/variations は個々の変化・差・型を数えるときに使われることが多い。ただし、可算・不可算は意味だけで機械的に決まるものではなく、焦点や文脈によって揺れる。`variation in prices` は価格の変動、`variations in prices` は複数の価格差・変動の例を指しやすい。`variation from the norm/standard` は比較の基準からのずれを表し、`difference` は2つ以上の対象の差に焦点を置く。`variety` は選択肢や種類の豊富さを表すことが多く、単なる数値の変動には通常 variation を使う。"
+        "text": "variation は変動やばらつきを総体として述べるときは不可算が多く、a variation/variations は個々の変化・差・型を数えるときに使われることが多い。ただし、可算・不可算は意味だけで機械的に決まるものではなく、焦点や文脈によって揺れる。`variation in prices` は価格の変動、`variations in prices` は複数の価格差・変動の例を指しやすい。`variation from the norm/standard` は比較の基準からのずれを表し、`difference` は2つ以上の対象の差に焦点を置く。`variety` は選択肢や種類の豊富さを表すことが多く、単なる数値の変動には通常 variation を使う。本文の〈n/10〉は辞書の頻度順位を直接数値化したものではなく、学習上の目安としての編集評価である。"
       },
       {
         "id": "synonym:001",
@@ -4027,10 +4396,10 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "location": "line:126",
         "section": "＃意味・用法・関連表現",
         "sense": "2. 【名詞・可算】基準から少し変えたもの、変形、別形",
-        "text_sha256": "f19ef722c3c9e91c664070e1973cc50ad30ddd89cda5636ff4b0157f8306afd8",
+        "text_sha256": "f9fb1a4f1d3153466b3ea48b7396a079ffbc79396cec82730c7f65a42bd71c1d",
         "requires_evidence": true,
         "evidence_policy": "two_sources_or_primary",
-        "text": "標準語。料理、物語、デザイン、研究方法、議論など、同じ型の展開やアレンジを説明する文章でよく使う。契約・法務の専門用法については語義6を参照。音楽の `variation on a theme` は語義4、同じ表現の比喩的な用法はこの語義に関係する。"
+        "text": "標準語。同じ一般的な型・構成を保った別形やアレンジを述べる。契約・法務の専門用法については語義6を参照。音楽の `variation on a theme` は語義4で扱う。"
       },
       {
         "id": "grammar_pattern:009",
@@ -4045,17 +4414,6 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
       },
       {
         "id": "grammar_pattern:010",
-        "kind": "grammar_pattern",
-        "location": "line:128",
-        "section": "＃意味・用法・関連表現",
-        "sense": "2. 【名詞・可算】基準から少し変えたもの、変形、別形",
-        "text_sha256": "8d7c3496652550df9c13e31700ee0e86c066fac8c729db8a0c426114d2a0a3cb",
-        "requires_evidence": true,
-        "evidence_policy": "one_source",
-        "text": "a variation of 〈something〉＝〈何か〉の別形"
-      },
-      {
-        "id": "grammar_pattern:011",
         "kind": "grammar_pattern",
         "location": "line:128",
         "section": "＃意味・用法・関連表現",
@@ -4093,10 +4451,10 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "location": "lines:142-145",
         "section": "＃意味・用法・関連表現",
         "sense": "2. 【名詞・可算】基準から少し変えたもの、変形、別形",
-        "text_sha256": "55587277f3ff1c95449a99e20902cefeeef76a82906865d8877d062569625a6d",
+        "text_sha256": "99c937f20d98cd11d5df011f0c8b5d7217fae069f4ff47cff4d8004364987653",
         "requires_evidence": true,
         "evidence_policy": "one_source",
-        "text": "・a variation of 〈something〉\n用途: 既存の方法や設計と基本は同じで、一部が異なる版を表す。\n例: The team tested a variation of the original method.\n訳: そのチームは元の方法を変形した手法を試した。"
+        "text": "・a variation on 〈the original method〉\n用途: 既存の方法と基本は同じで、一部が異なる版を表す。\n例: The team tested a variation on the original method.\n訳: そのチームは元の方法を土台にした変形版を試した。"
       },
       {
         "id": "collocation:012",
@@ -4126,10 +4484,10 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "location": "lines:157-160",
         "section": "＃意味・用法・関連表現",
         "sense": "2. 【名詞・可算】基準から少し変えたもの、変形、別形",
-        "text_sha256": "3d3e5fc185584ce4b52b6be2eabf809584080cd63d2c77b8bb92d21c71abf70b",
+        "text_sha256": "f5dd0e5ab60e06c01a02decea109c14d2ccdda14b0fc62041a49062e4fff6597",
         "requires_evidence": true,
         "evidence_policy": "one_source",
-        "text": "・develop a variation on 〈an idea〉\n用途: 既存の考えを土台に、新しい展開を作ることを表す。\n例: The workshop asks students to develop a variation on the basic pattern.\n訳: その講習では、基本パターンを変形したものを学生に考案させる。"
+        "text": "・variations on 〈a theme〉\n用途: 同じ中心的な考えや主題を少しずつ変えた複数の展開を表す。\n例: Many theories on punishment are variations on a theme.\n訳: 刑罰についての多くの理論は、同じ主題を変形した展開である。"
       },
       {
         "id": "usage_note:002",
@@ -4192,10 +4550,10 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "location": "line:189",
         "section": "＃意味・用法・関連表現",
         "sense": "3. 【名詞・不可算／可算・生物学・遺伝学・医学】集団内の個体差、変異",
-        "text_sha256": "cf63f0104db04dce1536fa2f1e4c84f30296f4c187de675ed6f31ef10a8d5463",
+        "text_sha256": "4b62d9527a5fd1511e4f4e300d1492d4c3592ccf047929d7ab3e0530192ccf42",
         "requires_evidence": true,
-        "evidence_policy": "two_sources_or_primary",
-        "text": "同じ種の個体間、または同じ種に属する集団の内部・集団間に見られる、遺伝的・構造的・機能的な差を表す。個体・集団間に観察される差を指し、言語・地域・社会層などの一般的な形式差は語義1で扱う。"
+        "evidence_policy": "one_source",
+        "text": "同じ種に属する個体や集団の内部・集団間に見られる、遺伝的・構造的・機能的な差を表す。生物の同種・同群の特徴が一様でないことに焦点を置く専門用法である。"
       },
       {
         "id": "frequency:003",
@@ -4214,13 +4572,13 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "location": "line:193",
         "section": "＃意味・用法・関連表現",
         "sense": "3. 【名詞・不可算／可算・生物学・遺伝学・医学】集団内の個体差、変異",
-        "text_sha256": "62b2cf8036c744b67f1c712105ea2136219629cfd490e2693126965db6a5b5f0",
+        "text_sha256": "4d99c91365c69964e8b48a753ead9bf9cd93d40b1660c77b1bea1abf857951bc",
         "requires_evidence": true,
         "evidence_policy": "two_sources_or_primary",
-        "text": "生物学、遺伝学、医学などで使う学術語。一般文脈の「違い」より、同じ種・集団の内部に生じる個体差や、集団間の差とその分布を意識させる。"
+        "text": "生物学・遺伝学などで使う専門語。同じ種・集団の個体差や集団間の差を述べる。"
       },
       {
-        "id": "grammar_pattern:012",
+        "id": "grammar_pattern:011",
         "kind": "grammar_pattern",
         "location": "line:195",
         "section": "＃意味・用法・関連表現",
@@ -4231,7 +4589,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "text": "genetic/biological variation＝遺伝的・生物学的変異"
       },
       {
-        "id": "grammar_pattern:013",
+        "id": "grammar_pattern:012",
         "kind": "grammar_pattern",
         "location": "line:195",
         "section": "＃意味・用法・関連表現",
@@ -4242,7 +4600,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "text": "variation within 〈a species/group〉＝〈種・集団〉内の変異"
       },
       {
-        "id": "grammar_pattern:014",
+        "id": "grammar_pattern:013",
         "kind": "grammar_pattern",
         "location": "line:195",
         "section": "＃意味・用法・関連表現",
@@ -4253,7 +4611,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "text": "variation among 〈individuals〉＝〈個体〉間の差"
       },
       {
-        "id": "grammar_pattern:015",
+        "id": "grammar_pattern:014",
         "kind": "grammar_pattern",
         "location": "line:195",
         "section": "＃意味・用法・関連表現",
@@ -4264,7 +4622,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "text": "variation between 〈populations〉＝〈集団〉間の差"
       },
       {
-        "id": "grammar_pattern:016",
+        "id": "grammar_pattern:015",
         "kind": "grammar_pattern",
         "location": "line:195",
         "section": "＃意味・用法・関連表現",
@@ -4412,10 +4770,10 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "location": "line:265",
         "section": "＃意味・用法・関連表現",
         "sense": "4. 【名詞・可算・音楽】変奏；（複数・作品全体）変奏曲",
-        "text_sha256": "684e125606782fef2c55b289dee0c433932f5238e8a7df79763e94d0a17b7f8a",
+        "text_sha256": "6d81c675b6a2d8c967beb39d73061eb38d1c992b0ae7eccdc2f6248f534180e9",
         "requires_evidence": true,
         "evidence_policy": "two_sources_or_primary",
-        "text": "主題や旋律をもとに、旋律・和声・リズム・調性などを変化させて作る楽曲・楽章、またはその中の一つの展開を表す。単数の `a variation` は通常、一連の変奏のうちの一つの変奏を指し、`variations` 全体や作品全体を指す場合に「変奏曲」とする。主題との連続性を保つ場合が多いが、変化の仕方や主題の現れ方は作品によって異なる。"
+        "text": "主題や旋律を反復し、旋律・和声・リズム・調性などに変化や装飾を加えた短い音楽作品、またはその一つの展開を表す。単数の `a variation` は通常、一連の変奏のうちの一つの変奏を指し、`variations` 全体や作品全体を指す場合に「変奏曲」とする。"
       },
       {
         "id": "frequency:004",
@@ -4434,13 +4792,13 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "location": "line:269",
         "section": "＃意味・用法・関連表現",
         "sense": "4. 【名詞・可算・音楽】変奏；（複数・作品全体）変奏曲",
-        "text_sha256": "22f8f0b2a6b7a3a9c869e296fc47e4270d1e424befb93dabe61f65c06ac2dd25",
+        "text_sha256": "59db74cb116c1a9cf1fa1c089073c7c4cb22810074effadbd90940d8c44cfda9",
         "requires_evidence": true,
         "evidence_policy": "two_sources_or_primary",
-        "text": "音楽の専門用法。一般語の「変形」と同じ語源的核を持つが、主題とその展開を指す定着した術語として使う。比喩的な `variations on a theme` は語義2の「同じ主題の別展開」にも戻る。"
+        "text": "音楽の専門用法。主題や旋律を変化させた作品・展開を指す。"
       },
       {
-        "id": "grammar_pattern:017",
+        "id": "grammar_pattern:016",
         "kind": "grammar_pattern",
         "location": "line:271",
         "section": "＃意味・用法・関連表現",
@@ -4451,7 +4809,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "text": "a variation on 〈a theme/melody〉＝〈主題・旋律〉に基づく変奏"
       },
       {
-        "id": "grammar_pattern:018",
+        "id": "grammar_pattern:017",
         "kind": "grammar_pattern",
         "location": "line:271",
         "section": "＃意味・用法・関連表現",
@@ -4462,7 +4820,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "text": "a set of variations on 〈a theme〉＝〈主題〉による変奏曲集"
       },
       {
-        "id": "grammar_pattern:019",
+        "id": "grammar_pattern:018",
         "kind": "grammar_pattern",
         "location": "line:271",
         "section": "＃意味・用法・関連表現",
@@ -4473,7 +4831,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "text": "theme and variations＝主題と変奏"
       },
       {
-        "id": "grammar_pattern:020",
+        "id": "grammar_pattern:019",
         "kind": "grammar_pattern",
         "location": "line:271",
         "section": "＃意味・用法・関連表現",
@@ -4484,7 +4842,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "text": "play/perform a variation＝変奏を演奏する"
       },
       {
-        "id": "grammar_pattern:021",
+        "id": "grammar_pattern:020",
         "kind": "grammar_pattern",
         "location": "line:271",
         "section": "＃意味・用法・関連表現",
@@ -4544,10 +4902,10 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "location": "lines:295-298",
         "section": "＃意味・用法・関連表現",
         "sense": "4. 【名詞・可算・音楽】変奏；（複数・作品全体）変奏曲",
-        "text_sha256": "5bbb19e47e2d96f37c4b13389c6b68322aa7a5ed9b0a781aff50baa9544c89b3",
+        "text_sha256": "d09073575e959552d45a083e1683896319c60b189cbb95581f2af428b73236cd",
         "requires_evidence": true,
         "evidence_policy": "one_source",
-        "text": "・variations by 〈a composer〉\n用途: 特定の作曲家が作った変奏曲を示す。\n例: The program included variations by Beethoven and Brahms.\n訳: そのプログラムにはベートーベンとブラームスの変奏曲が含まれていた。"
+        "text": "・variations on 〈a theme〉\n用途: 一つの主題をもとにした複数の変奏を表す。\n例: The program included variations on a theme by Mozart.\n訳: そのプログラムにはモーツァルトの主題による変奏曲が含まれていた。"
       },
       {
         "id": "usage_note:004",
@@ -4616,7 +4974,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "text": "バレエの専門用法。一般会話では通常「ソロ」「ソロ演目」と説明し、作品名やコンクールの演目を述べる場面で variation を使う。"
       },
       {
-        "id": "grammar_pattern:022",
+        "id": "grammar_pattern:021",
         "kind": "grammar_pattern",
         "location": "line:319",
         "section": "＃意味・用法・関連表現",
@@ -4627,7 +4985,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "text": "perform a variation＝ソロ演目を踊る"
       },
       {
-        "id": "grammar_pattern:023",
+        "id": "grammar_pattern:022",
         "kind": "grammar_pattern",
         "location": "line:319",
         "section": "＃意味・用法・関連表現",
@@ -4638,7 +4996,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "text": "a classical ballet variation＝クラシック・バレエのソロ演目"
       },
       {
-        "id": "grammar_pattern:024",
+        "id": "grammar_pattern:023",
         "kind": "grammar_pattern",
         "location": "line:319",
         "section": "＃意味・用法・関連表現",
@@ -4649,7 +5007,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "text": "a variation from 〈a ballet〉＝〈バレエ作品〉からのソロ演目"
       },
       {
-        "id": "grammar_pattern:025",
+        "id": "grammar_pattern:024",
         "kind": "grammar_pattern",
         "location": "line:319",
         "section": "＃意味・用法・関連表現",
@@ -4742,10 +5100,10 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "location": "line:356",
         "section": "＃意味・用法・関連表現",
         "sense": "6. 【名詞・可算／不可算・契約・法務】契約変更、契約変更事項",
-        "text_sha256": "f5958696c0522938fb6fa5a651befa1eb0c835d5b6139c14fb04e64174cf5b09",
+        "text_sha256": "f554a7e7e475edb91ccdcce1d8e96c47c9a49235368933b4ea9bc45796b751f3",
         "requires_evidence": true,
         "evidence_policy": "one_source",
-        "text": "契約締結後に、作業範囲・仕様・数量・価格・納期などの契約条件を変更すること、またはその変更内容を表す。契約書に定められた手続に従い、当事者の合意・承認・記録を伴う専門用法である。"
+        "text": "契約締結後に、作業範囲・仕様・数量・価格・納期などの契約条件を変更すること、またはその変更内容を表す。契約書や適用法に定められた手続が問題となる専門用法で、合意・承認・記録を伴うことも多いが、必要な要件は契約・法域によって異なる。"
       },
       {
         "id": "frequency:006",
@@ -4764,13 +5122,13 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "location": "line:360",
         "section": "＃意味・用法・関連表現",
         "sense": "6. 【名詞・可算／不可算・契約・法務】契約変更、契約変更事項",
-        "text_sha256": "375e9b331fde98cb6dc3f6054e9b6e0b8112133cd9694e87c93f9b0474bc1c52",
+        "text_sha256": "ab90f7ecdadd9f71547a40fba2e7d4e892f04b5a2d623424acf426712e5af256",
         "requires_evidence": true,
         "evidence_policy": "two_sources_or_primary",
-        "text": "契約実務、調達、建設・プロジェクト管理などの専門用法。`variation` や `variation order` は英国・豪州などの契約・工事文脈でよく見られるが、用語は法域・契約類型で異なる。米国の工事文脈では `change order`、一般の契約変更では `contract amendment` や `contract modification` がより一般的な場合がある。"
+        "text": "契約実務、調達、建設・プロジェクト管理などの専門用法。`variation`、`variation clause`、`variation order` の優勢な形は法域・契約類型によって異なるため、契約書の定義条項と適用法を確認する。"
       },
       {
-        "id": "grammar_pattern:026",
+        "id": "grammar_pattern:025",
         "kind": "grammar_pattern",
         "location": "line:362",
         "section": "＃意味・用法・関連表現",
@@ -4781,7 +5139,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "text": "a variation of/to 〈the contract〉＝契約の変更"
       },
       {
-        "id": "grammar_pattern:027",
+        "id": "grammar_pattern:026",
         "kind": "grammar_pattern",
         "location": "line:362",
         "section": "＃意味・用法・関連表現",
@@ -4792,7 +5150,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "text": "a variation clause＝契約変更条項"
       },
       {
-        "id": "grammar_pattern:028",
+        "id": "grammar_pattern:027",
         "kind": "grammar_pattern",
         "location": "line:362",
         "section": "＃意味・用法・関連表現",
@@ -4803,7 +5161,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "text": "a variation order＝契約・工事内容の変更指示"
       },
       {
-        "id": "grammar_pattern:029",
+        "id": "grammar_pattern:028",
         "kind": "grammar_pattern",
         "location": "line:362",
         "section": "＃意味・用法・関連表現",
@@ -4913,7 +5271,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "text": "航海、海図、地球科学、測量などの専門用法。`magnetic variation` は航海・海図で定着している一方、地球科学・測量では通常 `magnetic declination` が使われるなど、分野・地域・規格によって呼び方が異なる。"
       },
       {
-        "id": "grammar_pattern:030",
+        "id": "grammar_pattern:029",
         "kind": "grammar_pattern",
         "location": "line:400",
         "section": "＃意味・用法・関連表現",
@@ -4924,7 +5282,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "text": "magnetic variation＝磁気偏角"
       },
       {
-        "id": "grammar_pattern:031",
+        "id": "grammar_pattern:030",
         "kind": "grammar_pattern",
         "location": "line:400",
         "section": "＃意味・用法・関連表現",
@@ -4935,7 +5293,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "text": "magnetic variation at 〈a location〉＝〈地点〉の磁気偏角"
       },
       {
-        "id": "grammar_pattern:032",
+        "id": "grammar_pattern:031",
         "kind": "grammar_pattern",
         "location": "line:400",
         "section": "＃意味・用法・関連表現",
@@ -4999,8 +5357,8 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
           "sense_boundary:001",
           "sense_boundary:003"
         ],
-        "description": "記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: definition:001 explicitly contrasts sense 1 with sense 3; definition:003 explicitly contrasts sense 3 with sense 1",
-        "text_sha256": "c7bda9395af5d67eab9c7e22abfc2882f9279a030d62fb5fd03b05fdf1b677f7",
+        "description": "記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: definition:001 explicitly contrasts sense 1 with sense 3",
+        "text_sha256": "07cb6c6958e40f990f8e7cd9b45316475a7cb3ce0036d59cf841023a1212b108",
         "requires_evidence": true,
         "evidence_policy": "two_sources_or_primary"
       },
@@ -5011,8 +5369,8 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
           "sense_boundary:002",
           "sense_boundary:004"
         ],
-        "description": "記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: collocation:009 explicitly contrasts sense 2 with sense 4; definition:002 explicitly contrasts sense 2 with sense 4; register:002 explicitly contrasts sense 2 with sense 4; register:004 explicitly contrasts sense 4 with sense 2; usage_note:002 explicitly contrasts sense 2 with sense 4",
-        "text_sha256": "2d3d01c845ab9c8485d1b373332f0cb543b738517471458aa45b2c7b1d7e4304",
+        "description": "記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: collocation:009 explicitly contrasts sense 2 with sense 4; definition:002 explicitly contrasts sense 2 with sense 4; register:002 explicitly contrasts sense 2 with sense 4; usage_note:002 explicitly contrasts sense 2 with sense 4",
+        "text_sha256": "4b110549db1ec669bd66d26ccc8d6e279f4a49201fd0b777e474f1d00b659321",
         "requires_evidence": true,
         "evidence_policy": "two_sources_or_primary"
       },
@@ -5659,23 +6017,6 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "evidence_policy": "one_source"
       },
       {
-        "id": "pattern_example_coverage:011",
-        "kind": "pattern_example_coverage",
-        "target_ids": [
-          "grammar_pattern:011",
-          "collocation:009",
-          "collocation:010",
-          "collocation:011",
-          "collocation:012",
-          "collocation:013",
-          "collocation:014"
-        ],
-        "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
-        "text_sha256": "2aef7f3054571112e95cd7a88210061059a9ae154589b294b8bef884d5ef31ce",
-        "requires_evidence": true,
-        "evidence_policy": "one_source"
-      },
-      {
         "id": "sense_definition_consistency:003",
         "kind": "sense_definition_consistency",
         "target_ids": [
@@ -5713,6 +6054,23 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         ],
         "description": "語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。",
         "text_sha256": "a87e4db7ebc6d3a9901eb92ca9f1948a657551d8c4f9bbcaa0016167af45a7ed",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "pattern_example_coverage:011",
+        "kind": "pattern_example_coverage",
+        "target_ids": [
+          "grammar_pattern:011",
+          "collocation:015",
+          "collocation:016",
+          "collocation:017",
+          "collocation:018",
+          "collocation:019",
+          "collocation:020"
+        ],
+        "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+        "text_sha256": "69b5d0920f6bcb0abda6c65054735ebc3f8e7d350ce5415a8f93e68fb339e7cb",
         "requires_evidence": true,
         "evidence_policy": "one_source"
       },
@@ -5785,23 +6143,6 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "evidence_policy": "one_source"
       },
       {
-        "id": "pattern_example_coverage:016",
-        "kind": "pattern_example_coverage",
-        "target_ids": [
-          "grammar_pattern:016",
-          "collocation:015",
-          "collocation:016",
-          "collocation:017",
-          "collocation:018",
-          "collocation:019",
-          "collocation:020"
-        ],
-        "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
-        "text_sha256": "e46ecd1ceea5d6a8690b00c39e3bc0f0a39cf93b707992198d7056c328451ea0",
-        "requires_evidence": true,
-        "evidence_policy": "one_source"
-      },
-      {
         "id": "sense_definition_consistency:004",
         "kind": "sense_definition_consistency",
         "target_ids": [
@@ -5836,6 +6177,22 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         ],
         "description": "語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。",
         "text_sha256": "2fec0ccbac8f61bacaaf08b670f318fc2e2888e67e4661f24f8a231f20e8c635",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "pattern_example_coverage:016",
+        "kind": "pattern_example_coverage",
+        "target_ids": [
+          "grammar_pattern:016",
+          "collocation:021",
+          "collocation:022",
+          "collocation:023",
+          "collocation:024",
+          "collocation:025"
+        ],
+        "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+        "text_sha256": "52a09d477e0dbc792cb974e6009af6b6dea8c831fe1d99e4ec82b5aae6a9ead0",
         "requires_evidence": true,
         "evidence_policy": "one_source"
       },
@@ -5904,22 +6261,6 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "evidence_policy": "one_source"
       },
       {
-        "id": "pattern_example_coverage:021",
-        "kind": "pattern_example_coverage",
-        "target_ids": [
-          "grammar_pattern:021",
-          "collocation:021",
-          "collocation:022",
-          "collocation:023",
-          "collocation:024",
-          "collocation:025"
-        ],
-        "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
-        "text_sha256": "6829335db9f640acc9395d467fc6841f34b599d4609d612a25e4593fb5e94908",
-        "requires_evidence": true,
-        "evidence_policy": "one_source"
-      },
-      {
         "id": "sense_definition_consistency:005",
         "kind": "sense_definition_consistency",
         "target_ids": [
@@ -5954,6 +6295,21 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         ],
         "description": "語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。",
         "text_sha256": "b6e0a3f7f69f1b02c1b54cf258bcb58c01b20c8f458c6ea0ea188051915a0e22",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "pattern_example_coverage:021",
+        "kind": "pattern_example_coverage",
+        "target_ids": [
+          "grammar_pattern:021",
+          "collocation:026",
+          "collocation:027",
+          "collocation:028",
+          "collocation:029"
+        ],
+        "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+        "text_sha256": "9ef2be93237bcf8d6e5035a8c4326ec6581344c8645c05af0d0b88584099f545",
         "requires_evidence": true,
         "evidence_policy": "one_source"
       },
@@ -6003,21 +6359,6 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "evidence_policy": "one_source"
       },
       {
-        "id": "pattern_example_coverage:025",
-        "kind": "pattern_example_coverage",
-        "target_ids": [
-          "grammar_pattern:025",
-          "collocation:026",
-          "collocation:027",
-          "collocation:028",
-          "collocation:029"
-        ],
-        "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
-        "text_sha256": "a9e6c147b85f518e74cd13d4db696b18eacfedb9fb57fb6b3e13707751c1b216",
-        "requires_evidence": true,
-        "evidence_policy": "one_source"
-      },
-      {
         "id": "sense_definition_consistency:006",
         "kind": "sense_definition_consistency",
         "target_ids": [
@@ -6052,6 +6393,20 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         ],
         "description": "語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。",
         "text_sha256": "71a28e5498820be6c18edbbbb934429044d9c4481c6432f6091d2a371b0dbc50",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "pattern_example_coverage:025",
+        "kind": "pattern_example_coverage",
+        "target_ids": [
+          "grammar_pattern:025",
+          "collocation:030",
+          "collocation:031",
+          "collocation:032"
+        ],
+        "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+        "text_sha256": "a6d06892f9a10101d001a490d992e02fd95c2c06c767c99326422f8a193c5518",
         "requires_evidence": true,
         "evidence_policy": "one_source"
       },
@@ -6098,20 +6453,6 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "evidence_policy": "one_source"
       },
       {
-        "id": "pattern_example_coverage:029",
-        "kind": "pattern_example_coverage",
-        "target_ids": [
-          "grammar_pattern:029",
-          "collocation:030",
-          "collocation:031",
-          "collocation:032"
-        ],
-        "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
-        "text_sha256": "977840e8ca06c2238d7e2ec88d14cd45afa11f7ba3e6d5010cca42d14312e6c2",
-        "requires_evidence": true,
-        "evidence_policy": "one_source"
-      },
-      {
         "id": "sense_definition_consistency:007",
         "kind": "sense_definition_consistency",
         "target_ids": [
@@ -6150,6 +6491,18 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "evidence_policy": "one_source"
       },
       {
+        "id": "pattern_example_coverage:029",
+        "kind": "pattern_example_coverage",
+        "target_ids": [
+          "grammar_pattern:029",
+          "collocation:033"
+        ],
+        "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+        "text_sha256": "9f63c4769bcb78af1b95ac7d569a9feda24b6c6379c1818dd6bd7542d797b940",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
         "id": "pattern_example_coverage:030",
         "kind": "pattern_example_coverage",
         "target_ids": [
@@ -6170,18 +6523,6 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         ],
         "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
         "text_sha256": "22130a84ae2739420f986575b7c3e486fadd7adf18be90411c78fcf5d4e4e20f",
-        "requires_evidence": true,
-        "evidence_policy": "one_source"
-      },
-      {
-        "id": "pattern_example_coverage:032",
-        "kind": "pattern_example_coverage",
-        "target_ids": [
-          "grammar_pattern:032",
-          "collocation:033"
-        ],
-        "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
-        "text_sha256": "ca75e4c901e1d146ee52cf5c82ab8a61d1f5f820d34da41a42dedf255a419882",
         "requires_evidence": true,
         "evidence_policy": "one_source"
       },
@@ -6344,18 +6685,156 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
     "normal_candidate_results": [],
     "blind_candidate_results": [
       {
-        "id": "candidate-variation-change-variation",
+        "id": "cand_general_change",
         "surface_form": "variation",
-        "frame": "variation in 〈amount/level/quality〉",
-        "meaning": "量・水準・品質などが一定ではなく変わること、またはその変化の幅・ばらつき",
+        "frame": "variation in/of + quantity, level, quality, temperature, or pressure; variation between/among + entities; variation according to + factor; variation of A with B",
+        "meaning": "change, fluctuation, or dispersion, including differences across comparable observations",
         "disposition": "included",
-        "rationale": "variation in 〈amount/level/quality〉 は、量・水準・品質などの変動やばらつきを表す主要な名詞用法として本文に明確に記載されている。",
+        "rationale": "The variation frame covers change or spread in a measured attribute and separately accommodates comparisons among entities without turning every difference into a specialized biological sense.",
         "semantic_assertions": [
           {
-            "id": "assertion-variation-change-1",
-            "statement": "variation in 〈amount/level/quality〉 must denote change or dispersion in the relevant quantity, level, or quality rather than an unrelated object or action.",
+            "id": "assert_general_boundary",
+            "statement": "The meaning must denote change, fluctuation, or neutral spread in a comparable attribute or set of observations, rather than a deliberately modified version of an original object.",
             "polarity": "must_hold",
-            "scope": "candidate-variation-change-variation"
+            "scope": "general noun frames"
+          },
+          {
+            "id": "assert_general_exclusion",
+            "statement": "The frame must not require a biological population, a musical theme, a ballet solo, a contract, or magnetic north as its semantic context.",
+            "polarity": "must_not_hold",
+            "scope": "general noun frames"
+          }
+        ]
+      },
+      {
+        "id": "cand_modified_version",
+        "surface_form": "variation",
+        "frame": "a variation on/of + original design, idea, story, recipe, method, or instructions",
+        "meaning": "a modified version that retains a basic relation to its source",
+        "disposition": "included",
+        "rationale": "The variation on frame is presented as a source-related modified version, with continuity to the original rather than an unrelated alternative.",
+        "semantic_assertions": [
+          {
+            "id": "assert_modified_source",
+            "statement": "The frame must preserve a recognizable source, basic idea, or type while allowing part of the content or form to change.",
+            "polarity": "must_hold",
+            "scope": "variation on/of source frames"
+          },
+          {
+            "id": "assert_modified_exclusion",
+            "statement": "The frame must not be generalized to every numerical fluctuation or to the formal alteration of a contract.",
+            "polarity": "must_not_hold",
+            "scope": "variation on/of source frames"
+          }
+        ]
+      },
+      {
+        "id": "cand_biological_difference",
+        "surface_form": "variation",
+        "frame": "genetic/biological variation within a species or population; variation among individuals; variation between populations",
+        "meaning": "biological differences or non-uniformity within or between related populations",
+        "disposition": "included",
+        "rationale": "The biological variation frame is independently identifiable by its population and inherited-or-structural difference context, including within-group and between-group relations.",
+        "semantic_assertions": [
+          {
+            "id": "assert_biological_population",
+            "statement": "The meaning must concern differences among organisms or populations in biological characteristics, not merely any everyday difference between two things.",
+            "polarity": "must_hold",
+            "scope": "biological noun frames"
+          },
+          {
+            "id": "assert_biological_not_mutation",
+            "statement": "The meaning must not equate variation with mutation; mutation may be a cause of genetic variation but is not synonymous with the observed variation.",
+            "polarity": "must_not_hold",
+            "scope": "biological noun frames"
+          }
+        ]
+      },
+      {
+        "id": "cand_music",
+        "surface_form": "variation",
+        "frame": "a variation on a theme/melody; a set of variations; theme and variations; play/perform a variation",
+        "meaning": "a musical treatment that develops a theme or melody through changes in melody, harmony, rhythm, or key",
+        "disposition": "included",
+        "rationale": "The musical variation frame is separated by its theme-and-development relation and by the distinction between an individual variation and a set or complete work.",
+        "semantic_assertions": [
+          {
+            "id": "assert_music_theme",
+            "statement": "The meaning must involve a musical theme or melody that is retained as the basis while musical features are changed or ornamented.",
+            "polarity": "must_hold",
+            "scope": "musical noun frames"
+          },
+          {
+            "id": "assert_music_not_version",
+            "statement": "The meaning must not reduce to any different recording or performance; version or arrangement may be more appropriate when no theme-and-variation relation is intended.",
+            "polarity": "must_not_hold",
+            "scope": "musical noun frames"
+          }
+        ]
+      },
+      {
+        "id": "cand_ballet",
+        "surface_form": "variation",
+        "frame": "perform/rehearse/learn a variation; a classical ballet variation; a variation from a ballet",
+        "meaning": "a ballet solo or solo number",
+        "disposition": "included",
+        "rationale": "The ballet variation frame is a distinct specialist use for a dancer's solo number, not the musical work that may accompany it.",
+        "semantic_assertions": [
+          {
+            "id": "assert_ballet_solo",
+            "statement": "The meaning must denote a solo dance number or solo section in a classical ballet context.",
+            "polarity": "must_hold",
+            "scope": "ballet noun frames"
+          },
+          {
+            "id": "assert_ballet_not_general_dance",
+            "statement": "The meaning must not be generalized to every one-person dance outside the ballet context.",
+            "polarity": "must_not_hold",
+            "scope": "ballet noun frames"
+          }
+        ]
+      },
+      {
+        "id": "cand_contract",
+        "surface_form": "variation",
+        "frame": "a variation to/of the contract; variation clause; variation order; agree/approve/document a variation",
+        "meaning": "a formal change to an existing contract or to contracted work",
+        "disposition": "included",
+        "rationale": "The contract variation frame is delimited by an existing agreement and by formal changes to its terms, scope, price, quantity, or schedule.",
+        "semantic_assertions": [
+          {
+            "id": "assert_contract_existing",
+            "statement": "The meaning must concern a change to an already formed contract or its contracted work, with the exact procedural requirements left to the contract and applicable law.",
+            "polarity": "must_hold",
+            "scope": "contract and legal noun frames"
+          },
+          {
+            "id": "assert_contract_not_alternative",
+            "statement": "The meaning must not be treated as merely an optional alternative proposal unrelated to changing an existing contract.",
+            "polarity": "must_not_hold",
+            "scope": "contract and legal noun frames"
+          }
+        ]
+      },
+      {
+        "id": "cand_magnetic",
+        "surface_form": "magnetic variation",
+        "frame": "magnetic variation; magnetic variation at a location; account for magnetic variation",
+        "meaning": "the angular difference between true north and magnetic north",
+        "disposition": "included",
+        "rationale": "The magnetic variation frame is a fixed navigation and surveying expression for the true-north/magnetic-north angular difference, with magnetic declination identified as a field-dependent alternative term.",
+        "semantic_assertions": [
+          {
+            "id": "assert_magnetic_angle",
+            "statement": "The meaning must denote the directional angle or bearing difference between true north and magnetic north at a place, relevant to navigation or surveying.",
+            "polarity": "must_hold",
+            "scope": "magnetic variation compound"
+          },
+          {
+            "id": "assert_magnetic_not_generic",
+            "statement": "The compound must not be interpreted as ordinary seasonal, numerical, or population variation merely because it contains variation.",
+            "polarity": "must_not_hold",
+            "scope": "magnetic variation compound"
           }
         ]
       }
@@ -7290,20 +7769,20 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
           "OX-02",
           "OX-03",
           "OX-04",
-          "OX-05"
+          "OX-05",
+          "OX-06",
+          "OX-07",
+          "OX-08",
+          "OX-09",
+          "OX-10",
+          "OX-11",
+          "OX-12",
+          "OX-13",
+          "OX-14"
         ],
         "canonical_statement": "src-oxford-variation provides source evidence for the scoped variation entry claims.",
         "disposition": "integrated",
-        "rationale": "The source is retained for the relevant general, specialist, legal, pronunciation, or etymological claims.",
-        "article_target_ids": [
-          "definition:001",
-          "definition:002",
-          "grammar_pattern:001",
-          "grammar_pattern:006",
-          "grammar_pattern:009",
-          "core_image:001",
-          "register:001"
-        ]
+        "rationale": "The source is retained for the relevant general, specialist, legal, pronunciation, or etymological claims."
       },
       {
         "id": "union-src-cambridge-variation",
@@ -7315,16 +7794,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         ],
         "canonical_statement": "src-cambridge-variation provides source evidence for the scoped variation entry claims.",
         "disposition": "integrated",
-        "rationale": "The source is retained for the relevant general, specialist, legal, pronunciation, or etymological claims.",
-        "article_target_ids": [
-          "definition:001",
-          "definition:002",
-          "definition:004",
-          "frequency:001",
-          "frequency:002",
-          "register:004",
-          "core_image:005"
-        ]
+        "rationale": "The source is retained for the relevant general, specialist, legal, pronunciation, or etymological claims."
       },
       {
         "id": "union-src-merriam-variation",
@@ -7339,18 +7809,7 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         ],
         "canonical_statement": "src-merriam-variation provides source evidence for the scoped variation entry claims.",
         "disposition": "integrated",
-        "rationale": "The source is retained for the relevant general, specialist, legal, pronunciation, or etymological claims.",
-        "article_target_ids": [
-          "definition:001",
-          "definition:003",
-          "definition:004",
-          "etymology:001",
-          "word_formation:001",
-          "word_formation:002",
-          "word_formation:003",
-          "collocation:014",
-          "register:003"
-        ]
+        "rationale": "The source is retained for the relevant general, specialist, legal, pronunciation, or etymological claims."
       },
       {
         "id": "union-src-collins-variation",
@@ -7358,42 +7817,17 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
           "CO-01",
           "CO-02",
           "CO-03",
-          "CO-04"
+          "CO-04",
+          "CO-05",
+          "CO-06",
+          "CO-07",
+          "CO-08",
+          "CO-09",
+          "CO-10"
         ],
         "canonical_statement": "src-collins-variation provides source evidence for the scoped variation entry claims.",
         "disposition": "integrated",
-        "rationale": "The source is retained for the relevant general, specialist, legal, pronunciation, or etymological claims.",
-        "article_target_ids": [
-          "definition:001",
-          "definition:002",
-          "definition:005",
-          "grammar_pattern:010",
-          "collocation:009",
-          "collocation:025",
-          "register:005",
-          "pronunciation:001"
-        ]
-      },
-      {
-        "id": "union-src-ncei-magnetic",
-        "source_fact_ids": [
-          "NC-01",
-          "NC-02",
-          "NC-03"
-        ],
-        "canonical_statement": "src-ncei-magnetic provides source evidence for the scoped variation entry claims.",
-        "disposition": "integrated",
-        "rationale": "The source is retained for the relevant general, specialist, legal, pronunciation, or etymological claims.",
-        "article_target_ids": [
-          "definition:006",
-          "register:006",
-          "grammar_pattern:031",
-          "grammar_pattern:032",
-          "collocation:030",
-          "usage_note:006",
-          "synonym:012",
-          "core_image:006"
-        ]
+        "rationale": "The source is retained for the relevant general, specialist, legal, pronunciation, or etymological claims."
       },
       {
         "id": "union-src-wa-contract-variation",
@@ -7405,16 +7839,26 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         ],
         "canonical_statement": "src-wa-contract-variation provides source evidence for the scoped variation entry claims.",
         "disposition": "integrated",
-        "rationale": "The source is retained for the relevant general, specialist, legal, pronunciation, or etymological claims.",
-        "article_target_ids": [
-          "register:002",
-          "grammar_pattern:012",
-          "grammar_pattern:013",
-          "grammar_pattern:014",
-          "usage_note:002",
-          "collocation:010",
-          "collocation:014"
-        ]
+        "rationale": "The source is retained for the relevant general, specialist, legal, pronunciation, or etymological claims."
+      },
+      {
+        "id": "union-src-hko-magnetic-variation",
+        "source_fact_ids": [
+          "HK-01",
+          "HK-02"
+        ],
+        "canonical_statement": "src-hko-magnetic-variation provides source evidence for the scoped variation entry claims.",
+        "disposition": "integrated",
+        "rationale": "The source is retained for the relevant general, specialist, legal, pronunciation, or etymological claims."
+      },
+      {
+        "id": "union-src-cedd-contract-variation-order",
+        "source_fact_ids": [
+          "CEDD-01"
+        ],
+        "canonical_statement": "src-cedd-contract-variation-order provides source evidence for the scoped variation entry claims.",
+        "disposition": "integrated",
+        "rationale": "The source is retained for the relevant general, specialist, legal, pronunciation, or etymological claims."
       }
     ]
   },
@@ -7669,11 +8113,6 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "target_id": "grammar_pattern:010"
       },
       {
-        "id": "grammar_pattern:011",
-        "status": null,
-        "target_id": "grammar_pattern:011"
-      },
-      {
         "id": "collocation:009",
         "status": null,
         "target_id": "collocation:009"
@@ -7744,6 +8183,11 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "target_id": "register:003"
       },
       {
+        "id": "grammar_pattern:011",
+        "status": null,
+        "target_id": "grammar_pattern:011"
+      },
+      {
         "id": "grammar_pattern:012",
         "status": null,
         "target_id": "grammar_pattern:012"
@@ -7762,11 +8206,6 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "id": "grammar_pattern:015",
         "status": null,
         "target_id": "grammar_pattern:015"
-      },
-      {
-        "id": "grammar_pattern:016",
-        "status": null,
-        "target_id": "grammar_pattern:016"
       },
       {
         "id": "collocation:015",
@@ -7844,6 +8283,11 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "target_id": "register:004"
       },
       {
+        "id": "grammar_pattern:016",
+        "status": null,
+        "target_id": "grammar_pattern:016"
+      },
+      {
         "id": "grammar_pattern:017",
         "status": null,
         "target_id": "grammar_pattern:017"
@@ -7862,11 +8306,6 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "id": "grammar_pattern:020",
         "status": null,
         "target_id": "grammar_pattern:020"
-      },
-      {
-        "id": "grammar_pattern:021",
-        "status": null,
-        "target_id": "grammar_pattern:021"
       },
       {
         "id": "collocation:021",
@@ -7924,6 +8363,11 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "target_id": "register:005"
       },
       {
+        "id": "grammar_pattern:021",
+        "status": null,
+        "target_id": "grammar_pattern:021"
+      },
+      {
         "id": "grammar_pattern:022",
         "status": null,
         "target_id": "grammar_pattern:022"
@@ -7937,11 +8381,6 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "id": "grammar_pattern:024",
         "status": null,
         "target_id": "grammar_pattern:024"
-      },
-      {
-        "id": "grammar_pattern:025",
-        "status": null,
-        "target_id": "grammar_pattern:025"
       },
       {
         "id": "collocation:026",
@@ -7994,6 +8433,11 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "target_id": "register:006"
       },
       {
+        "id": "grammar_pattern:025",
+        "status": null,
+        "target_id": "grammar_pattern:025"
+      },
+      {
         "id": "grammar_pattern:026",
         "status": null,
         "target_id": "grammar_pattern:026"
@@ -8007,11 +8451,6 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "id": "grammar_pattern:028",
         "status": null,
         "target_id": "grammar_pattern:028"
-      },
-      {
-        "id": "grammar_pattern:029",
-        "status": null,
-        "target_id": "grammar_pattern:029"
       },
       {
         "id": "collocation:030",
@@ -8059,6 +8498,11 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "target_id": "register:007"
       },
       {
+        "id": "grammar_pattern:029",
+        "status": null,
+        "target_id": "grammar_pattern:029"
+      },
+      {
         "id": "grammar_pattern:030",
         "status": null,
         "target_id": "grammar_pattern:030"
@@ -8067,11 +8511,6 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "id": "grammar_pattern:031",
         "status": null,
         "target_id": "grammar_pattern:031"
-      },
-      {
-        "id": "grammar_pattern:032",
-        "status": null,
-        "target_id": "grammar_pattern:032"
       },
       {
         "id": "collocation:033",
@@ -8356,11 +8795,6 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "relation_id": "pattern_example_coverage:010"
       },
       {
-        "id": "pattern_example_coverage:011",
-        "status": null,
-        "relation_id": "pattern_example_coverage:011"
-      },
-      {
         "id": "sense_definition_consistency:003",
         "status": null,
         "relation_id": "sense_definition_consistency:003"
@@ -8374,6 +8808,11 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "id": "definition_lexical_relation_consistency:003",
         "status": null,
         "relation_id": "definition_lexical_relation_consistency:003"
+      },
+      {
+        "id": "pattern_example_coverage:011",
+        "status": null,
+        "relation_id": "pattern_example_coverage:011"
       },
       {
         "id": "pattern_example_coverage:012",
@@ -8396,11 +8835,6 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "relation_id": "pattern_example_coverage:015"
       },
       {
-        "id": "pattern_example_coverage:016",
-        "status": null,
-        "relation_id": "pattern_example_coverage:016"
-      },
-      {
         "id": "sense_definition_consistency:004",
         "status": null,
         "relation_id": "sense_definition_consistency:004"
@@ -8414,6 +8848,11 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "id": "definition_lexical_relation_consistency:004",
         "status": null,
         "relation_id": "definition_lexical_relation_consistency:004"
+      },
+      {
+        "id": "pattern_example_coverage:016",
+        "status": null,
+        "relation_id": "pattern_example_coverage:016"
       },
       {
         "id": "pattern_example_coverage:017",
@@ -8436,11 +8875,6 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "relation_id": "pattern_example_coverage:020"
       },
       {
-        "id": "pattern_example_coverage:021",
-        "status": null,
-        "relation_id": "pattern_example_coverage:021"
-      },
-      {
         "id": "sense_definition_consistency:005",
         "status": null,
         "relation_id": "sense_definition_consistency:005"
@@ -8454,6 +8888,11 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "id": "definition_lexical_relation_consistency:005",
         "status": null,
         "relation_id": "definition_lexical_relation_consistency:005"
+      },
+      {
+        "id": "pattern_example_coverage:021",
+        "status": null,
+        "relation_id": "pattern_example_coverage:021"
       },
       {
         "id": "pattern_example_coverage:022",
@@ -8471,11 +8910,6 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "relation_id": "pattern_example_coverage:024"
       },
       {
-        "id": "pattern_example_coverage:025",
-        "status": null,
-        "relation_id": "pattern_example_coverage:025"
-      },
-      {
         "id": "sense_definition_consistency:006",
         "status": null,
         "relation_id": "sense_definition_consistency:006"
@@ -8489,6 +8923,11 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "id": "definition_lexical_relation_consistency:006",
         "status": null,
         "relation_id": "definition_lexical_relation_consistency:006"
+      },
+      {
+        "id": "pattern_example_coverage:025",
+        "status": null,
+        "relation_id": "pattern_example_coverage:025"
       },
       {
         "id": "pattern_example_coverage:026",
@@ -8506,11 +8945,6 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "relation_id": "pattern_example_coverage:028"
       },
       {
-        "id": "pattern_example_coverage:029",
-        "status": null,
-        "relation_id": "pattern_example_coverage:029"
-      },
-      {
         "id": "sense_definition_consistency:007",
         "status": null,
         "relation_id": "sense_definition_consistency:007"
@@ -8526,6 +8960,11 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "relation_id": "definition_lexical_relation_consistency:007"
       },
       {
+        "id": "pattern_example_coverage:029",
+        "status": null,
+        "relation_id": "pattern_example_coverage:029"
+      },
+      {
         "id": "pattern_example_coverage:030",
         "status": null,
         "relation_id": "pattern_example_coverage:030"
@@ -8534,11 +8973,6 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "id": "pattern_example_coverage:031",
         "status": null,
         "relation_id": "pattern_example_coverage:031"
-      },
-      {
-        "id": "pattern_example_coverage:032",
-        "status": null,
-        "relation_id": "pattern_example_coverage:032"
       },
       {
         "id": "core_inventory_consistency:001",
@@ -8589,12 +9023,67 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
     "normal_candidate_results": [],
     "blind_candidate_results": [
       {
-        "id": "candidate-variation-change-variation",
+        "id": "cand_general_change",
         "status": null,
         "assertion_ids": [
-          "assertion-variation-change-1"
+          "assert_general_boundary",
+          "assert_general_exclusion"
         ],
-        "verified_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8"
+        "verified_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+      },
+      {
+        "id": "cand_modified_version",
+        "status": null,
+        "assertion_ids": [
+          "assert_modified_source",
+          "assert_modified_exclusion"
+        ],
+        "verified_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+      },
+      {
+        "id": "cand_biological_difference",
+        "status": null,
+        "assertion_ids": [
+          "assert_biological_population",
+          "assert_biological_not_mutation"
+        ],
+        "verified_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+      },
+      {
+        "id": "cand_music",
+        "status": null,
+        "assertion_ids": [
+          "assert_music_theme",
+          "assert_music_not_version"
+        ],
+        "verified_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+      },
+      {
+        "id": "cand_ballet",
+        "status": null,
+        "assertion_ids": [
+          "assert_ballet_solo",
+          "assert_ballet_not_general_dance"
+        ],
+        "verified_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+      },
+      {
+        "id": "cand_contract",
+        "status": null,
+        "assertion_ids": [
+          "assert_contract_existing",
+          "assert_contract_not_alternative"
+        ],
+        "verified_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+      },
+      {
+        "id": "cand_magnetic",
+        "status": null,
+        "assertion_ids": [
+          "assert_magnetic_angle",
+          "assert_magnetic_not_generic"
+        ],
+        "verified_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
       }
     ],
     "finding_results": [
@@ -8934,31 +9423,36 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
         "union_id": "union-src-collins-variation"
       },
       {
-        "id": "union-src-ncei-magnetic",
-        "status": null,
-        "union_id": "union-src-ncei-magnetic"
-      },
-      {
         "id": "union-src-wa-contract-variation",
         "status": null,
         "union_id": "union-src-wa-contract-variation"
+      },
+      {
+        "id": "union-src-hko-magnetic-variation",
+        "status": null,
+        "union_id": "union-src-hko-magnetic-variation"
+      },
+      {
+        "id": "union-src-cedd-contract-variation-order",
+        "status": null,
+        "union_id": "union-src-cedd-contract-variation-order"
       }
     ],
-    "input_revision_id": "157f347825b1871b8b50558f292aa9e78d1debd5a93247c942c2aeed495b3357"
+    "input_revision_id": "e3d7e192fdd230365bdf1845e57f7896607ec68cc582692a6e18da5228aa217d"
   },
   "input_bindings": {
-    "pass_findings.json": "e09f6f2df8fc0ca1c19e084da2fa53aa565065b96f5ad60febd46525cb131c00",
+    "pass_findings.json": "a45d76c2bb71c705726b014320d200c48ea1c618de98950dd3744844a820deff",
     "cold_review.json": "b1b3dbb778207dfff3bfe5f6fd38ed819f2361dfa89ce361a6051fa30aad436a",
-    "final_blind.json": "30a159bb1dd810aac8e364cb0083f3585e22980a22662c00b986b95c318f5120",
-    "blind_seal.json": "0fe05f8441889bc7b3284f1ee1d633ff6464318e51362a9a9cc46868afc9052b",
-    "pre_blind_resolution.json": "2add26a6dafb45cf30d7507c97db9f9ad5c263b775edc572649e878bc94be1a4",
-    "pre_blind_revision.json": "15e4fb81d6a63ad37430ce525291195962f22696a502ec885047a495410de77e",
-    "checker_recheck_manifest.json": "3bed5d8daed78667dae16d56a59956520e624db815385c656cc5c848608e1cce",
-    "post_blind_resolution.json": "7dc2f920057bc5fa6ac3d76f75e2d66c3a0b209dd3c849f5a7dcb88dd57d0e51",
-    "post_blind_verification.json": "3a7848aaa435142e0bdc645f14f8b636e64ad941fd46675d09453e73273fc775",
+    "final_blind.json": "2dbf7f7bf86addc97fb041691d35d894a79fb999177f21ddbd46577d1937d44e",
+    "blind_seal.json": "388748a39d094467a57ea73f112fbf7855702b177f16cf8ae4d85bd6cfa9e6dc",
+    "pre_blind_resolution.json": "7e325702c18bce93a660120bb6001417a36a767bd72597cdd1cbe0ac872e2686",
+    "pre_blind_revision.json": "29be38d9a5ca3b4e2e24466f3efd4f3ba77d2f3b57e559c114f82a668d84409b",
+    "checker_recheck_manifest.json": "0f5a8a390a1a6428345210dc322ccdc5222ee951d8e97269c04ea8c9d1703e18",
+    "post_blind_resolution.json": "72f2631d9b295b35c79c63bbaa1d53c833ef35ad0ea7bb9b719b5822e9de721c",
+    "post_blind_verification.json": "06f44bad7f7f89d170d05bc761355e13ac132cc5864c4ca91b5fefc16efe5876",
     "targeted_adjudications.json": "170bcecc13fe9ab6439407fcebba3dfef9a7160d4f7ac76c211d38cd5d161b80",
-    "source_inventory.json": "a99a9aa1716a0cb7a9826e0b702930c52c5d4188f36bb3d293e8219129bce097",
-    "resolutions.json": "fc256e5a4e00643500ff0050d7fced130b03bea1c5cbf93fcae926fb8986003d",
+    "source_inventory.json": "032ca2cf1d693a1c4581d3b29bb7771d948040ce8fdc60adc52229bf59ce6ea6",
+    "resolutions.json": "803dcbb8dca8f0d5c102a30dd0f84dbe4ad9854e915606d59b5080e665e5852a",
     "check_passes/checker_passes.stage1.json": "d53c0df3c738eca0b8fa69c4606027404732d2a7020fc87e54bd6bd6dc13d28d",
     "check_passes/evidence.json": "52d9416c9b87435c63ed78e62776b241f5f7e4e7d95635623bfd99917492690e",
     "check_passes/evidence.request.json": "8ac071fa4b887b05728e2067efcbb36c2d0ae5a233556272e3ede8c92a902faf",
@@ -8982,6 +9476,6 @@ v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず
     "check_passes/translation.request.json": "009b4effd4bf56f636399c13c0ec8b468bf485521f9d245cd388fcaecfd5e8bd"
   },
   "contract_version": "review_preflight_v1",
-  "input_revision_id": "157f347825b1871b8b50558f292aa9e78d1debd5a93247c942c2aeed495b3357"
+  "input_revision_id": "e3d7e192fdd230365bdf1845e57f7896607ec68cc582692a6e18da5228aa217d"
 }
 ```
