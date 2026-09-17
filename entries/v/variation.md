@@ -1,12 +1,12 @@
 ---
 headword: variation
 type: word
-status: needs_review
+status: checked
 prompt_version: entry_spec_v5
 model: codex-gpt-5
 created_at: 2026-09-10
 updated_at: 2026-09-17
-checked: false
+checked: true
 tags: []
 ---
 
