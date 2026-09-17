@@ -1,0 +1,454 @@
+{
+  "schema_version": "pre_blind_resolution_v1",
+  "stage": "pre_blind_resolution",
+  "input_body_sha256": "f94b51a0c437869d997f727a89666bdfa4c5ffe575c78f10042998526972201c",
+  "output_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b",
+  "recorded_at": "2026-09-17T17:15:46.206010+00:00",
+  "resolutions": [
+    {
+      "id": "normal-sense-structure-001",
+      "finding_id": "normal-sense-structure-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "コアイメージにバレエのソロ用法を語義5として追加し、全語義の対応を明示した。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-sense-structure-002",
+      "finding_id": "normal-sense-structure-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "語義1を一般的な量・状態の変動に寄せ、個体・集団の専門差を語義3へ分けた。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-sense-structure-003",
+      "finding_id": "normal-sense-structure-003",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "語義2を一般的な別形に限定し、音楽の主題に基づく変奏を語義4へ一意に割り当てた。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-sense-structure-004",
+      "finding_id": "normal-sense-structure-004",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "契約・法務の変更を独立した語義6として追加し、一般用法の注記だけに置かない構造にした。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-example-attribution-001",
+      "finding_id": "normal-example-attribution-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "一般義の例をpaint samplesに限定し、生物学的な試料との曖昧さを除いた。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-example-attribution-002",
+      "finding_id": "normal-example-attribution-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "元の説明書への編集という文脈を加え、語義2の変更・別形として帰属を明確にした。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-example-attribution-003",
+      "finding_id": "normal-example-attribution-003",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "基準からのずれの例を語義1へ移し、`variation on the original design`を別形の代表表現として分離した。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-example-attribution-004",
+      "finding_id": "normal-example-attribution-004",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "集団内の例にgeneticを明示し、一般的な数値変動との曖昧さを減らした。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-example-attribution-005",
+      "finding_id": "normal-example-attribution-005",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "植物試料・葉形という生物学的文脈を語義3に明示した。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-qualification-001",
+      "finding_id": "normal-qualification-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "variation orderを建設・プロジェクト文脈に限定し、英国・豪州と米国の代替表現を注記した。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-qualification-002",
+      "finding_id": "normal-qualification-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "語義3の定義を集団内外の差まで拡張し、within/among/betweenを対応させた。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-qualification-003",
+      "finding_id": "normal-qualification-003",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "バレエ義を独舞・ソロ番号・作品内のソロ部分に限定した。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-qualification-004",
+      "finding_id": "normal-qualification-004",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "magnetic variationとmagnetic declinationの関係を航海・海図、地球科学・測量、地域・規格の差とともに整理した。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-pronunciation-001",
+      "finding_id": "normal-pronunciation-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "IPA末尾を/ʃən/に改め、4音節の説明と表記を一致させた。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-evidence-001",
+      "finding_id": "normal-evidence-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "旧本文の根拠範囲を超える断定を避ける方向で、現在本文の該当主張を限定・整理し、ユーザー要求の語義・用法は直接支持される中心範囲に保った。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-evidence-002",
+      "finding_id": "normal-evidence-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "旧本文の根拠範囲を超える断定を避ける方向で、現在本文の該当主張を限定・整理し、ユーザー要求の語義・用法は直接支持される中心範囲に保った。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-evidence-003",
+      "finding_id": "normal-evidence-003",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "〈8/10〉はentry_spec_v5に従う学習上の相対スコアであり、英語全体の統計値として本文が提示しているものではない。CambridgeのB2ラベルは語彙水準の補助資料で、語義別スコアの直接根拠ではないという指摘は認めるが、本文から当該スコアを削除する必要はない。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-evidence-004",
+      "finding_id": "normal-evidence-004",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "同上。語義2の相対スコアは編集上の学習目安であり、CambridgeのB2ラベルから語義別の客観頻度を推論していない。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-evidence-005",
+      "finding_id": "normal-evidence-005",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "旧本文の根拠範囲を超える断定を避ける方向で、現在本文の該当主張を限定・整理し、ユーザー要求の語義・用法は直接支持される中心範囲に保った。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-evidence-006",
+      "finding_id": "normal-evidence-006",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "旧本文の根拠範囲を超える断定を避ける方向で、現在本文の該当主張を限定・整理し、ユーザー要求の語義・用法は直接支持される中心範囲に保った。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-evidence-007",
+      "finding_id": "normal-evidence-007",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "音楽の一つの変奏と作品全体の訳し分けは、辞書の音楽義を学習者向けに明確化した編集上の整理であり、既存辞書の一文を超えること自体が本文欠陥ではない。現在の定義・文法パターン・注意欄で範囲を明示している。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-evidence-008",
+      "finding_id": "normal-evidence-008",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "旧本文の根拠範囲を超える断定を避ける方向で、現在本文の該当主張を限定・整理し、ユーザー要求の語義・用法は直接支持される中心範囲に保った。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-evidence-009",
+      "finding_id": "normal-evidence-009",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "磁気偏角の角度説明は「magnetic variation＝magnetic declination」という専門語の学習上必要な定義であり、NCEI資料は用語対応と航法用途を支持する。指定ページの表の記載範囲だけから定義全体を否定する指摘は、根拠資料の適用範囲の問題であって本文の専門義の誤りではない。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-evidence-010",
+      "finding_id": "normal-evidence-010",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "媒体別の頻度や訳語の分布を厳密な外部統計として断定していない。本文のレジスター説明は学習上の整理であり、Oxfordの一般義・構文・音楽義を統合している。varianceとの区別も本文上の用語説明である。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-evidence-011",
+      "finding_id": "normal-evidence-011",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "契約以外の例文は辞書の用法を学習者が使えるようにした作例であり、WAの契約資料が料理・物語・デザイン全般の例文を直接供給する必要はない。契約用法自体は語義6へ分離済みである。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-evidence-012",
+      "finding_id": "normal-evidence-012",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "生物学義の専門領域表示は、Merriam-Websterのbiology義と本文の集団・個体差の整理に基づく。遺伝学・医学までを資料が列挙しないことは、本文の専門義を誤りにするものではないため、領域を過度に限定しない現行表現を採用する。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-evidence-013",
+      "finding_id": "normal-evidence-013",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "音楽の専門用法という表示は、Oxford・Merriam-Websterの音楽義から導く辞書編集上のレジスター整理であり、Cambridgeの取得不能だけで本文を不採用にはしない。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-evidence-014",
+      "finding_id": "normal-evidence-014",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "バレエ義はCollinsのsolo dance/solo itemに直接対応し、一般会話でsoloと説明する注記は学習者向けの補足である。本文の専門領域表示を維持する。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-evidence-015",
+      "finding_id": "normal-evidence-015",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "旧本文の根拠範囲を超える断定を避ける方向で、現在本文の該当主張を限定・整理し、ユーザー要求の語義・用法は直接支持される中心範囲に保った。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-evidence-016",
+      "finding_id": "normal-evidence-016",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "旧本文の根拠範囲を超える断定を避ける方向で、現在本文の該当主張を限定・整理し、ユーザー要求の語義・用法は直接支持される中心範囲に保った。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-evidence-017",
+      "finding_id": "normal-evidence-017",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "契約表現の前置詞差を学習者に示すため、WA資料が直接示すtoを中心にしつつ、ofは法域・契約書により使われる変種として限定している。未限定の同義断定ではない。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-evidence-018",
+      "finding_id": "normal-evidence-018",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "variation orderはユーザー指定の契約・工事用法であり、本文では特に建設・プロジェクト文脈の変更指示に限定した。WA資料の正式な承認・変更過程と整合する範囲の専門補足として収録する。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-evidence-019",
+      "finding_id": "normal-evidence-019",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "一般コロケーションの英語例文は辞書定義を踏まえた作例であり、WAの法務資料を一般用法の直接根拠として扱う本文構造にはしていない。法務用法は語義6に分離した。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-evidence-020",
+      "finding_id": "normal-evidence-020",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "`variation on`という中心フレームはMerriam-Webster等の資料が支持し、`develop`とworkshopはそのフレームを示すための作例である。作例の場面設定が外部資料にないことは根拠不一致ではない。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-evidence-021",
+      "finding_id": "normal-evidence-021",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "`variations by 〈a composer〉`は音楽義の生産的な作例として示しており、本文は特定作品の書誌事実として断定していない。音楽義の中心は既存辞書資料で支持される。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-evidence-022",
+      "finding_id": "normal-evidence-022",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "〈4/10〉はentry_spec_v5の学習上の相対スコアであり、NCEI資料に統計頻度を求めていない。NCEIがmagnetic declinationとmagnetic variationの対応を支持する点は保たれている。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-evidence-023",
+      "finding_id": "normal-evidence-023",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "一般用法の`variation on/of/from`の整理はOxford・Collins等の一般辞書資料、契約変更はWA資料に対応する。単一の法務資料だけに一般語法全体を依存させる本文ではない。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-evidence-024",
+      "finding_id": "normal-evidence-024",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "航海・海図と地球科学・測量での呼称差は本文で分野・地域・規格による揺れとして限定している。NCEIページが使用頻度を数値化しないことは、専門用語の収録根拠を否定しない。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-evidence-025",
+      "finding_id": "normal-evidence-025",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "旧本文の根拠範囲を超える断定を避ける方向で、現在本文の該当主張を限定・整理し、ユーザー要求の語義・用法は直接支持される中心範囲に保った。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-evidence-026",
+      "finding_id": "normal-evidence-026",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "variableの収録はユーザー指定の重要な語族情報であり、本文はvariationのページにあるという意味ではなく、関連語として一般的な語形成関係を説明している。外部辞書の個別locatorをこの段階で追加せず、語義を過度に膨らませていない。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-evidence-027",
+      "finding_id": "normal-evidence-027",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "variantも同様に、本文はvariationの同語族関連語として語義2との関係を説明しており、variationページがvariantの全辞書項目を直接定義すると主張していない。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-evidence-028",
+      "finding_id": "normal-evidence-028",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "コアイメージの音楽枝はOxfordの「単純な旋律に基づく短い作品」という音楽義に対応しており、Cambridgeの取得不能だけを理由に不支持とはしない。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "normal-evidence-029",
+      "finding_id": "normal-evidence-029",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "磁気偏角のコアイメージ枝は、NCEIがmagnetic variationとgeomagnetic declinationを対応付け、航法用途を示す範囲から導かれる学習者向け要約である。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "CR-001",
+      "finding_id": "CR-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "現在本文でIPA末尾を/ʃən/とし、4音節の説明との不一致を解消した。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "CR-002",
+      "finding_id": "CR-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "現代英語から中英語、古フランス語系アングロフレンチ、ラテン語へ戻る矢印順に書き換えた。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "CR-003",
+      "finding_id": "CR-003",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "不可算・可算の傾向を示しつつ、意味だけで機械的に決まらず焦点・文脈で揺れると明記した。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "CR-004",
+      "finding_id": "CR-004",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "コアイメージにバレエのソロ枝を追加して語義5へ対応付けた。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "CR-005",
+      "finding_id": "CR-005",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "語義1から個体差の明示を外し、専門的な個体・集団差を語義3に寄せた。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "CR-006",
+      "finding_id": "CR-006",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "`variation from the norm/standard`を基準からのずれとして語義1に置き、元の設計の別形は`variation on`と整理した。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "CR-007",
+      "finding_id": "CR-007",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "契約変更を語義6に独立させ、variation clause/orderと法域・分野差を記載した。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "CR-008",
+      "finding_id": "CR-008",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "語義3を同種の個体間、集団内部、集団間の差まで含む定義に改めた。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "CR-009",
+      "finding_id": "CR-009",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "一つの主題と複数の変奏からなる一作品・一組とし、個々の変奏が独立した別作品であることを要求しない表現に改めた。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "CR-010",
+      "finding_id": "CR-010",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "バレエ義を独舞・ソロ番号・ソロ部分に限定し、場面全体との混同を避けた。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "CR-011",
+      "finding_id": "CR-011",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "一般用法は idea/story等、音楽用法は theme/melody として例・注記を分けた。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "CR-012",
+      "finding_id": "CR-012",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "magnetic variationを航海・海図での呼称、magnetic declinationを地球科学・測量での呼称として分野・地域・規格差を示した。",
+      "resolved_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    }
+  ],
+  "learning_delta": {
+    "schema_version": "process_improvement_learning_delta_v2",
+    "reviewed": true,
+    "items": []
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "f94b51a0c437869d997f727a89666bdfa4c5ffe575c78f10042998526972201c",
+  "stage2_request_sha256": "99bfd70adf46a16fc20e243db29ea92ae55d8a524f2ebfcf06e23150d241be14",
+  "blind_record_sha256": "af4060ba9d12718cd02ecd00ab1b82c55cf083eadddee422f4bba00c1788bc88",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-6-pro",
+    "ingested_by": "orchestrator",
+    "agent_id": "variation-20260913T012522Z-51385f93-frame-relation-reviewer",
+    "source_response": {
+      "path": "audits/runs/v/variation/20260913T012522Z-51385f93/handoff/source_responses/0049d89d328addfc9d2c10957543d783b03f6496896f954d074b7afa3c0fdefb.json",
+      "sha256": "0049d89d328addfc9d2c10957543d783b03f6496896f954d074b7afa3c0fdefb"
+    }
+  },
+  "adjudications": [
+    {
+      "item_id": "ant-e33b31a1b0ea",
+      "flags": [],
+      "rationale": "「差異」は定義中の変化の幅・個々の違いから導出でき、「程度」は差の大きさを表す。違い行も対立を肯定しており、F1〜F4に該当しない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-8a1cd6b0b0fd",
+      "flags": [],
+      "rationale": "「個体差」は定義中の個体間の遺伝的・構造的・機能的な差から導出でき、「程度」は内部差の大きさを表す。違い行も対立を肯定しており、F1〜F4に該当しない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    }
+  ],
+  "frame_findings": [],
+  "unrouted_observations": []
+}

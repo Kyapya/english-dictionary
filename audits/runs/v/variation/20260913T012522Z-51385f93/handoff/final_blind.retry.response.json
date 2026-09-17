@@ -1,0 +1,236 @@
+{
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "ind-01",
+      "surface_form": "variation",
+      "frame": "variation in/of 〈amount/level/quality/temperature/pressure〉",
+      "meaning": "量・水準・品質・状態などの変化・変動・ばらつき",
+      "disposition": "included",
+      "rationale": "本文の frame『variation in/of 〈amount/level/quality/temperature/pressure〉』は、variation を量や状態の変化・ばらつきとして扱っており、例文と訳もこの中心意味に一致する。",
+      "semantic_assertions": [
+        {
+          "id": "ind-01-a",
+          "statement": "variation は、量・水準・品質・状態などが一定でないこと、またはその変化幅を表さなければならない。",
+          "polarity": "must_hold",
+          "scope": "variation in/of + quantity, level, quality, temperature, or pressure"
+        },
+        {
+          "id": "ind-01-b",
+          "statement": "このフレームは、元の型を土台にした作品・方法の別形そのものではなく、変化またはばらつきを中心に表す。",
+          "polarity": "must_not_hold",
+          "scope": "general quantitative/state-change frame"
+        }
+      ]
+    },
+    {
+      "id": "ind-02",
+      "surface_form": "variation",
+      "frame": "variation between 〈A〉 and 〈B〉 / variation among 〈people/regions〉",
+      "meaning": "同種の対象の間にある差・ばらつき",
+      "disposition": "included",
+      "rationale": "本文の frame『variation between 〈A〉 and 〈B〉 / variation among 〈people/regions〉』は、対象間の比較結果としての variation を独立に説明し、一般的な差・ばらつきの用例も示している。",
+      "semantic_assertions": [
+        {
+          "id": "ind-02-a",
+          "statement": "between/among の対象は比較される複数の対象であり、variation はそれらが同一でない程度や分布を指さなければならない。",
+          "polarity": "must_hold",
+          "scope": "between/among comparison frame"
+        },
+        {
+          "id": "ind-02-b",
+          "statement": "一般的な比較フレームは、生物学的な遺伝・形態差に限定されてはならない。",
+          "polarity": "must_not_hold",
+          "scope": "general between/among frame"
+        }
+      ]
+    },
+    {
+      "id": "ind-03",
+      "surface_form": "variation",
+      "frame": "variation according to 〈a factor〉 / variation of 〈A〉 with 〈B〉",
+      "meaning": "要因や別の変数に応じた変化",
+      "disposition": "included",
+      "rationale": "本文の frame『variation according to 〈a factor〉 / variation of 〈A〉 with 〈B〉』は、何が何に応じて変化するかという関係を明示し、年齢・地域・高度の例でその作用方向を保っている。",
+      "semantic_assertions": [
+        {
+          "id": "ind-03-a",
+          "statement": "according to/with の後続要素は変化の条件または独立変数であり、variation の対象がその要因に伴って変わる関係を表さなければならない。",
+          "polarity": "must_hold",
+          "scope": "factor-dependent change frame"
+        }
+      ]
+    },
+    {
+      "id": "ind-04",
+      "surface_form": "a variation from 〈the norm/standard〉",
+      "frame": "a variation from 〈the norm/standard〉",
+      "meaning": "基準・標準からの相違やずれ",
+      "disposition": "included",
+      "rationale": "本文の frame『a variation from 〈the norm/standard〉』は、比較基準からのずれを表す用法として variation on の別形用法と区別され、標準手順からの差の例で具体化されている。",
+      "semantic_assertions": [
+        {
+          "id": "ind-04-a",
+          "statement": "from の後続要素は基準または標準であり、variation はそこからの相違を表さなければならない。",
+          "polarity": "must_hold",
+          "scope": "deviation-from-standard frame"
+        },
+        {
+          "id": "ind-04-b",
+          "statement": "このフレームは、元の考え・設計・作品を土台にした別形を必ず意味するものとして一般化してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "variation from norm/standard"
+        }
+      ]
+    },
+    {
+      "id": "ind-05",
+      "surface_form": "a variation on ...",
+      "frame": "a variation on 〈the original design/an idea/a story/a recipe〉",
+      "meaning": "同じ基本型を保ちながら一部を変えたもの・アレンジ",
+      "disposition": "included",
+      "rationale": "本文の surface_form『a variation on ...』は、元の設計・考え・物語・料理を土台にした別形という意味で一貫しており、元と無関係な代替案とは区別されている。",
+      "semantic_assertions": [
+        {
+          "id": "ind-05-a",
+          "statement": "on の対象は元となる考え・型・方法・作品であり、variation はその連続性を保った変形でなければならない。",
+          "polarity": "must_hold",
+          "scope": "general variation-on frame"
+        },
+        {
+          "id": "ind-05-b",
+          "statement": "契約条件の正式な変更、音楽の主題による変奏、またはバレエの独舞を、この一般的な別形フレームだけに吸収してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "general variation-on frame"
+        }
+      ]
+    },
+    {
+      "id": "ind-06",
+      "surface_form": "genetic variation",
+      "frame": "genetic/biological variation within 〈a species/group〉, among 〈individuals〉, or between 〈populations〉",
+      "meaning": "生物の個体・集団内または集団間の遺伝的・構造的・機能的な差",
+      "disposition": "included",
+      "rationale": "本文の surface_form『genetic variation』は、生物学・遺伝学における個体差や集団差として独立した専門用法に置かれ、mutation や deviation との境界も説明されている。",
+      "semantic_assertions": [
+        {
+          "id": "ind-06-a",
+          "statement": "この専門フレームの variation は、同じ種・集団に属する個体または集団の間で観察される差やその分布を表さなければならない。",
+          "polarity": "must_hold",
+          "scope": "biological/genetic variation"
+        },
+        {
+          "id": "ind-06-b",
+          "statement": "variation は mutation そのものと同義として扱われてはならない。",
+          "polarity": "must_not_hold",
+          "scope": "genetic variation versus mutation"
+        }
+      ]
+    },
+    {
+      "id": "ind-07",
+      "surface_form": "a variation on a theme",
+      "frame": "a variation on 〈a theme/melody〉 / a set of variations on 〈a theme〉",
+      "meaning": "主題や旋律を変化・装飾した音楽上の変奏、またはその一組",
+      "disposition": "included",
+      "rationale": "本文の surface_form『a variation on a theme』は、一般的な比喩的展開とは分けて、主題・旋律に基づく音楽上の変奏として説明されている。単数の一変奏と複数・作品全体の区別も保たれている。",
+      "semantic_assertions": [
+        {
+          "id": "ind-07-a",
+          "statement": "音楽フレームの variation は、主題または旋律との関係を保ちつつ、旋律・和声・リズム・調性などに変化を加えた一つの展開または一連の作品を表さなければならない。",
+          "polarity": "must_hold",
+          "scope": "music variation"
+        },
+        {
+          "id": "ind-07-b",
+          "statement": "単に別の演奏・録音を意味する version と同一視してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "music variation"
+        }
+      ]
+    },
+    {
+      "id": "ind-08",
+      "surface_form": "perform a variation",
+      "frame": "perform/rehearse a variation; a variation from 〈a ballet〉",
+      "meaning": "クラシック・バレエの一人用ソロ演目・独舞",
+      "disposition": "included",
+      "rationale": "本文の frame『perform/rehearse a variation; a variation from 〈a ballet〉』は、音楽の変奏ではなく、クラシック・バレエで一人が踊る演目という専門用法を明確に示している。",
+      "semantic_assertions": [
+        {
+          "id": "ind-08-a",
+          "statement": "バレエの variation は、特定の作品や伝統に属する独舞・ソロ番号を指さなければならない。",
+          "polarity": "must_hold",
+          "scope": "classical ballet variation"
+        },
+        {
+          "id": "ind-08-b",
+          "statement": "このフレームを、音楽作品として演奏する変奏曲、または一般のあらゆる一人踊りへ拡張してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "classical ballet variation"
+        }
+      ]
+    },
+    {
+      "id": "ind-09",
+      "surface_form": "a variation to 〈the contract〉",
+      "frame": "a variation of/to 〈the contract〉; variation clause; variation order",
+      "meaning": "契約条件・作業範囲などの正式な変更または変更事項",
+      "disposition": "included",
+      "rationale": "本文の surface_form『a variation to 〈the contract〉』は、一般的な別形ではなく、契約条件を変更する専門用法として整理され、variation clause と variation order も同じ領域の定着フレームとして示されている。",
+      "semantic_assertions": [
+        {
+          "id": "ind-09-a",
+          "statement": "契約フレームの variation は、既存契約の範囲・仕様・数量・価格・納期などの条件に対する正式な変更またはその変更事項を表さなければならない。",
+          "polarity": "must_hold",
+          "scope": "contract/legal variation"
+        },
+        {
+          "id": "ind-09-b",
+          "statement": "この専門用法を、契約と無関係な一般的なアレンジや単なる代替案として扱ってはならない。",
+          "polarity": "must_not_hold",
+          "scope": "contract/legal variation"
+        }
+      ]
+    },
+    {
+      "id": "ind-10",
+      "surface_form": "magnetic variation",
+      "frame": "magnetic variation at 〈a location〉; account for magnetic variation",
+      "meaning": "真北と磁北の間の方位差・磁気偏角",
+      "disposition": "included",
+      "rationale": "本文の surface_form『magnetic variation』は、航海・海図などで真北と磁北の角度を扱う定着した名詞句として示され、magnetic declination との関係と分野差も明記されている。",
+      "semantic_assertions": [
+        {
+          "id": "ind-10-a",
+          "statement": "magnetic variation は、地点における真北と磁北の水平角または方位差を表さなければならない。",
+          "polarity": "must_hold",
+          "scope": "magnetic variation"
+        },
+        {
+          "id": "ind-10-b",
+          "statement": "この定着句を、一般的な値の変動という意味だけで解釈してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "magnetic variation"
+        }
+      ]
+    },
+    {
+      "id": "ind-11",
+      "surface_form": "variation",
+      "frame": "verb or adjective use of variation",
+      "meaning": "変化する・変動するという動詞用法、または変化に富むという形容詞用法",
+      "disposition": "excluded",
+      "rationale": "surface_form『variation』自体は本文全体で名詞として扱われており、動詞または形容詞としての variation という別の品詞用法は含まれていない。",
+      "semantic_assertions": [
+        {
+          "id": "ind-11-a",
+          "statement": "標準的な見出し語 variation の中心的な品詞は名詞であり、vary や varied/various の用法を variation 自体の用法として数えてはならない。",
+          "polarity": "must_hold",
+          "scope": "part-of-speech inventory"
+        }
+      ]
+    }
+  ],
+  "article_findings": []
+}

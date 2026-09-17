@@ -1,0 +1,31 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8",
+  "stage2_request_sha256": "f6018e7ea7ba7283bebbe781fac638c8dda1ae4b8e62848139207bc0e12bca2d",
+  "blind_record_sha256": "4ba8b3ddc2167b00d72420bab295eccabb0d1ba63d8623318258c968bf8ebaea",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-sol",
+    "ingested_by": "human",
+    "agent_id": "variation-20260913T012522Z-51385f93-recheck-frame-relation-reviewer"
+  },
+  "adjudications": [
+    {
+      "item_id": "ant-ce50de387340",
+      "flags": [],
+      "rationale": "軸「変動性」と型「程度」は当該語義の定義から導け、uniformity はその軸の低い側を表す。違い行も対立を否定していない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-feca33edb3a2",
+      "flags": [],
+      "rationale": "軸「異質性」と型「程度」は当該語義の個体・集団間の差と、homogeneity の一様性の対比から導ける。違い行も対立を否定していない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    }
+  ],
+  "frame_findings": [],
+  "unrouted_observations": []
+}

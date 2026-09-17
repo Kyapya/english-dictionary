@@ -1,0 +1,27 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "translation",
+  "input_body_sha256": "86e01ce3e6ba274d21339f58f5361db7c24db6499a80e01afb3d4d7b649803b4",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-sol",
+    "ingested_by": "human",
+    "agent_id": "variation-20260913T012522Z-51385f93-recheck-translation-reviewer"
+  },
+  "findings": [
+    {
+      "id": "recheck-translation-001",
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 222,
+        "line_end": 223,
+        "exact_quote": "例: The study measured genetic variation within a population in wing length over several generations.  \n訳: その研究は、数世代にわたる集団内の変異を測定した。  "
+      },
+      "severity": "blocking",
+      "rationale": "英文の genetic variation within a population in wing length は、集団内の翼長における遺伝的変異を数世代にわたって測定したという意味。訳は genetic と in wing length を落としており、何の特性の変異を測定したかが失われ、一般的な集団内の変異へ意味が広がっている。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「数世代にわたる集団内の翼長における遺伝的変異を測定した」など、遺伝的であることと翼長を明示する方向。"
+    }
+  ]
+}

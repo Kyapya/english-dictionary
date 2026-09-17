@@ -1,0 +1,27 @@
+{
+  "schema_version": "antonym_axis_blind_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8",
+  "blind_request_sha256": "500a78c2a75b6e5b35553fb079397c5756e562bda4b06526c46771c4544d1d4c",
+  "recorded_at": "2026-09-17T15:59:01.866Z",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-sol",
+    "ingested_by": "human",
+    "agent_id": "variation-20260913T012522Z-51385f8c-recheck-v4-frame-reviewer"
+  },
+  "axes": [
+    {
+      "item_id": "ant-ce50de387340",
+      "axis": "変動性",
+      "relation_type": "程度",
+      "reason": "variationの変化・ばらつきとuniformityの一様さは、差や変動の大きさの軸で対立する。"
+    },
+    {
+      "item_id": "ant-feca33edb3a2",
+      "axis": "異質性",
+      "relation_type": "程度",
+      "reason": "variationの個体・集団間の差とhomogeneityの均質さは、構成要素の異なりの大きさの軸で対立する。"
+    }
+  ]
+}

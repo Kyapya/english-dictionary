@@ -1,0 +1,27 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "sense-structure",
+  "input_body_sha256": "e4252a11c8d4a58018a77d8ac69a09b702a64d4cc1e27557c8da829f8de88636",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-sol",
+    "ingested_by": "human",
+    "agent_id": "variation-20260913T012522Z-51385f93-recheck-sense-structure-reviewer"
+  },
+  "findings": [
+    {
+      "id": "recheck-sense-structure-001",
+      "taxonomy_id": "compound_component_generalization",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 403,
+        "line_end": 403,
+        "exact_quote": "7. 【名詞・不可算・航海・地球科学・測量】磁気偏角"
+      },
+      "severity": "blocking",
+      "rationale": "この項で提示される専門的な意味は、文法パターンとコロケーションが示す `magnetic variation` という専門句に依存しており、単独の variation が磁気偏角を表すことは示されていない。複合表現全体の性質を見出し語 variation の独立語義へ一般化しているため、独立語義から外して語義1の専門句注記に限定するか、複合句として明示すべきである。",
+      "evidence_link_ids": [],
+      "suggested_direction": "削除・限定"
+    }
+  ]
+}

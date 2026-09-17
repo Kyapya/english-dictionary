@@ -1,0 +1,441 @@
+{
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-sol",
+    "ingested_by": "human",
+    "agent_id": "variation-20260913T012522Z-51385f93-recheck-example-attribution-reviewer"
+  },
+  "blind_attribution_record": {
+    "schema_version": "example_attribution_blind_record_v1",
+    "pass_id": "example-attribution",
+    "input_body_sha256": "b39584997c83192b6b3547643ea4613d5690b78833b3012409b3d38e91c11949",
+    "blind_request_sha256": "30bf22ec50c4343ab27cb8dc7c0ce1f798c49bd8ce907dd82a7302493dd0d60b",
+    "recorded_at": "2026-09-17T15:22:20Z",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5.6-sol",
+      "ingested_by": "human",
+      "agent_id": "variation-20260913T012522Z-51385f93-recheck-example-attribution-reviewer"
+    },
+    "attributions": [
+      {
+        "example_id": "ex-ee88ab6f2455",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:006"
+        ],
+        "discriminating_terms": [
+          "variation clause",
+          "changes to the scope of work"
+        ],
+        "rationale": "The phrase \"variation clause\" covering \"changes to the scope of work\" is a formal contract-change frame, selecting sense:006. Sense:002 could describe a generic modified version, but the headword here names a contractual provision governing changes rather than an ordinary variant."
+      },
+      {
+        "example_id": "ex-07f2bcbff87c",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "variation according to age and region"
+        ],
+        "rationale": "The phrase \"variation according to age and region\" describes general differences conditioned by stated demographic and geographic factors, selecting sense:001. Sense:003 would require an explicitly biological individual or population relation, and the sentence gives no genetic or species-level relation."
+      },
+      {
+        "example_id": "ex-5d4e71b83247",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "theme and variations"
+        ],
+        "rationale": "The fixed construction \"theme and variations\" presents the selected item as a musical theme-and-variations work, selecting sense:004. Sense:002 can describe a generic altered version, but it does not account for the headword's role in the theme-and-variations construction."
+      },
+      {
+        "example_id": "ex-8da21cf9a7e4",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "a lighter variation on a traditional winter dish"
+        ],
+        "rationale": "The phrase \"a lighter variation on a traditional winter dish\" presents the soup as a concrete recipe-based alteration of a named dish, selecting sense:002. Sense:001 could describe variation in a property such as taste, but the on-phrase identifies an altered version of the dish itself."
+      },
+      {
+        "example_id": "ex-a7c5a22b4036",
+        "classification": "ambiguous",
+        "candidate_sense_ids": [
+          "sense:001",
+          "sense:002"
+        ],
+        "discriminating_terms": [],
+        "rationale": "The sentence \"The revised procedure is a minor variation from the standard procedure.\" allows a deviation-from-standard reading under sense:001 and a concrete revised-method reading under sense:002. The from-phrase and the word revised do not settle whether the headword denotes the difference from the standard or the altered procedure as a version, so neither candidate is excluded."
+      },
+      {
+        "example_id": "ex-f20a77676340",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "wide variation between schools in the use of digital devices"
+        ],
+        "rationale": "The phrase \"wide variation between schools in the use of digital devices\" expresses differences in a practice across institutions, selecting the general variability sense:001. Sense:003 requires biological variation among individuals or populations, and sense:002 requires a modified version; neither is the relation expressed by the headword here."
+      },
+      {
+        "example_id": "ex-523c78a28cca",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:005"
+        ],
+        "discriminating_terms": [
+          "performed her variation",
+          "controlled, precise movements"
+        ],
+        "rationale": "The phrase \"performed her variation\" is tied to a dancer's \"controlled, precise movements,\" selecting the ballet-solo sense:005. Sense:004 would be a musical item played from a theme or melody; the headword here is realized through dance movement, not musical development."
+      },
+      {
+        "example_id": "ex-0baa05a420e7",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "variation on a familiar coming-of-age story"
+        ],
+        "rationale": "The phrase \"variation on a familiar coming-of-age story\" presents the novel as a concrete altered work based on a named story, selecting sense:002. Sense:001 would describe variation or spread in a property, not a novel's source-based reworking, and the sentence does not describe a measured change."
+      },
+      {
+        "example_id": "ex-f754c69ba5f8",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "played the final variation",
+          "final variation"
+        ],
+        "rationale": "The phrase \"played the final variation\" makes the headword a musical item performed for its clarity, selecting sense:004. Sense:005 would be a ballet solo danced through movement, and sense:002 would not explain the played musical-performance relation."
+      },
+      {
+        "example_id": "ex-e419743a5282",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:005"
+        ],
+        "discriminating_terms": [
+          "variation from the ballet",
+          "rehearsed a variation"
+        ],
+        "rationale": "The phrase \"variation from the ballet\" being rehearsed by students denotes a ballet solo, selecting sense:005. Sense:004 would require a musical theme, melody, or instrumental object, but the translation identifies the rehearsed item as a ソロ演目."
+      },
+      {
+        "example_id": "ex-6f4f052b2b09",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "seasonal variation in demand"
+        ],
+        "rationale": "The phrase \"seasonal variation in demand\" denotes recurring change in the quantity of demand, selecting sense:001. Sense:002 would require a demand-related object to be a modified version of an original, whereas demand is the quantity that varies."
+      },
+      {
+        "example_id": "ex-062a3999032a",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "variation in the time needed to complete the task"
+        ],
+        "rationale": "The phrase \"variation in the time needed to complete the task\" names a spread in a measurable duration, selecting sense:001. Sense:002 would require the task or procedure to be an altered version, but the headword is linked to how long completion takes rather than to a modified task."
+      },
+      {
+        "example_id": "ex-bdab0ac52f9d",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:005"
+        ],
+        "discriminating_terms": [
+          "variation from The Sleeping Beauty"
+        ],
+        "rationale": "The phrase \"variation from The Sleeping Beauty\" chosen for an audition denotes a repertory ballet solo, selecting sense:005. Sense:004 would require a musical variation based on a theme or melody; the source-ballet and audition relation instead identify the dance number."
+      },
+      {
+        "example_id": "ex-cd693ac8f526",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "set of variations on a folk melody"
+        ],
+        "rationale": "The phrase \"set of variations on a folk melody\" at a concert denotes a set of musical developments of a melody, selecting sense:004. Sense:002 could describe a generic adaptation, but the set-and-melody relation identifies the musical variation form."
+      },
+      {
+        "example_id": "ex-b0ed8bfe5212",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:007"
+        ],
+        "discriminating_terms": [
+          "magnetic variation",
+          "plotting a course"
+        ],
+        "rationale": "The phrase \"magnetic variation\" in the navigational frame \"plotting a course\" denotes the technical directional difference used for course setting, selecting sense:007. Sense:001 could describe general fluctuation in a quantity, but it cannot explain this magnetic-direction correction use; the translation also specifies 磁気偏角."
+      },
+      {
+        "example_id": "ex-b9f0e7f64aea",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "variations by Beethoven and Brahms"
+        ],
+        "rationale": "The phrase \"variations by Beethoven and Brahms\" identifies variation works attributed to named composers, and the translation renders them as 変奏曲, selecting the musical sense:004. Sense:002 could denote a generic adapted version, but the attribution of variations as program items does not present that generic version relation."
+      },
+      {
+        "example_id": "ex-a387cb4a3841",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "genetic variation among individuals"
+        ],
+        "rationale": "The phrase \"genetic variation among individuals\" directly states a biological difference among individuals, selecting sense:003. Sense:001 could describe an unspecified spread in responses, but it cannot account for the explicit genetic and among-individual relation."
+      },
+      {
+        "example_id": "ex-2cc857d8577b",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "variation on the original design",
+          "This version"
+        ],
+        "rationale": "The phrase \"variation on the original design\" and the subject \"This version\" explicitly identify a modified design based on an original, selecting sense:002. Sense:001 would describe a spread or change in a property, not this concrete version-to-source relation."
+      },
+      {
+        "example_id": "ex-0d6d12e3bfc7",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "genetic variation between populations"
+        ],
+        "rationale": "The phrase \"genetic variation between populations\" directly states a biological difference between populations, selecting sense:003. Sense:001 could express a general group difference, but it cannot account for the explicit genetic and population relation."
+      },
+      {
+        "example_id": "ex-39fad36d666f",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "genetic variation within a population in wing length"
+        ],
+        "rationale": "The phrase \"genetic variation within a population in wing length\" explicitly combines a population relation, a genetic basis, and a biological characteristic, selecting sense:003. Sense:001 could describe ordinary variation in a measurement, but it cannot account for the stated genetic population relation."
+      },
+      {
+        "example_id": "ex-797a834390ee",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "variation of the original method"
+        ],
+        "rationale": "The phrase \"variation of the original method\" makes the tested object a concrete altered method, selecting sense:002. Sense:001 could describe variability in results or procedure performance, but the headword itself is the modified method being tested."
+      },
+      {
+        "example_id": "ex-7b2140b58a45",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "develop a variation on the basic pattern"
+        ],
+        "rationale": "The phrase \"develop a variation on the basic pattern\" asks for a new concrete form based on an explicitly named pattern, selecting sense:002. Sense:001 would describe variability in patterns, not the deliberate creation of one altered version."
+      },
+      {
+        "example_id": "ex-b6888a115f45",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "seasonal variation"
+        ],
+        "rationale": "In \"The forecast takes seasonal variation into account,\" seasonal variation is a recurring change incorporated into a forecast, selecting sense:001. Sense:002 would require an object that is a modified version of an original, but no such version relation appears."
+      },
+      {
+        "example_id": "ex-5ee37dce9baf",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "variation on the melody",
+          "subtle rhythmic changes"
+        ],
+        "rationale": "The phrase \"variation on the melody\" with \"subtle rhythmic changes\" presents a musical development of a melody performed by a pianist, selecting sense:004. Sense:002 allows generic adaptation, but the melody-and-rhythm relation and the performance frame make the musical sense the natural reading."
+      },
+      {
+        "example_id": "ex-af028eea2fb1",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "Genetic variation within a species"
+        ],
+        "rationale": "The phrase \"Genetic variation within a species\" explicitly gives the within-species biological relation, selecting sense:003. Sense:001 could describe a general difference in disease response, but it would not account for the stated genetic and species-level relation."
+      },
+      {
+        "example_id": "ex-0b433bac63c7",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:006"
+        ],
+        "discriminating_terms": [
+          "variation order",
+          "additional work"
+        ],
+        "rationale": "The phrase \"variation order\" submitted by a contractor for \"additional work\" denotes a formal project or contract change instruction, selecting sense:006. Sense:002 would describe an ordinary altered version, not an order that changes contracted work."
+      },
+      {
+        "example_id": "ex-991efa2ce22a",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:005"
+        ],
+        "discriminating_terms": [
+          "classical ballet variation"
+        ],
+        "rationale": "The phrase \"classical ballet variation\" denotes a ballet solo prepared for a competition, selecting sense:005. Sense:004 would require a musical variation based on a theme or melody; the headword here is the dance number, as confirmed by the translation's ソロ演目."
+      },
+      {
+        "example_id": "ex-59387d74f453",
+        "classification": "ambiguous",
+        "candidate_sense_ids": [
+          "sense:001",
+          "sense:002"
+        ],
+        "discriminating_terms": [],
+        "rationale": "The sentence \"The editor introduced a slight variation in the wording of the original instructions.\" can mean a difference in wording (sense:001) or one edited wording/version derived from the original instructions (sense:002). The in-phrase and the editing context do not state whether the headword denotes an observed difference or a concrete alternative version, so neither candidate is excluded."
+      },
+      {
+        "example_id": "ex-aec5dd18d268",
+        "classification": "ambiguous",
+        "candidate_sense_ids": [
+          "sense:003",
+          "sense:001"
+        ],
+        "discriminating_terms": [],
+        "rationale": "The sentence \"The plant samples show variation in leaf shape and size.\" allows sense:003 because plant samples and leaf traits can express biological differences, but it also allows sense:001 because it simply reports observed variation in a characteristic. It does not state a genetic, within-species, individual, or population relation that excludes the general sense."
+      },
+      {
+        "example_id": "ex-81a40b28778c",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "variation of pressure with altitude"
+        ],
+        "rationale": "The construction \"variation of pressure with altitude\" explicitly relates change in the measurable quantity pressure to a change in altitude, selecting sense:001. Sense:003 requires biological individuals or populations, and sense:002 requires an altered object or method, neither of which is the headword's relation here."
+      },
+      {
+        "example_id": "ex-5398889377e3",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "paint samples",
+          "variation in color"
+        ],
+        "rationale": "The phrase \"variation in color\" across \"paint samples\" describes a general difference in a measured property, selecting sense:001. Sense:003 is excluded because the samples are paint rather than biological individuals, and sense:002 would require a modified version rather than color differences across samples."
+      },
+      {
+        "example_id": "ex-e35f7816ca5c",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "Genetic variation in drug response"
+        ],
+        "rationale": "The phrase \"Genetic variation in drug response\" makes the variation a genetically based difference in biological response, selecting sense:003. Sense:001 could describe an unspecified spread in responses, but it would leave the explicit genetic basis unexplained."
+      },
+      {
+        "example_id": "ex-23b5a8c063ec",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:006"
+        ],
+        "discriminating_terms": [
+          "variation to the contract",
+          "extending the delivery date"
+        ],
+        "rationale": "The phrase \"variation to the contract\" for \"extending the delivery date\" denotes a formal contractual change, selecting sense:006. Sense:002 could describe a generic altered version, but the parties' signed change to a contract term is the specialized legal relation."
+      }
+    ]
+  },
+  "aligned_at": "2026-09-17T15:22:21Z",
+  "findings": [
+    {
+      "taxonomy_id": "example_sense_attribution_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 74,
+        "line_end": 74,
+        "exact_quote": "例: The revised procedure is a minor variation from the standard procedure.  "
+      },
+      "severity": "blocking",
+      "rationale": "The blind attribution for \"例: The revised procedure is a minor variation from the standard procedure.  \" was ambiguous between sense:001 and sense:002. The body assigns it to sense:001. The sentence \"The revised procedure is a minor variation from the standard procedure.\" allows a deviation-from-standard reading under sense:001 and a concrete revised-method reading under sense:002. The from-phrase and the word revised do not settle whether the headword denotes the difference from the standard or the altered procedure as a version, so neither candidate is excluded. Because the ambiguity remains at the headword-relation level, this is a blocking example-attribution issue.",
+      "evidence_link_ids": [],
+      "suggested_direction": "判別語の追加",
+      "id": "recheck-example-attribution-001"
+    },
+    {
+      "taxonomy_id": "example_sense_attribution_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 160,
+        "line_end": 160,
+        "exact_quote": "例: The editor introduced a slight variation in the wording of the original instructions.  "
+      },
+      "severity": "blocking",
+      "rationale": "The blind attribution for \"例: The editor introduced a slight variation in the wording of the original instructions.  \" was ambiguous between sense:001 and sense:002. The body assigns it to sense:002. The sentence \"The editor introduced a slight variation in the wording of the original instructions.\" can mean a difference in wording (sense:001) or one edited wording/version derived from the original instructions (sense:002). The in-phrase and the editing context do not state whether the headword denotes an observed difference or a concrete alternative version, so neither candidate is excluded. Because the ambiguity remains at the headword-relation level, this is a blocking example-attribution issue.",
+      "evidence_link_ids": [],
+      "suggested_direction": "判別語の追加",
+      "id": "recheck-example-attribution-002"
+    },
+    {
+      "taxonomy_id": "example_sense_attribution_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 237,
+        "line_end": 237,
+        "exact_quote": "例: The plant samples show variation in leaf shape and size.  "
+      },
+      "severity": "blocking",
+      "rationale": "The blind attribution for \"例: The plant samples show variation in leaf shape and size.  \" was ambiguous between sense:003 and sense:001. The body assigns it to sense:003. The sentence \"The plant samples show variation in leaf shape and size.\" allows sense:003 because plant samples and leaf traits can express biological differences, but it also allows sense:001 because it simply reports observed variation in a characteristic. It does not state a genetic, within-species, individual, or population relation that excludes the general sense. Because the ambiguity remains at the headword-relation level, this is a blocking example-attribution issue.",
+      "evidence_link_ids": [],
+      "suggested_direction": "判別語の追加",
+      "id": "recheck-example-attribution-003"
+    }
+  ],
+  "unrouted_observations": []
+}
+
