@@ -1,8 +1,14 @@
 {
-  "schema_version": "pre_blind_resolution_v1",
-  "stage": "pre_blind_resolution",
-  "input_body_sha256": "f94b51a0c437869d997f727a89666bdfa4c5ffe575c78f10042998526972201c",
-  "output_body_sha256": "7a1c3221f86973c44779501d237f80e00ac2a3e694728b799759b77539e0492c",
+  "schema_version": "resolutions_v1",
+  "stage": "resolutions",
+  "run_id": "resolution-variation-20260913T012522Z-51385f93",
+  "context_id": "resolution-variation-context-20260913T012522Z-51385f93",
+  "input_body_sha256": "7a1c3221f86973c44779501d237f80e00ac2a3e694728b799759b77539e0492c",
+  "prompt_sha256": "a9d45b3ce76ce719002bdd08001e84be0fb984119e14376dc1cd2e964c7e3f92",
+  "input_artifacts": [
+    "entry_body",
+    "all_findings"
+  ],
   "recorded_at": "2026-09-17T16:40:47.255974+00:00",
   "resolutions": [
     {
@@ -450,5 +456,6 @@
     "schema_version": "process_improvement_learning_delta_v2",
     "reviewed": true,
     "items": []
-  }
+  },
+  "output_body_sha256": "7a1c3221f86973c44779501d237f80e00ac2a3e694728b799759b77539e0492c"
 }

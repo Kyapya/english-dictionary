@@ -1,0 +1,870 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "qualification",
+  "taxonomy_ids": [
+    "regional_qualification",
+    "absolute_scope_counterexample",
+    "technical_terminology_conventionality"
+  ],
+  "specification": "prompts/check_pass_qualification_v6.md",
+  "input_body_sha256": "7a1c3221f86973c44779501d237f80e00ac2a3e694728b799759b77539e0492c",
+  "input_sections": {
+    "etymology": [
+      {
+        "line": 17,
+        "text": "＃語源"
+      },
+      {
+        "line": 19,
+        "text": "現代英語 variation は、中英語 variacioun ← 古フランス語系のアングロフレンチ variation ← ラテン語 variātiō「変化、相違、変形」という流れでさかのぼる。ラテン語 variātiō は variare「変える、異ならせる」から作られ、variare は varius「さまざまな、異なる」と同語源である。  "
+      },
+      {
+        "line": 20,
+        "text": "語源欄では、ラテン語の「多様化・相違」という意味までを示す。現代英語で共有される「同じ型を保ちながら一部が異なる」という説明上の核は、次のコアイメージ欄で整理する。  "
+      }
+    ],
+    "word_formation": [
+      {
+        "line": 22,
+        "text": "＃語形成"
+      },
+      {
+        "line": 24,
+        "text": "・vary：動詞。「変わる、異なる、変える」。variation と同語源の関連動詞。  "
+      },
+      {
+        "line": 25,
+        "text": "・variable：形容詞・名詞。「変動する、可変の；変数」。variation と同語源の重要な関連語で、変化しうる性質や変化する値・要因を表す。  "
+      },
+      {
+        "line": 26,
+        "text": "・variant：名詞・形容詞。「異形、変種；異なる」。同じ語族で、同種のものの別形や標準形と異なる型を表し、語義2と特に関係が深い。  "
+      },
+      {
+        "line": 27,
+        "text": "・varied：形容詞。「変化に富んだ、さまざまな」。単に variation があるという意味と、内容が豊富だという評価を区別する。  "
+      },
+      {
+        "line": 28,
+        "text": "・various：形容詞。「さまざまな、種々の」。同じ語族だが、通常は名詞の前に置いて種類の多さを表す。  "
+      },
+      {
+        "line": 29,
+        "text": "・variety：名詞。「多様性、種類、変種」。variation が変化や個々の違いに焦点を置くのに対し、variety は種類の豊富さや選択肢に焦点を置きやすい。  "
+      },
+      {
+        "line": 30,
+        "text": "・variational：形容詞。数学・物理などで「変分の、変分法の」。一般会話の「変化に富む」という意味では使わない。  "
+      }
+    ],
+    "sense_structure": [
+      {
+        "line": 45,
+        "text": "1. 【名詞・不可算／可算】変化、変動、ばらつき"
+      },
+      {
+        "line": 47,
+        "text": "【日本語訳・定義】量・水準・品質・状態などが一定ではなく変わること、またはその変化の幅・ばらつきを表す。変動・ばらつきを総体として述べる場合は不可算が多く、個々の変化・差・型を数える場合は可算になることが多い。個々の対象間の差や専門分野の変異を主に述べる場合は、語義3などの用法になる。  "
+      },
+      {
+        "line": 131,
+        "text": "2. 【名詞・可算】基準から少し変えたもの、変形、別形"
+      },
+      {
+        "line": 133,
+        "text": "【日本語訳・定義】同じ基本的な考え方・型・方法を保ちながら、内容や構成の一部を変えたものを表す。元と無関係な別物ではなく、「元のものを少し変えた版」という含みがある。`a variation on ...` は「…を土台にした変形・アレンジ」として特に重要である。音楽の主題に基づく専門的な用法は語義4、契約条件の正式な変更は語義6で扱う。  "
+      },
+      {
+        "line": 198,
+        "text": "3. 【名詞・不可算／可算・生物学・遺伝学・医学】集団内の個体差、変異"
+      },
+      {
+        "line": 200,
+        "text": "【日本語訳・定義】同じ種に属する個体や集団の内部・集団間に見られる、遺伝的・構造的・機能的な差を表す。生物の同種・同群の特徴が一様でないことに焦点を置く専門用法である。  "
+      },
+      {
+        "line": 274,
+        "text": "4. 【名詞・可算・音楽】変奏；（複数・作品全体）変奏曲"
+      },
+      {
+        "line": 276,
+        "text": "【日本語訳・定義】主題や旋律を反復し、旋律・和声・リズム・調性などに変化や装飾を加えた短い音楽作品、またはその一つの展開を表す。単数の `a variation` は通常、一連の変奏のうちの一つの変奏を指し、`variations` 全体や作品全体を指す場合に「変奏曲」とする。  "
+      },
+      {
+        "line": 322,
+        "text": "5. 【名詞・可算・バレエ】ソロ演目、独舞"
+      },
+      {
+        "line": 324,
+        "text": "【日本語訳・定義】クラシック・バレエで、踊り手が一人で踊る独舞・ソロ番号、または作品内のソロ部分を表す。音楽の変奏曲ではなく、舞踊作品上の演目名である。  "
+      },
+      {
+        "line": 365,
+        "text": "6. 【名詞・可算／不可算・契約・法務】契約変更、契約変更事項"
+      },
+      {
+        "line": 367,
+        "text": "【日本語訳・定義】契約締結後に、作業範囲・仕様・数量・価格・納期などの契約条件を変更すること、またはその変更内容を表す。契約書に定められた手続に従い、当事者の合意・承認・記録を伴う専門用法である。  "
+      },
+      {
+        "line": 403,
+        "text": "7. 【名詞句・不可算・航海・地球科学・測量】magnetic variation＝磁気偏角"
+      },
+      {
+        "line": 405,
+        "text": "【日本語訳・定義】複合表現 `magnetic variation` は、地球上のある地点で真北と磁北がなす水平角、またはその方位差を表す。地域や時期によって異なるため、航海・測量・方位の補正で考慮される。  "
+      }
+    ],
+    "frequency_register": [
+      {
+        "line": 45,
+        "text": "1. 【名詞・不可算／可算】変化、変動、ばらつき"
+      },
+      {
+        "line": 49,
+        "text": "【頻度】〈8/10〉  "
+      },
+      {
+        "line": 51,
+        "text": "【レジスター/領域】標準語。量・水準・品質などの変化や、同種の対象の間の差を一般に述べる。データや価格では「変動」「ばらつき」、対象間の比較では「差異」「違い」と訳し分ける。  "
+      },
+      {
+        "line": 131,
+        "text": "2. 【名詞・可算】基準から少し変えたもの、変形、別形"
+      },
+      {
+        "line": 135,
+        "text": "【頻度】〈8/10〉  "
+      },
+      {
+        "line": 137,
+        "text": "【レジスター/領域】標準語。同じ一般的な型・構成を保った別形やアレンジを述べる。契約・法務の専門用法については語義6を参照。音楽の `variation on a theme` は語義4で扱う。  "
+      },
+      {
+        "line": 198,
+        "text": "3. 【名詞・不可算／可算・生物学・遺伝学・医学】集団内の個体差、変異"
+      },
+      {
+        "line": 202,
+        "text": "【頻度】〈6/10〉  "
+      },
+      {
+        "line": 204,
+        "text": "【レジスター/領域】生物学・遺伝学などで使う専門語。同じ種・集団の個体差や集団間の差を述べる。  "
+      },
+      {
+        "line": 274,
+        "text": "4. 【名詞・可算・音楽】変奏；（複数・作品全体）変奏曲"
+      },
+      {
+        "line": 278,
+        "text": "【頻度】〈5/10〉  "
+      },
+      {
+        "line": 280,
+        "text": "【レジスター/領域】音楽の専門用法。主題や旋律を変化させた作品・展開を指す。  "
+      },
+      {
+        "line": 322,
+        "text": "5. 【名詞・可算・バレエ】ソロ演目、独舞"
+      },
+      {
+        "line": 326,
+        "text": "【頻度】〈3/10〉  "
+      },
+      {
+        "line": 328,
+        "text": "【レジスター/領域】バレエの専門用法。一般会話では通常「ソロ」「ソロ演目」と説明し、作品名やコンクールの演目を述べる場面で variation を使う。  "
+      },
+      {
+        "line": 365,
+        "text": "6. 【名詞・可算／不可算・契約・法務】契約変更、契約変更事項"
+      },
+      {
+        "line": 369,
+        "text": "【頻度】〈2/10〉  "
+      },
+      {
+        "line": 371,
+        "text": "【レジスター/領域】契約実務、調達、建設・プロジェクト管理などの専門用法。`variation`、`variation clause`、`variation order` の優勢な形は法域・契約類型によって異なるため、契約書の定義条項と適用法を確認する。  "
+      },
+      {
+        "line": 403,
+        "text": "7. 【名詞句・不可算・航海・地球科学・測量】magnetic variation＝磁気偏角"
+      },
+      {
+        "line": 407,
+        "text": "【頻度】〈2/10〉  "
+      },
+      {
+        "line": 409,
+        "text": "【レジスター/領域】航海、海図、地球科学、測量などの専門用法。`magnetic variation` は航海・海図で定着している一方、地球科学・測量では通常 `magnetic declination` が使われるなど、分野・地域・規格によって呼び方が異なる。  "
+      }
+    ],
+    "usage_notes": [
+      {
+        "line": 45,
+        "text": "1. 【名詞・不可算／可算】変化、変動、ばらつき"
+      },
+      {
+        "line": 97,
+        "text": "【語法・注意】variation は変動やばらつきを総体として述べるときは不可算が多く、a variation/variations は個々の変化・差・型を数えるときに使われることが多い。ただし、可算・不可算は意味だけで機械的に決まるものではなく、焦点や文脈によって揺れる。`variation in prices` は価格の変動、`variations in prices` は複数の価格差・変動の例を指しやすい。`variation from the norm/standard` は比較の基準からのずれを表し、`difference` は2つ以上の対象の差に焦点を置く。`variety` は選択肢や種類の豊富さを表すことが多く、単なる数値の変動には通常 variation を使う。本文の〈n/10〉は辞書の頻度順位を直接数値化したものではなく、学習上の目安としての編集評価である。  "
+      },
+      {
+        "line": 131,
+        "text": "2. 【名詞・可算】基準から少し変えたもの、変形、別形"
+      },
+      {
+        "line": 173,
+        "text": "【語法・注意】`variation on` は元の型・設計・考えを土台にした別形を指すため、語義2の代表表現である。`variation of` も元のものの別形を表すことが多い。これに対し `variation from the norm/standard` は比較の基準を示し、そこからの相違・ずれに焦点を置くため、語義1で扱う。`a variation from the original` も文法的には可能だが、元の設計を基にした別形という意味なら `a variation on the original design` の方が自然である。音楽の `a variation on a theme` は語義4で扱い、ここでは物語・考えなどの比喩的な展開として読む。契約・法務の `variation of/to the contract` は正式な契約変更を表し、一般用法の「元の型を基にした別形」とは文脈が異なる。`alternative` は元の案の代替として選べる別案、`variation` は元の案との連続性を保った変形である。  "
+      },
+      {
+        "line": 198,
+        "text": "3. 【名詞・不可算／可算・生物学・遺伝学・医学】集団内の個体差、変異"
+      },
+      {
+        "line": 240,
+        "text": "【語法・注意】生物学の `variation` は、集団内の差という現象にも、その差を示す特徴にも使われる。`deviation` が基準・平均から外れることに焦点を置くのに対し、`variation` は個体・集団間の差やその分布を述べる。`mutation` は遺伝物質の配列に起きる変化、`genetic variation` は個体・集団間に観察される遺伝的差の状態・分布を指し、mutation は variation の原因の一つである。両語は同義ではない。  "
+      },
+      {
+        "line": 274,
+        "text": "4. 【名詞・可算・音楽】変奏；（複数・作品全体）変奏曲"
+      },
+      {
+        "line": 311,
+        "text": "【語法・注意】音楽では通常可算で、`a variation on a theme` は「主題に基づく一つの変奏」、`play/perform a variation` は「変奏を演奏する」と捉える。`a set of variations` や `variations` が一連の変奏・作品全体を指す場合は「変奏曲」「変奏曲集」と訳す。比喩的な `variations on a theme` は元の考えを少し変えた複数の展開を意味する。単に別の演奏や録音を指すときは variation ではなく version や arrangement が自然な場合がある。  "
+      },
+      {
+        "line": 322,
+        "text": "5. 【名詞・可算・バレエ】ソロ演目、独舞"
+      },
+      {
+        "line": 354,
+        "text": "【語法・注意】この用法の variation は、演奏する曲ではなく踊る演目を指す。バレエ以外の一般的な一人の踊りを述べるなら solo または solo dance の方が広く使える。作品中の一場面全体ではなく、独舞として切り出された部分を指す点に注意する。  "
+      },
+      {
+        "line": 365,
+        "text": "6. 【名詞・可算／不可算・契約・法務】契約変更、契約変更事項"
+      },
+      {
+        "line": 392,
+        "text": "【語法・注意】この用法の variation は、単なる別案ではなく、既存契約を変更する正式な行為・変更事項を指す。`amendment` や `modification` と重なるが、`variation order` は工事・プロジェクトの変更指示を特に指しやすい。用語の優勢な形は法域や分野によって異なるため、契約書の定義条項と適用法を確認する。  "
+      },
+      {
+        "line": 403,
+        "text": "7. 【名詞句・不可算・航海・地球科学・測量】magnetic variation＝磁気偏角"
+      },
+      {
+        "line": 420,
+        "text": "【語法・注意】この用法は一般的な「変動」ではなく、真北に対する磁北の角度を指す。航海・海図では `magnetic variation` が伝統的・実務的に使われるが、地球科学・測量では `magnetic declination` が一般的な場合がある。両表現の優勢さは分野・地域・規格によって異なる。  "
+      }
+    ],
+    "collocations_examples": [
+      {
+        "line": 45,
+        "text": "1. 【名詞・不可算／可算】変化、変動、ばらつき"
+      },
+      {
+        "line": 55,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 57,
+        "text": "・considerable variation in something  "
+      },
+      {
+        "line": 58,
+        "text": "用途: 〈何か〉にかなり大きな差やばらつきがあることを表す。  "
+      },
+      {
+        "line": 59,
+        "text": "例: There is considerable variation in the time needed to complete the task.  "
+      },
+      {
+        "line": 60,
+        "text": "訳: その作業を終えるのに必要な時間にはかなりのばらつきがある。  "
+      },
+      {
+        "line": 62,
+        "text": "・slight variation in something  "
+      },
+      {
+        "line": 63,
+        "text": "用途: 基本的には同じだが、わずかな違いがあることを表す。  "
+      },
+      {
+        "line": 64,
+        "text": "例: The two paint samples showed only slight variation in color.  "
+      },
+      {
+        "line": 65,
+        "text": "訳: その2つの塗料見本には色のわずかな違いしか見られなかった。  "
+      },
+      {
+        "line": 67,
+        "text": "・wide variation between 〈A〉 and 〈B〉  "
+      },
+      {
+        "line": 68,
+        "text": "用途: 2つの対象の値・状態・結果が大きく異なることを示す。  "
+      },
+      {
+        "line": 69,
+        "text": "例: The study found wide variation between schools in the use of digital devices.  "
+      },
+      {
+        "line": 70,
+        "text": "訳: その研究では、デジタル機器の使用について学校間に大きな差が見つかった。  "
+      },
+      {
+        "line": 72,
+        "text": "・a variation from 〈the norm/standard〉  "
+      },
+      {
+        "line": 73,
+        "text": "用途: 基準・標準からの相違やずれを強調する。元のものを土台にした別形を中立的に指す場合は、語義2の `variation on` の方が典型的である。  "
+      },
+      {
+        "line": 74,
+        "text": "例: The revised procedure shows only slight variation from the standard procedure in its timing.  "
+      },
+      {
+        "line": 75,
+        "text": "訳: 改訂された手順は、実施時間の点で標準手順からわずかに異なる。  "
+      },
+      {
+        "line": 77,
+        "text": "・seasonal variation in 〈demand/temperature〉  "
+      },
+      {
+        "line": 78,
+        "text": "用途: 季節によって繰り返し生じる需要や温度の変化を指す。  "
+      },
+      {
+        "line": 79,
+        "text": "例: The store adjusts its stock for seasonal variation in demand.  "
+      },
+      {
+        "line": 80,
+        "text": "訳: その店は需要の季節変動に合わせて在庫を調整する。  "
+      },
+      {
+        "line": 82,
+        "text": "・variation according to 〈a factor〉  "
+      },
+      {
+        "line": 83,
+        "text": "用途: 地域・条件・時間などの要因に応じて値が変わることを述べる。  "
+      },
+      {
+        "line": 84,
+        "text": "例: The survey found considerable variation according to age and region.  "
+      },
+      {
+        "line": 85,
+        "text": "訳: その調査では、年齢と地域によってかなりの差が見つかった。  "
+      },
+      {
+        "line": 87,
+        "text": "・the variation of 〈A〉 with 〈B〉  "
+      },
+      {
+        "line": 88,
+        "text": "用途: 〈B〉の変化に伴って〈A〉がどう変わるかという関係を、やや学術的に表す。  "
+      },
+      {
+        "line": 89,
+        "text": "例: The graph shows the variation of temperature with altitude.  "
+      },
+      {
+        "line": 90,
+        "text": "訳: そのグラフは高度に伴う温度の変化を示している。  "
+      },
+      {
+        "line": 92,
+        "text": "・take 〈seasonal variation〉 into account  "
+      },
+      {
+        "line": 93,
+        "text": "用途: 予測や計画で、一定ではない季節要因を考慮する。  "
+      },
+      {
+        "line": 94,
+        "text": "例: The forecast takes seasonal variation into account.  "
+      },
+      {
+        "line": 95,
+        "text": "訳: その予測は季節変動を考慮に入れている。  "
+      },
+      {
+        "line": 131,
+        "text": "2. 【名詞・可算】基準から少し変えたもの、変形、別形"
+      },
+      {
+        "line": 141,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 143,
+        "text": "・a variation on 〈an idea/a story〉  "
+      },
+      {
+        "line": 144,
+        "text": "用途: 同じ中心的な考えや筋を保った、一般用法での別の展開を表す。音楽の専門用法は語義4で扱う。  "
+      },
+      {
+        "line": 145,
+        "text": "例: The novel is a clever variation on a familiar coming-of-age story.  "
+      },
+      {
+        "line": 146,
+        "text": "訳: その小説は、よく知られた成長物語を巧みに変形した作品だ。  "
+      },
+      {
+        "line": 148,
+        "text": "・a variation on 〈a traditional dish/a traditional story〉  "
+      },
+      {
+        "line": 149,
+        "text": "用途: 伝統的な料理や物語を少し変えたものを指す。  "
+      },
+      {
+        "line": 150,
+        "text": "例: This soup is a lighter variation on a traditional winter dish.  "
+      },
+      {
+        "line": 151,
+        "text": "訳: このスープは伝統的な冬の料理をより軽めにしたアレンジだ。  "
+      },
+      {
+        "line": 153,
+        "text": "・a variation on 〈the original method〉  "
+      },
+      {
+        "line": 154,
+        "text": "用途: 既存の方法と基本は同じで、一部が異なる版を表す。  "
+      },
+      {
+        "line": 155,
+        "text": "例: The team tested a variation on the original method.  "
+      },
+      {
+        "line": 156,
+        "text": "訳: そのチームは元の方法を土台にした変形版を試した。  "
+      },
+      {
+        "line": 158,
+        "text": "・a slight variation on 〈the original instructions〉  "
+      },
+      {
+        "line": 159,
+        "text": "用途: 元の説明書を土台に、表現や形式を少し変えた別版を表す。  "
+      },
+      {
+        "line": 160,
+        "text": "例: The editor created a slight variation on the original instructions by revising the wording.  "
+      },
+      {
+        "line": 161,
+        "text": "訳: その編集者は文言を改め、元の説明書を少し変えた別版を作成した。  "
+      },
+      {
+        "line": 163,
+        "text": "・a variation on the original design  "
+      },
+      {
+        "line": 164,
+        "text": "用途: 元の設計を土台にした別形・アレンジを表す。語義2の代表的な表現。  "
+      },
+      {
+        "line": 165,
+        "text": "例: This version is a useful variation on the original design.  "
+      },
+      {
+        "line": 166,
+        "text": "訳: この版は元の設計を土台にした有用なアレンジだ。  "
+      },
+      {
+        "line": 168,
+        "text": "・variations on 〈a theme〉  "
+      },
+      {
+        "line": 169,
+        "text": "用途: 同じ中心的な考えや主題を少しずつ変えた複数の展開を表す。  "
+      },
+      {
+        "line": 170,
+        "text": "例: Many theories on punishment are variations on a theme.  "
+      },
+      {
+        "line": 171,
+        "text": "訳: 刑罰についての多くの理論は、同じ主題を変形した展開である。  "
+      },
+      {
+        "line": 198,
+        "text": "3. 【名詞・不可算／可算・生物学・遺伝学・医学】集団内の個体差、変異"
+      },
+      {
+        "line": 208,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 210,
+        "text": "・genetic variation within 〈a species〉  "
+      },
+      {
+        "line": 211,
+        "text": "用途: 同じ種の個体間にある遺伝的な違いを表す。  "
+      },
+      {
+        "line": 212,
+        "text": "例: Genetic variation within a species can affect its response to disease.  "
+      },
+      {
+        "line": 213,
+        "text": "訳: 種内の遺伝的変異は、病気への反応に影響することがある。  "
+      },
+      {
+        "line": 215,
+        "text": "・genetic variation among 〈individuals〉  "
+      },
+      {
+        "line": 216,
+        "text": "用途: 個体ごとの遺伝的な違いが一様でないことを述べる。  "
+      },
+      {
+        "line": 217,
+        "text": "例: The study found substantial genetic variation among individuals in their response to the vaccine.  "
+      },
+      {
+        "line": 218,
+        "text": "訳: その研究では、ワクチンへの反応に個体間の大きな遺伝的差が見つかった。  "
+      },
+      {
+        "line": 220,
+        "text": "・variation within 〈a population〉  "
+      },
+      {
+        "line": 221,
+        "text": "用途: 同じ集団内で見られる、遺伝的・形態的・生理的などの個体差を表す。  "
+      },
+      {
+        "line": 222,
+        "text": "例: The study measured genetic variation within a population in wing length over several generations.  "
+      },
+      {
+        "line": 223,
+        "text": "訳: その研究は、数世代にわたる集団内の翼長における遺伝的変異を測定した。  "
+      },
+      {
+        "line": 225,
+        "text": "・genetic variation between 〈populations〉  "
+      },
+      {
+        "line": 226,
+        "text": "用途: 異なる集団の間にある遺伝的な違いを表す。  "
+      },
+      {
+        "line": 227,
+        "text": "例: The researchers compared genetic variation between populations living in different environments.  "
+      },
+      {
+        "line": 228,
+        "text": "訳: 研究者たちは、異なる環境に住む集団間の遺伝的変異を比較した。  "
+      },
+      {
+        "line": 230,
+        "text": "・genetic variation in 〈drug response〉  "
+      },
+      {
+        "line": 231,
+        "text": "用途: 遺伝的な違いによって薬への反応が異なることを表す。  "
+      },
+      {
+        "line": 232,
+        "text": "例: Genetic variation in drug response should be considered when interpreting the results.  "
+      },
+      {
+        "line": 233,
+        "text": "訳: 結果を解釈する際は、薬物反応における遺伝的変異を考慮すべきだ。  "
+      },
+      {
+        "line": 235,
+        "text": "・show variation in 〈a characteristic〉  "
+      },
+      {
+        "line": 236,
+        "text": "用途: 特定の特徴に個体差や形式差があることを、観察・調査結果として述べる。  "
+      },
+      {
+        "line": 237,
+        "text": "例: The plant samples show genetic variation in leaf shape and size within a species.  "
+      },
+      {
+        "line": 238,
+        "text": "訳: その種の植物試料では、葉の形と大きさに遺伝的変異が見られる。  "
+      },
+      {
+        "line": 274,
+        "text": "4. 【名詞・可算・音楽】変奏；（複数・作品全体）変奏曲"
+      },
+      {
+        "line": 284,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 286,
+        "text": "・a set of variations on 〈a theme〉  "
+      },
+      {
+        "line": 287,
+        "text": "用途: 1つの主題と、それに続く複数の変奏からなる一作品・一組を表す。個々の変奏が独立した別作品であることを必須としない。  "
+      },
+      {
+        "line": 288,
+        "text": "例: The concert opened with a set of variations on a folk melody.  "
+      },
+      {
+        "line": 289,
+        "text": "訳: その演奏会は民謡の旋律による変奏曲集で幕を開けた。  "
+      },
+      {
+        "line": 291,
+        "text": "・theme and variations  "
+      },
+      {
+        "line": 292,
+        "text": "用途: 主題を最初に示し、その後に複数の変奏を続ける形式を指す。  "
+      },
+      {
+        "line": 293,
+        "text": "例: The pianist chose a demanding theme and variations for the recital.  "
+      },
+      {
+        "line": 294,
+        "text": "訳: そのピアニストはリサイタルに、難度の高い主題と変奏曲を選んだ。  "
+      },
+      {
+        "line": 296,
+        "text": "・a variation on 〈a melody〉  "
+      },
+      {
+        "line": 297,
+        "text": "用途: ある旋律をもとにした、一連の変奏のうちの一つの変奏を指す。  "
+      },
+      {
+        "line": 298,
+        "text": "例: The pianist performed a variation on the melody with subtle rhythmic changes.  "
+      },
+      {
+        "line": 299,
+        "text": "訳: そのピアニストは、リズムを微妙に変えたその旋律の一つの変奏を演奏した。  "
+      },
+      {
+        "line": 301,
+        "text": "・play a variation  "
+      },
+      {
+        "line": 302,
+        "text": "用途: 演奏者が一連の変奏のうちの一つの変奏を演奏することを表す。  "
+      },
+      {
+        "line": 303,
+        "text": "例: She played the final variation with remarkable clarity.  "
+      },
+      {
+        "line": 304,
+        "text": "訳: 彼女は最後の変奏を見事な明瞭さで演奏した。  "
+      },
+      {
+        "line": 306,
+        "text": "・variations on 〈a theme〉  "
+      },
+      {
+        "line": 307,
+        "text": "用途: 一つの主題をもとにした複数の変奏を表す。  "
+      },
+      {
+        "line": 308,
+        "text": "例: The program included variations on a theme by Mozart.  "
+      },
+      {
+        "line": 309,
+        "text": "訳: そのプログラムにはモーツァルトの主題による変奏曲が含まれていた。  "
+      },
+      {
+        "line": 322,
+        "text": "5. 【名詞・可算・バレエ】ソロ演目、独舞"
+      },
+      {
+        "line": 332,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 334,
+        "text": "・perform a variation  "
+      },
+      {
+        "line": 335,
+        "text": "用途: バレエのソロ演目を舞台や審査で踊ることを表す。  "
+      },
+      {
+        "line": 336,
+        "text": "例: The dancer performed her variation with controlled, precise movements.  "
+      },
+      {
+        "line": 337,
+        "text": "訳: そのダンサーは抑制の効いた正確な動きでソロ演目を踊った。  "
+      },
+      {
+        "line": 339,
+        "text": "・a classical ballet variation  "
+      },
+      {
+        "line": 340,
+        "text": "用途: クラシック・バレエの定型的なソロ演目を指す。  "
+      },
+      {
+        "line": 341,
+        "text": "例: She is preparing a classical ballet variation for the competition.  "
+      },
+      {
+        "line": 342,
+        "text": "訳: 彼女はコンクールに向けてクラシック・バレエのソロ演目を準備している。  "
+      },
+      {
+        "line": 344,
+        "text": "・a variation from 〈a ballet〉  "
+      },
+      {
+        "line": 345,
+        "text": "用途: 特定のバレエ作品に含まれるソロ演目を示す。  "
+      },
+      {
+        "line": 346,
+        "text": "例: He chose a variation from The Sleeping Beauty for the audition.  "
+      },
+      {
+        "line": 347,
+        "text": "訳: 彼はオーディションに『眠れる森の美女』のソロ演目を選んだ。  "
+      },
+      {
+        "line": 349,
+        "text": "・rehearse a variation  "
+      },
+      {
+        "line": 350,
+        "text": "用途: 本番用のソロ演目を繰り返し練習することを表す。  "
+      },
+      {
+        "line": 351,
+        "text": "例: The students rehearsed a variation from the ballet before class.  "
+      },
+      {
+        "line": 352,
+        "text": "訳: 生徒たちは授業の前に、そのバレエ作品のソロ演目を練習した。  "
+      },
+      {
+        "line": 365,
+        "text": "6. 【名詞・可算／不可算・契約・法務】契約変更、契約変更事項"
+      },
+      {
+        "line": 375,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 377,
+        "text": "・a variation to 〈the contract〉  "
+      },
+      {
+        "line": 378,
+        "text": "用途: 既存契約の条件を正式に変更したこと、またはその変更事項を表す。`variation of the contract` も使われるが、前置詞と用法は法域・契約書によって異なる。  "
+      },
+      {
+        "line": 379,
+        "text": "例: The parties signed a variation to the contract extending the delivery date.  "
+      },
+      {
+        "line": 380,
+        "text": "訳: 当事者は納期を延長する契約変更書に署名した。  "
+      },
+      {
+        "line": 382,
+        "text": "・a variation clause  "
+      },
+      {
+        "line": 383,
+        "text": "用途: 契約条件を変更できる範囲と手続を定める条項を指す。  "
+      },
+      {
+        "line": 384,
+        "text": "例: The contract includes a variation clause covering changes to the scope of work.  "
+      },
+      {
+        "line": 385,
+        "text": "訳: その契約には作業範囲の変更を対象とする契約変更条項が含まれている。  "
+      },
+      {
+        "line": 387,
+        "text": "・a variation order  "
+      },
+      {
+        "line": 388,
+        "text": "用途: 特に建設・プロジェクト文脈で、追加・削除・変更する作業を正式に指示する文書や指示を表す。  "
+      },
+      {
+        "line": 389,
+        "text": "例: The contractor submitted a variation order for the additional work.  "
+      },
+      {
+        "line": 390,
+        "text": "訳: 請負業者は追加工事について変更指示書を提出した。  "
+      },
+      {
+        "line": 403,
+        "text": "7. 【名詞句・不可算・航海・地球科学・測量】magnetic variation＝磁気偏角"
+      },
+      {
+        "line": 413,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 415,
+        "text": "・magnetic variation  "
+      },
+      {
+        "line": 416,
+        "text": "用途: 真北と磁北の方位差を、航海や測量で扱う専門表現。  "
+      },
+      {
+        "line": 417,
+        "text": "例: Navigators must account for magnetic variation when plotting a course.  "
+      },
+      {
+        "line": 418,
+        "text": "訳: 航海者は航路を設定する際に磁気偏角を考慮しなければならない。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "1cf8a434bbe1213c0ef739f4c47ffb41014ab2cd5156d297471af6df85ae40a2",
+  "source_artifact_sha256": "c9a2ac662d00d24d8b764e44bddbe8d7948960ebfcf5fcac047adce949ec7bc1",
+  "normalized_input_sha256": "df05d86245ad812aea09f9f6686369444c931c74ba52f135e6bd62374e8cda91"
+}

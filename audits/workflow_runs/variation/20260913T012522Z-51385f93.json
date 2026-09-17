@@ -629,6 +629,15 @@
         ],
         "receipt_event_id": "workflow:20260913T012522Z-51385f93:pre_blind_resolution:d1af6b65061d",
         "recorded_at": "2026-09-17T15:14:31Z"
+      },
+      "post_blind_resolution": {
+        "status": "save_error",
+        "source_refs": [
+          "audits/runs/v/variation/20260913T012522Z-51385f93/post_blind_resolution.json",
+          "audits/runs/v/variation/20260913T012522Z-51385f93/resolutions.json"
+        ],
+        "reason": "multiple learning_delta payloads found for one stage",
+        "recorded_at": "2026-09-17T16:14:32Z"
       }
     },
     "pending_events": [
@@ -735,11 +744,11 @@
       {
         "id": "post_blind_resolution",
         "instruction_bytes": 5411,
-        "input_bytes": 0,
+        "input_bytes": 25777,
         "duration_seconds": 0.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "final_review",
@@ -835,7 +844,7 @@
     }
   },
   "orchestrator_state": {
-    "next_stage_index": 9,
+    "next_stage_index": 10,
     "completed_stages": [
       "guard_start",
       "generation",
@@ -845,7 +854,8 @@
       "pre_blind_resolution",
       "checker_recheck",
       "final_blind",
-      "blind_seal"
+      "blind_seal",
+      "post_blind_resolution"
     ],
     "stage_outputs": {
       "generation": [
@@ -875,6 +885,11 @@
       ],
       "blind_seal": [
         "audits/runs/v/variation/20260913T012522Z-51385f93/blind_seal.json"
+      ],
+      "post_blind_resolution": [
+        "audits/runs/v/variation/20260913T012522Z-51385f93/post_blind_resolution.json",
+        "audits/runs/v/variation/20260913T012522Z-51385f93/post_blind_verification.json",
+        "audits/runs/v/variation/20260913T012522Z-51385f93/resolutions.json"
       ]
     }
   },
