@@ -150,7 +150,19 @@ def _validate_before_upload(root: Path, value: dict, validation_mode: str) -> No
     changed = {item["path"] for commit in value["commits"] for item in commit["entries"]}
     if not any(path.startswith(("entries/", "audits/", "queue/")) for path in changed):
         return
-    commands = [("entry_workflow_guard.py", ["validate-changed"])]
+    if validation_mode == "checkpoint":
+        manifests = sorted(
+            path for path in changed
+            if path.startswith("audits/workflow_runs/") and path.endswith(".json")
+        )
+        if not manifests:
+            raise ValueError("checkpoint publication requires a changed workflow manifest")
+        commands = [
+            ("entry_workflow_guard.py", ["validate-one", path])
+            for path in manifests
+        ]
+    else:
+        commands = [("entry_workflow_guard.py", ["validate-changed"])]
     if validation_mode == "merge-ready":
         commands = [("entry_workflow_guard.py", ["validate-changed", "--merge-ready"]),
                     ("checker_subagent_gate.py", ["validate-changed"]),
@@ -165,7 +177,8 @@ def _validate_before_upload(root: Path, value: dict, validation_mode: str) -> No
             raise ValueError("publication validation script missing: " + script)
         result = subprocess.run(
             [sys.executable, "-X", "utf8", str(path), *args,
-             "--base", value["local_base"], "--head", value["local_head"]],
+             *([] if validation_mode == "checkpoint" else
+               ["--base", value["local_base"], "--head", value["local_head"]])],
             cwd=root, capture_output=True, text=True, encoding="utf-8", timeout=120,
         )
         if result.returncode:

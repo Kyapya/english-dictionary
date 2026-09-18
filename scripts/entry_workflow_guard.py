@@ -966,6 +966,15 @@ def command_validate(args: argparse.Namespace) -> int:
     return _validate_paths(_all_run_paths(), merge_ready=args.merge_ready)
 
 
+def command_validate_one(args: argparse.Namespace) -> int:
+    try:
+        path = _resolve_run_argument(args.run)
+    except ValueError as exc:
+        print(f"FAIL {exc}", file=sys.stderr)
+        return 1
+    return _validate_paths([path], merge_ready=args.merge_ready)
+
+
 def command_validate_changed(args: argparse.Namespace) -> int:
     changed = _changed_files(args.base, args.head)
     changed_runs = {
@@ -1070,6 +1079,11 @@ def build_parser() -> argparse.ArgumentParser:
     validate = sub.add_parser("validate")
     validate.add_argument("--merge-ready", action="store_true")
     validate.set_defaults(func=command_validate)
+
+    validate_one = sub.add_parser("validate-one")
+    validate_one.add_argument("run")
+    validate_one.add_argument("--merge-ready", action="store_true")
+    validate_one.set_defaults(func=command_validate_one)
 
     changed = sub.add_parser("validate-changed")
     changed.add_argument("--base", required=True)
