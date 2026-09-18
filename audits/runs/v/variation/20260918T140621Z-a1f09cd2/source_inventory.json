@@ -1,0 +1,907 @@
+{
+  "schema_version": "source_inventory_v2",
+  "stage": "source_inventory",
+  "headword": "variation",
+  "run_id": "source-variation-20260918T140621Z-a1f09cd2",
+  "context_id": "source-variation-context-20260918T140621Z-a1f09cd2",
+  "input_body_sha256": "740938933d59b593ced949bcefeacb196be4fe4abe225f45b86cff08d4d9cadb",
+  "prompt_sha256": "0377df9f9e2eeeed2d38f6a7072f675fc4eea38e948ed672004f96bc2d88f783",
+  "input_artifacts": [
+    "headword",
+    "source_first_spec"
+  ],
+  "recorded_at": "2026-09-18T14:11:52Z",
+  "evidence_link_ids": [
+    "ev-variation-general",
+    "ev-variation-collins",
+    "ev-variation-contract",
+    "ev-variation-magnetic",
+    "ev-variation-order",
+    "ev-variable",
+    "ev-variant",
+    "ev-ballet"
+  ],
+  "source_first_audit": {
+    "version": "source_first_audit_v2",
+    "profile": "extended",
+    "profile_reason": "Eight directly accessible sources cover the revised general, related-word, legal, magnetic, music, ballet, biology, pronunciation, and etymology claims.",
+    "limits": {
+      "max_sources": 8,
+      "max_facts": 80,
+      "max_research_rounds": 3,
+      "max_post_cold_rechecks": null,
+      "max_final_attempts": 2
+    },
+    "usage": {
+      "sources_used": 8,
+      "facts_used": 37,
+      "research_rounds_used": 1,
+      "post_cold_rechecks_used": 0,
+      "final_attempts_used": 0
+    },
+    "research_status": "complete",
+    "stop_reason": "Coverage completed with directly accessible source pages and official documents.",
+    "open_questions": [],
+    "inventory_completed_before_article_comparison": true,
+    "inventory_completed_at": "2026-09-18T14:11:52Z",
+    "article_comparison_started_at": "2026-09-18T14:11:53Z",
+    "coverage_axes": [
+      {
+        "axis": "lexical_senses",
+        "status": "covered",
+        "source_fact_ids": [
+          "OX-01",
+          "OX-02",
+          "CO-01",
+          "CO-02"
+        ]
+      },
+      {
+        "axis": "part_of_speech_and_frames",
+        "status": "covered",
+        "source_fact_ids": [
+          "OX-03",
+          "OX-04",
+          "OX-07",
+          "CO-09"
+        ]
+      },
+      {
+        "axis": "derived_and_related_forms",
+        "status": "covered",
+        "source_fact_ids": [
+          "OX-09",
+          "MV-01",
+          "MV-02",
+          "MV-03",
+          "MT-01",
+          "MT-02",
+          "MT-03"
+        ]
+      },
+      {
+        "axis": "specialist_and_legal_uses",
+        "status": "covered",
+        "source_fact_ids": [
+          "OX-05",
+          "OX-08",
+          "CO-03",
+          "CO-05",
+          "CO-06",
+          "CO-07",
+          "WA-01",
+          "WA-02",
+          "WA-03",
+          "WA-04",
+          "HK-01",
+          "HK-02",
+          "COA-01",
+          "COA-02",
+          "YAGP-01",
+          "YAGP-02",
+          "YAGP-03",
+          "YAGP-04"
+        ]
+      },
+      {
+        "axis": "register_region_and_frequency",
+        "status": "covered",
+        "source_fact_ids": [
+          "CO-03",
+          "CO-05",
+          "WA-01",
+          "HK-01",
+          "YAGP-01"
+        ]
+      },
+      {
+        "axis": "pronunciation_and_etymology",
+        "status": "covered",
+        "source_fact_ids": [
+          "OX-06",
+          "OX-10",
+          "CO-04",
+          "CO-08",
+          "MV-03",
+          "MT-03"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "src-oxford-variation",
+        "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/variation",
+        "source_type": "learner_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "oxford-learners",
+        "facts": [
+          {
+            "id": "OX-01",
+            "form": "variation",
+            "kind": "lexical_sense",
+            "statement": "variation can mean a change in the amount or level of something",
+            "source_detail": "Oxford Learner's Dictionaries, noun definition 1"
+          },
+          {
+            "id": "OX-02",
+            "form": "variation",
+            "kind": "lexical_sense",
+            "statement": "a variation can be a thing different from other things in the same general group",
+            "source_detail": "Oxford Learner's Dictionaries, noun definition 2"
+          },
+          {
+            "id": "OX-03",
+            "form": "variation",
+            "kind": "frame",
+            "statement": "variation in or of something describes a change in an amount or level",
+            "source_detail": "Oxford Learner's Dictionaries, variation in/of construction"
+          },
+          {
+            "id": "OX-04",
+            "form": "variation",
+            "kind": "frame",
+            "statement": "a variation on something is a different form of the same general type",
+            "source_detail": "Oxford Learner's Dictionaries, variation on construction"
+          },
+          {
+            "id": "OX-05",
+            "form": "variation",
+            "kind": "specialist",
+            "statement": "in music, a variation is a short piece based on a simple tune",
+            "source_detail": "Oxford Learner's Dictionaries, music sense"
+          },
+          {
+            "id": "OX-06",
+            "form": "variation",
+            "kind": "pronunciation",
+            "statement": "the headword has British and American pronunciations with primary stress on the third syllable",
+            "source_detail": "Oxford Learner's Dictionaries, pronunciation"
+          },
+          {
+            "id": "OX-07",
+            "form": "variation",
+            "kind": "frame",
+            "statement": "examples include variation with altitude, according to a factor, among people, and between groups",
+            "source_detail": "Oxford Learner's Dictionaries, usage examples"
+          },
+          {
+            "id": "OX-08",
+            "form": "variation",
+            "kind": "specialist",
+            "statement": "variations within a species describes differences among members of one species",
+            "source_detail": "Oxford Learner's Dictionaries, biology example"
+          },
+          {
+            "id": "OX-09",
+            "form": "vary",
+            "kind": "derived_form",
+            "statement": "vary is the related verb meaning to change or differ",
+            "source_detail": "Oxford Learner's Dictionaries, word family"
+          },
+          {
+            "id": "OX-10",
+            "form": "variation",
+            "kind": "etymology",
+            "statement": "variation is from late Middle English, from Old French or Latin variatio, from variare and varius",
+            "source_detail": "Oxford Learner's Dictionaries, origin"
+          }
+        ]
+      },
+      {
+        "id": "src-collins-variation",
+        "locator": "https://www.collinsdictionary.com/dictionary/english/variation",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "collins",
+        "facts": [
+          {
+            "id": "CO-01",
+            "form": "variation",
+            "kind": "frame",
+            "statement": "a variation on something is the same thing in a slightly different form",
+            "source_detail": "Collins, variation on construction"
+          },
+          {
+            "id": "CO-02",
+            "form": "variation",
+            "kind": "lexical_sense",
+            "statement": "variation can mean a change or slight difference",
+            "source_detail": "Collins, noun definitions"
+          },
+          {
+            "id": "CO-03",
+            "form": "variation",
+            "kind": "specialist",
+            "statement": "in ballet, variation can mean a solo dance or solo item",
+            "source_detail": "Collins, ballet sense"
+          },
+          {
+            "id": "CO-04",
+            "form": "variation",
+            "kind": "pronunciation",
+            "statement": "variation is pronounced with primary stress on the eɪ syllable",
+            "source_detail": "Collins, pronunciation"
+          },
+          {
+            "id": "CO-05",
+            "form": "magnetic variation",
+            "kind": "specialist",
+            "statement": "magnetic variation is another term for magnetic declination",
+            "source_detail": "Collins, magnetic variation entry"
+          },
+          {
+            "id": "CO-06",
+            "form": "variation",
+            "kind": "specialist",
+            "statement": "in biology, variation can mean differences among members of a species or group",
+            "source_detail": "Collins, biology sense"
+          },
+          {
+            "id": "CO-07",
+            "form": "variation",
+            "kind": "specialist",
+            "statement": "in music, variation is a repetition of a theme with changes and can refer to a series",
+            "source_detail": "Collins, music sense"
+          },
+          {
+            "id": "CO-08",
+            "form": "variation",
+            "kind": "etymology",
+            "statement": "variation is from Middle English via Old French from Latin",
+            "source_detail": "Collins, word origin"
+          },
+          {
+            "id": "CO-09",
+            "form": "variation",
+            "kind": "frame",
+            "statement": "Collins examples include a variation from a named original and variations on a theme",
+            "source_detail": "Collins, examples under the relevant senses"
+          }
+        ]
+      },
+      {
+        "id": "src-wa-contract-variation",
+        "locator": "https://www.wa.gov.au/government/multi-step-guides/procurement-guidelines/contract-management-guidelines/varying-contract-guideline",
+        "source_type": "government_guidance",
+        "source_role": "specialist_lexicon",
+        "independence_group": "wa-government",
+        "facts": [
+          {
+            "id": "WA-01",
+            "form": "variation",
+            "kind": "legal_usage",
+            "statement": "a contract variation is a change to a contract, including delivery, time, personnel, price, service, or product changes",
+            "source_detail": "Government of Western Australia, Varying a Contract Guideline"
+          },
+          {
+            "id": "WA-02",
+            "form": "variation clause",
+            "kind": "legal_usage",
+            "statement": "contracts usually contain a clause outlining allowable variations and the procedure",
+            "source_detail": "Government of Western Australia, variation clause guidance"
+          },
+          {
+            "id": "WA-03",
+            "form": "variation",
+            "kind": "legal_usage",
+            "statement": "contract variations should be documented, approved, and filed with contract documents",
+            "source_detail": "Government of Western Australia, variation process"
+          },
+          {
+            "id": "WA-04",
+            "form": "variation to the contract",
+            "kind": "legal_usage",
+            "statement": "the guidance uses variation to the contract for a formal contract change",
+            "source_detail": "Government of Western Australia, worked guidance"
+          }
+        ]
+      },
+      {
+        "id": "src-hko-magnetic-variation",
+        "locator": "https://www.hko.gov.hk/en/education/aviation-and-marine/aviation/00535-magnetism-of-airport-runways.html",
+        "source_type": "government_technical_guidance",
+        "source_role": "specialist_lexicon",
+        "independence_group": "hong-kong-observatory",
+        "facts": [
+          {
+            "id": "HK-01",
+            "form": "magnetic variation",
+            "kind": "specialist",
+            "statement": "the horizontal angular difference between true north and magnetic north is called magnetic variation or magnetic declination",
+            "source_detail": "Hong Kong Observatory, Magnetism of Airport Runways"
+          },
+          {
+            "id": "HK-02",
+            "form": "magnetic variation",
+            "kind": "specialist",
+            "statement": "magnetic variation changes with time and geographic location",
+            "source_detail": "Hong Kong Observatory, Magnetism of Airport Runways"
+          }
+        ]
+      },
+      {
+        "id": "src-coa-variation-orders",
+        "locator": "https://www.coa.gov.ph/wp-content/uploads/ABC-Help/Updated_Guidelines_in_the_Audit_of_Procurement/annex%204/Section4-21.htm",
+        "source_type": "government_procurement_guidance",
+        "source_role": "specialist_lexicon",
+        "independence_group": "philippines-commission-on-audit",
+        "facts": [
+          {
+            "id": "COA-01",
+            "form": "variation order",
+            "kind": "legal_usage",
+            "statement": "a variation order may take the form of a change order or an extra work order",
+            "source_detail": "Philippines Commission on Audit, Updated Guidelines in the Audit of Procurement, section 43"
+          },
+          {
+            "id": "COA-02",
+            "form": "variation order",
+            "kind": "legal_usage",
+            "statement": "a change order may be issued by the procuring entity to cover additions, deletions, or revisions to work",
+            "source_detail": "Philippines Commission on Audit, section 43.2"
+          }
+        ]
+      },
+      {
+        "id": "src-merriam-variable",
+        "locator": "https://www.merriam-webster.com/dictionary/variable",
+        "source_type": "general_dictionary",
+        "source_role": "specialist_lexicon",
+        "independence_group": "merriam-webster-variable",
+        "facts": [
+          {
+            "id": "MV-01",
+            "form": "variable",
+            "kind": "derived_form",
+            "statement": "as an adjective, variable can mean able or apt to vary or change",
+            "source_detail": "Merriam-Webster, variable adjective definitions"
+          },
+          {
+            "id": "MV-02",
+            "form": "variable",
+            "kind": "derived_form",
+            "statement": "as a noun, variable can mean a quantity that may assume different values",
+            "source_detail": "Merriam-Webster, variable noun definitions"
+          },
+          {
+            "id": "MV-03",
+            "form": "variable",
+            "kind": "etymology",
+            "statement": "variable belongs to the vary and variation family through Latin variare",
+            "source_detail": "Merriam-Webster, variable word history"
+          }
+        ]
+      },
+      {
+        "id": "src-merriam-variant",
+        "locator": "https://www.merriam-webster.com/dictionary/variant",
+        "source_type": "general_dictionary",
+        "source_role": "specialist_lexicon",
+        "independence_group": "merriam-webster-variant",
+        "facts": [
+          {
+            "id": "MT-01",
+            "form": "variant",
+            "kind": "derived_form",
+            "statement": "as a noun, variant can mean one of two or more persons or things exhibiting variation",
+            "source_detail": "Merriam-Webster, variant noun definitions"
+          },
+          {
+            "id": "MT-02",
+            "form": "variant",
+            "kind": "derived_form",
+            "statement": "as an adjective, variant can mean differing in form or from a standard",
+            "source_detail": "Merriam-Webster, variant adjective definitions"
+          },
+          {
+            "id": "MT-03",
+            "form": "variant",
+            "kind": "etymology",
+            "statement": "variant is historically related through Latin variare and varians",
+            "source_detail": "Merriam-Webster, variant word history"
+          }
+        ]
+      },
+      {
+        "id": "src-yagp-ballet-variation",
+        "locator": "https://yagp.org/misc/Downloads/2026/YAGP_Rules_and_Regulations.pdf",
+        "source_type": "official_competition_rules",
+        "source_role": "specialist_lexicon",
+        "independence_group": "youth-america-grand-prix",
+        "facts": [
+          {
+            "id": "YAGP-01",
+            "form": "variation",
+            "kind": "specialist",
+            "statement": "the classical ballet category requires a variation selected from a classical repertoire list",
+            "source_detail": "YAGP 2026 Rules and Regulations, general information and classical repertoire list"
+          },
+          {
+            "id": "YAGP-02",
+            "form": "perform a variation",
+            "kind": "frame",
+            "statement": "the rules repeatedly use perform a variation for dancers presenting a classical solo",
+            "source_detail": "YAGP 2026 Rules and Regulations, competition and finals rules"
+          },
+          {
+            "id": "YAGP-03",
+            "form": "classical variation",
+            "kind": "specialist",
+            "statement": "the rules contrast a classical variation with a contemporary solo",
+            "source_detail": "YAGP 2026 Rules and Regulations, categories and finals requirements"
+          },
+          {
+            "id": "YAGP-04",
+            "form": "variation from the classical repertoire",
+            "kind": "frame",
+            "statement": "participants select and perform a variation from the Classical Repertoire List",
+            "source_detail": "YAGP 2026 Rules and Regulations, lines 46-63 and 348-363"
+          }
+        ]
+      }
+    ],
+    "source_union": [
+      {
+        "id": "union-src-oxford-variation",
+        "source_fact_ids": [
+          "OX-01",
+          "OX-02",
+          "OX-03",
+          "OX-04",
+          "OX-05",
+          "OX-06",
+          "OX-07",
+          "OX-08",
+          "OX-09",
+          "OX-10"
+        ],
+        "canonical_statement": "src-oxford-variation directly supports the assigned variation entry claims.",
+        "disposition": "integrated",
+        "rationale": "Retained as a directly accessible source for its assigned lexical or specialist claims."
+      },
+      {
+        "id": "union-src-collins-variation",
+        "source_fact_ids": [
+          "CO-01",
+          "CO-02",
+          "CO-03",
+          "CO-04",
+          "CO-05",
+          "CO-06",
+          "CO-07",
+          "CO-08",
+          "CO-09"
+        ],
+        "canonical_statement": "src-collins-variation directly supports the assigned variation entry claims.",
+        "disposition": "integrated",
+        "rationale": "Retained as a directly accessible source for its assigned lexical or specialist claims."
+      },
+      {
+        "id": "union-src-wa-contract-variation",
+        "source_fact_ids": [
+          "WA-01",
+          "WA-02",
+          "WA-03",
+          "WA-04"
+        ],
+        "canonical_statement": "src-wa-contract-variation directly supports the assigned variation entry claims.",
+        "disposition": "integrated",
+        "rationale": "Retained as a directly accessible source for its assigned lexical or specialist claims."
+      },
+      {
+        "id": "union-src-hko-magnetic-variation",
+        "source_fact_ids": [
+          "HK-01",
+          "HK-02"
+        ],
+        "canonical_statement": "src-hko-magnetic-variation directly supports the assigned variation entry claims.",
+        "disposition": "integrated",
+        "rationale": "Retained as a directly accessible source for its assigned lexical or specialist claims."
+      },
+      {
+        "id": "union-src-coa-variation-orders",
+        "source_fact_ids": [
+          "COA-01",
+          "COA-02"
+        ],
+        "canonical_statement": "src-coa-variation-orders directly supports the assigned variation entry claims.",
+        "disposition": "integrated",
+        "rationale": "Retained as a directly accessible source for its assigned lexical or specialist claims."
+      },
+      {
+        "id": "union-src-merriam-variable",
+        "source_fact_ids": [
+          "MV-01",
+          "MV-02",
+          "MV-03"
+        ],
+        "canonical_statement": "src-merriam-variable directly supports the assigned variation entry claims.",
+        "disposition": "integrated",
+        "rationale": "Retained as a directly accessible source for its assigned lexical or specialist claims."
+      },
+      {
+        "id": "union-src-merriam-variant",
+        "source_fact_ids": [
+          "MT-01",
+          "MT-02",
+          "MT-03"
+        ],
+        "canonical_statement": "src-merriam-variant directly supports the assigned variation entry claims.",
+        "disposition": "integrated",
+        "rationale": "Retained as a directly accessible source for its assigned lexical or specialist claims."
+      },
+      {
+        "id": "union-src-yagp-ballet-variation",
+        "source_fact_ids": [
+          "YAGP-01",
+          "YAGP-02",
+          "YAGP-03",
+          "YAGP-04"
+        ],
+        "canonical_statement": "src-yagp-ballet-variation directly supports the assigned variation entry claims.",
+        "disposition": "integrated",
+        "rationale": "Retained as a directly accessible source for its assigned lexical or specialist claims."
+      }
+    ],
+    "claim_units": [
+      {
+        "id": "claim-src-oxford-variation",
+        "subject_form": "variation",
+        "claim_type": "lexical_evidence",
+        "statement": "src-oxford-variation supports the article targets assigned to this source.",
+        "union_ids": [
+          "union-src-oxford-variation"
+        ],
+        "article_target_ids": [
+          "pronunciation:001",
+          "etymology:001",
+          "etymology:002",
+          "word_formation:001",
+          "core_image:001",
+          "core_image:002",
+          "core_image:003",
+          "core_image:004",
+          "core_image:005",
+          "definition:001",
+          "grammar_pattern:001",
+          "grammar_pattern:002",
+          "grammar_pattern:003",
+          "grammar_pattern:004",
+          "grammar_pattern:005",
+          "grammar_pattern:006",
+          "collocation:004",
+          "collocation:006",
+          "collocation:007",
+          "usage_note:001",
+          "definition:002",
+          "grammar_pattern:009",
+          "collocation:013",
+          "usage_note:002",
+          "definition:003",
+          "grammar_pattern:012",
+          "grammar_pattern:013",
+          "grammar_pattern:014",
+          "collocation:016",
+          "collocation:017",
+          "collocation:018",
+          "collocation:019",
+          "definition:004",
+          "grammar_pattern:016"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "OX-01",
+            "support_summary": "variation can mean a change in the amount or level of something"
+          },
+          {
+            "source_fact_id": "OX-02",
+            "support_summary": "a variation can be a thing different from other things in the same general group"
+          },
+          {
+            "source_fact_id": "OX-03",
+            "support_summary": "variation in or of something describes a change in an amount or level"
+          },
+          {
+            "source_fact_id": "OX-04",
+            "support_summary": "a variation on something is a different form of the same general type"
+          },
+          {
+            "source_fact_id": "OX-05",
+            "support_summary": "in music, a variation is a short piece based on a simple tune"
+          },
+          {
+            "source_fact_id": "OX-06",
+            "support_summary": "the headword has British and American pronunciations with primary stress on the third syllable"
+          },
+          {
+            "source_fact_id": "OX-07",
+            "support_summary": "examples include variation with altitude, according to a factor, among people, and between groups"
+          },
+          {
+            "source_fact_id": "OX-08",
+            "support_summary": "variations within a species describes differences among members of one species"
+          },
+          {
+            "source_fact_id": "OX-09",
+            "support_summary": "vary is the related verb meaning to change or differ"
+          },
+          {
+            "source_fact_id": "OX-10",
+            "support_summary": "variation is from late Middle English, from Old French or Latin variatio, from variare and varius"
+          }
+        ]
+      },
+      {
+        "id": "claim-src-collins-variation",
+        "subject_form": "variation",
+        "claim_type": "lexical_evidence",
+        "statement": "src-collins-variation supports the article targets assigned to this source.",
+        "union_ids": [
+          "union-src-collins-variation"
+        ],
+        "article_target_ids": [
+          "pronunciation:001",
+          "etymology:001",
+          "core_image:003",
+          "core_image:004",
+          "core_image:005",
+          "core_image:006",
+          "core_image:008",
+          "definition:001",
+          "definition:002",
+          "grammar_pattern:009",
+          "usage_note:002",
+          "definition:003",
+          "usage_note:003",
+          "definition:004",
+          "usage_note:004",
+          "definition:005",
+          "definition:007",
+          "synonym:013"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "CO-01",
+            "support_summary": "a variation on something is the same thing in a slightly different form"
+          },
+          {
+            "source_fact_id": "CO-02",
+            "support_summary": "variation can mean a change or slight difference"
+          },
+          {
+            "source_fact_id": "CO-03",
+            "support_summary": "in ballet, variation can mean a solo dance or solo item"
+          },
+          {
+            "source_fact_id": "CO-04",
+            "support_summary": "variation is pronounced with primary stress on the eɪ syllable"
+          },
+          {
+            "source_fact_id": "CO-05",
+            "support_summary": "magnetic variation is another term for magnetic declination"
+          },
+          {
+            "source_fact_id": "CO-06",
+            "support_summary": "in biology, variation can mean differences among members of a species or group"
+          },
+          {
+            "source_fact_id": "CO-07",
+            "support_summary": "in music, variation is a repetition of a theme with changes and can refer to a series"
+          },
+          {
+            "source_fact_id": "CO-08",
+            "support_summary": "variation is from Middle English via Old French from Latin"
+          },
+          {
+            "source_fact_id": "CO-09",
+            "support_summary": "Collins examples include a variation from a named original and variations on a theme"
+          }
+        ]
+      },
+      {
+        "id": "claim-src-wa-contract-variation",
+        "subject_form": "variation",
+        "claim_type": "lexical_evidence",
+        "statement": "src-wa-contract-variation supports the article targets assigned to this source.",
+        "union_ids": [
+          "union-src-wa-contract-variation"
+        ],
+        "article_target_ids": [
+          "core_image:007",
+          "definition:006",
+          "register:006",
+          "grammar_pattern:024",
+          "grammar_pattern:025",
+          "grammar_pattern:027",
+          "collocation:028",
+          "collocation:029",
+          "usage_note:006"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "WA-01",
+            "support_summary": "a contract variation is a change to a contract, including delivery, time, personnel, price, service, or product changes"
+          },
+          {
+            "source_fact_id": "WA-02",
+            "support_summary": "contracts usually contain a clause outlining allowable variations and the procedure"
+          },
+          {
+            "source_fact_id": "WA-03",
+            "support_summary": "contract variations should be documented, approved, and filed with contract documents"
+          },
+          {
+            "source_fact_id": "WA-04",
+            "support_summary": "the guidance uses variation to the contract for a formal contract change"
+          }
+        ]
+      },
+      {
+        "id": "claim-src-hko-magnetic-variation",
+        "subject_form": "magnetic variation",
+        "claim_type": "lexical_evidence",
+        "statement": "src-hko-magnetic-variation supports the article targets assigned to this source.",
+        "union_ids": [
+          "union-src-hko-magnetic-variation"
+        ],
+        "article_target_ids": [
+          "core_image:008",
+          "definition:007",
+          "register:007",
+          "grammar_pattern:028",
+          "grammar_pattern:029",
+          "grammar_pattern:030",
+          "collocation:031",
+          "usage_note:007",
+          "synonym:013"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "HK-01",
+            "support_summary": "the horizontal angular difference between true north and magnetic north is called magnetic variation or magnetic declination"
+          },
+          {
+            "source_fact_id": "HK-02",
+            "support_summary": "magnetic variation changes with time and geographic location"
+          }
+        ]
+      },
+      {
+        "id": "claim-src-coa-variation-orders",
+        "subject_form": "variation order",
+        "claim_type": "lexical_evidence",
+        "statement": "src-coa-variation-orders supports the article targets assigned to this source.",
+        "union_ids": [
+          "union-src-coa-variation-orders"
+        ],
+        "article_target_ids": [
+          "register:006",
+          "grammar_pattern:026",
+          "collocation:030",
+          "usage_note:006"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "COA-01",
+            "support_summary": "a variation order may take the form of a change order or an extra work order"
+          },
+          {
+            "source_fact_id": "COA-02",
+            "support_summary": "a change order may be issued by the procuring entity to cover additions, deletions, or revisions to work"
+          }
+        ]
+      },
+      {
+        "id": "claim-src-merriam-variable",
+        "subject_form": "variable",
+        "claim_type": "lexical_evidence",
+        "statement": "src-merriam-variable supports the article targets assigned to this source.",
+        "union_ids": [
+          "union-src-merriam-variable"
+        ],
+        "article_target_ids": [
+          "word_formation:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "MV-01",
+            "support_summary": "as an adjective, variable can mean able or apt to vary or change"
+          },
+          {
+            "source_fact_id": "MV-02",
+            "support_summary": "as a noun, variable can mean a quantity that may assume different values"
+          },
+          {
+            "source_fact_id": "MV-03",
+            "support_summary": "variable belongs to the vary and variation family through Latin variare"
+          }
+        ]
+      },
+      {
+        "id": "claim-src-merriam-variant",
+        "subject_form": "variant",
+        "claim_type": "lexical_evidence",
+        "statement": "src-merriam-variant supports the article targets assigned to this source.",
+        "union_ids": [
+          "union-src-merriam-variant"
+        ],
+        "article_target_ids": [
+          "word_formation:003",
+          "synonym:004"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "MT-01",
+            "support_summary": "as a noun, variant can mean one of two or more persons or things exhibiting variation"
+          },
+          {
+            "source_fact_id": "MT-02",
+            "support_summary": "as an adjective, variant can mean differing in form or from a standard"
+          },
+          {
+            "source_fact_id": "MT-03",
+            "support_summary": "variant is historically related through Latin variare and varians"
+          }
+        ]
+      },
+      {
+        "id": "claim-src-yagp-ballet-variation",
+        "subject_form": "variation",
+        "claim_type": "lexical_evidence",
+        "statement": "src-yagp-ballet-variation supports the article targets assigned to this source.",
+        "union_ids": [
+          "union-src-yagp-ballet-variation"
+        ],
+        "article_target_ids": [
+          "definition:005",
+          "register:005",
+          "grammar_pattern:021",
+          "grammar_pattern:022",
+          "grammar_pattern:023",
+          "collocation:025",
+          "collocation:026",
+          "collocation:027",
+          "usage_note:005"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "YAGP-01",
+            "support_summary": "the classical ballet category requires a variation selected from a classical repertoire list"
+          },
+          {
+            "source_fact_id": "YAGP-02",
+            "support_summary": "the rules repeatedly use perform a variation for dancers presenting a classical solo"
+          },
+          {
+            "source_fact_id": "YAGP-03",
+            "support_summary": "the rules contrast a classical variation with a contemporary solo"
+          },
+          {
+            "source_fact_id": "YAGP-04",
+            "support_summary": "participants select and perform a variation from the Classical Repertoire List"
+          }
+        ]
+      }
+    ]
+  }
+}

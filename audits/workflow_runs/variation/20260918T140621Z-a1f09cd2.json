@@ -15,25 +15,42 @@
   },
   "time_policy": "advisory_v1",
   "usage": {
-    "research_queries": 0,
-    "candidate_pages": 0
+    "research_queries": 3,
+    "candidate_pages": 8
   },
   "status": "in_progress",
-  "stage": "preflight",
+  "stage": "source_inventory_complete",
   "started_at": "2026-09-18T14:06:21Z",
   "deadline_at": "2026-09-18T15:36:21Z",
   "pre_draft_deadline_at": "2026-09-18T14:36:21Z",
-  "last_heartbeat_at": "2026-09-18T14:06:21Z",
+  "last_heartbeat_at": "2026-09-18T14:12:00Z",
   "remote_checkpoint": {
-    "confirmed": false,
-    "confirmed_at": null,
-    "commit_sha": ""
+    "confirmed": true,
+    "confirmed_at": "2026-09-18T14:07:14Z",
+    "commit_sha": "c7ef9448bd5db4e2dd5869034622dc4babd3001c",
+    "transport": "connector",
+    "local_commit_sha": "cb9bab56107350d83344f457f5268abe05a7ff2e"
   },
   "stage_history": [
     {
       "stage": "preflight",
       "recorded_at": "2026-09-18T14:06:21Z",
       "notes": "run initialized"
+    },
+    {
+      "stage": "preflight_pushed",
+      "recorded_at": "2026-09-18T14:07:14Z",
+      "notes": "remote start checkpoint verified"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-09-18T14:07:55Z",
+      "notes": "orchestrator completed generation"
+    },
+    {
+      "stage": "source_inventory_complete",
+      "recorded_at": "2026-09-18T14:12:00Z",
+      "notes": "directly accessible eight-source inventory completed before checker comparison"
     }
   ],
   "stop_reason": "",
@@ -489,7 +506,13 @@
     "schema_version": "workflow_process_improvement_v2",
     "knowledge_epoch": "pi2-2026-09-06",
     "features": [
-      "workflow:extended"
+      "construction_distinctions",
+      "contract_legal_usage",
+      "countability_guidance",
+      "etymology",
+      "magnetic_variation",
+      "music_usage",
+      "related_words"
     ],
     "snapshots": [
       {
@@ -516,7 +539,16 @@
         "stage": "generation"
       }
     ],
-    "processing": {},
+    "processing": {
+      "generation": {
+        "status": "pending",
+        "source_refs": [
+          "audits/runs/v/variation/20260918T140621Z-a1f09cd2/generation.json"
+        ],
+        "reason": "saved stage output has no coordinator learning_delta decision",
+        "recorded_at": "2026-09-18T14:07:55Z"
+      }
+    },
     "pending_events": [],
     "selection_errors": []
   },
@@ -539,20 +571,22 @@
       {
         "id": "generation",
         "instruction_bytes": 53450,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 53450,
+        "duration_seconds": 1.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true,
+        "duration_source": "reported"
       },
       {
         "id": "mechanical_validator",
         "instruction_bytes": 0,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 1.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true,
+        "duration_source": "reported"
       },
       {
         "id": "checker_passes",
@@ -711,15 +745,26 @@
     }
   },
   "orchestrator_state": {
-    "next_stage_index": 1,
+    "next_stage_index": 3,
     "completed_stages": [
-      "guard_start"
+      "guard_start",
+      "generation",
+      "mechanical_validator"
     ],
-    "stage_outputs": {},
-    "stage_started_at": "2026-09-18T14:06:21Z"
+    "stage_outputs": {
+      "generation": [
+        "entries/v/variation.md",
+        "audits/runs/v/variation/20260918T140621Z-a1f09cd2/generation.json"
+      ],
+      "mechanical_validator": [
+        "audits/runs/v/variation/20260918T140621Z-a1f09cd2/validator.json"
+      ]
+    },
+    "stage_started_at": "2026-09-18T14:08:07Z"
   },
   "publication": {
     "mode": "connector"
   },
-  "review_preflight": "review_preflight_v1"
+  "review_preflight": "review_preflight_v1",
+  "time_warnings": {}
 }
