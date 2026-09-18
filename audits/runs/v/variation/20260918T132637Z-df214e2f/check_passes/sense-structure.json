@@ -1,0 +1,43 @@
+{
+  "pass_id": "sense-structure",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.2-codex",
+    "ingested_by": "orchestrator",
+    "agent_id": "01a0b4ba-e033-7b82-955f-44c57835a096",
+    "source_response": {
+      "path": "audits/runs/v/variation/20260918T132637Z-df214e2f/handoff/source_responses/1b4ac82bac60e708a1a8a88f6cc341d5640ee2e21bb05e9bf0fa7baa90cd1eac.json",
+      "sha256": "1b4ac82bac60e708a1a8a88f6cc341d5640ee2e21bb05e9bf0fa7baa90cd1eac"
+    }
+  },
+  "findings": [
+    {
+      "taxonomy_id": "cross_section_internal_contradiction",
+      "location": {
+        "section": "core_image",
+        "line_start": 39,
+        "line_end": 39,
+        "exact_quote": "・一人の踊り手が踊るバレエのソロ → 「ソロ演目・独舞」（語義5）  "
+      },
+      "severity": "blocking",
+      "rationale": "コアイメージは「同じ対象・尺度・型を前提にした値・状態の変化または同類間の違い」から各語義が生じると説明しているが、語義5の定義はバレエで一人が踊る演目という慣用的な専門義であり、この意味核との同期的な意味関係が示されていない。列挙しただけでは、専門語 variation がなぜ『値・状態の変化／同類間の違い』に当たるのかを説明できず、同語源・歴史的連関だけで一般コアへ含めた形になる。",
+      "evidence_link_ids": [],
+      "suggested_direction": "語義5を現代の一般コアイメージから直接導かない慣用的な専門義として明示的に除外するか、現代話者にも成立する意味上の橋渡しを短く示す。",
+      "id": "normal-sense-structure-001"
+    },
+    {
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 47,
+        "line_end": 47,
+        "exact_quote": "【日本語訳・定義】量・水準・品質・状態などが一定ではなく変わること、またはその変化の幅・ばらつきを表す。変動・ばらつきを総体として述べる場合は不可算が多く、個々の変化・差・型を数える場合は可算になることが多い。個々の対象間の差や専門分野の変異を主に述べる場合は、語義3などの用法になる。  "
+      },
+      "severity": "minor",
+      "rationale": "語義1の可算用法に「個々の…型」を含めると、直後の語義2が担う「同じ基本型を保った別形」と境界が重なる。可算・不可算の説明に必要なのは変化の事例や差を数える場合であり、「型」まで語義1へ入れる必要はない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "語義1では可算対象を「個々の変化の事例・差」などに限定し、「別の型・版として数える variation」は語義2へ送ることを明示する。",
+      "id": "normal-sense-structure-002"
+    }
+  ]
+}

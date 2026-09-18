@@ -2303,6 +2303,13 @@ def complete_orchestrated_stage(
                 defects_detected=int(cost.get("defects_detected", 0)),
             )
     for checkpoint in request.get("guard_checkpoints", []):
+        if (
+            str(manifest.get("stage")) in guard.STAGES
+            and str(checkpoint) in guard.STAGES
+            and guard.STAGES.index(str(manifest["stage"]))
+            >= guard.STAGES.index(str(checkpoint))
+        ):
+            continue
         ok = guard.advance_stage(
             manifest,
             stage=str(checkpoint),

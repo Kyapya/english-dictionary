@@ -164,6 +164,26 @@ def _normalize_parallel_reviewer(
     return reviewer
 
 
+def _assign_finding_ids(value: dict[str, Any], pass_id: str) -> None:
+    seen: set[str] = set()
+    index = 0
+    for field in ("findings", "frame_findings"):
+        rows = value.get(field)
+        if not isinstance(rows, list):
+            continue
+        for row in rows:
+            if not isinstance(row, dict):
+                continue
+            index += 1
+            item_id = str(row.get("id", "")).strip()
+            if not item_id:
+                item_id = f"normal-{pass_id}-{index:03d}"
+                row["id"] = item_id
+            if item_id in seen:
+                raise ValueError(f"checker {pass_id}: duplicate finding id {item_id}")
+            seen.add(item_id)
+
+
 def _load_parallel_checker_responses(
     cycle_dir: Path,
     pass_ids: list[str],
@@ -208,6 +228,7 @@ def _load_parallel_checker_responses(
             generation_model=generation_model,
             label=f"checker {expected_pass_id}",
         )
+        _assign_finding_ids(value, expected_pass_id)
         normalized_agent_id = _v3.review_liveness.normalize_text(reviewer["agent_id"])
         if normalized_agent_id in agent_ids:
             raise ValueError(
@@ -557,6 +578,7 @@ def _process_parallel_stage2(
         generation_model=generation_model,
         label="frame-relation stage 2",
     )
+    _assign_finding_ids(value, "frame-relation")
     if (
         _v3.review_liveness.normalize_text(reviewer["agent_id"])
         != _v3.review_liveness.normalize_text(expected_reviewer.get("agent_id"))

@@ -50,6 +50,26 @@ class ProvenanceTests(unittest.TestCase):
             saved.write_text("tampered", encoding="utf-8")
             self.assertTrue(provenance.validate(output, root, required=True))
 
+    def test_ingester_may_add_only_deterministic_finding_ids(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            path = root / "audits/runs/t/test/run/handoff/check.response.json"
+            path.parent.mkdir(parents=True)
+            source = {"findings": [{"severity": "blocking", "rationale": "specific"}]}
+            path.write_text(json.dumps(source), encoding="utf-8")
+            output = copy.deepcopy(source)
+            output["findings"][0]["id"] = "normal-evidence-001"
+            output["reviewer"] = {
+                "mode": "handoff",
+                "agent_id": "actual",
+                "declared_model": "reviewer-model",
+                "ingested_by": "orchestrator",
+                "source_response": provenance.bind(path, root),
+            }
+            self.assertEqual(provenance.validate(output, root, required=True), [])
+            output["findings"][0]["severity"] = "minor"
+            self.assertTrue(provenance.validate(output, root, required=True))
+
     def test_traversal_is_rejected(self):
         self.assertTrue(provenance.validate(
             {"reviewer": {"mode": "handoff", "source_response":

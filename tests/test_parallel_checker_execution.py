@@ -16,9 +16,25 @@ if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
 import run_word  # noqa: E402
+import run_word_parallel  # noqa: E402
 
 
 class ParallelCheckerExecutionTests(unittest.TestCase):
+    def test_missing_finding_ids_are_assigned_deterministically(self) -> None:
+        response = {
+            "findings": [{"rationale": "first"}, {"id": "reviewer-id"}],
+            "frame_findings": [{"rationale": "frame"}],
+        }
+        run_word_parallel._assign_finding_ids(response, "translation")
+        self.assertEqual(
+            [row["id"] for row in response["findings"]],
+            ["normal-translation-001", "reviewer-id"],
+        )
+        self.assertEqual(
+            response["frame_findings"][0]["id"],
+            "normal-translation-003",
+        )
+
     def _root_and_manifest(
         self, directory: str, *, reviewer_mode: str
     ) -> tuple[Path, dict[str, object]]:

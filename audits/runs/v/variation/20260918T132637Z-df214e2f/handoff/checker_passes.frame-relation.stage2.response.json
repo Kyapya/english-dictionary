@@ -1,0 +1,45 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "e3caa8e1af96d10a7116b59750a969badff2bddfcee77986301493d751e824b9",
+  "stage2_request_sha256": "aa2a70a9babbb134b448f6a519b5213c5e0f3e67281a9825797de11e8680f59d",
+  "blind_record_sha256": "fc3fa05a9b37fa2d823dab99c5bb47f4268d4d22b3842f9d0201ae06e5026c75",
+  "reviewer": {
+    "mode": "handoff",
+    "agent_id": "01a0b4bb-27f7-7bf0-9bdf-4345b3526087",
+    "declared_model": "gpt-5.2-codex",
+    "ingested_by": "human"
+  },
+  "adjudications": [
+    {
+      "item_id": "ant-7f2bbcaf5d9d",
+      "flags": [],
+      "rationale": "語義1の差・ばらつきと uniformity の一様な状態は均一性の軸上で対立し、状態型として成立する。違い行も対立を明確に述べており、自己否定や限定を含まない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-99c05f3c8546",
+      "flags": [],
+      "rationale": "語義3の集団内・集団間の変異と homogeneity の一様な状態は均質性の軸上で対立し、状態型として成立する。違い行も内部差の大小による対立を維持しており、自己否定や限定を含まない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    }
+  ],
+  "frame_findings": [
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 390,
+        "line_end": 390,
+        "exact_quote": "訳: 請負業者は追加工事について変更指示書を提出した。  "
+      },
+      "severity": "blocking",
+      "rationale": "英語例文の主語は The engineer、述語は issued だが、訳では主語が「請負業者」、行為が「提出した」に変わっており、行為者と行為の意味役割が一致しない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "訳を「技師は追加工事の変更指示書を発行した。」などとして、英語例文の行為者と発行行為に一致させる。"
+    }
+  ],
+  "unrouted_observations": []
+}

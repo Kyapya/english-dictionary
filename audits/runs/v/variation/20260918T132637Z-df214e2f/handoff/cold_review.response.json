@@ -1,0 +1,70 @@
+{
+  "reviewer": {
+    "mode": "handoff",
+    "agent_id": "01a0b4bd-8c8c-7351-8622-99d07a3b1094",
+    "declared_model": "gpt-5.2-codex"
+  },
+  "summary": "要修正。契約用法の例文と訳の明確な不一致、生物学用法で表現型の差を遺伝的変異と断定しかねない例、音楽用法で個々の変奏と作品全体の区別がなお曖昧になる箇所の3件がある。",
+  "findings": [
+    {
+      "id": "cold-variation-001",
+      "location": "語義6（契約・法務）／コロケーション「a variation order」の例文と訳",
+      "severity": "high",
+      "description": "英語例文と日本語訳で、変更指示を行った主体と行為が一致していない。",
+      "reason": "英語は「The engineer issued a variation order for the additional work.」とし、engineer が variation order を発行したと述べている。一方、日本語は請負業者が提出したとしており、主体が engineer から contractor に、行為が issued から submitted に変わっている。語義とコロケーションを学ぶ対訳例として誤解を招く。",
+      "suggested_direction": "英語を維持するなら、訳を「技師（または工事監督者）は追加工事について変更指示書を発行した」のように合わせる。請負業者による提出を例示したいなら、英語側も variation proposal/request など実際の行為に合う表現へ改める。",
+      "scope_anchors": [
+        {
+          "id": "cold-variation-001-a",
+          "exact_quote": "The engineer issued a variation order for the additional work.",
+          "location_hint": "語義6の「a variation order」例文"
+        },
+        {
+          "id": "cold-variation-001-b",
+          "exact_quote": "訳: 請負業者は追加工事について変更指示書を提出した。",
+          "location_hint": "語義6の「a variation order」訳文"
+        }
+      ]
+    },
+    {
+      "id": "cold-variation-002",
+      "location": "語義3（生物学・遺伝学・医学）のコロケーション例",
+      "severity": "medium",
+      "description": "観察された形態差を、そのまま遺伝的変異として測定・確認したように読める例があり、表現型変異と遺伝的変異の区別を誤って一般化させるおそれがある。",
+      "reason": "「The study measured genetic variation within a population in wing length over several generations.」は、翼長という表現型を測るだけで遺伝的変異を測定できるかのように読める。葉の形・大きさについても同様で、環境要因による差を除き、遺伝子型または遺伝率などを調べたという条件が本文にないため、形態上のばらつきと遺伝的差が混同される。",
+      "suggested_direction": "形態の観察だけを述べる例では genetic を外して phenotypic/morphological variation とする。genetic variation の例として残す場合は、genetic analysis identified variants associated with wing length/leaf shape のように遺伝的根拠を明示する。",
+      "scope_anchors": [
+        {
+          "id": "cold-variation-002-a",
+          "exact_quote": "The study measured genetic variation within a population in wing length over several generations.",
+          "location_hint": "語義3の「variation within a population」例文"
+        },
+        {
+          "id": "cold-variation-002-b",
+          "exact_quote": "The plant samples show genetic variation in leaf shape and size within a species.",
+          "location_hint": "語義3の「show variation in a characteristic」例文"
+        }
+      ]
+    },
+    {
+      "id": "cold-variation-003",
+      "location": "語義4（音楽）の定義と「a set of variations on a theme」の訳",
+      "severity": "low",
+      "description": "個々の variation と、一連の variations からなる作品全体との区別を示す方針に対し、一部の説明と訳が再び両者を曖昧にしている。",
+      "reason": "定義の「主題や旋律を反復し、旋律・和声・リズム・調性などに変化や装飾を加えた短い音楽作品、またはその一つの展開を表す。」は、単数の variation 自体を独立した短い作品と捉えやすい。また a set of variations の訳「変奏曲集」は複数作品の曲集を連想させうるが、直前の用途説明は一作品・一組としている。",
+      "suggested_direction": "単数はまず「一連の変奏のうちの一つ」と定義し、作品全体は variations / a set of variations と分ける。例文訳は「民謡の旋律による一連の変奏（変奏曲）」など、複数作品の曲集と誤解されにくい表現にする。",
+      "scope_anchors": [
+        {
+          "id": "cold-variation-003-a",
+          "exact_quote": "主題や旋律を反復し、旋律・和声・リズム・調性などに変化や装飾を加えた短い音楽作品、またはその一つの展開を表す。",
+          "location_hint": "語義4の日本語訳・定義"
+        },
+        {
+          "id": "cold-variation-003-b",
+          "exact_quote": "訳: その演奏会は民謡の旋律による変奏曲集で幕を開けた。",
+          "location_hint": "語義4の「a set of variations on a theme」訳文"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,406 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "mode": "handoff",
+    "agent_id": "01a0b4bb-03bd-74c3-83d7-4d70fe6ab08d",
+    "declared_model": "gpt-5.2-codex",
+    "ingested_by": "human"
+  },
+  "input_body_sha256": "e3caa8e1af96d10a7116b59750a969badff2bddfcee77986301493d751e824b9",
+  "blind_request_sha256": "13215447d2d2cec4c5f1c4c240ea483b2645cad173ca462c17db17d6da68cfee",
+  "recorded_at": "2026-09-18T13:39:09.729132+00:00",
+  "attributions": [
+    {
+      "example_id": "ex-770ca952997f",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:005"
+      ],
+      "discriminating_terms": [
+        "variation from The Sleeping Beauty",
+        "ソロ演目"
+      ],
+      "rationale": "「variation from The Sleeping Beauty」と訳の「ソロ演目」は、作品から選ぶバレエの独舞を指す。sense:004の音楽上の変奏なら踊る演目を示す「ソロ演目」にならず、sense:002の一般的な別形なら作品からオーディション用に選ぶこの専門的な言い方を説明できない。"
+    },
+    {
+      "example_id": "ex-755f618699d9",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:005"
+      ],
+      "discriminating_terms": [
+        "a variation from the ballet",
+        "ソロ演目"
+      ],
+      "rationale": "「a variation from the ballet」をrehearseし、訳も「バレエ作品のソロ演目」とするためバレエ独舞である。sense:004の変奏は音楽を演奏する対象であり、sense:002の別形も「from the ballet」で作品内の独舞を指すこの関係にはならない。"
+    },
+    {
+      "example_id": "ex-49e09a36c4ae",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "genetic variation between populations"
+      ],
+      "rationale": "「genetic variation between populations」は集団間の遺伝的差を直接表すためsense:003である。sense:001の一般的な変動なら、variationを遺伝に限定して集団間で比較するこの意味関係を捉えきれない。"
+    },
+    {
+      "example_id": "ex-84e25b623627",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "a set of variations on a folk melody",
+        "変奏曲集"
+      ],
+      "rationale": "「a set of variations on a folk melody」と訳の「変奏曲集」は、旋律を主題とする複数の音楽的変奏を表す。sense:002の一般的なアレンジならconcertが一連のvariationsで開幕するという作品単位の読みにならない。"
+    },
+    {
+      "example_id": "ex-5d633c938954",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "variation in the time needed"
+      ],
+      "rationale": "「variation in the time needed」は所要時間という数値のばらつきを総体として述べるためsense:001である。sense:002の別形は元となる型を変えた可算物を必要とし、この不可算の時間分布には合わない。"
+    },
+    {
+      "example_id": "ex-d13f06f0bef3",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:007"
+      ],
+      "discriminating_terms": [
+        "magnetic variation",
+        "磁気偏角"
+      ],
+      "rationale": "固定表現「magnetic variation」と訳の「磁気偏角」が真北と磁北の方位差を表すためsense:007である。sense:001の一般的変動では、航路設定時に補正する磁気方位の専門量を特定できない。"
+    },
+    {
+      "example_id": "ex-17450ba09728",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "a slight variation on the original instructions",
+        "別版"
+      ],
+      "rationale": "「a slight variation on the original instructions」とcreatedおよび訳の「別版」は、元の説明を土台に一部を改めた成果物を指すためsense:002である。sense:001の変動ならcreated a variationという個別版の生成やon the originalという基盤関係を説明できない。"
+    },
+    {
+      "example_id": "ex-4d5f8ddc089f",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "a clever variation on a familiar coming-of-age story",
+        "変形した作品"
+      ],
+      "rationale": "「a clever variation on a familiar coming-of-age story」は既知の物語型を変形した個別作品を指すためsense:002である。sense:004は音楽主題の変奏を要求するが、ここではnovelそのものが「変形した作品」であり音楽作品ではない。"
+    },
+    {
+      "example_id": "ex-0f2946e92a43",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "seasonal variation in demand",
+        "季節変動"
+      ],
+      "rationale": "「seasonal variation in demand」と訳の「季節変動」は需要量が季節に応じて上下することを表すためsense:001である。sense:002の別形なら需要の値の推移ではなく、原型から作った個別の版を数える読みが必要になる。"
+    },
+    {
+      "example_id": "ex-0d6e4e25fe72",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:005"
+      ],
+      "discriminating_terms": [
+        "a classical ballet variation",
+        "ソロ演目"
+      ],
+      "rationale": "「a classical ballet variation」をcompetition向けにprepareし、訳が「ソロ演目」と明示するためsense:005である。sense:004の音楽的変奏はclassical ballet内で踊り手が準備する競技演目というvariationの役割にならない。"
+    },
+    {
+      "example_id": "ex-571e24dbc8a5",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "theme and variations",
+        "主題と変奏曲"
+      ],
+      "rationale": "音楽作品名型の「theme and variations」と訳の「主題と変奏曲」をpianistがrecitalに選ぶためsense:004である。sense:002の一般的な別形ならthemeと複数のvariationsから成る演奏作品という構成を持たない。"
+    },
+    {
+      "example_id": "ex-8d1277092bc5",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "Genetic variation within a species"
+      ],
+      "rationale": "「Genetic variation within a species」は同一種内の遺伝的差を直接表すためsense:003である。sense:001の一般的な値の変動では、種内差が病気への反応を左右する遺伝学上の関係を十分に表せない。"
+    },
+    {
+      "example_id": "ex-10d46c567564",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "genetic variation among individuals",
+        "個体間の大きな遺伝的差"
+      ],
+      "rationale": "「genetic variation among individuals」と訳の「個体間の大きな遺伝的差」は個体間の遺伝的変異なのでsense:003である。sense:001の一般的ばらつきならgeneticという原因属性とamong individualsという集団内比較を専門的に結び付けない。"
+    },
+    {
+      "example_id": "ex-f846a9be81c3",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "a variation on the original method",
+        "変形版"
+      ],
+      "rationale": "「a variation on the original method」と訳の「変形版」は元の方法を土台にした一つの改変版を表すためsense:002である。sense:001なら方法間の変動量を述べるはずで、tested a variationという可算の試験対象にはならない。"
+    },
+    {
+      "example_id": "ex-1ffbf764a2a6",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "wide variation between schools",
+        "学校間に大きな差"
+      ],
+      "rationale": "「wide variation between schools」と訳の「学校間に大きな差」は学校ごとの利用状況のばらつきを表すためsense:001である。sense:003は生物集団の個体差を扱うが、schools間の機器利用差には遺伝・生物学的関係がない。"
+    },
+    {
+      "example_id": "ex-c51ae9ac1cd4",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "variation according to age and region",
+        "年齢と地域によってかなりの差"
+      ],
+      "rationale": "「variation according to age and region」は調査値が年齢・地域で異なることを総体として示すためsense:001である。sense:003なら遺伝的・生物学的な個体差を示す標識が必要だが、この文は一般的な調査結果の差だけを述べる。"
+    },
+    {
+      "example_id": "ex-6b6bb5188598",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "genetic variation in leaf shape and size within a species"
+      ],
+      "rationale": "「genetic variation in leaf shape and size within a species」は同一種の形態形質にある遺伝的変異を表すためsense:003である。sense:001の一般的変動では、geneticとwithin a speciesが指定する生物集団内差という関係を落としてしまう。"
+    },
+    {
+      "example_id": "ex-d37651a5b546",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "genetic variation within a population in wing length"
+      ],
+      "rationale": "「genetic variation within a population in wing length」は集団内の形質差を遺伝的変異として測定するためsense:003である。sense:001の単なる翼長変動ならgeneticおよびwithin a populationによる遺伝集団内の帰属を必要としない。"
+    },
+    {
+      "example_id": "ex-3a34f4d1c4ca",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "played the final variation",
+        "最後の変奏"
+      ],
+      "rationale": "「played the final variation」と訳の「最後の変奏」は一連の音楽的変奏の最後の一つを演奏する意味なのでsense:004である。sense:002の一般的な別形はplayedの直接目的語として順番付きの演奏単位にはならない。"
+    },
+    {
+      "example_id": "ex-171de090e30a",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "a lighter variation on a traditional winter dish",
+        "アレンジ"
+      ],
+      "rationale": "「a lighter variation on a traditional winter dish」は元の料理を軽めに変えた個別のアレンジを指すためsense:002である。sense:001の変動ならsoup自体をa variationとして伝統料理との派生関係で同定することはできない。"
+    },
+    {
+      "example_id": "ex-3735aa95af6d",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "Genetic variation in drug response",
+        "薬物反応における遺伝的変異"
+      ],
+      "rationale": "「Genetic variation in drug response」と訳の「遺伝的変異」は薬物反応の個人差を遺伝要因として扱うためsense:003である。sense:001の一般的ばらつきなら、variationをgeneticと限定して医学的解釈に用いる専門性が失われる。"
+    },
+    {
+      "example_id": "ex-60f6e83c02b9",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "a useful variation on the original design",
+        "アレンジ"
+      ],
+      "rationale": "「a useful variation on the original design」は元の設計を基礎にした一つの版を指すためsense:002である。sense:001の変動ならThis versionを可算のvariationとして原設計との派生関係で評価する読みにはならない。"
+    },
+    {
+      "example_id": "ex-a53f15416d79",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "variations on a theme by Mozart",
+        "変奏曲"
+      ],
+      "rationale": "「variations on a theme by Mozart」とprogramに含まれる「変奏曲」は音楽作品を表すためsense:004である。sense:002の比喩的な展開ならMozartのthemeを素材に複数の変奏を演奏プログラムへ載せる構成にならない。"
+    },
+    {
+      "example_id": "ex-b7caf3b721ff",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:006"
+      ],
+      "discriminating_terms": [
+        "a variation clause",
+        "契約変更条項"
+      ],
+      "rationale": "固定的な契約表現「a variation clause」と訳の「契約変更条項」は作業範囲変更を規律する条項なのでsense:006である。sense:001の一般的変動ではcontractがincludeする法的なclauseの名称を説明できない。"
+    },
+    {
+      "example_id": "ex-5dcd3c212d45",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "seasonal variation",
+        "季節変動"
+      ],
+      "rationale": "「seasonal variation」をtake into accountし、訳も「季節変動」とするため、周期的な値の変化を表すsense:001である。sense:002の個別の別形ならforecastが総体として考慮する季節的推移という読みにならない。"
+    },
+    {
+      "example_id": "ex-e9f1d5281254",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "slight variation from the standard procedure in its timing",
+        "標準手順からわずかに異なる"
+      ],
+      "rationale": "「slight variation from the standard procedure in its timing」は基準からの差の程度を述べるためsense:001である。sense:002の派生版ならa variation on the procedureのように個別の版を指すが、ここでは不可算でtiming上のずれだけを量的に示す。"
+    },
+    {
+      "example_id": "ex-f6008df82cbd",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "variations on a theme",
+        "同じ主題を変形した展開"
+      ],
+      "rationale": "「theories ... are variations on a theme」は複数の理論を共通主題の変形版として捉える比喩なのでsense:002である。sense:004の音楽的変奏ならtheoriesがvariationsそのものになることはなく、ここでは訳も「変形した展開」とする。"
+    },
+    {
+      "example_id": "ex-80aa8ade2945",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:006"
+      ],
+      "discriminating_terms": [
+        "a variation order for the additional work",
+        "変更指示書"
+      ],
+      "rationale": "契約実務の複合語「a variation order for the additional work」と訳の「変更指示書」は追加工事を指示する文書なのでsense:006である。sense:002の一般的な別形にはorderという法務・工事上の文書種別やadditional workとの関係がない。"
+    },
+    {
+      "example_id": "ex-649ba093736a",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "performed a variation on the melody",
+        "一つの変奏"
+      ],
+      "rationale": "「performed a variation on the melody」とrhythmic changes、訳の「一つの変奏」は旋律を音楽的に展開して演奏するためsense:004である。sense:002の一般的アレンジならpianistがvariationそのものをperformedする一回の音楽単位という読みを十分に表せない。"
+    },
+    {
+      "example_id": "ex-55962cb7190e",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:006"
+      ],
+      "discriminating_terms": [
+        "a variation to the contract",
+        "契約変更書"
+      ],
+      "rationale": "「signed a variation to the contract extending the delivery date」と訳の「契約変更書」は納期を変更する正式文書なのでsense:006である。sense:002の別形ならpartiesが署名し契約条件を延長する法的変更行為を表さない。"
+    },
+    {
+      "example_id": "ex-50e98977f38f",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "the variation of temperature with altitude",
+        "高度に伴う温度の変化"
+      ],
+      "rationale": "「the variation of temperature with altitude」は高度という尺度に応じた温度値の変化を表すためsense:001である。sense:002の別形は元の型から作られた個物を指し、graphが示す連続的な数値関係にはならない。"
+    },
+    {
+      "example_id": "ex-bd74363fa0ec",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "slight variation in color",
+        "色のわずかな違い"
+      ],
+      "rationale": "「slight variation in color」と訳の「色のわずかな違い」は二つの試料間の色差を程度として述べるためsense:001である。sense:002の別形なら各paint sampleを元の型のvariationとして数えるはずで、このin colorの差量表現とは異なる。"
+    },
+    {
+      "example_id": "ex-6d8dd931984e",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:005"
+      ],
+      "discriminating_terms": [
+        "The dancer performed her variation",
+        "ソロ演目を踊った"
+      ],
+      "rationale": "「The dancer performed her variation」と訳の「ソロ演目を踊った」は踊り手自身の独舞を指すためsense:005である。sense:004でもperformは可能だが、variationの所有者がdancerで実現手段がcontrolled, precise movementsであるため音楽変奏では成立しない。"
+    }
+  ]
+}

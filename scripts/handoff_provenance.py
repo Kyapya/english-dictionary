@@ -45,6 +45,27 @@ def normalize_source_reviewer(value: object) -> dict:
     }
 
 
+def _decision_equal(key: str, source: object, output: object) -> bool:
+    """Allow only deterministic finding IDs added by the ingester.
+
+    IDs are routing metadata, not a review decision.  All other fields and list
+    order remain byte-semantically equal to the preserved independent response.
+    """
+    if key not in {"findings", "frame_findings"}:
+        return source == output
+    if not isinstance(source, list) or not isinstance(output, list) or len(source) != len(output):
+        return False
+    for left, right in zip(source, output):
+        if not isinstance(left, dict) or not isinstance(right, dict):
+            return False
+        normalized = dict(right)
+        if "id" not in left:
+            normalized.pop("id", None)
+        if left != normalized:
+            return False
+    return True
+
+
 def bind(path: Path, repo_root: Path) -> dict:
     relative = path.resolve().relative_to(repo_root.resolve()).as_posix()
     if not relative.startswith("audits/runs/"):
@@ -103,7 +124,10 @@ def validate(output: dict, repo_root: Path, *, required: bool = False) -> list[s
         fields = DECISIONS.intersection(source)
         if not fields and not any(key in source for key in ("antonym_axis_blind_record", "adjudications", "blind_attribution_record")):
             raise ValueError("source response has no review decisions")
-        mismatches = sorted(key for key in fields if output.get(key) != source[key])
+        mismatches = sorted(
+            key for key in fields
+            if not _decision_equal(key, source[key], output.get(key))
+        )
         if mismatches:
             raise ValueError("review decisions differ from preserved response: " + ", ".join(mismatches))
     except (OSError, ValueError, KeyError, TypeError) as exc:

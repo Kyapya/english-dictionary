@@ -1,0 +1,31 @@
+{
+  "schema_version": "antonym_axis_blind_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "e3caa8e1af96d10a7116b59750a969badff2bddfcee77986301493d751e824b9",
+  "blind_request_sha256": "6b0da9fa1638a5b7bb962e656809379e0e1d76e8df14e766621ee201e6828672",
+  "recorded_at": "2026-09-18T13:36:22Z",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.2-codex",
+    "ingested_by": "orchestrator",
+    "agent_id": "01a0b4bb-27f7-7bf0-9bdf-4345b3526087",
+    "source_response": {
+      "path": "audits/runs/v/variation/20260918T132637Z-df214e2f/handoff/source_responses/7f3a5d0ebafa363150198cc7b8f624417e875cc6d85c6eb6401547c63ff31884.json",
+      "sha256": "7f3a5d0ebafa363150198cc7b8f624417e875cc6d85c6eb6401547c63ff31884"
+    }
+  },
+  "axes": [
+    {
+      "item_id": "ant-7f2bbcaf5d9d",
+      "axis": "均一性",
+      "relation_type": "状態",
+      "reason": ""
+    },
+    {
+      "item_id": "ant-99c05f3c8546",
+      "axis": "均質性",
+      "relation_type": "状態",
+      "reason": ""
+    }
+  ]
+}

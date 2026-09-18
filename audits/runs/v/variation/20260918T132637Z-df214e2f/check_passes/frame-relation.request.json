@@ -1,0 +1,68 @@
+{
+  "schema_version": "antonym_axis_blind_request_v1",
+  "pass_id": "frame-relation",
+  "taxonomy_ids": [
+    "argument_slot_role_mismatch",
+    "lexical_relation_mislabel"
+  ],
+  "specification": "prompts/check_pass_frame_relation_v7.md",
+  "input_body_sha256": "e3caa8e1af96d10a7116b59750a969badff2bddfcee77986301493d751e824b9",
+  "input_sections": {
+    "antonym_items": [
+      {
+        "item_id": "ant-7f2bbcaf5d9d",
+        "headword": "variation",
+        "sense_definition": "【日本語訳・定義】量・水準・品質・状態などが一定ではなく変わること、またはその変化の幅・ばらつきを表す。変動・ばらつきを総体として述べる場合は不可算が多く、個々の変化・差・型を数える場合は可算になることが多い。個々の対象間の差や専門分野の変異を主に述べる場合は、語義3などの用法になる。",
+        "antonym": "uniformity",
+        "antonym_definition": "定義: 対象の間に差がほとんどなく、同じ状態や性質がそろっていること。"
+      },
+      {
+        "item_id": "ant-99c05f3c8546",
+        "headword": "variation",
+        "sense_definition": "【日本語訳・定義】同じ種に属する個体や集団の内部・集団間に見られる、遺伝的・構造的・機能的な差を表す。生物の同種・同群の特徴が一様でないことに焦点を置く専門用法である。",
+        "antonym": "homogeneity",
+        "antonym_definition": "定義: 集団や資料の構成要素が互いによく似ていて、一様であること。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "difference_line",
+      "frequency_line",
+      "example_line",
+      "translation_line",
+      "synonym_section",
+      "core_image",
+      "other_senses",
+      "document_order"
+    ],
+    "questions": [
+      "name_axis_as_one_noun",
+      "classify_as_補完_程度_方向_評価_状態",
+      "record_unnamable_with_one_sentence_reason"
+    ],
+    "required_output_schema": "antonym_axis_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "3598ca81a5784639c6b43a0806d0981a985bf4174f424c744aad1dde787bfcef",
+  "source_artifact_sha256": "3360995ffadddf9cf97c35ab26f6175e7704cfb8dd9a995a98542495174b9ca3",
+  "normalized_input_sha256": "12c76e98af736deb931462b035d0480163ad9d2c04daf61d5c87f21eb7b7c470"
+}

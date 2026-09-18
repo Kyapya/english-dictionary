@@ -31,12 +31,12 @@ tags: []
 
 ＃コアイメージ
 
-「同じ対象・尺度・型を前提に、値や状態が変わること、または同類のものの間に違いがあること」。この核から、変化の大きさ、同じ型の別形、集団内外の差、主題を変形した作品、契約条件の変更などの語義が生じる。  
+「同じ対象・尺度・型を前提に、値や状態が変わること、または同類のものの間に違いがあること」。この核から、変化の大きさ、同じ型の別形、集団内外の差、主題を変形した作品、契約条件の変更などの語義が生じる。バレエの語義5は、現代の一般的なコアイメージから直接導くというより、独舞を指す慣用的な専門義として区別する。  
 ・同じ尺度で見た値や状態の変化・ばらつき → 「変動・ばらつき」（語義1）  
 ・同じ基本型を保った別の形 → 「変形・別形」（語義2）  
 ・同類の個体や集団の内外にある差 → 「個体差・変異」（語義3）  
 ・同じ主題をもとにした展開 → 「変奏・変奏曲」（語義4）  
-・一人の踊り手が踊るバレエのソロ → 「ソロ演目・独舞」（語義5）  
+・慣用的なバレエ専門義としてのソロ → 「ソロ演目・独舞」（語義5）  
 ・契約条件の正式な変更 → 「契約変更」（語義6）  
 ・真北と磁北の間の方位差 → 「磁気偏角」（語義7）  
 
@@ -44,7 +44,7 @@ tags: []
 
 1. 【名詞・不可算／可算】変化、変動、ばらつき
 
-【日本語訳・定義】量・水準・品質・状態などが一定ではなく変わること、またはその変化の幅・ばらつきを表す。変動・ばらつきを総体として述べる場合は不可算が多く、個々の変化・差・型を数える場合は可算になることが多い。個々の対象間の差や専門分野の変異を主に述べる場合は、語義3などの用法になる。  
+【日本語訳・定義】量・水準・品質・状態などが一定ではなく変わること、またはその変化の幅・ばらつきを表す。変動・ばらつきを総体として述べる場合は不可算が多く、個々の変化の事例や差を数える場合は可算になることが多い。基本型を保った別の型・版を数える場合は語義2、個々の対象間の差や専門分野の変異を主に述べる場合は語義3などの用法になる。  
 
 【頻度】〈8/10〉  
 
@@ -170,7 +170,7 @@ tags: []
 例: Many theories on punishment are variations on a theme.  
 訳: 刑罰についての多くの理論は、同じ主題を変形した展開である。  
 
-【語法・注意】`variation on` は元の型・設計・考えを土台にした別形を指すため、語義2の代表表現である。`variation of` も元のものの別形を表すことが多い。これに対し `variation from the norm/standard` は比較の基準を示し、そこからの相違・ずれに焦点を置くため、語義1で扱う。`a variation from the original` も文法的には可能だが、元の設計を基にした別形という意味なら `a variation on the original design` の方が自然である。音楽の `a variation on a theme` は語義4で扱い、ここでは物語・考えなどの比喩的な展開として読む。契約・法務の `variation of/to the contract` は正式な契約変更を表し、一般用法の「元の型を基にした別形」とは文脈が異なる。`alternative` は元の案の代替として選べる別案、`variation` は元の案との連続性を保った変形である。  
+【語法・注意】`variation on` は元の型・設計・考えを土台にした別形を指すため、語義2の代表表現である。`variation of` も元のものの別形を表すことが多い。これに対し `variation from the norm/standard` は比較の基準を示し、そこからの相違・ずれに焦点を置くため、語義1で扱う。`a variation from the original` も文法的には可能だが、元の設計を基にした別形を明確に示す代表表現としては `a variation on the original design` を用いる。音楽の `a variation on a theme` は語義4で扱い、ここでは物語・考えなどの比喩的な展開として読む。契約・法務の `variation to the contract` は正式な契約変更を表し、一般用法の「元の型を基にした別形」とは文脈が異なる。`alternative` は元の案の代替として選べる別案、`variation` は元の案との連続性を保った変形である。  
 
 【類義語】
 
@@ -219,8 +219,8 @@ tags: []
 
 ・variation within 〈a population〉  
 用途: 同じ集団内で見られる、遺伝的・形態的・生理的などの個体差を表す。  
-例: The study measured genetic variation within a population in wing length over several generations.  
-訳: その研究は、数世代にわたる集団内の翼長における遺伝的変異を測定した。  
+例: The study measured phenotypic variation in wing length within a population over several generations.  
+訳: その研究は、数世代にわたり、ある集団内の翼長に見られる表現型のばらつきを測定した。  
 
 ・genetic variation between 〈populations〉  
 用途: 異なる集団の間にある遺伝的な違いを表す。  
@@ -234,10 +234,10 @@ tags: []
 
 ・show variation in 〈a characteristic〉  
 用途: 特定の特徴に個体差や形式差があることを、観察・調査結果として述べる。  
-例: The plant samples show genetic variation in leaf shape and size within a species.  
-訳: その種の植物試料では、葉の形と大きさに遺伝的変異が見られる。  
+例: The plant samples show variation in leaf shape and size within a species.  
+訳: その種の植物試料では、葉の形と大きさに個体差が見られる。  
 
-【語法・注意】生物学の `variation` は、集団内の差という現象にも、その差を示す特徴にも使われる。`deviation` が基準・平均から外れることに焦点を置くのに対し、`variation` は個体・集団間の差やその分布を述べる。`mutation` は遺伝物質の配列に起きる変化、`genetic variation` は個体・集団間に観察される遺伝的差の状態・分布を指し、mutation は variation の原因の一つである。両語は同義ではない。  
+【語法・注意】生物学の `variation` は、集団内の差という現象にも、その差を示す特徴にも使われる。`deviation` が基準・平均から外れることに焦点を置くのに対し、`variation` は個体・集団間の差やその分布を述べる。`mutation` と `genetic variation` は同義ではなく、前者は個々の変化、後者は個体・集団間にある遺伝的差を述べるときに使い分ける。  
 
 【類義語】
 
@@ -273,7 +273,7 @@ tags: []
 
 4. 【名詞・可算・音楽】変奏；（複数・作品全体）変奏曲
 
-【日本語訳・定義】主題や旋律を反復し、旋律・和声・リズム・調性などに変化や装飾を加えた短い音楽作品、またはその一つの展開を表す。単数の `a variation` は通常、一連の変奏のうちの一つの変奏を指し、`variations` 全体や作品全体を指す場合に「変奏曲」とする。  
+【日本語訳・定義】単数の `a variation` は通常、一つの主題や旋律に変化や装飾を加えた、一連の変奏のうちの一つを表す。`variations` 全体や一連の変奏からなる作品全体を指す場合に「変奏曲」とする。  
 
 【頻度】〈5/10〉  
 
@@ -286,7 +286,7 @@ tags: []
 ・a set of variations on 〈a theme〉  
 用途: 1つの主題と、それに続く複数の変奏からなる一作品・一組を表す。個々の変奏が独立した別作品であることを必須としない。  
 例: The concert opened with a set of variations on a folk melody.  
-訳: その演奏会は民謡の旋律による変奏曲集で幕を開けた。  
+訳: その演奏会は民謡の旋律による一連の変奏（変奏曲）で幕を開けた。  
 
 ・theme and variations  
 用途: 主題を最初に示し、その後に複数の変奏を続ける形式を指す。  
@@ -308,7 +308,7 @@ tags: []
 例: The program included variations on a theme by Mozart.  
 訳: そのプログラムにはモーツァルトの主題による変奏曲が含まれていた。  
 
-【語法・注意】音楽では通常可算で、`a variation on a theme` は「主題に基づく一つの変奏」、`play/perform a variation` は「変奏を演奏する」と捉える。`a set of variations` や `variations` が一連の変奏・作品全体を指す場合は「変奏曲」「変奏曲集」と訳す。比喩的な `variations on a theme` は元の考えを少し変えた複数の展開を意味する。単に別の演奏や録音を指すときは variation ではなく version や arrangement が自然な場合がある。  
+【語法・注意】音楽では通常可算で、`a variation on a theme` は「主題に基づく一つの変奏」、`play/perform a variation` は「変奏を演奏する」と捉える。`a set of variations` や `variations` が一連の変奏・作品全体を指す場合は「変奏曲」「変奏曲集」と訳す。比喩的な `variations on a theme` は元の考えを少し変えた複数の展開を意味する。  
 
 【類義語】
 
@@ -370,12 +370,12 @@ tags: []
 
 【レジスター/領域】契約実務、調達、建設・プロジェクト管理などの専門用法。`variation`、`variation clause`、`variation order` の優勢な形は法域・契約類型によって異なるため、契約書の定義条項と適用法を確認する。  
 
-【文法パターン】a variation of/to 〈the contract〉＝契約の変更／a variation clause＝契約変更条項／a variation order＝契約・工事内容の変更指示／agree/approve/document a variation＝変更に合意する・承認する・記録する。  
+【文法パターン】a variation to 〈the contract〉＝契約の変更／a variation clause＝契約変更条項／a variation order＝契約・工事内容の変更指示／agree/approve/document a variation＝変更に合意する・承認する・記録する。  
 
 【コロケーション】
 
 ・a variation to 〈the contract〉  
-用途: 既存契約の条件を正式に変更したこと、またはその変更事項を表す。`variation of the contract` も使われるが、前置詞と用法は法域・契約書によって異なる。  
+用途: 既存契約の条件を正式に変更したこと、またはその変更事項を表す。用語の定義と手続は法域・契約書によって異なる。  
 例: The parties signed a variation to the contract extending the delivery date.  
 訳: 当事者は納期を延長する契約変更書に署名した。  
 
@@ -386,8 +386,8 @@ tags: []
 
 ・a variation order  
 用途: 特に建設・プロジェクト文脈で、追加・削除・変更する作業を正式に指示する文書や指示を表す。  
-例: The engineer issued a variation order for the additional work.
-訳: 請負業者は追加工事について変更指示書を提出した。  
+例: The engineer issued a variation order for the additional work.  
+訳: 技術者は追加工事について変更指示書を発行した。  
 
 【語法・注意】この用法の variation は、単なる別案ではなく、既存契約を変更する正式な行為・変更事項を指す。`amendment` や `modification` と重なるが、`variation order` は工事・プロジェクトの変更指示を特に指しやすい。用語の優勢な形は法域や分野によって異なるため、契約書の定義条項と適用法を確認する。  
 
@@ -406,18 +406,18 @@ tags: []
 
 【頻度】〈2/10〉  
 
-【レジスター/領域】航海、海図、地球科学、測量などの専門用法。`magnetic variation` は航海・海図で定着している一方、地球科学・測量では通常 `magnetic declination` が使われるなど、分野・地域・規格によって呼び方が異なる。  
+【レジスター/領域】航海、海図、地球科学、測量などの専門用法。`magnetic variation` は `magnetic declination` と同じ方位差を指し、呼び方は分野・地域・規格によって異なる。  
 
 【文法パターン】magnetic variation＝磁気偏角／magnetic variation at 〈a location〉＝〈地点〉の磁気偏角／account for magnetic variation＝磁気偏角を考慮する。  
 
 【コロケーション】
 
 ・magnetic variation  
-用途: 真北と磁北の方位差を、航海や測量で扱う専門表現。  
-例: Navigators must account for magnetic variation when plotting a course.  
-訳: 航海者は航路を設定する際に磁気偏角を考慮しなければならない。  
+用途: 真北と磁北の方位差を表す専門表現。  
+例: Navigators account for magnetic variation when converting between magnetic and true bearings.  
+訳: 航海者は磁方位と真方位を換算する際に磁気偏角を考慮する。  
 
-【語法・注意】この用法は一般的な「変動」ではなく、真北に対する磁北の角度を指す。航海・海図では `magnetic variation` が伝統的・実務的に使われるが、地球科学・測量では `magnetic declination` が一般的な場合がある。両表現の優勢さは分野・地域・規格によって異なる。  
+【語法・注意】この用法は一般的な「変動」ではなく、真北に対する磁北の角度を指す。`magnetic variation` と `magnetic declination` は同じ方位差を指し、どちらの呼称を用いるかは分野・地域・規格によって異なる。  
 
 【類義語】
 

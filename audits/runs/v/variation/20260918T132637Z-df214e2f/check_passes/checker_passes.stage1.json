@@ -1,0 +1,901 @@
+{
+  "schema_version": "normal_review_v2",
+  "stage": "normal_review",
+  "run_id": "normal-variation-20260918T132637Z-df214e2f",
+  "context_id": "normal-variation-context-20260918T132637Z-df214e2f",
+  "input_body_sha256": "e3caa8e1af96d10a7116b59750a969badff2bddfcee77986301493d751e824b9",
+  "prompt_sha256": "0b485ac494ff9f114a9061bbc7d789803f05ee6d79b908885efae2da2b0cebf5",
+  "input_artifacts": [
+    "router_selected_sections",
+    "checker_pass_specs"
+  ],
+  "recorded_at": "2026-09-18T13:50:25.665366+00:00",
+  "pass_outputs": [
+    {
+      "pass_id": "translation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.4",
+        "ingested_by": "orchestrator",
+        "agent_id": "01a0b4ba-c0c5-7e83-9110-d03f8ddd90bb",
+        "source_response": {
+          "path": "audits/runs/v/variation/20260918T132637Z-df214e2f/handoff/source_responses/32607aee2610e11706a87e5c2af4f0a1032d75c2bea375e99ccd10c4bd53ba04.json",
+          "sha256": "32607aee2610e11706a87e5c2af4f0a1032d75c2bea375e99ccd10c4bd53ba04"
+        }
+      },
+      "findings": [
+        {
+          "taxonomy_id": "semantic_direction_reversal",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 389,
+            "line_end": 390,
+            "exact_quote": "例: The engineer issued a variation order for the additional work.\n訳: 請負業者は追加工事について変更指示書を提出した。  "
+          },
+          "severity": "blocking",
+          "rationale": "英文では engineer が variation order を issued（発行した）しているが、訳文では行為者が請負業者に変わり、行為も「提出した」に置き換わっている。発行者／提出者と発行／提出の方向が保存されていない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "行為者と作用方向を保ち、「技師は追加工事について変更指示書を発行した」などとする。"
+        }
+      ]
+    },
+    {
+      "pass_id": "sense-structure",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.2-codex",
+        "ingested_by": "orchestrator",
+        "agent_id": "01a0b4ba-e033-7b82-955f-44c57835a096",
+        "source_response": {
+          "path": "audits/runs/v/variation/20260918T132637Z-df214e2f/handoff/source_responses/1b4ac82bac60e708a1a8a88f6cc341d5640ee2e21bb05e9bf0fa7baa90cd1eac.json",
+          "sha256": "1b4ac82bac60e708a1a8a88f6cc341d5640ee2e21bb05e9bf0fa7baa90cd1eac"
+        }
+      },
+      "findings": [
+        {
+          "taxonomy_id": "cross_section_internal_contradiction",
+          "location": {
+            "section": "core_image",
+            "line_start": 39,
+            "line_end": 39,
+            "exact_quote": "・一人の踊り手が踊るバレエのソロ → 「ソロ演目・独舞」（語義5）  "
+          },
+          "severity": "blocking",
+          "rationale": "コアイメージは「同じ対象・尺度・型を前提にした値・状態の変化または同類間の違い」から各語義が生じると説明しているが、語義5の定義はバレエで一人が踊る演目という慣用的な専門義であり、この意味核との同期的な意味関係が示されていない。列挙しただけでは、専門語 variation がなぜ『値・状態の変化／同類間の違い』に当たるのかを説明できず、同語源・歴史的連関だけで一般コアへ含めた形になる。",
+          "evidence_link_ids": [],
+          "suggested_direction": "語義5を現代の一般コアイメージから直接導かない慣用的な専門義として明示的に除外するか、現代話者にも成立する意味上の橋渡しを短く示す。"
+        },
+        {
+          "taxonomy_id": "sense_boundary_overlap",
+          "location": {
+            "section": "sense_structure",
+            "line_start": 47,
+            "line_end": 47,
+            "exact_quote": "【日本語訳・定義】量・水準・品質・状態などが一定ではなく変わること、またはその変化の幅・ばらつきを表す。変動・ばらつきを総体として述べる場合は不可算が多く、個々の変化・差・型を数える場合は可算になることが多い。個々の対象間の差や専門分野の変異を主に述べる場合は、語義3などの用法になる。  "
+          },
+          "severity": "minor",
+          "rationale": "語義1の可算用法に「個々の…型」を含めると、直後の語義2が担う「同じ基本型を保った別形」と境界が重なる。可算・不可算の説明に必要なのは変化の事例や差を数える場合であり、「型」まで語義1へ入れる必要はない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "語義1では可算対象を「個々の変化の事例・差」などに限定し、「別の型・版として数える variation」は語義2へ送ることを明示する。"
+        }
+      ]
+    },
+    {
+      "pass_id": "frame-relation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.2-codex",
+        "ingested_by": "orchestrator",
+        "agent_id": "01a0b4bb-27f7-7bf0-9bdf-4345b3526087",
+        "source_response": {
+          "path": "audits/runs/v/variation/20260918T132637Z-df214e2f/handoff/source_responses/7f3a5d0ebafa363150198cc7b8f624417e875cc6d85c6eb6401547c63ff31884.json",
+          "sha256": "7f3a5d0ebafa363150198cc7b8f624417e875cc6d85c6eb6401547c63ff31884"
+        }
+      },
+      "findings": [],
+      "antonym_axis_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "e3caa8e1af96d10a7116b59750a969badff2bddfcee77986301493d751e824b9",
+        "blind_request_sha256": "6b0da9fa1638a5b7bb962e656809379e0e1d76e8df14e766621ee201e6828672",
+        "recorded_at": "2026-09-18T13:36:22Z",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5.2-codex",
+          "ingested_by": "orchestrator",
+          "agent_id": "01a0b4bb-27f7-7bf0-9bdf-4345b3526087",
+          "source_response": {
+            "path": "audits/runs/v/variation/20260918T132637Z-df214e2f/handoff/source_responses/7f3a5d0ebafa363150198cc7b8f624417e875cc6d85c6eb6401547c63ff31884.json",
+            "sha256": "7f3a5d0ebafa363150198cc7b8f624417e875cc6d85c6eb6401547c63ff31884"
+          }
+        },
+        "axes": [
+          {
+            "item_id": "ant-7f2bbcaf5d9d",
+            "axis": "均一性",
+            "relation_type": "状態",
+            "reason": ""
+          },
+          {
+            "item_id": "ant-99c05f3c8546",
+            "axis": "均質性",
+            "relation_type": "状態",
+            "reason": ""
+          }
+        ]
+      }
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.2-codex",
+        "ingested_by": "orchestrator",
+        "agent_id": "01a0b4bb-03bd-74c3-83d7-4d70fe6ab08d",
+        "source_response": {
+          "path": "audits/runs/v/variation/20260918T132637Z-df214e2f/handoff/source_responses/198f02f67c8415230835928783baf11a0df4ca44ab66eeab4f161eb4470ff4cc.json",
+          "sha256": "198f02f67c8415230835928783baf11a0df4ca44ab66eeab4f161eb4470ff4cc"
+        }
+      },
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5.2-codex",
+          "ingested_by": "orchestrator",
+          "agent_id": "01a0b4bb-03bd-74c3-83d7-4d70fe6ab08d",
+          "source_response": {
+            "path": "audits/runs/v/variation/20260918T132637Z-df214e2f/handoff/source_responses/198f02f67c8415230835928783baf11a0df4ca44ab66eeab4f161eb4470ff4cc.json",
+            "sha256": "198f02f67c8415230835928783baf11a0df4ca44ab66eeab4f161eb4470ff4cc"
+          }
+        },
+        "input_body_sha256": "e3caa8e1af96d10a7116b59750a969badff2bddfcee77986301493d751e824b9",
+        "blind_request_sha256": "13215447d2d2cec4c5f1c4c240ea483b2645cad173ca462c17db17d6da68cfee",
+        "recorded_at": "2026-09-18T13:39:09.729132+00:00",
+        "attributions": [
+          {
+            "example_id": "ex-770ca952997f",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "variation from The Sleeping Beauty",
+              "ソロ演目"
+            ],
+            "rationale": "「variation from The Sleeping Beauty」と訳の「ソロ演目」は、作品から選ぶバレエの独舞を指す。sense:004の音楽上の変奏なら踊る演目を示す「ソロ演目」にならず、sense:002の一般的な別形なら作品からオーディション用に選ぶこの専門的な言い方を説明できない。"
+          },
+          {
+            "example_id": "ex-755f618699d9",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "a variation from the ballet",
+              "ソロ演目"
+            ],
+            "rationale": "「a variation from the ballet」をrehearseし、訳も「バレエ作品のソロ演目」とするためバレエ独舞である。sense:004の変奏は音楽を演奏する対象であり、sense:002の別形も「from the ballet」で作品内の独舞を指すこの関係にはならない。"
+          },
+          {
+            "example_id": "ex-49e09a36c4ae",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "genetic variation between populations"
+            ],
+            "rationale": "「genetic variation between populations」は集団間の遺伝的差を直接表すためsense:003である。sense:001の一般的な変動なら、variationを遺伝に限定して集団間で比較するこの意味関係を捉えきれない。"
+          },
+          {
+            "example_id": "ex-84e25b623627",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "a set of variations on a folk melody",
+              "変奏曲集"
+            ],
+            "rationale": "「a set of variations on a folk melody」と訳の「変奏曲集」は、旋律を主題とする複数の音楽的変奏を表す。sense:002の一般的なアレンジならconcertが一連のvariationsで開幕するという作品単位の読みにならない。"
+          },
+          {
+            "example_id": "ex-5d633c938954",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "variation in the time needed"
+            ],
+            "rationale": "「variation in the time needed」は所要時間という数値のばらつきを総体として述べるためsense:001である。sense:002の別形は元となる型を変えた可算物を必要とし、この不可算の時間分布には合わない。"
+          },
+          {
+            "example_id": "ex-d13f06f0bef3",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:007"
+            ],
+            "discriminating_terms": [
+              "magnetic variation",
+              "磁気偏角"
+            ],
+            "rationale": "固定表現「magnetic variation」と訳の「磁気偏角」が真北と磁北の方位差を表すためsense:007である。sense:001の一般的変動では、航路設定時に補正する磁気方位の専門量を特定できない。"
+          },
+          {
+            "example_id": "ex-17450ba09728",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "a slight variation on the original instructions",
+              "別版"
+            ],
+            "rationale": "「a slight variation on the original instructions」とcreatedおよび訳の「別版」は、元の説明を土台に一部を改めた成果物を指すためsense:002である。sense:001の変動ならcreated a variationという個別版の生成やon the originalという基盤関係を説明できない。"
+          },
+          {
+            "example_id": "ex-4d5f8ddc089f",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "a clever variation on a familiar coming-of-age story",
+              "変形した作品"
+            ],
+            "rationale": "「a clever variation on a familiar coming-of-age story」は既知の物語型を変形した個別作品を指すためsense:002である。sense:004は音楽主題の変奏を要求するが、ここではnovelそのものが「変形した作品」であり音楽作品ではない。"
+          },
+          {
+            "example_id": "ex-0f2946e92a43",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "seasonal variation in demand",
+              "季節変動"
+            ],
+            "rationale": "「seasonal variation in demand」と訳の「季節変動」は需要量が季節に応じて上下することを表すためsense:001である。sense:002の別形なら需要の値の推移ではなく、原型から作った個別の版を数える読みが必要になる。"
+          },
+          {
+            "example_id": "ex-0d6e4e25fe72",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "a classical ballet variation",
+              "ソロ演目"
+            ],
+            "rationale": "「a classical ballet variation」をcompetition向けにprepareし、訳が「ソロ演目」と明示するためsense:005である。sense:004の音楽的変奏はclassical ballet内で踊り手が準備する競技演目というvariationの役割にならない。"
+          },
+          {
+            "example_id": "ex-571e24dbc8a5",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "theme and variations",
+              "主題と変奏曲"
+            ],
+            "rationale": "音楽作品名型の「theme and variations」と訳の「主題と変奏曲」をpianistがrecitalに選ぶためsense:004である。sense:002の一般的な別形ならthemeと複数のvariationsから成る演奏作品という構成を持たない。"
+          },
+          {
+            "example_id": "ex-8d1277092bc5",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "Genetic variation within a species"
+            ],
+            "rationale": "「Genetic variation within a species」は同一種内の遺伝的差を直接表すためsense:003である。sense:001の一般的な値の変動では、種内差が病気への反応を左右する遺伝学上の関係を十分に表せない。"
+          },
+          {
+            "example_id": "ex-10d46c567564",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "genetic variation among individuals",
+              "個体間の大きな遺伝的差"
+            ],
+            "rationale": "「genetic variation among individuals」と訳の「個体間の大きな遺伝的差」は個体間の遺伝的変異なのでsense:003である。sense:001の一般的ばらつきならgeneticという原因属性とamong individualsという集団内比較を専門的に結び付けない。"
+          },
+          {
+            "example_id": "ex-f846a9be81c3",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "a variation on the original method",
+              "変形版"
+            ],
+            "rationale": "「a variation on the original method」と訳の「変形版」は元の方法を土台にした一つの改変版を表すためsense:002である。sense:001なら方法間の変動量を述べるはずで、tested a variationという可算の試験対象にはならない。"
+          },
+          {
+            "example_id": "ex-1ffbf764a2a6",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "wide variation between schools",
+              "学校間に大きな差"
+            ],
+            "rationale": "「wide variation between schools」と訳の「学校間に大きな差」は学校ごとの利用状況のばらつきを表すためsense:001である。sense:003は生物集団の個体差を扱うが、schools間の機器利用差には遺伝・生物学的関係がない。"
+          },
+          {
+            "example_id": "ex-c51ae9ac1cd4",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "variation according to age and region",
+              "年齢と地域によってかなりの差"
+            ],
+            "rationale": "「variation according to age and region」は調査値が年齢・地域で異なることを総体として示すためsense:001である。sense:003なら遺伝的・生物学的な個体差を示す標識が必要だが、この文は一般的な調査結果の差だけを述べる。"
+          },
+          {
+            "example_id": "ex-6b6bb5188598",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "genetic variation in leaf shape and size within a species"
+            ],
+            "rationale": "「genetic variation in leaf shape and size within a species」は同一種の形態形質にある遺伝的変異を表すためsense:003である。sense:001の一般的変動では、geneticとwithin a speciesが指定する生物集団内差という関係を落としてしまう。"
+          },
+          {
+            "example_id": "ex-d37651a5b546",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "genetic variation within a population in wing length"
+            ],
+            "rationale": "「genetic variation within a population in wing length」は集団内の形質差を遺伝的変異として測定するためsense:003である。sense:001の単なる翼長変動ならgeneticおよびwithin a populationによる遺伝集団内の帰属を必要としない。"
+          },
+          {
+            "example_id": "ex-3a34f4d1c4ca",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "played the final variation",
+              "最後の変奏"
+            ],
+            "rationale": "「played the final variation」と訳の「最後の変奏」は一連の音楽的変奏の最後の一つを演奏する意味なのでsense:004である。sense:002の一般的な別形はplayedの直接目的語として順番付きの演奏単位にはならない。"
+          },
+          {
+            "example_id": "ex-171de090e30a",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "a lighter variation on a traditional winter dish",
+              "アレンジ"
+            ],
+            "rationale": "「a lighter variation on a traditional winter dish」は元の料理を軽めに変えた個別のアレンジを指すためsense:002である。sense:001の変動ならsoup自体をa variationとして伝統料理との派生関係で同定することはできない。"
+          },
+          {
+            "example_id": "ex-3735aa95af6d",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "Genetic variation in drug response",
+              "薬物反応における遺伝的変異"
+            ],
+            "rationale": "「Genetic variation in drug response」と訳の「遺伝的変異」は薬物反応の個人差を遺伝要因として扱うためsense:003である。sense:001の一般的ばらつきなら、variationをgeneticと限定して医学的解釈に用いる専門性が失われる。"
+          },
+          {
+            "example_id": "ex-60f6e83c02b9",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "a useful variation on the original design",
+              "アレンジ"
+            ],
+            "rationale": "「a useful variation on the original design」は元の設計を基礎にした一つの版を指すためsense:002である。sense:001の変動ならThis versionを可算のvariationとして原設計との派生関係で評価する読みにはならない。"
+          },
+          {
+            "example_id": "ex-a53f15416d79",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "variations on a theme by Mozart",
+              "変奏曲"
+            ],
+            "rationale": "「variations on a theme by Mozart」とprogramに含まれる「変奏曲」は音楽作品を表すためsense:004である。sense:002の比喩的な展開ならMozartのthemeを素材に複数の変奏を演奏プログラムへ載せる構成にならない。"
+          },
+          {
+            "example_id": "ex-b7caf3b721ff",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "a variation clause",
+              "契約変更条項"
+            ],
+            "rationale": "固定的な契約表現「a variation clause」と訳の「契約変更条項」は作業範囲変更を規律する条項なのでsense:006である。sense:001の一般的変動ではcontractがincludeする法的なclauseの名称を説明できない。"
+          },
+          {
+            "example_id": "ex-5dcd3c212d45",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "seasonal variation",
+              "季節変動"
+            ],
+            "rationale": "「seasonal variation」をtake into accountし、訳も「季節変動」とするため、周期的な値の変化を表すsense:001である。sense:002の個別の別形ならforecastが総体として考慮する季節的推移という読みにならない。"
+          },
+          {
+            "example_id": "ex-e9f1d5281254",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "slight variation from the standard procedure in its timing",
+              "標準手順からわずかに異なる"
+            ],
+            "rationale": "「slight variation from the standard procedure in its timing」は基準からの差の程度を述べるためsense:001である。sense:002の派生版ならa variation on the procedureのように個別の版を指すが、ここでは不可算でtiming上のずれだけを量的に示す。"
+          },
+          {
+            "example_id": "ex-f6008df82cbd",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "variations on a theme",
+              "同じ主題を変形した展開"
+            ],
+            "rationale": "「theories ... are variations on a theme」は複数の理論を共通主題の変形版として捉える比喩なのでsense:002である。sense:004の音楽的変奏ならtheoriesがvariationsそのものになることはなく、ここでは訳も「変形した展開」とする。"
+          },
+          {
+            "example_id": "ex-80aa8ade2945",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "a variation order for the additional work",
+              "変更指示書"
+            ],
+            "rationale": "契約実務の複合語「a variation order for the additional work」と訳の「変更指示書」は追加工事を指示する文書なのでsense:006である。sense:002の一般的な別形にはorderという法務・工事上の文書種別やadditional workとの関係がない。"
+          },
+          {
+            "example_id": "ex-649ba093736a",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "performed a variation on the melody",
+              "一つの変奏"
+            ],
+            "rationale": "「performed a variation on the melody」とrhythmic changes、訳の「一つの変奏」は旋律を音楽的に展開して演奏するためsense:004である。sense:002の一般的アレンジならpianistがvariationそのものをperformedする一回の音楽単位という読みを十分に表せない。"
+          },
+          {
+            "example_id": "ex-55962cb7190e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "a variation to the contract",
+              "契約変更書"
+            ],
+            "rationale": "「signed a variation to the contract extending the delivery date」と訳の「契約変更書」は納期を変更する正式文書なのでsense:006である。sense:002の別形ならpartiesが署名し契約条件を延長する法的変更行為を表さない。"
+          },
+          {
+            "example_id": "ex-50e98977f38f",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "the variation of temperature with altitude",
+              "高度に伴う温度の変化"
+            ],
+            "rationale": "「the variation of temperature with altitude」は高度という尺度に応じた温度値の変化を表すためsense:001である。sense:002の別形は元の型から作られた個物を指し、graphが示す連続的な数値関係にはならない。"
+          },
+          {
+            "example_id": "ex-bd74363fa0ec",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "slight variation in color",
+              "色のわずかな違い"
+            ],
+            "rationale": "「slight variation in color」と訳の「色のわずかな違い」は二つの試料間の色差を程度として述べるためsense:001である。sense:002の別形なら各paint sampleを元の型のvariationとして数えるはずで、このin colorの差量表現とは異なる。"
+          },
+          {
+            "example_id": "ex-6d8dd931984e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "The dancer performed her variation",
+              "ソロ演目を踊った"
+            ],
+            "rationale": "「The dancer performed her variation」と訳の「ソロ演目を踊った」は踊り手自身の独舞を指すためsense:005である。sense:004でもperformは可能だが、variationの所有者がdancerで実現手段がcontrolled, precise movementsであるため音楽変奏では成立しない。"
+          }
+        ]
+      },
+      "aligned_at": "2026-09-18T13:50:25.656861+00:00",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "qualification",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.2-codex",
+        "ingested_by": "orchestrator",
+        "agent_id": "01a0b4bb-4d53-76b2-9eff-65fa5f02508a",
+        "source_response": {
+          "path": "audits/runs/v/variation/20260918T132637Z-df214e2f/handoff/source_responses/bfe5ed48645ec02cfb46ec78e366f2096a004dbef01b899d6bbb53eee616474e.json",
+          "sha256": "bfe5ed48645ec02cfb46ec78e366f2096a004dbef01b899d6bbb53eee616474e"
+        }
+      },
+      "findings": [
+        {
+          "taxonomy_id": "technical_terminology_conventionality",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 389,
+            "line_end": 390,
+            "exact_quote": "例: The engineer issued a variation order for the additional work.\n訳: 請負業者は追加工事について変更指示書を提出した。  "
+          },
+          "severity": "blocking",
+          "rationale": "英例文では engineer が variation order を issued しているのに、訳文では主体が請負業者、行為が提出に変わっている。契約実務では発行者・提出者と行為の区別が重要であり、例文が示す専門用法を訳文が正確に伝えていない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "英例文に合わせて「技術者は追加工事について変更指示書を発行した」などとし、主体と行為を一致させる。"
+        },
+        {
+          "taxonomy_id": "technical_terminology_conventionality",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 415,
+            "line_end": 416,
+            "exact_quote": "・magnetic variation  \n用途: 真北と磁北の方位差を、航海や測量で扱う専門表現。  "
+          },
+          "severity": "minor",
+          "rationale": "同じ項目のレジスター説明では、測量では magnetic declination が通常使われる場合があると限定しているが、この用途説明は magnetic variation を航海と測量で同程度に定着した表現のように一般化している。分野による用語選択の限定がブロック内で一貫していない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "「主に航海・海図で扱う専門表現。測量などでは magnetic declination が一般的な場合がある」のように分野差を用途説明にも反映する。"
+        },
+        {
+          "taxonomy_id": "absolute_scope_counterexample",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 417,
+            "line_end": 418,
+            "exact_quote": "例: Navigators must account for magnetic variation when plotting a course.  \n訳: 航海者は航路を設定する際に磁気偏角を考慮しなければならない。  "
+          },
+          "severity": "minor",
+          "rationale": "must と「考慮しなければならない」は、航路設定一般に無条件で適用される表現になっている。磁気コンパスを用いる場合や真方位と磁気方位を換算する場合には必要だが、真方位だけを扱う方式や補正が自動化された文脈まで、航路設定者が個別に考慮することを必須とはできない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "磁気コンパスを使う場合、または真方位と磁気方位を換算する場合に限定する例文へ修正する。"
+        }
+      ]
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "pronunciation",
+      "status": "pass",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.2-codex",
+        "ingested_by": "orchestrator",
+        "agent_id": "01a0b4bc-b1a8-7892-99c6-38db1b2de0a7",
+        "source_response": {
+          "path": "audits/runs/v/variation/20260918T132637Z-df214e2f/handoff/source_responses/8283bf86d94ddc64a4925fd07edb994745a014f83026b3ad4b73dc2d91d367a6.json",
+          "sha256": "8283bf86d94ddc64a4925fd07edb994745a014f83026b3ad4b73dc2d91d367a6"
+        }
+      },
+      "findings": []
+    },
+    {
+      "pass_id": "evidence",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.2-codex",
+        "ingested_by": "orchestrator",
+        "agent_id": "01a0b4c3-45b6-71c0-a543-1154234330a3",
+        "source_response": {
+          "path": "audits/runs/v/variation/20260918T132637Z-df214e2f/handoff/source_responses/86e22e736cf46615a6881defc651d2cf271e29e6748b852dc6aa76505065bfe3.json",
+          "sha256": "86e22e736cf46615a6881defc651d2cf271e29e6748b852dc6aa76505065bfe3"
+        }
+      },
+      "findings": [
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "usage_notes",
+            "line_start": 86,
+            "line_end": 86,
+            "exact_quote": "variation は変動やばらつきを総体として述べるときは不可算が多く、a variation/variations は個々の変化・差・型を数えるときに使われることが多い。"
+          },
+          "severity": "blocking",
+          "rationale": "insufficient_evidence: Cambridge の指定 locator https://dictionary.cambridge.org/dictionary/english/variation は 403 で本文を開けず、CA-01〜CA-04 と claim-src-cambridge-variation を独立確認できなかった。残る Merriam-Webster と Collins は variation の可算用例・不可算用例や一般義を示すが、この使用傾向全体、difference/variety との焦点差、頻度評価に関する注記を一まとまりとして直接支持していない。",
+          "evidence_link_ids": [
+            "claim-src-cambridge-variation",
+            "claim-src-merriam-variation",
+            "claim-src-collins-variation"
+          ],
+          "suggested_direction": "Cambridge を閲覧可能な保存資料または別の直接資料に差し替え、可算性と difference/variety の比較をそれぞれ直接支持する evidence link に分ける。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 376,
+            "line_end": 379,
+            "exact_quote": "・a variation order\n用途: 特に建設・プロジェクト文脈で、追加・削除・変更する作業を正式に指示する文書や指示を表す。"
+          },
+          "severity": "blocking",
+          "rationale": "insufficient_evidence: CEDD の指定 PDF locator https://www.cedd.gov.hk/filemanager/technicalcirculars/eng/upload/1047/CEDD_TC_2023_02_fr_2022_06_clean.pdf を外部閲覧機能で開けず、CEDD-01 と claim-src-cedd-contract-variation-order を確認できなかった。同じ未確認 link が grammar_pattern:027 と register:006 にも使われている。",
+          "evidence_link_ids": [
+            "claim-src-cedd-contract-variation-order"
+          ],
+          "suggested_direction": "閲覧可能な政府・標準契約資料で variation order の定義と適用範囲を直接確認して差し替えるか、確認できるまで対象3箇所を hold にする。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "usage_notes",
+            "line_start": 162,
+            "line_end": 162,
+            "exact_quote": "`a variation from the original` も文法的には可能だが、元の設計を基にした別形という意味なら `a variation on the original design` の方が自然である。"
+          },
+          "severity": "blocking",
+          "rationale": "Collins は variation on を「同じものの少し異なる形」と定義し、variation from the Evans Gambit という用例も載せるが、from the original と on the original design の自然さを比較していない。また同じ注記の variation of が元のものの別形を表しやすいという主張、一般用法と契約用法の境界、alternative との焦点差も CO-01/CO-02/CO-09 からは直接確認できない。",
+          "evidence_link_ids": [
+            "claim-src-collins-variation"
+          ],
+          "suggested_direction": "前置詞ごとの用例・語法注記を持つ直接資料を追加し、比較的な自然さの主張を資料が示す範囲まで限定する。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "frames",
+            "line_start": 362,
+            "line_end": 362,
+            "exact_quote": "a variation of/to 〈the contract〉＝契約の変更"
+          },
+          "severity": "blocking",
+          "rationale": "Western Australia の資料は a variation to a contract と variation clause を直接使用するが、variation of the contract は使用していない。したがって WA-01〜WA-04 は to を支持しても、of/to を併記する grammar_pattern:025 と collocation:030 の「variation of も使われる」という部分を直接支持しない。",
+          "evidence_link_ids": [
+            "claim-src-wa-contract-variation"
+          ],
+          "suggested_direction": "現資料に合わせて variation to the contract に限定するか、契約用法の variation of the contract を実際に用いる法務資料を追加する。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "frequency_register",
+            "line_start": 398,
+            "line_end": 398,
+            "exact_quote": "`magnetic variation` は航海・海図で定着している一方、地球科学・測量では通常 `magnetic declination` が使われるなど、分野・地域・規格によって呼び方が異なる。"
+          },
+          "severity": "blocking",
+          "rationale": "HKO は magnetic variation と declination を同義として扱い、時期・地点で値が変わることを示す。Collins も magnetic variation を magnetic declination の別称または nautical term とする。しかし両資料とも、地球科学・測量では declination が通常優勢で、航海・海図では variation が定着しているという分野別の比較頻度を示していない。同じ未支持比較が usage_note:007 と synonym:013 にもある。",
+          "evidence_link_ids": [
+            "claim-src-hko-magnetic-variation",
+            "claim-src-collins-variation"
+          ],
+          "suggested_direction": "分野別用語を規定する一次資料または専門用語集を追加するか、資料が直接支持する同義関係と定義だけに記述を限定する。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "lexical_relations",
+            "line_start": 166,
+            "line_end": 171,
+            "exact_quote": "variant は別形そのものを簡潔に指し、医学・生物・言語などで標準形との差を分類する語としても使う。variation は変形の過程や関係も表しやすい。"
+          },
+          "severity": "blocking",
+          "rationale": "Merriam-Webster の variation locator には variant の項目・定義・この対比がなく、ページ内検索でも variant は確認できない。Oxford の variation ページでは variant は nearby word にあるだけで、word family に含まれず、意味差も説明されない。MW-07/OX-13 はこの比較と word_formation:003 の「同じ語族」を直接支持していない。",
+          "evidence_link_ids": [
+            "claim-src-merriam-variation",
+            "claim-src-oxford-variation"
+          ],
+          "suggested_direction": "variant の独立辞書項目と語源資料を locator に追加し、語族関係と variation との差をそれぞれ直接確認する。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "usage_notes",
+            "line_start": 229,
+            "line_end": 229,
+            "exact_quote": "`mutation` は遺伝物質の配列に起きる変化、`genetic variation` は個体・集団間に観察される遺伝的差の状態・分布を指し、mutation は variation の原因の一つである。両語は同義ではない。"
+          },
+          "severity": "blocking",
+          "rationale": "Merriam-Webster の variation ページは生物学的 variation を種・集団の標準からの構造的・機能的差として定義するが、mutation の定義、genetic variation との境界、mutation が原因の一つであるという因果関係を記載していない。MW-03 だけでは対象主張を直接支持できない。",
+          "evidence_link_ids": [
+            "claim-src-merriam-variation"
+          ],
+          "suggested_direction": "mutation と genetic variation の関係を説明する遺伝学の一次・教育資料を追加するか、現資料が支持する variation の定義まで注記を縮める。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 204,
+            "line_end": 227,
+            "exact_quote": "・genetic variation among 〈individuals〉"
+          },
+          "severity": "blocking",
+          "rationale": "Collins の生物学義は同種・同群の個体間の構造・性質の差を支持するが、genetic variation among individuals / between populations / in drug response、show genetic variation in a characteristic という個別構文・専門的適用例を掲載していない。一般定義 CO-06 だけをこれら4件のコロケーション evidence とするのは適用範囲が広すぎる。",
+          "evidence_link_ids": [
+            "claim-src-collins-variation"
+          ],
+          "suggested_direction": "各構文が実際に使われる遺伝学資料または専門辞書を追加し、特に drug response の適用を直接確認する。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "frames",
+            "line_start": 319,
+            "line_end": 319,
+            "exact_quote": "a variation from 〈a ballet〉＝〈バレエ作品〉からのソロ演目／learn/rehearse a variation＝ソロ演目を習う・リハーサルする。"
+          },
+          "severity": "blocking",
+          "rationale": "Collins は ballet sense を a solo dance と定義するが、a variation from a ballet、learn/rehearse a variation、perform a variation という構文は当該 locator にない。CO-03 は語義を支持しても grammar_pattern:023/024 と collocation:026/028/029 の自然な結合・適用範囲を直接支持しない。",
+          "evidence_link_ids": [
+            "claim-src-collins-variation"
+          ],
+          "suggested_direction": "バレエ団・コンクール規程・専門辞書など、各構文を実際に用いる資料を追加する。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "word_formation",
+            "line_start": 17,
+            "line_end": 18,
+            "exact_quote": "・variety：名詞。「多様性、種類、変種」。variation が変化や個々の違いに焦点を置くのに対し、variety は種類の豊富さや選択肢に焦点を置きやすい。"
+          },
+          "severity": "blocking",
+          "rationale": "Oxford の variation ページは various と variety を Word Family に列挙するだけで、それぞれの品詞的制約、意味、variation との焦点差を定義していない。OX-11/OX-12 は word_formation:005/006 の詳細な説明を直接支持しない。",
+          "evidence_link_ids": [
+            "claim-src-oxford-variation"
+          ],
+          "suggested_direction": "various と variety の各辞書項目を追加し、語形成上の関係と意味差を別々に根拠付ける。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "usage_notes",
+            "line_start": 300,
+            "line_end": 300,
+            "exact_quote": "単に別の演奏や録音を指すときは variation ではなく version や arrangement が自然な場合がある。"
+          },
+          "severity": "blocking",
+          "rationale": "Merriam-Webster と Collins は音楽義を主題の反復・変形として定義するが、variation と version/arrangement の使い分けを説明していない。MW-02/CO-07 はこの比較主張を直接支持しない。",
+          "evidence_link_ids": [
+            "claim-src-merriam-variation",
+            "claim-src-collins-variation"
+          ],
+          "suggested_direction": "音楽用語辞典または用法資料で version/arrangement との境界を根拠付けるか、この比較文を削除する。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "word_formation",
+            "line_start": 14,
+            "line_end": 14,
+            "exact_quote": "・variable：形容詞・名詞。「変動する、可変の；変数」。variation と同語源の重要な関連語で、変化しうる性質や変化する値・要因を表す。"
+          },
+          "severity": "blocking",
+          "rationale": "Oxford の variation ページは variable を Word Family に挙げるが、意味の詳細は載せていない。Merriam-Webster の指定 variation locator にも variable の独立定義や語族説明はなく、MW-06 の source_detail は locator 本文から確認できない。よって形容詞・名詞の意味と「値・要因」の説明までを直接支持していない。",
+          "evidence_link_ids": [
+            "claim-src-oxford-variation",
+            "claim-src-merriam-variation"
+          ],
+          "suggested_direction": "variable の独立辞書項目を source inventory に追加し、品詞別の意味を直接結び付ける。"
+        }
+      ]
+    }
+  ],
+  "checker_reviewers": {
+    "translation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5.4",
+      "ingested_by": "orchestrator",
+      "agent_id": "01a0b4ba-c0c5-7e83-9110-d03f8ddd90bb",
+      "source_response": {
+        "path": "audits/runs/v/variation/20260918T132637Z-df214e2f/handoff/source_responses/32607aee2610e11706a87e5c2af4f0a1032d75c2bea375e99ccd10c4bd53ba04.json",
+        "sha256": "32607aee2610e11706a87e5c2af4f0a1032d75c2bea375e99ccd10c4bd53ba04"
+      }
+    },
+    "sense-structure": {
+      "mode": "handoff",
+      "declared_model": "gpt-5.2-codex",
+      "ingested_by": "orchestrator",
+      "agent_id": "01a0b4ba-e033-7b82-955f-44c57835a096",
+      "source_response": {
+        "path": "audits/runs/v/variation/20260918T132637Z-df214e2f/handoff/source_responses/1b4ac82bac60e708a1a8a88f6cc341d5640ee2e21bb05e9bf0fa7baa90cd1eac.json",
+        "sha256": "1b4ac82bac60e708a1a8a88f6cc341d5640ee2e21bb05e9bf0fa7baa90cd1eac"
+      }
+    },
+    "frame-relation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5.2-codex",
+      "ingested_by": "orchestrator",
+      "agent_id": "01a0b4bb-27f7-7bf0-9bdf-4345b3526087",
+      "source_response": {
+        "path": "audits/runs/v/variation/20260918T132637Z-df214e2f/handoff/source_responses/7f3a5d0ebafa363150198cc7b8f624417e875cc6d85c6eb6401547c63ff31884.json",
+        "sha256": "7f3a5d0ebafa363150198cc7b8f624417e875cc6d85c6eb6401547c63ff31884"
+      }
+    },
+    "example-attribution": {
+      "mode": "handoff",
+      "declared_model": "gpt-5.2-codex",
+      "ingested_by": "orchestrator",
+      "agent_id": "01a0b4bb-03bd-74c3-83d7-4d70fe6ab08d",
+      "source_response": {
+        "path": "audits/runs/v/variation/20260918T132637Z-df214e2f/handoff/source_responses/198f02f67c8415230835928783baf11a0df4ca44ab66eeab4f161eb4470ff4cc.json",
+        "sha256": "198f02f67c8415230835928783baf11a0df4ca44ab66eeab4f161eb4470ff4cc"
+      }
+    },
+    "qualification": {
+      "mode": "handoff",
+      "declared_model": "gpt-5.2-codex",
+      "ingested_by": "orchestrator",
+      "agent_id": "01a0b4bb-4d53-76b2-9eff-65fa5f02508a",
+      "source_response": {
+        "path": "audits/runs/v/variation/20260918T132637Z-df214e2f/handoff/source_responses/bfe5ed48645ec02cfb46ec78e366f2096a004dbef01b899d6bbb53eee616474e.json",
+        "sha256": "bfe5ed48645ec02cfb46ec78e366f2096a004dbef01b899d6bbb53eee616474e"
+      }
+    },
+    "pronunciation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5.2-codex",
+      "ingested_by": "orchestrator",
+      "agent_id": "01a0b4bc-b1a8-7892-99c6-38db1b2de0a7",
+      "source_response": {
+        "path": "audits/runs/v/variation/20260918T132637Z-df214e2f/handoff/source_responses/8283bf86d94ddc64a4925fd07edb994745a014f83026b3ad4b73dc2d91d367a6.json",
+        "sha256": "8283bf86d94ddc64a4925fd07edb994745a014f83026b3ad4b73dc2d91d367a6"
+      }
+    },
+    "evidence": {
+      "mode": "handoff",
+      "declared_model": "gpt-5.2-codex",
+      "ingested_by": "orchestrator",
+      "agent_id": "01a0b4c3-45b6-71c0-a543-1154234330a3",
+      "source_response": {
+        "path": "audits/runs/v/variation/20260918T132637Z-df214e2f/handoff/source_responses/86e22e736cf46615a6881defc651d2cf271e29e6748b852dc6aa76505065bfe3.json",
+        "sha256": "86e22e736cf46615a6881defc651d2cf271e29e6748b852dc6aa76505065bfe3"
+      }
+    }
+  },
+  "independent_candidates": [],
+  "summary": "Independent checker stage 1 completed by seven parallel handoff agents; frame-relation stage 2 remains pending."
+}

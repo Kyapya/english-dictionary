@@ -18,12 +18,12 @@
     "research_queries": 0,
     "candidate_pages": 0
   },
-  "status": "in_progress",
-  "stage": "source_inventory_complete",
+  "status": "budget_exhausted",
+  "stage": "cold_review_complete",
   "started_at": "2026-09-18T13:26:37Z",
   "deadline_at": "2026-09-18T14:26:37Z",
   "pre_draft_deadline_at": "2026-09-18T13:46:37Z",
-  "last_heartbeat_at": "2026-09-18T13:34:16Z",
+  "last_heartbeat_at": "2026-09-18T14:00:35Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-18T13:29:52Z",
@@ -51,10 +51,22 @@
       "stage": "source_inventory_complete",
       "recorded_at": "2026-09-18T13:34:16Z",
       "notes": "source-first inventory rebound to corrected draft before checker comparison"
+    },
+    {
+      "stage": "normal_review_complete",
+      "recorded_at": "2026-09-18T13:52:50Z",
+      "notes": "orchestrator completed checker_passes"
+    },
+    {
+      "stage": "cold_review_complete",
+      "recorded_at": "2026-09-18T13:53:03Z",
+      "notes": "orchestrator completed cold_review"
     }
   ],
-  "stop_reason": "",
-  "open_questions": [],
+  "stop_reason": "source inventory evidence coverage was insufficient and sealed locators could not be repaired without invalidating the checkpoint",
+  "open_questions": [
+    "Restart from the corrected draft with directly accessible sources for variation order, variable, variant, and ballet constructions"
+  ],
   "orchestrator": {
     "workflow_contract_version": "workflow_improvement_v1",
     "orchestrator_version": "run_word_v3",
@@ -541,6 +553,35 @@
         "machine_duration_seconds": 0.000657,
         "additional_llm_calls": 0,
         "stage": "generation"
+      },
+      {
+        "schema_version": "process_improvement_input_v2",
+        "knowledge_epoch": "pi2-2026-09-06",
+        "recipient": "coordinator",
+        "phase": "pre_blind_resolution",
+        "features": [
+          "construction_distinctions",
+          "contract_legal_usage",
+          "countability_guidance",
+          "etymology",
+          "magnetic_variation",
+          "music_usage",
+          "related_words"
+        ],
+        "limits": {
+          "max_items": 8,
+          "max_bytes": 8192
+        },
+        "selected": [],
+        "skipped": [],
+        "input_bytes": 348,
+        "input_sha256": "15f14c2d725291b96b5dbe2db56cbb7491829119f31878ea570d69fa5ff91e14",
+        "run_id": "20260918T132637Z-df214e2f",
+        "created_at": "2026-09-18T13:53:03Z",
+        "snapshot_path": "audits/runs/v/variation/20260918T132637Z-df214e2f/process_improvement/coordinator-pre_blind_resolution.snapshot.md",
+        "machine_duration_seconds": 0.000512,
+        "additional_llm_calls": 0,
+        "stage": "pre_blind_resolution"
       }
     ],
     "processing": {
@@ -550,10 +591,20 @@
           "audits/runs/v/variation/20260918T132637Z-df214e2f/generation.json"
         ],
         "reason": "saved stage output has no coordinator learning_delta decision",
-        "recorded_at": "2026-09-18T13:30:39Z"
+        "recorded_at": "2026-09-18T13:52:55Z"
       }
     },
-    "pending_events": [],
+    "pending_events": [
+      {
+        "event_id": "pending:20260918T132637Z-df214e2f:checker_passes:7d90a9b635c4",
+        "knowledge_epoch": "pi2-2026-09-06",
+        "kind": "review_failure",
+        "stage": "checker_passes",
+        "fact": "repairable preflight rejection: blind_attribution_record.schema_version must be example_attribution_blind_record_v1; blind_attribution_record.recorded_at must be an aware ISO timestamp; blind_attribution_record.input_body_sha256 must be a sha256; blind_attribution_record.blind_request_sha256 must be a sha256; blind attribution body hash does not match its stage 1 request; blind attribution request hash does not match stage 1 input; blind_attribution_record.attributions must be a list",
+        "status": "pending",
+        "recorded_at": "2026-09-18T13:49:40Z"
+      }
+    ],
     "selection_errors": []
   },
   "metrics": {
@@ -595,20 +646,22 @@
       {
         "id": "checker_passes",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
-        "defects_detected": 0,
+        "input_bytes": 308763,
+        "duration_seconds": 1153.1838,
+        "defects_detected": 18,
         "revision_count": 0,
-        "completed": false
+        "completed": true,
+        "duration_source": "measured_wall"
       },
       {
         "id": "cold_review",
         "instruction_bytes": 1759,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
-        "defects_detected": 0,
+        "input_bytes": 32071,
+        "duration_seconds": 352.1561906337738,
+        "defects_detected": 3,
         "revision_count": 0,
-        "completed": false
+        "completed": true,
+        "duration_source": "reported"
       },
       {
         "id": "pre_blind_resolution",
@@ -687,73 +740,75 @@
       {
         "id": "translation",
         "instruction_bytes": 2402,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
-        "defects_detected": 0,
-        "completed": false
+        "input_bytes": 36716,
+        "duration_seconds": 112.039,
+        "defects_detected": 1,
+        "completed": true
       },
       {
         "id": "sense-structure",
         "instruction_bytes": 3031,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
-        "defects_detected": 0,
-        "completed": false
+        "input_bytes": 13285,
+        "duration_seconds": 147.481,
+        "defects_detected": 2,
+        "completed": true
       },
       {
         "id": "frame-relation",
         "instruction_bytes": 8294,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 2702,
+        "duration_seconds": 88.913,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "example-attribution",
         "instruction_bytes": 5552,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 13483,
+        "duration_seconds": 921.605,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "qualification",
         "instruction_bytes": 2876,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
-        "defects_detected": 0,
-        "completed": false
+        "input_bytes": 35381,
+        "duration_seconds": 138.72,
+        "defects_detected": 3,
+        "completed": true
       },
       {
         "id": "pronunciation",
         "instruction_bytes": 1815,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 1368,
+        "duration_seconds": 192.071,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "evidence",
         "instruction_bytes": 5016,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
-        "defects_detected": 0,
-        "completed": false
+        "input_bytes": 143403,
+        "duration_seconds": 832.779,
+        "defects_detected": 12,
+        "completed": true
       }
     ],
     "process_rules": [],
     "process_improvement": {
-      "selection_input_bytes": 336,
-      "machine_duration_seconds": 0.000657,
+      "selection_input_bytes": 684,
+      "machine_duration_seconds": 0.001169,
       "additional_llm_calls": 0
     }
   },
   "orchestrator_state": {
-    "next_stage_index": 3,
+    "next_stage_index": 5,
     "completed_stages": [
       "guard_start",
       "generation",
-      "mechanical_validator"
+      "mechanical_validator",
+      "checker_passes",
+      "cold_review"
     ],
     "stage_outputs": {
       "generation": [
@@ -762,13 +817,43 @@
       ],
       "mechanical_validator": [
         "audits/runs/v/variation/20260918T132637Z-df214e2f/validator.json"
+      ],
+      "checker_passes": [
+        "audits/runs/v/variation/20260918T132637Z-df214e2f/source_inventory.json",
+        "audits/runs/v/variation/20260918T132637Z-df214e2f/check_passes/",
+        "audits/runs/v/variation/20260918T132637Z-df214e2f/pass_findings.json"
+      ],
+      "cold_review": [
+        "audits/runs/v/variation/20260918T132637Z-df214e2f/cold_review.json"
       ]
     },
-    "stage_started_at": "2026-09-18T13:33:37Z"
+    "stage_started_at": "2026-09-18T13:53:03Z"
   },
   "publication": {
     "mode": "connector"
   },
   "review_preflight": "review_preflight_v1",
-  "time_warnings": {}
+  "time_warnings": {},
+  "review_preflight_failures": {
+    "count": 1,
+    "history": [
+      {
+        "stage": "checker_passes",
+        "error": "blind_attribution_record.schema_version must be example_attribution_blind_record_v1; blind_attribution_record.recorded_at must be an aware ISO timestamp; blind_attribution_record.input_body_sha256 must be a sha256; blind_attribution_record.blind_request_sha256 must be a sha256; blind attribution body hash does not match its stage 1 request; blind attribution request hash does not match stage 1 input; blind_attribution_record.attributions must be a list",
+        "recorded_at": "2026-09-18T13:49:40.855600+00:00",
+        "fingerprint": "f2861d583d48ea0559cba5bc7aaf97365852f7bc972d1461198e4bd5da697872",
+        "classification": "repairable_validation"
+      }
+    ]
+  },
+  "review_correction": {
+    "stage": "checker_passes",
+    "error": "blind_attribution_record.schema_version must be example_attribution_blind_record_v1; blind_attribution_record.recorded_at must be an aware ISO timestamp; blind_attribution_record.input_body_sha256 must be a sha256; blind_attribution_record.blind_request_sha256 must be a sha256; blind attribution body hash does not match its stage 1 request; blind attribution request hash does not match stage 1 input; blind_attribution_record.attributions must be a list",
+    "recorded_at": "2026-09-18T13:49:40.855600+00:00",
+    "fingerprint": "f2861d583d48ea0559cba5bc7aaf97365852f7bc972d1461198e4bd5da697872",
+    "classification": "repairable_validation",
+    "status": "resolved",
+    "resolved_at": "2026-09-18T13:52:24.168490+00:00"
+  },
+  "review_preflight_policy": "repairable_review_preflight_v2"
 }

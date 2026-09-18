@@ -1,0 +1,197 @@
+{
+  "pass_id": "evidence",
+  "reviewer": {
+    "mode": "handoff",
+    "agent_id": "01a0b4c3-45b6-71c0-a543-1154234330a3",
+    "declared_model": "gpt-5.2-codex",
+    "ingested_by": "human"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 86,
+        "line_end": 86,
+        "exact_quote": "variation は変動やばらつきを総体として述べるときは不可算が多く、a variation/variations は個々の変化・差・型を数えるときに使われることが多い。"
+      },
+      "severity": "blocking",
+      "rationale": "insufficient_evidence: Cambridge の指定 locator https://dictionary.cambridge.org/dictionary/english/variation は 403 で本文を開けず、CA-01〜CA-04 と claim-src-cambridge-variation を独立確認できなかった。残る Merriam-Webster と Collins は variation の可算用例・不可算用例や一般義を示すが、この使用傾向全体、difference/variety との焦点差、頻度評価に関する注記を一まとまりとして直接支持していない。",
+      "evidence_link_ids": [
+        "claim-src-cambridge-variation",
+        "claim-src-merriam-variation",
+        "claim-src-collins-variation"
+      ],
+      "suggested_direction": "Cambridge を閲覧可能な保存資料または別の直接資料に差し替え、可算性と difference/variety の比較をそれぞれ直接支持する evidence link に分ける。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 376,
+        "line_end": 379,
+        "exact_quote": "・a variation order\n用途: 特に建設・プロジェクト文脈で、追加・削除・変更する作業を正式に指示する文書や指示を表す。"
+      },
+      "severity": "blocking",
+      "rationale": "insufficient_evidence: CEDD の指定 PDF locator https://www.cedd.gov.hk/filemanager/technicalcirculars/eng/upload/1047/CEDD_TC_2023_02_fr_2022_06_clean.pdf を外部閲覧機能で開けず、CEDD-01 と claim-src-cedd-contract-variation-order を確認できなかった。同じ未確認 link が grammar_pattern:027 と register:006 にも使われている。",
+      "evidence_link_ids": [
+        "claim-src-cedd-contract-variation-order"
+      ],
+      "suggested_direction": "閲覧可能な政府・標準契約資料で variation order の定義と適用範囲を直接確認して差し替えるか、確認できるまで対象3箇所を hold にする。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 162,
+        "line_end": 162,
+        "exact_quote": "`a variation from the original` も文法的には可能だが、元の設計を基にした別形という意味なら `a variation on the original design` の方が自然である。"
+      },
+      "severity": "blocking",
+      "rationale": "Collins は variation on を「同じものの少し異なる形」と定義し、variation from the Evans Gambit という用例も載せるが、from the original と on the original design の自然さを比較していない。また同じ注記の variation of が元のものの別形を表しやすいという主張、一般用法と契約用法の境界、alternative との焦点差も CO-01/CO-02/CO-09 からは直接確認できない。",
+      "evidence_link_ids": [
+        "claim-src-collins-variation"
+      ],
+      "suggested_direction": "前置詞ごとの用例・語法注記を持つ直接資料を追加し、比較的な自然さの主張を資料が示す範囲まで限定する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 362,
+        "line_end": 362,
+        "exact_quote": "a variation of/to 〈the contract〉＝契約の変更"
+      },
+      "severity": "blocking",
+      "rationale": "Western Australia の資料は a variation to a contract と variation clause を直接使用するが、variation of the contract は使用していない。したがって WA-01〜WA-04 は to を支持しても、of/to を併記する grammar_pattern:025 と collocation:030 の「variation of も使われる」という部分を直接支持しない。",
+      "evidence_link_ids": [
+        "claim-src-wa-contract-variation"
+      ],
+      "suggested_direction": "現資料に合わせて variation to the contract に限定するか、契約用法の variation of the contract を実際に用いる法務資料を追加する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 398,
+        "line_end": 398,
+        "exact_quote": "`magnetic variation` は航海・海図で定着している一方、地球科学・測量では通常 `magnetic declination` が使われるなど、分野・地域・規格によって呼び方が異なる。"
+      },
+      "severity": "blocking",
+      "rationale": "HKO は magnetic variation と declination を同義として扱い、時期・地点で値が変わることを示す。Collins も magnetic variation を magnetic declination の別称または nautical term とする。しかし両資料とも、地球科学・測量では declination が通常優勢で、航海・海図では variation が定着しているという分野別の比較頻度を示していない。同じ未支持比較が usage_note:007 と synonym:013 にもある。",
+      "evidence_link_ids": [
+        "claim-src-hko-magnetic-variation",
+        "claim-src-collins-variation"
+      ],
+      "suggested_direction": "分野別用語を規定する一次資料または専門用語集を追加するか、資料が直接支持する同義関係と定義だけに記述を限定する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 166,
+        "line_end": 171,
+        "exact_quote": "variant は別形そのものを簡潔に指し、医学・生物・言語などで標準形との差を分類する語としても使う。variation は変形の過程や関係も表しやすい。"
+      },
+      "severity": "blocking",
+      "rationale": "Merriam-Webster の variation locator には variant の項目・定義・この対比がなく、ページ内検索でも variant は確認できない。Oxford の variation ページでは variant は nearby word にあるだけで、word family に含まれず、意味差も説明されない。MW-07/OX-13 はこの比較と word_formation:003 の「同じ語族」を直接支持していない。",
+      "evidence_link_ids": [
+        "claim-src-merriam-variation",
+        "claim-src-oxford-variation"
+      ],
+      "suggested_direction": "variant の独立辞書項目と語源資料を locator に追加し、語族関係と variation との差をそれぞれ直接確認する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 229,
+        "line_end": 229,
+        "exact_quote": "`mutation` は遺伝物質の配列に起きる変化、`genetic variation` は個体・集団間に観察される遺伝的差の状態・分布を指し、mutation は variation の原因の一つである。両語は同義ではない。"
+      },
+      "severity": "blocking",
+      "rationale": "Merriam-Webster の variation ページは生物学的 variation を種・集団の標準からの構造的・機能的差として定義するが、mutation の定義、genetic variation との境界、mutation が原因の一つであるという因果関係を記載していない。MW-03 だけでは対象主張を直接支持できない。",
+      "evidence_link_ids": [
+        "claim-src-merriam-variation"
+      ],
+      "suggested_direction": "mutation と genetic variation の関係を説明する遺伝学の一次・教育資料を追加するか、現資料が支持する variation の定義まで注記を縮める。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 204,
+        "line_end": 227,
+        "exact_quote": "・genetic variation among 〈individuals〉"
+      },
+      "severity": "blocking",
+      "rationale": "Collins の生物学義は同種・同群の個体間の構造・性質の差を支持するが、genetic variation among individuals / between populations / in drug response、show genetic variation in a characteristic という個別構文・専門的適用例を掲載していない。一般定義 CO-06 だけをこれら4件のコロケーション evidence とするのは適用範囲が広すぎる。",
+      "evidence_link_ids": [
+        "claim-src-collins-variation"
+      ],
+      "suggested_direction": "各構文が実際に使われる遺伝学資料または専門辞書を追加し、特に drug response の適用を直接確認する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 319,
+        "line_end": 319,
+        "exact_quote": "a variation from 〈a ballet〉＝〈バレエ作品〉からのソロ演目／learn/rehearse a variation＝ソロ演目を習う・リハーサルする。"
+      },
+      "severity": "blocking",
+      "rationale": "Collins は ballet sense を a solo dance と定義するが、a variation from a ballet、learn/rehearse a variation、perform a variation という構文は当該 locator にない。CO-03 は語義を支持しても grammar_pattern:023/024 と collocation:026/028/029 の自然な結合・適用範囲を直接支持しない。",
+      "evidence_link_ids": [
+        "claim-src-collins-variation"
+      ],
+      "suggested_direction": "バレエ団・コンクール規程・専門辞書など、各構文を実際に用いる資料を追加する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "word_formation",
+        "line_start": 17,
+        "line_end": 18,
+        "exact_quote": "・variety：名詞。「多様性、種類、変種」。variation が変化や個々の違いに焦点を置くのに対し、variety は種類の豊富さや選択肢に焦点を置きやすい。"
+      },
+      "severity": "blocking",
+      "rationale": "Oxford の variation ページは various と variety を Word Family に列挙するだけで、それぞれの品詞的制約、意味、variation との焦点差を定義していない。OX-11/OX-12 は word_formation:005/006 の詳細な説明を直接支持しない。",
+      "evidence_link_ids": [
+        "claim-src-oxford-variation"
+      ],
+      "suggested_direction": "various と variety の各辞書項目を追加し、語形成上の関係と意味差を別々に根拠付ける。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 300,
+        "line_end": 300,
+        "exact_quote": "単に別の演奏や録音を指すときは variation ではなく version や arrangement が自然な場合がある。"
+      },
+      "severity": "blocking",
+      "rationale": "Merriam-Webster と Collins は音楽義を主題の反復・変形として定義するが、variation と version/arrangement の使い分けを説明していない。MW-02/CO-07 はこの比較主張を直接支持しない。",
+      "evidence_link_ids": [
+        "claim-src-merriam-variation",
+        "claim-src-collins-variation"
+      ],
+      "suggested_direction": "音楽用語辞典または用法資料で version/arrangement との境界を根拠付けるか、この比較文を削除する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "word_formation",
+        "line_start": 14,
+        "line_end": 14,
+        "exact_quote": "・variable：形容詞・名詞。「変動する、可変の；変数」。variation と同語源の重要な関連語で、変化しうる性質や変化する値・要因を表す。"
+      },
+      "severity": "blocking",
+      "rationale": "Oxford の variation ページは variable を Word Family に挙げるが、意味の詳細は載せていない。Merriam-Webster の指定 variation locator にも variable の独立定義や語族説明はなく、MW-06 の source_detail は locator 本文から確認できない。よって形容詞・名詞の意味と「値・要因」の説明までを直接支持していない。",
+      "evidence_link_ids": [
+        "claim-src-oxford-variation",
+        "claim-src-merriam-variation"
+      ],
+      "suggested_direction": "variable の独立辞書項目を source inventory に追加し、品詞別の意味を直接結び付ける。"
+    }
+  ]
+}

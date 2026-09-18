@@ -1,0 +1,51 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "qualification",
+  "reviewer": {
+    "mode": "handoff",
+    "agent_id": "01a0b4bb-4d53-76b2-9eff-65fa5f02508a",
+    "declared_model": "gpt-5.2-codex",
+    "ingested_by": "human"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "technical_terminology_conventionality",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 389,
+        "line_end": 390,
+        "exact_quote": "例: The engineer issued a variation order for the additional work.\n訳: 請負業者は追加工事について変更指示書を提出した。  "
+      },
+      "severity": "blocking",
+      "rationale": "英例文では engineer が variation order を issued しているのに、訳文では主体が請負業者、行為が提出に変わっている。契約実務では発行者・提出者と行為の区別が重要であり、例文が示す専門用法を訳文が正確に伝えていない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "英例文に合わせて「技術者は追加工事について変更指示書を発行した」などとし、主体と行為を一致させる。"
+    },
+    {
+      "taxonomy_id": "technical_terminology_conventionality",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 415,
+        "line_end": 416,
+        "exact_quote": "・magnetic variation  \n用途: 真北と磁北の方位差を、航海や測量で扱う専門表現。  "
+      },
+      "severity": "minor",
+      "rationale": "同じ項目のレジスター説明では、測量では magnetic declination が通常使われる場合があると限定しているが、この用途説明は magnetic variation を航海と測量で同程度に定着した表現のように一般化している。分野による用語選択の限定がブロック内で一貫していない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「主に航海・海図で扱う専門表現。測量などでは magnetic declination が一般的な場合がある」のように分野差を用途説明にも反映する。"
+    },
+    {
+      "taxonomy_id": "absolute_scope_counterexample",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 417,
+        "line_end": 418,
+        "exact_quote": "例: Navigators must account for magnetic variation when plotting a course.  \n訳: 航海者は航路を設定する際に磁気偏角を考慮しなければならない。  "
+      },
+      "severity": "minor",
+      "rationale": "must と「考慮しなければならない」は、航路設定一般に無条件で適用される表現になっている。磁気コンパスを用いる場合や真方位と磁気方位を換算する場合には必要だが、真方位だけを扱う方式や補正が自動化された文脈まで、航路設定者が個別に考慮することを必須とはできない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "磁気コンパスを使う場合、または真方位と磁気方位を換算する場合に限定する例文へ修正する。"
+    }
+  ]
+}

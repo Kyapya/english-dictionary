@@ -1,0 +1,24 @@
+{
+  "pass_id": "translation",
+  "reviewer": {
+    "mode": "handoff",
+    "agent_id": "01a0b4ba-c0c5-7e83-9110-d03f8ddd90bb",
+    "declared_model": "gpt-5.4",
+    "ingested_by": "human"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "semantic_direction_reversal",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 389,
+        "line_end": 390,
+        "exact_quote": "例: The engineer issued a variation order for the additional work.\n訳: 請負業者は追加工事について変更指示書を提出した。  "
+      },
+      "severity": "blocking",
+      "rationale": "英文では engineer が variation order を issued（発行した）しているが、訳文では行為者が請負業者に変わり、行為も「提出した」に置き換わっている。発行者／提出者と発行／提出の方向が保存されていない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "行為者と作用方向を保ち、「技師は追加工事について変更指示書を発行した」などとする。"
+    }
+  ]
+}
