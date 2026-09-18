@@ -75,6 +75,26 @@ class ProvenanceTests(unittest.TestCase):
             relation_quotes={"r1": "source relation"})
         self.assertIn(review_liveness.C1_SYNTHETIC_REVIEW, review_liveness.invalidation_ids(errors))
 
+    def test_concise_all_pass_template_without_trace_is_rejected(self):
+        errors = review_liveness.validate_final_review_liveness({
+            "schema_version": "final_review_v3",
+            "target_results": [{"id": "target:1", "status": "pass"}],
+            "notes": [],
+        })
+        self.assertIn(review_liveness.C1_SYNTHETIC_REVIEW,
+                      review_liveness.invalidation_ids(errors))
+
+    def test_source_reviewer_must_declare_identity_and_model(self):
+        with self.assertRaisesRegex(ValueError, "agent_id"):
+            provenance.normalize_source_reviewer({"declared_model": "gpt"})
+        self.assertEqual(
+            provenance.normalize_source_reviewer({
+                "mode": "handoff", "agent_id": "independent-1",
+                "declared_model": "gpt",
+            })["agent_id"],
+            "independent-1",
+        )
+
     def test_real_zero_findings_are_still_allowed(self):
         self.assertEqual(review_liveness.zero_finding_run_errors(
             {"pass_outputs": []}, {"findings": []}, {"article_findings": []}), [])

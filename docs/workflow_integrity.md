@@ -20,6 +20,11 @@ These checks detect missing, edited, or mismatched evidence, not a malicious
 dispatcher fabricating both the response and its metadata. Independent execution
 still requires actual separate review contexts. Preserve a transport/run receipt
 where available; never describe local ingestion as proof of human review.
+New runs also declare `review_response_protocol: self_attested_handoff_v1`.
+The raw handoff response itself must contain its reviewer agent ID and model;
+command-line metadata must match it. This prevents an anonymous response
+template from being assigned a reviewer identity during ingestion. It remains a
+self-declaration, so the dispatcher must still use a genuinely separate context.
 Do not expose alignment keys, earlier findings, or expected answers to blind
 reviewers. Final-blind and reconciliation retain the existing staged input rules.
 
@@ -70,6 +75,32 @@ and commits are recorded after each success and reused on a later invocation.
 The final receipt is accepted only after verifying remote ancestry and trees.
 Progress contains paths/stages/counts, not article bytes. Keep one publisher
 per branch; simultaneous invocations are not supported.
+
+The connector adapter resolves branch and default-branch heads through the
+GitHub connector and passes them into the local planner. The local planner must
+not use `git ls-remote` or `git fetch` in connector mode. It compares the remote
+base tree with the local base tree before creating a new branch and accepts a
+receipt only when every planned local commit has a recorded connector commit.
+
+Publication validation has two modes. `checkpoint` validates the workflow guard
+state needed for an in-progress checkpoint. `merge-ready` runs the complete
+content, checker, semantic, and source gates. `auto` selects checkpoint mode when
+a changed workflow manifest is still in progress and merge-ready otherwise.
+This allows sealed intermediate evidence to be published without pretending the
+unfinished run already satisfies final publication gates.
+
+If a completed run is found to contain synthetic final-review evidence, use
+`repair_final_review_evidence.py` only when the article body and all sealed
+pre-final inputs are unchanged. It rehearses normal ingestion in isolation,
+archives the old request/response/output bytes, ingests a fresh independently
+self-attested response, regenerates the derived audit, and records the repair.
+It must never rewrite blind evidence or carry old PASS rows into the replacement.
+
+Stage completion records a measured wall duration from
+`orchestrator_state.stage_started_at` when no measured duration is supplied.
+Do not enter `0` or `1` as a placeholder. Explicit durations are labelled
+`reported`; automatic durations are labelled `measured_wall`, so performance
+analysis can distinguish the measurement source.
 
 On refusal, stop and report whether it was an execution-environment approval,
 connector authorization, branch protection, or a transport error. Do not

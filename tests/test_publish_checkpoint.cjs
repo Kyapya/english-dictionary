@@ -15,6 +15,7 @@ function fixture(corrupt = false, branchExists = true) {
   const result = value => ({exit_code: 0, output: JSON.stringify(value)});
   const tools = {
     async exec_command({cmd}) {
+      if (cmd.includes(' inspect')) return result({branch: 'entry/test', local_base: sha(1), local_base_tree: sha(3)});
       if (cmd.includes(' prepare ')) return result({plan_id: 'a'.repeat(64), branch_exists: branchExists, published_head: publishedHead});
       if (cmd.includes(' state ')) return result(state);
       if (cmd.includes(' progress ')) {
@@ -29,6 +30,14 @@ function fixture(corrupt = false, branchExists = true) {
       const text = cmd.includes(' blob ') ? content : plan;
       if (cmd.includes(' accept ')) return {exit_code: 0, output: JSON.stringify({verified: true})};
       return {exit_code: 0, output: JSON.stringify({total: text.length, chunk: text.slice(offset, offset + 12000)})};
+    },
+    async mcp__codex_apps__github_search_branches() {
+      const head = publishedHead || (branchExists ? sha(1) : undefined);
+      return {structuredContent: head ? {branches: [{name: 'entry/test', commit: {sha: head}}]} : {branches: []}};
+    },
+    async mcp__codex_apps__github_fetch({url}) {
+      if (url.endsWith('/owner/repo')) return {structuredContent: {default_branch: 'main'}};
+      return {structuredContent: {name: 'main', commit: {sha: sha(1), commit: {tree: {sha: sha(3)}}}}};
     },
     async mcp__codex_apps__github_create_blob(args) {
       assert.equal(args.content, content);
@@ -46,7 +55,7 @@ function fixture(corrupt = false, branchExists = true) {
       calls.push('ref'); publishedHead = args.sha; return {};
     },
     async mcp__codex_apps__github_create_branch(args) {
-      assert.equal(args.sha, sha(5)); calls.push('create'); return {};
+      assert.equal(args.sha, sha(5)); calls.push('create'); publishedHead = args.sha; return {};
     },
   };
   return {tools, calls, state};

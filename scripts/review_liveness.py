@@ -263,8 +263,30 @@ def validate_final_review_liveness(
         return []
     import review_results
     if review_results.concise(review):
-        # Exact coverage, explicit status and failure explanations are validated
-        # by generate_audit_manifest. Copying the article is not proof of review.
+        # Coverage is validated by generate_audit_manifest.  Concise output is
+        # still rejected when it has the exact shape produced by mechanically
+        # filling every template status with pass and contributes no review
+        # trace at all.  New handoff runs additionally require reviewer metadata
+        # in the raw response at ingestion time.
+        result_fields = (
+            "target_results", "relation_results", "normal_candidate_results",
+            "blind_candidate_results", "finding_results", "evidence_checks",
+            "source_inventory_results",
+        )
+        rows = [
+            row for field in result_fields for row in review.get(field, [])
+            if isinstance(row, dict)
+        ]
+        notes = review.get("notes")
+        has_trace = (
+            isinstance(notes, list)
+            and any(len(normalize_text(note)) >= 40 for note in notes)
+        )
+        if rows and all(row.get("status") == "pass" for row in rows) and not has_trace:
+            return [
+                f"{C1_SYNTHETIC_REVIEW}: concise final review is an all-pass "
+                "template fill with no concrete review trace"
+            ]
         return []
     errors: list[str] = []
     for field, quotes in (

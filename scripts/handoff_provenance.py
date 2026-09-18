@@ -10,6 +10,7 @@ import json
 from pathlib import Path
 
 PROTOCOL = "preserved_handoff_v1"
+SELF_ATTESTED_PROTOCOL = "self_attested_handoff_v1"
 DECISIONS = {
     "decision", "provisional_decision", "findings", "article_findings",
     "independent_candidates", "target_results", "relation_results",
@@ -18,6 +19,30 @@ DECISIONS = {
     "axes", "adjudications", "frame_findings", "unrouted_observations",
     "input_body_sha256", "input_revision_id", "prompt_sha256",
 }
+
+
+def normalize_source_reviewer(value: object) -> dict:
+    """Return identity declared by the independent response itself.
+
+    The declaration is not cryptographic identity proof.  It does make it
+    impossible for the ingester to turn an anonymous response template into a
+    named review merely by supplying command-line metadata afterwards.
+    """
+    if not isinstance(value, dict):
+        raise ValueError("handoff response must contain reviewer metadata")
+    if value.get("mode", "handoff") != "handoff":
+        raise ValueError("handoff response reviewer.mode must be handoff")
+    agent_id = str(value.get("agent_id", "")).strip()
+    declared_model = str(value.get("declared_model", "")).strip()
+    if not agent_id:
+        raise ValueError("handoff response reviewer.agent_id is required")
+    if not declared_model:
+        raise ValueError("handoff response reviewer.declared_model is required")
+    return {
+        "mode": "handoff",
+        "agent_id": agent_id,
+        "declared_model": declared_model,
+    }
 
 
 def bind(path: Path, repo_root: Path) -> dict:
@@ -68,11 +93,13 @@ def validate(output: dict, repo_root: Path, *, required: bool = False) -> list[s
         if reviewer.get("ingested_by") != "orchestrator" and required:
             raise ValueError("automated handoff ingestion must be labelled orchestrator")
         source_reviewer = source.get("reviewer", {})
-        if source_reviewer and (
-            not isinstance(source_reviewer, dict)
-            or source_reviewer.get("agent_id") != reviewer.get("agent_id")
-        ):
-            raise ValueError("source response reviewer differs from ingested reviewer")
+        if source_reviewer:
+            normalized_source = normalize_source_reviewer(source_reviewer)
+            if any(
+                normalized_source.get(key) != reviewer.get(key)
+                for key in ("mode", "agent_id", "declared_model")
+            ):
+                raise ValueError("source response reviewer differs from ingested reviewer")
         fields = DECISIONS.intersection(source)
         if not fields and not any(key in source for key in ("antonym_axis_blind_record", "adjudications", "blind_attribution_record")):
             raise ValueError("source response has no review decisions")
