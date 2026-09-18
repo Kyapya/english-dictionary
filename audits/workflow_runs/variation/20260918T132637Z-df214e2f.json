@@ -19,11 +19,11 @@
     "candidate_pages": 0
   },
   "status": "in_progress",
-  "stage": "draft_saved",
+  "stage": "source_inventory_complete",
   "started_at": "2026-09-18T13:26:37Z",
   "deadline_at": "2026-09-18T14:26:37Z",
   "pre_draft_deadline_at": "2026-09-18T13:46:37Z",
-  "last_heartbeat_at": "2026-09-18T13:30:39Z",
+  "last_heartbeat_at": "2026-09-18T13:34:16Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-18T13:29:52Z",
@@ -46,6 +46,11 @@
       "stage": "draft_saved",
       "recorded_at": "2026-09-18T13:30:39Z",
       "notes": "orchestrator completed generation"
+    },
+    {
+      "stage": "source_inventory_complete",
+      "recorded_at": "2026-09-18T13:34:16Z",
+      "notes": "source-first inventory rebound to corrected draft before checker comparison"
     }
   ],
   "stop_reason": "",
@@ -580,11 +585,12 @@
       {
         "id": "mechanical_validator",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 31227,
+        "duration_seconds": 178.852112,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true,
+        "duration_source": "measured_wall"
       },
       {
         "id": "checker_passes",
@@ -743,18 +749,22 @@
     }
   },
   "orchestrator_state": {
-    "next_stage_index": 2,
+    "next_stage_index": 3,
     "completed_stages": [
       "guard_start",
-      "generation"
+      "generation",
+      "mechanical_validator"
     ],
     "stage_outputs": {
       "generation": [
         "entries/v/variation.md",
         "audits/runs/v/variation/20260918T132637Z-df214e2f/generation.json"
+      ],
+      "mechanical_validator": [
+        "audits/runs/v/variation/20260918T132637Z-df214e2f/validator.json"
       ]
     },
-    "stage_started_at": "2026-09-18T13:30:39Z"
+    "stage_started_at": "2026-09-18T13:33:37Z"
   },
   "publication": {
     "mode": "connector"
