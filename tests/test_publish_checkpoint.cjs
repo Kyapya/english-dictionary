@@ -36,6 +36,9 @@ function fixture(corrupt = false, branchExists = true) {
       return {structuredContent: head ? {branches: [{name: 'entry/test', commit: {sha: head}}]} : {branches: []}};
     },
     async mcp__codex_apps__github_fetch({url}) {
+      if (url.includes('/git/ref/heads/')) {
+        return {structuredContent: {object: {sha: publishedHead || sha(1)}}};
+      }
       if (url.endsWith('/owner/repo')) return {structuredContent: {default_branch: 'main'}};
       return {structuredContent: {name: 'main', commit: {sha: sha(1), commit: {tree: {sha: sha(3)}}}}};
     },

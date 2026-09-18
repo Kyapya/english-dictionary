@@ -57,9 +57,16 @@ const findBranchHead = async () => {
   const branchSearch = jsonPayload(await tools.mcp__codex_apps__github_search_branches({
     owner, repo_name: repoName, query: inspect.branch, page_size: 100,
   }));
-  const branchRow = objects(branchSearch).find(item =>
-    item.name === inspect.branch && /^[0-9a-f]{40}$/.test(item.commit?.sha || item.sha || ""));
-  return branchRow && (branchRow.commit?.sha || branchRow.sha);
+  const exists = objects(branchSearch).some(item =>
+    item.name === inspect.branch || item.branch === inspect.branch);
+  if (!exists) return undefined;
+  const ref = jsonPayload(await tools.mcp__codex_apps__github_fetch({
+    url: "https://api.github.com/repos/" + repository + "/git/ref/heads/" + inspect.branch,
+  }));
+  const refRow = objects(ref).find(item =>
+    /^[0-9a-f]{40}$/.test(item.object?.sha || ""));
+  if (!refRow) throw new Error("Connector returned no verifiable branch head");
+  return refRow.object.sha;
 };
 const branchHead = await findBranchHead();
 let remoteBase = branchHead;
