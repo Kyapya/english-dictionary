@@ -14,7 +14,9 @@
       "entry_path": "entries/v/variation.md",
       "status": "invalidated_run",
       "invalidated_at": "2026-09-11T13:09:22Z",
-      "invalidated_by": ["C1_synthetic_review"],
+      "invalidated_by": [
+        "C1_synthetic_review"
+      ],
       "reason": "The creation helper copied assigned_sense_id from the alignment key into blind attributions and generated final PASS rows. Preserved timestamps also conflict with workflow completion. Original raw records are retained as evidence, not independent review. See docs/incidents/variation-review-integrity.md."
     },
     {
@@ -46,6 +48,16 @@
         "B4_zero_finding_single_review"
       ],
       "reason": "The preserved raw review is retained for regression, but it cannot authorize a checked transition under the review-liveness contract."
+    },
+    {
+      "run_id": "20260913T012522Z-51385f93",
+      "entry_path": "entries/v/variation.md",
+      "status": "invalidated_run",
+      "invalidated_at": "2026-09-18T13:30:00Z",
+      "invalidated_by": [
+        "C1_synthetic_review"
+      ],
+      "reason": "The canonical final-review response was synthesized from its template by the coordinator after independent review stalled. A later independent recovery review rejected the contract example, confirming that the synthetic PASS cannot authorize publication. Raw historical bytes and the recovery response are preserved; a fresh guarded run is required."
     }
   ]
 }

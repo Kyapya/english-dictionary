@@ -19,11 +19,11 @@
     "candidate_pages": 0
   },
   "status": "in_progress",
-  "stage": "preflight_pushed",
+  "stage": "draft_saved",
   "started_at": "2026-09-18T13:26:37Z",
   "deadline_at": "2026-09-18T14:26:37Z",
   "pre_draft_deadline_at": "2026-09-18T13:46:37Z",
-  "last_heartbeat_at": "2026-09-18T13:29:52Z",
+  "last_heartbeat_at": "2026-09-18T13:30:39Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-18T13:29:52Z",
@@ -41,6 +41,11 @@
       "stage": "preflight_pushed",
       "recorded_at": "2026-09-18T13:29:52Z",
       "notes": "remote start checkpoint verified"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-09-18T13:30:39Z",
+      "notes": "orchestrator completed generation"
     }
   ],
   "stop_reason": "",
@@ -500,7 +505,13 @@
     "schema_version": "workflow_process_improvement_v2",
     "knowledge_epoch": "pi2-2026-09-06",
     "features": [
-      "workflow:standard"
+      "construction_distinctions",
+      "contract_legal_usage",
+      "countability_guidance",
+      "etymology",
+      "magnetic_variation",
+      "music_usage",
+      "related_words"
     ],
     "snapshots": [
       {
@@ -527,14 +538,23 @@
         "stage": "generation"
       }
     ],
-    "processing": {},
+    "processing": {
+      "generation": {
+        "status": "pending",
+        "source_refs": [
+          "audits/runs/v/variation/20260918T132637Z-df214e2f/generation.json"
+        ],
+        "reason": "saved stage output has no coordinator learning_delta decision",
+        "recorded_at": "2026-09-18T13:30:39Z"
+      }
+    },
     "pending_events": [],
     "selection_errors": []
   },
   "metrics": {
     "schema_version": "workflow_cost_v1",
     "total_cycles": 1,
-    "total_revisions": 0,
+    "total_revisions": 1,
     "total_duration_seconds": 0.0,
     "completed_at": "",
     "stages": [
@@ -550,11 +570,12 @@
       {
         "id": "generation",
         "instruction_bytes": 53450,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 85013,
+        "duration_seconds": 242.292655,
         "defects_detected": 0,
-        "revision_count": 0,
-        "completed": false
+        "revision_count": 1,
+        "completed": true,
+        "duration_source": "measured_wall"
       },
       {
         "id": "mechanical_validator",
@@ -722,12 +743,18 @@
     }
   },
   "orchestrator_state": {
-    "next_stage_index": 1,
+    "next_stage_index": 2,
     "completed_stages": [
-      "guard_start"
+      "guard_start",
+      "generation"
     ],
-    "stage_outputs": {},
-    "stage_started_at": "2026-09-18T13:26:37Z"
+    "stage_outputs": {
+      "generation": [
+        "entries/v/variation.md",
+        "audits/runs/v/variation/20260918T132637Z-df214e2f/generation.json"
+      ]
+    },
+    "stage_started_at": "2026-09-18T13:30:39Z"
   },
   "publication": {
     "mode": "connector"

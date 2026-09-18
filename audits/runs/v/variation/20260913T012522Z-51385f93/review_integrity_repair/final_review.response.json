@@ -1,0 +1,1610 @@
+{
+  "decision": "reject",
+  "blockers": [
+    "対象 collocation:032 / example_translation:032 / pattern_example_coverage:027: `The contractor submitted a variation order for the additional work.` は、通常発注者・技術者側が発行する変更指示と、請負業者が提出する変更要求・提案を混同している。`The engineer issued a variation order for the additional work.` など発行主体を直すか、contractor を主語にするなら variation request/proposal に変更し、影響する関係と final blind を再検査すること。"
+  ],
+  "notes": [
+    "本文全7語義、132件のtarget、98件のrelation、7件のblind candidate、55件のfinding、9件のevidence check、7件のsource unionを個別に照合した。語義境界、発音、語源、variation on/from、音楽・バレエ・磁気偏角の修正は反映済みだが、variation order の例文だけは当事者の意味役割を修正して再検査する必要がある。",
+    "wide variation between schools は複数校を対象にするが、between は区別された複数対象間にも用いられるため、見出しの A and B より例が広い点は今回の合否を左右しない表現上の注意と判断した。"
+  ],
+  "target_results": [
+    {
+      "id": "pronunciation:001",
+      "status": "pass",
+      "target_id": "pronunciation:001"
+    },
+    {
+      "id": "etymology:001",
+      "status": "pass",
+      "target_id": "etymology:001"
+    },
+    {
+      "id": "etymology:002",
+      "status": "pass",
+      "target_id": "etymology:002"
+    },
+    {
+      "id": "word_formation:001",
+      "status": "pass",
+      "target_id": "word_formation:001"
+    },
+    {
+      "id": "word_formation:002",
+      "status": "pass",
+      "target_id": "word_formation:002"
+    },
+    {
+      "id": "word_formation:003",
+      "status": "pass",
+      "target_id": "word_formation:003"
+    },
+    {
+      "id": "word_formation:004",
+      "status": "pass",
+      "target_id": "word_formation:004"
+    },
+    {
+      "id": "word_formation:005",
+      "status": "pass",
+      "target_id": "word_formation:005"
+    },
+    {
+      "id": "word_formation:006",
+      "status": "pass",
+      "target_id": "word_formation:006"
+    },
+    {
+      "id": "word_formation:007",
+      "status": "pass",
+      "target_id": "word_formation:007"
+    },
+    {
+      "id": "core_image:001",
+      "status": "pass",
+      "target_id": "core_image:001"
+    },
+    {
+      "id": "core_image:002",
+      "status": "pass",
+      "target_id": "core_image:002"
+    },
+    {
+      "id": "core_image:003",
+      "status": "pass",
+      "target_id": "core_image:003"
+    },
+    {
+      "id": "core_image:004",
+      "status": "pass",
+      "target_id": "core_image:004"
+    },
+    {
+      "id": "core_image:005",
+      "status": "pass",
+      "target_id": "core_image:005"
+    },
+    {
+      "id": "core_image:006",
+      "status": "pass",
+      "target_id": "core_image:006"
+    },
+    {
+      "id": "core_image:007",
+      "status": "pass",
+      "target_id": "core_image:007"
+    },
+    {
+      "id": "core_image:008",
+      "status": "pass",
+      "target_id": "core_image:008"
+    },
+    {
+      "id": "sense_boundary:001",
+      "status": "pass",
+      "target_id": "sense_boundary:001"
+    },
+    {
+      "id": "definition:001",
+      "status": "pass",
+      "target_id": "definition:001"
+    },
+    {
+      "id": "frequency:001",
+      "status": "pass",
+      "target_id": "frequency:001"
+    },
+    {
+      "id": "register:001",
+      "status": "pass",
+      "target_id": "register:001"
+    },
+    {
+      "id": "grammar_pattern:001",
+      "status": "pass",
+      "target_id": "grammar_pattern:001"
+    },
+    {
+      "id": "grammar_pattern:002",
+      "status": "pass",
+      "target_id": "grammar_pattern:002"
+    },
+    {
+      "id": "grammar_pattern:003",
+      "status": "pass",
+      "target_id": "grammar_pattern:003"
+    },
+    {
+      "id": "grammar_pattern:004",
+      "status": "pass",
+      "target_id": "grammar_pattern:004"
+    },
+    {
+      "id": "grammar_pattern:005",
+      "status": "pass",
+      "target_id": "grammar_pattern:005"
+    },
+    {
+      "id": "grammar_pattern:006",
+      "status": "pass",
+      "target_id": "grammar_pattern:006"
+    },
+    {
+      "id": "grammar_pattern:007",
+      "status": "pass",
+      "target_id": "grammar_pattern:007"
+    },
+    {
+      "id": "grammar_pattern:008",
+      "status": "pass",
+      "target_id": "grammar_pattern:008"
+    },
+    {
+      "id": "collocation:001",
+      "status": "pass",
+      "target_id": "collocation:001"
+    },
+    {
+      "id": "collocation:002",
+      "status": "pass",
+      "target_id": "collocation:002"
+    },
+    {
+      "id": "collocation:003",
+      "status": "pass",
+      "target_id": "collocation:003"
+    },
+    {
+      "id": "collocation:004",
+      "status": "pass",
+      "target_id": "collocation:004"
+    },
+    {
+      "id": "collocation:005",
+      "status": "pass",
+      "target_id": "collocation:005"
+    },
+    {
+      "id": "collocation:006",
+      "status": "pass",
+      "target_id": "collocation:006"
+    },
+    {
+      "id": "collocation:007",
+      "status": "pass",
+      "target_id": "collocation:007"
+    },
+    {
+      "id": "collocation:008",
+      "status": "pass",
+      "target_id": "collocation:008"
+    },
+    {
+      "id": "usage_note:001",
+      "status": "pass",
+      "target_id": "usage_note:001"
+    },
+    {
+      "id": "synonym:001",
+      "status": "pass",
+      "target_id": "synonym:001"
+    },
+    {
+      "id": "synonym:002",
+      "status": "pass",
+      "target_id": "synonym:002"
+    },
+    {
+      "id": "synonym:003",
+      "status": "pass",
+      "target_id": "synonym:003"
+    },
+    {
+      "id": "antonym:001",
+      "status": "pass",
+      "target_id": "antonym:001"
+    },
+    {
+      "id": "sense_boundary:002",
+      "status": "pass",
+      "target_id": "sense_boundary:002"
+    },
+    {
+      "id": "definition:002",
+      "status": "pass",
+      "target_id": "definition:002"
+    },
+    {
+      "id": "frequency:002",
+      "status": "pass",
+      "target_id": "frequency:002"
+    },
+    {
+      "id": "register:002",
+      "status": "pass",
+      "target_id": "register:002"
+    },
+    {
+      "id": "grammar_pattern:009",
+      "status": "pass",
+      "target_id": "grammar_pattern:009"
+    },
+    {
+      "id": "grammar_pattern:010",
+      "status": "pass",
+      "target_id": "grammar_pattern:010"
+    },
+    {
+      "id": "collocation:009",
+      "status": "pass",
+      "target_id": "collocation:009"
+    },
+    {
+      "id": "collocation:010",
+      "status": "pass",
+      "target_id": "collocation:010"
+    },
+    {
+      "id": "collocation:011",
+      "status": "pass",
+      "target_id": "collocation:011"
+    },
+    {
+      "id": "collocation:012",
+      "status": "pass",
+      "target_id": "collocation:012"
+    },
+    {
+      "id": "collocation:013",
+      "status": "pass",
+      "target_id": "collocation:013"
+    },
+    {
+      "id": "collocation:014",
+      "status": "pass",
+      "target_id": "collocation:014"
+    },
+    {
+      "id": "usage_note:002",
+      "status": "pass",
+      "target_id": "usage_note:002"
+    },
+    {
+      "id": "synonym:004",
+      "status": "pass",
+      "target_id": "synonym:004"
+    },
+    {
+      "id": "synonym:005",
+      "status": "pass",
+      "target_id": "synonym:005"
+    },
+    {
+      "id": "synonym:006",
+      "status": "pass",
+      "target_id": "synonym:006"
+    },
+    {
+      "id": "sense_boundary:003",
+      "status": "pass",
+      "target_id": "sense_boundary:003"
+    },
+    {
+      "id": "definition:003",
+      "status": "pass",
+      "target_id": "definition:003"
+    },
+    {
+      "id": "frequency:003",
+      "status": "pass",
+      "target_id": "frequency:003"
+    },
+    {
+      "id": "register:003",
+      "status": "pass",
+      "target_id": "register:003"
+    },
+    {
+      "id": "grammar_pattern:011",
+      "status": "pass",
+      "target_id": "grammar_pattern:011"
+    },
+    {
+      "id": "grammar_pattern:012",
+      "status": "pass",
+      "target_id": "grammar_pattern:012"
+    },
+    {
+      "id": "grammar_pattern:013",
+      "status": "pass",
+      "target_id": "grammar_pattern:013"
+    },
+    {
+      "id": "grammar_pattern:014",
+      "status": "pass",
+      "target_id": "grammar_pattern:014"
+    },
+    {
+      "id": "grammar_pattern:015",
+      "status": "pass",
+      "target_id": "grammar_pattern:015"
+    },
+    {
+      "id": "collocation:015",
+      "status": "pass",
+      "target_id": "collocation:015"
+    },
+    {
+      "id": "collocation:016",
+      "status": "pass",
+      "target_id": "collocation:016"
+    },
+    {
+      "id": "collocation:017",
+      "status": "pass",
+      "target_id": "collocation:017"
+    },
+    {
+      "id": "collocation:018",
+      "status": "pass",
+      "target_id": "collocation:018"
+    },
+    {
+      "id": "collocation:019",
+      "status": "pass",
+      "target_id": "collocation:019"
+    },
+    {
+      "id": "collocation:020",
+      "status": "pass",
+      "target_id": "collocation:020"
+    },
+    {
+      "id": "usage_note:003",
+      "status": "pass",
+      "target_id": "usage_note:003"
+    },
+    {
+      "id": "synonym:007",
+      "status": "pass",
+      "target_id": "synonym:007"
+    },
+    {
+      "id": "synonym:008",
+      "status": "pass",
+      "target_id": "synonym:008"
+    },
+    {
+      "id": "synonym:009",
+      "status": "pass",
+      "target_id": "synonym:009"
+    },
+    {
+      "id": "antonym:002",
+      "status": "pass",
+      "target_id": "antonym:002"
+    },
+    {
+      "id": "sense_boundary:004",
+      "status": "pass",
+      "target_id": "sense_boundary:004"
+    },
+    {
+      "id": "definition:004",
+      "status": "pass",
+      "target_id": "definition:004"
+    },
+    {
+      "id": "frequency:004",
+      "status": "pass",
+      "target_id": "frequency:004"
+    },
+    {
+      "id": "register:004",
+      "status": "pass",
+      "target_id": "register:004"
+    },
+    {
+      "id": "grammar_pattern:016",
+      "status": "pass",
+      "target_id": "grammar_pattern:016"
+    },
+    {
+      "id": "grammar_pattern:017",
+      "status": "pass",
+      "target_id": "grammar_pattern:017"
+    },
+    {
+      "id": "grammar_pattern:018",
+      "status": "pass",
+      "target_id": "grammar_pattern:018"
+    },
+    {
+      "id": "grammar_pattern:019",
+      "status": "pass",
+      "target_id": "grammar_pattern:019"
+    },
+    {
+      "id": "grammar_pattern:020",
+      "status": "pass",
+      "target_id": "grammar_pattern:020"
+    },
+    {
+      "id": "collocation:021",
+      "status": "pass",
+      "target_id": "collocation:021"
+    },
+    {
+      "id": "collocation:022",
+      "status": "pass",
+      "target_id": "collocation:022"
+    },
+    {
+      "id": "collocation:023",
+      "status": "pass",
+      "target_id": "collocation:023"
+    },
+    {
+      "id": "collocation:024",
+      "status": "pass",
+      "target_id": "collocation:024"
+    },
+    {
+      "id": "collocation:025",
+      "status": "pass",
+      "target_id": "collocation:025"
+    },
+    {
+      "id": "usage_note:004",
+      "status": "pass",
+      "target_id": "usage_note:004"
+    },
+    {
+      "id": "synonym:010",
+      "status": "pass",
+      "target_id": "synonym:010"
+    },
+    {
+      "id": "sense_boundary:005",
+      "status": "pass",
+      "target_id": "sense_boundary:005"
+    },
+    {
+      "id": "definition:005",
+      "status": "pass",
+      "target_id": "definition:005"
+    },
+    {
+      "id": "frequency:005",
+      "status": "pass",
+      "target_id": "frequency:005"
+    },
+    {
+      "id": "register:005",
+      "status": "pass",
+      "target_id": "register:005"
+    },
+    {
+      "id": "grammar_pattern:021",
+      "status": "pass",
+      "target_id": "grammar_pattern:021"
+    },
+    {
+      "id": "grammar_pattern:022",
+      "status": "pass",
+      "target_id": "grammar_pattern:022"
+    },
+    {
+      "id": "grammar_pattern:023",
+      "status": "pass",
+      "target_id": "grammar_pattern:023"
+    },
+    {
+      "id": "grammar_pattern:024",
+      "status": "pass",
+      "target_id": "grammar_pattern:024"
+    },
+    {
+      "id": "collocation:026",
+      "status": "pass",
+      "target_id": "collocation:026"
+    },
+    {
+      "id": "collocation:027",
+      "status": "pass",
+      "target_id": "collocation:027"
+    },
+    {
+      "id": "collocation:028",
+      "status": "pass",
+      "target_id": "collocation:028"
+    },
+    {
+      "id": "collocation:029",
+      "status": "pass",
+      "target_id": "collocation:029"
+    },
+    {
+      "id": "usage_note:005",
+      "status": "pass",
+      "target_id": "usage_note:005"
+    },
+    {
+      "id": "synonym:011",
+      "status": "pass",
+      "target_id": "synonym:011"
+    },
+    {
+      "id": "sense_boundary:006",
+      "status": "pass",
+      "target_id": "sense_boundary:006"
+    },
+    {
+      "id": "definition:006",
+      "status": "pass",
+      "target_id": "definition:006"
+    },
+    {
+      "id": "frequency:006",
+      "status": "pass",
+      "target_id": "frequency:006"
+    },
+    {
+      "id": "register:006",
+      "status": "pass",
+      "target_id": "register:006"
+    },
+    {
+      "id": "grammar_pattern:025",
+      "status": "pass",
+      "target_id": "grammar_pattern:025"
+    },
+    {
+      "id": "grammar_pattern:026",
+      "status": "pass",
+      "target_id": "grammar_pattern:026"
+    },
+    {
+      "id": "grammar_pattern:027",
+      "status": "pass",
+      "target_id": "grammar_pattern:027"
+    },
+    {
+      "id": "grammar_pattern:028",
+      "status": "pass",
+      "target_id": "grammar_pattern:028"
+    },
+    {
+      "id": "collocation:030",
+      "status": "pass",
+      "target_id": "collocation:030"
+    },
+    {
+      "id": "collocation:031",
+      "status": "pass",
+      "target_id": "collocation:031"
+    },
+    {
+      "id": "collocation:032",
+      "status": "fail",
+      "target_id": "collocation:032",
+      "notes": "例文の The contractor submitted a variation order は、発注者・技術者が発行する変更指示と、請負業者が提出する変更要求・見積りを混同している。"
+    },
+    {
+      "id": "usage_note:006",
+      "status": "pass",
+      "target_id": "usage_note:006"
+    },
+    {
+      "id": "synonym:012",
+      "status": "pass",
+      "target_id": "synonym:012"
+    },
+    {
+      "id": "sense_boundary:007",
+      "status": "pass",
+      "target_id": "sense_boundary:007"
+    },
+    {
+      "id": "definition:007",
+      "status": "pass",
+      "target_id": "definition:007"
+    },
+    {
+      "id": "frequency:007",
+      "status": "pass",
+      "target_id": "frequency:007"
+    },
+    {
+      "id": "register:007",
+      "status": "pass",
+      "target_id": "register:007"
+    },
+    {
+      "id": "grammar_pattern:029",
+      "status": "pass",
+      "target_id": "grammar_pattern:029"
+    },
+    {
+      "id": "grammar_pattern:030",
+      "status": "pass",
+      "target_id": "grammar_pattern:030"
+    },
+    {
+      "id": "grammar_pattern:031",
+      "status": "pass",
+      "target_id": "grammar_pattern:031"
+    },
+    {
+      "id": "collocation:033",
+      "status": "pass",
+      "target_id": "collocation:033"
+    },
+    {
+      "id": "usage_note:007",
+      "status": "pass",
+      "target_id": "usage_note:007"
+    },
+    {
+      "id": "synonym:013",
+      "status": "pass",
+      "target_id": "synonym:013"
+    }
+  ],
+  "relation_results": [
+    {
+      "id": "risk_sense_pair:001",
+      "status": "pass",
+      "relation_id": "risk_sense_pair:001"
+    },
+    {
+      "id": "risk_sense_pair:002",
+      "status": "pass",
+      "relation_id": "risk_sense_pair:002"
+    },
+    {
+      "id": "risk_sense_pair:003",
+      "status": "pass",
+      "relation_id": "risk_sense_pair:003"
+    },
+    {
+      "id": "risk_sense_pair:004",
+      "status": "pass",
+      "relation_id": "risk_sense_pair:004"
+    },
+    {
+      "id": "example_translation:001",
+      "status": "pass",
+      "relation_id": "example_translation:001"
+    },
+    {
+      "id": "example_translation:002",
+      "status": "pass",
+      "relation_id": "example_translation:002"
+    },
+    {
+      "id": "example_translation:003",
+      "status": "pass",
+      "relation_id": "example_translation:003"
+    },
+    {
+      "id": "example_translation:004",
+      "status": "pass",
+      "relation_id": "example_translation:004"
+    },
+    {
+      "id": "example_translation:005",
+      "status": "pass",
+      "relation_id": "example_translation:005"
+    },
+    {
+      "id": "example_translation:006",
+      "status": "pass",
+      "relation_id": "example_translation:006"
+    },
+    {
+      "id": "example_translation:007",
+      "status": "pass",
+      "relation_id": "example_translation:007"
+    },
+    {
+      "id": "example_translation:008",
+      "status": "pass",
+      "relation_id": "example_translation:008"
+    },
+    {
+      "id": "example_translation:009",
+      "status": "pass",
+      "relation_id": "example_translation:009"
+    },
+    {
+      "id": "example_translation:010",
+      "status": "pass",
+      "relation_id": "example_translation:010"
+    },
+    {
+      "id": "example_translation:011",
+      "status": "pass",
+      "relation_id": "example_translation:011"
+    },
+    {
+      "id": "example_translation:012",
+      "status": "pass",
+      "relation_id": "example_translation:012"
+    },
+    {
+      "id": "example_translation:013",
+      "status": "pass",
+      "relation_id": "example_translation:013"
+    },
+    {
+      "id": "example_translation:014",
+      "status": "pass",
+      "relation_id": "example_translation:014"
+    },
+    {
+      "id": "example_translation:015",
+      "status": "pass",
+      "relation_id": "example_translation:015"
+    },
+    {
+      "id": "example_translation:016",
+      "status": "pass",
+      "relation_id": "example_translation:016"
+    },
+    {
+      "id": "example_translation:017",
+      "status": "pass",
+      "relation_id": "example_translation:017"
+    },
+    {
+      "id": "example_translation:018",
+      "status": "pass",
+      "relation_id": "example_translation:018"
+    },
+    {
+      "id": "example_translation:019",
+      "status": "pass",
+      "relation_id": "example_translation:019"
+    },
+    {
+      "id": "example_translation:020",
+      "status": "pass",
+      "relation_id": "example_translation:020"
+    },
+    {
+      "id": "example_translation:021",
+      "status": "pass",
+      "relation_id": "example_translation:021"
+    },
+    {
+      "id": "example_translation:022",
+      "status": "pass",
+      "relation_id": "example_translation:022"
+    },
+    {
+      "id": "example_translation:023",
+      "status": "pass",
+      "relation_id": "example_translation:023"
+    },
+    {
+      "id": "example_translation:024",
+      "status": "pass",
+      "relation_id": "example_translation:024"
+    },
+    {
+      "id": "example_translation:025",
+      "status": "pass",
+      "relation_id": "example_translation:025"
+    },
+    {
+      "id": "example_translation:026",
+      "status": "pass",
+      "relation_id": "example_translation:026"
+    },
+    {
+      "id": "example_translation:027",
+      "status": "pass",
+      "relation_id": "example_translation:027"
+    },
+    {
+      "id": "example_translation:028",
+      "status": "pass",
+      "relation_id": "example_translation:028"
+    },
+    {
+      "id": "example_translation:029",
+      "status": "pass",
+      "relation_id": "example_translation:029"
+    },
+    {
+      "id": "example_translation:030",
+      "status": "pass",
+      "relation_id": "example_translation:030"
+    },
+    {
+      "id": "example_translation:031",
+      "status": "pass",
+      "relation_id": "example_translation:031"
+    },
+    {
+      "id": "example_translation:032",
+      "status": "fail",
+      "relation_id": "example_translation:032",
+      "notes": "英文の主語 contractor と variation order の発行・指示という意味役割が不整合であり、訳の「変更指示書」と対応しない。"
+    },
+    {
+      "id": "example_translation:033",
+      "status": "pass",
+      "relation_id": "example_translation:033"
+    },
+    {
+      "id": "sense_definition_consistency:001",
+      "status": "pass",
+      "relation_id": "sense_definition_consistency:001"
+    },
+    {
+      "id": "definition_usage_consistency:001",
+      "status": "pass",
+      "relation_id": "definition_usage_consistency:001"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:001",
+      "status": "pass",
+      "relation_id": "definition_lexical_relation_consistency:001"
+    },
+    {
+      "id": "pattern_example_coverage:001",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:001"
+    },
+    {
+      "id": "pattern_example_coverage:002",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:002"
+    },
+    {
+      "id": "pattern_example_coverage:003",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:003"
+    },
+    {
+      "id": "pattern_example_coverage:004",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:004"
+    },
+    {
+      "id": "pattern_example_coverage:005",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:005"
+    },
+    {
+      "id": "pattern_example_coverage:006",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:006"
+    },
+    {
+      "id": "pattern_example_coverage:007",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:007"
+    },
+    {
+      "id": "pattern_example_coverage:008",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:008"
+    },
+    {
+      "id": "sense_definition_consistency:002",
+      "status": "pass",
+      "relation_id": "sense_definition_consistency:002"
+    },
+    {
+      "id": "definition_usage_consistency:002",
+      "status": "pass",
+      "relation_id": "definition_usage_consistency:002"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:002",
+      "status": "pass",
+      "relation_id": "definition_lexical_relation_consistency:002"
+    },
+    {
+      "id": "pattern_example_coverage:009",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:009"
+    },
+    {
+      "id": "pattern_example_coverage:010",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:010"
+    },
+    {
+      "id": "sense_definition_consistency:003",
+      "status": "pass",
+      "relation_id": "sense_definition_consistency:003"
+    },
+    {
+      "id": "definition_usage_consistency:003",
+      "status": "pass",
+      "relation_id": "definition_usage_consistency:003"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:003",
+      "status": "pass",
+      "relation_id": "definition_lexical_relation_consistency:003"
+    },
+    {
+      "id": "pattern_example_coverage:011",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:011"
+    },
+    {
+      "id": "pattern_example_coverage:012",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:012"
+    },
+    {
+      "id": "pattern_example_coverage:013",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:013"
+    },
+    {
+      "id": "pattern_example_coverage:014",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:014"
+    },
+    {
+      "id": "pattern_example_coverage:015",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:015"
+    },
+    {
+      "id": "sense_definition_consistency:004",
+      "status": "pass",
+      "relation_id": "sense_definition_consistency:004"
+    },
+    {
+      "id": "definition_usage_consistency:004",
+      "status": "pass",
+      "relation_id": "definition_usage_consistency:004"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:004",
+      "status": "pass",
+      "relation_id": "definition_lexical_relation_consistency:004"
+    },
+    {
+      "id": "pattern_example_coverage:016",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:016"
+    },
+    {
+      "id": "pattern_example_coverage:017",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:017"
+    },
+    {
+      "id": "pattern_example_coverage:018",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:018"
+    },
+    {
+      "id": "pattern_example_coverage:019",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:019"
+    },
+    {
+      "id": "pattern_example_coverage:020",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:020"
+    },
+    {
+      "id": "sense_definition_consistency:005",
+      "status": "pass",
+      "relation_id": "sense_definition_consistency:005"
+    },
+    {
+      "id": "definition_usage_consistency:005",
+      "status": "pass",
+      "relation_id": "definition_usage_consistency:005"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:005",
+      "status": "pass",
+      "relation_id": "definition_lexical_relation_consistency:005"
+    },
+    {
+      "id": "pattern_example_coverage:021",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:021"
+    },
+    {
+      "id": "pattern_example_coverage:022",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:022"
+    },
+    {
+      "id": "pattern_example_coverage:023",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:023"
+    },
+    {
+      "id": "pattern_example_coverage:024",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:024"
+    },
+    {
+      "id": "sense_definition_consistency:006",
+      "status": "pass",
+      "relation_id": "sense_definition_consistency:006"
+    },
+    {
+      "id": "definition_usage_consistency:006",
+      "status": "pass",
+      "relation_id": "definition_usage_consistency:006"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:006",
+      "status": "pass",
+      "relation_id": "definition_lexical_relation_consistency:006"
+    },
+    {
+      "id": "pattern_example_coverage:025",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:025"
+    },
+    {
+      "id": "pattern_example_coverage:026",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:026"
+    },
+    {
+      "id": "pattern_example_coverage:027",
+      "status": "fail",
+      "relation_id": "pattern_example_coverage:027",
+      "notes": "variation order の唯一の対応例 collocation:032 に当事者の意味役割の誤りがあるため、このフレームの自然な実例が未成立。"
+    },
+    {
+      "id": "pattern_example_coverage:028",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:028"
+    },
+    {
+      "id": "sense_definition_consistency:007",
+      "status": "pass",
+      "relation_id": "sense_definition_consistency:007"
+    },
+    {
+      "id": "definition_usage_consistency:007",
+      "status": "pass",
+      "relation_id": "definition_usage_consistency:007"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:007",
+      "status": "pass",
+      "relation_id": "definition_lexical_relation_consistency:007"
+    },
+    {
+      "id": "pattern_example_coverage:029",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:029"
+    },
+    {
+      "id": "pattern_example_coverage:030",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:030"
+    },
+    {
+      "id": "pattern_example_coverage:031",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:031"
+    },
+    {
+      "id": "core_inventory_consistency:001",
+      "status": "pass",
+      "relation_id": "core_inventory_consistency:001"
+    },
+    {
+      "id": "core_sense_mapping:001",
+      "status": "pass",
+      "relation_id": "core_sense_mapping:001"
+    },
+    {
+      "id": "core_sense_mapping:002",
+      "status": "pass",
+      "relation_id": "core_sense_mapping:002"
+    },
+    {
+      "id": "core_sense_mapping:003",
+      "status": "pass",
+      "relation_id": "core_sense_mapping:003"
+    },
+    {
+      "id": "core_sense_mapping:004",
+      "status": "pass",
+      "relation_id": "core_sense_mapping:004"
+    },
+    {
+      "id": "core_sense_mapping:005",
+      "status": "pass",
+      "relation_id": "core_sense_mapping:005"
+    },
+    {
+      "id": "core_sense_mapping:006",
+      "status": "pass",
+      "relation_id": "core_sense_mapping:006"
+    },
+    {
+      "id": "core_sense_mapping:007",
+      "status": "pass",
+      "relation_id": "core_sense_mapping:007"
+    },
+    {
+      "id": "article_learning_risk:001",
+      "status": "pass",
+      "relation_id": "article_learning_risk:001"
+    }
+  ],
+  "normal_candidate_results": [],
+  "blind_candidate_results": [
+    {
+      "id": "cand_general_change",
+      "status": "pass",
+      "assertion_ids": [
+        "assert_general_boundary",
+        "assert_general_exclusion"
+      ],
+      "verified_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "cand_modified_version",
+      "status": "pass",
+      "assertion_ids": [
+        "assert_modified_source",
+        "assert_modified_exclusion"
+      ],
+      "verified_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "cand_biological_difference",
+      "status": "pass",
+      "assertion_ids": [
+        "assert_biological_population",
+        "assert_biological_not_mutation"
+      ],
+      "verified_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "cand_music",
+      "status": "pass",
+      "assertion_ids": [
+        "assert_music_theme",
+        "assert_music_not_version"
+      ],
+      "verified_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "cand_ballet",
+      "status": "pass",
+      "assertion_ids": [
+        "assert_ballet_solo",
+        "assert_ballet_not_general_dance"
+      ],
+      "verified_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "cand_contract",
+      "status": "pass",
+      "assertion_ids": [
+        "assert_contract_existing",
+        "assert_contract_not_alternative"
+      ],
+      "verified_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    },
+    {
+      "id": "cand_magnetic",
+      "status": "pass",
+      "assertion_ids": [
+        "assert_magnetic_angle",
+        "assert_magnetic_not_generic"
+      ],
+      "verified_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+    }
+  ],
+  "finding_results": [
+    {
+      "id": "normal-sense-structure-001",
+      "status": "pass",
+      "notes": "現行本文を照合し、コアイメージにバレエのソロ用法を語義5として追加し、全語義の対応を明示した。"
+    },
+    {
+      "id": "normal-sense-structure-002",
+      "status": "pass",
+      "notes": "現行本文を照合し、語義1を一般的な量・状態の変動に寄せ、個体・集団の専門差を語義3へ分けた。"
+    },
+    {
+      "id": "normal-sense-structure-003",
+      "status": "pass",
+      "notes": "現行本文を照合し、語義2を一般的な別形に限定し、音楽の主題に基づく変奏を語義4へ一意に割り当てた。"
+    },
+    {
+      "id": "normal-sense-structure-004",
+      "status": "pass",
+      "notes": "現行本文を照合し、契約・法務の変更を独立した語義6として追加し、一般用法の注記だけに置かない構造にした。"
+    },
+    {
+      "id": "normal-example-attribution-001",
+      "status": "pass",
+      "notes": "現行本文を照合し、一般義の例をpaint samplesに限定し、生物学的な試料との曖昧さを除いた。"
+    },
+    {
+      "id": "normal-example-attribution-002",
+      "status": "pass",
+      "notes": "現行本文を照合し、元の説明書への編集という文脈を加え、語義2の変更・別形として帰属を明確にした。"
+    },
+    {
+      "id": "normal-example-attribution-003",
+      "status": "pass",
+      "notes": "現行本文を照合し、基準からのずれの例を語義1へ移し、`variation on the original design`を別形の代表表現として分離した。"
+    },
+    {
+      "id": "normal-example-attribution-004",
+      "status": "pass",
+      "notes": "現行本文を照合し、集団内の例にgeneticを明示し、一般的な数値変動との曖昧さを減らした。"
+    },
+    {
+      "id": "normal-example-attribution-005",
+      "status": "pass",
+      "notes": "現行本文を照合し、植物試料・葉形という生物学的文脈を語義3に明示した。"
+    },
+    {
+      "id": "normal-qualification-001",
+      "status": "pass",
+      "notes": "現行本文を照合し、variation orderを建設・プロジェクト文脈に限定し、英国・豪州と米国の代替表現を注記した。"
+    },
+    {
+      "id": "normal-qualification-002",
+      "status": "pass",
+      "notes": "現行本文を照合し、語義3の定義を集団内外の差まで拡張し、within/among/betweenを対応させた。"
+    },
+    {
+      "id": "normal-qualification-003",
+      "status": "pass",
+      "notes": "現行本文を照合し、バレエ義を独舞・ソロ番号・作品内のソロ部分に限定した。"
+    },
+    {
+      "id": "normal-qualification-004",
+      "status": "pass",
+      "notes": "現行本文を照合し、magnetic variationとmagnetic declinationの関係を航海・海図、地球科学・測量、地域・規格の差とともに整理した。"
+    },
+    {
+      "id": "normal-pronunciation-001",
+      "status": "pass",
+      "notes": "現行本文を照合し、IPA末尾を/ʃən/に改め、4音節の説明と表記を一致させた。"
+    },
+    {
+      "id": "normal-evidence-001",
+      "status": "pass",
+      "notes": "現在のIPAは米英とも末尾を /ʃən/ とし、4音節・第3音節主強勢の説明と表記が一致していることを確認した。"
+    },
+    {
+      "id": "normal-evidence-002",
+      "status": "pass",
+      "notes": "語源は現代英語→中英語 variacioun→アングロフレンチ variation→ラテン語 variātiō の遡及順に限定され、借用経路が本文で明示された。"
+    },
+    {
+      "id": "normal-evidence-003",
+      "status": "pass",
+      "notes": "現行本文を照合し、〈8/10〉はentry_spec_v5に従う学習上の相対スコアであり、英語全体の統計値として本文が提示しているものではない。CambridgeのB2ラベルは語彙水準の補助資料で、語義別スコアの直接根拠ではないという指摘は認めるが、本文から当該スコアを削除する必要はない。"
+    },
+    {
+      "id": "normal-evidence-004",
+      "status": "pass",
+      "notes": "現行本文を照合し、同上。語義2の相対スコアは編集上の学習目安であり、CambridgeのB2ラベルから語義別の客観頻度を推論していない。"
+    },
+    {
+      "id": "normal-evidence-005",
+      "status": "pass",
+      "notes": "旧稿の「variation 自体には悪い評価がない」という根拠外の一般化は現行本文から削除され、意味範囲の説明に限定された。"
+    },
+    {
+      "id": "normal-evidence-006",
+      "status": "pass",
+      "notes": "語義3は同種の個体・集団内外に見られる生物学的差として記述され、旧稿の評価中立性や言語・社会層への広い断定は削除された。"
+    },
+    {
+      "id": "normal-evidence-007",
+      "status": "pass",
+      "notes": "現行本文を照合し、音楽の一つの変奏と作品全体の訳し分けは、辞書の音楽義を学習者向けに明確化した編集上の整理であり、既存辞書の一文を超えること自体が本文欠陥ではない。現在の定義・文法パターン・注意欄で範囲を明示している。"
+    },
+    {
+      "id": "normal-evidence-008",
+      "status": "pass",
+      "notes": "バレエ義は solo dance/solo item に対応する独舞・ソロ番号・ソロ部分へ限定され、旧稿の pas de deux や一般的な場面への拡張は除かれた。"
+    },
+    {
+      "id": "normal-evidence-009",
+      "status": "pass",
+      "notes": "現行本文を照合し、磁気偏角の角度説明は「magnetic variation＝magnetic declination」という専門語の学習上必要な定義であり、NCEI資料は用語対応と航法用途を支持する。指定ページの表の記載範囲だけから定義全体を否定する指摘は、根拠資料の適用範囲の問題であって本文の専門義の誤りではない。"
+    },
+    {
+      "id": "normal-evidence-010",
+      "status": "pass",
+      "notes": "現行本文を照合し、媒体別の頻度や訳語の分布を厳密な外部統計として断定していない。本文のレジスター説明は学習上の整理であり、Oxfordの一般義・構文・音楽義を統合している。varianceとの区別も本文上の用語説明である。"
+    },
+    {
+      "id": "normal-evidence-011",
+      "status": "pass",
+      "notes": "現行本文を照合し、契約以外の例文は辞書の用法を学習者が使えるようにした作例であり、WAの契約資料が料理・物語・デザイン全般の例文を直接供給する必要はない。契約用法自体は語義6へ分離済みである。"
+    },
+    {
+      "id": "normal-evidence-012",
+      "status": "pass",
+      "notes": "現行本文を照合し、生物学義の専門領域表示は、Merriam-Websterのbiology義と本文の集団・個体差の整理に基づく。遺伝学・医学までを資料が列挙しないことは、本文の専門義を誤りにするものではないため、領域を過度に限定しない現行表現を採用する。"
+    },
+    {
+      "id": "normal-evidence-013",
+      "status": "pass",
+      "notes": "現行本文を照合し、音楽の専門用法という表示は、Oxford・Merriam-Websterの音楽義から導く辞書編集上のレジスター整理であり、Cambridgeの取得不能だけで本文を不採用にはしない。"
+    },
+    {
+      "id": "normal-evidence-014",
+      "status": "pass",
+      "notes": "現行本文を照合し、バレエ義はCollinsのsolo dance/solo itemに直接対応し、一般会話でsoloと説明する注記は学習者向けの補足である。本文の専門領域表示を維持する。"
+    },
+    {
+      "id": "normal-evidence-015",
+      "status": "pass",
+      "notes": "現行の the variation of A with B は本文例 temperature with altitude と同じ従属関係を表し、見出しと例文の構文も一致している。"
+    },
+    {
+      "id": "normal-evidence-016",
+      "status": "pass",
+      "notes": "旧稿の a variation of a method/design は削除され、語義2の代表フレームと実例はいずれも variation on に統一された。"
+    },
+    {
+      "id": "normal-evidence-017",
+      "status": "pass",
+      "notes": "現行本文を照合し、契約表現の前置詞差を学習者に示すため、WA資料が直接示すtoを中心にしつつ、ofは法域・契約書により使われる変種として限定している。未限定の同義断定ではない。"
+    },
+    {
+      "id": "normal-evidence-018",
+      "status": "pass",
+      "notes": "現行本文を照合し、variation orderはユーザー指定の契約・工事用法であり、本文では特に建設・プロジェクト文脈の変更指示に限定した。WA資料の正式な承認・変更過程と整合する範囲の専門補足として収録する。"
+    },
+    {
+      "id": "normal-evidence-019",
+      "status": "pass",
+      "notes": "現行本文を照合し、一般コロケーションの英語例文は辞書定義を踏まえた作例であり、WAの法務資料を一般用法の直接根拠として扱う本文構造にはしていない。法務用法は語義6に分離した。"
+    },
+    {
+      "id": "normal-evidence-020",
+      "status": "pass",
+      "notes": "現行本文を照合し、`variation on`という中心フレームはMerriam-Webster等の資料が支持し、`develop`とworkshopはそのフレームを示すための作例である。作例の場面設定が外部資料にないことは根拠不一致ではない。"
+    },
+    {
+      "id": "normal-evidence-021",
+      "status": "pass",
+      "notes": "現行本文を照合し、`variations by 〈a composer〉`は音楽義の生産的な作例として示しており、本文は特定作品の書誌事実として断定していない。音楽義の中心は既存辞書資料で支持される。"
+    },
+    {
+      "id": "normal-evidence-022",
+      "status": "pass",
+      "notes": "現行本文を照合し、〈4/10〉はentry_spec_v5の学習上の相対スコアであり、NCEI資料に統計頻度を求めていない。NCEIがmagnetic declinationとmagnetic variationの対応を支持する点は保たれている。"
+    },
+    {
+      "id": "normal-evidence-023",
+      "status": "pass",
+      "notes": "現行本文を照合し、一般用法の`variation on/of/from`の整理はOxford・Collins等の一般辞書資料、契約変更はWA資料に対応する。単一の法務資料だけに一般語法全体を依存させる本文ではない。"
+    },
+    {
+      "id": "normal-evidence-024",
+      "status": "pass",
+      "notes": "現行本文を照合し、航海・海図と地球科学・測量での呼称差は本文で分野・地域・規格による揺れとして限定している。NCEIページが使用頻度を数値化しないことは、専門用語の収録根拠を否定しない。"
+    },
+    {
+      "id": "normal-evidence-025",
+      "status": "pass",
+      "notes": "vary in/from/with/according to の未裏付け列挙は削除され、vary は同語源の関連動詞と基本義だけに限定された。"
+    },
+    {
+      "id": "normal-evidence-026",
+      "status": "pass",
+      "notes": "現行本文を照合し、variableの収録はユーザー指定の重要な語族情報であり、本文はvariationのページにあるという意味ではなく、関連語として一般的な語形成関係を説明している。外部辞書の個別locatorをこの段階で追加せず、語義を過度に膨らませていない。"
+    },
+    {
+      "id": "normal-evidence-027",
+      "status": "pass",
+      "notes": "現行本文を照合し、variantも同様に、本文はvariationの同語族関連語として語義2との関係を説明しており、variationページがvariantの全辞書項目を直接定義すると主張していない。"
+    },
+    {
+      "id": "normal-evidence-028",
+      "status": "pass",
+      "notes": "現行本文を照合し、コアイメージの音楽枝はOxfordの「単純な旋律に基づく短い作品」という音楽義に対応しており、Cambridgeの取得不能だけを理由に不支持とはしない。"
+    },
+    {
+      "id": "normal-evidence-029",
+      "status": "pass",
+      "notes": "現行本文を照合し、磁気偏角のコアイメージ枝は、NCEIがmagnetic variationとgeomagnetic declinationを対応付け、航法用途を示す範囲から導かれる学習者向け要約である。"
+    },
+    {
+      "id": "CR-001",
+      "status": "pass",
+      "notes": "現行本文を照合し、現在本文でIPA末尾を/ʃən/とし、4音節の説明との不一致を解消した。"
+    },
+    {
+      "id": "CR-002",
+      "status": "pass",
+      "notes": "現行本文を照合し、現代英語から中英語、古フランス語系アングロフレンチ、ラテン語へ戻る矢印順に書き換えた。"
+    },
+    {
+      "id": "CR-003",
+      "status": "pass",
+      "notes": "現行本文を照合し、不可算・可算の傾向を示しつつ、意味だけで機械的に決まらず焦点・文脈で揺れると明記した。"
+    },
+    {
+      "id": "CR-004",
+      "status": "pass",
+      "notes": "現行本文を照合し、コアイメージにバレエのソロ枝を追加して語義5へ対応付けた。"
+    },
+    {
+      "id": "CR-005",
+      "status": "pass",
+      "notes": "現行本文を照合し、語義1から個体差の明示を外し、専門的な個体・集団差を語義3に寄せた。"
+    },
+    {
+      "id": "CR-006",
+      "status": "pass",
+      "notes": "現行本文を照合し、`variation from the norm/standard`を基準からのずれとして語義1に置き、元の設計の別形は`variation on`と整理した。"
+    },
+    {
+      "id": "CR-007",
+      "status": "pass",
+      "notes": "現行本文を照合し、契約変更を語義6に独立させ、variation clause/orderと法域・分野差を記載した。"
+    },
+    {
+      "id": "CR-008",
+      "status": "pass",
+      "notes": "現行本文を照合し、語義3を同種の個体間、集団内部、集団間の差まで含む定義に改めた。"
+    },
+    {
+      "id": "CR-009",
+      "status": "pass",
+      "notes": "現行本文を照合し、一つの主題と複数の変奏からなる一作品・一組とし、個々の変奏が独立した別作品であることを要求しない表現に改めた。"
+    },
+    {
+      "id": "CR-010",
+      "status": "pass",
+      "notes": "現行本文を照合し、バレエ義を独舞・ソロ番号・ソロ部分に限定し、場面全体との混同を避けた。"
+    },
+    {
+      "id": "CR-011",
+      "status": "pass",
+      "notes": "現行本文を照合し、一般用法は idea/story等、音楽用法は theme/melody として例・注記を分けた。"
+    },
+    {
+      "id": "CR-012",
+      "status": "pass",
+      "notes": "現行本文を照合し、magnetic variationを航海・海図での呼称、magnetic declinationを地球科学・測量での呼称として分野・地域・規格差を示した。"
+    }
+  ],
+  "evidence_checks": [
+    {
+      "id": "ev-variation-pronunciation",
+      "status": "pass"
+    },
+    {
+      "id": "ev-variation-etymology",
+      "status": "pass"
+    },
+    {
+      "id": "ev-variation-senses",
+      "status": "pass"
+    },
+    {
+      "id": "ev-variation-frames",
+      "status": "pass"
+    },
+    {
+      "id": "ev-variation-specialist",
+      "status": "pass"
+    },
+    {
+      "id": "ev-variation-frequency",
+      "status": "pass"
+    },
+    {
+      "id": "ev-variation-examples",
+      "status": "fail",
+      "notes": "collocation:032 の variation order 例文は、請負業者が提出する request/proposal と発注側が発行する order を混同している。"
+    },
+    {
+      "id": "ev-variation-legal",
+      "status": "pass"
+    },
+    {
+      "id": "ev-variation-magnetic",
+      "status": "pass"
+    }
+  ],
+  "source_inventory_results": [
+    {
+      "id": "union-src-oxford-variation",
+      "status": "pass",
+      "union_id": "union-src-oxford-variation"
+    },
+    {
+      "id": "union-src-cambridge-variation",
+      "status": "pass",
+      "union_id": "union-src-cambridge-variation"
+    },
+    {
+      "id": "union-src-merriam-variation",
+      "status": "pass",
+      "union_id": "union-src-merriam-variation"
+    },
+    {
+      "id": "union-src-collins-variation",
+      "status": "pass",
+      "union_id": "union-src-collins-variation"
+    },
+    {
+      "id": "union-src-wa-contract-variation",
+      "status": "pass",
+      "union_id": "union-src-wa-contract-variation"
+    },
+    {
+      "id": "union-src-hko-magnetic-variation",
+      "status": "pass",
+      "union_id": "union-src-hko-magnetic-variation"
+    },
+    {
+      "id": "union-src-cedd-contract-variation-order",
+      "status": "pass",
+      "union_id": "union-src-cedd-contract-variation-order"
+    }
+  ],
+  "input_revision_id": "e3d7e192fdd230365bdf1845e57f7896607ec68cc582692a6e18da5228aa217d",
+  "_output_metadata": {
+    "schema_version": "final_review_v3",
+    "stage": "final_review",
+    "run_id": "blind-variation-20260913T012522Z-51385f93",
+    "context_id": "blind-variation-context-20260913T012522Z-51385f93",
+    "input_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b",
+    "prompt_sha256": "7fee3a9d388e6557c2d8a66702e890b2398ca20228e61072acc81eedafcfac9d",
+    "input_artifacts": [
+      "entry_body",
+      "sealed_final_blind",
+      "pre_blind_resolution",
+      "post_blind_resolution",
+      "checker_recheck_manifest",
+      "targeted_adjudications",
+      "final_review_spec"
+    ],
+    "blind_output_sha256": "2f82cf002762f9daf62c7705649bd6b2115eacf5c1185df4288b4c9212becfca"
+  },
+  "reviewer": {
+    "mode": "handoff",
+    "agent_id": "01a0b4a9-e8a1-7851-b443-09c5192220a4",
+    "declared_model": "gpt-5.2-codex"
+  }
+}

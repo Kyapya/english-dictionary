@@ -1,12 +1,12 @@
 ---
 headword: variation
 type: word
-status: checked
+status: needs_review
 prompt_version: entry_spec_v5
 model: codex-gpt-5
 created_at: 2026-09-10
-updated_at: 2026-09-17
-checked: true
+updated_at: 2026-09-18
+checked: false
 tags: []
 ---
 
@@ -386,7 +386,7 @@ tags: []
 
 ・a variation order  
 用途: 特に建設・プロジェクト文脈で、追加・削除・変更する作業を正式に指示する文書や指示を表す。  
-例: The contractor submitted a variation order for the additional work.  
+例: The engineer issued a variation order for the additional work.
 訳: 請負業者は追加工事について変更指示書を提出した。  
 
 【語法・注意】この用法の variation は、単なる別案ではなく、既存契約を変更する正式な行為・変更事項を指す。`amendment` や `modification` と重なるが、`variation order` は工事・プロジェクトの変更指示を特に指しやすい。用語の優勢な形は法域や分野によって異なるため、契約書の定義条項と適用法を確認する。  

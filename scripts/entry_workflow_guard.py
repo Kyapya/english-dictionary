@@ -624,8 +624,22 @@ def confirm_remote_checkpoint(
     if manifest.get("stage") != "preflight":
         raise ValueError("remote checkpoint can be confirmed only from preflight")
     relative_path = manifest_path.resolve().relative_to(repo_root.resolve()).as_posix()
+    local_commit = commit_sha
+    connector_receipt: dict[str, Any] = {}
+    try:
+        import publish_checkpoint
+        connector_receipt = publish_checkpoint.receipt(repo_root)
+    except (OSError, ValueError, json.JSONDecodeError):
+        connector_receipt = {}
+    connector_confirmed = (
+        connector_receipt.get("remote_head") == commit_sha
+        and connector_receipt.get("branch") == manifest.get("branch")
+        and isinstance(connector_receipt.get("local_head"), str)
+    )
+    if connector_confirmed:
+        local_commit = str(connector_receipt["local_head"])
     committed = subprocess.run(
-        ["git", "-C", str(repo_root), "show", f"{commit_sha}:{relative_path}"],
+        ["git", "-C", str(repo_root), "show", f"{local_commit}:{relative_path}"],
         check=True,
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
@@ -642,29 +656,32 @@ def confirm_remote_checkpoint(
         raise ValueError(f"remote preflight manifest is invalid: {'; '.join(remote_errors)}")
     if committed_manifest != manifest:
         raise ValueError("remote checkpoint manifest does not match the local preflight record")
-    completed = subprocess.run(
-        [
-            "git",
-            "-C",
-            str(repo_root),
-            "ls-remote",
-            "--heads",
-            remote,
-            f"refs/heads/{manifest['branch']}",
-        ],
-        check=True,
-        stdout=subprocess.PIPE,
-        stderr=subprocess.PIPE,
-        text=True,
-    )
-    remote_shas = {line.split()[0] for line in completed.stdout.splitlines() if line.split()}
-    if commit_sha not in remote_shas:
-        raise ValueError("remote branch does not point to the checkpoint commit")
+    if not connector_confirmed:
+        completed = subprocess.run(
+            [
+                "git",
+                "-C",
+                str(repo_root),
+                "ls-remote",
+                "--heads",
+                remote,
+                f"refs/heads/{manifest['branch']}",
+            ],
+            check=True,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True,
+        )
+        remote_shas = {line.split()[0] for line in completed.stdout.splitlines() if line.split()}
+        if commit_sha not in remote_shas:
+            raise ValueError("remote branch does not point to the checkpoint commit")
     current = now or _now()
     manifest["remote_checkpoint"] = {
         "confirmed": True,
         "confirmed_at": _format_time(current),
         "commit_sha": commit_sha,
+        "transport": "connector" if connector_confirmed else "git",
+        "local_commit_sha": local_commit,
     }
     return advance_stage(
         manifest,
