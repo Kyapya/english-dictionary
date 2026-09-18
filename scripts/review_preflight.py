@@ -51,6 +51,39 @@ def final_inputs(entry: Path, cycle: Path, root: Path, *, compact: bool = False)
         "evidence_checks": [{"id": item} for item in source.get("evidence_link_ids", [])],
         "source_inventory_results": source["source_first_audit"]["source_union"],
     }
+    compact_values: dict | None = None
+    if compact:
+        # The full target records duplicate the article body and carry many
+        # machine-only fields.  Keep the text needed for an independent decision
+        # plus stable IDs; immutable bindings below still cover every source
+        # artifact in full.
+        inventories["target_results"] = [
+            {
+                key: row[key]
+                for key in ("id", "kind", "location", "section", "sense", "text")
+                if key in row
+            }
+            for row in inventories["target_results"]
+        ]
+        inventories["relation_results"] = [
+            {
+                key: row[key]
+                for key in ("id", "kind", "target_ids", "description")
+                if key in row
+            }
+            for row in inventories["relation_results"]
+        ]
+        inventories["finding_results"] = [
+            {
+                key: row[key]
+                for key in (
+                    "id", "taxonomy_id", "severity", "location", "rationale",
+                    "suggested_direction", "disposition",
+                )
+                if key in row
+            }
+            for row in inventories["finding_results"]
+        ]
     template = {"decision": None, "blockers": [], "notes": []}
     typed_ids = {"target_results": "target_id", "relation_results": "relation_id", "source_inventory_results": "union_id"}
     for field, rows in inventories.items():
@@ -66,6 +99,28 @@ def final_inputs(entry: Path, cycle: Path, root: Path, *, compact: bool = False)
                 if not compact:
                     result["assertion_results"] = [{"id": a["id"], "status": None, "notes": ""} for a in row["semantic_assertions"]]
             template[field].append(result)
+    if compact:
+        # Reviewers need the latest body, targets, findings, dispositions and
+        # seal/recheck facts.  Sending every raw stage output again made final
+        # packets several hundred kilobytes and repeated the same findings up
+        # to three times.
+        compact_values = {
+            "review_context": {
+                "checker_summary": values["pass_findings"].get("summary"),
+                "cold_review_summary": values["cold_review"].get("summary"),
+                "final_blind_decision": values["final_blind"].get("provisional_decision"),
+                "blind_seal": values["blind_seal"],
+                "checker_recheck": {
+                    key: values["checker_recheck_manifest"].get(key)
+                    for key in (
+                        "current_body_sha256", "full_recheck", "invalidated_passes",
+                        "pass_results",
+                    )
+                },
+                "post_blind_verification": values["post_blind_verification"],
+                "resolutions": values["resolutions"].get("resolutions", []),
+            }
+        }
     values["inventories"] = inventories
     template["checker_recheck_results"] = [{"id": row["pass_id"], "pass_id": row["pass_id"], "status": None, "notes": ""} for row in values["checker_recheck_manifest"]["pass_results"]]
     template["chronology_results"] = [{"id": name, "check_id": name, "status": None, "notes": ""} for name in ("body_hash_binding", "cold_and_normal_before_revision", "revision_before_final_blind", "final_blind_before_seal", "post_blind_completion")]
@@ -79,6 +134,14 @@ def final_inputs(entry: Path, cycle: Path, root: Path, *, compact: bool = False)
     for directory in ("check_passes", "recheck"):
         values["input_bindings"].update({p.relative_to(cycle).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted((cycle / directory).glob("*.json"))})
     values["contract_version"] = VERSION
+    if compact_values is not None:
+        compact_values.update({
+            "inventories": values["inventories"],
+            "response_template": values["response_template"],
+            "input_bindings": values["input_bindings"],
+            "contract_version": values["contract_version"],
+        })
+        values = compact_values
     return values
 
 

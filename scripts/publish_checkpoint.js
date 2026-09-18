@@ -28,7 +28,70 @@ const shaOf = result => {
   if (!/^[0-9a-f]{40}$/.test(sha || "")) throw new Error("Connector returned no valid SHA");
   return sha;
 };
-const prepared = await command("prepare --repository " + quote(repository));
+const jsonPayload = result => {
+  if (result?.isError) throw new Error(JSON.stringify(result));
+  if (result?.structuredContent != null) {
+    const value = result.structuredContent;
+    if (typeof value.content === "string") {
+      try { return JSON.parse(value.content); } catch (_) { /* use wrapper */ }
+    }
+    return value;
+  }
+  const text = result?.content?.find?.(item => item.type === "text")?.text;
+  if (text) return JSON.parse(text);
+  return result;
+};
+const objects = value => {
+  const found = [];
+  const visit = item => {
+    if (!item || typeof item !== "object") return;
+    found.push(item);
+    for (const child of Array.isArray(item) ? item : Object.values(item)) visit(child);
+  };
+  visit(value);
+  return found;
+};
+const inspect = await command("inspect");
+const [owner, repoName] = repository.split("/");
+const findBranchHead = async () => {
+  const branchSearch = jsonPayload(await tools.mcp__codex_apps__github_search_branches({
+    owner, repo_name: repoName, query: inspect.branch, page_size: 100,
+  }));
+  const exists = objects(branchSearch).some(item =>
+    item.name === inspect.branch || item.branch === inspect.branch);
+  if (!exists) return undefined;
+  const ref = jsonPayload(await tools.mcp__codex_apps__github_fetch({
+    url: "https://api.github.com/repos/" + repository + "/git/ref/heads/" + inspect.branch,
+  }));
+  const refRow = objects(ref).find(item =>
+    /^[0-9a-f]{40}$/.test(item.object?.sha || ""));
+  if (!refRow) throw new Error("Connector returned no verifiable branch head");
+  return refRow.object.sha;
+};
+const branchHead = await findBranchHead();
+let remoteBase = branchHead;
+let remoteBaseTree;
+if (!remoteBase) {
+  const repo = jsonPayload(await tools.mcp__codex_apps__github_fetch({
+    url: "https://api.github.com/repos/" + repository,
+  }));
+  const repoRow = objects(repo).find(item => typeof item.default_branch === "string");
+  if (!repoRow) throw new Error("Connector returned no default branch");
+  const base = jsonPayload(await tools.mcp__codex_apps__github_fetch({
+    url: "https://api.github.com/repos/" + repository + "/branches/" + encodeURIComponent(repoRow.default_branch),
+  }));
+  const baseRow = objects(base).find(item =>
+    /^[0-9a-f]{40}$/.test(item.commit?.sha || "") &&
+    /^[0-9a-f]{40}$/.test(item.commit?.commit?.tree?.sha || item.commit?.tree?.sha || ""));
+  if (!baseRow) throw new Error("Connector returned no verifiable default-branch base");
+  remoteBase = baseRow.commit.sha;
+  remoteBaseTree = baseRow.commit.commit?.tree?.sha || baseRow.commit.tree.sha;
+}
+let prepareArgs = "prepare --repository " + quote(repository);
+if (branchHead) prepareArgs += " --remote-head " + quote(branchHead);
+else prepareArgs += " --remote-base " + quote(remoteBase) + " --remote-base-tree " + quote(remoteBaseTree);
+if (settings.validationMode) prepareArgs += " --validation-mode " + quote(settings.validationMode);
+const prepared = await command(prepareArgs);
 const planId = prepared.plan_id;
 if (!/^[0-9a-f]{64}$/.test(planId || "")) throw new Error("Invalid publication plan ID");
 const suffix = " --plan-id " + planId;
@@ -85,4 +148,6 @@ if (plan.commits.length && prepared.published_head !== parent) {
     : await tools.mcp__codex_apps__github_create_branch({repository_full_name: repository, branch_name: plan.branch, sha: parent});
   if (result.isError) throw new Error("Publication commit " + parent + ": " + JSON.stringify(result));
 }
-return await command("accept --sha " + quote(parent));
+const verifiedHead = await findBranchHead();
+if (verifiedHead !== parent) throw new Error("Remote branch verification failed after publication");
+return await command("accept --sha " + quote(parent) + suffix);

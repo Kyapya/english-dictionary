@@ -53,17 +53,40 @@ def publish(root: Path) -> bool:
     return True
 
 
-def plan(root: Path, *, check_remote: bool = True, check_clean: bool = True) -> dict:
+def plan(root: Path, *, check_remote: bool = True, check_clean: bool = True,
+         remote_head: str | None = None, remote_base: str | None = None,
+         remote_base_tree: str | None = None,
+         remote_state_resolved: bool = False) -> dict:
     if check_clean and git(root, "status", "--porcelain"):
         raise ValueError("commit the intended changes before publishing")
     previous = receipt(root)
     branch = git(root, "branch", "--show-current")
     if not branch:
         raise ValueError("publication requires a branch")
-    base = previous.get("local_head") or git(root, "merge-base", "HEAD", "origin/main")
-    remote_base = previous.get("remote_head", base)
-    remote_rows = git(root, "ls-remote", "--heads", "origin", "refs/heads/" + branch).split() if check_remote else []
-    if check_remote and remote_rows and remote_rows[0] != remote_base:
+    base = previous.get("local_head")
+    if not base and remote_base_tree:
+        base = next(
+            (
+                sha for sha in git(root, "rev-list", "HEAD").splitlines()
+                if git(root, "rev-parse", sha + "^{tree}") == remote_base_tree
+            ),
+            None,
+        )
+        if not base:
+            raise ValueError("no local ancestor matches the connector remote base tree")
+    base = base or git(root, "merge-base", "HEAD", "origin/main")
+    resolved_remote_base = previous.get("remote_head") or remote_base or base
+    if remote_base_tree and remote_base_tree != git(root, "rev-parse", base + "^{tree}"):
+        raise ValueError("remote base tree differs from the local publication base")
+    if not check_remote:
+        remote_rows = []
+    elif remote_state_resolved:
+        remote_rows = [remote_head] if remote_head else []
+    else:
+        remote_rows = git(
+            root, "ls-remote", "--heads", "origin", "refs/heads/" + branch
+        ).split()
+    if check_remote and remote_rows and remote_rows[0] != resolved_remote_base:
         raise ValueError("remote branch advanced; reconcile it or accept the already published checkpoint before retrying")
     git(root, "merge-base", "--is-ancestor", base, "HEAD")
     commits = []
@@ -81,7 +104,7 @@ def plan(root: Path, *, check_remote: bool = True, check_clean: bool = True) -> 
                 raise ValueError("unsupported tree mode: " + new_mode)
             entries.append({"path": path, "mode": old_mode.lstrip(":") if new_mode == "000000" else new_mode, "type": "blob", "sha": None if new_mode == "000000" else new_sha})
         commits.append({"local_sha": sha, "tree_sha": git(root, "rev-parse", sha + "^{tree}"), "base_tree_sha": git(root, "rev-parse", parents[0] + "^{tree}"), "message": git(root, "show", "-s", "--format=%B", sha), "entries": entries})
-    return {"branch": branch, "branch_exists": bool(remote_rows), "local_base": base, "remote_base": remote_base, "local_head": git(root, "rev-parse", "HEAD"), "commits": commits}
+    return {"branch": branch, "branch_exists": bool(remote_rows), "local_base": base, "remote_base": resolved_remote_base, "local_head": git(root, "rev-parse", "HEAD"), "commits": commits}
 
 
 def _atomic_json(path: Path, value: dict) -> None:
@@ -101,16 +124,39 @@ def _session_path(root: Path, plan_id: str) -> Path:
     return receipt_path(root).parent / ("dictionary-transfer-" + plan_id + ".json")
 
 
-def _validate_before_upload(root: Path, value: dict) -> None:
+def _resolve_validation_mode(root: Path, value: dict, requested: str) -> str:
+    if requested not in {"auto", "checkpoint", "merge-ready"}:
+        raise ValueError("validation mode must be auto, checkpoint, or merge-ready")
+    if requested != "auto":
+        return requested
+    manifests = {
+        item["path"] for commit in value["commits"] for item in commit["entries"]
+        if item["path"].startswith("audits/workflow_runs/") and item["path"].endswith(".json")
+    }
+    for relative in manifests:
+        path = root / relative
+        if path.is_file():
+            try:
+                status = json.loads(path.read_text(encoding="utf-8")).get("status")
+            except (OSError, json.JSONDecodeError):
+                status = None
+            if status not in {"completed", "budget_exhausted"}:
+                return "checkpoint"
+    return "merge-ready"
+
+
+def _validate_before_upload(root: Path, value: dict, validation_mode: str) -> None:
     """Run the same changed-content gates before any connector write."""
     changed = {item["path"] for commit in value["commits"] for item in commit["entries"]}
     if not any(path.startswith(("entries/", "audits/", "queue/")) for path in changed):
         return
-    commands = [("entry_workflow_guard.py", ["validate-changed", "--merge-ready"]),
-                ("checker_subagent_gate.py", ["validate-changed"]),
-                ("content_audit.py", ["validate-changed"]),
-                ("semantic_resolution_gate.py", ["validate-changed"]),
-                ("source_first_audit_gate.py", ["validate-changed"])]
+    commands = [("entry_workflow_guard.py", ["validate-changed"])]
+    if validation_mode == "merge-ready":
+        commands = [("entry_workflow_guard.py", ["validate-changed", "--merge-ready"]),
+                    ("checker_subagent_gate.py", ["validate-changed"]),
+                    ("content_audit.py", ["validate-changed"]),
+                    ("semantic_resolution_gate.py", ["validate-changed"]),
+                    ("source_first_audit_gate.py", ["validate-changed"])]
     if any(path.startswith("audits/targeted_corrections/") for path in changed):
         commands = [("targeted_correction.py", ["validate-changed"])]
     for script, args in commands:
@@ -126,7 +172,9 @@ def _validate_before_upload(root: Path, value: dict) -> None:
             raise ValueError(script + ": " + result.stdout + result.stderr)
 
 
-def prepare(root: Path, repository: str) -> dict:
+def prepare(root: Path, repository: str, *, remote_head: str | None = None,
+            remote_base: str | None = None, remote_base_tree: str | None = None,
+            validation_mode: str = "auto") -> dict:
     if not re.fullmatch(r"[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+", repository):
         raise ValueError("repository must be owner/name")
     remote = git(root, "remote", "get-url", "origin")
@@ -145,14 +193,18 @@ def prepare(root: Path, repository: str) -> dict:
                 and value["branch"] == git(root, "branch", "--show-current")):
             if git(root, "status", "--porcelain"):
                 raise ValueError("worktree changed during publication")
-            actual = git(root, "ls-remote", "--heads", "origin", "refs/heads/" + value["branch"]).split()
+            actual = [remote_head] if remote_head else []
             expected = [value["remote_base"], *state["commits"].values()]
             if actual and actual[0] not in expected:
                 raise ValueError("remote branch advanced; reconcile before retrying")
             return {"plan_id": previous["plan_id"], "resumed": True, "progress": state["progress"],
                     "branch_exists": bool(actual), "published_head": actual[0] if actual else None}
-    value = plan(root)
-    _validate_before_upload(root, value)
+    value = plan(root, check_remote=True, remote_head=remote_head,
+                 remote_base=remote_base, remote_base_tree=remote_base_tree,
+                 remote_state_resolved=True)
+    validation_mode = _resolve_validation_mode(root, value, validation_mode)
+    value["validation_mode"] = validation_mode
+    _validate_before_upload(root, value, validation_mode)
     value["repository"] = repository
     plan_id = hashlib.sha256(json.dumps(value, sort_keys=True).encode()).hexdigest()
     state = {"plan": value, "blobs": [], "trees": [], "commits": {}, "progress": "prepared"}
@@ -214,24 +266,15 @@ def blob_page(root: Path, sha: str, offset: int, length: int, plan_id: str | Non
     return {"total": cache.stat().st_size, "chunk": chunk}
 
 
-def accept(root: Path, remote_head: str) -> dict:
-    publication = plan(root, check_remote=False, check_clean=False)
+def accept(root: Path, remote_head: str, plan_id: str) -> dict:
+    state = session(root, plan_id)
+    publication = state["plan"]
     branch = publication["branch"]
-    actual = git(root, "ls-remote", "--heads", "origin", "refs/heads/" + branch).split()
-    if not actual or actual[0] != remote_head:
-        raise ValueError("remote branch differs from publication receipt")
-    git(root, "fetch", "origin", branch)
-    chain = git(root, "rev-list", "--reverse", publication["remote_base"] + ".." + remote_head).splitlines()
-    if len(chain) != len(publication["commits"]):
-        raise ValueError("remote commit count differs from publication plan")
-    parent = publication["remote_base"]
-    for remote_sha, local in zip(chain, publication["commits"]):
-        if git(root, "show", "-s", "--format=%P", remote_sha).split() != [parent]:
-            raise ValueError("remote ancestry differs from publication plan")
-        if git(root, "rev-parse", remote_sha + "^{tree}") != local["tree_sha"]:
-            raise ValueError("remote content differs from local commit")
-        parent = remote_sha
-    if not chain and remote_head != publication["remote_base"]:
+    mapped = [state["commits"].get(item["local_sha"]) for item in publication["commits"]]
+    if any(item is None for item in mapped):
+        raise ValueError("publication receipt is incomplete")
+    expected = mapped[-1] if mapped else publication["remote_base"]
+    if remote_head != expected:
         raise ValueError("unexpected remote head")
     value = {"local_head": publication["local_head"], "remote_head": remote_head, "branch": branch}
     receipt_path(root).write_text(json.dumps(value, indent=2) + "\n", encoding="utf-8", newline="\n")
@@ -240,10 +283,14 @@ def accept(root: Path, remote_head: str) -> dict:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("command", choices=("prepare", "plan", "blob", "accept", "state", "progress"))
+    parser.add_argument("command", choices=("inspect", "prepare", "plan", "blob", "accept", "state", "progress"))
     parser.add_argument("--root", type=Path, default=Path.cwd())
     parser.add_argument("--sha")
     parser.add_argument("--repository")
+    parser.add_argument("--remote-head")
+    parser.add_argument("--remote-base")
+    parser.add_argument("--remote-base-tree")
+    parser.add_argument("--validation-mode", choices=("auto", "checkpoint", "merge-ready"), default="auto")
     parser.add_argument("--plan-id")
     parser.add_argument("--kind")
     parser.add_argument("--local-sha")
@@ -252,8 +299,17 @@ def main() -> None:
     args = parser.parse_args()
     if args.offset < 0 or not 0 < args.length <= 12000:
         raise ValueError("invalid page bounds")
-    if args.command == "prepare":
-        print(json.dumps(prepare(args.root, args.repository)))
+    if args.command == "inspect":
+        base = receipt(args.root).get("local_head") or git(args.root, "merge-base", "HEAD", "origin/main")
+        print(json.dumps({"branch": git(args.root, "branch", "--show-current"),
+                          "local_base": base,
+                          "local_base_tree": git(args.root, "rev-parse", base + "^{tree}")}))
+    elif args.command == "prepare":
+        print(json.dumps(prepare(args.root, args.repository,
+                                 remote_head=args.remote_head,
+                                 remote_base=args.remote_base,
+                                 remote_base_tree=args.remote_base_tree,
+                                 validation_mode=args.validation_mode)))
     elif args.command == "state":
         value = session(args.root, args.plan_id)
         print(json.dumps({key: value[key] for key in ("blobs", "trees", "commits", "progress")}))
@@ -264,7 +320,7 @@ def main() -> None:
         content = json.dumps(value, ensure_ascii=True)
         print(json.dumps({"total": len(content), "chunk": content[args.offset:args.offset + args.length]}, ensure_ascii=False))
     elif args.command == "accept":
-        print(json.dumps(accept(args.root, args.sha)))
+        print(json.dumps(accept(args.root, args.sha, args.plan_id)))
     else:
         print(json.dumps(blob_page(args.root, args.sha, args.offset, args.length, args.plan_id)))
 
