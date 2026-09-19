@@ -1,0 +1,29 @@
+{
+  "schema_version": "late_review_observation_v1",
+  "stage": "checker_passes",
+  "pass_id": "translation",
+  "input_body_sha256": "6bf439cde2a5a009f8e4e4d27f7041f7af5c66dd15e9e51aaf59bfb705b46752",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-6-astra",
+    "ingested_by": "human",
+    "agent_id": "reviewer-definite-translation-20260919"
+  },
+  "provenance_note": "Independent subagent notification received after the canonical checker-pass aggregation had already advanced to cold review; preserved separately and addressed in the pre-blind revision.",
+  "finding": {
+    "id": "LRO-definite-translation-001",
+    "taxonomy_id": "example_translation_alignment",
+    "severity": "blocking",
+    "location": {
+      "section": "collocations_examples",
+      "line_start": 202,
+      "line_end": 204,
+      "exact_quote": "用途: 表情・声・行動などに特定の感情が明確に表れている様子を示す。\n例: He left the room with a definite sense of relief.\n訳: 彼は明らかに安堵した様子で部屋を出た。"
+    },
+    "rationale": "英語の with a definite sense of relief は主語が安堵感を抱いていたという内的な経験を表す。用途説明と訳はそれを表情・行動から観察される「安堵した様子」へ置き換え、観察者の推論を加えている。",
+    "evidence_link_ids": [],
+    "suggested_direction": "主語の感情経験として「彼は明確な安堵感を抱いて部屋を出た」などと訳し、用途も感情が外部に表れていることを必須にしない。"
+  },
+  "recorded_at": "2026-09-19T14:47:00Z"
+}
+

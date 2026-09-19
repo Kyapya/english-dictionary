@@ -1,0 +1,56 @@
+{
+  "summary": "本文を文脈なしで確認し、意味方向または語義境界に関わる局所的な修正候補を3件記録した。",
+  "findings": [
+    {
+      "id": "CR-definite-001",
+      "location": "語義1の【文法パターン】",
+      "severity": "medium",
+      "description": "anything/nothing definite の日本語が途中で切れており、肯定・否定の対応関係を十分に示していない。",
+      "reason": "本文の「anything/nothing definite＝何か／何も確定したもの」は、英語の anything definite と nothing definite のどちらも自然な日本語フレームに置き換え切れていない。特に anything の疑問文で「何か確定した情報」、nothing で「何も確定したものはない」という対照が見えず、学習者が nothing definite の否定範囲を取り違える余地がある。",
+      "suggested_direction": "「anything definite＝何か確定したこと・情報」「nothing definite＝何も確定したことはない」のように、肯定・否定を分けて訳す。",
+      "scope_anchors": [
+        {
+          "id": "CR-definite-001-A1",
+          "exact_quote": "anything/nothing definite＝何か／何も確定したもの",
+          "location_hint": "語義1の【文法パターン】"
+        }
+      ]
+    },
+    {
+      "id": "CR-definite-002",
+      "location": "語義3の a definite number of コロケーション",
+      "severity": "medium",
+      "description": "definite number を「上限」と訳しており、固定された数そのものと人数制限を混同し得る。",
+      "reason": "本文の例文「Only a definite number of students can join the laboratory tour.」に対するアンカー「訳: 研究室見学に参加できる学生数には上限が決まっている。」は文脈上は成立するが、見出しの a definite number of が「具体的に決まった人数」ではなく常に「上限」を意味するように読める。英語表現が持つ固定数・明確な数という中心を狭めている。",
+      "suggested_direction": "訳を「研究室見学には決まった人数の学生だけが参加できる」などにし、上限を強調する場合は文脈由来の含意として注記する。",
+      "scope_anchors": [
+        {
+          "id": "CR-definite-002-A1",
+          "exact_quote": "訳: 研究室見学に参加できる学生数には上限が決まっている。",
+          "location_hint": "語義3の a definite number of 例文訳"
+        }
+      ]
+    },
+    {
+      "id": "CR-definite-003",
+      "location": "語義4の definite reference to コロケーション",
+      "severity": "medium",
+      "description": "一般的な「明確な言及」を、文法上の definite reference の例として扱っている。",
+      "reason": "本文の「definite reference to 〈person/thing〉＝〈人・物〉への定の指示」とアンカー「例: The article makes a definite reference to the company’s earlier report.」は、記事が以前の報告書に明確に言及するという一般語義の reference であり、名詞句の指示対象が特定可能であるという文法用語の definite reference を直接示していない。語義4の定義と例文の専門範囲がずれている。",
+      "suggested_direction": "文法語義の例を definite reference の指示性を実際に示す文に差し替えるか、このコロケーションを一般語義側へ移して「明確な言及」と説明する。",
+      "scope_anchors": [
+        {
+          "id": "CR-definite-003-A1",
+          "exact_quote": "例: The article makes a definite reference to the company’s earlier report.",
+          "location_hint": "語義4の definite reference to 例文"
+        }
+      ]
+    }
+  ],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-6-astra",
+    "ingested_by": "human",
+    "agent_id": "reviewer-definite-cold-20260919"
+  }
+}

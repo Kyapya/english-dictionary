@@ -1,0 +1,989 @@
+{
+  "schema_version": "entry_workflow_run_v1",
+  "run_id": "20260919T135234Z-e94458a7",
+  "headword": "definite",
+  "entry_path": "entries/d/definite.md",
+  "branch": "agent/add-definite-20260919",
+  "base_sha": "0dd2f4fceeaa6d59e9f4fdaa93b79218dccddfa4",
+  "profile": "standard",
+  "profile_reason": "bounded default profile",
+  "limits": {
+    "max_elapsed_minutes": 60,
+    "max_pre_draft_minutes": 20,
+    "max_research_queries": 12,
+    "max_candidate_pages": 18
+  },
+  "time_policy": "advisory_v1",
+  "usage": {
+    "research_queries": 7,
+    "candidate_pages": 10
+  },
+  "status": "completed",
+  "stage": "completed",
+  "started_at": "2026-09-19T13:52:34Z",
+  "deadline_at": "2026-09-19T14:52:34Z",
+  "pre_draft_deadline_at": "2026-09-19T14:12:34Z",
+  "last_heartbeat_at": "2026-09-19T15:48:53Z",
+  "remote_checkpoint": {
+    "confirmed": true,
+    "confirmed_at": "2026-09-19T13:53:53Z",
+    "commit_sha": "d42fffefa9ea1f1f0ff4bb08af8c9a12cf1d7e6f"
+  },
+  "stage_history": [
+    {
+      "stage": "preflight",
+      "recorded_at": "2026-09-19T13:52:34Z",
+      "notes": "run initialized"
+    },
+    {
+      "stage": "preflight_pushed",
+      "recorded_at": "2026-09-19T13:53:53Z",
+      "notes": "remote start checkpoint verified"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-09-19T14:04:42Z",
+      "notes": "orchestrator completed generation"
+    },
+    {
+      "stage": "source_inventory_complete",
+      "recorded_at": "2026-09-19T14:30:58Z",
+      "notes": "orchestrator completed checker_passes"
+    },
+    {
+      "stage": "normal_review_complete",
+      "recorded_at": "2026-09-19T14:30:58Z",
+      "notes": "orchestrator completed checker_passes"
+    },
+    {
+      "stage": "cold_review_complete",
+      "recorded_at": "2026-09-19T14:33:41Z",
+      "notes": "orchestrator completed cold_review"
+    },
+    {
+      "stage": "blind_seal_complete",
+      "recorded_at": "2026-09-19T15:21:54Z",
+      "notes": "orchestrator completed blind_seal"
+    },
+    {
+      "stage": "final_review_complete",
+      "recorded_at": "2026-09-19T15:48:08Z",
+      "notes": "orchestrator completed final_review"
+    },
+    {
+      "stage": "completed",
+      "recorded_at": "2026-09-19T15:48:53Z",
+      "notes": "orchestrator completed export"
+    }
+  ],
+  "stop_reason": "",
+  "open_questions": [],
+  "orchestrator": {
+    "workflow_contract_version": "workflow_improvement_v1",
+    "orchestrator_version": "run_word_v3",
+    "headword": "definite",
+    "entry_path": "entries/d/definite.md",
+    "plan_sha256": "c852fa31cbfe92a4d708172c2b5b0d8c1db8e43973aa02ef8bc63eeca2e3dc65",
+    "stages": [
+      {
+        "name": "guard_start",
+        "executor": "orchestrator",
+        "specification_files": [
+          "scripts/entry_workflow_guard.py"
+        ],
+        "input_scope": [
+          "headword",
+          "queue row",
+          "git branch",
+          "base SHA"
+        ],
+        "output_paths": [
+          "audits/workflow_runs/definite/{run_id}.json"
+        ],
+        "guard_checkpoints": [
+          "preflight",
+          "preflight_pushed"
+        ],
+        "context_mode": "coordinator",
+        "reviewer_mode": null,
+        "input_packet_path": null,
+        "process_improvement_input_path": null,
+        "instruction_bytes": 0
+      },
+      {
+        "name": "generation",
+        "executor": "llm",
+        "specification_files": [
+          "prompts/entry_spec_v5.md",
+          "prompts/process_improvement_learning_delta_v2.md"
+        ],
+        "input_scope": [
+          "headword",
+          "entry specification",
+          "selected process-improvement input snapshot"
+        ],
+        "output_paths": [
+          "entries/d/definite.md",
+          "audits/runs/d/definite/{run_id}/generation.json"
+        ],
+        "guard_checkpoints": [
+          "draft_saved"
+        ],
+        "context_mode": "coordinator",
+        "reviewer_mode": null,
+        "input_packet_path": null,
+        "process_improvement_input_path": "audits/runs/d/definite/{run_id}/process_improvement/generator-generation.snapshot.md",
+        "instruction_bytes": 53450
+      },
+      {
+        "name": "mechanical_validator",
+        "executor": "python",
+        "specification_files": [
+          "scripts/validate_entry.py"
+        ],
+        "input_scope": [
+          "entry including front matter"
+        ],
+        "output_paths": [
+          "audits/runs/d/definite/{run_id}/validator.json"
+        ],
+        "guard_checkpoints": [],
+        "context_mode": "coordinator",
+        "reviewer_mode": null,
+        "input_packet_path": null,
+        "process_improvement_input_path": null,
+        "instruction_bytes": 0
+      },
+      {
+        "name": "checker_passes",
+        "executor": "router",
+        "specification_files": [
+          "prompts/check_router_v6.md"
+        ],
+        "input_scope": [
+          "router-selected entry sections",
+          "frame-relation antonym-axis masked stage 1 before full-sense adjudication",
+          "example-attribution masked stage 1 before ownership alignment",
+          "source inventory for evidence pass",
+          "machine validator findings"
+        ],
+        "output_paths": [
+          "audits/runs/d/definite/{run_id}/source_inventory.json",
+          "audits/runs/d/definite/{run_id}/check_passes/",
+          "audits/runs/d/definite/{run_id}/pass_findings.json"
+        ],
+        "guard_checkpoints": [
+          "source_inventory_complete",
+          "normal_review_complete"
+        ],
+        "context_mode": "fresh_normal_context",
+        "reviewer_mode": "handoff",
+        "input_packet_path": "audits/runs/d/definite/{run_id}/handoff/checker_passes.request.md",
+        "process_improvement_input_path": null,
+        "instruction_bytes": 0
+      },
+      {
+        "name": "cold_review",
+        "executor": "independent_llm",
+        "specification_files": [
+          "prompts/cold_review_prompt_v1.md"
+        ],
+        "input_scope": [
+          "entry body without front matter"
+        ],
+        "output_paths": [
+          "audits/runs/d/definite/{run_id}/cold_review.json"
+        ],
+        "guard_checkpoints": [
+          "cold_review_complete"
+        ],
+        "context_mode": "context_free_cold",
+        "reviewer_mode": "handoff",
+        "input_packet_path": "audits/runs/d/definite/{run_id}/handoff/cold_review.request.md",
+        "process_improvement_input_path": null,
+        "instruction_bytes": 1759
+      },
+      {
+        "name": "pre_blind_resolution",
+        "executor": "llm",
+        "specification_files": [
+          "prompts/pre_blind_resolution_v1.md",
+          "prompts/process_improvement_learning_delta_v2.md"
+        ],
+        "input_scope": [
+          "fixed draft",
+          "checker findings",
+          "cold-review findings",
+          "source inventory"
+        ],
+        "output_paths": [
+          "audits/runs/d/definite/{run_id}/pre_blind_resolution.json",
+          "audits/runs/d/definite/{run_id}/pre_blind_revision.json"
+        ],
+        "guard_checkpoints": [],
+        "context_mode": "pre_blind_resolution_context",
+        "reviewer_mode": null,
+        "input_packet_path": null,
+        "process_improvement_input_path": "audits/runs/d/definite/{run_id}/process_improvement/coordinator-pre_blind_resolution.snapshot.md",
+        "instruction_bytes": 5567
+      },
+      {
+        "name": "checker_recheck",
+        "executor": "router",
+        "specification_files": [
+          "scripts/workflow_revision.py",
+          "prompts/check_router_v6.md"
+        ],
+        "input_scope": [
+          "pre-blind before/after bodies",
+          "initial checker requests and valid outputs",
+          "unchanged source-first artifact"
+        ],
+        "output_paths": [
+          "audits/runs/d/definite/{run_id}/checker_recheck_manifest.json"
+        ],
+        "guard_checkpoints": [],
+        "context_mode": "deterministic_impact_scope",
+        "reviewer_mode": "handoff",
+        "input_packet_path": "audits/runs/d/definite/{run_id}/handoff/checker_passes.request.md",
+        "process_improvement_input_path": null,
+        "instruction_bytes": 0
+      },
+      {
+        "name": "final_blind",
+        "executor": "independent_llm",
+        "specification_files": [
+          "prompts/final_blind_prompt_v2.md"
+        ],
+        "input_scope": [
+          "post-pre-blind-resolution entry body only"
+        ],
+        "output_paths": [
+          "audits/runs/d/definite/{run_id}/final_blind.json"
+        ],
+        "guard_checkpoints": [],
+        "context_mode": "context_free_final_blind",
+        "reviewer_mode": "handoff",
+        "input_packet_path": "audits/runs/d/definite/{run_id}/handoff/final_blind.request.md",
+        "process_improvement_input_path": null,
+        "instruction_bytes": 3580
+      },
+      {
+        "name": "blind_seal",
+        "executor": "python",
+        "specification_files": [
+          "scripts/generate_audit_manifest.py"
+        ],
+        "input_scope": [
+          "final blind raw JSON",
+          "entry body hash"
+        ],
+        "output_paths": [
+          "audits/runs/d/definite/{run_id}/blind_seal.json"
+        ],
+        "guard_checkpoints": [
+          "blind_seal_complete"
+        ],
+        "context_mode": "coordinator",
+        "reviewer_mode": null,
+        "input_packet_path": null,
+        "process_improvement_input_path": null,
+        "instruction_bytes": 0
+      },
+      {
+        "name": "post_blind_resolution",
+        "executor": "llm",
+        "specification_files": [
+          "prompts/post_blind_resolution_v1.md",
+          "prompts/process_improvement_learning_delta_v2.md"
+        ],
+        "input_scope": [
+          "latest entry body",
+          "sealed final-blind findings only",
+          "source inventory"
+        ],
+        "output_paths": [
+          "audits/runs/d/definite/{run_id}/post_blind_resolution.json",
+          "audits/runs/d/definite/{run_id}/post_blind_verification.json",
+          "audits/runs/d/definite/{run_id}/resolutions.json"
+        ],
+        "guard_checkpoints": [],
+        "context_mode": "post_blind_resolution_context",
+        "reviewer_mode": null,
+        "input_packet_path": null,
+        "process_improvement_input_path": "audits/runs/d/definite/{run_id}/process_improvement/coordinator-post_blind_resolution.snapshot.md",
+        "instruction_bytes": 5411
+      },
+      {
+        "name": "final_review",
+        "executor": "independent_llm",
+        "specification_files": [
+          "prompts/final_review_spec_v3.md"
+        ],
+        "input_scope": [
+          "latest entry body",
+          "sealed final-blind output",
+          "pre- and post-blind resolution records",
+          "checker recheck/reuse manifest",
+          "targeted adjudications for concrete unresolved issues"
+        ],
+        "output_paths": [
+          "audits/runs/d/definite/{run_id}/final_review.json",
+          "audits/d/definite.json"
+        ],
+        "guard_checkpoints": [
+          "final_review_complete"
+        ],
+        "context_mode": "final_reconciliation_context",
+        "reviewer_mode": "handoff",
+        "input_packet_path": "audits/runs/d/definite/{run_id}/handoff/final_review.request.md",
+        "process_improvement_input_path": null,
+        "instruction_bytes": 4783
+      },
+      {
+        "name": "status_update",
+        "executor": "python",
+        "specification_files": [
+          "scripts/run_word.py"
+        ],
+        "input_scope": [
+          "final decision",
+          "entry front matter",
+          "queue row"
+        ],
+        "output_paths": [
+          "entries/d/definite.md",
+          "queue/words.csv",
+          "audits/runs/d/definite/{run_id}/status_update.json"
+        ],
+        "guard_checkpoints": [],
+        "context_mode": "coordinator",
+        "reviewer_mode": null,
+        "input_packet_path": null,
+        "process_improvement_input_path": null,
+        "instruction_bytes": 0
+      },
+      {
+        "name": "export",
+        "executor": "python",
+        "specification_files": [
+          "scripts/export_all_markdown.py",
+          "scripts/export_index.py"
+        ],
+        "input_scope": [
+          "checked/final entries",
+          "queue"
+        ],
+        "output_paths": [
+          "exports/dictionary_all.md",
+          "exports/dictionary_index.csv"
+        ],
+        "guard_checkpoints": [
+          "completed"
+        ],
+        "context_mode": "coordinator",
+        "reviewer_mode": null,
+        "input_packet_path": null,
+        "process_improvement_input_path": null,
+        "instruction_bytes": 0
+      }
+    ],
+    "checker_passes": [
+      {
+        "id": "translation",
+        "specification": "prompts/check_pass_translation_v6.md",
+        "taxonomy_ids": [
+          "example_translation_alignment",
+          "semantic_direction_reversal"
+        ],
+        "input_sections": [
+          "definitions",
+          "collocations_examples",
+          "lexical_relations"
+        ],
+        "output_path": "audits/runs/d/definite/{run_id}/check_passes/translation.json",
+        "instruction_bytes": 2402,
+        "reviewer_mode": "handoff",
+        "input_packet_path": "audits/runs/d/definite/{run_id}/check_passes/translation.request.json"
+      },
+      {
+        "id": "sense-structure",
+        "specification": "prompts/check_pass_sense_structure_v6.md",
+        "taxonomy_ids": [
+          "sense_boundary_overlap",
+          "cross_section_internal_contradiction",
+          "compound_component_generalization"
+        ],
+        "input_sections": [
+          "core_image",
+          "sense_structure",
+          "usage_notes",
+          "word_formation"
+        ],
+        "output_path": "audits/runs/d/definite/{run_id}/check_passes/sense-structure.json",
+        "instruction_bytes": 3031,
+        "reviewer_mode": "handoff",
+        "input_packet_path": "audits/runs/d/definite/{run_id}/check_passes/sense-structure.request.json"
+      },
+      {
+        "id": "frame-relation",
+        "specification": "prompts/check_pass_frame_relation_v7.md",
+        "taxonomy_ids": [
+          "argument_slot_role_mismatch",
+          "lexical_relation_mislabel"
+        ],
+        "input_sections": [
+          "sense_structure",
+          "frames",
+          "collocations_examples",
+          "lexical_relations"
+        ],
+        "output_path": "audits/runs/d/definite/{run_id}/check_passes/frame-relation.json",
+        "instruction_bytes": 8294,
+        "reviewer_mode": "handoff",
+        "input_packet_path": "audits/runs/d/definite/{run_id}/check_passes/frame-relation.request.json",
+        "stage1_output_path": "audits/runs/d/definite/{run_id}/check_passes/frame-relation.antonym-axis.blind-record.json",
+        "stage2_request_path": "audits/runs/d/definite/{run_id}/check_passes/frame-relation.antonym-axis.stage2.request.json",
+        "stage2_output_path": "audits/runs/d/definite/{run_id}/check_passes/frame-relation.antonym-axis.adjudication-record.json",
+        "alignment_key_path": "audits/runs/d/definite/{run_id}/check_passes/frame-relation.antonym-axis.alignment-key.json"
+      },
+      {
+        "id": "example-attribution",
+        "specification": "prompts/check_pass_example_attribution_v6.md",
+        "taxonomy_ids": [
+          "example_sense_attribution_mismatch"
+        ],
+        "input_sections": [
+          "sense_structure",
+          "collocations_examples"
+        ],
+        "output_path": "audits/runs/d/definite/{run_id}/check_passes/example-attribution.json",
+        "instruction_bytes": 5552,
+        "reviewer_mode": "handoff",
+        "input_packet_path": "audits/runs/d/definite/{run_id}/check_passes/example-attribution.request.json",
+        "stage1_output_path": "audits/runs/d/definite/{run_id}/check_passes/example-attribution.blind-record.json",
+        "alignment_key_path": "audits/runs/d/definite/{run_id}/check_passes/example-attribution.alignment-key.json"
+      },
+      {
+        "id": "qualification",
+        "specification": "prompts/check_pass_qualification_v6.md",
+        "taxonomy_ids": [
+          "regional_qualification",
+          "absolute_scope_counterexample",
+          "technical_terminology_conventionality"
+        ],
+        "input_sections": [
+          "etymology",
+          "word_formation",
+          "sense_structure",
+          "frequency_register",
+          "usage_notes",
+          "collocations_examples"
+        ],
+        "output_path": "audits/runs/d/definite/{run_id}/check_passes/qualification.json",
+        "instruction_bytes": 2876,
+        "reviewer_mode": "handoff",
+        "input_packet_path": "audits/runs/d/definite/{run_id}/check_passes/qualification.request.json"
+      },
+      {
+        "id": "pronunciation",
+        "specification": "prompts/check_pass_pronunciation_v6.md",
+        "taxonomy_ids": [
+          "pronunciation_symbol_explanation"
+        ],
+        "input_sections": [
+          "pronunciation"
+        ],
+        "output_path": "audits/runs/d/definite/{run_id}/check_passes/pronunciation.json",
+        "instruction_bytes": 1815,
+        "reviewer_mode": "handoff",
+        "input_packet_path": "audits/runs/d/definite/{run_id}/check_passes/pronunciation.request.json"
+      },
+      {
+        "id": "evidence",
+        "specification": "prompts/check_pass_evidence_v7.md",
+        "taxonomy_ids": [
+          "evidence_claim_mismatch"
+        ],
+        "input_sections": [
+          "pronunciation",
+          "etymology",
+          "word_formation",
+          "core_image",
+          "sense_structure",
+          "frequency_register",
+          "frames",
+          "collocations_examples",
+          "usage_notes",
+          "lexical_relations"
+        ],
+        "output_path": "audits/runs/d/definite/{run_id}/check_passes/evidence.json",
+        "instruction_bytes": 5016,
+        "reviewer_mode": "handoff",
+        "input_packet_path": "audits/runs/d/definite/{run_id}/check_passes/evidence.request.json"
+      }
+    ],
+    "reviewer_mode": "handoff",
+    "checker_execution_protocol": "parallel_subagents_v2",
+    "review_provenance_protocol": "preserved_handoff_v1",
+    "review_response_protocol": "self_attested_handoff_v1",
+    "checker_subagent_count": 7
+  },
+  "process_improvement": {
+    "schema_version": "workflow_process_improvement_v2",
+    "knowledge_epoch": "pi2-2026-09-06",
+    "features": [
+      "adjective",
+      "botanical_usage",
+      "certainty_and_settlement",
+      "clarity_and_noticeability",
+      "etymology",
+      "grammatical_definiteness",
+      "related_words",
+      "specificity_and_limits"
+    ],
+    "snapshots": [
+      {
+        "schema_version": "process_improvement_input_v2",
+        "knowledge_epoch": "pi2-2026-09-06",
+        "recipient": "generator",
+        "phase": "generation",
+        "features": [
+          "workflow:standard"
+        ],
+        "limits": {
+          "max_items": 8,
+          "max_bytes": 8192
+        },
+        "selected": [],
+        "skipped": [],
+        "input_bytes": 336,
+        "input_sha256": "3577866af783f1a8898ee817aec1181eeb39a0b09131c1bd175f236a591d8d36",
+        "run_id": "20260919T135234Z-e94458a7",
+        "created_at": "2026-09-19T13:52:34Z",
+        "snapshot_path": "audits/runs/d/definite/20260919T135234Z-e94458a7/process_improvement/generator-generation.snapshot.md",
+        "machine_duration_seconds": 0.000479,
+        "additional_llm_calls": 0,
+        "stage": "generation"
+      },
+      {
+        "schema_version": "process_improvement_input_v2",
+        "knowledge_epoch": "pi2-2026-09-06",
+        "recipient": "coordinator",
+        "phase": "pre_blind_resolution",
+        "features": [
+          "adjective",
+          "botanical_usage",
+          "certainty_and_settlement",
+          "clarity_and_noticeability",
+          "etymology",
+          "grammatical_definiteness",
+          "related_words",
+          "specificity_and_limits"
+        ],
+        "limits": {
+          "max_items": 8,
+          "max_bytes": 8192
+        },
+        "selected": [],
+        "skipped": [],
+        "input_bytes": 348,
+        "input_sha256": "15f14c2d725291b96b5dbe2db56cbb7491829119f31878ea570d69fa5ff91e14",
+        "run_id": "20260919T135234Z-e94458a7",
+        "created_at": "2026-09-19T14:33:41Z",
+        "snapshot_path": "audits/runs/d/definite/20260919T135234Z-e94458a7/process_improvement/coordinator-pre_blind_resolution.snapshot.md",
+        "machine_duration_seconds": 0.000573,
+        "additional_llm_calls": 0,
+        "stage": "pre_blind_resolution"
+      },
+      {
+        "schema_version": "process_improvement_input_v2",
+        "knowledge_epoch": "pi2-2026-09-06",
+        "recipient": "coordinator",
+        "phase": "post_blind_resolution",
+        "features": [
+          "adjective",
+          "botanical_usage",
+          "certainty_and_settlement",
+          "clarity_and_noticeability",
+          "etymology",
+          "grammatical_definiteness",
+          "related_words",
+          "specificity_and_limits"
+        ],
+        "limits": {
+          "max_items": 8,
+          "max_bytes": 8192
+        },
+        "selected": [],
+        "skipped": [],
+        "input_bytes": 349,
+        "input_sha256": "1512ab0b32a27e42b076070e6d63023cb8e0948f73d7e3c363cd3ead053159a9",
+        "run_id": "20260919T135234Z-e94458a7",
+        "created_at": "2026-09-19T15:21:54Z",
+        "snapshot_path": "audits/runs/d/definite/20260919T135234Z-e94458a7/process_improvement/coordinator-post_blind_resolution.snapshot.md",
+        "machine_duration_seconds": 0.000597,
+        "additional_llm_calls": 0,
+        "stage": "post_blind_resolution"
+      }
+    ],
+    "processing": {
+      "generation": {
+        "status": "no_applicable",
+        "source_refs": [
+          "audits/runs/d/definite/20260919T135234Z-e94458a7/generation.json"
+        ],
+        "receipt_event_id": "workflow:20260919T135234Z-e94458a7:generation:23bed50f2ed2",
+        "recorded_at": "2026-09-19T14:04:42Z"
+      },
+      "pre_blind_resolution": {
+        "status": "pending",
+        "source_refs": [
+          "audits/runs/d/definite/20260919T135234Z-e94458a7/pre_blind_resolution.json",
+          "audits/runs/d/definite/20260919T135234Z-e94458a7/pre_blind_revision.json"
+        ],
+        "reason": "saved stage output has no coordinator learning_delta decision",
+        "recorded_at": "2026-09-19T15:09:08Z"
+      },
+      "post_blind_resolution": {
+        "status": "no_applicable",
+        "source_refs": [
+          "audits/runs/d/definite/20260919T135234Z-e94458a7/post_blind_resolution.json"
+        ],
+        "receipt_event_id": "workflow:20260919T135234Z-e94458a7:post_blind_resolution:e33350b45aa9",
+        "recorded_at": "2026-09-19T15:24:43Z"
+      }
+    },
+    "pending_events": [
+      {
+        "event_id": "pending:20260919T135234Z-e94458a7:checker_passes:2b20441aab1e",
+        "knowledge_epoch": "pi2-2026-09-06",
+        "kind": "review_failure",
+        "stage": "checker_passes",
+        "fact": "repairable preflight rejection: B1_term_not_in_example: attribution ex-913e366b7fe9 has no discriminating term present in its example or translation; B2_rationale_not_grounded: attribution ex-913e366b7fe9 rationale contains neither an exact quote nor a valid discriminating term",
+        "status": "pending",
+        "recorded_at": "2026-09-19T14:28:27Z"
+      },
+      {
+        "event_id": "pending:20260919T135234Z-e94458a7:cold_review:0de0508492d5",
+        "knowledge_epoch": "pi2-2026-09-06",
+        "kind": "review_failure",
+        "stage": "cold_review",
+        "fact": "repairable preflight rejection: B2_rationale_not_grounded: cold review findings item CR-definite-002 rationale does not contain a target exact quote; B2_rationale_not_grounded: cold review findings item CR-definite-003 rationale does not contain a target exact quote",
+        "status": "pending",
+        "recorded_at": "2026-09-19T14:33:04Z"
+      }
+    ],
+    "selection_errors": []
+  },
+  "metrics": {
+    "schema_version": "workflow_cost_v1",
+    "total_cycles": 1,
+    "total_revisions": 1,
+    "total_duration_seconds": 6979.011212,
+    "completed_at": "2026-09-19T15:48:53Z",
+    "stages": [
+      {
+        "id": "guard_start",
+        "instruction_bytes": 0,
+        "input_bytes": 0,
+        "duration_seconds": 0.0,
+        "defects_detected": 0,
+        "revision_count": 0,
+        "completed": true
+      },
+      {
+        "id": "generation",
+        "instruction_bytes": 53450,
+        "input_bytes": 53450,
+        "duration_seconds": 728.922397,
+        "defects_detected": 0,
+        "revision_count": 0,
+        "completed": true,
+        "duration_source": "measured_wall"
+      },
+      {
+        "id": "mechanical_validator",
+        "instruction_bytes": 0,
+        "input_bytes": 35087,
+        "duration_seconds": 26.112183,
+        "defects_detected": 0,
+        "revision_count": 0,
+        "completed": true,
+        "duration_source": "measured_wall"
+      },
+      {
+        "id": "checker_passes",
+        "instruction_bytes": 0,
+        "input_bytes": 0,
+        "duration_seconds": 1550.769223,
+        "defects_detected": 0,
+        "revision_count": 0,
+        "completed": true,
+        "duration_source": "measured_wall"
+      },
+      {
+        "id": "cold_review",
+        "instruction_bytes": 1759,
+        "input_bytes": 17973,
+        "duration_seconds": 163.413727,
+        "defects_detected": 3,
+        "revision_count": 0,
+        "completed": true,
+        "duration_source": "measured_wall"
+      },
+      {
+        "id": "pre_blind_resolution",
+        "instruction_bytes": 5567,
+        "input_bytes": 0,
+        "duration_seconds": 0.0,
+        "defects_detected": 3,
+        "revision_count": 1,
+        "completed": true,
+        "duration_source": "reported"
+      },
+      {
+        "id": "checker_recheck",
+        "instruction_bytes": 0,
+        "input_bytes": 0,
+        "duration_seconds": 0.0,
+        "defects_detected": 0,
+        "revision_count": 0,
+        "completed": true,
+        "duration_source": "reported"
+      },
+      {
+        "id": "final_blind",
+        "instruction_bytes": 3580,
+        "input_bytes": 0,
+        "duration_seconds": 0.0,
+        "defects_detected": 0,
+        "revision_count": 0,
+        "completed": true,
+        "duration_source": "reported"
+      },
+      {
+        "id": "blind_seal",
+        "instruction_bytes": 0,
+        "input_bytes": 0,
+        "duration_seconds": 0.0,
+        "defects_detected": 0,
+        "revision_count": 0,
+        "completed": true,
+        "duration_source": "reported"
+      },
+      {
+        "id": "post_blind_resolution",
+        "instruction_bytes": 5411,
+        "input_bytes": 0,
+        "duration_seconds": 0.0,
+        "defects_detected": 0,
+        "revision_count": 0,
+        "completed": true,
+        "duration_source": "reported"
+      },
+      {
+        "id": "final_review",
+        "instruction_bytes": 4783,
+        "input_bytes": 0,
+        "duration_seconds": 1405.214467,
+        "defects_detected": 0,
+        "revision_count": 0,
+        "completed": true,
+        "duration_source": "measured_wall"
+      },
+      {
+        "id": "status_update",
+        "instruction_bytes": 0,
+        "input_bytes": 0,
+        "duration_seconds": 34.432752,
+        "defects_detected": 0,
+        "revision_count": 0,
+        "completed": true,
+        "duration_source": "measured_wall"
+      },
+      {
+        "id": "export",
+        "instruction_bytes": 0,
+        "input_bytes": 0,
+        "duration_seconds": 11.011212,
+        "defects_detected": 0,
+        "revision_count": 0,
+        "completed": true,
+        "duration_source": "measured_wall"
+      }
+    ],
+    "checker_passes": [
+      {
+        "id": "translation",
+        "instruction_bytes": 2402,
+        "input_bytes": 0,
+        "duration_seconds": 0.0,
+        "defects_detected": 0,
+        "completed": true
+      },
+      {
+        "id": "sense-structure",
+        "instruction_bytes": 3031,
+        "input_bytes": 0,
+        "duration_seconds": 0.0,
+        "defects_detected": 0,
+        "completed": true
+      },
+      {
+        "id": "frame-relation",
+        "instruction_bytes": 8294,
+        "input_bytes": 0,
+        "duration_seconds": 0.0,
+        "defects_detected": 0,
+        "completed": true
+      },
+      {
+        "id": "example-attribution",
+        "instruction_bytes": 5552,
+        "input_bytes": 0,
+        "duration_seconds": 0.0,
+        "defects_detected": 0,
+        "completed": true
+      },
+      {
+        "id": "qualification",
+        "instruction_bytes": 2876,
+        "input_bytes": 0,
+        "duration_seconds": 0.0,
+        "defects_detected": 0,
+        "completed": true
+      },
+      {
+        "id": "pronunciation",
+        "instruction_bytes": 1815,
+        "input_bytes": 0,
+        "duration_seconds": 0.0,
+        "defects_detected": 0,
+        "completed": true
+      },
+      {
+        "id": "evidence",
+        "instruction_bytes": 5016,
+        "input_bytes": 0,
+        "duration_seconds": 0.0,
+        "defects_detected": 0,
+        "completed": true
+      }
+    ],
+    "process_rules": [],
+    "process_improvement": {
+      "selection_input_bytes": 1033,
+      "machine_duration_seconds": 0.001649,
+      "additional_llm_calls": 0
+    }
+  },
+  "orchestrator_state": {
+    "next_stage_index": 13,
+    "completed_stages": [
+      "guard_start",
+      "generation",
+      "mechanical_validator",
+      "checker_passes",
+      "cold_review",
+      "pre_blind_resolution",
+      "checker_recheck",
+      "final_blind",
+      "blind_seal",
+      "post_blind_resolution",
+      "final_review",
+      "status_update",
+      "export"
+    ],
+    "stage_outputs": {
+      "generation": [
+        "entries/d/definite.md",
+        "audits/runs/d/definite/20260919T135234Z-e94458a7/generation.json"
+      ],
+      "mechanical_validator": [
+        "audits/runs/d/definite/20260919T135234Z-e94458a7/validator.json"
+      ],
+      "checker_passes": [
+        "audits/runs/d/definite/20260919T135234Z-e94458a7/source_inventory.json",
+        "audits/runs/d/definite/20260919T135234Z-e94458a7/check_passes/",
+        "audits/runs/d/definite/20260919T135234Z-e94458a7/pass_findings.json"
+      ],
+      "cold_review": [
+        "audits/runs/d/definite/20260919T135234Z-e94458a7/cold_review.json"
+      ],
+      "pre_blind_resolution": [
+        "audits/runs/d/definite/20260919T135234Z-e94458a7/pre_blind_resolution.json",
+        "audits/runs/d/definite/20260919T135234Z-e94458a7/pre_blind_revision.json"
+      ],
+      "checker_recheck": [
+        "audits/runs/d/definite/20260919T135234Z-e94458a7/checker_recheck_manifest.json"
+      ],
+      "final_blind": [
+        "audits/runs/d/definite/20260919T135234Z-e94458a7/final_blind.json"
+      ],
+      "blind_seal": [
+        "audits/runs/d/definite/20260919T135234Z-e94458a7/blind_seal.json"
+      ],
+      "post_blind_resolution": [
+        "audits/runs/d/definite/20260919T135234Z-e94458a7/post_blind_resolution.json",
+        "audits/runs/d/definite/20260919T135234Z-e94458a7/post_blind_verification.json",
+        "audits/runs/d/definite/20260919T135234Z-e94458a7/resolutions.json"
+      ],
+      "final_review": [
+        "audits/runs/d/definite/20260919T135234Z-e94458a7/final_review.json",
+        "audits/d/definite.json"
+      ],
+      "status_update": [
+        "entries/d/definite.md",
+        "queue/words.csv",
+        "audits/runs/d/definite/20260919T135234Z-e94458a7/status_update.json"
+      ],
+      "export": [
+        "exports/dictionary_all.md",
+        "exports/dictionary_index.csv"
+      ]
+    },
+    "stage_started_at": "2026-09-19T15:48:53Z"
+  },
+  "publication": {
+    "mode": "connector"
+  },
+  "review_preflight": "review_preflight_v1",
+  "time_warnings": {
+    "elapsed_target_exceeded": {
+      "first_observed_at": "2026-09-19T15:21:54Z",
+      "target_at": "2026-09-19T14:52:34Z",
+      "stage": "cold_review_complete",
+      "action": "record the delay cause and resume the same run; do not restart reviews"
+    }
+  },
+  "review_preflight_failures": {
+    "count": 2,
+    "history": [
+      {
+        "stage": "checker_passes",
+        "error": "B1_term_not_in_example: attribution ex-913e366b7fe9 has no discriminating term present in its example or translation; B2_rationale_not_grounded: attribution ex-913e366b7fe9 rationale contains neither an exact quote nor a valid discriminating term",
+        "recorded_at": "2026-09-19T14:28:27.206564+00:00",
+        "fingerprint": "fe9c91412ada632be51fd446e09adceb1084d98e4ee9bf74aac9890a142712f1",
+        "classification": "repairable_validation"
+      },
+      {
+        "stage": "cold_review",
+        "error": "B2_rationale_not_grounded: cold review findings item CR-definite-002 rationale does not contain a target exact quote; B2_rationale_not_grounded: cold review findings item CR-definite-003 rationale does not contain a target exact quote",
+        "recorded_at": "2026-09-19T14:33:04.145938+00:00",
+        "fingerprint": "b47fe27fdd8c9b4922467be1215660b98fa59376fea7cfb6b49f2aeea4a1ad32",
+        "classification": "repairable_validation"
+      }
+    ]
+  },
+  "review_correction": {
+    "stage": "cold_review",
+    "error": "B2_rationale_not_grounded: cold review findings item CR-definite-002 rationale does not contain a target exact quote; B2_rationale_not_grounded: cold review findings item CR-definite-003 rationale does not contain a target exact quote",
+    "recorded_at": "2026-09-19T14:33:04.145938+00:00",
+    "fingerprint": "b47fe27fdd8c9b4922467be1215660b98fa59376fea7cfb6b49f2aeea4a1ad32",
+    "classification": "repairable_validation",
+    "status": "resolved",
+    "resolved_at": "2026-09-19T14:33:33.412178+00:00"
+  },
+  "review_preflight_policy": "repairable_review_preflight_v2"
+}

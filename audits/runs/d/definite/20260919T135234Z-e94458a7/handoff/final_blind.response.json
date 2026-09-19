@@ -1,0 +1,189 @@
+{
+  "schema_version": "final_blind_v2",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "reviewer-definite-final-blind-20260919"
+  },
+  "provisional_decision": "pass",
+  "summary": "本文だけを入力に、主要5語義と語形成上の関連語を独立に棚卸しした。各語義の境界、専門用法、文法用法、例文の方向を確認し、blocking finding は認めなかった。",
+  "independent_candidates": [
+    {
+      "id": "IC-definite-001",
+      "surface_form": "definite",
+      "frame": "a definite answer/decision/plan/date/agreement; be definite about 〈decision/position〉",
+      "meaning": "答え・決定・計画・日付・合意などが確定している",
+      "disposition": "included",
+      "rationale": "surface_form definite の frame a definite answer/decision/plan/date/agreement は、meaning 答え・決定・計画・日付・合意などが確定しているという決定・内容の確定を表す。",
+      "semantic_assertions": [
+        {
+          "id": "IC-definite-001-SA-001",
+          "statement": "決定・計画・日付・合意の内容が現時点で定まり、仮案や未決定状態ではない。",
+          "polarity": "must_hold",
+          "scope": "sense 1 certainty and settlement"
+        },
+        {
+          "id": "IC-definite-001-SA-002",
+          "statement": "definite は今後絶対に変更不能であることを必須条件にしない。",
+          "polarity": "must_not_hold",
+          "scope": "sense 1 changeability boundary"
+        }
+      ]
+    },
+    {
+      "id": "IC-definite-002",
+      "surface_form": "definite",
+      "frame": "a definite improvement/change/difference/effect/sign/advantage/possibility",
+      "meaning": "変化・差・効果・兆候・利点などが明らかに認められる",
+      "disposition": "included",
+      "rationale": "surface_form definite の frame a definite improvement/change/difference/effect/sign/advantage/possibility は、meaning 変化・差・効果・兆候・利点などが明らかに認められるという観察・評価の用法を表す。",
+      "semantic_assertions": [
+        {
+          "id": "IC-definite-002-SA-001",
+          "statement": "対象の変化・差・効果・兆候などが観察や比較で明瞭に認められる。",
+          "polarity": "must_hold",
+          "scope": "sense 2 observable clarity"
+        },
+        {
+          "id": "IC-definite-002-SA-002",
+          "statement": "科学的因果関係の完全な証明や、可能性の確実な実現を意味しない。",
+          "polarity": "must_not_hold",
+          "scope": "sense 2 evidence and possibility boundary"
+        }
+      ]
+    },
+    {
+      "id": "IC-definite-003",
+      "surface_form": "definite",
+      "frame": "a definite amount/number/period; within definite limits; definite information; a definite shape/form; a definite integral",
+      "meaning": "数量・期間・範囲・内容・形などが具体的に定まっている",
+      "disposition": "included",
+      "rationale": "surface_form definite の frame a definite amount/number/period; within definite limits; definite information; a definite shape/form; a definite integral は、meaning 数量・期間・範囲・内容・形などが具体的に定まっているという限定・境界の用法を表す。",
+      "semantic_assertions": [
+        {
+          "id": "IC-definite-003-SA-001",
+          "statement": "対象の数量・期間・範囲・内容・形または積分区間に明確な境界や指定がある。",
+          "polarity": "must_hold",
+          "scope": "sense 3 specificity and limits"
+        },
+        {
+          "id": "IC-definite-003-SA-002",
+          "statement": "この用法を文法上の定性、または常に聞き手が数値を知っていることへ一般化しない。",
+          "polarity": "must_not_hold",
+          "scope": "sense 3 grammar and knowability boundary"
+        }
+      ]
+    },
+    {
+      "id": "IC-definite-004",
+      "surface_form": "definite",
+      "frame": "the definite article; a definite noun phrase; definite reference; a definite description; a definite referent",
+      "meaning": "文法上、名詞句の指示対象が特定可能である",
+      "disposition": "included",
+      "rationale": "surface_form definite の frame the definite article; a definite noun phrase; definite reference; a definite description; a definite referent は、meaning 文法上、名詞句の指示対象が特定可能であるという定性の用法を表す。",
+      "semantic_assertions": [
+        {
+          "id": "IC-definite-004-SA-001",
+          "statement": "既出・状況上の唯一性・修飾語・共有知識などにより指示対象が同定可能である。",
+          "polarity": "must_hold",
+          "scope": "sense 4 grammatical definiteness"
+        },
+        {
+          "id": "IC-definite-004-SA-002",
+          "statement": "definite を単数、唯一の世界内個体、または必ず先行言及済みであることと同一視しない。",
+          "polarity": "must_not_hold",
+          "scope": "sense 4 definiteness boundary"
+        }
+      ]
+    },
+    {
+      "id": "IC-definite-005",
+      "surface_form": "definite",
+      "frame": "definite stamens; a definite inflorescence; definite growth",
+      "meaning": "植物学で器官数や成長の終点が定まった有限・定限の",
+      "disposition": "included",
+      "rationale": "surface_form definite の frame definite stamens; a definite inflorescence; definite growth は、meaning 植物学で器官数や成長の終点が定まった有限・定限のという専門用法を表す。",
+      "semantic_assertions": [
+        {
+          "id": "IC-definite-005-SA-001",
+          "statement": "花器官の数または花序・成長の終点が固定される専門的特徴を指す。",
+          "polarity": "must_hold",
+          "scope": "sense 5 botanical usage"
+        },
+        {
+          "id": "IC-definite-005-SA-002",
+          "statement": "植物学の definite を一般英語の「明らかな」や「確実な」として解釈しない。",
+          "polarity": "must_not_hold",
+          "scope": "sense 5 register boundary"
+        }
+      ]
+    },
+    {
+      "id": "IC-definite-006",
+      "surface_form": "definitely",
+      "frame": "sentence adverb; definitely + verb/adjective",
+      "meaning": "確実に、間違いなく、はっきりと",
+      "disposition": "included",
+      "rationale": "surface_form definitely の frame sentence adverb; definitely + verb/adjective は、meaning 確実に、間違いなく、はっきりとという語形成上の関連副詞を表す。",
+      "semantic_assertions": [
+        {
+          "id": "IC-definite-006-SA-001",
+          "statement": "definitely は definite の形容詞活用形ではなく、確信を表す副詞として扱われる。",
+          "polarity": "must_hold",
+          "scope": "word formation definitely"
+        }
+      ]
+    },
+    {
+      "id": "IC-definite-007",
+      "surface_form": "definiteness",
+      "frame": "noun; grammatical definiteness of a noun phrase",
+      "meaning": "明確さ・確定性・文法上の定性",
+      "disposition": "included",
+      "rationale": "surface_form definiteness の frame noun; grammatical definiteness of a noun phrase は、meaning 明確さ・確定性・文法上の定性という語形成上の関連名詞を表す。",
+      "semantic_assertions": [
+        {
+          "id": "IC-definite-007-SA-001",
+          "statement": "definiteness は名詞句の指示対象が特定可能である性質を含む。",
+          "polarity": "must_hold",
+          "scope": "word formation definiteness"
+        }
+      ]
+    },
+    {
+      "id": "IC-definite-008",
+      "surface_form": "indefinite",
+      "frame": "related adjective; indefinite period/quantity/reference",
+      "meaning": "不確定な、境界や指示対象が定まらない",
+      "disposition": "included",
+      "rationale": "surface_form indefinite の frame related adjective; indefinite period/quantity/reference は、meaning 不確定な、境界や指示対象が定まらないという反対側の関連形を本文が明示的に扱う。",
+      "semantic_assertions": [
+        {
+          "id": "IC-definite-008-SA-001",
+          "statement": "indefinite は用法に応じて未確定・境界不明確・文法上の不定を表し、単一の一般的反意だけに固定されない。",
+          "polarity": "must_hold",
+          "scope": "word formation and lexical relation indefinite"
+        }
+      ]
+    },
+    {
+      "id": "IC-definite-009",
+      "surface_form": "definitive",
+      "frame": "related adjective; definitive decision/judgment",
+      "meaning": "決定的な、最終的な",
+      "disposition": "included",
+      "rationale": "surface_form definitive の frame related adjective; definitive decision/judgment は、meaning 決定的な、最終的なという definite より最終判断の含みが強い関連形を本文が区別して扱う。",
+      "semantic_assertions": [
+        {
+          "id": "IC-definite-009-SA-001",
+          "statement": "definitive は definite と完全な語尾違いの交換可能形ではなく、最終判断・決着の含みが強い。",
+          "polarity": "must_hold",
+          "scope": "word formation definitive"
+        }
+      ]
+    }
+  ],
+  "article_findings": []
+}
+

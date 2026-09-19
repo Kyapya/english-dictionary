@@ -1,0 +1,1595 @@
+# Independent checker handoff
+
+Stage: `checker_passes/translation`
+
+Run this request in its own independent subagent/session. The seven checker pass requests are designed to run concurrently; do not concatenate them into one prompt or reuse one subagent for multiple passes.
+
+Save exactly one JSON response as `checker_passes.translation.response.json`. The top-level JSON must include the routed `pass_id` and a `reviewer` object with `mode: "handoff"`, the actual `declared_model`, `ingested_by: "human"`, and a non-empty `agent_id`. Each checker pass must use a different agent_id.
+## Prompt
+
+# check_pass_translation_v6
+
+## 目的
+
+英文・訳文・定義における意味の保存と方向を検査する。自然な意訳は認めるが、見出し語の構文差・含意・作用関係を誤学習させる変化は認めない。
+
+## 担当タクソノミー分類
+
+- `example_translation_alignment`
+- `semantic_direction_reversal`
+
+## 検査ルール
+
+- 各例文と訳について、述語、主語・目的語・補語、行為者・経験者・対象・結果の意味役割を対応させる。
+- 肯定・否定、比較基準、程度、数量、時制、相、法、条件、因果、目的を保存する。
+- 修飾範囲、焦点、対比、情報構造、明示内容と文脈推論の境界、レジスターと話者評価を保存する。
+- コロケーションのpattern・用途・英文・訳が同じ語義、品詞、完全フレームを表すか確認する。英文が別語義でも成立するだけでは合格にしない。
+- 作用する側／される側、上位／下位、原因／結果、全体／部分、評価主体／評価対象を逆転させない。
+- 日本語訳が自然でも、英文にない必然性・意図・結果・専門的効果を追加していればfindingとする。
+- 同じ例文を異なる構文や語義の証明に使い回していないか確認する。
+- 問題が1箇所に見える場合も、同じ訳語・関係が入力section内の別箇所で再発していないか確認する。
+
+## 入力として受け取るセクション
+
+- `definitions`
+- `collocations_examples`
+- `lexical_relations`
+
+front matter、生成過程、通常チェックの過去判断、ACTIVE.mdは受け取らない。
+
+## findingの出力スキーマ
+
+```json
+{
+  "taxonomy_id": "example_translation_alignment | semantic_direction_reversal",
+  "location": {
+    "section": "router section selector",
+    "line_start": 1,
+    "line_end": 1,
+    "exact_quote": "本文からの改変していない引用"
+  },
+  "severity": "blocking | minor",
+  "rationale": "何がどの方向・範囲・強さで不一致か",
+  "evidence_link_ids": [],
+  "suggested_direction": "意味を変えずに直す方向"
+}
+```
+
+`taxonomy_id`、位置、severity、根拠を必須とする。事実・語法・例文/訳の正誤に関わるものは `blocking`、事実関係を変えない局所的な日本語調整だけを `minor` とする。
+
+
+## Input packet
+
+```json
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "translation",
+  "taxonomy_ids": [
+    "example_translation_alignment",
+    "semantic_direction_reversal"
+  ],
+  "specification": "prompts/check_pass_translation_v6.md",
+  "input_body_sha256": "6bf439cde2a5a009f8e4e4d27f7041f7af5c66dd15e9e51aaf59bfb705b46752",
+  "input_sections": {
+    "definitions": [
+      {
+        "line": 40,
+        "text": "1. 【形容詞・限定用法／叙述用法】確定した、決まった"
+      },
+      {
+        "line": 42,
+        "text": "【日本語訳・定義】答え、決定、計画、日付、合意、意図などが、曖昧な候補や一時的な案ではなく、内容として定まり、変更される可能性が低いことを表す。必ずしも今後絶対に変更できないという意味ではなく、現時点で決定・約束・判断が明確になっていることに焦点がある。  "
+      },
+      {
+        "line": 154,
+        "text": "2. 【形容詞・限定用法／叙述用法】明らかな、はっきりした"
+      },
+      {
+        "line": 156,
+        "text": "【日本語訳・定義】変化、差、効果、兆候、利点などが、観察や比較によって実際に認められるほど明瞭・顕著であることを表す。必ずしも論理的に証明済み、絶対に疑いがないという意味ではなく、話し手が変化や特徴をはっきり認識しているという評価を含むことがある。  "
+      },
+      {
+        "line": 268,
+        "text": "3. 【形容詞・限定用法】具体的な、特定の"
+      },
+      {
+        "line": 270,
+        "text": "【日本語訳・定義】数量、期間、範囲、時点、形、情報などに明確な境界や内容があり、漠然としたものではないことを表す。特定の対象を指す場合でも、文脈上その対象を識別できるという文法上の意味とは異なり、ここでは内容・範囲・条件が具体的に定まっていることに焦点がある。  "
+      },
+      {
+        "line": 384,
+        "text": "4. 【形容詞・文法用語】定の、特定できる"
+      },
+      {
+        "line": 386,
+        "text": "【日本語訳・定義】文法で、名詞句の指示対象が、既出、状況上の唯一性、修飾語、共有知識などによって聞き手・読み手に特定可能であることを表す。英語では the が definite article「定冠詞」であり、対象が必ず世界に一つしかないこと、単数であること、以前に必ず言及されたことだけを意味するわけではない。  "
+      },
+      {
+        "line": 474,
+        "text": "5. 【形容詞・植物学】有限の、定数の"
+      },
+      {
+        "line": 476,
+        "text": "【日本語訳・定義】植物学で、花器官の数が一定で、通常は20未満で花弁数の倍数になること、または花序の主軸が花で終わり成長に限りがあることを表す専門用法である。一般語の「確実な」ではなく、数や成長が定まっているという意味で、definite inflorescence は determinate／cymose inflorescence に当たる。  "
+      }
+    ],
+    "collocations_examples": [
+      {
+        "line": 40,
+        "text": "1. 【形容詞・限定用法／叙述用法】確定した、決まった"
+      },
+      {
+        "line": 50,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 52,
+        "text": "・a definite answer  "
+      },
+      {
+        "line": 53,
+        "text": "用途: 予想や曖昧な返事ではなく、決定した答えを求める。  "
+      },
+      {
+        "line": 54,
+        "text": "例: We need a definite answer by Friday, not another tentative suggestion.  "
+      },
+      {
+        "line": 55,
+        "text": "訳: 私たちは金曜日までに、また別の仮案ではなく確定した答えを必要としている。  "
+      },
+      {
+        "line": 57,
+        "text": "・a definite date for 〈event〉  "
+      },
+      {
+        "line": 58,
+        "text": "用途: 行事・開始・発売などの日付が決まっていることを表す。  "
+      },
+      {
+        "line": 59,
+        "text": "例: The organizers have not announced a definite date for the launch.  "
+      },
+      {
+        "line": 60,
+        "text": "訳: 主催者は発売の確定した日付をまだ発表していない。  "
+      },
+      {
+        "line": 62,
+        "text": "・no definite plans  "
+      },
+      {
+        "line": 63,
+        "text": "用途: 将来の予定がまだ決まっていないことを表す。  "
+      },
+      {
+        "line": 64,
+        "text": "例: I have no definite plans for the weekend yet.  "
+      },
+      {
+        "line": 65,
+        "text": "訳: 私は週末の具体的な予定をまだ決めていない。  "
+      },
+      {
+        "line": 67,
+        "text": "・anything definite about something  "
+      },
+      {
+        "line": 68,
+        "text": "用途: ある事柄について確定した情報があるかを尋ねる。  "
+      },
+      {
+        "line": 69,
+        "text": "例: Do you know anything definite about when the train will leave?  "
+      },
+      {
+        "line": 70,
+        "text": "訳: 列車がいつ出るかについて、何か確定した情報を知っていますか。  "
+      },
+      {
+        "line": 72,
+        "text": "・a definite yes/no  "
+      },
+      {
+        "line": 73,
+        "text": "用途: ためらいや条件付きではない、明確な肯定・拒否を表す。  "
+      },
+      {
+        "line": 74,
+        "text": "例: Her reply was a definite no, so we stopped asking.  "
+      },
+      {
+        "line": 75,
+        "text": "訳: 彼女の返事は明確な拒否だったので、私たちは尋ねるのをやめた。  "
+      },
+      {
+        "line": 77,
+        "text": "・be definite about 〈decision/position〉  "
+      },
+      {
+        "line": 78,
+        "text": "用途: 決定や立場を曖昧にせず、はっきり示す。  "
+      },
+      {
+        "line": 79,
+        "text": "例: Please be definite about your position before the meeting begins.  "
+      },
+      {
+        "line": 80,
+        "text": "訳: 会議が始まる前に、自分の立場を明確にしてください。  "
+      },
+      {
+        "line": 82,
+        "text": "・a definite commitment to do  "
+      },
+      {
+        "line": 83,
+        "text": "用途: ある行動を実行するという明確な確約を表す。  "
+      },
+      {
+        "line": 84,
+        "text": "例: The grant requires a definite commitment to complete the project.  "
+      },
+      {
+        "line": 85,
+        "text": "訳: その助成金には、プロジェクトを完了するという明確な確約が必要だ。  "
+      },
+      {
+        "line": 87,
+        "text": "・a definite agreement  "
+      },
+      {
+        "line": 88,
+        "text": "用途: 条件や内容が定まり、当事者間で成立した合意を表す。  "
+      },
+      {
+        "line": 89,
+        "text": "例: No definite agreement had been reached by the end of the meeting.  "
+      },
+      {
+        "line": 90,
+        "text": "訳: 会議の終了時までに、確定した合意は成立していなかった。  "
+      },
+      {
+        "line": 154,
+        "text": "2. 【形容詞・限定用法／叙述用法】明らかな、はっきりした"
+      },
+      {
+        "line": 164,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 166,
+        "text": "・a definite improvement  "
+      },
+      {
+        "line": 167,
+        "text": "用途: 状態や成績が実際に良くなったと認められることを表す。  "
+      },
+      {
+        "line": 168,
+        "text": "例: The new treatment produced a definite improvement in her symptoms.  "
+      },
+      {
+        "line": 169,
+        "text": "訳: 新しい治療によって、彼女の症状には明らかな改善が見られた。  "
+      },
+      {
+        "line": 171,
+        "text": "・a definite difference between 〈A〉 and 〈B〉  "
+      },
+      {
+        "line": 172,
+        "text": "用途: 二つの対象の違いがはっきり認められることを表す。  "
+      },
+      {
+        "line": 173,
+        "text": "例: There is a definite difference between the two versions of the report.  "
+      },
+      {
+        "line": 174,
+        "text": "訳: その報告書の二つの版には明らかな違いがある。  "
+      },
+      {
+        "line": 176,
+        "text": "・a definite sign of something  "
+      },
+      {
+        "line": 177,
+        "text": "用途: ある状態や出来事を示す、見分けやすい兆候を表す。  "
+      },
+      {
+        "line": 178,
+        "text": "例: A sudden drop in demand is a definite sign of weakening consumer confidence.  "
+      },
+      {
+        "line": 179,
+        "text": "訳: 需要の急減は、消費者信頼感が弱まっている明らかな兆候だ。  "
+      },
+      {
+        "line": 181,
+        "text": "・have a definite effect on something  "
+      },
+      {
+        "line": 182,
+        "text": "用途: 行為・条件・政策などが、結果に明確な影響を与えることを表す。  "
+      },
+      {
+        "line": 183,
+        "text": "例: Sleep has a definite effect on how well people remember new information.  "
+      },
+      {
+        "line": 184,
+        "text": "訳: 睡眠は、人が新しい情報をどれだけよく覚えるかに明確な影響を及ぼす。  "
+      },
+      {
+        "line": 186,
+        "text": "・a definite advantage  "
+      },
+      {
+        "line": 187,
+        "text": "用途: 他と比べて認めやすい具体的な利点を強調する。  "
+      },
+      {
+        "line": 188,
+        "text": "例: The shorter route offers a definite advantage during the winter.  "
+      },
+      {
+        "line": 189,
+        "text": "訳: その短い経路は冬の間、明確な利点をもたらす。  "
+      },
+      {
+        "line": 191,
+        "text": "・a definite possibility  "
+      },
+      {
+        "line": 192,
+        "text": "用途: 単なる空想ではなく、現実に起こり得る可能性を表す。  "
+      },
+      {
+        "line": 193,
+        "text": "例: A delay is a definite possibility if the storm continues.  "
+      },
+      {
+        "line": 194,
+        "text": "訳: 嵐が続けば、遅延は十分に現実的な可能性だ。  "
+      },
+      {
+        "line": 196,
+        "text": "・see a definite change in something  "
+      },
+      {
+        "line": 197,
+        "text": "用途: 状態や傾向の変化を観察してはっきり認める。  "
+      },
+      {
+        "line": 198,
+        "text": "例: We can see a definite change in customer behavior after the price increase.  "
+      },
+      {
+        "line": 199,
+        "text": "訳: 値上げ後、顧客の行動に明らかな変化が見られる。  "
+      },
+      {
+        "line": 201,
+        "text": "・with a definite sense of 〈emotion〉  "
+      },
+      {
+        "line": 202,
+        "text": "用途: 表情・声・行動などに特定の感情が明確に表れている様子を示す。  "
+      },
+      {
+        "line": 203,
+        "text": "例: He left the room with a definite sense of relief.  "
+      },
+      {
+        "line": 204,
+        "text": "訳: 彼は明らかに安堵した様子で部屋を出た。  "
+      },
+      {
+        "line": 268,
+        "text": "3. 【形容詞・限定用法】具体的な、特定の"
+      },
+      {
+        "line": 278,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 280,
+        "text": "・a definite amount of 〈money/material〉  "
+      },
+      {
+        "line": 281,
+        "text": "用途: 金額や物質の量が一定の範囲・数量として定まっていることを表す。  "
+      },
+      {
+        "line": 282,
+        "text": "例: The machine requires a definite amount of oil to operate safely.  "
+      },
+      {
+        "line": 283,
+        "text": "訳: その機械を安全に稼働させるには、一定量の油が必要だ。  "
+      },
+      {
+        "line": 285,
+        "text": "・a definite number of 〈people/items〉  "
+      },
+      {
+        "line": 286,
+        "text": "用途: 人数や個数が曖昧でなく、決まった数であることを表す。  "
+      },
+      {
+        "line": 287,
+        "text": "例: Only a definite number of students can join the laboratory tour.  "
+      },
+      {
+        "line": 288,
+        "text": "訳: 研究室見学に参加できる学生数には上限が決まっている。  "
+      },
+      {
+        "line": 290,
+        "text": "・for a definite period  "
+      },
+      {
+        "line": 291,
+        "text": "用途: 期間の終点または長さがあらかじめ定められていることを表す。  "
+      },
+      {
+        "line": 292,
+        "text": "例: The equipment may be rented for a definite period of six months.  "
+      },
+      {
+        "line": 293,
+        "text": "訳: その設備は6か月という定められた期間、借りることができる。  "
+      },
+      {
+        "line": 295,
+        "text": "・within definite limits  "
+      },
+      {
+        "line": 296,
+        "text": "用途: 許容範囲や境界を明確に限定する。  "
+      },
+      {
+        "line": 297,
+        "text": "例: The temperature must remain within definite limits during transport.  "
+      },
+      {
+        "line": 298,
+        "text": "訳: 輸送中、温度は明確に定められた範囲内に保たなければならない。  "
+      },
+      {
+        "line": 300,
+        "text": "・definite information about 〈topic〉  "
+      },
+      {
+        "line": 301,
+        "text": "用途: 推測や噂ではなく、内容が確認できる具体的な情報を表す。  "
+      },
+      {
+        "line": 302,
+        "text": "例: We need definite information about the delivery schedule before placing the order.  "
+      },
+      {
+        "line": 303,
+        "text": "訳: 注文を出す前に、納入予定について具体的な情報が必要だ。  "
+      },
+      {
+        "line": 305,
+        "text": "・a definite shape/form  "
+      },
+      {
+        "line": 306,
+        "text": "用途: 輪郭や形式が一定で、別の形と区別できることを表す。  "
+      },
+      {
+        "line": 307,
+        "text": "例: The crystals grow into a definite shape under controlled conditions.  "
+      },
+      {
+        "line": 308,
+        "text": "訳: その結晶は、管理された条件下で一定の形に成長する。  "
+      },
+      {
+        "line": 310,
+        "text": "・a definite integral  "
+      },
+      {
+        "line": 311,
+        "text": "用途: 数学で、積分区間の上下端が指定された定積分を指す。  "
+      },
+      {
+        "line": 312,
+        "text": "例: The area under the curve can be calculated with a definite integral.  "
+      },
+      {
+        "line": 313,
+        "text": "訳: 曲線の下の面積は定積分で計算できる。  "
+      },
+      {
+        "line": 384,
+        "text": "4. 【形容詞・文法用語】定の、特定できる"
+      },
+      {
+        "line": 394,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 396,
+        "text": "・the definite article  "
+      },
+      {
+        "line": 397,
+        "text": "用途: 英語の the のように、聞き手・読み手が指示対象を特定できることを示す冠詞を指す。  "
+      },
+      {
+        "line": 398,
+        "text": "例: In English, the is the definite article used before singular and plural noun phrases.  "
+      },
+      {
+        "line": 399,
+        "text": "訳: 英語では the が、単数・複数の名詞句の前に使われる定冠詞である。  "
+      },
+      {
+        "line": 401,
+        "text": "・a definite noun phrase  "
+      },
+      {
+        "line": 402,
+        "text": "用途: 指示対象が文脈から特定可能な名詞句を指す。  "
+      },
+      {
+        "line": 403,
+        "text": "例: In “the book on the desk,” the whole phrase is a definite noun phrase.  "
+      },
+      {
+        "line": 404,
+        "text": "訳: 「机の上のその本」では、句全体が定名詞句である。  "
+      },
+      {
+        "line": 406,
+        "text": "・definite reference to 〈person/thing〉  "
+      },
+      {
+        "line": 407,
+        "text": "用途: ある人物・物を、聞き手がどれか判断できる形で指すことを表す。  "
+      },
+      {
+        "line": 408,
+        "text": "例: The article makes a definite reference to the company’s earlier report.  "
+      },
+      {
+        "line": 409,
+        "text": "訳: その記事は会社の以前の報告書を明確に指し示している。  "
+      },
+      {
+        "line": 411,
+        "text": "・a definite description of 〈person/thing〉  "
+      },
+      {
+        "line": 412,
+        "text": "用途: 固有名を使わず、記述によって指示対象を同定する表現を指す。  "
+      },
+      {
+        "line": 413,
+        "text": "例: “The first person to arrive” is a definite description in this context.  "
+      },
+      {
+        "line": 414,
+        "text": "訳: この文脈では、「最初に到着した人」は確定記述である。  "
+      },
+      {
+        "line": 416,
+        "text": "・a definite referent  "
+      },
+      {
+        "line": 417,
+        "text": "用途: 名詞句が指し示す、文脈上特定可能な対象を指す。  "
+      },
+      {
+        "line": 418,
+        "text": "例: The plural noun phrase can still have a definite referent.  "
+      },
+      {
+        "line": 419,
+        "text": "訳: 複数名詞句でも、指示対象を特定できる場合がある。  "
+      },
+      {
+        "line": 421,
+        "text": "・definite and indefinite articles  "
+      },
+      {
+        "line": 422,
+        "text": "用途: the と a/an のように、指示対象の特定可能性が異なる冠詞を対比する。  "
+      },
+      {
+        "line": 423,
+        "text": "例: The lesson contrasts definite and indefinite articles in everyday sentences.  "
+      },
+      {
+        "line": 424,
+        "text": "訳: その授業では、日常文における定冠詞と不定冠詞を対比している。  "
+      },
+      {
+        "line": 474,
+        "text": "5. 【形容詞・植物学】有限の、定数の"
+      },
+      {
+        "line": 484,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 486,
+        "text": "・definite stamens  "
+      },
+      {
+        "line": 487,
+        "text": "用途: 花弁数との関係で数が一定の雄しべを指す。  "
+      },
+      {
+        "line": 488,
+        "text": "例: The species has definite stamens, usually in a fixed multiple of the number of petals.  "
+      },
+      {
+        "line": 489,
+        "text": "訳: その種には、通常、花弁数の決まった倍数になる定数の雄しべがある。  "
+      },
+      {
+        "line": 491,
+        "text": "・a definite inflorescence  "
+      },
+      {
+        "line": 492,
+        "text": "用途: 主軸が花で終わり、伸長に限りがある有限花序を指す。  "
+      },
+      {
+        "line": 493,
+        "text": "例: The plant develops a definite inflorescence in which the main axis ends in a flower.  "
+      },
+      {
+        "line": 494,
+        "text": "訳: その植物は、主軸が花で終わる有限花序を形成する。  "
+      },
+      {
+        "line": 496,
+        "text": "・definite growth  "
+      },
+      {
+        "line": 497,
+        "text": "用途: 植物体や器官の成長が一定の段階で止まる定限成長を表す。  "
+      },
+      {
+        "line": 498,
+        "text": "例: Definite growth is common in some compact flowering plants.  "
+      },
+      {
+        "line": 499,
+        "text": "訳: 定限成長は、一部の小型の開花植物でよく見られる。  "
+      }
+    ],
+    "lexical_relations": [
+      {
+        "line": 40,
+        "text": "1. 【形容詞・限定用法／叙述用法】確定した、決まった"
+      },
+      {
+        "line": 94,
+        "text": "【類義語】"
+      },
+      {
+        "line": 96,
+        "text": "・certain  "
+      },
+      {
+        "line": 97,
+        "text": "定義: 疑いがなく、確かだと判断される。  "
+      },
+      {
+        "line": 98,
+        "text": "頻度: 〈10/10〉  "
+      },
+      {
+        "line": 99,
+        "text": "違い: certain は事実・未来・話者の確信を広く表す。definite は答えや予定が決定済みで曖昧でないことを表しやすい。  "
+      },
+      {
+        "line": 100,
+        "text": "例: I am certain that she will accept the offer.  "
+      },
+      {
+        "line": 101,
+        "text": "訳: 彼女がその申し出を受けると私は確信している。  "
+      },
+      {
+        "line": 103,
+        "text": "・settled  "
+      },
+      {
+        "line": 104,
+        "text": "定義: 議論や検討の後に、決定・合意されている。  "
+      },
+      {
+        "line": 105,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 106,
+        "text": "違い: settled は未決の状態が終わったことに焦点があり、definite は決まった内容が明確であることに焦点がある。  "
+      },
+      {
+        "line": 107,
+        "text": "例: The venue for the conference is now settled.  "
+      },
+      {
+        "line": 108,
+        "text": "訳: 会議の会場は今や決まっている。  "
+      },
+      {
+        "line": 110,
+        "text": "・firm  "
+      },
+      {
+        "line": 111,
+        "text": "定義: 意思・約束・態度が強く、簡単には変わらない。  "
+      },
+      {
+        "line": 112,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 113,
+        "text": "違い: firm は人の決意や約束の強さを示し、definite は決定内容や情報の確定性を示す。  "
+      },
+      {
+        "line": 114,
+        "text": "例: She made a firm promise to return the money.  "
+      },
+      {
+        "line": 115,
+        "text": "訳: 彼女はそのお金を返すと固く約束した。  "
+      },
+      {
+        "line": 117,
+        "text": "・fixed  "
+      },
+      {
+        "line": 118,
+        "text": "定義: 位置・日時・数量などが変更されないように定められている。  "
+      },
+      {
+        "line": 119,
+        "text": "頻度: 〈10/10〉  "
+      },
+      {
+        "line": 120,
+        "text": "違い: fixed は変更不能・変更予定なしという状態を強く示し、definite は曖昧さが解消されていることを広く示す。  "
+      },
+      {
+        "line": 121,
+        "text": "例: The shop has fixed opening hours.  "
+      },
+      {
+        "line": 122,
+        "text": "訳: その店には固定された営業時間がある。  "
+      },
+      {
+        "line": 124,
+        "text": "【反意語】"
+      },
+      {
+        "line": 126,
+        "text": "・uncertain  "
+      },
+      {
+        "line": 127,
+        "text": "定義: 確実でなく、結果や内容がまだ分からない。  "
+      },
+      {
+        "line": 128,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 129,
+        "text": "違い: uncertain は確定性の反対で、definite が決定・情報の明確さを示すのに対し、見通しや判断が定まらない。  "
+      },
+      {
+        "line": 130,
+        "text": "例: The outcome remains uncertain.  "
+      },
+      {
+        "line": 131,
+        "text": "訳: 結果は依然として不確かだ。  "
+      },
+      {
+        "line": 133,
+        "text": "・tentative  "
+      },
+      {
+        "line": 134,
+        "text": "定義: 仮のもので、後で変更される可能性がある。  "
+      },
+      {
+        "line": 135,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 136,
+        "text": "違い: tentative は計画・合意などが試案段階であることを示し、definite はそこから確定した段階を示す。  "
+      },
+      {
+        "line": 137,
+        "text": "例: We made a tentative booking for next month.  "
+      },
+      {
+        "line": 138,
+        "text": "訳: 私たちは来月について仮予約をした。  "
+      },
+      {
+        "line": 140,
+        "text": "・undecided  "
+      },
+      {
+        "line": 141,
+        "text": "定義: 選択・判断・決定がまだ行われていない。  "
+      },
+      {
+        "line": 142,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 143,
+        "text": "違い: undecided は決める主体や問題が未決定であること、definite は答えや立場が決まっていることを表す。  "
+      },
+      {
+        "line": 144,
+        "text": "例: The committee is still undecided about the proposal.  "
+      },
+      {
+        "line": 145,
+        "text": "訳: 委員会はその提案についてまだ決めていない。  "
+      },
+      {
+        "line": 147,
+        "text": "・indefinite  "
+      },
+      {
+        "line": 148,
+        "text": "定義: 明確な範囲・期間・内容が定まっていない。  "
+      },
+      {
+        "line": 149,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 150,
+        "text": "違い: indefinite は期間・数量・指示対象などの境界が不明確であることを表し、definite は境界が定まっていることを表す。  "
+      },
+      {
+        "line": 151,
+        "text": "例: The project was postponed for an indefinite period.  "
+      },
+      {
+        "line": 152,
+        "text": "訳: そのプロジェクトは無期限に延期された。  "
+      },
+      {
+        "line": 154,
+        "text": "2. 【形容詞・限定用法／叙述用法】明らかな、はっきりした"
+      },
+      {
+        "line": 208,
+        "text": "【類義語】"
+      },
+      {
+        "line": 210,
+        "text": "・clear  "
+      },
+      {
+        "line": 211,
+        "text": "定義: 意味・事実・視界などに混乱や曖昧さがない。  "
+      },
+      {
+        "line": 212,
+        "text": "頻度: 〈10/10〉  "
+      },
+      {
+        "line": 213,
+        "text": "違い: clear は理解可能性や障害のなさを広く表す。definite は変化・差・効果などが明確に認められることを強調しやすい。  "
+      },
+      {
+        "line": 214,
+        "text": "例: The instructions are clear and easy to follow.  "
+      },
+      {
+        "line": 215,
+        "text": "訳: その指示は明確で、従いやすい。  "
+      },
+      {
+        "line": 217,
+        "text": "・obvious  "
+      },
+      {
+        "line": 218,
+        "text": "定義: 見たり考えたりすれば、すぐに分かる。  "
+      },
+      {
+        "line": 219,
+        "text": "頻度: 〈10/10〉  "
+      },
+      {
+        "line": 220,
+        "text": "違い: obvious は認識の容易さを強く示す。definite は明らかさを示すが、必ずしも誰にとっても自明とは限らない。  "
+      },
+      {
+        "line": 221,
+        "text": "例: It was obvious that the machine had stopped working.  "
+      },
+      {
+        "line": 222,
+        "text": "訳: その機械が動かなくなったことは明らかだった。  "
+      },
+      {
+        "line": 224,
+        "text": "・noticeable  "
+      },
+      {
+        "line": 225,
+        "text": "定義: 見たり感じたりして気づくことができる。  "
+      },
+      {
+        "line": 226,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 227,
+        "text": "違い: noticeable は知覚上の目立ちやすさに焦点がある。definite は目立つだけでなく、差や効果を明確なものとして評価する。  "
+      },
+      {
+        "line": 228,
+        "text": "例: There was a noticeable drop in temperature overnight.  "
+      },
+      {
+        "line": 229,
+        "text": "訳: 一晩で気温が目に見えて下がった。  "
+      },
+      {
+        "line": 231,
+        "text": "・distinct  "
+      },
+      {
+        "line": 232,
+        "text": "定義: ほかのものと区別できるほど特徴がはっきりしている。  "
+      },
+      {
+        "line": 233,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 234,
+        "text": "違い: distinct は境界や識別可能性を強調する。definite は結果・変化・効果が明確に認められることにも使う。  "
+      },
+      {
+        "line": 235,
+        "text": "例: The two methods produce distinct results.  "
+      },
+      {
+        "line": 236,
+        "text": "訳: その二つの方法は明確に異なる結果を生む。  "
+      },
+      {
+        "line": 238,
+        "text": "・marked  "
+      },
+      {
+        "line": 239,
+        "text": "定義: 程度や差が目立つほど顕著である。  "
+      },
+      {
+        "line": 240,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 241,
+        "text": "違い: marked は変化・差・改善の大きさを強く示し、definite はそこまで大きくなくても、存在が明確であることを表せる。  "
+      },
+      {
+        "line": 242,
+        "text": "例: The report shows a marked reduction in waste.  "
+      },
+      {
+        "line": 243,
+        "text": "訳: その報告書は廃棄物の顕著な削減を示している。  "
+      },
+      {
+        "line": 245,
+        "text": "【反意語】"
+      },
+      {
+        "line": 247,
+        "text": "・unclear  "
+      },
+      {
+        "line": 248,
+        "text": "定義: 意味・原因・結果などがはっきりしない。  "
+      },
+      {
+        "line": 249,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 250,
+        "text": "違い: unclear は理解や判断の明瞭さの反対で、definite は観察・評価の対象が明らかであることを示す。  "
+      },
+      {
+        "line": 251,
+        "text": "例: The cause of the failure is still unclear.  "
+      },
+      {
+        "line": 252,
+        "text": "訳: 故障の原因はまだはっきりしない。  "
+      },
+      {
+        "line": 254,
+        "text": "・indistinct  "
+      },
+      {
+        "line": 255,
+        "text": "定義: 輪郭・音・違いなどがぼんやりして区別しにくい。  "
+      },
+      {
+        "line": 256,
+        "text": "頻度: 〈6/10〉  "
+      },
+      {
+        "line": 257,
+        "text": "違い: indistinct は知覚上の境界が弱いことを表し、definite は特徴や差が明瞭に取り出せることを表す。  "
+      },
+      {
+        "line": 258,
+        "text": "例: The distant hills were indistinct in the fog.  "
+      },
+      {
+        "line": 259,
+        "text": "訳: 遠くの丘は霧の中でぼんやりしていた。  "
+      },
+      {
+        "line": 261,
+        "text": "・imperceptible  "
+      },
+      {
+        "line": 262,
+        "text": "定義: 感覚や観察ではほとんど気づけない。  "
+      },
+      {
+        "line": 263,
+        "text": "頻度: 〈5/10〉  "
+      },
+      {
+        "line": 264,
+        "text": "違い: imperceptible は変化や差が知覚できないほど小さいことを示し、definite は明確に認められることを示す。  "
+      },
+      {
+        "line": 265,
+        "text": "例: The change in pressure was almost imperceptible.  "
+      },
+      {
+        "line": 266,
+        "text": "訳: 圧力の変化はほとんど知覚できなかった。  "
+      },
+      {
+        "line": 268,
+        "text": "3. 【形容詞・限定用法】具体的な、特定の"
+      },
+      {
+        "line": 317,
+        "text": "【類義語】"
+      },
+      {
+        "line": 319,
+        "text": "・specific  "
+      },
+      {
+        "line": 320,
+        "text": "定義: ほかのものではなく、特定の対象・内容に関する。  "
+      },
+      {
+        "line": 321,
+        "text": "頻度: 〈10/10〉  "
+      },
+      {
+        "line": 322,
+        "text": "違い: specific は個別の対象を選び出すことを強調し、definite は数量・範囲・条件などが明確に定まっていることを強調する。  "
+      },
+      {
+        "line": 323,
+        "text": "例: Please give me a specific example.  "
+      },
+      {
+        "line": 324,
+        "text": "訳: 具体的な例を一つ挙げてください。  "
+      },
+      {
+        "line": 326,
+        "text": "・precise  "
+      },
+      {
+        "line": 327,
+        "text": "定義: 細部や数値が正確で、曖昧さがない。  "
+      },
+      {
+        "line": 328,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 329,
+        "text": "違い: precise は細かい正確さを要求する。definite は必ずしも数値の厳密さを求めず、境界や内容が決まっていることを示す。  "
+      },
+      {
+        "line": 330,
+        "text": "例: The report provides precise measurements.  "
+      },
+      {
+        "line": 331,
+        "text": "訳: その報告書は正確な測定値を示している。  "
+      },
+      {
+        "line": 333,
+        "text": "・specified  "
+      },
+      {
+        "line": 334,
+        "text": "定義: 条件・文書・規則などで明示的に指定されている。  "
+      },
+      {
+        "line": 335,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 336,
+        "text": "違い: specified は誰かが明示して指定したことに焦点があり、definite は指定の有無にかかわらず内容が定まっていることを表せる。  "
+      },
+      {
+        "line": 337,
+        "text": "例: The work must be completed within the specified time.  "
+      },
+      {
+        "line": 338,
+        "text": "訳: 作業は指定された時間内に完了しなければならない。  "
+      },
+      {
+        "line": 340,
+        "text": "・determinate  "
+      },
+      {
+        "line": 341,
+        "text": "定義: 限界・終点・結果が決まっている。  "
+      },
+      {
+        "line": 342,
+        "text": "頻度: 〈5/10〉  "
+      },
+      {
+        "line": 343,
+        "text": "違い: determinate は形式的・専門的で、数学・科学・哲学などで境界や結果の決定性を述べる。definite は一般語としてより広く使う。  "
+      },
+      {
+        "line": 344,
+        "text": "例: The process has a determinate end point.  "
+      },
+      {
+        "line": 345,
+        "text": "訳: その過程には明確に定まった終点がある。  "
+      },
+      {
+        "line": 347,
+        "text": "・fixed  "
+      },
+      {
+        "line": 348,
+        "text": "定義: 位置・数量・時期などが動かないように定められている。  "
+      },
+      {
+        "line": 349,
+        "text": "頻度: 〈10/10〉  "
+      },
+      {
+        "line": 350,
+        "text": "違い: fixed は変更されない状態を強く示し、definite は具体的に境界づけられた情報や範囲にも使う。  "
+      },
+      {
+        "line": 351,
+        "text": "例: The fee is fixed for the entire contract period.  "
+      },
+      {
+        "line": 352,
+        "text": "訳: 料金は契約期間全体を通じて固定されている。  "
+      },
+      {
+        "line": 354,
+        "text": "【反意語】"
+      },
+      {
+        "line": 356,
+        "text": "・indefinite  "
+      },
+      {
+        "line": 357,
+        "text": "定義: 範囲・期間・数量・内容などが決まっていない。  "
+      },
+      {
+        "line": 358,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 359,
+        "text": "違い: indefinite は定まった境界がないことを直接表し、definite は範囲や条件が具体化されていることを表す。  "
+      },
+      {
+        "line": 360,
+        "text": "例: The meeting was postponed for an indefinite period.  "
+      },
+      {
+        "line": 361,
+        "text": "訳: 会議は無期限に延期された。  "
+      },
+      {
+        "line": 363,
+        "text": "・unspecified  "
+      },
+      {
+        "line": 364,
+        "text": "定義: 必要な内容や条件が明示されていない。  "
+      },
+      {
+        "line": 365,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 366,
+        "text": "違い: unspecified は情報が指定されていないことに焦点があり、definite は情報の境界や内容が明らかであることを表す。  "
+      },
+      {
+        "line": 367,
+        "text": "例: The shipment was delayed for unspecified reasons.  "
+      },
+      {
+        "line": 368,
+        "text": "訳: その発送は理由が明示されないまま遅れた。  "
+      },
+      {
+        "line": 370,
+        "text": "・vague  "
+      },
+      {
+        "line": 371,
+        "text": "定義: 表現・考え・範囲などがぼんやりして具体性に欠ける。  "
+      },
+      {
+        "line": 372,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 373,
+        "text": "違い: vague は内容の輪郭が弱いことを表し、definite は内容を具体的に切り出せることを表す。  "
+      },
+      {
+        "line": 374,
+        "text": "例: His answer was too vague to be useful.  "
+      },
+      {
+        "line": 375,
+        "text": "訳: 彼の答えは曖昧すぎて役に立たなかった。  "
+      },
+      {
+        "line": 377,
+        "text": "・unlimited  "
+      },
+      {
+        "line": 378,
+        "text": "定義: 数量・範囲・期間などに上限がない。  "
+      },
+      {
+        "line": 379,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 380,
+        "text": "違い: unlimited は上限の不存在を示し、definite は上限や範囲が定められていることを示す。ただし、definite が必ず有限量を意味するわけではない。  "
+      },
+      {
+        "line": 381,
+        "text": "例: The plan offers unlimited data usage.  "
+      },
+      {
+        "line": 382,
+        "text": "訳: そのプランはデータ通信を無制限で提供する。  "
+      },
+      {
+        "line": 384,
+        "text": "4. 【形容詞・文法用語】定の、特定できる"
+      },
+      {
+        "line": 428,
+        "text": "【類義語】"
+      },
+      {
+        "line": 430,
+        "text": "・identified  "
+      },
+      {
+        "line": 431,
+        "text": "定義: どの人物・物を指すかが分かっている、または特定されている。  "
+      },
+      {
+        "line": 432,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 433,
+        "text": "違い: identified は対象が同定されている状態を平易に述べる。definite は名詞句の文法的な指示性を表す用語である。  "
+      },
+      {
+        "line": 434,
+        "text": "例: The identified object was removed from the scene.  "
+      },
+      {
+        "line": 435,
+        "text": "訳: 特定された物体は現場から取り除かれた。  "
+      },
+      {
+        "line": 437,
+        "text": "・determinate  "
+      },
+      {
+        "line": 438,
+        "text": "定義: 境界・値・指示対象などが決まっている。  "
+      },
+      {
+        "line": 439,
+        "text": "頻度: 〈5/10〉  "
+      },
+      {
+        "line": 440,
+        "text": "違い: determinate は形式的・専門的で、definite は英語の冠詞や名詞句の性質を説明する標準用語である。  "
+      },
+      {
+        "line": 441,
+        "text": "例: The expression has a determinate meaning in this context.  "
+      },
+      {
+        "line": 442,
+        "text": "訳: その表現はこの文脈では明確に定まった意味を持つ。  "
+      },
+      {
+        "line": 444,
+        "text": "・specific  "
+      },
+      {
+        "line": 445,
+        "text": "定義: 一般的なものではなく、特定の人物・物・内容に関する。  "
+      },
+      {
+        "line": 446,
+        "text": "頻度: 〈10/10〉  "
+      },
+      {
+        "line": 447,
+        "text": "違い: specific は個別性を表す一般語で、文法上の definite と重なることはあるが、`a specific book` のように不定名詞句にも使える。  "
+      },
+      {
+        "line": 448,
+        "text": "例: She was looking for a specific file.  "
+      },
+      {
+        "line": 449,
+        "text": "訳: 彼女は特定のファイルを探していた。  "
+      },
+      {
+        "line": 451,
+        "text": "【反意語】"
+      },
+      {
+        "line": 453,
+        "text": "・indefinite  "
+      },
+      {
+        "line": 454,
+        "text": "定義: 名詞句の指示対象が特定できない、または特定の一つとして提示されない。  "
+      },
+      {
+        "line": 455,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 456,
+        "text": "違い: 文法上の indefinite は definite の直接の反対で、英語の a/an や、文脈によっては無冠詞の名詞句に関係する。  "
+      },
+      {
+        "line": 457,
+        "text": "例: “A book” is indefinite because the listener does not know which book is meant.  "
+      },
+      {
+        "line": 458,
+        "text": "訳: 「ある本」は、どの本を指すか聞き手に分からないため不定である。  "
+      },
+      {
+        "line": 460,
+        "text": "・unidentified  "
+      },
+      {
+        "line": 461,
+        "text": "定義: どの人物・物であるかが特定されていない。  "
+      },
+      {
+        "line": 462,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 463,
+        "text": "違い: unidentified は現実の対象を同定できない状態を示し、definite は文法上の名詞句が対象を特定可能に提示する状態を示す。  "
+      },
+      {
+        "line": 464,
+        "text": "例: An unidentified caller left a message.  "
+      },
+      {
+        "line": 465,
+        "text": "訳: 身元不明の発信者がメッセージを残した。  "
+      },
+      {
+        "line": 467,
+        "text": "・generic  "
+      },
+      {
+        "line": 468,
+        "text": "定義: 個別の一つではなく、種類全体や一般的な概念に関する。  "
+      },
+      {
+        "line": 469,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 470,
+        "text": "違い: generic は指示の範囲が一般化されていることを表す。definite と対照できるが、英語では definite article が総称的に使われる場合もあるため、完全な形の反意語ではない。  "
+      },
+      {
+        "line": 471,
+        "text": "例: “Dogs are social animals” has a generic reference.  "
+      },
+      {
+        "line": 472,
+        "text": "訳: 「犬は社会的な動物だ」は総称的な指示を持つ。  "
+      },
+      {
+        "line": 474,
+        "text": "5. 【形容詞・植物学】有限の、定数の"
+      },
+      {
+        "line": 503,
+        "text": "【類義語】"
+      },
+      {
+        "line": 505,
+        "text": "・determinate  "
+      },
+      {
+        "line": 506,
+        "text": "定義: 植物の成長・花序・器官の数などが一定の限界で決まる。  "
+      },
+      {
+        "line": 507,
+        "text": "頻度: 〈4/10〉  "
+      },
+      {
+        "line": 508,
+        "text": "違い: determinate はこの植物学上の意味でより一般的な専門語で、definite は同じ特徴を別の語彙で表す。  "
+      },
+      {
+        "line": 509,
+        "text": "例: The plant produces a determinate inflorescence.  "
+      },
+      {
+        "line": 510,
+        "text": "訳: その植物は有限花序を形成する。  "
+      },
+      {
+        "line": 512,
+        "text": "・fixed-number  "
+      },
+      {
+        "line": 513,
+        "text": "定義: 数が一定に定められている。  "
+      },
+      {
+        "line": 514,
+        "text": "頻度: 〈2/10〉  "
+      },
+      {
+        "line": 515,
+        "text": "違い: fixed-number は説明的な表現で、definite stamens の特徴を言い換えるが、単独の標準用語としての使用は限定的である。  "
+      },
+      {
+        "line": 516,
+        "text": "例: The flower has a fixed number of stamens.  "
+      },
+      {
+        "line": 517,
+        "text": "訳: その花には一定数の雄しべがある。  "
+      },
+      {
+        "line": 519,
+        "text": "【反意語】"
+      },
+      {
+        "line": 521,
+        "text": "・indefinite  "
+      },
+      {
+        "line": 522,
+        "text": "定義: 数が一定でない、または花序の成長に固定された終点がない。  "
+      },
+      {
+        "line": 523,
+        "text": "頻度: 〈3/10〉  "
+      },
+      {
+        "line": 524,
+        "text": "違い: indefinite は definite stamens や definite inflorescence の反対側にある植物学用語で、器官数や成長の上限が定まらないことを示す。  "
+      },
+      {
+        "line": 525,
+        "text": "例: An indefinite inflorescence can continue producing flowers along its main axis.  "
+      },
+      {
+        "line": 526,
+        "text": "訳: 無限花序は主軸に沿って花を作り続けることがある。  "
+      },
+      {
+        "line": 528,
+        "text": "・indeterminate  "
+      },
+      {
+        "line": 529,
+        "text": "定義: 成長や結果の終点があらかじめ固定されていない。  "
+      },
+      {
+        "line": 530,
+        "text": "頻度: 〈5/10〉  "
+      },
+      {
+        "line": 531,
+        "text": "違い: indeterminate は植物学で definite／determinate と対立し、主軸の成長が花で終わらないことなどを表す。  "
+      },
+      {
+        "line": 532,
+        "text": "例: The species shows indeterminate rather than definite growth.  "
+      },
+      {
+        "line": 533,
+        "text": "訳: その種は定限成長ではなく不定成長を示す。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "d09d822f58ea8bcff9aa2890f988ad7aca9a9d3a773b5f9da5427f783ae25bb3",
+  "source_artifact_sha256": "6c4a9cb96ef979d6caee6685612f8a3af1eadb335e8d0d86ec675b47df5e2d67",
+  "normalized_input_sha256": "635fff3ce944429b22dd28d382b04abcfc84834fbfaf315fb7d5df4400dbc257"
+}
+```

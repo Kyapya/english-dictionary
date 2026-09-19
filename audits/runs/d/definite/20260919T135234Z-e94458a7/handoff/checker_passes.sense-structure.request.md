@@ -1,0 +1,240 @@
+# Independent checker handoff
+
+Stage: `checker_passes/sense-structure`
+
+Run this request in its own independent subagent/session. The seven checker pass requests are designed to run concurrently; do not concatenate them into one prompt or reuse one subagent for multiple passes.
+
+Save exactly one JSON response as `checker_passes.sense-structure.response.json`. The top-level JSON must include the routed `pass_id` and a `reviewer` object with `mode: "handoff"`, the actual `declared_model`, `ingested_by: "human"`, and a non-empty `agent_id`. Each checker pass must use a different agent_id.
+## Prompt
+
+# check_pass_sense_structure_v6
+
+## 目的
+
+見出し語をゼロベースで棚卸しし、語義境界、品詞転換、派生形、コアイメージ、セクション横断の意味範囲を検査する。旧本文の語義番号・見出し・項目数を候補集合の出発点にしない。
+
+## 担当タクソノミー分類
+
+- `sense_boundary_overlap`
+- `cross_section_internal_contradiction`
+- `compound_component_generalization`
+
+## 検査ルール
+
+- 主要品詞、主要義、字義・比喩・慣用義、句動詞、分詞形容詞、主要な品詞転換・派生形を独立候補として確認する。
+- 一つの辞書の見出し分けを写さず、完全フレーム、中心意味、結果状態、評価、レジスター、頻度、学習価値から収録・統合・簡潔化・除外を判断する。
+- 主語・目的語の種類や対象分野だけで語義を分けず、同じ程度表現・構文・例が複数語義を横断する場合は過剰分割を疑う。
+- 基本義から生じる評価的・文脈的含意、特定構文の効果を独立した語彙的意味として立てない。一方、中心意味・品詞・項構造・結果状態・評価が学習上重要に異なる用法は統合しない。
+- コアイメージ、語義見出し、定義、語法、文法パターン、類義語説明で同じ概念の範囲・方向が一致するか確認する。
+- コアイメージがある場合、列挙枝と明示的除外の和集合が全語義にちょうど1回対応するか確認する。制度上の要件だけが特殊で語彙的核を共有する専門義を枝から除外しない。
+- 同語源であることだけを理由に現代話者に結び付きにくい語義を同じ核へ押し込まない。
+- 複合語・派生語・専門句の一構成要素の性質を、複合表現全体または見出し語の一般則へ拡張しない。
+- 語形成欄や語法注記だけに主要品詞転換が存在する場合は、番号付き語義の欠落として扱う。
+- 主要候補の収録先がなければ、形式上の欄が揃っていても欠落とする。除外には自由結合、極低頻度、根拠不足、既出義の言い換え等の具体理由が必要である。
+
+## 入力として受け取るセクション
+
+- `core_image`
+- `sense_structure`
+- `usage_notes`
+- `word_formation`
+
+## findingの出力スキーマ
+
+```json
+{
+  "taxonomy_id": "sense_boundary_overlap | cross_section_internal_contradiction | compound_component_generalization",
+  "location": {
+    "section": "router section selector",
+    "line_start": 1,
+    "line_end": 1,
+    "exact_quote": "本文からの改変していない引用"
+  },
+  "severity": "blocking | minor",
+  "rationale": "語義境界・矛盾・一般化の判定理由",
+  "evidence_link_ids": [],
+  "suggested_direction": "追加・統合・分割・移動・限定の方向"
+}
+```
+
+語義・品詞・構文構成の追加、削除、統合、分割は `blocking` とする。
+
+
+## Input packet
+
+```json
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "sense-structure",
+  "taxonomy_ids": [
+    "sense_boundary_overlap",
+    "cross_section_internal_contradiction",
+    "compound_component_generalization"
+  ],
+  "specification": "prompts/check_pass_sense_structure_v6.md",
+  "input_body_sha256": "6bf439cde2a5a009f8e4e4d27f7041f7af5c66dd15e9e51aaf59bfb705b46752",
+  "input_sections": {
+    "core_image": [
+      {
+        "line": 29,
+        "text": "＃コアイメージ"
+      },
+      {
+        "line": 31,
+        "text": "definite の共通核は、「境界・同一性・判断を曖昧さから切り出し、はっきり固定する」ことである。何を固定するかによって、決定、観察上の明瞭さ、範囲や内容の限定、文法上の指示対象、植物の数や成長の上限へ広がる。  "
+      },
+      {
+        "line": 32,
+        "text": "・判断や予定を曖昧さから切り出して固定する → 「確定した、決まった」（語義1）  "
+      },
+      {
+        "line": 33,
+        "text": "・特徴や変化を観察上はっきり切り出す → 「明らかな、はっきりした」（語義2）  "
+      },
+      {
+        "line": 34,
+        "text": "・範囲や内容を境界づけて固定する → 「具体的な、特定の」（語義3）  "
+      },
+      {
+        "line": 35,
+        "text": "・指示対象を文脈上特定可能なものとして切り出す → 「定の、特定できる」（語義4）  "
+      },
+      {
+        "line": 36,
+        "text": "・数や成長の上限を固定する → 「有限の、定数の」（語義5）  "
+      }
+    ],
+    "sense_structure": [
+      {
+        "line": 40,
+        "text": "1. 【形容詞・限定用法／叙述用法】確定した、決まった"
+      },
+      {
+        "line": 42,
+        "text": "【日本語訳・定義】答え、決定、計画、日付、合意、意図などが、曖昧な候補や一時的な案ではなく、内容として定まり、変更される可能性が低いことを表す。必ずしも今後絶対に変更できないという意味ではなく、現時点で決定・約束・判断が明確になっていることに焦点がある。  "
+      },
+      {
+        "line": 154,
+        "text": "2. 【形容詞・限定用法／叙述用法】明らかな、はっきりした"
+      },
+      {
+        "line": 156,
+        "text": "【日本語訳・定義】変化、差、効果、兆候、利点などが、観察や比較によって実際に認められるほど明瞭・顕著であることを表す。必ずしも論理的に証明済み、絶対に疑いがないという意味ではなく、話し手が変化や特徴をはっきり認識しているという評価を含むことがある。  "
+      },
+      {
+        "line": 268,
+        "text": "3. 【形容詞・限定用法】具体的な、特定の"
+      },
+      {
+        "line": 270,
+        "text": "【日本語訳・定義】数量、期間、範囲、時点、形、情報などに明確な境界や内容があり、漠然としたものではないことを表す。特定の対象を指す場合でも、文脈上その対象を識別できるという文法上の意味とは異なり、ここでは内容・範囲・条件が具体的に定まっていることに焦点がある。  "
+      },
+      {
+        "line": 384,
+        "text": "4. 【形容詞・文法用語】定の、特定できる"
+      },
+      {
+        "line": 386,
+        "text": "【日本語訳・定義】文法で、名詞句の指示対象が、既出、状況上の唯一性、修飾語、共有知識などによって聞き手・読み手に特定可能であることを表す。英語では the が definite article「定冠詞」であり、対象が必ず世界に一つしかないこと、単数であること、以前に必ず言及されたことだけを意味するわけではない。  "
+      },
+      {
+        "line": 474,
+        "text": "5. 【形容詞・植物学】有限の、定数の"
+      },
+      {
+        "line": 476,
+        "text": "【日本語訳・定義】植物学で、花器官の数が一定で、通常は20未満で花弁数の倍数になること、または花序の主軸が花で終わり成長に限りがあることを表す専門用法である。一般語の「確実な」ではなく、数や成長が定まっているという意味で、definite inflorescence は determinate／cymose inflorescence に当たる。  "
+      }
+    ],
+    "usage_notes": [
+      {
+        "line": 40,
+        "text": "1. 【形容詞・限定用法／叙述用法】確定した、決まった"
+      },
+      {
+        "line": 92,
+        "text": "【語法・注意】certain は「真実だと確信している」「起こる可能性が高い」という話者の認識にも使えるが、definite は答え・計画・日付などの内容が決まっていることを強調しやすい。final は「それ以上変更しない最終段階」、firm は意思・態度の強さに焦点があるため、definite と完全には交換できない。`I have no definite plans.` は「将来の予定が一切ない」ではなく「決まった予定はない」という意味である。definite と definitely、definite と definitive を品詞や意味を考えずに置き換えない。綴りは definite であり、definate ではない。  "
+      },
+      {
+        "line": 154,
+        "text": "2. 【形容詞・限定用法／叙述用法】明らかな、はっきりした"
+      },
+      {
+        "line": 206,
+        "text": "【語法・注意】この用法の definite は「証明された」と同義ではない。`a definite improvement` は改善がはっきり認められるという意味で、科学的な因果関係が完全に証明されたという意味ではない。`a definite possibility` は「確実に起こること」ではなく「現実味のある可能性」である。obvious は誰にとってもすぐ分かること、clear は混乱や曖昧さがないこと、noticeable は知覚上目立つことを強調し、definite は変化・差・効果などを明確なものとして認めることに焦点がある。  "
+      },
+      {
+        "line": 268,
+        "text": "3. 【形容詞・限定用法】具体的な、特定の"
+      },
+      {
+        "line": 315,
+        "text": "【語法・注意】`a definite amount` は「量が決まっている」ことを示すが、必ずしも聞き手がその数値を知っているとは限らない。`specific` は「その特定のもの」という選択に、`exact` は誤差のない数値・内容に焦点がある。`definite information` は具体的で確認可能な情報、`definite plans` は決定済みの予定というように、名詞によって「具体的」と「確定した」のどちらが前面に出るかが変わる。`definite integral` は「確実な積分」ではなく、積分区間が定まった数学用語である。  "
+      },
+      {
+        "line": 384,
+        "text": "4. 【形容詞・文法用語】定の、特定できる"
+      },
+      {
+        "line": 426,
+        "text": "【語法・注意】文法上の definite は「前に一度出た名詞」に限られない。`the door` はその場に一つしかないドアを指せるし、`the book on the desk` は修飾語によってどの本か分かるため定になる。単数か複数か、可算か不可算かも決定条件ではなく、`the books`、`the water` も定になり得る。specific は「特定のものを意図している」という意味で、`a specific book` のように不定冠詞と共存できるが、specific だから文法上 definite になるわけではない。英語の the には、種類全体を述べる `The tiger is endangered.` のような総称的用法もあるため、definite と「唯一の個体」を機械的に同一視しない。  "
+      },
+      {
+        "line": 474,
+        "text": "5. 【形容詞・植物学】有限の、定数の"
+      },
+      {
+        "line": 501,
+        "text": "【語法・注意】この用法は一般英語の definite answer や definite plan とは別の専門的な意味である。`definite inflorescence` は花序の成長様式を指し、単に「明確な花序」という意味ではない。植物学では `indefinite` や `indeterminate` が、数や主軸の成長に固定された終点がない対照表現として使われる。  "
+      }
+    ],
+    "word_formation": [
+      {
+        "line": 21,
+        "text": "＃語形成"
+      },
+      {
+        "line": 23,
+        "text": "・definitely：副詞。「確実に、間違いなく、はっきりと」。話者の確信を表す文副詞としても、動詞・形容詞を強める副詞としても使う。  "
+      },
+      {
+        "line": 24,
+        "text": "・definiteness：名詞。「明確さ、確定性、定性」。文法では名詞句の指示対象が特定可能である性質を表す。  "
+      },
+      {
+        "line": 25,
+        "text": "・indefinite：接頭辞 in-「否定」を伴う関連形。「不確定な、漠然とした、定のない」。definite の単純な反意語になる用法と、文法用語としての用法がある。  "
+      },
+      {
+        "line": 26,
+        "text": "・definitive：同じラテン語幹系統の形容詞。「決定的な、最終的な」。definite よりも最終判断・決着の含みが強く、単なる語尾違いとして置き換えない。  "
+      },
+      {
+        "line": 27,
+        "text": "・define / definition：同じ語源にさかのぼる動詞・名詞。「境界を定める」「定義」。definite の直接の活用形ではないが、「曖昧さを境界づける」という意味のつながりがある。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "a815b90fbc456e2bc194220ee0f3bfa164790bbb6e1f2f740144ac62bb03b87c",
+  "source_artifact_sha256": "6c4a9cb96ef979d6caee6685612f8a3af1eadb335e8d0d86ec675b47df5e2d67",
+  "normalized_input_sha256": "771b045cf94a26fe28993d4ac4a2fb58bfa966c743751b61417025378ccb3e17"
+}
+```

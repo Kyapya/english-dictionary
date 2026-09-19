@@ -1,0 +1,778 @@
+{
+  "schema_version": "normal_review_v2",
+  "stage": "normal_review",
+  "run_id": "normal-definite-20260919T135234Z-e94458a7",
+  "context_id": "normal-definite-context-20260919T135234Z-e94458a7",
+  "input_body_sha256": "6bf439cde2a5a009f8e4e4d27f7041f7af5c66dd15e9e51aaf59bfb705b46752",
+  "prompt_sha256": "0b485ac494ff9f114a9061bbc7d789803f05ee6d79b908885efae2da2b0cebf5",
+  "input_artifacts": [
+    "router_selected_sections",
+    "checker_pass_specs"
+  ],
+  "recorded_at": "2026-09-19T14:29:23.713971+00:00",
+  "pass_outputs": [
+    {
+      "pass_id": "translation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-6-astra",
+        "ingested_by": "orchestrator",
+        "agent_id": "reviewer-definite-translation-20260919",
+        "source_response": {
+          "path": "audits/runs/d/definite/20260919T135234Z-e94458a7/handoff/source_responses/befab56ab759bbad2b890df980bb40fc6aec2863dd6ba688258e1bbc8e1b3916.json",
+          "sha256": "befab56ab759bbad2b890df980bb40fc6aec2863dd6ba688258e1bbc8e1b3916"
+        }
+      },
+      "findings": []
+    },
+    {
+      "pass_id": "sense-structure",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-6-astra",
+        "ingested_by": "orchestrator",
+        "agent_id": "reviewer-definite-sense-structure-20260919",
+        "source_response": {
+          "path": "audits/runs/d/definite/20260919T135234Z-e94458a7/handoff/source_responses/10d25f7c078174c7013b72b3897e97f1f6a45b3e17a1a605fdc4d3d4971d1e4f.json",
+          "sha256": "10d25f7c078174c7013b72b3897e97f1f6a45b3e17a1a605fdc4d3d4971d1e4f"
+        }
+      },
+      "findings": []
+    },
+    {
+      "pass_id": "frame-relation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-6-astra",
+        "ingested_by": "orchestrator",
+        "agent_id": "reviewer-definite-frame-relation-20260919",
+        "source_response": {
+          "path": "audits/runs/d/definite/20260919T135234Z-e94458a7/handoff/source_responses/af41f3f31a9e1dc29872276bbc23bbd337764a51e723faae34c4e1c129cb535d.json",
+          "sha256": "af41f3f31a9e1dc29872276bbc23bbd337764a51e723faae34c4e1c129cb535d"
+        }
+      },
+      "antonym_axis_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "6bf439cde2a5a009f8e4e4d27f7041f7af5c66dd15e9e51aaf59bfb705b46752",
+        "blind_request_sha256": "b295dc96952152716214e3e8cfd5e5666a4da5a8e6b280aec2c4447030e67c33",
+        "recorded_at": "2026-09-19T14:22:01Z",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-6-astra",
+          "ingested_by": "orchestrator",
+          "agent_id": "reviewer-definite-frame-relation-20260919",
+          "source_response": {
+            "path": "audits/runs/d/definite/20260919T135234Z-e94458a7/handoff/source_responses/351049efd6156d99debefc050908fb0b4d8cf2073e6fc7ac11dc5fe8240b32e9.json",
+            "sha256": "351049efd6156d99debefc050908fb0b4d8cf2073e6fc7ac11dc5fe8240b32e9"
+          }
+        },
+        "axes": [
+          {
+            "item_id": "ant-d8cdab9d17a7",
+            "axis": "明瞭性",
+            "relation_type": "程度",
+            "reason": "indistinct は definite の明瞭性に対する反対側の状態・程度を示す。"
+          },
+          {
+            "item_id": "ant-bd78359dead5",
+            "axis": "有限性",
+            "relation_type": "状態",
+            "reason": "indefinite は definite の有限性に対する反対側の状態・程度を示す。"
+          },
+          {
+            "item_id": "ant-1c347dcd4402",
+            "axis": "具体性",
+            "relation_type": "状態",
+            "reason": "unspecified は definite の具体性に対する反対側の状態・程度を示す。"
+          },
+          {
+            "item_id": "ant-818f8d4e4aa3",
+            "axis": "指示性",
+            "relation_type": "状態",
+            "reason": "generic は definite の指示性に対する反対側の状態・程度を示す。"
+          },
+          {
+            "item_id": "ant-72aede0d05ae",
+            "axis": "有限性",
+            "relation_type": "状態",
+            "reason": "indefinite は definite の有限性に対する反対側の状態・程度を示す。"
+          },
+          {
+            "item_id": "ant-b94874c1fb0a",
+            "axis": "明瞭性",
+            "relation_type": "程度",
+            "reason": "unclear は definite の明瞭性に対する反対側の状態・程度を示す。"
+          },
+          {
+            "item_id": "ant-0f692a54b438",
+            "axis": "確定性",
+            "relation_type": "状態",
+            "reason": "undecided は definite の確定性に対する反対側の状態・程度を示す。"
+          },
+          {
+            "item_id": "ant-26ef8568abaf",
+            "axis": "有限性",
+            "relation_type": "状態",
+            "reason": "indeterminate は definite の有限性に対する反対側の状態・程度を示す。"
+          },
+          {
+            "item_id": "ant-e4bf06db3822",
+            "axis": "有限性",
+            "relation_type": "状態",
+            "reason": "indefinite は definite の有限性に対する反対側の状態・程度を示す。"
+          },
+          {
+            "item_id": "ant-9a3ffea3963f",
+            "axis": "明瞭性",
+            "relation_type": "程度",
+            "reason": "imperceptible は definite の明瞭性に対する反対側の状態・程度を示す。"
+          },
+          {
+            "item_id": "ant-ff69a1a9f3cd",
+            "axis": "確定性",
+            "relation_type": "状態",
+            "reason": "uncertain は definite の確定性に対する反対側の状態・程度を示す。"
+          },
+          {
+            "item_id": "ant-c7e3f2e53104",
+            "axis": "有限性",
+            "relation_type": "状態",
+            "reason": "unlimited は definite の有限性に対する反対側の状態・程度を示す。"
+          },
+          {
+            "item_id": "ant-c5c7ab207470",
+            "axis": "確定性",
+            "relation_type": "状態",
+            "reason": "tentative は definite の確定性に対する反対側の状態・程度を示す。"
+          },
+          {
+            "item_id": "ant-edb72631391b",
+            "axis": "有限性",
+            "relation_type": "状態",
+            "reason": "indefinite は definite の有限性に対する反対側の状態・程度を示す。"
+          },
+          {
+            "item_id": "ant-474db3bb568c",
+            "axis": "同定性",
+            "relation_type": "状態",
+            "reason": "unidentified は definite の同定性に対する反対側の状態・程度を示す。"
+          },
+          {
+            "item_id": "ant-e02007848369",
+            "axis": "具体性",
+            "relation_type": "状態",
+            "reason": "vague は definite の具体性に対する反対側の状態・程度を示す。"
+          }
+        ]
+      },
+      "antonym_axis_adjudication_record": {
+        "schema_version": "antonym_axis_adjudication_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "6bf439cde2a5a009f8e4e4d27f7041f7af5c66dd15e9e51aaf59bfb705b46752",
+        "stage2_request_sha256": "af6a9e893791a8c3ccd940cbe22397e7644495e1e8704fc19b220d190a8ba070",
+        "blind_record_sha256": "7bd2966f5f112b47b8cf79b92a71a3ad04b2831e0fb27f7de9171f46a750c80e",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-6-astra",
+          "ingested_by": "orchestrator",
+          "agent_id": "reviewer-definite-frame-relation-20260919",
+          "source_response": {
+            "path": "audits/runs/d/definite/20260919T135234Z-e94458a7/handoff/source_responses/af41f3f31a9e1dc29872276bbc23bbd337764a51e723faae34c4e1c129cb535d.json",
+            "sha256": "af41f3f31a9e1dc29872276bbc23bbd337764a51e723faae34c4e1c129cb535d"
+          }
+        },
+        "adjudications": [
+          {
+            "item_id": "ant-ff69a1a9f3cd",
+            "flags": [],
+            "rationale": "stage 1 の判定で軸「確定性」として一貫しており、提示された反意語の定義・軸関係に修正フラグはない。"
+          },
+          {
+            "item_id": "ant-c5c7ab207470",
+            "flags": [],
+            "rationale": "stage 1 の判定で軸「確定性」として一貫しており、提示された反意語の定義・軸関係に修正フラグはない。"
+          },
+          {
+            "item_id": "ant-0f692a54b438",
+            "flags": [],
+            "rationale": "stage 1 の判定で軸「確定性」として一貫しており、提示された反意語の定義・軸関係に修正フラグはない。"
+          },
+          {
+            "item_id": "ant-e4bf06db3822",
+            "flags": [],
+            "rationale": "stage 1 の判定で軸「有限性」として一貫しており、提示された反意語の定義・軸関係に修正フラグはない。"
+          },
+          {
+            "item_id": "ant-b94874c1fb0a",
+            "flags": [],
+            "rationale": "stage 1 の判定で軸「明瞭性」として一貫しており、提示された反意語の定義・軸関係に修正フラグはない。"
+          },
+          {
+            "item_id": "ant-d8cdab9d17a7",
+            "flags": [],
+            "rationale": "stage 1 の判定で軸「明瞭性」として一貫しており、提示された反意語の定義・軸関係に修正フラグはない。"
+          },
+          {
+            "item_id": "ant-9a3ffea3963f",
+            "flags": [],
+            "rationale": "stage 1 の判定で軸「明瞭性」として一貫しており、提示された反意語の定義・軸関係に修正フラグはない。"
+          },
+          {
+            "item_id": "ant-edb72631391b",
+            "flags": [],
+            "rationale": "stage 1 の判定で軸「有限性」として一貫しており、提示された反意語の定義・軸関係に修正フラグはない。"
+          },
+          {
+            "item_id": "ant-1c347dcd4402",
+            "flags": [],
+            "rationale": "stage 1 の判定で軸「具体性」として一貫しており、提示された反意語の定義・軸関係に修正フラグはない。"
+          },
+          {
+            "item_id": "ant-e02007848369",
+            "flags": [],
+            "rationale": "stage 1 の判定で軸「具体性」として一貫しており、提示された反意語の定義・軸関係に修正フラグはない。"
+          },
+          {
+            "item_id": "ant-c7e3f2e53104",
+            "flags": [],
+            "rationale": "stage 1 の判定で軸「有限性」として一貫しており、提示された反意語の定義・軸関係に修正フラグはない。"
+          },
+          {
+            "item_id": "ant-72aede0d05ae",
+            "flags": [],
+            "rationale": "stage 1 の判定で軸「有限性」として一貫しており、提示された反意語の定義・軸関係に修正フラグはない。"
+          },
+          {
+            "item_id": "ant-474db3bb568c",
+            "flags": [],
+            "rationale": "stage 1 の判定で軸「同定性」として一貫しており、提示された反意語の定義・軸関係に修正フラグはない。"
+          },
+          {
+            "item_id": "ant-818f8d4e4aa3",
+            "flags": [],
+            "rationale": "stage 1 の判定で軸「指示性」として一貫しており、提示された反意語の定義・軸関係に修正フラグはない。"
+          },
+          {
+            "item_id": "ant-bd78359dead5",
+            "flags": [],
+            "rationale": "stage 1 の判定で軸「有限性」として一貫しており、提示された反意語の定義・軸関係に修正フラグはない。"
+          },
+          {
+            "item_id": "ant-26ef8568abaf",
+            "flags": [],
+            "rationale": "stage 1 の判定で軸「有限性」として一貫しており、提示された反意語の定義・軸関係に修正フラグはない。"
+          }
+        ],
+        "frame_findings": [],
+        "unrouted_observations": []
+      },
+      "aligned_at": "2026-09-19T14:30:02.675939+00:00",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-6-astra",
+        "ingested_by": "orchestrator",
+        "agent_id": "reviewer-definite-example-attribution-20260919",
+        "source_response": {
+          "path": "audits/runs/d/definite/20260919T135234Z-e94458a7/handoff/source_responses/01b0e48365017d031cf864e1cf40e001d93e58d786a4bc19b2d38f3f43940f62.json",
+          "sha256": "01b0e48365017d031cf864e1cf40e001d93e58d786a4bc19b2d38f3f43940f62"
+        }
+      },
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "input_body_sha256": "6bf439cde2a5a009f8e4e4d27f7041f7af5c66dd15e9e51aaf59bfb705b46752",
+        "blind_request_sha256": "168991cdba2c145ca3b1c79fc4aa455b5b822191ca5693bd37ce1f9a2f437d2f",
+        "recorded_at": "2026-09-19T14:22:00Z",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-6-astra",
+          "ingested_by": "orchestrator",
+          "agent_id": "reviewer-definite-example-attribution-20260919",
+          "source_response": {
+            "path": "audits/runs/d/definite/20260919T135234Z-e94458a7/handoff/source_responses/01b0e48365017d031cf864e1cf40e001d93e58d786a4bc19b2d38f3f43940f62.json",
+            "sha256": "01b0e48365017d031cf864e1cf40e001d93e58d786a4bc19b2d38f3f43940f62"
+          }
+        },
+        "attributions": [
+          {
+            "example_id": "ex-d644a79b4b50",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "Sleep has a definite"
+            ],
+            "rationale": "「Sleep has a definite」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+          },
+          {
+            "example_id": "ex-54354c2cfdf7",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "Do you know anything"
+            ],
+            "rationale": "「Do you know anything」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+          },
+          {
+            "example_id": "ex-6c9f83869c1a",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "Please be definite about"
+            ],
+            "rationale": "「Please be definite about」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+          },
+          {
+            "example_id": "ex-f79c1f44a25b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "The species has definite"
+            ],
+            "rationale": "「The species has definite」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+          },
+          {
+            "example_id": "ex-988fa8138f86",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "The area under the"
+            ],
+            "rationale": "「The area under the」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+          },
+          {
+            "example_id": "ex-fe878351926f",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "There is a definite"
+            ],
+            "rationale": "「There is a definite」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+          },
+          {
+            "example_id": "ex-e74c8604e503",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "The machine requires a"
+            ],
+            "rationale": "「The machine requires a」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+          },
+          {
+            "example_id": "ex-c19c393fc1ac",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "The first person to"
+            ],
+            "rationale": "「The first person to」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+          },
+          {
+            "example_id": "ex-7ce341ec068a",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "The plant develops a"
+            ],
+            "rationale": "「The plant develops a」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+          },
+          {
+            "example_id": "ex-cbad99f14b3f",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "In English, the is"
+            ],
+            "rationale": "「In English, the is」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+          },
+          {
+            "example_id": "ex-710a72469623",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "We need definite information"
+            ],
+            "rationale": "「We need definite information」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+          },
+          {
+            "example_id": "ex-cf17f361e524",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "We can see a"
+            ],
+            "rationale": "「We can see a」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+          },
+          {
+            "example_id": "ex-03de5fdb663a",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "The grant requires a"
+            ],
+            "rationale": "「The grant requires a」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+          },
+          {
+            "example_id": "ex-3f4a42fc3e7a",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "Her reply was a"
+            ],
+            "rationale": "「Her reply was a」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+          },
+          {
+            "example_id": "ex-3baa53008352",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "The temperature must remain"
+            ],
+            "rationale": "「The temperature must remain」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+          },
+          {
+            "example_id": "ex-d1a66af154f2",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "The lesson contrasts definite"
+            ],
+            "rationale": "「The lesson contrasts definite」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+          },
+          {
+            "example_id": "ex-e6bd75fc7b86",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "Only a definite number"
+            ],
+            "rationale": "「Only a definite number」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+          },
+          {
+            "example_id": "ex-4963082548f4",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "A sudden drop in"
+            ],
+            "rationale": "「A sudden drop in」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+          },
+          {
+            "example_id": "ex-7aca181fbedf",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "The plural noun phrase"
+            ],
+            "rationale": "「The plural noun phrase」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+          },
+          {
+            "example_id": "ex-0ef42f0d5853",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "The organizers have not"
+            ],
+            "rationale": "「The organizers have not」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+          },
+          {
+            "example_id": "ex-ac62dadef1df",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "Definite growth is common"
+            ],
+            "rationale": "「Definite growth is common」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+          },
+          {
+            "example_id": "ex-7a5bec55a6f8",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "The new treatment produced"
+            ],
+            "rationale": "「The new treatment produced」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+          },
+          {
+            "example_id": "ex-9f826d0b597c",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "A delay is a"
+            ],
+            "rationale": "「A delay is a」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+          },
+          {
+            "example_id": "ex-632a1aa80843",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "No definite agreement had"
+            ],
+            "rationale": "「No definite agreement had」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+          },
+          {
+            "example_id": "ex-80295151595e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "The shorter route offers"
+            ],
+            "rationale": "「The shorter route offers」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+          },
+          {
+            "example_id": "ex-913e366b7fe9",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "the whole phrase"
+            ],
+            "rationale": "「the whole phrase」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+          },
+          {
+            "example_id": "ex-e1ea66e065bb",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "We need a definite"
+            ],
+            "rationale": "「We need a definite」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+          },
+          {
+            "example_id": "ex-4201b3530588",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "The crystals grow into"
+            ],
+            "rationale": "「The crystals grow into」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+          },
+          {
+            "example_id": "ex-c07571476815",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "I have no definite"
+            ],
+            "rationale": "「I have no definite」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+          },
+          {
+            "example_id": "ex-408664ca911b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "He left the room"
+            ],
+            "rationale": "「He left the room」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+          },
+          {
+            "example_id": "ex-6f6b80a13c65",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "The article makes a"
+            ],
+            "rationale": "「The article makes a」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+          },
+          {
+            "example_id": "ex-f9e1062fff34",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "The equipment may be"
+            ],
+            "rationale": "「The equipment may be」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+          }
+        ]
+      },
+      "aligned_at": "2026-09-19T14:29:23.703668+00:00",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "qualification",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-6-astra",
+        "ingested_by": "orchestrator",
+        "agent_id": "reviewer-definite-qualification-20260919",
+        "source_response": {
+          "path": "audits/runs/d/definite/20260919T135234Z-e94458a7/handoff/source_responses/941814c0155855cccb936a86666df608f0a18c79741fd05810dc76c4f02836ba.json",
+          "sha256": "941814c0155855cccb936a86666df608f0a18c79741fd05810dc76c4f02836ba"
+        }
+      },
+      "findings": []
+    },
+    {
+      "pass_id": "pronunciation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-6-astra",
+        "ingested_by": "orchestrator",
+        "agent_id": "reviewer-definite-pronunciation-20260919",
+        "source_response": {
+          "path": "audits/runs/d/definite/20260919T135234Z-e94458a7/handoff/source_responses/6ca8a632142078cde65c89b935ff200159afb1eb468c3591909596d5c19e0b8c.json",
+          "sha256": "6ca8a632142078cde65c89b935ff200159afb1eb468c3591909596d5c19e0b8c"
+        }
+      },
+      "findings": []
+    },
+    {
+      "pass_id": "evidence",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-6-astra",
+        "ingested_by": "orchestrator",
+        "agent_id": "reviewer-definite-evidence-20260919",
+        "source_response": {
+          "path": "audits/runs/d/definite/20260919T135234Z-e94458a7/handoff/source_responses/bf43b8ebcb823ccb0ef21d806f904abff0a08eb94162e2382411a60dd6c50dc9.json",
+          "sha256": "bf43b8ebcb823ccb0ef21d806f904abff0a08eb94162e2382411a60dd6c50dc9"
+        }
+      },
+      "findings": []
+    }
+  ],
+  "checker_reviewers": {
+    "translation": {
+      "mode": "handoff",
+      "declared_model": "gpt-6-astra",
+      "ingested_by": "orchestrator",
+      "agent_id": "reviewer-definite-translation-20260919",
+      "source_response": {
+        "path": "audits/runs/d/definite/20260919T135234Z-e94458a7/handoff/source_responses/befab56ab759bbad2b890df980bb40fc6aec2863dd6ba688258e1bbc8e1b3916.json",
+        "sha256": "befab56ab759bbad2b890df980bb40fc6aec2863dd6ba688258e1bbc8e1b3916"
+      }
+    },
+    "sense-structure": {
+      "mode": "handoff",
+      "declared_model": "gpt-6-astra",
+      "ingested_by": "orchestrator",
+      "agent_id": "reviewer-definite-sense-structure-20260919",
+      "source_response": {
+        "path": "audits/runs/d/definite/20260919T135234Z-e94458a7/handoff/source_responses/10d25f7c078174c7013b72b3897e97f1f6a45b3e17a1a605fdc4d3d4971d1e4f.json",
+        "sha256": "10d25f7c078174c7013b72b3897e97f1f6a45b3e17a1a605fdc4d3d4971d1e4f"
+      }
+    },
+    "frame-relation": {
+      "mode": "handoff",
+      "declared_model": "gpt-6-astra",
+      "ingested_by": "orchestrator",
+      "agent_id": "reviewer-definite-frame-relation-20260919",
+      "source_response": {
+        "path": "audits/runs/d/definite/20260919T135234Z-e94458a7/handoff/source_responses/af41f3f31a9e1dc29872276bbc23bbd337764a51e723faae34c4e1c129cb535d.json",
+        "sha256": "af41f3f31a9e1dc29872276bbc23bbd337764a51e723faae34c4e1c129cb535d"
+      }
+    },
+    "example-attribution": {
+      "mode": "handoff",
+      "declared_model": "gpt-6-astra",
+      "ingested_by": "orchestrator",
+      "agent_id": "reviewer-definite-example-attribution-20260919",
+      "source_response": {
+        "path": "audits/runs/d/definite/20260919T135234Z-e94458a7/handoff/source_responses/01b0e48365017d031cf864e1cf40e001d93e58d786a4bc19b2d38f3f43940f62.json",
+        "sha256": "01b0e48365017d031cf864e1cf40e001d93e58d786a4bc19b2d38f3f43940f62"
+      }
+    },
+    "qualification": {
+      "mode": "handoff",
+      "declared_model": "gpt-6-astra",
+      "ingested_by": "orchestrator",
+      "agent_id": "reviewer-definite-qualification-20260919",
+      "source_response": {
+        "path": "audits/runs/d/definite/20260919T135234Z-e94458a7/handoff/source_responses/941814c0155855cccb936a86666df608f0a18c79741fd05810dc76c4f02836ba.json",
+        "sha256": "941814c0155855cccb936a86666df608f0a18c79741fd05810dc76c4f02836ba"
+      }
+    },
+    "pronunciation": {
+      "mode": "handoff",
+      "declared_model": "gpt-6-astra",
+      "ingested_by": "orchestrator",
+      "agent_id": "reviewer-definite-pronunciation-20260919",
+      "source_response": {
+        "path": "audits/runs/d/definite/20260919T135234Z-e94458a7/handoff/source_responses/6ca8a632142078cde65c89b935ff200159afb1eb468c3591909596d5c19e0b8c.json",
+        "sha256": "6ca8a632142078cde65c89b935ff200159afb1eb468c3591909596d5c19e0b8c"
+      }
+    },
+    "evidence": {
+      "mode": "handoff",
+      "declared_model": "gpt-6-astra",
+      "ingested_by": "orchestrator",
+      "agent_id": "reviewer-definite-evidence-20260919",
+      "source_response": {
+        "path": "audits/runs/d/definite/20260919T135234Z-e94458a7/handoff/source_responses/bf43b8ebcb823ccb0ef21d806f904abff0a08eb94162e2382411a60dd6c50dc9.json",
+        "sha256": "bf43b8ebcb823ccb0ef21d806f904abff0a08eb94162e2382411a60dd6c50dc9"
+      }
+    }
+  },
+  "independent_candidates": [],
+  "summary": "Independent checker passes completed by parallel handoff; frame-relation preserved its serial blind/adjudication dependency."
+}
