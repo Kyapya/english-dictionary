@@ -1,24 +1,77 @@
 {
-  "schema_version": "source_inventory_v2",
-  "stage": "source_inventory",
-  "headword": "definite",
-  "run_id": "source-definite-20260919T135234Z-e94458a7",
-  "context_id": "source-definite-context-20260919T135234Z-e94458a7",
-  "input_body_sha256": "fcb08ac47dc55a7ef50022fe8615ddb12b921fe50d617dd4577843cb068b99bf",
-  "prompt_sha256": "0377df9f9e2eeeed2d38f6a7072f675fc4eea38e948ed672004f96bc2d88f783",
-  "input_artifacts": [
-    "headword",
-    "source_first_spec"
-  ],
-  "recorded_at": "2026-09-19T14:11:30Z",
-  "evidence_link_ids": [
-    "ev-definite-pronunciation",
-    "ev-definite-etymology",
-    "ev-definite-senses",
-    "ev-definite-grammar",
-    "ev-definite-botany",
-    "ev-definite-calculus"
-  ],
+  "schema_version": "content_audit_v4",
+  "generated_by": "generate_audit_manifest_v1",
+  "entry_path": "entries/d/definite.md",
+  "cycle_id": "20260919T135234Z-e94458a7",
+  "cycle_dir": "audits/runs/d/definite/20260919T135234Z-e94458a7",
+  "body_sha256": "fcb08ac47dc55a7ef50022fe8615ddb12b921fe50d617dd4577843cb068b99bf",
+  "raw_outputs": {
+    "source_inventory": {
+      "path": "audits/runs/d/definite/20260919T135234Z-e94458a7/source_inventory.json",
+      "sha256": "1c8540154c4ee3458d231b2e221e5d2e27f46b392fe90c236daf0fea71ee4163",
+      "stage": "source_inventory",
+      "run_id": "source-definite-20260919T135234Z-e94458a7",
+      "context_id": "source-definite-context-20260919T135234Z-e94458a7",
+      "input_body_sha256": "fcb08ac47dc55a7ef50022fe8615ddb12b921fe50d617dd4577843cb068b99bf",
+      "prompt_sha256": "0377df9f9e2eeeed2d38f6a7072f675fc4eea38e948ed672004f96bc2d88f783",
+      "recorded_at": "2026-09-19T14:11:30Z"
+    },
+    "normal_review": {
+      "path": "audits/runs/d/definite/20260919T135234Z-e94458a7/pass_findings.json",
+      "sha256": "1e826ad965af4b9c41e334b74d0695090ee0b634debc2f630433898b8f72e447",
+      "stage": "normal_review",
+      "run_id": "normal-definite-20260919T135234Z-e94458a7",
+      "context_id": "normal-definite-context-20260919T135234Z-e94458a7",
+      "input_body_sha256": "6bf439cde2a5a009f8e4e4d27f7041f7af5c66dd15e9e51aaf59bfb705b46752",
+      "prompt_sha256": "0b485ac494ff9f114a9061bbc7d789803f05ee6d79b908885efae2da2b0cebf5",
+      "recorded_at": "2026-09-19T14:29:23.713971+00:00"
+    },
+    "cold_review": {
+      "path": "audits/runs/d/definite/20260919T135234Z-e94458a7/cold_review.json",
+      "sha256": "f34adbe8b00ed9b6318f0bc686bd6cd94d2aff6d93a02276f26862c348992b7e",
+      "stage": "cold_review",
+      "run_id": "cold-definite-20260919T135234Z-e94458a7",
+      "context_id": "cold-definite-context-20260919T135234Z-e94458a7",
+      "input_body_sha256": "6bf439cde2a5a009f8e4e4d27f7041f7af5c66dd15e9e51aaf59bfb705b46752",
+      "prompt_sha256": "25c298d1a4305746147791bd442cd725a92737c8f0802b992ea88e5c6ff76a5d",
+      "recorded_at": "2026-09-19T14:33:33.411901+00:00"
+    },
+    "resolutions": {
+      "path": "audits/runs/d/definite/20260919T135234Z-e94458a7/resolutions.json",
+      "sha256": "a5563454a78361d13645641b3cb30e52953daf7a0af814372e2d38e48eb50524",
+      "stage": "resolutions",
+      "run_id": "resolution-definite-20260919T135234Z-e94458a7",
+      "context_id": "resolution-definite-context-20260919T135234Z-e94458a7",
+      "input_body_sha256": "fcb08ac47dc55a7ef50022fe8615ddb12b921fe50d617dd4577843cb068b99bf",
+      "prompt_sha256": "a9d45b3ce76ce719002bdd08001e84be0fb984119e14376dc1cd2e964c7e3f92",
+      "recorded_at": "2026-09-19T15:22:00Z"
+    },
+    "final_blind": {
+      "path": "audits/runs/d/definite/20260919T135234Z-e94458a7/final_blind.json",
+      "sha256": "1d53fa8d0d62d18949a74d88f95c43a795c520e4620a65332c6f313ee190f517",
+      "stage": "final_blind",
+      "run_id": "blind-definite-20260919T135234Z-e94458a7",
+      "context_id": "blind-definite-context-20260919T135234Z-e94458a7",
+      "input_body_sha256": "fcb08ac47dc55a7ef50022fe8615ddb12b921fe50d617dd4577843cb068b99bf",
+      "prompt_sha256": "3a481b4b5b1236ff386e148bcacc574570b305e79f5e155e9afcd34091f7785c",
+      "recorded_at": "2026-09-19T15:21:17.293417+00:00"
+    },
+    "blind_seal": {
+      "path": "audits/runs/d/definite/20260919T135234Z-e94458a7/blind_seal.json",
+      "sha256": "2a1ae54ab9598745aeda30db1902cfec84883610cf1b0afb6b26e94838f8bd9a",
+      "stage": "blind_seal"
+    },
+    "final_review": {
+      "path": "audits/runs/d/definite/20260919T135234Z-e94458a7/final_review.json",
+      "sha256": "7fa7d6f1c8e2bbac7b0552ffed2490bfaae40b3fe3f31b073b26c8465b13ea80",
+      "stage": "final_review",
+      "run_id": "blind-definite-20260919T135234Z-e94458a7",
+      "context_id": "blind-definite-context-20260919T135234Z-e94458a7",
+      "input_body_sha256": "fcb08ac47dc55a7ef50022fe8615ddb12b921fe50d617dd4577843cb068b99bf",
+      "prompt_sha256": "7fee3a9d388e6557c2d8a66702e890b2398ca20228e61072acc81eedafcfac9d",
+      "recorded_at": "2026-09-19T15:47:30.529375+00:00"
+    }
+  },
   "source_first_audit": {
     "version": "source_first_audit_v2",
     "profile": "standard",
@@ -1209,8 +1262,117 @@
       }
     ]
   },
-  "final_review": {
-    "decision": null,
-    "source_inventory_results": []
-  }
+  "findings": [
+    {
+      "id": "CR-definite-001",
+      "location": "語義1の【文法パターン】",
+      "severity": "medium",
+      "description": "anything/nothing definite の日本語が途中で切れており、肯定・否定の対応関係を十分に示していない。",
+      "reason": "本文の「anything/nothing definite＝何か／何も確定したもの」は、英語の anything definite と nothing definite のどちらも自然な日本語フレームに置き換え切れていない。特に anything の疑問文で「何か確定した情報」、nothing で「何も確定したものはない」という対照が見えず、学習者が nothing definite の否定範囲を取り違える余地がある。",
+      "suggested_direction": "「anything definite＝何か確定したこと・情報」「nothing definite＝何も確定したことはない」のように、肯定・否定を分けて訳す。",
+      "scope_anchors": [
+        {
+          "id": "CR-definite-001-A1",
+          "exact_quote": "anything/nothing definite＝何か／何も確定したもの",
+          "location_hint": "語義1の【文法パターン】"
+        }
+      ],
+      "origin": "cold_review"
+    },
+    {
+      "id": "CR-definite-002",
+      "location": "語義3の a definite number of コロケーション",
+      "severity": "medium",
+      "description": "definite number を「上限」と訳しており、固定された数そのものと人数制限を混同し得る。",
+      "reason": "本文の例文「Only a definite number of students can join the laboratory tour.」に対するアンカー「訳: 研究室見学に参加できる学生数には上限が決まっている。」は文脈上は成立するが、見出しの a definite number of が「具体的に決まった人数」ではなく常に「上限」を意味するように読める。英語表現が持つ固定数・明確な数という中心を狭めている。",
+      "suggested_direction": "訳を「研究室見学には決まった人数の学生だけが参加できる」などにし、上限を強調する場合は文脈由来の含意として注記する。",
+      "scope_anchors": [
+        {
+          "id": "CR-definite-002-A1",
+          "exact_quote": "訳: 研究室見学に参加できる学生数には上限が決まっている。",
+          "location_hint": "語義3の a definite number of 例文訳"
+        }
+      ],
+      "origin": "cold_review"
+    },
+    {
+      "id": "CR-definite-003",
+      "location": "語義4の definite reference to コロケーション",
+      "severity": "medium",
+      "description": "一般的な「明確な言及」を、文法上の definite reference の例として扱っている。",
+      "reason": "本文の「definite reference to 〈person/thing〉＝〈人・物〉への定の指示」とアンカー「例: The article makes a definite reference to the company’s earlier report.」は、記事が以前の報告書に明確に言及するという一般語義の reference であり、名詞句の指示対象が特定可能であるという文法用語の definite reference を直接示していない。語義4の定義と例文の専門範囲がずれている。",
+      "suggested_direction": "文法語義の例を definite reference の指示性を実際に示す文に差し替えるか、このコロケーションを一般語義側へ移して「明確な言及」と説明する。",
+      "scope_anchors": [
+        {
+          "id": "CR-definite-003-A1",
+          "exact_quote": "例: The article makes a definite reference to the company’s earlier report.",
+          "location_hint": "語義4の definite reference to 例文"
+        }
+      ],
+      "origin": "cold_review"
+    }
+  ],
+  "resolutions": [
+    {
+      "id": "CR-definite-001",
+      "finding_id": "CR-definite-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "肯定・否定の対応と否定範囲が伝わるよう anything definite と nothing definite を別々の自然な日本語フレームへ改めた。",
+      "resolved_body_sha256": "fcb08ac47dc55a7ef50022fe8615ddb12b921fe50d617dd4577843cb068b99bf"
+    },
+    {
+      "id": "CR-definite-002",
+      "finding_id": "CR-definite-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "a definite number of の中心義である「決まった人数」を保ち、上限という含意に狭めない訳へ改めた。",
+      "resolved_body_sha256": "fcb08ac47dc55a7ef50022fe8615ddb12b921fe50d617dd4577843cb068b99bf"
+    },
+    {
+      "id": "CR-definite-003",
+      "finding_id": "CR-definite-003",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "文法用語として、名詞句の指示対象が文脈上特定可能になる definite reference の例文へ差し替えた。",
+      "resolved_body_sha256": "fcb08ac47dc55a7ef50022fe8615ddb12b921fe50d617dd4577843cb068b99bf"
+    }
+  ],
+  "final_decision": {
+    "decision": "pass",
+    "blockers": [],
+    "notes": [
+      "現行本文の本文ハッシュ fcb08ac47dc55a7ef50022fe8615ddb12b921fe50d617dd4577843cb068b99bf を基準に、sealed blind、影響5 passの再チェック、再利用2 pass、3件のresolutionを照合した。"
+    ],
+    "reviewed_at": "2026-09-19T15:47:30.529375+00:00",
+    "blind_output_sha256": "511c884a02110cd107a7f38919daa54b5586f6edcabdd9a9a0762cb6a8600e4a"
+  },
+  "workflow_revision": {
+    "schema_version": "workflow_revision_v1",
+    "artifacts": {
+      "pre_blind_resolution": {
+        "path": "audits/runs/d/definite/20260919T135234Z-e94458a7/pre_blind_resolution.json",
+        "sha256": "8ab148d3af5c237c6ff458b4cfdefca18a17ffbd6ff62d09fbc8ed413f8173fd"
+      },
+      "pre_blind_revision": {
+        "path": "audits/runs/d/definite/20260919T135234Z-e94458a7/pre_blind_revision.json",
+        "sha256": "6b6ea89c9f350bfc167f47c774155908da9044aa654a4017efd04b718b5b124f"
+      },
+      "checker_recheck_manifest": {
+        "path": "audits/runs/d/definite/20260919T135234Z-e94458a7/checker_recheck_manifest.json",
+        "sha256": "78b4288e3e6883572f76b401a801e07a50a5f38fc9f2e44101313f4d2a2535c9"
+      },
+      "post_blind_resolution": {
+        "path": "audits/runs/d/definite/20260919T135234Z-e94458a7/post_blind_resolution.json",
+        "sha256": "e33350b45aa997f1dc39f36b82a9aabb8d3aa5e71c1dc788ca8a78d1a149472a"
+      },
+      "post_blind_verification": {
+        "path": "audits/runs/d/definite/20260919T135234Z-e94458a7/post_blind_verification.json",
+        "sha256": "d3f6f0c30927267fc5f4e7d8d2dd7f5b4d7a662a6a7c76100885a99430fc8c84"
+      }
+    },
+    "targeted_adjudications": []
+  },
+  "invalidated_by": [],
+  "review_liveness_errors": []
 }

@@ -1,0 +1,1313 @@
+{
+  "decision": "pass",
+  "blockers": [],
+  "notes": [
+    "現行本文の本文ハッシュ fcb08ac47dc55a7ef50022fe8615ddb12b921fe50d617dd4577843cb068b99bf を基準に、sealed blind、影響5 passの再チェック、再利用2 pass、3件のresolutionを照合した。"
+  ],
+  "target_results": [
+    {
+      "id": "pronunciation:001",
+      "status": "pass",
+      "target_id": "pronunciation:001"
+    },
+    {
+      "id": "etymology:001",
+      "status": "pass",
+      "target_id": "etymology:001"
+    },
+    {
+      "id": "word_formation:001",
+      "status": "pass",
+      "target_id": "word_formation:001"
+    },
+    {
+      "id": "word_formation:002",
+      "status": "pass",
+      "target_id": "word_formation:002"
+    },
+    {
+      "id": "word_formation:003",
+      "status": "pass",
+      "target_id": "word_formation:003"
+    },
+    {
+      "id": "word_formation:004",
+      "status": "pass",
+      "target_id": "word_formation:004"
+    },
+    {
+      "id": "word_formation:005",
+      "status": "pass",
+      "target_id": "word_formation:005"
+    },
+    {
+      "id": "core_image:001",
+      "status": "pass",
+      "target_id": "core_image:001"
+    },
+    {
+      "id": "core_image:002",
+      "status": "pass",
+      "target_id": "core_image:002"
+    },
+    {
+      "id": "core_image:003",
+      "status": "pass",
+      "target_id": "core_image:003"
+    },
+    {
+      "id": "core_image:004",
+      "status": "pass",
+      "target_id": "core_image:004"
+    },
+    {
+      "id": "core_image:005",
+      "status": "pass",
+      "target_id": "core_image:005"
+    },
+    {
+      "id": "core_image:006",
+      "status": "pass",
+      "target_id": "core_image:006"
+    },
+    {
+      "id": "sense_boundary:001",
+      "status": "pass",
+      "target_id": "sense_boundary:001"
+    },
+    {
+      "id": "definition:001",
+      "status": "pass",
+      "target_id": "definition:001"
+    },
+    {
+      "id": "frequency:001",
+      "status": "pass",
+      "target_id": "frequency:001"
+    },
+    {
+      "id": "register:001",
+      "status": "pass",
+      "target_id": "register:001"
+    },
+    {
+      "id": "grammar_pattern:001",
+      "status": "pass",
+      "target_id": "grammar_pattern:001"
+    },
+    {
+      "id": "grammar_pattern:002",
+      "status": "pass",
+      "target_id": "grammar_pattern:002"
+    },
+    {
+      "id": "grammar_pattern:003",
+      "status": "pass",
+      "target_id": "grammar_pattern:003"
+    },
+    {
+      "id": "grammar_pattern:004",
+      "status": "pass",
+      "target_id": "grammar_pattern:004"
+    },
+    {
+      "id": "grammar_pattern:005",
+      "status": "pass",
+      "target_id": "grammar_pattern:005"
+    },
+    {
+      "id": "grammar_pattern:006",
+      "status": "pass",
+      "target_id": "grammar_pattern:006"
+    },
+    {
+      "id": "grammar_pattern:007",
+      "status": "pass",
+      "target_id": "grammar_pattern:007"
+    },
+    {
+      "id": "grammar_pattern:008",
+      "status": "pass",
+      "target_id": "grammar_pattern:008"
+    },
+    {
+      "id": "collocation:001",
+      "status": "pass",
+      "target_id": "collocation:001"
+    },
+    {
+      "id": "collocation:002",
+      "status": "pass",
+      "target_id": "collocation:002"
+    },
+    {
+      "id": "collocation:003",
+      "status": "pass",
+      "target_id": "collocation:003"
+    },
+    {
+      "id": "collocation:004",
+      "status": "pass",
+      "target_id": "collocation:004"
+    },
+    {
+      "id": "collocation:005",
+      "status": "pass",
+      "target_id": "collocation:005"
+    },
+    {
+      "id": "collocation:006",
+      "status": "pass",
+      "target_id": "collocation:006"
+    },
+    {
+      "id": "collocation:007",
+      "status": "pass",
+      "target_id": "collocation:007"
+    },
+    {
+      "id": "collocation:008",
+      "status": "pass",
+      "target_id": "collocation:008"
+    },
+    {
+      "id": "usage_note:001",
+      "status": "pass",
+      "target_id": "usage_note:001"
+    },
+    {
+      "id": "synonym:001",
+      "status": "pass",
+      "target_id": "synonym:001"
+    },
+    {
+      "id": "synonym:002",
+      "status": "pass",
+      "target_id": "synonym:002"
+    },
+    {
+      "id": "synonym:003",
+      "status": "pass",
+      "target_id": "synonym:003"
+    },
+    {
+      "id": "synonym:004",
+      "status": "pass",
+      "target_id": "synonym:004"
+    },
+    {
+      "id": "antonym:001",
+      "status": "pass",
+      "target_id": "antonym:001"
+    },
+    {
+      "id": "antonym:002",
+      "status": "pass",
+      "target_id": "antonym:002"
+    },
+    {
+      "id": "antonym:003",
+      "status": "pass",
+      "target_id": "antonym:003"
+    },
+    {
+      "id": "antonym:004",
+      "status": "pass",
+      "target_id": "antonym:004"
+    },
+    {
+      "id": "sense_boundary:002",
+      "status": "pass",
+      "target_id": "sense_boundary:002"
+    },
+    {
+      "id": "definition:002",
+      "status": "pass",
+      "target_id": "definition:002"
+    },
+    {
+      "id": "frequency:002",
+      "status": "pass",
+      "target_id": "frequency:002"
+    },
+    {
+      "id": "register:002",
+      "status": "pass",
+      "target_id": "register:002"
+    },
+    {
+      "id": "grammar_pattern:009",
+      "status": "pass",
+      "target_id": "grammar_pattern:009"
+    },
+    {
+      "id": "grammar_pattern:010",
+      "status": "pass",
+      "target_id": "grammar_pattern:010"
+    },
+    {
+      "id": "grammar_pattern:011",
+      "status": "pass",
+      "target_id": "grammar_pattern:011"
+    },
+    {
+      "id": "grammar_pattern:012",
+      "status": "pass",
+      "target_id": "grammar_pattern:012"
+    },
+    {
+      "id": "grammar_pattern:013",
+      "status": "pass",
+      "target_id": "grammar_pattern:013"
+    },
+    {
+      "id": "grammar_pattern:014",
+      "status": "pass",
+      "target_id": "grammar_pattern:014"
+    },
+    {
+      "id": "collocation:009",
+      "status": "pass",
+      "target_id": "collocation:009"
+    },
+    {
+      "id": "collocation:010",
+      "status": "pass",
+      "target_id": "collocation:010"
+    },
+    {
+      "id": "collocation:011",
+      "status": "pass",
+      "target_id": "collocation:011"
+    },
+    {
+      "id": "collocation:012",
+      "status": "pass",
+      "target_id": "collocation:012"
+    },
+    {
+      "id": "collocation:013",
+      "status": "pass",
+      "target_id": "collocation:013"
+    },
+    {
+      "id": "collocation:014",
+      "status": "pass",
+      "target_id": "collocation:014"
+    },
+    {
+      "id": "collocation:015",
+      "status": "pass",
+      "target_id": "collocation:015"
+    },
+    {
+      "id": "collocation:016",
+      "status": "pass",
+      "target_id": "collocation:016"
+    },
+    {
+      "id": "usage_note:002",
+      "status": "pass",
+      "target_id": "usage_note:002"
+    },
+    {
+      "id": "synonym:005",
+      "status": "pass",
+      "target_id": "synonym:005"
+    },
+    {
+      "id": "synonym:006",
+      "status": "pass",
+      "target_id": "synonym:006"
+    },
+    {
+      "id": "synonym:007",
+      "status": "pass",
+      "target_id": "synonym:007"
+    },
+    {
+      "id": "synonym:008",
+      "status": "pass",
+      "target_id": "synonym:008"
+    },
+    {
+      "id": "synonym:009",
+      "status": "pass",
+      "target_id": "synonym:009"
+    },
+    {
+      "id": "antonym:005",
+      "status": "pass",
+      "target_id": "antonym:005"
+    },
+    {
+      "id": "antonym:006",
+      "status": "pass",
+      "target_id": "antonym:006"
+    },
+    {
+      "id": "antonym:007",
+      "status": "pass",
+      "target_id": "antonym:007"
+    },
+    {
+      "id": "sense_boundary:003",
+      "status": "pass",
+      "target_id": "sense_boundary:003"
+    },
+    {
+      "id": "definition:003",
+      "status": "pass",
+      "target_id": "definition:003"
+    },
+    {
+      "id": "frequency:003",
+      "status": "pass",
+      "target_id": "frequency:003"
+    },
+    {
+      "id": "register:003",
+      "status": "pass",
+      "target_id": "register:003"
+    },
+    {
+      "id": "grammar_pattern:015",
+      "status": "pass",
+      "target_id": "grammar_pattern:015"
+    },
+    {
+      "id": "grammar_pattern:016",
+      "status": "pass",
+      "target_id": "grammar_pattern:016"
+    },
+    {
+      "id": "grammar_pattern:017",
+      "status": "pass",
+      "target_id": "grammar_pattern:017"
+    },
+    {
+      "id": "grammar_pattern:018",
+      "status": "pass",
+      "target_id": "grammar_pattern:018"
+    },
+    {
+      "id": "grammar_pattern:019",
+      "status": "pass",
+      "target_id": "grammar_pattern:019"
+    },
+    {
+      "id": "grammar_pattern:020",
+      "status": "pass",
+      "target_id": "grammar_pattern:020"
+    },
+    {
+      "id": "collocation:017",
+      "status": "pass",
+      "target_id": "collocation:017"
+    },
+    {
+      "id": "collocation:018",
+      "status": "pass",
+      "target_id": "collocation:018"
+    },
+    {
+      "id": "collocation:019",
+      "status": "pass",
+      "target_id": "collocation:019"
+    },
+    {
+      "id": "collocation:020",
+      "status": "pass",
+      "target_id": "collocation:020"
+    },
+    {
+      "id": "collocation:021",
+      "status": "pass",
+      "target_id": "collocation:021"
+    },
+    {
+      "id": "collocation:022",
+      "status": "pass",
+      "target_id": "collocation:022"
+    },
+    {
+      "id": "collocation:023",
+      "status": "pass",
+      "target_id": "collocation:023"
+    },
+    {
+      "id": "usage_note:003",
+      "status": "pass",
+      "target_id": "usage_note:003"
+    },
+    {
+      "id": "synonym:010",
+      "status": "pass",
+      "target_id": "synonym:010"
+    },
+    {
+      "id": "synonym:011",
+      "status": "pass",
+      "target_id": "synonym:011"
+    },
+    {
+      "id": "synonym:012",
+      "status": "pass",
+      "target_id": "synonym:012"
+    },
+    {
+      "id": "synonym:013",
+      "status": "pass",
+      "target_id": "synonym:013"
+    },
+    {
+      "id": "synonym:014",
+      "status": "pass",
+      "target_id": "synonym:014"
+    },
+    {
+      "id": "antonym:008",
+      "status": "pass",
+      "target_id": "antonym:008"
+    },
+    {
+      "id": "antonym:009",
+      "status": "pass",
+      "target_id": "antonym:009"
+    },
+    {
+      "id": "antonym:010",
+      "status": "pass",
+      "target_id": "antonym:010"
+    },
+    {
+      "id": "antonym:011",
+      "status": "pass",
+      "target_id": "antonym:011"
+    },
+    {
+      "id": "sense_boundary:004",
+      "status": "pass",
+      "target_id": "sense_boundary:004"
+    },
+    {
+      "id": "definition:004",
+      "status": "pass",
+      "target_id": "definition:004"
+    },
+    {
+      "id": "frequency:004",
+      "status": "pass",
+      "target_id": "frequency:004"
+    },
+    {
+      "id": "register:004",
+      "status": "pass",
+      "target_id": "register:004"
+    },
+    {
+      "id": "grammar_pattern:021",
+      "status": "pass",
+      "target_id": "grammar_pattern:021"
+    },
+    {
+      "id": "grammar_pattern:022",
+      "status": "pass",
+      "target_id": "grammar_pattern:022"
+    },
+    {
+      "id": "grammar_pattern:023",
+      "status": "pass",
+      "target_id": "grammar_pattern:023"
+    },
+    {
+      "id": "grammar_pattern:024",
+      "status": "pass",
+      "target_id": "grammar_pattern:024"
+    },
+    {
+      "id": "grammar_pattern:025",
+      "status": "pass",
+      "target_id": "grammar_pattern:025"
+    },
+    {
+      "id": "grammar_pattern:026",
+      "status": "pass",
+      "target_id": "grammar_pattern:026"
+    },
+    {
+      "id": "collocation:024",
+      "status": "pass",
+      "target_id": "collocation:024"
+    },
+    {
+      "id": "collocation:025",
+      "status": "pass",
+      "target_id": "collocation:025"
+    },
+    {
+      "id": "collocation:026",
+      "status": "pass",
+      "target_id": "collocation:026"
+    },
+    {
+      "id": "collocation:027",
+      "status": "pass",
+      "target_id": "collocation:027"
+    },
+    {
+      "id": "collocation:028",
+      "status": "pass",
+      "target_id": "collocation:028"
+    },
+    {
+      "id": "collocation:029",
+      "status": "pass",
+      "target_id": "collocation:029"
+    },
+    {
+      "id": "usage_note:004",
+      "status": "pass",
+      "target_id": "usage_note:004"
+    },
+    {
+      "id": "synonym:015",
+      "status": "pass",
+      "target_id": "synonym:015"
+    },
+    {
+      "id": "synonym:016",
+      "status": "pass",
+      "target_id": "synonym:016"
+    },
+    {
+      "id": "synonym:017",
+      "status": "pass",
+      "target_id": "synonym:017"
+    },
+    {
+      "id": "antonym:012",
+      "status": "pass",
+      "target_id": "antonym:012"
+    },
+    {
+      "id": "antonym:013",
+      "status": "pass",
+      "target_id": "antonym:013"
+    },
+    {
+      "id": "antonym:014",
+      "status": "pass",
+      "target_id": "antonym:014"
+    },
+    {
+      "id": "sense_boundary:005",
+      "status": "pass",
+      "target_id": "sense_boundary:005"
+    },
+    {
+      "id": "definition:005",
+      "status": "pass",
+      "target_id": "definition:005"
+    },
+    {
+      "id": "frequency:005",
+      "status": "pass",
+      "target_id": "frequency:005"
+    },
+    {
+      "id": "register:005",
+      "status": "pass",
+      "target_id": "register:005"
+    },
+    {
+      "id": "grammar_pattern:027",
+      "status": "pass",
+      "target_id": "grammar_pattern:027"
+    },
+    {
+      "id": "grammar_pattern:028",
+      "status": "pass",
+      "target_id": "grammar_pattern:028"
+    },
+    {
+      "id": "grammar_pattern:029",
+      "status": "pass",
+      "target_id": "grammar_pattern:029"
+    },
+    {
+      "id": "collocation:030",
+      "status": "pass",
+      "target_id": "collocation:030"
+    },
+    {
+      "id": "collocation:031",
+      "status": "pass",
+      "target_id": "collocation:031"
+    },
+    {
+      "id": "collocation:032",
+      "status": "pass",
+      "target_id": "collocation:032"
+    },
+    {
+      "id": "usage_note:005",
+      "status": "pass",
+      "target_id": "usage_note:005"
+    },
+    {
+      "id": "synonym:018",
+      "status": "pass",
+      "target_id": "synonym:018"
+    },
+    {
+      "id": "synonym:019",
+      "status": "pass",
+      "target_id": "synonym:019"
+    },
+    {
+      "id": "antonym:015",
+      "status": "pass",
+      "target_id": "antonym:015"
+    },
+    {
+      "id": "antonym:016",
+      "status": "pass",
+      "target_id": "antonym:016"
+    }
+  ],
+  "relation_results": [
+    {
+      "id": "example_translation:001",
+      "status": "pass",
+      "relation_id": "example_translation:001"
+    },
+    {
+      "id": "example_translation:002",
+      "status": "pass",
+      "relation_id": "example_translation:002"
+    },
+    {
+      "id": "example_translation:003",
+      "status": "pass",
+      "relation_id": "example_translation:003"
+    },
+    {
+      "id": "example_translation:004",
+      "status": "pass",
+      "relation_id": "example_translation:004"
+    },
+    {
+      "id": "example_translation:005",
+      "status": "pass",
+      "relation_id": "example_translation:005"
+    },
+    {
+      "id": "example_translation:006",
+      "status": "pass",
+      "relation_id": "example_translation:006"
+    },
+    {
+      "id": "example_translation:007",
+      "status": "pass",
+      "relation_id": "example_translation:007"
+    },
+    {
+      "id": "example_translation:008",
+      "status": "pass",
+      "relation_id": "example_translation:008"
+    },
+    {
+      "id": "example_translation:009",
+      "status": "pass",
+      "relation_id": "example_translation:009"
+    },
+    {
+      "id": "example_translation:010",
+      "status": "pass",
+      "relation_id": "example_translation:010"
+    },
+    {
+      "id": "example_translation:011",
+      "status": "pass",
+      "relation_id": "example_translation:011"
+    },
+    {
+      "id": "example_translation:012",
+      "status": "pass",
+      "relation_id": "example_translation:012"
+    },
+    {
+      "id": "example_translation:013",
+      "status": "pass",
+      "relation_id": "example_translation:013"
+    },
+    {
+      "id": "example_translation:014",
+      "status": "pass",
+      "relation_id": "example_translation:014"
+    },
+    {
+      "id": "example_translation:015",
+      "status": "pass",
+      "relation_id": "example_translation:015"
+    },
+    {
+      "id": "example_translation:016",
+      "status": "pass",
+      "relation_id": "example_translation:016"
+    },
+    {
+      "id": "example_translation:017",
+      "status": "pass",
+      "relation_id": "example_translation:017"
+    },
+    {
+      "id": "example_translation:018",
+      "status": "pass",
+      "relation_id": "example_translation:018"
+    },
+    {
+      "id": "example_translation:019",
+      "status": "pass",
+      "relation_id": "example_translation:019"
+    },
+    {
+      "id": "example_translation:020",
+      "status": "pass",
+      "relation_id": "example_translation:020"
+    },
+    {
+      "id": "example_translation:021",
+      "status": "pass",
+      "relation_id": "example_translation:021"
+    },
+    {
+      "id": "example_translation:022",
+      "status": "pass",
+      "relation_id": "example_translation:022"
+    },
+    {
+      "id": "example_translation:023",
+      "status": "pass",
+      "relation_id": "example_translation:023"
+    },
+    {
+      "id": "example_translation:024",
+      "status": "pass",
+      "relation_id": "example_translation:024"
+    },
+    {
+      "id": "example_translation:025",
+      "status": "pass",
+      "relation_id": "example_translation:025"
+    },
+    {
+      "id": "example_translation:026",
+      "status": "pass",
+      "relation_id": "example_translation:026"
+    },
+    {
+      "id": "example_translation:027",
+      "status": "pass",
+      "relation_id": "example_translation:027"
+    },
+    {
+      "id": "example_translation:028",
+      "status": "pass",
+      "relation_id": "example_translation:028"
+    },
+    {
+      "id": "example_translation:029",
+      "status": "pass",
+      "relation_id": "example_translation:029"
+    },
+    {
+      "id": "example_translation:030",
+      "status": "pass",
+      "relation_id": "example_translation:030"
+    },
+    {
+      "id": "example_translation:031",
+      "status": "pass",
+      "relation_id": "example_translation:031"
+    },
+    {
+      "id": "example_translation:032",
+      "status": "pass",
+      "relation_id": "example_translation:032"
+    },
+    {
+      "id": "sense_definition_consistency:001",
+      "status": "pass",
+      "relation_id": "sense_definition_consistency:001"
+    },
+    {
+      "id": "definition_usage_consistency:001",
+      "status": "pass",
+      "relation_id": "definition_usage_consistency:001"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:001",
+      "status": "pass",
+      "relation_id": "definition_lexical_relation_consistency:001"
+    },
+    {
+      "id": "pattern_example_coverage:001",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:001"
+    },
+    {
+      "id": "pattern_example_coverage:002",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:002"
+    },
+    {
+      "id": "pattern_example_coverage:003",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:003"
+    },
+    {
+      "id": "pattern_example_coverage:004",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:004"
+    },
+    {
+      "id": "pattern_example_coverage:005",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:005"
+    },
+    {
+      "id": "pattern_example_coverage:006",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:006"
+    },
+    {
+      "id": "pattern_example_coverage:007",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:007"
+    },
+    {
+      "id": "pattern_example_coverage:008",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:008"
+    },
+    {
+      "id": "sense_definition_consistency:002",
+      "status": "pass",
+      "relation_id": "sense_definition_consistency:002"
+    },
+    {
+      "id": "definition_usage_consistency:002",
+      "status": "pass",
+      "relation_id": "definition_usage_consistency:002"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:002",
+      "status": "pass",
+      "relation_id": "definition_lexical_relation_consistency:002"
+    },
+    {
+      "id": "pattern_example_coverage:009",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:009"
+    },
+    {
+      "id": "pattern_example_coverage:010",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:010"
+    },
+    {
+      "id": "pattern_example_coverage:011",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:011"
+    },
+    {
+      "id": "pattern_example_coverage:012",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:012"
+    },
+    {
+      "id": "pattern_example_coverage:013",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:013"
+    },
+    {
+      "id": "pattern_example_coverage:014",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:014"
+    },
+    {
+      "id": "sense_definition_consistency:003",
+      "status": "pass",
+      "relation_id": "sense_definition_consistency:003"
+    },
+    {
+      "id": "definition_usage_consistency:003",
+      "status": "pass",
+      "relation_id": "definition_usage_consistency:003"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:003",
+      "status": "pass",
+      "relation_id": "definition_lexical_relation_consistency:003"
+    },
+    {
+      "id": "pattern_example_coverage:015",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:015"
+    },
+    {
+      "id": "pattern_example_coverage:016",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:016"
+    },
+    {
+      "id": "pattern_example_coverage:017",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:017"
+    },
+    {
+      "id": "pattern_example_coverage:018",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:018"
+    },
+    {
+      "id": "pattern_example_coverage:019",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:019"
+    },
+    {
+      "id": "pattern_example_coverage:020",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:020"
+    },
+    {
+      "id": "sense_definition_consistency:004",
+      "status": "pass",
+      "relation_id": "sense_definition_consistency:004"
+    },
+    {
+      "id": "definition_usage_consistency:004",
+      "status": "pass",
+      "relation_id": "definition_usage_consistency:004"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:004",
+      "status": "pass",
+      "relation_id": "definition_lexical_relation_consistency:004"
+    },
+    {
+      "id": "pattern_example_coverage:021",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:021"
+    },
+    {
+      "id": "pattern_example_coverage:022",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:022"
+    },
+    {
+      "id": "pattern_example_coverage:023",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:023"
+    },
+    {
+      "id": "pattern_example_coverage:024",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:024"
+    },
+    {
+      "id": "pattern_example_coverage:025",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:025"
+    },
+    {
+      "id": "pattern_example_coverage:026",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:026"
+    },
+    {
+      "id": "sense_definition_consistency:005",
+      "status": "pass",
+      "relation_id": "sense_definition_consistency:005"
+    },
+    {
+      "id": "definition_usage_consistency:005",
+      "status": "pass",
+      "relation_id": "definition_usage_consistency:005"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:005",
+      "status": "pass",
+      "relation_id": "definition_lexical_relation_consistency:005"
+    },
+    {
+      "id": "pattern_example_coverage:027",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:027"
+    },
+    {
+      "id": "pattern_example_coverage:028",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:028"
+    },
+    {
+      "id": "pattern_example_coverage:029",
+      "status": "pass",
+      "relation_id": "pattern_example_coverage:029"
+    },
+    {
+      "id": "core_inventory_consistency:001",
+      "status": "pass",
+      "relation_id": "core_inventory_consistency:001"
+    },
+    {
+      "id": "core_sense_mapping:001",
+      "status": "pass",
+      "relation_id": "core_sense_mapping:001"
+    },
+    {
+      "id": "core_sense_mapping:002",
+      "status": "pass",
+      "relation_id": "core_sense_mapping:002"
+    },
+    {
+      "id": "core_sense_mapping:003",
+      "status": "pass",
+      "relation_id": "core_sense_mapping:003"
+    },
+    {
+      "id": "core_sense_mapping:004",
+      "status": "pass",
+      "relation_id": "core_sense_mapping:004"
+    },
+    {
+      "id": "core_sense_mapping:005",
+      "status": "pass",
+      "relation_id": "core_sense_mapping:005"
+    },
+    {
+      "id": "article_learning_risk:001",
+      "status": "pass",
+      "relation_id": "article_learning_risk:001"
+    }
+  ],
+  "normal_candidate_results": [],
+  "blind_candidate_results": [
+    {
+      "id": "IC-definite-001",
+      "status": "pass",
+      "assertion_ids": [
+        "IC-definite-001-SA-001",
+        "IC-definite-001-SA-002"
+      ],
+      "verified_body_sha256": "fcb08ac47dc55a7ef50022fe8615ddb12b921fe50d617dd4577843cb068b99bf"
+    },
+    {
+      "id": "IC-definite-002",
+      "status": "pass",
+      "assertion_ids": [
+        "IC-definite-002-SA-001",
+        "IC-definite-002-SA-002"
+      ],
+      "verified_body_sha256": "fcb08ac47dc55a7ef50022fe8615ddb12b921fe50d617dd4577843cb068b99bf"
+    },
+    {
+      "id": "IC-definite-003",
+      "status": "pass",
+      "assertion_ids": [
+        "IC-definite-003-SA-001",
+        "IC-definite-003-SA-002"
+      ],
+      "verified_body_sha256": "fcb08ac47dc55a7ef50022fe8615ddb12b921fe50d617dd4577843cb068b99bf"
+    },
+    {
+      "id": "IC-definite-004",
+      "status": "pass",
+      "assertion_ids": [
+        "IC-definite-004-SA-001",
+        "IC-definite-004-SA-002"
+      ],
+      "verified_body_sha256": "fcb08ac47dc55a7ef50022fe8615ddb12b921fe50d617dd4577843cb068b99bf"
+    },
+    {
+      "id": "IC-definite-005",
+      "status": "pass",
+      "assertion_ids": [
+        "IC-definite-005-SA-001",
+        "IC-definite-005-SA-002"
+      ],
+      "verified_body_sha256": "fcb08ac47dc55a7ef50022fe8615ddb12b921fe50d617dd4577843cb068b99bf"
+    },
+    {
+      "id": "IC-definite-006",
+      "status": "pass",
+      "assertion_ids": [
+        "IC-definite-006-SA-001"
+      ],
+      "verified_body_sha256": "fcb08ac47dc55a7ef50022fe8615ddb12b921fe50d617dd4577843cb068b99bf"
+    },
+    {
+      "id": "IC-definite-007",
+      "status": "pass",
+      "assertion_ids": [
+        "IC-definite-007-SA-001"
+      ],
+      "verified_body_sha256": "fcb08ac47dc55a7ef50022fe8615ddb12b921fe50d617dd4577843cb068b99bf"
+    },
+    {
+      "id": "IC-definite-008",
+      "status": "pass",
+      "assertion_ids": [
+        "IC-definite-008-SA-001"
+      ],
+      "verified_body_sha256": "fcb08ac47dc55a7ef50022fe8615ddb12b921fe50d617dd4577843cb068b99bf"
+    },
+    {
+      "id": "IC-definite-009",
+      "status": "pass",
+      "assertion_ids": [
+        "IC-definite-009-SA-001"
+      ],
+      "verified_body_sha256": "fcb08ac47dc55a7ef50022fe8615ddb12b921fe50d617dd4577843cb068b99bf"
+    }
+  ],
+  "finding_results": [
+    {
+      "id": "CR-definite-001",
+      "status": "pass",
+      "notes": "anything definite と nothing definite の訳を現行本文で確認し、肯定・否定の意味範囲が分かれる修正を採用済みと確認した。"
+    },
+    {
+      "id": "CR-definite-002",
+      "status": "pass",
+      "notes": "a definite number of の訳が上限に狭められず「決まった人数」を保つ修正を確認した。"
+    },
+    {
+      "id": "CR-definite-003",
+      "status": "pass",
+      "notes": "definite reference の文法用例が指示対象の特定可能性を示す内容へ差し替え済みと確認した。"
+    }
+  ],
+  "evidence_checks": [
+    {
+      "id": "ev-definite-pronunciation",
+      "status": "pass"
+    },
+    {
+      "id": "ev-definite-etymology",
+      "status": "pass"
+    },
+    {
+      "id": "ev-definite-senses",
+      "status": "pass"
+    },
+    {
+      "id": "ev-definite-grammar",
+      "status": "pass"
+    },
+    {
+      "id": "ev-definite-botany",
+      "status": "pass"
+    },
+    {
+      "id": "ev-definite-calculus",
+      "status": "pass"
+    }
+  ],
+  "source_inventory_results": [
+    {
+      "id": "u-ca-certainty",
+      "status": "pass",
+      "union_id": "u-ca-certainty"
+    },
+    {
+      "id": "u-ca-clarity",
+      "status": "pass",
+      "union_id": "u-ca-clarity"
+    },
+    {
+      "id": "u-ca-pronunciation",
+      "status": "pass",
+      "union_id": "u-ca-pronunciation"
+    },
+    {
+      "id": "u-ca-usage",
+      "status": "pass",
+      "union_id": "u-ca-usage"
+    },
+    {
+      "id": "u-mw-ambiguous",
+      "status": "pass",
+      "union_id": "u-mw-ambiguous"
+    },
+    {
+      "id": "u-mw-limits",
+      "status": "pass",
+      "union_id": "u-mw-limits"
+    },
+    {
+      "id": "u-mw-grammar",
+      "status": "pass",
+      "union_id": "u-mw-grammar"
+    },
+    {
+      "id": "u-mw-botany",
+      "status": "pass",
+      "union_id": "u-mw-botany"
+    },
+    {
+      "id": "u-mw-definitely",
+      "status": "pass",
+      "union_id": "u-mw-definitely"
+    },
+    {
+      "id": "u-mw-definiteness",
+      "status": "pass",
+      "union_id": "u-mw-definiteness"
+    },
+    {
+      "id": "u-mw-definitive",
+      "status": "pass",
+      "union_id": "u-mw-definitive"
+    },
+    {
+      "id": "u-bc-reference",
+      "status": "pass",
+      "union_id": "u-bc-reference"
+    },
+    {
+      "id": "u-bc-groups",
+      "status": "pass",
+      "union_id": "u-bc-groups"
+    },
+    {
+      "id": "u-ox-article",
+      "status": "pass",
+      "union_id": "u-ox-article"
+    },
+    {
+      "id": "u-etym-history",
+      "status": "pass",
+      "union_id": "u-etym-history"
+    },
+    {
+      "id": "u-etym-family",
+      "status": "pass",
+      "union_id": "u-etym-family"
+    },
+    {
+      "id": "u-ka-bounds",
+      "status": "pass",
+      "union_id": "u-ka-bounds"
+    }
+  ],
+  "input_revision_id": "d8f943d9e0354e1c8aab61894637118803b6325893c5f6289a8188bf9922d895",
+  "blind_output_sha256": "511c884a02110cd107a7f38919daa54b5586f6edcabdd9a9a0762cb6a8600e4a",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "agent_id": "reviewer-definite-final-review-fallback-20260919"
+  }
+}
