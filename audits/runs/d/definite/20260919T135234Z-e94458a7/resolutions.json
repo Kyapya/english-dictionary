@@ -1,0 +1,40 @@
+{
+  "schema_version": "resolutions_v1",
+  "stage": "resolutions",
+  "run_id": "resolution-definite-20260919T135234Z-e94458a7",
+  "context_id": "resolution-definite-context-20260919T135234Z-e94458a7",
+  "input_body_sha256": "fcb08ac47dc55a7ef50022fe8615ddb12b921fe50d617dd4577843cb068b99bf",
+  "prompt_sha256": "a9d45b3ce76ce719002bdd08001e84be0fb984119e14376dc1cd2e964c7e3f92",
+  "recorded_at": "2026-09-19T15:22:00Z",
+  "input_artifacts": [
+    "entry_body",
+    "all_findings"
+  ],
+  "resolutions": [
+    {
+      "id": "CR-definite-001",
+      "finding_id": "CR-definite-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "肯定・否定の対応と否定範囲が伝わるよう anything definite と nothing definite を別々の自然な日本語フレームへ改めた。",
+      "resolved_body_sha256": "fcb08ac47dc55a7ef50022fe8615ddb12b921fe50d617dd4577843cb068b99bf"
+    },
+    {
+      "id": "CR-definite-002",
+      "finding_id": "CR-definite-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "a definite number of の中心義である「決まった人数」を保ち、上限という含意に狭めない訳へ改めた。",
+      "resolved_body_sha256": "fcb08ac47dc55a7ef50022fe8615ddb12b921fe50d617dd4577843cb068b99bf"
+    },
+    {
+      "id": "CR-definite-003",
+      "finding_id": "CR-definite-003",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "文法用語として、名詞句の指示対象が文脈上特定可能になる definite reference の例文へ差し替えた。",
+      "resolved_body_sha256": "fcb08ac47dc55a7ef50022fe8615ddb12b921fe50d617dd4577843cb068b99bf"
+    }
+  ]
+}
+

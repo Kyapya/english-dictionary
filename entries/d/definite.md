@@ -43,7 +43,7 @@ definite の共通核は、「境界・同一性・判断を曖昧さから切�
 
 【頻度】〈9/10〉  
 
-【レジスター/領域】標準語で、会話・ビジネス・報道・公式文書まで広く使う。計画や合意の確定性を述べるときに多く、日常会話では sure が話者の確信、definite が決定や内容の確定を表しやすい。  
+【レジスター/領域】標準語で、会話・ビジネス・報道・公式文書まで広く使う。計画や合意の確定性を述べるときに多く、日常会話では sure が話者の確信、definite が決定や内容の確定を表しやすい。ここでの頻度の数値はこの辞書内の学習上の相対目安で、10は日常・一般文書で頻出、1は限定的な専門用法を表す。特定領域内のコーパス頻度や厳密な語義間順位ではない。  
 
 【文法パターン】a definite answer/decision/plan/date/deadline＝確定した答え・決定・計画・日付・期限／a definite agreement/offer/commitment＝明確に成立した合意・正式な申し出・確約／have no definite plans/ideas＝決まった計画・具体的な考えがない／anything definite＝何か確定したこと・情報／nothing definite＝何も確定したことはない／be definite about something＝ある事柄について態度・内容を明確にする／a definite yes/no＝はっきりした賛成／拒否。  
 
@@ -203,7 +203,7 @@ definite の共通核は、「境界・同一性・判断を曖昧さから切�
 例: He left the room with a definite sense of relief.  
 訳: 彼は明確な安堵感を抱いて部屋を出た。  
 
-【語法・注意】この用法の definite は「証明された」と同義ではない。`a definite improvement` は改善がはっきり認められるという意味で、科学的な因果関係が完全に証明されたという意味ではない。`a definite possibility` は「確実に起こること」ではなく「現実味のある可能性」である。obvious は誰にとってもすぐ分かること、clear は混乱や曖昧さがないこと、noticeable は知覚上目立つことを強調し、definite は変化・差・効果などを明確なものとして認めることに焦点がある。  
+【語法・注意】この用法の definite は「証明された」と同義ではない。`a definite improvement` は改善がはっきり認められるという意味で、科学的な因果関係が完全に証明されたという意味ではない。`a definite possibility` は「確実に起こること」ではなく「現実味のある可能性」である。obvious は文脈や話者にとって明白と評価されること、clear は混乱や曖昧さがないこと、noticeable は知覚上目立つことを強調し、definite は変化・差・効果などを明確なものとして認めることに焦点がある。  
 
 【類義語】
 
@@ -271,7 +271,7 @@ definite の共通核は、「境界・同一性・判断を曖昧さから切�
 
 【頻度】〈7/10〉  
 
-【レジスター/領域】標準語だが、契約・行政・学術・数学・技術文書で特に多い。specific は選び出された個別性、exact は数値や内容の厳密な一致、definite は範囲や条件が定まっていることを強調しやすい。  
+【レジスター/領域】標準語。契約・行政・学術・技術文書では形式的な用法が現れ、数学では `definite integral` などの専門連語で使われる。specific は選び出された個別性、exact は数値や内容の厳密な一致、definite は範囲や条件が定まっていることを強調しやすい。  
 
 【文法パターン】a definite amount/number/quantity/period＝具体的な量・数・期間／at a definite time/stage＝特定の時点・段階で／within definite limits＝明確な範囲内で／definite information/details＝具体的な情報・詳細／a definite shape/form＝はっきり定まった形・形式／a definite integral＝定積分。  
   
@@ -298,7 +298,7 @@ definite の共通核は、「境界・同一性・判断を曖昧さから切�
 訳: 輸送中、温度は明確に定められた範囲内に保たなければならない。  
 
 ・definite information about 〈topic〉  
-用途: 推測や噂ではなく、内容が確認できる具体的な情報を表す。  
+用途: 内容が具体的で明確な情報を表し、文脈によっては確かな情報を含意する。  
 例: We need definite information about the delivery schedule before placing the order.  
 訳: 注文を出す前に、納入予定について具体的な情報が必要だ。  
 
@@ -312,7 +312,7 @@ definite の共通核は、「境界・同一性・判断を曖昧さから切�
 例: The area under the curve can be calculated with a definite integral.  
 訳: 曲線の下の面積は定積分で計算できる。  
 
-【語法・注意】`a definite amount` は「量が決まっている」ことを示すが、必ずしも聞き手がその数値を知っているとは限らない。`specific` は「その特定のもの」という選択に、`exact` は誤差のない数値・内容に焦点がある。`definite information` は具体的で確認可能な情報、`definite plans` は決定済みの予定というように、名詞によって「具体的」と「確定した」のどちらが前面に出るかが変わる。`definite integral` は「確実な積分」ではなく、積分区間が定まった数学用語である。  
+【語法・注意】`a definite amount` は「量が決まっている」ことを示すが、必ずしも聞き手がその数値を知っているとは限らない。`specific` は「その特定のもの」という選択に、`exact` は誤差のない数値・内容に焦点がある。`definite information` は具体的で明確な情報（文脈によっては確かな情報）、`definite plans` は決定済みの予定というように、名詞によって「具体的」と「確定した」のどちらが前面に出るかが変わる。`definite integral` は「確実な積分」ではなく、積分区間が定まった数学用語である。  
 
 【類義語】
 
