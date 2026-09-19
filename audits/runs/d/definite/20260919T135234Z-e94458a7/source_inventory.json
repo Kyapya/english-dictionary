@@ -1,0 +1,1216 @@
+{
+  "schema_version": "source_inventory_v2",
+  "stage": "source_inventory",
+  "headword": "definite",
+  "run_id": "source-definite-20260919T135234Z-e94458a7",
+  "context_id": "source-definite-context-20260919T135234Z-e94458a7",
+  "input_body_sha256": "6bf439cde2a5a009f8e4e4d27f7041f7af5c66dd15e9e51aaf59bfb705b46752",
+  "prompt_sha256": "0377df9f9e2eeeed2d38f6a7072f675fc4eea38e948ed672004f96bc2d88f783",
+  "input_artifacts": [
+    "headword",
+    "source_first_spec"
+  ],
+  "recorded_at": "2026-09-19T14:11:30Z",
+  "evidence_link_ids": [
+    "ev-definite-pronunciation",
+    "ev-definite-etymology",
+    "ev-definite-senses",
+    "ev-definite-grammar",
+    "ev-definite-botany",
+    "ev-definite-calculus"
+  ],
+  "source_first_audit": {
+    "version": "source_first_audit_v2",
+    "profile": "standard",
+    "profile_reason": "Six-source standard inventory covers the article's general, grammatical, etymological, mathematical, and botanical uses within bounded research limits.",
+    "limits": {
+      "max_sources": 6,
+      "max_facts": 48,
+      "max_research_rounds": 2,
+      "max_post_cold_rechecks": null,
+      "max_final_attempts": 2
+    },
+    "usage": {
+      "sources_used": 6,
+      "facts_used": 24,
+      "research_rounds_used": 2,
+      "post_cold_rechecks_used": 0,
+      "final_attempts_used": 0
+    },
+    "research_status": "complete",
+    "stop_reason": "coverage_axes_closed",
+    "open_questions": [],
+    "inventory_completed_before_article_comparison": true,
+    "inventory_completed_at": "2026-09-19T14:11:30Z",
+    "article_comparison_started_at": "2026-09-19T14:11:31Z",
+    "coverage_axes": [
+      {
+        "axis": "lexical_senses",
+        "status": "covered",
+        "source_fact_ids": [
+          "CA-01",
+          "CA-02",
+          "MW-01",
+          "MW-02",
+          "MW-03",
+          "MW-04",
+          "KA-01"
+        ]
+      },
+      {
+        "axis": "part_of_speech_and_frames",
+        "status": "covered",
+        "source_fact_ids": [
+          "CA-01",
+          "CA-02",
+          "CA-04",
+          "MW-02",
+          "MW-03",
+          "BC-01",
+          "OX-02"
+        ]
+      },
+      {
+        "axis": "derived_and_related_forms",
+        "status": "covered",
+        "source_fact_ids": [
+          "MW-05",
+          "MW-06",
+          "MW-07",
+          "ET-04"
+        ]
+      },
+      {
+        "axis": "specialist_and_legal_uses",
+        "status": "covered",
+        "source_fact_ids": [
+          "MW-02",
+          "MW-04",
+          "KA-01",
+          "KA-02"
+        ],
+        "notes": "The article has mathematical and botanical specialist senses; no legal sub-sense was added."
+      },
+      {
+        "axis": "register_region_and_frequency",
+        "status": "covered",
+        "source_fact_ids": [
+          "CA-01",
+          "CA-02",
+          "CA-03",
+          "CA-04"
+        ]
+      },
+      {
+        "axis": "pronunciation_and_etymology",
+        "status": "covered",
+        "source_fact_ids": [
+          "CA-03",
+          "ET-01",
+          "ET-02",
+          "ET-03",
+          "ET-04"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "src-cambridge-definite",
+        "locator": "https://dictionary.cambridge.org/us/dictionary/learner-english/definite",
+        "source_type": "learner_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "cambridge-learner",
+        "facts": [
+          {
+            "id": "CA-01",
+            "form": "definite",
+            "kind": "lexical_sense",
+            "statement": "definite describes something fixed, certain, and not likely to change",
+            "source_detail": "Cambridge Learner's Dictionary, adjective sense 1"
+          },
+          {
+            "id": "CA-02",
+            "form": "definite",
+            "kind": "lexical_sense",
+            "statement": "definite can describe something clear and easy to see or understand",
+            "source_detail": "Cambridge Learner's Dictionary, adjective sense 2"
+          },
+          {
+            "id": "CA-03",
+            "form": "definite",
+            "kind": "pronunciation",
+            "statement": "the headword is pronounced US /ˈdefənət/ and UK /ˈdefɪnət/",
+            "source_detail": "Cambridge Learner's Dictionary, pronunciation line"
+          },
+          {
+            "id": "CA-04",
+            "form": "definite",
+            "kind": "usage",
+            "statement": "learner examples use definite with plans, dates, differences, and other noun phrases whose status or content is made clear",
+            "source_detail": "Cambridge Learner's Dictionary, examples and common usage"
+          }
+        ]
+      },
+      {
+        "id": "src-merriam-definite",
+        "locator": "https://www.merriam-webster.com/dictionary/definite",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "merriam-webster",
+        "facts": [
+          {
+            "id": "MW-01",
+            "form": "definite",
+            "kind": "lexical_sense",
+            "statement": "definite is free of ambiguity, doubt, or uncertainty and can mean unquestionable or decided",
+            "source_detail": "Merriam-Webster, adjective senses 1a and 1b"
+          },
+          {
+            "id": "MW-02",
+            "form": "definite",
+            "kind": "lexical_sense",
+            "statement": "definite can describe something having distinct or certain limits, including a fixed quantity or extent",
+            "source_detail": "Merriam-Webster, adjective sense 2"
+          },
+          {
+            "id": "MW-03",
+            "form": "definite",
+            "kind": "grammar",
+            "statement": "in grammar, definite means serving to identify or particularize the referent of a noun or noun phrase",
+            "source_detail": "Merriam-Webster, grammar sense"
+          },
+          {
+            "id": "MW-04",
+            "form": "definite",
+            "kind": "specialist",
+            "statement": "in botany, definite describes a fixed or limited number or a determinate floral growth pattern",
+            "source_detail": "Merriam-Webster, botanical sense"
+          },
+          {
+            "id": "MW-05",
+            "form": "definitely",
+            "kind": "derived_form",
+            "statement": "definitely is the adverbial derivative related to definite",
+            "source_detail": "Merriam-Webster, derived forms"
+          },
+          {
+            "id": "MW-06",
+            "form": "definiteness",
+            "kind": "derived_form",
+            "statement": "definiteness is the noun naming the quality or state of being definite",
+            "source_detail": "Merriam-Webster, derived forms"
+          },
+          {
+            "id": "MW-07",
+            "form": "definitive",
+            "kind": "related_form",
+            "statement": "definitive is a related adjective associated with a final or conclusive determination and is not interchangeable with every use of definite",
+            "source_detail": "Merriam-Webster, related-word and definition distinction"
+          }
+        ]
+      },
+      {
+        "id": "src-british-council-definite-article",
+        "locator": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/definite-article",
+        "source_type": "grammar_reference",
+        "source_role": "grammar_reference",
+        "independence_group": "british-council",
+        "facts": [
+          {
+            "id": "BC-01",
+            "form": "the",
+            "kind": "grammar",
+            "statement": "English uses the definite article the when the listener or reader knows exactly which person or thing is meant",
+            "source_detail": "British Council, Definite article"
+          },
+          {
+            "id": "BC-02",
+            "form": "the",
+            "kind": "grammar",
+            "statement": "the is used when a referent is unique in the situation or has already been mentioned or identified",
+            "source_detail": "British Council, definite article uses"
+          },
+          {
+            "id": "BC-03",
+            "form": "the",
+            "kind": "grammar",
+            "statement": "the can be used with adjectives to refer to a group of people sharing the described quality",
+            "source_detail": "British Council, the with adjectives"
+          },
+          {
+            "id": "BC-04",
+            "form": "the",
+            "kind": "grammar",
+            "statement": "definite-article choice depends on recoverable reference rather than on whether the noun is singular or plural alone",
+            "source_detail": "British Council, definite article reference guidance"
+          }
+        ]
+      },
+      {
+        "id": "src-oxford-definite-article",
+        "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/definite-article",
+        "source_type": "learner_grammar",
+        "source_role": "grammar_reference",
+        "independence_group": "oxford-learners",
+        "facts": [
+          {
+            "id": "OX-01",
+            "form": "definite article",
+            "kind": "grammar",
+            "statement": "the is the definite article in English",
+            "source_detail": "Oxford Learner's Dictionaries, definite article entry"
+          },
+          {
+            "id": "OX-02",
+            "form": "definite article",
+            "kind": "grammar",
+            "statement": "the definite article is used before a noun when the speaker means a particular person or thing",
+            "source_detail": "Oxford Learner's Dictionaries, definition and usage"
+          },
+          {
+            "id": "OX-03",
+            "form": "definite article",
+            "kind": "grammar",
+            "statement": "a noun phrase is definite when its reference can be identified from the context or shared knowledge",
+            "source_detail": "Oxford Learner's Dictionaries, grammar explanation"
+          }
+        ]
+      },
+      {
+        "id": "src-etymonline-definite",
+        "locator": "https://www.etymonline.com/word/definite",
+        "source_type": "etymology_dictionary",
+        "source_role": "etymology_reference",
+        "independence_group": "etymonline",
+        "facts": [
+          {
+            "id": "ET-01",
+            "form": "definite",
+            "kind": "etymology",
+            "statement": "definite is recorded in English from around 1500 with the sense fixed or certain and later with the sense having fixed limits",
+            "source_detail": "Etymonline, definite etymology and historical senses"
+          },
+          {
+            "id": "ET-02",
+            "form": "definite",
+            "kind": "etymology",
+            "statement": "definite comes from Latin definitus, the past participle of definire, connected with finis meaning boundary or end",
+            "source_detail": "Etymonline, Latin source and word history"
+          },
+          {
+            "id": "ET-03",
+            "form": "definite",
+            "kind": "etymology",
+            "statement": "the grammatical use of definite is recorded from the eighteenth century",
+            "source_detail": "Etymonline, grammar usage note"
+          },
+          {
+            "id": "ET-04",
+            "form": "definite",
+            "kind": "word_family",
+            "statement": "define, finite, definition, definitive, and indefinite are related through the Latin boundary and limiting word family",
+            "source_detail": "Etymonline, related etymological forms"
+          }
+        ]
+      },
+      {
+        "id": "src-khan-definite-integral",
+        "locator": "https://www.khanacademy.org/math/integral-calculus/ic-introduction-to-integral-calculus/a/definite-integrals",
+        "source_type": "educational_math",
+        "source_role": "specialist_reference",
+        "independence_group": "khan-academy",
+        "facts": [
+          {
+            "id": "KA-01",
+            "form": "definite integral",
+            "kind": "specialist",
+            "statement": "a definite integral is evaluated between a lower limit and an upper limit",
+            "source_detail": "Khan Academy, Definite integrals"
+          },
+          {
+            "id": "KA-02",
+            "form": "definite integral",
+            "kind": "specialist",
+            "statement": "a definite integral represents accumulated net change or signed area over a specified interval",
+            "source_detail": "Khan Academy, Definite integrals explanation"
+          }
+        ]
+      }
+    ],
+    "source_union": [
+      {
+        "id": "u-ca-certainty",
+        "source_fact_ids": [
+          "CA-01"
+        ],
+        "canonical_statement": "Fixed or settled status is a core general adjective sense.",
+        "disposition": "integrated",
+        "rationale": "Mapped to the first sense and its examples, usage note, and relations."
+      },
+      {
+        "id": "u-ca-clarity",
+        "source_fact_ids": [
+          "CA-02"
+        ],
+        "canonical_statement": "Clear and obvious status is a distinct general adjective sense.",
+        "disposition": "integrated",
+        "rationale": "Mapped to the second sense and its examples, usage note, and relations."
+      },
+      {
+        "id": "u-ca-pronunciation",
+        "source_fact_ids": [
+          "CA-03"
+        ],
+        "canonical_statement": "The headword has regional pronunciation variants with first-syllable stress.",
+        "disposition": "integrated",
+        "rationale": "Mapped to the pronunciation target."
+      },
+      {
+        "id": "u-ca-usage",
+        "source_fact_ids": [
+          "CA-04"
+        ],
+        "canonical_statement": "The general learner examples align with the article's high-frequency constructional coverage.",
+        "disposition": "integrated",
+        "rationale": "Mapped to the general-use senses and their construction targets."
+      },
+      {
+        "id": "u-mw-ambiguous",
+        "source_fact_ids": [
+          "MW-01"
+        ],
+        "canonical_statement": "Definite can signal absence of ambiguity, doubt, or uncertainty.",
+        "disposition": "integrated",
+        "rationale": "Mapped to settled and clear general senses."
+      },
+      {
+        "id": "u-mw-limits",
+        "source_fact_ids": [
+          "MW-02"
+        ],
+        "canonical_statement": "Definite can mark distinct or certain limits and extent.",
+        "disposition": "integrated",
+        "rationale": "Mapped to the specific-limits sense."
+      },
+      {
+        "id": "u-mw-grammar",
+        "source_fact_ids": [
+          "MW-03"
+        ],
+        "canonical_statement": "The grammatical sense identifies or particularizes reference.",
+        "disposition": "integrated",
+        "rationale": "Mapped to the grammar sense."
+      },
+      {
+        "id": "u-mw-botany",
+        "source_fact_ids": [
+          "MW-04"
+        ],
+        "canonical_statement": "Botanical definite has a technical finite or determinate meaning.",
+        "disposition": "integrated",
+        "rationale": "Mapped to the botanical sense."
+      },
+      {
+        "id": "u-mw-definitely",
+        "source_fact_ids": [
+          "MW-05"
+        ],
+        "canonical_statement": "The adverbial derivative preserves the certainty or definiteness relation.",
+        "disposition": "integrated",
+        "rationale": "Mapped to word formation and core-image targets."
+      },
+      {
+        "id": "u-mw-definiteness",
+        "source_fact_ids": [
+          "MW-06"
+        ],
+        "canonical_statement": "The noun names the abstract quality corresponding to definite.",
+        "disposition": "integrated",
+        "rationale": "Mapped to word formation and core-image targets."
+      },
+      {
+        "id": "u-mw-definitive",
+        "source_fact_ids": [
+          "MW-07"
+        ],
+        "canonical_statement": "A related finality word should not replace definite in every context.",
+        "disposition": "integrated",
+        "rationale": "Mapped to word formation and core-image targets."
+      },
+      {
+        "id": "u-bc-reference",
+        "source_fact_ids": [
+          "BC-01",
+          "BC-02"
+        ],
+        "canonical_statement": "The definite article selects a referent recoverable by speaker and listener.",
+        "disposition": "integrated",
+        "rationale": "Mapped to the grammar sense."
+      },
+      {
+        "id": "u-bc-groups",
+        "source_fact_ids": [
+          "BC-03",
+          "BC-04"
+        ],
+        "canonical_statement": "Definite-article interpretation depends on reference and construction, not number alone.",
+        "disposition": "integrated",
+        "rationale": "Mapped to the grammar sense and usage targets."
+      },
+      {
+        "id": "u-ox-article",
+        "source_fact_ids": [
+          "OX-01",
+          "OX-02",
+          "OX-03"
+        ],
+        "canonical_statement": "The learner grammar reference confirms the article's terminology and referential function.",
+        "disposition": "integrated",
+        "rationale": "Mapped to the grammar sense."
+      },
+      {
+        "id": "u-etym-history",
+        "source_fact_ids": [
+          "ET-01",
+          "ET-02",
+          "ET-03"
+        ],
+        "canonical_statement": "Historical senses connect certainty, limits, and grammatical definiteness.",
+        "disposition": "integrated",
+        "rationale": "Mapped to etymology, word formation, and core-image targets."
+      },
+      {
+        "id": "u-etym-family",
+        "source_fact_ids": [
+          "ET-04"
+        ],
+        "canonical_statement": "The boundary-and-limiting word family explains the article's related-word notes.",
+        "disposition": "integrated",
+        "rationale": "Mapped to word formation and core-image targets."
+      },
+      {
+        "id": "u-ka-bounds",
+        "source_fact_ids": [
+          "KA-01",
+          "KA-02"
+        ],
+        "canonical_statement": "Mathematical definiteness is expressed by explicit lower and upper limits.",
+        "disposition": "integrated",
+        "rationale": "Mapped to the mathematical part of the specific-limits sense."
+      }
+    ],
+    "claim_units": [
+      {
+        "id": "claim-u-ca-certainty",
+        "union_ids": [
+          "u-ca-certainty"
+        ],
+        "subject_form": "definite",
+        "claim_type": "lexical_sense",
+        "statement": "The entry's settled-decision sense presents definite as fixed and unlikely to change.",
+        "article_target_ids": [
+          "sense_boundary:001",
+          "definition:001",
+          "frequency:001",
+          "register:001",
+          "grammar_pattern:001",
+          "grammar_pattern:002",
+          "grammar_pattern:003",
+          "grammar_pattern:004",
+          "grammar_pattern:005",
+          "grammar_pattern:006",
+          "grammar_pattern:007",
+          "grammar_pattern:008",
+          "collocation:001",
+          "collocation:002",
+          "collocation:003",
+          "collocation:004",
+          "collocation:005",
+          "collocation:006",
+          "collocation:007",
+          "collocation:008",
+          "usage_note:001",
+          "synonym:001",
+          "synonym:002",
+          "synonym:003",
+          "synonym:004",
+          "antonym:001",
+          "antonym:002",
+          "antonym:003",
+          "antonym:004"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "CA-01",
+            "support_summary": "Cambridge Learner's Dictionary, adjective sense 1 supports: definite describes something fixed, certain, and not likely to change."
+          }
+        ]
+      },
+      {
+        "id": "claim-u-ca-clarity",
+        "union_ids": [
+          "u-ca-clarity"
+        ],
+        "subject_form": "definite",
+        "claim_type": "lexical_sense",
+        "statement": "The entry's observable-clarity sense presents definite as clear and easy to recognize or understand.",
+        "article_target_ids": [
+          "sense_boundary:002",
+          "definition:002",
+          "frequency:002",
+          "register:002",
+          "grammar_pattern:009",
+          "grammar_pattern:010",
+          "grammar_pattern:011",
+          "grammar_pattern:012",
+          "grammar_pattern:013",
+          "grammar_pattern:014",
+          "collocation:009",
+          "collocation:010",
+          "collocation:011",
+          "collocation:012",
+          "collocation:013",
+          "collocation:014",
+          "collocation:015",
+          "collocation:016",
+          "usage_note:002",
+          "synonym:005",
+          "synonym:006",
+          "synonym:007",
+          "synonym:008",
+          "synonym:009",
+          "antonym:005",
+          "antonym:006",
+          "antonym:007"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "CA-02",
+            "support_summary": "Cambridge Learner's Dictionary, adjective sense 2 supports: definite can describe something clear and easy to see or understand."
+          }
+        ]
+      },
+      {
+        "id": "claim-u-ca-pronunciation",
+        "union_ids": [
+          "u-ca-pronunciation"
+        ],
+        "subject_form": "definite",
+        "claim_type": "pronunciation",
+        "statement": "The article records the learner-dictionary US and UK pronunciations.",
+        "article_target_ids": [
+          "pronunciation:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "CA-03",
+            "support_summary": "Cambridge Learner's Dictionary, pronunciation line supports: the headword is pronounced US /ˈdefənət/ and UK /ˈdefɪnət/."
+          }
+        ]
+      },
+      {
+        "id": "claim-u-ca-usage",
+        "union_ids": [
+          "u-ca-usage"
+        ],
+        "subject_form": "definite",
+        "claim_type": "usage",
+        "statement": "The article's first two senses use definite with plans, dates, differences, and related noun phrases.",
+        "article_target_ids": [
+          "sense_boundary:001",
+          "definition:001",
+          "frequency:001",
+          "register:001",
+          "grammar_pattern:001",
+          "grammar_pattern:002",
+          "grammar_pattern:003",
+          "grammar_pattern:004",
+          "grammar_pattern:005",
+          "grammar_pattern:006",
+          "grammar_pattern:007",
+          "grammar_pattern:008",
+          "collocation:001",
+          "collocation:002",
+          "collocation:003",
+          "collocation:004",
+          "collocation:005",
+          "collocation:006",
+          "collocation:007",
+          "collocation:008",
+          "usage_note:001",
+          "synonym:001",
+          "synonym:002",
+          "synonym:003",
+          "synonym:004",
+          "antonym:001",
+          "antonym:002",
+          "antonym:003",
+          "antonym:004",
+          "sense_boundary:002",
+          "definition:002",
+          "frequency:002",
+          "register:002",
+          "grammar_pattern:009",
+          "grammar_pattern:010",
+          "grammar_pattern:011",
+          "grammar_pattern:012",
+          "grammar_pattern:013",
+          "grammar_pattern:014",
+          "collocation:009",
+          "collocation:010",
+          "collocation:011",
+          "collocation:012",
+          "collocation:013",
+          "collocation:014",
+          "collocation:015",
+          "collocation:016",
+          "usage_note:002",
+          "synonym:005",
+          "synonym:006",
+          "synonym:007",
+          "synonym:008",
+          "synonym:009",
+          "antonym:005",
+          "antonym:006",
+          "antonym:007"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "CA-04",
+            "support_summary": "Cambridge Learner's Dictionary, examples and common usage supports: learner examples use definite with plans, dates, differences, and other noun phrases whose status or content is made clear."
+          }
+        ]
+      },
+      {
+        "id": "claim-u-mw-ambiguous",
+        "union_ids": [
+          "u-mw-ambiguous"
+        ],
+        "subject_form": "definite",
+        "claim_type": "lexical_sense",
+        "statement": "The article distinguishes decided or unambiguous content from a speaker's mere confidence.",
+        "article_target_ids": [
+          "sense_boundary:001",
+          "definition:001",
+          "frequency:001",
+          "register:001",
+          "grammar_pattern:001",
+          "grammar_pattern:002",
+          "grammar_pattern:003",
+          "grammar_pattern:004",
+          "grammar_pattern:005",
+          "grammar_pattern:006",
+          "grammar_pattern:007",
+          "grammar_pattern:008",
+          "collocation:001",
+          "collocation:002",
+          "collocation:003",
+          "collocation:004",
+          "collocation:005",
+          "collocation:006",
+          "collocation:007",
+          "collocation:008",
+          "usage_note:001",
+          "synonym:001",
+          "synonym:002",
+          "synonym:003",
+          "synonym:004",
+          "antonym:001",
+          "antonym:002",
+          "antonym:003",
+          "antonym:004",
+          "sense_boundary:002",
+          "definition:002",
+          "frequency:002",
+          "register:002",
+          "grammar_pattern:009",
+          "grammar_pattern:010",
+          "grammar_pattern:011",
+          "grammar_pattern:012",
+          "grammar_pattern:013",
+          "grammar_pattern:014",
+          "collocation:009",
+          "collocation:010",
+          "collocation:011",
+          "collocation:012",
+          "collocation:013",
+          "collocation:014",
+          "collocation:015",
+          "collocation:016",
+          "usage_note:002",
+          "synonym:005",
+          "synonym:006",
+          "synonym:007",
+          "synonym:008",
+          "synonym:009",
+          "antonym:005",
+          "antonym:006",
+          "antonym:007"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "MW-01",
+            "support_summary": "Merriam-Webster, adjective senses 1a and 1b supports: definite is free of ambiguity, doubt, or uncertainty and can mean unquestionable or decided."
+          }
+        ]
+      },
+      {
+        "id": "claim-u-mw-limits",
+        "union_ids": [
+          "u-mw-limits"
+        ],
+        "subject_form": "definite",
+        "claim_type": "lexical_sense",
+        "statement": "The article's specificity and limits sense describes fixed or exact boundaries, including mathematical bounds.",
+        "article_target_ids": [
+          "sense_boundary:003",
+          "definition:003",
+          "frequency:003",
+          "register:003",
+          "grammar_pattern:015",
+          "grammar_pattern:016",
+          "grammar_pattern:017",
+          "grammar_pattern:018",
+          "grammar_pattern:019",
+          "grammar_pattern:020",
+          "collocation:017",
+          "collocation:018",
+          "collocation:019",
+          "collocation:020",
+          "collocation:021",
+          "collocation:022",
+          "collocation:023",
+          "usage_note:003",
+          "synonym:010",
+          "synonym:011",
+          "synonym:012",
+          "synonym:013",
+          "synonym:014",
+          "antonym:008",
+          "antonym:009",
+          "antonym:010",
+          "antonym:011"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "MW-02",
+            "support_summary": "Merriam-Webster, adjective sense 2 supports: definite can describe something having distinct or certain limits, including a fixed quantity or extent."
+          }
+        ]
+      },
+      {
+        "id": "claim-u-mw-grammar",
+        "union_ids": [
+          "u-mw-grammar"
+        ],
+        "subject_form": "definite",
+        "claim_type": "grammar",
+        "statement": "The article treats grammatical definiteness as identification of a noun phrase's referent.",
+        "article_target_ids": [
+          "sense_boundary:004",
+          "definition:004",
+          "frequency:004",
+          "register:004",
+          "grammar_pattern:021",
+          "grammar_pattern:022",
+          "grammar_pattern:023",
+          "grammar_pattern:024",
+          "grammar_pattern:025",
+          "grammar_pattern:026",
+          "collocation:024",
+          "collocation:025",
+          "collocation:026",
+          "collocation:027",
+          "collocation:028",
+          "collocation:029",
+          "usage_note:004",
+          "synonym:015",
+          "synonym:016",
+          "synonym:017",
+          "antonym:012",
+          "antonym:013",
+          "antonym:014"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "MW-03",
+            "support_summary": "Merriam-Webster, grammar sense supports: in grammar, definite means serving to identify or particularize the referent of a noun or noun phrase."
+          }
+        ]
+      },
+      {
+        "id": "claim-u-mw-botany",
+        "union_ids": [
+          "u-mw-botany"
+        ],
+        "subject_form": "definite",
+        "claim_type": "specialist",
+        "statement": "The article's botanical sense describes fixed or determinate numbers and growth patterns.",
+        "article_target_ids": [
+          "sense_boundary:005",
+          "definition:005",
+          "frequency:005",
+          "register:005",
+          "grammar_pattern:027",
+          "grammar_pattern:028",
+          "grammar_pattern:029",
+          "collocation:030",
+          "collocation:031",
+          "collocation:032",
+          "usage_note:005",
+          "synonym:018",
+          "synonym:019",
+          "antonym:015",
+          "antonym:016"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "MW-04",
+            "support_summary": "Merriam-Webster, botanical sense supports: in botany, definite describes a fixed or limited number or a determinate floral growth pattern."
+          }
+        ]
+      },
+      {
+        "id": "claim-u-mw-definitely",
+        "union_ids": [
+          "u-mw-definitely"
+        ],
+        "subject_form": "derived_form",
+        "claim_type": "definitely",
+        "statement": "The article records definitely as the adverb related to definite.",
+        "article_target_ids": [
+          "etymology:001",
+          "word_formation:001",
+          "word_formation:002",
+          "word_formation:003",
+          "word_formation:004",
+          "word_formation:005",
+          "core_image:001",
+          "core_image:002",
+          "core_image:003",
+          "core_image:004",
+          "core_image:005",
+          "core_image:006"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "MW-05",
+            "support_summary": "Merriam-Webster, derived forms supports: definitely is the adverbial derivative related to definite."
+          }
+        ]
+      },
+      {
+        "id": "claim-u-mw-definiteness",
+        "union_ids": [
+          "u-mw-definiteness"
+        ],
+        "subject_form": "definiteness",
+        "claim_type": "derived_form",
+        "statement": "The article records definiteness as the noun for the quality of being definite.",
+        "article_target_ids": [
+          "etymology:001",
+          "word_formation:001",
+          "word_formation:002",
+          "word_formation:003",
+          "word_formation:004",
+          "word_formation:005",
+          "core_image:001",
+          "core_image:002",
+          "core_image:003",
+          "core_image:004",
+          "core_image:005",
+          "core_image:006"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "MW-06",
+            "support_summary": "Merriam-Webster, derived forms supports: definiteness is the noun naming the quality or state of being definite."
+          }
+        ]
+      },
+      {
+        "id": "claim-u-mw-definitive",
+        "union_ids": [
+          "u-mw-definitive"
+        ],
+        "subject_form": "definitive",
+        "claim_type": "related_form",
+        "statement": "The article warns that definitive is related but more final or conclusive than ordinary definite.",
+        "article_target_ids": [
+          "etymology:001",
+          "word_formation:001",
+          "word_formation:002",
+          "word_formation:003",
+          "word_formation:004",
+          "word_formation:005",
+          "core_image:001",
+          "core_image:002",
+          "core_image:003",
+          "core_image:004",
+          "core_image:005",
+          "core_image:006"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "MW-07",
+            "support_summary": "Merriam-Webster, related-word and definition distinction supports: definitive is a related adjective associated with a final or conclusive determination and is not interchangeable with every use of definite."
+          }
+        ]
+      },
+      {
+        "id": "claim-u-bc-reference",
+        "union_ids": [
+          "u-bc-reference"
+        ],
+        "subject_form": "the",
+        "claim_type": "grammar",
+        "statement": "The article explains definite reference through shared knowledge, uniqueness, prior mention, or contextual identification.",
+        "article_target_ids": [
+          "sense_boundary:004",
+          "definition:004",
+          "frequency:004",
+          "register:004",
+          "grammar_pattern:021",
+          "grammar_pattern:022",
+          "grammar_pattern:023",
+          "grammar_pattern:024",
+          "grammar_pattern:025",
+          "grammar_pattern:026",
+          "collocation:024",
+          "collocation:025",
+          "collocation:026",
+          "collocation:027",
+          "collocation:028",
+          "collocation:029",
+          "usage_note:004",
+          "synonym:015",
+          "synonym:016",
+          "synonym:017",
+          "antonym:012",
+          "antonym:013",
+          "antonym:014"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "BC-01",
+            "support_summary": "British Council, Definite article supports: English uses the definite article the when the listener or reader knows exactly which person or thing is meant."
+          },
+          {
+            "source_fact_id": "BC-02",
+            "support_summary": "British Council, definite article uses supports: the is used when a referent is unique in the situation or has already been mentioned or identified."
+          }
+        ]
+      },
+      {
+        "id": "claim-u-bc-groups",
+        "union_ids": [
+          "u-bc-groups"
+        ],
+        "subject_form": "the",
+        "claim_type": "grammar",
+        "statement": "The article includes group reference and context-sensitive article choice within its explanation of definiteness.",
+        "article_target_ids": [
+          "sense_boundary:004",
+          "definition:004",
+          "frequency:004",
+          "register:004",
+          "grammar_pattern:021",
+          "grammar_pattern:022",
+          "grammar_pattern:023",
+          "grammar_pattern:024",
+          "grammar_pattern:025",
+          "grammar_pattern:026",
+          "collocation:024",
+          "collocation:025",
+          "collocation:026",
+          "collocation:027",
+          "collocation:028",
+          "collocation:029",
+          "usage_note:004",
+          "synonym:015",
+          "synonym:016",
+          "synonym:017",
+          "antonym:012",
+          "antonym:013",
+          "antonym:014"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "BC-03",
+            "support_summary": "British Council, the with adjectives supports: the can be used with adjectives to refer to a group of people sharing the described quality."
+          },
+          {
+            "source_fact_id": "BC-04",
+            "support_summary": "British Council, definite article reference guidance supports: definite-article choice depends on recoverable reference rather than on whether the noun is singular or plural alone."
+          }
+        ]
+      },
+      {
+        "id": "claim-u-ox-article",
+        "union_ids": [
+          "u-ox-article"
+        ],
+        "subject_form": "definite article",
+        "claim_type": "grammar",
+        "statement": "The article presents the as English's definite article and explains its use for identifiable particular referents.",
+        "article_target_ids": [
+          "sense_boundary:004",
+          "definition:004",
+          "frequency:004",
+          "register:004",
+          "grammar_pattern:021",
+          "grammar_pattern:022",
+          "grammar_pattern:023",
+          "grammar_pattern:024",
+          "grammar_pattern:025",
+          "grammar_pattern:026",
+          "collocation:024",
+          "collocation:025",
+          "collocation:026",
+          "collocation:027",
+          "collocation:028",
+          "collocation:029",
+          "usage_note:004",
+          "synonym:015",
+          "synonym:016",
+          "synonym:017",
+          "antonym:012",
+          "antonym:013",
+          "antonym:014"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "OX-01",
+            "support_summary": "Oxford Learner's Dictionaries, definite article entry supports: the is the definite article in English."
+          },
+          {
+            "source_fact_id": "OX-02",
+            "support_summary": "Oxford Learner's Dictionaries, definition and usage supports: the definite article is used before a noun when the speaker means a particular person or thing."
+          },
+          {
+            "source_fact_id": "OX-03",
+            "support_summary": "Oxford Learner's Dictionaries, grammar explanation supports: a noun phrase is definite when its reference can be identified from the context or shared knowledge."
+          }
+        ]
+      },
+      {
+        "id": "claim-u-etym-history",
+        "union_ids": [
+          "u-etym-history"
+        ],
+        "subject_form": "definite",
+        "claim_type": "etymology",
+        "statement": "The article traces definite from historical fixed-limit meanings and Latin boundary vocabulary into grammatical usage.",
+        "article_target_ids": [
+          "etymology:001",
+          "word_formation:001",
+          "word_formation:002",
+          "word_formation:003",
+          "word_formation:004",
+          "word_formation:005",
+          "core_image:001",
+          "core_image:002",
+          "core_image:003",
+          "core_image:004",
+          "core_image:005",
+          "core_image:006"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "ET-01",
+            "support_summary": "Etymonline, definite etymology and historical senses supports: definite is recorded in English from around 1500 with the sense fixed or certain and later with the sense having fixed limits."
+          },
+          {
+            "source_fact_id": "ET-02",
+            "support_summary": "Etymonline, Latin source and word history supports: definite comes from Latin definitus, the past participle of definire, connected with finis meaning boundary or end."
+          },
+          {
+            "source_fact_id": "ET-03",
+            "support_summary": "Etymonline, grammar usage note supports: the grammatical use of definite is recorded from the eighteenth century."
+          }
+        ]
+      },
+      {
+        "id": "claim-u-etym-family",
+        "union_ids": [
+          "u-etym-family"
+        ],
+        "subject_form": "definite",
+        "claim_type": "word_family",
+        "statement": "The article groups define, finite, definition, definitive, and indefinite as related forms.",
+        "article_target_ids": [
+          "etymology:001",
+          "word_formation:001",
+          "word_formation:002",
+          "word_formation:003",
+          "word_formation:004",
+          "word_formation:005",
+          "core_image:001",
+          "core_image:002",
+          "core_image:003",
+          "core_image:004",
+          "core_image:005",
+          "core_image:006"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "ET-04",
+            "support_summary": "Etymonline, related etymological forms supports: define, finite, definition, definitive, and indefinite are related through the Latin boundary and limiting word family."
+          }
+        ]
+      },
+      {
+        "id": "claim-u-ka-bounds",
+        "union_ids": [
+          "u-ka-bounds"
+        ],
+        "subject_form": "definite integral",
+        "claim_type": "specialist",
+        "statement": "The article uses definite integral for a bounded calculation over a specified interval and accumulated net change.",
+        "article_target_ids": [
+          "sense_boundary:003",
+          "definition:003",
+          "frequency:003",
+          "register:003",
+          "grammar_pattern:015",
+          "grammar_pattern:016",
+          "grammar_pattern:017",
+          "grammar_pattern:018",
+          "grammar_pattern:019",
+          "grammar_pattern:020",
+          "collocation:017",
+          "collocation:018",
+          "collocation:019",
+          "collocation:020",
+          "collocation:021",
+          "collocation:022",
+          "collocation:023",
+          "usage_note:003",
+          "synonym:010",
+          "synonym:011",
+          "synonym:012",
+          "synonym:013",
+          "synonym:014",
+          "antonym:008",
+          "antonym:009",
+          "antonym:010",
+          "antonym:011"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "KA-01",
+            "support_summary": "Khan Academy, Definite integrals supports: a definite integral is evaluated between a lower limit and an upper limit."
+          },
+          {
+            "source_fact_id": "KA-02",
+            "support_summary": "Khan Academy, Definite integrals explanation supports: a definite integral represents accumulated net change or signed area over a specified interval."
+          }
+        ]
+      }
+    ]
+  },
+  "final_review": {
+    "decision": null,
+    "source_inventory_results": []
+  }
+}

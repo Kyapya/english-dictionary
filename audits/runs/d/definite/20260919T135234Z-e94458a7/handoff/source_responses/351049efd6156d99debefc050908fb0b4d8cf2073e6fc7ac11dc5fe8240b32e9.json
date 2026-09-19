@@ -1,0 +1,111 @@
+{
+  "schema_version": "antonym_axis_blind_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "6bf439cde2a5a009f8e4e4d27f7041f7af5c66dd15e9e51aaf59bfb705b46752",
+  "blind_request_sha256": "b295dc96952152716214e3e8cfd5e5666a4da5a8e6b280aec2c4447030e67c33",
+  "recorded_at": "2026-09-19T14:22:01Z",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-6-astra",
+    "ingested_by": "human",
+    "agent_id": "reviewer-definite-frame-relation-20260919"
+  },
+  "axes": [
+    {
+      "item_id": "ant-d8cdab9d17a7",
+      "axis": "明瞭性",
+      "relation_type": "程度",
+      "reason": "indistinct は definite の明瞭性に対する反対側の状態・程度を示す。"
+    },
+    {
+      "item_id": "ant-bd78359dead5",
+      "axis": "有限性",
+      "relation_type": "状態",
+      "reason": "indefinite は definite の有限性に対する反対側の状態・程度を示す。"
+    },
+    {
+      "item_id": "ant-1c347dcd4402",
+      "axis": "具体性",
+      "relation_type": "状態",
+      "reason": "unspecified は definite の具体性に対する反対側の状態・程度を示す。"
+    },
+    {
+      "item_id": "ant-818f8d4e4aa3",
+      "axis": "指示性",
+      "relation_type": "状態",
+      "reason": "generic は definite の指示性に対する反対側の状態・程度を示す。"
+    },
+    {
+      "item_id": "ant-72aede0d05ae",
+      "axis": "有限性",
+      "relation_type": "状態",
+      "reason": "indefinite は definite の有限性に対する反対側の状態・程度を示す。"
+    },
+    {
+      "item_id": "ant-b94874c1fb0a",
+      "axis": "明瞭性",
+      "relation_type": "程度",
+      "reason": "unclear は definite の明瞭性に対する反対側の状態・程度を示す。"
+    },
+    {
+      "item_id": "ant-0f692a54b438",
+      "axis": "確定性",
+      "relation_type": "状態",
+      "reason": "undecided は definite の確定性に対する反対側の状態・程度を示す。"
+    },
+    {
+      "item_id": "ant-26ef8568abaf",
+      "axis": "有限性",
+      "relation_type": "状態",
+      "reason": "indeterminate は definite の有限性に対する反対側の状態・程度を示す。"
+    },
+    {
+      "item_id": "ant-e4bf06db3822",
+      "axis": "有限性",
+      "relation_type": "状態",
+      "reason": "indefinite は definite の有限性に対する反対側の状態・程度を示す。"
+    },
+    {
+      "item_id": "ant-9a3ffea3963f",
+      "axis": "明瞭性",
+      "relation_type": "程度",
+      "reason": "imperceptible は definite の明瞭性に対する反対側の状態・程度を示す。"
+    },
+    {
+      "item_id": "ant-ff69a1a9f3cd",
+      "axis": "確定性",
+      "relation_type": "状態",
+      "reason": "uncertain は definite の確定性に対する反対側の状態・程度を示す。"
+    },
+    {
+      "item_id": "ant-c7e3f2e53104",
+      "axis": "有限性",
+      "relation_type": "状態",
+      "reason": "unlimited は definite の有限性に対する反対側の状態・程度を示す。"
+    },
+    {
+      "item_id": "ant-c5c7ab207470",
+      "axis": "確定性",
+      "relation_type": "状態",
+      "reason": "tentative は definite の確定性に対する反対側の状態・程度を示す。"
+    },
+    {
+      "item_id": "ant-edb72631391b",
+      "axis": "有限性",
+      "relation_type": "状態",
+      "reason": "indefinite は definite の有限性に対する反対側の状態・程度を示す。"
+    },
+    {
+      "item_id": "ant-474db3bb568c",
+      "axis": "同定性",
+      "relation_type": "状態",
+      "reason": "unidentified は definite の同定性に対する反対側の状態・程度を示す。"
+    },
+    {
+      "item_id": "ant-e02007848369",
+      "axis": "具体性",
+      "relation_type": "状態",
+      "reason": "vague は definite の具体性に対する反対側の状態・程度を示す。"
+    }
+  ]
+}

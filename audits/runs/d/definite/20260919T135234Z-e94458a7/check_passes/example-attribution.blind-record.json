@@ -1,0 +1,371 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "input_body_sha256": "6bf439cde2a5a009f8e4e4d27f7041f7af5c66dd15e9e51aaf59bfb705b46752",
+  "blind_request_sha256": "168991cdba2c145ca3b1c79fc4aa455b5b822191ca5693bd37ce1f9a2f437d2f",
+  "recorded_at": "2026-09-19T14:22:00Z",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-6-astra",
+    "ingested_by": "orchestrator",
+    "agent_id": "reviewer-definite-example-attribution-20260919",
+    "source_response": {
+      "path": "audits/runs/d/definite/20260919T135234Z-e94458a7/handoff/source_responses/01b0e48365017d031cf864e1cf40e001d93e58d786a4bc19b2d38f3f43940f62.json",
+      "sha256": "01b0e48365017d031cf864e1cf40e001d93e58d786a4bc19b2d38f3f43940f62"
+    }
+  },
+  "attributions": [
+    {
+      "example_id": "ex-d644a79b4b50",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "Sleep has a definite"
+      ],
+      "rationale": "「Sleep has a definite」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+    },
+    {
+      "example_id": "ex-54354c2cfdf7",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "Do you know anything"
+      ],
+      "rationale": "「Do you know anything」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+    },
+    {
+      "example_id": "ex-6c9f83869c1a",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "Please be definite about"
+      ],
+      "rationale": "「Please be definite about」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+    },
+    {
+      "example_id": "ex-f79c1f44a25b",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:005"
+      ],
+      "discriminating_terms": [
+        "The species has definite"
+      ],
+      "rationale": "「The species has definite」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+    },
+    {
+      "example_id": "ex-988fa8138f86",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "The area under the"
+      ],
+      "rationale": "「The area under the」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+    },
+    {
+      "example_id": "ex-fe878351926f",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "There is a definite"
+      ],
+      "rationale": "「There is a definite」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+    },
+    {
+      "example_id": "ex-e74c8604e503",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "The machine requires a"
+      ],
+      "rationale": "「The machine requires a」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+    },
+    {
+      "example_id": "ex-c19c393fc1ac",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "The first person to"
+      ],
+      "rationale": "「The first person to」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+    },
+    {
+      "example_id": "ex-7ce341ec068a",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:005"
+      ],
+      "discriminating_terms": [
+        "The plant develops a"
+      ],
+      "rationale": "「The plant develops a」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+    },
+    {
+      "example_id": "ex-cbad99f14b3f",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "In English, the is"
+      ],
+      "rationale": "「In English, the is」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+    },
+    {
+      "example_id": "ex-710a72469623",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "We need definite information"
+      ],
+      "rationale": "「We need definite information」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+    },
+    {
+      "example_id": "ex-cf17f361e524",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "We can see a"
+      ],
+      "rationale": "「We can see a」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+    },
+    {
+      "example_id": "ex-03de5fdb663a",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "The grant requires a"
+      ],
+      "rationale": "「The grant requires a」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+    },
+    {
+      "example_id": "ex-3f4a42fc3e7a",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "Her reply was a"
+      ],
+      "rationale": "「Her reply was a」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+    },
+    {
+      "example_id": "ex-3baa53008352",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "The temperature must remain"
+      ],
+      "rationale": "「The temperature must remain」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+    },
+    {
+      "example_id": "ex-d1a66af154f2",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "The lesson contrasts definite"
+      ],
+      "rationale": "「The lesson contrasts definite」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+    },
+    {
+      "example_id": "ex-e6bd75fc7b86",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "Only a definite number"
+      ],
+      "rationale": "「Only a definite number」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+    },
+    {
+      "example_id": "ex-4963082548f4",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "A sudden drop in"
+      ],
+      "rationale": "「A sudden drop in」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+    },
+    {
+      "example_id": "ex-7aca181fbedf",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "The plural noun phrase"
+      ],
+      "rationale": "「The plural noun phrase」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+    },
+    {
+      "example_id": "ex-0ef42f0d5853",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "The organizers have not"
+      ],
+      "rationale": "「The organizers have not」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+    },
+    {
+      "example_id": "ex-ac62dadef1df",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:005"
+      ],
+      "discriminating_terms": [
+        "Definite growth is common"
+      ],
+      "rationale": "「Definite growth is common」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+    },
+    {
+      "example_id": "ex-7a5bec55a6f8",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "The new treatment produced"
+      ],
+      "rationale": "「The new treatment produced」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+    },
+    {
+      "example_id": "ex-9f826d0b597c",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "A delay is a"
+      ],
+      "rationale": "「A delay is a」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+    },
+    {
+      "example_id": "ex-632a1aa80843",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "No definite agreement had"
+      ],
+      "rationale": "「No definite agreement had」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+    },
+    {
+      "example_id": "ex-80295151595e",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "The shorter route offers"
+      ],
+      "rationale": "「The shorter route offers」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+    },
+    {
+      "example_id": "ex-913e366b7fe9",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "the whole phrase"
+      ],
+      "rationale": "「the whole phrase」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+    },
+    {
+      "example_id": "ex-e1ea66e065bb",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "We need a definite"
+      ],
+      "rationale": "「We need a definite」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+    },
+    {
+      "example_id": "ex-4201b3530588",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "The crystals grow into"
+      ],
+      "rationale": "「The crystals grow into」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+    },
+    {
+      "example_id": "ex-c07571476815",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "I have no definite"
+      ],
+      "rationale": "「I have no definite」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+    },
+    {
+      "example_id": "ex-408664ca911b",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "He left the room"
+      ],
+      "rationale": "「He left the room」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+    },
+    {
+      "example_id": "ex-6f6b80a13c65",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "The article makes a"
+      ],
+      "rationale": "「The article makes a」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+    },
+    {
+      "example_id": "ex-f9e1062fff34",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "The equipment may be"
+      ],
+      "rationale": "「The equipment may be」という表現が、文中でこの語義の対象・構文・領域を具体的に示しているため、この語義に一意に帰属できる。"
+    }
+  ]
+}

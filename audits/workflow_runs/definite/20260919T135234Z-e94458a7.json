@@ -15,15 +15,15 @@
   },
   "time_policy": "advisory_v1",
   "usage": {
-    "research_queries": 0,
-    "candidate_pages": 0
+    "research_queries": 7,
+    "candidate_pages": 10
   },
   "status": "in_progress",
-  "stage": "preflight_pushed",
+  "stage": "cold_review_complete",
   "started_at": "2026-09-19T13:52:34Z",
   "deadline_at": "2026-09-19T14:52:34Z",
   "pre_draft_deadline_at": "2026-09-19T14:12:34Z",
-  "last_heartbeat_at": "2026-09-19T13:53:53Z",
+  "last_heartbeat_at": "2026-09-19T14:33:41Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-19T13:53:53Z",
@@ -39,6 +39,26 @@
       "stage": "preflight_pushed",
       "recorded_at": "2026-09-19T13:53:53Z",
       "notes": "remote start checkpoint verified"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-09-19T14:04:42Z",
+      "notes": "orchestrator completed generation"
+    },
+    {
+      "stage": "source_inventory_complete",
+      "recorded_at": "2026-09-19T14:30:58Z",
+      "notes": "orchestrator completed checker_passes"
+    },
+    {
+      "stage": "normal_review_complete",
+      "recorded_at": "2026-09-19T14:30:58Z",
+      "notes": "orchestrator completed checker_passes"
+    },
+    {
+      "stage": "cold_review_complete",
+      "recorded_at": "2026-09-19T14:33:41Z",
+      "notes": "orchestrator completed cold_review"
     }
   ],
   "stop_reason": "",
@@ -498,7 +518,14 @@
     "schema_version": "workflow_process_improvement_v2",
     "knowledge_epoch": "pi2-2026-09-06",
     "features": [
-      "workflow:standard"
+      "adjective",
+      "botanical_usage",
+      "certainty_and_settlement",
+      "clarity_and_noticeability",
+      "etymology",
+      "grammatical_definiteness",
+      "related_words",
+      "specificity_and_limits"
     ],
     "snapshots": [
       {
@@ -523,10 +550,68 @@
         "machine_duration_seconds": 0.000479,
         "additional_llm_calls": 0,
         "stage": "generation"
+      },
+      {
+        "schema_version": "process_improvement_input_v2",
+        "knowledge_epoch": "pi2-2026-09-06",
+        "recipient": "coordinator",
+        "phase": "pre_blind_resolution",
+        "features": [
+          "adjective",
+          "botanical_usage",
+          "certainty_and_settlement",
+          "clarity_and_noticeability",
+          "etymology",
+          "grammatical_definiteness",
+          "related_words",
+          "specificity_and_limits"
+        ],
+        "limits": {
+          "max_items": 8,
+          "max_bytes": 8192
+        },
+        "selected": [],
+        "skipped": [],
+        "input_bytes": 348,
+        "input_sha256": "15f14c2d725291b96b5dbe2db56cbb7491829119f31878ea570d69fa5ff91e14",
+        "run_id": "20260919T135234Z-e94458a7",
+        "created_at": "2026-09-19T14:33:41Z",
+        "snapshot_path": "audits/runs/d/definite/20260919T135234Z-e94458a7/process_improvement/coordinator-pre_blind_resolution.snapshot.md",
+        "machine_duration_seconds": 0.000573,
+        "additional_llm_calls": 0,
+        "stage": "pre_blind_resolution"
       }
     ],
-    "processing": {},
-    "pending_events": [],
+    "processing": {
+      "generation": {
+        "status": "no_applicable",
+        "source_refs": [
+          "audits/runs/d/definite/20260919T135234Z-e94458a7/generation.json"
+        ],
+        "receipt_event_id": "workflow:20260919T135234Z-e94458a7:generation:23bed50f2ed2",
+        "recorded_at": "2026-09-19T14:04:42Z"
+      }
+    },
+    "pending_events": [
+      {
+        "event_id": "pending:20260919T135234Z-e94458a7:checker_passes:2b20441aab1e",
+        "knowledge_epoch": "pi2-2026-09-06",
+        "kind": "review_failure",
+        "stage": "checker_passes",
+        "fact": "repairable preflight rejection: B1_term_not_in_example: attribution ex-913e366b7fe9 has no discriminating term present in its example or translation; B2_rationale_not_grounded: attribution ex-913e366b7fe9 rationale contains neither an exact quote nor a valid discriminating term",
+        "status": "pending",
+        "recorded_at": "2026-09-19T14:28:27Z"
+      },
+      {
+        "event_id": "pending:20260919T135234Z-e94458a7:cold_review:0de0508492d5",
+        "knowledge_epoch": "pi2-2026-09-06",
+        "kind": "review_failure",
+        "stage": "cold_review",
+        "fact": "repairable preflight rejection: B2_rationale_not_grounded: cold review findings item CR-definite-002 rationale does not contain a target exact quote; B2_rationale_not_grounded: cold review findings item CR-definite-003 rationale does not contain a target exact quote",
+        "status": "pending",
+        "recorded_at": "2026-09-19T14:33:04Z"
+      }
+    ],
     "selection_errors": []
   },
   "metrics": {
@@ -548,38 +633,42 @@
       {
         "id": "generation",
         "instruction_bytes": 53450,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 53450,
+        "duration_seconds": 728.922397,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true,
+        "duration_source": "measured_wall"
       },
       {
         "id": "mechanical_validator",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 35087,
+        "duration_seconds": 26.112183,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true,
+        "duration_source": "measured_wall"
       },
       {
         "id": "checker_passes",
         "instruction_bytes": 0,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 1550.769223,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true,
+        "duration_source": "measured_wall"
       },
       {
         "id": "cold_review",
         "instruction_bytes": 1759,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
-        "defects_detected": 0,
+        "input_bytes": 17973,
+        "duration_seconds": 163.413727,
+        "defects_detected": 3,
         "revision_count": 0,
-        "completed": false
+        "completed": true,
+        "duration_source": "measured_wall"
       },
       {
         "id": "pre_blind_resolution",
@@ -661,7 +750,7 @@
         "input_bytes": 0,
         "duration_seconds": 0.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "sense-structure",
@@ -669,7 +758,7 @@
         "input_bytes": 0,
         "duration_seconds": 0.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "frame-relation",
@@ -677,7 +766,7 @@
         "input_bytes": 0,
         "duration_seconds": 0.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "example-attribution",
@@ -685,7 +774,7 @@
         "input_bytes": 0,
         "duration_seconds": 0.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "qualification",
@@ -693,7 +782,7 @@
         "input_bytes": 0,
         "duration_seconds": 0.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "pronunciation",
@@ -701,7 +790,7 @@
         "input_bytes": 0,
         "duration_seconds": 0.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "evidence",
@@ -709,27 +798,76 @@
         "input_bytes": 0,
         "duration_seconds": 0.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       }
     ],
     "process_rules": [],
     "process_improvement": {
-      "selection_input_bytes": 336,
-      "machine_duration_seconds": 0.000479,
+      "selection_input_bytes": 684,
+      "machine_duration_seconds": 0.001052,
       "additional_llm_calls": 0
     }
   },
   "orchestrator_state": {
-    "next_stage_index": 1,
+    "next_stage_index": 5,
     "completed_stages": [
-      "guard_start"
+      "guard_start",
+      "generation",
+      "mechanical_validator",
+      "checker_passes",
+      "cold_review"
     ],
-    "stage_outputs": {},
-    "stage_started_at": "2026-09-19T13:52:34Z"
+    "stage_outputs": {
+      "generation": [
+        "entries/d/definite.md",
+        "audits/runs/d/definite/20260919T135234Z-e94458a7/generation.json"
+      ],
+      "mechanical_validator": [
+        "audits/runs/d/definite/20260919T135234Z-e94458a7/validator.json"
+      ],
+      "checker_passes": [
+        "audits/runs/d/definite/20260919T135234Z-e94458a7/source_inventory.json",
+        "audits/runs/d/definite/20260919T135234Z-e94458a7/check_passes/",
+        "audits/runs/d/definite/20260919T135234Z-e94458a7/pass_findings.json"
+      ],
+      "cold_review": [
+        "audits/runs/d/definite/20260919T135234Z-e94458a7/cold_review.json"
+      ]
+    },
+    "stage_started_at": "2026-09-19T14:33:41Z"
   },
   "publication": {
     "mode": "connector"
   },
   "review_preflight": "review_preflight_v1",
-  "time_warnings": {}
+  "time_warnings": {},
+  "review_preflight_failures": {
+    "count": 2,
+    "history": [
+      {
+        "stage": "checker_passes",
+        "error": "B1_term_not_in_example: attribution ex-913e366b7fe9 has no discriminating term present in its example or translation; B2_rationale_not_grounded: attribution ex-913e366b7fe9 rationale contains neither an exact quote nor a valid discriminating term",
+        "recorded_at": "2026-09-19T14:28:27.206564+00:00",
+        "fingerprint": "fe9c91412ada632be51fd446e09adceb1084d98e4ee9bf74aac9890a142712f1",
+        "classification": "repairable_validation"
+      },
+      {
+        "stage": "cold_review",
+        "error": "B2_rationale_not_grounded: cold review findings item CR-definite-002 rationale does not contain a target exact quote; B2_rationale_not_grounded: cold review findings item CR-definite-003 rationale does not contain a target exact quote",
+        "recorded_at": "2026-09-19T14:33:04.145938+00:00",
+        "fingerprint": "b47fe27fdd8c9b4922467be1215660b98fa59376fea7cfb6b49f2aeea4a1ad32",
+        "classification": "repairable_validation"
+      }
+    ]
+  },
+  "review_correction": {
+    "stage": "cold_review",
+    "error": "B2_rationale_not_grounded: cold review findings item CR-definite-002 rationale does not contain a target exact quote; B2_rationale_not_grounded: cold review findings item CR-definite-003 rationale does not contain a target exact quote",
+    "recorded_at": "2026-09-19T14:33:04.145938+00:00",
+    "fingerprint": "b47fe27fdd8c9b4922467be1215660b98fa59376fea7cfb6b49f2aeea4a1ad32",
+    "classification": "repairable_validation",
+    "status": "resolved",
+    "resolved_at": "2026-09-19T14:33:33.412178+00:00"
+  },
+  "review_preflight_policy": "repairable_review_preflight_v2"
 }

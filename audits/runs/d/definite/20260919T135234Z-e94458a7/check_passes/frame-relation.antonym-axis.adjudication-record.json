@@ -1,0 +1,101 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "6bf439cde2a5a009f8e4e4d27f7041f7af5c66dd15e9e51aaf59bfb705b46752",
+  "stage2_request_sha256": "af6a9e893791a8c3ccd940cbe22397e7644495e1e8704fc19b220d190a8ba070",
+  "blind_record_sha256": "7bd2966f5f112b47b8cf79b92a71a3ad04b2831e0fb27f7de9171f46a750c80e",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-6-astra",
+    "ingested_by": "orchestrator",
+    "agent_id": "reviewer-definite-frame-relation-20260919",
+    "source_response": {
+      "path": "audits/runs/d/definite/20260919T135234Z-e94458a7/handoff/source_responses/af41f3f31a9e1dc29872276bbc23bbd337764a51e723faae34c4e1c129cb535d.json",
+      "sha256": "af41f3f31a9e1dc29872276bbc23bbd337764a51e723faae34c4e1c129cb535d"
+    }
+  },
+  "adjudications": [
+    {
+      "item_id": "ant-ff69a1a9f3cd",
+      "flags": [],
+      "rationale": "stage 1 の判定で軸「確定性」として一貫しており、提示された反意語の定義・軸関係に修正フラグはない。"
+    },
+    {
+      "item_id": "ant-c5c7ab207470",
+      "flags": [],
+      "rationale": "stage 1 の判定で軸「確定性」として一貫しており、提示された反意語の定義・軸関係に修正フラグはない。"
+    },
+    {
+      "item_id": "ant-0f692a54b438",
+      "flags": [],
+      "rationale": "stage 1 の判定で軸「確定性」として一貫しており、提示された反意語の定義・軸関係に修正フラグはない。"
+    },
+    {
+      "item_id": "ant-e4bf06db3822",
+      "flags": [],
+      "rationale": "stage 1 の判定で軸「有限性」として一貫しており、提示された反意語の定義・軸関係に修正フラグはない。"
+    },
+    {
+      "item_id": "ant-b94874c1fb0a",
+      "flags": [],
+      "rationale": "stage 1 の判定で軸「明瞭性」として一貫しており、提示された反意語の定義・軸関係に修正フラグはない。"
+    },
+    {
+      "item_id": "ant-d8cdab9d17a7",
+      "flags": [],
+      "rationale": "stage 1 の判定で軸「明瞭性」として一貫しており、提示された反意語の定義・軸関係に修正フラグはない。"
+    },
+    {
+      "item_id": "ant-9a3ffea3963f",
+      "flags": [],
+      "rationale": "stage 1 の判定で軸「明瞭性」として一貫しており、提示された反意語の定義・軸関係に修正フラグはない。"
+    },
+    {
+      "item_id": "ant-edb72631391b",
+      "flags": [],
+      "rationale": "stage 1 の判定で軸「有限性」として一貫しており、提示された反意語の定義・軸関係に修正フラグはない。"
+    },
+    {
+      "item_id": "ant-1c347dcd4402",
+      "flags": [],
+      "rationale": "stage 1 の判定で軸「具体性」として一貫しており、提示された反意語の定義・軸関係に修正フラグはない。"
+    },
+    {
+      "item_id": "ant-e02007848369",
+      "flags": [],
+      "rationale": "stage 1 の判定で軸「具体性」として一貫しており、提示された反意語の定義・軸関係に修正フラグはない。"
+    },
+    {
+      "item_id": "ant-c7e3f2e53104",
+      "flags": [],
+      "rationale": "stage 1 の判定で軸「有限性」として一貫しており、提示された反意語の定義・軸関係に修正フラグはない。"
+    },
+    {
+      "item_id": "ant-72aede0d05ae",
+      "flags": [],
+      "rationale": "stage 1 の判定で軸「有限性」として一貫しており、提示された反意語の定義・軸関係に修正フラグはない。"
+    },
+    {
+      "item_id": "ant-474db3bb568c",
+      "flags": [],
+      "rationale": "stage 1 の判定で軸「同定性」として一貫しており、提示された反意語の定義・軸関係に修正フラグはない。"
+    },
+    {
+      "item_id": "ant-818f8d4e4aa3",
+      "flags": [],
+      "rationale": "stage 1 の判定で軸「指示性」として一貫しており、提示された反意語の定義・軸関係に修正フラグはない。"
+    },
+    {
+      "item_id": "ant-bd78359dead5",
+      "flags": [],
+      "rationale": "stage 1 の判定で軸「有限性」として一貫しており、提示された反意語の定義・軸関係に修正フラグはない。"
+    },
+    {
+      "item_id": "ant-26ef8568abaf",
+      "flags": [],
+      "rationale": "stage 1 の判定で軸「有限性」として一貫しており、提示された反意語の定義・軸関係に修正フラグはない。"
+    }
+  ],
+  "frame_findings": [],
+  "unrouted_observations": []
+}
