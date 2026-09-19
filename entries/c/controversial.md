@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: codex-gpt-5
 created_at: 2026-09-12
-updated_at: 2026-09-12
+updated_at: 2026-09-19
 checked: true
 tags: []
 ---
@@ -22,18 +22,18 @@ tags: []
 
 ・controversy：名詞。「論争、論争点、物議」。controversial と同じ語族の中心語で、public controversy のように使う。  
 ・controversially：副詞。「物議を醸す形で、論争を呼ぶことに」。文全体や発言・判断の仕方を修飾する。  
-・controversialist：名詞。「論争家、論争に加わる人」。人の性向または論争上の立場を指す硬めの語。  
+・controversialist：名詞。「論争家、論争に加わる人」。硬めの語。  
 ・controvert：動詞。「反論する、論駁する」。controversial と意味は近いが、現代英語では controversial の直接の活用形ではなく、別の動詞として扱う。  
 
 ＃意味・用法・関連表現
 
 1. 【形容詞・限定用法／叙述用法・対象／人】論争を呼ぶ、賛否が分かれる、物議を醸す
 
-【日本語訳・定義】政策・決定・主張・作品・発言・人物などが、社会全体または特定の集団の中で、強い意見の対立、批判、反対を引き起こしていることを表す。事実として真偽が決まっていないことを必ずしも含まず、悪い、違法、意図的に挑発的だという意味でもない。  
+【日本語訳・定義】政策・決定・主張・作品・発言・人物などが、社会全体または特定の集団の中で、強い意見の対立、批判、反対を引き起こしている、または引き起こしやすいことを表す。事実として真偽が決まっていないことを必ずしも含まず、悪い、違法、意図的に挑発的だという意味でもない。  
 
 【頻度】〈9/10〉  
 
-【レジスター/領域】標準語で、会話・ニュース・政治・文化・学術・ビジネスの文章まで広く使う。controversial は「多くの人が反対している」と同じではなく、賛成・反対の議論が強く起きている状態を指す。  
+【レジスター/領域】標準語で、会話・ニュース・政治・文化・学術・ビジネスの文章まで広く使う。controversial は単に「多くの人が反対している」という意味ではなく、論争や強い意見の対立を引き起こしている、または引き起こしやすいことを表す。  
 
 【文法パターン】be/become/remain/prove controversial＝論争を呼ぶ・論争の的であり続ける・結果的に物議を醸す／a controversial 〈issue・decision・policy・claim・statement・figure・book・film〉＝論争を呼ぶ〈問題・決定・政策・主張・発言・人物・本・映画〉／highly/widely controversial＝非常に／広く物議を醸す／controversial among/within 〈group〉＝〈集団〉の間で論争を呼ぶ／controversial in some circles＝一部の界隈では物議を醸す／it remains controversial whether ...＝…かどうかは依然として議論が分かれる／be controversial enough to do＝～するほど物議を醸す／too controversial to do＝物議を醸しすぎて～できない。  
 
@@ -50,7 +50,7 @@ tags: []
 訳: 委員会は展示会を中止するという物議を醸す決定を下した。  
 
 ・a controversial figure  
-用途: 功績と批判の両方があり、評価が大きく割れている人物を指す。  
+用途: 言動・立場・評価などをめぐって、強い意見の対立や論争を招く人物を指す。  
 例: The historian remains a controversial figure in the region.  
 訳: その歴史家はその地域で今も評価が大きく分かれる人物だ。  
 
@@ -119,7 +119,7 @@ tags: []
 ・provocative  
 定義: 強い反応や議論を意図的または効果として引き起こす、挑発的な。  
 頻度: 〈8/10〉  
-違い: provocative は発言者・作者が反応を誘う性質や意図に焦点がある。controversial は実際に物議が生じている状態を表し、意図を必要としない。  
+違い: provocative は発言者・作者が反応を誘う性質や意図に焦点がある。controversial は論争や強い意見の対立を引き起こしている、または引き起こしやすいことを表し、意図的な挑発を必須としない。  
 例: The artist is known for provocative questions about public memory.  
 訳: その芸術家は公共の記憶について挑発的な問いを投げかけることで知られている。  
 
