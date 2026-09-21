@@ -1,10 +1,77 @@
 {
   "schema_version": "content_audit_v4",
-  "generated_by": "workflow_source_first_init_v2",
+  "generated_by": "generate_audit_manifest_v1",
   "entry_path": "entries/t/tentative.md",
   "cycle_id": "20260921T145448Z-bec4a398",
   "cycle_dir": "audits/runs/t/tentative/20260921T145448Z-bec4a398",
   "body_sha256": "0776dad38e204651edaf002adb4634b2bdf5ffb371b9d38c3ab1f33440a3c35f",
+  "raw_outputs": {
+    "source_inventory": {
+      "path": "audits/runs/t/tentative/20260921T145448Z-bec4a398/source_inventory.json",
+      "sha256": "e2a268a99569d1c41d9891149792af0e7909cabb89d37849a3090646eb221902",
+      "stage": "source_inventory",
+      "run_id": "source-tentative-20260921T145448Z-bec4a398",
+      "context_id": "source-tentative-context-20260921T145448Z-bec4a398",
+      "input_body_sha256": "0776dad38e204651edaf002adb4634b2bdf5ffb371b9d38c3ab1f33440a3c35f",
+      "prompt_sha256": "0377df9f9e2eeeed2d38f6a7072f675fc4eea38e948ed672004f96bc2d88f783",
+      "recorded_at": "2026-09-21T15:10:00Z"
+    },
+    "normal_review": {
+      "path": "audits/runs/t/tentative/20260921T145448Z-bec4a398/pass_findings.json",
+      "sha256": "122347cb1521bfc0e8667b4d551a416fcb13298bbb2995153617db7b3849d3d9",
+      "stage": "normal_review",
+      "run_id": "normal-tentative-20260921T145448Z-bec4a398",
+      "context_id": "normal-tentative-context-20260921T145448Z-bec4a398",
+      "input_body_sha256": "0776dad38e204651edaf002adb4634b2bdf5ffb371b9d38c3ab1f33440a3c35f",
+      "prompt_sha256": "0b485ac494ff9f114a9061bbc7d789803f05ee6d79b908885efae2da2b0cebf5",
+      "recorded_at": "2026-09-21T15:30:09.540285+00:00"
+    },
+    "cold_review": {
+      "path": "audits/runs/t/tentative/20260921T145448Z-bec4a398/cold_review.json",
+      "sha256": "e47bebca999a79f8cc8fc777ee6af541e89059a99b9d02d0d5d1b233c870ade7",
+      "stage": "cold_review",
+      "run_id": "cold-tentative-20260921T145448Z-bec4a398",
+      "context_id": "cold-tentative-context-20260921T145448Z-bec4a398",
+      "input_body_sha256": "0776dad38e204651edaf002adb4634b2bdf5ffb371b9d38c3ab1f33440a3c35f",
+      "prompt_sha256": "25c298d1a4305746147791bd442cd725a92737c8f0802b992ea88e5c6ff76a5d",
+      "recorded_at": "2026-09-21T15:34:00.832432+00:00"
+    },
+    "resolutions": {
+      "path": "audits/runs/t/tentative/20260921T145448Z-bec4a398/resolutions.json",
+      "sha256": "60cf3b7a4be948421acf6e8e38f1d9901355445e8ce77033f459ff69a63ab70a",
+      "stage": "resolutions",
+      "run_id": "resolution-tentative-20260921T145448Z-bec4a398",
+      "context_id": "resolution-tentative-context-20260921T145448Z-bec4a398",
+      "input_body_sha256": "0776dad38e204651edaf002adb4634b2bdf5ffb371b9d38c3ab1f33440a3c35f",
+      "prompt_sha256": "a9d45b3ce76ce719002bdd08001e84be0fb984119e14376dc1cd2e964c7e3f92",
+      "recorded_at": "2026-09-21T15:35:10.000Z"
+    },
+    "final_blind": {
+      "path": "audits/runs/t/tentative/20260921T145448Z-bec4a398/final_blind.json",
+      "sha256": "1570cec673e640a8658f10b544ebc3b20d622a74f57ced594549a9f7be7d156b",
+      "stage": "final_blind",
+      "run_id": "blind-tentative-20260921T145448Z-bec4a398",
+      "context_id": "blind-tentative-context-20260921T145448Z-bec4a398",
+      "input_body_sha256": "0776dad38e204651edaf002adb4634b2bdf5ffb371b9d38c3ab1f33440a3c35f",
+      "prompt_sha256": "3a481b4b5b1236ff386e148bcacc574570b305e79f5e155e9afcd34091f7785c",
+      "recorded_at": "2026-09-21T15:43:32.303631+00:00"
+    },
+    "blind_seal": {
+      "path": "audits/runs/t/tentative/20260921T145448Z-bec4a398/blind_seal.json",
+      "sha256": "3c163330797c2e2b323897b51af55026e30a3a5db976a77be67ddabe3627865c",
+      "stage": "blind_seal"
+    },
+    "final_review": {
+      "path": "audits/runs/t/tentative/20260921T145448Z-bec4a398/final_review.json",
+      "sha256": "5abfb013292a4b77bac2509dce64671a3362f10c3b34b4c6d56a9de7524c2b03",
+      "stage": "final_review",
+      "run_id": "blind-tentative-20260921T145448Z-bec4a398",
+      "context_id": "blind-tentative-context-20260921T145448Z-bec4a398",
+      "input_body_sha256": "0776dad38e204651edaf002adb4634b2bdf5ffb371b9d38c3ab1f33440a3c35f",
+      "prompt_sha256": "7fee3a9d388e6557c2d8a66702e890b2398ca20228e61072acc81eedafcfac9d",
+      "recorded_at": "2026-09-21T15:56:43.169531+00:00"
+    }
+  },
   "source_first_audit": {
     "version": "source_first_audit_v2",
     "profile": "standard",
@@ -607,7 +674,68 @@
       }
     ]
   },
-  "final_review": {
-    "source_inventory_results": []
-  }
+  "findings": [
+    {
+      "id": "finding_example_sense_attribution_tentative_knock",
+      "taxonomy_id": "example_sense_attribution_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 173,
+        "line_end": 173,
+        "exact_quote": "例: There was a tentative knock on the office door.  "
+      },
+      "severity": "blocking",
+      "rationale": "段階1の最も自然な帰属はsense:003だが、実際の所属はsense:002である。",
+      "evidence_link_ids": [],
+      "suggested_direction": "語義ブロック間の移動",
+      "origin": "check_pass:example-attribution"
+    }
+  ],
+  "resolutions": [
+    {
+      "id": "finding_example_sense_attribution_tentative_knock",
+      "finding_id": "finding_example_sense_attribution_tentative_knock",
+      "status": "resolved",
+      "disposition": "rejected",
+      "resolved_body_sha256": "0776dad38e204651edaf002adb4634b2bdf5ffb371b9d38c3ab1f33440a3c35f",
+      "rationale": "The quoted example \"例: There was a tentative knock on the office door.  \" describes a cautious knocking action and is correctly placed under the hesitant-manner adjective sense. The checker attribution record, rather than the article, assigned it to the rare noun sense, so no article movement is warranted."
+    }
+  ],
+  "final_decision": {
+    "decision": "pass",
+    "blockers": [],
+    "notes": [
+      "Compared the current body, sealed blind assertions, evidence inventory, checker recheck, and recorded resolution against the refreshed input bindings; no unresolved discrepancy remains."
+    ],
+    "reviewed_at": "2026-09-21T15:56:43.169531+00:00",
+    "blind_output_sha256": "2907d509d508763f3624cb333175bd545f9622d6328929d6cd410c03d05df45b"
+  },
+  "workflow_revision": {
+    "schema_version": "workflow_revision_v1",
+    "artifacts": {
+      "pre_blind_resolution": {
+        "path": "audits/runs/t/tentative/20260921T145448Z-bec4a398/pre_blind_resolution.json",
+        "sha256": "20555f671e7fe03548174f5b9c96282fa9fdc0b309ec9ca61f8d65765d0f223c"
+      },
+      "pre_blind_revision": {
+        "path": "audits/runs/t/tentative/20260921T145448Z-bec4a398/pre_blind_revision.json",
+        "sha256": "ed6a129302c610501b4c8a392963f76f109875b22969f170aa66e8727ff643bc"
+      },
+      "checker_recheck_manifest": {
+        "path": "audits/runs/t/tentative/20260921T145448Z-bec4a398/checker_recheck_manifest.json",
+        "sha256": "7d092c8d5cde7cd5c9adbe41bcd2f01dfcd4e880693e72e197c9bbdad3365e9f"
+      },
+      "post_blind_resolution": {
+        "path": "audits/runs/t/tentative/20260921T145448Z-bec4a398/post_blind_resolution.json",
+        "sha256": "922ff2eb415b8dc0a1639276dc40702f8ae18f58857e66f2b446af9bc06e74cb"
+      },
+      "post_blind_verification": {
+        "path": "audits/runs/t/tentative/20260921T145448Z-bec4a398/post_blind_verification.json",
+        "sha256": "2c559c8b926ce2f6f621feef887602f14dbf763546733fc4f4e94d365f65ffa0"
+      }
+    },
+    "targeted_adjudications": []
+  },
+  "invalidated_by": [],
+  "review_liveness_errors": []
 }

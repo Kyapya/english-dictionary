@@ -18,12 +18,12 @@
     "research_queries": 6,
     "candidate_pages": 6
   },
-  "status": "in_progress",
-  "stage": "blind_seal_complete",
+  "status": "completed",
+  "stage": "completed",
   "started_at": "2026-09-21T14:54:48Z",
   "deadline_at": "2026-09-21T15:54:48Z",
   "pre_draft_deadline_at": "2026-09-21T15:14:48Z",
-  "last_heartbeat_at": "2026-09-21T15:49:34Z",
+  "last_heartbeat_at": "2026-09-21T16:00:31Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-21T14:57:18Z",
@@ -64,6 +64,16 @@
       "stage": "blind_seal_complete",
       "recorded_at": "2026-09-21T15:44:02Z",
       "notes": "orchestrator completed blind_seal"
+    },
+    {
+      "stage": "final_review_complete",
+      "recorded_at": "2026-09-21T15:57:29Z",
+      "notes": "orchestrator completed final_review"
+    },
+    {
+      "stage": "completed",
+      "recorded_at": "2026-09-21T16:00:31Z",
+      "notes": "orchestrator completed export"
     }
   ],
   "stop_reason": "",
@@ -672,8 +682,8 @@
     "schema_version": "workflow_cost_v1",
     "total_cycles": 1,
     "total_revisions": 1,
-    "total_duration_seconds": 0.0,
-    "completed_at": "",
+    "total_duration_seconds": 3943.015001,
+    "completed_at": "2026-09-21T16:00:31Z",
     "stages": [
       {
         "id": "guard_start",
@@ -777,29 +787,32 @@
       {
         "id": "final_review",
         "instruction_bytes": 4783,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 62000,
+        "duration_seconds": 420.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true,
+        "duration_source": "reported"
       },
       {
         "id": "status_update",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 49098,
+        "duration_seconds": 45.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true,
+        "duration_source": "reported"
       },
       {
         "id": "export",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 49098,
+        "duration_seconds": 2.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true,
+        "duration_source": "reported"
       }
     ],
     "checker_passes": [
@@ -868,7 +881,7 @@
     }
   },
   "orchestrator_state": {
-    "next_stage_index": 10,
+    "next_stage_index": 13,
     "completed_stages": [
       "guard_start",
       "generation",
@@ -879,7 +892,10 @@
       "checker_recheck",
       "final_blind",
       "blind_seal",
-      "post_blind_resolution"
+      "post_blind_resolution",
+      "final_review",
+      "status_update",
+      "export"
     ],
     "stage_outputs": {
       "generation": [
@@ -914,15 +930,35 @@
         "audits/runs/t/tentative/20260921T145448Z-bec4a398/post_blind_resolution.json",
         "audits/runs/t/tentative/20260921T145448Z-bec4a398/post_blind_verification.json",
         "audits/runs/t/tentative/20260921T145448Z-bec4a398/resolutions.json"
+      ],
+      "final_review": [
+        "audits/runs/t/tentative/20260921T145448Z-bec4a398/final_review.json",
+        "audits/t/tentative.json"
+      ],
+      "status_update": [
+        "entries/t/tentative.md",
+        "queue/words.csv",
+        "audits/runs/t/tentative/20260921T145448Z-bec4a398/status_update.json"
+      ],
+      "export": [
+        "exports/dictionary_all.md",
+        "exports/dictionary_index.csv"
       ]
     },
-    "stage_started_at": "2026-09-21T15:45:21Z"
+    "stage_started_at": "2026-09-21T16:00:31Z"
   },
   "publication": {
     "mode": "connector"
   },
   "review_preflight": "review_preflight_v1",
-  "time_warnings": {},
+  "time_warnings": {
+    "elapsed_target_exceeded": {
+      "first_observed_at": "2026-09-21T15:56:43Z",
+      "target_at": "2026-09-21T15:54:48Z",
+      "stage": "blind_seal_complete",
+      "action": "record the delay cause and resume the same run; do not restart reviews"
+    }
+  },
   "review_preflight_failures": {
     "count": 3,
     "history": [
@@ -1001,7 +1037,18 @@
         }
       ]
     },
-    "status": "needs_correction"
+    "status": "resolved",
+    "resolved_at": "2026-09-21T15:56:43.172124+00:00"
   },
-  "review_preflight_policy": "repairable_review_preflight_v2"
+  "review_preflight_policy": "repairable_review_preflight_v2",
+  "review_packet_revisions": [
+    {
+      "stage": "final_review",
+      "recorded_at": "2026-09-21T15:56:04.702210+00:00",
+      "old_packet_sha256": "56aa92357726231f7684f9c7a45b1861eddddac496901009a9ec76bd92a8f24c",
+      "new_packet_sha256": "65136b728249bf3323d4602bbff837f2ea5a6f57ac7f04b81e23f86cbbd8dd40",
+      "archive": "review_packet_history/final_review/56aa92357726231f7684f9c7a45b1861eddddac496901009a9ec76bd92a8f24c",
+      "input_revision_id": "9fc50b17c025edfc6d87c2b255bc5749359eac4e7188d78c353d3b990439dc62"
+    }
+  ]
 }

@@ -1,3 +1,51 @@
+# Independent review handoff
+
+Stage: `final_review`
+
+The response must be one JSON object matching the supplied review schema. Create it in a separate model session; do not use the generation session. For runs using self_attested_handoff_v1, the raw response must include a top-level reviewer object with mode=handoff, the actual agent_id, and the actual declared_model. The ingester will reject identity supplied only after the response was created.
+
+## Prompt
+
+# final_review_spec_v3
+
+最新版本文と固定済みレビューを照合し、最終合否を判断する。正常項目の合格理由を大量に作る時間を、本文・資料・修正箇所の実読へ戻す。品質基準、全件の判定、独立性、未解決事項を残さない条件は維持する。
+
+## 照合
+
+- `inventories` / `response_template` を対象IDの正本とする。欠落を空集合と推測しない。未判定は合格ではない。
+- 事実、語法、発音、例文、訳が正しく、主要な品詞、語義、派生・転換、専門用法、完全な統語フレームが過不足なく扱われていることを確認する。語義境界、コアイメージ、定義、語法、コロケーション、語彙関係に矛盾がないこと。例文と訳の意味役割、作用方向、肯否、数量、時制・法、条件、修飾範囲、レジスターを確認する。
+- 証拠の内容確認は evidence checker が本文・claim・外部資料を照合した結果を使う。合格理由の長さや findings が0件であることは正確さの根拠にしない。高リスク主張の反例・矛盾・適用範囲が未確認、資料にアクセスできない、主張と根拠が食い違う場合は `insufficient_evidence` として解決するまで合格にしない。
+- すべてのfindingについて、採用修正が最新版へ反映され、不採用理由が資料と仕様に支えられ、修正の影響が再検査されているかを確認する。修正前の説明だけで解決扱いにしない。
+- 固定済みblind candidateの各 `semantic_assertion` を最新版へ適用し、候補の境界・作用方向・包含/除外関係・一般化範囲に反する記述がないことを確認する。
+- final reviewは全面レビューを繰り返す工程ではない。具体的な矛盾・未解決事項・修正確認に注力する。疑義のある外部資料は該当箇所を再確認する。hash、ID集合、時系列、seal、再検査・再利用条件は `scripts/run_word.py`、`scripts/workflow_revision.py`、`scripts/generate_audit_manifest.py` の検証を使い、説明文を作り直さない。
+
+## 出力
+
+`final_review_v3` JSONを返す。対象ID・判定・必要な束縛情報を記録する。
+
+`response_template` の結果欄と `_output_metadata` を使う。同じ結果を `adjudication` 配下へ再掲したり、固定済み `independent_candidates` を応答へ複製したりしない。
+
+- `target_results`、`relation_results`、`normal_candidate_results`、`blind_candidate_results`、`evidence_checks`、`source_inventory_results` は全IDを重複なく含み、各 `status` を `pass` または `fail` とする。
+- 正常な `pass` の `notes` は省略する。本文の全文引用、対象ごとの「問題なし」の言い換え、合格理由の水増しは不要。判定を初期値のpassで一括補完してはならない。
+- `fail` は `notes` に問題と必要な修正を短く記す。引用は問題の特定に必要な範囲だけにする。
+- `finding_results` は各findingを一度だけ含め、`pass` でも最新版のどの修正または不採用根拠を確認したかを `notes` に短く残す。元のfinding・resolutionを全文再掲しない。
+- `blind_candidate_results` は全 `assertion_ids` と `verified_body_sha256` を保持する。candidateのpassは列挙した全assertionの確認を意味する。一つでも未確認または不成立ならfailとする。assertionごとの合格理由表を別に作らない。
+- `source_inventory_results` の `union_id` は `id` と一致させる。
+- `checker_recheck_results` / `chronology_results` の説明表は作らない。機械検証の原記録を参照する。
+- `decision` は `pass | reject`、`blockers` と全体の非blocking `notes` は配列とする。本文は変更しない。
+
+## 合否
+
+全対象がpass、未解決・hold・`insufficient_evidence`・未検査範囲・無効pass・判断衝突・未確認の修正影響が0件、blockerが0件の場合だけPASSとする。条件付き合格は使わない。
+
+誤り、主要語義・構文の欠落や過剰収録、根拠との矛盾、必須内容の違反、未判定・未解決事項があればREJECTとする。blockerには対象ID、問題、必要な修正を記録し、修正・影響範囲の再検査・final blind再実行へ戻す。`REJECT` は審査失敗ではなく、問題を検出した正常な成果である。分類粒度や任意の表現改善だけを理由にrejectせず、非blocking noteとする。
+
+v1/v2は旧runの検証・再現専用。保存済みraw出力は書き換えず、そのschemaの条件で検証する。
+
+
+## Input packet
+
+```json
 {
   "stage": "final_review",
   "entry_body": "\n＃発音記号\n\n米・英: /ˈtentətɪv/。3音節で、第1音節の /ˈten/ に主強勢がある。第2音節は弱い /tə/、語末は /tɪv/ と発音する。tentatively は /ˈtentətɪvli/、tentativeness は /ˈtentətɪvnəs/ のように、派生語でも第1音節の強勢を保つ。  \n\n＃語源\n\n16世紀後半に使われ始めた語で、中世ラテン語 tentativus「試みる性質の、試験的な、暫定的な」から来た。これはラテン語 tentare／temptare「触れて確かめる、試す、試みる」に由来する。「まず試してみる段階」という意味から、まだ十分に固まっていない「暫定的な」と、試みる人の「自信のない、ためらいがちな」へ意味が広がった。attempt、tempt、tentatively、tentativeness は同じラテン語の語族に関係するが、tentative の単純な活用形ではない。  \n\n＃語形成\n\n・tentatively：副詞。「暫定的に、仮に」または「ためらいがちに、自信なさそうに」。修飾する内容によって2つの形容詞義に対応する。  \n・tentativeness：名詞。「暫定性、未確定性」または「ためらい、自信のなさ」。通常は不可算名詞で、性質や態度を表す。  \n・tentative：名詞転用。「暫定的なもの、仮の項目」。まれで、予約・契約・日程などが確定する前の業務上の項目を指すことがある。  \n・attempt／tempt：同じラテン語 tentare／temptare にさかのぼる関連語。attempt は「試み」、tempt は現代英語で主に「誘惑する」を表し、tentative の派生語ではない。  \n\n＃コアイメージ\n\ntentative の共通核は、「まだ確定させず、試しに触れている段階」である。計画や判断なら後で変更され得る「暫定性」、行動や表情なら確信を持たず慎重に踏み出す「ためらい」として現れる。  \n・内容を試しに置き、後で変えられる状態 → 「暫定的な、仮の」（語義1）  \n・行動を試しに行い、確信を持てない様子 → 「ためらいがちな、自信のない」（語義2）  \n・確定前の項目を業務上の仮登録として扱う → 「暫定案、仮の項目」（語義3）  \n\n＃意味・用法・関連表現\n\n1. 【形容詞・限定用法／叙述用法】暫定的な、仮の、まだ確定していない\n\n【日本語訳・定義】計画、日程、合意、結論、説明、提案、識別などが、現時点では候補として置かれているものの、検討・交渉・確認が終わっておらず、後で変更または撤回される可能性があることを表す。単に「一時的」という期間の短さではなく、内容の確定性がまだ低いことに焦点がある。  \n\n【頻度】〈9/10〉  \n\n【レジスター/領域】標準語で、会話・報道・ビジネス・学術・交渉まで広く使う。特に plan、date、schedule、arrangement、agreement、conclusion、explanation、identification など、後から確認や調整が入り得る名詞と結びつく。  \n\n【文法パターン】a tentative 〈plan/date/schedule/arrangement/agreement〉＝暫定的な〈計画・日付・予定・取り決め・合意〉／tentative conclusions/findings＝予備的な結論・調査結果／a tentative explanation/identification＝暫定的な説明・仮の同定／make/reach/announce a tentative decision＝暫定的な決定をする・出す／be tentative about 〈the date/details〉＝〈日付・詳細〉がまだ確定していない／tentative plans to do＝～する暫定的な計画／tentatively agree/approve/identify＝暫定的に合意する・承認する・特定する。  \n\n【コロケーション】\n\n・tentative plans for 〈event/activity〉  \n用途: 予定はあるが、内容や日時がまだ変わる可能性があることを表す。  \n例: We have tentative plans for a short trip in October.  \n訳: 私たちは10月に短い旅行をする仮の予定がある。  \n\n・a tentative date for 〈event〉  \n用途: 会議・発売・開始などの日付を候補として置く。  \n例: The organizers set a tentative date for the conference in early May.  \n訳: 主催者は会議の開催日を5月初旬の仮の日付として設定した。  \n\n・a tentative schedule  \n用途: 今後の調整で変更され得る予定表を指す。  \n例: The airline released a tentative schedule for the new route.  \n訳: その航空会社は新路線の暫定的な運航予定を公表した。  \n\n・a tentative agreement/deal  \n用途: 当事者が大筋で合意したが、最終承認や正式契約がまだ済んでいない状態を表す。  \n例: The two sides reached a tentative agreement after three days of talks.  \n訳: 両者は3日間の協議の後、暫定合意に達した。  \n\n・tentative conclusions/findings  \n用途: 調査や分析の途中で得られ、追加の確認で修正され得る結論・結果を表す。  \n例: The researchers presented their tentative findings at the workshop.  \n訳: 研究者たちはワークショップで予備的な研究結果を発表した。  \n\n・a tentative explanation for 〈phenomenon/problem〉  \n用途: 現象や問題を説明する仮説を、確定的な説明としてではなく提示する。  \n例: The team offered a tentative explanation for the sudden drop in demand.  \n訳: チームは需要が急減したことについて暫定的な説明を示した。  \n\n・a tentative identification of 〈person/object〉  \n用途: 証拠が十分でなく、現段階での仮の同定であることを示す。  \n例: The police made a tentative identification of the vehicle from the video.  \n訳: 警察は映像からその車両を暫定的に特定した。  \n\n・tentatively approve/accept/identify something  \n用途: 承認・受諾・特定を行うが、最終確認や条件の充足を残していることを表す。  \n例: The board tentatively approved the budget pending a legal review.  \n訳: 取締役会は法務審査を条件として、その予算を暫定承認した。  \n\n【語法・注意】tentative は「その場しのぎの」「短期間の」と同義ではない。`a tentative date` は期間が短い日付ではなく、まだ変更され得る候補日である。`a tentative agreement` も正式な契約・最終合意とは限らず、`final`、`confirmed`、`settled` などで確定段階を示す。`uncertain` は結果や真偽が不確かなことを広く表すのに対し、tentative は計画・判断などをいったん置いているが確定させていないことに焦点がある。`preliminary` は作業・調査の初期段階であること、`provisional` は正式なものに代わる仮の状態であることを強調しやすい。  \n\n【類義語】\n\n・provisional  \n定義: 正式なものが決まるまで、暫定的に使われる。  \n頻度: 〈7/10〉  \n違い: provisional は正式な決定・制度・地位の代替として置かれることを強調し、tentative は内容がまだ固まっておらず変更され得ることを広く示す。  \n例: The committee issued a provisional approval while the documents were being checked.  \n訳: 委員会は書類を確認している間、暫定承認を出した。  \n\n・preliminary  \n定義: 本格的な検討や最終段階の前に行われる、初期段階の。  \n頻度: 〈8/10〉  \n違い: preliminary は時期・段階が早いことに焦点があり、tentative はその結論や計画がまだ確定していないことに焦点がある。  \n例: The report contains preliminary results from the first experiment.  \n訳: その報告書には最初の実験の予備結果が含まれている。  \n\n・conditional  \n定義: 特定の条件が満たされる場合にだけ成立する。  \n頻度: 〈8/10〉  \n違い: conditional は変更の理由となる条件を明示する語で、tentative は条件を示さなくても、現段階で確定していないことを表せる。  \n例: The offer is conditional on approval from the lender.  \n訳: その申し出は貸し手の承認を条件としている。  \n\n・unconfirmed  \n定義: 正式な確認や裏付けがまだ得られていない。  \n頻度: 〈7/10〉  \n違い: unconfirmed は情報の確認状態に焦点があり、tentative は情報だけでなく計画・合意・結論を仮置きする場合にも使う。  \n例: The report was based on an unconfirmed account of the incident.  \n訳: その報告書は、その出来事についてまだ確認されていない説明に基づいていた。  \n\n【反意語】\n\n・definite  \n定義: 内容や予定が明確に決まっていて、曖昧さが少ない。  \n頻度: 〈9/10〉  \n違い: definite は tentative の「未確定」に対する直接的な反対側を示す。  \n例: We need a definite answer before we book the venue.  \n訳: 会場を予約する前に、確定した返事が必要だ。  \n\n・confirmed  \n定義: 確認や承認によって、正しいもの・正式なものとして確定している。  \n頻度: 〈9/10〉  \n違い: confirmed は確認手続きが済んだことに焦点があり、tentative はその手続きの前段階を示す。  \n例: The confirmed departure time is shown on your ticket.  \n訳: 確定した出発時刻はチケットに表示されている。  \n\n・final  \n定義: それ以上の変更・検討を予定しない最終的な。  \n頻度: 〈10/10〉  \n違い: final は変更を終えた段階、tentative は変更の余地を残した段階を表す。  \n例: The final schedule will be sent to all participants tomorrow.  \n訳: 最終日程は明日、参加者全員に送られる。  \n\n2. 【形容詞・限定用法／叙述用法】ためらいがちな、自信のない、慎重な\n\n【日本語訳・定義】人の行動、声、表情、返答、提案などが、確信や自信を十分に示さず、様子をうかがいながら慎重に行われることを表す。単に静か・弱いという意味ではなく、失敗や拒否を恐れている、またはまだ慣れていないような不確かさが表れやすい。  \n\n【頻度】〈8/10〉  \n\n【レジスター/領域】標準語で、会話・描写・物語・心理描写・対人場面に広く使う。smile、voice、answer、reply、greeting、knock、step、attempt、gesture など、意志や動作の現れ方を表す語と結びつく。  \n\n【文法パターン】a tentative 〈smile/voice/answer/reply〉＝ためらいがちな〈笑顔・声・返答〉／take tentative steps＝おそるおそる歩み出す・初めの一歩を踏み出す／make a tentative attempt/gesture＝慎重な試み・身振りをする／be tentative about 〈doing something〉＝～することにためらいがある／sound/look/seem tentative＝声・様子が自信なさそうに聞こえる・見える／tentatively ask/suggest/reply＝ためらいながら尋ねる・提案する・返答する。  \n\n【コロケーション】\n\n・a tentative smile  \n用途: 相手の反応をうかがうような、確信のない笑顔を表す。  \n例: She gave him a tentative smile before entering the unfamiliar room.  \n訳: 彼女は見慣れない部屋に入る前、彼にためらいがちな笑顔を向けた。  \n\n・a tentative answer/reply  \n用途: 答えを断定せず、自信がないまま返すことを表す。  \n例: He gave a tentative answer because he had not checked the figures.  \n訳: 彼は数字を確認していなかったので、自信のない返答をした。  \n\n・a tentative voice/tone  \n用途: 声や口調にためらい・不確かさが表れていることを表す。  \n例: “Perhaps we should wait,” she said in a tentative voice.  \n訳: 「待ったほうがよいかもしれません」と、彼女はためらいがちな声で言った。  \n\n・a tentative knock on 〈door〉  \n用途: 在室や反応を確かめるように、強く決め込まずノックすることを表す。  \n例: There was a tentative knock on the office door.  \n訳: オフィスのドアをおそるおそるノックする音がした。  \n\n・take tentative steps towards 〈goal/change〉  \n用途: 目標や変化に向けて、確信はないが最初の行動を始めることを表す。  \n例: The company is taking tentative steps toward reducing its use of plastic.  \n訳: その会社はプラスチックの使用を減らすための最初の一歩を慎重に踏み出している。  \n\n・make a tentative attempt to do something  \n用途: 成功の確信はないが、試しに行動を起こすことを表す。  \n例: The child made a tentative attempt to join the other players.  \n訳: その子どもは、ほかの遊び仲間に加わろうとおそるおそる試みた。  \n\n・be tentative about 〈doing something〉  \n用途: 何かをすることに自信がなく、決めかねている状態を表す。  \n例: She was tentative about speaking up in front of the whole team.  \n訳: 彼女はチーム全員の前で発言することをためらっていた。  \n\n・tentatively suggest/ask something  \n用途: 相手の反応を見ながら、強く主張せずに提案・質問することを表す。  \n例: He tentatively suggested moving the meeting to Friday.  \n訳: 彼は会議を金曜日に移してはどうかと、ためらいがちに提案した。  \n\n【語法・注意】この意味の tentative は、計画が未確定という語義1と異なり、行為者の態度や動作の仕方を描写する。`a tentative smile` は「仮の笑顔」ではなく、相手の反応を確かめるような笑顔である。`hesitant` は決断・発言・行動をためらうことを直接表す最も近い語、`cautious` は危険や失敗を避けるための用心深さを表し、必ずしも自信のなさを含まない。`tentative steps` は文字どおり歩く場合も、計画・改革への初期行動を比喩的に表す場合もある。  \n\n【類義語】\n\n・hesitant  \n定義: 決めたり行動したりすることをためらっている。  \n頻度: 〈9/10〉  \n違い: hesitant は意思決定や行動を進められないためらいを直接示し、tentative は声・表情・動作が自信なさそうに現れる様子まで表せる。  \n例: She was hesitant to raise the issue during the meeting.  \n訳: 彼女は会議中にその問題を持ち出すのをためらった。  \n\n・uncertain  \n定義: 自分の判断・答え・行動に確信がない。  \n頻度: 〈9/10〉  \n違い: uncertain は認識や判断の不確かさを広く表し、tentative はその不確かさが行動・発言・表情に現れていることを描きやすい。  \n例: He sounded uncertain when asked about the cause.  \n訳: 原因を尋ねられたとき、彼は自信がなさそうに聞こえた。  \n\n・cautious  \n定義: 危険・損失・誤りを避けるために用心深い。  \n頻度: 〈9/10〉  \n違い: cautious はリスク管理の意識を含むが、tentative は必ずしも危険を評価しているとは限らず、自信のなさや慣れていない感じを示す。  \n例: The manager took a cautious approach to the unfamiliar market.  \n訳: その管理者は未知の市場に慎重な姿勢で臨んだ。  \n\n・faltering  \n定義: 力強さや流暢さを欠き、途中で弱まったりつまずいたりする。  \n頻度: 〈6/10〉  \n違い: faltering は声・歩み・進行が不安定で途切れがちな結果に焦点があり、tentative は最初から確信を持てず慎重に行う態度に焦点がある。  \n例: His faltering voice revealed how nervous he was.  \n訳: 彼の途切れがちな声から、彼がどれほど緊張していたかが分かった。  \n\n【反意語】\n\n・confident  \n定義: 自分の能力・判断・発言に確信を持っている。  \n頻度: 〈10/10〉  \n違い: confident は tentative の「自信のない態度」に対する直接的な反対を表す。  \n例: She gave a confident answer to the difficult question.  \n訳: 彼女はその難しい質問に自信を持って答えた。  \n\n・assured  \n定義: 落ち着きと自信があり、確実そうに見える。  \n頻度: 〈7/10〉  \n違い: assured は態度・話し方・演技などに表れる落ち着いた自信を強調し、confident より改まった響きがある。  \n例: The speaker adopted an assured tone from the beginning.  \n訳: その話し手は最初から自信に満ちた口調を取った。  \n\n・decisive  \n定義: 迷わず判断し、行動をはっきり決める。  \n頻度: 〈8/10〉  \n違い: decisive は決断や行動の速さ・明確さに焦点があり、tentative は決めかねながら慎重に進めることを表す。  \n例: The director took decisive action when the system failed.  \n訳: システムが停止したとき、部長は断固たる行動を取った。  \n\n3. 【名詞・可算／まれ・業務用語】暫定案、仮の項目\n\n【日本語訳・定義】予約、契約、日程、出演枠などについて、正式な確定や契約が済む前に、仮のものとして記録・扱われる項目を表す。一般会話で広く使う名詞ではなく、複数形 tentatives を含む業務上・事務上の文脈で見られる低頻度用法である。  \n\n【頻度】〈2/10〉  \n\n【レジスター/領域】低頻度。イベント予約、放送・興行、契約管理など、仮押さえや契約待ちの項目を区別する実務的な文脈に限られやすい。通常は a tentative booking、a tentative date、a tentative arrangement のように形容詞として言うほうが自然である。  \n\n【文法パターン】a tentative＝1件の暫定項目／tentatives＝複数の暫定項目／list/hold/book dates as tentatives＝日程を暫定項目として一覧化・仮押さえする。  \n\n【コロケーション】\n\n・list the dates as tentatives  \n用途: 契約や正式確認が済んでいない日程を仮の枠として記録する。  \n例: The theater listed the autumn dates as tentatives while it waited for the contracts.  \n訳: その劇場は契約を待つ間、秋の日程を暫定枠として記録した。  \n\n・hold a date as a tentative  \n用途: 日程を正式決定前の仮押さえとして扱う。  \n例: The producer asked us to hold the date as a tentative until Friday.  \n訳: プロデューサーは、金曜日まではその日を仮押さえとしておくよう私たちに頼んだ。  \n\n【語法・注意】この名詞用法は一般的な「仮のもの」の言い換えとして自由に使う語ではない。通常の文章では `a tentative plan`、`a tentative booking` のように形容詞用法を選ぶ。名詞の tentative が必要かどうかは業界の慣行によって異なり、読者に伝わりにくい場合は provisional item、pending booking など具体的な表現で言い換える。  \n\n【類義語】\n\n・provisional item  \n定義: 正式決定まで仮のものとして記録・管理される項目。  \n頻度: 〈3/10〉  \n違い: provisional item は意味を明示する説明的な句で、名詞 tentative の業務上の用法を平易に言い換える。tentative より自然に伝わりやすいが、特定業界の固定用語とは限らない。  \n例: The spreadsheet marks each provisional item in gray until the contract is signed.  \n訳: その表計算シートでは、契約が締結されるまで各暫定項目を灰色で示している。  \n\n・pending booking  \n定義: 確定や支払いなどを待っている仮予約。  \n頻度: 〈4/10〉  \n違い: pending booking は予約に意味を限定し、保留中であることを直接示す。tentative は予約以外の日程・契約項目にも使える。  \n例: We kept the pending booking separate from the confirmed reservations.  \n訳: 私たちは保留中の仮予約を、確定済みの予約とは別にしておいた。  ",
@@ -42,7 +90,7 @@
           "mode": "reused",
           "spec_sha256": "f0de393d4d064190e23916b2e8bfda25b2b83fd29e14cf52395c894b8539d7e9",
           "normalized_input_sha256": "6f860cd5ea14b699afc3a83f2623149552686fb85516975642e85ff807dd5281",
-          "source_artifact_sha256": "f84b1ebfd7802053fbc9fa711329bde0991dbd742d9be98f3f516baa3ff2b11f",
+          "source_artifact_sha256": "73787b3811419d4af99b6764bcacbf9685ac18522d5e2b856009599ce8e20810",
           "output_sha256": "aaac5e80275d75aecafba750d30b0baf67d6ee2b66051b1d43bf1c3376c322fa",
           "schema_valid": true,
           "reviewer_independent": true,
@@ -58,7 +106,7 @@
           "mode": "reused",
           "spec_sha256": "e0bbb032bc0c50bf9bef5ff8f7854188287e635c58e599479891e11e3343a017",
           "normalized_input_sha256": "d717d446d31d139801bd8b7ef3f4ed6ab77b20173081a062aa5eb19538c637c9",
-          "source_artifact_sha256": "f84b1ebfd7802053fbc9fa711329bde0991dbd742d9be98f3f516baa3ff2b11f",
+          "source_artifact_sha256": "73787b3811419d4af99b6764bcacbf9685ac18522d5e2b856009599ce8e20810",
           "output_sha256": "201ff4e881ea3d89f75645461e1b71980014f3379fb923adce6bb41194d9d287",
           "schema_valid": true,
           "reviewer_independent": true,
@@ -74,7 +122,7 @@
           "mode": "reused",
           "spec_sha256": "3598ca81a5784639c6b43a0806d0981a985bf4174f424c744aad1dde787bfcef",
           "normalized_input_sha256": "3589ea747175fadabb8cc558be4d7a10159414d4ff12c77bc9551d0da0d582dd",
-          "source_artifact_sha256": "f84b1ebfd7802053fbc9fa711329bde0991dbd742d9be98f3f516baa3ff2b11f",
+          "source_artifact_sha256": "73787b3811419d4af99b6764bcacbf9685ac18522d5e2b856009599ce8e20810",
           "output_sha256": "db6d4f247c58e4a6a887c71e82cc40f124b63e8880d38e257241aaa8efe458a8",
           "schema_valid": true,
           "reviewer_independent": true,
@@ -90,7 +138,7 @@
           "mode": "reused",
           "spec_sha256": "7e3e94267ac9f917c901c12580b91e570b5989df7adfbf2a39b833478c766d8a",
           "normalized_input_sha256": "6d407560b2fbdde28b6f65e28008e47b694b13f0cfcd7816fa591af7ac554c6a",
-          "source_artifact_sha256": "f84b1ebfd7802053fbc9fa711329bde0991dbd742d9be98f3f516baa3ff2b11f",
+          "source_artifact_sha256": "73787b3811419d4af99b6764bcacbf9685ac18522d5e2b856009599ce8e20810",
           "output_sha256": "95b8d6524b63a012d819b16fe37d4424a92d8ce4e632e14833542aad397c06cd",
           "schema_valid": true,
           "reviewer_independent": true,
@@ -106,7 +154,7 @@
           "mode": "reused",
           "spec_sha256": "1cf8a434bbe1213c0ef739f4c47ffb41014ab2cd5156d297471af6df85ae40a2",
           "normalized_input_sha256": "7a5370235aef5b90d2926ef11e836a3b49897a6a1f463dfacb2ee22e5e8dbc79",
-          "source_artifact_sha256": "f84b1ebfd7802053fbc9fa711329bde0991dbd742d9be98f3f516baa3ff2b11f",
+          "source_artifact_sha256": "73787b3811419d4af99b6764bcacbf9685ac18522d5e2b856009599ce8e20810",
           "output_sha256": "cae3b87ebd744f702c3ee61659507c9b26350fbdb3d2468795df3491a891173b",
           "schema_valid": true,
           "reviewer_independent": true,
@@ -122,7 +170,7 @@
           "mode": "reused",
           "spec_sha256": "a815b90fbc456e2bc194220ee0f3bfa164790bbb6e1f2f740144ac62bb03b87c",
           "normalized_input_sha256": "ec7bcaa5880075e3b72892444d0c6fae5c18fefa9b9f13c3eeb4a39354a7123e",
-          "source_artifact_sha256": "f84b1ebfd7802053fbc9fa711329bde0991dbd742d9be98f3f516baa3ff2b11f",
+          "source_artifact_sha256": "73787b3811419d4af99b6764bcacbf9685ac18522d5e2b856009599ce8e20810",
           "output_sha256": "97b0e5125433748219855dacc2be22ae57cc32ca2ade51cda88129e046efb668",
           "schema_valid": true,
           "reviewer_independent": true,
@@ -138,7 +186,7 @@
           "mode": "reused",
           "spec_sha256": "d09d822f58ea8bcff9aa2890f988ad7aca9a9d3a773b5f9da5427f783ae25bb3",
           "normalized_input_sha256": "511f539e04aa2239073b6874dfc8c8e086dc0fb000259d89b0b66fffcc3273ef",
-          "source_artifact_sha256": "f84b1ebfd7802053fbc9fa711329bde0991dbd742d9be98f3f516baa3ff2b11f",
+          "source_artifact_sha256": "73787b3811419d4af99b6764bcacbf9685ac18522d5e2b856009599ce8e20810",
           "output_sha256": "6263f7020641e55554a72bc908bdee913a6fb02ade57f225189046eb40ca2c83",
           "schema_valid": true,
           "reviewer_independent": true,
@@ -2277,7 +2325,7 @@
         "union_id": "U-009"
       }
     ],
-    "input_revision_id": "9fc50b17c025edfc6d87c2b255bc5749359eac4e7188d78c353d3b990439dc62"
+    "input_revision_id": "4c7ea8e24ecdcb25709dcb860773f0ce1e2a0482b820cb42187ada5daa4da016"
   },
   "input_bindings": {
     "pass_findings.json": "122347cb1521bfc0e8667b4d551a416fcb13298bbb2995153617db7b3849d3d9",
@@ -2286,11 +2334,11 @@
     "blind_seal.json": "3c163330797c2e2b323897b51af55026e30a3a5db976a77be67ddabe3627865c",
     "pre_blind_resolution.json": "20555f671e7fe03548174f5b9c96282fa9fdc0b309ec9ca61f8d65765d0f223c",
     "pre_blind_revision.json": "ed6a129302c610501b4c8a392963f76f109875b22969f170aa66e8727ff643bc",
-    "checker_recheck_manifest.json": "7d092c8d5cde7cd5c9adbe41bcd2f01dfcd4e880693e72e197c9bbdad3365e9f",
+    "checker_recheck_manifest.json": "69a96bf122676cc41e7caa456edcaf6195653a76a5b401589472990f779529d3",
     "post_blind_resolution.json": "922ff2eb415b8dc0a1639276dc40702f8ae18f58857e66f2b446af9bc06e74cb",
     "post_blind_verification.json": "2c559c8b926ce2f6f621feef887602f14dbf763546733fc4f4e94d365f65ffa0",
     "targeted_adjudications.json": "af5af9b139e61078d584a712c70a3ce285f0407cc7fa63836b8195db9ea9f3b6",
-    "source_inventory.json": "e2a268a99569d1c41d9891149792af0e7909cabb89d37849a3090646eb221902",
+    "source_inventory.json": "f05c143460c23f59626a392a81207cef8f0eaad6d73a10f856ac6bee973171bb",
     "resolutions.json": "60cf3b7a4be948421acf6e8e38f1d9901355445e8ce77033f459ff69a63ab70a",
     "check_passes/checker_passes.stage1.json": "2659f9791076a50c85f5717fee78707685c3852f28d2ec2059be0bb606c333ef",
     "check_passes/evidence.json": "1c279365858ac42db25a949eb65168524b2557d104fc2a14744100630872f191",
@@ -2315,5 +2363,6 @@
     "check_passes/translation.request.json": "63a92633ce11f5ae0b3f4dfd86bd3efb2ca6ff3d64f8265aa784db97d4d3005d"
   },
   "contract_version": "review_preflight_v1",
-  "input_revision_id": "9fc50b17c025edfc6d87c2b255bc5749359eac4e7188d78c353d3b990439dc62"
+  "input_revision_id": "4c7ea8e24ecdcb25709dcb860773f0ce1e2a0482b820cb42187ada5daa4da016"
 }
+```

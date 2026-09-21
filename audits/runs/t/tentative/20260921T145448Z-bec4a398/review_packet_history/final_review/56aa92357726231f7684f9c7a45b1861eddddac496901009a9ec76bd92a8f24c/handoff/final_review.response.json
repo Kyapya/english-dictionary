@@ -3,7 +3,7 @@
   "decision": "pass",
   "blockers": [],
   "notes": [
-    "Compared the current body, sealed blind assertions, evidence inventory, checker recheck, and recorded resolution against the refreshed input bindings; no unresolved discrepancy remains."
+    "Compared the current body, sealed blind assertions, evidence inventory, checker recheck, and recorded resolution against the fixed input bindings; no unresolved discrepancy remains."
   ],
   "target_results": [
     {
@@ -748,10 +748,10 @@
     }
   ],
   "blind_output_sha256": "2907d509d508763f3624cb333175bd545f9622d6328929d6cd410c03d05df45b",
-  "input_revision_id": "9fc50b17c025edfc6d87c2b255bc5749359eac4e7188d78c353d3b990439dc62",
+  "input_revision_id": "4c7ea8e24ecdcb25709dcb860773f0ce1e2a0482b820cb42187ada5daa4da016",
   "reviewer": {
     "mode": "handoff",
     "declared_model": "codex-gpt-5",
-    "agent_id": "tentative-final-review-r2-20260921T145448Z-bec4a398"
+    "agent_id": "tentative-final-review-20260921T145448Z-bec4a398"
   }
 }

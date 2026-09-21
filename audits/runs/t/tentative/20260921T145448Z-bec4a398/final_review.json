@@ -751,7 +751,28 @@
   "input_revision_id": "9fc50b17c025edfc6d87c2b255bc5749359eac4e7188d78c353d3b990439dc62",
   "reviewer": {
     "mode": "handoff",
+    "agent_id": "tentative-final-review-r2-20260921T145448Z-bec4a398",
     "declared_model": "codex-gpt-5",
-    "agent_id": "tentative-final-review-r2-20260921T145448Z-bec4a398"
-  }
+    "ingested_by": "orchestrator",
+    "source_response": {
+      "path": "audits/runs/t/tentative/20260921T145448Z-bec4a398/handoff/source_responses/ef6c0e790a06a32be82597316bad5cdd5e55578fb8164713576074bcc7f35a03.json",
+      "sha256": "ef6c0e790a06a32be82597316bad5cdd5e55578fb8164713576074bcc7f35a03"
+    },
+    "same_model_as_generation": true
+  },
+  "stage": "final_review",
+  "run_id": "blind-tentative-20260921T145448Z-bec4a398",
+  "context_id": "blind-tentative-context-20260921T145448Z-bec4a398",
+  "input_body_sha256": "0776dad38e204651edaf002adb4634b2bdf5ffb371b9d38c3ab1f33440a3c35f",
+  "prompt_sha256": "7fee3a9d388e6557c2d8a66702e890b2398ca20228e61072acc81eedafcfac9d",
+  "input_artifacts": [
+    "entry_body",
+    "sealed_final_blind",
+    "pre_blind_resolution",
+    "post_blind_resolution",
+    "checker_recheck_manifest",
+    "targeted_adjudications",
+    "final_review_spec"
+  ],
+  "recorded_at": "2026-09-21T15:56:43.169531+00:00"
 }
