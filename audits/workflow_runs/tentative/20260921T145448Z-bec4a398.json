@@ -23,7 +23,7 @@
   "started_at": "2026-09-21T14:54:48Z",
   "deadline_at": "2026-09-21T15:54:48Z",
   "pre_draft_deadline_at": "2026-09-21T15:14:48Z",
-  "last_heartbeat_at": "2026-09-21T15:08:41Z",
+  "last_heartbeat_at": "2026-09-21T15:23:26Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-21T14:57:18Z",
@@ -554,6 +554,15 @@
         "fact": "repairable preflight rejection: source-first artifact is required before checker requests are built",
         "status": "pending",
         "recorded_at": "2026-09-21T15:08:41Z"
+      },
+      {
+        "event_id": "pending:20260921T145448Z-bec4a398:checker_passes:7cc415009bdc",
+        "knowledge_epoch": "pi2-2026-09-06",
+        "kind": "review_failure",
+        "stage": "checker_passes",
+        "fact": "repairable preflight rejection: source-first artifact body hash does not match the checker body hash",
+        "status": "pending",
+        "recorded_at": "2026-09-21T15:23:26Z"
       }
     ],
     "selection_errors": []
@@ -774,7 +783,7 @@
   "review_preflight": "review_preflight_v1",
   "time_warnings": {},
   "review_preflight_failures": {
-    "count": 1,
+    "count": 2,
     "history": [
       {
         "stage": "checker_passes",
@@ -782,13 +791,20 @@
         "recorded_at": "2026-09-21T15:08:41.567363+00:00",
         "fingerprint": null,
         "classification": "repairable_validation"
+      },
+      {
+        "stage": "checker_passes",
+        "error": "source-first artifact body hash does not match the checker body hash",
+        "recorded_at": "2026-09-21T15:23:26.149126+00:00",
+        "fingerprint": null,
+        "classification": "repairable_validation"
       }
     ]
   },
   "review_correction": {
     "stage": "checker_passes",
-    "error": "source-first artifact is required before checker requests are built",
-    "recorded_at": "2026-09-21T15:08:41.567363+00:00",
+    "error": "source-first artifact body hash does not match the checker body hash",
+    "recorded_at": "2026-09-21T15:23:26.149126+00:00",
     "fingerprint": null,
     "classification": "repairable_validation",
     "status": "needs_correction"
