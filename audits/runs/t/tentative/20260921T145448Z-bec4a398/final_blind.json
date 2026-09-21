@@ -1,0 +1,95 @@
+{
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "candidate_provisional_adjective",
+      "surface_form": "tentative",
+      "frame": "adjective: tentative plan/date/schedule/agreement/conclusion/explanation/identification; be tentative about details; tentatively agree, approve, or identify",
+      "meaning": "not yet fixed or confirmed and liable to change",
+      "disposition": "included",
+      "rationale": "The frame adjective: tentative plan/date/schedule/agreement/conclusion/explanation/identification; be tentative about details; tentatively agree, approve, or identify consistently expresses the meaning not yet fixed or confirmed and liable to change, while the article distinguishes this status from mere short duration.",
+      "semantic_assertions": [
+        {
+          "id": "assert_provisional_status",
+          "statement": "The adjective must describe a plan, judgment, arrangement, or identification that is currently proposed or accepted provisionally and may still be changed or withdrawn.",
+          "polarity": "must_hold",
+          "scope": "provisional adjective uses"
+        },
+        {
+          "id": "assert_not_short_duration",
+          "statement": "The adjective must not be generalized to mean merely temporary or short-lived when the content is already settled.",
+          "polarity": "must_not_hold",
+          "scope": "provisional adjective uses"
+        }
+      ]
+    },
+    {
+      "id": "candidate_hesitant_adjective",
+      "surface_form": "tentative",
+      "frame": "adjective: tentative smile/voice/answer/reply; take tentative steps; make a tentative attempt/gesture; sound, look, or seem tentative; tentatively ask, suggest, or reply",
+      "meaning": "lacking confidence or certainty and expressed or performed cautiously",
+      "disposition": "included",
+      "rationale": "The frame adjective: tentative smile/voice/answer/reply; take tentative steps; make a tentative attempt/gesture; sound, look, or seem tentative; tentatively ask, suggest, or reply identifies the meaning lacking confidence or certainty and expressed or performed cautiously, including both interpersonal manner and cautious first action.",
+      "semantic_assertions": [
+        {
+          "id": "assert_cautious_manner",
+          "statement": "This adjective must characterize the manner or presentation of an action, voice, expression, or response as hesitant or not fully confident.",
+          "polarity": "must_hold",
+          "scope": "hesitant adjective uses"
+        },
+        {
+          "id": "assert_not_silence",
+          "statement": "This adjective must not be reduced to simply quiet, weak, or cautious because of external danger without an accompanying lack of confidence or hesitation.",
+          "polarity": "must_not_hold",
+          "scope": "hesitant adjective uses"
+        }
+      ]
+    },
+    {
+      "id": "candidate_rare_noun",
+      "surface_form": "tentative",
+      "frame": "rare count noun: a tentative; tentatives; list, hold, or book dates as tentatives in business contexts",
+      "meaning": "a provisional item or arrangement awaiting confirmation",
+      "disposition": "included",
+      "rationale": "The frame rare count noun: a tentative; tentatives; list, hold, or book dates as tentatives in business contexts supports the meaning a provisional item or arrangement awaiting confirmation and is explicitly limited to low-frequency practical usage rather than presented as a freely interchangeable everyday noun.",
+      "semantic_assertions": [
+        {
+          "id": "assert_noun_provisional_item",
+          "statement": "The noun must refer to a recorded or held provisional item, such as a date or booking, that awaits confirmation or contract completion.",
+          "polarity": "must_hold",
+          "scope": "rare noun use"
+        },
+        {
+          "id": "assert_noun_restricted",
+          "statement": "The noun must not be generalized as the ordinary noun counterpart for every adjective use of tentative.",
+          "polarity": "must_not_hold",
+          "scope": "rare noun use"
+        }
+      ]
+    }
+  ],
+  "article_findings": [],
+  "reviewer": {
+    "mode": "handoff",
+    "agent_id": "tentative-final-blind-20260921T145448Z-bec4a398",
+    "declared_model": "codex-gpt-5",
+    "ingested_by": "orchestrator",
+    "source_response": {
+      "path": "audits/runs/t/tentative/20260921T145448Z-bec4a398/handoff/source_responses/8961edc9102380fbceb24d25fcfb81cd170caae3e1026000a62bb1b74cd88bcb.json",
+      "sha256": "8961edc9102380fbceb24d25fcfb81cd170caae3e1026000a62bb1b74cd88bcb"
+    },
+    "same_model_as_generation": true
+  },
+  "schema_version": "final_blind_v2",
+  "stage": "final_blind",
+  "run_id": "blind-tentative-20260921T145448Z-bec4a398",
+  "context_id": "blind-tentative-context-20260921T145448Z-bec4a398",
+  "input_body_sha256": "0776dad38e204651edaf002adb4634b2bdf5ffb371b9d38c3ab1f33440a3c35f",
+  "prompt_sha256": "3a481b4b5b1236ff386e148bcacc574570b305e79f5e155e9afcd34091f7785c",
+  "input_artifacts": [
+    "entry_body",
+    "final_blind_prompt"
+  ],
+  "audit_visible": false,
+  "recorded_at": "2026-09-21T15:43:32.303631+00:00"
+}
