@@ -1,0 +1,625 @@
+{
+  "schema_version": "source_inventory_v2",
+  "stage": "source_inventory",
+  "run_id": "source-tentative-20260921T145448Z-bec4a398",
+  "context_id": "source-tentative-context-20260921T145448Z-bec4a398",
+  "input_body_sha256": "0776dad38e204651edaf002adb4634b2bdf5ffb371b9d38c3ab1f33440a3c35f6",
+  "prompt_sha256": "0377df9f9e2eeeed2d38f6a7072f675fc4eea38e948ed672004f96bc2d88f783",
+  "input_artifacts": [
+    "headword",
+    "source_first_spec"
+  ],
+  "recorded_at": "2026-09-21T15:10:00Z",
+  "evidence_link_ids": [
+    "EVID-001",
+    "EVID-002",
+    "EVID-003",
+    "EVID-004",
+    "EVID-005",
+    "EVID-006",
+    "EVID-007",
+    "EVID-008"
+  ],
+  "source_first_audit": {
+    "version": "source_first_audit_v2",
+    "profile": "standard",
+    "profile_reason": "tentative has two common adjective senses plus a rare noun use; six bounded coverage axes close with five selected sources.",
+    "limits": {
+      "max_sources": 6,
+      "max_facts": 48,
+      "max_research_rounds": 2,
+      "max_post_cold_rechecks": null,
+      "max_final_attempts": 2
+    },
+    "usage": {
+      "sources_used": 5,
+      "facts_used": 16,
+      "research_rounds_used": 2,
+      "post_cold_rechecks_used": 0,
+      "final_attempts_used": 0
+    },
+    "research_status": "complete",
+    "stop_reason": "coverage_axes_closed",
+    "open_questions": [],
+    "inventory_completed_before_article_comparison": true,
+    "inventory_completed_at": "2026-09-21T15:10:00Z",
+    "article_comparison_started_at": "2026-09-22T00:17:47.103500+09:00",
+    "coverage_axes": [
+      {
+        "axis": "lexical_senses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-001",
+          "F-002",
+          "F-007",
+          "F-008",
+          "F-011",
+          "F-012",
+          "F-013"
+        ],
+        "notes": "Independent general dictionaries cover the two common adjective senses and the separately marked noun use."
+      },
+      {
+        "axis": "part_of_speech_and_frames",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-001",
+          "F-002",
+          "F-007",
+          "F-008",
+          "F-010",
+          "F-013"
+        ],
+        "notes": "The sources distinguish adjective senses, the rare noun, and the main learner-facing content/manner frames."
+      },
+      {
+        "axis": "derived_and_related_forms",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-015",
+          "F-016",
+          "F-018"
+        ],
+        "notes": "Tentatively and tentativeness are checked as separate surface forms."
+      },
+      {
+        "axis": "specialist_and_legal_uses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-013"
+        ],
+        "notes": "Only the rare noun entry is carried into the article, explicitly qualified; no unsupported legal sense is claimed."
+      },
+      {
+        "axis": "register_region_and_frequency",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-001",
+          "F-002",
+          "F-011",
+          "F-012",
+          "F-013"
+        ],
+        "notes": "The article uses cautious learner-facing frequency/register guidance and explicitly limits the noun use; the sources impose no regional restriction."
+      },
+      {
+        "axis": "pronunciation_and_etymology",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-003",
+          "F-004",
+          "F-009",
+          "F-014",
+          "F-017"
+        ],
+        "notes": "Two dictionary pronunciation records and two etymological references close this axis; the exact first-use dates remain excluded."
+      }
+    ],
+    "sources": [
+      {
+        "id": "S-001",
+        "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/tentative",
+        "source_type": "learner_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "oxford",
+        "facts": [
+          {
+            "id": "F-001",
+            "form": "tentative",
+            "kind": "lexical_sense",
+            "statement": "As an adjective, tentative describes something that is not definite or certain because it may change later.",
+            "source_detail": "Oxford Learner's Dictionaries, definition 1."
+          },
+          {
+            "id": "F-002",
+            "form": "tentative",
+            "kind": "lexical_sense",
+            "statement": "As an adjective, tentative can describe a person, action, or response that is not confident or certain.",
+            "source_detail": "Oxford Learner's Dictionaries, definition 2; hesitant."
+          },
+          {
+            "id": "F-003",
+            "form": "tentative",
+            "kind": "pronunciation",
+            "statement": "The headword is pronounced /ˈtentətɪv/.",
+            "source_detail": "Oxford Learner's Dictionaries pronunciation entry."
+          },
+          {
+            "id": "F-004",
+            "form": "tentative",
+            "kind": "etymology",
+            "statement": "The word is recorded as late sixteenth-century English from Medieval Latin tentativus, related to tentare.",
+            "source_detail": "Oxford Learner's Dictionaries word origin."
+          }
+        ]
+      },
+      {
+        "id": "S-002",
+        "locator": "https://dictionary.cambridge.org/dictionary/learner-english/tentative",
+        "source_type": "learner_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "cambridge",
+        "facts": [
+          {
+            "id": "F-007",
+            "form": "tentative",
+            "kind": "lexical_sense",
+            "statement": "A tentative plan or idea is not certain or agreed.",
+            "source_detail": "Cambridge Learner's Dictionary definition."
+          },
+          {
+            "id": "F-008",
+            "form": "tentative",
+            "kind": "lexical_sense",
+            "statement": "A tentative suggestion or action is expressed or done carefully because it is uncertain.",
+            "source_detail": "Cambridge Learner's Dictionary definition."
+          },
+          {
+            "id": "F-009",
+            "form": "tentative",
+            "kind": "pronunciation",
+            "statement": "The headword is pronounced /ˈtentətɪv/.",
+            "source_detail": "Cambridge Learner's Dictionary pronunciation line."
+          },
+          {
+            "id": "F-010",
+            "form": "tentative",
+            "kind": "frame",
+            "statement": "The adjective is used with plans, ideas, suggestions, and actions in the learner definitions.",
+            "source_detail": "Cambridge Learner's Dictionary sense wording and examples."
+          }
+        ]
+      },
+      {
+        "id": "S-003",
+        "locator": "https://www.merriam-webster.com/dictionary/tentative",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "merriam-webster",
+        "facts": [
+          {
+            "id": "F-011",
+            "form": "tentative",
+            "kind": "lexical_sense",
+            "statement": "Tentative can mean not fully worked out or developed.",
+            "source_detail": "Merriam-Webster adjective definition 1."
+          },
+          {
+            "id": "F-012",
+            "form": "tentative",
+            "kind": "lexical_sense",
+            "statement": "Tentative can mean hesitant or uncertain.",
+            "source_detail": "Merriam-Webster adjective definition 2."
+          },
+          {
+            "id": "F-013",
+            "form": "tentative",
+            "kind": "lexical_sense",
+            "statement": "Tentative is also a noun for something uncertain or subject to change; the plural is tentatives.",
+            "source_detail": "Merriam-Webster noun entry."
+          },
+          {
+            "id": "F-014",
+            "form": "tentative",
+            "kind": "etymology",
+            "statement": "Merriam-Webster gives Medieval Latin tentativus as the etymological source and records separate first-known-use dates for the adjective and noun.",
+            "source_detail": "Merriam-Webster etymology and first-known-use notes; exact dates are not carried into the article."
+          }
+        ]
+      },
+      {
+        "id": "S-004",
+        "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/tentatively",
+        "source_type": "learner_dictionary",
+        "source_role": "derived_forms_reference",
+        "independence_group": "oxford",
+        "facts": [
+          {
+            "id": "F-015",
+            "form": "tentatively",
+            "kind": "derived_form",
+            "statement": "Tentatively means provisionally or hesitantly, corresponding to the two main adjective senses.",
+            "source_detail": "Oxford Learner's Dictionaries adverb entry."
+          },
+          {
+            "id": "F-016",
+            "form": "tentativeness",
+            "kind": "derived_form",
+            "statement": "Tentativeness is the noun form for the quality of being tentative.",
+            "source_detail": "Oxford Learner's Dictionaries related-word information."
+          }
+        ]
+      },
+      {
+        "id": "S-005",
+        "locator": "https://www.etymonline.com/word/tentative",
+        "source_type": "etymology_reference",
+        "source_role": "etymology",
+        "independence_group": "etymonline",
+        "facts": [
+          {
+            "id": "F-017",
+            "form": "tentative",
+            "kind": "etymology",
+            "statement": "The older sense is 'of the nature of an experiment, based on trial'; the word is traced through Medieval Latin tentativus to Latin tentare.",
+            "source_detail": "Etymonline tentative entry, etymology and historical sense."
+          },
+          {
+            "id": "F-018",
+            "form": "tentatively",
+            "kind": "derived_form",
+            "statement": "Tentatively and tentativeness are recorded as related forms of tentative.",
+            "source_detail": "Etymonline tentative entry, related forms."
+          }
+        ]
+      }
+    ],
+    "source_union": [
+      {
+        "id": "U-001",
+        "source_fact_ids": [
+          "F-001",
+          "F-007",
+          "F-011"
+        ],
+        "canonical_statement": "The common adjective sense describes a plan, idea, result, or other content that is not settled and may change.",
+        "disposition": "included",
+        "rationale": "Three independent general dictionaries converge on the provisional or not-fully-developed sense used as sense 1."
+      },
+      {
+        "id": "U-002",
+        "source_fact_ids": [
+          "F-002",
+          "F-008",
+          "F-012"
+        ],
+        "canonical_statement": "The adjective can describe a person, action, response, or manner that is hesitant, uncertain, or not confident.",
+        "disposition": "included",
+        "rationale": "Oxford, Cambridge, and Merriam-Webster independently provide the hesitation/uncertainty sense used as sense 2."
+      },
+      {
+        "id": "U-003",
+        "source_fact_ids": [
+          "F-013"
+        ],
+        "canonical_statement": "Tentative has a rare noun use for something uncertain or subject to change, with plural tentatives.",
+        "disposition": "integrated",
+        "rationale": "The Merriam-Webster noun entry is retained as a clearly qualified, low-frequency sense rather than generalized to ordinary conversation."
+      },
+      {
+        "id": "U-004",
+        "source_fact_ids": [
+          "F-003",
+          "F-009"
+        ],
+        "canonical_statement": "The headword is pronounced /ˈtentətɪv/.",
+        "disposition": "included",
+        "rationale": "Oxford and Cambridge agree on the learner-facing pronunciation."
+      },
+      {
+        "id": "U-005",
+        "source_fact_ids": [
+          "F-004",
+          "F-017"
+        ],
+        "canonical_statement": "Tentative is connected historically with Medieval Latin tentativus and Latin tentare, with an older trial or testing notion.",
+        "disposition": "included",
+        "rationale": "Oxford and Etymonline provide convergent etymological support; the article states the relationship without claiming a direct modern derivation."
+      },
+      {
+        "id": "U-006",
+        "source_fact_ids": [
+          "F-015",
+          "F-018"
+        ],
+        "canonical_statement": "Tentatively is the adverb corresponding to provisional and hesitant uses of tentative.",
+        "disposition": "integrated",
+        "rationale": "Oxford's adverb entry and Etymonline's related-form record support the derived-word note."
+      },
+      {
+        "id": "U-007",
+        "source_fact_ids": [
+          "F-016"
+        ],
+        "canonical_statement": "Tentativeness is a noun related to the quality of being tentative.",
+        "disposition": "integrated",
+        "rationale": "The derived form is included as a compact learner-facing word-formation note."
+      },
+      {
+        "id": "U-008",
+        "source_fact_ids": [
+          "F-010"
+        ],
+        "canonical_statement": "The adjective is used with plans, ideas, suggestions, and actions, with the exact sense determined by whether the content is unsettled or the manner is hesitant.",
+        "disposition": "integrated",
+        "rationale": "The Cambridge learner entry supplies the frame inventory that the article organizes across senses 1 and 2."
+      },
+      {
+        "id": "U-009",
+        "source_fact_ids": [
+          "F-014"
+        ],
+        "canonical_statement": "Merriam-Webster records separate first-known-use dates for the adjective and noun.",
+        "disposition": "excluded",
+        "rationale": "The dates are useful audit facts but are not needed for the learner-facing article and are not asserted in its text."
+      }
+    ],
+    "claim_units": [
+      {
+        "id": "C-001",
+        "union_ids": [
+          "U-001"
+        ],
+        "subject_form": "tentative",
+        "claim_type": "lexical_sense",
+        "statement": "Sense 1 presents tentative as provisional or not fully settled.",
+        "article_target_ids": [
+          "sense_boundary:001",
+          "definition:001",
+          "frequency:001",
+          "register:001",
+          "grammar_pattern:001",
+          "grammar_pattern:002",
+          "grammar_pattern:003",
+          "grammar_pattern:004",
+          "grammar_pattern:005",
+          "grammar_pattern:006",
+          "grammar_pattern:007",
+          "collocation:001",
+          "collocation:002",
+          "collocation:003",
+          "collocation:004",
+          "collocation:005",
+          "collocation:006",
+          "collocation:007",
+          "collocation:008",
+          "usage_note:001",
+          "synonym:001",
+          "synonym:002",
+          "synonym:003",
+          "synonym:004",
+          "antonym:001",
+          "antonym:002",
+          "antonym:003",
+          "core_image:001",
+          "core_image:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-001",
+            "support_summary": "Oxford explicitly defines the adjective as not definite or certain because it may change later."
+          },
+          {
+            "source_fact_id": "F-007",
+            "support_summary": "Cambridge applies the not-certain/not-agreed meaning to plans and ideas."
+          },
+          {
+            "source_fact_id": "F-011",
+            "support_summary": "Merriam-Webster describes the sense as not fully worked out or developed."
+          }
+        ]
+      },
+      {
+        "id": "C-002",
+        "union_ids": [
+          "U-002"
+        ],
+        "subject_form": "tentative",
+        "claim_type": "lexical_sense",
+        "statement": "Sense 2 presents tentative as hesitant, uncertain, or lacking confidence in manner.",
+        "article_target_ids": [
+          "sense_boundary:002",
+          "definition:002",
+          "frequency:002",
+          "register:002",
+          "grammar_pattern:008",
+          "grammar_pattern:009",
+          "grammar_pattern:010",
+          "grammar_pattern:011",
+          "grammar_pattern:012",
+          "grammar_pattern:013",
+          "collocation:009",
+          "collocation:010",
+          "collocation:011",
+          "collocation:012",
+          "collocation:013",
+          "collocation:014",
+          "collocation:015",
+          "collocation:016",
+          "usage_note:002",
+          "synonym:005",
+          "synonym:006",
+          "synonym:007",
+          "synonym:008",
+          "antonym:004",
+          "antonym:005",
+          "antonym:006",
+          "core_image:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-002",
+            "support_summary": "Oxford gives the not-confident or uncertain sense for a person, action, or response."
+          },
+          {
+            "source_fact_id": "F-008",
+            "support_summary": "Cambridge describes suggestions or actions done carefully because they are uncertain."
+          },
+          {
+            "source_fact_id": "F-012",
+            "support_summary": "Merriam-Webster directly lists hesitant or uncertain."
+          }
+        ]
+      },
+      {
+        "id": "C-003",
+        "union_ids": [
+          "U-003"
+        ],
+        "subject_form": "tentative",
+        "claim_type": "lexical_sense",
+        "statement": "Sense 3 restricts the noun use to a rare uncertain or changeable item and records tentatives as plural.",
+        "article_target_ids": [
+          "sense_boundary:003",
+          "definition:003",
+          "frequency:003",
+          "register:003",
+          "grammar_pattern:014",
+          "grammar_pattern:015",
+          "grammar_pattern:016",
+          "collocation:017",
+          "collocation:018",
+          "usage_note:003",
+          "synonym:009",
+          "synonym:010",
+          "core_image:004",
+          "word_formation:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-013",
+            "support_summary": "Merriam-Webster records the noun as something uncertain or subject to change and gives the plural tentatives."
+          }
+        ]
+      },
+      {
+        "id": "C-004",
+        "union_ids": [
+          "U-004"
+        ],
+        "subject_form": "tentative",
+        "claim_type": "pronunciation",
+        "statement": "The article gives the shared dictionary pronunciation /ˈtentətɪv/.",
+        "article_target_ids": [
+          "pronunciation:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-003",
+            "support_summary": "Oxford supplies /ˈtentətɪv/ for the headword."
+          },
+          {
+            "source_fact_id": "F-009",
+            "support_summary": "Cambridge independently supplies /ˈtentətɪv/."
+          }
+        ]
+      },
+      {
+        "id": "C-005",
+        "union_ids": [
+          "U-005"
+        ],
+        "subject_form": "tentative",
+        "claim_type": "etymology",
+        "statement": "The etymology section connects tentative with trial/testing through Medieval Latin tentativus and Latin tentare.",
+        "article_target_ids": [
+          "etymology:001",
+          "word_formation:004"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-004",
+            "support_summary": "Oxford traces the word to Medieval Latin tentativus related to tentare."
+          },
+          {
+            "source_fact_id": "F-017",
+            "support_summary": "Etymonline supplies the older trial/testing sense and the Latin tentare pathway."
+          }
+        ]
+      },
+      {
+        "id": "C-006",
+        "union_ids": [
+          "U-006"
+        ],
+        "subject_form": "tentatively",
+        "claim_type": "derived_form",
+        "statement": "The article records tentatively as the adverb for provisional or hesitant manner.",
+        "article_target_ids": [
+          "word_formation:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-015",
+            "support_summary": "Oxford defines tentatively with the provisional and hesitant meanings."
+          },
+          {
+            "source_fact_id": "F-018",
+            "support_summary": "Etymonline lists tentatively among the related forms."
+          }
+        ]
+      },
+      {
+        "id": "C-007",
+        "union_ids": [
+          "U-007"
+        ],
+        "subject_form": "tentativeness",
+        "claim_type": "derived_form",
+        "statement": "The article records tentativeness as the noun for the quality of being tentative.",
+        "article_target_ids": [
+          "word_formation:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-016",
+            "support_summary": "Oxford identifies tentativeness as the related noun form."
+          }
+        ]
+      },
+      {
+        "id": "C-008",
+        "union_ids": [
+          "U-008"
+        ],
+        "subject_form": "tentative",
+        "claim_type": "frame",
+        "statement": "The article's adjective patterns cover plans, ideas, suggestions, and actions and separate content uncertainty from manner uncertainty.",
+        "article_target_ids": [
+          "grammar_pattern:001",
+          "grammar_pattern:002",
+          "grammar_pattern:003",
+          "grammar_pattern:004",
+          "grammar_pattern:005",
+          "grammar_pattern:006",
+          "grammar_pattern:007",
+          "grammar_pattern:008",
+          "grammar_pattern:009",
+          "grammar_pattern:010",
+          "grammar_pattern:011",
+          "grammar_pattern:012",
+          "grammar_pattern:013",
+          "grammar_pattern:014",
+          "grammar_pattern:015",
+          "grammar_pattern:016"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-010",
+            "support_summary": "Cambridge's learner definition supplies the plan, idea, suggestion, and action frame inventory."
+          }
+        ]
+      }
+    ]
+  }
+}
