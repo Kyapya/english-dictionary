@@ -1,0 +1,858 @@
+{
+  "schema_version": "antonym_axis_alignment_key_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "c0f235efca9fc6b070d0f5c1706c7e1f86c60ca3bccb8f1cd91649c73eab5e88",
+  "blind_request_sha256": "0f07b1a38d2c10d6a3861d69696ac64b0651ebd5181459b918b7cb6f2a343b2f",
+  "shuffle_seed": "c0f235efca9fc6b070d0f5c1706c7e1f86c60ca3bccb8f1cd91649c73eab5e88",
+  "items": [
+    {
+      "source_item_id": "antonym:001",
+      "sense_id": "sense:001",
+      "headword": "appropriate",
+      "sense_definition": "【日本語訳・定義】状況・目的・年齢・相手などにふさわしい、適切な。",
+      "antonym": "inappropriate",
+      "antonym_definition": "定義: 状況・目的・基準に合わず、ふさわしくない。",
+      "anchor": {
+        "section": "lexical_relations",
+        "line_start": 110,
+        "line_end": 110,
+        "exact_quote": "・inappropriate  "
+      },
+      "difference_anchor": {
+        "section": "lexical_relations",
+        "line_start": 113,
+        "line_end": 113,
+        "exact_quote": "違い: appropriate の直接の反意語で、社会的な不適切さにも使う。  "
+      },
+      "item_id": "ant-2bcfcaf62f99"
+    },
+    {
+      "source_item_id": "antonym:002",
+      "sense_id": "sense:001",
+      "headword": "appropriate",
+      "sense_definition": "【日本語訳・定義】状況・目的・年齢・相手などにふさわしい、適切な。",
+      "antonym": "unsuitable",
+      "antonym_definition": "定義: 目的・条件・人に合わず、使うのに適していない。",
+      "anchor": {
+        "section": "lexical_relations",
+        "line_start": 117,
+        "line_end": 117,
+        "exact_quote": "・unsuitable  "
+      },
+      "difference_anchor": {
+        "section": "lexical_relations",
+        "line_start": 120,
+        "line_end": 120,
+        "exact_quote": "違い: inappropriate より、実用上の不適合や条件不足に焦点を置きやすい。  "
+      },
+      "item_id": "ant-dd8adda0fff2"
+    },
+    {
+      "source_item_id": "antonym:003",
+      "sense_id": "sense:002",
+      "headword": "appropriate",
+      "sense_definition": "【日本語訳・定義】公的な資金・資源を目的のために取り分ける、正式に割り当てる。",
+      "antonym": "withhold",
+      "antonym_definition": "定義: 与える、支出する、割り当てるはずのものを渡さずに保留する。",
+      "anchor": {
+        "section": "lexical_relations",
+        "line_start": 195,
+        "line_end": 195,
+        "exact_quote": "・withhold  "
+      },
+      "difference_anchor": {
+        "section": "lexical_relations",
+        "line_start": 198,
+        "line_end": 198,
+        "exact_quote": "違い: appropriate が目的のために取り分けるのに対し、withhold は提供や配分を止める。  "
+      },
+      "item_id": "ant-e011c011f71a"
+    },
+    {
+      "source_item_id": "antonym:004",
+      "sense_id": "sense:003",
+      "headword": "appropriate",
+      "sense_definition": "【日本語訳・定義】他者の考え・資金・土地などを無断で自分のものとして使う、取り込む。",
+      "antonym": "relinquish",
+      "antonym_definition": "定義: 所有・権利・支配などを手放し、他者に渡す。",
+      "anchor": {
+        "section": "lexical_relations",
+        "line_start": 273,
+        "line_end": 273,
+        "exact_quote": "・relinquish  "
+      },
+      "difference_anchor": {
+        "section": "lexical_relations",
+        "line_start": 276,
+        "line_end": 276,
+        "exact_quote": "違い: appropriate が他者のものを取り込むのに対し、relinquish は自分の権利や占有を手放す。  "
+      },
+      "item_id": "ant-f809e4c0b53c"
+    }
+  ],
+  "senses": [
+    {
+      "sense_id": "sense:001",
+      "full_sense": [
+        {
+          "line": 34,
+          "text": "1. 【形容詞・限定用法／叙述用法】特定の状況・目的・人に適していて、社会的にも許容される。"
+        },
+        {
+          "line": 36,
+          "text": "【日本語訳・定義】状況・目的・年齢・相手などにふさわしい、適切な。  "
+        },
+        {
+          "line": 38,
+          "text": "【頻度】〈9/10〉  "
+        },
+        {
+          "line": 40,
+          "text": "【レジスター/領域】一般語。会話から公的・専門的な文章まで広く使う。  "
+        },
+        {
+          "line": 42,
+          "text": "【文法パターン】appropriate for 〈purpose/person/situation〉／appropriate to 〈circumstances/age/needs〉／be, seem, consider, think appropriate／it is appropriate to do／it is appropriate that...  "
+        },
+        {
+          "line": 44,
+          "text": "【コロケーション】"
+        },
+        {
+          "line": 46,
+          "text": "・an appropriate response to 〈complaint/situation〉  "
+        },
+        {
+          "line": 47,
+          "text": "用途: 苦情や状況に合う返答・対応を述べる。  "
+        },
+        {
+          "line": 48,
+          "text": "例: The team chose an appropriate response to the complaint.  "
+        },
+        {
+          "line": 49,
+          "text": "訳: チームはその苦情に対して適切な対応を選んだ。  "
+        },
+        {
+          "line": 51,
+          "text": "・appropriate action in 〈circumstances〉  "
+        },
+        {
+          "line": 52,
+          "text": "用途: その時点で取るべき適切な行動を述べる。  "
+        },
+        {
+          "line": 53,
+          "text": "例: The manager took appropriate action after the safety report.  "
+        },
+        {
+          "line": 54,
+          "text": "訳: 管理者は安全報告を受けて適切な措置を取った。  "
+        },
+        {
+          "line": 56,
+          "text": "・appropriate measures for 〈problem/purpose〉  "
+        },
+        {
+          "line": 57,
+          "text": "用途: 問題への対策や目的にかなう措置を述べる。  "
+        },
+        {
+          "line": 58,
+          "text": "例: The school introduced appropriate measures to protect students.  "
+        },
+        {
+          "line": 59,
+          "text": "訳: 学校は生徒を守るための適切な措置を導入した。  "
+        },
+        {
+          "line": 61,
+          "text": "・an appropriate time to do 〈an action〉  "
+        },
+        {
+          "line": 62,
+          "text": "用途: 何かをするのにふさわしい時期を述べる。  "
+        },
+        {
+          "line": 63,
+          "text": "例: We will discuss the proposal at an appropriate time.  "
+        },
+        {
+          "line": 64,
+          "text": "訳: 私たちは適切な時期にその提案を話し合う。  "
+        },
+        {
+          "line": 66,
+          "text": "・appropriate for 〈children/age/needs〉  "
+        },
+        {
+          "line": 67,
+          "text": "用途: 年齢や対象者にふさわしいことを述べる。  "
+        },
+        {
+          "line": 68,
+          "text": "例: This material is appropriate for children over six.  "
+        },
+        {
+          "line": 69,
+          "text": "訳: この教材は6歳を超える子どもに適している。  "
+        },
+        {
+          "line": 71,
+          "text": "・appropriate to 〈context/occasion〉  "
+        },
+        {
+          "line": 72,
+          "text": "用途: 文脈や場面に合っていることを述べる。  "
+        },
+        {
+          "line": 73,
+          "text": "例: Her formal tone was appropriate to the occasion.  "
+        },
+        {
+          "line": 74,
+          "text": "訳: 彼女の改まった口調はその場にふさわしかった。  "
+        },
+        {
+          "line": 76,
+          "text": "【語法・注意】「正しい」と断定するより、特定の条件や場面に合っているという判断を表す。for は対象・目的、to は基準や状況との対応を示しやすい。  "
+        },
+        {
+          "line": 78,
+          "text": "【類義語】"
+        },
+        {
+          "line": 80,
+          "text": "・suitable  "
+        },
+        {
+          "line": 81,
+          "text": "定義: 目的・条件・人に合っていて使える。  "
+        },
+        {
+          "line": 82,
+          "text": "頻度: 〈9/10〉  "
+        },
+        {
+          "line": 83,
+          "text": "違い: appropriate より広く、適合性・実用性に焦点を置く。  "
+        },
+        {
+          "line": 84,
+          "text": "例: This room is suitable for small meetings.  "
+        },
+        {
+          "line": 85,
+          "text": "訳: この部屋は小規模な会議に適している。  "
+        },
+        {
+          "line": 87,
+          "text": "・proper  "
+        },
+        {
+          "line": 88,
+          "text": "定義: 規則・基準・期待にかなっていて、正しいまたはふさわしい。  "
+        },
+        {
+          "line": 89,
+          "text": "頻度: 〈9/10〉  "
+        },
+        {
+          "line": 90,
+          "text": "違い: appropriate より規範や正式さを強く含むことがある。  "
+        },
+        {
+          "line": 91,
+          "text": "例: Please use the proper form for your application.  "
+        },
+        {
+          "line": 92,
+          "text": "訳: 申請には所定の正しい書式を使ってください。  "
+        },
+        {
+          "line": 94,
+          "text": "・fitting  "
+        },
+        {
+          "line": 95,
+          "text": "定義: 場面や人物に特によく合っている。  "
+        },
+        {
+          "line": 96,
+          "text": "頻度: 〈6/10〉  "
+        },
+        {
+          "line": 97,
+          "text": "違い: appropriate より、場面にぴったり合うという評価的な響きがある。  "
+        },
+        {
+          "line": 98,
+          "text": "例: The tribute was a fitting end to the ceremony.  "
+        },
+        {
+          "line": 99,
+          "text": "訳: その賛辞は式典の締めくくりにふさわしかった。  "
+        },
+        {
+          "line": 101,
+          "text": "・apt  "
+        },
+        {
+          "line": 102,
+          "text": "定義: 状況を的確に表す、または目的に合っている。  "
+        },
+        {
+          "line": 103,
+          "text": "頻度: 〈5/10〉  "
+        },
+        {
+          "line": 104,
+          "text": "違い: appropriate より硬く、表現・比喩・判断が的を射ている場合にも使う。  "
+        },
+        {
+          "line": 105,
+          "text": "例: That is an apt comparison for the situation.  "
+        },
+        {
+          "line": 106,
+          "text": "訳: それはその状況に的確な比較だ。  "
+        },
+        {
+          "line": 108,
+          "text": "【反意語】"
+        },
+        {
+          "line": 110,
+          "text": "・inappropriate  "
+        },
+        {
+          "line": 111,
+          "text": "定義: 状況・目的・基準に合わず、ふさわしくない。  "
+        },
+        {
+          "line": 112,
+          "text": "頻度: 〈8/10〉  "
+        },
+        {
+          "line": 113,
+          "text": "違い: appropriate の直接の反意語で、社会的な不適切さにも使う。  "
+        },
+        {
+          "line": 114,
+          "text": "例: His comment was inappropriate for the occasion.  "
+        },
+        {
+          "line": 115,
+          "text": "訳: 彼の発言はその場にふさわしくなかった。  "
+        },
+        {
+          "line": 117,
+          "text": "・unsuitable  "
+        },
+        {
+          "line": 118,
+          "text": "定義: 目的・条件・人に合わず、使うのに適していない。  "
+        },
+        {
+          "line": 119,
+          "text": "頻度: 〈6/10〉  "
+        },
+        {
+          "line": 120,
+          "text": "違い: inappropriate より、実用上の不適合や条件不足に焦点を置きやすい。  "
+        },
+        {
+          "line": 121,
+          "text": "例: The surface is unsuitable for outdoor use.  "
+        },
+        {
+          "line": 122,
+          "text": "訳: その表面は屋外での使用には適していない。  "
+        }
+      ]
+    },
+    {
+      "sense_id": "sense:002",
+      "full_sense": [
+        {
+          "line": 124,
+          "text": "2. 【動詞・他動詞／フォーマル】公的な権限で、金・予算・資源などを特定の目的のために割り当てる、充当する。"
+        },
+        {
+          "line": 126,
+          "text": "【日本語訳・定義】公的な資金・資源を目的のために取り分ける、正式に割り当てる。  "
+        },
+        {
+          "line": 128,
+          "text": "【頻度】〈4/10〉  "
+        },
+        {
+          "line": 130,
+          "text": "【レジスター/領域】フォーマル。行政・法律・会計・政策の文脈で多い。  "
+        },
+        {
+          "line": 132,
+          "text": "【文法パターン】appropriate money/funds/resources for 〈purpose〉／be appropriated for 〈purpose〉／Congress/the legislature appropriates 〈amount〉 for 〈purpose〉  "
+        },
+        {
+          "line": 134,
+          "text": "【コロケーション】"
+        },
+        {
+          "line": 136,
+          "text": "・appropriate funds for 〈research/project〉  "
+        },
+        {
+          "line": 137,
+          "text": "用途: 研究や事業のために公的資金を正式に割り当てる。  "
+        },
+        {
+          "line": 138,
+          "text": "例: The legislature appropriated funds for coastal research.  "
+        },
+        {
+          "line": 139,
+          "text": "訳: 議会は沿岸研究のための資金を割り当てた。  "
+        },
+        {
+          "line": 141,
+          "text": "・appropriate money for 〈public service〉  "
+        },
+        {
+          "line": 142,
+          "text": "用途: 公共サービス向けに予算を充当する。  "
+        },
+        {
+          "line": 143,
+          "text": "例: The city appropriated money for emergency housing.  "
+        },
+        {
+          "line": 144,
+          "text": "訳: 市は緊急住宅のために予算を充当した。  "
+        },
+        {
+          "line": 146,
+          "text": "・be appropriated for 〈a specific purpose〉  "
+        },
+        {
+          "line": 147,
+          "text": "用途: 資金や資源が特定の目的に割り当てられていると述べる。  "
+        },
+        {
+          "line": 148,
+          "text": "例: The grant was appropriated for environmental restoration.  "
+        },
+        {
+          "line": 149,
+          "text": "訳: その助成金は環境の回復のために割り当てられた。  "
+        },
+        {
+          "line": 151,
+          "text": "・appropriate resources to 〈program/agency〉  "
+        },
+        {
+          "line": 152,
+          "text": "用途: 事業や機関に必要な資源を公的に配分する。  "
+        },
+        {
+          "line": 153,
+          "text": "例: The committee appropriated resources to the health program.  "
+        },
+        {
+          "line": 154,
+          "text": "訳: 委員会は保健事業に資源を配分した。  "
+        },
+        {
+          "line": 156,
+          "text": "・appropriate a sum for 〈construction/maintenance〉  "
+        },
+        {
+          "line": 157,
+          "text": "用途: 建設や維持管理に特定額を計上する。  "
+        },
+        {
+          "line": 158,
+          "text": "例: The council appropriated a sum for bridge maintenance.  "
+        },
+        {
+          "line": 159,
+          "text": "訳: 評議会は橋の維持管理のために一定額を計上した。  "
+        },
+        {
+          "line": 161,
+          "text": "【語法・注意】公的機関などが目的を定めて予算や資源を取り分ける語。実際に支払う・使い切るという意味ではなく、無断で流用する語義3とは権限と目的の向きが異なる。  "
+        },
+        {
+          "line": 163,
+          "text": "【類義語】"
+        },
+        {
+          "line": 165,
+          "text": "・allocate  "
+        },
+        {
+          "line": 166,
+          "text": "定義: 金・時間・資源などを特定の人や目的に配分する。  "
+        },
+        {
+          "line": 167,
+          "text": "頻度: 〈8/10〉  "
+        },
+        {
+          "line": 168,
+          "text": "違い: appropriate は公的権限による正式な割り当てを示しやすく、allocate はより広い配分に使う。  "
+        },
+        {
+          "line": 169,
+          "text": "例: The department allocated more staff to the project.  "
+        },
+        {
+          "line": 170,
+          "text": "訳: 部局はそのプロジェクトにより多くの職員を配分した。  "
+        },
+        {
+          "line": 172,
+          "text": "・earmark  "
+        },
+        {
+          "line": 173,
+          "text": "定義: 資金や資源を特定の目的のためにあらかじめ取り分ける。  "
+        },
+        {
+          "line": 174,
+          "text": "頻度: 〈6/10〉  "
+        },
+        {
+          "line": 175,
+          "text": "違い: appropriate より、用途をあらかじめ指定して確保する点に焦点がある。  "
+        },
+        {
+          "line": 176,
+          "text": "例: The foundation earmarked money for local schools.  "
+        },
+        {
+          "line": 177,
+          "text": "訳: 財団は地元の学校向けに資金を取り分けた。  "
+        },
+        {
+          "line": 179,
+          "text": "・assign  "
+        },
+        {
+          "line": 180,
+          "text": "定義: 仕事・役割・資源などを特定の対象に割り当てる。  "
+        },
+        {
+          "line": 181,
+          "text": "頻度: 〈9/10〉  "
+        },
+        {
+          "line": 182,
+          "text": "違い: appropriate の公的な予算配分より広く、人や任務の割り当てにも使う。  "
+        },
+        {
+          "line": 183,
+          "text": "例: The office assigned additional funds to the training program.  "
+        },
+        {
+          "line": 184,
+          "text": "訳: 事務所は研修事業に追加資金を割り当てた。  "
+        },
+        {
+          "line": 186,
+          "text": "・budget  "
+        },
+        {
+          "line": 187,
+          "text": "定義: 特定の目的のために金額を計上・配分する。  "
+        },
+        {
+          "line": 188,
+          "text": "頻度: 〈7/10〉  "
+        },
+        {
+          "line": 189,
+          "text": "違い: appropriate より日常的で、計画上の支出額を見積もる意味にも使う。  "
+        },
+        {
+          "line": 190,
+          "text": "例: We budgeted enough money for repairs.  "
+        },
+        {
+          "line": 191,
+          "text": "訳: 私たちは修理のために十分な金額を計上した。  "
+        },
+        {
+          "line": 193,
+          "text": "【反意語】"
+        },
+        {
+          "line": 195,
+          "text": "・withhold  "
+        },
+        {
+          "line": 196,
+          "text": "定義: 与える、支出する、割り当てるはずのものを渡さずに保留する。  "
+        },
+        {
+          "line": 197,
+          "text": "頻度: 〈6/10〉  "
+        },
+        {
+          "line": 198,
+          "text": "違い: appropriate が目的のために取り分けるのに対し、withhold は提供や配分を止める。  "
+        },
+        {
+          "line": 199,
+          "text": "例: The agency withheld funds until the audit was complete.  "
+        },
+        {
+          "line": 200,
+          "text": "訳: その機関は監査が終わるまで資金の配分を保留した。  "
+        }
+      ]
+    },
+    {
+      "sense_id": "sense:003",
+      "full_sense": [
+        {
+          "line": 202,
+          "text": "3. 【動詞・他動詞／フォーマル】所有権・利用権を自分のものとして取り込み、特に権限なく他者のもの・考え・資金などを使う。"
+        },
+        {
+          "line": 204,
+          "text": "【日本語訳・定義】他者の考え・資金・土地などを無断で自分のものとして使う、取り込む。  "
+        },
+        {
+          "line": 206,
+          "text": "【頻度】〈5/10〉  "
+        },
+        {
+          "line": 208,
+          "text": "【レジスター/領域】フォーマル。批判・法律・文化・知的財産の文脈で多い。  "
+        },
+        {
+          "line": 210,
+          "text": "【文法パターン】appropriate something from 〈person/source〉／appropriate someone's idea/words／appropriate funds for one's own use／be appropriated without permission  "
+        },
+        {
+          "line": 212,
+          "text": "【コロケーション】"
+        },
+        {
+          "line": 214,
+          "text": "・appropriate someone's idea  "
+        },
+        {
+          "line": 215,
+          "text": "用途: 他人の考えや着想を自分のものとして使う。  "
+        },
+        {
+          "line": 216,
+          "text": "例: The writer was accused of appropriating someone else's idea.  "
+        },
+        {
+          "line": 217,
+          "text": "訳: その作家は他人の着想を無断で使ったと非難された。  "
+        },
+        {
+          "line": 219,
+          "text": "・appropriate public land  "
+        },
+        {
+          "line": 220,
+          "text": "用途: 公有地を自分の利用や所有のために取り込む。  "
+        },
+        {
+          "line": 221,
+          "text": "例: The company tried to appropriate public land for private use.  "
+        },
+        {
+          "line": 222,
+          "text": "訳: その会社は公有地を私的利用のために取り込もうとした。  "
+        },
+        {
+          "line": 224,
+          "text": "・appropriate funds for one's own use  "
+        },
+        {
+          "line": 225,
+          "text": "用途: 本来の目的の資金を私的に流用する。  "
+        },
+        {
+          "line": 226,
+          "text": "例: The official appropriated public funds for his own use.  "
+        },
+        {
+          "line": 227,
+          "text": "訳: その公務員は公金を自分のために流用した。  "
+        },
+        {
+          "line": 229,
+          "text": "・be appropriated without permission  "
+        },
+        {
+          "line": 230,
+          "text": "用途: 許可なく作品・資源・情報などが使われると述べる。  "
+        },
+        {
+          "line": 231,
+          "text": "例: The photographs were appropriated without permission.  "
+        },
+        {
+          "line": 232,
+          "text": "訳: その写真は無断で使用された。  "
+        },
+        {
+          "line": 234,
+          "text": "・appropriate cultural material  "
+        },
+        {
+          "line": 235,
+          "text": "用途: 文化的な表現や素材を、権利関係を無視して取り込む。  "
+        },
+        {
+          "line": 236,
+          "text": "例: The campaign appropriated cultural material without consulting the community.  "
+        },
+        {
+          "line": 237,
+          "text": "訳: そのキャンペーンは地域社会に相談せず文化的素材を取り込んだ。  "
+        },
+        {
+          "line": 239,
+          "text": "【語法・注意】無断使用・横取りの含みが文脈から生じやすく、misappropriate は不正流用をより強く示す。公的な目的への正式な充当は語義2で、目的と権限の有無が境界になる。  "
+        },
+        {
+          "line": 241,
+          "text": "【類義語】"
+        },
+        {
+          "line": 243,
+          "text": "・misappropriate  "
+        },
+        {
+          "line": 244,
+          "text": "定義: 金・資源・権利などを不正に使う、横領する。  "
+        },
+        {
+          "line": 245,
+          "text": "頻度: 〈4/10〉  "
+        },
+        {
+          "line": 246,
+          "text": "違い: appropriate よりも不正・違法な流用の含みが強く、資金に特によく使う。  "
+        },
+        {
+          "line": 247,
+          "text": "例: The accountant misappropriated company funds.  "
+        },
+        {
+          "line": 248,
+          "text": "訳: その会計担当者は会社の資金を横領した。  "
+        },
+        {
+          "line": 250,
+          "text": "・seize  "
+        },
+        {
+          "line": 251,
+          "text": "定義: 権力・強制力などで人や物をつかみ、占有する。  "
+        },
+        {
+          "line": 252,
+          "text": "頻度: 〈7/10〉  "
+        },
+        {
+          "line": 253,
+          "text": "違い: appropriate より、突然または強制的に奪い取る動作に焦点を置く。  "
+        },
+        {
+          "line": 254,
+          "text": "例: Officials seized the goods at the border.  "
+        },
+        {
+          "line": 255,
+          "text": "訳: 当局は国境でその商品を押収した。  "
+        },
+        {
+          "line": 257,
+          "text": "・plagiarize  "
+        },
+        {
+          "line": 258,
+          "text": "定義: 他人の文章・考え・作品を自分のものとして発表する。  "
+        },
+        {
+          "line": 259,
+          "text": "頻度: 〈5/10〉  "
+        },
+        {
+          "line": 260,
+          "text": "違い: appropriate のうち、知的成果の無断利用に限定される。  "
+        },
+        {
+          "line": 261,
+          "text": "例: The student plagiarized material from an online article.  "
+        },
+        {
+          "line": 262,
+          "text": "訳: その学生はオンライン記事の内容を盗用した。  "
+        },
+        {
+          "line": 264,
+          "text": "・usurp  "
+        },
+        {
+          "line": 265,
+          "text": "定義: 権利・地位・権力を不法に奪い取る。  "
+        },
+        {
+          "line": 266,
+          "text": "頻度: 〈4/10〉  "
+        },
+        {
+          "line": 267,
+          "text": "違い: appropriate より、正当な権利や地位を押しのけて奪う含みが強い。  "
+        },
+        {
+          "line": 268,
+          "text": "例: The rival tried to usurp the leader's authority.  "
+        },
+        {
+          "line": 269,
+          "text": "訳: その対立者は指導者の権限を奪おうとした。  "
+        },
+        {
+          "line": 271,
+          "text": "【反意語】"
+        },
+        {
+          "line": 273,
+          "text": "・relinquish  "
+        },
+        {
+          "line": 274,
+          "text": "定義: 所有・権利・支配などを手放し、他者に渡す。  "
+        },
+        {
+          "line": 275,
+          "text": "頻度: 〈5/10〉  "
+        },
+        {
+          "line": 276,
+          "text": "違い: appropriate が他者のものを取り込むのに対し、relinquish は自分の権利や占有を手放す。  "
+        },
+        {
+          "line": 277,
+          "text": "例: The company agreed to relinquish control of the land.  "
+        },
+        {
+          "line": 278,
+          "text": "訳: その会社は土地の支配権を手放すことに同意した。  "
+        }
+      ]
+    }
+  ]
+}

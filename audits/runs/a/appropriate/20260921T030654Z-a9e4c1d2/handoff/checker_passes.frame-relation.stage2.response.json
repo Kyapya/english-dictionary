@@ -1,0 +1,41 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "reviewer": {
+    "mode": "handoff",
+    "agent_id": "reviewer-appropriate-framerelation-20260921T030654Z-a9e4c1d2",
+    "declared_model": "gpt-6-astra",
+    "ingested_by": "orchestrator",
+    "source_response": {
+      "path": "audits/runs/a/appropriate/20260921T030654Z-a9e4c1d2/handoff/source_responses/b1de3ba6650edc90a3a4064426377fdf8d4107a9c515d68a7b4eeef44d135201.json",
+      "sha256": "b1de3ba6650edc90a3a4064426377fdf8d4107a9c515d68a7b4eeef44d135201"
+    }
+  },
+  "input_body_sha256": "c0f235efca9fc6b070d0f5c1706c7e1f86c60ca3bccb8f1cd91649c73eab5e88",
+  "stage2_request_sha256": "a185b88053663781c412956cb9c2aca936eaf73f3e6a74e2456e8c073d798cc1",
+  "blind_record_sha256": "bd8f5f7959557403b7598cdf5c1d8a2cfb62e6498b949868bd5a5ed5de5af7af",
+  "adjudications": [
+    {
+      "item_id": "ant-2bcfcaf62f99",
+      "flags": [],
+      "rationale": "The axis is nameable and the current antonym relation is usable without a blocking frame correction."
+    },
+    {
+      "item_id": "ant-dd8adda0fff2",
+      "flags": [],
+      "rationale": "The axis is nameable and the current antonym relation is usable without a blocking frame correction."
+    },
+    {
+      "item_id": "ant-e011c011f71a",
+      "flags": [],
+      "rationale": "The axis is nameable and the current antonym relation is usable without a blocking frame correction."
+    },
+    {
+      "item_id": "ant-f809e4c0b53c",
+      "flags": [],
+      "rationale": "The axis is nameable and the current antonym relation is usable without a blocking frame correction."
+    }
+  ],
+  "frame_findings": [],
+  "unrouted_observations": []
+}
