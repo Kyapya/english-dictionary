@@ -1,0 +1,748 @@
+{
+  "reviewer": {
+    "mode": "handoff",
+    "agent_id": "reviewer-appropriate-blind-20260921T030654Z-a9e4c1d2",
+    "declared_model": "gpt-6-astra",
+    "ingested_by": "orchestrator",
+    "source_response": {
+      "path": "audits/runs/a/appropriate/20260921T030654Z-a9e4c1d2/handoff/source_responses/f258f4af27753699a4f4e0e6342e489c72365a6e5f545e5345b2581ee7e55146.json",
+      "sha256": "f258f4af27753699a4f4e0e6342e489c72365a6e5f545e5345b2581ee7e55146"
+    }
+  },
+  "decision": "pass",
+  "blockers": [],
+  "notes": [
+    "The final reconciliation compared the current body hash with every extracted target and relation, the sealed blind output, the source-first unions, and the preserved checker/cold review decisions before accepting the entry."
+  ],
+  "target_results": [
+    {
+      "id": "pronunciation:001",
+      "target_id": "pronunciation:001",
+      "status": "pass",
+      "notes": "Reviewed exact text: 米: 形容詞 /əˈproʊpriət/｜動詞 /əˈproʊpriˌeɪt/；英: 形容詞 /əˈprəʊpriət/｜動詞 /əˈprəʊpriˌeɪt/。形容詞は語尾が /ət/、動詞は /eɪt/ で、品詞によって発音が変わる。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "etymology:001",
+      "target_id": "etymology:001",
+      "status": "pass",
+      "notes": "Reviewed exact text: Late Middle English。ラテン語 appropriatus（appropriare「自分のものにする」の過去分詞）から。ad-「〜へ」と proprius「自分自身の・固有の」が背景にあり、「ある目的に合うものにする／自分のものとして取り分ける」という現代の意味につながる。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "word_formation:001",
+      "target_id": "word_formation:001",
+      "status": "pass",
+      "notes": "Reviewed exact text: ・appropriately：適切に、ふさわしく。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "word_formation:002",
+      "target_id": "word_formation:002",
+      "status": "pass",
+      "notes": "Reviewed exact text: ・appropriateness：適切さ、妥当性。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "word_formation:003",
+      "target_id": "word_formation:003",
+      "status": "pass",
+      "notes": "Reviewed exact text: ・appropriation：割り当て・充当、または他者のものの無断取得。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "word_formation:004",
+      "target_id": "word_formation:004",
+      "status": "pass",
+      "notes": "Reviewed exact text: ・inappropriate：不適切な。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "word_formation:005",
+      "target_id": "word_formation:005",
+      "status": "pass",
+      "notes": "Reviewed exact text: ・misappropriate：横領する、目的外に流用する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "core_image:001",
+      "target_id": "core_image:001",
+      "status": "pass",
+      "notes": "Reviewed exact text: ある人・目的・状況に合うものとして整えるか、特定の目的または自分のものとして取り分ける。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "sense_boundary:001",
+      "target_id": "sense_boundary:001",
+      "status": "pass",
+      "notes": "Reviewed exact text: 1. 【形容詞・限定用法／叙述用法】特定の状況・目的・人に適していて、社会的にも許容される。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "definition:001",
+      "target_id": "definition:001",
+      "status": "pass",
+      "notes": "Reviewed exact text: 状況・目的・年齢・相手などにふさわしい、適切な。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "frequency:001",
+      "target_id": "frequency:001",
+      "status": "pass",
+      "notes": "Reviewed exact text: 〈9/10〉. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "register:001",
+      "target_id": "register:001",
+      "status": "pass",
+      "notes": "Reviewed exact text: 一般語。会話から公的・専門的な文章まで広く使う。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "grammar_pattern:001",
+      "target_id": "grammar_pattern:001",
+      "status": "pass",
+      "notes": "Reviewed exact text: appropriate for 〈purpose/person/situation〉. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "grammar_pattern:002",
+      "target_id": "grammar_pattern:002",
+      "status": "pass",
+      "notes": "Reviewed exact text: appropriate to 〈circumstances/age/needs〉. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "grammar_pattern:003",
+      "target_id": "grammar_pattern:003",
+      "status": "pass",
+      "notes": "Reviewed exact text: be, seem, consider, think appropriate. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "grammar_pattern:004",
+      "target_id": "grammar_pattern:004",
+      "status": "pass",
+      "notes": "Reviewed exact text: it is appropriate to do. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "grammar_pattern:005",
+      "target_id": "grammar_pattern:005",
+      "status": "pass",
+      "notes": "Reviewed exact text: it is appropriate that.... The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "collocation:001",
+      "target_id": "collocation:001",
+      "status": "pass",
+      "notes": "Reviewed exact text: ・an appropriate response to 〈complaint/situation〉\n用途: 苦情や状況に合う返答・対応を述べる。\n例: The team chose an appropriate response to the complaint.\n訳: チームはその苦情に対して適切な対応を選んだ。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "collocation:002",
+      "target_id": "collocation:002",
+      "status": "pass",
+      "notes": "Reviewed exact text: ・appropriate action in 〈circumstances〉\n用途: その時点で取るべき適切な行動を述べる。\n例: The manager took appropriate action after the safety report.\n訳: 管理者は安全報告を受けて適切な措置を取った。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "collocation:003",
+      "target_id": "collocation:003",
+      "status": "pass",
+      "notes": "Reviewed exact text: ・appropriate measures for 〈problem/purpose〉\n用途: 問題への対策や目的にかなう措置を述べる。\n例: The school introduced appropriate measures to protect students.\n訳: 学校は生徒を守るための適切な措置を導入した。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "collocation:004",
+      "target_id": "collocation:004",
+      "status": "pass",
+      "notes": "Reviewed exact text: ・an appropriate time to do 〈an action〉\n用途: 何かをするのにふさわしい時期を述べる。\n例: We will discuss the proposal at an appropriate time.\n訳: 私たちは適切な時期にその提案を話し合う。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "collocation:005",
+      "target_id": "collocation:005",
+      "status": "pass",
+      "notes": "Reviewed exact text: ・appropriate for 〈children/age/needs〉\n用途: 年齢や対象者にふさわしいことを述べる。\n例: This material is appropriate for children over six.\n訳: この教材は6歳を超える子どもに適している。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "collocation:006",
+      "target_id": "collocation:006",
+      "status": "pass",
+      "notes": "Reviewed exact text: ・appropriate to 〈context/occasion〉\n用途: 文脈や場面に合っていることを述べる。\n例: Her formal tone was appropriate to the occasion.\n訳: 彼女の改まった口調はその場にふさわしかった。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "usage_note:001",
+      "target_id": "usage_note:001",
+      "status": "pass",
+      "notes": "Reviewed exact text: 「正しい」と断定するより、特定の条件や場面に合っているという判断を表す。for は対象・目的、to は基準や状況との対応を示しやすい。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "synonym:001",
+      "target_id": "synonym:001",
+      "status": "pass",
+      "notes": "Reviewed exact text: ・suitable\n定義: 目的・条件・人に合っていて使える。\n頻度: 〈9/10〉\n違い: appropriate より広く、適合性・実用性に焦点を置く。\n例: This room is suitable for small meetings.\n訳: この部屋は小規模な会議に適している。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "synonym:002",
+      "target_id": "synonym:002",
+      "status": "pass",
+      "notes": "Reviewed exact text: ・proper\n定義: 規則・基準・期待にかなっていて、正しいまたはふさわしい。\n頻度: 〈9/10〉\n違い: appropriate より規範や正式さを強く含むことがある。\n例: Please use the proper form for your application.\n訳: 申請には所定の正しい書式を使ってください。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "synonym:003",
+      "target_id": "synonym:003",
+      "status": "pass",
+      "notes": "Reviewed exact text: ・fitting\n定義: 場面や人物に特によく合っている。\n頻度: 〈6/10〉\n違い: appropriate より、場面にぴったり合うという評価的な響きがある。\n例: The tribute was a fitting end to the ceremony.\n訳: その賛辞は式典の締めくくりにふさわしかった。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "synonym:004",
+      "target_id": "synonym:004",
+      "status": "pass",
+      "notes": "Reviewed exact text: ・apt\n定義: 状況を的確に表す、または目的に合っている。\n頻度: 〈5/10〉\n違い: appropriate より硬く、表現・比喩・判断が的を射ている場合にも使う。\n例: That is an apt comparison for the situation.\n訳: それはその状況に的確な比較だ。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "antonym:001",
+      "target_id": "antonym:001",
+      "status": "pass",
+      "notes": "Reviewed exact text: ・inappropriate\n定義: 状況・目的・基準に合わず、ふさわしくない。\n頻度: 〈8/10〉\n違い: appropriate の直接の反意語で、社会的な不適切さにも使う。\n例: His comment was inappropriate for the occasion.\n訳: 彼の発言はその場にふさわしくなかった。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "antonym:002",
+      "target_id": "antonym:002",
+      "status": "pass",
+      "notes": "Reviewed exact text: ・unsuitable\n定義: 目的・条件・人に合わず、使うのに適していない。\n頻度: 〈6/10〉\n違い: inappropriate より、実用上の不適合や条件不足に焦点を置きやすい。\n例: The surface is unsuitable for outdoor use.\n訳: その表面は屋外での使用には適していない。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "sense_boundary:002",
+      "target_id": "sense_boundary:002",
+      "status": "pass",
+      "notes": "Reviewed exact text: 2. 【動詞・他動詞／フォーマル】公的な権限で、金・予算・資源などを特定の目的のために割り当てる、充当する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "definition:002",
+      "target_id": "definition:002",
+      "status": "pass",
+      "notes": "Reviewed exact text: 公的な資金・資源を目的のために取り分ける、正式に割り当てる。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "frequency:002",
+      "target_id": "frequency:002",
+      "status": "pass",
+      "notes": "Reviewed exact text: 〈4/10〉. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "register:002",
+      "target_id": "register:002",
+      "status": "pass",
+      "notes": "Reviewed exact text: フォーマル。行政・法律・会計・政策の文脈で多い。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "grammar_pattern:006",
+      "target_id": "grammar_pattern:006",
+      "status": "pass",
+      "notes": "Reviewed exact text: appropriate money/funds/resources for 〈purpose〉. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "grammar_pattern:007",
+      "target_id": "grammar_pattern:007",
+      "status": "pass",
+      "notes": "Reviewed exact text: be appropriated for 〈purpose〉. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "grammar_pattern:008",
+      "target_id": "grammar_pattern:008",
+      "status": "pass",
+      "notes": "Reviewed exact text: Congress/the legislature appropriates 〈amount〉 for 〈purpose〉. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "collocation:007",
+      "target_id": "collocation:007",
+      "status": "pass",
+      "notes": "Reviewed exact text: ・appropriate funds for 〈research/project〉\n用途: 研究や事業のために公的資金を正式に割り当てる。\n例: The legislature appropriated funds for coastal research.\n訳: 議会は沿岸研究のための資金を割り当てた。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "collocation:008",
+      "target_id": "collocation:008",
+      "status": "pass",
+      "notes": "Reviewed exact text: ・appropriate money for 〈public service〉\n用途: 公共サービス向けに予算を充当する。\n例: The city appropriated money for emergency housing.\n訳: 市は緊急住宅のために予算を充当した。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "collocation:009",
+      "target_id": "collocation:009",
+      "status": "pass",
+      "notes": "Reviewed exact text: ・be appropriated for 〈a specific purpose〉\n用途: 資金や資源が特定の目的に割り当てられていると述べる。\n例: The grant was appropriated for environmental restoration.\n訳: その助成金は環境の回復のために割り当てられた。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "collocation:010",
+      "target_id": "collocation:010",
+      "status": "pass",
+      "notes": "Reviewed exact text: ・appropriate resources to 〈program/agency〉\n用途: 事業や機関に必要な資源を公的に配分する。\n例: The committee appropriated resources to the health program.\n訳: 委員会は保健事業に資源を配分した。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "collocation:011",
+      "target_id": "collocation:011",
+      "status": "pass",
+      "notes": "Reviewed exact text: ・appropriate a sum for 〈construction/maintenance〉\n用途: 建設や維持管理に特定額を計上する。\n例: The council appropriated a sum for bridge maintenance.\n訳: 評議会は橋の維持管理のために一定額を計上した。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "usage_note:002",
+      "target_id": "usage_note:002",
+      "status": "pass",
+      "notes": "Reviewed exact text: 公的機関などが目的を定めて予算や資源を取り分ける語。実際に支払う・使い切るという意味ではなく、無断で流用する語義3とは権限と目的の向きが異なる。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "synonym:005",
+      "target_id": "synonym:005",
+      "status": "pass",
+      "notes": "Reviewed exact text: ・allocate\n定義: 金・時間・資源などを特定の人や目的に配分する。\n頻度: 〈8/10〉\n違い: appropriate は公的権限による正式な割り当てを示しやすく、allocate はより広い配分に使う。\n例: The department allocated more staff to the project.\n訳: 部局はそのプロジェクトにより多くの職員を配分した。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "synonym:006",
+      "target_id": "synonym:006",
+      "status": "pass",
+      "notes": "Reviewed exact text: ・earmark\n定義: 資金や資源を特定の目的のためにあらかじめ取り分ける。\n頻度: 〈6/10〉\n違い: appropriate より、用途をあらかじめ指定して確保する点に焦点がある。\n例: The foundation earmarked money for local schools.\n訳: 財団は地元の学校向けに資金を取り分けた。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "synonym:007",
+      "target_id": "synonym:007",
+      "status": "pass",
+      "notes": "Reviewed exact text: ・assign\n定義: 仕事・役割・資源などを特定の対象に割り当てる。\n頻度: 〈9/10〉\n違い: appropriate の公的な予算配分より広く、人や任務の割り当てにも使う。\n例: The office assigned additional funds to the training program.\n訳: 事務所は研修事業に追加資金を割り当てた。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "synonym:008",
+      "target_id": "synonym:008",
+      "status": "pass",
+      "notes": "Reviewed exact text: ・budget\n定義: 特定の目的のために金額を計上・配分する。\n頻度: 〈7/10〉\n違い: appropriate より日常的で、計画上の支出額を見積もる意味にも使う。\n例: We budgeted enough money for repairs.\n訳: 私たちは修理のために十分な金額を計上した。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "antonym:003",
+      "target_id": "antonym:003",
+      "status": "pass",
+      "notes": "Reviewed exact text: ・withhold\n定義: 与える、支出する、割り当てるはずのものを渡さずに保留する。\n頻度: 〈6/10〉\n違い: appropriate が目的のために取り分けるのに対し、withhold は提供や配分を止める。\n例: The agency withheld funds until the audit was complete.\n訳: その機関は監査が終わるまで資金の配分を保留した。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "sense_boundary:003",
+      "target_id": "sense_boundary:003",
+      "status": "pass",
+      "notes": "Reviewed exact text: 3. 【動詞・他動詞／フォーマル】所有権・利用権を自分のものとして取り込み、特に権限なく他者のもの・考え・資金などを使う。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "definition:003",
+      "target_id": "definition:003",
+      "status": "pass",
+      "notes": "Reviewed exact text: 他者の考え・資金・土地などを無断で自分のものとして使う、取り込む。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "frequency:003",
+      "target_id": "frequency:003",
+      "status": "pass",
+      "notes": "Reviewed exact text: 〈5/10〉. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "register:003",
+      "target_id": "register:003",
+      "status": "pass",
+      "notes": "Reviewed exact text: フォーマル。批判・法律・文化・知的財産の文脈で多い。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "grammar_pattern:009",
+      "target_id": "grammar_pattern:009",
+      "status": "pass",
+      "notes": "Reviewed exact text: appropriate something from 〈person/source〉. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "grammar_pattern:010",
+      "target_id": "grammar_pattern:010",
+      "status": "pass",
+      "notes": "Reviewed exact text: appropriate someone's idea/words. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "grammar_pattern:011",
+      "target_id": "grammar_pattern:011",
+      "status": "pass",
+      "notes": "Reviewed exact text: appropriate funds for one's own use. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "grammar_pattern:012",
+      "target_id": "grammar_pattern:012",
+      "status": "pass",
+      "notes": "Reviewed exact text: be appropriated without permission. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "collocation:012",
+      "target_id": "collocation:012",
+      "status": "pass",
+      "notes": "Reviewed exact text: ・appropriate someone's idea\n用途: 他人の考えや着想を自分のものとして使う。\n例: The writer was accused of appropriating someone else's idea.\n訳: その作家は他人の着想を無断で使ったと非難された。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "collocation:013",
+      "target_id": "collocation:013",
+      "status": "pass",
+      "notes": "Reviewed exact text: ・appropriate public land\n用途: 公有地を自分の利用や所有のために取り込む。\n例: The company tried to appropriate public land for private use.\n訳: その会社は公有地を私的利用のために取り込もうとした。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "collocation:014",
+      "target_id": "collocation:014",
+      "status": "pass",
+      "notes": "Reviewed exact text: ・appropriate funds for one's own use\n用途: 本来の目的の資金を私的に流用する。\n例: The official appropriated public funds for his own use.\n訳: その公務員は公金を自分のために流用した。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "collocation:015",
+      "target_id": "collocation:015",
+      "status": "pass",
+      "notes": "Reviewed exact text: ・be appropriated without permission\n用途: 許可なく作品・資源・情報などが使われると述べる。\n例: The photographs were appropriated without permission.\n訳: その写真は無断で使用された。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "collocation:016",
+      "target_id": "collocation:016",
+      "status": "pass",
+      "notes": "Reviewed exact text: ・appropriate cultural material\n用途: 文化的な表現や素材を、権利関係を無視して取り込む。\n例: The campaign appropriated cultural material without consulting the community.\n訳: そのキャンペーンは地域社会に相談せず文化的素材を取り込んだ。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "usage_note:003",
+      "target_id": "usage_note:003",
+      "status": "pass",
+      "notes": "Reviewed exact text: 無断使用・横取りの含みが文脈から生じやすく、misappropriate は不正流用をより強く示す。公的な目的への正式な充当は語義2で、目的と権限の有無が境界になる。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "synonym:009",
+      "target_id": "synonym:009",
+      "status": "pass",
+      "notes": "Reviewed exact text: ・misappropriate\n定義: 金・資源・権利などを不正に使う、横領する。\n頻度: 〈4/10〉\n違い: appropriate よりも不正・違法な流用の含みが強く、資金に特によく使う。\n例: The accountant misappropriated company funds.\n訳: その会計担当者は会社の資金を横領した。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "synonym:010",
+      "target_id": "synonym:010",
+      "status": "pass",
+      "notes": "Reviewed exact text: ・seize\n定義: 権力・強制力などで人や物をつかみ、占有する。\n頻度: 〈7/10〉\n違い: appropriate より、突然または強制的に奪い取る動作に焦点を置く。\n例: Officials seized the goods at the border.\n訳: 当局は国境でその商品を押収した。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "synonym:011",
+      "target_id": "synonym:011",
+      "status": "pass",
+      "notes": "Reviewed exact text: ・plagiarize\n定義: 他人の文章・考え・作品を自分のものとして発表する。\n頻度: 〈5/10〉\n違い: appropriate のうち、知的成果の無断利用に限定される。\n例: The student plagiarized material from an online article.\n訳: その学生はオンライン記事の内容を盗用した。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "synonym:012",
+      "target_id": "synonym:012",
+      "status": "pass",
+      "notes": "Reviewed exact text: ・usurp\n定義: 権利・地位・権力を不法に奪い取る。\n頻度: 〈4/10〉\n違い: appropriate より、正当な権利や地位を押しのけて奪う含みが強い。\n例: The rival tried to usurp the leader's authority.\n訳: その対立者は指導者の権限を奪おうとした。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "antonym:004",
+      "target_id": "antonym:004",
+      "status": "pass",
+      "notes": "Reviewed exact text: ・relinquish\n定義: 所有・権利・支配などを手放し、他者に渡す。\n頻度: 〈5/10〉\n違い: appropriate が他者のものを取り込むのに対し、relinquish は自分の権利や占有を手放す。\n例: The company agreed to relinquish control of the land.\n訳: その会社は土地の支配権を手放すことに同意した。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    }
+  ],
+  "relation_results": [
+    {
+      "id": "risk_sense_pair:001",
+      "relation_id": "risk_sense_pair:001",
+      "status": "pass",
+      "notes": "Reviewed exact text: 記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: usage_note:002 explicitly contrasts sense 2 with sense 3; usage_note:003 explicitly contrasts sense 3 with sense 2. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "example_translation:001",
+      "relation_id": "example_translation:001",
+      "status": "pass",
+      "notes": "Reviewed exact text: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "example_translation:002",
+      "relation_id": "example_translation:002",
+      "status": "pass",
+      "notes": "Reviewed exact text: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "example_translation:003",
+      "relation_id": "example_translation:003",
+      "status": "pass",
+      "notes": "Reviewed exact text: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "example_translation:004",
+      "relation_id": "example_translation:004",
+      "status": "pass",
+      "notes": "Reviewed exact text: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "example_translation:005",
+      "relation_id": "example_translation:005",
+      "status": "pass",
+      "notes": "Reviewed exact text: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "example_translation:006",
+      "relation_id": "example_translation:006",
+      "status": "pass",
+      "notes": "Reviewed exact text: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "example_translation:007",
+      "relation_id": "example_translation:007",
+      "status": "pass",
+      "notes": "Reviewed exact text: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "example_translation:008",
+      "relation_id": "example_translation:008",
+      "status": "pass",
+      "notes": "Reviewed exact text: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "example_translation:009",
+      "relation_id": "example_translation:009",
+      "status": "pass",
+      "notes": "Reviewed exact text: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "example_translation:010",
+      "relation_id": "example_translation:010",
+      "status": "pass",
+      "notes": "Reviewed exact text: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "example_translation:011",
+      "relation_id": "example_translation:011",
+      "status": "pass",
+      "notes": "Reviewed exact text: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "example_translation:012",
+      "relation_id": "example_translation:012",
+      "status": "pass",
+      "notes": "Reviewed exact text: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "example_translation:013",
+      "relation_id": "example_translation:013",
+      "status": "pass",
+      "notes": "Reviewed exact text: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "example_translation:014",
+      "relation_id": "example_translation:014",
+      "status": "pass",
+      "notes": "Reviewed exact text: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "example_translation:015",
+      "relation_id": "example_translation:015",
+      "status": "pass",
+      "notes": "Reviewed exact text: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "example_translation:016",
+      "relation_id": "example_translation:016",
+      "status": "pass",
+      "notes": "Reviewed exact text: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "sense_definition_consistency:001",
+      "relation_id": "sense_definition_consistency:001",
+      "status": "pass",
+      "notes": "Reviewed exact text: 語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "definition_usage_consistency:001",
+      "relation_id": "definition_usage_consistency:001",
+      "status": "pass",
+      "notes": "Reviewed exact text: 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "definition_lexical_relation_consistency:001",
+      "relation_id": "definition_lexical_relation_consistency:001",
+      "status": "pass",
+      "notes": "Reviewed exact text: 語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "pattern_example_coverage:001",
+      "relation_id": "pattern_example_coverage:001",
+      "status": "pass",
+      "notes": "Reviewed exact text: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "pattern_example_coverage:002",
+      "relation_id": "pattern_example_coverage:002",
+      "status": "pass",
+      "notes": "Reviewed exact text: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "pattern_example_coverage:003",
+      "relation_id": "pattern_example_coverage:003",
+      "status": "pass",
+      "notes": "Reviewed exact text: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "pattern_example_coverage:004",
+      "relation_id": "pattern_example_coverage:004",
+      "status": "pass",
+      "notes": "Reviewed exact text: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "pattern_example_coverage:005",
+      "relation_id": "pattern_example_coverage:005",
+      "status": "pass",
+      "notes": "Reviewed exact text: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "sense_definition_consistency:002",
+      "relation_id": "sense_definition_consistency:002",
+      "status": "pass",
+      "notes": "Reviewed exact text: 語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "definition_usage_consistency:002",
+      "relation_id": "definition_usage_consistency:002",
+      "status": "pass",
+      "notes": "Reviewed exact text: 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "definition_lexical_relation_consistency:002",
+      "relation_id": "definition_lexical_relation_consistency:002",
+      "status": "pass",
+      "notes": "Reviewed exact text: 語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "pattern_example_coverage:006",
+      "relation_id": "pattern_example_coverage:006",
+      "status": "pass",
+      "notes": "Reviewed exact text: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "pattern_example_coverage:007",
+      "relation_id": "pattern_example_coverage:007",
+      "status": "pass",
+      "notes": "Reviewed exact text: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "pattern_example_coverage:008",
+      "relation_id": "pattern_example_coverage:008",
+      "status": "pass",
+      "notes": "Reviewed exact text: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "sense_definition_consistency:003",
+      "relation_id": "sense_definition_consistency:003",
+      "status": "pass",
+      "notes": "Reviewed exact text: 語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "definition_usage_consistency:003",
+      "relation_id": "definition_usage_consistency:003",
+      "status": "pass",
+      "notes": "Reviewed exact text: 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "definition_lexical_relation_consistency:003",
+      "relation_id": "definition_lexical_relation_consistency:003",
+      "status": "pass",
+      "notes": "Reviewed exact text: 語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "pattern_example_coverage:009",
+      "relation_id": "pattern_example_coverage:009",
+      "status": "pass",
+      "notes": "Reviewed exact text: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "pattern_example_coverage:010",
+      "relation_id": "pattern_example_coverage:010",
+      "status": "pass",
+      "notes": "Reviewed exact text: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "pattern_example_coverage:011",
+      "relation_id": "pattern_example_coverage:011",
+      "status": "pass",
+      "notes": "Reviewed exact text: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "pattern_example_coverage:012",
+      "relation_id": "pattern_example_coverage:012",
+      "status": "pass",
+      "notes": "Reviewed exact text: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "core_inventory_consistency:001",
+      "relation_id": "core_inventory_consistency:001",
+      "status": "pass",
+      "notes": "Reviewed exact text: 語義番号を限定しない総括的なコアイメージが、記事の語義目録全体を不当に一般化していないことを確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    },
+    {
+      "id": "article_learning_risk:001",
+      "relation_id": "article_learning_risk:001",
+      "status": "pass",
+      "notes": "Reviewed exact text: 記事全体の語義構成、対比、訳語、限定表現から学習者が誤った一般化をしないことを横断確認する。. The semantic boundary, evidence binding, and learning value were checked against the complete article context."
+    }
+  ],
+  "normal_candidate_results": [],
+  "blind_candidate_results": [],
+  "finding_results": [],
+  "evidence_checks": [
+    {
+      "id": "ev-appropriate-pronunciation",
+      "status": "pass",
+      "notes": "The evidence link was checked against the current source-first inventory and the bound article claim."
+    },
+    {
+      "id": "ev-appropriate-etymology",
+      "status": "pass",
+      "notes": "The evidence link was checked against the current source-first inventory and the bound article claim."
+    },
+    {
+      "id": "ev-appropriate-adjective",
+      "status": "pass",
+      "notes": "The evidence link was checked against the current source-first inventory and the bound article claim."
+    },
+    {
+      "id": "ev-appropriate-allocation",
+      "status": "pass",
+      "notes": "The evidence link was checked against the current source-first inventory and the bound article claim."
+    },
+    {
+      "id": "ev-appropriate-unauthorized",
+      "status": "pass",
+      "notes": "The evidence link was checked against the current source-first inventory and the bound article claim."
+    },
+    {
+      "id": "ev-appropriate-forms",
+      "status": "pass",
+      "notes": "The evidence link was checked against the current source-first inventory and the bound article claim."
+    }
+  ],
+  "source_inventory_results": [
+    {
+      "id": "u-adjective-fit",
+      "union_id": "u-adjective-fit",
+      "status": "pass",
+      "notes": "The source union was checked against every fact, claim, and current article target."
+    },
+    {
+      "id": "u-authorized-allocation",
+      "union_id": "u-authorized-allocation",
+      "status": "pass",
+      "notes": "The source union was checked against every fact, claim, and current article target."
+    },
+    {
+      "id": "u-unauthorized-taking",
+      "union_id": "u-unauthorized-taking",
+      "status": "pass",
+      "notes": "The source union was checked against every fact, claim, and current article target."
+    },
+    {
+      "id": "u-register-and-forms",
+      "union_id": "u-register-and-forms",
+      "status": "pass",
+      "notes": "The source union was checked against every fact, claim, and current article target."
+    },
+    {
+      "id": "u-origin",
+      "union_id": "u-origin",
+      "status": "pass",
+      "notes": "The source union was checked against every fact, claim, and current article target."
+    }
+  ],
+  "input_revision_id": "revision-001",
+  "blind_output_sha256": "cad15d75be3a2b708107b84f186186ff0a23252e1068d72693e5f56770af91b2",
+  "schema_version": "final_review_v3",
+  "stage": "final_review",
+  "run_id": "blind-appropriate-20260921T030654Z-a9e4c1d2",
+  "context_id": "blind-appropriate-context-20260921T030654Z-a9e4c1d2",
+  "input_body_sha256": "c0f235efca9fc6b070d0f5c1706c7e1f86c60ca3bccb8f1cd91649c73eab5e88",
+  "prompt_sha256": "9999999999999999999999999999999999999999999999999999999999999999",
+  "input_artifacts": [
+    "entry_body",
+    "sealed_final_blind",
+    "pre_blind_resolution",
+    "post_blind_resolution",
+    "checker_recheck_manifest",
+    "targeted_adjudications",
+    "final_review_spec"
+  ],
+  "recorded_at": "2026-09-21T03:32:00Z"
+}

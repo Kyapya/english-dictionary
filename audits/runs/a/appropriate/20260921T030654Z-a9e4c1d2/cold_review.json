@@ -1,0 +1,26 @@
+{
+  "summary": "The body was reviewed without surrounding workflow context; its three senses, pronunciation contrast, examples, and relation blocks are coherent.",
+  "findings": [],
+  "reviewer": {
+    "mode": "handoff",
+    "agent_id": "reviewer-appropriate-cold-20260921T030654Z-a9e4c1d2",
+    "declared_model": "gpt-6-astra",
+    "ingested_by": "orchestrator",
+    "source_response": {
+      "path": "audits/runs/a/appropriate/20260921T030654Z-a9e4c1d2/handoff/source_responses/a55bbc76d19526e90cc24a52781bc911cae81d94cac910d09e11da3400e8b1c0.json",
+      "sha256": "a55bbc76d19526e90cc24a52781bc911cae81d94cac910d09e11da3400e8b1c0"
+    }
+  },
+  "schema_version": "cold_review_v1",
+  "stage": "cold_review",
+  "run_id": "cold-appropriate-20260921T030654Z-a9e4c1d2",
+  "context_id": "cold-appropriate-context-20260921T030654Z-a9e4c1d2",
+  "input_body_sha256": "c0f235efca9fc6b070d0f5c1706c7e1f86c60ca3bccb8f1cd91649c73eab5e88",
+  "prompt_sha256": "3333333333333333333333333333333333333333333333333333333333333333",
+  "input_artifacts": [
+    "entry_body",
+    "cold_review_prompt"
+  ],
+  "audit_visible": false,
+  "recorded_at": "2026-09-21T03:24:00Z"
+}

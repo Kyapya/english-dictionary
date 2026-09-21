@@ -1,0 +1,39 @@
+{
+  "schema_version": "antonym_axis_blind_record_v1",
+  "pass_id": "frame-relation",
+  "reviewer": {
+    "mode": "handoff",
+    "agent_id": "reviewer-appropriate-framerelation-20260921T030654Z-a9e4c1d2",
+    "declared_model": "gpt-6-astra",
+    "ingested_by": "orchestrator",
+    "source_response": {
+      "path": "audits/runs/a/appropriate/20260921T030654Z-a9e4c1d2/handoff/source_responses/9aa20d4e0750acc1e621a67a60fd7f0398f027f443346a0eb053a7abe821f36c.json",
+      "sha256": "9aa20d4e0750acc1e621a67a60fd7f0398f027f443346a0eb053a7abe821f36c"
+    }
+  },
+  "recorded_at": "2026-09-21T03:21:05Z",
+  "input_body_sha256": "c0f235efca9fc6b070d0f5c1706c7e1f86c60ca3bccb8f1cd91649c73eab5e88",
+  "blind_request_sha256": "cbd6e1ca5168c26ecc59b3858b9cf347d65ccd5c9173f87551f99d232c5eea27",
+  "axes": [
+    {
+      "item_id": "ant-dd8adda0fff2",
+      "axis": "評価",
+      "relation_type": "評価"
+    },
+    {
+      "item_id": "ant-e011c011f71a",
+      "axis": "状態",
+      "relation_type": "状態"
+    },
+    {
+      "item_id": "ant-f809e4c0b53c",
+      "axis": "状態",
+      "relation_type": "状態"
+    },
+    {
+      "item_id": "ant-2bcfcaf62f99",
+      "axis": "方向",
+      "relation_type": "方向"
+    }
+  ]
+}

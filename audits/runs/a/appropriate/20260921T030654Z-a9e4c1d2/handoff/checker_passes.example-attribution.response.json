@@ -1,0 +1,210 @@
+{
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "mode": "handoff",
+    "agent_id": "reviewer-appropriate-exampleattribution-20260921T030654Z-a9e4c1d2",
+    "declared_model": "gpt-6-astra",
+    "ingested_by": "orchestrator",
+    "source_response": {
+      "path": "audits/runs/a/appropriate/20260921T030654Z-a9e4c1d2/handoff/source_responses/60985102cb1ecf1a2bf56c06b3798ec4fb58c6d9fcfe91555ea180fe3b9cfcec.json",
+      "sha256": "60985102cb1ecf1a2bf56c06b3798ec4fb58c6d9fcfe91555ea180fe3b9cfcec"
+    }
+  },
+  "findings": [],
+  "blind_attribution_record": {
+    "schema_version": "example_attribution_blind_record_v1",
+    "pass_id": "example-attribution",
+    "reviewer": {
+      "mode": "handoff",
+      "agent_id": "reviewer-appropriate-exampleattribution-20260921T030654Z-a9e4c1d2",
+      "declared_model": "gpt-6-astra",
+      "ingested_by": "orchestrator",
+      "source_response": {
+        "path": "audits/runs/a/appropriate/20260921T030654Z-a9e4c1d2/handoff/source_responses/60985102cb1ecf1a2bf56c06b3798ec4fb58c6d9fcfe91555ea180fe3b9cfcec.json",
+        "sha256": "60985102cb1ecf1a2bf56c06b3798ec4fb58c6d9fcfe91555ea180fe3b9cfcec"
+      }
+    },
+    "recorded_at": "2026-09-21T03:21:00Z",
+    "input_body_sha256": "c0f235efca9fc6b070d0f5c1706c7e1f86c60ca3bccb8f1cd91649c73eab5e88",
+    "blind_request_sha256": "33e8e30d668d241d99e0a2712b3a3c7553b7d8e910febc61d9603d35e25bf930",
+    "attributions": [
+      {
+        "example_id": "ex-63d104b3d6f2",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "grant"
+        ],
+        "rationale": "The example \"The grant was appropriated for environmental restoration.\" contains the term \"grant\", which supports the assigned sense sense:002."
+      },
+      {
+        "example_id": "ex-0a45be58c717",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "material"
+        ],
+        "rationale": "The example \"This material is appropriate for children over six.\" contains the term \"material\", which supports the assigned sense sense:001."
+      },
+      {
+        "example_id": "ex-6c8834b0965e",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "cultural"
+        ],
+        "rationale": "The example \"The campaign appropriated cultural material without consulting the community.\" contains the term \"cultural\", which supports the assigned sense sense:003."
+      },
+      {
+        "example_id": "ex-2ddfd1cf52ab",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "tone"
+        ],
+        "rationale": "The example \"Her formal tone was appropriate to the occasion.\" contains the term \"tone\", which supports the assigned sense sense:001."
+      },
+      {
+        "example_id": "ex-afc274854857",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "sum"
+        ],
+        "rationale": "The example \"The council appropriated a sum for bridge maintenance.\" contains the term \"sum\", which supports the assigned sense sense:002."
+      },
+      {
+        "example_id": "ex-c33a0844d000",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "idea"
+        ],
+        "rationale": "The example \"The writer was accused of appropriating someone else's idea.\" contains the term \"idea\", which supports the assigned sense sense:003."
+      },
+      {
+        "example_id": "ex-0b118b627689",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "legislature"
+        ],
+        "rationale": "The example \"The legislature appropriated funds for coastal research.\" contains the term \"legislature\", which supports the assigned sense sense:002."
+      },
+      {
+        "example_id": "ex-d476855ad8c0",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "resources"
+        ],
+        "rationale": "The example \"The committee appropriated resources to the health program.\" contains the term \"resources\", which supports the assigned sense sense:002."
+      },
+      {
+        "example_id": "ex-706b16912f58",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "photographs"
+        ],
+        "rationale": "The example \"The photographs were appropriated without permission.\" contains the term \"photographs\", which supports the assigned sense sense:003."
+      },
+      {
+        "example_id": "ex-580b6af9abd0",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "response"
+        ],
+        "rationale": "The example \"The team chose an appropriate response to the complaint.\" contains the term \"response\", which supports the assigned sense sense:001."
+      },
+      {
+        "example_id": "ex-2c95a2cc3bcf",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "money"
+        ],
+        "rationale": "The example \"The city appropriated money for emergency housing.\" contains the term \"money\", which supports the assigned sense sense:002."
+      },
+      {
+        "example_id": "ex-98d83ff43a4a",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "action"
+        ],
+        "rationale": "The example \"The manager took appropriate action after the safety report.\" contains the term \"action\", which supports the assigned sense sense:001."
+      },
+      {
+        "example_id": "ex-db9d3a3c04a3",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "public"
+        ],
+        "rationale": "The example \"The official appropriated public funds for his own use.\" contains the term \"public\", which supports the assigned sense sense:003."
+      },
+      {
+        "example_id": "ex-4045552b7d4e",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "public"
+        ],
+        "rationale": "The example \"The company tried to appropriate public land for private use.\" contains the term \"public\", which supports the assigned sense sense:003."
+      },
+      {
+        "example_id": "ex-e53c3c921b45",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "time"
+        ],
+        "rationale": "The example \"We will discuss the proposal at an appropriate time.\" contains the term \"time\", which supports the assigned sense sense:001."
+      },
+      {
+        "example_id": "ex-13fc170fc70a",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "measures"
+        ],
+        "rationale": "The example \"The school introduced appropriate measures to protect students.\" contains the term \"measures\", which supports the assigned sense sense:001."
+      }
+    ]
+  },
+  "aligned_at": "2026-09-21T03:21:30Z"
+}

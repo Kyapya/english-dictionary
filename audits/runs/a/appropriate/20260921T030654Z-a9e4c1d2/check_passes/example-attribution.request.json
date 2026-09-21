@@ -1,0 +1,145 @@
+{
+  "schema_version": "example_attribution_blind_request_v1",
+  "pass_id": "example-attribution",
+  "taxonomy_ids": [
+    "example_sense_attribution_mismatch"
+  ],
+  "specification": "prompts/check_pass_example_attribution_v6.md",
+  "input_body_sha256": "c0f235efca9fc6b070d0f5c1706c7e1f86c60ca3bccb8f1cd91649c73eab5e88",
+  "input_sections": {
+    "sense_structure": [
+      {
+        "sense_id": "sense:001",
+        "line": 34,
+        "label": "1. 【形容詞・限定用法／叙述用法】特定の状況・目的・人に適していて、社会的にも許容される。",
+        "definition": "状況・目的・年齢・相手などにふさわしい、適切な。"
+      },
+      {
+        "sense_id": "sense:002",
+        "line": 124,
+        "label": "2. 【動詞・他動詞／フォーマル】公的な権限で、金・予算・資源などを特定の目的のために割り当てる、充当する。",
+        "definition": "公的な資金・資源を目的のために取り分ける、正式に割り当てる。"
+      },
+      {
+        "sense_id": "sense:003",
+        "line": 202,
+        "label": "3. 【動詞・他動詞／フォーマル】所有権・利用権を自分のものとして取り込み、特に権限なく他者のもの・考え・資金などを使う。",
+        "definition": "他者の考え・資金・土地などを無断で自分のものとして使う、取り込む。"
+      }
+    ],
+    "collocations_examples": [
+      {
+        "example_id": "ex-63d104b3d6f2",
+        "example": "The grant was appropriated for environmental restoration.",
+        "translation": "その助成金は環境の回復のために割り当てられた。"
+      },
+      {
+        "example_id": "ex-0a45be58c717",
+        "example": "This material is appropriate for children over six.",
+        "translation": "この教材は6歳を超える子どもに適している。"
+      },
+      {
+        "example_id": "ex-6c8834b0965e",
+        "example": "The campaign appropriated cultural material without consulting the community.",
+        "translation": "そのキャンペーンは地域社会に相談せず文化的素材を取り込んだ。"
+      },
+      {
+        "example_id": "ex-2ddfd1cf52ab",
+        "example": "Her formal tone was appropriate to the occasion.",
+        "translation": "彼女の改まった口調はその場にふさわしかった。"
+      },
+      {
+        "example_id": "ex-afc274854857",
+        "example": "The council appropriated a sum for bridge maintenance.",
+        "translation": "評議会は橋の維持管理のために一定額を計上した。"
+      },
+      {
+        "example_id": "ex-c33a0844d000",
+        "example": "The writer was accused of appropriating someone else's idea.",
+        "translation": "その作家は他人の着想を無断で使ったと非難された。"
+      },
+      {
+        "example_id": "ex-0b118b627689",
+        "example": "The legislature appropriated funds for coastal research.",
+        "translation": "議会は沿岸研究のための資金を割り当てた。"
+      },
+      {
+        "example_id": "ex-d476855ad8c0",
+        "example": "The committee appropriated resources to the health program.",
+        "translation": "委員会は保健事業に資源を配分した。"
+      },
+      {
+        "example_id": "ex-706b16912f58",
+        "example": "The photographs were appropriated without permission.",
+        "translation": "その写真は無断で使用された。"
+      },
+      {
+        "example_id": "ex-580b6af9abd0",
+        "example": "The team chose an appropriate response to the complaint.",
+        "translation": "チームはその苦情に対して適切な対応を選んだ。"
+      },
+      {
+        "example_id": "ex-2c95a2cc3bcf",
+        "example": "The city appropriated money for emergency housing.",
+        "translation": "市は緊急住宅のために予算を充当した。"
+      },
+      {
+        "example_id": "ex-98d83ff43a4a",
+        "example": "The manager took appropriate action after the safety report.",
+        "translation": "管理者は安全報告を受けて適切な措置を取った。"
+      },
+      {
+        "example_id": "ex-db9d3a3c04a3",
+        "example": "The official appropriated public funds for his own use.",
+        "translation": "その公務員は公金を自分のために流用した。"
+      },
+      {
+        "example_id": "ex-4045552b7d4e",
+        "example": "The company tried to appropriate public land for private use.",
+        "translation": "その会社は公有地を私的利用のために取り込もうとした。"
+      },
+      {
+        "example_id": "ex-e53c3c921b45",
+        "example": "We will discuss the proposal at an appropriate time.",
+        "translation": "私たちは適切な時期にその提案を話し合う。"
+      },
+      {
+        "example_id": "ex-13fc170fc70a",
+        "example": "The school introduced appropriate measures to protect students.",
+        "translation": "学校は生徒を守るための適切な措置を導入した。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "assigned_sense_id",
+      "collocation_heading",
+      "usage_line",
+      "example_group_boundary",
+      "document_order"
+    ],
+    "required_output_schema": "example_attribution_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "source_artifact_sha256": "089181727c0715f6c01e8560c1ae604c6f468ae8415f1e471b2d3837e3c7cf07",
+  "specification_sha256": "e0bbb032bc0c50bf9bef5ff8f7854188287e635c58e599479891e11e3343a017",
+  "normalized_input_sha256": "9599ce98fa8ca11641f4d658653f5e30b8bc4d0a8f125f87955e3356de4b6812"
+}
