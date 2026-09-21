@@ -1,0 +1,27 @@
+{
+  "summary": "問題候補なし。本文全体を文脈なしで確認し、語義の境界、用法、例文、訳、品詞表示、学習者が行い得る一般化を点検したが、具体的に指摘すべき内容上の問題は見当たらない。",
+  "findings": [],
+  "reviewer": {
+    "mode": "handoff",
+    "agent_id": "tentative-cold-20260921T145448Z-bec4a398",
+    "declared_model": "codex-gpt-5",
+    "ingested_by": "orchestrator",
+    "source_response": {
+      "path": "audits/runs/t/tentative/20260921T145448Z-bec4a398/handoff/source_responses/d267755cb4fbf6638e72a1ee32b53ff1f17d31c10ef635d16053c51422fccbfe.json",
+      "sha256": "d267755cb4fbf6638e72a1ee32b53ff1f17d31c10ef635d16053c51422fccbfe"
+    },
+    "same_model_as_generation": true
+  },
+  "schema_version": "cold_review_v1",
+  "stage": "cold_review",
+  "run_id": "cold-tentative-20260921T145448Z-bec4a398",
+  "context_id": "cold-tentative-context-20260921T145448Z-bec4a398",
+  "input_body_sha256": "0776dad38e204651edaf002adb4634b2bdf5ffb371b9d38c3ab1f33440a3c35f",
+  "prompt_sha256": "25c298d1a4305746147791bd442cd725a92737c8f0802b992ea88e5c6ff76a5d",
+  "input_artifacts": [
+    "entry_body",
+    "cold_review_prompt"
+  ],
+  "audit_visible": false,
+  "recorded_at": "2026-09-21T15:34:00.832432+00:00"
+}

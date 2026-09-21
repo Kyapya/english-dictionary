@@ -26569,3 +26569,580 @@ definite の共通核は、「境界・同一性・判断を曖昧さから切�
 違い: indeterminate は植物学で definite／determinate と対立し、主軸の成長が花で終わらないことなどを表す。  
 例: The species shows indeterminate rather than definite growth.  
 訳: その種は定限成長ではなく不定成長を示す。
+
+---
+
+# appropriate
+
+---
+headword: appropriate
+type: word
+status: checked
+prompt_version: entry_spec_v5
+model: codex-gpt-5
+created_at: 2026-09-21
+updated_at: 2026-09-21
+checked: true
+tags: []
+---
+＃発音記号
+
+米: 形容詞 /əˈproʊpriət/｜動詞 /əˈproʊpriˌeɪt/；英: 形容詞 /əˈprəʊpriət/｜動詞 /əˈprəʊpriˌeɪt/。形容詞は語尾が /ət/、動詞は /eɪt/ で、品詞によって発音が変わる。  
+
+＃語源
+
+Late Middle English。ラテン語 appropriatus（appropriare「自分のものにする」の過去分詞）から。ad-「〜へ」と proprius「自分自身の・固有の」が背景にあり、「ある目的に合うものにする／自分のものとして取り分ける」という現代の意味につながる。  
+
+＃語形成
+
+・appropriately：適切に、ふさわしく。  
+・appropriateness：適切さ、妥当性。  
+・appropriation：割り当て・充当、または他者のものの無断取得。  
+・inappropriate：不適切な。  
+・misappropriate：横領する、目的外に流用する。  
+
+＃コアイメージ
+
+ある人・目的・状況に合うものとして整えるか、特定の目的または自分のものとして取り分ける。  
+
+＃意味・用法・関連表現
+
+1. 【形容詞・限定用法／叙述用法】特定の状況・目的・人に適していて、社会的にも許容される。
+
+【日本語訳・定義】状況・目的・年齢・相手などにふさわしい、適切な。  
+
+【頻度】〈9/10〉  
+
+【レジスター/領域】一般語。会話から公的・専門的な文章まで広く使う。  
+
+【文法パターン】appropriate for 〈purpose/person/situation〉／appropriate to 〈circumstances/age/needs〉／be, seem, consider, think appropriate／it is appropriate to do／it is appropriate that...  
+
+【コロケーション】
+
+・an appropriate response to 〈complaint/situation〉  
+用途: 苦情や状況に合う返答・対応を述べる。  
+例: The team chose an appropriate response to the complaint.  
+訳: チームはその苦情に対して適切な対応を選んだ。  
+
+・appropriate action in 〈circumstances〉  
+用途: その時点で取るべき適切な行動を述べる。  
+例: The manager took appropriate action after the safety report.  
+訳: 管理者は安全報告を受けて適切な措置を取った。  
+
+・appropriate measures for 〈problem/purpose〉  
+用途: 問題への対策や目的にかなう措置を述べる。  
+例: The school introduced appropriate measures to protect students.  
+訳: 学校は生徒を守るための適切な措置を導入した。  
+
+・an appropriate time to do 〈an action〉  
+用途: 何かをするのにふさわしい時期を述べる。  
+例: We will discuss the proposal at an appropriate time.  
+訳: 私たちは適切な時期にその提案を話し合う。  
+
+・appropriate for 〈children/age/needs〉  
+用途: 年齢や対象者にふさわしいことを述べる。  
+例: This material is appropriate for children over six.  
+訳: この教材は6歳を超える子どもに適している。  
+
+・appropriate to 〈context/occasion〉  
+用途: 文脈や場面に合っていることを述べる。  
+例: Her formal tone was appropriate to the occasion.  
+訳: 彼女の改まった口調はその場にふさわしかった。  
+
+【語法・注意】「正しい」と断定するより、特定の条件や場面に合っているという判断を表す。for は対象・目的、to は基準や状況との対応を示しやすい。  
+
+【類義語】
+
+・suitable  
+定義: 目的・条件・人に合っていて使える。  
+頻度: 〈9/10〉  
+違い: appropriate より広く、適合性・実用性に焦点を置く。  
+例: This room is suitable for small meetings.  
+訳: この部屋は小規模な会議に適している。  
+
+・proper  
+定義: 規則・基準・期待にかなっていて、正しいまたはふさわしい。  
+頻度: 〈9/10〉  
+違い: appropriate より規範や正式さを強く含むことがある。  
+例: Please use the proper form for your application.  
+訳: 申請には所定の正しい書式を使ってください。  
+
+・fitting  
+定義: 場面や人物に特によく合っている。  
+頻度: 〈6/10〉  
+違い: appropriate より、場面にぴったり合うという評価的な響きがある。  
+例: The tribute was a fitting end to the ceremony.  
+訳: その賛辞は式典の締めくくりにふさわしかった。  
+
+・apt  
+定義: 状況を的確に表す、または目的に合っている。  
+頻度: 〈5/10〉  
+違い: appropriate より硬く、表現・比喩・判断が的を射ている場合にも使う。  
+例: That is an apt comparison for the situation.  
+訳: それはその状況に的確な比較だ。  
+
+【反意語】
+
+・inappropriate  
+定義: 状況・目的・基準に合わず、ふさわしくない。  
+頻度: 〈8/10〉  
+違い: appropriate の直接の反意語で、社会的な不適切さにも使う。  
+例: His comment was inappropriate for the occasion.  
+訳: 彼の発言はその場にふさわしくなかった。  
+
+・unsuitable  
+定義: 目的・条件・人に合わず、使うのに適していない。  
+頻度: 〈6/10〉  
+違い: inappropriate より、実用上の不適合や条件不足に焦点を置きやすい。  
+例: The surface is unsuitable for outdoor use.  
+訳: その表面は屋外での使用には適していない。  
+
+2. 【動詞・他動詞／フォーマル】公的な権限で、金・予算・資源などを特定の目的のために割り当てる、充当する。
+
+【日本語訳・定義】公的な資金・資源を目的のために取り分ける、正式に割り当てる。  
+
+【頻度】〈4/10〉  
+
+【レジスター/領域】フォーマル。行政・法律・会計・政策の文脈で多い。  
+
+【文法パターン】appropriate money/funds/resources for 〈purpose〉／be appropriated for 〈purpose〉／Congress/the legislature appropriates 〈amount〉 for 〈purpose〉  
+
+【コロケーション】
+
+・appropriate funds for 〈research/project〉  
+用途: 研究や事業のために公的資金を正式に割り当てる。  
+例: The legislature appropriated funds for coastal research.  
+訳: 議会は沿岸研究のための資金を割り当てた。  
+
+・appropriate money for 〈public service〉  
+用途: 公共サービス向けに予算を充当する。  
+例: The city appropriated money for emergency housing.  
+訳: 市は緊急住宅のために予算を充当した。  
+
+・be appropriated for 〈a specific purpose〉  
+用途: 資金や資源が特定の目的に割り当てられていると述べる。  
+例: The grant was appropriated for environmental restoration.  
+訳: その助成金は環境の回復のために割り当てられた。  
+
+・appropriate resources to 〈program/agency〉  
+用途: 事業や機関に必要な資源を公的に配分する。  
+例: The committee appropriated resources to the health program.  
+訳: 委員会は保健事業に資源を配分した。  
+
+・appropriate a sum for 〈construction/maintenance〉  
+用途: 建設や維持管理に特定額を計上する。  
+例: The council appropriated a sum for bridge maintenance.  
+訳: 評議会は橋の維持管理のために一定額を計上した。  
+
+【語法・注意】公的機関などが目的を定めて予算や資源を取り分ける語。実際に支払う・使い切るという意味ではなく、無断で流用する語義3とは権限と目的の向きが異なる。  
+
+【類義語】
+
+・allocate  
+定義: 金・時間・資源などを特定の人や目的に配分する。  
+頻度: 〈8/10〉  
+違い: appropriate は公的権限による正式な割り当てを示しやすく、allocate はより広い配分に使う。  
+例: The department allocated more staff to the project.  
+訳: 部局はそのプロジェクトにより多くの職員を配分した。  
+
+・earmark  
+定義: 資金や資源を特定の目的のためにあらかじめ取り分ける。  
+頻度: 〈6/10〉  
+違い: appropriate より、用途をあらかじめ指定して確保する点に焦点がある。  
+例: The foundation earmarked money for local schools.  
+訳: 財団は地元の学校向けに資金を取り分けた。  
+
+・assign  
+定義: 仕事・役割・資源などを特定の対象に割り当てる。  
+頻度: 〈9/10〉  
+違い: appropriate の公的な予算配分より広く、人や任務の割り当てにも使う。  
+例: The office assigned additional funds to the training program.  
+訳: 事務所は研修事業に追加資金を割り当てた。  
+
+・budget  
+定義: 特定の目的のために金額を計上・配分する。  
+頻度: 〈7/10〉  
+違い: appropriate より日常的で、計画上の支出額を見積もる意味にも使う。  
+例: We budgeted enough money for repairs.  
+訳: 私たちは修理のために十分な金額を計上した。  
+
+【反意語】
+
+・withhold  
+定義: 与える、支出する、割り当てるはずのものを渡さずに保留する。  
+頻度: 〈6/10〉  
+違い: appropriate が目的のために取り分けるのに対し、withhold は提供や配分を止める。  
+例: The agency withheld funds until the audit was complete.  
+訳: その機関は監査が終わるまで資金の配分を保留した。  
+
+3. 【動詞・他動詞／フォーマル】所有権・利用権を自分のものとして取り込み、特に権限なく他者のもの・考え・資金などを使う。
+
+【日本語訳・定義】他者の考え・資金・土地などを無断で自分のものとして使う、取り込む。  
+
+【頻度】〈5/10〉  
+
+【レジスター/領域】フォーマル。批判・法律・文化・知的財産の文脈で多い。  
+
+【文法パターン】appropriate something from 〈person/source〉／appropriate someone's idea/words／appropriate funds for one's own use／be appropriated without permission  
+
+【コロケーション】
+
+・appropriate someone's idea  
+用途: 他人の考えや着想を自分のものとして使う。  
+例: The writer was accused of appropriating someone else's idea.  
+訳: その作家は他人の着想を無断で使ったと非難された。  
+
+・appropriate public land  
+用途: 公有地を自分の利用や所有のために取り込む。  
+例: The company tried to appropriate public land for private use.  
+訳: その会社は公有地を私的利用のために取り込もうとした。  
+
+・appropriate funds for one's own use  
+用途: 本来の目的の資金を私的に流用する。  
+例: The official appropriated public funds for his own use.  
+訳: その公務員は公金を自分のために流用した。  
+
+・be appropriated without permission  
+用途: 許可なく作品・資源・情報などが使われると述べる。  
+例: The photographs were appropriated without permission.  
+訳: その写真は無断で使用された。  
+
+・appropriate cultural material  
+用途: 文化的な表現や素材を、権利関係を無視して取り込む。  
+例: The campaign appropriated cultural material without consulting the community.  
+訳: そのキャンペーンは地域社会に相談せず文化的素材を取り込んだ。  
+
+【語法・注意】無断使用・横取りの含みが文脈から生じやすく、misappropriate は不正流用をより強く示す。公的な目的への正式な充当は語義2で、目的と権限の有無が境界になる。  
+
+【類義語】
+
+・misappropriate  
+定義: 金・資源・権利などを不正に使う、横領する。  
+頻度: 〈4/10〉  
+違い: appropriate よりも不正・違法な流用の含みが強く、資金に特によく使う。  
+例: The accountant misappropriated company funds.  
+訳: その会計担当者は会社の資金を横領した。  
+
+・seize  
+定義: 権力・強制力などで人や物をつかみ、占有する。  
+頻度: 〈7/10〉  
+違い: appropriate より、突然または強制的に奪い取る動作に焦点を置く。  
+例: Officials seized the goods at the border.  
+訳: 当局は国境でその商品を押収した。  
+
+・plagiarize  
+定義: 他人の文章・考え・作品を自分のものとして発表する。  
+頻度: 〈5/10〉  
+違い: appropriate のうち、知的成果の無断利用に限定される。  
+例: The student plagiarized material from an online article.  
+訳: その学生はオンライン記事の内容を盗用した。  
+
+・usurp  
+定義: 権利・地位・権力を不法に奪い取る。  
+頻度: 〈4/10〉  
+違い: appropriate より、正当な権利や地位を押しのけて奪う含みが強い。  
+例: The rival tried to usurp the leader's authority.  
+訳: その対立者は指導者の権限を奪おうとした。  
+
+【反意語】
+
+・relinquish  
+定義: 所有・権利・支配などを手放し、他者に渡す。  
+頻度: 〈5/10〉  
+違い: appropriate が他者のものを取り込むのに対し、relinquish は自分の権利や占有を手放す。  
+例: The company agreed to relinquish control of the land.  
+訳: その会社は土地の支配権を手放すことに同意した。
+
+---
+
+# tentative
+
+---
+headword: tentative
+type: word
+status: checked
+prompt_version: entry_spec_v5
+model: codex-gpt-5
+created_at: 2026-09-21
+updated_at: 2026-09-21
+checked: true
+tags: []
+---
+
+＃発音記号
+
+米・英: /ˈtentətɪv/。3音節で、第1音節の /ˈten/ に主強勢がある。第2音節は弱い /tə/、語末は /tɪv/ と発音する。tentatively は /ˈtentətɪvli/、tentativeness は /ˈtentətɪvnəs/ のように、派生語でも第1音節の強勢を保つ。  
+
+＃語源
+
+16世紀後半に使われ始めた語で、中世ラテン語 tentativus「試みる性質の、試験的な、暫定的な」から来た。これはラテン語 tentare／temptare「触れて確かめる、試す、試みる」に由来する。「まず試してみる段階」という意味から、まだ十分に固まっていない「暫定的な」と、試みる人の「自信のない、ためらいがちな」へ意味が広がった。attempt、tempt、tentatively、tentativeness は同じラテン語の語族に関係するが、tentative の単純な活用形ではない。  
+
+＃語形成
+
+・tentatively：副詞。「暫定的に、仮に」または「ためらいがちに、自信なさそうに」。修飾する内容によって2つの形容詞義に対応する。  
+・tentativeness：名詞。「暫定性、未確定性」または「ためらい、自信のなさ」。通常は不可算名詞で、性質や態度を表す。  
+・tentative：名詞転用。「暫定的なもの、仮の項目」。まれで、予約・契約・日程などが確定する前の業務上の項目を指すことがある。  
+・attempt／tempt：同じラテン語 tentare／temptare にさかのぼる関連語。attempt は「試み」、tempt は現代英語で主に「誘惑する」を表し、tentative の派生語ではない。  
+
+＃コアイメージ
+
+tentative の共通核は、「まだ確定させず、試しに触れている段階」である。計画や判断なら後で変更され得る「暫定性」、行動や表情なら確信を持たず慎重に踏み出す「ためらい」として現れる。  
+・内容を試しに置き、後で変えられる状態 → 「暫定的な、仮の」（語義1）  
+・行動を試しに行い、確信を持てない様子 → 「ためらいがちな、自信のない」（語義2）  
+・確定前の項目を業務上の仮登録として扱う → 「暫定案、仮の項目」（語義3）  
+
+＃意味・用法・関連表現
+
+1. 【形容詞・限定用法／叙述用法】暫定的な、仮の、まだ確定していない
+
+【日本語訳・定義】計画、日程、合意、結論、説明、提案、識別などが、現時点では候補として置かれているものの、検討・交渉・確認が終わっておらず、後で変更または撤回される可能性があることを表す。単に「一時的」という期間の短さではなく、内容の確定性がまだ低いことに焦点がある。  
+
+【頻度】〈9/10〉  
+
+【レジスター/領域】標準語で、会話・報道・ビジネス・学術・交渉まで広く使う。特に plan、date、schedule、arrangement、agreement、conclusion、explanation、identification など、後から確認や調整が入り得る名詞と結びつく。  
+
+【文法パターン】a tentative 〈plan/date/schedule/arrangement/agreement〉＝暫定的な〈計画・日付・予定・取り決め・合意〉／tentative conclusions/findings＝予備的な結論・調査結果／a tentative explanation/identification＝暫定的な説明・仮の同定／make/reach/announce a tentative decision＝暫定的な決定をする・出す／be tentative about 〈the date/details〉＝〈日付・詳細〉がまだ確定していない／tentative plans to do＝～する暫定的な計画／tentatively agree/approve/identify＝暫定的に合意する・承認する・特定する。  
+
+【コロケーション】
+
+・tentative plans for 〈event/activity〉  
+用途: 予定はあるが、内容や日時がまだ変わる可能性があることを表す。  
+例: We have tentative plans for a short trip in October.  
+訳: 私たちは10月に短い旅行をする仮の予定がある。  
+
+・a tentative date for 〈event〉  
+用途: 会議・発売・開始などの日付を候補として置く。  
+例: The organizers set a tentative date for the conference in early May.  
+訳: 主催者は会議の開催日を5月初旬の仮の日付として設定した。  
+
+・a tentative schedule  
+用途: 今後の調整で変更され得る予定表を指す。  
+例: The airline released a tentative schedule for the new route.  
+訳: その航空会社は新路線の暫定的な運航予定を公表した。  
+
+・a tentative agreement/deal  
+用途: 当事者が大筋で合意したが、最終承認や正式契約がまだ済んでいない状態を表す。  
+例: The two sides reached a tentative agreement after three days of talks.  
+訳: 両者は3日間の協議の後、暫定合意に達した。  
+
+・tentative conclusions/findings  
+用途: 調査や分析の途中で得られ、追加の確認で修正され得る結論・結果を表す。  
+例: The researchers presented their tentative findings at the workshop.  
+訳: 研究者たちはワークショップで予備的な研究結果を発表した。  
+
+・a tentative explanation for 〈phenomenon/problem〉  
+用途: 現象や問題を説明する仮説を、確定的な説明としてではなく提示する。  
+例: The team offered a tentative explanation for the sudden drop in demand.  
+訳: チームは需要が急減したことについて暫定的な説明を示した。  
+
+・a tentative identification of 〈person/object〉  
+用途: 証拠が十分でなく、現段階での仮の同定であることを示す。  
+例: The police made a tentative identification of the vehicle from the video.  
+訳: 警察は映像からその車両を暫定的に特定した。  
+
+・tentatively approve/accept/identify something  
+用途: 承認・受諾・特定を行うが、最終確認や条件の充足を残していることを表す。  
+例: The board tentatively approved the budget pending a legal review.  
+訳: 取締役会は法務審査を条件として、その予算を暫定承認した。  
+
+【語法・注意】tentative は「その場しのぎの」「短期間の」と同義ではない。`a tentative date` は期間が短い日付ではなく、まだ変更され得る候補日である。`a tentative agreement` も正式な契約・最終合意とは限らず、`final`、`confirmed`、`settled` などで確定段階を示す。`uncertain` は結果や真偽が不確かなことを広く表すのに対し、tentative は計画・判断などをいったん置いているが確定させていないことに焦点がある。`preliminary` は作業・調査の初期段階であること、`provisional` は正式なものに代わる仮の状態であることを強調しやすい。  
+
+【類義語】
+
+・provisional  
+定義: 正式なものが決まるまで、暫定的に使われる。  
+頻度: 〈7/10〉  
+違い: provisional は正式な決定・制度・地位の代替として置かれることを強調し、tentative は内容がまだ固まっておらず変更され得ることを広く示す。  
+例: The committee issued a provisional approval while the documents were being checked.  
+訳: 委員会は書類を確認している間、暫定承認を出した。  
+
+・preliminary  
+定義: 本格的な検討や最終段階の前に行われる、初期段階の。  
+頻度: 〈8/10〉  
+違い: preliminary は時期・段階が早いことに焦点があり、tentative はその結論や計画がまだ確定していないことに焦点がある。  
+例: The report contains preliminary results from the first experiment.  
+訳: その報告書には最初の実験の予備結果が含まれている。  
+
+・conditional  
+定義: 特定の条件が満たされる場合にだけ成立する。  
+頻度: 〈8/10〉  
+違い: conditional は変更の理由となる条件を明示する語で、tentative は条件を示さなくても、現段階で確定していないことを表せる。  
+例: The offer is conditional on approval from the lender.  
+訳: その申し出は貸し手の承認を条件としている。  
+
+・unconfirmed  
+定義: 正式な確認や裏付けがまだ得られていない。  
+頻度: 〈7/10〉  
+違い: unconfirmed は情報の確認状態に焦点があり、tentative は情報だけでなく計画・合意・結論を仮置きする場合にも使う。  
+例: The report was based on an unconfirmed account of the incident.  
+訳: その報告書は、その出来事についてまだ確認されていない説明に基づいていた。  
+
+【反意語】
+
+・definite  
+定義: 内容や予定が明確に決まっていて、曖昧さが少ない。  
+頻度: 〈9/10〉  
+違い: definite は tentative の「未確定」に対する直接的な反対側を示す。  
+例: We need a definite answer before we book the venue.  
+訳: 会場を予約する前に、確定した返事が必要だ。  
+
+・confirmed  
+定義: 確認や承認によって、正しいもの・正式なものとして確定している。  
+頻度: 〈9/10〉  
+違い: confirmed は確認手続きが済んだことに焦点があり、tentative はその手続きの前段階を示す。  
+例: The confirmed departure time is shown on your ticket.  
+訳: 確定した出発時刻はチケットに表示されている。  
+
+・final  
+定義: それ以上の変更・検討を予定しない最終的な。  
+頻度: 〈10/10〉  
+違い: final は変更を終えた段階、tentative は変更の余地を残した段階を表す。  
+例: The final schedule will be sent to all participants tomorrow.  
+訳: 最終日程は明日、参加者全員に送られる。  
+
+2. 【形容詞・限定用法／叙述用法】ためらいがちな、自信のない、慎重な
+
+【日本語訳・定義】人の行動、声、表情、返答、提案などが、確信や自信を十分に示さず、様子をうかがいながら慎重に行われることを表す。単に静か・弱いという意味ではなく、失敗や拒否を恐れている、またはまだ慣れていないような不確かさが表れやすい。  
+
+【頻度】〈8/10〉  
+
+【レジスター/領域】標準語で、会話・描写・物語・心理描写・対人場面に広く使う。smile、voice、answer、reply、greeting、knock、step、attempt、gesture など、意志や動作の現れ方を表す語と結びつく。  
+
+【文法パターン】a tentative 〈smile/voice/answer/reply〉＝ためらいがちな〈笑顔・声・返答〉／take tentative steps＝おそるおそる歩み出す・初めの一歩を踏み出す／make a tentative attempt/gesture＝慎重な試み・身振りをする／be tentative about 〈doing something〉＝～することにためらいがある／sound/look/seem tentative＝声・様子が自信なさそうに聞こえる・見える／tentatively ask/suggest/reply＝ためらいながら尋ねる・提案する・返答する。  
+
+【コロケーション】
+
+・a tentative smile  
+用途: 相手の反応をうかがうような、確信のない笑顔を表す。  
+例: She gave him a tentative smile before entering the unfamiliar room.  
+訳: 彼女は見慣れない部屋に入る前、彼にためらいがちな笑顔を向けた。  
+
+・a tentative answer/reply  
+用途: 答えを断定せず、自信がないまま返すことを表す。  
+例: He gave a tentative answer because he had not checked the figures.  
+訳: 彼は数字を確認していなかったので、自信のない返答をした。  
+
+・a tentative voice/tone  
+用途: 声や口調にためらい・不確かさが表れていることを表す。  
+例: “Perhaps we should wait,” she said in a tentative voice.  
+訳: 「待ったほうがよいかもしれません」と、彼女はためらいがちな声で言った。  
+
+・a tentative knock on 〈door〉  
+用途: 在室や反応を確かめるように、強く決め込まずノックすることを表す。  
+例: There was a tentative knock on the office door.  
+訳: オフィスのドアをおそるおそるノックする音がした。  
+
+・take tentative steps towards 〈goal/change〉  
+用途: 目標や変化に向けて、確信はないが最初の行動を始めることを表す。  
+例: The company is taking tentative steps toward reducing its use of plastic.  
+訳: その会社はプラスチックの使用を減らすための最初の一歩を慎重に踏み出している。  
+
+・make a tentative attempt to do something  
+用途: 成功の確信はないが、試しに行動を起こすことを表す。  
+例: The child made a tentative attempt to join the other players.  
+訳: その子どもは、ほかの遊び仲間に加わろうとおそるおそる試みた。  
+
+・be tentative about 〈doing something〉  
+用途: 何かをすることに自信がなく、決めかねている状態を表す。  
+例: She was tentative about speaking up in front of the whole team.  
+訳: 彼女はチーム全員の前で発言することをためらっていた。  
+
+・tentatively suggest/ask something  
+用途: 相手の反応を見ながら、強く主張せずに提案・質問することを表す。  
+例: He tentatively suggested moving the meeting to Friday.  
+訳: 彼は会議を金曜日に移してはどうかと、ためらいがちに提案した。  
+
+【語法・注意】この意味の tentative は、計画が未確定という語義1と異なり、行為者の態度や動作の仕方を描写する。`a tentative smile` は「仮の笑顔」ではなく、相手の反応を確かめるような笑顔である。`hesitant` は決断・発言・行動をためらうことを直接表す最も近い語、`cautious` は危険や失敗を避けるための用心深さを表し、必ずしも自信のなさを含まない。`tentative steps` は文字どおり歩く場合も、計画・改革への初期行動を比喩的に表す場合もある。  
+
+【類義語】
+
+・hesitant  
+定義: 決めたり行動したりすることをためらっている。  
+頻度: 〈9/10〉  
+違い: hesitant は意思決定や行動を進められないためらいを直接示し、tentative は声・表情・動作が自信なさそうに現れる様子まで表せる。  
+例: She was hesitant to raise the issue during the meeting.  
+訳: 彼女は会議中にその問題を持ち出すのをためらった。  
+
+・uncertain  
+定義: 自分の判断・答え・行動に確信がない。  
+頻度: 〈9/10〉  
+違い: uncertain は認識や判断の不確かさを広く表し、tentative はその不確かさが行動・発言・表情に現れていることを描きやすい。  
+例: He sounded uncertain when asked about the cause.  
+訳: 原因を尋ねられたとき、彼は自信がなさそうに聞こえた。  
+
+・cautious  
+定義: 危険・損失・誤りを避けるために用心深い。  
+頻度: 〈9/10〉  
+違い: cautious はリスク管理の意識を含むが、tentative は必ずしも危険を評価しているとは限らず、自信のなさや慣れていない感じを示す。  
+例: The manager took a cautious approach to the unfamiliar market.  
+訳: その管理者は未知の市場に慎重な姿勢で臨んだ。  
+
+・faltering  
+定義: 力強さや流暢さを欠き、途中で弱まったりつまずいたりする。  
+頻度: 〈6/10〉  
+違い: faltering は声・歩み・進行が不安定で途切れがちな結果に焦点があり、tentative は最初から確信を持てず慎重に行う態度に焦点がある。  
+例: His faltering voice revealed how nervous he was.  
+訳: 彼の途切れがちな声から、彼がどれほど緊張していたかが分かった。  
+
+【反意語】
+
+・confident  
+定義: 自分の能力・判断・発言に確信を持っている。  
+頻度: 〈10/10〉  
+違い: confident は tentative の「自信のない態度」に対する直接的な反対を表す。  
+例: She gave a confident answer to the difficult question.  
+訳: 彼女はその難しい質問に自信を持って答えた。  
+
+・assured  
+定義: 落ち着きと自信があり、確実そうに見える。  
+頻度: 〈7/10〉  
+違い: assured は態度・話し方・演技などに表れる落ち着いた自信を強調し、confident より改まった響きがある。  
+例: The speaker adopted an assured tone from the beginning.  
+訳: その話し手は最初から自信に満ちた口調を取った。  
+
+・decisive  
+定義: 迷わず判断し、行動をはっきり決める。  
+頻度: 〈8/10〉  
+違い: decisive は決断や行動の速さ・明確さに焦点があり、tentative は決めかねながら慎重に進めることを表す。  
+例: The director took decisive action when the system failed.  
+訳: システムが停止したとき、部長は断固たる行動を取った。  
+
+3. 【名詞・可算／まれ・業務用語】暫定案、仮の項目
+
+【日本語訳・定義】予約、契約、日程、出演枠などについて、正式な確定や契約が済む前に、仮のものとして記録・扱われる項目を表す。一般会話で広く使う名詞ではなく、複数形 tentatives を含む業務上・事務上の文脈で見られる低頻度用法である。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】低頻度。イベント予約、放送・興行、契約管理など、仮押さえや契約待ちの項目を区別する実務的な文脈に限られやすい。通常は a tentative booking、a tentative date、a tentative arrangement のように形容詞として言うほうが自然である。  
+
+【文法パターン】a tentative＝1件の暫定項目／tentatives＝複数の暫定項目／list/hold/book dates as tentatives＝日程を暫定項目として一覧化・仮押さえする。  
+
+【コロケーション】
+
+・list the dates as tentatives  
+用途: 契約や正式確認が済んでいない日程を仮の枠として記録する。  
+例: The theater listed the autumn dates as tentatives while it waited for the contracts.  
+訳: その劇場は契約を待つ間、秋の日程を暫定枠として記録した。  
+
+・hold a date as a tentative  
+用途: 日程を正式決定前の仮押さえとして扱う。  
+例: The producer asked us to hold the date as a tentative until Friday.  
+訳: プロデューサーは、金曜日まではその日を仮押さえとしておくよう私たちに頼んだ。  
+
+【語法・注意】この名詞用法は一般的な「仮のもの」の言い換えとして自由に使う語ではない。通常の文章では `a tentative plan`、`a tentative booking` のように形容詞用法を選ぶ。名詞の tentative が必要かどうかは業界の慣行によって異なり、読者に伝わりにくい場合は provisional item、pending booking など具体的な表現で言い換える。  
+
+【類義語】
+
+・provisional item  
+定義: 正式決定まで仮のものとして記録・管理される項目。  
+頻度: 〈3/10〉  
+違い: provisional item は意味を明示する説明的な句で、名詞 tentative の業務上の用法を平易に言い換える。tentative より自然に伝わりやすいが、特定業界の固定用語とは限らない。  
+例: The spreadsheet marks each provisional item in gray until the contract is signed.  
+訳: その表計算シートでは、契約が締結されるまで各暫定項目を灰色で示している。  
+
+・pending booking  
+定義: 確定や支払いなどを待っている仮予約。  
+頻度: 〈4/10〉  
+違い: pending booking は予約に意味を限定し、保留中であることを直接示す。tentative は予約以外の日程・契約項目にも使える。  
+例: We kept the pending booking separate from the confirmed reservations.  
+訳: 私たちは保留中の仮予約を、確定済みの予約とは別にしておいた。
