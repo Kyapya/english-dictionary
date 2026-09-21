@@ -23,7 +23,7 @@
   "started_at": "2026-09-21T14:54:48Z",
   "deadline_at": "2026-09-21T15:54:48Z",
   "pre_draft_deadline_at": "2026-09-21T15:14:48Z",
-  "last_heartbeat_at": "2026-09-21T15:44:02Z",
+  "last_heartbeat_at": "2026-09-21T15:49:34Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-21T14:57:18Z",
@@ -655,6 +655,15 @@
         "fact": "repairable preflight rejection: source-first artifact body hash does not match the checker body hash",
         "status": "pending",
         "recorded_at": "2026-09-21T15:23:26Z"
+      },
+      {
+        "event_id": "pending:20260921T145448Z-bec4a398:final_review:dc1865ae0f33",
+        "knowledge_epoch": "pi2-2026-09-06",
+        "kind": "review_failure",
+        "stage": "final_review",
+        "fact": "repairable preflight rejection: final review input missing: targeted_adjudications; pass_outputs[3].findings[0] requires a non-empty id; blocked check: resolution_coverage",
+        "status": "pending",
+        "recorded_at": "2026-09-21T15:47:26Z"
       }
     ],
     "selection_errors": []
@@ -915,7 +924,7 @@
   "review_preflight": "review_preflight_v1",
   "time_warnings": {},
   "review_preflight_failures": {
-    "count": 2,
+    "count": 3,
     "history": [
       {
         "stage": "checker_passes",
@@ -930,17 +939,69 @@
         "recorded_at": "2026-09-21T15:23:26.149126+00:00",
         "fingerprint": null,
         "classification": "repairable_validation"
+      },
+      {
+        "stage": "final_review",
+        "error": "final review input missing: targeted_adjudications; pass_outputs[3].findings[0] requires a non-empty id; blocked check: resolution_coverage",
+        "recorded_at": "2026-09-21T15:47:26.123451+00:00",
+        "fingerprint": null,
+        "classification": "repairable_validation",
+        "diagnostics": {
+          "valid": false,
+          "errors": [
+            {
+              "code": "missing_input",
+              "path": "targeted_adjudications",
+              "message": "final review input missing: targeted_adjudications"
+            },
+            {
+              "code": "invalid_id",
+              "path": "pass_outputs[3].findings[0]",
+              "message": "pass_outputs[3].findings[0] requires a non-empty id"
+            }
+          ],
+          "blocked_checks": [
+            {
+              "check": "resolution_coverage",
+              "requires": [
+                "valid finding inventories"
+              ]
+            }
+          ]
+        }
       }
     ]
   },
   "review_correction": {
-    "stage": "checker_passes",
-    "error": "source-first artifact body hash does not match the checker body hash",
-    "recorded_at": "2026-09-21T15:23:26.149126+00:00",
+    "stage": "final_review",
+    "error": "final review input missing: targeted_adjudications; pass_outputs[3].findings[0] requires a non-empty id; blocked check: resolution_coverage",
+    "recorded_at": "2026-09-21T15:47:26.123451+00:00",
     "fingerprint": null,
     "classification": "repairable_validation",
-    "status": "resolved",
-    "resolved_at": "2026-09-21T15:30:45.308731+00:00"
+    "diagnostics": {
+      "valid": false,
+      "errors": [
+        {
+          "code": "missing_input",
+          "path": "targeted_adjudications",
+          "message": "final review input missing: targeted_adjudications"
+        },
+        {
+          "code": "invalid_id",
+          "path": "pass_outputs[3].findings[0]",
+          "message": "pass_outputs[3].findings[0] requires a non-empty id"
+        }
+      ],
+      "blocked_checks": [
+        {
+          "check": "resolution_coverage",
+          "requires": [
+            "valid finding inventories"
+          ]
+        }
+      ]
+    },
+    "status": "needs_correction"
   },
   "review_preflight_policy": "repairable_review_preflight_v2"
 }

@@ -9,8 +9,17 @@
     "entry_body",
     "all_findings"
   ],
-  "recorded_at": "2026-09-21T15:44:56.292Z",
-  "resolutions": [],
+  "recorded_at": "2026-09-21T15:35:10.000Z",
+  "resolutions": [
+    {
+      "id": "finding_example_sense_attribution_tentative_knock",
+      "finding_id": "finding_example_sense_attribution_tentative_knock",
+      "status": "resolved",
+      "disposition": "rejected",
+      "resolved_body_sha256": "0776dad38e204651edaf002adb4634b2bdf5ffb371b9d38c3ab1f33440a3c35f",
+      "rationale": "The quoted example \"例: There was a tentative knock on the office door.  \" describes a cautious knocking action and is correctly placed under the hesitant-manner adjective sense. The checker attribution record, rather than the article, assigned it to the rare noun sense, so no article movement is warranted."
+    }
+  ],
   "learning_delta": {
     "schema_version": "process_improvement_learning_delta_v2",
     "reviewed": true,
