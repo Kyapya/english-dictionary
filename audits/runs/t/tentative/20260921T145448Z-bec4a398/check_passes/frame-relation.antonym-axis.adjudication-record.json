@@ -1,0 +1,52 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "0776dad38e204651edaf002adb4634b2bdf5ffb371b9d38c3ab1f33440a3c35f",
+  "stage2_request_sha256": "371a5e01c78a85968b680f47a06431640ae9e1b27582b10bfed0e775b20bc4c8",
+  "blind_record_sha256": "d2e81a6a683e30128a1306eb8e770e9f588f40958ef2dc53d0edac67a8e637d4",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "codex-gpt-5",
+    "ingested_by": "orchestrator",
+    "agent_id": "tentative-checker-frame-relation-1",
+    "same_model_as_generation": true,
+    "source_response": {
+      "path": "audits/runs/t/tentative/20260921T145448Z-bec4a398/handoff/source_responses/f45fe172298b343008dc5b6aa7b017378e12d39cc83c64d7f68e5cf344e5d4bf.json",
+      "sha256": "f45fe172298b343008dc5b6aa7b017378e12d39cc83c64d7f68e5cf344e5d4bf"
+    }
+  },
+  "adjudications": [
+    {
+      "item_id": "ant-e34fd3d3c952",
+      "flags": [],
+      "rationale": "The contrast with definite is a coherent 確定性 opposition for the disclosed sense, and the article's difference line preserves that axis without self-contradiction."
+    },
+    {
+      "item_id": "ant-25d199cb221d",
+      "flags": [],
+      "rationale": "The contrast with confirmed is a coherent 確定性 opposition for the disclosed sense, and the article's difference line preserves that axis without self-contradiction."
+    },
+    {
+      "item_id": "ant-e87091ac16e9",
+      "flags": [],
+      "rationale": "The contrast with final is a coherent 確定性 opposition for the disclosed sense, and the article's difference line preserves that axis without self-contradiction."
+    },
+    {
+      "item_id": "ant-f8f379824edb",
+      "flags": [],
+      "rationale": "The contrast with confident is a coherent 確信・決断 opposition for the disclosed sense, and the article's difference line preserves that axis without self-contradiction."
+    },
+    {
+      "item_id": "ant-793f3a19e7c7",
+      "flags": [],
+      "rationale": "The contrast with assured is a coherent 確信・決断 opposition for the disclosed sense, and the article's difference line preserves that axis without self-contradiction."
+    },
+    {
+      "item_id": "ant-870b6cb24167",
+      "flags": [],
+      "rationale": "The contrast with decisive is a coherent 確信・決断 opposition for the disclosed sense, and the article's difference line preserves that axis without self-contradiction."
+    }
+  ],
+  "frame_findings": [],
+  "unrouted_observations": []
+}

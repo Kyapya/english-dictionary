@@ -1,0 +1,96 @@
+{
+  "schema_version": "antonym_axis_blind_request_v1",
+  "pass_id": "frame-relation",
+  "taxonomy_ids": [
+    "argument_slot_role_mismatch",
+    "lexical_relation_mislabel"
+  ],
+  "specification": "prompts/check_pass_frame_relation_v7.md",
+  "input_body_sha256": "0776dad38e204651edaf002adb4634b2bdf5ffb371b9d38c3ab1f33440a3c35f",
+  "input_sections": {
+    "antonym_items": [
+      {
+        "item_id": "ant-25d199cb221d",
+        "headword": "tentative",
+        "sense_definition": "【日本語訳・定義】計画、日程、合意、結論、説明、提案、識別などが、現時点では候補として置かれているものの、検討・交渉・確認が終わっておらず、後で変更または撤回される可能性があることを表す。単に「一時的」という期間の短さではなく、内容の確定性がまだ低いことに焦点がある。",
+        "antonym": "confirmed",
+        "antonym_definition": "定義: 確認や承認によって、正しいもの・正式なものとして確定している。"
+      },
+      {
+        "item_id": "ant-870b6cb24167",
+        "headword": "tentative",
+        "sense_definition": "【日本語訳・定義】人の行動、声、表情、返答、提案などが、確信や自信を十分に示さず、様子をうかがいながら慎重に行われることを表す。単に静か・弱いという意味ではなく、失敗や拒否を恐れている、またはまだ慣れていないような不確かさが表れやすい。",
+        "antonym": "decisive",
+        "antonym_definition": "定義: 迷わず判断し、行動をはっきり決める。"
+      },
+      {
+        "item_id": "ant-f8f379824edb",
+        "headword": "tentative",
+        "sense_definition": "【日本語訳・定義】人の行動、声、表情、返答、提案などが、確信や自信を十分に示さず、様子をうかがいながら慎重に行われることを表す。単に静か・弱いという意味ではなく、失敗や拒否を恐れている、またはまだ慣れていないような不確かさが表れやすい。",
+        "antonym": "confident",
+        "antonym_definition": "定義: 自分の能力・判断・発言に確信を持っている。"
+      },
+      {
+        "item_id": "ant-793f3a19e7c7",
+        "headword": "tentative",
+        "sense_definition": "【日本語訳・定義】人の行動、声、表情、返答、提案などが、確信や自信を十分に示さず、様子をうかがいながら慎重に行われることを表す。単に静か・弱いという意味ではなく、失敗や拒否を恐れている、またはまだ慣れていないような不確かさが表れやすい。",
+        "antonym": "assured",
+        "antonym_definition": "定義: 落ち着きと自信があり、確実そうに見える。"
+      },
+      {
+        "item_id": "ant-e34fd3d3c952",
+        "headword": "tentative",
+        "sense_definition": "【日本語訳・定義】計画、日程、合意、結論、説明、提案、識別などが、現時点では候補として置かれているものの、検討・交渉・確認が終わっておらず、後で変更または撤回される可能性があることを表す。単に「一時的」という期間の短さではなく、内容の確定性がまだ低いことに焦点がある。",
+        "antonym": "definite",
+        "antonym_definition": "定義: 内容や予定が明確に決まっていて、曖昧さが少ない。"
+      },
+      {
+        "item_id": "ant-e87091ac16e9",
+        "headword": "tentative",
+        "sense_definition": "【日本語訳・定義】計画、日程、合意、結論、説明、提案、識別などが、現時点では候補として置かれているものの、検討・交渉・確認が終わっておらず、後で変更または撤回される可能性があることを表す。単に「一時的」という期間の短さではなく、内容の確定性がまだ低いことに焦点がある。",
+        "antonym": "final",
+        "antonym_definition": "定義: それ以上の変更・検討を予定しない最終的な。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "difference_line",
+      "frequency_line",
+      "example_line",
+      "translation_line",
+      "synonym_section",
+      "core_image",
+      "other_senses",
+      "document_order"
+    ],
+    "questions": [
+      "name_axis_as_one_noun",
+      "classify_as_補完_程度_方向_評価_状態",
+      "record_unnamable_with_one_sentence_reason"
+    ],
+    "required_output_schema": "antonym_axis_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "3598ca81a5784639c6b43a0806d0981a985bf4174f424c744aad1dde787bfcef",
+  "source_artifact_sha256": "73787b3811419d4af99b6764bcacbf9685ac18522d5e2b856009599ce8e20810",
+  "normalized_input_sha256": "3589ea747175fadabb8cc558be4d7a10159414d4ff12c77bc9551d0da0d582dd"
+}
