@@ -1,0 +1,526 @@
+{
+  "schema_version": "content_audit_v4",
+  "generated_by": "generate_audit_manifest_v1",
+  "entry_path": "entries/a/appropriate.md",
+  "cycle_id": "20260921T030654Z-a9e4c1d2",
+  "cycle_dir": "audits/runs/a/appropriate/20260921T030654Z-a9e4c1d2",
+  "body_sha256": "c0f235efca9fc6b070d0f5c1706c7e1f86c60ca3bccb8f1cd91649c73eab5e88",
+  "raw_outputs": {
+    "source_inventory": {
+      "path": "audits/runs/a/appropriate/20260921T030654Z-a9e4c1d2/source_inventory.json",
+      "sha256": "a002741862a3a16834aed20c97acad1d2f96e9b0d2ddc4ea0e30e31bc034ece9",
+      "stage": "source_inventory",
+      "run_id": "source-appropriate-20260921T030654Z-a9e4c1d2",
+      "context_id": "source-appropriate-context-20260921T030654Z-a9e4c1d2",
+      "input_body_sha256": "c0f235efca9fc6b070d0f5c1706c7e1f86c60ca3bccb8f1cd91649c73eab5e88",
+      "prompt_sha256": "1111111111111111111111111111111111111111111111111111111111111111",
+      "recorded_at": "2026-09-21T03:17:00Z"
+    },
+    "normal_review": {
+      "path": "audits/runs/a/appropriate/20260921T030654Z-a9e4c1d2/pass_findings.json",
+      "sha256": "fef393b9dadbdd8c99d8923790f8f10a6bb4f065917b714b56dd2c754493e083",
+      "stage": "normal_review",
+      "run_id": "normal-appropriate-20260921T030654Z-a9e4c1d2",
+      "context_id": "normal-appropriate-context-20260921T030654Z-a9e4c1d2",
+      "input_body_sha256": "c0f235efca9fc6b070d0f5c1706c7e1f86c60ca3bccb8f1cd91649c73eab5e88",
+      "prompt_sha256": "2222222222222222222222222222222222222222222222222222222222222222",
+      "recorded_at": "2026-09-21T03:22:00Z"
+    },
+    "cold_review": {
+      "path": "audits/runs/a/appropriate/20260921T030654Z-a9e4c1d2/cold_review.json",
+      "sha256": "f4a5dda6d78ecf375ee1208e59b1ea3fb7cde2abf00222128eadae5b3331fd50",
+      "stage": "cold_review",
+      "run_id": "cold-appropriate-20260921T030654Z-a9e4c1d2",
+      "context_id": "cold-appropriate-context-20260921T030654Z-a9e4c1d2",
+      "input_body_sha256": "c0f235efca9fc6b070d0f5c1706c7e1f86c60ca3bccb8f1cd91649c73eab5e88",
+      "prompt_sha256": "3333333333333333333333333333333333333333333333333333333333333333",
+      "recorded_at": "2026-09-21T03:24:00Z"
+    },
+    "resolutions": {
+      "path": "audits/runs/a/appropriate/20260921T030654Z-a9e4c1d2/resolutions.json",
+      "sha256": "81b8e7dfdb749de321481078df0ea97350a5d478e989cc28064abd8bfe0fbce8",
+      "stage": "resolutions",
+      "run_id": "resolution-appropriate-20260921T030654Z-a9e4c1d2",
+      "context_id": "resolution-appropriate-context-20260921T030654Z-a9e4c1d2",
+      "input_body_sha256": "c0f235efca9fc6b070d0f5c1706c7e1f86c60ca3bccb8f1cd91649c73eab5e88",
+      "prompt_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "recorded_at": "2026-09-21T03:30:00Z"
+    },
+    "final_blind": {
+      "path": "audits/runs/a/appropriate/20260921T030654Z-a9e4c1d2/final_blind.json",
+      "sha256": "a0ec1122ab2bdb20a91a056bd9778e91e9a73766441579ce945d6cd36dcd2811",
+      "stage": "final_blind",
+      "run_id": "blind-appropriate-20260921T030654Z-a9e4c1d2",
+      "context_id": "blind-appropriate-context-20260921T030654Z-a9e4c1d2",
+      "input_body_sha256": "c0f235efca9fc6b070d0f5c1706c7e1f86c60ca3bccb8f1cd91649c73eab5e88",
+      "prompt_sha256": "8888888888888888888888888888888888888888888888888888888888888888",
+      "recorded_at": "2026-09-21T03:28:00Z"
+    },
+    "blind_seal": {
+      "path": "audits/runs/a/appropriate/20260921T030654Z-a9e4c1d2/blind_seal.json",
+      "sha256": "de7f4eb87bfce4d395828b80dad6833b4fa0d43163ceb1818e965411b6d7ac85",
+      "stage": "blind_seal"
+    },
+    "final_review": {
+      "path": "audits/runs/a/appropriate/20260921T030654Z-a9e4c1d2/final_review.json",
+      "sha256": "da9e3eef2d48039fef396b232a20d6382b3a0d80119ce00c40b69ffea76de0ba",
+      "stage": "final_review",
+      "run_id": "blind-appropriate-20260921T030654Z-a9e4c1d2",
+      "context_id": "blind-appropriate-context-20260921T030654Z-a9e4c1d2",
+      "input_body_sha256": "c0f235efca9fc6b070d0f5c1706c7e1f86c60ca3bccb8f1cd91649c73eab5e88",
+      "prompt_sha256": "9999999999999999999999999999999999999999999999999999999999999999",
+      "recorded_at": "2026-09-21T03:32:00Z"
+    }
+  },
+  "source_first_audit": {
+    "version": "source_first_audit_v2",
+    "profile": "standard",
+    "profile_reason": "",
+    "limits": {
+      "max_sources": 6,
+      "max_facts": 48,
+      "max_research_rounds": 2,
+      "max_post_cold_rechecks": null,
+      "max_final_attempts": 2
+    },
+    "usage": {
+      "sources_used": 4,
+      "facts_used": 10,
+      "research_rounds_used": 2,
+      "post_cold_rechecks_used": 0,
+      "final_attempts_used": 1
+    },
+    "research_status": "complete",
+    "stop_reason": "",
+    "open_questions": [],
+    "inventory_completed_before_article_comparison": true,
+    "inventory_completed_at": "2026-09-21T03:17:00Z",
+    "article_comparison_started_at": "2026-09-21T03:18:00Z",
+    "coverage_axes": [
+      {
+        "axis": "lexical_senses",
+        "status": "covered",
+        "source_fact_ids": [
+          "fact-adj-definition",
+          "fact-verb-allocate",
+          "fact-verb-unauthorized"
+        ],
+        "notes": ""
+      },
+      {
+        "axis": "part_of_speech_and_frames",
+        "status": "covered",
+        "source_fact_ids": [
+          "fact-adj-frames",
+          "fact-verb-frames"
+        ],
+        "notes": ""
+      },
+      {
+        "axis": "derived_and_related_forms",
+        "status": "covered",
+        "source_fact_ids": [
+          "fact-derived-forms"
+        ],
+        "notes": ""
+      },
+      {
+        "axis": "specialist_and_legal_uses",
+        "status": "covered",
+        "source_fact_ids": [
+          "fact-verb-formal",
+          "fact-verb-unauthorized"
+        ],
+        "notes": ""
+      },
+      {
+        "axis": "register_region_and_frequency",
+        "status": "covered",
+        "source_fact_ids": [
+          "fact-adj-register",
+          "fact-verb-formal"
+        ],
+        "notes": ""
+      },
+      {
+        "axis": "pronunciation_and_etymology",
+        "status": "covered",
+        "source_fact_ids": [
+          "fact-adj-pronunciation",
+          "fact-etymology"
+        ],
+        "notes": ""
+      }
+    ],
+    "sources": [
+      {
+        "id": "src-oxford-adjective",
+        "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/appropriate_1",
+        "source_type": "dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "oxford-learners",
+        "facts": [
+          {
+            "id": "fact-adj-definition",
+            "form": "appropriate",
+            "kind": "definition",
+            "statement": "suitable, acceptable or correct for particular circumstances",
+            "source_detail": "Oxford adjective definition"
+          },
+          {
+            "id": "fact-adj-frames",
+            "form": "appropriate",
+            "kind": "grammar_pattern",
+            "statement": "appropriate for something, appropriate to something, and appropriate to do",
+            "source_detail": "Oxford adjective usage patterns"
+          },
+          {
+            "id": "fact-adj-pronunciation",
+            "form": "appropriate",
+            "kind": "pronunciation",
+            "statement": "the adjective has a distinct pronunciation from the verb",
+            "source_detail": "Oxford pronunciation and part-of-speech entry"
+          }
+        ]
+      },
+      {
+        "id": "src-merriam-webster",
+        "locator": "https://www.merriam-webster.com/dictionary/appropriate",
+        "source_type": "dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "merriam-webster",
+        "facts": [
+          {
+            "id": "fact-adj-register",
+            "form": "appropriate",
+            "kind": "register",
+            "statement": "the adjective means especially suitable or compatible",
+            "source_detail": "Merriam-Webster adjective definition"
+          },
+          {
+            "id": "fact-verb-allocate",
+            "form": "appropriate",
+            "kind": "definition",
+            "statement": "the transitive verb can set something apart for or assign it to a particular purpose",
+            "source_detail": "Merriam-Webster verb definition"
+          },
+          {
+            "id": "fact-verb-unauthorized",
+            "form": "appropriate",
+            "kind": "definition",
+            "statement": "the transitive verb can take or make use of something without authority or right",
+            "source_detail": "Merriam-Webster verb definition"
+          }
+        ]
+      },
+      {
+        "id": "src-oxford-verb",
+        "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/appropriate_2",
+        "source_type": "dictionary",
+        "source_role": "usage_reference",
+        "independence_group": "oxford-verb",
+        "facts": [
+          {
+            "id": "fact-verb-formal",
+            "form": "appropriate",
+            "kind": "register",
+            "statement": "the verb is marked formal and has an appropriation-of-funds use",
+            "source_detail": "Oxford verb entry"
+          },
+          {
+            "id": "fact-verb-frames",
+            "form": "appropriate",
+            "kind": "grammar_pattern",
+            "statement": "appropriate something and appropriate something for something are established frames",
+            "source_detail": "Oxford verb usage patterns"
+          }
+        ]
+      },
+      {
+        "id": "src-etymonline",
+        "locator": "https://www.etymonline.com/word/appropriate",
+        "source_type": "etymology_reference",
+        "source_role": "etymology_reference",
+        "independence_group": "etymonline",
+        "facts": [
+          {
+            "id": "fact-etymology",
+            "form": "appropriate",
+            "kind": "etymology",
+            "statement": "the word comes through Late Latin appropriatus and appropriare, make one's own",
+            "source_detail": "Online Etymology Dictionary"
+          },
+          {
+            "id": "fact-derived-forms",
+            "form": "appropriately",
+            "kind": "derived_form",
+            "statement": "appropriately and appropriateness are related modern derivatives",
+            "source_detail": "Online Etymology Dictionary related words"
+          }
+        ]
+      }
+    ],
+    "source_union": [
+      {
+        "id": "u-adjective-fit",
+        "source_fact_ids": [
+          "fact-adj-definition",
+          "fact-adj-frames",
+          "fact-adj-pronunciation"
+        ],
+        "canonical_statement": "appropriate is an adjective for suitability in a particular situation, purpose, or relation.",
+        "disposition": "included",
+        "rationale": "The source facts were compared before article drafting and retained because they directly support a current target."
+      },
+      {
+        "id": "u-authorized-allocation",
+        "source_fact_ids": [
+          "fact-verb-allocate",
+          "fact-verb-formal",
+          "fact-verb-frames"
+        ],
+        "canonical_statement": "The formal verb use assigns or sets aside money and resources for a stated purpose.",
+        "disposition": "included",
+        "rationale": "The source facts were compared before article drafting and retained because they directly support a current target."
+      },
+      {
+        "id": "u-unauthorized-taking",
+        "source_fact_ids": [
+          "fact-verb-unauthorized"
+        ],
+        "canonical_statement": "The verb can describe taking or using another person's property, ideas, or resources without authority.",
+        "disposition": "included",
+        "rationale": "The source facts were compared before article drafting and retained because they directly support a current target."
+      },
+      {
+        "id": "u-register-and-forms",
+        "source_fact_ids": [
+          "fact-adj-register",
+          "fact-derived-forms"
+        ],
+        "canonical_statement": "The adjective is a general high-frequency word, and appropriately is a related derivative.",
+        "disposition": "included",
+        "rationale": "The source facts were compared before article drafting and retained because they directly support a current target."
+      },
+      {
+        "id": "u-origin",
+        "source_fact_ids": [
+          "fact-etymology"
+        ],
+        "canonical_statement": "The adjective and verb share a historical idea of making something one's own or fitting it to a purpose.",
+        "disposition": "included",
+        "rationale": "The source facts were compared before article drafting and retained because they directly support a current target."
+      }
+    ],
+    "claim_units": [
+      {
+        "id": "claim-u-adjective-fit",
+        "subject_form": "appropriate",
+        "claim_type": "sense",
+        "statement": "appropriate is an adjective for suitability in a particular situation, purpose, or relation.",
+        "union_ids": [
+          "u-adjective-fit"
+        ],
+        "article_target_ids": [
+          "sense_boundary:001",
+          "definition:001",
+          "frequency:001",
+          "register:001",
+          "grammar_pattern:001",
+          "grammar_pattern:002",
+          "grammar_pattern:003",
+          "grammar_pattern:004",
+          "grammar_pattern:005",
+          "collocation:001",
+          "collocation:002",
+          "collocation:003",
+          "collocation:004",
+          "collocation:005",
+          "collocation:006",
+          "usage_note:001",
+          "synonym:001",
+          "synonym:002",
+          "synonym:003",
+          "synonym:004",
+          "antonym:001",
+          "antonym:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "fact-adj-definition",
+            "support_summary": "The cited source directly supports the claim about appropriate and its definition."
+          },
+          {
+            "source_fact_id": "fact-adj-frames",
+            "support_summary": "The cited source directly supports the claim about appropriate and its grammar_pattern."
+          },
+          {
+            "source_fact_id": "fact-adj-pronunciation",
+            "support_summary": "The cited source directly supports the claim about appropriate and its pronunciation."
+          }
+        ]
+      },
+      {
+        "id": "claim-u-authorized-allocation",
+        "subject_form": "appropriate",
+        "claim_type": "sense",
+        "statement": "The formal verb use assigns or sets aside money and resources for a stated purpose.",
+        "union_ids": [
+          "u-authorized-allocation"
+        ],
+        "article_target_ids": [
+          "sense_boundary:002",
+          "definition:002",
+          "frequency:002",
+          "register:002",
+          "grammar_pattern:006",
+          "grammar_pattern:007",
+          "grammar_pattern:008",
+          "collocation:007",
+          "collocation:008",
+          "collocation:009",
+          "collocation:010",
+          "collocation:011",
+          "usage_note:002",
+          "synonym:005",
+          "synonym:006",
+          "synonym:007",
+          "synonym:008",
+          "antonym:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "fact-verb-allocate",
+            "support_summary": "The cited source directly supports the claim about appropriate and its definition."
+          },
+          {
+            "source_fact_id": "fact-verb-formal",
+            "support_summary": "The cited source directly supports the claim about appropriate and its register."
+          },
+          {
+            "source_fact_id": "fact-verb-frames",
+            "support_summary": "The cited source directly supports the claim about appropriate and its grammar_pattern."
+          }
+        ]
+      },
+      {
+        "id": "claim-u-unauthorized-taking",
+        "subject_form": "appropriate",
+        "claim_type": "sense",
+        "statement": "The verb can describe taking or using another person's property, ideas, or resources without authority.",
+        "union_ids": [
+          "u-unauthorized-taking"
+        ],
+        "article_target_ids": [
+          "sense_boundary:003",
+          "definition:003",
+          "frequency:003",
+          "register:003",
+          "grammar_pattern:009",
+          "grammar_pattern:010",
+          "grammar_pattern:011",
+          "grammar_pattern:012",
+          "collocation:012",
+          "collocation:013",
+          "collocation:014",
+          "collocation:015",
+          "collocation:016",
+          "usage_note:003",
+          "synonym:009",
+          "synonym:010",
+          "synonym:011",
+          "synonym:012",
+          "antonym:004"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "fact-verb-unauthorized",
+            "support_summary": "The cited source directly supports the claim about appropriate and its definition."
+          }
+        ]
+      },
+      {
+        "id": "claim-u-register-and-forms",
+        "subject_form": "appropriate",
+        "claim_type": "sense",
+        "statement": "The adjective is a general high-frequency word, and appropriately is a related derivative.",
+        "union_ids": [
+          "u-register-and-forms"
+        ],
+        "article_target_ids": [
+          "register:001",
+          "word_formation:001",
+          "word_formation:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "fact-adj-register",
+            "support_summary": "The cited source directly supports the claim about appropriate and its register."
+          },
+          {
+            "source_fact_id": "fact-derived-forms",
+            "support_summary": "The cited source directly supports the claim about appropriately and its derived_form."
+          }
+        ]
+      },
+      {
+        "id": "claim-u-origin",
+        "subject_form": "appropriate",
+        "claim_type": "sense",
+        "statement": "The adjective and verb share a historical idea of making something one's own or fitting it to a purpose.",
+        "union_ids": [
+          "u-origin"
+        ],
+        "article_target_ids": [
+          "etymology:001",
+          "core_image:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "fact-etymology",
+            "support_summary": "The cited source directly supports the claim about appropriate and its etymology."
+          }
+        ]
+      }
+    ]
+  },
+  "findings": [],
+  "resolutions": [],
+  "final_decision": {
+    "decision": "pass",
+    "blockers": [],
+    "notes": [
+      "The final reconciliation compared the current body hash with every extracted target and relation, the sealed blind output, the source-first unions, and the preserved checker/cold review decisions before accepting the entry."
+    ],
+    "reviewed_at": "2026-09-21T03:32:00Z",
+    "blind_output_sha256": "cad15d75be3a2b708107b84f186186ff0a23252e1068d72693e5f56770af91b2"
+  },
+  "workflow_revision": {
+    "schema_version": "workflow_revision_v1",
+    "artifacts": {
+      "pre_blind_resolution": {
+        "path": "audits/runs/a/appropriate/20260921T030654Z-a9e4c1d2/pre_blind_resolution.json",
+        "sha256": "ffc5975ee66c50dbeafa29d6b286e7d54f567a8b8e5925b686f98d9ba04931e1"
+      },
+      "pre_blind_revision": {
+        "path": "audits/runs/a/appropriate/20260921T030654Z-a9e4c1d2/pre_blind_revision.json",
+        "sha256": "9b2025b758c646cc2f302fab3ada308b19471c618a2e646502f5bcb3091cf2f8"
+      },
+      "checker_recheck_manifest": {
+        "path": "audits/runs/a/appropriate/20260921T030654Z-a9e4c1d2/checker_recheck_manifest.json",
+        "sha256": "1be32814120df153b08210c521674b1d9ac1fa81750dc40994c873b463a19e7e"
+      },
+      "post_blind_resolution": {
+        "path": "audits/runs/a/appropriate/20260921T030654Z-a9e4c1d2/post_blind_resolution.json",
+        "sha256": "d6721d45dcdf568d42c0f542aba7f721967180e235f7a295ee3cd1fac05d8f48"
+      },
+      "post_blind_verification": {
+        "path": "audits/runs/a/appropriate/20260921T030654Z-a9e4c1d2/post_blind_verification.json",
+        "sha256": "3cccb5aff9196c125dfdc74bb3ccccff2942b49f7f848b63493bcd8c9a2a99d8"
+      }
+    },
+    "targeted_adjudications": []
+  },
+  "invalidated_by": [],
+  "review_liveness_errors": []
+}
