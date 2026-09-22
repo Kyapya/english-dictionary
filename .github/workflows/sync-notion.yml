@@ -83,14 +83,7 @@ jobs:
           targeted_correction=false
           if [[ "$GITHUB_EVENT_NAME" != "workflow_dispatch" && ! "$BEFORE_SHA" =~ ^0+$ ]] \
             && git diff --name-only "$BEFORE_SHA" "$CURRENT_SHA" -- \
-              | grep -Eq '^audits/targeted_corrections/.+\\.json          python scripts/import_to_notion.py \
-            "${args[@]}" \
-            --parent-id "$NOTION_DATA_SOURCE_ID" \
-            --existing-policy update \
-            --status-value "進行中" \
-            --complete-status-value "完了" \
-            --tag-value "英単語"
-; then
+              | grep -Eq '^audits/targeted_corrections/.+\.json$'; then
             targeted_correction=true
           fi
           if [[ "$targeted_correction" == true ]]; then
