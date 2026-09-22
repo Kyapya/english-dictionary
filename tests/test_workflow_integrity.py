@@ -115,6 +115,18 @@ class ProvenanceTests(unittest.TestCase):
             self.assertTrue(merge_preflight.validate("base", "head", "squash", ROOT))
             self.assertEqual(merge_preflight.validate("base", "head", "merge", ROOT), [])
 
+    def test_targeted_correction_uses_scoped_validation_for_merge_preflight(self):
+        changed = (
+            "entries/t/tentative.md\n"
+            "audits/targeted_corrections/tentative/20260922T130201Z.json\n"
+        )
+        with mock.patch.object(merge_preflight.subprocess, "check_output",
+                               return_value=changed), \
+             mock.patch("content_audit.validate_changed",
+                        side_effect=AssertionError("full audit path used")), \
+             mock.patch("targeted_correction.validate_changed", return_value=[]):
+            self.assertEqual(merge_preflight.validate("base", "head", "merge", ROOT), [])
+
 
 class TransferTests(unittest.TestCase):
     def setUp(self):
