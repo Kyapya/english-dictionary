@@ -10,8 +10,14 @@ import subprocess
 from pathlib import Path
 
 
+def _is_targeted_correction(changed: list[str]) -> bool:
+    return any(
+        path.startswith("audits/targeted_corrections/") and path.endswith(".json")
+        for path in changed
+    )
+
+
 def validate(base: str, head: str, method: str, root: Path) -> list[str]:
-    from content_audit import validate_changed
     errors = []
     names = subprocess.check_output(
         ["git", "diff", "--name-only", base, head], cwd=root, text=True, encoding="utf-8"
@@ -20,6 +26,10 @@ def validate(base: str, head: str, method: str, root: Path) -> list[str]:
                 and p.endswith(("/final_blind.json", "/blind_seal.json", "/final_review.json"))]
     if reviewed and method != "merge":
         errors.append("review chronology requires merge commits; squash/rebase cannot preserve the verified ancestry")
+    if _is_targeted_correction(names):
+        from targeted_correction import validate_changed
+    else:
+        from content_audit import validate_changed
     errors.extend(validate_changed(base, head, root))
     return errors
 
