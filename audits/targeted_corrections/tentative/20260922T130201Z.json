@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/t/tentative.md",
+  "created_at": "2026-09-22T13:02:01Z",
+  "base_body_sha256": "782d13dffc1637355864589aaeeea95780c2d7e1caaf46083bc2ece1837e9719",
+  "head_body_sha256": "364ede62297dd5a7f527c778ca630a5e3ea90b63ca7c701714a2db47bf8f602a",
+  "diff_sha256": "abb062760c77d9b730ec2e245d10c5a6470b47c465803e6fabee42d1966dc2df",
+  "user_request": "tentative.md改修指示書の必須修正を適用する。語義1・語義2と既存フォーマットを維持し、独立した名詞語義3を削除して特殊な業界用法を語法注記へ降格する。語義1・語義2の構文、conditional/hesitantの説明、日本語訳、発音・コアイメージ・語形成の整合を局所修正する。",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "codex-targeted-review-tentative-20260922",
+    "verdict": "pass",
+    "notes": "指示書の変更ハンクと直近文脈を確認した。独立語義3の削除、業界用法の特殊用法注記への降格、語義1の未確定構文と語義2の態度構文の分離、conditional/hesitantの説明、指定された日本語訳、発音補足、コアイメージ・語形成の整合を確認した。既存の語義1・語義2、指定外の英文例文、front matterは変更していない。"
+  },
+  "pi_processing": {
+    "status": "pending",
+    "reason": "no coordinator learning_delta was supplied"
+  }
+}
