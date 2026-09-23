@@ -42,6 +42,36 @@ def issue(code: str, path: str, message: str, **details: Any) -> dict[str, Any]:
     return {"code": code, "path": path, "message": message, **details}
 
 
+def checker_finding_id(pass_id: str, finding: dict[str, Any]) -> str:
+    """Derive a stable index ID without changing the preserved reviewer response."""
+
+    canonical = json.dumps(
+        {key: value for key, value in finding.items() if key != "id"},
+        ensure_ascii=False,
+        sort_keys=True,
+        separators=(",", ":"),
+    )
+    digest = hashlib.sha256((pass_id + "\0" + canonical).encode("utf-8")).hexdigest()
+    return f"CHK-{pass_id}-{digest[:16]}"
+
+
+def checker_findings_with_ids(pass_id: str, findings: Any) -> Any:
+    """Add deterministic IDs to derived checker rows, leaving raw responses intact."""
+
+    if not isinstance(findings, list):
+        return findings
+    result = []
+    for finding in findings:
+        if not isinstance(finding, dict):
+            result.append(finding)
+            continue
+        if isinstance(finding.get("id"), str) and finding["id"].strip():
+            result.append(finding)
+            continue
+        result.append({**finding, "id": checker_finding_id(pass_id, finding)})
+    return result
+
+
 def metadata_errors(raw: dict, stage: str, body_hash: str,
                     expected_artifacts: set[str]) -> list[dict]:
     errors: list[dict] = []
@@ -237,7 +267,11 @@ def final_input_report(entry: Path, cycle: Path, root: Path, *,
             errors.append(issue("invalid_id", f"pass_outputs[{i}].pass_id", "checker pass_id is required"))
         else:
             pass_ids.append(pid)
-        rows = index_rows(output.get("findings"), f"pass_outputs[{i}].findings", errors)
+        rows = index_rows(
+            checker_findings_with_ids(pid or "unknown", output.get("findings")),
+            f"pass_outputs[{i}].findings",
+            errors,
+        )
         if rows is None:
             normal_ready = False
         else:

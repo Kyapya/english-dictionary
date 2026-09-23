@@ -1,0 +1,28 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "evidence",
+  "input_body_sha256": "13559d31b050882ff1d24890c8d22914c8f87e20f0ddb0e509e2a8178469bd82",
+  "specification_sha256": "f0de393d4d064190e23916b2e8bfda25b2b83fd29e14cf52395c894b8539d7e9",
+  "source_artifact_sha256": "d44f6f1eb825f6bfcff285716c87db277e5c8ceaeff55140e230ec57726868a2",
+  "normalized_input_sha256": "93043fd4a2ea7ff22235fa2c03b25b1b1f728e51d4bc95f179338d7fd1e9952d",
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 44,
+        "line_end": 44,
+        "exact_quote": "raise some suspicion among 〈people〉 that 〈clause〉＝〈人々〉の間に～ではないかという疑いを生じさせる"
+      },
+      "severity": "blocking",
+      "rationale": "The packet's support for this complete frame is F-MW-4, whose Merriam-Webster example is only “His story has raised some suspicion.” The Oxford locator separately attests suspicion that + clause and gives “There is strong suspicion on both sides that ...”, but neither source attests the combined frame raise some suspicion among people that. The article repeats that unsupported slot combination in the collocation and example at lines 73–75. The cited evidence therefore supports the bare raise some suspicion pattern, not this complete frame; restrict it to the attested frame or provide a source that shows the full construction.",
+      "evidence_link_ids": []
+    }
+  ],
+  "reviewer": {
+    "agent_id": "/root/round11_evidence_retry",
+    "declared_model": "GPT-6",
+    "mode": "handoff",
+    "ingested_by": "human"
+  }
+}

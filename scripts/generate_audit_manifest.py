@@ -761,7 +761,9 @@ def generate_manifest(
         )
         if errors:
             raise ValueError(f"pass output {pass_id}: " + "; ".join(errors))
-        for item in output["findings"]:
+        for item in review_validation.checker_findings_with_ids(
+            pass_id, output["findings"]
+        ):
             findings.append({**item, "origin": f"check_pass:{pass_id}"})
     if actual_passes != expected_passes and not _is_historical_cycle(cycle_dir):
         raise ValueError(

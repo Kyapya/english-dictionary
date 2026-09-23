@@ -1,0 +1,10 @@
+{
+  "schema_version": "targeted_adjudication_v1",
+  "issue_id": "TARGETED-FREQUENCY-SCORE-ROUND8",
+  "reviewer": {
+    "agent_id": "codex-round8-frequency-adjudicator"
+  },
+  "decision": "resolved_correct",
+  "rationale": "The present disclosure expressly applies to both sense and synonym frequency scores, identifies them as editorial qualitative estimates on an English-wide scale, and says they are neither strict corpus counts nor dictionary-published numbers. This covers all seven disputed values: the three sense ratings (8/10, 7/10, 2/10) and the synonym ratings for doubt, distrust, hint, and trace (each 8/10); it also limits synonym scoring to the meaning in each definition. Under entry_spec_v5, the absence of strict statistical support calls for consistent use of the 10-point rubric, not a dictionary-provided numeric measure. The findings report no conflicting numeric source and no demonstrated rubric-band error. Thus the source absence does not leave these current ratings unsupported as the disclosed estimates they are.",
+  "applicable_scope": "Only the seven current ratings specified in TARGETED-FREQUENCY-SCORE-ROUND8 and the quoted shared disclosure, assessed against the stated entry_spec_v5 requirements."
+}

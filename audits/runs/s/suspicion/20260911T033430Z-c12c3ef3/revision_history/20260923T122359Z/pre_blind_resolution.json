@@ -1,0 +1,186 @@
+{
+  "schema_version": "pre_blind_resolution_v1",
+  "input_body_sha256": "82f343438dd0057f0cc4edd16ece26ba75380521e8c02dfb806b6da7eb43d3f8",
+  "output_body_sha256": "4ec3c2363dbe4f7fd8554c52c8c284ea6aa01e952f0cc1ade3a10c3f95e1bd86",
+  "recorded_at": "2026-09-23T10:50:19+00:00",
+  "summary": "19件のchecker findingと4件のcold-review findingをすべて採用して本文に反映した。別途、frame-relationのunrouted observation（文書の真正性を扱う例と語義配置）も、該当例・枠を削除して整理した。各findingは一度だけ解決し、元応答とレビュー本文は変更していない。",
+  "resolutions": [
+    {
+      "id": "CHK-translation-78e227acb2af8d68",
+      "finding_id": "CHK-translation-78e227acb2af8d68",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "訳文から原文にない残存含意を外し、「漂っていた」に修正した。"
+    },
+    {
+      "id": "CHK-frame-relation-53cb4d7dcb428b93",
+      "finding_id": "CHK-frame-relation-53cb4d7dcb428b93",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "人・行為に限った cast suspicion on の枠と真正性の例を削除し、実際に残した枠・例の対応を保った。"
+    },
+    {
+      "id": "CHK-frame-relation-a58cff3aa6082ed4",
+      "finding_id": "CHK-frame-relation-a58cff3aa6082ed4",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "枠を a suspicion of a smile に直し、根拠のない irony と with 構文を削除した。"
+    },
+    {
+      "id": "CHK-frame-relation-d9dd6ec50e654f0d",
+      "finding_id": "CHK-frame-relation-d9dd6ec50e654f0d",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "accusation は意味的に同一の類義語ではないため、語義1の類義語欄から削除した。"
+    },
+    {
+      "id": "CHK-frame-relation-e497ccb413f93706",
+      "finding_id": "CHK-frame-relation-e497ccb413f93706",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "allegation は意味的に同一の類義語ではないため、語義1の類義語欄から削除した。"
+    },
+    {
+      "id": "CHK-example-attribution-9a7ced3d899cef25",
+      "finding_id": "CHK-example-attribution-9a7ced3d899cef25",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "曖昧だった資金移動の例を、横領への疑いを明示する例へ置き換えた。"
+    },
+    {
+      "id": "CHK-example-attribution-4b73cc547d6ec54a",
+      "finding_id": "CHK-example-attribution-4b73cc547d6ec54a",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "真正性を対象にした例と cast suspicion on 枠を削除し、犯罪・不正の疑いと分かる表現に整理した。"
+    },
+    {
+      "id": "CHK-example-attribution-4e805feccd4e0426",
+      "finding_id": "CHK-example-attribution-4e805feccd4e0426",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "疑いの内容を省いていた例を、売上記録の改ざんを疑う内容が明示される例へ置き換えた。"
+    },
+    {
+      "id": "CHK-example-attribution-ef69a9c2d1737319",
+      "finding_id": "CHK-example-attribution-ef69a9c2d1737319",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "語義1と語義2のどちらにも取れる deep suspicion の例を削除した。"
+    },
+    {
+      "id": "CHK-example-attribution-85f2d8aab19a336e",
+      "finding_id": "CHK-example-attribution-85f2d8aab19a336e",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "語義1と推測一般のどちらにも取れる dispelled suspicion の例を削除し、犯罪・不正の疑いとして読める that 節だけを残した。"
+    },
+    {
+      "id": "CHK-qualification-9eaa3295e057b6a7",
+      "finding_id": "CHK-qualification-9eaa3295e057b6a7",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "記述を Merriam-Webster のラベルに合わせ「chiefly dialectal」と限定した。"
+    },
+    {
+      "id": "CHK-evidence-926461008f51d0eb",
+      "finding_id": "CHK-evidence-926461008f51d0eb",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "英国・米国差と Cambridge との比較を外し、閲覧できる Merriam-Webster の IPA と音節・強勢情報に限定した。"
+    },
+    {
+      "id": "CHK-evidence-b920996b73bb0fec",
+      "finding_id": "CHK-evidence-b920996b73bb0fec",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "確証のない命題一般への独立語義を削除し、語義1に直接根拠のある不正の疑いだけを残した。"
+    },
+    {
+      "id": "CHK-evidence-8b74d23abfcea8bf",
+      "finding_id": "CHK-evidence-8b74d23abfcea8bf",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "語源を記録済み辞書の形・経路ごとの説明に限定し、根拠のない語素分解と現代語の継承像を除いた。"
+    },
+    {
+      "id": "CHK-evidence-2b9c3e19ee00548c",
+      "finding_id": "CHK-evidence-2b9c3e19ee00548c",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "語義1の about + person/behavior 枠を削り、crime/wrongdoing の of 枠に限定した。"
+    },
+    {
+      "id": "CHK-evidence-de21e70cafa92ec4",
+      "finding_id": "CHK-evidence-de21e70cafa92ec4",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "不信語義では確認できない of + person/group/idea を外し、記録済みの about + motives 枠に限定した。"
+    },
+    {
+      "id": "CHK-evidence-1605a30992933d1a",
+      "finding_id": "CHK-evidence-1605a30992933d1a",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "with / irony の未確認フレームを削り、出典にある a suspicion of a smile と a suspicion of truth に限定した。"
+    },
+    {
+      "id": "CHK-evidence-f48da07776261d03",
+      "finding_id": "CHK-evidence-f48da07776261d03",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "suspect の各品詞・語義を裏付ける資料がないため、語形成欄から項目を除いた。"
+    },
+    {
+      "id": "CHK-evidence-8a3b0ef0f74d78bd",
+      "finding_id": "CHK-evidence-8a3b0ef0f74d78bd",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "疑わしい副詞・名詞の意味や頻度比較を除き、別途記録済み locator の語形情報だけに限定した。"
+    },
+    {
+      "id": "CR-1",
+      "finding_id": "CR-1",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "採用。対格形を断定せず、記録済み辞書で表記差があるラテン語形を出典別に記載する形へ変更した。"
+    },
+    {
+      "id": "CR-2",
+      "finding_id": "CR-2",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "採用。「ひそかに」という語義、sub-/specere の分解、およびそれらを現代語の意味へ直結させる説明を削除した。"
+    },
+    {
+      "id": "CR-3",
+      "finding_id": "CR-3",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "採用。独立した命題推測の語義を削除し、残す that 節は犯罪・不正への疑いに限定したため、残存語義を可算のみと誤一般化させない。"
+    },
+    {
+      "id": "CR-4",
+      "finding_id": "CR-4",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "採用。allegation を類義語として定義する箇所ごと削除し、公的・私的の範囲を未確認のまま主張しない形にした。"
+    }
+  ],
+  "followup_corrections": [
+    {
+      "recorded_at": "2026-09-23T11:44:14.839805+00:00",
+      "summary": "修正後の再検査準備中に、発音欄を辞書ごとの表記方式に沿って書き直し、コアイメージを各語義の学習上の整理として限定した。共通の語源的意味とは断定しない。"
+    },
+    {
+      "recorded_at": "2026-09-23T11:44:14.839805+00:00",
+      "summary": "根拠のない doubt との意味差の説明を除き、Merriam-Webster が同義語として挙げる mistrust に変更した。"
+    },
+    {
+      "recorded_at": "2026-09-23T11:58:44.276773+00:00",
+      "status": "recheck_pending",
+      "summary": "最新本文に合わせ、発音の表記差を辞書ごとに分けて記し、コアイメージを疑いの対象による学習上の整理として限定した。Oxfordで直接確認できる命題信念の語義を再導入し、Cambridgeの閲覧不能なfactとMerriam-Websterの広いdoubt factは別unionに分けた。独立evidence checkerで十分性を再検査する。"
+    }
+  ],
+  "history_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/revision_history/20260923T115844Z/pre_blind_resolution.json"
+}

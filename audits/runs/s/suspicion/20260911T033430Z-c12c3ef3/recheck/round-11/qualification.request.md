@@ -1,0 +1,392 @@
+# Independent checker handoff
+
+Stage: `checker_passes/qualification`
+
+Run this request in its own independent agent/session. The seven checker pass requests are designed to run concurrently; do not concatenate them into one prompt or reuse one agent for multiple passes.
+
+Save exactly one JSON response as `qualification.response.json`. The top-level JSON must include the routed `pass_id` and a `reviewer` object with `mode: "handoff"`, the actual `declared_model`, `ingested_by: "human"`, and a non-empty `agent_id`. Each checker pass must use a different agent_id.
+## Prompt
+
+# check_pass_qualification_v6
+
+## 目的
+
+地域・レジスター・頻度・専門制度の限定と、絶対表現の適用範囲を検査する。
+
+## 担当タクソノミー分類
+
+- `regional_qualification`
+- `absolute_scope_counterexample`
+- `technical_terminology_conventionality`
+
+## 検査ルール
+
+- 米英差・地域差は綴りや発音だけでなく、語義、構文、頻度、自然さ、法域・制度の範囲を確認する。一地域の資料を英語全体へ一般化しない。
+- 頻度は英語全体での遭遇頻度として判定し、同一見出し語内の相対順位や特定領域内だけの頻度を使わない。
+- 高頻度の主要品詞・主要構文を低頻度の古語・地域語・専門語より先に置き、説明量も優先する。項目数の多さで主要用法の欠落を相殺しない。
+- 「必ず」「常に」「最低限」「のみ」「できない」「人なら／物なら」等は、否定、比較、程度表現、別フレームによる反例・打ち消し可能性を探す。傾向・含みを必須条件にしない。
+- 各定義主張を、必須条件、傾向・含み、特定条件に限定されるものへ分け、主要フレームへの適用範囲を確認する。
+- 法律、保険、税務、医療、資格制度等では、辞書上の語彙的意味と制度上の成立要件、手続き、当事者、対象、効果を分ける。
+- 専門訳語・慣用表現を一般語の直訳で置換せず、対象法域・制度の一次資料または信頼できる専門資料で慣用性と範囲を確認する。
+- 専門義ブロックの各pattern・collocation・exampleが当該専門義として明確に成立するか確認する。一般義にも同程度に読める例は専門義の中心例にしない。
+- 専門・地域ラベルを語義全体へ付けたとき、ブロック内の別一般義・別法域・別レジスターが混入しないか確認する。
+- 語源、年代、意味変化、地域差、頻度を根拠以上に断定しない。資料が食い違い範囲を限定できなければhold相当のfindingを返す。
+
+## 入力として受け取るセクション
+
+- `etymology`
+- `word_formation`
+- `sense_structure`
+- `frequency_register`
+- `usage_notes`
+- `collocations_examples`
+
+## findingの出力スキーマ
+
+```json
+{
+  "taxonomy_id": "regional_qualification | absolute_scope_counterexample | technical_terminology_conventionality",
+  "location": {
+    "section": "router section selector",
+    "line_start": 1,
+    "line_end": 1,
+    "exact_quote": "本文からの改変していない引用"
+  },
+  "severity": "blocking | minor",
+  "rationale": "限定不足・反例・専門慣用性の問題",
+  "evidence_link_ids": [],
+  "suggested_direction": "適用範囲、法域、傾向、専門訳を直す方向"
+}
+```
+
+
+## Input packet
+
+```json
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "qualification",
+  "taxonomy_ids": [
+    "regional_qualification",
+    "absolute_scope_counterexample",
+    "technical_terminology_conventionality"
+  ],
+  "specification": "prompts/check_pass_qualification_v6.md",
+  "input_body_sha256": "13559d31b050882ff1d24890c8d22914c8f87e20f0ddb0e509e2a8178469bd82",
+  "input_sections": {
+    "etymology": [
+      {
+        "line": 17,
+        "text": "＃語源"
+      },
+      {
+        "line": 19,
+        "text": "suspicion は中英語を経て、アングロフランス語・古フランス語からラテン語系の形へさかのぼる。辞書によってラテン語形は suspicio、suspectio、suspectio(n-) と記され、中継経路の説明にも差がある。Merriam-Webster は suspicere「疑う」に由来すると説明している。  "
+      }
+    ],
+    "word_formation": [
+      {
+        "line": 21,
+        "text": "＃語形成"
+      },
+      {
+        "line": 23,
+        "text": "・suspicious：形容詞。「疑っている、不信に思っている」、または人に疑いを起こさせる「疑わしい」。  "
+      },
+      {
+        "line": 24,
+        "text": "・suspiciously：副詞形。  "
+      },
+      {
+        "line": 25,
+        "text": "・suspiciousness：名詞形。  "
+      },
+      {
+        "line": 26,
+        "text": "・suspicion（動詞）：他動詞で「～を疑う」。Merriam-Webster では chiefly dialectal とされる。  "
+      }
+    ],
+    "sense_structure": [
+      {
+        "line": 36,
+        "text": "1. 【名詞・可算／不可算】疑い、推測：ある事柄が真実かもしれないと考えること。特に犯罪・不正への疑い"
+      },
+      {
+        "line": 38,
+        "text": "【日本語訳・定義】確証がない段階で、ある事柄が真実かもしれないと考えることを表す。人が犯罪・不正をした可能性への疑いもこの意味に含む。Oxfordは犯罪・不正の疑いでは可算・不可算の両用法を、命題の真偽については可算用法を記している。  "
+      },
+      {
+        "line": 89,
+        "text": "2. 【名詞・可算／不可算】不信、警戒を伴う疑念"
+      },
+      {
+        "line": 91,
+        "text": "【日本語訳・定義】人や物事を十分に信用できず、疑いの目で見る態度を表す。ある事柄が真実かどうかについての見立てを表す語義1とは異なり、対象への不信や警戒に焦点を置く。  "
+      },
+      {
+        "line": 117,
+        "text": "3. 【名詞・単数／形式的】ごく少量、かすかな兆し"
+      },
+      {
+        "line": 119,
+        "text": "【日本語訳・定義】ものがごく少量、またはかすかな兆候として感じられることを表す。通常 a suspicion of ... の形で使われる。  "
+      }
+    ],
+    "frequency_register": [
+      {
+        "line": 36,
+        "text": "1. 【名詞・可算／不可算】疑い、推測：ある事柄が真実かもしれないと考えること。特に犯罪・不正への疑い"
+      },
+      {
+        "line": 40,
+        "text": "【頻度】〈8/10〉  "
+      },
+      {
+        "line": 42,
+        "text": "【レジスター/領域】標準語。犯罪・不正の可能性から、会議の中止など出来事や状態の真偽まで、確証のない考えを述べる。  "
+      },
+      {
+        "line": 89,
+        "text": "2. 【名詞・可算／不可算】不信、警戒を伴う疑念"
+      },
+      {
+        "line": 93,
+        "text": "【頻度】〈7/10〉  "
+      },
+      {
+        "line": 95,
+        "text": "【レジスター/領域】標準語。人や物事、説明などを信用できず、疑いの目で見る態度を述べる。  "
+      },
+      {
+        "line": 117,
+        "text": "3. 【名詞・単数／形式的】ごく少量、かすかな兆し"
+      },
+      {
+        "line": 121,
+        "text": "【頻度】〈2/10〉  "
+      },
+      {
+        "line": 123,
+        "text": "【レジスター/領域】単数形で用いる形式的な用法。  "
+      }
+    ],
+    "usage_notes": [
+      {
+        "line": 36,
+        "text": "1. 【名詞・可算／不可算】疑い、推測：ある事柄が真実かもしれないと考えること。特に犯罪・不正への疑い"
+      },
+      {
+        "line": 78,
+        "text": "【語法・注意】on suspicion of theft は「窃盗で有罪になった」ではなく、「窃盗をした疑いを理由に」という意味である。under suspicion も罪が確定した状態を表さない。Merriam-Webster の法律辞典は suspicion を通常、信念に至らない精神状態として説明し、reasonable suspicion の項目に関連づけている。ここでは特定の法域の法的基準を述べない。  "
+      },
+      {
+        "line": 89,
+        "text": "2. 【名詞・可算／不可算】不信、警戒を伴う疑念"
+      },
+      {
+        "line": 106,
+        "text": "【語法・注意】with suspicion は、対象を信頼できるか疑って見る態度を表す。  "
+      },
+      {
+        "line": 117,
+        "text": "3. 【名詞・単数／形式的】ごく少量、かすかな兆し"
+      },
+      {
+        "line": 139,
+        "text": "【語法・注意】この a suspicion of ... は「～を疑うこと」ではなく、「～がごく少量、または兆候としてわずかに感じられること」である。  "
+      }
+    ],
+    "collocations_examples": [
+      {
+        "line": 36,
+        "text": "1. 【名詞・可算／不可算】疑い、推測：ある事柄が真実かもしれないと考えること。特に犯罪・不正への疑い"
+      },
+      {
+        "line": 46,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 48,
+        "text": "・on suspicion of 〈crime〉  "
+      },
+      {
+        "line": 49,
+        "text": "用途: 警察などが、ある犯罪を行った疑いを理由に人を逮捕・拘束したことを述べる。  "
+      },
+      {
+        "line": 50,
+        "text": "例: Two people were arrested on suspicion of fraud after the investigation.  "
+      },
+      {
+        "line": 51,
+        "text": "訳: 捜査後、2人が詐欺の容疑で逮捕された。  "
+      },
+      {
+        "line": 53,
+        "text": "・be under suspicion  "
+      },
+      {
+        "line": 54,
+        "text": "用途: 人が不正や犯罪をしたのではないかと疑われている状態を表す。  "
+      },
+      {
+        "line": 55,
+        "text": "例: The contractor remained under suspicion while investigators checked whether it had falsified invoices.  "
+      },
+      {
+        "line": 56,
+        "text": "訳: 請求書を改ざんしたかどうかを捜査員が調べる間、その請負業者は疑いをかけられたままだった。  "
+      },
+      {
+        "line": 58,
+        "text": "・a suspicion that 〈clause〉  "
+      },
+      {
+        "line": 59,
+        "text": "用途: 確証がない段階で、節の内容が事実かもしれないという見立てを表す。  "
+      },
+      {
+        "line": 60,
+        "text": "例: The manager had a suspicion that the cashier had altered the sales records.  "
+      },
+      {
+        "line": 61,
+        "text": "訳: その管理者は、レジ係が売上記録を改ざんしたのではないかと疑っていた。  "
+      },
+      {
+        "line": 63,
+        "text": "・have a suspicion that 〈clause〉  "
+      },
+      {
+        "line": 64,
+        "text": "用途: 出来事や状態が実際に起きた、または成り立つのではないかという考えを抱く。  "
+      },
+      {
+        "line": 65,
+        "text": "例: I had a suspicion that the meeting had been canceled.  "
+      },
+      {
+        "line": 66,
+        "text": "訳: 会議は中止されたのではないかと私は疑っていた。  "
+      },
+      {
+        "line": 68,
+        "text": "・arouse someone's suspicions  "
+      },
+      {
+        "line": 69,
+        "text": "用途: ある出来事を受け、〈人〉が節の内容を真実かもしれないと疑うきっかけになる。  "
+      },
+      {
+        "line": 70,
+        "text": "例: The abrupt policy reversal aroused residents' suspicions that officials had concealed the project's true cost.  "
+      },
+      {
+        "line": 71,
+        "text": "訳: 突然の方針転換を受けて、住民たちは当局が事業の本当の費用を隠していたのではないかと疑い始めた。  "
+      },
+      {
+        "line": 73,
+        "text": "・raise some suspicion among 〈people〉  "
+      },
+      {
+        "line": 74,
+        "text": "用途: 説明できない事実が、人々の間に節の内容への疑いを生じさせる。  "
+      },
+      {
+        "line": 75,
+        "text": "例: The unexplained gap in the records raised some suspicion among auditors that several invoices had been altered.  "
+      },
+      {
+        "line": 76,
+        "text": "訳: 記録の説明できない欠落から、複数の請求書が改ざんされていたのではないかという疑いが監査担当者の間に生じた。  "
+      },
+      {
+        "line": 89,
+        "text": "2. 【名詞・可算／不可算】不信、警戒を伴う疑念"
+      },
+      {
+        "line": 99,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 101,
+        "text": "・regard 〈person/thing〉 with suspicion  "
+      },
+      {
+        "line": 102,
+        "text": "用途: 人や物事をすぐには信用せず、疑いの目で見ることを表す。  "
+      },
+      {
+        "line": 103,
+        "text": "例: Residents regarded the sudden policy change with suspicion.  "
+      },
+      {
+        "line": 104,
+        "text": "訳: 住民たちは突然の方針変更を疑いの目で見た。  "
+      },
+      {
+        "line": 117,
+        "text": "3. 【名詞・単数／形式的】ごく少量、かすかな兆し"
+      },
+      {
+        "line": 127,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 129,
+        "text": "・a suspicion of a smile  "
+      },
+      {
+        "line": 130,
+        "text": "用途: はっきり表れるほどではない、かすかな兆しを描写する。  "
+      },
+      {
+        "line": 131,
+        "text": "例: There was a suspicion of a smile in her reply.  "
+      },
+      {
+        "line": 132,
+        "text": "訳: 彼女の返事にはかすかな笑みが感じられた。  "
+      },
+      {
+        "line": 134,
+        "text": "・a suspicion of truth  "
+      },
+      {
+        "line": 135,
+        "text": "用途: 話や印象に真実味がかすかに感じられることを表す。  "
+      },
+      {
+        "line": 136,
+        "text": "例: The old tale had a suspicion of truth in it.  "
+      },
+      {
+        "line": 137,
+        "text": "訳: その古い物語には、どこか真実味が感じられた。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "1cf8a434bbe1213c0ef739f4c47ffb41014ab2cd5156d297471af6df85ae40a2",
+  "source_artifact_sha256": "d44f6f1eb825f6bfcff285716c87db277e5c8ceaeff55140e230ec57726868a2",
+  "normalized_input_sha256": "6d89937593c438c0d82cc6d1e798d81c52d5d2d38801dbf9d05e68eae8b25f81"
+}
+```

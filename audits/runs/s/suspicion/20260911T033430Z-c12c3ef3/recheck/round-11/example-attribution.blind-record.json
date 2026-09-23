@@ -1,0 +1,116 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "input_body_sha256": "13559d31b050882ff1d24890c8d22914c8f87e20f0ddb0e509e2a8178469bd82",
+  "normalized_input_sha256": "c712ad0c33a97d1900e2c885b6582f980239b4393642a5a7c110e4d5650d4210",
+  "recorded_at": "2026-09-23T13:33:59.946Z",
+  "reviewer": {
+    "agent_id": "/root/round11_example_attribution",
+    "declared_model": "GPT-6",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "attributions": [
+    {
+      "example_id": "ex-9f984baaf876",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "suspicions that officials had concealed"
+      ],
+      "rationale": "The phrase ‘suspicions that officials had concealed’ supplies a proposition considered possibly true, selecting sense:001. Sense:002 would be a wary attitude toward officials without a stated proposition; sense:003, a faint trace, does not fit this that-clause frame."
+    },
+    {
+      "example_id": "ex-d8608a3c86ab",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "suspicion among auditors that several invoices had been altered"
+      ],
+      "rationale": "‘Suspicion among auditors that several invoices had been altered’ states the proposition thought possibly true, selecting sense:001. Sense:002 would describe distrust toward a target rather than this stated belief about invoice alteration; sense:003 cannot take this proposition frame."
+    },
+    {
+      "example_id": "ex-95a6ceafa529",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "a suspicion that the cashier had altered the sales records"
+      ],
+      "rationale": "‘A suspicion that the cashier had altered the sales records’ states the manager’s possible belief about an event, selecting sense:001. Sense:002 would describe a distrustful attitude toward the cashier without asserting this suspected event; sense:003 does not fit the that-clause."
+    },
+    {
+      "example_id": "ex-a876117eef6a",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "under suspicion",
+        "whether it had falsified invoices"
+      ],
+      "rationale": "‘Under suspicion’ is tied to ‘whether it had falsified invoices’, so the sentence concerns a possible act attributed to the contractor and selects sense:001. Sense:002 would be generalized distrust rather than this specific allegation; sense:003 is incompatible with the offense frame."
+    },
+    {
+      "example_id": "ex-0782305b7d28",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "a suspicion of truth in it"
+      ],
+      "rationale": "‘A suspicion of truth in it’ presents truth as a faint element or suggestion contained in the tale, selecting sense:003. Sense:001 would express a belief that a proposition is true, not a trace of truth present in something; sense:002’s wary attitude does not fit this construction."
+    },
+    {
+      "example_id": "ex-9e7134e27c9f",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "a suspicion of a smile"
+      ],
+      "rationale": "‘A suspicion of a smile’ means a very slight suggestion or trace of a smile, selecting sense:003. Sense:001 would require a proposition or suspected event, while this of-phrase names a faint feature; sense:002’s distrustful attitude cannot naturally be a trace in a reply."
+    },
+    {
+      "example_id": "ex-e66631bea145",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "regarded the sudden policy change with suspicion"
+      ],
+      "rationale": "‘Regarded the sudden policy change with suspicion’ expresses a wary, distrustful stance toward the policy change, selecting sense:002. Sense:001 would assert a particular proposition thought possibly true, but none is supplied; sense:003’s faint-trace reading cannot describe this stance."
+    },
+    {
+      "example_id": "ex-a33fa4d8f986",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "arrested on suspicion of fraud"
+      ],
+      "rationale": "‘Arrested on suspicion of fraud’ means the possibility that the people committed fraud is the basis for arrest, selecting sense:001. Sense:002 would describe distrust toward the people rather than the specific possible offense that grounds the arrest; sense:003 is incompatible with this charge frame."
+    },
+    {
+      "example_id": "ex-4cbcb52e28fb",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "a suspicion that the meeting had been canceled"
+      ],
+      "rationale": "‘A suspicion that the meeting had been canceled’ states the proposition the speaker thinks may be true, selecting sense:001. Sense:002 would mean distrust or wariness toward a target, not this explicit belief about a possible event; sense:003 does not fit a proposition-taking frame."
+    }
+  ],
+  "blind_request_sha256": "4e360884b19ca830b1b00efaba122f132dc5cd2ff3b66cb784284f1fa4827d13"
+}

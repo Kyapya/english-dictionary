@@ -1,0 +1,24 @@
+{
+  "pass_id": "pronunciation",
+  "reviewer": {
+    "agent_id": "/root/recheck_pronunciation",
+    "declared_model": "gpt-6",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "pronunciation_symbol_explanation",
+      "location": {
+        "section": "pronunciation",
+        "line_start": 15,
+        "line_end": 15,
+        "exact_quote": "米: /səˈspɪʃn/。Merriam-Webster の音節区切りでは3音節で、第2音節に主強勢がある。  "
+      },
+      "severity": "blocking",
+      "rationale": "提示されたIPAには母音核が2つ（/ə/ と /ɪ/）しかなく、末尾の /ʃn/ は記号上は子音連続で、音節主音の指定もありません。したがって転写は3音節という説明を裏付けず、末尾の音節が欠落しています。",
+      "evidence_link_ids": [],
+      "suggested_direction": "末尾の弱音節を表すIPAを補う（または明示的に音節主音を表記する）か、転写と整合するよう音節説明を修正してください。"
+    }
+  ]
+}

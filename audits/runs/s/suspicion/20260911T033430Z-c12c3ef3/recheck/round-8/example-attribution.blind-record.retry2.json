@@ -1,0 +1,78 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "input_body_sha256": "e610984e4ee840d69032be28e4e55257a14bebd434e6d3f13ba11b959ecafa79",
+  "blind_request_sha256": "c17ea42ea47a721fbfc4f51ac0b91865e2fe96e6f0eb07c706fbb4a1b2e8aa60",
+  "recorded_at": "2026-09-23T13:12:07+00:00",
+  "reviewer": {
+    "agent_id": "/root/round8_example_attribution_retry",
+    "mode": "handoff",
+    "declared_model": "GPT-6",
+    "ingested_by": "human"
+  },
+  "attributions": [
+    {
+      "example_id": "ex-d1003077d4ca",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["a suspicion that the meeting had been canceled"],
+      "rationale": "The that-clause gives the proposition considered possibly true, so suspicion means tentative belief (sense 1). Sense 2 would be a distrustful attitude toward a person or thing; no such target is expressed, and the sentence instead states the suspected proposition directly."
+    },
+    {
+      "example_id": "ex-8f8c24206a80",
+      "classification": "ambiguous",
+      "candidate_sense_ids": ["sense:001", "sense:002"],
+      "discriminating_terms": [],
+      "rationale": "‘Raised some suspicion among auditors’ can describe auditors inferring that something might be wrong (sense 1), or their becoming wary and distrustful of the records or their source (sense 2). The gap is a cause of suspicion, but the sentence gives neither a that-clause naming a suspected proposition nor an explicit target of distrust, so it does not distinguish the readings."
+    },
+    {
+      "example_id": "ex-0b79f9cd833e",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["a suspicion that the cashier had altered the sales records"],
+      "rationale": "The that-clause supplies the suspected proposition that the cashier altered the records, which is sense 1 and specifically a suspicion of wrongdoing. Sense 2 would be a general distrustful attitude toward the cashier; here the sentence makes a possible act, rather than an attitude, the content of suspicion."
+    },
+    {
+      "example_id": "ex-613a20dcfe5c",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:002"],
+      "discriminating_terms": ["regarded the sudden policy change with suspicion"],
+      "rationale": "The construction ‘regarded the sudden policy change with suspicion’ directly describes a wary, distrustful attitude toward the policy change, the target of the residents' regard (sense 2). Sense 1 would be a belief that some proposition may be true; no suspected proposition is given, and ‘with suspicion’ characterizes their attitude toward the change."
+    },
+    {
+      "example_id": "ex-9ca21f521576",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:002"],
+      "discriminating_terms": ["no longer trusted the officials' explanation"],
+      "rationale": "The clause ‘who no longer trusted the officials' explanation’ explicitly identifies the object of the residents' suspicion as something they distrust, which is sense 2. Sense 1 could be inferred only by supplying an unstated proposition such as that the officials had lied; the sentence states lost trust in the explanation, not a suspected event or wrongdoing."
+    },
+    {
+      "example_id": "ex-b5e7fa7186d6",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:003"],
+      "discriminating_terms": ["a suspicion of a smile in her reply"],
+      "rationale": "‘A suspicion of a smile in her reply’ presents a barely perceptible trace of a smile as a quality in the reply, which is sense 3. Sense 1 would express someone's tentative belief that a proposition is true; this construction describes a faint presence, not a proposition being considered."
+    },
+    {
+      "example_id": "ex-bfc7f98b7c6e",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:003"],
+      "discriminating_terms": ["a suspicion of truth in it"],
+      "rationale": "‘Had a suspicion of truth in it’ means the tale contains a faint hint or small degree of truth, the formal use in sense 3. Sense 1 would mean someone's tentative belief that a proposition is true; no believer is described, and ‘in it’ presents truth as a quality contained in the tale."
+    },
+    {
+      "example_id": "ex-ba13c9432000",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["under suspicion", "checked whether it had falsified invoices"],
+      "rationale": "The whether-clause names the possible wrongdoing under investigation: the contractor may have falsified invoices. ‘Under suspicion’ therefore means suspected of that act (sense 1). Sense 2 would be general wariness or distrust toward the contractor, but the sentence specifies an unresolved allegation as the focus."
+    },
+    {
+      "example_id": "ex-cf0a8a1498e3",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["arrested on suspicion of fraud"],
+      "rationale": "‘On suspicion of fraud’ gives the alleged crime as the basis for arrest, meaning there is a belief that fraud may have occurred (sense 1). Sense 2 is a distrustful attitude toward a person or thing and does not express the possible crime named by this construction."
+    }
+  ]
+}

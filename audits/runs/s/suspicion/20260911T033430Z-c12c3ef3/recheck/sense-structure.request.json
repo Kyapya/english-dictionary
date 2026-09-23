@@ -1,0 +1,126 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "sense-structure",
+  "taxonomy_ids": [
+    "sense_boundary_overlap",
+    "cross_section_internal_contradiction",
+    "compound_component_generalization"
+  ],
+  "specification": "prompts/check_pass_sense_structure_v6.md",
+  "input_body_sha256": "03815e046214b7ac013164253f4b3350f326787af55129a907fd779e8fefc3b4",
+  "input_sections": {
+    "core_image": [
+      {
+        "line": 27,
+        "text": "＃コアイメージ"
+      },
+      {
+        "line": 29,
+        "text": "suspicion の共通核は、確かな証拠や明瞭な現れに至らない段階で、手掛かりから何かがある・そうであると感じ取ること。  "
+      },
+      {
+        "line": 30,
+        "text": "・人が犯罪・不正をしたのではないかと見る → 「容疑、疑い」（語義1）  "
+      },
+      {
+        "line": 31,
+        "text": "・相手や主張をそのまま信用できないと見る → 「不信、疑念」（語義2）  "
+      },
+      {
+        "line": 32,
+        "text": "・何かがごく少量、かすかに現れていると感じ取る → 「ほんの少し、かすかな兆し」（語義3）  "
+      }
+    ],
+    "sense_structure": [
+      {
+        "line": 36,
+        "text": "1. 【名詞・可算／不可算】容疑、犯罪・不正をしたのではないかという疑い"
+      },
+      {
+        "line": 38,
+        "text": "【日本語訳・定義】人が犯罪、不正、不誠実な行為などをした可能性があると、十分な証明がない段階で考えること、またはその疑いを向けられている状態を表す。個々の疑いを数えるときは可算、疑いという状態・雰囲気をまとめて述べるときは不可算で使われる。  "
+      },
+      {
+        "line": 84,
+        "text": "2. 【名詞・不可算中心】不信、警戒を伴う疑念"
+      },
+      {
+        "line": 86,
+        "text": "【日本語訳・定義】人、組織、主張、動機などを信用しきれず、疑いの目で見る態度を表す。特定の犯罪・不正行為を考える語義1とは違い、対象への信頼が十分でない状態を表す。  "
+      },
+      {
+        "line": 140,
+        "text": "3. 【名詞・単数／やや文語的】ほんの少し、かすかな気配"
+      },
+      {
+        "line": 142,
+        "text": "【日本語訳・定義】ものがごく少量、またはかすかな兆候として感じられることを表す。通常 a suspicion of ... の形で使われる。  "
+      }
+    ],
+    "usage_notes": [
+      {
+        "line": 36,
+        "text": "1. 【名詞・可算／不可算】容疑、犯罪・不正をしたのではないかという疑い"
+      },
+      {
+        "line": 73,
+        "text": "【語法・注意】on suspicion of theft は「窃盗で有罪になった」ではなく、「窃盗をした疑いを理由に」という意味である。under suspicion も罪が確定した状態を表さない。suspicion of fraud では of の後ろに疑われている犯罪・不正が来る。人の動機への不信を表す suspicion about 〈person's motives〉 は語義2で扱う。  "
+      },
+      {
+        "line": 84,
+        "text": "2. 【名詞・不可算中心】不信、警戒を伴う疑念"
+      },
+      {
+        "line": 106,
+        "text": "【語法・注意】with suspicion は「疑いの目で、信用しきれずに」という態度を表す。suspicion of fraud の of は疑われている犯罪を示し、suspicion about someone's motives の about は不信の対象となる動機を示す。distrust / mistrust は信用の欠如をより直接的に表し、suspicion は疑いの目で見る態度を含む。skepticism は主張・考えを真だと受け入れることへの慎重さに焦点があり、人の悪意を必ずしも想定しない。  "
+      },
+      {
+        "line": 140,
+        "text": "3. 【名詞・単数／やや文語的】ほんの少し、かすかな気配"
+      },
+      {
+        "line": 162,
+        "text": "【語法・注意】この a suspicion of ... は「～を疑うこと」ではなく、「～がごく少量、または兆候としてわずかに感じられること」である。Merriam-Webster には動詞 suspicion「疑う」も載り、chiefly dialectal とされる。本記事では標準的な主要動詞としては扱わない。  "
+      }
+    ],
+    "word_formation": [
+      {
+        "line": 21,
+        "text": "＃語形成"
+      },
+      {
+        "line": 23,
+        "text": "・suspicious：形容詞。「疑っている、不信に思っている」、または人に疑いを起こさせる「疑わしい」。  "
+      },
+      {
+        "line": 24,
+        "text": "・suspiciously：副詞形。  "
+      },
+      {
+        "line": 25,
+        "text": "・suspiciousness：名詞形。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "a815b90fbc456e2bc194220ee0f3bfa164790bbb6e1f2f740144ac62bb03b87c",
+  "source_artifact_sha256": "7e06fa6ca23c8e4068bf1907178e2c3182d602c6191b332c06f1ceb02894874d",
+  "normalized_input_sha256": "4ce81aa0003ce7373a2921bbbd15fbc7880ccb05e33a15e3cd974065f9df8f49"
+}

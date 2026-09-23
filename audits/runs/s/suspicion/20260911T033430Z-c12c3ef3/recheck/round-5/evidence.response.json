@@ -1,0 +1,142 @@
+{
+  "pass_id": "evidence",
+  "reviewer": {
+    "agent_id": "/root/round5_evidence",
+    "declared_model": "GPT-6",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 38,
+        "line_end": 38,
+        "exact_quote": "【頻度】〈8/10〉"
+      },
+      "severity": "blocking",
+      "rationale": "指定された辞書ロケータを確認した。Oxford (https://www.oxfordlearnersdictionaries.com/definition/american_english/suspicion; https://www.oxfordlearnersdictionaries.com/definition/english/suspicion) と Merriam-Webster (https://www.merriam-webster.com/dictionary/suspicion) は語義・例文・用法を示すが、英語全体での遭遇頻度や10段階値を提示していない。したがって対応するsource_supportは語義を支えるが、この頻度値を直接裏付けない。",
+      "evidence_link_ids": [
+        "C-GUILT"
+      ],
+      "suggested_direction": "提示ロケータが頻度値を直接示していないため、頻度データを伴う根拠を追加するか、数値評価を削除して編集上の目安として別途明示する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 76,
+        "line_end": 76,
+        "exact_quote": "【頻度】〈7/10〉"
+      },
+      "severity": "blocking",
+      "rationale": "指定された辞書ロケータを確認した。Oxford (https://www.oxfordlearnersdictionaries.com/definition/american_english/suspicion; https://www.oxfordlearnersdictionaries.com/definition/english/suspicion) と Merriam-Webster (https://www.merriam-webster.com/dictionary/suspicion) は語義・例文・用法を示すが、英語全体での遭遇頻度や10段階値を提示していない。したがって対応するsource_supportは語義を支えるが、この頻度値を直接裏付けない。",
+      "evidence_link_ids": [
+        "C-PROPOSITIONAL-BELIEF"
+      ],
+      "suggested_direction": "提示ロケータが頻度値を直接示していないため、頻度データを伴う根拠を追加するか、数値評価を削除して編集上の目安として別途明示する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 104,
+        "line_end": 104,
+        "exact_quote": "【頻度】〈7/10〉"
+      },
+      "severity": "blocking",
+      "rationale": "指定された辞書ロケータを確認した。Oxford (https://www.oxfordlearnersdictionaries.com/definition/american_english/suspicion; https://www.oxfordlearnersdictionaries.com/definition/english/suspicion) と Merriam-Webster (https://www.merriam-webster.com/dictionary/suspicion) は語義・例文・用法を示すが、英語全体での遭遇頻度や10段階値を提示していない。したがって対応するsource_supportは語義を支えるが、この頻度値を直接裏付けない。",
+      "evidence_link_ids": [
+        "C-DISTRUST"
+      ],
+      "suggested_direction": "提示ロケータが頻度値を直接示していないため、頻度データを伴う根拠を追加するか、数値評価を削除して編集上の目安として別途明示する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 137,
+        "line_end": 137,
+        "exact_quote": "【頻度】〈2/10〉"
+      },
+      "severity": "blocking",
+      "rationale": "指定された辞書ロケータを確認した。Oxford (https://www.oxfordlearnersdictionaries.com/definition/american_english/suspicion; https://www.oxfordlearnersdictionaries.com/definition/english/suspicion) と Merriam-Webster (https://www.merriam-webster.com/dictionary/suspicion) は語義・例文・用法を示すが、英語全体での遭遇頻度や10段階値を提示していない。したがって対応するsource_supportは語義を支えるが、この頻度値を直接裏付けない。",
+      "evidence_link_ids": [
+        "C-TRACE-MEANING"
+      ],
+      "suggested_direction": "提示ロケータが頻度値を直接示していないため、頻度データを伴う根拠を追加するか、数値評価を削除して編集上の目安として別途明示する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 67,
+        "line_end": 67,
+        "exact_quote": "頻度: 〈7/10〉"
+      },
+      "severity": "blocking",
+      "rationale": "指定された Merriam-Webster (https://www.merriam-webster.com/dictionary/suspicion) と Oxford (https://www.oxfordlearnersdictionaries.com/definition/american_english/suspicion; https://www.oxfordlearnersdictionaries.com/definition/english/suspicion) の各ロケータは類義関係や語義・例文を示すが、当該類義語の英語使用頻度や10段階値を示していない。対応するsource_supportは語義・関係の一部を支えても、この頻度値を直接裏付けない。",
+      "evidence_link_ids": [
+        "C-GUILT"
+      ],
+      "suggested_direction": "提示ロケータが頻度値を直接示していないため、頻度データを伴う根拠を追加するか、数値評価を削除して編集上の目安として別途明示する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 95,
+        "line_end": 95,
+        "exact_quote": "頻度: 〈8/10〉"
+      },
+      "severity": "blocking",
+      "rationale": "指定された Merriam-Webster (https://www.merriam-webster.com/dictionary/suspicion) と Oxford (https://www.oxfordlearnersdictionaries.com/definition/american_english/suspicion; https://www.oxfordlearnersdictionaries.com/definition/english/suspicion) の各ロケータは類義関係や語義・例文を示すが、当該類義語の英語使用頻度や10段階値を示していない。対応するsource_supportは語義・関係の一部を支えても、この頻度値を直接裏付けない。",
+      "evidence_link_ids": [
+        "C-PROPOSITIONAL-BELIEF"
+      ],
+      "suggested_direction": "提示ロケータが頻度値を直接示していないため、頻度データを伴う根拠を追加するか、数値評価を削除して編集上の目安として別途明示する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 128,
+        "line_end": 128,
+        "exact_quote": "頻度: 〈8/10〉"
+      },
+      "severity": "blocking",
+      "rationale": "指定された Merriam-Webster (https://www.merriam-webster.com/dictionary/suspicion) と Oxford (https://www.oxfordlearnersdictionaries.com/definition/american_english/suspicion; https://www.oxfordlearnersdictionaries.com/definition/english/suspicion) の各ロケータは類義関係や語義・例文を示すが、当該類義語の英語使用頻度や10段階値を示していない。対応するsource_supportは語義・関係の一部を支えても、この頻度値を直接裏付けない。",
+      "evidence_link_ids": [
+        "C-DISTRUST"
+      ],
+      "suggested_direction": "提示ロケータが頻度値を直接示していないため、頻度データを伴う根拠を追加するか、数値評価を削除して編集上の目安として別途明示する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 161,
+        "line_end": 161,
+        "exact_quote": "頻度: 〈8/10〉"
+      },
+      "severity": "blocking",
+      "rationale": "指定された Oxford (https://www.oxfordlearnersdictionaries.com/definition/english/suspicion) は suspicion の形式的な少量義と hint との類義関係を示し、Merriam-Webster (https://www.merriam-webster.com/dictionary/suspicion) は barely detectable amount / trace とするが、hint または trace 自体の頻度・10段階値は示していない。対象となる類義語頻度を直接支える証拠リンクがrequestにない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "提示ロケータが頻度値を直接示していないため、頻度データを伴う根拠を追加するか、数値評価を削除して編集上の目安として別途明示する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 168,
+        "line_end": 168,
+        "exact_quote": "頻度: 〈8/10〉"
+      },
+      "severity": "blocking",
+      "rationale": "指定された Oxford (https://www.oxfordlearnersdictionaries.com/definition/english/suspicion) は suspicion の形式的な少量義と hint との類義関係を示し、Merriam-Webster (https://www.merriam-webster.com/dictionary/suspicion) は barely detectable amount / trace とするが、hint または trace 自体の頻度・10段階値は示していない。対象となる類義語頻度を直接支える証拠リンクがrequestにない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "提示ロケータが頻度値を直接示していないため、頻度データを伴う根拠を追加するか、数値評価を削除して編集上の目安として別途明示する。"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "schema_version": "pre_blind_revision_v1",
+  "input_body_sha256": "82f343438dd0057f0cc4edd16ece26ba75380521e8c02dfb806b6da7eb43d3f8",
+  "output_body_sha256": "e610984e4ee840d69032be28e4e55257a14bebd434e6d3f13ba11b959ecafa79",
+  "recorded_at": "2026-09-23T12:50:24.751897+00:00",
+  "changed_units": [
+    "collocations_examples",
+    "core_image",
+    "etymology",
+    "frames",
+    "frequency_register",
+    "lexical_relations",
+    "pronunciation",
+    "sense_structure",
+    "usage_notes",
+    "word_formation"
+  ],
+  "invalidated_passes": [
+    "evidence",
+    "example-attribution",
+    "frame-relation",
+    "pronunciation",
+    "qualification",
+    "sense-structure",
+    "translation"
+  ],
+  "full_recheck": true,
+  "revision_plan": {
+    "schema_version": "workflow_revision_v1",
+    "before_body_sha256": "82f343438dd0057f0cc4edd16ece26ba75380521e8c02dfb806b6da7eb43d3f8",
+    "after_body_sha256": "e610984e4ee840d69032be28e4e55257a14bebd434e6d3f13ba11b959ecafa79",
+    "changed_units": [
+      "collocations_examples",
+      "core_image",
+      "etymology",
+      "frames",
+      "frequency_register",
+      "lexical_relations",
+      "pronunciation",
+      "sense_structure",
+      "usage_notes",
+      "word_formation"
+    ],
+    "full_recheck": true,
+    "fallback_reasons": [
+      "sense_or_part_of_speech_topology_changed"
+    ],
+    "invalidated_passes": [
+      "evidence",
+      "example-attribution",
+      "frame-relation",
+      "pronunciation",
+      "qualification",
+      "sense-structure",
+      "translation"
+    ],
+    "reusable_passes": []
+  },
+  "history_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/revision_history/20260923T123745Z/pre_blind_revision.json"
+}

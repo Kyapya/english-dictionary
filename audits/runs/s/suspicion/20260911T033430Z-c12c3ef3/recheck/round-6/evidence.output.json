@@ -1,0 +1,77 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "evidence",
+  "reviewer": {
+    "agent_id": "/root/round6_evidence",
+    "declared_model": "GPT-6",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 97,
+        "line_end": 97,
+        "exact_quote": "arouse/raise suspicions＝疑いを呼び起こす"
+      },
+      "severity": "blocking",
+      "rationale": "The Merriam-Webster suspicion entry directly shows 'aroused her suspicions' and 'has raised some suspicion'. The cited passage supports arouse + plural and raise + uncountable singular, but not the exact bundled pattern 'raise suspicions' in this claim.",
+      "evidence_link_ids": ["grammar_pattern:006"],
+      "suggested_direction": "Limit the pattern to forms directly attested by the cited entry, or add a locator that directly attests 'raise suspicions'."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 54,
+        "line_end": 59,
+        "exact_quote": "・mistrust\n定義: 人や説明などを十分に信用しないこと。\n頻度: 〈7/10〉\n違い: mistrust は信頼の欠如を直接表す。suspicion のこの語義は、人が犯罪・不正をした可能性へ疑いを向けることを表す。\n例: The investigators' mistrust of the contractor grew after they found altered invoices.\n訳: 改ざんされた請求書が見つかった後、調査担当者たちはその請負業者を信用しなくなった。"
+      },
+      "severity": "blocking",
+      "rationale": "The linked Oxford and Merriam-Webster facts establish the wrongdoing sense of suspicion and Merriam-Webster lists mistrust as a synonym. They do not directly establish the target's definition of mistrust or the stated contrast in focus. Merriam-Webster's synonym discussion describes mistrust as genuine doubt based on suspicion, which is not the direct contrast asserted here.",
+      "evidence_link_ids": ["synonym:001"],
+      "suggested_direction": "Add a direct source for the mistrust definition and contrast, or narrow the comparison to what the cited entries state."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 115,
+        "line_end": 120,
+        "exact_quote": "・distrust\n定義: 人や物事を信頼しない気持ち。\n頻度: 〈8/10〉\n違い: distrust は信頼しない気持ちそのものに焦点を置く。suspicion は対象の信頼性や正しさを疑い、警戒する態度に焦点を置く。\n例: Residents regarded the proposal with distrust.\n訳: 住民たちはその提案を信用しなかった。"
+      },
+      "severity": "blocking",
+      "rationale": "The linked Oxford fact defines a suspicion sense as feeling unable to trust someone or something. It does not establish the separate definition or comparative distinction that distrust focuses on lack of trust itself while suspicion focuses on questioning reliability or correctness with caution.",
+      "evidence_link_ids": ["synonym:003"],
+      "suggested_direction": "Add direct evidence for both terms and their contrast, or remove the unsupported distinction."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 148,
+        "line_end": 153,
+        "exact_quote": "・hint\n定義: 色・味・感情などのかすかな兆し・少量。\n頻度: 〈8/10〉\n違い: hint はこの「少量」の意味で一般的。suspicion はより描写的・文語的で、あえて「感じ取れる程度」という含みを出す。\n例: The tea has a hint of mint.\n訳: そのお茶にはほのかなミントの風味がある。"
+      },
+      "severity": "blocking",
+      "rationale": "Oxford supports the small-amount sense of suspicion, labels it formal, and gives hint as a synonym. Merriam-Webster supports a trace/very small amount. These links do not establish that hint is generally used in this sense or that suspicion is more descriptive or literary than hint.",
+      "evidence_link_ids": ["synonym:004"],
+      "suggested_direction": "Add direct evidence for the comparative usage/register claims, or limit the note to the shared small-amount meaning and Oxford's formal label."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 155,
+        "line_end": 160,
+        "exact_quote": "・trace\n定義: かろうじて認められるごく少量・痕跡。\n頻度: 〈8/10〉\n違い: trace は量の少なさや痕跡性を直接表す。suspicion は比喩的で、感覚的な描写に使われやすい。\n例: There was only a trace of smoke in the air.\n訳: 空気中には煙がほんのわずかに漂っていた。"
+      },
+      "severity": "blocking",
+      "rationale": "The linked Oxford and Merriam-Webster facts support the small-amount/trace sense of suspicion, but do not establish the contrast that trace directly denotes quantity while suspicion is figurative and more often used for sensory description.",
+      "evidence_link_ids": ["synonym:005"],
+      "suggested_direction": "Add direct evidence for the comparative usage claim, or narrow the note to the directly supported small-amount meaning."
+    }
+  ]
+}

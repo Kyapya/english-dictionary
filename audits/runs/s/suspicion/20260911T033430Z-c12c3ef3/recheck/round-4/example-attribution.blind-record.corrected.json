@@ -1,0 +1,91 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "input_body_sha256": "7f899f724028a817f1d04b2e910908b67dd914b63ebb42af2cac8cc43c7627f0",
+  "recorded_at": "2026-09-23T11:38:16Z",
+  "reviewer": {
+    "agent_id": "/root/round4_example_attribution",
+    "declared_model": "GPT-6",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "attributions": [
+    {
+      "example_id": "ex-488eccd971a3",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "that the cashier had altered the sales records"
+      ],
+      "rationale": "The complement ‘that the cashier had altered the sales records’ presents a specific suspected act of wrongdoing, which fits sense:001. Sense:002 concerns distrust or wariness toward a person, claim, or motive generally; the example's proposition identifies the suspected wrongdoing itself, so that broader attitude reading is not the best attribution."
+    },
+    {
+      "example_id": "ex-849cd4419638",
+      "classification": "ambiguous",
+      "candidate_sense_ids": [
+        "sense:001",
+        "sense:002"
+      ],
+      "discriminating_terms": [],
+      "rationale": "“The contractor remained under suspicion until the records were checked.” can naturally mean the contractor continued to be suspected of wrongdoing (sense:001), or remained viewed with distrust or wariness (sense:002). The sentence does not state what was suspected or otherwise distinguish an accusation of wrongdoing from a broader distrustful attitude."
+    },
+    {
+      "example_id": "ex-90e56b0cef6f",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "a suspicion of a smile"
+      ],
+      "rationale": "The phrase ‘a suspicion of a smile’ in ‘There was a suspicion of a smile in her reply’ means a faint trace or suggestion of a smile, matching sense:003. Sense:002 would describe distrust toward a person, claim, or motive; a smile appearing faintly in a reply is not such an object of distrust."
+    },
+    {
+      "example_id": "ex-33b97ea90f61",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "regarded the sudden policy change with suspicion"
+      ],
+      "rationale": "In ‘regarded the sudden policy change with suspicion,’ suspicion is a wary, mistrustful stance toward the policy change, matching sense:002. Sense:001 would assert a suspicion that a person committed a crime or wrongdoing; the example instead makes the change itself the object of skeptical regard."
+    },
+    {
+      "example_id": "ex-957503ba3676",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "a suspicion of truth in it"
+      ],
+      "rationale": "‘A suspicion of truth in it’ describes a faint hint or degree of truth present in the tale, fitting sense:003. Sense:002 would mean distrust directed at a claim or its source; the construction ‘of truth in it’ presents truth as a quality faintly present in the tale, rather than an object being distrusted."
+    },
+    {
+      "example_id": "ex-92a8782351f5",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "on suspicion of fraud"
+      ],
+      "rationale": "The phrase ‘on suspicion of fraud’ states the suspected crime that led to the arrests, matching sense:001. Sense:002 would be general distrust or wariness toward a person or claim; the construction specifies a suspected act of fraud as the basis for arrest."
+    },
+    {
+      "example_id": "ex-e53ba33c75c2",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "no longer trusted the officials' explanation"
+      ],
+      "rationale": "The clause ‘who no longer trusted the officials' explanation’ clarifies that the aroused suspicions are a distrustful attitude toward an explanation, matching sense:002. Sense:001 would require the example to identify a suspected crime or wrongdoing by a person; no such allegation is made."
+    }
+  ],
+  "blind_request_sha256": "a363235b67155a16ab4d1a3439323706ebc03f3aa29cb5f51cb79b0cba7a2d55"
+}

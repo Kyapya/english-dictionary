@@ -1,0 +1,88 @@
+{
+  "summary": "問題候補4件。語源のラテン語形と語源分解、語義3の可算性、類義語 allegation の定義に修正候補があります。",
+  "findings": [
+    {
+      "id": "CR-1",
+      "location": "語源のラテン語形",
+      "severity": "medium",
+      "description": "suspīciō の対格形として示された suspectionem は誤記と考えられます。",
+      "reason": "本文は「suspīciō / suspectionem「疑い、不信」」としています。ラテン語 suspīciō の対格形は suspīciōnem であり、suspectionem ではありません。このままでは見出し形と異なる語形を語源情報として学習させます。",
+      "suggested_direction": "対格形を示す意図なら suspīciō / suspīciōnem とし、必要に応じて主格形・対格形であることを明記してください。",
+      "scope_anchors": [
+        {
+          "id": "CR-1-A",
+          "exact_quote": "suspīciō / suspectionem「疑い、不信」",
+          "location_hint": "「語源」冒頭のラテン語形"
+        }
+      ]
+    },
+    {
+      "id": "CR-2",
+      "location": "語源の構成要素の説明",
+      "severity": "medium",
+      "description": "「ひそかに」を suspicere の語義および sub- の語源的意味として示すのは不正確です。",
+      "reason": "本文は「suspicere『ひそかに見る、疑って見る、疑う』」と説明していますが、さらに「sub-「下から・ひそかに」と specere「見る」に結び付く語族である。」ともしています。sub- と specere の分解で示される基本像は「下から／上を見上げて見る」で、「ひそかに」は接頭辞 sub- の意味として導けません。この説明は疑いの意味を語源の直訳と誤認させます。",
+      "suggested_direction": "sub- は「下から」などに限って説明し、suspicere は「下から見上げる」から「疑う」へ展開した語として記述するなど、「ひそかに」を語源的成分として扱わないでください。",
+      "scope_anchors": [
+        {
+          "id": "CR-2-A",
+          "exact_quote": "suspicere「ひそかに見る、疑って見る、疑う」",
+          "location_hint": "「語源」2文目の suspicere の説明"
+        },
+        {
+          "id": "CR-2-B",
+          "exact_quote": "sub-「下から・ひそかに」と specere「見る」に結び付く語族である。",
+          "location_hint": "「語源」2文目の sub- と specere の説明"
+        }
+      ]
+    },
+    {
+      "id": "CR-3",
+      "location": "語義3の可算性",
+      "severity": "low",
+      "description": "命題内容への疑い・推測を表す語義3を可算名詞だけとして示すのは狭すぎます。",
+      "reason": "見出しは「3. 【名詞・可算】～ではないかという気、確証のない推測」としています。この用法では a suspicion that ... の可算形だけでなく、たとえば There was growing suspicion that the figures were incomplete. のような不可算形も普通に成り立ちます。可算性をこの語義全体の固定条件にすると、冠詞のない形を誤りだと一般化させます。",
+      "suggested_direction": "語義3の見出しを「可算・不可算」とし、a suspicion that ... と growing/widespread suspicion that ... のような用例で違いを示してください。",
+      "scope_anchors": [
+        {
+          "id": "CR-3-A",
+          "exact_quote": "3. 【名詞・可算】～ではないかという気、確証のない推測",
+          "location_hint": "「意味・用法・関連表現」語義3の見出し"
+        }
+      ]
+    },
+    {
+      "id": "CR-4",
+      "location": "語義1の類義語 allegation の定義",
+      "severity": "medium",
+      "description": "allegation を公に述べられた主張に限る定義になっています。",
+      "reason": "本文は「定義: 証明されていない段階で公に述べられた不正・違法行為についての主張。」としています。allegation は不正などをしたという未証明の申し立て・主張を指しますが、公表済みであることは必須ではありません。社内調査や正式な苦情の中で示される非公開の申し立ても allegation となり得るため、「公に」は適用範囲を不必要に狭めます。",
+      "suggested_direction": "「公に」を外し、誰かが不正・違法行為をしたという未証明の申し立て・主張として定義してください。",
+      "scope_anchors": [
+        {
+          "id": "CR-4-A",
+          "exact_quote": "定義: 証明されていない段階で公に述べられた不正・違法行為についての主張。",
+          "location_hint": "語義1「類義語」allegation の定義"
+        }
+      ]
+    }
+  ],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "GPT-6",
+    "ingested_by": "human",
+    "agent_id": "/root/cold_review"
+  },
+  "schema_version": "cold_review_v1",
+  "stage": "cold_review",
+  "run_id": "cold-suspicion-20260911T033430Z-c12c3ef3",
+  "context_id": "cold-suspicion-context-20260911T033430Z-c12c3ef3",
+  "input_body_sha256": "82f343438dd0057f0cc4edd16ece26ba75380521e8c02dfb806b6da7eb43d3f8",
+  "prompt_sha256": "25c298d1a4305746147791bd442cd725a92737c8f0802b992ea88e5c6ff76a5d",
+  "input_artifacts": [
+    "entry_body",
+    "cold_review_prompt"
+  ],
+  "audit_visible": false,
+  "recorded_at": "2026-09-23T10:14:59.921800+00:00"
+}

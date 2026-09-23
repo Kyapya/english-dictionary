@@ -1,0 +1,24 @@
+{
+  "pass_id": "sense-structure",
+  "reviewer": {
+    "agent_id": "/root/round4_sense_structure",
+    "declared_model": "gpt-6",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 31,
+        "line_end": 31,
+        "exact_quote": "【日本語訳・定義】人が犯罪・不正をした可能性があると、十分な証明がない段階で考えることを表す。"
+      },
+      "severity": "blocking",
+      "rationale": "語義1は犯罪・不正を疑う用法に限定され、語義2は対象への不信・警戒という態度を表すため、犯罪や不信を含意せず命題が真かもしれないと考える一般的な可算用法 (a suspicion that the meeting was canceled) の収録先がありません。この用法は語義3の「ごく少量／かすかな兆候」とも異なり、主要語義の欠落です。",
+      "evidence_link_ids": [],
+      "suggested_direction": "非犯罪的な「～かもしれないという疑い／予感」を独立義として追加するか、語義1の定義を一般的な推測まで広げ、犯罪・不正を典型例として示してください。語義2の不信の態度、語義3の微量・兆候とは区別してください。"
+    }
+  ]
+}

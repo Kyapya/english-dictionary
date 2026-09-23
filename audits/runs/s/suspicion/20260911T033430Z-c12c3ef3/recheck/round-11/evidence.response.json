@@ -1,0 +1,34 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "evidence",
+  "reviewer": {
+    "agent_id": "/root/round11_evidence",
+    "declared_model": "GPT-6",
+    "mode": "handoff",
+    "ingested_by": "human",
+    "request_sha256": "8842cc53705a58b8234bd07a46b519a46fcf76a23ba294eadc33d39d1bac667e"
+  },
+  "request_file_sha256": "7e474bbcfe5a79df0f66d855695ef6d00bc58093d05d625a6c9be6b66691f4f1",
+  "input_body_sha256": "13559d31b050882ff1d24890c8d22914c8f87e20f0ddb0e509e2a8178469bd82",
+  "source_artifact_sha256": "d44f6f1eb825f6bfcff285716c87db277e5c8ceaeff55140e230ec57726868a2",
+  "source_inventory_sha256": "966b58df5f529f684087ad1ca670914a827f682c035084c0077c1368a8d3d915",
+  "normalized_input_sha256": "93043fd4a2ea7ff22235fa2c03b25b1b1f728e51d4bc95f179338d7fd1e9952d",
+  "specification_sha256": "f0de393d4d064190e23916b2e8bfda25b2b83fd29e14cf52395c894b8539d7e9",
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 73,
+        "line_end": 75,
+        "exact_quote": "・raise some suspicion among 〈people〉\n用途: 説明できない事実が、人々の間に節の内容への疑いを生じさせる。\n例: The unexplained gap in the records raised some suspicion among auditors that several invoices had been altered."
+      },
+      "severity": "blocking",
+      "rationale": "The existing C-FRAMES-MW link points to F-MW-4. The Merriam-Webster entry directly gives “His story has raised some suspicion,” and separately gives an arouse-someone’s-suspicions-that example; it does not attest the claimed complete frame raise some suspicion among 〈people〉 that 〈clause〉. Those examples do not establish the added among + noun phrase + that-clause construction or the article example’s naturalness as that complete frame.",
+      "evidence_link_ids": [
+        "C-FRAMES-MW"
+      ],
+      "suggested_direction": "Limit this item to the source-attested raise some suspicion pattern, or add direct evidence for the complete among + noun phrase + that-clause frame and its example."
+    }
+  ]
+}

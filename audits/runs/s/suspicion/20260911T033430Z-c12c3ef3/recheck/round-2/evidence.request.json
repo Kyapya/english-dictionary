@@ -1,0 +1,1292 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "evidence",
+  "taxonomy_ids": [
+    "evidence_claim_mismatch"
+  ],
+  "specification": "prompts/check_pass_evidence_v7.md",
+  "input_body_sha256": "efa27069dbe117dc37e26978455d0832cd582655ef3ff0aaaf9f6ed68ed6bf74",
+  "input_sections": {
+    "pronunciation": [
+      {
+        "line": 13,
+        "text": "＃発音記号"
+      },
+      {
+        "line": 15,
+        "text": "米: Oxford の IPA 表記は /səˈspɪʃn/。Merriam-Webster は別表記で sus·pi·cion と3音節に区切り、第2音節に主強勢を示す。  "
+      }
+    ],
+    "etymology": [
+      {
+        "line": 17,
+        "text": "＃語源"
+      },
+      {
+        "line": 19,
+        "text": "suspicion は中英語を経て、アングロフランス語・古フランス語からラテン語系の形へさかのぼる。辞書によってラテン語形は suspicio、suspectio、suspectio(n-) と記され、中継経路の説明にも差がある。Merriam-Webster は suspicere「疑う」に由来すると説明している。  "
+      }
+    ],
+    "word_formation": [
+      {
+        "line": 21,
+        "text": "＃語形成"
+      },
+      {
+        "line": 23,
+        "text": "・suspicious：形容詞。「疑っている、不信に思っている」、または人に疑いを起こさせる「疑わしい」。  "
+      },
+      {
+        "line": 24,
+        "text": "・suspiciously：副詞形。  "
+      },
+      {
+        "line": 25,
+        "text": "・suspiciousness：名詞形。  "
+      }
+    ],
+    "core_image": [],
+    "sense_structure": [
+      {
+        "line": 29,
+        "text": "1. 【名詞・可算／不可算】容疑、犯罪・不正をしたのではないかという疑い"
+      },
+      {
+        "line": 31,
+        "text": "【日本語訳・定義】人が犯罪・不正をした可能性があると、十分な証明がない段階で考えることを表す。個々の疑いを数えるときは可算、疑いがあるという状態・状況をまとめて述べるときは不可算で使われる。  "
+      },
+      {
+        "line": 72,
+        "text": "2. 【名詞・不可算中心】不信、警戒を伴う疑念"
+      },
+      {
+        "line": 74,
+        "text": "【日本語訳・定義】人、組織、主張、動機などを信用しきれず、疑いの目で見る態度を表す。特定の犯罪・不正行為を考える語義1とは違い、対象への信頼が十分でない状態を表す。  "
+      },
+      {
+        "line": 100,
+        "text": "3. 【名詞・単数／やや文語的】ほんの少し、かすかな気配"
+      },
+      {
+        "line": 102,
+        "text": "【日本語訳・定義】ものがごく少量、またはかすかな兆候として感じられることを表す。通常 a suspicion of ... の形で使われる。  "
+      }
+    ],
+    "frequency_register": [
+      {
+        "line": 29,
+        "text": "1. 【名詞・可算／不可算】容疑、犯罪・不正をしたのではないかという疑い"
+      },
+      {
+        "line": 33,
+        "text": "【頻度】〈8/10〉  "
+      },
+      {
+        "line": 35,
+        "text": "【レジスター/領域】標準語。日常会話、報道、警察・司法関連の記事で広く使う。on suspicion of ...、under suspicion は報道や法執行の文脈で特に多い。ここでいう suspicion は有罪が立証されたことを意味しない。頻度の数値はこの辞書内の学習上の相対目安である。  "
+      },
+      {
+        "line": 72,
+        "text": "2. 【名詞・不可算中心】不信、警戒を伴う疑念"
+      },
+      {
+        "line": 76,
+        "text": "【頻度】〈7/10〉  "
+      },
+      {
+        "line": 78,
+        "text": "【レジスター/領域】標準語。会話、報道、政治・社会・ビジネスなど広い領域で使う。with suspicion などの形で用いる。  "
+      },
+      {
+        "line": 100,
+        "text": "3. 【名詞・単数／やや文語的】ほんの少し、かすかな気配"
+      },
+      {
+        "line": 104,
+        "text": "【頻度】〈2/10〉  "
+      },
+      {
+        "line": 106,
+        "text": "【レジスター/領域】単数形で使う形式的・描写的な用法。  "
+      }
+    ],
+    "frames": [
+      {
+        "line": 29,
+        "text": "1. 【名詞・可算／不可算】容疑、犯罪・不正をしたのではないかという疑い"
+      },
+      {
+        "line": 37,
+        "text": "【文法パターン】suspicion that 〈人が犯罪・不正をしたという節〉＝～ではないかという疑い／suspicion of 〈crime/wrongdoing〉＝〈犯罪・不正〉の疑い／arouse/raise suspicion＝疑いを招く／on suspicion of 〈crime〉＝〈犯罪〉の容疑で／be under suspicion＝疑いをかけられている／confirm suspicions that 〈節〉＝～という疑いを裏付ける。  "
+      },
+      {
+        "line": 72,
+        "text": "2. 【名詞・不可算中心】不信、警戒を伴う疑念"
+      },
+      {
+        "line": 80,
+        "text": "【文法パターン】regard 〈person/thing〉 with suspicion＝〈人・物事〉を疑いの目で見る。  "
+      },
+      {
+        "line": 100,
+        "text": "3. 【名詞・単数／やや文語的】ほんの少し、かすかな気配"
+      },
+      {
+        "line": 108,
+        "text": "【文法パターン】a suspicion of 〈a smile〉＝笑みがかすかに感じられること／a suspicion of 〈truth〉＝真実味がかすかに感じられること。  "
+      }
+    ],
+    "collocations_examples": [
+      {
+        "line": 29,
+        "text": "1. 【名詞・可算／不可算】容疑、犯罪・不正をしたのではないかという疑い"
+      },
+      {
+        "line": 39,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 41,
+        "text": "・arouse suspicion  "
+      },
+      {
+        "line": 42,
+        "text": "用途: 行動・説明・状況が疑いを生じさせる。  "
+      },
+      {
+        "line": 43,
+        "text": "例: The unexplained transfer led to a fraud inquiry and aroused suspicion among the auditors.  "
+      },
+      {
+        "line": 44,
+        "text": "訳: 説明のつかない資金移動をきっかけに詐欺の調査が始まり、監査担当者たちの疑いを招いた。  "
+      },
+      {
+        "line": 46,
+        "text": "・on suspicion of 〈crime〉  "
+      },
+      {
+        "line": 47,
+        "text": "用途: 警察などが、ある犯罪を行った疑いを理由に人を逮捕・拘束したことを述べる。  "
+      },
+      {
+        "line": 48,
+        "text": "例: Two people were arrested on suspicion of fraud after the investigation.  "
+      },
+      {
+        "line": 49,
+        "text": "訳: 捜査後、2人が詐欺の容疑で逮捕された。  "
+      },
+      {
+        "line": 51,
+        "text": "・be under suspicion  "
+      },
+      {
+        "line": 52,
+        "text": "用途: 人・組織などが不正や犯罪をしたのではないかと疑われている状態を表す。  "
+      },
+      {
+        "line": 53,
+        "text": "例: The contractor remained under suspicion of fraud until the records were checked.  "
+      },
+      {
+        "line": 54,
+        "text": "訳: 記録が確認されるまで、その請負業者は詐欺の疑いをかけられたままだった。  "
+      },
+      {
+        "line": 56,
+        "text": "・confirm suspicions that 〈clause〉  "
+      },
+      {
+        "line": 57,
+        "text": "用途: 情報や証拠が、それまで抱いていた不正行為への疑いを裏付ける。  "
+      },
+      {
+        "line": 58,
+        "text": "例: The security footage confirmed the manager's suspicions that the cashier had falsified the sales records.  "
+      },
+      {
+        "line": 59,
+        "text": "訳: 防犯映像によって、レジ係が売上記録を改ざんしたという管理者の疑いが裏付けられた。  "
+      },
+      {
+        "line": 72,
+        "text": "2. 【名詞・不可算中心】不信、警戒を伴う疑念"
+      },
+      {
+        "line": 82,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 84,
+        "text": "・regard 〈person/thing〉 with suspicion  "
+      },
+      {
+        "line": 85,
+        "text": "用途: 人や物事をすぐには信用せず、疑いの目で見ることを表す。  "
+      },
+      {
+        "line": 86,
+        "text": "例: Residents regarded the sudden policy change with suspicion.  "
+      },
+      {
+        "line": 87,
+        "text": "訳: 住民たちは突然の方針変更を疑いの目で見た。  "
+      },
+      {
+        "line": 100,
+        "text": "3. 【名詞・単数／やや文語的】ほんの少し、かすかな気配"
+      },
+      {
+        "line": 110,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 112,
+        "text": "・a suspicion of a smile  "
+      },
+      {
+        "line": 113,
+        "text": "用途: はっきり表れるほどではない、かすかな兆しを描写する。  "
+      },
+      {
+        "line": 114,
+        "text": "例: There was a suspicion of a smile in her reply.  "
+      },
+      {
+        "line": 115,
+        "text": "訳: 彼女の返事にはかすかな笑みが感じられた。  "
+      },
+      {
+        "line": 117,
+        "text": "・a suspicion of truth  "
+      },
+      {
+        "line": 118,
+        "text": "用途: 話や印象に真実味がかすかに感じられることを表す。  "
+      },
+      {
+        "line": 119,
+        "text": "例: The old tale had a suspicion of truth in it.  "
+      },
+      {
+        "line": 120,
+        "text": "訳: その古い物語には、どこか真実味が感じられた。  "
+      }
+    ],
+    "usage_notes": [
+      {
+        "line": 29,
+        "text": "1. 【名詞・可算／不可算】容疑、犯罪・不正をしたのではないかという疑い"
+      },
+      {
+        "line": 61,
+        "text": "【語法・注意】on suspicion of theft は「窃盗で有罪になった」ではなく、「窃盗をした疑いを理由に」という意味である。under suspicion も罪が確定した状態を表さない。suspicion of fraud では of の後ろに疑われている犯罪・不正が来る。  "
+      },
+      {
+        "line": 72,
+        "text": "2. 【名詞・不可算中心】不信、警戒を伴う疑念"
+      },
+      {
+        "line": 89,
+        "text": "【語法・注意】with suspicion は「疑いの目で」という態度を表す。  "
+      },
+      {
+        "line": 100,
+        "text": "3. 【名詞・単数／やや文語的】ほんの少し、かすかな気配"
+      },
+      {
+        "line": 122,
+        "text": "【語法・注意】この a suspicion of ... は「～を疑うこと」ではなく、「～がごく少量、または兆候としてわずかに感じられること」である。Merriam-Webster には動詞 suspicion「疑う」も載り、chiefly dialectal とされる。本記事では標準的な主要動詞としては扱わない。  "
+      }
+    ],
+    "lexical_relations": [
+      {
+        "line": 29,
+        "text": "1. 【名詞・可算／不可算】容疑、犯罪・不正をしたのではないかという疑い"
+      },
+      {
+        "line": 63,
+        "text": "【類義語】"
+      },
+      {
+        "line": 65,
+        "text": "・doubt  "
+      },
+      {
+        "line": 66,
+        "text": "定義: あることが真実・正当・確実かどうかについての不確かさ。  "
+      },
+      {
+        "line": 67,
+        "text": "頻度: 〈10/10〉  "
+      },
+      {
+        "line": 68,
+        "text": "違い: doubt は真偽一般への不確かさで、犯罪・不正を疑うとは限らない。suspicion は「何か隠れた問題があるのではないか」という方向を持ちやすい。  "
+      },
+      {
+        "line": 69,
+        "text": "例: There is some doubt about whether the figures are complete.  "
+      },
+      {
+        "line": 70,
+        "text": "訳: その数値が完全かどうかには多少の疑問がある。  "
+      },
+      {
+        "line": 72,
+        "text": "2. 【名詞・不可算中心】不信、警戒を伴う疑念"
+      },
+      {
+        "line": 91,
+        "text": "【類義語】"
+      },
+      {
+        "line": 93,
+        "text": "・distrust  "
+      },
+      {
+        "line": 94,
+        "text": "定義: 人や物事を信頼しない気持ち。  "
+      },
+      {
+        "line": 95,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 96,
+        "text": "違い: suspicion のこの語義で近い意味を表す語として辞書にも挙げられる。  "
+      },
+      {
+        "line": 97,
+        "text": "例: Residents regarded the proposal with distrust.  "
+      },
+      {
+        "line": 98,
+        "text": "訳: 住民たちはその提案を信用しなかった。  "
+      },
+      {
+        "line": 100,
+        "text": "3. 【名詞・単数／やや文語的】ほんの少し、かすかな気配"
+      },
+      {
+        "line": 124,
+        "text": "【類義語】"
+      },
+      {
+        "line": 126,
+        "text": "・hint  "
+      },
+      {
+        "line": 127,
+        "text": "定義: 色・味・感情などのかすかな兆し・少量。  "
+      },
+      {
+        "line": 128,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 129,
+        "text": "違い: hint はこの「少量」の意味で一般的。suspicion はより描写的・文語的で、あえて「感じ取れる程度」という含みを出す。  "
+      },
+      {
+        "line": 130,
+        "text": "例: The tea has a hint of mint.  "
+      },
+      {
+        "line": 131,
+        "text": "訳: そのお茶にはほのかなミントの風味がある。  "
+      },
+      {
+        "line": 133,
+        "text": "・trace  "
+      },
+      {
+        "line": 134,
+        "text": "定義: かろうじて認められるごく少量・痕跡。  "
+      },
+      {
+        "line": 135,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 136,
+        "text": "違い: trace は量の少なさや痕跡性を直接表す。suspicion は比喩的で、感覚的な描写に使われやすい。  "
+      },
+      {
+        "line": 137,
+        "text": "例: There was only a trace of smoke in the air.  "
+      },
+      {
+        "line": 138,
+        "text": "訳: 空気中には煙がほんのわずかに漂っていた。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "evidence_context": {
+    "schema_version": "evidence_context_v2",
+    "input_body_sha256": "efa27069dbe117dc37e26978455d0832cd582655ef3ff0aaaf9f6ed68ed6bf74",
+    "source_inventory_schema_version": "source_inventory_v2",
+    "source_inventory_sha256": "c38fcad320de22d688880c5db1417253cf4bdcff5a07b0ffe448bc582e569998",
+    "source_first_artifact_sha256": "90139b27b6c94617d777242b75c75a25582e1d6dc90f13e7edd06aee338ca0d2",
+    "relevant_sections": [
+      "collocations_examples",
+      "core_image",
+      "etymology",
+      "frames",
+      "frequency_register",
+      "lexical_relations",
+      "pronunciation",
+      "sense_structure",
+      "usage_notes",
+      "word_formation"
+    ],
+    "sources": [
+      {
+        "id": "S-ETY",
+        "locator": "https://www.etymonline.com/word/suspicion",
+        "source_type": "etymology_reference",
+        "independence_group": "etymonline",
+        "facts": [
+          {
+            "id": "F-ETY-1",
+            "form": "suspicion",
+            "kind": "etymology",
+            "statement": "The noun is recorded around 1300 through Anglo-French and Old French from Late Latin suspectio(n-), from suspicere.",
+            "source_detail": "Online Etymology Dictionary, “suspicion” etymology; retrieved lines 52–56."
+          }
+        ]
+      },
+      {
+        "id": "S-MW",
+        "locator": "suspicion: https://www.merriam-webster.com/dictionary/suspicion; suspicious: https://www.merriam-webster.com/dictionary/suspicious",
+        "source_type": "general_dictionary",
+        "independence_group": "merriam_webster",
+        "facts": [
+          {
+            "id": "F-MW-1",
+            "form": "suspicion",
+            "kind": "sense",
+            "statement": "The noun can mean an act or instance of suspecting something wrong without proof or on slight evidence; mistrust is given as a synonym.",
+            "source_detail": "Merriam-Webster Dictionary, noun sense 1a; retrieved lines 31–50."
+          },
+          {
+            "id": "F-MW-3",
+            "form": "suspicion",
+            "kind": "sense",
+            "statement": "The noun can mean a barely detectable amount or trace.",
+            "source_detail": "Merriam-Webster Dictionary, noun sense 2 and example; retrieved lines 52–56."
+          },
+          {
+            "id": "F-MW-4",
+            "form": "suspicion",
+            "kind": "frame",
+            "statement": "Examples attest suspicion that + clause, suspicion about someone’s motives, with suspicion, arouse or raise suspicions, and suspicions being confirmed.",
+            "source_detail": "Merriam-Webster Dictionary, example set; retrieved lines 115–116."
+          },
+          {
+            "id": "F-MW-5",
+            "form": "suspicion",
+            "kind": "pronunciation",
+            "statement": "The headword is divided sus·pi·cion and marked with stress on the second syllable.",
+            "source_detail": "Merriam-Webster Dictionary, headword pronunciation; retrieved line 36."
+          },
+          {
+            "id": "F-MW-6",
+            "form": "suspicion",
+            "kind": "etymology",
+            "statement": "The noun is traced through Middle English and Anglo-French to Latin suspicio, from suspicere “to suspect”; first known use is dated to the 14th century.",
+            "source_detail": "Merriam-Webster Dictionary, Word History and First Known Use; retrieved lines 124–136."
+          },
+          {
+            "id": "F-MW-7",
+            "form": "suspicion",
+            "kind": "legal_use",
+            "statement": "The legal dictionary describes suspicion as a mental state usually short of belief in which one entertains a notion that something is wrong or a fact exists without proof or slight evidence; it cross-references reasonable suspicion.",
+            "source_detail": "Merriam-Webster Legal Definition; retrieved lines 199–209. This supports the general lexical note only, not a jurisdiction-specific legal test."
+          },
+          {
+            "id": "F-MW-8",
+            "form": "suspicion",
+            "kind": "derived_form",
+            "statement": "The same entry also lists suspicion as a chiefly dialectal transitive verb meaning suspect.",
+            "source_detail": "Merriam-Webster Dictionary, second part-of-speech entry; retrieved lines 58–69."
+          },
+          {
+            "id": "F-MW-9",
+            "form": "suspicious",
+            "kind": "derived_form",
+            "statement": "The related adjective suspicious can mean tending to arouse suspicion, disposed to suspect or distrust, or expressing suspicion.",
+            "source_detail": "Merriam-Webster Dictionary, suspicious entry, senses 1–3; retrieved lines 31–56."
+          },
+          {
+            "id": "F-MW-10",
+            "form": "suspiciously",
+            "kind": "derived_form",
+            "statement": "The suspicious entry lists suspiciously as its adverb form.",
+            "source_detail": "Merriam-Webster Dictionary, suspicious entry; retrieved line 58."
+          },
+          {
+            "id": "F-MW-11",
+            "form": "suspiciousness",
+            "kind": "derived_form",
+            "statement": "The suspicious entry lists suspiciousness as its noun form.",
+            "source_detail": "Merriam-Webster Dictionary, suspicious entry; retrieved line 60."
+          },
+          {
+            "id": "F-MW-12",
+            "form": "suspicion",
+            "kind": "register",
+            "statement": "The entry labels the verb use chiefly dialectal, distinguishing it from the standard noun uses.",
+            "source_detail": "Merriam-Webster Dictionary, second part-of-speech entry; retrieved lines 60–69."
+          }
+        ]
+      },
+      {
+        "id": "S-OUP",
+        "locator": "https://www.oxfordlearnersdictionaries.com/definition/american_english/suspicion ; https://www.oxfordlearnersdictionaries.com/definition/english/suspicion",
+        "source_type": "learner_dictionary",
+        "independence_group": "oxford_university_press",
+        "facts": [
+          {
+            "id": "F-OUP-1",
+            "form": "suspicion",
+            "kind": "sense",
+            "statement": "A belief that a person has done something wrong, dishonest, or illegal without proof; countable and uncountable use.",
+            "source_detail": "Oxford Advanced American Dictionary, senses 1 and idiom entries; retrieved lines 97–110."
+          },
+          {
+            "id": "F-OUP-3",
+            "form": "suspicion",
+            "kind": "sense",
+            "statement": "Doubt or distrust directed toward a person or thing; countable and uncountable use.",
+            "source_detail": "Oxford Advanced American Dictionary, sense 3; retrieved lines 97–110."
+          },
+          {
+            "id": "F-OUP-4",
+            "form": "suspicion",
+            "kind": "sense",
+            "statement": "A singular, formal use for a very small amount or slight sign of something, comparable to a hint.",
+            "source_detail": "Oxford Advanced Learner’s Dictionary, sense 4; retrieved lines 249–256."
+          },
+          {
+            "id": "F-OUP-5",
+            "form": "suspicion",
+            "kind": "pronunciation",
+            "statement": "North American pronunciation is shown as /səˈspɪʃn/.",
+            "source_detail": "Oxford Advanced American Dictionary, headword pronunciation; retrieved line 97."
+          },
+          {
+            "id": "F-OUP-6",
+            "form": "suspicion",
+            "kind": "frame",
+            "statement": "The entry records patterns including suspicion that + clause, suspicion of + noun, on suspicion of + offence, and under suspicion.",
+            "source_detail": "Oxford Advanced American Dictionary, senses and idioms; retrieved lines 97–110."
+          }
+        ]
+      }
+    ],
+    "source_union": [
+      {
+        "id": "U-DIALECT-VERB",
+        "source_fact_ids": [
+          "F-MW-8",
+          "F-MW-12"
+        ],
+        "canonical_statement": "Merriam-Webster records a chiefly dialectal transitive verb suspicion meaning suspect.",
+        "disposition": "integrated",
+        "rationale": "The article mentions this uncommon verb separately and does not present it as a main standard noun sense."
+      },
+      {
+        "id": "U-DISTRUST",
+        "source_fact_ids": [
+          "F-OUP-3",
+          "F-MW-4"
+        ],
+        "canonical_statement": "Suspicion can denote doubt or lack of trust toward a person or thing.",
+        "disposition": "included",
+        "rationale": "The article retains the direct distrust sense and gives one source-grounded synonym."
+      },
+      {
+        "id": "U-ETYMOLOGY",
+        "source_fact_ids": [
+          "F-MW-6",
+          "F-ETY-1"
+        ],
+        "canonical_statement": "Dictionary accounts trace suspicion through Middle English and French to Latin forms related to suspicere, with source-specific forms and routes.",
+        "disposition": "included",
+        "rationale": "The article reports the source-specific route and removes the unsupported suspect-family claim."
+      },
+      {
+        "id": "U-FRAMES",
+        "source_fact_ids": [
+          "F-OUP-6",
+          "F-MW-4"
+        ],
+        "canonical_statement": "Oxford and Merriam-Webster attest the retained that/of/reporting, with-suspicion, arouse/raise, and under-suspicion frames.",
+        "disposition": "integrated",
+        "rationale": "The article uses the sources for separate constructions without asserting an unattested combined of-complement frame."
+      },
+      {
+        "id": "U-GUILT",
+        "source_fact_ids": [
+          "F-OUP-1",
+          "F-MW-1"
+        ],
+        "canonical_statement": "Suspicion can denote a countable or uncountable belief that someone did something wrong without proof.",
+        "disposition": "included",
+        "rationale": "The article retains the evidence-limited wrongdoing sense; it no longer claims a separate state-of-being-suspected meaning."
+      },
+      {
+        "id": "U-LEGAL-USE",
+        "source_fact_ids": [
+          "F-MW-7"
+        ],
+        "canonical_statement": "The legal dictionary entry describes suspicion as a mental state generally short of belief and cross-references reasonable suspicion.",
+        "disposition": "integrated",
+        "rationale": "The article limits its legal note to the general meaning and the phrase on suspicion of; it does not explain a jurisdiction-specific reasonable-suspicion test."
+      },
+      {
+        "id": "U-PRONUNCIATION",
+        "source_fact_ids": [
+          "F-OUP-5",
+          "F-MW-5"
+        ],
+        "canonical_statement": "Oxford records a North American transcription with final /ʃn/; Merriam-Webster divides the headword into three syllables and marks second-syllable stress.",
+        "disposition": "included",
+        "rationale": "The article reports only the accessible Oxford North American transcription and Merriam-Webster syllable/stress information; no UK/US comparison is inferred from the inaccessible Cambridge locator."
+      },
+      {
+        "id": "U-SMALL-AMOUNT",
+        "source_fact_ids": [
+          "F-OUP-4",
+          "F-MW-3"
+        ],
+        "canonical_statement": "A singular suspicion can denote a very small amount or faint sign of something.",
+        "disposition": "included",
+        "rationale": "Oxford and Merriam-Webster directly support the retained small-amount use and its examples."
+      },
+      {
+        "id": "U-SUSPICIOUS",
+        "source_fact_ids": [
+          "F-MW-9"
+        ],
+        "canonical_statement": "Suspicious is a related adjective that can describe a person disposed to distrust and something that arouses suspicion.",
+        "disposition": "integrated",
+        "rationale": "The article includes the related adjective and distinguishes psychological from property uses."
+      },
+      {
+        "id": "U-SUSPICIOUSLY",
+        "source_fact_ids": [
+          "F-MW-10"
+        ],
+        "canonical_statement": "Suspiciously is listed as an adverb related to suspicious.",
+        "disposition": "integrated",
+        "rationale": "The article includes suspiciously as a related form."
+      },
+      {
+        "id": "U-SUSPICIOUSNESS",
+        "source_fact_ids": [
+          "F-MW-11"
+        ],
+        "canonical_statement": "Suspiciousness is listed as a noun related to suspicious.",
+        "disposition": "integrated",
+        "rationale": "The article includes suspiciousness as a related form."
+      }
+    ],
+    "claim_units": [
+      {
+        "id": "C-GUILT",
+        "union_ids": [
+          "U-GUILT"
+        ],
+        "subject_form": "suspicion",
+        "claim_type": "sense",
+        "statement": "Suspicion can denote a countable or uncountable belief that someone did something wrong without proof.",
+        "article_target_ids": [
+          "definition:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-OUP-1",
+            "support_summary": "Oxford defines a belief that someone did something wrong without proof and marks countable and uncountable use."
+          },
+          {
+            "source_fact_id": "F-MW-1",
+            "support_summary": "Merriam-Webster defines suspecting something wrong without proof or slight evidence."
+          }
+        ]
+      },
+      {
+        "id": "C-DISTRUST",
+        "union_ids": [
+          "U-DISTRUST"
+        ],
+        "subject_form": "suspicion",
+        "claim_type": "sense",
+        "statement": "Suspicion can mean doubt or lack of trust directed toward a person or thing.",
+        "article_target_ids": [
+          "definition:002",
+          "synonym:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-OUP-3",
+            "support_summary": "Oxford defines this sense as doubt or distrust directed toward a person or thing."
+          },
+          {
+            "source_fact_id": "F-MW-4",
+            "support_summary": "Merriam-Webster illustrates regard for a person with suspicion."
+          }
+        ]
+      },
+      {
+        "id": "C-TRACE-MEANING",
+        "union_ids": [
+          "U-SMALL-AMOUNT"
+        ],
+        "subject_form": "suspicion",
+        "claim_type": "sense",
+        "statement": "A suspicion can mean a barely detectable amount or slight sign of something.",
+        "article_target_ids": [
+          "definition:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-OUP-4",
+            "support_summary": "Oxford defines the singular formal use as a small amount or hint."
+          },
+          {
+            "source_fact_id": "F-MW-3",
+            "support_summary": "Merriam-Webster defines a barely detectable amount or trace."
+          }
+        ]
+      },
+      {
+        "id": "C-TRACE-FRAMES",
+        "union_ids": [
+          "U-SMALL-AMOUNT"
+        ],
+        "subject_form": "suspicion",
+        "claim_type": "frame",
+        "statement": "The small-amount use occurs in a suspicion of a smile and a suspicion of truth.",
+        "article_target_ids": [
+          "grammar_pattern:008",
+          "grammar_pattern:009",
+          "collocation:006",
+          "collocation:007"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-OUP-4",
+            "support_summary": "Oxford gives a suspicion of a smile and a suspicion of truth in its small-amount sense."
+          }
+        ]
+      },
+      {
+        "id": "C-FRAMES",
+        "union_ids": [
+          "U-FRAMES"
+        ],
+        "subject_form": "suspicion",
+        "claim_type": "frame",
+        "statement": "Dictionary examples attest suspicion that and of frames, arouse or raise suspicion, on suspicion of, under suspicion, regard something with suspicion, and confirmed suspicions.",
+        "article_target_ids": [
+          "grammar_pattern:001",
+          "grammar_pattern:002",
+          "grammar_pattern:003",
+          "grammar_pattern:004",
+          "grammar_pattern:005",
+          "grammar_pattern:006",
+          "grammar_pattern:007",
+          "collocation:001",
+          "collocation:002",
+          "collocation:003",
+          "collocation:004",
+          "collocation:005",
+          "usage_note:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-OUP-6",
+            "support_summary": "Oxford lists that, of, on suspicion of, and under suspicion patterns in the entry."
+          },
+          {
+            "source_fact_id": "F-MW-4",
+            "support_summary": "Merriam-Webster examples attest arousing suspicion, suspicion that, with suspicion, regarding a person with suspicion, and confirmed suspicions."
+          }
+        ]
+      },
+      {
+        "id": "C-PRON",
+        "union_ids": [
+          "U-PRONUNCIATION"
+        ],
+        "subject_form": "suspicion",
+        "claim_type": "pronunciation",
+        "statement": "Oxford’s North American transcription is /səˈspɪʃn/; Merriam-Webster divides the word into three syllables and marks second-syllable stress.",
+        "article_target_ids": [
+          "pronunciation:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-OUP-5",
+            "support_summary": "Oxford’s North American headword transcription is /səˈspɪʃn/."
+          },
+          {
+            "source_fact_id": "F-MW-5",
+            "support_summary": "Merriam-Webster divides the headword into three syllables and marks stress on the second."
+          }
+        ]
+      },
+      {
+        "id": "C-ETYMOLOGY",
+        "union_ids": [
+          "U-ETYMOLOGY"
+        ],
+        "subject_form": "suspicion",
+        "claim_type": "etymology",
+        "statement": "Dictionary accounts trace suspicion through Middle English and French to Latin forms related to suspicere; sources differ in the Latin form and route.",
+        "article_target_ids": [
+          "etymology:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-MW-6",
+            "support_summary": "Merriam-Webster gives the Middle English and Anglo-French route to Latin suspicio from suspicere."
+          },
+          {
+            "source_fact_id": "F-ETY-1",
+            "support_summary": "Etymonline records the Anglo-French and Old French route to Late Latin suspectio(n-) from suspicere."
+          }
+        ]
+      },
+      {
+        "id": "C-SUSPICIOUS",
+        "union_ids": [
+          "U-SUSPICIOUS"
+        ],
+        "subject_form": "suspicious",
+        "claim_type": "derived_form",
+        "statement": "Suspicious can describe a person disposed to distrust and something that arouses suspicion.",
+        "article_target_ids": [
+          "word_formation:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-MW-9",
+            "support_summary": "The Merriam-Webster suspicious entry gives distrustful-person and suspicion-arousing-property meanings."
+          }
+        ]
+      },
+      {
+        "id": "C-SUSPICIOUSLY",
+        "union_ids": [
+          "U-SUSPICIOUSLY"
+        ],
+        "subject_form": "suspiciously",
+        "claim_type": "derived_form",
+        "statement": "Suspiciously is listed as the adverb form related to suspicious.",
+        "article_target_ids": [
+          "word_formation:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-MW-10",
+            "support_summary": "The Merriam-Webster suspicious entry lists suspiciously as its adverb form."
+          }
+        ]
+      },
+      {
+        "id": "C-SUSPICIOUSNESS",
+        "union_ids": [
+          "U-SUSPICIOUSNESS"
+        ],
+        "subject_form": "suspiciousness",
+        "claim_type": "derived_form",
+        "statement": "Suspiciousness is listed as the noun form related to suspicious.",
+        "article_target_ids": [
+          "word_formation:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-MW-11",
+            "support_summary": "The Merriam-Webster suspicious entry lists suspiciousness as its noun form."
+          }
+        ]
+      },
+      {
+        "id": "C-DIALECT-VERB",
+        "union_ids": [
+          "U-DIALECT-VERB"
+        ],
+        "subject_form": "suspicion",
+        "claim_type": "usage",
+        "statement": "Merriam-Webster records a transitive verb suspicion meaning suspect and labels it chiefly dialectal.",
+        "article_target_ids": [
+          "usage_note:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-MW-8",
+            "support_summary": "Merriam-Webster records the dialectal transitive verb suspicion meaning suspect."
+          },
+          {
+            "source_fact_id": "F-MW-12",
+            "support_summary": "Merriam-Webster labels that verb use chiefly dialectal."
+          }
+        ]
+      },
+      {
+        "id": "C-LEGAL-NOTE",
+        "union_ids": [
+          "U-LEGAL-USE"
+        ],
+        "subject_form": "suspicion",
+        "claim_type": "usage",
+        "statement": "A legal dictionary describes suspicion as a mental state usually short of belief, without asserting a jurisdiction-specific legal test.",
+        "article_target_ids": [
+          "usage_note:001",
+          "collocation:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-MW-7",
+            "support_summary": "The Merriam-Webster legal definition says suspicion is usually short of belief and cross-references reasonable suspicion."
+          }
+        ]
+      }
+    ],
+    "article_targets": [
+      {
+        "id": "collocation:001",
+        "kind": "collocation",
+        "location": "lines:30-33",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【名詞・可算／不可算】容疑、犯罪・不正をしたのではないかという疑い",
+        "text_sha256": "5a59ef821f97903cf6ecb89b6e8671720beb8be87da3715dcf2f89866052a4a2",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "・arouse suspicion\n用途: 行動・説明・状況が疑いを生じさせる。\n例: The unexplained transfer led to a fraud inquiry and aroused suspicion among the auditors.\n訳: 説明のつかない資金移動をきっかけに詐欺の調査が始まり、監査担当者たちの疑いを招いた。"
+      },
+      {
+        "id": "collocation:002",
+        "kind": "collocation",
+        "location": "lines:35-38",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【名詞・可算／不可算】容疑、犯罪・不正をしたのではないかという疑い",
+        "text_sha256": "5ef102eef7cc8b8b801d5743c5b965d3d4735889d4c7d15d4397179ac8049b00",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "・on suspicion of 〈crime〉\n用途: 警察などが、ある犯罪を行った疑いを理由に人を逮捕・拘束したことを述べる。\n例: Two people were arrested on suspicion of fraud after the investigation.\n訳: 捜査後、2人が詐欺の容疑で逮捕された。"
+      },
+      {
+        "id": "collocation:003",
+        "kind": "collocation",
+        "location": "lines:40-43",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【名詞・可算／不可算】容疑、犯罪・不正をしたのではないかという疑い",
+        "text_sha256": "8ac1ffc2d7a12506c6346c246d60cfbecf384e542c1d12fbb777c472a2fd64f3",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "・be under suspicion\n用途: 人・組織などが不正や犯罪をしたのではないかと疑われている状態を表す。\n例: The contractor remained under suspicion of fraud until the records were checked.\n訳: 記録が確認されるまで、その請負業者は詐欺の疑いをかけられたままだった。"
+      },
+      {
+        "id": "collocation:004",
+        "kind": "collocation",
+        "location": "lines:45-48",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【名詞・可算／不可算】容疑、犯罪・不正をしたのではないかという疑い",
+        "text_sha256": "f15b2759e5e0e4e5e3aed3b4325ab937d7082bf450b4cb4f4d95300e81b946cc",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "・confirm suspicions that 〈clause〉\n用途: 情報や証拠が、それまで抱いていた不正行為への疑いを裏付ける。\n例: The security footage confirmed the manager's suspicions that the cashier had falsified the sales records.\n訳: 防犯映像によって、レジ係が売上記録を改ざんしたという管理者の疑いが裏付けられた。"
+      },
+      {
+        "id": "collocation:005",
+        "kind": "collocation",
+        "location": "lines:73-76",
+        "section": "＃意味・用法・関連表現",
+        "sense": "2. 【名詞・不可算中心】不信、警戒を伴う疑念",
+        "text_sha256": "32d83e504c27a520e0b36ba4e11d9a8c5ef76a87d54031e3169e6c3a9f93653f",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "・regard 〈person/thing〉 with suspicion\n用途: 人や物事をすぐには信用せず、疑いの目で見ることを表す。\n例: Residents regarded the sudden policy change with suspicion.\n訳: 住民たちは突然の方針変更を疑いの目で見た。"
+      },
+      {
+        "id": "collocation:006",
+        "kind": "collocation",
+        "location": "lines:101-104",
+        "section": "＃意味・用法・関連表現",
+        "sense": "3. 【名詞・単数／やや文語的】ほんの少し、かすかな気配",
+        "text_sha256": "5497644993570a2b335a335ba892b80c139967204abf5131200d90cb314b04d2",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "・a suspicion of a smile\n用途: はっきり表れるほどではない、かすかな兆しを描写する。\n例: There was a suspicion of a smile in her reply.\n訳: 彼女の返事にはかすかな笑みが感じられた。"
+      },
+      {
+        "id": "collocation:007",
+        "kind": "collocation",
+        "location": "lines:106-109",
+        "section": "＃意味・用法・関連表現",
+        "sense": "3. 【名詞・単数／やや文語的】ほんの少し、かすかな気配",
+        "text_sha256": "c7a5570858c47f49a650f0a201835a9a20a2a52039ba5905838bbb047de591e4",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "・a suspicion of truth\n用途: 話や印象に真実味がかすかに感じられることを表す。\n例: The old tale had a suspicion of truth in it.\n訳: その古い物語には、どこか真実味が感じられた。"
+      },
+      {
+        "id": "definition:001",
+        "kind": "definition",
+        "location": "line:20",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【名詞・可算／不可算】容疑、犯罪・不正をしたのではないかという疑い",
+        "text_sha256": "b7262ef5616342ffe08d0c15191220a0b97ab1d1cabd8e6d26781be37b266337",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "人が犯罪・不正をした可能性があると、十分な証明がない段階で考えることを表す。個々の疑いを数えるときは可算、疑いがあるという状態・状況をまとめて述べるときは不可算で使われる。"
+      },
+      {
+        "id": "definition:002",
+        "kind": "definition",
+        "location": "line:63",
+        "section": "＃意味・用法・関連表現",
+        "sense": "2. 【名詞・不可算中心】不信、警戒を伴う疑念",
+        "text_sha256": "bcf3c93b4fcd589b2742bc53f91c292943d73aebd32bb91a3456fdde7a2fa3c2",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "人、組織、主張、動機などを信用しきれず、疑いの目で見る態度を表す。特定の犯罪・不正行為を考える語義1とは違い、対象への信頼が十分でない状態を表す。"
+      },
+      {
+        "id": "definition:003",
+        "kind": "definition",
+        "location": "line:91",
+        "section": "＃意味・用法・関連表現",
+        "sense": "3. 【名詞・単数／やや文語的】ほんの少し、かすかな気配",
+        "text_sha256": "d560545f0112c5f05bb2ff715b6b7c54ca25f2203287eed670e2e3e06c2ddf00",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "ものがごく少量、またはかすかな兆候として感じられることを表す。通常 a suspicion of ... の形で使われる。"
+      },
+      {
+        "id": "etymology:001",
+        "kind": "etymology",
+        "location": "line:8",
+        "section": "＃語源",
+        "sense": "",
+        "text_sha256": "d00a67a5c57d1c442fa0e09c8b5bee7a410b577b50e062aa8e016b620cc1b522",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "suspicion は中英語を経て、アングロフランス語・古フランス語からラテン語系の形へさかのぼる。辞書によってラテン語形は suspicio、suspectio、suspectio(n-) と記され、中継経路の説明にも差がある。Merriam-Webster は suspicere「疑う」に由来すると説明している。"
+      },
+      {
+        "id": "grammar_pattern:001",
+        "kind": "grammar_pattern",
+        "location": "line:26",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【名詞・可算／不可算】容疑、犯罪・不正をしたのではないかという疑い",
+        "text_sha256": "c7fb539729729298d2159792de356b6f61842f505902d25ffb152e8fe021496b",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "suspicion that 〈人が犯罪・不正をしたという節〉＝～ではないかという疑い"
+      },
+      {
+        "id": "grammar_pattern:002",
+        "kind": "grammar_pattern",
+        "location": "line:26",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【名詞・可算／不可算】容疑、犯罪・不正をしたのではないかという疑い",
+        "text_sha256": "7c63e98b231a78e2a87ee825bcd6d86b6a9d1dc5d9a103abb71dba8be4fd3db0",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "suspicion of 〈crime/wrongdoing〉＝〈犯罪・不正〉の疑い"
+      },
+      {
+        "id": "grammar_pattern:003",
+        "kind": "grammar_pattern",
+        "location": "line:26",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【名詞・可算／不可算】容疑、犯罪・不正をしたのではないかという疑い",
+        "text_sha256": "f044bcac5fe8781ba7965f9cee4a864045d9690eb4bac0df7407c9270f94caea",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "arouse/raise suspicion＝疑いを招く"
+      },
+      {
+        "id": "grammar_pattern:004",
+        "kind": "grammar_pattern",
+        "location": "line:26",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【名詞・可算／不可算】容疑、犯罪・不正をしたのではないかという疑い",
+        "text_sha256": "443cb4aa2e279a7ff38dd67e2a737081a18d79544552e0c94519c897184ab4d8",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "on suspicion of 〈crime〉＝〈犯罪〉の容疑で"
+      },
+      {
+        "id": "grammar_pattern:005",
+        "kind": "grammar_pattern",
+        "location": "line:26",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【名詞・可算／不可算】容疑、犯罪・不正をしたのではないかという疑い",
+        "text_sha256": "87c048752e918f868f4a2653adff11b202f157b5ae9aa34be40587e0163a0147",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "be under suspicion＝疑いをかけられている"
+      },
+      {
+        "id": "grammar_pattern:006",
+        "kind": "grammar_pattern",
+        "location": "line:26",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【名詞・可算／不可算】容疑、犯罪・不正をしたのではないかという疑い",
+        "text_sha256": "e6c300b89922f9c0ce2c1f06877486347437631182453c4606934a8cd857e3d4",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "confirm suspicions that 〈節〉＝～という疑いを裏付ける。"
+      },
+      {
+        "id": "grammar_pattern:007",
+        "kind": "grammar_pattern",
+        "location": "line:69",
+        "section": "＃意味・用法・関連表現",
+        "sense": "2. 【名詞・不可算中心】不信、警戒を伴う疑念",
+        "text_sha256": "d09dfc93c859f5e40f1d7298b3b638460e4e3d3ca99714676d96221abea3df99",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "regard 〈person/thing〉 with suspicion＝〈人・物事〉を疑いの目で見る。"
+      },
+      {
+        "id": "grammar_pattern:008",
+        "kind": "grammar_pattern",
+        "location": "line:97",
+        "section": "＃意味・用法・関連表現",
+        "sense": "3. 【名詞・単数／やや文語的】ほんの少し、かすかな気配",
+        "text_sha256": "a62441f25e236a505738eab608aad6f206f144a39f2e26aa8e6c3a801f410b1d",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "a suspicion of 〈a smile〉＝笑みがかすかに感じられること"
+      },
+      {
+        "id": "grammar_pattern:009",
+        "kind": "grammar_pattern",
+        "location": "line:97",
+        "section": "＃意味・用法・関連表現",
+        "sense": "3. 【名詞・単数／やや文語的】ほんの少し、かすかな気配",
+        "text_sha256": "003396d78ff59a525cefe046a37b15838b90deb4609d6b505b046b11ebfbe877",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "a suspicion of 〈truth〉＝真実味がかすかに感じられること。"
+      },
+      {
+        "id": "pronunciation:001",
+        "kind": "pronunciation",
+        "location": "line:4",
+        "section": "＃発音記号",
+        "sense": "",
+        "text_sha256": "157a4c4471a13eba2eb9c3a896e4435dc8046dc927250a39d3249965c564872e",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "米: Oxford の IPA 表記は /səˈspɪʃn/。Merriam-Webster は別表記で sus·pi·cion と3音節に区切り、第2音節に主強勢を示す。"
+      },
+      {
+        "id": "synonym:002",
+        "kind": "synonym",
+        "location": "lines:82-87",
+        "section": "＃意味・用法・関連表現",
+        "sense": "2. 【名詞・不可算中心】不信、警戒を伴う疑念",
+        "text_sha256": "3362d736bb6a482e8d11ffbe25643c687c52e55159b2d09100cde98373236c2f",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "・distrust\n定義: 人や物事を信頼しない気持ち。\n頻度: 〈8/10〉\n違い: suspicion のこの語義で近い意味を表す語として辞書にも挙げられる。\n例: Residents regarded the proposal with distrust.\n訳: 住民たちはその提案を信用しなかった。"
+      },
+      {
+        "id": "usage_note:001",
+        "kind": "usage_note",
+        "location": "line:50",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【名詞・可算／不可算】容疑、犯罪・不正をしたのではないかという疑い",
+        "text_sha256": "fa16d272bdd6e7c4eb5d6cb842c6c444958eb07556c36ffca2d2043de5065293",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "on suspicion of theft は「窃盗で有罪になった」ではなく、「窃盗をした疑いを理由に」という意味である。under suspicion も罪が確定した状態を表さない。suspicion of fraud では of の後ろに疑われている犯罪・不正が来る。"
+      },
+      {
+        "id": "usage_note:002",
+        "kind": "usage_note",
+        "location": "line:78",
+        "section": "＃意味・用法・関連表現",
+        "sense": "2. 【名詞・不可算中心】不信、警戒を伴う疑念",
+        "text_sha256": "57b08b3e9639dd18b6145c556726c3ac7e4dbc97747c2d387a1603dc0dfc1a6f",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "with suspicion は「疑いの目で」という態度を表す。"
+      },
+      {
+        "id": "usage_note:003",
+        "kind": "usage_note",
+        "location": "line:111",
+        "section": "＃意味・用法・関連表現",
+        "sense": "3. 【名詞・単数／やや文語的】ほんの少し、かすかな気配",
+        "text_sha256": "5d7e5903967bea55cefaf9e21e7c823dc91c73418776f8ae8e49c4313abf321b",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "この a suspicion of ... は「～を疑うこと」ではなく、「～がごく少量、または兆候としてわずかに感じられること」である。Merriam-Webster には動詞 suspicion「疑う」も載り、chiefly dialectal とされる。本記事では標準的な主要動詞としては扱わない。"
+      },
+      {
+        "id": "word_formation:001",
+        "kind": "word_formation",
+        "location": "line:12",
+        "section": "＃語形成",
+        "sense": "",
+        "text_sha256": "a8c5fd77a34b141a7f2dc5802b13900fd66cb3c0009d59f22674c951763252fe",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "・suspicious：形容詞。「疑っている、不信に思っている」、または人に疑いを起こさせる「疑わしい」。"
+      },
+      {
+        "id": "word_formation:002",
+        "kind": "word_formation",
+        "location": "line:13",
+        "section": "＃語形成",
+        "sense": "",
+        "text_sha256": "3649d380df0f8699a142092afab76c921b64e8f66d957a868fde889c841b9517",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "・suspiciously：副詞形。"
+      },
+      {
+        "id": "word_formation:003",
+        "kind": "word_formation",
+        "location": "line:14",
+        "section": "＃語形成",
+        "sense": "",
+        "text_sha256": "e70de87e639978c1a71a907c23d8e63c103c719fc8e225a5a2d83cf11aa370c4",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "・suspiciousness：名詞形。"
+      }
+    ]
+  },
+  "specification_sha256": "f0de393d4d064190e23916b2e8bfda25b2b83fd29e14cf52395c894b8539d7e9",
+  "source_artifact_sha256": "90139b27b6c94617d777242b75c75a25582e1d6dc90f13e7edd06aee338ca0d2",
+  "normalized_input_sha256": "e960fab6ff15e962284cc8514f1922276f9499a049f31e8bf7d7a8cfba568e36"
+}

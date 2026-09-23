@@ -1,0 +1,36 @@
+{
+  "schema_version": "targeted_adjudication_request_v1",
+  "issue_id": "TARGETED-SENSE-BOUNDARY-WRONGDOING-VS-PROPOSITION",
+  "question": "Under entry_spec_v5, should suspicion of wrongdoing and a noncriminal proposition such as a meeting being canceled be separate numbered senses, or does the current unified definition appropriately treat the wrongdoing use as a specific application of the same unproven-belief meaning? Decide whether the distinct dictionary treatment, countability, and learner-relevant frames establish an independent lexical meaning or only a difference in the proposition's subject matter.",
+  "article_excerpt": "Current candidate sense 1 is headed 疑い、推測：ある事柄が真実かもしれないと考えること。特に犯罪・不正への疑い. Its definition says that suspicion is considering a proposition possibly true without certainty and includes the possibility that a person committed wrongdoing. It uses both The manager had a suspicion that the cashier had altered the sales records and I had a suspicion that the meeting had been canceled. Sense 2 remains distrust/wariness toward a person or thing, and sense 3 remains the formal small-amount/slight-sign use.",
+  "judgments": [
+    {
+      "source": "round-4 sense-structure finding, adopted",
+      "position": "prior four-sense draft",
+      "judgment": "The general propositional use had no clear home in a wrongdoing-only sense; a separate sense was added based on Oxford's belief-that description and Merriam-Webster's noncriminal example."
+    },
+    {
+      "source": "round-6 sense-structure finding",
+      "position": "four-sense draft",
+      "judgment": "Both definitions described considering a proposition possibly true without proof; the boundary appeared to be only whether the proposition concerned wrongdoing, so the meanings might be over-split."
+    }
+  ],
+  "source_material": [
+    {
+      "source": "prompts/entry_spec_v5.md, 語義棚卸し / 語義と構文の対応づけ / 語義ブロック",
+      "excerpt": "中心義が変わるなら別語義とする。中心義は同じでも、学習者が予測しにくい語順、前置詞、目的語位置、補語は構文欄に収録する。中心訳、意味役割、目的語種類、結果状態、評価、レジスター、地域、慣用性、構文制約が明確に異なる場合は別語義にする。具体的目的語、自由修飾、一般文法で予測可能な語順、基本義から生じる評価的・文脈的含意、軽微な差だけなら同語義内で扱う。辞書の見出し分けはそのまま記事の語義分けとして採用しない。"
+    },
+    {
+      "source": "source audit F-OUP-1",
+      "excerpt": "Oxford defines suspicion as a belief that a person has done something wrong, dishonest, or illegal without proof; countable and uncountable use."
+    },
+    {
+      "source": "source audit F-OUP-2",
+      "excerpt": "Oxford records a countable belief or suspicion that a proposition is true despite lack of proof."
+    },
+    {
+      "source": "source audit F-MW-1 / F-MW-2 / F-MW-4",
+      "excerpt": "Merriam-Webster records suspicion of something wrong without proof or slight evidence; a related sense of mental uneasiness and uncertainty or doubt; and an example that applies suspicion to a noncriminal proposition (a painting being fake)."
+    }
+  ]
+}

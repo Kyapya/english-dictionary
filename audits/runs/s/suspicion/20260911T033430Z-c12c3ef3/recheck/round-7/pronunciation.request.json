@@ -1,0 +1,42 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "pronunciation",
+  "taxonomy_ids": [
+    "pronunciation_symbol_explanation"
+  ],
+  "specification": "prompts/check_pass_pronunciation_v6.md",
+  "input_body_sha256": "9536e71772fcbec66a5cb22ac6155df52ed1a3d9a157408b5bb7993289585853",
+  "input_sections": {
+    "pronunciation": [
+      {
+        "line": 13,
+        "text": "＃発音記号"
+      },
+      {
+        "line": 15,
+        "text": "米: Oxford のIPA表記は /səˈspɪʃn/ で、/ʃn/ の間に母音を置かずに示す。Merriam-Webster は綴りの音節区切りを sus·pi·cion、発音表記を /sə-ˈspi-shən/ と分けて示し、ˈ が第2音節の主強勢を示す。表記方法が異なり、Oxford の表記では独立した弱音節を示していない。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "7e3e94267ac9f917c901c12580b91e570b5989df7adfbf2a39b833478c766d8a",
+  "source_artifact_sha256": "4ce8d8afba2821e0b62dcb7c0083ae3ecd44c2257aa643fe163ed26f0f263f05",
+  "normalized_input_sha256": "885d5f77f6dd21ca78c858a578e16031241b38bf188ed93996632310fdf82733"
+}

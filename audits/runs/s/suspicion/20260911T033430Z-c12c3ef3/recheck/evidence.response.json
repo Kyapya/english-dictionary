@@ -1,0 +1,89 @@
+{
+  "pass_id": "evidence",
+  "reviewer": {
+    "agent_id": "/root/recheck_evidence",
+    "model": "GPT-6",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃コアイメージ",
+        "line_start": 18,
+        "line_end": 18,
+        "exact_quote": "suspicion の共通核は、確かな証拠や明瞭な現れに至らない段階で、手掛かりから何かがある・そうであると感じ取ること。"
+      },
+      "severity": "blocking",
+      "rationale": "The opened Oxford, Merriam-Webster, and Etymonline entries list distinct uses for suspecting wrongdoing, distrust or doubt, and a small amount or hint. None directly states that these separate uses share the asserted common conceptual kernel of detecting something from clues before clear evidence or a clear appearance. The linked facts support the separate senses, not this unifying interpretation; evidence for this claim is insufficient.",
+      "evidence_link_ids": ["C-CORE-IMAGE", "F-OUP-1", "F-MW-1", "F-AHD-1", "F-OUP-4", "F-MW-3", "F-AHD-4"],
+      "suggested_direction": "Present the senses as separate related uses, or hold the shared-core claim until a linked source directly supports it."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 27,
+        "line_end": 27,
+        "exact_quote": "人が犯罪、不正、不誠実な行為などをした可能性があると、十分な証明がない段階で考えること、またはその疑いを向けられている状態を表す。個々の疑いを数えるときは可算、疑いという状態・雰囲気をまとめて述べるときは不可算で使われる。"
+      },
+      "severity": "blocking",
+      "rationale": "The supplied F-OUP-1 and F-MW-1 facts directly support an evidence-limited act or belief about wrongdoing and countable/uncountable use, but they do not directly support the separate passive-state subclaim, ‘the state of being suspected.’ The only supplied fact for that subclaim is F-AHD-2, whose recorded locator https://www.ahdictionary.com/word/search.html?q=suspicion returned as inaccessible and could not be checked. This subclaim therefore has insufficient evidence from the recorded links.",
+      "evidence_link_ids": ["C-GUILT", "F-AHD-2", "F-MW-1", "F-OUP-1"],
+      "suggested_direction": "Remove the passive-state subclaim or hold it until its recorded locator can be verified or a directly supporting accessible link is supplied."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 33,
+        "line_end": 33,
+        "exact_quote": "arouse/raise suspicion of 〈crime/wrongdoing〉＝〈犯罪・不正〉の疑いを招く"
+      },
+      "severity": "blocking",
+      "rationale": "The opened Merriam-Webster examples attest arouse suspicion and raise suspicion, while the Oxford entry separately records suspicion of + noun. Neither supplied fact directly attests the complete combined frame arouse/raise suspicion of a crime or wrongdoing. The link policy for this frame is one source, so evidence for the complete construction is insufficient.",
+      "evidence_link_ids": ["C-FRAMES", "F-MW-4", "F-OUP-6"],
+      "suggested_direction": "Limit the frame to the separately attested constructions or hold the combined frame until one recorded source directly supports it."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 90,
+        "line_end": 93,
+        "exact_quote": "・suspicion about 〈person's motives〉\n用途: 特定の人や組織の動機を信用できないと感じることを表す。\n例: Years of secrecy fueled residents' suspicions about the agency's motives.\n訳: 長年にわたる秘密主義によって、住民たちはその機関の動機を疑うようになった。"
+      },
+      "severity": "blocking",
+      "rationale": "Merriam-Webster F-MW-4 directly attests the about-motives construction, but the opened Oxford locator records other patterns and does not directly attest this frame. This target requires two independent sources or a directly applicable primary source; only one supplied locator directly supports the complete frame, so the required evidence threshold is unmet.",
+      "evidence_link_ids": ["C-FRAMES", "F-MW-4", "F-OUP-6"],
+      "suggested_direction": "Hold this high-threshold collocation until a second independent direct source or primary usage source supports it."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 95,
+        "line_end": 95,
+        "exact_quote": "with suspicion は「疑いの目で、信用しきれずに」という態度を表す。suspicion of fraud の of は疑われている犯罪を示し、suspicion about someone's motives の about は不信の対象となる動機を示す。distrust / mistrust は信用の欠如をより直接的に表し、suspicion は疑いの目で見る態度を含む。skepticism は主張・考えを真だと受け入れることへの慎重さに焦点があり、人の悪意を必ずしも想定しない。"
+      },
+      "severity": "blocking",
+      "rationale": "The linked C-FRAMES facts F-OUP-6 and F-MW-4 support usage patterns and examples; the linked C-DISTRUST facts F-OUP-3, F-MW-2, and F-AHD-3 support general doubt or distrust senses. Those recorded fact links do not directly support the target's comparative distinctions among distrust, mistrust, suspicion, and skepticism, including the claim about assumptions of bad intent. The inaccessible AHD locator also leaves F-AHD-3 unverified. Evidence for these distinctions is insufficient under the target's two-sources-or-primary policy.",
+      "evidence_link_ids": ["C-FRAMES", "C-DISTRUST", "F-OUP-6", "F-MW-4", "F-OUP-3", "F-MW-2", "F-AHD-3"],
+      "suggested_direction": "Remove or narrow the comparative distinctions, or hold them until directly supporting recorded links meet the required evidence threshold."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃語源",
+        "line_start": 8,
+        "line_end": 8,
+        "exact_quote": "suspicion は中英語を経て、アングロフランス語・古フランス語からラテン語系の形へさかのぼる。辞書によってラテン語形は suspicio、suspectio、suspectio(n-) と記され、中継経路の説明にも差がある。Merriam-Webster は suspicere「疑う」に由来すると説明している。suspect は同じラテン語動詞に歴史的に結びつく。"
+      },
+      "severity": "blocking",
+      "rationale": "The linked fact F-MW-6 traces the English noun suspicion to Latin suspicere, glossed ‘to suspect’; it does not directly establish the etymology of the separate English lexeme suspect as sharing that origin. C-SUSPECT-FAMILY links only that one MW fact, so the word-family assertion is not directly supported by the recorded link and lacks the target's required two sources or primary evidence.",
+      "evidence_link_ids": ["C-SUSPECT-FAMILY", "F-MW-6"],
+      "suggested_direction": "Remove the suspect-family assertion or hold it until a recorded direct etymology source for suspect supports the connection."
+    }
+  ]
+}

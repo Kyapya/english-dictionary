@@ -1,0 +1,25 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "sense-structure",
+  "findings": [
+    {
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "core_image",
+        "line_start": 30,
+        "line_end": 30,
+        "exact_quote": "学習上の目印は「疑いの対象」で用法を区別すること。語義1は人が不正をした可能性、語義2は命題が真実かもしれないという推測、語義3は人・物事への不信や警戒を表す。語義4の a suspicion of a smile / truth は「かすかな兆し・ごく少量」の別の比喩用法として覚える。この整理は学習上の目安で、全用法が一つの語源的意味を共有するという主張ではない。  "
+      },
+      "severity": "blocking",
+      "rationale": "提示された定義では語義1も語義2も、確証のない段階で命題が真である可能性を考える疑いとして読める。コアイメージが示す両義の境界は、疑いの対象が犯罪・不正か、それ以外の命題かという対象の違いに置かれている。独立した中心意味、構文、結果状態などの差は示されておらず、仕様が警戒する対象種類だけによる過剰分割に当たる可能性が高い。語義1を一般的な命題への疑いの具体例・定型語法として統合するか、独立語義を立てる意味的または構文的根拠を明示する必要がある。",
+      "evidence_link_ids": [],
+      "suggested_direction": "語義1と2を統合し、犯罪・不正への疑いは用例または定型語法として示す。別語義を維持する場合は、対象の違い以外の意味・構文上の境界を明示する。"
+    }
+  ],
+  "reviewer": {
+    "agent_id": "/root/round6_sense_structure",
+    "declared_model": "GPT-6",
+    "mode": "handoff",
+    "ingested_by": "human"
+  }
+}

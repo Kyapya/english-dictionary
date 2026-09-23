@@ -1,0 +1,119 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "recorded_at": "2026-09-23T13:39:47+00:00",
+  "input_body_sha256": "13559d31b050882ff1d24890c8d22914c8f87e20f0ddb0e509e2a8178469bd82",
+  "blind_request_sha256": "4e360884b19ca830b1b00efaba122f132dc5cd2ff3b66cb784284f1fa4827d13",
+  "reviewer": {
+    "agent_id": "/root/round11_example_retry",
+    "declared_model": "GPT-6",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "attributions": [
+    {
+      "example_id": "ex-9f984baaf876",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "aroused residents' suspicions",
+        "that officials had concealed the project's true cost"
+      ],
+      "rationale": "The that-clause supplies the proposition residents suspect may be true, which is sense:001. A plausible competitor is sense:002, a wary attitude toward the officials or policy; the sentence instead gives the suspicion explicit propositional content through ‘that officials had concealed …’. Sense:003, a faint trace, does not fit the plural suspicions with a that-clause."
+    },
+    {
+      "example_id": "ex-d8608a3c86ab",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "raised some suspicion",
+        "that several invoices had been altered"
+      ],
+      "rationale": "The that-clause states the suspected proposition that invoices may have been altered, matching sense:001. Sense:002 could describe auditors’ distrust, but the head noun here takes explicit propositional content rather than describing how they regard a target. Sense:003 does not fit this belief-about-an-event construction."
+    },
+    {
+      "example_id": "ex-95a6ceafa529",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "had a suspicion",
+        "that the cashier had altered the sales records"
+      ],
+      "rationale": "The that-clause is the content of the manager’s suspicion: a proposition about possible alteration, so sense:001 is the natural reading. Sense:002 would be a distrustful attitude toward the cashier, but the sentence directly expresses a belief about whether an event occurred. Sense:003 is incompatible with the clause’s propositional content."
+    },
+    {
+      "example_id": "ex-a876117eef6a",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "remained under suspicion",
+        "whether it had falsified invoices"
+      ],
+      "rationale": "‘Remain under suspicion’ presents the contractor as potentially responsible for wrongdoing, and the whether-clause identifies the proposition investigators are checking; this is sense:001. Sense:002 would describe a general wary attitude toward the contractor, whereas the sentence frames a specific possible offense. The faint-trace sense:003 is not licensed by this construction."
+    },
+    {
+      "example_id": "ex-0782305b7d28",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "a suspicion of truth in it"
+      ],
+      "rationale": "‘A suspicion of truth in it’ means a slight element or hint of truth present in the tale, the trace reading in sense:003. Sense:001 is a plausible competitor because suspicion can concern whether something is true, but that reading would take a proposition as its content (for example, suspicion that the tale was true); here ‘of truth in it’ presents truth as a small component within the tale. Sense:002’s distrustful stance is also absent."
+    },
+    {
+      "example_id": "ex-9e7134e27c9f",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "a suspicion of a smile"
+      ],
+      "rationale": "The partitive-like ‘of a smile’ construction means that only a faint trace of a smile was perceptible, matching sense:003. Sense:001 would express a proposition suspected to be true, normally as ‘suspicion that she smiled’; the sentence instead treats the smile as a barely present quality. Sense:002 does not describe distrust toward a person or thing here."
+    },
+    {
+      "example_id": "ex-e66631bea145",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "regarded the sudden policy change with suspicion"
+      ],
+      "rationale": "In ‘regarded X with suspicion’, the noun names the residents’ wary attitude toward the policy change, which is sense:002. Sense:001 would require a proposition they think may be true; this sentence instead uses suspicion as the manner or stance of regarding X and states no suspected proposition. Sense:003’s faint trace reading does not fit this frame."
+    },
+    {
+      "example_id": "ex-a33fa4d8f986",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "arrested on suspicion of fraud"
+      ],
+      "rationale": "‘Arrested on suspicion of fraud’ uses suspicion as the unconfirmed belief that the people may have committed a specified offense, matching sense:001. Sense:002’s general distrust or caution toward them would not express the stated possible crime that forms the basis of the arrest. Sense:003, a trace or small amount, is not compatible with this construction."
+    },
+    {
+      "example_id": "ex-4cbcb52e28fb",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "had a suspicion",
+        "that the meeting had been canceled"
+      ],
+      "rationale": "The that-clause supplies the proposition the speaker thinks may be true, a direct instance of sense:001. Sense:002 would be a wary attitude toward the meeting or its organizers, but the sentence gives a specific belief-content rather than a stance toward an object. Sense:003 does not fit a suspicion with propositional content."
+    }
+  ]
+}

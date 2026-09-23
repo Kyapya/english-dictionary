@@ -1,0 +1,26 @@
+{
+  "reviewer_agent_id": "/root/round9_evidence",
+  "declared_model": "GPT-6",
+  "mode": "handoff",
+  "ingested_by": "human",
+  "request_sha256": "dc6e415db9fb5c6b0a1fbadafdff0ee0e0ba4efeb1fb582248d528fa579ae13e",
+  "input_body_sha256": "4ab0d5d71a7c1f54616c6e43ea3bd1cf78edf3d0d530028f0398efd73951f200",
+  "normalized_input_sha256": "617921f77a818a5e270c40b2ff469807fdf657752ee81231299a7b17b0a0062d",
+  "specification_sha256": "f0de393d4d064190e23916b2e8bfda25b2b83fd29e14cf52395c894b8539d7e9",
+  "source_artifact_sha256": "e90fd78ac088d2024598beed6ae0af6133d299beb74c373437b548466fce7266",
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 33,
+        "line_end": 33,
+        "exact_quote": "raise some suspicion among 〈people〉 that 〈clause〉＝〈人々〉の間に～ではないかという疑いを生じさせる"
+      },
+      "severity": "blocking",
+      "rationale": "本文は `raise some suspicion among 〈people〉 that 〈clause〉` という完全フレームを登録し、例もその形を使っています（article_targets `grammar_pattern:004` と `collocation:006`）。ただし固定fact `F-MW-4` が引用する Merriam-Webster の例 “His story has raised some suspicion.” は `raise some suspicion` までしか示さず、`among 〈people〉` と that 節補部を示していません。同辞書の “The note aroused her suspicions that ...” は別の arouse 構文です。Oxford の確認した locator も `suspicion that`、`on suspicion of`、`under suspicion` 等を示しますが、この拡張した raise 構文は示していません。したがって既存根拠はこの完全フレームを直接支えません。",
+      "evidence_link_ids": [],
+      "suggested_direction": "主張を `raise some suspicion` までに限定するか、`among 〈people〉 that 〈clause〉` を含む完全形を直接示す根拠へ差し替えるまで保留する。"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "e610984e4ee840d69032be28e4e55257a14bebd434e6d3f13ba11b959ecafa79",
+  "stage2_request_sha256": "60449417b9101606da3cd1ac4d10edf93f003850a9fc39922da1d12cf8d1bc1f",
+  "blind_record_sha256": "e00e3dac600b1944e4ed251bedf3904e57290a28f3d405b483a5d9057eeb68e1",
+  "reviewer": {
+    "agent_id": "/root/round8_frame_relation",
+    "declared_model": "GPT-6",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "adjudications": [],
+  "frame_findings": [
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 91,
+        "line_end": 91,
+        "exact_quote": "・arouse suspicions  "
+      },
+      "severity": "minor",
+      "rationale": "対応する例文（93行目）は aroused suspicions among residents と経験者を among 句で示すが、文法パターン（87行目）は arouse someone’s suspicions という所有格構文のみを示す。例文の完全フレームにおける経験者の別の実現が明示されていない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "arouse suspicions among 〈people〉を文法パターンに加え、所有格構文との対応を示す。"
+    },
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 96,
+        "line_end": 96,
+        "exact_quote": "・raise some suspicion  "
+      },
+      "severity": "minor",
+      "rationale": "対応する例文（98行目）は raised some suspicion among auditors と経験者を among 句で示すが、文法パターン（87行目）は raise some suspicion までで、この経験者の実現を示さない。例文の完全フレームを明示するとパターンと例文が対応する。",
+      "evidence_link_ids": [],
+      "suggested_direction": "raise some suspicion among 〈people〉を文法パターンに加える。"
+    }
+  ],
+  "unrouted_observations": []
+}

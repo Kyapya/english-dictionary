@@ -1,0 +1,28 @@
+{
+  "schema_version": "check_pass_output_v6",
+  "pass_id": "translation",
+  "input_body_sha256": "e610984e4ee840d69032be28e4e55257a14bebd434e6d3f13ba11b959ecafa79",
+  "request_digest": "ad1a5b45722cd818820a87bfb6a2b3476e0e87f74378d6639db8182fa458d577",
+  "reviewer": {
+    "agent_id": "/root/round8_translation",
+    "declared_model": "GPT-6",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 94,
+        "line_end": 94,
+        "exact_quote": "訳: 突然の方針転換で住民たちの疑念が高まり、当局の説明を信頼しなくなった。  "
+      },
+      "severity": "blocking",
+      "rationale": "「aroused suspicions」は、方針転換が住民の疑念を生じさせたことを表す。「疑念が高まり」は既にあった疑念が強まったことを含意し、疑念が生じたという原文にない前提を加えている。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「住民たちの疑念を招いた」「疑念を呼び起こした」など、疑念が生じたことを表す訳にする。"
+    }
+  ],
+  "status": "blocking"
+}

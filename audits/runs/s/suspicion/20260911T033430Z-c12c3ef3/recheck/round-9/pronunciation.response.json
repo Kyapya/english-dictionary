@@ -1,0 +1,26 @@
+{
+  "reviewer_agent_id": "/root/round9_pronunciation",
+  "declared_model": "GPT-6",
+  "mode": "handoff",
+  "ingested_by": "human",
+  "request_sha256": "fa67e2802bcbfb815114bd722f40b841f8f5c7a07258e10a7f441ec663f8a5f3",
+  "input_body_sha256": "4ab0d5d71a7c1f54616c6e43ea3bd1cf78edf3d0d530028f0398efd73951f200",
+  "specification_sha256": "7e3e94267ac9f917c901c12580b91e570b5989df7adfbf2a39b833478c766d8a",
+  "source_artifact_sha256": "e90fd78ac088d2024598beed6ae0af6133d299beb74c373437b548466fce7266",
+  "normalized_input_sha256": "0ef29c95e58d9d9a542caa03a61c36787c136056342ebef9a19c6a14c52c2a5e",
+  "findings": [
+    {
+      "taxonomy_id": "pronunciation_symbol_explanation",
+      "location": {
+        "section": "pronunciation",
+        "line_start": 15,
+        "line_end": 15,
+        "exact_quote": "米: Oxford の米語IPAは /səˈspɪʃn/。Merriam-Webster は sus·pi·cion と3音節に区切り、第2音節に主強勢を示す。両辞書で表記形式が異なる。  "
+      },
+      "severity": "blocking",
+      "rationale": "Oxford の /səˈspɪʃn/ は通常のIPA読解では /ə/ と /ɪ/ の二つの母音核だけを示し、末尾 /n/ に音節主音の印もありません。一方、Merriam-Webster の sus·pi·cion は3音節です。したがって、差はIPAと発音綴りという表記形式だけではなく、末尾の音節の表し方にもあります。文はその差を説明しておらず、Oxford表記を3音節として読む独自規約がある場合も特定していません。",
+      "evidence_link_ids": [],
+      "suggested_direction": "Oxford の末尾 /n/ を音節主音として読む規約を明記するか、3音節を明示するIPA表記に改め、Merriam-Webster との音節差があるならそれも説明してください。"
+    }
+  ]
+}

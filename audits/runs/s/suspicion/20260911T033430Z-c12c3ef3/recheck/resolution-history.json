@@ -1,0 +1,461 @@
+{
+  "schema_version": "checker_recheck_resolution_history_v1",
+  "headword": "suspicion",
+  "recheck_rounds_included": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "final_revised_body_sha256": "0624a39cf913ee88d57951e47767a805d75ce78d1509b037150f5049d141c975",
+  "findings": [
+    {
+      "id": "CHK-pronunciation-87a904aacb7e603c",
+      "round": 1,
+      "pass_id": "pronunciation",
+      "input_body_sha256": "03815e046214b7ac013164253f4b3350f326787af55129a907fd779e8fefc3b4",
+      "source_artifact": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/pronunciation.response.json",
+      "source_artifact_sha256": "194a4c5f14d07c8c4c24ef919e45e252208b810844e88a6fd7d4bf8890bf7033",
+      "finding": {
+        "taxonomy_id": "pronunciation_symbol_explanation",
+        "location": {
+          "section": "pronunciation",
+          "line_start": 15,
+          "line_end": 15,
+          "exact_quote": "米: /səˈspɪʃn/。Merriam-Webster の音節区切りでは3音節で、第2音節に主強勢がある。  "
+        },
+        "severity": "blocking",
+        "rationale": "提示されたIPAには母音核が2つ（/ə/ と /ɪ/）しかなく、末尾の /ʃn/ は記号上は子音連続で、音節主音の指定もありません。したがって転写は3音節という説明を裏付けず、末尾の音節が欠落しています。",
+        "evidence_link_ids": [],
+        "suggested_direction": "末尾の弱音節を表すIPAを補う（または明示的に音節主音を表記する）か、転写と整合するよう音節説明を修正してください。"
+      },
+      "status": "resolved",
+      "disposition": "adopted",
+      "resolution_rationale": "Separated Oxford IPA and Merriam-Webster’s distinct syllabification/stress notation; the current article now reports both source formats explicitly."
+    },
+    {
+      "id": "CHK-evidence-3699bd7b992378ec",
+      "round": 1,
+      "pass_id": "evidence",
+      "input_body_sha256": "03815e046214b7ac013164253f4b3350f326787af55129a907fd779e8fefc3b4",
+      "source_artifact": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/evidence.response.json",
+      "source_artifact_sha256": "184a98e8fa6698c62813666ad8cc4835b98f625c464b4d853119f6ce806b7dc8",
+      "finding": {
+        "taxonomy_id": "evidence_claim_mismatch",
+        "location": {
+          "section": "＃コアイメージ",
+          "line_start": 18,
+          "line_end": 18,
+          "exact_quote": "suspicion の共通核は、確かな証拠や明瞭な現れに至らない段階で、手掛かりから何かがある・そうであると感じ取ること。"
+        },
+        "severity": "blocking",
+        "rationale": "The opened Oxford, Merriam-Webster, and Etymonline entries list distinct uses for suspecting wrongdoing, distrust or doubt, and a small amount or hint. None directly states that these separate uses share the asserted common conceptual kernel of detecting something from clues before clear evidence or a clear appearance. The linked facts support the separate senses, not this unifying interpretation; evidence for this claim is insufficient.",
+        "evidence_link_ids": [
+          "C-CORE-IMAGE",
+          "F-OUP-1",
+          "F-MW-1",
+          "F-AHD-1",
+          "F-OUP-4",
+          "F-MW-3",
+          "F-AHD-4"
+        ],
+        "suggested_direction": "Present the senses as separate related uses, or hold the shared-core claim until a linked source directly supports it."
+      },
+      "status": "resolved",
+      "disposition": "adopted",
+      "resolution_rationale": "Removed the unsupported shared core-image statement."
+    },
+    {
+      "id": "CHK-evidence-bb43a7188e0a9081",
+      "round": 1,
+      "pass_id": "evidence",
+      "input_body_sha256": "03815e046214b7ac013164253f4b3350f326787af55129a907fd779e8fefc3b4",
+      "source_artifact": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/evidence.response.json",
+      "source_artifact_sha256": "184a98e8fa6698c62813666ad8cc4835b98f625c464b4d853119f6ce806b7dc8",
+      "finding": {
+        "taxonomy_id": "evidence_claim_mismatch",
+        "location": {
+          "section": "＃意味・用法・関連表現",
+          "line_start": 27,
+          "line_end": 27,
+          "exact_quote": "人が犯罪、不正、不誠実な行為などをした可能性があると、十分な証明がない段階で考えること、またはその疑いを向けられている状態を表す。個々の疑いを数えるときは可算、疑いという状態・雰囲気をまとめて述べるときは不可算で使われる。"
+        },
+        "severity": "blocking",
+        "rationale": "The supplied F-OUP-1 and F-MW-1 facts directly support an evidence-limited act or belief about wrongdoing and countable/uncountable use, but they do not directly support the separate passive-state subclaim, ‘the state of being suspected.’ The only supplied fact for that subclaim is F-AHD-2, whose recorded locator https://www.ahdictionary.com/word/search.html?q=suspicion returned as inaccessible and could not be checked. This subclaim therefore has insufficient evidence from the recorded links.",
+        "evidence_link_ids": [
+          "C-GUILT",
+          "F-AHD-2",
+          "F-MW-1",
+          "F-OUP-1"
+        ],
+        "suggested_direction": "Remove the passive-state subclaim or hold it until its recorded locator can be verified or a directly supporting accessible link is supplied."
+      },
+      "status": "resolved",
+      "disposition": "adopted",
+      "resolution_rationale": "Removed the unsupported subclaim that suspicion denotes a state of being suspected."
+    },
+    {
+      "id": "CHK-evidence-08f808ce394ad44e",
+      "round": 1,
+      "pass_id": "evidence",
+      "input_body_sha256": "03815e046214b7ac013164253f4b3350f326787af55129a907fd779e8fefc3b4",
+      "source_artifact": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/evidence.response.json",
+      "source_artifact_sha256": "184a98e8fa6698c62813666ad8cc4835b98f625c464b4d853119f6ce806b7dc8",
+      "finding": {
+        "taxonomy_id": "evidence_claim_mismatch",
+        "location": {
+          "section": "＃意味・用法・関連表現",
+          "line_start": 33,
+          "line_end": 33,
+          "exact_quote": "arouse/raise suspicion of 〈crime/wrongdoing〉＝〈犯罪・不正〉の疑いを招く"
+        },
+        "severity": "blocking",
+        "rationale": "The opened Merriam-Webster examples attest arouse suspicion and raise suspicion, while the Oxford entry separately records suspicion of + noun. Neither supplied fact directly attests the complete combined frame arouse/raise suspicion of a crime or wrongdoing. The link policy for this frame is one source, so evidence for the complete construction is insufficient.",
+        "evidence_link_ids": [
+          "C-FRAMES",
+          "F-MW-4",
+          "F-OUP-6"
+        ],
+        "suggested_direction": "Limit the frame to the separately attested constructions or hold the combined frame until one recorded source directly supports it."
+      },
+      "status": "resolved",
+      "disposition": "adopted",
+      "resolution_rationale": "Removed the unsupported combined arouse/raise suspicion of crime/wrongdoing frame."
+    },
+    {
+      "id": "CHK-evidence-271c96143cb61068",
+      "round": 1,
+      "pass_id": "evidence",
+      "input_body_sha256": "03815e046214b7ac013164253f4b3350f326787af55129a907fd779e8fefc3b4",
+      "source_artifact": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/evidence.response.json",
+      "source_artifact_sha256": "184a98e8fa6698c62813666ad8cc4835b98f625c464b4d853119f6ce806b7dc8",
+      "finding": {
+        "taxonomy_id": "evidence_claim_mismatch",
+        "location": {
+          "section": "＃意味・用法・関連表現",
+          "line_start": 90,
+          "line_end": 93,
+          "exact_quote": "・suspicion about 〈person's motives〉\n用途: 特定の人や組織の動機を信用できないと感じることを表す。\n例: Years of secrecy fueled residents' suspicions about the agency's motives.\n訳: 長年にわたる秘密主義によって、住民たちはその機関の動機を疑うようになった。"
+        },
+        "severity": "blocking",
+        "rationale": "Merriam-Webster F-MW-4 directly attests the about-motives construction, but the opened Oxford locator records other patterns and does not directly attest this frame. This target requires two independent sources or a directly applicable primary source; only one supplied locator directly supports the complete frame, so the required evidence threshold is unmet.",
+        "evidence_link_ids": [
+          "C-FRAMES",
+          "F-MW-4",
+          "F-OUP-6"
+        ],
+        "suggested_direction": "Hold this high-threshold collocation until a second independent direct source or primary usage source supports it."
+      },
+      "status": "resolved",
+      "disposition": "adopted",
+      "resolution_rationale": "Removed the unsupported about-motives frame and example."
+    },
+    {
+      "id": "CHK-evidence-c6c09078882e73b3",
+      "round": 1,
+      "pass_id": "evidence",
+      "input_body_sha256": "03815e046214b7ac013164253f4b3350f326787af55129a907fd779e8fefc3b4",
+      "source_artifact": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/evidence.response.json",
+      "source_artifact_sha256": "184a98e8fa6698c62813666ad8cc4835b98f625c464b4d853119f6ce806b7dc8",
+      "finding": {
+        "taxonomy_id": "evidence_claim_mismatch",
+        "location": {
+          "section": "＃意味・用法・関連表現",
+          "line_start": 95,
+          "line_end": 95,
+          "exact_quote": "with suspicion は「疑いの目で、信用しきれずに」という態度を表す。suspicion of fraud の of は疑われている犯罪を示し、suspicion about someone's motives の about は不信の対象となる動機を示す。distrust / mistrust は信用の欠如をより直接的に表し、suspicion は疑いの目で見る態度を含む。skepticism は主張・考えを真だと受け入れることへの慎重さに焦点があり、人の悪意を必ずしも想定しない。"
+        },
+        "severity": "blocking",
+        "rationale": "The linked C-FRAMES facts F-OUP-6 and F-MW-4 support usage patterns and examples; the linked C-DISTRUST facts F-OUP-3, F-MW-2, and F-AHD-3 support general doubt or distrust senses. Those recorded fact links do not directly support the target's comparative distinctions among distrust, mistrust, suspicion, and skepticism, including the claim about assumptions of bad intent. The inaccessible AHD locator also leaves F-AHD-3 unverified. Evidence for these distinctions is insufficient under the target's two-sources-or-primary policy.",
+        "evidence_link_ids": [
+          "C-FRAMES",
+          "C-DISTRUST",
+          "F-OUP-6",
+          "F-MW-4",
+          "F-OUP-3",
+          "F-MW-2",
+          "F-AHD-3"
+        ],
+        "suggested_direction": "Remove or narrow the comparative distinctions, or hold them until directly supporting recorded links meet the required evidence threshold."
+      },
+      "status": "resolved",
+      "disposition": "adopted",
+      "resolution_rationale": "Removed the unsupported comparative distrust/mistrust/skepticism note and narrowed the usage note to the attested with-suspicion attitude."
+    },
+    {
+      "id": "CHK-evidence-439dffbc99ffaee5",
+      "round": 1,
+      "pass_id": "evidence",
+      "input_body_sha256": "03815e046214b7ac013164253f4b3350f326787af55129a907fd779e8fefc3b4",
+      "source_artifact": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/evidence.response.json",
+      "source_artifact_sha256": "184a98e8fa6698c62813666ad8cc4835b98f625c464b4d853119f6ce806b7dc8",
+      "finding": {
+        "taxonomy_id": "evidence_claim_mismatch",
+        "location": {
+          "section": "＃語源",
+          "line_start": 8,
+          "line_end": 8,
+          "exact_quote": "suspicion は中英語を経て、アングロフランス語・古フランス語からラテン語系の形へさかのぼる。辞書によってラテン語形は suspicio、suspectio、suspectio(n-) と記され、中継経路の説明にも差がある。Merriam-Webster は suspicere「疑う」に由来すると説明している。suspect は同じラテン語動詞に歴史的に結びつく。"
+        },
+        "severity": "blocking",
+        "rationale": "The linked fact F-MW-6 traces the English noun suspicion to Latin suspicere, glossed ‘to suspect’; it does not directly establish the etymology of the separate English lexeme suspect as sharing that origin. C-SUSPECT-FAMILY links only that one MW fact, so the word-family assertion is not directly supported by the recorded link and lacks the target's required two sources or primary evidence.",
+        "evidence_link_ids": [
+          "C-SUSPECT-FAMILY",
+          "F-MW-6"
+        ],
+        "suggested_direction": "Remove the suspect-family assertion or hold it until a recorded direct etymology source for suspect supports the connection."
+      },
+      "status": "resolved",
+      "disposition": "adopted",
+      "resolution_rationale": "Removed the unsupported suspect-family etymology assertion."
+    },
+    {
+      "id": "CHK-frame-relation-11c1cd852fd12df5",
+      "round": 1,
+      "pass_id": "frame-relation",
+      "input_body_sha256": "03815e046214b7ac013164253f4b3350f326787af55129a907fd779e8fefc3b4",
+      "source_artifact": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/frame-relation.output.json",
+      "source_artifact_sha256": "5ff07854b978b6ed691c0554bbac9f85d4a9ad8f4772601e28f9b4256cdd2cef",
+      "finding": {
+        "taxonomy_id": "argument_slot_role_mismatch",
+        "location": {
+          "section": "collocations_examples",
+          "line_start": 96,
+          "line_end": 96,
+          "exact_quote": "・regard 〈person/claim〉 with suspicion  "
+        },
+        "severity": "minor",
+        "rationale": "The stated target types are person/claim, but the associated example at line 98 realizes the target as “the sudden policy change,” a decision or measure. Broaden the target role to cover policies/actions or use an example within the stated types.",
+        "evidence_link_ids": [],
+        "suggested_direction": "完全フレーム化: include policy/action targets in the role, or align the example with person/claim."
+      },
+      "status": "resolved",
+      "disposition": "adopted",
+      "resolution_rationale": "Broadened the frame slot to person/thing so it covers the policy-change example."
+    },
+    {
+      "id": "CHK-frame-relation-1a9523bc57fb88b4",
+      "round": 1,
+      "pass_id": "frame-relation",
+      "input_body_sha256": "03815e046214b7ac013164253f4b3350f326787af55129a907fd779e8fefc3b4",
+      "source_artifact": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/frame-relation.output.json",
+      "source_artifact_sha256": "5ff07854b978b6ed691c0554bbac9f85d4a9ad8f4772601e28f9b4256cdd2cef",
+      "finding": {
+        "taxonomy_id": "argument_slot_role_mismatch",
+        "location": {
+          "section": "frames",
+          "line_start": 92,
+          "line_end": 92,
+          "exact_quote": "【文法パターン】regard 〈person/claim〉 with suspicion＝〈人・主張〉を疑いの目で見る／suspicion about 〈person's motives〉＝〈人〉の動機への不信。  "
+        },
+        "severity": "minor",
+        "rationale": "The second frame and its gloss restrict the possessor to a person, while line 102 describes the use with a person or organization and line 103 exemplifies “the agency’s motives.” Update the semantic slot and gloss to include organizations.",
+        "evidence_link_ids": [],
+        "suggested_direction": "完全フレーム化: include organization motives in the slot and gloss."
+      },
+      "status": "resolved",
+      "disposition": "adopted",
+      "resolution_rationale": "Removed the unsupported about-motives construction and example."
+    },
+    {
+      "id": "CHK-evidence-473ed039d62163aa",
+      "round": 2,
+      "pass_id": "evidence",
+      "input_body_sha256": "efa27069dbe117dc37e26978455d0832cd582655ef3ff0aaaf9f6ed68ed6bf74",
+      "source_artifact": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-2/evidence.response.json",
+      "source_artifact_sha256": "7f1bb45a9c581202c3e4474059fbaae6e3590c386aae0dbe17fa44986049dd31",
+      "finding": {
+        "taxonomy_id": "evidence_claim_mismatch",
+        "location": {
+          "section": "frames",
+          "line_start": 37,
+          "line_end": 37,
+          "exact_quote": "suspicion of 〈crime/wrongdoing〉＝〈犯罪・不正〉の疑い"
+        },
+        "severity": "blocking",
+        "rationale": "リンク先のOxford米語ページで確認できる犯罪用例は “He was arrested on suspicion of murder.”（on suspicion of）で、英語版の bare “suspicion of something” は sense 4 の「small amount」の用法です。リンクされたMW例群も motives、that節、with suspicion 等を示しますが、犯罪・不正を bare of 補部に取る用例ではありません。したがって F-OUP-6 / F-MW-4 のリンク内容は、この対象フレームを直接支えていません。",
+        "evidence_link_ids": [
+          "C-FRAMES",
+          "F-OUP-6",
+          "F-MW-4"
+        ],
+        "suggested_direction": "根拠が直接示す on suspicion of 〈crime〉に主張を限定するか、bare suspicion of 〈crime/wrongdoing〉を示す直接の出典・リンクに差し替えてください。"
+      },
+      "status": "resolved",
+      "disposition": "adopted",
+      "resolution_rationale": "Removed bare suspicion of crime/wrongdoing; retained source-supported suspicion that and on suspicion of as separate constructions."
+    },
+    {
+      "id": "CHK-evidence-c0b81a8871e623eb",
+      "round": 2,
+      "pass_id": "evidence",
+      "input_body_sha256": "efa27069dbe117dc37e26978455d0832cd582655ef3ff0aaaf9f6ed68ed6bf74",
+      "source_artifact": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-2/evidence.response.json",
+      "source_artifact_sha256": "7f1bb45a9c581202c3e4474059fbaae6e3590c386aae0dbe17fa44986049dd31",
+      "finding": {
+        "taxonomy_id": "evidence_claim_mismatch",
+        "location": {
+          "section": "frames",
+          "line_start": 37,
+          "line_end": 37,
+          "exact_quote": "confirm suspicions that 〈節〉＝～という疑いを裏付ける。"
+        },
+        "severity": "blocking",
+        "rationale": "リンク先ではMWが “There has long been a suspicion that the painting is a fake” と “my suspicions were confirmed by the lab tests” を別々に示し、Oxfordも suspicion that 節と “My suspicions were confirmed when the police raided the property” を別々に示します。確認した資料の例に confirm suspicions that + 節という完全フレームはありません。別々に示された疑いのthat節と確認表現だけでは、この合成フレームを直接裏付けません。",
+        "evidence_link_ids": [
+          "C-FRAMES",
+          "F-OUP-6",
+          "F-MW-4"
+        ],
+        "suggested_direction": "confirm suspicions that + 節を直接示す辞書例へ根拠リンクを差し替えるか、完全フレームの裏付けが得られるまでこの組み合わせを保留してください。"
+      },
+      "status": "resolved",
+      "disposition": "adopted",
+      "resolution_rationale": "Removed confirm suspicions that as a combined frame; replaced its example with a direct suspicion that construction."
+    },
+    {
+      "id": "CHK-example-attribution-68b58294e5961967",
+      "round": 2,
+      "pass_id": "example-attribution",
+      "input_body_sha256": "efa27069dbe117dc37e26978455d0832cd582655ef3ff0aaaf9f6ed68ed6bf74",
+      "source_artifact": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-2/example-attribution.output.json",
+      "source_artifact_sha256": "d5222e6fbf6e6cd14df93acfa9fcdb9fc09f4a7cad5c0b73f5f765f7c9234e52",
+      "finding": {
+        "taxonomy_id": "example_sense_attribution_mismatch",
+        "location": {
+          "section": "collocations_examples",
+          "line_start": 43,
+          "line_end": 43,
+          "exact_quote": "例: The unexplained transfer led to a fraud inquiry and aroused suspicion among the auditors.  "
+        },
+        "severity": "blocking",
+        "rationale": "段階1でsense:001, sense:002が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
+        "evidence_link_ids": [],
+        "suggested_direction": "判別語の追加"
+      },
+      "status": "resolved",
+      "disposition": "adopted",
+      "resolution_rationale": "Moved arouse suspicions to the distrust sense and replaced the ambiguous fraud-inquiry example with an example that explicitly describes distrust of an explanation."
+    },
+    {
+      "id": "CHK-pronunciation-386fb24cb32d696a",
+      "round": 3,
+      "pass_id": "pronunciation",
+      "input_body_sha256": "1b415813c2db7ff30979180a837de0083064f323ec93754352338967ab94d224",
+      "source_artifact": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-3/pronunciation.response.json",
+      "source_artifact_sha256": "cdb30c88f82f83ae2f7b1ea8a31f62f9fd76cc2c02b443eacad46f3779b18eea",
+      "finding": {
+        "taxonomy_id": "pronunciation_symbol_explanation",
+        "location": {
+          "section": "pronunciation",
+          "line_start": 15,
+          "line_end": 15,
+          "exact_quote": "米: Oxford の IPA 表記は /səˈspɪʃn/。Merriam-Webster は別表記で sus·pi·cion と3音節に区切り、第2音節に主強勢を示す。"
+        },
+        "severity": "blocking",
+        "rationale": "`/səˈspɪʃn/`には `/ʃ/` の後の母音も音節主音記号もなく、表示上は語末の弱い音節を表していません。一方、引用された `sus·pi·cion` は綴りの音節区切りで、強勢位置を示す記号がありません。この行はそれを3音節の発音表記として扱い、第2音節の主強勢を示すと述べていますが、音節・強勢をOxfordのIPAに対応させず、語末弱音節の有無が発音差なのか転写上の違いなのかも説明していません。",
+        "evidence_link_ids": [],
+        "suggested_direction": "sus·pi·cionが綴り上の音節区切りであることを明記し、発音上の音節・強勢を主張するならMerriam-Websterの強勢記号付き発音表記を示してください。あわせてOxford表記の/ʃn/と語末の弱音節の関係を説明してください。"
+      },
+      "status": "resolved",
+      "disposition": "adopted",
+      "resolution_rationale": "Clarified that sus·pi·cion is Merriam-Webster’s spelling division and added its stress-marked pronunciation respelling /sə-ˈspi-shən/, distinguishing it from Oxford’s /ʃn/ notation."
+    },
+    {
+      "id": "CHK-frame-relation-9c684298d2c463a4",
+      "round": 3,
+      "pass_id": "frame-relation",
+      "input_body_sha256": "1b415813c2db7ff30979180a837de0083064f323ec93754352338967ab94d224",
+      "source_artifact": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-3/frame-relation.output.json",
+      "source_artifact_sha256": "bfad80b64fa323a5ee281b8629ea9a4a6b52531bdbf87c93e29635714b787154",
+      "finding": {
+        "taxonomy_id": "lexical_relation_mislabel",
+        "location": {
+          "section": "lexical_relations",
+          "line_start": 96,
+          "line_end": 96,
+          "exact_quote": "違い: suspicion のこの語義で近い意味を表す語として辞書にも挙げられる。  "
+        },
+        "severity": "minor",
+        "rationale": "この語義の類義語として distrust を挙げること自体は妥当だが、引用行は辞書上の類義語であることを述べるだけで、両語の具体的な意味差を示していない。仕様は類義語に強度・対象・結果・意図性・評価・フォーマル度などの具体軸で差を示すよう求めている。",
+        "evidence_link_ids": [],
+        "suggested_direction": "suspicion と distrust の適用範囲や警戒の含意など、具体的な対照軸を一つ示して差を記載する。"
+      },
+      "status": "resolved",
+      "disposition": "adopted",
+      "resolution_rationale": "Rewrote the distrust synonym difference to give a concrete contrast in semantic focus: lack of trust versus doubt and wariness directed at a target."
+    },
+    {
+      "id": "CHK-sense-structure-c2bbfbb5ff53bdcd",
+      "round": 4,
+      "pass_id": "sense-structure",
+      "input_body_sha256": "7f899f724028a817f1d04b2e910908b67dd914b63ebb42af2cac8cc43c7627f0",
+      "source_artifact": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-4/sense-structure.response.json",
+      "source_artifact_sha256": "039c42f3de4eb554ea428b7c12546cf959be59f0787623c90c971d679d1c87a3",
+      "finding": {
+        "taxonomy_id": "sense_boundary_overlap",
+        "location": {
+          "section": "sense_structure",
+          "line_start": 31,
+          "line_end": 31,
+          "exact_quote": "【日本語訳・定義】人が犯罪・不正をした可能性があると、十分な証明がない段階で考えることを表す。"
+        },
+        "severity": "blocking",
+        "rationale": "語義1は犯罪・不正を疑う用法に限定され、語義2は対象への不信・警戒という態度を表すため、犯罪や不信を含意せず命題が真かもしれないと考える一般的な可算用法 (a suspicion that the meeting was canceled) の収録先がありません。この用法は語義3の「ごく少量／かすかな兆候」とも異なり、主要語義の欠落です。",
+        "evidence_link_ids": [],
+        "suggested_direction": "非犯罪的な「～かもしれないという疑い／予感」を独立義として追加するか、語義1の定義を一般的な推測まで広げ、犯罪・不正を典型例として示してください。語義2の不信の態度、語義3の微量・兆候とは区別してください。"
+      },
+      "status": "resolved",
+      "disposition": "adopted",
+      "resolution_rationale": "Added a separate general propositional-belief sense, supported by Oxford’s belief-that definition and the Merriam-Webster noncriminal example."
+    },
+    {
+      "id": "CHK-qualification-804de08bce872a08",
+      "round": 4,
+      "pass_id": "qualification",
+      "input_body_sha256": "7f899f724028a817f1d04b2e910908b67dd914b63ebb42af2cac8cc43c7627f0",
+      "source_artifact": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-4/qualification.response.json",
+      "source_artifact_sha256": "fc4ea5f7c4164bc4a8d17c5aa635ad6a6ef34852c659fe353712124c1b09716e",
+      "finding": {
+        "taxonomy_id": "regional_qualification",
+        "location": {
+          "section": "frequency_register",
+          "line_start": 35,
+          "line_end": 35,
+          "exact_quote": "【レジスター/領域】標準語。日常会話、報道、警察・司法関連の記事で広く使う。on suspicion of ...、under suspicion は報道や法執行の文脈で特に多い。ここでいう suspicion は有罪が立証されたことを意味しない。頻度の数値はこの辞書内の学習上の相対目安である。  "
+        },
+        "severity": "blocking",
+        "rationale": "The numerical frequency ratings are described as a relative learning measure within this dictionary, which does not establish encounter frequency across English as required by this pass. The scale therefore risks functioning as an internal ranking of this entry's senses rather than an English-wide frequency estimate.",
+        "evidence_link_ids": [],
+        "suggested_direction": "Ground numerical ratings in English-wide frequency evidence and state their basis, or relabel them as pedagogical priority ratings rather than frequency."
+      },
+      "status": "resolved",
+      "disposition": "adopted",
+      "resolution_rationale": "Changed the frequency basis to qualitative English-wide encounter estimates on the required 10-stage scale and removed the unsupported especially-frequent-in-reporting/law-enforcement statement."
+    },
+    {
+      "id": "CHK-example-attribution-f8047683b3dc7e68",
+      "round": 4,
+      "pass_id": "example-attribution",
+      "input_body_sha256": "7f899f724028a817f1d04b2e910908b67dd914b63ebb42af2cac8cc43c7627f0",
+      "source_artifact": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-4/example-attribution.output.json",
+      "source_artifact_sha256": "fd5ec77796c373e2676fedbca08dfb2b278dc1f07d55b68c63988ec2bf2fc270",
+      "finding": {
+        "taxonomy_id": "example_sense_attribution_mismatch",
+        "location": {
+          "section": "collocations_examples",
+          "line_start": 48,
+          "line_end": 48,
+          "exact_quote": "例: The contractor remained under suspicion until the records were checked.  "
+        },
+        "severity": "blocking",
+        "rationale": "段階1でsense:001, sense:002が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
+        "evidence_link_ids": [],
+        "suggested_direction": "判別語の追加"
+      },
+      "status": "resolved",
+      "disposition": "adopted",
+      "resolution_rationale": "Revised the under-suspicion example to specify that investigators were checking whether the contractor falsified invoices, making the wrongdoing reading explicit."
+    }
+  ]
+}

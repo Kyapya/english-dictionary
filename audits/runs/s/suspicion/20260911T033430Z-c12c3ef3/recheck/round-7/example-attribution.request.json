@@ -1,0 +1,110 @@
+{
+  "schema_version": "example_attribution_blind_request_v1",
+  "pass_id": "example-attribution",
+  "taxonomy_ids": [
+    "example_sense_attribution_mismatch"
+  ],
+  "specification": "prompts/check_pass_example_attribution_v6.md",
+  "input_body_sha256": "9536e71772fcbec66a5cb22ac6155df52ed1a3d9a157408b5bb7993289585853",
+  "input_sections": {
+    "sense_structure": [
+      {
+        "sense_id": "sense:001",
+        "line": 36,
+        "label": "1. 【名詞・可算／不可算】疑い、推測：ある事柄が真実かもしれないと考えること。特に犯罪・不正への疑い",
+        "definition": "確証がない段階で、ある事柄が真実かもしれないと考えることを表す。人が犯罪・不正をした可能性への疑いもこの意味に含む。Oxfordは犯罪・不正の疑いでは可算・不可算の両用法を、命題の真偽については可算用法を記している。"
+      },
+      {
+        "sense_id": "sense:002",
+        "line": 79,
+        "label": "2. 【名詞・可算／不可算】不信、警戒を伴う疑念",
+        "definition": "人や物事を十分に信用できず、疑いの目で見る態度を表す。ある事柄が真実かどうかについての見立てを表す語義1とは異なり、対象への不信や警戒に焦点を置く。"
+      },
+      {
+        "sense_id": "sense:003",
+        "line": 117,
+        "label": "3. 【名詞・単数／形式的】ごく少量、かすかな兆し",
+        "definition": "ものがごく少量、またはかすかな兆候として感じられることを表す。通常 a suspicion of ... の形で使われる。"
+      }
+    ],
+    "collocations_examples": [
+      {
+        "example_id": "ex-bed0175dd518",
+        "example": "I had a suspicion that the meeting had been canceled.",
+        "translation": "会議は中止されたのではないかと私は疑っていた。"
+      },
+      {
+        "example_id": "ex-12fe7a226444",
+        "example": "The abrupt policy reversal aroused suspicions among residents, who no longer trusted the officials' explanation.",
+        "translation": "突然の方針転換で住民たちの疑念が高まり、当局の説明を信頼しなくなった。"
+      },
+      {
+        "example_id": "ex-54f27fae5b09",
+        "example": "Residents regarded the sudden policy change with suspicion.",
+        "translation": "住民たちは突然の方針変更を疑いの目で見た。"
+      },
+      {
+        "example_id": "ex-67e5e995d7f9",
+        "example": "The contractor remained under suspicion while investigators checked whether it had falsified invoices.",
+        "translation": "請求書を改ざんしたかどうかを捜査員が調べる間、その請負業者は疑いをかけられたままだった。"
+      },
+      {
+        "example_id": "ex-e688c0bc4313",
+        "example": "Two people were arrested on suspicion of fraud after the investigation.",
+        "translation": "捜査後、2人が詐欺の容疑で逮捕された。"
+      },
+      {
+        "example_id": "ex-7ca4d85e8578",
+        "example": "There was a suspicion of a smile in her reply.",
+        "translation": "彼女の返事にはかすかな笑みが感じられた。"
+      },
+      {
+        "example_id": "ex-1170d736dd30",
+        "example": "The old tale had a suspicion of truth in it.",
+        "translation": "その古い物語には、どこか真実味が感じられた。"
+      },
+      {
+        "example_id": "ex-1e92306444c9",
+        "example": "The unexplained gap in the records raised some suspicion among auditors.",
+        "translation": "記録の説明できない欠落が監査担当者の間にいくらかの疑念を招いた。"
+      },
+      {
+        "example_id": "ex-62cf13bca5f5",
+        "example": "The manager had a suspicion that the cashier had altered the sales records.",
+        "translation": "その管理者は、レジ係が売上記録を改ざんしたのではないかと疑っていた。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "assigned_sense_id",
+      "collocation_heading",
+      "usage_line",
+      "example_group_boundary",
+      "document_order"
+    ],
+    "required_output_schema": "example_attribution_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "e0bbb032bc0c50bf9bef5ff8f7854188287e635c58e599479891e11e3343a017",
+  "source_artifact_sha256": "4ce8d8afba2821e0b62dcb7c0083ae3ecd44c2257aa643fe163ed26f0f263f05",
+  "normalized_input_sha256": "d79258b9ee82db8dc64015e02bb5b3304c1f26dc956a148231ca4578f2c411d6"
+}
