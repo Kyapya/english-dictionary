@@ -19,11 +19,11 @@
     "candidate_pages": 6
   },
   "status": "in_progress",
-  "stage": "cold_review_complete",
+  "stage": "blind_seal_complete",
   "started_at": "2026-09-11T03:34:30Z",
   "deadline_at": "2026-09-11T04:34:30Z",
   "pre_draft_deadline_at": "2026-09-11T03:54:30Z",
-  "last_heartbeat_at": "2026-09-23T18:06:00Z",
+  "last_heartbeat_at": "2026-09-23T18:22:55Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-11T04:18:22Z",
@@ -59,6 +59,11 @@
       "stage": "cold_review_complete",
       "recorded_at": "2026-09-23T12:23:39Z",
       "notes": "orchestrator completed cold_review"
+    },
+    {
+      "stage": "blind_seal_complete",
+      "recorded_at": "2026-09-23T18:22:44Z",
+      "notes": "orchestrator completed blind_seal"
     }
   ],
   "stop_reason": "",
@@ -576,6 +581,35 @@
         "machine_duration_seconds": 0.00096,
         "additional_llm_calls": 0,
         "stage": "pre_blind_resolution"
+      },
+      {
+        "schema_version": "process_improvement_input_v2",
+        "knowledge_epoch": "pi2-2026-09-06",
+        "recipient": "coordinator",
+        "phase": "post_blind_resolution",
+        "features": [
+          "crime and wrongdoing suspicion",
+          "distrust",
+          "etymology",
+          "general hunch",
+          "noun",
+          "related words",
+          "trace sense"
+        ],
+        "limits": {
+          "max_items": 8,
+          "max_bytes": 8192
+        },
+        "selected": [],
+        "skipped": [],
+        "input_bytes": 349,
+        "input_sha256": "1512ab0b32a27e42b076070e6d63023cb8e0948f73d7e3c363cd3ead053159a9",
+        "run_id": "20260911T033430Z-c12c3ef3",
+        "created_at": "2026-09-23T18:22:44Z",
+        "snapshot_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/process_improvement/coordinator-post_blind_resolution.snapshot.md",
+        "machine_duration_seconds": 0.000694,
+        "additional_llm_calls": 0,
+        "stage": "post_blind_resolution"
       }
     ],
     "processing": {
@@ -697,20 +731,22 @@
       {
         "id": "final_blind",
         "instruction_bytes": 3580,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 20584,
+        "duration_seconds": 5030.996779,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true,
+        "duration_source": "measured_wall"
       },
       {
         "id": "blind_seal",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 31097,
+        "duration_seconds": 15.043524,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true,
+        "duration_source": "measured_wall"
       },
       {
         "id": "post_blind_resolution",
@@ -809,13 +845,13 @@
     ],
     "process_rules": [],
     "process_improvement": {
-      "selection_input_bytes": 684,
-      "machine_duration_seconds": 0.021823,
+      "selection_input_bytes": 1033,
+      "machine_duration_seconds": 0.022517,
       "additional_llm_calls": 0
     }
   },
   "orchestrator_state": {
-    "next_stage_index": 7,
+    "next_stage_index": 9,
     "completed_stages": [
       "guard_start",
       "generation",
@@ -823,7 +859,9 @@
       "checker_passes",
       "cold_review",
       "pre_blind_resolution",
-      "checker_recheck"
+      "checker_recheck",
+      "final_blind",
+      "blind_seal"
     ],
     "stage_outputs": {
       "generation": [
@@ -847,9 +885,15 @@
       ],
       "checker_recheck": [
         "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/checker_recheck_manifest.json"
+      ],
+      "final_blind": [
+        "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/final_blind.json"
+      ],
+      "blind_seal": [
+        "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/blind_seal.json"
       ]
     },
-    "stage_started_at": "2026-09-23T16:58:39Z"
+    "stage_started_at": "2026-09-23T18:22:44Z"
   },
   "publication": {
     "mode": "connector"
