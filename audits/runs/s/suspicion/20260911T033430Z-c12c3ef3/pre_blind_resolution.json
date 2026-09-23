@@ -1,170 +1,184 @@
 {
   "schema_version": "pre_blind_resolution_v1",
   "input_body_sha256": "82f343438dd0057f0cc4edd16ece26ba75380521e8c02dfb806b6da7eb43d3f8",
-  "output_body_sha256": "e610984e4ee840d69032be28e4e55257a14bebd434e6d3f13ba11b959ecafa79",
-  "recorded_at": "2026-09-23T12:50:24.751897+00:00",
-  "summary": "19件のchecker findingと4件のcold-review findingをすべて採用して本文に反映した。別途、frame-relationのunrouted observation（文書の真正性を扱う例と語義配置）も、該当例・枠を削除して整理した。各findingは一度だけ解決し、元応答とレビュー本文は変更していない。",
+  "output_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+  "recorded_at": "2026-09-23T16:40:33.533358+00:00",
+  "summary": "All 21 preserved checker findings and 4 cold-review findings were reconciled to the current candidate body. The candidate was not changed in this coverage reconciliation; the previously sealed final blind remains bound to the same body.",
   "resolutions": [
     {
-      "id": "CHK-translation-78e227acb2af8d68",
-      "finding_id": "CHK-translation-78e227acb2af8d68",
+      "id": "CHK-sense-structure-85e67bdbf80f0e5b",
+      "finding_id": "CHK-sense-structure-85e67bdbf80f0e5b",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "訳文から原文にない残存含意を外し、「漂っていた」に修正した。"
+      "rationale": "コアイメージを確証のない見立てを中心にした学習上の目安として改め、少量・兆しの語義を併記し、全用法が共通の語源的意味を持つとの主張ではないことを明記した。"
     },
     {
-      "id": "CHK-frame-relation-53cb4d7dcb428b93",
-      "finding_id": "CHK-frame-relation-53cb4d7dcb428b93",
+      "id": "CHK-frame-relation-f20791f0cfdbd2ce",
+      "finding_id": "CHK-frame-relation-f20791f0cfdbd2ce",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "人・行為に限った cast suspicion on の枠と真正性の例を削除し、実際に残した枠・例の対応を保った。"
+      "rationale": "cast suspicion on の対象枠と文書の真正性を扱う例を削除し、残したthat節・容疑・raise some suspicionの枠に整理した。"
     },
     {
-      "id": "CHK-frame-relation-a58cff3aa6082ed4",
-      "finding_id": "CHK-frame-relation-a58cff3aa6082ed4",
+      "id": "CHK-frame-relation-f487dc58051550c5",
+      "finding_id": "CHK-frame-relation-f487dc58051550c5",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "枠を a suspicion of a smile に直し、根拠のない irony と with 構文を削除した。"
+      "rationale": "対象枠を person/thing とし、方針変更など物事を対象とする本文例が含まれるよう記述を改めた。"
     },
     {
-      "id": "CHK-frame-relation-d9dd6ec50e654f0d",
-      "finding_id": "CHK-frame-relation-d9dd6ec50e654f0d",
+      "id": "CHK-frame-relation-61011dbd10a9eca3",
+      "finding_id": "CHK-frame-relation-61011dbd10a9eca3",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "accusation は意味的に同一の類義語ではないため、語義1の類義語欄から削除した。"
+      "rationale": "accusation は疑いそのものと異なるため、語義1の類義語欄から削除した。"
     },
     {
-      "id": "CHK-frame-relation-e497ccb413f93706",
-      "finding_id": "CHK-frame-relation-e497ccb413f93706",
+      "id": "CHK-frame-relation-c6cc8ed5c1faed74",
+      "finding_id": "CHK-frame-relation-c6cc8ed5c1faed74",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "allegation は意味的に同一の類義語ではないため、語義1の類義語欄から削除した。"
+      "rationale": "allegation は公に提示する主張であり疑いそのものではないため、類義語欄から削除した。"
     },
     {
       "id": "CHK-example-attribution-9a7ced3d899cef25",
       "finding_id": "CHK-example-attribution-9a7ced3d899cef25",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "曖昧だった資金移動の例を、横領への疑いを明示する例へ置き換えた。"
+      "rationale": "曖昧な資金移動の例を外し、犯罪名を明示する on suspicion of fraud の例に置き換えた。"
     },
     {
       "id": "CHK-example-attribution-4b73cc547d6ec54a",
       "finding_id": "CHK-example-attribution-4b73cc547d6ec54a",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "真正性を対象にした例と cast suspicion on 枠を削除し、犯罪・不正の疑いと分かる表現に整理した。"
+      "rationale": "文書の真正性を対象にするcast suspicion onの例を削除し、犯罪・不正への疑いと分かる例に整理した。"
     },
     {
       "id": "CHK-example-attribution-4e805feccd4e0426",
       "finding_id": "CHK-example-attribution-4e805feccd4e0426",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "疑いの内容を省いていた例を、売上記録の改ざんを疑う内容が明示される例へ置き換えた。"
+      "rationale": "対象が曖昧なmanager’s suspicionsの例を外し、売上記録の改ざんを疑うthat節の例に置き換えた。"
+    },
+    {
+      "id": "CHK-example-attribution-02488c6d692d08e3",
+      "finding_id": "CHK-example-attribution-02488c6d692d08e3",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "agencyへのsuspicion例を削除し、出典で確認できる人・物事を疑いの目で見る態度の例に絞った。"
     },
     {
       "id": "CHK-example-attribution-ef69a9c2d1737319",
       "finding_id": "CHK-example-attribution-ef69a9c2d1737319",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "語義1と語義2のどちらにも取れる deep suspicion の例を削除した。"
+      "rationale": "語義1と語義2の両方に読めるdeep suspicionの例を削除した。"
+    },
+    {
+      "id": "CHK-example-attribution-3c70c60e3ba74cda",
+      "finding_id": "CHK-example-attribution-3c70c60e3ba74cda",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "語義2と少量・兆しの語義のどちらにも読めるprocess例を削除し、原因を述べるraise some suspicionの例に整理した。"
     },
     {
       "id": "CHK-example-attribution-85f2d8aab19a336e",
       "finding_id": "CHK-example-attribution-85f2d8aab19a336e",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "語義1と推測一般のどちらにも取れる dispelled suspicion の例を削除し、犯罪・不正の疑いとして読める that 節だけを残した。"
+      "rationale": "複数の語義に取れるdispelled suspicionの例を削除し、犯罪・不正の疑いまたは命題内容が明示された例に整理した。"
     },
     {
-      "id": "CHK-qualification-9eaa3295e057b6a7",
-      "finding_id": "CHK-qualification-9eaa3295e057b6a7",
+      "id": "CHK-evidence-f26152139b13f089",
+      "finding_id": "CHK-evidence-f26152139b13f089",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "記述を Merriam-Webster のラベルに合わせ「chiefly dialectal」と限定した。"
+      "rationale": "発音の記述をOxfordの米語IPAとMerriam-Websterの音節区切り・強勢情報に限定し、未確認のCambridge比較を削除した。"
     },
     {
-      "id": "CHK-evidence-926461008f51d0eb",
-      "finding_id": "CHK-evidence-926461008f51d0eb",
+      "id": "CHK-evidence-1cb0e731e8d76698",
+      "finding_id": "CHK-evidence-1cb0e731e8d76698",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "英国・米国差と Cambridge との比較を外し、閲覧できる Merriam-Webster の IPA と音節・強勢情報に限定した。"
+      "rationale": "語源を出典別に確認できる歴史的形と経路の差に限定し、未確認の語素分解と現代語への意味継承の断定を削除した。"
     },
     {
-      "id": "CHK-evidence-b920996b73bb0fec",
-      "finding_id": "CHK-evidence-b920996b73bb0fec",
+      "id": "CHK-evidence-7bf51b857c089ddc",
+      "finding_id": "CHK-evidence-7bf51b857c089ddc",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "確証のない命題一般への独立語義を削除し、語義1に直接根拠のある不正の疑いだけを残した。"
+      "rationale": "語形成欄を出典で確認できるsuspiciousの用法と派生語の品詞に絞り、未確認だったsuspectの詳しい語義や副詞の意味・頻度の主張を削除した。"
     },
     {
-      "id": "CHK-evidence-8b74d23abfcea8bf",
-      "finding_id": "CHK-evidence-8b74d23abfcea8bf",
+      "id": "CHK-evidence-1d48282c2269ad9b",
+      "finding_id": "CHK-evidence-1d48282c2269ad9b",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "語源を記録済み辞書の形・経路ごとの説明に限定し、根拠のない語素分解と現代語の継承像を除いた。"
+      "rationale": "広い使用域や句の相対頻度を断定する文を削り、頻度スコアを編集上の定性的推定と明記して、容疑表現と確証前の境界を区別した。"
     },
     {
-      "id": "CHK-evidence-2b9c3e19ee00548c",
-      "finding_id": "CHK-evidence-2b9c3e19ee00548c",
+      "id": "CHK-evidence-c694e2ed8a394b1d",
+      "finding_id": "CHK-evidence-c694e2ed8a394b1d",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "語義1の about + person/behavior 枠を削り、crime/wrongdoing の of 枠に限定した。"
+      "rationale": "根拠のないsuspicion of + person/group/ideaの枠とagency例を削除し、確認できるwith suspicionの態度構文を残した。"
     },
     {
-      "id": "CHK-evidence-de21e70cafa92ec4",
-      "finding_id": "CHK-evidence-de21e70cafa92ec4",
+      "id": "CHK-evidence-1c2014f25502d6e7",
+      "finding_id": "CHK-evidence-1c2014f25502d6e7",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "不信語義では確認できない of + person/group/idea を外し、記録済みの about + motives 枠に限定した。"
+      "rationale": "頻度スコアが編集上の推定であると明記し、distrustの定義と語義差を出典が支える範囲に狭めた。"
     },
     {
-      "id": "CHK-evidence-1605a30992933d1a",
-      "finding_id": "CHK-evidence-1605a30992933d1a",
+      "id": "CHK-evidence-74f1211675818881",
+      "finding_id": "CHK-evidence-74f1211675818881",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "with / irony の未確認フレームを削り、出典にある a suspicion of a smile と a suspicion of truth に限定した。"
+      "rationale": "根拠のないmistrustとの比較と類義語項目を削除した。"
     },
     {
-      "id": "CHK-evidence-f48da07776261d03",
-      "finding_id": "CHK-evidence-f48da07776261d03",
+      "id": "CHK-evidence-4f7613fe6f400031",
+      "finding_id": "CHK-evidence-4f7613fe6f400031",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "suspect の各品詞・語義を裏付ける資料がないため、語形成欄から項目を除いた。"
+      "rationale": "未確認のwith a suspicion of smile/irony構文を削除し、辞書で確認できるa suspicion of a smile / truthの形に改めた。"
     },
     {
-      "id": "CHK-evidence-8a3b0ef0f74d78bd",
-      "finding_id": "CHK-evidence-8a3b0ef0f74d78bd",
+      "id": "CHK-evidence-6e65bce7c7568c72",
+      "finding_id": "CHK-evidence-6e65bce7c7568c72",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "疑わしい副詞・名詞の意味や頻度比較を除き、別途記録済み locator の語形情報だけに限定した。"
+      "rationale": "動詞用法の注記を語形成欄へ移してchiefly dialectalと出典ラベルに合わせ、確認できない標準用法との比較を削除した。"
     },
     {
       "id": "CR-1",
       "finding_id": "CR-1",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "採用。対格形を断定せず、記録済み辞書で表記差があるラテン語形を出典別に記載する形へ変更した。"
+      "rationale": "ラテン語形を一つに断定せず、記録済み辞書の異表記を出典別に記載した。"
     },
     {
       "id": "CR-2",
       "finding_id": "CR-2",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "採用。「ひそかに」という語義、sub-/specere の分解、およびそれらを現代語の意味へ直結させる説明を削除した。"
+      "rationale": "「ひそかに」の語義、sub-/specereの語素分解、現代語の意味へ直結させる説明を削除した。"
     },
     {
       "id": "CR-3",
       "finding_id": "CR-3",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "採用。独立した命題推測の語義を削除し、残す that 節は犯罪・不正への疑いに限定したため、残存語義を可算のみと誤一般化させない。"
+      "rationale": "命題の真偽を扱う用法を独立語義として過分割せず、可算・不可算の説明を出典ごとの範囲に限定した。"
     },
     {
       "id": "CR-4",
       "finding_id": "CR-4",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "採用。allegation を類義語として定義する箇所ごと削除し、公的・私的の範囲を未確認のまま主張しない形にした。"
+      "rationale": "allegationを類義語として扱う項目を削除し、公的・私的範囲の未確認な主張を残さなかった。"
     }
   ],
   "followup_corrections": [
@@ -218,7 +232,62 @@
       "output_body_sha256": "13559d31b050882ff1d24890c8d22914c8f87e20f0ddb0e509e2a8178469bd82",
       "recheck_round": "round-11-source-definition-correction",
       "summary": "Oxfordの distrust 定義と出典claimを直接確認した結果に合わせ、類義語の説明を出典が支える範囲に更新した。最新版本文と source-first artifact は同期済みで、全7パス再検査を実施中。"
+    },
+    {
+      "recorded_at": "2026-09-23T16:40:33.533358+00:00",
+      "status": "coverage_reconciled",
+      "summary": "Preflight comparison found that the preserved normal/cold outputs had 25 exact finding IDs while the earlier derived resolution carried 23 IDs from a stale finding inventory. Raw checker and cold-review outputs were kept unchanged. This record now covers the exact 21 checker findings plus 4 cold findings, all already addressed in the unchanged e0cd candidate and cleared by the completed seven-pass recheck."
     }
   ],
-  "history_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/revision_history/20260923T123745Z/pre_blind_resolution.json"
+  "history_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/revision_history/final-input-reconciliation-20260923T164033Z/pre_blind_resolution.previous.json",
+  "learning_delta": {
+    "schema_version": "process_improvement_learning_delta_v2",
+    "reviewed": true,
+    "items": []
+  },
+  "resolution_coverage_reconciliation": {
+    "schema_version": "pre_blind_resolution_coverage_reconciliation_v1",
+    "previous_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/revision_history/final-input-reconciliation-20260923T164033Z/pre_blind_resolution.previous.json",
+    "previous_sha256": "b845efc570fb348eceb9173e25f0c5f884949245a9ec4076bf696fc87567b6fb",
+    "previous_output_body_sha256": "e610984e4ee840d69032be28e4e55257a14bebd434e6d3f13ba11b959ecafa79",
+    "current_output_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+    "previous_resolution_count": 23,
+    "current_resolution_count": 25,
+    "superseded_finding_ids": [
+      "CHK-evidence-1605a30992933d1a",
+      "CHK-evidence-2b9c3e19ee00548c",
+      "CHK-evidence-8a3b0ef0f74d78bd",
+      "CHK-evidence-8b74d23abfcea8bf",
+      "CHK-evidence-926461008f51d0eb",
+      "CHK-evidence-b920996b73bb0fec",
+      "CHK-evidence-de21e70cafa92ec4",
+      "CHK-evidence-f48da07776261d03",
+      "CHK-frame-relation-53cb4d7dcb428b93",
+      "CHK-frame-relation-a58cff3aa6082ed4",
+      "CHK-frame-relation-d9dd6ec50e654f0d",
+      "CHK-frame-relation-e497ccb413f93706",
+      "CHK-qualification-9eaa3295e057b6a7",
+      "CHK-translation-78e227acb2af8d68"
+    ],
+    "added_finding_ids": [
+      "CHK-evidence-1c2014f25502d6e7",
+      "CHK-evidence-1cb0e731e8d76698",
+      "CHK-evidence-1d48282c2269ad9b",
+      "CHK-evidence-4f7613fe6f400031",
+      "CHK-evidence-6e65bce7c7568c72",
+      "CHK-evidence-74f1211675818881",
+      "CHK-evidence-7bf51b857c089ddc",
+      "CHK-evidence-c694e2ed8a394b1d",
+      "CHK-evidence-f26152139b13f089",
+      "CHK-example-attribution-02488c6d692d08e3",
+      "CHK-example-attribution-3c70c60e3ba74cda",
+      "CHK-frame-relation-61011dbd10a9eca3",
+      "CHK-frame-relation-c6cc8ed5c1faed74",
+      "CHK-frame-relation-f20791f0cfdbd2ce",
+      "CHK-frame-relation-f487dc58051550c5",
+      "CHK-sense-structure-85e67bdbf80f0e5b"
+    ],
+    "raw_review_artifacts_preserved": true,
+    "article_body_changed": false
+  }
 }

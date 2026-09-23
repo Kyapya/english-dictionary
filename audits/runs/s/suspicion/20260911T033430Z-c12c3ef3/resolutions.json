@@ -1,0 +1,215 @@
+{
+  "schema_version": "resolutions_v1",
+  "stage": "resolutions",
+  "run_id": "resolutions-suspicion-20260911T033430Z-c12c3ef3",
+  "context_id": "resolutions-suspicion-context-20260911T033430Z-c12c3ef3",
+  "input_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+  "prompt_sha256": "29c99128ff8815765db677736fd30a96deba91b284dd5a2062533eb16b7d3c75",
+  "input_artifacts": [
+    "entry_body",
+    "all_findings"
+  ],
+  "recorded_at": "2026-09-23T16:40:33.534921+00:00",
+  "resolutions": [
+    {
+      "id": "CHK-sense-structure-85e67bdbf80f0e5b",
+      "finding_id": "CHK-sense-structure-85e67bdbf80f0e5b",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "コアイメージを確証のない見立てを中心にした学習上の目安として改め、少量・兆しの語義を併記し、全用法が共通の語源的意味を持つとの主張ではないことを明記した。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-frame-relation-f20791f0cfdbd2ce",
+      "finding_id": "CHK-frame-relation-f20791f0cfdbd2ce",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "cast suspicion on の対象枠と文書の真正性を扱う例を削除し、残したthat節・容疑・raise some suspicionの枠に整理した。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-frame-relation-f487dc58051550c5",
+      "finding_id": "CHK-frame-relation-f487dc58051550c5",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "対象枠を person/thing とし、方針変更など物事を対象とする本文例が含まれるよう記述を改めた。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-frame-relation-61011dbd10a9eca3",
+      "finding_id": "CHK-frame-relation-61011dbd10a9eca3",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "accusation は疑いそのものと異なるため、語義1の類義語欄から削除した。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-frame-relation-c6cc8ed5c1faed74",
+      "finding_id": "CHK-frame-relation-c6cc8ed5c1faed74",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "allegation は公に提示する主張であり疑いそのものではないため、類義語欄から削除した。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-example-attribution-9a7ced3d899cef25",
+      "finding_id": "CHK-example-attribution-9a7ced3d899cef25",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "曖昧な資金移動の例を外し、犯罪名を明示する on suspicion of fraud の例に置き換えた。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-example-attribution-4b73cc547d6ec54a",
+      "finding_id": "CHK-example-attribution-4b73cc547d6ec54a",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "文書の真正性を対象にするcast suspicion onの例を削除し、犯罪・不正への疑いと分かる例に整理した。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-example-attribution-4e805feccd4e0426",
+      "finding_id": "CHK-example-attribution-4e805feccd4e0426",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "対象が曖昧なmanager’s suspicionsの例を外し、売上記録の改ざんを疑うthat節の例に置き換えた。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-example-attribution-02488c6d692d08e3",
+      "finding_id": "CHK-example-attribution-02488c6d692d08e3",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "agencyへのsuspicion例を削除し、出典で確認できる人・物事を疑いの目で見る態度の例に絞った。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-example-attribution-ef69a9c2d1737319",
+      "finding_id": "CHK-example-attribution-ef69a9c2d1737319",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "語義1と語義2の両方に読めるdeep suspicionの例を削除した。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-example-attribution-3c70c60e3ba74cda",
+      "finding_id": "CHK-example-attribution-3c70c60e3ba74cda",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "語義2と少量・兆しの語義のどちらにも読めるprocess例を削除し、原因を述べるraise some suspicionの例に整理した。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-example-attribution-85f2d8aab19a336e",
+      "finding_id": "CHK-example-attribution-85f2d8aab19a336e",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "複数の語義に取れるdispelled suspicionの例を削除し、犯罪・不正の疑いまたは命題内容が明示された例に整理した。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-evidence-f26152139b13f089",
+      "finding_id": "CHK-evidence-f26152139b13f089",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "発音の記述をOxfordの米語IPAとMerriam-Websterの音節区切り・強勢情報に限定し、未確認のCambridge比較を削除した。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-evidence-1cb0e731e8d76698",
+      "finding_id": "CHK-evidence-1cb0e731e8d76698",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "語源を出典別に確認できる歴史的形と経路の差に限定し、未確認の語素分解と現代語への意味継承の断定を削除した。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-evidence-7bf51b857c089ddc",
+      "finding_id": "CHK-evidence-7bf51b857c089ddc",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "語形成欄を出典で確認できるsuspiciousの用法と派生語の品詞に絞り、未確認だったsuspectの詳しい語義や副詞の意味・頻度の主張を削除した。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-evidence-1d48282c2269ad9b",
+      "finding_id": "CHK-evidence-1d48282c2269ad9b",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "広い使用域や句の相対頻度を断定する文を削り、頻度スコアを編集上の定性的推定と明記して、容疑表現と確証前の境界を区別した。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-evidence-c694e2ed8a394b1d",
+      "finding_id": "CHK-evidence-c694e2ed8a394b1d",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "根拠のないsuspicion of + person/group/ideaの枠とagency例を削除し、確認できるwith suspicionの態度構文を残した。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-evidence-1c2014f25502d6e7",
+      "finding_id": "CHK-evidence-1c2014f25502d6e7",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "頻度スコアが編集上の推定であると明記し、distrustの定義と語義差を出典が支える範囲に狭めた。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-evidence-74f1211675818881",
+      "finding_id": "CHK-evidence-74f1211675818881",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "根拠のないmistrustとの比較と類義語項目を削除した。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-evidence-4f7613fe6f400031",
+      "finding_id": "CHK-evidence-4f7613fe6f400031",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "未確認のwith a suspicion of smile/irony構文を削除し、辞書で確認できるa suspicion of a smile / truthの形に改めた。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-evidence-6e65bce7c7568c72",
+      "finding_id": "CHK-evidence-6e65bce7c7568c72",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "動詞用法の注記を語形成欄へ移してchiefly dialectalと出典ラベルに合わせ、確認できない標準用法との比較を削除した。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CR-1",
+      "finding_id": "CR-1",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "ラテン語形を一つに断定せず、記録済み辞書の異表記を出典別に記載した。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CR-2",
+      "finding_id": "CR-2",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "「ひそかに」の語義、sub-/specereの語素分解、現代語の意味へ直結させる説明を削除した。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CR-3",
+      "finding_id": "CR-3",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "命題の真偽を扱う用法を独立語義として過分割せず、可算・不可算の説明を出典ごとの範囲に限定した。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CR-4",
+      "finding_id": "CR-4",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "allegationを類義語として扱う項目を削除し、公的・私的範囲の未確認な主張を残さなかった。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    }
+  ]
+}
