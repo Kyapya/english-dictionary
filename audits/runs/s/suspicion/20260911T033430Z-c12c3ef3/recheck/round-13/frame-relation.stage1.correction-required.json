@@ -1,0 +1,79 @@
+{
+  "schema_version": "checker_handoff_response_disposition_v1",
+  "recorded_at": "2026-09-23T15:38:36.598781+00:00",
+  "pass_id": "frame-relation",
+  "stage": "checker_recheck/round-13/stage1",
+  "status": "needs_review_correction",
+  "canonical_request_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-13/frame-relation.request.json",
+  "canonical_request_sha256": "8846e60a4bd98aef02fddd11ee833adb9713472d96f19a6ea8486dafc68cefd1",
+  "unaccepted_attempt_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-13/attempt-1-unaccepted/",
+  "findings": [
+    "The preserved raw stage-1 response binds blind_request_sha256 247d826848b98ba110538bff2bf224667ca10263d9117c4f8c4fe7dccee5c4c6, while the exact canonical request digest is 8846e60a4bd98aef02fddd11ee833adb9713472d96f19a6ea8486dafc68cefd1.",
+    "A derived copy changed the reviewer response blind_request_sha256 to the canonical digest; that coordinator edit is preserved but rejected as review evidence.",
+    "The subsequent stage-2 request, raw response, bound response, disposition, and reconciled output depended on the coordinator-adjusted record and were created before the canonical stage-1 request checkpoint was connector-published; none is accepted."
+  ],
+  "action": "Retain six round-12 passes. Publish quarantine of attempt 1, then obtain a fresh self-attested stage-1 response against the unchanged canonical packet; publish that accepted stage-1 checkpoint before generating stage 2 under the same reviewer/model.",
+  "artifacts": [
+    {
+      "original_path": "recheck/round-13/checker_passes.stage1.json",
+      "archived_path": "recheck/round-13/attempt-1-unaccepted/checker_passes.stage1.json",
+      "sha256": "9934d5255902c0081fdbbcd272a4c051d02470e09c53477b68b691022a182c60",
+      "bytes": 22562
+    },
+    {
+      "original_path": "recheck/round-13/frame-relation.response_disposition.json",
+      "archived_path": "recheck/round-13/attempt-1-unaccepted/frame-relation.response_disposition.json",
+      "sha256": "867dde8d61c783f6c799733741e1b562f81e5b378f4c79ba2697a2bb0d8b0a4a",
+      "bytes": 1292
+    },
+    {
+      "original_path": "recheck/round-13/frame-relation.stage1.response.json",
+      "archived_path": "recheck/round-13/attempt-1-unaccepted/frame-relation.stage1.response.json",
+      "sha256": "ece37b8ee0e43e03c28ec06ab5ab3f5b1f217462aedfbeab0160e402893049c0",
+      "bytes": 472
+    },
+    {
+      "original_path": "recheck/round-13/frame-relation.stage1.response.bound.json",
+      "archived_path": "recheck/round-13/attempt-1-unaccepted/frame-relation.stage1.response.bound.json",
+      "sha256": "4b37369958b3661b1283f356a03f072f8c983830e672dc42b175f49a1c70a6f3",
+      "bytes": 472
+    },
+    {
+      "original_path": "recheck/round-13/frame-relation.stage2.request.json",
+      "archived_path": "recheck/round-13/attempt-1-unaccepted/frame-relation.stage2.request.json",
+      "sha256": "365727ef9195198fb2e7315c0fbe95ba2458175b7464855a21390828f2c0ca28",
+      "bytes": 13056
+    },
+    {
+      "original_path": "recheck/round-13/frame-relation.stage2.request.md",
+      "archived_path": "recheck/round-13/attempt-1-unaccepted/frame-relation.stage2.request.md",
+      "sha256": "1d7d21ff24cbb5f79d31e70fc412e1ecac209b021d78d4604e3b0adf012169e8",
+      "bytes": 21790
+    },
+    {
+      "original_path": "recheck/round-13/frame-relation.stage2.response.json",
+      "archived_path": "recheck/round-13/attempt-1-unaccepted/frame-relation.stage2.response.json",
+      "sha256": "96fa234a4761ad6f19012c16a8be7574e24d40317b7a008cda8fd2bc5212f05e",
+      "bytes": 591
+    },
+    {
+      "original_path": "recheck/round-13/frame-relation.output.json",
+      "archived_path": "recheck/round-13/attempt-1-unaccepted/frame-relation.output.json",
+      "sha256": "f5265f9959ed1ba42ee59b72c74fbe937ef590a64c1139f94e02587a52cfb878",
+      "bytes": 1466
+    },
+    {
+      "original_path": "recheck/round-13/frame-relation.stage2.response.bound.json",
+      "archived_path": "recheck/round-13/attempt-1-unaccepted/frame-relation.stage2.response.bound.json",
+      "sha256": "60112ed1939874626c773e145099f716a48eba4de47c3807d3c14cb810dc263d",
+      "bytes": 591
+    },
+    {
+      "original_path": "recheck/round-13/frame-relation.stage2.response_disposition.json",
+      "archived_path": "recheck/round-13/attempt-1-unaccepted/frame-relation.stage2.response_disposition.json",
+      "sha256": "3c233c484625f2e6f1f42fa859b0e8c7d2f78fb654b1450eb1ecf702e28c0fea",
+      "bytes": 1400
+    }
+  ],
+  "review_decisions_accepted": false
+}

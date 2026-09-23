@@ -1,0 +1,71 @@
+{
+  "schema_version": "checker_handoff_correction_analysis_v1",
+  "recorded_at": "2026-09-23T15:39:14.044351+00:00",
+  "attempt": "round-13/frame-relation/attempt-1",
+  "canonical_stage1_request_sha256": "8846e60a4bd98aef02fddd11ee833adb9713472d96f19a6ea8486dafc68cefd1",
+  "published_checkpoint_before_stage2": "b57887c769b31c8d5ec728eeeff9e48c7e75d7e0",
+  "disposition": "unaccepted",
+  "reason": "The reviewer-authored raw stage-1 response did not bind to the canonical request digest. A coordinator-adjusted derived copy was used to produce a stage-2 packet and output. The connector had published the first stage-1 checkpoint before stage-2 was generated; nevertheless, stage 1 was not valid, so every dependent stage-2 artifact is archived and excluded. A fresh reviewer must redo both stages.",
+  "preserved_artifacts": [
+    {
+      "path": "recheck/round-13/attempt-1-unaccepted/checker_passes.stage1.json",
+      "sha256": "9934d5255902c0081fdbbcd272a4c051d02470e09c53477b68b691022a182c60",
+      "bytes": 22562
+    },
+    {
+      "path": "recheck/round-13/attempt-1-unaccepted/frame-relation.output.json",
+      "sha256": "f5265f9959ed1ba42ee59b72c74fbe937ef590a64c1139f94e02587a52cfb878",
+      "bytes": 1466
+    },
+    {
+      "path": "recheck/round-13/attempt-1-unaccepted/frame-relation.response_disposition.json",
+      "sha256": "867dde8d61c783f6c799733741e1b562f81e5b378f4c79ba2697a2bb0d8b0a4a",
+      "bytes": 1292
+    },
+    {
+      "path": "recheck/round-13/attempt-1-unaccepted/frame-relation.stage1.response.bound.json",
+      "sha256": "4b37369958b3661b1283f356a03f072f8c983830e672dc42b175f49a1c70a6f3",
+      "bytes": 472
+    },
+    {
+      "path": "recheck/round-13/attempt-1-unaccepted/frame-relation.stage1.response.json",
+      "sha256": "ece37b8ee0e43e03c28ec06ab5ab3f5b1f217462aedfbeab0160e402893049c0",
+      "bytes": 472
+    },
+    {
+      "path": "recheck/round-13/attempt-1-unaccepted/frame-relation.stage2.request.json",
+      "sha256": "365727ef9195198fb2e7315c0fbe95ba2458175b7464855a21390828f2c0ca28",
+      "bytes": 13056
+    },
+    {
+      "path": "recheck/round-13/attempt-1-unaccepted/frame-relation.stage2.request.md",
+      "sha256": "1d7d21ff24cbb5f79d31e70fc412e1ecac209b021d78d4604e3b0adf012169e8",
+      "bytes": 21790
+    },
+    {
+      "path": "recheck/round-13/attempt-1-unaccepted/frame-relation.stage2.response.bound.json",
+      "sha256": "60112ed1939874626c773e145099f716a48eba4de47c3807d3c14cb810dc263d",
+      "bytes": 591
+    },
+    {
+      "path": "recheck/round-13/attempt-1-unaccepted/frame-relation.stage2.response.json",
+      "sha256": "96fa234a4761ad6f19012c16a8be7574e24d40317b7a008cda8fd2bc5212f05e",
+      "bytes": 591
+    },
+    {
+      "path": "recheck/round-13/attempt-1-unaccepted/frame-relation.stage2.response_disposition.json",
+      "sha256": "3c233c484625f2e6f1f42fa859b0e8c7d2f78fb654b1450eb1ecf702e28c0fea",
+      "bytes": 1400
+    }
+  ],
+  "accepted_round12_passes": [
+    "translation",
+    "sense-structure",
+    "example-attribution",
+    "qualification",
+    "pronunciation",
+    "evidence"
+  ],
+  "frame_relation_final_output_available": false,
+  "chronology_clarification": "The remote checkpoint b57887c769b31c8d5ec728eeeff9e48c7e75d7e0 was connector-published before the first stage-2 request was generated. The automated correction-required record wording that says stage 2 was created before that publication is inaccurate. The stage-2 response is still rejected because it depended on a coordinator-adjusted, invalid stage-1 record; this clarification does not change the rejection."
+}

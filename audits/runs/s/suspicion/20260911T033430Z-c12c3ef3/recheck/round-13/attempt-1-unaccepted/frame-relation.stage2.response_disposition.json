@@ -1,0 +1,21 @@
+{
+  "schema_version": "checker_handoff_response_disposition_v1",
+  "recorded_at": "2026-09-23T15:33:37.759692+00:00",
+  "pass_id": "frame-relation",
+  "stage": "checker_recheck/round-13/stage2",
+  "raw_response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-13/frame-relation.stage2.response.json",
+  "raw_response_sha256": "96fa234a4761ad6f19012c16a8be7574e24d40317b7a008cda8fd2bc5212f05e",
+  "status": "accepted_after_binding_correction",
+  "reason": "The raw response carried an incorrect stage2_request_sha256. Its empty adjudications, frame_findings, and unrouted_observations match the empty-item packet and reviewer-authored assessment. The coordinator bound those unchanged judgments to the exact saved stage-2 request and sealed stage-1 record.",
+  "raw_validation_errors": [
+    "antonym axis adjudication request hash mismatch"
+  ],
+  "coordinator_adjusted_fields": [
+    "stage2_request_sha256"
+  ],
+  "reviewer_authored_judgments_preserved": true,
+  "request_sha256": "3e48eb2f9838dc0f9142c3c5b07c08eb1bb4a4e1a6d737988ce0ab61e7694d9e",
+  "blind_record_sha256": "6e5c7b9d08ffbfed8549baa50e9775776bd4a306fb9db2683e01ae7467c591c1",
+  "bound_response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-13/frame-relation.stage2.response.bound.json",
+  "bound_response_sha256": "60112ed1939874626c773e145099f716a48eba4de47c3807d3c14cb810dc263d"
+}
