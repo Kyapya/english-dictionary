@@ -19,11 +19,11 @@
     "candidate_pages": 0
   },
   "status": "in_progress",
-  "stage": "preflight_pushed",
+  "stage": "draft_saved",
   "started_at": "2026-09-11T03:34:30Z",
   "deadline_at": "2026-09-11T04:34:30Z",
   "pre_draft_deadline_at": "2026-09-11T03:54:30Z",
-  "last_heartbeat_at": "2026-09-11T04:18:22Z",
+  "last_heartbeat_at": "2026-09-23T02:32:29Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-11T04:18:22Z",
@@ -39,6 +39,11 @@
       "stage": "preflight_pushed",
       "recorded_at": "2026-09-11T04:18:22Z",
       "notes": "remote start checkpoint verified"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-09-23T02:32:29Z",
+      "notes": "orchestrator completed generation"
     }
   ],
   "stop_reason": "",
@@ -496,7 +501,13 @@
     "schema_version": "workflow_process_improvement_v2",
     "knowledge_epoch": "pi2-2026-09-06",
     "features": [
-      "workflow:standard"
+      "crime and wrongdoing suspicion",
+      "distrust",
+      "etymology",
+      "general hunch",
+      "noun",
+      "related words",
+      "trace sense"
     ],
     "snapshots": [
       {
@@ -523,7 +534,16 @@
         "stage": "generation"
       }
     ],
-    "processing": {},
+    "processing": {
+      "generation": {
+        "status": "no_applicable",
+        "source_refs": [
+          "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/generation.json"
+        ],
+        "receipt_event_id": "workflow:20260911T033430Z-c12c3ef3:generation:0f59b2ce34b6",
+        "recorded_at": "2026-09-23T02:32:29Z"
+      }
+    },
     "pending_events": [],
     "selection_errors": []
   },
@@ -547,19 +567,21 @@
         "id": "generation",
         "instruction_bytes": 53450,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 1.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true,
+        "duration_source": "reported"
       },
       {
         "id": "mechanical_validator",
         "instruction_bytes": 0,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 1.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true,
+        "duration_source": "reported"
       },
       {
         "id": "checker_passes",
@@ -718,11 +740,22 @@
     }
   },
   "orchestrator_state": {
-    "next_stage_index": 1,
+    "next_stage_index": 3,
     "completed_stages": [
-      "guard_start"
+      "guard_start",
+      "generation",
+      "mechanical_validator"
     ],
-    "stage_outputs": {}
+    "stage_outputs": {
+      "generation": [
+        "entries/s/suspicion.md",
+        "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/generation.json"
+      ],
+      "mechanical_validator": [
+        "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/validator.json"
+      ]
+    },
+    "stage_started_at": "2026-09-23T02:32:29Z"
   },
   "publication": {
     "mode": "connector"
@@ -733,6 +766,12 @@
       "first_observed_at": "2026-09-11T04:18:22Z",
       "target_at": "2026-09-11T03:54:30Z",
       "stage": "preflight",
+      "action": "record the delay cause and resume the same run; do not restart reviews"
+    },
+    "elapsed_target_exceeded": {
+      "first_observed_at": "2026-09-23T02:32:29Z",
+      "target_at": "2026-09-11T04:34:30Z",
+      "stage": "preflight_pushed",
       "action": "record the delay cause and resume the same run; do not restart reviews"
     }
   }
