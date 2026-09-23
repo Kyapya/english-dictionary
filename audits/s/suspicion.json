@@ -1,10 +1,76 @@
 {
   "schema_version": "content_audit_v4",
-  "headword": "suspicion",
+  "generated_by": "generate_audit_manifest_v1",
   "entry_path": "entries/s/suspicion.md",
-  "final_review": {
-    "decision": "pending",
-    "source_inventory_results": []
+  "cycle_id": "20260911T033430Z-c12c3ef3",
+  "cycle_dir": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3",
+  "body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+  "raw_outputs": {
+    "source_inventory": {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/source_inventory.json",
+      "sha256": "2f7c6b1efe170c2126f769a00d3814d927ce01a787d0dcac057d7268614f23c5",
+      "stage": "source_inventory",
+      "run_id": "source-suspicion-20260911T033430Z-c12c3ef3",
+      "context_id": "source-suspicion-context-20260911T033430Z-c12c3ef3",
+      "input_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+      "prompt_sha256": "0377df9f9e2eeeed2d38f6a7072f675fc4eea38e948ed672004f96bc2d88f783",
+      "recorded_at": "2026-09-23T02:25:47.407813-07:00"
+    },
+    "normal_review": {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/pass_findings.json",
+      "sha256": "ecd14d53e8402752c3afc8b1cbc6ab6f6dd01df0bd9aaaee54579e504a58531e",
+      "stage": "normal_review",
+      "run_id": "normal-suspicion-20260911T033430Z-c12c3ef3",
+      "context_id": "normal-suspicion-context-20260911T033430Z-c12c3ef3",
+      "input_body_sha256": "82f343438dd0057f0cc4edd16ece26ba75380521e8c02dfb806b6da7eb43d3f8",
+      "prompt_sha256": "0b485ac494ff9f114a9061bbc7d789803f05ee6d79b908885efae2da2b0cebf5",
+      "recorded_at": "2026-09-23T12:05:54.838712+00:00"
+    },
+    "cold_review": {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/cold_review.json",
+      "sha256": "64ea255b604cf711d465197361bcdbefbf8736e0cdcf7db50c2c104e4ed6ed14",
+      "stage": "cold_review",
+      "run_id": "cold-suspicion-20260911T033430Z-c12c3ef3",
+      "context_id": "cold-suspicion-context-20260911T033430Z-c12c3ef3",
+      "input_body_sha256": "82f343438dd0057f0cc4edd16ece26ba75380521e8c02dfb806b6da7eb43d3f8",
+      "prompt_sha256": "25c298d1a4305746147791bd442cd725a92737c8f0802b992ea88e5c6ff76a5d",
+      "recorded_at": "2026-09-23T10:14:59.921800+00:00"
+    },
+    "resolutions": {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/resolutions.json",
+      "sha256": "f8ce481910f365022372644a253936af6393b53903d97693b2320a43b3ab72bc",
+      "stage": "resolutions",
+      "run_id": "resolutions-suspicion-20260911T033430Z-c12c3ef3",
+      "context_id": "resolutions-suspicion-context-20260911T033430Z-c12c3ef3",
+      "input_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+      "prompt_sha256": "29c99128ff8815765db677736fd30a96deba91b284dd5a2062533eb16b7d3c75",
+      "recorded_at": "2026-09-23T16:40:33.534921+00:00"
+    },
+    "final_blind": {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/final_blind.json",
+      "sha256": "3b46694c88288392c04b42633c7521334d590a6bd086272d8deeafca02944596",
+      "stage": "final_blind",
+      "run_id": "blind-suspicion-20260911T033430Z-c12c3ef3",
+      "context_id": "blind-suspicion-context-20260911T033430Z-c12c3ef3",
+      "input_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+      "prompt_sha256": "3a481b4b5b1236ff386e148bcacc574570b305e79f5e155e9afcd34091f7785c",
+      "recorded_at": "2026-09-23T16:25:58.073910+00:00"
+    },
+    "blind_seal": {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/blind_seal.json",
+      "sha256": "a658e500d64af8ee2543a2afab4187824d77a81f2f30e5f471c879f2d9067a67",
+      "stage": "blind_seal"
+    },
+    "final_review": {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/final_review.json",
+      "sha256": "90690acc0ec840f455701709a8623e65a73a02fe795f4eaec709e73ee4b31fa4",
+      "stage": "final_review",
+      "run_id": "blind-suspicion-20260911T033430Z-c12c3ef3",
+      "context_id": "blind-suspicion-context-20260911T033430Z-c12c3ef3",
+      "input_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+      "prompt_sha256": "7fee3a9d388e6557c2d8a66702e890b2398ca20228e61072acc81eedafcfac9d",
+      "recorded_at": "2026-09-23T17:10:08.707214+00:00"
+    }
   },
   "source_first_audit": {
     "version": "source_first_audit_v2",
@@ -18,11 +84,11 @@
       "max_final_attempts": 2
     },
     "usage": {
-      "sources_used": 5,
-      "facts_used": 31,
+      "sources_used": 6,
+      "facts_used": 32,
       "research_rounds_used": 2,
       "post_cold_rechecks_used": 9,
-      "final_attempts_used": 0
+      "final_attempts_used": 1
     },
     "research_status": "complete",
     "stop_reason": "coverage_axes_closed",
@@ -97,7 +163,8 @@
           "F-CAM-2",
           "F-CAM-6",
           "F-MW-8",
-          "F-MW-12"
+          "F-MW-12",
+          "F-ENTRY-SPEC-FREQUENCY"
         ],
         "notes": "Captured the chiefly dialectal verb label and source-specific register; no numerical frequency claim is inferred from external sources."
       },
@@ -251,7 +318,7 @@
             "id": "F-MW-4",
             "form": "suspicion",
             "kind": "frame",
-            "statement": "Examples attest suspicion that + clause, including a noncriminal suspicion that a painting is fake; suspicion about someone’s motives; with suspicion; arouse or raise suspicions; and suspicions being confirmed.",
+            "statement": "Examples attest suspicion that + clause, suspicion about someone’s motives, with suspicion, arouse someone’s suspicions, raise some suspicion, and suspicions being confirmed.",
             "source_detail": "Merriam-Webster Dictionary, example set; retrieved lines 115–116. The painting example is paraphrased as a direct illustration of a proposition believed possibly true."
           },
           {
@@ -378,6 +445,22 @@
             "source_detail": "Online Etymology Dictionary, “suspicion” etymology and sense history; retrieved lines 52–56."
           }
         ]
+      },
+      {
+        "id": "S-ENTRY-SPEC",
+        "locator": "prompts/entry_spec_v5.md#頻度 (repository source, lines 433-447)",
+        "source_type": "internal_authoring_specification",
+        "source_role": "methodological_standard",
+        "independence_group": "repository_entry_spec",
+        "facts": [
+          {
+            "id": "F-ENTRY-SPEC-FREQUENCY",
+            "form": "entry_spec_v5 frequency rating rubric",
+            "kind": "editorial_rating_method",
+            "statement": "The article must assign each sense and sense-specific synonym a ten-point rating of English-wide encounter frequency. The rubric permits estimates without strict statistical data, while requiring consistent criteria and caution against overstating regional, specialist, or dated uses.",
+            "source_detail": "Repository authoring specification, section “頻度”, lines 433-447; internal methodology source, not an external dictionary or corpus."
+          }
+        ]
       }
     ],
     "source_union": [
@@ -394,23 +477,20 @@
       {
         "id": "U-DISTRUST",
         "source_fact_ids": [
-          "F-OUP-3",
-          "F-MW-4"
+          "F-OUP-3"
         ],
         "canonical_statement": "The Oxford Advanced American Dictionary’s third sense of suspicion describes a feeling that a person or thing cannot be trusted.",
         "disposition": "included",
-        "rationale": "The article retains the direct distrust sense and gives one source-grounded synonym."
+        "rationale": "The article uses Oxford’s direct definition; Merriam-Webster examples remain assigned to the separate frame union."
       },
       {
         "id": "U-UNCERTAIN-BELIEF",
         "source_fact_ids": [
-          "F-OUP-2",
-          "F-MW-2",
-          "F-MW-4"
+          "F-OUP-2"
         ],
-        "canonical_statement": "Suspicion can denote a belief that a proposition may be true despite lack of proof and can also express broader uncertainty or doubt.",
+        "canonical_statement": "Oxford records a countable belief or suspicion that a proposition is true despite lack of proof.",
         "disposition": "included",
-        "rationale": "Oxford directly defines the countable belief-that sense, and a Merriam-Webster example independently illustrates suspicion about whether a painting is fake. Merriam-Webster also records a broader uncertainty-or-doubt meaning, which informs the related-word comparison; the article does not make it a separate fifth sense."
+        "rationale": "The article uses the directly accessible Oxford meaning only. Cambridge’s search-result record and Merriam-Webster’s broader doubt definition are not treated as direct support for this sense."
       },
       {
         "id": "U-SMALL-AMOUNT",
@@ -428,9 +508,9 @@
           "F-OUP-6",
           "F-MW-4"
         ],
-        "canonical_statement": "Oxford records suspicion that + clause, on suspicion of + offence, and under suspicion; Merriam-Webster examples attest suspicion that + clause, arouse or raise suspicions, and with suspicion.",
+        "canonical_statement": "Oxford records suspicion that + clause, on suspicion of + offence, and under suspicion; Merriam-Webster examples separately attest arouse someone’s suspicions, raise some suspicion, suspicion that + clause, and with suspicion.",
         "disposition": "integrated",
-        "rationale": "The article retains separately attested frames across the wrongdoing, propositional-belief, and distrust senses. It omits the unsupported bare suspicion of crime/wrongdoing combination and the unsupported confirm suspicions that combination."
+        "rationale": "The article retains separately attested patterns and distinguishes the number and frame in arouse someone’s suspicions from raise some suspicion. It omits unsupported bare suspicion of crime/wrongdoing and confirm suspicions that combinations."
       },
       {
         "id": "U-PRONUNCIATION",
@@ -573,59 +653,115 @@
         "canonical_statement": "A Cambridge search result reports a countable belief that something may be true and a that-clause pattern.",
         "disposition": "excluded",
         "rationale": "The entry locator could not be accessed; this search-result fact is retained for audit traceability but does not support the article."
+      },
+      {
+        "id": "U-MW-UNCERTAINTY",
+        "source_fact_ids": [
+          "F-MW-2"
+        ],
+        "canonical_statement": "Merriam-Webster records a broader state of mental uneasiness, uncertainty, or doubt.",
+        "disposition": "integrated",
+        "rationale": "This broader dictionary use informs the article’s comparison with doubt; it is not presented as a separate additional numbered sense."
+      },
+      {
+        "id": "U-FREQUENCY-RUBRIC",
+        "source_fact_ids": [
+          "F-ENTRY-SPEC-FREQUENCY"
+        ],
+        "canonical_statement": "The entry-spec requires learner-facing editorial frequency ratings under a ten-point English-wide encounter rubric and explicitly allows estimates without strict statistical basis.",
+        "disposition": "integrated",
+        "rationale": "The article explicitly labels its values as editorial qualitative estimates, not corpus counts or dictionary-published numbers; the local specification is the primary source for the required rating method."
       }
     ],
     "claim_units": [
       {
+        "id": "C-CORE-IMAGE",
+        "union_ids": [
+          "U-GUILT",
+          "U-UNCERTAIN-BELIEF",
+          "U-DISTRUST",
+          "U-SMALL-AMOUNT"
+        ],
+        "subject_form": "suspicion",
+        "claim_type": "core_image",
+        "statement": "As a learner-facing aid, the article centers on an evidence-limited belief that something may be true, treats wrongdoing as one common object of that belief, distinguishes distrust as an attitude, and keeps the figurative small-amount use separate; it does not assert one historical core.",
+        "article_target_ids": [
+          "core_image:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-OUP-1",
+            "support_summary": "Oxford defines the wrongdoing use as a belief held without proof."
+          },
+          {
+            "source_fact_id": "F-MW-1",
+            "support_summary": "Merriam-Webster defines suspecting something wrong without proof or slight evidence."
+          },
+          {
+            "source_fact_id": "F-OUP-2",
+            "support_summary": "Oxford records a separate countable belief that a proposition may be true."
+          },
+          {
+            "source_fact_id": "F-OUP-3",
+            "support_summary": "Oxford defines suspicion here as the feeling that a person or thing cannot be trusted."
+          },
+          {
+            "source_fact_id": "F-OUP-4",
+            "support_summary": "Oxford records the formal small-amount or slight-sign use."
+          },
+          {
+            "source_fact_id": "F-MW-3",
+            "support_summary": "Merriam-Webster records a barely detectable amount or trace."
+          }
+        ]
+      },
+      {
         "id": "C-GUILT",
         "union_ids": [
-          "U-GUILT"
+          "U-GUILT",
+          "U-UNCERTAIN-BELIEF"
         ],
         "subject_form": "suspicion",
         "claim_type": "sense",
-        "statement": "Suspicion can denote a countable or uncountable belief that someone did something wrong without proof.",
+        "statement": "Suspicion can denote an evidence-limited belief that something may be true; wrongdoing is one common object, and the wrongdoing use is countable or uncountable.",
         "article_target_ids": [
           "definition:001"
         ],
         "source_supports": [
           {
             "source_fact_id": "F-OUP-1",
-            "support_summary": "Oxford defines a belief that someone did something wrong without proof and marks countable and uncountable use."
+            "support_summary": "Oxford defines a belief that a person did something wrong without proof and marks the wrongdoing use countable and uncountable."
           },
           {
             "source_fact_id": "F-MW-1",
-            "support_summary": "Merriam-Webster defines suspecting something wrong without proof or slight evidence, and lists mistrust as a synonym."
+            "support_summary": "Merriam-Webster defines suspecting something wrong without proof or slight evidence."
+          },
+          {
+            "source_fact_id": "F-OUP-2",
+            "support_summary": "Oxford also records a countable belief-that use beyond wrongdoing."
           }
         ]
       },
       {
-        "id": "C-PROPOSITIONAL-BELIEF",
+        "id": "C-DOUBT-RELATION",
         "union_ids": [
-          "U-UNCERTAIN-BELIEF"
+          "U-UNCERTAIN-BELIEF",
+          "U-MW-UNCERTAINTY"
         ],
-        "subject_form": "suspicion",
-        "claim_type": "sense",
-        "statement": "Suspicion can denote a belief that a proposition may be true even when there is no proof, without requiring suspected wrongdoing.",
+        "subject_form": "suspicion / doubt",
+        "claim_type": "lexical_relation",
+        "statement": "The article uses doubt for uncertainty about whether a proposition is true and suspicion also for an evidence-limited belief that the proposition may be true.",
         "article_target_ids": [
-          "definition:001",
-          "grammar_pattern:001",
-          "grammar_pattern:002",
-          "collocation:003",
-          "collocation:004",
           "synonym:001"
         ],
         "source_supports": [
           {
             "source_fact_id": "F-OUP-2",
-            "support_summary": "Oxford directly defines a countable belief or suspicion that a proposition is true despite lack of proof."
+            "support_summary": "Oxford describes suspicion as a countable belief that a proposition may be true despite lack of proof."
           },
           {
             "source_fact_id": "F-MW-2",
-            "support_summary": "Merriam-Webster describes a broader sense of suspicion as mental uneasiness and uncertainty or doubt, informing the related-word comparison."
-          },
-          {
-            "source_fact_id": "F-MW-4",
-            "support_summary": "A Merriam-Webster example paraphrased in the source record shows suspicion that a painting is fake, a noncriminal proposition."
+            "support_summary": "Merriam-Webster describes a broader state of mental uneasiness, uncertainty, or doubt."
           }
         ]
       },
@@ -639,17 +775,12 @@
         "statement": "The Oxford Advanced American Dictionary’s third sense of suspicion describes a feeling that a person or thing cannot be trusted.",
         "article_target_ids": [
           "definition:002",
-          "usage_note:002",
           "synonym:002"
         ],
         "source_supports": [
           {
             "source_fact_id": "F-OUP-3",
             "support_summary": "Oxford defines suspicion here as the feeling that a person or thing cannot be trusted."
-          },
-          {
-            "source_fact_id": "F-MW-4",
-            "support_summary": "Merriam-Webster gives an example of regarding a plan with suspicion."
           }
         ]
       },
@@ -708,8 +839,8 @@
         "statement": "Oxford records suspicion that + clause, on suspicion of + offence, and under suspicion as separate patterns.",
         "article_target_ids": [
           "grammar_pattern:001",
-          "grammar_pattern:003",
-          "grammar_pattern:004",
+          "grammar_pattern:005",
+          "grammar_pattern:006",
           "collocation:001",
           "collocation:002",
           "collocation:003"
@@ -728,13 +859,14 @@
         ],
         "subject_form": "suspicion",
         "claim_type": "frame",
-        "statement": "Merriam-Webster examples attest suspicion that + clause, arouse or raise suspicions, and regard a plan with suspicion.",
+        "statement": "Merriam-Webster examples attest suspicion that + clause, arouse someone's suspicions that + clause, raise some suspicion, and regard a plan with suspicion as separate patterns; its raise example is the bare phrase.",
         "article_target_ids": [
           "grammar_pattern:001",
           "grammar_pattern:002",
-          "grammar_pattern:005",
-          "grammar_pattern:006",
+          "grammar_pattern:003",
+          "grammar_pattern:004",
           "grammar_pattern:007",
+          "collocation:003",
           "collocation:004",
           "collocation:005",
           "collocation:006",
@@ -743,7 +875,7 @@
         "source_supports": [
           {
             "source_fact_id": "F-MW-4",
-            "support_summary": "Merriam-Webster examples include a noncriminal suspicion-that clause, arouse or raise suspicions, and regarding a plan with suspicion."
+            "support_summary": "Merriam-Webster gives separate suspicion-that, arouse-someone's-suspicions-that, raise-some-suspicion, and with-suspicion examples; the raise example is bare and does not attest an added among + that clause."
           }
         ]
       },
@@ -884,7 +1016,688 @@
             "support_summary": "The Merriam-Webster legal definition says suspicion is usually short of belief and cross-references reasonable suspicion."
           }
         ]
+      },
+      {
+        "id": "C-FREQUENCY-RATINGS",
+        "union_ids": [
+          "U-FREQUENCY-RUBRIC"
+        ],
+        "subject_form": "suspicion and the listed synonyms",
+        "claim_type": "editorial_frequency_rating",
+        "statement": "The article labels each sense and sense-specific synonym score as an editorial learner-facing estimate under the entry-spec ten-point English-wide encounter rubric; it does not attribute the figures to a dictionary or corpus.",
+        "article_target_ids": [
+          "narrative:001",
+          "frequency:001",
+          "frequency:002",
+          "frequency:003",
+          "synonym:001",
+          "synonym:002",
+          "synonym:003",
+          "synonym:004"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-ENTRY-SPEC-FREQUENCY",
+            "support_summary": "The repository specification mandates these editorial ratings, defines their intended scale, and permits estimates without strict statistical data."
+          }
+        ]
       }
     ]
-  }
+  },
+  "findings": [
+    {
+      "taxonomy_id": "cross_section_internal_contradiction",
+      "location": {
+        "section": "core_image",
+        "line_start": 30,
+        "line_end": 30,
+        "exact_quote": "suspicion の共通核は、「まだ確証はないが、表面に見えていることの背後に別の事実・意図・問題があるのではないかと感じる」ことである。  "
+      },
+      "severity": "minor",
+      "rationale": "この共通核は、語義1〜3の犯罪・不信・推測には合うが、語義4（line 34）の「ほんの少し、かすかな気配」には、表面の背後に別の事実を推測することが必須ではない。コアイメージの核が語義4の意味範囲を狭く捉えている。",
+      "evidence_link_ids": [],
+      "suggested_direction": "共通核を、不確かな推測だけでなく何かの存在をわずかに感じ取る用法も含む表現に広げる。",
+      "id": "CHK-sense-structure-85e67bdbf80f0e5b",
+      "origin": "check_pass:sense-structure"
+    },
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 46,
+        "line_end": 46,
+        "exact_quote": "cast suspicion on 〈person/action〉＝〈人・行為〉に疑いを向ける"
+      },
+      "severity": "minor",
+      "rationale": "語義1の例文「The altered timestamp cast suspicion on the authenticity of the document.」（72行目）は疑いの対象が文書の真正性という性質・主張であり、〈person/action〉の対象枠から外れる。対象を property/claim まで明示する必要がある。",
+      "evidence_link_ids": [],
+      "suggested_direction": "完全フレーム化：対象枠に〈claim/property〉を加える",
+      "id": "CHK-frame-relation-f20791f0cfdbd2ce",
+      "origin": "check_pass:frame-relation"
+    },
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 113,
+        "line_end": 113,
+        "exact_quote": "regard/view/treat 〈person/claim〉 with suspicion＝〈人・主張〉を疑いの目で見る"
+      },
+      "severity": "minor",
+      "rationale": "語義2の例文「Residents viewed the sudden policy change with suspicion.」（119行目）は対象が人または主張ではなく方針変更・決定である。〈proposal/action/decision〉などの対象枠を示す必要がある。",
+      "evidence_link_ids": [],
+      "suggested_direction": "完全フレーム化：対象枠に〈proposal/action/decision〉を加える",
+      "id": "CHK-frame-relation-f487dc58051550c5",
+      "origin": "check_pass:frame-relation"
+    },
+    {
+      "taxonomy_id": "lexical_relation_mislabel",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 84,
+        "line_end": 84,
+        "exact_quote": "・accusation"
+      },
+      "severity": "minor",
+      "rationale": "accusation は不正をしたという非難・告発そのもの、suspicion は証明前に抱く疑いであり、同義語というより関連する発話・行為である。違い行も明示的な主張と内的な疑いを区別しているため、類義語欄から削除するのが適切。",
+      "evidence_link_ids": [],
+      "suggested_direction": "削除",
+      "id": "CHK-frame-relation-61011dbd10a9eca3",
+      "origin": "check_pass:frame-relation"
+    },
+    {
+      "taxonomy_id": "lexical_relation_mislabel",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 91,
+        "line_end": 91,
+        "exact_quote": "・allegation"
+      },
+      "severity": "minor",
+      "rationale": "allegation は証明前に公に提示された不正についての主張で、suspicion の内的な疑いとは意味役割が異なる関連語である。違い行も提示された主張と発言されていない疑いを区別しているため、類義語欄から削除するのが適切。",
+      "evidence_link_ids": [],
+      "suggested_direction": "削除",
+      "id": "CHK-frame-relation-c6cc8ed5c1faed74",
+      "origin": "check_pass:frame-relation"
+    },
+    {
+      "taxonomy_id": "example_sense_attribution_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 52,
+        "line_end": 52,
+        "exact_quote": "例: The unexplained transfer of funds aroused suspicion among the auditors.  "
+      },
+      "severity": "blocking",
+      "rationale": "段階1でsense:001, sense:002が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "判別語の追加",
+      "id": "CHK-example-attribution-9a7ced3d899cef25",
+      "origin": "check_pass:example-attribution"
+    },
+    {
+      "taxonomy_id": "example_sense_attribution_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 72,
+        "line_end": 72,
+        "exact_quote": "例: The altered timestamp cast suspicion on the authenticity of the document.  "
+      },
+      "severity": "blocking",
+      "rationale": "段階1でsense:002, sense:003が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "判別語の追加",
+      "id": "CHK-example-attribution-4b73cc547d6ec54a",
+      "origin": "check_pass:example-attribution"
+    },
+    {
+      "taxonomy_id": "example_sense_attribution_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 77,
+        "line_end": 77,
+        "exact_quote": "例: The security footage confirmed the manager's suspicions.  "
+      },
+      "severity": "blocking",
+      "rationale": "段階1でsense:001, sense:003が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "判別語の追加",
+      "id": "CHK-example-attribution-4e805feccd4e0426",
+      "origin": "check_pass:example-attribution"
+    },
+    {
+      "taxonomy_id": "example_sense_attribution_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 129,
+        "line_end": 129,
+        "exact_quote": "例: Years of secrecy created a lasting suspicion of the agency.  "
+      },
+      "severity": "blocking",
+      "rationale": "段階1でsense:001, sense:002が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "判別語の追加",
+      "id": "CHK-example-attribution-02488c6d692d08e3",
+      "origin": "check_pass:example-attribution"
+    },
+    {
+      "taxonomy_id": "example_sense_attribution_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 134,
+        "line_end": 134,
+        "exact_quote": "例: The unexplained changes led to deep suspicion among investors.  "
+      },
+      "severity": "blocking",
+      "rationale": "段階1でsense:001, sense:002が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "判別語の追加",
+      "id": "CHK-example-attribution-ef69a9c2d1737319",
+      "origin": "check_pass:example-attribution"
+    },
+    {
+      "taxonomy_id": "example_sense_attribution_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 139,
+        "line_end": 139,
+        "exact_quote": "例: The lack of transparency caused widespread suspicion about the process.  "
+      },
+      "severity": "blocking",
+      "rationale": "段階1でsense:002, sense:003が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "判別語の追加",
+      "id": "CHK-example-attribution-3c70c60e3ba74cda",
+      "origin": "check_pass:example-attribution"
+    },
+    {
+      "taxonomy_id": "example_sense_attribution_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 215,
+        "line_end": 215,
+        "exact_quote": "例: A detailed explanation dispelled our suspicion that the figures had been altered.  "
+      },
+      "severity": "blocking",
+      "rationale": "段階1でsense:001, sense:003が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "判別語の追加",
+      "id": "CHK-example-attribution-85f2d8aab19a336e",
+      "origin": "check_pass:example-attribution"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "pronunciation",
+        "line_start": 15,
+        "line_end": 15,
+        "exact_quote": "米: /səˈspɪʃən/｜英: /səˈspɪʃən/。3音節で、第2音節に主強勢がある。Oxford 系の辞書では語末を /ʃn/ と圧縮して表記することもあるが、Cambridge 系の /ʃ.ən/ と大きく異なる発音を示すものではない。語頭の su- は強く /suː/ と読まず、弱い /sə/ になる。"
+      },
+      "severity": "blocking",
+      "rationale": "insufficient_evidence: Oxford（https://www.oxfordlearnersdictionaries.com/definition/english/suspicion）supports /səˈspɪʃn/ in its UK and US fields, and Merriam-Webster (https://www.merriam-webster.com/dictionary/suspicion) marks second-syllable stress. Neither locator verifies the Cambridge /ʃ.ən/ form or the claim that the difference is insignificant; no Cambridge locator is included in the evidence context.",
+      "evidence_link_ids": [
+        "oxf_pron",
+        "mw_pron"
+      ],
+      "suggested_direction": "Add a Cambridge locator and verify the comparison, or remove the Cambridge comparison.",
+      "id": "CHK-evidence-f26152139b13f089",
+      "origin": "check_pass:evidence"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "etymology",
+        "line_start": 19,
+        "line_end": 19,
+        "exact_quote": "suspicion は中英語・アングロフランス語／古フランス語を経て、ラテン語 suspīciō / suspectionem「疑い、不信」にさかのぼる。さらに suspicere「ひそかに見る、疑って見る、疑う」と関係し、sub-「下から・ひそかに」と specere「見る」に結び付く語族である。現代語の意味では、目の前の証拠だけでは確定できないものを「何かあるのではないか」と見る感覚が中心に残っている。suspect、suspicious も同じ語族に属する。"
+      },
+      "severity": "blocking",
+      "rationale": "The cited etymology facts support the route through Middle English, French forms, and Latin suspicere. However, Etymonline's locator (https://www.etymonline.com/word/suspicion), in its linked suspect entry, describes sub as “up to” and specere as “to look at”; it does not support the article's gloss “下から・ひそかに” for sub-. The linked origin facts also do not establish that the stated modern semantic image “remains” as the word's central meaning. The target extends beyond the linked etymological facts.",
+      "evidence_link_ids": [
+        "oxf_origin",
+        "mw_origin",
+        "ahd_origin",
+        "ety_origin",
+        "ety_spelling"
+      ],
+      "suggested_direction": "Limit the etymology to the sourced historical route and component glosses, or add direct support and mark the modern semantic continuity as an interpretation.",
+      "id": "CHK-evidence-1cb0e731e8d76698",
+      "origin": "check_pass:evidence"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "word_formation",
+        "line_start": 23,
+        "line_end": 25,
+        "exact_quote": "・suspect：動詞では「～ではないかと疑う、〈人〉を犯人・不正の当事者ではないかと疑う」、名詞では「容疑者」、形容詞では「疑わしい、怪しい」。suspicion はその「疑い・疑念」を名詞として表す。\n・suspicious：形容詞。「疑っている、怪しいと思っている」または「疑わしい、怪しい」。人の心理と、対象の性質の両方を表せる。\n・suspiciously：副詞。「疑わしそうに、怪しいほど」。行動の見え方にも、程度が不自然に高いことにも使う。"
+      },
+      "severity": "blocking",
+      "rationale": "Oxford's linked word-family fact (oxf_family; https://www.oxfordlearnersdictionaries.com/definition/english/suspicion) lists the forms and parts of speech. It does not support the target's definitions of suspect, the two meanings of suspicious, or the manner and unusually-high-degree uses of suspiciously. The family-list fact directly supports membership, not these semantic claims.",
+      "evidence_link_ids": [
+        "oxf_family"
+      ],
+      "suggested_direction": "Add direct dictionary evidence for the stated senses and uses, or limit this section to the word-family forms and parts of speech.",
+      "id": "CHK-evidence-7bf51b857c089ddc",
+      "origin": "check_pass:evidence"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 44,
+        "line_end": 44,
+        "exact_quote": "【レジスター/領域】標準語。日常会話、報道、警察・司法関連の記事で広く使う。on suspicion of ...、under suspicion は報道や法執行の文脈で特に多い。ここでいう suspicion は有罪が立証されたことを意味しない。頻度の数値はこの辞書内の学習上の相対目安である。"
+      },
+      "severity": "blocking",
+      "rationale": "The linked Merriam-Webster legal fact (mw_legal; https://www.merriam-webster.com/dictionary/suspicion) supports the no-proof/short-of-belief boundary, not standardness, broad everyday and news distribution, or the claim that these phrases are especially common. Oxford and the Merseyside Police release (https://www.merseyside.police.uk/news/merseyside/news/2026/june-2026/man-arrested-on-suspicion-of-breach-of-the-peace-on-county-road/) provide examples of the phrases, but not their relative frequency or distribution. The linked evidence supports only part of this target.",
+      "evidence_link_ids": [
+        "mw_legal"
+      ],
+      "suggested_direction": "Limit the target to the no-proof boundary and documented examples, or add evidence appropriate to the register and frequency claims.",
+      "id": "CHK-evidence-1d48282c2269ad9b",
+      "origin": "check_pass:evidence"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 113,
+        "line_end": 113,
+        "exact_quote": "suspicion of 〈person/group/idea〉＝〈人・集団・考え〉への不信"
+      },
+      "severity": "blocking",
+      "rationale": "The linked facts for claim_distrust define the distrust sense and give examples such as viewing something with suspicion (Oxford and Merriam-Webster) or looking with suspicion on claims (American Heritage). They do not directly verify the distinct suspicion of + person/group/idea frame. The same unsupported frame is repeated in collocation:009 with the agency example at lines 127–129.",
+      "evidence_link_ids": [
+        "oxf_distrust",
+        "mw_contrast",
+        "ahd_distrust"
+      ],
+      "suggested_direction": "Add a source example for suspicion of + person/group/idea in the distrust sense, or remove or qualify the frame and example.",
+      "id": "CHK-evidence-c694e2ed8a394b1d",
+      "origin": "check_pass:evidence"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 148,
+        "line_end": 149,
+        "exact_quote": "頻度: 〈8/10〉\n違い: distrust は信用の欠如そのものを直接表し、suspicion はその背後に隠れた問題・意図があるのではないかという推測を帯びやすい。"
+      },
+      "severity": "blocking",
+      "rationale": "The linked facts define suspicion as distrust or lack of confidence, but do not support the 8/10 frequency rating or this contrast. Merriam-Webster's linked comparison (mw_contrast; https://www.merriam-webster.com/dictionary/suspicion) says suspicion stresses lack of faith in truth, reality, fairness, or reliability, while mistrust implies doubt based on suspicion; it does not establish the target's stated distinction between distrust and suspicion.",
+      "evidence_link_ids": [
+        "oxf_distrust",
+        "mw_contrast",
+        "ahd_distrust"
+      ],
+      "suggested_direction": "Remove or identify the frequency scale as editorial, and add direct comparative evidence for the stated distinction or narrow the wording to source-supported definitions.",
+      "id": "CHK-evidence-1c2014f25502d6e7",
+      "origin": "check_pass:evidence"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 155,
+        "line_end": 156,
+        "exact_quote": "頻度: 〈7/10〉\n違い: mistrust は distrust に近い一般的な不信。suspicion はより「何か怪しい」という感覚を含みやすい。"
+      },
+      "severity": "blocking",
+      "rationale": "The linked sources do not support the 7/10 frequency rating. Merriam-Webster's linked comparison (mw_contrast; https://www.merriam-webster.com/dictionary/suspicion) says mistrust implies genuine doubt based upon suspicion, whereas the target presents mistrust as general distrust and shifts the distinguishing implication to suspicion. Oxford and American Heritage support the broad distrust sense but not this comparative claim.",
+      "evidence_link_ids": [
+        "oxf_distrust",
+        "mw_contrast",
+        "ahd_distrust"
+      ],
+      "suggested_direction": "Remove or identify the frequency scale as editorial, and align the comparison with direct source evidence or qualify it.",
+      "id": "CHK-evidence-74f1211675818881",
+      "origin": "check_pass:evidence"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 251,
+        "line_end": 251,
+        "exact_quote": "with a suspicion of 〈smile/irony〉＝かすかな〈笑み・皮肉〉を帯びて。"
+      },
+      "severity": "blocking",
+      "rationale": "Oxford's linked fact (oxf_trace; https://www.oxfordlearnersdictionaries.com/definition/english/suspicion) gives “in the suspicion of a smile,” not the target's with + a suspicion of frame; the linked Merriam-Webster and American Heritage facts establish the small-amount sense but do not supply that frame or an irony example. The same with-construction appears in collocation:021's example at lines 270–272, so the source-to-frame link does not directly support those targets.",
+      "evidence_link_ids": [
+        "oxf_trace",
+        "mw_trace",
+        "ahd_trace"
+      ],
+      "suggested_direction": "Use the documented “suspicion of a smile” construction, or add a source that directly supports the with-construction and irony use.",
+      "id": "CHK-evidence-4f7613fe6f400031",
+      "origin": "check_pass:evidence"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 275,
+        "line_end": 275,
+        "exact_quote": "一部の辞書には suspicion を動詞「疑う」として扱う非標準・方言的な用法も載るが、現代の標準英語では通常 suspect を使うため、本記事では主要語義として立てない。"
+      },
+      "severity": "blocking",
+      "rationale": "The linked facts mw_verb, ahd_verb, and ety_verb support that some dictionaries record a marginal verb meaning “suspect.” But usage_note:004 is tagged to sense 4, the small-amount use, so linking the separate verb claim to this sense-specific target creates a semantic mismatch. The linked facts also do not directly establish the frequency claim that modern standard English usually uses suspect.",
+      "evidence_link_ids": [
+        "mw_verb",
+        "ahd_verb",
+        "ety_verb"
+      ],
+      "suggested_direction": "Move the verb note to a lemma-level or word-formation note, and support or qualify the standard-usage statement.",
+      "id": "CHK-evidence-6e65bce7c7568c72",
+      "origin": "check_pass:evidence"
+    },
+    {
+      "id": "CR-1",
+      "location": "語源のラテン語形",
+      "severity": "medium",
+      "description": "suspīciō の対格形として示された suspectionem は誤記と考えられます。",
+      "reason": "本文は「suspīciō / suspectionem「疑い、不信」」としています。ラテン語 suspīciō の対格形は suspīciōnem であり、suspectionem ではありません。このままでは見出し形と異なる語形を語源情報として学習させます。",
+      "suggested_direction": "対格形を示す意図なら suspīciō / suspīciōnem とし、必要に応じて主格形・対格形であることを明記してください。",
+      "scope_anchors": [
+        {
+          "id": "CR-1-A",
+          "exact_quote": "suspīciō / suspectionem「疑い、不信」",
+          "location_hint": "「語源」冒頭のラテン語形"
+        }
+      ],
+      "origin": "cold_review"
+    },
+    {
+      "id": "CR-2",
+      "location": "語源の構成要素の説明",
+      "severity": "medium",
+      "description": "「ひそかに」を suspicere の語義および sub- の語源的意味として示すのは不正確です。",
+      "reason": "本文は「suspicere『ひそかに見る、疑って見る、疑う』」と説明していますが、さらに「sub-「下から・ひそかに」と specere「見る」に結び付く語族である。」ともしています。sub- と specere の分解で示される基本像は「下から／上を見上げて見る」で、「ひそかに」は接頭辞 sub- の意味として導けません。この説明は疑いの意味を語源の直訳と誤認させます。",
+      "suggested_direction": "sub- は「下から」などに限って説明し、suspicere は「下から見上げる」から「疑う」へ展開した語として記述するなど、「ひそかに」を語源的成分として扱わないでください。",
+      "scope_anchors": [
+        {
+          "id": "CR-2-A",
+          "exact_quote": "suspicere「ひそかに見る、疑って見る、疑う」",
+          "location_hint": "「語源」2文目の suspicere の説明"
+        },
+        {
+          "id": "CR-2-B",
+          "exact_quote": "sub-「下から・ひそかに」と specere「見る」に結び付く語族である。",
+          "location_hint": "「語源」2文目の sub- と specere の説明"
+        }
+      ],
+      "origin": "cold_review"
+    },
+    {
+      "id": "CR-3",
+      "location": "語義3の可算性",
+      "severity": "low",
+      "description": "命題内容への疑い・推測を表す語義3を可算名詞だけとして示すのは狭すぎます。",
+      "reason": "見出しは「3. 【名詞・可算】～ではないかという気、確証のない推測」としています。この用法では a suspicion that ... の可算形だけでなく、たとえば There was growing suspicion that the figures were incomplete. のような不可算形も普通に成り立ちます。可算性をこの語義全体の固定条件にすると、冠詞のない形を誤りだと一般化させます。",
+      "suggested_direction": "語義3の見出しを「可算・不可算」とし、a suspicion that ... と growing/widespread suspicion that ... のような用例で違いを示してください。",
+      "scope_anchors": [
+        {
+          "id": "CR-3-A",
+          "exact_quote": "3. 【名詞・可算】～ではないかという気、確証のない推測",
+          "location_hint": "「意味・用法・関連表現」語義3の見出し"
+        }
+      ],
+      "origin": "cold_review"
+    },
+    {
+      "id": "CR-4",
+      "location": "語義1の類義語 allegation の定義",
+      "severity": "medium",
+      "description": "allegation を公に述べられた主張に限る定義になっています。",
+      "reason": "本文は「定義: 証明されていない段階で公に述べられた不正・違法行為についての主張。」としています。allegation は不正などをしたという未証明の申し立て・主張を指しますが、公表済みであることは必須ではありません。社内調査や正式な苦情の中で示される非公開の申し立ても allegation となり得るため、「公に」は適用範囲を不必要に狭めます。",
+      "suggested_direction": "「公に」を外し、誰かが不正・違法行為をしたという未証明の申し立て・主張として定義してください。",
+      "scope_anchors": [
+        {
+          "id": "CR-4-A",
+          "exact_quote": "定義: 証明されていない段階で公に述べられた不正・違法行為についての主張。",
+          "location_hint": "語義1「類義語」allegation の定義"
+        }
+      ],
+      "origin": "cold_review"
+    }
+  ],
+  "resolutions": [
+    {
+      "id": "CHK-sense-structure-85e67bdbf80f0e5b",
+      "finding_id": "CHK-sense-structure-85e67bdbf80f0e5b",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "コアイメージを確証のない見立てを中心にした学習上の目安として改め、少量・兆しの語義を併記し、全用法が共通の語源的意味を持つとの主張ではないことを明記した。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-frame-relation-f20791f0cfdbd2ce",
+      "finding_id": "CHK-frame-relation-f20791f0cfdbd2ce",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "cast suspicion on の対象枠と文書の真正性を扱う例を削除し、残したthat節・容疑・raise some suspicionの枠に整理した。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-frame-relation-f487dc58051550c5",
+      "finding_id": "CHK-frame-relation-f487dc58051550c5",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "対象枠を person/thing とし、方針変更など物事を対象とする本文例が含まれるよう記述を改めた。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-frame-relation-61011dbd10a9eca3",
+      "finding_id": "CHK-frame-relation-61011dbd10a9eca3",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "accusation は疑いそのものと異なるため、語義1の類義語欄から削除した。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-frame-relation-c6cc8ed5c1faed74",
+      "finding_id": "CHK-frame-relation-c6cc8ed5c1faed74",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "allegation は公に提示する主張であり疑いそのものではないため、類義語欄から削除した。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-example-attribution-9a7ced3d899cef25",
+      "finding_id": "CHK-example-attribution-9a7ced3d899cef25",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "曖昧な資金移動の例を外し、犯罪名を明示する on suspicion of fraud の例に置き換えた。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-example-attribution-4b73cc547d6ec54a",
+      "finding_id": "CHK-example-attribution-4b73cc547d6ec54a",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "文書の真正性を対象にするcast suspicion onの例を削除し、犯罪・不正への疑いと分かる例に整理した。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-example-attribution-4e805feccd4e0426",
+      "finding_id": "CHK-example-attribution-4e805feccd4e0426",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "対象が曖昧なmanager’s suspicionsの例を外し、売上記録の改ざんを疑うthat節の例に置き換えた。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-example-attribution-02488c6d692d08e3",
+      "finding_id": "CHK-example-attribution-02488c6d692d08e3",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "agencyへのsuspicion例を削除し、出典で確認できる人・物事を疑いの目で見る態度の例に絞った。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-example-attribution-ef69a9c2d1737319",
+      "finding_id": "CHK-example-attribution-ef69a9c2d1737319",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "語義1と語義2の両方に読めるdeep suspicionの例を削除した。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-example-attribution-3c70c60e3ba74cda",
+      "finding_id": "CHK-example-attribution-3c70c60e3ba74cda",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "語義2と少量・兆しの語義のどちらにも読めるprocess例を削除し、原因を述べるraise some suspicionの例に整理した。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-example-attribution-85f2d8aab19a336e",
+      "finding_id": "CHK-example-attribution-85f2d8aab19a336e",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "複数の語義に取れるdispelled suspicionの例を削除し、犯罪・不正の疑いまたは命題内容が明示された例に整理した。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-evidence-f26152139b13f089",
+      "finding_id": "CHK-evidence-f26152139b13f089",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "発音の記述をOxfordの米語IPAとMerriam-Websterの音節区切り・強勢情報に限定し、未確認のCambridge比較を削除した。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-evidence-1cb0e731e8d76698",
+      "finding_id": "CHK-evidence-1cb0e731e8d76698",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "語源を出典別に確認できる歴史的形と経路の差に限定し、未確認の語素分解と現代語への意味継承の断定を削除した。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-evidence-7bf51b857c089ddc",
+      "finding_id": "CHK-evidence-7bf51b857c089ddc",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "語形成欄を出典で確認できるsuspiciousの用法と派生語の品詞に絞り、未確認だったsuspectの詳しい語義や副詞の意味・頻度の主張を削除した。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-evidence-1d48282c2269ad9b",
+      "finding_id": "CHK-evidence-1d48282c2269ad9b",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "広い使用域や句の相対頻度を断定する文を削り、頻度スコアを編集上の定性的推定と明記して、容疑表現と確証前の境界を区別した。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-evidence-c694e2ed8a394b1d",
+      "finding_id": "CHK-evidence-c694e2ed8a394b1d",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "根拠のないsuspicion of + person/group/ideaの枠とagency例を削除し、確認できるwith suspicionの態度構文を残した。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-evidence-1c2014f25502d6e7",
+      "finding_id": "CHK-evidence-1c2014f25502d6e7",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "頻度スコアが編集上の推定であると明記し、distrustの定義と語義差を出典が支える範囲に狭めた。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-evidence-74f1211675818881",
+      "finding_id": "CHK-evidence-74f1211675818881",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "根拠のないmistrustとの比較と類義語項目を削除した。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-evidence-4f7613fe6f400031",
+      "finding_id": "CHK-evidence-4f7613fe6f400031",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "未確認のwith a suspicion of smile/irony構文を削除し、辞書で確認できるa suspicion of a smile / truthの形に改めた。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CHK-evidence-6e65bce7c7568c72",
+      "finding_id": "CHK-evidence-6e65bce7c7568c72",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "動詞用法の注記を語形成欄へ移してchiefly dialectalと出典ラベルに合わせ、確認できない標準用法との比較を削除した。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CR-1",
+      "finding_id": "CR-1",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "ラテン語形を一つに断定せず、記録済み辞書の異表記を出典別に記載した。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CR-2",
+      "finding_id": "CR-2",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "「ひそかに」の語義、sub-/specereの語素分解、現代語の意味へ直結させる説明を削除した。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CR-3",
+      "finding_id": "CR-3",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "命題の真偽を扱う用法を独立語義として過分割せず、可算・不可算の説明を出典ごとの範囲に限定した。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    },
+    {
+      "id": "CR-4",
+      "finding_id": "CR-4",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "allegationを類義語として扱う項目を削除し、公的・私的範囲の未確認な主張を残さなかった。",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+    }
+  ],
+  "final_decision": {
+    "decision": "pass",
+    "blockers": [],
+    "notes": [],
+    "reviewed_at": "2026-09-23T17:10:08.707214+00:00",
+    "blind_output_sha256": "a58762b9171b13a836e25df65019386c31219cfe51a830e2c6c6532b01d61421"
+  },
+  "workflow_revision": {
+    "schema_version": "workflow_revision_v1",
+    "artifacts": {
+      "pre_blind_resolution": {
+        "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/pre_blind_resolution.json",
+        "sha256": "a8ebdd8cc233adf1c0b25bc53c20b4df23baa2dde0f2ab5e8dc1af00ac6030b1"
+      },
+      "pre_blind_revision": {
+        "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/pre_blind_revision.json",
+        "sha256": "e4dc9d1af168802fda37bd253bda537b9c046ce3cae13b8029c3fe169ec1cfa8"
+      },
+      "checker_recheck_manifest": {
+        "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/checker_recheck_manifest.json",
+        "sha256": "0663c2ccba935c7c036bf60e469eecd0673fb94f95bcb63f39329a9357a7adf6"
+      },
+      "post_blind_resolution": {
+        "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/post_blind_resolution.json",
+        "sha256": "baaadef2f7f0ed1020fc62bb1c483edb1785f6a216778481a8fba5bc2e7ff9df"
+      },
+      "post_blind_verification": {
+        "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/post_blind_verification.json",
+        "sha256": "90f1d69c84ad7faedada4e46217de34d7be7d02a463729ebc1abf94d4d94a5aa"
+      }
+    },
+    "targeted_adjudications": []
+  },
+  "invalidated_by": [],
+  "review_liveness_errors": []
 }

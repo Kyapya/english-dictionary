@@ -278,10 +278,26 @@ def validate_final_review_liveness(
             if isinstance(row, dict)
         ]
         notes = review.get("notes")
-        has_trace = (
+        has_top_level_trace = (
             isinstance(notes, list)
             and any(len(normalize_text(note)) >= 40 for note in notes)
         )
+        finding_rows = [
+            row for row in review.get("finding_results", [])
+            if isinstance(row, dict)
+        ]
+        finding_notes = [normalize_text(row.get("notes")) for row in finding_rows]
+        has_finding_trace = (
+            bool(finding_rows)
+            and all(len(note) >= 20 for note in finding_notes)
+            and not _distinctness_errors(
+                finding_rows,
+                text_key="notes",
+                id_keys=("id",),
+                label="finding_results",
+            )
+        )
+        has_trace = has_top_level_trace or has_finding_trace
         if rows and all(row.get("status") == "pass" for row in rows) and not has_trace:
             return [
                 f"{C1_SYNTHETIC_REVIEW}: concise final review is an all-pass "

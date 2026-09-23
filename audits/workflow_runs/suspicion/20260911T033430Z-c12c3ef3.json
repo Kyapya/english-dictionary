@@ -18,12 +18,12 @@
     "research_queries": 6,
     "candidate_pages": 10
   },
-  "status": "in_progress",
-  "stage": "blind_seal_complete",
+  "status": "completed",
+  "stage": "completed",
   "started_at": "2026-09-11T03:34:30Z",
   "deadline_at": "2026-09-11T04:34:30Z",
   "pre_draft_deadline_at": "2026-09-11T03:54:30Z",
-  "last_heartbeat_at": "2026-09-23T16:26:57Z",
+  "last_heartbeat_at": "2026-09-23T17:12:57Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-11T04:18:22Z",
@@ -64,6 +64,16 @@
       "stage": "blind_seal_complete",
       "recorded_at": "2026-09-23T16:26:57Z",
       "notes": "orchestrator completed blind_seal"
+    },
+    {
+      "stage": "final_review_complete",
+      "recorded_at": "2026-09-23T17:11:18Z",
+      "notes": "orchestrator completed final_review"
+    },
+    {
+      "stage": "completed",
+      "recorded_at": "2026-09-23T17:12:57Z",
+      "notes": "orchestrator completed export"
     }
   ],
   "stop_reason": "",
@@ -656,8 +666,8 @@
     "schema_version": "workflow_cost_v1",
     "total_cycles": 1,
     "total_revisions": 1,
-    "total_duration_seconds": 0.0,
-    "completed_at": "",
+    "total_duration_seconds": 1085907.13218,
+    "completed_at": "2026-09-23T17:12:57Z",
     "stages": [
       {
         "id": "guard_start",
@@ -762,28 +772,31 @@
         "id": "final_review",
         "instruction_bytes": 4783,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 1811.316007,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true,
+        "duration_source": "measured_wall"
       },
       {
         "id": "status_update",
         "instruction_bytes": 0,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 88.239047,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true,
+        "duration_source": "measured_wall"
       },
       {
         "id": "export",
         "instruction_bytes": 0,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 11.13218,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true,
+        "duration_source": "measured_wall"
       }
     ],
     "checker_passes": [
@@ -852,7 +865,7 @@
     }
   },
   "orchestrator_state": {
-    "next_stage_index": 10,
+    "next_stage_index": 13,
     "completed_stages": [
       "guard_start",
       "generation",
@@ -863,7 +876,10 @@
       "checker_recheck",
       "final_blind",
       "blind_seal",
-      "post_blind_resolution"
+      "post_blind_resolution",
+      "final_review",
+      "status_update",
+      "export"
     ],
     "stage_outputs": {
       "generation": [
@@ -898,9 +914,22 @@
         "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/post_blind_resolution.json",
         "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/post_blind_verification.json",
         "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/resolutions.json"
+      ],
+      "final_review": [
+        "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/final_review.json",
+        "audits/s/suspicion.json"
+      ],
+      "status_update": [
+        "entries/s/suspicion.md",
+        "queue/words.csv",
+        "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/status_update.json"
+      ],
+      "export": [
+        "exports/dictionary_all.md",
+        "exports/dictionary_index.csv"
       ]
     },
-    "stage_started_at": "2026-09-23T16:41:07Z"
+    "stage_started_at": "2026-09-23T17:12:57Z"
   },
   "publication": {
     "mode": "connector"

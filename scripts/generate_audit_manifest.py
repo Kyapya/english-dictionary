@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import copy
 import hashlib
 import json
 import subprocess
@@ -136,6 +137,28 @@ def _is_historical_cycle(cycle_dir: Path) -> bool:
 
 def body_sha256(entry_path: Path) -> str:
     return _sha_bytes(_entry_body(entry_path).encode("utf-8"))
+
+
+def _source_gate_with_final_review_attempt(
+    source_gate: dict[str, Any], final_review: dict[str, Any]
+) -> dict[str, Any]:
+    derived = copy.deepcopy(source_gate)
+    usage = derived.get("usage")
+    count = usage.get("final_attempts_used") if isinstance(usage, dict) else None
+    if (
+        final_review.get("decision") in {"pass", "reject"}
+        and isinstance(final_review.get("reviewer"), dict)
+        and isinstance(final_review.get("recorded_at"), str)
+        and final_review["recorded_at"].strip()
+        and isinstance(count, int)
+        and not isinstance(count, bool)
+        and count == 0
+    ):
+        # A preserved, ingested final-review response is evidence of one
+        # completed attempt in legacy runs missing the pre-attempt counter.
+        # Keep the source inventory immutable because checker rechecks bind it.
+        usage["final_attempts_used"] = 1
+    return derived
 
 
 def _relative(path: Path, repo_root: Path) -> str:
@@ -851,16 +874,19 @@ def generate_manifest(
         for value in raw["source_inventory"].get("evidence_link_ids", [])
         if str(value).strip()
     )
-    source_gate = raw["source_inventory"].get("source_first_audit")
-    if not isinstance(source_gate, dict):
+    raw_source_gate = raw["source_inventory"].get("source_first_audit")
+    if not isinstance(raw_source_gate, dict):
         raise ValueError("source_inventory.source_first_audit must be an object")
+    decision = raw["final_review"].get("decision")
+    source_gate = _source_gate_with_final_review_attempt(
+        raw_source_gate, raw["final_review"]
+    )
     source_union_ids = {
         str(item["id"])
         for item in source_gate.get("source_union", [])
         if isinstance(item, dict) and str(item.get("id", "")).strip()
     }
 
-    decision = raw["final_review"].get("decision")
     if decision not in {"pass", "reject"}:
         raise ValueError("final_review.decision must be pass or reject")
     passing = decision == "pass"

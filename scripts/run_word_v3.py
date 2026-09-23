@@ -958,6 +958,23 @@ def _review_output_metadata(
     return metadata
 
 
+def _final_review_blind_output_sha256(packet: dict[str, Any]) -> str | None:
+    seal = packet.get("blind_seal")
+    if not isinstance(seal, dict):
+        context = packet.get("review_context")
+        seal = context.get("blind_seal") if isinstance(context, dict) else None
+    if not isinstance(seal, dict):
+        return None
+    digest = seal.get("blind_output_sha256")
+    if (
+        isinstance(digest, str)
+        and len(digest) == 64
+        and all(character in "0123456789abcdef" for character in digest)
+    ):
+        return digest
+    return None
+
+
 def _normal_review_metadata(
     manifest: dict[str, Any], entry: Path, *, repo_root: Path
 ) -> dict[str, Any]:
@@ -1097,11 +1114,10 @@ def prepare_review_inputs(
                 packet[name.removesuffix(".json")] = json.loads(
                     path.read_text(encoding="utf-8")
                 )
-        seal = packet.get("blind_seal")
-        if isinstance(seal, dict) and seal.get("blind_output_sha256"):
-            packet["_output_metadata"]["blind_output_sha256"] = seal[
-                "blind_output_sha256"
-            ]
+        blind_output_sha256 = _final_review_blind_output_sha256(packet)
+        if blind_output_sha256 is None:
+            raise ValueError("final-review packet must bind the sealed blind output")
+        packet["_output_metadata"]["blind_output_sha256"] = blind_output_sha256
     packet_path = cycle_dir / f"{stage}.request.json"
     if manifest.get("review_preflight") == review_preflight.VERSION:
         packet["contract_version"] = review_preflight.VERSION
@@ -1460,6 +1476,18 @@ def ingest_handoff_review(
         if not isinstance(metadata, dict):
             raise ValueError("review request has no output metadata")
         value.update(metadata)
+        if stage == "final_review":
+            blind_output_sha256 = _final_review_blind_output_sha256(request_packet)
+            if blind_output_sha256 is None:
+                raise ValueError(
+                    "final-review request does not bind the sealed blind output"
+                )
+            supplied_blind_hash = value.get("blind_output_sha256")
+            if supplied_blind_hash not in {None, blind_output_sha256}:
+                raise ValueError(
+                    "final-review response blind_output_sha256 differs from its sealed input"
+                )
+            value["blind_output_sha256"] = blind_output_sha256
         value["recorded_at"] = datetime.now(timezone.utc).isoformat()
         value["reviewer"] = reviewer
         errors = review_liveness.validate_reviewer(

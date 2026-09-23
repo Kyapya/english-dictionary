@@ -16,6 +16,8 @@ import handoff_provenance as provenance
 import publish_checkpoint as publish
 import review_liveness
 import merge_preflight
+import run_word_v3
+import generate_audit_manifest
 from file_lock import exclusive_lock
 
 
@@ -83,6 +85,50 @@ class ProvenanceTests(unittest.TestCase):
         })
         self.assertIn(review_liveness.C1_SYNTHETIC_REVIEW,
                       review_liveness.invalidation_ids(errors))
+
+    def test_concise_all_pass_with_distinct_finding_notes_has_trace(self):
+        errors = review_liveness.validate_final_review_liveness({
+            "schema_version": "final_review_v3",
+            "target_results": [{"id": "target:1", "status": "pass"}],
+            "finding_results": [
+                {"id": "finding:1", "status": "pass",
+                 "notes": "The revised definition removes the unsupported claim."},
+                {"id": "finding:2", "status": "pass",
+                 "notes": "The replacement example now names the suspected offense."},
+            ],
+            "notes": [],
+        })
+        self.assertNotIn(review_liveness.C1_SYNTHETIC_REVIEW,
+                         review_liveness.invalidation_ids(errors))
+
+    def test_final_review_hash_is_read_from_compact_seal_context(self):
+        digest = "a" * 64
+        self.assertEqual(
+            run_word_v3._final_review_blind_output_sha256({
+                "review_context": {"blind_seal": {"blind_output_sha256": digest}}
+            }),
+            digest,
+        )
+        self.assertEqual(
+            run_word_v3._final_review_blind_output_sha256({
+                "blind_seal": {"blind_output_sha256": digest}
+            }),
+            digest,
+        )
+        self.assertIsNone(run_word_v3._final_review_blind_output_sha256({}))
+
+    def test_final_review_attempt_count_is_derived_without_mutating_inventory(self):
+        source_gate = {"usage": {"final_attempts_used": 0}}
+        final_review = {
+            "decision": "pass",
+            "reviewer": {"agent_id": "independent-reviewer"},
+            "recorded_at": "2026-09-23T12:00:00+00:00",
+        }
+        derived = generate_audit_manifest._source_gate_with_final_review_attempt(
+            source_gate, final_review
+        )
+        self.assertEqual(source_gate["usage"]["final_attempts_used"], 0)
+        self.assertEqual(derived["usage"]["final_attempts_used"], 1)
 
     def test_source_reviewer_must_declare_identity_and_model(self):
         with self.assertRaisesRegex(ValueError, "agent_id"):
