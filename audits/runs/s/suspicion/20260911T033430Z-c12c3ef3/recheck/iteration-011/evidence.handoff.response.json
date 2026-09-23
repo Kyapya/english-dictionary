@@ -1,0 +1,106 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "evidence",
+  "request_sha256": "a188541eb7a0e5b5f3733a7d7b40726b36ca64b409a39ac99b8d6eca5e60aef3",
+  "reviewer": {
+    "agent_id": "/root/suspicion_evidence_recheck_11",
+    "declared_model": "GPT-6",
+    "mode": "handoff"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 36,
+        "line_end": 36,
+        "exact_quote": "【頻度表記】頻度スコアは語全体の使用回数やコーパス値ではなく、直前の定義が示す語義について、現代英語全体での遭遇機会を編集上評価した目安である。10＝会話・文章で日常的に出会う基本語、8～9＝日常・新聞・ビジネスで広く使われる、6～7＝使われる機会はあるが語義や場面がやや限られる、4～5＝比較的限られた場面で使われる、2～3＝特定の分野・地域・文体に偏る、1＝現代英語ではまれ。厳密な統計値や語義間の順位を示さない。"
+      },
+      "severity": "blocking",
+      "rationale": "This rubric defines a non-statistical editorial scale, but the linked facts for frequency:001–004 establish only the four senses and their patterns. None of the five opened source locators supplies sense-specific frequency labels, usage counts, or an evidentiary basis for the assigned 8/10, 7/10, 8/10, and 2/10 ratings. The rubric explains the scale but not why these ratings follow; the required two_sources_or_primary support is therefore missing.",
+      "evidence_link_ids": [
+        "frequency:001",
+        "frequency:002",
+        "frequency:003",
+        "frequency:004"
+      ],
+      "suggested_direction": "Attach direct, sense-specific frequency evidence or a transparent editorial scoring basis for each score; otherwise remove or hold the ratings."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 94,
+        "line_end": 94,
+        "exact_quote": "違い: doubt は真偽一般への不確かさを広く表し、人の誠実さや不正の可能性が対象となるときに suspicion と重なる。suspicion は何か悪いことがあったという見方をより帯びやすい。"
+      },
+      "severity": "blocking",
+      "rationale": "For synonym:002, the attached claim_wrongdoing facts support the suspicion/wrongdoing definition (and one mentions mistrust), but do not establish the sense-specific comparison with doubt or the claim that suspicion more strongly implies wrongdoing. The request’s doubt-related fact, mw_uncertainty, is attached to the separate belief/uncertainty claim and describes another sense. The supplied links therefore do not directly support this lexical distinction for sense 1.",
+      "evidence_link_ids": [
+        "synonym:002"
+      ],
+      "suggested_direction": "Link a direct source fact for the doubt comparison in this wrongdoing sense, or narrow the distinction to what the attached sources establish."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 141,
+        "line_end": 141,
+        "exact_quote": "違い: skepticism は証拠を求める知的・批判的な態度にも使え、悪意や不正を疑うとは限らない。suspicion は相手の動機や隠れた問題への警戒を帯びやすい。"
+      },
+      "severity": "blocking",
+      "rationale": "The source facts attached to claim_distrust support distrust and the suspicion–mistrust distinction; none records or links the skepticism contrast stated here. Merriam-Webster’s opened suspicion page has a separate “Choose the Right Synonym” passage directly relevant to skepticism, but that evidence is not represented among the facts linked to this target. As routed, the lexical distinction is unsupported.",
+      "evidence_link_ids": [
+        "synonym:005"
+      ],
+      "suggested_direction": "Add and link the direct Merriam-Webster comparison for skepticism, or narrow/remove the unsupported comparison."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 86,
+        "line_end": 86,
+        "exact_quote": "頻度: 〈7/10〉"
+      },
+      "severity": "blocking",
+      "rationale": "The synonym targets also assign scores to mistrust, doubt, distrust, skepticism, belief, hint, and trace (synonym:001–009). Their linked claim-unit facts establish relationships or definitions for suspicion, not the comparators’ encounter frequency or the numeric values 7/10, 10/10, 8/10, 7/10, 8/10, 10/10, 9/10, 8/10, and 8/10. The article’s global rubric labels these editorial estimates, but none of the opened locators supports the individual estimates under the required evidence policy.",
+      "evidence_link_ids": [
+        "synonym:001",
+        "synonym:002",
+        "synonym:003",
+        "synonym:004",
+        "synonym:005",
+        "synonym:006",
+        "synonym:007",
+        "synonym:008",
+        "synonym:009"
+      ],
+      "suggested_direction": "Supply direct frequency evidence or a documented editorial basis for each comparator rating, or remove those ratings."
+    }
+  ],
+  "unrouted_observations": [],
+  "locators_opened": [
+    {
+      "source_id": "american_heritage",
+      "url": "https://ahdictionary.com/word/search.html?q=suspicion"
+    },
+    {
+      "source_id": "etymonline",
+      "url": "https://www.etymonline.com/word/suspicion"
+    },
+    {
+      "source_id": "merriam_webster",
+      "url": "https://www.merriam-webster.com/dictionary/suspicion"
+    },
+    {
+      "source_id": "merseyside_police",
+      "url": "https://www.merseyside.police.uk/news/merseyside/news/2026/june-2026/man-arrested-on-suspicion-of-breach-of-the-peace-on-county-road/"
+    },
+    {
+      "source_id": "oxford_learner",
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion"
+    }
+  ]
+}

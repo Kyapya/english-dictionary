@@ -1,0 +1,23 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "532d94350bb2df4c2b61bd6f767ac9a34717307c9de2c1245a6a8a8a8c0fb5c9",
+  "stage2_request_sha256": "34fee5d3d3fd73f839b3b873b32749129b807feefbddbfd1684c69392ab91ca3",
+  "blind_record_sha256": "6f035c1e42b4a632ba89d7a25cd14a17c6cb91d5b401af92d6a6778149330c97",
+  "reviewer": {
+    "agent_id": "/root/suspicion_frame_recheck_6",
+    "declared_model": "GPT-6",
+    "mode": "handoff"
+  },
+  "adjudications": [
+    {
+      "item_id": "ant-d4aedea8f1bc",
+      "flags": [],
+      "rationale": "段階1の「信頼」軸は、語義2の定義が示す「信用せず…疑って見る態度」と広義の mistrust / distrust から導け、trust は同じ信頼状態軸の対向側を表す。分類「状態」は両語が態度・信頼状態の対立であることに合う。違い行はこの対立を明示しており、軸の転移、型外の関連概念、自己否定には当たらない（F2〜F4なし）。",
+      "suggested_direction": null,
+      "f4_severity": null
+    }
+  ],
+  "frame_findings": [],
+  "unrouted_observations": []
+}

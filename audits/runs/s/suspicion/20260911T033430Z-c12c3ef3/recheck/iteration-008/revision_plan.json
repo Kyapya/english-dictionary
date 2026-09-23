@@ -1,0 +1,33 @@
+{
+  "schema_version": "workflow_revision_v1",
+  "before_body_sha256": "52ed2e28e41104b4cacc7cb2aaa7353f83b2f61363134760198a80205511d12f",
+  "after_body_sha256": "a430dbc9612e6a5d75cf801ada3f89dfe27700ed87c526a264239330877126cb",
+  "changed_units": [
+    "sense_structure"
+  ],
+  "full_recheck": false,
+  "fallback_reasons": [],
+  "invalidated_passes": [
+    "evidence",
+    "example-attribution",
+    "frame-relation",
+    "qualification",
+    "sense-structure",
+    "translation"
+  ],
+  "reusable_passes": [
+    "pronunciation"
+  ],
+  "semantic_invalidated_passes": [
+    "evidence",
+    "example-attribution",
+    "frame-relation",
+    "qualification",
+    "sense-structure",
+    "translation"
+  ],
+  "request_binding_expansion": {
+    "passes": [],
+    "reason": "No additional normalized request bindings changed."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "qualification",
+  "request_sha256": "2db08d9a882ed980f7d2def49ad9118884b584a41e8df63f6eafece10d7e66fe",
+  "reviewer": {
+    "agent_id": "/root/suspicion_qualification_recheck_6",
+    "declared_model": "GPT-6",
+    "mode": "handoff"
+  },
+  "findings": [],
+  "unrouted_observations": [
+    {
+      "location": {
+        "section": "word_formation",
+        "line_start": 24,
+        "line_end": 24,
+        "exact_quote": "なお、動詞 suspicion は Merriam-Webster では主に方言的、American Heritage では口語的な用法として記載される。本記事では中心的な名詞用法として扱わない。  "
+      },
+      "observation": "「動詞 suspicion」と「中心的な名詞用法として扱わない」の関係が文面上やや不明瞭です。今回の3分類（地域・絶対表現・専門慣用性）には該当しない編集上の明瞭さの観察として記録します。"
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "stage": 1,
+  "reviewer": {
+    "agent_id": "/root/suspicion_example_recheck_7",
+    "declared_model": "GPT-6",
+    "mode": "handoff"
+  },
+  "input_body_sha256": "52ed2e28e41104b4cacc7cb2aaa7353f83b2f61363134760198a80205511d12f",
+  "blind_request_sha256": "b1601f8135e425431fc8c02640f8124df478e8704a3c3a96debca7e2995594d2",
+  "recorded_at": "2026-09-23T15:42:24Z",
+  "attributions": [
+    {
+      "example_id": "ex-2b53990e61fe",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "next_best_candidate_sense_id": "sense:002",
+      "discriminating_terms": [
+        "suspicion of fraud"
+      ],
+      "rationale": "The phrase 'suspicion of fraud' makes the noun concern possible wrongdoing, so sense:001 is the unique best fit. Sense:002 is a weaker next-best reading because it describes broad mistrust of a person, organization, motive, or idea, whereas this complement names a specific fraudulent act."
+    },
+    {
+      "example_id": "ex-b9f2aa56121f",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "next_best_candidate_sense_id": "sense:002",
+      "discriminating_terms": [
+        "that the meeting will finish earlier than planned"
+      ],
+      "rationale": "The clause 'that the meeting will finish earlier than planned' supplies the content of a tentative prediction, making sense:003 the unique best fit. Sense:002 is a weaker next-best reading because the clause expresses a guess about an event's timing, not a general distrustful attitude toward a person, organization, motive, or idea."
+    },
+    {
+      "example_id": "ex-5fc87e2d6655",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "next_best_candidate_sense_id": "sense:002",
+      "discriminating_terms": [
+        "under suspicion"
+      ],
+      "rationale": "The frame 'under suspicion' presents the contractor as a possible culprit whose status awaits verification, so sense:001 is the unique best fit. Sense:002 is a weaker next-best reading because general mistrust is an attitude toward someone or something, while this frame describes a person being suspected pending a check."
+    },
+    {
+      "example_id": "ex-827a916878ec",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "next_best_candidate_sense_id": "sense:003",
+      "discriminating_terms": [
+        "a suspicion of citrus"
+      ],
+      "rationale": "The phrase 'a suspicion of citrus' describes a faint citrus quality in the sauce's taste, making sense:004 the unique best fit. Sense:003 is a weaker next-best reading because this is a subtle flavor trace, not an uncertain proposition about whether a fact is true."
+    },
+    {
+      "example_id": "ex-82b083b8b2e0",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "next_best_candidate_sense_id": "sense:003",
+      "discriminating_terms": [
+        "had taken the missing laptops"
+      ],
+      "rationale": "The complement 'had taken the missing laptops' makes the manager's suspicions concern a guard's possible wrongful taking, so sense:001 is the unique best fit. Sense:003 is a weaker next-best reading because, although the complement is propositional, the suspicion here is specifically an allegation of misconduct rather than a neutral uncertain prediction."
+    },
+    {
+      "example_id": "ex-03f4f0498d91",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "next_best_candidate_sense_id": "sense:002",
+      "discriminating_terms": [
+        "the battery was failing"
+      ],
+      "rationale": "The clause 'the battery was failing' states the uncertain proposition that the test results later confirm, making sense:003 the unique best fit. Sense:002 is a weaker next-best reading because the sentence reports a prediction about a condition, not a general distrustful stance toward a person, organization, motive, or idea."
+    },
+    {
+      "example_id": "ex-96590cf82611",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "next_best_candidate_sense_id": "sense:003",
+      "discriminating_terms": [
+        "greeted with some suspicion"
+      ],
+      "rationale": "The phrase 'greeted with some suspicion' characterizes a wary, distrustful reception of the system, making sense:002 the unique best fit. Sense:003 is a weaker next-best reading because no uncertain proposition is expressed; the phrase describes an attitude rather than a specific guess."
+    },
+    {
+      "example_id": "ex-4b328c5a9557",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "next_best_candidate_sense_id": "sense:003",
+      "discriminating_terms": [
+        "suspicion of blue"
+      ],
+      "rationale": "The phrase 'suspicion of blue' describes a faint blue tint in the walls, making sense:004 the unique best fit. Sense:003 is a weaker next-best reading because the sentence describes a slight perceptible quality, not an uncertain proposition about what is true."
+    },
+    {
+      "example_id": "ex-650eaf182dae",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "next_best_candidate_sense_id": "sense:002",
+      "discriminating_terms": [
+        "everyone already knew the answer"
+      ],
+      "rationale": "The clause 'everyone already knew the answer' is the content of an unconfirmed belief, making sense:003 the unique best fit. Sense:002 is a weaker next-best reading because the speaker is expressing a prediction about what is true, not a general distrustful attitude toward a person, organization, motive, or idea."
+    },
+    {
+      "example_id": "ex-8f0c3e89ad2a",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "next_best_candidate_sense_id": "sense:002",
+      "discriminating_terms": [
+        "came under suspicion"
+      ],
+      "rationale": "The frame 'came under suspicion' presents the employee as a possible culprit in a disappearance, so sense:001 is the unique best fit. Sense:002 is a weaker next-best reading because this is not merely a general attitude of mistrust; the employee becomes a suspect in possible wrongdoing."
+    },
+    {
+      "example_id": "ex-c617caa70d44",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "next_best_candidate_sense_id": "sense:003",
+      "discriminating_terms": [
+        "a suspicion of disappointment"
+      ],
+      "rationale": "The phrase 'a suspicion of disappointment' in a voice denotes a faint trace of that emotion, making sense:004 the unique best fit. Sense:003 is a weaker next-best reading because no proposition is being guessed to be true; the phrase describes a subtle quality in the voice."
+    },
+    {
+      "example_id": "ex-e2fbdef32872",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "next_best_candidate_sense_id": "sense:002",
+      "discriminating_terms": [
+        "that the delay was caused by a technical problem"
+      ],
+      "rationale": "The clause 'that the delay was caused by a technical problem' states a tentative explanation, making sense:003 the unique best fit. Sense:002 is a weaker next-best reading because the sentence presents a belief about a cause, not a general distrustful attitude toward a person, organization, motive, or idea."
+    },
+    {
+      "example_id": "ex-af58fea640f0",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "next_best_candidate_sense_id": "sense:003",
+      "discriminating_terms": [
+        "viewed the sudden policy change with suspicion"
+      ],
+      "rationale": "The phrase 'viewed the sudden policy change with suspicion' describes residents' wary mistrust of the change, making sense:002 the unique best fit. Sense:003 is a weaker next-best reading because no particular uncertain proposition is stated; the sentence describes a distrustful way of regarding something."
+    },
+    {
+      "example_id": "ex-dd1aed9b7b6f",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "next_best_candidate_sense_id": "sense:003",
+      "discriminating_terms": [
+        "A suspicion of a smile"
+      ],
+      "rationale": "The phrase 'A suspicion of a smile' denotes a barely perceptible trace of a smile, making sense:004 the unique best fit. Sense:003 is a weaker next-best reading because the phrase describes an observable facial quality, not an uncertain proposition about a fact."
+    },
+    {
+      "example_id": "ex-87cd8a2b55db",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "next_best_candidate_sense_id": "sense:002",
+      "discriminating_terms": [
+        "cast suspicion on the clerk"
+      ],
+      "rationale": "The phrase 'cast suspicion on the clerk' directs suspicion toward the clerk as a possible person responsible for the altered timestamp, making sense:001 the unique best fit. Sense:002 is a weaker next-best reading because the construction raises a question of culpability for an apparent wrongful alteration, rather than merely describing a general distrustful attitude toward the clerk."
+    },
+    {
+      "example_id": "ex-3d4232ed7ba6",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "next_best_candidate_sense_id": "sense:002",
+      "discriminating_terms": [
+        "on suspicion of fraud"
+      ],
+      "rationale": "The fixed frame 'on suspicion of fraud' names the alleged offense prompting arrest, making sense:001 the unique best fit. Sense:002 is a weaker next-best reading because this is a specific criminal allegation, not broad mistrust of a person, organization, motive, or idea."
+    }
+  ]
+}

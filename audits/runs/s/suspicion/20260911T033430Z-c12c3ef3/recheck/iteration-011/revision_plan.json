@@ -1,0 +1,33 @@
+{
+  "schema_version": "workflow_revision_v1",
+  "before_body_sha256": "c2f8e5870fc4952f0d4f01836a628d90cbb5bda3636b40d38f08c5d35202dc76",
+  "after_body_sha256": "704b4f1e814a46fccb7bb66e60727178677ee79e54fb5112d4289433bab64fd9",
+  "changed_units": [
+    "lexical_relations"
+  ],
+  "full_recheck": false,
+  "fallback_reasons": [],
+  "invalidated_passes": [
+    "evidence",
+    "example-attribution",
+    "frame-relation",
+    "qualification",
+    "sense-structure",
+    "translation"
+  ],
+  "reusable_passes": [
+    "pronunciation"
+  ],
+  "semantic_invalidated_passes": [
+    "evidence",
+    "example-attribution",
+    "frame-relation",
+    "qualification",
+    "sense-structure",
+    "translation"
+  ],
+  "request_binding_expansion": {
+    "passes": [],
+    "reason": "All affected passes are already invalidated by the lexical_relations revision; the evidence and qualification packets also receive the exact global frequency rubric line because the section extractor omits it by design."
+  }
+}

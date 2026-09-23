@@ -1,293 +1,181 @@
 {
   "schema_version": "pre_blind_resolution_v1",
-  "input_body_sha256": "82f343438dd0057f0cc4edd16ece26ba75380521e8c02dfb806b6da7eb43d3f8",
-  "output_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
-  "recorded_at": "2026-09-23T16:40:33.533358+00:00",
-  "summary": "All 21 preserved checker findings and 4 cold-review findings were reconciled to the current candidate body. The candidate was not changed in this coverage reconciliation; the previously sealed final blind remains bound to the same body.",
+  "stage": "pre_blind_resolution",
+  "run_id": "20260911T033430Z-c12c3ef3",
+  "recorded_at": "2026-09-23T12:42:46Z",
   "resolutions": [
     {
-      "id": "CHK-sense-structure-85e67bdbf80f0e5b",
-      "finding_id": "CHK-sense-structure-85e67bdbf80f0e5b",
+      "id": "normal-sense-structure-001",
+      "finding_id": "normal-sense-structure-001",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "コアイメージを確証のない見立てを中心にした学習上の目安として改め、少量・兆しの語義を併記し、全用法が共通の語源的意味を持つとの主張ではないことを明記した。"
+      "rationale": "語義1〜3の疑念と語義4の「わずかな気配」を分け、全語義に当てはまらない隠れた事実の推論を共通核にしない修正を採用。"
     },
     {
-      "id": "CHK-frame-relation-f20791f0cfdbd2ce",
-      "finding_id": "CHK-frame-relation-f20791f0cfdbd2ce",
+      "id": "normal-frame-relation-001",
+      "finding_id": "normal-frame-relation-001",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "cast suspicion on の対象枠と文書の真正性を扱う例を削除し、残したthat節・容疑・raise some suspicionの枠に整理した。"
+      "rationale": "cast suspicion on の対象に claim/property を加え、修正後の例文では不正をした人物を対象にして、構文の範囲と例の対象を明示。"
     },
     {
-      "id": "CHK-frame-relation-f487dc58051550c5",
-      "finding_id": "CHK-frame-relation-f487dc58051550c5",
+      "id": "normal-frame-relation-002",
+      "finding_id": "normal-frame-relation-002",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "対象枠を person/thing とし、方針変更など物事を対象とする本文例が含まれるよう記述を改めた。"
+      "rationale": "regard/view/treat ... with suspicion の対象に proposal/action/decision を加え、方針変更の例と一致させた。"
     },
     {
-      "id": "CHK-frame-relation-61011dbd10a9eca3",
-      "finding_id": "CHK-frame-relation-61011dbd10a9eca3",
+      "id": "normal-frame-relation-003",
+      "finding_id": "normal-frame-relation-003",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "accusation は疑いそのものと異なるため、語義1の類義語欄から削除した。"
+      "rationale": "accusation は主張・告発を表し suspicion 自体の同義語ではないため、類義語欄から除き関連語として説明。"
     },
     {
-      "id": "CHK-frame-relation-c6cc8ed5c1faed74",
-      "finding_id": "CHK-frame-relation-c6cc8ed5c1faed74",
+      "id": "normal-frame-relation-004",
+      "finding_id": "normal-frame-relation-004",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "allegation は公に提示する主張であり疑いそのものではないため、類義語欄から削除した。"
+      "rationale": "allegation は公に提示された主張を表し suspicion 自体の同義語ではないため、類義語欄から除き関連語として説明。"
     },
     {
-      "id": "CHK-example-attribution-9a7ced3d899cef25",
-      "finding_id": "CHK-example-attribution-9a7ced3d899cef25",
+      "id": "normal-example-attribution-001",
+      "finding_id": "normal-example-attribution-001",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "曖昧な資金移動の例を外し、犯罪名を明示する on suspicion of fraud の例に置き換えた。"
+      "rationale": "資金移動の例に fraud の疑いを明記し、犯罪・不正の疑いである語義1に限定。"
     },
     {
-      "id": "CHK-example-attribution-4b73cc547d6ec54a",
-      "finding_id": "CHK-example-attribution-4b73cc547d6ec54a",
+      "id": "normal-example-attribution-002",
+      "finding_id": "normal-example-attribution-002",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "文書の真正性を対象にするcast suspicion onの例を削除し、犯罪・不正への疑いと分かる例に整理した。"
+      "rationale": "改ざんをした事務員を明記し、人物への不正疑惑である語義1に限定。"
     },
     {
-      "id": "CHK-example-attribution-4e805feccd4e0426",
-      "finding_id": "CHK-example-attribution-4e805feccd4e0426",
+      "id": "normal-example-attribution-003",
+      "finding_id": "normal-example-attribution-003",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "対象が曖昧なmanager’s suspicionsの例を外し、売上記録の改ざんを疑うthat節の例に置き換えた。"
+      "rationale": "警備員が盗んだ対象を明記し、犯罪の疑いである語義1に限定。"
     },
     {
-      "id": "CHK-example-attribution-02488c6d692d08e3",
-      "finding_id": "CHK-example-attribution-02488c6d692d08e3",
+      "id": "normal-example-attribution-004",
+      "finding_id": "normal-example-attribution-004",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "agencyへのsuspicion例を削除し、出典で確認できる人・物事を疑いの目で見る態度の例に絞った。"
+      "rationale": "裏付けのない機関への疑いの例は、根拠のある別の構文に置き換えて削除。"
     },
     {
-      "id": "CHK-example-attribution-ef69a9c2d1737319",
-      "finding_id": "CHK-example-attribution-ef69a9c2d1737319",
+      "id": "normal-example-attribution-005",
+      "finding_id": "normal-example-attribution-005",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "語義1と語義2の両方に読めるdeep suspicionの例を削除した。"
+      "rationale": "会社の予測を信用しない状況を明記し、一般的な不信である語義2に限定。"
     },
     {
-      "id": "CHK-example-attribution-3c70c60e3ba74cda",
-      "finding_id": "CHK-example-attribution-3c70c60e3ba74cda",
+      "id": "normal-example-attribution-006",
+      "finding_id": "normal-example-attribution-006",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "語義2と少量・兆しの語義のどちらにも読めるprocess例を削除し、原因を述べるraise some suspicionの例に整理した。"
+      "rationale": "選考過程を信用しない状況を明記し、一般的な不信である語義2に限定。"
     },
     {
-      "id": "CHK-example-attribution-85f2d8aab19a336e",
-      "finding_id": "CHK-example-attribution-85f2d8aab19a336e",
+      "id": "normal-example-attribution-007",
+      "finding_id": "normal-example-attribution-007",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "複数の語義に取れるdispelled suspicionの例を削除し、犯罪・不正の疑いまたは命題内容が明示された例に整理した。"
+      "rationale": "改ざんを示唆する表現を誤った丸め処理に変更し、悪意を含まない推測である語義3に限定。"
     },
     {
-      "id": "CHK-evidence-f26152139b13f089",
-      "finding_id": "CHK-evidence-f26152139b13f089",
+      "id": "normal-evidence-001",
+      "finding_id": "normal-evidence-001",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "発音の記述をOxfordの米語IPAとMerriam-Websterの音節区切り・強勢情報に限定し、未確認のCambridge比較を削除した。"
+      "rationale": "根拠がない Cambridge との比較を削り、英米の Oxford 表記と Merriam-Webster の強勢情報に範囲を限定。"
     },
     {
-      "id": "CHK-evidence-1cb0e731e8d76698",
-      "finding_id": "CHK-evidence-1cb0e731e8d76698",
+      "id": "normal-evidence-002",
+      "finding_id": "normal-evidence-002",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "語源を出典別に確認できる歴史的形と経路の差に限定し、未確認の語素分解と現代語への意味継承の断定を削除した。"
+      "rationale": "Latin の辞書別表記と主格・対格の関係を分け、根拠のない sub/specere の訳と現代意味への連続性を削除。"
     },
     {
-      "id": "CHK-evidence-7bf51b857c089ddc",
-      "finding_id": "CHK-evidence-7bf51b857c089ddc",
+      "id": "normal-evidence-003",
+      "finding_id": "normal-evidence-003",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "語形成欄を出典で確認できるsuspiciousの用法と派生語の品詞に絞り、未確認だったsuspectの詳しい語義や副詞の意味・頻度の主張を削除した。"
+      "rationale": "word-family facts が裏付ける関連語形と品詞だけを記し、各関連語の語義説明は削除。"
     },
     {
-      "id": "CHK-evidence-1d48282c2269ad9b",
-      "finding_id": "CHK-evidence-1d48282c2269ad9b",
+      "id": "normal-evidence-004",
+      "finding_id": "normal-evidence-004",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "広い使用域や句の相対頻度を断定する文を削り、頻度スコアを編集上の定性的推定と明記して、容疑表現と確証前の境界を区別した。"
+      "rationale": "標準性・広い分布・高頻度の主張を削り、法的な「有罪立証に至らない」境界と辞書用例に限定。"
     },
     {
-      "id": "CHK-evidence-c694e2ed8a394b1d",
-      "finding_id": "CHK-evidence-c694e2ed8a394b1d",
+      "id": "normal-evidence-005",
+      "finding_id": "normal-evidence-005",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "根拠のないsuspicion of + person/group/ideaの枠とagency例を削除し、確認できるwith suspicionの態度構文を残した。"
+      "rationale": "根拠で確認できない suspicion of + person/group/idea の構文と例を削除。"
     },
     {
-      "id": "CHK-evidence-1c2014f25502d6e7",
-      "finding_id": "CHK-evidence-1c2014f25502d6e7",
+      "id": "normal-evidence-006",
+      "finding_id": "normal-evidence-006",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "頻度スコアが編集上の推定であると明記し、distrustの定義と語義差を出典が支える範囲に狭めた。"
+      "rationale": "distrust との差を近い語として簡潔にし、根拠で支えられない頻度・推測の違いを避けた。"
     },
     {
-      "id": "CHK-evidence-74f1211675818881",
-      "finding_id": "CHK-evidence-74f1211675818881",
+      "id": "normal-evidence-007",
+      "finding_id": "normal-evidence-007",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "根拠のないmistrustとの比較と類義語項目を削除した。"
+      "rationale": "mistrust との説明を Merriam-Webster の「疑いに基づく信頼の欠如」に合わせた。"
     },
     {
-      "id": "CHK-evidence-4f7613fe6f400031",
-      "finding_id": "CHK-evidence-4f7613fe6f400031",
+      "id": "normal-evidence-008",
+      "finding_id": "normal-evidence-008",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "未確認のwith a suspicion of smile/irony構文を削除し、辞書で確認できるa suspicion of a smile / truthの形に改めた。"
+      "rationale": "根拠にある suspicion of a smile の形に改め、with 構文と irony の未確認主張を削除。"
     },
     {
-      "id": "CHK-evidence-6e65bce7c7568c72",
-      "finding_id": "CHK-evidence-6e65bce7c7568c72",
+      "id": "normal-evidence-009",
+      "finding_id": "normal-evidence-009",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "動詞用法の注記を語形成欄へ移してchiefly dialectalと出典ラベルに合わせ、確認できない標準用法との比較を削除した。"
+      "rationale": "動詞 suspicion の注記を語形成へ移し、辞書のラベルに限定して現代標準英語で suspect が通常という未確認主張を削除。"
     },
     {
-      "id": "CR-1",
-      "finding_id": "CR-1",
+      "id": "cold-suspicion-1",
+      "finding_id": "cold-suspicion-1",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "ラテン語形を一つに断定せず、記録済み辞書の異表記を出典別に記載した。"
+      "rationale": "Oxford、Merriam-Webster、Etymonline の表記をそれぞれ区別し、Etymonline の後期ラテン語対格形に主格を併記。"
     },
     {
-      "id": "CR-2",
-      "finding_id": "CR-2",
+      "id": "cold-suspicion-2",
+      "finding_id": "cold-suspicion-2",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "「ひそかに」の語義、sub-/specereの語素分解、現代語の意味へ直結させる説明を削除した。"
+      "rationale": "語義1〜3の疑念の説明と語義4の微量・かすかな気配を分けた。"
     },
     {
-      "id": "CR-3",
-      "finding_id": "CR-3",
+      "id": "cold-suspicion-3",
+      "finding_id": "cold-suspicion-3",
       "status": "resolved",
       "disposition": "adopted",
-      "rationale": "命題の真偽を扱う用法を独立語義として過分割せず、可算・不可算の説明を出典ごとの範囲に限定した。"
-    },
-    {
-      "id": "CR-4",
-      "finding_id": "CR-4",
-      "status": "resolved",
-      "disposition": "adopted",
-      "rationale": "allegationを類義語として扱う項目を削除し、公的・私的範囲の未確認な主張を残さなかった。"
+      "rationale": "可算・不可算は構文にも左右されると補い、語義3を「可算中心」として断定を避けた。"
     }
   ],
-  "followup_corrections": [
-    {
-      "recorded_at": "2026-09-23T11:44:14.839805+00:00",
-      "summary": "修正後の再検査準備中に、発音欄を辞書ごとの表記方式に沿って書き直し、コアイメージを各語義の学習上の整理として限定した。共通の語源的意味とは断定しない。"
-    },
-    {
-      "recorded_at": "2026-09-23T11:44:14.839805+00:00",
-      "summary": "根拠のない doubt との意味差の説明を除き、Merriam-Webster が同義語として挙げる mistrust に変更した。"
-    },
-    {
-      "recorded_at": "2026-09-23T11:58:44.276773+00:00",
-      "status": "recheck_pending",
-      "summary": "最新本文に合わせ、発音の表記差を辞書ごとに分けて記し、コアイメージを疑いの対象による学習上の整理として限定した。Oxfordで直接確認できる命題信念の語義を再導入し、Cambridgeの閲覧不能なfactとMerriam-Websterの広いdoubt factは別unionに分けた。独立evidence checkerで十分性を再検査する。"
-    },
-    {
-      "recorded_at": "2026-09-23T12:37:45.220559+00:00",
-      "status": "recheck_pending",
-      "input_body_sha256": "4ec3c2363dbe4f7fd8554c52c8c284ea6aa01e952f0cc1ade3a10c3f95e1bd86",
-      "output_body_sha256": "9536e71772fcbec66a5cb22ac6155df52ed1a3d9a157408b5bb7993289585853",
-      "recheck_round": "round-6",
-      "source_response_files": [
-        "recheck/round-6/translation.output.json",
-        "recheck/round-6/sense-structure.output.json",
-        "recheck/round-6/evidence.output.json",
-        "recheck/round-6/frame-relation.output.json"
-      ],
-      "summary": "Round-6 blocking findings were adopted: merge the wrongdoing and uncertain-belief material into one evidence-limited sense; remove the unsupported mistrust synonym and its example; distinguish arouse someone’s suspicions from raise some suspicion; narrow distrust, hint, and trace relation notes to source-supported wording; align the core image with the merged senses. The pronunciation statement was reduced to source-specific notation and stress information. The article and source inventory now share one body hash."
-    },
-    {
-      "recorded_at": "2026-09-23T12:48:35.545455+00:00",
-      "status": "recheck_pending",
-      "input_body_sha256": "9536e71772fcbec66a5cb22ac6155df52ed1a3d9a157408b5bb7993289585853",
-      "output_body_sha256": "e610984e4ee840d69032be28e4e55257a14bebd434e6d3f13ba11b959ecafa79",
-      "recheck_round": "round-7-inventory-correction",
-      "summary": "Clarified the pronunciation line using the Oxford American IPA and Merriam-Webster spelling syllabification separately. Rebuilt source claim mappings for the merged evidence-limited first sense, removed the obsolete standalone proposition-belief claim, restored the core-image claim, and distinguished the two Merriam-Webster suspicion-raising frames. Round-7 packets are retained but superseded because they used the older claim mapping."
-    },
-    {
-      "recorded_at": "2026-09-23T12:50:24.751897+00:00",
-      "status": "recheck_pending",
-      "input_body_sha256": "9536e71772fcbec66a5cb22ac6155df52ed1a3d9a157408b5bb7993289585853",
-      "output_body_sha256": "e610984e4ee840d69032be28e4e55257a14bebd434e6d3f13ba11b959ecafa79",
-      "recheck_round": "round-7-inventory-correction",
-      "summary": "Clarified the pronunciation line using the Oxford American IPA and Merriam-Webster spelling syllabification separately. Rebuilt source claim mappings for the merged evidence-limited first sense, removed the obsolete standalone proposition-belief claim, restored the core-image claim, and distinguished the two Merriam-Webster suspicion-raising frames. Round-7 packets are retained but superseded because they used the older claim mapping."
-    },
-    {
-      "recorded_at": "2026-09-23T13:49:10.025077+00:00",
-      "status": "recheck_pending",
-      "input_body_sha256": "e610984e4ee840d69032be28e4e55257a14bebd434e6d3f13ba11b959ecafa79",
-      "output_body_sha256": "13559d31b050882ff1d24890c8d22914c8f87e20f0ddb0e509e2a8178469bd82",
-      "recheck_round": "round-11-source-definition-correction",
-      "summary": "Oxfordの distrust 定義と出典claimを直接確認した結果に合わせ、類義語の説明を出典が支える範囲に更新した。最新版本文と source-first artifact は同期済みで、全7パス再検査を実施中。"
-    },
-    {
-      "recorded_at": "2026-09-23T16:40:33.533358+00:00",
-      "status": "coverage_reconciled",
-      "summary": "Preflight comparison found that the preserved normal/cold outputs had 25 exact finding IDs while the earlier derived resolution carried 23 IDs from a stale finding inventory. Raw checker and cold-review outputs were kept unchanged. This record now covers the exact 21 checker findings plus 4 cold findings, all already addressed in the unchanged e0cd candidate and cleared by the completed seven-pass recheck."
-    }
-  ],
-  "history_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/revision_history/final-input-reconciliation-20260923T164033Z/pre_blind_resolution.previous.json",
   "learning_delta": {
     "schema_version": "process_improvement_learning_delta_v2",
     "reviewed": true,
     "items": []
-  },
-  "resolution_coverage_reconciliation": {
-    "schema_version": "pre_blind_resolution_coverage_reconciliation_v1",
-    "previous_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/revision_history/final-input-reconciliation-20260923T164033Z/pre_blind_resolution.previous.json",
-    "previous_sha256": "b845efc570fb348eceb9173e25f0c5f884949245a9ec4076bf696fc87567b6fb",
-    "previous_output_body_sha256": "e610984e4ee840d69032be28e4e55257a14bebd434e6d3f13ba11b959ecafa79",
-    "current_output_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
-    "previous_resolution_count": 23,
-    "current_resolution_count": 25,
-    "superseded_finding_ids": [
-      "CHK-evidence-1605a30992933d1a",
-      "CHK-evidence-2b9c3e19ee00548c",
-      "CHK-evidence-8a3b0ef0f74d78bd",
-      "CHK-evidence-8b74d23abfcea8bf",
-      "CHK-evidence-926461008f51d0eb",
-      "CHK-evidence-b920996b73bb0fec",
-      "CHK-evidence-de21e70cafa92ec4",
-      "CHK-evidence-f48da07776261d03",
-      "CHK-frame-relation-53cb4d7dcb428b93",
-      "CHK-frame-relation-a58cff3aa6082ed4",
-      "CHK-frame-relation-d9dd6ec50e654f0d",
-      "CHK-frame-relation-e497ccb413f93706",
-      "CHK-qualification-9eaa3295e057b6a7",
-      "CHK-translation-78e227acb2af8d68"
-    ],
-    "added_finding_ids": [
-      "CHK-evidence-1c2014f25502d6e7",
-      "CHK-evidence-1cb0e731e8d76698",
-      "CHK-evidence-1d48282c2269ad9b",
-      "CHK-evidence-4f7613fe6f400031",
-      "CHK-evidence-6e65bce7c7568c72",
-      "CHK-evidence-74f1211675818881",
-      "CHK-evidence-7bf51b857c089ddc",
-      "CHK-evidence-c694e2ed8a394b1d",
-      "CHK-evidence-f26152139b13f089",
-      "CHK-example-attribution-02488c6d692d08e3",
-      "CHK-example-attribution-3c70c60e3ba74cda",
-      "CHK-frame-relation-61011dbd10a9eca3",
-      "CHK-frame-relation-c6cc8ed5c1faed74",
-      "CHK-frame-relation-f20791f0cfdbd2ce",
-      "CHK-frame-relation-f487dc58051550c5",
-      "CHK-sense-structure-85e67bdbf80f0e5b"
-    ],
-    "raw_review_artifacts_preserved": true,
-    "article_body_changed": false
   }
 }

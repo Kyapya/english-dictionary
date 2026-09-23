@@ -1,0 +1,24 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "reviewer": {
+    "agent_id": "/root/suspicion_frame_recheck_5",
+    "declared_model": "GPT-6",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "adjudications": [
+    {
+      "item_id": "ant-2490ed137d66",
+      "flags": [],
+      "rationale": "段階1の「信頼」軸は語義2の定義にある「信用せず」「mistrust / distrust」から導ける。trust は同じ信頼軸の反対側を示し、「程度」の分類も妥当。違い行は対立を否定・限定していないため、F1〜F4に該当しない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    }
+  ],
+  "frame_findings": [],
+  "unrouted_observations": [],
+  "input_body_sha256": "dc7b3fae757b389c842c835ca0f579ce6bd47ea174d3aee6ec5ef0626b92dd92",
+  "stage2_request_sha256": "710d577335d802ed332dc57cc2ebef47ecd6aef8ca404ad9cf461beec2f7f82e",
+  "blind_record_sha256": "341b5ad298732e68f9536beef735544e29521639a9085a2faa2245e595d8d2c2"
+}

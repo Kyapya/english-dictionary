@@ -1,0 +1,514 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "qualification",
+  "taxonomy_ids": [
+    "regional_qualification",
+    "absolute_scope_counterexample",
+    "technical_terminology_conventionality"
+  ],
+  "specification": "prompts/check_pass_qualification_v6.md",
+  "input_body_sha256": "e4b68878b2f0a5b48675fba848087cf747e4edfe004df0e8c44055e9b5b2425a",
+  "input_sections": {
+    "etymology": [
+      {
+        "line": 17,
+        "text": "＃語源"
+      },
+      {
+        "line": 19,
+        "text": "suspicion は中英語を経て、アングロフランス語／古フランス語形から英語に入った。語源資料はラテン語形を Oxford が suspectio(n-)、Merriam-Webster が suspicion- / suspicio、Etymonline が後期ラテン語 suspectionem（主格 suspectio）と記している。語源はラテン語 suspicere に関係し、英語の綴りには14世紀の古フランス語形の影響があったとされる。  "
+      }
+    ],
+    "word_formation": [
+      {
+        "line": 21,
+        "text": "＃語形成"
+      },
+      {
+        "line": 23,
+        "text": "Oxford は suspect（動詞・名詞・形容詞）、suspicious（形容詞）、suspiciously（副詞）を suspicion の語族として挙げている。各語の詳しい意味はそれぞれの項目を参照。  "
+      },
+      {
+        "line": 24,
+        "text": "なお、動詞 suspicion は Merriam-Webster では主に方言的、American Heritage では口語的な用法として記載される。本記事では中心的な名詞用法として扱わない。  "
+      }
+    ],
+    "sense_structure": [
+      {
+        "line": 38,
+        "text": "1. 【名詞・可算／不可算】容疑、犯罪・不正をしたのではないかという疑い"
+      },
+      {
+        "line": 40,
+        "text": "【日本語訳・定義】人が犯罪、不正、不誠実な行為などをした可能性があると、十分な証明がない段階で考えること、またはその疑いを向けられている状態を表す。複数の個別の疑いを述べる suspicions は可算、疑いという状態を表す suspicion は不可算で使われる。on suspicion of ... のように特定の容疑でも無冠詞となる定型表現があるため、可算・不可算は意味だけで一律には決まらない。  "
+      },
+      {
+        "line": 82,
+        "text": "2. 【名詞・不可算中心】不信、警戒を伴う疑念"
+      },
+      {
+        "line": 84,
+        "text": "【日本語訳・定義】人、組織、動機、考えなどをそのまま信用せず、「裏に何か問題・意図があるかもしれない」と疑って見る態度を表す。語義1のように特定の犯罪・不正行為を想定する必要はなく、広い意味での mistrust / distrust に近い。  "
+      },
+      {
+        "line": 143,
+        "text": "3. 【名詞・可算中心】～ではないかという気、確証のない推測"
+      },
+      {
+        "line": 145,
+        "text": "【日本語訳・定義】ある事実・状況が本当なのではないかと感じることを表す。ここでは犯罪・不正や相手への不信に限らず、証明はないが「たぶんそうだ」という予感・推測を指す。この意味では a suspicion that ... のように個々の考えを表す可算形が典型。可算・不可算は意味だけで一律に決まらず、構文にも左右される。  "
+      },
+      {
+        "line": 210,
+        "text": "4. 【名詞・単数／やや文語的】ほんの少し、かすかな気配"
+      },
+      {
+        "line": 212,
+        "text": "【日本語訳・定義】色、味、匂い、感情、表情などが、はっきり大量に存在するのではなく「あるかないか分かる程度」にわずかに感じられることを表す。通常 a suspicion of ... の形で用いられる比喩的な用法である。  "
+      }
+    ],
+    "frequency_register": [
+      {
+        "line": 38,
+        "text": "1. 【名詞・可算／不可算】容疑、犯罪・不正をしたのではないかという疑い"
+      },
+      {
+        "line": 42,
+        "text": "【頻度】〈8/10〉  "
+      },
+      {
+        "line": 44,
+        "text": "【レジスター/領域】一般名詞。辞書には on suspicion of ... を逮捕理由として用いる例があり、Merriam-Webster は法的な suspicion を、信念に至らない疑いの状態として説明する。ここでいう suspicion は有罪が立証されたことを意味しない。  "
+      },
+      {
+        "line": 82,
+        "text": "2. 【名詞・不可算中心】不信、警戒を伴う疑念"
+      },
+      {
+        "line": 86,
+        "text": "【頻度】〈7/10〉  "
+      },
+      {
+        "line": 88,
+        "text": "【レジスター/領域】一般的な用法。with suspicion は人や物事を信用せずに見る態度を表す。  "
+      },
+      {
+        "line": 143,
+        "text": "3. 【名詞・可算中心】～ではないかという気、確証のない推測"
+      },
+      {
+        "line": 147,
+        "text": "【頻度】〈8/10〉  "
+      },
+      {
+        "line": 149,
+        "text": "【レジスター/領域】a suspicion that ...、a sneaking suspicion、a nagging suspicion などの形で用いる。  "
+      },
+      {
+        "line": 210,
+        "text": "4. 【名詞・単数／やや文語的】ほんの少し、かすかな気配"
+      },
+      {
+        "line": 214,
+        "text": "【頻度】〈2/10〉  "
+      },
+      {
+        "line": 216,
+        "text": "【レジスター/領域】Oxford はこの意味に formal のラベルを付け、hint を類義語として挙げている。  "
+      }
+    ],
+    "usage_notes": [
+      {
+        "line": 38,
+        "text": "1. 【名詞・可算／不可算】容疑、犯罪・不正をしたのではないかという疑い"
+      },
+      {
+        "line": 80,
+        "text": "【語法・注意】on suspicion of theft は「窃盗で有罪になった」ではなく、「窃盗をした疑いを理由に」という意味である。under suspicion も罪が確定した状態を表さない。accusation や allegation は類義語ではなく、誰かが不正をしたという主張・告発を指す関連語である。  "
+      },
+      {
+        "line": 82,
+        "text": "2. 【名詞・不可算中心】不信、警戒を伴う疑念"
+      },
+      {
+        "line": 109,
+        "text": "【語法・注意】with suspicion は「疑いの目で、信用せずに」という態度を表す。Oxford と American Heritage はこの語義を distrust / lack of confidence と説明する。Merriam-Webster は suspicion が真実性・現実性・公正さ・信頼性への信頼の薄さを強調すると説明し、mistrust は疑いに基づく信頼の欠如を強調するとしている。skepticism は主張や考えを受け入れる前に慎重に判断する態度を表し、誰かの悪意を必ずしも想定しない。  "
+      },
+      {
+        "line": 143,
+        "text": "3. 【名詞・可算中心】～ではないかという気、確証のない推測"
+      },
+      {
+        "line": 185,
+        "text": "【語法・注意】この語義では内容が必ず悪いとは限らない。I have a suspicion that she may surprise us with good news. のように、中立・肯定的な内容についても「そうではないかという気」を表せる。ただし語そのものには doubt や hunch より「裏に何かあるのでは」というニュアンスが残りやすい。suspicion that ... の that は内容を導く接続詞で、suspicion of ... の of は名詞句を取る。a sneaking suspicion の sneaking はここでは「盗み歩く」という直訳ではなく、表立って確信してはいないが心の中にある感覚を表す。  "
+      },
+      {
+        "line": 210,
+        "text": "4. 【名詞・単数／やや文語的】ほんの少し、かすかな気配"
+      },
+      {
+        "line": 242,
+        "text": "【語法・注意】この a suspicion of ... は「～を疑うこと」ではなく、「～がほんの少し存在すること」である。  "
+      }
+    ],
+    "collocations_examples": [
+      {
+        "line": 38,
+        "text": "1. 【名詞・可算／不可算】容疑、犯罪・不正をしたのではないかという疑い"
+      },
+      {
+        "line": 48,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 50,
+        "text": "・arouse suspicion  "
+      },
+      {
+        "line": 51,
+        "text": "用途: 行動・説明・状況が「何かおかしい」という疑いを生じさせる。  "
+      },
+      {
+        "line": 52,
+        "text": "例: The unexplained transfer of client funds aroused suspicion of fraud among the auditors.  "
+      },
+      {
+        "line": 53,
+        "text": "訳: 顧客資金の説明のない移動が、監査担当者たちに詐欺の疑いを抱かせた。  "
+      },
+      {
+        "line": 55,
+        "text": "・on suspicion of 〈crime〉  "
+      },
+      {
+        "line": 56,
+        "text": "用途: 警察などが、ある犯罪を行った疑いを理由に人を逮捕・拘束したことを述べる。  "
+      },
+      {
+        "line": 57,
+        "text": "例: Two people were arrested on suspicion of fraud after the investigation.  "
+      },
+      {
+        "line": 58,
+        "text": "訳: 捜査後、2人が詐欺の容疑で逮捕された。  "
+      },
+      {
+        "line": 60,
+        "text": "・be under suspicion  "
+      },
+      {
+        "line": 61,
+        "text": "用途: 人・組織などが不正や犯罪をしたのではないかと疑われている状態を表す。  "
+      },
+      {
+        "line": 62,
+        "text": "例: The contractor remained under suspicion until the records were checked.  "
+      },
+      {
+        "line": 63,
+        "text": "訳: 記録が確認されるまで、その請負業者には疑いがかけられたままだった。  "
+      },
+      {
+        "line": 65,
+        "text": "・come/fall under suspicion  "
+      },
+      {
+        "line": 66,
+        "text": "用途: 新しい情報などをきっかけに、疑いの対象になることを表す。  "
+      },
+      {
+        "line": 67,
+        "text": "例: The employee came under suspicion when several invoices disappeared.  "
+      },
+      {
+        "line": 68,
+        "text": "訳: 複数の請求書がなくなったことで、その従業員が疑われるようになった。  "
+      },
+      {
+        "line": 70,
+        "text": "・cast suspicion on 〈person/action/claim/property〉  "
+      },
+      {
+        "line": 71,
+        "text": "用途: 証拠や発言などが、特定の人・行為・主張・性質に疑いを向けることを表す。  "
+      },
+      {
+        "line": 72,
+        "text": "例: The altered timestamp cast suspicion on the clerk who had access to the report.  "
+      },
+      {
+        "line": 73,
+        "text": "訳: 変更された時刻表示によって、報告書にアクセスできた事務員に疑いが向けられた。  "
+      },
+      {
+        "line": 75,
+        "text": "・confirm/dispel suspicions  "
+      },
+      {
+        "line": 76,
+        "text": "用途: それまで抱いていた疑いが裏付けられる／解消されることを表す。  "
+      },
+      {
+        "line": 77,
+        "text": "例: The security footage confirmed the manager's suspicions that a guard had taken the missing laptops.  "
+      },
+      {
+        "line": 78,
+        "text": "訳: 防犯映像によって、警備員がなくなったノートパソコンを持ち去ったという管理者の疑いが裏付けられた。  "
+      },
+      {
+        "line": 82,
+        "text": "2. 【名詞・不可算中心】不信、警戒を伴う疑念"
+      },
+      {
+        "line": 92,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 94,
+        "text": "・regard/view 〈person/claim/proposal/action/decision〉 with suspicion  "
+      },
+      {
+        "line": 95,
+        "text": "用途: 人・主張・提案・行為・決定をすぐには信用せず、疑いの目で見ることを表す。  "
+      },
+      {
+        "line": 96,
+        "text": "例: Residents viewed the sudden policy change with suspicion.  "
+      },
+      {
+        "line": 97,
+        "text": "訳: 住民たちは突然の方針変更を疑いの目で見た。  "
+      },
+      {
+        "line": 99,
+        "text": "・be greeted with (some) suspicion  "
+      },
+      {
+        "line": 100,
+        "text": "用途: 申し出・提案などが、当初は信用されず、疑いをもって受け止められることを表す。  "
+      },
+      {
+        "line": 101,
+        "text": "例: The new monitoring system was initially greeted with some suspicion.  "
+      },
+      {
+        "line": 102,
+        "text": "訳: 新しい監視システムは当初、多少の疑いをもって受け止められた。  "
+      },
+      {
+        "line": 104,
+        "text": "・deep suspicion  "
+      },
+      {
+        "line": 105,
+        "text": "用途: 単なる軽い疑問ではなく、強い不信感を表す。  "
+      },
+      {
+        "line": 106,
+        "text": "例: Investors had little confidence in the company's revised forecast and regarded it with deep suspicion.  "
+      },
+      {
+        "line": 107,
+        "text": "訳: 投資家はその会社の修正予測をほとんど信用せず、強い疑いの目で見た。  "
+      },
+      {
+        "line": 143,
+        "text": "3. 【名詞・可算中心】～ではないかという気、確証のない推測"
+      },
+      {
+        "line": 153,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 155,
+        "text": "・have a suspicion that 〈clause〉  "
+      },
+      {
+        "line": 156,
+        "text": "用途: 十分な証拠はないが、あることが本当ではないかと感じていることを表す。  "
+      },
+      {
+        "line": 157,
+        "text": "例: I have a suspicion that the meeting will finish earlier than planned.  "
+      },
+      {
+        "line": 158,
+        "text": "訳: その会議は予定より早く終わるのではないかという気がしている。  "
+      },
+      {
+        "line": 160,
+        "text": "・a sneaking suspicion that 〈clause〉  "
+      },
+      {
+        "line": 161,
+        "text": "用途: はっきり認めるほどではないが、心のどこかでそう思っていることを表す。  "
+      },
+      {
+        "line": 162,
+        "text": "例: She had a sneaking suspicion that everyone already knew the answer.  "
+      },
+      {
+        "line": 163,
+        "text": "訳: 彼女は、皆すでに答えを知っているのではないかとひそかに感じていた。  "
+      },
+      {
+        "line": 165,
+        "text": "・a nagging suspicion that 〈clause〉  "
+      },
+      {
+        "line": 166,
+        "text": "用途: 消そうとしても繰り返し気になる疑い・予感を表す。  "
+      },
+      {
+        "line": 167,
+        "text": "例: He could not shake the nagging suspicion that he had forgotten something important.  "
+      },
+      {
+        "line": 168,
+        "text": "訳: 彼は何か大事なことを忘れたのではないかという消えない疑いを振り払えなかった。  "
+      },
+      {
+        "line": 170,
+        "text": "・a growing suspicion that 〈clause〉  "
+      },
+      {
+        "line": 171,
+        "text": "用途: 時間の経過や新しい情報によって、ある推測が強くなっていくことを表す。  "
+      },
+      {
+        "line": 172,
+        "text": "例: We had a growing suspicion that the delay was caused by a technical problem.  "
+      },
+      {
+        "line": 173,
+        "text": "訳: その遅延は技術的な問題によるのではないかという疑いが、私たちの中で強まっていった。  "
+      },
+      {
+        "line": 175,
+        "text": "・confirm a suspicion  "
+      },
+      {
+        "line": 176,
+        "text": "用途: それまで確証のなかった推測が、後の情報によって正しかったと分かる。  "
+      },
+      {
+        "line": 177,
+        "text": "例: The test results confirmed her suspicion that the battery was failing.  "
+      },
+      {
+        "line": 178,
+        "text": "訳: 検査結果によって、バッテリーが劣化しているのではないかという彼女の推測が裏付けられた。  "
+      },
+      {
+        "line": 180,
+        "text": "・dispel a suspicion  "
+      },
+      {
+        "line": 181,
+        "text": "用途: 情報や証拠によって、抱いていた推測・疑いを取り除く。  "
+      },
+      {
+        "line": 182,
+        "text": "例: A detailed explanation dispelled our suspicion that the figures had been rounded incorrectly.  "
+      },
+      {
+        "line": 183,
+        "text": "訳: 詳しい説明によって、数値が誤って丸められたのではないかという私たちの疑いは解消された。  "
+      },
+      {
+        "line": 210,
+        "text": "4. 【名詞・単数／やや文語的】ほんの少し、かすかな気配"
+      },
+      {
+        "line": 220,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 222,
+        "text": "・a suspicion of 〈color〉  "
+      },
+      {
+        "line": 223,
+        "text": "用途: 色合いがごくわずかに混じって見えることを描写する。  "
+      },
+      {
+        "line": 224,
+        "text": "例: The walls were white with a suspicion of blue in the evening light.  "
+      },
+      {
+        "line": 225,
+        "text": "訳: その壁は白かったが、夕方の光の中ではほんのり青みを帯びていた。  "
+      },
+      {
+        "line": 227,
+        "text": "・a suspicion of 〈flavor〉  "
+      },
+      {
+        "line": 228,
+        "text": "用途: 味や香りがごく弱く感じられることを表す。  "
+      },
+      {
+        "line": 229,
+        "text": "例: The sauce had a suspicion of citrus that made it taste fresher.  "
+      },
+      {
+        "line": 230,
+        "text": "訳: そのソースにはほんのり柑橘の風味があり、より爽やかに感じられた。  "
+      },
+      {
+        "line": 232,
+        "text": "・a suspicion of 〈emotion〉  "
+      },
+      {
+        "line": 233,
+        "text": "用途: 感情が表情・声などにわずかに現れていることを描写する。  "
+      },
+      {
+        "line": 234,
+        "text": "例: There was a suspicion of disappointment in his voice.  "
+      },
+      {
+        "line": 235,
+        "text": "訳: 彼の声にはかすかな失望がにじんでいた。  "
+      },
+      {
+        "line": 237,
+        "text": "・a suspicion of a smile  "
+      },
+      {
+        "line": 238,
+        "text": "用途: はっきり笑うほどではない、わずかな笑みを描写する。  "
+      },
+      {
+        "line": 239,
+        "text": "例: A suspicion of a smile appeared at the corner of her mouth.  "
+      },
+      {
+        "line": 240,
+        "text": "訳: 彼女の口元に、かすかな笑みが浮かんだ。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "1cf8a434bbe1213c0ef739f4c47ffb41014ab2cd5156d297471af6df85ae40a2",
+  "source_artifact_sha256": "358a6ef905363f010a31dece02f1dd57e94ea0fad57f759488d3898360d8fc54",
+  "normalized_input_sha256": "f00d5e7e155fde23f5f18c0d84730293d5e9467f8ad3d7c394e2dd829f137879"
+}

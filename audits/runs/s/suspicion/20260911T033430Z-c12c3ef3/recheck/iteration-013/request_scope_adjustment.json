@@ -1,0 +1,27 @@
+{
+  "schema_version": "checker_request_scope_adjustment_v1",
+  "body_sha256": "6c77c142312c5cd3c8fc46bb74e490d274f356ffea110ae31b600bfa76245433",
+  "reason": "extract_sections omits the top-level frequency rubric; the exact current line is exposed to the two passes that evaluate frequency calibration.",
+  "adjustments": [
+    {
+      "pass_id": "qualification",
+      "section": "frequency_register",
+      "added": [
+        {
+          "line": 36,
+          "text": "【頻度表記】頻度スコアは語全体の使用回数やコーパス値ではなく、直前の定義が示す語義について、現代英語全体での遭遇機会を編集上評価した目安である。10＝会話・文章で日常的に出会う基本語、8～9＝日常・新聞・ビジネスで広く使われる、6～7＝使われる機会はあるが語義や場面がやや限られる、4～5＝比較的限られた場面で使われる、2～3＝特定の分野・地域・文体に偏る、1＝現代英語ではまれ。厳密な統計値や語義間の順位を示さない。  "
+        }
+      ]
+    },
+    {
+      "pass_id": "evidence",
+      "section": "frequency_register",
+      "added": [
+        {
+          "line": 36,
+          "text": "【頻度表記】頻度スコアは語全体の使用回数やコーパス値ではなく、直前の定義が示す語義について、現代英語全体での遭遇機会を編集上評価した目安である。10＝会話・文章で日常的に出会う基本語、8～9＝日常・新聞・ビジネスで広く使われる、6～7＝使われる機会はあるが語義や場面がやや限られる、4～5＝比較的限られた場面で使われる、2～3＝特定の分野・地域・文体に偏る、1＝現代英語ではまれ。厳密な統計値や語義間の順位を示さない。  "
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": "antonym_axis_blind_request_v1",
+  "pass_id": "frame-relation",
+  "taxonomy_ids": [
+    "argument_slot_role_mismatch",
+    "lexical_relation_mislabel"
+  ],
+  "specification": "prompts/check_pass_frame_relation_v7.md",
+  "input_body_sha256": "f18854d5a301b8e10dcecbd6290d97652149b7c9862850f927dee02d2c103756",
+  "input_sections": {
+    "antonym_items": [
+      {
+        "item_id": "ant-8b26c780c86e",
+        "headword": "suspicion",
+        "sense_definition": "【日本語訳・定義】人、組織、動機、考えなどをそのまま信用せず、「裏に何か問題・意図があるかもしれない」と疑って見る態度を表す。語義1のように特定の犯罪・不正行為を想定する必要はなく、広い意味での mistrust / distrust に近い。",
+        "antonym": "trust",
+        "antonym_definition": "定義: 人・組織・情報などを信頼し、頼ってよいと考えること。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "difference_line",
+      "frequency_line",
+      "example_line",
+      "translation_line",
+      "synonym_section",
+      "core_image",
+      "other_senses",
+      "document_order"
+    ],
+    "questions": [
+      "name_axis_as_one_noun",
+      "classify_as_補完_程度_方向_評価_状態",
+      "record_unnamable_with_one_sentence_reason"
+    ],
+    "required_output_schema": "antonym_axis_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "source_artifact_sha256": "358a6ef905363f010a31dece02f1dd57e94ea0fad57f759488d3898360d8fc54",
+  "specification_sha256": "3598ca81a5784639c6b43a0806d0981a985bf4174f424c744aad1dde787bfcef",
+  "normalized_input_sha256": "6037f525e27f5a27b882207d1993bf18ea695f5f88fde44e0eda83ce8b66db6c"
+}

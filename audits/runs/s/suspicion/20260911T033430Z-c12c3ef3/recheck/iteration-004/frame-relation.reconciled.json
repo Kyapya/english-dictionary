@@ -1,0 +1,81 @@
+{
+  "pass_id": "frame-relation",
+  "reviewer": {
+    "agent_id": "/root/suspicion_frame_recheck_4",
+    "declared_model": "GPT-6",
+    "mode": "handoff",
+    "ingested_by": "human",
+    "request_sha256": "cc17f0e8d2da63a643600eb2f5ce67f4d1a0680d7de984868bbcb28ad83cd21b"
+  },
+  "antonym_axis_blind_record": {
+    "schema_version": "antonym_axis_blind_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "f18854d5a301b8e10dcecbd6290d97652149b7c9862850f927dee02d2c103756",
+    "blind_request_sha256": "8f6e3fdb0ac000714a3ce77cdd215b644037672f4c4afbb8eb23c665203f2e9c",
+    "recorded_at": "2026-09-23T14:21:27.863493Z",
+    "reviewer": {
+      "agent_id": "/root/suspicion_frame_recheck_4",
+      "declared_model": "GPT-6",
+      "mode": "handoff",
+      "request_sha256": "8f6e3fdb0ac000714a3ce77cdd215b644037672f4c4afbb8eb23c665203f2e9c",
+      "ingested_by": "human"
+    },
+    "axes": [
+      {
+        "item_id": "ant-8b26c780c86e",
+        "axis": "信頼",
+        "relation_type": "状態"
+      }
+    ]
+  },
+  "antonym_axis_adjudication_record": {
+    "schema_version": "antonym_axis_adjudication_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "f18854d5a301b8e10dcecbd6290d97652149b7c9862850f927dee02d2c103756",
+    "stage2_request_sha256": "cc17f0e8d2da63a643600eb2f5ce67f4d1a0680d7de984868bbcb28ad83cd21b",
+    "blind_record_sha256": "56e59ce99369db786f11a309f7dc54ef44dd16b010d4e475b2319c3ca6810be0",
+    "reviewer": {
+      "agent_id": "/root/suspicion_frame_recheck_4",
+      "declared_model": "GPT-6",
+      "mode": "handoff",
+      "ingested_by": "human",
+      "request_sha256": "cc17f0e8d2da63a643600eb2f5ce67f4d1a0680d7de984868bbcb28ad83cd21b"
+    },
+    "adjudications": [
+      {
+        "item_id": "ant-8b26c780c86e",
+        "flags": [],
+        "rationale": "段階1の「信頼／状態」は語義2の定義にある「信用せず」「疑って見る態度」から導ける。同語義の trust は信頼し頼ってよいと考える状態を表し、違い行も両語を同じ信頼軸の反対側として説明しているため、F1〜F4はいずれも該当しない。",
+        "suggested_direction": null,
+        "f4_severity": null
+      }
+    ],
+    "frame_findings": [],
+    "unrouted_observations": [],
+    "antonym_axis_blind_record": {
+      "schema_version": "antonym_axis_blind_record_v1",
+      "pass_id": "frame-relation",
+      "input_body_sha256": "f18854d5a301b8e10dcecbd6290d97652149b7c9862850f927dee02d2c103756",
+      "blind_request_sha256": "8f6e3fdb0ac000714a3ce77cdd215b644037672f4c4afbb8eb23c665203f2e9c",
+      "recorded_at": "2026-09-23T14:21:27.863493Z",
+      "reviewer": {
+        "agent_id": "/root/suspicion_frame_recheck_4",
+        "declared_model": "GPT-6",
+        "mode": "handoff",
+        "request_sha256": "8f6e3fdb0ac000714a3ce77cdd215b644037672f4c4afbb8eb23c665203f2e9c",
+        "ingested_by": "human"
+      },
+      "axes": [
+        {
+          "item_id": "ant-8b26c780c86e",
+          "axis": "信頼",
+          "relation_type": "状態"
+        }
+      ]
+    },
+    "aligned_at": "2026-09-23T14:28:53.200715Z"
+  },
+  "aligned_at": "2026-09-23T14:28:53.200715Z",
+  "findings": [],
+  "unrouted_observations": []
+}

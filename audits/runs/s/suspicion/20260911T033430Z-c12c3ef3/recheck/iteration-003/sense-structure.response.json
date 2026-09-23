@@ -1,0 +1,25 @@
+{
+  "pass_id": "sense-structure",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "GPT-6",
+    "ingested_by": "human",
+    "agent_id": "/root/suspicion_sense_structure_recheck"
+  },
+  "request_sha256": "0d30f70be1e41efbf4fc26da0778946c61631c250dfb7ef54f2f55fabfb2d7bb",
+  "findings": [
+    {
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 145,
+        "line_end": 145,
+        "exact_quote": "【日本語訳・定義】ある事実・状況が本当なのではないかと感じることを表す。ここでは犯罪・不正や相手への不信に限らず、証明はないが「たぶんそうだ」という予感・推測を指す。この意味では a suspicion that ... のように個々の考えを表す可算形が典型。可算・不可算は意味だけで一律に決まらず、構文にも左右される。  "
+      },
+      "severity": "blocking",
+      "rationale": "語義3は犯罪・不正についての推測も含む一方、語義1（line 40）は人が犯罪・不正をした可能性を考えることを既に含む。したがって、たとえば a suspicion that someone committed a crime という同一の命題・構文が両義に入る。語義1と3の境界が主に対象分野（不正か、それ以外か）に依存し、本文も可算性は構文に左右されると述べているため、独立した語義境界が不明瞭である。",
+      "evidence_link_ids": [],
+      "suggested_direction": "語義1を「不正をした人物への疑い・疑いを向けられた状態」、語義3を不正や不信を含まない事実・状況への推測として明確に限定するか、重なる推測用法を統合し、定義と用例の収録先を揃える。"
+    }
+  ]
+}

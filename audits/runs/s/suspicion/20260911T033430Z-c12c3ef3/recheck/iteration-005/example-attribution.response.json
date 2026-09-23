@@ -1,0 +1,231 @@
+{
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "agent_id": "/root/suspicion_example_recheck_5",
+    "declared_model": "GPT-6",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "blind_attribution_record": {
+    "schema_version": "example_attribution_blind_record_v1",
+    "pass_id": "example-attribution",
+    "stage": 1,
+    "reviewer": {
+      "agent_id": "/root/suspicion_example_recheck_5",
+      "declared_model": "GPT-6",
+      "mode": "handoff",
+      "ingested_by": "human"
+    },
+    "attributions": [
+      {
+        "example_id": "ex-ddcd5a0c1bcc",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "that the meeting will finish earlier than planned"
+        ],
+        "rationale": "The that-clause presents a prediction about when the meeting will finish, which is sense:003. Sense:001 would involve suspicion of wrongdoing; the clause alleges no wrongdoing and instead expresses an uncertain belief about a future event. The exact wording \"that the meeting will finish earlier than planned\" is the cue for this reading."
+      },
+      {
+        "example_id": "ex-2eae7efa9618",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "a suspicion of a smile",
+          "appeared at the corner of her mouth"
+        ],
+        "rationale": "The phrase describes a faint visible trace of a smile, sense:004. Sense:003 would be an uncertain belief that a proposition is true; here the suspicion is a slight feature that appears in her expression. The exact wording \"a suspicion of a smile\" is the cue for this reading."
+      },
+      {
+        "example_id": "ex-d0d3bc36f37e",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "aroused suspicion of fraud"
+        ],
+        "rationale": "The construction raises a specific suspicion that fraud occurred, sense:001. Sense:002 is general mistrust or wariness; the phrase 'of fraud' makes the suspected wrongdoing the content of the suspicion. The exact wording \"aroused suspicion of fraud\" is the cue for this reading."
+      },
+      {
+        "example_id": "ex-775b4e7d3a46",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "that he had forgotten something important"
+        ],
+        "rationale": "The that-clause expresses an uncertain belief about having forgotten something, sense:003. Sense:001 would imply suspected crime or misconduct; forgetting something important is presented as a possibility, not wrongdoing. The exact wording \"that he had forgotten something important\" is the cue for this reading."
+      },
+      {
+        "example_id": "ex-ddbdb0500650",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "was initially greeted with some suspicion"
+        ],
+        "rationale": "The phrase describes the wary attitude with which the system was received, sense:002. Sense:003 would express a hunch that a specific proposition is true; no such proposition is stated, and 'greeted with' frames suspicion as a reception stance. The exact wording \"was initially greeted with some suspicion\" is the cue for this reading."
+      },
+      {
+        "example_id": "ex-7403a9ac1503",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "viewed the sudden policy change with suspicion"
+        ],
+        "rationale": "The phrase describes residents' distrustful or wary attitude toward the change, sense:002. Sense:003 would be an uncertain belief about a particular fact; the sentence presents an evaluative stance, not a suspected proposition. The exact wording \"viewed the sudden policy change with suspicion\" is the cue for this reading."
+      },
+      {
+        "example_id": "ex-072b284161ea",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "confirmed her suspicion that the battery was failing"
+        ],
+        "rationale": "The that-clause identifies a conjecture about the battery's condition, sense:003. Sense:001 would concern suspected wrongdoing, whereas the example concerns whether a mechanical problem exists. The exact wording \"confirmed her suspicion that the battery was failing\" is the cue for this reading."
+      },
+      {
+        "example_id": "ex-db60dc784e59",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "regarded it with deep suspicion"
+        ],
+        "rationale": "The phrase describes investors' distrustful attitude toward the forecast, sense:002. Sense:003 would be a discrete uncertain belief about a fact; the example predicates a wary stance toward the forecast itself. The exact wording \"regarded it with deep suspicion\" is the cue for this reading."
+      },
+      {
+        "example_id": "ex-1cccd6e68600",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "came under suspicion",
+          "several invoices disappeared"
+        ],
+        "rationale": "The construction 'came under suspicion' places the employee in the position of a person suspected in connection with wrongdoing, sense:001. Sense:002 would describe someone else's general wariness toward the employee; the sentence instead presents the employee as the target of a suspicion prompted by the disappearance."
+      },
+      {
+        "example_id": "ex-e7b7886e94ec",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "that the delay was caused by a technical problem"
+        ],
+        "rationale": "The that-clause states an uncertain conjecture about the cause of the delay, sense:003. Sense:001 would concern suspected wrongdoing; the clause instead proposes a technical explanation. The exact wording \"that the delay was caused by a technical problem\" is the cue for this reading."
+      },
+      {
+        "example_id": "ex-24bbee2ab4c3",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "arrested on suspicion of fraud"
+        ],
+        "rationale": "The construction 'on suspicion of fraud' gives the suspected offense as the basis for arrest, sense:001. Sense:003 would be a tentative belief about a non-wrongdoing fact, while this example explicitly concerns fraud. The exact wording \"arrested on suspicion of fraud\" is the cue for this reading."
+      },
+      {
+        "example_id": "ex-d8a61c2173ad",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "a suspicion of disappointment in his voice"
+        ],
+        "rationale": "The phrase describes a faint audible trace of disappointment in the voice, sense:004. Sense:003 would express a belief that a proposition is true; here the suspicion is a slight quality detectable in someone's voice. The exact wording \"a suspicion of disappointment in his voice\" is the cue for this reading."
+      },
+      {
+        "example_id": "ex-2be368eeb74d",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "white with a suspicion of blue"
+        ],
+        "rationale": "The phrase denotes a slight trace of blue in the walls' color, sense:004. Sense:003 would be an uncertain belief about a fact; the construction describes a faint quality present in the color. The exact wording \"white with a suspicion of blue\" is the cue for this reading."
+      },
+      {
+        "example_id": "ex-a75acb280fbc",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "a guard had taken the missing laptops"
+        ],
+        "rationale": "The suspicion concerns a guard's taking of missing property, an alleged act of wrongdoing, sense:001. Sense:003 can express a hunch about a fact, but the proposition here is specifically an allegation about a person's potentially wrongful conduct. The exact wording \"a guard had taken the missing laptops\" is the cue for this reading."
+      },
+      {
+        "example_id": "ex-91b9f72dfb55",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "that everyone already knew the answer"
+        ],
+        "rationale": "The that-clause gives the content of a private hunch, sense:003. Sense:002 would describe a wary attitude toward a person or thing; the sentence instead expresses an uncertain belief about what everyone knows. The exact wording \"that everyone already knew the answer\" is the cue for this reading."
+      },
+      {
+        "example_id": "ex-b5e008b10419",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "remained under suspicion",
+          "until the records were checked"
+        ],
+        "rationale": "The construction 'remained under suspicion' presents the contractor as the target of a suspicion pending verification, sense:001. Sense:002 would describe a general wary attitude toward the contractor; the sentence uses a status construction that marks the contractor as a suspected party."
+      },
+      {
+        "example_id": "ex-04527acb556f",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "a suspicion of citrus",
+          "made it taste fresher"
+        ],
+        "rationale": "The phrase describes a slight trace of citrus flavor, sense:004. Sense:003 would be an uncertain belief about a fact; the example describes a faint sensory quality in the sauce. The exact wording \"a suspicion of citrus\" is the cue for this reading."
+      },
+      {
+        "example_id": "ex-fd93c49a2240",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "cast suspicion on the clerk",
+          "the altered timestamp"
+        ],
+        "rationale": "The construction casts suspicion on the clerk as a person possibly responsible for the altered timestamp, sense:001. Sense:002 would be broad distrust or wariness toward the clerk; this example directs suspicion at possible involvement in a specific questionable act."
+      }
+    ],
+    "input_body_sha256": "dc7b3fae757b389c842c835ca0f579ce6bd47ea174d3aee6ec5ef0626b92dd92",
+    "blind_request_sha256": "e60e6bd78ed2bc491545843a4cd937ecdaff0b9f55e5203725145d60ba30cbff",
+    "recorded_at": "2026-09-23T15:06:50.785677+00:00"
+  },
+  "aligned_at": "2026-09-23T15:06:50.791937+00:00",
+  "findings": [],
+  "unrouted_observations": []
+}

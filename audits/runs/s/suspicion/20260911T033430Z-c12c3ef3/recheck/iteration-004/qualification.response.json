@@ -1,0 +1,27 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "qualification",
+  "request_sha256": "91f6b1822d2779bc87c7fb3fc194bda2473ec62f8b5aeb8086e88d4d610c9ce8",
+  "reviewer": {
+    "agent_id": "/root/suspicion_qualification_recheck_4",
+    "declared_model": "GPT-6",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "regional_qualification",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 226,
+        "line_end": 226,
+        "exact_quote": "4. 【名詞・単数／やや文語的】ほんの少し、かすかな気配"
+      },
+      "severity": "minor",
+      "rationale": "見出しはこの語義を「やや文語的」と限定している一方、同じ入力のレジスター説明では Oxford が付すラベルを formal と報告している。formal は改まった使用域を示すが、文学的・書き言葉中心であることまでは示さないため、見出しは資料が示す範囲を超えて書き言葉寄りに限定する可能性がある。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「やや文語的」を「formal（やや改まった）」等に置き換えるか、文語・書き言葉中心の使用域を示す根拠を追記する。"
+    }
+  ],
+  "unrouted_observations": []
+}

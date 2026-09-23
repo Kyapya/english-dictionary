@@ -1,0 +1,37 @@
+{
+  "schema_version": "workflow_revision_v1",
+  "before_body_sha256": "704b4f1e814a46fccb7bb66e60727178677ee79e54fb5112d4289433bab64fd9",
+  "after_body_sha256": "6c77c142312c5cd3c8fc46bb74e490d274f356ffea110ae31b600bfa76245433",
+  "changed_units": [
+    "lexical_relations",
+    "usage_notes"
+  ],
+  "full_recheck": false,
+  "fallback_reasons": [],
+  "invalidated_passes": [
+    "evidence",
+    "example-attribution",
+    "frame-relation",
+    "qualification",
+    "sense-structure",
+    "translation"
+  ],
+  "reusable_passes": [
+    "pronunciation"
+  ],
+  "semantic_invalidated_passes": [
+    "evidence",
+    "example-attribution",
+    "frame-relation",
+    "qualification",
+    "sense-structure",
+    "translation"
+  ],
+  "request_binding_expansion": {
+    "passes": [
+      "qualification",
+      "evidence"
+    ],
+    "reason": "The global frequency rubric is included verbatim because the extractor omits the top-level frequency header."
+  }
+}

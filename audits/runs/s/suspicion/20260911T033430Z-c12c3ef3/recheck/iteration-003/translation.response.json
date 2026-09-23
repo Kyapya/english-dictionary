@@ -1,0 +1,24 @@
+{
+  "pass_id": "translation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "GPT-6",
+    "ingested_by": "human",
+    "agent_id": "/root/suspicion_translation_recheck"
+  },
+  "request_sha256": "c7226096ec490d7027fa8990427369d104b6c2fdcf497cdc934d514174d4ce91",
+  "findings": [
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 258,
+        "line_end": 258,
+        "exact_quote": "訳: 空気中には煙がほんのわずかに残っているだけだった。"
+      },
+      "severity": "blocking",
+      "rationale": "英語の a trace of smoke は空気中に煙がごく少量あることを述べていますが、「残っている」は以前からあった煙が残存しているという時間的含意を加えています。原文は煙の履歴や残存を示していないため、訳が意味を狭めています。",
+      "suggested_direction": "「空気中には煙がごくわずかにあるだけだった」など、量の少なさを表し、残存の含意を加えない訳にする。"
+    }
+  ]
+}

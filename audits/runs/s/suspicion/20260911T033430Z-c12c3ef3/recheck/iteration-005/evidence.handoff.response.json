@@ -1,0 +1,79 @@
+{
+  "pass_id": "evidence",
+  "request_sha256": "204575b5951c0fed11a09b66562861eb0e7d4014a0be3ff8f0669890bd3ef1cb",
+  "reviewer": {
+    "agent_id": "/root/suspicion_evidence_recheck_5",
+    "declared_model": "GPT-6",
+    "mode": "handoff"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 31,
+        "line_end": 31,
+        "exact_quote": "【頻度】〈8/10〉"
+      },
+      "severity": "blocking",
+      "rationale": "The linked unions provide definitions, usage examples, and register labels, but none of the five supplied locators provides a numeric frequency scale. Oxford labels sense 4 formal, but that does not support its numeric rating or the ratings for the other senses. The same unsupported frequency ratings occur at lines 91, 152, and 214, linked through u_distrust, u_that_belief, and u_trace.",
+      "evidence_link_ids": [
+        "u_arrest_pattern",
+        "u_legal_definition",
+        "u_wrongdoing",
+        "u_distrust",
+        "u_that_belief",
+        "u_trace"
+      ],
+      "suggested_direction": "Add evidence that supports the frequency scale and each rating, or remove the ratings."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 75,
+        "line_end": 75,
+        "exact_quote": "頻度: 〈7/10〉"
+      },
+      "severity": "blocking",
+      "rationale": "The linked unions support senses and synonym relationships for suspicion, but the supplied locators do not provide numeric frequency evidence for the synonym entries. The same gap affects the ratings at lines 82, 120, 127, 134, 248, and 255, linked through u_wrongdoing, u_distrust, and u_trace.",
+      "evidence_link_ids": [
+        "u_wrongdoing",
+        "u_distrust",
+        "u_trace"
+      ],
+      "suggested_direction": "Add evidence that supports the frequency scale and each rating, or remove the ratings."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 109,
+        "line_end": 109,
+        "exact_quote": "・deep suspicion"
+      },
+      "severity": "blocking",
+      "rationale": "The linked u_distrust facts support the general distrust sense and uses such as viewing something with suspicion. The opened Oxford, Merriam-Webster, and American Heritage locators do not support the specific deep suspicion collocation or the asserted degree pattern.",
+      "evidence_link_ids": [
+        "u_distrust"
+      ],
+      "suggested_direction": "Add a source that supports this collocation or remove it."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 170,
+        "line_end": 173,
+        "exact_quote": "・a nagging suspicion that 〈clause〉\n用途: 消そうとしても繰り返し気になる疑い・予感を表す。\n例: He could not shake the nagging suspicion that he had forgotten something important.\n訳: 彼は何か大事なことを忘れたのではないかという消えない疑いを振り払えなかった。"
+      },
+      "severity": "blocking",
+      "rationale": "The linked u_that_belief facts support suspicion that clauses and the examples a sneaking suspicion, but none of the supplied locators attests to nagging suspicion. The same unsupported collocation also appears in register:003.",
+      "evidence_link_ids": [
+        "u_that_belief"
+      ],
+      "suggested_direction": "Add a source that supports nagging suspicion or remove the collocation."
+    }
+  ],
+  "unrouted_observations": []
+}

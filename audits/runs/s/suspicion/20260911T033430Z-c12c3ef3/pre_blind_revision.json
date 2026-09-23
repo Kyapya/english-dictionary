@@ -1,8 +1,8 @@
 {
   "schema_version": "pre_blind_revision_v1",
   "input_body_sha256": "82f343438dd0057f0cc4edd16ece26ba75380521e8c02dfb806b6da7eb43d3f8",
-  "output_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
-  "recorded_at": "2026-09-23T15:16:30.388486+00:00",
+  "output_body_sha256": "6c77c142312c5cd3c8fc46bb74e490d274f356ffea110ae31b600bfa76245433",
+  "recorded_at": "2026-09-23T16:58:28.076299Z",
   "changed_units": [
     "collocations_examples",
     "core_image",
@@ -24,46 +24,5 @@
     "sense-structure",
     "translation"
   ],
-  "full_recheck": true,
-  "revision_plan": {
-    "schema_version": "workflow_revision_v1",
-    "before_body_sha256": "82f343438dd0057f0cc4edd16ece26ba75380521e8c02dfb806b6da7eb43d3f8",
-    "after_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
-    "changed_units": [
-      "collocations_examples",
-      "core_image",
-      "etymology",
-      "frames",
-      "frequency_register",
-      "lexical_relations",
-      "pronunciation",
-      "sense_structure",
-      "usage_notes",
-      "word_formation"
-    ],
-    "full_recheck": true,
-    "fallback_reasons": [
-      "unclassified_change",
-      "sense_or_part_of_speech_topology_changed"
-    ],
-    "invalidated_passes": [
-      "evidence",
-      "example-attribution",
-      "frame-relation",
-      "pronunciation",
-      "qualification",
-      "sense-structure",
-      "translation"
-    ],
-    "reusable_passes": []
-  },
-  "body_revision_chain": [
-    {
-      "from_body_sha256": "13559d31b050882ff1d24890c8d22914c8f87e20f0ddb0e509e2a8178469bd82",
-      "to_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
-      "record_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/body-revision-plan.json"
-    }
-  ],
-  "history_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/revision_history/reconciliation-followup-20260923T151630Z/pre_blind_revision.de1e-superseded.json",
-  "reconciliation_note_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/revision_history/reconciliation-followup-20260923T151630Z/state-reconciliation.json"
+  "full_recheck": true
 }

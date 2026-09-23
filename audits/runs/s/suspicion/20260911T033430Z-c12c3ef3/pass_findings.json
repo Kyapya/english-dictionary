@@ -41,7 +41,8 @@
           "severity": "minor",
           "rationale": "この共通核は、語義1〜3の犯罪・不信・推測には合うが、語義4（line 34）の「ほんの少し、かすかな気配」には、表面の背後に別の事実を推測することが必須ではない。コアイメージの核が語義4の意味範囲を狭く捉えている。",
           "evidence_link_ids": [],
-          "suggested_direction": "共通核を、不確かな推測だけでなく何かの存在をわずかに感じ取る用法も含む表現に広げる。"
+          "suggested_direction": "共通核を、不確かな推測だけでなく何かの存在をわずかに感じ取る用法も含む表現に広げる。",
+          "id": "normal-sense-structure-001"
         }
       ]
     },
@@ -164,7 +165,8 @@
           "severity": "minor",
           "rationale": "語義1の例文「The altered timestamp cast suspicion on the authenticity of the document.」（72行目）は疑いの対象が文書の真正性という性質・主張であり、〈person/action〉の対象枠から外れる。対象を property/claim まで明示する必要がある。",
           "evidence_link_ids": [],
-          "suggested_direction": "完全フレーム化：対象枠に〈claim/property〉を加える"
+          "suggested_direction": "完全フレーム化：対象枠に〈claim/property〉を加える",
+          "id": "normal-frame-relation-001"
         },
         {
           "taxonomy_id": "argument_slot_role_mismatch",
@@ -177,7 +179,8 @@
           "severity": "minor",
           "rationale": "語義2の例文「Residents viewed the sudden policy change with suspicion.」（119行目）は対象が人または主張ではなく方針変更・決定である。〈proposal/action/decision〉などの対象枠を示す必要がある。",
           "evidence_link_ids": [],
-          "suggested_direction": "完全フレーム化：対象枠に〈proposal/action/decision〉を加える"
+          "suggested_direction": "完全フレーム化：対象枠に〈proposal/action/decision〉を加える",
+          "id": "normal-frame-relation-002"
         },
         {
           "taxonomy_id": "lexical_relation_mislabel",
@@ -190,7 +193,8 @@
           "severity": "minor",
           "rationale": "accusation は不正をしたという非難・告発そのもの、suspicion は証明前に抱く疑いであり、同義語というより関連する発話・行為である。違い行も明示的な主張と内的な疑いを区別しているため、類義語欄から削除するのが適切。",
           "evidence_link_ids": [],
-          "suggested_direction": "削除"
+          "suggested_direction": "削除",
+          "id": "normal-frame-relation-003"
         },
         {
           "taxonomy_id": "lexical_relation_mislabel",
@@ -203,7 +207,8 @@
           "severity": "minor",
           "rationale": "allegation は証明前に公に提示された不正についての主張で、suspicion の内的な疑いとは意味役割が異なる関連語である。違い行も提示された主張と発言されていない疑いを区別しているため、類義語欄から削除するのが適切。",
           "evidence_link_ids": [],
-          "suggested_direction": "削除"
+          "suggested_direction": "削除",
+          "id": "normal-frame-relation-004"
         }
       ],
       "unrouted_observations": []
@@ -470,7 +475,8 @@
           "severity": "blocking",
           "rationale": "段階1でsense:001, sense:002が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
           "evidence_link_ids": [],
-          "suggested_direction": "判別語の追加"
+          "suggested_direction": "判別語の追加",
+          "id": "normal-example-attribution-001"
         },
         {
           "taxonomy_id": "example_sense_attribution_mismatch",
@@ -483,7 +489,8 @@
           "severity": "blocking",
           "rationale": "段階1でsense:002, sense:003が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
           "evidence_link_ids": [],
-          "suggested_direction": "判別語の追加"
+          "suggested_direction": "判別語の追加",
+          "id": "normal-example-attribution-002"
         },
         {
           "taxonomy_id": "example_sense_attribution_mismatch",
@@ -496,7 +503,8 @@
           "severity": "blocking",
           "rationale": "段階1でsense:001, sense:003が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
           "evidence_link_ids": [],
-          "suggested_direction": "判別語の追加"
+          "suggested_direction": "判別語の追加",
+          "id": "normal-example-attribution-003"
         },
         {
           "taxonomy_id": "example_sense_attribution_mismatch",
@@ -509,7 +517,8 @@
           "severity": "blocking",
           "rationale": "段階1でsense:001, sense:002が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
           "evidence_link_ids": [],
-          "suggested_direction": "判別語の追加"
+          "suggested_direction": "判別語の追加",
+          "id": "normal-example-attribution-004"
         },
         {
           "taxonomy_id": "example_sense_attribution_mismatch",
@@ -522,7 +531,8 @@
           "severity": "blocking",
           "rationale": "段階1でsense:001, sense:002が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
           "evidence_link_ids": [],
-          "suggested_direction": "判別語の追加"
+          "suggested_direction": "判別語の追加",
+          "id": "normal-example-attribution-005"
         },
         {
           "taxonomy_id": "example_sense_attribution_mismatch",
@@ -535,7 +545,8 @@
           "severity": "blocking",
           "rationale": "段階1でsense:002, sense:003が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
           "evidence_link_ids": [],
-          "suggested_direction": "判別語の追加"
+          "suggested_direction": "判別語の追加",
+          "id": "normal-example-attribution-006"
         },
         {
           "taxonomy_id": "example_sense_attribution_mismatch",
@@ -548,7 +559,8 @@
           "severity": "blocking",
           "rationale": "段階1でsense:001, sense:003が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
           "evidence_link_ids": [],
-          "suggested_direction": "判別語の追加"
+          "suggested_direction": "判別語の追加",
+          "id": "normal-example-attribution-007"
         }
       ],
       "unrouted_observations": []
@@ -596,7 +608,8 @@
             "oxf_pron",
             "mw_pron"
           ],
-          "suggested_direction": "Add a Cambridge locator and verify the comparison, or remove the Cambridge comparison."
+          "suggested_direction": "Add a Cambridge locator and verify the comparison, or remove the Cambridge comparison.",
+          "id": "normal-evidence-001"
         },
         {
           "taxonomy_id": "evidence_claim_mismatch",
@@ -615,7 +628,8 @@
             "ety_origin",
             "ety_spelling"
           ],
-          "suggested_direction": "Limit the etymology to the sourced historical route and component glosses, or add direct support and mark the modern semantic continuity as an interpretation."
+          "suggested_direction": "Limit the etymology to the sourced historical route and component glosses, or add direct support and mark the modern semantic continuity as an interpretation.",
+          "id": "normal-evidence-002"
         },
         {
           "taxonomy_id": "evidence_claim_mismatch",
@@ -630,7 +644,8 @@
           "evidence_link_ids": [
             "oxf_family"
           ],
-          "suggested_direction": "Add direct dictionary evidence for the stated senses and uses, or limit this section to the word-family forms and parts of speech."
+          "suggested_direction": "Add direct dictionary evidence for the stated senses and uses, or limit this section to the word-family forms and parts of speech.",
+          "id": "normal-evidence-003"
         },
         {
           "taxonomy_id": "evidence_claim_mismatch",
@@ -645,7 +660,8 @@
           "evidence_link_ids": [
             "mw_legal"
           ],
-          "suggested_direction": "Limit the target to the no-proof boundary and documented examples, or add evidence appropriate to the register and frequency claims."
+          "suggested_direction": "Limit the target to the no-proof boundary and documented examples, or add evidence appropriate to the register and frequency claims.",
+          "id": "normal-evidence-004"
         },
         {
           "taxonomy_id": "evidence_claim_mismatch",
@@ -662,7 +678,8 @@
             "mw_contrast",
             "ahd_distrust"
           ],
-          "suggested_direction": "Add a source example for suspicion of + person/group/idea in the distrust sense, or remove or qualify the frame and example."
+          "suggested_direction": "Add a source example for suspicion of + person/group/idea in the distrust sense, or remove or qualify the frame and example.",
+          "id": "normal-evidence-005"
         },
         {
           "taxonomy_id": "evidence_claim_mismatch",
@@ -679,7 +696,8 @@
             "mw_contrast",
             "ahd_distrust"
           ],
-          "suggested_direction": "Remove or identify the frequency scale as editorial, and add direct comparative evidence for the stated distinction or narrow the wording to source-supported definitions."
+          "suggested_direction": "Remove or identify the frequency scale as editorial, and add direct comparative evidence for the stated distinction or narrow the wording to source-supported definitions.",
+          "id": "normal-evidence-006"
         },
         {
           "taxonomy_id": "evidence_claim_mismatch",
@@ -696,7 +714,8 @@
             "mw_contrast",
             "ahd_distrust"
           ],
-          "suggested_direction": "Remove or identify the frequency scale as editorial, and align the comparison with direct source evidence or qualify it."
+          "suggested_direction": "Remove or identify the frequency scale as editorial, and align the comparison with direct source evidence or qualify it.",
+          "id": "normal-evidence-007"
         },
         {
           "taxonomy_id": "evidence_claim_mismatch",
@@ -713,7 +732,8 @@
             "mw_trace",
             "ahd_trace"
           ],
-          "suggested_direction": "Use the documented “suspicion of a smile” construction, or add a source that directly supports the with-construction and irony use."
+          "suggested_direction": "Use the documented “suspicion of a smile” construction, or add a source that directly supports the with-construction and irony use.",
+          "id": "normal-evidence-008"
         },
         {
           "taxonomy_id": "evidence_claim_mismatch",
@@ -730,7 +750,8 @@
             "ahd_verb",
             "ety_verb"
           ],
-          "suggested_direction": "Move the verb note to a lemma-level or word-formation note, and support or qualify the standard-usage statement."
+          "suggested_direction": "Move the verb note to a lemma-level or word-formation note, and support or qualify the standard-usage statement.",
+          "id": "normal-evidence-009"
         }
       ]
     }

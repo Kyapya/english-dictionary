@@ -1,0 +1,129 @@
+{
+  "pass_id": "evidence",
+  "request_sha256": "977fabcb6c92e0d67b86501a093f66c6c31c1c4b191ededae68488d40cb1e790",
+  "reviewer": {
+    "agent_id": "/root/suspicion_evidence_recheck_7",
+    "declared_model": "GPT-6",
+    "mode": "handoff"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 73,
+        "line_end": 78,
+        "exact_quote": "頻度: 〈7/10〉"
+      },
+      "severity": "blocking",
+      "rationale": "The linked claim_wrongdoing sources (Oxford Learner's Dictionary, Merriam-Webster, and American Heritage) support the wrongdoing sense of suspicion, but none supplies a frequency measure or a basis for this 7/10 rating. The rating is not directly supported by the linked material.",
+      "evidence_link_ids": ["claim_wrongdoing"],
+      "suggested_direction": "Add a traceable frequency source and rating method, or remove/qualify the score."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 80,
+        "line_end": 85,
+        "exact_quote": "頻度: 〈10/10〉"
+      },
+      "severity": "blocking",
+      "rationale": "The linked claim_wrongdoing sources support the suspicion sense and its contrast with doubt, but they provide no frequency measure for doubt and no basis for this 10/10 rating. The rating is not directly supported by the linked material.",
+      "evidence_link_ids": ["claim_wrongdoing"],
+      "suggested_direction": "Add a traceable frequency source and rating method, or remove/qualify the score."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 113,
+        "line_end": 118,
+        "exact_quote": "頻度: 〈8/10〉"
+      },
+      "severity": "blocking",
+      "rationale": "The linked claim_distrust sources (Oxford Learner's Dictionary, Merriam-Webster, and American Heritage) support the distrust sense of suspicion, but none provides a frequency measure for distrust or a basis for this 8/10 rating. The rating is not directly supported by the linked material.",
+      "evidence_link_ids": ["claim_distrust"],
+      "suggested_direction": "Add a traceable frequency source and rating method, or remove/qualify the score."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 120,
+        "line_end": 125,
+        "exact_quote": "頻度: 〈7/10〉"
+      },
+      "severity": "blocking",
+      "rationale": "The linked claim_distrust sources support the relation between suspicion and mistrust, but none provides a frequency measure for mistrust or a basis for this 7/10 rating. The rating is not directly supported by the linked material.",
+      "evidence_link_ids": ["claim_distrust"],
+      "suggested_direction": "Add a traceable frequency source and rating method, or remove/qualify the score."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 127,
+        "line_end": 132,
+        "exact_quote": "頻度: 〈8/10〉"
+      },
+      "severity": "blocking",
+      "rationale": "The linked claim_distrust sources support suspicion as distrust/lack of confidence and compare it with skepticism, but they provide no frequency measure for skepticism or basis for this 8/10 rating. The rating is not directly supported by the linked material.",
+      "evidence_link_ids": ["claim_distrust"],
+      "suggested_direction": "Add a traceable frequency source and rating method, or remove/qualify the score."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 136,
+        "line_end": 141,
+        "exact_quote": "頻度: 〈10/10〉"
+      },
+      "severity": "blocking",
+      "rationale": "The linked claim_distrust sources support the lack-of-trust sense of suspicion, but none provides a frequency measure for trust or a basis for this 10/10 rating. The rating is not directly supported by the linked material.",
+      "evidence_link_ids": ["claim_distrust"],
+      "suggested_direction": "Add a traceable frequency source and rating method, or remove/qualify the score."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 236,
+        "line_end": 241,
+        "exact_quote": "頻度: 〈8/10〉"
+      },
+      "severity": "blocking",
+      "rationale": "The linked claim_trace sources support the small-amount sense of suspicion and Oxford's synonym link to hint, but none provides a frequency measure for hint or a basis for this 8/10 rating. The rating is not directly supported by the linked material.",
+      "evidence_link_ids": ["claim_trace"],
+      "suggested_direction": "Add a traceable frequency source and rating method, or remove/qualify the score."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 243,
+        "line_end": 248,
+        "exact_quote": "頻度: 〈8/10〉"
+      },
+      "severity": "blocking",
+      "rationale": "The linked claim_trace sources support the small-amount sense and its relation to trace, but none provides a frequency measure for trace or a basis for this 8/10 rating. The rating is not directly supported by the linked material.",
+      "evidence_link_ids": ["claim_trace"],
+      "suggested_direction": "Add a traceable frequency source and rating method, or remove/qualify the score."
+    }
+  ],
+  "unrouted_observations": [
+    {
+      "section": "＃意味・用法・関連表現",
+      "input_section": "frequency_register",
+      "lines": [42, 102, 158, 215],
+      "observation": "The four noun-sense frequency ratings (8/10, 7/10, 8/10, 2/10) appear in input_sections but are not represented as article_targets or claim-unit targets, so this request provides no evidence link to review for them. None of the five opened locators supplies those ratings."
+    },
+    {
+      "section": "＃意味・用法・関連表現",
+      "input_section": "lexical_relations",
+      "lines": [192, 199, 206, 263],
+      "observation": "The ratings for hunch, inkling, feeling, and touch appear in input_sections but are absent from article_targets and claim units. The supplied locators provide no frequency measures for these items, so they are unrouted in this evidence request."
+    }
+  ]
+}

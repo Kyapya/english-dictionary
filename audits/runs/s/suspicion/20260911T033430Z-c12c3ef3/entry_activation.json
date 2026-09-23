@@ -1,13 +1,11 @@
 {
   "schema_version": "workflow_entry_activation_v1",
-  "recorded_at": "2026-09-23T15:28:44.617386+00:00",
-  "candidate_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-13/reviewed_entry.md",
-  "candidate_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+  "recorded_at": "2026-09-23T17:48:16.622688+00:00",
+  "candidate_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/candidate/pre_blind_revision_entry.md",
+  "candidate_body_sha256": "6c77c142312c5cd3c8fc46bb74e490d274f356ffea110ae31b600bfa76245433",
   "current_tracked_entry_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
-  "state": "activated",
-  "reason": "Independent final review passed; status, audit, queue, and workflow stages are being completed together.",
+  "state": "candidate_pending_final_workflow_completion",
+  "reason": "The corrected candidate passed checker recheck; keep it in the run audit while fresh final blind review and final review are completed, then activate it with the completed workflow.",
   "review_inputs_use_candidate_snapshot": true,
-  "previous_tracked_entry_body_sha256": "82f343438dd0057f0cc4edd16ece26ba75380521e8c02dfb806b6da7eb43d3f8",
-  "activated_entry_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
-  "activated_at": "2026-09-23T17:12:31.325510+00:00"
+  "previous_tracked_entry_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
 }
