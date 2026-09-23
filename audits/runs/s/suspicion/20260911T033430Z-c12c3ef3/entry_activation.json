@@ -1,0 +1,10 @@
+{
+  "schema_version": "workflow_entry_activation_v1",
+  "recorded_at": "2026-09-23T15:28:44.617386+00:00",
+  "candidate_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-13/reviewed_entry.md",
+  "candidate_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+  "current_tracked_entry_body_sha256": "82f343438dd0057f0cc4edd16ece26ba75380521e8c02dfb806b6da7eb43d3f8",
+  "state": "candidate_pending_final_workflow_completion",
+  "reason": "The connector checkpoint guard permits an updated entry only with a changed completed workflow run. Preserve the reviewed candidate in the run audit during in-progress blind stages; activate it in the final completed entry and workflow commit.",
+  "review_inputs_use_candidate_snapshot": true
+}
