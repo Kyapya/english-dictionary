@@ -1,0 +1,42 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "pronunciation",
+  "taxonomy_ids": [
+    "pronunciation_symbol_explanation"
+  ],
+  "specification": "prompts/check_pass_pronunciation_v6.md",
+  "input_body_sha256": "81a1d26c2b696bfd6afeee63cc863b8e3f8bcfbe0e9dd5fde1a124523d5379c5",
+  "input_sections": {
+    "pronunciation": [
+      {
+        "line": 13,
+        "text": "＃発音記号"
+      },
+      {
+        "line": 15,
+        "text": "米: /ˌkɑːntrəˈvɝːʃəl/｜英: /ˌkɒntrəˈvɜːʃəl/。米英とも4音節で、第3音節の /vɝː/・/vɜː/ に主強勢がある。第1音節の /ˌkɑːn/・/ˌkɒn/ には副次強勢を示す。米語では /ˌkɑːntrəˈvɝːsiəl/ に近い5音節寄りの発音も聞かれるが、通常の学習上は /ˈvɝːʃəl/・/ˈvɜːʃəl/ の部分を基準にする。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "7e3e94267ac9f917c901c12580b91e570b5989df7adfbf2a39b833478c766d8a",
+  "source_artifact_sha256": "77ed6903c70ca9ccab05a50f54ae8740a0cbc1b14859eb360871347314edd2d8",
+  "normalized_input_sha256": "94c600de9f95f2fd465326129f540bab3cbb412ebac26373d2b4c2c816b5fe0f"
+}

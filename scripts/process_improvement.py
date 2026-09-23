@@ -11,7 +11,7 @@ never promotes or retires knowledge from counters alone.
 import argparse
 import contextlib
 import datetime as dt
-import fcntl
+from file_lock import exclusive_lock
 import hashlib
 import json
 import os
@@ -150,12 +150,8 @@ def _atomic_json(path: Path, value: Any) -> None:
 def _registry_lock(repo_root: Path) -> Iterator[None]:
     lock_path = repo_root / "process_improvement" / ".registry.lock"
     lock_path.parent.mkdir(parents=True, exist_ok=True)
-    with lock_path.open("a+", encoding="utf-8") as stream:
-        fcntl.flock(stream.fileno(), fcntl.LOCK_EX)
-        try:
-            yield
-        finally:
-            fcntl.flock(stream.fileno(), fcntl.LOCK_UN)
+    with exclusive_lock(lock_path):
+        yield
 
 
 def load_epoch(repo_root: Path = REPO_ROOT) -> dict[str, Any]:

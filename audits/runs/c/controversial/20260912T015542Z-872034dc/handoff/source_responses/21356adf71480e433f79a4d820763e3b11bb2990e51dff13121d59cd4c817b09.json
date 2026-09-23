@@ -1,0 +1,28 @@
+{
+  "schema_version": "antonym_axis_blind_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "81a1d26c2b696bfd6afeee63cc863b8e3f8bcfbe0e9dd5fde1a124523d5379c5",
+  "blind_request_sha256": "a8571c606a5b65fde1bda9ca43c3af9db0eda2c0023b6c6059b42b9173c7c8c6",
+  "recorded_at": "2026-09-12T02:20:00Z",
+  "axes": [
+    {
+      "item_id": "ant-9155f1ca66db",
+      "axis": "状態",
+      "relation_type": "状態",
+      "reason": "The adjective contrasts a state of being publicly disputed with a state in which that dispute is absent."
+    },
+    {
+      "item_id": "ant-5e1d39a9d098",
+      "axis": "状態",
+      "relation_type": "状態",
+      "reason": "The negative adjective describes the corresponding noncontroversial state rather than a higher or lower degree of controversy."
+    }
+  ],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "codex-gpt-5",
+    "ingested_by": "human",
+    "agent_id": "controversial-checker-frame-axis-20260912T015542Z-872034dc",
+    "same_model_as_generation": true
+  }
+}

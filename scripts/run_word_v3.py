@@ -429,6 +429,7 @@ def initialize_orchestrator_state(plan: dict[str, Any]) -> dict[str, Any]:
         "next_stage_index": 1,
         "completed_stages": ["guard_start"],
         "stage_outputs": {},
+        "stage_started_at": None,
     }
 
 
@@ -677,14 +678,25 @@ def process_stage_learning(
         processing[stage] = result
         return result
     if len(candidates) > 1:
-        result = {
-            "status": "save_error",
-            "source_refs": [path.relative_to(repo_root).as_posix() for path, _ in candidates],
-            "reason": "multiple learning_delta payloads found for one stage",
-            "recorded_at": guard._format_time(datetime.now(timezone.utc)),
+        unique = {
+            review_preflight.digest(delta): (path, delta)
+            for path, delta in candidates
         }
-        processing[stage] = result
-        return result
+        if len(unique) == 1:
+            # Some stages intentionally save the same coordinator decision in
+            # both a stage summary and the canonical resolutions artifact.
+            # Treat byte-equivalent semantic payloads as one decision.
+            path, delta = sorted(candidates, key=lambda item: item[0].as_posix())[0]
+            candidates = [(path, delta)]
+        else:
+            result = {
+                "status": "save_error",
+                "source_refs": [path.relative_to(repo_root).as_posix() for path, _ in candidates],
+                "reason": "conflicting learning_delta payloads found for one stage",
+                "recorded_at": guard._format_time(datetime.now(timezone.utc)),
+            }
+            processing[stage] = result
+            return result
     path, delta = candidates[0]
     try:
         receipt = process_improvement.ingest_learning_delta(
@@ -1068,7 +1080,7 @@ def prepare_review_inputs(
                 entry, cycle_dir, repo_root,
                 compact=packet["_output_metadata"]["schema_version"] == "final_review_v3",
             ))
-        for name in (
+        for name in (() if packet.get("contract_version") == review_preflight.VERSION else (
             "pass_findings.json",
             "cold_review.json",
             "final_blind.json",
@@ -1079,7 +1091,7 @@ def prepare_review_inputs(
             "post_blind_resolution.json",
             "post_blind_verification.json",
             "targeted_adjudications.json",
-        ):
+        )):
             path = cycle_dir / name
             if path.is_file():
                 packet[name.removesuffix(".json")] = json.loads(
@@ -1175,7 +1187,11 @@ def prepare_handoff(
         "# Independent review handoff\n\n"
         f"Stage: `{stage}`\n\n"
         "The response must be one JSON object matching the supplied review schema. "
-        "Create it in a separate model session; do not use the generation session.\n\n"
+        "Create it in a separate model session; do not use the generation session. "
+        "For runs using self_attested_handoff_v1, the raw response must include "
+        "a top-level reviewer object with mode=handoff, the actual agent_id, and "
+        "the actual declared_model. The ingester will reject identity supplied "
+        "only after the response was created.\n\n"
         "## Prompt\n\n"
         f"{prompt_text}\n\n"
         "## Input packet\n\n```json\n"
@@ -1222,13 +1238,30 @@ def ingest_handoff_review(
     if not isinstance(value, dict):
         raise ValueError("handoff response must be a JSON object")
     agent_id = (reviewer_agent_id or "").strip()
-    reviewer = {
-        "mode": "handoff",
-        "declared_model": declared_model.strip(),
-        "ingested_by": "human",
-    }
+    import handoff_provenance
+    self_attested = (
+        manifest.get("orchestrator", {}).get("review_response_protocol")
+        == handoff_provenance.SELF_ATTESTED_PROTOCOL
+    )
+    if self_attested:
+        reviewer = handoff_provenance.normalize_source_reviewer(value.get("reviewer"))
+        if reviewer["declared_model"] != declared_model.strip():
+            raise ValueError("handoff response reviewer.declared_model differs from ingestion metadata")
+        if agent_id and reviewer["agent_id"] != agent_id:
+            raise ValueError("handoff response reviewer.agent_id differs from ingestion metadata")
+        agent_id = reviewer["agent_id"]
+        reviewer["ingested_by"] = "human"
+    else:
+        reviewer = {
+            "mode": "handoff",
+            "declared_model": declared_model.strip(),
+            "ingested_by": "human",
+        }
     if agent_id:
         reviewer["agent_id"] = agent_id
+    if manifest.get("orchestrator", {}).get("review_provenance_protocol") == handoff_provenance.PROTOCOL:
+        reviewer["source_response"] = handoff_provenance.bind(response_path, repo_root)
+        reviewer["ingested_by"] = "orchestrator"
     entry = repo_root / str(manifest["entry_path"])
     front, _ = validate_entry._split_front_matter(entry.read_text(encoding="utf-8"))
     generation_model = validate_entry._front_matter_values(front or []).get("model", "")
@@ -2143,7 +2176,7 @@ def complete_orchestrated_stage(
     *,
     stage: str,
     input_bytes: int,
-    duration_seconds: float,
+    duration_seconds: float | None,
     defects_detected: int = 0,
     revision_count: int = 0,
     output_paths: list[str] | None = None,
@@ -2153,6 +2186,17 @@ def complete_orchestrated_stage(
     repo_root: Path = REPO_ROOT,
     verify_outputs: bool = True,
 ) -> None:
+    current = now or datetime.now(timezone.utc)
+    duration_source = "reported"
+    if duration_seconds is None:
+        state = manifest.get("orchestrator_state", {})
+        raw_started = state.get("stage_started_at") or manifest.get("started_at")
+        try:
+            started = datetime.fromisoformat(str(raw_started).replace("Z", "+00:00"))
+        except (TypeError, ValueError) as exc:
+            raise ValueError("stage duration is missing and stage_started_at is invalid") from exc
+        duration_seconds = max(0.0, (current - started).total_seconds())
+        duration_source = "measured_wall"
     request = next_stage_request(manifest)
     if request is None:
         raise ValueError("orchestrator has no remaining stage")
@@ -2226,6 +2270,7 @@ def complete_orchestrated_stage(
         defects_detected=defects_detected,
         revision_count=revision_count,
     )
+    _cost_row(manifest["metrics"], "stages", stage)["duration_source"] = duration_source
     if stage == "generation":
         for row in manifest["metrics"]["process_rules"]:
             if row.get("completed") is True:
@@ -2257,7 +2302,6 @@ def complete_orchestrated_stage(
                 duration_seconds=float(cost.get("duration_seconds", 0.0)),
                 defects_detected=int(cost.get("defects_detected", 0)),
             )
-    current = now or datetime.now(timezone.utc)
     for checkpoint in request.get("guard_checkpoints", []):
         ok = guard.advance_stage(
             manifest,
@@ -2271,6 +2315,7 @@ def complete_orchestrated_stage(
     state["completed_stages"].append(stage)
     state["next_stage_index"] = int(state["next_stage_index"]) + 1
     state["stage_outputs"][stage] = expected_outputs
+    state["stage_started_at"] = guard._format_time(current)
     next_request = next_stage_request(manifest)
     if next_request is not None:
         ensure_process_improvement_input(
@@ -2356,6 +2401,7 @@ def create_guard_manifest(
     manifest["orchestrator_state"] = initialize_orchestrator_state(
         manifest["orchestrator"]
     )
+    manifest["orchestrator_state"]["stage_started_at"] = manifest["started_at"]
     path = (
         repo_root
         / "audits"
@@ -2831,7 +2877,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--complete-stage", type=Path)
     parser.add_argument("--stage")
     parser.add_argument("--input-bytes", type=int, default=0)
-    parser.add_argument("--duration-seconds", type=float, default=0.0)
+    parser.add_argument("--duration-seconds", type=float)
     parser.add_argument("--defects-detected", type=int, default=0)
     parser.add_argument("--revision-count", type=int, default=0)
     parser.add_argument("--checker-pass-costs", type=Path)

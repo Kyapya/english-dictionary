@@ -1,0 +1,32 @@
+{
+  "schema_version": "pre_blind_resolution_v1",
+  "input_body_sha256": "6bf439cde2a5a009f8e4e4d27f7041f7af5c66dd15e9e51aaf59bfb705b46752",
+  "output_body_sha256": "fcb08ac47dc55a7ef50022fe8615ddb12b921fe50d617dd4577843cb068b99bf",
+  "recorded_at": "2026-09-19T14:46:12Z",
+  "resolutions": [
+    {
+      "id": "CR-definite-001",
+      "finding_id": "CR-definite-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "採用。肯定・否定の対応と否定範囲が学習者に伝わるよう、anything definite と nothing definite を別々の自然な日本語フレームへ改めた。",
+      "resolved_body_sha256": "fcb08ac47dc55a7ef50022fe8615ddb12b921fe50d617dd4577843cb068b99bf"
+    },
+    {
+      "id": "CR-definite-002",
+      "finding_id": "CR-definite-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "採用。a definite number of の中心義である「決まった人数」を保ち、上限という文脈依存の含意に狭めない訳へ改めた。",
+      "resolved_body_sha256": "fcb08ac47dc55a7ef50022fe8615ddb12b921fe50d617dd4577843cb068b99bf"
+    },
+    {
+      "id": "CR-definite-003",
+      "finding_id": "CR-definite-003",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "採用。語義4の文法用語として、名詞句の指示対象が文脈上特定可能になる definite reference の例文へ差し替えた。",
+      "resolved_body_sha256": "fcb08ac47dc55a7ef50022fe8615ddb12b921fe50d617dd4577843cb068b99bf"
+    }
+  ]
+}

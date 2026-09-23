@@ -1,0 +1,89 @@
+{
+  "schema_version": "late_review_observation_v1",
+  "stage": "checker_passes",
+  "pass_id": "qualification",
+  "input_body_sha256": "6bf439cde2a5a009f8e4e4d27f7041f7af5c66dd15e9e51aaf59bfb705b46752",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-6-astra",
+    "ingested_by": "human",
+    "agent_id": "reviewer-definite-qualification-20260919"
+  },
+  "provenance_note": "Independent subagent notification received after the canonical checker-pass aggregation had already advanced to cold review; preserved separately and addressed in the pre-blind revision.",
+  "findings": [
+    {
+      "id": "LRO-definite-qualification-001",
+      "taxonomy_id": "regional_qualification",
+      "severity": "minor",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 44,
+        "line_end": 44,
+        "exact_quote": "【頻度】〈9/10〉"
+      },
+      "rationale": "10段階の値について、英語全体・語義別の遭遇頻度なのか、特定領域内または同一見出し語内の相対評価なのかを判断できる母集団・資料が示されていない。",
+      "suggested_direction": "頻度スコアを英語学習での一般的な遭遇しやすさの目安と明記し、領域別コーパス頻度や語義間の厳密な順位を示さないことを注記する。",
+      "evidence_link_ids": []
+    },
+    {
+      "id": "LRO-definite-qualification-002",
+      "taxonomy_id": "absolute_scope_counterexample",
+      "severity": "minor",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 206,
+        "line_end": 206,
+        "exact_quote": "【語法・注意】この用法の definite は「証明された」と同義ではない。`a definite improvement` は改善がはっきり認められるという意味で、科学的な因果関係が完全に証明されたという意味ではない。`a definite possibility` は「確実に起こること」ではなく「現実味のある可能性」である。obvious は誰にとってもすぐ分かること、clear は混乱や曖昧さがないこと、noticeable は知覚上目立つことを強調し、definite は変化・差・効果などを明確なものとして認めることに焦点がある。"
+      },
+      "rationale": "obvious は「誰にとっても」直ちに分かることを必須条件とせず、話者・観察者・文脈に相対して明白と評価される用法もある。",
+      "suggested_direction": "obvious は文脈上または話者にとって認識しやすいことを表す傾向として説明し、全員にとって自明であることを必要条件にしない。",
+      "evidence_link_ids": []
+    },
+    {
+      "id": "LRO-definite-qualification-003",
+      "taxonomy_id": "regional_qualification",
+      "severity": "minor",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 274,
+        "line_end": 274,
+        "exact_quote": "【レジスター/領域】標準語だが、契約・行政・学術・数学・技術文書で特に多い。specific は選び出された個別性、exact は数値や内容の厳密な一致、definite は範囲や条件が定まっていることを強調しやすい。"
+      },
+      "rationale": "契約・行政・学術・数学・技術を単一の共通レジスターとして「特に多い」とまとめている。数学では主に definite integral などの専門連語であり、他の用法は一般語の形式的な用法で、各領域での慣用性と頻度は同一ではない。",
+      "suggested_direction": "数学の専門連語と、契約・行政などで現れる形式的な一般用法を分け、領域横断の「特に多い」という断定を弱める。",
+      "evidence_link_ids": []
+    },
+    {
+      "id": "LRO-definite-qualification-004",
+      "taxonomy_id": "absolute_scope_counterexample",
+      "severity": "minor",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 315,
+        "line_end": 315,
+        "exact_quote": "【語法・注意】`a definite amount` は「量が決まっている」ことを示すが、必ずしも聞き手がその数値を知っているとは限らない。`specific` は「その特定のもの」という選択に、`exact` は誤差のない数値・内容に焦点がある。`definite information` は具体的で確認可能な情報、`definite plans` は決定済みの予定というように、名詞によって「具体的」と「確定した」のどちらが前面に出るかが変わる。`definite integral` は「確実な積分」ではなく、積分区間が定まった数学用語である。"
+      },
+      "rationale": "`definite information` は具体的・明確・確かな情報を表すが、語そのものが独立に検証可能であることまで必須にしない。未確認の情報でも、内容が具体的で曖昧でないという意味で definite と評価され得る。",
+      "suggested_direction": "「具体的で明確な情報」または「確かな情報」とし、確認・検証可能性は文脈上伴うことがある含みに分ける。",
+      "evidence_link_ids": []
+    },
+    {
+      "id": "LRO-definite-qualification-005",
+      "taxonomy_id": "technical_terminology_conventionality",
+      "severity": "minor",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 408,
+        "line_end": 408,
+        "exact_quote": "例: The article makes a definite reference to the company’s earlier report."
+      },
+      "rationale": "この例は記事が報告書に「明確に言及する」という一般語義として自然に読め、名詞句の指示対象が文脈上同定可能であるという文法・言語学上の definite reference を直接示していない。",
+      "evidence_link_ids": [
+        "ev-definite-grammar"
+      ],
+      "suggested_direction": "一般語義側へ移すか、冠詞・名詞句の指示性を直接示す例に差し替え、必要なら意味論・言語学の専門用法であることを明示する。"
+    }
+  ],
+  "recorded_at": "2026-09-19T14:50:00Z"
+}
+

@@ -1,0 +1,445 @@
+{
+  "schema_version": "normal_review_v2",
+  "stage": "normal_review",
+  "run_id": "normal-controversial-20260912T015542Z-872034dc",
+  "context_id": "normal-controversial-context-20260912T015542Z-872034dc",
+  "input_body_sha256": "81a1d26c2b696bfd6afeee63cc863b8e3f8bcfbe0e9dd5fde1a124523d5379c5",
+  "prompt_sha256": "0b485ac494ff9f114a9061bbc7d789803f05ee6d79b908885efae2da2b0cebf5",
+  "input_artifacts": [
+    "router_selected_sections",
+    "checker_pass_specs"
+  ],
+  "recorded_at": "2026-09-12T02:26:39.106604+00:00",
+  "pass_outputs": [
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "translation",
+      "input_body_sha256": "81a1d26c2b696bfd6afeee63cc863b8e3f8bcfbe0e9dd5fde1a124523d5379c5",
+      "findings": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "codex-gpt-5",
+        "ingested_by": "orchestrator",
+        "agent_id": "controversial-checker-translation-20260912T015542Z-872034dc",
+        "same_model_as_generation": true,
+        "source_response": {
+          "path": "audits/runs/c/controversial/20260912T015542Z-872034dc/handoff/source_responses/ba96d2ae3e21d4fc24462e91c6f3d2b7bd2f65e16e95c2943805452d9d352436.json",
+          "sha256": "ba96d2ae3e21d4fc24462e91c6f3d2b7bd2f65e16e95c2943805452d9d352436"
+        }
+      }
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "sense-structure",
+      "input_body_sha256": "81a1d26c2b696bfd6afeee63cc863b8e3f8bcfbe0e9dd5fde1a124523d5379c5",
+      "findings": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "codex-gpt-5",
+        "ingested_by": "orchestrator",
+        "agent_id": "controversial-checker-sense-structure-20260912T015542Z-872034dc",
+        "same_model_as_generation": true,
+        "source_response": {
+          "path": "audits/runs/c/controversial/20260912T015542Z-872034dc/handoff/source_responses/a8ddf8126a94a8670e8c02512ae557a48a61a1b8d9e903a06615ada9486af0fc.json",
+          "sha256": "a8ddf8126a94a8670e8c02512ae557a48a61a1b8d9e903a06615ada9486af0fc"
+        }
+      }
+    },
+    {
+      "pass_id": "frame-relation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "codex-gpt-5",
+        "ingested_by": "orchestrator",
+        "agent_id": "controversial-checker-frame-axis-20260912T015542Z-872034dc",
+        "same_model_as_generation": true,
+        "source_response": {
+          "path": "audits/runs/c/controversial/20260912T015542Z-872034dc/handoff/source_responses/f6939539550b34ba6e5fdf95c99988b984f8c507aa7a7d497ce9ad94c930c22e.json",
+          "sha256": "f6939539550b34ba6e5fdf95c99988b984f8c507aa7a7d497ce9ad94c930c22e"
+        }
+      },
+      "antonym_axis_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "81a1d26c2b696bfd6afeee63cc863b8e3f8bcfbe0e9dd5fde1a124523d5379c5",
+        "blind_request_sha256": "a8571c606a5b65fde1bda9ca43c3af9db0eda2c0023b6c6059b42b9173c7c8c6",
+        "recorded_at": "2026-09-12T02:20:00Z",
+        "axes": [
+          {
+            "item_id": "ant-9155f1ca66db",
+            "axis": "状態",
+            "relation_type": "状態",
+            "reason": "The adjective contrasts a state of being publicly disputed with a state in which that dispute is absent."
+          },
+          {
+            "item_id": "ant-5e1d39a9d098",
+            "axis": "状態",
+            "relation_type": "状態",
+            "reason": "The negative adjective describes the corresponding noncontroversial state rather than a higher or lower degree of controversy."
+          }
+        ],
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "codex-gpt-5",
+          "ingested_by": "orchestrator",
+          "agent_id": "controversial-checker-frame-axis-20260912T015542Z-872034dc",
+          "same_model_as_generation": true,
+          "source_response": {
+            "path": "audits/runs/c/controversial/20260912T015542Z-872034dc/handoff/source_responses/21356adf71480e433f79a4d820763e3b11bb2990e51dff13121d59cd4c817b09.json",
+            "sha256": "21356adf71480e433f79a4d820763e3b11bb2990e51dff13121d59cd4c817b09"
+          }
+        }
+      },
+      "antonym_axis_adjudication_record": {
+        "schema_version": "antonym_axis_adjudication_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "81a1d26c2b696bfd6afeee63cc863b8e3f8bcfbe0e9dd5fde1a124523d5379c5",
+        "stage2_request_sha256": "cf431694b21a1251afc6c6af3861a823d11ea212edfef57559836461893e0030",
+        "blind_record_sha256": "7982b752e545a329ab06e389ce7d9dd69d2ed38b682e987daeb43d186eebedce",
+        "adjudications": [
+          {
+            "item_id": "ant-9155f1ca66db",
+            "flags": [],
+            "rationale": "The state axis is appropriate: uncontroversial is the direct absence-of-dispute counterpart for controversial in this sense, and the article's difference line is accurate.",
+            "suggested_direction": null
+          },
+          {
+            "item_id": "ant-5e1d39a9d098",
+            "flags": [],
+            "rationale": "The state axis is appropriate: noncontroversial names the same absence of public dispute, with a more formal or explanatory register, so no relation correction is needed.",
+            "suggested_direction": null
+          }
+        ],
+        "frame_findings": [],
+        "unrouted_observations": [],
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "codex-gpt-5",
+          "ingested_by": "orchestrator",
+          "agent_id": "controversial-checker-frame-axis-20260912T015542Z-872034dc",
+          "same_model_as_generation": true,
+          "source_response": {
+            "path": "audits/runs/c/controversial/20260912T015542Z-872034dc/handoff/source_responses/f6939539550b34ba6e5fdf95c99988b984f8c507aa7a7d497ce9ad94c930c22e.json",
+            "sha256": "f6939539550b34ba6e5fdf95c99988b984f8c507aa7a7d497ce9ad94c930c22e"
+          }
+        }
+      },
+      "aligned_at": "2026-09-12T02:27:45.032647+00:00",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "codex-gpt-5",
+        "ingested_by": "orchestrator",
+        "agent_id": "controversial-checker-example-attribution-20260912T015542Z-872034dc",
+        "same_model_as_generation": true,
+        "source_response": {
+          "path": "audits/runs/c/controversial/20260912T015542Z-872034dc/handoff/source_responses/fb876f521ed92c9e0bc5a6a453f31e1cc6a84582669bc0a2af1d98f49d6b136a.json",
+          "sha256": "fb876f521ed92c9e0bc5a6a453f31e1cc6a84582669bc0a2af1d98f49d6b136a"
+        }
+      },
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "stage": 1,
+        "pass_id": "example-attribution",
+        "input_body_sha256": "81a1d26c2b696bfd6afeee63cc863b8e3f8bcfbe0e9dd5fde1a124523d5379c5",
+        "blind_request_sha256": "4df720e3fec5307bd134bfcf73471fda85cea13c9f7d32fb458aa3dd67981f81",
+        "recorded_at": "2026-09-12T02:20:10Z",
+        "attributions": [
+          {
+            "example_id": "ex-ac1f37066679",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "policy"
+            ],
+            "rationale": "The term policy identifies a public decision or program being evaluated for disagreement, which fits sense:001."
+          },
+          {
+            "example_id": "ex-4b69ba5d4c7d",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "manner"
+            ],
+            "rationale": "The term manner makes the adjective describe a person's habitual way of behaving, supporting the rare sense:002."
+          },
+          {
+            "example_id": "ex-521917da671b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "proposal"
+            ],
+            "rationale": "The term proposal identifies an object of public approval or opposition, supporting sense:001."
+          },
+          {
+            "example_id": "ex-1ae410060fc9",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "advertising"
+            ],
+            "rationale": "The term advertising frames the campaign as a public work receiving mixed reactions, supporting sense:001."
+          },
+          {
+            "example_id": "ex-e9c0f853bc9b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "decision"
+            ],
+            "rationale": "The term decision names an institutional choice that can attract criticism, supporting sense:001."
+          },
+          {
+            "example_id": "ex-4cbe0301a48f",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "renovation"
+            ],
+            "rationale": "The term renovation identifies a plan whose cost creates public disagreement, supporting sense:001."
+          },
+          {
+            "example_id": "ex-685e754c92c7",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "temperament"
+            ],
+            "rationale": "The term temperament explicitly presents controversy as a stable personal disposition, supporting sense:002."
+          },
+          {
+            "example_id": "ex-2b864bd448fb",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "deliberately"
+            ],
+            "rationale": "The term deliberately signals a person's repeated choice to attack established positions, supporting sense:002."
+          },
+          {
+            "example_id": "ex-e74721a3133b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "historian"
+            ],
+            "rationale": "The term historian identifies a public figure whose reputation is disputed, supporting sense:001."
+          },
+          {
+            "example_id": "ex-069c7db5553b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "remark"
+            ],
+            "rationale": "The term remark identifies a public utterance that draws criticism, supporting sense:001."
+          },
+          {
+            "example_id": "ex-7b75c5c09c71",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "technology"
+            ],
+            "rationale": "The term technology identifies the public issue under debate, supporting sense:001."
+          },
+          {
+            "example_id": "ex-ee135a966740",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "columnist"
+            ],
+            "rationale": "The term columnist identifies the person whose temperament is being described, supporting sense:002."
+          },
+          {
+            "example_id": "ex-7927fe1bf63d",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "interpretation"
+            ],
+            "rationale": "The term interpretation identifies a claim evaluated by a professional group, supporting sense:001."
+          }
+        ],
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "codex-gpt-5",
+          "ingested_by": "orchestrator",
+          "agent_id": "controversial-checker-example-attribution-20260912T015542Z-872034dc",
+          "same_model_as_generation": true,
+          "source_response": {
+            "path": "audits/runs/c/controversial/20260912T015542Z-872034dc/handoff/source_responses/fb876f521ed92c9e0bc5a6a453f31e1cc6a84582669bc0a2af1d98f49d6b136a.json",
+            "sha256": "fb876f521ed92c9e0bc5a6a453f31e1cc6a84582669bc0a2af1d98f49d6b136a"
+          }
+        }
+      },
+      "aligned_at": "2026-09-12T02:26:39.102177+00:00",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "qualification",
+      "input_body_sha256": "81a1d26c2b696bfd6afeee63cc863b8e3f8bcfbe0e9dd5fde1a124523d5379c5",
+      "findings": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "codex-gpt-5",
+        "ingested_by": "orchestrator",
+        "agent_id": "controversial-checker-qualification-20260912T015542Z-872034dc",
+        "same_model_as_generation": true,
+        "source_response": {
+          "path": "audits/runs/c/controversial/20260912T015542Z-872034dc/handoff/source_responses/fbcb1449b3d895a67e99fc1270c8b79bef830b9bbd9c807b243da196ebac691c.json",
+          "sha256": "fbcb1449b3d895a67e99fc1270c8b79bef830b9bbd9c807b243da196ebac691c"
+        }
+      }
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "pronunciation",
+      "input_body_sha256": "81a1d26c2b696bfd6afeee63cc863b8e3f8bcfbe0e9dd5fde1a124523d5379c5",
+      "findings": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "codex-gpt-5",
+        "ingested_by": "orchestrator",
+        "agent_id": "controversial-checker-pronunciation-20260912T015542Z-872034dc",
+        "same_model_as_generation": true,
+        "source_response": {
+          "path": "audits/runs/c/controversial/20260912T015542Z-872034dc/handoff/source_responses/031bf4b4d4b08c815925e63e7857f3a3a2d8a6e8d5d2f6210126eced2e9b5022.json",
+          "sha256": "031bf4b4d4b08c815925e63e7857f3a3a2d8a6e8d5d2f6210126eced2e9b5022"
+        }
+      }
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "evidence",
+      "input_body_sha256": "81a1d26c2b696bfd6afeee63cc863b8e3f8bcfbe0e9dd5fde1a124523d5379c5",
+      "findings": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "codex-gpt-5",
+        "ingested_by": "orchestrator",
+        "agent_id": "controversial-checker-evidence-20260912T015542Z-872034dc",
+        "same_model_as_generation": true,
+        "source_response": {
+          "path": "audits/runs/c/controversial/20260912T015542Z-872034dc/handoff/source_responses/7b6ff8c46059041de5928048f3170b3749efd363400fbce112834545441a032b.json",
+          "sha256": "7b6ff8c46059041de5928048f3170b3749efd363400fbce112834545441a032b"
+        }
+      }
+    }
+  ],
+  "checker_reviewers": {
+    "translation": {
+      "mode": "handoff",
+      "declared_model": "codex-gpt-5",
+      "ingested_by": "orchestrator",
+      "agent_id": "controversial-checker-translation-20260912T015542Z-872034dc",
+      "same_model_as_generation": true,
+      "source_response": {
+        "path": "audits/runs/c/controversial/20260912T015542Z-872034dc/handoff/source_responses/ba96d2ae3e21d4fc24462e91c6f3d2b7bd2f65e16e95c2943805452d9d352436.json",
+        "sha256": "ba96d2ae3e21d4fc24462e91c6f3d2b7bd2f65e16e95c2943805452d9d352436"
+      }
+    },
+    "sense-structure": {
+      "mode": "handoff",
+      "declared_model": "codex-gpt-5",
+      "ingested_by": "orchestrator",
+      "agent_id": "controversial-checker-sense-structure-20260912T015542Z-872034dc",
+      "same_model_as_generation": true,
+      "source_response": {
+        "path": "audits/runs/c/controversial/20260912T015542Z-872034dc/handoff/source_responses/a8ddf8126a94a8670e8c02512ae557a48a61a1b8d9e903a06615ada9486af0fc.json",
+        "sha256": "a8ddf8126a94a8670e8c02512ae557a48a61a1b8d9e903a06615ada9486af0fc"
+      }
+    },
+    "frame-relation": {
+      "mode": "handoff",
+      "declared_model": "codex-gpt-5",
+      "ingested_by": "orchestrator",
+      "agent_id": "controversial-checker-frame-axis-20260912T015542Z-872034dc",
+      "same_model_as_generation": true,
+      "source_response": {
+        "path": "audits/runs/c/controversial/20260912T015542Z-872034dc/handoff/source_responses/f6939539550b34ba6e5fdf95c99988b984f8c507aa7a7d497ce9ad94c930c22e.json",
+        "sha256": "f6939539550b34ba6e5fdf95c99988b984f8c507aa7a7d497ce9ad94c930c22e"
+      }
+    },
+    "example-attribution": {
+      "mode": "handoff",
+      "declared_model": "codex-gpt-5",
+      "ingested_by": "orchestrator",
+      "agent_id": "controversial-checker-example-attribution-20260912T015542Z-872034dc",
+      "same_model_as_generation": true,
+      "source_response": {
+        "path": "audits/runs/c/controversial/20260912T015542Z-872034dc/handoff/source_responses/fb876f521ed92c9e0bc5a6a453f31e1cc6a84582669bc0a2af1d98f49d6b136a.json",
+        "sha256": "fb876f521ed92c9e0bc5a6a453f31e1cc6a84582669bc0a2af1d98f49d6b136a"
+      }
+    },
+    "qualification": {
+      "mode": "handoff",
+      "declared_model": "codex-gpt-5",
+      "ingested_by": "orchestrator",
+      "agent_id": "controversial-checker-qualification-20260912T015542Z-872034dc",
+      "same_model_as_generation": true,
+      "source_response": {
+        "path": "audits/runs/c/controversial/20260912T015542Z-872034dc/handoff/source_responses/fbcb1449b3d895a67e99fc1270c8b79bef830b9bbd9c807b243da196ebac691c.json",
+        "sha256": "fbcb1449b3d895a67e99fc1270c8b79bef830b9bbd9c807b243da196ebac691c"
+      }
+    },
+    "pronunciation": {
+      "mode": "handoff",
+      "declared_model": "codex-gpt-5",
+      "ingested_by": "orchestrator",
+      "agent_id": "controversial-checker-pronunciation-20260912T015542Z-872034dc",
+      "same_model_as_generation": true,
+      "source_response": {
+        "path": "audits/runs/c/controversial/20260912T015542Z-872034dc/handoff/source_responses/031bf4b4d4b08c815925e63e7857f3a3a2d8a6e8d5d2f6210126eced2e9b5022.json",
+        "sha256": "031bf4b4d4b08c815925e63e7857f3a3a2d8a6e8d5d2f6210126eced2e9b5022"
+      }
+    },
+    "evidence": {
+      "mode": "handoff",
+      "declared_model": "codex-gpt-5",
+      "ingested_by": "orchestrator",
+      "agent_id": "controversial-checker-evidence-20260912T015542Z-872034dc",
+      "same_model_as_generation": true,
+      "source_response": {
+        "path": "audits/runs/c/controversial/20260912T015542Z-872034dc/handoff/source_responses/7b6ff8c46059041de5928048f3170b3749efd363400fbce112834545441a032b.json",
+        "sha256": "7b6ff8c46059041de5928048f3170b3749efd363400fbce112834545441a032b"
+      }
+    }
+  },
+  "independent_candidates": [],
+  "summary": "Independent checker passes completed by parallel handoff; frame-relation preserved its serial blind/adjudication dependency."
+}

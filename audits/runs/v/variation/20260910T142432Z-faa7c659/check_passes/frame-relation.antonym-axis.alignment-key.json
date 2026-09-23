@@ -1,0 +1,535 @@
+{
+  "schema_version": "antonym_axis_alignment_key_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "68642a687d319602564bb976d43d54d0c6fd104793baae466da68d12aa0f3d8f",
+  "blind_request_sha256": "f0910ef2f36756f3723424c2eab56aa031446cb7a7b02926678c32f2a563c47d",
+  "shuffle_seed": "68642a687d319602564bb976d43d54d0c6fd104793baae466da68d12aa0f3d8f",
+  "items": [
+    {
+      "source_item_id": "antonym:001",
+      "sense_id": "sense:001",
+      "headword": "variation",
+      "sense_definition": "【日本語訳・定義】量・水準・品質・状態などが一定ではなく変わること、またはその変化の幅・個々の違いを表す。現象全体や変化の程度には不可算で使い、観察された個々の違いには可算で使う。変化が望ましいか望ましくないかは、文脈によって決まり、variation 自体には必ずしも悪い評価はない。",
+      "antonym": "uniformity",
+      "antonym_definition": "定義: 対象の間に差がほとんどなく、同じ状態や性質がそろっていること。",
+      "anchor": {
+        "section": "lexical_relations",
+        "line_start": 114,
+        "line_end": 114,
+        "exact_quote": "・uniformity  "
+      },
+      "difference_anchor": {
+        "section": "lexical_relations",
+        "line_start": 117,
+        "line_end": 117,
+        "exact_quote": "違い: variation が差やばらつきを指すのに対し、uniformity は一様である状態を指す。  "
+      },
+      "item_id": "ant-c424c475fc3d"
+    },
+    {
+      "source_item_id": "antonym:002",
+      "sense_id": "sense:003",
+      "headword": "variation",
+      "sense_definition": "【日本語訳・定義】同じ種・集団に属する個体の間に見られる、遺伝的・構造的・機能的な差を表す。基準や平均からの逸脱を必須とせず、個体間に自然に存在する差を中立的に指す。言語・地域・社会層などの一般的な形式差は語義1で扱う。",
+      "antonym": "homogeneity",
+      "antonym_definition": "定義: 集団や資料の構成要素が互いによく似ていて、一様であること。",
+      "anchor": {
+        "section": "lexical_relations",
+        "line_start": 257,
+        "line_end": 257,
+        "exact_quote": "・homogeneity  "
+      },
+      "difference_anchor": {
+        "section": "lexical_relations",
+        "line_start": 260,
+        "line_end": 260,
+        "exact_quote": "違い: variation が内部の差を指すのに対し、homogeneity は内部の差が小さい状態を指す。  "
+      },
+      "item_id": "ant-9e32003f8f73"
+    }
+  ],
+  "senses": [
+    {
+      "sense_id": "sense:001",
+      "full_sense": [
+        {
+          "line": 40,
+          "text": "1. 【名詞・不可算／可算】変化、変動、ばらつき"
+        },
+        {
+          "line": 42,
+          "text": "【日本語訳・定義】量・水準・品質・状態などが一定ではなく変わること、またはその変化の幅・個々の違いを表す。現象全体や変化の程度には不可算で使い、観察された個々の違いには可算で使う。変化が望ましいか望ましくないかは、文脈によって決まり、variation 自体には必ずしも悪い評価はない。  "
+        },
+        {
+          "line": 44,
+          "text": "【頻度】〈8/10〉  "
+        },
+        {
+          "line": 46,
+          "text": "【レジスター/領域】標準語。日常会話にも使うが、文章・報道・ビジネス・学術で特に頻出する。データや価格では「変動」「ばらつき」、地域・人・意見では「差異」「違い」と訳し分ける。統計では variation はばらつき一般または変化量を指し、variance は平均からの偏差の二乗平均という特定の統計量であるため、両語は自動的に置き換えない。  "
+        },
+        {
+          "line": 48,
+          "text": "【文法パターン】variation in 〈amount/level/quality〉＝〈量・水準・品質〉の変動／variation of 〈temperature/pressure〉＝〈温度・圧力〉の変化／variation between 〈A〉 and 〈B〉＝〈A〉と〈B〉の差／variation among 〈people/regions〉＝〈人・地域〉の間のばらつき／variation according to 〈a factor〉＝〈要因〉に応じた変化／variation with 〈time/altitude〉＝〈時間・高度〉に伴う変化／show/reflect variation in something＝何かの変動を示す／take seasonal variation into account＝季節変動を考慮に入れる。  "
+        },
+        {
+          "line": 50,
+          "text": "【コロケーション】"
+        },
+        {
+          "line": 52,
+          "text": "・considerable variation in something  "
+        },
+        {
+          "line": 53,
+          "text": "用途: 〈何か〉にかなり大きな差やばらつきがあることを表す。  "
+        },
+        {
+          "line": 54,
+          "text": "例: There is considerable variation in the time needed to complete the task.  "
+        },
+        {
+          "line": 55,
+          "text": "訳: その作業を終えるのに必要な時間にはかなりのばらつきがある。  "
+        },
+        {
+          "line": 57,
+          "text": "・slight variation in something  "
+        },
+        {
+          "line": 58,
+          "text": "用途: 基本的には同じだが、わずかな違いがあることを表す。  "
+        },
+        {
+          "line": 59,
+          "text": "例: The two samples showed only slight variation in color.  "
+        },
+        {
+          "line": 60,
+          "text": "訳: その2つの試料には色のわずかな違いしか見られなかった。  "
+        },
+        {
+          "line": 62,
+          "text": "・wide variation between 〈A〉 and 〈B〉  "
+        },
+        {
+          "line": 63,
+          "text": "用途: 2つの対象の値・状態・結果が大きく異なることを示す。  "
+        },
+        {
+          "line": 64,
+          "text": "例: The study found wide variation between schools in the use of digital devices.  "
+        },
+        {
+          "line": 65,
+          "text": "訳: その研究では、デジタル機器の使用について学校間に大きな差が見つかった。  "
+        },
+        {
+          "line": 67,
+          "text": "・seasonal variation in 〈demand/temperature〉  "
+        },
+        {
+          "line": 68,
+          "text": "用途: 季節によって繰り返し生じる需要や温度の変化を指す。  "
+        },
+        {
+          "line": 69,
+          "text": "例: The store adjusts its stock for seasonal variation in demand.  "
+        },
+        {
+          "line": 70,
+          "text": "訳: その店は需要の季節変動に合わせて在庫を調整する。  "
+        },
+        {
+          "line": 72,
+          "text": "・variation according to 〈a factor〉  "
+        },
+        {
+          "line": 73,
+          "text": "用途: 地域・条件・時間などの要因に応じて値が変わることを述べる。  "
+        },
+        {
+          "line": 74,
+          "text": "例: The survey found considerable variation according to age and region.  "
+        },
+        {
+          "line": 75,
+          "text": "訳: その調査では、年齢と地域によってかなりの差が見つかった。  "
+        },
+        {
+          "line": 77,
+          "text": "・variation with 〈time/altitude〉  "
+        },
+        {
+          "line": 78,
+          "text": "用途: 別の変数に伴って変わる関係を、やや学術的に表す。  "
+        },
+        {
+          "line": 79,
+          "text": "例: The graph shows the variation of pressure with altitude.  "
+        },
+        {
+          "line": 80,
+          "text": "訳: そのグラフは高度に伴う圧力の変化を示している。  "
+        },
+        {
+          "line": 82,
+          "text": "・take 〈seasonal variation〉 into account  "
+        },
+        {
+          "line": 83,
+          "text": "用途: 予測や計画で、一定ではない季節要因を考慮する。  "
+        },
+        {
+          "line": 84,
+          "text": "例: The forecast takes seasonal variation into account.  "
+        },
+        {
+          "line": 85,
+          "text": "訳: その予測は季節変動を考慮に入れている。  "
+        },
+        {
+          "line": 87,
+          "text": "【語法・注意】不可算の variation は「変動という現象」や「変動の程度」を表し、a variation は「観察された1つの違い」や「変化した一例」を表す。`variation in prices` は価格の変動、`variations in prices` は複数の価格差・変動の例を指しやすい。`difference` は2つ以上の対象の差に焦点を置くが、variation は基準からの変化や集団全体のばらつきにも使える。`variety` は選択肢や種類の豊富さを表すことが多く、単なる数値の変動には通常 variation を使う。  "
+        },
+        {
+          "line": 89,
+          "text": "【類義語】"
+        },
+        {
+          "line": 91,
+          "text": "・change  "
+        },
+        {
+          "line": 92,
+          "text": "定義: 状態・量・性質が別のものになること。  "
+        },
+        {
+          "line": 93,
+          "text": "頻度: 〈10/10〉  "
+        },
+        {
+          "line": 94,
+          "text": "違い: 最も広い語で、変化そのものに焦点を置く。variation は同じ型の範囲内での差や変動幅を示しやすい。  "
+        },
+        {
+          "line": 95,
+          "text": "例: The change in temperature was easy to notice.  "
+        },
+        {
+          "line": 96,
+          "text": "訳: 気温の変化は簡単に気づけた。  "
+        },
+        {
+          "line": 98,
+          "text": "・fluctuation  "
+        },
+        {
+          "line": 99,
+          "text": "定義: 数値や水準が上下を繰り返す変動。  "
+        },
+        {
+          "line": 100,
+          "text": "頻度: 〈7/10〉  "
+        },
+        {
+          "line": 101,
+          "text": "違い: 価格・為替・体温などの上下動を強く含む。variation は一方向の変化や対象間のばらつきにも使える。  "
+        },
+        {
+          "line": 102,
+          "text": "例: Daily fluctuations in demand make planning difficult.  "
+        },
+        {
+          "line": 103,
+          "text": "訳: 需要の日々の変動は計画を難しくする。  "
+        },
+        {
+          "line": 105,
+          "text": "・difference  "
+        },
+        {
+          "line": 106,
+          "text": "定義: 2つ以上のものが同じでない点や、その隔たり。  "
+        },
+        {
+          "line": 107,
+          "text": "頻度: 〈10/10〉  "
+        },
+        {
+          "line": 108,
+          "text": "違い: 比較対象間の差に焦点を置く。variation は基準からの変化や同種の複数対象のばらつきにも使う。  "
+        },
+        {
+          "line": 109,
+          "text": "例: There is a clear difference between the two measurements.  "
+        },
+        {
+          "line": 110,
+          "text": "訳: その2つの測定値には明確な差がある。  "
+        },
+        {
+          "line": 112,
+          "text": "【反意語】"
+        },
+        {
+          "line": 114,
+          "text": "・uniformity  "
+        },
+        {
+          "line": 115,
+          "text": "定義: 対象の間に差がほとんどなく、同じ状態や性質がそろっていること。  "
+        },
+        {
+          "line": 116,
+          "text": "頻度: 〈5/10〉  "
+        },
+        {
+          "line": 117,
+          "text": "違い: variation が差やばらつきを指すのに対し、uniformity は一様である状態を指す。  "
+        },
+        {
+          "line": 118,
+          "text": "例: The process aims to improve uniformity across all factories.  "
+        },
+        {
+          "line": 119,
+          "text": "訳: その工程は全工場での一様性を高めることを目指している。  "
+        }
+      ]
+    },
+    {
+      "sense_id": "sense:003",
+      "full_sense": [
+        {
+          "line": 188,
+          "text": "3. 【名詞・不可算／可算・生物学・遺伝学・医学】集団内の個体差、変異"
+        },
+        {
+          "line": 190,
+          "text": "【日本語訳・定義】同じ種・集団に属する個体の間に見られる、遺伝的・構造的・機能的な差を表す。基準や平均からの逸脱を必須とせず、個体間に自然に存在する差を中立的に指す。言語・地域・社会層などの一般的な形式差は語義1で扱う。  "
+        },
+        {
+          "line": 192,
+          "text": "【頻度】〈6/10〉  "
+        },
+        {
+          "line": 194,
+          "text": "【レジスター/領域】生物学、遺伝学、医学などで使う学術語。一般文脈の「違い」より、同じ種・集団の内部に生じる個体差や、その分布を意識させる。  "
+        },
+        {
+          "line": 196,
+          "text": "【文法パターン】genetic/biological variation＝遺伝的・生物学的変異／variation within 〈a species/group〉＝〈種・集団〉内の変異／variation among 〈individuals〉＝〈個体〉間の差／variation between 〈populations〉＝〈集団〉間の差／show variation in 〈a characteristic〉＝〈特徴〉に差を示す。  "
+        },
+        {
+          "line": 198,
+          "text": "【コロケーション】"
+        },
+        {
+          "line": 200,
+          "text": "・genetic variation within 〈a species〉  "
+        },
+        {
+          "line": 201,
+          "text": "用途: 同じ種の個体間にある遺伝的な違いを表す。  "
+        },
+        {
+          "line": 202,
+          "text": "例: Genetic variation within a species can affect its response to disease.  "
+        },
+        {
+          "line": 203,
+          "text": "訳: 種内の遺伝的変異は、病気への反応に影響することがある。  "
+        },
+        {
+          "line": 205,
+          "text": "・genetic variation among 〈individuals〉  "
+        },
+        {
+          "line": 206,
+          "text": "用途: 個体ごとの遺伝的な違いが一様でないことを述べる。  "
+        },
+        {
+          "line": 207,
+          "text": "例: The study found substantial genetic variation among individuals in their response to the vaccine.  "
+        },
+        {
+          "line": 208,
+          "text": "訳: その研究では、ワクチンへの反応に個体間の大きな遺伝的差が見つかった。  "
+        },
+        {
+          "line": 210,
+          "text": "・genetic variation within 〈a species〉  "
+        },
+        {
+          "line": 211,
+          "text": "用途: 同じ種の個体間にある遺伝的な違いを、種間の差と区別して示す。  "
+        },
+        {
+          "line": 212,
+          "text": "例: The study focused on genetic variation within a species rather than differences between species.  "
+        },
+        {
+          "line": 213,
+          "text": "訳: その研究は種間の違いではなく、種内の遺伝的変異に焦点を置いた。  "
+        },
+        {
+          "line": 215,
+          "text": "・genetic variation between 〈populations〉  "
+        },
+        {
+          "line": 216,
+          "text": "用途: 異なる集団の間にある遺伝的な違いを表す。  "
+        },
+        {
+          "line": 217,
+          "text": "例: The researchers compared genetic variation between populations living in different environments.  "
+        },
+        {
+          "line": 218,
+          "text": "訳: 研究者たちは、異なる環境に住む集団間の遺伝的変異を比較した。  "
+        },
+        {
+          "line": 220,
+          "text": "・genetic variation in 〈drug response〉  "
+        },
+        {
+          "line": 221,
+          "text": "用途: 遺伝的な違いによって薬への反応が異なることを表す。  "
+        },
+        {
+          "line": 222,
+          "text": "例: Genetic variation in drug response should be considered when interpreting the results.  "
+        },
+        {
+          "line": 223,
+          "text": "訳: 結果を解釈する際は、薬物反応における遺伝的変異を考慮すべきだ。  "
+        },
+        {
+          "line": 225,
+          "text": "・show variation in 〈a characteristic〉  "
+        },
+        {
+          "line": 226,
+          "text": "用途: 特定の特徴に個体差や形式差があることを、観察・調査結果として述べる。  "
+        },
+        {
+          "line": 227,
+          "text": "例: The samples show variation in leaf shape and size.  "
+        },
+        {
+          "line": 228,
+          "text": "訳: その試料には葉の形と大きさに違いが見られる。  "
+        },
+        {
+          "line": 230,
+          "text": "【語法・注意】生物学の `variation` は、集団内の差という現象にも、その差を示す特徴にも使われる。基準からの逸脱を必ずしも含まない点で、`deviation` より中立的である。`mutation` は遺伝物質の配列に起きる変化、`genetic variation` は個体・集団間に観察される遺伝的差の状態・分布を指し、mutation は variation の原因の一つである。両語は同義ではない。  "
+        },
+        {
+          "line": 232,
+          "text": "【類義語】"
+        },
+        {
+          "line": 234,
+          "text": "・diversity  "
+        },
+        {
+          "line": 235,
+          "text": "定義: 集団や範囲の中に異なる種類・特徴が存在すること。  "
+        },
+        {
+          "line": 236,
+          "text": "頻度: 〈8/10〉  "
+        },
+        {
+          "line": 237,
+          "text": "違い: diversity は多様性の存在や価値に焦点を置き、variation は同じ集団内でどの特徴がどの程度異なるかを分析する語として使いやすい。  "
+        },
+        {
+          "line": 238,
+          "text": "例: The forest supports remarkable biological diversity.  "
+        },
+        {
+          "line": 239,
+          "text": "訳: その森林は際立った生物多様性を支えている。  "
+        },
+        {
+          "line": 241,
+          "text": "・difference  "
+        },
+        {
+          "line": 242,
+          "text": "定義: 2つ以上の個体・形式・集団が同じでない点。  "
+        },
+        {
+          "line": 243,
+          "text": "頻度: 〈10/10〉  "
+        },
+        {
+          "line": 244,
+          "text": "違い: difference は比較結果を一般に表し、variation は同じ種・体系の内部で生じる差や分布を含意しやすい。  "
+        },
+        {
+          "line": 245,
+          "text": "例: The researchers recorded differences in color between the populations.  "
+        },
+        {
+          "line": 246,
+          "text": "訳: 研究者たちは集団間の色の違いを記録した。  "
+        },
+        {
+          "line": 248,
+          "text": "・deviation  "
+        },
+        {
+          "line": 249,
+          "text": "定義: 基準・平均・通常の状態から外れること。  "
+        },
+        {
+          "line": 250,
+          "text": "頻度: 〈7/10〉  "
+        },
+        {
+          "line": 251,
+          "text": "違い: deviation は基準からの逸脱に焦点があり、通常から外れているという含みを帯びやすい。variation は中立的な個体差にも使う。  "
+        },
+        {
+          "line": 252,
+          "text": "例: The measurement showed a small deviation from the expected value.  "
+        },
+        {
+          "line": 253,
+          "text": "訳: その測定値には予想値からの小さなずれがあった。  "
+        },
+        {
+          "line": 255,
+          "text": "【反意語】"
+        },
+        {
+          "line": 257,
+          "text": "・homogeneity  "
+        },
+        {
+          "line": 258,
+          "text": "定義: 集団や資料の構成要素が互いによく似ていて、一様であること。  "
+        },
+        {
+          "line": 259,
+          "text": "頻度: 〈4/10〉  "
+        },
+        {
+          "line": 260,
+          "text": "違い: variation が内部の差を指すのに対し、homogeneity は内部の差が小さい状態を指す。  "
+        },
+        {
+          "line": 261,
+          "text": "例: The analysis assumes homogeneity within each group.  "
+        },
+        {
+          "line": 262,
+          "text": "訳: その分析は各集団内が均質であると仮定している。  "
+        }
+      ]
+    }
+  ]
+}

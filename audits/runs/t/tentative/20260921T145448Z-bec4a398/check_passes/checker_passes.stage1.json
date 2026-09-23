@@ -1,0 +1,491 @@
+{
+  "schema_version": "normal_review_v2",
+  "stage": "normal_review",
+  "run_id": "normal-tentative-20260921T145448Z-bec4a398",
+  "context_id": "normal-tentative-context-20260921T145448Z-bec4a398",
+  "input_body_sha256": "0776dad38e204651edaf002adb4634b2bdf5ffb371b9d38c3ab1f33440a3c35f",
+  "prompt_sha256": "0b485ac494ff9f114a9061bbc7d789803f05ee6d79b908885efae2da2b0cebf5",
+  "input_artifacts": [
+    "router_selected_sections",
+    "checker_pass_specs"
+  ],
+  "recorded_at": "2026-09-21T15:30:09.540285+00:00",
+  "pass_outputs": [
+    {
+      "pass_id": "translation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "codex-gpt-5",
+        "ingested_by": "orchestrator",
+        "agent_id": "tentative-checker-translation-1",
+        "same_model_as_generation": true,
+        "source_response": {
+          "path": "audits/runs/t/tentative/20260921T145448Z-bec4a398/handoff/source_responses/aa2bd308fc156f1bcf536116d38425757f20f2af8573bdae1902e7a2c8f24180.json",
+          "sha256": "aa2bd308fc156f1bcf536116d38425757f20f2af8573bdae1902e7a2c8f24180"
+        }
+      },
+      "findings": []
+    },
+    {
+      "pass_id": "sense-structure",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "codex-gpt-5",
+        "ingested_by": "orchestrator",
+        "agent_id": "tentative-checker-sense-structure-1",
+        "same_model_as_generation": true,
+        "source_response": {
+          "path": "audits/runs/t/tentative/20260921T145448Z-bec4a398/handoff/source_responses/3ddde724cb60f7558c5d4d8b8f9370043c238eda6ebc3bfa4a983485013b04c9.json",
+          "sha256": "3ddde724cb60f7558c5d4d8b8f9370043c238eda6ebc3bfa4a983485013b04c9"
+        }
+      },
+      "findings": []
+    },
+    {
+      "pass_id": "frame-relation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "codex-gpt-5",
+        "ingested_by": "orchestrator",
+        "agent_id": "tentative-checker-frame-relation-1",
+        "same_model_as_generation": true,
+        "source_response": {
+          "path": "audits/runs/t/tentative/20260921T145448Z-bec4a398/handoff/source_responses/f3e95e26c20008cd69e8e0f7c5778f1ec67c13387040c4f547172af1fe56c915.json",
+          "sha256": "f3e95e26c20008cd69e8e0f7c5778f1ec67c13387040c4f547172af1fe56c915"
+        }
+      },
+      "findings": [],
+      "antonym_axis_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "0776dad38e204651edaf002adb4634b2bdf5ffb371b9d38c3ab1f33440a3c35f",
+        "blind_request_sha256": "d101bd49257c6cf27c7c80bbaecb90bdde23fb213f1a03863e8657a4896fca56",
+        "recorded_at": "2026-09-21T15:25:00Z",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "codex-gpt-5",
+          "ingested_by": "orchestrator",
+          "agent_id": "tentative-checker-frame-relation-1",
+          "same_model_as_generation": true,
+          "source_response": {
+            "path": "audits/runs/t/tentative/20260921T145448Z-bec4a398/handoff/source_responses/f3e95e26c20008cd69e8e0f7c5778f1ec67c13387040c4f547172af1fe56c915.json",
+            "sha256": "f3e95e26c20008cd69e8e0f7c5778f1ec67c13387040c4f547172af1fe56c915"
+          }
+        },
+        "axes": [
+          {
+            "item_id": "ant-25d199cb221d",
+            "axis": "確定性",
+            "relation_type": "状態",
+            "reason": "The masked definition pair contrasts the state of being unsettled or hesitant with a more settled or confident state."
+          },
+          {
+            "item_id": "ant-870b6cb24167",
+            "axis": "確信・決断",
+            "relation_type": "状態",
+            "reason": "The masked definition pair contrasts the state of being unsettled or hesitant with a more settled or confident state."
+          },
+          {
+            "item_id": "ant-f8f379824edb",
+            "axis": "確信・決断",
+            "relation_type": "状態",
+            "reason": "The masked definition pair contrasts the state of being unsettled or hesitant with a more settled or confident state."
+          },
+          {
+            "item_id": "ant-793f3a19e7c7",
+            "axis": "確信・決断",
+            "relation_type": "状態",
+            "reason": "The masked definition pair contrasts the state of being unsettled or hesitant with a more settled or confident state."
+          },
+          {
+            "item_id": "ant-e34fd3d3c952",
+            "axis": "確定性",
+            "relation_type": "状態",
+            "reason": "The masked definition pair contrasts the state of being unsettled or hesitant with a more settled or confident state."
+          },
+          {
+            "item_id": "ant-e87091ac16e9",
+            "axis": "確定性",
+            "relation_type": "状態",
+            "reason": "The masked definition pair contrasts the state of being unsettled or hesitant with a more settled or confident state."
+          }
+        ]
+      }
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "codex-gpt-5",
+        "ingested_by": "orchestrator",
+        "agent_id": "tentative-checker-example-attribution-1",
+        "same_model_as_generation": true,
+        "source_response": {
+          "path": "audits/runs/t/tentative/20260921T145448Z-bec4a398/handoff/source_responses/2f01b17314bba19437bb564910f6874ffa9611881bc8459dfefe0a6440c173e7.json",
+          "sha256": "2f01b17314bba19437bb564910f6874ffa9611881bc8459dfefe0a6440c173e7"
+        }
+      },
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "input_body_sha256": "0776dad38e204651edaf002adb4634b2bdf5ffb371b9d38c3ab1f33440a3c35f",
+        "blind_request_sha256": "7f2d3b9ece9636bac2879e22609c755c11a5640188d40674778e48ccb15e9cd0",
+        "recorded_at": "2026-09-21T15:25:00Z",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "codex-gpt-5",
+          "ingested_by": "orchestrator",
+          "agent_id": "tentative-checker-example-attribution-1",
+          "same_model_as_generation": true,
+          "source_response": {
+            "path": "audits/runs/t/tentative/20260921T145448Z-bec4a398/handoff/source_responses/2f01b17314bba19437bb564910f6874ffa9611881bc8459dfefe0a6440c173e7.json",
+            "sha256": "2f01b17314bba19437bb564910f6874ffa9611881bc8459dfefe0a6440c173e7"
+          }
+        },
+        "attributions": [
+          {
+            "example_id": "ex-3b4bb931b25e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "tentative knock"
+            ],
+            "rationale": "The wording \"tentative knock\" uses tentative as a rare noun for a provisional item, matching the qualified third sense."
+          },
+          {
+            "example_id": "ex-7e90749261ad",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "tentative findings"
+            ],
+            "rationale": "The wording \"tentative findings\" treats the plan, result, arrangement, or decision as not yet settled, which supports the provisional sense."
+          },
+          {
+            "example_id": "ex-b3211f3bcce5",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "tentative smile"
+            ],
+            "rationale": "The wording \"tentative smile\" describes a hesitant manner, voice, action, or response rather than an unsettled plan."
+          },
+          {
+            "example_id": "ex-a9e1d65b98f2",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "tentative explanation"
+            ],
+            "rationale": "The wording \"tentative explanation\" treats the plan, result, arrangement, or decision as not yet settled, which supports the provisional sense."
+          },
+          {
+            "example_id": "ex-af604d5c1046",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "tentative plans"
+            ],
+            "rationale": "The wording \"tentative plans\" treats the plan, result, arrangement, or decision as not yet settled, which supports the provisional sense."
+          },
+          {
+            "example_id": "ex-47a3a5c7ee5c",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "tentative identification"
+            ],
+            "rationale": "The wording \"tentative identification\" treats the plan, result, arrangement, or decision as not yet settled, which supports the provisional sense."
+          },
+          {
+            "example_id": "ex-9c3b3eaf3b37",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "tentatively approved"
+            ],
+            "rationale": "The wording \"tentatively approved\" treats the plan, result, arrangement, or decision as not yet settled, which supports the provisional sense."
+          },
+          {
+            "example_id": "ex-e515d547c5c6",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "tentative"
+            ],
+            "rationale": "The wording \"tentative\" describes a hesitant manner, voice, action, or response rather than an unsettled plan."
+          },
+          {
+            "example_id": "ex-dbcc08011cf0",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "tentative agreement"
+            ],
+            "rationale": "The wording \"tentative agreement\" treats the plan, result, arrangement, or decision as not yet settled, which supports the provisional sense."
+          },
+          {
+            "example_id": "ex-ae33ff16f90f",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "tentative attempt"
+            ],
+            "rationale": "The wording \"tentative attempt\" describes a hesitant manner, voice, action, or response rather than an unsettled plan."
+          },
+          {
+            "example_id": "ex-e9a00234528b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "tentatively suggested"
+            ],
+            "rationale": "The wording \"tentatively suggested\" describes a hesitant manner, voice, action, or response rather than an unsettled plan."
+          },
+          {
+            "example_id": "ex-cb6904de54b9",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "tentative steps"
+            ],
+            "rationale": "The wording \"tentative steps\" describes a hesitant manner, voice, action, or response rather than an unsettled plan."
+          },
+          {
+            "example_id": "ex-4233f7693f43",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "as a tentative"
+            ],
+            "rationale": "The wording \"as a tentative\" uses tentative as a rare noun for a provisional item, matching the qualified third sense."
+          },
+          {
+            "example_id": "ex-a7928cfa4821",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "tentative voice"
+            ],
+            "rationale": "The wording \"tentative voice\" describes a hesitant manner, voice, action, or response rather than an unsettled plan."
+          },
+          {
+            "example_id": "ex-5f892f9d48e2",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "as tentatives"
+            ],
+            "rationale": "The wording \"as tentatives\" uses tentative as a rare noun for a provisional item, matching the qualified third sense."
+          },
+          {
+            "example_id": "ex-493b3c8c5339",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "tentative schedule"
+            ],
+            "rationale": "The wording \"tentative schedule\" treats the plan, result, arrangement, or decision as not yet settled, which supports the provisional sense."
+          },
+          {
+            "example_id": "ex-f5aa80685af9",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "tentative date"
+            ],
+            "rationale": "The wording \"tentative date\" treats the plan, result, arrangement, or decision as not yet settled, which supports the provisional sense."
+          },
+          {
+            "example_id": "ex-d31f9a9748a9",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "tentative answer"
+            ],
+            "rationale": "The wording \"tentative answer\" describes a hesitant manner, voice, action, or response rather than an unsettled plan."
+          }
+        ]
+      },
+      "aligned_at": "2026-09-21T15:30:09.533951+00:00",
+      "findings": [
+        {
+          "taxonomy_id": "example_sense_attribution_mismatch",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 173,
+            "line_end": 173,
+            "exact_quote": "例: There was a tentative knock on the office door.  "
+          },
+          "severity": "blocking",
+          "rationale": "段階1の最も自然な帰属はsense:003だが、実際の所属はsense:002である。",
+          "evidence_link_ids": [],
+          "suggested_direction": "語義ブロック間の移動"
+        }
+      ],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "qualification",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "codex-gpt-5",
+        "ingested_by": "orchestrator",
+        "agent_id": "tentative-checker-qualification-1",
+        "same_model_as_generation": true,
+        "source_response": {
+          "path": "audits/runs/t/tentative/20260921T145448Z-bec4a398/handoff/source_responses/cd45cdc1dcf02de6f06e7f55723f29b0a6d696724ea82df8f09145a91ef4f4d6.json",
+          "sha256": "cd45cdc1dcf02de6f06e7f55723f29b0a6d696724ea82df8f09145a91ef4f4d6"
+        }
+      },
+      "findings": []
+    },
+    {
+      "pass_id": "pronunciation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "codex-gpt-5",
+        "ingested_by": "orchestrator",
+        "agent_id": "tentative-checker-pronunciation-1",
+        "same_model_as_generation": true,
+        "source_response": {
+          "path": "audits/runs/t/tentative/20260921T145448Z-bec4a398/handoff/source_responses/033da8836b71ca90b4784d0cb2cacee5f44a50016fddb13eeeb146838cfa8244.json",
+          "sha256": "033da8836b71ca90b4784d0cb2cacee5f44a50016fddb13eeeb146838cfa8244"
+        }
+      },
+      "findings": []
+    },
+    {
+      "pass_id": "evidence",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "codex-gpt-5",
+        "ingested_by": "orchestrator",
+        "agent_id": "tentative-checker-evidence-1",
+        "same_model_as_generation": true,
+        "source_response": {
+          "path": "audits/runs/t/tentative/20260921T145448Z-bec4a398/handoff/source_responses/3ef1536b0d029a98900015fe42dbe86596e6663e80aa70ab385fd60642c66d31.json",
+          "sha256": "3ef1536b0d029a98900015fe42dbe86596e6663e80aa70ab385fd60642c66d31"
+        }
+      },
+      "findings": []
+    }
+  ],
+  "checker_reviewers": {
+    "translation": {
+      "mode": "handoff",
+      "declared_model": "codex-gpt-5",
+      "ingested_by": "orchestrator",
+      "agent_id": "tentative-checker-translation-1",
+      "same_model_as_generation": true,
+      "source_response": {
+        "path": "audits/runs/t/tentative/20260921T145448Z-bec4a398/handoff/source_responses/aa2bd308fc156f1bcf536116d38425757f20f2af8573bdae1902e7a2c8f24180.json",
+        "sha256": "aa2bd308fc156f1bcf536116d38425757f20f2af8573bdae1902e7a2c8f24180"
+      }
+    },
+    "sense-structure": {
+      "mode": "handoff",
+      "declared_model": "codex-gpt-5",
+      "ingested_by": "orchestrator",
+      "agent_id": "tentative-checker-sense-structure-1",
+      "same_model_as_generation": true,
+      "source_response": {
+        "path": "audits/runs/t/tentative/20260921T145448Z-bec4a398/handoff/source_responses/3ddde724cb60f7558c5d4d8b8f9370043c238eda6ebc3bfa4a983485013b04c9.json",
+        "sha256": "3ddde724cb60f7558c5d4d8b8f9370043c238eda6ebc3bfa4a983485013b04c9"
+      }
+    },
+    "frame-relation": {
+      "mode": "handoff",
+      "declared_model": "codex-gpt-5",
+      "ingested_by": "orchestrator",
+      "agent_id": "tentative-checker-frame-relation-1",
+      "same_model_as_generation": true,
+      "source_response": {
+        "path": "audits/runs/t/tentative/20260921T145448Z-bec4a398/handoff/source_responses/f3e95e26c20008cd69e8e0f7c5778f1ec67c13387040c4f547172af1fe56c915.json",
+        "sha256": "f3e95e26c20008cd69e8e0f7c5778f1ec67c13387040c4f547172af1fe56c915"
+      }
+    },
+    "example-attribution": {
+      "mode": "handoff",
+      "declared_model": "codex-gpt-5",
+      "ingested_by": "orchestrator",
+      "agent_id": "tentative-checker-example-attribution-1",
+      "same_model_as_generation": true,
+      "source_response": {
+        "path": "audits/runs/t/tentative/20260921T145448Z-bec4a398/handoff/source_responses/2f01b17314bba19437bb564910f6874ffa9611881bc8459dfefe0a6440c173e7.json",
+        "sha256": "2f01b17314bba19437bb564910f6874ffa9611881bc8459dfefe0a6440c173e7"
+      }
+    },
+    "qualification": {
+      "mode": "handoff",
+      "declared_model": "codex-gpt-5",
+      "ingested_by": "orchestrator",
+      "agent_id": "tentative-checker-qualification-1",
+      "same_model_as_generation": true,
+      "source_response": {
+        "path": "audits/runs/t/tentative/20260921T145448Z-bec4a398/handoff/source_responses/cd45cdc1dcf02de6f06e7f55723f29b0a6d696724ea82df8f09145a91ef4f4d6.json",
+        "sha256": "cd45cdc1dcf02de6f06e7f55723f29b0a6d696724ea82df8f09145a91ef4f4d6"
+      }
+    },
+    "pronunciation": {
+      "mode": "handoff",
+      "declared_model": "codex-gpt-5",
+      "ingested_by": "orchestrator",
+      "agent_id": "tentative-checker-pronunciation-1",
+      "same_model_as_generation": true,
+      "source_response": {
+        "path": "audits/runs/t/tentative/20260921T145448Z-bec4a398/handoff/source_responses/033da8836b71ca90b4784d0cb2cacee5f44a50016fddb13eeeb146838cfa8244.json",
+        "sha256": "033da8836b71ca90b4784d0cb2cacee5f44a50016fddb13eeeb146838cfa8244"
+      }
+    },
+    "evidence": {
+      "mode": "handoff",
+      "declared_model": "codex-gpt-5",
+      "ingested_by": "orchestrator",
+      "agent_id": "tentative-checker-evidence-1",
+      "same_model_as_generation": true,
+      "source_response": {
+        "path": "audits/runs/t/tentative/20260921T145448Z-bec4a398/handoff/source_responses/3ef1536b0d029a98900015fe42dbe86596e6663e80aa70ab385fd60642c66d31.json",
+        "sha256": "3ef1536b0d029a98900015fe42dbe86596e6663e80aa70ab385fd60642c66d31"
+      }
+    }
+  },
+  "independent_candidates": [],
+  "summary": "Independent checker stage 1 completed by seven parallel handoff agents; frame-relation stage 2 remains pending."
+}

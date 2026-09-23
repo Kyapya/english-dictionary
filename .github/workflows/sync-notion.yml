@@ -80,8 +80,25 @@ jobs:
             fi
             args+=(--entry "$file")
           done
-          python scripts/content_audit.py validate-sync "${files[@]}"
-          if [[ "$GITHUB_EVENT_NAME" == "workflow_dispatch" ]]; then
+          targeted_correction=false
+          if [[ "$GITHUB_EVENT_NAME" != "workflow_dispatch" && ! "$BEFORE_SHA" =~ ^0+$ ]] \
+            && git diff --name-only "$BEFORE_SHA" "$CURRENT_SHA" -- \
+              | grep -Eq '^audits/targeted_corrections/.+\.json$'; then
+            targeted_correction=true
+          fi
+          if [[ "$targeted_correction" == true ]]; then
+            python scripts/targeted_correction.py validate-changed \
+              --base "$BEFORE_SHA" \
+              --head "$CURRENT_SHA"
+          else
+            python scripts/content_audit.py validate-sync "${files[@]}"
+          fi
+          if [[ "$GITHUB_EVENT_NAME" != "workflow_dispatch" && ! "$BEFORE_SHA" =~ ^0+$ ]]; then
+            python scripts/merge_preflight.py --base "$BEFORE_SHA" --head "$CURRENT_SHA"
+          fi
+          if [[ "$targeted_correction" == true ]]; then
+            echo "Targeted correction: scoped validation completed; skipping full-entry semantic gate."
+          elif [[ "$GITHUB_EVENT_NAME" == "workflow_dispatch" ]]; then
             python scripts/semantic_resolution_gate.py validate-entries --compat "${files[@]}"
           else
             python scripts/semantic_resolution_gate.py validate-entries "${files[@]}"

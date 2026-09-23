@@ -1,0 +1,22 @@
+{
+  "schema_version": "process_improvement_input_v2",
+  "knowledge_epoch": "pi2-2026-09-06",
+  "recipient": "coordinator",
+  "phase": "post_blind_resolution",
+  "features": [
+    "workflow:standard"
+  ],
+  "limits": {
+    "max_items": 8,
+    "max_bytes": 8192
+  },
+  "selected": [],
+  "skipped": [],
+  "input_bytes": 349,
+  "input_sha256": "1512ab0b32a27e42b076070e6d63023cb8e0948f73d7e3c363cd3ead053159a9",
+  "run_id": "20260912T015542Z-872034dc",
+  "created_at": "2026-09-12T02:42:39Z",
+  "snapshot_path": "audits/runs/c/controversial/20260912T015542Z-872034dc/process_improvement/coordinator-post_blind_resolution.snapshot.md",
+  "machine_duration_seconds": 0.000607,
+  "additional_llm_calls": 0
+}

@@ -1,0 +1,71 @@
+{
+  "pass_id": "sense-structure",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-6-pro",
+    "ingested_by": "orchestrator",
+    "agent_id": "variation-20260913T012522Z-51385f93-sense-structure-reviewer",
+    "source_response": {
+      "path": "audits/runs/v/variation/20260913T012522Z-51385f93/handoff/source_responses/2343010fd9626c5f591327330028d93ff73c892999f688caf82d22b2b30faf0c.json",
+      "sha256": "2343010fd9626c5f591327330028d93ff73c892999f688caf82d22b2b30faf0c"
+    }
+  },
+  "findings": [
+    {
+      "taxonomy_id": "cross_section_internal_contradiction",
+      "location": {
+        "section": "core_image",
+        "line_start": 34,
+        "line_end": 34,
+        "exact_quote": "「同じ対象・尺度・型を前提に、値や状態が変わること、または同類のものの間に違いがあること」。この核から、変化の大きさ、同じ型の別形、集団内の差、主題を変形した作品という語義が生じる。"
+      },
+      "severity": "blocking",
+      "rationale": "コアイメージは語義1、2、3、4を列挙し、さらに語義6を明示しているが、語義5のバレエのソロ演目が列挙にも明示的除外にもない。コアイメージの枝と除外の和集合が全語義を一度ずつ覆っていない。",
+      "suggested_direction": "コアイメージにバレエの専門用法を独立枝として追加し、語義5へ対応付ける。",
+      "evidence_link_ids": [],
+      "id": "normal-sense-structure-001"
+    },
+    {
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 45,
+        "line_end": 45,
+        "exact_quote": "量・水準・品質・状態などが一定ではなく変わること、またはその変化の幅・個々の違いを表す。"
+      },
+      "severity": "blocking",
+      "rationale": "語義1が「個々の違い」まで明示的に含む一方、語義3も集団内の個体差・変異を定義している。両者の境界が生物学という分野差にほぼ依存しており、語義3の独立性を支える中心意味・項構造・結果状態の差が不十分である。",
+      "suggested_direction": "語義1を一般的な変動・ばらつきに限定して語義3を集団内の生物学的差として明確化するか、語義3を語義1の技術的下位用法として統合する。",
+      "evidence_link_ids": [],
+      "id": "normal-sense-structure-002"
+    },
+    {
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 126,
+        "line_end": 126,
+        "exact_quote": "同じ基本的な考え方・型・作品・方法を保ちながら、内容や構成の一部を変えたものを表す。"
+      },
+      "severity": "blocking",
+      "rationale": "語義2が作品を含む一般的な変形を定義し、`a variation on ...` を代表表現としているのに対し、語義4も主題を変形した音楽作品を定義し、同じ `a variation on a theme` を扱っている。一般的な別形と音楽の変奏の範囲が重複し、同一構文の収録先が二重になる。",
+      "suggested_direction": "語義2を一般的な変形・別形に限定して音楽の楽曲・楽章を語義4に一意に収めるか、両者を統合して音楽用法を明示的な下位用法として整理する。",
+      "evidence_link_ids": [],
+      "id": "normal-sense-structure-003"
+    },
+    {
+      "taxonomy_id": "cross_section_internal_contradiction",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 171,
+        "line_end": 171,
+        "exact_quote": "契約・法務の `variation of/to the contract` は「契約の変更」であり、元の型を基にした別形という語義2の一般用法とは文脈が異なる。"
+      },
+      "severity": "blocking",
+      "rationale": "語法注記自身が契約・法務用法を語義2の一般用法とは異なる意味として認定しているが、sense_structure に契約変更を収める独立した語義または明示的な法務下位用法がない。主要な専門用法を注記だけに置いており、候補の収録先が欠落している。",
+      "suggested_direction": "契約・法務における契約条項の変更を独立した専門語義として追加するか、語義2の定義を正式文書の変更まで明示的に拡張し、法務レジスターを下位用法として位置付ける。",
+      "evidence_link_ids": [],
+      "id": "normal-sense-structure-004"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "reviewer": {
+    "mode": "handoff",
+    "agent_id": "reviewer-appropriate-blind-20260921T030654Z-a9e4c1d2",
+    "declared_model": "gpt-6-astra"
+  },
+  "schema_version": "final_blind_v2",
+  "provisional_decision": "pass",
+  "summary": "The context-free final blind review checked the three sense boundaries, the adjective/verb pronunciation split, example ownership, and the authorized-versus-unauthorized verb distinction; no blocking article finding was identified.",
+  "independent_candidates": [],
+  "article_findings": [],
+  "stage": "final_blind",
+  "run_id": "blind-appropriate-20260921T030654Z-a9e4c1d2",
+  "context_id": "blind-appropriate-context-20260921T030654Z-a9e4c1d2",
+  "input_body_sha256": "c0f235efca9fc6b070d0f5c1706c7e1f86c60ca3bccb8f1cd91649c73eab5e88",
+  "prompt_sha256": "8888888888888888888888888888888888888888888888888888888888888888",
+  "input_artifacts": [
+    "entry_body",
+    "final_blind_prompt"
+  ],
+  "audit_visible": false,
+  "recorded_at": "2026-09-21T03:28:00Z"
+}

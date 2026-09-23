@@ -1,6 +1,7 @@
 {
   "schema_version": "review_invalidations_v1",
   "reason_catalog": {
+    "C1_synthetic_review": "Review decisions were synthesized or copied from the answer key instead of preserved independent responses.",
     "B1_term_not_in_example": "No declared discriminating term occurs in the reviewed example or translation.",
     "B2_rationale_not_distinct": "Review rationales or notes are insufficiently individualized.",
     "B2_rationale_not_grounded": "A rationale or note does not quote or name evidence from its target.",
@@ -8,6 +9,14 @@
     "B4_zero_finding_single_review": "A zero-finding run lacks the required second-model confirmation."
   },
   "invalidations": [
+    {
+      "run_id": "20260910T142432Z-faa7c659",
+      "entry_path": "entries/v/variation.md",
+      "status": "invalidated_run",
+      "invalidated_at": "2026-09-11T13:09:22Z",
+      "invalidated_by": ["C1_synthetic_review"],
+      "reason": "The creation helper copied assigned_sense_id from the alignment key into blind attributions and generated final PASS rows. Preserved timestamps also conflict with workflow completion. Original raw records are retained as evidence, not independent review. See docs/incidents/variation-review-integrity.md."
+    },
     {
       "entry_path": "entries/d/distribution.md",
       "body_sha256": "6fef4932f73e7c3fc5f0ab02c024a90688463fc9a6a747947599a688422a6177",

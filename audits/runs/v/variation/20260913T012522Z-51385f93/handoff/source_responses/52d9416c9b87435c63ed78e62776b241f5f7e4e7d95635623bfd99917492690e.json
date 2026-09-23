@@ -1,0 +1,483 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "evidence",
+  "input_body_sha256": "f94b51a0c437869d997f727a89666bdfa4c5ffe575c78f10042998526972201c",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "codex-gpt-5",
+    "ingested_by": "orchestrator",
+    "agent_id": "variation-20260913T012522Z-51385f93-evidence-reviewer-20260917",
+    "same_model_as_generation": true,
+    "source_response": {
+      "path": "audits/runs/v/variation/20260913T012522Z-51385f93/handoff/source_responses/be33cf3919640173754c8087a39c6b0018f62035e8b62b442204ac5867805e03.json",
+      "sha256": "be33cf3919640173754c8087a39c6b0018f62035e8b62b442204ac5867805e03"
+    }
+  },
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "pronunciation",
+        "line_start": 4,
+        "line_end": 4,
+        "exact_quote": "米: /ˌveriˈeɪʃn/｜英: /ˌveəriˈeɪʃn/。4音節で、第3音節の /eɪ/ に主強勢、第1音節に副次強勢がある。米音では第1音節が /ver/、英音では /veə/ となる。語尾の /ʃn/ は、つづり字の -tion を「ション」に近く発音する部分に当たる。"
+      },
+      "severity": "blocking",
+      "rationale": "指定されたCollins locatorの発音欄は語尾を /ʃən/ と示しており、本文の /ʃn/ と一致しない。さらにCO-04は「-tion endingを含む標準発音」という一般的記述にとどまり、4音節・主強勢・副次強勢・米英初頭音の全範囲を直接支持しない。",
+      "evidence_link_ids": [
+        "ev-variation-pronunciation"
+      ],
+      "suggested_direction": "locatorが直接示すIPA・音節数・強勢に合わせるか、米英の発音を個別に直接示す根拠を追加する。",
+      "id": "normal-evidence-001"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "etymology",
+        "line_start": 8,
+        "line_end": 8,
+        "exact_quote": "中英語 variacioun は、古フランス語・アングロフレンチの variation を経て、ラテン語 variātiō「変化、相違、変形」にさかのぼる。ラテン語 variātiō は variare「変える、異ならせる」から作られ、variare は varius「さまざまな、異なる」と同語源である。"
+      },
+      "severity": "blocking",
+      "rationale": "MW-04の指定locatorはMiddle EnglishからAnglo-French、Latin variatio、variareまでを直接示すが、古フランス語を別経路として示さず、variareとvariusの同語源関係も記録していない。etymologyはtwo_sources_or_primary指定なのに、提示された対応unionは非一次資料1件だけである。",
+      "evidence_link_ids": [
+        "ev-variation-etymology"
+      ],
+      "suggested_direction": "MW locatorが直接支持する経路に限定するか、古フランス語とvariusの関係を直接示す独立根拠を追加する。",
+      "id": "normal-evidence-002"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 36,
+        "line_end": 36,
+        "exact_quote": "〈8/10〉"
+      },
+      "severity": "blocking",
+      "rationale": "CA-04が記録するのはCambridgeのB2レベル表示であり、8/10という尺度・数値・算定方法を支持しない。加えて指定Cambridge locatorはこの確認時に403で本文を取得できず、外部確認もできないためinsufficient_evidenceである。",
+      "evidence_link_ids": [
+        "ev-variation-frequency"
+      ],
+      "suggested_direction": "数値頻度を直接示す根拠を追加するか、B2表示など根拠のある指標に限定する。",
+      "id": "normal-evidence-003"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 117,
+        "line_end": 117,
+        "exact_quote": "〈8/10〉"
+      },
+      "severity": "blocking",
+      "rationale": "CA-04が記録するのはCambridgeのB2レベル表示であり、語義2の頻度を8/10とする直接資料ではない。指定locatorも403で確認できず、数値頻度のevidenceが不足している。",
+      "evidence_link_ids": [
+        "ev-variation-frequency"
+      ],
+      "suggested_direction": "語義2の頻度を直接測定・表示する根拠を付すか、数値評価を削除または保留する。",
+      "id": "normal-evidence-004"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 34,
+        "line_end": 34,
+        "exact_quote": "変化が望ましいか望ましくないかは、文脈によって決まり、variation 自体には必ずしも悪い評価はない。"
+      },
+      "severity": "blocking",
+      "rationale": "一般辞書のlinked factsは変化・差・変化幅を支持するが、variation自体の評価が悪くないという評価・語用論上の一般化を直接記録していない。",
+      "evidence_link_ids": [
+        "ev-variation-senses"
+      ],
+      "suggested_direction": "根拠が直接示す変化・差の意味に限定するか、評価中立性を直接扱う用例・語法資料を追加する。",
+      "id": "normal-evidence-005"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 187,
+        "line_end": 187,
+        "exact_quote": "同じ種・集団に属する個体の間に見られる、遺伝的・構造的・機能的な差を表す。基準や平均からの逸脱を必須とせず、個体間に自然に存在する差を中立的に指す。言語・地域・社会層などの一般的な形式差は語義1で扱う。"
+      },
+      "severity": "blocking",
+      "rationale": "MW-03のlinked factはspecies/population normからの差を支持するが、逸脱を必須としないという範囲、評価中立性、言語・地域・社会層を語義1へ送る境界を直接支持しない。さらにtwo_sources_or_primary指定に対して非一次資料1件のみである。",
+      "evidence_link_ids": [
+        "ev-variation-specialist"
+      ],
+      "suggested_direction": "MWが直接支持する生物学的差の範囲に限定するか、集団差・中立性・他分野の境界を直接扱う独立根拠を追加する。",
+      "id": "normal-evidence-006"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 263,
+        "line_end": 263,
+        "exact_quote": "主題や旋律をもとに、旋律・和声・リズム・調性などを変化させて作る楽曲・楽章、またはその中の一つの展開を表す。単数の `a variation` は通常、一連の変奏のうちの一つの変奏を指し、`variations` 全体や作品全体を指す場合に「変奏曲」とする。主題との連続性を保つ場合が多いが、変化の仕方や主題の現れ方は作品によって異なる。"
+      },
+      "severity": "blocking",
+      "rationale": "MW-02は主題の反復と修飾を支持するが、一連の変奏の一つと作品全体の訳し分け、主題との連続性、楽曲・楽章の範囲までは直接記録していない。もう一つの対応sourceであるCambridge locatorは取得できず、two_sources_or_primary要件を満たせない。",
+      "evidence_link_ids": [
+        "ev-variation-specialist"
+      ],
+      "suggested_direction": "根拠が直接示す主題の反復・修飾に限定するか、単数・複数・作品全体の区別を直接示す音楽辞書を追加する。",
+      "id": "normal-evidence-007"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 311,
+        "line_end": 311,
+        "exact_quote": "クラシック・バレエで、踊り手が一人で踊る独立した演目または場面を表す。特に pas de deux などの中で、男女それぞれのソロとして踊られる部分を指すことがある。音楽の変奏曲ではなく、舞踊作品上の演目名である。"
+      },
+      "severity": "blocking",
+      "rationale": "CollinsのCO-03はballetのsolo dance/solo itemを支持するが、独立した場面、pas de deux内の男女それぞれの部分、舞踊作品上の演目名という追加範囲を直接支持しない。",
+      "evidence_link_ids": [
+        "ev-variation-specialist"
+      ],
+      "suggested_direction": "solo dance/solo itemの範囲に限定するか、pas de deuxと演目単位を直接説明する資料を追加する。",
+      "id": "normal-evidence-008"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 354,
+        "line_end": 354,
+        "exact_quote": "地球上のある地点で、真北と磁北がなす水平角、またはその方位差を表す。地域や時期によって異なるため、航海・測量・方位の補正で考慮される。"
+      },
+      "severity": "blocking",
+      "rationale": "NCEIのNC-01はgeomagnetic declinationをmagnetic variationとして識別し、NC-02/03は航法・位置・時期のモデル利用を支持するが、指定locatorの記録は真北と磁北の水平角という定義を直接示していない。",
+      "evidence_link_ids": [
+        "ev-variation-magnetic"
+      ],
+      "suggested_direction": "locatorが直接支持するdeclination＝magnetic variationと航法上の使用に限定するか、角度定義を直接示す一次資料を追加する。",
+      "id": "normal-evidence-009"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 38,
+        "line_end": 38,
+        "exact_quote": "標準語。日常会話にも使うが、文章・報道・ビジネス・学術で特に頻出する。データや価格では「変動」「ばらつき」、地域・人・意見では「差異」「違い」と訳し分ける。統計では variation はばらつき一般または変化量を指し、variance は平均からの偏差の二乗平均という特定の統計量であるため、両語は自動的に置き換えない。"
+      },
+      "severity": "blocking",
+      "rationale": "OX factsは変化量、別形、フレーム、音楽義を支持するが、媒体別の頻度、訳語の分布、varianceの統計定義・非互換性を直接支持しない。registerはtwo_sources_or_primary指定だが対応unionはOxford 1件のみである。",
+      "evidence_link_ids": [
+        "ev-variation-senses"
+      ],
+      "suggested_direction": "根拠のある一般的意味・フレームに限定するか、媒体分布とvarianceの差を直接扱う資料を追加する。",
+      "id": "normal-evidence-010"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 119,
+        "line_end": 119,
+        "exact_quote": "標準語。料理、物語、デザイン、研究方法、議論など、同じ型の展開やアレンジを説明する文章でよく使う。契約・法務では契約内容の変更を指し、`variation of/to the contract`、`variation clause`、`variation order` などの専門表現で用いる。`variation on a theme` は音楽にも比喩にも用いられる。"
+      },
+      "severity": "blocking",
+      "rationale": "WA sourceは契約variationとvariation clauseの手続を支持するが、料理・物語・デザイン・研究方法・議論、比喩的なvariation on a theme、variation orderの一般的分布を直接支持しない。linked evidenceが法務資料1件に限定されている。",
+      "evidence_link_ids": [
+        "ev-variation-legal"
+      ],
+      "suggested_direction": "法務用法だけに限定するか、一般用法・比喩・地域別の契約語彙をそれぞれ直接示す根拠を追加する。",
+      "id": "normal-evidence-011"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 191,
+        "line_end": 191,
+        "exact_quote": "生物学、遺伝学、医学などで使う学術語。一般文脈の「違い」より、同じ種・集団の内部に生じる個体差や、その分布を意識させる。"
+      },
+      "severity": "blocking",
+      "rationale": "MW-03は生物学におけるspecies/population normとの差を支持するが、遺伝学・医学を含む学術語としての分布と、一般語義との差・分布への含意を単独で直接支持しない。two_sources_or_primary指定にもかかわらず非一次資料1件である。",
+      "evidence_link_ids": [
+        "ev-variation-specialist"
+      ],
+      "suggested_direction": "MWが直接示す生物学的意味に限定するか、遺伝学・医学の領域分布を直接扱う資料を追加する。",
+      "id": "normal-evidence-012"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 267,
+        "line_end": 267,
+        "exact_quote": "音楽の専門用法。一般語の「変形」と同じ語源的核を持つが、主題とその展開を指す定着した術語として使う。比喩的な `variations on a theme` は語義2の「同じ主題の別展開」にも戻る。"
+      },
+      "severity": "blocking",
+      "rationale": "指定Cambridge locatorは403で取得できずinsufficient_evidenceである。CA-03の記録は音楽のvariationが別の曲に基づく作品であることだけで、専門用法としてのレジスター、語源的核、比喩用法の語義2への振り分けを直接確認できない。",
+      "evidence_link_ids": [
+        "ev-variation-specialist"
+      ],
+      "suggested_direction": "確認可能な音楽辞書の直接記述に限定するか、専門レジスターと比喩用法を直接説明する資料を追加する。",
+      "id": "normal-evidence-013"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 315,
+        "line_end": 315,
+        "exact_quote": "バレエの専門用法。一般会話では通常「ソロ」「ソロ演目」と説明し、作品名やコンクールの演目を述べる場面で variation を使う。"
+      },
+      "severity": "blocking",
+      "rationale": "CO-03はballetのsolo dance/solo itemを支持するが、一般会話での言い換え、作品名・コンクールでの使用場面を直接支持しない。registerはtwo_sources_or_primary指定なのにCollins 1件のみである。",
+      "evidence_link_ids": [
+        "ev-variation-specialist"
+      ],
+      "suggested_direction": "solo dance/solo itemの直接支持範囲に限定するか、使用場面とレジスターを直接示す根拠を追加する。",
+      "id": "normal-evidence-014"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 40,
+        "line_end": 40,
+        "exact_quote": "the variation of 〈A〉 with 〈B〉＝〈B〉に伴う〈A〉の変化"
+      },
+      "severity": "blocking",
+      "rationale": "OX-03のsource factはvariation in/of somethingを記録し、Oxford locatorの例もtemperature variation with altitudeである。the variation of A with Bという完全フレームを直接示す記録ではない。",
+      "evidence_link_ids": [
+        "ev-variation-frames"
+      ],
+      "suggested_direction": "確認できるvariation in/ofまたはvariation withの形に限定するか、the variation of A with Bを直接掲載する資料を追加する。",
+      "id": "normal-evidence-015"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 121,
+        "line_end": 121,
+        "exact_quote": "a variation of 〈a method/a design〉＝〈方法・デザイン〉の別形"
+      },
+      "severity": "blocking",
+      "rationale": "CollinsのCO-01と指定locatorはvariation on somethingを直接説明するが、variation of a method/designという前置詞と対象の完全フレームを直接支持しない。",
+      "evidence_link_ids": [
+        "ev-variation-frames"
+      ],
+      "suggested_direction": "variation onの直接支持範囲に限定するか、variation of a method/designを直接扱う資料を追加する。",
+      "id": "normal-evidence-016"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 121,
+        "line_end": 121,
+        "exact_quote": "variation of/to 〈a contract〉＝契約の変更"
+      },
+      "severity": "blocking",
+      "rationale": "WA-01はvariation to a contractを「契約への変更」として支持するが、variation of the contractの前置詞形を直接示さない。1つの完全フレームに未支持のofを併記している。",
+      "evidence_link_ids": [
+        "ev-variation-legal"
+      ],
+      "suggested_direction": "variation to a contractに限定するか、variation of the contractを直接示す法務資料を追加する。",
+      "id": "normal-evidence-017"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 121,
+        "line_end": 121,
+        "exact_quote": "variation order＝契約・工事内容の変更指示"
+      },
+      "severity": "blocking",
+      "rationale": "WAの指定locator本文にはvariation orderという語形がなく、WA-04も正式な承認・変更過程を記録するという一般記述であって、variation orderという専門用語を直接支持しない。",
+      "evidence_link_ids": [
+        "ev-variation-legal"
+      ],
+      "suggested_direction": "variation orderを直接掲載する建設・契約資料を追加するか、承認済みのcontract variationという表現に限定する。",
+      "id": "normal-evidence-018"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 135,
+        "line_end": 138,
+        "exact_quote": "・a variation of 〈method/design〉\n用途: 既存の方法や設計と基本は同じで、一部が異なる版を表す。\n例: The team tested a variation of the original method.\n訳: そのチームは元の方法を変形した手法を試した。"
+      },
+      "severity": "blocking",
+      "rationale": "このtargetに割り当てられたWA factsは契約変更・variation clause・承認手続の資料であり、一般用法のmethod/designの別形や提示例文を支持しない。法務sourceを一般コロケーションの根拠として流用している。",
+      "evidence_link_ids": [
+        "ev-variation-examples",
+        "ev-variation-legal"
+      ],
+      "suggested_direction": "一般辞書のvariation on/of用例を直接付すか、このコロケーションを保留する。",
+      "id": "normal-evidence-019"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 155,
+        "line_end": 158,
+        "exact_quote": "・develop a variation on 〈an idea〉\n用途: 既存の考えを土台に、新しい展開を作ることを表す。\n例: The workshop asks students to develop a variation on the basic pattern.\n訳: その講習では、基本パターンを変形したものを学生に考案させる。"
+      },
+      "severity": "blocking",
+      "rationale": "MW factsと指定locatorはvariation onという名詞句・意味を支持するが、developという動詞との完全な結合、workshopの例文、basic patternへの適用を直接支持しない。WA legal factsはこの一般用法を支えない。",
+      "evidence_link_ids": [
+        "ev-variation-examples"
+      ],
+      "suggested_direction": "variation onの直接支持に限定するか、develop a variation onを実際に掲載する用例根拠を追加する。",
+      "id": "normal-evidence-020"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 293,
+        "line_end": 296,
+        "exact_quote": "・variations by 〈a composer〉\n用途: 特定の作曲家が作った変奏曲を示す。\n例: The program included variations by Beethoven and Brahms.\n訳: そのプログラムにはベートーベンとブラームスの変奏曲が含まれていた。"
+      },
+      "severity": "blocking",
+      "rationale": "Collinsのlinked factsはvariation on、一般的なvariation、ballet、発音であり、作曲家名を伴うvariations byという完全フレームや提示例文を直接支持しない。",
+      "evidence_link_ids": [
+        "ev-variation-examples"
+      ],
+      "suggested_direction": "作曲家名を伴う実例を直接示す音楽資料を追加するか、a set of variations on a themeなど根拠のあるフレームに限定する。",
+      "id": "normal-evidence-021"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 373,
+        "line_end": 378,
+        "exact_quote": "・magnetic declination\n定義: 真北と磁北の方向の差、またはその角度。\n頻度: 〈4/10〉\n違い: magnetic declination は現在の地球科学・航海で一般的な用語で、magnetic variation は同じ概念を表す別称として使われる。\n例: The chart gives the magnetic declination for the harbor.\n訳: その海図はその港の磁気偏角を示している。"
+      },
+      "severity": "blocking",
+      "rationale": "NCEIはmagnetic declinationとmagnetic variationの対応を直接示すが、magnetic declinationの4/10という頻度、現在の地球科学・航海での一般性、chartの例文を直接支持しない。",
+      "evidence_link_ids": [
+        "ev-variation-magnetic"
+      ],
+      "suggested_direction": "NCEIが直接示す用語対応と航法用途に限定するか、頻度・分野の優勢さ・海図例を直接示す資料を追加する。",
+      "id": "normal-evidence-022"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 160,
+        "line_end": 160,
+        "exact_quote": "`variation on` は元の型・設計・主題を土台にした別形を指すため、語義2の代表表現である。`variation of` も元のものの別形を表すことが多い。これに対し `variation from 〈the norm/standard/original〉` は比較の基準を示し、そこからの相違・ずれに焦点を置く。したがって、`a variation from the original` は文法的には可能だが、元の設計を基にした別形という意味なら `a variation on the original design` の方が自然である。`a variation on a theme` を単に「テーマについての違い」と訳さず、「同じ主題を変形した展開」と捉える。契約・法務の `variation of/to the contract` は「契約の変更」であり、元の型を基にした別形という語義2の一般用法とは文脈が異なる。`alternative` は元の案の代替として選べる別案、`variation` は元の案との連続性を保った変形である。"
+      },
+      "severity": "blocking",
+      "rationale": "このtargetの対応unionはWAの契約ガイドだけで、契約変更は支持するが、variation on/of/fromの一般語法、a variation from the originalの自然さ、alternativeとの意味差を直接支持しない。",
+      "evidence_link_ids": [
+        "ev-variation-legal"
+      ],
+      "suggested_direction": "法務部分だけを残して一般語法を別sourceで裏付けるか、各前置詞・類義語差を直接示す資料を追加する。",
+      "id": "normal-evidence-023"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 369,
+        "line_end": 369,
+        "exact_quote": "この用法は一般的な「変動」ではなく、真北に対する磁北の角度を指す。`magnetic declination` とほぼ同義だが、地理・海図の資料では `magnetic variation` が使われることがある。"
+      },
+      "severity": "blocking",
+      "rationale": "NCEIはmagnetic declinationとmagnetic variationの対応を支持するが、地理・海図資料での分布・使用頻度までは指定locatorに記録されていない。真北に対する磁北の角度という定義もlocator本文で直接確認できない。",
+      "evidence_link_ids": [
+        "ev-variation-magnetic"
+      ],
+      "suggested_direction": "NCEIが直接支持する用語対応に限定するか、角度定義と分野別使用を直接示す一次・専門資料を追加する。",
+      "id": "normal-evidence-024"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "word_formation",
+        "line_start": 13,
+        "line_end": 13,
+        "exact_quote": "・vary：動詞。「変わる、異なる、変える」。variation と同語源の関連動詞で、vary in/from/with/according to の構文を取る。"
+      },
+      "severity": "blocking",
+      "rationale": "MW-05と指定locatorはvaryを関連動詞として示すが、vary in/from/with/according toという4つの構文を直接支持しない。さらにtwo_sources_or_primary指定に対して対応unionはMW 1件のみである。",
+      "evidence_link_ids": [
+        "ev-variation-etymology"
+      ],
+      "suggested_direction": "関連動詞・基本意味に限定するか、各vary構文を直接掲載する辞書・コーパス根拠を追加する。",
+      "id": "normal-evidence-025"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "word_formation",
+        "line_start": 14,
+        "line_end": 14,
+        "exact_quote": "・variable：形容詞・名詞。「変動する、可変の；変数」。variation と同語源の重要な関連語で、変化しうる性質や変化する値・要因を表す。"
+      },
+      "severity": "blocking",
+      "rationale": "MW-06のsource detailはvariable dictionary entryを参照すると記録しているが、指定locatorはvariationのページであり、variableの辞書項目ではない。variation locator本文から形容詞・名詞の定義、変数の意味、重要性を直接確認できない。",
+      "evidence_link_ids": [
+        "ev-variation-etymology"
+      ],
+      "suggested_direction": "variableの実際の辞書locatorをsourceとして追加するか、variationページで直接確認できる関連語の記述に限定する。",
+      "id": "normal-evidence-026"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "word_formation",
+        "line_start": 15,
+        "line_end": 15,
+        "exact_quote": "・variant：名詞・形容詞。「異形、変種；異なる」。同じ語族で、同種のものの別形や標準形と異なる型を表し、語義2と特に関係が深い。"
+      },
+      "severity": "blocking",
+      "rationale": "MW-07のsource detailはvariant dictionary entryを参照すると記録しているが、指定locatorはvariationのページであり、variantの辞書項目ではない。指定locatorからvariantの品詞・意味・語義2との関係を直接確認できない。",
+      "evidence_link_ids": [
+        "ev-variation-etymology"
+      ],
+      "suggested_direction": "variantの実際の辞書locatorを追加するか、指定variation locatorが直接示す範囲に限定する。",
+      "id": "normal-evidence-027"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "core_image",
+        "line_start": 27,
+        "line_end": 27,
+        "exact_quote": "・同じ主題をもとにした展開 → 「変奏・変奏曲」（語義4）"
+      },
+      "severity": "blocking",
+      "rationale": "CA-03は音楽variationが別の曲に基づき変更を加えた作品であることを記録するが、指定Cambridge locatorは403で取得できずinsufficient_evidenceである。確認できないlocatorを用いてこのcore-image claimをpassにはできない。",
+      "evidence_link_ids": [
+        "ev-variation-specialist"
+      ],
+      "suggested_direction": "取得可能な音楽辞書で同じ主題・変奏の関係を直接確認するか、この枝を保留する。",
+      "id": "normal-evidence-028"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "core_image",
+        "line_start": 28,
+        "line_end": 28,
+        "exact_quote": "・真北と磁北の間の方位差 → 「磁気偏角」（語義6）"
+      },
+      "severity": "blocking",
+      "rationale": "NC-01はdeclinationとmagnetic variationの対応を支持するが、指定locatorのNC factsは真北・磁北の方位差という定義を直接記録していない。",
+      "evidence_link_ids": [
+        "ev-variation-magnetic"
+      ],
+      "suggested_direction": "角度定義を直接示す磁気・航海資料を追加するか、declination＝magnetic variationという対応に限定する。",
+      "id": "normal-evidence-029"
+    }
+  ]
+}

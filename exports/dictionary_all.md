@@ -25374,3 +25374,1775 @@ tags: []
 違い: acknowledge は存在・貢献を意識して認めることで、当然視して見えなくすることと対照的である。  
 例: The director acknowledged the volunteers’ work in her speech.  
 訳: 監督はスピーチでボランティアの働きを認めた。
+
+---
+
+# variation
+
+---
+headword: variation
+type: word
+status: checked
+prompt_version: entry_spec_v5
+model: codex-gpt-5
+created_at: 2026-09-10
+updated_at: 2026-09-17
+checked: true
+tags: []
+---
+
+＃発音記号
+
+米: /ˌveriˈeɪʃən/｜英: /ˌveəriˈeɪʃən/。4音節で、第3音節の /eɪ/ に主強勢、第1音節に副次強勢がある。米音では第1音節が /ver/、英音では /veə/ となる。語尾の /ʃən/ は、つづり字の -tion を「ション」に近く発音する部分に当たる。  
+
+＃語源
+
+現代英語 variation は、中英語 variacioun ← 古フランス語系のアングロフレンチ variation ← ラテン語 variātiō「変化、相違、変形」という流れでさかのぼる。ラテン語 variātiō は variare「変える、異ならせる」から作られ、variare は varius「さまざまな、異なる」と同語源である。  
+語源欄では、ラテン語の「多様化・相違」という意味までを示す。現代英語で共有される「同じ型を保ちながら一部が異なる」という説明上の核は、次のコアイメージ欄で整理する。  
+
+＃語形成
+
+・vary：動詞。「変わる、異なる、変える」。variation と同語源の関連動詞。  
+・variable：形容詞・名詞。「変動する、可変の；変数」。variation と同語源の重要な関連語で、変化しうる性質や変化する値・要因を表す。  
+・variant：名詞・形容詞。「異形、変種；異なる」。同じ語族で、同種のものの別形や標準形と異なる型を表し、語義2と特に関係が深い。  
+・varied：形容詞。「変化に富んだ、さまざまな」。単に variation があるという意味と、内容が豊富だという評価を区別する。  
+・various：形容詞。「さまざまな、種々の」。同じ語族だが、通常は名詞の前に置いて種類の多さを表す。  
+・variety：名詞。「多様性、種類、変種」。variation が変化や個々の違いに焦点を置くのに対し、variety は種類の豊富さや選択肢に焦点を置きやすい。  
+・variational：形容詞。数学・物理などで「変分の、変分法の」。一般会話の「変化に富む」という意味では使わない。  
+
+＃コアイメージ
+
+「同じ対象・尺度・型を前提に、値や状態が変わること、または同類のものの間に違いがあること」。この核から、変化の大きさ、同じ型の別形、集団内外の差、主題を変形した作品、契約条件の変更などの語義が生じる。  
+・同じ尺度で見た値や状態の変化・ばらつき → 「変動・ばらつき」（語義1）  
+・同じ基本型を保った別の形 → 「変形・別形」（語義2）  
+・同類の個体や集団の内外にある差 → 「個体差・変異」（語義3）  
+・同じ主題をもとにした展開 → 「変奏・変奏曲」（語義4）  
+・一人の踊り手が踊るバレエのソロ → 「ソロ演目・独舞」（語義5）  
+・契約条件の正式な変更 → 「契約変更」（語義6）  
+・真北と磁北の間の方位差 → 「磁気偏角」（語義7）  
+
+＃意味・用法・関連表現
+
+1. 【名詞・不可算／可算】変化、変動、ばらつき
+
+【日本語訳・定義】量・水準・品質・状態などが一定ではなく変わること、またはその変化の幅・ばらつきを表す。変動・ばらつきを総体として述べる場合は不可算が多く、個々の変化・差・型を数える場合は可算になることが多い。個々の対象間の差や専門分野の変異を主に述べる場合は、語義3などの用法になる。  
+
+【頻度】〈8/10〉  
+
+【レジスター/領域】標準語。量・水準・品質などの変化や、同種の対象の間の差を一般に述べる。データや価格では「変動」「ばらつき」、対象間の比較では「差異」「違い」と訳し分ける。  
+
+【文法パターン】variation in 〈amount/level/quality〉＝〈量・水準・品質〉の変動／variation of 〈temperature/pressure〉＝〈温度・圧力〉の変化／variation between 〈A〉 and 〈B〉＝〈A〉と〈B〉の差／variation among 〈people/regions〉＝〈人・地域〉の間のばらつき／variation according to 〈a factor〉＝〈要因〉に応じた変化／the variation of 〈A〉 with 〈B〉＝〈B〉に伴う〈A〉の変化／show/reflect variation in something＝何かの変動を示す／take seasonal variation into account＝季節変動を考慮に入れる。  
+
+【コロケーション】
+
+・considerable variation in something  
+用途: 〈何か〉にかなり大きな差やばらつきがあることを表す。  
+例: There is considerable variation in the time needed to complete the task.  
+訳: その作業を終えるのに必要な時間にはかなりのばらつきがある。  
+
+・slight variation in something  
+用途: 基本的には同じだが、わずかな違いがあることを表す。  
+例: The two paint samples showed only slight variation in color.  
+訳: その2つの塗料見本には色のわずかな違いしか見られなかった。  
+
+・wide variation between 〈A〉 and 〈B〉  
+用途: 2つの対象の値・状態・結果が大きく異なることを示す。  
+例: The study found wide variation between schools in the use of digital devices.  
+訳: その研究では、デジタル機器の使用について学校間に大きな差が見つかった。  
+
+・a variation from 〈the norm/standard〉  
+用途: 基準・標準からの相違やずれを強調する。元のものを土台にした別形を中立的に指す場合は、語義2の `variation on` の方が典型的である。  
+例: The revised procedure shows only slight variation from the standard procedure in its timing.  
+訳: 改訂された手順は、実施時間の点で標準手順からわずかに異なる。  
+
+・seasonal variation in 〈demand/temperature〉  
+用途: 季節によって繰り返し生じる需要や温度の変化を指す。  
+例: The store adjusts its stock for seasonal variation in demand.  
+訳: その店は需要の季節変動に合わせて在庫を調整する。  
+
+・variation according to 〈a factor〉  
+用途: 地域・条件・時間などの要因に応じて値が変わることを述べる。  
+例: The survey found considerable variation according to age and region.  
+訳: その調査では、年齢と地域によってかなりの差が見つかった。  
+
+・the variation of 〈A〉 with 〈B〉  
+用途: 〈B〉の変化に伴って〈A〉がどう変わるかという関係を、やや学術的に表す。  
+例: The graph shows the variation of temperature with altitude.  
+訳: そのグラフは高度に伴う温度の変化を示している。  
+
+・take 〈seasonal variation〉 into account  
+用途: 予測や計画で、一定ではない季節要因を考慮する。  
+例: The forecast takes seasonal variation into account.  
+訳: その予測は季節変動を考慮に入れている。  
+
+【語法・注意】variation は変動やばらつきを総体として述べるときは不可算が多く、a variation/variations は個々の変化・差・型を数えるときに使われることが多い。ただし、可算・不可算は意味だけで機械的に決まるものではなく、焦点や文脈によって揺れる。`variation in prices` は価格の変動、`variations in prices` は複数の価格差・変動の例を指しやすい。`variation from the norm/standard` は比較の基準からのずれを表し、`difference` は2つ以上の対象の差に焦点を置く。`variety` は選択肢や種類の豊富さを表すことが多く、単なる数値の変動には通常 variation を使う。本文の〈n/10〉は辞書の頻度順位を直接数値化したものではなく、学習上の目安としての編集評価である。  
+
+【類義語】
+
+・change  
+定義: 状態・量・性質が別のものになること。  
+頻度: 〈10/10〉  
+違い: 最も広い語で、変化そのものに焦点を置く。variation は同じ型の範囲内での差や変動幅を示しやすい。  
+例: The change in temperature was easy to notice.  
+訳: 気温の変化は簡単に気づけた。  
+
+・fluctuation  
+定義: 数値や水準が上下を繰り返す変動。  
+頻度: 〈7/10〉  
+違い: 価格・為替・体温などの上下動を強く含む。variation は一方向の変化や対象間のばらつきにも使える。  
+例: Daily fluctuations in demand make planning difficult.  
+訳: 需要の日々の変動は計画を難しくする。  
+
+・difference  
+定義: 2つ以上のものが同じでない点や、その隔たり。  
+頻度: 〈10/10〉  
+違い: 比較対象間の差に焦点を置く。variation は基準からの変化や同種の複数対象のばらつきにも使う。  
+例: There is a clear difference between the two measurements.  
+訳: その2つの測定値には明確な差がある。  
+
+【反意語】
+
+・uniformity  
+定義: 対象の間に差がほとんどなく、同じ状態や性質がそろっていること。  
+頻度: 〈5/10〉  
+違い: variation が差やばらつきを指すのに対し、uniformity は一様である状態を指す。  
+例: The process aims to improve uniformity across all factories.  
+訳: その工程は全工場での一様性を高めることを目指している。  
+
+2. 【名詞・可算】基準から少し変えたもの、変形、別形
+
+【日本語訳・定義】同じ基本的な考え方・型・方法を保ちながら、内容や構成の一部を変えたものを表す。元と無関係な別物ではなく、「元のものを少し変えた版」という含みがある。`a variation on ...` は「…を土台にした変形・アレンジ」として特に重要である。音楽の主題に基づく専門的な用法は語義4、契約条件の正式な変更は語義6で扱う。  
+
+【頻度】〈8/10〉  
+
+【レジスター/領域】標準語。同じ一般的な型・構成を保った別形やアレンジを述べる。契約・法務の専門用法については語義6を参照。音楽の `variation on a theme` は語義4で扱う。  
+
+【文法パターン】a variation on 〈the original design/an idea/a story/a recipe〉＝〈元の設計・考え・物語・レシピ〉を土台にした変形／a slight variation＝わずかな変形。  
+
+【コロケーション】
+
+・a variation on 〈an idea/a story〉  
+用途: 同じ中心的な考えや筋を保った、一般用法での別の展開を表す。音楽の専門用法は語義4で扱う。  
+例: The novel is a clever variation on a familiar coming-of-age story.  
+訳: その小説は、よく知られた成長物語を巧みに変形した作品だ。  
+
+・a variation on 〈a traditional dish/a traditional story〉  
+用途: 伝統的な料理や物語を少し変えたものを指す。  
+例: This soup is a lighter variation on a traditional winter dish.  
+訳: このスープは伝統的な冬の料理をより軽めにしたアレンジだ。  
+
+・a variation on 〈the original method〉  
+用途: 既存の方法と基本は同じで、一部が異なる版を表す。  
+例: The team tested a variation on the original method.  
+訳: そのチームは元の方法を土台にした変形版を試した。  
+
+・a slight variation on 〈the original instructions〉  
+用途: 元の説明書を土台に、表現や形式を少し変えた別版を表す。  
+例: The editor created a slight variation on the original instructions by revising the wording.  
+訳: その編集者は文言を改め、元の説明書を少し変えた別版を作成した。  
+
+・a variation on the original design  
+用途: 元の設計を土台にした別形・アレンジを表す。語義2の代表的な表現。  
+例: This version is a useful variation on the original design.  
+訳: この版は元の設計を土台にした有用なアレンジだ。  
+
+・variations on 〈a theme〉  
+用途: 同じ中心的な考えや主題を少しずつ変えた複数の展開を表す。  
+例: Many theories on punishment are variations on a theme.  
+訳: 刑罰についての多くの理論は、同じ主題を変形した展開である。  
+
+【語法・注意】`variation on` は元の型・設計・考えを土台にした別形を指すため、語義2の代表表現である。`variation of` も元のものの別形を表すことが多い。これに対し `variation from the norm/standard` は比較の基準を示し、そこからの相違・ずれに焦点を置くため、語義1で扱う。`a variation from the original` も文法的には可能だが、元の設計を基にした別形という意味なら `a variation on the original design` の方が自然である。音楽の `a variation on a theme` は語義4で扱い、ここでは物語・考えなどの比喩的な展開として読む。契約・法務の `variation of/to the contract` は正式な契約変更を表し、一般用法の「元の型を基にした別形」とは文脈が異なる。`alternative` は元の案の代替として選べる別案、`variation` は元の案との連続性を保った変形である。  
+
+【類義語】
+
+・variant  
+定義: 同じ種類のものから分かれた、少し異なる形や型。  
+頻度: 〈7/10〉  
+違い: variant は別形そのものを簡潔に指し、医学・生物・言語などで標準形との差を分類する語としても使う。variation は変形の過程や関係も表しやすい。  
+例: The researchers compared regional variants of the expression.  
+訳: 研究者たちはその表現の地域別の異形を比較した。  
+
+・version  
+定義: 同じものの異なる版・形態・編集結果。  
+頻度: 〈9/10〉  
+違い: version は製品・文書・作品の版を中立的に指す。variation は元の型を部分的に変えたという関係をより強く示す。  
+例: Please use the latest version of the report.  
+訳: 報告書の最新版を使ってください。  
+
+・modification  
+定義: 目的に合わせて既存のものに加えた変更・改変。  
+頻度: 〈7/10〉  
+違い: modification は意図的な改変という行為・結果に焦点を置き、variation は自然に生じた差や創作上の変形にも使う。  
+例: The device requires a minor modification to fit the new component.  
+訳: その装置は新しい部品に合うよう、少し改変する必要がある。  
+
+3. 【名詞・不可算／可算・生物学・遺伝学・医学】集団内の個体差、変異
+
+【日本語訳・定義】同じ種に属する個体や集団の内部・集団間に見られる、遺伝的・構造的・機能的な差を表す。生物の同種・同群の特徴が一様でないことに焦点を置く専門用法である。  
+
+【頻度】〈6/10〉  
+
+【レジスター/領域】生物学・遺伝学などで使う専門語。同じ種・集団の個体差や集団間の差を述べる。  
+
+【文法パターン】genetic/biological variation＝遺伝的・生物学的変異／variation within 〈a species/group〉＝〈種・集団〉内の変異／variation among 〈individuals〉＝〈個体〉間の差／variation between 〈populations〉＝〈集団〉間の差／show variation in 〈a characteristic〉＝〈特徴〉に差を示す。  
+
+【コロケーション】
+
+・genetic variation within 〈a species〉  
+用途: 同じ種の個体間にある遺伝的な違いを表す。  
+例: Genetic variation within a species can affect its response to disease.  
+訳: 種内の遺伝的変異は、病気への反応に影響することがある。  
+
+・genetic variation among 〈individuals〉  
+用途: 個体ごとの遺伝的な違いが一様でないことを述べる。  
+例: The study found substantial genetic variation among individuals in their response to the vaccine.  
+訳: その研究では、ワクチンへの反応に個体間の大きな遺伝的差が見つかった。  
+
+・variation within 〈a population〉  
+用途: 同じ集団内で見られる、遺伝的・形態的・生理的などの個体差を表す。  
+例: The study measured genetic variation within a population in wing length over several generations.  
+訳: その研究は、数世代にわたる集団内の翼長における遺伝的変異を測定した。  
+
+・genetic variation between 〈populations〉  
+用途: 異なる集団の間にある遺伝的な違いを表す。  
+例: The researchers compared genetic variation between populations living in different environments.  
+訳: 研究者たちは、異なる環境に住む集団間の遺伝的変異を比較した。  
+
+・genetic variation in 〈drug response〉  
+用途: 遺伝的な違いによって薬への反応が異なることを表す。  
+例: Genetic variation in drug response should be considered when interpreting the results.  
+訳: 結果を解釈する際は、薬物反応における遺伝的変異を考慮すべきだ。  
+
+・show variation in 〈a characteristic〉  
+用途: 特定の特徴に個体差や形式差があることを、観察・調査結果として述べる。  
+例: The plant samples show genetic variation in leaf shape and size within a species.  
+訳: その種の植物試料では、葉の形と大きさに遺伝的変異が見られる。  
+
+【語法・注意】生物学の `variation` は、集団内の差という現象にも、その差を示す特徴にも使われる。`deviation` が基準・平均から外れることに焦点を置くのに対し、`variation` は個体・集団間の差やその分布を述べる。`mutation` は遺伝物質の配列に起きる変化、`genetic variation` は個体・集団間に観察される遺伝的差の状態・分布を指し、mutation は variation の原因の一つである。両語は同義ではない。  
+
+【類義語】
+
+・diversity  
+定義: 集団や範囲の中に異なる種類・特徴が存在すること。  
+頻度: 〈8/10〉  
+違い: diversity は多様性の存在や価値に焦点を置き、variation は同じ集団内でどの特徴がどの程度異なるかを分析する語として使いやすい。  
+例: The forest supports remarkable biological diversity.  
+訳: その森林は際立った生物多様性を支えている。  
+
+・difference  
+定義: 2つ以上の個体・形式・集団が同じでない点。  
+頻度: 〈10/10〉  
+違い: difference は比較結果を一般に表し、variation は同じ種・体系の内部で生じる差や分布を含意しやすい。  
+例: The researchers recorded differences in color between the populations.  
+訳: 研究者たちは集団間の色の違いを記録した。  
+
+・deviation  
+定義: 基準・平均・通常の状態から外れること。  
+頻度: 〈7/10〉  
+違い: deviation は基準からの逸脱に焦点があり、通常から外れているという含みを帯びやすい。variation は中立的な個体差にも使う。  
+例: The measurement showed a small deviation from the expected value.  
+訳: その測定値には予想値からの小さなずれがあった。  
+
+【反意語】
+
+・homogeneity  
+定義: 集団や資料の構成要素が互いによく似ていて、一様であること。  
+頻度: 〈4/10〉  
+違い: variation が内部の差を指すのに対し、homogeneity は内部の差が小さい状態を指す。  
+例: The analysis assumes homogeneity within each group.  
+訳: その分析は各集団内が均質であると仮定している。  
+
+4. 【名詞・可算・音楽】変奏；（複数・作品全体）変奏曲
+
+【日本語訳・定義】主題や旋律を反復し、旋律・和声・リズム・調性などに変化や装飾を加えた短い音楽作品、またはその一つの展開を表す。単数の `a variation` は通常、一連の変奏のうちの一つの変奏を指し、`variations` 全体や作品全体を指す場合に「変奏曲」とする。  
+
+【頻度】〈5/10〉  
+
+【レジスター/領域】音楽の専門用法。主題や旋律を変化させた作品・展開を指す。  
+
+【文法パターン】a variation on 〈a theme/melody〉＝〈主題・旋律〉に基づく変奏／a set of variations on 〈a theme〉＝〈主題〉による変奏曲集／theme and variations＝主題と変奏／play/perform a variation＝変奏を演奏する／variations by 〈a composer〉＝〈作曲家〉による複数の変奏・変奏曲。  
+
+【コロケーション】
+
+・a set of variations on 〈a theme〉  
+用途: 1つの主題と、それに続く複数の変奏からなる一作品・一組を表す。個々の変奏が独立した別作品であることを必須としない。  
+例: The concert opened with a set of variations on a folk melody.  
+訳: その演奏会は民謡の旋律による変奏曲集で幕を開けた。  
+
+・theme and variations  
+用途: 主題を最初に示し、その後に複数の変奏を続ける形式を指す。  
+例: The pianist chose a demanding theme and variations for the recital.  
+訳: そのピアニストはリサイタルに、難度の高い主題と変奏曲を選んだ。  
+
+・a variation on 〈a melody〉  
+用途: ある旋律をもとにした、一連の変奏のうちの一つの変奏を指す。  
+例: The pianist performed a variation on the melody with subtle rhythmic changes.  
+訳: そのピアニストは、リズムを微妙に変えたその旋律の一つの変奏を演奏した。  
+
+・play a variation  
+用途: 演奏者が一連の変奏のうちの一つの変奏を演奏することを表す。  
+例: She played the final variation with remarkable clarity.  
+訳: 彼女は最後の変奏を見事な明瞭さで演奏した。  
+
+・variations on 〈a theme〉  
+用途: 一つの主題をもとにした複数の変奏を表す。  
+例: The program included variations on a theme by Mozart.  
+訳: そのプログラムにはモーツァルトの主題による変奏曲が含まれていた。  
+
+【語法・注意】音楽では通常可算で、`a variation on a theme` は「主題に基づく一つの変奏」、`play/perform a variation` は「変奏を演奏する」と捉える。`a set of variations` や `variations` が一連の変奏・作品全体を指す場合は「変奏曲」「変奏曲集」と訳す。比喩的な `variations on a theme` は元の考えを少し変えた複数の展開を意味する。単に別の演奏や録音を指すときは variation ではなく version や arrangement が自然な場合がある。  
+
+【類義語】
+
+・reworking  
+定義: 既存の主題・作品・素材を改作して、別の形に仕上げたもの。  
+頻度: 〈5/10〉  
+違い: reworking は改作の行為や結果に焦点を置き、音楽の variation ほど一定の形式や主題との反復関係を必須としない。  
+例: The composer presented a bold reworking of the old melody.  
+訳: その作曲家は古い旋律を大胆に改作した作品を発表した。  
+
+5. 【名詞・可算・バレエ】ソロ演目、独舞
+
+【日本語訳・定義】クラシック・バレエで、踊り手が一人で踊る独舞・ソロ番号、または作品内のソロ部分を表す。音楽の変奏曲ではなく、舞踊作品上の演目名である。  
+
+【頻度】〈3/10〉  
+
+【レジスター/領域】バレエの専門用法。一般会話では通常「ソロ」「ソロ演目」と説明し、作品名やコンクールの演目を述べる場面で variation を使う。  
+
+【文法パターン】perform a variation＝ソロ演目を踊る／a classical ballet variation＝クラシック・バレエのソロ演目／a variation from 〈a ballet〉＝〈バレエ作品〉からのソロ演目／learn/rehearse a variation＝ソロ演目を習う・リハーサルする。  
+
+【コロケーション】
+
+・perform a variation  
+用途: バレエのソロ演目を舞台や審査で踊ることを表す。  
+例: The dancer performed her variation with controlled, precise movements.  
+訳: そのダンサーは抑制の効いた正確な動きでソロ演目を踊った。  
+
+・a classical ballet variation  
+用途: クラシック・バレエの定型的なソロ演目を指す。  
+例: She is preparing a classical ballet variation for the competition.  
+訳: 彼女はコンクールに向けてクラシック・バレエのソロ演目を準備している。  
+
+・a variation from 〈a ballet〉  
+用途: 特定のバレエ作品に含まれるソロ演目を示す。  
+例: He chose a variation from The Sleeping Beauty for the audition.  
+訳: 彼はオーディションに『眠れる森の美女』のソロ演目を選んだ。  
+
+・rehearse a variation  
+用途: 本番用のソロ演目を繰り返し練習することを表す。  
+例: The students rehearsed a variation from the ballet before class.  
+訳: 生徒たちは授業の前に、そのバレエ作品のソロ演目を練習した。  
+
+【語法・注意】この用法の variation は、演奏する曲ではなく踊る演目を指す。バレエ以外の一般的な一人の踊りを述べるなら solo または solo dance の方が広く使える。作品中の一場面全体ではなく、独舞として切り出された部分を指す点に注意する。  
+
+【類義語】
+
+・solo  
+定義: 一人で行う演奏・踊り・演技、またはその演目。  
+頻度: 〈8/10〉  
+違い: solo は一人で行うこと全般を表す。ballet の variation は、特定の作品・伝統に属する独舞の演目という専門性が加わる。  
+例: The dancer performed a solo at the end of the show.  
+訳: そのダンサーは公演の最後にソロを踊った。  
+
+6. 【名詞・可算／不可算・契約・法務】契約変更、契約変更事項
+
+【日本語訳・定義】契約締結後に、作業範囲・仕様・数量・価格・納期などの契約条件を変更すること、またはその変更内容を表す。契約書や適用法に定められた手続が問題となる専門用法で、合意・承認・記録を伴うことも多いが、必要な要件は契約・法域によって異なる。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】契約実務、調達、建設・プロジェクト管理などの専門用法。`variation`、`variation clause`、`variation order` の優勢な形は法域・契約類型によって異なるため、契約書の定義条項と適用法を確認する。  
+
+【文法パターン】a variation of/to 〈the contract〉＝契約の変更／a variation clause＝契約変更条項／a variation order＝契約・工事内容の変更指示／agree/approve/document a variation＝変更に合意する・承認する・記録する。  
+
+【コロケーション】
+
+・a variation to 〈the contract〉  
+用途: 既存契約の条件を正式に変更したこと、またはその変更事項を表す。`variation of the contract` も使われるが、前置詞と用法は法域・契約書によって異なる。  
+例: The parties signed a variation to the contract extending the delivery date.  
+訳: 当事者は納期を延長する契約変更書に署名した。  
+
+・a variation clause  
+用途: 契約条件を変更できる範囲と手続を定める条項を指す。  
+例: The contract includes a variation clause covering changes to the scope of work.  
+訳: その契約には作業範囲の変更を対象とする契約変更条項が含まれている。  
+
+・a variation order  
+用途: 特に建設・プロジェクト文脈で、追加・削除・変更する作業を正式に指示する文書や指示を表す。  
+例: The contractor submitted a variation order for the additional work.  
+訳: 請負業者は追加工事について変更指示書を提出した。  
+
+【語法・注意】この用法の variation は、単なる別案ではなく、既存契約を変更する正式な行為・変更事項を指す。`amendment` や `modification` と重なるが、`variation order` は工事・プロジェクトの変更指示を特に指しやすい。用語の優勢な形は法域や分野によって異なるため、契約書の定義条項と適用法を確認する。  
+
+【類義語】
+
+・amendment  
+定義: 契約・法律・文書の一部を正式に改めること、またはその改訂。  
+頻度: 〈7/10〉  
+違い: amendment は文書の改訂という側面を強調し、variation は契約条件や作業内容の変更事項・手続を表しやすい。  
+例: The amendment changed the reporting requirements.  
+訳: その改訂によって報告要件が変更された。  
+
+7. 【名詞句・不可算・航海・地球科学・測量】magnetic variation＝磁気偏角
+
+【日本語訳・定義】複合表現 `magnetic variation` は、地球上のある地点で真北と磁北がなす水平角、またはその方位差を表す。地域や時期によって異なるため、航海・測量・方位の補正で考慮される。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】航海、海図、地球科学、測量などの専門用法。`magnetic variation` は航海・海図で定着している一方、地球科学・測量では通常 `magnetic declination` が使われるなど、分野・地域・規格によって呼び方が異なる。  
+
+【文法パターン】magnetic variation＝磁気偏角／magnetic variation at 〈a location〉＝〈地点〉の磁気偏角／account for magnetic variation＝磁気偏角を考慮する。  
+
+【コロケーション】
+
+・magnetic variation  
+用途: 真北と磁北の方位差を、航海や測量で扱う専門表現。  
+例: Navigators must account for magnetic variation when plotting a course.  
+訳: 航海者は航路を設定する際に磁気偏角を考慮しなければならない。  
+
+【語法・注意】この用法は一般的な「変動」ではなく、真北に対する磁北の角度を指す。航海・海図では `magnetic variation` が伝統的・実務的に使われるが、地球科学・測量では `magnetic declination` が一般的な場合がある。両表現の優勢さは分野・地域・規格によって異なる。  
+
+【類義語】
+
+・magnetic declination  
+定義: 真北と磁北の方向の差、またはその角度。  
+頻度: 〈4/10〉  
+違い: magnetic declination は現在の地球科学・航海で一般的な用語で、magnetic variation は同じ概念を表す別称として使われる。  
+例: The chart gives the magnetic declination for the harbor.  
+訳: その海図はその港の磁気偏角を示している。
+
+---
+
+# controversial
+
+---
+headword: controversial
+type: word
+status: checked
+prompt_version: entry_spec_v5
+model: codex-gpt-5
+created_at: 2026-09-12
+updated_at: 2026-09-19
+checked: true
+tags: []
+---
+
+＃発音記号
+
+米: /ˌkɑːntrəˈvɝːʃəl/｜英: /ˌkɒntrəˈvɜːʃəl/。米英とも4音節で、第3音節の /vɝː/・/vɜː/ に主強勢がある。第1音節の /ˌkɑːn/・/ˌkɒn/ には副次強勢を示す。米語では /ˌkɑːntrəˈvɝːsiəl/ に近い5音節寄りの発音も聞かれるが、通常の学習上は /ˈvɝːʃəl/・/ˈvɜːʃəl/ の部分を基準にする。  
+
+＃語源
+
+16世紀後半に使われ始めた語で、後期ラテン語 controversialis「論争に関する」から来た。controversia「論争」は controversus「反対方向に向けられた、争われた」に関係し、contra-/contro-「反対に」と versus「向けられた、転じた」（vertere「向きを変える」の過去分詞）に分けて考えられる。初出年代は資料により1580年代、1583年、1575–85年など差があるため、特定の年として暗記しない。  
+
+＃語形成
+
+・controversy：名詞。「論争、論争点、物議」。controversial と同じ語族の中心語で、public controversy のように使う。  
+・controversially：副詞。「物議を醸す形で、論争を呼ぶことに」。文全体や発言・判断の仕方を修飾する。  
+・controversialist：名詞。「論争家、論争に加わる人」。硬めの語。  
+・controvert：動詞。「反論する、論駁する」。controversial と意味は近いが、現代英語では controversial の直接の活用形ではなく、別の動詞として扱う。  
+
+＃意味・用法・関連表現
+
+1. 【形容詞・限定用法／叙述用法・対象／人】論争を呼ぶ、賛否が分かれる、物議を醸す
+
+【日本語訳・定義】政策・決定・主張・作品・発言・人物などが、社会全体または特定の集団の中で、強い意見の対立、批判、反対を引き起こしている、または引き起こしやすいことを表す。事実として真偽が決まっていないことを必ずしも含まず、悪い、違法、意図的に挑発的だという意味でもない。  
+
+【頻度】〈9/10〉  
+
+【レジスター/領域】標準語で、会話・ニュース・政治・文化・学術・ビジネスの文章まで広く使う。controversial は単に「多くの人が反対している」という意味ではなく、論争や強い意見の対立を引き起こしている、または引き起こしやすいことを表す。  
+
+【文法パターン】be/become/remain/prove controversial＝論争を呼ぶ・論争の的であり続ける・結果的に物議を醸す／a controversial 〈issue・decision・policy・claim・statement・figure・book・film〉＝論争を呼ぶ〈問題・決定・政策・主張・発言・人物・本・映画〉／highly/widely controversial＝非常に／広く物議を醸す／controversial among/within 〈group〉＝〈集団〉の間で論争を呼ぶ／controversial in some circles＝一部の界隈では物議を醸す／it remains controversial whether ...＝…かどうかは依然として議論が分かれる／be controversial enough to do＝～するほど物議を醸す／too controversial to do＝物議を醸しすぎて～できない。  
+
+【コロケーション】
+
+・a controversial issue  
+用途: 社会的に賛否が対立している問題を指す。  
+例: The use of facial-recognition technology remains a controversial issue.  
+訳: 顔認証技術の利用は依然として論争を呼ぶ問題だ。  
+
+・a controversial decision  
+用途: 決定の妥当性や影響をめぐって強い反対・批判が出ていることを表す。  
+例: The committee made a controversial decision to cancel the exhibition.  
+訳: 委員会は展示会を中止するという物議を醸す決定を下した。  
+
+・a controversial figure  
+用途: 言動・立場・評価などをめぐって、強い意見の対立や論争を招く人物を指す。  
+例: The historian remains a controversial figure in the region.  
+訳: その歴史家はその地域で今も評価が大きく分かれる人物だ。  
+
+・a highly controversial proposal  
+用途: 提案に対して非常に強い賛否や反発が起きていることを強調する。  
+例: The city council postponed a highly controversial proposal.  
+訳: 市議会は非常に物議を醸している提案を延期した。  
+
+・controversial among 〈group〉  
+用途: どの集団の中で意見が割れているかを限定する。  
+例: The interpretation is controversial among constitutional scholars.  
+訳: その解釈は憲法学者の間で議論が分かれている。  
+
+・controversial in some circles  
+用途: 社会全体ではなく、特定の界隈で物議を醸していることを示す。  
+例: The advertising campaign is controversial in some circles but popular with younger viewers.  
+訳: その広告キャンペーンは一部では物議を醸しているが、若い視聴者には人気がある。  
+
+・it remains controversial whether ...  
+用途: 判断が現在も決着していないことを述べる。  
+例: It remains controversial whether the policy reduced inequality.  
+訳: その政策が格差を縮小したかどうかは、今も議論が分かれている。  
+
+・a controversial remark  
+用途: 発言が批判や反発を招く内容だったことを表す。  
+例: The minister's controversial remark drew criticism from both parties.  
+訳: 大臣の物議を醸す発言は両党から批判を招いた。  
+
+・become controversial after ...  
+用途: 当初は普通だった対象が、後から知られた事実や変化によって論争の的になることを表す。  
+例: The renovation plan became controversial after residents learned the full cost.  
+訳: 住民が総費用を知った後、その改修計画は物議を醸すようになった。  
+
+【語法・注意】対象を主語にした be controversial は「その対象が論争の的だ」という意味で、必ずしも対象自身が議論を仕掛けるわけではない。人物についても通常は「評価が割れている人物」の意味であり、「論争を好む人」という性向を言いたいときは語義2を確認する。highly は対立の強さ、widely は論争が広い範囲に及ぶことを示す。controversial を「間違った」「受け入れられない」と自動的に訳さず、何が誰の間で争われているかを among/within 句や文脈で補う。  
+
+【類義語】
+
+・contentious  
+定義: 議論や対立を引き起こしやすい、争点になっている。  
+頻度: 〈8/10〉  
+違い: contentious は問題・決定が争いを生みやすい性質や、当事者間の対立の強さに焦点があり、controversial より対立的に響くことがある。  
+例: The contentious issue delayed the negotiations for weeks.  
+訳: その対立を招く争点のために、交渉は何週間も遅れた。  
+
+・disputed  
+定義: 真偽・権利・解釈などが争われている、意見が一致していない。  
+頻度: 〈8/10〉  
+違い: disputed は「正しいか、誰のものかなどが争われている」という未確定性を強調し、controversial のような広い世論上の物議まで必ずしも含まない。  
+例: The map shows the disputed border in a different color.  
+訳: その地図は争われている国境を別の色で示している。  
+
+・debatable  
+定義: 議論の余地があり、結論を一つに決めにくい。  
+頻度: 〈7/10〉  
+違い: debatable は主張や判断の妥当性を論じられることに焦点があり、controversial より感情的な反発や大きな社会的対立を含まない場合が多い。  
+例: Whether the change improved efficiency is debatable.  
+訳: その変更が効率を高めたかどうかは議論の余地がある。  
+
+・polarizing  
+定義: 人々を賛成側と反対側へ大きく分断する。  
+頻度: 〈7/10〉  
+違い: polarizing は意見の対立を二極化させる効果を強調する。controversial は意見が割れていても、二つの陣営に明確に分かれるとは限らない。  
+例: The candidate's polarizing speech dominated the news cycle.  
+訳: その候補者の社会を二極化させる演説が報道を席巻した。  
+
+・provocative  
+定義: 強い反応や議論を意図的または効果として引き起こす、挑発的な。  
+頻度: 〈8/10〉  
+違い: provocative は発言者・作者が反応を誘う性質や意図に焦点がある。controversial は論争や強い意見の対立を引き起こしている、または引き起こしやすいことを表し、意図的な挑発を必須としない。  
+例: The artist is known for provocative questions about public memory.  
+訳: その芸術家は公共の記憶について挑発的な問いを投げかけることで知られている。  
+
+・divisive  
+定義: 人々や集団の間に深い対立を生じさせる、分断を招く。  
+頻度: 〈7/10〉  
+違い: divisive は社会的な分断や関係悪化という結果を強く示す。controversial は分断に至らず、単に議論や批判を招く場合にも使える。  
+例: The divisive reform split the professional association.  
+訳: その分断を招く改革は専門職団体を二分した。  
+
+・polemical  
+定義: 論争を仕掛ける、または論争的な主張を展開する。  
+頻度: 〈4/10〉  
+違い: polemical は文章・議論・論者の攻撃的な論争スタイルに寄りやすく、controversial より硬く、意図的な論争性を含みやすい。  
+例: The book adopts a polemical tone toward established theories.  
+訳: その本は確立した理論に対して論争的な調子を取っている。  
+
+【反意語】
+
+・uncontroversial  
+定義: 意見の強い対立や広い反発を招かない、異論の少ない。  
+頻度: 〈6/10〉  
+違い: controversial の直接的な反対語で、問題・判断・人物などについて大きな論争が起きていない状態を表す。  
+例: The committee reached an uncontroversial agreement on the timetable.  
+訳: 委員会は日程について異論の少ない合意に達した。  
+
+・noncontroversial  
+定義: 論争的でない、特に意見の対立を起こさない。  
+頻度: 〈5/10〉  
+違い: noncontroversial も直接的な反対語だが、uncontroversial より説明的・形式的に見えることがある。  
+例: The report limits itself to noncontroversial background facts.  
+訳: その報告書は論争のない背景事実に内容を限定している。  
+
+2. 【形容詞・人の性向・まれ】論争を好む、論争を引き起こしがちな、論争的な
+
+【日本語訳・定義】人が性格や態度の傾向として、議論を好んだり、既存の立場に反論して対立を生みやすかったりすることを表す。辞書に記載される低頻度の語義で、現代の controversial person は通常、語義1の「論争の的となっている人物」と解釈される。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】まれで、辞書的・形式的・文学的な説明に現れやすい。現代の一般的な文章で人の性向を表すなら argumentative、disputatious、polemical の方が意味を明確にしやすい。  
+
+【文法パターン】a controversial temperament＝論争を好む気質／a controversial manner＝対立を生みやすい態度／be controversial by temperament＝性向として論争的である／be controversial in debate＝議論で意図的に反論を重ねる。  
+
+【コロケーション】
+
+・a controversial temperament  
+用途: 人が性格的に議論や対立を好むことを、まれな形容詞用法で表す。  
+例: The columnist has a controversial temperament and treats every meeting as a public debate.  
+訳: そのコラムニストは論争を好む気質で、どの会議も公開討論のように扱う。  
+
+・a controversial manner  
+用途: 人が対立を招きやすい仕方で話したり振る舞ったりすることを表す。  
+例: Her controversial manner turned minor technical disagreements into public arguments.  
+訳: 彼女の対立を生みやすい態度は、ささいな技術上の意見の違いまで公の論争に変えた。  
+
+・be controversial by temperament  
+用途: 物議を醸す個別の行動ではなく、もともとの性向が論争的だと述べるまれな構文。  
+例: He was controversial by temperament, challenging even minor points in every debate.  
+訳: 彼は性向として論争的で、どの討論でもささいな点にまで反論した。  
+
+・be controversial in debate  
+用途: 議論の最中に、立場そのものよりも反論を重ねる性向が目立つことを表す。  
+例: The speaker was controversial in debate because he deliberately attacked each established position.  
+訳: その話者は確立した立場を一つ一つ意図的に攻撃したため、討論では論争的だった。  
+
+【語法・注意】この語義では controversial が人の性向を直接表すが、現代の「論争の的となる人物」という普通の解釈と形が同じなので、文脈で区別する必要がある。a controversial politician は通常語義1であり、気質を明示する temperament、manner、by temperament などがあって初めて語義2に近づく。意見が割れているだけなら語義1、本人が反論・対立を好むことまで言うなら語義2である。  
+
+【類義語】
+
+・disputatious  
+定義: 議論や口論を好む、論争好きな。  
+頻度: 〈4/10〉  
+違い: disputatious は人の性向そのものを表す明確な語で、controversial のまれな語義より自然に「口論好き」の意味を示す。  
+例: His disputatious nature made routine committee work exhausting.  
+訳: 彼の論争好きな性質のため、通常の委員会業務は疲れるものになった。  
+
+・argumentative  
+定義: すぐに反論する、議論好きな、口論を招く。  
+頻度: 〈7/10〉  
+違い: argumentative は日常的で、人が何にでも反論する傾向を表す。controversial より口論・反論の行動が前面に出る。  
+例: The child became argumentative whenever the rules were explained.  
+訳: その子は規則を説明されるといつも反論するようになった。  
+
+・polemical  
+定義: 論争を仕掛ける、攻撃的に論争する。  
+頻度: 〈4/10〉  
+違い: polemical は論者・文章・議論の意図的で攻撃的な論争性に焦点があり、controversial より文語的である。  
+例: The polemical writer challenged every compromise proposed by the panel.  
+訳: その論争的な筆者は、委員会が提案した妥協案すべてに異議を唱えた。  
+
+・contentious  
+定義: 対立的で、争いを引き起こしやすい。  
+頻度: 〈8/10〉  
+違い: contentious は人の態度にも使えるが、敵対的・喧嘩腰の含みが出やすい。controversial の語義2は、必ずしも敵意や攻撃性まで含まない。  
+例: The manager's contentious style made open discussion difficult.  
+訳: その管理職の対立的なスタイルは、率直な話し合いを難しくした。
+
+---
+
+# definite
+
+---
+headword: definite
+type: word
+status: checked
+prompt_version: entry_spec_v5
+model: codex-gpt-5
+created_at: 2026-09-19
+updated_at: 2026-09-19
+checked: true
+tags: []
+---
+
+＃発音記号
+
+米: /ˈdefənət/｜英: /ˈdefɪnət/。3音節で、第1音節に主強勢がある。米語では第2音節の母音を弱い /ə/、英語では /ɪ/ と示すことが多い。語末は /nət/ で、綴りの -ite を /eɪt/ と読まない。definitely は米 /ˈdefənətli/・英 /ˈdefɪnətli/ のように発音し、語尾の -ly が加わる。  
+
+＃語源
+
+definite は16世紀初頭の英語で「固定された、確かな」の意味で使われ、ラテン語 dēfīnītus「境界を定められた、限定された、確定した」から来た。これは dēfīnīre「限界を定める、決定する、説明する」の過去分詞で、de-「完全に」と finis「境界、終わり」に分けて考えられる。18世紀初頭には文法用語として「限定する」の意味でも使われた。define、finite、definition、definitive、indefinite は同じ語源の語族に属する。  
+
+＃語形成
+
+・definitely：副詞。「確実に、間違いなく、はっきりと」。話者の確信を表す文副詞としても、動詞・形容詞を強める副詞としても使う。  
+・definiteness：名詞。「明確さ、確定性、定性」。文法では名詞句の指示対象が特定可能である性質を表す。  
+・indefinite：接頭辞 in-「否定」を伴う関連形。「不確定な、漠然とした、定のない」。definite の単純な反意語になる用法と、文法用語としての用法がある。  
+・definitive：同じラテン語幹系統の形容詞。「決定的な、最終的な」。definite よりも最終判断・決着の含みが強く、単なる語尾違いとして置き換えない。  
+・define / definition：同じ語源にさかのぼる動詞・名詞。「境界を定める」「定義」。definite の直接の活用形ではないが、「曖昧さを境界づける」という意味のつながりがある。  
+
+＃コアイメージ
+
+definite の共通核は、「境界・同一性・判断を曖昧さから切り出し、はっきり固定する」ことである。何を固定するかによって、決定、観察上の明瞭さ、範囲や内容の限定、文法上の指示対象、植物の数や成長の上限へ広がる。  
+・判断や予定を曖昧さから切り出して固定する → 「確定した、決まった」（語義1）  
+・特徴や変化を観察上はっきり切り出す → 「明らかな、はっきりした」（語義2）  
+・範囲や内容を境界づけて固定する → 「具体的な、特定の」（語義3）  
+・指示対象を文脈上特定可能なものとして切り出す → 「定の、特定できる」（語義4）  
+・数や成長の上限を固定する → 「有限の、定数の」（語義5）  
+  
+＃意味・用法・関連表現
+
+1. 【形容詞・限定用法／叙述用法】確定した、決まった
+
+【日本語訳・定義】答え、決定、計画、日付、合意、意図などが、曖昧な候補や一時的な案ではなく、内容として定まり、変更される可能性が低いことを表す。必ずしも今後絶対に変更できないという意味ではなく、現時点で決定・約束・判断が明確になっていることに焦点がある。  
+
+【頻度】〈9/10〉  
+
+【レジスター/領域】標準語で、会話・ビジネス・報道・公式文書まで広く使う。計画や合意の確定性を述べるときに多く、日常会話では sure が話者の確信、definite が決定や内容の確定を表しやすい。ここでの頻度の数値はこの辞書内の学習上の相対目安で、10は日常・一般文書で頻出、1は限定的な専門用法を表す。特定領域内のコーパス頻度や厳密な語義間順位ではない。  
+
+【文法パターン】a definite answer/decision/plan/date/deadline＝確定した答え・決定・計画・日付・期限／a definite agreement/offer/commitment＝明確に成立した合意・正式な申し出・確約／have no definite plans/ideas＝決まった計画・具体的な考えがない／anything definite＝何か確定したこと・情報／nothing definite＝何も確定したことはない／be definite about something＝ある事柄について態度・内容を明確にする／a definite yes/no＝はっきりした賛成／拒否。  
+
+【コロケーション】
+
+・a definite answer  
+用途: 予想や曖昧な返事ではなく、決定した答えを求める。  
+例: We need a definite answer by Friday, not another tentative suggestion.  
+訳: 私たちは金曜日までに、また別の仮案ではなく確定した答えを必要としている。  
+
+・a definite date for 〈event〉  
+用途: 行事・開始・発売などの日付が決まっていることを表す。  
+例: The organizers have not announced a definite date for the launch.  
+訳: 主催者は発売の確定した日付をまだ発表していない。  
+
+・no definite plans  
+用途: 将来の予定がまだ決まっていないことを表す。  
+例: I have no definite plans for the weekend yet.  
+訳: 私は週末の具体的な予定をまだ決めていない。  
+
+・anything definite about something  
+用途: ある事柄について確定した情報があるかを尋ねる。  
+例: Do you know anything definite about when the train will leave?  
+訳: 列車がいつ出るかについて、何か確定した情報を知っていますか。  
+
+・a definite yes/no  
+用途: ためらいや条件付きではない、明確な肯定・拒否を表す。  
+例: Her reply was a definite no, so we stopped asking.  
+訳: 彼女の返事は明確な拒否だったので、私たちは尋ねるのをやめた。  
+
+・be definite about 〈decision/position〉  
+用途: 決定や立場を曖昧にせず、はっきり示す。  
+例: Please be definite about your position before the meeting begins.  
+訳: 会議が始まる前に、自分の立場を明確にしてください。  
+
+・a definite commitment to do  
+用途: ある行動を実行するという明確な確約を表す。  
+例: The grant requires a definite commitment to complete the project.  
+訳: その助成金には、プロジェクトを完了するという明確な確約が必要だ。  
+
+・a definite agreement  
+用途: 条件や内容が定まり、当事者間で成立した合意を表す。  
+例: No definite agreement had been reached by the end of the meeting.  
+訳: 会議の終了時までに、確定した合意は成立していなかった。  
+
+【語法・注意】certain は「真実だと確信している」「起こる可能性が高い」という話者の認識にも使えるが、definite は答え・計画・日付などの内容が決まっていることを強調しやすい。final は「それ以上変更しない最終段階」、firm は意思・態度の強さに焦点があるため、definite と完全には交換できない。`I have no definite plans.` は「将来の予定が一切ない」ではなく「決まった予定はない」という意味である。definite と definitely、definite と definitive を品詞や意味を考えずに置き換えない。綴りは definite であり、definate ではない。  
+
+【類義語】
+
+・certain  
+定義: 疑いがなく、確かだと判断される。  
+頻度: 〈10/10〉  
+違い: certain は事実・未来・話者の確信を広く表す。definite は答えや予定が決定済みで曖昧でないことを表しやすい。  
+例: I am certain that she will accept the offer.  
+訳: 彼女がその申し出を受けると私は確信している。  
+
+・settled  
+定義: 議論や検討の後に、決定・合意されている。  
+頻度: 〈8/10〉  
+違い: settled は未決の状態が終わったことに焦点があり、definite は決まった内容が明確であることに焦点がある。  
+例: The venue for the conference is now settled.  
+訳: 会議の会場は今や決まっている。  
+
+・firm  
+定義: 意思・約束・態度が強く、簡単には変わらない。  
+頻度: 〈9/10〉  
+違い: firm は人の決意や約束の強さを示し、definite は決定内容や情報の確定性を示す。  
+例: She made a firm promise to return the money.  
+訳: 彼女はそのお金を返すと固く約束した。  
+
+・fixed  
+定義: 位置・日時・数量などが変更されないように定められている。  
+頻度: 〈10/10〉  
+違い: fixed は変更不能・変更予定なしという状態を強く示し、definite は曖昧さが解消されていることを広く示す。  
+例: The shop has fixed opening hours.  
+訳: その店には固定された営業時間がある。  
+
+【反意語】
+
+・uncertain  
+定義: 確実でなく、結果や内容がまだ分からない。  
+頻度: 〈9/10〉  
+違い: uncertain は確定性の反対で、definite が決定・情報の明確さを示すのに対し、見通しや判断が定まらない。  
+例: The outcome remains uncertain.  
+訳: 結果は依然として不確かだ。  
+
+・tentative  
+定義: 仮のもので、後で変更される可能性がある。  
+頻度: 〈8/10〉  
+違い: tentative は計画・合意などが試案段階であることを示し、definite はそこから確定した段階を示す。  
+例: We made a tentative booking for next month.  
+訳: 私たちは来月について仮予約をした。  
+
+・undecided  
+定義: 選択・判断・決定がまだ行われていない。  
+頻度: 〈8/10〉  
+違い: undecided は決める主体や問題が未決定であること、definite は答えや立場が決まっていることを表す。  
+例: The committee is still undecided about the proposal.  
+訳: 委員会はその提案についてまだ決めていない。  
+
+・indefinite  
+定義: 明確な範囲・期間・内容が定まっていない。  
+頻度: 〈7/10〉  
+違い: indefinite は期間・数量・指示対象などの境界が不明確であることを表し、definite は境界が定まっていることを表す。  
+例: The project was postponed for an indefinite period.  
+訳: そのプロジェクトは無期限に延期された。  
+
+2. 【形容詞・限定用法／叙述用法】明らかな、はっきりした
+
+【日本語訳・定義】変化、差、効果、兆候、利点などが、観察や比較によって実際に認められるほど明瞭・顕著であることを表す。必ずしも論理的に証明済み、絶対に疑いがないという意味ではなく、話し手が変化や特徴をはっきり認識しているという評価を含むことがある。  
+
+【頻度】〈8/10〉  
+
+【レジスター/領域】標準語で、会話・報道・評価・ビジネス文書まで使える。clear や obvious よりやや説明的・形式的で、improvement、difference、effect、sign など、観察できる変化や結果を修飾することが多い。  
+
+【文法パターン】a definite improvement/change/difference＝明らかな改善・変化・違い／a definite sign/indication of something＝～の明らかな兆候・指標／have a definite effect/impact on something＝ある物事に明確な効果・影響を及ぼす／a definite advantage/disadvantage＝明確な利点・不利／a definite possibility＝現実味のある可能性／see/feel a definite difference＝はっきり違いを感じる。  
+
+【コロケーション】
+
+・a definite improvement  
+用途: 状態や成績が実際に良くなったと認められることを表す。  
+例: The new treatment produced a definite improvement in her symptoms.  
+訳: 新しい治療によって、彼女の症状には明らかな改善が見られた。  
+
+・a definite difference between 〈A〉 and 〈B〉  
+用途: 二つの対象の違いがはっきり認められることを表す。  
+例: There is a definite difference between the two versions of the report.  
+訳: その報告書の二つの版には明らかな違いがある。  
+
+・a definite sign of something  
+用途: ある状態や出来事を示す、見分けやすい兆候を表す。  
+例: A sudden drop in demand is a definite sign of weakening consumer confidence.  
+訳: 需要の急減は、消費者信頼感が弱まっている明らかな兆候だ。  
+
+・have a definite effect on something  
+用途: 行為・条件・政策などが、結果に明確な影響を与えることを表す。  
+例: Sleep has a definite effect on how well people remember new information.  
+訳: 睡眠は、人が新しい情報をどれだけよく覚えるかに明確な影響を及ぼす。  
+
+・a definite advantage  
+用途: 他と比べて認めやすい具体的な利点を強調する。  
+例: The shorter route offers a definite advantage during the winter.  
+訳: その短い経路は冬の間、明確な利点をもたらす。  
+
+・a definite possibility  
+用途: 単なる空想ではなく、現実に起こり得る可能性を表す。  
+例: A delay is a definite possibility if the storm continues.  
+訳: 嵐が続けば、遅延は十分に現実的な可能性だ。  
+
+・see a definite change in something  
+用途: 状態や傾向の変化を観察してはっきり認める。  
+例: We can see a definite change in customer behavior after the price increase.  
+訳: 値上げ後、顧客の行動に明らかな変化が見られる。  
+
+・with a definite sense of 〈emotion〉  
+用途: 特定の感情を明確に抱いていることを表す。  
+例: He left the room with a definite sense of relief.  
+訳: 彼は明確な安堵感を抱いて部屋を出た。  
+
+【語法・注意】この用法の definite は「証明された」と同義ではない。`a definite improvement` は改善がはっきり認められるという意味で、科学的な因果関係が完全に証明されたという意味ではない。`a definite possibility` は「確実に起こること」ではなく「現実味のある可能性」である。obvious は文脈や話者にとって明白と評価されること、clear は混乱や曖昧さがないこと、noticeable は知覚上目立つことを強調し、definite は変化・差・効果などを明確なものとして認めることに焦点がある。  
+
+【類義語】
+
+・clear  
+定義: 意味・事実・視界などに混乱や曖昧さがない。  
+頻度: 〈10/10〉  
+違い: clear は理解可能性や障害のなさを広く表す。definite は変化・差・効果などが明確に認められることを強調しやすい。  
+例: The instructions are clear and easy to follow.  
+訳: その指示は明確で、従いやすい。  
+
+・obvious  
+定義: 見たり考えたりすれば、すぐに分かる。  
+頻度: 〈10/10〉  
+違い: obvious は認識の容易さを強く示す。definite は明らかさを示すが、必ずしも誰にとっても自明とは限らない。  
+例: It was obvious that the machine had stopped working.  
+訳: その機械が動かなくなったことは明らかだった。  
+
+・noticeable  
+定義: 見たり感じたりして気づくことができる。  
+頻度: 〈8/10〉  
+違い: noticeable は知覚上の目立ちやすさに焦点がある。definite は目立つだけでなく、差や効果を明確なものとして評価する。  
+例: There was a noticeable drop in temperature overnight.  
+訳: 一晩で気温が目に見えて下がった。  
+
+・distinct  
+定義: ほかのものと区別できるほど特徴がはっきりしている。  
+頻度: 〈9/10〉  
+違い: distinct は境界や識別可能性を強調する。definite は結果・変化・効果が明確に認められることにも使う。  
+例: The two methods produce distinct results.  
+訳: その二つの方法は明確に異なる結果を生む。  
+
+・marked  
+定義: 程度や差が目立つほど顕著である。  
+頻度: 〈7/10〉  
+違い: marked は変化・差・改善の大きさを強く示し、definite はそこまで大きくなくても、存在が明確であることを表せる。  
+例: The report shows a marked reduction in waste.  
+訳: その報告書は廃棄物の顕著な削減を示している。  
+
+【反意語】
+
+・unclear  
+定義: 意味・原因・結果などがはっきりしない。  
+頻度: 〈9/10〉  
+違い: unclear は理解や判断の明瞭さの反対で、definite は観察・評価の対象が明らかであることを示す。  
+例: The cause of the failure is still unclear.  
+訳: 故障の原因はまだはっきりしない。  
+
+・indistinct  
+定義: 輪郭・音・違いなどがぼんやりして区別しにくい。  
+頻度: 〈6/10〉  
+違い: indistinct は知覚上の境界が弱いことを表し、definite は特徴や差が明瞭に取り出せることを表す。  
+例: The distant hills were indistinct in the fog.  
+訳: 遠くの丘は霧の中でぼんやりしていた。  
+
+・imperceptible  
+定義: 感覚や観察ではほとんど気づけない。  
+頻度: 〈5/10〉  
+違い: imperceptible は変化や差が知覚できないほど小さいことを示し、definite は明確に認められることを示す。  
+例: The change in pressure was almost imperceptible.  
+訳: 圧力の変化はほとんど知覚できなかった。  
+
+3. 【形容詞・限定用法】具体的な、特定の
+
+【日本語訳・定義】数量、期間、範囲、時点、形、情報などに明確な境界や内容があり、漠然としたものではないことを表す。特定の対象を指す場合でも、文脈上その対象を識別できるという文法上の意味とは異なり、ここでは内容・範囲・条件が具体的に定まっていることに焦点がある。  
+
+【頻度】〈7/10〉  
+
+【レジスター/領域】標準語。契約・行政・学術・技術文書では形式的な用法が現れ、数学では `definite integral` などの専門連語で使われる。specific は選び出された個別性、exact は数値や内容の厳密な一致、definite は範囲や条件が定まっていることを強調しやすい。  
+
+【文法パターン】a definite amount/number/quantity/period＝具体的な量・数・期間／at a definite time/stage＝特定の時点・段階で／within definite limits＝明確な範囲内で／definite information/details＝具体的な情報・詳細／a definite shape/form＝はっきり定まった形・形式／a definite integral＝定積分。  
+  
+【コロケーション】
+
+・a definite amount of 〈money/material〉  
+用途: 金額や物質の量が一定の範囲・数量として定まっていることを表す。  
+例: The machine requires a definite amount of oil to operate safely.  
+訳: その機械を安全に稼働させるには、一定量の油が必要だ。  
+
+・a definite number of 〈people/items〉  
+用途: 人数や個数が曖昧でなく、決まった数であることを表す。  
+例: Only a definite number of students can join the laboratory tour.  
+訳: 研究室見学には決まった人数の学生だけが参加できる。  
+
+・for a definite period  
+用途: 期間の終点または長さがあらかじめ定められていることを表す。  
+例: The equipment may be rented for a definite period of six months.  
+訳: その設備は6か月という定められた期間、借りることができる。  
+
+・within definite limits  
+用途: 許容範囲や境界を明確に限定する。  
+例: The temperature must remain within definite limits during transport.  
+訳: 輸送中、温度は明確に定められた範囲内に保たなければならない。  
+
+・definite information about 〈topic〉  
+用途: 内容が具体的で明確な情報を表し、文脈によっては確かな情報を含意する。  
+例: We need definite information about the delivery schedule before placing the order.  
+訳: 注文を出す前に、納入予定について具体的な情報が必要だ。  
+
+・a definite shape/form  
+用途: 輪郭や形式が一定で、別の形と区別できることを表す。  
+例: The crystals grow into a definite shape under controlled conditions.  
+訳: その結晶は、管理された条件下で一定の形に成長する。  
+
+・a definite integral  
+用途: 数学で、積分区間の上下端が指定された定積分を指す。  
+例: The area under the curve can be calculated with a definite integral.  
+訳: 曲線の下の面積は定積分で計算できる。  
+
+【語法・注意】`a definite amount` は「量が決まっている」ことを示すが、必ずしも聞き手がその数値を知っているとは限らない。`specific` は「その特定のもの」という選択に、`exact` は誤差のない数値・内容に焦点がある。`definite information` は具体的で明確な情報（文脈によっては確かな情報）、`definite plans` は決定済みの予定というように、名詞によって「具体的」と「確定した」のどちらが前面に出るかが変わる。`definite integral` は「確実な積分」ではなく、積分区間が定まった数学用語である。  
+
+【類義語】
+
+・specific  
+定義: ほかのものではなく、特定の対象・内容に関する。  
+頻度: 〈10/10〉  
+違い: specific は個別の対象を選び出すことを強調し、definite は数量・範囲・条件などが明確に定まっていることを強調する。  
+例: Please give me a specific example.  
+訳: 具体的な例を一つ挙げてください。  
+
+・precise  
+定義: 細部や数値が正確で、曖昧さがない。  
+頻度: 〈9/10〉  
+違い: precise は細かい正確さを要求する。definite は必ずしも数値の厳密さを求めず、境界や内容が決まっていることを示す。  
+例: The report provides precise measurements.  
+訳: その報告書は正確な測定値を示している。  
+
+・specified  
+定義: 条件・文書・規則などで明示的に指定されている。  
+頻度: 〈8/10〉  
+違い: specified は誰かが明示して指定したことに焦点があり、definite は指定の有無にかかわらず内容が定まっていることを表せる。  
+例: The work must be completed within the specified time.  
+訳: 作業は指定された時間内に完了しなければならない。  
+
+・determinate  
+定義: 限界・終点・結果が決まっている。  
+頻度: 〈5/10〉  
+違い: determinate は形式的・専門的で、数学・科学・哲学などで境界や結果の決定性を述べる。definite は一般語としてより広く使う。  
+例: The process has a determinate end point.  
+訳: その過程には明確に定まった終点がある。  
+
+・fixed  
+定義: 位置・数量・時期などが動かないように定められている。  
+頻度: 〈10/10〉  
+違い: fixed は変更されない状態を強く示し、definite は具体的に境界づけられた情報や範囲にも使う。  
+例: The fee is fixed for the entire contract period.  
+訳: 料金は契約期間全体を通じて固定されている。  
+
+【反意語】
+
+・indefinite  
+定義: 範囲・期間・数量・内容などが決まっていない。  
+頻度: 〈7/10〉  
+違い: indefinite は定まった境界がないことを直接表し、definite は範囲や条件が具体化されていることを表す。  
+例: The meeting was postponed for an indefinite period.  
+訳: 会議は無期限に延期された。  
+
+・unspecified  
+定義: 必要な内容や条件が明示されていない。  
+頻度: 〈7/10〉  
+違い: unspecified は情報が指定されていないことに焦点があり、definite は情報の境界や内容が明らかであることを表す。  
+例: The shipment was delayed for unspecified reasons.  
+訳: その発送は理由が明示されないまま遅れた。  
+
+・vague  
+定義: 表現・考え・範囲などがぼんやりして具体性に欠ける。  
+頻度: 〈9/10〉  
+違い: vague は内容の輪郭が弱いことを表し、definite は内容を具体的に切り出せることを表す。  
+例: His answer was too vague to be useful.  
+訳: 彼の答えは曖昧すぎて役に立たなかった。  
+
+・unlimited  
+定義: 数量・範囲・期間などに上限がない。  
+頻度: 〈8/10〉  
+違い: unlimited は上限の不存在を示し、definite は上限や範囲が定められていることを示す。ただし、definite が必ず有限量を意味するわけではない。  
+例: The plan offers unlimited data usage.  
+訳: そのプランはデータ通信を無制限で提供する。  
+  
+4. 【形容詞・文法用語】定の、特定できる
+
+【日本語訳・定義】文法で、名詞句の指示対象が、既出、状況上の唯一性、修飾語、共有知識などによって聞き手・読み手に特定可能であることを表す。英語では the が definite article「定冠詞」であり、対象が必ず世界に一つしかないこと、単数であること、以前に必ず言及されたことだけを意味するわけではない。  
+
+【頻度】〈7/10〉  
+
+【レジスター/領域】文法・言語学の用語。英語学習では the と a/an、無冠詞の使い分けを説明するときに頻出する。definite は「特定の」という一般語義にも近いが、文法では指示対象を同定できるという性質を指す。  
+
+【文法パターン】the definite article＝定冠詞 the／a definite noun phrase＝定名詞句／definite reference to 〈person/thing〉＝〈人・物〉を特定して指す定の指示／a definite description of 〈person/thing〉＝〈人・物〉を同定する確定記述／a definite referent＝特定可能な指示対象／a noun phrase is definite＝名詞句が定である。  
+
+【コロケーション】
+
+・the definite article  
+用途: 英語の the のように、聞き手・読み手が指示対象を特定できることを示す冠詞を指す。  
+例: In English, the is the definite article used before singular and plural noun phrases.  
+訳: 英語では the が、単数・複数の名詞句の前に使われる定冠詞である。  
+
+・a definite noun phrase  
+用途: 指示対象が文脈から特定可能な名詞句を指す。  
+例: In “the book on the desk,” the whole phrase is a definite noun phrase.  
+訳: 「机の上のその本」では、句全体が定名詞句である。  
+
+・definite reference to 〈person/thing〉  
+用途: 名詞句が、文脈上どの人物・物を指すか特定できる定の指示を表す。  
+例: In “the company’s earlier report,” the noun phrase has a definite reference in this context.  
+訳: 「その会社の以前の報告書」では、この文脈で名詞句の指示対象が特定できる。  
+
+・a definite description of 〈person/thing〉  
+用途: 固有名を使わず、記述によって指示対象を同定する表現を指す。  
+例: “The first person to arrive” is a definite description in this context.  
+訳: この文脈では、「最初に到着した人」は確定記述である。  
+
+・a definite referent  
+用途: 名詞句が指し示す、文脈上特定可能な対象を指す。  
+例: The plural noun phrase can still have a definite referent.  
+訳: 複数名詞句でも、指示対象を特定できる場合がある。  
+
+・definite and indefinite articles  
+用途: the と a/an のように、指示対象の特定可能性が異なる冠詞を対比する。  
+例: The lesson contrasts definite and indefinite articles in everyday sentences.  
+訳: その授業では、日常文における定冠詞と不定冠詞を対比している。  
+
+【語法・注意】文法上の definite は「前に一度出た名詞」に限られない。`the door` はその場に一つしかないドアを指せるし、`the book on the desk` は修飾語によってどの本か分かるため定になる。単数か複数か、可算か不可算かも決定条件ではなく、`the books`、`the water` も定になり得る。specific は「特定のものを意図している」という意味で、`a specific book` のように不定冠詞と共存できるが、specific だから文法上 definite になるわけではない。英語の the には、種類全体を述べる `The tiger is endangered.` のような総称的用法もあるため、definite と「唯一の個体」を機械的に同一視しない。  
+
+【類義語】
+
+・identified  
+定義: どの人物・物を指すかが分かっている、または特定されている。  
+頻度: 〈9/10〉  
+違い: identified は対象が同定されている状態を平易に述べる。definite は名詞句の文法的な指示性を表す用語である。  
+例: The identified object was removed from the scene.  
+訳: 特定された物体は現場から取り除かれた。  
+
+・determinate  
+定義: 境界・値・指示対象などが決まっている。  
+頻度: 〈5/10〉  
+違い: determinate は形式的・専門的で、definite は英語の冠詞や名詞句の性質を説明する標準用語である。  
+例: The expression has a determinate meaning in this context.  
+訳: その表現はこの文脈では明確に定まった意味を持つ。  
+
+・specific  
+定義: 一般的なものではなく、特定の人物・物・内容に関する。  
+頻度: 〈10/10〉  
+違い: specific は個別性を表す一般語で、文法上の definite と重なることはあるが、`a specific book` のように不定名詞句にも使える。  
+例: She was looking for a specific file.  
+訳: 彼女は特定のファイルを探していた。  
+
+【反意語】
+
+・indefinite  
+定義: 名詞句の指示対象が特定できない、または特定の一つとして提示されない。  
+頻度: 〈7/10〉  
+違い: 文法上の indefinite は definite の直接の反対で、英語の a/an や、文脈によっては無冠詞の名詞句に関係する。  
+例: “A book” is indefinite because the listener does not know which book is meant.  
+訳: 「ある本」は、どの本を指すか聞き手に分からないため不定である。  
+
+・unidentified  
+定義: どの人物・物であるかが特定されていない。  
+頻度: 〈8/10〉  
+違い: unidentified は現実の対象を同定できない状態を示し、definite は文法上の名詞句が対象を特定可能に提示する状態を示す。  
+例: An unidentified caller left a message.  
+訳: 身元不明の発信者がメッセージを残した。  
+
+・generic  
+定義: 個別の一つではなく、種類全体や一般的な概念に関する。  
+頻度: 〈7/10〉  
+違い: generic は指示の範囲が一般化されていることを表す。definite と対照できるが、英語では definite article が総称的に使われる場合もあるため、完全な形の反意語ではない。  
+例: “Dogs are social animals” has a generic reference.  
+訳: 「犬は社会的な動物だ」は総称的な指示を持つ。  
+
+5. 【形容詞・植物学】有限の、定数の
+
+【日本語訳・定義】植物学で、花器官の数が一定で、通常は20未満で花弁数の倍数になること、または花序の主軸が花で終わり成長に限りがあることを表す専門用法である。一般語の「確実な」ではなく、数や成長が定まっているという意味で、definite inflorescence は determinate／cymose inflorescence に当たる。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】植物学に限られる低頻度の専門語。一般の文章では通常この意味で解釈せず、専門文献で floral organs、stamens、inflorescence などと共に現れる。  
+
+【文法パターン】definite stamens＝数が一定の雄しべ／a definite inflorescence＝主軸が花で終わる有限花序／definite growth＝成長が一定の段階で止まる定限成長。  
+
+【コロケーション】
+
+・definite stamens  
+用途: 花弁数との関係で数が一定の雄しべを指す。  
+例: The species has definite stamens, usually in a fixed multiple of the number of petals.  
+訳: その種には、通常、花弁数の決まった倍数になる定数の雄しべがある。  
+
+・a definite inflorescence  
+用途: 主軸が花で終わり、伸長に限りがある有限花序を指す。  
+例: The plant develops a definite inflorescence in which the main axis ends in a flower.  
+訳: その植物は、主軸が花で終わる有限花序を形成する。  
+
+・definite growth  
+用途: 植物体や器官の成長が一定の段階で止まる定限成長を表す。  
+例: Definite growth is common in some compact flowering plants.  
+訳: 定限成長は、一部の小型の開花植物でよく見られる。  
+
+【語法・注意】この用法は一般英語の definite answer や definite plan とは別の専門的な意味である。`definite inflorescence` は花序の成長様式を指し、単に「明確な花序」という意味ではない。植物学では `indefinite` や `indeterminate` が、数や主軸の成長に固定された終点がない対照表現として使われる。  
+
+【類義語】
+
+・determinate  
+定義: 植物の成長・花序・器官の数などが一定の限界で決まる。  
+頻度: 〈4/10〉  
+違い: determinate はこの植物学上の意味でより一般的な専門語で、definite は同じ特徴を別の語彙で表す。  
+例: The plant produces a determinate inflorescence.  
+訳: その植物は有限花序を形成する。  
+
+・fixed-number  
+定義: 数が一定に定められている。  
+頻度: 〈2/10〉  
+違い: fixed-number は説明的な表現で、definite stamens の特徴を言い換えるが、単独の標準用語としての使用は限定的である。  
+例: The flower has a fixed number of stamens.  
+訳: その花には一定数の雄しべがある。  
+
+【反意語】
+
+・indefinite  
+定義: 数が一定でない、または花序の成長に固定された終点がない。  
+頻度: 〈3/10〉  
+違い: indefinite は definite stamens や definite inflorescence の反対側にある植物学用語で、器官数や成長の上限が定まらないことを示す。  
+例: An indefinite inflorescence can continue producing flowers along its main axis.  
+訳: 無限花序は主軸に沿って花を作り続けることがある。  
+
+・indeterminate  
+定義: 成長や結果の終点があらかじめ固定されていない。  
+頻度: 〈5/10〉  
+違い: indeterminate は植物学で definite／determinate と対立し、主軸の成長が花で終わらないことなどを表す。  
+例: The species shows indeterminate rather than definite growth.  
+訳: その種は定限成長ではなく不定成長を示す。
+
+---
+
+# appropriate
+
+---
+headword: appropriate
+type: word
+status: checked
+prompt_version: entry_spec_v5
+model: codex-gpt-5
+created_at: 2026-09-21
+updated_at: 2026-09-21
+checked: true
+tags: []
+---
+＃発音記号
+
+米: 形容詞 /əˈproʊpriət/｜動詞 /əˈproʊpriˌeɪt/；英: 形容詞 /əˈprəʊpriət/｜動詞 /əˈprəʊpriˌeɪt/。形容詞は語尾が /ət/、動詞は /eɪt/ で、品詞によって発音が変わる。  
+
+＃語源
+
+Late Middle English。ラテン語 appropriatus（appropriare「自分のものにする」の過去分詞）から。ad-「〜へ」と proprius「自分自身の・固有の」が背景にあり、「ある目的に合うものにする／自分のものとして取り分ける」という現代の意味につながる。  
+
+＃語形成
+
+・appropriately：適切に、ふさわしく。  
+・appropriateness：適切さ、妥当性。  
+・appropriation：割り当て・充当、または他者のものの無断取得。  
+・inappropriate：不適切な。  
+・misappropriate：横領する、目的外に流用する。  
+
+＃コアイメージ
+
+ある人・目的・状況に合うものとして整えるか、特定の目的または自分のものとして取り分ける。  
+
+＃意味・用法・関連表現
+
+1. 【形容詞・限定用法／叙述用法】特定の状況・目的・人に適していて、社会的にも許容される。
+
+【日本語訳・定義】状況・目的・年齢・相手などにふさわしい、適切な。  
+
+【頻度】〈9/10〉  
+
+【レジスター/領域】一般語。会話から公的・専門的な文章まで広く使う。  
+
+【文法パターン】appropriate for 〈purpose/person/situation〉／appropriate to 〈circumstances/age/needs〉／be, seem, consider, think appropriate／it is appropriate to do／it is appropriate that...  
+
+【コロケーション】
+
+・an appropriate response to 〈complaint/situation〉  
+用途: 苦情や状況に合う返答・対応を述べる。  
+例: The team chose an appropriate response to the complaint.  
+訳: チームはその苦情に対して適切な対応を選んだ。  
+
+・appropriate action in 〈circumstances〉  
+用途: その時点で取るべき適切な行動を述べる。  
+例: The manager took appropriate action after the safety report.  
+訳: 管理者は安全報告を受けて適切な措置を取った。  
+
+・appropriate measures for 〈problem/purpose〉  
+用途: 問題への対策や目的にかなう措置を述べる。  
+例: The school introduced appropriate measures to protect students.  
+訳: 学校は生徒を守るための適切な措置を導入した。  
+
+・an appropriate time to do 〈an action〉  
+用途: 何かをするのにふさわしい時期を述べる。  
+例: We will discuss the proposal at an appropriate time.  
+訳: 私たちは適切な時期にその提案を話し合う。  
+
+・appropriate for 〈children/age/needs〉  
+用途: 年齢や対象者にふさわしいことを述べる。  
+例: This material is appropriate for children over six.  
+訳: この教材は6歳を超える子どもに適している。  
+
+・appropriate to 〈context/occasion〉  
+用途: 文脈や場面に合っていることを述べる。  
+例: Her formal tone was appropriate to the occasion.  
+訳: 彼女の改まった口調はその場にふさわしかった。  
+
+【語法・注意】「正しい」と断定するより、特定の条件や場面に合っているという判断を表す。for は対象・目的、to は基準や状況との対応を示しやすい。  
+
+【類義語】
+
+・suitable  
+定義: 目的・条件・人に合っていて使える。  
+頻度: 〈9/10〉  
+違い: appropriate より広く、適合性・実用性に焦点を置く。  
+例: This room is suitable for small meetings.  
+訳: この部屋は小規模な会議に適している。  
+
+・proper  
+定義: 規則・基準・期待にかなっていて、正しいまたはふさわしい。  
+頻度: 〈9/10〉  
+違い: appropriate より規範や正式さを強く含むことがある。  
+例: Please use the proper form for your application.  
+訳: 申請には所定の正しい書式を使ってください。  
+
+・fitting  
+定義: 場面や人物に特によく合っている。  
+頻度: 〈6/10〉  
+違い: appropriate より、場面にぴったり合うという評価的な響きがある。  
+例: The tribute was a fitting end to the ceremony.  
+訳: その賛辞は式典の締めくくりにふさわしかった。  
+
+・apt  
+定義: 状況を的確に表す、または目的に合っている。  
+頻度: 〈5/10〉  
+違い: appropriate より硬く、表現・比喩・判断が的を射ている場合にも使う。  
+例: That is an apt comparison for the situation.  
+訳: それはその状況に的確な比較だ。  
+
+【反意語】
+
+・inappropriate  
+定義: 状況・目的・基準に合わず、ふさわしくない。  
+頻度: 〈8/10〉  
+違い: appropriate の直接の反意語で、社会的な不適切さにも使う。  
+例: His comment was inappropriate for the occasion.  
+訳: 彼の発言はその場にふさわしくなかった。  
+
+・unsuitable  
+定義: 目的・条件・人に合わず、使うのに適していない。  
+頻度: 〈6/10〉  
+違い: inappropriate より、実用上の不適合や条件不足に焦点を置きやすい。  
+例: The surface is unsuitable for outdoor use.  
+訳: その表面は屋外での使用には適していない。  
+
+2. 【動詞・他動詞／フォーマル】公的な権限で、金・予算・資源などを特定の目的のために割り当てる、充当する。
+
+【日本語訳・定義】公的な資金・資源を目的のために取り分ける、正式に割り当てる。  
+
+【頻度】〈4/10〉  
+
+【レジスター/領域】フォーマル。行政・法律・会計・政策の文脈で多い。  
+
+【文法パターン】appropriate money/funds/resources for 〈purpose〉／be appropriated for 〈purpose〉／Congress/the legislature appropriates 〈amount〉 for 〈purpose〉  
+
+【コロケーション】
+
+・appropriate funds for 〈research/project〉  
+用途: 研究や事業のために公的資金を正式に割り当てる。  
+例: The legislature appropriated funds for coastal research.  
+訳: 議会は沿岸研究のための資金を割り当てた。  
+
+・appropriate money for 〈public service〉  
+用途: 公共サービス向けに予算を充当する。  
+例: The city appropriated money for emergency housing.  
+訳: 市は緊急住宅のために予算を充当した。  
+
+・be appropriated for 〈a specific purpose〉  
+用途: 資金や資源が特定の目的に割り当てられていると述べる。  
+例: The grant was appropriated for environmental restoration.  
+訳: その助成金は環境の回復のために割り当てられた。  
+
+・appropriate resources to 〈program/agency〉  
+用途: 事業や機関に必要な資源を公的に配分する。  
+例: The committee appropriated resources to the health program.  
+訳: 委員会は保健事業に資源を配分した。  
+
+・appropriate a sum for 〈construction/maintenance〉  
+用途: 建設や維持管理に特定額を計上する。  
+例: The council appropriated a sum for bridge maintenance.  
+訳: 評議会は橋の維持管理のために一定額を計上した。  
+
+【語法・注意】公的機関などが目的を定めて予算や資源を取り分ける語。実際に支払う・使い切るという意味ではなく、無断で流用する語義3とは権限と目的の向きが異なる。  
+
+【類義語】
+
+・allocate  
+定義: 金・時間・資源などを特定の人や目的に配分する。  
+頻度: 〈8/10〉  
+違い: appropriate は公的権限による正式な割り当てを示しやすく、allocate はより広い配分に使う。  
+例: The department allocated more staff to the project.  
+訳: 部局はそのプロジェクトにより多くの職員を配分した。  
+
+・earmark  
+定義: 資金や資源を特定の目的のためにあらかじめ取り分ける。  
+頻度: 〈6/10〉  
+違い: appropriate より、用途をあらかじめ指定して確保する点に焦点がある。  
+例: The foundation earmarked money for local schools.  
+訳: 財団は地元の学校向けに資金を取り分けた。  
+
+・assign  
+定義: 仕事・役割・資源などを特定の対象に割り当てる。  
+頻度: 〈9/10〉  
+違い: appropriate の公的な予算配分より広く、人や任務の割り当てにも使う。  
+例: The office assigned additional funds to the training program.  
+訳: 事務所は研修事業に追加資金を割り当てた。  
+
+・budget  
+定義: 特定の目的のために金額を計上・配分する。  
+頻度: 〈7/10〉  
+違い: appropriate より日常的で、計画上の支出額を見積もる意味にも使う。  
+例: We budgeted enough money for repairs.  
+訳: 私たちは修理のために十分な金額を計上した。  
+
+【反意語】
+
+・withhold  
+定義: 与える、支出する、割り当てるはずのものを渡さずに保留する。  
+頻度: 〈6/10〉  
+違い: appropriate が目的のために取り分けるのに対し、withhold は提供や配分を止める。  
+例: The agency withheld funds until the audit was complete.  
+訳: その機関は監査が終わるまで資金の配分を保留した。  
+
+3. 【動詞・他動詞／フォーマル】所有権・利用権を自分のものとして取り込み、特に権限なく他者のもの・考え・資金などを使う。
+
+【日本語訳・定義】他者の考え・資金・土地などを無断で自分のものとして使う、取り込む。  
+
+【頻度】〈5/10〉  
+
+【レジスター/領域】フォーマル。批判・法律・文化・知的財産の文脈で多い。  
+
+【文法パターン】appropriate something from 〈person/source〉／appropriate someone's idea/words／appropriate funds for one's own use／be appropriated without permission  
+
+【コロケーション】
+
+・appropriate someone's idea  
+用途: 他人の考えや着想を自分のものとして使う。  
+例: The writer was accused of appropriating someone else's idea.  
+訳: その作家は他人の着想を無断で使ったと非難された。  
+
+・appropriate public land  
+用途: 公有地を自分の利用や所有のために取り込む。  
+例: The company tried to appropriate public land for private use.  
+訳: その会社は公有地を私的利用のために取り込もうとした。  
+
+・appropriate funds for one's own use  
+用途: 本来の目的の資金を私的に流用する。  
+例: The official appropriated public funds for his own use.  
+訳: その公務員は公金を自分のために流用した。  
+
+・be appropriated without permission  
+用途: 許可なく作品・資源・情報などが使われると述べる。  
+例: The photographs were appropriated without permission.  
+訳: その写真は無断で使用された。  
+
+・appropriate cultural material  
+用途: 文化的な表現や素材を、権利関係を無視して取り込む。  
+例: The campaign appropriated cultural material without consulting the community.  
+訳: そのキャンペーンは地域社会に相談せず文化的素材を取り込んだ。  
+
+【語法・注意】無断使用・横取りの含みが文脈から生じやすく、misappropriate は不正流用をより強く示す。公的な目的への正式な充当は語義2で、目的と権限の有無が境界になる。  
+
+【類義語】
+
+・misappropriate  
+定義: 金・資源・権利などを不正に使う、横領する。  
+頻度: 〈4/10〉  
+違い: appropriate よりも不正・違法な流用の含みが強く、資金に特によく使う。  
+例: The accountant misappropriated company funds.  
+訳: その会計担当者は会社の資金を横領した。  
+
+・seize  
+定義: 権力・強制力などで人や物をつかみ、占有する。  
+頻度: 〈7/10〉  
+違い: appropriate より、突然または強制的に奪い取る動作に焦点を置く。  
+例: Officials seized the goods at the border.  
+訳: 当局は国境でその商品を押収した。  
+
+・plagiarize  
+定義: 他人の文章・考え・作品を自分のものとして発表する。  
+頻度: 〈5/10〉  
+違い: appropriate のうち、知的成果の無断利用に限定される。  
+例: The student plagiarized material from an online article.  
+訳: その学生はオンライン記事の内容を盗用した。  
+
+・usurp  
+定義: 権利・地位・権力を不法に奪い取る。  
+頻度: 〈4/10〉  
+違い: appropriate より、正当な権利や地位を押しのけて奪う含みが強い。  
+例: The rival tried to usurp the leader's authority.  
+訳: その対立者は指導者の権限を奪おうとした。  
+
+【反意語】
+
+・relinquish  
+定義: 所有・権利・支配などを手放し、他者に渡す。  
+頻度: 〈5/10〉  
+違い: appropriate が他者のものを取り込むのに対し、relinquish は自分の権利や占有を手放す。  
+例: The company agreed to relinquish control of the land.  
+訳: その会社は土地の支配権を手放すことに同意した。
+
+---
+
+# tentative
+
+---
+headword: tentative
+type: word
+status: checked
+prompt_version: entry_spec_v5
+model: codex-gpt-5
+created_at: 2026-09-21
+updated_at: 2026-09-21
+checked: true
+tags: []
+---
+
+＃発音記号
+
+米・英: /ˈtentətɪv/。3音節で、第1音節の /ˈten/ に主強勢がある。第2音節は弱い /tə/、語末は /tɪv/ と発音する。tentatively は /ˈtentətɪvli/、tentativeness は /ˈtentətɪvnəs/ のように、派生語でも第1音節の強勢を保つ。  
+
+＃語源
+
+16世紀後半に使われ始めた語で、中世ラテン語 tentativus「試みる性質の、試験的な、暫定的な」から来た。これはラテン語 tentare／temptare「触れて確かめる、試す、試みる」に由来する。「まず試してみる段階」という意味から、まだ十分に固まっていない「暫定的な」と、試みる人の「自信のない、ためらいがちな」へ意味が広がった。attempt、tempt、tentatively、tentativeness は同じラテン語の語族に関係するが、tentative の単純な活用形ではない。  
+
+＃語形成
+
+・tentatively：副詞。「暫定的に、仮に」または「ためらいがちに、自信なさそうに」。修飾する内容によって2つの形容詞義に対応する。  
+・tentativeness：名詞。「暫定性、未確定性」または「ためらい、自信のなさ」。通常は不可算名詞で、性質や態度を表す。  
+・tentative：名詞転用。「暫定的なもの、仮の項目」。まれで、予約・契約・日程などが確定する前の業務上の項目を指すことがある。  
+・attempt／tempt：同じラテン語 tentare／temptare にさかのぼる関連語。attempt は「試み」、tempt は現代英語で主に「誘惑する」を表し、tentative の派生語ではない。  
+
+＃コアイメージ
+
+tentative の共通核は、「まだ確定させず、試しに触れている段階」である。計画や判断なら後で変更され得る「暫定性」、行動や表情なら確信を持たず慎重に踏み出す「ためらい」として現れる。  
+・内容を試しに置き、後で変えられる状態 → 「暫定的な、仮の」（語義1）  
+・行動を試しに行い、確信を持てない様子 → 「ためらいがちな、自信のない」（語義2）  
+・確定前の項目を業務上の仮登録として扱う → 「暫定案、仮の項目」（語義3）  
+
+＃意味・用法・関連表現
+
+1. 【形容詞・限定用法／叙述用法】暫定的な、仮の、まだ確定していない
+
+【日本語訳・定義】計画、日程、合意、結論、説明、提案、識別などが、現時点では候補として置かれているものの、検討・交渉・確認が終わっておらず、後で変更または撤回される可能性があることを表す。単に「一時的」という期間の短さではなく、内容の確定性がまだ低いことに焦点がある。  
+
+【頻度】〈9/10〉  
+
+【レジスター/領域】標準語で、会話・報道・ビジネス・学術・交渉まで広く使う。特に plan、date、schedule、arrangement、agreement、conclusion、explanation、identification など、後から確認や調整が入り得る名詞と結びつく。  
+
+【文法パターン】a tentative 〈plan/date/schedule/arrangement/agreement〉＝暫定的な〈計画・日付・予定・取り決め・合意〉／tentative conclusions/findings＝予備的な結論・調査結果／a tentative explanation/identification＝暫定的な説明・仮の同定／make/reach/announce a tentative decision＝暫定的な決定をする・出す／be tentative about 〈the date/details〉＝〈日付・詳細〉がまだ確定していない／tentative plans to do＝～する暫定的な計画／tentatively agree/approve/identify＝暫定的に合意する・承認する・特定する。  
+
+【コロケーション】
+
+・tentative plans for 〈event/activity〉  
+用途: 予定はあるが、内容や日時がまだ変わる可能性があることを表す。  
+例: We have tentative plans for a short trip in October.  
+訳: 私たちは10月に短い旅行をする仮の予定がある。  
+
+・a tentative date for 〈event〉  
+用途: 会議・発売・開始などの日付を候補として置く。  
+例: The organizers set a tentative date for the conference in early May.  
+訳: 主催者は会議の開催日を5月初旬の仮の日付として設定した。  
+
+・a tentative schedule  
+用途: 今後の調整で変更され得る予定表を指す。  
+例: The airline released a tentative schedule for the new route.  
+訳: その航空会社は新路線の暫定的な運航予定を公表した。  
+
+・a tentative agreement/deal  
+用途: 当事者が大筋で合意したが、最終承認や正式契約がまだ済んでいない状態を表す。  
+例: The two sides reached a tentative agreement after three days of talks.  
+訳: 両者は3日間の協議の後、暫定合意に達した。  
+
+・tentative conclusions/findings  
+用途: 調査や分析の途中で得られ、追加の確認で修正され得る結論・結果を表す。  
+例: The researchers presented their tentative findings at the workshop.  
+訳: 研究者たちはワークショップで予備的な研究結果を発表した。  
+
+・a tentative explanation for 〈phenomenon/problem〉  
+用途: 現象や問題を説明する仮説を、確定的な説明としてではなく提示する。  
+例: The team offered a tentative explanation for the sudden drop in demand.  
+訳: チームは需要が急減したことについて暫定的な説明を示した。  
+
+・a tentative identification of 〈person/object〉  
+用途: 証拠が十分でなく、現段階での仮の同定であることを示す。  
+例: The police made a tentative identification of the vehicle from the video.  
+訳: 警察は映像からその車両を暫定的に特定した。  
+
+・tentatively approve/accept/identify something  
+用途: 承認・受諾・特定を行うが、最終確認や条件の充足を残していることを表す。  
+例: The board tentatively approved the budget pending a legal review.  
+訳: 取締役会は法務審査を条件として、その予算を暫定承認した。  
+
+【語法・注意】tentative は「その場しのぎの」「短期間の」と同義ではない。`a tentative date` は期間が短い日付ではなく、まだ変更され得る候補日である。`a tentative agreement` も正式な契約・最終合意とは限らず、`final`、`confirmed`、`settled` などで確定段階を示す。`uncertain` は結果や真偽が不確かなことを広く表すのに対し、tentative は計画・判断などをいったん置いているが確定させていないことに焦点がある。`preliminary` は作業・調査の初期段階であること、`provisional` は正式なものに代わる仮の状態であることを強調しやすい。  
+
+【類義語】
+
+・provisional  
+定義: 正式なものが決まるまで、暫定的に使われる。  
+頻度: 〈7/10〉  
+違い: provisional は正式な決定・制度・地位の代替として置かれることを強調し、tentative は内容がまだ固まっておらず変更され得ることを広く示す。  
+例: The committee issued a provisional approval while the documents were being checked.  
+訳: 委員会は書類を確認している間、暫定承認を出した。  
+
+・preliminary  
+定義: 本格的な検討や最終段階の前に行われる、初期段階の。  
+頻度: 〈8/10〉  
+違い: preliminary は時期・段階が早いことに焦点があり、tentative はその結論や計画がまだ確定していないことに焦点がある。  
+例: The report contains preliminary results from the first experiment.  
+訳: その報告書には最初の実験の予備結果が含まれている。  
+
+・conditional  
+定義: 特定の条件が満たされる場合にだけ成立する。  
+頻度: 〈8/10〉  
+違い: conditional は変更の理由となる条件を明示する語で、tentative は条件を示さなくても、現段階で確定していないことを表せる。  
+例: The offer is conditional on approval from the lender.  
+訳: その申し出は貸し手の承認を条件としている。  
+
+・unconfirmed  
+定義: 正式な確認や裏付けがまだ得られていない。  
+頻度: 〈7/10〉  
+違い: unconfirmed は情報の確認状態に焦点があり、tentative は情報だけでなく計画・合意・結論を仮置きする場合にも使う。  
+例: The report was based on an unconfirmed account of the incident.  
+訳: その報告書は、その出来事についてまだ確認されていない説明に基づいていた。  
+
+【反意語】
+
+・definite  
+定義: 内容や予定が明確に決まっていて、曖昧さが少ない。  
+頻度: 〈9/10〉  
+違い: definite は tentative の「未確定」に対する直接的な反対側を示す。  
+例: We need a definite answer before we book the venue.  
+訳: 会場を予約する前に、確定した返事が必要だ。  
+
+・confirmed  
+定義: 確認や承認によって、正しいもの・正式なものとして確定している。  
+頻度: 〈9/10〉  
+違い: confirmed は確認手続きが済んだことに焦点があり、tentative はその手続きの前段階を示す。  
+例: The confirmed departure time is shown on your ticket.  
+訳: 確定した出発時刻はチケットに表示されている。  
+
+・final  
+定義: それ以上の変更・検討を予定しない最終的な。  
+頻度: 〈10/10〉  
+違い: final は変更を終えた段階、tentative は変更の余地を残した段階を表す。  
+例: The final schedule will be sent to all participants tomorrow.  
+訳: 最終日程は明日、参加者全員に送られる。  
+
+2. 【形容詞・限定用法／叙述用法】ためらいがちな、自信のない、慎重な
+
+【日本語訳・定義】人の行動、声、表情、返答、提案などが、確信や自信を十分に示さず、様子をうかがいながら慎重に行われることを表す。単に静か・弱いという意味ではなく、失敗や拒否を恐れている、またはまだ慣れていないような不確かさが表れやすい。  
+
+【頻度】〈8/10〉  
+
+【レジスター/領域】標準語で、会話・描写・物語・心理描写・対人場面に広く使う。smile、voice、answer、reply、greeting、knock、step、attempt、gesture など、意志や動作の現れ方を表す語と結びつく。  
+
+【文法パターン】a tentative 〈smile/voice/answer/reply〉＝ためらいがちな〈笑顔・声・返答〉／take tentative steps＝おそるおそる歩み出す・初めの一歩を踏み出す／make a tentative attempt/gesture＝慎重な試み・身振りをする／be tentative about 〈doing something〉＝～することにためらいがある／sound/look/seem tentative＝声・様子が自信なさそうに聞こえる・見える／tentatively ask/suggest/reply＝ためらいながら尋ねる・提案する・返答する。  
+
+【コロケーション】
+
+・a tentative smile  
+用途: 相手の反応をうかがうような、確信のない笑顔を表す。  
+例: She gave him a tentative smile before entering the unfamiliar room.  
+訳: 彼女は見慣れない部屋に入る前、彼にためらいがちな笑顔を向けた。  
+
+・a tentative answer/reply  
+用途: 答えを断定せず、自信がないまま返すことを表す。  
+例: He gave a tentative answer because he had not checked the figures.  
+訳: 彼は数字を確認していなかったので、自信のない返答をした。  
+
+・a tentative voice/tone  
+用途: 声や口調にためらい・不確かさが表れていることを表す。  
+例: “Perhaps we should wait,” she said in a tentative voice.  
+訳: 「待ったほうがよいかもしれません」と、彼女はためらいがちな声で言った。  
+
+・a tentative knock on 〈door〉  
+用途: 在室や反応を確かめるように、強く決め込まずノックすることを表す。  
+例: There was a tentative knock on the office door.  
+訳: オフィスのドアをおそるおそるノックする音がした。  
+
+・take tentative steps towards 〈goal/change〉  
+用途: 目標や変化に向けて、確信はないが最初の行動を始めることを表す。  
+例: The company is taking tentative steps toward reducing its use of plastic.  
+訳: その会社はプラスチックの使用を減らすための最初の一歩を慎重に踏み出している。  
+
+・make a tentative attempt to do something  
+用途: 成功の確信はないが、試しに行動を起こすことを表す。  
+例: The child made a tentative attempt to join the other players.  
+訳: その子どもは、ほかの遊び仲間に加わろうとおそるおそる試みた。  
+
+・be tentative about 〈doing something〉  
+用途: 何かをすることに自信がなく、決めかねている状態を表す。  
+例: She was tentative about speaking up in front of the whole team.  
+訳: 彼女はチーム全員の前で発言することをためらっていた。  
+
+・tentatively suggest/ask something  
+用途: 相手の反応を見ながら、強く主張せずに提案・質問することを表す。  
+例: He tentatively suggested moving the meeting to Friday.  
+訳: 彼は会議を金曜日に移してはどうかと、ためらいがちに提案した。  
+
+【語法・注意】この意味の tentative は、計画が未確定という語義1と異なり、行為者の態度や動作の仕方を描写する。`a tentative smile` は「仮の笑顔」ではなく、相手の反応を確かめるような笑顔である。`hesitant` は決断・発言・行動をためらうことを直接表す最も近い語、`cautious` は危険や失敗を避けるための用心深さを表し、必ずしも自信のなさを含まない。`tentative steps` は文字どおり歩く場合も、計画・改革への初期行動を比喩的に表す場合もある。  
+
+【類義語】
+
+・hesitant  
+定義: 決めたり行動したりすることをためらっている。  
+頻度: 〈9/10〉  
+違い: hesitant は意思決定や行動を進められないためらいを直接示し、tentative は声・表情・動作が自信なさそうに現れる様子まで表せる。  
+例: She was hesitant to raise the issue during the meeting.  
+訳: 彼女は会議中にその問題を持ち出すのをためらった。  
+
+・uncertain  
+定義: 自分の判断・答え・行動に確信がない。  
+頻度: 〈9/10〉  
+違い: uncertain は認識や判断の不確かさを広く表し、tentative はその不確かさが行動・発言・表情に現れていることを描きやすい。  
+例: He sounded uncertain when asked about the cause.  
+訳: 原因を尋ねられたとき、彼は自信がなさそうに聞こえた。  
+
+・cautious  
+定義: 危険・損失・誤りを避けるために用心深い。  
+頻度: 〈9/10〉  
+違い: cautious はリスク管理の意識を含むが、tentative は必ずしも危険を評価しているとは限らず、自信のなさや慣れていない感じを示す。  
+例: The manager took a cautious approach to the unfamiliar market.  
+訳: その管理者は未知の市場に慎重な姿勢で臨んだ。  
+
+・faltering  
+定義: 力強さや流暢さを欠き、途中で弱まったりつまずいたりする。  
+頻度: 〈6/10〉  
+違い: faltering は声・歩み・進行が不安定で途切れがちな結果に焦点があり、tentative は最初から確信を持てず慎重に行う態度に焦点がある。  
+例: His faltering voice revealed how nervous he was.  
+訳: 彼の途切れがちな声から、彼がどれほど緊張していたかが分かった。  
+
+【反意語】
+
+・confident  
+定義: 自分の能力・判断・発言に確信を持っている。  
+頻度: 〈10/10〉  
+違い: confident は tentative の「自信のない態度」に対する直接的な反対を表す。  
+例: She gave a confident answer to the difficult question.  
+訳: 彼女はその難しい質問に自信を持って答えた。  
+
+・assured  
+定義: 落ち着きと自信があり、確実そうに見える。  
+頻度: 〈7/10〉  
+違い: assured は態度・話し方・演技などに表れる落ち着いた自信を強調し、confident より改まった響きがある。  
+例: The speaker adopted an assured tone from the beginning.  
+訳: その話し手は最初から自信に満ちた口調を取った。  
+
+・decisive  
+定義: 迷わず判断し、行動をはっきり決める。  
+頻度: 〈8/10〉  
+違い: decisive は決断や行動の速さ・明確さに焦点があり、tentative は決めかねながら慎重に進めることを表す。  
+例: The director took decisive action when the system failed.  
+訳: システムが停止したとき、部長は断固たる行動を取った。  
+
+3. 【名詞・可算／まれ・業務用語】暫定案、仮の項目
+
+【日本語訳・定義】予約、契約、日程、出演枠などについて、正式な確定や契約が済む前に、仮のものとして記録・扱われる項目を表す。一般会話で広く使う名詞ではなく、複数形 tentatives を含む業務上・事務上の文脈で見られる低頻度用法である。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】低頻度。イベント予約、放送・興行、契約管理など、仮押さえや契約待ちの項目を区別する実務的な文脈に限られやすい。通常は a tentative booking、a tentative date、a tentative arrangement のように形容詞として言うほうが自然である。  
+
+【文法パターン】a tentative＝1件の暫定項目／tentatives＝複数の暫定項目／list/hold/book dates as tentatives＝日程を暫定項目として一覧化・仮押さえする。  
+
+【コロケーション】
+
+・list the dates as tentatives  
+用途: 契約や正式確認が済んでいない日程を仮の枠として記録する。  
+例: The theater listed the autumn dates as tentatives while it waited for the contracts.  
+訳: その劇場は契約を待つ間、秋の日程を暫定枠として記録した。  
+
+・hold a date as a tentative  
+用途: 日程を正式決定前の仮押さえとして扱う。  
+例: The producer asked us to hold the date as a tentative until Friday.  
+訳: プロデューサーは、金曜日まではその日を仮押さえとしておくよう私たちに頼んだ。  
+
+【語法・注意】この名詞用法は一般的な「仮のもの」の言い換えとして自由に使う語ではない。通常の文章では `a tentative plan`、`a tentative booking` のように形容詞用法を選ぶ。名詞の tentative が必要かどうかは業界の慣行によって異なり、読者に伝わりにくい場合は provisional item、pending booking など具体的な表現で言い換える。  
+
+【類義語】
+
+・provisional item  
+定義: 正式決定まで仮のものとして記録・管理される項目。  
+頻度: 〈3/10〉  
+違い: provisional item は意味を明示する説明的な句で、名詞 tentative の業務上の用法を平易に言い換える。tentative より自然に伝わりやすいが、特定業界の固定用語とは限らない。  
+例: The spreadsheet marks each provisional item in gray until the contract is signed.  
+訳: その表計算シートでは、契約が締結されるまで各暫定項目を灰色で示している。  
+
+・pending booking  
+定義: 確定や支払いなどを待っている仮予約。  
+頻度: 〈4/10〉  
+違い: pending booking は予約に意味を限定し、保留中であることを直接示す。tentative は予約以外の日程・契約項目にも使える。  
+例: We kept the pending booking separate from the confirmed reservations.  
+訳: 私たちは保留中の仮予約を、確定済みの予約とは別にしておいた。

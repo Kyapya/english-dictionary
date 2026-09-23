@@ -1,0 +1,454 @@
+{
+  "schema_version": "antonym_axis_alignment_key_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "81a1d26c2b696bfd6afeee63cc863b8e3f8bcfbe0e9dd5fde1a124523d5379c5",
+  "blind_request_sha256": "a8571c606a5b65fde1bda9ca43c3af9db0eda2c0023b6c6059b42b9173c7c8c6",
+  "shuffle_seed": "20260912T015542Z-872034dc",
+  "items": [
+    {
+      "source_item_id": "antonym:001",
+      "sense_id": "sense:001",
+      "headword": "controversial",
+      "sense_definition": "【日本語訳・定義】政策・決定・主張・作品・発言・人物などが、社会全体または特定の集団の中で、強い意見の対立、批判、反対を引き起こしていることを表す。事実として真偽が決まっていないことを必ずしも含まず、悪い、違法、意図的に挑発的だという意味でもない。",
+      "antonym": "uncontroversial",
+      "antonym_definition": "定義: 意見の強い対立や広い反発を招かない、異論の少ない。",
+      "anchor": {
+        "section": "lexical_relations",
+        "line_start": 142,
+        "line_end": 142,
+        "exact_quote": "・uncontroversial  "
+      },
+      "difference_anchor": {
+        "section": "lexical_relations",
+        "line_start": 145,
+        "line_end": 145,
+        "exact_quote": "違い: controversial の直接的な反対語で、問題・判断・人物などについて大きな論争が起きていない状態を表す。  "
+      },
+      "item_id": "ant-9155f1ca66db"
+    },
+    {
+      "source_item_id": "antonym:002",
+      "sense_id": "sense:001",
+      "headword": "controversial",
+      "sense_definition": "【日本語訳・定義】政策・決定・主張・作品・発言・人物などが、社会全体または特定の集団の中で、強い意見の対立、批判、反対を引き起こしていることを表す。事実として真偽が決まっていないことを必ずしも含まず、悪い、違法、意図的に挑発的だという意味でもない。",
+      "antonym": "noncontroversial",
+      "antonym_definition": "定義: 論争的でない、特に意見の対立を起こさない。",
+      "anchor": {
+        "section": "lexical_relations",
+        "line_start": 149,
+        "line_end": 149,
+        "exact_quote": "・noncontroversial  "
+      },
+      "difference_anchor": {
+        "section": "lexical_relations",
+        "line_start": 152,
+        "line_end": 152,
+        "exact_quote": "違い: noncontroversial も直接的な反対語だが、uncontroversial より説明的・形式的に見えることがある。  "
+      },
+      "item_id": "ant-5e1d39a9d098"
+    }
+  ],
+  "senses": [
+    {
+      "sense_id": "sense:001",
+      "full_sense": [
+        {
+          "line": 30,
+          "text": "1. 【形容詞・限定用法／叙述用法・対象／人】論争を呼ぶ、賛否が分かれる、物議を醸す"
+        },
+        {
+          "line": 32,
+          "text": "【日本語訳・定義】政策・決定・主張・作品・発言・人物などが、社会全体または特定の集団の中で、強い意見の対立、批判、反対を引き起こしていることを表す。事実として真偽が決まっていないことを必ずしも含まず、悪い、違法、意図的に挑発的だという意味でもない。  "
+        },
+        {
+          "line": 34,
+          "text": "【頻度】〈9/10〉  "
+        },
+        {
+          "line": 36,
+          "text": "【レジスター/領域】標準語で、会話・ニュース・政治・文化・学術・ビジネスの文章まで広く使う。controversial は「多くの人が反対している」と同じではなく、賛成・反対の議論が強く起きている状態を指す。  "
+        },
+        {
+          "line": 38,
+          "text": "【文法パターン】be/become/remain/prove controversial＝論争を呼ぶ・論争の的であり続ける・結果的に物議を醸す／a controversial 〈issue・decision・policy・claim・statement・figure・book・film〉＝論争を呼ぶ〈問題・決定・政策・主張・発言・人物・本・映画〉／highly/widely controversial＝非常に／広く物議を醸す／controversial among/within 〈group〉＝〈集団〉の間で論争を呼ぶ／controversial in some circles＝一部の界隈では物議を醸す／it remains controversial whether ...＝…かどうかは依然として議論が分かれる／be controversial enough to do＝～するほど物議を醸す／too controversial to do＝物議を醸しすぎて～できない。  "
+        },
+        {
+          "line": 40,
+          "text": "【コロケーション】"
+        },
+        {
+          "line": 42,
+          "text": "・a controversial issue  "
+        },
+        {
+          "line": 43,
+          "text": "用途: 社会的に賛否が対立している問題を指す。  "
+        },
+        {
+          "line": 44,
+          "text": "例: The use of facial-recognition technology remains a controversial issue.  "
+        },
+        {
+          "line": 45,
+          "text": "訳: 顔認証技術の利用は依然として論争を呼ぶ問題だ。  "
+        },
+        {
+          "line": 47,
+          "text": "・a controversial decision  "
+        },
+        {
+          "line": 48,
+          "text": "用途: 決定の妥当性や影響をめぐって強い反対・批判が出ていることを表す。  "
+        },
+        {
+          "line": 49,
+          "text": "例: The committee made a controversial decision to cancel the exhibition.  "
+        },
+        {
+          "line": 50,
+          "text": "訳: 委員会は展示会を中止するという物議を醸す決定を下した。  "
+        },
+        {
+          "line": 52,
+          "text": "・a controversial figure  "
+        },
+        {
+          "line": 53,
+          "text": "用途: 功績と批判の両方があり、評価が大きく割れている人物を指す。  "
+        },
+        {
+          "line": 54,
+          "text": "例: The historian remains a controversial figure in the region.  "
+        },
+        {
+          "line": 55,
+          "text": "訳: その歴史家はその地域で今も評価が大きく分かれる人物だ。  "
+        },
+        {
+          "line": 57,
+          "text": "・a highly controversial proposal  "
+        },
+        {
+          "line": 58,
+          "text": "用途: 提案に対して非常に強い賛否や反発が起きていることを強調する。  "
+        },
+        {
+          "line": 59,
+          "text": "例: The city council postponed a highly controversial proposal.  "
+        },
+        {
+          "line": 60,
+          "text": "訳: 市議会は非常に物議を醸している提案を延期した。  "
+        },
+        {
+          "line": 62,
+          "text": "・controversial among 〈group〉  "
+        },
+        {
+          "line": 63,
+          "text": "用途: どの集団の中で意見が割れているかを限定する。  "
+        },
+        {
+          "line": 64,
+          "text": "例: The interpretation is controversial among constitutional scholars.  "
+        },
+        {
+          "line": 65,
+          "text": "訳: その解釈は憲法学者の間で議論が分かれている。  "
+        },
+        {
+          "line": 67,
+          "text": "・controversial in some circles  "
+        },
+        {
+          "line": 68,
+          "text": "用途: 社会全体ではなく、特定の界隈で物議を醸していることを示す。  "
+        },
+        {
+          "line": 69,
+          "text": "例: The advertising campaign is controversial in some circles but popular with younger viewers.  "
+        },
+        {
+          "line": 70,
+          "text": "訳: その広告キャンペーンは一部では物議を醸しているが、若い視聴者には人気がある。  "
+        },
+        {
+          "line": 72,
+          "text": "・it remains controversial whether ...  "
+        },
+        {
+          "line": 73,
+          "text": "用途: 判断が現在も決着していないことを述べる。  "
+        },
+        {
+          "line": 74,
+          "text": "例: It remains controversial whether the policy reduced inequality.  "
+        },
+        {
+          "line": 75,
+          "text": "訳: その政策が格差を縮小したかどうかは、今も議論が分かれている。  "
+        },
+        {
+          "line": 77,
+          "text": "・a controversial remark  "
+        },
+        {
+          "line": 78,
+          "text": "用途: 発言が批判や反発を招く内容だったことを表す。  "
+        },
+        {
+          "line": 79,
+          "text": "例: The minister's controversial remark drew criticism from both parties.  "
+        },
+        {
+          "line": 80,
+          "text": "訳: 大臣の物議を醸す発言は両党から批判を招いた。  "
+        },
+        {
+          "line": 82,
+          "text": "・become controversial after ...  "
+        },
+        {
+          "line": 83,
+          "text": "用途: 当初は普通だった対象が、後から知られた事実や変化によって論争の的になることを表す。  "
+        },
+        {
+          "line": 84,
+          "text": "例: The renovation plan became controversial after residents learned the full cost.  "
+        },
+        {
+          "line": 85,
+          "text": "訳: 住民が総費用を知った後、その改修計画は物議を醸すようになった。  "
+        },
+        {
+          "line": 87,
+          "text": "【語法・注意】対象を主語にした be controversial は「その対象が論争の的だ」という意味で、必ずしも対象自身が議論を仕掛けるわけではない。人物についても通常は「評価が割れている人物」の意味であり、「論争を好む人」という性向を言いたいときは語義2を確認する。highly は対立の強さ、widely は論争が広い範囲に及ぶことを示す。controversial を「間違った」「受け入れられない」と自動的に訳さず、何が誰の間で争われているかを among/within 句や文脈で補う。  "
+        },
+        {
+          "line": 89,
+          "text": "【類義語】"
+        },
+        {
+          "line": 91,
+          "text": "・contentious  "
+        },
+        {
+          "line": 92,
+          "text": "定義: 議論や対立を引き起こしやすい、争点になっている。  "
+        },
+        {
+          "line": 93,
+          "text": "頻度: 〈8/10〉  "
+        },
+        {
+          "line": 94,
+          "text": "違い: contentious は問題・決定が争いを生みやすい性質や、当事者間の対立の強さに焦点があり、controversial より対立的に響くことがある。  "
+        },
+        {
+          "line": 95,
+          "text": "例: The contentious issue delayed the negotiations for weeks.  "
+        },
+        {
+          "line": 96,
+          "text": "訳: その対立を招く争点のために、交渉は何週間も遅れた。  "
+        },
+        {
+          "line": 98,
+          "text": "・disputed  "
+        },
+        {
+          "line": 99,
+          "text": "定義: 真偽・権利・解釈などが争われている、意見が一致していない。  "
+        },
+        {
+          "line": 100,
+          "text": "頻度: 〈8/10〉  "
+        },
+        {
+          "line": 101,
+          "text": "違い: disputed は「正しいか、誰のものかなどが争われている」という未確定性を強調し、controversial のような広い世論上の物議まで必ずしも含まない。  "
+        },
+        {
+          "line": 102,
+          "text": "例: The map shows the disputed border in a different color.  "
+        },
+        {
+          "line": 103,
+          "text": "訳: その地図は争われている国境を別の色で示している。  "
+        },
+        {
+          "line": 105,
+          "text": "・debatable  "
+        },
+        {
+          "line": 106,
+          "text": "定義: 議論の余地があり、結論を一つに決めにくい。  "
+        },
+        {
+          "line": 107,
+          "text": "頻度: 〈7/10〉  "
+        },
+        {
+          "line": 108,
+          "text": "違い: debatable は主張や判断の妥当性を論じられることに焦点があり、controversial より感情的な反発や大きな社会的対立を含まない場合が多い。  "
+        },
+        {
+          "line": 109,
+          "text": "例: Whether the change improved efficiency is debatable.  "
+        },
+        {
+          "line": 110,
+          "text": "訳: その変更が効率を高めたかどうかは議論の余地がある。  "
+        },
+        {
+          "line": 112,
+          "text": "・polarizing  "
+        },
+        {
+          "line": 113,
+          "text": "定義: 人々を賛成側と反対側へ大きく分断する。  "
+        },
+        {
+          "line": 114,
+          "text": "頻度: 〈7/10〉  "
+        },
+        {
+          "line": 115,
+          "text": "違い: polarizing は意見の対立を二極化させる効果を強調する。controversial は意見が割れていても、二つの陣営に明確に分かれるとは限らない。  "
+        },
+        {
+          "line": 116,
+          "text": "例: The candidate's polarizing speech dominated the news cycle.  "
+        },
+        {
+          "line": 117,
+          "text": "訳: その候補者の社会を二極化させる演説が報道を席巻した。  "
+        },
+        {
+          "line": 119,
+          "text": "・provocative  "
+        },
+        {
+          "line": 120,
+          "text": "定義: 強い反応や議論を意図的または効果として引き起こす、挑発的な。  "
+        },
+        {
+          "line": 121,
+          "text": "頻度: 〈8/10〉  "
+        },
+        {
+          "line": 122,
+          "text": "違い: provocative は発言者・作者が反応を誘う性質や意図に焦点がある。controversial は実際に物議が生じている状態を表し、意図を必要としない。  "
+        },
+        {
+          "line": 123,
+          "text": "例: The artist is known for provocative questions about public memory.  "
+        },
+        {
+          "line": 124,
+          "text": "訳: その芸術家は公共の記憶について挑発的な問いを投げかけることで知られている。  "
+        },
+        {
+          "line": 126,
+          "text": "・divisive  "
+        },
+        {
+          "line": 127,
+          "text": "定義: 人々や集団の間に深い対立を生じさせる、分断を招く。  "
+        },
+        {
+          "line": 128,
+          "text": "頻度: 〈7/10〉  "
+        },
+        {
+          "line": 129,
+          "text": "違い: divisive は社会的な分断や関係悪化という結果を強く示す。controversial は分断に至らず、単に議論や批判を招く場合にも使える。  "
+        },
+        {
+          "line": 130,
+          "text": "例: The divisive reform split the professional association.  "
+        },
+        {
+          "line": 131,
+          "text": "訳: その分断を招く改革は専門職団体を二分した。  "
+        },
+        {
+          "line": 133,
+          "text": "・polemical  "
+        },
+        {
+          "line": 134,
+          "text": "定義: 論争を仕掛ける、または論争的な主張を展開する。  "
+        },
+        {
+          "line": 135,
+          "text": "頻度: 〈4/10〉  "
+        },
+        {
+          "line": 136,
+          "text": "違い: polemical は文章・議論・論者の攻撃的な論争スタイルに寄りやすく、controversial より硬く、意図的な論争性を含みやすい。  "
+        },
+        {
+          "line": 137,
+          "text": "例: The book adopts a polemical tone toward established theories.  "
+        },
+        {
+          "line": 138,
+          "text": "訳: その本は確立した理論に対して論争的な調子を取っている。  "
+        },
+        {
+          "line": 140,
+          "text": "【反意語】"
+        },
+        {
+          "line": 142,
+          "text": "・uncontroversial  "
+        },
+        {
+          "line": 143,
+          "text": "定義: 意見の強い対立や広い反発を招かない、異論の少ない。  "
+        },
+        {
+          "line": 144,
+          "text": "頻度: 〈6/10〉  "
+        },
+        {
+          "line": 145,
+          "text": "違い: controversial の直接的な反対語で、問題・判断・人物などについて大きな論争が起きていない状態を表す。  "
+        },
+        {
+          "line": 146,
+          "text": "例: The committee reached an uncontroversial agreement on the timetable.  "
+        },
+        {
+          "line": 147,
+          "text": "訳: 委員会は日程について異論の少ない合意に達した。  "
+        },
+        {
+          "line": 149,
+          "text": "・noncontroversial  "
+        },
+        {
+          "line": 150,
+          "text": "定義: 論争的でない、特に意見の対立を起こさない。  "
+        },
+        {
+          "line": 151,
+          "text": "頻度: 〈5/10〉  "
+        },
+        {
+          "line": 152,
+          "text": "違い: noncontroversial も直接的な反対語だが、uncontroversial より説明的・形式的に見えることがある。  "
+        },
+        {
+          "line": 153,
+          "text": "例: The report limits itself to noncontroversial background facts.  "
+        },
+        {
+          "line": 154,
+          "text": "訳: その報告書は論争のない背景事実に内容を限定している。  "
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": "checker_request_v1",
+  "pass_id": "sense-structure",
+  "input_body_sha256": "68642a687d319602564bb976d43d54d0c6fd104793baae466da68d12aa0f3d8f",
+  "specification": "prompts/check_pass_sense_structure_v6.md",
+  "taxonomy_ids": [
+    "sense_boundary_overlap",
+    "cross_section_internal_contradiction",
+    "compound_component_generalization"
+  ],
+  "input_sections": [
+    "core_image",
+    "sense_structure",
+    "usage_notes",
+    "word_formation"
+  ]
+}

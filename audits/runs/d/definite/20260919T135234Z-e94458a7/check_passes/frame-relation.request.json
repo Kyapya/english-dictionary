@@ -1,0 +1,166 @@
+{
+  "schema_version": "antonym_axis_blind_request_v1",
+  "pass_id": "frame-relation",
+  "taxonomy_ids": [
+    "argument_slot_role_mismatch",
+    "lexical_relation_mislabel"
+  ],
+  "specification": "prompts/check_pass_frame_relation_v7.md",
+  "input_body_sha256": "6bf439cde2a5a009f8e4e4d27f7041f7af5c66dd15e9e51aaf59bfb705b46752",
+  "input_sections": {
+    "antonym_items": [
+      {
+        "item_id": "ant-d8cdab9d17a7",
+        "headword": "definite",
+        "sense_definition": "【日本語訳・定義】変化、差、効果、兆候、利点などが、観察や比較によって実際に認められるほど明瞭・顕著であることを表す。必ずしも論理的に証明済み、絶対に疑いがないという意味ではなく、話し手が変化や特徴をはっきり認識しているという評価を含むことがある。",
+        "antonym": "indistinct",
+        "antonym_definition": "定義: 輪郭・音・違いなどがぼんやりして区別しにくい。"
+      },
+      {
+        "item_id": "ant-bd78359dead5",
+        "headword": "definite",
+        "sense_definition": "【日本語訳・定義】植物学で、花器官の数が一定で、通常は20未満で花弁数の倍数になること、または花序の主軸が花で終わり成長に限りがあることを表す専門用法である。一般語の「確実な」ではなく、数や成長が定まっているという意味で、definite inflorescence は determinate／cymose inflorescence に当たる。",
+        "antonym": "indefinite",
+        "antonym_definition": "定義: 数が一定でない、または花序の成長に固定された終点がない。"
+      },
+      {
+        "item_id": "ant-1c347dcd4402",
+        "headword": "definite",
+        "sense_definition": "【日本語訳・定義】数量、期間、範囲、時点、形、情報などに明確な境界や内容があり、漠然としたものではないことを表す。特定の対象を指す場合でも、文脈上その対象を識別できるという文法上の意味とは異なり、ここでは内容・範囲・条件が具体的に定まっていることに焦点がある。",
+        "antonym": "unspecified",
+        "antonym_definition": "定義: 必要な内容や条件が明示されていない。"
+      },
+      {
+        "item_id": "ant-818f8d4e4aa3",
+        "headword": "definite",
+        "sense_definition": "【日本語訳・定義】文法で、名詞句の指示対象が、既出、状況上の唯一性、修飾語、共有知識などによって聞き手・読み手に特定可能であることを表す。英語では the が definite article「定冠詞」であり、対象が必ず世界に一つしかないこと、単数であること、以前に必ず言及されたことだけを意味するわけではない。",
+        "antonym": "generic",
+        "antonym_definition": "定義: 個別の一つではなく、種類全体や一般的な概念に関する。"
+      },
+      {
+        "item_id": "ant-72aede0d05ae",
+        "headword": "definite",
+        "sense_definition": "【日本語訳・定義】文法で、名詞句の指示対象が、既出、状況上の唯一性、修飾語、共有知識などによって聞き手・読み手に特定可能であることを表す。英語では the が definite article「定冠詞」であり、対象が必ず世界に一つしかないこと、単数であること、以前に必ず言及されたことだけを意味するわけではない。",
+        "antonym": "indefinite",
+        "antonym_definition": "定義: 名詞句の指示対象が特定できない、または特定の一つとして提示されない。"
+      },
+      {
+        "item_id": "ant-b94874c1fb0a",
+        "headword": "definite",
+        "sense_definition": "【日本語訳・定義】変化、差、効果、兆候、利点などが、観察や比較によって実際に認められるほど明瞭・顕著であることを表す。必ずしも論理的に証明済み、絶対に疑いがないという意味ではなく、話し手が変化や特徴をはっきり認識しているという評価を含むことがある。",
+        "antonym": "unclear",
+        "antonym_definition": "定義: 意味・原因・結果などがはっきりしない。"
+      },
+      {
+        "item_id": "ant-0f692a54b438",
+        "headword": "definite",
+        "sense_definition": "【日本語訳・定義】答え、決定、計画、日付、合意、意図などが、曖昧な候補や一時的な案ではなく、内容として定まり、変更される可能性が低いことを表す。必ずしも今後絶対に変更できないという意味ではなく、現時点で決定・約束・判断が明確になっていることに焦点がある。",
+        "antonym": "undecided",
+        "antonym_definition": "定義: 選択・判断・決定がまだ行われていない。"
+      },
+      {
+        "item_id": "ant-26ef8568abaf",
+        "headword": "definite",
+        "sense_definition": "【日本語訳・定義】植物学で、花器官の数が一定で、通常は20未満で花弁数の倍数になること、または花序の主軸が花で終わり成長に限りがあることを表す専門用法である。一般語の「確実な」ではなく、数や成長が定まっているという意味で、definite inflorescence は determinate／cymose inflorescence に当たる。",
+        "antonym": "indeterminate",
+        "antonym_definition": "定義: 成長や結果の終点があらかじめ固定されていない。"
+      },
+      {
+        "item_id": "ant-e4bf06db3822",
+        "headword": "definite",
+        "sense_definition": "【日本語訳・定義】答え、決定、計画、日付、合意、意図などが、曖昧な候補や一時的な案ではなく、内容として定まり、変更される可能性が低いことを表す。必ずしも今後絶対に変更できないという意味ではなく、現時点で決定・約束・判断が明確になっていることに焦点がある。",
+        "antonym": "indefinite",
+        "antonym_definition": "定義: 明確な範囲・期間・内容が定まっていない。"
+      },
+      {
+        "item_id": "ant-9a3ffea3963f",
+        "headword": "definite",
+        "sense_definition": "【日本語訳・定義】変化、差、効果、兆候、利点などが、観察や比較によって実際に認められるほど明瞭・顕著であることを表す。必ずしも論理的に証明済み、絶対に疑いがないという意味ではなく、話し手が変化や特徴をはっきり認識しているという評価を含むことがある。",
+        "antonym": "imperceptible",
+        "antonym_definition": "定義: 感覚や観察ではほとんど気づけない。"
+      },
+      {
+        "item_id": "ant-ff69a1a9f3cd",
+        "headword": "definite",
+        "sense_definition": "【日本語訳・定義】答え、決定、計画、日付、合意、意図などが、曖昧な候補や一時的な案ではなく、内容として定まり、変更される可能性が低いことを表す。必ずしも今後絶対に変更できないという意味ではなく、現時点で決定・約束・判断が明確になっていることに焦点がある。",
+        "antonym": "uncertain",
+        "antonym_definition": "定義: 確実でなく、結果や内容がまだ分からない。"
+      },
+      {
+        "item_id": "ant-c7e3f2e53104",
+        "headword": "definite",
+        "sense_definition": "【日本語訳・定義】数量、期間、範囲、時点、形、情報などに明確な境界や内容があり、漠然としたものではないことを表す。特定の対象を指す場合でも、文脈上その対象を識別できるという文法上の意味とは異なり、ここでは内容・範囲・条件が具体的に定まっていることに焦点がある。",
+        "antonym": "unlimited",
+        "antonym_definition": "定義: 数量・範囲・期間などに上限がない。"
+      },
+      {
+        "item_id": "ant-c5c7ab207470",
+        "headword": "definite",
+        "sense_definition": "【日本語訳・定義】答え、決定、計画、日付、合意、意図などが、曖昧な候補や一時的な案ではなく、内容として定まり、変更される可能性が低いことを表す。必ずしも今後絶対に変更できないという意味ではなく、現時点で決定・約束・判断が明確になっていることに焦点がある。",
+        "antonym": "tentative",
+        "antonym_definition": "定義: 仮のもので、後で変更される可能性がある。"
+      },
+      {
+        "item_id": "ant-edb72631391b",
+        "headword": "definite",
+        "sense_definition": "【日本語訳・定義】数量、期間、範囲、時点、形、情報などに明確な境界や内容があり、漠然としたものではないことを表す。特定の対象を指す場合でも、文脈上その対象を識別できるという文法上の意味とは異なり、ここでは内容・範囲・条件が具体的に定まっていることに焦点がある。",
+        "antonym": "indefinite",
+        "antonym_definition": "定義: 範囲・期間・数量・内容などが決まっていない。"
+      },
+      {
+        "item_id": "ant-474db3bb568c",
+        "headword": "definite",
+        "sense_definition": "【日本語訳・定義】文法で、名詞句の指示対象が、既出、状況上の唯一性、修飾語、共有知識などによって聞き手・読み手に特定可能であることを表す。英語では the が definite article「定冠詞」であり、対象が必ず世界に一つしかないこと、単数であること、以前に必ず言及されたことだけを意味するわけではない。",
+        "antonym": "unidentified",
+        "antonym_definition": "定義: どの人物・物であるかが特定されていない。"
+      },
+      {
+        "item_id": "ant-e02007848369",
+        "headword": "definite",
+        "sense_definition": "【日本語訳・定義】数量、期間、範囲、時点、形、情報などに明確な境界や内容があり、漠然としたものではないことを表す。特定の対象を指す場合でも、文脈上その対象を識別できるという文法上の意味とは異なり、ここでは内容・範囲・条件が具体的に定まっていることに焦点がある。",
+        "antonym": "vague",
+        "antonym_definition": "定義: 表現・考え・範囲などがぼんやりして具体性に欠ける。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "difference_line",
+      "frequency_line",
+      "example_line",
+      "translation_line",
+      "synonym_section",
+      "core_image",
+      "other_senses",
+      "document_order"
+    ],
+    "questions": [
+      "name_axis_as_one_noun",
+      "classify_as_補完_程度_方向_評価_状態",
+      "record_unnamable_with_one_sentence_reason"
+    ],
+    "required_output_schema": "antonym_axis_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "3598ca81a5784639c6b43a0806d0981a985bf4174f424c744aad1dde787bfcef",
+  "source_artifact_sha256": "6c4a9cb96ef979d6caee6685612f8a3af1eadb335e8d0d86ec675b47df5e2d67",
+  "normalized_input_sha256": "f3c0038bb43274cd0e329f2a964fbf937b4d7cd15481b72439247a55d5d9499e"
+}

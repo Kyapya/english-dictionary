@@ -1,0 +1,258 @@
+{
+  "summary": "問題候補12件。発音記号と音節説明の不整合、語源の流れ、語義境界（一般・生物学・法務・音楽・バレエ）、専門用法の射程に修正余地がある。",
+  "findings": [
+    {
+      "id": "CR-001",
+      "location": "＃発音記号",
+      "severity": "high",
+      "description": "IPA表記の末尾と「4音節」という説明が対応していない。",
+      "reason": "本文は「米: /ˌveriˈeɪʃn/｜英: /ˌveəriˈeɪʃn/。4音節で、第3音節の /eɪ/ に主強勢、第1音節に副次強勢がある。」と示すが、両表記の語末 /ʃn/ には第4音節に対応する母音または音節主音子音の表示がない。学習者には /ʃn/ をどう一音節として発音するか分からず、表記をそのまま読めば3音節に見える。",
+      "suggested_direction": "採用するIPA慣行に合わせて末尾を /ʃən/ とするか、音節主音表記 /ʃn̩/ などを明示し、4音節の説明と一致させる。",
+      "scope_anchors": [
+        {
+          "id": "CR-001-A1",
+          "exact_quote": "米: /ˌveriˈeɪʃn/｜英: /ˌveəriˈeɪʃn/。4音節で、第3音節の /eɪ/ に主強勢、第1音節に副次強勢がある。",
+          "location_hint": "＃発音記号の最初の文"
+        }
+      ]
+    },
+    {
+      "id": "CR-002",
+      "location": "＃語源",
+      "severity": "medium",
+      "description": "語源の借用方向が文の構造上逆向きに読め、古フランス語・アングロフレンチと中英語形の関係も曖昧である。",
+      "reason": "「中英語 variacioun は、古フランス語・アングロフレンチの variation を経て、ラテン語 variātiō「変化、相違、変形」にさかのぼる。」という並べ方は、中英語形からフランス語を経てラテン語へ進む説明に見える。実際に学習者へ示したい歴史的な流れは、ラテン語を起点に古フランス語・アングロフレンチを経て中英語へ入ったという順序であり、語形の借用と同語源関係を分けて書く必要がある。",
+      "suggested_direction": "ラテン語 variātiō → 古フランス語／アングロフレンチの形 → 中英語 variacioun → 現代英語 variation の順に示し、各段階の形と借用経路を明示する。",
+      "scope_anchors": [
+        {
+          "id": "CR-002-A1",
+          "exact_quote": "中英語 variacioun は、古フランス語・アングロフレンチの variation を経て、ラテン語 variātiō「変化、相違、変形」にさかのぼる。",
+          "location_hint": "＃語源の第1文"
+        }
+      ]
+    },
+    {
+      "id": "CR-003",
+      "location": "語義1の可算・不可算説明",
+      "severity": "low",
+      "description": "可算・不可算の説明が、意味だけで機械的に決まるように受け取られる余地が残っている。",
+      "reason": "「個々の変化・差・型を数える場合は可算になることが多い。」という説明は傾向としては有用だが、variation の可算性は数えられる対象の有無だけでなく、変動を総体として見るか、個別の型・事例として見るか、文脈上どこに焦点を置くかで決まる。`variation in prices` と `variations in prices` の違いも、後者が必ず複数の事例を意味するわけではないため、学習者が一対一の規則として一般化しやすい。",
+      "suggested_direction": "「総体として述べる場合に不可算が多い」「個別の型・事例として捉える場合に可算が選ばれやすい」としたうえで、文脈と焦点によって揺れることを明記する。",
+      "scope_anchors": [
+        {
+          "id": "CR-003-A1",
+          "exact_quote": "個々の変化・差・型を数える場合は可算になることが多い。",
+          "location_hint": "語義1の【日本語訳・定義】末尾"
+        },
+        {
+          "id": "CR-003-A2",
+          "exact_quote": "`variation in prices` は価格の変動、`variations in prices` は複数の価格差・変動の例を指しやすい。",
+          "location_hint": "語義1の【語法・注意】"
+        }
+      ]
+    },
+    {
+      "id": "CR-004",
+      "location": "＃コアイメージと語義5",
+      "severity": "medium",
+      "description": "コアイメージの対応表がバレエ用法を取りこぼしており、記事全体の語義マップが語義5と一致していない。",
+      "reason": "コアイメージの箇条書きは「・同じ主題をもとにした展開 → 「変奏・変奏曲」（語義4）」までを示すが、本文には「5. 【名詞・可算・バレエ】ソロ演目、独舞」という独立した語義がある。語義5がコアからどのように派生する専門用法なのかが示されないため、学習者にはバレエの variation が音楽用法の単なる別訳なのか、別の拡張なのかが分かりにくい。",
+      "suggested_direction": "コアイメージの文章と箇条書きにバレエのソロ演目を追加し、音楽の変奏からの専門的な用法として語義5への対応を明示する。",
+      "scope_anchors": [
+        {
+          "id": "CR-004-A1",
+          "exact_quote": "・同じ主題をもとにした展開 → 「変奏・変奏曲」（語義4）",
+          "location_hint": "＃コアイメージの語義対応箇条書き"
+        },
+        {
+          "id": "CR-004-A2",
+          "exact_quote": "5. 【名詞・可算・バレエ】ソロ演目、独舞",
+          "location_hint": "語義5の見出し"
+        }
+      ]
+    },
+    {
+      "id": "CR-005",
+      "location": "語義1と語義3の定義",
+      "severity": "medium",
+      "description": "語義1が「個々の違い」まで含めるため、生物学的な個体差を中心とする語義3との境界が曖昧である。",
+      "reason": "語義1は「量・水準・品質・状態などが一定ではなく変わること、またはその変化の幅・個々の違いを表す。」と定義している。一方、語義3も「同じ種・集団に属する個体の間に見られる、遺伝的・構造的・機能的な差」を扱うため、個体差を一般語義1で読む場合と専門語義3で読む場合の判定基準が本文からは明確でない。語義1で生物学的な差まで含めるのか、語義3を専門領域の優先用法として扱うのかを明示しないと、語義の使い分けを固定的に誤学習しやすい。",
+      "suggested_direction": "語義1を一般的な値・状態の変動や非専門的な差に寄せ、同種・集団の個体差や集団間の生物学的差は語義3として扱うなど、領域と焦点による境界を明示する。",
+      "scope_anchors": [
+        {
+          "id": "CR-005-A1",
+          "exact_quote": "量・水準・品質・状態などが一定ではなく変わること、またはその変化の幅・個々の違いを表す。",
+          "location_hint": "語義1の【日本語訳・定義】"
+        },
+        {
+          "id": "CR-005-A2",
+          "exact_quote": "同じ種・集団に属する個体の間に見られる、遺伝的・構造的・機能的な差を表す。",
+          "location_hint": "語義3の【日本語訳・定義】"
+        }
+      ]
+    },
+    {
+      "id": "CR-006",
+      "location": "語義1・語義2の variation from 用法",
+      "severity": "medium",
+      "description": "`variation from the norm/standard` が別形を表す語義2の内部に置かれているため、基準からのずれと元のものを土台にした変形の境界が分かりにくい。",
+      "reason": "本文は「a variation from 〈the norm/standard/original〉＝〈基準・標準・原型〉からの相違やずれ」とし、`from` の意味を基準からの偏差として説明している。しかし `variation from the norm/standard` は、必ずしも元の型を基に作った別形を指すわけではなく、一般的な変動・逸脱の記述として語義1に近い。`a variation from the original` だけは語義2の `variation on` と比較する必要があるため、同じ欄にまとめると前置詞ごとの意味差をかえって曖昧にする。",
+      "suggested_direction": "`variation from the norm/standard` は基準からのずれとして語義1または共有用法に置き、`a variation from the original` は「文法的には可能だが、設計の別形なら `a variation on the original design` が典型」と明確に分ける。",
+      "scope_anchors": [
+        {
+          "id": "CR-006-A1",
+          "exact_quote": "a variation from 〈the norm/standard/original〉＝〈基準・標準・原型〉からの相違やずれ",
+          "location_hint": "語義2の【文法パターン】"
+        },
+        {
+          "id": "CR-006-A2",
+          "exact_quote": "・a variation from 〈the norm/standard〉",
+          "location_hint": "語義2のコロケーション見出し"
+        }
+      ]
+    },
+    {
+      "id": "CR-007",
+      "location": "語義2の契約・法務用法",
+      "severity": "medium",
+      "description": "契約・法務の用法が一般的な「少し変えた別形」に埋め込まれ、専門的な意味・法域差・分野差が十分に示されていない。",
+      "reason": "本文は「契約・法務では契約内容の変更を指し、`variation of/to the contract`、`variation clause`、`variation order` などの専門表現で用いる。」と述べるが、語義2の見出し自体は「基準から少し変えたもの、変形、別形」である。契約の variation は正式な条項・義務・作業範囲の変更を指し、必ずしも「少し」ではない。また `variation order` は特に建設契約の実務語として現れることが多く、法域によって `amendment`、`contract modification`、`change order` などの優勢な表現も異なる。一般用法と無標識に並べると、どの契約にも同じ形で使えると誤解される。",
+      "suggested_direction": "契約・法務を語義2内の明示的な専門サブ用法または独立語義として示し、契約変更一般、条項、建設契約の `variation order` を分けて、法域・分野による表現差を注記する。",
+      "scope_anchors": [
+        {
+          "id": "CR-007-A1",
+          "exact_quote": "2. 【名詞・可算】基準から少し変えたもの、変形、別形",
+          "location_hint": "語義2の見出し"
+        },
+        {
+          "id": "CR-007-A2",
+          "exact_quote": "契約・法務では契約内容の変更を指し、`variation of/to the contract`、`variation clause`、`variation order` などの専門表現で用いる。",
+          "location_hint": "語義2の【レジスター/領域】"
+        },
+        {
+          "id": "CR-007-A3",
+          "exact_quote": "variation order＝契約・工事内容の変更指示",
+          "location_hint": "語義2の【文法パターン】"
+        }
+      ]
+    },
+    {
+      "id": "CR-008",
+      "location": "語義3の定義と集団間の例",
+      "severity": "medium",
+      "description": "語義3の定義が集団内の個体差に狭く読める一方、例文では集団間の遺伝的差も同じ語義に含めている。",
+      "reason": "「同じ種・集団に属する個体の間に見られる、遺伝的・構造的・機能的な差を表す。」という定義は、同一集団内の個体差を中心に述べている。しかし本文には `genetic variation between 〈populations〉` と「異なる集団の間にある遺伝的な違い」があり、定義の射程を越える。学習者は集団間の差を語義3に含めてよいのか、語義1の一般的な差として扱うのか判断できない。",
+      "suggested_direction": "語義3を個体・集団内の差と集団間の差の両方を含む専門用法として定義し、`within`、`among`、`between` のフレームがそれぞれ何を比較するかを明示する。",
+      "scope_anchors": [
+        {
+          "id": "CR-008-A1",
+          "exact_quote": "同じ種・集団に属する個体の間に見られる、遺伝的・構造的・機能的な差を表す。",
+          "location_hint": "語義3の【日本語訳・定義】"
+        },
+        {
+          "id": "CR-008-A2",
+          "exact_quote": "・genetic variation between 〈populations〉",
+          "location_hint": "語義3のコロケーション見出し"
+        }
+      ]
+    },
+    {
+      "id": "CR-009",
+      "location": "語義4・a set of variations on a theme",
+      "severity": "low",
+      "description": "`a set of variations` を「複数の楽曲からなる作品」と説明しており、単一の楽曲・作品内の一連の変奏が独立した複数曲の集合のように読める。",
+      "reason": "「1つの主題を順に変形した複数の楽曲からなる作品を表す。」という説明は、`a set of variations` を複数の別個の楽曲を集めた作品のように受け取らせる。音楽では通常、一つの主題とそれに続く複数の変奏からなる一作品・一組を指し、各 variation はその内部の部分または楽章として理解されるため、ユーザーが求めた「一つの変奏」と「作品全体」の区別を弱める。\n本文引用: 用途: 1つの主題を順に変形した複数の楽曲からなる作品を表す。",
+      "suggested_direction": "「一つの主題と、それに続く複数の変奏からなる一作品・一組」などとし、個々の変奏が独立した楽曲であることを必須としない説明にする。",
+      "scope_anchors": [
+        {
+          "id": "CR-009-A1",
+          "exact_quote": "用途: 1つの主題を順に変形した複数の楽曲からなる作品を表す。",
+          "location_hint": "語義4の `a set of variations on a theme` の用途"
+        }
+      ]
+    },
+    {
+      "id": "CR-010",
+      "location": "語義5のバレエ定義と語法・注意",
+      "severity": "medium",
+      "description": "バレエの variation の定義が「独立した演目または場面」と広げる一方、注意欄で「一場面全体ではない」と否定しており、内部で範囲が食い違っている。",
+      "reason": "定義は「クラシック・バレエで、踊り手が一人で踊る独立した演目または場面を表す。」とするが、注意欄は「作品中の一場面全体ではなく、独舞として切り出された部分を指す点に注意する。」と述べる。一般的な場面全体を variation と呼べるようにも読めるため、学習者が pas de deux などの場面全体を variation と誤って呼ぶ余地がある。",
+      "suggested_direction": "定義を「独舞・ソロ番号、または一場面内のソロ部分」とし、一般的な場面全体を指さないことを見出し直後から一貫して示す。",
+      "scope_anchors": [
+        {
+          "id": "CR-010-A1",
+          "exact_quote": "クラシック・バレエで、踊り手が一人で踊る独立した演目または場面を表す。",
+          "location_hint": "語義5の【日本語訳・定義】冒頭"
+        },
+        {
+          "id": "CR-010-A2",
+          "exact_quote": "作品中の一場面全体ではなく、独舞として切り出された部分を指す点に注意する。",
+          "location_hint": "語義5の【語法・注意】末尾"
+        }
+      ]
+    },
+    {
+      "id": "CR-011",
+      "location": "語義2の一般用法と語義4の音楽用法",
+      "severity": "low",
+      "description": "`a variation on a theme` が一般語義2と音楽語義4の両方に現れるが、同じ表面形をどの文脈でどちらに分類するかが十分に可視化されていない。",
+      "reason": "語義2の例は「The novel is a clever variation on a familiar coming-of-age story.」で比喩的な別展開を示し、語義4は音楽の専門用法として `a variation on a theme` を扱う。本文は両方が可能だと述べているものの、`theme` が音楽の主題なのか、物語・議論の比喩的な主題なのかを見分ける目印が例文に揃っていないため、学習者が音楽用法を一般的な「テーマの違い」とだけ理解したり、逆に文学的な比喩を音楽語義に固定したりしやすい。\n本文引用: 例: The novel is a clever variation on a familiar coming-of-age story.",
+      "suggested_direction": "一般用法と音楽用法にそれぞれ明示的な例文を置き、音楽では一連の変奏のうちの一つ、比喩では元の考え・筋を変えた展開という分類基準を対照的に示す。",
+      "scope_anchors": [
+        {
+          "id": "CR-011-A1",
+          "exact_quote": "例: The novel is a clever variation on a familiar coming-of-age story.",
+          "location_hint": "語義2の `a variation on a theme` の例文"
+        },
+        {
+          "id": "CR-011-A2",
+          "exact_quote": "【レジスター/領域】音楽の専門用法。一般語の「変形」と同じ語源的核を持つが、主題とその展開を指す定着した術語として使う。",
+          "location_hint": "語義4の【レジスター/領域】"
+        }
+      ]
+    },
+    {
+      "id": "CR-012",
+      "location": "語義6の磁気偏角用法",
+      "severity": "low",
+      "description": "`magnetic variation` の専門的な確立度と `magnetic declination` との使い分けが、地域・分野の差を欠いたまま単純化されている。",
+      "reason": "語法欄は「地理・海図の資料では `magnetic variation` が使われることがある。」と記す一方、類義語欄は「magnetic declination は現在の地球科学・航海で一般的な用語で、magnetic variation は同じ概念を表す別称として使われる。」とする。航海・海図では `magnetic variation` も確立した専門用語であり、`magnetic declination` の優勢さは地球科学・測量などの分野や地域・標準によって異なるため、「時に使われる別称」とだけすると、航海での通常用法を過小評価する。",
+      "suggested_direction": "航海・海図での `magnetic variation` と、地球科学・測量でより一般的な `magnetic declination` のように、分野・地域・標準による用語差を明記する。",
+      "scope_anchors": [
+        {
+          "id": "CR-012-A1",
+          "exact_quote": "地理・海図の資料では `magnetic variation` が使われることがある。",
+          "location_hint": "語義6の【語法・注意】"
+        },
+        {
+          "id": "CR-012-A2",
+          "exact_quote": "magnetic declination は現在の地球科学・航海で一般的な用語で、magnetic variation は同じ概念を表す別称として使われる。",
+          "location_hint": "語義6の類義語 `magnetic declination` の違い"
+        }
+      ]
+    }
+  ],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "orchestrator",
+    "agent_id": "variation-20260913T012522Z-51385f93-cold-reviewer-20260917-main-01",
+    "source_response": {
+      "path": "audits/runs/v/variation/20260913T012522Z-51385f93/handoff/source_responses/bbfdfe004a1cd0bfd7c705add0779945c5a6db7d71a25499426a8478cd5c8a11.json",
+      "sha256": "bbfdfe004a1cd0bfd7c705add0779945c5a6db7d71a25499426a8478cd5c8a11"
+    }
+  },
+  "schema_version": "cold_review_v1",
+  "stage": "cold_review",
+  "run_id": "cold-variation-20260913T012522Z-51385f93",
+  "context_id": "cold-variation-context-20260913T012522Z-51385f93",
+  "input_body_sha256": "f94b51a0c437869d997f727a89666bdfa4c5ffe575c78f10042998526972201c",
+  "prompt_sha256": "25c298d1a4305746147791bd442cd725a92737c8f0802b992ea88e5c6ff76a5d",
+  "input_artifacts": [
+    "entry_body",
+    "cold_review_prompt"
+  ],
+  "audit_visible": false,
+  "contract_version": "review_preflight_v1",
+  "recorded_at": "2026-09-17T14:57:31.843501+00:00"
+}

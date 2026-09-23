@@ -1,0 +1,430 @@
+{
+  "schema_version": "normal_review_v2",
+  "stage": "normal_review",
+  "run_id": "normal-appropriate-20260921T030654Z-a9e4c1d2",
+  "context_id": "normal-appropriate-context-20260921T030654Z-a9e4c1d2",
+  "input_body_sha256": "c0f235efca9fc6b070d0f5c1706c7e1f86c60ca3bccb8f1cd91649c73eab5e88",
+  "prompt_sha256": "2222222222222222222222222222222222222222222222222222222222222222",
+  "input_artifacts": [
+    "router_selected_sections",
+    "checker_pass_specs"
+  ],
+  "recorded_at": "2026-09-21T03:22:00Z",
+  "pass_outputs": [
+    {
+      "pass_id": "translation",
+      "reviewer": {
+        "mode": "handoff",
+        "agent_id": "reviewer-appropriate-translation-20260921T030654Z-a9e4c1d2",
+        "declared_model": "gpt-6-astra",
+        "ingested_by": "orchestrator",
+        "source_response": {
+          "path": "audits/runs/a/appropriate/20260921T030654Z-a9e4c1d2/handoff/source_responses/f7ae277d010253a7e0fdc6b95ab07f7fe5bfd291d0fe1bdb75937054c1f86c6e.json",
+          "sha256": "f7ae277d010253a7e0fdc6b95ab07f7fe5bfd291d0fe1bdb75937054c1f86c6e"
+        }
+      },
+      "findings": []
+    },
+    {
+      "pass_id": "sense-structure",
+      "reviewer": {
+        "mode": "handoff",
+        "agent_id": "reviewer-appropriate-sensestructure-20260921T030654Z-a9e4c1d2",
+        "declared_model": "gpt-6-astra",
+        "ingested_by": "orchestrator",
+        "source_response": {
+          "path": "audits/runs/a/appropriate/20260921T030654Z-a9e4c1d2/handoff/source_responses/d3856b7feba9b20dc8c63cdd8bf0fba055b6df17f8d2441e98a222cab5acd48c.json",
+          "sha256": "d3856b7feba9b20dc8c63cdd8bf0fba055b6df17f8d2441e98a222cab5acd48c"
+        }
+      },
+      "findings": []
+    },
+    {
+      "pass_id": "frame-relation",
+      "reviewer": {
+        "mode": "handoff",
+        "agent_id": "reviewer-appropriate-framerelation-20260921T030654Z-a9e4c1d2",
+        "declared_model": "gpt-6-astra",
+        "ingested_by": "orchestrator",
+        "source_response": {
+          "path": "audits/runs/a/appropriate/20260921T030654Z-a9e4c1d2/handoff/source_responses/fdd9b6efb02d972df7544661c84a9b039539d4c5843c3490d9c321fabf7abb2d.json",
+          "sha256": "fdd9b6efb02d972df7544661c84a9b039539d4c5843c3490d9c321fabf7abb2d"
+        }
+      },
+      "findings": [],
+      "antonym_axis_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "reviewer": {
+          "mode": "handoff",
+          "agent_id": "reviewer-appropriate-framerelation-20260921T030654Z-a9e4c1d2",
+          "declared_model": "gpt-6-astra",
+          "ingested_by": "orchestrator",
+          "source_response": {
+            "path": "audits/runs/a/appropriate/20260921T030654Z-a9e4c1d2/handoff/source_responses/9aa20d4e0750acc1e621a67a60fd7f0398f027f443346a0eb053a7abe821f36c.json",
+            "sha256": "9aa20d4e0750acc1e621a67a60fd7f0398f027f443346a0eb053a7abe821f36c"
+          }
+        },
+        "recorded_at": "2026-09-21T03:21:05Z",
+        "input_body_sha256": "c0f235efca9fc6b070d0f5c1706c7e1f86c60ca3bccb8f1cd91649c73eab5e88",
+        "blind_request_sha256": "cbd6e1ca5168c26ecc59b3858b9cf347d65ccd5c9173f87551f99d232c5eea27",
+        "axes": [
+          {
+            "item_id": "ant-dd8adda0fff2",
+            "axis": "評価",
+            "relation_type": "評価"
+          },
+          {
+            "item_id": "ant-e011c011f71a",
+            "axis": "状態",
+            "relation_type": "状態"
+          },
+          {
+            "item_id": "ant-f809e4c0b53c",
+            "axis": "状態",
+            "relation_type": "状態"
+          },
+          {
+            "item_id": "ant-2bcfcaf62f99",
+            "axis": "方向",
+            "relation_type": "方向"
+          }
+        ]
+      },
+      "antonym_axis_adjudication_record": {
+        "schema_version": "antonym_axis_adjudication_record_v1",
+        "pass_id": "frame-relation",
+        "reviewer": {
+          "mode": "handoff",
+          "agent_id": "reviewer-appropriate-framerelation-20260921T030654Z-a9e4c1d2",
+          "declared_model": "gpt-6-astra",
+          "ingested_by": "orchestrator",
+          "source_response": {
+            "path": "audits/runs/a/appropriate/20260921T030654Z-a9e4c1d2/handoff/source_responses/b1de3ba6650edc90a3a4064426377fdf8d4107a9c515d68a7b4eeef44d135201.json",
+            "sha256": "b1de3ba6650edc90a3a4064426377fdf8d4107a9c515d68a7b4eeef44d135201"
+          }
+        },
+        "input_body_sha256": "c0f235efca9fc6b070d0f5c1706c7e1f86c60ca3bccb8f1cd91649c73eab5e88",
+        "stage2_request_sha256": "f0dd05b04370c076a7eda3a1868ff2a26cd70d1264f4f20f04a27443850d1733",
+        "blind_record_sha256": "8eee40c53c7947712f3cf2bd907f6228d4f1da5a2e3591a009258236597c1e14",
+        "adjudications": [
+          {
+            "item_id": "ant-2bcfcaf62f99",
+            "flags": [],
+            "rationale": "The axis is nameable and the current antonym relation is usable without a blocking frame correction."
+          },
+          {
+            "item_id": "ant-dd8adda0fff2",
+            "flags": [],
+            "rationale": "The axis is nameable and the current antonym relation is usable without a blocking frame correction."
+          },
+          {
+            "item_id": "ant-e011c011f71a",
+            "flags": [],
+            "rationale": "The axis is nameable and the current antonym relation is usable without a blocking frame correction."
+          },
+          {
+            "item_id": "ant-f809e4c0b53c",
+            "flags": [],
+            "rationale": "The axis is nameable and the current antonym relation is usable without a blocking frame correction."
+          }
+        ],
+        "frame_findings": [],
+        "unrouted_observations": []
+      },
+      "unrouted_observations": [],
+      "aligned_at": "2026-09-21T03:21:40Z"
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "mode": "handoff",
+        "agent_id": "reviewer-appropriate-exampleattribution-20260921T030654Z-a9e4c1d2",
+        "declared_model": "gpt-6-astra",
+        "ingested_by": "orchestrator",
+        "source_response": {
+          "path": "audits/runs/a/appropriate/20260921T030654Z-a9e4c1d2/handoff/source_responses/60985102cb1ecf1a2bf56c06b3798ec4fb58c6d9fcfe91555ea180fe3b9cfcec.json",
+          "sha256": "60985102cb1ecf1a2bf56c06b3798ec4fb58c6d9fcfe91555ea180fe3b9cfcec"
+        }
+      },
+      "findings": [],
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "reviewer": {
+          "mode": "handoff",
+          "agent_id": "reviewer-appropriate-exampleattribution-20260921T030654Z-a9e4c1d2",
+          "declared_model": "gpt-6-astra",
+          "ingested_by": "orchestrator",
+          "source_response": {
+            "path": "audits/runs/a/appropriate/20260921T030654Z-a9e4c1d2/handoff/source_responses/60985102cb1ecf1a2bf56c06b3798ec4fb58c6d9fcfe91555ea180fe3b9cfcec.json",
+            "sha256": "60985102cb1ecf1a2bf56c06b3798ec4fb58c6d9fcfe91555ea180fe3b9cfcec"
+          }
+        },
+        "recorded_at": "2026-09-21T03:21:00Z",
+        "input_body_sha256": "c0f235efca9fc6b070d0f5c1706c7e1f86c60ca3bccb8f1cd91649c73eab5e88",
+        "blind_request_sha256": "33e8e30d668d241d99e0a2712b3a3c7553b7d8e910febc61d9603d35e25bf930",
+        "attributions": [
+          {
+            "example_id": "ex-63d104b3d6f2",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "grant"
+            ],
+            "rationale": "The example \"The grant was appropriated for environmental restoration.\" contains the term \"grant\", which supports the assigned sense sense:002."
+          },
+          {
+            "example_id": "ex-0a45be58c717",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "material"
+            ],
+            "rationale": "The example \"This material is appropriate for children over six.\" contains the term \"material\", which supports the assigned sense sense:001."
+          },
+          {
+            "example_id": "ex-6c8834b0965e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "cultural"
+            ],
+            "rationale": "The example \"The campaign appropriated cultural material without consulting the community.\" contains the term \"cultural\", which supports the assigned sense sense:003."
+          },
+          {
+            "example_id": "ex-2ddfd1cf52ab",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "tone"
+            ],
+            "rationale": "The example \"Her formal tone was appropriate to the occasion.\" contains the term \"tone\", which supports the assigned sense sense:001."
+          },
+          {
+            "example_id": "ex-afc274854857",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "sum"
+            ],
+            "rationale": "The example \"The council appropriated a sum for bridge maintenance.\" contains the term \"sum\", which supports the assigned sense sense:002."
+          },
+          {
+            "example_id": "ex-c33a0844d000",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "idea"
+            ],
+            "rationale": "The example \"The writer was accused of appropriating someone else's idea.\" contains the term \"idea\", which supports the assigned sense sense:003."
+          },
+          {
+            "example_id": "ex-0b118b627689",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "legislature"
+            ],
+            "rationale": "The example \"The legislature appropriated funds for coastal research.\" contains the term \"legislature\", which supports the assigned sense sense:002."
+          },
+          {
+            "example_id": "ex-d476855ad8c0",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "resources"
+            ],
+            "rationale": "The example \"The committee appropriated resources to the health program.\" contains the term \"resources\", which supports the assigned sense sense:002."
+          },
+          {
+            "example_id": "ex-706b16912f58",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "photographs"
+            ],
+            "rationale": "The example \"The photographs were appropriated without permission.\" contains the term \"photographs\", which supports the assigned sense sense:003."
+          },
+          {
+            "example_id": "ex-580b6af9abd0",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "response"
+            ],
+            "rationale": "The example \"The team chose an appropriate response to the complaint.\" contains the term \"response\", which supports the assigned sense sense:001."
+          },
+          {
+            "example_id": "ex-2c95a2cc3bcf",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "money"
+            ],
+            "rationale": "The example \"The city appropriated money for emergency housing.\" contains the term \"money\", which supports the assigned sense sense:002."
+          },
+          {
+            "example_id": "ex-98d83ff43a4a",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "action"
+            ],
+            "rationale": "The example \"The manager took appropriate action after the safety report.\" contains the term \"action\", which supports the assigned sense sense:001."
+          },
+          {
+            "example_id": "ex-db9d3a3c04a3",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "public"
+            ],
+            "rationale": "The example \"The official appropriated public funds for his own use.\" contains the term \"public\", which supports the assigned sense sense:003."
+          },
+          {
+            "example_id": "ex-4045552b7d4e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "public"
+            ],
+            "rationale": "The example \"The company tried to appropriate public land for private use.\" contains the term \"public\", which supports the assigned sense sense:003."
+          },
+          {
+            "example_id": "ex-e53c3c921b45",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "time"
+            ],
+            "rationale": "The example \"We will discuss the proposal at an appropriate time.\" contains the term \"time\", which supports the assigned sense sense:001."
+          },
+          {
+            "example_id": "ex-13fc170fc70a",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "measures"
+            ],
+            "rationale": "The example \"The school introduced appropriate measures to protect students.\" contains the term \"measures\", which supports the assigned sense sense:001."
+          }
+        ]
+      },
+      "aligned_at": "2026-09-21T03:21:30Z"
+    },
+    {
+      "pass_id": "qualification",
+      "reviewer": {
+        "mode": "handoff",
+        "agent_id": "reviewer-appropriate-qualification-20260921T030654Z-a9e4c1d2",
+        "declared_model": "gpt-6-astra",
+        "ingested_by": "orchestrator",
+        "source_response": {
+          "path": "audits/runs/a/appropriate/20260921T030654Z-a9e4c1d2/handoff/source_responses/73f8089eeb597992cbb9e8775b73a3bbf2f735d17438e02f591e7a415ab01fbd.json",
+          "sha256": "73f8089eeb597992cbb9e8775b73a3bbf2f735d17438e02f591e7a415ab01fbd"
+        }
+      },
+      "findings": []
+    },
+    {
+      "pass_id": "pronunciation",
+      "reviewer": {
+        "mode": "handoff",
+        "agent_id": "reviewer-appropriate-pronunciation-20260921T030654Z-a9e4c1d2",
+        "declared_model": "gpt-6-astra",
+        "ingested_by": "orchestrator",
+        "source_response": {
+          "path": "audits/runs/a/appropriate/20260921T030654Z-a9e4c1d2/handoff/source_responses/e869d1b53c22bcd8653ed967b7764a96f6a05dd8f2e45aba9e6e1d3d52a19a59.json",
+          "sha256": "e869d1b53c22bcd8653ed967b7764a96f6a05dd8f2e45aba9e6e1d3d52a19a59"
+        }
+      },
+      "findings": []
+    },
+    {
+      "pass_id": "evidence",
+      "reviewer": {
+        "mode": "handoff",
+        "agent_id": "reviewer-appropriate-evidence-20260921T030654Z-a9e4c1d2",
+        "declared_model": "gpt-6-astra",
+        "ingested_by": "orchestrator",
+        "source_response": {
+          "path": "audits/runs/a/appropriate/20260921T030654Z-a9e4c1d2/handoff/source_responses/fe08f02e63cc91133263d6b2ce13e2c0c2891de5399317855278266004278b03.json",
+          "sha256": "fe08f02e63cc91133263d6b2ce13e2c0c2891de5399317855278266004278b03"
+        }
+      },
+      "findings": []
+    }
+  ],
+  "checker_reviewers": {
+    "translation": {
+      "mode": "handoff",
+      "agent_id": "reviewer-appropriate-translation-20260921T030654Z-a9e4c1d2",
+      "declared_model": "gpt-6-astra"
+    },
+    "sense-structure": {
+      "mode": "handoff",
+      "agent_id": "reviewer-appropriate-sensestructure-20260921T030654Z-a9e4c1d2",
+      "declared_model": "gpt-6-astra"
+    },
+    "frame-relation": {
+      "mode": "handoff",
+      "agent_id": "reviewer-appropriate-framerelation-20260921T030654Z-a9e4c1d2",
+      "declared_model": "gpt-6-astra"
+    },
+    "example-attribution": {
+      "mode": "handoff",
+      "agent_id": "reviewer-appropriate-exampleattribution-20260921T030654Z-a9e4c1d2",
+      "declared_model": "gpt-6-astra"
+    },
+    "qualification": {
+      "mode": "handoff",
+      "agent_id": "reviewer-appropriate-qualification-20260921T030654Z-a9e4c1d2",
+      "declared_model": "gpt-6-astra"
+    },
+    "pronunciation": {
+      "mode": "handoff",
+      "agent_id": "reviewer-appropriate-pronunciation-20260921T030654Z-a9e4c1d2",
+      "declared_model": "gpt-6-astra"
+    },
+    "evidence": {
+      "mode": "handoff",
+      "agent_id": "reviewer-appropriate-evidence-20260921T030654Z-a9e4c1d2",
+      "declared_model": "gpt-6-astra"
+    }
+  },
+  "independent_candidates": [],
+  "summary": "Seven independent checker passes completed with no blocking findings; the frame and attribution stages were preserved with their blind records."
+}

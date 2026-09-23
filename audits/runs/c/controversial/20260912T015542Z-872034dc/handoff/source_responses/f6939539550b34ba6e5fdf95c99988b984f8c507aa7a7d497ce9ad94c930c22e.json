@@ -1,0 +1,30 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "81a1d26c2b696bfd6afeee63cc863b8e3f8bcfbe0e9dd5fde1a124523d5379c5",
+  "stage2_request_sha256": "cf431694b21a1251afc6c6af3861a823d11ea212edfef57559836461893e0030",
+  "blind_record_sha256": "7982b752e545a329ab06e389ce7d9dd69d2ed38b682e987daeb43d186eebedce",
+  "adjudications": [
+    {
+      "item_id": "ant-9155f1ca66db",
+      "flags": [],
+      "rationale": "The state axis is appropriate: uncontroversial is the direct absence-of-dispute counterpart for controversial in this sense, and the article's difference line is accurate.",
+      "suggested_direction": null
+    },
+    {
+      "item_id": "ant-5e1d39a9d098",
+      "flags": [],
+      "rationale": "The state axis is appropriate: noncontroversial names the same absence of public dispute, with a more formal or explanatory register, so no relation correction is needed.",
+      "suggested_direction": null
+    }
+  ],
+  "frame_findings": [],
+  "unrouted_observations": [],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "codex-gpt-5",
+    "ingested_by": "human",
+    "agent_id": "controversial-checker-frame-axis-20260912T015542Z-872034dc",
+    "same_model_as_generation": true
+  }
+}

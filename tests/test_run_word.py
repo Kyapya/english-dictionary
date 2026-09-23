@@ -147,6 +147,9 @@ class RunWordTests(unittest.TestCase):
                     "stage_outputs": {},
                 },
             }
+            # This fixture exercises the historical aggregate handoff path.
+            # New self-attested runs are covered by workflow-integrity tests.
+            manifest["orchestrator"].pop("review_response_protocol", None)
             packet_path = run_word.prepare_handoff(manifest, repo_root=root)
             self.assertTrue(packet_path.is_file())
             self.assertIn("Independent review handoff", packet_path.read_text())

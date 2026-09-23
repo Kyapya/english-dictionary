@@ -1,0 +1,420 @@
+# Independent checker handoff
+
+Stage: `checker_passes/qualification`
+
+Run this request in its own independent subagent/session. The seven checker pass requests are designed to run concurrently; do not concatenate them into one prompt or reuse one subagent for multiple passes.
+
+Save exactly one JSON response as `checker_passes.qualification.response.json`. The top-level JSON must include the routed `pass_id` and a `reviewer` object with `mode: "handoff"`, the actual `declared_model`, `ingested_by: "human"`, and a non-empty `agent_id`. Each checker pass must use a different agent_id.
+## Prompt
+
+# check_pass_qualification_v6
+
+## 目的
+
+地域・レジスター・頻度・専門制度の限定と、絶対表現の適用範囲を検査する。
+
+## 担当タクソノミー分類
+
+- `regional_qualification`
+- `absolute_scope_counterexample`
+- `technical_terminology_conventionality`
+
+## 検査ルール
+
+- 米英差・地域差は綴りや発音だけでなく、語義、構文、頻度、自然さ、法域・制度の範囲を確認する。一地域の資料を英語全体へ一般化しない。
+- 頻度は英語全体での遭遇頻度として判定し、同一見出し語内の相対順位や特定領域内だけの頻度を使わない。
+- 高頻度の主要品詞・主要構文を低頻度の古語・地域語・専門語より先に置き、説明量も優先する。項目数の多さで主要用法の欠落を相殺しない。
+- 「必ず」「常に」「最低限」「のみ」「できない」「人なら／物なら」等は、否定、比較、程度表現、別フレームによる反例・打ち消し可能性を探す。傾向・含みを必須条件にしない。
+- 各定義主張を、必須条件、傾向・含み、特定条件に限定されるものへ分け、主要フレームへの適用範囲を確認する。
+- 法律、保険、税務、医療、資格制度等では、辞書上の語彙的意味と制度上の成立要件、手続き、当事者、対象、効果を分ける。
+- 専門訳語・慣用表現を一般語の直訳で置換せず、対象法域・制度の一次資料または信頼できる専門資料で慣用性と範囲を確認する。
+- 専門義ブロックの各pattern・collocation・exampleが当該専門義として明確に成立するか確認する。一般義にも同程度に読める例は専門義の中心例にしない。
+- 専門・地域ラベルを語義全体へ付けたとき、ブロック内の別一般義・別法域・別レジスターが混入しないか確認する。
+- 語源、年代、意味変化、地域差、頻度を根拠以上に断定しない。資料が食い違い範囲を限定できなければhold相当のfindingを返す。
+
+## 入力として受け取るセクション
+
+- `etymology`
+- `word_formation`
+- `sense_structure`
+- `frequency_register`
+- `usage_notes`
+- `collocations_examples`
+
+## findingの出力スキーマ
+
+```json
+{
+  "taxonomy_id": "regional_qualification | absolute_scope_counterexample | technical_terminology_conventionality",
+  "location": {
+    "section": "router section selector",
+    "line_start": 1,
+    "line_end": 1,
+    "exact_quote": "本文からの改変していない引用"
+  },
+  "severity": "blocking | minor",
+  "rationale": "限定不足・反例・専門慣用性の問題",
+  "evidence_link_ids": [],
+  "suggested_direction": "適用範囲、法域、傾向、専門訳を直す方向"
+}
+```
+
+
+## Input packet
+
+```json
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "qualification",
+  "taxonomy_ids": [
+    "regional_qualification",
+    "absolute_scope_counterexample",
+    "technical_terminology_conventionality"
+  ],
+  "specification": "prompts/check_pass_qualification_v6.md",
+  "input_body_sha256": "81a1d26c2b696bfd6afeee63cc863b8e3f8bcfbe0e9dd5fde1a124523d5379c5",
+  "input_sections": {
+    "etymology": [
+      {
+        "line": 17,
+        "text": "＃語源"
+      },
+      {
+        "line": 19,
+        "text": "16世紀後半に使われ始めた語で、後期ラテン語 controversialis「論争に関する」から来た。controversia「論争」は controversus「反対方向に向けられた、争われた」に関係し、contra-/contro-「反対に」と versus「向けられた、転じた」（vertere「向きを変える」の過去分詞）に分けて考えられる。初出年代は資料により1580年代、1583年、1575–85年など差があるため、特定の年として暗記しない。  "
+      }
+    ],
+    "word_formation": [
+      {
+        "line": 21,
+        "text": "＃語形成"
+      },
+      {
+        "line": 23,
+        "text": "・controversy：名詞。「論争、論争点、物議」。controversial と同じ語族の中心語で、public controversy のように使う。  "
+      },
+      {
+        "line": 24,
+        "text": "・controversially：副詞。「物議を醸す形で、論争を呼ぶことに」。文全体や発言・判断の仕方を修飾する。  "
+      },
+      {
+        "line": 25,
+        "text": "・controversialist：名詞。「論争家、論争に加わる人」。人の性向または論争上の立場を指す硬めの語。  "
+      },
+      {
+        "line": 26,
+        "text": "・controvert：動詞。「反論する、論駁する」。controversial と意味は近いが、現代英語では controversial の直接の活用形ではなく、別の動詞として扱う。  "
+      }
+    ],
+    "sense_structure": [
+      {
+        "line": 30,
+        "text": "1. 【形容詞・限定用法／叙述用法・対象／人】論争を呼ぶ、賛否が分かれる、物議を醸す"
+      },
+      {
+        "line": 32,
+        "text": "【日本語訳・定義】政策・決定・主張・作品・発言・人物などが、社会全体または特定の集団の中で、強い意見の対立、批判、反対を引き起こしていることを表す。事実として真偽が決まっていないことを必ずしも含まず、悪い、違法、意図的に挑発的だという意味でもない。  "
+      },
+      {
+        "line": 156,
+        "text": "2. 【形容詞・人の性向・まれ】論争を好む、論争を引き起こしがちな、論争的な"
+      },
+      {
+        "line": 158,
+        "text": "【日本語訳・定義】人が性格や態度の傾向として、議論を好んだり、既存の立場に反論して対立を生みやすかったりすることを表す。辞書に記載される低頻度の語義で、現代の controversial person は通常、語義1の「論争の的となっている人物」と解釈される。  "
+      }
+    ],
+    "frequency_register": [
+      {
+        "line": 30,
+        "text": "1. 【形容詞・限定用法／叙述用法・対象／人】論争を呼ぶ、賛否が分かれる、物議を醸す"
+      },
+      {
+        "line": 34,
+        "text": "【頻度】〈9/10〉  "
+      },
+      {
+        "line": 36,
+        "text": "【レジスター/領域】標準語で、会話・ニュース・政治・文化・学術・ビジネスの文章まで広く使う。controversial は「多くの人が反対している」と同じではなく、賛成・反対の議論が強く起きている状態を指す。  "
+      },
+      {
+        "line": 156,
+        "text": "2. 【形容詞・人の性向・まれ】論争を好む、論争を引き起こしがちな、論争的な"
+      },
+      {
+        "line": 160,
+        "text": "【頻度】〈2/10〉  "
+      },
+      {
+        "line": 162,
+        "text": "【レジスター/領域】まれで、辞書的・形式的・文学的な説明に現れやすい。現代の一般的な文章で人の性向を表すなら argumentative、disputatious、polemical の方が意味を明確にしやすい。  "
+      }
+    ],
+    "usage_notes": [
+      {
+        "line": 30,
+        "text": "1. 【形容詞・限定用法／叙述用法・対象／人】論争を呼ぶ、賛否が分かれる、物議を醸す"
+      },
+      {
+        "line": 87,
+        "text": "【語法・注意】対象を主語にした be controversial は「その対象が論争の的だ」という意味で、必ずしも対象自身が議論を仕掛けるわけではない。人物についても通常は「評価が割れている人物」の意味であり、「論争を好む人」という性向を言いたいときは語義2を確認する。highly は対立の強さ、widely は論争が広い範囲に及ぶことを示す。controversial を「間違った」「受け入れられない」と自動的に訳さず、何が誰の間で争われているかを among/within 句や文脈で補う。  "
+      },
+      {
+        "line": 156,
+        "text": "2. 【形容詞・人の性向・まれ】論争を好む、論争を引き起こしがちな、論争的な"
+      },
+      {
+        "line": 188,
+        "text": "【語法・注意】この語義では controversial が人の性向を直接表すが、現代の「論争の的となる人物」という普通の解釈と形が同じなので、文脈で区別する必要がある。a controversial politician は通常語義1であり、気質を明示する temperament、manner、by temperament などがあって初めて語義2に近づく。意見が割れているだけなら語義1、本人が反論・対立を好むことまで言うなら語義2である。  "
+      }
+    ],
+    "collocations_examples": [
+      {
+        "line": 30,
+        "text": "1. 【形容詞・限定用法／叙述用法・対象／人】論争を呼ぶ、賛否が分かれる、物議を醸す"
+      },
+      {
+        "line": 40,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 42,
+        "text": "・a controversial issue  "
+      },
+      {
+        "line": 43,
+        "text": "用途: 社会的に賛否が対立している問題を指す。  "
+      },
+      {
+        "line": 44,
+        "text": "例: The use of facial-recognition technology remains a controversial issue.  "
+      },
+      {
+        "line": 45,
+        "text": "訳: 顔認証技術の利用は依然として論争を呼ぶ問題だ。  "
+      },
+      {
+        "line": 47,
+        "text": "・a controversial decision  "
+      },
+      {
+        "line": 48,
+        "text": "用途: 決定の妥当性や影響をめぐって強い反対・批判が出ていることを表す。  "
+      },
+      {
+        "line": 49,
+        "text": "例: The committee made a controversial decision to cancel the exhibition.  "
+      },
+      {
+        "line": 50,
+        "text": "訳: 委員会は展示会を中止するという物議を醸す決定を下した。  "
+      },
+      {
+        "line": 52,
+        "text": "・a controversial figure  "
+      },
+      {
+        "line": 53,
+        "text": "用途: 功績と批判の両方があり、評価が大きく割れている人物を指す。  "
+      },
+      {
+        "line": 54,
+        "text": "例: The historian remains a controversial figure in the region.  "
+      },
+      {
+        "line": 55,
+        "text": "訳: その歴史家はその地域で今も評価が大きく分かれる人物だ。  "
+      },
+      {
+        "line": 57,
+        "text": "・a highly controversial proposal  "
+      },
+      {
+        "line": 58,
+        "text": "用途: 提案に対して非常に強い賛否や反発が起きていることを強調する。  "
+      },
+      {
+        "line": 59,
+        "text": "例: The city council postponed a highly controversial proposal.  "
+      },
+      {
+        "line": 60,
+        "text": "訳: 市議会は非常に物議を醸している提案を延期した。  "
+      },
+      {
+        "line": 62,
+        "text": "・controversial among 〈group〉  "
+      },
+      {
+        "line": 63,
+        "text": "用途: どの集団の中で意見が割れているかを限定する。  "
+      },
+      {
+        "line": 64,
+        "text": "例: The interpretation is controversial among constitutional scholars.  "
+      },
+      {
+        "line": 65,
+        "text": "訳: その解釈は憲法学者の間で議論が分かれている。  "
+      },
+      {
+        "line": 67,
+        "text": "・controversial in some circles  "
+      },
+      {
+        "line": 68,
+        "text": "用途: 社会全体ではなく、特定の界隈で物議を醸していることを示す。  "
+      },
+      {
+        "line": 69,
+        "text": "例: The advertising campaign is controversial in some circles but popular with younger viewers.  "
+      },
+      {
+        "line": 70,
+        "text": "訳: その広告キャンペーンは一部では物議を醸しているが、若い視聴者には人気がある。  "
+      },
+      {
+        "line": 72,
+        "text": "・it remains controversial whether ...  "
+      },
+      {
+        "line": 73,
+        "text": "用途: 判断が現在も決着していないことを述べる。  "
+      },
+      {
+        "line": 74,
+        "text": "例: It remains controversial whether the policy reduced inequality.  "
+      },
+      {
+        "line": 75,
+        "text": "訳: その政策が格差を縮小したかどうかは、今も議論が分かれている。  "
+      },
+      {
+        "line": 77,
+        "text": "・a controversial remark  "
+      },
+      {
+        "line": 78,
+        "text": "用途: 発言が批判や反発を招く内容だったことを表す。  "
+      },
+      {
+        "line": 79,
+        "text": "例: The minister's controversial remark drew criticism from both parties.  "
+      },
+      {
+        "line": 80,
+        "text": "訳: 大臣の物議を醸す発言は両党から批判を招いた。  "
+      },
+      {
+        "line": 82,
+        "text": "・become controversial after ...  "
+      },
+      {
+        "line": 83,
+        "text": "用途: 当初は普通だった対象が、後から知られた事実や変化によって論争の的になることを表す。  "
+      },
+      {
+        "line": 84,
+        "text": "例: The renovation plan became controversial after residents learned the full cost.  "
+      },
+      {
+        "line": 85,
+        "text": "訳: 住民が総費用を知った後、その改修計画は物議を醸すようになった。  "
+      },
+      {
+        "line": 156,
+        "text": "2. 【形容詞・人の性向・まれ】論争を好む、論争を引き起こしがちな、論争的な"
+      },
+      {
+        "line": 166,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 168,
+        "text": "・a controversial temperament  "
+      },
+      {
+        "line": 169,
+        "text": "用途: 人が性格的に議論や対立を好むことを、まれな形容詞用法で表す。  "
+      },
+      {
+        "line": 170,
+        "text": "例: The columnist has a controversial temperament and treats every meeting as a public debate.  "
+      },
+      {
+        "line": 171,
+        "text": "訳: そのコラムニストは論争を好む気質で、どの会議も公開討論のように扱う。  "
+      },
+      {
+        "line": 173,
+        "text": "・a controversial manner  "
+      },
+      {
+        "line": 174,
+        "text": "用途: 人が対立を招きやすい仕方で話したり振る舞ったりすることを表す。  "
+      },
+      {
+        "line": 175,
+        "text": "例: Her controversial manner turned minor technical disagreements into public arguments.  "
+      },
+      {
+        "line": 176,
+        "text": "訳: 彼女の対立を生みやすい態度は、ささいな技術上の意見の違いまで公の論争に変えた。  "
+      },
+      {
+        "line": 178,
+        "text": "・be controversial by temperament  "
+      },
+      {
+        "line": 179,
+        "text": "用途: 物議を醸す個別の行動ではなく、もともとの性向が論争的だと述べるまれな構文。  "
+      },
+      {
+        "line": 180,
+        "text": "例: He was controversial by temperament, challenging even minor points in every debate.  "
+      },
+      {
+        "line": 181,
+        "text": "訳: 彼は性向として論争的で、どの討論でもささいな点にまで反論した。  "
+      },
+      {
+        "line": 183,
+        "text": "・be controversial in debate  "
+      },
+      {
+        "line": 184,
+        "text": "用途: 議論の最中に、立場そのものよりも反論を重ねる性向が目立つことを表す。  "
+      },
+      {
+        "line": 185,
+        "text": "例: The speaker was controversial in debate because he deliberately attacked each established position.  "
+      },
+      {
+        "line": 186,
+        "text": "訳: その話者は確立した立場を一つ一つ意図的に攻撃したため、討論では論争的だった。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "1cf8a434bbe1213c0ef739f4c47ffb41014ab2cd5156d297471af6df85ae40a2",
+  "source_artifact_sha256": "77ed6903c70ca9ccab05a50f54ae8740a0cbc1b14859eb360871347314edd2d8",
+  "normalized_input_sha256": "200997e23daa89657501501c13eaf7f268a7c8cbbb588a048a45fcbac2aa4aef"
+}
+```

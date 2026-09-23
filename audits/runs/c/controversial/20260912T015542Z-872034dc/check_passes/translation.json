@@ -1,0 +1,17 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "translation",
+  "input_body_sha256": "81a1d26c2b696bfd6afeee63cc863b8e3f8bcfbe0e9dd5fde1a124523d5379c5",
+  "findings": [],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "codex-gpt-5",
+    "ingested_by": "orchestrator",
+    "agent_id": "controversial-checker-translation-20260912T015542Z-872034dc",
+    "same_model_as_generation": true,
+    "source_response": {
+      "path": "audits/runs/c/controversial/20260912T015542Z-872034dc/handoff/source_responses/ba96d2ae3e21d4fc24462e91c6f3d2b7bd2f65e16e95c2943805452d9d352436.json",
+      "sha256": "ba96d2ae3e21d4fc24462e91c6f3d2b7bd2f65e16e95c2943805452d9d352436"
+    }
+  }
+}

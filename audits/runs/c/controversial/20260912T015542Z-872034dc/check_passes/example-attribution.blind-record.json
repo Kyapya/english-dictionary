@@ -1,0 +1,164 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "stage": 1,
+  "pass_id": "example-attribution",
+  "input_body_sha256": "81a1d26c2b696bfd6afeee63cc863b8e3f8bcfbe0e9dd5fde1a124523d5379c5",
+  "blind_request_sha256": "4df720e3fec5307bd134bfcf73471fda85cea13c9f7d32fb458aa3dd67981f81",
+  "recorded_at": "2026-09-12T02:20:10Z",
+  "attributions": [
+    {
+      "example_id": "ex-ac1f37066679",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "policy"
+      ],
+      "rationale": "The term policy identifies a public decision or program being evaluated for disagreement, which fits sense:001."
+    },
+    {
+      "example_id": "ex-4b69ba5d4c7d",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "manner"
+      ],
+      "rationale": "The term manner makes the adjective describe a person's habitual way of behaving, supporting the rare sense:002."
+    },
+    {
+      "example_id": "ex-521917da671b",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "proposal"
+      ],
+      "rationale": "The term proposal identifies an object of public approval or opposition, supporting sense:001."
+    },
+    {
+      "example_id": "ex-1ae410060fc9",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "advertising"
+      ],
+      "rationale": "The term advertising frames the campaign as a public work receiving mixed reactions, supporting sense:001."
+    },
+    {
+      "example_id": "ex-e9c0f853bc9b",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "decision"
+      ],
+      "rationale": "The term decision names an institutional choice that can attract criticism, supporting sense:001."
+    },
+    {
+      "example_id": "ex-4cbe0301a48f",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "renovation"
+      ],
+      "rationale": "The term renovation identifies a plan whose cost creates public disagreement, supporting sense:001."
+    },
+    {
+      "example_id": "ex-685e754c92c7",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "temperament"
+      ],
+      "rationale": "The term temperament explicitly presents controversy as a stable personal disposition, supporting sense:002."
+    },
+    {
+      "example_id": "ex-2b864bd448fb",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "deliberately"
+      ],
+      "rationale": "The term deliberately signals a person's repeated choice to attack established positions, supporting sense:002."
+    },
+    {
+      "example_id": "ex-e74721a3133b",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "historian"
+      ],
+      "rationale": "The term historian identifies a public figure whose reputation is disputed, supporting sense:001."
+    },
+    {
+      "example_id": "ex-069c7db5553b",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "remark"
+      ],
+      "rationale": "The term remark identifies a public utterance that draws criticism, supporting sense:001."
+    },
+    {
+      "example_id": "ex-7b75c5c09c71",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "technology"
+      ],
+      "rationale": "The term technology identifies the public issue under debate, supporting sense:001."
+    },
+    {
+      "example_id": "ex-ee135a966740",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "columnist"
+      ],
+      "rationale": "The term columnist identifies the person whose temperament is being described, supporting sense:002."
+    },
+    {
+      "example_id": "ex-7927fe1bf63d",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "interpretation"
+      ],
+      "rationale": "The term interpretation identifies a claim evaluated by a professional group, supporting sense:001."
+    }
+  ],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "codex-gpt-5",
+    "ingested_by": "orchestrator",
+    "agent_id": "controversial-checker-example-attribution-20260912T015542Z-872034dc",
+    "same_model_as_generation": true,
+    "source_response": {
+      "path": "audits/runs/c/controversial/20260912T015542Z-872034dc/handoff/source_responses/fb876f521ed92c9e0bc5a6a453f31e1cc6a84582669bc0a2af1d98f49d6b136a.json",
+      "sha256": "fb876f521ed92c9e0bc5a6a453f31e1cc6a84582669bc0a2af1d98f49d6b136a"
+    }
+  }
+}

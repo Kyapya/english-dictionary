@@ -1,0 +1,27 @@
+{
+  "summary": "問題候補なし。本文の語義区分、発音説明、語源、文型、例文、訳、レジスター表示を前提なしで横断確認したが、学習者に誤った一般化を促す重大な問題は見当たらない。",
+  "findings": [],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "codex-gpt-5",
+    "ingested_by": "orchestrator",
+    "agent_id": "controversial-cold-20260912T015542Z-872034dc",
+    "source_response": {
+      "path": "audits/runs/c/controversial/20260912T015542Z-872034dc/handoff/source_responses/f244c66cce79567090f0bf682ace522cc2f7145badf4d298bf33469f3e75605f.json",
+      "sha256": "f244c66cce79567090f0bf682ace522cc2f7145badf4d298bf33469f3e75605f"
+    },
+    "same_model_as_generation": true
+  },
+  "schema_version": "cold_review_v1",
+  "stage": "cold_review",
+  "run_id": "cold-controversial-20260912T015542Z-872034dc",
+  "context_id": "cold-controversial-context-20260912T015542Z-872034dc",
+  "input_body_sha256": "81a1d26c2b696bfd6afeee63cc863b8e3f8bcfbe0e9dd5fde1a124523d5379c5",
+  "prompt_sha256": "25c298d1a4305746147791bd442cd725a92737c8f0802b992ea88e5c6ff76a5d",
+  "input_artifacts": [
+    "entry_body",
+    "cold_review_prompt"
+  ],
+  "audit_visible": false,
+  "recorded_at": "2026-09-12T02:34:36.348334+00:00"
+}

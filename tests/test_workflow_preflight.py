@@ -33,7 +33,7 @@ class ReviewPreflightTests(unittest.TestCase):
         cls.root = Path(cls.temp.name)
         # Freeze regression inputs at the incident commit, so future commission
         # corrections do not silently change the expected review fixture.
-        data = subprocess.check_output(["git", "-C", str(ROOT), "archive", "dbcdfce512fa825f995896570692ac904b832393", "prompts", "entries/c/commission.md", "audits/runs/c/commission", "audits/workflow_runs/commission", "audits/escaped_defect_taxonomy.json", "audits/review_invalidations.json"])
+        data = subprocess.check_output(["git", "-c", "core.autocrlf=false", "-C", str(ROOT), "archive", "dbcdfce512fa825f995896570692ac904b832393", "prompts", "entries/c/commission.md", "audits/runs/c/commission", "audits/workflow_runs/commission", "audits/escaped_defect_taxonomy.json", "audits/review_invalidations.json"])
         with tarfile.open(fileobj=io.BytesIO(data)) as archive:
             archive.extractall(cls.root, filter="data")
         gitdir = publish.git(ROOT, "rev-parse", "--absolute-git-dir")
@@ -70,6 +70,13 @@ class ReviewPreflightTests(unittest.TestCase):
             self.assertTrue(all(r["status"] is None for r in template[field]))
             if field != "finding_results":
                 self.assertTrue(all("notes" not in r for r in template[field]))
+        self.assertIn("review_context", packet)
+        self.assertNotIn("pass_findings", packet)
+        self.assertNotIn("source_inventory", packet)
+        self.assertLess(
+            len(json.dumps(packet, ensure_ascii=False)),
+            len(json.dumps(preflight.final_inputs(self.entry, self.cycle, self.root), ensure_ascii=False)),
+        )
 
     def test_frozen_packet_cannot_be_rebound(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -101,7 +108,7 @@ class ReviewPreflightTests(unittest.TestCase):
         old_cycle = self.cycle.parent / manifest["run_id"]
         hashes = {p: p.read_bytes() for p in old_cycle.rglob("*.json")}
         with self.assertRaisesRegex(ValueError, "COLD-001.*exact quote") as error:
-            preflight.validate(manifest, stage="cold_review", declared_model="gpt-5", reviewer_agent_id="cold-independent", repo_root=self.root, ingest=run_word.ingest_handoff_review)
+            preflight.validate(manifest, stage="cold_review", declared_model="gpt-5", reviewer_agent_id="commission-cold-agent", repo_root=self.root, ingest=run_word.ingest_handoff_review)
         self.assertIn("COLD-005", str(error.exception))
         self.assertEqual(manifest, before)
         self.assertEqual(hashes, {p: p.read_bytes() for p in old_cycle.rglob("*.json")})
@@ -174,9 +181,18 @@ class PublishTests(unittest.TestCase):
         self.assertEqual([c["message"] for c in plan["commits"]], ["seal", "final"])
         self.assertIn({"path": "initial", "mode": "100644", "type": "blob", "sha": None}, plan["commits"][1]["entries"])
         publish.git(self.root, "push", "origin", "HEAD:entry/test")
+        head = publish.git(self.root, "rev-parse", "HEAD")
         with self.assertRaisesRegex(ValueError, "advanced"):
-            publish.plan(self.root)
-        accepted = publish.accept(self.root, publish.git(self.root, "rev-parse", "HEAD"))
+            publish.plan(self.root, remote_head=head)
+        value = publish.plan(self.root, check_remote=False)
+        plan_id = hashlib.sha256(json.dumps(value, sort_keys=True).encode()).hexdigest()
+        publish._atomic_json(
+            publish._session_path(self.root, plan_id),
+            {"plan": value, "blobs": [], "trees": [],
+             "commits": {item["local_sha"]: item["local_sha"] for item in value["commits"]},
+             "progress": "test"},
+        )
+        accepted = publish.accept(self.root, head, plan_id)
         self.assertEqual(accepted["local_head"], accepted["remote_head"])
         publish.select(self.root, "connector")
         self.assertTrue(publish.publish(self.root))
@@ -185,8 +201,14 @@ class PublishTests(unittest.TestCase):
     def test_receipt_cannot_accept_wrong_head(self):
         (self.root / "changed").write_text("new")
         self.commit("change")
-        with self.assertRaisesRegex(ValueError, "differs"):
-            publish.accept(self.root, "0" * 40)
+        value = publish.plan(self.root, check_remote=False)
+        plan_id = hashlib.sha256(json.dumps(value, sort_keys=True).encode()).hexdigest()
+        publish._atomic_json(
+            publish._session_path(self.root, plan_id),
+            {"plan": value, "blobs": [], "trees": [], "commits": {}, "progress": "test"},
+        )
+        with self.assertRaisesRegex(ValueError, "incomplete"):
+            publish.accept(self.root, "0" * 40, plan_id)
 
 
 if __name__ == "__main__":

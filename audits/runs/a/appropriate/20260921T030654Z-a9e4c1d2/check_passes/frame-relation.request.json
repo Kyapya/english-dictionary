@@ -1,0 +1,82 @@
+{
+  "schema_version": "antonym_axis_blind_request_v1",
+  "pass_id": "frame-relation",
+  "taxonomy_ids": [
+    "argument_slot_role_mismatch",
+    "lexical_relation_mislabel"
+  ],
+  "specification": "prompts/check_pass_frame_relation_v7.md",
+  "input_body_sha256": "c0f235efca9fc6b070d0f5c1706c7e1f86c60ca3bccb8f1cd91649c73eab5e88",
+  "input_sections": {
+    "antonym_items": [
+      {
+        "item_id": "ant-dd8adda0fff2",
+        "headword": "appropriate",
+        "sense_definition": "【日本語訳・定義】状況・目的・年齢・相手などにふさわしい、適切な。",
+        "antonym": "unsuitable",
+        "antonym_definition": "定義: 目的・条件・人に合わず、使うのに適していない。"
+      },
+      {
+        "item_id": "ant-e011c011f71a",
+        "headword": "appropriate",
+        "sense_definition": "【日本語訳・定義】公的な資金・資源を目的のために取り分ける、正式に割り当てる。",
+        "antonym": "withhold",
+        "antonym_definition": "定義: 与える、支出する、割り当てるはずのものを渡さずに保留する。"
+      },
+      {
+        "item_id": "ant-f809e4c0b53c",
+        "headword": "appropriate",
+        "sense_definition": "【日本語訳・定義】他者の考え・資金・土地などを無断で自分のものとして使う、取り込む。",
+        "antonym": "relinquish",
+        "antonym_definition": "定義: 所有・権利・支配などを手放し、他者に渡す。"
+      },
+      {
+        "item_id": "ant-2bcfcaf62f99",
+        "headword": "appropriate",
+        "sense_definition": "【日本語訳・定義】状況・目的・年齢・相手などにふさわしい、適切な。",
+        "antonym": "inappropriate",
+        "antonym_definition": "定義: 状況・目的・基準に合わず、ふさわしくない。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "difference_line",
+      "frequency_line",
+      "example_line",
+      "translation_line",
+      "synonym_section",
+      "core_image",
+      "other_senses",
+      "document_order"
+    ],
+    "questions": [
+      "name_axis_as_one_noun",
+      "classify_as_補完_程度_方向_評価_状態",
+      "record_unnamable_with_one_sentence_reason"
+    ],
+    "required_output_schema": "antonym_axis_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "source_artifact_sha256": "089181727c0715f6c01e8560c1ae604c6f468ae8415f1e471b2d3837e3c7cf07",
+  "specification_sha256": "3598ca81a5784639c6b43a0806d0981a985bf4174f424c744aad1dde787bfcef",
+  "normalized_input_sha256": "da863991f1182cfed20ff8fe45b37e213655db0ea70168b5b1445d24c56c3a83"
+}

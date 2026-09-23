@@ -1,0 +1,70 @@
+{
+  "pass_id": "frame-relation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-sol",
+    "ingested_by": "human",
+    "agent_id": "variation-20260913T012522Z-51385f93-recheck-round2-independent"
+  },
+  "antonym_axis_blind_record": {
+    "schema_version": "antonym_axis_blind_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b",
+    "blind_request_sha256": "fdc206b46e66d0fe67fe91423e034ba47bad608ed547382fc64721683566b7d1",
+    "recorded_at": "2026-09-17T17:30:00+00:00",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5.6-sol",
+      "ingested_by": "human",
+      "agent_id": "variation-20260913T012522Z-51385f93-recheck-round2-independent"
+    },
+    "axes": [
+      {
+        "item_id": "ant-519ed0f68e0e",
+        "axis": "一様性",
+        "relation_type": "状態",
+        "reason": "変動・ばらつきのある状態と、対象間の差がほとんどなくそろった状態の対立である。"
+      },
+      {
+        "item_id": "ant-4fcd8d375a12",
+        "axis": "均質性",
+        "relation_type": "状態",
+        "reason": "集団内の個体差・変異と、構成要素が互いによく似て一様な状態の対立である。"
+      }
+    ]
+  },
+  "antonym_axis_adjudication_record": {
+    "schema_version": "antonym_axis_adjudication_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b",
+    "stage2_request_sha256": "de7357bd9af060a71dd238769db7e9b935fbde0dd350ac3f4c7770444ee4ddb9",
+    "blind_record_sha256": "7807d608a01b5b8d20caef4a6af6ec004fe00b6012f34bc569154d352df282c5",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5.6-sol",
+      "ingested_by": "human",
+      "agent_id": "variation-20260913T012522Z-51385f93-recheck-round2-independent"
+    },
+    "adjudications": [
+      {
+        "item_id": "ant-519ed0f68e0e",
+        "flags": [],
+        "rationale": "一様性は、語義1の変動・ばらつきに対する、対象間の差がほとんどなくそろった状態という同じ状態軸から導出でき、違い行も対立を維持している。",
+        "f4_severity": null
+      },
+      {
+        "item_id": "ant-4fcd8d375a12",
+        "flags": [],
+        "rationale": "均質性は、語義3の集団内の個体差・変異に対する、構成要素が互いによく似て一様な状態という同じ状態軸から導出でき、違い行も対立を維持している。",
+        "f4_severity": null
+      }
+    ],
+    "frame_findings": [],
+    "unrouted_observations": []
+  },
+  "aligned_at": "2026-09-17T17:31:00+00:00",
+  "findings": [],
+  "unrouted_observations": [],
+  "schema_version": "check_pass_response_v6",
+  "input_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b"
+}

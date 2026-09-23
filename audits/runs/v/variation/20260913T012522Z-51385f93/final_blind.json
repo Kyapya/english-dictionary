@@ -1,0 +1,182 @@
+{
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "cand_general_change",
+      "surface_form": "variation",
+      "frame": "variation in/of + quantity, level, quality, temperature, or pressure; variation between/among + entities; variation according to + factor; variation of A with B",
+      "meaning": "change, fluctuation, or dispersion, including differences across comparable observations",
+      "disposition": "included",
+      "rationale": "The variation frame covers change or spread in a measured attribute and separately accommodates comparisons among entities without turning every difference into a specialized biological sense.",
+      "semantic_assertions": [
+        {
+          "id": "assert_general_boundary",
+          "statement": "The meaning must denote change, fluctuation, or neutral spread in a comparable attribute or set of observations, rather than a deliberately modified version of an original object.",
+          "polarity": "must_hold",
+          "scope": "general noun frames"
+        },
+        {
+          "id": "assert_general_exclusion",
+          "statement": "The frame must not require a biological population, a musical theme, a ballet solo, a contract, or magnetic north as its semantic context.",
+          "polarity": "must_not_hold",
+          "scope": "general noun frames"
+        }
+      ]
+    },
+    {
+      "id": "cand_modified_version",
+      "surface_form": "variation",
+      "frame": "a variation on/of + original design, idea, story, recipe, method, or instructions",
+      "meaning": "a modified version that retains a basic relation to its source",
+      "disposition": "included",
+      "rationale": "The variation on frame is presented as a source-related modified version, with continuity to the original rather than an unrelated alternative.",
+      "semantic_assertions": [
+        {
+          "id": "assert_modified_source",
+          "statement": "The frame must preserve a recognizable source, basic idea, or type while allowing part of the content or form to change.",
+          "polarity": "must_hold",
+          "scope": "variation on/of source frames"
+        },
+        {
+          "id": "assert_modified_exclusion",
+          "statement": "The frame must not be generalized to every numerical fluctuation or to the formal alteration of a contract.",
+          "polarity": "must_not_hold",
+          "scope": "variation on/of source frames"
+        }
+      ]
+    },
+    {
+      "id": "cand_biological_difference",
+      "surface_form": "variation",
+      "frame": "genetic/biological variation within a species or population; variation among individuals; variation between populations",
+      "meaning": "biological differences or non-uniformity within or between related populations",
+      "disposition": "included",
+      "rationale": "The biological variation frame is independently identifiable by its population and inherited-or-structural difference context, including within-group and between-group relations.",
+      "semantic_assertions": [
+        {
+          "id": "assert_biological_population",
+          "statement": "The meaning must concern differences among organisms or populations in biological characteristics, not merely any everyday difference between two things.",
+          "polarity": "must_hold",
+          "scope": "biological noun frames"
+        },
+        {
+          "id": "assert_biological_not_mutation",
+          "statement": "The meaning must not equate variation with mutation; mutation may be a cause of genetic variation but is not synonymous with the observed variation.",
+          "polarity": "must_not_hold",
+          "scope": "biological noun frames"
+        }
+      ]
+    },
+    {
+      "id": "cand_music",
+      "surface_form": "variation",
+      "frame": "a variation on a theme/melody; a set of variations; theme and variations; play/perform a variation",
+      "meaning": "a musical treatment that develops a theme or melody through changes in melody, harmony, rhythm, or key",
+      "disposition": "included",
+      "rationale": "The musical variation frame is separated by its theme-and-development relation and by the distinction between an individual variation and a set or complete work.",
+      "semantic_assertions": [
+        {
+          "id": "assert_music_theme",
+          "statement": "The meaning must involve a musical theme or melody that is retained as the basis while musical features are changed or ornamented.",
+          "polarity": "must_hold",
+          "scope": "musical noun frames"
+        },
+        {
+          "id": "assert_music_not_version",
+          "statement": "The meaning must not reduce to any different recording or performance; version or arrangement may be more appropriate when no theme-and-variation relation is intended.",
+          "polarity": "must_not_hold",
+          "scope": "musical noun frames"
+        }
+      ]
+    },
+    {
+      "id": "cand_ballet",
+      "surface_form": "variation",
+      "frame": "perform/rehearse/learn a variation; a classical ballet variation; a variation from a ballet",
+      "meaning": "a ballet solo or solo number",
+      "disposition": "included",
+      "rationale": "The ballet variation frame is a distinct specialist use for a dancer's solo number, not the musical work that may accompany it.",
+      "semantic_assertions": [
+        {
+          "id": "assert_ballet_solo",
+          "statement": "The meaning must denote a solo dance number or solo section in a classical ballet context.",
+          "polarity": "must_hold",
+          "scope": "ballet noun frames"
+        },
+        {
+          "id": "assert_ballet_not_general_dance",
+          "statement": "The meaning must not be generalized to every one-person dance outside the ballet context.",
+          "polarity": "must_not_hold",
+          "scope": "ballet noun frames"
+        }
+      ]
+    },
+    {
+      "id": "cand_contract",
+      "surface_form": "variation",
+      "frame": "a variation to/of the contract; variation clause; variation order; agree/approve/document a variation",
+      "meaning": "a formal change to an existing contract or to contracted work",
+      "disposition": "included",
+      "rationale": "The contract variation frame is delimited by an existing agreement and by formal changes to its terms, scope, price, quantity, or schedule.",
+      "semantic_assertions": [
+        {
+          "id": "assert_contract_existing",
+          "statement": "The meaning must concern a change to an already formed contract or its contracted work, with the exact procedural requirements left to the contract and applicable law.",
+          "polarity": "must_hold",
+          "scope": "contract and legal noun frames"
+        },
+        {
+          "id": "assert_contract_not_alternative",
+          "statement": "The meaning must not be treated as merely an optional alternative proposal unrelated to changing an existing contract.",
+          "polarity": "must_not_hold",
+          "scope": "contract and legal noun frames"
+        }
+      ]
+    },
+    {
+      "id": "cand_magnetic",
+      "surface_form": "magnetic variation",
+      "frame": "magnetic variation; magnetic variation at a location; account for magnetic variation",
+      "meaning": "the angular difference between true north and magnetic north",
+      "disposition": "included",
+      "rationale": "The magnetic variation frame is a fixed navigation and surveying expression for the true-north/magnetic-north angular difference, with magnetic declination identified as a field-dependent alternative term.",
+      "semantic_assertions": [
+        {
+          "id": "assert_magnetic_angle",
+          "statement": "The meaning must denote the directional angle or bearing difference between true north and magnetic north at a place, relevant to navigation or surveying.",
+          "polarity": "must_hold",
+          "scope": "magnetic variation compound"
+        },
+        {
+          "id": "assert_magnetic_not_generic",
+          "statement": "The compound must not be interpreted as ordinary seasonal, numerical, or population variation merely because it contains variation.",
+          "polarity": "must_not_hold",
+          "scope": "magnetic variation compound"
+        }
+      ]
+    }
+  ],
+  "article_findings": [],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-sol",
+    "ingested_by": "orchestrator",
+    "agent_id": "01a0b05e-5ff5-7501-b54d-2125d6cab0bc",
+    "source_response": {
+      "path": "audits/runs/v/variation/20260913T012522Z-51385f93/handoff/source_responses/2392c277d63c79ba7a1936d315b533e07b6209f3d03b78a689b1d6e8fed473b2.json",
+      "sha256": "2392c277d63c79ba7a1936d315b533e07b6209f3d03b78a689b1d6e8fed473b2"
+    }
+  },
+  "schema_version": "final_blind_v2",
+  "stage": "final_blind",
+  "run_id": "blind-variation-20260913T012522Z-51385f93",
+  "context_id": "blind-variation-context-20260913T012522Z-51385f93",
+  "input_body_sha256": "0c6a414dbe4581ea4e189a61087712289075a9ba597a413832b924405a92d69b",
+  "prompt_sha256": "3a481b4b5b1236ff386e148bcacc574570b305e79f5e155e9afcd34091f7785c",
+  "input_artifacts": [
+    "entry_body",
+    "final_blind_prompt"
+  ],
+  "audit_visible": false,
+  "recorded_at": "2026-09-17T17:20:14.116527+00:00"
+}

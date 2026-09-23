@@ -1,0 +1,42 @@
+{
+  "schema": "final_blind_review_v2",
+  "metadata": {
+    "schema_version": "final_blind_v2",
+    "stage": "final_blind",
+    "run_id": "blind-variation-20260913T012522Z-51385f93",
+    "context_id": "blind-variation-context-20260913T012522Z-51385f93",
+    "input_body_sha256": "323eca9505fd518b69937cbbf102eae8c3a1c41685aee84a6a069b47d5c3afc8",
+    "prompt_sha256": "3a481b4b5b1236ff386e148bcacc574570b305e79f5e155e9afcd34091f7785c",
+    "input_artifacts": [
+      "entry_body",
+      "final_blind_prompt"
+    ],
+    "audit_visible": false
+  },
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-sol",
+    "ingested_by": "human",
+    "agent_id": "variation-20260913T012522Z-51385f8c-final-blind-reviewer"
+  },
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "candidate-variation-change-variation",
+      "surface_form": "variation",
+      "frame": "variation in 〈amount/level/quality〉",
+      "meaning": "量・水準・品質などが一定ではなく変わること、またはその変化の幅・ばらつき",
+      "disposition": "included",
+      "rationale": "variation in 〈amount/level/quality〉 は、量・水準・品質などの変動やばらつきを表す主要な名詞用法として本文に明確に記載されている。",
+      "semantic_assertions": [
+        {
+          "id": "assertion-variation-change-1",
+          "statement": "variation in 〈amount/level/quality〉 must denote change or dispersion in the relevant quantity, level, or quality rather than an unrelated object or action.",
+          "polarity": "must_hold",
+          "scope": "candidate-variation-change-variation"
+        }
+      ]
+    }
+  ],
+  "article_findings": []
+}
