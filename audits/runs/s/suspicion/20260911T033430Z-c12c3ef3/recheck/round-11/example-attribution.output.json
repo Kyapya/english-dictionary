@@ -1,0 +1,131 @@
+{
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "agent_id": "/root/round11_example_retry",
+    "declared_model": "GPT-6",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "blind_attribution_record": {
+    "schema_version": "example_attribution_blind_record_v1",
+    "pass_id": "example-attribution",
+    "recorded_at": "2026-09-23T13:39:47+00:00",
+    "input_body_sha256": "13559d31b050882ff1d24890c8d22914c8f87e20f0ddb0e509e2a8178469bd82",
+    "blind_request_sha256": "4e360884b19ca830b1b00efaba122f132dc5cd2ff3b66cb784284f1fa4827d13",
+    "reviewer": {
+      "agent_id": "/root/round11_example_retry",
+      "declared_model": "GPT-6",
+      "mode": "handoff",
+      "ingested_by": "human"
+    },
+    "attributions": [
+      {
+        "example_id": "ex-9f984baaf876",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "aroused residents' suspicions",
+          "that officials had concealed the project's true cost"
+        ],
+        "rationale": "The phrase ‘that officials had concealed the project's true cost’ gives the proposition residents suspect may be true, selecting sense:001. Sense:002 would be a wary attitude toward officials or policy; this example instead states the suspicion's propositional content."
+      },
+      {
+        "example_id": "ex-d8608a3c86ab",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "raised some suspicion",
+          "that several invoices had been altered"
+        ],
+        "rationale": "The phrase ‘that several invoices had been altered’ supplies the proposition that may be true, selecting sense:001. Sense:002 would describe the auditors' wary attitude toward a target, while this example expresses a specific belief about whether an event occurred."
+      },
+      {
+        "example_id": "ex-95a6ceafa529",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "had a suspicion",
+          "that the cashier had altered the sales records"
+        ],
+        "rationale": "The phrase ‘that the cashier had altered the sales records’ is the content of the manager's suspicion, selecting sense:001. Sense:002 would be a distrustful attitude toward the cashier; this sentence instead gives a proposition about possible wrongdoing."
+      },
+      {
+        "example_id": "ex-a876117eef6a",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "remained under suspicion",
+          "whether it had falsified invoices"
+        ],
+        "rationale": "The phrase ‘whether it had falsified invoices’ identifies the possible wrongdoing behind ‘remained under suspicion’, selecting sense:001. Sense:002 would express general wariness toward the contractor, whereas the sentence frames a specific proposition about possible guilt."
+      },
+      {
+        "example_id": "ex-0782305b7d28",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "a suspicion of truth in it"
+        ],
+        "rationale": "‘A suspicion of truth in it’ means a slight element or hint of truth present in the tale, the trace reading in sense:003. Sense:001 is a plausible competitor because suspicion can concern whether something is true, but that reading would take a proposition as its content (for example, suspicion that the tale was true); here ‘of truth in it’ presents truth as a small component within the tale. Sense:002’s distrustful stance is also absent."
+      },
+      {
+        "example_id": "ex-9e7134e27c9f",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "a suspicion of a smile"
+        ],
+        "rationale": "The phrase ‘a suspicion of a smile’ means a faint trace of a smile, selecting sense:003. Sense:001 would concern a proposition suspected to be true (such as that she smiled); here the construction presents the smile as barely perceptible, not a belief or a wary attitude."
+      },
+      {
+        "example_id": "ex-e66631bea145",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "regarded the sudden policy change with suspicion"
+        ],
+        "rationale": "The phrase ‘regarded the sudden policy change with suspicion’ uses suspicion as the residents' wary stance toward that target, selecting sense:002. Sense:001 would express a proposition thought possibly true; this sentence instead describes how they regarded the policy change."
+      },
+      {
+        "example_id": "ex-a33fa4d8f986",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "arrested on suspicion of fraud"
+        ],
+        "rationale": "‘Arrested on suspicion of fraud’ uses suspicion as the unconfirmed belief that the people may have committed a specified offense, matching sense:001. Sense:002’s general distrust or caution toward them would not express the stated possible crime that forms the basis of the arrest. Sense:003, a trace or small amount, is not compatible with this construction."
+      },
+      {
+        "example_id": "ex-4cbcb52e28fb",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "had a suspicion",
+          "that the meeting had been canceled"
+        ],
+        "rationale": "The phrase ‘that the meeting had been canceled’ supplies the proposition the speaker thinks may be true, selecting sense:001. Sense:002 would be a wary attitude toward the meeting or its organizers; this sentence states a specific belief-content instead."
+      }
+    ]
+  },
+  "aligned_at": "2026-09-23T14:42:37.159876+00:00",
+  "findings": [],
+  "unrouted_observations": []
+}
