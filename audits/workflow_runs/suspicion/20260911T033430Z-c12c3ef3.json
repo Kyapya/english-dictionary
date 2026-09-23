@@ -19,11 +19,11 @@
     "candidate_pages": 6
   },
   "status": "in_progress",
-  "stage": "source_inventory_complete",
+  "stage": "normal_review_complete",
   "started_at": "2026-09-11T03:34:30Z",
   "deadline_at": "2026-09-11T04:34:30Z",
   "pre_draft_deadline_at": "2026-09-11T03:54:30Z",
-  "last_heartbeat_at": "2026-09-23T11:37:27Z",
+  "last_heartbeat_at": "2026-09-23T12:12:56Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-11T04:18:22Z",
@@ -49,6 +49,11 @@
       "stage": "source_inventory_complete",
       "recorded_at": "2026-09-23T11:37:27Z",
       "notes": "Completed source-first inventory, target linkage, and fixed checker handoff requests in the existing run."
+    },
+    {
+      "stage": "normal_review_complete",
+      "recorded_at": "2026-09-23T12:12:56Z",
+      "notes": "Completed the 7 independent checker passes, blind stage 2, and example reconciliation in the same existing run. Delay cause: the 2026-09-11 draft checkpoint lacked source inventory and checker responses; resumed 2026-09-23, completed inventory before reviews, and preserved failed preflight attempts in the run history."
     }
   ],
   "stop_reason": "",
@@ -824,7 +829,8 @@
     "recorded_at": "2026-09-23T11:33:22.671117+00:00",
     "fingerprint": null,
     "classification": "repairable_validation",
-    "status": "needs_correction"
+    "status": "resolved",
+    "resolved_at": "2026-09-23T12:12:35.140753+00:00"
   },
   "review_preflight_policy": "repairable_review_preflight_v2"
 }

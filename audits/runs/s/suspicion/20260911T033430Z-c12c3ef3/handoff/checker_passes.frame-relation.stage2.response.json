@@ -1,0 +1,77 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "82f343438dd0057f0cc4edd16ece26ba75380521e8c02dfb806b6da7eb43d3f8",
+  "stage2_request_sha256": "068cc048c6c878085a7caaa981772d79188786140102737d75893b58cf1df8e1",
+  "blind_record_sha256": "82b1c6cab4773167ecf9405f9aaace3c5bc4086839126426ddbf0533e98b7bdc",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-6",
+    "ingested_by": "human",
+    "agent_id": "/root/suspicion_frame_relation_review"
+  },
+  "adjudications": [
+    {
+      "item_id": "ant-5c98ffeee5e2",
+      "flags": [],
+      "rationale": "段階1の軸「信頼」は語義2の定義にある信用・不信から導け、trust は同じ軸の反対側を表す。程度対立として成立し、違い行も対立を否定・限定していない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    }
+  ],
+  "frame_findings": [
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 46,
+        "line_end": 46,
+        "exact_quote": "cast suspicion on 〈person/action〉＝〈人・行為〉に疑いを向ける"
+      },
+      "severity": "minor",
+      "rationale": "語義1の例文「The altered timestamp cast suspicion on the authenticity of the document.」（72行目）は疑いの対象が文書の真正性という性質・主張であり、〈person/action〉の対象枠から外れる。対象を property/claim まで明示する必要がある。",
+      "evidence_link_ids": [],
+      "suggested_direction": "完全フレーム化：対象枠に〈claim/property〉を加える"
+    },
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 113,
+        "line_end": 113,
+        "exact_quote": "regard/view/treat 〈person/claim〉 with suspicion＝〈人・主張〉を疑いの目で見る"
+      },
+      "severity": "minor",
+      "rationale": "語義2の例文「Residents viewed the sudden policy change with suspicion.」（119行目）は対象が人または主張ではなく方針変更・決定である。〈proposal/action/decision〉などの対象枠を示す必要がある。",
+      "evidence_link_ids": [],
+      "suggested_direction": "完全フレーム化：対象枠に〈proposal/action/decision〉を加える"
+    },
+    {
+      "taxonomy_id": "lexical_relation_mislabel",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 84,
+        "line_end": 84,
+        "exact_quote": "・accusation"
+      },
+      "severity": "minor",
+      "rationale": "accusation は不正をしたという非難・告発そのもの、suspicion は証明前に抱く疑いであり、同義語というより関連する発話・行為である。違い行も明示的な主張と内的な疑いを区別しているため、類義語欄から削除するのが適切。",
+      "evidence_link_ids": [],
+      "suggested_direction": "削除"
+    },
+    {
+      "taxonomy_id": "lexical_relation_mislabel",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 91,
+        "line_end": 91,
+        "exact_quote": "・allegation"
+      },
+      "severity": "minor",
+      "rationale": "allegation は証明前に公に提示された不正についての主張で、suspicion の内的な疑いとは意味役割が異なる関連語である。違い行も提示された主張と発言されていない疑いを区別しているため、類義語欄から削除するのが適切。",
+      "evidence_link_ids": [],
+      "suggested_direction": "削除"
+    }
+  ],
+  "unrouted_observations": []
+}

@@ -1,0 +1,161 @@
+{
+  "pass_id": "evidence",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "GPT-6",
+    "ingested_by": "human",
+    "agent_id": "/root/suspicion_evidence_review"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "pronunciation",
+        "line_start": 15,
+        "line_end": 15,
+        "exact_quote": "米: /səˈspɪʃən/｜英: /səˈspɪʃən/。3音節で、第2音節に主強勢がある。Oxford 系の辞書では語末を /ʃn/ と圧縮して表記することもあるが、Cambridge 系の /ʃ.ən/ と大きく異なる発音を示すものではない。語頭の su- は強く /suː/ と読まず、弱い /sə/ になる。"
+      },
+      "severity": "blocking",
+      "rationale": "insufficient_evidence: Oxford（https://www.oxfordlearnersdictionaries.com/definition/english/suspicion）supports /səˈspɪʃn/ in its UK and US fields, and Merriam-Webster (https://www.merriam-webster.com/dictionary/suspicion) marks second-syllable stress. Neither locator verifies the Cambridge /ʃ.ən/ form or the claim that the difference is insignificant; no Cambridge locator is included in the evidence context.",
+      "evidence_link_ids": [
+        "oxf_pron",
+        "mw_pron"
+      ],
+      "suggested_direction": "Add a Cambridge locator and verify the comparison, or remove the Cambridge comparison."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "etymology",
+        "line_start": 19,
+        "line_end": 19,
+        "exact_quote": "suspicion は中英語・アングロフランス語／古フランス語を経て、ラテン語 suspīciō / suspectionem「疑い、不信」にさかのぼる。さらに suspicere「ひそかに見る、疑って見る、疑う」と関係し、sub-「下から・ひそかに」と specere「見る」に結び付く語族である。現代語の意味では、目の前の証拠だけでは確定できないものを「何かあるのではないか」と見る感覚が中心に残っている。suspect、suspicious も同じ語族に属する。"
+      },
+      "severity": "blocking",
+      "rationale": "The cited etymology facts support the route through Middle English, French forms, and Latin suspicere. However, Etymonline's locator (https://www.etymonline.com/word/suspicion), in its linked suspect entry, describes sub as “up to” and specere as “to look at”; it does not support the article's gloss “下から・ひそかに” for sub-. The linked origin facts also do not establish that the stated modern semantic image “remains” as the word's central meaning. The target extends beyond the linked etymological facts.",
+      "evidence_link_ids": [
+        "oxf_origin",
+        "mw_origin",
+        "ahd_origin",
+        "ety_origin",
+        "ety_spelling"
+      ],
+      "suggested_direction": "Limit the etymology to the sourced historical route and component glosses, or add direct support and mark the modern semantic continuity as an interpretation."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "word_formation",
+        "line_start": 23,
+        "line_end": 25,
+        "exact_quote": "・suspect：動詞では「～ではないかと疑う、〈人〉を犯人・不正の当事者ではないかと疑う」、名詞では「容疑者」、形容詞では「疑わしい、怪しい」。suspicion はその「疑い・疑念」を名詞として表す。\n・suspicious：形容詞。「疑っている、怪しいと思っている」または「疑わしい、怪しい」。人の心理と、対象の性質の両方を表せる。\n・suspiciously：副詞。「疑わしそうに、怪しいほど」。行動の見え方にも、程度が不自然に高いことにも使う。"
+      },
+      "severity": "blocking",
+      "rationale": "Oxford's linked word-family fact (oxf_family; https://www.oxfordlearnersdictionaries.com/definition/english/suspicion) lists the forms and parts of speech. It does not support the target's definitions of suspect, the two meanings of suspicious, or the manner and unusually-high-degree uses of suspiciously. The family-list fact directly supports membership, not these semantic claims.",
+      "evidence_link_ids": [
+        "oxf_family"
+      ],
+      "suggested_direction": "Add direct dictionary evidence for the stated senses and uses, or limit this section to the word-family forms and parts of speech."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 44,
+        "line_end": 44,
+        "exact_quote": "【レジスター/領域】標準語。日常会話、報道、警察・司法関連の記事で広く使う。on suspicion of ...、under suspicion は報道や法執行の文脈で特に多い。ここでいう suspicion は有罪が立証されたことを意味しない。頻度の数値はこの辞書内の学習上の相対目安である。"
+      },
+      "severity": "blocking",
+      "rationale": "The linked Merriam-Webster legal fact (mw_legal; https://www.merriam-webster.com/dictionary/suspicion) supports the no-proof/short-of-belief boundary, not standardness, broad everyday and news distribution, or the claim that these phrases are especially common. Oxford and the Merseyside Police release (https://www.merseyside.police.uk/news/merseyside/news/2026/june-2026/man-arrested-on-suspicion-of-breach-of-the-peace-on-county-road/) provide examples of the phrases, but not their relative frequency or distribution. The linked evidence supports only part of this target.",
+      "evidence_link_ids": [
+        "mw_legal"
+      ],
+      "suggested_direction": "Limit the target to the no-proof boundary and documented examples, or add evidence appropriate to the register and frequency claims."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 113,
+        "line_end": 113,
+        "exact_quote": "suspicion of 〈person/group/idea〉＝〈人・集団・考え〉への不信"
+      },
+      "severity": "blocking",
+      "rationale": "The linked facts for claim_distrust define the distrust sense and give examples such as viewing something with suspicion (Oxford and Merriam-Webster) or looking with suspicion on claims (American Heritage). They do not directly verify the distinct suspicion of + person/group/idea frame. The same unsupported frame is repeated in collocation:009 with the agency example at lines 127–129.",
+      "evidence_link_ids": [
+        "oxf_distrust",
+        "mw_contrast",
+        "ahd_distrust"
+      ],
+      "suggested_direction": "Add a source example for suspicion of + person/group/idea in the distrust sense, or remove or qualify the frame and example."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 148,
+        "line_end": 149,
+        "exact_quote": "頻度: 〈8/10〉\n違い: distrust は信用の欠如そのものを直接表し、suspicion はその背後に隠れた問題・意図があるのではないかという推測を帯びやすい。"
+      },
+      "severity": "blocking",
+      "rationale": "The linked facts define suspicion as distrust or lack of confidence, but do not support the 8/10 frequency rating or this contrast. Merriam-Webster's linked comparison (mw_contrast; https://www.merriam-webster.com/dictionary/suspicion) says suspicion stresses lack of faith in truth, reality, fairness, or reliability, while mistrust implies doubt based on suspicion; it does not establish the target's stated distinction between distrust and suspicion.",
+      "evidence_link_ids": [
+        "oxf_distrust",
+        "mw_contrast",
+        "ahd_distrust"
+      ],
+      "suggested_direction": "Remove or identify the frequency scale as editorial, and add direct comparative evidence for the stated distinction or narrow the wording to source-supported definitions."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 155,
+        "line_end": 156,
+        "exact_quote": "頻度: 〈7/10〉\n違い: mistrust は distrust に近い一般的な不信。suspicion はより「何か怪しい」という感覚を含みやすい。"
+      },
+      "severity": "blocking",
+      "rationale": "The linked sources do not support the 7/10 frequency rating. Merriam-Webster's linked comparison (mw_contrast; https://www.merriam-webster.com/dictionary/suspicion) says mistrust implies genuine doubt based upon suspicion, whereas the target presents mistrust as general distrust and shifts the distinguishing implication to suspicion. Oxford and American Heritage support the broad distrust sense but not this comparative claim.",
+      "evidence_link_ids": [
+        "oxf_distrust",
+        "mw_contrast",
+        "ahd_distrust"
+      ],
+      "suggested_direction": "Remove or identify the frequency scale as editorial, and align the comparison with direct source evidence or qualify it."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 251,
+        "line_end": 251,
+        "exact_quote": "with a suspicion of 〈smile/irony〉＝かすかな〈笑み・皮肉〉を帯びて。"
+      },
+      "severity": "blocking",
+      "rationale": "Oxford's linked fact (oxf_trace; https://www.oxfordlearnersdictionaries.com/definition/english/suspicion) gives “in the suspicion of a smile,” not the target's with + a suspicion of frame; the linked Merriam-Webster and American Heritage facts establish the small-amount sense but do not supply that frame or an irony example. The same with-construction appears in collocation:021's example at lines 270–272, so the source-to-frame link does not directly support those targets.",
+      "evidence_link_ids": [
+        "oxf_trace",
+        "mw_trace",
+        "ahd_trace"
+      ],
+      "suggested_direction": "Use the documented “suspicion of a smile” construction, or add a source that directly supports the with-construction and irony use."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 275,
+        "line_end": 275,
+        "exact_quote": "一部の辞書には suspicion を動詞「疑う」として扱う非標準・方言的な用法も載るが、現代の標準英語では通常 suspect を使うため、本記事では主要語義として立てない。"
+      },
+      "severity": "blocking",
+      "rationale": "The linked facts mw_verb, ahd_verb, and ety_verb support that some dictionaries record a marginal verb meaning “suspect.” But usage_note:004 is tagged to sense 4, the small-amount use, so linking the separate verb claim to this sense-specific target creates a semantic mismatch. The linked facts also do not directly establish the frequency claim that modern standard English usually uses suspect.",
+      "evidence_link_ids": [
+        "mw_verb",
+        "ahd_verb",
+        "ety_verb"
+      ],
+      "suggested_direction": "Move the verb note to a lemma-level or word-formation note, and support or qualify the standard-usage statement."
+    }
+  ]
+}
