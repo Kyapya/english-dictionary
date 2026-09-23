@@ -8,5 +8,14 @@
   "stage1_request_sha256": "8846e60a4bd98aef02fddd11ee833adb9713472d96f19a6ea8486dafc68cefd1",
   "reviewer_must_self_attest_exact_request_binding": true,
   "publish_stage1_response_before_stage2": true,
-  "reuse_same_reviewer_and_model_for_stage2": true
+  "reuse_same_reviewer_and_model_for_stage2": true,
+  "stage1_response": {
+    "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-13/frame-relation.stage1.response.json",
+    "sha256": "74d2be21ea19776cb626a6c3693ab9e76d2f2ebe094853629ce23851041202cb",
+    "reviewer_agent_id": "/root/frame14_retry",
+    "declared_model": "GPT-6",
+    "request_sha256": "8846e60a4bd98aef02fddd11ee833adb9713472d96f19a6ea8486dafc68cefd1",
+    "validation": "accepted",
+    "stage2_allowed_after": "connector publication of checker_passes.stage1.json"
+  }
 }
