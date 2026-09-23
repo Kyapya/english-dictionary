@@ -1,0 +1,13 @@
+{
+  "schema_version": "checker_recheck_superseded_v1",
+  "recorded_at": "2026-09-23T15:16:41.549051+00:00",
+  "round": "round-12",
+  "review_input_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+  "current_body_sha256": "de1e2ebe007479cb86148ed85238f917c19c2f7472d4d3c96dbe55f4a87198b8",
+  "source_artifact_sha256": "cff7da1f22ae25fe071b48da51af07d50df1d6d825a6330a6abac5cdfc52420c",
+  "reason": "A workflow guard restored the latest complete saved revision and applied the verified corrections after round-12 reviews had completed. The round-12 body hash therefore does not match the current body.",
+  "superseded_by": "round-13 fresh independent review of the recovered current body",
+  "stage2_response_requested": false,
+  "reviewer_responses_preserved": true,
+  "use_in_final_recheck_manifest": false
+}
