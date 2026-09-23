@@ -1,0 +1,61 @@
+{
+  "schema_version": "workflow_revision_state_reconciliation_v1",
+  "recorded_at": "2026-09-23T15:16:30.388486+00:00",
+  "supersedes_reconciliation_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/revision_history/reconciliation-20260923T150842Z/state-reconciliation.json",
+  "decision": "restore exact Round12 reviewed article and continue its still-open frame-relation serial stage",
+  "current_entry_body_sha256_before_restore": "82f343438dd0057f0cc4edd16ece26ba75380521e8c02dfb806b6da7eb43d3f8",
+  "round12_reviewed_entry_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/reviewed_entry.md",
+  "round12_reviewed_entry_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+  "round12_stage1_checkpoint_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/checker_passes.stage1.json",
+  "round12_stage1_checkpoint_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+  "round12_source_inventory_snapshot_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/revision_history/reconciliation-20260923T150842Z/source_inventory.worktree-candidate.json",
+  "round12_source_artifact_sha256": "cff7da1f22ae25fe071b48da51af07d50df1d6d825a6330a6abac5cdfc52420c",
+  "round12_reviewer_agent_ids": [
+    "/root/r12_translation",
+    "/root/r12_sense_structure",
+    "/root/r12_frame_relation",
+    "/root/r12_example_attribution",
+    "/root/r12_qualification",
+    "/root/r12_pronunciation",
+    "/root/r12_evidence"
+  ],
+  "round12_frame_stage2_worker_available": false,
+  "round12_frame_stage2_status": "pending; exact stage1 reviewer is unavailable in the active collaboration tree, so frame-relation must be rerun with a new reviewer for both stages",
+  "superseded_local_recovery_body_sha256": "82f343438dd0057f0cc4edd16ece26ba75380521e8c02dfb806b6da7eb43d3f8",
+  "preservation_directory": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/revision_history/reconciliation-followup-20260923T151630Z",
+  "formal_pre_blind_revision_base_sha256": "82f343438dd0057f0cc4edd16ece26ba75380521e8c02dfb806b6da7eb43d3f8",
+  "formal_pre_blind_revision_output_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+  "revision_plan": {
+    "schema_version": "workflow_revision_v1",
+    "before_body_sha256": "82f343438dd0057f0cc4edd16ece26ba75380521e8c02dfb806b6da7eb43d3f8",
+    "after_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+    "changed_units": [
+      "collocations_examples",
+      "core_image",
+      "etymology",
+      "frames",
+      "frequency_register",
+      "lexical_relations",
+      "pronunciation",
+      "sense_structure",
+      "usage_notes",
+      "word_formation"
+    ],
+    "full_recheck": true,
+    "fallback_reasons": [
+      "unclassified_change",
+      "sense_or_part_of_speech_topology_changed"
+    ],
+    "invalidated_passes": [
+      "evidence",
+      "example-attribution",
+      "frame-relation",
+      "pronunciation",
+      "qualification",
+      "sense-structure",
+      "translation"
+    ],
+    "reusable_passes": []
+  },
+  "reason": "The committed Round12 stage1 checkpoint, exact reviewed_entry snapshot, and key-after-checkpoint commit provide a newer complete workflow state than the earlier recovery attempt. Round12 binds to e0cd... and all seven stage1 results are recorded; its frame stage2 is incomplete, so retain six valid results and redo the frame pass under one new reviewer rather than replacing the round."
+}

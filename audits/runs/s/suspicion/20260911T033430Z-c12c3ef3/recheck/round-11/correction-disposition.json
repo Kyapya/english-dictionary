@@ -1,0 +1,44 @@
+{
+  "schema_version": "checker_recheck_correction_disposition_v1",
+  "recorded_at": "2026-09-23T15:20:19.072765+00:00",
+  "round11_input_body_sha256": "13559d31b050882ff1d24890c8d22914c8f87e20f0ddb0e509e2a8178469bd82",
+  "round12_corrected_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+  "round12_reviewed_entry_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/reviewed_entry.md",
+  "dispositions": [
+    {
+      "id": "CHK-sense-structure-d5a9499c3e157307",
+      "finding_id": "CHK-sense-structure-d5a9499c3e157307",
+      "pass_id": "sense-structure",
+      "status": "resolved",
+      "disposition": "adopted",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+      "rationale": "Explicitly exclude the chiefly dialectal transitive verb from the numbered learner senses.",
+      "source_finding_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-11/sense-structure.response.json",
+      "source_finding_sha256": "4b44f7e76aa0fb43d1e5fe6d75504f15cb367621417a79e6a30c85d0f9a1128c",
+      "verification_request_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/sense-structure.request.json",
+      "verification_request_sha256": "f530969e598b82ed4eb7dad8bcc71d3de4a9fa03401c6da99d8e44999002a6da",
+      "verification_response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/sense-structure.response.normalized.json",
+      "verification_response_sha256": "3051cef1e80880423ce42d6c5668d033da8462bd8ce5ce79b73fa4c9c83897e0",
+      "verification_reviewer_agent_id": "/root/r12_sense_structure",
+      "verification_finding_count": 0
+    },
+    {
+      "id": "CHK-evidence-2a8e159ebfb26b5a",
+      "finding_id": "CHK-evidence-2a8e159ebfb26b5a",
+      "pass_id": "evidence",
+      "status": "resolved",
+      "disposition": "adopted",
+      "resolved_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+      "rationale": "Restrict the frame to the sourced bare raise some suspicion pattern and align the example with it.",
+      "source_finding_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-11/evidence.response.retry.json",
+      "source_finding_sha256": "6bbdd21dd82df3bfdae08357dae552c1f67ef77aee92633cbf48478f9abb96ec",
+      "verification_request_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/evidence.request.json",
+      "verification_request_sha256": "03af35fb01ddcf8d223c433166501e0f4310576830e2cfab87b437e51c5fb3d6",
+      "verification_response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/evidence.response.normalized.json",
+      "verification_response_sha256": "d204080c8d138facbabe706b73f0aa4515011b39f43b4726c0644267f82fc6cd",
+      "verification_reviewer_agent_id": "/root/r12_evidence",
+      "verification_finding_count": 0
+    }
+  ],
+  "note": "Supplemental dispositions for findings raised during Round11. The original Round11 and original pre-blind records remain intact."
+}

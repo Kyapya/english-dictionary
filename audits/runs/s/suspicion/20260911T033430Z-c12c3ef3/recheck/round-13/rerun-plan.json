@@ -1,0 +1,14 @@
+{
+  "schema_version": "frame_relation_rerun_plan_v1",
+  "round": 13,
+  "reason": "Round12 frame-relation stage2 is pending and its exact stage1 reviewer is unavailable in the active collaboration tree; rerun both blind stages under one available reviewer.",
+  "input_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+  "source_artifact_sha256": "cff7da1f22ae25fe071b48da51af07d50df1d6d825a6330a6abac5cdfc52420c",
+  "request_sha256": "8846e60a4bd98aef02fddd11ee833adb9713472d96f19a6ea8486dafc68cefd1",
+  "prior_stage1_checkpoint": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/checker_passes.stage1.json",
+  "prior_stage2_request": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/frame-relation.stage2.request.json",
+  "prior_reviewer_agent_id": "/root/r12_frame_relation",
+  "prior_stage2_status": "unavailable reviewer; preserved without reuse",
+  "stage1_checkpoint_must_be_published_before_key_reveal": true,
+  "recorded_at": "2026-09-23T15:19:16.577323+00:00"
+}
