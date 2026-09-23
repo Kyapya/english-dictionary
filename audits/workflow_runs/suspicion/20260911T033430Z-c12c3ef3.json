@@ -15,15 +15,15 @@
   },
   "time_policy": "advisory_v1",
   "usage": {
-    "research_queries": 0,
-    "candidate_pages": 0
+    "research_queries": 6,
+    "candidate_pages": 6
   },
   "status": "in_progress",
-  "stage": "draft_saved",
+  "stage": "source_inventory_complete",
   "started_at": "2026-09-11T03:34:30Z",
   "deadline_at": "2026-09-11T04:34:30Z",
   "pre_draft_deadline_at": "2026-09-11T03:54:30Z",
-  "last_heartbeat_at": "2026-09-23T02:32:29Z",
+  "last_heartbeat_at": "2026-09-23T11:37:27Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-11T04:18:22Z",
@@ -44,6 +44,11 @@
       "stage": "draft_saved",
       "recorded_at": "2026-09-23T02:32:29Z",
       "notes": "orchestrator completed generation"
+    },
+    {
+      "stage": "source_inventory_complete",
+      "recorded_at": "2026-09-23T11:37:27Z",
+      "notes": "Completed source-first inventory, target linkage, and fixed checker handoff requests in the existing run."
     }
   ],
   "stop_reason": "",
@@ -544,7 +549,26 @@
         "recorded_at": "2026-09-23T02:32:29Z"
       }
     },
-    "pending_events": [],
+    "pending_events": [
+      {
+        "event_id": "pending:20260911T033430Z-c12c3ef3:checker_passes:cd14586f23be",
+        "knowledge_epoch": "pi2-2026-09-06",
+        "kind": "review_failure",
+        "stage": "checker_passes",
+        "fact": "repairable preflight rejection: source-first artifact is required before checker requests are built",
+        "status": "pending",
+        "recorded_at": "2026-09-23T11:14:19Z"
+      },
+      {
+        "event_id": "pending:20260911T033430Z-c12c3ef3:checker_passes:4a95e3cb7a9a",
+        "knowledge_epoch": "pi2-2026-09-06",
+        "kind": "review_failure",
+        "stage": "checker_passes",
+        "fact": "repairable preflight rejection: [Errno 2] No such file or directory: '/workspace/scratch/7b438b5c28c4/english-dictionary/audits/escaped_defect_taxonomy.json'",
+        "status": "pending",
+        "recorded_at": "2026-09-23T11:33:22Z"
+      }
+    ],
     "selection_errors": []
   },
   "metrics": {
@@ -774,5 +798,33 @@
       "stage": "preflight_pushed",
       "action": "record the delay cause and resume the same run; do not restart reviews"
     }
-  }
+  },
+  "review_preflight_failures": {
+    "count": 2,
+    "history": [
+      {
+        "stage": "checker_passes",
+        "error": "source-first artifact is required before checker requests are built",
+        "recorded_at": "2026-09-23T11:14:19.390488+00:00",
+        "fingerprint": null,
+        "classification": "repairable_validation"
+      },
+      {
+        "stage": "checker_passes",
+        "error": "[Errno 2] No such file or directory: '/workspace/scratch/7b438b5c28c4/english-dictionary/audits/escaped_defect_taxonomy.json'",
+        "recorded_at": "2026-09-23T11:33:22.671117+00:00",
+        "fingerprint": null,
+        "classification": "repairable_validation"
+      }
+    ]
+  },
+  "review_correction": {
+    "stage": "checker_passes",
+    "error": "[Errno 2] No such file or directory: '/workspace/scratch/7b438b5c28c4/english-dictionary/audits/escaped_defect_taxonomy.json'",
+    "recorded_at": "2026-09-23T11:33:22.671117+00:00",
+    "fingerprint": null,
+    "classification": "repairable_validation",
+    "status": "needs_correction"
+  },
+  "review_preflight_policy": "repairable_review_preflight_v2"
 }
