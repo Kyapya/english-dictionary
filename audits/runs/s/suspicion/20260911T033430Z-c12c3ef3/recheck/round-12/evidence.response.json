@@ -1,0 +1,24 @@
+{
+  "pass_id": "evidence",
+  "taxonomy_ids": [
+    "evidence_claim_mismatch"
+  ],
+  "specification": "prompts/check_pass_evidence_v7.md",
+  "input_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+  "specification_sha256": "f0de393d4d064190e23916b2e8bfda25b2b83fd29e14cf52395c894b8539d7e9",
+  "source_artifact_sha256": "cff7da1f22ae25fe071b48da51af07d50df1d6d825a6330a6abac5cdfc52420c",
+  "normalized_input_sha256": "f6169088c913e6e68f647d2917932fa5dc4dad6642faf31c835e22c086aeb0ef",
+  "request_bindings": {
+    "source_inventory_schema_version": "source_inventory_v2",
+    "source_inventory_sha256": "048e107a5d126a0f638b658afb72ddee168cd9894325be20ff63c11db1668321",
+    "source_first_artifact_sha256": "cff7da1f22ae25fe071b48da51af07d50df1d6d825a6330a6abac5cdfc52420c",
+    "evidence_context_schema_version": "evidence_context_v2"
+  },
+  "reviewer_metadata": {
+    "mode": "handoff",
+    "declared_model": "gpt-6",
+    "ingested_by": "human",
+    "agent_id": "/root/r12_evidence"
+  },
+  "findings": []
+}

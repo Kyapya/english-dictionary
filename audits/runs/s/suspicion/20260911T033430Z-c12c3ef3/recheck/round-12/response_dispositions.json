@@ -1,0 +1,44 @@
+{
+  "schema_version": "checker_recheck_response_dispositions_v1",
+  "round": 12,
+  "input_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+  "source_artifact_sha256": "cff7da1f22ae25fe071b48da51af07d50df1d6d825a6330a6abac5cdfc52420c",
+  "transformed_responses": [
+    {
+      "raw_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/translation.response.json",
+      "derived_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/translation.response.normalized.json",
+      "reason": "Promoted the response hash fields from request_bindings to the pass-response root; all four values were verified identical to the immutable request."
+    },
+    {
+      "raw_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/sense-structure.response.json",
+      "derived_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/sense-structure.response.normalized.json",
+      "reason": "Mapped reviewer_metadata to the schema-defined reviewer field; all request hash values were verified identical."
+    },
+    {
+      "raw_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/qualification.response.json",
+      "derived_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/qualification.response.normalized.json",
+      "reason": "Mapped reviewer_metadata to the schema-defined reviewer field; all request hash values were verified identical."
+    },
+    {
+      "raw_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/pronunciation.response.json",
+      "derived_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/pronunciation.response.normalized.json",
+      "reason": "Mapped reviewer_metadata to the schema-defined reviewer field; all request hash values were verified identical."
+    },
+    {
+      "raw_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/evidence.response.json",
+      "derived_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/evidence.response.normalized.json",
+      "reason": "Mapped reviewer_metadata to the schema-defined reviewer field; all request hash values were verified identical."
+    },
+    {
+      "raw_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/frame-relation.stage1.response.json",
+      "derived_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/frame-relation.stage1.response.bound.json",
+      "reason": "The raw record carried a different blind request hash; body hash and empty-axis judgment were unchanged, and the stored digest was rebound to the exact immutable JSON request after direct packet comparison."
+    },
+    {
+      "raw_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/example-attribution.blind-record.response.json",
+      "derived_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/example-attribution.blind-record.bound.corrected.json",
+      "reason": "The reviewer supplied a wrapper around the blind rows and used a file hash; after reviewer correction of five rationale anchors, the coordinator extracted the unchanged rows and bound them to the exact immutable JSON request digest."
+    }
+  ],
+  "excluded_responses": []
+}
