@@ -40,7 +40,13 @@ def final_inputs(entry: Path, cycle: Path, root: Path, *, compact: bool = False)
     targets = content_audit.extract_targets(entry)
     relations = content_audit.extract_relations(targets)
     source = values["source_inventory"]
-    findings = [row for output in values["pass_findings"]["pass_outputs"] for row in output["findings"]]
+    findings = [
+        row
+        for output in values["pass_findings"]["pass_outputs"]
+        for row in review_validation.checker_findings_with_ids(
+            output["pass_id"], output["findings"]
+        )
+    ]
     findings += values["cold_review"]["findings"] + values["final_blind"]["article_findings"]
     inventories = {
         "target_results": targets,
