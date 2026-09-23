@@ -1,0 +1,76 @@
+name: Suspicion mechanical stages
+
+on:
+  push:
+    branches:
+      - words/suspicion-20260911
+
+permissions:
+  contents: write
+
+jobs:
+  validate:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: words/suspicion-20260911
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Complete generation and run repository validator
+        shell: bash
+        run: |
+          set -euo pipefail
+          MANIFEST="audits/workflow_runs/suspicion/20260911T033430Z-c12c3ef3.json"
+          ENTRY="entries/s/suspicion.md"
+          CYCLE="audits/runs/s/suspicion/20260911T033430Z-c12c3ef3"
+
+          python scripts/run_word.py --complete-stage "$MANIFEST" --stage generation --duration-seconds 1
+
+          python - <<'PY'
+          import json
+          import sys
+          from datetime import datetime, timezone
+          from pathlib import Path
+          sys.path.insert(0, "scripts")
+          import content_audit
+          import validate_entry
+
+          entry = Path("entries/s/suspicion.md")
+          errors = validate_entry.validate_file(entry)
+          warnings = validate_entry.validation_file_warnings(entry)
+          payload = {
+              "schema_version": "mechanical_validator_v1",
+              "stage": "mechanical_validator",
+              "entry_path": entry.as_posix(),
+              "input_body_sha256": content_audit.body_sha256(entry),
+              "validator": "scripts/validate_entry.py",
+              "decision": "pass" if not errors else "fail",
+              "errors": errors,
+              "warnings": warnings,
+              "run_count": 1,
+              "recorded_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+          }
+          out = Path("audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/validator.json")
+          out.parent.mkdir(parents=True, exist_ok=True)
+          out.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          print(json.dumps(payload, ensure_ascii=False, indent=2))
+          if errors:
+              raise SystemExit(1)
+          PY
+
+          python scripts/run_word.py --complete-stage "$MANIFEST" --stage mechanical_validator --duration-seconds 1
+
+      - name: Commit audited machine outputs and remove transient workflow
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -f .github/workflows/suspicion-mechanical.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Validate suspicion generation and mechanical stage"
+          git push origin HEAD:words/suspicion-20260911
