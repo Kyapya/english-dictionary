@@ -679,11 +679,12 @@
       {
         "id": "checker_recheck",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 1039193,
+        "duration_seconds": 19462.767113,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true,
+        "duration_source": "measured_wall"
       },
       {
         "id": "final_blind",
@@ -806,14 +807,15 @@
     }
   },
   "orchestrator_state": {
-    "next_stage_index": 6,
+    "next_stage_index": 7,
     "completed_stages": [
       "guard_start",
       "generation",
       "mechanical_validator",
       "checker_passes",
       "cold_review",
-      "pre_blind_resolution"
+      "pre_blind_resolution",
+      "checker_recheck"
     ],
     "stage_outputs": {
       "generation": [
@@ -834,9 +836,12 @@
       "pre_blind_resolution": [
         "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/pre_blind_resolution.json",
         "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/pre_blind_revision.json"
+      ],
+      "checker_recheck": [
+        "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/checker_recheck_manifest.json"
       ]
     },
-    "stage_started_at": "2026-09-23T10:51:06Z"
+    "stage_started_at": "2026-09-23T16:15:28Z"
   },
   "publication": {
     "mode": "connector"
