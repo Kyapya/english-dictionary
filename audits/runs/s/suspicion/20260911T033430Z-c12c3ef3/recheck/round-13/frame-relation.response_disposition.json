@@ -1,14 +1,20 @@
 {
   "schema_version": "checker_handoff_response_disposition_v1",
-  "recorded_at": "2026-09-23T15:45:04.965586+00:00",
+  "recorded_at": "2026-09-23T15:56:31.960809+00:00",
   "pass_id": "frame-relation",
   "stage": "checker_recheck/round-13/stage1",
   "raw_response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-13/frame-relation.stage1.response.json",
-  "raw_response_sha256": "74d2be21ea19776cb626a6c3693ab9e76d2f2ebe094853629ce23851041202cb",
+  "raw_response_sha256": "7dc8d648ae47091f26515393d3236a3a5a45d06888b366f7b6b4f072f1ecd534",
   "status": "accepted",
-  "reason": "The immutable raw response self-attests the exact canonical request digest and body hash, and its empty axes array matches the request with zero antonym items.",
+  "reason": "The raw response is valid for the exact published round-13 stage-1 request and candidate body. Its empty axes array matches the request, which contains no antonym items.",
   "request_sha256": "8846e60a4bd98aef02fddd11ee833adb9713472d96f19a6ea8486dafc68cefd1",
   "raw_validation_errors": [],
   "coordinator_adjusted_fields": [],
-  "reviewer_authored_judgments_preserved": true
+  "reviewer_authored_judgments_preserved": true,
+  "reviewer": {
+    "mode": "handoff",
+    "agent_id": "/root/round13_frame_recovery",
+    "declared_model": "GPT-6",
+    "ingested_by": "human"
+  }
 }

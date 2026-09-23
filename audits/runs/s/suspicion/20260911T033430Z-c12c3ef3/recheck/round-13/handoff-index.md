@@ -1,10 +1,11 @@
 # Round 13 frame-relation serial recovery
 
-Attempt 1 was rejected because its raw stage-1 response carried an incorrect request digest. The raw response and dependent stage-2 artifacts are preserved under `attempt-1-unaccepted/` and excluded. Six independent round-12 passes remain valid. Attempt 2 uses a fresh reviewer for both blind stages.
+The canonical stage-1 request is connector-published and bound to candidate body `e0cdcd7c…`. Attempt 1 failed its request binding and remains quarantined under `attempt-1-unaccepted/`. Attempt 2 produced a valid, published stage-1 response, but its reviewer was unavailable for stage 2; its response and checkpoint are preserved under `attempt-2-valid-stage1-no-stage2/` and excluded from the final pass.
 
-- Canonical stage-1 request: `frame-relation.request.md` (`frame-relation.request.json`)
-- Attempt 1 disposition: `frame-relation.stage1.correction-required.json`
-- Attempt 1 archived response and dependent artifacts: `attempt-1-unaccepted/`
-- Attempt 2 plan: `attempt-2-plan.json`
+Attempt 3's raw stage-1 response has been validated against the canonical request and is recorded in `checker_passes.stage1.json`. Reviewer `/root/round13_frame_recovery` (`GPT-6`) is assigned to both stages. Publish this stage-1 checkpoint before generating or exposing the alignment key or stage-2 request.
 
-Attempt 2 stage-1 response received and validated: `/root/frame14_retry` / `GPT-6`, request digest `8846e60a4bd98aef02fddd11ee833adb9713472d96f19a6ea8486dafc68cefd1`, response SHA-256 `74d2be21ea19776cb626a6c3693ab9e76d2f2ebe094853629ce23851041202cb`. It is in `checker_passes.stage1.json`; stage 2 remains withheld until this exact checkpoint is connector-published.
+- Canonical request: `frame-relation.request.md` (`frame-relation.request.json`)
+- Attempt 1: `attempt-1-unaccepted/`
+- Attempt 2: `attempt-2-valid-stage1-no-stage2/`
+- Attempt 3 plan: `attempt-3-plan.json`
+- Attempt 3 response: `frame-relation.stage1.response.json`
