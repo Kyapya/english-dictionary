@@ -1,0 +1,410 @@
+{
+  "schema_version": "checker_recheck_stage1_v1",
+  "stage": "checker_recheck/round-12/stage1",
+  "run_id": "20260911T033430Z-c12c3ef3",
+  "round": 12,
+  "input_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+  "source_artifact_sha256": "cff7da1f22ae25fe071b48da51af07d50df1d6d825a6330a6abac5cdfc52420c",
+  "recorded_at": "2026-09-23T15:04:29.498923+00:00",
+  "pass_outputs": [
+    {
+      "pass_id": "translation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-6",
+        "ingested_by": "human",
+        "agent_id": "/root/r12_translation"
+      },
+      "request_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/translation.request.json",
+      "request_sha256": "b2c2544e0a78751e7be529b06cdeb282beeea211a85e14102d9e73cc0f8681f5",
+      "response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/translation.response.normalized.json",
+      "response_sha256": "804c26272e886aa2e5cb563f0abd4ac0012be48218bf4a9f76758ccda8fad269",
+      "raw_response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/translation.response.json",
+      "input_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+      "source_artifact_sha256": "cff7da1f22ae25fe071b48da51af07d50df1d6d825a6330a6abac5cdfc52420c",
+      "normalized_input_sha256": "97c729dc40110cdabaee4b8d0ca21ddb368f8addd165a5e0c5f64676bbbe762d",
+      "findings": [],
+      "response": {
+        "schema_version": "check_pass_response_v6",
+        "pass_id": "translation",
+        "request_bindings": {
+          "schema_version": "check_pass_request_v6",
+          "pass_id": "translation",
+          "taxonomy_ids": [
+            "example_translation_alignment",
+            "semantic_direction_reversal"
+          ],
+          "specification": "prompts/check_pass_translation_v6.md",
+          "input_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+          "specification_sha256": "d09d822f58ea8bcff9aa2890f988ad7aca9a9d3a773b5f9da5427f783ae25bb3",
+          "source_artifact_sha256": "cff7da1f22ae25fe071b48da51af07d50df1d6d825a6330a6abac5cdfc52420c",
+          "normalized_input_sha256": "97c729dc40110cdabaee4b8d0ca21ddb368f8addd165a5e0c5f64676bbbe762d"
+        },
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-6",
+          "ingested_by": "human",
+          "agent_id": "/root/r12_translation"
+        },
+        "findings": [],
+        "input_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+        "specification_sha256": "d09d822f58ea8bcff9aa2890f988ad7aca9a9d3a773b5f9da5427f783ae25bb3",
+        "source_artifact_sha256": "cff7da1f22ae25fe071b48da51af07d50df1d6d825a6330a6abac5cdfc52420c",
+        "normalized_input_sha256": "97c729dc40110cdabaee4b8d0ca21ddb368f8addd165a5e0c5f64676bbbe762d"
+      }
+    },
+    {
+      "pass_id": "sense-structure",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-6",
+        "ingested_by": "human",
+        "agent_id": "/root/r12_sense_structure"
+      },
+      "request_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/sense-structure.request.json",
+      "request_sha256": "f530969e598b82ed4eb7dad8bcc71d3de4a9fa03401c6da99d8e44999002a6da",
+      "response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/sense-structure.response.normalized.json",
+      "response_sha256": "3051cef1e80880423ce42d6c5668d033da8462bd8ce5ce79b73fa4c9c83897e0",
+      "raw_response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/sense-structure.response.json",
+      "input_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+      "source_artifact_sha256": "cff7da1f22ae25fe071b48da51af07d50df1d6d825a6330a6abac5cdfc52420c",
+      "normalized_input_sha256": "559d0209d6e62e6364dcb06479792ece9d5a793ab4924f2a885019d1186e6572",
+      "findings": [],
+      "response": {
+        "schema_version": "check_pass_response_v6",
+        "pass_id": "sense-structure",
+        "taxonomy_ids": [
+          "sense_boundary_overlap",
+          "cross_section_internal_contradiction",
+          "compound_component_generalization"
+        ],
+        "input_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+        "specification": "prompts/check_pass_sense_structure_v6.md",
+        "specification_sha256": "a815b90fbc456e2bc194220ee0f3bfa164790bbb6e1f2f740144ac62bb03b87c",
+        "source_artifact_sha256": "cff7da1f22ae25fe071b48da51af07d50df1d6d825a6330a6abac5cdfc52420c",
+        "normalized_input_sha256": "559d0209d6e62e6364dcb06479792ece9d5a793ab4924f2a885019d1186e6572",
+        "findings": [],
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-6",
+          "ingested_by": "human",
+          "agent_id": "/root/r12_sense_structure"
+        }
+      }
+    },
+    {
+      "pass_id": "frame-relation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-6",
+        "ingested_by": "human",
+        "agent_id": "/root/r12_frame_relation"
+      },
+      "request_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/frame-relation.request.json",
+      "request_sha256": "8846e60a4bd98aef02fddd11ee833adb9713472d96f19a6ea8486dafc68cefd1",
+      "response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/frame-relation.stage1.response.bound.json",
+      "response_sha256": "5ba0da47a33f8e3ebc061166201a927c25b0a61a99cf5615f0d3647ef2f70d97",
+      "raw_response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/frame-relation.stage1.response.json",
+      "input_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+      "source_artifact_sha256": "cff7da1f22ae25fe071b48da51af07d50df1d6d825a6330a6abac5cdfc52420c",
+      "normalized_input_sha256": "fcf76b799739b4390b77c92dbad61f4974f578b0fcdeab80f7383cde7c0644c0",
+      "findings": [],
+      "stage1_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+        "blind_request_sha256": "8846e60a4bd98aef02fddd11ee833adb9713472d96f19a6ea8486dafc68cefd1",
+        "recorded_at": "2026-09-23T14:57:19Z",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-6",
+          "ingested_by": "human",
+          "agent_id": "/root/r12_frame_relation"
+        },
+        "axes": []
+      }
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-6",
+        "ingested_by": "human",
+        "agent_id": "/root/r12_example_attribution"
+      },
+      "request_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/example-attribution.request.json",
+      "request_sha256": "84891627b935735d32bbcc11155738e4e16880161da345404db329ae8729de98",
+      "response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/example-attribution.blind-record.bound.corrected.json",
+      "response_sha256": "3cc1c6a2d6fb58fdd9036b1abb4ff44df37c09a65d37a020108ba66c8bf5ff12",
+      "raw_response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/example-attribution.blind-record.response.corrected.json",
+      "input_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+      "source_artifact_sha256": "cff7da1f22ae25fe071b48da51af07d50df1d6d825a6330a6abac5cdfc52420c",
+      "normalized_input_sha256": "f4ac58d3edc658e61455477c2f21c66ad1caa179f51bac847cd6761f33f56c9a",
+      "findings": [],
+      "stage1_blind_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "recorded_at": "2026-09-23T14:58:59Z",
+        "input_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+        "blind_request_sha256": "84891627b935735d32bbcc11155738e4e16880161da345404db329ae8729de98",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-6",
+          "ingested_by": "human",
+          "agent_id": "/root/r12_example_attribution"
+        },
+        "attributions": [
+          {
+            "example_id": "ex-fcfc5fd6ac5e",
+            "classification": "unique",
+            "best_sense_id": "sense:002",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "next_best_sense_id": "sense:001",
+            "discriminating_terms": [
+              "regarded the sudden policy change with suspicion"
+            ],
+            "rationale": "The exact phrase is 'regarded the sudden policy change with suspicion'. The frame 'regarded [thing] with suspicion' presents a wary, distrustful attitude toward the policy change. Sense 001 would describe a belief that some proposition may be true, but this sentence supplies no suspected proposition; the headword is predicated as the manner of regarding its object."
+          },
+          {
+            "example_id": "ex-e3b6d6c9114e",
+            "classification": "unique",
+            "best_sense_id": "sense:001",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "next_best_sense_id": "sense:002",
+            "discriminating_terms": [
+              "the unexplained delay raised some suspicion"
+            ],
+            "rationale": "The sentence reads, 'The unexplained delay raised some suspicion.' In the causative frame 'raised some suspicion,' the delay gives rise to a thought that something may be wrong, a propositional suspicion (sense 001). Sense 002 would describe a wary attitude directed toward something, but no target is being regarded or treated distrustfully here; the delay is the stimulus that causes the suspicion."
+          },
+          {
+            "example_id": "ex-cd44bb14b62b",
+            "classification": "unique",
+            "best_sense_id": "sense:001",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "next_best_sense_id": "sense:002",
+            "discriminating_terms": [
+              "a suspicion that the cashier had altered the sales records"
+            ],
+            "rationale": "The discriminating phrase is 'a suspicion that the cashier had altered the sales records'. The explicit 'that' clause gives the proposition the manager considers possibly true: the cashier altered the records. That is sense 001. Although the sentence mentions a person who might be distrusted, sense 002 concerns a distrustful attitude toward the person; the complement here states the suspected event itself."
+          },
+          {
+            "example_id": "ex-f0b136fc7f52",
+            "classification": "unique",
+            "best_sense_id": "sense:001",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "next_best_sense_id": "sense:002",
+            "discriminating_terms": [
+              "suspicions that officials had concealed the project's true cost"
+            ],
+            "rationale": "The discriminating phrase is \"suspicions that officials had concealed the project's true cost\". The 'that' clause specifies the alleged proposition—officials concealed the true cost—so the residents' suspicions are beliefs that this may be true (sense 001). The officials could also be viewed distrustfully (sense 002), but the headword's complement identifies a suspected act rather than merely an attitude toward them."
+          },
+          {
+            "example_id": "ex-e8780d35ec06",
+            "classification": "unique",
+            "best_sense_id": "sense:001",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "next_best_sense_id": "sense:002",
+            "discriminating_terms": [
+              "on suspicion of fraud",
+              "arrested"
+            ],
+            "rationale": "The construction 'arrested on suspicion of [offense]' identifies the suspected proposition that the people committed fraud, which is sense 001. Sense 002 could describe distrust of a person, but the offense complement and 'on suspicion' frame express the allegation underlying the arrest, not simply a wary attitude."
+          },
+          {
+            "example_id": "ex-3817f5e86b56",
+            "classification": "unique",
+            "best_sense_id": "sense:001",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "next_best_sense_id": "sense:002",
+            "discriminating_terms": [
+              "under suspicion",
+              "checked whether it had falsified invoices"
+            ],
+            "rationale": "The 'whether it had falsified invoices' clause states the proposition investigators are testing as possibly true, and 'under suspicion' places the contractor under that allegation (sense 001). The contractor may be treated with distrust (sense 002), but the sentence anchors the suspicion to a specific possible act rather than only describing an attitude."
+          },
+          {
+            "example_id": "ex-a2552631d7e4",
+            "classification": "unique",
+            "best_sense_id": "sense:003",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "next_best_sense_id": "sense:001",
+            "discriminating_terms": [
+              "a suspicion of a smile",
+              "in her reply"
+            ],
+            "rationale": "'A suspicion of a smile in her reply' uses the partitive, trace-like construction for a faint hint or suggestion of a smile (sense 003). Sense 001 could express a belief that she smiled, but the sentence describes a small perceptible trace located in the reply, not a proposition someone thinks may be true."
+          },
+          {
+            "example_id": "ex-7dde7c036157",
+            "classification": "unique",
+            "best_sense_id": "sense:001",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "next_best_sense_id": "sense:002",
+            "discriminating_terms": [
+              "a suspicion that the meeting had been canceled"
+            ],
+            "rationale": "The discriminating phrase is 'a suspicion that the meeting had been canceled'. The complement 'that the meeting had been canceled' is a proposition the speaker thinks may be true, which is sense 001. Sense 002 would mean distrust or wariness toward the meeting, but the explicit clause makes the content of the suspicion a possible event rather than an attitude toward the meeting."
+          },
+          {
+            "example_id": "ex-d749e270d364",
+            "classification": "unique",
+            "best_sense_id": "sense:003",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "next_best_sense_id": "sense:001",
+            "discriminating_terms": [
+              "a suspicion of truth in it",
+              "had ... in it"
+            ],
+            "rationale": "The phrase 'a suspicion of truth in it' describes a slight trace or degree of truth present in the tale (sense 003). Sense 001 would report a belief that the tale is true, but 'of truth in it' with 'had ... in it' locates a faint quality within the tale rather than stating a proposition believed by someone."
+          }
+        ]
+      }
+    },
+    {
+      "pass_id": "qualification",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-6",
+        "ingested_by": "human",
+        "agent_id": "/root/r12_qualification"
+      },
+      "request_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/qualification.request.json",
+      "request_sha256": "7552352d5dec534d653e1452aa2f8e80bdcce0f3584a289fc4c2bed2187c1452",
+      "response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/qualification.response.normalized.json",
+      "response_sha256": "cfb2c9b8fa445311d5b84d76ebfeaa9ed2b1866d9add5daf0c7084e700030a24",
+      "raw_response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/qualification.response.json",
+      "input_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+      "source_artifact_sha256": "cff7da1f22ae25fe071b48da51af07d50df1d6d825a6330a6abac5cdfc52420c",
+      "normalized_input_sha256": "716956ff765cc58410adf7650e858d8a58fcda13ba6c02b05f2f1b7f1d008fe4",
+      "findings": [],
+      "response": {
+        "schema_version": "check_pass_response_v6",
+        "pass_id": "qualification",
+        "taxonomy_ids": [
+          "regional_qualification",
+          "absolute_scope_counterexample",
+          "technical_terminology_conventionality"
+        ],
+        "specification": "prompts/check_pass_qualification_v6.md",
+        "input_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+        "specification_sha256": "1cf8a434bbe1213c0ef739f4c47ffb41014ab2cd5156d297471af6df85ae40a2",
+        "source_artifact_sha256": "cff7da1f22ae25fe071b48da51af07d50df1d6d825a6330a6abac5cdfc52420c",
+        "normalized_input_sha256": "716956ff765cc58410adf7650e858d8a58fcda13ba6c02b05f2f1b7f1d008fe4",
+        "findings": [],
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-6",
+          "ingested_by": "human",
+          "agent_id": "/root/r12_qualification"
+        }
+      }
+    },
+    {
+      "pass_id": "pronunciation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-6",
+        "ingested_by": "human",
+        "agent_id": "/root/r12_pronunciation"
+      },
+      "request_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/pronunciation.request.json",
+      "request_sha256": "0372741f6509643b2705cbeae23662847c08ad9b56d01851996a6df6ab9a3917",
+      "response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/pronunciation.response.normalized.json",
+      "response_sha256": "122a1301b22a7c5d44dd8907488eebee4782213062384345f1952d6fe9e0a87f",
+      "raw_response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/pronunciation.response.json",
+      "input_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+      "source_artifact_sha256": "cff7da1f22ae25fe071b48da51af07d50df1d6d825a6330a6abac5cdfc52420c",
+      "normalized_input_sha256": "0ef29c95e58d9d9a542caa03a61c36787c136056342ebef9a19c6a14c52c2a5e",
+      "findings": [],
+      "response": {
+        "schema_version": "check_pass_response_v6",
+        "pass_id": "pronunciation",
+        "taxonomy_ids": [
+          "pronunciation_symbol_explanation"
+        ],
+        "specification": "prompts/check_pass_pronunciation_v6.md",
+        "input_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+        "specification_sha256": "7e3e94267ac9f917c901c12580b91e570b5989df7adfbf2a39b833478c766d8a",
+        "source_artifact_sha256": "cff7da1f22ae25fe071b48da51af07d50df1d6d825a6330a6abac5cdfc52420c",
+        "normalized_input_sha256": "0ef29c95e58d9d9a542caa03a61c36787c136056342ebef9a19c6a14c52c2a5e",
+        "findings": [],
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-6",
+          "ingested_by": "human",
+          "agent_id": "/root/r12_pronunciation"
+        }
+      }
+    },
+    {
+      "pass_id": "evidence",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-6",
+        "ingested_by": "human",
+        "agent_id": "/root/r12_evidence"
+      },
+      "request_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/evidence.request.json",
+      "request_sha256": "03af35fb01ddcf8d223c433166501e0f4310576830e2cfab87b437e51c5fb3d6",
+      "response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/evidence.response.normalized.json",
+      "response_sha256": "d204080c8d138facbabe706b73f0aa4515011b39f43b4726c0644267f82fc6cd",
+      "raw_response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-12/evidence.response.json",
+      "input_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+      "source_artifact_sha256": "cff7da1f22ae25fe071b48da51af07d50df1d6d825a6330a6abac5cdfc52420c",
+      "normalized_input_sha256": "f6169088c913e6e68f647d2917932fa5dc4dad6642faf31c835e22c086aeb0ef",
+      "findings": [],
+      "response": {
+        "pass_id": "evidence",
+        "taxonomy_ids": [
+          "evidence_claim_mismatch"
+        ],
+        "specification": "prompts/check_pass_evidence_v7.md",
+        "input_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+        "specification_sha256": "f0de393d4d064190e23916b2e8bfda25b2b83fd29e14cf52395c894b8539d7e9",
+        "source_artifact_sha256": "cff7da1f22ae25fe071b48da51af07d50df1d6d825a6330a6abac5cdfc52420c",
+        "normalized_input_sha256": "f6169088c913e6e68f647d2917932fa5dc4dad6642faf31c835e22c086aeb0ef",
+        "request_bindings": {
+          "source_inventory_schema_version": "source_inventory_v2",
+          "source_inventory_sha256": "048e107a5d126a0f638b658afb72ddee168cd9894325be20ff63c11db1668321",
+          "source_first_artifact_sha256": "cff7da1f22ae25fe071b48da51af07d50df1d6d825a6330a6abac5cdfc52420c",
+          "evidence_context_schema_version": "evidence_context_v2"
+        },
+        "findings": [],
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-6",
+          "ingested_by": "human",
+          "agent_id": "/root/r12_evidence"
+        }
+      }
+    }
+  ],
+  "reviewer_agent_ids": [
+    "/root/r12_translation",
+    "/root/r12_sense_structure",
+    "/root/r12_frame_relation",
+    "/root/r12_example_attribution",
+    "/root/r12_qualification",
+    "/root/r12_pronunciation",
+    "/root/r12_evidence"
+  ],
+  "summary": "All seven independent round-12 checker stage-1 reviews are complete; frame-relation stage 2 remains pending after checkpoint publication."
+}

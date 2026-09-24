@@ -1,0 +1,45 @@
+{
+  "pass_id": "evidence",
+  "reviewer": {
+    "agent_id": "/root/round2_evidence",
+    "declared_model": "gpt-6",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 37,
+        "line_end": 37,
+        "exact_quote": "suspicion of 〈crime/wrongdoing〉＝〈犯罪・不正〉の疑い"
+      },
+      "severity": "blocking",
+      "rationale": "リンク先のOxford米語ページで確認できる犯罪用例は “He was arrested on suspicion of murder.”（on suspicion of）で、英語版の bare “suspicion of something” は sense 4 の「small amount」の用法です。リンクされたMW例群も motives、that節、with suspicion 等を示しますが、犯罪・不正を bare of 補部に取る用例ではありません。したがって F-OUP-6 / F-MW-4 のリンク内容は、この対象フレームを直接支えていません。",
+      "evidence_link_ids": [
+        "C-FRAMES",
+        "F-OUP-6",
+        "F-MW-4"
+      ],
+      "suggested_direction": "根拠が直接示す on suspicion of 〈crime〉に主張を限定するか、bare suspicion of 〈crime/wrongdoing〉を示す直接の出典・リンクに差し替えてください。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 37,
+        "line_end": 37,
+        "exact_quote": "confirm suspicions that 〈節〉＝～という疑いを裏付ける。"
+      },
+      "severity": "blocking",
+      "rationale": "リンク先ではMWが “There has long been a suspicion that the painting is a fake” と “my suspicions were confirmed by the lab tests” を別々に示し、Oxfordも suspicion that 節と “My suspicions were confirmed when the police raided the property” を別々に示します。確認した資料の例に confirm suspicions that + 節という完全フレームはありません。別々に示された疑いのthat節と確認表現だけでは、この合成フレームを直接裏付けません。",
+      "evidence_link_ids": [
+        "C-FRAMES",
+        "F-OUP-6",
+        "F-MW-4"
+      ],
+      "suggested_direction": "confirm suspicions that + 節を直接示す辞書例へ根拠リンクを差し替えるか、完全フレームの裏付けが得られるまでこの組み合わせを保留してください。"
+    }
+  ]
+}

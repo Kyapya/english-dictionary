@@ -1,0 +1,154 @@
+{
+  "valid": false,
+  "errors": [
+    {
+      "code": "metadata_mismatch",
+      "path": "source_inventory.stage",
+      "message": "source_inventory: raw stage field must be source_inventory",
+      "expected": "source_inventory",
+      "actual": null
+    },
+    {
+      "code": "metadata_mismatch",
+      "path": "source_inventory.run_id",
+      "message": "source_inventory.run_id is required",
+      "expected": "non-empty value",
+      "actual": null
+    },
+    {
+      "code": "metadata_mismatch",
+      "path": "source_inventory.context_id",
+      "message": "source_inventory.context_id is required",
+      "expected": "non-empty value",
+      "actual": null
+    },
+    {
+      "code": "metadata_mismatch",
+      "path": "source_inventory.prompt_sha256",
+      "message": "source_inventory.prompt_sha256 is required",
+      "expected": "non-empty value",
+      "actual": null
+    },
+    {
+      "code": "metadata_mismatch",
+      "path": "source_inventory.recorded_at",
+      "message": "source_inventory.recorded_at is required",
+      "expected": "non-empty value",
+      "actual": null
+    },
+    {
+      "code": "metadata_mismatch",
+      "path": "source_inventory.input_artifacts",
+      "message": "source_inventory.input_artifacts must be exactly ['headword', 'source_first_spec']",
+      "expected": [
+        "headword",
+        "source_first_spec"
+      ],
+      "actual": null
+    },
+    {
+      "code": "metadata_mismatch",
+      "path": "source_inventory.recorded_at",
+      "message": "source_inventory.recorded_at must be ISO-8601",
+      "expected": "ISO-8601",
+      "actual": null
+    },
+    {
+      "code": "resolution_coverage",
+      "path": "resolutions",
+      "message": "resolutions must cover every finding exactly once; missing=['CHK-evidence-1c2014f25502d6e7', 'CHK-evidence-1cb0e731e8d76698', 'CHK-evidence-1d48282c2269ad9b', 'CHK-evidence-4f7613fe6f400031', 'CHK-evidence-6e65bce7c7568c72', 'CHK-evidence-74f1211675818881', 'CHK-evidence-7bf51b857c089ddc', 'CHK-evidence-c694e2ed8a394b1d', 'CHK-evidence-f26152139b13f089', 'CHK-example-attribution-02488c6d692d08e3', 'CHK-example-attribution-3c70c60e3ba74cda', 'CHK-frame-relation-61011dbd10a9eca3', 'CHK-frame-relation-c6cc8ed5c1faed74', 'CHK-frame-relation-f20791f0cfdbd2ce', 'CHK-frame-relation-f487dc58051550c5', 'CHK-sense-structure-85e67bdbf80f0e5b'], extra=['CHK-evidence-1605a30992933d1a', 'CHK-evidence-2b9c3e19ee00548c', 'CHK-evidence-8a3b0ef0f74d78bd', 'CHK-evidence-8b74d23abfcea8bf', 'CHK-evidence-926461008f51d0eb', 'CHK-evidence-b920996b73bb0fec', 'CHK-evidence-de21e70cafa92ec4', 'CHK-evidence-f48da07776261d03', 'CHK-frame-relation-53cb4d7dcb428b93', 'CHK-frame-relation-a58cff3aa6082ed4', 'CHK-frame-relation-d9dd6ec50e654f0d', 'CHK-frame-relation-e497ccb413f93706', 'CHK-qualification-9eaa3295e057b6a7', 'CHK-translation-78e227acb2af8d68']",
+      "missing": [
+        "CHK-evidence-1c2014f25502d6e7",
+        "CHK-evidence-1cb0e731e8d76698",
+        "CHK-evidence-1d48282c2269ad9b",
+        "CHK-evidence-4f7613fe6f400031",
+        "CHK-evidence-6e65bce7c7568c72",
+        "CHK-evidence-74f1211675818881",
+        "CHK-evidence-7bf51b857c089ddc",
+        "CHK-evidence-c694e2ed8a394b1d",
+        "CHK-evidence-f26152139b13f089",
+        "CHK-example-attribution-02488c6d692d08e3",
+        "CHK-example-attribution-3c70c60e3ba74cda",
+        "CHK-frame-relation-61011dbd10a9eca3",
+        "CHK-frame-relation-c6cc8ed5c1faed74",
+        "CHK-frame-relation-f20791f0cfdbd2ce",
+        "CHK-frame-relation-f487dc58051550c5",
+        "CHK-sense-structure-85e67bdbf80f0e5b"
+      ],
+      "extra": [
+        "CHK-evidence-1605a30992933d1a",
+        "CHK-evidence-2b9c3e19ee00548c",
+        "CHK-evidence-8a3b0ef0f74d78bd",
+        "CHK-evidence-8b74d23abfcea8bf",
+        "CHK-evidence-926461008f51d0eb",
+        "CHK-evidence-b920996b73bb0fec",
+        "CHK-evidence-de21e70cafa92ec4",
+        "CHK-evidence-f48da07776261d03",
+        "CHK-frame-relation-53cb4d7dcb428b93",
+        "CHK-frame-relation-a58cff3aa6082ed4",
+        "CHK-frame-relation-d9dd6ec50e654f0d",
+        "CHK-frame-relation-e497ccb413f93706",
+        "CHK-qualification-9eaa3295e057b6a7",
+        "CHK-translation-78e227acb2af8d68"
+      ],
+      "expected": [
+        "CHK-evidence-1c2014f25502d6e7",
+        "CHK-evidence-1cb0e731e8d76698",
+        "CHK-evidence-1d48282c2269ad9b",
+        "CHK-evidence-4f7613fe6f400031",
+        "CHK-evidence-6e65bce7c7568c72",
+        "CHK-evidence-74f1211675818881",
+        "CHK-evidence-7bf51b857c089ddc",
+        "CHK-evidence-c694e2ed8a394b1d",
+        "CHK-evidence-f26152139b13f089",
+        "CHK-example-attribution-02488c6d692d08e3",
+        "CHK-example-attribution-3c70c60e3ba74cda",
+        "CHK-example-attribution-4b73cc547d6ec54a",
+        "CHK-example-attribution-4e805feccd4e0426",
+        "CHK-example-attribution-85f2d8aab19a336e",
+        "CHK-example-attribution-9a7ced3d899cef25",
+        "CHK-example-attribution-ef69a9c2d1737319",
+        "CHK-frame-relation-61011dbd10a9eca3",
+        "CHK-frame-relation-c6cc8ed5c1faed74",
+        "CHK-frame-relation-f20791f0cfdbd2ce",
+        "CHK-frame-relation-f487dc58051550c5",
+        "CHK-sense-structure-85e67bdbf80f0e5b",
+        "CR-1",
+        "CR-2",
+        "CR-3",
+        "CR-4"
+      ],
+      "actual": [
+        "CHK-evidence-1605a30992933d1a",
+        "CHK-evidence-2b9c3e19ee00548c",
+        "CHK-evidence-8a3b0ef0f74d78bd",
+        "CHK-evidence-8b74d23abfcea8bf",
+        "CHK-evidence-926461008f51d0eb",
+        "CHK-evidence-b920996b73bb0fec",
+        "CHK-evidence-de21e70cafa92ec4",
+        "CHK-evidence-f48da07776261d03",
+        "CHK-example-attribution-4b73cc547d6ec54a",
+        "CHK-example-attribution-4e805feccd4e0426",
+        "CHK-example-attribution-85f2d8aab19a336e",
+        "CHK-example-attribution-9a7ced3d899cef25",
+        "CHK-example-attribution-ef69a9c2d1737319",
+        "CHK-frame-relation-53cb4d7dcb428b93",
+        "CHK-frame-relation-a58cff3aa6082ed4",
+        "CHK-frame-relation-d9dd6ec50e654f0d",
+        "CHK-frame-relation-e497ccb413f93706",
+        "CHK-qualification-9eaa3295e057b6a7",
+        "CHK-translation-78e227acb2af8d68",
+        "CR-1",
+        "CR-2",
+        "CR-3",
+        "CR-4"
+      ]
+    },
+    {
+      "code": "input_contract",
+      "path": "workflow_improvement",
+      "message": "workflow_improvement: workflow_improvement_v1: pre_blind_resolutions must cover checker/cold findings exactly once"
+    }
+  ],
+  "blocked_checks": []
+}

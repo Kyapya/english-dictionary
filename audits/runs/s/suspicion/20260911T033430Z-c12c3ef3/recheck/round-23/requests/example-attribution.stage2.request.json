@@ -1,0 +1,435 @@
+{
+  "schema_version": "example_attribution_stage2_request_v1",
+  "pass_id": "example-attribution",
+  "input_body_sha256": "b34f7da3691330b05a3a8a1aaf894599ec4d16d118e331f84a1dc41bcfca5677",
+  "stage1_request_sha256": "9944a5362cc3f6bb9ef6c23617b052da36cb0597f8da8f1cf00038fa2d7fdc8c",
+  "blind_record_sha256": "cc123acf485c9c5e318a0a087f9f9e936f5bae2559a6afe17a591161f9d4d96a",
+  "alignment_key_sha256": "01021e1099f3fcee8853398f767ea0e7901352dfa68ba24ac158f3936a1833d1",
+  "blind_attribution_record": {
+    "schema_version": "example_attribution_blind_record_v1",
+    "pass_id": "example-attribution",
+    "input_body_sha256": "b34f7da3691330b05a3a8a1aaf894599ec4d16d118e331f84a1dc41bcfca5677",
+    "blind_request_sha256": "9944a5362cc3f6bb9ef6c23617b052da36cb0597f8da8f1cf00038fa2d7fdc8c",
+    "recorded_at": "2026-09-24T14:24:39.950118Z",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "GPT-6",
+      "ingested_by": "orchestrator",
+      "agent_id": "/root/s23_example_attribution",
+      "source_response": {
+        "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-23/responses/source_responses/b8e52cae5d65209318fb7f2f27673f9e735ebf8495ffd9c29bb2630f950e38c1.json",
+        "sha256": "b8e52cae5d65209318fb7f2f27673f9e735ebf8495ffd9c29bb2630f950e38c1"
+      }
+    },
+    "attributions": [
+      {
+        "example_id": "ex-b05441354faa",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "the meeting will finish earlier than planned"
+        ],
+        "rationale": "The phrase “the meeting will finish earlier than planned” is a tentative prediction about an event, so it is sense:003. Unlike sense:001, it does not cast a person as having committed wrongdoing; unlike sense:002, it does not express mistrust of a person, organization, or information source."
+      },
+      {
+        "example_id": "ex-7109decd0751",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "cast suspicion on the clerk"
+        ],
+        "rationale": "The phrase “cast suspicion on the clerk” makes the clerk a possible wrongdoer, which is sense:001. Sense:002 would express general mistrust of the clerk or the clerk’s reliability without treating the clerk as a suspect."
+      },
+      {
+        "example_id": "ex-07975d37945b",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "A suspicion of a smile",
+          "appeared at the corner of her mouth"
+        ],
+        "rationale": "The phrase “A suspicion of a smile” that “appeared at the corner of her mouth” denotes a barely perceptible trace of an expression, sense:004. It is not sense:003, a tentative belief that someone smiled, because the sentence presents a visible trace rather than a proposition being considered."
+      },
+      {
+        "example_id": "ex-f7a4533cef3c",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "greeted with some suspicion"
+        ],
+        "rationale": "The phrase “greeted with some suspicion” describes a wary, mistrustful attitude, sense:002. It does not state a particular tentative proposition as in sense:003, and it does not accuse a person of wrongdoing as in sense:001."
+      },
+      {
+        "example_id": "ex-3e2a729590ee",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "that the treasurer had committed fraud"
+        ],
+        "rationale": "The phrase “that the treasurer had committed fraud” identifies a particular person as having committed wrongdoing, so the suspicion is a person-directed allegation in sense:001. Although it is a that-clause, this differs from sense:003: the proposition specifically treats the treasurer as the alleged offender."
+      },
+      {
+        "example_id": "ex-6673d64fd465",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "the delay was caused by a technical problem"
+        ],
+        "rationale": "The phrase “the delay was caused by a technical problem” is the proposition the speaker tentatively believes, which is sense:003. It does not allege that a person committed an offense as in sense:001, nor does the sentence express distrust of an information source as in sense:002."
+      },
+      {
+        "example_id": "ex-711c9be0fe2d",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "arrested on suspicion of fraud"
+        ],
+        "rationale": "The phrase “arrested on suspicion of fraud” identifies the people as suspected of committing an offense, sense:001. This is a criminal allegation, unlike sense:003’s tentative belief about a proposition that does not cast a person as a wrongdoer."
+      },
+      {
+        "example_id": "ex-b36a63140789",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "a suspicion of citrus",
+          "made it taste fresher"
+        ],
+        "rationale": "The phrase “a suspicion of citrus” that “made it taste fresher” describes a slight trace of flavor, sense:004. It is not sense:003, because citrus is presented as a small sensory quality rather than as a proposition whose truth is uncertain."
+      },
+      {
+        "example_id": "ex-703df1820255",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "came under suspicion"
+        ],
+        "rationale": "The phrase “came under suspicion” places the employee in the role of a possible perpetrator, sense:001. Sense:002 would be general mistrust of the employee’s reliability; this construction instead marks the person as suspected of wrongdoing."
+      },
+      {
+        "example_id": "ex-38ece9c9bad6",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "confirmed her suspicion that the battery was failing"
+        ],
+        "rationale": "The phrase “confirmed her suspicion that the battery was failing” concerns a tentative proposition about the battery’s condition, sense:003. It does not accuse a person of wrongdoing as in sense:001, or express generalized mistrust as in sense:002."
+      },
+      {
+        "example_id": "ex-66342a6a5835",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "a suspicion of disappointment in his voice"
+        ],
+        "rationale": "The phrase “a suspicion of disappointment in his voice” means a faint trace of an emotion apparent in the voice, sense:004. It differs from sense:003: the wording presents a slight perceptible quality, not a tentative belief about whether a proposition is true."
+      },
+      {
+        "example_id": "ex-3b391b190f2d",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "remained under suspicion"
+        ],
+        "rationale": "The phrase “remained under suspicion” gives the contractor continuing status as a possible wrongdoer, sense:001. Sense:002 would only convey general mistrust of the contractor’s trustworthiness; this construction means the person remains suspected of wrongdoing."
+      },
+      {
+        "example_id": "ex-58250159cf7a",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "a guard had stolen the missing laptops"
+        ],
+        "rationale": "The phrase “a guard had stolen the missing laptops” identifies a particular person as the perpetrator of wrongdoing, so the manager’s suspicions are sense:001. This is more specific than sense:003’s uncertain proposition: the guard is directly suspected of committing the theft."
+      },
+      {
+        "example_id": "ex-42cf1597e55a",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "reliability of the company's explanation"
+        ],
+        "rationale": "The phrase “reliability of the company's explanation” makes trustworthiness of information the object of doubt, sense:002. Unlike sense:001, it does not accuse a person of committing an offense; it expresses mistrust of the explanation’s credibility."
+      },
+      {
+        "example_id": "ex-68c0aa431b5b",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "everyone already knew the answer"
+        ],
+        "rationale": "The phrase “everyone already knew the answer” is the proposition behind a tentative hunch, sense:003. It does not express mistrust of the answer’s reliability as in sense:002, and it does not allege wrongdoing by a particular person as in sense:001."
+      },
+      {
+        "example_id": "ex-733171bde527",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "viewed the sudden policy change with suspicion"
+        ],
+        "rationale": "The phrase “viewed the sudden policy change with suspicion” describes a wary, distrustful attitude, sense:002. It does not supply a specific proposition as a tentative belief in sense:003, or cast a person as a wrongdoer in sense:001."
+      },
+      {
+        "example_id": "ex-13fd09516339",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "white with a suspicion of blue"
+        ],
+        "rationale": "The phrase “white with a suspicion of blue” describes a barely perceptible color tint, sense:004. It is not sense:003 because the blue is presented as a faint sensory quality rather than a doubtful proposition."
+      }
+    ]
+  },
+  "alignment_key": {
+    "schema_version": "example_attribution_alignment_key_v1",
+    "pass_id": "example-attribution",
+    "input_body_sha256": "b34f7da3691330b05a3a8a1aaf894599ec4d16d118e331f84a1dc41bcfca5677",
+    "blind_request_sha256": "9944a5362cc3f6bb9ef6c23617b052da36cb0597f8da8f1cf00038fa2d7fdc8c",
+    "shuffle_seed": "b34f7da3691330b05a3a8a1aaf894599ec4d16d118e331f84a1dc41bcfca5677",
+    "examples": [
+      {
+        "example_id": "ex-3e2a729590ee",
+        "assigned_sense_id": "sense:001",
+        "anchor": {
+          "section": "collocations_examples",
+          "line_start": 52,
+          "line_end": 52,
+          "exact_quote": "例: Among the auditors, the unexplained transfer of client funds aroused suspicion that the treasurer had committed fraud.  "
+        },
+        "source_example_id": "example:001"
+      },
+      {
+        "example_id": "ex-711c9be0fe2d",
+        "assigned_sense_id": "sense:001",
+        "anchor": {
+          "section": "collocations_examples",
+          "line_start": 57,
+          "line_end": 57,
+          "exact_quote": "例: Two people were arrested on suspicion of fraud after the investigation.  "
+        },
+        "source_example_id": "example:002"
+      },
+      {
+        "example_id": "ex-3b391b190f2d",
+        "assigned_sense_id": "sense:001",
+        "anchor": {
+          "section": "collocations_examples",
+          "line_start": 62,
+          "line_end": 62,
+          "exact_quote": "例: The contractor remained under suspicion until the records were checked.  "
+        },
+        "source_example_id": "example:003"
+      },
+      {
+        "example_id": "ex-703df1820255",
+        "assigned_sense_id": "sense:001",
+        "anchor": {
+          "section": "collocations_examples",
+          "line_start": 67,
+          "line_end": 67,
+          "exact_quote": "例: The employee came under suspicion when several invoices disappeared.  "
+        },
+        "source_example_id": "example:004"
+      },
+      {
+        "example_id": "ex-7109decd0751",
+        "assigned_sense_id": "sense:001",
+        "anchor": {
+          "section": "collocations_examples",
+          "line_start": 72,
+          "line_end": 72,
+          "exact_quote": "例: The altered timestamp cast suspicion on the clerk who had access to the report.  "
+        },
+        "source_example_id": "example:005"
+      },
+      {
+        "example_id": "ex-58250159cf7a",
+        "assigned_sense_id": "sense:001",
+        "anchor": {
+          "section": "collocations_examples",
+          "line_start": 77,
+          "line_end": 77,
+          "exact_quote": "例: The security footage confirmed the manager's suspicions that a guard had stolen the missing laptops.  "
+        },
+        "source_example_id": "example:006"
+      },
+      {
+        "example_id": "ex-733171bde527",
+        "assigned_sense_id": "sense:002",
+        "anchor": {
+          "section": "collocations_examples",
+          "line_start": 105,
+          "line_end": 105,
+          "exact_quote": "例: Residents viewed the sudden policy change with suspicion.  "
+        },
+        "source_example_id": "example:007"
+      },
+      {
+        "example_id": "ex-f7a4533cef3c",
+        "assigned_sense_id": "sense:002",
+        "anchor": {
+          "section": "collocations_examples",
+          "line_start": 110,
+          "line_end": 110,
+          "exact_quote": "例: The new monitoring system was initially greeted with some suspicion.  "
+        },
+        "source_example_id": "example:008"
+      },
+      {
+        "example_id": "ex-42cf1597e55a",
+        "assigned_sense_id": "sense:002",
+        "anchor": {
+          "section": "collocations_examples",
+          "line_start": 115,
+          "line_end": 115,
+          "exact_quote": "例: The discrepancy cast suspicion on the reliability of the company's explanation.  "
+        },
+        "source_example_id": "example:009"
+      },
+      {
+        "example_id": "ex-b05441354faa",
+        "assigned_sense_id": "sense:003",
+        "anchor": {
+          "section": "collocations_examples",
+          "line_start": 150,
+          "line_end": 150,
+          "exact_quote": "例: I have a suspicion that the meeting will finish earlier than planned.  "
+        },
+        "source_example_id": "example:010"
+      },
+      {
+        "example_id": "ex-68c0aa431b5b",
+        "assigned_sense_id": "sense:003",
+        "anchor": {
+          "section": "collocations_examples",
+          "line_start": 155,
+          "line_end": 155,
+          "exact_quote": "例: She had a sneaking suspicion that everyone already knew the answer.  "
+        },
+        "source_example_id": "example:011"
+      },
+      {
+        "example_id": "ex-6673d64fd465",
+        "assigned_sense_id": "sense:003",
+        "anchor": {
+          "section": "collocations_examples",
+          "line_start": 160,
+          "line_end": 160,
+          "exact_quote": "例: We had a strong suspicion that the delay was caused by a technical problem.  "
+        },
+        "source_example_id": "example:012"
+      },
+      {
+        "example_id": "ex-38ece9c9bad6",
+        "assigned_sense_id": "sense:003",
+        "anchor": {
+          "section": "collocations_examples",
+          "line_start": 165,
+          "line_end": 165,
+          "exact_quote": "例: The test results confirmed her suspicion that the battery was failing.  "
+        },
+        "source_example_id": "example:013"
+      },
+      {
+        "example_id": "ex-13fd09516339",
+        "assigned_sense_id": "sense:004",
+        "anchor": {
+          "section": "collocations_examples",
+          "line_start": 200,
+          "line_end": 200,
+          "exact_quote": "例: The walls were white with a suspicion of blue in the evening light.  "
+        },
+        "source_example_id": "example:014"
+      },
+      {
+        "example_id": "ex-b36a63140789",
+        "assigned_sense_id": "sense:004",
+        "anchor": {
+          "section": "collocations_examples",
+          "line_start": 205,
+          "line_end": 205,
+          "exact_quote": "例: The sauce had a suspicion of citrus that made it taste fresher.  "
+        },
+        "source_example_id": "example:015"
+      },
+      {
+        "example_id": "ex-66342a6a5835",
+        "assigned_sense_id": "sense:004",
+        "anchor": {
+          "section": "collocations_examples",
+          "line_start": 210,
+          "line_end": 210,
+          "exact_quote": "例: There was a suspicion of disappointment in his voice.  "
+        },
+        "source_example_id": "example:016"
+      },
+      {
+        "example_id": "ex-07975d37945b",
+        "assigned_sense_id": "sense:004",
+        "anchor": {
+          "section": "collocations_examples",
+          "line_start": 215,
+          "line_end": 215,
+          "exact_quote": "例: A suspicion of a smile appeared at the corner of her mouth.  "
+        },
+        "source_example_id": "example:017"
+      }
+    ],
+    "sense_usage_notes": [
+      {
+        "sense_id": "sense:001",
+        "line": 80,
+        "text": "on suspicion of theft は「窃盗の疑いを理由に」という定型表現である。under suspicion は、Oxford の説明では不正をしたのではないかと疑われている状態を表す。that節の形だけでなく意味上の焦点を見る。話者が節全体の真偽を暫定的に推測する用法は語義3、人に不正行為の容疑を向ける用法は語義1に置く。accusation や allegation は類義語ではなく、誰かが不正をしたという主張・告発を指す関連語である。"
+      },
+      {
+        "sense_id": "sense:002",
+        "line": 118,
+        "text": "with suspicion は「疑いの目で、信用せずに」という態度を表す。Oxford と American Heritage はこの語義を distrust / lack of confidence と説明する。Merriam-Webster は suspicion が真実性・現実性・公正さ・信頼性への信頼の薄さを強調すると説明し、mistrust は疑いに基づく信頼の欠如を強調するとしている。"
+      },
+      {
+        "sense_id": "sense:003",
+        "line": 168,
+        "text": "この語義では内容は悪いことに限らず、I have a suspicion that she may surprise us with good news. のように中立・肯定的な内容についても「そうではないかという気」を表せる。that節の内容が犯罪・不正かどうかだけで語義を分けない。節全体を真偽未確定の命題として推し量る用法は語義3、特定の人に犯罪・不正の容疑を向ける用法は語義1として説明する。suspicion that ... の that は内容を導く接続詞で、suspicion of ... の of は名詞句を取る。a sneaking suspicion の sneaking はここでは「盗み歩く」という直訳ではなく、表立って確信してはいないが心の中にある感覚を表す。"
+      },
+      {
+        "sense_id": "sense:004",
+        "line": 218,
+        "text": "この a suspicion of ... は「～を疑うこと」ではなく、「～がほんの少し存在すること」である。"
+      }
+    ]
+  },
+  "required_output_schema": "example_attribution_stage2_response_v1"
+}

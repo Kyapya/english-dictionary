@@ -1,0 +1,24 @@
+{
+  "schema_version": "checker_handoff_response_disposition_v1",
+  "recorded_at": "2026-09-23T16:12:06.736739+00:00",
+  "pass_id": "frame-relation",
+  "stage": "checker_recheck/round-13/stage2",
+  "raw_response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-13/frame-relation.stage2.response.json",
+  "raw_response_sha256": "651091abdc45c6aa417181b4aa8f55aa5185c1ffabe1c3611106670d2dd2aaf6",
+  "status": "accepted",
+  "reason": "The raw stage-2 record is bound to the canonical published stage-2 request and the exact stage-1 blind record. It contains no adjudications, frame findings, or unrouted observations; the packet contained no antonym-axis items.",
+  "request_sha256": "867c82e47695aa36c08a8ea4c59ee139355e000ed6abc4362235855d2a312e47",
+  "raw_validation_errors": [],
+  "coordinator_adjusted_fields": [
+    "input_body_sha256",
+    "stage2_request_sha256",
+    "blind_record_sha256"
+  ],
+  "reviewer_authored_judgments_preserved": true,
+  "reviewer": {
+    "mode": "handoff",
+    "agent_id": "/root/round13_frame_recovery",
+    "declared_model": "GPT-6",
+    "ingested_by": "human"
+  }
+}

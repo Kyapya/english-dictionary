@@ -1,0 +1,43 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "pronunciation",
+  "taxonomy_ids": [
+    "pronunciation_symbol_explanation"
+  ],
+  "specification": "prompts/check_pass_pronunciation_v6.md",
+  "input_body_sha256": "8febacafb97a88eea7736ca28cadd2b6af2be331a29afa82589daccb7372d31f",
+  "input_sections": {
+    "pronunciation": [
+      {
+        "line": 13,
+        "text": "＃発音記号"
+      },
+      {
+        "line": 15,
+        "text": "Oxford は米・英とも /səˈspɪʃn/ と表記する。Oxford Advanced Learner’s Dictionary（OALD10）の解説では、位置から分かる音節主音 /n/ は [n̩] のような補助記号を付けずに表す。このため /səˈspɪʃn/ の語末 /n/ が音節を担い、全体は3音節と読める。Merriam-Webster の音節別表記 sə-ˈspi-shən も3音節で、第2音節に主強勢を置く。語頭の su- は強く /suː/ と読まず、弱い /sə/ になる。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "7e3e94267ac9f917c901c12580b91e570b5989df7adfbf2a39b833478c766d8a",
+  "source_artifact_sha256": "eba79a227ae9f1ad73e5e9936468342a0346d6f411cb9a1da35f42c3dcdcc863",
+  "normalization_version": "check_pass_semantic_input_v2",
+  "normalized_input_sha256": "058873935f54fe4a7655f589e82ea2fecb2e3728ea1385285c2a319a32db8f2d"
+}

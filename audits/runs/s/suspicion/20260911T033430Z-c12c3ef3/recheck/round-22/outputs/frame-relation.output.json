@@ -1,0 +1,56 @@
+{
+  "pass_id": "frame-relation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "GPT-6",
+    "ingested_by": "orchestrator",
+    "agent_id": "/root/s22_frame_relation",
+    "source_response": {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-22/responses/source_responses/7944dc5c375684fa3a109536e4308c829be465766561d5d96196edc85683beba.json",
+      "sha256": "7944dc5c375684fa3a109536e4308c829be465766561d5d96196edc85683beba"
+    }
+  },
+  "antonym_axis_blind_record": {
+    "schema_version": "antonym_axis_blind_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "08c32581fbc222d720287159ce03804197e14b84a5afa55587c5dc1ac53ad6d6",
+    "blind_request_sha256": "6838b376936c1884b36a365b923c0564a6ba2682cb1383797b5fb3c43e554721",
+    "recorded_at": "2026-09-24T13:55:56Z",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "GPT-6",
+      "ingested_by": "orchestrator",
+      "agent_id": "/root/s22_frame_relation",
+      "source_response": {
+        "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-22/responses/source_responses/efc00e674cf9aff78806610e37f617712b26203f2670b6f9d9e1489a41fc01f2.json",
+        "sha256": "efc00e674cf9aff78806610e37f617712b26203f2670b6f9d9e1489a41fc01f2"
+      }
+    },
+    "axes": []
+  },
+  "antonym_axis_adjudication_record": {
+    "schema_version": "antonym_axis_adjudication_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "08c32581fbc222d720287159ce03804197e14b84a5afa55587c5dc1ac53ad6d6",
+    "stage2_request_sha256": "81079bb3bc6d1a5c8dbe8eef684952e6dc1091587c9c61518fcb3337b434d477",
+    "blind_record_sha256": "3fe3c99031464c1f47265f76dd65ee0cc5fd8d84073d50c1e3b624fb7a5bc8ad",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "GPT-6",
+      "ingested_by": "orchestrator",
+      "agent_id": "/root/s22_frame_relation",
+      "source_response": {
+        "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-22/responses/source_responses/7944dc5c375684fa3a109536e4308c829be465766561d5d96196edc85683beba.json",
+        "sha256": "7944dc5c375684fa3a109536e4308c829be465766561d5d96196edc85683beba"
+      }
+    },
+    "adjudications": [],
+    "frame_findings": [],
+    "unrouted_observations": []
+  },
+  "aligned_at": "2026-09-24T14:15:46.344438+00:00",
+  "findings": [],
+  "unrouted_observations": [],
+  "schema_version": "check_pass_result_v6",
+  "status": "pass"
+}

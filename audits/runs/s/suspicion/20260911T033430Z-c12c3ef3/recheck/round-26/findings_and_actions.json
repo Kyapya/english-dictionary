@@ -1,0 +1,43 @@
+{
+  "schema_version": "checker_recheck_actions_v1",
+  "round": 26,
+  "input_body_sha256": "d5fed3eeb1ca0acb9286fc85407b81982758943d11ecf86c3e1bf1c18bdd4978",
+  "source_inventory_sha256": "961f7d80860a617202cd1d7a5863ea843f93bf3ff298b1e15a38f6e1d24ce616",
+  "source_artifact_sha256": "71ecbb6ba67c4f2c9c14bc62d9ed607be1a54695728ccde7798ff3b3f68e0bc6",
+  "findings": [],
+  "review_response_corrections": [
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-26/responses/frame-relation.stage1.response.raw.json",
+      "sha256": "c83a7c9c01c89c7d73c17192f3058c780c457d9ef91d5755658c5efcc012b753",
+      "disposition": "contract_invalid",
+      "detail": "Initial blind_request_sha256 used the formatted packet byte digest rather than the canonical request digest; immutable initial raw response retained."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-26/responses/frame-relation.stage1.response.contract_corrected.raw.json",
+      "sha256": "ece2b90d63e41e792f308dc6c78717ed61242acc7af9643b6f6963feaf70ca7c",
+      "disposition": "accepted",
+      "detail": "Same reviewer corrected only blind_request_sha256 to the canonical digest; axes remained empty and all reviewer metadata and timestamp were preserved."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-26/responses/example-attribution.stage1.response.raw.json",
+      "sha256": "a5f9dc6a2068823bb260077345fdf6415edf1cd4a6f8e4b79d731af12bebb76c",
+      "disposition": "contract_invalid",
+      "detail": "Initial response omitted the canonical request hash, used blind_attributions rather than attributions, and nine rationales failed exact-term grounding; immutable initial raw response retained."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-26/responses/example-attribution.stage1.response.contract_corrected.raw.json",
+      "sha256": "27b2bed5a53921138d0fc421d4b2ac5cbfc721ca2886a4438bd3c474fc74f2a7",
+      "disposition": "accepted",
+      "detail": "Same reviewer supplied the canonical request digest, renamed the array to attributions, and grounded the nine rationales with complete exact discriminating terms; all 16 classifications and candidate sets were retained."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-26/responses/qualification.response.raw.json",
+      "sha256": "d9147d7a88ebe5fd0c98598aa85e5a907edcbac021716f5a934d3290dc4b78c3",
+      "disposition": "accepted_path_copy",
+      "detail": "Byte-identical copy of the reviewer raw response saved at the prescribed repository path; original workspace-relative response remains at /workspace/scratch/386e81f3fb7a/audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-26/responses/qualification.response.raw.json. No response content was changed."
+    }
+  ],
+  "prior_round_findings_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-25/findings_and_actions.json",
+  "prior_round_findings_sha256": "52d6af522985c2748de6fb58e6133cd7744c219447de729239a76a66b3fcfb85",
+  "recorded_at": "2026-09-24T16:13:36.322260+00:00"
+}

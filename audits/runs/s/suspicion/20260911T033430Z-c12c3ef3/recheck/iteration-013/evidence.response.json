@@ -1,0 +1,72 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "evidence",
+  "findings": [],
+  "unrouted_observations": [
+    {
+      "scope": "frequency scores",
+      "article_target_ids": [
+        "frequency:001",
+        "frequency:002",
+        "frequency:003",
+        "frequency:004",
+        "synonym:001",
+        "synonym:002",
+        "synonym:003",
+        "synonym:004",
+        "synonym:005",
+        "synonym:006",
+        "synonym:007"
+      ],
+      "observation": "All 11 frequency values have an editorial_score_basis explicitly marked editorial_estimate_not_corpus_count. Their rationales identify sense-specific encounter contexts and are transparent under the article's stated 1–10 rubric. I evaluated them as editorial estimates and did not infer corpus counts or rankings."
+    }
+  ],
+  "locators_opened": [
+    {
+      "source_id": "american_heritage",
+      "locator": "https://ahdictionary.com/word/search.html?q=suspicion",
+      "status": "opened",
+      "web_ref": "turn891845view0",
+      "evidence": "The entry displays noun senses for suspicion of something on little or no evidence, being suspected of wrongdoing, distrust, and a minute amount/trace; it also marks the verb informal and gives the Middle English, Anglo-Norman/Old French, and Latin origin. Relevant lines 40–45."
+    },
+    {
+      "source_id": "etymonline",
+      "locator": "https://www.etymonline.com/word/suspicion",
+      "status": "opened",
+      "web_ref": "turn891845view1",
+      "evidence": "The entry gives c. 1300 Middle English suspecioun via Anglo-French/Old French from Late Latin suspectionem (nominative suspectio), related to suspicere; it notes learned Old French influence on English spelling and the historical U.S. Western slang verb. Relevant lines 50–56."
+    },
+    {
+      "source_id": "merriam_webster",
+      "locator": "https://www.merriam-webster.com/dictionary/suspicion",
+      "status": "opened",
+      "web_ref": "turn891845view2",
+      "evidence": "The entry shows sə-ˈspi-shən; noun senses of suspecting wrongdoing, mental uneasiness/uncertainty comparable to doubt, and a barely detectable amount/trace; a chiefly dialectal verb; the suspicion/mistrust distinction; that-clause examples; the noun etymology; and a legal definition usually short of belief based on no or slight evidence. Relevant lines 31–56, 61–69, 90–116, 124–140, and 199–208."
+    },
+    {
+      "source_id": "merseyside_police",
+      "locator": "https://www.merseyside.police.uk/news/merseyside/news/2026/june-2026/man-arrested-on-suspicion-of-breach-of-the-peace-on-county-road/",
+      "status": "opened",
+      "web_ref": "turn666821view0",
+      "evidence": "The official release says a man was arrested on suspicion of breach of the peace and would be taken to a police station for questioning. Relevant lines 54–62."
+    },
+    {
+      "source_id": "oxford_learner",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion",
+      "status": "opened",
+      "web_ref": "turn666821view1",
+      "evidence": "The entry displays matching UK/US IPA forms, the word family, sense 1 with countability and wrongdoing/no-proof meaning plus on suspicion of and that-clause examples, sense 2 as a belief that something is true without proof, sense 3 as inability to trust, and sense 4 as a formal small amount with hint and a suspicion of a smile; it also gives the origin and under suspicion idiom. Relevant lines 97–120, 168–175, 207–215, 245–252, and 267–271."
+    }
+  ],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "GPT-6",
+    "ingested_by": "human",
+    "agent_id": "/root/suspicion_evidence_recheck_13",
+    "independent": true,
+    "self_attested": true
+  },
+  "request_sha256": "b1a756e929ce9cbd4d4b2474142f495da97365f4f3174e08e8104026b8eac945",
+  "normalized_input_sha256": "ea779e7b7717b3a2807fc9b44e4b26f66df897497953ea1ebc10056640c5aa37",
+  "input_body_sha256": "6c77c142312c5cd3c8fc46bb74e490d274f356ffea110ae31b600bfa76245433"
+}

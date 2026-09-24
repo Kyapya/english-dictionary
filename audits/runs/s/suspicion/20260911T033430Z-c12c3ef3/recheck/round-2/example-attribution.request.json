@@ -1,0 +1,100 @@
+{
+  "schema_version": "example_attribution_blind_request_v1",
+  "pass_id": "example-attribution",
+  "taxonomy_ids": [
+    "example_sense_attribution_mismatch"
+  ],
+  "specification": "prompts/check_pass_example_attribution_v6.md",
+  "input_body_sha256": "efa27069dbe117dc37e26978455d0832cd582655ef3ff0aaaf9f6ed68ed6bf74",
+  "input_sections": {
+    "sense_structure": [
+      {
+        "sense_id": "sense:001",
+        "line": 29,
+        "label": "1. 【名詞・可算／不可算】容疑、犯罪・不正をしたのではないかという疑い",
+        "definition": "人が犯罪・不正をした可能性があると、十分な証明がない段階で考えることを表す。個々の疑いを数えるときは可算、疑いがあるという状態・状況をまとめて述べるときは不可算で使われる。"
+      },
+      {
+        "sense_id": "sense:002",
+        "line": 72,
+        "label": "2. 【名詞・不可算中心】不信、警戒を伴う疑念",
+        "definition": "人、組織、主張、動機などを信用しきれず、疑いの目で見る態度を表す。特定の犯罪・不正行為を考える語義1とは違い、対象への信頼が十分でない状態を表す。"
+      },
+      {
+        "sense_id": "sense:003",
+        "line": 100,
+        "label": "3. 【名詞・単数／やや文語的】ほんの少し、かすかな気配",
+        "definition": "ものがごく少量、またはかすかな兆候として感じられることを表す。通常 a suspicion of ... の形で使われる。"
+      }
+    ],
+    "collocations_examples": [
+      {
+        "example_id": "ex-1894e7098c62",
+        "example": "The contractor remained under suspicion of fraud until the records were checked.",
+        "translation": "記録が確認されるまで、その請負業者は詐欺の疑いをかけられたままだった。"
+      },
+      {
+        "example_id": "ex-a4fa40305194",
+        "example": "Two people were arrested on suspicion of fraud after the investigation.",
+        "translation": "捜査後、2人が詐欺の容疑で逮捕された。"
+      },
+      {
+        "example_id": "ex-266a2967a103",
+        "example": "The unexplained transfer led to a fraud inquiry and aroused suspicion among the auditors.",
+        "translation": "説明のつかない資金移動をきっかけに詐欺の調査が始まり、監査担当者たちの疑いを招いた。"
+      },
+      {
+        "example_id": "ex-2166ea257022",
+        "example": "The old tale had a suspicion of truth in it.",
+        "translation": "その古い物語には、どこか真実味が感じられた。"
+      },
+      {
+        "example_id": "ex-9469dae6769b",
+        "example": "The security footage confirmed the manager's suspicions that the cashier had falsified the sales records.",
+        "translation": "防犯映像によって、レジ係が売上記録を改ざんしたという管理者の疑いが裏付けられた。"
+      },
+      {
+        "example_id": "ex-54cff3a13fd1",
+        "example": "There was a suspicion of a smile in her reply.",
+        "translation": "彼女の返事にはかすかな笑みが感じられた。"
+      },
+      {
+        "example_id": "ex-b365eaf40988",
+        "example": "Residents regarded the sudden policy change with suspicion.",
+        "translation": "住民たちは突然の方針変更を疑いの目で見た。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "assigned_sense_id",
+      "collocation_heading",
+      "usage_line",
+      "example_group_boundary",
+      "document_order"
+    ],
+    "required_output_schema": "example_attribution_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "e0bbb032bc0c50bf9bef5ff8f7854188287e635c58e599479891e11e3343a017",
+  "source_artifact_sha256": "90139b27b6c94617d777242b75c75a25582e1d6dc90f13e7edd06aee338ca0d2",
+  "normalized_input_sha256": "47c79c5c862b2a593a4a2d256c4a882ff48ae8f51ddf851685b1f2ecce771899"
+}

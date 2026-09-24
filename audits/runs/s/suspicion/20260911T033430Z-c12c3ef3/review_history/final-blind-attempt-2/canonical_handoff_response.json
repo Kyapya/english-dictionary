@@ -1,0 +1,224 @@
+{
+  "reviewer": {
+    "mode": "handoff",
+    "agent_id": "/root/s25_final_blind",
+    "declared_model": "GPT-6"
+  },
+  "provisional_decision": "reject",
+  "independent_candidates": [
+    {
+      "id": "noun_suspected_person",
+      "surface_form": "suspicion",
+      "frame": "suspicion of 〈crime/wrongdoing〉; be under suspicion; on suspicion of 〈crime〉; cast suspicion on 〈person/action suspected of wrongdoing〉",
+      "meaning": "A person is regarded as possibly guilty of a specific crime or wrongdoing, or is in the state of being suspected of it.",
+      "disposition": "included",
+      "rationale": "The frame “suspicion of 〈crime/wrongdoing〉; be under suspicion; on suspicion of 〈crime〉; cast suspicion on 〈person/action suspected of wrongdoing〉” has a person-centered culpability focus, distinct from general distrust or a hypothesis about an unrelated proposition.",
+      "semantic_assertions": [
+        {
+          "id": "nsp1",
+          "statement": "The person or person's action is suspected in connection with a specific crime or wrongdoing.",
+          "polarity": "must_hold",
+          "scope": "suspicion of crime or wrongdoing; under/on suspicion; cast suspicion on a suspected person or action"
+        },
+        {
+          "id": "nsp2",
+          "statement": "A bare lack of confidence in a person, without a suspected offense, is not required to belong to this sense.",
+          "polarity": "must_not_hold",
+          "scope": "boundary with general distrust"
+        }
+      ]
+    },
+    {
+      "id": "noun_person_wrongdoing_that_clause",
+      "surface_form": "suspicion",
+      "frame": "suspicion that 〈person committed a crime/wrongdoing〉; arouse suspicion that 〈person committed a crime/wrongdoing〉; confirm suspicions that 〈person committed a crime/wrongdoing〉",
+      "meaning": "A suspicion that specifically treats a person as the possible perpetrator of a crime or wrongdoing, even when the content is expressed as a that-clause.",
+      "disposition": "included",
+      "rationale": "The frame “suspicion that 〈person committed a crime/wrongdoing〉; arouse suspicion that 〈person committed a crime/wrongdoing〉; confirm suspicions that 〈person committed a crime/wrongdoing〉” keeps the semantic focus on a person suspected of the stated act, rather than clause form alone.",
+      "semantic_assertions": [
+        {
+          "id": "npt1",
+          "statement": "A that-clause whose content identifies a person as having committed a crime or wrongdoing can express person-focused culpability suspicion.",
+          "polarity": "must_hold",
+          "scope": "that-clause content naming a person as a wrongdoer"
+        },
+        {
+          "id": "npt2",
+          "statement": "That-clause syntax alone must not force the usage into a general proposition sense.",
+          "polarity": "must_not_hold",
+          "scope": "distinction between person-focused culpability and general proposition"
+        }
+      ]
+    },
+    {
+      "id": "noun_general_distrust",
+      "surface_form": "suspicion",
+      "frame": "regard/view 〈person/claim/proposal/action/decision〉 with suspicion; be greeted with (some) suspicion; suspicions about 〈person/behavior〉 when it means general distrust",
+      "meaning": "Distrust or guarded lack of confidence in a person, organization, motive, claim, or proposal, without requiring a specific criminal allegation.",
+      "disposition": "included",
+      "rationale": "The frame “regard/view 〈person/claim/proposal/action/decision〉 with suspicion; be greeted with (some) suspicion; suspicions about 〈person/behavior〉 when it means general distrust” describes a wariness or lack of trust that can exist without a specific offense.",
+      "semantic_assertions": [
+        {
+          "id": "ngd1",
+          "statement": "This sense concerns trustworthiness, motives, claims, or guarded acceptance, and does not require a particular crime or wrongdoing.",
+          "polarity": "must_hold",
+          "scope": "general distrust and wary reception"
+        },
+        {
+          "id": "ngd2",
+          "statement": "General suspicions about someone's behavior or motives must not automatically be treated as an allegation that the person committed a crime.",
+          "polarity": "must_not_hold",
+          "scope": "suspicions about a person or behavior"
+        }
+      ]
+    },
+    {
+      "id": "noun_propositional_conjecture",
+      "surface_form": "suspicion",
+      "frame": "a suspicion that 〈proposition/clause〉; have a suspicion that 〈proposition/clause〉; a sneaking/strong suspicion that 〈proposition/clause〉; confirm a suspicion",
+      "meaning": "A tentative feeling or belief that a proposition or situation may be true, including neutral or favorable content, without necessarily treating a person as a wrongdoer.",
+      "disposition": "included",
+      "rationale": "The frame “a suspicion that 〈proposition/clause〉; have a suspicion that 〈proposition/clause〉; a sneaking/strong suspicion that 〈proposition/clause〉; confirm a suspicion” centers on the possible truth of a proposition and can be neutral or favorable.",
+      "semantic_assertions": [
+        {
+          "id": "npc1",
+          "statement": "The semantic focus is whether a proposition or situation may be true, rather than a person's culpability as such.",
+          "polarity": "must_hold",
+          "scope": "propositional that-clause and related count-noun frames"
+        },
+        {
+          "id": "npc2",
+          "statement": "The proposition must not be limited to crime, wrongdoing, or other negative content.",
+          "polarity": "must_not_hold",
+          "scope": "general propositional suspicion"
+        }
+      ]
+    },
+    {
+      "id": "noun_arouse_general_suspicion",
+      "surface_form": "suspicion",
+      "frame": "arouse/raise suspicion about an unexplained circumstance or whether something is wrong, without a specified suspected person",
+      "meaning": "An event or circumstance prompts a general suspicion that something is wrong or that a proposition may be true, without itself specifying an individual as a perpetrator.",
+      "disposition": "included",
+      "rationale": "The frame “arouse/raise suspicion about an unexplained circumstance or whether something is wrong, without a specified suspected person” describes a general suspicion-producing use whose content need not identify a person accused of wrongdoing.",
+      "semantic_assertions": [
+        {
+          "id": "nag1",
+          "statement": "The elicited suspicion can concern a situation or proposition without naming a suspected person.",
+          "polarity": "must_hold",
+          "scope": "arouse/raise suspicion with an unspecified object of suspicion"
+        },
+        {
+          "id": "nag2",
+          "statement": "This frame must not be restricted to person-focused criminal suspicion when no such person or offense is specified.",
+          "polarity": "must_not_hold",
+          "scope": "boundary with person-centered culpability suspicion"
+        }
+      ]
+    },
+    {
+      "id": "noun_trace_or_hint",
+      "surface_form": "suspicion",
+      "frame": "a suspicion of 〈color/flavor/smell/emotion〉; a suspicion of a smile",
+      "meaning": "A barely perceptible amount or hint of a quality, sensation, or expression.",
+      "disposition": "included",
+      "rationale": "The frame “a suspicion of 〈color/flavor/smell/emotion〉; a suspicion of a smile” uses suspicion figuratively for a slight, barely detectable presence, not for doubting something.",
+      "semantic_assertions": [
+        {
+          "id": "nth1",
+          "statement": "The referent is a slight amount or perceptible trace of a quality or sensation.",
+          "polarity": "must_hold",
+          "scope": "a suspicion of a sensory or emotional quality"
+        },
+        {
+          "id": "nth2",
+          "statement": "This use must not mean doubting or distrusting the quality named after of.",
+          "polarity": "must_not_hold",
+          "scope": "figurative trace/hint use"
+        }
+      ]
+    },
+    {
+      "id": "verb_suspicion",
+      "surface_form": "suspicion",
+      "frame": "verb suspicion meaning ‘suspect’",
+      "meaning": "A dialectal, regional, or colloquial verb use meaning to suspect or regard with suspicion.",
+      "disposition": "excluded",
+      "rationale": "The frame “verb suspicion meaning ‘suspect’” is a conversion from the noun but falls outside the article's expressly noun-only treatment.",
+      "semantic_assertions": [
+        {
+          "id": "vs1",
+          "statement": "The verb use is marked as dialectal or colloquial rather than as the ordinary central use of the headword.",
+          "polarity": "must_hold",
+          "scope": "verb conversion of suspicion"
+        }
+      ]
+    },
+    {
+      "id": "word_family_cross_references",
+      "surface_form": "suspect / suspicious / suspiciously",
+      "frame": "word-family cross-reference to suspect, suspicious, and suspiciously",
+      "meaning": "Related word-family forms, with their detailed meanings handled in their own entries rather than as meanings of the noun suspicion.",
+      "disposition": "included",
+      "rationale": "The frame “word-family cross-reference to suspect, suspicious, and suspiciously” is covered as a word-family note with each form referred to its own entry.",
+      "semantic_assertions": [
+        {
+          "id": "wf1",
+          "statement": "These are related word-family forms, not additional noun senses of suspicion.",
+          "polarity": "must_hold",
+          "scope": "word-family note"
+        }
+      ]
+    }
+  ],
+  "article_findings": [
+    {
+      "id": "f1",
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "意味・用法・関連表現 > 1 > 文法パターン",
+        "line_start": 46,
+        "line_end": 46,
+        "exact_quote": "suspicions about 〈person/behavior〉＝〈人・行動〉に関する疑い"
+      },
+      "severity": "blocking",
+      "rationale": "The exact frame “suspicions about 〈person/behavior〉＝〈人・行動〉に関する疑い” is broader than a crime-or-wrongdoing allegation: suspicions about a person’s behavior or motives can express general distrust or wariness, which the entry separately defines as Sense 2. Listing this unqualified frame only under Sense 1 crosses the stated boundary and should be split or narrowed.",
+      "scope_anchors": [
+        {
+          "id": "f1a",
+          "exact_quote": "suspicions about 〈person/behavior〉＝〈人・行動〉に関する疑い",
+          "location_hint": "Sense 1 → 文法パターン, line 46"
+        },
+        {
+          "id": "f1b",
+          "exact_quote": "人、組織、動機、考えなどの真実性や信頼性を確信できず、すぐには信用しない態度を表す。",
+          "location_hint": "Sense 2 → 日本語訳・定義"
+        }
+      ]
+    },
+    {
+      "id": "f2",
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "意味・用法・関連表現 > 1 > コロケーション > arouse suspicion > 用途",
+        "line_start": 51,
+        "line_end": 51,
+        "exact_quote": "用途: 行動・説明・状況が「何かおかしい」という疑いを生じさせる。"
+      },
+      "severity": "minor",
+      "rationale": "The exact use note “用途: 行動・説明・状況が「何かおかしい」という疑いを生じさせる。” does not specify a person suspected of a crime; it also naturally describes a general suspicion about a situation or proposition, matching Sense 3. The specific fraud example fits Sense 1, but the unqualified arouse/raise suspicion frame should be separated by the content of the suspicion.",
+      "scope_anchors": [
+        {
+          "id": "f2a",
+          "exact_quote": "用途: 行動・説明・状況が「何かおかしい」という疑いを生じさせる。",
+          "location_hint": "Sense 1 → arouse suspicion → 用途, line 51"
+        },
+        {
+          "id": "f2b",
+          "exact_quote": "話者の暫定的な推測・予感を表す。",
+          "location_hint": "Sense 3 → 日本語訳・定義"
+        }
+      ]
+    }
+  ]
+}

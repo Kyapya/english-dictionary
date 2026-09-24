@@ -1,0 +1,21 @@
+{
+  "schema_version": "post_blind_resolution_v1",
+  "stage": "post_blind_resolution",
+  "run_id": "resolution-suspicion-20260911T033430Z-c12c3ef3",
+  "context_id": "resolution-suspicion-context-20260911T033430Z-c12c3ef3",
+  "input_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+  "prompt_sha256": "8b734bbd5a13bf7ca640a596788c974eb81154848f2deb942a4a7472721078ba",
+  "input_artifacts": [
+    "entry_body",
+    "sealed_final_blind_findings",
+    "source_inventory"
+  ],
+  "recorded_at": "2026-09-23T16:31:46.390608+00:00",
+  "summary": "最終盲検の指摘は0件のため、裁定対象はなく、本文は変更していない。",
+  "resolutions": [],
+  "learning_delta": {
+    "schema_version": "process_improvement_learning_delta_v2",
+    "reviewed": true,
+    "items": []
+  }
+}

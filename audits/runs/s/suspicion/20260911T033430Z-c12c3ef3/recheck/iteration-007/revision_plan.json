@@ -1,0 +1,33 @@
+{
+  "schema_version": "workflow_revision_v1",
+  "before_body_sha256": "532d94350bb2df4c2b61bd6f767ac9a34717307c9de2c1245a6a8a8a8c0fb5c9",
+  "after_body_sha256": "52ed2e28e41104b4cacc7cb2aaa7353f83b2f61363134760198a80205511d12f",
+  "changed_units": [
+    "word_formation"
+  ],
+  "full_recheck": false,
+  "fallback_reasons": [],
+  "invalidated_passes": [
+    "evidence",
+    "example-attribution",
+    "frame-relation",
+    "qualification",
+    "sense-structure"
+  ],
+  "reusable_passes": [
+    "pronunciation",
+    "translation"
+  ],
+  "semantic_invalidated_passes": [
+    "evidence",
+    "qualification",
+    "sense-structure"
+  ],
+  "request_binding_expansion": {
+    "passes": [
+      "example-attribution",
+      "frame-relation"
+    ],
+    "reason": "Fresh blind seed changed the opaque example and antonym item IDs, so new bound stage-1 records are required."
+  }
+}

@@ -1,0 +1,1069 @@
+{
+  "schema_version": "check_pass_result_v6",
+  "status": "pass",
+  "pass_id": "evidence",
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 88,
+        "line_end": 88,
+        "exact_quote": "cast suspicion on 〈claim/statement or its truth/reliability〉＝〈主張・説明、またはその真実性・信頼性〉に疑いを向ける。"
+      },
+      "severity": "blocking",
+      "rationale": "この文法パターンは語義2（不信・信頼性への疑念）に置かれているが、claim_distrustに結び付くOxfordのoxf_distrust factはregard/view with suspicionの例、Merriam-Websterのmw_contrastとAmerican Heritageのahd_distrustは意味説明を支えるだけで、この「cast suspicion on」構文をこの語義で用いる直接例を示さない。開いたOxford locatorにはcast suspicion onの例があるものの、その目的語は人で、犯罪・不正を疑う語義1の例である（同entryの例）。同じ構文を信頼性・主張の語義2へ移す根拠としては適用範囲がずれている。collocation:009の例文も同じずれを含む。語義2でのこのフレームを直接示すlocatorを加えるか、裏付けられる意味範囲へ限定する必要がある。",
+      "evidence_link_ids": [
+        "oxf_distrust",
+        "mw_contrast",
+        "ahd_distrust"
+      ],
+      "suggested_direction": "語義2でcast suspicion on a claim or its reliabilityを実際に用いる直接資料を付ける。確認できなければこのフレームと例文を語義2から外すか、根拠が支える範囲へ限定する。"
+    }
+  ],
+  "reviewed_article_target_ids": [
+    "collocation:002",
+    "collocation:003",
+    "collocation:007",
+    "collocation:008",
+    "collocation:009",
+    "collocation:014",
+    "collocation:015",
+    "collocation:016",
+    "collocation:017",
+    "definition:001",
+    "definition:002",
+    "definition:003",
+    "definition:004",
+    "etymology:001",
+    "grammar_pattern:001",
+    "grammar_pattern:005",
+    "grammar_pattern:006",
+    "grammar_pattern:010",
+    "grammar_pattern:011",
+    "grammar_pattern:012",
+    "grammar_pattern:013",
+    "grammar_pattern:014",
+    "grammar_pattern:015",
+    "grammar_pattern:016",
+    "grammar_pattern:017",
+    "grammar_pattern:018",
+    "grammar_pattern:019",
+    "pronunciation:001",
+    "register:001",
+    "sense_boundary:001",
+    "sense_boundary:002",
+    "sense_boundary:004",
+    "synonym:002",
+    "synonym:003",
+    "word_formation:001",
+    "word_formation:002"
+  ],
+  "reviewed_article_target_count": 36,
+  "opened_source_locators": [
+    {
+      "source_id": "american_heritage",
+      "locator": "https://ahdictionary.com/word/search.html?q=suspicion",
+      "opened": true,
+      "web_reference_ids": [
+        "turn61view0"
+      ]
+    },
+    {
+      "source_id": "etymonline",
+      "locator": "https://www.etymonline.com/word/suspicion",
+      "opened": true,
+      "web_reference_ids": [
+        "turn61view1"
+      ]
+    },
+    {
+      "source_id": "merriam_webster",
+      "locator": "https://www.merriam-webster.com/dictionary/suspicion",
+      "opened": true,
+      "web_reference_ids": [
+        "turn61view2"
+      ]
+    },
+    {
+      "source_id": "oxford_learner",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion",
+      "opened": true,
+      "web_reference_ids": [
+        "turn62view0"
+      ]
+    },
+    {
+      "source_id": "oxford_pronunciation_documentation",
+      "locator": "https://www.oxfordlearnersdictionaries.com/external/pdf/english/OALD10_phons_GL.pdf",
+      "opened": true,
+      "web_reference_ids": [
+        "turn63view0"
+      ]
+    }
+  ],
+  "source_locator_verifications": [
+    {
+      "source_id": "american_heritage",
+      "locator": "https://ahdictionary.com/word/search.html?q=suspicion",
+      "source_type": "general_dictionary",
+      "independence_group": "american_heritage_harpercollins",
+      "opened": true,
+      "retrieval_reference": "turn61view0",
+      "status": "verified_accessible",
+      "verification_note": "Opened the American Heritage suspicion entry. It presents the wrongdoing, distrust, trace, verb-register, and etymology material in one entry; the exact source locator returns that entry."
+    },
+    {
+      "source_id": "etymonline",
+      "locator": "https://www.etymonline.com/word/suspicion",
+      "source_type": "etymological_reference",
+      "independence_group": "online_etymology_dictionary",
+      "opened": true,
+      "retrieval_reference": "turn61view1",
+      "status": "verified_accessible",
+      "verification_note": "Opened the Online Etymology Dictionary suspicion entry. Its history section gives the Anglo-French and Old French route, Late Latin suspectionem (nominative suspectio), relation to suspicere, and the fourteenth-century spelling influence."
+    },
+    {
+      "source_id": "merriam_webster",
+      "locator": "https://www.merriam-webster.com/dictionary/suspicion",
+      "source_type": "general_dictionary",
+      "independence_group": "merriam_webster",
+      "opened": true,
+      "retrieval_reference": "turn61view2",
+      "status": "verified_accessible",
+      "verification_note": "Opened the Merriam-Webster suspicion entry. It shows the noun and verb entries, pronunciation respelling, noun senses, synonym discussion, examples, etymology, and legal definition at the listed locator."
+    },
+    {
+      "source_id": "oxford_learner",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion",
+      "source_type": "learner_dictionary",
+      "independence_group": "oxford_university_press",
+      "opened": true,
+      "retrieval_reference": "turn62view0",
+      "status": "verified_accessible",
+      "verification_note": "Opened the Oxford Advanced Learner’s Dictionary suspicion entry. It shows British and American IPA fields, word family, four noun senses, examples and frames, origin, and under suspicion idiom at the listed locator."
+    },
+    {
+      "source_id": "oxford_pronunciation_documentation",
+      "locator": "https://www.oxfordlearnersdictionaries.com/external/pdf/english/OALD10_phons_GL.pdf",
+      "source_type": "pronunciation_documentation",
+      "independence_group": "oxford_university_press",
+      "opened": true,
+      "retrieval_reference": "turn63view0",
+      "status": "verified_accessible",
+      "verification_note": "Opened the OALD10 pronunciation PDF. The title identifies the document and Gary Leicester as its author; its explanation says syllabic n/l diacritics may be omitted when position implies syllabicity."
+    }
+  ],
+  "target_locator_verifications": [
+    {
+      "target_id": "collocation:002",
+      "kind": "collocation",
+      "article_location": "lines:44-47",
+      "section": "＃意味・用法・関連表現",
+      "linked_claim_unit_ids": [
+        "claim_arrest_pattern"
+      ],
+      "verified_source_fact_ids": [
+        "oxf_on"
+      ],
+      "verified_source_ids": [
+        "oxford_learner"
+      ],
+      "verified_locators": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion"
+      ],
+      "status": "verified",
+      "verification_note": "Oxford sense 1 directly shows an arrest on suspicion of a crime; the target uses the same frame and sense."
+    },
+    {
+      "target_id": "collocation:003",
+      "kind": "collocation",
+      "article_location": "lines:49-52",
+      "section": "＃意味・用法・関連表現",
+      "linked_claim_unit_ids": [
+        "claim_under_suspicion"
+      ],
+      "verified_source_fact_ids": [
+        "oxf_under"
+      ],
+      "verified_source_ids": [
+        "oxford_learner"
+      ],
+      "verified_locators": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion"
+      ],
+      "status": "verified",
+      "verification_note": "Oxford’s under suspicion idiom and examples directly support suspected wrongdoing."
+    },
+    {
+      "target_id": "collocation:007",
+      "kind": "collocation",
+      "article_location": "lines:92-95",
+      "section": "＃意味・用法・関連表現",
+      "linked_claim_unit_ids": [
+        "claim_distrust"
+      ],
+      "verified_source_fact_ids": [
+        "oxf_distrust",
+        "mw_contrast",
+        "ahd_distrust"
+      ],
+      "verified_source_ids": [
+        "oxford_learner",
+        "merriam_webster",
+        "american_heritage"
+      ],
+      "verified_locators": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion",
+        "https://www.merriam-webster.com/dictionary/suspicion",
+        "https://ahdictionary.com/word/search.html?q=suspicion"
+      ],
+      "status": "verified",
+      "verification_note": "Oxford sense 3 defines inability to trust and gives regard/view with suspicion examples; the article’s policy-change example applies that frame."
+    },
+    {
+      "target_id": "collocation:008",
+      "kind": "collocation",
+      "article_location": "lines:97-100",
+      "section": "＃意味・用法・関連表現",
+      "linked_claim_unit_ids": [
+        "claim_distrust"
+      ],
+      "verified_source_fact_ids": [
+        "oxf_distrust",
+        "mw_contrast",
+        "ahd_distrust"
+      ],
+      "verified_source_ids": [
+        "oxford_learner",
+        "merriam_webster",
+        "american_heritage"
+      ],
+      "verified_locators": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion",
+        "https://www.merriam-webster.com/dictionary/suspicion",
+        "https://ahdictionary.com/word/search.html?q=suspicion"
+      ],
+      "status": "verified",
+      "verification_note": "Oxford directly exemplifies an offer being greeted with suspicion; the article’s proposed-system example uses the same construction."
+    },
+    {
+      "target_id": "collocation:009",
+      "kind": "collocation",
+      "article_location": "lines:102-105",
+      "section": "＃意味・用法・関連表現",
+      "linked_claim_unit_ids": [
+        "claim_distrust"
+      ],
+      "verified_source_fact_ids": [
+        "oxf_distrust",
+        "mw_contrast",
+        "ahd_distrust"
+      ],
+      "verified_source_ids": [
+        "oxford_learner",
+        "merriam_webster",
+        "american_heritage"
+      ],
+      "verified_locators": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion",
+        "https://www.merriam-webster.com/dictionary/suspicion",
+        "https://ahdictionary.com/word/search.html?q=suspicion"
+      ],
+      "status": "verified_with_finding",
+      "verification_note": "Oxford directly uses cast suspicion on in an example; Merriam-Webster describes the related lack of faith in truth or reliability. The exact target object is broader than Oxford’s example, which is why the frame finding is recorded below."
+    },
+    {
+      "target_id": "collocation:014",
+      "kind": "collocation",
+      "article_location": "lines:187-190",
+      "section": "＃意味・用法・関連表現",
+      "linked_claim_unit_ids": [
+        "claim_trace"
+      ],
+      "verified_source_fact_ids": [
+        "oxf_trace",
+        "mw_trace",
+        "ahd_trace"
+      ],
+      "verified_source_ids": [
+        "oxford_learner",
+        "merriam_webster",
+        "american_heritage"
+      ],
+      "verified_locators": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion",
+        "https://www.merriam-webster.com/dictionary/suspicion",
+        "https://ahdictionary.com/word/search.html?q=suspicion"
+      ],
+      "status": "verified",
+      "verification_note": "Oxford, Merriam-Webster, and American Heritage directly define the small-amount or trace sense; the supplied sources do not give a color example, but the general definition covers the target’s faint-color illustration."
+    },
+    {
+      "target_id": "collocation:015",
+      "kind": "collocation",
+      "article_location": "lines:192-195",
+      "section": "＃意味・用法・関連表現",
+      "linked_claim_unit_ids": [
+        "claim_trace"
+      ],
+      "verified_source_fact_ids": [
+        "oxf_trace",
+        "mw_trace",
+        "ahd_trace"
+      ],
+      "verified_source_ids": [
+        "oxford_learner",
+        "merriam_webster",
+        "american_heritage"
+      ],
+      "verified_locators": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion",
+        "https://www.merriam-webster.com/dictionary/suspicion",
+        "https://ahdictionary.com/word/search.html?q=suspicion"
+      ],
+      "status": "verified",
+      "verification_note": "Merriam-Webster illustrates the trace sense with garlic, and Oxford and American Heritage also define the small-amount sense; this supports the weak-flavor frame."
+    },
+    {
+      "target_id": "collocation:016",
+      "kind": "collocation",
+      "article_location": "lines:197-200",
+      "section": "＃意味・用法・関連表現",
+      "linked_claim_unit_ids": [
+        "claim_trace"
+      ],
+      "verified_source_fact_ids": [
+        "oxf_trace",
+        "mw_trace",
+        "ahd_trace"
+      ],
+      "verified_source_ids": [
+        "oxford_learner",
+        "merriam_webster",
+        "american_heritage"
+      ],
+      "verified_locators": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion",
+        "https://www.merriam-webster.com/dictionary/suspicion",
+        "https://ahdictionary.com/word/search.html?q=suspicion"
+      ],
+      "status": "verified",
+      "verification_note": "American Heritage gives an example of a suspicion of contempt in someone’s voice; Oxford also attests a suspicion of a smile. These directly support the faint-emotion use."
+    },
+    {
+      "target_id": "collocation:017",
+      "kind": "collocation",
+      "article_location": "lines:202-205",
+      "section": "＃意味・用法・関連表現",
+      "linked_claim_unit_ids": [
+        "claim_trace"
+      ],
+      "verified_source_fact_ids": [
+        "oxf_trace",
+        "mw_trace",
+        "ahd_trace"
+      ],
+      "verified_source_ids": [
+        "oxford_learner",
+        "merriam_webster",
+        "american_heritage"
+      ],
+      "verified_locators": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion",
+        "https://www.merriam-webster.com/dictionary/suspicion",
+        "https://ahdictionary.com/word/search.html?q=suspicion"
+      ],
+      "status": "verified",
+      "verification_note": "Oxford directly gives a suspicion of a smile example, matching the target sense and phrase."
+    },
+    {
+      "target_id": "definition:001",
+      "kind": "definition",
+      "article_location": "line:29",
+      "section": "＃意味・用法・関連表現",
+      "linked_claim_unit_ids": [
+        "claim_wrongdoing",
+        "claim_legal_boundary"
+      ],
+      "verified_source_fact_ids": [
+        "oxf_s1",
+        "mw_wrongdoing",
+        "ahd_wrongdoing",
+        "mw_legal"
+      ],
+      "verified_source_ids": [
+        "oxford_learner",
+        "merriam_webster",
+        "american_heritage"
+      ],
+      "verified_locators": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion",
+        "https://www.merriam-webster.com/dictionary/suspicion",
+        "https://ahdictionary.com/word/search.html?q=suspicion"
+      ],
+      "status": "verified",
+      "verification_note": "Oxford, Merriam-Webster, and American Heritage support the suspected-wrongdoing sense; Oxford’s countability label and on suspicion of example support the countability qualification."
+    },
+    {
+      "target_id": "definition:002",
+      "kind": "definition",
+      "article_location": "line:82",
+      "section": "＃意味・用法・関連表現",
+      "linked_claim_unit_ids": [
+        "claim_distrust"
+      ],
+      "verified_source_fact_ids": [
+        "oxf_distrust",
+        "mw_contrast",
+        "ahd_distrust"
+      ],
+      "verified_source_ids": [
+        "oxford_learner",
+        "merriam_webster",
+        "american_heritage"
+      ],
+      "verified_locators": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion",
+        "https://www.merriam-webster.com/dictionary/suspicion",
+        "https://ahdictionary.com/word/search.html?q=suspicion"
+      ],
+      "status": "verified",
+      "verification_note": "Oxford defines the sense as inability to trust; Merriam-Webster and American Heritage support the lack-of-confidence or distrust description."
+    },
+    {
+      "target_id": "definition:003",
+      "kind": "definition",
+      "article_location": "line:127",
+      "section": "＃意味・用法・関連表現",
+      "linked_claim_unit_ids": [
+        "claim_that_belief"
+      ],
+      "verified_source_fact_ids": [
+        "oxf_that",
+        "oxf_belief",
+        "mw_uncertainty",
+        "mw_clause"
+      ],
+      "verified_source_ids": [
+        "oxford_learner",
+        "merriam_webster"
+      ],
+      "verified_locators": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion",
+        "https://www.merriam-webster.com/dictionary/suspicion"
+      ],
+      "status": "verified",
+      "verification_note": "Oxford directly defines a countable suspicion as a belief that something is true without proof; Merriam-Webster supports the uncertainty/doubt nuance and gives that-clause examples."
+    },
+    {
+      "target_id": "definition:004",
+      "kind": "definition",
+      "article_location": "line:177",
+      "section": "＃意味・用法・関連表現",
+      "linked_claim_unit_ids": [
+        "claim_trace"
+      ],
+      "verified_source_fact_ids": [
+        "oxf_trace",
+        "mw_trace",
+        "ahd_trace"
+      ],
+      "verified_source_ids": [
+        "oxford_learner",
+        "merriam_webster",
+        "american_heritage"
+      ],
+      "verified_locators": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion",
+        "https://www.merriam-webster.com/dictionary/suspicion",
+        "https://ahdictionary.com/word/search.html?q=suspicion"
+      ],
+      "status": "verified",
+      "verification_note": "Oxford labels the small-amount sense formal and gives a smile example; Merriam-Webster and American Heritage corroborate the trace or slight-indication meaning."
+    },
+    {
+      "target_id": "etymology:001",
+      "kind": "etymology",
+      "article_location": "line:8",
+      "section": "＃語源",
+      "linked_claim_unit_ids": [
+        "claim_etymology"
+      ],
+      "verified_source_fact_ids": [
+        "oxf_origin",
+        "mw_origin",
+        "ahd_origin",
+        "ety_origin",
+        "ety_spelling"
+      ],
+      "verified_source_ids": [
+        "oxford_learner",
+        "merriam_webster",
+        "american_heritage",
+        "etymonline"
+      ],
+      "verified_locators": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion",
+        "https://www.merriam-webster.com/dictionary/suspicion",
+        "https://ahdictionary.com/word/search.html?q=suspicion",
+        "https://www.etymonline.com/word/suspicion"
+      ],
+      "status": "verified",
+      "verification_note": "The four dictionary locators each give their separately attributed historical routes and forms; Etymonline directly supports the late-Latin form and spelling-influence clause."
+    },
+    {
+      "target_id": "grammar_pattern:001",
+      "kind": "grammar_pattern",
+      "article_location": "line:35",
+      "section": "＃意味・用法・関連表現",
+      "linked_claim_unit_ids": [
+        "claim_that_belief"
+      ],
+      "verified_source_fact_ids": [
+        "oxf_that",
+        "oxf_belief",
+        "mw_uncertainty",
+        "mw_clause"
+      ],
+      "verified_source_ids": [
+        "oxford_learner",
+        "merriam_webster"
+      ],
+      "verified_locators": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion",
+        "https://www.merriam-webster.com/dictionary/suspicion"
+      ],
+      "status": "verified",
+      "verification_note": "Oxford’s sense 1 examples include a that-clause about a person stealing; this supports the wrongdoing reading of the pattern."
+    },
+    {
+      "target_id": "grammar_pattern:005",
+      "kind": "grammar_pattern",
+      "article_location": "line:35",
+      "section": "＃意味・用法・関連表現",
+      "linked_claim_unit_ids": [
+        "claim_arrest_pattern"
+      ],
+      "verified_source_fact_ids": [
+        "oxf_on"
+      ],
+      "verified_source_ids": [
+        "oxford_learner"
+      ],
+      "verified_locators": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion"
+      ],
+      "status": "verified",
+      "verification_note": "Oxford directly gives on suspicion of plus a crime in an arrest example."
+    },
+    {
+      "target_id": "grammar_pattern:006",
+      "kind": "grammar_pattern",
+      "article_location": "line:35",
+      "section": "＃意味・用法・関連表現",
+      "linked_claim_unit_ids": [
+        "claim_under_suspicion"
+      ],
+      "verified_source_fact_ids": [
+        "oxf_under"
+      ],
+      "verified_source_ids": [
+        "oxford_learner"
+      ],
+      "verified_locators": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion"
+      ],
+      "status": "verified",
+      "verification_note": "Oxford’s under suspicion idiom is explicitly defined as suspected of wrongdoing and has examples."
+    },
+    {
+      "target_id": "grammar_pattern:010",
+      "kind": "grammar_pattern",
+      "article_location": "line:88",
+      "section": "＃意味・用法・関連表現",
+      "linked_claim_unit_ids": [
+        "claim_distrust"
+      ],
+      "verified_source_fact_ids": [
+        "oxf_distrust",
+        "mw_contrast",
+        "ahd_distrust"
+      ],
+      "verified_source_ids": [
+        "oxford_learner",
+        "merriam_webster",
+        "american_heritage"
+      ],
+      "verified_locators": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion",
+        "https://www.merriam-webster.com/dictionary/suspicion",
+        "https://ahdictionary.com/word/search.html?q=suspicion"
+      ],
+      "status": "verified",
+      "verification_note": "Oxford directly provides regard/view with suspicion examples across people and things."
+    },
+    {
+      "target_id": "grammar_pattern:011",
+      "kind": "grammar_pattern",
+      "article_location": "line:88",
+      "section": "＃意味・用法・関連表現",
+      "linked_claim_unit_ids": [
+        "claim_distrust"
+      ],
+      "verified_source_fact_ids": [
+        "oxf_distrust",
+        "mw_contrast",
+        "ahd_distrust"
+      ],
+      "verified_source_ids": [
+        "oxford_learner",
+        "merriam_webster",
+        "american_heritage"
+      ],
+      "verified_locators": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion",
+        "https://www.merriam-webster.com/dictionary/suspicion",
+        "https://ahdictionary.com/word/search.html?q=suspicion"
+      ],
+      "status": "verified",
+      "verification_note": "Oxford directly exemplifies an offer being greeted with suspicion."
+    },
+    {
+      "target_id": "grammar_pattern:012",
+      "kind": "grammar_pattern",
+      "article_location": "line:88",
+      "section": "＃意味・用法・関連表現",
+      "linked_claim_unit_ids": [
+        "claim_distrust"
+      ],
+      "verified_source_fact_ids": [
+        "oxf_distrust",
+        "mw_contrast",
+        "ahd_distrust"
+      ],
+      "verified_source_ids": [
+        "oxford_learner",
+        "merriam_webster",
+        "american_heritage"
+      ],
+      "verified_locators": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion",
+        "https://www.merriam-webster.com/dictionary/suspicion",
+        "https://ahdictionary.com/word/search.html?q=suspicion"
+      ],
+      "status": "verified_with_finding",
+      "verification_note": "The sources support the sense and the cast suspicion on wording separately, but the only opened cast example applies it to a person in Oxford sense 1, not to a claim’s truth or reliability in sense 2. See the blocking finding."
+    },
+    {
+      "target_id": "grammar_pattern:013",
+      "kind": "grammar_pattern",
+      "article_location": "line:133",
+      "section": "＃意味・用法・関連表現",
+      "linked_claim_unit_ids": [
+        "claim_that_belief"
+      ],
+      "verified_source_fact_ids": [
+        "oxf_that",
+        "oxf_belief",
+        "mw_uncertainty",
+        "mw_clause"
+      ],
+      "verified_source_ids": [
+        "oxford_learner",
+        "merriam_webster"
+      ],
+      "verified_locators": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion",
+        "https://www.merriam-webster.com/dictionary/suspicion"
+      ],
+      "status": "verified",
+      "verification_note": "Oxford and Merriam-Webster give suspicion-that examples; Oxford sense 2 directly defines an unproved belief."
+    },
+    {
+      "target_id": "grammar_pattern:014",
+      "kind": "grammar_pattern",
+      "article_location": "line:133",
+      "section": "＃意味・用法・関連表現",
+      "linked_claim_unit_ids": [
+        "claim_that_belief"
+      ],
+      "verified_source_fact_ids": [
+        "oxf_that",
+        "oxf_belief",
+        "mw_uncertainty",
+        "mw_clause"
+      ],
+      "verified_source_ids": [
+        "oxford_learner",
+        "merriam_webster"
+      ],
+      "verified_locators": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion",
+        "https://www.merriam-webster.com/dictionary/suspicion"
+      ],
+      "status": "verified",
+      "verification_note": "Oxford and Merriam-Webster attest that-clause uses of suspicion; the frame is consistent with those entries."
+    },
+    {
+      "target_id": "grammar_pattern:015",
+      "kind": "grammar_pattern",
+      "article_location": "line:133",
+      "section": "＃意味・用法・関連表現",
+      "linked_claim_unit_ids": [
+        "claim_that_belief"
+      ],
+      "verified_source_fact_ids": [
+        "oxf_that",
+        "oxf_belief",
+        "mw_uncertainty",
+        "mw_clause"
+      ],
+      "verified_source_ids": [
+        "oxford_learner",
+        "merriam_webster"
+      ],
+      "verified_locators": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion",
+        "https://www.merriam-webster.com/dictionary/suspicion"
+      ],
+      "status": "verified",
+      "verification_note": "Oxford and Merriam-Webster directly show the sneaking suspicion that construction."
+    },
+    {
+      "target_id": "grammar_pattern:016",
+      "kind": "grammar_pattern",
+      "article_location": "line:133",
+      "section": "＃意味・用法・関連表現",
+      "linked_claim_unit_ids": [
+        "claim_that_belief"
+      ],
+      "verified_source_fact_ids": [
+        "oxf_that",
+        "oxf_belief",
+        "mw_uncertainty",
+        "mw_clause"
+      ],
+      "verified_source_ids": [
+        "oxford_learner",
+        "merriam_webster"
+      ],
+      "verified_locators": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion",
+        "https://www.merriam-webster.com/dictionary/suspicion"
+      ],
+      "status": "verified",
+      "verification_note": "Oxford lists strong with suspicion in its collocations and gives suspicion-that examples; Merriam-Webster also gives that-clause examples. The combination is supported compositionally."
+    },
+    {
+      "target_id": "grammar_pattern:017",
+      "kind": "grammar_pattern",
+      "article_location": "line:133",
+      "section": "＃意味・用法・関連表現",
+      "linked_claim_unit_ids": [
+        "claim_that_belief"
+      ],
+      "verified_source_fact_ids": [
+        "oxf_that",
+        "oxf_belief",
+        "mw_uncertainty",
+        "mw_clause"
+      ],
+      "verified_source_ids": [
+        "oxford_learner",
+        "merriam_webster"
+      ],
+      "verified_locators": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion",
+        "https://www.merriam-webster.com/dictionary/suspicion"
+      ],
+      "status": "verified",
+      "verification_note": "Oxford and Merriam-Webster both show suspicions being confirmed, including with that-clause content."
+    },
+    {
+      "target_id": "grammar_pattern:018",
+      "kind": "grammar_pattern",
+      "article_location": "line:183",
+      "section": "＃意味・用法・関連表現",
+      "linked_claim_unit_ids": [
+        "claim_trace"
+      ],
+      "verified_source_fact_ids": [
+        "oxf_trace",
+        "mw_trace",
+        "ahd_trace"
+      ],
+      "verified_source_ids": [
+        "oxford_learner",
+        "merriam_webster",
+        "american_heritage"
+      ],
+      "verified_locators": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion",
+        "https://www.merriam-webster.com/dictionary/suspicion",
+        "https://ahdictionary.com/word/search.html?q=suspicion"
+      ],
+      "status": "verified",
+      "verification_note": "Oxford’s broad small-amount definition, Merriam-Webster’s trace example, and American Heritage’s trace and slight-indication material support the a suspicion of frame."
+    },
+    {
+      "target_id": "grammar_pattern:019",
+      "kind": "grammar_pattern",
+      "article_location": "line:183",
+      "section": "＃意味・用法・関連表現",
+      "linked_claim_unit_ids": [
+        "claim_trace"
+      ],
+      "verified_source_fact_ids": [
+        "oxf_trace",
+        "mw_trace",
+        "ahd_trace"
+      ],
+      "verified_source_ids": [
+        "oxford_learner",
+        "merriam_webster",
+        "american_heritage"
+      ],
+      "verified_locators": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion",
+        "https://www.merriam-webster.com/dictionary/suspicion",
+        "https://ahdictionary.com/word/search.html?q=suspicion"
+      ],
+      "status": "verified",
+      "verification_note": "Oxford directly gives the a suspicion of a smile example."
+    },
+    {
+      "target_id": "pronunciation:001",
+      "kind": "pronunciation",
+      "article_location": "line:4",
+      "section": "＃発音記号",
+      "linked_claim_unit_ids": [
+        "claim_pronunciation"
+      ],
+      "verified_source_fact_ids": [
+        "oxf_pron",
+        "mw_pron",
+        "oxf_syllabic_n"
+      ],
+      "verified_source_ids": [
+        "oxford_learner",
+        "merriam_webster",
+        "oxford_pronunciation_documentation"
+      ],
+      "verified_locators": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion",
+        "https://www.merriam-webster.com/dictionary/suspicion",
+        "https://www.oxfordlearnersdictionaries.com/external/pdf/english/OALD10_phons_GL.pdf"
+      ],
+      "status": "verified",
+      "verification_note": "Oxford shows identical British and American transcriptions; its OALD10 documentation explains unmarked syllabic consonants, and Merriam-Webster’s respelling divides the word into three syllables with second-syllable primary stress."
+    },
+    {
+      "target_id": "register:001",
+      "kind": "register",
+      "article_location": "line:33",
+      "section": "＃意味・用法・関連表現",
+      "linked_claim_unit_ids": [
+        "claim_arrest_pattern",
+        "claim_legal_boundary"
+      ],
+      "verified_source_fact_ids": [
+        "oxf_on",
+        "mw_legal"
+      ],
+      "verified_source_ids": [
+        "oxford_learner",
+        "merriam_webster"
+      ],
+      "verified_locators": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion",
+        "https://www.merriam-webster.com/dictionary/suspicion"
+      ],
+      "status": "verified",
+      "verification_note": "Oxford directly exemplifies on suspicion of as an arrest basis; Merriam-Webster’s legal definition directly supports the mental-state description and evidential qualification."
+    },
+    {
+      "target_id": "sense_boundary:001",
+      "kind": "sense_boundary",
+      "article_location": "line:27",
+      "section": "＃意味・用法・関連表現",
+      "linked_claim_unit_ids": [
+        "claim_wrongdoing"
+      ],
+      "verified_source_fact_ids": [
+        "oxf_s1",
+        "mw_wrongdoing",
+        "ahd_wrongdoing"
+      ],
+      "verified_source_ids": [
+        "oxford_learner",
+        "merriam_webster",
+        "american_heritage"
+      ],
+      "verified_locators": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion",
+        "https://www.merriam-webster.com/dictionary/suspicion",
+        "https://ahdictionary.com/word/search.html?q=suspicion"
+      ],
+      "status": "verified",
+      "verification_note": "Oxford, Merriam-Webster, and American Heritage distinguish suspicion of wrongdoing from broader uncertainty or distrust."
+    },
+    {
+      "target_id": "sense_boundary:002",
+      "kind": "sense_boundary",
+      "article_location": "line:80",
+      "section": "＃意味・用法・関連表現",
+      "linked_claim_unit_ids": [
+        "claim_distrust"
+      ],
+      "verified_source_fact_ids": [
+        "oxf_distrust",
+        "mw_contrast",
+        "ahd_distrust"
+      ],
+      "verified_source_ids": [
+        "oxford_learner",
+        "merriam_webster",
+        "american_heritage"
+      ],
+      "verified_locators": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion",
+        "https://www.merriam-webster.com/dictionary/suspicion",
+        "https://ahdictionary.com/word/search.html?q=suspicion"
+      ],
+      "status": "verified",
+      "verification_note": "Oxford’s inability-to-trust sense, Merriam-Webster’s synonym distinction, and American Heritage’s no-confidence/distrust sense support this boundary."
+    },
+    {
+      "target_id": "sense_boundary:004",
+      "kind": "sense_boundary",
+      "article_location": "line:175",
+      "section": "＃意味・用法・関連表現",
+      "linked_claim_unit_ids": [
+        "claim_trace"
+      ],
+      "verified_source_fact_ids": [
+        "oxf_trace",
+        "mw_trace",
+        "ahd_trace"
+      ],
+      "verified_source_ids": [
+        "oxford_learner",
+        "merriam_webster",
+        "american_heritage"
+      ],
+      "verified_locators": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion",
+        "https://www.merriam-webster.com/dictionary/suspicion",
+        "https://ahdictionary.com/word/search.html?q=suspicion"
+      ],
+      "status": "verified",
+      "verification_note": "Oxford labels this sense formal and defines a small amount; Merriam-Webster and American Heritage independently corroborate trace or minute-amount meanings."
+    },
+    {
+      "target_id": "synonym:002",
+      "kind": "synonym",
+      "article_location": "lines:111-116",
+      "section": "＃意味・用法・関連表現",
+      "linked_claim_unit_ids": [
+        "claim_distrust"
+      ],
+      "verified_source_fact_ids": [
+        "oxf_distrust",
+        "mw_contrast",
+        "ahd_distrust"
+      ],
+      "verified_source_ids": [
+        "oxford_learner",
+        "merriam_webster",
+        "american_heritage"
+      ],
+      "verified_locators": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion",
+        "https://www.merriam-webster.com/dictionary/suspicion",
+        "https://ahdictionary.com/word/search.html?q=suspicion"
+      ],
+      "status": "verified",
+      "verification_note": "The linked Oxford, Merriam-Webster, and American Heritage material supports the suspicion/distrust relationship and the stated difference around confidence in truth or reliability; the frequency rating is explicitly editorial rather than a claimed corpus statistic."
+    },
+    {
+      "target_id": "synonym:003",
+      "kind": "synonym",
+      "article_location": "lines:118-123",
+      "section": "＃意味・用法・関連表現",
+      "linked_claim_unit_ids": [
+        "claim_distrust"
+      ],
+      "verified_source_fact_ids": [
+        "oxf_distrust",
+        "mw_contrast",
+        "ahd_distrust"
+      ],
+      "verified_source_ids": [
+        "oxford_learner",
+        "merriam_webster",
+        "american_heritage"
+      ],
+      "verified_locators": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion",
+        "https://www.merriam-webster.com/dictionary/suspicion",
+        "https://ahdictionary.com/word/search.html?q=suspicion"
+      ],
+      "status": "verified",
+      "verification_note": "Merriam-Webster directly explains the suspicion-based relation of mistrust and gives an example; Oxford and American Heritage support the overlapping distrust sense. The frequency score is editorial, not presented as a measured count."
+    },
+    {
+      "target_id": "word_formation:001",
+      "kind": "word_formation",
+      "article_location": "line:12",
+      "section": "＃語形成",
+      "linked_claim_unit_ids": [
+        "claim_word_family"
+      ],
+      "verified_source_fact_ids": [
+        "oxf_family"
+      ],
+      "verified_source_ids": [
+        "oxford_learner"
+      ],
+      "verified_locators": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion"
+      ],
+      "status": "verified",
+      "verification_note": "Oxford’s word-family list directly includes suspect, suspicious, and suspiciously (and also suspected)."
+    },
+    {
+      "target_id": "word_formation:002",
+      "kind": "word_formation",
+      "article_location": "line:13",
+      "section": "＃語形成",
+      "linked_claim_unit_ids": [
+        "claim_verb_register"
+      ],
+      "verified_source_fact_ids": [
+        "mw_verb",
+        "ahd_verb"
+      ],
+      "verified_source_ids": [
+        "merriam_webster",
+        "american_heritage"
+      ],
+      "verified_locators": [
+        "https://www.merriam-webster.com/dictionary/suspicion",
+        "https://ahdictionary.com/word/search.html?q=suspicion"
+      ],
+      "status": "verified",
+      "verification_note": "Merriam-Webster labels the verb chiefly dialectal and American Heritage labels it informal; the two exact entries are separate locators."
+    }
+  ],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "GPT-6",
+    "ingested_by": "orchestrator",
+    "agent_id": "/root/s23_evidence",
+    "source_response": {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-23/responses/source_responses/38064a3c64aebc97a6a73bf398064f52379a7242ea6054517e6382e4beefd67b.json",
+      "sha256": "38064a3c64aebc97a6a73bf398064f52379a7242ea6054517e6382e4beefd67b"
+    }
+  }
+}

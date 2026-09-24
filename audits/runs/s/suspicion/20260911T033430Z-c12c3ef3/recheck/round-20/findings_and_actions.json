@@ -1,0 +1,120 @@
+{
+  "schema_version": "checker_recheck_actions_v1",
+  "round": 20,
+  "input_body_sha256": "22115ff16b934a7bee72be158df65dd1569ca9a64c670adb9cd408a03b504ebd",
+  "source_inventory_sha256": "10c45e4e8d68b3c222b6f606528479894e5c594471b9e0b075420b5c7069697c",
+  "source_artifact_sha256": "c4d6a722a2ef61df4e79540139861bf23bca9ff974f924f688831d5ad846161a",
+  "findings": [
+    {
+      "id": "r20-sense-structure-001",
+      "pass_id": "sense-structure",
+      "taxonomy_id": "sense_boundary_overlap",
+      "severity": "blocking",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 138,
+        "line_end": 138,
+        "exact_quote": "【日本語訳・定義】十分な証拠はないが、犯罪・不正を含まない事実や状況が本当なのではないかと感じる推測・予感に焦点がある。本記事では、that節が特定の人の犯罪・不正行為を述べる用例は語義1に置き、語義3はそれ以外の事実・状況への推測に用いる。この用法では個々の考えを表す可算形が典型。可算・不可算は意味だけで一律に決まらず、構文にも左右される。  "
+      },
+      "rationale": "語義1の定義（40行目）とこの定義はいずれも、十分な証拠がない段階で何かが真である可能性を考える意味を含みます。ここでは同じ that 節構文の用例を、内容が特定の人の犯罪・不正か、それ以外の事実・状況かだけで語義1と語義3に振り分けており、対象分野だけに基づく分割になっています。語義1に固有の「犯罪・不正をしたと疑われている状態」や告発的な用法と、一般的な確証のない推測との違いを境界として明示し、単なる犯罪内容の命題は構文・意味に即して扱う必要があります。",
+      "evidence_link_ids": [],
+      "suggested_direction": "語義1を、犯罪・不正をしたと疑われている状態や告発的な容疑用法に限定し、内容分野だけで語義3から切り分けないよう両義の境界を修正する。",
+      "raw_response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-20/responses/sense-structure.response.raw.json",
+      "raw_response_sha256": "5b9046743e0b41ad1d969a860cd001ff63351ee8c3c70343658ab973a70475ee",
+      "action": "adopted",
+      "resolution": "Revise senses 1 and 3 around the difference in semantic focus: sense 1 treats a person or act as the target of a wrongdoing allegation; sense 3 is the speaker’s provisional judgment that a proposition may be true. State explicitly that the that-clause topic alone does not decide the sense, and remove the crime/non-crime-only rule."
+    },
+    {
+      "id": "r20-evidence-001",
+      "pass_id": "evidence",
+      "taxonomy_id": "evidence_claim_mismatch",
+      "severity": "blocking",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 44,
+        "line_end": 47,
+        "exact_quote": "用途: 警察などが、ある犯罪を行った疑いを理由に人を逮捕・拘束したことを述べる。"
+      },
+      "rationale": "この箇所は「逮捕・拘束」を用途として掲げるが、対応するOxfordのlocator（suspicion, sense 1）は “He was arrested on suspicion of murder.” という逮捕例を示すだけで、逮捕とは別の拘束まで対象にする根拠を確認できない。source fact oxf_on も arrest の用例に限定されているため、現行根拠は主張の範囲全体を直接支えていない。",
+      "evidence_link_ids": [
+        "claim_arrest_pattern"
+      ],
+      "suggested_direction": "「逮捕」に範囲を絞るか、「拘束」を裏付ける資料を追加する。",
+      "raw_response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-20/responses/evidence.response.raw.json",
+      "raw_response_sha256": "b3e249e4b47b7ed00eb65376ebeb8aee39a2421e57ab0bb1f8bcce6df1427ca6",
+      "action": "adopted",
+      "resolution": "Narrow the on suspicion of usage note to arrest only; the mapped Oxford example and oxf_on fact support arrest, not separate detention."
+    }
+  ],
+  "review_response_corrections": [
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-20/responses/example-attribution.response.raw.json",
+      "sha256": "cb36784ed7bc6475b897d6e5fd43e4fb17881782b1a9cebe8fd306a00d48c968",
+      "disposition": "contract_invalid",
+      "detail": "Initial stage-1 response wrapped the blind record and used decision/runner_up_sense_ids; immutable original retained."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-20/responses/example-attribution.response.contract_corrected.raw.json",
+      "sha256": "edeb134fe7e7845c393524b13a50c568d3ea62990cf6ca7af2799456060706ef",
+      "disposition": "liveness_invalid",
+      "detail": "Same reviewer returned the correct top-level contract and request hash, but rationales did not quote/example-ground an exact cue; immutable correction retained."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-20/responses/example-attribution.response.liveness_corrected.raw.json",
+      "sha256": "a5ed70f03c3f8168827e70c64a89847ac56a9c98ff0487738c9e6561528897a5",
+      "disposition": "accepted",
+      "detail": "Same reviewer preserved classifications, corrected rationales with exact contiguous example cues, and passed request, schema, and B1/B2 liveness checks."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-20/responses/example-attribution.stage2.response.raw.json",
+      "sha256": "85e29fa1902d5ddaa39e3906a0b0963a2b8c9572081d4bedc363ebeb56d71514",
+      "disposition": "accepted_stage2_alignment",
+      "detail": "Same reviewer/context and exact sealed record/alignment hashes; all 17 alignments agreed with assigned senses, with no findings or unrouted observations."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-20/responses/frame-relation.stage1.response.raw.json",
+      "sha256": "4ac849b82e918c55dd7803c2dd0408d7285c38eba7601eb9b6bd3f320c154e59",
+      "disposition": "derived_provenance_binding",
+      "detail": "Raw stage-1 request hash was not canonical; orchestrator-derived sealed record binds its unchanged empty axes to the exact request."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-20/responses/frame-relation.stage2.response.raw.json",
+      "sha256": "359f9fc8b690df271f73b96b3e7951924f5179bb812575d29913e578f14b0630",
+      "disposition": "derived_provenance_binding",
+      "detail": "Raw stage-2 request hash pointed to the stage-1 request; orchestrator-derived adjudication record binds unchanged empty adjudications/findings to the exact stage-2 request and sealed stage-1 record."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-20/responses/translation.response.raw.json",
+      "sha256": "7896a1979f528a1892691ba2fa62dcce3e4f954057e4a4d4915a575386669922",
+      "disposition": "accepted",
+      "detail": "Request packet integrity and response contract passed; raw response preserved unchanged."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-20/responses/sense-structure.response.raw.json",
+      "sha256": "5b9046743e0b41ad1d969a860cd001ff63351ee8c3c70343658ab973a70475ee",
+      "disposition": "accepted",
+      "detail": "Request packet integrity and response contract passed; raw response preserved unchanged."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-20/responses/qualification.response.raw.json",
+      "sha256": "257601e613c5858f8087c2b1f5f41fcc0cfd0b2f7a3a3389975b10aae0a45123",
+      "disposition": "accepted",
+      "detail": "Request packet integrity and response contract passed; raw response preserved unchanged."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-20/responses/pronunciation.response.raw.json",
+      "sha256": "0469d4eaf656b0e847bcb7d0bcf446bf3130395138ea7266e3a9d1c11eb36e64",
+      "disposition": "accepted",
+      "detail": "Request packet integrity and response contract passed; raw response preserved unchanged."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-20/responses/evidence.response.raw.json",
+      "sha256": "b3e249e4b47b7ed00eb65376ebeb8aee39a2421e57ab0bb1f8bcce6df1427ca6",
+      "disposition": "accepted",
+      "detail": "Request packet integrity and response contract passed; raw response preserved unchanged."
+    }
+  ],
+  "prior_round_findings_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-19/findings_and_actions.json",
+  "prior_round_findings_sha256": "1a02d7335675308e394e766781998633b75160f55670528823940c471212398c",
+  "recorded_at": "2026-09-24T13:26:37.791391Z"
+}

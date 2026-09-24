@@ -1,0 +1,162 @@
+{
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "agent_id": "/root/round8_example_attribution",
+    "declared_model": "GPT-6 (exact variant not exposed in this agent context)",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "blind_attribution_record": {
+    "schema_version": "example_attribution_blind_record_v1",
+    "pass_id": "example-attribution",
+    "stage": 1,
+    "blind_request_sha256": "a7b2e89c3fb5a65da7859dfa6e79a027896157081e9028a10ec9cf7a287746cf",
+    "input_body_sha256": "e610984e4ee840d69032be28e4e55257a14bebd434e6d3f13ba11b959ecafa79",
+    "recorded_at": "2026-09-23T00:00:00Z",
+    "attributions": [
+      {
+        "example_id": "ex-d1003077d4ca",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "next_best_candidate_sense_id": "sense:002",
+        "discriminating_terms": [
+          "a suspicion that the meeting had been canceled"
+        ],
+        "rationale": "The phrase “a suspicion that the meeting had been canceled” states a proposition whose truth is in question, which fits the uncertain-belief sense (sense:001). The competing distrust-attitude sense (sense:002) would describe wariness toward a person or thing; this that-clause instead gives the suspected proposition.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-8f8c24206a80",
+        "candidate_sense_ids": [
+          "sense:001",
+          "sense:002"
+        ],
+        "next_best_candidate_sense_id": "sense:002",
+        "discriminating_terms": [],
+        "rationale": "“The unexplained gap in the records raised some suspicion among auditors.” This allows a doubtful belief about a possible problem in the records (sense:001) and a distrustful attitude toward the records or their handling (sense:002). The sentence states neither the suspected proposition nor an explicit object of distrust, so its wording does not distinguish the readings.",
+        "classification": "ambiguous"
+      },
+      {
+        "example_id": "ex-0b79f9cd833e",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "next_best_candidate_sense_id": "sense:002",
+        "discriminating_terms": [
+          "a suspicion that the cashier had altered the sales records"
+        ],
+        "rationale": "The phrase “a suspicion that the cashier had altered the sales records” states a proposition about a possible event, matching the uncertain-belief sense (sense:001). Although distrust of the cashier is a plausible contextual attitude (sense:002), the that-clause specifies what may have happened rather than describing that attitude.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-613a20dcfe5c",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "next_best_candidate_sense_id": "sense:001",
+        "discriminating_terms": [
+          "regarded the sudden policy change with suspicion"
+        ],
+        "rationale": "The phrase “regarded the sudden policy change with suspicion” uses the with-suspicion complement to characterize an attitude toward the policy change, matching distrust or wariness (sense:002). The uncertain-belief sense (sense:001) is a plausible alternative, but the example states no proposition that may be true; it describes how the residents viewed its object.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-9ca21f521576",
+        "candidate_sense_ids": [
+          "sense:001",
+          "sense:002"
+        ],
+        "next_best_candidate_sense_id": "sense:002",
+        "discriminating_terms": [],
+        "rationale": "“The abrupt policy reversal aroused suspicions among residents, who no longer trusted the officials' explanation.” This allows a doubtful belief that the officials' explanation may be untrue (sense:001) and a distrustful attitude toward the explanation or officials (sense:002). The sentence does not state what proposition the residents suspect, so both readings remain possible.",
+        "classification": "ambiguous"
+      },
+      {
+        "example_id": "ex-b5e7fa7186d6",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "next_best_candidate_sense_id": "sense:001",
+        "discriminating_terms": [
+          "a suspicion of a smile"
+        ],
+        "rationale": "The phrase “a suspicion of a smile” presents only a faint, trace-like presence of a smile, matching the small-amount or slight-sign sense (sense:003). The uncertain-belief sense (sense:001) is a possible competitor, but the phrase describes a trace of something in the reply rather than a proposition believed possibly true.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-bfc7f98b7c6e",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "next_best_candidate_sense_id": "sense:001",
+        "discriminating_terms": [
+          "a suspicion of truth in it"
+        ],
+        "rationale": "The phrase “a suspicion of truth in it” means the tale contains a faint trace of truth, matching the small-amount or slight-sign sense (sense:003). The uncertain-belief sense (sense:001) is a possible competitor, but “in it” presents truth as an element of the tale, not as a proposition whose truth the speaker suspects.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-ba13c9432000",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "next_best_candidate_sense_id": "sense:002",
+        "discriminating_terms": [
+          "under suspicion",
+          "whether it had falsified invoices"
+        ],
+        "rationale": "The phrases “under suspicion” and “whether it had falsified invoices” link the contractor’s status to a proposition about a possible act, matching the uncertain-belief sense (sense:001). Distrust of the contractor (sense:002) is a possible contextual alternative, but the whether-clause states what investigators are checking rather than a general attitude toward the contractor.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-cf0a8a1498e3",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "next_best_candidate_sense_id": "sense:002",
+        "discriminating_terms": [
+          "on suspicion of fraud"
+        ],
+        "rationale": "The phrase “on suspicion of fraud” names a possible offense as the content of suspicion, matching the uncertain-belief sense (sense:001). A distrust-attitude reading (sense:002) is a possible contextual alternative, but the of-phrase specifies the suspected proposition rather than an attitude toward the arrested people.",
+        "classification": "unique"
+      }
+    ],
+    "reviewer": {
+      "agent_id": "/root/round8_example_attribution",
+      "declared_model": "GPT-6 (exact variant not exposed in this agent context)",
+      "mode": "handoff",
+      "ingested_by": "human"
+    }
+  },
+  "aligned_at": "2026-09-23T13:10:21.779000+00:00",
+  "findings": [
+    {
+      "taxonomy_id": "example_sense_attribution_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 93,
+        "line_end": 93,
+        "exact_quote": "例: The abrupt policy reversal aroused suspicions among residents, who no longer trusted the officials' explanation.  "
+      },
+      "severity": "blocking",
+      "rationale": "段階1でsense:001, sense:002が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "判別語の追加"
+    },
+    {
+      "taxonomy_id": "example_sense_attribution_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 98,
+        "line_end": 98,
+        "exact_quote": "例: The unexplained gap in the records raised some suspicion among auditors.  "
+      },
+      "severity": "blocking",
+      "rationale": "段階1でsense:001, sense:002が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "判別語の追加"
+    }
+  ],
+  "unrouted_observations": []
+}

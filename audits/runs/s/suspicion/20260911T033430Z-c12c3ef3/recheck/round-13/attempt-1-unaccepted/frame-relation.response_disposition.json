@@ -1,0 +1,20 @@
+{
+  "schema_version": "checker_handoff_response_disposition_v1",
+  "recorded_at": "2026-09-23T15:23:25.725512+00:00",
+  "pass_id": "frame-relation",
+  "stage": "checker_recheck/round-13/stage1",
+  "raw_response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-13/frame-relation.stage1.response.json",
+  "raw_response_sha256": "0e5c1e3ca6db7408008fbe55a060736eca0c669ee7c86e61197e1261b1fdfecd",
+  "status": "accepted_after_binding_correction",
+  "reason": "The raw response carried an incorrect blind_request_sha256. The actual response judgments were an empty axes array, matching the zero-item request. The coordinator bound the preserved raw judgment to the exact canonical request digest without changing axes or reviewer identity.",
+  "request_sha256": "8846e60a4bd98aef02fddd11ee833adb9713472d96f19a6ea8486dafc68cefd1",
+  "bound_response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-13/frame-relation.stage1.response.bound.json",
+  "bound_response_sha256": "4b37369958b3661b1283f356a03f072f8c983830e672dc42b175f49a1c70a6f3",
+  "raw_validation_errors": [
+    "antonym axis request hash does not match stage 1 input"
+  ],
+  "coordinator_adjusted_fields": [
+    "blind_request_sha256"
+  ],
+  "reviewer_authored_judgments_preserved": true
+}

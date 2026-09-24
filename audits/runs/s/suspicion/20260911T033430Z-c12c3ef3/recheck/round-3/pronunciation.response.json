@@ -1,0 +1,24 @@
+{
+  "pass_id": "pronunciation",
+  "reviewer": {
+    "agent_id": "/root/round3_pronunciation",
+    "declared_model": "GPT-6",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "pronunciation_symbol_explanation",
+      "location": {
+        "section": "pronunciation",
+        "line_start": 15,
+        "line_end": 15,
+        "exact_quote": "米: Oxford の IPA 表記は /səˈspɪʃn/。Merriam-Webster は別表記で sus·pi·cion と3音節に区切り、第2音節に主強勢を示す。"
+      },
+      "severity": "blocking",
+      "rationale": "`/səˈspɪʃn/`には `/ʃ/` の後の母音も音節主音記号もなく、表示上は語末の弱い音節を表していません。一方、引用された `sus·pi·cion` は綴りの音節区切りで、強勢位置を示す記号がありません。この行はそれを3音節の発音表記として扱い、第2音節の主強勢を示すと述べていますが、音節・強勢をOxfordのIPAに対応させず、語末弱音節の有無が発音差なのか転写上の違いなのかも説明していません。",
+      "evidence_link_ids": [],
+      "suggested_direction": "sus·pi·cionが綴り上の音節区切りであることを明記し、発音上の音節・強勢を主張するならMerriam-Websterの強勢記号付き発音表記を示してください。あわせてOxford表記の/ʃn/と語末の弱音節の関係を説明してください。"
+    }
+  ]
+}

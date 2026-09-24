@@ -1,0 +1,32 @@
+{
+  "schema_version": "check_pass_result_v6",
+  "pass_id": "evidence",
+  "status": "pass",
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 44,
+        "line_end": 47,
+        "exact_quote": "用途: 警察などが、ある犯罪を行った疑いを理由に人を逮捕・拘束したことを述べる。"
+      },
+      "severity": "blocking",
+      "rationale": "この箇所は「逮捕・拘束」を用途として掲げるが、対応するOxfordのlocator（suspicion, sense 1）は “He was arrested on suspicion of murder.” という逮捕例を示すだけで、逮捕とは別の拘束まで対象にする根拠を確認できない。source fact oxf_on も arrest の用例に限定されているため、現行根拠は主張の範囲全体を直接支えていない。",
+      "evidence_link_ids": [
+        "claim_arrest_pattern"
+      ],
+      "suggested_direction": "「逮捕」に範囲を絞るか、「拘束」を裏付ける資料を追加する。"
+    }
+  ],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "GPT-6",
+    "ingested_by": "orchestrator",
+    "agent_id": "s20-evidence-646a1be7-8e32-4056-97d1-845fdd66e1d2",
+    "source_response": {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-20/responses/source_responses/b3e249e4b47b7ed00eb65376ebeb8aee39a2421e57ab0bb1f8bcce6df1427ca6.json",
+      "sha256": "b3e249e4b47b7ed00eb65376ebeb8aee39a2421e57ab0bb1f8bcce6df1427ca6"
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "schema_version": "example_attribution_blind_request_v1",
+  "pass_id": "example-attribution",
+  "taxonomy_ids": [
+    "example_sense_attribution_mismatch"
+  ],
+  "specification": "prompts/check_pass_example_attribution_v6.md",
+  "input_body_sha256": "22115ff16b934a7bee72be158df65dd1569ca9a64c670adb9cd408a03b504ebd",
+  "input_sections": {
+    "sense_structure": [
+      {
+        "sense_id": "sense:001",
+        "line": 38,
+        "label": "1. 【名詞・可算／不可算】容疑、犯罪・不正をしたのではないかという疑い",
+        "definition": "人が犯罪、不正、不誠実な行為などをした可能性があると、十分な証明がない段階で考えること、またはその疑いを向けられている状態を表す。複数の個別の疑いを述べる suspicions は可算、疑いという状態を表す suspicion は不可算で使われる。on suspicion of ... のように特定の容疑でも無冠詞となる定型表現があるため、可算・不可算は意味だけで一律には決まらない。"
+      },
+      {
+        "sense_id": "sense:002",
+        "line": 91,
+        "label": "2. 【名詞・不可算中心】不信、警戒を伴う疑念",
+        "definition": "人、組織、動機、考えなどの真実性や信頼性を確信できず、すぐには信用しない態度を表す。相手や情報の裏に問題や意図があるのではないかという警戒を伴うこともある。語義1のように特定の犯罪・不正行為を想定する必要はなく、広い意味での mistrust / distrust に近い。"
+      },
+      {
+        "sense_id": "sense:003",
+        "line": 136,
+        "label": "3. 【名詞・可算中心】～ではないかという気、確証のない推測",
+        "definition": "十分な証拠はないが、犯罪・不正を含まない事実や状況が本当なのではないかと感じる推測・予感に焦点がある。本記事では、that節が特定の人の犯罪・不正行為を述べる用例は語義1に置き、語義3はそれ以外の事実・状況への推測に用いる。この用法では個々の考えを表す可算形が典型。可算・不可算は意味だけで一律に決まらず、構文にも左右される。"
+      },
+      {
+        "sense_id": "sense:004",
+        "line": 186,
+        "label": "4. 【名詞・単数／formal（やや改まった）】ほんの少し、かすかな気配",
+        "definition": "色、味、匂い、感情、表情などが、はっきり大量に存在するのではなく「あるかないか分かる程度」にわずかに感じられることを表す。通常 a suspicion of ... の形で用いられる比喩的な用法である。"
+      }
+    ],
+    "collocations_examples": [
+      {
+        "example_id": "ex-060a5192124c",
+        "example": "The contractor remained under suspicion until the records were checked.",
+        "translation": "記録が確認されるまで、その請負業者には疑いがかけられたままだった。"
+      },
+      {
+        "example_id": "ex-634a364d45b4",
+        "example": "Residents viewed the sudden policy change with suspicion.",
+        "translation": "住民たちは突然の方針変更を疑いの目で見た。"
+      },
+      {
+        "example_id": "ex-b9e6473dfcfd",
+        "example": "The sauce had a suspicion of citrus that made it taste fresher.",
+        "translation": "そのソースにはほんのり柑橘の風味があり、より爽やかに感じられた。"
+      },
+      {
+        "example_id": "ex-7c75bf50b419",
+        "example": "She had a sneaking suspicion that everyone already knew the answer.",
+        "translation": "彼女は、皆すでに答えを知っているのではないかとひそかに感じていた。"
+      },
+      {
+        "example_id": "ex-1e6c5d63abbd",
+        "example": "I have a suspicion that the meeting will finish earlier than planned.",
+        "translation": "その会議は予定より早く終わるのではないかという気がしている。"
+      },
+      {
+        "example_id": "ex-ff889969af92",
+        "example": "The walls were white with a suspicion of blue in the evening light.",
+        "translation": "その壁は白かったが、夕方の光の中ではほんのり青みを帯びていた。"
+      },
+      {
+        "example_id": "ex-82a69bbd2c42",
+        "example": "The discrepancy cast suspicion on the reliability of the company's explanation.",
+        "translation": "その食い違いによって、その会社の説明の信頼性に疑いが向けられた。"
+      },
+      {
+        "example_id": "ex-5738efb14b08",
+        "example": "There was a suspicion of disappointment in his voice.",
+        "translation": "彼の声にはかすかな失望がにじんでいた。"
+      },
+      {
+        "example_id": "ex-b23f76ce6acb",
+        "example": "A suspicion of a smile appeared at the corner of her mouth.",
+        "translation": "彼女の口元に、かすかな笑みが浮かんだ。"
+      },
+      {
+        "example_id": "ex-05d22e8ff3bb",
+        "example": "Two people were arrested on suspicion of fraud after the investigation.",
+        "translation": "捜査後、2人が詐欺の容疑で逮捕された。"
+      },
+      {
+        "example_id": "ex-75549b1c1e8d",
+        "example": "The test results confirmed her suspicion that the battery was failing.",
+        "translation": "検査結果によって、バッテリーが劣化しているのではないかという彼女の推測が裏付けられた。"
+      },
+      {
+        "example_id": "ex-cce722f090e3",
+        "example": "The altered timestamp cast suspicion on the clerk who had access to the report.",
+        "translation": "変更された時刻表示によって、報告書にアクセスできた事務員に疑いが向けられた。"
+      },
+      {
+        "example_id": "ex-21d3d765d8c6",
+        "example": "The new monitoring system was initially greeted with some suspicion.",
+        "translation": "新しい監視システムは当初、多少の疑いをもって受け止められた。"
+      },
+      {
+        "example_id": "ex-0a6a90980f29",
+        "example": "We had a strong suspicion that the delay was caused by a technical problem.",
+        "translation": "私たちは、その遅延は技術的な問題によるのではないかという強い疑いを抱いていた。"
+      },
+      {
+        "example_id": "ex-98fddba364aa",
+        "example": "The unexplained transfer of client funds aroused suspicion of fraud among the auditors.",
+        "translation": "顧客資金の説明のない移動が、監査担当者たちに詐欺の疑いを抱かせた。"
+      },
+      {
+        "example_id": "ex-6ec1f647d3f8",
+        "example": "The employee came under suspicion when several invoices disappeared.",
+        "translation": "複数の請求書がなくなったことで、その従業員が疑われるようになった。"
+      },
+      {
+        "example_id": "ex-4d931abbe0ce",
+        "example": "The security footage confirmed the manager's suspicions that a guard had stolen the missing laptops.",
+        "translation": "防犯映像によって、警備員がなくなったノートパソコンを盗んだという管理者の疑いが裏付けられた。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "assigned_sense_id",
+      "collocation_heading",
+      "usage_line",
+      "example_group_boundary",
+      "document_order"
+    ],
+    "required_output_schema": "example_attribution_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "e0bbb032bc0c50bf9bef5ff8f7854188287e635c58e599479891e11e3343a017",
+  "source_artifact_sha256": "c4d6a722a2ef61df4e79540139861bf23bca9ff974f924f688831d5ad846161a",
+  "normalization_version": "check_pass_semantic_input_v2",
+  "normalized_input_sha256": "8c359bcfa95d9d6112870e4268456c2e2d5a3c2e9b1a5dd8dc1b2827db6628fd"
+}

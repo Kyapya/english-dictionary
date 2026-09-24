@@ -1,0 +1,235 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-6",
+    "ingested_by": "human",
+    "agent_id": "/root/suspicion_example_attribution_review"
+  },
+  "input_body_sha256": "6a13722cf09cc60650cfded174c51733484f8ab84742505a5973248f7a96d7d4",
+  "blind_request_sha256": "3a734e266a9346e22a3f252e2235da0a797f79fae724e69e76e963fa3e347887",
+  "recorded_at": "2026-09-23T13:25:24Z",
+  "attributions": [
+    {
+      "example_id": "ex-e53021671585",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "remained under suspicion until the records were checked"
+      ],
+      "rationale": "The phrase “remained under suspicion until the records were checked” casts the contractor as a suspect pending verification (sense:001); sense:002's generalized mistrust does not capture this suspect-status construction."
+    },
+    {
+      "example_id": "ex-e47cc1bf5374",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "met with suspicion by employees"
+      ],
+      "rationale": "“met with suspicion by employees” describes employees' wary reception of the system (sense:002); sense:001 would require an alleged wrongful act or suspect, neither of which appears here."
+    },
+    {
+      "example_id": "ex-068fac297231",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "aroused suspicion of fraud among the auditors"
+      ],
+      "rationale": "The phrase “aroused suspicion of fraud among the auditors” names a suspected offense (sense:001), while sense:003's neutral hunch reading does not account for the explicit fraud allegation."
+    },
+    {
+      "example_id": "ex-494003e43e77",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "cast suspicion on the clerk who had falsified the report"
+      ],
+      "rationale": "“cast suspicion on the clerk who had falsified the report” directs suspicion toward an alleged wrongdoer (sense:001); sense:002's broad distrust is less apt because the sentence singles out responsibility for falsification."
+    },
+    {
+      "example_id": "ex-b040e337d683",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "a suspicion of disappointment in his voice"
+      ],
+      "rationale": "“a suspicion of disappointment in his voice” presents a faint emotional quality conveyed by the voice (sense:004), not an uncertain proposition as in sense:003."
+    },
+    {
+      "example_id": "ex-8589218df6fb",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "the nagging suspicion that he had forgotten something important"
+      ],
+      "rationale": "The phrase “the nagging suspicion that he had forgotten something important” states a persistent hunch about a fact (sense:003); sense:001's wrongdoing reading does not fit an ordinary lapse of memory."
+    },
+    {
+      "example_id": "ex-763457f66ac5",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "a suspicion that the meeting will finish earlier than planned"
+      ],
+      "rationale": "“a suspicion that the meeting will finish earlier than planned” is a tentative prediction about a future event (sense:003); sense:002 would express mistrust, which this sentence does not."
+    },
+    {
+      "example_id": "ex-9cba57a5b4e6",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "A suspicion of a smile appeared at the corner of her mouth"
+      ],
+      "rationale": "“A suspicion of a smile appeared at the corner of her mouth” describes a slight visible trace of expression (sense:004); sense:003's hunch meaning does not fit the described appearance and location."
+    },
+    {
+      "example_id": "ex-38704b84b161",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "arrested on suspicion of fraud"
+      ],
+      "rationale": "“arrested on suspicion of fraud” makes a named offense the grounds for arrest (sense:001); sense:003's non-accusatory hunch meaning cannot account for the explicit fraud charge."
+    },
+    {
+      "example_id": "ex-b7b9a3654235",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "did not trust the new selection process and viewed it with widespread suspicion"
+      ],
+      "rationale": "The phrase “did not trust the new selection process and viewed it with widespread suspicion” explicitly frames the use as distrust of the process (sense:002); sense:001 would require a suspected crime or dishonest act, which is not stated."
+    },
+    {
+      "example_id": "ex-561a48ca74aa",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "a growing suspicion that the delay was caused by a technical problem"
+      ],
+      "rationale": "“a growing suspicion that the delay was caused by a technical problem” presents a tentative causal hypothesis (sense:003); sense:001's accusation meaning does not fit a non-accusatory technical explanation."
+    },
+    {
+      "example_id": "ex-89249c9da0b8",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "a suspicion of citrus that made it taste fresher"
+      ],
+      "rationale": "The phrase “a suspicion of citrus that made it taste fresher” denotes a faint flavor element (sense:004), not a hunch that a proposition is true as in sense:003."
+    },
+    {
+      "example_id": "ex-630d88cff31d",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "a sneaking suspicion that everyone already knew the answer"
+      ],
+      "rationale": "“a sneaking suspicion that everyone already knew the answer” expresses a tentative belief about what happened (sense:003); sense:002 would require a distrustful attitude toward those people or their motives."
+    },
+    {
+      "example_id": "ex-3d970f5a59ec",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "white with a suspicion of blue"
+      ],
+      "rationale": "“white with a suspicion of blue” describes a barely perceptible color tint (sense:004); sense:003 would be a hunch about a fact, not a quality of the walls' color."
+    },
+    {
+      "example_id": "ex-951b297cfbd9",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "suspicion that the figures had been rounded incorrectly"
+      ],
+      "rationale": "“suspicion that the figures had been rounded incorrectly” states a tentative belief that an error occurred (sense:003); no intent or agent is identified to support sense:001's wrongdoing reading."
+    },
+    {
+      "example_id": "ex-0571c4755b19",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "little confidence in the company's revised forecast and regarded it with deep suspicion"
+      ],
+      "rationale": "“little confidence in the company's revised forecast and regarded it with deep suspicion” describes distrust of the forecast (sense:002); sense:003 would be a hunch about a specific fact rather than this stated lack of confidence."
+    },
+    {
+      "example_id": "ex-1e7e134afbd2",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "confirmed her suspicion that the battery was failing"
+      ],
+      "rationale": "The phrase “confirmed her suspicion that the battery was failing” validates a hypothesis about a technical condition (sense:003); sense:001 would require suspected wrongdoing, which is absent."
+    },
+    {
+      "example_id": "ex-c60a5cde2003",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "came under suspicion when several invoices disappeared"
+      ],
+      "rationale": "“came under suspicion when several invoices disappeared” makes the employee a possible suspect in a disappearance (sense:001); sense:002's general wariness does not capture the event-linked suspect role."
+    },
+    {
+      "example_id": "ex-4be2325d1621",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "viewed the sudden policy change with suspicion"
+      ],
+      "rationale": "The phrase “viewed the sudden policy change with suspicion” frames the change as an object of wary judgment (sense:002); sense:001 would require a suspected person and wrongful act, neither expressed."
+    },
+    {
+      "example_id": "ex-4a4ef90132f1",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "confirmed the manager's suspicions that a guard had taken the missing laptops"
+      ],
+      "rationale": "“confirmed the manager's suspicions that a guard had taken the missing laptops” alleges a guard's theft (sense:001); sense:003's neutral hunch meaning does not capture the specified wrongdoing."
+    }
+  ]
+}

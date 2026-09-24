@@ -1,0 +1,42 @@
+{
+  "schema_version": "source_inventory_revision_v1",
+  "revision_kind": "post_blind_recheck_sense_boundary_and_claim_scope",
+  "previous_inventory_sha256": "10c45e4e8d68b3c222b6f606528479894e5c594471b9e0b075420b5c7069697c",
+  "updated_inventory_sha256": "cac72767f8f17dfe3b9e1890d6445ea1bb5205a9679900668faf259fd5c612c9",
+  "previous_source_first_audit_sha256": "c4d6a722a2ef61df4e79540139861bf23bca9ff974f924f688831d5ad846161a",
+  "updated_source_first_audit_sha256": "25edd30d880c8fb36f19e885172f82d2e9cacbd19ba1e0842bfa3018fa427e61",
+  "previous_input_body_sha256": "22115ff16b934a7bee72be158df65dd1569ca9a64c670adb9cd408a03b504ebd",
+  "current_input_body_sha256": "a1ba2a3e8f2a29df70219a3e1669883e2e9020b77884a88290a797075c286f76",
+  "usage_changes": [
+    {
+      "field": "post_cold_rechecks_used",
+      "previous": 7,
+      "current": 8,
+      "reason": "The round20 sense-boundary text and arrest-only scope were revised; all seven checker passes are regenerated against the new body and rebound source artifact."
+    }
+  ],
+  "source_and_fact_changes": [
+    {
+      "change": "body_and_article_target_rebind",
+      "source_ids": [
+        "oxford_learner",
+        "merriam_webster",
+        "american_heritage"
+      ],
+      "source_fact_ids": [
+        "oxf_s1",
+        "oxf_on",
+        "mw_legal",
+        "mw_wrongdoing",
+        "ahd_wrongdoing"
+      ],
+      "reason": "Rebind unchanged source facts and the round19 register:001 target mapping to the revised candidate, which distinguishes an allegation directed at a person from a provisional proposition judgment and limits the Oxford-backed use note to arrest."
+    }
+  ],
+  "source_count_preserved": true,
+  "fact_count_preserved": true,
+  "research_rounds_used_unchanged": true,
+  "round20_findings_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-20/findings_and_actions.json",
+  "round20_findings_sha256": "96a8ac62b99088e3b65aecbf8ab92c40777068827d903c33871824d24695b513",
+  "recorded_at": "2026-09-24T13:29:02.592187Z"
+}

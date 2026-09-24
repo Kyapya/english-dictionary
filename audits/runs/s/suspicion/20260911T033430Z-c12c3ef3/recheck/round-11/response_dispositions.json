@@ -1,0 +1,18 @@
+{
+  "schema_version": "checker_recheck_response_dispositions_v1",
+  "round": 11,
+  "input_body_sha256": "13559d31b050882ff1d24890c8d22914c8f87e20f0ddb0e509e2a8178469bd82",
+  "source_artifact_sha256": "d44f6f1eb825f6bfcff285716c87db277e5c8ceaeff55140e230ec57726868a2",
+  "excluded_responses": [
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-11/frame-relation.stage1.response.json",
+      "reason": "blind_request_sha256 did not match immutable JSON request; replaced by independent valid stage-1 record in frame-relation.stage1.response.retry.json",
+      "used_for_fan_in": false
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-11/example-attribution.blind-record.json",
+      "reason": "request binding and rationale grounding failed validation; replaced by corrected fresh-review record in example-attribution.blind-record.retry.corrected.json",
+      "used_for_fan_in": false
+    }
+  ]
+}

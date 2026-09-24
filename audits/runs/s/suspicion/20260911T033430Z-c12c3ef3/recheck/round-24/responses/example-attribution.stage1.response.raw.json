@@ -1,0 +1,285 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "input_body_sha256": "18178e0a192307a41e4cccafaaf60c75ff89633d50774904ba389187e4d827b6",
+  "canonical_request_sha256": "799ac5a6a061f8db93b877967a7ea077dd9b8ddca2970ac3d501e6a95838dc94",
+  "recorded_at": "2026-09-24T14:52:00Z",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "GPT-6",
+    "ingested_by": "human",
+    "agent_id": "s24_example_attribution"
+  },
+  "attributions": [
+    {
+      "example_id": "ex-acc129765dd7",
+      "example": "Residents viewed the sudden policy change with suspicion.",
+      "attribution": "unique",
+      "most_likely_sense_id": "sense:002",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "next_best_candidate": {
+        "present": true,
+        "sense_id": "sense:003"
+      },
+      "discriminating_terms": [
+        "viewed the sudden policy change with suspicion"
+      ],
+      "rationale": "The construction expresses a wary, distrustful attitude toward the policy change (sense 2). Sense 3 would require suspicion that some proposition is true; the sentence supplies no such proposition or predicted outcome, so that reading is weaker."
+    },
+    {
+      "example_id": "ex-dd6bbd5ea8fb",
+      "example": "The security footage confirmed the manager's suspicions that a guard had stolen the missing laptops.",
+      "attribution": "unique",
+      "most_likely_sense_id": "sense:001",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "next_best_candidate": {
+        "present": true,
+        "sense_id": "sense:003"
+      },
+      "discriminating_terms": [
+        "a guard had stolen the missing laptops",
+        "the manager's suspicions"
+      ],
+      "rationale": "The suspicion is directed at a person as the alleged perpetrator of theft (sense 1). Sense 3 could describe a tentative belief about a proposition, but this clause specifically makes the guard the person suspected of committing the wrongdoing, which favors sense 1."
+    },
+    {
+      "example_id": "ex-87cfe56173d7",
+      "example": "The walls were white with a suspicion of blue in the evening light.",
+      "attribution": "unique",
+      "most_likely_sense_id": "sense:004",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "next_best_candidate": {
+        "present": false
+      },
+      "discriminating_terms": [
+        "a suspicion of blue",
+        "walls were white"
+      ],
+      "rationale": "Here suspicion means a barely perceptible trace of a color (sense 4). The complement is a color quality of the walls, not a person suspected of wrongdoing (sense 1), a distrustful attitude (sense 2), or a proposition thought possibly true (sense 3)."
+    },
+    {
+      "example_id": "ex-ee715060f1ad",
+      "example": "Among the auditors, the unexplained transfer of client funds aroused suspicion that the treasurer had committed fraud.",
+      "attribution": "unique",
+      "most_likely_sense_id": "sense:001",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "next_best_candidate": {
+        "present": true,
+        "sense_id": "sense:003"
+      },
+      "discriminating_terms": [
+        "the treasurer had committed fraud",
+        "aroused suspicion"
+      ],
+      "rationale": "The clause identifies the treasurer as the person suspected of a specific crime, matching sense 1. Sense 3 is a plausible broad paraphrase as an uncertain proposition, but the person-centered allegation of fraud makes sense 1 the more natural attribution."
+    },
+    {
+      "example_id": "ex-cbf26f896e0f",
+      "example": "The contractor remained under suspicion until the records were checked.",
+      "attribution": "unique",
+      "most_likely_sense_id": "sense:001",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "next_best_candidate": {
+        "present": true,
+        "sense_id": "sense:002"
+      },
+      "discriminating_terms": [
+        "the contractor remained under suspicion"
+      ],
+      "rationale": "The under-suspicion construction presents the contractor as a person suspected of some wrongdoing (sense 1). Sense 2 would be a general distrustful attitude toward the contractor; the sentence instead describes the contractor's status as a suspect pending a check."
+    },
+    {
+      "example_id": "ex-8d376b75a587",
+      "example": "We had a strong suspicion that the delay was caused by a technical problem.",
+      "attribution": "unique",
+      "most_likely_sense_id": "sense:003",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "next_best_candidate": {
+        "present": false
+      },
+      "discriminating_terms": [
+        "suspicion that the delay was caused by a technical problem"
+      ],
+      "rationale": "The complement is a causal proposition about why a delay occurred, held as a tentative belief (sense 3). No person is accused of wrongdoing as required by sense 1, and the sentence does not describe distrust toward an entity as in sense 2."
+    },
+    {
+      "example_id": "ex-88bbec31464b",
+      "example": "I have a suspicion that the meeting will finish earlier than planned.",
+      "attribution": "unique",
+      "most_likely_sense_id": "sense:003",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "next_best_candidate": {
+        "present": false
+      },
+      "discriminating_terms": [
+        "suspicion that the meeting will finish earlier than planned"
+      ],
+      "rationale": "The that-clause states a possible future outcome, so suspicion is a tentative prediction about a proposition (sense 3). The meeting is not a person suspected of wrongdoing (sense 1), and the sentence gives no distrustful attitude toward an entity (sense 2)."
+    },
+    {
+      "example_id": "ex-6ced105ea206",
+      "example": "The new monitoring system was initially greeted with some suspicion.",
+      "attribution": "unique",
+      "most_likely_sense_id": "sense:002",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "next_best_candidate": {
+        "present": true,
+        "sense_id": "sense:003"
+      },
+      "discriminating_terms": [
+        "greeted with some suspicion"
+      ],
+      "rationale": "This describes a wary or mistrustful reception of the system (sense 2). Sense 3 would require a particular proposition thought possibly true; none is stated, and the system itself is not a person suspected of a crime (sense 1)."
+    },
+    {
+      "example_id": "ex-2d469d23ab6f",
+      "example": "The altered timestamp cast suspicion on the clerk who had access to the report.",
+      "attribution": "unique",
+      "most_likely_sense_id": "sense:001",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "next_best_candidate": {
+        "present": true,
+        "sense_id": "sense:002"
+      },
+      "discriminating_terms": [
+        "cast suspicion on the clerk"
+      ],
+      "rationale": "The cast-suspicion-on construction makes the clerk the person suspected in connection with possible wrongdoing (sense 1). Sense 2 could mean general distrust of the clerk, but the sentence assigns suspicion to the clerk as a potential culprit rather than merely describing an attitude toward the clerk."
+    },
+    {
+      "example_id": "ex-f5fa7202016d",
+      "example": "She had a sneaking suspicion that everyone already knew the answer.",
+      "attribution": "unique",
+      "most_likely_sense_id": "sense:003",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "next_best_candidate": {
+        "present": false
+      },
+      "discriminating_terms": [
+        "suspicion that everyone already knew the answer"
+      ],
+      "rationale": "The that-clause is a proposition the speaker tentatively believes (sense 3). Although people occur in the clause, no one is suspected of a crime or other wrongdoing as in sense 1; the proposition concerns what everyone knows."
+    },
+    {
+      "example_id": "ex-7b9adb648a9e",
+      "example": "The test results confirmed her suspicion that the battery was failing.",
+      "attribution": "unique",
+      "most_likely_sense_id": "sense:003",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "next_best_candidate": {
+        "present": false
+      },
+      "discriminating_terms": [
+        "suspicion that the battery was failing"
+      ],
+      "rationale": "The suspicion is an unconfirmed inference about the battery's condition, expressed as a proposition (sense 3). The battery is not a person accused of wrongdoing (sense 1), and the sentence does not frame it as an object of distrust (sense 2)."
+    },
+    {
+      "example_id": "ex-90a713e85ee5",
+      "example": "A suspicion of a smile appeared at the corner of her mouth.",
+      "attribution": "unique",
+      "most_likely_sense_id": "sense:004",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "next_best_candidate": {
+        "present": false
+      },
+      "discriminating_terms": [
+        "a suspicion of a smile",
+        "appeared at the corner of her mouth"
+      ],
+      "rationale": "The noun phrase means a faint trace or barely perceptible suggestion of a smile (sense 4). It does not express a proposition, a person's suspected wrongdoing, or distrust toward someone."
+    },
+    {
+      "example_id": "ex-48e50ba4858a",
+      "example": "There was a suspicion of disappointment in his voice.",
+      "attribution": "unique",
+      "most_likely_sense_id": "sense:004",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "next_best_candidate": {
+        "present": false
+      },
+      "discriminating_terms": [
+        "a suspicion of disappointment",
+        "in his voice"
+      ],
+      "rationale": "Suspicion denotes a slight audible hint of an emotion in the voice (sense 4). The complement is a quality perceptible in speech, not an uncertain proposition (sense 3), an accusation about a person (sense 1), or a distrustful attitude (sense 2)."
+    },
+    {
+      "example_id": "ex-1834027bffe9",
+      "example": "The employee came under suspicion when several invoices disappeared.",
+      "attribution": "unique",
+      "most_likely_sense_id": "sense:001",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "next_best_candidate": {
+        "present": true,
+        "sense_id": "sense:002"
+      },
+      "discriminating_terms": [
+        "came under suspicion"
+      ],
+      "rationale": "The construction says that the employee became a suspect, naturally in connection with the missing invoices (sense 1). Sense 2 would describe a general mistrustful attitude toward the employee, while this sentence places the employee under suspicion as a possible responsible person."
+    },
+    {
+      "example_id": "ex-357705453971",
+      "example": "The sauce had a suspicion of citrus that made it taste fresher.",
+      "attribution": "unique",
+      "most_likely_sense_id": "sense:004",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "next_best_candidate": {
+        "present": false
+      },
+      "discriminating_terms": [
+        "a suspicion of citrus",
+        "made it taste fresher"
+      ],
+      "rationale": "The phrase describes a slight hint of citrus flavor (sense 4). The complement is a flavor quality, and the effect on taste supports the small-amount reading rather than a belief, accusation, or distrustful attitude."
+    },
+    {
+      "example_id": "ex-343ce0c0971c",
+      "example": "Two people were arrested on suspicion of fraud after the investigation.",
+      "attribution": "unique",
+      "most_likely_sense_id": "sense:001",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "next_best_candidate": {
+        "present": true,
+        "sense_id": "sense:003"
+      },
+      "discriminating_terms": [
+        "were arrested on suspicion of fraud"
+      ],
+      "rationale": "The legal construction states that the people were arrested as suspected perpetrators of fraud (sense 1). Sense 3 could describe the unconfirmed proposition that fraud occurred, but here suspicion is attached to the arrested people as an allegation of wrongdoing."
+    }
+  ]
+}

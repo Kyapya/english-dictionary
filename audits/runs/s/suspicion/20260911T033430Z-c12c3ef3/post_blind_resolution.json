@@ -1,0 +1,50 @@
+{
+  "schema_version": "post_blind_resolution_v1",
+  "stage": "post_blind_resolution",
+  "run_id": "20260911T033430Z-c12c3ef3",
+  "context_id": "post-blind-resolution-suspicion-round25",
+  "input_body_sha256": "18178e0a192307a41e4cccafaaf60c75ff89633d50774904ba389187e4d827b6",
+  "prompt_sha256": "7dfcaa0a828a334dbb84d1d31ed97312d0a9661a7aca70a7815a9f88b31ea2f1",
+  "recorded_at": "2026-09-24T15:42:36.334729+00:00",
+  "input_artifacts": [
+    "entry_body",
+    "sealed_final_blind",
+    "source_inventory"
+  ],
+  "input_artifact_hashes": {
+    "candidate_sha256": "47c29f6aec6d2cf3646f5f47548a9483b09ecc6750f5ba8739014043c07f950b",
+    "final_blind_sha256": "78b40cdad3d24fe11a6180c97ad767dbf644bf73a7d114760bbcf7fc815290c3",
+    "source_inventory_sha256": "4e446c00971cd24d15882b376a813632b03f4ca0dd88db1e83f7f17e546dd2e8",
+    "blind_seal_sha256": "57c95c3a5fc177055521dbedfb5e2946f612c4681985c15a065f8a4dbc0e9049"
+  },
+  "decision_owner": {
+    "role": "orchestrator",
+    "agent_id": "/root"
+  },
+  "seal_check": {
+    "final_blind_sha256_matches_seal": true
+  },
+  "resolutions": [
+    {
+      "id": "f1",
+      "finding_id": "f1",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Sense 1 is defined around a person suspected of crime or wrongdoing. The unqualified “suspicions about 〈person/behavior〉” frame can instead express the general distrust defined in Sense 2, so it was removed from Sense 1. This keeps the trust-based sense distinct without duplicating an unsupported frame.",
+      "resolved_body_sha256": "1668f193d23088ced53f1c8828fcef108cde97073b2eda3e14f74741e9d73a51"
+    },
+    {
+      "id": "f2",
+      "finding_id": "f2",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The original use note included unexplained situations and any feeling that “something is wrong,” which can also fall under Sense 3. It was narrowed to a person suspected of crime or wrongdoing and the pattern now names a wrongdoing that-clause. Oxford’s Sense 1 examples include arouse suspicion in a police context; the specific fraud example remains aligned with Sense 1.",
+      "resolved_body_sha256": "1668f193d23088ced53f1c8828fcef108cde97073b2eda3e14f74741e9d73a51"
+    }
+  ],
+  "learning_delta": {
+    "reviewed": true,
+    "items": []
+  },
+  "unresolved_issues": []
+}

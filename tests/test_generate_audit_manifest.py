@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import copy
+import hashlib
 import shutil
 import sys
 import tempfile
@@ -18,6 +19,7 @@ if str(SCRIPTS) not in sys.path:
 import content_audit  # noqa: E402
 import check_passes  # noqa: E402
 import generate_audit_manifest as generator  # noqa: E402
+import review_validation  # noqa: E402
 from tests.test_content_audit import ENTRY_TEXT  # noqa: E402
 from tests.test_source_first_audit_gate import valid_v2_manifest  # noqa: E402
 
@@ -301,6 +303,70 @@ class GeneratedAuditManifestTests(unittest.TestCase):
         )
         self.assertEqual(list(self.cycle.glob("revision-*.md")), [])
         self.assertNotIn("body_revisions", value)
+
+    def test_idless_checker_findings_receive_stable_derived_ids(self) -> None:
+        normal_path = self.cycle / "pass_findings.json"
+        normal = json.loads(normal_path.read_text(encoding="utf-8"))
+        finding = {
+            "taxonomy_id": "example_translation_alignment",
+            "location": {
+                "section": "lexical_relations",
+                "line_start": 29,
+                "line_end": 29,
+                "exact_quote": "訳: 私たちはその材料の試料を調べた。  ",
+            },
+            "severity": "blocking",
+            "rationale": "The Japanese translation changes the example meaning.",
+            "evidence_link_ids": [],
+            "suggested_direction": "例文の意味に合わせて訳を修正する",
+        }
+        translation = next(
+            output for output in normal["pass_outputs"]
+            if output["pass_id"] == "translation"
+        )
+        translation["findings"] = [finding]
+        normal_path.write_text(
+            json.dumps(normal, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+
+        canonical = json.dumps(
+            finding, ensure_ascii=False, sort_keys=True, separators=(",", ":")
+        )
+        finding_id = "CHK-translation-" + hashlib.sha256(
+            ("translation\0" + canonical).encode("utf-8")
+        ).hexdigest()[:16]
+        resolutions = json.loads(
+            (self.cycle / "resolutions.json").read_text(encoding="utf-8")
+        )
+        resolutions["resolutions"] = [{
+            "id": finding_id,
+            "finding_id": finding_id,
+            "status": "resolved",
+            "disposition": "adopted",
+            "rationale": "The translation issue was corrected in the draft.",
+            "resolved_body_sha256": self.body_hash,
+        }]
+        self._write("resolutions.json", resolutions)
+        final = json.loads(
+            (self.cycle / "final_review.json").read_text(encoding="utf-8")
+        )
+        final["finding_results"] = [{
+            "id": finding_id,
+            "status": "pass",
+            "notes": "The resolved checker finding was verified.",
+        }]
+        self._write("final_review.json", final)
+
+        value = self._generate()
+        indexed = {row["id"]: row for row in value["findings"]}
+        self.assertIn(finding_id, indexed)
+        self.assertEqual(indexed[finding_id]["origin"], "check_pass:translation")
+        self.assertEqual(indexed[finding_id]["rationale"], finding["rationale"])
+        self.assertEqual(
+            review_validation.checker_finding_id("translation", finding),
+            finding_id,
+        )
 
     def test_legacy_build_cli_cannot_create_a_new_revision_snapshot(self) -> None:
         import subprocess

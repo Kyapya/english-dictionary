@@ -1,0 +1,26 @@
+{
+  "pass_id": "evidence",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "GPT-6",
+    "ingested_by": "human",
+    "agent_id": "/root/suspicion_recheck_evidence_r14"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 33,
+        "line_end": 33,
+        "exact_quote": "一般名詞。辞書には on suspicion of ... を逮捕理由として用いる例がある。Merriam-Webster は法的な suspicion を、証明やわずかな証拠しかない段階で、何かが間違っている、またはある事実が存在すると考える、通常は信念に至らない心理状態として説明する。"
+      },
+      "severity": "blocking",
+      "rationale": "指定locator https://www.merriam-webster.com/dictionary/suspicion のLegal Definitionはこの説明を直接支持する。しかし、このtargetに結び付く法的定義の根拠は source_fact_id mw_legal の1件だけで、source_type も general_dictionary である。targetの evidence_policy は two_sources_or_primary であり、独立した第2資料または主張へ直接適用できる一次資料がないため、要件を満たさない。",
+      "evidence_link_ids": [
+        "mw_legal"
+      ],
+      "suggested_direction": "主張に直接適用できる独立した第2資料または一次資料を追加し、確認できるまでこの法的説明を保留する。"
+    }
+  ]
+}

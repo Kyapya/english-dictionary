@@ -1,0 +1,43 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "pronunciation",
+  "taxonomy_ids": [
+    "pronunciation_symbol_explanation"
+  ],
+  "specification": "prompts/check_pass_pronunciation_v6.md",
+  "input_body_sha256": "8508fef1bf79309ca9c904c1a5b901698298454c0b9cddf6fe1227383f20bc7c",
+  "input_sections": {
+    "pronunciation": [
+      {
+        "line": 13,
+        "text": "＃発音記号"
+      },
+      {
+        "line": 15,
+        "text": "Oxford は米・英とも /səˈspɪʃn/ と表記する。Merriam-Webster の音節を区切る発音綴りは sə-ˈspi-shən で、3音節、第2音節に主強勢があることを示す。語頭の su- は強く /suː/ と読まず、弱い /sə/ になる。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "7e3e94267ac9f917c901c12580b91e570b5989df7adfbf2a39b833478c766d8a",
+  "source_artifact_sha256": "dc02fc70b5f11b78e5105b0158a8a845a6314d562d748f4e571433de0e727341",
+  "normalization_version": "check_pass_semantic_input_v2",
+  "normalized_input_sha256": "3872c519b0ecb1c3612a4831e2568bd20901c39ee2cc6d2f9e35da3bfea9646a"
+}

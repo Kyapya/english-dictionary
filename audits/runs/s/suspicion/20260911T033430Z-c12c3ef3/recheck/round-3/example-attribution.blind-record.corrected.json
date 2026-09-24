@@ -1,0 +1,92 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "input_body_sha256": "1b415813c2db7ff30979180a837de0083064f323ec93754352338967ab94d224",
+  "blind_request_sha256": "094f910953f6d91d2f189b38fe028cc5be1f999f88d9c987d071053438fcb5d4",
+  "recorded_at": "2026-09-23T11:30:14+00:00",
+  "reviewer": {
+    "agent_id": "/root/round3_example_attribution",
+    "declared_model": "GPT-6",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "attributions": [
+    {
+      "example_id": "ex-3b7c7e04f080",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "a suspicion of truth in it"
+      ],
+      "rationale": "“a suspicion of truth in it” presents truth as a faint quality present in the tale, matching sense:003. Sense:002 would express mistrust toward a person, claim, or motive; the tale is described as containing a trace of truth, not as distrusting truth."
+    },
+    {
+      "example_id": "ex-9b89a68b7732",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "remained under suspicion"
+      ],
+      "rationale": "“remained under suspicion” frames the contractor as the person suspected of wrongdoing, matching sense:001. Sense:002 would describe a stance of distrust toward the contractor or a claim; this construction presents the contractor as the suspected actor."
+    },
+    {
+      "example_id": "ex-4e4753a142d0",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "a suspicion that the cashier had altered the sales records"
+      ],
+      "rationale": "“a suspicion that the cashier had altered the sales records” supplies a proposition alleging an act of wrongdoing by the cashier, matching sense:001. Sense:002 could describe general distrust of the cashier, but the complement specifically identifies suspected record alteration."
+    },
+    {
+      "example_id": "ex-8ef1ff5ff754",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "a suspicion of a smile"
+      ],
+      "rationale": "“a suspicion of a smile” means a faint suggestion of a smile present in the reply, matching sense:003. Sense:002 would express distrust of the reply or its speaker; the phrase instead treats the smile as a barely perceptible quality."
+    },
+    {
+      "example_id": "ex-19aa3e4d1ae4",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "regarded the sudden policy change with suspicion"
+      ],
+      "rationale": "“regarded the sudden policy change with suspicion” describes residents viewing the change skeptically, matching sense:002. Sense:001 would attribute possible wrongdoing to a suspected actor; here suspicion is the residents’ attitude toward the policy change, with no alleged act by a person."
+    },
+    {
+      "example_id": "ex-3e1edbeeb7a0",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "no longer trusted the officials' explanation"
+      ],
+      "rationale": "“no longer trusted the officials' explanation” explicitly makes distrust of an explanation the relevant relation, matching sense:002. Sense:001 would involve suspecting someone of a particular crime or wrongdoing; loss of trust in the explanation alone does not assert that."
+    },
+    {
+      "example_id": "ex-6c03f7205f20",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "on suspicion of fraud"
+      ],
+      "rationale": "“on suspicion of fraud” gives the suspected wrongdoing that grounds the arrests, matching sense:001. Sense:002 would describe mistrust toward a person, organization, or claim; this frame identifies suspected fraud as the alleged act."
+    }
+  ]
+}

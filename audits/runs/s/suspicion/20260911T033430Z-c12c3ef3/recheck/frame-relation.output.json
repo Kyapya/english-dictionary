@@ -1,0 +1,112 @@
+{
+  "pass_id": "frame-relation",
+  "reviewer": {
+    "agent_id": "/root/recheck_frame_relation",
+    "declared_model": "GPT-6",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "antonym_axis_blind_record": {
+    "schema_version": "antonym_axis_blind_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "03815e046214b7ac013164253f4b3350f326787af55129a907fd779e8fefc3b4",
+    "blind_request_sha256": "39fba6cd3406160c8415a5ed3dc1796b67f8edff3aa9d204bf8ff572fa8f3139",
+    "recorded_at": "2026-09-23T03:56:24-07:00",
+    "reviewer": {
+      "agent_id": "/root/recheck_frame_relation",
+      "declared_model": "GPT-6",
+      "mode": "handoff",
+      "ingested_by": "human"
+    },
+    "axes": [
+      {
+        "item_id": "ant-206c1d87b704",
+        "axis": "信頼",
+        "relation_type": "程度",
+        "reason": ""
+      }
+    ]
+  },
+  "antonym_axis_adjudication_record": {
+    "schema_version": "antonym_axis_adjudication_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "03815e046214b7ac013164253f4b3350f326787af55129a907fd779e8fefc3b4",
+    "stage2_request_sha256": "dd575f6a7a4336c04e391b0afe46641095735c687d70890e1f38e16c39c293c9",
+    "blind_record_sha256": "caba8c8309bed5e34321bcfe53048a4d28dfdc8253434bada64b5bd81613265c",
+    "recorded_at": "2026-09-23T04:00:09-07:00",
+    "reviewer": {
+      "agent_id": "/root/recheck_frame_relation",
+      "declared_model": "GPT-6",
+      "mode": "handoff",
+      "ingested_by": "human"
+    },
+    "adjudications": [
+      {
+        "item_id": "ant-206c1d87b704",
+        "flags": [],
+        "rationale": "The sealed stage-1 axis 信頼 / 程度 is derivable from sense 2, which describes insufficient trust toward its target. The trust definition places it on the same trust axis. The difference row states this contrast and does not undermine it, so F1–F4 do not apply.",
+        "suggested_direction": "",
+        "f4_severity": null
+      }
+    ],
+    "frame_findings": [
+      {
+        "taxonomy_id": "argument_slot_role_mismatch",
+        "location": {
+          "section": "collocations_examples",
+          "line_start": 96,
+          "line_end": 96,
+          "exact_quote": "・regard 〈person/claim〉 with suspicion  "
+        },
+        "severity": "minor",
+        "rationale": "The stated target types are person/claim, but the associated example at line 98 realizes the target as “the sudden policy change,” a decision or measure. Broaden the target role to cover policies/actions or use an example within the stated types.",
+        "evidence_link_ids": [],
+        "suggested_direction": "完全フレーム化: include policy/action targets in the role, or align the example with person/claim."
+      },
+      {
+        "taxonomy_id": "argument_slot_role_mismatch",
+        "location": {
+          "section": "frames",
+          "line_start": 92,
+          "line_end": 92,
+          "exact_quote": "【文法パターン】regard 〈person/claim〉 with suspicion＝〈人・主張〉を疑いの目で見る／suspicion about 〈person's motives〉＝〈人〉の動機への不信。  "
+        },
+        "severity": "minor",
+        "rationale": "The second frame and its gloss restrict the possessor to a person, while line 102 describes the use with a person or organization and line 103 exemplifies “the agency’s motives.” Update the semantic slot and gloss to include organizations.",
+        "evidence_link_ids": [],
+        "suggested_direction": "完全フレーム化: include organization motives in the slot and gloss."
+      }
+    ],
+    "unrouted_observations": []
+  },
+  "aligned_at": "2026-09-23T11:03:47.955598+00:00",
+  "findings": [
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 96,
+        "line_end": 96,
+        "exact_quote": "・regard 〈person/claim〉 with suspicion  "
+      },
+      "severity": "minor",
+      "rationale": "The stated target types are person/claim, but the associated example at line 98 realizes the target as “the sudden policy change,” a decision or measure. Broaden the target role to cover policies/actions or use an example within the stated types.",
+      "evidence_link_ids": [],
+      "suggested_direction": "完全フレーム化: include policy/action targets in the role, or align the example with person/claim."
+    },
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 92,
+        "line_end": 92,
+        "exact_quote": "【文法パターン】regard 〈person/claim〉 with suspicion＝〈人・主張〉を疑いの目で見る／suspicion about 〈person's motives〉＝〈人〉の動機への不信。  "
+      },
+      "severity": "minor",
+      "rationale": "The second frame and its gloss restrict the possessor to a person, while line 102 describes the use with a person or organization and line 103 exemplifies “the agency’s motives.” Update the semantic slot and gloss to include organizations.",
+      "evidence_link_ids": [],
+      "suggested_direction": "完全フレーム化: include organization motives in the slot and gloss."
+    }
+  ],
+  "unrouted_observations": []
+}

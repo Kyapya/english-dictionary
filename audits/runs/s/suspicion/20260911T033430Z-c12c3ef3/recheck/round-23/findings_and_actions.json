@@ -1,0 +1,127 @@
+{
+  "schema_version": "checker_recheck_actions_v1",
+  "round": 23,
+  "input_body_sha256": "b34f7da3691330b05a3a8a1aaf894599ec4d16d118e331f84a1dc41bcfca5677",
+  "source_inventory_sha256": "f64beb53e4519971f312e0d173d335af96c5961a9f8a4be7cee9329eda2836fa",
+  "source_artifact_sha256": "f583eaabf925bd9587585be43d243b3ff6dbb0b2fd483ecbd1d89a0fce16aee2",
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 88,
+        "line_end": 88,
+        "exact_quote": "cast suspicion on 〈claim/statement or its truth/reliability〉＝〈主張・説明、またはその真実性・信頼性〉に疑いを向ける。"
+      },
+      "severity": "blocking",
+      "rationale": "この文法パターンは語義2（不信・信頼性への疑念）に置かれているが、claim_distrustに結び付くOxfordのoxf_distrust factはregard/view with suspicionの例、Merriam-Websterのmw_contrastとAmerican Heritageのahd_distrustは意味説明を支えるだけで、この「cast suspicion on」構文をこの語義で用いる直接例を示さない。開いたOxford locatorにはcast suspicion onの例があるものの、その目的語は人で、犯罪・不正を疑う語義1の例である（同entryの例）。同じ構文を信頼性・主張の語義2へ移す根拠としては適用範囲がずれている。collocation:009の例文も同じずれを含む。語義2でのこのフレームを直接示すlocatorを加えるか、裏付けられる意味範囲へ限定する必要がある。",
+      "evidence_link_ids": [
+        "oxf_distrust",
+        "mw_contrast",
+        "ahd_distrust"
+      ],
+      "suggested_direction": "語義2でcast suspicion on a claim or its reliabilityを実際に用いる直接資料を付ける。確認できなければこのフレームと例文を語義2から外すか、根拠が支える範囲へ限定する。",
+      "pass_id": "evidence",
+      "raw_response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-23/responses/evidence.response.raw.json",
+      "raw_response_sha256": "38064a3c64aebc97a6a73bf398064f52379a7242ea6054517e6382e4beefd67b",
+      "id": "r23-evidence-001",
+      "action": "adopted",
+      "resolution": "語義2にはregard/view with suspicionとbe greeted with suspicionを残し、直接例が確認できないcast suspicion on構文と同例文を外す。本文変更後、出典対象対応を整理して七パスを再確認する。"
+    }
+  ],
+  "review_response_corrections": [
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-23/responses/translation.response.raw.json",
+      "sha256": "2f2f671b267d32ba0209eb57cf41735b0e9d08a27b908fd23d693d84182547d3",
+      "disposition": "contract_invalid",
+      "detail": "元応答のreviewerにmodeとingested_byがなくhandoff契約を満たさないため、原本を不変のまま保存。"
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-23/responses/translation.response.contract_corrected.raw.json",
+      "sha256": "72051130dd5a1d92299f9da4be2f03ef177020d8afbc666069565ed4155a2e74",
+      "disposition": "accepted",
+      "detail": "同じレビュアーが契約メタデータのみ補った別応答を返し、空のfinding判断・request整合・スキーマを検証。"
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-23/responses/sense-structure.response.raw.json",
+      "sha256": "e5cbc0ce28d66357d9ee966c9e862fd8fe5550506584b1fb6a97802a572e0021",
+      "disposition": "contract_invalid",
+      "detail": "元応答のreviewerにmodeとingested_byがなくhandoff契約を満たさないため、原本を不変のまま保存。"
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-23/responses/sense-structure.response.contract_corrected.raw.json",
+      "sha256": "d3ad117302f260297afadd2bf8720f43580eabd88947a11d1aa03519d50dcfbe",
+      "disposition": "accepted",
+      "detail": "同じレビュアーが必須handoffメタデータを別応答に追加し、空のfinding判断を維持したままrequest・スキーマ検証に合格。"
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-23/responses/frame-relation.stage1.response.raw.json",
+      "sha256": "1a4e43234c48dc19bc3c5da547667ab67e12363074c282e78fd1136689d0822f",
+      "disposition": "contract_invalid",
+      "detail": "段階1の元応答はreviewer.modeとingested_byを欠く。原本を保存し、別の契約適合応答を受領。"
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-23/responses/frame-relation.stage1.response.contract_corrected.raw.json",
+      "sha256": "d08447fd675a223573152f23c7d0dcbf36879690108e6520be24bcd1198889c4",
+      "disposition": "accepted",
+      "detail": "同じフレームレビュアーが契約適合の段階1応答を返し、正確なJSON request hash・空のaxesを検証して封印。段階2も同じレビュアーで封印記録に照合。"
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-23/responses/frame-relation.stage2.response.raw.json",
+      "sha256": "d3ab21aa51efdb8c17b8bcd0c5d57b288f3bcf753807598dcf3495d540638c43",
+      "disposition": "accepted_stage2_alignment",
+      "detail": "封印段階1記録と段階2requestのhashを一致確認。adjudications・frame findings・unrouted observationsはすべて空。"
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-23/responses/example-attribution.response.raw.json",
+      "sha256": "0110794125c4fea4f6e8de4632575c42e5be66bbc6d1979e41447da319f2b3e5",
+      "disposition": "contract_invalid",
+      "detail": "初回段階1応答はrequest_sha256／blind_attributions等の誤フィールドを用い、必須body/request bindingとattributions契約を満たさない。原本を不変保存。"
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-23/responses/example-attribution.response.contract_corrected.raw.json",
+      "sha256": "ccc683184208e262773d326364bfc307bcd0634bd01bde6c6b58bc9042516a4a",
+      "disposition": "contract_invalid",
+      "detail": "同じレビュアーの第1修正応答はclassificationフィールドがなくblind record契約およびattribution livenessを満たさない。原本を保存。"
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-23/responses/example-attribution.response.contract_corrected_v2.raw.json",
+      "sha256": "b8e52cae5d65209318fb7f2f27673f9e735ebf8495ffd9c29bb2630f950e38c1",
+      "disposition": "accepted",
+      "detail": "同じレビュアーの第2修正応答は17例すべての分類・候補sense・本文内判別語・根拠が契約とliveness検証に合格。source provenance付きで封印。"
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-23/responses/example-attribution.stage2.response.raw.json",
+      "sha256": "54a7a68ce149684cdce78e106b5b338ace8e3306e83049c12d78111e4f1a8ea5",
+      "disposition": "accepted_stage2_alignment",
+      "detail": "同一レビュアーが正確な段階2request hash、sealed record hash、alignment-key hashに結び付け、17例すべてが割当語義に一致。findingsとunrouted observationsは空。"
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-23/responses/qualification.response.raw.json",
+      "sha256": "d9a36bdc14c77126bfeea5621a20bcc7d47b15b32d1d5f2589ce84c6fd8d3ac4",
+      "disposition": "contract_invalid",
+      "detail": "元応答のreviewerにmodeとingested_byがなくhandoff契約を満たさない。原本を保存。"
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-23/responses/qualification.response.contract_corrected.raw.json",
+      "sha256": "6cbef98f48282cfd7fcb278336bb82c59c6d73fe3bfe9326f01e865fd467490e",
+      "disposition": "accepted",
+      "detail": "同一レビュアーがhandoff契約メタデータを補った別応答を返し、無指摘判断のrequest・スキーマ検証に合格。"
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-23/responses/pronunciation.response.raw.json",
+      "sha256": "f23797743d66365a2035dba5dea12ab6908afb979005d41da28c757ec37bbb28",
+      "disposition": "contract_invalid",
+      "detail": "元応答のreviewerにmodeとingested_byがなくhandoff契約を満たさない。原本を保存。"
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-23/responses/pronunciation.response.contract_corrected.raw.json",
+      "sha256": "d2e9f7835800b7fcf69ccd54cb1692289fb127b222854682b203fd5d7b543d89",
+      "disposition": "accepted",
+      "detail": "同一レビュアーがhandoff契約メタデータを補った別応答を返し、無指摘判断のrequest・スキーマ検証に合格。"
+    }
+  ],
+  "prior_round_findings_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-22/findings_and_actions.json",
+  "prior_round_findings_sha256": "776c1438a29ba65865e088df1af1644ccb86e78c091d90e1ea2345e72ad4e47d",
+  "recorded_at": "2026-09-24T14:40:00+00:00"
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": "checker_recheck_actions_v1",
+  "round": 18,
+  "input_body_sha256": "22115ff16b934a7bee72be158df65dd1569ca9a64c670adb9cd408a03b504ebd",
+  "source_inventory_sha256": "b81fe244c764f8293050b5eb65f6c1d40ee209800c88316b39f27b969a700a6b",
+  "source_artifact_sha256": "776daa0334bf140008a6fc56b0dd673a651dc4a3f85bfebd24a78f78fabd8085",
+  "findings": [
+    {
+      "id": "r18-evidence-001",
+      "pass_id": "evidence",
+      "taxonomy_id": "evidence_claim_mismatch",
+      "severity": "blocking",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 33,
+        "line_end": 33,
+        "exact_quote": "一般名詞。辞書には on suspicion of ... を逮捕理由として用いる例がある。Merriam-Webster は法的な suspicion を、証明やわずかな証拠しかない段階で、何かが間違っている、またはある事実が存在すると考える、通常は信念に至らない心理状態として説明する。"
+      },
+      "rationale": "The linked House of Lords fact (ukhl_kebel_suspicion) includes the further claim that suspicion precedes prima facie proof, and claim_legal_boundary repeats that point. Neither linked article target (definition:001 or register:001) states that relation; the register target instead attributes the no-proof/slight-evidence, short-of-belief definition to Merriam-Webster. The House of Lords link therefore reaches beyond the supplied target text. Keep it only if the prima facie relation is stated at the target; otherwise remove that extra claim from this claim-unit association.",
+      "evidence_link_ids": [
+        "ukhl_kebel_suspicion"
+      ],
+      "suggested_direction": "Limit the claim unit to what definition:001/register:001 actually say, or add the prima facie-proof relation to the article and associate the House of Lords source with that text.",
+      "raw_response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-18/responses/evidence.response.raw.json",
+      "raw_response_sha256": "08e55aaa80e4beed9df11073e98dffb379e3aa0da97242a16045da62da38fb27",
+      "action": "adopted",
+      "resolution": "Re-scope the legal claim and integrated source union to the Merriam-Webster definition actually stated in the article. Move the House of Lords prima facie-proof fact to an excluded source union because that relation is not stated by either mapped article target."
+    }
+  ],
+  "review_response_corrections": [
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-18/responses/example-attribution.response.raw.json",
+      "sha256": "bc29f3f3817c13125020636e447939f76fae699e72c18970595124685365a3a0",
+      "disposition": "contract_invalid",
+      "detail": "Original response wrapped a separate blind_attribution_record and used the items/attribution/best_sense_id variant; the project contract requires a top-level attributions list and classification field. Preserved unchanged."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-18/responses/example-attribution.response.contract_corrected.raw.json",
+      "sha256": "6c2a8d96eba1e7ad296ea23a3bf77a2dcdc0bb514d97320688b611abf9fda11e",
+      "disposition": "accepted",
+      "detail": "Same independent reviewer returned the exact contract with all 17 rationales containing a verbatim valid example cue; request hash, contract, and liveness checks pass."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-18/responses/frame-relation.stage1.response.raw.json",
+      "sha256": "ebce235a57058930bfb75b2b307d4c792bbe2a307d0e919e013e7b0802a8cf4f",
+      "disposition": "derived_provenance_binding",
+      "detail": "Stage 1 reviewer response was bound by the orchestrator to the exact saved stage-1 request; the mismatched raw request-hash field is preserved unchanged."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-18/responses/frame-relation.stage2.response.raw.json",
+      "sha256": "2316eb32dd1f44aacaacf64f2dd30910b19356224d68f579550ba1d7c41d3b51",
+      "disposition": "derived_provenance_binding",
+      "detail": "Stage 2 reviewer response was bound by the orchestrator to the exact stage-2 request and sealed stage-1 record; reviewer-authored adjudications/findings are unchanged."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-18/responses/translation.response.raw.json",
+      "sha256": "cebd85fbe7de0f436ec7a31e7ec68b82e7d2c4753fc6050189353431e52592f6",
+      "disposition": "accepted",
+      "detail": "Request packet integrity and response schema validate; source response was ingested unchanged."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-18/responses/sense-structure.response.raw.json",
+      "sha256": "fe7f18649d7c1c0fc476d46cb1b86324e708bfaf325e02896ec355ebd8675ed5",
+      "disposition": "accepted",
+      "detail": "Request packet integrity and response schema validate; source response was ingested unchanged."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-18/responses/qualification.response.raw.json",
+      "sha256": "c2178e79ff6bfa2dda81735e0dec60f0e48fd2021297f17ee1264cd029b46aeb",
+      "disposition": "accepted",
+      "detail": "Request packet integrity and response schema validate; source response was ingested unchanged."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-18/responses/pronunciation.response.raw.json",
+      "sha256": "164d893132634ce0aca144a46da7067dcdaebe044c4685010ee407d7791b0c5b",
+      "disposition": "accepted",
+      "detail": "Request packet integrity and response schema validate; source response was ingested unchanged."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-18/responses/evidence.response.raw.json",
+      "sha256": "08e55aaa80e4beed9df11073e98dffb379e3aa0da97242a16045da62da38fb27",
+      "disposition": "accepted",
+      "detail": "Request packet integrity and response schema validate; source response was ingested unchanged."
+    }
+  ],
+  "round_17_findings_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-17/findings_and_actions.json",
+  "round_17_findings_sha256": "6fc85049e88ee2994c6a495a0a105998c7de2cd289eab30bededa99369275334",
+  "recorded_at": "2026-09-24T12:58:16.039082Z"
+}

@@ -1,0 +1,11 @@
+{
+  "schema_version": "workflow_entry_activation_v1",
+  "recorded_at": "2026-09-23T17:48:16.622688+00:00",
+  "candidate_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/candidate/pre_blind_revision_entry.md",
+  "candidate_body_sha256": "6c77c142312c5cd3c8fc46bb74e490d274f356ffea110ae31b600bfa76245433",
+  "current_tracked_entry_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+  "state": "candidate_pending_final_workflow_completion",
+  "reason": "The corrected candidate passed checker recheck; keep it in the run audit while fresh final blind review and final review are completed, then activate it with the completed workflow.",
+  "review_inputs_use_candidate_snapshot": true,
+  "previous_tracked_entry_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426"
+}

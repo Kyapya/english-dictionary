@@ -1,0 +1,214 @@
+{
+  "schema_version": "final_blind_v2",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "GPT-6",
+    "ingested_by": "human",
+    "agent_id": "/root/suspicion_final_blind"
+  },
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "noun_clause_belief",
+      "surface_form": "suspicion",
+      "frame": "suspicion that 〈clause〉; have a suspicion that 〈clause〉; a suspicion that 〈clause〉; arouse 〈person〉's suspicions that 〈clause〉",
+      "meaning": "ある命題・出来事・状態が真実かもしれないという、確証に至らない見立て。犯罪・不正の可能性も、節の内容として表せる。",
+      "disposition": "included",
+      "rationale": "「suspicion that 〈clause〉; have a suspicion that 〈clause〉; a suspicion that 〈clause〉; arouse 〈person〉's suspicions that 〈clause〉」は、節の内容そのものを疑われる命題として示す。節の真偽を確定せず、その可能性を考える語義として本文に含まれている。",
+      "semantic_assertions": [
+        {
+          "id": "noun_clause_belief_a1",
+          "statement": "このフレームのthat節は、疑いの対象となる命題・出来事・状態の内容を示す。",
+          "polarity": "must_hold",
+          "scope": "that節を伴う名詞用法"
+        },
+        {
+          "id": "noun_clause_belief_a2",
+          "statement": "この疑いを抱くこと自体は、節の内容が事実であるとの確定を含意しない。",
+          "polarity": "must_hold",
+          "scope": "that節を伴う名詞用法"
+        }
+      ]
+    },
+    {
+      "id": "noun_criminal_suspicion",
+      "surface_form": "suspicion",
+      "frame": "suspicion of 〈offence〉; on suspicion of 〈offence〉; be under suspicion",
+      "meaning": "人が犯罪・不正をした可能性への疑い。容疑を理由とする取扱いや、疑いをかけられた状態を表す。",
+      "disposition": "included",
+      "rationale": "「on suspicion of 〈offence〉; be under suspicion」は、ある人が犯罪・不正を行った可能性に関する疑いを表す。本文は逮捕・拘束の理由と有罪確定を区別しており、この人を主体とする疑いのフレームを含めている。",
+      "semantic_assertions": [
+        {
+          "id": "noun_criminal_suspicion_a1",
+          "statement": "offence句は、人がその犯罪・不正を行った可能性を疑う内容または理由を示す。",
+          "polarity": "must_hold",
+          "scope": "犯罪・不正についての名詞用法"
+        },
+        {
+          "id": "noun_criminal_suspicion_a2",
+          "statement": "on suspicion of、またはunder suspicionの用法だけでは、有罪や不正の事実は確定しない。",
+          "polarity": "must_hold",
+          "scope": "on suspicion of / under suspicion"
+        }
+      ]
+    },
+    {
+      "id": "noun_raises_suspicion",
+      "surface_form": "suspicion",
+      "frame": "raise some suspicion",
+      "meaning": "出来事や発言が疑いを招くこと。疑いの対象となる命題は文面に明示されないことがある。",
+      "disposition": "included",
+      "rationale": "「raise some suspicion」は、出来事が疑いを招くという原因・結果のフレームで、疑われる人物や命題を必ずしも表面に出さない。本文では説明のつかない遅れが疑いを招く例として採録されている。",
+      "semantic_assertions": [
+        {
+          "id": "noun_raises_suspicion_a1",
+          "statement": "raise some suspicionでは、主語となる出来事・発言は疑いを生じさせる契機であり、必ずしも疑われる対象そのものではない。",
+          "polarity": "must_hold",
+          "scope": "raise some suspicion"
+        },
+        {
+          "id": "noun_raises_suspicion_a2",
+          "statement": "疑いが生じても、その契機となった出来事が不正または虚偽であると確定するわけではない。",
+          "polarity": "must_hold",
+          "scope": "raise some suspicion"
+        }
+      ]
+    },
+    {
+      "id": "noun_distrustful_attitude",
+      "surface_form": "suspicion",
+      "frame": "regard 〈person/thing〉 with suspicion",
+      "meaning": "人や物事を信用できず、疑いの目で見る態度。特定の命題が真実かもしれないという見立てより、対象への不信・警戒に焦点がある。",
+      "disposition": "included",
+      "rationale": "「regard 〈person/thing〉 with suspicion」は対象を疑いの目で見る態度を表し、対象についてのthat節の命題を疑うフレームとは意味役割が異なる。本文はこの態度を独立した語義として採録している。",
+      "semantic_assertions": [
+        {
+          "id": "noun_distrustful_attitude_a1",
+          "statement": "with suspicionの対象は、人・物事・説明など、信用できるかどうかを評価される対象である。",
+          "polarity": "must_hold",
+          "scope": "regard X with suspicion"
+        },
+        {
+          "id": "noun_distrustful_attitude_a2",
+          "statement": "この態度の記述は、対象についての特定の疑惑や命題が事実だという確信を必須としない。",
+          "polarity": "must_hold",
+          "scope": "regard X with suspicion"
+        }
+      ]
+    },
+    {
+      "id": "noun_faint_amount_or_sign",
+      "surface_form": "suspicion",
+      "frame": "a suspicion of 〈a smile〉; a suspicion of 〈truth〉",
+      "meaning": "通常単数のa suspicion of ...で、ごく少量またはかすかな兆しを表す形式的・比喩的用法。",
+      "disposition": "included",
+      "rationale": "「a suspicion of 〈a smile〉; a suspicion of 〈truth〉」は、疑うという心的行為ではなく、笑みや真実味がわずかに感じられることを表す。本文はこの意味を別語義として説明している。",
+      "semantic_assertions": [
+        {
+          "id": "noun_faint_amount_or_sign_a1",
+          "statement": "a suspicion of XはXのごく少量またはかすかな兆候を表す。",
+          "polarity": "must_hold",
+          "scope": "a suspicion of X"
+        },
+        {
+          "id": "noun_faint_amount_or_sign_a2",
+          "statement": "このフレームのsuspicionは、Xを真実かもしれないと疑う心的行為を意味しない。",
+          "polarity": "must_not_hold",
+          "scope": "a suspicion of X"
+        }
+      ]
+    },
+    {
+      "id": "adjective_feeling_suspicious",
+      "surface_form": "suspicious",
+      "frame": "疑っている、不信に思っている",
+      "meaning": "疑いを抱いている、または不信に思っている状態を表す形容詞。",
+      "disposition": "included",
+      "rationale": "「疑っている、不信に思っている」は、疑いを感じる主体側の形容詞用法として本文の語形成欄に含まれている。",
+      "semantic_assertions": [
+        {
+          "id": "adjective_feeling_suspicious_a1",
+          "statement": "この形容詞用法では、疑い・不信を抱く主体の状態を表す。",
+          "polarity": "must_hold",
+          "scope": "suspiciousの主体側用法"
+        }
+      ]
+    },
+    {
+      "id": "adjective_causing_suspicion",
+      "surface_form": "suspicious",
+      "frame": "人に疑いを起こさせる「疑わしい」",
+      "meaning": "疑いを生じさせる人や物事を表す形容詞。",
+      "disposition": "included",
+      "rationale": "「人に疑いを起こさせる「疑わしい」」は、疑いを抱く側ではなく、それを引き起こす対象側の形容詞用法であり、本文の語形成欄に含まれている。",
+      "semantic_assertions": [
+        {
+          "id": "adjective_causing_suspicion_a1",
+          "statement": "この形容詞用法は、疑いを感じる主体ではなく疑いを引き起こす対象の性質を表す。",
+          "polarity": "must_hold",
+          "scope": "suspiciousの対象側用法"
+        }
+      ]
+    },
+    {
+      "id": "adverb_derivative",
+      "surface_form": "suspiciously",
+      "frame": "suspiciously",
+      "meaning": "suspiciousの副詞形。",
+      "disposition": "included",
+      "rationale": "「suspiciously」は本文で副詞形として明記されている派生形である。",
+      "semantic_assertions": [
+        {
+          "id": "adverb_derivative_a1",
+          "statement": "suspiciouslyはsuspiciousに対応する副詞形である。",
+          "polarity": "must_hold",
+          "scope": "語形成"
+        }
+      ]
+    },
+    {
+      "id": "abstract_noun_derivative",
+      "surface_form": "suspiciousness",
+      "frame": "suspiciousness",
+      "meaning": "suspiciousの名詞形。",
+      "disposition": "included",
+      "rationale": "「suspiciousness」は本文で名詞形として明記されている派生形である。",
+      "semantic_assertions": [
+        {
+          "id": "abstract_noun_derivative_a1",
+          "statement": "suspiciousnessはsuspiciousに対応する名詞形である。",
+          "polarity": "must_hold",
+          "scope": "語形成"
+        }
+      ]
+    },
+    {
+      "id": "dialectal_verb_excluded",
+      "surface_form": "suspicion",
+      "frame": "suspicion（動詞）",
+      "meaning": "～を疑うという他動詞用法。本文ではchiefly dialectalと記して主要な学習語義から除外している。",
+      "disposition": "excluded",
+      "rationale": "「suspicion（動詞）」は名詞の主要語義ではなく、本文自身が方言的な他動詞用法として主要な学習語義から外している。",
+      "semantic_assertions": [
+        {
+          "id": "dialectal_verb_excluded_a1",
+          "statement": "この方言的な他動詞用法は、標準的な主要学習語義の一覧に含めない。",
+          "polarity": "must_not_hold",
+          "scope": "主要な学習語義"
+        }
+      ]
+    }
+  ],
+  "article_findings": [],
+  "stage": "final_blind",
+  "run_id": "blind-suspicion-20260911T033430Z-c12c3ef3",
+  "context_id": "blind-suspicion-context-20260911T033430Z-c12c3ef3",
+  "input_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+  "prompt_sha256": "3a481b4b5b1236ff386e148bcacc574570b305e79f5e155e9afcd34091f7785c",
+  "input_artifacts": [
+    "entry_body",
+    "final_blind_prompt"
+  ],
+  "audit_visible": false,
+  "recorded_at": "2026-09-23T16:25:58.073910+00:00"
+}

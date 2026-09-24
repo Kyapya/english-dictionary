@@ -1,0 +1,64 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "6a13722cf09cc60650cfded174c51733484f8ab84742505a5973248f7a96d7d4",
+  "stage2_request_sha256": "f16d397b5233bcd97e3ec48613992961a4bd0b8b26c858c85c3f9acce6175267",
+  "blind_record_sha256": "ed1b25e9991a3283a85c83a40873e08efbecb96726f92735a1c6aee1f984c8ac",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-6",
+    "ingested_by": "human",
+    "agent_id": "/root/suspicion_frame_relation_review"
+  },
+  "adjudications": [
+    {
+      "item_id": "ant-bdc34e5ff338",
+      "flags": [],
+      "rationale": "段階1で固定した軸「信頼」は語義2の定義にある信用・不信から導ける。分類「程度」も、疑って見る態度と相手を信頼する態度の連続する対照として成立する。違い行はこの対照を明確に述べ、対立を否定または限定していないため、F1〜F4に該当しない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    }
+  ],
+  "frame_findings": [
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 99,
+        "line_end": 99,
+        "exact_quote": "be met with suspicion＝疑いをもって受け止められる"
+      },
+      "severity": "minor",
+      "rationale": "コロケーションの例文（110行目）は対象となる主語に加え、経験者を示す任意の by-句（by employees）も実現しているが、パターンにその任意スロットが示されていない。主語の典型的対象と任意の経験者を含む完全な受動フレームとして示す必要がある。",
+      "evidence_link_ids": [],
+      "suggested_direction": "完全フレーム化：〈proposal/explanation/system〉 be met with suspicion (by 〈person/group〉)"
+    },
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 232,
+        "line_end": 232,
+        "exact_quote": "a suspicion of 〈color/flavor/smell/emotion/smile〉＝ほんの少しの〈色・味・匂い・感情・笑み〉。"
+      },
+      "severity": "minor",
+      "rationale": "〈smile〉をそのまま代入すると a suspicion of smile となり、必要な冠詞が欠ける。例・コロケーション（251、253行目）は a suspicion of a smile を使っているので、smile の候補だけを冠詞込みの〈a smile〉として分ける必要がある。",
+      "evidence_link_ids": [],
+      "suggested_direction": "完全フレーム化：smile を冠詞込みの〈a smile〉として分ける"
+    },
+    {
+      "taxonomy_id": "lexical_relation_mislabel",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 84,
+        "line_end": 84,
+        "exact_quote": "・doubt"
+      },
+      "severity": "minor",
+      "rationale": "この語義の中心は人の犯罪・不正を疑うことだが、doubt の定義と例は数値の完全性など一般の真偽への不確かさを表し、誤行為を疑う方向を含まない。関連概念にとどまり、この語義の類義語としての中心義の重なりが不足している。",
+      "evidence_link_ids": [],
+      "suggested_direction": "削除"
+    }
+  ],
+  "unrouted_observations": []
+}

@@ -182,21 +182,23 @@ class PublishTests(unittest.TestCase):
         self.assertIn({"path": "initial", "mode": "100644", "type": "blob", "sha": None}, plan["commits"][1]["entries"])
         publish.git(self.root, "push", "origin", "HEAD:entry/test")
         head = publish.git(self.root, "rev-parse", "HEAD")
-        with self.assertRaisesRegex(ValueError, "advanced"):
-            publish.plan(self.root, remote_head=head)
-        value = publish.plan(self.root, check_remote=False)
+        value = publish.plan(self.root, remote_head=head)
+        self.assertEqual(value["local_base"], head)
+        self.assertEqual(value["commits"], [])
         plan_id = hashlib.sha256(json.dumps(value, sort_keys=True).encode()).hexdigest()
         publish._atomic_json(
             publish._session_path(self.root, plan_id),
-            {"plan": value, "blobs": [], "trees": [],
-             "commits": {item["local_sha"]: item["local_sha"] for item in value["commits"]},
-             "progress": "test"},
+            {"plan": value, "blobs": [], "trees": [], "commits": {}, "progress": "test"},
         )
         accepted = publish.accept(self.root, head, plan_id)
         self.assertEqual(accepted["local_head"], accepted["remote_head"])
         publish.select(self.root, "connector")
         self.assertTrue(publish.publish(self.root))
         self.assertEqual(publish.plan(self.root)["commits"], [])
+        (self.root / "after-remote-head").write_text("new checkpoint")
+        self.commit("after remote head")
+        delta = publish.plan(self.root, remote_head=head)
+        self.assertEqual([item["message"] for item in delta["commits"]], ["after remote head"])
 
     def test_receipt_cannot_accept_wrong_head(self):
         (self.root / "changed").write_text("new")

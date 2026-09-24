@@ -1,0 +1,11 @@
+{
+  "schema_version": "checker_request_scope_adjustment_v1",
+  "reason": "The section extractor limits frequency_register to per-sense rows and omits the article-level frequency rubric immediately before sense 1. Add the exact article line to the two passes that assess scores so reviewers see the complete stated method.",
+  "input_body_sha256": "704b4f1e814a46fccb7bb66e60727178677ee79e54fb5112d4289433bab64fd9",
+  "line": 36,
+  "text": "【頻度表記】頻度スコアは語全体の使用回数やコーパス値ではなく、直前の定義が示す語義について、現代英語全体での遭遇機会を編集上評価した目安である。10＝会話・文章で日常的に出会う基本語、8～9＝日常・新聞・ビジネスで広く使われる、6～7＝使われる機会はあるが語義や場面がやや限られる、4～5＝比較的限られた場面で使われる、2～3＝特定の分野・地域・文体に偏る、1＝現代英語ではまれ。厳密な統計値や語義間の順位を示さない。  ",
+  "passes": [
+    "qualification",
+    "evidence"
+  ]
+}

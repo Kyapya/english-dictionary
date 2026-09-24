@@ -1,0 +1,56 @@
+{
+  "pass_id": "frame-relation",
+  "reviewer": {
+    "mode": "handoff",
+    "agent_id": "/root/r25_frame_relation",
+    "declared_model": "GPT-6",
+    "ingested_by": "orchestrator",
+    "source_response": {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-25/responses/source_responses/2defe9f104c2123c6ed6a0ca1fac28f5325f3de5cc5b911d5633b330218816d1.json",
+      "sha256": "2defe9f104c2123c6ed6a0ca1fac28f5325f3de5cc5b911d5633b330218816d1"
+    }
+  },
+  "antonym_axis_blind_record": {
+    "schema_version": "antonym_axis_blind_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "1668f193d23088ced53f1c8828fcef108cde97073b2eda3e14f74741e9d73a51",
+    "blind_request_sha256": "2f534222f4f8f2ecb687935302cf6962f5fad9acf355f85d91a592fc44e5f9cf",
+    "recorded_at": "2026-09-24T15:44:15.822656+00:00",
+    "reviewer": {
+      "mode": "handoff",
+      "agent_id": "/root/r25_frame_relation",
+      "declared_model": "GPT-6",
+      "ingested_by": "orchestrator",
+      "source_response": {
+        "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-25/responses/source_responses/1315668419f27711076478019847848ebf80b1c32bbc879320dd7152e144a72e.json",
+        "sha256": "1315668419f27711076478019847848ebf80b1c32bbc879320dd7152e144a72e"
+      }
+    },
+    "axes": []
+  },
+  "antonym_axis_adjudication_record": {
+    "schema_version": "antonym_axis_adjudication_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "1668f193d23088ced53f1c8828fcef108cde97073b2eda3e14f74741e9d73a51",
+    "stage2_request_sha256": "9b3984387db73a8adee11082ea7da3af1f8c8fb9d91abb6c0031d35f84713910",
+    "blind_record_sha256": "4db5aa9e2c0f1a3c21736cdcaa3fd37b14ea69a2b1f68b82425b1fc14d9a59a1",
+    "reviewer": {
+      "mode": "handoff",
+      "agent_id": "/root/r25_frame_relation",
+      "declared_model": "GPT-6",
+      "ingested_by": "orchestrator",
+      "source_response": {
+        "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-25/responses/source_responses/2defe9f104c2123c6ed6a0ca1fac28f5325f3de5cc5b911d5633b330218816d1.json",
+        "sha256": "2defe9f104c2123c6ed6a0ca1fac28f5325f3de5cc5b911d5633b330218816d1"
+      }
+    },
+    "adjudications": [],
+    "frame_findings": [],
+    "unrouted_observations": []
+  },
+  "aligned_at": "2026-09-24T15:52:51.237641+00:00",
+  "findings": [],
+  "unrouted_observations": [],
+  "schema_version": "check_pass_result_v6",
+  "status": "pass"
+}

@@ -2478,7 +2478,7 @@ def validate_manifest(
     schema_version = manifest.get("schema_version")
     if schema_version == "compact_audit_v1":
         from compact_workflow import validate_audit
-        if manifest.get("entry_path") != str(entry_path.resolve().relative_to(repo_root.resolve())):
+        if manifest.get("entry_path") != entry_path.resolve().relative_to(repo_root.resolve()).as_posix():
             return ["compact audit refers to another entry"]
         return validate_audit(audit_path, root=repo_root)
     if schema_version == DERIVED_AUDIT_SCHEMA_VERSION:

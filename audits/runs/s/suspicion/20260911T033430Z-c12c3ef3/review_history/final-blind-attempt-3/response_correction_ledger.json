@@ -1,0 +1,21 @@
+{
+  "schema_version": "review_response_correction_ledger_v1",
+  "stage": "final_blind",
+  "attempt": 3,
+  "input_body_sha256": "d5fed3eeb1ca0acb9286fc85407b81982758943d11ecf86c3e1bf1c18bdd4978",
+  "corrections": [
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/review_history/final-blind-attempt-3/response.raw.json",
+      "sha256": "e685df07300e0d6a72822f52522bff24ad107d7307c5da0fc5c0b66f93e393bd",
+      "disposition": "contract_invalid",
+      "detail": "The finding used taxonomy_id sense_boundary and severity major; both values were outside the accepted content-taxonomy and severity enums."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/review_history/final-blind-attempt-3/response.contract_corrected.raw.json",
+      "sha256": "bb026461cca8fb61df7abbc3b15da194d15509b2d23a26ed740d9ff973bdb999",
+      "disposition": "accepted",
+      "detail": "The same reviewer changed only taxonomy_id to sense_boundary_overlap and severity to blocking. Finding ID, rationale, location, anchors, all candidates, and the provisional decision were preserved."
+    }
+  ],
+  "recorded_at": "2026-09-24T16:34:16.318148+00:00"
+}

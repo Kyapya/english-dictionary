@@ -1,0 +1,37 @@
+{
+  "schema_version": "workflow_revision_v1",
+  "before_body_sha256": "dc7b3fae757b389c842c835ca0f579ce6bd47ea174d3aee6ec5ef0626b92dd92",
+  "after_body_sha256": "532d94350bb2df4c2b61bd6f767ac9a34717307c9de2c1245a6a8a8a8c0fb5c9",
+  "changed_units": [
+    "collocations_examples",
+    "frames",
+    "frequency_register"
+  ],
+  "full_recheck": true,
+  "fallback_reasons": [
+    "unclassified_change"
+  ],
+  "invalidated_passes": [
+    "evidence",
+    "example-attribution",
+    "frame-relation",
+    "pronunciation",
+    "qualification",
+    "sense-structure",
+    "translation"
+  ],
+  "reusable_passes": [],
+  "semantic_invalidated_passes": [
+    "evidence",
+    "example-attribution",
+    "frame-relation",
+    "pronunciation",
+    "qualification",
+    "sense-structure",
+    "translation"
+  ],
+  "request_binding_expansion": {
+    "passes": [],
+    "reason": "Exact normalized checker input changed after article line anchors shifted; fresh bound responses are required."
+  }
+}

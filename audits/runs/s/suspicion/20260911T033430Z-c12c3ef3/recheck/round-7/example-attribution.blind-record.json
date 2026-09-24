@@ -1,0 +1,116 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "stage": 1,
+  "recorded_at": "2026-09-23T12:38:53Z",
+  "request_sha256": "26c96b106d520d6effdc7ee70ec6553d7ee04391dd6c4fd4716467bee42f7bab",
+  "input_body_sha256": "9536e71772fcbec66a5cb22ac6155df52ed1a3d9a157408b5bb7993289585853",
+  "specification_sha256": "e0bbb032bc0c50bf9bef5ff8f7854188287e635c58e599479891e11e3343a017",
+  "reviewer": {
+    "agent_id": "/root/round7_example_attribution",
+    "declared_model": "GPT-6",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "judgments": [
+    {
+      "example_id": "ex-bed0175dd518",
+      "example": "I had a suspicion that the meeting had been canceled.",
+      "decision": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "best_sense_id": "sense:001",
+      "next_candidate_present": false,
+      "next_candidate_sense_id": null,
+      "discriminating_terms": ["that the meeting had been canceled"],
+      "rationale": "The that-clause supplies a proposition the speaker considers possibly true, which fits sense:001. Sense:002 would describe distrust or wariness toward a target; the sentence instead states the suspected proposition directly and presents no such target."
+    },
+    {
+      "example_id": "ex-12fe7a226444",
+      "example": "The abrupt policy reversal aroused suspicions among residents, who no longer trusted the officials' explanation.",
+      "decision": "ambiguous",
+      "candidate_sense_ids": ["sense:002", "sense:001"],
+      "best_sense_id": "sense:002",
+      "next_candidate_present": true,
+      "next_candidate_sense_id": "sense:001",
+      "discriminating_terms": [],
+      "rationale": "The clause that the residents no longer trusted the officials' explanation supports sense:002, a wary or distrustful attitude. Sense:001 is also natural: the reversal could have led them to suspect that something was wrong or that the explanation was false. The noun has no expressed proposition or direct target, and the surrounding clause does not make the headword's sense uniquely recoverable."
+    },
+    {
+      "example_id": "ex-54f27fae5b09",
+      "example": "Residents regarded the sudden policy change with suspicion.",
+      "decision": "unique",
+      "candidate_sense_ids": ["sense:002"],
+      "best_sense_id": "sense:002",
+      "next_candidate_present": false,
+      "next_candidate_sense_id": null,
+      "discriminating_terms": ["regarded the sudden policy change with suspicion"],
+      "rationale": "The regard-X-with-suspicion frame presents the policy change itself as the target of a wary, distrustful attitude, which fits sense:002. Sense:001 would express a suspected proposition about what is true; no proposition is supplied, while the change is directly framed as what residents view with suspicion."
+    },
+    {
+      "example_id": "ex-67e5e995d7f9",
+      "example": "The contractor remained under suspicion while investigators checked whether it had falsified invoices.",
+      "decision": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "best_sense_id": "sense:001",
+      "next_candidate_present": false,
+      "next_candidate_sense_id": null,
+      "discriminating_terms": ["remained under suspicion", "checked whether it had falsified invoices"],
+      "rationale": "Under suspicion describes the contractor as potentially responsible for an act, and the whether-clause states the proposition investigators are checking. That fits sense:001. Sense:002 could describe distrust of the contractor, but the construction and explicit test of whether it falsified invoices frame a suspected fact or allegation rather than a general wary attitude."
+    },
+    {
+      "example_id": "ex-e688c0bc4313",
+      "example": "Two people were arrested on suspicion of fraud after the investigation.",
+      "decision": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "best_sense_id": "sense:001",
+      "next_candidate_present": false,
+      "next_candidate_sense_id": null,
+      "discriminating_terms": ["arrested on suspicion of fraud"],
+      "rationale": "The on-suspicion-of construction gives the provisional allegation or suspected fact that served as the basis for arrest, fitting sense:001. Sense:002 is an attitude of distrust or caution toward a target and does not fit this charge-like construction."
+    },
+    {
+      "example_id": "ex-7ca4d85e8578",
+      "example": "There was a suspicion of a smile in her reply.",
+      "decision": "unique",
+      "candidate_sense_ids": ["sense:003"],
+      "best_sense_id": "sense:003",
+      "next_candidate_present": false,
+      "next_candidate_sense_id": null,
+      "discriminating_terms": ["a suspicion of a smile"],
+      "rationale": "Here suspicion of a smile means a barely perceptible trace of a smile, fitting sense:003. Sense:001 would be a belief that a smile might have occurred; the construction describes a faint quality perceptible in a reply, not a proposition someone suspects to be true."
+    },
+    {
+      "example_id": "ex-1170d736dd30",
+      "example": "The old tale had a suspicion of truth in it.",
+      "decision": "unique",
+      "candidate_sense_ids": ["sense:003"],
+      "best_sense_id": "sense:003",
+      "next_candidate_present": false,
+      "next_candidate_sense_id": null,
+      "discriminating_terms": ["a suspicion of truth in it"],
+      "rationale": "The tale is described as containing a slight trace or degree of truth, the sense:003 pattern a suspicion of X. Sense:001 could be a person's hypothesis that the tale is true, but there is no person or proposition-taking frame; the tale itself has the quality in it."
+    },
+    {
+      "example_id": "ex-1e92306444c9",
+      "example": "The unexplained gap in the records raised some suspicion among auditors.",
+      "decision": "ambiguous",
+      "candidate_sense_ids": ["sense:001", "sense:002"],
+      "best_sense_id": "sense:001",
+      "next_candidate_present": true,
+      "next_candidate_sense_id": "sense:002",
+      "discriminating_terms": [],
+      "rationale": "The gap could prompt auditors to suspect that something irregular happened, fitting sense:001. The same wording can describe auditors becoming wary of the records or their source, fitting sense:002. Raised suspicion among X supplies no proposition or explicit target of distrust, so the sentence does not distinguish these readings."
+    },
+    {
+      "example_id": "ex-62cf13bca5f5",
+      "example": "The manager had a suspicion that the cashier had altered the sales records.",
+      "decision": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "best_sense_id": "sense:001",
+      "next_candidate_present": false,
+      "next_candidate_sense_id": null,
+      "discriminating_terms": ["that the cashier had altered the sales records"],
+      "rationale": "The that-clause states the proposition the manager considers possibly true, which is sense:001. Sense:002 would focus on a distrustful attitude toward the cashier; the construction instead gives the suspected fact as the complement of suspicion."
+    }
+  ]
+}

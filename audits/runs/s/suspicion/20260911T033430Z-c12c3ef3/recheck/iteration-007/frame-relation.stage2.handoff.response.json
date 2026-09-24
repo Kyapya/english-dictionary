@@ -1,0 +1,23 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "52ed2e28e41104b4cacc7cb2aaa7353f83b2f61363134760198a80205511d12f",
+  "stage2_request_sha256": "df58735a52cfdf707853b2ff26b6690d572ff38b0301d08fe1682ce32ae5a96e",
+  "blind_record_sha256": "b35422475c08c6c8e680589c6535b89df882d7e8f28f883441abe779468ff14b",
+  "reviewer": {
+    "agent_id": "/root/suspicion_frame_recheck_7",
+    "declared_model": "GPT-6",
+    "mode": "handoff"
+  },
+  "adjudications": [
+    {
+      "item_id": "ant-b607f3044e32",
+      "flags": [],
+      "rationale": "段階1の「信頼」軸と「程度」型を維持する。語義2の定義は信用しない態度、反意語定義は信頼して頼れると考えることを述べており、信頼軸は当該語義から導出できる。信頼と不信の程度差として成立し、違い行も両語を信頼軸の反対側として説明しているため、F2〜F4には該当しない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    }
+  ],
+  "frame_findings": [],
+  "unrouted_observations": []
+}

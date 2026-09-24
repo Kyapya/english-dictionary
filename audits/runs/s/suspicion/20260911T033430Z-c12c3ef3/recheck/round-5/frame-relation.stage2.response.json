@@ -1,0 +1,30 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "0624a39cf913ee88d57951e47767a805d75ce78d1509b037150f5049d141c975",
+  "stage2_request_sha256": "e2c64354fe28d15fa9d612384950817de4cc555b4b40fbfd76c54f054c75a174",
+  "blind_record_sha256": "7b155676d66861ce3c0db626f5972a1ef81fc95b4731755c0f2fddfb97470434",
+  "reviewer": {
+    "agent_id": "/root/round5_frame_relation",
+    "declared_model": "GPT-6",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "adjudications": [],
+  "frame_findings": [
+    {
+      "taxonomy_id": "lexical_relation_mislabel",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 65,
+        "line_end": 68,
+        "exact_quote": "・mistrust  \n定義: 人や説明などを十分に信用しないこと。  \n頻度: 〈7/10〉  \n違い: mistrust は信頼の欠如を直接表す。suspicion のこの語義は、人が犯罪・不正をした可能性へ疑いを向けることを表す。  "
+      },
+      "severity": "minor",
+      "rationale": "この項目は犯罪・不正をした可能性への疑いを表す語義1に置かれているが、mistrust の定義は信頼の欠如一般であり、違い行も犯罪・不正の可能性を疑う意味と信頼欠如を区別している。語義1の中心義との重なりが十分でないため、類義語としては誤配置。",
+      "evidence_link_ids": [],
+      "suggested_direction": "削除、または不信・警戒を表す語義3の類義語欄へ移動"
+    }
+  ],
+  "unrouted_observations": []
+}

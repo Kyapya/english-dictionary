@@ -1,0 +1,42 @@
+{
+  "schema_version": "workflow_revision_v1",
+  "before_body_sha256": "f0ae54c4d407ab7c669d3cfdb9334d176f780d8bcf4ab662c289c3ea09fbc70a",
+  "after_body_sha256": "f0ae54c4d407ab7c669d3cfdb9334d176f780d8bcf4ab662c289c3ea09fbc70a",
+  "changed_units": [],
+  "changed_facets": [],
+  "full_recheck": true,
+  "fallback_reasons": [
+    "source_artifact_changed"
+  ],
+  "invalidated_passes": [
+    "translation",
+    "sense-structure",
+    "frame-relation",
+    "example-attribution",
+    "qualification",
+    "pronunciation",
+    "evidence"
+  ],
+  "reusable_passes": [],
+  "round": 16,
+  "source_inventory_sha256": "272ebe2ec2adebcc3950c95b116af94e1d9a7b8e0a8c5315fbc430a508f504f4",
+  "source_artifact_sha256": "7927e6a0a802e17023402735bd4779b3fc18f1a41b9642fabde3f33acef9a07d",
+  "input_body_sha256": "f0ae54c4d407ab7c669d3cfdb9334d176f780d8bcf4ab662c289c3ea09fbc70a",
+  "request_paths": {
+    "translation": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-16/requests/translation.request.json",
+    "sense-structure": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-16/requests/sense-structure.request.json",
+    "frame-relation": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-16/requests/frame-relation.request.json",
+    "example-attribution": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-16/requests/example-attribution.request.json",
+    "qualification": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-16/requests/qualification.request.json",
+    "pronunciation": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-16/requests/pronunciation.request.json",
+    "evidence": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-16/requests/evidence.request.json"
+  },
+  "prior_round_findings_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-15/findings_and_actions.json",
+  "prior_round_findings_sha256": "0a2e3c8c8ba9cdbbe619dac578d59bc28ff4b1feb437bc75747e43f44b9fc268",
+  "source_inventory_attempt_revision_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/source_inventory_attempt_revision.json",
+  "source_inventory_attempt_revision_sha256": "b7a40a3848f01f02e35d1ec10fe6c698f14e6f8d92d1b9597f6720f41f4c47c9",
+  "post_cold_rechecks_used": 3,
+  "final_attempts_used": 1,
+  "recorded_at": "2026-09-24T12:02:01.105634Z",
+  "invalidation_reason": "The final-attempt and post-cold recheck counters were fixed before request generation; every pass binds the updated source-first artifact hash, so all seven passes are rechecked."
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": "evidence_review_response_v1",
+  "pass_id": "evidence",
+  "request_sha256": "e5e13ef5a4c4d1e577f62fd0d8c474695f198370f163522c1787d7d263096687",
+  "input_body_sha256": "6a13722cf09cc60650cfded174c51733484f8ab84742505a5973248f7a96d7d4",
+  "normalized_input_sha256": "a82845ba9caca3feef63cd40c625e78ff7042155067f36c6851ae5e12e447aa5",
+  "reviewer_metadata": {
+    "mode": "handoff",
+    "ingested_by": "human",
+    "agent_id": "/root/suspicion_evidence_review",
+    "declared_model": "GPT-6"
+  },
+  "self_attestation": {
+    "independent_review": true,
+    "canonical_request_sha256_verified": "e5e13ef5a4c4d1e577f62fd0d8c474695f198370f163522c1787d7d263096687",
+    "request_body_hash_matches_current_mapping": true,
+    "revision_target_mapping_sha256": "36e9c1402be4d6332e38ed4f2b385cc4066bd95619b725d32a4440a34e8c6586",
+    "opened_source_locators": [
+      "https://ahdictionary.com/word/search.html?q=suspicion",
+      "https://www.etymonline.com/word/suspicion",
+      "https://www.merriam-webster.com/dictionary/suspicion",
+      "https://www.merseyside.police.uk/news/merseyside/news/2026/june-2026/man-arrested-on-suspicion-of-breach-of-the-peace-on-county-road/",
+      "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion"
+    ]
+  },
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 88,
+        "line_end": 88,
+        "exact_quote": "regard/view/treat 〈person/claim/proposal/action/decision〉 with suspicion＝〈人・主張・提案・行為・決定〉を疑いの目で見る"
+      },
+      "severity": "blocking",
+      "rationale": "The bound sources support regard/view/look with suspicion (Oxford sense 3 examples at lines 211 and 215; Merriam-Webster example at line 116; American Heritage at line 40), but none of the opened locators demonstrates treat ... with suspicion. The cited examples support the article's viewed example, not the full three-verb frame.",
+      "evidence_link_ids": [
+        "u_distrust"
+      ],
+      "suggested_direction": "Remove treat from the frame or add a bound source that directly documents it."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 97,
+        "line_end": 100,
+        "exact_quote": "・be met with suspicion\n用途: 提案・説明・新制度などが、周囲から信用されずに受け止められる。\n例: The new monitoring system was initially met with suspicion by employees.\n訳: 新しい監視システムは当初、従業員から疑いをもって受け止められた。"
+      },
+      "severity": "blocking",
+      "rationale": "The bound sources support related wording such as Oxford's “Their offer was greeted with some suspicion” (sense 3, line 210) and regard/view with suspicion, but none documents be met with suspicion or this collocation example. The nearby equivalent does not directly verify the complete frame required by this target, whose evidence policy is two_sources_or_primary.",
+      "evidence_link_ids": [
+        "u_distrust"
+      ],
+      "suggested_direction": "Use a directly documented frame such as greeted with suspicion, or add direct support for be met with suspicion."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 107,
+        "line_end": 110,
+        "exact_quote": "・widespread suspicion\n用途: 多くの人に不信が共有されていることを表す。\n例: Committee members did not trust the new selection process and viewed it with widespread suspicion.\n訳: 委員会のメンバーは新しい選考過程を信用せず、その過程への不信を広く共有していた。"
+      },
+      "severity": "blocking",
+      "rationale": "Oxford's collocation list explicitly includes deep suspicion (lines 218–222) but does not document widespread suspicion; its ellipsis does not identify that adjective. The Merriam-Webster and American Heritage locators support the distrust sense but do not verify this adjective+noun collocation or the article's example.",
+      "evidence_link_ids": [
+        "u_distrust"
+      ],
+      "suggested_direction": "Remove widespread or provide a bound source that directly shows widespread suspicion."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 88,
+        "line_end": 88,
+        "exact_quote": "without suspicion＝疑わずに。"
+      },
+      "severity": "blocking",
+      "rationale": "The opened sources define suspicion as distrust/lack of confidence and document positive frames such as regard/view with suspicion, but none supplies without suspicion or supports the target gloss “without doubting.” The sense definition alone does not verify this specific prepositional frame.",
+      "evidence_link_ids": [
+        "u_distrust"
+      ],
+      "suggested_direction": "Remove the frame or add a bound source documenting its form and meaning."
+    }
+  ]
+}

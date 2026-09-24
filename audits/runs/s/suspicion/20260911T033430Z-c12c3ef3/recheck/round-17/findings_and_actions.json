@@ -1,0 +1,128 @@
+{
+  "schema_version": "checker_recheck_actions_v1",
+  "round": 17,
+  "input_body_sha256": "8febacafb97a88eea7736ca28cadd2b6af2be331a29afa82589daccb7372d31f",
+  "source_inventory_sha256": "0748471037223a745ed90b3413393af30281fa1c587ef98fc3c7d8358102b2b3",
+  "source_artifact_sha256": "eba79a227ae9f1ad73e5e9936468342a0346d6f411cb9a1da35f42c3dcdcc863",
+  "findings": [
+    {
+      "id": "r17-sense-structure-001",
+      "pass_id": "sense-structure",
+      "taxonomy_id": "sense_boundary_overlap",
+      "severity": "blocking",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 138,
+        "line_end": 138,
+        "exact_quote": "【日本語訳・定義】十分な証拠はないが、ある事実や状況が本当なのではないかと感じる推測・予感に焦点がある。a suspicion that ... の that 節が犯罪・不正を述べる場合は、語義1の「犯罪・不正の容疑」と重なることもある。この用法では個々の考えを表す可算形が典型。可算・不可算は意味だけで一律に決まらず、構文にも左右される。"
+      },
+      "rationale": "語義3の代表構文 a suspicion that ... が犯罪・不正を内容とすると語義1と重なると明記されており、同じ用例を両語義に割り当て得るため境界が一意でない。語義1は人・行為を容疑対象とする用法、語義3は命題の真偽を推測する用法という説明だけでは、この重複するthat節をどちらに置くか決まらず、コアイメージの枝も一意に対応しない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "犯罪・不正を内容とする that 節を語義1か語義3のどちらかへ一意に割り当てる判定基準を設け、必要ならその用法を統合または移動して、コアイメージと語法注記も同じ境界にそろえる。",
+      "raw_response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-17/responses/sense-structure.response.raw.json",
+      "raw_response_sha256": "95ef07565fc401a6c9c6b9791c8baa20ebe872ce505568a6e8f7866de1114d2d",
+      "action": "adopted",
+      "resolution": "Set a single article-level assignment rule for wrongdoing propositions and align Sense 1, Sense 3, the core image, usage note, and affected example with that rule."
+    },
+    {
+      "id": "r17-example-attribution-001",
+      "pass_id": "example-attribution",
+      "taxonomy_id": "example_sense_attribution_mismatch",
+      "severity": "blocking",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 77,
+        "line_end": 77,
+        "exact_quote": "例: The security footage confirmed the manager's suspicions that a guard had taken the missing laptops.  "
+      },
+      "rationale": "段階1でsense:001, sense:003が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "判別語の追加",
+      "raw_response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-17/responses/example-attribution.response.liveness_corrected.raw.json",
+      "raw_response_sha256": "e7388034f3b3383f127fdd9c46669d2290462d4299ae061c86db2646e49407ec",
+      "action": "adopted",
+      "resolution": "Clarify the article-level Sense 1/Sense 3 boundary and revise the example wording to make the suspected theft explicit; recheck the updated definition and example assignment.",
+      "source_record_attribution_rationale": "The complete example sentence is \"The security footage confirmed the manager's suspicions that a guard had taken the missing laptops.\" Both readings remain natural: suspicion of a guard taking missing property is sense:001, while a hunch that this proposition is true is sense:003. The wording supplies no discriminator between the wrongful-act suspicion and the proposition-focused hunch."
+    },
+    {
+      "id": "r17-evidence-001",
+      "pass_id": "evidence",
+      "taxonomy_id": "evidence_claim_mismatch",
+      "severity": "blocking",
+      "location": {
+        "section": "word_formation",
+        "line_start": 13,
+        "line_end": 13,
+        "exact_quote": "なお、動詞 suspicion は Merriam-Webster では主に方言的、American Heritage では口語的な用法として記載されるが、本記事ではその動詞用法を扱わず、名詞用法のみを説明する。"
+      },
+      "rationale": "The mapped claim unit claim_rare_verb characterizes the verb suspicion as “rare,” but this article target states only that Merriam-Webster labels the verb chiefly dialectal, American Heritage labels it informal, and the article does not cover the verb. The opened Merriam-Webster entry verifies “chiefly dialectal” (verb lines 61–69), and American Heritage verifies “Informal” (entry lines 40–42). The third linked fact ety_verb only records a 19th-century U.S. Western slang use (Etymonline entry lines 52–55); that historical attestation does not directly establish contemporary rarity, which is not stated in the target. Do not use ety_verb or the unsubstantiated “rare” characterization as evidence for this target; keep the claim scoped to the two dictionary register labels, or supply direct evidence if rarity is intended.",
+      "evidence_link_ids": [
+        "ety_verb"
+      ],
+      "suggested_direction": "hold; remove the unsupported “rare” characterization and keep this claim limited to the Merriam-Webster and American Heritage labels stated in the article",
+      "raw_response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-17/responses/evidence.response.corrected.raw.json",
+      "raw_response_sha256": "42273b3c8df6ee57a839386707636a7e62aabe0a9941e6dcd12b2394bebfbb0c",
+      "action": "adopted",
+      "resolution": "Correct the source-first claim mapping: remove the unsupported “rare” characterization, support the article’s stated MW/AHD register labels only, and mark Etymonline’s historical verb attestation as excluded from the article claim."
+    }
+  ],
+  "review_response_corrections": [
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-17/responses/evidence.response.raw.json",
+      "sha256": "176149248a1c453f4e68fd3e81e1de6bb2453966d864b559d9cf4a1d2f6959cf",
+      "disposition": "invalid_handoff_context",
+      "detail": "The response checked stale tracked entries/s/suspicion.md instead of packet article_targets; it was retained and replaced by an independent request-bound external-source review."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-17/responses/example-attribution.response.raw.json",
+      "sha256": "b524f9bd0b04711aa9116afdefbfcaac11f3255d7cbe5da33a404b117f21035c",
+      "disposition": "contract_invalid",
+      "detail": "Initial response did not use the required attributions list contract."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-17/responses/example-attribution.response.contract_corrected.raw.json",
+      "sha256": "e116bc2b44569a240a95e7be6880437154877018d145c4edf40ef33ba7be3d33",
+      "disposition": "liveness_invalid",
+      "detail": "Contract correction still failed rationale grounding/distinctness checks; retained unchanged."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-17/responses/example-attribution.response.grounded.raw.json",
+      "sha256": "15092e1ae81f1d279448422f683bd61c95ca2ea185c35d17d7bd0e975a2d8c89",
+      "disposition": "liveness_invalid",
+      "detail": "Further response still failed grounding for the ambiguous item; retained unchanged."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-17/responses/example-attribution.response.final.raw.json",
+      "sha256": "83c3041d4967635967b0fda2731cf15f04c248e5c37c8ac9c9e3edac909ef5b9",
+      "disposition": "liveness_invalid",
+      "detail": "Attempted rationale quoted only a partial phrase and did not pass exact quote grounding; retained unchanged."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-17/responses/frame-relation.stage1.response.raw.json",
+      "sha256": "89bd83f6ba9b13c942e21e40404557c57c643be37679e6a2c8a3d7c24c6c76a4",
+      "disposition": "derived_provenance_binding",
+      "detail": "Raw stage-1 response had a mismatched blind_request_sha256; orchestrator-derived sealed record binds the exact saved request while preserving reviewer-authored axes unchanged."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-17/responses/frame-relation.stage2.response.raw.json",
+      "sha256": "062cd93a89f3061a606be585d75fbf3b82d3ba7ae893faddbfdc360825a5a9fa",
+      "disposition": "derived_provenance_binding",
+      "detail": "Raw stage-2 response had a mismatched stage2_request_sha256; orchestrator-derived record binds the exact saved request and sealed stage-1 record while preserving reviewer-authored adjudications/findings unchanged."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-17/responses/example-attribution.response.liveness_corrected.raw.json",
+      "sha256": "e7388034f3b3383f127fdd9c46669d2290462d4299ae061c86db2646e49407ec",
+      "disposition": "accepted",
+      "detail": "Same independent reviewer supplied full exact-sentence grounding; all liveness and request-binding checks pass."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-17/responses/evidence.response.corrected.raw.json",
+      "sha256": "42273b3c8df6ee57a839386707636a7e62aabe0a9941e6dcd12b2394bebfbb0c",
+      "disposition": "accepted",
+      "detail": "Same independent reviewer used the exact packet article_targets, opened all six source locators, and returned one source-mapping finding; output validates."
+    }
+  ],
+  "round_16_findings_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-16/findings_and_actions.json",
+  "round_16_findings_sha256": "4a8b52ed73d6d58baf3c9316320d0d08ebb563e679374bab5335552ab24f0225",
+  "recorded_at": "2026-09-24T12:43:10.246024Z"
+}

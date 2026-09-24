@@ -1,0 +1,207 @@
+{
+  "reviewer": {
+    "mode": "handoff",
+    "agent_id": "/root/suspicion_final_blind3",
+    "declared_model": "gpt-6-astra"
+  },
+  "provisional_decision": "reject",
+  "independent_candidates": [
+    {
+      "id": "C1",
+      "surface_form": "suspicion",
+      "frame": "noun: suspicion that a particular person committed a crime or other wrongdoing; suspicion of a crime or wrongdoing",
+      "meaning": "疑われている人の犯罪・不正行為に向けられた容疑・疑い",
+      "disposition": "included",
+      "rationale": "suspicion that a named person committed wrongdoing has the person as the suspected agent and the alleged act as the focus; the article includes this accusation-centered frame under sense 1.",
+      "semantic_assertions": [
+        {
+          "id": "C1-A1",
+          "statement": "The suspected person's alleged crime or wrongdoing is central; this frame does not merely express an unparticularized guess about a proposition.",
+          "polarity": "must_hold",
+          "scope": "suspicions that a person committed a crime or wrongdoing"
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "surface_form": "suspicion",
+      "frame": "on suspicion of + crime, especially as the stated ground for arrest",
+      "meaning": "犯罪の容疑を理由とする逮捕などの定型的な法執行表現",
+      "disposition": "included",
+      "rationale": "on suspicion of theft or fraud names the suspected offense as the ground for action, without asserting guilt; the article includes this fixed suspicion frame.",
+      "semantic_assertions": [
+        {
+          "id": "C2-A1",
+          "statement": "On suspicion of + crime identifies the suspicion as a ground for the action and does not state that the person was proved guilty.",
+          "polarity": "must_hold",
+          "scope": "the fixed construction on suspicion of + crime"
+        }
+      ]
+    },
+    {
+      "id": "C3",
+      "surface_form": "suspicion",
+      "frame": "be under suspicion; come or fall under suspicion",
+      "meaning": "人や組織が犯罪・不正の疑いを受けている状態、またはその状態になること",
+      "disposition": "included",
+      "rationale": "under suspicion presents the person or organization as the target of an accusation-centered state; the article includes this frame under sense 1.",
+      "semantic_assertions": [
+        {
+          "id": "C3-A1",
+          "statement": "The person or organization is the target of suspicion concerning possible wrongdoing.",
+          "polarity": "must_hold",
+          "scope": "be under suspicion and come/fall under suspicion"
+        }
+      ]
+    },
+    {
+      "id": "C4",
+      "surface_form": "suspicion",
+      "frame": "arouse suspicion that a person committed a crime or wrongdoing",
+      "meaning": "人が犯罪・不正をしたとの疑いを生じさせる",
+      "disposition": "included",
+      "rationale": "arouse suspicion that a person committed fraud makes the person's suspected act the content of the suspicion; the article includes this causal frame under sense 1.",
+      "semantic_assertions": [
+        {
+          "id": "C4-A1",
+          "statement": "The cause arouses suspicion about a particular person's possible wrongdoing, rather than simply prompting a neutral conjecture about an unrelated proposition.",
+          "polarity": "must_hold",
+          "scope": "arouse suspicion that a person committed wrongdoing"
+        }
+      ]
+    },
+    {
+      "id": "C5",
+      "surface_form": "suspicion",
+      "frame": "cast suspicion on a person or action",
+      "meaning": "人や行為に犯罪・不正の疑いを向ける",
+      "disposition": "included",
+      "rationale": "cast suspicion on explicitly directs suspicion toward a person or action suspected of wrongdoing; the article includes this direction-of-suspicion frame.",
+      "semantic_assertions": [
+        {
+          "id": "C5-A1",
+          "statement": "The person or action named after on is the target of suspicion of wrongdoing.",
+          "polarity": "must_hold",
+          "scope": "cast suspicion on + person or action"
+        }
+      ]
+    },
+    {
+      "id": "C6",
+      "surface_form": "suspicion",
+      "frame": "confirm suspicions that a particular person committed a crime or wrongdoing",
+      "meaning": "人が犯罪・不正をしたという、それまでの容疑を裏付ける",
+      "disposition": "included",
+      "rationale": "confirm suspicions that a person committed wrongdoing supports an accusation about that person; the article includes this specifically person-centered frame under sense 1.",
+      "semantic_assertions": [
+        {
+          "id": "C6-A1",
+          "statement": "The evidence supports a suspicion directed at a particular person for a particular possible wrongful act.",
+          "polarity": "must_hold",
+          "scope": "confirm suspicions that a person committed wrongdoing"
+        }
+      ]
+    },
+    {
+      "id": "C7",
+      "surface_form": "suspicion",
+      "frame": "regard or view a person, claim, proposal, action, or decision with suspicion; be greeted with suspicion",
+      "meaning": "特定の犯罪容疑に限らず、人・情報・提案などを信用せず警戒して見る態度",
+      "disposition": "included",
+      "rationale": "with suspicion expresses distrust or wary reception toward a person or proposition without requiring an accusation of a specific crime; the article includes this distinct frame under sense 2.",
+      "semantic_assertions": [
+        {
+          "id": "C7-A1",
+          "statement": "The frame expresses distrust or wary lack of confidence and does not require that a particular person committed a crime or wrongdoing.",
+          "polarity": "must_hold",
+          "scope": "with suspicion and greeted with (some) suspicion"
+        }
+      ]
+    },
+    {
+      "id": "C8",
+      "surface_form": "suspicion",
+      "frame": "a/have a sneaking/strong suspicion that a proposition or situation may be true",
+      "meaning": "犯罪容疑を特定の人に向けることではなく、命題や状況全体の真偽を確証なく推測すること",
+      "disposition": "included",
+      "rationale": "a suspicion that the meeting will finish early and a suspicion that a battery is failing are proposition-centered conjectures; the article includes this distinct frame under sense 3.",
+      "semantic_assertions": [
+        {
+          "id": "C8-A1",
+          "statement": "The semantic focus is whether the proposition or situation may be true, rather than treating a particular person as the target of an accusation for wrongdoing.",
+          "polarity": "must_hold",
+          "scope": "a suspicion that + proposition; have a suspicion that + proposition"
+        }
+      ]
+    },
+    {
+      "id": "C9",
+      "surface_form": "suspicion",
+      "frame": "confirm a suspicion that a proposition or situation may be true",
+      "meaning": "命題や状況についての確証のない推測が、後の情報で裏付けられること",
+      "disposition": "included",
+      "rationale": "confirm a suspicion that the battery is failing is proposition-centered and belongs with sense 3; its frame needs that proposition scope to remain distinct from confirming an accusation about a person.",
+      "semantic_assertions": [
+        {
+          "id": "C9-A1",
+          "statement": "The suspicion being confirmed is a conjecture about a proposition or situation, not an accusation-centered suspicion about a named person's wrongdoing.",
+          "polarity": "must_hold",
+          "scope": "confirm a suspicion with proposition content"
+        }
+      ]
+    },
+    {
+      "id": "C10",
+      "surface_form": "suspicion",
+      "frame": "a suspicion of + a slight color, flavor, smell, or emotion; a suspicion of a smile",
+      "meaning": "感覚・感情・表情などがごくわずかに感じられること",
+      "disposition": "included",
+      "rationale": "a suspicion of blue, citrus, disappointment, or a smile denotes a barely perceptible amount or trace, not distrust or an accusation; the article includes this figurative frame under sense 4.",
+      "semantic_assertions": [
+        {
+          "id": "C10-A1",
+          "statement": "The construction denotes a slight perceptible presence of the following quality or expression, not suspicion about that quality or expression.",
+          "polarity": "must_hold",
+          "scope": "a suspicion of + sensory quality, emotion, or smile"
+        }
+      ]
+    },
+    {
+      "id": "C11",
+      "surface_form": "suspicion",
+      "frame": "rare dialectal or colloquial verb meaning to suspect",
+      "meaning": "疑う、容疑を持つという動詞用法",
+      "disposition": "excluded",
+      "rationale": "The article explicitly limits its explanation to the noun and leaves the rare verb suspicion outside its entry scope; that exclusion is appropriate for this noun article.",
+      "semantic_assertions": [
+        {
+          "id": "C11-A1",
+          "statement": "The verb use of suspicion is a separate part of speech and must not be presented as a noun sense.",
+          "polarity": "must_not_hold",
+          "scope": "the rare dialectal or colloquial verb suspicion"
+        }
+      ]
+    }
+  ],
+  "article_findings": [
+    {
+      "id": "F1",
+      "taxonomy_id": "sense_boundary",
+      "location": "意味・用法・関連表現 > 3 > 文法パターン",
+      "severity": "major",
+      "scope_anchors": [
+        {
+          "id": "F1-Q1",
+          "exact_quote": "confirm a suspicion＝推測を裏付ける。",
+          "location_hint": "語義3の文法パターン一覧の末尾"
+        },
+        {
+          "id": "F1-Q2",
+          "exact_quote": "節全体についての推測は語義3、特定の人へ行為の容疑を向ける用法は語義1として説明する。",
+          "location_hint": "語義3の語法・注意"
+        }
+      ],
+      "rationale": "The grammar pattern is given without a proposition complement or other boundary, while the article itself says “confirm a suspicion＝推測を裏付ける。” The same unqualified frame naturally covers confirmation of suspicion that a named person committed wrongdoing, which the article assigns to sense 1. Although the sense 3 example about a failing battery is correctly proposition-centered, the unrestricted pattern does not preserve the article's stated distinction that “節全体についての推測は語義3、特定の人へ行為の容疑を向ける用法は語義1として説明する。” Restrict this pattern to a suspicion about a proposition or split the person-centered confirmation frame into sense 1; as written it invites cross-sense classification."
+    }
+  ]
+}

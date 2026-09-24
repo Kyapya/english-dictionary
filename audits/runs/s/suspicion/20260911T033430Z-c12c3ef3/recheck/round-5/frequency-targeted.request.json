@@ -1,0 +1,28 @@
+{
+  "schema_version": "targeted_adjudication_request_v1",
+  "issue_id": "TARGETED-FREQUENCY-SCORE-SOURCING",
+  "question": "For the four sense ratings and five synonym ratings in scope, does the absence of numeric frequency data in the cited dictionaries constitute a blocking evidence mismatch under entry_spec_v5, which explicitly allows scores without a strict statistical basis when criteria are applied consistently and regional or archaic senses are not overstated? Is the article's current note sufficient to present these as editorial estimates, or does it need revision?",
+  "article_excerpt": "Sense 1: 【頻度】〈8/10〉. Its note says: 各語義の頻度スコアは、英語全体での遭遇頻度を entry_spec_v5 の10段階基準で評価した目安であり、厳密なコーパス集計値ではない。 Sense 2 has the same note. Sense 3 is 〈7/10〉 and sense 4 is 〈2/10〉 without that note. The five synonym ratings in scope are mistrust 7/10, doubt 8/10, distrust 8/10, hint 8/10, trace 8/10; they have no shared explanatory note.",
+  "judgments": [
+    {
+      "source": "entry_spec_v5",
+      "position": "頻度",
+      "judgment": "Scores assess English-wide encounter frequency on a 10-point scale; strict statistical evidence is not required if criteria are applied consistently and regional or archaic senses are not overstated."
+    },
+    {
+      "source": "round-5 evidence reviewer",
+      "position": "9 frequency ratings",
+      "judgment": "The cited Oxford and Merriam-Webster locators support relevant meanings and some synonym relationships but publish neither English-wide encounter-frequency figures nor these 10-point values, so they do not directly support the ratings."
+    }
+  ],
+  "source_material": [
+    {
+      "source": "prompts/entry_spec_v5.md, 頻度",
+      "excerpt": "英語全体での遭遇頻度を各語義、各類義語、各反意語について次の10段階で評価する。類義語・反意語の頻度は、直前の「定義」行が示す語義に限定した頻度とし、その語全体の頻度としない。多義語では、当該語義以外での使用を含めない。\n\n同一見出し語内の語義同士を相対比較して点数を付けない。\n地域・専門領域内だけの頻度ではなく、英語全体を基準にする。\n頻度スコアに厳密な統計的根拠がない場合も基準を一貫させ、地域限定義や古語を過大評価しない。"
+    },
+    {
+      "source": "round-5 evidence reviewer",
+      "excerpt": "Oxford and Merriam-Webster support definitions/examples and some synonym relationships, but do not state English-wide encounter frequency or the 10-point values."
+    }
+  ]
+}

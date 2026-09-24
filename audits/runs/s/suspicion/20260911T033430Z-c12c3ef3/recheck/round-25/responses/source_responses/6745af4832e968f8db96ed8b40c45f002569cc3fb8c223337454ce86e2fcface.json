@@ -1,0 +1,24 @@
+{
+  "pass_id": "translation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "GPT-6",
+    "ingested_by": "human",
+    "agent_id": "/root/r25_translation"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 196,
+        "line_end": 196,
+        "exact_quote": "訳: その壁は白かったが、夕方の光の中ではほんのり青みを帯びていた。  "
+      },
+      "severity": "minor",
+      "rationale": "英文は白い壁に夕方の光の中でごくわずかな青みが加わる様子を並列的に描写していますが、「白かったが」は逆接・対比を明示し、原文にない譲歩的な関係を加えています。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「その壁は白く、夕方の光の中ではほんのり青みを帯びていた」のように、逆接を加えず描写をつなぐ方向。"
+    }
+  ]
+}

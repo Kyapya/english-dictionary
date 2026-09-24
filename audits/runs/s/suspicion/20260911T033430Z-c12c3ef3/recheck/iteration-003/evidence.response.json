@@ -1,0 +1,27 @@
+{
+  "pass_id": "evidence",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "GPT-6",
+    "ingested_by": "human",
+    "agent_id": "/root/suspicion_evidence_recheck"
+  },
+  "request_sha256": "3e3b35d4fc943491e6df0e012ed1f1f1e657422cb1df0ef13e84a833d8b07665",
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 44,
+        "line_end": 44,
+        "exact_quote": "ここでいう suspicion は有罪が立証されたことを意味しない。"
+      },
+      "severity": "blocking",
+      "rationale": "iteration-003 request の source_inventory_sha256 / source_first_artifact_sha256 は固定された過去証拠として扱い、現行本文との結び付けは revision_target_mapping_sha256 e0fb338f20ef0096a08acd5d7a456741b66fb1b9dae9fa243daab2c0985fb159 で照合した（現行本文ハッシュは request の input_body_sha256 と一致）。対応する register:001 の claim_legal_boundary にリンクされた資料は Merriam-Webster のみである。locator https://www.merriam-webster.com/dictionary/suspicion の Legal Definition（表示行199–208、特に207）は、suspicion を通常 belief に至らず、proof または slight evidence がない状態と説明するが、「有罪が立証されていない」という法的結論は明記しない。Oxford の arrest 用例（表示行115–120）と Merseyside Police の逮捕・取調べ発表（表示行54–62）は arrested on suspicion of の用例を支えるが、当該 register claim に結び付けられず、この法的結論を直接述べる独立資料・一次資料にもならない。したがって、この target の two_sources_or_primary 根拠条件を満たさない。",
+      "evidence_link_ids": [
+        "register:001"
+      ],
+      "suggested_direction": "この法的結論を直接支える独立した資料または当該主張に適用できる一次資料を register:001 に結び付ける。追加根拠が得られない場合は、確認済みの Merriam-Webster の説明範囲に限定して記述する。"
+    }
+  ]
+}

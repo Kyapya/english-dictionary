@@ -1,0 +1,35 @@
+{
+  "schema_version": "workflow_revision_v1",
+  "before_body_sha256": "82f343438dd0057f0cc4edd16ece26ba75380521e8c02dfb806b6da7eb43d3f8",
+  "after_body_sha256": "8508fef1bf79309ca9c904c1a5b901698298454c0b9cddf6fe1227383f20bc7c",
+  "changed_units": [
+    "collocations_examples",
+    "core_image",
+    "etymology",
+    "frames",
+    "frequency_register",
+    "lexical_relations",
+    "pronunciation",
+    "sense_structure",
+    "usage_notes",
+    "word_formation"
+  ],
+  "changed_facets": [],
+  "full_recheck": true,
+  "fallback_reasons": [
+    "unclassified_change",
+    "sense_or_part_of_speech_topology_changed",
+    "post_cold_revision_requires_full_recheck"
+  ],
+  "invalidated_passes": [
+    "translation",
+    "sense-structure",
+    "frame-relation",
+    "example-attribution",
+    "qualification",
+    "pronunciation",
+    "evidence"
+  ],
+  "reusable_passes": [],
+  "post_cold_rechecks_used": 1
+}

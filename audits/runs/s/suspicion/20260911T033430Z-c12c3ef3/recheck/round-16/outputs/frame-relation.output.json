@@ -1,0 +1,54 @@
+{
+  "pass_id": "frame-relation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "GPT-6",
+    "ingested_by": "orchestrator",
+    "agent_id": "/root/suspicion_r16_frame_relation",
+    "source_response": {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-16/responses/source_responses/b8cb4994a15ac670a1af10fb74a28ba23eeb78a72743a3f7955740ae3ecf17cd.json",
+      "sha256": "b8cb4994a15ac670a1af10fb74a28ba23eeb78a72743a3f7955740ae3ecf17cd"
+    }
+  },
+  "antonym_axis_blind_record": {
+    "schema_version": "antonym_axis_blind_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "f0ae54c4d407ab7c669d3cfdb9334d176f780d8bcf4ab662c289c3ea09fbc70a",
+    "blind_request_sha256": "f250d9d38266252d02eac5702a13d93fd55bb76d271b5d281ccbec9a25fed116",
+    "recorded_at": "2026-09-24T07:04:22-05:00",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "GPT-6",
+      "ingested_by": "orchestrator",
+      "agent_id": "/root/suspicion_r16_frame_relation",
+      "source_response": {
+        "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-16/responses/source_responses/1528c67bb9b1c37c9fe5730e94f6ea720dcaef5efb5b5209ff678a4670893340.json",
+        "sha256": "1528c67bb9b1c37c9fe5730e94f6ea720dcaef5efb5b5209ff678a4670893340"
+      }
+    },
+    "axes": []
+  },
+  "antonym_axis_adjudication_record": {
+    "schema_version": "antonym_axis_adjudication_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "f0ae54c4d407ab7c669d3cfdb9334d176f780d8bcf4ab662c289c3ea09fbc70a",
+    "stage2_request_sha256": "807409ebec024a4e80b723c866c77f6c241883de110e5b533a0444ebae963bcb",
+    "blind_record_sha256": "c6aa443553073cf7f7952862abdaf03582d27460f82ae086b2ba763b8b8f3b0c",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "GPT-6",
+      "ingested_by": "orchestrator",
+      "agent_id": "/root/suspicion_r16_frame_relation",
+      "source_response": {
+        "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-16/responses/source_responses/b8cb4994a15ac670a1af10fb74a28ba23eeb78a72743a3f7955740ae3ecf17cd.json",
+        "sha256": "b8cb4994a15ac670a1af10fb74a28ba23eeb78a72743a3f7955740ae3ecf17cd"
+      }
+    },
+    "adjudications": [],
+    "frame_findings": [],
+    "unrouted_observations": []
+  },
+  "aligned_at": "2026-09-24T12:17:17Z",
+  "findings": [],
+  "unrouted_observations": []
+}

@@ -1,0 +1,70 @@
+{
+  "pass_id": "frame-relation",
+  "reviewer": {
+    "agent_id": "/root/round6_frame_relation",
+    "declared_model": "GPT-6",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "antonym_axis_blind_record": {
+    "schema_version": "antonym_axis_blind_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "4ec3c2363dbe4f7fd8554c52c8c284ea6aa01e952f0cc1ade3a10c3f95e1bd86",
+    "blind_request_sha256": "c716c378f181f1caa7920bf65905f492de2b02e9446e63d8d47d1358df58952c",
+    "recorded_at": "2026-09-23T12:08:42Z",
+    "reviewer": {
+      "agent_id": "/root/round6_frame_relation",
+      "declared_model": "GPT-6",
+      "mode": "handoff",
+      "ingested_by": "human"
+    },
+    "axes": []
+  },
+  "antonym_axis_adjudication_record": {
+    "schema_version": "antonym_axis_adjudication_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "4ec3c2363dbe4f7fd8554c52c8c284ea6aa01e952f0cc1ade3a10c3f95e1bd86",
+    "stage2_request_sha256": "e5b9467823e5f19d8476ec64f2ca6a8622fe44e2ef22ce5adf5b8f0d468d2f0d",
+    "blind_record_sha256": "baa24fd67a19ec2e9d7a01405a79d0d0e861012bbb7aabc52b753dfaba327143",
+    "reviewer": {
+      "agent_id": "/root/round6_frame_relation",
+      "declared_model": "GPT-6",
+      "mode": "handoff",
+      "ingested_by": "human"
+    },
+    "adjudications": [],
+    "frame_findings": [
+      {
+        "taxonomy_id": "lexical_relation_mislabel",
+        "location": {
+          "section": "lexical_relations",
+          "line_start": 65,
+          "line_end": 65,
+          "exact_quote": "・mistrust"
+        },
+        "severity": "blocking",
+        "rationale": "Sense 1 is defined as considering that a person may have committed a crime or misconduct, while mistrust is defined as insufficient trust in a person or explanation. The entry’s own difference line distinguishes these meanings; they are related but do not sufficiently overlap in central meaning to be synonyms.",
+        "evidence_link_ids": [],
+        "suggested_direction": "削除"
+      }
+    ],
+    "unrouted_observations": []
+  },
+  "aligned_at": "2026-09-23T12:17:01.745073+00:00",
+  "findings": [
+    {
+      "taxonomy_id": "lexical_relation_mislabel",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 65,
+        "line_end": 65,
+        "exact_quote": "・mistrust"
+      },
+      "severity": "blocking",
+      "rationale": "Sense 1 is defined as considering that a person may have committed a crime or misconduct, while mistrust is defined as insufficient trust in a person or explanation. The entry’s own difference line distinguishes these meanings; they are related but do not sufficiently overlap in central meaning to be synonyms.",
+      "evidence_link_ids": [],
+      "suggested_direction": "削除"
+    }
+  ],
+  "unrouted_observations": []
+}

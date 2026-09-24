@@ -1,0 +1,90 @@
+{
+  "reviewer": {
+    "agent_id": "/root/round8_example_attribution",
+    "declared_model": "GPT-6 (exact variant not exposed in this agent context)",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "blind_attribution_record": {
+    "schema_version": "example_attribution_blind_record_v1",
+    "pass_id": "example-attribution",
+    "stage": 1,
+    "blind_request_sha256": "a7b2e89c3fb5a65da7859dfa6e79a027896157081e9028a10ec9cf7a287746cf",
+    "input_body_sha256": "e610984e4ee840d69032be28e4e55257a14bebd434e6d3f13ba11b959ecafa79",
+    "recorded_at": "2026-09-23T00:00:00Z",
+    "attributions": [
+      {
+        "example_id": "ex-d1003077d4ca",
+        "verdict": "unique",
+        "candidate_sense_ids": ["sense:001"],
+        "next_best_candidate_sense_id": "sense:002",
+        "discriminating_terms": ["a suspicion that the meeting had been canceled"],
+        "rationale": "The that-clause supplies a proposition whose truth is in question, matching the uncertain-belief sense. A plausible alternative is the distrust-attitude sense, but the sentence presents a belief about whether the meeting was canceled, rather than an attitude of distrust toward a person or thing."
+      },
+      {
+        "example_id": "ex-8f8c24206a80",
+        "verdict": "ambiguous",
+        "candidate_sense_ids": ["sense:001", "sense:002"],
+        "next_best_candidate_sense_id": "sense:002",
+        "discriminating_terms": ["raised some suspicion"],
+        "rationale": "The unexplained gap raises a possibility of wrongdoing or another doubtful state of affairs (sense:001), while 'some suspicion' can also describe growing distrust toward the records or the process (sense:002). The sentence does not state the suspected proposition or directly identify an object of distrust, so its wording does not distinguish the two readings."
+      },
+      {
+        "example_id": "ex-0b79f9cd833e",
+        "verdict": "unique",
+        "candidate_sense_ids": ["sense:001"],
+        "next_best_candidate_sense_id": "sense:002",
+        "discriminating_terms": ["a suspicion that the cashier had altered the sales records"],
+        "rationale": "The that-clause explicitly presents a proposition about whether records were altered, which is the uncertain-belief sense. The distrust-attitude sense is a plausible competitor in a context involving a cashier, but the sentence encodes a belief about an event and does not describe a general attitude of distrust toward the cashier."
+      },
+      {
+        "example_id": "ex-613a20dcfe5c",
+        "verdict": "unique",
+        "candidate_sense_ids": ["sense:002"],
+        "next_best_candidate_sense_id": "sense:001",
+        "discriminating_terms": ["regarded the sudden policy change with suspicion"],
+        "rationale": "The with-suspicion complement describes how the residents viewed the policy change, an attitude of distrust or wariness toward it. The uncertain-belief sense is a plausible alternative, but no proposition is presented as possibly true; the construction directly characterizes an attitude toward the object."
+      },
+      {
+        "example_id": "ex-9ca21f521576",
+        "verdict": "ambiguous",
+        "candidate_sense_ids": ["sense:001", "sense:002"],
+        "next_best_candidate_sense_id": "sense:002",
+        "discriminating_terms": ["aroused suspicions", "no longer trusted the officials' explanation"],
+        "rationale": "The residents may have formed a doubtful belief about the officials' explanation (sense:001), or developed a distrustful attitude toward that explanation and its source (sense:002). The following clause supports distrust but does not specify the proposition suspected, so both readings remain natural and the wording does not rule one out."
+      },
+      {
+        "example_id": "ex-b5e7fa7186d6",
+        "verdict": "unique",
+        "candidate_sense_ids": ["sense:003"],
+        "next_best_candidate_sense_id": "sense:001",
+        "discriminating_terms": ["a suspicion of a smile"],
+        "rationale": "The phrase presents a smile as faintly perceptible in the reply, the small-amount or trace sense. A possible alternative is uncertainty about whether a smile occurred, but 'a suspicion of a smile' in this construction describes only a trace-like presence, not a proposition the speaker believes may be true."
+      },
+      {
+        "example_id": "ex-bfc7f98b7c6e",
+        "verdict": "unique",
+        "candidate_sense_ids": ["sense:003"],
+        "next_best_candidate_sense_id": "sense:001",
+        "discriminating_terms": ["a suspicion of truth in it"],
+        "rationale": "The phrase means that the tale contains a faint trace or hint of truth, matching the amount/trace sense. The uncertain-belief reading is a plausible alternative, but 'in it' presents truth as a quality or element present in the tale rather than as a proposition whose truth is in question."
+      },
+      {
+        "example_id": "ex-ba13c9432000",
+        "verdict": "unique",
+        "candidate_sense_ids": ["sense:001"],
+        "next_best_candidate_sense_id": "sense:002",
+        "discriminating_terms": ["under suspicion", "whether it had falsified invoices"],
+        "rationale": "The whether-clause identifies a specific suspected act, placing the contractor under suspicion because investigators are testing a proposition about falsified invoices. Distrust toward the contractor is a possible contextual attitude, but the sentence foregrounds a belief about whether an act occurred rather than that attitude itself."
+      },
+      {
+        "example_id": "ex-cf0a8a1498e3",
+        "verdict": "unique",
+        "candidate_sense_ids": ["sense:001"],
+        "next_best_candidate_sense_id": "sense:002",
+        "discriminating_terms": ["on suspicion of fraud"],
+        "rationale": "The of-fraud phrase names the suspected offense, so the expression refers to an uncertain belief that fraud may have occurred. A distrust-attitude reading is possible in the surrounding context of an arrest, but the construction specifically attributes a suspected proposition/offense, not a general attitude toward the people arrested."
+      }
+    ]
+  }
+}

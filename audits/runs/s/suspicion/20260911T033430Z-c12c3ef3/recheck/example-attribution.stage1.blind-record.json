@@ -1,0 +1,197 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "input_body_sha256": "6c77c142312c5cd3c8fc46bb74e490d274f356ffea110ae31b600bfa76245433",
+  "blind_request_sha256": "4a94a01e7c3ed485342d29ee4099671a2d0c9fc0b91a07c55fcb8c3d7da63d62",
+  "recorded_at": "2026-09-23T16:50:53Z",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "GPT-6",
+    "ingested_by": "human"
+  },
+  "attributions": [
+    {
+      "classification": "unique",
+      "example_id": "ex-5582efdff83a",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "came under suspicion",
+        "several invoices disappeared"
+      ],
+      "rationale": "The phrase 'came under suspicion' gives the employee suspect status after the invoices disappeared, so sense 1 is the natural reading. Sense 2 would be general wariness toward the employee rather than a possible wrongdoing inquiry."
+    },
+    {
+      "classification": "unique",
+      "example_id": "ex-88ee84c31dd1",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "aroused suspicion of fraud"
+      ],
+      "rationale": "'aroused suspicion of fraud' names a specific alleged wrongdoing, which makes sense 1 the natural reading. Sense 2 would be broad mistrust of the auditors or transfer, rather than an allegation of fraud."
+    },
+    {
+      "classification": "unique",
+      "example_id": "ex-cb94e87442df",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "A suspicion of a smile",
+        "appeared at the corner of her mouth"
+      ],
+      "rationale": "'A suspicion of a smile' describes a faint trace of a smile at the corner of her mouth, so sense 4 applies. Sense 3 would be a hunch that a proposition is true, but this phrase describes the degree to which the smile is present."
+    },
+    {
+      "classification": "unique",
+      "example_id": "ex-fcd4f6cd1cb4",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "arrested on suspicion of fraud"
+      ],
+      "rationale": "'arrested on suspicion of fraud' states the suspected offense as the basis for arrest, so sense 1 is unique. Sense 2 is general mistrust and does not express a formal allegation of fraud."
+    },
+    {
+      "classification": "unique",
+      "example_id": "ex-c46cdf047fd9",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "a sneaking suspicion that everyone already knew the answer"
+      ],
+      "rationale": "'a sneaking suspicion that everyone already knew the answer' is an unconfirmed belief about that proposition, so sense 3 applies. Sense 2 would express mistrust of someone's reliability or motives, which the clause does not assert."
+    },
+    {
+      "classification": "unique",
+      "example_id": "ex-12d74dc6a518",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "remained under suspicion",
+        "until the records were checked"
+      ],
+      "rationale": "'remained under suspicion' presents the contractor as a possible wrongdoer while records are checked, so sense 1 applies. Sense 2 would be a general attitude of distrust rather than suspect status pending inquiry."
+    },
+    {
+      "classification": "unique",
+      "example_id": "ex-142d192c51ce",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "viewed the sudden policy change with suspicion"
+      ],
+      "rationale": "'viewed the sudden policy change with suspicion' describes a wary, distrustful attitude toward the policy change, so sense 2 applies. Sense 1 would require suspicion that someone committed an offense; the sentence instead describes how residents regarded a change."
+    },
+    {
+      "classification": "unique",
+      "example_id": "ex-aa7b5fff5a6c",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "white with a suspicion of blue"
+      ],
+      "rationale": "'white with a suspicion of blue' describes a faint trace of blue in the walls' white color, so sense 4 applies. Sense 3 would be a hunch about a fact, but this phrase modifies the color quality itself."
+    },
+    {
+      "classification": "unique",
+      "example_id": "ex-05b02817299b",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "altered timestamp cast suspicion on the clerk",
+        "who had access to the report"
+      ],
+      "rationale": "'altered timestamp cast suspicion on the clerk' directs suspicion toward the clerk as a possible person responsible for the change, so sense 1 applies. Sense 2 would be generalized distrust, whereas this construction links a possible act to its suspected agent."
+    },
+    {
+      "classification": "unique",
+      "example_id": "ex-8d227a80dc23",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "a suspicion of disappointment",
+        "in his voice"
+      ],
+      "rationale": "'a suspicion of disappointment' in the voice describes a faint trace of an emotional quality, so sense 4 applies. Sense 3 would be a hunch that a proposition is true; the phrase instead locates a subtle quality in the voice."
+    },
+    {
+      "classification": "unique",
+      "example_id": "ex-7f64fe932874",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "confirmed the manager's suspicions",
+        "that a guard had taken the missing laptops"
+      ],
+      "rationale": "'confirmed the manager's suspicions' that the guard took missing laptops concerns a specific alleged wrongdoing, so sense 1 applies. Sense 3 can describe a hunch about an ordinary fact, but this clause alleges the guard's culpable act."
+    },
+    {
+      "classification": "unique",
+      "example_id": "ex-7d99d23f2cc3",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "confirmed her suspicion that the battery was failing"
+      ],
+      "rationale": "'confirmed her suspicion that the battery was failing' presents a conjecture about the battery's condition later confirmed by test results, so sense 3 applies. Sense 2 would express mistrust, but the sentence states a proposition about a failure state."
+    },
+    {
+      "classification": "unique",
+      "example_id": "ex-45617d11c25d",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "a suspicion of citrus",
+        "made it taste fresher"
+      ],
+      "rationale": "'a suspicion of citrus' describes a slight citrus note in the sauce's flavor, so sense 4 applies. Sense 3 would be a hunch that a fact is true; here the phrase names a faint quality the sauce has."
+    },
+    {
+      "classification": "unique",
+      "example_id": "ex-dd3939aaaf2d",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "greeted with some suspicion"
+      ],
+      "rationale": "'greeted with some suspicion' describes a cautious or distrustful reception of the monitoring system, so sense 2 applies. Sense 1 would imply a specific alleged offense, but the sentence describes a general attitude toward a system."
+    },
+    {
+      "classification": "unique",
+      "example_id": "ex-bfee00eef365",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "a strong suspicion that the delay was caused by a technical problem"
+      ],
+      "rationale": "'a strong suspicion that the delay was caused by a technical problem' is a strong but unconfirmed hypothesis about the cause of the delay, so sense 3 applies. Sense 2 would express distrust of a person, source, or motive; the clause supplies a causal proposition instead."
+    },
+    {
+      "classification": "unique",
+      "example_id": "ex-624cd78bd09b",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "a suspicion that the meeting will finish earlier than planned"
+      ],
+      "rationale": "'a suspicion that the meeting will finish earlier than planned' is a prediction or hunch about when the meeting will finish, so sense 3 applies. Sense 2 would convey mistrust of the meeting or its organizers, while this clause presents an uncertain future possibility."
+    }
+  ]
+}

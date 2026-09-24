@@ -1,0 +1,42 @@
+{
+  "schema_version": "workflow_revision_v1",
+  "before_body_sha256": "22115ff16b934a7bee72be158df65dd1569ca9a64c670adb9cd408a03b504ebd",
+  "after_body_sha256": "22115ff16b934a7bee72be158df65dd1569ca9a64c670adb9cd408a03b504ebd",
+  "changed_units": [],
+  "changed_facets": [],
+  "full_recheck": true,
+  "fallback_reasons": [
+    "source_artifact_changed"
+  ],
+  "invalidated_passes": [
+    "evidence",
+    "example-attribution",
+    "frame-relation",
+    "pronunciation",
+    "qualification",
+    "sense-structure",
+    "translation"
+  ],
+  "reusable_passes": [],
+  "round": 20,
+  "source_inventory_sha256": "10c45e4e8d68b3c222b6f606528479894e5c594471b9e0b075420b5c7069697c",
+  "source_artifact_sha256": "c4d6a722a2ef61df4e79540139861bf23bca9ff974f924f688831d5ad846161a",
+  "input_body_sha256": "22115ff16b934a7bee72be158df65dd1569ca9a64c670adb9cd408a03b504ebd",
+  "recorded_at": "2026-09-24T13:13:10.802173Z",
+  "invalidation_reason": "The round19 evidence finding changed the article-target mapping for register:001; regenerate all seven passes against the revised source artifact.",
+  "request_paths": {
+    "translation": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-20/requests/translation.request.json",
+    "sense-structure": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-20/requests/sense-structure.request.json",
+    "frame-relation": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-20/requests/frame-relation.request.json",
+    "example-attribution": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-20/requests/example-attribution.request.json",
+    "qualification": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-20/requests/qualification.request.json",
+    "pronunciation": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-20/requests/pronunciation.request.json",
+    "evidence": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-20/requests/evidence.request.json"
+  },
+  "prior_round_findings_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-19/findings_and_actions.json",
+  "prior_round_findings_sha256": "1a02d7335675308e394e766781998633b75160f55670528823940c471212398c",
+  "source_inventory_revision_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/source_inventory_revision_round19.json",
+  "source_inventory_revision_sha256": "e627bc073b4404db00fe3caba599eaa6d507010a09dd3999cdfa0febba2c6821",
+  "post_cold_rechecks_used": 7,
+  "final_attempts_used": 1
+}

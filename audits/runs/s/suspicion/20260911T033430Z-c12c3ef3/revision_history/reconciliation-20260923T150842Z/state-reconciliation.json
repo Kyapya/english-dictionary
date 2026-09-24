@@ -1,0 +1,22 @@
+{
+  "schema_version": "workflow_revision_state_reconciliation_v1",
+  "recorded_at": "2026-09-23T15:09:24.517928+00:00",
+  "decision": "use_latest_complete_saved_revision_then_apply_verified_round11_corrections",
+  "current_entry_body_sha256_before_recovery": "82f343438dd0057f0cc4edd16ece26ba75380521e8c02dfb806b6da7eb43d3f8",
+  "round11_review_input_body_sha256": "13559d31b050882ff1d24890c8d22914c8f87e20f0ddb0e509e2a8178469bd82",
+  "round11_raw_responses_preserved": true,
+  "round11_promoted_as_current_recheck": false,
+  "latest_complete_saved_entry_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/revision_history/20260923T132415Z/suspicion.md",
+  "latest_complete_saved_entry_body_sha256": "4ab0d5d71a7c1f54616c6e43ea3bd1cf78edf3d0d530028f0398efd73951f200",
+  "matching_source_inventory_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/revision_history/20260923T132415Z/source_inventory.json",
+  "matching_source_inventory_body_sha256": "4ab0d5d71a7c1f54616c6e43ea3bd1cf78edf3d0d530028f0398efd73951f200",
+  "source_inventory_worktree_candidate_input_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+  "source_inventory_worktree_candidate_copy": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/revision_history/reconciliation-20260923T150842Z/source_inventory.worktree-candidate.json",
+  "restored_and_corrected_body_sha256": "de1e2ebe007479cb86148ed85238f917c19c2f7472d4d3c96dbe55f4a87198b8",
+  "source_artifact_sha256_for_new_requests": "cff7da1f22ae25fe071b48da51af07d50df1d6d825a6330a6abac5cdfc52420c",
+  "applied_corrections": [
+    "explicitly exclude Merriam-Webster’s chiefly dialectal transitive verb from the numbered learner senses",
+    "reduce raise some suspicion to the attested bare frame and align its example"
+  ],
+  "reason": "The checked-in entry body did not match Round11’s immutable input. No saved entry snapshot matched the Round11 body hash; the latest complete entry/source-inventory pair is retained at revision_history/20260923T132415Z. Round11 raw responses are preserved but are not promoted as valid results for the recovered body."
+}

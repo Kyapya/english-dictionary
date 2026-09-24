@@ -1,0 +1,314 @@
+{
+  "pass_id": "evidence",
+  "reviewer": {
+    "mode": "handoff",
+    "agent_id": "/root/r25_evidence",
+    "declared_model": "GPT-6",
+    "ingested_by": "orchestrator",
+    "source_response": {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-25/responses/source_responses/e3afe55ad1ed694bf1107d0a77d87191184e03858cb98b3136087f5d43e37ad5.json",
+      "sha256": "e3afe55ad1ed694bf1107d0a77d87191184e03858cb98b3136087f5d43e37ad5"
+    }
+  },
+  "findings": [],
+  "locator_verifications": {
+    "sources": [
+      {
+        "source_id": "american_heritage",
+        "locator": "https://ahdictionary.com/word/search.html?q=suspicion",
+        "status": "opened_and_verified",
+        "verification_note": "Opened exact AHD query locator; suspicion entry, noun senses, informal verb, and etymology appear at lines 40-45."
+      },
+      {
+        "source_id": "etymonline",
+        "locator": "https://www.etymonline.com/word/suspicion",
+        "status": "opened_and_verified",
+        "verification_note": "Opened exact entry locator; etymology and 14th-century spelling note appear at lines 13-16."
+      },
+      {
+        "source_id": "merriam_webster",
+        "locator": "https://www.merriam-webster.com/dictionary/suspicion",
+        "status": "opened_and_verified",
+        "verification_note": "Opened exact entry locator; pronunciation and noun/verb entries at lines 36-69, synonym contrast and examples at lines 90-116, etymology at lines 124-131, legal definition at lines 199-207."
+      },
+      {
+        "source_id": "oxford_learner",
+        "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion",
+        "status": "opened_and_verified",
+        "verification_note": "Opened exact OALD suspicion entry; IPA, word family and sense 1 at lines 97-131; senses 2-4 and word origin at lines 170-254; under-suspicion idiom at lines 269-273."
+      },
+      {
+        "source_id": "oxford_pronunciation_documentation",
+        "locator": "https://www.oxfordlearnersdictionaries.com/external/pdf/english/OALD10_phons_GL.pdf",
+        "status": "opened_and_verified",
+        "verification_note": "Opened exact OALD10 PDF locator; document title and author at lines 1-2, and unmarked syllabic consonant convention at lines 76-80."
+      }
+    ],
+    "targets": [
+      {
+        "target_id": "collocation:001",
+        "location": "lines:39-42",
+        "section": "＃意味・用法・関連表現",
+        "text_sha256": "dc7079b86517cebd16d870cacb85e90fcf406004fc00ed75b0e20030f7c44229",
+        "status": "verified_from_packet_target_and_context"
+      },
+      {
+        "target_id": "collocation:002",
+        "location": "lines:44-47",
+        "section": "＃意味・用法・関連表現",
+        "text_sha256": "a965e38b1700774e312566d57c2318bcfdd3aa0ecb9f0b22fc7807dd33493f42",
+        "status": "verified_from_packet_target_and_context"
+      },
+      {
+        "target_id": "collocation:003",
+        "location": "lines:49-52",
+        "section": "＃意味・用法・関連表現",
+        "text_sha256": "4c1e202a046c808793f9d6ea37ebde49b08ee323c396492ec6a589da76b39950",
+        "status": "verified_from_packet_target_and_context"
+      },
+      {
+        "target_id": "collocation:007",
+        "location": "lines:92-95",
+        "section": "＃意味・用法・関連表現",
+        "text_sha256": "89cf4c87e8287d3549d92f194ba7e76813eb54c7e5880cc21e0b10e819a9e772",
+        "status": "verified_from_packet_target_and_context"
+      },
+      {
+        "target_id": "collocation:008",
+        "location": "lines:97-100",
+        "section": "＃意味・用法・関連表現",
+        "text_sha256": "ab0a05a905edc2a6465eeb57d522c7c1c95c37db2fcd2ceeb87a97c22658a463",
+        "status": "verified_from_packet_target_and_context"
+      },
+      {
+        "target_id": "collocation:013",
+        "location": "lines:182-185",
+        "section": "＃意味・用法・関連表現",
+        "text_sha256": "1118f1caca791c946a4374f28956ecb690a469665d6aaa286dbd7795f5f84a39",
+        "status": "verified_from_packet_target_and_context"
+      },
+      {
+        "target_id": "collocation:014",
+        "location": "lines:187-190",
+        "section": "＃意味・用法・関連表現",
+        "text_sha256": "c89a2a8c8073d7afe0baf46085b64ac90bb6c7a93c29d405413a771b58175f0d",
+        "status": "verified_from_packet_target_and_context"
+      },
+      {
+        "target_id": "collocation:015",
+        "location": "lines:192-195",
+        "section": "＃意味・用法・関連表現",
+        "text_sha256": "8de4791b39bd28319bb7b4a9677fdf24141e7947ed0b7e7834c7b57795cf171e",
+        "status": "verified_from_packet_target_and_context"
+      },
+      {
+        "target_id": "collocation:016",
+        "location": "lines:197-200",
+        "section": "＃意味・用法・関連表現",
+        "text_sha256": "d9af8abc4846116ac9c3efed992840d1bd02bfc190f7784568e1ac489f307d03",
+        "status": "verified_from_packet_target_and_context"
+      },
+      {
+        "target_id": "definition:001",
+        "location": "line:29",
+        "section": "＃意味・用法・関連表現",
+        "text_sha256": "568f6b100e67ddd338b7cf518d6bdbc558f6493db168ab41c22e49a8b2fbc5cf",
+        "status": "verified_from_packet_target_and_context"
+      },
+      {
+        "target_id": "definition:002",
+        "location": "line:82",
+        "section": "＃意味・用法・関連表現",
+        "text_sha256": "5339e3d19a1009b5ddf7e927e8e81890190fea3b1a9bd3aa513bfd5c6985122a",
+        "status": "verified_from_packet_target_and_context"
+      },
+      {
+        "target_id": "definition:003",
+        "location": "line:122",
+        "section": "＃意味・用法・関連表現",
+        "text_sha256": "0d0da78ce342e239a78f0f71f71ac93c1704dca56ba9f6e875fd20352a2e749b",
+        "status": "verified_from_packet_target_and_context"
+      },
+      {
+        "target_id": "definition:004",
+        "location": "line:172",
+        "section": "＃意味・用法・関連表現",
+        "text_sha256": "b0355da882656ce2ac0793979fa79047500df1d3eea79d6e7a92a87c0eec57ea",
+        "status": "verified_from_packet_target_and_context"
+      },
+      {
+        "target_id": "etymology:001",
+        "location": "line:8",
+        "section": "＃語源",
+        "text_sha256": "2dd21a934dd67e740c409da842da789c3d0aadc89132c39ce8aee776f4d70fd4",
+        "status": "verified_from_packet_target_and_context"
+      },
+      {
+        "target_id": "grammar_pattern:001",
+        "location": "line:35",
+        "section": "＃意味・用法・関連表現",
+        "text_sha256": "0bedc5afd8262d2cd0248476d05be9c7c008d56cd64c3b66cac6cfcaef0ab8e6",
+        "status": "verified_from_packet_target_and_context"
+      },
+      {
+        "target_id": "grammar_pattern:003",
+        "location": "line:35",
+        "section": "＃意味・用法・関連表現",
+        "text_sha256": "f8b7f7c050a79a960dce818cf87d28cc9a280433b2dc5bc63c0b9be0ddb08628",
+        "status": "verified_from_packet_target_and_context"
+      },
+      {
+        "target_id": "grammar_pattern:004",
+        "location": "line:35",
+        "section": "＃意味・用法・関連表現",
+        "text_sha256": "443cb4aa2e279a7ff38dd67e2a737081a18d79544552e0c94519c897184ab4d8",
+        "status": "verified_from_packet_target_and_context"
+      },
+      {
+        "target_id": "grammar_pattern:005",
+        "location": "line:35",
+        "section": "＃意味・用法・関連表現",
+        "text_sha256": "87c048752e918f868f4a2653adff11b202f157b5ae9aa34be40587e0163a0147",
+        "status": "verified_from_packet_target_and_context"
+      },
+      {
+        "target_id": "grammar_pattern:009",
+        "location": "line:88",
+        "section": "＃意味・用法・関連表現",
+        "text_sha256": "8d131f23fb824b5c797e9ad9770855251e0e6b648321faa370e6e153507e27a8",
+        "status": "verified_from_packet_target_and_context"
+      },
+      {
+        "target_id": "grammar_pattern:010",
+        "location": "line:88",
+        "section": "＃意味・用法・関連表現",
+        "text_sha256": "b69f12e315dcdaa5c1d57257bb455ae287da97254e37a901af1dd1a08a0022a4",
+        "status": "verified_from_packet_target_and_context"
+      },
+      {
+        "target_id": "grammar_pattern:011",
+        "location": "line:128",
+        "section": "＃意味・用法・関連表現",
+        "text_sha256": "de1f874de042d50408e29ecc8e24696f4ef2736366bae25813ea38b43d9da899",
+        "status": "verified_from_packet_target_and_context"
+      },
+      {
+        "target_id": "grammar_pattern:012",
+        "location": "line:128",
+        "section": "＃意味・用法・関連表現",
+        "text_sha256": "24f216ce11626908e0f964e7530a1197bc91ea4282b64f8a55872820b7dcfd46",
+        "status": "verified_from_packet_target_and_context"
+      },
+      {
+        "target_id": "grammar_pattern:013",
+        "location": "line:128",
+        "section": "＃意味・用法・関連表現",
+        "text_sha256": "3f6c87b5dd6045d2b0508639762aa7214b460cc26de9a01a6932fc07738a80dc",
+        "status": "verified_from_packet_target_and_context"
+      },
+      {
+        "target_id": "grammar_pattern:014",
+        "location": "line:128",
+        "section": "＃意味・用法・関連表現",
+        "text_sha256": "932191d4ae2c4d7a2cb57517f9e8f7528973366a856ad4a20a07e1a96f18fafb",
+        "status": "verified_from_packet_target_and_context"
+      },
+      {
+        "target_id": "grammar_pattern:015",
+        "location": "line:128",
+        "section": "＃意味・用法・関連表現",
+        "text_sha256": "49730bb23853be373a3538f5cfb82107abc1b0c1fb8c500a174820d5fc69cee4",
+        "status": "verified_from_packet_target_and_context"
+      },
+      {
+        "target_id": "grammar_pattern:016",
+        "location": "line:178",
+        "section": "＃意味・用法・関連表現",
+        "text_sha256": "b2be76c2a7e38194e62f6d5af1c2d54a3ccde0f8ac84d841d238866c01de3e0c",
+        "status": "verified_from_packet_target_and_context"
+      },
+      {
+        "target_id": "grammar_pattern:017",
+        "location": "line:178",
+        "section": "＃意味・用法・関連表現",
+        "text_sha256": "fc8db1aa5afdb3fe49cdcfbd51376a710140e533ceb1d70f1bf70eebb622edf3",
+        "status": "verified_from_packet_target_and_context"
+      },
+      {
+        "target_id": "pronunciation:001",
+        "location": "line:4",
+        "section": "＃発音記号",
+        "text_sha256": "094bcbaf0a01acbf0d0efc277cba524a4d6dcd142b10de3cf229c6300f2328d8",
+        "status": "verified_from_packet_target_and_context"
+      },
+      {
+        "target_id": "register:001",
+        "location": "line:33",
+        "section": "＃意味・用法・関連表現",
+        "text_sha256": "3fbeea497a7e4718e9a93f32cf75ccded4322c9c28507ce95aaf873410628865",
+        "status": "verified_from_packet_target_and_context"
+      },
+      {
+        "target_id": "sense_boundary:001",
+        "location": "line:27",
+        "section": "＃意味・用法・関連表現",
+        "text_sha256": "69cc762ea9830b45c2f5fc076e40e8138b2cebb6f7bd92578cc36de184c3aaa1",
+        "status": "verified_from_packet_target_and_context"
+      },
+      {
+        "target_id": "sense_boundary:002",
+        "location": "line:80",
+        "section": "＃意味・用法・関連表現",
+        "text_sha256": "21d67591592c9ffb28fc5fef048a46bd7e7b11ae2256cb9c31b19acdd2deacd3",
+        "status": "verified_from_packet_target_and_context"
+      },
+      {
+        "target_id": "sense_boundary:004",
+        "location": "line:170",
+        "section": "＃意味・用法・関連表現",
+        "text_sha256": "5ba1f4d2559161fc63f210f9fd66563b4d517f531a646cf6301a4df6d5287e07",
+        "status": "verified_from_packet_target_and_context"
+      },
+      {
+        "target_id": "synonym:002",
+        "location": "lines:106-111",
+        "section": "＃意味・用法・関連表現",
+        "text_sha256": "f4a7fef9a38c6c173d8ca8b4a859b434b5d9a95171412e0a9003c61428bc7d44",
+        "status": "verified_from_packet_target_and_context"
+      },
+      {
+        "target_id": "synonym:003",
+        "location": "lines:113-118",
+        "section": "＃意味・用法・関連表現",
+        "text_sha256": "57668a0f0d31229a6a2c118fde6a98fc207b1490ae4434cebd5037e93344fe80",
+        "status": "verified_from_packet_target_and_context"
+      },
+      {
+        "target_id": "word_formation:001",
+        "location": "line:12",
+        "section": "＃語形成",
+        "text_sha256": "7065b442456724c92e7a577fc24069776baf20f64c597cf40ec6defcc31772aa",
+        "status": "verified_from_packet_target_and_context"
+      },
+      {
+        "target_id": "word_formation:002",
+        "location": "line:13",
+        "section": "＃語形成",
+        "text_sha256": "bf560e16d34526852fc4487bfbace519494b62fcb7f8d746b1b22654d4cd8ff8",
+        "status": "verified_from_packet_target_and_context"
+      }
+    ]
+  },
+  "summary": {
+    "status": "pass",
+    "source_locators_verified": 5,
+    "source_locator_failures": 0,
+    "target_locators_verified": 36,
+    "target_locator_failures": 0,
+    "claim_target_references_resolved": true,
+    "source_fact_references_resolved": true,
+    "text": "All five exact source locators opened to the named sources and the cited entries or passages directly supported the associated claim units. All 36 packet-supplied target locators were reviewed with their target text and context; all target and source-fact references resolved. No blocking evidence mismatch or locator failure was found."
+  },
+  "schema_version": "check_pass_result_v6",
+  "status": "pass"
+}

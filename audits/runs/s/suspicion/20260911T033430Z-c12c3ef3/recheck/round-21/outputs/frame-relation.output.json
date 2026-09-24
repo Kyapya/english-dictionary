@@ -1,0 +1,56 @@
+{
+  "pass_id": "frame-relation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "GPT-6",
+    "ingested_by": "orchestrator",
+    "agent_id": "codex_agent_s21_frame_relation_stage1_20260924T133145Z",
+    "source_response": {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-21/responses/source_responses/9beca384d16bd17ceae07d15dd47787f68e0e27269672596dd5e10375c8072b2.json",
+      "sha256": "9beca384d16bd17ceae07d15dd47787f68e0e27269672596dd5e10375c8072b2"
+    }
+  },
+  "antonym_axis_blind_record": {
+    "schema_version": "antonym_axis_blind_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "a1ba2a3e8f2a29df70219a3e1669883e2e9020b77884a88290a797075c286f76",
+    "blind_request_sha256": "902516d0aabf3063a2feae716c82175c349b621b3026569e21e2ccc46a6135e9",
+    "recorded_at": "2026-09-24T13:31:45Z",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "GPT-6",
+      "ingested_by": "orchestrator",
+      "agent_id": "codex_agent_s21_frame_relation_stage1_20260924T133145Z",
+      "source_response": {
+        "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-21/responses/source_responses/860d233b0d4c07cd452473885625bd99c56f987320ada206cfebd725a93e59fe.json",
+        "sha256": "860d233b0d4c07cd452473885625bd99c56f987320ada206cfebd725a93e59fe"
+      }
+    },
+    "axes": []
+  },
+  "antonym_axis_adjudication_record": {
+    "schema_version": "antonym_axis_adjudication_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "a1ba2a3e8f2a29df70219a3e1669883e2e9020b77884a88290a797075c286f76",
+    "stage2_request_sha256": "ef7676d478c0da5f246f36f247974d7e886a7bb43efad15ab36c1443b865ec24",
+    "blind_record_sha256": "d62106619af5e15158189afac3eff1a3daa9d1d109fab8da35adcd7ad3d64591",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "GPT-6",
+      "ingested_by": "orchestrator",
+      "agent_id": "codex_agent_s21_frame_relation_stage1_20260924T133145Z",
+      "source_response": {
+        "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-21/responses/source_responses/9beca384d16bd17ceae07d15dd47787f68e0e27269672596dd5e10375c8072b2.json",
+        "sha256": "9beca384d16bd17ceae07d15dd47787f68e0e27269672596dd5e10375c8072b2"
+      }
+    },
+    "adjudications": [],
+    "frame_findings": [],
+    "unrouted_observations": []
+  },
+  "aligned_at": "2026-09-24T13:44:27.464796Z",
+  "findings": [],
+  "unrouted_observations": [],
+  "schema_version": "check_pass_result_v6",
+  "status": "pass"
+}

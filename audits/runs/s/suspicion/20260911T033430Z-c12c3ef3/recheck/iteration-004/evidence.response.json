@@ -1,0 +1,74 @@
+{
+  "schema_version": "check_pass_response_v1",
+  "pass_id": "evidence",
+  "request_sha256": "51d51d40b9295be77491ceaa7994825bcf61f077caca06086916537e9d50320d",
+  "reviewer": {
+    "agent_id": "/root/suspicion_evidence_recheck_4",
+    "declared_model": "GPT-6",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 33,
+        "line_end": 33,
+        "exact_quote": "一般名詞。辞書には on suspicion of ... を逮捕理由として用いる例がある。Merriam-Webster は法的な suspicion を、証明やわずかな証拠しかない段階で、何かが間違っている、またはある事実が存在すると考える、通常は信念に至らない心理状態として説明する。"
+      },
+      "severity": "blocking",
+      "rationale": "この対象は逮捕理由としての用法とMWの法的定義を併記していますが、割り当てられた legal_definition の根拠は mw_legal のみで、後半の法的定義しか支えません。Oxfordの on suspicion of + arrest 例と警察発表の実例は現行ページで確認できましたが、requestでは arrest_pattern の別対象にだけ結び付いており、このregister対象の逮捕用法を支えるリンクになっていません。対象を分けるか、Oxfordと警察資料をこの対象にも結び付けてください。",
+      "evidence_link_ids": [
+        "register:001"
+      ],
+      "suggested_direction": "逮捕用法の根拠をこの対象へ追加するか、対象を逮捕用法と法的定義に分割する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 35,
+        "line_end": 35,
+        "exact_quote": "confirm/dispel suspicions that 〈節〉＝～という疑いを裏付ける／打ち消す。"
+      },
+      "severity": "blocking",
+      "rationale": "Oxfordの現行ページとMWの例は suspicions が確認される (confirmed) 用例を示しますが、どちらも dispel suspicion(s) that の用例はありません。Oxfordには allay any suspicion that の別表現がありますが、dispel のコロケーションを直接裏付けません。また、対象中の「打ち消す。」は distrust の source union に誤って置かれており、その根拠もこの動詞パターンを支えません。slash で併記した二つの動詞のうち dispel が未確認です。",
+      "evidence_link_ids": [
+        "grammar_pattern:009",
+        "grammar_pattern:010"
+      ],
+      "suggested_direction": "dispel の直接例を追加するか、確認できた confirm に限定する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 156,
+        "line_end": 156,
+        "exact_quote": "a strong/growing suspicion that 〈節〉＝強い／高まる疑い"
+      },
+      "severity": "blocking",
+      "rationale": "この対象は語義3の growing suspicion パターンですが、現行のOxford、MW、AHDページで growing suspicion の用例・連語を確認できませんでした。Oxfordの表示された連語例は strong, considerable, deep などで、growing はなく、request上この対象はさらに trace (small amount) のsource unionに割り当てられています。trace の定義はこの推測義の連語を支えません。",
+      "evidence_link_ids": [
+        "grammar_pattern:018"
+      ],
+      "suggested_direction": "growing suspicion の直接例を根拠に結び付けるか、その連語を削除する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 156,
+        "line_end": 156,
+        "exact_quote": "confirm/dispel a suspicion＝推測を裏付ける／打ち消す。"
+      },
+      "severity": "blocking",
+      "rationale": "この語義3の対象は request 上 trace (small amount) のsource unionに割り当てられていますが、そのfact statementsは語義4の少量義で、この語義3のコロケーションを支えません。現行のOxfordとMWページには confirm a suspicion(s) の例はありますが、dispel a suspicion の例はなく、Oxfordの allay any suspicion は異なる動詞です。confirm 部分を支える資料はある一方、併記した dispel の用法は未確認です。",
+      "evidence_link_ids": [
+        "grammar_pattern:019"
+      ],
+      "suggested_direction": "dispel の語法を直接裏付ける資料を追加するか、確認できた confirm のみを残す。"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "agent_id": "/root/suspicion_example_recheck_13",
+  "declared_model": "GPT-6",
+  "request_sha256": "43ed9a507373efe1012e462898bcd46554088d67aa96eea5fd09a242ce47a8a3",
+  "recorded_at": "2026-09-23T16:46:55Z",
+  "attributions": [
+    {
+      "example_id": "ex-5582efdff83a",
+      "decision": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["came under suspicion", "several invoices disappeared"],
+      "rationale": "Sense 1 is the natural reading: the employee becomes a suspect in response to the disappearance. Sense 2 would describe general wariness toward the employee, but 'came under suspicion' here assigns suspect status in a possible wrongdoing inquiry."
+    },
+    {
+      "example_id": "ex-88ee84c31dd1",
+      "decision": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["aroused suspicion of fraud"],
+      "rationale": "Sense 1 applies because the complement 'of fraud' names a specific alleged wrongdoing. Sense 2 would be broad mistrust of the auditors or the transfer, whereas the sentence says the transfer prompted a fraud allegation."
+    },
+    {
+      "example_id": "ex-cb94e87442df",
+      "decision": "unique",
+      "candidate_sense_ids": ["sense:004"],
+      "discriminating_terms": ["A suspicion of a smile", "appeared at the corner of her mouth"],
+      "rationale": "Sense 4 means a faint trace or suggestion of a quality; a barely perceptible smile appears at the mouth. Sense 3 would be a hunch that a proposition is true, but this phrase describes the degree to which the smile is present."
+    },
+    {
+      "example_id": "ex-fcd4f6cd1cb4",
+      "decision": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["arrested on suspicion of fraud"],
+      "rationale": "The construction 'on suspicion of fraud' states the suspected offense as the basis for arrest, so sense 1 is unique. Sense 2 is general mistrust and does not express a formal allegation of fraud."
+    },
+    {
+      "example_id": "ex-c46cdf047fd9",
+      "decision": "unique",
+      "candidate_sense_ids": ["sense:003"],
+      "discriminating_terms": ["a sneaking suspicion that everyone already knew the answer"],
+      "rationale": "Sense 3 is an unconfirmed belief about the proposition that everyone already knew the answer. Sense 2 would express mistrust of someone's reliability or motives, which the clause does not assert."
+    },
+    {
+      "example_id": "ex-12d74dc6a518",
+      "decision": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["remained under suspicion", "until the records were checked"],
+      "rationale": "Sense 1 fits the contractor's continuing suspect status while records are checked. Sense 2 would be a general attitude of distrust; 'remained under suspicion' presents the person as potentially responsible for wrongdoing pending inquiry."
+    },
+    {
+      "example_id": "ex-142d192c51ce",
+      "decision": "unique",
+      "candidate_sense_ids": ["sense:002"],
+      "discriminating_terms": ["viewed the sudden policy change with suspicion"],
+      "rationale": "Sense 2 is a wary, distrustful attitude toward the policy change. Sense 1 would require suspicion that someone committed an offense; the sentence instead describes how residents regarded a change."
+    },
+    {
+      "example_id": "ex-aa7b5fff5a6c",
+      "decision": "unique",
+      "candidate_sense_ids": ["sense:004"],
+      "discriminating_terms": ["white with a suspicion of blue"],
+      "rationale": "Sense 4 describes a faint trace of blue in the walls' white color. Sense 3 would be a hunch about a fact, but 'with a suspicion of blue' modifies the color quality itself."
+    },
+    {
+      "example_id": "ex-05b02817299b",
+      "decision": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["altered timestamp cast suspicion on the clerk", "who had access to the report"],
+      "rationale": "Sense 1 is the natural reading: the altered timestamp directs suspicion toward the clerk as a possible person responsible for the change. Sense 2 would be generalized distrust of the clerk, but 'cast suspicion on' links a possible act to its suspected agent."
+    },
+    {
+      "example_id": "ex-8d227a80dc23",
+      "decision": "unique",
+      "candidate_sense_ids": ["sense:004"],
+      "discriminating_terms": ["a suspicion of disappointment", "in his voice"],
+      "rationale": "Sense 4 describes a faint trace of disappointment perceptible in the voice. Sense 3 would be a hunch that a proposition is true; the phrase instead locates a subtle emotional quality in the voice."
+    },
+    {
+      "example_id": "ex-7f64fe932874",
+      "decision": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["confirmed the manager's suspicions", "that a guard had taken the missing laptops"],
+      "rationale": "Sense 1 applies because the suspected proposition is that a guard took missing property, an alleged wrongdoing. Sense 3 can describe an unconfirmed hunch about an ordinary fact, but this clause specifically alleges the guard's culpable act."
+    },
+    {
+      "example_id": "ex-7d99d23f2cc3",
+      "decision": "unique",
+      "candidate_sense_ids": ["sense:003"],
+      "discriminating_terms": ["confirmed her suspicion that the battery was failing"],
+      "rationale": "Sense 3 is a conjecture about the battery's condition, later confirmed by test results. Sense 2 would express mistrust of a person's or thing's reliability, but the sentence presents a proposition about a failure state, not an attitude of distrust."
+    },
+    {
+      "example_id": "ex-45617d11c25d",
+      "decision": "unique",
+      "candidate_sense_ids": ["sense:004"],
+      "discriminating_terms": ["a suspicion of citrus", "made it taste fresher"],
+      "rationale": "Sense 4 describes a slight citrus note in the sauce's flavor. Sense 3 would be a hunch that a fact is true; here 'of citrus' names the faint quality the sauce has."
+    },
+    {
+      "example_id": "ex-dd3939aaaf2d",
+      "decision": "unique",
+      "candidate_sense_ids": ["sense:002"],
+      "discriminating_terms": ["greeted with some suspicion"],
+      "rationale": "Sense 2 is a cautious or distrustful reception of the monitoring system. Sense 1 would imply a specific alleged offense, but the sentence describes a general attitude toward a system."
+    },
+    {
+      "example_id": "ex-bfee00eef365",
+      "decision": "unique",
+      "candidate_sense_ids": ["sense:003"],
+      "discriminating_terms": ["a strong suspicion that the delay was caused by a technical problem"],
+      "rationale": "Sense 3 is a strong but unconfirmed hypothesis about the cause of the delay. Sense 2 would express distrust of a person, source, or motive; the that-clause here supplies a causal proposition instead."
+    },
+    {
+      "example_id": "ex-624cd78bd09b",
+      "decision": "unique",
+      "candidate_sense_ids": ["sense:003"],
+      "discriminating_terms": ["a suspicion that the meeting will finish earlier than planned"],
+      "rationale": "Sense 3 is a prediction or hunch about when the meeting will finish. Sense 2 would convey mistrust of the meeting or its organizers, while this clause simply presents an uncertain future possibility."
+    }
+  ]
+}

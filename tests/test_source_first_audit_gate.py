@@ -250,6 +250,32 @@ class SourceFirstAuditGateTests(unittest.TestCase):
     def test_valid_manifest_passes(self) -> None:
         self.assertEqual(validate_manifest(valid_manifest()), [])
 
+    def test_v2_source_inventory_can_close_before_article_mapping(self) -> None:
+        gate = copy.deepcopy(valid_v2_manifest()["source_first_audit"])
+        gate["article_comparison_started_at"] = None
+        gate["source_union"] = []
+        gate["claim_units"] = []
+        self.assertEqual(
+            validate_manifest(
+                {"source_first_audit": gate},
+                require_current=True,
+                allow_incomplete=True,
+            ),
+            [],
+        )
+
+    def test_v2_article_mapping_is_required_after_comparison_starts(self) -> None:
+        gate = copy.deepcopy(valid_v2_manifest()["source_first_audit"])
+        gate["article_comparison_started_at"] = "2026-08-23T10:05:00+09:00"
+        gate["source_union"] = []
+        gate["claim_units"] = []
+        errors = validate_manifest(
+            {"source_first_audit": gate},
+            require_current=True,
+            allow_incomplete=True,
+        )
+        self.assertTrue(any("missing from source_union" in error for error in errors))
+
     def test_inventory_must_precede_article_comparison(self) -> None:
         data = valid_manifest()
         data["source_first_audit"]["inventory_completed_at"] = "2026-08-22T10:10:00+09:00"

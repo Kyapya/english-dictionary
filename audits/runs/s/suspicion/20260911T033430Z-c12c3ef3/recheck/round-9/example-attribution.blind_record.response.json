@@ -1,0 +1,121 @@
+{
+  "reviewer": {
+    "agent_id": "/root/round9_example_attribution",
+    "model": "gpt-6-astra",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "blind_attribution_record": {
+    "schema_version": "example_attribution_blind_record_v1",
+    "stage": 1,
+    "pass_id": "example-attribution",
+    "recorded_at": "2026-09-23T13:25:00Z",
+    "input_body_sha256": "4ab0d5d71a7c1f54616c6e43ea3bd1cf78edf3d0d530028f0398efd73951f200",
+    "request_sha256": "3aa5432930e9e8ec77ce5481225fd54925dc335d840a31e5889ab00057da6995",
+    "normalized_input_sha256": "5894525e9b527613e09eb766e02503fae2a05121001470ed473f5d117909de5f",
+    "specification_sha256": "e0bbb032bc0c50bf9bef5ff8f7854188287e635c58e599479891e11e3343a017",
+    "source_artifact_sha256": "e90fd78ac088d2024598beed6ae0af6133d299beb74c373437b548466fce7266",
+    "items": [
+      {
+        "example_id": "ex-d23afb316897",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "that several invoices had been altered"
+        ],
+        "rationale": "「that several invoices had been altered」という内容節が、真偽を疑う命題を示すのでsense:001。sense:002なら対象への不信・警戒が中心になるが、この例では人や物への態度ではなく、請求書が改ざんされたという命題が疑いの内容である。"
+      },
+      {
+        "example_id": "ex-8c2dff4b567f",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "regarded the sudden policy change with suspicion"
+        ],
+        "rationale": "「regarded the sudden policy change with suspicion」は方針変更を疑いの目で見る態度を表すのでsense:002。sense:001なら何らかの命題が真かもしれないという疑いが焦点になるが、この使い方は命題の真偽でなく対象への警戒・不信を示している。"
+      },
+      {
+        "example_id": "ex-a283f299e62c",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "a suspicion of truth in it"
+        ],
+        "rationale": "「a suspicion of truth in it」は物語に真実味がごくわずかにあることを表し、sense:003に当たる。sense:001なら誰かが真実だと考える命題上の疑いになるが、ここでは疑う人や判断する命題ではなく、物語の中にあるかすかな性質を述べている。sense:002の対象への不信も表していない。"
+      },
+      {
+        "example_id": "ex-a300c62da701",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "under suspicion",
+          "whether it had falsified invoices"
+        ],
+        "rationale": "「under suspicion」と「whether it had falsified invoices」が、請負業者が請求書を改ざんしたかという犯罪・不正行為の疑いに置かれていることを示すのでsense:001。sense:002なら請負業者への一般的な不信・警戒だが、この文では具体的な不正行為をしたかどうかが疑いの内容であり、単なる対人態度ではない。"
+      },
+      {
+        "example_id": "ex-1fbe1b9ab0de",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "a suspicion of a smile in her reply"
+        ],
+        "rationale": "「a suspicion of a smile in her reply」は返事に笑みがかすかに感じられることを表すのでsense:003。sense:001なら真偽についての疑い、sense:002なら対象への不信になるが、ここで表されるのは返事に現れた微量の表情の兆しである。"
+      },
+      {
+        "example_id": "ex-1b58df9a85ca",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "that the cashier had altered the sales records"
+        ],
+        "rationale": "「that the cashier had altered the sales records」という内容節が、レジ係による記録改ざんという命題を疑っていることを示すのでsense:001。sense:002ならレジ係への不信・警戒という態度が焦点になるが、ここでは疑いの内容がthat節で明示されている。"
+      },
+      {
+        "example_id": "ex-55d9cedf815d",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "on suspicion of fraud"
+        ],
+        "rationale": "「on suspicion of fraud」は詐欺を行ったという具体的な犯罪容疑を示す定型的な関係でsense:001。sense:002なら人への不信や警戒だが、この句では逮捕の根拠となる犯罪行為の可能性が疑いの内容になっている。"
+      },
+      {
+        "example_id": "ex-ddc458ae2d6b",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "a suspicion that the meeting had been canceled"
+        ],
+        "rationale": "「a suspicion that the meeting had been canceled」は会議が中止されたという命題の真偽についての疑いなのでsense:001。sense:002なら人や物事への不信・警戒が必要だが、この文では対象に対する態度ではなく、会議が中止された可能性を考えている。"
+      },
+      {
+        "example_id": "ex-733c6810992f",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "suspicions that officials had concealed the project's true cost"
+        ],
+        "rationale": "「suspicions that officials had concealed the project's true cost」という内容節が、当局が費用を隠したという具体的な不正の可能性を表すのでsense:001。sense:002なら当局への不信・警戒が中心になるが、ここではその態度だけでなく、that節の命題が疑いの内容として明示されている。"
+      }
+    ]
+  }
+}

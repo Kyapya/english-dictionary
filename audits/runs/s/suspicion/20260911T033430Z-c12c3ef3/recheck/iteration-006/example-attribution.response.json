@@ -1,0 +1,220 @@
+{
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "agent_id": "/root/suspicion_example_recheck_6",
+    "declared_model": "GPT-6",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "blind_attribution_record": {
+    "schema_version": "example_attribution_blind_record_v1",
+    "pass_id": "example-attribution",
+    "stage": 1,
+    "reviewer": {
+      "agent_id": "/root/suspicion_example_recheck_6",
+      "declared_model": "GPT-6",
+      "mode": "handoff",
+      "ingested_by": "human"
+    },
+    "input_body_sha256": "532d94350bb2df4c2b61bd6f767ac9a34717307c9de2c1245a6a8a8a8c0fb5c9",
+    "blind_request_sha256": "8d3fc17b9285a52c6c67db06664379bf64419c19515d20195ea7fd19bfe8e4fc",
+    "recorded_at": "2026-09-23T15:23:51Z",
+    "attributions": [
+      {
+        "example_id": "ex-141d96528041",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "next_best_candidate_sense_id": "sense:003",
+        "discriminating_terms": [
+          "greeted with some suspicion"
+        ],
+        "rationale": "The phrase “greeted with some suspicion” describes a wary reception of the system, which fits sense:002. Sense:003 is the closest alternative, but it requires a tentative belief about a proposition; this sentence describes an attitude toward the system. Sense:001 would require suspicion of a person’s wrongdoing, which is not asserted."
+      },
+      {
+        "example_id": "ex-d7ab3e7c2b8c",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "next_best_candidate_sense_id": "sense:002",
+        "discriminating_terms": [
+          "sneaking suspicion that everyone already knew the answer"
+        ],
+        "rationale": "“sneaking suspicion that everyone already knew the answer” presents a private, uncertain belief about a factual proposition, fitting sense:003. Sense:002 is the closest alternative, but the sentence does not describe generalized mistrust of people; it states what she thinks may already be true."
+      },
+      {
+        "example_id": "ex-d72006cd457b",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "next_best_candidate_sense_id": "sense:003",
+        "discriminating_terms": [
+          "taken the missing laptops"
+        ],
+        "rationale": "“taken the missing laptops” describes a guard’s suspected theft, so the manager’s suspicions concern possible wrongdoing under sense:001. Sense:003 is the closest alternative, but this is a specific allegation of an offense rather than an ordinary uncertain belief about a non-wrongdoing fact."
+      },
+      {
+        "example_id": "ex-188150b69745",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "next_best_candidate_sense_id": "sense:003",
+        "discriminating_terms": [
+          "on suspicion of fraud"
+        ],
+        "rationale": "“on suspicion of fraud” makes alleged fraud the stated basis for arrest, fitting sense:001. Sense:003 is the closest alternative, but it would be a person’s tentative belief about a fact, not an alleged offense used as the ground for arrest."
+      },
+      {
+        "example_id": "ex-f0f24ae54d2a",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "next_best_candidate_sense_id": "sense:001",
+        "discriminating_terms": [
+          "suspicion that the battery was failing"
+        ],
+        "rationale": "“suspicion that the battery was failing” is an uncertain belief about the battery’s condition, confirmed by test results, fitting sense:003. Sense:001 is the closest alternative, but the proposition describes a mechanical condition rather than anyone’s crime or misconduct."
+      },
+      {
+        "example_id": "ex-a5c24dcea060",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "next_best_candidate_sense_id": "sense:003",
+        "discriminating_terms": [
+          "A suspicion of a smile appeared"
+        ],
+        "rationale": "“A suspicion of a smile appeared” uses suspicion for a barely perceptible trace of an expression, fitting sense:004. Sense:003 is the closest alternative, but the sentence presents a faint visible smile itself, not a hunch that someone is smiling."
+      },
+      {
+        "example_id": "ex-53f3648d9254",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "next_best_candidate_sense_id": "sense:003",
+        "discriminating_terms": [
+          "a suspicion of citrus"
+        ],
+        "rationale": "“a suspicion of citrus” describes a faint citrus note in the sauce’s taste, fitting sense:004. Sense:003 is the closest alternative, but the clause treats citrus as a slight flavor component that makes the sauce taste fresher, not as a proposition someone suspects to be true."
+      },
+      {
+        "example_id": "ex-c7fd354d1b42",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "next_best_candidate_sense_id": "sense:002",
+        "discriminating_terms": [
+          "came under suspicion"
+        ],
+        "rationale": "“came under suspicion” casts the employee as a possible person responsible for the disappeared invoices, fitting sense:001. Sense:002 is the closest alternative, but this construction marks the employee as a suspect in a specific possible wrongdoing rather than expressing a general wary attitude toward them."
+      },
+      {
+        "example_id": "ex-af0a5498a4dc",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "next_best_candidate_sense_id": "sense:002",
+        "discriminating_terms": [
+          "cast suspicion on the clerk who had access to the report"
+        ],
+        "rationale": "“cast suspicion on the clerk who had access to the report” identifies the clerk as a possible actor in the report’s timestamp alteration, fitting sense:001. Sense:002 is the closest alternative, but the sentence links suspicion to a specific apparent tampering event rather than a general lack of trust in the clerk."
+      },
+      {
+        "example_id": "ex-7659098866d8",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "next_best_candidate_sense_id": "sense:001",
+        "discriminating_terms": [
+          "suspicion that the delay was caused by a technical problem"
+        ],
+        "rationale": "“suspicion that the delay was caused by a technical problem” is an uncertain belief about the cause of a delay, fitting sense:003. Sense:001 is the closest alternative, but the proposed cause is an impersonal technical problem, not a person’s alleged wrongdoing."
+      },
+      {
+        "example_id": "ex-8a6d63f4583e",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "next_best_candidate_sense_id": "sense:003",
+        "discriminating_terms": [
+          "a suspicion of blue"
+        ],
+        "rationale": "“a suspicion of blue” describes a faint blue tint in the walls, fitting sense:004. Sense:003 is the closest alternative, but the phrase denotes a slight perceptible color quality rather than a guess about whether the walls are blue."
+      },
+      {
+        "example_id": "ex-95e0688dc673",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "next_best_candidate_sense_id": "sense:002",
+        "discriminating_terms": [
+          "suspicion that the meeting will finish earlier than planned"
+        ],
+        "rationale": "“suspicion that the meeting will finish earlier than planned” expresses a tentative prediction about a future event, fitting sense:003. Sense:002 is the closest alternative, but no person, organization, or motive is being viewed with distrust; the sentence is a hunch about what will happen."
+      },
+      {
+        "example_id": "ex-e45cb8487f12",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "next_best_candidate_sense_id": "sense:003",
+        "discriminating_terms": [
+          "a suspicion of disappointment in his voice"
+        ],
+        "rationale": "“a suspicion of disappointment in his voice” describes a faint trace of emotion detectable in his voice, fitting sense:004. Sense:003 is the closest alternative, but the sentence presents slight audible evidence of disappointment itself, not merely a belief that he is disappointed."
+      },
+      {
+        "example_id": "ex-b22e22596ffc",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "next_best_candidate_sense_id": "sense:002",
+        "discriminating_terms": [
+          "remained under suspicion"
+        ],
+        "rationale": "“remained under suspicion” leaves the contractor in the position of a possible wrongdoer while records are checked, fitting sense:001. Sense:002 is the closest alternative, but a status pending examination of records is a specific suspect status, not just generalized distrust."
+      },
+      {
+        "example_id": "ex-ec13b5fc1bb8",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "next_best_candidate_sense_id": "sense:003",
+        "discriminating_terms": [
+          "suspicion of fraud"
+        ],
+        "rationale": "“suspicion of fraud” explicitly names fraud as the suspected wrongdoing, fitting sense:001. Sense:003 is the closest alternative, but that sense covers an uncertain belief about a non-wrongdoing fact, whereas the stated object here is fraud."
+      },
+      {
+        "example_id": "ex-bed43e040c8e",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "next_best_candidate_sense_id": "sense:001",
+        "discriminating_terms": [
+          "viewed the sudden policy change with suspicion"
+        ],
+        "rationale": "“viewed the sudden policy change with suspicion” describes residents’ wary, distrustful attitude toward a policy, fitting sense:002. Sense:001 is the closest alternative, but the sentence alleges no criminal or dishonest act; it reports a skeptical response to the change."
+      }
+    ]
+  },
+  "aligned_at": "2026-09-23T15:26:52.572079+00:00",
+  "findings": [],
+  "unrouted_observations": []
+}

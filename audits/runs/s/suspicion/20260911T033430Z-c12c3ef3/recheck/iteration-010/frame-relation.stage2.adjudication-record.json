@@ -1,0 +1,24 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "reviewer": {
+    "agent_id": "/root/suspicion_frame_recheck_10",
+    "declared_model": "GPT-6",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "adjudications": [
+    {
+      "item_id": "ant-a3267ecc5487",
+      "flags": [],
+      "rationale": "語義2の定義は対象をすぐには信用せず警戒する態度を明示し、信頼の軸は当該語義から導ける。trustの定義はその対象を信頼し頼れると考える態度であり、段階1の状態対立として整合する。違い行も対立を補強しており、F1〜F4はいずれも該当しない。全語義の提示フレーム、コロケーション、例文間に項役割の不一致は見当たらない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    }
+  ],
+  "frame_findings": [],
+  "unrouted_observations": [],
+  "input_body_sha256": "c2f8e5870fc4952f0d4f01836a628d90cbb5bda3636b40d38f08c5d35202dc76",
+  "stage2_request_sha256": "aeca041696680a43f9ee3260cdc49bfb904299989b685c1815b5aec57e6266d2",
+  "blind_record_sha256": "897ac1d6ceb14dd1841e2281132a585b5a806ac52ba9bb2b36aba21d40951a39"
+}

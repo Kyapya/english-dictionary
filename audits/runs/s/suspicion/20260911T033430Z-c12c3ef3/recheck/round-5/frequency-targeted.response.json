@@ -1,0 +1,11 @@
+{
+  "schema_version": "targeted_adjudication_v1",
+  "issue_id": "TARGETED-FREQUENCY-SCORE-SOURCING",
+  "reviewer": {
+    "agent_id": "/root/frequency_adjudicator",
+    "declared_model": "GPT-6"
+  },
+  "decision": "resolved_needs_change",
+  "rationale": "entry_spec_v5 permits frequency scores without strict statistical evidence, so the dictionaries' lack of numeric frequency data is not by itself a blocking evidence mismatch and does not show that the values are wrong. However, the editorial-estimate note appears only with senses 1 and 2; senses 3 and 4 and all five synonym ratings lack that disclosure. Extend a shared note to cover all nine ratings. The supplied evidence does not establish that the scores were actually calibrated consistently or that regional/archaic senses were not overstated, so this finding addresses disclosure coverage, not validation of each value.",
+  "applicable_scope": "Only the four sense ratings and the five named synonym ratings in the request."
+}

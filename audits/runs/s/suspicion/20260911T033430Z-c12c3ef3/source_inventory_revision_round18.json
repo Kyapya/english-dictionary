@@ -1,0 +1,44 @@
+{
+  "schema_version": "source_inventory_revision_v1",
+  "revision_kind": "post_blind_recheck_legal_claim_mapping",
+  "previous_inventory_sha256": "b81fe244c764f8293050b5eb65f6c1d40ee209800c88316b39f27b969a700a6b",
+  "updated_inventory_sha256": "8ccbcc727d2c51a47ebfd2ab06cb15a3103ef14553395b1f7708dcaa7acc990e",
+  "previous_source_first_audit_sha256": "776daa0334bf140008a6fc56b0dd673a651dc4a3f85bfebd24a78f78fabd8085",
+  "updated_source_first_audit_sha256": "e0585776f84681d92824b00b461903fa910c33574248652a1841a00ec229c8f4",
+  "previous_input_body_sha256": "22115ff16b934a7bee72be158df65dd1569ca9a64c670adb9cd408a03b504ebd",
+  "current_input_body_sha256": "22115ff16b934a7bee72be158df65dd1569ca9a64c670adb9cd408a03b504ebd",
+  "usage_changes": [
+    {
+      "field": "post_cold_rechecks_used",
+      "previous": 5,
+      "current": 6,
+      "reason": "The legal source-to-article claim mapping changed after round18; all seven checker passes are regenerated against the updated source artifact."
+    }
+  ],
+  "source_and_fact_changes": [
+    {
+      "change": "re-scoped_claim_mapping",
+      "source_ids": [
+        "merriam_webster",
+        "uk_house_of_lords_kebel"
+      ],
+      "source_fact_ids": [
+        "mw_legal",
+        "ukhl_kebel_suspicion"
+      ],
+      "reason": "Retain the Merriam-Webster legal definition in the integrated article claim and exclude the House of Lords prima facie-proof context absent from the mapped article targets."
+    },
+    {
+      "change": "corrected_stale_coverage_note",
+      "source_ids": [],
+      "source_fact_ids": [],
+      "reason": "Removed an outdated police-release reference from the legal coverage note after the police source had been retired."
+    }
+  ],
+  "source_count_preserved": true,
+  "fact_count_preserved": true,
+  "research_rounds_used_unchanged": true,
+  "round18_findings_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-18/findings_and_actions.json",
+  "round18_findings_sha256": "9a61b9782629bb771bc324c188f037cdb6c70144774aff56328539369fbfd01f",
+  "recorded_at": "2026-09-24T12:59:15.810454Z"
+}

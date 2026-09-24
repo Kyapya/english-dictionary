@@ -1,0 +1,28 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "sense-structure",
+  "reviewer": {
+    "agent_id": "/root/round11_sense_structure",
+    "declared_model": "GPT-6",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "input_body_sha256": "13559d31b050882ff1d24890c8d22914c8f87e20f0ddb0e509e2a8178469bd82",
+  "source_artifact_sha256": "d44f6f1eb825f6bfcff285716c87db277e5c8ceaeff55140e230ec57726868a2",
+  "normalized_input_sha256": "aea81546f7d282a1955ab433fd530241bdc6be896e4f8c5de00253202cc549b0",
+  "findings": [
+    {
+      "taxonomy_id": "cross_section_internal_contradiction",
+      "location": {
+        "section": "word_formation",
+        "line_start": 26,
+        "line_end": 26,
+        "exact_quote": "・suspicion（動詞）：他動詞で「～を疑う」。Merriam-Webster では chiefly dialectal とされる。  "
+      },
+      "severity": "blocking",
+      "rationale": "語形成欄に、名詞の3義とは品詞・項構造が異なる他動詞用法が独立して記載されていますが、番号付き語義にも明示的な除外にも現れていません。仕様は語形成欄だけにある主要な品詞転換を番号付き語義の欠落として扱います。chiefly dialectal は採録しない根拠になり得ますが、現状の記載は除外判断ではなく用法の提示です。採録するなら動詞義を番号付きで追加し、除外するなら方針を明示してください。",
+      "evidence_link_ids": [],
+      "suggested_direction": "動詞義を番号付き語義として追加するか、chiefly dialectal を根拠に学習用語義から除外する判断を明示する。"
+    }
+  ]
+}

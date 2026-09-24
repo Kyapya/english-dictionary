@@ -1,0 +1,25 @@
+{
+  "schema_version": "workflow_revision_v1",
+  "before_body_sha256": "18178e0a192307a41e4cccafaaf60c75ff89633d50774904ba389187e4d827b6",
+  "after_body_sha256": "1668f193d23088ced53f1c8828fcef108cde97073b2eda3e14f74741e9d73a51",
+  "changed_units": [
+    "collocations_examples",
+    "frames"
+  ],
+  "changed_facets": [],
+  "full_recheck": true,
+  "fallback_reasons": [
+    "post_blind_sense_boundary_overlap_crosses_senses_1_2_3"
+  ],
+  "invalidated_passes": [
+    "evidence",
+    "example-attribution",
+    "frame-relation",
+    "pronunciation",
+    "qualification",
+    "sense-structure",
+    "translation"
+  ],
+  "reusable_passes": [],
+  "scope_expansion_reason": "The two adopted sense_boundary_overlap findings distinguish person-focused wrongdoing from general distrust and proposition-level suspicion; all seven passes are rechecked even though the deterministic local dependency classifier would permit a narrower set."
+}

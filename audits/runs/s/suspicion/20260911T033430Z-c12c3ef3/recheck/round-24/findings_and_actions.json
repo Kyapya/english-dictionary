@@ -1,0 +1,31 @@
+{
+  "schema_version": "checker_recheck_actions_v1",
+  "round": 24,
+  "input_body_sha256": "18178e0a192307a41e4cccafaaf60c75ff89633d50774904ba389187e4d827b6",
+  "source_inventory_sha256": "ff028dc3c0905427f0e5d5d68c4ace113f9c6f8112be0f2a2ec8b2ba18b4c37d",
+  "source_artifact_sha256": "73427b11130b2b4ffb18bbf3504e8054253863023f3237f7a828f43026047262",
+  "findings": [],
+  "review_response_corrections": [
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-24/responses/example-attribution.stage1.response.raw.json",
+      "sha256": "8231b679aab75347a5d9856e403639187c70460c87ce2ce51661f8be4b83e9b7",
+      "disposition": "contract_invalid",
+      "detail": "Initial stage-1 response used canonical_request_sha256 and attribution instead of blind_request_sha256 and classification, and failed liveness B2 for all 16 rationales; immutable original retained."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-24/responses/example-attribution.stage1.response.contract_corrected.raw.json",
+      "sha256": "53de6aeeadd0e87d6e1816a51a54f6164536f686223e4e2980f4cb0960bb51f0",
+      "disposition": "accepted",
+      "detail": "Same reviewer returned a separate response with the required request hash, classification field, and grounded rationales. All 16 examples, candidates, discriminating terms, timestamp, and reviewer identity were retained; schema and liveness checks passed."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-24/responses/example-attribution.stage2.response.raw.json",
+      "sha256": "4cde1e548f919f4c8148e53146b16c1eee96aca71f3d2b56a93d11d4d43d8226",
+      "disposition": "accepted_stage2_alignment",
+      "detail": "Same reviewer aligned all 16 classifications against the sealed stage-1 record and exact stage-2 request; all hashes matched with no findings or unrouted observations."
+    }
+  ],
+  "prior_round_findings_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-23/findings_and_actions.json",
+  "prior_round_findings_sha256": "e22b9466c433c52cb9d5e7d9f6a7fe7ea143912dcd000ed9dcc86fc220ae3c21",
+  "recorded_at": "2026-09-24T15:06:40.782240+00:00"
+}

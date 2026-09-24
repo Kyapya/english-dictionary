@@ -1,0 +1,319 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "translation",
+  "taxonomy_ids": [
+    "example_translation_alignment",
+    "semantic_direction_reversal"
+  ],
+  "specification": "prompts/check_pass_translation_v6.md",
+  "input_body_sha256": "1b415813c2db7ff30979180a837de0083064f323ec93754352338967ab94d224",
+  "input_sections": {
+    "definitions": [
+      {
+        "line": 29,
+        "text": "1. 【名詞・可算／不可算】容疑、犯罪・不正をしたのではないかという疑い"
+      },
+      {
+        "line": 31,
+        "text": "【日本語訳・定義】人が犯罪・不正をした可能性があると、十分な証明がない段階で考えることを表す。個々の疑いを数えるときは可算、疑いがあるという状態・状況をまとめて述べるときは不可算で使われる。  "
+      },
+      {
+        "line": 67,
+        "text": "2. 【名詞・不可算中心】不信、警戒を伴う疑念"
+      },
+      {
+        "line": 69,
+        "text": "【日本語訳・定義】人、組織、主張、動機などを信用しきれず、疑いの目で見る態度を表す。特定の犯罪・不正行為を考える語義1とは違い、対象への信頼が十分でない状態を表す。  "
+      },
+      {
+        "line": 100,
+        "text": "3. 【名詞・単数／やや文語的】ほんの少し、かすかな気配"
+      },
+      {
+        "line": 102,
+        "text": "【日本語訳・定義】ものがごく少量、またはかすかな兆候として感じられることを表す。通常 a suspicion of ... の形で使われる。  "
+      }
+    ],
+    "collocations_examples": [
+      {
+        "line": 29,
+        "text": "1. 【名詞・可算／不可算】容疑、犯罪・不正をしたのではないかという疑い"
+      },
+      {
+        "line": 39,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 41,
+        "text": "・on suspicion of 〈crime〉  "
+      },
+      {
+        "line": 42,
+        "text": "用途: 警察などが、ある犯罪を行った疑いを理由に人を逮捕・拘束したことを述べる。  "
+      },
+      {
+        "line": 43,
+        "text": "例: Two people were arrested on suspicion of fraud after the investigation.  "
+      },
+      {
+        "line": 44,
+        "text": "訳: 捜査後、2人が詐欺の容疑で逮捕された。  "
+      },
+      {
+        "line": 46,
+        "text": "・be under suspicion  "
+      },
+      {
+        "line": 47,
+        "text": "用途: 人が不正や犯罪をしたのではないかと疑われている状態を表す。  "
+      },
+      {
+        "line": 48,
+        "text": "例: The contractor remained under suspicion until the records were checked.  "
+      },
+      {
+        "line": 49,
+        "text": "訳: 記録が確認されるまで、その請負業者は疑いをかけられたままだった。  "
+      },
+      {
+        "line": 51,
+        "text": "・a suspicion that 〈clause〉  "
+      },
+      {
+        "line": 52,
+        "text": "用途: ある事柄が真実だと考える、確証のない疑いを表す。  "
+      },
+      {
+        "line": 53,
+        "text": "例: The manager had a suspicion that the cashier had altered the sales records.  "
+      },
+      {
+        "line": 54,
+        "text": "訳: その管理者は、レジ係が売上記録を改ざんしたのではないかと疑っていた。  "
+      },
+      {
+        "line": 67,
+        "text": "2. 【名詞・不可算中心】不信、警戒を伴う疑念"
+      },
+      {
+        "line": 77,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 79,
+        "text": "・arouse suspicions  "
+      },
+      {
+        "line": 80,
+        "text": "用途: 出来事が人々の不信や警戒を招くことを表す。  "
+      },
+      {
+        "line": 81,
+        "text": "例: The abrupt policy reversal aroused suspicions among residents, who no longer trusted the officials' explanation.  "
+      },
+      {
+        "line": 82,
+        "text": "訳: 突然の政策転換で住民たちの疑念が高まり、当局の説明を信頼しなくなった。  "
+      },
+      {
+        "line": 84,
+        "text": "・regard 〈person/thing〉 with suspicion  "
+      },
+      {
+        "line": 85,
+        "text": "用途: 人や物事をすぐには信用せず、疑いの目で見ることを表す。  "
+      },
+      {
+        "line": 86,
+        "text": "例: Residents regarded the sudden policy change with suspicion.  "
+      },
+      {
+        "line": 87,
+        "text": "訳: 住民たちは突然の方針変更を疑いの目で見た。  "
+      },
+      {
+        "line": 100,
+        "text": "3. 【名詞・単数／やや文語的】ほんの少し、かすかな気配"
+      },
+      {
+        "line": 110,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 112,
+        "text": "・a suspicion of a smile  "
+      },
+      {
+        "line": 113,
+        "text": "用途: はっきり表れるほどではない、かすかな兆しを描写する。  "
+      },
+      {
+        "line": 114,
+        "text": "例: There was a suspicion of a smile in her reply.  "
+      },
+      {
+        "line": 115,
+        "text": "訳: 彼女の返事にはかすかな笑みが感じられた。  "
+      },
+      {
+        "line": 117,
+        "text": "・a suspicion of truth  "
+      },
+      {
+        "line": 118,
+        "text": "用途: 話や印象に真実味がかすかに感じられることを表す。  "
+      },
+      {
+        "line": 119,
+        "text": "例: The old tale had a suspicion of truth in it.  "
+      },
+      {
+        "line": 120,
+        "text": "訳: その古い物語には、どこか真実味が感じられた。  "
+      }
+    ],
+    "lexical_relations": [
+      {
+        "line": 29,
+        "text": "1. 【名詞・可算／不可算】容疑、犯罪・不正をしたのではないかという疑い"
+      },
+      {
+        "line": 58,
+        "text": "【類義語】"
+      },
+      {
+        "line": 60,
+        "text": "・doubt  "
+      },
+      {
+        "line": 61,
+        "text": "定義: あることが真実・正当・確実かどうかについての不確かさ。  "
+      },
+      {
+        "line": 62,
+        "text": "頻度: 〈10/10〉  "
+      },
+      {
+        "line": 63,
+        "text": "違い: doubt は真偽一般への不確かさで、犯罪・不正を疑うとは限らない。suspicion は「何か隠れた問題があるのではないか」という方向を持ちやすい。  "
+      },
+      {
+        "line": 64,
+        "text": "例: There is some doubt about whether the figures are complete.  "
+      },
+      {
+        "line": 65,
+        "text": "訳: その数値が完全かどうかには多少の疑問がある。  "
+      },
+      {
+        "line": 67,
+        "text": "2. 【名詞・不可算中心】不信、警戒を伴う疑念"
+      },
+      {
+        "line": 91,
+        "text": "【類義語】"
+      },
+      {
+        "line": 93,
+        "text": "・distrust  "
+      },
+      {
+        "line": 94,
+        "text": "定義: 人や物事を信頼しない気持ち。  "
+      },
+      {
+        "line": 95,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 96,
+        "text": "違い: suspicion のこの語義で近い意味を表す語として辞書にも挙げられる。  "
+      },
+      {
+        "line": 97,
+        "text": "例: Residents regarded the proposal with distrust.  "
+      },
+      {
+        "line": 98,
+        "text": "訳: 住民たちはその提案を信用しなかった。  "
+      },
+      {
+        "line": 100,
+        "text": "3. 【名詞・単数／やや文語的】ほんの少し、かすかな気配"
+      },
+      {
+        "line": 124,
+        "text": "【類義語】"
+      },
+      {
+        "line": 126,
+        "text": "・hint  "
+      },
+      {
+        "line": 127,
+        "text": "定義: 色・味・感情などのかすかな兆し・少量。  "
+      },
+      {
+        "line": 128,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 129,
+        "text": "違い: hint はこの「少量」の意味で一般的。suspicion はより描写的・文語的で、あえて「感じ取れる程度」という含みを出す。  "
+      },
+      {
+        "line": 130,
+        "text": "例: The tea has a hint of mint.  "
+      },
+      {
+        "line": 131,
+        "text": "訳: そのお茶にはほのかなミントの風味がある。  "
+      },
+      {
+        "line": 133,
+        "text": "・trace  "
+      },
+      {
+        "line": 134,
+        "text": "定義: かろうじて認められるごく少量・痕跡。  "
+      },
+      {
+        "line": 135,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 136,
+        "text": "違い: trace は量の少なさや痕跡性を直接表す。suspicion は比喩的で、感覚的な描写に使われやすい。  "
+      },
+      {
+        "line": 137,
+        "text": "例: There was only a trace of smoke in the air.  "
+      },
+      {
+        "line": 138,
+        "text": "訳: 空気中には煙がほんのわずかに漂っていた。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "d09d822f58ea8bcff9aa2890f988ad7aca9a9d3a773b5f9da5427f783ae25bb3",
+  "source_artifact_sha256": "7d3b096792e3d2cb1b8b0dd95abe527740c3277ae0cf88aea2ebaa2fd559e553",
+  "normalized_input_sha256": "255971b817f77e4e444dd1f2389748b84d693012b4ca38ce0c39c9f232fe5adc"
+}

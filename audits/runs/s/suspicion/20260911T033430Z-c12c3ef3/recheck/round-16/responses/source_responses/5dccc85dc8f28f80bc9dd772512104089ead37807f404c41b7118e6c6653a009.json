@@ -1,0 +1,134 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "blind_request_sha256": "2a10c1ffd5febfeedb6a65a2a8c6c9aefaebadae64063c5c1964d2de908a71a7",
+  "input_body_sha256": "f0ae54c4d407ab7c669d3cfdb9334d176f780d8bcf4ab662c289c3ea09fbc70a",
+  "recorded_at": "2026-09-24T12:14:02Z",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "GPT-6",
+    "ingested_by": "human",
+    "agent_id": "/root/suspicion_r16_example_attribution"
+  },
+  "attributions": [
+    {
+      "example_id": "ex-b91ae71e61f9",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["came under suspicion", "several invoices disappeared"],
+      "rationale": "The exact phrase \"came under suspicion\", anchored by \"several invoices disappeared\", presents the employee as the possible wrongdoer in a missing-property event, which selects sense:001. Sense:002 would describe generalized mistrust of the employee; the suspect-status construction tied to the disappearance instead expresses suspected wrongdoing."
+    },
+    {
+      "example_id": "ex-9c5ac8799e8c",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:002"],
+      "discriminating_terms": ["cast suspicion on the reliability of the company's explanation"],
+      "rationale": "The exact phrase \"cast suspicion on the reliability of the company's explanation\" targets whether the explanation is trustworthy, selecting sense:002 (mistrust). Sense:003 would center on a tentative belief that a particular factual proposition is true; here the noun phrase \"the reliability of the company's explanation\" makes trustworthiness itself the target."
+    },
+    {
+      "example_id": "ex-f4b6a476aa5e",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:004"],
+      "discriminating_terms": ["a suspicion of blue", "white with a suspicion of blue"],
+      "rationale": "The exact phrase \"white with a suspicion of blue\" describes a barely perceptible color tint, selecting sense:004. Sense:003 would be an uncertain belief about a fact; the construction places blue as a slight color component of the walls, not as a proposition being suspected."
+    },
+    {
+      "example_id": "ex-69fc45386511",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:004"],
+      "discriminating_terms": ["a suspicion of citrus", "made it taste fresher"],
+      "rationale": "The exact phrase \"a suspicion of citrus\", with \"made it taste fresher\", means a slight citrus flavor, selecting sense:004. Sense:003 would make this an uncertain belief that citrus is present; the sentence instead describes the sauce's faint sensory quality."
+    },
+    {
+      "example_id": "ex-963fca64ddc9",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:002"],
+      "discriminating_terms": ["viewed the sudden policy change with suspicion"],
+      "rationale": "The exact phrase \"viewed the sudden policy change with suspicion\" describes a wary, distrustful attitude toward the change, selecting sense:002. Sense:003 would require a tentative belief about a specific proposition; the sentence gives an attitude of reception rather than a proposition the residents suspect to be true."
+    },
+    {
+      "example_id": "ex-dfd7b174c28d",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:003"],
+      "discriminating_terms": ["that everyone already knew the answer"],
+      "rationale": "The exact that-clause \"that everyone already knew the answer\" supplies a specific, non-criminal proposition that she tentatively believes, selecting sense:003. Sense:002 would be mistrust toward people or their reliability; the clause reports a hunch about what was already the case, not a generalized distrustful attitude."
+    },
+    {
+      "example_id": "ex-32d9f1274b4f",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["a guard had taken the missing laptops"],
+      "rationale": "The exact clause \"a guard had taken the missing laptops\" identifies the suspected person's taking of missing property, selecting sense:001 (suspected wrongdoing). Sense:003 can describe a tentative belief about a fact, but this clause specifically attributes a potentially dishonest taking rather than a non-wrongdoing state or event."
+    },
+    {
+      "example_id": "ex-e0f01e2080af",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:003"],
+      "discriminating_terms": ["that the delay was caused by a technical problem"],
+      "rationale": "The exact clause \"that the delay was caused by a technical problem\" is a tentative explanation of a situation, selecting sense:003. Sense:002 would be mistrust of a person, source, or claim, but this example gives a hunch about a non-wrongdoing cause rather than a target of distrust."
+    },
+    {
+      "example_id": "ex-ab9d4af9527f",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["altered timestamp", "cast suspicion on the clerk"],
+      "rationale": "The exact terms \"altered timestamp\" and \"cast suspicion on the clerk\" link a person with access to the report to possible tampering, selecting sense:001. Sense:002 would express generalized distrust of the clerk's reliability; the sentence instead casts the clerk as a possible actor responsible for an irregularity."
+    },
+    {
+      "example_id": "ex-131db1009cfd",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:003"],
+      "discriminating_terms": ["that the meeting will finish earlier than planned"],
+      "rationale": "The exact clause \"that the meeting will finish earlier than planned\" states a non-criminal prediction held without certainty, selecting sense:003. Sense:002 would be an attitude of mistrust toward someone or something; this is a hunch about a future event, not distrust."
+    },
+    {
+      "example_id": "ex-4c6b7b191373",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["remained under suspicion", "until the records were checked"],
+      "rationale": "The exact phrase \"remained under suspicion\", qualified by \"until the records were checked\", presents the contractor as a suspect whose status awaits evidentiary review, selecting sense:001. Sense:002 would describe a general lack of trust in the contractor; the under-suspicion frame and pending records check describe suspected involvement in wrongdoing."
+    },
+    {
+      "example_id": "ex-253c2dcb93f6",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["suspicion of fraud"],
+      "rationale": "The exact phrase \"suspicion of fraud\" explicitly names suspected dishonest conduct, selecting sense:001. Sense:003 would concern a non-criminal fact or situation thought to be true; the complement \"of fraud\" makes wrongdoing the content."
+    },
+    {
+      "example_id": "ex-7e2de7276efc",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:004"],
+      "discriminating_terms": ["a suspicion of disappointment in his voice"],
+      "rationale": "The exact phrase \"a suspicion of disappointment in his voice\" describes a faintly detectable emotional quality, selecting sense:004. Sense:003 would be a conjecture that a proposition is true; the phrase locates disappointment as a slight trace in the sound of his voice."
+    },
+    {
+      "example_id": "ex-20c80d71d9a2",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:003"],
+      "discriminating_terms": ["that the battery was failing"],
+      "rationale": "The exact clause \"that the battery was failing\" expresses a tentative belief about a non-criminal condition, selecting sense:003. Sense:001 would concern suspected wrongdoing by a person; a battery's failing is a factual state with no suspected offender."
+    },
+    {
+      "example_id": "ex-40841c7ab8b1",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["arrested on suspicion of fraud"],
+      "rationale": "The exact phrase \"arrested on suspicion of fraud\" is the legal suspect-status construction and explicitly names fraud, selecting sense:001. Sense:003 would be a non-criminal conjecture; the arrest frame and fraud complement identify suspected wrongdoing."
+    },
+    {
+      "example_id": "ex-687b0e1db39f",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:002"],
+      "discriminating_terms": ["greeted with some suspicion"],
+      "rationale": "The exact phrase \"greeted with some suspicion\" describes a wary reception of the monitoring system, selecting sense:002. Sense:003 would be a hunch that a specific proposition is true; the sentence instead characterizes the users' distrustful attitude toward the system."
+    },
+    {
+      "example_id": "ex-30b65dd81795",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:004"],
+      "discriminating_terms": ["a suspicion of a smile", "appeared at the corner of her mouth"],
+      "rationale": "The exact phrase \"a suspicion of a smile\", with \"appeared at the corner of her mouth\", describes only a faint visible trace of a smile, selecting sense:004. Sense:003 would be uncertainty about a proposition; the sentence describes a slight facial expression as perceptible evidence, not a conjecture."
+    }
+  ]
+}

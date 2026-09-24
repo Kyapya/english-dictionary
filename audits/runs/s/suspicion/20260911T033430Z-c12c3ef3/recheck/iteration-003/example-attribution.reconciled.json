@@ -1,0 +1,247 @@
+{
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "GPT-6",
+    "ingested_by": "human",
+    "agent_id": "/root/suspicion_example_attribution_recheck"
+  },
+  "blind_attribution_record": {
+    "schema_version": "example_attribution_blind_record_v1",
+    "pass_id": "example-attribution",
+    "input_body_sha256": "e4b68878b2f0a5b48675fba848087cf747e4edfe004df0e8c44055e9b5b2425a",
+    "blind_request_sha256": "5eff1f3a0aea2a17615429a21dd7731c9faab6ec4a5582d957f34274e06c74b4",
+    "recorded_at": "2026-09-23T13:54:58+00:00",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "GPT-6",
+      "ingested_by": "human",
+      "agent_id": "/root/suspicion_example_attribution_recheck"
+    },
+    "attributions": [
+      {
+        "example_id": "ex-ee2b8cf2dba6",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "confirmed",
+          "that the battery was failing"
+        ],
+        "rationale": "「that the battery was failing」という事実命題が検査結果で裏付けられる推測を示す。sense:001の犯罪・不正行為をした人物への容疑ではなく、バッテリーの状態についての予感・推測である。"
+      },
+      {
+        "example_id": "ex-9c2777c36188",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "a suspicion of a smile",
+          "appeared at the corner of her mouth"
+        ],
+        "rationale": "「a suspicion of a smile」が口元に現れる表現は、はっきりしない笑みのかすかな徴候を指す。sense:003なら笑みがあるという命題への推測になるが、この文では推測する主体や命題でなく、表情のわずかな現れを述べている。"
+      },
+      {
+        "example_id": "ex-56c8c007aad2",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "aroused suspicion of fraud",
+          "of fraud"
+        ],
+        "rationale": "「suspicion of fraud」は詐欺という不正行為があったとの疑いを明示する。sense:002の一般的な不信の態度ではなく、犯罪・不正の可能性を疑う語義である。"
+      },
+      {
+        "example_id": "ex-cf8cf994a3ab",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "cast suspicion on the clerk"
+        ],
+        "rationale": "「cast suspicion on the clerk」は、事務員を疑いの対象、すなわち報告書に関する不正の可能性がある人物として浮かび上がらせる。sense:002のように話者が相手を漠然と信用しない態度を表すのではなく、容疑がその人物に向けられる用法である。"
+      },
+      {
+        "example_id": "ex-47b399bf1487",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "nagging suspicion that",
+          "he had forgotten something important"
+        ],
+        "rationale": "「he had forgotten something important」という確証のない事実命題についての消えない予感を述べる。sense:001のように人の犯罪・不正を疑う内容ではない。"
+      },
+      {
+        "example_id": "ex-809dc6964e24",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "suspicion that",
+          "the delay was caused by a technical problem"
+        ],
+        "rationale": "「the delay was caused by a technical problem」という状況の原因についての推測である。sense:001の犯罪・不正行為をした人物への容疑ではなく、問題の説明が正しいかという予感を表す。"
+      },
+      {
+        "example_id": "ex-0346bf95bd2c",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "a suspicion of citrus"
+        ],
+        "rationale": "ソースの味についての「a suspicion of citrus」は、柑橘の風味がほんのり感じられることを表す。sense:003のような命題への予感ではなく、味のわずかな気配である。"
+      },
+      {
+        "example_id": "ex-2b0d5e24cced",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "suspicion that",
+          "the figures had been rounded incorrectly",
+          "dispelled our suspicion"
+        ],
+        "rationale": "「the figures had been rounded incorrectly」という数値処理の状態を推測し、その説明で疑いが解消する流れである。sense:001の犯罪・不正をした人物への容疑ではなく、誰かの不正を示さない事実関係についての推測である。"
+      },
+      {
+        "example_id": "ex-ec9a6fcdcda4",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "regarded it with deep suspicion"
+        ],
+        "rationale": "「regarded it with deep suspicion」は修正予測を疑いの目で見る態度を示す。sense:003なら予測が誤りだという個別の推測を述べるが、この文は命題を提示せず、予測に対する不信・警戒を述べる。"
+      },
+      {
+        "example_id": "ex-d3cc30e1e7f2",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "came under suspicion"
+        ],
+        "rationale": "「came under suspicion」は従業員が疑いの対象となったことを表し、請求書が消えたという出来事に関して不正をした可能性が疑われている。sense:002の一般的な不信ではなく、人物に向けられた容疑の用法である。"
+      },
+      {
+        "example_id": "ex-865c82326b37",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "viewed the sudden policy change with suspicion"
+        ],
+        "rationale": "「viewed the sudden policy change with suspicion」は方針変更を疑いの目で受け止める態度を表す。sense:003のように「何が真実か」という推測命題を立てず、対象への不信・警戒を述べている。"
+      },
+      {
+        "example_id": "ex-870ab8c1005b",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "a suspicion of disappointment",
+          "in his voice"
+        ],
+        "rationale": "「a suspicion of disappointment in his voice」は声にわずかに表れる失望の気配を示す。sense:003のような「彼は失望している」という命題への推測ではなく、声に感じ取れる感情のかすかな現れである。"
+      },
+      {
+        "example_id": "ex-6107fc67ca61",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "sneaking suspicion that",
+          "everyone already knew the answer"
+        ],
+        "rationale": "「everyone already knew the answer」という事実について、本人がひそかに抱く予感を述べる。sense:001のような犯罪・不正の容疑ではない。"
+      },
+      {
+        "example_id": "ex-998a936381fa",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "remained under suspicion"
+        ],
+        "rationale": "「remained under suspicion」は記録が確認されるまで請負業者が疑いの対象であり続けたことを示す。sense:002の一般的な警戒心ではなく、人物が何らかの不正をした可能性を疑われる枠組みである。"
+      },
+      {
+        "example_id": "ex-c41f2f475dd2",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "on suspicion of fraud"
+        ],
+        "rationale": "「on suspicion of fraud」は詐欺の容疑で逮捕されたことを表す定型表現で、犯罪の可能性を理由とする。sense:002の不信やsense:003の推測とは異なり、対象となる犯罪が明示されている。"
+      },
+      {
+        "example_id": "ex-c5e3d9cd6ff4",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "a suspicion that",
+          "the meeting will finish earlier than planned"
+        ],
+        "rationale": "「the meeting will finish earlier than planned」という将来の事実についての気がかりな推測を述べる。sense:001の犯罪・不正行為の容疑は含まれない。"
+      },
+      {
+        "example_id": "ex-3273e5209fcc",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "manager's suspicions that a guard had taken the missing laptops",
+          "had taken the missing laptops"
+        ],
+        "rationale": "「a guard had taken the missing laptops」という人物の持ち去り行為を管理者が疑っており、盗みの疑いを表す。sense:003の単なる事実推測と違い、特定の人物による不正行為が疑われている。"
+      },
+      {
+        "example_id": "ex-3bae5536a0d9",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "white with a suspicion of blue"
+        ],
+        "rationale": "「white with a suspicion of blue」は白い壁に青みがほんのり感じられる色合いを表す。sense:003のような壁の色についての命題への推測ではなく、色のかすかな気配である。"
+      },
+      {
+        "example_id": "ex-19cb1c7bb5db",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "greeted with some suspicion"
+        ],
+        "rationale": "「greeted with some suspicion」は監視システムが警戒・不信を伴う態度で受け入れられたことを表す。sense:003ならシステムについての具体的な推測命題が必要だが、ここでは命題ではなく受け止め方を述べている。"
+      }
+    ]
+  },
+  "aligned_at": "2026-09-23T14:03:43.952182+00:00",
+  "findings": [],
+  "unrouted_observations": []
+}

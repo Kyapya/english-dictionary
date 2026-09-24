@@ -1,0 +1,39 @@
+{
+  "round": 25,
+  "input_body_sha256": "1668f193d23088ced53f1c8828fcef108cde97073b2eda3e14f74741e9d73a51",
+  "source_inventory_sha256": "4e446c00971cd24d15882b376a813632b03f4ca0dd88db1e83f7f17e546dd2e8",
+  "source_artifact_sha256": "4d88fc32b04e814ebbb1861a6f3a52c3b9b796109da4cb9434ef19a6bef68155",
+  "request_paths": [
+    "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-25/requests/translation.request.json",
+    "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-25/requests/sense-structure.request.json",
+    "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-25/requests/frame-relation.request.json",
+    "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-25/requests/example-attribution.request.json",
+    "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-25/requests/qualification.request.json",
+    "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-25/requests/pronunciation.request.json",
+    "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-25/requests/evidence.request.json"
+  ],
+  "request_body_hashes": {
+    "translation": "1668f193d23088ced53f1c8828fcef108cde97073b2eda3e14f74741e9d73a51",
+    "sense-structure": "1668f193d23088ced53f1c8828fcef108cde97073b2eda3e14f74741e9d73a51",
+    "frame-relation": "1668f193d23088ced53f1c8828fcef108cde97073b2eda3e14f74741e9d73a51",
+    "example-attribution": "1668f193d23088ced53f1c8828fcef108cde97073b2eda3e14f74741e9d73a51",
+    "qualification": "1668f193d23088ced53f1c8828fcef108cde97073b2eda3e14f74741e9d73a51",
+    "pronunciation": "1668f193d23088ced53f1c8828fcef108cde97073b2eda3e14f74741e9d73a51",
+    "evidence": "1668f193d23088ced53f1c8828fcef108cde97073b2eda3e14f74741e9d73a51"
+  },
+  "alignment_keys": [
+    "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-25/alignment_keys/example-attribution.alignment_key.json",
+    "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-25/alignment_keys/frame-relation.antonym_axis.alignment_key.json"
+  ],
+  "full_recheck": true,
+  "invalidated_passes": [
+    "evidence",
+    "example-attribution",
+    "frame-relation",
+    "pronunciation",
+    "qualification",
+    "sense-structure",
+    "translation"
+  ],
+  "recorded_at": "2026-09-24T15:41:35.203497+00:00"
+}

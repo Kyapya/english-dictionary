@@ -1,0 +1,26 @@
+{
+  "schema_version": "source_inventory_revision_v1",
+  "revision_kind": "pre_final_attempt_and_round16_recheck",
+  "previous_inventory_sha256": "c05f10827d356c7f106685492960d8fce3fb75f762df839a114426b431fcaf66",
+  "updated_inventory_sha256": "272ebe2ec2adebcc3950c95b116af94e1d9a7b8e0a8c5315fbc430a508f504f4",
+  "previous_source_first_audit_sha256": "079110a3315dee764870a644c2b0afa2290ba3b3e08be129775c2614055980c3",
+  "updated_source_first_audit_sha256": "7927e6a0a802e17023402735bd4779b3fc18f1a41b9642fabde3f33acef9a07d",
+  "input_body_sha256": "f0ae54c4d407ab7c669d3cfdb9334d176f780d8bcf4ab662c289c3ea09fbc70a",
+  "usage_changes": [
+    {
+      "field": "post_cold_rechecks_used",
+      "previous": 2,
+      "current": 3,
+      "reason": "The round-16 checker requests bind the fixed final source artifact."
+    },
+    {
+      "field": "final_attempts_used",
+      "previous": 0,
+      "current": 1,
+      "reason": "The final-review attempt is recorded before review, then bound by the round-16 checker requests."
+    }
+  ],
+  "source_and_fact_content_unchanged": true,
+  "round15_source_inventory_snapshot": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-15/source_inventory.used.json",
+  "recorded_at": "2026-09-24T12:01:06.084843Z"
+}

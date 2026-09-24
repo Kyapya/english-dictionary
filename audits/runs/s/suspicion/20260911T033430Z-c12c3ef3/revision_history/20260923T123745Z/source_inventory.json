@@ -1,0 +1,887 @@
+{
+  "schema_version": "source_inventory_v2",
+  "headword": "suspicion",
+  "source_first_spec": "prompts/source_first_audit_v2.md",
+  "input_body_sha256": "9536e71772fcbec66a5cb22ac6155df52ed1a3d9a157408b5bb7993289585853",
+  "source_first_audit": {
+    "version": "source_first_audit_v2",
+    "profile": "standard",
+    "profile_reason": "bounded default profile",
+    "limits": {
+      "max_sources": 6,
+      "max_facts": 48,
+      "max_research_rounds": 2,
+      "max_post_cold_rechecks": null,
+      "max_final_attempts": 2
+    },
+    "usage": {
+      "sources_used": 5,
+      "facts_used": 31,
+      "research_rounds_used": 2,
+      "post_cold_rechecks_used": 7,
+      "final_attempts_used": 0
+    },
+    "research_status": "complete",
+    "stop_reason": "coverage_axes_closed",
+    "open_questions": [],
+    "inventory_completed_before_article_comparison": true,
+    "inventory_completed_at": "2026-09-23T02:25:47.407813-07:00",
+    "article_comparison_started_at": "2026-09-23T02:25:56.542603-07:00",
+    "coverage_axes": [
+      {
+        "axis": "lexical_senses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-OUP-1",
+          "F-OUP-2",
+          "F-OUP-3",
+          "F-OUP-4",
+          "F-CAM-1",
+          "F-CAM-2",
+          "F-CAM-3",
+          "F-CAM-4",
+          "F-MW-1",
+          "F-MW-2",
+          "F-MW-3",
+          "F-AHD-1",
+          "F-AHD-2",
+          "F-AHD-3",
+          "F-AHD-4"
+        ],
+        "notes": "Directly compared Oxford, Merriam-Webster, and American Heritage sense inventories; Cambridge search-result facts are retained as excluded because its entry locator was inaccessible."
+      },
+      {
+        "axis": "part_of_speech_and_frames",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-OUP-1",
+          "F-OUP-2",
+          "F-OUP-3",
+          "F-OUP-6",
+          "F-CAM-1",
+          "F-CAM-2",
+          "F-CAM-3",
+          "F-MW-4",
+          "F-MW-8"
+        ],
+        "notes": "Accessible Oxford and Merriam-Webster facts cover the article’s noun frames; Cambridge-only frame details are not used."
+      },
+      {
+        "axis": "derived_and_related_forms",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-MW-8",
+          "F-MW-9",
+          "F-MW-10",
+          "F-MW-11"
+        ],
+        "notes": "Merriam-Webster suspicion and suspicious entry facts are retained as atomic forms; both existing locators are listed explicitly."
+      },
+      {
+        "axis": "specialist_and_legal_uses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-MW-7"
+        ],
+        "notes": "Checked the Merriam-Webster legal dictionary entry and recorded its reasonable-suspicion cross-reference without claiming a jurisdiction-specific legal standard."
+      },
+      {
+        "axis": "register_region_and_frequency",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-OUP-4",
+          "F-CAM-1",
+          "F-CAM-2",
+          "F-CAM-6",
+          "F-MW-8",
+          "F-MW-12"
+        ],
+        "notes": "Captured the chiefly dialectal verb label and source-specific register; no numerical frequency claim is inferred from external sources."
+      },
+      {
+        "axis": "pronunciation_and_etymology",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-OUP-5",
+          "F-CAM-5",
+          "F-MW-5",
+          "F-MW-6",
+          "F-AHD-5",
+          "F-ETY-1",
+          "F-ETY-2"
+        ],
+        "notes": "Used accessible Oxford, Merriam-Webster, American Heritage, and Etymonline records; Cambridge pronunciation is excluded because its locator was inaccessible, and etymology variants remain source-specific."
+      }
+    ],
+    "sources": [
+      {
+        "id": "S-OUP",
+        "locator": "https://www.oxfordlearnersdictionaries.com/definition/american_english/suspicion ; https://www.oxfordlearnersdictionaries.com/definition/english/suspicion",
+        "source_type": "learner_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "oxford_university_press",
+        "facts": [
+          {
+            "id": "F-OUP-1",
+            "form": "suspicion",
+            "kind": "sense",
+            "statement": "A belief that a person has done something wrong, dishonest, or illegal without proof; countable and uncountable use.",
+            "source_detail": "Oxford Advanced American Dictionary, senses 1 and idiom entries; retrieved lines 97–110."
+          },
+          {
+            "id": "F-OUP-2",
+            "form": "suspicion",
+            "kind": "sense",
+            "statement": "A countable belief or suspicion that a proposition is true, despite lack of proof.",
+            "source_detail": "Oxford Advanced American Dictionary, sense 2; retrieved lines 97–110."
+          },
+          {
+            "id": "F-OUP-3",
+            "form": "suspicion",
+            "kind": "sense",
+            "statement": "Doubt or distrust directed toward a person or thing; countable and uncountable use.",
+            "source_detail": "Oxford Advanced American Dictionary, sense 3; retrieved lines 97–110."
+          },
+          {
+            "id": "F-OUP-4",
+            "form": "suspicion",
+            "kind": "sense",
+            "statement": "A singular, formal use for a very small amount or slight sign of something, comparable to a hint.",
+            "source_detail": "Oxford Advanced Learner’s Dictionary, sense 4; retrieved lines 249–256."
+          },
+          {
+            "id": "F-OUP-5",
+            "form": "suspicion",
+            "kind": "pronunciation",
+            "statement": "North American pronunciation is shown as /səˈspɪʃn/.",
+            "source_detail": "Oxford Advanced American Dictionary, headword pronunciation; retrieved line 97."
+          },
+          {
+            "id": "F-OUP-6",
+            "form": "suspicion",
+            "kind": "frame",
+            "statement": "The entry records patterns including suspicion that + clause, suspicion of + noun, on suspicion of + offence, and under suspicion.",
+            "source_detail": "Oxford Advanced American Dictionary, senses and idioms; retrieved lines 97–110."
+          }
+        ]
+      },
+      {
+        "id": "S-CAM",
+        "locator": "https://dictionary.cambridge.org/dictionary/english/suspicion",
+        "source_type": "learner_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "cambridge_university_press",
+        "facts": [
+          {
+            "id": "F-CAM-1",
+            "form": "suspicion",
+            "kind": "sense",
+            "statement": "A countable belief or idea that something may be true; the entry gives the that-clause frame.",
+            "source_detail": "Cambridge Advanced Learner’s Dictionary, “FEELING” sense and that-clause pattern; search result for the entry."
+          },
+          {
+            "id": "F-CAM-2",
+            "form": "suspicion",
+            "kind": "sense",
+            "statement": "A countable or uncountable belief that a person committed a crime or did something wrong.",
+            "source_detail": "Cambridge Advanced Learner’s Dictionary, “BELIEF IN SOMEONE’S GUILT” sense; search result for the entry."
+          },
+          {
+            "id": "F-CAM-3",
+            "form": "suspicion",
+            "kind": "sense",
+            "statement": "Doubt or lack of trust, with examples of regarding someone with suspicion and harbouring suspicions about a group’s politics.",
+            "source_detail": "Cambridge Advanced Learner’s Dictionary, “DOUBT” sense; search result for the entry."
+          },
+          {
+            "id": "F-CAM-4",
+            "form": "suspicion",
+            "kind": "sense",
+            "statement": "A singular use meaning a small amount, illustrated by a slight smile.",
+            "source_detail": "Cambridge Advanced Learner’s Dictionary, “SMALL AMOUNT” sense; search result for the entry."
+          },
+          {
+            "id": "F-CAM-5",
+            "form": "suspicion",
+            "kind": "pronunciation",
+            "statement": "UK and US pronunciations are both transcribed /səˈspɪʃ.ən/.",
+            "source_detail": "Cambridge Dictionary, headword pronunciation; search result for the entry."
+          },
+          {
+            "id": "F-CAM-6",
+            "form": "suspicion",
+            "kind": "register",
+            "statement": "The entry labels the feeling sense B2 and the belief-in-guilt sense C1.",
+            "source_detail": "Cambridge Advanced Learner’s Dictionary, CEFR labels on senses 1 and 2; search result for the entry."
+          }
+        ]
+      },
+      {
+        "id": "S-MW",
+        "locator": "suspicion: https://www.merriam-webster.com/dictionary/suspicion; suspicious: https://www.merriam-webster.com/dictionary/suspicious",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "merriam_webster",
+        "facts": [
+          {
+            "id": "F-MW-1",
+            "form": "suspicion",
+            "kind": "sense",
+            "statement": "The noun can mean an act or instance of suspecting something wrong without proof or on slight evidence; mistrust is given as a synonym.",
+            "source_detail": "Merriam-Webster Dictionary, noun sense 1a; retrieved lines 31–50."
+          },
+          {
+            "id": "F-MW-2",
+            "form": "suspicion",
+            "kind": "sense",
+            "statement": "The noun can mean a state of mental uneasiness and uncertainty or doubt.",
+            "source_detail": "Merriam-Webster Dictionary, noun sense 1b; retrieved lines 48–50."
+          },
+          {
+            "id": "F-MW-3",
+            "form": "suspicion",
+            "kind": "sense",
+            "statement": "The noun can mean a barely detectable amount or trace.",
+            "source_detail": "Merriam-Webster Dictionary, noun sense 2 and example; retrieved lines 52–56."
+          },
+          {
+            "id": "F-MW-4",
+            "form": "suspicion",
+            "kind": "frame",
+            "statement": "Examples attest suspicion that + clause, including a noncriminal suspicion that a painting is fake; suspicion about someone’s motives; with suspicion; arouse or raise suspicions; and suspicions being confirmed.",
+            "source_detail": "Merriam-Webster Dictionary, example set; retrieved lines 115–116. The painting example is paraphrased as a direct illustration of a proposition believed possibly true."
+          },
+          {
+            "id": "F-MW-5",
+            "form": "suspicion",
+            "kind": "pronunciation",
+            "statement": "The headword shows spelling syllabification sus·pi·cion and pronunciation respelling sə-ˈspi-shən, whose stress mark precedes the second syllable.",
+            "source_detail": "Merriam-Webster Dictionary, headword pronunciation; the entry shows sus·pi·cion and the distinct pronunciation respelling sə-ˈspi-shən; retrieved line 36."
+          },
+          {
+            "id": "F-MW-6",
+            "form": "suspicion",
+            "kind": "etymology",
+            "statement": "The noun is traced through Middle English and Anglo-French to Latin suspicio, from suspicere “to suspect”; first known use is dated to the 14th century.",
+            "source_detail": "Merriam-Webster Dictionary, Word History and First Known Use; retrieved lines 124–136."
+          },
+          {
+            "id": "F-MW-7",
+            "form": "suspicion",
+            "kind": "legal_use",
+            "statement": "The legal dictionary describes suspicion as a mental state usually short of belief in which one entertains a notion that something is wrong or a fact exists without proof or slight evidence; it cross-references reasonable suspicion.",
+            "source_detail": "Merriam-Webster Legal Definition; retrieved lines 199–209. This supports the general lexical note only, not a jurisdiction-specific legal test."
+          },
+          {
+            "id": "F-MW-8",
+            "form": "suspicion",
+            "kind": "derived_form",
+            "statement": "The same entry also lists suspicion as a chiefly dialectal transitive verb meaning suspect.",
+            "source_detail": "Merriam-Webster Dictionary, second part-of-speech entry; retrieved lines 58–69."
+          },
+          {
+            "id": "F-MW-9",
+            "form": "suspicious",
+            "kind": "derived_form",
+            "statement": "The related adjective suspicious can mean tending to arouse suspicion, disposed to suspect or distrust, or expressing suspicion.",
+            "source_detail": "Merriam-Webster Dictionary, suspicious entry, senses 1–3; retrieved lines 31–56."
+          },
+          {
+            "id": "F-MW-10",
+            "form": "suspiciously",
+            "kind": "derived_form",
+            "statement": "The suspicious entry lists suspiciously as its adverb form.",
+            "source_detail": "Merriam-Webster Dictionary, suspicious entry; retrieved line 58."
+          },
+          {
+            "id": "F-MW-11",
+            "form": "suspiciousness",
+            "kind": "derived_form",
+            "statement": "The suspicious entry lists suspiciousness as its noun form.",
+            "source_detail": "Merriam-Webster Dictionary, suspicious entry; retrieved line 60."
+          },
+          {
+            "id": "F-MW-12",
+            "form": "suspicion",
+            "kind": "register",
+            "statement": "The entry labels the verb use chiefly dialectal, distinguishing it from the standard noun uses.",
+            "source_detail": "Merriam-Webster Dictionary, second part-of-speech entry; retrieved lines 60–69."
+          }
+        ]
+      },
+      {
+        "id": "S-AHD",
+        "locator": "https://www.ahdictionary.com/word/search.html?q=suspicion",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "harpercollins_american_heritage",
+        "facts": [
+          {
+            "id": "F-AHD-1",
+            "form": "suspicion",
+            "kind": "sense",
+            "statement": "An act or instance of suspecting on little or no evidence.",
+            "source_detail": "American Heritage Dictionary, sense 1; retrieved lines 45–58."
+          },
+          {
+            "id": "F-AHD-2",
+            "form": "suspicion",
+            "kind": "sense",
+            "statement": "A condition of being suspected, especially of wrongdoing.",
+            "source_detail": "American Heritage Dictionary, sense 2; retrieved lines 45–58."
+          },
+          {
+            "id": "F-AHD-3",
+            "form": "suspicion",
+            "kind": "sense",
+            "statement": "Distrust or lack of confidence.",
+            "source_detail": "American Heritage Dictionary, sense 3; retrieved lines 45–58."
+          },
+          {
+            "id": "F-AHD-4",
+            "form": "suspicion",
+            "kind": "sense",
+            "statement": "A minute amount or slight indication of something, including a trace use.",
+            "source_detail": "American Heritage Dictionary, sense 4; retrieved lines 45–58."
+          },
+          {
+            "id": "F-AHD-5",
+            "form": "suspicion",
+            "kind": "etymology",
+            "statement": "The word is traced through Middle English, influenced by French, to Latin suspectio and suspectus, the past participle of suspicere.",
+            "source_detail": "American Heritage Dictionary, etymology; retrieved lines 45–58."
+          }
+        ]
+      },
+      {
+        "id": "S-ETY",
+        "locator": "https://www.etymonline.com/word/suspicion",
+        "source_type": "etymology_reference",
+        "source_role": "etymology_reference",
+        "independence_group": "etymonline",
+        "facts": [
+          {
+            "id": "F-ETY-1",
+            "form": "suspicion",
+            "kind": "etymology",
+            "statement": "The noun is recorded around 1300 through Anglo-French and Old French from Late Latin suspectio(n-), from suspicere.",
+            "source_detail": "Online Etymology Dictionary, “suspicion” etymology; retrieved lines 52–56."
+          },
+          {
+            "id": "F-ETY-2",
+            "form": "suspicion",
+            "kind": "etymology",
+            "statement": "The source explains the Latin verb historically as “look up at” and notes an early meaning of a suspicious notion or conjecture around the 14th century.",
+            "source_detail": "Online Etymology Dictionary, “suspicion” etymology and sense history; retrieved lines 52–56."
+          }
+        ]
+      }
+    ],
+    "source_union": [
+      {
+        "id": "U-GUILT",
+        "source_fact_ids": [
+          "F-OUP-1",
+          "F-MW-1"
+        ],
+        "canonical_statement": "Suspicion can denote a countable or uncountable belief that someone did something wrong without proof.",
+        "disposition": "included",
+        "rationale": "The article retains the evidence-limited wrongdoing sense; it no longer claims a separate state-of-being-suspected meaning."
+      },
+      {
+        "id": "U-DISTRUST",
+        "source_fact_ids": [
+          "F-OUP-3",
+          "F-MW-4"
+        ],
+        "canonical_statement": "Suspicion can denote doubt or lack of trust toward a person or thing.",
+        "disposition": "included",
+        "rationale": "The article retains the direct distrust sense and gives one source-grounded synonym."
+      },
+      {
+        "id": "U-UNCERTAIN-BELIEF",
+        "source_fact_ids": [
+          "F-OUP-2",
+          "F-MW-2",
+          "F-MW-4"
+        ],
+        "canonical_statement": "Suspicion can denote a belief that a proposition may be true despite lack of proof and can also express broader uncertainty or doubt.",
+        "disposition": "included",
+        "rationale": "Oxford directly defines the countable belief-that sense, and a Merriam-Webster example independently illustrates suspicion about whether a painting is fake. Merriam-Webster also records a broader uncertainty-or-doubt meaning, which informs the related-word comparison; the article does not make it a separate fifth sense."
+      },
+      {
+        "id": "U-SMALL-AMOUNT",
+        "source_fact_ids": [
+          "F-OUP-4",
+          "F-MW-3"
+        ],
+        "canonical_statement": "A singular suspicion can denote a very small amount or faint sign of something.",
+        "disposition": "included",
+        "rationale": "Oxford and Merriam-Webster directly support the retained small-amount use and its examples."
+      },
+      {
+        "id": "U-FRAMES",
+        "source_fact_ids": [
+          "F-OUP-6",
+          "F-MW-4"
+        ],
+        "canonical_statement": "Oxford records suspicion that + clause, on suspicion of + offence, and under suspicion; Merriam-Webster examples attest suspicion that + clause, arouse or raise suspicions, and with suspicion.",
+        "disposition": "integrated",
+        "rationale": "The article retains separately attested frames across the wrongdoing, propositional-belief, and distrust senses. It omits the unsupported bare suspicion of crime/wrongdoing combination and the unsupported confirm suspicions that combination."
+      },
+      {
+        "id": "U-PRONUNCIATION",
+        "source_fact_ids": [
+          "F-OUP-5",
+          "F-MW-5"
+        ],
+        "canonical_statement": "Oxford gives the North American IPA /səˈspɪʃn/; Merriam-Webster separately shows spelling syllabification and a pronunciation respelling with primary stress on the second syllable.",
+        "disposition": "included",
+        "rationale": "The article distinguishes Oxford’s IPA from Merriam-Webster’s spelling division and stress-marked pronunciation respelling; it makes no regional or phonetic equivalence claim."
+      },
+      {
+        "id": "U-ETYMOLOGY",
+        "source_fact_ids": [
+          "F-MW-6",
+          "F-ETY-1"
+        ],
+        "canonical_statement": "Dictionary accounts trace suspicion through Middle English and French to Latin forms related to suspicere, with source-specific forms and routes.",
+        "disposition": "included",
+        "rationale": "The article reports the source-specific route and removes the unsupported suspect-family claim."
+      },
+      {
+        "id": "U-SUSPICIOUS",
+        "source_fact_ids": [
+          "F-MW-9"
+        ],
+        "canonical_statement": "Suspicious is a related adjective that can describe a person disposed to distrust and something that arouses suspicion.",
+        "disposition": "integrated",
+        "rationale": "The article includes the related adjective and distinguishes psychological from property uses."
+      },
+      {
+        "id": "U-SUSPICIOUSLY",
+        "source_fact_ids": [
+          "F-MW-10"
+        ],
+        "canonical_statement": "Suspiciously is listed as an adverb related to suspicious.",
+        "disposition": "integrated",
+        "rationale": "The article includes suspiciously as a related form."
+      },
+      {
+        "id": "U-SUSPICIOUSNESS",
+        "source_fact_ids": [
+          "F-MW-11"
+        ],
+        "canonical_statement": "Suspiciousness is listed as a noun related to suspicious.",
+        "disposition": "integrated",
+        "rationale": "The article includes suspiciousness as a related form."
+      },
+      {
+        "id": "U-DIALECT-VERB",
+        "source_fact_ids": [
+          "F-MW-8",
+          "F-MW-12"
+        ],
+        "canonical_statement": "Merriam-Webster records a chiefly dialectal transitive verb suspicion meaning suspect.",
+        "disposition": "integrated",
+        "rationale": "The article mentions this uncommon verb separately and does not present it as a main standard noun sense."
+      },
+      {
+        "id": "U-LEGAL-USE",
+        "source_fact_ids": [
+          "F-MW-7"
+        ],
+        "canonical_statement": "The legal dictionary entry describes suspicion as a mental state generally short of belief and cross-references reasonable suspicion.",
+        "disposition": "integrated",
+        "rationale": "The article limits its legal note to the general meaning and the phrase on suspicion of; it does not explain a jurisdiction-specific reasonable-suspicion test."
+      },
+      {
+        "id": "U-CEFR-LABELS",
+        "source_fact_ids": [
+          "F-CAM-6"
+        ],
+        "canonical_statement": "Cambridge labels its feeling sense B2 and its belief-in-guilt sense C1.",
+        "disposition": "excluded",
+        "rationale": "The Cambridge locator was inaccessible during direct review, and the article does not make CEFR-level claims."
+      },
+      {
+        "id": "U-CAM-GUILT",
+        "source_fact_ids": [
+          "F-CAM-2"
+        ],
+        "canonical_statement": "A Cambridge search result reports a countable or uncountable belief that someone committed a crime or did something wrong.",
+        "disposition": "excluded",
+        "rationale": "The Cambridge entry locator returned 403 during direct review; this fact is preserved as an unverified search-result record and is not used to support the article."
+      },
+      {
+        "id": "U-CAM-DISTRUST",
+        "source_fact_ids": [
+          "F-CAM-3"
+        ],
+        "canonical_statement": "A Cambridge search result reports a doubt or lack-of-trust sense with examples about a group’s politics.",
+        "disposition": "excluded",
+        "rationale": "The Cambridge entry locator returned 403 during direct review; the article relies on accessible Oxford, Merriam-Webster, and American Heritage evidence instead."
+      },
+      {
+        "id": "U-CAM-SMALL-AMOUNT",
+        "source_fact_ids": [
+          "F-CAM-4"
+        ],
+        "canonical_statement": "A Cambridge search result reports a singular small-amount use illustrated by a slight smile.",
+        "disposition": "excluded",
+        "rationale": "The Cambridge entry locator returned 403 during direct review; the article’s small-amount sense and smile frame rely on accessible Oxford, Merriam-Webster, and American Heritage facts."
+      },
+      {
+        "id": "U-CAM-PRONUNCIATION",
+        "source_fact_ids": [
+          "F-CAM-5"
+        ],
+        "canonical_statement": "A Cambridge search result reports UK and US IPA as /səˈspɪʃ.ən/.",
+        "disposition": "excluded",
+        "rationale": "The Cambridge entry locator returned 403 during direct review; no Cambridge IPA or regional comparison is used in the article."
+      },
+      {
+        "id": "U-AHD-UNVERIFIED",
+        "source_fact_ids": [
+          "F-AHD-1",
+          "F-AHD-2",
+          "F-AHD-3",
+          "F-AHD-4",
+          "F-AHD-5"
+        ],
+        "canonical_statement": "American Heritage search-result facts cover suspected wrongdoing, being suspected, distrust, a small amount, and an etymology route.",
+        "disposition": "excluded",
+        "rationale": "The American Heritage locator could not be opened during direct review. These search-result facts are preserved in the inventory but are not used to support article claims."
+      },
+      {
+        "id": "U-ETYMOLOGY-DETAIL-EXCLUDED",
+        "source_fact_ids": [
+          "F-ETY-2"
+        ],
+        "canonical_statement": "The etymology source adds a literal historical gloss for the Latin verb and a note about an early meaning of suspicion.",
+        "disposition": "excluded",
+        "rationale": "The article limits its etymology to the historical route and source-specific Latin forms; this additional semantic-history detail is not needed for that claim."
+      },
+      {
+        "id": "U-CAM-UNCERTAIN-BELIEF",
+        "source_fact_ids": [
+          "F-CAM-1"
+        ],
+        "canonical_statement": "A Cambridge search result reports a countable belief that something may be true and a that-clause pattern.",
+        "disposition": "excluded",
+        "rationale": "The entry locator could not be accessed; this search-result fact is retained for audit traceability but does not support the article."
+      }
+    ],
+    "claim_units": [
+      {
+        "id": "C-GUILT",
+        "union_ids": [
+          "U-GUILT"
+        ],
+        "subject_form": "suspicion",
+        "claim_type": "sense",
+        "statement": "Suspicion can denote a countable or uncountable belief that someone did something wrong without proof.",
+        "article_target_ids": [
+          "definition:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-OUP-1",
+            "support_summary": "Oxford defines a belief that someone did something wrong without proof and marks countable and uncountable use."
+          },
+          {
+            "source_fact_id": "F-MW-1",
+            "support_summary": "Merriam-Webster defines suspecting something wrong without proof or slight evidence, and lists mistrust as a synonym."
+          }
+        ]
+      },
+      {
+        "id": "C-PROPOSITIONAL-BELIEF",
+        "union_ids": [
+          "U-UNCERTAIN-BELIEF"
+        ],
+        "subject_form": "suspicion",
+        "claim_type": "sense",
+        "statement": "Suspicion can denote a belief that a proposition may be true even when there is no proof, without requiring suspected wrongdoing.",
+        "article_target_ids": [
+          "definition:001",
+          "grammar_pattern:001",
+          "grammar_pattern:002",
+          "collocation:003",
+          "collocation:004",
+          "synonym:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-OUP-2",
+            "support_summary": "Oxford directly defines a countable belief or suspicion that a proposition is true despite lack of proof."
+          },
+          {
+            "source_fact_id": "F-MW-2",
+            "support_summary": "Merriam-Webster describes a broader sense of suspicion as mental uneasiness and uncertainty or doubt, informing the related-word comparison."
+          },
+          {
+            "source_fact_id": "F-MW-4",
+            "support_summary": "A Merriam-Webster example paraphrased in the source record shows suspicion that a painting is fake, a noncriminal proposition."
+          }
+        ]
+      },
+      {
+        "id": "C-DISTRUST",
+        "union_ids": [
+          "U-DISTRUST"
+        ],
+        "subject_form": "suspicion",
+        "claim_type": "sense",
+        "statement": "Suspicion can mean doubt or lack of trust directed toward a person or thing.",
+        "article_target_ids": [
+          "definition:002",
+          "usage_note:002",
+          "synonym:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-OUP-3",
+            "support_summary": "Oxford defines this sense as doubt or distrust directed toward a person or thing."
+          },
+          {
+            "source_fact_id": "F-MW-4",
+            "support_summary": "Merriam-Webster gives an example of regarding a plan with suspicion."
+          }
+        ]
+      },
+      {
+        "id": "C-TRACE-MEANING",
+        "union_ids": [
+          "U-SMALL-AMOUNT"
+        ],
+        "subject_form": "suspicion",
+        "claim_type": "sense",
+        "statement": "A suspicion can mean a barely detectable amount or slight sign of something.",
+        "article_target_ids": [
+          "definition:003",
+          "synonym:003",
+          "synonym:004"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-OUP-4",
+            "support_summary": "Oxford defines the singular formal use as a small amount or hint."
+          },
+          {
+            "source_fact_id": "F-MW-3",
+            "support_summary": "Merriam-Webster defines a barely detectable amount or trace."
+          }
+        ]
+      },
+      {
+        "id": "C-TRACE-FRAMES",
+        "union_ids": [
+          "U-SMALL-AMOUNT"
+        ],
+        "subject_form": "suspicion",
+        "claim_type": "frame",
+        "statement": "The small-amount use occurs in a suspicion of a smile and a suspicion of truth.",
+        "article_target_ids": [
+          "grammar_pattern:008",
+          "grammar_pattern:009",
+          "collocation:008",
+          "collocation:009"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-OUP-4",
+            "support_summary": "Oxford gives a suspicion of a smile and a suspicion of truth in its small-amount sense."
+          }
+        ]
+      },
+      {
+        "id": "C-FRAMES-OXFORD",
+        "union_ids": [
+          "U-FRAMES"
+        ],
+        "subject_form": "suspicion",
+        "claim_type": "frame",
+        "statement": "Oxford records suspicion that + clause, on suspicion of + offence, and under suspicion as separate patterns.",
+        "article_target_ids": [
+          "grammar_pattern:001",
+          "grammar_pattern:003",
+          "grammar_pattern:004",
+          "collocation:001",
+          "collocation:002",
+          "collocation:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-OUP-6",
+            "support_summary": "Oxford directly lists suspicion that, on suspicion of an offence, and under suspicion patterns."
+          }
+        ]
+      },
+      {
+        "id": "C-FRAMES-MW",
+        "union_ids": [
+          "U-FRAMES"
+        ],
+        "subject_form": "suspicion",
+        "claim_type": "frame",
+        "statement": "Merriam-Webster examples attest suspicion that + clause, arouse or raise suspicions, and regard a plan with suspicion.",
+        "article_target_ids": [
+          "grammar_pattern:001",
+          "grammar_pattern:002",
+          "grammar_pattern:005",
+          "grammar_pattern:006",
+          "grammar_pattern:007",
+          "collocation:004",
+          "collocation:005",
+          "collocation:006",
+          "collocation:007"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-MW-4",
+            "support_summary": "Merriam-Webster examples include a noncriminal suspicion-that clause, arouse or raise suspicions, and regarding a plan with suspicion."
+          }
+        ]
+      },
+      {
+        "id": "C-PRON",
+        "union_ids": [
+          "U-PRONUNCIATION"
+        ],
+        "subject_form": "suspicion",
+        "claim_type": "pronunciation",
+        "statement": "Oxford gives the North American IPA /səˈspɪʃn/; Merriam-Webster shows sus·pi·cion as a spelling division and sə-ˈspi-shən as a pronunciation respelling with second-syllable stress.",
+        "article_target_ids": [
+          "pronunciation:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-OUP-5",
+            "support_summary": "Oxford’s headword pronunciation gives the North American IPA /səˈspɪʃn/."
+          },
+          {
+            "source_fact_id": "F-MW-5",
+            "support_summary": "Merriam-Webster distinguishes the syllabified spelling from its stress-marked pronunciation respelling sə-ˈspi-shən."
+          }
+        ]
+      },
+      {
+        "id": "C-ETYMOLOGY",
+        "union_ids": [
+          "U-ETYMOLOGY"
+        ],
+        "subject_form": "suspicion",
+        "claim_type": "etymology",
+        "statement": "Dictionary accounts trace suspicion through Middle English and French to Latin forms related to suspicere; sources differ in the Latin form and route.",
+        "article_target_ids": [
+          "etymology:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-MW-6",
+            "support_summary": "Merriam-Webster gives the Middle English and Anglo-French route to Latin suspicio from suspicere."
+          },
+          {
+            "source_fact_id": "F-ETY-1",
+            "support_summary": "Etymonline records the Anglo-French and Old French route to Late Latin suspectio(n-) from suspicere."
+          }
+        ]
+      },
+      {
+        "id": "C-SUSPICIOUS",
+        "union_ids": [
+          "U-SUSPICIOUS"
+        ],
+        "subject_form": "suspicious",
+        "claim_type": "derived_form",
+        "statement": "Suspicious can describe a person disposed to distrust and something that arouses suspicion.",
+        "article_target_ids": [
+          "word_formation:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-MW-9",
+            "support_summary": "The Merriam-Webster suspicious entry gives distrustful-person and suspicion-arousing-property meanings."
+          }
+        ]
+      },
+      {
+        "id": "C-SUSPICIOUSLY",
+        "union_ids": [
+          "U-SUSPICIOUSLY"
+        ],
+        "subject_form": "suspiciously",
+        "claim_type": "derived_form",
+        "statement": "Suspiciously is listed as the adverb form related to suspicious.",
+        "article_target_ids": [
+          "word_formation:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-MW-10",
+            "support_summary": "The Merriam-Webster suspicious entry lists suspiciously as its adverb form."
+          }
+        ]
+      },
+      {
+        "id": "C-SUSPICIOUSNESS",
+        "union_ids": [
+          "U-SUSPICIOUSNESS"
+        ],
+        "subject_form": "suspiciousness",
+        "claim_type": "derived_form",
+        "statement": "Suspiciousness is listed as the noun form related to suspicious.",
+        "article_target_ids": [
+          "word_formation:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-MW-11",
+            "support_summary": "The Merriam-Webster suspicious entry lists suspiciousness as its noun form."
+          }
+        ]
+      },
+      {
+        "id": "C-DIALECT-VERB",
+        "union_ids": [
+          "U-DIALECT-VERB"
+        ],
+        "subject_form": "suspicion",
+        "claim_type": "usage",
+        "statement": "Merriam-Webster records a transitive verb suspicion meaning suspect and labels it chiefly dialectal.",
+        "article_target_ids": [
+          "word_formation:004"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-MW-8",
+            "support_summary": "Merriam-Webster records the dialectal transitive verb suspicion meaning suspect."
+          },
+          {
+            "source_fact_id": "F-MW-12",
+            "support_summary": "Merriam-Webster labels that verb use chiefly dialectal."
+          }
+        ]
+      },
+      {
+        "id": "C-LEGAL-NOTE",
+        "union_ids": [
+          "U-LEGAL-USE"
+        ],
+        "subject_form": "suspicion",
+        "claim_type": "usage",
+        "statement": "A legal dictionary describes suspicion as a mental state usually short of belief and cross-references reasonable suspicion, without asserting a jurisdiction-specific legal test.",
+        "article_target_ids": [
+          "usage_note:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-MW-7",
+            "support_summary": "The Merriam-Webster legal definition says suspicion is usually short of belief and cross-references reasonable suspicion."
+          }
+        ]
+      }
+    ]
+  }
+}

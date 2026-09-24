@@ -1,0 +1,27 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "evidence",
+  "reviewer": {
+    "agent_id": "/root/round7_evidence",
+    "declared_model": "gpt-6",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 113,
+        "line_end": 113,
+        "exact_quote": "違い: Oxfordは本語義を doubt or distrust と説明し、両語の意味が重なることを示している。"
+      },
+      "severity": "blocking",
+      "rationale": "開いたOxfordの2 locatorでは、この語義を「the feeling that you cannot trust somebody/something」と説明している。これは不信の意味は支えるが、Oxfordがdoubtも含む「doubt or distrust」と明示しているという出典帰属は直接支えない。対象の類義語差の根拠としてリンクされたF-OUP-3はこの主張を部分的にしか支えない。",
+      "evidence_link_ids": [
+        "F-OUP-3"
+      ],
+      "suggested_direction": "Oxfordの記述に合わせて「信用できない感覚」と言い換えるか、doubtとの重なりを直接示す根拠に差し替える。"
+    }
+  ]
+}

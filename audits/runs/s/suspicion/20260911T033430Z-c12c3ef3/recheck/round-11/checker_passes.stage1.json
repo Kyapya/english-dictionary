@@ -1,0 +1,401 @@
+{
+  "schema_version": "checker_recheck_stage1_v1",
+  "stage": "checker_recheck/round-11/stage1",
+  "run_id": "20260911T033430Z-c12c3ef3",
+  "round": 11,
+  "input_body_sha256": "13559d31b050882ff1d24890c8d22914c8f87e20f0ddb0e509e2a8178469bd82",
+  "source_artifact_sha256": "d44f6f1eb825f6bfcff285716c87db277e5c8ceaeff55140e230ec57726868a2",
+  "recorded_at": "2026-09-23T13:46:25.125839+00:00",
+  "pass_outputs": [
+    {
+      "pass_id": "translation",
+      "reviewer": {
+        "agent_id": "/root/round11_translation",
+        "declared_model": "GPT-6",
+        "mode": "handoff",
+        "ingested_by": "human"
+      },
+      "request_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-11/translation.request.json",
+      "request_sha256": "240550f67df9d0c7e2508d26473ce0af15c3c2eabad3bd5ea26dea3488cdce91",
+      "response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-11/translation.response.json",
+      "response_sha256": "aa76b33dc9b5aaf3b5a3dc065c015fbfb56dddbb92e9d8e13b6cc892403bf86b",
+      "input_body_sha256": "13559d31b050882ff1d24890c8d22914c8f87e20f0ddb0e509e2a8178469bd82",
+      "source_artifact_sha256": "d44f6f1eb825f6bfcff285716c87db277e5c8ceaeff55140e230ec57726868a2",
+      "normalized_input_sha256": "f94b0b6eadf480072516bf32ee8d05d8e2caea44579dd9b0f217277f02a49956",
+      "findings": [],
+      "response": {
+        "schema_version": "check_pass_response_v6",
+        "pass_id": "translation",
+        "reviewer": {
+          "agent_id": "/root/round11_translation",
+          "declared_model": "GPT-6",
+          "mode": "handoff",
+          "ingested_by": "human"
+        },
+        "input_body_sha256": "13559d31b050882ff1d24890c8d22914c8f87e20f0ddb0e509e2a8178469bd82",
+        "source_artifact_sha256": "d44f6f1eb825f6bfcff285716c87db277e5c8ceaeff55140e230ec57726868a2",
+        "normalized_input_sha256": "f94b0b6eadf480072516bf32ee8d05d8e2caea44579dd9b0f217277f02a49956",
+        "findings": []
+      }
+    },
+    {
+      "pass_id": "sense-structure",
+      "reviewer": {
+        "agent_id": "/root/round11_sense_structure",
+        "declared_model": "GPT-6",
+        "mode": "handoff",
+        "ingested_by": "human"
+      },
+      "request_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-11/sense-structure.request.json",
+      "request_sha256": "3f1e5ff5ac21dde23d072e2b7edc93de3272e4d04ca3f54df4848b61fe44fd90",
+      "response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-11/sense-structure.response.json",
+      "response_sha256": "4b44f7e76aa0fb43d1e5fe6d75504f15cb367621417a79e6a30c85d0f9a1128c",
+      "input_body_sha256": "13559d31b050882ff1d24890c8d22914c8f87e20f0ddb0e509e2a8178469bd82",
+      "source_artifact_sha256": "d44f6f1eb825f6bfcff285716c87db277e5c8ceaeff55140e230ec57726868a2",
+      "normalized_input_sha256": "aea81546f7d282a1955ab433fd530241bdc6be896e4f8c5de00253202cc549b0",
+      "findings": [
+        {
+          "taxonomy_id": "cross_section_internal_contradiction",
+          "location": {
+            "section": "word_formation",
+            "line_start": 26,
+            "line_end": 26,
+            "exact_quote": "・suspicion（動詞）：他動詞で「～を疑う」。Merriam-Webster では chiefly dialectal とされる。  "
+          },
+          "severity": "blocking",
+          "rationale": "語形成欄に、名詞の3義とは品詞・項構造が異なる他動詞用法が独立して記載されていますが、番号付き語義にも明示的な除外にも現れていません。仕様は語形成欄だけにある主要な品詞転換を番号付き語義の欠落として扱います。chiefly dialectal は採録しない根拠になり得ますが、現状の記載は除外判断ではなく用法の提示です。採録するなら動詞義を番号付きで追加し、除外するなら方針を明示してください。",
+          "evidence_link_ids": [],
+          "suggested_direction": "動詞義を番号付き語義として追加するか、chiefly dialectal を根拠に学習用語義から除外する判断を明示する。"
+        }
+      ],
+      "response": {
+        "schema_version": "check_pass_response_v6",
+        "pass_id": "sense-structure",
+        "reviewer": {
+          "agent_id": "/root/round11_sense_structure",
+          "declared_model": "GPT-6",
+          "mode": "handoff",
+          "ingested_by": "human"
+        },
+        "input_body_sha256": "13559d31b050882ff1d24890c8d22914c8f87e20f0ddb0e509e2a8178469bd82",
+        "source_artifact_sha256": "d44f6f1eb825f6bfcff285716c87db277e5c8ceaeff55140e230ec57726868a2",
+        "normalized_input_sha256": "aea81546f7d282a1955ab433fd530241bdc6be896e4f8c5de00253202cc549b0",
+        "findings": [
+          {
+            "taxonomy_id": "cross_section_internal_contradiction",
+            "location": {
+              "section": "word_formation",
+              "line_start": 26,
+              "line_end": 26,
+              "exact_quote": "・suspicion（動詞）：他動詞で「～を疑う」。Merriam-Webster では chiefly dialectal とされる。  "
+            },
+            "severity": "blocking",
+            "rationale": "語形成欄に、名詞の3義とは品詞・項構造が異なる他動詞用法が独立して記載されていますが、番号付き語義にも明示的な除外にも現れていません。仕様は語形成欄だけにある主要な品詞転換を番号付き語義の欠落として扱います。chiefly dialectal は採録しない根拠になり得ますが、現状の記載は除外判断ではなく用法の提示です。採録するなら動詞義を番号付きで追加し、除外するなら方針を明示してください。",
+            "evidence_link_ids": [],
+            "suggested_direction": "動詞義を番号付き語義として追加するか、chiefly dialectal を根拠に学習用語義から除外する判断を明示する。"
+          }
+        ]
+      }
+    },
+    {
+      "pass_id": "qualification",
+      "reviewer": {
+        "agent_id": "/root/round11_qualification",
+        "declared_model": "GPT-6",
+        "mode": "handoff",
+        "ingested_by": "human"
+      },
+      "request_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-11/qualification.request.json",
+      "request_sha256": "2618b754da4c51241e4193b4abf8c7574f1ec4ccf3cabd613682e842482ae7e1",
+      "response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-11/qualification.response.json",
+      "response_sha256": "44b023601666b8c5a6e793164f892e79b4f129e21d33e7c90252aff11e7fa41c",
+      "input_body_sha256": "13559d31b050882ff1d24890c8d22914c8f87e20f0ddb0e509e2a8178469bd82",
+      "source_artifact_sha256": "d44f6f1eb825f6bfcff285716c87db277e5c8ceaeff55140e230ec57726868a2",
+      "normalized_input_sha256": "6d89937593c438c0d82cc6d1e798d81c52d5d2d38801dbf9d05e68eae8b25f81",
+      "findings": [],
+      "response": {
+        "schema_version": "check_pass_response_v6",
+        "pass_id": "qualification",
+        "reviewer": {
+          "agent_id": "/root/round11_qualification",
+          "declared_model": "GPT-6",
+          "mode": "handoff",
+          "ingested_by": "human"
+        },
+        "request_bindings": {
+          "input_body_sha256": "13559d31b050882ff1d24890c8d22914c8f87e20f0ddb0e509e2a8178469bd82",
+          "specification_sha256": "1cf8a434bbe1213c0ef739f4c47ffb41014ab2cd5156d297471af6df85ae40a2",
+          "source_artifact_sha256": "d44f6f1eb825f6bfcff285716c87db277e5c8ceaeff55140e230ec57726868a2",
+          "normalized_input_sha256": "6d89937593c438c0d82cc6d1e798d81c52d5d2d38801dbf9d05e68eae8b25f81"
+        },
+        "findings": []
+      }
+    },
+    {
+      "pass_id": "pronunciation",
+      "reviewer": {
+        "agent_id": "/root/round11_pronunciation_retry",
+        "declared_model": "GPT-6",
+        "mode": "handoff",
+        "ingested_by": "human"
+      },
+      "request_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-11/pronunciation.request.json",
+      "request_sha256": "aa2dd1df0cd5b14a1b046f04ce2b012698b7997cf9f0cb66aaaab5ba1ae5e06f",
+      "response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-11/pronunciation.response.retry.json",
+      "response_sha256": "24c2a704cfb0670373e04aa9df9daf6659318d2a31996c274af48baa3f522556",
+      "input_body_sha256": "13559d31b050882ff1d24890c8d22914c8f87e20f0ddb0e509e2a8178469bd82",
+      "source_artifact_sha256": "d44f6f1eb825f6bfcff285716c87db277e5c8ceaeff55140e230ec57726868a2",
+      "normalized_input_sha256": "0ef29c95e58d9d9a542caa03a61c36787c136056342ebef9a19c6a14c52c2a5e",
+      "findings": [],
+      "response": {
+        "schema_version": "check_pass_response_v6",
+        "pass_id": "pronunciation",
+        "request_sha256": "2fce57f8631471059e2e450a190c2e30fa2201f2b50d69d56269493e18ffbd49",
+        "input_body_sha256": "13559d31b050882ff1d24890c8d22914c8f87e20f0ddb0e509e2a8178469bd82",
+        "specification_sha256": "7e3e94267ac9f917c901c12580b91e570b5989df7adfbf2a39b833478c766d8a",
+        "source_artifact_sha256": "d44f6f1eb825f6bfcff285716c87db277e5c8ceaeff55140e230ec57726868a2",
+        "normalized_input_sha256": "0ef29c95e58d9d9a542caa03a61c36787c136056342ebef9a19c6a14c52c2a5e",
+        "findings": [],
+        "reviewer": {
+          "agent_id": "/root/round11_pronunciation_retry",
+          "declared_model": "GPT-6",
+          "mode": "handoff",
+          "ingested_by": "human"
+        }
+      }
+    },
+    {
+      "pass_id": "evidence",
+      "reviewer": {
+        "agent_id": "/root/round11_evidence_retry",
+        "declared_model": "GPT-6",
+        "mode": "handoff",
+        "ingested_by": "human"
+      },
+      "request_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-11/evidence.request.json",
+      "request_sha256": "8842cc53705a58b8234bd07a46b519a46fcf76a23ba294eadc33d39d1bac667e",
+      "response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-11/evidence.response.retry.json",
+      "response_sha256": "6bbdd21dd82df3bfdae08357dae552c1f67ef77aee92633cbf48478f9abb96ec",
+      "input_body_sha256": "13559d31b050882ff1d24890c8d22914c8f87e20f0ddb0e509e2a8178469bd82",
+      "source_artifact_sha256": "d44f6f1eb825f6bfcff285716c87db277e5c8ceaeff55140e230ec57726868a2",
+      "normalized_input_sha256": "93043fd4a2ea7ff22235fa2c03b25b1b1f728e51d4bc95f179338d7fd1e9952d",
+      "findings": [
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "frames",
+            "line_start": 44,
+            "line_end": 44,
+            "exact_quote": "raise some suspicion among 〈people〉 that 〈clause〉＝〈人々〉の間に～ではないかという疑いを生じさせる"
+          },
+          "severity": "blocking",
+          "rationale": "The packet's support for this complete frame is F-MW-4, whose Merriam-Webster example is only “His story has raised some suspicion.” The Oxford locator separately attests suspicion that + clause and gives “There is strong suspicion on both sides that ...”, but neither source attests the combined frame raise some suspicion among people that. The article repeats that unsupported slot combination in the collocation and example at lines 73–75. The cited evidence therefore supports the bare raise some suspicion pattern, not this complete frame; restrict it to the attested frame or provide a source that shows the full construction.",
+          "evidence_link_ids": []
+        }
+      ],
+      "response": {
+        "schema_version": "check_pass_response_v6",
+        "pass_id": "evidence",
+        "input_body_sha256": "13559d31b050882ff1d24890c8d22914c8f87e20f0ddb0e509e2a8178469bd82",
+        "specification_sha256": "f0de393d4d064190e23916b2e8bfda25b2b83fd29e14cf52395c894b8539d7e9",
+        "source_artifact_sha256": "d44f6f1eb825f6bfcff285716c87db277e5c8ceaeff55140e230ec57726868a2",
+        "normalized_input_sha256": "93043fd4a2ea7ff22235fa2c03b25b1b1f728e51d4bc95f179338d7fd1e9952d",
+        "findings": [
+          {
+            "taxonomy_id": "evidence_claim_mismatch",
+            "location": {
+              "section": "frames",
+              "line_start": 44,
+              "line_end": 44,
+              "exact_quote": "raise some suspicion among 〈people〉 that 〈clause〉＝〈人々〉の間に～ではないかという疑いを生じさせる"
+            },
+            "severity": "blocking",
+            "rationale": "The packet's support for this complete frame is F-MW-4, whose Merriam-Webster example is only “His story has raised some suspicion.” The Oxford locator separately attests suspicion that + clause and gives “There is strong suspicion on both sides that ...”, but neither source attests the combined frame raise some suspicion among people that. The article repeats that unsupported slot combination in the collocation and example at lines 73–75. The cited evidence therefore supports the bare raise some suspicion pattern, not this complete frame; restrict it to the attested frame or provide a source that shows the full construction.",
+            "evidence_link_ids": []
+          }
+        ],
+        "reviewer": {
+          "agent_id": "/root/round11_evidence_retry",
+          "declared_model": "GPT-6",
+          "mode": "handoff",
+          "ingested_by": "human"
+        }
+      }
+    },
+    {
+      "pass_id": "frame-relation",
+      "reviewer": {
+        "agent_id": "/root/round11_frame_retry",
+        "declared_model": "gpt-6",
+        "mode": "handoff",
+        "ingested_by": "human"
+      },
+      "request_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-11/frame-relation.request.json",
+      "request_sha256": "0b632797f15af5e5cbc7db5557467f444d16e6ed5d4c1782713ff9084c507bf3",
+      "response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-11/frame-relation.stage1.response.retry.json",
+      "response_sha256": "f3df39cdd23df5f71cd273dabd460ab0f64fa6a2a73260e62937adb287b88add",
+      "input_body_sha256": "13559d31b050882ff1d24890c8d22914c8f87e20f0ddb0e509e2a8178469bd82",
+      "source_artifact_sha256": "d44f6f1eb825f6bfcff285716c87db277e5c8ceaeff55140e230ec57726868a2",
+      "normalized_input_sha256": "fcf76b799739b4390b77c92dbad61f4974f578b0fcdeab80f7383cde7c0644c0",
+      "stage1_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "13559d31b050882ff1d24890c8d22914c8f87e20f0ddb0e509e2a8178469bd82",
+        "blind_request_sha256": "0b632797f15af5e5cbc7db5557467f444d16e6ed5d4c1782713ff9084c507bf3",
+        "recorded_at": "2026-09-23T13:38:24Z",
+        "reviewer": {
+          "agent_id": "/root/round11_frame_retry",
+          "declared_model": "gpt-6",
+          "mode": "handoff",
+          "ingested_by": "human"
+        },
+        "axes": []
+      }
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "agent_id": "/root/round11_example_retry",
+        "declared_model": "GPT-6",
+        "mode": "handoff",
+        "ingested_by": "human"
+      },
+      "request_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-11/example-attribution.request.json",
+      "request_sha256": "4e360884b19ca830b1b00efaba122f132dc5cd2ff3b66cb784284f1fa4827d13",
+      "response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-11/example-attribution.blind-record.retry.corrected.json",
+      "response_sha256": "29f28d55e2bc5c7bc8c490021ca8cadeea74241e94b9bfb4760e6771ebacd710",
+      "input_body_sha256": "13559d31b050882ff1d24890c8d22914c8f87e20f0ddb0e509e2a8178469bd82",
+      "source_artifact_sha256": "d44f6f1eb825f6bfcff285716c87db277e5c8ceaeff55140e230ec57726868a2",
+      "normalized_input_sha256": "c712ad0c33a97d1900e2c885b6582f980239b4393642a5a7c110e4d5650d4210",
+      "stage1_blind_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "recorded_at": "2026-09-23T13:39:47+00:00",
+        "input_body_sha256": "13559d31b050882ff1d24890c8d22914c8f87e20f0ddb0e509e2a8178469bd82",
+        "blind_request_sha256": "4e360884b19ca830b1b00efaba122f132dc5cd2ff3b66cb784284f1fa4827d13",
+        "reviewer": {
+          "agent_id": "/root/round11_example_retry",
+          "declared_model": "GPT-6",
+          "mode": "handoff",
+          "ingested_by": "human"
+        },
+        "attributions": [
+          {
+            "example_id": "ex-9f984baaf876",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "aroused residents' suspicions",
+              "that officials had concealed the project's true cost"
+            ],
+            "rationale": "The phrase ‘that officials had concealed the project's true cost’ gives the proposition residents suspect may be true, selecting sense:001. Sense:002 would be a wary attitude toward officials or policy; this example instead states the suspicion's propositional content."
+          },
+          {
+            "example_id": "ex-d8608a3c86ab",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "raised some suspicion",
+              "that several invoices had been altered"
+            ],
+            "rationale": "The phrase ‘that several invoices had been altered’ supplies the proposition that may be true, selecting sense:001. Sense:002 would describe the auditors' wary attitude toward a target, while this example expresses a specific belief about whether an event occurred."
+          },
+          {
+            "example_id": "ex-95a6ceafa529",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "had a suspicion",
+              "that the cashier had altered the sales records"
+            ],
+            "rationale": "The phrase ‘that the cashier had altered the sales records’ is the content of the manager's suspicion, selecting sense:001. Sense:002 would be a distrustful attitude toward the cashier; this sentence instead gives a proposition about possible wrongdoing."
+          },
+          {
+            "example_id": "ex-a876117eef6a",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "remained under suspicion",
+              "whether it had falsified invoices"
+            ],
+            "rationale": "The phrase ‘whether it had falsified invoices’ identifies the possible wrongdoing behind ‘remained under suspicion’, selecting sense:001. Sense:002 would express general wariness toward the contractor, whereas the sentence frames a specific proposition about possible guilt."
+          },
+          {
+            "example_id": "ex-0782305b7d28",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "a suspicion of truth in it"
+            ],
+            "rationale": "‘A suspicion of truth in it’ means a slight element or hint of truth present in the tale, the trace reading in sense:003. Sense:001 is a plausible competitor because suspicion can concern whether something is true, but that reading would take a proposition as its content (for example, suspicion that the tale was true); here ‘of truth in it’ presents truth as a small component within the tale. Sense:002’s distrustful stance is also absent."
+          },
+          {
+            "example_id": "ex-9e7134e27c9f",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "a suspicion of a smile"
+            ],
+            "rationale": "The phrase ‘a suspicion of a smile’ means a faint trace of a smile, selecting sense:003. Sense:001 would concern a proposition suspected to be true (such as that she smiled); here the construction presents the smile as barely perceptible, not a belief or a wary attitude."
+          },
+          {
+            "example_id": "ex-e66631bea145",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "regarded the sudden policy change with suspicion"
+            ],
+            "rationale": "The phrase ‘regarded the sudden policy change with suspicion’ uses suspicion as the residents' wary stance toward that target, selecting sense:002. Sense:001 would express a proposition thought possibly true; this sentence instead describes how they regarded the policy change."
+          },
+          {
+            "example_id": "ex-a33fa4d8f986",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "arrested on suspicion of fraud"
+            ],
+            "rationale": "‘Arrested on suspicion of fraud’ uses suspicion as the unconfirmed belief that the people may have committed a specified offense, matching sense:001. Sense:002’s general distrust or caution toward them would not express the stated possible crime that forms the basis of the arrest. Sense:003, a trace or small amount, is not compatible with this construction."
+          },
+          {
+            "example_id": "ex-4cbcb52e28fb",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "had a suspicion",
+              "that the meeting had been canceled"
+            ],
+            "rationale": "The phrase ‘that the meeting had been canceled’ supplies the proposition the speaker thinks may be true, selecting sense:001. Sense:002 would be a wary attitude toward the meeting or its organizers; this sentence states a specific belief-content instead."
+          }
+        ]
+      }
+    }
+  ],
+  "reviewer_agent_ids": [
+    "/root/round11_translation",
+    "/root/round11_sense_structure",
+    "/root/round11_qualification",
+    "/root/round11_pronunciation_retry",
+    "/root/round11_evidence_retry",
+    "/root/round11_frame_retry",
+    "/root/round11_example_retry"
+  ],
+  "summary": "Seven independent current-body stage-1 checks validated; example attribution and frame axis records remain blind pending connector-published checkpoint. Frame-relation stage 2 is pending."
+}

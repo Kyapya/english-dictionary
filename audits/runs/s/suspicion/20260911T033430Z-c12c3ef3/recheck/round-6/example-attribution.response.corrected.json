@@ -1,0 +1,106 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "stage": 1,
+  "input_body_sha256": "4ec3c2363dbe4f7fd8554c52c8c284ea6aa01e952f0cc1ade3a10c3f95e1bd86",
+  "recorded_at": "2026-09-23T12:07:04Z",
+  "reviewer": {
+    "agent_id": "/root/round6_example_attribution",
+    "declared_model": "GPT-6",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "attributions": [
+    {
+      "example_id": "ex-b70e30037df8",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "had altered the sales records"
+      ],
+      "rationale": "最有力は犯罪・不正行為の可能性を疑う語義1。「had altered the sales records」が記録の改ざんという不正の可能性を表す。語義2の単なる命題への疑いも形式上は候補だが、この節では疑いの対象が不正行為なので語義1がより自然。",
+      "classification": "unique"
+    },
+    {
+      "example_id": "ex-46bb15044e9d",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "that the meeting had been canceled"
+      ],
+      "rationale": "最有力は確証前に命題の真偽を疑う語義2。「that the meeting had been canceled」は会議中止という事柄そのものを疑いの内容にする。語義1の犯罪・不正行為の可能性を示す語句はなく、その読みはここでは成立しにくい。",
+      "classification": "unique"
+    },
+    {
+      "example_id": "ex-f8be863341df",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "a suspicion of truth in it"
+      ],
+      "rationale": "最有力はごく少量・かすかな兆候を表す語義4。「a suspicion of truth in it」は物語の中に真実味がわずかに含まれることを表す。語義2なら物語が真実かもしれないという命題上の疑いになるが、「of truth in it」という内在する程度の表現がその読みを退ける。",
+      "classification": "unique"
+    },
+    {
+      "example_id": "ex-17d9436b5d43",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "aroused suspicions",
+        "no longer trusted the officials' explanation"
+      ],
+      "rationale": "最有力は不信を伴う態度を表す語義3。「no longer trusted the officials' explanation」が、住民の説明への不信という態度を明示する。語義2の特定命題が真実かどうかの疑いも近いが、例文は疑わしい命題を述べるのでなく、説明への信頼を失った態度として用いている。",
+      "classification": "unique"
+    },
+    {
+      "example_id": "ex-6fdb02994e37",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "a suspicion of a smile"
+      ],
+      "rationale": "最有力はかすかな気配を表す語義4。「a suspicion of a smile」は返事に笑みがわずかに感じられたという意味になる。語義2の命題への疑いでは、笑みが返事にかすかに含まれるという「of a smile」の構文を説明できない。",
+      "classification": "unique"
+    },
+    {
+      "example_id": "ex-d47d2048bb86",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "on suspicion of fraud"
+      ],
+      "rationale": "最有力は犯罪・不正の容疑を表す語義1。「on suspicion of fraud」は詐欺をした疑いを理由とする逮捕を示す。語義2の一般的な命題への疑いでは、この容疑を理由とする法的構文とfraudの意味を説明できない。",
+      "classification": "unique"
+    },
+    {
+      "example_id": "ex-7bb6a5a24b4d",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "regarded the sudden policy change with suspicion"
+      ],
+      "rationale": "最有力は対象を信用しきれず疑いの目で見る態度を表す語義3。「regarded ... with suspicion」は方針変更に対する住民の見方・態度を表す。語義2なら方針変更に関する特定の命題を疑う読みだが、その命題内容は示されず、with suspicionの態度表現が語義3を選ぶ。",
+      "classification": "unique"
+    },
+    {
+      "example_id": "ex-c545878f6e95",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "under suspicion",
+        "whether it had falsified invoices"
+      ],
+      "rationale": "最有力は犯罪・不正行為の可能性を疑う語義1。「whether it had falsified invoices」は請負業者が請求書を偽造したかを捜査している状況を示す。語義2の一般的な事柄の真偽への疑いは、調査対象が明示的な不正行為であるこの用法には当てはまりにくい。",
+      "classification": "unique"
+    }
+  ],
+  "blind_request_sha256": "df817d23cd2d6545b88b64b3084ec1015a57162419e20e646f97e7b9dcf2f4aa"
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "checker_recheck_supersession_status_v2",
+  "recorded_at": "2026-09-23T15:23:25.726991+00:00",
+  "round": "round-12",
+  "review_input_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+  "current_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+  "source_artifact_sha256": "cff7da1f22ae25fe071b48da51af07d50df1d6d825a6330a6abac5cdfc52420c",
+  "classification": "partially_current_frame_recheck_required",
+  "retained_passes": [
+    "translation",
+    "sense-structure",
+    "example-attribution",
+    "qualification",
+    "pronunciation",
+    "evidence"
+  ],
+  "rerun_passes": [
+    "frame-relation"
+  ],
+  "reason": "The newest workflow reconciliation confirms the committed round-12 stage1 checkpoint and reviewed_entry bind to the current e0cd body. Six independent pass outputs remain valid. Frame-relation stage1 and stage2 are repeated by one new reviewer because the original reviewer is unavailable for the required serial stage2.",
+  "supersedes_prior_local_status_record": true,
+  "prior_local_review_input_assumption": "de1e2ebe007479cb86148ed85238f917c19c2f7472d4d3c96dbe55f4a87198b8",
+  "reviewer_responses_preserved": true,
+  "use_six_retained_passes_in_final_recheck_manifest": true,
+  "use_original_frame_relation_output_in_final_recheck_manifest": false,
+  "superseded_by": "round-13 frame-relation retry; six round-12 outputs retained"
+}

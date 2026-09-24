@@ -1,0 +1,57 @@
+{
+  "pass_id": "frame-relation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-6",
+    "ingested_by": "human",
+    "agent_id": "/root/suspicion_frame_relation_review"
+  },
+  "antonym_axis_blind_record": {
+    "schema_version": "antonym_axis_blind_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "da8aad7f1392f85366ffaa2362a0a2b71689dcd637a80e23fa94b8563859e47d",
+    "blind_request_sha256": "c604446f677a1186d810a2b3fce0f2782a90f683bcafabbd5399ac637e26498c",
+    "recorded_at": "2026-09-23T13:02:42Z",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-6",
+      "ingested_by": "human",
+      "agent_id": "/root/suspicion_frame_relation_review"
+    },
+    "axes": [
+      {
+        "item_id": "ant-ae7ac930060e",
+        "axis": "信頼",
+        "relation_type": "程度",
+        "reason": "疑念・不信と信頼は、信頼という同一尺度の異なる程度を示す。"
+      }
+    ]
+  },
+  "antonym_axis_adjudication_record": {
+    "schema_version": "antonym_axis_adjudication_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "da8aad7f1392f85366ffaa2362a0a2b71689dcd637a80e23fa94b8563859e47d",
+    "stage2_request_sha256": "a9ac648c446a3d38285727afb693d970ac0cfa452ca878c5fcfd32d58072a7e4",
+    "blind_record_sha256": "8b1f526f1ea02de7a42aca7fd7cd3900ceb5c91e3fcd953265b4a1695764ba6a",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-6",
+      "ingested_by": "human",
+      "agent_id": "/root/suspicion_frame_relation_review"
+    },
+    "adjudications": [
+      {
+        "item_id": "ant-ae7ac930060e",
+        "flags": [],
+        "rationale": "段階1で固定した軸「信頼」は語義2の定義にある信用・不信から導ける。分類「程度」も、疑って見る態度と相手を信頼する態度の連続する対照として成立する。違い行はこの対照を明確に述べ、対立を否定または限定していないため、F1〜F4に該当しない。",
+        "suggested_direction": null,
+        "f4_severity": null
+      }
+    ],
+    "frame_findings": [],
+    "unrouted_observations": []
+  },
+  "aligned_at": "2026-09-23T13:09:24.605933+00:00",
+  "findings": [],
+  "unrouted_observations": []
+}

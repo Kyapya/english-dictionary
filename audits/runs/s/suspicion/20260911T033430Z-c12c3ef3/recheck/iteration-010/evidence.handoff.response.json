@@ -1,0 +1,134 @@
+{
+  "schema_version": "check_pass_handoff_v1",
+  "pass_id": "evidence",
+  "taxonomy_ids": [
+    "evidence_claim_mismatch"
+  ],
+  "canonicalization": "SHA-256 of the complete parsed request serialized as UTF-8 JSON with lexicographically sorted keys, no insignificant whitespace, and ensure_ascii=false",
+  "raw_request_file_sha256": "45b8063b991d5ac80d0d258c762bec79d0ededfcd624380b932cb256cf8e15bf",
+  "input_body_sha256": "c2f8e5870fc4952f0d4f01836a628d90cbb5bda3636b40d38f08c5d35202dc76",
+  "reviewer_identity": "Codex sub-agent /root/suspicion_evidence_recheck_10",
+  "reviewer_model": "GPT-6",
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 31,
+        "line_end": 31,
+        "exact_quote": "〈8/10〉"
+      },
+      "severity": "blocking",
+      "rationale": "The four sense-level frequency scores are not present in, or directly supported by, any supplied source locator. The opened pages substantiate definitions, patterns, pronunciation, and word history, but provide no corresponding 1–10 frequency scale or scoring method. This same mismatch affects frequency:001 at line 31, frequency:002 at line 91, frequency:003 at line 147, and frequency:004 at line 204; their mapped source facts concern sense definitions or form, not frequency. The evidence link therefore does not support the numerical scores.",
+      "evidence_link_ids": [
+        "frequency:001",
+        "frequency:002",
+        "frequency:003",
+        "frequency:004"
+      ],
+      "suggested_direction": "Provide a directly applicable frequency source and explain the 1–10 scale, or remove/qualify the numerical ratings."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 73,
+        "line_end": 78,
+        "exact_quote": "頻度: 〈7/10〉"
+      },
+      "severity": "blocking",
+      "rationale": "The supplied suspicion-entry pages do not report 1–10 frequency scores for the listed synonyms or antonym. The displayed scores in synonym:001–011 and antonym:001 have no frequency evidence in the mapped source facts. Merriam-Webster's synonym discussion compares a limited set of terms, and Oxford/American Heritage define suspicion senses; none of those passages supports these numeric ratings or a common scale.",
+      "evidence_link_ids": [
+        "synonym:001",
+        "synonym:002",
+        "synonym:003",
+        "synonym:004",
+        "synonym:005",
+        "synonym:006",
+        "synonym:007",
+        "synonym:008",
+        "synonym:009",
+        "synonym:010",
+        "synonym:011",
+        "antonym:001"
+      ],
+      "suggested_direction": "Provide directly applicable frequency evidence and a defined scoring method for each term, or remove/qualify the scores."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 136,
+        "line_end": 141,
+        "exact_quote": "・trust"
+      },
+      "severity": "blocking",
+      "rationale": "The mapped source facts concern suspicion and do not directly establish trust as its antonym or support the specific trust entry. The same source-scope gap applies to the hunch, inkling, and feeling entries (synonym:006–008) and the touch entry (synonym:011): none of the opened suspicion locators defines or contrasts those terms. MW's general suspicion sense and the other dictionaries' suspicion entries do not directly support the stated lexical distinctions for these separate lemmas.",
+      "evidence_link_ids": [
+        "antonym:001",
+        "synonym:006",
+        "synonym:007",
+        "synonym:008",
+        "synonym:011"
+      ],
+      "suggested_direction": "Add direct lexical sources for these terms and their stated contrasts, or remove/limit the unsupported entries."
+    }
+  ],
+  "unrouted_observations": [],
+  "locators_opened": [
+    {
+      "id": "american_heritage",
+      "locator": "https://ahdictionary.com/word/search.html?q=suspicion",
+      "opened": true,
+      "retrieval_refs": [
+        "turn259259view0"
+      ],
+      "observed": "Opened the suspicion entry, including noun senses, informal verb, pronunciation respelling, and etymology."
+    },
+    {
+      "id": "etymonline",
+      "locator": "https://www.etymonline.com/word/suspicion",
+      "opened": true,
+      "retrieval_refs": [
+        "turn259259view1"
+      ],
+      "observed": "Opened the suspicion history entry, including Late Latin suspectionem, Old French spelling influence, and the historical verb note."
+    },
+    {
+      "id": "merriam_webster",
+      "locator": "https://www.merriam-webster.com/dictionary/suspicion",
+      "opened": true,
+      "retrieval_refs": [
+        "turn259259view2",
+        "turn668151view5"
+      ],
+      "observed": "Opened noun and verb entries, pronunciation respelling, synonym comparison, example sentences, etymology, and legal definition."
+    },
+    {
+      "id": "merseyside_police",
+      "locator": "https://www.merseyside.police.uk/news/merseyside/news/2026/june-2026/man-arrested-on-suspicion-of-breach-of-the-peace-on-county-road/",
+      "opened": true,
+      "retrieval_refs": [
+        "turn259259view3",
+        "turn668151view0"
+      ],
+      "observed": "Opened the official release; it states a man was arrested on suspicion of breach of the peace and would be taken to a police station for questioning."
+    },
+    {
+      "id": "oxford_learner",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/suspicion",
+      "opened": true,
+      "retrieval_refs": [
+        "turn259259view4",
+        "turn668151view1",
+        "turn668151view2",
+        "turn668151view3",
+        "turn668151view4"
+      ],
+      "observed": "Opened the entry's pronunciation fields, word family, four noun senses, usage examples, Word Origin, and under suspicion idiom."
+    }
+  ],
+  "canonical_request_hash": "1ebfd495ecefa3acb232d430d7d79ecfce032ae59c3499ddbb2c8bd84d318abf",
+  "reviewer_mode": "independent direct-source evidence review; only the named request and specification were used as local inputs",
+  "canonical_request_hash_sha256": "1ebfd495ecefa3acb232d430d7d79ecfce032ae59c3499ddbb2c8bd84d318abf"
+}

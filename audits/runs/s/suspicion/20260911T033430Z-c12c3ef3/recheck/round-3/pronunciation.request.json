@@ -1,0 +1,42 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "pronunciation",
+  "taxonomy_ids": [
+    "pronunciation_symbol_explanation"
+  ],
+  "specification": "prompts/check_pass_pronunciation_v6.md",
+  "input_body_sha256": "1b415813c2db7ff30979180a837de0083064f323ec93754352338967ab94d224",
+  "input_sections": {
+    "pronunciation": [
+      {
+        "line": 13,
+        "text": "＃発音記号"
+      },
+      {
+        "line": 15,
+        "text": "米: Oxford の IPA 表記は /səˈspɪʃn/。Merriam-Webster は別表記で sus·pi·cion と3音節に区切り、第2音節に主強勢を示す。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "7e3e94267ac9f917c901c12580b91e570b5989df7adfbf2a39b833478c766d8a",
+  "source_artifact_sha256": "7d3b096792e3d2cb1b8b0dd95abe527740c3277ae0cf88aea2ebaa2fd559e553",
+  "normalized_input_sha256": "b92ec20615114672fd5d8ceb2de84a1290365d3da119d1c99aad684b46b9a514"
+}

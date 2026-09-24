@@ -1,0 +1,44 @@
+{
+  "schema_version": "post_blind_checker_findings_v1",
+  "round": 14,
+  "input_body_sha256": "8508fef1bf79309ca9c904c1a5b901698298454c0b9cddf6fe1227383f20bc7c",
+  "source_inventory_sha256": "7e19bf48fb79fe212cbbbc000f5290143df0792ec59d385d8ba35bf124e7c1fa",
+  "findings": [
+    {
+      "id": "r14-evidence-001",
+      "pass_id": "evidence",
+      "taxonomy_id": "evidence_claim_mismatch",
+      "severity": "blocking",
+      "raw_response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-14/responses/evidence.response.raw.json",
+      "raw_response_sha256": "1f6b5556a657fc499241cccf1205d573fca296fd953171b195781e81084be972",
+      "action": "adopted",
+      "resolution": "Added a directly applicable primary judgment and linked its fact to the legal source union and claim."
+    },
+    {
+      "id": "r14-frame-001",
+      "pass_id": "frame-relation",
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "severity": "minor",
+      "raw_response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-14/responses/frame-relation.stage2.response.raw.json",
+      "raw_response_sha256": "c6b64fb425ea05aab4745766ff174a9b9f581a98b9c9622bb715666a539ce250",
+      "action": "adopted",
+      "resolution": "Expanded the frame and matching collocation label to include the truth or reliability of a claim or explanation."
+    }
+  ],
+  "request_outputs": {
+    "example_attribution_raw_response_sha256": "6c6debd93d7e33eac48630b40863fcf27f766016694b701191c582673ed0662b",
+    "frame_relation_stage1_raw_response_sha256": "6286db9cef5ac23ec0b0768a478fcb8a270639caeb7f0bc2e82f224a3774deea",
+    "frame_relation_stage2_raw_response_sha256": "c6b64fb425ea05aab4745766ff174a9b9f581a98b9c9622bb715666a539ce250"
+  },
+  "source_support": {
+    "source_id": "uk_house_of_lords_kebel",
+    "fact_id": "ukhl_kebel_suspicion",
+    "locator": "https://publications.parliament.uk/pa/ld199899/ldjudgmt/jd991028/kabel-3.htm",
+    "judgment_lines": [
+      66,
+      70
+    ],
+    "source_note": "The judgment quotes the ordinary meaning of suspicion as conjecture or surmise where proof is lacking and distinguishes it from prima facie proof."
+  },
+  "recorded_at": "2026-09-24T11:40:56Z"
+}

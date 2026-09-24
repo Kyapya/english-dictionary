@@ -37,7 +37,7 @@ def _save(path: Path, value: dict[str, Any]) -> None:
 
 
 def _relative(path: Path, root: Path) -> str:
-    return str(path.resolve().relative_to(root.resolve()))
+    return path.resolve().relative_to(root.resolve()).as_posix()
 
 
 def _path(manifest: dict[str, Any], key: str, root: Path) -> Path:

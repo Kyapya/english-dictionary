@@ -1,0 +1,25 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "sense-structure",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "GPT-6",
+    "ingested_by": "human",
+    "agent_id": "agent-s22-sense-structure-20260924"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "cross_section_internal_contradiction",
+      "location": {
+        "section": "core_image",
+        "line_start": 28,
+        "line_end": 28,
+        "exact_quote": "語義3は、犯罪・不正を含まない事実や状況が本当かどうかを推測する焦点をもつ。"
+      },
+      "severity": "blocking",
+      "rationale": "この説明は語義3の対象命題を犯罪・不正を含まない内容に限定しています。一方、usage_notes 168 は、that節の内容が犯罪・不正かどうかだけで語義を分けず、節全体を真偽未確定の命題として推し量る用法を語義3に置くとしています。そのため、特定の人への容疑ではなく犯罪・不正を含む命題自体を推測する用例の所属が、両セクションで異なります。語義境界の判断基準を、内容の犯罪性ではなく命題全体の推測か特定の人への容疑かにそろえてください。",
+      "evidence_link_ids": [],
+      "suggested_direction": "core_image の語義3の説明から犯罪・不正内容を一律に除外する条件を外し、usage_notes と同じく、命題全体への推測と特定の人への容疑という焦点で語義1・3を区別する。"
+    }
+  ]
+}

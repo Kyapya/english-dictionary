@@ -1,0 +1,30 @@
+{
+  "schema_version": "check_pass_result_v6",
+  "pass_id": "sense-structure",
+  "status": "pass",
+  "findings": [
+    {
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 138,
+        "line_end": 138,
+        "exact_quote": "【日本語訳・定義】十分な証拠はないが、ある事実や状況が本当なのではないかと感じる推測・予感に焦点がある。a suspicion that ... の that 節が犯罪・不正を述べる場合は、語義1の「犯罪・不正の容疑」と重なることもある。この用法では個々の考えを表す可算形が典型。可算・不可算は意味だけで一律に決まらず、構文にも左右される。"
+      },
+      "severity": "blocking",
+      "rationale": "語義3の代表構文 a suspicion that ... が犯罪・不正を内容とすると語義1と重なると明記されており、同じ用例を両語義に割り当て得るため境界が一意でない。語義1は人・行為を容疑対象とする用法、語義3は命題の真偽を推測する用法という説明だけでは、この重複するthat節をどちらに置くか決まらず、コアイメージの枝も一意に対応しない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "犯罪・不正を内容とする that 節を語義1か語義3のどちらかへ一意に割り当てる判定基準を設け、必要ならその用法を統合または移動して、コアイメージと語法注記も同じ境界にそろえる。"
+    }
+  ],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "GPT-6",
+    "ingested_by": "orchestrator",
+    "agent_id": "/root/suspicion_r17_sense_structure",
+    "source_response": {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-17/responses/source_responses/95ef07565fc401a6c9c6b9791c8baa20ebe872ce505568a6e8f7866de1114d2d.json",
+      "sha256": "95ef07565fc401a6c9c6b9791c8baa20ebe872ce505568a6e8f7866de1114d2d"
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "schema_version": "example_attribution_alignment_key_v1",
+  "pass_id": "example-attribution",
+  "input_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+  "blind_request_sha256": "84891627b935735d32bbcc11155738e4e16880161da345404db329ae8729de98",
+  "shuffle_seed": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+  "examples": [
+    {
+      "example_id": "ex-e8780d35ec06",
+      "assigned_sense_id": "sense:001",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 50,
+        "line_end": 50,
+        "exact_quote": "例: Two people were arrested on suspicion of fraud after the investigation.  "
+      },
+      "source_example_id": "example:001"
+    },
+    {
+      "example_id": "ex-3817f5e86b56",
+      "assigned_sense_id": "sense:001",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 55,
+        "line_end": 55,
+        "exact_quote": "例: The contractor remained under suspicion while investigators checked whether it had falsified invoices.  "
+      },
+      "source_example_id": "example:002"
+    },
+    {
+      "example_id": "ex-cd44bb14b62b",
+      "assigned_sense_id": "sense:001",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 60,
+        "line_end": 60,
+        "exact_quote": "例: The manager had a suspicion that the cashier had altered the sales records.  "
+      },
+      "source_example_id": "example:003"
+    },
+    {
+      "example_id": "ex-7dde7c036157",
+      "assigned_sense_id": "sense:001",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 65,
+        "line_end": 65,
+        "exact_quote": "例: I had a suspicion that the meeting had been canceled.  "
+      },
+      "source_example_id": "example:004"
+    },
+    {
+      "example_id": "ex-f0b136fc7f52",
+      "assigned_sense_id": "sense:001",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 70,
+        "line_end": 70,
+        "exact_quote": "例: The abrupt policy reversal aroused residents' suspicions that officials had concealed the project's true cost.  "
+      },
+      "source_example_id": "example:005"
+    },
+    {
+      "example_id": "ex-e3b6d6c9114e",
+      "assigned_sense_id": "sense:001",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 75,
+        "line_end": 75,
+        "exact_quote": "例: The unexplained delay raised some suspicion.  "
+      },
+      "source_example_id": "example:006"
+    },
+    {
+      "example_id": "ex-fcfc5fd6ac5e",
+      "assigned_sense_id": "sense:002",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 103,
+        "line_end": 103,
+        "exact_quote": "例: Residents regarded the sudden policy change with suspicion.  "
+      },
+      "source_example_id": "example:007"
+    },
+    {
+      "example_id": "ex-a2552631d7e4",
+      "assigned_sense_id": "sense:003",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 131,
+        "line_end": 131,
+        "exact_quote": "例: There was a suspicion of a smile in her reply.  "
+      },
+      "source_example_id": "example:008"
+    },
+    {
+      "example_id": "ex-d749e270d364",
+      "assigned_sense_id": "sense:003",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 136,
+        "line_end": 136,
+        "exact_quote": "例: The old tale had a suspicion of truth in it.  "
+      },
+      "source_example_id": "example:009"
+    }
+  ],
+  "sense_usage_notes": [
+    {
+      "sense_id": "sense:001",
+      "line": 78,
+      "text": "on suspicion of theft は「窃盗で有罪になった」ではなく、「窃盗をした疑いを理由に」という意味である。under suspicion も罪が確定した状態を表さない。Merriam-Webster の法律辞典は suspicion を通常、信念に至らない精神状態として説明し、reasonable suspicion の項目に関連づけている。ここでは特定の法域の法的基準を述べない。"
+    },
+    {
+      "sense_id": "sense:002",
+      "line": 106,
+      "text": "with suspicion は、対象を信頼できるか疑って見る態度を表す。"
+    },
+    {
+      "sense_id": "sense:003",
+      "line": 139,
+      "text": "この a suspicion of ... は「～を疑うこと」ではなく、「～がごく少量、または兆候としてわずかに感じられること」である。"
+    }
+  ]
+}

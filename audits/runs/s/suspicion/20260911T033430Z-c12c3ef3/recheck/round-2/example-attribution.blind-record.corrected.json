@@ -1,0 +1,91 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "input_body_sha256": "efa27069dbe117dc37e26978455d0832cd582655ef3ff0aaaf9f6ed68ed6bf74",
+  "blind_request_sha256": "5473c38719bd1472a946f1342619e0fb33dd96f4edaa24c53a6bfb841242e04e",
+  "recorded_at": "2026-09-23T11:18:25Z",
+  "reviewer": {
+    "agent_id": "/root/round2_example_attribution",
+    "declared_model": "GPT-6",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "attributions": [
+    {
+      "example_id": "ex-1894e7098c62",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "under suspicion of fraud"
+      ],
+      "rationale": "Unique sense:001. The complement 'of fraud' in the exact phrase 'under suspicion of fraud' identifies a specific suspected offense, and 'under suspicion' describes the contractor's status as potentially responsible. Sense:002 is a plausible general distrust reading, but the offense complement makes the suspicion concern possible fraud rather than merely an attitude of wariness toward the contractor."
+    },
+    {
+      "example_id": "ex-a4fa40305194",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "arrested on suspicion of fraud"
+      ],
+      "rationale": "Unique sense:001. The exact phrase 'arrested on suspicion of fraud' states the suspected criminal act as the basis for arrest. Sense:002 could describe general distrust of a person, but that attitude reading does not fit the construction naming fraud as the suspected offense."
+    },
+    {
+      "example_id": "ex-266a2967a103",
+      "classification": "ambiguous",
+      "candidate_sense_ids": [
+        "sense:001",
+        "sense:002"
+      ],
+      "discriminating_terms": [],
+      "rationale": "The example reads: \"The unexplained transfer led to a fraud inquiry and aroused suspicion among the auditors.\" Both sense:001 and sense:002 are natural. In the context of a fraud inquiry, the auditors may suspect possible fraud (sense:001); they may also regard the unexplained transfer with distrust or wariness (sense:002). The sentence gives no complement or proposition specifying what they suspect, so the context does not make the headword's meaning unique."
+    },
+    {
+      "example_id": "ex-2166ea257022",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "a suspicion of truth in it"
+      ],
+      "rationale": "Unique sense:003. The exact phrase 'a suspicion of truth in it' means a slight trace or hint of truth present in the tale. Sense:002 could express doubt about the tale's truth, but that would describe an attitude of mistrust; the sentence instead attributes a faint quality of truth to the tale."
+    },
+    {
+      "example_id": "ex-9469dae6769b",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "suspicions that the cashier had falsified the sales records"
+      ],
+      "rationale": "Unique sense:001. The exact phrase 'suspicions that the cashier had falsified the sales records' specifies a suspected act of falsification, and 'confirmed' describes evidence establishing that suspected wrongdoing. Sense:002 could indicate general distrust of the cashier, but it cannot account for the explicitly stated suspicion that the cashier committed an offense."
+    },
+    {
+      "example_id": "ex-54cff3a13fd1",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "a suspicion of a smile"
+      ],
+      "rationale": "Unique sense:003. The exact phrase 'a suspicion of a smile' means a barely perceptible trace of a smile in the reply. Sense:002 would describe distrust or wariness toward someone or something, which does not fit a faint facial expression detected in a reply."
+    },
+    {
+      "example_id": "ex-b365eaf40988",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "regarded the sudden policy change with suspicion"
+      ],
+      "rationale": "Unique sense:002. The exact phrase 'regarded the sudden policy change with suspicion' describes a wary, distrustful attitude toward the policy change. Sense:001 would require suspicion that someone committed a specific crime or misconduct; the sentence states no such suspected act, so that crime-suspicion reading is not supported."
+    }
+  ]
+}

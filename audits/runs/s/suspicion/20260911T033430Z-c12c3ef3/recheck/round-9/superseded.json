@@ -1,0 +1,8 @@
+{
+  "schema_version": "checker_recheck_superseded_v1",
+  "status": "superseded_before_fan_in",
+  "superseded_at": "2026-09-23T13:26:42.241704+00:00",
+  "input_body_sha256": "4ab0d5d71a7c1f54616c6e43ea3bd1cf78edf3d0d530028f0398efd73951f200",
+  "superseded_by_body_sha256": "13559d31b050882ff1d24890c8d22914c8f87e20f0ddb0e509e2a8178469bd82",
+  "reason": "Before fan-in, an additional source correction was made to align the Oxford distrust definition and its source-first claim record with the opened primary entry. Round-9 requests remain bound to the earlier body and are preserved; no responses from that round are integrated."
+}

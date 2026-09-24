@@ -1,0 +1,30 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "8508fef1bf79309ca9c904c1a5b901698298454c0b9cddf6fe1227383f20bc7c",
+  "stage2_request_sha256": "42f2dcbcef07f805e311ecfce3c4a346b488fe74aff590ddac82b1fefe356b59",
+  "blind_record_sha256": "18b9407c174b9a7eee426e9371f099677d058e5da01a468817fd636d069e3329",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "GPT-6",
+    "ingested_by": "human",
+    "agent_id": "/root/suspicion_recheck_frame_relation_r14"
+  },
+  "adjudications": [],
+  "frame_findings": [
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 99,
+        "line_end": 99,
+        "exact_quote": "【文法パターン】regard/view 〈person/claim/proposal/action/decision〉 with suspicion＝〈人・主張・提案・行為・決定〉を疑いの目で見る／〈offer/proposal〉 be greeted with (some) suspicion＝〈申し出・提案〉が（多少の）疑いをもって受け止められる／cast suspicion on 〈claim/statement〉＝〈主張・説明〉の真実性・信頼性に疑いを向ける。"
+      },
+      "severity": "minor",
+      "rationale": "このパターンは on の対象を claim/statement に限定していますが、対応する例では “cast suspicion on the reliability of the company's explanation” と、主張そのものではなく説明の信頼性を表す名詞句が実現しています。例の対象を含むように、主張・説明の真実性や信頼性も対象slotに明示してください。",
+      "evidence_link_ids": [],
+      "suggested_direction": "完全フレーム化: on の対象slotに claim/statement 自体に加えて、その真実性・信頼性を含める。"
+    }
+  ],
+  "unrouted_observations": []
+}

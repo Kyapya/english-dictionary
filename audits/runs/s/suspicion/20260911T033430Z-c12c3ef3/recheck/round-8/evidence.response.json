@@ -1,0 +1,113 @@
+{
+  "pass_id": "evidence",
+  "input_body_sha256": "e610984e4ee840d69032be28e4e55257a14bebd434e6d3f13ba11b959ecafa79",
+  "canonical_request_sha256": "06d7435908ebcaaa8ac5a4a7fad8525606000fc7c35ca53fbedff7dfa2afec96",
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 40,
+        "line_end": 40,
+        "exact_quote": "【頻度】〈8/10〉"
+      },
+      "severity": "blocking",
+      "rationale": "開いた根拠ロケータ（Etymonline、Merriam-Webster suspicion / suspicious、Oxford American / English）には、当該語義の頻度を示すコーパス値も、10段階の頻度尺度もない。関連するsource_supportは語義・語法・形式性を支えるだけで、この数値評価を検証できない。",
+      "suggested_direction": "数値の頻度評価を削除するか、値と尺度を直接裏付ける頻度資料を追加する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 83,
+        "line_end": 83,
+        "exact_quote": "【頻度】〈7/10〉"
+      },
+      "severity": "blocking",
+      "rationale": "開いた根拠ロケータ（Etymonline、Merriam-Webster suspicion / suspicious、Oxford American / English）には、当該語義の頻度を示すコーパス値も、10段階の頻度尺度もない。関連するsource_supportは語義・語法・形式性を支えるだけで、この数値評価を検証できない。",
+      "suggested_direction": "数値の頻度評価を削除するか、値と尺度を直接裏付ける頻度資料を追加する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 121,
+        "line_end": 121,
+        "exact_quote": "【頻度】〈2/10〉"
+      },
+      "severity": "blocking",
+      "rationale": "開いた根拠ロケータ（Etymonline、Merriam-Webster suspicion / suspicious、Oxford American / English）には、当該語義の頻度を示すコーパス値も、10段階の頻度尺度もない。関連するsource_supportは語義・語法・形式性を支えるだけで、この数値評価を検証できない。",
+      "suggested_direction": "数値の頻度評価を削除するか、値と尺度を直接裏付ける頻度資料を追加する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 74,
+        "line_end": 74,
+        "exact_quote": "頻度: 〈8/10〉"
+      },
+      "severity": "blocking",
+      "rationale": "開いた根拠ロケータには、類義語の頻度を示すコーパス値も、10段階の頻度尺度もない。この類義語欄に結び付いたsource_supportは意味・用法を支えるだけで、8/10という数値評価を検証できない。",
+      "suggested_direction": "数値の頻度評価を削除するか、値と尺度を直接裏付ける頻度資料を追加する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 112,
+        "line_end": 112,
+        "exact_quote": "頻度: 〈8/10〉"
+      },
+      "severity": "blocking",
+      "rationale": "開いた根拠ロケータには、類義語の頻度を示すコーパス値も、10段階の頻度尺度もない。この類義語欄に結び付いたsource_supportは意味・用法を支えるだけで、8/10という数値評価を検証できない。",
+      "suggested_direction": "数値の頻度評価を削除するか、値と尺度を直接裏付ける頻度資料を追加する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 145,
+        "line_end": 145,
+        "exact_quote": "頻度: 〈8/10〉"
+      },
+      "severity": "blocking",
+      "rationale": "開いた根拠ロケータには、類義語の頻度を示すコーパス値も、10段階の頻度尺度もない。この類義語欄に結び付いたsource_supportは意味・用法を支えるだけで、8/10という数値評価を検証できない。",
+      "suggested_direction": "数値の頻度評価を削除するか、値と尺度を直接裏付ける頻度資料を追加する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 152,
+        "line_end": 152,
+        "exact_quote": "頻度: 〈8/10〉"
+      },
+      "severity": "blocking",
+      "rationale": "開いた根拠ロケータには、類義語の頻度を示すコーパス値も、10段階の頻度尺度もない。この類義語欄に結び付いたsource_supportは意味・用法を支えるだけで、8/10という数値評価を検証できない。",
+      "suggested_direction": "数値の頻度評価を削除するか、値と尺度を直接裏付ける頻度資料を追加する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 91,
+        "line_end": 93,
+        "exact_quote": "・arouse suspicions\n用途: 出来事が人々の不信や警戒を招くことを表す。\n例: The abrupt policy reversal aroused suspicions among residents, who no longer trusted the officials' explanation."
+      },
+      "severity": "blocking",
+      "rationale": "この箇所に結び付いたsource_support（F-MW-4）は “arouse someone’s suspicions” の枠を示す。Merriam-Webster の実例は “aroused her suspicions” で、Oxford American の実例は単数 “arousing suspicion”。開いた資料はいずれも、ここにある所有限定詞のない複数形 “arouse suspicions” を直接示しておらず、リンク先の主張は本文のコロケーションと一致しない。",
+      "evidence_link_ids": [
+        "C-FRAMES-MW"
+      ],
+      "suggested_direction": "本文を資料が直接支える “arouse someone’s suspicions” に合わせるか、所有限定詞のない複数形を直接示す資料を追加する。"
+    }
+  ],
+  "insufficient_evidence": [],
+  "reviewer": {
+    "agent_id": "/root/round8_evidence",
+    "declared_model": "gpt-6",
+    "mode": "handoff",
+    "ingested_by": "human"
+  }
+}

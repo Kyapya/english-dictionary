@@ -1,0 +1,209 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "input_body_sha256": "08c32581fbc222d720287159ce03804197e14b84a5afa55587c5dc1ac53ad6d6",
+  "blind_request_sha256": "f9ea4d4b06ac9d3ae11b56f64ef3b7488959340d59cd9bbf4c3de1b496be2815",
+  "recorded_at": "2026-09-24T13:54:59Z",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "GPT-6",
+    "ingested_by": "human",
+    "agent_id": "codex-round22-example-attribution-20260924-135459z"
+  },
+  "attributions": [
+    {
+      "example_id": "ex-4e1d55bfa0b9",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "cast suspicion on the clerk",
+        "who had access to the report"
+      ],
+      "rationale": "最有力は sense:001。「cast suspicion on the clerk」 は、疑いの対象として人を、問題行為の関与者かもしれない者の位置に置く。もっともらしい競合は sense:002 の一般的な不信だが、文中では clerk の信頼性を漠然と疑うのではなく、変更された時刻表示と報告書へのアクセスとの関係で clerk に疑いが向けられているため、行為の容疑という読みが優る。"
+    },
+    {
+      "example_id": "ex-3a3ce03f47f2",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "a suspicion of citrus",
+        "made it taste fresher"
+      ],
+      "rationale": "最有力は sense:004。「a suspicion of citrus」 が味の中にごく少量の柑橘風味があることを表し、「made it taste fresher」 も味覚上の効果を述べる。競合し得る sense:003 は命題についての推測だが、ここでは citrus が推測内容ではなくソースに感じられる風味であり、命題の真偽を考える構文ではない。"
+    },
+    {
+      "example_id": "ex-104061a5641a",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "The employee came under suspicion",
+        "when several invoices disappeared"
+      ],
+      "rationale": "最有力は sense:001。「came under suspicion」 は employee 自身を疑いの対象・容疑者として位置づけ、請求書が消えた出来事がその容疑のきっかけになっている。競合する sense:002 なら従業員への広い不信や警戒を表すが、この文の人を対象にした under suspicion の構文と出来事との結び付きは、単なる不信ではなく不正行為への容疑を示す。 文中の判別句は「The employee came under suspicion」である。"
+    },
+    {
+      "example_id": "ex-031ece03ba15",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "a suspicion of disappointment",
+        "in his voice"
+      ],
+      "rationale": "最有力は sense:004。「a suspicion of disappointment」 が声に表れるごくわずかな感情の気配を指す。競合し得る sense:003 の推測なら、話者が「失望しているかもしれない」という命題を考える読みになるが、「in his voice」 は失望を推論内容ではなく声に感じられる微かな表れとして結び付けている。"
+    },
+    {
+      "example_id": "ex-67e9dbc4a85b",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "arrested on suspicion of fraud"
+      ],
+      "rationale": "最有力は sense:001。「arrested on suspicion of fraud」 は、逮捕された2人に詐欺という具体的な不正行為の容疑が向けられていることを表す。競合し得る sense:003 は詐欺が起きたかもしれないという命題上の推測だが、ここではその推測を単独で述べず、人をその行為の容疑者として逮捕した構文になっている。"
+    },
+    {
+      "example_id": "ex-cf4f3858fe9a",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "suspicion that the delay was caused by a technical problem"
+      ],
+      "rationale": "最有力は sense:003。that 節全体（遅延が技術的問題によって起きたこと）が疑いの内容で、話者の暫定的な原因推測を表す。競合し得る sense:002 の不信・警戒は人、組織、情報などの信頼性への態度だが、この文には疑いの対象となる人物や説明の信頼性ではなく、真偽を見積もる一つの命題が明示されている。 文中の判別句は「suspicion that the delay was caused by a technical problem」である。"
+    },
+    {
+      "example_id": "ex-7c8832f3b63a",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "A suspicion of a smile",
+        "appeared at the corner of her mouth"
+      ],
+      "rationale": "最有力は sense:004。「a suspicion of a smile」 は、口元に笑みがあるかないか分かるほどのわずかな表れを指す。競合し得る sense:003 は笑みが現れたかどうかについての推測だが、「appeared at the corner of her mouth」 により、ここでは推測する心的内容ではなく顔に現れた微かな徴候として述べられている。"
+    },
+    {
+      "example_id": "ex-5493641599bb",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "the manager's suspicions",
+        "that a guard had stolen the missing laptops"
+      ],
+      "rationale": "最有力は sense:001。that 節は guard が盗みをしたという特定人物への不正行為の容疑を明示し、防犯映像がそれを裏付けている。競合し得る sense:003 も that 節を取る推測だが、節の内容が単なる状況の真偽ではなく、guard を盗難の行為者として疑うものなので、人物に向けた容疑の sense:001 が適切。 文中の判別句は「the manager's suspicions」である。"
+    },
+    {
+      "example_id": "ex-67599ae8367c",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "viewed the sudden policy change with suspicion"
+      ],
+      "rationale": "最有力は sense:002。「viewed [the sudden policy change] with suspicion」 は方針変更を信頼せず警戒する態度を表し、疑いが対象への評価として結び付いている。競合し得る sense:003 は「方針変更が実は何かを意味する」など一つの命題についての推測だが、文中には推測内容を示す節がなく、方針変更そのものへの不信・警戒の構文である。 文中の判別句は「viewed the sudden policy change with suspicion」である。"
+    },
+    {
+      "example_id": "ex-0f90c42192ff",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "confirmed her suspicion that the battery was failing"
+      ],
+      "rationale": "最有力は sense:003。疑いの内容は that 節が表す「バッテリーが劣化している」という命題で、検査結果がその真偽を確認する。競合し得る sense:001 は特定人物への犯罪・不正行為の容疑だが、節には行為をしたと疑われる人がなく、機器の状態についての推測なので当てはまらない。 文中の判別句は「confirmed her suspicion that the battery was failing」である。"
+    },
+    {
+      "example_id": "ex-8ae3d531d2ad",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "cast suspicion on the reliability of the company's explanation"
+      ],
+      "rationale": "最有力は sense:002。疑いが向けられる対象は説明の reliability、つまり説明を信用できるかどうかである。競合し得る sense:003 はある命題が真かもしれないという推測だが、この文は食い違いから特定命題の真偽を推測するのではなく、説明の信頼性そのものを疑っている。 文中の判別句は「cast suspicion on the reliability of the company's explanation」である。"
+    },
+    {
+      "example_id": "ex-a8fa29b044fc",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "white with a suspicion of blue",
+        "in the evening light"
+      ],
+      "rationale": "最有力は sense:004。「white with a suspicion of blue」 は白い壁に青みがごくわずかに感じられる色合いを示す。競合し得る sense:003 は「青みがあるかもしれない」という推測だが、「white with ... blue」 と色を直接結び付ける構文は、命題を考えるのでなく知覚される色の微量な存在を述べている。"
+    },
+    {
+      "example_id": "ex-e3d0d399372a",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "suspicion that everyone already knew the answer"
+      ],
+      "rationale": "最有力は sense:003。that 節が「皆がすでに答えを知っている」という命題を疑いの内容として示しており、彼女の暫定的な考えを表す。競合し得る sense:001 は特定人物への不正行為の容疑だが、この節には疑われる人物が行った犯罪・不正がなく、出来事の真偽についての推測である。 文中の判別句は「suspicion that everyone already knew the answer」である。"
+    },
+    {
+      "example_id": "ex-56386d2ec838",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "contractor remained under suspicion",
+        "until the records were checked"
+      ],
+      "rationale": "最有力は sense:001。「remained under suspicion」 は contractor を容疑の対象として持続的に位置づけ、記録の確認までその状態が続いたとする。競合し得る sense:002 なら請負業者への一般的な不信を表すが、under suspicion という人が疑いをかけられる構文と、記録確認まで続く容疑状態は、単に信用しない態度より特定の不正等への疑いに合う。 文中の判別句は「contractor remained under suspicion」である。"
+    },
+    {
+      "example_id": "ex-cc5e41f34d07",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "greeted with some suspicion"
+      ],
+      "rationale": "最有力は sense:002。「greeted with some suspicion」 はシステムを受け止める際の不信・警戒という態度を示す。競合し得る sense:003 はシステムについての特定命題が真かもしれないという推測だが、ここでは命題内容を取らず、対象そのものに対する反応として suspicion が使われている。"
+    },
+    {
+      "example_id": "ex-395d13c3c6ab",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "suspicion that the meeting will finish earlier than planned"
+      ],
+      "rationale": "最有力は sense:003。that 節が会議の終了時刻についての一つの予測命題を示し、話者がそれを確証なしに見込んでいる。競合し得る sense:002 の不信なら人・組織・情報などへの信用しない態度になるが、この文では対象への警戒でなく未来の出来事の真偽を推測している。 文中の判別句は「suspicion that the meeting will finish earlier than planned」である。"
+    },
+    {
+      "example_id": "ex-a5e43671d7a7",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "aroused suspicion that the treasurer had committed fraud"
+      ],
+      "rationale": "最有力は sense:001。that 節は treasurer が fraud を行ったという特定人物への不正行為の容疑を明示し、それが suspicion の内容になっている。競合し得る sense:003 も命題の推測を表し得るが、ここではその命題の主語が容疑を受ける人物で、述語が詐欺行為なので、一般的な状況推測より人への容疑という sense:001 が適切。 文中の判別句は「aroused suspicion that the treasurer had committed fraud」である。"
+    }
+  ]
+}

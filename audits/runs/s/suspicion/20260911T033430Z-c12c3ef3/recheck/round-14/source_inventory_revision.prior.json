@@ -1,0 +1,97 @@
+{
+  "schema_version": "source_inventory_rebind_v1",
+  "previous_inventory_sha256": "8a8123662a065591d4c9680d2f1f6cc84deee2d301ea1232efa0bb340972db9a",
+  "updated_inventory_sha256": "7e19bf48fb79fe212cbbbc000f5290143df0792ec59d385d8ba35bf124e7c1fa",
+  "previous_input_body_sha256": "82f343438dd0057f0cc4edd16ece26ba75380521e8c02dfb806b6da7eb43d3f8",
+  "current_input_body_sha256": "8508fef1bf79309ca9c904c1a5b901698298454c0b9cddf6fe1227383f20bc7c",
+  "previous_source_first_audit_sha256": "358a6ef905363f010a31dece02f1dd57e94ea0fad57f759488d3898360d8fc54",
+  "updated_source_first_audit_sha256": "dc02fc70b5f11b78e5105b0158a8a845a6314d562d748f4e571433de0e727341",
+  "facts_and_source_union_unchanged": true,
+  "rebind_reason": "Post-blind revision changed the candidate body and target numbering. Rebound existing source claims to semantically matching current targets; source facts and source-union content were retained unchanged. The evidence checker must independently confirm the rebinding and claim support.",
+  "claim_target_remappings": [
+    {
+      "claim_id": "claim_that_belief",
+      "from": [
+        "definition:003",
+        "grammar_pattern:001",
+        "grammar_pattern:015",
+        "grammar_pattern:016"
+      ],
+      "to": [
+        "definition:003",
+        "grammar_pattern:001",
+        "grammar_pattern:013",
+        "grammar_pattern:014",
+        "grammar_pattern:015",
+        "grammar_pattern:016",
+        "grammar_pattern:017"
+      ]
+    },
+    {
+      "claim_id": "claim_distrust",
+      "from": [
+        "sense_boundary:002",
+        "definition:002",
+        "grammar_pattern:009",
+        "grammar_pattern:011",
+        "collocation:007",
+        "collocation:009",
+        "synonym:004",
+        "synonym:005"
+      ],
+      "to": [
+        "sense_boundary:002",
+        "definition:002",
+        "grammar_pattern:010",
+        "grammar_pattern:011",
+        "grammar_pattern:012",
+        "collocation:007",
+        "collocation:008",
+        "collocation:009",
+        "synonym:002",
+        "synonym:003"
+      ]
+    },
+    {
+      "claim_id": "claim_trace",
+      "from": [
+        "sense_boundary:004",
+        "definition:004",
+        "grammar_pattern:023",
+        "grammar_pattern:024",
+        "collocation:021"
+      ],
+      "to": [
+        "sense_boundary:004",
+        "definition:004",
+        "grammar_pattern:018",
+        "grammar_pattern:019",
+        "collocation:014",
+        "collocation:015",
+        "collocation:016",
+        "collocation:017"
+      ]
+    },
+    {
+      "claim_id": "claim_word_family",
+      "from": [
+        "word_formation:001",
+        "word_formation:002",
+        "word_formation:003"
+      ],
+      "to": [
+        "word_formation:001"
+      ]
+    },
+    {
+      "claim_id": "claim_rare_verb",
+      "from": [
+        "usage_note:004"
+      ],
+      "to": [
+        "word_formation:002"
+      ]
+    }
+  ],
+  "recorded_at": "2026-09-24T10:56:41.777938Z"
+}

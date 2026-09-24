@@ -1,0 +1,136 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "recorded_at": "2026-09-23T14:58:59Z",
+  "input_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+  "blind_request_sha256": "84891627b935735d32bbcc11155738e4e16880161da345404db329ae8729de98",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-6",
+    "ingested_by": "human",
+    "agent_id": "/root/r12_example_attribution"
+  },
+  "attributions": [
+    {
+      "example_id": "ex-fcfc5fd6ac5e",
+      "classification": "unique",
+      "best_sense_id": "sense:002",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "next_best_sense_id": "sense:001",
+      "discriminating_terms": [
+        "regarded the sudden policy change with suspicion"
+      ],
+      "rationale": "The frame 'regarded [thing] with suspicion' presents a wary, distrustful attitude toward the policy change. Sense 001 would describe a belief that some proposition may be true, but this sentence supplies no suspected proposition; the headword is predicated as the manner of regarding its object."
+    },
+    {
+      "example_id": "ex-e3b6d6c9114e",
+      "classification": "unique",
+      "best_sense_id": "sense:001",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "next_best_sense_id": "sense:002",
+      "discriminating_terms": [
+        "the unexplained delay raised some suspicion"
+      ],
+      "rationale": "In the causative frame 'raised some suspicion,' the delay gives rise to a thought that something may be wrong, a propositional suspicion (sense 001). Sense 002 would describe a wary attitude directed toward something, but no target is being regarded or treated distrustfully here; the delay is the stimulus that causes the suspicion."
+    },
+    {
+      "example_id": "ex-cd44bb14b62b",
+      "classification": "unique",
+      "best_sense_id": "sense:001",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "next_best_sense_id": "sense:002",
+      "discriminating_terms": [
+        "a suspicion that the cashier had altered the sales records"
+      ],
+      "rationale": "The explicit 'that' clause gives the proposition the manager considers possibly true: the cashier altered the records. That is sense 001. Although the sentence mentions a person who might be distrusted, sense 002 concerns a distrustful attitude toward the person; the complement here states the suspected event itself."
+    },
+    {
+      "example_id": "ex-f0b136fc7f52",
+      "classification": "unique",
+      "best_sense_id": "sense:001",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "next_best_sense_id": "sense:002",
+      "discriminating_terms": [
+        "suspicions that officials had concealed the project's true cost"
+      ],
+      "rationale": "The 'that' clause specifies the alleged proposition—officials concealed the true cost—so the residents' suspicions are beliefs that this may be true (sense 001). The officials could also be viewed distrustfully (sense 002), but the headword's complement identifies a suspected act rather than merely an attitude toward them."
+    },
+    {
+      "example_id": "ex-e8780d35ec06",
+      "classification": "unique",
+      "best_sense_id": "sense:001",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "next_best_sense_id": "sense:002",
+      "discriminating_terms": [
+        "on suspicion of fraud",
+        "arrested"
+      ],
+      "rationale": "The construction 'arrested on suspicion of [offense]' identifies the suspected proposition that the people committed fraud, which is sense 001. Sense 002 could describe distrust of a person, but the offense complement and 'on suspicion' frame express the allegation underlying the arrest, not simply a wary attitude."
+    },
+    {
+      "example_id": "ex-3817f5e86b56",
+      "classification": "unique",
+      "best_sense_id": "sense:001",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "next_best_sense_id": "sense:002",
+      "discriminating_terms": [
+        "under suspicion",
+        "checked whether it had falsified invoices"
+      ],
+      "rationale": "The 'whether it had falsified invoices' clause states the proposition investigators are testing as possibly true, and 'under suspicion' places the contractor under that allegation (sense 001). The contractor may be treated with distrust (sense 002), but the sentence anchors the suspicion to a specific possible act rather than only describing an attitude."
+    },
+    {
+      "example_id": "ex-a2552631d7e4",
+      "classification": "unique",
+      "best_sense_id": "sense:003",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "next_best_sense_id": "sense:001",
+      "discriminating_terms": [
+        "a suspicion of a smile",
+        "in her reply"
+      ],
+      "rationale": "'A suspicion of a smile in her reply' uses the partitive, trace-like construction for a faint hint or suggestion of a smile (sense 003). Sense 001 could express a belief that she smiled, but the sentence describes a small perceptible trace located in the reply, not a proposition someone thinks may be true."
+    },
+    {
+      "example_id": "ex-7dde7c036157",
+      "classification": "unique",
+      "best_sense_id": "sense:001",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "next_best_sense_id": "sense:002",
+      "discriminating_terms": [
+        "a suspicion that the meeting had been canceled"
+      ],
+      "rationale": "The complement 'that the meeting had been canceled' is a proposition the speaker thinks may be true, which is sense 001. Sense 002 would mean distrust or wariness toward the meeting, but the explicit clause makes the content of the suspicion a possible event rather than an attitude toward the meeting."
+    },
+    {
+      "example_id": "ex-d749e270d364",
+      "classification": "unique",
+      "best_sense_id": "sense:003",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "next_best_sense_id": "sense:001",
+      "discriminating_terms": [
+        "a suspicion of truth in it",
+        "had ... in it"
+      ],
+      "rationale": "The phrase 'a suspicion of truth in it' describes a slight trace or degree of truth present in the tale (sense 003). Sense 001 would report a belief that the tale is true, but 'of truth in it' with 'had ... in it' locates a faint quality within the tale rather than stating a proposition believed by someone."
+    }
+  ]
+}

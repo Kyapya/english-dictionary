@@ -1,0 +1,49 @@
+{
+  "schema_version": "workflow_revision_v1",
+  "before_body_sha256": "13559d31b050882ff1d24890c8d22914c8f87e20f0ddb0e509e2a8178469bd82",
+  "after_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+  "changed_units": [
+    "collocations_examples",
+    "frames",
+    "word_formation"
+  ],
+  "full_recheck": true,
+  "fallback_reasons": [
+    "source_first_artifact_changed"
+  ],
+  "invalidated_passes": [
+    "evidence",
+    "example-attribution",
+    "frame-relation",
+    "pronunciation",
+    "qualification",
+    "sense-structure",
+    "translation"
+  ],
+  "reusable_passes": [],
+  "body_only_plan": {
+    "schema_version": "workflow_revision_v1",
+    "before_body_sha256": "13559d31b050882ff1d24890c8d22914c8f87e20f0ddb0e509e2a8178469bd82",
+    "after_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+    "changed_units": [
+      "collocations_examples",
+      "frames",
+      "word_formation"
+    ],
+    "full_recheck": false,
+    "fallback_reasons": [],
+    "invalidated_passes": [
+      "evidence",
+      "example-attribution",
+      "frame-relation",
+      "qualification",
+      "sense-structure",
+      "translation"
+    ],
+    "reusable_passes": [
+      "pronunciation"
+    ]
+  },
+  "source_artifact_sha256_before": "d44f6f1eb825f6bfcff285716c87db277e5c8ceaeff55140e230ec57726868a2",
+  "source_artifact_sha256_after": "cff7da1f22ae25fe071b48da51af07d50df1d6d825a6330a6abac5cdfc52420c"
+}

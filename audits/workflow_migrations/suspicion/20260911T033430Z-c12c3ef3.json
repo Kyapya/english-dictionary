@@ -1,0 +1,38 @@
+{
+  "workflow_contract_version": "compact_review_v1",
+  "run_id": "20260911T033430Z-c12c3ef3",
+  "headword": "suspicion",
+  "entry_path": "entries/s/suspicion.md",
+  "inventory_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/source_inventory.json",
+  "started_at": "2026-09-11T03:34:30Z",
+  "review_receipts": [],
+  "resolutions": [],
+  "status": "completed",
+  "stage": "publication_ready",
+  "migration": {
+    "from_version": "workflow_improvement_v1",
+    "to_version": "compact_review_v1",
+    "reason": "replace repeated normal/blind audits with verified existing coverage",
+    "old_run_path": "audits/workflow_runs/suspicion/20260911T033430Z-c12c3ef3.json",
+    "recheck_manifest_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/checker_recheck_manifest.json",
+    "post_blind_revision_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/post_blind_revision_round26.json",
+    "post_blind_resolution_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/post_blind_resolution.json",
+    "old_head_sha": "6c3d69016a590aa80f2ef82ac702e56f469c491b",
+    "area_keys": {
+      "pronunciation": "1d040e4528ba7b5a8668221eb9d83e4037552c78e0dd83e4591cb42cc6ff7f48",
+      "etymology": "14e6a844e1df54b02edfe81cd7c0631f47298372ef2fc9348c3af1284e2411bf",
+      "word_formation": "c03503743dec6cff2d08ed456e6d105b9e006fc359921ee94d36117ee3cb1f10",
+      "core_image": "69dbb5e8dc040bfb8aa41bb89a6c6453650c7e8428ea4e4627f9dd1fbc1a18f2",
+      "usage_preamble": "73d0eaf11150ae0d161e0b9d9249f5468409a9ba15703f11d6c3efe8b01bacb3",
+      "sense:f984fbac37ba111c4ea0": "e2a9d16fc137943cc7396402ab6ae0ed8cf9c1a7b62be70801fe822c120a9c87",
+      "sense:57a34e5a6a1e57c803a2": "f509c45408fab8d0ce06abc8b1ba9e4650cec263f968394a92359cf64d6c15af",
+      "sense:dc0a81e9bd65166640cc": "bd1029cb910089a5b47f8a4d911484cf93c3021923c9759cba38f5d8db7cba8d",
+      "sense:752080d80d934505e4f5": "b9e76d95ab6959e4d29677a54a837ffbec1b9292d348c6466bb2385907412b72"
+    },
+    "migrated_at": "2026-09-24T23:28:57.709880+00:00"
+  },
+  "completed_at": "2026-09-24T23:30:23.458977+00:00",
+  "completed_body_sha256": "d5fed3eeb1ca0acb9286fc85407b81982758943d11ecf86c3e1bf1c18bdd4978",
+  "reuse_ledger_path": "audits/workflow_migrations/suspicion/20260911T033430Z-c12c3ef3/compact/reuse_ledger.json",
+  "reuse_ledger_sha256": "ed9b5e7945240325528a07d8c8f09d8f3163357437259374519b1074a311bea1"
+}

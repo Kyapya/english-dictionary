@@ -1,0 +1,32 @@
+{
+  "schema_version": "frame_relation_attempt_disposition_v1",
+  "recorded_at": "2026-09-23T15:51:43+00:00",
+  "round": 13,
+  "attempt": 2,
+  "status": "valid_stage1_only_reviewer_unavailable",
+  "pass_id": "frame-relation",
+  "stage1_request_sha256": "8846e60a4bd98aef02fddd11ee833adb9713472d96f19a6ea8486dafc68cefd1",
+  "input_body_sha256": "e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426",
+  "reviewer_agent_id": "/root/frame14_retry",
+  "declared_model": "GPT-6",
+  "reason": "Stage 1 was valid and connector-published, but the same reviewer path was not available to produce the required stage 2 response. This attempt cannot complete the serial frame pass.",
+  "artifacts": [
+    {
+      "path": "recheck/round-13/attempt-2-valid-stage1-no-stage2/checker_passes.stage1.json",
+      "sha256": "443702acc9f0cb6df15389bd23953ccdaee89d0ae3d1e74a04078b587cafb3af",
+      "bytes": 22582
+    },
+    {
+      "path": "recheck/round-13/attempt-2-valid-stage1-no-stage2/frame-relation.response_disposition.json",
+      "sha256": "dbc8825cd48823fc086975c68fa5e215804f5bd620bcb190402ebf7962ee2e7c",
+      "bytes": 822
+    },
+    {
+      "path": "recheck/round-13/attempt-2-valid-stage1-no-stage2/frame-relation.stage1.response.json",
+      "sha256": "74d2be21ea19776cb626a6c3693ab9e76d2f2ebe094853629ce23851041202cb",
+      "bytes": 467
+    }
+  ],
+  "review_decisions_used_in_final_pass": false,
+  "next_action": "Repeat stage 1 and stage 2 under one addressable independent reviewer."
+}

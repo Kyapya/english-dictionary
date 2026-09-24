@@ -1,0 +1,42 @@
+{
+  "pass_id": "frame-relation",
+  "reviewer": {
+    "agent_id": "/root/suspicion_frame_recheck_11",
+    "declared_model": "GPT-6",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "antonym_axis_blind_record": {
+    "schema_version": "antonym_axis_blind_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "704b4f1e814a46fccb7bb66e60727178677ee79e54fb5112d4289433bab64fd9",
+    "blind_request_sha256": "76ae262440b41ebe2f4d9d12cfa6a81694f98e31fc4802290fda294d137da053",
+    "recorded_at": "2026-09-23T16:15:15+00:00",
+    "reviewer": {
+      "agent_id": "/root/suspicion_frame_recheck_11",
+      "declared_model": "GPT-6",
+      "mode": "handoff",
+      "ingested_by": "human"
+    },
+    "axes": []
+  },
+  "antonym_axis_adjudication_record": {
+    "schema_version": "antonym_axis_adjudication_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "704b4f1e814a46fccb7bb66e60727178677ee79e54fb5112d4289433bab64fd9",
+    "stage2_request_sha256": "9108d06946a0124f92e87c101562219084138037224817e9966bd6276e92dde1",
+    "blind_record_sha256": "3a280adfa2f372ae18480c9bfbe887c702ce13347c9d5fd185e0e6584fdbceab",
+    "reviewer": {
+      "agent_id": "/root/suspicion_frame_recheck_11",
+      "declared_model": "GPT-6",
+      "mode": "handoff",
+      "ingested_by": "human"
+    },
+    "adjudications": [],
+    "frame_findings": [],
+    "unrouted_observations": []
+  },
+  "aligned_at": "2026-09-23T16:21:25.066403+00:00",
+  "findings": [],
+  "unrouted_observations": []
+}

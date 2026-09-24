@@ -1,0 +1,49 @@
+{
+  "schema_version": "checker_recheck_actions_v1",
+  "round": 15,
+  "input_body_sha256": "f0ae54c4d407ab7c669d3cfdb9334d176f780d8bcf4ab662c289c3ea09fbc70a",
+  "source_inventory_sha256": "c05f10827d356c7f106685492960d8fce3fb75f762df839a114426b431fcaf66",
+  "source_artifact_sha256": "079110a3315dee764870a644c2b0afa2290ba3b3e08be129775c2614055980c3",
+  "findings": [],
+  "review_response_corrections": [
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-15/responses/example-attribution.response.contract_invalid.raw.json",
+      "sha256": "7af48e359eef46a6deb8708995b35ee15fbed112e1fbcfd59fc830ccbf3692e5",
+      "disposition": "contract_invalid",
+      "detail": "Initial example-attribution response used noncontract fields; retained without ingestion."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-15/responses/example-attribution.response.contract_corrected_unverified.raw.json",
+      "sha256": "717a74b98c2db5401cf06a0fab5db8ef6acb9e0692c261c4087b4c89189ba40a",
+      "disposition": "grounding_invalid",
+      "detail": "Contract-corrected response failed exact-term rationale grounding; retained without ingestion."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-15/responses/example-attribution.response.grounded.raw.json",
+      "sha256": "b1dc3320b4e5a405a27aa85ca1a209dcf2d6b41b92e1b717fb674179332e13b6",
+      "disposition": "accepted",
+      "detail": "Grounded response validated across all 17 attributions and was reconciled."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-15/responses/frame-relation.stage2.response.raw.json",
+      "sha256": "ae48bbbc9da1bcebdb3941b4dd63f7788baa7fd3cedb43f3385d985487ff895e",
+      "disposition": "request_binding_invalid",
+      "detail": "Raw stage-2 hash did not match its saved request; retained without ingestion."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-15/responses/frame-relation.stage2.response.corrected.raw.json",
+      "sha256": "c06353d36b08fd8f1e4600c793662cd803a0fb1798dff8c8d059e81e766a17a6",
+      "disposition": "superseded_binding_correction",
+      "detail": "Corrected for the original stage-2 request, then superseded when the stage-1 seal acquired required provenance."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-15/responses/frame-relation.stage2.provenance.response.raw.json",
+      "sha256": "5cefaaefd972b12b53309db6d7bb0d89b336cbb1af3c35ba14e5018effae0142",
+      "disposition": "accepted",
+      "detail": "Final response binds the exact provenance-bound stage-2 request and sealed stage-1 record."
+    }
+  ],
+  "round_14_findings_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-14/findings_and_actions.json",
+  "round_14_findings_sha256": "a2b14cb14b101623c5c5e024fe1d664c131743c3f847f60764e02c75d0563248",
+  "recorded_at": "2026-09-24T11:59:38.336947Z"
+}

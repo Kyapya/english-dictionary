@@ -1,0 +1,30 @@
+{
+  "schema_version": "check_pass_result_v6",
+  "pass_id": "sense-structure",
+  "status": "pass",
+  "findings": [
+    {
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 138,
+        "line_end": 138,
+        "exact_quote": "【日本語訳・定義】十分な証拠はないが、犯罪・不正を含まない事実や状況が本当なのではないかと感じる推測・予感に焦点がある。本記事では、that節が特定の人の犯罪・不正行為を述べる用例は語義1に置き、語義3はそれ以外の事実・状況への推測に用いる。この用法では個々の考えを表す可算形が典型。可算・不可算は意味だけで一律に決まらず、構文にも左右される。  "
+      },
+      "severity": "blocking",
+      "rationale": "語義1の定義（40行目）とこの定義はいずれも、十分な証拠がない段階で何かが真である可能性を考える意味を含みます。ここでは同じ that 節構文の用例を、内容が特定の人の犯罪・不正か、それ以外の事実・状況かだけで語義1と語義3に振り分けており、対象分野だけに基づく分割になっています。語義1に固有の「犯罪・不正をしたと疑われている状態」や告発的な用法と、一般的な確証のない推測との違いを境界として明示し、単なる犯罪内容の命題は構文・意味に即して扱う必要があります。",
+      "evidence_link_ids": [],
+      "suggested_direction": "語義1を、犯罪・不正をしたと疑われている状態や告発的な容疑用法に限定し、内容分野だけで語義3から切り分けないよう両義の境界を修正する。"
+    }
+  ],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "GPT-6",
+    "ingested_by": "orchestrator",
+    "agent_id": "s20-sense-structure-20260924-4f8c7d1a",
+    "source_response": {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-20/responses/source_responses/5b9046743e0b41ad1d969a860cd001ff63351ee8c3c70343658ab973a70475ee.json",
+      "sha256": "5b9046743e0b41ad1d969a860cd001ff63351ee8c3c70343658ab973a70475ee"
+    }
+  }
+}

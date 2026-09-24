@@ -1,0 +1,27 @@
+{
+  "schema_version": "response_correction_ledger_v1",
+  "review_stage": "final_blind",
+  "attempt": 2,
+  "reviewer_agent_id": "/root/s25_final_blind",
+  "request_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/review_history/final-blind-attempt-2/request.json",
+  "request_sha256": "4a6e3f5b6e4091875b07da4524ee1dbb076d0e551d11951a64dce910f5983cc8",
+  "input_body_sha256": "18178e0a192307a41e4cccafaaf60c75ff89633d50774904ba389187e4d827b6",
+  "corrections": [
+    {
+      "initial_response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/review_history/final-blind-attempt-2/response.raw.json",
+      "initial_response_sha256": "281f371d9be73d6eb69036230021e00e5340b5be3cd36bb950f7db59e8b317c8",
+      "corrected_response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/review_history/final-blind-attempt-2/response.contract_corrected.raw.json",
+      "corrected_response_sha256": "07a129a9a2d13f427c5f1b0e1922f620dadaf472de7b5d783b0d243f25b91c8b",
+      "contract_failures": [
+        "taxonomy_id sense_boundary was outside the allowed taxonomy; corrected to sense_boundary_overlap",
+        "severities blocker and major were outside the allowed enum; corrected to blocking and minor",
+        "finding locations were plain strings instead of section/line/exact_quote objects",
+        "f2 rationale omitted the complete exact quote required by finding liveness"
+      ],
+      "correction_scope": "contract fields and quote-grounding only; reviewer judgments, candidate inventory, finding count, finding meaning, reviewer identity, and disposition retained",
+      "original_bytes_preserved": true,
+      "corrected_response_validation": "pass",
+      "liveness_validation": "pass"
+    }
+  ]
+}

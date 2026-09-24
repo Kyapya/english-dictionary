@@ -1,0 +1,211 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "GPT-6",
+    "ingested_by": "human",
+    "agent_id": "agent-suspicion-r19-example-attribution-20260924-b2a88f4dfc324043bab0e68e6b7d9c07"
+  },
+  "input_body_sha256": "22115ff16b934a7bee72be158df65dd1569ca9a64c670adb9cd408a03b504ebd",
+  "blind_request_sha256": "bebbba9c9212c316f9790e940e287302ed988579e4c7be1fcd8f93e36e5f1a48",
+  "recorded_at": "2026-09-24T13:02:53Z",
+  "attributions": [
+    {
+      "example_id": "ex-060a5192124c",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "remained under suspicion",
+        "until the records were checked"
+      ],
+      "rationale": "The full example sentence is “The contractor remained under suspicion until the records were checked.” “Remained under suspicion” presents the contractor as a possible wrongdoer while records are checked, which supports sense:001. General mistrust of the contractor (sense:002) is a plausible competitor, but the investigative status expressed by “under suspicion” and the check of records point to possible culpability rather than only a wary attitude."
+    },
+    {
+      "example_id": "ex-634a364d45b4",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "viewed the sudden policy change with suspicion"
+      ],
+      "rationale": "The full example sentence is “Residents viewed the sudden policy change with suspicion.” The construction “viewed ... with suspicion” describes residents’ distrustful, wary attitude toward the policy change, supporting sense:002. Sense:003 would require a hunch about a proposition; this sentence gives an attitude toward the change rather than a particular suspected fact, and it does not present a person as a possible wrongdoer under sense:001."
+    },
+    {
+      "example_id": "ex-b9e6473dfcfd",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "a suspicion of citrus",
+        "made it taste fresher"
+      ],
+      "rationale": "The full example sentence is “The sauce had a suspicion of citrus that made it taste fresher.” “A suspicion of citrus” is a faint amount of flavor, as reinforced by “taste fresher,” supporting sense:004. Sense:003 is a conjecture about whether a fact is true, but citrus here is a flavor present in the sauce, not a proposition being guessed."
+    },
+    {
+      "example_id": "ex-7c75bf50b419",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "a sneaking suspicion that everyone already knew the answer"
+      ],
+      "rationale": "The full example sentence is “She had a sneaking suspicion that everyone already knew the answer.” The that-clause “everyone already knew the answer” is a hunch about a non-wrongdoing situation, supporting sense:003. Sense:001 is a plausible competitor for a that-clause, but the clause alleges no person’s crime or misconduct; it states a belief about who already knew an answer."
+    },
+    {
+      "example_id": "ex-1e6c5d63abbd",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "that the meeting will finish earlier than planned"
+      ],
+      "rationale": "The full example sentence is “I have a suspicion that the meeting will finish earlier than planned.” The that-clause “the meeting will finish earlier than planned” is a prediction about a situation, not a person’s possible wrongdoing, supporting sense:003 over sense:001. The sentence expresses a hunch about what will happen."
+    },
+    {
+      "example_id": "ex-ff889969af92",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "white with a suspicion of blue",
+        "in the evening light"
+      ],
+      "rationale": "The full example sentence is “The walls were white with a suspicion of blue in the evening light.” “White with a suspicion of blue” describes a slight color cast, supporting sense:004. Sense:003 would be a guess about whether a fact or situation is true; “of blue” modifies the walls’ visible color rather than introducing a proposition."
+    },
+    {
+      "example_id": "ex-82a69bbd2c42",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "cast suspicion on the reliability of the company's explanation"
+      ],
+      "rationale": "The full example sentence is “The discrepancy cast suspicion on the reliability of the company's explanation.” The phrase “cast suspicion on the reliability” directly expresses doubt about whether the explanation is trustworthy, supporting sense:002. Sense:003 is a plausible competitor when suspicion is a hunch about a fact, but this construction targets reliability and trustworthiness rather than stating a particular conjectured event."
+    },
+    {
+      "example_id": "ex-5738efb14b08",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "a suspicion of disappointment in his voice"
+      ],
+      "rationale": "The full example sentence is “There was a suspicion of disappointment in his voice.” “A suspicion of disappointment in his voice” means a faint trace of an emotion perceptible in the voice, supporting sense:004. Sense:003 would express a conjecture about a situation; here “of disappointment” names the slight emotional quality that can be heard."
+    },
+    {
+      "example_id": "ex-b23f76ce6acb",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "A suspicion of a smile",
+        "at the corner of her mouth"
+      ],
+      "rationale": "The full example sentence is “A suspicion of a smile appeared at the corner of her mouth.” “A suspicion of a smile” appearing at the mouth’s corner is a faint visible trace of an expression, supporting sense:004. Sense:003 would concern a hunch about a fact; this sentence describes the slight presence of a smile, not a proposition she suspects."
+    },
+    {
+      "example_id": "ex-05d22e8ff3bb",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "arrested on suspicion of fraud"
+      ],
+      "rationale": "The full example sentence is “Two people were arrested on suspicion of fraud after the investigation.” The legal phrase “arrested on suspicion of fraud” names a specific suspected offense, supporting sense:001. Sense:002 can describe generalized distrust, but it does not account for arrest on a stated fraud suspicion."
+    },
+    {
+      "example_id": "ex-75549b1c1e8d",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "that the battery was failing",
+        "test results confirmed her suspicion"
+      ],
+      "rationale": "The full example sentence is “The test results confirmed her suspicion that the battery was failing.” The that-clause “the battery was failing” is a conjecture about a non-wrongdoing condition, and “test results confirmed” marks it as a hypothesis, supporting sense:003. Sense:001 is a plausible competitor for a specific suspicion, but no person’s crime or misconduct is alleged."
+    },
+    {
+      "example_id": "ex-cce722f090e3",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "altered timestamp cast suspicion on the clerk",
+        "who had access to the report"
+      ],
+      "rationale": "The full example sentence is “The altered timestamp cast suspicion on the clerk who had access to the report.” “Cast suspicion on the clerk” links evidence of an alteration with the person positioned to have made it, supporting a possible wrongdoing attribution in sense:001. Sense:002 is a plausible competitor if the sentence merely described distrust of the clerk, but the alteration plus the access relation make the clerk a potential actor in the suspected misconduct."
+    },
+    {
+      "example_id": "ex-21d3d765d8c6",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "greeted with some suspicion"
+      ],
+      "rationale": "The full example sentence is “The new monitoring system was initially greeted with some suspicion.” “Greeted with some suspicion” describes a wary, distrustful reception of the system, supporting sense:002. Sense:001 would make the system or someone associated with it a suspected wrongdoer, which this reception construction and sentence do not suggest; sense:003 would require a specific hunch that is not stated."
+    },
+    {
+      "example_id": "ex-0a6a90980f29",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "that the delay was caused by a technical problem"
+      ],
+      "rationale": "The full example sentence is “We had a strong suspicion that the delay was caused by a technical problem.” The that-clause “the delay was caused by a technical problem” is a conjecture about a non-wrongdoing cause, supporting sense:003. Sense:001 would concern suspected crime or misconduct, but no culpable person or wrongful act appears in the clause."
+    },
+    {
+      "example_id": "ex-98fddba364aa",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "aroused suspicion of fraud",
+        "unexplained transfer of client funds"
+      ],
+      "rationale": "The full example sentence is “The unexplained transfer of client funds aroused suspicion of fraud among the auditors.” “Suspicion of fraud” explicitly identifies suspected wrongdoing, supporting sense:001; the unexplained transfer is the event prompting that suspicion. Sense:002 would be general mistrust, but it cannot replace the sentence’s explicit fraud allegation."
+    },
+    {
+      "example_id": "ex-6ec1f647d3f8",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "came under suspicion",
+        "when several invoices disappeared"
+      ],
+      "rationale": "The full example sentence is “The employee came under suspicion when several invoices disappeared.” “Came under suspicion” in response to the disappearance of invoices presents the employee as a possible participant in wrongdoing, supporting sense:001. Sense:002 is a plausible competitor as general mistrust of the employee, but the event-linked suspicion of the person associated with missing invoices points to possible culpability."
+    },
+    {
+      "example_id": "ex-4d931abbe0ce",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "confirmed the manager's suspicions",
+        "that a guard had stolen the missing laptops"
+      ],
+      "rationale": "The full example sentence is “The security footage confirmed the manager's suspicions that a guard had stolen the missing laptops.” The that-clause “a guard had stolen the missing laptops” explicitly attributes a theft, supporting sense:001. Sense:003 also allows that-clause suspicions, but it excludes specific crime or misconduct; the verb “stolen” rules it out here."
+    }
+  ]
+}

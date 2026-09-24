@@ -444,6 +444,16 @@ class OrderingAndAdjudicationTests(unittest.TestCase):
                 "recorded_at": "2026-09-05T00:03:00Z",
                 "input_body_sha256": current_hash,
             }
+            issue = {
+                "id": "POST-BLIND-CONFLICT-1",
+                "kind": "judgment_conflict",
+                "question": "Which of the two conflicting boundary judgments is correct?",
+                "article_excerpt": "A disputed sense boundary.",
+                "judgments": [
+                    {"reviewer_agent_id": "blind-a", "conclusion": "keep", "basis": "sealed finding"},
+                    {"reviewer_agent_id": "resolver-b", "conclusion": "reject", "basis": "post-blind rationale"},
+                ],
+            }
             (cycle / "final_blind.json").write_text(json.dumps(final_blind))
             artifacts = {
                 "pre_blind_resolution.json": {
@@ -478,6 +488,7 @@ class OrderingAndAdjudicationTests(unittest.TestCase):
                 "post_blind_resolution.json": {
                     "schema_version": "post_blind_resolution_v1",
                     "resolutions": [],
+                    "unresolved_issues": [issue],
                 },
                 "post_blind_verification.json": {
                     "schema_version": "post_blind_verification_v1",
@@ -488,6 +499,33 @@ class OrderingAndAdjudicationTests(unittest.TestCase):
             }
             for name, value in artifacts.items():
                 (cycle / name).write_text(json.dumps(value))
+            (cycle / "targeted_adjudications.json").write_text(
+                json.dumps(
+                    {
+                        "schema_version": "targeted_adjudications_v1",
+                        "requests": [
+                            {
+                                "schema_version": "targeted_adjudication_request_v1",
+                                "issue_id": issue["id"],
+                                "question": issue["question"],
+                                "article_excerpt": issue["article_excerpt"],
+                                "judgments": issue["judgments"],
+                                "source_material": [],
+                            }
+                        ],
+                        "adjudications": [
+                            {
+                                "schema_version": "targeted_adjudication_v1",
+                                "issue_id": issue["id"],
+                                "reviewer": {"agent_id": "adjudicator-c"},
+                                "decision": "resolved_correct",
+                                "rationale": "The sealed finding is supported.",
+                                "applicable_scope": "Only the stated boundary.",
+                            }
+                        ],
+                    }
+                )
+            )
             result = generate_audit_manifest._validate_workflow_improvement_artifacts(
                 cycle_dir=cycle,
                 repo_root=root,
@@ -503,6 +541,9 @@ class OrderingAndAdjudicationTests(unittest.TestCase):
                 current_hash=current_hash,
                 checker_and_cold_ids=set(),
                 final_blind_ids=set(),
+            )
+            self.assertEqual(
+                result["targeted_adjudications"][0]["issue_id"], issue["id"]
             )
             (cycle / "post_blind_resolution.json").write_text(
                 json.dumps(

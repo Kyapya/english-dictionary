@@ -317,6 +317,11 @@ def _validate_workflow_improvement_artifacts(
             ),
             raw["cold_review"],
             raw["final_blind"],
+            # A disagreement can first become concrete when the post-blind
+            # adjudicator evaluates a sealed finding. Keep that declaration in
+            # the post-blind record so its independent targeted adjudication is
+            # required and bound into final review.
+            values["post_blind_resolution"],
         ]
     )
     issue_actions = workflow_revision.unresolved_issue_actions(declared_issues)

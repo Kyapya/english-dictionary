@@ -1,0 +1,38 @@
+{
+  "adjudications": [
+    {
+      "f4_severity": null,
+      "flags": [],
+      "item_id": "ant-ede2e2db8829",
+      "rationale": "語義2の定義は人・組織・動機・考えを信用せず疑う態度を明示し、trustの定義は信頼して頼る状態を表す。いずれも信頼の状態軸上の対立として定義から導出できる。違い行139もこの対立を説明しており、対立の否定や限定はない。",
+      "suggested_direction": null
+    }
+  ],
+  "blind_record_sha256": "7c9076f4971cf57d14c285595372b0e110fc944ebc04ba191e5e721a3fb83fd3",
+  "frame_findings": [
+    {
+      "evidence_link_ids": [],
+      "location": {
+        "exact_quote": "・confirm/dispel suspicions  ",
+        "line_end": 75,
+        "line_start": 75,
+        "section": "collocations_examples"
+      },
+      "rationale": "語義1の主要コロケーションとして confirm/dispel suspicions が提示され、例文（line 78）も confirm the manager’s suspicions that ... というV+O+that節のフレームを実現している。一方、同語義の文法パターン（line 46）にはこの動詞と目的語の組合せがなく、suspicion that節だけでは動詞側の項構造まで示せないため、コロケーションと完全フレームを相互照合できない。",
+      "severity": "minor",
+      "suggested_direction": "語義1の文法パターンに confirm/dispel + suspicions that 〈節〉 の完全フレームを追記する",
+      "taxonomy_id": "argument_slot_role_mismatch"
+    }
+  ],
+  "input_body_sha256": "e4b68878b2f0a5b48675fba848087cf747e4edfe004df0e8c44055e9b5b2425a",
+  "pass_id": "frame-relation",
+  "reviewer": {
+    "agent_id": "/root/suspicion_frame_relation_recheck",
+    "declared_model": "GPT-6",
+    "ingested_by": "human",
+    "mode": "handoff"
+  },
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "stage2_request_sha256": "029d75537bb6131ef70d02cc58d3d99469853908a5ff2a2da090ad2cf6683584",
+  "unrouted_observations": []
+}

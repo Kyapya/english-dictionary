@@ -1,0 +1,107 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "input_body_sha256": "0624a39cf913ee88d57951e47767a805d75ce78d1509b037150f5049d141c975",
+  "recorded_at": "2026-09-23T12:02:22Z",
+  "reviewer": {
+    "agent_id": "/root/round5_example_attribution",
+    "declared_model": "GPT-6 (Codex)",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "attributions": [
+    {
+      "example_id": "ex-5a1225381598",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "arrested on suspicion of fraud"
+      ],
+      "rationale": "Example: “Two people were arrested on suspicion of fraud after the investigation.” The construction makes suspected fraud the basis for arrest, matching suspicion of criminal or dishonest conduct (sense:001). Sense:002 is a plausible general proposition-level competitor, but the explicit fraud accusation and arrest-ground frame make wrongdoing central."
+    },
+    {
+      "example_id": "ex-e53c6c381e29",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "under suspicion",
+        "falsified invoices"
+      ],
+      "rationale": "Example: “The contractor remained under suspicion while investigators checked whether it had falsified invoices.” The phrase under suspicion is anchored by the investigators' check for falsified invoices, so the contractor is suspected of dishonest conduct (sense:001). Sense:003 could fit general distrust of a contractor, but the sentence identifies a concrete alleged act as the basis for suspicion."
+    },
+    {
+      "example_id": "ex-619538bf1447",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "regarded the sudden policy change with suspicion"
+      ],
+      "rationale": "Example: “Residents regarded the sudden policy change with suspicion.” With suspicion is the manner of regarding the policy change, expressing a distrustful or wary attitude toward it (sense:003). Sense:002 is a plausible competitor if the residents were merely unsure whether a proposition was true, but no such proposition is supplied; the sentence describes how they viewed the change."
+    },
+    {
+      "example_id": "ex-0240b4774598",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "had altered the sales records",
+        "改ざんした"
+      ],
+      "rationale": "Example: “The manager had a suspicion that the cashier had altered the sales records.” The complement attributes falsification of sales records to the cashier, and the supplied translation explicitly renders the act as 改ざん. That makes this suspicion about suspected dishonest conduct (sense:001). Sense:002 is the nearest competitor because the clause is proposition-shaped, but its neutral-proposition reading is ruled out by the falsification meaning conveyed in the example/translation pair."
+    },
+    {
+      "example_id": "ex-83976766ec4c",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "that the meeting had been canceled"
+      ],
+      "rationale": "Example: “I had a suspicion that the meeting had been canceled.” The that-clause presents a neutral event as possibly true, matching proposition-level suspicion (sense:002). Sense:001 is a plausible competitor for a that-clause about a person's conduct, but this clause names no person, crime, or wrongdoing."
+    },
+    {
+      "example_id": "ex-7a2224f554de",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "aroused suspicions among residents",
+        "no longer trusted the officials' explanation"
+      ],
+      "rationale": "Example: “The abrupt policy reversal aroused suspicions among residents, who no longer trusted the officials' explanation.” The aroused suspicions are described as a loss of trust in the officials' explanation, directly expressing a wary attitude toward a claim (sense:003). Sense:002 could describe doubt about a specified proposition, but the sentence supplies no such proposition and instead states distrust as the residents' attitude."
+    },
+    {
+      "example_id": "ex-ffb1525f1f67",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "a suspicion of a smile in her reply"
+      ],
+      "rationale": "Example: “There was a suspicion of a smile in her reply.” The construction a suspicion of a smile in her reply describes a barely perceptible trace of a smile, matching the faint-hint sense (sense:004). Sense:003 is a possible competitor for suspicion as distrust, but there is no target of distrust; the translated meaning is a slight trace."
+    },
+    {
+      "example_id": "ex-ae677482eaf0",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "had a suspicion of truth in it",
+        "真実味"
+      ],
+      "rationale": "Example: “The old tale had a suspicion of truth in it.” The tale has a faint quality of truth, rather than someone entertaining the proposition that the tale is true, so the usage matches sense:004. Sense:002 is the natural competitor because truth is mentioned, but the have ... in it construction and the translation 真実味 describe a trace or degree, not a belief state."
+    }
+  ],
+  "blind_request_sha256": "2a6183927758c637a618247744c1fb55d7708da26c8553bb9bd687d0384d2a16"
+}

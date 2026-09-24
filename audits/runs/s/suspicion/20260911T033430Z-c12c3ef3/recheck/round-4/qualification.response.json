@@ -1,0 +1,24 @@
+{
+  "pass_id": "qualification",
+  "reviewer": {
+    "agent_id": "/root/round4_qualification",
+    "declared_model": "GPT-6",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "regional_qualification",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 35,
+        "line_end": 35,
+        "exact_quote": "【レジスター/領域】標準語。日常会話、報道、警察・司法関連の記事で広く使う。on suspicion of ...、under suspicion は報道や法執行の文脈で特に多い。ここでいう suspicion は有罪が立証されたことを意味しない。頻度の数値はこの辞書内の学習上の相対目安である。  "
+      },
+      "severity": "blocking",
+      "rationale": "The numerical frequency ratings are described as a relative learning measure within this dictionary, which does not establish encounter frequency across English as required by this pass. The scale therefore risks functioning as an internal ranking of this entry's senses rather than an English-wide frequency estimate.",
+      "evidence_link_ids": [],
+      "suggested_direction": "Ground numerical ratings in English-wide frequency evidence and state their basis, or relabel them as pedagogical priority ratings rather than frequency."
+    }
+  ]
+}

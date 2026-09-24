@@ -1,0 +1,35 @@
+{
+  "schema_version": "workflow_revision_v1",
+  "before_body_sha256": "a430dbc9612e6a5d75cf801ada3f89dfe27700ed87c526a264239330877126cb",
+  "after_body_sha256": "c2f8e5870fc4952f0d4f01836a628d90cbb5bda3636b40d38f08c5d35202dc76",
+  "changed_units": [
+    "unclassified"
+  ],
+  "full_recheck": true,
+  "fallback_reasons": [
+    "unclassified_change"
+  ],
+  "invalidated_passes": [
+    "evidence",
+    "example-attribution",
+    "frame-relation",
+    "pronunciation",
+    "qualification",
+    "sense-structure",
+    "translation"
+  ],
+  "reusable_passes": [],
+  "semantic_invalidated_passes": [
+    "evidence",
+    "example-attribution",
+    "frame-relation",
+    "pronunciation",
+    "qualification",
+    "sense-structure",
+    "translation"
+  ],
+  "request_binding_expansion": {
+    "passes": [],
+    "reason": "All seven passes are invalidated by the conservative full-recheck fallback for changed previously unclassified article text."
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "taxonomy_id": "example_sense_attribution_mismatch",
+  "stage": 1,
+  "reviewed_at": "2026-09-23T13:04:21Z",
+  "request_binding": {
+    "pass_id": "example-attribution",
+    "request_sha256": "c17ea42ea47a721fbfc4f51ac0b91865e2fe96e6f0eb07c706fbb4a1b2e8aa60",
+    "input_body_sha256": "e610984e4ee840d69032be28e4e55257a14bebd434e6d3f13ba11b959ecafa79",
+    "normalized_input_sha256": "0dfe97a1172b8021d4e9d05d5d5c5d1408ae6d9eae13e12ba671205051913a86",
+    "specification_sha256": "e0bbb032bc0c50bf9bef5ff8f7854188287e635c58e599479891e11e3343a017",
+    "source_artifact_sha256": "f5f3c82a1dc238fe6b9934a8c3c2bdffb3d258a39d4f68b065b8b33662063881"
+  },
+  "reviewer": {
+    "agent_id": "/root/round8_example_attribution_retry",
+    "declared_model": "GPT-6"
+  },
+  "mode": "handoff",
+  "ingested_by": "human",
+  "attributions": [
+    {
+      "example_id": "ex-d1003077d4ca",
+      "decision": "unique",
+      "selected_sense_id": "sense:001",
+      "candidate_sense_ids": ["sense:001"],
+      "next_best_candidate": {
+        "exists": true,
+        "sense_id": "sense:002",
+        "relative_strength": "less_natural",
+        "why_less_natural": "Sense 2 would describe distrust toward a person or thing, but the that-clause supplies a proposition whose truth is in question and identifies no distrust target."
+      },
+      "discriminating_terms": ["a suspicion that the meeting had been canceled"],
+      "rationale": "The that-clause gives the content of a tentative belief that the meeting may have been canceled, which is sense 1. Sense 2 is a wary or distrustful attitude toward a person or thing; this sentence instead presents a proposition as possibly true and has no such attitude target."
+    },
+    {
+      "example_id": "ex-8f8c24206a80",
+      "decision": "ambiguous",
+      "selected_sense_id": null,
+      "candidate_sense_ids": ["sense:001", "sense:002"],
+      "next_best_candidate": {
+        "exists": true,
+        "sense_id": "sense:002",
+        "relative_strength": "roughly_equal",
+        "why_less_natural": "It is not less natural than sense 1 here: suspicion can be an inference that something is wrong, or auditors' wary distrust of the records."
+      },
+      "discriminating_terms": [],
+      "rationale": "The phrase ‘raised some suspicion among auditors’ can mean that auditors came to think something might be wrong (sense 1), or that the records or their source became objects of distrust (sense 2). The unexplained gap is the trigger, but the sentence gives neither a that-clause or other suspected proposition nor a direct construction such as regarding the records with suspicion, so it does not resolve the two readings."
+    },
+    {
+      "example_id": "ex-0b79f9cd833e",
+      "decision": "unique",
+      "selected_sense_id": "sense:001",
+      "candidate_sense_ids": ["sense:001"],
+      "next_best_candidate": {
+        "exists": true,
+        "sense_id": "sense:002",
+        "relative_strength": "less_natural",
+        "why_less_natural": "The sentence states a suspected act as the content of the suspicion rather than describing a distrustful attitude toward the cashier."
+      },
+      "discriminating_terms": ["a suspicion that the cashier had altered the sales records"],
+      "rationale": "The that-clause identifies the proposition the manager considered possibly true: the cashier had altered the records. That is sense 1, specifically suspicion of wrongdoing. Sense 2 would be an attitude of distrust toward the cashier, but the sentence instead gives a suspected act as the suspicion's content."
+    },
+    {
+      "example_id": "ex-613a20dcfe5c",
+      "decision": "unique",
+      "selected_sense_id": "sense:002",
+      "candidate_sense_ids": ["sense:002"],
+      "next_best_candidate": {
+        "exists": true,
+        "sense_id": "sense:001",
+        "relative_strength": "less_natural",
+        "why_less_natural": "No proposition is stated as possibly true; suspicion is the manner of regarding the policy change."
+      },
+      "discriminating_terms": ["regarded the sudden policy change with suspicion"],
+      "rationale": "The construction ‘regarded [the policy change] with suspicion’ describes a wary, distrustful attitude toward its object, which is sense 2. Sense 1 would require a belief that some proposition may be true; the sentence presents no suspected proposition and uses suspicion to characterize how the change was regarded."
+    },
+    {
+      "example_id": "ex-9ca21f521576",
+      "decision": "unique",
+      "selected_sense_id": "sense:002",
+      "candidate_sense_ids": ["sense:002"],
+      "next_best_candidate": {
+        "exists": true,
+        "sense_id": "sense:001",
+        "relative_strength": "less_natural",
+        "why_less_natural": "A belief that the officials' explanation is false could be inferred, but the sentence explicitly characterizes the residents' state as distrust of that explanation and names no separate suspected event or wrongdoing."
+      },
+      "discriminating_terms": ["no longer trusted the officials' explanation"],
+      "rationale": "The sentence links the suspicions to a specific object of lost trust, the officials' explanation. That is the distrustful attitude in sense 2. Sense 1 could be reached by adding an unstated proposition such as that officials had lied; the sentence itself gives no such suspected proposition and explicitly states mistrust instead."
+    },
+    {
+      "example_id": "ex-b5e7fa7186d6",
+      "decision": "unique",
+      "selected_sense_id": "sense:003",
+      "candidate_sense_ids": ["sense:003"],
+      "next_best_candidate": {
+        "exists": true,
+        "sense_id": "sense:001",
+        "relative_strength": "less_natural",
+        "why_less_natural": "A tentative belief that a smile occurred is possible in the abstract, but the ‘a suspicion of [quality] in [expression]’ construction presents a faint trace of that quality."
+      },
+      "discriminating_terms": ["a suspicion of a smile in her reply"],
+      "rationale": "The ‘a suspicion of a smile ... in her reply’ construction describes a barely perceptible trace of a smile in the reply, which is sense 3. Sense 1 would be a belief that a proposition may be true; here the complement is a quality present in the reply, not a proposition under consideration."
+    },
+    {
+      "example_id": "ex-bfc7f98b7c6e",
+      "decision": "unique",
+      "selected_sense_id": "sense:003",
+      "candidate_sense_ids": ["sense:003"],
+      "next_best_candidate": {
+        "exists": true,
+        "sense_id": "sense:001",
+        "relative_strength": "less_natural",
+        "why_less_natural": "Although the tale's truth could be in question, ‘had a suspicion of truth in it’ describes a small degree or faint presence of truth within the tale, not a person's tentative belief."
+      },
+      "discriminating_terms": ["a suspicion of truth in it"],
+      "rationale": "The phrase ‘had a suspicion of truth in it’ treats truth as a faint quality present within the tale, the formal ‘small amount or slight hint’ use in sense 3. Sense 1 would express someone's tentative belief that a proposition was true; no believer or such proposition appears, and ‘in it’ locates the quality within the tale."
+    },
+    {
+      "example_id": "ex-ba13c9432000",
+      "decision": "unique",
+      "selected_sense_id": "sense:001",
+      "candidate_sense_ids": ["sense:001"],
+      "next_best_candidate": {
+        "exists": true,
+        "sense_id": "sense:002",
+        "relative_strength": "less_natural",
+        "why_less_natural": "The sentence concerns an unresolved allegation of falsifying invoices, not merely a wary attitude toward the contractor."
+      },
+      "discriminating_terms": ["under suspicion", "checked whether it had falsified invoices"],
+      "rationale": "‘Under suspicion’ is explained by the whether-clause naming the possible wrongdoing being investigated: the contractor may have falsified invoices. This is sense 1, a suspicion that wrongdoing occurred. Sense 2 would describe distrust toward the contractor as an attitude, but the explicit possible act is the focus here."
+    },
+    {
+      "example_id": "ex-cf0a8a1498e3",
+      "decision": "unique",
+      "selected_sense_id": "sense:001",
+      "candidate_sense_ids": ["sense:001"],
+      "next_best_candidate": {
+        "exists": true,
+        "sense_id": "sense:002",
+        "relative_strength": "less_natural",
+        "why_less_natural": "The ‘on suspicion of’ phrase states the alleged basis for arrest, not a general distrustful attitude toward the people."
+      },
+      "discriminating_terms": ["arrested on suspicion of fraud"],
+      "rationale": "The construction ‘arrested on suspicion of fraud’ names a possible crime as the basis for arrest, so suspicion means a belief that fraud may have occurred (sense 1). Sense 2 would be a wary attitude toward a person or thing, which does not express the alleged criminal ground for arrest."
+    }
+  ]
+}

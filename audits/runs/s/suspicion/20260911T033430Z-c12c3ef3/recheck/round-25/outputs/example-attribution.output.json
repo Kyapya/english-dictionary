@@ -1,0 +1,261 @@
+{
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "mode": "handoff",
+    "agent_id": "/root/r25_example_attribution",
+    "declared_model": "GPT-6",
+    "ingested_by": "orchestrator",
+    "source_response": {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-25/responses/source_responses/6ab64973121496040256c5b49b5c8b9e202da5b5b4104bec0d9ef43157efb87a.json",
+      "sha256": "6ab64973121496040256c5b49b5c8b9e202da5b5b4104bec0d9ef43157efb87a"
+    }
+  },
+  "blind_attribution_record": {
+    "schema_version": "example_attribution_blind_record_v1",
+    "pass_id": "example-attribution",
+    "input_body_sha256": "1668f193d23088ced53f1c8828fcef108cde97073b2eda3e14f74741e9d73a51",
+    "blind_request_sha256": "1a2c591945ac2ae40fe70f552b4f3ade8685c34ed596e1d852ea6365cc2698b0",
+    "recorded_at": "2026-09-24T15:52:55.970309+00:00",
+    "reviewer": {
+      "mode": "handoff",
+      "agent_id": "/root/r25_example_attribution",
+      "declared_model": "GPT-6",
+      "ingested_by": "orchestrator",
+      "source_response": {
+        "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-25/responses/source_responses/6ab64973121496040256c5b49b5c8b9e202da5b5b4104bec0d9ef43157efb87a.json",
+        "sha256": "6ab64973121496040256c5b49b5c8b9e202da5b5b4104bec0d9ef43157efb87a"
+      }
+    },
+    "attributions": [
+      {
+        "example_id": "ex-b03af3234411",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "next_best_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "viewed the sudden policy change with suspicion"
+        ],
+        "rationale": "The exact discriminating phrase “viewed the sudden policy change with suspicion” is the direct cue: The construction “viewed … with suspicion” presents a distrustful or wary attitude toward the policy change. Sense 3 would make suspicion a tentative belief that a proposition is true, but no proposition is being entertained here; the policy change itself is viewed with mistrust. Sense 1 would require treating a person as suspected of wrongdoing, which this use does not do.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-ac0554aff917",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "next_best_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "greeted with some suspicion"
+        ],
+        "rationale": "The exact discriminating phrase “greeted with some suspicion” is the direct cue: “Greeted with some suspicion” describes an initially wary, mistrustful response to the monitoring system. Sense 3 would require a specific uncertain proposition, but the sentence expresses an attitude toward the system rather than a hunch about a claim. Sense 1 would require a person to be suspected of an offense, which is not the relation expressed.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-cbc4c2957807",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "next_best_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "confirmed her suspicion that the battery was failing"
+        ],
+        "rationale": "The exact discriminating phrase “confirmed her suspicion that the battery was failing” is the direct cue: The that-clause states the proposition whose truth her suspicion concerned: that the battery was failing, later confirmed by the test results. Sense 1 would make a person the target of an allegation of wrongdoing; here the alleged state concerns a battery, not a person suspected of an act. This is a tentative inference about a proposition, sense 3.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-30e37b248526",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "next_best_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "remained under suspicion"
+        ],
+        "rationale": "The exact discriminating phrase “remained under suspicion” is the direct cue: “Remained under suspicion” casts the contractor as a person being treated as a suspect until the records were checked. Sense 2 could describe general mistrust of a person, but this under-suspicion construction assigns suspect status to the contractor rather than merely expressing wariness toward him. The sentence does not frame suspicion as a hunch about an independent proposition, as sense 3 would.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-bcebf97d0c59",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "next_best_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "white with a suspicion of blue"
+        ],
+        "rationale": "The exact discriminating phrase “white with a suspicion of blue” is the direct cue: “A suspicion of blue” marks a barely perceptible amount or trace of blue in the walls’ color, so it is sense 4. Sense 3 would be a tentative belief that a proposition is true, but “of blue” modifies the color quality of the walls and supplies no proposition. Sense 2’s mistrust meaning does not fit this sensory color reading.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-69c1cfa4b9fa",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "next_best_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "people were arrested on suspicion of fraud"
+        ],
+        "rationale": "The exact discriminating phrase “people were arrested on suspicion of fraud” is the direct cue: The people are arrested as suspects on a specified fraud charge; “on suspicion of fraud” expresses a criminal allegation directed at them. Sense 3 could express a tentative belief about a proposition, but this fixed construction makes the people the targets of the fraud suspicion and grounds their arrest. Sense 2’s general distrust meaning does not account for the named offense and suspect relation.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-2a325acdeabf",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "next_best_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "suspicion that the delay was caused by a technical problem"
+        ],
+        "rationale": "The exact discriminating phrase “suspicion that the delay was caused by a technical problem” is the direct cue: The clause “the delay was caused by a technical problem” is the uncertain causal proposition the speakers believe may be true. Sense 1 would require suspicion directed at a person as the perpetrator of wrongdoing; no person is alleged to have committed an offense. The proposition-focused hunch is sense 3.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-5e4a23f7959d",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "next_best_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "a suspicion that the meeting will finish earlier than planned"
+        ],
+        "rationale": "The exact discriminating phrase “a suspicion that the meeting will finish earlier than planned” is the direct cue: The that-clause gives a forecast about when the meeting will finish, which is a tentative belief about a proposition. Sense 2 would be mistrust or wariness toward a person, organization, motive, or idea; the sentence instead expresses a hunch about a future event. Sense 1 has no suspected person or wrongdoing here.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-e3be07cd502f",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "next_best_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "suspicion that the treasurer had committed fraud"
+        ],
+        "rationale": "The exact discriminating phrase “suspicion that the treasurer had committed fraud” is the direct cue: The embedded clause directly alleges that a specific person, the treasurer, committed fraud; the suspicion is directed at that person as the suspected wrongdoer. Sense 3 can concern a proposition introduced by that, but here the proposition’s semantic relation is a criminal accusation against a person, which is the defining focus of sense 1 rather than a general hunch about an event.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-2732b24f99bb",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "next_best_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "a sneaking suspicion that everyone already knew the answer"
+        ],
+        "rationale": "The exact discriminating phrase “a sneaking suspicion that everyone already knew the answer” is the direct cue: The that-clause states the speaker’s uncertain belief that everyone already knew the answer. Sense 2 would express wariness toward those people, but the construction here presents the clause as a proposition the speaker suspects may be true. Sense 1 would require an allegation that someone committed wrongdoing, which is absent.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-a483526c3a52",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "next_best_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "a suspicion of disappointment in his voice"
+        ],
+        "rationale": "The exact discriminating phrase “a suspicion of disappointment in his voice” is the direct cue: “A suspicion of disappointment” is a slight trace of an emotion perceptible in the voice, the sensory or expressive degree use in sense 4. Sense 3 would take a proposition as the object of an uncertain belief, but “of disappointment” names the faint quality heard in the voice, not a proposition. Sense 2’s mistrust sense does not fit an emotion audible in a voice.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-409fe4fa8d31",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "next_best_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "cast suspicion on the clerk"
+        ],
+        "rationale": "The exact discriminating phrase “cast suspicion on the clerk” is the direct cue: “Cast suspicion on the clerk” makes the clerk the person newly treated as a possible wrongdoer, with access to the report supplying the relevant suspected act context. Sense 2 could mean simply becoming wary of the clerk, but “cast suspicion on” assigns suspicion to a person as a suspect; it is not just a general attitude of distrust. The sentence has no independent proposition functioning as a hunch under sense 3.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-1b8c97000a60",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "next_best_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "came under suspicion"
+        ],
+        "rationale": "The exact discriminating phrase “came under suspicion” is the direct cue: “Came under suspicion” means the employee became a suspect after invoices disappeared. Sense 2 could express broad mistrust of the employee, but this construction places the employee under suspicion of involvement in wrongdoing rather than merely describing a wary attitude. It is not a proposition-focused hunch in sense 3.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-9f6d2b773303",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "next_best_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "a suspicion of a smile appeared at the corner of her mouth"
+        ],
+        "rationale": "The exact discriminating phrase “a suspicion of a smile appeared at the corner of her mouth” is the direct cue: The phrase “a suspicion of a smile” describes a faint, barely formed trace of a smile appearing at the mouth, so it is sense 4. Sense 3 would require an uncertain proposition, but “of a smile” names the small visible expression itself. Sense 2’s mistrust meaning is incompatible with this physical appearance.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-6958df48129d",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "next_best_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "a suspicion of citrus"
+        ],
+        "rationale": "The exact discriminating phrase “a suspicion of citrus” is the direct cue: “A suspicion of citrus” describes a slight trace of citrus flavor in the sauce, confirmed by the effect that it tastes fresher. Sense 3 would be a hunch that a proposition is true, but the complement here is a taste quality rather than a proposition. The sensory amount reading is sense 4.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-6ca5169f2cd7",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "next_best_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "suspicions that a guard had stolen the missing laptops"
+        ],
+        "rationale": "The exact discriminating phrase “suspicions that a guard had stolen the missing laptops” is the direct cue: The clause alleges theft by a specific person, the guard, and thus makes the guard the suspected wrongdoer. Sense 3 could describe a general hunch about a proposition, but the proposition here is explicitly an accusation that a person committed a crime; that person-directed criminal allegation is sense 1.",
+        "classification": "unique"
+      }
+    ]
+  },
+  "aligned_at": "2026-09-24T15:54:02.543603+00:00",
+  "findings": [],
+  "unrouted_observations": [],
+  "schema_version": "check_pass_result_v6",
+  "status": "pass"
+}

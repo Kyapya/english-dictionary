@@ -1,0 +1,25 @@
+{
+  "pass_id": "qualification",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-6",
+    "ingested_by": "human",
+    "agent_id": "/root/suspicion_qualification_review"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "absolute_scope_counterexample",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 72,
+        "line_end": 72,
+        "exact_quote": "例: The altered timestamp cast suspicion on the clerk who had falsified the report.  "
+      },
+      "severity": "minor",
+      "rationale": "関係節 who had falsified the report が事務員の改ざんを確定事実として述べるため、犯罪をした可能性への疑いを表す語義1の中心例としては、疑いの対象となる行為が未確定という範囲が崩れて見える。",
+      "evidence_link_ids": [],
+      "suggested_direction": "who had access to the report のような中立的な説明に替えるか、何が未確定の疑いなのかを明示する。"
+    }
+  ],
+  "request_sha256": "c20eeb259c02a9cddd94c52e277f79bc5c68708b04d88c4c6d590547bd6e4ca2"
+}

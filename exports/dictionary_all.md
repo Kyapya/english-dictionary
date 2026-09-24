@@ -26871,7 +26871,7 @@ tags: []
 
 ＃発音記号
 
-米・英: /ˈtentətɪv/。3音節で、第1音節の /ˈten/ に主強勢がある。第2音節は弱い /tə/、語末は /tɪv/ と発音する。tentatively は /ˈtentətɪvli/、tentativeness は /ˈtentətɪvnəs/ のように、派生語でも第1音節の強勢を保つ。  
+米・英: /ˈtentətɪv/。3音節で、第1音節の /ˈten/ に主強勢がある。第2音節は弱い /tə/、語末は /tɪv/ と発音する。tentatively は /ˈtentətɪvli/、tentativeness は /ˈtentətɪvnəs/ のように、派生語でも第1音節の強勢を保つ。アメリカ英語では、語中の /t/ がフラップ化して、弱く聞こえることがある。  
 
 ＃語源
 
@@ -26881,7 +26881,6 @@ tags: []
 
 ・tentatively：副詞。「暫定的に、仮に」または「ためらいがちに、自信なさそうに」。修飾する内容によって2つの形容詞義に対応する。  
 ・tentativeness：名詞。「暫定性、未確定性」または「ためらい、自信のなさ」。通常は不可算名詞で、性質や態度を表す。  
-・tentative：名詞転用。「暫定的なもの、仮の項目」。まれで、予約・契約・日程などが確定する前の業務上の項目を指すことがある。  
 ・attempt／tempt：同じラテン語 tentare／temptare にさかのぼる関連語。attempt は「試み」、tempt は現代英語で主に「誘惑する」を表し、tentative の派生語ではない。  
 
 ＃コアイメージ
@@ -26889,7 +26888,6 @@ tags: []
 tentative の共通核は、「まだ確定させず、試しに触れている段階」である。計画や判断なら後で変更され得る「暫定性」、行動や表情なら確信を持たず慎重に踏み出す「ためらい」として現れる。  
 ・内容を試しに置き、後で変えられる状態 → 「暫定的な、仮の」（語義1）  
 ・行動を試しに行い、確信を持てない様子 → 「ためらいがちな、自信のない」（語義2）  
-・確定前の項目を業務上の仮登録として扱う → 「暫定案、仮の項目」（語義3）  
 
 ＃意味・用法・関連表現
 
@@ -26901,19 +26899,19 @@ tentative の共通核は、「まだ確定させず、試しに触れている�
 
 【レジスター/領域】標準語で、会話・報道・ビジネス・学術・交渉まで広く使う。特に plan、date、schedule、arrangement、agreement、conclusion、explanation、identification など、後から確認や調整が入り得る名詞と結びつく。  
 
-【文法パターン】a tentative 〈plan/date/schedule/arrangement/agreement〉＝暫定的な〈計画・日付・予定・取り決め・合意〉／tentative conclusions/findings＝予備的な結論・調査結果／a tentative explanation/identification＝暫定的な説明・仮の同定／make/reach/announce a tentative decision＝暫定的な決定をする・出す／be tentative about 〈the date/details〉＝〈日付・詳細〉がまだ確定していない／tentative plans to do＝～する暫定的な計画／tentatively agree/approve/identify＝暫定的に合意する・承認する・特定する。  
+【文法パターン】a tentative 〈plan/date/schedule/arrangement/agreement〉＝暫定的な〈計画・日付・予定・取り決め・合意〉／tentative conclusions/findings＝予備的な結論・調査結果／a tentative explanation/identification＝暫定的な説明・仮の同定／make/reach/announce a tentative decision＝暫定的な決定をする・出す／the date/details are tentative＝日付・詳細はまだ仮である／確定していない／the schedule remains tentative＝予定はまだ暫定的である／tentative plans to do＝～する暫定的な計画／tentatively agree/approve/identify＝暫定的に合意する・承認する・特定する。  
 
 【コロケーション】
 
 ・tentative plans for 〈event/activity〉  
 用途: 予定はあるが、内容や日時がまだ変わる可能性があることを表す。  
 例: We have tentative plans for a short trip in October.  
-訳: 私たちは10月に短い旅行をする仮の予定がある。  
+訳: 私たちは10月に小旅行に行く予定だが、まだ仮の段階だ。  
 
 ・a tentative date for 〈event〉  
 用途: 会議・発売・開始などの日付を候補として置く。  
 例: The organizers set a tentative date for the conference in early May.  
-訳: 主催者は会議の開催日を5月初旬の仮の日付として設定した。  
+訳: 主催者は会議の開催日を5月初旬に仮設定した。  
 
 ・a tentative schedule  
 用途: 今後の調整で変更され得る予定表を指す。  
@@ -26945,7 +26943,7 @@ tentative の共通核は、「まだ確定させず、試しに触れている�
 例: The board tentatively approved the budget pending a legal review.  
 訳: 取締役会は法務審査を条件として、その予算を暫定承認した。  
 
-【語法・注意】tentative は「その場しのぎの」「短期間の」と同義ではない。`a tentative date` は期間が短い日付ではなく、まだ変更され得る候補日である。`a tentative agreement` も正式な契約・最終合意とは限らず、`final`、`confirmed`、`settled` などで確定段階を示す。`uncertain` は結果や真偽が不確かなことを広く表すのに対し、tentative は計画・判断などをいったん置いているが確定させていないことに焦点がある。`preliminary` は作業・調査の初期段階であること、`provisional` は正式なものに代わる仮の状態であることを強調しやすい。  
+【語法・注意】tentative は「その場しのぎの」「短期間の」と同義ではない。`a tentative date` は期間が短い日付ではなく、まだ変更され得る候補日である。`a tentative agreement` も正式な契約・最終合意とは限らず、`final`、`confirmed`、`settled` などで確定段階を示す。`uncertain` は結果や真偽が不確かなことを広く表すのに対し、tentative は計画・判断などをいったん置いているが確定させていないことに焦点がある。`preliminary` は作業・調査の初期段階であること、`provisional` は正式なものに代わる仮の状態であることを強調しやすい。一部のイベント予約・会場管理・業務システムでは、`tentative` を名詞的またはステータス名として使い、「仮押さえ」「暫定予約」などを表すことがある。ただし一般英語では特殊な用法であり、通常は `a tentative booking`、`a tentative date`、`a tentative arrangement` など形容詞として用いる。  
 
 【類義語】
 
@@ -26966,7 +26964,7 @@ tentative の共通核は、「まだ確定させず、試しに触れている�
 ・conditional  
 定義: 特定の条件が満たされる場合にだけ成立する。  
 頻度: 〈8/10〉  
-違い: conditional は変更の理由となる条件を明示する語で、tentative は条件を示さなくても、現段階で確定していないことを表せる。  
+違い: conditional は、ある条件が満たされた場合にのみ成立・有効になることを表す。一方、tentative は特定の条件を明示しなくても、まだ最終決定ではなく変更の余地があることを表せる。  
 例: The offer is conditional on approval from the lender.  
 訳: その申し出は貸し手の承認を条件としている。  
 
@@ -26975,7 +26973,7 @@ tentative の共通核は、「まだ確定させず、試しに触れている�
 頻度: 〈7/10〉  
 違い: unconfirmed は情報の確認状態に焦点があり、tentative は情報だけでなく計画・合意・結論を仮置きする場合にも使う。  
 例: The report was based on an unconfirmed account of the incident.  
-訳: その報告書は、その出来事についてまだ確認されていない説明に基づいていた。  
+訳: その報告書は、その出来事についての未確認情報に基づいていた。  
 
 【反意語】
 
@@ -27052,14 +27050,14 @@ tentative の共通核は、「まだ確定させず、試しに触れている�
 例: He tentatively suggested moving the meeting to Friday.  
 訳: 彼は会議を金曜日に移してはどうかと、ためらいがちに提案した。  
 
-【語法・注意】この意味の tentative は、計画が未確定という語義1と異なり、行為者の態度や動作の仕方を描写する。`a tentative smile` は「仮の笑顔」ではなく、相手の反応を確かめるような笑顔である。`hesitant` は決断・発言・行動をためらうことを直接表す最も近い語、`cautious` は危険や失敗を避けるための用心深さを表し、必ずしも自信のなさを含まない。`tentative steps` は文字どおり歩く場合も、計画・改革への初期行動を比喩的に表す場合もある。  
+【語法・注意】この意味の tentative は、計画が未確定という語義1と異なり、行為者の態度や動作の仕方を描写する。`a tentative smile` は「仮の笑顔」ではなく、相手の反応を確かめるような笑顔である。`hesitant` は決断・発言・行動に踏み切ることをためらっている状態を直接表し、`cautious` は危険や失敗を避けるための用心深さを表す。`cautious` は必ずしも自信のなさを含まない。`tentative steps` は文字どおり歩く場合も、計画・改革への初期行動を比喩的に表す場合もある。  
 
 【類義語】
 
 ・hesitant  
 定義: 決めたり行動したりすることをためらっている。  
 頻度: 〈9/10〉  
-違い: hesitant は意思決定や行動を進められないためらいを直接示し、tentative は声・表情・動作が自信なさそうに現れる様子まで表せる。  
+違い: hesitant は、決断・発言・行動に踏み切ることをためらっている状態を直接表す。tentative は、その不確かさや自信のなさが声・表情・動作などに現れている様子も表しやすい。  
 例: She was hesitant to raise the issue during the meeting.  
 訳: 彼女は会議中にその問題を持ち出すのをためらった。  
 
@@ -27105,44 +27103,164 @@ tentative の共通核は、「まだ確定させず、試しに触れている�
 頻度: 〈8/10〉  
 違い: decisive は決断や行動の速さ・明確さに焦点があり、tentative は決めかねながら慎重に進めることを表す。  
 例: The director took decisive action when the system failed.  
-訳: システムが停止したとき、部長は断固たる行動を取った。  
+訳: システムが停止したとき、部長は断固たる行動を取った。
 
-3. 【名詞・可算／まれ・業務用語】暫定案、仮の項目
+---
 
-【日本語訳・定義】予約、契約、日程、出演枠などについて、正式な確定や契約が済む前に、仮のものとして記録・扱われる項目を表す。一般会話で広く使う名詞ではなく、複数形 tentatives を含む業務上・事務上の文脈で見られる低頻度用法である。  
+# suspicion
 
-【頻度】〈2/10〉  
+---
+headword: suspicion
+type: word
+status: checked
+prompt_version: entry_spec_v5
+model: gpt-5.6-sol
+created_at: 2026-09-23
+updated_at: 2026-09-23
+checked: true
+tags: []
+---
 
-【レジスター/領域】低頻度。イベント予約、放送・興行、契約管理など、仮押さえや契約待ちの項目を区別する実務的な文脈に限られやすい。通常は a tentative booking、a tentative date、a tentative arrangement のように形容詞として言うほうが自然である。  
+＃発音記号
 
-【文法パターン】a tentative＝1件の暫定項目／tentatives＝複数の暫定項目／list/hold/book dates as tentatives＝日程を暫定項目として一覧化・仮押さえする。  
+米: Oxford の米語IPAは /səˈspɪʃn/。Merriam-Webster は sus·pi·cion と3音節に区切り、第2音節に主強勢を示す。両辞書で表記形式が異なる。  
+
+＃語源
+
+suspicion は中英語を経て、アングロフランス語・古フランス語からラテン語系の形へさかのぼる。辞書によってラテン語形は suspicio、suspectio、suspectio(n-) と記され、中継経路の説明にも差がある。Merriam-Webster は suspicere「疑う」に由来すると説明している。  
+
+＃語形成
+
+・suspicious：形容詞。「疑っている、不信に思っている」、または人に疑いを起こさせる「疑わしい」。  
+・suspiciously：副詞形。  
+・suspiciousness：名詞形。  
+・suspicion（動詞）は他動詞で「～を疑う」。Merriam-Webster では chiefly dialectal とされるため、以下の主要な学習語義には採録しない。  
+
+＃コアイメージ
+
+学習上は「確証のない段階で、ある事柄が真実かもしれないと考える」という見立てを中心にする。人の犯罪・不正を疑う用法はその具体例であり、suspicion that ... の節には別の出来事や状態も続く。人や物事を信用できず疑いの目で見る用法は、対象への不信・警戒という態度に焦点を置く。a suspicion of a smile / truth は「ごく少量・かすかな兆し」を表す形式的な比喩用法。この整理は学習上の目安で、全用法が一つの語源的意味を共有するという主張ではない。  
+
+＃意味・用法・関連表現
+
+この節の各語義・類義語の頻度スコアは、英語全体での遭遇頻度を entry_spec_v5 の10段階基準に照らした編集上の定性的推定である。厳密なコーパス集計値や辞書掲載の数値ではなく、地域・専門・古風な用法を過大評価しない目安として付けている。類義語のスコアは、各項目の「定義」に示す意味に限る。  
+
+1. 【名詞・可算／不可算】疑い、推測：ある事柄が真実かもしれないと考えること。特に犯罪・不正への疑い
+
+【日本語訳・定義】確証がない段階で、ある事柄が真実かもしれないと考えることを表す。人が犯罪・不正をした可能性への疑いもこの意味に含む。Oxfordは犯罪・不正の疑いでは可算・不可算の両用法を、命題の真偽については可算用法を記している。  
+
+【頻度】〈8/10〉  
+
+【レジスター/領域】標準語。犯罪・不正の可能性から、会議の中止など出来事や状態の真偽まで、確証のない考えを述べる。  
+
+【文法パターン】suspicion that 〈clause〉＝～ではないかという疑い／have a suspicion that 〈clause〉＝～ではないかという疑いを抱く／arouse 〈person〉's suspicions that 〈clause〉＝〈人〉に～ではないかという疑いを起こさせる／raise some suspicion＝疑いを招く／on suspicion of 〈offence〉＝〈犯罪〉の容疑で／be under suspicion＝疑いをかけられている。  
 
 【コロケーション】
 
-・list the dates as tentatives  
-用途: 契約や正式確認が済んでいない日程を仮の枠として記録する。  
-例: The theater listed the autumn dates as tentatives while it waited for the contracts.  
-訳: その劇場は契約を待つ間、秋の日程を暫定枠として記録した。  
+・on suspicion of 〈crime〉  
+用途: 警察などが、ある犯罪を行った疑いを理由に人を逮捕・拘束したことを述べる。  
+例: Two people were arrested on suspicion of fraud after the investigation.  
+訳: 捜査後、2人が詐欺の容疑で逮捕された。  
 
-・hold a date as a tentative  
-用途: 日程を正式決定前の仮押さえとして扱う。  
-例: The producer asked us to hold the date as a tentative until Friday.  
-訳: プロデューサーは、金曜日まではその日を仮押さえとしておくよう私たちに頼んだ。  
+・be under suspicion  
+用途: 人が不正や犯罪をしたのではないかと疑われている状態を表す。  
+例: The contractor remained under suspicion while investigators checked whether it had falsified invoices.  
+訳: 請求書を改ざんしたかどうかを捜査員が調べる間、その請負業者は疑いをかけられたままだった。  
 
-【語法・注意】この名詞用法は一般的な「仮のもの」の言い換えとして自由に使う語ではない。通常の文章では `a tentative plan`、`a tentative booking` のように形容詞用法を選ぶ。名詞の tentative が必要かどうかは業界の慣行によって異なり、読者に伝わりにくい場合は provisional item、pending booking など具体的な表現で言い換える。  
+・a suspicion that 〈clause〉  
+用途: 確証がない段階で、節の内容が事実かもしれないという見立てを表す。  
+例: The manager had a suspicion that the cashier had altered the sales records.  
+訳: その管理者は、レジ係が売上記録を改ざんしたのではないかと疑っていた。  
+
+・have a suspicion that 〈clause〉  
+用途: 出来事や状態が実際に起きた、または成り立つのではないかという考えを抱く。  
+例: I had a suspicion that the meeting had been canceled.  
+訳: 会議は中止されたのではないかと私は疑っていた。  
+
+・arouse someone's suspicions  
+用途: ある出来事を受け、〈人〉が節の内容を真実かもしれないと疑うきっかけになる。  
+例: The abrupt policy reversal aroused residents' suspicions that officials had concealed the project's true cost.  
+訳: 突然の方針転換を受けて、住民たちは当局が事業の本当の費用を隠していたのではないかと疑い始めた。  
+
+・raise some suspicion  
+用途: ある発言や出来事が疑いを招くことを表す。  
+例: The unexplained delay raised some suspicion.  
+訳: 説明のつかない遅れが、多少の疑いを招いた。  
+
+【語法・注意】on suspicion of theft は「窃盗で有罪になった」ではなく、「窃盗をした疑いを理由に」という意味である。under suspicion も罪が確定した状態を表さない。Merriam-Webster の法律辞典は suspicion を通常、信念に至らない精神状態として説明し、reasonable suspicion の項目に関連づけている。ここでは特定の法域の法的基準を述べない。  
 
 【類義語】
 
-・provisional item  
-定義: 正式決定まで仮のものとして記録・管理される項目。  
-頻度: 〈3/10〉  
-違い: provisional item は意味を明示する説明的な句で、名詞 tentative の業務上の用法を平易に言い換える。tentative より自然に伝わりやすいが、特定業界の固定用語とは限らない。  
-例: The spreadsheet marks each provisional item in gray until the contract is signed.  
-訳: その表計算シートでは、契約が締結されるまで各暫定項目を灰色で示している。  
+・doubt  
+定義: ある事柄の真偽について確信が持てない状態。  
+頻度: 〈8/10〉  
+違い: doubt は真偽の不確かさを広く表し、suspicion はある事柄が真実かもしれないという見立ても表す。  
+例: There was some doubt about whether the meeting had been canceled.  
+訳: 会議が中止されたかどうかについて、多少の疑問があった。  
 
-・pending booking  
-定義: 確定や支払いなどを待っている仮予約。  
-頻度: 〈4/10〉  
-違い: pending booking は予約に意味を限定し、保留中であることを直接示す。tentative は予約以外の日程・契約項目にも使える。  
-例: We kept the pending booking separate from the confirmed reservations.  
-訳: 私たちは保留中の仮予約を、確定済みの予約とは別にしておいた。
+2. 【名詞・可算／不可算】不信、警戒を伴う疑念
+
+【日本語訳・定義】人や物事を十分に信用できず、疑いの目で見る態度を表す。ある事柄が真実かどうかについての見立てを表す語義1とは異なり、対象への不信や警戒に焦点を置く。  
+
+【頻度】〈7/10〉  
+
+【レジスター/領域】標準語。人や物事、説明などを信用できず、疑いの目で見る態度を述べる。  
+
+【文法パターン】regard 〈person/thing〉 with suspicion＝〈人・物事〉を疑いの目で見る。  
+
+【コロケーション】
+
+・regard 〈person/thing〉 with suspicion  
+用途: 人や物事をすぐには信用せず、疑いの目で見ることを表す。  
+例: Residents regarded the sudden policy change with suspicion.  
+訳: 住民たちは突然の方針変更を疑いの目で見た。  
+
+【語法・注意】with suspicion は、対象を信頼できるか疑って見る態度を表す。  
+
+【類義語】
+
+・distrust  
+定義: 人や物事を信頼できない気持ち。  
+頻度: 〈8/10〉  
+違い: distrust は信頼できない気持ちを直接表し、with suspicion は人や物事を疑いの目で見る態度を表す。Oxford Advanced American Dictionary は suspicion の第3語義を「人や物事を信頼できない気持ち」と説明し、両者の意味の重なりを示す。  
+例: Residents regarded the proposal with distrust.  
+訳: 住民たちはその提案を信用しなかった。  
+
+3. 【名詞・単数／形式的】ごく少量、かすかな兆し
+
+【日本語訳・定義】ものがごく少量、またはかすかな兆候として感じられることを表す。通常 a suspicion of ... の形で使われる。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】単数形で用いる形式的な用法。  
+
+【文法パターン】a suspicion of 〈a smile〉＝笑みがかすかに感じられること／a suspicion of 〈truth〉＝真実味がかすかに感じられること。  
+
+【コロケーション】
+
+・a suspicion of a smile  
+用途: はっきり表れるほどではない、かすかな兆しを描写する。  
+例: There was a suspicion of a smile in her reply.  
+訳: 彼女の返事にはかすかな笑みが感じられた。  
+
+・a suspicion of truth  
+用途: 話や印象に真実味がかすかに感じられることを表す。  
+例: The old tale had a suspicion of truth in it.  
+訳: その古い物語には、どこか真実味が感じられた。  
+
+【語法・注意】この a suspicion of ... は「～を疑うこと」ではなく、「～がごく少量、または兆候としてわずかに感じられること」である。  
+
+【類義語】
+
+・hint  
+定義: Oxfordがこのごく少量・かすかな兆しの語義で挙げる類義語。  
+頻度: 〈8/10〉  
+違い: Oxfordはhintをこの語義の類義語として挙げ、suspicionの用法をformalと記している。  
+例: The tea has a hint of mint.  
+訳: そのお茶にはほのかなミントの風味がある。  
+
+・trace  
+定義: ごくわずかな量や痕跡を表す語。Merriam-Websterは本語義の類義語として挙げている。  
+頻度: 〈8/10〉  
+違い: Merriam-Websterはsuspicionの本語義をbarely detectable amount or traceと説明し、Oxfordはこの用法をformalとしている。  
+例: There was only a trace of smoke in the air.  
+訳: 空気中には煙がほんのわずかに漂っていた。

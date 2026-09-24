@@ -1,0 +1,79 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "input_body_sha256": "03815e046214b7ac013164253f4b3350f326787af55129a907fd779e8fefc3b4",
+  "blind_request_sha256": "6038046c43af74c46561a2257a8e914e2535e2ba4c7924276cbbb388256182cd",
+  "recorded_at": "2026-09-23T10:57:48Z",
+  "reviewer": {
+    "agent_id": "/root/recheck_example_attribution",
+    "declared_model": "GPT-6",
+    "mode": "handoff",
+    "ingested_by": "human",
+    "self_attested": true
+  },
+  "attributions": [
+    {
+      "example_id": "ex-4c7a6fd92ce0",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["suspicion of embezzlement"],
+      "rationale": "Exact example: \"The unexplained transfer of funds aroused suspicion of embezzlement among the auditors.\" The complement identifies embezzlement as the suspected offense, so this is suspicion that wrongdoing occurred (sense:001). Sense:002 would describe distrust of the transfer or its source as an attitude, but the phrase directly frames embezzlement as the suspected act."
+    },
+    {
+      "example_id": "ex-5c315f7f75ed",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:002"],
+      "discriminating_terms": ["regarded the sudden policy change with suspicion"],
+      "rationale": "Exact example: \"Residents regarded the sudden policy change with suspicion.\" The construction 'regarded ... with suspicion' expresses a wary, distrustful attitude toward the change (sense:002). Sense:001 would require suspicion that someone committed a crime or other misconduct; no such act is alleged here."
+    },
+    {
+      "example_id": "ex-9ea99ce7ae24",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["suspicions that the cashier had falsified the sales records"],
+      "rationale": "Exact example: \"The security footage confirmed the manager's suspicions that the cashier had falsified the sales records.\" The that-clause gives the specific suspected act, falsifying sales records, and the footage confirms those suspicions (sense:001). Sense:002 could concern general distrust of the cashier, but this sentence asserts a suspicion about a concrete dishonest act."
+    },
+    {
+      "example_id": "ex-62e01efa9190",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["suspicion of forgery"],
+      "rationale": "Exact example: \"The altered timestamp raised suspicion of forgery among the investigators.\" Forgery is the specific offense suspected, making this an allegation-level suspicion (sense:001). Sense:002 could describe distrust of the timestamp, but the complement identifies forgery itself as the suspected wrongdoing."
+    },
+    {
+      "example_id": "ex-52fce98fd743",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:003"],
+      "discriminating_terms": ["a suspicion of truth in it"],
+      "rationale": "Exact example: \"The old tale had a suspicion of truth in it.\" In 'had a suspicion of truth in it,' the singular count phrase means a slight trace or quality of truth (sense:003). Sense:002 would express distrust of a claim's truth, whereas this construction says the tale contains some truth."
+    },
+    {
+      "example_id": "ex-21b776c49fdb",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["arrested on suspicion of fraud"],
+      "rationale": "Exact example: \"Two people were arrested on suspicion of fraud after the investigation.\" The construction 'arrested on suspicion of fraud' identifies fraud as the suspected offense and grounds the arrests in that suspicion (sense:001). Sense:002 would be general distrust toward the people, not an allegation of fraud."
+    },
+    {
+      "example_id": "ex-dadbb0d89a1a",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:002"],
+      "discriminating_terms": ["suspicions about the agency's motives"],
+      "rationale": "Exact example: \"Years of secrecy fueled residents' suspicions about the agency's motives.\" The complement 'about the agency's motives' makes the suspicions a distrustful attitude toward those motives (sense:002). Sense:001 would concern a suspected crime or dishonest act; the sentence expresses doubts about motives without naming such an act."
+    },
+    {
+      "example_id": "ex-b3776b21a725",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:003"],
+      "discriminating_terms": ["a suspicion of a smile in her reply"],
+      "rationale": "Exact example: \"There was a suspicion of a smile in her reply.\" The singular phrase 'a suspicion of a smile' means only a faint trace of a smile (sense:003). Sense:002 would mean distrust of the reply or its speaker, but here suspicion measures the barely perceptible presence of a smile."
+    },
+    {
+      "example_id": "ex-94b18f678862",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["under suspicion of fraud"],
+      "rationale": "Exact example: \"The contractor remained under suspicion of fraud until the records were checked.\" The phrase 'under suspicion of fraud' places the contractor under an allegation of a specific offense (sense:001). Sense:002 could describe a general lack of trust, but the construction and offense complement identify suspected fraud as the reason."
+    }
+  ]
+}

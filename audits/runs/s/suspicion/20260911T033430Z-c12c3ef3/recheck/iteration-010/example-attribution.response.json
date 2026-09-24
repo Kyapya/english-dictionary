@@ -1,0 +1,213 @@
+{
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "agent_id": "/root/suspicion_example_recheck_10",
+    "declared_model": "GPT-6",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "blind_attribution_record": {
+    "schema_version": "example_attribution_blind_record_v1",
+    "pass_id": "example-attribution",
+    "stage": 1,
+    "reviewer": {
+      "agent_id": "/root/suspicion_example_recheck_10",
+      "declared_model": "GPT-6",
+      "mode": "handoff",
+      "ingested_by": "human"
+    },
+    "input_body_sha256": "c2f8e5870fc4952f0d4f01836a628d90cbb5bda3636b40d38f08c5d35202dc76",
+    "blind_request_sha256": "78c0ef6ce04e6ac3bff28311752569df0fd8b5f0ed23045adc18a42d09a057ff",
+    "recorded_at": "2026-09-23T15:51:28Z",
+    "attributions": [
+      {
+        "example_id": "ex-e656d6d90421",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "a suspicion of disappointment",
+          "in his voice"
+        ],
+        "rationale": "This describes a faint perceptible trace of disappointment in the voice. Sense 3 would be a person's tentative inference about a proposition; the sentence locates the slight quality in the voice itself rather than presenting a thought someone holds. The discriminating wording is \"a suspicion of disappointment\" and \"in his voice\"."
+      },
+      {
+        "example_id": "ex-4c84e167a552",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "cast suspicion on the clerk",
+          "altered timestamp"
+        ],
+        "rationale": "The cast-suspicion-on construction makes the clerk the target of suspicion in connection with the altered timestamp, implying possible responsibility for wrongdoing. Sense 2 would be general wariness or mistrust of the clerk, but the sentence instead casts him as a suspect in a specific incident. The discriminating wording is \"cast suspicion on the clerk\" and \"altered timestamp\"."
+      },
+      {
+        "example_id": "ex-d875a6518339",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "suspicion that the battery was failing",
+          "confirmed"
+        ],
+        "rationale": "The that-clause gives a tentative belief about the battery's condition, later confirmed by the test results. Sense 1 concerns possible crime or other wrongdoing, while battery failure is a non-accusatory factual state. The discriminating wording is \"suspicion that the battery was failing\" and \"confirmed\"."
+      },
+      {
+        "example_id": "ex-1236166914a1",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "a suspicion that the meeting will finish earlier than planned"
+        ],
+        "rationale": "The that-clause expresses an uncertain prediction about when the meeting will end. Sense 2 would describe distrust or wariness toward a person or thing; the sentence instead presents a conjecture about a future fact. The discriminating wording is \"a suspicion that the meeting will finish earlier than planned\"."
+      },
+      {
+        "example_id": "ex-614b005dfc20",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "confirmed the manager's suspicions that a guard had taken the missing laptops"
+        ],
+        "rationale": "The proposition specifies that the guard took missing laptops, an alleged theft. Sense 3 covers conjectures about non-wrongdoing facts, but this complement explicitly makes the suspicion about wrongdoing. The discriminating wording is \"confirmed the manager's suspicions that a guard had taken the missing laptops\"."
+      },
+      {
+        "example_id": "ex-32803ca59ea7",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "a suspicion of blue",
+          "white"
+        ],
+        "rationale": "The phrase describes a very slight blue tint in otherwise white walls. Sense 3 would be an uncertain thought that something is true, but here suspicion names a trace quality present in the color. The discriminating wording is \"a suspicion of blue\" and \"white\"."
+      },
+      {
+        "example_id": "ex-9a226febb798",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "remained under suspicion",
+          "until the records were checked"
+        ],
+        "rationale": "Under suspicion presents the contractor as a person suspected in an unresolved matter, with the status lasting pending a records check. Sense 2 would be a general attitude of mistrust toward the contractor; the pending verification instead frames an accusation or possible wrongdoing. The discriminating wording is \"remained under suspicion\" and \"until the records were checked\"."
+      },
+      {
+        "example_id": "ex-822e69944065",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "came under suspicion",
+          "when several invoices disappeared"
+        ],
+        "rationale": "The employee becomes a suspect in response to an unexplained disappearance, implying possible responsibility for wrongdoing. Sense 2 would be general mistrust or wariness, but the event-linked suspect status is more specific than a broad distrustful attitude. The discriminating wording is \"came under suspicion\" and \"when several invoices disappeared\"."
+      },
+      {
+        "example_id": "ex-aa8d7b94e323",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "A suspicion of a smile",
+          "at the corner of her mouth"
+        ],
+        "rationale": "This is a barely perceptible trace of a smile appearing at the mouth. Sense 3 would be someone's uncertain belief that a smile exists; the wording depicts the faint visible expression itself. The discriminating wording is \"A suspicion of a smile\" and \"at the corner of her mouth\"."
+      },
+      {
+        "example_id": "ex-382ac519b369",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "greeted with some suspicion"
+        ],
+        "rationale": "This describes a wary, distrustful reception of a new monitoring system. Sense 1 would involve suspecting a person or party of a specific wrongdoing, but no such accusation or responsible actor is expressed. The discriminating wording is \"greeted with some suspicion\"."
+      },
+      {
+        "example_id": "ex-9d1ba8d217e4",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "arrested on suspicion of fraud"
+        ],
+        "rationale": "The on-suspicion-of construction identifies fraud as the alleged offense underlying the arrests. Sense 3 would be a tentative thought about a non-criminal fact, whereas this is explicitly a criminal allegation. The discriminating wording is \"arrested on suspicion of fraud\"."
+      },
+      {
+        "example_id": "ex-0f468b3e7634",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "a suspicion of citrus",
+          "made it taste fresher"
+        ],
+        "rationale": "The wording describes a slight citrus note in the sauce's flavor. Sense 3 would be an uncertain inference someone holds, but the sentence attributes a faint sensory quality directly to the sauce. The discriminating wording is \"a suspicion of citrus\" and \"made it taste fresher\"."
+      },
+      {
+        "example_id": "ex-416b6dc67f79",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "sneaking suspicion that everyone already knew the answer"
+        ],
+        "rationale": "The that-clause states the speaker's tentative belief about what everyone knew. Sense 2 would describe distrust of those people or their intentions; this sentence expresses an unverified proposition about their knowledge instead. The discriminating wording is \"sneaking suspicion that everyone already knew the answer\"."
+      },
+      {
+        "example_id": "ex-81c46485827c",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "viewed the sudden policy change with suspicion"
+        ],
+        "rationale": "The residents respond to the policy change with wariness and distrust. Sense 1 would make the policy change or a responsible person the subject of a specific wrongdoing allegation; none is stated, while the expressed relation is a skeptical attitude toward the change. The discriminating wording is \"viewed the sudden policy change with suspicion\"."
+      },
+      {
+        "example_id": "ex-14e109d266c3",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "a strong suspicion that the delay was caused by a technical problem"
+        ],
+        "rationale": "The that-clause presents a tentative causal explanation for a delay, a factual inference rather than distrust of an entity. Sense 1 would concern possible misconduct, but the proposed cause is a technical problem. The discriminating wording is \"a strong suspicion that the delay was caused by a technical problem\"."
+      },
+      {
+        "example_id": "ex-bd573a4d0ce4",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "aroused suspicion of fraud",
+          "unexplained transfer of client funds"
+        ],
+        "rationale": "The phrase explicitly identifies fraud as the suspected wrongdoing prompted by the unexplained transfer. Sense 3 would concern a non-wrongdoing inference about a fact; this sentence raises a possible offense. The discriminating wording is \"aroused suspicion of fraud\" and \"unexplained transfer of client funds\"."
+      }
+    ]
+  },
+  "aligned_at": "2026-09-23T15:57:55.400882+00:00",
+  "findings": [],
+  "unrouted_observations": []
+}
