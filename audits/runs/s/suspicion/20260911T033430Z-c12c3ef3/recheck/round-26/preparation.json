@@ -1,0 +1,24 @@
+{
+  "schema_version": "checker_recheck_preparation_v1",
+  "round": 26,
+  "input_body_sha256": "d5fed3eeb1ca0acb9286fc85407b81982758943d11ecf86c3e1bf1c18bdd4978",
+  "source_inventory_sha256": "25d65838057b83f82c023e80c753ad812781f807b27f35aa338a622e35efc766",
+  "source_artifact_sha256": "71ecbb6ba67c4f2c9c14bc62d9ed607be1a54695728ccde7798ff3b3f68e0bc6",
+  "request_paths": {
+    "translation": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-26/requests/translation.request.json",
+    "sense-structure": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-26/requests/sense-structure.request.json",
+    "frame-relation": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-26/requests/frame-relation.request.json",
+    "example-attribution": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-26/requests/example-attribution.request.json",
+    "qualification": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-26/requests/qualification.request.json",
+    "pronunciation": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-26/requests/pronunciation.request.json",
+    "evidence": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-26/requests/evidence.request.json"
+  },
+  "alignment_key_paths": {
+    "example-attribution": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-26/alignment_keys/example-attribution.alignment_key.json",
+    "frame-relation": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-26/alignment_keys/frame-relation.antonym_axis.alignment_key.json"
+  },
+  "independent_reviewers_required": 7,
+  "full_recheck": true,
+  "scope_expansion_reason": "The Japanese translation edit changes the source-first audit body binding and therefore the source artifact SHA-256 included in all seven checker requests; all seven are rechecked against the new bound request packets.",
+  "recorded_at": "2026-09-24T16:04:00.219958+00:00"
+}

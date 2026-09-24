@@ -1,6 +1,6 @@
 {
   "schema_version": "source_inventory_v2",
-  "input_body_sha256": "82f343438dd0057f0cc4edd16ece26ba75380521e8c02dfb806b6da7eb43d3f8",
+  "input_body_sha256": "d5fed3eeb1ca0acb9286fc85407b81982758943d11ecf86c3e1bf1c18bdd4978",
   "source_first_audit": {
     "version": "source_first_audit_v2",
     "profile": "standard",
@@ -13,11 +13,11 @@
       "max_final_attempts": 2
     },
     "usage": {
-      "sources_used": 5,
-      "facts_used": 29,
+      "sources_used": 6,
+      "facts_used": 31,
       "research_rounds_used": 2,
-      "post_cold_rechecks_used": 0,
-      "final_attempts_used": 0
+      "post_cold_rechecks_used": 13,
+      "final_attempts_used": 2
     },
     "research_status": "complete",
     "stop_reason": "coverage_axes_closed",
@@ -52,10 +52,9 @@
           "oxf_under",
           "mw_clause",
           "mw_verb",
-          "ahd_verb",
-          "police_on"
+          "ahd_verb"
         ],
-        "notes": "Dictionary examples and the police release cover that-clauses, on/under suspicion patterns, and the marginal verb."
+        "notes": "Dictionary examples cover that-clauses and on/under suspicion patterns, and dictionary register labels document the marginal verb."
       },
       {
         "axis": "derived_and_related_forms",
@@ -74,9 +73,9 @@
         "source_fact_ids": [
           "mw_legal",
           "oxf_on",
-          "police_on"
+          "ukhl_kebel_suspicion"
         ],
-        "notes": "The legal definition and an official police release cover the distinct legal/reporting boundary without treating an arrest as a conviction."
+        "notes": "Merriam-Webster’s legal definition and Oxford’s documented arrest and under-suspicion patterns support the article’s legal/reporting usage; the House of Lords prima facie-proof fact is inventoried as supplementary context but excluded from article claims."
       },
       {
         "axis": "register_region_and_frequency",
@@ -101,9 +100,10 @@
           "mw_origin",
           "ahd_origin",
           "ety_origin",
-          "ety_spelling"
+          "ety_spelling",
+          "oxf_syllabic_n"
         ],
-        "notes": "Oxford and Merriam-Webster give pronunciation; three dictionaries and Etymonline cover the origin and spelling history."
+        "notes": "Oxford and Merriam-Webster give pronunciation; OALD10 documents its syllabic-consonant notation; three dictionaries and Etymonline cover origin and spelling history."
       }
     ],
     "sources": [
@@ -183,6 +183,29 @@
             "kind": "grammar_pattern",
             "statement": "Oxford's idiom section defines under suspicion as suspected of wrongdoing.",
             "source_detail": "Oxford entry, idiom under suspicion."
+          },
+          {
+            "id": "oxf_arouse",
+            "form": "arouse suspicion",
+            "kind": "collocation",
+            "statement": "Oxford gives arouse suspicion in its sense 1 examples: people avoid arousing suspicion, and parked vehicles that arouse suspicion should be reported to police.",
+            "source_detail": "Oxford entry, noun sense 1 examples and Extra Examples; the examples connect arousing suspicion with possible wrongdoing and police reporting."
+          }
+        ]
+      },
+      {
+        "id": "oxford_pronunciation_documentation",
+        "locator": "https://www.oxfordlearnersdictionaries.com/external/pdf/english/OALD10_phons_GL.pdf",
+        "source_type": "pronunciation_documentation",
+        "source_role": "primary_pronunciation_documentation",
+        "independence_group": "oxford_university_press",
+        "facts": [
+          {
+            "id": "oxf_syllabic_n",
+            "form": "syllabic /n/",
+            "kind": "pronunciation_convention",
+            "statement": "OALD10 does not mark syllabic consonants [n̩] and [l̩] with a diacritic where syllabicity is implied by position, illustrating the convention with station and little.",
+            "source_detail": "Gary Leicester, Phonetics Editor for OALD10, “Pronunciation in the 10th edition of the Oxford Advanced Learner’s Dictionary,” Oxford University Press, pp. 3–4 (PDF pp. 3–4): the OALD omits the syllabic-consonant diacritic for [n̩] and [l̩] in part because position implies it."
           }
         ]
       },
@@ -340,18 +363,18 @@
         ]
       },
       {
-        "id": "merseyside_police",
-        "locator": "https://www.merseyside.police.uk/news/merseyside/news/2026/june-2026/man-arrested-on-suspicion-of-breach-of-the-peace-on-county-road/",
+        "id": "uk_house_of_lords_kebel",
+        "locator": "https://publications.parliament.uk/pa/ld199899/ldjudgmt/jd991028/kabel-3.htm",
         "source_type": "official_primary",
-        "source_role": "official_primary",
-        "independence_group": "merseyside_police",
+        "source_role": "primary_legal_authority",
+        "independence_group": "uk_house_of_lords",
         "facts": [
           {
-            "id": "police_on",
-            "form": "arrested on suspicion of",
-            "kind": "official_usage",
-            "statement": "A Merseyside Police release uses arrested on suspicion of + an offence and says the person will be taken for questioning.",
-            "source_detail": "Official police news release, published 13 June 2026."
+            "id": "ukhl_kebel_suspicion",
+            "form": "suspicion / reasonable suspicion",
+            "kind": "legal_definition",
+            "statement": "In a criminal-law discussion of reasonable suspicion, the House of Lords judgment quotes Lord Devlin describing ordinary suspicion as conjecture or surmise where proof is lacking, arising near the start of an investigation before prima facie proof.",
+            "source_detail": "Regina v Director of Public Prosecutions, ex parte Kebeline and Others, under “Striking the balance,” quoting Hussien v Chong Fook Kam; judgment lines 66–70 (especially the quoted ordinary meaning at line 67 and the distinction from prima facie proof at lines 68–70)."
           }
         ]
       }
@@ -362,7 +385,8 @@
         "source_fact_ids": [
           "oxf_s1",
           "mw_wrongdoing",
-          "ahd_wrongdoing"
+          "ahd_wrongdoing",
+          "oxf_arouse"
         ],
         "canonical_statement": "A suspicion can be a belief that someone did something wrong without proof or sufficient evidence.",
         "disposition": "integrated",
@@ -371,12 +395,11 @@
       {
         "id": "u_arrest_pattern",
         "source_fact_ids": [
-          "oxf_on",
-          "police_on"
+          "oxf_on"
         ],
         "canonical_statement": "On suspicion of + an offence is used in arrest reporting to state the suspected basis.",
         "disposition": "integrated",
-        "rationale": "The article includes the on suspicion of + offence pattern and an arrest example."
+        "rationale": "Oxford gives the on suspicion of pattern and an arrest example; a separate police release is not needed to support the usage."
       },
       {
         "id": "u_that_belief",
@@ -416,11 +439,12 @@
         "id": "u_pronunciation",
         "source_fact_ids": [
           "oxf_pron",
-          "mw_pron"
+          "mw_pron",
+          "oxf_syllabic_n"
         ],
-        "canonical_statement": "The word has second-syllable primary stress; Oxford gives the same UK and US transcription.",
+        "canonical_statement": "Oxford gives the UK/US transcription and its convention for unmarked syllabic /n/; Merriam-Webster marks primary stress on the second syllable.",
         "disposition": "integrated",
-        "rationale": "The article gives IPA and second-syllable primary stress."
+        "rationale": "The article explains Oxford’s final syllabic /n/ notation and compares its three syllables with Merriam-Webster’s respelling."
       },
       {
         "id": "u_word_family",
@@ -449,9 +473,9 @@
         "source_fact_ids": [
           "mw_legal"
         ],
-        "canonical_statement": "The legal dictionary sense describes suspicion as a mental state short of belief and based on no or slight evidence.",
+        "canonical_statement": "Merriam-Webster describes legal suspicion as a mental state usually short of belief, based on no proof or slight evidence.",
         "disposition": "integrated",
-        "rationale": "The article describes the no-proof boundary and distinguishes suspicion from conviction in legal/reporting contexts."
+        "rationale": "The mapped article target attributes that no-proof/slight-evidence, short-of-belief definition to Merriam-Webster; it does not state the prima facie-proof relation from the separate judgment."
       },
       {
         "id": "u_under_suspicion",
@@ -463,15 +487,14 @@
         "rationale": "The article includes under suspicion and being under suspicion."
       },
       {
-        "id": "u_rare_verb",
+        "id": "u_verb_register",
         "source_fact_ids": [
           "mw_verb",
-          "ahd_verb",
-          "ety_verb"
+          "ahd_verb"
         ],
-        "canonical_statement": "Some dictionaries record a rare, chiefly dialectal or informal verb suspicion meaning suspect.",
+        "canonical_statement": "Merriam-Webster records suspicion as a transitive verb labelled chiefly dialectal; American Heritage records an informal verb sense, both with suspicioned and suspicioning forms.",
         "disposition": "integrated",
-        "rationale": "The article notes that some dictionaries record a marginal verb use."
+        "rationale": "The article reports these two dictionary register labels and limits its entry to the noun; the sources do not establish a contemporary frequency claim."
       },
       {
         "id": "u_first_use",
@@ -481,6 +504,24 @@
         "canonical_statement": "Merriam-Webster dates the noun's first known use to the fourteenth century.",
         "disposition": "excluded",
         "rationale": "The first-attested date was inventoried but is not stated in the article, so it is excluded from article claims."
+      },
+      {
+        "id": "u_historical_verb_attestation",
+        "source_fact_ids": [
+          "ety_verb"
+        ],
+        "canonical_statement": "Etymonline records a nineteenth-century U.S. Western slang use of suspicion as a verb meaning suspect.",
+        "disposition": "excluded",
+        "rationale": "This historical attestation is not stated in the article and is excluded from the article register claim."
+      },
+      {
+        "id": "u_house_lords_legal_context",
+        "source_fact_ids": [
+          "ukhl_kebel_suspicion"
+        ],
+        "canonical_statement": "The House of Lords judgment distinguishes ordinary suspicion from prima facie proof in a criminal-law discussion.",
+        "disposition": "excluded",
+        "rationale": "The article does not state the prima facie-proof relation, so this supplementary legal context is not integrated into its legal-definition claim."
       }
     ],
     "claim_units": [
@@ -494,7 +535,9 @@
         "statement": "A suspicion can be a belief that someone has done something wrong without proof.",
         "article_target_ids": [
           "sense_boundary:001",
-          "definition:001"
+          "definition:001",
+          "grammar_pattern:003",
+          "collocation:001"
         ],
         "source_supports": [
           {
@@ -508,6 +551,10 @@
           {
             "source_fact_id": "ahd_wrongdoing",
             "support_summary": "American Heritage distinguishes suspecting wrongdoing on little evidence from being suspected of it."
+          },
+          {
+            "source_fact_id": "oxf_arouse",
+            "support_summary": "Oxford places arouse suspicion examples under the sense for suspecting someone has done something wrong, including a police-reporting example."
           }
         ]
       },
@@ -520,17 +567,14 @@
         "claim_type": "grammar_pattern",
         "statement": "On suspicion of plus an offence is used to state the suspected basis for an arrest.",
         "article_target_ids": [
-          "grammar_pattern:005",
-          "collocation:002"
+          "grammar_pattern:004",
+          "collocation:002",
+          "register:001"
         ],
         "source_supports": [
           {
             "source_fact_id": "oxf_on",
-            "support_summary": "Oxford gives on suspicion of plus a crime in its arrest phrase and example."
-          },
-          {
-            "source_fact_id": "police_on",
-            "support_summary": "Merseyside Police uses arrested on suspicion of an offence and says the person was taken for questioning."
+            "support_summary": "Oxford gives on suspicion of plus a crime as an arrest pattern and illustrates it with an arrest example."
           }
         ]
       },
@@ -545,8 +589,11 @@
         "article_target_ids": [
           "definition:003",
           "grammar_pattern:001",
-          "grammar_pattern:015",
-          "grammar_pattern:016"
+          "grammar_pattern:011",
+          "grammar_pattern:012",
+          "grammar_pattern:013",
+          "grammar_pattern:014",
+          "grammar_pattern:015"
         ],
         "source_supports": [
           {
@@ -579,11 +626,11 @@
           "sense_boundary:002",
           "definition:002",
           "grammar_pattern:009",
-          "grammar_pattern:011",
+          "grammar_pattern:010",
           "collocation:007",
-          "collocation:009",
-          "synonym:004",
-          "synonym:005"
+          "collocation:008",
+          "synonym:002",
+          "synonym:003"
         ],
         "source_supports": [
           {
@@ -611,9 +658,12 @@
         "article_target_ids": [
           "sense_boundary:004",
           "definition:004",
-          "grammar_pattern:023",
-          "grammar_pattern:024",
-          "collocation:021"
+          "grammar_pattern:016",
+          "grammar_pattern:017",
+          "collocation:013",
+          "collocation:014",
+          "collocation:015",
+          "collocation:016"
         ],
         "source_supports": [
           {
@@ -637,7 +687,7 @@
         ],
         "subject_form": "suspicion",
         "claim_type": "pronunciation",
-        "statement": "Oxford gives the same British and American IPA form, and Merriam-Webster marks primary stress on the second syllable.",
+        "statement": "Oxford gives the same British and American IPA form and describes its convention for syllabic /n/; Merriam-Webster marks primary stress on the second syllable.",
         "article_target_ids": [
           "pronunciation:001"
         ],
@@ -649,6 +699,10 @@
           {
             "source_fact_id": "mw_pron",
             "support_summary": "Merriam-Webster's respelling marks primary stress on the second syllable."
+          },
+          {
+            "source_fact_id": "oxf_syllabic_n",
+            "support_summary": "OALD10 explains that its transcriptions omit a syllabic-consonant mark when position makes syllabicity clear."
           }
         ]
       },
@@ -661,9 +715,7 @@
         "claim_type": "word_family",
         "statement": "Oxford lists suspect, suspicious, and suspiciously in the word family of suspicion.",
         "article_target_ids": [
-          "word_formation:001",
-          "word_formation:002",
-          "word_formation:003"
+          "word_formation:001"
         ],
         "source_supports": [
           {
@@ -713,7 +765,7 @@
         ],
         "subject_form": "suspicion",
         "claim_type": "legal_definition",
-        "statement": "In legal usage, suspicion is a mental state short of belief based on no or slight evidence.",
+        "statement": "Merriam-Webster describes legal suspicion as a mental state usually short of belief, based on no proof or slight evidence.",
         "article_target_ids": [
           "definition:001",
           "register:001"
@@ -721,7 +773,7 @@
         "source_supports": [
           {
             "source_fact_id": "mw_legal",
-            "support_summary": "Merriam-Webster's legal definition describes suspicion as a mental state usually short of belief, based on no or slight evidence."
+            "support_summary": "Merriam-Webster defines legal suspicion as a mental state usually short of belief, based on no proof or slight evidence."
           }
         ]
       },
@@ -734,7 +786,7 @@
         "claim_type": "grammar_pattern",
         "statement": "Under suspicion describes being suspected of wrongdoing.",
         "article_target_ids": [
-          "grammar_pattern:006",
+          "grammar_pattern:005",
           "collocation:003"
         ],
         "source_supports": [
@@ -745,31 +797,28 @@
         ]
       },
       {
-        "id": "claim_rare_verb",
+        "id": "claim_verb_register",
         "union_ids": [
-          "u_rare_verb"
+          "u_verb_register"
         ],
         "subject_form": "suspicion",
-        "claim_type": "marginal_verb",
-        "statement": "Some dictionaries record suspicion as a rare verb meaning suspect, with dialectal, informal, or historical labels.",
+        "claim_type": "dictionary_register",
+        "statement": "Merriam-Webster labels the verb suspicion chiefly dialectal; American Heritage labels it informal.",
         "article_target_ids": [
-          "usage_note:004"
+          "word_formation:002"
         ],
         "source_supports": [
           {
             "source_fact_id": "mw_verb",
-            "support_summary": "Merriam-Webster records suspicion as a transitive verb, chiefly dialectal, with suspicioned and suspicioning forms."
+            "support_summary": "Merriam-Webster records the transitive verb and labels it chiefly dialectal."
           },
           {
             "source_fact_id": "ahd_verb",
-            "support_summary": "American Heritage records an informal verb suspicion meaning suspect, with suspicioned and suspicioning forms."
-          },
-          {
-            "source_fact_id": "ety_verb",
-            "support_summary": "Etymonline notes a nineteenth-century U.S. Western slang verb use meaning suspect."
+            "support_summary": "American Heritage records the informal verb sense and its forms."
           }
         ]
       }
-    ]
+    ],
+    "input_body_sha256": "d5fed3eeb1ca0acb9286fc85407b81982758943d11ecf86c3e1bf1c18bdd4978"
   }
 }

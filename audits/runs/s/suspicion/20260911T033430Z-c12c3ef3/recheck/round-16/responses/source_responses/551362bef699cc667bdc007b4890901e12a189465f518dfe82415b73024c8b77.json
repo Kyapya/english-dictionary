@@ -1,0 +1,26 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "qualification",
+  "status": "pass",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "GPT-6",
+    "ingested_by": "human",
+    "agent_id": "/root/suspicion_r16_qualification"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "absolute_scope_counterexample",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 138,
+        "line_end": 138,
+        "exact_quote": "【日本語訳・定義】特定の人が犯罪・不正をしたという疑いではなく、犯罪・不正を前提としない事実や状況が本当なのではないかと、確証のないまま感じることを表す。人物への容疑や一般的な不信ではなく、「そうではないか」という推測・予感に焦点がある。この意味では a suspicion that ... のように個々の考えを表す可算形が典型。可算・不可算は意味だけで一律に決まらず、構文にも左右される。"
+      },
+      "severity": "minor",
+      "rationale": "この区別を排他的に読める書き方ですが、a suspicion that ... の内容自体が特定人物の犯罪・不正を述べることもあり、同じ用例が「事実への推測」と「人物への容疑」の両方に解釈され得ます。意味の中心を分ける説明としては有用でも、境界を必須条件のように示すと適用範囲が狭すぎます。",
+      "evidence_link_ids": [],
+      "suggested_direction": "排他的な定義ではなく、典型的な焦点の違いとして示し、that節の内容が犯罪・不正を含む場合には語義が重なり得ると補足する。"
+    }
+  ]
+}

@@ -155,6 +155,21 @@ def validate_manifest_subagents(
             )
         agent_ids.add(normalized)
 
+    for item in outputs:
+        if item.get("pass_id") != "frame-relation":
+            continue
+        record = item.get("antonym_axis_adjudication_record", {})
+        if isinstance(record, dict) and "stage1_replay" in record:
+            import review_continuation
+            errors.extend(review_continuation.validate_replay(
+                record, item.get("antonym_axis_blind_record", {}),
+                record.get("stage2_request_sha256", ""),
+                other_agent_ids=[row.get("reviewer", {}).get("agent_id", "")
+                                 for row in outputs if row.get("pass_id") != "frame-relation"],
+                repo_root=repo_root,
+            ))
+            errors.extend(handoff_provenance.validate(record, repo_root, required=True))
+
     reviewers = aggregate.get("checker_reviewers")
     if reviewers is not None:
         if not isinstance(reviewers, dict):

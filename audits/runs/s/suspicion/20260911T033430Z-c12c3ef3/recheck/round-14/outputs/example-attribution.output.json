@@ -1,0 +1,260 @@
+{
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "GPT-6",
+    "ingested_by": "human",
+    "agent_id": "/root/suspicion_recheck_example_attribution_r14"
+  },
+  "blind_attribution_record": {
+    "schema_version": "example_attribution_blind_record_v1",
+    "pass_id": "example-attribution",
+    "input_body_sha256": "8508fef1bf79309ca9c904c1a5b901698298454c0b9cddf6fe1227383f20bc7c",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "GPT-6",
+      "ingested_by": "human",
+      "agent_id": "/root/suspicion_recheck_example_attribution_r14"
+    },
+    "recorded_at": "2026-09-24T11:12:54Z",
+    "blind_request_sha256": "19b8ccf5ff9c3b7dde482ac15575ed970c6eceb5629dbdd607f83d72a96d9adc",
+    "attributions": [
+      {
+        "example_id": "ex-6f35064482c6",
+        "example": "The sauce had a suspicion of citrus that made it taste fresher.",
+        "translation": "そのソースにはほんのり柑橘の風味があり、より爽やかに感じられた。",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "a suspicion of citrus",
+          "made it taste fresher"
+        ],
+        "rationale": "The phrase ‘a suspicion of citrus’ describes a faint flavor trace, which is sense:004. Sense:003 would be a hunch that a proposition is true; senses:001–002 require suspected wrongdoing or mistrust, neither of which is expressed by this flavor phrase.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-89201c7f223c",
+        "example": "We had a strong suspicion that the delay was caused by a technical problem.",
+        "translation": "私たちは、その遅延は技術的な問題によるのではないかという強い疑いを抱いていた。",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "suspicion that the delay was caused by a technical problem"
+        ],
+        "rationale": "‘suspicion that the delay was caused by a technical problem’ states a noncriminal causal hypothesis, which is sense:003. Sense:001 would require suspected wrongdoing, while sense:002 would express mistrust toward a person or source rather than this proposition about the delay’s cause.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-0575f444d17a",
+        "example": "She had a sneaking suspicion that everyone already knew the answer.",
+        "translation": "彼女は、皆すでに答えを知っているのではないかとひそかに感じていた。",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "suspicion that everyone already knew the answer"
+        ],
+        "rationale": "‘suspicion that everyone already knew the answer’ presents a tentative belief about a noncriminal fact, which is sense:003. Sense:001 would allege wrongdoing, and sense:002 would describe distrust rather than this specific hunch.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-287d7b4cb87d",
+        "example": "A suspicion of a smile appeared at the corner of her mouth.",
+        "translation": "彼女の口元に、かすかな笑みが浮かんだ。",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "a suspicion of a smile",
+          "appeared at the corner of her mouth"
+        ],
+        "rationale": "‘a suspicion of a smile’ describes a barely perceptible trace, which is sense:004. Sense:003 would be a hunch that a proposition is true; senses:001–002 concern suspected conduct or trustworthiness, neither of which is expressed here.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-da324141aa40",
+        "example": "The test results confirmed her suspicion that the battery was failing.",
+        "translation": "検査結果によって、バッテリーが劣化しているのではないかという彼女の推測が裏付けられた。",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "suspicion that the battery was failing",
+          "test results confirmed"
+        ],
+        "rationale": "‘suspicion that the battery was failing’ is a hypothesis about a noncriminal condition, confirmed by test results, so it is sense:003. Sense:001 would allege wrongdoing, while sense:002 would concern mistrust rather than a testable proposition about the battery.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-69e69cb7082e",
+        "example": "Two people were arrested on suspicion of fraud after the investigation.",
+        "translation": "捜査後、2人が詐欺の容疑で逮捕された。",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "arrested on suspicion of fraud"
+        ],
+        "rationale": "‘arrested on suspicion of fraud’ explicitly states a criminal basis for arrest, so it is sense:001. Sense:002 would be general distrust and sense:003 a noncriminal hunch; neither accounts for the suspected offense.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-e142028a3c83",
+        "example": "Residents viewed the sudden policy change with suspicion.",
+        "translation": "住民たちは突然の方針変更を疑いの目で見た。",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "viewed the sudden policy change with suspicion"
+        ],
+        "rationale": "‘viewed the sudden policy change with suspicion’ characterizes a wary, distrustful attitude toward the change, which is sense:002. Sense:003 would require a particular hunch or proposition, which is not stated; sense:001 would require suspected wrongdoing.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-be2866e94e86",
+        "example": "The security footage confirmed the manager's suspicions that a guard had taken the missing laptops.",
+        "translation": "防犯映像によって、警備員がなくなったノートパソコンを持ち去ったという管理者の疑いが裏付けられた。",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "suspicions that a guard had taken the missing laptops",
+          "security footage confirmed"
+        ],
+        "rationale": "‘suspicions that a guard had taken the missing laptops’ attributes taking the laptops to the guard, implying theft, so this is sense:001. Sense:003 can describe a noncriminal hunch, but the suspected act here is wrongdoing; sense:002 is general distrust rather than an allegation about the guard’s act.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-2b84f168669b",
+        "example": "There was a suspicion of disappointment in his voice.",
+        "translation": "彼の声にはかすかな失望がにじんでいた。",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "a suspicion of disappointment",
+          "in his voice"
+        ],
+        "rationale": "‘a suspicion of disappointment’ in a voice describes a faint trace of emotion, which is sense:004. Sense:003 would express a hunch that something is true; senses:001–002 would concern suspected acts or mistrust, not an audible emotional trace.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-1bc8afbd46f2",
+        "example": "The altered timestamp cast suspicion on the clerk who had access to the report.",
+        "translation": "変更された時刻表示によって、報告書にアクセスできた事務員に疑いが向けられた。",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "altered timestamp cast suspicion on the clerk",
+          "who had access to the report"
+        ],
+        "rationale": "‘altered timestamp cast suspicion on the clerk’ directs suspicion to the clerk as a possible actor in the alteration, supporting sense:001. Sense:002 would be general mistrust of the clerk, but the sentence links the clerk to a specific suspicious act; sense:003 would concern a noncriminal hunch.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-5b3fe8fb8945",
+        "example": "The walls were white with a suspicion of blue in the evening light.",
+        "translation": "その壁は白かったが、夕方の光の中ではほんのり青みを帯びていた。",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "a suspicion of blue",
+          "white with",
+          "evening light"
+        ],
+        "rationale": "‘a suspicion of blue’ describes a slight tint in the wall’s color, which is sense:004. Sense:003 would be a tentative belief, while senses:001–002 would involve accusation or distrust, neither of which fits a color trace.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-1966a015e076",
+        "example": "The new monitoring system was initially greeted with some suspicion.",
+        "translation": "新しい監視システムは当初、多少の疑いをもって受け止められた。",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "greeted with some suspicion"
+        ],
+        "rationale": "‘greeted with some suspicion’ describes a wary, distrustful reception of the system, which is sense:002. Sense:003 would require a particular conjecture about the system, but none is stated; sense:001 would imply a suspected offense.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-197dd39d5d04",
+        "example": "The unexplained transfer of client funds aroused suspicion of fraud among the auditors.",
+        "translation": "顧客資金の説明のない移動が、監査担当者たちに詐欺の疑いを抱かせた。",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "unexplained transfer of client funds",
+          "suspicion of fraud"
+        ],
+        "rationale": "‘suspicion of fraud’ explicitly identifies a possible offense, so this is sense:001. Sense:002 could describe mistrust of the transfer or its source, but the sentence specifically frames suspected fraud; sense:003 would be a noncriminal conjecture.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-20740c3da421",
+        "example": "The contractor remained under suspicion until the records were checked.",
+        "translation": "記録が確認されるまで、その請負業者には疑いがかけられたままだった。",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "contractor remained under suspicion",
+          "until the records were checked"
+        ],
+        "rationale": "‘contractor remained under suspicion’ presents the contractor as a person suspected of possible wrongdoing, which is sense:001. Sense:002 would describe a general distrustful attitude rather than the person being under investigation; sense:003 would be a noncriminal hunch.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-5c88577a2ca8",
+        "example": "The discrepancy cast suspicion on the reliability of the company's explanation.",
+        "translation": "その食い違いによって、その会社の説明の信頼性に疑いが向けられた。",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "cast suspicion on the reliability",
+          "the company's explanation"
+        ],
+        "rationale": "‘cast suspicion on the reliability’ expresses doubt about whether the explanation merits trust, which is sense:002. Sense:003 would be a specific hunch that a proposition is true, but none is stated; sense:001 would require suspected wrongdoing.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-411c135d337e",
+        "example": "I have a suspicion that the meeting will finish earlier than planned.",
+        "translation": "その会議は予定より早く終わるのではないかという気がしている。",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "suspicion that the meeting will finish earlier than planned"
+        ],
+        "rationale": "‘suspicion that the meeting will finish earlier than planned’ is a tentative prediction about a noncriminal event, which is sense:003. Sense:001 would allege wrongdoing and sense:002 would express mistrust, neither of which is supported by the prediction.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-9442f8acf285",
+        "example": "The employee came under suspicion when several invoices disappeared.",
+        "translation": "複数の請求書がなくなったことで、その従業員が疑われるようになった。",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "employee came under suspicion",
+          "several invoices disappeared"
+        ],
+        "rationale": "‘employee came under suspicion’ in response to missing invoices implies possible involvement in their disappearance, a wrongdoing reading under sense:001. Sense:002 would be general mistrust rather than suspicion of responsibility for this event; sense:003 would concern a noncriminal hunch.",
+        "classification": "unique"
+      }
+    ]
+  },
+  "aligned_at": "2026-09-24T11:40:56.083873+00:00",
+  "findings": [],
+  "unrouted_observations": []
+}

@@ -124,3 +124,7 @@
 ### 4.3 出力と時系列封印
 
 最終frame-relation pass出力にはfindingと併せて、段階1の `antonym_axis_blind_record` を改変せず埋め込み、段階2の `aligned_at` と `unrouted_observations` を記録する。`aligned_at` は段階1の `recorded_at` より後でなければならない。不透明ID、shuffle、alignment key、stage 1 request hash、保存済みrecord hashの照合はexample-attributionの既存機構と同じ方式を使い、`audits/BLIND_SEAL_CHRONOLOGY_REQUIRED` に従って段階1保存前の段階2開示をprocess欠陥として失敗させる。所要時間の長短は合否に使わない。
+
+## 中断後の段階2再開
+
+同じ担当contextが利用できる場合は継続する。失われた場合は、新しい独立contextが保存済み段階1の推論と固定の段階2入力を読んで照合だけを行う。段階1を再推論・改変せず、生成担当や他のcheckerを兼ねない。`sealed_stage1_replay_v1` の `stage1_replay` に、元の担当ID、保存済みrecord hash、段階2request hash、交代理由を記録し、reviewerには新担当の実際のID/modelを記す。原応答の保存がない場合は引き継ぎを証明した扱いにしない。

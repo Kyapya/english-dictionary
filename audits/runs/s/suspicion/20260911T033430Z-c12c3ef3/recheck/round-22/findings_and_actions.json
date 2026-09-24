@@ -1,0 +1,99 @@
+{
+  "schema_version": "checker_recheck_actions_v1",
+  "round": 22,
+  "input_body_sha256": "08c32581fbc222d720287159ce03804197e14b84a5afa55587c5dc1ac53ad6d6",
+  "source_inventory_sha256": "456182eac81d40973baafd3508f03df08fdaf4d8fa59c347d3f0052ed0ae97d1",
+  "source_artifact_sha256": "287477944bad8b878899556bfcf83a76bef96866be7c9cd6a47cdbbef8072f76",
+  "findings": [
+    {
+      "taxonomy_id": "cross_section_internal_contradiction",
+      "location": {
+        "section": "core_image",
+        "line_start": 28,
+        "line_end": 28,
+        "exact_quote": "語義3は、犯罪・不正を含まない事実や状況が本当かどうかを推測する焦点をもつ。"
+      },
+      "severity": "blocking",
+      "rationale": "この説明は語義3の対象命題を犯罪・不正を含まない内容に限定しています。一方、usage_notes 168 は、that節の内容が犯罪・不正かどうかだけで語義を分けず、節全体を真偽未確定の命題として推し量る用法を語義3に置くとしています。そのため、特定の人への容疑ではなく犯罪・不正を含む命題自体を推測する用例の所属が、両セクションで異なります。語義境界の判断基準を、内容の犯罪性ではなく命題全体の推測か特定の人への容疑かにそろえてください。",
+      "evidence_link_ids": [],
+      "suggested_direction": "core_image の語義3の説明から犯罪・不正内容を一律に除外する条件を外し、usage_notes と同じく、命題全体への推測と特定の人への容疑という焦点で語義1・3を区別する。",
+      "id": "r22-sense-structure-001",
+      "pass_id": "sense-structure",
+      "raw_response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-22/responses/sense-structure.response.raw.json",
+      "raw_response_sha256": "dec208672c6ef05b79715ccbad0c15159553ae236bfe0b4e43d4874e85e78cf3",
+      "action": "adopted",
+      "resolution": "Revise the core-image description and summary bullet for sense 3 so its boundary is about proposition-level truth judgment versus a person-directed allegation, independent of whether the proposition concerns wrongdoing."
+    }
+  ],
+  "review_response_corrections": [
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-22/responses/pronunciation.response.raw.json",
+      "sha256": "3eeb61006d6dd23e557d913215df9c578997ec90cc5abb0546bf356abe0812c0",
+      "disposition": "contract_invalid",
+      "detail": "Original response supplied reviewer_metadata instead of the required reviewer object; immutable original retained."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-22/responses/pronunciation.response.contract_corrected.raw.json",
+      "sha256": "0b95424c21877379ffe6ee25a907e6b32885fecfbc880220a155f2fe981286cb",
+      "disposition": "accepted",
+      "detail": "Same reviewer returned the required response envelope with no findings; exact request and output validations passed."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-22/responses/example-attribution.response.raw.json",
+      "sha256": "62947420867158215da9aa66a2411afef1ffc4254b9ba4eae52ad9a38a62f30d",
+      "disposition": "contract_invalid",
+      "detail": "Initial stage-1 response used reviewer_metadata and blind_attributions instead of the required stage-1 contract; immutable original retained."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-22/responses/example-attribution.response.contract_corrected.raw.json",
+      "sha256": "708f6f96558f5c646022eab26b238ae90ece3b7ecbca4b6835fbbddeee10bba6",
+      "disposition": "contract_invalid",
+      "detail": "Same reviewer corrected the response shape but omitted the required exact pass_id; original preserved."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-22/responses/example-attribution.response.contract_corrected_v2.raw.json",
+      "sha256": "e5e8eacf3c9ac77816a4038c5460396e29712f703aaff00ccbb9266139f399df",
+      "disposition": "accepted",
+      "detail": "Same reviewer added the exact pass_id; body/request binding and liveness validation passed with all 17 classifications."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-22/responses/example-attribution.stage2.response.raw.json",
+      "sha256": "af331805203a9ba6104a1b17b2c91790e83a133699502ef0a0d712438288c331",
+      "disposition": "accepted_stage2_alignment",
+      "detail": "Same reviewer aligned all 17 classifications to the exact stage-2 request and sealed stage-1 record; no findings or unrouted observations."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-22/responses/frame-relation.stage1.response.raw.json",
+      "sha256": "6ebb55c1fdbf6ac4d93bc658e0d4ed7d213788f3966561adc0ab57eec9cbbf92",
+      "disposition": "request_binding_invalid",
+      "detail": "Stage-1 raw used the Markdown handoff hash rather than the canonical JSON request hash; immutable original retained."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-22/responses/frame-relation.stage1.response.contract_corrected.raw.json",
+      "sha256": "efc00e674cf9aff78806610e37f617712b26203f2670b6f9d9e1489a41fc01f2",
+      "disposition": "accepted",
+      "detail": "Same reviewer supplied the exact canonical stage-1 JSON request hash and unchanged empty axes; the corrected response was sealed with source provenance."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-22/responses/frame-relation.stage2.response.raw.json",
+      "sha256": "12df81b311a5bafe11d918fe58de72e82bb437cf47bbad70ab3c7dc8ce3dae44",
+      "disposition": "request_binding_invalid",
+      "detail": "Initial stage-2 raw did not bind to the canonical stage-2 JSON request; immutable original retained."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-22/responses/frame-relation.stage2.response.contract_corrected.raw.json",
+      "sha256": "835ad6983d7cbbc7d1c20595e81499d109520e74f18aa82f381175b59e89c012",
+      "disposition": "superseded_by_stage1_reseal",
+      "detail": "This correction bound the earlier stage-2 request and seal, then became stale when the accepted stage-1 correction was re-sealed with its source-response provenance."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-22/responses/frame-relation.stage2.response.final_corrected.raw.json",
+      "sha256": "7944dc5c375684fa3a109536e4308c829be465766561d5d96196edc85683beba",
+      "disposition": "accepted",
+      "detail": "Same reviewer bound the replacement stage-2 request to the corrected sealed stage-1 record; all arrays remain empty and provenance validation passed."
+    }
+  ],
+  "prior_round_findings_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-21/findings_and_actions.json",
+  "prior_round_findings_sha256": "ecf91eb64011a41f593f4ecc8609338ce546fb1ff0e8645a1aad956c2db64784",
+  "recorded_at": "2026-09-24T14:17:27.405684+00:00"
+}

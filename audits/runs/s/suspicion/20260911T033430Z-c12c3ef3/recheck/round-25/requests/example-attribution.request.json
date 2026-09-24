@@ -1,0 +1,152 @@
+{
+  "schema_version": "example_attribution_blind_request_v1",
+  "pass_id": "example-attribution",
+  "taxonomy_ids": [
+    "example_sense_attribution_mismatch"
+  ],
+  "specification": "prompts/check_pass_example_attribution_v6.md",
+  "input_body_sha256": "1668f193d23088ced53f1c8828fcef108cde97073b2eda3e14f74741e9d73a51",
+  "input_sections": {
+    "sense_structure": [
+      {
+        "sense_id": "sense:001",
+        "line": 38,
+        "label": "1. 【名詞・可算／不可算】容疑、犯罪・不正をしたのではないかという疑い",
+        "definition": "人が犯罪、不正、不誠実な行為をしたとして疑いの対象になること、またはその人の行為に不正の容疑を向けることを表す。焦点は、ある命題の真偽を予想すること自体より、特定の人がその行為をしたとして疑われている点にある。that節を伴う例もあるが、節の話題だけで語義を決めず、人への容疑を表す場合は語義1に置く。複数の個別の疑いを述べる suspicions は可算、疑いという状態を表す suspicion は不可算で使われる。on suspicion of ... のように特定の容疑でも無冠詞となる定型表現があるため、可算・不可算は意味だけで一律には決まらない。"
+      },
+      {
+        "sense_id": "sense:002",
+        "line": 91,
+        "label": "2. 【名詞・不可算中心】不信、警戒を伴う疑念",
+        "definition": "人、組織、動機、考えなどの真実性や信頼性を確信できず、すぐには信用しない態度を表す。相手や情報の裏に問題や意図があるのではないかという警戒を伴うこともある。語義1のように特定の犯罪・不正行為を想定する必要はなく、広い意味での mistrust / distrust に近い。"
+      },
+      {
+        "sense_id": "sense:003",
+        "line": 131,
+        "label": "3. 【名詞・可算中心】～ではないかという気、確証のない推測",
+        "definition": "十分な証拠がなくても、ある命題や状況が真かもしれないと考える、話者の暫定的な推測・予感を表す。焦点は命題の真偽にあり、特定の人を犯罪・不正の容疑者として扱うこと自体ではない。that節の話題だけで語義を決めず、節全体についての推測は語義3、特定の人へ行為の容疑を向ける用法は語義1に置く。この用法では個々の考えを表す可算形が典型。可算・不可算は意味だけで一律に決まらず、構文にも左右される。"
+      },
+      {
+        "sense_id": "sense:004",
+        "line": 181,
+        "label": "4. 【名詞・単数／formal（やや改まった）】ほんの少し、かすかな気配",
+        "definition": "色、味、匂い、感情、表情などが、はっきり大量に存在するのではなく「あるかないか分かる程度」にわずかに感じられることを表す。通常 a suspicion of ... の形で用いられる比喩的な用法である。"
+      }
+    ],
+    "collocations_examples": [
+      {
+        "example_id": "ex-b03af3234411",
+        "example": "Residents viewed the sudden policy change with suspicion.",
+        "translation": "住民たちは突然の方針変更を疑いの目で見た。"
+      },
+      {
+        "example_id": "ex-ac0554aff917",
+        "example": "The new monitoring system was initially greeted with some suspicion.",
+        "translation": "新しい監視システムは当初、多少の疑いをもって受け止められた。"
+      },
+      {
+        "example_id": "ex-cbc4c2957807",
+        "example": "The test results confirmed her suspicion that the battery was failing.",
+        "translation": "検査結果によって、バッテリーが劣化しているのではないかという彼女の推測が裏付けられた。"
+      },
+      {
+        "example_id": "ex-30e37b248526",
+        "example": "The contractor remained under suspicion until the records were checked.",
+        "translation": "記録が確認されるまで、その請負業者には疑いがかけられたままだった。"
+      },
+      {
+        "example_id": "ex-bcebf97d0c59",
+        "example": "The walls were white with a suspicion of blue in the evening light.",
+        "translation": "その壁は白かったが、夕方の光の中ではほんのり青みを帯びていた。"
+      },
+      {
+        "example_id": "ex-69c1cfa4b9fa",
+        "example": "Two people were arrested on suspicion of fraud after the investigation.",
+        "translation": "捜査後、2人が詐欺の容疑で逮捕された。"
+      },
+      {
+        "example_id": "ex-2a325acdeabf",
+        "example": "We had a strong suspicion that the delay was caused by a technical problem.",
+        "translation": "私たちは、その遅延は技術的な問題によるのではないかという強い疑いを抱いていた。"
+      },
+      {
+        "example_id": "ex-5e4a23f7959d",
+        "example": "I have a suspicion that the meeting will finish earlier than planned.",
+        "translation": "その会議は予定より早く終わるのではないかという気がしている。"
+      },
+      {
+        "example_id": "ex-e3be07cd502f",
+        "example": "Among the auditors, the unexplained transfer of client funds aroused suspicion that the treasurer had committed fraud.",
+        "translation": "監査担当者の間では、顧客資金の使途不明な移動により、会計係が詐欺を行ったのではないかという疑いが生じた。"
+      },
+      {
+        "example_id": "ex-2732b24f99bb",
+        "example": "She had a sneaking suspicion that everyone already knew the answer.",
+        "translation": "彼女は、皆すでに答えを知っているのではないかとひそかに感じていた。"
+      },
+      {
+        "example_id": "ex-a483526c3a52",
+        "example": "There was a suspicion of disappointment in his voice.",
+        "translation": "彼の声にはかすかな失望がにじんでいた。"
+      },
+      {
+        "example_id": "ex-409fe4fa8d31",
+        "example": "The altered timestamp cast suspicion on the clerk who had access to the report.",
+        "translation": "変更された時刻表示によって、報告書にアクセスできた事務員に疑いが向けられた。"
+      },
+      {
+        "example_id": "ex-1b8c97000a60",
+        "example": "The employee came under suspicion when several invoices disappeared.",
+        "translation": "複数の請求書がなくなったことで、その従業員が疑われるようになった。"
+      },
+      {
+        "example_id": "ex-9f6d2b773303",
+        "example": "A suspicion of a smile appeared at the corner of her mouth.",
+        "translation": "彼女の口元に、かすかな笑みが浮かんだ。"
+      },
+      {
+        "example_id": "ex-6958df48129d",
+        "example": "The sauce had a suspicion of citrus that made it taste fresher.",
+        "translation": "そのソースにはほんのり柑橘の風味があり、より爽やかに感じられた。"
+      },
+      {
+        "example_id": "ex-6ca5169f2cd7",
+        "example": "The security footage confirmed the manager's suspicions that a guard had stolen the missing laptops.",
+        "translation": "防犯映像によって、警備員がなくなったノートパソコンを盗んだという管理者の疑いが裏付けられた。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "assigned_sense_id",
+      "collocation_heading",
+      "usage_line",
+      "example_group_boundary",
+      "document_order"
+    ],
+    "required_output_schema": "example_attribution_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "e0bbb032bc0c50bf9bef5ff8f7854188287e635c58e599479891e11e3343a017",
+  "source_artifact_sha256": "4d88fc32b04e814ebbb1861a6f3a52c3b9b796109da4cb9434ef19a6bef68155",
+  "normalization_version": "check_pass_semantic_input_v2",
+  "normalized_input_sha256": "34f529f3df5e9c7b605be5d987049381c6665a94be1360b90962ceb661d14a00"
+}

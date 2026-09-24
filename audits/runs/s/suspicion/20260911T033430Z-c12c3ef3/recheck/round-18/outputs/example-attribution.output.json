@@ -1,0 +1,223 @@
+{
+  "schema_version": "check_pass_result_v6",
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-6",
+    "ingested_by": "orchestrator",
+    "agent_id": "/root/suspicion_r18_example_attribution",
+    "source_response": {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-18/responses/source_responses/6c2a8d96eba1e7ad296ea23a3bf77a2dcdc0bb514d97320688b611abf9fda11e.json",
+      "sha256": "6c2a8d96eba1e7ad296ea23a3bf77a2dcdc0bb514d97320688b611abf9fda11e"
+    }
+  },
+  "blind_attribution_record": {
+    "schema_version": "example_attribution_blind_record_v1",
+    "pass_id": "example-attribution",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-6",
+      "ingested_by": "orchestrator",
+      "agent_id": "/root/suspicion_r18_example_attribution",
+      "source_response": {
+        "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-18/responses/source_responses/6c2a8d96eba1e7ad296ea23a3bf77a2dcdc0bb514d97320688b611abf9fda11e.json",
+        "sha256": "6c2a8d96eba1e7ad296ea23a3bf77a2dcdc0bb514d97320688b611abf9fda11e"
+      }
+    },
+    "input_body_sha256": "22115ff16b934a7bee72be158df65dd1569ca9a64c670adb9cd408a03b504ebd",
+    "blind_request_sha256": "df29e716eae0e765fcd1a938793c7630ab630f79c56c444596c07f4a514a5cab",
+    "recorded_at": "2026-09-24T12:51:05Z",
+    "attributions": [
+      {
+        "example_id": "ex-060a5192124c",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "remained under suspicion"
+        ],
+        "rationale": "The exact in-example cue “remained under suspicion” grounds this reading. The construction places the contractor in the status of a person suspected of a specific act, and checking records is part of resolving that allegation. Sense 2 (general mistrust of a person) is a plausible competitor, but it does not explain the investigative 'under suspicion ... until' frame as naturally as sense 1. 'Contractor' alone is not the basis for the choice."
+      },
+      {
+        "example_id": "ex-634a364d45b4",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "with suspicion"
+        ],
+        "rationale": "The exact in-example cue “with suspicion” grounds this reading. 'With suspicion' expresses a wary, distrustful attitude toward the change. Sense 3 (a conjecture about whether a proposition is true) is a plausible competitor, but this sentence supplies no suspected fact or that-clause; the headword names the residents' stance toward the policy change."
+      },
+      {
+        "example_id": "ex-b9e6473dfcfd",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "a suspicion of citrus"
+        ],
+        "rationale": "The exact in-example cue “a suspicion of citrus” grounds this reading. The 'of citrus' complement is a flavor quality present in a small degree, reinforced by 'taste fresher'. Sense 3 (a conjecture that a fact is true) is a possible competitor for count 'a suspicion', but citrus is not a proposition being conjectured; the example describes a faint trace of flavor."
+      },
+      {
+        "example_id": "ex-7c75bf50b419",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "a sneaking suspicion that"
+        ],
+        "rationale": "The exact in-example cue “a sneaking suspicion that” grounds this reading. The that-clause states a non-criminal fact the speaker privately suspects. Sense 2 (mistrust or wariness) is a plausible competitor, but the complement is a proposition about what everyone knows rather than a person, organization, or motive being distrusted."
+      },
+      {
+        "example_id": "ex-1e6c5d63abbd",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "a suspicion that"
+        ],
+        "rationale": "The exact in-example cue “a suspicion that” grounds this reading. The complement is a prediction about a non-criminal event, making this a conjecture. Sense 2 (general distrust) is the nearest competitor, but the speaker is entertaining a proposition about when the meeting will finish, not expressing mistrust of a person or information source."
+      },
+      {
+        "example_id": "ex-ff889969af92",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "a suspicion of blue"
+        ],
+        "rationale": "The exact in-example cue “a suspicion of blue” grounds this reading. 'With a suspicion of blue' describes a barely perceptible tint in the wall's color. Sense 3 (a conjecture about a fact) is a plausible competitor from the noun's count use, but 'of blue' modifies a color quality and does not introduce a suspected proposition."
+      },
+      {
+        "example_id": "ex-82a69bbd2c42",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "cast suspicion on the reliability"
+        ],
+        "rationale": "The exact in-example cue “cast suspicion on the reliability” grounds this reading. The complement is the explanation's reliability, so suspicion means distrust of whether the account can be trusted. Sense 3 (a conjecture that a non-criminal fact is true) is a plausible competitor, but the syntax targets reliability as a quality rather than asserting a specific alternative fact."
+      },
+      {
+        "example_id": "ex-5738efb14b08",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "a suspicion of disappointment"
+        ],
+        "rationale": "The exact in-example cue “a suspicion of disappointment” grounds this reading. The phrase locates a faintly perceptible emotion in the voice. Sense 2 (distrust or wariness) is a possible competitor, but disappointment is presented as a trace audible in the voice, not as a target being distrusted."
+      },
+      {
+        "example_id": "ex-b23f76ce6acb",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "suspicion of a smile"
+        ],
+        "rationale": "The exact in-example cue “suspicion of a smile” grounds this reading. The noun describes an incipient, barely visible smile appearing at the mouth. Sense 3 (a conjecture) is a plausible competitor for 'a suspicion', but no proposition is being suspected; the complement is a faint facial expression."
+      },
+      {
+        "example_id": "ex-05d22e8ff3bb",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "arrested on suspicion of fraud"
+        ],
+        "rationale": "The exact in-example cue “arrested on suspicion of fraud” grounds this reading. The fixed 'on suspicion of' frame plus 'fraud' explicitly identifies a suspected offense. Sense 3 (a conjecture about a fact) is a possible competitor because of the noun, but a suspected fraud and arrest are an allegation of wrongdoing, not a non-criminal factual prediction."
+      },
+      {
+        "example_id": "ex-75549b1c1e8d",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "confirmed her suspicion that"
+        ],
+        "rationale": "The exact in-example cue “confirmed her suspicion that” grounds this reading. The test results confirm a conjecture about a technical condition, not a person's wrongdoing. Sense 1 (suspicion of a crime or dishonest act) is a plausible competitor for 'confirmed her suspicion', but the that-clause describes a battery's failure and names no intentional act or culprit."
+      },
+      {
+        "example_id": "ex-cce722f090e3",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "cast suspicion on the clerk"
+        ],
+        "rationale": "The exact in-example cue “cast suspicion on the clerk” grounds this reading. The altered timestamp is an apparent act and the access clause connects the clerk to the means to make that alteration, so the sentence suspects the clerk of tampering. Sense 2 (general mistrust of the clerk) is a plausible competitor, but it does not account for the event-linked suspicion cast by the altered timestamp; the choice is based on that relation, not merely on the clerk's role."
+      },
+      {
+        "example_id": "ex-21d3d765d8c6",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "greeted with some suspicion"
+        ],
+        "rationale": "The exact in-example cue “greeted with some suspicion” grounds this reading. The system is received with a wary, distrustful attitude. Sense 3 (a conjecture about a fact) is a plausible competitor, but no proposition is stated or confirmed; the headword describes the initial stance toward the system."
+      },
+      {
+        "example_id": "ex-0a6a90980f29",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "a strong suspicion that"
+        ],
+        "rationale": "The exact in-example cue “a strong suspicion that” grounds this reading. The that-clause expresses a possible explanation for a non-criminal event. Sense 2 (mistrust) is a plausible competitor, but the complement is a causal proposition about the delay, not a person, organization, or account whose trustworthiness is doubted."
+      },
+      {
+        "example_id": "ex-98fddba364aa",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "suspicion of fraud"
+        ],
+        "rationale": "The exact in-example cue “suspicion of fraud” grounds this reading. The unexplained movement of funds is linked directly to a suspicion of fraud, an alleged dishonest act. Sense 2 (general distrust) is a plausible competitor, but the explicit 'of fraud' complement and event-to-allegation relation identify wrongdoing rather than broad wariness."
+      },
+      {
+        "example_id": "ex-6ec1f647d3f8",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "came under suspicion"
+        ],
+        "rationale": "The exact in-example cue “came under suspicion” grounds this reading. The employee becomes a suspect in the disappearance of the invoices, which presents a suspected act rather than a free-standing judgment about trustworthiness. Sense 2 is plausible if the sentence meant general mistrust, but the 'came under suspicion when' event-linked frame makes an allegation about responsibility the more natural reading."
+      },
+      {
+        "example_id": "ex-4d931abbe0ce",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "confirmed the manager's suspicions that"
+        ],
+        "rationale": "The exact in-example cue “confirmed the manager's suspicions that” grounds this reading. The that-clause explicitly alleges that the guard committed theft, and the footage confirms that allegation. Sense 3 (a conjecture about a fact) is a plausible competitor for a that-clause, but the content is a person's criminal act, which the supplied sense definitions place in sense 1."
+      }
+    ]
+  },
+  "aligned_at": "2026-09-24T12:58:17.033411Z",
+  "findings": [],
+  "unrouted_observations": []
+}

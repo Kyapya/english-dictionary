@@ -1,0 +1,107 @@
+{
+  "schema_version": "source_inventory_revision_v1",
+  "revision_kind": "post_blind_recheck_evidence_scope",
+  "previous_inventory_sha256": "ff028dc3c0905427f0e5d5d68c4ace113f9c6f8112be0f2a2ec8b2ba18b4c37d",
+  "updated_inventory_sha256": "4e446c00971cd24d15882b376a813632b03f4ca0dd88db1e83f7f17e546dd2e8",
+  "previous_source_first_audit_sha256": "73427b11130b2b4ffb18bbf3504e8054253863023f3237f7a828f43026047262",
+  "updated_source_first_audit_sha256": "4d88fc32b04e814ebbb1861a6f3a52c3b9b796109da4cb9434ef19a6bef68155",
+  "previous_input_body_sha256": "18178e0a192307a41e4cccafaaf60c75ff89633d50774904ba389187e4d827b6",
+  "current_input_body_sha256": "1668f193d23088ced53f1c8828fcef108cde97073b2eda3e14f74741e9d73a51",
+  "usage_changes": [
+    {
+      "field": "facts_used",
+      "previous": 30,
+      "current": 31,
+      "reason": "Added one fact from the already-inventoried Oxford dictionary entry to support the narrowed arouse-suspicion frame; source count and research rounds stay within the fixed limits."
+    },
+    {
+      "field": "post_cold_rechecks_used",
+      "previous": 11,
+      "current": 12,
+      "reason": "Start round25 full checker reinspection after adopting both final-blind sense-boundary findings."
+    }
+  ],
+  "source_and_fact_changes": [
+    {
+      "change": "add_existing_source_fact",
+      "source_ids": [
+        "oxford_learner"
+      ],
+      "source_fact_ids": [
+        "oxf_arouse"
+      ],
+      "reason": "The final-blind arouse-suspicion finding was scoped to person-focused wrongdoing. The already-inventoried Oxford entry directly supplies sense-1 examples of arousing suspicion; one fact was added without adding a source or research round."
+    }
+  ],
+  "source_count_preserved": true,
+  "fact_count_preserved": false,
+  "research_rounds_used_unchanged": true,
+  "post_blind_findings_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/final_blind.json",
+  "post_blind_findings_sha256": "78b40cdad3d24fe11a6180c97ad767dbf644bf73a7d114760bbcf7fc815290c3",
+  "response_correction_ledger_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/review_history/final-blind-attempt-2/response_correction_ledger.json",
+  "response_correction_ledger_sha256": "748a005ebef9f7abcd5945acfcc024e5033ab717317cb92eeda3464c46cbb682",
+  "article_target_id_reindexing": [
+    {
+      "claim_id": "claim_arrest_pattern",
+      "from": [
+        "grammar_pattern:005"
+      ],
+      "to": [
+        "grammar_pattern:004"
+      ]
+    },
+    {
+      "claim_id": "claim_distrust",
+      "from": [
+        "grammar_pattern:010",
+        "grammar_pattern:011"
+      ],
+      "to": [
+        "grammar_pattern:009",
+        "grammar_pattern:010"
+      ]
+    },
+    {
+      "claim_id": "claim_that_belief",
+      "from": [
+        "grammar_pattern:012",
+        "grammar_pattern:013",
+        "grammar_pattern:014",
+        "grammar_pattern:015",
+        "grammar_pattern:016"
+      ],
+      "to": [
+        "grammar_pattern:011",
+        "grammar_pattern:012",
+        "grammar_pattern:013",
+        "grammar_pattern:014",
+        "grammar_pattern:015"
+      ]
+    },
+    {
+      "claim_id": "claim_trace",
+      "from": [
+        "grammar_pattern:017",
+        "grammar_pattern:018"
+      ],
+      "to": [
+        "grammar_pattern:016",
+        "grammar_pattern:017"
+      ]
+    },
+    {
+      "claim_id": "claim_under_suspicion",
+      "from": [
+        "grammar_pattern:006"
+      ],
+      "to": [
+        "grammar_pattern:005"
+      ]
+    }
+  ],
+  "added_article_target_ids": [
+    "grammar_pattern:003",
+    "collocation:001"
+  ],
+  "recorded_at": "2026-09-24T15:41:35.188992+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "source_inventory_revision_v1",
+  "revision_kind": "post_blind_recheck_article_binding",
+  "previous_inventory_sha256": "4e446c00971cd24d15882b376a813632b03f4ca0dd88db1e83f7f17e546dd2e8",
+  "updated_inventory_sha256": "961f7d80860a617202cd1d7a5863ea843f93bf3ff298b1e15a38f6e1d24ce616",
+  "previous_source_first_audit_sha256": "4d88fc32b04e814ebbb1861a6f3a52c3b9b796109da4cb9434ef19a6bef68155",
+  "updated_source_first_audit_sha256": "71ecbb6ba67c4f2c9c14bc62d9ed607be1a54695728ccde7798ff3b3f68e0bc6",
+  "previous_input_body_sha256": "1668f193d23088ced53f1c8828fcef108cde97073b2eda3e14f74741e9d73a51",
+  "current_input_body_sha256": "d5fed3eeb1ca0acb9286fc85407b81982758943d11ecf86c3e1bf1c18bdd4978",
+  "usage_changes": [
+    {
+      "field": "post_cold_rechecks_used",
+      "previous": 12,
+      "current": 13,
+      "reason": "Start round26 after adopting the R25 translation finding."
+    }
+  ],
+  "source_and_fact_changes": [],
+  "source_count_preserved": true,
+  "fact_count_preserved": true,
+  "research_rounds_used_unchanged": true,
+  "recorded_at": "2026-09-24T16:03:25.837444+00:00"
+}

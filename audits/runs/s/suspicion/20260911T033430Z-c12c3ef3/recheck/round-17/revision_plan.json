@@ -1,0 +1,47 @@
+{
+  "schema_version": "workflow_revision_v1",
+  "before_body_sha256": "f0ae54c4d407ab7c669d3cfdb9334d176f780d8bcf4ab662c289c3ea09fbc70a",
+  "after_body_sha256": "8febacafb97a88eea7736ca28cadd2b6af2be331a29afa82589daccb7372d31f",
+  "changed_units": [
+    "core_image",
+    "pronunciation",
+    "sense_structure",
+    "usage_notes"
+  ],
+  "changed_facets": [],
+  "full_recheck": true,
+  "fallback_reasons": [
+    "source_artifact_changed"
+  ],
+  "invalidated_passes": [
+    "evidence",
+    "example-attribution",
+    "frame-relation",
+    "pronunciation",
+    "qualification",
+    "sense-structure",
+    "translation"
+  ],
+  "reusable_passes": [],
+  "round": 17,
+  "source_inventory_sha256": "0748471037223a745ed90b3413393af30281fa1c587ef98fc3c7d8358102b2b3",
+  "source_artifact_sha256": "eba79a227ae9f1ad73e5e9936468342a0346d6f411cb9a1da35f42c3dcdcc863",
+  "input_body_sha256": "8febacafb97a88eea7736ca28cadd2b6af2be331a29afa82589daccb7372d31f",
+  "request_paths": {
+    "translation": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-17/requests/translation.request.json",
+    "sense-structure": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-17/requests/sense-structure.request.json",
+    "frame-relation": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-17/requests/frame-relation.request.json",
+    "example-attribution": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-17/requests/example-attribution.request.json",
+    "qualification": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-17/requests/qualification.request.json",
+    "pronunciation": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-17/requests/pronunciation.request.json",
+    "evidence": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-17/requests/evidence.request.json"
+  },
+  "prior_round_findings_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-16/findings_and_actions.json",
+  "prior_round_findings_sha256": "4a8b52ed73d6d58baf3c9316320d0d08ebb563e679374bab5335552ab24f0225",
+  "source_inventory_revision_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/source_inventory_revision_round16.json",
+  "source_inventory_revision_sha256": "4ae3b0606dda90d93e7d9534c818798f1076f21eebecc3e8e30b4224cee03bbe",
+  "post_cold_rechecks_used": 4,
+  "final_attempts_used": 1,
+  "recorded_at": "2026-09-24T12:24:21.643883Z",
+  "invalidation_reason": "The source-first artifact and candidate body changed after round16; regenerate every pass against the revised body and bound inventory."
+}

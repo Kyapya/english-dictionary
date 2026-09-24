@@ -1,0 +1,143 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "sense-structure",
+  "taxonomy_ids": [
+    "sense_boundary_overlap",
+    "cross_section_internal_contradiction",
+    "compound_component_generalization"
+  ],
+  "specification": "prompts/check_pass_sense_structure_v6.md",
+  "input_body_sha256": "8febacafb97a88eea7736ca28cadd2b6af2be331a29afa82589daccb7372d31f",
+  "input_sections": {
+    "core_image": [
+      {
+        "line": 26,
+        "text": "＃コアイメージ"
+      },
+      {
+        "line": 28,
+        "text": "語義1は人の犯罪・不正の可能性や、その疑いを向けられた状態を表し、語義2は相手や情報への一般的な不信を表す。語義3は、人や行為を容疑対象とすることより、事実・状況が本当かどうかを推測する焦点をもつ。ただし、that節の内容によっては語義1と重なることがある。語義4はこれらと分けて、何かがごくわずかに感じられることを表す。  "
+      },
+      {
+        "line": 29,
+        "text": "・人が犯罪・不正をしたのではないかと見る → 「容疑、疑い」（語義1）  "
+      },
+      {
+        "line": 30,
+        "text": "・相手や考えをそのまま信用してよいのかと構える → 「不信、疑念」（語義2）  "
+      },
+      {
+        "line": 31,
+        "text": "・ある事実や状況が本当なのではないかと推測する → 「気がすること、疑い、予感」（語義3）  "
+      },
+      {
+        "line": 32,
+        "text": "・存在を断定するほどではないが、わずかに感じ取れる → 「ほんの少し、かすかな気配」（語義4）  "
+      }
+    ],
+    "sense_structure": [
+      {
+        "line": 38,
+        "text": "1. 【名詞・可算／不可算】容疑、犯罪・不正をしたのではないかという疑い"
+      },
+      {
+        "line": 40,
+        "text": "【日本語訳・定義】人が犯罪、不正、不誠実な行為などをした可能性があると、十分な証明がない段階で考えること、またはその疑いを向けられている状態を表す。複数の個別の疑いを述べる suspicions は可算、疑いという状態を表す suspicion は不可算で使われる。on suspicion of ... のように特定の容疑でも無冠詞となる定型表現があるため、可算・不可算は意味だけで一律には決まらない。  "
+      },
+      {
+        "line": 91,
+        "text": "2. 【名詞・不可算中心】不信、警戒を伴う疑念"
+      },
+      {
+        "line": 93,
+        "text": "【日本語訳・定義】人、組織、動機、考えなどの真実性や信頼性を確信できず、すぐには信用しない態度を表す。相手や情報の裏に問題や意図があるのではないかという警戒を伴うこともある。語義1のように特定の犯罪・不正行為を想定する必要はなく、広い意味での mistrust / distrust に近い。  "
+      },
+      {
+        "line": 136,
+        "text": "3. 【名詞・可算中心】～ではないかという気、確証のない推測"
+      },
+      {
+        "line": 138,
+        "text": "【日本語訳・定義】十分な証拠はないが、ある事実や状況が本当なのではないかと感じる推測・予感に焦点がある。a suspicion that ... の that 節が犯罪・不正を述べる場合は、語義1の「犯罪・不正の容疑」と重なることもある。この用法では個々の考えを表す可算形が典型。可算・不可算は意味だけで一律に決まらず、構文にも左右される。  "
+      },
+      {
+        "line": 186,
+        "text": "4. 【名詞・単数／formal（やや改まった）】ほんの少し、かすかな気配"
+      },
+      {
+        "line": 188,
+        "text": "【日本語訳・定義】色、味、匂い、感情、表情などが、はっきり大量に存在するのではなく「あるかないか分かる程度」にわずかに感じられることを表す。通常 a suspicion of ... の形で用いられる比喩的な用法である。  "
+      }
+    ],
+    "usage_notes": [
+      {
+        "line": 38,
+        "text": "1. 【名詞・可算／不可算】容疑、犯罪・不正をしたのではないかという疑い"
+      },
+      {
+        "line": 80,
+        "text": "【語法・注意】on suspicion of theft は「窃盗の疑いを理由に」という定型表現である。under suspicion は、Oxford の説明では不正をしたのではないかと疑われている状態を表す。accusation や allegation は類義語ではなく、誰かが不正をしたという主張・告発を指す関連語である。  "
+      },
+      {
+        "line": 91,
+        "text": "2. 【名詞・不可算中心】不信、警戒を伴う疑念"
+      },
+      {
+        "line": 118,
+        "text": "【語法・注意】with suspicion は「疑いの目で、信用せずに」という態度を表す。Oxford と American Heritage はこの語義を distrust / lack of confidence と説明する。Merriam-Webster は suspicion が真実性・現実性・公正さ・信頼性への信頼の薄さを強調すると説明し、mistrust は疑いに基づく信頼の欠如を強調するとしている。  "
+      },
+      {
+        "line": 136,
+        "text": "3. 【名詞・可算中心】～ではないかという気、確証のない推測"
+      },
+      {
+        "line": 168,
+        "text": "【語法・注意】この語義では内容は悪いことに限らず、I have a suspicion that she may surprise us with good news. のように中立・肯定的な内容についても「そうではないかという気」を表せる。that 節が犯罪・不正を述べる場合は、語義1と重なることもある。suspicion that ... の that は内容を導く接続詞で、suspicion of ... の of は名詞句を取る。a sneaking suspicion の sneaking はここでは「盗み歩く」という直訳ではなく、表立って確信してはいないが心の中にある感覚を表す。  "
+      },
+      {
+        "line": 186,
+        "text": "4. 【名詞・単数／formal（やや改まった）】ほんの少し、かすかな気配"
+      },
+      {
+        "line": 218,
+        "text": "【語法・注意】この a suspicion of ... は「～を疑うこと」ではなく、「～がほんの少し存在すること」である。  "
+      }
+    ],
+    "word_formation": [
+      {
+        "line": 21,
+        "text": "＃語形成"
+      },
+      {
+        "line": 23,
+        "text": "Oxford は suspect（動詞・名詞・形容詞）、suspicious（形容詞）、suspiciously（副詞）を suspicion の語族として挙げている。各語の詳しい意味はそれぞれの項目を参照。  "
+      },
+      {
+        "line": 24,
+        "text": "なお、動詞 suspicion は Merriam-Webster では主に方言的、American Heritage では口語的な用法として記載されるが、本記事ではその動詞用法を扱わず、名詞用法のみを説明する。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "a815b90fbc456e2bc194220ee0f3bfa164790bbb6e1f2f740144ac62bb03b87c",
+  "source_artifact_sha256": "eba79a227ae9f1ad73e5e9936468342a0346d6f411cb9a1da35f42c3dcdcc863",
+  "normalization_version": "check_pass_semantic_input_v2",
+  "normalized_input_sha256": "677326573e0b35a2c64e6626f337d7c3a95b1411a9ab747d193683cf8846f68b"
+}

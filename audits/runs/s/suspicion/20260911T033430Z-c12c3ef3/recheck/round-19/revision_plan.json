@@ -1,0 +1,42 @@
+{
+  "schema_version": "workflow_revision_v1",
+  "before_body_sha256": "22115ff16b934a7bee72be158df65dd1569ca9a64c670adb9cd408a03b504ebd",
+  "after_body_sha256": "22115ff16b934a7bee72be158df65dd1569ca9a64c670adb9cd408a03b504ebd",
+  "changed_units": [],
+  "changed_facets": [],
+  "full_recheck": true,
+  "fallback_reasons": [
+    "source_artifact_changed"
+  ],
+  "invalidated_passes": [
+    "evidence",
+    "example-attribution",
+    "frame-relation",
+    "pronunciation",
+    "qualification",
+    "sense-structure",
+    "translation"
+  ],
+  "reusable_passes": [],
+  "round": 19,
+  "source_inventory_sha256": "8ccbcc727d2c51a47ebfd2ab06cb15a3103ef14553395b1f7708dcaa7acc990e",
+  "source_artifact_sha256": "e0585776f84681d92824b00b461903fa910c33574248652a1841a00ec229c8f4",
+  "input_body_sha256": "22115ff16b934a7bee72be158df65dd1569ca9a64c670adb9cd408a03b504ebd",
+  "recorded_at": "2026-09-24T12:59:43.074859Z",
+  "invalidation_reason": "The source-first legal claim mapping changed after round18; regenerate every pass against the updated source artifact and fixed candidate.",
+  "request_paths": {
+    "translation": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-19/requests/translation.request.json",
+    "sense-structure": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-19/requests/sense-structure.request.json",
+    "frame-relation": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-19/requests/frame-relation.request.json",
+    "example-attribution": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-19/requests/example-attribution.request.json",
+    "qualification": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-19/requests/qualification.request.json",
+    "pronunciation": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-19/requests/pronunciation.request.json",
+    "evidence": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-19/requests/evidence.request.json"
+  },
+  "prior_round_findings_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-18/findings_and_actions.json",
+  "prior_round_findings_sha256": "9a61b9782629bb771bc324c188f037cdb6c70144774aff56328539369fbfd01f",
+  "source_inventory_revision_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/source_inventory_revision_round18.json",
+  "source_inventory_revision_sha256": "75bce0f6b1d160f166b2204a7a713e0de575897c8ebc8315ceabef18a2b1b76f",
+  "post_cold_rechecks_used": 6,
+  "final_attempts_used": 1
+}

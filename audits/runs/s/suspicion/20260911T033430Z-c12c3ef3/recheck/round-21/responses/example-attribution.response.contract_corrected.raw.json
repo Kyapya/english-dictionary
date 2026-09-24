@@ -1,0 +1,209 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "input_body_sha256": "a1ba2a3e8f2a29df70219a3e1669883e2e9020b77884a88290a797075c286f76",
+  "blind_request_sha256": "65a828708808900e466cccaaa1838a7187e639430f9d12efc6a54c833285e7b1",
+  "recorded_at": "2026-09-24T13:32:45.838Z",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-6",
+    "ingested_by": "human",
+    "agent_id": "s21-example-attribution-independent-01"
+  },
+  "attributions": [
+    {
+      "example_id": "ex-1f9874709c17",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "were arrested on suspicion of fraud"
+      ],
+      "rationale": "Sense 1 is uniquely favored: the construction “arrested on suspicion of fraud” places the arrested people under a specific criminal accusation. Sense 3 could describe a belief that fraud occurred, but it does not capture the person-directed ground for arrest expressed by this frame."
+    },
+    {
+      "example_id": "ex-c86e69a4d8d2",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "cast suspicion on the clerk",
+        "who had access to the report"
+      ],
+      "rationale": "Sense 1 is favored because suspicion is cast on a particular person as a possible responsible party; “cast suspicion on the clerk” is an implicating frame. Sense 2 could express general distrust of a person, but the altered timestamp and the clerk’s access make the sentence about possible responsibility for an act, rather than a broad attitude of mistrust."
+    },
+    {
+      "example_id": "ex-fca175961862",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "a guard had stolen the missing laptops",
+        "confirmed the manager's suspicions"
+      ],
+      "rationale": "Sense 1 is unique because the that-clause attributes a concrete theft to a particular person, and the suspicions are confirmed as an accusation about that person's conduct. Sense 3 can cover a tentative belief about a proposition, but here the defining relation is that a guard is suspected of committing the crime."
+    },
+    {
+      "example_id": "ex-848d43640b65",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "that the delay was caused by a technical problem"
+      ],
+      "rationale": "Sense 3 is unique: the that-clause supplies a specific causal proposition that the speakers tentatively believe. Sense 2 would be a general attitude of mistrust or wariness, but no person, organization, or source is treated with distrust here."
+    },
+    {
+      "example_id": "ex-063398bcff6c",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "that everyone already knew the answer"
+      ],
+      "rationale": "Sense 3 is unique because the that-clause gives the content of the speaker’s unconfirmed belief. Sense 2 would require an attitude of mistrust or guardedness toward someone or something; the sentence instead expresses a hunch about whether a proposition is true."
+    },
+    {
+      "example_id": "ex-64aaff02f09c",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "a suspicion of disappointment in his voice"
+      ],
+      "rationale": "Sense 4 is unique: “in his voice” makes disappointment a faintly detectable quality. Sense 3 would be a proposition the speaker tentatively believes, but there is no proposition or belief-holder; the phrase describes a slight emotional trace."
+    },
+    {
+      "example_id": "ex-d62d25c12777",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "greeted with some suspicion"
+      ],
+      "rationale": "Sense 2 is unique because “greeted with some suspicion” describes a guarded, distrustful attitude toward the system. Sense 3 would require a tentative proposition about what is true, which the sentence does not supply."
+    },
+    {
+      "example_id": "ex-e71e631abd89",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "came under suspicion",
+        "when several invoices disappeared"
+      ],
+      "rationale": "Sense 1 is uniquely favored: “came under suspicion” places the employee under suspicion of responsibility for the disappearance. Sense 2 could be distrust of the employee’s reliability, but the event-triggered construction frames a possible act of wrongdoing, not general mistrust."
+    },
+    {
+      "example_id": "ex-a5bf2c6ace9f",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "that the battery was failing"
+      ],
+      "rationale": "Sense 3 is unique because the suspicion is a belief about the proposition that the battery was failing, later supported by test results. Sense 1 concerns suspicion directed at a person for an offense; no person is alleged to have done anything."
+    },
+    {
+      "example_id": "ex-bf2f306bc58d",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "cast suspicion on the reliability of the company's explanation"
+      ],
+      "rationale": "Sense 2 is unique: the target is the reliability of an explanation, so the sentence expresses mistrust of information. Sense 1 would require a person being suspected of a crime or dishonest act; the grammatical target here is an account’s reliability."
+    },
+    {
+      "example_id": "ex-7c7d21b50785",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "white with a suspicion of blue"
+      ],
+      "rationale": "Sense 4 is unique because “with a suspicion of blue” describes a faint color quality present in the white. Sense 3 would express a tentative belief about a proposition, but this is a description of the walls’ appearance, not anyone’s inference."
+    },
+    {
+      "example_id": "ex-f9b4953df54e",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "a suspicion of a smile appeared",
+        "at the corner of her mouth"
+      ],
+      "rationale": "Sense 4 is unique: a smile appearing at the corner of someone’s mouth is a barely perceptible expression. Sense 3 would be a hunch held by a person, but the sentence describes a visible trace rather than a belief."
+    },
+    {
+      "example_id": "ex-5fb863dfe3e9",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "a suspicion of citrus",
+        "made it taste fresher"
+      ],
+      "rationale": "Sense 4 is unique because “a suspicion of citrus” names a slight flavor that affects how the sauce tastes. Sense 3 would be someone's uncertain belief that citrus is present; no belief or proposition is expressed."
+    },
+    {
+      "example_id": "ex-09a185870588",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "viewed the sudden policy change with suspicion"
+      ],
+      "rationale": "Sense 2 is unique: “viewed … with suspicion” attributes wary mistrust toward the policy change. Sense 3 would be a tentative belief about a stated proposition; no such proposition is given."
+    },
+    {
+      "example_id": "ex-8b28e344e8d8",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "that the meeting will finish earlier than planned"
+      ],
+      "rationale": "Sense 3 is unique because the that-clause expresses a prediction the speaker thinks may be true. Sense 2 would denote broad mistrust or wariness toward a person, organization, or idea, whereas this is a belief about a future event."
+    },
+    {
+      "example_id": "ex-a101437f6a9a",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "remained under suspicion until the records were checked"
+      ],
+      "rationale": "Sense 1 is favored by the construction “remained under suspicion” and its resolution by checking records: a person remains a possible responsible party until evidence is reviewed. Sense 2 could describe general distrust of the contractor, but the evidence-checking frame points to suspicion of specific wrongdoing."
+    },
+    {
+      "example_id": "ex-a73e1268df05",
+      "classification": "ambiguous",
+      "candidate_sense_ids": [
+        "sense:001",
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "suspicion of fraud",
+        "unexplained transfer of client funds"
+      ],
+      "rationale": "The sentence supports two natural readings without naming a suspected perpetrator. Sense 1 is possible if auditors suspect that someone committed fraud; sense 3 is possible if they infer that the unexplained transfer itself was fraudulent. “Suspicion of fraud” names the suspected offense or proposition but does not resolve whether a person-directed accusation is intended."
+    }
+  ]
+}

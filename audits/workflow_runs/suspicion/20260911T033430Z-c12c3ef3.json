@@ -23,7 +23,7 @@
   "started_at": "2026-09-11T03:34:30Z",
   "deadline_at": "2026-09-11T04:34:30Z",
   "pre_draft_deadline_at": "2026-09-11T03:54:30Z",
-  "last_heartbeat_at": "2026-09-23T18:22:55Z",
+  "last_heartbeat_at": "2026-09-24T16:49:26Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-11T04:18:22Z",
@@ -515,7 +515,9 @@
     ],
     "reviewer_mode": "handoff",
     "checker_execution_protocol": "parallel_subagents_v2",
-    "checker_subagent_count": 7
+    "checker_subagent_count": 7,
+    "review_provenance_protocol": "preserved_handoff_v1",
+    "review_response_protocol": "self_attested_handoff_v1"
   },
   "process_improvement": {
     "schema_version": "workflow_process_improvement_v2",
@@ -851,7 +853,7 @@
     }
   },
   "orchestrator_state": {
-    "next_stage_index": 9,
+    "next_stage_index": 7,
     "completed_stages": [
       "guard_start",
       "generation",
@@ -859,9 +861,7 @@
       "checker_passes",
       "cold_review",
       "pre_blind_resolution",
-      "checker_recheck",
-      "final_blind",
-      "blind_seal"
+      "checker_recheck"
     ],
     "stage_outputs": {
       "generation": [
@@ -893,7 +893,32 @@
         "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/blind_seal.json"
       ]
     },
-    "stage_started_at": "2026-09-23T18:22:44Z"
+    "stage_started_at": "2026-09-24T16:22:49.540360+00:00",
+    "rerun_history": [
+      {
+        "reopened_at": "2026-09-24T16:22:49.540360+00:00",
+        "reason": "R25 translation finding was adopted in post-blind revision round 26; R26 full checker recheck passed on the corrected body.",
+        "prior_completed_stages": [
+          "guard_start",
+          "generation",
+          "mechanical_validator",
+          "checker_passes",
+          "cold_review",
+          "pre_blind_resolution",
+          "checker_recheck",
+          "final_blind",
+          "blind_seal"
+        ],
+        "prior_stage_outputs": {
+          "final_blind": [
+            "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/final_blind.json"
+          ],
+          "blind_seal": [
+            "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/blind_seal.json"
+          ]
+        }
+      }
+    ]
   },
   "publication": {
     "mode": "connector"

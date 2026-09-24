@@ -1,0 +1,44 @@
+{
+  "schema_version": "workflow_revision_v1",
+  "before_body_sha256": "08c32581fbc222d720287159ce03804197e14b84a5afa55587c5dc1ac53ad6d6",
+  "after_body_sha256": "b34f7da3691330b05a3a8a1aaf894599ec4d16d118e331f84a1dc41bcfca5677",
+  "changed_units": [
+    "core_image"
+  ],
+  "changed_facets": [],
+  "full_recheck": true,
+  "fallback_reasons": [
+    "source_artifact_changed"
+  ],
+  "invalidated_passes": [
+    "evidence",
+    "example-attribution",
+    "frame-relation",
+    "pronunciation",
+    "qualification",
+    "sense-structure",
+    "translation"
+  ],
+  "reusable_passes": [],
+  "round": 23,
+  "source_inventory_sha256": "f64beb53e4519971f312e0d173d335af96c5961a9f8a4be7cee9329eda2836fa",
+  "source_artifact_sha256": "f583eaabf925bd9587585be43d243b3ff6dbb0b2fd483ecbd1d89a0fce16aee2",
+  "input_body_sha256": "b34f7da3691330b05a3a8a1aaf894599ec4d16d118e331f84a1dc41bcfca5677",
+  "recorded_at": "2026-09-24T14:19:34.801458+00:00",
+  "invalidation_reason": "Round22 sense-structure finding adopted; the core-image boundary and source-first body binding changed, so all seven checker passes are regenerated.",
+  "prior_round_findings_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-22/findings_and_actions.json",
+  "prior_round_findings_sha256": "776c1438a29ba65865e088df1af1644ccb86e78c091d90e1ea2345e72ad4e47d",
+  "source_inventory_revision_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/source_inventory_revision_round22.json",
+  "source_inventory_revision_sha256": "f2bf5bdce0dad2efb6644f6b7df61e91a13995a0f9d1cf1d72229679881afd7f",
+  "post_cold_rechecks_used": 10,
+  "final_attempts_used": 1,
+  "request_paths": {
+    "translation": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-23/requests/translation.request.json",
+    "sense-structure": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-23/requests/sense-structure.request.json",
+    "frame-relation": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-23/requests/frame-relation.request.json",
+    "example-attribution": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-23/requests/example-attribution.request.json",
+    "qualification": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-23/requests/qualification.request.json",
+    "pronunciation": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-23/requests/pronunciation.request.json",
+    "evidence": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-23/requests/evidence.request.json"
+  }
+}

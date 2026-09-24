@@ -1,0 +1,62 @@
+{
+  "schema_version": "checker_recheck_actions_v1",
+  "round": 16,
+  "input_body_sha256": "f0ae54c4d407ab7c669d3cfdb9334d176f780d8bcf4ab662c289c3ea09fbc70a",
+  "source_inventory_sha256": "272ebe2ec2adebcc3950c95b116af94e1d9a7b8e0a8c5315fbc430a508f504f4",
+  "source_artifact_sha256": "7927e6a0a802e17023402735bd4779b3fc18f1a41b9642fabde3f33acef9a07d",
+  "findings": [
+    {
+      "id": "r16-pronunciation-001",
+      "pass_id": "pronunciation",
+      "taxonomy_id": "pronunciation_symbol_explanation",
+      "severity": "blocking",
+      "location": {
+        "section": "pronunciation",
+        "line_start": 15,
+        "line_end": 15,
+        "exact_quote": "Oxford は米・英とも /səˈspɪʃn/ と表記する。Merriam-Webster の音節を区切る発音綴りは sə-ˈspi-shən で、3音節、第2音節に主強勢があることを示す。語頭の su- は強く /suː/ と読まず、弱い /sə/ になる。  "
+      },
+      "rationale": "Oxford として示す /səˈspɪʃn/ には末尾の /ə/ も音節主音を示す記号もなく、表記どおりなら明示された母音核は /ə/ と /ɪ/ の2つです。一方、同じ文は Merriam-Webster の sə-ˈspi-shən を3音節と説明していますが、Oxford の /ʃn/ と Merriam-Webster の /ʃən/ の音節数の差や、Oxford の /n/ が音節主音として意図されているかを説明していません。",
+      "suggested_direction": "Oxford の末尾を音節主音 /n̩/ として意図しているならその転写規則を明示し、そうでなければ /ə/ を含む転写にするなど、Oxford と Merriam-Webster の音節数・末尾音の差を明確にしてください。",
+      "raw_response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-16/responses/pronunciation.response.raw.json",
+      "raw_response_sha256": "f725bc79b668d967b3a33ba3abcad1e8129f00878d59c432ef7b2dbd91d8c18a",
+      "action": "adopted",
+      "resolution": "Add the official OALD10 transcription convention for unmarked syllabic /n/ and explain why Oxford /səˈspɪʃn/ and Merriam-Webster sə-ˈspi-shən both represent three syllables."
+    },
+    {
+      "id": "r16-qualification-001",
+      "pass_id": "qualification",
+      "taxonomy_id": "absolute_scope_counterexample",
+      "severity": "minor",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 138,
+        "line_end": 138,
+        "exact_quote": "【日本語訳・定義】特定の人が犯罪・不正をしたという疑いではなく、犯罪・不正を前提としない事実や状況が本当なのではないかと、確証のないまま感じることを表す。人物への容疑や一般的な不信ではなく、「そうではないか」という推測・予感に焦点がある。この意味では a suspicion that ... のように個々の考えを表す可算形が典型。可算・不可算は意味だけで一律に決まらず、構文にも左右される。"
+      },
+      "rationale": "この区別を排他的に読める書き方ですが、a suspicion that ... の内容自体が特定人物の犯罪・不正を述べることもあり、同じ用例が「事実への推測」と「人物への容疑」の両方に解釈され得ます。意味の中心を分ける説明としては有用でも、境界を必須条件のように示すと適用範囲が狭すぎます。",
+      "suggested_direction": "排他的な定義ではなく、典型的な焦点の違いとして示し、that節の内容が犯罪・不正を含む場合には語義が重なり得ると補足する。",
+      "raw_response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-16/responses/qualification.response.raw.json",
+      "raw_response_sha256": "551362bef699cc667bdc007b4890901e12a189465f518dfe82415b73024c8b77",
+      "action": "adopted",
+      "resolution": "Reword Sense 3 as a typical focal difference and state that a suspicion that-clause about wrongdoing can overlap with Sense 1."
+    }
+  ],
+  "review_response_corrections": [
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-16/responses/example-attribution.response.raw.json",
+      "sha256": "a7aa4396b4fda5c8fe06e6a34cc93d8164937800b012c06072d97467dfcf9fd4",
+      "disposition": "contract_invalid",
+      "detail": "The initial example-attribution record used judgment/best_sense_id/next_best_sense_id instead of required contract fields and omitted blind_request_sha256; preserved unchanged."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-16/responses/example-attribution.response.contract_corrected.raw.json",
+      "sha256": "5dccc85dc8f28f80bc9dd772512104089ead37807f404c41b7118e6c6653a009",
+      "disposition": "accepted",
+      "detail": "The same independent reviewer returned the contract-compliant record for the exact saved stage-1 request; all 17 attributions passed contract, liveness, and request-hash validation."
+    }
+  ],
+  "round_15_findings_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-15/findings_and_actions.json",
+  "round_15_findings_sha256": "0a2e3c8c8ba9cdbbe619dac578d59bc28ff4b1feb437bc75747e43f44b9fc268",
+  "recorded_at": "2026-09-24T12:20:05.787977Z"
+}

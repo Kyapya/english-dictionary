@@ -1,7 +1,62 @@
 {
   "schema_version": "targeted_adjudications_v1",
-  "recorded_at": "2026-09-23T16:31:46.390608+00:00",
-  "requests": [],
-  "adjudications": [],
-  "summary": "Declared unresolved semantic issues: 0; no targeted adjudications required."
+  "requests": [
+    {
+      "schema_version": "targeted_adjudication_request_v1",
+      "issue_id": "f_suspicion_that_scope_resolution_conflict",
+      "question": "Was the independent post-blind reviewer correct to reject final-blind finding f_suspicion_that_scope on the ground that sense placement, the crime-related example, and sense 3 already scope the generic pattern; or should this finding be adopted and the sense-1 pattern explicitly limited to crime/wrongdoing complements?",
+      "article_excerpt": "Sense 1 heading: 1. 【名詞・可算／不可算】容疑、犯罪・不正をしたのではないかという疑い\nSense 1 definition: 人が犯罪、不正、不誠実な行為などをした可能性があると、十分な証明がない段階で考えること、またはその疑いを向けられている状態を表す。複数の個別の疑いを述べる suspicions は可算、疑いという状態を表す suspicion は不可算で使われる。on suspicion of ... のように特定の容疑でも無冠詞となる定型表現があるため、可算・不可算は意味だけで一律には決まらない。\nSense 1 frame: suspicion that 〈節〉＝～ではないかという疑い\nSense 1 example: The security footage confirmed the manager's suspicions that a guard had taken the missing laptops.\nSense 3 heading: 3. 【名詞・可算中心】～ではないかという気、確証のない推測\nSense 3 definition: 特定の人が犯罪・不正をしたという疑いではなく、犯罪・不正を前提としない事実や状況が本当なのではないかと、確証のないまま感じることを表す。人物への容疑や一般的な不信ではなく、「そうではないか」という推測・予感に焦点がある。この意味では a suspicion that ... のように個々の考えを表す可算形が典型。可算・不可算は意味だけで一律に決まらず、構文にも左右される。\nSense 3 frame: a suspicion that 〈節〉＝～ではないかという気／have a suspicion that 〈節〉＝～ではないかと思う／a sneaking suspicion that 〈節〉＝ひそかに～ではないかと思う気持ち／a strong suspicion that 〈節〉＝強い疑い／confirm a suspicion＝推測を裏付ける。\nSense 3 usage note: この語義では内容が必ず悪いとは限らない。I have a suspicion that she may surprise us with good news. のように、中立・肯定的な内容についても「そうではないかという気」を表せる。この語義は、犯罪・不正を疑う意味や人物への不信とは異なり、非難を伴わない事実推測を表す。",
+      "judgments": [
+        {
+          "reviewer_agent_id": "/root/suspicion_final_blind_latest",
+          "conclusion": "The bare suspicion that 〈節〉 pattern under the offense-centered sense is overbroad because the same construction also expresses a neutral inference in sense 3; make the crime-related complement boundary explicit.",
+          "basis": "final_blind finding f_suspicion_that_scope, severity minor, rationale and scope_anchors in the sealed final_blind.json."
+        },
+        {
+          "reviewer_agent_id": "/root/suspicion_postblind_resolution",
+          "conclusion": "Reject the finding: sense 1 is offense-centered and illustrated by an offense-related inference, while sense 3 separately gives neutral examples and an explicit non-criminal usage note.",
+          "basis": "Independent post_blind_resolution response, based on the reviewed candidate and source inventory."
+        }
+      ],
+      "source_material": [
+        {
+          "source_fact_id": "oxf_that",
+          "statement": "Oxford gives suspicion that + clause and a sneaking suspicion example.",
+          "source_detail": "Oxford entry, sense 1 examples."
+        },
+        {
+          "source_fact_id": "oxf_belief",
+          "statement": "Oxford lists a countable sense for a belief that something is true despite lacking proof.",
+          "source_detail": "Oxford entry, sense 2."
+        },
+        {
+          "source_fact_id": "mw_clause",
+          "statement": "Merriam-Webster gives examples of suspicion followed by a that-clause and of viewing policies with suspicion.",
+          "source_detail": "Merriam-Webster, example sentences."
+        }
+      ]
+    }
+  ],
+  "adjudications": [
+    {
+      "schema_version": "targeted_adjudication_v1",
+      "issue_id": "f_suspicion_that_scope_resolution_conflict",
+      "reviewer": {
+        "agent_id": "/root/suspicion_that_adjudication"
+      },
+      "decision": "resolved_correct",
+      "rationale": "The sense 1 heading and definition scope its that-clause frame to suspicion of crime, wrongdoing, or dishonesty, and its example reinforces that reading. Sense 3 separately covers neutral or positive inferences and gives its own that-clause frames. The finding’s proposed complement limit is therefore already conveyed by the sense placement and surrounding text.",
+      "applicable_scope": "Sense 1 heading, definition, frame, and example; sense 3’s separate frames and usage note.",
+      "files_read": [
+        "prompts/targeted_adjudication_v1.md",
+        "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/review_history/superseded-body-6c77c142/targeted_adjudication/f_suspicion_that_scope.request.json"
+      ]
+    }
+  ],
+  "provenance": {
+    "request_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/review_history/superseded-body-6c77c142/targeted_adjudication/f_suspicion_that_scope.request.json",
+    "request_sha256": "8f4f45cb6dd6b09b2d4643418acf5fcbaaeacdd943ab373642ff69f2c6fc9cce",
+    "raw_response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/review_history/superseded-body-6c77c142/targeted_adjudication/f_suspicion_that_scope.response.raw.json",
+    "raw_response_sha256": "4784ed4fb52c5a54f5d89db6d68281c0bd091bf87dcbfb9303aba9492421e3b8"
+  }
 }

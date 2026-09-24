@@ -1,0 +1,39 @@
+{
+  "schema_version": "post_blind_revision_v1",
+  "round": 25,
+  "input_body_sha256": "18178e0a192307a41e4cccafaaf60c75ff89633d50774904ba389187e4d827b6",
+  "output_body_sha256": "1668f193d23088ced53f1c8828fcef108cde97073b2eda3e14f74741e9d73a51",
+  "recorded_at": "2026-09-24T15:42:36.334729+00:00",
+  "finding_id": "f1+f2",
+  "adopted_finding_ids": [
+    "f1",
+    "f2"
+  ],
+  "action": "adopted",
+  "changed_units": [
+    "collocations_examples",
+    "frames"
+  ],
+  "changed_facets": [
+    "sense_boundary_overlap.person_wrongdoing_vs_general_distrust",
+    "sense_boundary_overlap.person_wrongdoing_vs_proposition_suspicion"
+  ],
+  "change": "Removed the unqualified suspicions-about-person/behavior frame from Sense 1; narrowed the arouse-suspicion frame and use note to a person suspected of crime or wrongdoing while retaining the aligned fraud example.",
+  "source_inventory_revision_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/source_inventory_revision_round25.json",
+  "source_inventory_sha256": "4e446c00971cd24d15882b376a813632b03f4ca0dd88db1e83f7f17e546dd2e8",
+  "source_artifact_sha256": "4d88fc32b04e814ebbb1861a6f3a52c3b9b796109da4cb9434ef19a6bef68155",
+  "revision_plan_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-25/revision_plan.json",
+  "revision_plan_sha256": "ba35a64849662e488433bc997326c2b0ad6c22b04753ca88be2db18391f489b2",
+  "actions": [
+    {
+      "finding_id": "f1",
+      "disposition": "adopted",
+      "result": "unqualified frame removed from Sense 1"
+    },
+    {
+      "finding_id": "f2",
+      "disposition": "adopted",
+      "result": "arouse suspicion scoped to a wrongdoing allegation"
+    }
+  ]
+}

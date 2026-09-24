@@ -56,6 +56,46 @@ Use the shared start_words/start_word entrypoints and resume the same run.
 Do not rebuild branches or resets to hide failed attempts. Do not regenerate the
 whole dictionary export unless the requested publication actually needs it.
 
+## Deterministic repair and resumption contracts
+
+Source collection completion does not require article mapping that belongs to
+comparison. Comparison and final publication still require complete union/claim
+coverage and strictly ordered timestamps; partial invalid references are rejected.
+
+Checker packets include the sense-section preamble in frequency context; qualification
+also receives lexical relations so it can see each synonym/antonym score and sense. Editorial
+ordinal frequency estimates are not corpus measurements. Unsupported factual claims,
+regional/archaic overstatement, and invented statistics remain review defects.
+New `check_pass_semantic_input_v2` hashes ignore only canonical located-line offsets;
+text, order, semantic IDs, source bindings and specification hashes remain checked.
+Historical markerless requests retain the original hash algorithm. For lexical
+numeric-frequency-only revisions, the required plan narrows to qualification and
+evidence, but no cache may be reused unless all existing reuse checks still pass.
+This is not a promise that every such edit will require exactly two calls.
+
+Missing checker finding IDs are derived deterministically in the indexing layer.
+Never insert them into preserved reviewer responses. Concise final-review packets
+include `review_trace_contract`: concrete finding notes count without a duplicate
+40-character overall explanation; with no findings, retain one short concrete
+overall observation. Boilerplate all-pass templates still fail. Notes, IDs and
+hashes do not establish independent execution.
+
+A lost frame-review context is not a reason to discard valid stage 1. The generated
+stage-2 handoff includes a `sealed_stage1_replay_v1` receipt template. A genuinely
+fresh independent reviewer uses its own agent ID/model and records the old agent
+ID, sealed blind-record hash, immutable stage-2 request hash and replacement reason
+in its raw response. The ingester verifies both preserved original responses and
+their bindings; it never changes the stage-1 record or impersonates its author.
+A replacement cannot be one of the other six checker contexts. The original
+same-agent/model path remains compatible. Missing provenance is not certified by
+inventing a receipt. Existing dispatch packets and raw records are not rewritten.
+
+Workflow repair belongs in a separate infrastructure PR, not a word-generation
+patch. Add executable regressions, keep old audit evidence untouched, and run the
+normal validation matrix. The suspicion incident regressions are in
+`tests/test_suspicion_workflow_regressions.py`; timings must be measured on future
+real runs, not inferred from passing unit tests.
+
 ## Publish the complete checkpoint
 
 Commit the intended entry, derived audit, raw evidence, completed workflow record,

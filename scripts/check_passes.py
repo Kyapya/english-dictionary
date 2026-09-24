@@ -69,15 +69,32 @@ def _digest_json(value: Any) -> str:
     return _digest_bytes(encoded)
 
 
+SEMANTIC_INPUT_VERSION = "check_pass_semantic_input_v2"
+
+
+def _without_line_offsets(value: Any) -> Any:
+    if isinstance(value, list):
+        return [_without_line_offsets(row) for row in value]
+    if isinstance(value, dict):
+        # Only the canonical LocatedLine shape is positional metadata.
+        if set(value) == {"line", "text"} and isinstance(value.get("line"), int):
+            return {"text": value["text"]}
+        return {key: _without_line_offsets(row) for key, row in value.items()}
+    return value
+
+
 def _normalized_request_hash(request: dict[str, Any]) -> str:
     """Hash only the semantic input of a pass, not unrelated body sections."""
 
+    sections = request.get("input_sections")
+    if request.get("normalization_version") == SEMANTIC_INPUT_VERSION:
+        sections = _without_line_offsets(sections)
     return _digest_json(
         {
             "pass_id": request.get("pass_id"),
             "taxonomy_ids": request.get("taxonomy_ids"),
             "specification": request.get("specification"),
-            "input_sections": request.get("input_sections"),
+            "input_sections": sections,
             "evidence_context": request.get("evidence_context"),
             "blind_protocol": request.get("blind_protocol"),
         }
@@ -324,6 +341,7 @@ def _bind_request_hashes(
         (repo_root / str(request["specification"])).read_bytes()
     )
     request["source_artifact_sha256"] = source_artifact_sha256
+    request["normalization_version"] = SEMANTIC_INPUT_VERSION
     request["normalized_input_sha256"] = _normalized_request_hash(request)
     return request
 
@@ -340,9 +358,11 @@ def validate_request_integrity(
         "source_artifact_sha256",
         "normalized_input_sha256",
     }
-    if not (binding_fields & set(request)):
+    if not (binding_fields & set(request)) and "normalization_version" not in request:
         return []  # legacy request read compatibility
     errors: list[str] = []
+    if request.get("normalization_version") not in {None, SEMANTIC_INPUT_VERSION}:
+        errors.append("unsupported checker normalization_version")
     missing = binding_fields - set(request)
     if missing:
         errors.append(f"checker request binding fields are missing: {sorted(missing)}")
@@ -653,6 +673,9 @@ def extract_sections(text: str) -> dict[str, list[dict[str, Any]]]:
     body_start, body_lines = _split_front_matter(text)
     main = _main_sections(body_start, body_lines)
     blocks = _sense_blocks(main.get("senses", []))
+    first_sense_line = blocks[0][0].number if blocks else float("inf")
+    preamble = [line for line in main.get("senses", [])
+                if line.number < first_sense_line and not line.text.strip().startswith("＃")]
     result: dict[str, list[LocatedLine]] = {
         "pronunciation": main.get("pronunciation", []),
         "etymology": main.get("etymology", []),
@@ -664,7 +687,7 @@ def extract_sections(text: str) -> dict[str, list[dict[str, Any]]]:
         "definitions": _select_label_lines(
             blocks, ("【日本語訳・定義】",)
         ),
-        "frequency_register": _select_label_lines(
+        "frequency_register": preamble + _select_label_lines(
             blocks, ("【頻度】", "【レジスター/領域】")
         ),
         "frames": _select_label_lines(blocks, ("【文法パターン】",)),
@@ -1139,6 +1162,11 @@ def validate_antonym_axis_adjudication_record(
         errors.append("antonym axis adjudication request hash mismatch")
     if record.get("blind_record_sha256") != _digest_json(blind_record):
         errors.append("antonym axis adjudication does not bind the sealed blind record")
+    if "stage1_replay" in record:
+        import review_continuation
+        errors.extend(review_continuation.validate_replay(
+            record, blind_record, _digest_json(stage2_request)
+        ))
     request_items = stage2_request.get("input_sections", {}).get(
         "antonym_axis_items", []
     )

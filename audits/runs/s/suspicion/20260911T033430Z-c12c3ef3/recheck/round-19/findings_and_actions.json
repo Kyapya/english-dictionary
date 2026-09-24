@@ -1,0 +1,89 @@
+{
+  "schema_version": "checker_recheck_actions_v1",
+  "round": 19,
+  "input_body_sha256": "22115ff16b934a7bee72be158df65dd1569ca9a64c670adb9cd408a03b504ebd",
+  "source_inventory_sha256": "8ccbcc727d2c51a47ebfd2ab06cb15a3103ef14553395b1f7708dcaa7acc990e",
+  "source_artifact_sha256": "e0585776f84681d92824b00b461903fa910c33574248652a1841a00ec229c8f4",
+  "findings": [
+    {
+      "id": "r19-evidence-001",
+      "pass_id": "evidence",
+      "taxonomy_id": "evidence_claim_mismatch",
+      "severity": "blocking",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 33,
+        "line_end": 33,
+        "exact_quote": "一般名詞。辞書には on suspicion of ... を逮捕理由として用いる例がある。Merriam-Webster は法的な suspicion を、証明やわずかな証拠しかない段階で、何かが間違っている、またはある事実が存在すると考える、通常は信念に至らない心理状態として説明する。"
+      },
+      "rationale": "この抜粋の第2文は Merriam-Webster の legal definition（mw_legal）に対応するが、第1文の arrest example は対応しない。Oxford の locator には on suspicion of を使った逮捕例があり、oxf_on は別の claim_unit で grammar_pattern:005 と collocation:002 にだけ結び付いているため、この対象には直接の evidence link がない。",
+      "evidence_link_ids": [
+        "mw_legal"
+      ],
+      "suggested_direction": "第1文を支える oxf_on を register:001 に結び付けるか、第1文を別の根拠付き claim/target に分ける。",
+      "raw_response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-19/responses/evidence.response.raw.json",
+      "raw_response_sha256": "e992425fca198f0a446f6bca0ce3e3ecafb81c05a0435ca99fff7338c171d6fb",
+      "action": "adopted",
+      "resolution": "Add register:001 as a target of claim_arrest_pattern, linking Oxford fact oxf_on to the arrest-example statement. Retain mw_legal on register:001 for the separate legal-definition sentence; together the target is fully sourced without changing article text."
+    }
+  ],
+  "review_response_corrections": [
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-19/responses/example-attribution.response.raw.json",
+      "sha256": "263cb375cff2a19712a17a5bcb01ccf2d587c64083205f467dcbed6d04e75065",
+      "disposition": "request_hash_invalid",
+      "detail": "All 17 attribution judgments and rationale text were retained, but the response bound to a different blind-request digest. Preserved unchanged."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-19/responses/example-attribution.response.request_bound.raw.json",
+      "sha256": "3921c0ee4042060f4957eb3a886257ebfbeeda93eaad87e7bbb707b2dfb29c8c",
+      "disposition": "accepted",
+      "detail": "Same reviewer returned a separate response with only blind_request_sha256 corrected to the exact saved request hash; contract, request integrity, and attribution liveness passed."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-19/responses/frame-relation.stage1.response.raw.json",
+      "sha256": "18dd6130de4c705a228fc1cdffd9d77b5df2166eabdbfe90a0b3afdc04548618",
+      "disposition": "derived_provenance_binding",
+      "detail": "Stage 1 response is preserved unchanged. Orchestrator-derived sealed record binds it to the exact saved stage-1 request hash."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-19/responses/frame-relation.stage2.response.raw.json",
+      "sha256": "22c340e0677889975c68bcb45a3d1091eb07dd287d69a8b94fa811a38af8236c",
+      "disposition": "derived_provenance_binding",
+      "detail": "Stage 2 response is preserved unchanged. Orchestrator-derived adjudication record binds it to the exact saved stage-2 request and sealed stage-1 record."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-19/responses/translation.response.raw.json",
+      "sha256": "cce8940219b61ab590b83c522db8e4f249b955ac4cc2dba91f28eb9657b71fdb",
+      "disposition": "accepted",
+      "detail": "Request packet integrity and response schema passed; raw response preserved unchanged."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-19/responses/sense-structure.response.raw.json",
+      "sha256": "f973cf51f0dc38c52282d9bd6c978ffbbd612f5c585683d8682b5ec74125736c",
+      "disposition": "accepted",
+      "detail": "Request packet integrity and response schema passed; raw response preserved unchanged."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-19/responses/qualification.response.raw.json",
+      "sha256": "03ed942d7f35872252ba2efbfba87b12d2ba94e2150c8e7517ea4d56ee1dacb3",
+      "disposition": "accepted",
+      "detail": "Request packet integrity and response schema passed; raw response preserved unchanged."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-19/responses/pronunciation.response.raw.json",
+      "sha256": "51a447579b5f14e4b94e84242eec268d790cc99d8c4e3da57a51faf96e212dce",
+      "disposition": "accepted",
+      "detail": "Request packet integrity and response schema passed; raw response preserved unchanged."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-19/responses/evidence.response.raw.json",
+      "sha256": "e992425fca198f0a446f6bca0ce3e3ecafb81c05a0435ca99fff7338c171d6fb",
+      "disposition": "accepted",
+      "detail": "Request packet integrity and response schema passed; raw response preserved unchanged."
+    }
+  ],
+  "prior_round_findings_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-18/findings_and_actions.json",
+  "prior_round_findings_sha256": "9a61b9782629bb771bc324c188f037cdb6c70144774aff56328539369fbfd01f",
+  "recorded_at": "2026-09-24T13:10:08.450712Z"
+}

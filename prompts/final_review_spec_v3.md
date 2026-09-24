@@ -24,6 +24,7 @@
 - `blind_candidate_results` は全 `assertion_ids` と `verified_body_sha256` を保持する。candidateのpassは列挙した全assertionの確認を意味する。一つでも未確認または不成立ならfailとする。assertionごとの合格理由表を別に作らない。
 - `source_inventory_results` の `union_id` は `id` と一致させる。
 - `checker_recheck_results` / `chronology_results` の説明表は作らない。機械検証の原記録を参照する。
+- `finding_results.notes` の具体的な修正確認・不採用理由はレビューの記録として扱い、全体notesへ重複転記しない。findingがない場合だけ、全体 `notes` に今回確認した具体的事項を短く一つ残す。最低文字数は設けず、「問題なし」「確認済み」だけの記録や正常項目ごとの合格理由表は作らない。これは実行の証明ではなく、独立実行・原応答保存・全ID判定の要件は維持する。
 - `decision` は `pass | reject`、`blockers` と全体の非blocking `notes` は配列とする。本文は変更しない。
 
 ## 合否

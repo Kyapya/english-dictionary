@@ -1,0 +1,208 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "input_body_sha256": "b34f7da3691330b05a3a8a1aaf894599ec4d16d118e331f84a1dc41bcfca5677",
+  "blind_request_sha256": "9944a5362cc3f6bb9ef6c23617b052da36cb0597f8da8f1cf00038fa2d7fdc8c",
+  "recorded_at": "2026-09-24T14:24:39.950118Z",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "GPT-6",
+    "ingested_by": "orchestrator",
+    "agent_id": "/root/s23_example_attribution",
+    "source_response": {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-23/responses/source_responses/b8e52cae5d65209318fb7f2f27673f9e735ebf8495ffd9c29bb2630f950e38c1.json",
+      "sha256": "b8e52cae5d65209318fb7f2f27673f9e735ebf8495ffd9c29bb2630f950e38c1"
+    }
+  },
+  "attributions": [
+    {
+      "example_id": "ex-b05441354faa",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "the meeting will finish earlier than planned"
+      ],
+      "rationale": "The phrase “the meeting will finish earlier than planned” is a tentative prediction about an event, so it is sense:003. Unlike sense:001, it does not cast a person as having committed wrongdoing; unlike sense:002, it does not express mistrust of a person, organization, or information source."
+    },
+    {
+      "example_id": "ex-7109decd0751",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "cast suspicion on the clerk"
+      ],
+      "rationale": "The phrase “cast suspicion on the clerk” makes the clerk a possible wrongdoer, which is sense:001. Sense:002 would express general mistrust of the clerk or the clerk’s reliability without treating the clerk as a suspect."
+    },
+    {
+      "example_id": "ex-07975d37945b",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "A suspicion of a smile",
+        "appeared at the corner of her mouth"
+      ],
+      "rationale": "The phrase “A suspicion of a smile” that “appeared at the corner of her mouth” denotes a barely perceptible trace of an expression, sense:004. It is not sense:003, a tentative belief that someone smiled, because the sentence presents a visible trace rather than a proposition being considered."
+    },
+    {
+      "example_id": "ex-f7a4533cef3c",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "greeted with some suspicion"
+      ],
+      "rationale": "The phrase “greeted with some suspicion” describes a wary, mistrustful attitude, sense:002. It does not state a particular tentative proposition as in sense:003, and it does not accuse a person of wrongdoing as in sense:001."
+    },
+    {
+      "example_id": "ex-3e2a729590ee",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "that the treasurer had committed fraud"
+      ],
+      "rationale": "The phrase “that the treasurer had committed fraud” identifies a particular person as having committed wrongdoing, so the suspicion is a person-directed allegation in sense:001. Although it is a that-clause, this differs from sense:003: the proposition specifically treats the treasurer as the alleged offender."
+    },
+    {
+      "example_id": "ex-6673d64fd465",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "the delay was caused by a technical problem"
+      ],
+      "rationale": "The phrase “the delay was caused by a technical problem” is the proposition the speaker tentatively believes, which is sense:003. It does not allege that a person committed an offense as in sense:001, nor does the sentence express distrust of an information source as in sense:002."
+    },
+    {
+      "example_id": "ex-711c9be0fe2d",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "arrested on suspicion of fraud"
+      ],
+      "rationale": "The phrase “arrested on suspicion of fraud” identifies the people as suspected of committing an offense, sense:001. This is a criminal allegation, unlike sense:003’s tentative belief about a proposition that does not cast a person as a wrongdoer."
+    },
+    {
+      "example_id": "ex-b36a63140789",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "a suspicion of citrus",
+        "made it taste fresher"
+      ],
+      "rationale": "The phrase “a suspicion of citrus” that “made it taste fresher” describes a slight trace of flavor, sense:004. It is not sense:003, because citrus is presented as a small sensory quality rather than as a proposition whose truth is uncertain."
+    },
+    {
+      "example_id": "ex-703df1820255",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "came under suspicion"
+      ],
+      "rationale": "The phrase “came under suspicion” places the employee in the role of a possible perpetrator, sense:001. Sense:002 would be general mistrust of the employee’s reliability; this construction instead marks the person as suspected of wrongdoing."
+    },
+    {
+      "example_id": "ex-38ece9c9bad6",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "confirmed her suspicion that the battery was failing"
+      ],
+      "rationale": "The phrase “confirmed her suspicion that the battery was failing” concerns a tentative proposition about the battery’s condition, sense:003. It does not accuse a person of wrongdoing as in sense:001, or express generalized mistrust as in sense:002."
+    },
+    {
+      "example_id": "ex-66342a6a5835",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "a suspicion of disappointment in his voice"
+      ],
+      "rationale": "The phrase “a suspicion of disappointment in his voice” means a faint trace of an emotion apparent in the voice, sense:004. It differs from sense:003: the wording presents a slight perceptible quality, not a tentative belief about whether a proposition is true."
+    },
+    {
+      "example_id": "ex-3b391b190f2d",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "remained under suspicion"
+      ],
+      "rationale": "The phrase “remained under suspicion” gives the contractor continuing status as a possible wrongdoer, sense:001. Sense:002 would only convey general mistrust of the contractor’s trustworthiness; this construction means the person remains suspected of wrongdoing."
+    },
+    {
+      "example_id": "ex-58250159cf7a",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "a guard had stolen the missing laptops"
+      ],
+      "rationale": "The phrase “a guard had stolen the missing laptops” identifies a particular person as the perpetrator of wrongdoing, so the manager’s suspicions are sense:001. This is more specific than sense:003’s uncertain proposition: the guard is directly suspected of committing the theft."
+    },
+    {
+      "example_id": "ex-42cf1597e55a",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "reliability of the company's explanation"
+      ],
+      "rationale": "The phrase “reliability of the company's explanation” makes trustworthiness of information the object of doubt, sense:002. Unlike sense:001, it does not accuse a person of committing an offense; it expresses mistrust of the explanation’s credibility."
+    },
+    {
+      "example_id": "ex-68c0aa431b5b",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "everyone already knew the answer"
+      ],
+      "rationale": "The phrase “everyone already knew the answer” is the proposition behind a tentative hunch, sense:003. It does not express mistrust of the answer’s reliability as in sense:002, and it does not allege wrongdoing by a particular person as in sense:001."
+    },
+    {
+      "example_id": "ex-733171bde527",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "viewed the sudden policy change with suspicion"
+      ],
+      "rationale": "The phrase “viewed the sudden policy change with suspicion” describes a wary, distrustful attitude, sense:002. It does not supply a specific proposition as a tentative belief in sense:003, or cast a person as a wrongdoer in sense:001."
+    },
+    {
+      "example_id": "ex-13fd09516339",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "white with a suspicion of blue"
+      ],
+      "rationale": "The phrase “white with a suspicion of blue” describes a barely perceptible color tint, sense:004. It is not sense:003 because the blue is presented as a faint sensory quality rather than a doubtful proposition."
+    }
+  ]
+}

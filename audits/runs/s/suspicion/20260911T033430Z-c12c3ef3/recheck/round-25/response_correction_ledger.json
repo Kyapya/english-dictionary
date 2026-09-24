@@ -1,0 +1,31 @@
+{
+  "schema_version": "review_response_correction_ledger_v1",
+  "round": 25,
+  "corrections": [
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-25/responses/frame-relation.stage1.response.raw.json",
+      "sha256": "1ce3671f0d0cbd890ce9008ff255dd7bbd6168e345c6beaf2f4e37a991fa4325",
+      "disposition": "contract_invalid",
+      "detail": "Initial blind_request_sha256 did not equal the canonical exact request digest; the same reviewer supplied a separate correction changing only that hash. The axes array remains unchanged."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-25/responses/frame-relation.stage1.response.contract_corrected.raw.json",
+      "sha256": "1315668419f27711076478019847848ebf80b1c32bbc879320dd7152e144a72e",
+      "disposition": "accepted",
+      "detail": "Separate same-reviewer contract correction validated against the exact request, identity, schema, chronology, and liveness; initial bytes remain preserved."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-25/responses/example-attribution.stage1.response.raw.json",
+      "sha256": "8549ee87b8d60e33504f1414468afe373b3db37c68f55e528007da2ba333c027",
+      "disposition": "contract_invalid",
+      "detail": "Initial response used judgment/best_sense_id rather than classification/candidate_sense_ids and its request hash did not bind the canonical request; same reviewer supplied a separate contract correction preserving all 16 judgments and rationales while adding exact discriminating terms for liveness."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-25/responses/example-attribution.stage1.response.contract_corrected.raw.json",
+      "sha256": "6ab64973121496040256c5b49b5c8b9e202da5b5b4104bec0d9ef43157efb87a",
+      "disposition": "accepted",
+      "detail": "Separate same-reviewer contract correction validated against the exact request, identity, schema, chronology, and liveness; initial bytes remain preserved."
+    }
+  ],
+  "recorded_at": "2026-09-24T15:57:04.461654+00:00"
+}

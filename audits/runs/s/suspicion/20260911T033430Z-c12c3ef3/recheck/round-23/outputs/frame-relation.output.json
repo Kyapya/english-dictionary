@@ -1,0 +1,56 @@
+{
+  "pass_id": "frame-relation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "GPT-6",
+    "ingested_by": "orchestrator",
+    "agent_id": "r23-frame-relation-stage1-5178b4b7-b353-444b-98e2-d823f2c8f483",
+    "source_response": {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-23/responses/source_responses/d3ab21aa51efdb8c17b8bcd0c5d57b288f3bcf753807598dcf3495d540638c43.json",
+      "sha256": "d3ab21aa51efdb8c17b8bcd0c5d57b288f3bcf753807598dcf3495d540638c43"
+    }
+  },
+  "antonym_axis_blind_record": {
+    "schema_version": "antonym_axis_blind_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "b34f7da3691330b05a3a8a1aaf894599ec4d16d118e331f84a1dc41bcfca5677",
+    "blind_request_sha256": "889fe53611174ac33c59ab30f79ff209a33b064d0745236108911d5b2c99b142",
+    "recorded_at": "2026-09-24T14:22:08Z",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "GPT-6",
+      "ingested_by": "orchestrator",
+      "agent_id": "r23-frame-relation-stage1-5178b4b7-b353-444b-98e2-d823f2c8f483",
+      "source_response": {
+        "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-23/responses/source_responses/d08447fd675a223573152f23c7d0dcbf36879690108e6520be24bcd1198889c4.json",
+        "sha256": "d08447fd675a223573152f23c7d0dcbf36879690108e6520be24bcd1198889c4"
+      }
+    },
+    "axes": []
+  },
+  "antonym_axis_adjudication_record": {
+    "schema_version": "antonym_axis_adjudication_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "b34f7da3691330b05a3a8a1aaf894599ec4d16d118e331f84a1dc41bcfca5677",
+    "stage2_request_sha256": "bfe92111c37093a660e87629d2a27f7763c35d01228f4a802c7cf848fcdc2751",
+    "blind_record_sha256": "f136bda3fa061b58b4c3b600e052df3773731427a7d657e96251e249b29e6c15",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "GPT-6",
+      "ingested_by": "orchestrator",
+      "agent_id": "r23-frame-relation-stage1-5178b4b7-b353-444b-98e2-d823f2c8f483",
+      "source_response": {
+        "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-23/responses/source_responses/d3ab21aa51efdb8c17b8bcd0c5d57b288f3bcf753807598dcf3495d540638c43.json",
+        "sha256": "d3ab21aa51efdb8c17b8bcd0c5d57b288f3bcf753807598dcf3495d540638c43"
+      }
+    },
+    "adjudications": [],
+    "frame_findings": [],
+    "unrouted_observations": []
+  },
+  "aligned_at": "2026-09-24T14:27:36.291362+00:00",
+  "findings": [],
+  "unrouted_observations": [],
+  "schema_version": "check_pass_result_v6",
+  "status": "pass"
+}

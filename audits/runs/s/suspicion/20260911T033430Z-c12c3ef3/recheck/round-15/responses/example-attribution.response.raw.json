@@ -1,0 +1,219 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "GPT-6",
+    "ingested_by": "human",
+    "agent_id": "/root/suspicion_r15_example_attribution"
+  },
+  "recorded_at": "2026-09-24T11:35:10Z",
+  "input_body_sha256": "f0ae54c4d407ab7c669d3cfdb9334d176f780d8bcf4ab662c289c3ea09fbc70a",
+  "normalized_input_sha256": "fbe3d713238765bdb6f56df9a88319de0e5e50b1419f6fe601ccc91f0ea0619b",
+  "blind_attributions": [
+    {
+      "example_id": "ex-4c95cd962763",
+      "judgment": "unique",
+      "best_sense_id": "sense:001",
+      "candidate_sense_ids": ["sense:001"],
+      "next_candidate": {
+        "sense_id": "sense:002",
+        "status": "ruled_out"
+      },
+      "discriminating_terms": ["aroused suspicion of fraud"],
+      "rationale": "「of fraud」は犯罪行為の可能性を特定し、一般に信頼しない態度（sense:002）ではなく不正の容疑を表す。"
+    },
+    {
+      "example_id": "ex-99f3549921a3",
+      "judgment": "unique",
+      "best_sense_id": "sense:004",
+      "candidate_sense_ids": ["sense:004"],
+      "next_candidate": {
+        "sense_id": "sense:003",
+        "status": "ruled_out"
+      },
+      "discriminating_terms": ["white with a suspicion of blue"],
+      "rationale": "「with a suspicion of blue」は壁にごく薄い青みがあるという色の程度を表す。青があるという推測を述べる構文ではないため、sense:003 ではない。"
+    },
+    {
+      "example_id": "ex-6d02618f778c",
+      "judgment": "unique",
+      "best_sense_id": "sense:002",
+      "candidate_sense_ids": ["sense:002"],
+      "next_candidate": {
+        "sense_id": "sense:003",
+        "status": "ruled_out"
+      },
+      "discriminating_terms": ["greeted with some suspicion"],
+      "rationale": "「greeted with some suspicion」はシステムを不信・警戒の態度で受け止めたことを表す。特定の命題についての推測（sense:003）を述べる内容節や命題がなく、態度の対象はシステム自体である。"
+    },
+    {
+      "example_id": "ex-5238d9f4cf8f",
+      "judgment": "unique",
+      "best_sense_id": "sense:001",
+      "candidate_sense_ids": ["sense:001"],
+      "next_candidate": {
+        "sense_id": "sense:002",
+        "status": "ruled_out"
+      },
+      "discriminating_terms": ["arrested on suspicion of fraud"],
+      "rationale": "「on suspicion of fraud」は逮捕の根拠となる特定の犯罪容疑を示す定型構文で、一般的な不信（sense:002）ではない。"
+    },
+    {
+      "example_id": "ex-f67f0a80f8e9",
+      "judgment": "unique",
+      "best_sense_id": "sense:004",
+      "candidate_sense_ids": ["sense:004"],
+      "next_candidate": {
+        "sense_id": "sense:003",
+        "status": "ruled_out"
+      },
+      "discriminating_terms": ["a suspicion of a smile appeared"],
+      "rationale": "「a suspicion of a smile」が口元に現れるという結果表現は、笑みのごくかすかな兆しを指す。命題への確証のない推測（sense:003）ではない。"
+    },
+    {
+      "example_id": "ex-e07f146d9b04",
+      "judgment": "unique",
+      "best_sense_id": "sense:003",
+      "candidate_sense_ids": ["sense:003"],
+      "next_candidate": {
+        "sense_id": "sense:002",
+        "status": "ruled_out"
+      },
+      "discriminating_terms": ["a sneaking suspicion that everyone already knew the answer"],
+      "rationale": "「suspicion that everyone already knew the answer」は真偽を推測する内容節を伴う。特定の相手を信用しない態度（sense:002）ではなく、答えを皆が知っていたという命題への予感である。"
+    },
+    {
+      "example_id": "ex-b22e8bf1165c",
+      "judgment": "unique",
+      "best_sense_id": "sense:002",
+      "candidate_sense_ids": ["sense:002"],
+      "next_candidate": {
+        "sense_id": "sense:003",
+        "status": "ruled_out"
+      },
+      "discriminating_terms": ["viewed the sudden policy change with suspicion"],
+      "rationale": "「viewed ... with suspicion」は方針変更を不信・警戒の対象として見る態度を表す。方針についての特定の推測を述べる構文ではなく、また犯罪容疑を表す語法でもない。"
+    },
+    {
+      "example_id": "ex-0e02165246f1",
+      "judgment": "unique",
+      "best_sense_id": "sense:004",
+      "candidate_sense_ids": ["sense:004"],
+      "next_candidate": {
+        "sense_id": "sense:003",
+        "status": "ruled_out"
+      },
+      "discriminating_terms": ["a suspicion of disappointment in his voice"],
+      "rationale": "「in his voice」は失望が声にごくわずかに表れていることを示す。失望しているという事実の推測（sense:003）ではなく、感情のかすかな気配（sense:004）である。"
+    },
+    {
+      "example_id": "ex-3014dc36e1a6",
+      "judgment": "unique",
+      "best_sense_id": "sense:003",
+      "candidate_sense_ids": ["sense:003"],
+      "next_candidate": {
+        "sense_id": "sense:002",
+        "status": "ruled_out"
+      },
+      "discriminating_terms": ["a suspicion that the meeting will finish earlier than planned"],
+      "rationale": "「suspicion that ...」が会議の終了時刻についての命題を補語に取る。人や情報への不信（sense:002）ではなく、予定より早く終わるという未確証の推測である。"
+    },
+    {
+      "example_id": "ex-afff08d9cc21",
+      "judgment": "unique",
+      "best_sense_id": "sense:003",
+      "candidate_sense_ids": ["sense:003"],
+      "next_candidate": {
+        "sense_id": "sense:002",
+        "status": "ruled_out"
+      },
+      "discriminating_terms": ["confirmed her suspicion that the battery was failing"],
+      "rationale": "「confirmed ... suspicion that ...」はバッテリーが劣化中という命題を確認する構文である。バッテリーや情報への不信（sense:002）ではなく、事実についての推測（sense:003）である。"
+    },
+    {
+      "example_id": "ex-4428aa9df597",
+      "judgment": "unique",
+      "best_sense_id": "sense:001",
+      "candidate_sense_ids": ["sense:001"],
+      "next_candidate": {
+        "sense_id": "sense:002",
+        "status": "ruled_out"
+      },
+      "discriminating_terms": ["cast suspicion on the clerk"],
+      "rationale": "「cast suspicion on the clerk」は人物を不正の関与が疑われる対象として位置づける用法である。一般的に信用しない態度（sense:002）ではなく、時刻表示の改変に対する責任を疑う構造になっている。"
+    },
+    {
+      "example_id": "ex-06a95f66aacb",
+      "judgment": "unique",
+      "best_sense_id": "sense:002",
+      "candidate_sense_ids": ["sense:002"],
+      "next_candidate": {
+        "sense_id": "sense:003",
+        "status": "ruled_out"
+      },
+      "discriminating_terms": ["cast suspicion on the reliability"],
+      "rationale": "「on the reliability」は説明の信頼性・信用性を疑う対象を明示し、不信の態度（sense:002）を表す。説明が誤りだという特定命題を推測する構文（sense:003）とは異なる。"
+    },
+    {
+      "example_id": "ex-a5e3d18f7090",
+      "judgment": "unique",
+      "best_sense_id": "sense:001",
+      "candidate_sense_ids": ["sense:001"],
+      "next_candidate": {
+        "sense_id": "sense:003",
+        "status": "ruled_out"
+      },
+      "discriminating_terms": ["confirmed the manager's suspicions that a guard had taken the missing laptops"],
+      "rationale": "that節の内容が警備員によるノートパソコンの持ち去りという犯罪行為を明示する。「confirmed」は推測という形も取れるが、非不正の事実についての推測（sense:003）ではなく、盗難の容疑を裏付ける意味である。"
+    },
+    {
+      "example_id": "ex-7cd875a502af",
+      "judgment": "unique",
+      "best_sense_id": "sense:004",
+      "candidate_sense_ids": ["sense:004"],
+      "next_candidate": {
+        "sense_id": "sense:003",
+        "status": "ruled_out"
+      },
+      "discriminating_terms": ["a suspicion of citrus", "made it taste fresher"],
+      "rationale": "「a suspicion of citrus」はソースの味に柑橘がごくかすかに感じられることを表し、「made it taste fresher」が味の性質として機能することを示す。柑橘が含まれるという推測（sense:003）ではない。"
+    },
+    {
+      "example_id": "ex-869128e0af44",
+      "judgment": "unique",
+      "best_sense_id": "sense:001",
+      "candidate_sense_ids": ["sense:001"],
+      "next_candidate": {
+        "sense_id": "sense:002",
+        "status": "ruled_out"
+      },
+      "discriminating_terms": ["came under suspicion"],
+      "rationale": "「came under suspicion」は従業員が疑いをかけられる対象になったことを表す人対象の構文で、一般的な不信（sense:002）より、不明な請求書の消失に関与したという不正の容疑（sense:001）として自然である。"
+    },
+    {
+      "example_id": "ex-07c10d29e78a",
+      "judgment": "unique",
+      "best_sense_id": "sense:001",
+      "candidate_sense_ids": ["sense:001"],
+      "next_candidate": {
+        "sense_id": "sense:002",
+        "status": "ruled_out"
+      },
+      "discriminating_terms": ["remained under suspicion"],
+      "rationale": "「remained under suspicion」は請負業者が何らかの不正の容疑対象であり続けたという人対象の構文である。信用しない態度（sense:002）を述べるのであれば通常その対象への mistrust を示す語法になり、この構文と記録確認までという枠組みは容疑の状態を表す。"
+    },
+    {
+      "example_id": "ex-15e542343053",
+      "judgment": "unique",
+      "best_sense_id": "sense:003",
+      "candidate_sense_ids": ["sense:003"],
+      "next_candidate": {
+        "sense_id": "sense:002",
+        "status": "ruled_out"
+      },
+      "discriminating_terms": ["a strong suspicion that the delay was caused by a technical problem"],
+      "rationale": "「suspicion that ...」が遅延の原因についての命題を補語に取る。信頼性への不信（sense:002）ではなく、技術的問題が原因だという確証のない推測である。"
+    }
+  ]
+}

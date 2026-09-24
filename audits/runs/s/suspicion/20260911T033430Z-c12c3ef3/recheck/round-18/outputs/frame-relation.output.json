@@ -1,0 +1,55 @@
+{
+  "schema_version": "check_pass_result_v6",
+  "pass_id": "frame-relation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "GPT-6",
+    "ingested_by": "orchestrator",
+    "agent_id": "agent-frame-relation-stage1-20260924-7fa8c03e",
+    "source_response": {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-18/responses/source_responses/2316eb32dd1f44aacaacf64f2dd30910b19356224d68f579550ba1d7c41d3b51.json",
+      "sha256": "2316eb32dd1f44aacaacf64f2dd30910b19356224d68f579550ba1d7c41d3b51"
+    }
+  },
+  "antonym_axis_blind_record": {
+    "schema_version": "antonym_axis_blind_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "22115ff16b934a7bee72be158df65dd1569ca9a64c670adb9cd408a03b504ebd",
+    "blind_request_sha256": "24f231017451fa0022fa0dc93b4e7e73c1cb93e3366b6d4adfc04bce6ee3d87d",
+    "recorded_at": "2026-09-24T12:50:34Z",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "GPT-6",
+      "ingested_by": "orchestrator",
+      "agent_id": "agent-frame-relation-stage1-20260924-7fa8c03e",
+      "source_response": {
+        "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-18/responses/source_responses/ebce235a57058930bfb75b2b307d4c792bbe2a307d0e919e013e7b0802a8cf4f.json",
+        "sha256": "ebce235a57058930bfb75b2b307d4c792bbe2a307d0e919e013e7b0802a8cf4f"
+      }
+    },
+    "axes": []
+  },
+  "antonym_axis_adjudication_record": {
+    "schema_version": "antonym_axis_adjudication_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "22115ff16b934a7bee72be158df65dd1569ca9a64c670adb9cd408a03b504ebd",
+    "stage2_request_sha256": "ff3a9ad15609897420bdedffa160a754629b7676b5e5dca269e7cbfde09baf09",
+    "blind_record_sha256": "dfd540bfab1d9d7c5fc0682a3233c8a4fe31d22daae25c1c7cb22b0060dcd541",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "GPT-6",
+      "ingested_by": "orchestrator",
+      "agent_id": "agent-frame-relation-stage1-20260924-7fa8c03e",
+      "source_response": {
+        "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-18/responses/source_responses/2316eb32dd1f44aacaacf64f2dd30910b19356224d68f579550ba1d7c41d3b51.json",
+        "sha256": "2316eb32dd1f44aacaacf64f2dd30910b19356224d68f579550ba1d7c41d3b51"
+      }
+    },
+    "adjudications": [],
+    "frame_findings": [],
+    "unrouted_observations": []
+  },
+  "aligned_at": "2026-09-24T12:58:18.036987Z",
+  "findings": [],
+  "unrouted_observations": []
+}

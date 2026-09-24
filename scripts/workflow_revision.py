@@ -211,6 +211,23 @@ def _sense_topology(snapshot: dict[str, list[str]]) -> list[tuple[str, str, str]
             if (match := re.match(r"^(\d+)[.．、]?\s*【([^】]+)】(.*)$", line))]
 
 
+def _lexical_frequency_only(before: list[str], after: list[str]) -> bool:
+    """Recognize numeric score replacements only; never infer a semantic equivalence."""
+    if not before or len(before) != len(after):
+        return False
+    changed = False
+    for old, new in zip(before, after):
+        if old == new:
+            continue
+        # Preserve the owning sense and require the entire labelled numeric slot.
+        pattern = r"^(.*\0頻度[:：]\s*)〈(?:10|[1-9])/10〉\s*$"
+        left, right = re.fullmatch(pattern, old), re.fullmatch(pattern, new)
+        if not left or not right or left.group(1) != right.group(1):
+            return False
+        changed = True
+    return changed
+
+
 def plan_rechecks(before_text: str, after_text: str) -> dict[str, Any]:
     before_body = _body(before_text)
     after_body = _body(after_text)
@@ -224,14 +241,20 @@ def plan_rechecks(before_text: str, after_text: str) -> dict[str, Any]:
     # Unknown or structural edits still fail closed to the entire checker set.
     full = unknown_changed or sense_topology_changed
     invalidated = set(ALL_CHECKER_PASSES) if full else set()
+    changed_facets: list[str] = []
     if not full:
         for unit in changed:
-            invalidated.update(UNIT_TO_PASSES[unit])
+            if unit == "lexical_relations" and _lexical_frequency_only(before[unit], after[unit]):
+                invalidated.update(UNIT_TO_PASSES["frequency_register"])
+                changed_facets.append("lexical_relations.frequency_score")
+            else:
+                invalidated.update(UNIT_TO_PASSES[unit])
     return {
         "schema_version": SCHEMA_VERSION,
         "before_body_sha256": hashlib.sha256(before_body.encode("utf-8")).hexdigest(),
         "after_body_sha256": hashlib.sha256(after_body.encode("utf-8")).hexdigest(),
         "changed_units": changed or (["unclassified"] if unknown_changed else []),
+        "changed_facets": changed_facets,
         "full_recheck": full,
         "fallback_reasons": [
             reason

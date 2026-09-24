@@ -1,0 +1,250 @@
+{
+  "reviewer": {
+    "agent_id": "/root/suspicion_final_blind_latest",
+    "declared_model": "gpt-6-astra",
+    "mode": "handoff"
+  },
+  "provisional_decision": "reject",
+  "independent_candidates": [
+    {
+      "id": "n_offense_suspicion",
+      "surface_form": "suspicion",
+      "frame": "suspicion of 〈crime/wrongdoing〉; on suspicion of 〈crime〉; be under suspicion; come/fall under suspicion",
+      "meaning": "容疑、犯罪・不正をしたのではないかという疑い",
+      "disposition": "included",
+      "rationale": "The frame “suspicion of 〈crime/wrongdoing〉” denotes an unproven possibility of a particular person's crime or misconduct and can also name the state of being suspected; the entry distinguishes that from an allegation and allows count and mass uses according to construction.",
+      "semantic_assertions": [
+        {
+          "id": "n_offense_suspicion_a1",
+          "statement": "The suspicion concerns a possible crime, dishonesty, or other misconduct, rather than merely a general lack of trust or a neutral inference.",
+          "polarity": "must_hold",
+          "scope": "offense-centered noun sense"
+        },
+        {
+          "id": "n_offense_suspicion_a2",
+          "statement": "A suspicion is not itself an accusation or allegation asserting that wrongdoing occurred.",
+          "polarity": "must_hold",
+          "scope": "offense-centered noun sense"
+        },
+        {
+          "id": "n_offense_suspicion_a3",
+          "statement": "Countability is construction-sensitive: individual suspicions may be countable, while the state may be uncountable and the fixed phrase on suspicion of 〈crime〉 is uncountable.",
+          "polarity": "must_hold",
+          "scope": "noun syntax"
+        }
+      ]
+    },
+    {
+      "id": "n_cause_offense_suspicion",
+      "surface_form": "suspicion",
+      "frame": "arouse/raise suspicion of 〈crime/wrongdoing〉",
+      "meaning": "行動・説明・状況が犯罪・不正の疑いを生じさせること",
+      "disposition": "included",
+      "rationale": "The exact frame “arouse/raise suspicion＝疑いを招く” is represented with a fraud example, so the included offense-centered candidate is the causal event that gives rise to a suspicion of wrongdoing.",
+      "semantic_assertions": [
+        {
+          "id": "n_cause_offense_suspicion_a1",
+          "statement": "The subject or evidence causes an observer to entertain a possibility of crime or wrongdoing; it does not mean that the subject has been proved guilty.",
+          "polarity": "must_hold",
+          "scope": "causative collocation"
+        }
+      ]
+    },
+    {
+      "id": "n_suspicion_that_offense",
+      "surface_form": "suspicion",
+      "frame": "suspicion that 〈節〉; confirm suspicions that 〈節〉, with the clause alleging crime or wrongdoing",
+      "meaning": "犯罪・不正が行われたのではないかという疑い",
+      "disposition": "included",
+      "rationale": "The exact frame “confirm suspicions that 〈節〉” has a crime-related example about a guard taking laptops; in this candidate the complement must supply that offense-centered content.",
+      "semantic_assertions": [
+        {
+          "id": "n_suspicion_that_offense_a1",
+          "statement": "The clause is the content of an unproven suspicion about crime or wrongdoing, not a neutral prediction or general fact inference.",
+          "polarity": "must_hold",
+          "scope": "that-clause complement in offense-centered use"
+        }
+      ]
+    },
+    {
+      "id": "n_suspect_person_action",
+      "surface_form": "suspicion",
+      "frame": "suspicions about 〈person/behavior〉; cast suspicion on 〈person/action〉 when wrongdoing is suspected",
+      "meaning": "人や行為に犯罪・不正の疑いを向けること",
+      "disposition": "included",
+      "rationale": "The frame “suspicions about 〈person/behavior〉” belongs to the offense-centered candidate only when the person or behavior is suspected of wrongdoing; the target is the person or action under suspicion.",
+      "semantic_assertions": [
+        {
+          "id": "n_suspect_person_action_a1",
+          "statement": "The person or action is treated as a possible source or instance of wrongdoing, rather than simply as untrustworthy or doubtful.",
+          "polarity": "must_hold",
+          "scope": "target of offense-centered suspicion"
+        }
+      ]
+    },
+    {
+      "id": "n_general_distrust",
+      "surface_form": "suspicion",
+      "frame": "regard/view 〈person/claim/proposal/action/decision〉 with suspicion; 〈offer/proposal〉 be greeted with (some) suspicion",
+      "meaning": "不信、警戒を伴う疑念",
+      "disposition": "included",
+      "rationale": "The frame “regard/view 〈person/claim/proposal/action/decision〉 with suspicion” expresses a wary lack of trust that does not require a specific suspected crime.",
+      "semantic_assertions": [
+        {
+          "id": "n_general_distrust_a1",
+          "statement": "The meaning is a distrustful or wary attitude toward the person, information, motive, proposal, or decision; a particular offense need not be posited.",
+          "polarity": "must_hold",
+          "scope": "general-distrust noun sense"
+        },
+        {
+          "id": "n_general_distrust_a2",
+          "statement": "The attitude does not assert that the target is guilty of a crime.",
+          "polarity": "must_hold",
+          "scope": "general-distrust noun sense"
+        }
+      ]
+    },
+    {
+      "id": "n_cast_doubt_claim",
+      "surface_form": "suspicion",
+      "frame": "cast suspicion on 〈claim/property〉 when doubting its truth or reliability",
+      "meaning": "主張や性質の真実性・信頼性を疑わしいものとして扱うこと",
+      "disposition": "included",
+      "rationale": "The entry includes “cast suspicion on 〈person/action/claim/property〉” under the offense-centered sense, but casting suspicion on a claim or property can instead mean doubting its truth or reliability, matching the entry's separate general-distrust sense.",
+      "semantic_assertions": [
+        {
+          "id": "n_cast_doubt_claim_a1",
+          "statement": "When the target is a claim or quality and no wrongdoing is alleged, suspicion concerns its credibility or reliability, not a person's criminal guilt.",
+          "polarity": "must_hold",
+          "scope": "cast-suspicion-on frame with claim or property target"
+        }
+      ]
+    },
+    {
+      "id": "n_neutral_inference",
+      "surface_form": "suspicion",
+      "frame": "a suspicion that 〈節〉; have a suspicion that 〈節〉; a sneaking suspicion that 〈節〉; a strong suspicion that 〈節〉, for a non-criminal fact or situation",
+      "meaning": "～ではないかという気、確証のない推測",
+      "disposition": "included",
+      "rationale": "The frame “have a suspicion that 〈clause〉” is presented with a meeting-time prediction; this candidate is a tentative inference about a fact or situation and is split from a suspicion of crime.",
+      "semantic_assertions": [
+        {
+          "id": "n_neutral_inference_a1",
+          "statement": "The proposition is entertained tentatively as possibly true; it need not concern crime, wrongdoing, an accusation, or distrust of a person.",
+          "polarity": "must_hold",
+          "scope": "non-criminal that-clause noun sense"
+        },
+        {
+          "id": "n_neutral_inference_a2",
+          "statement": "The content may be neutral or favorable as well as unfavorable.",
+          "polarity": "must_hold",
+          "scope": "non-criminal that-clause noun sense"
+        }
+      ]
+    },
+    {
+      "id": "n_confirm_neutral_inference",
+      "surface_form": "suspicion",
+      "frame": "confirm a suspicion that 〈節〉 when the clause describes a non-criminal fact or situation",
+      "meaning": "犯罪・不正を前提としない推測を後の情報が裏付けること",
+      "disposition": "included",
+      "rationale": "The example “The test results confirmed her suspicion that the battery was failing.” uses confirmation of a neutral factual inference, not confirmation of a criminal suspicion.",
+      "semantic_assertions": [
+        {
+          "id": "n_confirm_neutral_inference_a1",
+          "statement": "The later information supports a tentative proposition about a non-criminal fact or situation.",
+          "polarity": "must_hold",
+          "scope": "confirm + suspicion with non-criminal complement"
+        }
+      ]
+    },
+    {
+      "id": "n_faint_trace",
+      "surface_form": "suspicion",
+      "frame": "a suspicion of 〈color/flavor/smell/emotion〉; a suspicion of a smile",
+      "meaning": "ほんの少し、かすかな気配",
+      "disposition": "included",
+      "rationale": "The frame “a suspicion of 〈color〉” denotes a barely perceptible presence or trace of a sensory quality, not the act of doubting it.",
+      "semantic_assertions": [
+        {
+          "id": "n_faint_trace_a1",
+          "statement": "The complement names a quality or manifestation present in a very small or faint degree.",
+          "polarity": "must_hold",
+          "scope": "figurative faint-quantity noun sense"
+        },
+        {
+          "id": "n_faint_trace_a2",
+          "statement": "This frame does not mean that the speaker doubts whether the complement exists.",
+          "polarity": "must_not_hold",
+          "scope": "figurative faint-quantity noun sense"
+        }
+      ]
+    },
+    {
+      "id": "v_suspicion",
+      "surface_form": "suspicion",
+      "frame": "suspicion used as a verb",
+      "meaning": "疑う、疑わしいと思うという方言的・口語的な動詞用法",
+      "disposition": "excluded",
+      "rationale": "The exact phrase “動詞 suspicion” identifies a distinct verbal conversion; the article explicitly limits its explanations to the noun, so excluding this candidate from the noun senses is supported.",
+      "semantic_assertions": [
+        {
+          "id": "v_suspicion_a1",
+          "statement": "The verb is a distinct part-of-speech use and is outside an article explicitly limited to the noun.",
+          "polarity": "must_hold",
+          "scope": "lexical part-of-speech inventory"
+        }
+      ]
+    }
+  ],
+  "article_findings": [
+    {
+      "id": "f_cast_suspicion_claim_boundary",
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "意味・用法・関連表現 1 > 文法パターン",
+        "line_start": 35,
+        "line_end": 35,
+        "exact_quote": "cast suspicion on 〈person/action/claim/property〉＝〈人・行為・主張・性質〉に疑いを向ける"
+      },
+      "severity": "blocking",
+      "scope_anchors": [
+        {
+          "id": "f_cast_suspicion_claim_anchor1",
+          "exact_quote": "cast suspicion on 〈person/action/claim/property〉＝〈人・行為・主張・性質〉に疑いを向ける",
+          "location_hint": "意味・用法・関連表現 1 > 文法パターン"
+        },
+        {
+          "id": "f_cast_suspicion_claim_anchor2",
+          "exact_quote": "人、組織、動機、考えなどの真実性や信頼性を確信できず、すぐには信用しない態度を表す。",
+          "location_hint": "意味・用法・関連表現 2 > 日本語訳・定義"
+        }
+      ],
+      "rationale": "The frame “cast suspicion on 〈person/action/claim/property〉＝〈人・行為・主張・性質〉に疑いを向ける” is placed under sense 1, whose definition is limited to suspected crime or misconduct. For a claim or property, the frame can naturally mean doubting truth or reliability without alleging wrongdoing, which is the distinct general-distrust boundary described by “人、組織、動機、考えなどの真実性や信頼性を確信できず、すぐには信用しない態度を表す。” The claim/property targets should be separated or scoped to the intended sense."
+    },
+    {
+      "id": "f_suspicion_that_scope",
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "意味・用法・関連表現 1 > 文法パターン",
+        "line_start": 35,
+        "line_end": 35,
+        "exact_quote": "suspicion that 〈節〉＝～ではないかという疑い"
+      },
+      "severity": "minor",
+      "scope_anchors": [
+        {
+          "id": "f_suspicion_that_scope_anchor1",
+          "exact_quote": "suspicion that 〈節〉＝～ではないかという疑い",
+          "location_hint": "意味・用法・関連表現 1 > 文法パターン"
+        },
+        {
+          "id": "f_suspicion_that_scope_anchor2",
+          "exact_quote": "特定の人が犯罪・不正をしたという疑いではなく、犯罪・不正を前提としない事実や状況が本当なのではないかと、確証のないまま感じることを表す。",
+          "location_hint": "意味・用法・関連表現 3 > 日本語訳・定義"
+        }
+      ],
+      "rationale": "The unqualified frame “suspicion that 〈節〉＝～ではないかという疑い” is listed under the offense-centered sense, although the same frame naturally expresses a non-criminal inference as in sense 3. The examples distinguish these readings, but the generic pattern would be clearer if the offense-related complement boundary were stated."
+    }
+  ]
+}

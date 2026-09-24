@@ -64,6 +64,26 @@ def plan(root: Path, *, check_remote: bool = True, check_clean: bool = True,
     if not branch:
         raise ValueError("publication requires a branch")
     base = previous.get("local_head")
+    # A worktree can be opened at a branch head that was already published by
+    # another checkout and therefore has no local connector receipt yet. In
+    # that case, the connector-verified remote head is a safe base only when it
+    # is present locally and is an ancestor of the current HEAD. This avoids
+    # either replaying the whole PR history or accepting a divergent remote.
+    if not base and remote_head:
+        try:
+            candidate = git(root, "rev-parse", remote_head + "^{commit}")
+        except subprocess.CalledProcessError as exc:
+            raise ValueError("connector remote head is not available in the local commit graph") from exc
+        if candidate != remote_head:
+            raise ValueError("connector remote head must be a full local commit SHA")
+        ancestor = subprocess.run(
+            ["git", "-C", str(root), "merge-base", "--is-ancestor", remote_head, "HEAD"],
+            capture_output=True,
+            text=True,
+        )
+        if ancestor.returncode != 0:
+            raise ValueError("connector remote head is not an ancestor of local HEAD")
+        base = remote_head
     if not base and remote_base_tree:
         base = next(
             (
@@ -75,7 +95,7 @@ def plan(root: Path, *, check_remote: bool = True, check_clean: bool = True,
         if not base:
             raise ValueError("no local ancestor matches the connector remote base tree")
     base = base or git(root, "merge-base", "HEAD", "origin/main")
-    resolved_remote_base = previous.get("remote_head") or remote_base or base
+    resolved_remote_base = previous.get("remote_head") or remote_head or remote_base or base
     if remote_base_tree and remote_base_tree != git(root, "rev-parse", base + "^{tree}"):
         raise ValueError("remote base tree differs from the local publication base")
     if not check_remote:

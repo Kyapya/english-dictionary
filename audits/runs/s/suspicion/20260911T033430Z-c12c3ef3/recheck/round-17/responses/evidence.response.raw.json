@@ -1,0 +1,37 @@
+{
+  "pass_id": "evidence",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-6",
+    "ingested_by": "human",
+    "agent_id": "/root/suspicion_r17_evidence"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "pronunciation",
+        "line_start": 4,
+        "line_end": 4,
+        "exact_quote": "Oxford は米・英とも /səˈspɪʃn/ と表記する。Oxford Advanced Learner’s Dictionary（OALD10）の解説では、位置から分かる音節主音 /n/ は [n̩] のような補助記号を付けずに表す。このため /səˈspɪʃn/ の語末 /n/ が音節を担い、全体は3音節と読める。Merriam-Webster の音節別表記 sə-ˈspi-shən も3音節で、第2音節に主強勢を置く。語頭の su- は強く /suː/ と読まず、弱い /sə/ になる。"
+      },
+      "severity": "blocking",
+      "rationale": "insufficient_evidence: the handoff request and source_inventory.used.json are bound to input_body_sha256 8febacafb97a88eea7736ca28cadd2b6af2be331a29afa82589daccb7372d31f, but the current article file english-dictionary/entries/s/suspicion.md has a different SHA-256 after removing front matter (e0cdcd7c12ed6c212b99cc5c3f6aaa8025f839a1b1fb392bd5a98b62744f8426). The source inventory and source-first artifact hashes do match this request, but the article_targets cannot be verified as extracted from the current body. Per the prompt, body-hash mismatch requires fail-closed review; I did not open or treat any external locator as verified. This blocks all 11 claim units in this packet: claim_wrongdoing, claim_arrest_pattern, claim_that_belief, claim_distrust, claim_trace, claim_pronunciation, claim_word_family, claim_etymology, claim_legal_boundary, claim_under_suspicion, claim_rare_verb.",
+      "evidence_link_ids": [
+        "claim_wrongdoing",
+        "claim_arrest_pattern",
+        "claim_that_belief",
+        "claim_distrust",
+        "claim_trace",
+        "claim_pronunciation",
+        "claim_word_family",
+        "claim_etymology",
+        "claim_legal_boundary",
+        "claim_under_suspicion",
+        "claim_rare_verb"
+      ],
+      "suggested_direction": "hold; regenerate the evidence request and source-first artifact against the current article body, then rerun this pass"
+    }
+  ],
+  "unrouted_observations": []
+}

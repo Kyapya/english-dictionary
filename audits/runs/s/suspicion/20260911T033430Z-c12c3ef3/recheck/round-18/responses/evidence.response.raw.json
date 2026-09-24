@@ -1,0 +1,26 @@
+{
+  "pass_id": "evidence",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "GPT-6",
+    "ingested_by": "human",
+    "agent_id": "/root/suspicion_r18_evidence"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 33,
+        "line_end": 33,
+        "exact_quote": "一般名詞。辞書には on suspicion of ... を逮捕理由として用いる例がある。Merriam-Webster は法的な suspicion を、証明やわずかな証拠しかない段階で、何かが間違っている、またはある事実が存在すると考える、通常は信念に至らない心理状態として説明する。"
+      },
+      "severity": "blocking",
+      "rationale": "The linked House of Lords fact (ukhl_kebel_suspicion) includes the further claim that suspicion precedes prima facie proof, and claim_legal_boundary repeats that point. Neither linked article target (definition:001 or register:001) states that relation; the register target instead attributes the no-proof/slight-evidence, short-of-belief definition to Merriam-Webster. The House of Lords link therefore reaches beyond the supplied target text. Keep it only if the prima facie relation is stated at the target; otherwise remove that extra claim from this claim-unit association.",
+      "evidence_link_ids": [
+        "ukhl_kebel_suspicion"
+      ],
+      "suggested_direction": "Limit the claim unit to what definition:001/register:001 actually say, or add the prima facie-proof relation to the article and associate the House of Lords source with that text."
+    }
+  ]
+}

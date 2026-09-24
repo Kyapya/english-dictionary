@@ -1,0 +1,48 @@
+{
+  "schema_version": "workflow_revision_v1",
+  "before_body_sha256": "8febacafb97a88eea7736ca28cadd2b6af2be331a29afa82589daccb7372d31f",
+  "after_body_sha256": "22115ff16b934a7bee72be158df65dd1569ca9a64c670adb9cd408a03b504ebd",
+  "changed_units": [
+    "collocations_examples",
+    "core_image",
+    "frames",
+    "sense_structure",
+    "usage_notes"
+  ],
+  "changed_facets": [],
+  "full_recheck": true,
+  "fallback_reasons": [
+    "source_artifact_changed"
+  ],
+  "invalidated_passes": [
+    "evidence",
+    "example-attribution",
+    "frame-relation",
+    "pronunciation",
+    "qualification",
+    "sense-structure",
+    "translation"
+  ],
+  "reusable_passes": [],
+  "round": 18,
+  "source_inventory_sha256": "b81fe244c764f8293050b5eb65f6c1d40ee209800c88316b39f27b969a700a6b",
+  "source_artifact_sha256": "776daa0334bf140008a6fc56b0dd673a651dc4a3f85bfebd24a78f78fabd8085",
+  "input_body_sha256": "22115ff16b934a7bee72be158df65dd1569ca9a64c670adb9cd408a03b504ebd",
+  "recorded_at": "2026-09-24T12:49:12.287344Z",
+  "invalidation_reason": "The article boundary/example and source-first claim mapping changed after round17; every checker is regenerated against the updated source artifact.",
+  "request_paths": {
+    "translation": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-18/requests/translation.request.json",
+    "sense-structure": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-18/requests/sense-structure.request.json",
+    "frame-relation": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-18/requests/frame-relation.request.json",
+    "example-attribution": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-18/requests/example-attribution.request.json",
+    "qualification": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-18/requests/qualification.request.json",
+    "pronunciation": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-18/requests/pronunciation.request.json",
+    "evidence": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-18/requests/evidence.request.json"
+  },
+  "prior_round_findings_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-17/findings_and_actions.json",
+  "prior_round_findings_sha256": "6fc85049e88ee2994c6a495a0a105998c7de2cd289eab30bededa99369275334",
+  "source_inventory_revision_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/source_inventory_revision_round17.json",
+  "source_inventory_revision_sha256": "0d828e640ebdabda86dbc97bce3d9622c8498a771b48ec63f9486c98615f9edd",
+  "post_cold_rechecks_used": 5,
+  "final_attempts_used": 1
+}

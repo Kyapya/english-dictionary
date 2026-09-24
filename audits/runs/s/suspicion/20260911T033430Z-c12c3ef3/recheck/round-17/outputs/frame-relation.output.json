@@ -1,0 +1,55 @@
+{
+  "schema_version": "check_pass_result_v6",
+  "pass_id": "frame-relation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "GPT-6",
+    "ingested_by": "orchestrator",
+    "agent_id": "/root/suspicion_r17_frame_relation",
+    "source_response": {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-17/responses/source_responses/062cd93a89f3061a606be585d75fbf3b82d3ba7ae893faddbfdc360825a5a9fa.json",
+      "sha256": "062cd93a89f3061a606be585d75fbf3b82d3ba7ae893faddbfdc360825a5a9fa"
+    }
+  },
+  "antonym_axis_blind_record": {
+    "schema_version": "antonym_axis_blind_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "8febacafb97a88eea7736ca28cadd2b6af2be331a29afa82589daccb7372d31f",
+    "blind_request_sha256": "ba574d5657df440e0da448748e409acdc5566b8bd8c4131a9716ff35712aa1bb",
+    "recorded_at": "2026-09-24T12:25:13Z",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "GPT-6",
+      "ingested_by": "orchestrator",
+      "agent_id": "/root/suspicion_r17_frame_relation",
+      "source_response": {
+        "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-17/responses/source_responses/89bd83f6ba9b13c942e21e40404557c57c643be37679e6a2c8a3d7c24c6c76a4.json",
+        "sha256": "89bd83f6ba9b13c942e21e40404557c57c643be37679e6a2c8a3d7c24c6c76a4"
+      }
+    },
+    "axes": []
+  },
+  "antonym_axis_adjudication_record": {
+    "schema_version": "antonym_axis_adjudication_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "8febacafb97a88eea7736ca28cadd2b6af2be331a29afa82589daccb7372d31f",
+    "stage2_request_sha256": "7e97161742210645e590cc36090104c09d4a43f32f8b33481ea2eb07d73f31e5",
+    "blind_record_sha256": "5eec8c1b7146d89148915945b24b7968471335201672bcd192d1780f477ae3e0",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "GPT-6",
+      "ingested_by": "orchestrator",
+      "agent_id": "/root/suspicion_r17_frame_relation",
+      "source_response": {
+        "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-17/responses/source_responses/062cd93a89f3061a606be585d75fbf3b82d3ba7ae893faddbfdc360825a5a9fa.json",
+        "sha256": "062cd93a89f3061a606be585d75fbf3b82d3ba7ae893faddbfdc360825a5a9fa"
+      }
+    },
+    "adjudications": [],
+    "frame_findings": [],
+    "unrouted_observations": []
+  },
+  "aligned_at": "2026-09-24T12:43:12.243309Z",
+  "findings": [],
+  "unrouted_observations": []
+}

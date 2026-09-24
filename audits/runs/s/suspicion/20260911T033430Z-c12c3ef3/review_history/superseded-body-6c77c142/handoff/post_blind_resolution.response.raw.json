@@ -1,0 +1,63 @@
+{
+  "schema_version": "post_blind_resolution_v1",
+  "stage": "post_blind_resolution",
+  "run_id": "20260911T033430Z-c12c3ef3",
+  "context": "English-dictionary suspicion run; independent assessment of sealed final_blind article_findings against the reviewed candidate and source inventory.",
+  "reviewer": {
+    "identity": "/root/suspicion_postblind_resolution",
+    "model": "Codex (GPT-6; exact variant not exposed in this session)"
+  },
+  "input_hash": {
+    "candidate_sha256": "5941d8b3f294767001a5de86585eccaabb6d1d823003a02608611f03d6ace7a4",
+    "final_blind_sha256": "75d3e643311c95967364175fe94ab1ed1e6fcc64c3dddc7c49d03aabbc1b01b8",
+    "source_inventory_sha256": "8a8123662a065591d4c9680d2f1f6cc84deee2d301ea1232efa0bb340972db9a",
+    "blind_seal_sha256": "db3c852aa907eec02630084d7322dcdbf85bac32ccbd0319e203c57fb0d55c22"
+  },
+  "prompt_hash": "7dfcaa0a828a334dbb84d1d31ed97312d0a9661a7aca70a7815a9f88b31ea2f1",
+  "input_artifacts": [
+    {
+      "path": "english-dictionary/prompts/post_blind_resolution_v1.md",
+      "sha256": "7dfcaa0a828a334dbb84d1d31ed97312d0a9661a7aca70a7815a9f88b31ea2f1"
+    },
+    {
+      "path": "english-dictionary/audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/candidate/pre_blind_revision_entry.md",
+      "sha256": "5941d8b3f294767001a5de86585eccaabb6d1d823003a02608611f03d6ace7a4"
+    },
+    {
+      "path": "english-dictionary/audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/final_blind.json",
+      "sha256": "75d3e643311c95967364175fe94ab1ed1e6fcc64c3dddc7c49d03aabbc1b01b8"
+    },
+    {
+      "path": "english-dictionary/audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/source_inventory.json",
+      "sha256": "8a8123662a065591d4c9680d2f1f6cc84deee2d301ea1232efa0bb340972db9a"
+    },
+    {
+      "path": "english-dictionary/audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/blind_seal.json",
+      "sha256": "db3c852aa907eec02630084d7322dcdbf85bac32ccbd0319e203c57fb0d55c22"
+    }
+  ],
+  "recorded_at": "2026-09-24T10:44:36Z",
+  "seal_check": {
+    "final_blind_sha256_matches_seal": true
+  },
+  "resolutions": [
+    {
+      "id": "f_cast_suspicion_claim_boundary",
+      "finding_id": "f_cast_suspicion_claim_boundary",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Sense 1 is defined around suspected wrongdoing, and its example casts suspicion on a clerk in that context. But the listed frame also includes claims and properties, which can express doubts about truth or reliability without alleging wrongdoing. The inventory distinguishes that distrust use (Oxford sense 3; Merriam-Webster’s truth, fairness, or reliability contrast), so the frame should be scoped or separated."
+    },
+    {
+      "id": "f_suspicion_that_scope",
+      "finding_id": "f_suspicion_that_scope",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "The generic pattern appears within sense 1’s offense-centered definition and is illustrated there by an offense-related inference. Sense 3 separately gives the same that-clause construction for non-criminal inferences, with neutral or positive examples and an explicit usage note. The source inventory also records Oxford’s that-clause pattern under sense 1. The entry therefore already distinguishes the readings by sense and context."
+    }
+  ],
+  "learning_delta": {
+    "reviewed": true,
+    "items": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "check_pass_result_v6",
+  "pass_id": "pronunciation",
+  "findings": [
+    {
+      "taxonomy_id": "pronunciation_symbol_explanation",
+      "location": {
+        "section": "pronunciation",
+        "line_start": 15,
+        "line_end": 15,
+        "exact_quote": "Oxford は米・英とも /səˈspɪʃn/ と表記する。Merriam-Webster の音節を区切る発音綴りは sə-ˈspi-shən で、3音節、第2音節に主強勢があることを示す。語頭の su- は強く /suː/ と読まず、弱い /sə/ になる。  "
+      },
+      "severity": "blocking",
+      "rationale": "Oxford として示す /səˈspɪʃn/ には末尾の /ə/ も音節主音を示す記号もなく、表記どおりなら明示された母音核は /ə/ と /ɪ/ の2つです。一方、同じ文は Merriam-Webster の sə-ˈspi-shən を3音節と説明していますが、Oxford の /ʃn/ と Merriam-Webster の /ʃən/ の音節数の差や、Oxford の /n/ が音節主音として意図されているかを説明していません。",
+      "evidence_link_ids": [],
+      "suggested_direction": "Oxford の末尾を音節主音 /n̩/ として意図しているならその転写規則を明示し、そうでなければ /ə/ を含む転写にするなど、Oxford と Merriam-Webster の音節数・末尾音の差を明確にしてください。"
+    }
+  ],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "GPT-6",
+    "ingested_by": "orchestrator",
+    "agent_id": "/root/suspicion_r16_pronunciation",
+    "source_response": {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-16/responses/source_responses/f725bc79b668d967b3a33ba3abcad1e8129f00878d59c432ef7b2dbd91d8c18a.json",
+      "sha256": "f725bc79b668d967b3a33ba3abcad1e8129f00878d59c432ef7b2dbd91d8c18a"
+    }
+  }
+}

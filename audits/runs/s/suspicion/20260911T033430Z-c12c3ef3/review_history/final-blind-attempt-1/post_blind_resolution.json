@@ -1,0 +1,90 @@
+{
+  "schema_version": "post_blind_resolution_v1",
+  "stage": "post_blind_resolution",
+  "run_id": "20260911T033430Z-c12c3ef3",
+  "context_id": "post-blind-resolution-suspicion-20260924",
+  "input_body_sha256": "6c77c142312c5cd3c8fc46bb74e490d274f356ffea110ae31b600bfa76245433",
+  "prompt_sha256": "7dfcaa0a828a334dbb84d1d31ed97312d0a9661a7aca70a7815a9f88b31ea2f1",
+  "recorded_at": "2026-09-24T10:44:36Z",
+  "input_artifacts": [
+    "entry_body",
+    "sealed_final_blind",
+    "source_inventory"
+  ],
+  "input_artifact_hashes": {
+    "candidate_sha256": "5941d8b3f294767001a5de86585eccaabb6d1d823003a02608611f03d6ace7a4",
+    "final_blind_sha256": "75d3e643311c95967364175fe94ab1ed1e6fcc64c3dddc7c49d03aabbc1b01b8",
+    "source_inventory_sha256": "8a8123662a065591d4c9680d2f1f6cc84deee2d301ea1232efa0bb340972db9a",
+    "blind_seal_sha256": "db3c852aa907eec02630084d7322dcdbf85bac32ccbd0319e203c57fb0d55c22"
+  },
+  "reviewer": {
+    "mode": "handoff",
+    "agent_id": "/root/suspicion_postblind_resolution",
+    "declared_model": "Codex (GPT-6; exact variant not exposed in this session)",
+    "ingested_by": "human"
+  },
+  "raw_response_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/review_history/superseded-body-6c77c142/handoff/post_blind_resolution.response.raw.json",
+  "raw_response_sha256": "89e0c431885bb5f0cecc499e67a36335b32e580b941924c9dc9e51369302a06f",
+  "seal_check": {
+    "final_blind_sha256_matches_seal": true
+  },
+  "resolutions": [
+    {
+      "id": "f_cast_suspicion_claim_boundary",
+      "finding_id": "f_cast_suspicion_claim_boundary",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Sense 1 is defined around suspected wrongdoing, and its example casts suspicion on a clerk in that context. But the listed frame also includes claims and properties, which can express doubts about truth or reliability without alleging wrongdoing. The inventory distinguishes that distrust use (Oxford sense 3; Merriam-Webster’s truth, fairness, or reliability contrast), so the frame should be scoped or separated.",
+      "resolved_body_sha256": "8508fef1bf79309ca9c904c1a5b901698298454c0b9cddf6fe1227383f20bc7c"
+    },
+    {
+      "id": "f_suspicion_that_scope",
+      "finding_id": "f_suspicion_that_scope",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "The generic pattern appears within sense 1’s offense-centered definition and is illustrated there by an offense-related inference. Sense 3 separately gives the same that-clause construction for non-criminal inferences, with neutral or positive examples and an explicit usage note. The source inventory also records Oxford’s that-clause pattern under sense 1. The entry therefore already distinguishes the readings by sense and context.",
+      "resolved_body_sha256": "8508fef1bf79309ca9c904c1a5b901698298454c0b9cddf6fe1227383f20bc7c"
+    }
+  ],
+  "learning_delta": {
+    "reviewed": true,
+    "items": []
+  },
+  "unresolved_issues": [
+    {
+      "id": "f_suspicion_that_scope_resolution_conflict",
+      "kind": "judgment_conflict",
+      "question": "Was the independent post-blind reviewer correct to reject final-blind finding f_suspicion_that_scope on the ground that sense placement, the crime-related example, and sense 3 already scope the generic pattern; or should this finding be adopted and the sense-1 pattern explicitly limited to crime/wrongdoing complements?",
+      "article_excerpt": "Sense 1 heading: 1. 【名詞・可算／不可算】容疑、犯罪・不正をしたのではないかという疑い\nSense 1 definition: 人が犯罪、不正、不誠実な行為などをした可能性があると、十分な証明がない段階で考えること、またはその疑いを向けられている状態を表す。複数の個別の疑いを述べる suspicions は可算、疑いという状態を表す suspicion は不可算で使われる。on suspicion of ... のように特定の容疑でも無冠詞となる定型表現があるため、可算・不可算は意味だけで一律には決まらない。\nSense 1 frame: suspicion that 〈節〉＝～ではないかという疑い\nSense 1 example: The security footage confirmed the manager's suspicions that a guard had taken the missing laptops.\nSense 3 heading: 3. 【名詞・可算中心】～ではないかという気、確証のない推測\nSense 3 definition: 特定の人が犯罪・不正をしたという疑いではなく、犯罪・不正を前提としない事実や状況が本当なのではないかと、確証のないまま感じることを表す。人物への容疑や一般的な不信ではなく、「そうではないか」という推測・予感に焦点がある。この意味では a suspicion that ... のように個々の考えを表す可算形が典型。可算・不可算は意味だけで一律に決まらず、構文にも左右される。\nSense 3 frame: a suspicion that 〈節〉＝～ではないかという気／have a suspicion that 〈節〉＝～ではないかと思う／a sneaking suspicion that 〈節〉＝ひそかに～ではないかと思う気持ち／a strong suspicion that 〈節〉＝強い疑い／confirm a suspicion＝推測を裏付ける。\nSense 3 usage note: この語義では内容が必ず悪いとは限らない。I have a suspicion that she may surprise us with good news. のように、中立・肯定的な内容についても「そうではないかという気」を表せる。この語義は、犯罪・不正を疑う意味や人物への不信とは異なり、非難を伴わない事実推測を表す。",
+      "judgments": [
+        {
+          "reviewer_agent_id": "/root/suspicion_final_blind_latest",
+          "conclusion": "The bare suspicion that 〈節〉 pattern under the offense-centered sense is overbroad because the same construction also expresses a neutral inference in sense 3; make the crime-related complement boundary explicit.",
+          "basis": "final_blind finding f_suspicion_that_scope, severity minor, rationale and scope_anchors in the sealed final_blind.json."
+        },
+        {
+          "reviewer_agent_id": "/root/suspicion_postblind_resolution",
+          "conclusion": "Reject the finding: sense 1 is offense-centered and illustrated by an offense-related inference, while sense 3 separately gives neutral examples and an explicit non-criminal usage note.",
+          "basis": "Independent post_blind_resolution response, based on the reviewed candidate and source inventory."
+        }
+      ],
+      "source_material": [
+        {
+          "source_fact_id": "oxf_that",
+          "statement": "Oxford gives suspicion that + clause and a sneaking suspicion example.",
+          "source_detail": "Oxford entry, sense 1 examples."
+        },
+        {
+          "source_fact_id": "oxf_belief",
+          "statement": "Oxford lists a countable sense for a belief that something is true despite lacking proof.",
+          "source_detail": "Oxford entry, sense 2."
+        },
+        {
+          "source_fact_id": "mw_clause",
+          "statement": "Merriam-Webster gives examples of suspicion followed by a that-clause and of viewing policies with suspicion.",
+          "source_detail": "Merriam-Webster, example sentences."
+        }
+      ]
+    }
+  ]
+}

@@ -1,28 +1,75 @@
 {
   "schema_version": "pre_blind_revision_v1",
   "input_body_sha256": "82f343438dd0057f0cc4edd16ece26ba75380521e8c02dfb806b6da7eb43d3f8",
-  "output_body_sha256": "6c77c142312c5cd3c8fc46bb74e490d274f356ffea110ae31b600bfa76245433",
-  "recorded_at": "2026-09-23T16:58:28.076299Z",
+  "output_body_sha256": "d5fed3eeb1ca0acb9286fc85407b81982758943d11ecf86c3e1bf1c18bdd4978",
+  "recorded_at": "2026-09-24T16:22:49.540360+00:00",
   "changed_units": [
     "collocations_examples",
-    "core_image",
-    "etymology",
-    "frames",
-    "frequency_register",
-    "lexical_relations",
-    "pronunciation",
-    "sense_structure",
-    "usage_notes",
-    "word_formation"
+    "frames"
   ],
+  "changed_facets": [],
   "invalidated_passes": [
-    "evidence",
-    "example-attribution",
-    "frame-relation",
-    "pronunciation",
-    "qualification",
+    "translation",
     "sense-structure",
-    "translation"
+    "frame-relation",
+    "example-attribution",
+    "qualification",
+    "pronunciation",
+    "evidence"
   ],
-  "full_recheck": true
+  "full_recheck": true,
+  "revision_chain": [
+    {
+      "revision_sha256": "19711435e3201b7a8c3317d34dd6ad9b630de105d9f31c81d9517aafd413103c",
+      "prior_output_body_sha256": "6c77c142312c5cd3c8fc46bb74e490d274f356ffea110ae31b600bfa76245433",
+      "status": "superseded_by_post_blind_adopted_correction"
+    },
+    {
+      "post_blind_resolution_ref": "post_blind_resolution.json",
+      "adopted_finding_id": "f_cast_suspicion_claim_boundary"
+    },
+    {
+      "source_inventory_revision_ref": "source_inventory_revision.json"
+    },
+    {
+      "post_blind_revision_ref": "candidate/post_blind_revision_entry.md",
+      "prior_output_body_sha256": "8508fef1bf79309ca9c904c1a5b901698298454c0b9cddf6fe1227383f20bc7c",
+      "new_output_body_sha256": "f0ae54c4d407ab7c669d3cfdb9334d176f780d8bcf4ab662c289c3ea09fbc70a",
+      "adopted_finding_refs": [
+        "f_cast_suspicion_claim_boundary",
+        "r14-evidence-001",
+        "r14-frame-001"
+      ]
+    },
+    {
+      "source_inventory_revision_ref": "source_inventory_revision.json"
+    },
+    {
+      "post_blind_revision_ref": "post_blind_revision_round25.json",
+      "input_body_sha256": "18178e0a192307a41e4cccafaaf60c75ff89633d50774904ba389187e4d827b6",
+      "output_body_sha256": "1668f193d23088ced53f1c8828fcef108cde97073b2eda3e14f74741e9d73a51",
+      "adopted_finding_ids": [
+        "f1",
+        "f2"
+      ],
+      "revision_record_sha256": "f67f83ed31b3da24b6bd2354613e359a92faccdfbaf147cacfd970033d2609cb"
+    },
+    {
+      "post_blind_revision_ref": "post_blind_revision_round26.json",
+      "input_body_sha256": "1668f193d23088ced53f1c8828fcef108cde97073b2eda3e14f74741e9d73a51",
+      "output_body_sha256": "d5fed3eeb1ca0acb9286fc85407b81982758943d11ecf86c3e1bf1c18bdd4978",
+      "adopted_finding_ids": [
+        "r25-translation-001"
+      ],
+      "revision_record_sha256": "34be955c5c5a873291a38a21a4172a2b8c6113895e11ccc74edc7f5aef5bd81f"
+    }
+  ],
+  "recheck_lineage": {
+    "round_14_findings_path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-14/findings_and_actions.json",
+    "round_14_findings_sha256": "d67e024916f2f8fd6993a9e0a957f4f4433b0572419991a17527db43a2c90ef0",
+    "post_blind_revision_applied": true
+  },
+  "recheck_invalidation_reason": "The source-first artifact changed after the post-blind checker finding; all seven pass requests bind its hash.",
+  "latest_post_blind_revision_ref": "post_blind_revision_round26.json",
+  "latest_post_blind_revision_sha256": "34be955c5c5a873291a38a21a4172a2b8c6113895e11ccc74edc7f5aef5bd81f"
 }

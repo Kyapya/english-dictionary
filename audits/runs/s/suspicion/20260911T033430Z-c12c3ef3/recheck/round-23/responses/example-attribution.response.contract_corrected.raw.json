@@ -1,0 +1,221 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "input_body_sha256": "b34f7da3691330b05a3a8a1aaf894599ec4d16d118e331f84a1dc41bcfca5677",
+  "blind_request_sha256": "9944a5362cc3f6bb9ef6c23617b052da36cb0597f8da8f1cf00038fa2d7fdc8c",
+  "recorded_at": "2026-09-24T14:24:39.950118Z",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "GPT-6",
+    "ingested_by": "human",
+    "agent_id": "/root/s23_example_attribution"
+  },
+  "attributions": [
+    {
+      "example_id": "ex-b05441354faa",
+      "best_sense_id": "sense:003",
+      "attribution": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "a suspicion that the meeting will finish earlier than planned"
+      ],
+      "rationale": "The noun scopes over a neutral prediction about whether a future event will occur as expected. The meeting is not presented as a person suspected of misconduct (sense:001), and no target or information source is treated with general mistrust (sense:002); the clause is a tentative proposition, which is sense:003."
+    },
+    {
+      "example_id": "ex-7109decd0751",
+      "best_sense_id": "sense:001",
+      "attribution": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "cast suspicion on the clerk"
+      ],
+      "rationale": "In “cast suspicion on” with a person as its complement, the clerk is made a possible wrongdoer, not merely someone whose account or reliability is distrusted. That person-directed accusation is sense:001; sense:002 would express mistrust of the clerk or the clerk’s information without casting the person as a suspect."
+    },
+    {
+      "example_id": "ex-07975d37945b",
+      "best_sense_id": "sense:004",
+      "attribution": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "a suspicion of a smile",
+        "appeared at the corner of her mouth"
+      ],
+      "rationale": "“A suspicion of a smile” is a barely perceptible trace of an expression appearing on the mouth. It is not a doubtful belief that someone smiled (sense:003) or distrust toward a person (sense:002); the faint manifestation is sense:004."
+    },
+    {
+      "example_id": "ex-f7a4533cef3c",
+      "best_sense_id": "sense:002",
+      "attribution": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "greeted with some suspicion"
+      ],
+      "rationale": "“With some suspicion” describes a wary, mistrustful attitude in the way the subject is received. No particular proposition is stated as a hunch (sense:003), and no person is accused of an offense (sense:001); the attitude is sense:002."
+    },
+    {
+      "example_id": "ex-3e2a729590ee",
+      "best_sense_id": "sense:001",
+      "attribution": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "suspicion that the treasurer had committed fraud"
+      ],
+      "rationale": "Although the suspicion is grammatically expressed with a that-clause, its content specifically casts the treasurer as the person who committed fraud. The headword therefore marks a person-directed allegation of wrongdoing (sense:001), unlike sense:003, where the uncertain proposition is not an accusation that a particular person committed an offense."
+    },
+    {
+      "example_id": "ex-6673d64fd465",
+      "best_sense_id": "sense:003",
+      "attribution": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "a strong suspicion that the delay was caused by a technical problem"
+      ],
+      "rationale": "The suspicion is a strong but unconfirmed belief about the cause of a delay. The clause does not identify a person as a wrongdoer, which excludes sense:001, and the headword takes the cause proposition as its scope rather than describing generalized mistrust (sense:002); this is sense:003."
+    },
+    {
+      "example_id": "ex-711c9be0fe2d",
+      "best_sense_id": "sense:001",
+      "attribution": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "arrested on suspicion of fraud"
+      ],
+      "rationale": "The construction “arrested on suspicion of” identifies the arrested people as suspected of committing the named offense. This is a person-directed criminal allegation (sense:001), not a tentative prediction or broad mistrust (senses:003 and :002)."
+    },
+    {
+      "example_id": "ex-b36a63140789",
+      "best_sense_id": "sense:004",
+      "attribution": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "a suspicion of citrus",
+        "made it taste fresher"
+      ],
+      "rationale": "“A suspicion of citrus” denotes a slight trace of citrus flavor in the sauce. This is a sensory degree reading (sense:004), not a doubtful proposition about citrus (sense:003) or distrust (sense:002)."
+    },
+    {
+      "example_id": "ex-703df1820255",
+      "best_sense_id": "sense:001",
+      "attribution": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "came under suspicion"
+      ],
+      "rationale": "“Came under suspicion” makes the employee the person regarded as a possible perpetrator after a disappearance. The frame places a person under an allegation of wrongdoing (sense:001); it is not merely a generalized attitude of distrust toward the employee (sense:002)."
+    },
+    {
+      "example_id": "ex-38ece9c9bad6",
+      "best_sense_id": "sense:003",
+      "attribution": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "confirmed her suspicion that the battery was failing"
+      ],
+      "rationale": "The suspicion is a tentative proposition about the battery’s condition, which subsequent results confirm. The battery is not a person accused of misconduct (sense:001), and the clause is a belief about a state rather than generalized distrust (sense:002); this is sense:003."
+    },
+    {
+      "example_id": "ex-66342a6a5835",
+      "best_sense_id": "sense:004",
+      "attribution": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "a suspicion of disappointment in his voice"
+      ],
+      "rationale": "The phrase locates a faint trace of an emotion in the quality of the voice. It is not a proposition the speaker doubts (sense:003) or mistrust of a person or information (sense:002); the slight emotional manifestation is sense:004."
+    },
+    {
+      "example_id": "ex-3b391b190f2d",
+      "best_sense_id": "sense:001",
+      "attribution": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "remained under suspicion"
+      ],
+      "rationale": "“Remained under suspicion” presents the contractor as a continuing possible wrongdoer whose suspected conduct is being checked. This is the status of a person under an allegation (sense:001), rather than mere doubt about the contractor’s general trustworthiness (sense:002)."
+    },
+    {
+      "example_id": "ex-58250159cf7a",
+      "best_sense_id": "sense:001",
+      "attribution": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "the manager's suspicions that a guard had stolen the missing laptops"
+      ],
+      "rationale": "The that-clause identifies a particular guard as the person who stole property, so the manager’s suspicion is an allegation that this person committed wrongdoing (sense:001). The fact that it is a proposition does not make it sense:003; that sense would cover an uncertain claim without this person-as-offender relation."
+    },
+    {
+      "example_id": "ex-42cf1597e55a",
+      "best_sense_id": "sense:002",
+      "attribution": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "cast suspicion on the reliability of the company’s explanation"
+      ],
+      "rationale": "The complement is the reliability of an explanation, so the headword expresses doubt about whether information is trustworthy. No person is alleged to have committed an offense (sense:001); this broad distrust of credibility is sense:002."
+    },
+    {
+      "example_id": "ex-68c0aa431b5b",
+      "best_sense_id": "sense:003",
+      "attribution": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "a sneaking suspicion that everyone already knew the answer"
+      ],
+      "rationale": "The headword scopes over a tentative belief about what everyone knows. No one is alleged to have committed wrongdoing (sense:001), and the clause presents a hunch rather than an attitude of distrust toward information (sense:002); this is sense:003."
+    },
+    {
+      "example_id": "ex-733171bde527",
+      "best_sense_id": "sense:002",
+      "attribution": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "viewed the sudden policy change with suspicion"
+      ],
+      "rationale": "“Viewed ... with suspicion” describes a wary, distrustful way of regarding something. It is not a specific tentative proposition (sense:003) or a person-directed accusation of wrongdoing (sense:001); this general mistrust is sense:002."
+    },
+    {
+      "example_id": "ex-13fd09516339",
+      "best_sense_id": "sense:004",
+      "attribution": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "white with a suspicion of blue"
+      ],
+      "rationale": "The phrase means the walls have a barely perceptible blue tint. Color as a slight sensory quality is sense:004, not a tentative belief about a proposition (sense:003) or mistrust (sense:002)."
+    }
+  ]
+}

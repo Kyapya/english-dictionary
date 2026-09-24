@@ -1,0 +1,500 @@
+{
+  "pass_id": "example-attribution",
+  "request_sha256": "df29e716eae0e765fcd1a938793c7630ab630f79c56c444596c07f4a514a5cab",
+  "blind_request_sha256": "df29e716eae0e765fcd1a938793c7630ab630f79c56c444596c07f4a514a5cab",
+  "input_body_sha256": "22115ff16b934a7bee72be158df65dd1569ca9a64c670adb9cd408a03b504ebd",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-6",
+    "ingested_by": "human",
+    "agent_id": "/root/suspicion_r18_example_attribution"
+  },
+  "blind_attribution_record": {
+    "schema_version": "example_attribution_blind_record_v1",
+    "pass_id": "example-attribution",
+    "input_body_sha256": "22115ff16b934a7bee72be158df65dd1569ca9a64c670adb9cd408a03b504ebd",
+    "recorded_at": "2026-09-24T12:51:05Z",
+    "items": [
+      {
+        "example_id": "ex-060a5192124c",
+        "attribution": "unique",
+        "best_sense_id": "sense:001",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "next_best_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "remained under suspicion",
+          "until the records were checked"
+        ],
+        "rationale": "The construction places the contractor in the status of a person suspected of a specific act, and checking records is part of resolving that allegation. Sense 2 (general mistrust of a person) is a plausible competitor, but it does not explain the investigative 'under suspicion ... until' frame as naturally as sense 1. 'Contractor' alone is not the basis for the choice."
+      },
+      {
+        "example_id": "ex-634a364d45b4",
+        "attribution": "unique",
+        "best_sense_id": "sense:002",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "next_best_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "viewed ... with suspicion",
+          "sudden policy change"
+        ],
+        "rationale": "'With suspicion' expresses a wary, distrustful attitude toward the change. Sense 3 (a conjecture about whether a proposition is true) is a plausible competitor, but this sentence supplies no suspected fact or that-clause; the headword names the residents' stance toward the policy change."
+      },
+      {
+        "example_id": "ex-b9e6473dfcfd",
+        "attribution": "unique",
+        "best_sense_id": "sense:004",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "next_best_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "a suspicion of citrus",
+          "made it taste fresher"
+        ],
+        "rationale": "The 'of citrus' complement is a flavor quality present in a small degree, reinforced by 'taste fresher'. Sense 3 (a conjecture that a fact is true) is a possible competitor for count 'a suspicion', but citrus is not a proposition being conjectured; the example describes a faint trace of flavor."
+      },
+      {
+        "example_id": "ex-7c75bf50b419",
+        "attribution": "unique",
+        "best_sense_id": "sense:003",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "next_best_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "a sneaking suspicion that",
+          "everyone already knew the answer"
+        ],
+        "rationale": "The that-clause states a non-criminal fact the speaker privately suspects. Sense 2 (mistrust or wariness) is a plausible competitor, but the complement is a proposition about what everyone knows rather than a person, organization, or motive being distrusted."
+      },
+      {
+        "example_id": "ex-1e6c5d63abbd",
+        "attribution": "unique",
+        "best_sense_id": "sense:003",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "next_best_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "a suspicion that",
+          "the meeting will finish earlier than planned"
+        ],
+        "rationale": "The complement is a prediction about a non-criminal event, making this a conjecture. Sense 2 (general distrust) is the nearest competitor, but the speaker is entertaining a proposition about when the meeting will finish, not expressing mistrust of a person or information source."
+      },
+      {
+        "example_id": "ex-ff889969af92",
+        "attribution": "unique",
+        "best_sense_id": "sense:004",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "next_best_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "white with a suspicion of blue",
+          "in the evening light"
+        ],
+        "rationale": "'With a suspicion of blue' describes a barely perceptible tint in the wall's color. Sense 3 (a conjecture about a fact) is a plausible competitor from the noun's count use, but 'of blue' modifies a color quality and does not introduce a suspected proposition."
+      },
+      {
+        "example_id": "ex-82a69bbd2c42",
+        "attribution": "unique",
+        "best_sense_id": "sense:002",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "next_best_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "cast suspicion on the reliability",
+          "of the company's explanation"
+        ],
+        "rationale": "The complement is the explanation's reliability, so suspicion means distrust of whether the account can be trusted. Sense 3 (a conjecture that a non-criminal fact is true) is a plausible competitor, but the syntax targets reliability as a quality rather than asserting a specific alternative fact."
+      },
+      {
+        "example_id": "ex-5738efb14b08",
+        "attribution": "unique",
+        "best_sense_id": "sense:004",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "next_best_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "a suspicion of disappointment",
+          "in his voice"
+        ],
+        "rationale": "The phrase locates a faintly perceptible emotion in the voice. Sense 2 (distrust or wariness) is a possible competitor, but disappointment is presented as a trace audible in the voice, not as a target being distrusted."
+      },
+      {
+        "example_id": "ex-b23f76ce6acb",
+        "attribution": "unique",
+        "best_sense_id": "sense:004",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "next_best_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "a suspicion of a smile",
+          "appeared at the corner of her mouth"
+        ],
+        "rationale": "The noun describes an incipient, barely visible smile appearing at the mouth. Sense 3 (a conjecture) is a plausible competitor for 'a suspicion', but no proposition is being suspected; the complement is a faint facial expression."
+      },
+      {
+        "example_id": "ex-05d22e8ff3bb",
+        "attribution": "unique",
+        "best_sense_id": "sense:001",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "next_best_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "arrested on suspicion of fraud"
+        ],
+        "rationale": "The fixed 'on suspicion of' frame plus 'fraud' explicitly identifies a suspected offense. Sense 3 (a conjecture about a fact) is a possible competitor because of the noun, but a suspected fraud and arrest are an allegation of wrongdoing, not a non-criminal factual prediction."
+      },
+      {
+        "example_id": "ex-75549b1c1e8d",
+        "attribution": "unique",
+        "best_sense_id": "sense:003",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "next_best_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "confirmed her suspicion that",
+          "the battery was failing"
+        ],
+        "rationale": "The test results confirm a conjecture about a technical condition, not a person's wrongdoing. Sense 1 (suspicion of a crime or dishonest act) is a plausible competitor for 'confirmed her suspicion', but the that-clause describes a battery's failure and names no intentional act or culprit."
+      },
+      {
+        "example_id": "ex-cce722f090e3",
+        "attribution": "unique",
+        "best_sense_id": "sense:001",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "next_best_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "altered timestamp cast suspicion on the clerk",
+          "who had access to the report"
+        ],
+        "rationale": "The altered timestamp is an apparent act and the access clause connects the clerk to the means to make that alteration, so the sentence suspects the clerk of tampering. Sense 2 (general mistrust of the clerk) is a plausible competitor, but it does not account for the event-linked suspicion cast by the altered timestamp; the choice is based on that relation, not merely on the clerk's role."
+      },
+      {
+        "example_id": "ex-21d3d765d8c6",
+        "attribution": "unique",
+        "best_sense_id": "sense:002",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "next_best_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "greeted with some suspicion",
+          "new monitoring system"
+        ],
+        "rationale": "The system is received with a wary, distrustful attitude. Sense 3 (a conjecture about a fact) is a plausible competitor, but no proposition is stated or confirmed; the headword describes the initial stance toward the system."
+      },
+      {
+        "example_id": "ex-0a6a90980f29",
+        "attribution": "unique",
+        "best_sense_id": "sense:003",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "next_best_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "a strong suspicion that",
+          "the delay was caused by a technical problem"
+        ],
+        "rationale": "The that-clause expresses a possible explanation for a non-criminal event. Sense 2 (mistrust) is a plausible competitor, but the complement is a causal proposition about the delay, not a person, organization, or account whose trustworthiness is doubted."
+      },
+      {
+        "example_id": "ex-98fddba364aa",
+        "attribution": "unique",
+        "best_sense_id": "sense:001",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "next_best_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "unexplained transfer of client funds",
+          "aroused suspicion of fraud"
+        ],
+        "rationale": "The unexplained movement of funds is linked directly to a suspicion of fraud, an alleged dishonest act. Sense 2 (general distrust) is a plausible competitor, but the explicit 'of fraud' complement and event-to-allegation relation identify wrongdoing rather than broad wariness."
+      },
+      {
+        "example_id": "ex-6ec1f647d3f8",
+        "attribution": "unique",
+        "best_sense_id": "sense:001",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "next_best_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "came under suspicion",
+          "when several invoices disappeared"
+        ],
+        "rationale": "The employee becomes a suspect in the disappearance of the invoices, which presents a suspected act rather than a free-standing judgment about trustworthiness. Sense 2 is plausible if the sentence meant general mistrust, but the 'came under suspicion when' event-linked frame makes an allegation about responsibility the more natural reading."
+      },
+      {
+        "example_id": "ex-4d931abbe0ce",
+        "attribution": "unique",
+        "best_sense_id": "sense:001",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "next_best_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "confirmed the manager's suspicions that",
+          "a guard had stolen the missing laptops"
+        ],
+        "rationale": "The that-clause explicitly alleges that the guard committed theft, and the footage confirms that allegation. Sense 3 (a conjecture about a fact) is a plausible competitor for a that-clause, but the content is a person's criminal act, which the supplied sense definitions place in sense 1."
+      }
+    ]
+  },
+  "aligned_at": "2026-09-24T12:53:28Z",
+  "alignment_results": [
+    {
+      "example_id": "ex-98fddba364aa",
+      "blind_sense_id": "sense:001",
+      "assigned_sense_id": "sense:001",
+      "alignment": "match",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 52,
+        "line_end": 52,
+        "exact_quote": "例: The unexplained transfer of client funds aroused suspicion of fraud among the auditors.  "
+      }
+    },
+    {
+      "example_id": "ex-05d22e8ff3bb",
+      "blind_sense_id": "sense:001",
+      "assigned_sense_id": "sense:001",
+      "alignment": "match",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 57,
+        "line_end": 57,
+        "exact_quote": "例: Two people were arrested on suspicion of fraud after the investigation.  "
+      }
+    },
+    {
+      "example_id": "ex-060a5192124c",
+      "blind_sense_id": "sense:001",
+      "assigned_sense_id": "sense:001",
+      "alignment": "match",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 62,
+        "line_end": 62,
+        "exact_quote": "例: The contractor remained under suspicion until the records were checked.  "
+      }
+    },
+    {
+      "example_id": "ex-6ec1f647d3f8",
+      "blind_sense_id": "sense:001",
+      "assigned_sense_id": "sense:001",
+      "alignment": "match",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 67,
+        "line_end": 67,
+        "exact_quote": "例: The employee came under suspicion when several invoices disappeared.  "
+      }
+    },
+    {
+      "example_id": "ex-cce722f090e3",
+      "blind_sense_id": "sense:001",
+      "assigned_sense_id": "sense:001",
+      "alignment": "match",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 72,
+        "line_end": 72,
+        "exact_quote": "例: The altered timestamp cast suspicion on the clerk who had access to the report.  "
+      }
+    },
+    {
+      "example_id": "ex-4d931abbe0ce",
+      "blind_sense_id": "sense:001",
+      "assigned_sense_id": "sense:001",
+      "alignment": "match",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 77,
+        "line_end": 77,
+        "exact_quote": "例: The security footage confirmed the manager's suspicions that a guard had stolen the missing laptops.  "
+      }
+    },
+    {
+      "example_id": "ex-634a364d45b4",
+      "blind_sense_id": "sense:002",
+      "assigned_sense_id": "sense:002",
+      "alignment": "match",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 105,
+        "line_end": 105,
+        "exact_quote": "例: Residents viewed the sudden policy change with suspicion.  "
+      }
+    },
+    {
+      "example_id": "ex-21d3d765d8c6",
+      "blind_sense_id": "sense:002",
+      "assigned_sense_id": "sense:002",
+      "alignment": "match",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 110,
+        "line_end": 110,
+        "exact_quote": "例: The new monitoring system was initially greeted with some suspicion.  "
+      }
+    },
+    {
+      "example_id": "ex-82a69bbd2c42",
+      "blind_sense_id": "sense:002",
+      "assigned_sense_id": "sense:002",
+      "alignment": "match",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 115,
+        "line_end": 115,
+        "exact_quote": "例: The discrepancy cast suspicion on the reliability of the company's explanation.  "
+      }
+    },
+    {
+      "example_id": "ex-1e6c5d63abbd",
+      "blind_sense_id": "sense:003",
+      "assigned_sense_id": "sense:003",
+      "alignment": "match",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 150,
+        "line_end": 150,
+        "exact_quote": "例: I have a suspicion that the meeting will finish earlier than planned.  "
+      }
+    },
+    {
+      "example_id": "ex-7c75bf50b419",
+      "blind_sense_id": "sense:003",
+      "assigned_sense_id": "sense:003",
+      "alignment": "match",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 155,
+        "line_end": 155,
+        "exact_quote": "例: She had a sneaking suspicion that everyone already knew the answer.  "
+      }
+    },
+    {
+      "example_id": "ex-0a6a90980f29",
+      "blind_sense_id": "sense:003",
+      "assigned_sense_id": "sense:003",
+      "alignment": "match",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 160,
+        "line_end": 160,
+        "exact_quote": "例: We had a strong suspicion that the delay was caused by a technical problem.  "
+      }
+    },
+    {
+      "example_id": "ex-75549b1c1e8d",
+      "blind_sense_id": "sense:003",
+      "assigned_sense_id": "sense:003",
+      "alignment": "match",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 165,
+        "line_end": 165,
+        "exact_quote": "例: The test results confirmed her suspicion that the battery was failing.  "
+      }
+    },
+    {
+      "example_id": "ex-ff889969af92",
+      "blind_sense_id": "sense:004",
+      "assigned_sense_id": "sense:004",
+      "alignment": "match",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 200,
+        "line_end": 200,
+        "exact_quote": "例: The walls were white with a suspicion of blue in the evening light.  "
+      }
+    },
+    {
+      "example_id": "ex-b9e6473dfcfd",
+      "blind_sense_id": "sense:004",
+      "assigned_sense_id": "sense:004",
+      "alignment": "match",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 205,
+        "line_end": 205,
+        "exact_quote": "例: The sauce had a suspicion of citrus that made it taste fresher.  "
+      }
+    },
+    {
+      "example_id": "ex-5738efb14b08",
+      "blind_sense_id": "sense:004",
+      "assigned_sense_id": "sense:004",
+      "alignment": "match",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 210,
+        "line_end": 210,
+        "exact_quote": "例: There was a suspicion of disappointment in his voice.  "
+      }
+    },
+    {
+      "example_id": "ex-b23f76ce6acb",
+      "blind_sense_id": "sense:004",
+      "assigned_sense_id": "sense:004",
+      "alignment": "match",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 215,
+        "line_end": 215,
+        "exact_quote": "例: A suspicion of a smile appeared at the corner of her mouth.  "
+      }
+    }
+  ],
+  "findings": [],
+  "unrouted_observations": []
+}

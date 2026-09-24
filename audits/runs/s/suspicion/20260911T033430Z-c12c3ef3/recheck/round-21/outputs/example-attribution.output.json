@@ -1,0 +1,258 @@
+{
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-6",
+    "ingested_by": "orchestrator",
+    "agent_id": "s21-example-attribution-independent-01",
+    "source_response": {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-21/responses/source_responses/e11e81a68b2a9d3bf96bf8a91666411de6bb44c7beef1a094d5b81f30c9b7d53.json",
+      "sha256": "e11e81a68b2a9d3bf96bf8a91666411de6bb44c7beef1a094d5b81f30c9b7d53"
+    }
+  },
+  "blind_attribution_record": {
+    "schema_version": "example_attribution_blind_record_v1",
+    "pass_id": "example-attribution",
+    "input_body_sha256": "a1ba2a3e8f2a29df70219a3e1669883e2e9020b77884a88290a797075c286f76",
+    "blind_request_sha256": "65a828708808900e466cccaaa1838a7187e639430f9d12efc6a54c833285e7b1",
+    "recorded_at": "2026-09-24T13:32:45.838Z",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-6",
+      "ingested_by": "orchestrator",
+      "agent_id": "s21-example-attribution-independent-01",
+      "source_response": {
+        "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-21/responses/source_responses/e11e81a68b2a9d3bf96bf8a91666411de6bb44c7beef1a094d5b81f30c9b7d53.json",
+        "sha256": "e11e81a68b2a9d3bf96bf8a91666411de6bb44c7beef1a094d5b81f30c9b7d53"
+      }
+    },
+    "attributions": [
+      {
+        "example_id": "ex-1f9874709c17",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "were arrested on suspicion of fraud"
+        ],
+        "rationale": "The exact cue “were arrested on suspicion of fraud” frames the arrested people as suspected of committing that offense, which is sense 1. Sense 3 could describe a belief that fraud occurred, but it does not account for the person-directed ground for arrest expressed by this construction."
+      },
+      {
+        "example_id": "ex-c86e69a4d8d2",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "cast suspicion on the clerk",
+          "who had access to the report"
+        ],
+        "rationale": "The exact cue “cast suspicion on the clerk” makes the clerk the person implicated by the altered timestamp; the access clause further connects that person to the possible act. Sense 2 could mean broad distrust of the clerk, but this construction in context points to the clerk's possible responsibility for wrongdoing, rather than a general wary attitude."
+      },
+      {
+        "example_id": "ex-fca175961862",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "a guard had stolen the missing laptops",
+          "confirmed the manager's suspicions"
+        ],
+        "rationale": "The exact cue “a guard had stolen the missing laptops” attributes a concrete crime to a particular person, making this sense 1. Sense 3 can describe a tentative proposition, but this clause specifically treats the guard as the person suspected of committing the theft."
+      },
+      {
+        "example_id": "ex-848d43640b65",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "that the delay was caused by a technical problem"
+        ],
+        "rationale": "The exact cue “that the delay was caused by a technical problem” supplies a causal proposition the speakers tentatively believe, which is sense 3. Sense 2 would be a general attitude of mistrust toward a person or source; the sentence instead states a belief about what caused the delay."
+      },
+      {
+        "example_id": "ex-063398bcff6c",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "that everyone already knew the answer"
+        ],
+        "rationale": "The exact cue “that everyone already knew the answer” supplies the content of a hunch, which is sense 3. Sense 2 would express distrust toward someone, but “everyone” is part of the proposition being guessed about, not the target of a wary attitude."
+      },
+      {
+        "example_id": "ex-64aaff02f09c",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "a suspicion of disappointment in his voice"
+        ],
+        "rationale": "The exact cue “a suspicion of disappointment in his voice” describes a faintly detectable emotional quality, which is sense 4. Sense 3 would be a belief that disappointment exists, but this phrase describes what the voice conveys rather than anyone's belief."
+      },
+      {
+        "example_id": "ex-d62d25c12777",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "greeted with some suspicion"
+        ],
+        "rationale": "The exact cue “greeted with some suspicion” describes a guarded reception of the system, which is sense 2. Sense 3 would require a tentative proposition about what is true; this phrase gives an attitude toward the system instead."
+      },
+      {
+        "example_id": "ex-e71e631abd89",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "came under suspicion",
+          "when several invoices disappeared"
+        ],
+        "rationale": "The exact cue “came under suspicion” places the employee among the possible responsible parties after invoices disappear, which is sense 1. Sense 2 could express general distrust of the employee, but this event-linked construction frames possible responsibility for an act, not broad mistrust."
+      },
+      {
+        "example_id": "ex-a5bf2c6ace9f",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "that the battery was failing"
+        ],
+        "rationale": "The exact cue “that the battery was failing” is a proposition about the battery's condition, making this sense 3. Sense 1 would concern a person suspected of wrongdoing, but no person is accused of an act here."
+      },
+      {
+        "example_id": "ex-bf2f306bc58d",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "cast suspicion on the reliability of the company's explanation"
+        ],
+        "rationale": "The exact cue “cast suspicion on the reliability of the company's explanation” targets the trustworthiness of information, which is sense 2. Sense 1 would accuse a person of an offense; the sentence instead questions the explanation's reliability."
+      },
+      {
+        "example_id": "ex-7c7d21b50785",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "white with a suspicion of blue"
+        ],
+        "rationale": "The exact cue “white with a suspicion of blue” describes a slight color quality in the walls, which is sense 4. Sense 3 would be a tentative belief that the walls are blue, but this is an appearance description, not a belief."
+      },
+      {
+        "example_id": "ex-f9b4953df54e",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "a suspicion of a smile appeared",
+          "at the corner of her mouth"
+        ],
+        "rationale": "The exact cue “a suspicion of a smile appeared” describes a barely visible expression, which is sense 4. Sense 3 would be a hunch held by someone, whereas “appeared” and the stated location at the mouth describe a visible trace."
+      },
+      {
+        "example_id": "ex-5fb863dfe3e9",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "a suspicion of citrus",
+          "made it taste fresher"
+        ],
+        "rationale": "The exact cue “a suspicion of citrus” names a faint flavor in the sauce, which is sense 4; the following taste effect confirms that the phrase describes flavor. Sense 3 would be someone's uncertain belief that citrus is present, but no belief is expressed."
+      },
+      {
+        "example_id": "ex-09a185870588",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "viewed the sudden policy change with suspicion"
+        ],
+        "rationale": "The exact cue “viewed the sudden policy change with suspicion” attributes a wary attitude toward the policy, which is sense 2. Sense 3 would express a tentative proposition, but no proposition is stated; the phrase describes how residents regard the change."
+      },
+      {
+        "example_id": "ex-8b28e344e8d8",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "that the meeting will finish earlier than planned"
+        ],
+        "rationale": "The exact cue “that the meeting will finish earlier than planned” states a prediction the speaker thinks may be true, which is sense 3. Sense 2 would be mistrust toward a person, source, or idea; this complement is instead a future-event proposition."
+      },
+      {
+        "example_id": "ex-a101437f6a9a",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "remained under suspicion until the records were checked"
+        ],
+        "rationale": "The exact cue “remained under suspicion until the records were checked” presents the contractor as a possible responsible party pending an evidence check, which is sense 1. Sense 2 could mean ongoing distrust of the contractor, but the under-suspicion construction and evidence-based resolution indicate suspicion of specific wrongdoing."
+      },
+      {
+        "example_id": "ex-a73e1268df05",
+        "classification": "ambiguous",
+        "candidate_sense_ids": [
+          "sense:001",
+          "sense:003"
+        ],
+        "discriminating_terms": [],
+        "rationale": "The exact sentence “The unexplained transfer of client funds aroused suspicion of fraud among the auditors.” supports two readings: sense 1, if the auditors suspect an unspecified person committed fraud, and sense 3, if they infer that the unexplained transfer itself was fraudulent. The sentence does not name a suspected perpetrator, so it does not resolve whether the suspicion is a person-directed accusation or a tentative proposition."
+      }
+    ]
+  },
+  "aligned_at": "2026-09-24T13:43:57.553Z",
+  "findings": [
+    {
+      "taxonomy_id": "example_sense_attribution_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 52,
+        "line_end": 52,
+        "exact_quote": "例: The unexplained transfer of client funds aroused suspicion of fraud among the auditors.  "
+      },
+      "severity": "blocking",
+      "rationale": "ブラインド記録では、この例を sense:001 と sense:003 の ambiguous と判定した。実際の所属は sense:001 だが、例文「The unexplained transfer of client funds aroused suspicion of fraud among the auditors.」は、監査担当者が誰かを詐欺の実行者として疑っているのか、資金移動自体が詐欺によるものだと推測しているのかを明示しない。所属語義1の【語法・注意】は特定の人に不正行為の容疑を向ける用法を語義3の命題全体の推測と区別する一方、ここには容疑を向けられた人も、その区別を決める判別語もない。sense:001 は候補に含まれるが一意に帰属できず、複数の自然な読みが残るため blocking とする。",
+      "evidence_link_ids": [],
+      "suggested_direction": "判別語の追加"
+    }
+  ],
+  "unrouted_observations": [],
+  "schema_version": "check_pass_result_v6",
+  "status": "pass",
+  "stage2_response_provenance": {
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-6",
+      "ingested_by": "orchestrator",
+      "agent_id": "s21-example-attribution-independent-01",
+      "source_response": {
+        "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-21/responses/source_responses/99e2c990e20a70b85be42ad6c3c4a3f5420119312a2cba429c142c33b97a605d.json",
+        "sha256": "99e2c990e20a70b85be42ad6c3c4a3f5420119312a2cba429c142c33b97a605d"
+      }
+    },
+    "source_response": {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-21/responses/source_responses/99e2c990e20a70b85be42ad6c3c4a3f5420119312a2cba429c142c33b97a605d.json",
+      "sha256": "99e2c990e20a70b85be42ad6c3c4a3f5420119312a2cba429c142c33b97a605d"
+    }
+  }
+}

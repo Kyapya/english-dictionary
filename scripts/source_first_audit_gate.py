@@ -393,10 +393,7 @@ def _validate_v2(
         if axis_status == "not_applicable" and not _nonempty(item.get("notes")):
             errors.append(f"not_applicable axis {axis} requires notes")
 
-    # Source collection is intentionally completed before article comparison.
-    # At that checkpoint, unions and article-linked claim units cannot exist yet;
-    # they are built only after start-comparison records the next phase. Keep
-    # their full requirements for compared inventories and every final audit.
+    # Downstream article mapping is not a prerequisite for source collection.
     comparison_started = _nonempty(gate.get("article_comparison_started_at"))
     require_article_mapping = comparison_started or not allow_incomplete
 
@@ -485,7 +482,7 @@ def _validate_v2(
             "source_first_audit.inventory_completed_at",
             errors,
         )
-        if comparison_started or not allow_incomplete:
+        if require_article_mapping:
             comparison_time = _parse_time(
                 gate.get("article_comparison_started_at"),
                 "source_first_audit.article_comparison_started_at",

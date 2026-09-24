@@ -1,0 +1,37 @@
+{
+  "schema_version": "review_response_correction_ledger_v1",
+  "round": 26,
+  "corrections": [
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-26/responses/frame-relation.stage1.response.raw.json",
+      "sha256": "c83a7c9c01c89c7d73c17192f3058c780c457d9ef91d5755658c5efcc012b753",
+      "disposition": "contract_invalid",
+      "detail": "Initial blind_request_sha256 used the formatted packet byte digest rather than the canonical request digest; immutable initial raw response retained."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-26/responses/frame-relation.stage1.response.contract_corrected.raw.json",
+      "sha256": "ece2b90d63e41e792f308dc6c78717ed61242acc7af9643b6f6963feaf70ca7c",
+      "disposition": "accepted",
+      "detail": "Same reviewer corrected only blind_request_sha256 to the canonical digest; axes remained empty and all reviewer metadata and timestamp were preserved."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-26/responses/example-attribution.stage1.response.raw.json",
+      "sha256": "a5f9dc6a2068823bb260077345fdf6415edf1cd4a6f8e4b79d731af12bebb76c",
+      "disposition": "contract_invalid",
+      "detail": "Initial response omitted the canonical request hash, used blind_attributions rather than attributions, and nine rationales failed exact-term grounding; immutable initial raw response retained."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-26/responses/example-attribution.stage1.response.contract_corrected.raw.json",
+      "sha256": "27b2bed5a53921138d0fc421d4b2ac5cbfc721ca2886a4438bd3c474fc74f2a7",
+      "disposition": "accepted",
+      "detail": "Same reviewer supplied the canonical request digest, renamed the array to attributions, and grounded the nine rationales with complete exact discriminating terms; all 16 classifications and candidate sets were retained."
+    },
+    {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-26/responses/qualification.response.raw.json",
+      "sha256": "d9147d7a88ebe5fd0c98598aa85e5a907edcbac021716f5a934d3290dc4b78c3",
+      "disposition": "accepted_path_copy",
+      "detail": "Byte-identical copy of the reviewer raw response saved at the prescribed repository path; original workspace-relative response remains at /workspace/scratch/386e81f3fb7a/audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-26/responses/qualification.response.raw.json. No response content was changed."
+    }
+  ],
+  "recorded_at": "2026-09-24T16:13:36.322368+00:00"
+}

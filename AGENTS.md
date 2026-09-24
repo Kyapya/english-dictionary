@@ -103,10 +103,15 @@ checker、example-attribution、cold review、final blind、final reviewは生�
 要求する。同じmodelを複数サブエージェントで使うことは許可し、model名の一意性は要求しない。欠落・ID不一致・agent ID重複はfan-inで拒否する。
 
 7応答を `checker_passes.stage1.json` に保存し、frame-relationだけ第2往復へ進める。
-`checker_passes.stage2.request.md` と並列名のrequestを作り、stage 1と同じサブエージェント/model
-のcanonical response `checker_passes.frame-relation.stage2.response.json` だけを受け付ける。旧aggregate checker handoffへのフォールバックは認めない。この
+`checker_passes.stage2.request.md` と並列名のrequestを作り、原則stage 1と同じサブエージェント/modelのcanonical response `checker_passes.frame-relation.stage2.response.json` だけを受け付ける。旧aggregate checker handoffへのフォールバックは認めない。この
 2往復中の実取り込み・通信失敗3回は `budget_exhausted` とし、事前検証の契約不備は
 修正待ちとして別記録する。並列中もheartbeat・budgetを進める。
+
+stage 1の担当contextが失われた場合は、保存済み原応答と段階2入力をそのまま使い、
+`sealed_stage1_replay_v1` によって新しい独立サブエージェントへ段階2だけを引き継ぐ。
+生成されたhandoff内の `stage1_replay` ひな形を使い、新担当自身のID/modelと交代理由を
+原応答に記録する。旧IDの流用・段階1の書き換え・他6passの再実行は禁止。
+原応答の保存・hash・独立性を検証できない場合は引き継ぎ済みと扱わない。
 
 新規runはmanifestに `checker_execution_protocol: parallel_subagents_v2` と
 `checker_subagent_count` を持つ。`scripts/checker_subagent_gate.py` はcompleted handoff runの
@@ -122,7 +127,8 @@ reviewerは本文→claim→外部資料を照合し、意味上の接続違い�
 標準APIには閲覧機能がないため、外部資料を閲覧できるhandoff reviewerを使う。
 
 最終照合は `final_review_v3`。全IDの判定を保ち、正常passのnotes・本文全文引用を省略する。
-failとfindingの修正確認・不採用判断だけに短い説明を残す。hash・時系列・再検査条件を
+failとfindingの修正確認・不採用判断に短い説明を残す。findingがない場合だけ全体notesに
+具体的な確認事項を一つ残し、最低文字数・正常項目別の合格理由表は要求しない。hash・時系列・再検査条件を
 機械検証し、合格理由表を再作成しない。未判定のpass補完は禁止。過去runは旧schemaで検証する。
 
 ### 修正・final blind・追加裁定
@@ -132,6 +138,9 @@ failとfindingの修正確認・不採用判断だけに短い説明を残す。
 `scripts/workflow_revision.py` が変更意味単位に依存するpassだけを失効させる。
 複数sectionでも分類できる局所修正は依存passの和集合だけを失効させる。
 分類不能、語義統合・分割、品詞・語義順序の変更は全7 passへ倒す。
+類義語・反意語の数値頻度欄だけの変更はqualification/evidenceへ限定するが、再利用には
+従来どおり仕様・正規化入力・出典・独立レビューの一致が必要。不一致のpassは再検査する。
+語義節の前置き説明も頻度checkerへ渡し、ID欠落は原応答を編集せず派生索引で付与する。
 
 影響passの再検査後、最新本文だけをfinal blindへ渡す。final-blind findingは
 `post_blind_resolution` だけで裁定し、採用修正時は影響pass再検査後に新本文で

@@ -1,0 +1,32 @@
+{
+  "schema_version": "check_pass_result_v6",
+  "pass_id": "evidence",
+  "status": "pass",
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "＃意味・用法・関連表現",
+        "line_start": 33,
+        "line_end": 33,
+        "exact_quote": "一般名詞。辞書には on suspicion of ... を逮捕理由として用いる例がある。Merriam-Webster は法的な suspicion を、証明やわずかな証拠しかない段階で、何かが間違っている、またはある事実が存在すると考える、通常は信念に至らない心理状態として説明する。"
+      },
+      "severity": "blocking",
+      "rationale": "この抜粋の第2文は Merriam-Webster の legal definition（mw_legal）に対応するが、第1文の arrest example は対応しない。Oxford の locator には on suspicion of を使った逮捕例があり、oxf_on は別の claim_unit で grammar_pattern:005 と collocation:002 にだけ結び付いているため、この対象には直接の evidence link がない。",
+      "evidence_link_ids": [
+        "mw_legal"
+      ],
+      "suggested_direction": "第1文を支える oxf_on を register:001 に結び付けるか、第1文を別の根拠付き claim/target に分ける。"
+    }
+  ],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "GPT-6",
+    "ingested_by": "orchestrator",
+    "agent_id": "codex-gpt6-suspicion-r19-evidence-20260924",
+    "source_response": {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-19/responses/source_responses/e992425fca198f0a446f6bca0ce3e3ecafb81c05a0435ca99fff7338c171d6fb.json",
+      "sha256": "e992425fca198f0a446f6bca0ce3e3ecafb81c05a0435ca99fff7338c171d6fb"
+    }
+  }
+}

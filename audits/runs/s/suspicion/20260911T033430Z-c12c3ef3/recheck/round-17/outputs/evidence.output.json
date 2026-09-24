@@ -1,0 +1,33 @@
+{
+  "schema_version": "check_pass_result_v6",
+  "pass_id": "evidence",
+  "status": "pass",
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "word_formation",
+        "line_start": 13,
+        "line_end": 13,
+        "exact_quote": "なお、動詞 suspicion は Merriam-Webster では主に方言的、American Heritage では口語的な用法として記載されるが、本記事ではその動詞用法を扱わず、名詞用法のみを説明する。"
+      },
+      "severity": "blocking",
+      "rationale": "The mapped claim unit claim_rare_verb characterizes the verb suspicion as “rare,” but this article target states only that Merriam-Webster labels the verb chiefly dialectal, American Heritage labels it informal, and the article does not cover the verb. The opened Merriam-Webster entry verifies “chiefly dialectal” (verb lines 61–69), and American Heritage verifies “Informal” (entry lines 40–42). The third linked fact ety_verb only records a 19th-century U.S. Western slang use (Etymonline entry lines 52–55); that historical attestation does not directly establish contemporary rarity, which is not stated in the target. Do not use ety_verb or the unsubstantiated “rare” characterization as evidence for this target; keep the claim scoped to the two dictionary register labels, or supply direct evidence if rarity is intended.",
+      "evidence_link_ids": [
+        "ety_verb"
+      ],
+      "suggested_direction": "hold; remove the unsupported “rare” characterization and keep this claim limited to the Merriam-Webster and American Heritage labels stated in the article"
+    }
+  ],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-6",
+    "ingested_by": "orchestrator",
+    "agent_id": "/root/suspicion_r17_evidence",
+    "source_response": {
+      "path": "audits/runs/s/suspicion/20260911T033430Z-c12c3ef3/recheck/round-17/responses/source_responses/42273b3c8df6ee57a839386707636a7e62aabe0a9941e6dcd12b2394bebfbb0c.json",
+      "sha256": "42273b3c8df6ee57a839386707636a7e62aabe0a9941e6dcd12b2394bebfbb0c"
+    }
+  },
+  "unrouted_observations": []
+}
