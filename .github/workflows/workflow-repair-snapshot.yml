@@ -1,0 +1,23 @@
+name: Workflow repair snapshot (temporary)
+on:
+  push:
+    branches: [fix/workflow-contracts-20260924]
+permissions:
+  contents: read
+jobs:
+  snapshot:
+    if: github.repository == 'Kyapya/english-dictionary' && github.ref == 'refs/heads/fix/workflow-contracts-20260924'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          persist-credentials: false
+      - name: Archive tracked source only
+        run: git archive --format=tar HEAD > /tmp/workflow-repair-source.tar
+      - uses: actions/upload-artifact@v4
+        with:
+          name: workflow-repair-source
+          path: /tmp/workflow-repair-source.tar
+          retention-days: 1
