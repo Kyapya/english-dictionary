@@ -9,7 +9,8 @@ regression suite while routing runtime hooks to the parallel implementation.
 
 Checker passes use parallel subagents: one isolated subagent/context per pass.
 The same model may be reused by multiple subagents; handoff independence is
-proved by distinct ``reviewer.agent_id`` values, not by distinct model names.
+tracked by distinct ``reviewer.agent_id`` values, not by distinct model names.
+IDs alone are not proof of independent execution; original responses are required.
 Guarded workflow runs created under the parallel-subagent protocol reject legacy
 aggregate checker handoff, while pre-protocol fixtures and historical runs remain
 readable for regression and audit compatibility.
@@ -122,7 +123,7 @@ def _strict_checker_handoff_ready(
         if not stage2_response.is_file():
             raise ValueError(
                 "checker subagent handoff requires the canonical frame-relation "
-                "stage-2 response from the same subagent; legacy aggregate stage-2 "
+                "stage-2 response from the original or a bound replacement subagent; legacy aggregate stage-2 "
                 "handoff is not accepted"
             )
         return

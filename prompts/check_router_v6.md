@@ -10,7 +10,7 @@
 | sense-structure | sense_boundary_overlap, cross_section_internal_contradiction, compound_component_generalization | core_image, sense_structure, usage_notes, word_formation |
 | frame-relation | argument_slot_role_mismatch, lexical_relation_mislabel | sense_structure, frames, collocations_examples, lexical_relations (`specification: prompts/check_pass_frame_relation_v7.md`) |
 | example-attribution | example_sense_attribution_mismatch | sense_structure, collocations_examples |
-| qualification | regional_qualification, absolute_scope_counterexample, technical_terminology_conventionality | etymology, word_formation, sense_structure, frequency_register, usage_notes, collocations_examples |
+| qualification | regional_qualification, absolute_scope_counterexample, technical_terminology_conventionality | etymology, word_formation, sense_structure, frequency_register, usage_notes, collocations_examples, lexical_relations |
 | pronunciation | pronunciation_symbol_explanation | pronunciation |
 | evidence | evidence_claim_mismatch | pronunciation, etymology, word_formation, core_image, sense_structure, frequency_register, frames, collocations_examples, usage_notes, lexical_relations |
 
@@ -58,7 +58,7 @@
       "id": "qualification",
       "specification": "prompts/check_pass_qualification_v6.md",
       "taxonomy_ids": ["regional_qualification", "absolute_scope_counterexample", "technical_terminology_conventionality"],
-      "sections": ["etymology", "word_formation", "sense_structure", "frequency_register", "usage_notes", "collocations_examples"]
+      "sections": ["etymology", "word_formation", "sense_structure", "frequency_register", "usage_notes", "collocations_examples", "lexical_relations"]
     },
     {
       "id": "pronunciation",

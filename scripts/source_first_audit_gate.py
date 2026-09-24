@@ -393,6 +393,10 @@ def _validate_v2(
         if axis_status == "not_applicable" and not _nonempty(item.get("notes")):
             errors.append(f"not_applicable axis {axis} requires notes")
 
+    # Downstream article mapping is not a prerequisite for source collection.
+    comparison_started = _nonempty(gate.get("article_comparison_started_at"))
+    require_article_mapping = comparison_started or not allow_incomplete
+
     union = _index(gate.get("source_union"), "source_first_audit.source_union", "id", errors)
     covered: set[str] = set()
     for union_id, item in union.items():
@@ -409,7 +413,7 @@ def _validate_v2(
             errors.append(f"source union {union_id}.disposition is invalid")
         if not _nonempty(item.get("rationale")):
             errors.append(f"source union {union_id}.rationale is required")
-    if status == "complete":
+    if status == "complete" and require_article_mapping:
         missing = sorted(set(facts) - covered)
         if missing:
             errors.append("source facts missing from source_union: " + ", ".join(missing))
@@ -458,7 +462,7 @@ def _validate_v2(
                 str(support.get("support_summary", "")).strip()
             ) < 12:
                 errors.append(f"claim {claim_id} support for {fact_id} needs a specific support_summary")
-    if status == "complete":
+    if status == "complete" and require_article_mapping:
         for union_id, item in union.items():
             if item.get("disposition") == "excluded":
                 continue
@@ -478,13 +482,14 @@ def _validate_v2(
             "source_first_audit.inventory_completed_at",
             errors,
         )
-        comparison_time = _parse_time(
-            gate.get("article_comparison_started_at"),
-            "source_first_audit.article_comparison_started_at",
-            errors,
-        )
-        if inventory_time and comparison_time and inventory_time >= comparison_time:
-            errors.append("source inventory must be completed before article comparison starts")
+        if require_article_mapping:
+            comparison_time = _parse_time(
+                gate.get("article_comparison_started_at"),
+                "source_first_audit.article_comparison_started_at",
+                errors,
+            )
+            if inventory_time and comparison_time and inventory_time >= comparison_time:
+                errors.append("source inventory must be completed before article comparison starts")
 
     final = manifest.get("final_review")
     if not isinstance(final, dict):

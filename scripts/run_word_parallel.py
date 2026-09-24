@@ -241,10 +241,11 @@ def _parallel_checker_handoff_body(
     frame_note = ""
     if pass_id == "frame-relation":
         frame_note = (
-            "\nThis is frame-relation stage 1 only. Keep this exact agent available. "
-            "After the coordinator fans in all seven stage-1 responses, the same agent "
-            "reviewer.agent_id and declared_model must execute the generated "
-            "frame-relation stage-2 request before this pass is complete.\n"
+            "\nThis is frame-relation stage 1 only. Prefer the same subagent for stage 2. "
+            "If that context is unavailable, preserve stage 1 and use the generated "
+            "sealed_stage1_replay_v1 instructions with a genuinely fresh reviewer. "
+            "Never reuse the lost agent's identity or rerun completed passes merely "
+            "because the context expired.\n"
         )
     return (
         "# Independent checker handoff\n\n"
@@ -312,11 +313,22 @@ def prepare_handoff(
         provenance = ""
         if expected_agent:
             provenance = (
-                "\nThis stage must be executed by the same frame-relation agent "
+                "\nPrefer the same frame-relation subagent when available "
                 f"from stage 1: reviewer.agent_id=`{expected_agent}`"
                 + (f", declared_model=`{expected_model}`." if expected_model else ".")
                 + "\n"
             )
+        import review_continuation
+        saved_blind = json.loads((check_dir / "frame-relation.antonym-axis.blind-record.json").read_text(encoding="utf-8"))
+        replay = review_continuation.replay_template(saved_blind, review_continuation.digest(packet))
+        provenance += (
+            "\nIf the original context is unavailable, give this frozen stage-2 packet to a "
+            "fresh independent subagent. Use its actual reviewer metadata and include "
+            "the following top-level stage1_replay object, filling only reason. Do not "
+            "redo the blind inference or rewrite the saved stage-1 record. A replacement "
+            "requires a preserved original stage-1 response; missing evidence is not a pass.\n```json\n"
+            + json.dumps(replay, ensure_ascii=False, indent=2) + "\n```\n"
+        )
         body = (
             "# Independent review handoff\n\n"
             "Stage: `checker_passes/frame-relation-antonym-axis-stage2`\n\n"
@@ -325,8 +337,7 @@ def prepare_handoff(
             + provenance
             + "\nSave one `antonym_axis_adjudication_record_v1` JSON object as "
             "`checker_passes.frame-relation.stage2.response.json`. Include the "
-            "same top-level handoff `reviewer` metadata used by the frame-relation "
-            "stage-1 response.\n\n"
+            "actual top-level handoff `reviewer` metadata of the executing subagent.\n\n"
             "## Prompt\n\n"
             + prompt_text
             + "\n\n## Input packet\n\n```json\n"
@@ -393,8 +404,9 @@ def prepare_handoff(
         "heartbeat/checkpoint discipline while the agents are running. Time targets are advisory; stop "
         "rather than silently restarting only if a non-time budget is exhausted.\n\n"
         "The `frame-relation` worker performs its blind stage 1 now; after fan-in "
-        "the coordinator generates a stage-2 request that must go back to that "
-        "same agent. The other six passes do not rerun.\n\n"
+        "the coordinator generates a self-contained stage-2 request. Prefer the same "
+        "subagent; if unavailable, follow the sealed-stage1 replay contract with a fresh "
+        "independent context. The other six passes do not rerun.\n\n"
         "## Fan-out files\n\n"
         + "\n".join(rows)
         + "\n",
@@ -557,20 +569,6 @@ def _process_parallel_stage2(
         generation_model=generation_model,
         label="frame-relation stage 2",
     )
-    if (
-        _v3.review_liveness.normalize_text(reviewer["agent_id"])
-        != _v3.review_liveness.normalize_text(expected_reviewer.get("agent_id"))
-    ):
-        raise ValueError(
-            "frame-relation stage 2 must use the same reviewer.agent_id as stage 1"
-        )
-    if (
-        _v3.review_liveness.normalize_text(reviewer["declared_model"])
-        != _v3.review_liveness.normalize_text(expected_reviewer.get("declared_model"))
-    ):
-        raise ValueError(
-            "frame-relation stage 2 must use the same declared_model as stage 1"
-        )
     import handoff_provenance
     if manifest.get("orchestrator", {}).get("review_provenance_protocol") == handoff_provenance.PROTOCOL:
         reviewer["source_response"] = handoff_provenance.bind(response_path, repo_root)
@@ -591,6 +589,17 @@ def _process_parallel_stage2(
     stage2_request = json.loads(
         (check_dir / "frame-relation.antonym-axis.stage2.request.json").read_text(encoding="utf-8")
     )
+    import review_continuation
+    if blind_record.get("reviewer", {}).get("agent_id") != expected_reviewer.get("agent_id"):
+        raise ValueError("stage-1 checkpoint reviewer differs from preserved blind record")
+    replay_errors = review_continuation.validate_replay(
+        value, blind_record, review_continuation.digest(stage2_request),
+        other_agent_ids=[row.get("agent_id", "") for pid, row in reviewers.items()
+                         if pid != "frame-relation" and isinstance(row, dict)],
+        repo_root=repo_root,
+    )
+    if replay_errors:
+        raise ValueError("frame-relation continuation: " + "; ".join(replay_errors))
     adjudication = _v3.check_passes.bind_antonym_axis_adjudication_record(
         value, stage2_request, blind_record
     )

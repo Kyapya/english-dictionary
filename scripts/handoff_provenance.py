@@ -17,7 +17,7 @@ DECISIONS = {
     "candidate_results", "finding_results", "evidence_checks",
     "source_inventory_results", "attributions",
     "axes", "adjudications", "frame_findings", "unrouted_observations",
-    "input_body_sha256", "input_revision_id", "prompt_sha256",
+    "input_body_sha256", "input_revision_id", "prompt_sha256", "stage1_replay",
 }
 
 
@@ -100,6 +100,8 @@ def validate(output: dict, repo_root: Path, *, required: bool = False) -> list[s
                 for key in ("mode", "agent_id", "declared_model")
             ):
                 raise ValueError("source response reviewer differs from ingested reviewer")
+        if output.get("stage1_replay") != source.get("stage1_replay"):
+            raise ValueError("stage1_replay differs from preserved reviewer response")
         fields = DECISIONS.intersection(source)
         if not fields and not any(key in source for key in ("antonym_axis_blind_record", "adjudications", "blind_attribution_record")):
             raise ValueError("source response has no review decisions")
