@@ -968,7 +968,8 @@ def command_validate_changed(args: argparse.Namespace) -> int:
     changed_runs = {
         REPO_ROOT / path
         for path in changed
-        if path.startswith(("audits/workflow_runs/", "audits/workflow_migrations/")) and path.endswith(".json")
+        if path.startswith(("audits/workflow_runs/", "audits/workflow_migrations/"))
+        and path.endswith(".json") and len(Path(path).parts) == 4
     }
     changed_entries = {
         path for path in changed if path.startswith("entries/") and path.endswith(".md")

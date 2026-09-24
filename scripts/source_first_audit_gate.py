@@ -751,7 +751,7 @@ def command_validate_changed(args: argparse.Namespace) -> int:
             paths.add(_audit_path(path))
         elif raw.startswith("audits/") and raw.endswith(".json"):
             rel = Path(raw).relative_to("audits")
-            if any(part in {"runs", "history", "workflow_runs"} for part in rel.parts):
+            if any(part in {"runs", "history", "workflow_runs", "workflow_migrations"} for part in rel.parts):
                 continue
             if _is_non_entry_audit(path):
                 continue
