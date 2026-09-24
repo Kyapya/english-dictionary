@@ -2127,7 +2127,7 @@ def run_yield_acceptance(*, repo_root: Path = REPO_ROOT) -> dict[str, Any]:
     all_findings = [
         {**finding, "stage": f"check_pass:{output['pass_id']}"}
         for output in pass_outputs
-        for finding in output.get("findings", [])
+        for finding in review_validation.checker_findings_with_ids(output["pass_id"], output.get("findings", []))
     ]
     all_findings.extend(
         {**finding, "stage": "cold_review"}

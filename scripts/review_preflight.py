@@ -11,6 +11,7 @@ from pathlib import Path
 import content_audit
 import generate_audit_manifest as audit
 import review_validation
+import review_results
 
 # Keep dispatched v1 packet bindings compatible; the execution policy is versioned
 # separately in review_recovery.POLICY_VERSION.
@@ -40,7 +41,9 @@ def final_inputs(entry: Path, cycle: Path, root: Path, *, compact: bool = False)
     targets = content_audit.extract_targets(entry)
     relations = content_audit.extract_relations(targets)
     source = values["source_inventory"]
-    findings = [row for output in values["pass_findings"]["pass_outputs"] for row in output["findings"]]
+    findings = [row for output in values["pass_findings"]["pass_outputs"]
+                for row in review_validation.checker_findings_with_ids(
+                    output["pass_id"], output["findings"])]
     findings += values["cold_review"]["findings"] + values["final_blind"]["article_findings"]
     inventories = {
         "target_results": targets,
@@ -142,6 +145,8 @@ def final_inputs(entry: Path, cycle: Path, root: Path, *, compact: bool = False)
             "contract_version": values["contract_version"],
         })
         values = compact_values
+    if compact:
+        values["review_trace_contract"] = dict(review_results.TRACE_CONTRACT)
     return values
 
 
