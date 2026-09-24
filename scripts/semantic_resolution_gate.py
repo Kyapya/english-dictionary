@@ -367,6 +367,9 @@ def validate_manifest(
     phase: str = "final",
 ) -> list[str]:
     errors: list[str] = []
+    if manifest.get("schema_version") == "compact_audit_v1":
+        from compact_workflow import validate_audit
+        return validate_audit(audit_path, root=repo_root)
     if manifest.get("schema_version") == DERIVED_AUDIT_SCHEMA:
         from generate_audit_manifest import validate_generated_manifest
 
@@ -1025,7 +1028,7 @@ def command_validate_changed(args: argparse.Namespace) -> int:
             continue
         if raw_path.startswith("audits/") and raw_path.endswith(".json"):
             relative = Path(raw_path).relative_to("audits")
-            if any(part in {"runs", "history", "workflow_runs"} for part in relative.parts):
+            if any(part in {"runs", "history", "workflow_runs", "workflow_migrations"} for part in relative.parts):
                 continue
             if Path(raw_path).name in {
                 "escaped_defect_taxonomy.json",
