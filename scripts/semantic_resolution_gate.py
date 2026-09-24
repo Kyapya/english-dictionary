@@ -367,6 +367,9 @@ def validate_manifest(
     phase: str = "final",
 ) -> list[str]:
     errors: list[str] = []
+    if manifest.get("schema_version") == "compact_audit_v1":
+        from compact_workflow import validate_audit
+        return validate_audit(audit_path, root=repo_root)
     if manifest.get("schema_version") == DERIVED_AUDIT_SCHEMA:
         from generate_audit_manifest import validate_generated_manifest
 

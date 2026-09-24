@@ -1,0 +1,66 @@
+{
+  "workflow_contract_version": "compact_review_v1",
+  "roles": {
+    "A": {
+      "purpose": "Independent content review of major senses, grammar, examples, Japanese translations, lexical relations, register, pronunciation and etymology",
+      "taxonomy": [
+        "sense_boundary",
+        "semantic_direction_reversal",
+        "example_translation_alignment",
+        "example_attribution",
+        "grammar_pattern",
+        "lexical_relation_axis",
+        "register_region",
+        "pronunciation",
+        "etymology"
+      ]
+    },
+    "B": {
+      "purpose": "Independent comparison of article claims with original external references and detection of missing major senses and unsupported generalization",
+      "taxonomy": [
+        "source_contradiction",
+        "insufficient_evidence",
+        "missing_major_sense",
+        "unsupported_generalization",
+        "scope_qualification"
+      ]
+    }
+  },
+  "response_schema": {
+    "schema_version": "compact_review_response_v1",
+    "checked_areas": "array of requested area IDs actually inspected",
+    "unchecked_areas": "array of area IDs with a short reason",
+    "findings": [
+      {
+        "area": "requested area ID",
+        "severity": "blocking | minor | editorial | uncertainty",
+        "impact": "concrete learner impact",
+        "evidence": "observed text and source when relevant",
+        "action": "minimal correction or scope restriction"
+      }
+    ]
+  },
+  "receipt_fields_added_by_caller": [
+    "request_sha256",
+    "raw_response_sha256",
+    "raw_response_path",
+    "execution_id",
+    "model",
+    "recorded_at"
+  ],
+  "legacy_taxonomy_map": {
+    "example_translation_alignment": "A",
+    "semantic_direction_reversal": "A",
+    "sense_boundary_overlap": "A",
+    "cross_section_internal_contradiction": "A",
+    "compound_component_generalization": "A",
+    "argument_slot_role_mismatch": "A",
+    "lexical_relation_mislabel": "A",
+    "example_sense_attribution_mismatch": "A",
+    "regional_qualification": "A",
+    "absolute_scope_counterexample": "B",
+    "technical_terminology_conventionality": "B",
+    "pronunciation_symbol_explanation": "A",
+    "evidence_claim_mismatch": "B"
+  }
+}

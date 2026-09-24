@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import copy
 import hashlib
 import json
 import subprocess
@@ -18,6 +19,27 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 SCHEMA_VERSION = "content_audit_v4"
 GENERATOR_VERSION = "generate_audit_manifest_v1"
 BLIND_SEAL_VERSION = "blind_seal_v3"
+
+
+def _source_gate_with_final_review_attempt(
+    source_gate: dict[str, Any], final_review: dict[str, Any]
+) -> dict[str, Any]:
+    """Derive the completed attempt for audit output without changing inventory.
+
+    An already recorded attempt remains authoritative.  The raw final decision
+    establishes at least one attempt, but must not charge another attempt each
+    time the manifest is generated.
+    """
+    result = copy.deepcopy(source_gate)
+    if (final_review.get("decision") in {"pass", "reject"}
+            and isinstance(final_review.get("reviewer"), dict)
+            and final_review.get("recorded_at")):
+        usage = result.get("usage")
+        if isinstance(usage, dict):
+            used = usage.get("final_attempts_used", 0)
+            if isinstance(used, int) and not isinstance(used, bool):
+                usage["final_attempts_used"] = max(used, 1)
+    return result
 RAW_FILENAMES = {
     "source_inventory": "source_inventory.json",
     "normal_review": "pass_findings.json",
@@ -852,6 +874,7 @@ def generate_manifest(
     source_gate = raw["source_inventory"].get("source_first_audit")
     if not isinstance(source_gate, dict):
         raise ValueError("source_inventory.source_first_audit must be an object")
+    source_gate = _source_gate_with_final_review_attempt(source_gate, raw["final_review"])
     source_union_ids = {
         str(item["id"])
         for item in source_gate.get("source_union", [])

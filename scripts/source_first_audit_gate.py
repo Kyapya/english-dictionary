@@ -558,6 +558,9 @@ def validate_path(
     errors: list[str] = []
     manifest = _load(path, errors)
     if manifest:
+        if manifest.get("schema_version") == "compact_audit_v1":
+            from compact_workflow import validate_audit
+            return errors + validate_audit(path)
         manifest = _hydrate_generated_final_review(manifest, errors)
         errors.extend(
             validate_manifest(

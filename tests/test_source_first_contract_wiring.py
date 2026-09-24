@@ -59,7 +59,7 @@ class SourceFirstContractWiringTests(unittest.TestCase):
         entry = (ROOT / "prompts" / "entry_spec_v5.md").read_text(encoding="utf-8")
         source = (ROOT / "prompts" / "source_first_audit_v2.md").read_text(encoding="utf-8")
         workflow = (ROOT / ".github" / "workflows" / "validate.yml").read_text(encoding="utf-8")
-        self.assertIn("scripts/run_word.py", agents)
+        self.assertIn("scripts/start_word.py", agents)
         self.assertNotIn("confirm-remote", agents)
         self.assertIn("confirm_remote_checkpoint", orchestrator)
         self.assertIn("heartbeat_manifest", orchestrator)

@@ -112,7 +112,7 @@ class PromptContractTests(unittest.TestCase):
 
     def test_three_party_inputs_are_separated_by_the_orchestrator(self) -> None:
         completed = subprocess.run(
-            [sys.executable, "scripts/run_word.py", "--dry-run", "obvious"],
+            [sys.executable, "scripts/run_word.py", "--dry-run", "obvious", "--legacy"],
             cwd=REPO_ROOT,
             check=True,
             text=True,
@@ -185,13 +185,11 @@ class PromptContractTests(unittest.TestCase):
     def test_agents_routes_to_the_orchestrator(self) -> None:
         text = (REPO_ROOT / "AGENTS.md").read_text(encoding="utf-8")
         for marker in (
-            "python scripts/run_word.py --dry-run <headword>",
-            "prompts/entry_spec_v5.md",
-            "prompts/check_router_v6.md",
-            "prompts/check_pass_*_v6.md",
-            "prompts/final_blind_prompt_v2.md",
-            "prompts/final_review_spec_v3.md",
-            "prompts/notion_spec_v1.md",
+            "scripts/start_words.py",
+            "compact_review_v1",
+            "prompts/compact_entry_content_v1.md",
+            "prompts/compact_review_contract_v1.json",
+            "scripts/review_dependency_v4.py",
         ):
             self.assertIn(marker, text)
         for removed_procedure in (
@@ -205,15 +203,15 @@ class PromptContractTests(unittest.TestCase):
     def test_process_documents_point_at_the_specifications_the_router_selects(
         self,
     ) -> None:
-        """AGENTS.md and README.md must not drift from check_router_v6.md.
+        """Historical instructions still match the historical router.
 
         A router bump the process documents miss sends an agent to the previous
         pass specification, whose output the current ingestion contract rejects.
         """
         routed = _routed_pass_specifications()
         self.assertIn("prompts/check_pass_frame_relation_v7.md", routed)
-        for name in ("AGENTS.md", "README.md"):
-            document = (REPO_ROOT / name).read_text(encoding="utf-8")
+        for name in ("legacy_AGENTS.md", "legacy_workflow_readme.md"):
+            document = (REPO_ROOT / "docs" / name).read_text(encoding="utf-8")
             references = _documented_pass_specifications(document)
             self.assertTrue(references, f"{name} names no checker pass specification")
             for specification in routed:
@@ -237,8 +235,8 @@ class PromptContractTests(unittest.TestCase):
 
     def test_process_documents_describe_the_two_round_checker_handoff(self) -> None:
         """The checker handoff needs two responses; a one-round reading loops."""
-        for name in ("AGENTS.md", "README.md"):
-            document = (REPO_ROOT / name).read_text(encoding="utf-8")
+        for name in ("legacy_AGENTS.md", "legacy_workflow_readme.md"):
+            document = (REPO_ROOT / "docs" / name).read_text(encoding="utf-8")
             for marker in (
                 "2往復",
                 "checker_passes.stage1.json",
@@ -252,10 +250,9 @@ class PromptContractTests(unittest.TestCase):
 
     def test_readme_routes_instead_of_repeating_the_old_process_specs(self) -> None:
         text = (REPO_ROOT / "README.md").read_text(encoding="utf-8")
-        self.assertIn("OpenAI APIキーは不要", text)
-        self.assertIn("scripts/run_word.py --dry-run", text)
-        self.assertIn("content_audit_v4", text)
-        self.assertIn("scripts/generate_audit_manifest.py", text)
+        self.assertIn("compact_review_v1", text)
+        self.assertIn("scripts/compact_workflow.py", text)
+        self.assertIn("docs/legacy_workflow_integrity.md", text)
         self.assertNotIn("prompts/check_spec_v5.md だけを全文", text)
         self.assertNotIn("scripts/content_audit.py start-cycle", text)
 
