@@ -62,6 +62,13 @@ def checker_findings_with_ids(pass_id: str, findings: Any) -> Any:
     return result
 
 
+def checker_finding_id(pass_id: str, finding: dict[str, Any]) -> str:
+    """Return the stable ID used in the derived view, without editing raw evidence."""
+    if not isinstance(finding, dict):
+        raise ValueError("checker finding must be an object")
+    return checker_findings_with_ids(pass_id, [finding])[0]["id"]
+
+
 def metadata_errors(raw: dict, stage: str, body_hash: str,
                     expected_artifacts: set[str]) -> list[dict]:
     errors: list[dict] = []

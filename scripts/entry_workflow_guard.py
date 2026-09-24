@@ -788,7 +788,9 @@ def _is_registered_review_demotion(
 
 
 def _all_run_paths() -> list[Path]:
-    return sorted(RUNS_ROOT.glob("*/*.json")) if RUNS_ROOT.exists() else []
+    paths = list(RUNS_ROOT.glob("*/*.json")) if RUNS_ROOT.exists() else []
+    paths.extend((REPO_ROOT / "audits/workflow_migrations").glob("*/*.json"))
+    return sorted(paths)
 
 
 def _validate_paths(paths: list[Path], *, merge_ready: bool) -> int:
@@ -796,7 +798,19 @@ def _validate_paths(paths: list[Path], *, merge_ready: bool) -> int:
     for path in paths:
         try:
             manifest = _read(path)
-            errors = validate_manifest(manifest, merge_ready=merge_ready)
+            if merge_ready and manifest.get("status") == "in_progress" and path.is_relative_to(RUNS_ROOT):
+                overlay = REPO_ROOT / "audits/workflow_migrations" / str(manifest.get("headword", "")) / path.name
+                if overlay.is_file():
+                    from compact_workflow import validate_completed
+                    migrated = _read(overlay)
+                    if migrated.get("run_id") == manifest.get("run_id") and not validate_completed(migrated, root=REPO_ROOT):
+                        print(f"PASS {path.relative_to(REPO_ROOT)} (preserved migrated history)")
+                        continue
+            if manifest.get("workflow_contract_version") == "compact_review_v1":
+                from compact_workflow import validate_completed
+                errors = validate_completed(manifest, root=REPO_ROOT) if merge_ready or manifest.get("status") == "completed" else []
+            else:
+                errors = validate_manifest(manifest, merge_ready=merge_ready)
         except (OSError, ValueError, json.JSONDecodeError) as exc:
             errors = [str(exc)]
         if errors:
@@ -954,7 +968,8 @@ def command_validate_changed(args: argparse.Namespace) -> int:
     changed_runs = {
         REPO_ROOT / path
         for path in changed
-        if path.startswith("audits/workflow_runs/") and path.endswith(".json")
+        if path.startswith(("audits/workflow_runs/", "audits/workflow_migrations/"))
+        and path.endswith(".json") and len(Path(path).parts) == 4
     }
     changed_entries = {
         path for path in changed if path.startswith("entries/") and path.endswith(".md")

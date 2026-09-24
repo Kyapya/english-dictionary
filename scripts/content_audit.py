@@ -2476,6 +2476,11 @@ def validate_manifest(
     if not isinstance(manifest, dict):
         return [f"audit manifest must be a JSON object: {audit_path}"]
     schema_version = manifest.get("schema_version")
+    if schema_version == "compact_audit_v1":
+        from compact_workflow import validate_audit
+        if manifest.get("entry_path") != str(entry_path.resolve().relative_to(repo_root.resolve())):
+            return ["compact audit refers to another entry"]
+        return validate_audit(audit_path, root=repo_root)
     if schema_version == DERIVED_AUDIT_SCHEMA_VERSION:
         from generate_audit_manifest import validate_generated_manifest
 

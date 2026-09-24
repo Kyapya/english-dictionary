@@ -198,4 +198,38 @@ _parallel._v3.plan_payload = _dispatch_plan_payload
 
 
 if __name__ == "__main__":
+    # New runs use the compact contract. Existing manifests keep their pinned
+    # v3 engine and audit requirements; no historical run changes version on
+    # resume merely because the default changed.
+    import json
+    import sys
+    import compact_workflow
+    from slugify import slugify
+
+    arguments = sys.argv[1:]
+    if "--resume" in arguments:
+        location = Path(arguments[arguments.index("--resume") + 1])
+        if location.is_file() and json.loads(location.read_text(encoding="utf-8")).get(
+            "workflow_contract_version"
+        ) == compact_workflow.VERSION:
+            if len(arguments) == 2:
+                raise SystemExit(compact_workflow.main(arguments))
+            raise SystemExit("Use scripts/compact_workflow.py for compact review requests and receipts")
+    elif arguments and not arguments[0].startswith("-") and "--legacy" not in arguments:
+        word = slugify(arguments[0])
+        if "--dry-run" in arguments:
+            print(json.dumps({"workflow_contract_version": compact_workflow.VERSION,
+                              "headword": word,
+                              "stages": ["research_and_draft", "mechanical_validation",
+                                         "independent_review_A", "independent_review_B",
+                                         "resolve_findings", "affected_area_verification",
+                                         "publish_gate"]}, ensure_ascii=False, indent=2))
+            raise SystemExit(0)
+        entry = REPO_ROOT / "entries" / word[0] / (word + ".md")
+        inventory = REPO_ROOT / "audits/runs" / word[0] / word / "source_inventory.json"
+        path = compact_workflow.start(word, entry, inventory)
+        print(path.relative_to(REPO_ROOT))
+        raise SystemExit(0)
+    if "--legacy" in arguments:
+        sys.argv.remove("--legacy")
     raise SystemExit(_parallel._v3.main())
