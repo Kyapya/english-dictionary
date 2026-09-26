@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/a/assert.md",
+  "created_at": "2026-09-26T23:59:54Z",
+  "base_body_sha256": "12115d02203aaffae753e2ca1d332994e515d514240fac26d95148a52caf920a",
+  "head_body_sha256": "063b037d240aae49451d3e15806c238017a786b90ec5b65e7febf46457145394",
+  "diff_sha256": "c481d546d59836f27485b9cc029b382d3aafb48f79ebf6724d096474114b2b43",
+  "user_request": "assert.md 修正依頼書（コアイメージ、語義1〜4、assertive/claim/affirm、語形成・語源・発音・assertThat の12項目。頻度・反意語は対象外）",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "claude-code-targeted-review",
+    "verdict": "pass",
+    "notes": "12項目と完了条件を確認。語義2語法欄の『他者に認めさせる対象』を整合のため修正"
+  },
+  "pi_processing": {
+    "status": "save_error",
+    "reason": "learning_delta.schema_version must be process_improvement_learning_delta_v2"
+  }
+}
