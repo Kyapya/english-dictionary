@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-5.6-luna-wm
 created_at: 2026-08-25
-updated_at: 2026-08-25
+updated_at: 2026-09-26
 checked: true
 tags: []
 ---
@@ -19,8 +19,8 @@ tags: []
 
 ＃語源
 
-ラテン語 asserere「主張する、認めさせる」に由来し、その過去分詞 assertus を経て17世紀初頭の英語に入った。語源上は ad-「〜へ」と serere「つなぐ」に分けて説明される。  
-現在の「命題・権利・存在を前面に出し、認めさせる」という意味の広がりは、語源的な「自分の主張を提示する」発想と大まかに対応するが、語源だけから現代の各語義を機械的に導けるわけではない。  
+ラテン語 asserere「主張する、認めさせる」に由来し、その過去分詞 assertus を経て17世紀初頭の英語に入った。語源上は ad-「〜へ」と serere「つなぐ、結びつける」に分けられ、原義は「自分に結びつける」、そこから「自分のものだと主張する」へ発展した。  
+現在の「命題・権利・存在を前面に出し、認めさせる」という意味の広がりは、この「自分の側に引き寄せて認めさせる」発想と大まかに対応するが、語源だけから現代の各語義を機械的に導けるわけではない。  
 同語源・派生関係の学習語は assertion「主張、断言」、assertive「自己主張の強い、断定的な」、assertiveness「自己主張、積極性」、reassert「再び主張する」である。  
 
 ＃語形成
@@ -49,7 +49,7 @@ assert の共通核は、命題・権利・権威・存在などを、はっき�
 
 【頻度】〈9/10〉  
 
-【レジスター/領域】標準語。会話にも使うが、報道、論文、議論、法廷・公式発言など、主張の内容を距離を置いて述べる書き言葉で特に頻出する。  
+【レジスター/領域】標準語。会話にも使うが、報道、論文、議論、法廷・公式発言など、他者の主張を報告・検討する書き言葉で特に頻出する。  
 
 【文法パターン】`assert that ...`＝〜だと断言する／`assert 〈belief/claim/innocence〉`＝信念・主張・無実などを強く主張する／`assert 「発言」`＝「…」と断言する／`it is asserted that ...`＝〜だと主張されている  
 
@@ -88,7 +88,7 @@ assert の共通核は、命題・権利・権威・存在などを、はっき�
 【語法・注意】assert は通常、`assert that ...` の that節、または `assert one's innocence` のような名詞句を目的語に取る。裸の `assert about ...` は通常用いず、内容は直接目的語か that節で置く。一方、`assert something about ...` のように目的語を置けば、〜について何かを主張するという形は可能である。  
 
 assert は「証明する」「真実だと確認する」という意味ではない。`He asserted that the figures were correct.` は、彼がそう強く述べたことを表すだけで、数値の正しさが証明されたことは含まない。  
-単純な `say` よりも主張の強さ・確信・反論への構えが出やすい。反対に、`affirm` は根拠や確信に基づく確認、`claim` は未証明・争いの余地がある主張という含みが出やすい。  
+単純な `say` よりも主張の強さ・確信・反論への構えが出やすい。一方、`affirm` は根拠や確信に基づく確認、`claim` は未証明・争いの余地がある主張という含みが出やすい。  
 Java などのプログラミング言語にある `assert` は、条件式が真であるという前提を実行時に確認する構文であり、通常の英文の `assert that ...` とは構文も働きも異なる。  
 
 【類義語】
@@ -154,7 +154,7 @@ Java などのプログラミング言語にある `assert` は、条件式が�
 ・`assert one's rights`  
 用途: 自分に認められるべき権利を、相手や制度に認識させようとする。  
 例: The tenants organized to assert their rights.  
-訳: 借家人たちは、自分たちの権利を主張するために組織した。  
+訳: 借家人たちは、自分たちの権利を主張するために団結した。  
 
 ・`assert one's independence`  
 用途: 他者・他国・親組織から独立した立場を認めさせる。  
@@ -163,8 +163,8 @@ Java などのプログラミング言語にある `assert` は、条件式が�
 
 ・`assert authority over 〈people/team〉`  
 用途: 人々やチームに対する自分の指揮権・権限を示す。  
-例: The manager asserted her authority over the chaotic meeting.  
-訳: その管理職は、混乱した会議で自分の権限を示した。  
+例: The new manager quickly asserted her authority over the team.  
+訳: 新任の管理職は、すぐにチームに対する自分の権限を示した。  
 
 ・`assert control over 〈area/situation〉`  
 用途: 地域や状況を自分の管理下に置こうとする。  
@@ -254,8 +254,8 @@ Java などのプログラミング言語にある `assert` は、条件式が�
 
 ・`assert oneself in a meeting`  
 用途: 会議で自分の意見や立場をはっきり示す。  
-例: She used to stay silent in meetings, but now she asserts herself in meetings.  
-訳: 彼女は以前は会議で黙っていたが、今では会議で自己主張する。  
+例: She used to stay silent in meetings, but now she asserts herself.  
+訳: 彼女は以前は会議で黙っていたが、今でははっきり自己主張する。  
 
 ・`assert oneself with 〈権限をもつ人〉`  
 用途: 上司や権限をもつ相手にも、自分の意見・権利を伝える。  
@@ -270,7 +270,7 @@ Java などのプログラミング言語にある `assert` は、条件式が�
 ・`try to assert yourself`  
 用途: 自分の意見・存在を認めてもらおうと試みる。  
 例: If you disagree, try to assert yourself without interrupting others.  
-訳: 反対意見があるなら、他人の話を遮らずに自己主張してみなさい。  
+訳: 反対意見があるなら、他人の話を遮らずに自分の考えをはっきり伝えるようにしよう。  
 
 ・`assert yourself more`  
 用途: これまでより積極的に発言・行動するよう促す。  
@@ -301,14 +301,14 @@ assertive は「自信をもって率直に自分の考えや権利を表す」�
 頻度: 〈8/10〉  
 違い: `stand up for oneself` は相手からの攻撃・不公平・侵害への対抗を強く示す。`assert oneself` は対立がない場面で存在感を示す場合にも使える。  
 例: She finally stood up for herself when her colleague took credit for her work.  
-訳: 同僚が自分の仕事の功績を横取りしたとき、彼女はついに自分のために立ち上がった。  
+訳: 同僚に自分の仕事の手柄を横取りされたとき、彼女はついに毅然と言い返した。  
 
 ・be assertive  
 定義: 自信をもって率直に意見や要求を表す。  
 頻度: 〈7/10〉  
 違い: `be assertive` は性格・態度の特性を述べる形で、`assert oneself` は特定の場面で自己主張する行為を述べる。  
 例: You can be assertive without sounding rude.  
-訳: 失礼に聞こえなくても、自己主張はできる。  
+訳: 失礼な印象を与えずに自己主張することはできる。  
 
 ・put oneself forward  
 定義: 自分を候補・存在感のある人物として前面に出す。  
@@ -346,7 +346,7 @@ assertive は「自信をもって率直に自分の考えや権利を表す」�
 
 【頻度】〈4/10〉  
 
-【レジスター/領域】やや硬い書き言葉・文学的表現。報告、評論、描写などで見られ、日常会話では `become apparent`、`start to have an effect`、`make itself felt` などに言い換えることが多い。  
+【レジスター/領域】やや硬い書き言葉・文学的表現。報告、評論、描写などで見られ、日常会話では `kick in`、`start to show`、`start to have an effect` などに言い換えることが多い。  
 
 【文法パターン】`〈effect/problem/feeling〉 assert itself`＝効果・問題・感情などが現れ始める／`begin/start to assert itself`＝現れ始める・影響し始める／`assert itself in 〈data/behavior〉`＝データ・行動などに現れる／`assert itself again`＝再び表面化する  
 
@@ -372,7 +372,7 @@ assertive は「自信をもって率直に自分の考えや権利を表す」�
 例: The old tension asserted itself again during the negotiations.  
 訳: 交渉中、以前からの緊張が再び表面化した。  
 
-【語法・注意】主語には `effect`、`influence`、`fatigue`、`tension`、`trend` などの無生物・抽象名詞を置く。`itself` は主語に合わせた再帰代名詞で、`assert its self` とは書かない。  
+【語法・注意】主語には `effect`、`influence`、`fatigue`、`tension`、`trend` などの無生物・抽象名詞を置く。`itself` は主語に合わせた再帰代名詞で、`assert it` とはしない。  
 
 この `assert itself` は「権利を主張する」という意味ではない。日本語では「現れる」「影響が出る」「表面化する」「効いてくる」など、文脈に応じて訳す。  
 `assert itself` は `show itself` より硬く、単に見えるだけでなく、影響や存在感が次第に強くなる含みをもつことがある。  
@@ -396,7 +396,7 @@ assertive は「自信をもって率直に自分の考えや権利を表す」�
 ・make itself felt  
 定義: 効果、影響、存在などが無視できない形で感じられるようになる。  
 頻度: 〈7/10〉  
-違い: `make itself felt` は影響を実際に感じる結果に焦点があり、`assert itself` より比喩的で定型的である。  
+違い: `make itself felt` は影響が実際に感じられる結果に焦点がある。`assert itself` は存在感や勢いが前面に出てくる過程を表しやすい。  
 例: The shortage is beginning to make itself felt across the region.  
 訳: その不足が地域全体で感じられ始めている。  
 
