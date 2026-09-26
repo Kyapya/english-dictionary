@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/a/approximately.md",
+  "created_at": "2026-09-26T12:29:17Z",
+  "base_body_sha256": "ac6d17e3c04df98cdc44047956fab3112a3eb32d8d346bbc4c4c8e1d98c9ba07",
+  "head_body_sha256": "b400449baa4846adfeaff26e97157f7772bf69409e2f5ca2972478ebfa508cfd",
+  "diff_sha256": "306c5795bd6a788c6679cc5d5079523fe5132b79e4bd2766aa70ec5b71085adb",
+  "user_request": "approximately の解説のうち、英語ネイティブ・日本語として不自然な記述と解説書として問題のある記述の修正（全角＃は対象外）。",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "Claude Code targeted correction self-check (same session; not independent)",
+    "verdict": "pass",
+    "notes": "変更hunkのみ確認。approx./dated の日付用法を削除しc.を案内、approximately several hundred の容認記述と無関係な10 percents注記を削除、副詞が名詞にならない旨の紛らわしい記述を名詞前置用法の説明に置換、close to/nearly の自己矛盾・冗長説明を整理、precisely の英日混在を修正、in the region of を英国用法として明確化、用途の『資料』を量の例に修正。隣接文との矛盾なし。"
+  },
+  "pi_processing": {
+    "status": "pending",
+    "reason": "no coordinator learning_delta was supplied"
+  }
+}
