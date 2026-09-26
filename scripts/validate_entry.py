@@ -22,6 +22,29 @@ ORDERED_HEADINGS = [
     "＃コアイメージ",
     *FINAL_HEADING_ALIASES,
 ]
+
+
+def _normalized_major_heading(line: str) -> str | None:
+    """Return a known section heading in its canonical form.
+
+    Legacy entries use fullwidth hash markers. Markdown entries may use one or
+    two ASCII hash markers followed by a space.
+    """
+    stripped = line.strip()
+    if stripped in ORDERED_HEADINGS:
+        return stripped
+    match = re.fullmatch(r"#{1,2}\s+(.+?)(?:\s+#+)?", stripped)
+    if match is None:
+        return None
+    canonical = f"＃{match.group(1).strip()}"
+    return canonical if canonical in ORDERED_HEADINGS else None
+
+
+def _is_major_heading_line(line: str) -> bool:
+    stripped = line.strip()
+    return stripped.startswith("＃") or bool(re.match(r"^#{1,6}\s+", stripped))
+
+
 REQUIRED_FRONT_MATTER_KEYS = (
     "headword",
     "type",
@@ -149,7 +172,11 @@ def _check_headings(lines: list[str]) -> list[str]:
     errors: list[str] = []
     positions: dict[str, int] = {}
     for heading in ORDERED_HEADINGS:
-        matches = [index for index, line in enumerate(lines) if line.strip() == heading]
+        matches = [
+            index
+            for index, line in enumerate(lines)
+            if _normalized_major_heading(line) == heading
+        ]
         if len(matches) > 1:
             errors.append(f"duplicate heading: {heading}")
         if matches:
@@ -206,7 +233,7 @@ def _section_lines(lines: list[str], marker_index: int) -> list[tuple[int, str]]
     for index in range(marker_index + 1, len(lines)):
         stripped = lines[index].strip()
         if (
-            stripped.startswith("＃")
+            _is_major_heading_line(stripped)
             or stripped.startswith("【")
             or SENSE_PATTERN.match(stripped)
         ):
@@ -222,7 +249,7 @@ def _raw_section_lines(lines: list[str], marker_index: int) -> list[tuple[int, s
         raw = lines[index]
         stripped = raw.strip()
         if (
-            stripped.startswith("＃")
+            _is_major_heading_line(stripped)
             or stripped.startswith("【")
             or SENSE_PATTERN.match(stripped)
         ):
@@ -341,11 +368,15 @@ def _check_sense_blocks(
 def _check_v3_heading_layout(lines: list[str]) -> list[str]:
     errors: list[str] = []
     nonempty = [index for index, line in enumerate(lines) if line.strip()]
-    if nonempty and lines[nonempty[0]].strip() != "＃発音記号":
-        errors.append("current-spec body must start with ＃発音記号 and contain no preamble")
+    if nonempty and _normalized_major_heading(lines[nonempty[0]]) != "＃発音記号":
+        errors.append("current-spec body must start with the pronunciation heading and contain no preamble")
 
     for heading in ORDERED_HEADINGS:
-        matches = [index for index, line in enumerate(lines) if line.strip() == heading]
+        matches = [
+            index
+            for index, line in enumerate(lines)
+            if _normalized_major_heading(line) == heading
+        ]
         for index in matches:
             if index > nonempty[0] and (index == 0 or lines[index - 1].strip()):
                 errors.append(f"line {index + 1}: {heading} must have a blank line before it")
@@ -454,7 +485,7 @@ def _check_modern_content(lines: list[str], headword: str) -> list[str]:
 
 def _is_v5_structural_line(stripped: str) -> bool:
     return (
-        stripped in ORDERED_HEADINGS
+        _is_major_heading_line(stripped)
         or stripped in GROUPED_SENSE_LABELS
         or bool(SENSE_PATTERN.match(stripped))
     )
