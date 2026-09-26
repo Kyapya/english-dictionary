@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/a/assert.md",
+  "created_at": "2026-09-26T22:08:39Z",
+  "base_body_sha256": "a1914433d5ed1e194b3a5090413022bbd8ac56c6d0db198e038168185004bcb1",
+  "head_body_sha256": "62766c01bc11d021ab4a5e4bf8c08f3562c65d9da997cd40e11deee807969316",
+  "diff_sha256": "06ba18b06f147ac0a9fa32611dd765808d2c59e677f77a9b08bf8fe5bdeb0933",
+  "user_request": "assert.md の日本語・英語ネイティブ視点での不自然な箇所、解説書として不正確・矛盾・重複する箇所を修正する（全角＃見出しは対象外）。",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "Claude targeted correction review",
+    "verdict": "pass",
+    "notes": "変更hunkと直近文脈を照合。語源説明の論理補強、レジスター記述の矛盾解消、例文の冗長・不自然表現と誤訳（be assertive等）修正、重複注記削除、assert themselves の注記整合を確認。未変更部分は対象外。"
+  },
+  "pi_processing": {
+    "status": "pending",
+    "reason": "no coordinator learning_delta was supplied"
+  }
+}
