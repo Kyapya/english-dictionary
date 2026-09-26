@@ -162,17 +162,12 @@ Late Middle English。ラテン語 appropriatus（appropriare「自分のもの�
 例: The funds were appropriated for environmental restoration.  
 訳: その資金は環境の回復のために充当された。  
 
-・appropriate resources for 〈program〉  
-用途: 事業に必要な資源を公的に配分する。  
-例: The legislature appropriated additional resources for the health program.  
-訳: 議会は保健事業に追加の資源を配分した。  
+・appropriate 〈amount/a sum〉 for 〈purpose〉  
+用途: 具体的な金額や一定額を特定の目的に計上したことを述べる。公的文書で頻出する。  
+例: Congress appropriated $2 billion for disaster relief.  
+訳: 議会は災害救援に20億ドルを計上した。  
 
-・appropriate a sum for 〈construction/maintenance〉  
-用途: 建設や維持管理に特定額を計上する。  
-例: The council appropriated a sum for bridge maintenance.  
-訳: 市議会は橋の維持管理のために一定額を計上した。  
-
-【語法・注意】公的機関などが目的を定めて予算や資源を取り分ける語。実際に支払う・使い切るという意味ではなく、無断で流用する語義3とは権限と目的の向きが異なる。  
+【語法・注意】公的機関などが目的を定めて予算や資源を取り分ける語。実際に支払う・使い切るという意味ではない。他者のものを自分に取り込む語義3とは、権限の有無と、何に属させるか（公的な目的か自分か）が異なる。  
 
 【類義語】
 
@@ -262,7 +257,7 @@ Late Middle English。ラテン語 appropriatus（appropriare「自分のもの�
 ・plagiarize  
 定義: 他人の文章・考え・作品を自分のものとして発表する。  
 頻度: 〈5/10〉  
-違い: appropriate のうち、知的成果の無断利用に限定される。  
+違い: appropriate より対象が狭く、他人の知的成果を自分のものとして発表する無断利用に限定される。  
 例: The student plagiarized material from an online article.  
 訳: その学生はオンライン記事の内容を盗用した。  
 
