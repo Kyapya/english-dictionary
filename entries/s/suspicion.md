@@ -10,22 +10,22 @@ checked: true
 tags: []
 ---
 
-＃発音記号
+# 発音記号
 
-Oxford は米・英とも /səˈspɪʃn/ と表記する。Oxford Advanced Learner’s Dictionary（OALD10）の解説では、位置から分かる音節主音 /n/ は [n̩] のような補助記号を付けずに表す。このため /səˈspɪʃn/ の語末 /n/ が音節を担い、全体は3音節と読める。Merriam-Webster の音節別表記 sə-ˈspi-shən も3音節で、第2音節に主強勢を置く。語頭の su- は強く /suː/ と読まず、弱い /sə/ になる。  
+Oxford は米・英とも /səˈspɪʃn/ と表記する。強勢は第2音節。語頭は弱い /sə/、語末は「シュン」に近く、全体で3音節。  
 
-＃語源
+# 語源
 
-suspicion は中英語を経て、アングロフランス語／古フランス語形から英語に入った。語源資料はラテン語形を Oxford が suspectio(n-)、Merriam-Webster が suspicion- / suspicio、Etymonline が後期ラテン語 suspectionem（主格 suspectio）と記している。語源はラテン語 suspicere に関係し、英語の綴りには14世紀の古フランス語形の影響があったとされる。  
-Etymonline は、ラテン語 suspicere を sub-（“up to”）＋ specere（“to look at”）からなる形と説明している。suspicere には「見上げる」「ひそかに見る」「疑いの目で見る」などの意味があった。Etymonline は「ひそかに見る」から「疑いの目で見る」への意味のつながりを示している。  
+ラテン語 suspicere（sub-「下から上へ」＋ specere「見る」）に由来する。「見上げる」から「こっそり見る」、さらに「疑いの目で見る」へ意味がつながったと説明される。  
+
 同じ語根に連なる語に suspect、inspect、respect、spectator などがある。  
 
-＃語形成
+# 語形成
 
 Oxford は suspect（動詞・名詞・形容詞）、suspicious（形容詞）、suspiciously（副詞）を suspicion の語族として挙げている。各語の詳しい意味はそれぞれの項目を参照。  
 なお、動詞 suspicion は Merriam-Webster では主に方言的、American Heritage では口語的な用法として記載されるが、本記事ではその動詞用法を扱わず、名詞用法のみを説明する。  
 
-＃コアイメージ
+# コアイメージ
 
 確証はないが、何かがあるのではないかと感じ取ることが共通の核である。  
 ・確証はないが、人の不正を感じ取ること → 「容疑、犯罪・不正をしたのではないかという疑い」（語義1）  
@@ -33,9 +33,9 @@ Oxford は suspect（動詞・名詞・形容詞）、suspicious（形容詞）�
 ・確証はないが、ある事態を感じ取ること → 「～ではないかという気、確証のない推測」（語義3）  
 ・確証できないほどかすかに感じ取れる量 → 「ほんの少し、かすかな気配」（語義4）  
 
-＃意味・用法・関連表現
+# 意味・用法・関連表現
 
-【頻度表記】頻度スコアは語全体の使用回数やコーパス値ではなく、直前の定義が示す語義について、現代英語全体での遭遇機会を編集上評価した目安である。10＝会話・文章で日常的に出会う基本語、8～9＝日常・新聞・ビジネスで広く使われる、6～7＝使われる機会はあるが語義や場面がやや限られる、4～5＝比較的限られた場面で使われる、2～3＝特定の分野・地域・文体に偏る、1＝現代英語ではまれ。厳密な統計値や語義間の順位を示さない。  
+【頻度表記】スコアは各語義との遭遇機会を示す編集上の目安で、厳密な統計値ではない。  
 
 1. 【名詞・可算／不可算】容疑、犯罪・不正をしたのではないかという疑い
 
@@ -43,16 +43,21 @@ Oxford は suspect（動詞・名詞・形容詞）、suspicious（形容詞）�
 
 【頻度】〈8/10〉  
 
-【レジスター/領域】一般名詞。辞書には on suspicion of ... を逮捕理由として用いる例がある。Merriam-Webster の法律辞典は suspicion を、証拠なしに、またはわずかな証拠に基づいて、何かが間違っている、またはある事実が存在すると考える、通常は確信に至らない心理状態として説明する。  
+【レジスター/領域】中立。報道・法律・日常で広く使う。  
 
-【文法パターン】suspicion that 〈person committed a crime/wrongdoing〉＝〈人が犯罪・不正をした〉のではないかという疑い／suspicion of 〈crime/wrongdoing〉＝〈犯罪・不正〉の疑い／arouse suspicion that 〈person committed a crime/wrongdoing〉＝〈人が犯罪・不正をした〉という疑いを招く／on suspicion of 〈crime〉＝〈犯罪〉の容疑で／be under suspicion＝疑いをかけられている／come/fall under suspicion＝疑いをかけられるようになる／cast suspicion on 〈person/action suspected of wrongdoing〉＝〈人・行為〉に犯罪・不正の疑いを向ける／confirm suspicions that 〈person committed a crime/wrongdoing〉＝〈人が犯罪・不正をした〉という疑いを裏付ける。  
+【文法パターン】suspicion that 〈person committed a crime/wrongdoing〉＝〈人が犯罪・不正をした〉のではないかという疑い／suspicion of 〈crime/wrongdoing〉＝〈犯罪・不正〉の疑い／arouse/raise suspicion(s) that 〈person committed a crime/wrongdoing〉＝〈人が犯罪・不正をした〉という疑いを招く／on suspicion of 〈crime〉＝〈犯罪〉の容疑で／be under suspicion＝疑いをかけられている／come/fall under suspicion＝疑いをかけられるようになる／cast suspicion on 〈person/action suspected of wrongdoing〉＝〈人・行為〉に犯罪・不正の疑いを向ける／confirm suspicions that 〈person committed a crime/wrongdoing〉＝〈人が犯罪・不正をした〉という疑いを裏付ける。  
 
 【コロケーション】
 
-・arouse suspicion  
-用途: 人の行動などから、その人が犯罪・不正をしたのではないかという疑いが生じる。  
-例: Among the auditors, the unexplained transfer of client funds aroused suspicion that the treasurer had committed fraud.  
-訳: 監査担当者の間では、顧客資金の使途不明な移動により、会計係が詐欺を行ったのではないかという疑いが生じた。  
+・arouse/raise suspicion(s)  
+用途: 人の行動や事実から、犯罪・不正の疑いが生じる、または疑いを招く。  
+例: The unexplained transfer of client funds raised suspicions that the treasurer had committed fraud.  
+訳: 説明のつかない顧客資金の移動により、会計係が詐欺を働いたのではないかという疑いが生じた。  
+
+・above suspicion  
+用途: 人が不正をしたとは考えにくいほど潔白だと見られていることを表す。  
+例: As the company's founder, she was considered above suspicion.  
+訳: 創業者である彼女は、疑いの余地がないとみなされていた。  
 
 ・on suspicion of 〈crime〉  
 用途: 警察などが、ある犯罪を行った疑いを理由に人を逮捕したことを述べる。  
@@ -72,14 +77,24 @@ Oxford は suspect（動詞・名詞・形容詞）、suspicious（形容詞）�
 ・cast suspicion on 〈person/action suspected of wrongdoing〉  
 用途: 犯罪・不正をした可能性がある人や行為に疑いを向けることを表す。  
 例: The altered timestamp cast suspicion on the clerk who had access to the report.  
-訳: 変更された時刻表示によって、報告書にアクセスできた事務員に疑いが向けられた。  
+訳: 改ざんされたタイムスタンプによって、報告書にアクセスできた事務員に疑いが向けられた。  
+
+・suspicion falls on 〈person〉  
+用途: 疑いの目が特定の人に向けられることを表す。  
+例: When the files went missing, suspicion fell on the office manager.  
+訳: 書類がなくなったとき、疑いはオフィスの責任者に向けられた。  
+
+・allay/dispel suspicion(s)  
+用途: 誰かが不正をしたという疑いを弱めたり、晴らしたりすることを表す。  
+例: The audit results dispelled suspicions that the treasurer had committed fraud.  
+訳: 監査結果により、会計係が詐欺をしたという疑いは晴れた。  
 
 ・confirm suspicions  
 用途: それまで抱いていた疑いが裏付けられることを表す。  
 例: The security footage confirmed the manager's suspicions that a guard had stolen the missing laptops.  
 訳: 防犯映像によって、警備員がなくなったノートパソコンを盗んだという管理者の疑いが裏付けられた。  
 
-【語法・注意】on suspicion of theft は「窃盗の疑いを理由に」という定型表現である。under suspicion は、Oxford の説明では不正をしたのではないかと疑われている状態を表す。accusation や allegation は類義語ではなく、誰かが不正をしたという主張・告発を指す関連語である。人を疑う場合でも、その人に犯罪・不正の容疑を向けるなら語義1に当たる。人・組織を信用できないという意味で使う suspicion of は、語義2の用法を参照。  
+【語法・注意】on suspicion of theft は「窃盗の疑いを理由に」という定型表現である。under suspicion は、不正をしたのではないかと疑われている状態を表す。accusation や allegation は類義語ではなく、誰かが不正をしたという主張・告発を指す関連語である。人を疑う場合でも、その人に犯罪・不正の容疑を向けるなら語義1に当たる。人・組織を信用できないという意味で使う suspicion of は、語義2の用法を参照。confirm suspicions that a person committed wrongdoing は語義1の用法で、事態についての推測を裏付ける confirm a suspicion は語義3を参照。  
 
 2. 【名詞・不可算中心】不信、警戒を伴う疑念
 
@@ -96,7 +111,7 @@ Oxford は suspect（動詞・名詞・形容詞）、suspicious（形容詞）�
 ・deep suspicion of 〈person/organization〉  
 用途: 人・組織などを根深く信用していないことを表す。  
 例: Many voters have a deep suspicion of large corporations.  
-訳: 多くの有権者は大企業を根深く信用していない。  
+訳: 多くの有権者は大企業に根強い不信感を抱いている。  
 
 ・regard/view 〈person/claim/proposal/action/decision〉 with suspicion  
 用途: 人・主張・提案・行為・決定をすぐには信用せず、疑いの目で見ることを表す。  
@@ -106,7 +121,7 @@ Oxford は suspect（動詞・名詞・形容詞）、suspicious（形容詞）�
 ・be greeted with (some) suspicion  
 用途: 申し出・提案などが、当初は信用されず、疑いをもって受け止められることを表す。  
 例: The new monitoring system was initially greeted with some suspicion.  
-訳: 新しい監視システムは当初、多少の疑いをもって受け止められた。  
+訳: 新しい監視システムは当初、いくらか警戒の目で見られた。  
 
 【語法・注意】with suspicion は「疑いの目で、信用せずに」という態度を表す。Oxford と American Heritage はこの語義を distrust / lack of confidence と説明する。Merriam-Webster は suspicion が真実性・現実性・公正さ・信頼性への信頼の薄さを強調すると説明し、mistrust は疑いに基づく信頼の欠如を強調するとしている。suspicion of 〈person/organization/motive〉 は、相手や動機を信用できないという意味で使う場合にこの語義に当たる。人の特定の犯罪・不正を疑う用法は語義1を参照。  
 
@@ -122,7 +137,7 @@ Oxford は suspect（動詞・名詞・形容詞）、suspicious（形容詞）�
 ・mistrust  
 定義: 人・物事を十分には信頼しないこと。  
 頻度: 〈7/10〉  
-違い: Merriam-Webster の説明では、mistrust は suspicion に基づく本物の疑いを含意する。suspicion は真実性・公正さ・信頼性への信頼の薄さに重心がある。  
+違い: distrust は信頼の欠如を幅広く表す。mistrust は相手や情報に確信が持てず、慎重に受け止める不信を表す。  
 例: There was longstanding mistrust between the two groups.  
 訳: その二つの集団の間には長年の不信があった。  
 
@@ -140,8 +155,8 @@ Oxford は suspect（動詞・名詞・形容詞）、suspicious（形容詞）�
 
 ・have a suspicion that 〈clause〉  
 用途: 十分な証拠はないが、あることが本当ではないかと感じていることを表す。  
-例: I have a suspicion that the meeting will finish earlier than planned.  
-訳: その会議は予定より早く終わるのではないかという気がしている。  
+例: I have a suspicion that he hasn't read the report yet.  
+訳: 彼はまだ報告書を読んでいないのではないかという気がする。  
 
 ・a sneaking suspicion that 〈clause〉  
 用途: はっきり認めるほどではないが、心のどこかでそう思っていることを表す。  
@@ -151,14 +166,14 @@ Oxford は suspect（動詞・名詞・形容詞）、suspicious（形容詞）�
 ・a strong suspicion that 〈clause〉  
 用途: あることが本当ではないかという強い推測を表す。  
 例: We had a strong suspicion that the delay was caused by a technical problem.  
-訳: 私たちは、その遅延は技術的な問題によるのではないかという強い疑いを抱いていた。  
+訳: 私たちは、その遅延は技術的な問題によるのではないかと強く思っていた。  
 
 ・confirm a suspicion  
 用途: それまで確証のなかった推測が、後の情報によって正しかったと分かる。  
 例: The test results confirmed her suspicion that the battery was failing.  
 訳: 検査結果によって、バッテリーが劣化しているのではないかという彼女の推測が裏付けられた。  
 
-【語法・注意】この語義では内容は悪いことに限らず、I have a suspicion that she may surprise us with good news. のように中立・肯定的な内容についても「そうではないかという気」を表せる。suspicion that ... は、人に犯罪・不正の容疑を向ける場合は語義1、事態についての推測を述べる場合は語義3に当たる。suspicion that ... の that は内容を導く接続詞で、suspicion of ... の of は名詞句を取る。a sneaking suspicion の sneaking はここでは「盗み歩く」という直訳ではなく、表立って確信してはいないが心の中にある感覚を表す。  
+【語法・注意】この語義では内容は悪いことに限らず、I have a suspicion that she may surprise us with good news. のように中立・肯定的な内容についても「そうではないかという気」を表せる。suspicion that ... は、人に犯罪・不正の容疑を向ける場合は語義1、事態についての推測を述べる場合は語義3に当たる。suspicion that ... の that は内容を導く接続詞で、suspicion of ... の of は名詞句を取る。a sneaking suspicion の sneaking は「こそこそ動く」の意。ここでは「打ち消しきれずに心に残る」感覚を表す。  
 
 【類義語】
 
@@ -182,7 +197,7 @@ Oxford は suspect（動詞・名詞・形容詞）、suspicious（形容詞）�
 
 【頻度】〈2/10〉  
 
-【レジスター/領域】Oxford はこの意味に formal のラベルを付け、hint を類義語として挙げている。  
+【レジスター/領域】formal（やや改まった語）。hint より改まった表現。  
 
 【文法パターン】a suspicion of 〈color/flavor/smell/emotion〉＝ほんの少しの〈色・味・匂い・感情〉／a suspicion of a smile＝かすかな笑み。  
 
