@@ -11,7 +11,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
-from targeted_correction import build_record, validate_changed  # noqa: E402
+from targeted_correction import _unified_diff, build_record, validate_changed  # noqa: E402
 
 
 BASE_ENTRY = """---
@@ -50,12 +50,7 @@ def add_correction(root: Path, base: str, *, extra_file: bool = False) -> str:
     entry = root / entry_path
     head_text = BASE_ENTRY.replace("Original explanation.", "Corrected explanation.")
     entry.write_text(head_text, encoding="utf-8")
-    diff_text = subprocess.run(
-        ["git", "-C", str(root), "diff", "--unified=3", base, "--", entry_path],
-        check=True,
-        capture_output=True,
-        text=True,
-    ).stdout
+    diff_text = _unified_diff(BASE_ENTRY, head_text, entry_path)
     record = build_record(
         entry_path=entry_path,
         base_text=BASE_ENTRY,
