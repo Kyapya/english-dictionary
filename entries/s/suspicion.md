@@ -1,6 +1,3 @@
-Warning: truncated output (original token count: 4424)
-Total output lines: 244
-
 ---
 headword: suspicion
 type: word
@@ -109,7 +106,26 @@ suspiciously: 副詞「怪しげに、疑わしげに」。
 
 【レジスター/領域】一般的な用法。with suspicion は人や物事を信用せずに見る態度を表す。  
 
-【文法パターン…424 tokens truncated…きないという意味で使う場合にこの語義に当たる。人の特定の犯罪・不正を疑う用法は語義1を参照。  
+【文法パターン】suspicion of 〈person/organization/motive〉＝〈人・組織・動機〉への不信（この語義では、相手や動機の信頼性を疑う用法）／regard/view 〈person/claim/proposal/action/decision〉 with suspicion＝〈人・主張・提案・行為・決定〉を疑いの目で見る／〈offer/proposal〉 be greeted with (some) suspicion＝〈申し出・提案〉が（多少の）疑いをもって受け止められる。  
+
+【コロケーション】
+
+・deep suspicion of 〈person/organization〉  
+用途: 人・組織などを根深く信用していないことを表す。  
+例: Many voters have a deep suspicion of large corporations.  
+訳: 多くの有権者は大企業に根強い不信感を抱いている。  
+
+・regard/view 〈person/claim/proposal/action/decision〉 with suspicion  
+用途: 人・主張・提案・行為・決定をすぐには信用せず、疑いの目で見ることを表す。  
+例: Residents viewed the sudden policy change with suspicion.  
+訳: 住民たちは突然の方針変更を疑いの目で見た。  
+
+・be greeted with (some) suspicion  
+用途: 申し出・提案などが、当初は信用されず、疑いをもって受け止められることを表す。  
+例: The new monitoring system was initially greeted with some suspicion.  
+訳: 新しい監視システムは当初、いくらか警戒の目で見られた。  
+
+【語法・注意】with suspicion は「疑いの目で、信用せずに」という態度を表す。Oxford と American Heritage はこの語義を distrust / lack of confidence と説明する。suspicion of 〈person/organization/motive〉 は、相手や動機を信用できないという意味で使う場合にこの語義に当たる。人の特定の犯罪・不正を疑う用法は語義1を参照。  
 
 【類義語】
 
