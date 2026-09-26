@@ -290,7 +290,9 @@ def _check_relation_blocks(lines: list[str], marker: str) -> list[str]:
     )
 
 
-def _check_sense_blocks(lines: list[str]) -> list[str]:
+def _check_sense_blocks(
+    lines: list[str], *, allow_missing_synonyms: bool = False
+) -> list[str]:
     errors: list[str] = []
     starts = [index for index, line in enumerate(lines) if SENSE_PATTERN.match(line.strip())]
     if not starts:
@@ -305,11 +307,14 @@ def _check_sense_blocks(lines: list[str]) -> list[str]:
         "【語法・注意】",
         "【類義語】",
     ]
+    ordered_markers = required_markers + ["【反意語】"]
+    if allow_missing_synonyms:
+        required_markers.remove("【類義語】")
     for number, start in enumerate(starts, start=1):
         end = starts[number] if number < len(starts) else len(lines)
         block = lines[start:end]
         positions: dict[str, int] = {}
-        for marker in required_markers + ["【反意語】"]:
+        for marker in ordered_markers:
             matches = [
                 index
                 for index, line in enumerate(block)
@@ -325,7 +330,7 @@ def _check_sense_blocks(lines: list[str]) -> list[str]:
         present_order = sorted(positions, key=positions.get)
         expected_order = [
             marker
-            for marker in required_markers + ["【反意語】"]
+            for marker in ordered_markers
             if marker in positions
         ]
         if present_order != expected_order:
@@ -707,7 +712,12 @@ def validate_text(text: str) -> list[str]:
 
     lines = body.splitlines()
     errors.extend(_check_headings(lines))
-    errors.extend(_check_sense_blocks(lines))
+    errors.extend(
+        _check_sense_blocks(
+            lines,
+            allow_missing_synonyms=front_values.get("prompt_version") == "entry_spec_v5",
+        )
+    )
     errors.extend(_check_example_translation_balance(lines))
     errors.extend(_check_collocation_blocks(lines))
     errors.extend(_check_relation_blocks(lines, "【類義語】"))
