@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/a/adequate.md",
+  "created_at": "2026-09-26T11:15:15Z",
+  "base_body_sha256": "a93e434b0d880bbe8f28db5ace8296856dc068e9203b72cccc30f8e88dc0d06f",
+  "head_body_sha256": "94e29a63452d8e0a77c8763ed51ce2602473e8f0d4bdb445b9dee7777b879db2",
+  "diff_sha256": "9977903cfa6a3d0f5b7b2ca4c9c8a6a1737f03156b51cd3dcec76caf3946e02b",
+  "user_request": "添付の adequate 修正依頼書に基づくA-1〜A-4・B-1〜B-7の必須修正、任意項目C-1〜C-3の採用（C-4は不採用）、および完了条件3に基づく語義2 adequate but unremarkable work の例文の限定用法化。",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "Claude independent targeted correction review",
+    "verdict": "pass",
+    "notes": "adequate の対象修正（A-1〜A-4、B-1〜B-7、C-1〜C-3）は、各hunkで指定どおり適用されている。例文・訳・見出し・用途の整合と、隣接文との矛盾がないことを確認した。arrest/probable cause の残存なし、adequate consideration の詳しい説明の【語法・注意】への一本化、命令口調の除去も確認した。初回レビューで指摘した語義2 adequate but unremarkable work の例文も限定用法に修正され、語義2の全コロケーションで見出し句と例文の用法が一致したため、pass とする。"
+  },
+  "pi_processing": {
+    "status": "processed",
+    "event_id": "targeted:adequate:9977903cfa6a"
+  }
+}
