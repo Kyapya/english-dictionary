@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import difflib
 import hashlib
 import json
 import re
@@ -42,8 +43,25 @@ def _changed_paths(repo_root: Path, base: str, head: str) -> list[str]:
     ]
 
 
+def _unified_diff(base_text: str, head_text: str, entry_path: str) -> str:
+    # Computed in Python so the recorded hash does not depend on the Git version.
+    return "".join(
+        difflib.unified_diff(
+            base_text.splitlines(keepends=True),
+            head_text.splitlines(keepends=True),
+            fromfile=f"a/{entry_path}",
+            tofile=f"b/{entry_path}",
+            n=3,
+        )
+    )
+
+
 def _entry_diff(repo_root: Path, base: str, head: str, entry_path: str) -> str:
-    return _git(repo_root, "diff", "--diff-algorithm=myers", "--unified=3", base, head, "--", entry_path)
+    return _unified_diff(
+        _git_show(repo_root, base, entry_path),
+        _git_show(repo_root, head, entry_path),
+        entry_path,
+    )
 
 
 def _split_front_matter(text: str) -> tuple[dict[str, str], str]:
@@ -324,7 +342,7 @@ def command_record(args: argparse.Namespace) -> int:
 
     base_text = _git_show(repo_root, args.base, entry_path)
     head_text = current_path.read_text(encoding="utf-8")
-    diff_text = _git(repo_root, "diff", "--diff-algorithm=myers", "--unified=3", args.base, "--", entry_path)
+    diff_text = _unified_diff(base_text, head_text, entry_path)
     created_at = _timestamp()
     output = repo_root / _record_path(entry_path, created_at)
     pi_result: dict[str, Any] = {
