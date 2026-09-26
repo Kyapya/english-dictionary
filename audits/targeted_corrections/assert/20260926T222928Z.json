@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/a/assert.md",
+  "created_at": "2026-09-26T22:29:28Z",
+  "base_body_sha256": "701078e5810e53ccad92d79e161c3f44d9bf29899efd0e8cfdbe5469d6e6d936",
+  "head_body_sha256": "e22d67c66e34b0bcb004c6994eb23d4cf054dbc79d3c05552b322196aee8d638",
+  "diff_sha256": "a7143b1b34b8bcead169cabf6763708ff4cdfa4943cdf9f71eee3ac2c76ed16b",
+  "user_request": "assert 項目 改修依頼書（追加4件・修正11件、構成変更は対象外）の適用",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "claude-code-targeted-review",
+    "verdict": "pass",
+    "notes": "依頼書の各項目が指定どおり反映され、周辺記述と矛盾しないことを確認"
+  },
+  "pi_processing": {
+    "status": "save_error",
+    "reason": "learning_delta.schema_version must be process_improvement_learning_delta_v2"
+  }
+}

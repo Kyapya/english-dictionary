@@ -19,7 +19,7 @@ tags: []
 
 ＃語源
 
-ラテン語 asserere「主張する、認めさせる」に由来し、その過去分詞 assertus を経て17世紀初頭の英語に入った。語源上は ad-「〜へ」と serere「つなぐ、結びつける」に分けられ、原義は「自分に結びつける」、そこから「自分のものだと主張する」へ発展した。  
+ラテン語 asserere「主張する、認めさせる」に由来し、その過去分詞 assertus を経て17世紀初頭の英語に入った。語源上は ad-「〜へ」と serere「つなぐ、結びつける」に分けられ、原義は「自分に結びつける」、そこから「自分のものだと主張する」へ発展した。ラテン語 asserere は、ローマ法で「ある人を自由人だと主張して引き取る」（asserere in libertatem）という用法をもっていた。「権利を主張して認めさせる」という語義2に通じる使い方である。  
 現在の「命題・権利・存在を前面に出し、認めさせる」という意味の広がりは、この「自分の側に引き寄せて認めさせる」発想と大まかに対応するが、語源だけから現代の各語義を機械的に導けるわけではない。  
 同語源・派生関係の学習語は assertion「主張、断言」、assertive「自己主張の強い、断定的な」、assertiveness「自己主張、積極性」、reassert「再び主張する」である。  
 
@@ -27,7 +27,7 @@ tags: []
 
 `asserts / asserted / asserting` — 三人称単数現在形・過去形／過去分詞・現在分詞。  
 `assertion` — 名詞「主張、断言、主張する行為」。  
-`assertive / assertiveness` — 形容詞「自己主張の強い、断定的な」／名詞「自己主張、積極性」。  
+`assertive / assertively / assertiveness` — 形容詞「自己主張の強い、断定的な」／副詞「断定的に、はっきりと自己主張して」／名詞「自己主張、積極性」。  
 `reassert` — 接頭辞 `re-`「再び」を付けた動詞「再び主張する、改めて認めさせる」。  
 `self-assertion` — 複合名詞「自己主張」。対人関係や心理・コミュニケーションの文脈で使う。  
 
@@ -47,7 +47,7 @@ assert の共通核は、命題・権利・権威・存在などを、はっき�
 
 単なる発言よりも、話者がその内容を前面に出して受け入れを求める感じがあり、根拠を示さずに断言しているという批判的な含みを帯びることもある。  
 
-【頻度】〈9/10〉  
+【頻度】〈7/10〉  
 
 【レジスター/領域】標準語。会話にも使うが、報道、論文、議論、法廷・公式発言など、他者の主張を報告・検討する書き言葉で特に頻出する。  
 
@@ -85,7 +85,7 @@ assert の共通核は、命題・権利・権威・存在などを、はっき�
 例: “That account is false,” the witness asserted.  
 訳: 「その説明は事実ではない」と証人は断言した。  
 
-【語法・注意】assert は通常、`assert that ...` の that節、または `assert one's innocence` のような名詞句を目的語に取る。裸の `assert about ...` は通常用いず、内容は直接目的語か that節で置く。一方、`assert something about ...` のように目的語を置けば、〜について何かを主張するという形は可能である。  
+【語法・注意】assert は通常、`assert that ...` の that節、または `assert one's innocence` のような名詞句を目的語に取る。目的語を置かない `assert about ...` という形は通常用いず、内容は直接目的語か that節で置く。一方、`assert something about ...` のように目的語を置けば、〜について何かを主張するという形は可能である。  
 
 assert は「証明する」「真実だと確認する」という意味ではない。`He asserted that the figures were correct.` は、彼がそう強く述べたことを表すだけで、数値の正しさが証明されたことは含まない。  
 単純な `say` よりも主張の強さ・確信・反論への構えが出やすい。一方、`affirm` は根拠や確信に基づく確認、`claim` は未証明・争いの余地がある主張という含みが出やすい。  
@@ -111,13 +111,13 @@ Java などのプログラミング言語にある `assert` は、条件式が�
 定義: 事実・信念・判断などを正しいと明確に確認する。  
 頻度: 〈7/10〉  
 違い: `affirm` は証拠、経験、信念などに基づく確信や確認を示しやすい。`assert` は根拠の有無を問わず、強く言い切ることに焦点がある。  
-例: The court affirmed the validity of the agreement.  
-訳: 裁判所は、その合意の有効性を確認した。  
+例: The minister affirmed her commitment to the reform.  
+訳: 大臣は、その改革に取り組む意思を明確に表明した。  
 
 ・claim  
 定義: 何かが事実・権利・資格などだと主張する。  
 頻度: 〈9/10〉  
-違い: `claim` は「そうだと述べる」ことに加え、証明不足・争いの余地・話者の個人的主張という含みが出やすい。`assert` は主張の強さを前面に出す。  
+違い: `claim` は、書き手が内容の真偽から距離を置き、疑わしさを示す合図として報道で特によく使われる。`assert` も根拠のない断言を表し得るが、疑念の含みは `claim` より弱く、話者が強く言い切る態度に焦点がある。  
 例: The company claims that its product is completely safe.  
 訳: その会社は、自社製品は完全に安全だと主張している。  
 
@@ -147,7 +147,7 @@ Java などのプログラミング言語にある `assert` は、条件式が�
 
 【レジスター/領域】標準語。日常の対人関係から、政治、組織、法律、国際関係まで使う。`assert authority` や `assert dominance` は、決然とした自己主張にも、支配的・威圧的な振る舞いにもなり得る。  
 
-【文法パターン】`assert one's rights/independence/authority/control`＝権利・独立・権威・支配を主張する／`assert a claim to 〈property/land〉`＝財産・土地への権利を主張する／`assert dominance over 〈person/group〉`＝人・集団に対する優位を示す／`assert power over 〈person/institution〉`＝人・組織に対する権力を示す  
+【文法パターン】`assert one's rights/independence/authority/control`＝権利・独立・権威・支配を主張する／`assert a claim to 〈property/land〉`＝財産・土地への権利を主張する／`assert dominance over 〈person/group〉`＝人・集団に対する優位を示す／`assert power over 〈person/institution〉`＝人・組織に対する権力を示す／`assert sovereignty over 〈territory〉`＝領土に対する主権を主張する  
 
 【コロケーション】
 
@@ -164,7 +164,7 @@ Java などのプログラミング言語にある `assert` は、条件式が�
 ・`assert authority over 〈people/team〉`  
 用途: 人々やチームに対する自分の指揮権・権限を示す。  
 例: The new manager quickly asserted her authority over the team.  
-訳: 新任の管理職は、すぐにチームに対する自分の権限を示した。  
+訳: 新任の管理職は、すぐにチーム内で自分の権威を確立した。  
 
 ・`assert control over 〈area/situation〉`  
 用途: 地域や状況を自分の管理下に置こうとする。  
@@ -174,12 +174,17 @@ Java などのプログラミング言語にある `assert` は、条件式が�
 ・`assert dominance over 〈rival/group〉`  
 用途: 競争相手や集団に対する優位・支配を示す。  
 例: The larger male tried to assert dominance over the group.  
-訳: その大きな雄は、群れに対する優位を示そうとした。  
+訳: 群れの中で体の大きい雄が、優位を示そうとした。  
 
 ・`assert a claim to 〈land/property〉`  
 用途: 土地や財産について、自分に権利があると公式に主張する。  
 例: The company asserted a claim to the disputed land in court.  
 訳: その会社は、裁判所で係争中の土地への権利を主張した。  
+
+・`assert sovereignty over 〈territory〉`  
+用途: 国家が領土・海域などに対する主権を主張する。報道で特に頻出する。  
+例: Both countries continue to assert sovereignty over the islands.  
+訳: 両国とも、その島々に対する主権を主張し続けている。  
 
 【語法・注意】`assert one's rights` は権利が法的に確定したことではなく、権利を認めるよう求める行為を表す。`assert authority` も、相手が実際に従ったことまでは含まない。  
 
@@ -217,12 +222,12 @@ Java などのプログラミング言語にある `assert` は、条件式が�
 例: The board exercised its authority to suspend the project.  
 訳: 取締役会は、プロジェクトを停止する権限を行使した。  
 
-・enforce  
-定義: 法律、規則、権利などを実際に守らせ、効力を及ぼす。  
-頻度: 〈8/10〉  
-違い: `enforce` は規則や決定を他者に従わせる実行段階を示す。`assert` は権利や権威を主張して認識を求める段階にも使える。  
-例: The regulator enforced the new safety standards.  
-訳: 規制当局は、新しい安全基準を実際に守らせた。  
+・establish  
+定義: 権威、支配、地位などを確かなものとして打ち立てる。  
+頻度: 〈9/10〉  
+違い: `establish authority/control` は権威や支配が確立した結果に焦点がある。`assert` はそれを認めさせようとする働きかけの段階を表し、成功までは含まない。  
+例: The new coach quickly established control of the dressing room.  
+訳: 新監督は、すぐにチーム内の主導権を確立した。  
 
 【反意語】
 
@@ -235,7 +240,7 @@ Java などのプログラミング言語にある `assert` は、条件式が�
 
 ・surrender  
 定義: 権利、支配、抵抗などを手放し、相手に渡す。  
-頻度: 〈6/10〉  
+頻度: 〈7/10〉  
 違い: `surrender` は権利・支配・抵抗などを手放すことを表し、それらを前面に出して認めさせようとする `assert` と反対方向である。  
 例: The rebels surrendered control of the city.  
 訳: 反乱軍はその都市の支配権を手放した。  
@@ -337,14 +342,14 @@ assertive は「自信をもって率直に自分の考えや権利を表す」�
 定義: 他者の権威・判断・要求に従い、自分の立場を押し通さない。  
 頻度: 〈7/10〉  
 違い: `submit` は相手の権威に従うことを強く示すため、自己主張を控える行動との対照に使える。  
-例: She submitted to pressure and kept her opinions to herself.  
-訳: 彼女は圧力に屈し、自分の意見を口にしなかった。  
+例: He usually submits to his manager's decisions without comment.  
+訳: 彼はたいてい、上司の決定に何も言わずに従う。  
 
 4. 【他動詞・再帰構文】（作用・感情などが）現れ始める、影響を及ぼし始める
 
 【日本語訳・定義】`assert itself` の形で、効果、問題、感情、傾向などが次第にはっきり現れたり、現実に影響を及ぼし始めたりする。人が権利を主張するのではなく、抽象的なものが自分の存在・影響を前面に出すように描写する比喩的な用法である。  
 
-【頻度】〈4/10〉  
+【頻度】〈6/10〉  
 
 【レジスター/領域】やや硬い書き言葉・文学的表現。報告、評論、描写などで見られ、日常会話では `kick in`、`start to show`、`start to have an effect` などに言い換えることが多い。  
 
@@ -354,8 +359,8 @@ assertive は「自信をもって率直に自分の考えや権利を表す」�
 
 ・`the effects of 〈原因・処置〉 assert themselves`  
 用途: 何かの効果・影響が、実際の結果として現れ始める。  
-例: The effects of the treatment soon asserted themselves.  
-訳: その治療の効果はすぐに現れ始めた。  
+例: The effects of the new policy began to assert themselves within a year.  
+訳: 新しい政策の効果は、1年以内に現れ始めた。  
 
 ・`begin to assert itself`  
 用途: 疲労、痛み、感情などが次第に感じられるようになる。  
@@ -364,13 +369,18 @@ assertive は「自信をもって率直に自分の考えや権利を表す」�
 
 ・`assert itself in 〈data/behavior〉`  
 用途: 傾向や問題が、データや行動に目に見える形で現れる。  
-例: The downward trend asserted itself in the latest figures.  
-訳: 下降傾向が最新の数値にはっきり現れた。  
+例: A clear preference for remote work asserted itself in the survey results.  
+訳: 調査結果には、在宅勤務を好む傾向がはっきり表れた。  
 
 ・`assert itself again`  
-用途: いったん弱まった問題・緊張・影響などが再び表面化する。  
+用途: いったん弱まった問題・緊張・影響などが再び表面化する。この意味では `reassert itself` のほうが一般的である。  
 例: The old tension asserted itself again during the negotiations.  
 訳: 交渉中、以前からの緊張が再び表面化した。  
+
+・`reassert itself / reassert themselves`  
+用途: いったん弱まった習慣・性質・判断力などが、再び表に出てくる。  
+例: After a few weeks of dieting, his old habits reasserted themselves.  
+訳: 数週間ダイエットを続けたあと、彼の昔からの習慣が再び顔を出した。  
 
 【語法・注意】主語には `effect`、`influence`、`fatigue`、`tension`、`trend` などの無生物・抽象名詞を置く。`itself` は主語に合わせた再帰代名詞で、`assert it` とはしない。  
 
