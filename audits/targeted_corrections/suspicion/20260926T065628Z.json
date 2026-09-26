@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/s/suspicion.md",
+  "created_at": "2026-09-26T06:56:28Z",
+  "base_body_sha256": "dd9f2baa1ba0f25238a41e90494263894b03beb3234c035377d4e1db53490554",
+  "head_body_sha256": "402f7f2bdf3fdb9c028a305a4523eb78745e3888059e07745e6afd1cc5b898c3",
+  "diff_sha256": "93382d4e36863eff05964bc32ae138d2febbe7206524d19e8de547c509eb5e35",
+  "user_request": "添付「修正依頼書：suspicion.md」のA/B指示を適用し、根拠が確認できるC項目も反映する。",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "Codex targeted correction review",
+    "verdict": "pass",
+    "notes": "Changed-hunk review passed: all A/B edits and selected C edits are present; translations match the revised senses; examples, collocations, and the sense 1/sense 3 distinction are consistent. Markdown headings pass the updated entry validator. OALD supports the above/beyond suspicion idiom and formal sense 4; the optional chiefly-British label was omitted because the checked entry does not substantiate it."
+  },
+  "pi_processing": {
+    "status": "no_applicable",
+    "event_id": "targeted:suspicion:93382d4e3686"
+  }
+}
