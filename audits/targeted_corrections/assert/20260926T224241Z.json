@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/a/assert.md",
+  "created_at": "2026-09-26T22:42:41Z",
+  "base_body_sha256": "e22d67c66e34b0bcb004c6994eb23d4cf054dbc79d3c05552b322196aee8d638",
+  "head_body_sha256": "a3673293abc64f340ade1ab394bc075915c587a80b01585484696a87959c591a",
+  "diff_sha256": "af65184992a29fc7fd59c7c6d65749d490fafdeef20c218be051bca5d6e4ef6e",
+  "user_request": "修正依頼書（内容の誤り・英語・日本語・頻度・表記/発音、指定箇所以外は変更しない）の適用",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "claude-code-targeted-review",
+    "verdict": "pass",
+    "notes": "依頼書の各項目の反映を確認。語義4見出し変更に合わせコアイメージの語義4対応行のみ整合修正"
+  },
+  "pi_processing": {
+    "status": "save_error",
+    "reason": "learning_delta.schema_version must be process_improvement_learning_delta_v2"
+  }
+}
