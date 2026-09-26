@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/a/assert.md",
+  "created_at": "2026-09-26T22:11:06Z",
+  "base_body_sha256": "a1914433d5ed1e194b3a5090413022bbd8ac56c6d0db198e038168185004bcb1",
+  "head_body_sha256": "701078e5810e53ccad92d79e161c3f44d9bf29899efd0e8cfdbe5469d6e6d936",
+  "diff_sha256": "d6ad724062a35607bdcdbd7baafc6007104c3487bf622441bfd1c48dd902190b",
+  "user_request": "日本語・英語ネイティブ視点で不自然な箇所と解説書として問題のある箇所の局所修正（全角＃は対象外）",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "claude-code-targeted-review",
+    "verdict": "pass",
+    "notes": "語源説明の整合、例文の冗長・見出し不一致、誤訳(be assertive例)、翻訳調、言い換え表現・類義語差異の修正を確認"
+  },
+  "pi_processing": {
+    "status": "save_error",
+    "reason": "learning_delta.schema_version must be process_improvement_learning_delta_v2"
+  }
+}
