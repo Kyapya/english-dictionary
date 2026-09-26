@@ -1,0 +1,51 @@
+{
+  "title": "修正依頼の全称的な完了条件は列挙箇所以外にも適用する",
+  "status": "candidate",
+  "category": "quality",
+  "priority": 50,
+  "problem": {
+    "observed": "依頼書は語義2の見出し句と例文の用法不一致を2件列挙したが、完了条件は語義2の全コロケーションの一致を求めていた。列挙外の adequate but unremarkable work の不一致が初回実施で残り、targeted review で検出された。",
+    "action": "修正依頼の完了条件が「すべて」「残っていない」のような全称条件である場合、列挙箇所だけでなく条件の範囲内の全項目を照合し、追加修正を完了報告に列挙する。",
+    "reusable_because": "修正依頼では欠陥類型の例を列挙し、完了条件で全称的に求める形が繰り返し現れる。",
+    "conditions": {
+      "required_tags": [
+        "targeted_correction"
+      ],
+      "excluded_tags": []
+    },
+    "exclusions": "完了条件が列挙箇所だけを対象とする依頼には適用しない。",
+    "uncertainties": "観測は1件のみで、他エントリでの再発は未確認。"
+  },
+  "delivery": {
+    "recipients": [
+      "coordinator"
+    ],
+    "phases": [
+      "targeted_correction"
+    ]
+  },
+  "validation": {
+    "decision": "pending",
+    "rationale": "adequate の targeted review で1回観測。他エントリでは未検証。",
+    "evidence_refs": [
+      "entries/a/adequate.md 語義2 adequate but unremarkable work",
+      "修正依頼書 完了条件3"
+    ],
+    "specification_context": []
+  },
+  "schema_version": "process_improvement_knowledge_v2",
+  "knowledge_epoch": "pi2-2026-09-06",
+  "id": "PI2-EA7F24D72B28",
+  "version": 1,
+  "created_at": "2026-09-26T11:18:42Z",
+  "updated_at": "2026-09-26T11:18:42Z",
+  "evidence": [
+    {
+      "event_id": "targeted:adequate:b8505934efc0",
+      "knowledge_epoch": "pi2-2026-09-06",
+      "source_ref": "audits/targeted_corrections/adequate/20260926T111842Z.json",
+      "content_sha256": "b8505934efc08ec3e5f75da2dd4bb831ed88b0a0d2d2632c8178af17e1b4930d",
+      "observation": "レビュー担当が完了条件3の照合中に列挙外の不一致を検出した。"
+    }
+  ]
+}
