@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/a/assert.md",
+  "created_at": "2026-09-26T22:52:29Z",
+  "base_body_sha256": "a3673293abc64f340ade1ab394bc075915c587a80b01585484696a87959c591a",
+  "head_body_sha256": "a384b8b167b027dfcbe3aa592ecbfdfe61a51799b3c77dc5103f4c78886ddc4d",
+  "diff_sha256": "4a735edccdbd648332f2d46743caf7bb3dd21810990e71e6871c1338eaf2edec",
+  "user_request": "修正依頼書（commit 79382fb対象、10項目のみ修正）の適用",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "claude-code-targeted-review",
+    "verdict": "pass",
+    "notes": "10項目の反映と周辺の整合を確認。validate_entry OK"
+  },
+  "pi_processing": {
+    "status": "save_error",
+    "reason": "learning_delta.schema_version must be process_improvement_learning_delta_v2"
+  }
+}
