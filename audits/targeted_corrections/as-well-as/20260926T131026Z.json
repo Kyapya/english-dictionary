@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/a/as-well-as.md",
+  "created_at": "2026-09-26T13:10:26Z",
+  "base_body_sha256": "ce831f3c6683bf306457867ccbca16c504994f9c7c7a4854ac487228caedf697",
+  "head_body_sha256": "a74c803f6cc8a5f841eb9279934f4eff8cade755ad46675bbd742b169321867c",
+  "diff_sha256": "8afbee11999a4829ae096654fd5d0a4ed0754f2af8da4524210874fcadf5f50d",
+  "user_request": "修正依頼書 entries/a/as-well-as.md (154889e): 有限動詞コロケーション差替え、musician例文の文頭化、重複・配置ずれ解消、no worse than例文差替え、as good as例差替え、類義語equally well、頻度再調整、但し書き削減",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "independent-subagent a33d81fb247178cf4",
+    "verdict": "pass",
+    "notes": "All eight requested corrections applied; placeholder notation fixed with +; changed hunks sound and locally consistent."
+  },
+  "pi_processing": {
+    "status": "no_applicable",
+    "event_id": "targeted:as-well-as:8afbee11999a"
+  }
+}

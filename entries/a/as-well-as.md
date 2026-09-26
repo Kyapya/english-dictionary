@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: unknown
 created_at: 2026-06-13
-updated_at: 2026-08-13
+updated_at: 2026-09-26
 checked: true
 tags: []
 ---
@@ -14,7 +14,7 @@ tags: []
 
 米・英: /əz ˈwel əz/（強形・対比時: /æz ˈwel æz/）  
 
-中立的な引用発音では well に主強勢を置く。実際の文では対比・焦点に応じて別の要素に強勢が移り、as が /æz/ のまま保たれることもある。well の母音は資料により米 /wɛl/、英 /wel/ などと表記されるが、ここでは明確な英米差と断定せず、転写慣行・アクセント差として扱う。会話では as が /əz/ に弱化し、連続発話では全体が [əzweləz] のように聞こえることもある。  
+通常は well に強勢を置き、as は弱形 /əz/ で発音する。会話では全体が [əzweləz] のように聞こえることが多い。  
 
 ＃語源
 
@@ -26,13 +26,13 @@ as は古英語 alswā（「まったくそのように、同じように」）�
 
 1. 【添加表現（前置詞相当・接続）】～に加えて、～も／～だけでなく…も
 
-【日本語訳・定義】A as well as B はAとBの両方が成立することを表し、しばしばBを付加的に添えてAを中心に述べる。ただしこれは語順・情報構造上の傾向で、A・Bの重要度を常に固定するものではない。日本語訳は文脈に応じて「Bに加えてAも」「Aに加えてBも」のいずれもあり得る。文法書・辞書では、名詞句などを導く前置詞相当表現と、語句・節を結ぶ接続表現の両方として扱われる。  
+【日本語訳・定義】A as well as B はAとBの両方が成立することを表し、しばしばBを付加的に添えてAを中心に述べる。日本語訳は文脈に応じて「Bに加えてAも」「Aに加えてBも」のいずれもあり得る。文法書・辞書では、名詞句などを導く前置詞相当表現と、語句・節を結ぶ接続表現の両方として扱われる。  
 
-【頻度】〈10/10〉  
+【頻度】〈8/10〉  
 
-【レジスター/領域】一般。会話・文章の両方で使う。単純な and より説明的・列挙的に響くことがあり、文脈や地域によってはややフォーマルに感じられるが、常に硬い表現ではない。  
+【レジスター/領域】一般。会話・文章の両方で使う。単純な and よりやや説明的・フォーマルに響く。  
 
-【文法パターン】〈要素A〉 as well as 〈要素B〉＝AとBの両方（しばしばBを付加的に添えてAを述べる）／S V 〈目的語A〉 as well as 〈目的語B〉＝SがAとBの両方をVする／〈主語A〉, as well as 〈主語B〉, V＝Aを文法上の主語とし、Bを付加的に示す（VはAに一致）／as well as 〈動名詞・-ing句〉＝～することに加えて／as well as being 〈名詞・形容詞〉＝～であることに加えて／S V as well as V＝同じ主語が2つの行為を行うことを追加的に述べる（有限動詞の形も実例があるが、andのほうが明快な場合が多い）。  
+【文法パターン】〈要素A〉 as well as 〈要素B〉＝AとBの両方（しばしばBを付加的に添えてAを述べる）／S V 〈目的語A〉 as well as 〈目的語B〉＝SがAとBの両方をVする／〈主語A〉, as well as 〈主語B〉, V＝Aを文法上の主語とし、Bを付加的に示す（VはAに一致）／as well as 〈動名詞・-ing句〉＝～することに加えて／as well as being 〈名詞・形容詞〉＝～であることに加えて／S V as well as 〈-ing〉＝同じ主語が2つの行為を行うことを追加的に述べる。  
 
 【コロケーション】
 
@@ -61,9 +61,9 @@ as は古英語 alswā（「まったくそのように、同じように」）�
 例: She enjoys reading as well as writing.  
 訳: 彼女は、書くことだけでなく読むことも楽しんでいる。  
 
-・S be 〈名詞〉 as well as being 〈名詞〉  
+・As well as being 〈名詞・形容詞〉, S be 〈名詞〉  
 用途: ある立場・職業などに加えて、別の立場・職業でもあることを述べる。  
-例: She is a talented musician as well as being a photographer.  
+例: As well as being a photographer, she is a talented musician.  
 訳: 彼女は写真家であるだけでなく、才能のある音楽家でもある。  
 
 ・〈主語A〉, as well as 〈主語B〉, V  
@@ -71,12 +71,16 @@ as は古英語 alswā（「まったくそのように、同じように」）�
 例: The manager, as well as her assistants, is attending the meeting.  
 訳: 補佐たちに加えて、その部長も会議に出席している。  
 
-・S V 〈目的語A〉 as well as V 〈目的語B〉  
-用途: 同じ主語の2つの有限動詞を、Aに加えてBも行うこととして並べる。文章語的で、単純な対等並列には and のほうが明快なこともある。  
-例: The company designs software as well as manufactures hardware.  
-訳: その会社は、ソフトウェアを設計するだけでなくハードウェアも製造している。  
+・S V 〈目的語A〉 as well as 〈-ing〉 + 〈目的語B〉  
+用途: 同じ主語が行う2つの行為を、-ing 形で追加的に並べる。  
+例: The company designs software as well as manufacturing hardware.  
+訳: その会社は、ハードウェアの製造に加えてソフトウェアの設計も行っている。  
 
-【語法・注意】A と B は、名詞同士、形容詞同士、動名詞句同士のように同じ文法機能をそろえると読みやすいが、これは絶対規則ではない。前置詞相当用法の直後に動作を置くときは -ing 形が自然で、*as well as to work* と機械的にするのは避ける。ただし、共有された to の後の bare infinitive「want to swim as well as sunbathe」や、to を反復する形式、同じ主語の有限動詞を並べる用法もあるため、「必ず -ing」と一般化しない。名詞句に as well as + being 節を続ける「She is a talented musician as well as being a photographer.」のように、表面上の形が完全に同じでなくても、追加される述語関係が明確なら成立する。  
+【語法・注意】A と B は、名詞同士、形容詞同士、動名詞句同士のように同じ文法機能をそろえると読みやすい。前置詞相当用法の直後に動作を置くときは -ing 形が自然で、*as well as to work* とはしない（共有された to の後の「want to swim as well as sunbathe」は可）。  
+
+as well as の後ろに三単現・過去形などの有限動詞を置く形（*designs software as well as manufactures hardware*）は非推奨。-ing 形にするか、and で結ぶ。  
+
+being を使う形は文頭に置くと自然（As well as being a photographer, she is a talented musician.）。文末側なら being を省いて「She is a talented musician as well as a photographer.」とするのが普通。  
 
 文頭の「As well as working full-time, she studies at night.」のような形では、通常 working の意味上の主語は主節の主語 she と同じになる。主語が異なる場合は、誰がその動作をするのかを明示する。  
 
@@ -84,7 +88,7 @@ A as well as B は both A and B の代わりにはならず、「*both A as well
 
 主語の A に as well as B を続ける形は、A と B を and で結ぶ複合主語とは異なる。「The manager, as well as her assistants, is attending.」のように、通常は動詞を A に一致させる。Aが複数なら動詞も複数になる。Bを主語に含めて両者を対等に扱うなら「The manager and her assistants are attending.」とする。主語に続く挿入的な用法では B の前後をコンマで囲むことが多いが、コンマは必須ではなく、目的語を単純に並べる「The course covers grammar as well as vocabulary.」のような場合には通常置かない。  
 
-as well as は、文末で「～もまた」を表す as well とは異なり、通常は後ろに追加する要素を必要とする。この形自体は時制・人称・数で変化しないが、比較用法の後ろの節に置く do・does・did は主語・時制に合わせる。「I like tea as well.」は「私も紅茶が好きだ」だが、「I like tea as well as coffee.」は「コーヒーに加えて紅茶も好きだ」である。「might as well + 動詞」の「～したほうがよい／～してもよい」は別の定着表現である。  
+as well as は、文末で「～もまた」を表す as well とは異なり、通常は後ろに追加する要素を必要とする。「I like tea as well.」は「私も紅茶が好きだ」だが、「I like tea as well as coffee.」は「コーヒーに加えて紅茶も好きだ」である。「might as well + 動詞」の「～したほうがよい／～してもよい」は別の定着表現である。  
 
 as well as 自体は時制・人称・数に応じて変化しない。疑問・否定・受動でも、文全体の助動詞・主動詞や受動の be・過去分詞だけが通常どおり変化する。「Does the package include breakfast as well as dinner?」「Breakfast as well as dinner is included.」のように、as well as句を追加する位置に置く。  
 
@@ -94,21 +98,21 @@ as well as 自体は時制・人称・数に応じて変化しない。疑問・
 
 ・in addition to  
 定義: すでに述べたものに別のものを加える。  
-頻度: 〈9/10〉  
+頻度: 〈8/10〉  
 違い: as well as より「追加」を明示的に表しやすく、やや説明的・フォーマル。後ろに名詞や -ing句を置く前置詞として使える。  
 例: The fee covers breakfast in addition to dinner.  
 訳: その料金には夕食に加えて朝食も含まれる。  
 
 ・besides  
 定義: あるものに加えて、さらに別のものを含める。  
-頻度: 〈8/10〉  
+頻度: 〈7/10〉  
 違い: 会話でも使いやすいが、「～を除いて」の意味になることもあるため、添加か除外かを文脈で確認する必要がある。  
 例: Besides English, she speaks Korean and Spanish.  
 訳: 彼女は英語に加えて、韓国語とスペイン語も話す。  
 
 ・along with  
 定義: あるものに伴わせて、別のものも一緒に含める。  
-頻度: 〈8/10〉  
+頻度: 〈7/10〉  
 違い: 単なる追加よりも「～と一緒に」という同伴・付随の感じが出やすい。主語に続く場合は通常、後ろの名詞で動詞の数を変えない。  
 例: The report, along with the supporting data, was submitted yesterday.  
 訳: その報告書は、裏付けデータとともに、昨日提出された。  
@@ -122,14 +126,14 @@ as well as 自体は時制・人称・数に応じて変化しない。疑問・
 
 ・not only A but also B  
 定義: AだけでなくBも、と両方の要素を明示的に加える。  
-頻度: 〈9/10〉  
+頻度: 〈7/10〉  
 違い: as well as よりも両側を強く対比・強調しやすく、AとBの文法機能をそろえる。単に付加的に述べるだけなら as well as のほうが軽い。  
 例: The course covers not only grammar but also vocabulary.  
 訳: その講座は文法だけでなく語彙も扱う。  
 
 ・not to mention  
 定義: すでに挙げた内容に加えて、特に強調したい別の内容を後から付け加える。  
-頻度: 〈7/10〉  
+頻度: 〈6/10〉  
 違い: 中立的な列挙の as well as よりも、追加項目を強調する話し手の態度が強く、しばしば「言うまでもなく」「まして～」の含みを持つ。  
 例: The job is demanding, not to mention poorly paid.  
 訳: その仕事は大変で、しかも給料も安い。  
@@ -138,7 +142,7 @@ as well as 自体は時制・人称・数に応じて変化しない。疑問・
 
 【日本語訳・定義】as + well + as の比較構文で、Aの動作・処理・機能などの程度を、後ろの比較対象・基準Bと同程度、または少なくともBに劣らない程度だと述べる。厳密な同点を必ず意味するわけではない。well は主に動詞や状態の程度を表す副詞なので、動詞によって「同じくらい上手に」「同程度によく・うまく」「以前・予想どおりに」などと訳す。ここでは「～に加えて」ではなく、Aの行為や性能をBと比較している。  
 
-【頻度】〈8/10〉  
+【頻度】〈7/10〉  
 
 【レジスター/領域】一般。会話・文章ともに使う。技能だけでなく、機械の作動、処置の効果、以前の状態、予想との一致などにも使う。  
 
@@ -183,9 +187,9 @@ as well as 自体は時制・人称・数に応じて変化しない。疑問・
 
 【語法・注意】「She sings as well as her sister.」のように、動詞の直後の as well as 〈人〉は通常「姉と同じくらい上手に」と読む。ただし、添加用法で「姉に加えて彼女も歌う」と読む余地がある文脈もある。追加を明確にするなら「She, as well as her sister, sings.」よりも「She and her sister sing.」とするほうが自然である。  
 
-比較用法の後ろには、人・物だけでなく he does、before、expected、possible のような比較基準も置ける。not as well as は「まったく～できない」ではなく、通常は比較対象より程度が低いことを表すが、Aの絶対的な水準は示さない。  
+比較用法の後ろには、人・物だけでなく he does、before、expected、possible のような比較基準も置ける。後ろの節に置く do・does・did は、その節の主語・時制に合わせる。not as well as は「まったく～できない」ではなく、通常は比較対象より程度が低いことを表すが、Aの絶対的な水準は示さない。  
 
-well はここでは主に動作・機能の程度を表す副詞で、名詞や形容詞の性質を比較する as good as と同じ構文ではない。「The machine is as good as new.」は「その機械は新品同様だ」であり、これを *as well as new* としない。  
+well はここでは主に動作・機能の程度を表す副詞で、名詞や形容詞の性質を比較する as good as と同じ構文ではない。形容詞の性質を比べるなら「This copy is as good as the original.」（この複製は原本と同じくらい出来がよい）のように as good as を使い、*as well as the original* とはしない。  
 
 この比較用法や添加用法と、「might/may as well + 動詞」の「～したほうがよい／～してもよい」、「just as well」の「都合よく・結果的によかった」は別表現なので、as well as の意味としてまとめない。  
 
@@ -205,19 +209,19 @@ well はここでは主に動作・機能の程度を表す副詞で、名詞や
 例: She cannot paint as skillfully as her teacher.  
 訳: 彼女は師匠ほど上手に絵を描けない。  
 
-・to the same extent as  
-定義: 程度・範囲が比較対象と同じである。  
+・equally well  
+定義: 比較対象と同じくらいうまく・よく。  
 頻度: 〈6/10〉  
-違い: 技能の「うまさ」に限らず影響・関与・適用範囲にも使える、よりフォーマルな表現。  
-例: The rule applies to small firms to the same extent as to large corporations.  
-訳: その規則は大企業と同じ範囲で小企業にも適用される。  
+違い: 比較対象を as で示さず、文脈上すでに出ている対象と同程度であることを述べる。  
+例: She speaks French and German equally well.  
+訳: 彼女はフランス語とドイツ語を同じくらい上手に話す。  
 
 ・no worse than  
 定義: 比較対象より悪くない、少なくとも同程度によい。  
 頻度: 〈7/10〉  
 違い: 厳密な同義表現ではなく、「少なくとも同程度」を表す近い対照表現。比較対象より下ではないという下限を強調する。  
-例: The revised plan is no worse than the original.  
-訳: 改訂案は少なくとも元の案に劣らない。  
+例: The new engine performs no worse than the old one.  
+訳: 新しいエンジンは、古いものに劣らない性能を発揮する。  
 
 【反意語】
 
@@ -230,7 +234,7 @@ well はここでは主に動作・機能の程度を表す副詞で、名詞や
 
 ・worse than  
 定義: 比較対象より悪い状態・結果・性能で。  
-頻度: 〈9/10〉  
+頻度: 〈8/10〉  
 違い: 厳密な語彙的反意語ではなく、well の「うまく・正常に」という軸を含む結果や状態全般を、比較対象より悪く評価する対照表現。as well as より評価の下落が強くなり得る。  
 例: The new battery performs worse than the old one in cold weather.  
 訳: 新しいバッテリーは寒冷時には古いものより性能が悪い。  
