@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/s/suspicion.md",
+  "created_at": "2026-09-26T08:14:31Z",
+  "base_body_sha256": "402f7f2bdf3fdb9c028a305a4523eb78745e3888059e07745e6afd1cc5b898c3",
+  "head_body_sha256": "03fbbb87ae8867a37b85d01102e5ec8c0de50c44f9a1ba16316c89fbe8ac95eb",
+  "diff_sha256": "23c92840ed454d0fc875f386742b378081319c08e670d7658337f0e1d60ff04b",
+  "user_request": "第2回修正依頼書に基づく語義3の日本語表現修正、語形成の内容・表示整理、動詞用法注記の移動、語義2のMerriam-Webster比較文削除",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "Codex targeted correction review",
+    "verdict": "pass",
+    "notes": "依頼された各変更hunkと直近文脈を照合。既存の4語義構成・checked状態・未変更部分との矛盾がないことを確認。"
+  },
+  "pi_processing": {
+    "status": "no_applicable",
+    "event_id": "targeted:suspicion:23c92840ed45"
+  }
+}
