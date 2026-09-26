@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/a/appropriate.md",
+  "created_at": "2026-09-26T12:18:52Z",
+  "base_body_sha256": "3dcc75624b20d6034e830d9777837130d56ed545201ffd0cd9e643b7f3c38d99",
+  "head_body_sha256": "cb93ad6ba68502e49b5fee291fa4aa451d0d34431b036f358f3bfae0adc53f58",
+  "diff_sha256": "4ad1d7c30bb573e9fa272a2f5f1127d8471f72f9603c52a6a76e3359fc58c650",
+  "user_request": "appropriate 修正依頼書（第2回）A・B: 語義2語法欄の語義3『無断』断定の解消とエントリ全体の点検、語義2の重複コロケーションの整理。",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "Claude Code targeted correction review (same session as editor)",
+    "verdict": "pass",
+    "notes": "A: 語義2語法欄を修正例どおりに改稿。全体点検で語義3類義語 plagiarize の違い欄が appropriate 自体を無断利用と断定していたため修正。残る『無断』は無断性を明示した例文訳（accused / without permission）と語義3語法欄の否定的記述のみで整合。B: 案2を採用し、appropriate resources for と appropriate a sum for を金額型 appropriate 〈amount/a sum〉 for 〈purpose〉 に統合（Congress  billion 例）。＃見出し不変、validate_entry OK（警告は既存行）。"
+  },
+  "pi_processing": {
+    "status": "no_applicable",
+    "event_id": "targeted:appropriate:4ad1d7c30bb5"
+  }
+}
