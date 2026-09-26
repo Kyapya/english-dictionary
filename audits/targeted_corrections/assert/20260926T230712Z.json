@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/a/assert.md",
+  "created_at": "2026-09-26T23:07:12Z",
+  "base_body_sha256": "a384b8b167b027dfcbe3aa592ecbfdfe61a51799b3c77dc5103f4c78886ddc4d",
+  "head_body_sha256": "12115d02203aaffae753e2ca1d332994e515d514240fac26d95148a52caf920a",
+  "diff_sha256": "307433324df86991afa5a524a7c9076c9f1aeb04bee4f8f6970a8444ad90cc7d",
+  "user_request": "修正依頼書 第2回（語義1訳語方針の統一、語義2語法注意の食い違い解消）",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "claude-code-targeted-review",
+    "verdict": "pass",
+    "notes": "2項目の反映と周辺整合を確認"
+  },
+  "pi_processing": {
+    "status": "save_error",
+    "reason": "learning_delta.schema_version must be process_improvement_learning_delta_v2"
+  }
+}
