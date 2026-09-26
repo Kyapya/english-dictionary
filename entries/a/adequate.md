@@ -278,12 +278,12 @@ tags: []
 
 【レジスター/領域】法律、裁判、行政、契約の正式な文書。一般会話では通常、enough、sufficient、reasonable などを使う。法域や手続によって要求される基準は異なる。  
 
-【文法パターン】adequate grounds for a lawsuit＝訴訟を進めるのに法的に十分な根拠／adequate grounds for dismissal＝解雇を正当化するのに十分な理由／adequate notice to 〈当事者〉＝手続上十分な通知／adequate consideration for a property transfer＝財産移転における交換対象に見合う対価／an adequate remedy at law for 〈損害〉＝法律上の救済で足りるもの／be legally adequate under 〈法令・手続〉＝法令・手続上十分である。  
+【文法パターン】adequate grounds for a lawsuit＝訴訟を起こすのに法的に十分な根拠／adequate grounds for dismissal＝解雇を正当化するのに十分な理由／adequate notice to 〈当事者〉＝手続上十分な通知／adequate consideration for a property transfer＝財産移転における交換対象に見合う対価／an adequate remedy at law for 〈損害〉＝法律上の救済で足りるもの／be legally adequate under 〈法令・手続〉＝法令・手続上十分である。  
 
 【コロケーション】
 
 ・adequate grounds for a lawsuit  
-用途: 訴訟を開始する法的根拠が十分であることを表す。  
+用途: 訴訟を起こす法的根拠が十分であることを表す。  
 例: The lawyer concluded that there were adequate grounds for a lawsuit.  
 訳: 弁護士は、訴訟を起こすのに十分な根拠があると結論づけた。  
 
@@ -309,8 +309,8 @@ tags: []
 
 ・be legally adequate under 〈法令〉  
 用途: 特定の法令や手続の基準を満たしていることを述べる。  
-例: The disclosure was legally adequate under the applicable statute.  
-訳: その開示は適用される法令の下で法的に十分だった。  
+例: The disclosure was legally adequate under the Securities Act.  
+訳: その開示は米国証券法の下で法的に十分だった。  
 
 【語法・注意】法律義の adequate は、日常語の「まあ十分」ではなく、法令・判例・手続が要求する合理的な水準を満たすという専門的な評価である。adequate と言えるだけで「合法」「勝訴できる」とまでは言えない点に注意する。adequate consideration は契約法一般の consideration と同義ではなく、対価の価値が同等であることは通常の契約の成立要件ではない。財産移転など特定の文脈で取引価値に照らして十分・公正な対価を指すことがあるが、基準・効果は法域や制度によって異なる。an adequate remedy at law の at law は、損害賠償などの法律上の救済で足りるため衡平法上の救済（in equity）が不要かを判断する専門的な対比を指す。  
 
