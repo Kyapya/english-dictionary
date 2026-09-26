@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: codex-gpt-5
 created_at: 2026-09-21
-updated_at: 2026-09-21
+updated_at: 2026-09-26
 checked: true
 tags: []
 ---
@@ -21,13 +21,17 @@ Late Middle English。ラテン語 appropriatus（appropriare「自分のもの�
 
 ・appropriately：適切に、ふさわしく。  
 ・appropriateness：適切さ、妥当性。  
-・appropriation：割り当て・充当、または他者のものの無断取得。  
+・appropriation：割り当て・充当、または他者のものの取り込み。cultural appropriation（文化の盗用）は、他の文化の要素を理解や敬意を欠いたまま借用することへの批判的な呼称。  
 ・inappropriate：不適切な。  
 ・misappropriate：横領する、目的外に流用する。  
+・age-appropriate：年齢にふさわしい。appropriate を後部要素とする複合形容詞で、教材・内容・行動などに使う。  
 
 ＃コアイメージ
 
-ある人・目的・状況に合うものとして整えるか、特定の目的または自分のものとして取り分ける。  
+語源 proprius「自分に固有の」（proper・property と同根）から、「特定の持ち主・目的にぴったり属する」ことが共通核にある。形容詞では、ものがその場・目的・相手に属するようにふさわしいことを表し、動詞では、ものを特定の目的や自分に属させることを表す。  
+・その場・目的・相手にぴったり属する状態 → 「ふさわしい、適切な」（語義1）  
+・資金を公的に特定の目的へ属させる行為 → 「正式に割り当てる、充当する」（語義2）  
+・他者のものを自分に属させる行為 → 「自分のものとして取り込む」（語義3）  
 
 ＃意味・用法・関連表現
 
@@ -48,39 +52,49 @@ Late Middle English。ラテン語 appropriatus（appropriare「自分のもの�
 例: The team chose an appropriate response to the complaint.  
 訳: チームはその苦情に対して適切な対応を選んだ。  
 
-・appropriate action in 〈circumstances〉  
-用途: その時点で取るべき適切な行動を述べる。  
+・take appropriate action  
+用途: 状況に応じて取るべき適切な行動・措置を取ると述べる。  
 例: The manager took appropriate action after the safety report.  
 訳: 管理者は安全報告を受けて適切な措置を取った。  
 
-・appropriate measures for 〈problem/purpose〉  
-用途: 問題への対策や目的にかなう措置を述べる。  
+・appropriate measures to do 〈an action〉  
+用途: 目的を果たすための適切な対策・措置を述べる。  
 例: The school introduced appropriate measures to protect students.  
 訳: 学校は生徒を守るための適切な措置を導入した。  
 
 ・an appropriate time to do 〈an action〉  
 用途: 何かをするのにふさわしい時期を述べる。  
-例: We will discuss the proposal at an appropriate time.  
-訳: 私たちは適切な時期にその提案を話し合う。  
+例: This is not an appropriate time to raise the issue.  
+訳: 今はその問題を持ち出すのにふさわしい時ではない。  
 
 ・appropriate for 〈children/age/needs〉  
-用途: 年齢や対象者にふさわしいことを述べる。  
-例: This material is appropriate for children over six.  
-訳: この教材は6歳を超える子どもに適している。  
+用途: 年齢や対象者にふさわしいことを述べる。年齢について一語で言う場合は age-appropriate を使う。  
+例: This material is appropriate for children aged six and over.  
+訳: この教材は6歳以上の子どもに適している。  
 
 ・appropriate to 〈context/occasion〉  
 用途: 文脈や場面に合っていることを述べる。  
 例: Her formal tone was appropriate to the occasion.  
 訳: 彼女の改まった口調はその場にふさわしかった。  
 
-【語法・注意】「正しい」と断定するより、特定の条件や場面に合っているという判断を表す。for は対象・目的、to は基準や状況との対応を示しやすい。  
+・as appropriate  
+用途: 文末などに置き、「適宜、必要に応じて」と判断を相手に委ねる。ビジネス文書・指示文で頻出。  
+例: Please update the list as appropriate.  
+訳: 必要に応じてリストを更新してください。  
+
+・where appropriate  
+用途: 「適切な場合には、該当する場合に限り」と適用する場面を限定する。規則・ガイドラインで頻出。  
+例: Staff should use plain language where appropriate.  
+訳: 職員は適切な場合には平易な言葉を使うべきだ。  
+
+【語法・注意】「正しい」と断定するより、特定の条件や場面に合っているという判断を表す。for は対象・目的、to は基準や状況との対応を示しやすい。as appropriate は「その都度適切に判断して」という処理方法の含みが中心で、where appropriate は「それが当てはまる場合に限り」という条件の含みが強い。  
 
 【類義語】
 
 ・suitable  
 定義: 目的・条件・人に合っていて使える。  
 頻度: 〈9/10〉  
-違い: appropriate より広く、適合性・実用性に焦点を置く。  
+違い: appropriate が場面や社会通念に照らした妥当さを表すのに対し、suitable は目的・条件に実用上合っていることに焦点を置く。  
 例: This room is suitable for small meetings.  
 訳: この部屋は小規模な会議に適している。  
 
@@ -145,18 +159,18 @@ Late Middle English。ラテン語 appropriatus（appropriare「自分のもの�
 
 ・be appropriated for 〈a specific purpose〉  
 用途: 資金や資源が特定の目的に割り当てられていると述べる。  
-例: The grant was appropriated for environmental restoration.  
-訳: その助成金は環境の回復のために割り当てられた。  
+例: The funds were appropriated for environmental restoration.  
+訳: その資金は環境の回復のために充当された。  
 
-・appropriate resources to 〈program/agency〉  
-用途: 事業や機関に必要な資源を公的に配分する。  
-例: The committee appropriated resources to the health program.  
-訳: 委員会は保健事業に資源を配分した。  
+・appropriate resources for 〈program〉  
+用途: 事業に必要な資源を公的に配分する。  
+例: The legislature appropriated additional resources for the health program.  
+訳: 議会は保健事業に追加の資源を配分した。  
 
 ・appropriate a sum for 〈construction/maintenance〉  
 用途: 建設や維持管理に特定額を計上する。  
 例: The council appropriated a sum for bridge maintenance.  
-訳: 評議会は橋の維持管理のために一定額を計上した。  
+訳: 市議会は橋の維持管理のために一定額を計上した。  
 
 【語法・注意】公的機関などが目的を定めて予算や資源を取り分ける語。実際に支払う・使い切るという意味ではなく、無断で流用する語義3とは権限と目的の向きが異なる。  
 
@@ -180,8 +194,8 @@ Late Middle English。ラテン語 appropriatus（appropriare「自分のもの�
 定義: 仕事・役割・資源などを特定の対象に割り当てる。  
 頻度: 〈9/10〉  
 違い: appropriate の公的な予算配分より広く、人や任務の割り当てにも使う。  
-例: The office assigned additional funds to the training program.  
-訳: 事務所は研修事業に追加資金を割り当てた。  
+例: The manager assigned two staff members to the project.  
+訳: 部長はそのプロジェクトに職員を2名割り当てた。  
 
 ・budget  
 定義: 特定の目的のために金額を計上・配分する。  
@@ -190,18 +204,9 @@ Late Middle English。ラテン語 appropriatus（appropriare「自分のもの�
 例: We budgeted enough money for repairs.  
 訳: 私たちは修理のために十分な金額を計上した。  
 
-【反意語】
+3. 【動詞・他動詞／フォーマル】他者のもの（考え・表現・資金・土地など）を自分のものとして取り込んで使う。しばしば権限や許可のない使用を含意する。
 
-・withhold  
-定義: 与える、支出する、割り当てるはずのものを渡さずに保留する。  
-頻度: 〈6/10〉  
-違い: appropriate が目的のために取り分けるのに対し、withhold は提供や配分を止める。  
-例: The agency withheld funds until the audit was complete.  
-訳: その機関は監査が終わるまで資金の配分を保留した。  
-
-3. 【動詞・他動詞／フォーマル】所有権・利用権を自分のものとして取り込み、特に権限なく他者のもの・考え・資金などを使う。
-
-【日本語訳・定義】他者の考え・資金・土地などを無断で自分のものとして使う、取り込む。  
+【日本語訳・定義】他者の考え・資金・土地などを自分のものとして取り込む、自分のものとして使う。しばしば無断・不当の含みを伴う。  
 
 【頻度】〈5/10〉  
 
@@ -232,11 +237,11 @@ Late Middle English。ラテン語 appropriatus（appropriare「自分のもの�
 訳: その写真は無断で使用された。  
 
 ・appropriate cultural material  
-用途: 文化的な表現や素材を、権利関係を無視して取り込む。  
+用途: 他の文化（特に少数派の文化）の表現や要素を、その背景への理解や敬意を欠いたまま取り入れると批判的に述べる。名詞形は cultural appropriation（文化の盗用）。  
 例: The campaign appropriated cultural material without consulting the community.  
 訳: そのキャンペーンは地域社会に相談せず文化的素材を取り込んだ。  
 
-【語法・注意】無断使用・横取りの含みが文脈から生じやすく、misappropriate は不正流用をより強く示す。公的な目的への正式な充当は語義2で、目的と権限の有無が境界になる。  
+【語法・注意】無断使用・横取りの含みが文脈から生じやすいが、必須ではない。appropriation art（既存の図像を意図的に借用する美術）や、否定的な呼称を当事者側が取り込んで使い直す用法のように中立的・肯定的な使い方もある。misappropriate は不正・違法な流用であることが語自体で明確になる。公的な目的への正式な充当は語義2で、目的と権限の有無が境界になる。  
 
 【類義語】
 
@@ -247,12 +252,12 @@ Late Middle English。ラテン語 appropriatus（appropriare「自分のもの�
 例: The accountant misappropriated company funds.  
 訳: その会計担当者は会社の資金を横領した。  
 
-・seize  
-定義: 権力・強制力などで人や物をつかみ、占有する。  
-頻度: 〈7/10〉  
-違い: appropriate より、突然または強制的に奪い取る動作に焦点を置く。  
-例: Officials seized the goods at the border.  
-訳: 当局は国境でその商品を押収した。  
+・commandeer  
+定義: 他者の建物・乗り物・物資などを、許可なく、または権限を盾に自分の用途のために接収する。  
+頻度: 〈4/10〉  
+違い: appropriate より、物理的な物を強引に一時的な使用のために押さえる動作に焦点を置く。  
+例: The rebels commandeered a truck to escape.  
+訳: 反乱者たちは逃走のためにトラックを乗っ取った。  
 
 ・plagiarize  
 定義: 他人の文章・考え・作品を自分のものとして発表する。  
@@ -266,7 +271,7 @@ Late Middle English。ラテン語 appropriatus（appropriare「自分のもの�
 頻度: 〈4/10〉  
 違い: appropriate より、正当な権利や地位を押しのけて奪う含みが強い。  
 例: The rival tried to usurp the leader's authority.  
-訳: その対立者は指導者の権限を奪おうとした。  
+訳: その対抗勢力は指導者の権限を奪おうとした。  
 
 【反意語】
 
