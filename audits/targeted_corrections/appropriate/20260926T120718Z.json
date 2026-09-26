@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/a/appropriate.md",
+  "created_at": "2026-09-26T12:07:18Z",
+  "base_body_sha256": "c0f235efca9fc6b070d0f5c1706c7e1f86c60ca3bccb8f1cd91649c73eab5e88",
+  "head_body_sha256": "3dcc75624b20d6034e830d9777837130d56ed545201ffd0cd9e643b7f3c38d99",
+  "diff_sha256": "50fb5e6e6c5cdd192c73072c68faebf5c1c7738badf9a41901266281e906a864",
+  "user_request": "appropriate 修正依頼書（A〜H）に基づく指定修正: コロケーション見出しと例文の一致、as/where appropriate・age-appropriate の追加、語義1〜3の例文・類義語差・語義3定義と語法の整合、コアイメージ改訂、語義2反意語 withhold 削除、訳の細部修正。",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "Claude Code targeted correction review (same session as editor)",
+    "verdict": "pass",
+    "notes": "各変更hunkを依頼書と照合。A: 見出しの型（take appropriate action / measures to do / time to do）が例文に出現。B: as/where appropriate を追加し語法欄で差を明示、age-appropriate を語形成と用途欄に追加。C-1〜C-5: 指定例へ差替え、C-3は for 型に統一、C-5 seize を commandeer に置換。D: 判断軸の対比に改稿。E: 定義で無断を必須要素から外し、語法欄で中立用法と misappropriate の差、cultural appropriation を追記。F: proprius 核の3枝コアイメージ（語義1〜3全て導出）。G: withhold 削除、反意語欄省略。H: 訳修正。＃見出し不変。validate_entry OK（警告は既存行）。"
+  },
+  "pi_processing": {
+    "status": "no_applicable",
+    "event_id": "targeted:appropriate:50fb5e6e6c5c"
+  }
+}
