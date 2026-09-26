@@ -208,6 +208,19 @@ class ValidateEntryTests(unittest.TestCase):
         path = self._write_temp_markdown(text)
         self.assertEqual(validate_file(path), [])
 
+    def test_v5_accepts_halfwidth_markdown_section_headings(self) -> None:
+        text = VALID_V5_MARKDOWN
+        for title in (
+            "発音記号",
+            "語源",
+            "語形成",
+            "コアイメージ",
+            "意味や関連情報の出力（日本語訳）",
+        ):
+            text = text.replace(f"＃{title}", f"# {title}")
+        path = self._write_temp_markdown(text)
+        self.assertEqual(validate_file(path), [])
+
     def test_v5_warns_about_legacy_placeholder_notation_in_grammar_pattern(self) -> None:
         text = VALID_V5_MARKDOWN.replace(
             "【文法パターン】immaculate 〈名詞〉／be immaculate。",
