@@ -43,7 +43,7 @@ def _changed_paths(repo_root: Path, base: str, head: str) -> list[str]:
 
 
 def _entry_diff(repo_root: Path, base: str, head: str, entry_path: str) -> str:
-    return _git(repo_root, "diff", "--unified=3", base, head, "--", entry_path)
+    return _git(repo_root, "diff", "--diff-algorithm=myers", "--unified=3", base, head, "--", entry_path)
 
 
 def _split_front_matter(text: str) -> tuple[dict[str, str], str]:
@@ -324,7 +324,7 @@ def command_record(args: argparse.Namespace) -> int:
 
     base_text = _git_show(repo_root, args.base, entry_path)
     head_text = current_path.read_text(encoding="utf-8")
-    diff_text = _git(repo_root, "diff", "--unified=3", args.base, "--", entry_path)
+    diff_text = _git(repo_root, "diff", "--diff-algorithm=myers", "--unified=3", args.base, "--", entry_path)
     created_at = _timestamp()
     output = repo_root / _record_path(entry_path, created_at)
     pi_result: dict[str, Any] = {
