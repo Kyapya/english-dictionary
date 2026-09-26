@@ -378,6 +378,22 @@ class ValidateEntryTests(unittest.TestCase):
         errors = validate_file(path)
         self.assertTrue(any("heading order is wrong" in error for error in errors))
 
+    def test_v5_allows_omitting_inapplicable_synonyms(self) -> None:
+        text = VALID_V5_MARKDOWN
+        start = text.index("\n【類義語】\n")
+        end = text.index("\n【反意語】\n", start)
+        text = text[:start] + text[end:]
+        path = self._write_temp_markdown(text)
+        self.assertEqual(validate_file(path), [])
+
+    def test_v4_still_requires_synonyms(self) -> None:
+        text = VALID_V4_MARKDOWN
+        start = text.index("\n【類義語】\n")
+        end = text.index("\n【反意語】\n", start)
+        text = text[:start] + text[end:]
+        errors = validate_file(self._write_temp_markdown(text))
+        self.assertTrue(any("is missing 【類義語】" in error for error in errors))
+
     def test_all_relation_lines_are_checked(self) -> None:
         text = VALID_MARKDOWN.replace(
             "訳: 部屋は非常に清潔だった。",
