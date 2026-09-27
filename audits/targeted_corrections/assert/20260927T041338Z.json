@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/a/assert.md",
+  "created_at": "2026-09-27T04:13:38Z",
+  "base_body_sha256": "76a926feabe8b36c3e6148d1354d036798732f095bca9655ed0e647acb1a777b",
+  "head_body_sha256": "7c2d887b54c58ee287b43347cbee8980200c50b5d64131dcbbad983e699f9668",
+  "diff_sha256": "cd91df47dd4ca9b65525c55606da71ecc66dfb45563edd920b8a947a33d84d94",
+  "user_request": "assert.md 第5回修正依頼書（確信を語義の必須要素にしない、affirm 訳）",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "claude-code-targeted-review",
+    "verdict": "pass",
+    "notes": "コアイメージ・語義1定義・反論文脈・say/state比較・affirm訳を修正。confidently 例と語義3(対象外)は維持"
+  },
+  "pi_processing": {
+    "status": "save_error",
+    "reason": "learning_delta.schema_version must be process_improvement_learning_delta_v2"
+  }
+}
