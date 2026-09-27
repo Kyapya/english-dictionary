@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/a/assert.md",
+  "created_at": "2026-09-27T00:14:14Z",
+  "base_body_sha256": "063b037d240aae49451d3e15806c238017a786b90ec5b65e7febf46457145394",
+  "head_body_sha256": "e1cab80a93a10da5bf64fc2cb8545a977a0835c96ae90cc6c4287390fa3049c5",
+  "diff_sha256": "332b18b31cb14feed362b41340cce50664cb4b51b4bf8dd82c8d345df2d89ce7",
+  "user_request": "assert.md 第2回修正依頼書（下位説明に残る『認めさせる／認識させる』の整合、13項目）",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "claude-code-targeted-review",
+    "verdict": "pass",
+    "notes": "13項目反映。残存の『認め』は語源（対象外）、コアイメージの否定文、assert a claim の請求、defend 比較の事実記述のみで文脈上妥当"
+  },
+  "pi_processing": {
+    "status": "save_error",
+    "reason": "learning_delta.schema_version must be process_improvement_learning_delta_v2"
+  }
+}

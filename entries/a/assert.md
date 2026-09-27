@@ -29,7 +29,7 @@ tags: []
 
 `assertion` — 名詞「主張、断言、主張する行為」。  
 `assertive / assertively / assertiveness` — 形容詞「自信をもって意見や要求をはっきり述べる、毅然とした」／副詞「自信をもって、毅然と、はっきりと」／名詞「自己主張、積極性」。  
-`reassert` — 接頭辞 `re-`「再び」を付けた動詞「再び主張する、改めて認めさせる」。  
+`reassert` — 接頭辞 `re-`「再び」を付けた動詞「再び主張する、改めて示す」。  
 `self-assertion` — 複合名詞「自己主張」。対人関係や心理・コミュニケーションの文脈で使う。  
 
 ＃コアイメージ
@@ -150,17 +150,17 @@ B. `authority`、`control`、`dominance`、`power` など：権威・支配力�
 
 【レジスター/領域】標準語。日常の対人関係から、政治、組織、法律、国際関係まで使う。`assert authority` や `assert dominance` は、決然とした自己主張にも、支配的・威圧的な振る舞いにもなり得る。  
 
-【文法パターン】`assert one's rights/independence/authority/control`＝権利・独立・権威・支配を主張する／`assert a claim to 〈property/land〉`＝財産・土地への権利を主張する／`assert dominance over 〈person/group〉`＝人・集団に対する優位を示す／`assert power over 〈person/institution〉`＝人・組織に対する権力を示す／`assert sovereignty over 〈territory〉`＝領土に対する主権を主張する／`assert a claim against 〈person/company〉`＝〜に対して請求を申し立てる／`assert (a) privilege`＝特権・権利の行使を主張する  
+【文法パターン】`assert one's rights`＝権利を主張する・行使する／`assert one's independence`＝独立性を示す・主張する／`assert authority/control`＝権威・支配力を示す・行使する・確立する／`assert a claim to 〈property/land〉`＝財産・土地への権利を主張する／`assert dominance over 〈person/group〉`＝人・集団に対する優位を示す／`assert power over 〈person/institution〉`＝人・組織に対する権力を示す／`assert sovereignty over 〈territory〉`＝領土に対する主権を主張する／`assert a claim against 〈person/company〉`＝〜に対して請求を申し立てる／`assert (a) privilege`＝特権・権利を主張する／援用する  
 
 【コロケーション】
 
 ・`assert one's rights`  
-用途: 自分に認められるべき権利を、相手や制度に認識させようとする。  
+用途: 自分にその権利があることをはっきり主張する、またはその権利を行使する。  
 例: The tenants organized to assert their rights.  
 訳: 借家人たちは、自分たちの権利を主張するために団結した。  
 
 ・`assert one's independence`  
-用途: 他者・他国・親組織から独立した立場を認めさせる。  
+用途: 他者・他国・親組織から独立した立場をはっきり示す、または主張する。  
 例: The new government sought to assert its independence from the former colonial power.  
 訳: 新政府は、旧宗主国からの独立を内外に示そうとした。  
 
@@ -190,7 +190,7 @@ B. `authority`、`control`、`dominance`、`power` など：権威・支配力�
 訳: その納入業者は、未払いの代金についてメーカーに対して請求を申し立てた。  
 
 ・`assert (a) privilege`  
-用途: 法廷などで、証言拒否権や秘匿特権などを行使すると主張する。  
+用途: 法廷などで、証言拒否権や秘匿特権などを主張・援用し、実際にそれを根拠に証言や開示を拒む。  
 例: The witness asserted her Fifth Amendment privilege and declined to answer.  
 訳: 証人は合衆国憲法修正第5条の自己負罪拒否特権を行使し、回答を拒んだ。  
 
@@ -199,7 +199,7 @@ B. `authority`、`control`、`dominance`、`power` など：権威・支配力�
 例: Both countries continue to assert sovereignty over the islands.  
 訳: 両国とも、その島々に対する主権を主張し続けている。  
 
-【語法・注意】`assert one's rights` は権利が法的に確定したことではなく、権利を認めるよう求める行為を表す。`assert authority` も、相手が実際に従ったことを必ずしも含まない（文脈による）。ただし過去形では、実際に支配・権威を確立したことを含意する場合が多い（例：The military asserted control over the capital.＝軍が首都を掌握した）。  
+【語法・注意】`assert one's rights` は権利が法的に確定したことではなく、自分にその権利があることを主張する、またはそれを行使する行為を表す。`assert authority` も、相手が実際に従ったことを必ずしも含まない（文脈による）。ただし過去形では、実際に支配・権威を確立したことを含意する場合が多い（例：The military asserted control over the capital.＝軍が首都を掌握した）。  
 
 `assert control` は支配の状態そのものより、支配を確立・行使する動きに焦点がある。  
 `assert a claim to ...` は `make a claim to ...` より硬く、公式・法律的な響きがある。同じ意味では `lay claim to ...` もよく使われ、単に `claim ...` と言うのが最も一般的である。`assert a claim` と言っても、請求が認められた、所有権が確定したという意味にはならない。  
@@ -210,14 +210,14 @@ B. `authority`、`control`、`dominance`、`power` など：権威・支配力�
 ・claim  
 定義: 権利、所有権、資格などが自分にあると主張する。  
 頻度: 〈9/10〉  
-違い: `claim` は権利・所有などの主張そのものに焦点があり、`assert` と違って、強い態度や相手に認めさせる働きかけを必ずしも含まない。  
+違い: `claim` は権利・所有などを自分に属するものとして主張することに焦点がある。`assert` は、それをより明確・強く前面に出したり、文脈によって実際に権利・権威を行使したりすることに焦点がある。  
 例: Several families claim ownership of the land.  
 訳: 複数の家族が、その土地の所有権を主張している。  
 
 ・insist on  
 定義: 何かを当然のこととして強く求め、譲らない。  
 頻度: 〈9/10〉  
-違い: `insist on` は要求を繰り返して譲歩しない態度に焦点がある。`assert` は権利・権威を認識させる行為をより広く表す。  
+違い: `insist on` は要求を繰り返して譲歩しない態度に焦点がある。`assert` は権利・権威をはっきり示したり、主張・行使したりする行為をより広く表す。  
 例: She insisted on her right to speak at the hearing.  
 訳: 彼女は、その公聴会で発言する権利を強く主張して譲らなかった。  
 
@@ -231,14 +231,14 @@ B. `authority`、`control`、`dominance`、`power` など：権威・支配力�
 ・exercise  
 定義: 権利、権限、影響力などを実際に行使する。  
 頻度: 〈8/10〉  
-違い: `exercise authority` は権限を実際に使うことを表す。`assert authority` は、まず自分の権限を示して認めさせる局面に焦点がある。  
+違い: `exercise authority` は権限を実際に使うことを表す。`assert authority` は、自分の権限をはっきり示し、必要に応じて実際に発揮・確立する局面に焦点がある。  
 例: The board exercised its authority to suspend the project.  
 訳: 取締役会は、プロジェクトを停止する権限を行使した。  
 
 ・establish  
 定義: 権威、支配、地位などを確かなものとして打ち立てる。  
 頻度: 〈9/10〉  
-違い: `establish authority/control` は権威や支配が確立した結果に焦点がある。`assert` はそれを認めさせようとする働きかけの段階を表し、成功を必ずしも含まない（文脈による）。  
+違い: `establish authority/control` は権威や支配が確立した結果に焦点がある。`assert` は権威・支配などを前面に出して示す・行使する過程に焦点がある。文脈によっては実際の確立まで表すが、`establish` は確立された結果そのものにより強く焦点がある。  
 例: The new coach quickly established control of the dressing room.  
 訳: 新監督は、すぐにチーム内の主導権を確立した。  
 
@@ -261,7 +261,7 @@ B. `authority`、`control`、`dominance`、`power` など：権威・支配力�
 ・surrender  
 定義: 権利、支配、抵抗などを手放し、相手に渡す。  
 頻度: 〈7/10〉  
-違い: `surrender` は権利・支配・抵抗などを手放すことを表し、それらを前面に出して認めさせようとする `assert` と反対方向である。  
+違い: `surrender` は権利・支配・抵抗などを手放すことを表し、それらを前面に出して主張・行使する `assert` と反対方向である。  
 例: The rebels surrendered control of the city.  
 訳: 反乱軍はその都市の支配権を手放した。  
 
@@ -293,7 +293,7 @@ B. `authority`、`control`、`dominance`、`power` など：権威・支配力�
 訳: その講座は、新入社員が礼儀正しく自己主張することを学ぶ助けになった。  
 
 ・`try to assert yourself`  
-用途: 自分の意見・存在を認めてもらおうと試みる。  
+用途: 自分の意見・立場・存在を、遠慮せずにはっきり示そうとする。  
 例: If you disagree, try to assert yourself without interrupting others.  
 訳: 反対意見があるなら、他人の話を遮らずに自分の考えをはっきり伝えるようにしよう。  
 
@@ -317,7 +317,7 @@ assertive は「自信をもって率直に自分の考えや権利を表す」�
 ・speak up  
 定義: 意見、質問、異議などを声に出して述べる。  
 頻度: 〈9/10〉  
-違い: `speak up` は黙っている状況で発言することに焦点があり、権利や存在を認めさせる強さまでは必ずしも含まない。  
+違い: `speak up` は黙っている状況で発言することに焦点があり、自分の立場や存在を強く前面に出すニュアンスまでは必ずしも含まない。  
 例: Please speak up if you have a concern about the plan.  
 訳: その計画に懸念があれば、遠慮なく言ってください。  
 
