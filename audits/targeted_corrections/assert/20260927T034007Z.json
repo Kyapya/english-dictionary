@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/a/assert.md",
+  "created_at": "2026-09-27T03:40:07Z",
+  "base_body_sha256": "3728b788992eea8b2b06f2a9be923f0f5b2e42bb2256dca17fc62bc79e09e0fa",
+  "head_body_sha256": "76a926feabe8b36c3e6148d1354d036798732f095bca9655ed0e647acb1a777b",
+  "diff_sha256": "fbcc603852432ad18b3050cdab71e6ae15a2522658549c700af31a19bc5d703f",
+  "user_request": "改修依頼書（基準 4d9c156、項目1〜12。頻度値は不変）",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "claude-code-targeted-review",
+    "verdict": "pass",
+    "notes": "項目1〜11反映。項目12は check_spec_v5 で明確な反意語がなければ欄の省略を認めるため変更なし。頻度差分なし"
+  },
+  "pi_processing": {
+    "status": "save_error",
+    "reason": "learning_delta.schema_version must be process_improvement_learning_delta_v2"
+  }
+}

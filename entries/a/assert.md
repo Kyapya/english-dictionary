@@ -20,9 +20,8 @@ tags: []
 
 ＃語源
 
-ラテン語 asserere「主張する、自分のものとして要求する」に由来し、その過去分詞 assertus を経て17世紀初頭の英語に入った。語源上は ad-「〜へ」と serere「つなぐ、結びつける」に分けられ、語源的には「（自分の側に）結びつける」という発想を背景にもち、ラテン語ですでに「自分のものだと主張する」の意味で使われていた。ラテン語 asserere は、ローマ法で「ある人が自由人であると法廷で主張する」（asserere in libertatem）という用法をもっていた（逆に、奴隷であると主張するのは asserere in servitutem）。権利を主張するという語義2に通じる使い方である。  
+ラテン語 asserere「主張する、自分のものとして要求する」に由来し、その過去分詞 assertus を経て17世紀初頭の英語に入った。語源上は ad-「〜へ」と serere「つなぐ、結びつける」に分けられる。「（自分の側に）結びつける」という発想を背景に、ラテン語ですでに「自分のものだと主張する」の意味で使われていた。ラテン語 asserere は、ローマ法で「ある人が自由人であると法廷で主張する」（asserere in libertatem）という用法をもっていた（逆に、奴隷であると主張するのは asserere in servitutem）。権利を主張するという語義2に通じる使い方である。  
 現在の「命題・権利・自分自身などをはっきり前面に出す」という意味の広がりは、この「自分の側に結びつけて主張する」発想と大まかに対応するが、語源だけから現代の各語義を機械的に導けるわけではない。  
-派生語は assertion「主張、断言」、assertive「自信をもって意見や要求をはっきり述べる」、assertiveness「自己主張、積極性」、reassert「再び主張する」である。  
 同じ serere「つなぐ、並べる」に由来する同語源語には、insert「差し込む」、exert「（力・影響を）発揮する」、desert「見捨てる」、series「連続、シリーズ」がある。  
 
 ＃語形成
@@ -89,14 +88,14 @@ assert の共通核は、命題・権利・権威・自分自身などを、確�
 【語法・注意】assert は通常、`assert that ...` の that節、または `assert one's innocence` のような名詞句を目的語に取る。目的語を置かない `assert about ...` という形は通常用いず、内容は直接目的語か that節で置く。一方、`assert something about ...` のように目的語を置けば、〜について何かを主張するという形は可能である。  
 
 assert は「証明する」「真実だと確認する」という意味ではない。`He asserted that the figures were correct.` は、彼がそう強く述べたことを表すだけで、数値の正しさが証明されたことは含まない。  
-単純な `say` よりも主張の強さ・確信が出やすい。一方、`affirm` は真実であることや信念・立場を明確に肯定する側面が強く、`claim` は話者自身がその内容を保証せずに紹介する含みが出やすい。  
+単純な `say` よりも主張の強さ・確信が出やすい。一方、`affirm` は真実であることや信念・立場を明確に肯定する側面が強く、`claim` は、報告する書き手がその内容を保証せず、主張者の言い分として紹介する含みが出やすい。  
 
 【類義語】
 
 ・state  
 定義: 事実・意見・情報を言葉で述べる。  
 頻度: 〈10/10〉  
-違い: `state` は最も中立的で、発言の強さや反論への対抗姿勢を必ずしも含まない。`assert` はより強く、真実だと押し出す。  
+違い: `state` は最も中立的で、内容を述べるだけで確信の強さを表さない。`assert` は、内容を真実だと確信をもって強く押し出す。  
 例: The notice states that payment is due by Friday.  
 訳: その通知には、支払い期限は金曜日だと記載されている。  
 
@@ -112,7 +111,7 @@ assert は「証明する」「真実だと確認する」という意味では�
 頻度: 〈5/10〉  
 違い: `affirm` は、何かが真実であることや自分の信念・立場などを明確に肯定・確認する側面が強い。`assert` は内容を強く前面に出して言い切る態度に焦点がある。  
 例: Several witnesses affirmed that the driver had stopped at the red light.  
-訳: 複数の目撃者が、運転手は赤信号で停止していたと明言した。  
+訳: 複数の目撃者が、運転手は赤信号で停止していたと証言した。  
 
 ・claim  
 定義: 何かが事実・権利・資格などだと主張する。  
@@ -144,7 +143,7 @@ assert は「証明する」「真実だと確認する」という意味では�
 A. `rights`、`claim`、`privilege`、`independence` など：自分にその権利・請求・資格があることや、独立した立場にあることを、はっきり主張・表明する。`rights` や `privilege` では、文脈によって実際の権利の行使・援用まで表すこともある。  
 B. `authority`、`control`、`dominance`、`power` など：権威・支配力・優位性などを、言葉だけでなく実際の行動によって示す、発揮する。文脈によっては支配・権威を確立することまで表す（例：The military asserted control over the capital.＝軍が首都を掌握した）。  
 
-権利や権限を実際に獲得できたことを必ずしも含まない（文脈による）。`assert a claim` は法律・公式文書で「請求・主張を提示し、認めるよう求める」という意味になり得るが、請求が認められたことを表すわけではない。  
+`assert a claim` は、法律・公式文書で「請求・主張を提示し、認めるよう求める」という意味になる。  
 
 【頻度】〈7/10〉  
 
@@ -162,7 +161,7 @@ B. `authority`、`control`、`dominance`、`power` など：権威・支配力�
 ・`assert one's independence`  
 用途: 他者・他国・親組織から独立した立場をはっきり示す、または主張する。  
 例: The new government sought to assert its independence from the former colonial power.  
-訳: 新政府は、旧宗主国からの独立を内外に示そうとした。  
+訳: 新政府は、旧宗主国からの独立をはっきり示そうとした。  
 
 ・`assert authority over 〈people/team〉`  
 用途: 人々やチームに対する自分の指揮権・権限を示す。  
@@ -199,10 +198,10 @@ B. `authority`、`control`、`dominance`、`power` など：権威・支配力�
 例: Both countries continue to assert sovereignty over the islands.  
 訳: 両国とも、その島々に対する主権を主張し続けている。  
 
-【語法・注意】`assert one's rights` は、自分にその権利があることをはっきり主張することを基本とし、権利が法的に確定したことまでは表さない。文脈によっては、その権利を実際に行使する局面まで含むことがある。`assert authority` も、相手が実際に従ったことを必ずしも含まない（文脈による）。ただし過去形では、実際に支配・権威を確立したことを含意する場合が多い（例：The military asserted control over the capital.＝軍が首都を掌握した）。  
+【語法・注意】`assert one's rights`・`assert a claim` は権利や請求を前面に出すことを表し、権利が法的に確定したことや、請求が認められたことまでは表さない。`assert authority/control` も、相手が実際に従ったことを必ずしも含まない。`try to / seek to assert ...` のように試みを表す語と組めば、試みにとどまる。一方、`The new manager quickly asserted her authority.` のように単独で述べれば、実際に権威を示した・確立したと読まれることが多い。  
 
 `assert control` は支配の状態そのものより、支配を確立・行使する動きに焦点がある。  
-`assert a claim to ...` は `make a claim to ...` より硬く、公式・法律的な響きがある。同じ意味では `lay claim to ...` もよく使われ、単に `claim ...` と言うのが最も一般的である。`assert a claim` と言っても、請求が認められた、所有権が確定したという意味にはならない。  
+`assert a claim to ...` は `make a claim to ...` より硬く、公式・法律的な響きがある。同じ意味では `lay claim to ...` もよく使われ、単に `claim ...` と言うのが最も一般的である。  
 この語義では目的語に `rights`、`authority`、`control`、`dominance` など、主張する権利や示す権威・支配を表す名詞を置く。単なる事実の主張なら語義1の `assert that ...` を使う。  
 
 【類義語】
@@ -239,8 +238,8 @@ B. `authority`、`control`、`dominance`、`power` など：権威・支配力�
 定義: 権威、支配、地位などを確かなものとして打ち立てる。  
 頻度: 〈9/10〉  
 違い: `establish authority/control` は権威や支配が確立した結果に焦点がある。`assert` は権威・支配などを前面に出して示す・行使する過程に焦点がある。文脈によっては実際の確立まで表すが、`establish` は確立された結果そのものにより強く焦点がある。  
-例: The new coach quickly established control of the dressing room.  
-訳: 新監督は、すぐにチーム内の主導権を確立した。  
+例: The new coach quickly established his authority over the team.  
+訳: 新監督は、すぐにチームに対する自分の権威を確立した。  
 
 【反意語】
 
@@ -338,7 +337,7 @@ assertive は「自信をもって率直に自分の考えや権利を表す」�
 ・put oneself forward  
 定義: 自分を候補・存在感のある人物として前面に出す。  
 頻度: 〈7/10〉  
-違い: `put oneself forward` は役職、機会、選考などに自分を売り込む含みが強く、権利侵害への対抗を必ずしも表さない。  
+違い: `put oneself forward` は、役職・機会・選考などに自分を候補として売り込むことに焦点がある。`assert oneself` は、その場で自分の意見や存在をはっきり示す行為を表す。  
 例: He is reluctant to put himself forward for the leadership role.  
 訳: 彼は指導者の役割に自分から名乗り出ることをためらっている。  
 
@@ -373,14 +372,14 @@ assertive は「自信をもって率直に自分の考えや権利を表す」�
 
 【レジスター/領域】やや硬い書き言葉・文学的表現。報告、評論、描写などで見られ、日常会話では `kick in`、`start to show`、`start to have an effect` などに言い換えることが多い。  
 
-【文法パターン】`〈effect/problem/feeling〉 assert itself`＝効果・問題・感情などが現れ始める／`begin/start to assert itself`＝現れ始める・影響し始める／`〈instinct/personality/tendency〉 assert itself`＝本能・性格・傾向などが表に出る／`assert itself again`＝再び表面化する  
+【文法パターン】`〈reality/problem/feeling〉 assert itself`＝現実・問題・感情などが表に出てくる／`begin/start to assert itself`＝現れ始める・影響し始める／`〈instinct/personality/tendency〉 assert itself`＝本能・性格・傾向などが表に出る／`assert itself again`＝再び表面化する  
 
 【コロケーション】
 
-・`the effects of 〈原因・処置〉 assert themselves`  
-用途: 何かの効果・影響が、実際の結果として現れ始める。  
-例: The effects of the new policy began to assert themselves within a year.  
-訳: 新しい政策の効果は、1年以内に現れ始めた。  
+・`reality asserts itself`  
+用途: 楽観・理想・思い込みが続いたあとで、現実が無視できない形で表に出てくる。  
+例: After months of optimistic forecasts, reality began to assert itself.  
+訳: 何か月も楽観的な予測が続いたあと、現実が突きつけられ始めた。  
 
 ・`begin to assert itself`  
 用途: 疲労、痛み、感情などが次第に感じられるようになる。  
@@ -402,7 +401,7 @@ assertive は「自信をもって率直に自分の考えや権利を表す」�
 例: The old tension asserted itself again during the negotiations.  
 訳: 交渉中、以前からの緊張が再び表面化した。  
 
-【語法・注意】主語には `effect`、`influence`、`fatigue`、`tension`、`trend` などの無生物・抽象名詞を置く。`itself` は主語に合わせた再帰代名詞で、`assert it` とはしない。  
+【語法・注意】主語には `reality`、`fatigue`、`tension`、`instinct`、`habit`、`trend` などの無生物・抽象名詞を置く。`itself` は主語に合わせた再帰代名詞で、`assert it` とはしない。  
 
 この `assert itself` は「権利を主張する」という意味ではない。日本語では「現れる」「影響が出る」「表面化する」「効いてくる」など、文脈に応じて訳す。  
 `assert itself` は `show itself` より硬く、単に見えるだけでなく、影響や存在感が次第に強くなる含みをもつことがある。  
