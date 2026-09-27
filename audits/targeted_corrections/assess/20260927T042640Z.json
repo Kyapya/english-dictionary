@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/a/assess.md",
+  "created_at": "2026-09-27T04:26:40Z",
+  "base_body_sha256": "9e9150af429a5103cda55f66820b3e0e1aea6e5b748b394f0eba7ff483c1baca",
+  "head_body_sha256": "70bf23a28dbebd53ae046eda104eb669b821ca45ce0defa66c19e67af2a7ace7",
+  "diff_sha256": "14bd1692f2995e984ef51bfc71ed944b792644fbc64fe4b544b5f3c8841edb44",
+  "user_request": "assess.md 修正依頼書（語義帰属・反則の誤用・例文・訳・予防線集約・学習者注意の追加 A1〜D8）",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "claude-code-targeted-review",
+    "verdict": "pass",
+    "notes": "A1-D8の変更hunkを確認。類義語例文の語義帰属(appraise/gauge)を修正、頻度judge10→8・calculate10→8・tax10→6。D7はspecが語形成に複合を許容するため維持"
+  },
+  "pi_processing": {
+    "status": "pending",
+    "reason": "no coordinator learning_delta was supplied"
+  }
+}
