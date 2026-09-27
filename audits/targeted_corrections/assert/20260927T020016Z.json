@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/a/assert.md",
+  "created_at": "2026-09-27T02:00:16Z",
+  "base_body_sha256": "e1cab80a93a10da5bf64fc2cb8545a977a0835c96ae90cc6c4287390fa3049c5",
+  "head_body_sha256": "03cf7061b6a3b3fac9299d95d79dfef7e8d5335a11a8b7895af0453884a72a19",
+  "diff_sha256": "2551b34dd7b04e55294743ba7661e46ce31004b0b8e38e36cf6a853cea5160fa",
+  "user_request": "assert.md 第3回修正依頼書（受け入れを求める／反論を見越した／語源の認めさせる の3点）",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "claude-code-targeted-review",
+    "verdict": "pass",
+    "notes": "3点反映、語源の前後文と整合"
+  },
+  "pi_processing": {
+    "status": "save_error",
+    "reason": "learning_delta.schema_version must be process_improvement_learning_delta_v2"
+  }
+}
