@@ -141,7 +141,7 @@ assert は「証明する」「真実だと確認する」という意味では�
 
 【日本語訳・定義】目的語によって大きく2つの使い方がある。  
 
-A. `rights`、`claim`、`privilege`、`independence` など：自分にその権利・請求・資格・立場などがあることを強く主張する、またはその権利を行使する。  
+A. `rights`、`claim`、`privilege`、`independence` など：自分にその権利・請求・資格があることや、独立した立場にあることを、はっきり主張・表明する。`rights` や `privilege` では、文脈によって実際の権利の行使・援用まで表すこともある。  
 B. `authority`、`control`、`dominance`、`power` など：権威・支配力・優位性などを、言葉だけでなく実際の行動によって示す、発揮する。文脈によっては支配・権威を確立することまで表す（例：The military asserted control over the capital.＝軍が首都を掌握した）。  
 
 権利や権限を実際に獲得できたことを必ずしも含まない（文脈による）。`assert a claim` は法律・公式文書で「請求・主張を提示し、認めるよう求める」という意味になり得るが、請求が認められたことを表すわけではない。  
@@ -150,12 +150,12 @@ B. `authority`、`control`、`dominance`、`power` など：権威・支配力�
 
 【レジスター/領域】標準語。日常の対人関係から、政治、組織、法律、国際関係まで使う。`assert authority` や `assert dominance` は、決然とした自己主張にも、支配的・威圧的な振る舞いにもなり得る。  
 
-【文法パターン】`assert one's rights`＝権利を主張する・行使する／`assert one's independence`＝独立性を示す・主張する／`assert authority/control`＝権威・支配力を示す・行使する・確立する／`assert a claim to 〈property/land〉`＝財産・土地への権利を主張する／`assert dominance over 〈person/group〉`＝人・集団に対する優位を示す／`assert power over 〈person/institution〉`＝人・組織に対する権力を示す／`assert sovereignty over 〈territory〉`＝領土に対する主権を主張する／`assert a claim against 〈person/company〉`＝〜に対して請求を申し立てる／`assert (a) privilege`＝特権・権利を主張する／援用する  
+【文法パターン】`assert one's rights`＝権利をはっきり主張する〔文脈によっては行使する〕／`assert one's independence`＝独立性を示す・主張する／`assert authority/control`＝権威・支配力を示す・行使する・確立する／`assert a claim to 〈property/land〉`＝財産・土地への権利を主張する／`assert dominance over 〈person/group〉`＝人・集団に対する優位を示す／`assert power over 〈person/institution〉`＝人・組織に対する権力を示す／`assert sovereignty over 〈territory〉`＝領土に対する主権を主張する／`assert a claim against 〈person/company〉`＝〜に対して請求を申し立てる／`assert (a) privilege`＝特権・権利を主張する／援用する  
 
 【コロケーション】
 
 ・`assert one's rights`  
-用途: 自分にその権利があることをはっきり主張する、またはその権利を行使する。  
+用途: 自分にその権利があることをはっきり主張する。文脈によっては、その権利を実際に行使する局面まで含むことがある。  
 例: The tenants organized to assert their rights.  
 訳: 借家人たちは、自分たちの権利を主張するために団結した。  
 
@@ -199,7 +199,7 @@ B. `authority`、`control`、`dominance`、`power` など：権威・支配力�
 例: Both countries continue to assert sovereignty over the islands.  
 訳: 両国とも、その島々に対する主権を主張し続けている。  
 
-【語法・注意】`assert one's rights` は権利が法的に確定したことではなく、自分にその権利があることを主張する、またはそれを行使する行為を表す。`assert authority` も、相手が実際に従ったことを必ずしも含まない（文脈による）。ただし過去形では、実際に支配・権威を確立したことを含意する場合が多い（例：The military asserted control over the capital.＝軍が首都を掌握した）。  
+【語法・注意】`assert one's rights` は、自分にその権利があることをはっきり主張することを基本とし、権利が法的に確定したことまでは表さない。文脈によっては、その権利を実際に行使する局面まで含むことがある。`assert authority` も、相手が実際に従ったことを必ずしも含まない（文脈による）。ただし過去形では、実際に支配・権威を確立したことを含意する場合が多い（例：The military asserted control over the capital.＝軍が首都を掌握した）。  
 
 `assert control` は支配の状態そのものより、支配を確立・行使する動きに焦点がある。  
 `assert a claim to ...` は `make a claim to ...` より硬く、公式・法律的な響きがある。同じ意味では `lay claim to ...` もよく使われ、単に `claim ...` と言うのが最も一般的である。`assert a claim` と言っても、請求が認められた、所有権が確定したという意味にはならない。  
