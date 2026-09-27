@@ -12,13 +12,13 @@ tags: []
 
 ＃発音記号
 
-米・英: /əˈses/。2音節の ə-ˈses で、第2音節に主強勢がある。第2音節の母音を /ɛ/ と表記する辞書もあるが、表記方式の違いで、音は同じである。いずれも語頭の /ə/ が弱く、第2音節の母音は日本語の「エ」に近いが同一ではない。つづりの似た access /ˈækses/ は第1音節に強勢があり、母音も /æ/ で異なる。assess は第1音節を弱く、第2音節を強く発音する。  
+米・英: /əˈses/。2音節の ə-ˈses で、第2音節に主強勢がある。第2音節の母音を /ɛ/ と表記する辞書もあるが、表記方式の違いで、音は同じである。いずれも語頭の /ə/ が弱く、第2音節の母音は日本語の「エ」に近いが同一ではない。つづりの似た access /ˈækses/ は第1音節に強勢があり、母音も /æ/ で異なる。  
 assesses は /əˈsesɪz/、assessed は /əˈsest/、assessing は /əˈsesɪŋ/。assessed の -ed は /t/ と発音され、assess の最後の /s/ の後に独立した /ɪd/ 音節を加えない。  
 
 ＃語源
 
 中英語 assessen、古フランス語 assesser を経て、中世ラテン語 assessare「税を定める」にさかのぼる。assessare はラテン語 assidēre「そばに座る」の過去分詞 assessus から派生した語で、assidēre は ad-「〜へ」と sedēre「座る」から成る。ラテン語 assessor は裁判官の隣に座る補佐役を指し、税額の査定も担ったことから、「税・罰金の額を決める」意味が生じた。  
-もともとは税・罰金などの額を決める語で、そこから財産価値の査定、さらに人・物事の性質・重要性・程度を調べて判断する一般義へ広がった。  
+そこから財産価値の査定、さらに人・物事の性質・重要性・程度を調べて判断する一般義へ広がった。  
 同語源の学習語には session「会期、集まり」、preside「司会する、統轄する」がある。  
 
 ＃語形成
@@ -91,6 +91,11 @@ assesses は /əˈsesɪz/、assessed は /əˈsest/、assessing は /əˈsesɪŋ
 例: Doctors assessed whether surgery was necessary.  
 訳: 医師たちは手術が必要かどうかを判断した。  
 
+・assess how 〈節〉  
+用途: 対象がどのように、またはどの程度そうなっているかを見極める。  
+例: Teachers need to assess how well students have understood the lesson.  
+訳: 教師は、生徒が授業をどの程度理解したかを見極める必要がある。  
+
 ・assess 〈O〉 as 〈名詞・形容詞〉  
 用途: 対象を特定の分類・性質・状態だと評価する。  
 例: The committee assessed the proposal as a viable option.  
@@ -110,11 +115,6 @@ assesses は /əˈsesɪz/、assessed は /əˈsest/、assessing は /əˈsesɪŋ
 用途: 教育で、学生の成績が課題や試験によって評価される。  
 例: Students are assessed on their coursework and a final exam.  
 訳: 学生は課題と期末試験で評価される。  
-
-・assess how 〈節〉  
-用途: 対象がどのように、またはどの程度そうなっているかを見極める。  
-例: Teachers need to assess how well students have understood the lesson.  
-訳: 教師は、生徒が授業をどの程度理解したかを見極める必要がある。  
 
 【語法・注意】日本語の「評価する」は「高く評価する（＝褒める・価値を認める）」の意味でも使うが、assess にこの意味はない。「彼の努力を評価する」は appreciate・recognize などで表し、assess his efforts とすると「努力の程度を見極める」という中立的な意味になる。assess は通常、目的語または whether・what・how で始まる節を取る他動詞である。evaluate と重なるが、assess はリスク・必要性・状況の見極めや、次の行動を決めるための評価にも広く使う。judge は個人的・道徳的な良し悪しの判断まで表しやすいが、証拠に基づく分析的判断にも使える。assess は特定の観点に沿う評価という傾向があるものの、明示的な基準や体系性を必須としない。assess someone for 〈病気・障害〉は、その状態があるかを調べることであり、診断や治療の承認そのものを意味しない。assess 〈O〉 as 〈名詞・形容詞〉の as は、評価対象を特定の分類・性質・状態として示す。  
 
@@ -244,9 +244,9 @@ assesses は /əˈsesɪz/、assessed は /əˈsest/、assessing は /əˈsesɪŋ
 
 【頻度】〈5/10〉  
 
-【レジスター/領域】正式・税務・法律・スポーツ。税、会費、料金、罰金の規則や通知で使われ、スポーツの規則文で反則・ペナルティを科す意味でも見られる。日常の「料金を請求する」には charge、「税や罰を公式に課す」には impose・levy が自然なことが多い。  
+【レジスター/領域】正式・税務・法律・スポーツ。税、会費、料金、罰金の規則や通知で使われ、スポーツの規則文で反則に対するペナルティを科す意味でも見られる。日常の「料金を請求する」には charge、「税や罰を公式に課す」には impose・levy が自然なことが多い。  
 
-【文法パターン】assess a tax・fee・fine on 〈人・財産〉＝税・料金・罰金の金額を査定し、必要に応じて負担させる／assess 〈人・団体〉 a tax・fee＝人・団体に税・料金を課す／be assessed a tax・fee・fine＝税・料金・罰金を課される／be assessed a 〈sports penalty〉＝スポーツで反則・ペナルティを科される／assess 〈人・団体〉 for 〈tax・unpaid tax〉＝人・団体について税額・未納税額を査定する。  
+【文法パターン】assess a tax・fee・fine on 〈人・財産〉＝税・料金・罰金の金額を査定し、必要に応じて負担させる／assess 〈人・団体〉 a tax・fee＝人・団体に税・料金を課す／be assessed a tax・fee・fine＝税・料金・罰金を課される／be assessed a 〈sports penalty〉＝スポーツで反則に対するペナルティを科される／assess 〈人・団体〉 for 〈tax・unpaid tax〉＝人・団体について税額・未納税額を査定する。  
 
 【コロケーション】
 
@@ -271,7 +271,7 @@ assesses は /əˈsesɪz/、assessed は /əˈsest/、assessing は /əˈsesɪŋ
 訳: すべての会員はその年に追加で200ドルを課された。  
 
 ・be assessed a 〈sports penalty〉  
-用途: スポーツで選手やチームに反則・ペナルティを科される。  
+用途: スポーツで選手やチームが反則に対するペナルティを科される。  
 例: The team was assessed a 15-yard penalty for unsportsmanlike conduct.  
 訳: そのチームはスポーツマンシップに反する行為で、15ヤードのペナルティを科された。  
 
