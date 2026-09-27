@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/a/assess.md",
+  "created_at": "2026-09-27T04:54:28Z",
+  "base_body_sha256": "70bf23a28dbebd53ae046eda104eb669b821ca45ce0defa66c19e67af2a7ace7",
+  "head_body_sha256": "ae3ed33096cb708a2133615d80dfebd0ebbb672eced5efdf0b13d36676b93e6c",
+  "diff_sha256": "920824d95196c25cf870ae5f17a6e3890dcecf1a60b8a7538a0dd89657cd5d66",
+  "user_request": "assess.md 修正依頼書（第2回）F1〜F4：反則表記の統一、語源・発音の重複解消、assess how の配置移動",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "claude-code-targeted-review",
+    "verdict": "pass",
+    "notes": "F1 3か所修正し残存なし。F2 語源2段落目冒頭の重複削除。F3 強勢の重複文削除。F4 assess how を assess whether 直後へ移動（内容不変）"
+  },
+  "pi_processing": {
+    "status": "pending",
+    "reason": "no coordinator learning_delta was supplied"
+  }
+}
