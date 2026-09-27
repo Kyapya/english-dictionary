@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/a/assert.md",
+  "created_at": "2026-09-27T02:06:31Z",
+  "base_body_sha256": "03cf7061b6a3b3fac9299d95d79dfef7e8d5335a11a8b7895af0453884a72a19",
+  "head_body_sha256": "3728b788992eea8b2b06f2a9be923f0f5b2e42bb2256dca17fc62bc79e09e0fa",
+  "diff_sha256": "8800f9a22b4b5d798229ca19fe2c6981909ae1e109f55a4b3509b02c8f5f5f56",
+  "user_request": "assert.md 第4回修正依頼書（assert one's rights の基本義を主張に、行使は文脈上の可能性に）",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "claude-code-targeted-review",
+    "verdict": "pass",
+    "notes": "4箇所反映、privilege・independence との区別を確認"
+  },
+  "pi_processing": {
+    "status": "save_error",
+    "reason": "learning_delta.schema_version must be process_improvement_learning_delta_v2"
+  }
+}
