@@ -17,6 +17,7 @@ on:
       - "scripts/**/*.js"
       - "tests/**/*.py"
       - "tests/**/*.cjs"
+      - "tests/fixtures/**"
       - ".github/workflows/validate.yml"
       - ".github/workflows/sync-notion.yml"
       - "AGENTS.md"
