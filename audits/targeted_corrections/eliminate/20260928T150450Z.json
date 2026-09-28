@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/e/eliminate.md",
+  "created_at": "2026-09-28T15:04:50Z",
+  "base_body_sha256": "38400780136efe3dc0903255ff3dd45d3dd5238c2d8d2b2abdf40dab43f330b1",
+  "head_body_sha256": "cd194703fc5a41a8dae3b7a6c5a314eb57b95ebefb3a39d522f676a98f44f4a1",
+  "diff_sha256": "7c5522ac2046417f2ebffdf786c3710648243ec699651bae58bb7f8e3c987a57",
+  "user_request": "eliminate 項目の全面点検依頼（2026-09-28）：日本語・英語ネイティブの観点で不自然な箇所、解説書として問題がある箇所を修正。全角＃見出しは対象外。頻度は語義単位のレベル。修正版を独立サブエージェントに渡して再点検・修正する往復を5ラリー実施して確定。",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "claude-code-subagent-rally (5 independent general-purpose subagents, separate contexts from author)",
+    "verdict": "pass",
+    "notes": "R0 著者修正：コアイメージの文、受動態の訳、eliminate the need for 例文、get rid of 違い欄、語義4ラベルを婉曲に、kill 例文、the body eliminates の誤記、excess fluid・expel・引き算の例文。R1：語義2訳、ボクサー例文をテニスに、競技義判定から by を除外、oust・execute の説明。R2：limit の語源記述の緩和、発生源の表記、assassinate 定義。R3：every other の用途、語義2定義の文。R4：コアイメージ語義4行、exclude 説明、cancel out 違い欄。R5：修正なし、確定可。validate_entry 通過。"
+  },
+  "pi_processing": {
+    "status": "pending",
+    "reason": "no coordinator learning_delta was supplied"
+  }
+}
