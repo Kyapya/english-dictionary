@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/e/endorsement.md",
+  "created_at": "2026-09-28T15:13:32Z",
+  "base_body_sha256": "d51307eba4fe4e50311dd142a3feac71168124655167118dde5f04a05addf87f",
+  "head_body_sha256": "c71fd85a30c8aeb45313db6174bcccb5281ec33bbf80e98242623217fabf9c6d",
+  "diff_sha256": "d83ba098b395e5289c60b6fd7a46f3d3d134268c626b1b55d66e7a192ed7f272",
+  "user_request": "endorsement 項目の全面点検依頼（2026-09-28）：日本語・英語ネイティブの観点で不自然な箇所、解説書として問題がある箇所を修正。全角＃見出しは対象外。頻度は語義単位のレベル。修正版を独立サブエージェントに渡して再点検・修正する往復を5ラリー実施して確定。",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "claude-code-subagent-rally (5 independent general-purpose subagents, separate contexts from author)",
+    "verdict": "pass",
+    "notes": "R0 著者修正：発音 -se- の説明、予算の訳、推薦契約→広告出演契約、商品宣伝の訳、book endorsement 例文、restrictive endorsement の流通性、保険更新の訳、語義6の同語反復例文を no endorsements on one's licence に差替。R1：as 構文訳、disapproval 訳、裏面に、covering の語順、免許主語の例文、blurb 記述。R2：有償の表現、paid の訳、為替手形、保険特約の地域、語義5の派生主張除去。R3：裏書の表記統一、indorsement と UCC、記録の重複、traffic violation の米英差。R4：電子記録の記述2件、indorsement の表現。R5：斜体の統一のみ、確定可。validate_entry 通過。"
+  },
+  "pi_processing": {
+    "status": "pending",
+    "reason": "no coordinator learning_delta was supplied"
+  }
+}

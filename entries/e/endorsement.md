@@ -14,21 +14,21 @@ tags: []
 
 米: /ɪnˈdɔːrsmənt, ɛnˈdɔːrsmənt/｜英: /ɪnˈdɔːsmənt/  
 ・主強勢は第2音節の *-dorse-* にあり、語頭の *en-* は通常弱い /ɪn/ になる。米音では /ɛn/ も使われ、/r/ を発音するが、英標準発音では通常 /r/ を発音しない。  
-・末尾の *-sement* を独立した音節の連続として読まず、通常3音節で、米 /ɪn-ˈdɔːrs-mənt/、英 /ɪn-ˈdɔːs-mənt/ と区切って発音する。どちらも /s/ を保つ。  
+・綴りの *-se-* の *e* は発音せず（/sə/ としない）、全体で3音節、米 /ɪn-ˈdɔːrs-mənt/、英 /ɪn-ˈdɔːs-mənt/ と区切って発音する。  
 ・複数形 *endorsements* は米 /ɪnˈdɔːrsmənts/、英 /ɪnˈdɔːsmənts/。語末では /t/ と /s/ が続くため、/ts/ を落としすぎない。  
 
 ＃語源
 
-動詞 *endorse*「支持する、裏書きする」に名詞接尾辞 *-ment* が付いた語である。*endorse* は古フランス語 *endosser*「背に載せる、裏面に書く」に由来し、*en-*「～にする、～の上に」と *dos*「背中」が結び付いたものとされる。もともと文書の「裏」に署名・記載して効力を与える行為を指し、そこから「権威や名前を添えて支持・承認する」という抽象義へ広がった。  
+動詞 *endorse*「支持する、裏書する」に名詞接尾辞 *-ment* が付いた語である。*endorse* は古フランス語 *endosser*「背に載せる、裏面に書く」に由来し、*en-*「～にする、～の上に」と *dos*「背中」が結び付いたものとされる。もともと文書の「裏」に署名・記載して効力を与える行為を指し、そこから「権威や名前を添えて支持・承認する」という抽象義へ広がった。  
 ・*dorsal* — 「背側の」。ラテン語 *dorsum*「背中」にさかのぼり、*endorse* の「裏・背」の語源を理解する手掛かりになる。  
-・*endorse* — 「公に支持する；商品を推薦する；小切手などに裏書きする」。*endorsement* の各主要義の基になる動詞。  
-・*indorsement* — *endorsement* の異綴り。現代の一般英語ではまれだが、米国の古い法令・法律文書などで残ることがある。  
+・*endorse* — 「公に支持する；商品を推薦する；小切手などに裏書する」。*endorsement* の各主要義の基になる動詞。  
+・*indorsement* — *endorsement* の異綴り。現代の一般英語ではまれだが、米国の統一商事法典（UCC）などの法令・法律文書では現在も使われる。  
 
 ＃語形成
 
 ・*endorse + -ment → endorsement* — 動詞から行為・結果・記載物を表す名詞を作る。文脈により不可算の「支持という行為」と、可算の「一件の支持表明・裏書・特約」を表す。  
-・*endorse / endorsed / endorsing*（動詞）— 「支持する、推薦する、裏書きする」。人や団体が実際に行う行為を述べる。  
-・*endorser*（名詞）— 「支持者、推薦者；裏書人」。広告では商品を推薦する人物、金融では証券に裏書きする者を指す。  
+・*endorse / endorsed / endorsing*（動詞）— 「支持する、推薦する、裏書する」。人や団体が実際に行う行為を述べる。  
+・*endorser*（名詞）— 「支持者、推薦者；裏書人」。広告では商品を推薦する人物、金融では証券に裏書する者を指す。  
 ・*endorsee*（名詞）— 「被裏書人」。手形・小切手などの裏書によって権利を受ける者を指す法律・金融用語。  
 ・*endorsed*（形容詞的用法）— *officially endorsed candidate*「公式推薦候補」のように、支持・承認を受けた状態を表す。通常、独立した意味よりも動詞 *endorse* の過去分詞として理解できる。  
 
@@ -106,7 +106,7 @@ tags: []
 ・an endorsement of 〈人〉 as 〈役職・後継者〉  
 用途: 〈人〉を〈役職・後継者〉として支持・推薦することを示す。  
 例: The committee's endorsement of her as the next chair was announced on Monday.  
-訳: 彼女を次期委員長として支持する委員会の推薦が、月曜日に発表された。  
+訳: 委員会が彼女を次期委員長に推薦したことが、月曜日に発表された。  
 
 【語法・注意】支持の対象を単独の名詞句で明示する基本形は *endorsement of 〈対象〉*、支持者・出所は *by/from 〈支持者〉* であり、*the union's endorsement of the candidate* は「労組による候補者への支持」である。*for* は、候補者・案件のために支持を獲得・要求する視点で、*seek/secure an endorsement for the candidate* のように使われやすい。*give one's endorsement to 〈O〉* と *endorse 〈O〉* はほぼ対応するが、名詞形の方が公式声明・制度的承認を強調しやすい。*a ringing endorsement* は「はっきりと熱烈な支持」であり、しばしば否定の *hardly/not exactly a ringing endorsement*「とても強い支持とは言えない」として皮肉に使う。*tacit endorsement* は明言せず、反対しない態度や行動から読み取られる支持である。結果や沈黙が *an endorsement* と呼ばれる場合、実際に支持声明が出たとは限らず、「支持と解釈できる」という比喩的評価である。  
 
@@ -124,7 +124,7 @@ tags: []
 頻度: 〈9/10〉  
 違い: 個人的な好意から正式な許可まで広く、必ずしも公表されない。*endorsement* は通常、支持が外部に示され、他者への推薦効果を持つ。  
 例: The budget cannot be released without the director's approval.  
-訳: その予算は部長の承認なしには公表できない。  
+訳: その予算は部長の承認がなければ執行できない。  
 
 ・backing  
 定義: 人、計画、組織への支持や、成功のための実際的・金銭的援助。  
@@ -161,7 +161,7 @@ tags: []
 頻度: 〈8/10〉  
 違い: 承認・好意的評価の反対だが、必ずしも公的な反対運動を含まない。*endorsement* が外に示された支持なら、*public disapproval* は外に示された否定的評価となる。  
 例: She made her disapproval of the decision clear.  
-訳: 彼女はその決定を認めない姿勢を明確にした。  
+訳: 彼女はその決定を良しとしないことをはっきり示した。  
 
 ・rejection  
 定義: 提案、申請、考え、人などを受け入れないと決めること。  
@@ -170,15 +170,15 @@ tags: []
 例: The committee's rejection of the proposal surprised its authors.  
 訳: 委員会がその提案を退けたことは、作成者たちを驚かせた。  
 
-2. 【可算名詞】（広告における著名人・専門家などの）商品推薦、推奨コメント；推薦契約
+2. 【可算名詞】（広告における著名人・専門家などの）商品推薦、推奨コメント；広告出演契約
 
-【日本語訳・定義】著名人、スポーツ選手、専門家、利用者などが、広告・宣伝の中で商品、ブランド、サービスを使っている、好んでいる、勧めると表明すること、またはその広告上の発言・出演を指す。広くは商業的な推薦行為そのものを、複数形では個々の推薦契約・推薦案件や、そこから得る収入を表す。推薦者の知名度・専門性・信頼性を商品へ結び付ける点が中心であり、報酬を伴うことが多いが、語自体は必ずしも有償だとは断定しない。書籍では、著者や専門家が寄せる推薦文を指すこともある。  
+【日本語訳・定義】著名人、スポーツ選手、専門家、利用者などが、広告・宣伝の中で商品、ブランド、サービスを使っている、好んでいる、勧めると表明すること、またはその広告上の発言・出演を指す。広くは商業的な推薦行為そのものを、複数形では個々の広告出演契約（エンドースメント契約）や、そこから得る収入を表す。推薦者の知名度・専門性・信頼性を商品へ結び付ける点が中心であり、報酬を伴うことが多いが、語自体が有償であることを必ずしも意味するわけではない。書籍では、著者や専門家が寄せる推薦文を指すこともある。  
 
 【頻度】〈7/10〉  
 
 【レジスター/領域】広告、マーケティング、スポーツ、芸能、SNS、消費者保護。*celebrity endorsement, product endorsement, endorsement deal* は特に一般的。米英ともに使う。  
 
-【文法パターン】*〈celebrity/athlete/expert〉 endorsement*＝推薦者の種類／*〈product/brand/book〉 endorsement*＝商品・ブランドの広告推薦または書籍の推薦文／*an endorsement of/for 〈a product/brand〉*＝推薦対象／*endorsement by/from 〈人〉*＝推薦者／*sign/land/lose an endorsement deal with 〈企業〉*＝推薦契約を結ぶ・得る・失う／*earn/make money from endorsements*＝推薦案件から収入を得る  
+【文法パターン】*〈celebrity/athlete/expert〉 endorsement*＝推薦者の種類／*〈product/brand/book〉 endorsement*＝商品・ブランドの広告推薦または書籍の推薦文／*an endorsement of/for 〈a product/brand〉*＝推薦対象／*endorsement by/from 〈人〉*＝推薦者／*sign/land/lose an endorsement deal with 〈企業〉*＝広告出演契約を結ぶ・獲得する・失う／*earn/make money from endorsements*＝広告出演契約から収入を得る  
 
 【コロケーション】
 
@@ -190,7 +190,7 @@ tags: []
 ・a product/brand endorsement  
 用途: 商品・ブランドについて、使用・好意・推奨を広告で表明することを指す。  
 例: The interview included what appeared to be a paid product endorsement.  
-訳: そのインタビューには、有料の商品推薦と思われる内容が含まれていた。  
+訳: そのインタビューには、報酬を受けての商品宣伝と思われる内容が含まれていた。  
 
 ・an endorsement of/for 〈a product〉  
 用途: どの商品を広告上で推薦しているかを示す。  
@@ -198,31 +198,31 @@ tags: []
 訳: 彼女によるそのスキンケア商品の推薦は、数百万人のフォロワーに届いた。  
 
 ・sign an endorsement deal with 〈企業〉  
-用途: 選手・著名人などが企業と広告推薦契約を結ぶ。  
+用途: 選手・著名人などが企業と広告出演契約を結ぶ。  
 例: The rookie signed an endorsement deal with a sportswear company.  
-訳: その新人選手はスポーツ用品会社と推薦契約を結んだ。  
+訳: その新人選手はスポーツ用品会社と広告出演契約を結んだ。  
 
 ・land/secure a major endorsement  
 用途: 影響力や収入の大きい推薦案件・契約を獲得する。  
 例: She secured a major endorsement after winning the championship.  
-訳: 彼女は優勝後、大型の広告推薦契約を獲得した。  
+訳: 彼女は優勝後、大型の広告出演契約を獲得した。  
 
 ・earn/make money from endorsements  
-用途: 複数の広告推薦案件から報酬を得ることを表す。  
+用途: 複数の広告出演契約から報酬を得ることを表す。  
 例: Some athletes earn more from endorsements than from prize money.  
-訳: 広告推薦による収入が賞金を上回る選手もいる。  
+訳: 広告出演料による収入が賞金を上回る選手もいる。  
 
 ・a paid/sponsored endorsement  
 用途: 推薦に報酬・対価やスポンサー関係があることを明示する。  
 例: Paid endorsements should be clearly disclosed to consumers.  
-訳: 有料の広告推薦は消費者に明確に開示されるべきだ。  
+訳: 報酬を受けた推薦であることは、消費者に明確に開示されるべきだ。  
 
 ・a book endorsement  
 用途: 書籍の表紙・帯・紹介ページなどに掲載される、著者・専門家・著名人による推薦文を指す。  
-例: The publisher requested a short book endorsement from a leading historian.  
-訳: 出版社は第一線の歴史家に、その本の短い推薦文を依頼した。  
+例: Book endorsements from well-known authors can boost sales.  
+訳: 著名な作家による本の推薦文は、売り上げを押し上げることがある。  
 
-【語法・注意】語義1の政治的・制度的支持と同じ「信用を貸す」という核を持つが、この語義では広告・販売促進が目的で、推薦者と商品・ブランドとの商業関係が重要になる。*celebrity endorsement* は「著名人が何かを支持すること」であり、文脈がなければ商品広告に限らない場合もあるが、マーケティング文脈では通常商品・ブランド推薦を指す。*testimonial* は利用経験や満足を述べる具体的な推薦コメント・体験談に焦点があり、*endorsement* は出演、名前・画像の使用、SNS投稿、契約を含むより広い行為を指せる。*sponsorship* は企業が人・大会・活動へ資金や物品を提供して露出を得る関係であり、推薦者が商品を実際に勧める *endorsement* とは一致しない。報酬の有無が重要なら *paid/sponsored endorsement* と明示する。  
+【語法・注意】語義1の政治的・制度的支持と同じ「信用を貸す」という核を持つが、この語義では広告・販売促進が目的で、推薦者と商品・ブランドとの商業関係が重要になる。*celebrity endorsement* は「著名人が何かを支持すること」であり、文脈がなければ商品広告に限らない場合もあるが、マーケティング文脈では通常商品・ブランド推薦を指す。*testimonial* は利用経験や満足を述べる具体的な推薦コメント・体験談に焦点があり、*endorsement* は出演、名前・画像の使用、SNS投稿、契約を含むより広い行為を指せる。*sponsorship* は企業が人・大会・活動へ資金や物品を提供して露出を得る関係であり、推薦者が商品を実際に勧める *endorsement* とは一致しない。報酬の有無が重要なら *paid/sponsored endorsement* と明示する。書籍の表紙・帯などに載る推薦文・宣伝文は *blurb* とも言う。  
 
 【類義語】
 
@@ -256,11 +256,11 @@ tags: []
 
 3. 【可算名詞・不可算名詞／金融・法律】（小切手・手形・証券などの）裏書、裏書署名、裏書指示
 
-【日本語訳・定義】小切手、手形、約束手形などの譲渡可能な証券に、受取人などが署名や指示を記し、受領、入金、譲渡、支払先の指定、権利の制限などの法的・実務的効果を生じさせること、またはその署名・記載を指す。歴史的な「文書の裏に書く」という語源に最も近い用法である。実際の要件と効果は国・法域・金融機関・証券の種類によって異なる。  
+【日本語訳・定義】小切手、為替手形、約束手形などの譲渡可能な証券に、受取人などが署名や指示を記し、受領、入金、譲渡、支払先の指定、権利の制限などの法的・実務的効果を生じさせること、またはその署名・記載を指す。歴史的な「文書の裏に書く」という語源に最も近い用法である。実際の要件と効果は国・法域・金融機関・証券の種類によって異なる。  
 
 【頻度】〈4/10〉  
 
-【レジスター/領域】銀行、商取引、手形法、法律文書。一般生活では小切手を使う地域で遭遇する。米国の法律文書では異綴り *indorsement* が残る場合がある。英国綴りの *cheque* と米国綴りの *check* の違いにも注意する。  
+【レジスター/領域】銀行、商取引、手形法、法律文書。一般生活では小切手を使う地域で遭遇する。米国の法律文書では異綴り *indorsement* も使われる。英国綴りの *cheque* と米国綴りの *check* の違いにも注意する。  
 
 【文法パターン】*an endorsement on the back of 〈a check/cheque/instrument〉*＝証券の裏面の署名・記載／*endorsement of 〈a check/note/instrument〉*＝証券を裏書する行為／*require/bear/lack an endorsement*＝裏書を必要とする・有する・欠く／*a blank/special/restrictive endorsement*＝権利移転や使用を定める裏書の種類／*endorsement in blank*＝受取人を指定しない白地式裏書  
 
@@ -269,7 +269,7 @@ tags: []
 ・an endorsement on the back of a check/cheque  
 用途: 小切手の裏面にある署名・指示を物理的な位置とともに示す。  
 例: The bank rejected the cheque because the endorsement on the back was missing.  
-訳: 裏面の裏書がなかったため、銀行はその小切手を受け付けなかった。  
+訳: 裏面に裏書がなかったため、銀行はその小切手を受け付けなかった。  
 
 ・endorsement of a check/note/instrument  
 用途: 小切手・手形・証券を裏書する行為を一般的に述べる。  
@@ -287,7 +287,7 @@ tags: []
 訳: 記名式裏書では、その会社が新しい受取人として指定されていた。  
 
 ・a restrictive endorsement  
-用途: *For deposit only* など、証券の使用・交渉可能性に制限を加える裏書を表す。  
+用途: *For deposit only* など、証券の使途や流通性（さらなる譲渡）に制限を加える裏書を表す。  
 例: She added a restrictive endorsement before mailing the check to the bank.  
 訳: 彼女は小切手を銀行へ郵送する前に、使用を限定する裏書を加えた。  
 
@@ -296,7 +296,7 @@ tags: []
 例: The instrument must bear a valid endorsement before it can be negotiated.  
 訳: その証券を譲渡するには、有効な裏書が付されていなければならない。  
 
-【語法・注意】日常的な小切手の受取・入金では *sign/endorse the back of the check* と動詞で説明する方が分かりやすいことが多い。*signature* は単に署名という形を指すが、*endorsement* はその署名・記載が証券に与える法的機能まで含む。*blank endorsement, special endorsement, restrictive endorsement* の具体的効果や用語は法域によって差があり、一般英語の知識だけで実際の金融手続きを判断しない。綴り *indorsement* は誤植とは限らず、古い・専門的な法律上の異綴りであるが、通常の英文では *endorsement* を使う。  
+【語法・注意】日常的な小切手の受取・入金では *sign/endorse the back of the check* と動詞で説明する方が分かりやすいことが多い。*signature* は単に署名という形を指すが、*endorsement* はその署名・記載が証券に与える法的機能まで含む。*blank endorsement, special endorsement, restrictive endorsement* の具体的効果や用語は法域によって差があり、一般英語の知識だけで実際の金融手続きを判断しない。綴り *indorsement* は誤植ではなく、主に米国の法律上の異綴りであるが、通常の英文では *endorsement* を使う。  
 
 【類義語】
 
@@ -327,7 +327,7 @@ tags: []
 
 【頻度】〈4/10〉  
 
-【レジスター/領域】保険、契約、リスク管理。特に北米の保険実務で一般的だが、他地域の英語でも理解される。一般向け説明では *an amendment to an insurance policy* と言い換えられる。  
+【レジスター/領域】保険、契約、リスク管理。北米・英国などの保険実務で広く使われる。一般向け説明では *an amendment to an insurance policy* と言い換えられる。  
 
 【文法パターン】*an endorsement to/on 〈an insurance policy〉*＝保険契約に付された特約／*a policy/insurance endorsement*＝保険特約／*add/attach/issue/remove an endorsement*＝特約を追加・添付・発行・削除する／*coverage provided/added/excluded by endorsement*＝特約により補償を付加・除外する／*an endorsement that changes/modifies/extends/excludes coverage*＝特約の効果をthat節で示す  
 
@@ -335,13 +335,13 @@ tags: []
 
 ・an endorsement to/on an insurance policy  
 用途: 特約がどの保険証券・契約へ付されるかを示す。  
-例: The insurer added an endorsement to the policy covering the new equipment.  
+例: The insurer added an endorsement covering the new equipment to the policy.  
 訳: 保険会社は新しい設備を補償対象とする特約を保険契約に追加した。  
 
 ・a policy/insurance endorsement  
 用途: 保険契約を修正する文書・条項を簡潔に指す。  
 例: Read every policy endorsement before renewing your coverage.  
-訳: 補償を更新する前に、保険の各特約をすべて確認しなさい。  
+訳: 保険を更新する前に、特約をすべて確認しておくこと。  
 
 ・add/attach an endorsement  
 用途: 既存の保険証券へ新たな条件・補償・除外を付け加える。  
@@ -417,8 +417,8 @@ tags: []
 
 ・require an endorsement to 〈動詞〉  
 用途: 基本免許だけでは足りず、特定行為に追加認定が必要だと示す。  
-例: The licence requires an additional endorsement to transport hazardous materials.  
-訳: その免許で危険物を輸送するには、追加認定が必要である。  
+例: Drivers require a special endorsement to transport hazardous materials.  
+訳: 運転者が危険物を輸送するには、特別な追加認定が必要である。  
 
 ・a flight-instructor/logbook endorsement  
 用途: 航空分野で、指導者が訓練の完了・能力・試験準備などを記録上で証明する。  
@@ -430,7 +430,7 @@ tags: []
 例: She completed the course to add a bilingual endorsement to her certificate.  
 訳: 彼女は資格証明にバイリンガル教育の追加認定を加えるため、その課程を修了した。  
 
-【語法・注意】語義1の「権威ある承認」から発達した専門用法だが、単なる推薦状ではなく、制度上の資格・権限を表す。*licence* は主に英綴りの名詞、*license* は米綴りの名詞である。米国の *commercial driver's license endorsement* は運転できる車両・輸送物の範囲を広げる追加資格で、語義6の英国の違反記録とは評価も機能も逆方向である。航空の *logbook endorsement* は必ずしも免許カードへ追加される資格名ではなく、指導者が訓練・能力・準備状況を証明する署名付き記載を指す場合がある。制度固有の文書では、一般語義から要件を推測せず、管轄機関の定義を確認する必要がある。  
+【語法・注意】語義1の一般的な「支持・承認」とは異なり、単なる推薦状ではなく、制度上の資格・権限を表す専門用法である。*licence* は主に英綴りの名詞、*license* は米綴りの名詞である。米国の *commercial driver's license endorsement* は運転できる車両・輸送物の範囲を広げる追加資格で、語義6の英国の違反記録とは評価も機能も逆方向である。航空の *logbook endorsement* は必ずしも免許カードへ追加される資格名ではなく、指導者が訓練・能力・準備状況を証明する署名付き記載を指す場合がある。制度固有の文書では、一般語義から要件を推測せず、管轄機関の定義を確認する必要がある。  
 
 【類義語】
 
@@ -457,7 +457,7 @@ tags: []
 
 6. 【可算名詞／英・運転】運転違反の記録、違反点数の付記
 
-【日本語訳・定義】英国で、交通違反について有罪となった、または反則処分を受けたことを運転者記録に正式に付記すること、またはその違反記録を指す。通常、違反コードと penalty points「違反点数」を伴う。歴史的には運転免許証への記載を指したが、現在は電子的な運転者記録に保持される場合も、この制度上の名称として *endorsement* を使う。  
+【日本語訳・定義】英国で、交通違反について有罪となった、または反則処分を受けたことを運転者記録に正式に付記すること、またはその違反記録を指す。通常、違反コードと *penalty points*「違反点数」を伴う。歴史的には運転免許証への記載を指したが、記録が主に電子的な運転者記録に保持されるようになった現在も、制度上の名称として *endorsement* を使う。  
 
 【頻度】〈3/10〉  
 
@@ -470,7 +470,7 @@ tags: []
 ・an endorsement on one's driving licence/record  
 用途: 運転免許・運転者記録に交通違反が正式に付記されていることを示す。  
 例: The endorsement will remain on his driving record for several years.  
-訳: その違反記録は数年間、彼の運転者記録に残る。  
+訳: その違反の付記は、数年間彼の運転者記録に残る。  
 
 ・receive/get an endorsement for 〈違反〉  
 用途: 特定の交通違反により違反記録・点数付記を受ける。  
@@ -487,12 +487,12 @@ tags: []
 例: The insurer asked for details of all penalty points and endorsements.  
 訳: 保険会社は、すべての違反点数と違反記録の詳細を求めた。  
 
-・an endorsement for an endorsable offence  
-用途: 違反点数・記録の付記対象となる交通違反により、実際に付記を受けることを表す。  
-例: She received an endorsement for an endorsable offence.  
-訳: 彼女は違反点数付記の対象となる交通違反で、違反記録の付記を受けた。  
+・no endorsements on one's licence  
+用途: 違反記録のない、いわゆる *clean licence* の状態を表す。付記対象となる違反は *endorsable offence* と言う。  
+例: Drivers with no endorsements on their licence usually pay lower premiums.  
+訳: 免許に違反記録のない運転者は、通常、保険料が安くなる。  
 
-【語法・注意】この語義は英国特有で、肯定的な「支持・推薦」とは逆に不利益な公式記録を表す。*an endorsement on a driving licence* は英国文脈では違反記録、米国文脈の *an endorsement on a driver's license* は危険物・旅客・二輪車などの追加運転資格を意味し得るため、地域と周辺語を確認する。*endorsement* と *penalty points* は密接だが完全な同義ではなく、前者は違反の公式付記・記録、後者は付与される点数に焦点がある。現代の英国では情報が物理的な免許証そのものではなく運転者記録に保存されても、*endorsement* という語が制度名として残る。  
+【語法・注意】この語義は英国特有で、肯定的な「支持・推薦」とは逆に不利益な公式記録を表す。*an endorsement on a driving licence* は英国文脈では違反記録、米国文脈の *an endorsement on a driver's license* は危険物・旅客・二輪車などの追加運転資格を意味し得るため、地域と周辺語を確認する。*endorsement* と *penalty points* は密接だが完全な同義ではなく、前者は違反の公式付記・記録、後者は付与される点数に焦点がある。現代の英国では情報が物理的な免許証そのものではなく運転者記録に保存されるようになったが、*endorsement* という語は制度名として残っている。  
 
 【類義語】
 
@@ -513,6 +513,6 @@ tags: []
 ・traffic violation record  
 定義: 交通法規違反に関する記録。  
 頻度: 〈4/10〉  
-違い: 地域を問わず意味を説明できる一般的な表現である。*endorsement* は英国制度に定着した専門名称で、より簡潔だが地域依存性が高い。  
+違い: 制度名ではなく意味を説明する一般的な表現で、*traffic violation* は特に米国で普通に使われる（英国では *motoring offence* と言うことが多い）。*endorsement* は英国制度に定着した専門名称で、より簡潔だが地域依存性が高い。  
 例: Employers may check an applicant's traffic violation record.  
 訳: 雇用主は応募者の交通違反記録を確認することがある。  
