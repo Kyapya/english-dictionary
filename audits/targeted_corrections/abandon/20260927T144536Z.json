@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/a/abandon.md",
+  "created_at": "2026-09-27T14:45:36Z",
+  "base_body_sha256": "de9636302884cd1eb536e22ad59681da47da496b2a12897bad66a5a2aeb7a1e2",
+  "head_body_sha256": "1fecf09bd81a5f8b6b65efa19155ef4963dd9a291129888c2492fcf94f6101ba",
+  "diff_sha256": "2dc7b2da50ab863668c53b23889ddea775ccd2a9707cc1d7ad0dd64944f4985a",
+  "user_request": "abandon 項目 改修依頼書（2026-09-27）A-1〜A-10・B-1〜B-10・C-1〜C-8：reckless/wild abandon の評価修正、self-indulgence 誤訳修正、頻度値の統一（entry_spec_v5 の語義限定頻度に基づき同一語・同一語義範囲を同値化）、例文・訳文差し替え、重複・空文削除、語義7の縮約と関連用語化、abandoned cart・abandonee・call off の追加。C-6 の語義5統合と C-8 の front matter 統一は対応せず（理由はPR説明）。",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "claude-code-targeted-review (same session as author)",
+    "verdict": "pass",
+    "notes": "変更hunkごとに依頼反映・英文の自然さ・訳との冠詞/人称/時制一致・隣接記述との矛盾を確認。A-1/A-2に合わせ語義9 recklessness の違い行を『無謀さを表す場合の』に局所調整。A-3は不定詞文を削除し前置詞toの後は名詞と明記。A-7はクリケットの abandoned without a ball bowled を併記しpostponeを延期として分離、コロケーション用途も主に開始後に修正。C-1は leave 10/10/10、neglect 7/7、renounce 5/5、relinquish 6/6 に統一し、語義7の類義語・反意語（transfer 2/10 等）は C-3 で削除。C-4 は abandon to do 注意を語義3語法に集約し語義4は参照化、語義3定義の習慣も A-6 に合わせ削除。validate_entry・validate_repository・関連unittest通過。"
+  },
+  "pi_processing": {
+    "status": "pending",
+    "reason": "no coordinator learning_delta was supplied"
+  }
+}

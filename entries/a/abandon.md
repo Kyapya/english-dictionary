@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: unknown
 created_at: 2026-06-13
-updated_at: 2026-09-26
+updated_at: 2026-09-27
 checked: true
 tags: []
 ---
@@ -17,8 +17,8 @@ tags: []
 
 ＃語源
 
-中英語 abandonen、古フランス語 abandoner に由来する。古フランス語の a bandon は「誰かの支配・裁量の下へ」を表し、bandon は権限や支配を指した。そこから「自分の関与や支配を手放す」という意味が発達し、対象を見捨てる、場所や計画を放棄する、感情に身を任せるという現代の用法につながった。  
-語源上関連する学習語には、派生語の abandonment（放棄・遺棄）と、同系統と説明されることがある ban（禁止・命令）がある。bandon の「支配・裁量の下へ委ねる」という背景と、現代の「見捨てる」は意味の向きがそのまま一致するわけではない。  
+中英語 abandonen、古フランス語 abandoner に由来する。古フランス語の a bandon は「誰かの支配・裁量の下へ」を表し、bandon は権限や支配を指した。そこから「自分の関与や支配を手放す」という意味が発達し、対象を見捨てる、場所や計画を放棄する、感情に身を任せるという現代の用法につながった。名詞 abandon（語義9、主に with abandon）は動詞とは別に、19世紀にフランス語の名詞 abandon（身を委ねること、奔放さ）から借用された。  
+語源上関連する学習語には、派生語の abandonment（放棄・遺棄）と、同系統と説明されることがある ban（禁止・命令）がある。a bandon（他者の支配下へ）→ 対象を他者の裁量に委ねる → 自分の関与を手放す、という筋で現代の「見捨てる」「放棄する」につながる。  
 
 ＃語形成
 
@@ -26,22 +26,23 @@ tags: []
 ・abandoned：過去分詞から発達した形容詞。「見捨てられた」と「奔放な」の2系統があり、後者には行動・動作を表す用法と、人・生活を道徳的に非難する古風な用法がある。  
 ・abandoning：現在分詞・動名詞。abandoning 〈O〉 の形で放棄する行為を表す。  
 ・abandoner：放棄する人を表す名詞。意味は推測できるが、一般的な学習語としての頻度は低い。  
+・abandonee：-ee「〜される人」を付けた法律・保険用語で、委付・放棄を受ける側を表す。保険の委付（語義7）では保険者を指す。  
 
 ＃コアイメージ
 
-対象との関係、保護、継続、所有、支配のいずれかを手放し、元の責任や関与から切り離すことが中心にある。保険・海事の語義7も、制度上の効果は特殊だが、保険目的物への所有・関与を手放すという語彙的意味はこの核から導ける。  
-・保護と責任を手放す対象としての人・動物 → 「人・動物を見捨てる、遺棄する」（語義1）  
-・居住・使用の継続を手放す対象としての場所・物 → 「場所・物・乗り物を離れて放棄する」（語義2）  
-・実現・完遂への関与を手放す対象としての活動・計画 → 「活動・計画・試みを断念する、打ち切る」（語義3）  
-・支持・維持への関与を手放す対象としての考え・希望・慣習 → 「支持・信念・希望・方針・慣習を捨てる」（語義4）  
-・管理・支配を手放し、他者や変化に委ねる対象としての財産・場所 → 「他者に明け渡す、放置して荒廃に委ねる」（語義5）  
-・法的な権利・所有・手続きへの関与を手放す対象としての請求・財産・出願 → 「権利・請求・所有・申請を放棄する」（語義6）  
-・保険目的物の所有・関与を手放すこと → 「保険目的物を保険者に委付する」（語義7）  
-・自制を手放して委ねる対象としての感情・欲望 → 「感情・欲望などに身を任せる」（語義8）  
-・自制を手放した状態としての行動・感情 → 「抑制のない奔放さ、思い切り」（語義9）  
-・保護・使用・継続を手放した結果としての人・物・場所 → 「見捨てられた、放棄された、使われていない」（語義10）  
-・自制を解いた行動・動作 → 「抑制のない、奔放な」（語義11）  
-・道徳的規範から外れた人・生活 → 「放埒な、自堕落な」（語義12）  
+対象との関係、保護、継続、所有、支配のいずれかを手放し、元の責任や関与から切り離すことが中心にある。  
+・人・動物：保護と責任を手放す → 見捨てる、遺棄する（語義1）  
+・場所・物・乗り物：居住・使用の継続を手放す → 離れて放棄する（語義2）  
+・活動・計画・試み：実現・完遂への関与を手放す → 断念する、打ち切る（語義3）  
+・考え・希望・方針・慣習：支持・維持を手放す → 捨てる（語義4）  
+・財産・場所：管理・支配を手放し、他者や変化に委ねる → 明け渡す、放置して荒廃に委ねる（語義5）  
+・権利・請求・所有・申請：法的な関与を手放す → 放棄する（語義6）  
+・保険目的物：所有・関与を手放して保険者に委ねる → 委付する（語義7）  
+・感情・欲望：自制を手放して身を委ねる → 身を任せる（語義8）  
+・行動・感情：自制を手放した状態 → 抑制のない奔放さ、思い切り（語義9）  
+・人・物・場所：保護・使用・継続を手放された結果 → 見捨てられた、放棄された、使われていない（語義10）  
+・行動・動作：自制を手放した → 抑制のない、奔放な（語義11）  
+・人・生活：道徳的な自制を手放した → 放埒な、自堕落な（語義12）  
 
 ＃意味・用法・関連表現
 
@@ -65,7 +66,7 @@ tags: []
 ・abandon a pet/animal  
 用途: ペット・動物を飼育責任から切り離して捨てる。  
 例: In some jurisdictions, people who abandon a pet may face legal penalties.  
-訳: 法域によっては、ペットを捨てた人が法的な罰を受けることがある。  
+訳: 国や地域によっては、ペットを捨てた人が法的な罰を受けることがある。  
 
 ・abandon one's family  
 用途: 家族を扶養・保護せずに見捨てる。  
@@ -75,9 +76,9 @@ tags: []
 ・abandon someone to their fate  
 用途: 人を助けず、運命に任せる。  
 例: The villagers refused to abandon the injured climber to his fate.  
-訳: 村人たちは負傷した登山者を見捨てようとはしなかった。  
+訳: 村人たちは、負傷した登山者を見捨てて運命に任せることを拒んだ。  
 
-【語法・注意】abandon someone は身体的に置き去りにする場合だけでなく、保護・支援を撤回する場合にも使える。abandon someone to 〈care・fate〉 の to は前置詞で、abandon someone to do の不定詞の to とは異なる。  
+【語法・注意】abandon someone は身体的に置き去りにする場合だけでなく、保護・支援を撤回する場合にも使える。abandon someone to 〈care・fate〉 の to は前置詞で、後には名詞が来る。  
 
 【類義語】
 
@@ -85,8 +86,8 @@ tags: []
 定義: 人・場所・持ち場を、特に責任や義務を顧みずに離れる。  
 頻度: 〈7/10〉  
 違い: abandon より義務違反や意図的な離脱の非難が強くなりやすい。  
-例: The soldier was accused of deserting his post.  
-訳: その兵士は持ち場を放棄したと非難された。  
+例: He deserted his wife and children.  
+訳: 彼は妻子を見捨てた。  
 
 ・forsake  
 定義: 人・信念・理想などを見捨て、捨て去る。  
@@ -100,7 +101,7 @@ tags: []
 頻度: 〈10/10〉  
 違い: 最も中立的で、一時的な離脱も含み、abandon の恒久性や非難を必ずしも含まない。  
 例: Please do not leave the child alone.  
-訳: その子を一人にしていかないでください。  
+訳: その子を一人にしないでください。  
 
 ・neglect  
 定義: 必要な世話・注意・責任を十分に与えない。  
@@ -146,13 +147,13 @@ tags: []
 
 ・abandon a car/vehicle  
 用途: 車・乗り物をその場に残して立ち去る。  
-例: The thieves abandoned the vehicle near the scene of the robbery.  
+例: The robbers abandoned the vehicle near the scene of the robbery.  
 訳: 強盗犯は犯行現場の近くに車を乗り捨てた。  
 
 ・abandon a house/home  
 用途: 家や住居を離れ、使わない状態にする。  
 例: The family had to abandon their home after the flood.  
-訳: その家族は洪水の後、自宅を離れざるをえなかった。  
+訳: その家族は洪水の後、家を捨てざるをえなかった。  
 
 ・abandon a village/town  
 用途: 村・町から去り、居住をやめる。  
@@ -175,7 +176,7 @@ tags: []
 
 ・leave  
 定義: 場所・物から離れる、または物を残していく。  
-頻度: 〈9/10〉  
+頻度: 〈10/10〉  
 違い: abandon より中立的で、戻る予定がある離脱や単なる置き忘れにも使える。  
 例: I left my bag in the taxi.  
 訳: 私はタクシーにかばんを置き忘れた。  
@@ -218,21 +219,21 @@ tags: []
 訳: 数家族がその村に残った。  
 
 ・occupy  
-定義: 場所・建物・土地を占め、使用する。  
+定義: 建物・部屋・土地に住む、またはそれを使用する。  
 頻度: 〈7/10〉  
 違い: abandon の放棄に対し、場所を人が使っている状態を表す。  
-例: The army occupied the building.  
-訳: 軍はその建物を占拠した。  
+例: Only a few of the houses in the village are still occupied.  
+訳: その村でまだ人が住んでいる家は数軒しかない。  
 
 3. 【動詞・他動詞】活動・計画・試みを断念する、打ち切る
 
-【日本語訳・定義】活動、計画、努力、試み、キャリア、習慣などをそれ以上継続・実行せず、実現・完遂に至らせない。計画の段階でも実行中でも使う。資金不足、失敗の見込み、危険、悪天候などが理由になりやすいが、本人の感情的な諦めを必ずしも意味しない。  
+【日本語訳・定義】活動、計画、努力、試み、キャリアなどをそれ以上継続・実行せず、実現・完遂に至らせない。計画の段階でも実行中でも使う。資金不足、失敗の見込み、危険、悪天候などが理由になりやすいが、本人の感情的な諦めを必ずしも意味しない。  
 
 【頻度】〈8/10〉  
 
 【レジスター/領域】現代一般。ニュース、ビジネス、研究、行政、日常会話で広く使う。中立からやや正式。  
 
-【文法パターン】abandon 〈project・plan・activity〉／abandon an attempt to do／abandon the search for someone/something／abandon a match/game／abandon work on 〈project〉。*abandon to do* の形は取らない。  
+【文法パターン】abandon 〈project・plan・activity〉／abandon an attempt to do／abandon the search for someone/something／abandon a match/game／abandon work on 〈project〉。  
 
 【コロケーション】
 
@@ -252,7 +253,7 @@ tags: []
 訳: 警察は10日後、行方不明の船の捜索を打ち切った。  
 
 ・abandon a match/game  
-用途: 開始後の試合・競技を打ち切る。  
+用途: 試合・競技を中止する、打ち切る（主に開始後）。  
 例: The match was abandoned after heavy rain made the pitch unplayable.  
 訳: 大雨でピッチがプレー不能になったため、試合は打ち切りになった。  
 
@@ -261,12 +262,12 @@ tags: []
 例: Work on the bridge was abandoned when funding ran out.  
 訳: 資金が尽きると橋の工事は打ち切られた。  
 
-・abandon a career/habit  
-用途: キャリアや習慣を完全にやめる。  
+・abandon a career  
+用途: キャリアを完全に捨てる。  
 例: She abandoned her legal career to become a teacher.  
 訳: 彼女は教師になるため法律家としてのキャリアを捨てた。  
 
-【語法・注意】abandon は通常、abandon 〈名詞〉 の形で目的語を取る。*abandon to do* は「〜するのを断念する」の形として誤りで、abandon the attempt to do、abandon plans to do、または abandon the idea of doing とする。計画段階でも実行中でも使い、実現・完遂に至らせないことを表す。call off は予定された行事・催しの中止に使うことが多い。試合・競技の打ち切りを表す abandon は特に英国のスポーツ報道で見られ、開始後に使うのが典型。開始前なら postpone や call off がよく使われる。  
+【語法・注意】abandon は通常、abandon 〈名詞〉 の形で目的語を取る。*abandon to do* は「〜するのを断念する」の形として誤りで、abandon the attempt to do、abandon plans to do、または abandon the idea of doing とする。習慣をやめる場合は abandon より give up a habit、break a habit が自然。call off は予定された行事・催しの中止に使うことが多い。試合・競技の打ち切りを表す abandon は特に英国のスポーツ報道で見られ、主に開始後に使うが、クリケットなどでは開始前の中止にも使う（The match was abandoned without a ball bowled.）。中止ではなく日程を改めて行う延期の場合は postpone を使う。  
 
 【類義語】
 
@@ -298,12 +299,19 @@ tags: []
 例: The company discontinued the service last year.  
 訳: その会社は昨年そのサービスを終了した。  
 
+・call off  
+定義: 予定された行事・試合・計画などを中止する。  
+頻度: 〈8/10〉  
+違い: abandon より口語的で、予定されていた催しや試合を開始前に取りやめる場合によく使う。abandon は計画・活動を完遂させずに打ち切ることに焦点がある。  
+例: The game was called off because of the snow.  
+訳: 雪のため試合は中止になった。  
+
 【反意語】
 
 ・continue  
 定義: 活動・計画・過程を続ける。  
 頻度: 〈10/10〉  
-違い: abandon の完遂前の中止と、継続という方向で正反対。  
+違い: abandon が途中でやめるのに対し、continue はそのまま続ける。  
 例: The team continued its work despite the delay.  
 訳: そのチームは遅れにもかかわらず作業を続けた。  
 
@@ -358,13 +366,13 @@ tags: []
 例: Some communities abandoned their ancestral language within a few generations.  
 訳: 数世代のうちに祖先から受け継いだ言語を使わなくなった共同体もある。  
 
-【語法・注意】abandon hope は定着した組み合わせで、hope を目的語に取る。*abandon to do* ではなく abandon the idea of doing、abandon hopes of doing のように名詞を介する。give up hope はより口語的で、abandon hope は報道・文学では重い響きになりやすい。  
+【語法・注意】abandon hope は定着した組み合わせで、hope を目的語に取る。「〜することを諦める」は abandon the idea of doing、abandon hopes of doing のように名詞を介する（*abandon to do* については語義3の【語法・注意】参照）。give up hope はより口語的で、abandon hope は報道・文学では重い響きになりやすい。  
 
 【類義語】
 
 ・renounce  
 定義: 信念・権利・地位などを公に、または明確に放棄する。  
-頻度: 〈6/10〉  
+頻度: 〈5/10〉  
 違い: abandon より公式・意図的で、宣言や制度上の放棄を示しやすい。  
 例: He renounced his former political beliefs.  
 訳: 彼は以前の政治的信条を放棄した。  
@@ -402,7 +410,7 @@ tags: []
 ・uphold  
 定義: 原則・法律・決定などを支持し、守り続ける。  
 頻度: 〈8/10〉  
-違い: abandon が考えや方針への支持・維持を手放すのに対し、uphold は原則・法律・決定を支持し、守り続けることを表す。  
+違い: abandon が原則・法などの規範を捨てるのに対し、uphold はそれを擁護して守る。立場・方針を保つことに広く使う maintain と違い、規範・法・決定の擁護に焦点がある。  
 例: The court upheld the principle of equal treatment.  
 訳: 裁判所は平等な扱いの原則を支持した。  
 
@@ -450,13 +458,13 @@ tags: []
 例: The garrison abandoned the city to the advancing army.  
 訳: 守備隊は進軍してくる敵軍にその都市を明け渡した。  
 
-【語法・注意】この用法では、対象から離れた事実よりも「管理・対処をやめた結果、劣化や偶然に委ねられる」ことが重要である。to の後に敵・他者が来る場合（abandon a city to the enemy）は、放置ではなく、支配を手放して相手に明け渡すことを表す。放置された状態を単に述べる場合は leave 〈O〉 abandoned、管理不足を述べる場合は neglect も使える。  
+【語法・注意】この用法では、対象から離れた事実よりも「管理・対処をやめた結果、劣化や偶然に委ねられる」ことが重要である。to の後に敵・他者が来る場合（abandon a city to the enemy）は、放置ではなく、支配を手放して相手に明け渡すことを表す。放置された状態を述べる場合は leave 〈O〉 empty/derelict/to rot、管理不足を述べる場合は neglect も使える。  
 
 【類義語】
 
 ・neglect  
 定義: 必要な管理・注意・世話を怠る。  
-頻度: 〈8/10〉  
+頻度: 〈7/10〉  
 違い: abandon は管理から完全に手を引くことが多いのに対し、neglect は部分的・継続的な怠慢にも使える。  
 例: The garden was neglected after the owner moved away.  
 訳: 所有者が引っ越した後、その庭は手入れされなくなった。  
@@ -529,8 +537,8 @@ tags: []
 
 ・abandon property  
 用途: 所有物を放棄し、所有の意思を手放す。  
-例: The owner was held responsible for abandoning the property.  
-訳: 所有者はその財産を放棄した責任を問われた。  
+例: The court ruled that the owner had abandoned the property, so the finder could keep it.  
+訳: 裁判所は、所有者がその財産を放棄していたと判断し、発見者がそれを保有できるとした。  
 
 ・abandon a (patent) application  
 用途: 特許出願の審査継続をやめ、出願を放棄する。  
@@ -594,7 +602,7 @@ tags: []
 
 7. 【動詞・他動詞・保険／海事】保険目的物を保険者に委付する
 
-【日本語訳・定義】海上保険などで、推定全損（constructive total loss）など保険契約上の要件が満たされる場合に、船舶・貨物などを保険者に委付する意思を通知し、全損としての保険金請求につなげる。保険金の支払い、通知の要件、委付の受諾・効果は保険契約・法域によって異なる。一般語義の「放棄」と語彙的な核は共有するが、保険者への通知・受諾や保険金請求という制度上の効果を伴う専門用法。  
+【日本語訳・定義】海上保険で、船舶・貨物などが推定全損（constructive total loss）となった場合などに、被保険者が保険目的物を保険者に委付し、全損として保険金を請求する。一般語義の「放棄」と語彙的な核は共有するが、保険制度上の効果を伴う専門用法。  
 
 【頻度】〈1/10〉  
 
@@ -614,51 +622,7 @@ tags: []
 例: The assured decided to abandon the cargo to the insurer.  
 訳: 被保険者は貨物を保険者に委付することを決めた。  
 
-・elect to abandon  
-用途: 推定全損の条件が満たされた場合に、保険目的物を委付することを選ぶ。  
-例: When the estimated cost of recovering and repairing the ship exceeded its value after repairs, the owners elected to abandon it to the insurers.  
-訳: 船の引き揚げ・修繕費の見積もりが修繕後の船の価値を上回ったため、船主はその船を保険者に委付することを選んだ。  
-
-【語法・注意】この語義は保険制度に固有で、日常の「船を捨てる」意味では語義2を使う。関連表現には委付通知を指す名詞句 notice of abandonment と、保険者が委付を受け入れることを表す accept an abandonment がある。これらは abandon 自体の動詞コロケーションではない。英国の1906年海上保険法では現実全損（actual total loss）の場合、委付通知は不要とされる。推定全損（constructive total loss）では通知が関係するが、具体的な要件・例外は法域や保険契約による。委付通知を行っただけで、保険者の受諾や保険金の支払いが自動的に成立するわけではない。  
-
-【類義語】
-
-・surrender  
-定義: 保険目的物や権利を相手へ引き渡す。  
-頻度: 〈5/10〉  
-違い: 一般的な引き渡し・返納も含むが、abandon の保険上の制度効果までは示さない。  
-例: The owner surrendered the damaged vessel to the insurer.  
-訳: 所有者は損傷した船舶を保険者に引き渡した。  
-
-・relinquish  
-定義: 所有・権利・利益などを手放す。  
-頻度: 〈4/10〉  
-違い: 公式な放棄全般を表すが、委付通知や保険金請求の制度性は含まない。  
-例: The contract required the owner to relinquish control.  
-訳: 契約は所有者に管理権を手放すよう求めた。  
-
-・transfer  
-定義: 所有・権利・物を別の人や組織へ移す。  
-頻度: 〈2/10〉  
-違い: 正式な移転を表す中立語で、損害を理由とする保険上の放棄は含まない。  
-例: Ownership of the vessel was transferred to the insurer.  
-訳: 船舶の所有権が保険者に移転された。  
-
-【反意語】
-
-・retain  
-定義: 所有・権利・目的物を手元に保ち続ける。  
-頻度: 〈7/10〉  
-違い: abandon は保険目的物を保険者に委付して手放すのに対し、retain は被保険者側が対象を保持することを表す。  
-例: The owner retained the damaged cargo.  
-訳: 所有者は損傷した貨物を保持した。  
-
-・keep possession of  
-定義: 目的物を手元に保持し、保険者へ委付しない。  
-頻度: 〈5/10〉  
-違い: abandon の委付と反対に、被保険者が目的物の占有を保ち続ける。  
-例: The owner kept possession of the damaged vessel.  
-訳: 所有者は損傷した船舶を手元に保持した。  
+【語法・注意】この語義は保険制度に固有で、日常の「船を捨てる」意味では語義2を使う。関連用語として、委付通知を表す notice of abandonment、委付の前提となる推定全損 constructive total loss、委付を受ける側（保険者）を表す abandonee がある。  
 
 8. 【動詞・再帰表現・文学的】感情・欲望などに身を任せる
 
@@ -692,7 +656,7 @@ tags: []
 例: The dancers abandoned themselves to the music.  
 訳: 踊り手たちは音楽に身を委ねた。  
 
-【語法・注意】*abandon to despair* のように再帰代名詞を落とすと、意味・構文が変わる。abandon oneself to は「〜するのを断念する」ではなく、自己を感情などへ委ねる表現である。なお、be abandoned to despair/grief は「絶望・悲嘆の状態に取り残される」という受動構文で、abandon oneself to から oneself を省いた形ではない。give oneself over to と近いが、abandon oneself to のほうが自己放任・完全な没入の響きが出やすい。  
+【語法・注意】*abandon to despair* のように再帰代名詞を落とすと、意味・構文が変わる。abandon oneself to は「〜するのを断念する」ではなく、自己を感情などへ委ねる表現である。give oneself over to と近いが、abandon oneself to のほうが自己放任・完全な没入の響きが出やすい。  
 
 【類義語】
 
@@ -714,8 +678,8 @@ tags: []
 定義: 感情・圧力・誘惑などに負けて従う。  
 頻度: 〈7/10〉  
 違い: 外部の圧力や相手に譲る意味が前景化し、自己没入の含みは弱い。  
-例: He yielded to his anger.  
-訳: 彼は怒りに負けた。  
+例: He eventually yielded to pressure from his colleagues.  
+訳: 彼は結局、同僚からの圧力に屈した。  
 
 ・indulge in  
 定義: 快楽・感情・活動にふける、度を越して楽しむ。  
@@ -775,18 +739,18 @@ tags: []
 訳: 彼らは昔の話を聞いて遠慮なく笑った。  
 
 ・attack with reckless abandon  
-用途: 無謀なほど抑制なく攻撃する。  
+用途: 危険を顧みず抑制なく攻撃する。文脈により肯定的な全力プレーの意味にもなる。  
 例: The team attacked with reckless abandon in the final minutes.  
-訳: そのチームは最後の数分、無謀な勢いで攻めた。  
+訳: そのチームは最後の数分、捨て身で（がむしゃらに）攻めた。  
 
-【語法・注意】with abandon は「好き放題に、抑制なく」という副詞的な働きをする。wild・reckless があれば無謀さ、joyful・楽しい文脈なら解放感が強い。gay abandon の gay はこの固定句では「陽気な、気ままな」という古い意味で、通常の性的指向を表す gay とは別に理解する。  
+【語法・注意】with abandon は「好き放題に、抑制なく」という副詞的な働きをする。wild は喜び・熱狂を強めることが多く（dance with wild abandon）、無謀さを示すとは限らない。reckless は無謀さと全力の両方を表しうるため、文脈で判断する。gay abandon の gay はこの固定句では「陽気な、気ままな」という古い意味で、通常の性的指向を表す gay とは別に理解する。  
 
 【類義語】
 
 ・recklessness  
 定義: 危険や結果を顧みない無謀さ。  
 頻度: 〈7/10〉  
-違い: 否定的な with reckless abandon と重なるが、abandon の肯定的な熱中・解放感までは含まない。  
+違い: 無謀さを表す場合の with reckless abandon と重なるが、abandon の肯定的な熱中・解放感までは含まない。  
 例: His recklessness put everyone at risk.  
 訳: 彼の無謀さは全員を危険にさらした。  
 
@@ -809,7 +773,7 @@ tags: []
 頻度: 〈5/10〉  
 違い: 否定的な abandon と重なるが、快楽や自己中心性に意味を限定する。  
 例: The meal was an act of pure self-indulgence.  
-訳: その食事は純粋な自己満足の行為だった。  
+訳: その食事は、ひたすら自分を甘やかすための贅沢だった。  
 
 【反意語】
 
@@ -866,12 +830,17 @@ tags: []
 例: Engineers revisited an abandoned plan to build a tunnel under the bay.  
 訳: 技術者たちは、湾の下にトンネルを通すという立ち消えになった計画を再検討した。  
 
+・an abandoned (shopping) cart  
+用途: ECサイトで商品を入れたまま購入手続きを終えずに放置されたカート（カゴ落ち）。現象全体は名詞句 cart abandonment で表し、英国では basket も使う。  
+例: Online retailers send reminder emails to recover abandoned carts.  
+訳: ネット通販業者は、カゴ落ちした商品の購入を促すためにリマインドメールを送る。  
+
 ・feel abandoned by 〈person・institution〉  
 用途: 人・組織から支援されず、見捨てられたと感じる。  
 例: Many residents felt abandoned by the government.  
 訳: 多くの住民が政府に見捨てられたと感じた。  
 
-【語法・注意】abandoned は「誰かが見捨てた」という原因を含みやすいが、単に空いている vacant、使用されていないだけの disused、手入れされていない neglected とは区別する。限定用法では abandoned car のように名詞の前に置き、叙述用法では be・look・remain・stand の後に置く。be abandoned だけでは受動態か形容詞かが文脈次第で、行為者（by 〜）が示されて動作が焦点なら受動態（The car was abandoned by the thieves.）、状態描写なら形容詞（The car looked abandoned. / The house has stood abandoned for years.）と判断する。abandoning は見捨てる行為の側を表す。  
+【語法・注意】abandoned は「誰かが見捨てた」という原因を含みやすいが、単に空いている vacant、使用されていないだけの disused、手入れされていない neglected とは区別する。限定用法では abandoned car のように名詞の前に置き、叙述用法では be・look・remain・stand の後に置く。be abandoned だけでは受動態か形容詞かが文脈次第で、行為者（by 〜）が示されて動作が焦点なら受動態（The car was abandoned by the thieves.）、状態描写なら形容詞（The car looked abandoned. / The house has stood abandoned for years.）と判断する。  
 
 【類義語】
 
@@ -1039,7 +1008,7 @@ tags: []
 頻度: 〈3/10〉  
 違い: 古風・文学的な人や生活の描写では、性的な放縦や節度のなさを含み得る。  
 例: A Victorian novel depicts him as a wanton rake who squanders his inheritance on drink and gambling.  
-訳: その小説は、遺産を酒と賭博に浪費する放埒な男として彼を描いている。  
+訳: あるヴィクトリア朝の小説は、遺産を酒と賭博に浪費する放埒な男として彼を描いている。  
 
 【反意語】
 
@@ -1047,7 +1016,7 @@ tags: []
 定義: 道徳的な基準を守り、正しい行いをする。  
 頻度: 〈7/10〉  
 違い: abandoned の放埒な生活態度と反対に、道徳的な節度を保つ。  
-例: The novel contrasts him with his virtuous sister.  
+例: The novel contrasts him with his virtuous younger sister.  
 訳: その小説は彼と、道徳的に正しい妹を対比している。  
 
 ・upright  
