@@ -13,12 +13,12 @@ tags: []
 ＃発音記号
 
 米: /ɪkˈstɛnsɪv/｜英: /ɪkˈstensɪv/。3音節の ik-STEN-siv で、第2音節に主強勢がある。第1音節は弱い /ɪk/、第2音節の母音は米国発音で /ɛ/、英国発音で /e/ と表記され、第3音節は弱い /ɪv/ で終わる。  
-綴りの ex- はここでは /ɛks/ と強く読まず、語頭の /ɪk/ と、次の強勢音節の /st/ に分かれる。語末の -sive は /sɪv/ で、/saɪv/ ではない。  
+綴りの ex- はここでは /ɛks/ と強く読まず、x の /ks/ が分かれて、/k/ は語頭の弱い /ɪk/ に、/s/ は次の強勢音節の頭（/st/ の /s/）に属する。語末の -sive は /sɪv/ で、/saɪv/ ではない。  
 比較級は more extensive、最上級は most extensive とするのが普通で、extensiver・extensivest は通常用いない。副詞 extensively は米 /ɪkˈstɛnsɪvli/、英 /ɪkˈstensɪvli/ と発音し、主強勢の位置を保つ。  
 
 ＃語源
 
-late Middle English に、フランス語 extensif, -ive または後期ラテン語 extensivus 経由で入った。さらにラテン語 extendere「外へ伸ばす、広げる」へさかのぼり、ex-「外へ」と tendere「伸ばす」から成る。  
+後期中英語期に、フランス語 extensif, -ive または後期ラテン語 extensivus を経て英語に入った。さらにラテン語 extendere「外へ伸ばす、広げる」へさかのぼり、ex-「外へ」と tendere「伸ばす」から成る。  
 中心にあるのは「外へ伸びて、範囲・量・作用の及ぶ先が広がる」という発想で、物理的な広さから、情報の範囲、被害の規模、専門分野の「系の大きさ」へ意味が抽象化している。  
 同語族の学習語は extend「広げる、延長する」、extent「広がり、程度」、extension「拡張、延長」、extensively「広範囲に、広く」、extensiveness「広範さ」である。  
 
@@ -26,7 +26,7 @@ late Middle English に、フランス語 extensif, -ive または後期ラテ�
 
 extensively — 副詞「広範囲に、広く、大いに」。動詞や過去分詞を修飾する。  
 extensiveness — 名詞「広範さ、広がり」。一般語としてはやや硬い。  
-extensivity — 名詞「外延性、示量性」。物理・論理などの専門分野で使われる。  
+extensivity — 名詞「示量性」。主に物理・化学の専門語として使われる。  
 more/most extensive — extensive の比較級・最上級。短い形の *extensiver・*extensivest は通常使わない。  
 intensive — 農業・物理などで extensive と対比される形容詞。ただし、extensive の否定接頭辞付きの形ではなく、意味の対照をなす別語である。  
 
@@ -72,14 +72,14 @@ extensive の共通核は、対象の外へ広がる範囲・量・作用の及�
 ・extensive travels  
 用途: 多くの地域を巡る広範な旅行経験を表す。  
 例: Her extensive travels have shaped her understanding of different cultures.  
-訳: 彼女の広範な旅行経験は、異なる文化への理解を形づくってきた。  
+訳: 各地を広く旅した経験が、彼女の異文化理解を形づくってきた。  
 
 ・an extensive network of 〈roads/railways〉  
 用途: 道路や鉄道などが広い地域を結んでいることを表す。  
 例: The island has an extensive network of rural roads.  
-訳: その島には農村部まで広がる道路網がある。  
+訳: その島には、農村部の道路網が広く張り巡らされている。  
 
-【語法・注意】この語義の extensive は「広い面積に及ぶ」という空間的な意味が中心である。extensive grounds は庭や敷地の面積を表すが、extensive research は面積ではなく情報の範囲を表すため、語義3に近い。  
+【語法・注意】この語義の extensive は「広い面積に及ぶ」という空間的な意味が中心である。extensive grounds は庭や敷地の面積を表すが、extensive research は面積ではなく情報の範囲を表すため、語義3に当たる。  
 
 extensive は名詞の前に置く限定用法が多い。述語位置の The grounds are extensive. も可能だが、被害・損傷について The damage was extensive. と言う場合は、空間よりも規模・程度を表す語義2として理解する。  
 
@@ -96,8 +96,8 @@ extensive は名詞の前に置く限定用法が多い。述語位置の The gr
 定義: 左右・範囲・選択肢などが広い。  
 頻度: 〈10/10〉  
 違い: wide は幅や選択の広さを日常的に表す基本語で、extensive は広い範囲にわたる規模や展開をやや硬く述べる。  
-例: The museum offers a wide range of educational programs.  
-訳: その博物館は幅広い教育プログラムを提供している。  
+例: The storm caused power cuts across a wide area.  
+訳: その嵐で広い地域が停電した。  
 
 ・expansive  
 定義: 広く伸びている、または広がりをもつ。  
@@ -111,7 +111,7 @@ extensive は名詞の前に置く限定用法が多い。述語位置の The gr
 頻度: 〈6/10〉  
 違い: sprawling は形がまとまりなく広がる印象や、しばしば批判的な含みを伴う。extensive にはその評価は必須でない。  
 例: A sprawling suburb has developed around the airport.  
-訳: 空港周辺に広がり続ける郊外が形成された。  
+訳: 空港の周囲には、無秩序に広がる郊外住宅地ができた。  
 
 【反意語】
 
@@ -127,7 +127,7 @@ extensive は名詞の前に置く限定用法が多い。述語位置の The gr
 頻度: 〈7/10〉  
 違い: confined は広がりが物理的・制度的に抑えられていることを強調する。  
 例: The fire was confined to a single room.  
-訳: 火災は一室に限定されていた。  
+訳: 火災は一室だけにとどまった。  
 
 2. 【形容詞・量・程度】大規模な、甚大な、非常に多い
 
@@ -159,7 +159,7 @@ extensive は名詞の前に置く限定用法が多い。述語位置の The gr
 ・extensive testing  
 用途: 検査・試験を多くの条件や段階で大規模に行うことを表す。  
 例: The software underwent extensive testing before its release.  
-訳: そのソフトウェアは発売前に大規模な試験を受けた。  
+訳: そのソフトウェアは、リリース前に広範なテストを受けた。  
 
 ・extensive powers  
 用途: 法律・制度上の権限が広い範囲に及ぶことを表す。  
@@ -169,9 +169,9 @@ extensive は名詞の前に置く限定用法が多い。述語位置の The gr
 ・the damage is extensive  
 用途: 被害の規模が大きいと報告・評価する。  
 例: Officials said that the damage was extensive but no one was injured.  
-訳: 当局者は被害は甚大だが、けが人はいないと述べた。  
+訳: 当局者は、被害は甚大だがけが人はいないと述べた。  
 
-【語法・注意】extensive damage・extensive research のように、不可算名詞をそのまま修飾できる。damage は通常不可算なので、一般的な意味で an extensive damage とは言わず、extensive damage または an extensive amount of damage とする。  
+【語法・注意】extensive damage・extensive research のように、不可算名詞をそのまま修飾できる。damage は通常不可算なので、an extensive damage とは言わず extensive damage とする。量の多さを強調するなら a great deal of damage なども使える。  
 
 「長い」を表す lengthy と重なることはあるが、extensive は時間の長さそのものより、作業・被害・内容が及ぶ範囲や規模に焦点がある。修理に時間がかかったことを言いたいなら lengthy repairs、作業量が大きいことを言いたいなら extensive repairs が自然である。  
 
@@ -182,7 +182,7 @@ extensive は名詞の前に置く限定用法が多い。述語位置の The gr
 ・considerable  
 定義: 量・程度・重要性がかなり大きい。  
 頻度: 〈8/10〉  
-違い: considerable は「かなりの」という数量・程度の評価に焦点がある。extensive は対象が広い範囲に及ぶという構造的な広がりをより強く示す。  
+違い: considerable は「かなりの」という数量・程度の評価に焦点がある。extensive は対象が広い範囲や多くの部分に及ぶことをより強く示す。  
 例: The project required a considerable investment.  
 訳: その計画にはかなりの投資が必要だった。  
 
@@ -219,7 +219,7 @@ extensive は名詞の前に置く限定用法が多い。述語位置の The gr
 ・minor  
 定義: 重要性・規模・程度が小さく、深刻でない。  
 頻度: 〈9/10〉  
-違い: minor は被害や変更の小ささ・軽さを表す。extensive の範囲の広さとは異なる軸もあるが、damage・injuries・repairs では有効な対比になる。  
+違い: minor は被害や変更の小ささ・軽さを表し、範囲の広さを直接表す extensive とは軸が少し異なる。ただし damage・injuries・repairs では有効な対比になる。  
 例: The vehicle suffered only minor damage.  
 訳: その車は軽微な損傷しか受けなかった。  
 
@@ -265,18 +265,20 @@ extensive は名詞の前に置く限定用法が多い。述語位置の The gr
 ・an extensive bibliography  
 用途: 書籍・論文などの参考文献一覧が多く、広い資料範囲をカバーしていることを表す。  
 例: The book includes an extensive bibliography of historical sources.  
-訳: その本には歴史資料の広範な参考文献一覧が付いている。  
+訳: その本には、歴史資料を幅広く収めた参考文献一覧が付いている。  
 
 ・extensive reading  
 用途: 特定の文章を細部まで分析するより、多くの文章を読む学習・活動を表す。  
 例: Extensive reading can help learners build vocabulary through repeated exposure.  
-訳: 多読は、繰り返し触れることを通じて学習者の語彙構築に役立つ。  
+訳: 多読は、語に繰り返し触れることで学習者が語彙を増やすのに役立つ。  
 
 【語法・注意】extensive knowledge は「知識が深い」ことを含む場合もあるが、語の中心は知識の量・範囲であり、細部への深さを必ずしも保証しない。comprehensive は必要な範囲を漏れなく含むこと、thorough は細部まで注意深く扱うことに焦点がある。  
 
 extensive experience は「経験した期間が長い」だけでなく、複数の業務・状況・分野にまたがる経験が豊富であることを表しやすい。経験年数だけを述べるなら many years of experience の方が直接的な場合もある。  
 
-extensive reading は教育用語として「多読」を指すことがあるが、一般文脈では単に大量・広範囲に読むことも表す。精読は intensive reading と対比される。  
+extensive reading は教育用語として「多読」を指すことがあるが、一般文脈では単に大量・広範囲に読むことも表す。教育用語としては「精読」を表す intensive reading と対比される。  
+
+深く集中的に行うことを言うなら intensive を使う。extensive research は研究の範囲・量、intensive research は集中的に深く行う研究であることを強調する。  
 
 【類義語】
 
@@ -299,14 +301,14 @@ extensive reading は教育用語として「多読」を指すことがある�
 頻度: 〈10/10〉  
 違い: broad は日常的で基本的な語。extensive は資料・経験・研究などの量や展開の大きさをやや強く、また硬く表す。  
 例: The course gives students a broad understanding of economics.  
-訳: その講座は学生に経済学の幅広い理解を与える。  
+訳: その講座で、学生は経済学を幅広く理解できる。  
 
 ・far-reaching  
 定義: 影響・効果・結果などが広い範囲に及ぶ。  
 頻度: 〈7/10〉  
 違い: far-reaching は影響や結果の及ぶ範囲を強調する。extensive は知識・資料・経験の量や範囲にも使える。  
 例: The reform could have far-reaching consequences.  
-訳: その改革は広範な結果をもたらす可能性がある。  
+訳: その改革は、広範囲に影響を及ぼす可能性がある。  
 
 ・thorough  
 定義: 細部まで注意深く、手を抜かずに行う。  
@@ -336,7 +338,7 @@ extensive reading は教育用語として「多読」を指すことがある�
 頻度: 〈7/10〉  
 違い: restricted は外部の規則や条件によって利用・適用範囲が抑えられていることを示す。  
 例: Access to the archive is restricted to researchers.  
-訳: その資料館へのアクセスは研究者に制限されている。  
+訳: その資料館を利用できるのは研究者に限られている。  
 
 4. 【形容詞・農業】粗放的な、粗放農業の
 
@@ -344,7 +346,7 @@ extensive reading は教育用語として「多読」を指すことがある�
 
 【頻度】〈3/10〉  
 
-【レジスター/領域】農業・畜産の専門語。一般会話では extensive farming/agriculture の定着した語句で現れることが多い。intensive farming/agriculture と対比される。  
+【レジスター/領域】農業・畜産の専門語。一般向けの文章では extensive farming/agriculture の定着した語句で現れることが多い。intensive farming/agriculture と対比される。  
 
 【文法パターン】extensive farming/agriculture＝粗放農業／extensive livestock farming＝粗放畜産／extensive grazing＝粗放放牧／an extensive farming system＝粗放的な農業体系  
 
@@ -372,7 +374,7 @@ extensive reading は教育用語として「多読」を指すことがある�
 
 【語法・注意】この語義では extensive を「大規模な」「広範な」とだけ訳すと、低投入・低密度という対比が抜ける。extensive farming は土地当たりの投入が少ない方式、intensive farming は土地当たりの投入を増やして高い生産性を目指す方式である。  
 
-農業用法の extensive は、一般語義2の extensive production「大規模な生産」と完全に同義ではない。広い土地を使っていても、単位面積当たりの投入が少ないという方式上の特徴がなければ、この専門義とは限らない。  
+農業用法の extensive は、一般語義の「広大な」「大規模な」と完全に同義ではない。広い土地を使う大規模な経営であっても、単位面積当たりの投入が少ないという方式上の特徴がなければ、この専門義とは限らない。  
 
 【類義語】
 
@@ -409,7 +411,7 @@ extensive reading は教育用語として「多読」を指すことがある�
 ・high-input  
 定義: 土地や生産単位当たりの投入量が多い。  
 頻度: 〈5/10〉  
-違い: high-input agriculture は投入の多さを直接示す説明的な表現で、extensive の専門的な対比として使われる。  
+違い: high-input は投入の多さを直接示す説明的な表現で、extensive のうち低投入という側面に対比される。土地の使い方まで含む方式上の対比には intensive が普通である。  
 例: High-input farming often requires careful management of water and fertilizer.  
 訳: 高投入型農業では、水と肥料の慎重な管理が必要になることが多い。  
 
@@ -452,7 +454,7 @@ extensive reading は教育用語として「多読」を指すことがある�
 
 【語法・注意】この専門義では「系を二つの同種の部分に分けると、全体の値が部分の値の和になる」という加法性が重要である。単に大きい物理量という意味ではなく、系のサイズや物質量との関係を分類する用語である。  
 
-示量性の量を物質量や質量で割ると、密度や比エネルギーのような示強性の量になることが多い。intensive は系の大きさに依存しない性質を表すため、一般語義の「intensive＝集中的な」と機械的に訳さない。  
+示量性の量どうしの比は示強性の量になる。たとえば質量を体積で割った密度、エネルギーを質量で割った比エネルギーは示強性である。intensive は系の大きさに依存しない性質を表すため、一般語義の「intensive＝集中的な」と機械的に訳さない。  
 
 【類義語】
 
@@ -474,7 +476,7 @@ extensive reading は教育用語として「多読」を指すことがある�
 
 ・intensive  
 定義: 系の大きさや物質量に依存せず、部分系でも同じ値を保つ性質の。  
-頻度: 〈7/10〉  
+頻度: 〈3/10〉  
 違い: 熱力学では extensive の直接的な対照語。temperature・pressure・density などが典型例である。  
 例: Temperature is an intensive property of a thermodynamic system.  
 訳: 温度は熱力学系の示強性の性質である。  
@@ -505,10 +507,6 @@ extensive reading は教育用語として「多読」を指すことがある�
 
 intensional は「内包的な」で、概念が適用される対象の一覧ではなく、概念を成り立たせる属性・意味内容に基づく。extensive と intensive は一般語では規模と集中の対比だが、この論理学用法では extensive と intensional が対になる。  
 
-extensive は、一般語義では「広がり・量・規模が大きい」、専門義では「広い土地を低投入で使う」「系の大きさに応じて増える」「外延に関係する」と意味の焦点が変わる。  
-「広範な」を言いたいときは extensive、「細部まで入念な」を言いたいときは thorough、「深く集中的な」を言いたいときは intensive を選ぶ。extensive research は研究の範囲・量、intensive research は深さ・集中度を強調する。  
-extensive damage は被害の範囲・規模が大きいという意味で、必ずしも damage が最も深刻、全面的、回復不能という意味ではない。  
-
 【類義語】
 
 ・extensional  
@@ -523,6 +521,6 @@ extensive damage は被害の範囲・規模が大きいという意味で、必
 ・intensional  
 定義: 概念の内包、つまりその概念を成り立たせる属性・意味内容に関する。  
 頻度: 〈4/10〉  
-違い: 論理学では、対象の集合に基づく extensive/extensional に対し、概念の属性や意味内容に基づく。  
+違い: 論理学では、対象の集合に基づく extensive/extensional に対し、intensional は概念の属性や意味内容に基づくことを表す。  
 例: An intensional definition specifies the essential properties of a concept.  
 訳: 内包的定義は、ある概念の本質的な属性を明示する。  
