@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/i/implication.md",
+  "created_at": "2026-09-28T15:36:56Z",
+  "base_body_sha256": "1fbd3725e4a59b8b20c9230ac24cb7f28ee118c8d8a98e4fbce98f38170ab735",
+  "head_body_sha256": "c08b9930581b33eefbcd728fd029248fc54118aefa1e08bf826ea421041f1f0c",
+  "diff_sha256": "3ccdb1b830da2c2c8629d442fb4b53fc810c6cb64e783c8f514164b5435a4deb",
+  "user_request": "implication 項目の全面点検依頼（2026-09-28）：日本語・英語ネイティブの観点で不自然な箇所、解説書として問題がある箇所を修正。全角＃見出しは対象外。頻度は語義単位のレベル。修正版を独立サブエージェントに1語ずつ渡して再点検・修正する往復を実施し、修正0件となった時点で確定。",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "claude-code-subagent-rally (2 independent general-purpose subagents, separate contexts from author)",
+    "verdict": "pass",
+    "notes": "R0 著者修正：発音の imply との強勢差の説明、by implication・clear implication・suggestion・implications for の訳、反意語 irrelevance・insignificance の不自然例文を差替、欠落していた語義3（犯罪・不正への関与の示唆）を追加。R1：発音の弱母音表記、語源の『巻き込まれ』を修正。R2：修正なし。validate_entry 通過。"
+  },
+  "pi_processing": {
+    "status": "pending",
+    "reason": "no coordinator learning_delta was supplied"
+  }
+}

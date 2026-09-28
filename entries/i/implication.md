@@ -15,7 +15,7 @@ tags: []
 米: /ˌɪmpləˈkeɪʃən/｜英: /ˌɪmplɪˈkeɪʃən/
 
 ・主強勢は -ca- /ˈkeɪ/ に置く。
-・動詞 imply /ɪmˈplaɪ/ とは母音と語尾が大きく変わる。
+・動詞 imply /ɪmˈplaɪ/ は第2音節に強勢があるが、implication では強勢が -ca- に移り、-pli- の母音は /aɪ/ ではなく弱母音 /ə/（米）・/ɪ/（英）になる。
 
 ＃語源
 
@@ -23,7 +23,7 @@ tags: []
 
 関連語には imply（暗に意味する）、implicit（暗黙の）、complicate（複雑にする）、apply（適用する）がある。
 
-共通コアは「内側に折り込まれているもの」という発想で、暗示された意味、結果として含まれる影響、巻き込まれを表す。
+共通コアは「内側に折り込まれているもの」という発想で、暗示された意味、結果として含まれる影響、（不正などへの）関与の示唆を表す。
 
 ＃語形成
 
@@ -60,12 +60,12 @@ tags: []
 ・by implication
 用途: 明示ではなく含意として示す。
 例: By implication, the rule applies to contractors too.
-訳: 含意として、その規則は契約業者にも適用される。
+訳: 言外に、その規則は請負業者にも適用されるということになる。
 
 ・clear implication
 用途: 読み取れる意味がはっきりしていること。
 例: The clear implication is that costs will rise.
-訳: 明らかな含意は、費用が上がるということだ。
+訳: そこからはっきり読み取れるのは、費用が上がるということだ。
 
 【語法・注意】implication は「話し手が本当に意図した意味」とは限らない。聞き手や読者が状況から推論する意味にも使う。explicit meaning とは対になる。
 
@@ -76,7 +76,7 @@ tags: []
 頻度: 〈8/10〉
 違い: suggestion はより一般的で、提案の意味もある。implication は論理的に含まれる意味に寄りやすい。
 例: There was a suggestion of bias.
-訳: 偏りがあるという示唆があった。
+訳: 偏りがあるのではないかという示唆があった。
 
 ・hint
 定義: ほのめかし、手がかり。
@@ -123,7 +123,7 @@ tags: []
 ・implications for + 名詞
 用途: 何に影響するかを示す。
 例: The findings have implications for public health.
-訳: その発見は公衆衛生に影響を持つ。
+訳: その研究結果は公衆衛生にとって重要な意味を持つ。
 
 ・policy implications
 用途: 政策上の意味合いを述べる。
@@ -171,12 +171,61 @@ tags: []
 定義: 関係のなさ、無関係。
 頻度: 〈4/10〉
 違い: implication が重要な意味合いを持つのに対し、irrelevance は影響や関係がないこと。
-例: He argued for the irrelevance of the old rule.
-訳: 彼は古い規則が無関係だと主張した。
+例: The old rule has become an irrelevance.
+訳: その古い規則は、今では意味のないものになっている。
 
 ・insignificance
 定義: 重要でないこと。
 頻度: 〈4/10〉
 違い: implication が意味や影響の重要性を示すのに対し、insignificance は重要性の欠如を示す。
-例: The insignificance of the difference surprised us.
-訳: その差が重要でないことに私たちは驚いた。
+例: The difference faded into insignificance.
+訳: その差は取るに足らないものになった。
+
+3. 【名詞】（犯罪・不正などへの）関与の示唆、巻き込み。
+
+【日本語訳・定義】人が犯罪・不正・不祥事などに関わっていると示されること、またはそう疑われること。動詞 implicate「関与を示す、巻き込む」に対応する用法。
+
+【頻度】〈頻度: 3/10〉
+
+【レジスター/領域】報道、法律、捜査の文脈で使う。やや硬い。
+
+【文法パターン】someone's implication in + 名詞／implication in a crime/scandal。
+
+【コロケーション】
+
+・implication in + 名詞
+用途: 何への関与が示されたかを表す。
+例: The report revealed the minister's implication in the cover-up.
+訳: その報告書で、大臣が隠蔽に関与していたことが明らかになった。
+
+・implication in a scandal
+用途: 不祥事への関与が取り沙汰されることを表す。
+例: Her implication in the scandal ended her political career.
+訳: その不祥事への関与が取り沙汰されたことで、彼女の政治生命は絶たれた。
+
+【語法・注意】この意味では involvement の方がはるかに一般的で、implication は「関与していると示される・疑われる」という含みが強い。動詞を使って be implicated in ～ と言う方が普通である。
+
+【類義語】
+
+・involvement
+定義: 関与、関わり。
+頻度: 〈8/10〉
+違い: 関わりを中立的に表す一般語で、implication のような「疑い・示唆」の含みはない。
+例: Police are investigating his involvement in the robbery.
+訳: 警察は強盗事件への彼の関与を捜査している。
+
+・complicity
+定義: 共謀、加担。
+頻度: 〈4/10〉
+違い: 悪事に加担したことを表し、implication より断定的で否定的である。
+例: She was accused of complicity in the cover-up.
+訳: 彼女は隠蔽に加担したとして非難された。
+
+【反意語】
+
+・exoneration
+定義: 容疑が晴れること、潔白の証明。
+頻度: 〈3/10〉
+違い: implication が関与を示すのに対し、exoneration は関与の疑いが晴れることを表す。
+例: The new evidence led to his exoneration.
+訳: 新たな証拠によって、彼の容疑は晴れた。
