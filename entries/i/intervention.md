@@ -15,7 +15,7 @@ tags: []
 米: /ˌɪntərˈvenʃən/｜英: /ˌɪntəˈvenʃən/
 
 ・主強勢は -ven- /ˈven/ に置く。
-・動詞 intervene /ˌɪntərˈviːn/ とは語尾と母音が異なる。
+・動詞 intervene（米 /ˌɪntərˈviːn/｜英 /ˌɪntəˈviːn/）は強勢母音が長い /iː/ だが、名詞 intervention では短い /e/ になる。
 
 ＃語源
 
@@ -50,24 +50,24 @@ tags: []
 ・early intervention
 用途: 問題が深刻化する前の早期対応。
 例: Early intervention can improve learning outcomes.
-訳: 早期介入は学習成果を改善し得る。
+訳: 早期介入によって、学習成果が向上することがある。
 
 ・government intervention
 用途: 政府が市場や社会問題に関与すること。
 例: The crisis led to government intervention.
-訳: その危機は政府介入につながった。
+訳: その危機を受けて、政府が介入した。
 
 ・medical intervention
 用途: 医療上の処置や介入を指す。
 例: The patient needed immediate medical intervention.
-訳: その患者には直ちに医療介入が必要だった。
+訳: その患者には、直ちに医療処置が必要だった。
 
 ・intervention in + 名詞
 用途: どの問題に介入するかを示す。
 例: The group opposed foreign intervention in the conflict.
 訳: その団体は紛争への外国の介入に反対した。
 
-【語法・注意】intervention は「助け」になる場合もあれば「余計な干渉」と受け取られる場合もある。文脈で評価が変わるため、beneficial, unnecessary, military などの形容詞で方向性を示す。
+【語法・注意】intervention は「助け」になる場合もあれば「余計な干渉」と受け取られる場合もある。文脈で評価が変わるため、timely, unnecessary などの形容詞で評価を明示することが多い。military, surgical のように介入の種類を示す形容詞もよく付く。
 
 【類義語】
 
@@ -76,7 +76,7 @@ tags: []
 頻度: 〈8/10〉
 違い: involvement は単に関わることも含み、intervention ほど状況を変える意図を強く含まない。
 例: Her involvement helped the project.
-訳: 彼女の関与がプロジェクトを助けた。
+訳: 彼女が関わったことは、プロジェクトの助けになった。
 
 ・interference
 定義: 干渉、妨害。
@@ -128,7 +128,7 @@ tags: []
 ・school-based intervention
 用途: 学校で行う支援プログラム。
 例: The study tested a school-based intervention.
-訳: その研究は学校ベースの介入策を検証した。
+訳: その研究は、学校で実施する介入プログラムの効果を検証した。
 
 ・design an intervention
 用途: 改善策を設計する。
@@ -149,7 +149,7 @@ tags: []
 頻度: 〈8/10〉
 違い: program は広く、intervention は問題改善を目的にしたプログラムに焦点がある。
 例: The program supports new parents.
-訳: そのプログラムは新しい親を支援する。
+訳: そのプログラムは、親になったばかりの人を支援する。
 
 ・treatment
 定義: 治療、処置。
@@ -161,7 +161,7 @@ tags: []
 ・measure
 定義: 措置、手段。
 頻度: 〈7/10〉
-違い: measure は行政・組織の対策に広く使い、intervention より具体的な支援設計を含まないこともある。
+違い: measure は行政・組織の対策に広く使い、intervention のように対象者に合わせて設計された支援であることは必ずしも含まない。
 例: The city introduced new safety measures.
 訳: 市は新しい安全対策を導入した。
 
@@ -172,11 +172,53 @@ tags: []
 頻度: 〈4/10〉
 違い: intervention を行う場合と直接対比され、研究や実務で比較条件として使われる。
 例: The study compared counseling with no intervention.
-訳: その研究はカウンセリングと介入なしの条件を比較した。
+訳: その研究は、カウンセリングを受けた群と、何の介入も受けなかった群を比較した。
 
 ・withdrawal
 定義: 撤退、引き上げ、中止。
 頻度: 〈6/10〉
 違い: intervention が関与を始めることなら、withdrawal は関与をやめること。
 例: The withdrawal of support harmed the project.
-訳: 支援の撤退はプロジェクトに悪影響を与えた。
+訳: 支援の打ち切りは、プロジェクトに悪影響を与えた。
+
+3. 【名詞】（依存症などの本人に対し、家族・友人が行う）説得の場、介入。
+
+【日本語訳・定義】依存症や深刻な問題行動を抱える人に対し、家族・友人などが集まって問題に向き合わせ、治療を受けるよう説得する計画的な話し合い。主に米国で使われる。
+
+【頻度】〈頻度: 3/10〉
+
+【レジスター/領域】主に米国の口語・一般向け記事、依存症支援の分野。
+
+【文法パターン】stage/hold an intervention (for + 人)。
+
+【コロケーション】
+
+・stage an intervention
+用途: 家族や友人が集まり、本人に治療を促す場を設ける。
+例: His family staged an intervention to get him into rehab.
+訳: 家族は彼を依存症の治療施設に入れるため、皆で説得の場を設けた。
+
+・hold an intervention for + 人
+用途: 特定の人のために説得の場を開く。
+例: Her friends held an intervention for her after the accident.
+訳: 事故の後、友人たちは彼女を囲んで、問題に向き合うよう説得した。
+
+【語法・注意】可算名詞で、an intervention の形で使う。専門のカウンセラーが同席することもある。日本語の「介入」だけでは伝わりにくいので、「本人を囲んで説得する話し合い」と補って理解するとよい。
+
+【類義語】
+
+・confrontation
+定義: 対決、（問題に）向き合わせること。
+頻度: 〈6/10〉
+違い: confrontation は対立的な直面を広く指し、intervention は本人を助ける目的で計画された説得の場に限られる。
+例: She wanted to avoid a confrontation with her father.
+訳: 彼女は父親と対立することを避けたかった。
+
+【反意語】
+
+・enabling
+定義: （依存などの）問題行動を結果的に助長すること。
+頻度: 〈3/10〉
+違い: intervention が本人に変化を促すのに対し、enabling は問題行動を許したり支えたりして続けさせてしまうことを表す。
+例: Covering for his absences was a form of enabling.
+訳: 彼の欠勤をかばうことは、結果的に問題行動を助長することだった。
