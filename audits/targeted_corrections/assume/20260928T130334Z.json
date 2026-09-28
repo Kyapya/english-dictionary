@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/a/assume.md",
+  "created_at": "2026-09-28T13:03:34Z",
+  "base_body_sha256": "8e3dd1654a7234750782520ce407a5e8bef1b03b283c5894caff7213633af3e2",
+  "head_body_sha256": "df3f5f0a81a914aa06157d17bbc1272c32e5b9c107fd80c3789472f03b0f17af",
+  "diff_sha256": "16c051f96def81a7e7884ff558683b511ed4fdd3bcbf64751b8099d1663a34df",
+  "user_request": "assume 項目の全面点検依頼（2026-09-28）：日本語・英語ネイティブの観点で不自然な箇所、解説書として問題がある箇所を修正。全角＃見出しは対象外。頻度は語義単位のレベル。修正版を独立サブエージェントに渡して再点検・修正する往復を4ラリー実施して確定。",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "claude-code-subagent-rally (4 independent general-purpose subagents, separate contexts from author)",
+    "verdict": "pass",
+    "notes": "R0 著者修正：英音 /j/ の位置の誤り、assuming の発音説明、語源年代の断定緩和と the Assumption 追加、assumable を住宅ローン用法に訂正、unassuming 追加、語義1の見出し訳を『思い込む』中心に再構成し I assume so・予算/モデル主語・let's assume を追加、take it for granted that の形、例文の不自然さ（Under pressure の液体、deposit、caller online、actor、merger の重複、副大統領の主語）を修正、assume no responsibility・assume power 追加、develop 類義語と assume a pose を削除、メタ的な保証否定文を削除。R1：unassuming を形容詞 assuming（思い上がった）の否定形に訂正、/ʃ/ 変種を削除し英音 /suː/ を併記、訳・表記統一。R2：it is (widely) assumed that 追加、assume (a) new/special significance に差替え、語義4/5の頻度を6/5に入替、assume a role の語義5説明を拡張、take over の説明修正、米国の住宅ローン注記。/ʃ/ 再追加と assume dead は不採用。R3：assume the worst の訳を『決めつけないで』に（想定＝備えの誤読回避）、assume control の『正式に』を削除して語義2内の矛盾解消ほか。R4：確定可、fell ill の訳のみ調整。validate_entry 通過。"
+  },
+  "pi_processing": {
+    "status": "pending",
+    "reason": "no coordinator learning_delta was supplied"
+  }
+}
