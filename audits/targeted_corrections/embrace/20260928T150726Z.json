@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/e/embrace.md",
+  "created_at": "2026-09-28T15:07:26Z",
+  "base_body_sha256": "09b88afbf35294714f324600e69f7b62f1bde8454785e7783345474806302ce7",
+  "head_body_sha256": "761b258fb1bacf1ed3043b89920a2da8722d5aa0a40caf34c336fb5909bdeab6",
+  "diff_sha256": "96f8f4d8383072fc4cafbb117dcb69bb98860e5e248f7d48abb6d738e02ec823",
+  "user_request": "embrace 項目の全面点検依頼（2026-09-28）：日本語・英語ネイティブの観点で不自然な箇所、解説書として問題がある箇所を修正。全角＃見出しは対象外。頻度は語義単位のレベル。修正版を独立サブエージェントに渡して再点検・修正する往復を5ラリー実施して確定。",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "claude-code-subagent-rally (5 independent general-purpose subagents, separate contexts from author)",
+    "verdict": "pass",
+    "notes": "R0 著者修正：機会を生かす訳、host の訳、自動詞 They embraced の説明、give someone an embrace の評価、名詞 hold の例文差替、人事の訳、母親の抱擁の訳、漁師町、段々庭園例文、冬の訳。R1：海外プロジェクト訳、to 不定詞の説明、readily 例文、祖父母訳、受容の訳。R2：embrace doing の説明整理、帰宅した息子の語順、locked の訳。R3：後者の指示、性的含意の記述、around の説明、poverty 例文を ice に。R4：darkness 例文、氷の訳、scheduling system 訳。R5：語源の借用方向、確定可。validate_entry 通過。"
+  },
+  "pi_processing": {
+    "status": "pending",
+    "reason": "no coordinator learning_delta was supplied"
+  }
+}
