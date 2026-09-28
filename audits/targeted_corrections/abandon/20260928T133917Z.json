@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/a/abandon.md",
+  "created_at": "2026-09-28T13:39:17Z",
+  "base_body_sha256": "1fecf09bd81a5f8b6b65efa19155ef4963dd9a291129888c2492fcf94f6101ba",
+  "head_body_sha256": "8123317c9306bed383013b7cca078317af77c6b71770cb8aa684ba322863b743",
+  "diff_sha256": "03a00cef1c0855fa96a774f8a4c1d1a59f58b27bec96a40e640c7e454a275f45",
+  "user_request": "abandon 項目の全面点検依頼（2026-09-28）：日本語・英語ネイティブの観点で不自然な箇所、解説書として問題がある箇所を修正。全角＃見出しは対象外。頻度は語義単位のレベル。修正版を独立サブエージェントに渡して再点検・修正する往復を4ラリー実施して確定。",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "claude-code-subagent-rally (4 independent general-purpose subagents, separate contexts from author)",
+    "verdict": "pass",
+    "notes": "R0 著者修正：身体的→物理的、to his fate の訳（見殺し）、強盗例文を getaway car に、村の訳、捜索主体を Rescuers に、信念の訳、assert 例文差替、語義8例文の時制と語法（再帰代名詞欠落は非文）、語義9頻度6→5、湯水のように、uninhibited・wanton・virtuous の訳/例文。R1：indulge in・disused の訳、語義12 例文。R2：neglect・evacuate・withdraw from の違い欄、without a ball being bowled、expose・waive・surrender・give oneself over to・surrender to 例文、トラスト団体、exuberance 訳、forsaken 例文、語義12例文の重複解消。R3：flat→apartment の米式統一、語義8語法の主述ねじれ、laugh with abandon 訳、abandoned revelry 例文、wanton 違い欄と例文、dissolute 例文。R4：surrender 訳を『差し出した』に、確定可。頻度値の小幅見直し案（restrained 等）は明確な誤りでないため不採用。validate_entry 通過。"
+  },
+  "pi_processing": {
+    "status": "pending",
+    "reason": "no coordinator learning_delta was supplied"
+  }
+}
