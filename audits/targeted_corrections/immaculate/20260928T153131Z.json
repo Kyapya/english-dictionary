@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/i/immaculate.md",
+  "created_at": "2026-09-28T15:31:31Z",
+  "base_body_sha256": "b2ceef66861c8db5bd3227f4baea0c7818c07f2d470e8cc41785ac80c134b18c",
+  "head_body_sha256": "8150ab5320121435a51ec83a4c990720a21f4932dedd1965400b8aa0709603bf",
+  "diff_sha256": "b437fb5135c0be53287427eb2653c276fb2a7a1ca18887fe05957d1be4e0f21f",
+  "user_request": "immaculate 項目の全面点検依頼（2026-09-28）：日本語・英語ネイティブの観点で不自然な箇所、解説書として問題がある箇所を修正。全角＃見出しは対象外。頻度は語義単位のレベル。修正版を独立サブエージェントに1語ずつ渡して再点検・修正する往復を実施し、修正0件となった時点で確定。",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "claude-code-subagent-rally (3 independent general-purpose subagents, separate contexts from author)",
+    "verdict": "pass",
+    "notes": "R0 著者修正：immaculacy の記述、pristine・安全記録・無斑花弁の訳、不明瞭な immaculate conception の一文とメタ記述の削除、一般語の言い換え。R1：overnight flight 訳、語義2文法パターン、語義3定義（最古義）、信心名→崇敬の対象。R2：語義2の派生説明、unspotted の違い欄。R3：修正なし、確定可。validate_entry 通過。"
+  },
+  "pi_processing": {
+    "status": "pending",
+    "reason": "no coordinator learning_delta was supplied"
+  }
+}
