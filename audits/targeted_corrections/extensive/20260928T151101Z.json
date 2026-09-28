@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/e/extensive.md",
+  "created_at": "2026-09-28T15:11:01Z",
+  "base_body_sha256": "827f9691050526dddafe3e255ea2713a4728138a2662bb17fdc4b2f1449cc76b",
+  "head_body_sha256": "e3777121d9c8a664a451ae67bdba39bc5e798dc6b82318fc5effd98f7b0df428",
+  "diff_sha256": "4bad756da034ea49a6db14f8b7810896a79882b46b660da01b4ca7761f438c57",
+  "user_request": "extensive 項目の全面点検依頼（2026-09-28）：日本語・英語ネイティブの観点で不自然な箇所、解説書として問題がある箇所を修正。全角＃見出しは対象外。頻度は語義単位のレベル。修正版を独立サブエージェントに渡して再点検・修正する往復を5ラリー実施して確定。",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "claude-code-subagent-rally (5 independent general-purpose subagents, separate contexts from author)",
+    "verdict": "pass",
+    "notes": "R0 著者修正：語源の和文化、道路網・郊外・テスト・far-reaching・restricted の訳、an extensive amount of damage の削除、語義6に紛れた総括段落の整理と intensive research の語義3への移動。R1：密度の説明の誤り、示強性 intensive の頻度7→3、extensivity の意味、訳の自然化。R2：wide 例文を空間義に、extensive production の例示除去、語義3分類の明確化、訳3件。R3：発音 ex- の分節説明、travels 訳、considerable 違い欄。R4：broad 訳、high-input 違い欄、intensional 主語。R5：修正なし、確定可。validate_entry 通過。"
+  },
+  "pi_processing": {
+    "status": "pending",
+    "reason": "no coordinator learning_delta was supplied"
+  }
+}
