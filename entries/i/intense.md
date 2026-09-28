@@ -59,8 +59,8 @@ tags: []
 
 ・intense interest in 〈対象〉  
 用途: 〈対象〉に向けられる関心が非常に強いことを表す。  
-例: The discovery attracted intense interest from researchers.  
-訳: その発見は研究者から強い関心を集めた。  
+例: Researchers showed intense interest in the discovery.  
+訳: 研究者たちはその発見に強い関心を示した。  
 
 ・under intense pressure to do 〈O〉  
 用途: 〈O〉するよう非常に強い心理的・社会的圧力を受けていることを表す。  
@@ -84,7 +84,7 @@ tags: []
 ・strong  
 定義: 力、程度、感情、作用などが大きいことを広く表す基本語。  
 頻度: 〈10/10〉  
-違い: strong は対象の範囲が非常に広く、intense は感覚・感情・作用などが一時的または集中的に強く感じられることを前面に出しやすい。  
+違い: strong は対象の範囲が非常に広く、intense は感覚・感情・作用などが強く感じられる度合いの高さを前面に出しやすい。  
 例: strong feelings  
 訳: 強い感情。  
 
@@ -150,7 +150,7 @@ tags: []
 ・a period of intense activity  
 用途: 活動量や動きが非常に大きい期間を表す。  
 例: The airport experienced a period of intense activity before the holiday.  
-訳: その空港では休暇前に活動が非常に活発な時期があった。  
+訳: 休暇を前に、その空港は非常に慌ただしい時期を迎えた。  
 
 ・intense effort to do 〈O〉  
 用途: 〈O〉するために大きな力を注ぐ努力を表す。  
@@ -162,7 +162,7 @@ tags: []
 例: After months of intense study, she passed the examination.  
 訳: 何か月もの厳しい勉強の末、彼女は試験に合格した。  
 
-【語法・注意】`intense` と `intensive` はどちらも短期間に多くの活動が行われる場合に使える。`intense debate` は議論の熱さ・緊迫感・対立の強さを、`intensive training` は計画的に多くの訓練を投入する性質を表しやすい。したがって、`intensive course`、`intensive investigation`、`intensive farming` のように、方法や投入を客観的・組織的に述べる場合は `intensive` が自然である。`intense` を「短時間である」という意味だけで覚えると、活動の激しさという中心を取り違える。  
+【語法・注意】`intense` と `intensive` はどちらも短期間に多くの活動が行われる場合に使える。`intense training` は訓練のきつさや緊迫感を、`intensive training` は短期間に多くの訓練を計画的に詰め込む性質を表しやすい。したがって、`intensive course`、`intensive investigation`、`intensive farming` のように、方法や投入を客観的・組織的に述べる場合は `intensive` が自然である。`intense` を「短時間である」という意味だけで覚えると、活動の激しさという中心を取り違える。会話では、試合・映画・体験などについて `That was intense!`「すごかった／きつかった」のように、緊迫感や負荷の大きさを叙述用法で述べることも多い。  
 
 【類義語】
 
@@ -202,14 +202,14 @@ tags: []
 
 【レジスター/領域】一般語。人の性格・態度、視線・表情、対人関係を評価・描写する文脈で使われる。文脈によって賞賛にも戸惑いにもなりうる。人を評する場合、文脈によっては「熱が入りすぎている」「少し圧が強い」という否定的な含みを持つこともある。  
 
-【文法パターン】an intense person/man/player＝感情・態度・取り組み方が強烈な人／be intense about 〈物事〉＝〈物事〉に非常に強い態度や感情を示す／an intense look/gaze/expression＝強い感情、集中、鋭さなどが表れた視線・表情／give 〈人〉 an intense look＝〈人〉に強い印象を与える視線を向ける／an intense relationship between 〈人〉＝〈人〉の間の感情的な関わりが強い関係／〈人〉 be intense＝人が強い感情・態度・存在感を持つ、またはそうした印象を与える  
+【文法パターン】an intense person/man/player＝感情・態度・取り組み方が強烈な人／be intense about 〈物事〉＝〈物事〉に非常に強い態度や感情を示す／an intense look/gaze/expression＝強い感情、集中、鋭さなどが表れた視線・表情／give 〈人〉 an intense look＝〈人〉に強い感情や集中のこもった視線を向ける／an intense relationship between 〈人〉＝〈人〉の間の感情的な関わりが強い関係／〈人〉 be intense＝人が強い感情・態度・存在感を持つ、またはそうした印象を与える  
 
 【コロケーション】
 
 ・an intense person  
 用途: 感情、態度、集中、存在感などが強く、周囲に強い印象を与える人を表す。  
 例: He is an intense person who takes every project seriously.  
-訳: 彼はどのプロジェクトにも真剣に取り組む、強い印象を与える人だ。  
+訳: 彼はどのプロジェクトにも真剣に取り組む、熱の入り方が並外れた人だ。  
 
 ・be intense about 〈物事〉  
 用途: 〈物事〉に対して非常に強い関心・意見・態度を示すことを表す。  
@@ -224,7 +224,7 @@ tags: []
 ・give 〈人〉 an intense look  
 用途: 〈人〉に感情や集中の強さが伝わる視線を向けることを表す。  
 例: She gave me an intense look when I mentioned the mistake.  
-訳: 私がそのミスに言及すると、彼女は強い視線を私に向けた。  
+訳: 私がそのミスに触れると、彼女は私を鋭い目でじっと見た。  
 
 ・an intense expression  
 用途: 強い感情や真剣さが表情にはっきり表れていることを表す。  
@@ -233,8 +233,8 @@ tags: []
 
 ・an intense relationship between 〈人〉  
 用途: 〈人〉の間の感情的な関わりが非常に強い関係を表す。  
-例: The two actors developed an intense working relationship during the production.  
-訳: その2人の俳優は制作期間中に感情的な結びつきの強い仕事上の関係を築いた。  
+例: The production created an intense working relationship between the two actors.  
+訳: その制作を通じて、2人の俳優の間に濃密な仕事上の関係が生まれた。  
 
 【語法・注意】`an intense person` は「怒りっぽい人」に限定されず、強く集中する、真剣である、感情を強く示す、または存在感が強い人を指す。`intense look/gaze` は視線そのものの強さ・直接性・集中を表し、見る動作を「じっと、熱心に」と述べる `look intently` とは品詞も焦点も異なる。`intense relationship` は必ずしも親密で肯定的な関係を意味せず、強い結びつきや緊張を文脈に応じて表す。  
 

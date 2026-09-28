@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/i/intense.md",
+  "created_at": "2026-09-28T15:45:02Z",
+  "base_body_sha256": "ddea777ef8dcfa6e47e8366e801f8bfa662a124bd22611ee04a080cf39627773",
+  "head_body_sha256": "55ef32cd20585b86f96aa183bf79eb28cef3e5143b1973710b4c38c7dde42a18",
+  "diff_sha256": "d498ca94a36ab404fda28ce1a2ddcd9687a4bb05b7d904bb3a6d1a2527f99315",
+  "user_request": "intense 項目の全面点検依頼（2026-09-28）：日本語・英語ネイティブの観点で不自然な箇所、解説書として問題がある箇所を修正。全角＃見出しは対象外。頻度は語義単位のレベル。修正版を独立サブエージェントに1語ずつ渡して再点検・修正する往復を実施し、修正0件となった時点で確定。",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "claude-code-subagent-rally (3 independent general-purpose subagents, separate contexts from author)",
+    "verdict": "pass",
+    "notes": "R0 著者修正：空港・intense person・give an intense look・relationship の訳、口語 That was intense! の用法を追記。R1：strong 違い欄の根拠のない『一時的』を削除、intense/intensive の比較を training で統一。R2：interest in・relationship between の例文を見出し構文に合わせる、give an intense look の説明。R3：修正なし、確定可。validate_entry 通過。"
+  },
+  "pi_processing": {
+    "status": "pending",
+    "reason": "no coordinator learning_delta was supplied"
+  }
+}
