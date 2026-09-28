@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/e/evident.md",
+  "created_at": "2026-09-28T15:02:25Z",
+  "base_body_sha256": "cc5791e545a91a2bca28f2eae37e7b74db710c781ac9d91a50db74dee28072b0",
+  "head_body_sha256": "b56e2e405d035f53cf853830c0da9b5d390d749e5bb2956038874179ed08bfff",
+  "diff_sha256": "3183fc6745945049ceed4066ec11b767f3f5b4e071552492c5487ad7f0024b10",
+  "user_request": "evident 項目の全面点検依頼（2026-09-28）：日本語・英語ネイティブの観点で不自然な箇所、解説書として問題がある箇所を修正。全角＃見出しは対象外。頻度は語義単位のレベル。修正版を独立サブエージェントに渡して再点検・修正する往復を5ラリー実施して確定。",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "claude-code-subagent-rally (5 independent general-purpose subagents, separate contexts from author)",
+    "verdict": "pass",
+    "notes": "R0 著者修正：be evident to 例文訳、evident signs を all too evident に差替、with evident relief 訳。R1：it is evident from の見出し、all too 訳、preliminary data の説明、Evidently の推測義の注意、clear の違い欄。R2：evidently の修飾範囲。R3：語源の古仏語/ラテン語形、レジスター記述、manifest 訳、obscure 違い欄。R4：apparent の限定/叙述用法の区別、語法欄の日本語。R5：obvious 例文訳の重複解消、確定可。validate_entry 通過。"
+  },
+  "pi_processing": {
+    "status": "pending",
+    "reason": "no coordinator learning_delta was supplied"
+  }
+}
