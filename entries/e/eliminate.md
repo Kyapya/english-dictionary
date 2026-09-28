@@ -17,7 +17,7 @@ tags: []
 ＃語源
 
 16世紀に、ラテン語 eliminare「戸外へ追い出す、排除する」の過去分詞 eliminatus から英語に入った。eliminare は ex「外へ」と limen「敷居」を含み、もともとは「敷居の外へ出す」という発想を表した。現在の「不要なものを外へ出す」「候補から外す」「式から未知量を消す」という意味には、この「外へ押し出す」という核が共通している。  
-語源上の関連語としては、limen から来た preliminary「予備の」、subliminal「閾値下の」、liminal「境界・移行状態の」などがある。limit はラテン語 limes「境界」に由来し、eliminate の直接の語源語 limen「敷居」とは別語源である。綴りと音が近い illuminate「照らす、明らかにする」とは別語である。  
+語源上の関連語としては、limen から来た preliminary「予備の」、subliminal「閾値下の」、liminal「境界・移行状態の」などがある。limit はラテン語 limes「境界」に由来する。limes を limen と関連づける説もあるが、limit は eliminate の直接の語源語 limen「敷居」から来た語ではない。綴りと音が近い illuminate「照らす、明らかにする」とは別語である。  
 
 ＃語形成
 
@@ -27,11 +27,11 @@ eliminative / eliminatory は「除去の、排除する」の意味の形容詞
 
 ＃コアイメージ
 
-eliminate の核は、対象を「外へ押し出し、存在・候補・参加資格・体内の不要物・式中の未知量からなくす」ことである。物理的に取り除く場合だけでなく、考慮の対象から外す、競技を続けられなくする、数式上見えなくする場合にも使う。  
+eliminate の核は、対象を「外へ押し出し、それまであった場（存在・候補・競技・体内・式）からなくす」ことである。物理的に取り除く場合だけでなく、考慮の対象から外す、競技を続けられなくする、数式上見えなくする場合にも使う。  
 ・不要なものを、存在・使用の場から外へ押し出すこと → 「取り除く・なくす」（語義1）  
 ・候補から外へ押し出すこと → 「考慮から除外する」（語義2）  
 ・競技から外へ押し出すこと → 「競技から敗退させる」（語義3）  
-・生存の場から外へ消すこと → 「殺す・抹殺する」（語義4）  
+・生存の場から外へ押し出すこと → 「殺す・抹殺する」（語義4）  
 ・体内から外へ押し出すこと → 「体外へ排出する」（語義5）  
 ・式から未知量を外すこと → 「未知量を消去する」（語義6）  
 
@@ -45,7 +45,7 @@ eliminate の核は、対象を「外へ押し出し、存在・候補・参加�
 
 【レジスター/領域】一般語。会話でも使うが、問題・費用・リスク・制度・業務を扱う説明文やビジネス文書で特に多い。  
 
-【文法パターン】`eliminate 〈問題・障害・無駄〉`＝〈問題・障害・無駄〉をなくす／`eliminate the need for 〈行為・物〉`＝〈行為・物〉の必要性をなくす／`eliminate 〈原因・リスク〉`＝〈原因・リスク〉を取り除く／受動態 `〈問題・費用〉 be eliminated`＝〈問題・費用〉がなくされる。`eliminate A from B` は、Bの中からAを取り除く意味になり、考慮対象から外す場合は語義2に近づく。  
+【文法パターン】`eliminate 〈問題・障害・無駄〉`＝〈問題・障害・無駄〉をなくす／`eliminate the need for 〈行為・物〉`＝〈行為・物〉の必要性をなくす／`eliminate 〈原因・リスク〉`＝〈原因・リスク〉を取り除く／受動態 `〈問題・費用〉 be eliminated`＝〈問題・費用〉がなくなる・廃止される。`eliminate A from B` は、Bの中からAを取り除く意味になり、考慮対象から外す場合は語義2に近づく。  
 
 【コロケーション】
 
@@ -55,9 +55,9 @@ eliminate の核は、対象を「外へ押し出し、存在・候補・参加�
 訳: 新しい検査システムによって、よくある誤りの多くがなくなった。  
 
 ・eliminate the need for 〈行為・物〉  
-用途: 何かを使う、行う必要をなくす。need そのものを物理的に取り除くのではなく、必要な状況をなくす。  
-例: Online access eliminates the need for a paper form.  
-訳: オンラインで利用できるため、紙の書式が不要になる。  
+用途: 何かを使う・行う必要をなくし、「…を不要にする」の意味で使う。  
+例: Applying online eliminates the need for a paper form.  
+訳: オンラインで申請すれば、紙の申請書は不要になる。  
 
 ・eliminate waste  
 用途: 製造・業務・資源利用などで無駄をなくす。  
@@ -74,7 +74,7 @@ eliminate の核は、対象を「外へ押し出し、存在・候補・参加�
 例: The company eliminated several positions during the reorganization.  
 訳: その会社は組織再編の際にいくつかのポストを廃止した。  
 
-・eliminate 〈原因・供給源〉  
+・eliminate 〈原因・発生源〉  
 用途: 問題を生じさせる原因や発生源を取り除く。  
 例: Cleaning the filter may eliminate the source of the odor.  
 訳: フィルターを掃除すれば、においの発生源を取り除けるかもしれない。  
@@ -93,7 +93,7 @@ eliminate の核は、対象を「外へ押し出し、存在・候補・参加�
 ・get rid of  
 定義: 望ましくない物・問題・人を取り除く。  
 頻度: 〈9/10〉  
-違い: 会話的で、eliminate よりくだけている。処理が完了したという含みは文脈次第である。  
+違い: 会話的で、eliminate よりくだけている。不要な物を手放す・処分する日常的な場面に特に自然である。  
 例: We need to get rid of these unnecessary files.  
 訳: これらの不要なファイルを削除する必要がある。  
 
@@ -129,7 +129,7 @@ eliminate の核は、対象を「外へ押し出し、存在・候補・参加�
 
 2. 【他動詞】考慮から除外する
 
-【日本語訳・定義】人・原因・可能性・選択肢などを、検討・調査・選考の対象から外す。証拠や条件から「候補ではない」と判断する場合に使い、物理的に消したり、必ずしも拒絶したりする意味ではない。  
+【日本語訳・定義】人・原因・可能性・選択肢などを、検討・調査・選考の対象から外す。証拠や条件から「候補ではない」と判断する場合に使う。物理的に消す意味はなく、必ずしも拒絶を含むわけでもない。  
 
 【頻度】〈8/10〉  
 
@@ -155,16 +155,16 @@ eliminate の核は、対象を「外へ押し出し、存在・候補・参加�
 訳: その可能性をまだ検討対象から外すことはできない。  
 
 ・eliminate every other possible explanation  
-用途: 他にあり得る説明を一つずつ除外する。  
+用途: 他にあり得る説明をすべて除外し、残る一つに絞り込む。  
 例: We need more evidence before we can eliminate every other possible explanation.  
-訳: 他のあらゆる可能な説明を除外できるのは、もっと証拠が集まってからだ。  
+訳: ほかに考えられる説明をすべて除外するには、さらに証拠が必要だ。  
 
 ・be eliminated from the shortlist  
 用途: 最終候補者・候補案などから外される。  
 例: Two proposals were eliminated from the shortlist.  
 訳: 2件の提案が最終候補から外された。  
 
-【語法・注意】この語義では `eliminate` は「検討して不適切・不可能と判断する」という含みを持つことがある。`exclude` は範囲・参加・含有から外すことに焦点があり、`rule out` は可能性や説明を否定して検討対象から外すことに特に自然である。`eliminate someone as a suspect` は「その人を容疑者から外す」という明確な構文だが、`eliminate a suspect` だけでは、容疑者を捜査対象から外すのか、殺すのかが曖昧になり得る。競技から敗退させる意味は、`eliminate a player/team` などの競技語義で扱う。  
+【語法・注意】この語義では `eliminate` は「検討して不適切・不可能と判断する」という含みを持つことがある。`exclude` は範囲・参加・構成要素から外すことに焦点があり、`rule out` は可能性や説明を否定して検討対象から外すことに特に自然である。`eliminate someone as a suspect` は「その人を容疑者から外す」という明確な構文だが、`eliminate a suspect` だけでは、容疑者を捜査対象から外すのか、殺すのかが曖昧になり得る。競技から敗退させる意味は、`eliminate a player/team` などの競技語義で扱う。  
 
 【類義語】
 
@@ -178,7 +178,7 @@ eliminate の核は、対象を「外へ押し出し、存在・候補・参加�
 ・exclude  
 定義: 集合・範囲・参加者・考慮対象などに含めない。  
 頻度: 〈9/10〉  
-違い: eliminate のように検討の結果外す場合もあるが、最初から含めない、または物理的・制度的に締め出す意味が広い。  
+違い: eliminate のように検討の結果外す場合にも使うが、最初から含めないことや、物理的・制度的に締め出すことにも広く使う。  
 例: The price excludes delivery.  
 訳: その価格には配送料が含まれていない。  
 
@@ -239,10 +239,10 @@ eliminate の核は、対象を「外へ押し出し、存在・候補・参加�
 
 ・eliminate a title contender  
 用途: 優勝候補を敗退させる。  
-例: The young boxer eliminated a title contender in the quarterfinals.  
-訳: その若いボクサーは準々決勝で優勝候補を敗退させた。  
+例: The young tennis player eliminated a title contender in the quarterfinals.  
+訳: その若いテニス選手は準々決勝で優勝候補を敗退させた。  
 
-【語法・注意】競技の文脈で `be eliminated` は通常「敗退する」であり、`be killed` ではない。`eliminate someone` だけでは、競技から外す意味と、語義4の「殺す・抹殺する」意味が文脈によって分かれる。大会・ラウンド・試合を示す `from`、`in`、`by` などがあれば競技義と判断しやすい。`knock out` はスポーツで「敗退させる」の口語的な句動詞で、文字どおりのノックアウトを伴わない競技でも使う。  
+【語法・注意】競技の文脈で `be eliminated` は通常「敗退する」であり、`be killed` ではない。`eliminate someone` だけでは、競技から外す意味と、語義4の「殺す・抹殺する」意味が文脈によって分かれる。`from the tournament`、`in the first round` のように大会・ラウンドを示す句があれば競技義と判断しやすい。なお `by 〈人・組織〉` は語義4でも使うため、それだけでは判断材料にならない。`knock out` はスポーツで「敗退させる」の口語的な句動詞で、文字どおりのノックアウトを伴わない競技でも使う。  
 
 【類義語】
 
@@ -263,11 +263,11 @@ eliminate の核は、対象を「外へ押し出し、存在・候補・参加�
 ・oust  
 定義: 競争・選考などで相手を地位や参加枠から追い出す。  
 頻度: 〈6/10〉  
-違い: eliminate より硬く、現職者を地位から追放する意味にも広がる。  
+違い: 本来は現職者などを地位から追い出す意味の語で、競技で「敗退させる」意味では主に報道・見出しで使われる。  
 例: The challenger ousted the champion in the semifinals.  
 訳: 挑戦者は準決勝で王者を敗退させた。  
 
-4. 【他動詞・口語/比喩・軍事】殺す・抹殺する
+4. 【他動詞・婉曲】殺す・抹殺する
 
 【日本語訳・定義】人・敵・標的などを、計画的に殺す、または存在ごと消す。軍事・犯罪・スパイ小説・ゲームなどで、直接 `kill` と言わず冷淡または婉曲に表す用法である。一般の中立的な会話で、人を殺す意味の普通の言い換えとして使う語ではない。  
 
@@ -302,18 +302,18 @@ eliminate の核は、対象を「外へ押し出し、存在・候補・参加�
 定義: 人・動物などの命を奪う。  
 頻度: 〈10/10〉  
 違い: kill は生命を奪った事実を直接表す中立的な基本語で、eliminate は冷淡・婉曲・軍事的な響きを帯びやすい。  
-例: The hunter killed the animal quickly.  
-訳: そのハンターは動物をすぐに殺した。  
+例: The hunter killed the deer with a single shot.  
+訳: そのハンターは1発でシカを仕留めた。  
 
 ・assassinate  
-定義: 政治家など重要人物を計画的に暗殺する。  
+定義: 政治家など重要人物を、政治的な目的などで計画的に殺害する。  
 頻度: 〈6/10〉  
 違い: eliminate より対象と方法が限定され、政治的・計画的な暗殺を明示する。  
 例: The leader was assassinated during the visit.  
 訳: その指導者は訪問中に暗殺された。  
 
 ・execute  
-定義: 裁判・命令などに基づき、または抵抗できない相手を処刑する。  
+定義: 刑罰として、または命令などに基づいて人を殺す（処刑する）。  
 頻度: 〈7/10〉  
 違い: eliminate は殺害の方法や法的根拠を示さないが、execute は処刑・決められた殺害の含みを持つ。  
 例: The prisoner was executed after the trial.  
@@ -343,7 +343,7 @@ eliminate の核は、対象を「外へ押し出し、存在・候補・参加�
 
 【レジスター/領域】医学・生理学、健康・薬理の説明。一般向けの記事でも toxins、waste、drugs などと共に使われる。  
 
-【文法パターン】`the body/eliminates 〈waste/toxins〉`＝体が〈老廃物・毒素〉を排出する／`eliminate 〈物質〉 from the body`＝〈物質〉を体から排出する／`〈物質・薬〉 be eliminated from the body`＝〈物質・薬〉が体から排出される／`〈人・動物〉 eliminate normally`＝〈人・動物〉が正常に排泄する（医療記録調）。自動詞用法は形式的・専門的で、一般会話では排便・排尿などを具体的に言う方が自然である。  
+【文法パターン】`the body eliminates 〈waste/toxins〉`＝体が〈老廃物・毒素〉を排出する／`eliminate 〈物質〉 from the body`＝〈物質〉を体から排出する／`〈物質・薬〉 be eliminated from the body`＝〈物質・薬〉が体から排出される／`〈人・動物〉 eliminate normally`＝〈人・動物〉が正常に排泄する（医療記録調）。自動詞用法は形式的・専門的で、一般会話では排便・排尿などを具体的に言う方が自然である。  
 
 【コロケーション】
 
@@ -362,10 +362,10 @@ eliminate の核は、対象を「外へ押し出し、存在・候補・参加�
 例: The drug is slowly eliminated from the body.  
 訳: その薬は体からゆっくり排出される。  
 
-・eliminate excess fluid and waste  
-用途: 体が余分な水分や老廃物を体外へ排出することを説明する。結石については通常 `pass a stone` の方が自然である。  
-例: The kidneys help eliminate excess fluid and waste from the body.  
-訳: 腎臓は体から余分な水分や老廃物を排出するのを助ける。  
+・eliminate excess fluid  
+用途: 体が余分な水分を体外へ排出することを説明する。  
+例: Diuretics help the body eliminate excess fluid.  
+訳: 利尿薬は、体が余分な水分を排出するのを助ける。  
 
 ・eliminate normally  
 用途: 医療記録などで、排泄が正常に行われることを自動詞で表す。  
@@ -387,8 +387,8 @@ eliminate の核は、対象を「外へ押し出し、存在・候補・参加�
 定義: 中にある物を力や作用で外へ押し出す。  
 頻度: 〈7/10〉  
 違い: expel は外へ出す動作に焦点があり、eliminate は体内からなくなった結果や生理過程に焦点を置きやすい。  
-例: The body expels the foreign object naturally.  
-訳: 体はその異物を自然に排出する。  
+例: A swallowed coin is usually expelled from the body naturally.  
+訳: 飲み込んだ硬貨は、通常は自然に体外へ排出される。  
 
 ・void  
 定義: 体から尿や排泄物を排出する。  
@@ -421,8 +421,8 @@ eliminate の核は、対象を「外へ押し出し、存在・候補・参加�
 
 ・eliminate one unknown by subtraction  
 用途: 方程式を引き算して1つの未知量を消去する。  
-例: Subtract the second equation to eliminate one unknown.  
-訳: 1つの未知量を消去するために、2つ目の方程式を引きなさい。  
+例: Subtract the second equation from the first to eliminate one unknown.  
+訳: 1つ目の方程式から2つ目の方程式を引いて、未知量を1つ消去しなさい。  
 
 ・eliminate a variable to solve a system  
 用途: 消去法を使って連立方程式を解く。elimination は手法名で、eliminate はその中で変数を消す操作を表す。  
@@ -443,6 +443,6 @@ eliminate の核は、対象を「外へ押し出し、存在・候補・参加�
 ・cancel out  
 定義: 反対の量や同じ因子が相殺され、結果から消える。  
 頻度: 〈7/10〉  
-違い: cancel out は相殺関係に焦点があり、eliminate は方程式を操作して未知量を消去する手順全体に使える。  
+違い: cancel out は項や因子どうしが打ち消し合って消えるという結果・関係に焦点があり、eliminate は方程式を意図的に操作して未知量を消去する行為を表す。  
 例: The positive and negative terms cancel out.  
 訳: 正の項と負の項が相殺される。  
