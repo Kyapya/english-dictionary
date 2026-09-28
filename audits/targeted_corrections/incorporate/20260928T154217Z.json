@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/i/incorporate.md",
+  "created_at": "2026-09-28T15:42:17Z",
+  "base_body_sha256": "265df64f1b92785848da20cfe48e15f36bc2b9538778afe31621a2cf170bd428",
+  "head_body_sha256": "cad2f3c7a20c1ce3b08d9594784b50a5d4a11de7d66774d4b1abf58029b3f58f",
+  "diff_sha256": "5bd78377cfee34467800fbe772c74b75b5e9b8ecddb90a89c41fa242b1a1813c",
+  "user_request": "incorporate 項目の全面点検依頼（2026-09-28）：日本語・英語ネイティブの観点で不自然な箇所、解説書として問題がある箇所を修正。全角＃見出しは対象外。頻度は語義単位のレベル。修正版を独立サブエージェントに1語ずつ渡して再点検・修正する往復を実施し、修正0件となった時点で確定。",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "claude-code-subagent-rally (5 independent general-purpose subagents, separate contexts from author)",
+    "verdict": "pass",
+    "notes": "R0 著者修正：英音の説明、assimilate の定義と矛盾する例文を差替、charter・constitute の語義頻度5/6→3、charter 訳、form と重複した set up 例文、disincorporate 例文。R1：語源の借用経路、コロケーション1例文（全体主語+into の矛盾）、within 例文。R2：by reference into 例文、combine 訳、become incorporated 例文。R3：診療記録の訳、dissolve 違い欄。R4：形容詞 incorporate の注の矛盾解消。R5：修正なし、確定可。validate_entry 通過。"
+  },
+  "pi_processing": {
+    "status": "pending",
+    "reason": "no coordinator learning_delta was supplied"
+  }
+}
