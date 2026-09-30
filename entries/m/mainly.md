@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v1
 model: unknown
 created_at: 2026-06-14
-updated_at: 2026-06-14
+updated_at: 2026-09-30
 checked: true
 tags: []
 ---
@@ -29,9 +29,8 @@ mainly は main + -ly から作られ、「主要な部分として、主とし�
 
 ＃語形成
 
-・main（形容詞/名詞）— 主要な、主要部分。  
-・mainly because（副詞句）— 主な理由を導く。  
-・mainly due to（副詞句）— 原因を硬めに示す。  
+・main + -ly — 形容詞 main「主要な」に副詞を作る接尾辞 -ly を付けた形。  
+・main（形容詞）— 主要な、中心となる。  
 ・mainstream（名詞/形容詞）— 主流、主流の。  
 ・mainstay（名詞）— 支えとなるもの、人。
 
@@ -39,13 +38,13 @@ mainly は main + -ly から作られ、「主要な部分として、主とし�
 
 1. 【副詞】主に、大部分は、たいていは。
 
-【日本語訳・定義】全体の中で最も大きな部分・理由・対象を示す。完全にそれだけではなく、例外や他の要素も少し含む余地がある。
+【日本語訳・定義】全体の大部分を占めるもの、または主な理由・対象・用途を示す。行動や習慣については「たいていは」の意味でも使う。他の要素を排除する語ではなく、その残りが必ずごく少量であるという意味でもない。
 
 【頻度】〈頻度: 9/10〉
 
 【レジスター/領域】一般語。会話、説明、ビジネス、学術で広く使える。
 
-【文法パターン】mainly + 動詞／mainly + 形容詞／mainly because + 節／mainly due to + 名詞。
+【文法パターン】一般動詞の前（They mainly sell books.）、be動詞の後（The visitors are mainly students.）、助動詞と本動詞の間（The room is mainly used for training.）などに置く。特定の要素に焦点を当てるときはその直前にも置く（We sell books mainly online.）。mainly because + 節／mainly due to + 名詞句。
 
 【コロケーション】
 
@@ -69,7 +68,7 @@ mainly は main + -ly から作られ、「主要な部分として、主とし�
 例: The diet mainly consists of rice and vegetables.
 訳: その食事は主に米と野菜で構成されている。
 
-【語法・注意】mainly は「100%それだけ」ではない。完全排除なら only、ほぼ全部なら mostly、主な焦点なら primarily が近い。
+【語法・注意】mainly は主な部分や理由を示し、only のように他の可能性を排除しない。mostly とも大きく意味が重なり、両語に一定の割合の境界はない。「ほぼすべて」を明確に言うなら almost all などを使う。primarily は「主として」という意味で使え、文脈によっては「第一に」という重要性も示す。mainly を置く位置によって、何が「主」であるかが変わる。
 
 【類義語】
 
@@ -83,14 +82,14 @@ mainly は main + -ly から作られ、「主要な部分として、主とし�
 ・primarily
 定義: 第一に、主として。
 頻度: 〈7/10〉
-違い: primarily は mainly より硬く、優先順位や目的を強く示す。
+違い: primarily はやや硬い語で、主な目的や重要性を述べる場面でも使う。ただし、mainly と同じく、単に大部分を示すこともある。
 例: The tool is primarily designed for teachers.
 訳: そのツールは主に教師向けに設計されている。
 
 ・largely
 定義: 大部分は、主として。
 頻度: 〈7/10〉
-違い: largely は割合や程度をやや客観的に述べる硬めの語。
+違い: largely は割合や程度を示し、形容詞と組み合わせて「おおむね〜だ」と述べるときにも使う。
 例: The project was largely successful.
 訳: そのプロジェクトはおおむね成功した。
 
@@ -99,13 +98,7 @@ mainly は main + -ly から作られ、「主要な部分として、主とし�
 ・partly
 定義: 部分的に、一部は。
 頻度: 〈8/10〉
-違い: mainly が主な部分を示すのに対し、partly は一部に限ることを示す。
+違い: 同じ原因や構成について、mainly は主な部分、partly は一部を示す。ただし、partly だけではその部分が小さいとは限らず、厳密な反意語ではない。
 例: The delay was partly my fault.
 訳: 遅れは部分的には私の責任だった。
 
-・only slightly
-定義: わずかにだけ。
-頻度: 〈5/10〉
-違い: mainly が中心的・大部分であることを表すのに対し、only slightly は程度が小さいことを表す。
-例: The price changed only slightly.
-訳: 価格はわずかにしか変わらなかった。

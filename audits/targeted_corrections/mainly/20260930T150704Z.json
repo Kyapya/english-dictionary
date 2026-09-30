@@ -1,0 +1,119 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/m/mainly.md",
+  "created_at": "2026-09-30T15:07:04Z",
+  "base_body_sha256": "d801c96f6bc93b6a1f508fad807330b2bb9fc806db7360881a340552ae584836",
+  "head_body_sha256": "bdfc90509f1d647625ee1378007ff8eabcb49983ac515ea5fe19dc6a34e5543d",
+  "diff_sha256": "fbbd0c8e84847395f8543487162314a485becb2654bbc0323caf7620b25d6ab0",
+  "user_request": "entries/m 全語を1語ずつ英日ネイティブ・解説書観点で全面点検し、最新版を別サブエージェントへ順次引き継いで再分析・修正。3〜5ラリーまたは問題なしで早期確定。全角＃維持、頻度は語義単位。確定後GitHub反映とマージまで自律実行。",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "/root/mainly_r2",
+    "verdict": "pass",
+    "notes": "全文点検後の変更は局所訂正のみ。全ラリーの原応答は additional_full_entry_reviews に保存。最終担当者が現行diff全体と周辺整合性も確認。旧監査は履歴として保持し新本文の全面PASSへ書き換えない。"
+  },
+  "pi_processing": {
+    "status": "no_applicable",
+    "event_id": "targeted:mainly:fbbd0c8e8484"
+  },
+  "additional_full_entry_reviews": [
+    {
+      "reviewer": "/root/mainly_r1",
+      "verdict": "pass_after_corrections",
+      "issues": [
+        {
+          "area": "definition",
+          "severity": "minor",
+          "problem": "見出し訳たいていはに対応する行動・習慣の説明が定義に欠ける。"
+        },
+        {
+          "area": "synonyms",
+          "severity": "minor",
+          "problem": "primarily の優先順位・目的の強調を必須差として教えている。両語は単に大部分でも同義。largely の客観性は語義固有ではない。"
+        },
+        {
+          "area": "format",
+          "severity": "blocking",
+          "problem": "反意語欄の導入行は既存validatorの6行ブロックに不適合（親からの指摘）。"
+        }
+      ],
+      "changes": [
+        "定義に行動・習慣のたいていはを明記。",
+        "primarily の優先順位必須という誤解を避け、割合にも使えると補足。",
+        "largely の客観性・硬さの断定を避け、形容詞にかかる程度の用法へ置換。",
+        "反意語導入の独立行を削除。partly の違い欄で厳密な反意語ではないと説明済み。"
+      ],
+      "sources": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/mainly",
+          "claims": [
+            "英米IPA /ˈmeɪn.li/",
+            "usuallyまたは大きな程度",
+            "mainly used for 等の構文位置"
+          ]
+        },
+        {
+          "url": "https://www.merriam-webster.com/dictionary/mainly",
+          "claims": [
+            "現代の主要語義はfor the most part / chiefly",
+            "mostly, primarily, largelyは類義語。obsoleteのforceful mannerは現代学習用エントリでは不要。"
+          ]
+        },
+        {
+          "url": "https://www.collinsdictionary.com/dictionary/english/mainly",
+          "claims": [
+            "主な理由・対象および集団の大部分を示す2側面を確認。",
+            "主語be mainly形容詞、consisted mainly of、mainly because等の構文を確認。"
+          ]
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/primarily?topic=general",
+          "claims": [
+            "primarilyはmainlyと定義され、目的・理由を示すが優先順位限定ではない。"
+          ]
+        },
+        {
+          "url": "https://www.etymonline.com/word/mainly",
+          "claims": [
+            "main + -ly、mainの古英語mægenに関係する記述が妥当。"
+          ]
+        }
+      ],
+      "input_sha256": "4b79d830ccb160473c5a92011685dccdbfec245807428be4d44649edeebbbfff",
+      "output_sha256": "75bdea137631c4cab956ca0854a0abc366736594ddd619ffc9b79b87c0eb7818",
+      "changed_hunks_verdict": {
+        "verdict": "pass",
+        "scope": "git diff HEAD -- entries/m/mainly.md全hunkと全文整合性",
+        "notes": [
+          "日付・語形成修正は妥当。",
+          "mainlyとmostlyの量的境界や残りが必ず少量との誤りを解消済み。",
+          "助動詞としてのbeとusedの間にmainlyを置く例は妥当。",
+          "only slightlyの非対応反意語削除は妥当。",
+          "partly欄の6行ブロック復元済み。"
+        ]
+      },
+      "early_finalization_possible": false,
+      "next_review": "別サブエージェントが修正後の全文を独立確認。",
+      "legacy_audits_modified": false
+    },
+    {
+      "reviewer": "/root/mainly_r2",
+      "verdict": "pass",
+      "issues": [],
+      "changes": [],
+      "sources": [],
+      "input_sha256": "75bdea137631c4cab956ca0854a0abc366736594ddd619ffc9b79b87c0eb7818",
+      "output_sha256": "75bdea137631c4cab956ca0854a0abc366736594ddd619ffc9b79b87c0eb7818",
+      "changed_hunks_verdict": "pass",
+      "review_scope": "Full text independently reviewed: pronunciation, etymology and morphology, sense coverage, natural English examples, Japanese translations, grammar patterns, register, synonyms and contextual opposition. Every HEAD diff hunk and its surrounding text reviewed.",
+      "notes": [
+        "mainly/mostly/primarily distinctions are appropriately qualified rather than treated as fixed percentage boundaries.",
+        "partly is explicitly identified as contextual contrast rather than a strict antonym.",
+        "Full-width headings preserved; frequency understood as sense-level editorial estimates.",
+        "No further substantive issues or necessary edits found; eligible for early finalization."
+      ]
+    }
+  ],
+  "full_entry_review_scope": "All sections and examples in this word; sequential handoff, no concurrent word processing.",
+  "workflow_scope_decision": "User explicitly requested full-entry re-evaluation and sequential reviewers. Resulting entry edits are localized corrections; the scoped receipt verifies the complete diff, while additional review records document the broader checks. No legacy audit verdicts were changed."
+}
