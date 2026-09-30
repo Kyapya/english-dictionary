@@ -1,0 +1,94 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/m/magnificent.md",
+  "created_at": "2026-09-30T14:58:41Z",
+  "base_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d",
+  "head_body_sha256": "7fa2e4d7804176a5a8fb3418efa18e439b0ca620c3500c8a9965ee50aea2eb2d",
+  "diff_sha256": "08e55cac1ed12922ce16ea90a8bb84aa829a4ee2f7ac65ada70157aed2e3b4e5",
+  "user_request": "entries/m 全語を1語ずつ英日ネイティブ・解説書観点で全面点検し、最新版を別サブエージェントへ順次引き継いで再分析・修正。3〜5ラリーまたは問題なしで早期確定。全角＃維持、頻度は語義単位。確定後GitHub反映とマージまで自律実行。",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "/root/magnificent_r2",
+    "verdict": "pass",
+    "notes": "全文点検後の変更は局所訂正のみ。全ラリーの原応答は additional_full_entry_reviews に保存。最終担当者が現行diff全体と周辺整合性も確認。旧監査は履歴として保持し新本文の全面PASSへ書き換えない。"
+  },
+  "pi_processing": {
+    "status": "no_applicable",
+    "event_id": "targeted:magnificent:08e55cac1ed1"
+  },
+  "additional_full_entry_reviews": [
+    {
+      "verdict": "revised",
+      "reviewer": "/root/magnificent_r1",
+      "issues": [
+        {
+          "area": "語義2・superbとの差",
+          "severity": "minor",
+          "finding": "superbに洗練、magnificentに規模を割り振る比較はこの質評価の語義では強すぎる。両語は強く重なり、superbも壮麗な外観に使われる。"
+        }
+      ],
+      "changes": [
+        "superbとmagnificentの重なりを明示し、洗練・規模で機械的に使い分けない説明に修正。"
+      ],
+      "sources": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/magnificent",
+          "claims": [
+            "英米の発音、非常に良い・美しい・称賛に値する意味、view/performance等の用法。"
+          ]
+        },
+        {
+          "url": "https://www.oxfordlearnersdictionaries.com/definition/english/magnificent",
+          "claims": [
+            "壮麗さ・称賛の意味、look magnificent in/do a magnificent job、語末/snt/表記、古フランス語経由の語源。"
+          ]
+        },
+        {
+          "url": "https://www.merriam-webster.com/dictionary/magnificent",
+          "claims": [
+            "壮麗さ、美しさ・感銘、exceptionally fineの意味、人格の評価。"
+          ]
+        },
+        {
+          "url": "https://www.collinsdictionary.com/dictionary/english/superb",
+          "claims": [
+            "質の非常に高い評価、majestic/imposing/luxuriousの意味もあり、洗練への限定は不適切。"
+          ]
+        }
+      ],
+      "reviewed_sha256": "bc51370398fd37f8eaac5fefd77742fede65cd4a57d988dfa526a006fb625dc7",
+      "coverage": "本文全体・親修正差分を点検。全角＃と語義別頻度は維持。英語例文・和訳・発音・語源・語形成・全語義・語法・関連語を確認。既存監査ファイルには変更なし。",
+      "remaining_issues": [],
+      "input_sha256": "043d99db80293a2524106210d8eb4c2dfe14221742ecd2cd8bb8a320613c89ba",
+      "output_sha256": "bc51370398fd37f8eaac5fefd77742fede65cd4a57d988dfa526a006fb625dc7"
+    },
+    {
+      "reviewer": "/root/magnificent_r2",
+      "verdict": "pass_no_changes",
+      "issues": [],
+      "changes": [],
+      "sources": [
+        {
+          "url": "https://www.oxfordlearnersdictionaries.com/definition/english/magnificent",
+          "verified": "外観の印象と成果への称賛、look magnificent in、do a magnificent job、語源経路、語末/snt/表記"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/us/dictionary/english/magnificent",
+          "verified": "検索結果で語義を確認。本文取得は403で、独立した詳細照合の根拠には採用しない"
+        }
+      ],
+      "input_sha256": "bc51370398fd37f8eaac5fefd77742fede65cd4a57d988dfa526a006fb625dc7",
+      "output_sha256": "bc51370398fd37f8eaac5fefd77742fede65cd4a57d988dfa526a006fb625dc7",
+      "changed_hunks_verdict": {
+        "updated_at": "pass:今回改訂日",
+        "grand_example_translation": "pass:grand staircaseの堂々とした立派さを自然に表す",
+        "superb_definition_difference_translation": "pass:最高水準の断定と洗練/規模による過度の対立が修正されており、周辺excellent/outstanding/wonderful説明とも整合する"
+      },
+      "scope": "最新版全文、英日例文対応、語義1/2、構文、コロケーション、類反義、語形成、発音、語源、HEADから全変更hunkの独立再確認。全角＃と語義別頻度目安は維持。",
+      "early_finalize": true,
+      "note": "問題および追加修正0件。ユーザー条件に従いここで早期確定可能。"
+    }
+  ],
+  "full_entry_review_scope": "All sections and examples in this word; sequential handoff, no concurrent word processing.",
+  "workflow_scope_decision": "User explicitly requested full-entry re-evaluation and sequential reviewers. Resulting entry edits are localized corrections; the scoped receipt verifies the complete diff, while additional review records document the broader checks. No legacy audit verdicts were changed."
+}
