@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra-wm
 created_at: 2026-09-08
-updated_at: 2026-09-08
+updated_at: 2026-09-30
 checked: true
 tags: []
 ---
@@ -85,7 +85,7 @@ tags: []
 頻度: 〈8/10〉  
 違い: `grand` は規模や格式を中心に表し、ときに誇張された大げささも含む。`magnificent` は話者の強い称賛をより直接に示す。  
 例: A grand staircase led to the reception rooms.  
-訳: 壮大な階段が応接室へと続いていた。  
+訳: 堂々とした立派な階段が応接室へと続いていた。  
 
 ・glorious  
 定義: 美しさ、輝かしさ、喜ばしさによって非常にすばらしい。  
@@ -152,11 +152,11 @@ tags: []
 訳: 彼女は非常に優れた最終報告書を提出した。  
 
 ・superb  
-定義: 質や出来が最高水準である。  
+定義: 質や出来が非常に優れている。  
 頻度: 〈7/10〉  
-違い: `superb` は洗練された出来や卓越した質に焦点を置く。`magnificent` は質に加えて規模や感銘の大きさを含みやすい。  
+違い: 質や出来への強い称賛では両語は大きく重なる。`superb` は「非常に優れた」という評価に使いやすく、`magnificent` は「見事だ」と感嘆する響きを持ちやすい。ただし、洗練や規模の違いだけで使い分ける語ではない。  
 例: The chef prepared a superb meal using local ingredients.  
-訳: その料理人は地元の食材で最高の料理を用意した。  
+訳: その料理人は地元の食材で実にすばらしい料理を用意した。  
 
 ・outstanding  
 定義: 同種のものの中で際立って優れている。  
