@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v4
 model: unknown
 created_at: 2026-08-02
-updated_at: 2026-08-02
+updated_at: 2026-10-01
 checked: true
 tags: []
 ---
@@ -44,13 +44,13 @@ tags: []
 
 1. 【名詞・可算／不可算】散らかり、汚れ、乱雑なもの・状態
 
-【日本語訳・定義】物や場所が整頓されていない、汚れている、または複数の物質がこぼれて後始末を要する状態を表す。可算名詞の *a mess* は一つの乱雑な状態・散らかった場所・汚れの塊を指し、不可算の *mess* は乱雑さや汚れ一般を指す。清潔さと整頓のどちらか一方だけでなく、両方が問題になっている場合にも使える。
+【日本語訳・定義】物や場所が整頓されていない、汚れている、または物がこぼれて後始末を要する状態を表す。可算名詞の *a mess* は一つの乱雑な状態・散らかった場所・汚れの塊を指し、不可算の *mess* は乱雑さや汚れ一般を指す。清潔さと整頓のどちらか一方だけでなく、両方が問題になっている場合にも使える。
 
 【頻度】〈9/10〉
 
 【レジスター/領域】日常的でくだけすぎない一般語。家庭、職場、事故現場、料理など幅広い場面で使う。不可算用法はイギリス英語で特に自然である。
 
-【文法パターン】*a/the mess*＝具体的な散らかり・汚れ／*mess*＝乱雑さ一般／*be in a mess*＝散らかった状態にある／*leave/make + O + a mess*＝目的語を散らかった状態にする／*leave/make a mess*＝汚れや散らかりを残す
+【文法パターン】*a/the mess*＝具体的な散らかり・汚れ／*mess*＝乱雑さ一般／*be in a mess*＝散らかった状態にある／*leave + O + a mess*＝目的語を散らかった状態のままにする／*make a mess of + 場所・物*＝場所・物を散らかす・汚す／*leave/make a mess*＝汚れや散らかりを残す
 
 【コロケーション】
 
@@ -131,7 +131,7 @@ tags: []
 
 2. 【名詞・通例単数可算】問題だらけの状況、混乱、失敗作
 
-【日本語訳・定義】計画、制度、財政、人間関係、生活などに複数の問題が絡み合い、簡単には解決できない状態を表す。また、仕事や課題をひどく失敗した結果も指す。話者が「正常な状態から大きく崩れている」と否定的に評価する語である。
+【日本語訳・定義】計画、制度、財政、人間関係、生活などに問題や混乱が生じ、対処に困る状態を表す。また、仕事や課題をひどく失敗した結果も指す。話者が「正常な状態から大きく崩れている」と否定的に評価する語である。
 
 【頻度】〈9/10〉
 
@@ -180,7 +180,7 @@ tags: []
 ・shambles  
 定義: ひどく無秩序で機能していない状況。  
 頻度: 〈5/10〉  
-違い: 常に複数形の形で単数扱いされることが多く、*mess* より失敗・混乱の程度が強い。  
+違い: 語末に -s があるが、*a shambles* のように単数の状況として扱うことも多く、*mess* より失敗・混乱の程度が強い。  
 例: The whole event was a shambles.  
 訳: その催し全体が大混乱だった。  
 
@@ -192,7 +192,7 @@ tags: []
 訳: 突然の閉鎖によってネットワーク全体が大混乱に陥った。  
 
 ・fiasco  
-定義: 人前で明らかになった、恥ずかしいほど大きな失敗。  
+定義: 計画や出来事が完全に失敗すること。恥ずかしい結果を伴うことが多い。  
 頻度: 〈5/10〉  
 違い: *mess* が継続中の問題状況も指すのに対し、*fiasco* は出来事・計画の失敗という結果を強調する。  
 例: The product launch turned into a fiasco.  
@@ -244,7 +244,7 @@ tags: []
 ・disaster  
 定義: 行動・外見・生活がひどく失敗していると評価される人。  
 頻度: 〈7/10〉  
-違い: 人については強い否定的評価になりやすく、*mess* より責任や失敗を責める響きが強い。  
+違い: 人については強い否定的評価になりやすく、特にある仕事・活動をうまくできないことを強調する。*mess* は外見や感情の乱れにも広く使える。  
 例: He is a disaster in the kitchen.  
 訳: 彼は料理をするとまるで駄目だ。  
 
@@ -315,7 +315,7 @@ tags: []
 
 【レジスター/領域】軍事用語。イギリスおよび英連邦の軍事文化では *officers' mess* などが定着している。アメリカ英語では建物を *mess hall* と呼ぶのが特に一般的である。
 
-【文法パターン】*the + 所有・階級 + mess*＝特定階級の食堂・集団／*a mess hall*＝軍・キャンプなどの共同食堂／*eat/dine in the mess*＝その食堂で食事をする／*mess together/with + 人*＝軍人などが同じ食事集団で食事を取る
+【文法パターン】*the officers’/sergeants’ mess*＝将校・軍曹などの食堂・集団／*a mess hall*＝軍・キャンプなどの共同食堂／*eat/dine in the mess*＝その食堂で食事をする／*mess together/with + 人*＝軍人などが同じ食事集団で食事を取る
 
 【コロケーション】
 
@@ -441,7 +441,7 @@ tags: []
 
 【レジスター/領域】くだけた日常語。単独他動詞の地域差に注意する。自動詞の排せつ用法は家庭内の婉曲表現である。
 
-【文法パターン】*mess + O*＝主に米「目的語を乱す」／*mess on + 場所*＝動物がそこで排せつする／*mess oneself*＝人が衣服の中で排便・排尿して自分を汚す／否定命令 *Don't mess + O*＝物を乱すな
+【文法パターン】*mess + O*＝主に米「目的語を乱す」／*mess on + 場所*＝動物がそこで排せつする／*mess oneself*＝人が衣服の中で排便して自分を汚す／否定命令 *Don't mess + O*＝物を乱すな
 
 【コロケーション】
 
@@ -456,11 +456,11 @@ tags: []
 訳: 私たちの留守中に、猫がカーペットで粗相をしていた。  
 
 ・mess oneself  
-用途: 人がトイレに間に合わず、衣服の中で排便・排尿してしまうことを婉曲に表す。  
+用途: 人がトイレに間に合わず、衣服の中で排便してしまうことを婉曲に表す。  
 例: He was afraid he might mess himself before reaching the bathroom.  
 訳: 彼はトイレに着く前に粗相をしてしまうのではないかと心配していた。  
 
-【語法・注意】他動詞 *mess + O* は使用範囲が限られ、一般には *mess up + O* または *mess + O + up* の方が明確で自然である。特にイギリス英語では *Don't mess up my hair.* が普通。*mess on* と *mess oneself* は文脈依存の婉曲表現なので、正確さが必要なら *defecate*、*urinate*、*soil oneself* などを使う。最小対立は、*mess oneself*＝「衣服の中で粗相する」、*mess oneself up*＝「自分の心身・人生を損なう」。*up* の有無で意味が全く異なる。*mess* は規則活用し、過去形・過去分詞は *messed* である。
+【語法・注意】他動詞 *mess + O* は使用範囲が限られ、一般には *mess up + O* または *mess + O + up* の方が明確で自然である。特にイギリス英語では *Don't mess up my hair.* が普通。*mess on* と *mess oneself* は文脈依存の婉曲表現なので、正確さが必要なら *defecate* や *soil oneself* などを使う。排尿して衣服をぬらす場合は通常 *wet oneself* と言い、*mess oneself* と区別する。最小対立は、*mess oneself*＝「衣服の中で粗相する」、*mess oneself up*＝「自分の心身・人生を損なう」。*up* の有無で意味が全く異なる。*mess* は規則活用し、過去形・過去分詞は *messed* である。
 
 【類義語】
 
@@ -619,7 +619,7 @@ tags: []
 【コロケーション】
 
 ・be badly messed up  
-用途: 物や計画がかなり乱れ、容易には正常に戻せない状態を表す。  
+用途: 物や計画の状態がひどく乱れていることを表す。  
 例: The filing system is badly messed up.  
 訳: 書類整理の仕組みがひどく乱れている。  
 
@@ -640,7 +640,7 @@ tags: []
 ・dysfunctional  
 定義: 組織、制度、関係などが本来の機能を果たしていない。  
 頻度: 〈6/10〉  
-違い: *messed up* より硬く、見た目の乱れではなく継続的な機能不全を明確に表す。  
+違い: *messed up* より硬く、見た目の乱れではなく、本来の機能を果たしていないことを明確に表す。  
 例: The department had become deeply dysfunctional.  
 訳: その部門は深刻な機能不全に陥っていた。  
 
@@ -710,15 +710,15 @@ tags: []
 例: Many survivors remained traumatized for years.  
 訳: 多くの生存者は何年も心の傷を抱えたままだった。  
 
-12. 【形容詞・叙述中心・くだけた表現】messed up：倫理的にひどい、不公平で受け入れがたい
+12. 【形容詞・叙述中心・くだけた表現】messed up：ひどい、不公平・不快で受け入れがたい
 
-【日本語訳・定義】出来事、発言、規則、人の扱いなどを、単に混乱しているのではなく「道徳的に間違っている」「不公平でひどい」「常識的に受け入れがたい」と強く非難・評価する。*That's messed up.* は、驚き、怒り、嫌悪、同情を込めた反応として非常によく使われる。
+【日本語訳・定義】出来事、発言、規則、人の扱いなどを、単に混乱しているのではなく「道徳的に間違っている」「不公平でひどい」「常識的に受け入れがたい」と強く非難・評価する。必ずしも道徳や公平性だけを問題にしているわけではなく、不快さに対する反応にもなる。*That's messed up.* は、驚き、怒り、嫌悪、同情を込めた反応として非常によく使われる。
 
 【頻度】〈8/10〉
 
 【レジスター/領域】くだけた会話、とくにアメリカ英語で一般的。強い否定評価を含むため、正式な議論では何が不公正・有害なのかを具体的に述べる方がよい。
 
-【文法パターン】*That/It + be + messed up*＝目前の事実・既出内容を強く非難する／*It is messed up that + 節*＝節で示す事実を不当と評価する／*a messed-up + 規則・考え方*＝不当・異常な名詞。通常比較級にはせず、*really/seriously/so messed up* で程度を示す。
+【文法パターン】*That/It + be + messed up*＝目前の事実・既出内容を強く非難する／*It is messed up that + 節*＝節で示す事実を不当と評価する／*a messed-up + 規則・考え方*＝不当・異常な名詞。*really/seriously/so messed up* で程度を示せる。比較するときは *more messed up*、*the most messed up* とする。
 
 【コロケーション】
 
@@ -737,7 +737,7 @@ tags: []
 例: That is a seriously messed-up rule.  
 訳: それは本当にひどく不当な規則だ。  
 
-【語法・注意】この用法を「混乱している」とだけ訳すと、話者の倫理的非難を落としてしまう。*That's messed up.* は多くの場合「それはひどい」「そんなの間違っている」「理不尽だ」に近い。叙述用法なのでハイフンは不要だが、名詞の前では *a messed-up rule* とする。
+【語法・注意】この用法を「混乱している」とだけ訳すと、話者の強い否定評価を落としてしまう。*That's messed up.* は文脈に応じて「それはひどい」「そんなの間違っている」「理不尽だ」「不快だ」などに近い。叙述用法なのでハイフンは不要だが、名詞の前では *a messed-up rule* とする。
 
 【類義語】
 
@@ -758,7 +758,7 @@ tags: []
 ・outrageous  
 定義: 常識や許容範囲を大きく外れ、強い怒りや驚きを招く。  
 頻度: 〈7/10〉  
-違い: *messed up* より強く劇的で、行為だけでなく価格や主張の途方もなさにも使う。  
+違い: 強い怒りや驚きを表す評価語で、*messed up* と違って改まった文脈でも使える。行為だけでなく価格や主張の途方もなさにも使う。  
 例: Their treatment of the residents was outrageous.  
 訳: 住民に対する彼らの扱いは言語道断だった。  
 
@@ -834,7 +834,7 @@ tags: []
 ・be messed up by something  
 用途: 人が経験・薬物・暴力などによって心身の調子を崩したことを受動態で表す。  
 例: She was badly messed up by the accident.  
-訳: 彼女はその事故で心身ともにひどい影響を受けた。  
+訳: 彼女はその事故でひどく参ってしまった。  
 
 ・mess up a knee  
 用途: 事故や運動によって膝などの身体部位を痛めることをくだけて表す。  
@@ -908,7 +908,7 @@ tags: []
 例: Children should never mess with dangerous chemicals.  
 訳: 子どもは危険な化学物質に決して手を出してはいけない。  
 
-【語法・注意】*mess with* の *with* は省略できない。*Don't mess with me.* は「私をからかわないで」にも「私にけんかを売るな」にもなり、口調と状況で強さが決まる。冗談であることを明示する *I'm just messing with you.* は一般的だが、相手が傷ついている場面では軽く扱う響きになることがある。*mess with the settings* は「いじる」であり、必ず壊すことまでは含意しない。*mess with someone's head* は口語的で、正式には具体的な心理的影響を述べる。
+【語法・注意】*mess with + 目的語* の構文では *with* は省略できない。ただし、主にイギリス英語の固定表現 *be just/only messing* は目的語を置かず、「冗談を言っているだけ・からかっているだけ」を表す（*I'm only messing—of course you can come.*＝「からかっているだけだよ。もちろん来ていいよ」）。*Don't mess with me.* は「私をからかわないで」にも「私にけんかを売るな」にもなり、口調と状況で強さが決まる。冗談であることを明示する *I'm just messing with you.* は一般的だが、相手が傷ついている場面では軽く扱う響きになることがある。*mess with the settings* は「いじる」であり、必ず壊すことまでは含意しない。*mess with someone's head* は口語的で、正式には具体的な心理的影響を述べる。
 
 【類義語】
 
@@ -940,15 +940,15 @@ tags: []
 例: They teased him about his new haircut.  
 訳: 彼らは彼の新しい髪型をからかった。  
 
-16. 【句動詞・自動詞・くだけた表現】mess around/about：ふざける、だらだらする、時間を無駄にする
+16. 【句動詞・自動詞・くだけた表現】mess around/about：ふざける、だらだらする、時間を無駄にする；気ままに遊ぶ
 
-【日本語訳・定義】*mess around* または主にイギリス英語の *mess about* は、目的なくふざける、真剣に取り組まずだらだらと時間を使うことを表す。この項目は目的語を取らない自動詞用法である。*with + 物・人* を伴う構文や、人を中央に置く *mess someone around/about* は後続の別項目で扱う。
+【日本語訳・定義】*mess around* または主にイギリス英語の *mess about* は、目的なくふざける、真剣に取り組まずだらだらと時間を使うことを表す。また、特に目標を決めず、気ままに遊んで楽しく過ごすという中立的な意味でも使う。この項目は目的語を取らない自動詞用法である。*with + 物・人* を伴う構文や、人を中央に置く *mess someone around/about* は後続の別項目で扱う。
 
 【頻度】〈7/10〉
 
 【レジスター/領域】くだけた会話表現。*mess about* はイギリス英語、*mess around* はアメリカ英語で特に一般的だが、どちらも広く理解される。恋愛・性的意味は文脈依存である。
 
-【文法パターン】*mess around/about*＝ふざける・だらだらする／*stop messing around/about*＝ふざけるのをやめる／*mess around/about instead of + -ing*＝すべきことをせず時間を無駄にする／*spend time messing around/about*＝ふざけて時間を過ごす
+【文法パターン】*mess around/about*＝ふざける・だらだらする・気ままに遊ぶ／*stop messing around/about*＝ふざけるのをやめる／*mess around/about instead of + -ing*＝すべきことをせず時間を無駄にする／*spend time messing around/about*＝ふざけたり気ままに遊んだりして時間を過ごす
 
 【コロケーション】
 
@@ -962,12 +962,17 @@ tags: []
 例: They spent the afternoon messing about instead of working.  
 訳: 彼らは仕事をせず、午後をだらだら過ごした。  
 
-・spend time messing around  
-用途: 特に目的のない行動やふざけ合いに時間を使うことを表す。  
-例: We spent an hour messing around before the rehearsal began.  
-訳: 私たちはリハーサルが始まる前に1時間ふざけて過ごした。  
+・not mess around/about  
+用途: 否定形で、ぐずぐずせず迅速・手際よく行動することを肯定的に評価する。  
+例: The repair team doesn't mess around—they had the heating working again within an hour.  
+訳: その修理チームは仕事が早い。1時間もしないうちに暖房を使えるようにしてくれた。  
 
-【語法・注意】ここでは目的語を取らない。物を続けるなら *mess around/about with something*、恋愛・性的な相手を示すなら *mess around with someone* とし、いずれも後続項目の別フレームである。また「人を振り回す」は *mess someone around/about* と直接目的語を中央に置く。*mess about in boats* は「ボートで気ままに遊ぶ」のようなイギリス英語的表現で、*about* と *around* の選択には地域差と個人差がある。
+・spend time messing around  
+用途: 気ままに遊んで時間を過ごすという、必ずしも否定的でない用法を示す。  
+例: The children spent the afternoon messing around in the garden.  
+訳: 子どもたちは午後、庭で気ままに遊んで過ごした。  
+
+【語法・注意】ここでは目的語を取らない。否定形 *not mess around/about* は、文脈によって単に「ふざけない」ではなく「ぐずぐずしない・手際よくやる」という肯定的評価になる。物を続けるなら *mess around/about with something*、恋愛・性的な相手を示すなら *mess around with someone* とし、いずれも後続項目の別フレームである。また「人を振り回す」は *mess someone around/about* と直接目的語を中央に置く。*mess about in boats* は「ボートで気ままに遊ぶ」のようなイギリス英語的表現で、*about* と *around* の選択には地域差と個人差がある。
 
 【類義語】
 
@@ -1000,7 +1005,7 @@ tags: []
 
 【レジスター/領域】くだけた日常語。*mess about with* は主にイギリス英語、*mess around with* は特にアメリカ英語で一般的。創作、機械操作、設定変更などに使う。
 
-【文法パターン】*mess around/about with + something*＝物をいじる・試す／*mess around/about with + -ing*＝ある方法を試してみる／*spend time messing around/about with + something*＝物をあれこれ試して時間を過ごす。*with* は省略できず、目的語を *mess* と *around/about* の間には置かない。
+【文法パターン】*mess around/about with + something*＝物をいじる・試す／*spend time messing around/about with + something*＝物をあれこれ試して時間を過ごす。*with* は省略できず、目的語を *mess* と *around/about* の間には置かない。
 
 【コロケーション】
 
@@ -1014,12 +1019,12 @@ tags: []
 例: Don't mess about with the controls while the machine is running.  
 訳: 機械が動いている間は操作部をいじらないで。  
 
-・mess around with changing the layout  
-用途: *with + -ing* で、ある変更方法を試してみることを表す。  
-例: We messed around with changing the layout but kept the original design.  
-訳: 私たちはレイアウト変更をいろいろ試したが、元のデザインを残した。  
+・mess around with the layout  
+用途: 配置や構成を気軽に変えながら試すことを表す。  
+例: We messed around with the layout but eventually went back to the original design.  
+訳: 私たちはレイアウトをあれこれ変えてみたが、結局は元のデザインに戻した。  
 
-【語法・注意】*mess around with something* は「試しにいじる」が中心で、*mess with something* は「勝手に変更する・干渉する」という否定的な含意がより強くなりやすい。人を直接目的語にして「振り回す」と言うときは *mess someone around/about* であり、× *mess around someone* ではない。恋愛・性的関係の *mess around with someone* は次項の人目的語専用の語義である。
+【語法・注意】*mess around with something* は「試しにいじる」が中心で、*mess with something* は「勝手に変更する・干渉する」という否定的な含意がより強くなりやすい。人を直接目的語にして「振り回す」と言うときは *mess someone around/about* であり、× *mess around someone* ではない。人との性的関係を表す *mess around with someone* は次項で扱う。ただし、人が *with* の後ろに来ても、必ず性的意味になるわけではなく、一緒にふざける・相手をからかう意味にもなり得る。
 
 【類義語】
 
@@ -1044,15 +1049,15 @@ tags: []
 例: Try playing around with the font size.  
 訳: フォントサイズをいろいろ変えて試してみて。  
 
-18. 【句前置詞動詞・自動詞・くだけた表現】mess around with someone：人と浮気する、性的関係を持つ
+18. 【句動詞／句前置詞動詞・自動詞・くだけた表現】mess around (with someone)：性的関係を持つ、浮気する
 
-【日本語訳・定義】恋人・配偶者以外の人と秘密の恋愛関係または性的関係を持つ。関係の具体的な程度は文脈によるが、通常は不誠実さや不貞を含意する。単に友人とふざける意味にも理論上なりうるため、文脈が重要である。
+【日本語訳・定義】人と性的関係を持つことをくだけて表す。特に、恋人・配偶者以外の相手との関係など、不適切だとみなされる関係について使われやすいが、不貞を必ず意味するわけではない。*with someone* を省略して性的な行動を表すこともあり、イギリス英語では *mess about (with someone)* も使う。人を *with* の後ろに置いても、文脈によっては単に一緒にふざける・からかう意味になる。
 
 【頻度】〈6/10〉
 
 【レジスター/領域】くだけた会話表現。恋愛・不貞について間接的に述べる婉曲的な言い方で、明示性は *have sex with* より低い。
 
-【文法パターン】*mess around with + someone*＝その人と恋愛・性的関係を持つ／*be messing around with someone else*＝交際相手以外の人と関係を持っている／*be caught/deny + messing around with someone*＝関係を発見される・否定する。人は *with* の後ろに置く。
+【文法パターン】*mess around (with + someone)*＝性的関係を持つ（*with* の後ろに相手を示せる）／*be messing around with someone else*＝交際相手以外の人と関係を持っている／*be caught/deny + messing around with someone*＝関係を発見される・否定する。人は *with* の後ろに置く。
 
 【コロケーション】
 
@@ -1071,7 +1076,7 @@ tags: []
 例: He denied messing around with anyone at work.  
 訳: 彼は職場の誰とも関係を持っていないと否定した。  
 
-【語法・注意】*mess around with someone* は *with* の後ろの人が「関係を持つ相手」である。これに対し *mess someone around/about* は人を *mess* と小辞の間に置き、「その人を振り回す」という意味になる。*mess around with Alex* と *mess Alex around* は語順も意味も異なる最小対立である。性的意味を避けて「一緒にふざける」と明確に言うなら *joke around with someone* が安全である。
+【語法・注意】この性的用法では、*mess around with someone* の *with* の後ろの人が「関係を持つ相手」である。これに対し *mess someone around/about* は人を *mess* と小辞の間に置き、「その人を振り回す」という意味になる。性的な文脈の *mess around with Alex* と *mess Alex around* では、語順によって相手の役割と意味が変わる。性的意味を避けて「一緒にふざける」と明確に言うなら *joke around with someone* が安全である。
 
 【類義語】
 
@@ -1123,7 +1128,7 @@ tags: []
 例: Customers felt they had been messed around by the company.  
 訳: 顧客たちはその会社に振り回されたと感じていた。  
 
-【語法・注意】*mess someone around/about* は「人」を直接目的語として中央に置く。*mess around with someone* は、人を *with* の後ろに置き、通常「その人と恋愛・性的関係を持つ」という別義になる。したがって *They messed him around.* は「彼らは彼を振り回した」、*They messed around with him.* は文脈により「彼と関係を持った／彼とふざけた」であり、同じ意味ではない。
+【語法・注意】*mess someone around/about* は「人」を直接目的語として中央に置く。*mess around with someone* は、人を *with* の後ろに置き、文脈に応じて「その人と性的関係を持つ」「一緒にふざける」「からかう」などの別義になる。したがって *They messed him around.* は「彼らは彼を振り回した」、*They messed around with him.* は文脈により「彼と関係を持った／彼とふざけた」であり、同じ意味ではない。
 
 【類義語】
 
@@ -1148,15 +1153,15 @@ tags: []
 例: They strung him along with promises of a promotion.  
 訳: 彼らは昇進をほのめかして彼を期待させ続けた。  
 
-20. 【固定表現・主に英・くだけた表現】no messing：ふざけなし、無駄なし、容赦なし
+20. 【固定表現・主に英・くだけた表現】no messing：ふざけなし、無駄なし；難なく、手際よく
 
-【日本語訳・定義】冗談、ためらい、手加減、面倒な手続きなどがなく、真剣・直接的・迅速であることを表す短い固定表現。何を排除しているかは文脈によって変わり、命令としての「ふざけるな」に近い場合も、人物・方法のきっぱりした性質を評する場合もある。
+【日本語訳・定義】冗談、ためらい、手加減、面倒な手続きなどがなく、真剣・直接的・迅速であることを表す短い固定表現。何を排除しているかは文脈によって変わり、命令としての「ふざけるな」に近い場合も、人物・方法のきっぱりした性質を評する場合もある。また、完了した行動に添えて「難なく・手際よく成し遂げた」と強調する用法がある。
 
 【頻度】〈3/10〉
 
 【レジスター/領域】主にイギリス英語のくだけた表現。見出し・会話・スポーツ評などで簡潔に強調するときに使う。
 
-【文法パターン】独立した *No messing.*＝「ふざけるな・無駄はなし」／*名詞句 + and no messing*＝その方針をきっぱり要求する。固定性が高く、自由な文法展開は限られる。
+【文法パターン】独立した *No messing.*＝「ふざけるな・無駄はなし」／*名詞句 + and no messing*＝その方針をきっぱり要求する／*文 + , no messing*＝難なく・手際よくできたと強調する。
 
 【コロケーション】
 
@@ -1170,7 +1175,12 @@ tags: []
 例: No messing—we need to leave in five minutes.  
 訳: ふざけている場合じゃない。5分後には出発しないといけない。  
 
-【語法・注意】この *messing* は動作を表す普通の進行形ではなく、「ふざけ・無駄・面倒」をまとめて指す名詞的な固定用法である。アメリカ英語で同じ意図を明確に伝えるなら、文脈に応じて *no fooling around*、*no nonsense*、*no kidding* などを使う方が自然なことが多い。生産性が低いため、コロケーションは代表的な2件に限定した。
+・no messing（完了した行動に添える）  
+用途: 何かを容易に、滞りなく成し遂げたことを強調する。  
+例: We got everything packed before lunch, no messing.  
+訳: 昼食前にすべての荷造りができた。手間取らずに済んだ。  
+
+【語法・注意】この *messing* は動作を表す普通の進行形ではなく、「ふざけ・無駄・面倒」をまとめて指す名詞的な固定用法である。アメリカ英語で同じ意図を明確に伝えるなら、文脈に応じて *no fooling around*、*no nonsense*、*no kidding* などを使う方が自然なことが多い。完了した行動に添える用法では *without any fuss* や *with no trouble* も近い。
 
 【類義語】
 
@@ -1181,7 +1191,7 @@ tags: []
 例: There will be no fooling around during the safety drill.  
 訳: 安全訓練中にふざけることは許されない。  
 
-・no nonsense  
+・no-nonsense  
 定義: 無駄話、言い訳、複雑な手続きなどを排して実際的・直接的である。  
 頻度: 〈6/10〉  
 違い: *no messing* より「実務的で要点を外さない」という人物・方法への評価に使いやすい。  

@@ -1,0 +1,456 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/m/mess.md",
+  "created_at": "2026-09-30T15:36:12Z",
+  "base_body_sha256": "1203169dbbaafc77da5103eadc6019cfb21248f5ddff5472329fe48e8be1018b",
+  "head_body_sha256": "791bac1200bcee6fdc9ac7fc4f9bf38a6b6f77d07253a5e57eb2d6b43bef4524",
+  "diff_sha256": "8d92d0b7725495bddf22a73e1ed36486ee679966b4d4cf71e90079dab63a92f3",
+  "user_request": "entries/m 全語を1語ずつ英日ネイティブ・解説書観点で全面点検し、最新版を別サブエージェントへ順次引き継いで再分析・修正。3〜5ラリーまたは問題なしで早期確定。全角＃維持、頻度は語義単位。確定後GitHub反映とマージまで自律実行。",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "/root/mess_r4",
+    "verdict": "pass",
+    "notes": "全文点検後の変更は局所訂正のみ。全ラリーの原応答は additional_full_entry_reviews に保存。最終担当者が現行diff全体と周辺整合性も確認。旧監査は履歴として保持し新本文の全面PASSへ書き換えない。"
+  },
+  "pi_processing": {
+    "status": "no_applicable",
+    "event_id": "targeted:mess:8d92d0b77254"
+  },
+  "additional_full_entry_reviews": [
+    {
+      "reviewer": "/root/mess_r1",
+      "canonical_id": "/root/mess_r1",
+      "round": 1,
+      "verdict": "revised_continue_handoff",
+      "input_sha256": "5e1f7266760a28b87011be562279cbc2ae09c0eabdbe698cd9cc0ee58020e265",
+      "output_sha256": "7ec17d0879a08cb32abfc4f7de627977ca00b2d0c7ca9a45ce5b6f641c5a4eec",
+      "coverage": {
+        "full_text_read": true,
+        "input_lines": 1196,
+        "output_lines": 1201,
+        "input_senses": 20,
+        "output_senses": 20,
+        "input_examples_and_translations_read": 139,
+        "output_examples": 140,
+        "areas": [
+          "frontmatter",
+          "pronunciation",
+          "etymology",
+          "word formation",
+          "core image",
+          "all 20 definitions",
+          "frequency per sense",
+          "register",
+          "grammar patterns",
+          "collocations",
+          "139 original English examples and corresponding Japanese translations",
+          "usage cautions",
+          "synonyms and antonyms",
+          "all parent changed hunks and surrounding consistency"
+        ],
+        "read_ranges": [
+          "1–280",
+          "280–630",
+          "575–635",
+          "602–620",
+          "630–905",
+          "906–1196"
+        ],
+        "AGENTS_md_read": true
+      },
+      "issues": [
+        {
+          "id": "M1",
+          "area": "senses 1/2 definitions",
+          "problem": "Unnecessary multiple-substance/multiple-problem restrictions; difficulty of resolution overstated",
+          "resolution": "Broadened definitions without deleting senses"
+        },
+        {
+          "id": "M2",
+          "area": "sense 7 mess oneself",
+          "problem": "Asserted defecation and urination as equally lexicalized",
+          "resolution": "Teach defecation and distinguish wet oneself for urination",
+          "evidence_status": "Oxford explicitly defines bowel-emptying intransitive sense; reflexive distinction also linguistic analysis"
+        },
+        {
+          "id": "M3",
+          "area": "sense 14 example translation",
+          "problem": "Accident example Japanese asserted both physical and mental injury where English leaves type open",
+          "resolution": "Used ひどく参ってしまった, preserving ambiguity"
+        },
+        {
+          "id": "M4",
+          "area": "sense 17 grammar/example",
+          "problem": "with + changing layout presented as representative pattern despite cumbersome instructional example",
+          "resolution": "Natural direct noun layout example; gerund not claimed ungrammatical"
+        },
+        {
+          "id": "M5",
+          "area": "senses 17–19 sexual and human-complement contrasts",
+          "problem": "Infidelity/secret romance treated as required; nonsexual human-complement reading dismissed as theoretical; omitted with-less sexual use and British about variant",
+          "resolution": "Define sexual relationship with especially inappropriate context, allow optional with and British about; remove categorical person=sexual statement"
+        },
+        {
+          "id": "M6",
+          "area": "sense 20 no messing",
+          "problem": "Oxford easy-accomplishment sense absent; heading 容赦なし stronger than necessary",
+          "resolution": "Add easy accomplishment meaning/pattern/original example and translate header accordingly; preserve other pragmatic uses"
+        }
+      ],
+      "changes": [
+        "20 exact local text replacements affecting definitions, patterns, examples and cautions; no whole-sense deletion",
+        "Added one no messing example, raising example count from 139 to 140",
+        "Fullwidth ＃ and all frequency values preserved"
+      ],
+      "sources": [
+        {
+          "url": "https://www.oxfordlearnersdictionaries.com/definition/english/mess_2",
+          "claims": [
+            "IPA and regular forms",
+            "transitive mess especially North American",
+            "animal bowel-emptying sense",
+            "no messing used for easy accomplishment",
+            "negative not mess around efficient action"
+          ],
+          "ref": "turn11view0"
+        },
+        {
+          "url": "https://www.merriam-webster.com/dictionary/mess",
+          "claims": [
+            "noun disorder, situation, person, animal solid waste",
+            "food, quantity, military noun and verb senses",
+            "etymology missus and mittere",
+            "mess up error, damage, rough up"
+          ],
+          "ref": "turn11view1"
+        },
+        {
+          "url": "https://www.oxfordlearnersdictionaries.com/definition/english/mess-around-with",
+          "claims": [
+            "sexual relationship, especially inappropriate, rather than infidelity necessary",
+            "optional with somebody",
+            "British mess about variant",
+            "careless touching and playing/repairing object meanings"
+          ],
+          "ref": "turn13view0"
+        },
+        {
+          "url": "https://www.collinsdictionary.com/dictionary/english/mess",
+          "claims": [
+            "uncountable mess example and liquid/sticky spill",
+            "military mess facility/group/meal",
+            "etymology and independent broader sense corroboration"
+          ],
+          "ref": "turn13view1"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/mess-around-with",
+          "claims": [
+            "married-person infidelity scenario corroborates common but not obligatory infidelity context"
+          ],
+          "ref": "turn12search2",
+          "access": "search excerpt; open unavailable"
+        }
+      ],
+      "changed_hunks_verdict": {
+        "parent_initial_hunks": "all read and approved substantively: leave vs make frame, shambles explanation, officers/sergeants mess syntax, badly degree without repairability, more/most comparison, no-nonsense adjective spelling; date accepted as parent metadata",
+        "r1_hunks": "read back changed sections; no unresolved factual contradiction found",
+        "whitespace": "git diff --check reports existing Markdown two-space line breaks on changed lines; intentional style retained"
+      },
+      "unresolved_for_next_reviewer": [
+        "Independently confirm no messing original completion example and pragmatic boundaries",
+        "Check whether sense 19 central object placement should be phrased obligatory for pronouns only, since separability conventions vary",
+        "Recheck mess oneself lexical nuance; broaden noun pet mess remains context-based, not a claim that dog mess itself denotes urine or vomit"
+      ]
+    },
+    {
+      "reviewer": "/root/mess_r2",
+      "canonical_id": "/root/mess_r2",
+      "round": 2,
+      "verdict": "revised_continue_handoff",
+      "input_sha256": "7ec17d0879a08cb32abfc4f7de627977ca00b2d0c7ca9a45ce5b6f641c5a4eec",
+      "output_sha256": "c97a5b41b71dfe7c8694ca430a10d163e10ddb5d0aed951c193127714b26f114",
+      "coverage": {
+        "full_text_read": true,
+        "lines": 1201,
+        "senses": 20,
+        "examples_and_Japanese_translations_read": 140,
+        "AGENTS_md_read": true,
+        "all_definitions_grammar_patterns_collocations_usage_synonyms_antonyms_read": true,
+        "pronunciation_etymology_formation_core_image_read": true,
+        "frequency_interpretation": "per-sense editorial level, not headword-wide frequency; preserved",
+        "read_ranges": [
+          "1–280",
+          "280–640",
+          "640–920",
+          "900–1000",
+          "920–1201"
+        ],
+        "all_HEAD_changed_hunks_and_surrounding_consistency_checked": true
+      },
+      "issues": [
+        {
+          "id": "R2-1",
+          "area": "sense 16",
+          "problem": "Definition/patterns taught only negatively evaluated messing around, while Oxford also records relaxed pleasurable activity; boats caution already reflected neutral use",
+          "resolution": "Added neutral relaxed-play reading and replaced one repetitive negative example with a neutral garden-play example"
+        },
+        {
+          "id": "R2-2",
+          "area": "sense 2 fiasco synonym",
+          "problem": "Public visibility treated as a necessary component, embarrassment categorical",
+          "resolution": "Complete failure, often embarrassing, matching Cambridge"
+        },
+        {
+          "id": "R2-3",
+          "area": "sense 3 disaster synonym",
+          "problem": "General comparative blame/responsibility assertion not dependable",
+          "resolution": "Explain unsuccessful performance of a task/activity, contrasted with wider appearance/emotional readings of mess"
+        },
+        {
+          "id": "R2-4",
+          "area": "sense 10 dysfunctional synonym",
+          "problem": "Persistence required by wording though dysfunctional does not entail duration",
+          "resolution": "Describe failure to function without duration restriction"
+        },
+        {
+          "id": "R2-5",
+          "area": "sense 12",
+          "problem": "Caution made every evaluative use an ethical condemnation",
+          "resolution": "Conservatively include unpleasantness backed by ALC; no unsupported explicit shocking/disturbing semantic subbranch introduced"
+        },
+        {
+          "id": "R2-6",
+          "area": "sense 12 outrageous synonym",
+          "problem": "Categorical stronger-than-messed-up ranking lacks contextual validity",
+          "resolution": "Replace strength ranking with usable register distinction"
+        }
+      ],
+      "changes": [
+        "12 textual local changes; no senses removed; 140 examples retained",
+        "Fullwidth ＃ and frequency scores preserved",
+        "sense 19 central placement retained after independent three-dictionary verification"
+      ],
+      "sources": [
+        {
+          "url": "https://www.oxfordlearnersdictionaries.com/definition/english/mess-around",
+          "claims": [
+            "Neutral relaxed pleasure use independent of negative fooling-around use",
+            "mess somebody around British unfair/annoying treatment"
+          ]
+        },
+        {
+          "url": "https://www.collinsdictionary.com/dictionary/english/mess-around",
+          "claims": [
+            "COBUILD sense 4 explicitly [VERB noun PARTICLE] supports central noun-object placement",
+            "Purposeless and joking readings",
+            "No unsupported noun-after-particle option added"
+          ]
+        },
+        {
+          "url": "https://dictionary.cambridge.org/us/dictionary/english/mess-about-around",
+          "claims": [
+            "British person-treatment verb with central person complement"
+          ]
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/fiasco",
+          "claims": [
+            "Complete failure usually embarrassing, not necessarily public"
+          ]
+        },
+        {
+          "url": "https://eow.alc.co.jp/search?q=messed+up",
+          "claims": [
+            "Evaluative adjective includes ひどい、嫌だ、不快; ethical/fairness exclusive restriction too narrow"
+          ],
+          "scope": "Lexicographic corroboration of unpleasant evaluation; details of pragmatic application also reviewer linguistic analysis"
+        },
+        {
+          "url": "https://www.oxfordlearnersdictionaries.com/us/definition/english/mess_2",
+          "claims": [
+            "Regular forms and pronunciation",
+            "No messing easy accomplishment; independently checked new packing example fits pattern",
+            "Bowel-emptying animal verb supports previous correction"
+          ]
+        }
+      ],
+      "changed_hunks_verdict": "pass",
+      "changed_hunks_explanation": "All HEAD diff hunks reread, including parent and r1 changes, with surrounding text. r2 hunks checked for consistency with retained examples and notes. Existing Markdown two-space line-break convention preserved.",
+      "unresolved": [],
+      "handoff": "A separate round 3 reviewer should read the entire current mess.md, independently validate updated r2 passages and finalize if no changes needed. This round made substantive revisions, so not an early-stop zero-change verdict."
+    },
+    {
+      "reviewer": "/root/mess_r3",
+      "reviewer_canonical_id": "/root/mess_r3",
+      "verdict": "revised",
+      "issues": [
+        {
+          "id": "mess-r3-01",
+          "severity": "minor",
+          "area": "sense_15_usage",
+          "description": "主に英の be just/only messing は with や目的語を伴わずからかい・冗談を示せるが、その構文が未記載だった。",
+          "resolution": "fixed"
+        },
+        {
+          "id": "mess-r3-02",
+          "severity": "minor",
+          "area": "sense_16_usage",
+          "description": "not mess around/about の「迅速・手際よく行動する」という肯定的な慣用解釈が未記載だった。",
+          "resolution": "fixed"
+        }
+      ],
+      "changes": [
+        "第15項語法注意に be just/only messing と英日対照の短い例を追加。with 必須という断定を mess with + 目的語 の構文に限定。",
+        "第16項に not mess around/about のコロケーション・英日例文と語法注意を追加。"
+      ],
+      "sources": [
+        {
+          "url": "https://dictionary.cambridge.org/us/dictionary/english/be-just-messing",
+          "claims": [
+            "UK informal の be just messing / be only messing / be messing が、不真実または軽い意地悪を言って人をからかう意味を持ち、withなしで使える。"
+          ]
+        },
+        {
+          "url": "https://www.oxfordlearnersdictionaries.com/definition/english/mess_2",
+          "claims": [
+            "not mess around（英 not mess about も）は迅速・効率的・適切に行動するという慣用句。",
+            "no messing は何かを容易に成し遂げたことを表す。",
+            "各活用の発音は本文と整合。"
+          ]
+        },
+        {
+          "url": "https://www.merriam-webster.com/dictionary/mess",
+          "claims": [
+            "食物の一定量・共同食事集団/施設・大量の数量用法を裏付け。",
+            "中英語 mes、Anglo-French、Late Latin missus、mittere の語源を裏付け。"
+          ]
+        },
+        {
+          "url": "https://dictionary.cambridge.org/us/dictionary/english/and-no-messing",
+          "claims": [
+            "no messing の真剣な要求を強調する用法を裏付け。"
+          ]
+        }
+      ],
+      "input_sha256": "c97a5b41b71dfe7c8694ca430a10d163e10ddb5d0aed951c193127714b26f114",
+      "output_sha256": "b2f22a5919d6fb204924d4c7ce0c60e916174d16b8085a3b6c28176883c8cd15",
+      "changed_hunks_verdict": "pass",
+      "changed_hunks_count": 26,
+      "coverage": {
+        "entire_input_read": true,
+        "input_senses_read": 20,
+        "all_140_english_japanese_example_pairs_read": true,
+        "all_HEAD_changed_hunks_and_surrounding_consistency_reviewed": true,
+        "output_senses": 20,
+        "output_labeled_example_pairs": 141,
+        "additional_inline_example_pair": 1,
+        "areas": [
+          "発音・活用",
+          "語源・語形成",
+          "コアイメージ",
+          "全語義定義と頻度/レジスター",
+          "文法・構文・コロケーション",
+          "英語例文と和訳",
+          "類義語・反義語",
+          "追加構文と周辺断定の整合"
+        ]
+      },
+      "validation": {
+        "git_diff_check_with_markdown_two_space_line_endings_allowed": "pass",
+        "note": "既存のMarkdown強制改行の末尾2空白は維持。旧監査とGitHubには触れていない。"
+      },
+      "unresolved": [],
+      "early_finalize": false,
+      "next_step": "修正を行ったため、ユーザーの逐次レビュー指定に従い別の第4担当へ最新版全文を渡す。修正0件であれば早期確定可能な条件だが、本ラリーは該当しない。"
+    },
+    {
+      "reviewer_canonical_id": "/root/mess_r4",
+      "verdict": "pass",
+      "issues": [],
+      "changes": [],
+      "sources": [
+        {
+          "url": "https://www.oxfordlearnersdictionaries.com/us/definition/english/mess_2",
+          "claims": [
+            "no messing は行動を容易に終えたことを示す固定表現。",
+            "not mess around/about は迅速・効率的・適切に行動することを示す。"
+          ],
+          "retrieval": "検索結果の辞書本文で定義と例を確認。"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/and-no-messing",
+          "claims": [
+            "(and) no messing は要求した行動を確実に実行してほしいことを強調する。"
+          ],
+          "retrieval": "検索結果の定義・例を確認。直接openは403。"
+        },
+        {
+          "url": "https://www.merriam-webster.com/dictionary/mess",
+          "claims": [
+            "中英語・古フランス語・後期ラテン語missus・mittereという語源連鎖。",
+            "食物の一まとまり、多量、共同食事集団・食堂、乱雑状態・困難状況・感情的に混乱した人の各義。"
+          ],
+          "retrieval": "本文取得済み。"
+        },
+        {
+          "url": "https://www.etymonline.com/word/mess",
+          "claims": [
+            "混ぜた食物から混在物・混乱・散らかりへの意味展開が支持される。"
+          ],
+          "retrieval": "本文取得済み。"
+        },
+        {
+          "url": "https://www.collinsdictionary.com/dictionary/english/mess",
+          "claims": [
+            "軍隊の共同食事集団、その食事、軍食堂および軍事自動詞を確認。"
+          ],
+          "retrieval": "検索結果の辞書本文で確認。"
+        }
+      ],
+      "input_sha256": "b2f22a5919d6fb204924d4c7ce0c60e916174d16b8085a3b6c28176883c8cd15",
+      "output_sha256": "b2f22a5919d6fb204924d4c7ce0c60e916174d16b8085a3b6c28176883c8cd15",
+      "changed_hunks_verdict": "pass",
+      "coverage": {
+        "full_entry_read": true,
+        "lines": 1206,
+        "sections_reviewed": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "all_english_japanese_examples_read": true,
+        "example_translation_pairs": 141,
+        "short_inline_examples_reviewed": true,
+        "pronunciation_etymology_word_formation_core_image_reviewed": true,
+        "definitions_scope_register_grammar_word_order_collocations_synonyms_antonyms_reviewed": true,
+        "all_diff_read": true,
+        "diff_hunks_reviewed": 26,
+        "surrounding_consistency_checked": true,
+        "frequency_interpretation": "各語義・用法の編集上の目安として評価し、単語全体のコーパス頻度とは扱わない。"
+      },
+      "unresolved": [],
+      "early_finalize": true,
+      "conclusion": "独立した全文点検で問題・修正0件。全20項、141例/訳ペアと短いインライン英日例、HEADからの全26変更hunkと周辺整合性を確認。ここで確定可能。主要語義の削除・他語の変更・旧監査/PASSの変更・GitHub操作は行っていない。"
+    }
+  ],
+  "full_entry_review_scope": "All sections and examples in this word; sequential handoff, no concurrent word processing.",
+  "workflow_scope_decision": "User explicitly requested full-entry re-evaluation and sequential reviewers. Resulting entry edits are localized corrections; the scoped receipt verifies the complete diff, while additional review records document the broader checks. No legacy audit verdicts were changed."
+}
