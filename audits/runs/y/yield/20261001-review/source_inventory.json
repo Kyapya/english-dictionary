@@ -1,0 +1,305 @@
+{
+  "schema_version": "compact_source_inventory_v1",
+  "headword": "yield",
+  "input_body_sha256": "116d5810ad67798e02909568aaeafa4012d9501dc4aa3953f96debf551eed31d",
+  "source_first_audit": {
+    "sources": [
+      {
+        "id": "mw-yield",
+        "source_type": "general_dictionary",
+        "independence_group": "merriam_webster",
+        "locator": "https://www.merriam-webster.com/dictionary/yield",
+        "facts": [
+          {
+            "id": "mw-production",
+            "statement": "Transitive yield covers natural produce, results, investment income and revenue."
+          },
+          {
+            "id": "mw-surrender",
+            "statement": "Yield covers surrender of control, reflexive surrender of oneself, submission and yielding a legislative floor."
+          },
+          {
+            "id": "mw-physical",
+            "statement": "Physical yielding includes bending, stretching or breaking under force."
+          },
+          {
+            "id": "mw-replacement",
+            "statement": "Yield can mean give precedence, be inferior, or become succeeded by something else."
+          },
+          {
+            "id": "mw-baseball",
+            "statement": "A pitcher may yield hits or runs."
+          },
+          {
+            "id": "mw-noun",
+            "statement": "Noun yield denotes a product or amount returned; it can also denote productive capacity."
+          },
+          {
+            "id": "mw-etymology",
+            "statement": "Middle English derives from Old English gieldan, cognate with Old High German geltan, meaning pay."
+          }
+        ]
+      },
+      {
+        "id": "collins-yield",
+        "source_type": "learner_dictionary",
+        "independence_group": "harpercollins",
+        "locator": "https://www.collinsdictionary.com/dictionary/english/yield",
+        "facts": [
+          {
+            "id": "collins-senses",
+            "statement": "COBUILD records surrender, replacement, US traffic precedence, physical movement, production, revenue and noun amount/financial return."
+          },
+          {
+            "id": "collins-frames",
+            "statement": "Yield takes direct objects for control and produce; yield to can introduce pressure or a successor; productive intransitive use also exists."
+          },
+          {
+            "id": "collins-phonology",
+            "statement": "Pronunciation is /jiːld/; forms are yields, yielding and yielded."
+          },
+          {
+            "id": "collins-special",
+            "statement": "Noun uses include chemical reaction yield and nuclear explosive energy."
+          },
+          {
+            "id": "collins-up",
+            "statement": "Yield up occurs both for relinquishing control and furnishing produce."
+          }
+        ]
+      },
+      {
+        "id": "cambridge-yield",
+        "source_type": "learner_dictionary",
+        "independence_group": "cambridge",
+        "locator": "https://dictionary.cambridge.org/us/dictionary/english/yield?topic=creating-and-producing",
+        "facts": [
+          {
+            "id": "cambridge-production",
+            "statement": "Production examples include unexpected results and poor sound quality; a positive outcome is not required."
+          },
+          {
+            "id": "cambridge-frames",
+            "statement": "Surrender may be intransitive or transitive, optionally with up."
+          }
+        ]
+      },
+      {
+        "id": "finra-ytm",
+        "source_type": "primary_specialist",
+        "independence_group": "finra",
+        "locator": "https://www.finra.org/investors/insights/bond-yield-return",
+        "facts": [
+          {
+            "id": "finra-ytm-fact",
+            "statement": "Yield to maturity discounts promised coupons and principal to the bond price; the standard calculation excludes investor taxes and brokerage costs."
+          }
+        ]
+      },
+      {
+        "id": "mw-yielding",
+        "source_type": "general_dictionary",
+        "independence_group": "merriam_webster",
+        "locator": "https://www.merriam-webster.com/dictionary/yielding",
+        "facts": [
+          {
+            "id": "mw-yielding-fact",
+            "statement": "Yielding is also an adjective meaning productive, physically flexible, or inclined to comply."
+          }
+        ]
+      }
+    ],
+    "source_union": [],
+    "claim_units": [
+      {
+        "id": "claim-001",
+        "article_target_ids": [
+          "pronunciation:001"
+        ],
+        "claim": "Compare this article unit with the identified dictionary facts; assess qualifications independently.",
+        "source_supports": [
+          {
+            "source_fact_id": "collins-phonology"
+          }
+        ],
+        "union_ids": []
+      },
+      {
+        "id": "claim-002",
+        "article_target_ids": [
+          "word_formation:001"
+        ],
+        "claim": "Compare this article unit with the identified dictionary facts; assess qualifications independently.",
+        "source_supports": [
+          {
+            "source_fact_id": "collins-phonology"
+          }
+        ],
+        "union_ids": []
+      },
+      {
+        "id": "claim-003",
+        "article_target_ids": [
+          "word_formation:002"
+        ],
+        "claim": "Compare this article unit with the identified dictionary facts; assess qualifications independently.",
+        "source_supports": [
+          {
+            "source_fact_id": "mw-yielding-fact"
+          }
+        ],
+        "union_ids": []
+      },
+      {
+        "id": "claim-004",
+        "article_target_ids": [
+          "definition:001"
+        ],
+        "claim": "Compare this article unit with the identified dictionary facts; assess qualifications independently.",
+        "source_supports": [
+          {
+            "source_fact_id": "mw-production"
+          },
+          {
+            "source_fact_id": "cambridge-production"
+          }
+        ],
+        "union_ids": []
+      },
+      {
+        "id": "claim-005",
+        "article_target_ids": [
+          "definition:002"
+        ],
+        "claim": "Compare this article unit with the identified dictionary facts; assess qualifications independently.",
+        "source_supports": [
+          {
+            "source_fact_id": "mw-production"
+          }
+        ],
+        "union_ids": []
+      },
+      {
+        "id": "claim-006",
+        "article_target_ids": [
+          "definition:003"
+        ],
+        "claim": "Compare this article unit with the identified dictionary facts; assess qualifications independently.",
+        "source_supports": [
+          {
+            "source_fact_id": "mw-surrender"
+          },
+          {
+            "source_fact_id": "collins-up"
+          }
+        ],
+        "union_ids": []
+      },
+      {
+        "id": "claim-007",
+        "article_target_ids": [
+          "definition:004"
+        ],
+        "claim": "Compare this article unit with the identified dictionary facts; assess qualifications independently.",
+        "source_supports": [
+          {
+            "source_fact_id": "mw-surrender"
+          }
+        ],
+        "union_ids": []
+      },
+      {
+        "id": "claim-008",
+        "article_target_ids": [
+          "definition:005"
+        ],
+        "claim": "Compare this article unit with the identified dictionary facts; assess qualifications independently.",
+        "source_supports": [
+          {
+            "source_fact_id": "mw-surrender"
+          },
+          {
+            "source_fact_id": "collins-senses"
+          }
+        ],
+        "union_ids": []
+      },
+      {
+        "id": "claim-009",
+        "article_target_ids": [
+          "definition:006"
+        ],
+        "claim": "Compare this article unit with the identified dictionary facts; assess qualifications independently.",
+        "source_supports": [
+          {
+            "source_fact_id": "mw-physical"
+          },
+          {
+            "source_fact_id": "collins-senses"
+          }
+        ],
+        "union_ids": []
+      },
+      {
+        "id": "claim-010",
+        "article_target_ids": [
+          "definition:007"
+        ],
+        "claim": "Compare this article unit with the identified dictionary facts; assess qualifications independently.",
+        "source_supports": [
+          {
+            "source_fact_id": "mw-replacement"
+          },
+          {
+            "source_fact_id": "collins-senses"
+          }
+        ],
+        "union_ids": []
+      },
+      {
+        "id": "claim-011",
+        "article_target_ids": [
+          "definition:008"
+        ],
+        "claim": "Compare this article unit with the identified dictionary facts; assess qualifications independently.",
+        "source_supports": [
+          {
+            "source_fact_id": "mw-baseball"
+          }
+        ],
+        "union_ids": []
+      },
+      {
+        "id": "claim-012",
+        "article_target_ids": [
+          "definition:009"
+        ],
+        "claim": "Compare this article unit with the identified dictionary facts; assess qualifications independently.",
+        "source_supports": [
+          {
+            "source_fact_id": "mw-noun"
+          },
+          {
+            "source_fact_id": "collins-senses"
+          }
+        ],
+        "union_ids": []
+      },
+      {
+        "id": "claim-013",
+        "article_target_ids": [
+          "etymology:001"
+        ],
+        "claim": "Compare this article unit with the identified dictionary facts; assess qualifications independently.",
+        "source_supports": [
+          {
+            "source_fact_id": "mw-etymology"
+          }
+        ],
+        "union_ids": []
+      }
+    ],
+    "open_questions": []
+  },
+  "notes": "Initial evidence packet for independent comparison, not a certification of every current claim. Numeric frequencies are editorial per-sense estimates, not corpus measurements. Original third-party examples are not copied into the article."
+}

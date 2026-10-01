@@ -1,0 +1,75 @@
+{
+  "schema_version": "compact_review_response_v1",
+  "checked_areas": [
+    "pronunciation", "etymology", "word_formation", "core_image",
+    "sense:1d3cf04081c3ddb441db", "sense:14dc268dd6dddc9bb22f", "sense:50dac42a508d4abd3bb8",
+    "sense:f8a94b523a6b20139a0b", "sense:3ea93f6ee8da39773028", "sense:40371a6c06c24f3b7ab2",
+    "sense:06aa311f85b4fbefc65b", "sense:3fe1341993e417b4ea60", "sense:6b847210ed01208241b5"
+  ],
+  "unchecked_areas": [],
+  "findings": [
+    {
+      "area": "sense:6b847210ed01208241b5",
+      "severity": "blocking",
+      "impact": "満期利回りに手数料が織り込まれると覚えるおそれがある。例文も個別債券のYTMとファンドの集計指標を混同させる。",
+      "evidence": "本文662行は『手数料・再投資などの前提を含めた計算値』と説明し、659行は The fund's yield to maturity was calculated from its price and cash flows. とする。FINRA https://www.finra.org/investors/insights/bond-yield-return は、個別債券の予定利払いと元本返済を価格に一致させる割引率としてYTMを説明し、投資家の税金と購入時の仲介費用は計算に含めないと明記している。",
+      "action": "通常のYTMは税金・仲介手数料を含まないこと、約定どおりの支払い等の前提に基づき実現収益を保証しないことを簡潔に明示する。ここでは例文の fund を bond にして和訳も揃え、ファンドの平均YTMを新たに説明する必要を避ける。"
+    },
+    {
+      "area": "sense:40371a6c06c24f3b7ab2",
+      "severity": "blocking",
+      "impact": "門が開く・錠前が動くという既存例を、材料そのものが曲がったり壊れたりする意味だと誤解させる。",
+      "evidence": "411～413行の見出しと定義は『物理変形』『曲がる、伸びる、へこむ、または壊れる方向に変形する』に限定される。一方、430～441行は門の移動と錠前の開放を扱う。Collins COBUILD https://www.collinsdictionary.com/dictionary/english/yield の物理義は、圧力による破損だけでなく位置の移動を含み、押したドアが開く例を示す。材料工学での塑性変形の説明自体は Instron https://www.instron.com/en/resources/glossary/yield-strength/ と整合する。",
+      "action": "一般語の見出し・定義に『力に負けて動く、開く』を加え、コアイメージの語義6参照も合わせる。一般的な移動・変形と材料工学の降伏を区別し、既存の門・錠前の例を保持する。"
+    },
+    {
+      "area": "sense:1d3cf04081c3ddb441db",
+      "severity": "minor",
+      "impact": "産出義を必ず直接目的語が必要な他動詞と覚え、自動詞用法を読めなくなる。",
+      "evidence": "語義1は見出し・構文とも他動詞のみ。Merriam-Webster https://www.merriam-webster.com/dictionary/yield の自動詞6は実を結ぶ・産出する用法を立項し、Collins https://www.collinsdictionary.com/dictionary/english/yield の米語自動詞5も、鉱山の産出の良し悪しを目的語なしで表す用法を掲載している。",
+      "action": "語義1の語法欄に、作物・鉱山などを主語に目的語なしで産出状況を述べる yield well/poorly もある、と短く追記する。必要なら見出しに自動詞用法も含める。"
+    },
+    {
+      "area": "word_formation",
+      "severity": "minor",
+      "impact": "high-yielding crops や income-yielding assets の yielding を、柔軟・従順の意味と混同しやすい。",
+      "evidence": "23・28行の形容詞 yielding の説明は柔軟・譲歩的な意味のみ。Merriam-Webster https://www.merriam-webster.com/dictionary/yielding は、産出性・収益を生む意味を形容詞の第一義として掲載し、high-yielding の農作物用法も示す。",
+      "action": "語形成欄に『産出する・収益を生む』という形容詞用法と high-yielding の短い説明を加える。語源欄の既存説明を全意味の列挙と読ませないようにする。"
+    },
+    {
+      "area": "sense:6b847210ed01208241b5",
+      "severity": "minor",
+      "impact": "yield が必ず実際の量か収益率であり、生産力を指すことはないという過剰な境界を学習させる。また収量が必ず単位面積・個体あたりとは限らない。",
+      "evidence": "636行は crop yield を単位面積・個体あたりの量と説明し、662行は『単なる生産能力…と同じではない』と一律に対比する。Merriam-Webster https://www.merriam-webster.com/dictionary/yield の名詞2には産出能力があり、名詞1は単位当たりに限らない産出物・産出量を含む。CollinsのCOBUILD名詞7も土地・家畜から生じる量を説明し、単位当たりを必須条件としていない。",
+      "action": "通常は収量を指し、比較では単位面積・個体あたりで示すことが多い、と限定する。生産力を指す用法もあると短く補足し、capacity と常に同義ではないという適切な区別は保持する。"
+    },
+    {
+      "area": "sense:6b847210ed01208241b5",
+      "severity": "minor",
+      "impact": "研究・科学記事で目にする reaction yield と nuclear yield を、この広い名詞項目から判断できない。",
+      "evidence": "名詞項目は農業・製造・金融だけを具体化し、化学の収率と核爆発の放出エネルギーへの言及がない。Collins https://www.collinsdictionary.com/dictionary/english/yield の英国版名詞11・12と米国版名詞12は、これらを専門用法として明示している。",
+      "action": "語義9の語法または領域欄に、化学では反応生成物の収量・理論量に対する収率、核爆発では放出エネルギー規模を指す、と専門領域を付して簡潔に追記する。独立した長い新項目や出典付録は不要。"
+    },
+    {
+      "area": "sense:06aa311f85b4fbefc65b",
+      "severity": "minor",
+      "impact": "交代義の主語を古い制度・技術に限定し、感情や状態などが別のものに移る用法を排除してしまう。",
+      "evidence": "484～516行では一貫して『古いもの』『新しいもの』『古い制度・技術・慣習』で定義・判別する。Merriam-Webster https://www.merriam-webster.com/dictionary/yield の自動詞5cは人・物の交代を広く扱い、Collins COBUILDの語義3も単にあるものが別のものに置き換わることを説明し、技術的な新旧を必要としていない。",
+      "action": "『それまでのもの・状態が別のものに場所を譲る』を上位定義にし、旧制度から新制度への交代は代表例として残す。to 以下は後に来るものだが、必ず最新のもの・進歩したものではないと読める形にする。"
+    },
+    {
+      "area": "sense:3ea93f6ee8da39773028",
+      "severity": "minor",
+      "impact": "硬い表現 yield to none を交通上の譲歩や屈服だけで解釈し、『誰にも劣らない』を取りこぼす。",
+      "evidence": "優先義には順番・通行権・発言権があるが、優劣の表現はない。Merriam-Webster https://www.merriam-webster.com/dictionary/yield の自動詞5a・5bは優越を認める・劣る意味を掲載し、否定形の例も示している。",
+      "action": "語法欄に、硬い yield to none は『誰にも劣らない』ともいう、と短く補足する。交通の yield to と混同しないよう用途を明記する。"
+    },
+    {
+      "area": "sense:f8a94b523a6b20139a0b",
+      "severity": "minor",
+      "impact": "誘惑に屈する行為を『したくないことをする』と覚え、したい気持ちと自制の対立を取り違える。",
+      "evidence": "267行は望んでいなかった行動を受け入れると一般化し、283行は『誘惑に負けて、したくないことをしてしまう』と明言する。Merriam-Webster https://www.merriam-webster.com/dictionary/yield は傾向・誘惑・習慣に自分を委ねる意味を示し、Collins https://www.collinsdictionary.com/dictionary/english/yield も衝動に抵抗することをやめる例を載せる。本人に行為への欲求がないことは条件ではない。本文自身のデザート例とも説明が合わない。",
+      "action": "上位定義は抵抗・自制をやめることとし、誘惑の用途は『控えようとしていたことを、したい気持ちに負けてしてしまう』等に直す。"
+    }
+  ]
+}

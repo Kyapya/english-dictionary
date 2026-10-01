@@ -1,0 +1,42 @@
+{
+  "schema_version": "compact_review_response_v1",
+  "checked_areas": [
+    "pronunciation",
+    "etymology",
+    "word_formation",
+    "core_image",
+    "sense:3c309abf0835fec811b3",
+    "sense:14dc268dd6dddc9bb22f",
+    "sense:50dac42a508d4abd3bb8",
+    "sense:a6ac4f0e7ddd8ae02c21",
+    "sense:c30c4399a09abef1a771",
+    "sense:13edac2db56e863f3d3a",
+    "sense:4136eb2d73bf0521fa2d",
+    "sense:3fe1341993e417b4ea60",
+    "sense:6b847210ed01208241b5"
+  ],
+  "unchecked_areas": [],
+  "findings": [
+    {
+      "area": "word_formation",
+      "severity": "minor",
+      "impact": "新たに追加した「産出する・収益を生む」にも unyielding がそのまま反意語になるという誤解を招く。",
+      "evidence": "L28『yielding は形容詞として「産出する・収益を生む」「柔軟な・たわみやすい」「譲歩的な」の意味でも使われる。high-yielding crops は「収量の多い作物」、income-yielding assets は「収入を生む資産」。unyielding はその反対で…』。この「その」が直前の全義を受ける形になった。通常の unyielding は柔軟性・譲歩の反対であり、低収量・無収益の一般的表現ではない。Oxford: https://www.oxfordlearnersdictionaries.com/definition/english/unyielding",
+      "action": "「unyielding は、柔軟性や譲歩を表す yielding の反対で」のように指示対象を限定する。high-yielding / income-yielding の追加自体は維持してよい。"
+    },
+    {
+      "area": "sense:a6ac4f0e7ddd8ae02c21",
+      "severity": "minor",
+      "impact": "submit の一般的な「提出する」の遭遇頻度を、ここで定義する「服従する」に混ぜたような高い尺度となっている。",
+      "evidence": "L282 定義『相手の権威や支配に従う、服従する』、L283 頻度〈8/10〉。指定仕様では8–9は日常・新聞・ビジネスで広く使う高頻度、6–7は場面・分野・レジスターがやや限定される中頻度。Oxfordではこの服従義を formal とし、書類の提出義を区別する: https://www.oxfordlearnersdictionaries.com/definition/english/submit",
+      "action": "提出義を一切含めず、この硬い服従義だけで中頻度程度（例6）に再評価する。数値は編集上の推定であり、コーパス測定値とはしない。細かな1点差を争う趣旨ではない。"
+    },
+    {
+      "area": "sense:6b847210ed01208241b5",
+      "severity": "minor",
+      "impact": "名詞 return の「帰還・返却」等を除外した金融収益義だけで超高頻度10とするため、指定された語義別・英語全体の尺度と整合しない。",
+      "evidence": "L648–650『return／定義: 投資や資産から得られる利益・収益。／頻度:〈10/10〉』。この定義は金融の収益義に限定される一方、指定仕様の10は会話・文章で日常的に目にする超高頻度であり、他義を合算してはならない。",
+      "action": "金融・ビジネスではよく使われるが分野限定があるという基準で10から下げる（編集上の目安7）。正確な統計値だとは主張せず、この金融義だけの尺度判断として記録する。"
+    }
+  ]
+}
