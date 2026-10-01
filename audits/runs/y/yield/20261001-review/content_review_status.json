@@ -1,0 +1,18 @@
+{
+  "workflow_contract_version": "compact_review_v1",
+  "run_id": "20261001T155417Z",
+  "body_sha256": "56014051172c32ca5602da2ff21d805199f11e171db0cddfc6ccd1283926f8a8",
+  "status": "review_ready",
+  "uncovered": {
+    "A": [],
+    "B": []
+  },
+  "unresolved": [],
+  "mechanical_errors": [],
+  "ambiguous": false,
+  "independent_review_executions": [
+    "/root/identify_unreviewed_entries",
+    "/root/review_dictionary_progress"
+  ],
+  "publish_gate": "pass"
+}

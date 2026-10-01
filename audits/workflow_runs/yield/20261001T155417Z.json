@@ -5,13 +5,518 @@
   "branch": "review/yield-20261001",
   "started_at": "2026-10-01T15:54:17.099965+00:00",
   "entry_path": "entries/y/yield.md",
-  "inventory_path": "audits/runs/y/yield/20261001-review/source_inventory.json",
-  "review_receipts": [],
+  "inventory_path": "audits/runs/y/yield/20261001-review/source_inventory.round3.json",
+  "review_receipts": [
+    {
+      "role": "A",
+      "execution_id": "/root/review_dictionary_progress",
+      "model": "unknown",
+      "recorded_at": "2026-10-01T16:06:53.492390+00:00",
+      "request_path": "audits/runs/y/yield/20261001-review/reviews/A-round1.request.json",
+      "request_sha256": "a40506e496a0f7a7c2930ce751603fa43372a4e459089fe57b5f4878841f1fb7",
+      "raw_response_path": "audits/runs/y/yield/20261001-review/reviews/A-round1.raw.json",
+      "raw_response_sha256": "55104b86ae6c057c95ccde3105a729f18ab5f115819873de22743ab694e1ba86",
+      "body_sha256": "116d5810ad67798e02909568aaeafa4012d9501dc4aa3953f96debf551eed31d",
+      "area_keys": {
+        "pronunciation": "2a7aed7165fff53eb7abb15af25c5f085255cc89b9b4695a14803c7afaf6c114",
+        "etymology": "7f5a5d51c3c6a49938555f96779d8b512879e2b62aa5e9e8a14b0a915bf92e93",
+        "word_formation": "1f3440eb934fa013acc5d77319dc721d8b9fbbfac11a90dfc5995853c2987df6",
+        "core_image": "25939a4c5c6cc8130c7d0141b60e6cfde83945ce095de757cc01073f04789140",
+        "sense:1d3cf04081c3ddb441db": "cc3cf5fe3c8260c8bec933234f6f21a44f9623963961105b9fab6286f30603ad",
+        "sense:14dc268dd6dddc9bb22f": "c382fec2a531c8b892ab32cf2b33923bca06b77ccbf35ef780b481770c66edcb",
+        "sense:50dac42a508d4abd3bb8": "f84f7a33d77f02e21be640b39c0fddc874f9ecba26198b1131808843de213a75",
+        "sense:f8a94b523a6b20139a0b": "66fa0f58a4cbebcf762c21241308c7d9576d93bc7d171b49e13daa10f01d307e",
+        "sense:3ea93f6ee8da39773028": "fbc8004fee2fcd5064ca64012f300cea1b7966e0cc3d0321f25bca183eb9980f",
+        "sense:40371a6c06c24f3b7ab2": "f65311e75b168ec71874bcb4b934dcb05c02b8837b678545a17c7671cbccc6ed",
+        "sense:06aa311f85b4fbefc65b": "5d0f2aedee5aa650478aef9d2eca5de4cbc8627249118f489acd9e9aedad11c7",
+        "sense:3fe1341993e417b4ea60": "51cfb7d0e0b954e86c3dcfd68129949ea0d570b9e5aaf0b01a0ef8d891bc2037",
+        "sense:6b847210ed01208241b5": "cff7bf5ab6b4f88b7ba49a4ab488353eee1a5999b3983ba55d953a246d29ca3e"
+      },
+      "checked_areas": [
+        "pronunciation",
+        "etymology",
+        "word_formation",
+        "core_image",
+        "sense:1d3cf04081c3ddb441db",
+        "sense:14dc268dd6dddc9bb22f",
+        "sense:50dac42a508d4abd3bb8",
+        "sense:f8a94b523a6b20139a0b",
+        "sense:3ea93f6ee8da39773028",
+        "sense:40371a6c06c24f3b7ab2",
+        "sense:06aa311f85b4fbefc65b",
+        "sense:3fe1341993e417b4ea60",
+        "sense:6b847210ed01208241b5"
+      ],
+      "unchecked_areas": [],
+      "findings": [
+        {
+          "area": "word_formation",
+          "severity": "minor",
+          "impact": "yield sign の yield まで産出量を表す名詞からできていると誤解させる。",
+          "evidence": "L29『名詞 yield は「産出量・収益・利回り」を表し、crop yield「作物収量」、bond yield「債券利回り」、yield sign「譲れ標識」、yield point「降伏点」のような複合語を作る。』。ところがL636では yield sign を語義5の交通表現と正しく区別している。Oxfordの動詞項目も交通義で a yield sign を扱う: https://www.oxfordlearnersdictionaries.com/definition/english/yield_2",
+          "action": "crop yield / bond yield を名詞の例として残し、yield sign は交通の yield、yield point は材料の降伏に関わる関連複合語として別文で整理する。"
+        },
+        {
+          "area": "core_image",
+          "severity": "minor",
+          "impact": "通常の yield control / possession に『以前の所有者へ返還する』という不要な条件を加えてしまう。",
+          "evidence": "L33『手元にあるもの・抵抗・優先権を外へ返し』、L36『所有・支配を相手に返して手放す』。語義3のL206では a new management team に支配権を譲っており、返還である必要はない。",
+          "action": "現代語義3の枝は『所有・支配を相手に渡して手放す』などにする。共通核の『返す』は産出・収益の比喩であることを限定し、全用法に返還の意味を必須化しない。"
+        },
+        {
+          "area": "sense:1d3cf04081c3ddb441db",
+          "severity": "minor",
+          "impact": "調査が情報を生み出すことと、保有情報を公開・提供することが混同され、withhold を産出の反対と覚えさせる。",
+          "evidence": "L108『yield が結果や情報を外へ出すのに対し、withhold はそれを意図的に出さない』。L109の The agency withheld the data until the review was complete. は既にあるデータの公開を差し控える例であり、L70の survey yielded useful information の産出と逆の関係ではない。",
+          "action": "語義1の withhold を直接の反意語として扱わない。必要なら『情報を得る／産出することとは別に、その提供を差し控える表現』と明示するか、このブロックを削除する。語義3の withhold は維持できる。"
+        },
+        {
+          "area": "sense:14dc268dd6dddc9bb22f",
+          "severity": "minor",
+          "impact": "earn は人・組織だけが主語になるかのように教えながら、直後で口座を主語にするため、金融の基本構文を誤学習させる。",
+          "evidence": "L163『人や組織が収入・利益・利息を得る』、L165『earn は通常、得る側の人・組織を主語にする』に対してL166は The savings account earns interest every month.。資金・預金を主語にする金融の earn は通常の用法。Oxfordにも資金を主語にする金融義がある: https://www.oxfordlearnersdictionaries.com/definition/english/earn",
+          "action": "定義に『資金・預金などが利息や利益を生む』を含め、主語の人対資産を主要な違いとしない。earn interest / a return の用法と yield の産出・利回りへの焦点を限定して比較する。"
+        },
+        {
+          "area": "sense:50dac42a508d4abd3bb8",
+          "severity": "minor",
+          "impact": "不動産の占有返還と所有権移転を混同させる。",
+          "evidence": "L210 yield possession of の用途が『物の占有や所有を相手に明け渡す』。L211では tenant が new owner に property を明け渡すため、ここで譲るのは所有権ではなく占有。",
+          "action": "この構文の用途を『物・不動産の占有や所持を相手に明け渡す』とする。所有権そのものを譲る場合は ownership 等を用いた別構文と区別する。"
+        },
+        {
+          "area": "sense:f8a94b523a6b20139a0b",
+          "severity": "blocking",
+          "impact": "yield to temptation を『したくない行動をする』と逆向きに理解させる。誘惑では、したいが控えようとしていた行動に抵抗できなくなる。",
+          "evidence": "L267『望んでいなかった行動や条件を受け入れる』、L283『誘惑に負けて、したくないことをしてしまう』。直後の I yielded to temptation and ordered dessert. はデザートを欲しなかったという意味ではない。Cambridgeの temptation は、すべきでないと考えながらもしたい欲求を説明している: https://dictionary.cambridge.org/us/dictionary/english/temptation",
+          "action": "語義全体は『抵抗をやめて圧力・要求などに従う、または誘惑・感情に身を任せる』とし、誘惑の用途を『控えようとしていたことを、誘惑に負けてしてしまう』などに修正する。"
+        },
+        {
+          "area": "sense:f8a94b523a6b20139a0b",
+          "severity": "minor",
+          "impact": "自動詞と再帰代名詞を目的語にする他動詞構文を混同させる。",
+          "evidence": "L265は『【自動詞・屈服】』、L271は『目的語を直接取る明け渡しの yield とは区別する』だが、L273には yield oneself to 〈誘惑・感情〉 が含まれる。oneself は直接目的語。Merriam-Websterも再帰形を他動詞側に掲載: https://www.merriam-webster.com/dictionary/yield",
+          "action": "yield to ... は自動詞、硬い yield oneself to ... は再帰他動詞と明示する。見出しにも必要な他動詞表示を含め、目的語を取らないという説明の対象を yield to に限定する。"
+        },
+        {
+          "area": "sense:3ea93f6ee8da39773028",
+          "severity": "minor",
+          "impact": "right of way / precedence / floor を直接目的語に取る構文まで自動詞と誤分類する。",
+          "evidence": "L338『【自動詞・優先権／交通】』に対し、L346には yield the right of way / yield precedence / yield the floor。L370は floor の他動詞構文だけを認めているが、他の二つも目的語を取る。",
+          "action": "見出しを自動詞・他動詞の併記にし、yield to ... と yield + right of way / precedence / floor + to ... の区別を短くまとめる。"
+        },
+        {
+          "area": "sense:40371a6c06c24f3b7ab2",
+          "severity": "minor",
+          "impact": "物理的 yield は必ず変形・破損するという誤解を生み、記事自身の門や錠前の例を説明できない。",
+          "evidence": "L411『たわむ、変形する、折れる』、L413『曲がる、伸びる、へこむ、または壊れる方向に変形する』に対して、L430は gate が風で動き、L440は lock が開かない例。Oxfordは移動も含めて説明し、錠前の例を掲載: https://www.oxfordlearnersdictionaries.com/definition/english/yield_2",
+          "action": "見出し・定義を『力を受けて動く、開く、たわむ、変形する』などに広げ、破断は起こり得る結果と位置付ける。材料工学の塑性変形という限定は一般用法と分けて維持する。コアイメージ語義6の枝も整合させる。"
+        },
+        {
+          "area": "sense:06aa311f85b4fbefc65b",
+          "severity": "minor",
+          "impact": "yield place to の place を目的語と認識できなくなる。",
+          "evidence": "L484は『【自動詞・交代】』、L516は『yield to は置き換えられる側を主語にする自動詞』とする一方、L492・506・508は yield place to / Old customs have yielded place to ... を含む。yield to 自体の説明は正しいが、yield place to は place を目的語に取る別構文。",
+          "action": "yield place to は他動詞構文であることを明記し、見出しの品詞表示を対応させる。yield to と replace の主語方向の説明は維持する。"
+        },
+        {
+          "area": "sense:3fe1341993e417b4ea60",
+          "severity": "minor",
+          "impact": "英文が明示しない無失点という情報を訳に補っている。",
+          "evidence": "L586 The reliever yielded two walks but escaped the inning. に対しL587は『回を無失点で切り抜けた』。escaped the inning は危機を脱してイニングを終えたという含みはあるが、その回に失点が全くなかったことを単独で確定する表現ではない。",
+          "action": "無失点を教えたいなら英文を ... but escaped the inning without allowing a run. などと明示する。あるいは訳から『無失点で』を外す。"
+        },
+        {
+          "area": "sense:6b847210ed01208241b5",
+          "severity": "blocking",
+          "impact": "通常の債券ファンド自体に満期があり、そのファンド価格・キャッシュフローから単一債券と同様の満期利回りを算出すると誤解させる。",
+          "evidence": "L659 The fund's yield to maturity was calculated from its price and cash flows. / L660『そのファンドの満期利回りは価格とキャッシュフローから計算された』。L658の定義は債券を満期保有する利回りなのに、例文だけ無限定の fund に変わっている。ファンドが表示するポートフォリオ利回りと単一債券のYTMは区別が必要。FINRAの定義・式は債券価格とその利払・元本返済を用いる: https://www.finra.org/investors/insights/bond-yield-return",
+          "action": "学習例は fund を bond に変え、price と予定利払・償還キャッシュフローの対応を維持する。ファンドのポートフォリオ指標まで記事を広げる必要はない。"
+        },
+        {
+          "area": "sense:6b847210ed01208241b5",
+          "severity": "blocking",
+          "impact": "標準的なYTMに手数料が織り込まれていると誤認させ、実際の手取り収益率と混同させる。",
+          "evidence": "L662『yield to maturity は債券の専門用語で、手数料・再投資などの前提を含めた計算値として扱う』。標準的なYTMは通常、税・購入時の仲介費用を含めない。FINRAはこの点を明記: https://www.finra.org/investors/insights/bond-yield-return",
+          "action": "『予定どおりの利払・償還を前提とする計算上の利回りで、通常は税・手数料を含めず、実現収益率を保証しない』等に修正する。再投資について言及する場合は計算上の利回りと実際の再投資成果を区別する。"
+        },
+        {
+          "area": "sense:6b847210ed01208241b5",
+          "severity": "minor",
+          "impact": "crop yield は常に単位面積・単位個体当たりの率でなければならないと誤解させる。",
+          "evidence": "L636『crop yield は単位面積・単位個体あたりの量で示す』、L662『crop yield は土地や投入量との関係を含む収量』。一般名詞の yield は生産された総量も表す。Oxfordの名詞定義は総量を含む: https://www.oxfordlearnersdictionaries.com/definition/english/yield_1",
+          "action": "『総収量にも使い、農業比較では単位面積・単位個体あたりの量で示すことが多い』などに限定する。既存の yield per acre 例はそのままでよい。"
+        },
+        {
+          "area": "sense:6b847210ed01208241b5",
+          "severity": "minor",
+          "impact": "名詞 yield が収入を生む資産そのものを指すかのような比較になっている。",
+          "evidence": "L683『income は受け取るお金に焦点があり、yield はそれを生む資産や利回りの測定に焦点を置きやすい』。ここは名詞の類義語欄であり、yield が指すのは収益・産出量・利回りであって資産ではない。L632の定義とも比較軸がずれる。",
+          "action": "資産への焦点という説明を外し、『income は継続的な収入を表し、yield は投資からの収益額・利回りや活動からの産出量を表す』など、名詞同士で比較する。定義にも必要なら金額としての収益を明記する。"
+        },
+        {
+          "area": "sense:6b847210ed01208241b5",
+          "severity": "minor",
+          "impact": "yield 自体に期待値・目標値の意味があると誤解させ、shortfall を直接の反意語とする根拠が崩れている。",
+          "evidence": "L692『yield が期待される産出量を表すのに対し、shortfall は目標や必要量からの不足』。yield は実際の産出量にも用いられ、低い yield と shortfall は同時に成立する。",
+          "action": "yield は産出量、shortfall は必要量・予想量に対する不足量であり直接の反意語ではないと明記するか、反意語欄から shortfall ブロックを外す。『期待される』を yield の必須意味にしない。"
+        }
+      ],
+      "normalizations": []
+    },
+    {
+      "role": "B",
+      "execution_id": "/root/identify_unreviewed_entries",
+      "model": "unknown",
+      "recorded_at": "2026-10-01T16:06:53.545067+00:00",
+      "request_path": "audits/runs/y/yield/20261001-review/reviews/B-round1.request.json",
+      "request_sha256": "6c59a2a23e7b6bffe3dd7e5983fb0cf6990d71ddc0c3b3ffcc2a89c8eb8e255d",
+      "raw_response_path": "audits/runs/y/yield/20261001-review/reviews/B-round1.raw.json",
+      "raw_response_sha256": "eaa1e71fdaf699f333f3509be5b84ceb99c9371f5d0542be48045fe101c845f1",
+      "body_sha256": "116d5810ad67798e02909568aaeafa4012d9501dc4aa3953f96debf551eed31d",
+      "area_keys": {
+        "pronunciation": "2a7aed7165fff53eb7abb15af25c5f085255cc89b9b4695a14803c7afaf6c114",
+        "etymology": "7f5a5d51c3c6a49938555f96779d8b512879e2b62aa5e9e8a14b0a915bf92e93",
+        "word_formation": "1f3440eb934fa013acc5d77319dc721d8b9fbbfac11a90dfc5995853c2987df6",
+        "core_image": "25939a4c5c6cc8130c7d0141b60e6cfde83945ce095de757cc01073f04789140",
+        "sense:1d3cf04081c3ddb441db": "cc3cf5fe3c8260c8bec933234f6f21a44f9623963961105b9fab6286f30603ad",
+        "sense:14dc268dd6dddc9bb22f": "c382fec2a531c8b892ab32cf2b33923bca06b77ccbf35ef780b481770c66edcb",
+        "sense:50dac42a508d4abd3bb8": "f84f7a33d77f02e21be640b39c0fddc874f9ecba26198b1131808843de213a75",
+        "sense:f8a94b523a6b20139a0b": "66fa0f58a4cbebcf762c21241308c7d9576d93bc7d171b49e13daa10f01d307e",
+        "sense:3ea93f6ee8da39773028": "fbc8004fee2fcd5064ca64012f300cea1b7966e0cc3d0321f25bca183eb9980f",
+        "sense:40371a6c06c24f3b7ab2": "f65311e75b168ec71874bcb4b934dcb05c02b8837b678545a17c7671cbccc6ed",
+        "sense:06aa311f85b4fbefc65b": "5d0f2aedee5aa650478aef9d2eca5de4cbc8627249118f489acd9e9aedad11c7",
+        "sense:3fe1341993e417b4ea60": "51cfb7d0e0b954e86c3dcfd68129949ea0d570b9e5aaf0b01a0ef8d891bc2037",
+        "sense:6b847210ed01208241b5": "cff7bf5ab6b4f88b7ba49a4ab488353eee1a5999b3983ba55d953a246d29ca3e"
+      },
+      "checked_areas": [
+        "pronunciation",
+        "etymology",
+        "word_formation",
+        "core_image",
+        "sense:1d3cf04081c3ddb441db",
+        "sense:14dc268dd6dddc9bb22f",
+        "sense:50dac42a508d4abd3bb8",
+        "sense:f8a94b523a6b20139a0b",
+        "sense:3ea93f6ee8da39773028",
+        "sense:40371a6c06c24f3b7ab2",
+        "sense:06aa311f85b4fbefc65b",
+        "sense:3fe1341993e417b4ea60",
+        "sense:6b847210ed01208241b5"
+      ],
+      "unchecked_areas": [],
+      "findings": [
+        {
+          "area": "sense:6b847210ed01208241b5",
+          "severity": "blocking",
+          "impact": "満期利回りに手数料が織り込まれると覚えるおそれがある。例文も個別債券のYTMとファンドの集計指標を混同させる。",
+          "evidence": "本文662行は『手数料・再投資などの前提を含めた計算値』と説明し、659行は The fund's yield to maturity was calculated from its price and cash flows. とする。FINRA https://www.finra.org/investors/insights/bond-yield-return は、個別債券の予定利払いと元本返済を価格に一致させる割引率としてYTMを説明し、投資家の税金と購入時の仲介費用は計算に含めないと明記している。",
+          "action": "通常のYTMは税金・仲介手数料を含まないこと、約定どおりの支払い等の前提に基づき実現収益を保証しないことを簡潔に明示する。ここでは例文の fund を bond にして和訳も揃え、ファンドの平均YTMを新たに説明する必要を避ける。"
+        },
+        {
+          "area": "sense:40371a6c06c24f3b7ab2",
+          "severity": "blocking",
+          "impact": "門が開く・錠前が動くという既存例を、材料そのものが曲がったり壊れたりする意味だと誤解させる。",
+          "evidence": "411～413行の見出しと定義は『物理変形』『曲がる、伸びる、へこむ、または壊れる方向に変形する』に限定される。一方、430～441行は門の移動と錠前の開放を扱う。Collins COBUILD https://www.collinsdictionary.com/dictionary/english/yield の物理義は、圧力による破損だけでなく位置の移動を含み、押したドアが開く例を示す。材料工学での塑性変形の説明自体は Instron https://www.instron.com/en/resources/glossary/yield-strength/ と整合する。",
+          "action": "一般語の見出し・定義に『力に負けて動く、開く』を加え、コアイメージの語義6参照も合わせる。一般的な移動・変形と材料工学の降伏を区別し、既存の門・錠前の例を保持する。"
+        },
+        {
+          "area": "sense:1d3cf04081c3ddb441db",
+          "severity": "minor",
+          "impact": "産出義を必ず直接目的語が必要な他動詞と覚え、自動詞用法を読めなくなる。",
+          "evidence": "語義1は見出し・構文とも他動詞のみ。Merriam-Webster https://www.merriam-webster.com/dictionary/yield の自動詞6は実を結ぶ・産出する用法を立項し、Collins https://www.collinsdictionary.com/dictionary/english/yield の米語自動詞5も、鉱山の産出の良し悪しを目的語なしで表す用法を掲載している。",
+          "action": "語義1の語法欄に、作物・鉱山などを主語に目的語なしで産出状況を述べる yield well/poorly もある、と短く追記する。必要なら見出しに自動詞用法も含める。"
+        },
+        {
+          "area": "word_formation",
+          "severity": "minor",
+          "impact": "high-yielding crops や income-yielding assets の yielding を、柔軟・従順の意味と混同しやすい。",
+          "evidence": "23・28行の形容詞 yielding の説明は柔軟・譲歩的な意味のみ。Merriam-Webster https://www.merriam-webster.com/dictionary/yielding は、産出性・収益を生む意味を形容詞の第一義として掲載し、high-yielding の農作物用法も示す。",
+          "action": "語形成欄に『産出する・収益を生む』という形容詞用法と high-yielding の短い説明を加える。語源欄の既存説明を全意味の列挙と読ませないようにする。"
+        },
+        {
+          "area": "sense:6b847210ed01208241b5",
+          "severity": "minor",
+          "impact": "yield が必ず実際の量か収益率であり、生産力を指すことはないという過剰な境界を学習させる。また収量が必ず単位面積・個体あたりとは限らない。",
+          "evidence": "636行は crop yield を単位面積・個体あたりの量と説明し、662行は『単なる生産能力…と同じではない』と一律に対比する。Merriam-Webster https://www.merriam-webster.com/dictionary/yield の名詞2には産出能力があり、名詞1は単位当たりに限らない産出物・産出量を含む。CollinsのCOBUILD名詞7も土地・家畜から生じる量を説明し、単位当たりを必須条件としていない。",
+          "action": "通常は収量を指し、比較では単位面積・個体あたりで示すことが多い、と限定する。生産力を指す用法もあると短く補足し、capacity と常に同義ではないという適切な区別は保持する。"
+        },
+        {
+          "area": "sense:6b847210ed01208241b5",
+          "severity": "minor",
+          "impact": "研究・科学記事で目にする reaction yield と nuclear yield を、この広い名詞項目から判断できない。",
+          "evidence": "名詞項目は農業・製造・金融だけを具体化し、化学の収率と核爆発の放出エネルギーへの言及がない。Collins https://www.collinsdictionary.com/dictionary/english/yield の英国版名詞11・12と米国版名詞12は、これらを専門用法として明示している。",
+          "action": "語義9の語法または領域欄に、化学では反応生成物の収量・理論量に対する収率、核爆発では放出エネルギー規模を指す、と専門領域を付して簡潔に追記する。独立した長い新項目や出典付録は不要。"
+        },
+        {
+          "area": "sense:06aa311f85b4fbefc65b",
+          "severity": "minor",
+          "impact": "交代義の主語を古い制度・技術に限定し、感情や状態などが別のものに移る用法を排除してしまう。",
+          "evidence": "484～516行では一貫して『古いもの』『新しいもの』『古い制度・技術・慣習』で定義・判別する。Merriam-Webster https://www.merriam-webster.com/dictionary/yield の自動詞5cは人・物の交代を広く扱い、Collins COBUILDの語義3も単にあるものが別のものに置き換わることを説明し、技術的な新旧を必要としていない。",
+          "action": "『それまでのもの・状態が別のものに場所を譲る』を上位定義にし、旧制度から新制度への交代は代表例として残す。to 以下は後に来るものだが、必ず最新のもの・進歩したものではないと読める形にする。"
+        },
+        {
+          "area": "sense:3ea93f6ee8da39773028",
+          "severity": "minor",
+          "impact": "硬い表現 yield to none を交通上の譲歩や屈服だけで解釈し、『誰にも劣らない』を取りこぼす。",
+          "evidence": "優先義には順番・通行権・発言権があるが、優劣の表現はない。Merriam-Webster https://www.merriam-webster.com/dictionary/yield の自動詞5a・5bは優越を認める・劣る意味を掲載し、否定形の例も示している。",
+          "action": "語法欄に、硬い yield to none は『誰にも劣らない』ともいう、と短く補足する。交通の yield to と混同しないよう用途を明記する。"
+        },
+        {
+          "area": "sense:f8a94b523a6b20139a0b",
+          "severity": "minor",
+          "impact": "誘惑に屈する行為を『したくないことをする』と覚え、したい気持ちと自制の対立を取り違える。",
+          "evidence": "267行は望んでいなかった行動を受け入れると一般化し、283行は『誘惑に負けて、したくないことをしてしまう』と明言する。Merriam-Webster https://www.merriam-webster.com/dictionary/yield は傾向・誘惑・習慣に自分を委ねる意味を示し、Collins https://www.collinsdictionary.com/dictionary/english/yield も衝動に抵抗することをやめる例を載せる。本人に行為への欲求がないことは条件ではない。本文自身のデザート例とも説明が合わない。",
+          "action": "上位定義は抵抗・自制をやめることとし、誘惑の用途は『控えようとしていたことを、したい気持ちに負けてしてしまう』等に直す。"
+        }
+      ],
+      "normalizations": []
+    },
+    {
+      "role": "A",
+      "execution_id": "/root/review_dictionary_progress",
+      "model": "unknown",
+      "recorded_at": "2026-10-01T16:11:32.458532+00:00",
+      "request_path": "audits/runs/y/yield/20261001-review/reviews/A-round2.request.json",
+      "request_sha256": "24c27af75a025a96faf69470d837a778099fd503395ba2ef9b9f71d0806ac930",
+      "raw_response_path": "audits/runs/y/yield/20261001-review/reviews/A-round2.raw.json",
+      "raw_response_sha256": "10d388d70019fe69398d3e42ddb6ec438a3cb63d607ab2bcf8cd5ce4fcc3d847",
+      "body_sha256": "9fe5974b5a2690d0e6d886b70779dace5307a8439d36749d945ecd84cc7b44c5",
+      "area_keys": {
+        "pronunciation": "2a7aed7165fff53eb7abb15af25c5f085255cc89b9b4695a14803c7afaf6c114",
+        "etymology": "6f80806615a333a61513aaf3d6f86a9982c47ef1ef8f8745559200412664fbbf",
+        "word_formation": "208856f842a168165e00f7ee4dd0d64a6f9e6bc3be8e4d1a854351cf2f4d28ea",
+        "core_image": "692a10d9a138d031e09731db74c6cdc50c44235402afa6e2311b448a85f24167",
+        "sense:3c309abf0835fec811b3": "29547c8ac2f57cd38067a19afc280daf1bc7f2b8a3c90ec4582f979a96732715",
+        "sense:14dc268dd6dddc9bb22f": "06d01806dd457566b82a28d52d8d71d31967167b61d8546ee41fe157cb4b2dca",
+        "sense:50dac42a508d4abd3bb8": "c9c5dd613fa77b0433b4881aecd2c9d3c1d7b8e4ab6c12021cec00f7f06bc437",
+        "sense:a6ac4f0e7ddd8ae02c21": "d22b407c864b5b07cd7a4470c4f5e1af215e6475d54d47f0fdb8997fb42d88fb",
+        "sense:c30c4399a09abef1a771": "93515cfa6ba8da87bf224607cc778cdac2a9cf41c89f1769727c765a827cef75",
+        "sense:13edac2db56e863f3d3a": "37c2e157f004e06ec0a43bd9afbd86bd2cfc76cf23242e824db52e5822f98919",
+        "sense:4136eb2d73bf0521fa2d": "dc2d9871a71c9a9c37fe47a4ae64af99605de7f0618d70af7bf7fcfe87bee72f",
+        "sense:3fe1341993e417b4ea60": "9db013fc77458fc8898d5f3b8fe011a3220f89e44bbe68dbe3986ffcddde8771",
+        "sense:6b847210ed01208241b5": "c68b9fd89a1d417ef2b415d653c47258ef1f5646c340ed96df86b12390ffd726"
+      },
+      "checked_areas": [
+        "pronunciation",
+        "etymology",
+        "word_formation",
+        "core_image",
+        "sense:3c309abf0835fec811b3",
+        "sense:14dc268dd6dddc9bb22f",
+        "sense:50dac42a508d4abd3bb8",
+        "sense:a6ac4f0e7ddd8ae02c21",
+        "sense:c30c4399a09abef1a771",
+        "sense:13edac2db56e863f3d3a",
+        "sense:4136eb2d73bf0521fa2d",
+        "sense:3fe1341993e417b4ea60",
+        "sense:6b847210ed01208241b5"
+      ],
+      "unchecked_areas": [],
+      "findings": [
+        {
+          "area": "word_formation",
+          "severity": "minor",
+          "impact": "新たに追加した「産出する・収益を生む」にも unyielding がそのまま反意語になるという誤解を招く。",
+          "evidence": "L28『yielding は形容詞として「産出する・収益を生む」「柔軟な・たわみやすい」「譲歩的な」の意味でも使われる。high-yielding crops は「収量の多い作物」、income-yielding assets は「収入を生む資産」。unyielding はその反対で…』。この「その」が直前の全義を受ける形になった。通常の unyielding は柔軟性・譲歩の反対であり、低収量・無収益の一般的表現ではない。Oxford: https://www.oxfordlearnersdictionaries.com/definition/english/unyielding",
+          "action": "「unyielding は、柔軟性や譲歩を表す yielding の反対で」のように指示対象を限定する。high-yielding / income-yielding の追加自体は維持してよい。"
+        },
+        {
+          "area": "sense:a6ac4f0e7ddd8ae02c21",
+          "severity": "minor",
+          "impact": "submit の一般的な「提出する」の遭遇頻度を、ここで定義する「服従する」に混ぜたような高い尺度となっている。",
+          "evidence": "L282 定義『相手の権威や支配に従う、服従する』、L283 頻度〈8/10〉。指定仕様では8–9は日常・新聞・ビジネスで広く使う高頻度、6–7は場面・分野・レジスターがやや限定される中頻度。Oxfordではこの服従義を formal とし、書類の提出義を区別する: https://www.oxfordlearnersdictionaries.com/definition/english/submit",
+          "action": "提出義を一切含めず、この硬い服従義だけで中頻度程度（例6）に再評価する。数値は編集上の推定であり、コーパス測定値とはしない。細かな1点差を争う趣旨ではない。"
+        },
+        {
+          "area": "sense:6b847210ed01208241b5",
+          "severity": "minor",
+          "impact": "名詞 return の「帰還・返却」等を除外した金融収益義だけで超高頻度10とするため、指定された語義別・英語全体の尺度と整合しない。",
+          "evidence": "L648–650『return／定義: 投資や資産から得られる利益・収益。／頻度:〈10/10〉』。この定義は金融の収益義に限定される一方、指定仕様の10は会話・文章で日常的に目にする超高頻度であり、他義を合算してはならない。",
+          "action": "金融・ビジネスではよく使われるが分野限定があるという基準で10から下げる（編集上の目安7）。正確な統計値だとは主張せず、この金融義だけの尺度判断として記録する。"
+        }
+      ],
+      "normalizations": []
+    },
+    {
+      "role": "B",
+      "execution_id": "/root/identify_unreviewed_entries",
+      "model": "unknown",
+      "recorded_at": "2026-10-01T16:11:32.518354+00:00",
+      "request_path": "audits/runs/y/yield/20261001-review/reviews/B-round2.request.json",
+      "request_sha256": "11c56090a4437c17c1c67914b06fa24f07cd1742d042f638b5a65734a561d394",
+      "raw_response_path": "audits/runs/y/yield/20261001-review/reviews/B-round2.raw.json",
+      "raw_response_sha256": "5507245488ff20ab0d43ced4ab02f4d5b81f81c4ce26209163ec5607ec2d1396",
+      "body_sha256": "9fe5974b5a2690d0e6d886b70779dace5307a8439d36749d945ecd84cc7b44c5",
+      "area_keys": {
+        "pronunciation": "2a7aed7165fff53eb7abb15af25c5f085255cc89b9b4695a14803c7afaf6c114",
+        "etymology": "6f80806615a333a61513aaf3d6f86a9982c47ef1ef8f8745559200412664fbbf",
+        "word_formation": "208856f842a168165e00f7ee4dd0d64a6f9e6bc3be8e4d1a854351cf2f4d28ea",
+        "core_image": "692a10d9a138d031e09731db74c6cdc50c44235402afa6e2311b448a85f24167",
+        "sense:3c309abf0835fec811b3": "29547c8ac2f57cd38067a19afc280daf1bc7f2b8a3c90ec4582f979a96732715",
+        "sense:14dc268dd6dddc9bb22f": "06d01806dd457566b82a28d52d8d71d31967167b61d8546ee41fe157cb4b2dca",
+        "sense:50dac42a508d4abd3bb8": "c9c5dd613fa77b0433b4881aecd2c9d3c1d7b8e4ab6c12021cec00f7f06bc437",
+        "sense:a6ac4f0e7ddd8ae02c21": "d22b407c864b5b07cd7a4470c4f5e1af215e6475d54d47f0fdb8997fb42d88fb",
+        "sense:c30c4399a09abef1a771": "93515cfa6ba8da87bf224607cc778cdac2a9cf41c89f1769727c765a827cef75",
+        "sense:13edac2db56e863f3d3a": "37c2e157f004e06ec0a43bd9afbd86bd2cfc76cf23242e824db52e5822f98919",
+        "sense:4136eb2d73bf0521fa2d": "dc2d9871a71c9a9c37fe47a4ae64af99605de7f0618d70af7bf7fcfe87bee72f",
+        "sense:3fe1341993e417b4ea60": "9db013fc77458fc8898d5f3b8fe011a3220f89e44bbe68dbe3986ffcddde8771",
+        "sense:6b847210ed01208241b5": "c68b9fd89a1d417ef2b415d653c47258ef1f5646c340ed96df86b12390ffd726"
+      },
+      "checked_areas": [
+        "pronunciation",
+        "etymology",
+        "word_formation",
+        "core_image",
+        "sense:3c309abf0835fec811b3",
+        "sense:14dc268dd6dddc9bb22f",
+        "sense:50dac42a508d4abd3bb8",
+        "sense:a6ac4f0e7ddd8ae02c21",
+        "sense:c30c4399a09abef1a771",
+        "sense:13edac2db56e863f3d3a",
+        "sense:4136eb2d73bf0521fa2d",
+        "sense:3fe1341993e417b4ea60",
+        "sense:6b847210ed01208241b5"
+      ],
+      "unchecked_areas": [],
+      "findings": [],
+      "normalizations": []
+    },
+    {
+      "role": "A",
+      "execution_id": "/root/review_dictionary_progress",
+      "model": "unknown",
+      "recorded_at": "2026-10-01T16:13:55.034200+00:00",
+      "request_path": "audits/runs/y/yield/20261001-review/reviews/A-round3.request.json",
+      "request_sha256": "4b6eed88eb0ca842ed5e786ffdb6f5f569c228fa8c3f84bfb15b5a75559e7f80",
+      "raw_response_path": "audits/runs/y/yield/20261001-review/reviews/A-round3.raw.json",
+      "raw_response_sha256": "73abeb1eb60dc8fa29f5a0b2be611449f812baa478c5b77c4b6c472ee77a25db",
+      "body_sha256": "56014051172c32ca5602da2ff21d805199f11e171db0cddfc6ccd1283926f8a8",
+      "area_keys": {
+        "word_formation": "e640c130f9e5e6f4d8ce6e379d2137c5d5b843697c1ad5a0f30a13d825333026",
+        "core_image": "cf25d97011d9a525bb1131e3a3a431ba35d90b19570a3cb3c166ec94a4a2c147",
+        "sense:a6ac4f0e7ddd8ae02c21": "2a935c22c43cfe45674bdcd98ff05d6da40c40a5747956ff4604587324471f82",
+        "sense:6b847210ed01208241b5": "da149188495262d124f9f21bda5eb47c94a770dc263f94006d7f1e8f088c6577"
+      },
+      "checked_areas": [
+        "word_formation",
+        "core_image",
+        "sense:a6ac4f0e7ddd8ae02c21",
+        "sense:6b847210ed01208241b5"
+      ],
+      "unchecked_areas": [
+        {
+          "area": "pronunciation",
+          "reason": "この限定再点検では未再読。round 2で全文点検済みで、今回のarea hashがround 2から不変であることのみ確認。"
+        },
+        {
+          "area": "etymology",
+          "reason": "この限定再点検では未再読。round 2で全文点検済みで、今回のarea hashがround 2から不変であることのみ確認。"
+        },
+        {
+          "area": "sense:3c309abf0835fec811b3",
+          "reason": "この限定再点検では未再読。round 2で全文点検済みで、今回のarea hashがround 2から不変であることのみ確認。"
+        },
+        {
+          "area": "sense:14dc268dd6dddc9bb22f",
+          "reason": "この限定再点検では未再読。round 2で全文点検済みで、今回のarea hashがround 2から不変であることのみ確認。"
+        },
+        {
+          "area": "sense:50dac42a508d4abd3bb8",
+          "reason": "この限定再点検では未再読。round 2で全文点検済みで、今回のarea hashがround 2から不変であることのみ確認。"
+        },
+        {
+          "area": "sense:c30c4399a09abef1a771",
+          "reason": "この限定再点検では未再読。round 2で全文点検済みで、今回のarea hashがround 2から不変であることのみ確認。"
+        },
+        {
+          "area": "sense:13edac2db56e863f3d3a",
+          "reason": "この限定再点検では未再読。round 2で全文点検済みで、今回のarea hashがround 2から不変であることのみ確認。"
+        },
+        {
+          "area": "sense:4136eb2d73bf0521fa2d",
+          "reason": "この限定再点検では未再読。round 2で全文点検済みで、今回のarea hashがround 2から不変であることのみ確認。"
+        },
+        {
+          "area": "sense:3fe1341993e417b4ea60",
+          "reason": "この限定再点検では未再読。round 2で全文点検済みで、今回のarea hashがround 2から不変であることのみ確認。"
+        }
+      ],
+      "findings": [],
+      "normalizations": []
+    },
+    {
+      "role": "B",
+      "execution_id": "/root/identify_unreviewed_entries",
+      "model": "unknown",
+      "recorded_at": "2026-10-01T16:13:55.093323+00:00",
+      "request_path": "audits/runs/y/yield/20261001-review/reviews/B-round3.request.json",
+      "request_sha256": "12f719d019e71004af9af74c2bf0ee912788024fc0e118120327443d96869b5d",
+      "raw_response_path": "audits/runs/y/yield/20261001-review/reviews/B-round3.raw.json",
+      "raw_response_sha256": "0cf7f13b281866221ade442785e738a049f12813419f7cf20f5f973126bfa319",
+      "body_sha256": "56014051172c32ca5602da2ff21d805199f11e171db0cddfc6ccd1283926f8a8",
+      "area_keys": {
+        "word_formation": "e640c130f9e5e6f4d8ce6e379d2137c5d5b843697c1ad5a0f30a13d825333026",
+        "core_image": "cf25d97011d9a525bb1131e3a3a431ba35d90b19570a3cb3c166ec94a4a2c147",
+        "sense:a6ac4f0e7ddd8ae02c21": "2a935c22c43cfe45674bdcd98ff05d6da40c40a5747956ff4604587324471f82",
+        "sense:6b847210ed01208241b5": "da149188495262d124f9f21bda5eb47c94a770dc263f94006d7f1e8f088c6577"
+      },
+      "checked_areas": [
+        "word_formation",
+        "core_image",
+        "sense:a6ac4f0e7ddd8ae02c21",
+        "sense:6b847210ed01208241b5"
+      ],
+      "unchecked_areas": [
+        {
+          "area": "pronunciation",
+          "reason": "Unchanged since the fully read round 2 snapshot; not reread in this focused round. Earlier evidence may be reused only after dependency equality is verified."
+        },
+        {
+          "area": "etymology",
+          "reason": "Unchanged since the fully read round 2 snapshot; not reread in this focused round. Earlier evidence may be reused only after dependency equality is verified."
+        },
+        {
+          "area": "sense:3c309abf0835fec811b3",
+          "reason": "Unchanged since the fully read round 2 snapshot; not reread in this focused round. Earlier evidence may be reused only after dependency equality is verified."
+        },
+        {
+          "area": "sense:14dc268dd6dddc9bb22f",
+          "reason": "Unchanged since the fully read round 2 snapshot; not reread in this focused round. Earlier evidence may be reused only after dependency equality is verified."
+        },
+        {
+          "area": "sense:50dac42a508d4abd3bb8",
+          "reason": "Unchanged since the fully read round 2 snapshot; not reread in this focused round. Earlier evidence may be reused only after dependency equality is verified."
+        },
+        {
+          "area": "sense:c30c4399a09abef1a771",
+          "reason": "Unchanged since the fully read round 2 snapshot; not reread in this focused round. Earlier evidence may be reused only after dependency equality is verified."
+        },
+        {
+          "area": "sense:13edac2db56e863f3d3a",
+          "reason": "Unchanged since the fully read round 2 snapshot; not reread in this focused round. Earlier evidence may be reused only after dependency equality is verified."
+        },
+        {
+          "area": "sense:4136eb2d73bf0521fa2d",
+          "reason": "Unchanged since the fully read round 2 snapshot; not reread in this focused round. Earlier evidence may be reused only after dependency equality is verified."
+        },
+        {
+          "area": "sense:3fe1341993e417b4ea60",
+          "reason": "Unchanged since the fully read round 2 snapshot; not reread in this focused round. Earlier evidence may be reused only after dependency equality is verified."
+        }
+      ],
+      "findings": [],
+      "normalizations": []
+    }
+  ],
   "resolutions": [],
   "migration": null,
   "status": "in_progress",
-  "stage": "mechanical_validation",
+  "stage": "publication_blocked",
   "generator_execution_id": "/root/review_unchecked_dictionary_entries",
   "base_sha": "e2c80f043139da4b8090041422d19b08b89377c9",
-  "authorization_scope": "Recheck and correct yield with independent content/source reviews, then publish and merge after required checks; preserve historical invalidated records."
+  "authorization_scope": "Recheck and correct yield with independent content/source reviews, then publish and merge after required checks; preserve historical invalidated records.",
+  "publication_blocker": "Existing checker_subagent_gate rejects new compact generated run/request/snapshot JSON as missing preserved_handoff_v1. No workflow change or fabricated legacy protocol is authorized.",
+  "content_review_completed_at": "2026-10-01T16:15:15.339894+00:00",
+  "publication_status": "blocked_pending_workflow_fix"
 }

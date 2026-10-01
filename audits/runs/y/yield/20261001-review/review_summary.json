@@ -1,0 +1,47 @@
+{
+  "headword": "yield",
+  "base_commit": "e2c80f043139da4b8090041422d19b08b89377c9",
+  "proposed_body_sha256": "56014051172c32ca5602da2ff21d805199f11e171db0cddfc6ccd1283926f8a8",
+  "status": "linguistic_review_complete_publication_blocked",
+  "entry_status_kept": "needs_review",
+  "checked_kept": false,
+  "independent_review_rounds": 3,
+  "initial_findings": {
+    "A": 16,
+    "B": 9
+  },
+  "round2_findings": {
+    "A": 3,
+    "B": 0
+  },
+  "round3_findings": {
+    "A": 0,
+    "B": 0
+  },
+  "scope": "Round1 entire original entry; round2 entire revised entry; round3 four changed areas with unchanged area-key reuse. Genuine raw responses are preserved in reviews/. Model identifiers were not exposed and are recorded as unknown.",
+  "corrections": [
+    "Correct temptation/self-restraint meaning",
+    "Correct intransitive/transitive/reflexive labels and add productive intransitive yield",
+    "Correct earn asset subjects and possession versus ownership",
+    "Broaden physical meaning to movement/opening, and replacement meaning beyond technical novelty",
+    "Correct yield-to-maturity example and exclusion of tax/brokerage costs",
+    "Correct noun yield quantity/capacity and lexical comparisons; remove false antonym axes",
+    "Clarify yielding, unyielding and compound-word scope",
+    "Add concise specialist and superiority-idiom coverage",
+    "Calibrate clearly overbroad per-sense ordinal frequency scores without claiming corpus measurement",
+    "Preserve fullwidth headings and existing article structure"
+  ],
+  "format_validation": "pass; one nonfatal classifier warning for yield without breaking",
+  "local_roundtrip_simulation": {
+    "blocks": 224,
+    "senses": 9,
+    "collocations": 37,
+    "synonyms": 27,
+    "antonyms": 12,
+    "errors": [],
+    "external_sync_performed": false
+  },
+  "publication_blocker": "The unchanged compact coordinator generates run/request/snapshot JSON that checker_subagent_gate.py validate-changed treats as legacy runs and rejects for lacking preserved_handoff_v1. Workflow changes are outside the approved scope. No legacy protocol metadata is fabricated and no guard is bypassed.",
+  "notion_status": "Unchanged; no automatic main publication or manual downstream dispatch was performed.",
+  "next_step": "Resolve the workflow compatibility issue under separate authorization, resume this same run, rerun required gates, then publish/merge and verify automatic Notion sync."
+}
