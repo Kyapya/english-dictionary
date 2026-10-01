@@ -1,0 +1,133 @@
+{
+  "schema_version": "compact_review_response_v1",
+  "checked_areas": [
+    "pronunciation",
+    "etymology",
+    "word_formation",
+    "core_image",
+    "sense:1d3cf04081c3ddb441db",
+    "sense:14dc268dd6dddc9bb22f",
+    "sense:50dac42a508d4abd3bb8",
+    "sense:f8a94b523a6b20139a0b",
+    "sense:3ea93f6ee8da39773028",
+    "sense:40371a6c06c24f3b7ab2",
+    "sense:06aa311f85b4fbefc65b",
+    "sense:3fe1341993e417b4ea60",
+    "sense:6b847210ed01208241b5"
+  ],
+  "unchecked_areas": [],
+  "findings": [
+    {
+      "area": "word_formation",
+      "severity": "minor",
+      "impact": "yield sign の yield まで産出量を表す名詞からできていると誤解させる。",
+      "evidence": "L29『名詞 yield は「産出量・収益・利回り」を表し、crop yield「作物収量」、bond yield「債券利回り」、yield sign「譲れ標識」、yield point「降伏点」のような複合語を作る。』。ところがL636では yield sign を語義5の交通表現と正しく区別している。Oxfordの動詞項目も交通義で a yield sign を扱う: https://www.oxfordlearnersdictionaries.com/definition/english/yield_2",
+      "action": "crop yield / bond yield を名詞の例として残し、yield sign は交通の yield、yield point は材料の降伏に関わる関連複合語として別文で整理する。"
+    },
+    {
+      "area": "core_image",
+      "severity": "minor",
+      "impact": "通常の yield control / possession に『以前の所有者へ返還する』という不要な条件を加えてしまう。",
+      "evidence": "L33『手元にあるもの・抵抗・優先権を外へ返し』、L36『所有・支配を相手に返して手放す』。語義3のL206では a new management team に支配権を譲っており、返還である必要はない。",
+      "action": "現代語義3の枝は『所有・支配を相手に渡して手放す』などにする。共通核の『返す』は産出・収益の比喩であることを限定し、全用法に返還の意味を必須化しない。"
+    },
+    {
+      "area": "sense:1d3cf04081c3ddb441db",
+      "severity": "minor",
+      "impact": "調査が情報を生み出すことと、保有情報を公開・提供することが混同され、withhold を産出の反対と覚えさせる。",
+      "evidence": "L108『yield が結果や情報を外へ出すのに対し、withhold はそれを意図的に出さない』。L109の The agency withheld the data until the review was complete. は既にあるデータの公開を差し控える例であり、L70の survey yielded useful information の産出と逆の関係ではない。",
+      "action": "語義1の withhold を直接の反意語として扱わない。必要なら『情報を得る／産出することとは別に、その提供を差し控える表現』と明示するか、このブロックを削除する。語義3の withhold は維持できる。"
+    },
+    {
+      "area": "sense:14dc268dd6dddc9bb22f",
+      "severity": "minor",
+      "impact": "earn は人・組織だけが主語になるかのように教えながら、直後で口座を主語にするため、金融の基本構文を誤学習させる。",
+      "evidence": "L163『人や組織が収入・利益・利息を得る』、L165『earn は通常、得る側の人・組織を主語にする』に対してL166は The savings account earns interest every month.。資金・預金を主語にする金融の earn は通常の用法。Oxfordにも資金を主語にする金融義がある: https://www.oxfordlearnersdictionaries.com/definition/english/earn",
+      "action": "定義に『資金・預金などが利息や利益を生む』を含め、主語の人対資産を主要な違いとしない。earn interest / a return の用法と yield の産出・利回りへの焦点を限定して比較する。"
+    },
+    {
+      "area": "sense:50dac42a508d4abd3bb8",
+      "severity": "minor",
+      "impact": "不動産の占有返還と所有権移転を混同させる。",
+      "evidence": "L210 yield possession of の用途が『物の占有や所有を相手に明け渡す』。L211では tenant が new owner に property を明け渡すため、ここで譲るのは所有権ではなく占有。",
+      "action": "この構文の用途を『物・不動産の占有や所持を相手に明け渡す』とする。所有権そのものを譲る場合は ownership 等を用いた別構文と区別する。"
+    },
+    {
+      "area": "sense:f8a94b523a6b20139a0b",
+      "severity": "blocking",
+      "impact": "yield to temptation を『したくない行動をする』と逆向きに理解させる。誘惑では、したいが控えようとしていた行動に抵抗できなくなる。",
+      "evidence": "L267『望んでいなかった行動や条件を受け入れる』、L283『誘惑に負けて、したくないことをしてしまう』。直後の I yielded to temptation and ordered dessert. はデザートを欲しなかったという意味ではない。Cambridgeの temptation は、すべきでないと考えながらもしたい欲求を説明している: https://dictionary.cambridge.org/us/dictionary/english/temptation",
+      "action": "語義全体は『抵抗をやめて圧力・要求などに従う、または誘惑・感情に身を任せる』とし、誘惑の用途を『控えようとしていたことを、誘惑に負けてしてしまう』などに修正する。"
+    },
+    {
+      "area": "sense:f8a94b523a6b20139a0b",
+      "severity": "minor",
+      "impact": "自動詞と再帰代名詞を目的語にする他動詞構文を混同させる。",
+      "evidence": "L265は『【自動詞・屈服】』、L271は『目的語を直接取る明け渡しの yield とは区別する』だが、L273には yield oneself to 〈誘惑・感情〉 が含まれる。oneself は直接目的語。Merriam-Websterも再帰形を他動詞側に掲載: https://www.merriam-webster.com/dictionary/yield",
+      "action": "yield to ... は自動詞、硬い yield oneself to ... は再帰他動詞と明示する。見出しにも必要な他動詞表示を含め、目的語を取らないという説明の対象を yield to に限定する。"
+    },
+    {
+      "area": "sense:3ea93f6ee8da39773028",
+      "severity": "minor",
+      "impact": "right of way / precedence / floor を直接目的語に取る構文まで自動詞と誤分類する。",
+      "evidence": "L338『【自動詞・優先権／交通】』に対し、L346には yield the right of way / yield precedence / yield the floor。L370は floor の他動詞構文だけを認めているが、他の二つも目的語を取る。",
+      "action": "見出しを自動詞・他動詞の併記にし、yield to ... と yield + right of way / precedence / floor + to ... の区別を短くまとめる。"
+    },
+    {
+      "area": "sense:40371a6c06c24f3b7ab2",
+      "severity": "minor",
+      "impact": "物理的 yield は必ず変形・破損するという誤解を生み、記事自身の門や錠前の例を説明できない。",
+      "evidence": "L411『たわむ、変形する、折れる』、L413『曲がる、伸びる、へこむ、または壊れる方向に変形する』に対して、L430は gate が風で動き、L440は lock が開かない例。Oxfordは移動も含めて説明し、錠前の例を掲載: https://www.oxfordlearnersdictionaries.com/definition/english/yield_2",
+      "action": "見出し・定義を『力を受けて動く、開く、たわむ、変形する』などに広げ、破断は起こり得る結果と位置付ける。材料工学の塑性変形という限定は一般用法と分けて維持する。コアイメージ語義6の枝も整合させる。"
+    },
+    {
+      "area": "sense:06aa311f85b4fbefc65b",
+      "severity": "minor",
+      "impact": "yield place to の place を目的語と認識できなくなる。",
+      "evidence": "L484は『【自動詞・交代】』、L516は『yield to は置き換えられる側を主語にする自動詞』とする一方、L492・506・508は yield place to / Old customs have yielded place to ... を含む。yield to 自体の説明は正しいが、yield place to は place を目的語に取る別構文。",
+      "action": "yield place to は他動詞構文であることを明記し、見出しの品詞表示を対応させる。yield to と replace の主語方向の説明は維持する。"
+    },
+    {
+      "area": "sense:3fe1341993e417b4ea60",
+      "severity": "minor",
+      "impact": "英文が明示しない無失点という情報を訳に補っている。",
+      "evidence": "L586 The reliever yielded two walks but escaped the inning. に対しL587は『回を無失点で切り抜けた』。escaped the inning は危機を脱してイニングを終えたという含みはあるが、その回に失点が全くなかったことを単独で確定する表現ではない。",
+      "action": "無失点を教えたいなら英文を ... but escaped the inning without allowing a run. などと明示する。あるいは訳から『無失点で』を外す。"
+    },
+    {
+      "area": "sense:6b847210ed01208241b5",
+      "severity": "blocking",
+      "impact": "通常の債券ファンド自体に満期があり、そのファンド価格・キャッシュフローから単一債券と同様の満期利回りを算出すると誤解させる。",
+      "evidence": "L659 The fund's yield to maturity was calculated from its price and cash flows. / L660『そのファンドの満期利回りは価格とキャッシュフローから計算された』。L658の定義は債券を満期保有する利回りなのに、例文だけ無限定の fund に変わっている。ファンドが表示するポートフォリオ利回りと単一債券のYTMは区別が必要。FINRAの定義・式は債券価格とその利払・元本返済を用いる: https://www.finra.org/investors/insights/bond-yield-return",
+      "action": "学習例は fund を bond に変え、price と予定利払・償還キャッシュフローの対応を維持する。ファンドのポートフォリオ指標まで記事を広げる必要はない。"
+    },
+    {
+      "area": "sense:6b847210ed01208241b5",
+      "severity": "blocking",
+      "impact": "標準的なYTMに手数料が織り込まれていると誤認させ、実際の手取り収益率と混同させる。",
+      "evidence": "L662『yield to maturity は債券の専門用語で、手数料・再投資などの前提を含めた計算値として扱う』。標準的なYTMは通常、税・購入時の仲介費用を含めない。FINRAはこの点を明記: https://www.finra.org/investors/insights/bond-yield-return",
+      "action": "『予定どおりの利払・償還を前提とする計算上の利回りで、通常は税・手数料を含めず、実現収益率を保証しない』等に修正する。再投資について言及する場合は計算上の利回りと実際の再投資成果を区別する。"
+    },
+    {
+      "area": "sense:6b847210ed01208241b5",
+      "severity": "minor",
+      "impact": "crop yield は常に単位面積・単位個体当たりの率でなければならないと誤解させる。",
+      "evidence": "L636『crop yield は単位面積・単位個体あたりの量で示す』、L662『crop yield は土地や投入量との関係を含む収量』。一般名詞の yield は生産された総量も表す。Oxfordの名詞定義は総量を含む: https://www.oxfordlearnersdictionaries.com/definition/english/yield_1",
+      "action": "『総収量にも使い、農業比較では単位面積・単位個体あたりの量で示すことが多い』などに限定する。既存の yield per acre 例はそのままでよい。"
+    },
+    {
+      "area": "sense:6b847210ed01208241b5",
+      "severity": "minor",
+      "impact": "名詞 yield が収入を生む資産そのものを指すかのような比較になっている。",
+      "evidence": "L683『income は受け取るお金に焦点があり、yield はそれを生む資産や利回りの測定に焦点を置きやすい』。ここは名詞の類義語欄であり、yield が指すのは収益・産出量・利回りであって資産ではない。L632の定義とも比較軸がずれる。",
+      "action": "資産への焦点という説明を外し、『income は継続的な収入を表し、yield は投資からの収益額・利回りや活動からの産出量を表す』など、名詞同士で比較する。定義にも必要なら金額としての収益を明記する。"
+    },
+    {
+      "area": "sense:6b847210ed01208241b5",
+      "severity": "minor",
+      "impact": "yield 自体に期待値・目標値の意味があると誤解させ、shortfall を直接の反意語とする根拠が崩れている。",
+      "evidence": "L692『yield が期待される産出量を表すのに対し、shortfall は目標や必要量からの不足』。yield は実際の産出量にも用いられ、低い yield と shortfall は同時に成立する。",
+      "action": "yield は産出量、shortfall は必要量・予想量に対する不足量であり直接の反意語ではないと明記するか、反意語欄から shortfall ブロックを外す。『期待される』を yield の必須意味にしない。"
+    }
+  ]
+}
