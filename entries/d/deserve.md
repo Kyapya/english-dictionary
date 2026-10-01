@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-5.6-luna-wm
 created_at: 2026-08-25
-updated_at: 2026-08-25
+updated_at: 2026-10-01
 checked: true
 tags: []
 ---
@@ -26,15 +26,15 @@ tags: []
 
 `deserves / deserved / deserving` — `deserve` の三人称単数現在形・過去形／過去分詞・現在分詞。`deserve` は状態・評価を表す動詞なので、通常は進行形にしない。  
 `deserving`（形容詞）— `deserving of + 名詞` で「援助・称賛・報酬などを受けるに値する」。単なる現在分詞よりも、「支援すべき価値がある」という形容詞として使われることがある。  
-`deserved`（形容詞）— `a well-deserved rest`「十分に休むに値する休息」、`well-deserved praise`「当然受けるに値する称賛」のように、結果・扱いが妥当だったことを表す。  
+`deserved`（形容詞）— `a well-deserved rest`「努力や働きに見合った休息」、`well-deserved praise`「当然受けるに値する称賛」のように、結果・扱いが妥当であることを表す。  
 `undeserved / undeserving`（形容詞）— `undeserved criticism` は「不当な批判」、`an undeserving recipient` は「受ける資格・価値のない受給者」のように、`deserve` の評価を否定する。`deservedly`（副詞）やまれな名詞 `deserver` もある。  
 
 ＃コアイメージ
 
 `deserve` の核は、ある人・物の行為、性質、重要性などを根拠として、報酬・称賛・罰・注意・扱い・結果が「それに見合って適切だ」と判断することである。よい結果にも悪い結果にも使え、実際にその結果が起きることや、法律上の権利があることまで保証しない。  
 ・行為や性質に見合う扱い・反応が適切だと判断すること → 「〜を受けるに値する、〜にふさわしい」（語義1）  
-・行為者や対象が、ある行為をする・されるのが適切だと判断すること → 「〜する／されるに値する」（語義2）  
-・ある事柄が、検討・説明などの対象にされる価値があると判断すること → 「〜される価値がある」（語義3）  
+・行為者や対象が、ある行為をする・されるのが適切だと判断すること → 「〜する／されるに値する、当然〜になるべきだ」（語義2）  
+・ある事柄が、検討・説明などの対象にされる価値があると判断すること → 「〜される価値がある、〜するだけの価値がある」（語義3）  
 
 ＃意味・用法・関連表現
 
@@ -46,11 +46,11 @@ tags: []
 
 【レジスター/領域】標準的で非常に広く使う。称賛・感謝・尊敬などの肯定的評価、非難・責任・処罰などの否定的評価、報告書や研究の重要性に対する中立的な評価のいずれにも使える。  
 
-【文法パターン】`〈人・物〉 deserve 〈reward/praise/attention〉`＝人・物が報酬・称賛・注意などを受けるに値する／`〈人・物〉 deserve 〈blame/punishment/criticism〉`＝人・物が非難・罰・批判などを受けるに値する／`〈人・物〉 deserve a rest/a chance/a mention`＝休息・機会・言及を受けるに値する／`〈人・物〉 deserve better`＝もっとよい扱いを受けるに値する／`What have I done to deserve this?`＝自分が何をしたからこんな扱いを受けるのかという不満・冗談めいた反語  
+【文法パターン】`〈人・物〉 deserve 〈reward/praise/attention〉`＝人・物が報酬・称賛・注意などを受けるに値する／`deserve something for 〈名詞・動名詞〉`＝～を理由にある扱いを受けるに値する／`〈人・物〉 deserve 〈blame/punishment/criticism〉`＝人・物が非難・罰・批判などを受けるに値する／`〈人・物〉 deserve a rest/a chance/a mention`＝休息・機会・言及を受けるに値する／`〈人・物〉 deserve better`＝もっとよい扱いを受けるに値する／`What have I done to deserve this?`＝自分が何をしたからこんな扱いを受けるのかという不満・冗談めいた反語／`one good turn deserves another`＝親切には親切で報いるべきだということわざ  
 
 【コロケーション】
 
-・deserve praise/credit/respect  
+・deserve praise/credit/respect for 〈something/doing〉  
 用途: 努力、貢献、態度などに対する称賛・評価・尊敬が妥当だと述べる。  
 例: The volunteers deserve credit for keeping the shelter open through the winter.  
 訳: そのボランティアたちは、冬の間も避難所を開け続けたことで評価されて当然だ。  
@@ -90,6 +90,11 @@ tags: []
 例: You deserve a medal for looking after those children all weekend.  
 訳: 週末ずっとあの子どもたちの世話をしたなんて、勲章ものだよ。  
 
+・one good turn deserves another  
+用途: 受けた親切に、こちらも親切で応えるべきだということわざ。  
+例: You helped me move last month, so let me help you now; one good turn deserves another.  
+訳: 先月は引っ越しを手伝ってくれたから、今度は僕に手伝わせて。親切には親切で報いないとね。  
+
 【語法・注意】`deserve` の目的語は「受けるに値するもの」であり、よいものだけに限られない。`deserve praise` は「称賛されて当然」、`deserve punishment` は「罰を受けて当然」である。  
 
 `be entitled to` は権利・資格・契約上の請求可能性に焦点を置くのに対し、`deserve` は行為や性質に照らした評価に焦点を置く。したがって、`deserve a reward` と言えても、法的にその報酬を請求できるとは限らない。  
@@ -115,14 +120,14 @@ tags: []
 ・warrant  
 定義: ある行動、判断、処置を正当化するだけの根拠がある。  
 頻度: 〈6/10〉  
-違い: `warrant` は「何かを行うだけの事情・証拠がある」という因果的・実務的な語で、人が報酬や罰を受ける道徳的評価を直接表す語ではない。  
+違い: `warrant` は「何かを行うだけの事情・証拠がある」という根拠・正当性に関する語で、人が報酬や罰を受ける道徳的評価を直接表す語ではない。  
 例: The evidence does not warrant such a strong conclusion.  
 訳: その証拠は、そこまで強い結論を正当化するものではない。  
 
 ・earn  
-定義: 努力、行為、勤務などの結果として、報酬・信頼・評価・反応を得る。  
+定義: 努力、行為、勤務などによって、報酬・信頼・評価・反応、またはそれを受ける資格を得る。  
 頻度: 〈9/10〉  
-違い: `earn` は努力や実績によって結果を実際に獲得する過程に焦点を置く。`deserve` は、その結果を受けるのが妥当かという評価に焦点を置き、実現していない結果にも使える。  
+違い: `earn` は努力・行為・実績が報酬や評価、またはそれを受ける資格をもたらす点に焦点がある。休息などについては、実際に受け取る前にも使える。`deserve` は、その扱い・結果が行為や性質に見合って妥当かという評価に焦点を置く。  
 例: She earned the team's trust by admitting her mistake.  
 訳: 彼女は自分の間違いを認めることで、チームの信頼を得た。  
 
@@ -198,7 +203,7 @@ tags: []
 ・be worthy of  
 定義: 性質や価値の点で、ある評価や扱いに値する。  
 頻度: 〈8/10〉  
-違い: `be worthy of` の後ろは名詞または動名詞で、`be worthy to do` は一般的な形ではない。`deserve to do` のように主語が行為者となる構文とは形が異なる。  
+違い: `be worthy of` の後ろは名詞または動名詞になる。改まった表現では `be worthy to do` も使い、その行為をするにふさわしい資質があることを表す。`deserve to do` が行為や状況に見合う結果を評価するのに対し、`worthy` は本人や対象の価値・資質を強調しやすい。  
 例: The cause is worthy of your support.  
 訳: その大義はあなたの支援を受けるに値する。  
 
