@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: unknown
 created_at: 2026-06-14
-updated_at: 2026-08-16
+updated_at: 2026-10-01
 checked: true
 tags: []
 ---
@@ -36,7 +36,7 @@ tags: []
 
 ＃コアイメージ
 
-一つのまとまりを複数の受け手・場所・経路へ配ること、または人為的な配分を伴わずに、物・生物・数値などがどのように広がっているかを捉える語。数学では、通常の関数を一般化し、試験関数に作用する数学的対象である「超関数」へ意味が専門化する。焦点が「配る行為」「広がった配置」「市場へ届ける仕組み」「配られた取り分」「配布単位としてまとめられたソフトウェア構成」「Pythonの配布パッケージ」「試験関数に作用する数学的対象」のどこに置かれるかで日本語訳が変わる。  
+物を受け手や場所へ配ること、または人為的な配分を伴わずに物・生物・数値などが広がっていることを、行為・状態・仕組み・取り分・配布単位として捉える語。数学解析の用法も、質量・電荷などの分布を通常の関数より広く表すものとして理解できるが、厳密な定義は語義7で示す。  
 
 ・複数の受け手へ割り振る行為 → 「分配、配布、配給」（語義1）  
 ・複数の場所・集団・値に広がった状態 → 「分布、配置、分配のあり方」（語義2）  
@@ -44,13 +44,13 @@ tags: []
 ・受取人へ割り振られた金銭・資産の取り分 → 「金融・法律上の分配、分配金」（語義4）  
 ・ソフトウェア群を一まとまりとして利用者へ配る単位 → 「ソフトウェア・ディストリビューション」（語義5）  
 ・Pythonプロジェクトの配布・インストール単位 → 「Python packagingにおける配布パッケージ」（語義6）  
-・試験関数に作用する数学解析の対象 → 「超関数（一般化関数の一種）」（語義7）  
+・質量・電荷などの分布を一般化した対象 → 「数学解析の超関数（一般化関数の一種）」（語義7）  
 
 語義1〜3は固定的に切り分けられるとは限らない。distribution of resources/products/information は、配る行為、配分された状態、流通の仕組みのいずれにも読める。たとえば distribution of food to villages は配給・配布の行為、distribution of products through wholesalers は流通経路・仕組み、geographical distribution of products は配置・分布に焦点がある。対象・動詞・前置詞・ビジネス文脈のどこに焦点があるかで、最も自然な語義が決まる。  
 
 ＃意味・用法・関連表現
 
-以下の頻度スコアは、英語全体での遭遇頻度を厳密に測定した統計値ではなく、語義・用法ごとに学習辞書、一般辞書、用例・コーパス資料での出現範囲を照合した記事内の目安である。語義間・類義語間で厳密に比較できる尺度ではなく、専門領域内での頻度と英語全体の頻度を直接比較するものでもない。  
+以下の頻度スコアは、各語義・用法に限って、英語全体で出会う頻度を10段階で示す編集上の目安である。見出し語全体の頻度や、この記事内・専門領域内だけの相対順位ではなく、厳密なコーパス測定値でもない。  
 
 1. 【名詞・主に不可算】分配、配布、配給
 
@@ -320,18 +320,18 @@ tags: []
 
 4. 【名詞・可算・不可算】金融・法律上の分配、分配金
 
-【日本語訳・定義】金融・投資・信託・相続・法務・退職口座などの文脈で、会社・ファンド・信託・遺産（無遺言遺産を含む）・口座などから株主・投資家・受益者・相続人・口座名義人へ金銭や資産を移すこと、または実際に支払われる一回分の金額・取り分。退職口座では、受益者への分配だけでなく口座からの払戻し・引き出しを指すこともある。可算の a distribution は「一回の分配・分配金」を表せるが、制度全体や分配の仕組みを指す不可算用法もある。  
+【日本語訳・定義】金融・投資・信託・相続・法務・退職口座などの文脈で、会社・ファンド・信託・遺産（無遺言遺産を含む）・破産財団・口座などから株主・投資家・受益者・相続人・債権者・口座名義人へ金銭や資産を移すこと、または実際に支払われる一回分の金額・取り分。退職口座では、受益者への分配だけでなく口座からの払戻し・引き出しを指すこともある。可算の a distribution は「一回の分配・分配金」を表せるが、制度全体や分配の仕組みを指す不可算用法もある。  
 
 【頻度】〈4/10〉  
 
 【レジスター/領域】金融・投資・信託・相続・法務・退職口座。一般会話より、投資信託、信託・遺産からの受益者・相続人への移転、退職口座、会社から投資家への支払いなどの文書で現れやすい。  
 
-【文法パターン】make a distribution to 〈investors/beneficiaries〉＝投資家・受益者へ分配金を支払う／receive a distribution from a fund＝ファンドから分配を受ける／receive a distribution from a trust＝信託から分配を受ける／receive a distribution from an estate＝遺産から分配を受ける／receive a distribution from an account＝口座から分配を受ける／a 〈cash〉 distribution＝現金分配／an 〈annual〉 distribution＝年次分配／a 〈final〉 distribution＝最終分配  
+【文法パターン】make a distribution to 〈investors/beneficiaries/creditors〉＝投資家・受益者・債権者へ分配・配当を行う／receive a distribution from a fund＝ファンドから分配を受ける／receive a distribution from a trust＝信託から分配を受ける／receive a distribution from an estate＝遺産から分配を受ける／receive a distribution from an account＝口座から分配を受ける／a 〈cash〉 distribution＝現金分配／an 〈annual〉 distribution＝年次分配／a 〈final〉 distribution＝最終分配  
 
 【コロケーション】
 
-・make a distribution to 〈investors/beneficiaries〉  
-用途: ファンド・会社などが受取人へ金銭や資産を分配する。  
+・make a distribution to 〈investors/beneficiaries/creditors〉  
+用途: ファンド・会社などが受取人へ金銭や資産を分配する。破産手続きで債権者へ配当する場合にも使う。  
 例: The fund will make a distribution to investors at the end of the year.  
 訳: そのファンドは年末に投資家へ分配金を支払う予定だ。  
 
@@ -355,7 +355,16 @@ tags: []
 例: This is the fund's final distribution for the year.  
 訳: これはそのファンドの今年最後の分配金である。  
 
-【語法・注意】この語義では「分配する行為」と「分配された金額」の両方を表せる。a distribution, distributions のように可算なら、一回ごとの支払い・取り分を指すことが多い。dividend と重なる場合はあるが、distribution はより広くファンド等からの分配にも使われるため、常に「配当」と訳すとは限らない。具体的な税務・法的扱いは制度によって異なるので、語の意味だけから判断しない。  
+【語法・注意】この語義では「分配する行為」と「分配された金額」の両方を表せる。a distribution, distributions のように可算なら、一回ごとの支払い・取り分を指すことが多い。dividend と重なる場合はあるが、distribution はより広くファンド等からの分配にも使われるため、常に「配当」と訳すとは限らない。破産手続きの distribution to creditors は債権者への配当を指す。この場合の bankruptcy estate は破産財団であり、故人の遺産とは区別する。具体的な税務・法的扱いは制度によって異なるので、語の意味だけから判断しない。  
+
+関連語との対照として、支払い全般を表す payment を区別する。  
+
+・payment  
+定義: 金銭を支払うこと、または支払われる金額。  
+頻度: 〈10/10〉  
+違い: 厳密な類義語ではなく、最も広い関連語・対照語。分配という発生源・仕組みを含意しないが、distribution は何かを受取人へ割り振る文脈を保つ。  
+例: The payment will be deposited into your account tomorrow.  
+訳: その支払いは明日あなたの口座に入金される。  
 
 【類義語】
 
@@ -372,13 +381,6 @@ tags: []
 違い: 株主への会社配当を中心とするが、投資商品の収益分配などにも使われる。distribution は会社・ファンド・信託などからの分配という出来事や支払額をより広く表す。  
 例: The company declared a quarterly dividend.  
 訳: その会社は四半期配当を発表した。  
-
-・payment  
-定義: 金銭を支払うこと、または支払われる金額。  
-頻度: 〈10/10〉  
-違い: 厳密な類義語ではなく、最も広い関連語・対照語。分配という発生源・仕組みを含意しないが、distribution は何かを受取人へ割り振る文脈を保つ。  
-例: The payment will be deposited into your account tomorrow.  
-訳: その支払いは明日あなたの口座に入金される。  
 
 5. 【名詞・可算】ソフトウェア・ディストリビューション
 
@@ -425,28 +427,28 @@ tags: []
 
 6. 【名詞・可算】Python packagingにおける配布パッケージ
 
-【日本語訳・定義】Python packaging で、distribution package は、pip install などで指定するインストール可能な software/project の名前・単位を指すことが多い。PyPAでは、特定バージョンを含む一つの配布ファイルを指す用法もある。用語を区別する場合は project を開発対象、release を特定バージョンのスナップショット、source distribution（sdist）と built distribution（通常はwheel）を配布形式、distribution archive をその物理ファイル、installed distribution をインストール済み対象のメタデータとして扱う。単語単独の distribution はこの用法を短く指す場合があるが、技術文書では distribution package または installed distribution と明示する方が安全である。  
+【日本語訳・定義】Python packaging で、distribution package は、インストール可能なソフトウェアの単位を指すことが多く、pip install などではその名前を指定する。PyPAでは、特定バージョンを含む一つの配布ファイルを指す用法もある。用語を区別する場合は project を開発対象、release を特定バージョンのスナップショット、source distribution（sdist）と built distribution（通常はwheel）を配布形式、distribution archive をその物理ファイル、installed distribution を環境にインストールされた配布パッケージとして扱う。単語単独の distribution はこの用法を短く指す場合があるが、技術文書では distribution package または installed distribution と明示する方が安全である。  
 
 【頻度】〈2/10〉  
 
 【レジスター/領域】コンピューター・IT・Python packaging。一般的なLinux distributionとは異なり、Pythonプロジェクトのビルド・配布・インストールを説明する技術文書で使われる。  
 
-【文法パターン】a distribution package in Python packaging＝Python用の配布パッケージ／a distribution package from 〈a project〉＝〈プロジェクト〉から作られた配布パッケージ／install/require 〈a distribution package〉＝配布パッケージをインストール・依存指定する／an installed distribution＝インストール済みのdistribution／the name/version/metadata/files of 〈a distribution〉＝distributionの名前・バージョン・メタデータ・ファイル／build a source distribution or wheel from 〈a project〉＝〈プロジェクト〉からソース配布物またはwheelをビルドする／upload a distribution archive to 〈a package index〉＝配布アーカイブを〈パッケージインデックス〉へアップロードする  
+【文法パターン】a distribution package in Python packaging＝Python用の配布パッケージ／build a distribution package from 〈a project's source code〉＝〈プロジェクトのソースコード〉から配布パッケージをビルドする／publish a distribution package for 〈a release〉＝〈リリース〉用の配布パッケージを公開する／install/require 〈a distribution package〉＝配布パッケージをインストール・依存指定する／an installed distribution＝インストール済みのdistribution／the name/version/metadata/files of 〈a distribution〉＝distributionの名前・バージョン・メタデータ・ファイル／build a source distribution or wheel from 〈a project〉＝〈プロジェクト〉からソース配布物またはwheelをビルドする／upload a distribution archive to 〈a package index〉＝配布アーカイブを〈パッケージインデックス〉へアップロードする  
 
 【コロケーション】
 
-・a distribution package from 〈a project〉  
+・build a distribution package from 〈a project's source code〉  
 用途: Python packagingで、開発対象であるprojectから配布パッケージを作る関係を表す。projectそのものではなく、そこから生成される配布単位に焦点がある。  
 例: The distribution package is built from the project's source code.  
 訳: その配布パッケージはプロジェクトのソースコードからビルドされる。  
 
-・a distribution package for 〈a release〉  
+・publish a distribution package for 〈a release〉  
 用途: projectの特定バージョンであるrelease向けの配布パッケージを表す。releaseそのものではなく、そのversionを配布・インストールする単位に焦点がある。  
 例: The distribution package is published for the latest release.  
 訳: その配布パッケージは最新リリース向けに公開される。  
 
 ・a distribution package  
-用途: Pythonプロジェクトをインストールするための名前・単位を表す。文脈によっては特定バージョンを含む配布ファイルを指す。  
+用途: Pythonプロジェクトを配布・インストールする単位を表す。文脈によっては特定バージョンを含む配布ファイルを指す。  
 例: The build backend creates a distribution package from the project.  
 訳: そのビルドバックエンドはプロジェクトから配布パッケージを作成する。  
 
@@ -457,8 +459,8 @@ tags: []
 
 ・build a source distribution or wheel from 〈a project〉  
 用途: projectのソースツリーから、配布・インストールに使うsource distributionまたはwheelを作ることを表す。  
-例: The build backend builds a source distribution and a wheel for the release.  
-訳: そのビルドバックエンドはそのリリース用のソース配布物とwheelをビルドする。  
+例: The build backend builds a source distribution and a wheel from the project.  
+訳: そのビルドバックエンドはそのプロジェクトからソース配布物とwheelをビルドする。  
 
 ・a built distribution  
 用途: インストール先へ必要なファイルとメタデータを移せる状態のビルド済み配布形式を表す。wheelが代表例。  
@@ -485,14 +487,14 @@ tags: []
 例: The script reads the metadata and files of a distribution.  
 訳: そのスクリプトはdistributionのメタデータとファイルを読み取る。  
 
-【語法・注意】Python packagingでは、project、release、distribution package、source/built distribution、distribution archive、installed distribution、import packageは役割が異なる。projectは開発対象、releaseは特定バージョン、distribution packageはインストール対象または文脈によりその配布単位、source/built distributionは配布artifactの形式、distribution archiveは特定の物理ファイルを強調する呼び方、installed distributionはインストール済み対象のメタデータを扱う呼び方である。source distribution（sdist）はソース配布物で、wheelなどのbuilt distributionとは異なり、インストール時またはwheel作成前にビルド工程を要することがある。import packageはPythonコードからimportでき、サブモジュールを含み得るPython moduleの一種であり、moduleという上位概念そのものと同一ではない。distribution package名・project名とimport package名は一致するとは限らず、PillowがPILを提供するように異なることがある。一つのdistribution packageが複数のimport packageを提供することもあり、package単独では対象を特定できない。単語単独の distribution は文脈によりLinux distribution、Pythonのdistribution package、installed distributionなどを指し得るため、技術文書では対象を distribution package や installed distribution と明示する方が安全である。  
+【語法・注意】Python packagingでは、project、release、distribution package、source/built distribution、distribution archive、installed distribution、import packageは役割が異なる。projectは開発対象、releaseは特定バージョン、distribution packageはインストール対象または文脈によりその配布単位、source/built distributionは配布artifactの形式、distribution archiveは特定の物理ファイルを強調する呼び方、installed distributionは環境にインストールされた配布パッケージである。importlib.metadata の Distribution オブジェクトは、その配布パッケージのメタデータを表現する。source distribution（sdist）はソース配布物で、wheelなどのbuilt distributionとは異なり、インストール前にビルド工程を要する。このビルドは、必ずしもネイティブコードのコンパイルを意味しない。import packageはPythonコードからimportでき、サブモジュールを含み得るPython moduleの一種であり、moduleという上位概念そのものと同一ではない。distribution package名・project名とimport package名は一致するとは限らず、PillowがPILを提供するように異なることがある。一つのdistribution packageが複数のimport packageを提供することもあり、package単独では対象を特定できない。単語単独の distribution は文脈によりLinux distribution、Pythonのdistribution package、installed distributionなどを指し得るため、技術文書では対象を distribution package や installed distribution と明示する方が安全である。  
 
 【類義語】
 
 ・package  
-定義: Python packagingでdistribution packageまたはimport packageを指し得る短縮形・総称。文脈によってはLinuxなどのOS packageも指すため、単独では対象を特定できない。  
+定義: Python packagingで、配布・インストール対象である distribution package を短く指す語。  
 頻度: 〈6/10〉  
-違い: 厳密な類義語というより短い関連語で、distribution package、import package、OS packageのいずれも指し得る。曖昧さを避ける技術文書では対象を明示する。  
+違い: この意味では distribution package の短縮形だが、別の文脈では import package やOS packageも指す。曖昧さを避ける技術文書では対象を明示する。  
 例: Pillow is a distribution package that provides the PIL import package.  
 訳: PillowはPIL import packageを提供するdistribution packageである。  
 
