@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-5.6-luna-wm
 created_at: 2026-08-27
-updated_at: 2026-08-27
+updated_at: 2026-10-01
 checked: true
 tags: []
 ---
@@ -19,7 +19,7 @@ tags: []
 ＃語源
 
 `conservation` は中英語 `conservacioun`、古フランス語 `conservation` を経て、ラテン語 `conservatio`「保存、保全」に由来する。ラテン語 `conservare`「保つ、損なわないようにする」にさかのぼり、英語では「失われたり損なわれたりしないように保つこと」を中心に意味を発達させた。  
-現代英語では、自然資源を使いながら将来の損失を防ぐ保全、文化財の材料と価値を守る専門的保存、変化の前後で物理量の総量を保つ保存則へと用法が分かれる。物理学の用法は、日常的な「節約」から直接導かれたというより、「総量を失わせず保つ」という共通の概念を技術用語として用いるものである。  
+現代英語では、自然資源や環境を守り、将来の損失を防ぐ保全、文化財の材料と価値を守る専門的保存、変化の前後で物理量の総量を保つ保存則へと用法が分かれる。物理学の用法は、日常的な「節約」から直接導かれたというより、「総量を失わせず保つ」という共通の概念を技術用語として用いるものである。  
 
 ＃語形成
 
@@ -32,16 +32,16 @@ tags: []
 
 ＃コアイメージ
 
-`conservation` の核は、資源・物・価値・総量などを、損失や望ましくない変化から守って保つことである。何を保つかによって、環境・文化財の実践的な「保全」と、物理学の「総量が変わらない」という専門用法に分かれる。  
-・自然資源や環境を使い尽くしたり損なったりしないように保つ → 「保全、環境保護、節約」（語義1）  
-・作品や文化財の材料・情報・価値を損なわずに将来へ保つ → 「保存、保全、保存修復」（語義2）  
-・系の物理量の総量を変化や変換の前後で保つ → 「保存則、保存」（語義3）  
+`conservation` の共通イメージは、資源・物・価値・総量などが失われずに保たれることである。環境・文化財では守り保つための実践を、物理学では人の意図にかかわらず総量が変わらない性質を表す。  
+・自然資源や環境を使い尽くしたり損なったりしないように保つ → 「自然資源・環境の保全、環境保護、資源の節約」（語義1）  
+・作品や文化財の材料・情報・価値を損なわずに将来へ保つ → 「美術品・文化財・歴史的建造物の保存、保全、保存修復」（語義2）  
+・系の物理量の総量を変化や変換の前後で保つ → 「物理量の保存、保存則」（語義3）  
 
 ＃意味・用法・関連表現
 
 1. 【名詞・不可算】自然資源・環境の保全、環境保護、資源の節約
 
-【日本語訳・定義】水、エネルギー、森林、野生生物などの自然資源や環境を、浪費、枯渇、破壊から守るために、計画的・慎重に利用し管理すること。利用を一切禁止することではなく、将来も利用できる状態を保つことに重点がある。  
+【日本語訳・定義】水、エネルギー、森林、野生生物などの自然資源や環境を、浪費、枯渇、破壊から守るために、保護・管理すること。持続可能な利用を伴う場合も、利用を制限・禁止する場合もあり、生態系や資源を長期的に守ることに重点がある。  
 
 【頻度】〈9/10〉  
 
@@ -53,8 +53,8 @@ tags: []
 
 ・`conservation of 〈natural resource〉`  
 用途: 水、森林、土壌などの自然資源を、使い切ったり損なったりしないよう管理することを表す。  
-例: The region introduced strict conservation of groundwater after several dry years.  
-訳: その地域は数年続いた干ばつの後、地下水の厳格な保全を導入した。  
+例: The region introduced strict measures for the conservation of groundwater after several dry years.  
+訳: その地域は乾燥した年が数年続いた後、地下水を保全するための厳しい対策を導入した。  
 
 ・`wildlife conservation`  
 用途: 野生動物、その生息地、個体群を保護・管理する活動を表す。  
@@ -83,8 +83,12 @@ tags: []
 
 【語法・注意】この語義では通常不可算で、`a conservation` とは言わず、`conservation of water`、`conservation efforts` のように使う。`conservation` は「使わないこと」だけでなく、使用量を管理し、損失や破壊を防ぐことを含む。  
 
-`preservation` は対象を変化させずに残すことに焦点が置かれやすく、`conservation` は利用や管理を伴いながら資源・環境を長期的に保つ含みがある。`sustainability` は環境、経済、社会の仕組みを将来も維持できることに焦点があり、`conservation` と重なるが同義ではない。  
-`energy conservation` は語義1なら電力使用を減らす対策を指すが、`the conservation of energy`、`a conservation law`、`an isolated system` と結びつけば通常は語義3の物理学用法である。  
+`preservation` は対象を変化させずに残すことに焦点が置かれやすく、`conservation` は保護・管理によって資源・環境を長期的に保つことを表し、持続可能な利用を伴うこともある。この違いは傾向であり、両語の意味範囲は重なる。`sustainability` は環境、経済、社会の仕組みを将来も維持できることに焦点があり、`conservation` と重なるが同義ではない。  
+`energy conservation` は資源の節約なら電力・燃料などのエネルギー使用を減らす対策を指すが、`the conservation of energy`、`a conservation law`、`an isolated system` と結びつけば通常は語義3の物理学用法である。  
+
+対照表現: `exploitation` は資源などの開発・利用を表し、中立的にも使う（この語義の頻度: 〈7/10〉）。`conservation` と必ず対立するわけではなく、過剰・無制限な利用という文脈で保全と対比される。 例: Uncontrolled exploitation of the forest has reduced the river’s water quality. 訳: 森林の無制限な開発・利用によって、その川の水質が低下した。  
+
+対照表現: `depletion` は資源や蓄えが減少・消耗することを表し、程度によっては枯渇を指す（この語義の頻度: 〈6/10〉）。ほとんど残らないことや保全の失敗は必須ではない。`conservation` が抑えようとする減少の過程・結果であり、保全活動そのものの直接の反意語とは区別する。 例: The depletion of the aquifer forced farmers to reduce irrigation. 訳: 帯水層の枯渇によって、農家は灌漑を減らさざるを得なかった。  
 
 【類義語】
 
@@ -118,20 +122,6 @@ tags: []
 
 【反意語】
 
-・exploitation  
-定義: 資源や環境を利益のために強く利用し、しばしば限界まで消費すること。  
-頻度: 〈7/10〉  
-違い: `exploitation` は利用そのものを指すが、過剰利用や搾取という否定的な含みを持ちやすい。`conservation` は長期的な損失を避ける管理に焦点がある。  
-例: Uncontrolled exploitation of the forest has reduced the river’s water quality.  
-訳: 森林の無制限な開発・利用によって、その川の水質が低下した。  
-
-・depletion  
-定義: 資源や蓄えが使われて減少し、ほとんど残らなくなること。  
-頻度: 〈6/10〉  
-違い: `depletion` は保全に失敗した結果としての量の減少を表す。故意の利用だけでなく、自然な消耗にも使える。  
-例: The depletion of the aquifer forced farmers to reduce irrigation.  
-訳: 帯水層の枯渇によって、農家は灌漑を減らさざるを得なかった。  
-
 ・waste  
 定義: 役立つ資源を不注意に、または必要以上に使うこと。  
 頻度: 〈9/10〉  
@@ -164,7 +154,7 @@ tags: []
 ・`conservation treatment`  
 用途: 専門家が作品や資料に施す具体的な保存修復処置を表す。  
 例: The conservator recommended a gentle conservation treatment for the cracked varnish.  
-訳: 保存修復家は、ひびの入ったニスに穏やかな保存修復処置を勧めた。  
+訳: 保存修復家は、ひびの入ったニスに対し、負担の少ない保存修復処置を勧めた。  
 
 ・`conservation work`  
 用途: 文化財の安定化、清掃、補修、記録などの保存修復作業をまとめて表す。  
@@ -181,16 +171,18 @@ tags: []
 例: The museum’s conservation laboratory monitors humidity around the wooden sculpture.  
 訳: その博物館の保存修復研究室は、木彫像の周囲の湿度を監視している。  
 
-【語法・注意】この語義の `conservation` は通常不可算で、専門家が対象を記録・安定化・処置しながら残すことを指す。`conservation` と `restoration` は重なるが、`restoration` は過去の状態や外観を再現することに焦点が置かれやすい。保存修復では、後から加えた部分を隠さず、現存する材料と将来の研究可能性を尊重する場合がある。  
+【語法・注意】この語義の `conservation` は通常不可算で、専門家が対象を記録・安定化・処置しながら残すことを指す。`conservation` は専門分野によって `restoration` を含む広い概念としても使うが、`restoration` は過去の状態や外観を再現することに焦点が置かれやすい。保存修復では、後から加えた部分を隠さず、現存する材料と将来の研究可能性を尊重する場合がある。  
 
 専門家は `conservator`、保存修復を行う部門は `conservation department` や `conservation laboratory` と呼ぶ。自然環境を守る活動を指す `environmental conservation` と、文化財を扱う `art conservation` は対象が異なるため、形容詞や目的語を確認する。  
+
+対照表現: `deterioration` は物の状態・品質・材料が悪化する過程や状態を表す（この語義の頻度: 〈7/10〉）。保存措置の実施や失敗を必ず意味しない。保存が防止・抑制しようとする過程・結果としての対照語であり、必要な管理を怠る行為を表す `neglect` とは異なる。 例: The archive reduced deterioration by controlling light and humidity. 訳: その文書館は光と湿度を管理して劣化を抑えた。  
 
 【類義語】
 
 ・preservation  
 定義: 文化財や記録を損傷・劣化から守り、できるだけその状態で残すこと。  
 頻度: 〈8/10〉  
-違い: `preservation` は現状を保つ一般語で、専門的な調査・処置の体系まで必ずしも示さない。`conservation` は材料分析、処置、予防管理を含む専門領域を指しやすい。  
+違い: `preservation` は広く保存を表し、文書館・図書館では予防管理や媒体変換などを含む包括的な保存活動の名称にもなる。その場合、個別資料を調査・処置する `conservation` を一部に含む。用語の範囲は専門分野によって異なる。  
 例: Digital preservation protects the files from becoming unreadable as software changes.  
 訳: デジタル保存は、ソフトウェアの変化でファイルが読めなくなるのを防ぐ。  
 
@@ -202,7 +194,7 @@ tags: []
 訳: 復元では失われた色を再現し、保存修復処置では元の絵具を安定させた。  
 
 ・stabilization  
-定義: 損傷や劣化の進行を止め、対象を安全に扱える状態にすること。  
+定義: 損傷や劣化の進行を抑え、対象を安全に扱える状態にすること。  
 頻度: 〈5/10〉  
 違い: `stabilization` は保存修復の一工程に焦点を置く。`conservation` は状態確認、記録、予防管理、処置を含むより広い活動である。  
 例: Stabilization of the loose pages came before the manuscript was put on display.  
@@ -224,13 +216,6 @@ tags: []
 例: Years of neglect left the wooden sculpture vulnerable to insects and moisture.  
 訳: 何年も放置されたため、その木彫像は虫と湿気に弱い状態になった。  
 
-・deterioration  
-定義: 物の状態、品質、材料が時間とともに悪化すること。  
-頻度: 〈7/10〉  
-違い: `deterioration` は保存に失敗した結果として起こる劣化を指す状態名詞で、誰かの行為を直接示す `neglect` とは異なる。  
-例: The archive reduced deterioration by controlling light and humidity.  
-訳: その文書館は光と湿度を管理して劣化を抑えた。  
-
 ・destruction  
 定義: 物、建物、資料などを壊して存在・形を失わせること。  
 頻度: 〈8/10〉  
@@ -244,7 +229,7 @@ tags: []
 
 【頻度】〈6/10〉  
 
-【レジスター/領域】専門語。物理学、化学、工学、科学教育で使う。`conservation of energy` や `conservation of momentum` のように保存される量を明示することが多い。日常的な節電・節水を表す `energy conservation` とは、周囲の語で区別する。  
+【レジスター/領域】専門語。物理学、化学、工学、科学教育で使う。`conservation of energy` や `conservation of momentum` のように保存される量を明示することが多い。日常的な省エネルギーを表す `energy conservation` とは、周囲の語で区別する。  
 
 【文法パターン】`conservation of 〈energy/momentum/mass/charge〉`＝エネルギー・運動量・質量・電荷の保存／`the law/principle of conservation of 〈quantity〉`＝～保存の法則・原理／`a conservation law`＝保存則／`obey/test conservation of 〈quantity〉`＝～の保存則に従う・～の保存を検証する  
 
@@ -263,12 +248,12 @@ tags: []
 ・`conservation of mass`  
 用途: 通常の化学反応で原子が消滅・生成せず、反応前後の質量収支が保たれることを表す。  
 例: The balanced equation reflects conservation of mass: the atoms are rearranged, not created or destroyed.  
-訳: 係数をそろえた化学式は質量保存を反映している。原子は組み替えられるのであって、生成・消滅するのではない。  
+訳: 係数をそろえた化学反応式は質量保存を反映している。原子は組み替えられるのであって、生成・消滅するのではない。  
 
 ・`conservation of charge`  
 用途: 閉じた収支で電荷が勝手に生じたり消えたりせず、電気回路や反応で電荷の総量が保たれることを表す。  
 例: Kirchhoff’s current law follows from conservation of electric charge at a circuit junction.  
-訳: キルヒホッフの電流則は、回路の接点で電気の電荷が保存されることから導かれる。  
+訳: キルヒホッフの電流則は、回路の分岐点（節点）で電荷が保存されることから導かれる。  
 
 ・`a conservation law`  
 用途: 特定の物理量の総量が、許された変化の前後で一定であることを述べる法則を表す。  
@@ -294,7 +279,7 @@ tags: []
 頻度: 〈5/10〉  
 違い: `constancy` は単に変化がないことを表す一般語で、何が保存され、どの系で収支が保たれるかという物理法則の含みは弱い。  
 例: The experiment measured the constancy of the temperature in the sealed chamber.  
-訳: その実験は密閉室内の温度が一定であることを測定した。  
+訳: その実験では、密閉室内の温度の安定性を測定した。  
 
 ・preservation  
 定義: ある性質、量、状態を失わせずに保つこと。  
@@ -310,4 +295,4 @@ tags: []
 頻度: 〈3/10〉  
 違い: `nonconservation` は一般会話の反対語ではなく、特定の保存則が成り立たないことを述べる専門的な表現である。  
 例: The proposed interaction would imply nonconservation of electric charge.  
-訳: その相互作用の提案は、電荷非保存を意味することになる。  
+訳: 提案されたその相互作用は、電荷非保存を意味することになる。  
