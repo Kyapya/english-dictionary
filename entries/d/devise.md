@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: unknown
 created_at: 2026-08-22
-updated_at: 2026-08-22
+updated_at: 2026-10-01
 checked: true
 tags: []
 ---
@@ -35,7 +35,7 @@ tags: []
 
 【頻度】〈7/10〉  
 
-【レジスター/領域】標準的な他動詞だが、think up や come up with より形式的で、学術、ビジネス、行政、技術、報道などで使われやすい。対象は計画だけでなく、方法、制度、試験、機構、装置などにも及ぶ。演劇では devise a play、devised theatre、devising のように、出演者・制作陣が共同で作品を作り上げる意味にも使うが、独立した語義というよりこの「考案・創作する」語義の特殊化である。  
+【レジスター/領域】標準的な他動詞だが、think up や come up with より改まった語で、学術、ビジネス、行政、技術、報道などで使われやすい。対象は計画だけでなく、方法、制度、試験、機構、装置などにも及ぶ。演劇では devise a play、devised theatre、devising のように、出演者・制作陣が共同で作品を作り上げる意味にも使うが、独立した語義というよりこの「考案・創作する」語義の特殊化である。  
 
 【文法パターン】devise + 〈計画・方法・仕組み・装置〉＝～を考案する／devise a plan・strategy・scheme to 〈動詞原形〉＝～する計画・戦略・計画案を考案する／devise a way to 〈動詞原形〉・devise a way of 〈動名詞〉＝～する方法を考案する／devise a solution to 〈問題〉＝～への解決策を考案する／devise a solution for 〈問題〉＝～に対する解決策を考案する／devise a method・system・test for 〈目的・対象〉＝～のための方法・制度・試験を考案する／devise a means of 〈動名詞〉＝～する手段を考案する（formal）／be devised to 〈動詞原形〉＝～するように考案される  
 
@@ -81,7 +81,7 @@ tags: []
 例: The procedure was specially devised to protect small businesses.  
 訳: その手順は中小企業を保護するために特別に考案された。  
 
-【語法・注意】現代の標準的な一般用法では、devise は通常、目的語を取る他動詞である。devise to solve the problem のように devise の直後へ to不定詞だけを置くのは避け、devise a way・a plan to solve the problem とする。一部の辞書では「計画を立てる」という自動詞的・古風な用法を記録することもあるが、学習者が標準的な現代用法として使う基本形ではない。古風な文章では「企てる・謀る」に近い用法も記録されるが、現代の devise 自体は中立的で、scheme、plot、plan to escape などの目的語が秘密や悪意の含意を加える。devise a means of doing は形式的で、日常会話では find a way to do や figure out how to do の方が自然なことが多い。invent は新規性、design は構造や機能の設計、formulate は計画・政策・理論を明確な形にまとめること、develop は時間をかけて発展させることに焦点がある。devise a solution は、既に存在する答えを発見したというより、目的に合う解決策を考えて組み立てたという見方を示しやすい。過去分詞 devised は a carefully devised plan のように限定用法で使える。これは「考案する」という動作そのものではなく、考案の結果として計画が組み立てられている状態を表す。名詞 device「装置・仕掛け」とは、品詞だけでなく語末の /z/ と /s/ も異なる。  
+【語法・注意】現代の標準的な一般用法では、devise は通常、目的語を取る他動詞である。devise to solve the problem のように devise の直後へ to不定詞だけを置くのは避け、devise a way・a plan to solve the problem とする。一部の辞書では「計画を立てる」という自動詞的・古風な用法を記録することもあるが、学習者が標準的な現代用法として使う基本形ではない。古風な文章では「企てる・謀る」に近い用法も記録されるが、現代の devise 自体は中立的で、目的語や文脈が策略・悪巧みを明示する場合に、秘密や悪意の含意が加わる。scheme も中立的な制度案を指すことがあり、plan to escape もそれだけで悪意を表すわけではない。devise a means of doing は改まった表現で、日常会話では find a way to do や figure out how to do の方が自然なことが多い。invent は新規性、design は構造や機能の設計、formulate は計画・政策・理論を明確な形にまとめること、develop は時間をかけて発展させることに焦点がある。devise a solution は、既に存在する答えを発見したというより、目的に合う解決策を考えて組み立てたという見方を示しやすい。過去分詞 devised は a carefully devised plan のように限定用法で使える。これは「考案する」という動作そのものではなく、考案の結果として計画が組み立てられている状態を表す。名詞 device「装置・仕掛け」とは、品詞だけでなく語末の /z/ と /s/ も異なる。  
 
 【類義語】
 
@@ -178,7 +178,7 @@ tags: []
 例: The dispute concerned property devised under a valid will.  
 訳: その争いは有効な遺言に基づいて譲られた財産に関するものだった。  
 
-【語法・注意】この法律用法では、通常、譲る財産が直接目的語、受け手が to句になる。devise the house to her のように使い、devise her the house という二重目的語の形へ置き換えない。devise は生前の売買・譲渡を表す語ではなく、deed による convey や一般的な transfer と区別する。伝統的な法律用語では devise は real property、bequest・legacy は personal property と対比されるが、現代法では境界が緩むことがある。  
+【語法・注意】この法律用法では、通常、譲る財産が直接目的語、受け手が to句になる。学習上は devise the house to her のように to を使う形を基本にする。devise her the house のような二重目的語の形も法律文で用例があるため、常に誤りとはいえない。devise は生前の売買・譲渡を表す語ではなく、deed による convey や一般的な transfer と区別する。伝統的な法律用語では devise は real property、bequest・legacy は personal property と対比されるが、現代法では境界が緩むことがある。  
 
 【類義語】
 
@@ -199,7 +199,7 @@ tags: []
 ・will  
 定義: 遺言によって財産を人・団体に与える。  
 頻度: 〈3/10〉  
-違い: この意味の will は法律・古風な用法で、日常語では leave や bequeath が普通。助動詞 will と混同しやすく、devise より使用範囲が狭い。  
+違い: この意味の will は現代英語でも使われ、遺言で財産を与えることを表す。devise ほど法律専門語に偏らず、財産の種類も限定しない。会話では leave が使いやすく、bequeath は改まった語である。willed・willing のように変化する本動詞で、助動詞 will とは区別する。  
 例: The donor willed the estate to a public charity.  
 訳: その寄贈者は遺言でその財産を公益団体に譲った。  
 
@@ -209,7 +209,7 @@ tags: []
 
 【頻度】〈2/10〉  
 
-【レジスター/領域】法律・遺産管理の formal な用法。一般会話では gift by will、property left in a will、testamentary gift などに言い換える。  
+【レジスター/領域】法律・遺産管理の formal な用法。一般向けの説明では gift by will や property left in a will などに言い換えられる。testamentary gift も近い意味だが、こちらも法律・文書で使う改まった表現である。  
 
 【文法パターン】a devise of 〈property〉 to 〈beneficiary〉＝〈財産〉を〈受遺者〉へ譲る遺贈・処分／make a devise of 〈property〉＝〈財産〉の遺贈・処分を行う／a specific devise＝特定の財産を対象とする遺贈／a general devise＝一般資産または特定されていない土地を対象とする一般遺贈／a residuary devise＝残余財産を対象とする残余遺贈／the validity・effect of a devise＝遺贈・処分の有効性・効果  
 
@@ -232,7 +232,7 @@ tags: []
 
 ・a general devise  
 用途: 法域・時代により定義が異なるため、無限定に一つの意味へ固定しない。伝統的用法では、個別の列挙・特定を伴わない土地の遺贈（all my lands 型）を指す。現代の遺産実務（UPC系）では、特定物の移転を指示せず、一定の数量・価値を遺産の一般資産から給付する贈与を指すことがある。  
-例: 現代のUPC系実務: In this UPC-based jurisdiction, the will made a general devise of $20,000 to the charity, payable from the estate's general assets.  
+例: In this UPC-based jurisdiction, the will made a general devise of $20,000 to the charity, payable from the estate's general assets.  
 訳: このUPC系の法域では、その遺言は遺産の一般資産から支払われる2万ドルを慈善団体に与える一般遺贈を定めた。  
 
 ・a residuary devise  
@@ -266,7 +266,7 @@ tags: []
 ・testamentary gift  
 定義: 遺言によって与えられる財産上の利益。  
 頻度: 〈3/10〉  
-違い: devise より広い formal term で、不動産か動産かを語そのものでは限定しない。  
+違い: 不動産か動産かを語そのものでは限定しない改まった表現。伝統的に不動産を指す devise より広いが、現代の法域では両者の範囲が重なる。  
 例: The lawyer reviewed every testamentary gift in the will.  
 訳: その弁護士は遺言に含まれるすべての遺言による贈与を確認した。  
 
@@ -297,7 +297,7 @@ tags: []
 例: The court interpreted the devise in clause 4 narrowly.  
 訳: 裁判所は第4条の財産処分条項を狭く解釈した。  
 
-【語法・注意】一般辞書に「遺言書またはその条項」とする記述があっても、現代の法律文で個別の条項を読む場合は、in the will、contained in the will、in clause 4 などの文脈が手掛かりになる。「遺言書全体」の読みを完全に否定するのではなく、条項の読みを主とし、全体の読みは従として扱う。受遺者や処分内容を前面に出す表現は条項の形式が確定しないため、この語義の中心例ではなく、語義3の遺贈・処分として読む。  
+【語法・注意】一般辞書に「遺言書またはその条項」とする記述があっても、現代の法律文で個別の条項を読む場合は、in the will、contained in the will、in clause 4 などの文脈が手掛かりになる。「遺言書全体」の読みを完全に否定するのではなく、条項の読みを主とし、全体の読みは従として扱う。受遺者や処分内容への言及だけでは、遺贈そのものか、それを定める条項かは確定しない。贈与・処分の内容に焦点があれば語義3、遺言書中の文言・規定に焦点があればこの語義として読むなど、周囲の文脈から判断する。  
 
 【類義語】
 
