@@ -168,7 +168,7 @@ class ChangedProtocolGateTests(unittest.TestCase):
         for name in ("review-A.request.json", "review-B.request.json", "snapshot.json"):
             # Even non-object evidence must not be parsed as a run manifest.
             (nested / name).write_text("[]", encoding="utf-8")
-        extra = [str(path.relative_to(self.root)) for path in nested.iterdir()]
+        extra = [path.relative_to(self.root).as_posix() for path in nested.iterdir()]
         extra.append("audits/workflow_runs/README.md")
         self.assertEqual(self._changed({"workflow_contract_version": compact.VERSION,
                                       "run_id": "run-1", "status": "in_progress"}, extra=extra), [])
@@ -176,7 +176,7 @@ class ChangedProtocolGateTests(unittest.TestCase):
 
     def test_completed_compact_uses_existing_independent_review_validator(self):
         manifest = self._completed_compact()
-        extra = [str(path.relative_to(self.root)) for path in self.run.with_suffix("").rglob("*.json")]
+        extra = [path.relative_to(self.root).as_posix() for path in self.run.with_suffix("").rglob("*.json")]
         self.assertEqual(self._changed(manifest, extra=extra), [])
         self.assertEqual(gate.validate_all(repo_root=self.root, merge_ready=True), [])
         manifest["review_receipts"][1]["execution_id"] = "reviewer-A"
@@ -191,7 +191,7 @@ class ChangedProtocolGateTests(unittest.TestCase):
             if deleted:
                 raw.unlink()
             with patch.object(gate.subprocess, "check_output",
-                              return_value=str(raw.relative_to(self.root))):
+                              return_value=raw.relative_to(self.root).as_posix()):
                 errors = gate.validate_changed_protocol("base", "head", self.root)
             self.assertTrue(any("independent coverage" in error for error in errors), errors)
 
