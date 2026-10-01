@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-5.6-sol
 created_at: 2026-09-09
-updated_at: 2026-09-09
+updated_at: 2026-10-01
 checked: true
 tags: []
 ---
@@ -32,9 +32,9 @@ Cambridge: 米 /ˈkɑːn.sə.kwənt.li/｜英 /ˈkɒn.sɪ.kwənt.li/。Oxford: �
 
 【頻度】〈6/10〉  
 
-【レジスター/領域】結果や帰結を述べる文章・説明で用いられる。  
+【レジスター/領域】やや硬く、書き言葉寄り。結果や帰結を述べる文章・改まった説明で用いられる。会話でも使える。  
 
-【文法パターン】`〈原因となる文〉. Consequently, 〈結果の文〉`＝その結果、…／`〈原因となる文〉; consequently, 〈結果の文〉`＝…、したがって…／`〈主語〉 + consequently + 〈動詞句〉`＝その結果〈主語〉は…する／`〈主語〉 + be + consequently + 〈補語〉`＝〈主語〉はその結果…である／`〈主語〉 + 〈動詞句1〉 and consequently + 〈動詞句2〉`＝〈主語〉は…し、その結果…する。文中では主語の後で主要動詞の前に置く形のほか、`be` の後で補語の前に置く形がある。  
+【文法パターン】`〈原因となる文〉. Consequently, 〈結果の文〉`＝その結果、…／`〈原因となる文〉; consequently, 〈結果の文〉`＝…、したがって…／`〈主語〉 + consequently + 〈動詞句〉`＝その結果〈主語〉は…する／`〈主語〉 + be + consequently + 〈形容詞〉`＝〈主語〉はその結果…である／`〈主語〉 + be + consequently + 〈過去分詞〉`＝〈主語〉はその結果…される／`〈主語〉 + 〈動詞句1〉 and consequently + 〈動詞句2〉`＝〈主語〉は…し、その結果…する。文中では主語の後で主要動詞の前に置く形のほか、形容詞の補語を取る `be` の後や、受動態の `be` と過去分詞の間に置く形がある。  
 
 【コロケーション】
 
@@ -53,8 +53,8 @@ Cambridge: 米 /ˈkɑːn.sə.kwənt.li/｜英 /ˈkɒn.sɪ.kwənt.li/。Oxford: �
 例: Demand fell sharply, and the company consequently reduced production.  
 訳: 需要が急減したため、その会社は結果として生産を減らした。  
 
-・`〈主語〉 + be + consequently + 〈過去分詞・形容詞〉`  
-用途: `be` の後で、ある事情の結果としての状態や判断を補語で説明する。  
+・`〈主語〉 + be + consequently + 〈過去分詞〉`  
+用途: 受動態の助動詞 `be` と過去分詞の間に置き、ある事情の結果として受ける行為・処置を示す。  
 例: The deadline was missed, and the application was consequently rejected.  
 訳: 締切に間に合わなかったため、その申請は結果として却下された。  
 
@@ -63,7 +63,7 @@ Cambridge: 米 /ˈkɑːn.sə.kwənt.li/｜英 /ˈkɒn.sɪ.kwənt.li/。Oxford: �
 例: The region receives little rainfall and consequently faces frequent water shortages.  
 訳: その地域は降雨量が少なく、その結果しばしば水不足に直面する。  
 
-【語法・注意】`consequently` は、前に述べた事情・根拠から結果または論理的帰結を示す副詞であり、単なる時間順だけを示す語ではない。文頭だけでなく、接続詞の後や `be` の後で補語の前にも置ける。  
+【語法・注意】`consequently` は、前に述べた事情・根拠から結果または論理的帰結を示す副詞であり、単なる時間順だけを示す語ではない。文頭だけでなく、接続詞の後、形容詞の補語を取る `be` の後、受動態の `be` と過去分詞の間にも置ける。接続詞ではないため、独立した二つの節をコンマと `consequently` だけでつなぐ形は標準的な文章では避け、ピリオドかセミコロンで区切るか、`and consequently` を使う。時間的な「その後」だけを表す `subsequently` とは区別する。  
 
 【類義語】
 
