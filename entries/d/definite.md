@@ -5,14 +5,14 @@ status: checked
 prompt_version: entry_spec_v5
 model: codex-gpt-5
 created_at: 2026-09-19
-updated_at: 2026-09-19
+updated_at: 2026-10-01
 checked: true
 tags: []
 ---
 
 ＃発音記号
 
-米: /ˈdefənət/｜英: /ˈdefɪnət/。3音節で、第1音節に主強勢がある。米語では第2音節の母音を弱い /ə/、英語では /ɪ/ と示すことが多い。語末は /nət/ で、綴りの -ite を /eɪt/ と読まない。definitely は米 /ˈdefənətli/・英 /ˈdefɪnətli/ のように発音し、語尾の -ly が加わる。  
+米: /ˈdefənət/｜英: /ˈdefɪnət/。通常は3音節で、第1音節に主強勢がある。米語では第2音節の母音を弱い /ə/、英語では /ɪ/ と示すことが多い。語末は /nət/ で、綴りの -ite を finite のような /aɪt/ や /eɪt/ と読まない。definitely は米 /ˈdefənətli/・英 /ˈdefɪnətli/ のように発音し、語尾の -ly が加わる。  
 
 ＃語源
 
@@ -20,32 +20,33 @@ definite は16世紀初頭の英語で「固定された、確かな」の意味
 
 ＃語形成
 
-・definitely：副詞。「確実に、間違いなく、はっきりと」。話者の確信を表す文副詞としても、動詞・形容詞を強める副詞としても使う。  
+・definitely：副詞。「確実に、間違いなく、はっきりと」。話者の確信を表す文副詞としても、動詞句・形容詞などについて確かさを強調する副詞としても使う。  
 ・definiteness：名詞。「明確さ、確定性、定性」。文法では名詞句の指示対象が特定可能である性質を表す。  
-・indefinite：接頭辞 in-「否定」を伴う関連形。「不確定な、漠然とした、定のない」。definite の単純な反意語になる用法と、文法用語としての用法がある。  
+・indefinite：接頭辞 in-「否定」を伴う関連形。「不確定な、漠然とした、不定の」。definite の単純な反意語になる用法と、文法用語としての用法がある。  
 ・definitive：同じラテン語幹系統の形容詞。「決定的な、最終的な」。definite よりも最終判断・決着の含みが強く、単なる語尾違いとして置き換えない。  
 ・define / definition：同じ語源にさかのぼる動詞・名詞。「境界を定める」「定義」。definite の直接の活用形ではないが、「曖昧さを境界づける」という意味のつながりがある。  
 
 ＃コアイメージ
 
-definite の共通核は、「境界・同一性・判断を曖昧さから切り出し、はっきり固定する」ことである。何を固定するかによって、決定、観察上の明瞭さ、範囲や内容の限定、文法上の指示対象、植物の数や成長の上限へ広がる。  
-・判断や予定を曖昧さから切り出して固定する → 「確定した、決まった」（語義1）  
+definite の共通核は、「境界・同一性・判断を曖昧さから切り出し、はっきり固定する」ことである。何を固定するかによって、決定、観察上の明瞭さ、範囲や内容の限定、文法上の指示対象、植物の数や成長の上限へ広がる。名詞では、確実だと見なす出来事や人そのものを指す。  
+・判断や予定を曖昧さから切り出して固定する → 「確定した、決まった、確信している」（語義1）  
 ・特徴や変化を観察上はっきり切り出す → 「明らかな、はっきりした」（語義2）  
 ・範囲や内容を境界づけて固定する → 「具体的な、特定の」（語義3）  
 ・指示対象を文脈上特定可能なものとして切り出す → 「定の、特定できる」（語義4）  
 ・数や成長の上限を固定する → 「有限の、定数の」（語義5）  
+・出来事や人の参加・選出を確かなものとして固定する → 「確実なこと、確実視される人」（語義6）  
   
 ＃意味・用法・関連表現
 
-1. 【形容詞・限定用法／叙述用法】確定した、決まった
+1. 【形容詞・限定用法／叙述用法】確定した、決まった、確信している
 
-【日本語訳・定義】答え、決定、計画、日付、合意、意図などが、曖昧な候補や一時的な案ではなく、内容として定まり、変更される可能性が低いことを表す。必ずしも今後絶対に変更できないという意味ではなく、現時点で決定・約束・判断が明確になっていることに焦点がある。  
+【日本語訳・定義】答え、決定、計画、日付、合意、意図などが、曖昧な候補や一時的な案ではなく、内容として定まり、変更される可能性が低いことを表す。必ずしも今後絶対に変更できないという意味ではなく、現時点で決定・約束・判断が明確になっていることに焦点がある。人を主語とする叙述用法では、何かが本当だ、または起こると確信し、その判断をはっきり述べることも表す。  
 
 【頻度】〈9/10〉  
 
-【レジスター/領域】標準語で、会話・ビジネス・報道・公式文書まで広く使う。計画や合意の確定性を述べるときに多く、日常会話では sure が話者の確信、definite が決定や内容の確定を表しやすい。ここでの頻度の数値はこの辞書内の学習上の相対目安で、10は日常・一般文書で頻出、1は限定的な専門用法を表す。特定領域内のコーパス頻度や厳密な語義間順位ではない。  
+【レジスター/領域】標準語で、会話・ビジネス・報道・公式文書まで広く使う。計画や合意の確定性を述べるときに多く、日常会話では sure が話者の確信、definite が決定や内容の確定を表しやすい。ここでの頻度は、各語義が英語全体で使われる程度の目安である。10は日常会話・一般的な文章で非常によく使う語義、1は現代ではほとんど使われない語義を表す。特定領域の中だけでの頻度や、コーパスに基づく実測値ではない。  
 
-【文法パターン】a definite answer/decision/plan/date/deadline＝確定した答え・決定・計画・日付・期限／a definite agreement/offer/commitment＝明確に成立した合意・正式な申し出・確約／have no definite plans/ideas＝決まった計画・具体的な考えがない／anything definite＝何か確定したこと・情報／nothing definite＝何も確定したことはない／be definite about something＝ある事柄について態度・内容を明確にする／a definite yes/no＝はっきりした賛成／拒否。  
+【文法パターン】a definite answer/decision/plan/date/deadline＝確定した答え・決定・計画・日付・期限／a definite agreement/offer/commitment＝明確に成立した合意・確定的な申し出・確約／have no definite plans/ideas＝決まった計画・具体的な考えがない／anything definite＝何か確定したこと・情報／nothing definite＝何も確定したことはない／be definite about something＝ある事柄について態度・内容を明確にする、または確信を示す／It is definite that 〈節〉＝～であることが確定している／someone is definite that 〈節〉＝人が～だと確信して述べる／know・say・find out for definite＝確実に知っている・断言する・はっきり確かめる／a definite yes/no＝はっきりした賛成／拒否。  
 
 【コロケーション】
 
@@ -89,7 +90,22 @@ definite の共通核は、「境界・同一性・判断を曖昧さから切�
 例: No definite agreement had been reached by the end of the meeting.  
 訳: 会議の終了時までに、確定した合意は成立していなかった。  
 
-【語法・注意】certain は「真実だと確信している」「起こる可能性が高い」という話者の認識にも使えるが、definite は答え・計画・日付などの内容が決まっていることを強調しやすい。final は「それ以上変更しない最終段階」、firm は意思・態度の強さに焦点があるため、definite と完全には交換できない。`I have no definite plans.` は「将来の予定が一切ない」ではなく「決まった予定はない」という意味である。definite と definitely、definite と definitive を品詞や意味を考えずに置き換えない。綴りは definite であり、definate ではない。  
+・It is definite that 〈節〉  
+用途: 予定や出来事が確定していることを、節で示す。  
+例: It is now definite that the office will close at the end of the month.  
+訳: その事務所が月末に閉鎖されることは、今では確定している。  
+
+・someone is definite that 〈節〉  
+用途: 人がある事実や見通しについて確信し、はっきり述べることを表す。  
+例: She was definite that she had locked the door before leaving.  
+訳: 彼女は、出かける前にドアに鍵をかけたと確信を持って言った。  
+
+・know・say・find out for definite  
+用途: くだけた表現で、確実に知っていることや、はっきり確認することを表す。  
+例: I'll call the station and find out for definite whether the train is running.  
+訳: 駅に電話して、その列車が運行しているかはっきり確かめるよ。  
+
+【語法・注意】certain は事実・未来・話者の確信を広く表す。definite は答え・計画・日付などの内容が決まっていることを強調しやすいが、人を主語にして確信を示す用法もある。この人の用法は主に be definite about ... / be definite that ... という叙述形で使い、単に a definite person として「確信している人」を表すのは普通ではない。for definite は「確実に」というくだけた定型表現である。final は「それ以上変更しない最終段階」、firm は意思・態度の強さに焦点があるため、definite と完全には交換できない。`I have no definite plans.` は「将来の予定が一切ない」ではなく「決まった予定はない」という意味である。definite と definitely、definite と definitive を品詞や意味を考えずに置き換えない。綴りは definite であり、definate ではない。  
 
 【類義語】
 
@@ -153,13 +169,13 @@ definite の共通核は、「境界・同一性・判断を曖昧さから切�
 
 2. 【形容詞・限定用法／叙述用法】明らかな、はっきりした
 
-【日本語訳・定義】変化、差、効果、兆候、利点などが、観察や比較によって実際に認められるほど明瞭・顕著であることを表す。必ずしも論理的に証明済み、絶対に疑いがないという意味ではなく、話し手が変化や特徴をはっきり認識しているという評価を含むことがある。  
+【日本語訳・定義】変化、差、効果、兆候、利点などが、観察や比較によって実際に認められるほど明瞭・顕著であることを表す。必ずしも論理的に証明済み、絶対に疑いがないという意味ではなく、話し手が変化や特徴をはっきり認識しているという評価を含むことがある。人・作品・出来事などを「疑いなくその評価に当てはまる」と強調する場合にも使う。  
 
 【頻度】〈8/10〉  
 
-【レジスター/領域】標準語で、会話・報道・評価・ビジネス文書まで使える。clear や obvious よりやや説明的・形式的で、improvement、difference、effect、sign など、観察できる変化や結果を修飾することが多い。  
+【レジスター/領域】標準語で、会話・報道・評価・ビジネス文書まで使える。clear や obvious よりやや説明的で改まった響きがあり、improvement、difference、effect、sign など、観察できる変化や結果を修飾することが多い。  
 
-【文法パターン】a definite improvement/change/difference＝明らかな改善・変化・違い／a definite sign/indication of something＝～の明らかな兆候・指標／have a definite effect/impact on something＝ある物事に明確な効果・影響を及ぼす／a definite advantage/disadvantage＝明確な利点・不利／a definite possibility＝現実味のある可能性／see/feel a definite difference＝はっきり違いを感じる。  
+【文法パターン】a definite improvement/change/difference＝明らかな改善・変化・違い／a definite sign/indication of something＝～の明らかな兆候・指標／have a definite effect/impact on something＝ある物事に明確な効果・影響を及ぼす／a definite advantage/disadvantage＝明確な利点・不利／a definite possibility＝現実味のある可能性／see/feel a definite difference＝はっきり違いを感じる／a definite success/hero＝間違いなく成功したもの・まさに英雄といえる人。  
 
 【コロケーション】
 
@@ -202,6 +218,11 @@ definite の共通核は、「境界・同一性・判断を曖昧さから切�
 用途: 特定の感情を明確に抱いていることを表す。  
 例: He left the room with a definite sense of relief.  
 訳: 彼は明確な安堵感を抱いて部屋を出た。  
+
+・a definite success  
+用途: 成功という評価に疑いなく当てはまると強調する。  
+例: The new library is a definite success with local families.  
+訳: 新しい図書館は地元の家族連れに好評で、間違いなく成功だ。  
 
 【語法・注意】この用法の definite は「証明された」と同義ではない。`a definite improvement` は改善がはっきり認められるという意味で、科学的な因果関係が完全に証明されたという意味ではない。`a definite possibility` は「確実に起こること」ではなく「現実味のある可能性」である。obvious は文脈や話者にとって明白と評価されること、clear は混乱や曖昧さがないこと、noticeable は知覚上目立つことを強調し、definite は変化・差・効果などを明確なものとして認めることに焦点がある。  
 
@@ -265,13 +286,13 @@ definite の共通核は、「境界・同一性・判断を曖昧さから切�
 例: The change in pressure was almost imperceptible.  
 訳: 圧力の変化はほとんど知覚できなかった。  
 
-3. 【形容詞・限定用法】具体的な、特定の
+3. 【形容詞・限定用法／叙述用法】具体的な、特定の
 
 【日本語訳・定義】数量、期間、範囲、時点、形、情報などに明確な境界や内容があり、漠然としたものではないことを表す。特定の対象を指す場合でも、文脈上その対象を識別できるという文法上の意味とは異なり、ここでは内容・範囲・条件が具体的に定まっていることに焦点がある。  
 
 【頻度】〈7/10〉  
 
-【レジスター/領域】標準語。契約・行政・学術・技術文書では形式的な用法が現れ、数学では `definite integral` などの専門連語で使われる。specific は選び出された個別性、exact は数値や内容の厳密な一致、definite は範囲や条件が定まっていることを強調しやすい。  
+【レジスター/領域】標準語。契約・行政・学術・技術文書では改まった文体で使われ、数学では `definite integral` などの専門連語で使われる。specific は選び出された個別性、exact は数値や内容の厳密な一致、definite は範囲や条件が定まっていることを強調しやすい。  
 
 【文法パターン】a definite amount/number/quantity/period＝具体的な量・数・期間／at a definite time/stage＝特定の時点・段階で／within definite limits＝明確な範囲内で／definite information/details＝具体的な情報・詳細／a definite shape/form＝はっきり定まった形・形式／a definite integral＝定積分。  
   
@@ -340,7 +361,7 @@ definite の共通核は、「境界・同一性・判断を曖昧さから切�
 ・determinate  
 定義: 限界・終点・結果が決まっている。  
 頻度: 〈5/10〉  
-違い: determinate は形式的・専門的で、数学・科学・哲学などで境界や結果の決定性を述べる。definite は一般語としてより広く使う。  
+違い: determinate は改まった文体や専門分野で使われ、数学・科学・哲学などで境界や結果の決定性を述べる。definite は一般語としてより広く使う。  
 例: The process has a determinate end point.  
 訳: その過程には明確に定まった終点がある。  
 
@@ -425,6 +446,12 @@ definite の共通核は、「境界・同一性・判断を曖昧さから切�
 
 【語法・注意】文法上の definite は「前に一度出た名詞」に限られない。`the door` はその場に一つしかないドアを指せるし、`the book on the desk` は修飾語によってどの本か分かるため定になる。単数か複数か、可算か不可算かも決定条件ではなく、`the books`、`the water` も定になり得る。specific は「特定のものを意図している」という意味で、`a specific book` のように不定冠詞と共存できるが、specific だから文法上 definite になるわけではない。英語の the には、種類全体を述べる `The tiger is endangered.` のような総称的用法もあるため、definite と「唯一の個体」を機械的に同一視しない。  
 
+関連概念 specific（〈10/10〉）: 一般的なものではなく、特定の人物・物・内容に関する。個別性と文法上の定性は別の軸であり、特定のものを意図した不定名詞句もある。例: She was looking for a specific file. 訳: 彼女は特定のファイルを探していた。  
+
+関連概念 unidentified（〈8/10〉）: どの人物・物であるかが特定されていない。現実の人物の身元が不明でも、the unidentified caller のような定名詞句で表せる。例: An unidentified caller left a message. 訳: 身元不明の発信者がメッセージを残した。  
+
+関連概念 generic（〈7/10〉）: 個別の一つではなく、種類全体や一般的な概念に関する。総称性と定性は別の軸であり、定名詞句も種類全体を指せる。例: “Dogs are social animals” has a generic reference. 訳: 「犬は社会的な動物だ」は総称的な指示を持つ。  
+
 【類義語】
 
 ・identified  
@@ -437,16 +464,9 @@ definite の共通核は、「境界・同一性・判断を曖昧さから切�
 ・determinate  
 定義: 境界・値・指示対象などが決まっている。  
 頻度: 〈5/10〉  
-違い: determinate は形式的・専門的で、definite は英語の冠詞や名詞句の性質を説明する標準用語である。  
+違い: determinate は改まった文体や専門分野で使われ、definite は英語の冠詞や名詞句の性質を説明する標準用語である。  
 例: The expression has a determinate meaning in this context.  
 訳: その表現はこの文脈では明確に定まった意味を持つ。  
-
-・specific  
-定義: 一般的なものではなく、特定の人物・物・内容に関する。  
-頻度: 〈10/10〉  
-違い: specific は個別性を表す一般語で、文法上の definite と重なることはあるが、`a specific book` のように不定名詞句にも使える。  
-例: She was looking for a specific file.  
-訳: 彼女は特定のファイルを探していた。  
 
 【反意語】
 
@@ -456,20 +476,6 @@ definite の共通核は、「境界・同一性・判断を曖昧さから切�
 違い: 文法上の indefinite は definite の直接の反対で、英語の a/an や、文脈によっては無冠詞の名詞句に関係する。  
 例: “A book” is indefinite because the listener does not know which book is meant.  
 訳: 「ある本」は、どの本を指すか聞き手に分からないため不定である。  
-
-・unidentified  
-定義: どの人物・物であるかが特定されていない。  
-頻度: 〈8/10〉  
-違い: unidentified は現実の対象を同定できない状態を示し、definite は文法上の名詞句が対象を特定可能に提示する状態を示す。  
-例: An unidentified caller left a message.  
-訳: 身元不明の発信者がメッセージを残した。  
-
-・generic  
-定義: 個別の一つではなく、種類全体や一般的な概念に関する。  
-頻度: 〈7/10〉  
-違い: generic は指示の範囲が一般化されていることを表す。definite と対照できるが、英語では definite article が総称的に使われる場合もあるため、完全な形の反意語ではない。  
-例: “Dogs are social animals” has a generic reference.  
-訳: 「犬は社会的な動物だ」は総称的な指示を持つ。  
 
 5. 【形容詞・植物学】有限の、定数の
 
@@ -500,6 +506,8 @@ definite の共通核は、「境界・同一性・判断を曖昧さから切�
 
 【語法・注意】この用法は一般英語の definite answer や definite plan とは別の専門的な意味である。`definite inflorescence` は花序の成長様式を指し、単に「明確な花序」という意味ではない。植物学では `indefinite` や `indeterminate` が、数や主軸の成長に固定された終点がない対照表現として使われる。  
 
+説明的な言い換えとして a fixed number of ...「一定数の～」を使える。これは植物学固有の単独用語ではなく、数が一定だという性質を普通の語句で述べる表現である。例: The flower has a fixed number of stamens. 訳: その花には一定数の雄しべがある。  
+
 【類義語】
 
 ・determinate  
@@ -508,13 +516,6 @@ definite の共通核は、「境界・同一性・判断を曖昧さから切�
 違い: determinate はこの植物学上の意味でより一般的な専門語で、definite は同じ特徴を別の語彙で表す。  
 例: The plant produces a determinate inflorescence.  
 訳: その植物は有限花序を形成する。  
-
-・fixed-number  
-定義: 数が一定に定められている。  
-頻度: 〈2/10〉  
-違い: fixed-number は説明的な表現で、definite stamens の特徴を言い換えるが、単独の標準用語としての使用は限定的である。  
-例: The flower has a fixed number of stamens.  
-訳: その花には一定数の雄しべがある。  
 
 【反意語】
 
@@ -531,3 +532,48 @@ definite の共通核は、「境界・同一性・判断を曖昧さから切�
 違い: indeterminate は植物学で definite／determinate と対立し、主軸の成長が花で終わらないことなどを表す。  
 例: The species shows indeterminate rather than definite growth.  
 訳: その種は定限成長ではなく不定成長を示す。  
+
+6. 【名詞・可算・通常単数・くだけた用法】確実なこと、確実視される人
+
+【日本語訳・定義】起こると確信している出来事や、参加・選出などが確実だと見なしている人を指す。a definite の形で、話し手が予定や人を「もう確かだ」と扱う表現である。  
+
+【頻度】〈5/10〉  
+
+【レジスター/領域】くだけた会話。予定の確認や参加者・候補者について話すときなどに使い、形容詞の definite より使用場面が限られる。  
+
+【文法パターン】something is a definite＝ある出来事・予定が確実である／someone is a definite＝ある人が確実に参加・行動する見込みである／a definite for 〈event/team/role〉＝その行事への参加・チームや役割への選出などが確実視される人。  
+
+【コロケーション】
+
+・something is a definite  
+用途: 予定などが確定していると述べたり、確認したりする。  
+例: The move in June is a definite; we've already signed the lease.  
+訳: 6月の引っ越しは確定だ。もう賃貸契約に署名したからね。  
+
+・someone is a definite  
+用途: 文脈で分かる行事などに、ある人が確実に参加する見込みだと述べる。  
+例: We're still waiting for replies, but Maya is a definite.  
+訳: まだ返事を待っている人もいるけど、マヤは参加確定だよ。  
+
+・a definite for 〈event/team/role〉  
+用途: 何への参加や選出が確実視されているかを for の後で示す。  
+例: After her latest performance, she's a definite for the national team.  
+訳: 最新の試合での活躍からすると、彼女の代表チーム入りは確実だ。  
+
+【語法・注意】She's definite that ... は、本人が何かを確信しているという形容詞の用法である。She's a definite は a を伴う名詞の用法で、彼女の参加・選出などを話し手が確実だと見なしていることを表す。文脈で何が確実なのか分かる場合に使う。a definite answer の definite は answer を修飾する形容詞であり、この名詞とは構造が異なる。  
+
+【類義語】
+
+・certainty  
+定義: 起こることや真実であることが確実だとされる事柄。  
+頻度: 〈7/10〉  
+違い: この意味の certainty は可算名詞で、a definite より幅広い文体で使える。名詞 a definite は会話で予定や人の参加・選出を確認する場面などに使いやすい。  
+例: Her return to work is now a certainty.  
+訳: 彼女の職場復帰は今では確実だ。  
+
+・sure thing  
+定義: 成功や実現が確実だと見なされる人・物事。  
+頻度: 〈6/10〉  
+違い: sure thing はくだけた表現で、成功・当選・選出などの確実さを強調しやすい。a definite は単に参加や予定が確定していることにも使える。  
+例: A promotion seemed a sure thing after his excellent results.  
+訳: 彼の優れた実績からすると、昇進は確実に思えた。  
