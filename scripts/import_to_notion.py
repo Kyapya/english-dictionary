@@ -24,6 +24,8 @@ DEFAULT_TOKEN_ENV = "NOTION_TOKEN"
 API_BASE = "https://api.notion.com/v1"
 MAX_BLOCKS_PER_APPEND = 100
 MAX_TEXT_CHARS = 1900
+MAX_RATE_LIMIT_RETRIES = 5
+MAX_RATE_LIMIT_BACKOFF_SECONDS = 30
 INCLUDED_STATUSES = {"checked", "final"}
 SUBHEADING_LABELS = (
     "【日本語訳・定義】",
@@ -367,6 +369,33 @@ def markdown_to_blocks(markdown: str) -> list[dict[str, Any]]:
     return blocks
 
 
+def _rate_limit_retry_delay(
+    error: urllib.error.HTTPError, body: str, retry: int
+) -> int | None:
+    # Access restrictions are not transient rate limits and must not be retried.
+    try:
+        details = json.loads(body)
+    except json.JSONDecodeError:
+        details = None
+    if isinstance(details, dict):
+        additional_data = details.get("additional_data")
+        if (
+            isinstance(additional_data, dict)
+            and additional_data.get("rate_limit_reason") == "public_api_request_blocked"
+        ):
+            return None
+
+    retry_after = error.headers.get("Retry-After") if error.headers else None
+    # Notion documents Retry-After as an integer number of seconds. Preserve
+    # the server's minimum wait, including workspace limits over one minute.
+    if retry_after is not None and re.fullmatch(r"[0-9]+", retry_after.strip()):
+        try:
+            return int(retry_after)
+        except ValueError:
+            pass
+    return min(2 ** retry, MAX_RATE_LIMIT_BACKOFF_SECONDS)
+
+
 def notion_request(
     method: str,
     path: str,
@@ -385,14 +414,27 @@ def notion_request(
     request = urllib.request.Request(
         f"{API_BASE}{path}", data=data, headers=headers, method=method
     )
-    try:
-        with urllib.request.urlopen(request, timeout=60) as response:
-            return json.loads(response.read().decode("utf-8"))
-    except urllib.error.HTTPError as error:
-        body = error.read().decode("utf-8", errors="replace")
-        raise NotionApiError(f"{method} {path} failed: HTTP {error.code}: {body}") from error
-    except urllib.error.URLError as error:
-        raise NotionApiError(f"{method} {path} failed: {error}") from error
+    retries = 0
+    while True:
+        try:
+            with urllib.request.urlopen(request, timeout=60) as response:
+                return json.loads(response.read().decode("utf-8"))
+        except urllib.error.HTTPError as error:
+            body = error.read().decode("utf-8", errors="replace")
+            error.close()
+            # Only an explicit rate-limit rejection is safe to repeat for all
+            # methods. A timeout or 5xx may have already created/appended data.
+            if error.code == 429 and retries < MAX_RATE_LIMIT_RETRIES:
+                delay = _rate_limit_retry_delay(error, body, retries)
+                if delay is not None:
+                    time.sleep(delay)
+                    retries += 1
+                    continue
+            raise NotionApiError(
+                f"{method} {path} failed: HTTP {error.code}: {body}"
+            ) from error
+        except urllib.error.URLError as error:
+            raise NotionApiError(f"{method} {path} failed: {error}") from error
 
 
 def query_path(parent_type: str, parent_id: str) -> str:
@@ -674,3 +716,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

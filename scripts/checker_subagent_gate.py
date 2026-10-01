@@ -216,14 +216,38 @@ def validate_manifest_subagents(
     return errors
 
 
+def _is_run_manifest_path(relative: str) -> bool:
+    # Run manifests are audits/workflow_runs/<word>/<run>.json. Nested
+    # requests, snapshots and raw responses are evidence, not legacy runs.
+    path = Path(relative)
+    return (len(path.parts) == 4 and path.parts[:2] == ("audits", "workflow_runs")
+            and path.suffix == ".json")
+
+
+def _validate_run(manifest: dict[str, Any], *, repo_root: Path,
+                  merge_ready: bool) -> list[str]:
+    import compact_workflow
+    if manifest.get("workflow_contract_version") == compact_workflow.VERSION:
+        # Draft runs remain resumable. Completed compact runs must retain the
+        # actual A/B receipts, independent execution IDs and current-body binds.
+        if manifest.get("status") != "completed":
+            return []
+        return compact_workflow.validate_completed(manifest, root=repo_root)
+    return validate_manifest_subagents(manifest, repo_root=repo_root,
+                                       merge_ready=merge_ready)
+
+
 def validate_changed_protocol(base: str, head: str, root: Path = REPO_ROOT) -> list[str]:
     """New completed runs cannot opt out by omitting the protocol marker."""
     import handoff_provenance
+    import compact_workflow
     errors = []
     paths = subprocess.check_output(["git", "diff", "--name-only", "--diff-filter=AM", base, head,
                                      "--", "audits/workflow_runs"], cwd=root,
                                     text=True, encoding="utf-8").splitlines()
     for relative in paths:
+        if not _is_run_manifest_path(relative):
+            continue
         manifest = _load_object(root / relative, relative, errors)
         if not manifest:
             continue
@@ -231,11 +255,15 @@ def validate_changed_protocol(base: str, head: str, root: Path = REPO_ROOT) -> l
         if old.returncode == 0:
             old_manifest = json.loads(old.stdout)
             required = old_manifest.get("orchestrator", {}).get("review_provenance_protocol") == handoff_provenance.PROTOCOL
+            was_compact = old_manifest.get("workflow_contract_version") == compact_workflow.VERSION
+            is_compact = manifest.get("workflow_contract_version") == compact_workflow.VERSION
+            if was_compact != is_compact:
+                errors.append(relative + ": run contract cannot change between legacy and compact; preserve the original run")
         else:
-            required = True
+            required = manifest.get("workflow_contract_version") != compact_workflow.VERSION
         if required and manifest.get("orchestrator", {}).get("review_provenance_protocol") != handoff_provenance.PROTOCOL:
             errors.append(relative + ": new runs require preserved_handoff_v1; protocol cannot be removed")
-        errors.extend(validate_manifest_subagents(manifest, repo_root=root, merge_ready=True))
+        errors.extend(_validate_run(manifest, repo_root=root, merge_ready=True))
     return errors
 
 
@@ -246,12 +274,12 @@ def validate_all(
     runs_root = repo_root / "audits" / "workflow_runs"
     if not runs_root.exists():
         return errors
-    for path in sorted(runs_root.rglob("*.json")):
+    for path in sorted(runs_root.glob("*/*.json")):
         manifest = _load_object(path, str(path.relative_to(repo_root)), errors)
         if manifest is None:
             continue
         errors.extend(
-            validate_manifest_subagents(
+            _validate_run(
                 manifest,
                 repo_root=repo_root,
                 merge_ready=merge_ready,
