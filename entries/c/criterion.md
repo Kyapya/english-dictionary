@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5  
 model: gpt-5.6-luna-wm  
 created_at: 2026-08-25  
-updated_at: 2026-08-25  
+updated_at: 2026-10-01  
 checked: true  
 tags: []  
 ---  
@@ -17,7 +17,7 @@ tags: []
 
 ＃語源
 
-ギリシャ語 kritērion「判断のための手段、基準」からラテン語形を経て英語に入った。kritērion は kritēs「判断する人、裁判官」、さらに krinein「判断する、決める」にさかのぼる。英語では17世紀初頭から使われ、Merriam-Webster は現在の第1義での初出を1622年としている。  
+ギリシャ語 kritērion「判断のための手段、基準」に由来する。kritērion は kritēs「判断する人、裁判官」、さらに krinein「判断する、決める」にさかのぼる。英語では17世紀初頭から使われ、Merriam-Webster は現在の第1義での初出を1622年としている。  
 同じ「判断・区別」に関わるギリシャ語の語根に連なる語として、critic「批評家、批評する人」、critical「批評の、重大な」、crisis「危機、重大な転機」などがある。ただし、これらは criterion の直接の派生語や同義語ではなく、語源上のつながりを示す関連語である。  
 
 ＃語形成
@@ -65,7 +65,7 @@ tags: []
 例: The sole criterion for inclusion was factual accuracy.  
 訳: 掲載の唯一の基準は事実の正確さだった。  
 
-・an admission・selection criterion  
+・an admission criterion / a selection criterion  
 用途: 入学・参加・採用などの選抜に使う基準を表す。  
 例: English proficiency is an admission criterion for the program.  
 訳: 英語力はそのプログラムへの入学基準の一つだ。  
@@ -110,7 +110,7 @@ tags: []
 頻度: 〈10/10〉  
 違い: condition は必要条件・前提条件に焦点があり、criterion は必ずしも合否を決める条件ではなく、比較や評価の尺度にも使える。  
 例: One condition of the agreement is that payment be made in advance.  
-訳: その契約の条件の一つは、前払いで支払うことだ。  
+訳: その契約の条件の一つは、代金を前払いすることだ。  
 
 ・measure  
 定義: 価値・程度・成果などを測る手段や尺度。  
