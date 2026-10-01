@@ -242,15 +242,17 @@ def validate_changed_protocol(base: str, head: str, root: Path = REPO_ROOT) -> l
     import handoff_provenance
     import compact_workflow
     errors = []
-    paths = subprocess.check_output(["git", "diff", "--name-only", "--diff-filter=AM", base, head,
-                                     "--", "audits/workflow_runs"], cwd=root,
+    paths = subprocess.check_output(["git", "diff", "--name-only", "--no-renames",
+                                     base, head], cwd=root,
                                     text=True, encoding="utf-8").splitlines()
+    checked: set[Path] = set()
     for relative in paths:
         if not _is_run_manifest_path(relative):
             continue
         manifest = _load_object(root / relative, relative, errors)
         if not manifest:
             continue
+        checked.add(root / relative)
         old = subprocess.run(["git", "show", f"{base}:{relative}"], cwd=root, capture_output=True)
         if old.returncode == 0:
             old_manifest = json.loads(old.stdout)
@@ -264,6 +266,34 @@ def validate_changed_protocol(base: str, head: str, root: Path = REPO_ROOT) -> l
         if required and manifest.get("orchestrator", {}).get("review_provenance_protocol") != handoff_provenance.PROTOCOL:
             errors.append(relative + ": new runs require preserved_handoff_v1; protocol cannot be removed")
         errors.extend(_validate_run(manifest, repo_root=root, merge_ready=True))
+    # Evidence may change without rewriting its owner manifest. Revalidate that
+    # compact publication, but do not compare unrelated historical runs against
+    # a newer canonical audit or an independently reviewed targeted correction.
+    for path in sorted((root / "audits/workflow_runs").glob("*/*.json")):
+        if path in checked:
+            continue
+        manifest = _load_object(path, str(path.relative_to(root)), errors)
+        if (not manifest or manifest.get("workflow_contract_version") != compact_workflow.VERSION
+                or manifest.get("status") != "completed"):
+            continue
+        evidence = {manifest.get("reuse_ledger_path")}
+        for receipt in manifest.get("review_receipts", []):
+            evidence.update((receipt.get("request_path"), receipt.get("raw_response_path")))
+        prefix = path.with_suffix("").relative_to(root).as_posix() + "/"
+        changed_evidence = any(relative in evidence or relative.startswith(prefix) for relative in paths)
+        changed_inventory = manifest.get("inventory_path") in paths
+        if changed_inventory and not changed_evidence:
+            # A shared inventory can legitimately serve a later completed run.
+            # Only that valid current owner must re-establish content coverage.
+            entry = Path(manifest["entry_path"])
+            audit_path = root / "audits" / entry.parent.name / (entry.stem + ".json")
+            audit = _load_object(audit_path, str(audit_path.relative_to(root)), errors)
+            if (audit and audit.get("schema_version") == "compact_audit_v1"
+                    and audit.get("run_path") != path.relative_to(root).as_posix()
+                    and not compact_workflow.validate_audit(audit_path, root=root)):
+                continue
+        if changed_evidence or changed_inventory:
+            errors.extend(_validate_run(manifest, repo_root=root, merge_ready=True))
     return errors
 
 
@@ -279,7 +309,7 @@ def validate_all(
         if manifest is None:
             continue
         errors.extend(
-            _validate_run(
+            validate_manifest_subagents(
                 manifest,
                 repo_root=repo_root,
                 merge_ready=merge_ready,

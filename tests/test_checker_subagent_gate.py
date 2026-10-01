@@ -135,11 +135,11 @@ class ChangedProtocolGateTests(unittest.TestCase):
             return gate.validate_changed_protocol("base", "head", self.root)
 
     def _completed_compact(self):
-        (self.root / "prompts").mkdir()
+        (self.root / "prompts").mkdir(exist_ok=True)
         shutil.copy2(REPO_ROOT / "prompts/compact_review_contract_v1.json",
                      self.root / "prompts/compact_review_contract_v1.json")
         entry = self.root / "entries/s/sample.md"
-        entry.parent.mkdir(parents=True)
+        entry.parent.mkdir(parents=True, exist_ok=True)
         entry.write_text(ENTRY_TEXT, encoding="utf-8")
         compact._save(self.root / "inventory.json", {"source_first_audit": {
             "sources": [
@@ -148,7 +148,7 @@ class ChangedProtocolGateTests(unittest.TestCase):
                 {"source_type": "general_dictionary", "locator": "https://example.com/two",
                  "independence_group": "two"}],
             "source_union": [], "claim_units": []}})
-        manifest = {"workflow_contract_version": compact.VERSION, "run_id": "run-1",
+        manifest = {"workflow_contract_version": compact.VERSION, "run_id": self.run.stem,
                     "entry_path": "entries/s/sample.md", "inventory_path": "inventory.json",
                     "review_receipts": [], "resolutions": [], "status": "in_progress"}
         for role in ("A", "B"):
@@ -183,16 +183,101 @@ class ChangedProtocolGateTests(unittest.TestCase):
         errors = self._changed(manifest, extra=extra)
         self.assertTrue(any("independent coverage" in error for error in errors), errors)
 
-    def test_completed_compact_raw_tampering_is_rejected_repository_wide(self):
+    def test_completed_compact_raw_tampering_is_rejected_without_manifest_change(self):
         manifest = self._completed_compact()
         raw = self.root / manifest["review_receipts"][0]["raw_response_path"]
         raw.write_text(raw.read_text(encoding="utf-8") + " ", encoding="utf-8")
-        errors = gate.validate_all(repo_root=self.root, merge_ready=True)
-        self.assertTrue(any("independent coverage" in error for error in errors), errors)
+        for deleted in (False, True):
+            if deleted:
+                raw.unlink()
+            with patch.object(gate.subprocess, "check_output",
+                              return_value=str(raw.relative_to(self.root))):
+                errors = gate.validate_changed_protocol("base", "head", self.root)
+            self.assertTrue(any("independent coverage" in error for error in errors), errors)
 
     def test_new_legacy_runs_still_require_preserved_handoff(self):
         errors = self._changed({"run_id": "run-1", "status": "completed"})
         self.assertTrue(any("new runs require preserved_handoff_v1" in error for error in errors))
+
+    def test_external_raw_receipt_deletion_revalidates_its_compact_owner(self):
+        manifest = self._completed_compact()
+        receipt = manifest["review_receipts"][0]
+        raw = self.root / receipt["raw_response_path"]
+        external = self.root / "audits/runs/s/sample/run-1/A.raw.json"
+        external.parent.mkdir(parents=True)
+        raw.rename(external)
+        receipt["raw_response_path"] = external.relative_to(self.root).as_posix()
+        manifest["status"] = "in_progress"
+        compact.finalize(manifest, self.run, root=self.root)
+        external.unlink()
+        with patch.object(gate.subprocess, "check_output", return_value=receipt["raw_response_path"]):
+            errors = gate.validate_changed_protocol("base", "head", self.root)
+        self.assertTrue(any("independent coverage" in error for error in errors), errors)
+
+    def test_snapshot_changes_route_to_owner_not_legacy_protocol_check(self):
+        self._completed_compact()
+        snapshot = next(self.run.with_suffix("").rglob("snapshot-*.json"))
+        with patch.object(gate.subprocess, "check_output",
+                          return_value=snapshot.relative_to(self.root).as_posix()), \
+                patch.object(compact, "validate_completed", return_value=["owner checked"]) as validate:
+            self.assertEqual(gate.validate_changed_protocol("base", "head", self.root), ["owner checked"])
+        validate.assert_called_once()
+
+    def test_revised_compact_run_can_retain_stale_historical_receipts(self):
+        manifest = self._completed_compact()
+        entry = self.root / manifest["entry_path"]
+        entry.write_text(entry.read_text(encoding="utf-8").replace(
+            "私たちはその材料の試料を調べた。", "私たちは材料の試料を調べた。"), encoding="utf-8")
+        manifest["status"] = "in_progress"
+        for role in ("A", "B"):
+            request = compact.prepare(manifest, self.run, role, root=self.root)
+            raw = request.parent / f"{role}.round-2.raw.json"
+            compact._save(raw, {"schema_version": "compact_review_response_v1",
+                                "checked_areas": list(compact.current(manifest, self.root)["areas"]),
+                                "unchecked_areas": [], "findings": []})
+            compact.ingest(manifest, self.run, role, request, raw,
+                           execution_id=f"reviewer-{role}-round-2", model="test-reviewer", root=self.root)
+        compact.finalize(manifest, self.run, root=self.root)
+        self.assertEqual(len(manifest["review_receipts"]), 4)
+        self.assertEqual(len(compact._valid_receipts(manifest, self.root)), 2)
+        self.assertEqual(self._changed(manifest), [])
+
+    def test_superseded_completed_run_does_not_block_new_publication(self):
+        self._completed_compact()
+        self.relative = "audits/workflow_runs/sample/run-2.json"
+        self.run = self.root / self.relative
+        manifest = self._completed_compact()
+        self.assertEqual(self._changed(manifest, extra=["inventory.json"]), [])
+        self.assertEqual(gate.validate_all(repo_root=self.root, merge_ready=True), [])
+
+    def test_valid_targeted_correction_does_not_reopen_old_compact_run(self):
+        from tests.test_targeted_correction import git
+        from targeted_correction import _unified_diff, build_record, validate_changed
+
+        self._completed_compact()
+        git(self.root, "init", "-b", "main")
+        git(self.root, "config", "user.email", "test@example.com")
+        git(self.root, "config", "user.name", "Compact Gate Test")
+        git(self.root, "add", ".")
+        git(self.root, "commit", "-m", "Complete compact review")
+        base = git(self.root, "rev-parse", "HEAD")
+        entry_path = "entries/s/sample.md"
+        entry = self.root / entry_path
+        before = entry.read_text(encoding="utf-8")
+        after = before.replace("私たちはその材料の試料を調べた。", "私たちは材料の試料を調べた。")
+        self.assertNotEqual(before, after)
+        entry.write_text(after, encoding="utf-8")
+        record = build_record(entry_path=entry_path, base_text=before, head_text=after,
+                              diff_text=_unified_diff(before, after, entry_path),
+                              user_request="Correct this translation only.",
+                              reviewer="independent-test-reviewer")
+        compact._save(self.root / "audits/targeted_corrections/sample/fix.json", record)
+        git(self.root, "add", ".")
+        git(self.root, "commit", "-m", "Apply independently reviewed targeted correction")
+        head = git(self.root, "rev-parse", "HEAD")
+        self.assertEqual(validate_changed(base, head, self.root), [])
+        self.assertEqual(gate.validate_changed_protocol(base, head, self.root), [])
+        self.assertEqual(gate.validate_all(repo_root=self.root, merge_ready=True), [])
 
     def test_legacy_protocol_cannot_be_removed_or_relabelled_compact(self):
         old = {"run_id": "run-1", "orchestrator": {
