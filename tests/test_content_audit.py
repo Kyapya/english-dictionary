@@ -3,6 +3,7 @@ from __future__ import annotations
 import copy
 import hashlib
 import json
+import shutil
 import subprocess
 import sys
 import tempfile
@@ -725,6 +726,98 @@ class ContentAuditTests(unittest.TestCase):
         self.entry.write_text(ENTRY_TEXT.replace("全体の性質", "母集団の性質"), encoding="utf-8")
         errors = validate_manifest(self.entry, self.audit, self.root)
         self.assertTrue(any("body_sha256" in error for error in errors))
+
+    def _complete_compact_transition(self) -> tuple[str, str, dict[str, object]]:
+        import compact_workflow as compact
+
+        self._write(self._complete_manifest())
+        self.assertEqual(validate_manifest(self.entry, self.audit, self.root), [])
+        (self.root / content_audit.BLIND_CHRONOLOGY_MARKER).write_text("enabled\n", encoding="utf-8")
+        self._git("init", "-q")
+        self._git("config", "user.name", "Audit Test")
+        self._git("config", "user.email", "audit@example.invalid")
+        self._git("add", ".")
+        self._git("commit", "-qm", "Preserve completed legacy audit and raw evidence")
+        base = self._git("rev-parse", "HEAD")
+        self._git("checkout", "-qb", "review/sample-compact")
+        (self.root / "prompts").mkdir()
+        shutil.copy2(REPO_ROOT / "prompts/compact_review_contract_v1.json",
+                     self.root / "prompts/compact_review_contract_v1.json")
+        self.entry.write_text(ENTRY_TEXT.replace("私たちはその材料の試料を調べた。",
+                                                "私たちは材料の試料を調べた。"), encoding="utf-8")
+        inventory = self.root / "audits/runs/s/sample/compact-run/source_inventory.json"
+        compact._save(inventory, {"source_first_audit": {"sources": [
+            {"source_type": "learner_dictionary", "locator": "https://example.com/one",
+             "independence_group": "one"},
+            {"source_type": "general_dictionary", "locator": "https://example.com/two",
+             "independence_group": "two"}], "source_union": [], "claim_units": []}})
+        run = compact.start("sample", self.entry, inventory, root=self.root, run_id="compact-run")
+        manifest = compact._json(run)
+        for role in ("A", "B"):
+            request = compact.prepare(manifest, run, role, root=self.root)
+            raw = request.parent / f"{role}.raw.json"
+            compact._save(raw, {"schema_version": "compact_review_response_v1",
+                                "checked_areas": list(compact.current(manifest, self.root)["areas"]),
+                                "unchecked_areas": [], "findings": []})
+            compact.ingest(manifest, run, role, request, raw,
+                           execution_id=f"independent-{role}", model="test-model", root=self.root)
+        compact.finalize(manifest, run, root=self.root)
+        self._git("add", ".")
+        self._git("commit", "-qm", "Finalize independently reviewed compact revision")
+        return base, self._git("rev-parse", "HEAD"), manifest
+
+    def test_completed_legacy_to_compact_passes_all_publication_and_sync_gates(self) -> None:
+        base, head, _ = self._complete_compact_transition()
+        self.assertEqual(content_audit.validate_changed(base, head, self.root), [])
+        # The old audit remains exactly readable in Git; old raw files are not
+        # rewritten into a synthetic compact PASS or a legacy review_history.
+        old = json.loads(self._git("show", f"{base}:audits/s/sample.json"))
+        self.assertEqual(old["schema_version"], content_audit.AUDIT_SCHEMA_VERSION)
+        self.assertEqual(self._git("diff", "--name-only", base, head, "--",
+                                   "audits/runs/s/sample/cycle-001"), "")
+        shutil.copytree(REPO_ROOT / "scripts", self.root / "scripts",
+                        ignore=shutil.ignore_patterns("__pycache__"))
+        commands = [
+            [script, "validate-changed", "--base", base, "--head", head, *extra]
+            for script, extra in (
+                ("checker_subagent_gate.py", []),
+                ("entry_workflow_guard.py", ["--merge-ready"]),
+                ("content_audit.py", []),
+                ("semantic_resolution_gate.py", []),
+                ("source_first_audit_gate.py", []))]
+        commands += [
+            ["merge_preflight.py", "--base", base, "--head", head],
+            ["content_audit.py", "validate-sync", "entries/s/sample.md"],
+            ["semantic_resolution_gate.py", "validate-entries", "entries/s/sample.md"],
+            ["import_to_notion.py", "--entry", "entries/s/sample.md", "--dry-run"]]
+        for script, *args in commands:
+            with self.subTest(script=script, args=args):
+                result = subprocess.run([sys.executable, str(self.root / "scripts" / script), *args],
+                                        cwd=self.root, capture_output=True, text=True, encoding="utf-8")
+                self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+
+    def test_compact_transition_still_rejects_missing_or_tampered_review(self) -> None:
+        base, head, manifest = self._complete_compact_transition()
+        raw = self.root / manifest["review_receipts"][0]["raw_response_path"]
+        raw.write_text(raw.read_text(encoding="utf-8") + " ", encoding="utf-8")
+        for deleted in (False, True):
+            if deleted:
+                raw.unlink()
+            errors = content_audit.validate_changed(base, head, self.root)
+            self.assertTrue(any("independent coverage" in error for error in errors), errors)
+
+    def test_legacy_revision_still_requires_exact_append_only_snapshot(self) -> None:
+        self._write(self._complete_manifest())
+        self._git("init", "-q")
+        self._git("config", "user.name", "Audit Test")
+        self._git("config", "user.email", "audit@example.invalid")
+        self._git("add", ".")
+        self._git("commit", "-qm", "Completed legacy audit")
+        base = self._git("rev-parse", "HEAD")
+        self.entry.write_text(ENTRY_TEXT.replace("全体の性質", "母集団の性質"), encoding="utf-8")
+        errors = content_audit._validate_append_only_transition(
+            "entries/s/sample.md", self.entry, self.audit, base, self.root)
+        self.assertTrue(any("append an exact snapshot" in error for error in errors), errors)
 
     def test_reviewer_roles_must_be_separate(self) -> None:
         manifest = copy.deepcopy(self._complete_manifest())
