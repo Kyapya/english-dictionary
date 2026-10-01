@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: codex-gpt-5
 created_at: 2026-09-12
-updated_at: 2026-09-19
+updated_at: 2026-10-01
 checked: true
 tags: []
 ---
@@ -56,8 +56,8 @@ tags: []
 
 ・a highly controversial proposal  
 用途: 提案に対して非常に強い賛否や反発が起きていることを強調する。  
-例: The city council postponed a highly controversial proposal.  
-訳: 市議会は非常に物議を醸している提案を延期した。  
+例: The city council postponed a vote on a highly controversial proposal.  
+訳: 市議会は非常に物議を醸している提案の採決を延期した。  
 
 ・controversial among 〈group〉  
 用途: どの集団の中で意見が割れているかを限定する。  
@@ -80,7 +80,7 @@ tags: []
 訳: 大臣の物議を醸す発言は両党から批判を招いた。  
 
 ・become controversial after ...  
-用途: 当初は普通だった対象が、後から知られた事実や変化によって論争の的になることを表す。  
+用途: 以前は論争の的ではなかった対象が、後から知られた事実や変化によって論争の的になることを表す。  
 例: The renovation plan became controversial after residents learned the full cost.  
 訳: 住民が総費用を知った後、その改修計画は物議を醸すようになった。  
 
@@ -98,7 +98,7 @@ tags: []
 ・disputed  
 定義: 真偽・権利・解釈などが争われている、意見が一致していない。  
 頻度: 〈8/10〉  
-違い: disputed は「正しいか、誰のものかなどが争われている」という未確定性を強調し、controversial のような広い世論上の物議まで必ずしも含まない。  
+違い: disputed は真偽・権利・判断などについて異議や争いがあることを強調し、controversial のような広い世論上の物議まで必ずしも含まない。  
 例: The map shows the disputed border in a different color.  
 訳: その地図は争われている国境を別の色で示している。  
 
@@ -159,9 +159,9 @@ tags: []
 
 【頻度】〈2/10〉  
 
-【レジスター/領域】まれで、辞書的・形式的・文学的な説明に現れやすい。現代の一般的な文章で人の性向を表すなら argumentative、disputatious、polemical の方が意味を明確にしやすい。  
+【レジスター/領域】まれで、硬い文体や文学的な人物描写などに現れる。現代の一般的な文章で人の性向を表すなら argumentative、disputatious、polemical の方が意味を明確にしやすい。  
 
-【文法パターン】a controversial temperament＝論争を好む気質／a controversial manner＝対立を生みやすい態度／be controversial by temperament＝性向として論争的である／be controversial in debate＝議論で意図的に反論を重ねる。  
+【文法パターン】a controversial temperament＝論争を好む気質／a controversial manner＝対立を生みやすい態度／be controversial by temperament＝性向として論争的である／be controversial in debate＝討論で論争的な態度を示す。  
 
 【コロケーション】
 
@@ -181,11 +181,11 @@ tags: []
 訳: 彼は性向として論争的で、どの討論でもささいな点にまで反論した。  
 
 ・be controversial in debate  
-用途: 議論の最中に、立場そのものよりも反論を重ねる性向が目立つことを表す。  
+用途: 討論の場で論争を好む性向や態度を示す。反論の回数や意図性まで語自体が指定するわけではない。  
 例: The speaker was controversial in debate because he deliberately attacked each established position.  
 訳: その話者は確立した立場を一つ一つ意図的に攻撃したため、討論では論争的だった。  
 
-【語法・注意】この語義では controversial が人の性向を直接表すが、現代の「論争の的となる人物」という普通の解釈と形が同じなので、文脈で区別する必要がある。a controversial politician は通常語義1であり、気質を明示する temperament、manner、by temperament などがあって初めて語義2に近づく。意見が割れているだけなら語義1、本人が反論・対立を好むことまで言うなら語義2である。  
+【語法・注意】この語義では controversial が人の性向を直接表すが、現代の「論争の的となる人物」という普通の解釈と形が同じなので、文脈で区別する必要がある。a controversial politician は通常語義1であり、temperament、manner、by temperament などで気質を明示すると、語義2だと分かりやすい。意見が割れているだけなら語義1、本人が反論・対立を好むことまで言うなら語義2である。  
 
 【類義語】
 
@@ -212,7 +212,7 @@ tags: []
 
 ・contentious  
 定義: 対立的で、争いを引き起こしやすい。  
-頻度: 〈8/10〉  
-違い: contentious は人の態度にも使えるが、敵対的・喧嘩腰の含みが出やすい。controversial の語義2は、必ずしも敵意や攻撃性まで含まない。  
+頻度: 〈6/10〉  
+違い: contentious は硬めの語で、人の態度にも使えるが、敵対的・喧嘩腰の含みが出やすい。controversial の語義2は、必ずしも敵意や攻撃性まで含まない。  
 例: The manager's contentious style made open discussion difficult.  
 訳: その管理職の対立的なスタイルは、率直な話し合いを難しくした。  
