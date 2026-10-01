@@ -178,13 +178,3 @@ tags: []
 違い: exactly と同じく approximately の対極にあるが、exactly よりやや改まった響きで、正確さそのものを強調する。  
 例: The meeting started precisely at 9 a.m.  
 訳: 会議は午前9時ちょうどに始まった。  
-
-＃参考資料
-
-・[Cambridge Dictionary 発音](https://dictionary.cambridge.org/us/pronunciation/english/approximately)  
-
-・[Cambridge Dictionary in the region of](https://dictionary.cambridge.org/us/dictionary/english/in-the-region-of)  
-
-・[Cambridge Dictionary 概数表現の解説](https://dictionaryblog.cambridge.org/2022/11/02/at-a-rough-guess-talking-about-approximate-numbers-and-amounts/)  
-
-・[American Heritage Dictionary approximate の語源](https://www.ahdictionary.com/word/search.html?q=approximate)  

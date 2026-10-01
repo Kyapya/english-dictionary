@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/a/approximately.md",
+  "created_at": "2026-10-01T15:43:46Z",
+  "base_body_sha256": "405712e983efdb5d03e8e9a7c382781807c1de05489ad1bacbf354f4da7c057d",
+  "head_body_sha256": "35b2b270746f4e96a6f2a4100a589baa8a5f82b34dbf02aee50de873922e50b7",
+  "diff_sha256": "400574de229b0b11aae76206c512d4c3871cce1c823664eddfedc48f5e6621f2",
+  "user_request": "approximately の GitHub・Notion 反映を、既存の定型書式に合わせて完了する。本文末尾へ追加した未対応の参考資料見出しと4項目だけを削除し、説明本文・語義構成・頻度・例文は変更しない。",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "OpenAI assistant (scoped format correction review)",
+    "verdict": "pass",
+    "notes": "Reviewed only the removed appendix and adjacent final antonym paragraph. entry_spec_v5 requires source lists to stay out of the entry body unless requested. KyapyaTango notion_parser.py has no reference-section mapping and initializes sources from existing JSON only, so this appended section is not imported. Removed only the unsupported reference heading and four reference bullets. All preceding explanation text, labels, examples, frequencies and frontmatter are byte-identical; the final content line keeps its required two trailing spaces. Existing audit records and publication history preserve the reference evidence. No scripts, parser rules, workflow, or specification were changed. This scoped check is not a full-entry or independent re-review. PI reviewed; this applies existing formatting rules and does not establish a new process learning."
+  },
+  "pi_processing": {
+    "status": "no_applicable",
+    "event_id": "targeted:approximately:400574de229b"
+  }
+}
