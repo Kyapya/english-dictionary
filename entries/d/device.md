@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: unknown
 created_at: 2026-08-21
-updated_at: 2026-08-21
+updated_at: 2026-10-01
 checked: true
 tags: []
 ---
@@ -21,14 +21,14 @@ tags: []
 
 ＃コアイメージ
 
-device には、目的や特定の効果に向けて人が考案・配置した「仕掛け・手段」という共通核がある。物理的な機器だけでなく、目的達成の方法、欺きの策略、表現上の技法、紋章の意匠にも広がる。  
+device には、目的や特定の効果に向けて人が考案・配置した「仕掛け・手段」という共通核がある。物理的な機器だけでなく、目的達成の方法、欺きの策略、表現上の技法、紋章や装飾の意匠にも広がる。  
 ・目的に向けて考案・配置された物理的な仕掛け → 「装置、機器」（語義1）  
 ・目的に向けて考案・配置された電子的な仕掛け → 「電子機器、端末」（語義2）  
 ・目的に向けて考案・配置された爆発性の仕掛け → 「爆発装置、爆弾」（語義3）  
 ・目的に向けて考案・配置された実行上の手段 → 「手段、方法」（語義4）  
 ・目的に向けて考案・配置された欺きの仕掛け → 「策略、たくらみ」（語義5）  
 ・目的に向けて考案・配置された表現上の仕掛け → 「表現技法、文学的装置」（語義6）  
-・目的に向けて考案・配置された紋章上の意匠 → 「紋章、標章」（語義7）  
+・目的に向けて考案・配置された象徴・装飾の意匠 → 「紋章、標章、装飾図案」（語義7）  
 語義8は歴史的残存義で、現代の device の「考案された仕掛け」という核から「自分のしたいようにする、自分の裁量に任せる」という慣用的意味を直接導けず、現在は own devices を含む慣用句にほぼ限られるため、個別に参照する。  
 
 ＃意味・用法・関連表現
@@ -133,7 +133,7 @@ device には、目的や特定の効果に向けて人が考案・配置した�
 
 2. 【名詞・可算・コンピューター】電子機器、端末
 
-【日本語訳・定義】コンピューターやネットワークに接続して、情報を処理・保存・送受信する電子機器。特に smartphone、tablet、printer、scanner、storage device などの比較的小型のハードウェアを指す。日常のIT文脈では、話題になっている機器を device とだけ呼ぶことが多い。  
+【日本語訳・定義】情報の処理・保存・入出力・通信などに使う電子機器・コンピューター関連機器。単体で使うものも、他の機器やネットワークに接続して使うものも含む。特に smartphone、tablet、printer、scanner、storage device などの比較的小型のハードウェアを指す。日常のIT文脈では、話題になっている機器を device とだけ呼ぶことが多い。  
 
 【頻度】〈9/10〉  
 
@@ -171,7 +171,7 @@ device には、目的や特定の効果に向けて人が考案・配置した�
 ・access 〈サービス・データ〉 from a device  
 用途: 端末を使ってサービスやデータへアクセスすることを表す。  
 例: Employees can access the payroll system from any authorized device.  
-訳: 従業員は認証済みのどの端末からでも給与システムにアクセスできる。  
+訳: 従業員は利用を許可されたどの端末からでも給与システムにアクセスできる。  
 
 ・a device driver  
 用途: OSが特定の機器を操作するためのソフトウェアを表す複合表現。  
@@ -183,7 +183,7 @@ device には、目的や特定の効果に向けて人が考案・配置した�
 例: The company has a strict bring-your-own-device policy.  
 訳: その会社には私物端末の持ち込み利用に関する厳格な方針がある。  
 
-【語法・注意】IT文脈の device は、単なる「便利な小道具」ではなく、システムと接続して機能するハードウェアを分類する語になりやすい。phone と言えば電話機、computer と言えばコンピューター全体を指すのに対し、device はそれらを含む広い分類語である。device は通常可算で、複数の機器なら devices とする。device driver、storage device、mobile device のように前置修飾語で種類を具体化する。  
+【語法・注意】IT文脈の device は、単なる「便利な小道具」ではなく、単体の端末や周辺機器などのハードウェアを分類する語になりやすい。外部のシステムに接続していない状態でも device と呼べる。phone と言えば電話機、computer と言えばコンピューター全体を指すのに対し、device はそれらを含む広い分類語である。device は通常可算で、複数の機器なら devices とする。storage device、mobile device のように、device の前の修飾語で機器の種類を具体化する。device driver はこれとは構造が異なり、device が driver を修飾する複合語で、機器を扱うためのソフトウェアを指す。  
 
 【類義語】
 
@@ -230,7 +230,7 @@ device には、目的や特定の効果に向けて人が考案・配置した�
 
 【レジスター/領域】ニュース、警察、軍事、法執行、政治。一般会話では bomb や explosive の方が具体的だが、報道では formal で婉曲的な device が頻出する。  
 
-【文法パターン】an explosive・improvised explosive device＝爆発・即席爆発装置／plant・place a device＝装置を仕掛ける／detonate・set off a device＝装置を爆発させる／defuse・disarm a device＝装置の爆発を解除する／a device explodes・fails to detonate＝装置が爆発する・起爆しない  
+【文法パターン】an explosive・improvised explosive device＝爆発・即席爆発装置／plant・place a device＝装置を仕掛ける／detonate・set off a device＝装置を爆発させる／defuse・disarm a device＝装置が爆発しないように処理する／a device explodes・fails to detonate＝装置が爆発する・起爆しない  
 
 【コロケーション】
 
@@ -245,9 +245,9 @@ device には、目的や特定の効果に向けて人が考案・配置した�
 訳: 軍は即席爆発装置を安全に撤去した。  
 
 ・a nuclear/atomic device  
-用途: 核兵器・原子爆弾を、兵器の機能に焦点を置いて表す。  
+用途: 核爆発を起こす装置を表す。核兵器だけでなく、実験用の核爆発装置も含めて使える。  
 例: The treaty prohibits the testing of nuclear devices.  
-訳: その条約は核兵器の実験を禁じている。  
+訳: その条約は核爆発装置の実験を禁じている。  
 
 ・plant/place a device  
 用途: 爆発装置を人目につかない場所へ仕掛けることを表す。  
@@ -255,14 +255,14 @@ device には、目的や特定の効果に向けて人が考案・配置した�
 訳: 捜査員は誰かが一晩のうちにその装置を仕掛けたと考えている。  
 
 ・detonate/set off a device  
-用途: 爆発装置を意図的に起爆することを表す。  
+用途: 爆発装置を起爆することを表す。意図的な場合にも、偶発的な場合にも使える。  
 例: The device was detonated remotely.  
 訳: その装置は遠隔操作で起爆された。  
 
 ・defuse/disarm a device  
 用途: 爆発装置が爆発しないように処理することを表す。  
 例: Bomb technicians managed to defuse the device.  
-訳: 爆発物処理班はその装置の爆発を解除することに成功した。  
+訳: 爆発物処理班は、その装置が爆発しないように処理することに成功した。  
 
 ・a device fails to detonate  
 用途: 装置が起爆しなかったことを表す報道・捜査表現。  
@@ -290,7 +290,7 @@ device には、目的や特定の効果に向けて人が考案・配置した�
 ・weapon  
 定義: 攻撃や防御に使う兵器・武器。  
 頻度: 〈10/10〉  
-違い: weapon は爆発しない銃や刃物も含む上位語で、device はこの語義では爆発するものに限定される。  
+違い: weapon は攻撃・防御という用途に基づく語で、爆発しない銃や刃物も含む。device はここでは爆発する装置に焦点があり、兵器としての用途を必ずしも断定しない。  
 例: The device was designed as a weapon.  
 訳: その装置は兵器として設計された。  
 
@@ -321,14 +321,14 @@ device には、目的や特定の効果に向けて人が考案・配置した�
 ・a mnemonic device  
 用途: 情報を記憶しやすくする語呂、規則、イメージなどの工夫を表す。  
 例: Students invented a mnemonic device to remember the order of the planets.  
-訳: 生徒たちは惑星の順番を覚えるための語呂合わせを考えた。  
+訳: 生徒たちは惑星の順番を覚えやすくする工夫を考えた。  
 
 ・a teaching device  
 用途: 教える内容を理解させるための教育上の工夫を表す。  
 例: The experiment is an effective teaching device for explaining pressure.  
 訳: その実験は圧力を説明するための効果的な教育手段だ。  
 
-・a device for achieving 〈目的〉  
+・a device for ensuring/achieving 〈結果〉  
 用途: 特定の目的を実現するために採用する手段を表す。  
 例: The committee proposed a device for ensuring equal access to the service.  
 訳: 委員会はサービスへの平等なアクセスを確保する手段を提案した。  
@@ -348,7 +348,7 @@ device には、目的や特定の効果に向けて人が考案・配置した�
 例: The form is a device for making sure that every request is recorded.  
 訳: その書式はすべての依頼が記録されるようにする手段だ。  
 
-【語法・注意】この語義では、device は「装置」から抽象化された「目的のための仕掛け・手段」で、method、technique、means と近い。a device for 〈動名詞・目的〉、a device to 〈動詞原形〉のように目的を後ろへ置く。欺きが中心なら語義5、文学・演説・物語の効果を狙う表現技法なら語義6へ移る。単に「方法」という意味でも、何らかの意図的な工夫・仕掛けという見方が含まれやすい。  
+【語法・注意】この語義では、device は物理的な装置ではなく、抽象的な「目的のための仕掛け・手段」を指し、method、technique、means と近い。a device for 〈動名詞・目的〉、a device to 〈動詞原形〉のように目的を後ろへ置く。欺きが中心なら語義5、文学・演説・物語の効果を狙う表現技法なら語義6へ移る。単に「方法」という意味でも、何らかの意図的な工夫・仕掛けという見方が含まれやすい。  
 
 【類義語】
 
@@ -395,7 +395,7 @@ device には、目的や特定の効果に向けて人が考案・配置した�
 
 【レジスター/領域】標準語。報道、評論、政治、ビジネス批判、文学的な説明で見られる。trick や scheme より硬く、行為の背後にある仕掛け・計略を分析する響きがある。  
 
-【文法パターン】a device to 〈動詞原形〉＝～するための策略／a device for 〈動名詞・目的〉＝～のための計略／use something as a device to 〈動詞原形〉＝何かを～する策略として使う／a device used to 〈動詞原形〉＝～するために使われる仕掛け／a mere・clever・cynical device＝単なる・巧妙な・冷笑的な策略  
+【文法パターン】a device to 〈動詞原形〉＝～するための策略／a device for 〈動名詞・目的〉＝～のための計略／use something as a device to 〈動詞原形〉＝何かを～する策略として使う／a device used to 〈動詞原形〉＝～するために使われる仕掛け／a mere・clever・cynical device＝単なる・巧妙な・他者を顧みず利益を図る策略  
 
 【コロケーション】
 
@@ -414,7 +414,7 @@ device には、目的や特定の効果に向けて人が考案・配置した�
 例: The arrangement was a device to get around the spending limit.  
 訳: その取り決めは支出上限をかいくぐるための策略だった。  
 
-・a device used to make it seem 〈形容詞〉  
+・a device used to make 〈対象〉 seem 〈形容詞〉  
 用途: 実際とは違う印象を与えるための仕掛けを表す。  
 例: The report was merely a device used to make the losses seem smaller.  
 訳: その報告書は損失を小さく見せるためだけの仕掛けだった。  
@@ -425,7 +425,7 @@ device には、目的や特定の効果に向けて人が考案・配置した�
 訳: その謝罪は世論の同情を得るための単なる策略だとして退けられた。  
 
 ・a clever/cynical device  
-用途: 策略の巧妙さや冷笑的な意図を評価する。  
+用途: 策略が巧妙であることや、他者への配慮を欠いて自分の利益を図るものであることを評価する。  
 例: Calling the fee a donation was a clever device to avoid criticism.  
 訳: その料金を寄付と呼ぶのは批判を避ける巧妙な策略だった。  
 
@@ -534,9 +534,9 @@ device には、目的や特定の効果に向けて人が考案・配置した�
 訳: 伏線は一般的な物語技法だ。  
 
 ・trope  
-定義: 繰り返し用いられる比喩・表現類型または物語上の定型。  
+定義: 比喩的な表現。また、よく使われる表現類型や物語上の定型。  
 頻度: 〈6/10〉  
-違い: trope は定型化・反復された表現や物語パターンを指しやすい。device は一つの作品で意図的に使われる仕掛けにも使える。  
+違い: trope は修辞では比喩的表現を指し、反復は必須ではない。物語批評では定型化した表現や展開のパターンを指す。device は定型かどうかを問わず、作品の効果を生む仕掛けを広く指せる。  
 例: The film plays with the familiar hero’s-journey trope.  
 訳: その映画はおなじみの英雄の旅という物語類型をひねって使っている。  
 
@@ -554,15 +554,15 @@ device には、目的や特定の効果に向けて人が考案・配置した�
 例: The film deliberately breaks the conventions of the genre.  
 訳: その映画は意図的にそのジャンルの慣例を破っている。  
 
-7. 【名詞・可算・紋章学】紋章、標章、意匠
+7. 【名詞・可算・紋章・装飾】紋章、標章、装飾図案
 
-【日本語訳・定義】特に紋章の一部として使われる象徴的な図案・意匠・標章。家系、組織、国家などを表すデザインを指す専門的・歴史的な用法で、日常の「装置」という意味では使わない。  
+【日本語訳・定義】象徴や装飾のために用いる図案・意匠・標章。紋章の一部や、家系・組織・国家・商標などを表す図案に加え、刺繍などの装飾模様にも使う。この用法では、何かの機能を果たす装置ではなく、描かれたり作り込まれたりしたデザインを指す。  
 
 【頻度】〈2/10〉  
 
-【レジスター/領域】紋章学、歴史、文学、正式な意匠説明。現代の日常英語ではまれで、heraldic device などの形で現れやすい。  
+【レジスター/領域】紋章学、歴史、美術・工芸、文学、意匠説明。日常の一般的な機器の用法に比べて使用場面が限られ、heraldic device、decorative device などの形で現れる。  
 
-【文法パターン】a heraldic device＝紋章上の意匠／the device of 〈家系・組織〉＝～の標章／display・bear a device＝意匠を掲げる・身に付ける  
+【文法パターン】a heraldic device＝紋章上の意匠／a decorative device＝装飾図案／the device of 〈家系・組織〉＝～の標章／display・bear a device＝意匠を掲げる・身に付ける  
 
 【コロケーション】
 
@@ -586,14 +586,19 @@ device には、目的や特定の効果に向けて人が考案・配置した�
 例: The seal bears a device of a bird and a crown.  
 訳: その印章には鳥と王冠の意匠が描かれている。  
 
-【語法・注意】この語義は heraldry の専門用法で、emblem や insignia に近い。crest は紋章全体ではなく、しばしば兜の上に置かれる特定部分を指すため、device と完全に同義ではない。現代の一般文脈で組織のマークを言うなら emblem、logo、insignia の方が自然なことが多い。  
+・a decorative device  
+用途: 物の表面などに用いる装飾的な図案・模様を表す。  
+例: A decorative device was embroidered on each corner of the cloth.  
+訳: 布の各隅に装飾模様が刺繍されていた。  
+
+【語法・注意】heraldry では象徴的な紋章の意匠を指すが、紋章以外の標章や装飾図案にも使う。標語を device と呼ぶ用法もある。crest は厳密な紋章学では兜の上などに置かれる特定部分を指す。一方、一般用法では家系・組織の標章を広く crest と呼ぶこともあり、どちらの意味かを文脈から判断する。現代の一般文脈で組織のマークを言うなら emblem、logo、insignia の方が自然なことが多い。  
 
 【類義語】
 
 ・emblem  
 定義: 集団・理念・組織などを象徴する図案や物。  
 頻度: 〈7/10〉  
-違い: emblem は紋章学に限らず象徴一般に使える。device はこの語義では紋章上の正式な意匠という専門性が強い。  
+違い: emblem は紋章学に限らず象徴一般に使える。device は紋章上の意匠や装飾図案を述べる硬めの用法であり、象徴性のない装飾にも使える。  
 例: The eagle is an emblem of the nation.  
 訳: ワシはその国の象徴だ。  
 
@@ -605,9 +610,9 @@ device には、目的や特定の効果に向けて人が考案・配置した�
 訳: 将校たちは襟に記章を付けていた。  
 
 ・crest  
-定義: 紋章の上部に置かれる図案、または家系を表す紋章。  
+定義: 紋章学では兜の上などに置く図案。一般用法では家系・組織の標章。  
 頻度: 〈6/10〉  
-違い: crest は紋章の特定部分を指すことが多く、device より対象が限定される。  
+違い: 紋章学上の crest は特定の部分を指し、device より対象が限定される。次の family crest は家系の標章を表す一般的な用法である。  
 例: The family crest appears on the silverware.  
 訳: その家の紋章が銀食器に描かれている。  
 
@@ -668,7 +673,7 @@ device には、目的や特定の効果に向けて人が考案・配置した�
 例: The director gave the designer free rein over the visual style.  
 訳: 監督はビジュアルスタイルについてデザイナーに自由な裁量を与えた。  
 
-・let somebody fend for themselves  
+・leave somebody to fend for themselves  
 定義: 人が自力で対処するに任せ、助けを与えない。  
 頻度: 〈6/10〉  
 違い: fend for themselves は困難の中で自力で切り抜ける含みが強く、own devices より厳しい状況を示しやすい。  
