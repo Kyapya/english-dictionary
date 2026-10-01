@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra
 created_at: 2026-09-08
-updated_at: 2026-09-08
+updated_at: 2026-10-01
 checked: true
 tags: []
 ---
@@ -29,10 +29,10 @@ tags: []
 ＃コアイメージ
 
 constitute の共通核は、要素・行為・組織・人を、ある全体・分類・制度・役割として成り立つ位置に据えることである。文脈によって、すでにそうであるという関係を述べる場合と、意図的・正式に成立させる行為を述べる場合がある。  
-・要素を全体として成り立つ位置に据える → 「構成する、占める」（語義1）  
-・行為や事実を分類として成り立つ位置に据える → 「～に当たる、～となる」（語義2）  
-・組織や契約を正式な制度・法的形式として成り立つ位置に据える → 「正式に設立する、所定の形式に整える」（語義3）  
-・人を公的な役割として成り立つ位置に据える → 「正式に任命・指定する」（語義4）  
+・要素を全体として成り立つ位置に据える → 「構成する、（全体の一定割合を）占める」（語義1）  
+・行為や事実を分類として成り立つ位置に据える → 「～に当たる、～を意味する、～となる」（語義2）  
+・組織や契約を正式な制度・法的形式として成り立つ位置に据える → 「（組織などを）正式に設立する；（契約などを）所定の法的形式に整える」（語義3）  
+・人を公的な役割として成り立つ位置に据える → 「（人を役職・地位に）正式に任命・指定する」（語義4）  
 
 ＃意味・用法・関連表現
 
@@ -75,6 +75,8 @@ constitute の共通核は、要素・行為・組織・人を、ある全体・
 
 【語法・注意】能動の `A, B, and C constitute X` では A・B・C が部分、X が全体である。`X consists of A, B, and C` や `X is composed of A, B, and C` では向きが逆になり、X が全体、A・B・C が部分になる。  
 
+構成関係を述べるこの意味では、通常は進行形にしない。例えば割合を述べるなら `Online sales constitute 35 percent of revenue.` とし、通常 `are constituting` とはしない。  
+
 `be constituted of` は可能だが硬い。通常は `be composed of` または `consist of` が自然である。`consist` は自動詞なので `X is consisted of A` とはしない。  
 `comprise` は伝統的には `X comprises A, B, and C` のように全体を主語、部分を目的語にするため、能動の constitute とは基本方向が逆である。ただし現代英語では parts comprise a whole や be comprised of も広く使われるので、厳密さが必要な文章では parts/whole の関係が明確な表現を選ぶ。  
 
@@ -102,9 +104,9 @@ constitute の共通核は、要素・行為・組織・人を、ある全体・
 訳: 4つの短い部分が終楽章を構成している。  
 
 ・account for  
-定義: 数量・割合・原因などのうち、特定の分を占める。  
+定義: 全体のうち特定の割合・部分を占める。  
 頻度: 〈8/10〉  
-違い: 割合の用法では近いが、account for は「全体のうちどれだけを説明できるか・占めるか」に焦点がある。constitute は割合だけでなく、部分が全体そのものを形作る関係にも使える。  
+違い: 割合の用法では近いが、account for は全体に占める割合・部分に焦点がある。「原因になる・説明する」は別の語義である。constitute は割合だけでなく、部分が全体そのものを形作る関係にも使える。  
 例: Exports account for nearly half of total sales.  
 訳: 輸出が総売上高のほぼ半分を占める。  
 
@@ -120,7 +122,7 @@ constitute の共通核は、要素・行為・組織・人を、ある全体・
 
 【コロケーション】
 
-・`constitute a crime/offence`  
+・`constitute a crime/an offence`  
 用途: ある行為が法律上の犯罪・違反に当たり得ることを述べる。  
 例: Deliberately altering the records may constitute a criminal offence.  
 訳: 記録を故意に改ざんすることは、刑事犯罪に当たる可能性がある。  
@@ -151,6 +153,8 @@ constitute の共通核は、要素・行為・組織・人を、ある全体・
 訳: その指針は、どのようなシステム利用が許容されるかを説明している。  
 
 【語法・注意】この語義の constitute は、主語と目的語を同一の分類関係で結ぶが、文法上は目的語を取る動詞であり、通常 `constitute as a threat` のように as を挟まない。`The delay constitutes a problem.` のように直接目的語を置く。  
+
+この意味も状態的な該当関係を表すため、通常は進行形にしない。組織を設立する語義3のような行為的用法まで一律に禁止する説明ではない。  
 
 語義1との区別は、目的語が「主語を部分として含む全体」か、「主語が該当すると判断される分類・評価」かで行う。`Ten members constitute the committee.` は構成、`Their absence constitutes a problem.` は評価・該当である。  
 否定文の `does not constitute proof/consent/approval` は、「証拠・同意・承認として十分ではない」という境界を明示する定型的な用法である。constitute 自体は、事態を引き起こす cause や、証拠によって証明する prove を意味しない。  
