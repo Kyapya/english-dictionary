@@ -2580,10 +2580,13 @@ def _validate_append_only_transition(
         return errors
     if not isinstance(base_manifest, dict) or not isinstance(head_manifest, dict):
         return errors
-    if head_manifest.get("schema_version") == DERIVED_AUDIT_SCHEMA_VERSION:
-        # v4 is fully reproducible from immutable raw outputs and uses Git as the
-        # revision ledger.  The legacy review_history/body snapshot contract is
-        # therefore intentionally inapplicable.
+    if head_manifest.get("schema_version") in {
+        DERIVED_AUDIT_SCHEMA_VERSION, "compact_audit_v1"
+    }:
+        # v4 and compact audits preserve their raw review evidence and use Git
+        # as the revision ledger. Their schema-specific validators above check
+        # the current publication; the legacy v3 review_history/body snapshot
+        # contract must not be imposed on either format.
         return errors
     body_changed = (
         base_entry_bytes is not None
