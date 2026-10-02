@@ -2,7 +2,7 @@
 headword: reluctant
 type: word
 status: checked
-prompt_version: entry_spec_v5
+prompt_version: entry_spec_v1
 model: unknown
 created_at: 2026-06-13
 updated_at: 2026-10-02
