@@ -1,0 +1,42 @@
+{
+  "schema_version": "coordinator_disposition_v1",
+  "word": "retain",
+  "recorded_at_utc": "2026-10-02T18:13:07.649828+00:00",
+  "body_sha256": "e997266fad9df12306615c287bb163c2c46eaefdce99c6bc5980269fda7bb1c8",
+  "candidate_path": "/workspace/shared/dictionary-method-pilot-3words/candidate-v3/r/retain.md",
+  "candidate_sha256": "7685ec02f71922a475a9a439d9578b8137bd3f923d48f5bd2c960ab6e154ecba",
+  "review_inputs": [
+    {
+      "role": "A",
+      "raw_path": "/workspace/shared/dictionary-method-pilot-3words/official-reviews/retain-A.round1.raw.json",
+      "raw_sha256": "6cab83131b6e934c72ac92e460945640cdec2b21442467bf114ccad981db9809",
+      "execution_id": "/root/pilot_dictionary_review_method/review_retain_official_a",
+      "model": "unknown"
+    },
+    {
+      "role": "B",
+      "raw_path": "/workspace/shared/dictionary-method-pilot-3words/official-reviews/retain-B.round1.raw.json",
+      "raw_sha256": "2180bb39d6368a99019d2f13c5d3fc8b8c4133ad6f022105d3526636a94f95a3",
+      "execution_id": "/root/pilot_dictionary_review_method/review_retain_official_b",
+      "model": "unknown"
+    }
+  ],
+  "resolutions": [
+    {
+      "role": "A",
+      "finding_index": 0,
+      "area": "sense:475596261e9bc197e2d1",
+      "decision": "decline_editorial_reordering",
+      "rationale": "The frequency-order preference is acknowledged, but the specification says 原則 rather than requiring a strict numerical sort. The physical retention block is deliberately followed by its physiological specialization; the complete memory block remains clearly labeled, listed in the core map and separately accessible. This coherent semantic grouping does not misstate meaning, omit a major use, misroute an example or disguise its 7/10 rating. Moving the blocks is a reasonable optional organization choice, not a necessary correction. Preserve the original raw minor finding and record this reasoned no-change decision; do not convert it into an absent finding."
+    }
+  ],
+  "remaining_findings": [],
+  "candidate_changes_after_official_reviews": false,
+  "disposition": "No further content correction required after adjudication; eligible for the existing gate to evaluate. This is not itself a publication or CI claim.",
+  "learning_delta": {
+    "schema_version": "process_improvement_learning_delta_v2",
+    "reviewed": true,
+    "items": []
+  },
+  "learning_delta_rationale": "The run implements existing requirements for accurate source scope, useful field placement, and reasoned handling of minor/editorial findings. No new validated reusable action distinct from those standards is selected for automatic project knowledge. The separate local method proposal remains a proposal, not an integrated rule or a claim of improved recall. No versioned observation is invented."
+}
