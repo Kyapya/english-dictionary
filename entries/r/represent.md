@@ -222,7 +222,7 @@ represent は、人・記号・描写・言葉などを通して、ある対象�
 
 【レジスター/領域】描写・説明の用法はややフォーマル。美術、報道、批評、学術、データの説明で使う。  
 
-【文法パターン】represent 〈人・場面・対象〉＝〜を描写する／represent 〈情報〉 as 〈形式〉＝情報を〜の形式で表す／be represented as 〈形式〉＝〜の形式で表される／represent someone as 〈名詞句・形容詞〉＝人を〜として描く・説明する／represent oneself as 〈名詞句〉＝自分を〜だと称する  
+【文法パターン】represent 〈人・場面・対象〉＝〜を描写する／represent 〈情報〉 as 〈形式〉＝情報を〜の形式で表す／be represented as 〈形式〉＝〜の形式で表される／represent 〈人・物〉 as 〈名詞句〉＝〜として描く・説明する／represent 〈人・物〉 as 〈形容詞〉＝〜という性質があると描く・説明する／represent 〈人・物〉 as being 〈形容詞〉＝〜という性質があると描く・説明する／represent 〈人・物〉 to be 〈名詞句〉＝〜であると説明する（硬い表現）／represent oneself as 〈名詞句〉＝自分を〜だと称する  
 
 【コロケーション】
 
@@ -245,6 +245,16 @@ represent は、人・記号・描写・言葉などを通して、ある対象�
 用途: 自分がある身分・資格を持つ者であると相手に示す。  
 例: He falsely represented himself as a licensed architect.  
 訳: 彼は資格を持つ建築士だと偽って名乗った。  
+
+・represent 〈人・物〉 as being 〈形容詞〉  
+用途: being を伴って、どのような性質のものとして描くかを述べる。  
+例: The article represented the residents as being hostile to outsiders.  
+訳: その記事は、住民たちを外部の人に敵対的だと描いていた。  
+
+・represent 〈人・物〉 to be 〈名詞句〉  
+用途: ある物などが何であると説明されたかを硬い表現で述べる。  
+例: The dealer represented the vase to be an original.  
+訳: その業者は、その花瓶は本物だと説明した。  
 
 【語法・注意】as の後は名詞句や形容詞のほか、as being honest のように being を伴う形にもなる。述べられた人物像・性質が正しいとは限らず、accurately、falsely などで正確さを明示できる。代理人として本人のために行動する語義1と、自分をある人物だと称する represent oneself as ... を混同しない。  
 
