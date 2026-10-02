@@ -1,0 +1,403 @@
+{
+  "schema_version": "full_entry_assessment_response_v1",
+  "word": "represent",
+  "round": 1,
+  "reviewer": {
+    "identity": "/root/review_dictionary_progress",
+    "role": "A",
+    "model": "unknown",
+    "model_note": "Runtime model ID is unavailable."
+  },
+  "reviewed_at": "2026-10-02T06:12:08.629911+00:00",
+  "source": {
+    "packet_path": "/workspace/scratch/d98863f7be13/dictionary-review/represent/packet-round1.json",
+    "packet_sha256": "04c3cb0d79555930a64b374102ca9f9780a218e98275189b3888f6fefee2ff6d",
+    "file_path": "/workspace/scratch/d98863f7be13/dictionary-review/represent/base.md",
+    "repository_ref": "350e68893a0ab6f4016e209c5ddd27712ef45696",
+    "file_sha256": "9ef95956b7957b7a9eed0e71ade7ea9b28a8dc8c748fe7a7b5ab76f11abd51b2",
+    "body_sha256": "deb9244ca93215499e7d39a45c2b8c7628e658bb8f7ba6aceea659492efb3829",
+    "packet_text_equals_file": true,
+    "hashes_independently_verified": true
+  },
+  "scope": "full_original_entry_assessment; not targeted_correction acceptance",
+  "coverage": {
+    "all_lines_read": true,
+    "line_ranges": [
+      [
+        1,
+        182
+      ]
+    ],
+    "line_count": 182,
+    "sense_numbers": [
+      1,
+      2
+    ],
+    "example_translation_pairs_read": 18,
+    "checked_areas": [
+      "pronunciation",
+      "etymology",
+      "word_formation",
+      "core_image_eligibility",
+      "all_definitions",
+      "all_grammar_patterns",
+      "all_examples_and_Japanese_translations",
+      "all_comparisons_and_relations",
+      "register_and_region",
+      "per_sense_frequency",
+      "meaningful_omissions",
+      "v5_structure"
+    ],
+    "unchecked_areas": []
+  },
+  "verdict": "needs_changes",
+  "findings": [
+    {
+      "id": "represent-A-01",
+      "area": "sense:2_constitution_and_proportion",
+      "severity": "blocking",
+      "location": {
+        "lines": [
+          111,
+          143
+        ]
+      },
+      "quote": "represent は「完全に同じ」という意味ではなく、記号や形が何かを示すこと。",
+      "reason": "This excludes an established meaning already instantiated by the decision/major-change example: an event can itself constitute a change, risk or opportunity. The common proportion use, in which members or an amount constitute part of a total, is also not taught by the dot/symbol example.",
+      "minimal_action": "Explicitly distinguish actual constitution/equivalence or a share of a whole from symbolic representation. Supply suitable frames, definition and a proportion example; retain and place the existing major-change example accurately. Do not retain the categorical identity exclusion.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/represent",
+        "https://www.collinsdictionary.com/dictionary/english/represent",
+        "https://www.merriam-webster.com/dictionary/represent"
+      ]
+    },
+    {
+      "id": "represent-A-02",
+      "area": "missing_depiction_and_characterization",
+      "severity": "blocking",
+      "location": {
+        "lines": [
+          111,
+          143
+        ]
+      },
+      "quote": "記号・数字・色・行為・作品などが、何かの意味や概念を示すこと。",
+      "reason": "Depicting a scene/person and presenting somebody as having a quality are important meanings not adequately explained by symbolism or by data as a graph. The object-as construction can describe an unfair portrayal or claim. Reflexive represent oneself as is especially liable to confusion with acting as one’s own agent.",
+      "minimal_action": "Provide explicit depiction/characterization coverage with complete represent someone/something and represent someone/something as + noun/adjective/being frames, natural matched examples and an accuracy qualification. Include the useful represent oneself as variant; distinguish it from representing oneself in a legal or agency context. Keep visual depiction and character-description distinctions clear even if they share one coherent block.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/represent",
+        "https://www.merriam-webster.com/dictionary/represent",
+        "https://www.collinsdictionary.com/dictionary/english/represent"
+      ]
+    },
+    {
+      "id": "represent-A-03",
+      "area": "missing_passive_presence",
+      "severity": "blocking",
+      "location": {
+        "lines": [
+          34,
+          70
+        ]
+      },
+      "quote": "・underrepresented（形容詞）— 十分に代表されていない。",
+      "reason": "The passive be represented can mean being present or included to a degree in a group, place or dataset, without an agent acting on somebody’s behalf. The derived adjective mention does not teach that construction.",
+      "minimal_action": "Add a clearly distinguished be (well/poorly/equally) represented in/on frame and matched example. Explain the inclusion/proportion meaning and distinguish an agentive by-phrase. Clarify underrepresented’s numerical/presence application where useful without inventing a separate adjective definition for every passive.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/represent",
+        "https://www.collinsdictionary.com/dictionary/english/represent",
+        "https://www.merriam-webster.com/dictionary/represent"
+      ]
+    },
+    {
+      "id": "represent-A-04",
+      "area": "missing_formal_statement",
+      "severity": "minor",
+      "location": {
+        "lines": [
+          36,
+          182
+        ]
+      },
+      "quote": "The two numbered blocks cover only agency and symbolic meaning.",
+      "reason": "Formal represent something to somebody and represent (to somebody) that-clause report a statement, concern or protest. Neither current block teaches those complement roles or the statement’s lack of a truth guarantee.",
+      "minimal_action": "Add concise, explicitly formal coverage with complete recipient/content frames and one or more matched examples sufficient to distinguish noun-content from a that-clause. Do not invent legal procedural guarantees or claim that all such statements are true.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/represent",
+        "https://www.merriam-webster.com/dictionary/represent",
+        "https://www.collinsdictionary.com/dictionary/english/represent"
+      ]
+    },
+    {
+      "id": "represent-A-05",
+      "area": "missing_typifying_example",
+      "severity": "minor",
+      "location": {
+        "lines": [
+          111,
+          143
+        ]
+      },
+      "quote": "表す、象徴する、意味する。",
+      "reason": "Being a specimen or typical example is not the same relation as a sign conventionally standing for something. Multiple dictionaries record the former, but there is no explanation or matching example here.",
+      "minimal_action": "Add a concise typifying/embodying or specimen note and matched example within a coherent appropriate sense, or a separate block if needed for accurate boundaries. A separate numbered block for every source’s division is not required.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/represent",
+        "https://www.collinsdictionary.com/dictionary/english/represent",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/represent"
+      ]
+    },
+    {
+      "id": "represent-A-06",
+      "area": "sense:1_stand_for_misplacement",
+      "severity": "minor",
+      "location": {
+        "lines": [
+          74,
+          79
+        ]
+      },
+      "quote": "The flag stands for freedom.",
+      "reason": "The selected example and the explanatory distinction illustrate symbolic meaning, not acting or speaking as a person’s agent. The stand-for definition also combines support with symbolism without selecting an example-compatible comparison sense.",
+      "minimal_action": "Move the complete flag example/comparison to the symbolism sense, selecting its symbolic definition and preserving the example. Do not claim stand for can never have other represent/support meanings.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/stand-for",
+        "https://www.collinsdictionary.com/dictionary/english/represent"
+      ]
+    },
+    {
+      "id": "represent-A-07",
+      "area": "sense:1_misrepresent_accuracy",
+      "severity": "minor",
+      "location": {
+        "lines": [
+          97,
+          102
+        ]
+      },
+      "quote": "represent が正しく立場や事実を示すのに対し、misrepresent は不正確に伝える。",
+      "reason": "Represent does not by itself guarantee accurate portrayal or truthful assertion. Misrepresent’s selected account-distortion meaning is also not the opposite of serving as an agent; this entry’s own article/views example belongs to portrayal or reporting.",
+      "minimal_action": "Remove the automatic correctness claim and retain the useful full misrepresent block as an explicit accuracy contrast near depiction/description. Explain that accurate representation contrasts with misrepresentation; plain represent is not a truth certificate.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/misrepresent",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/represent",
+        "https://www.merriam-webster.com/dictionary/represent"
+      ]
+    },
+    {
+      "id": "represent-A-08",
+      "area": "relation_axes_other_antonyms",
+      "severity": "minor",
+      "location": {
+        "lines": [
+          104,
+          182
+        ]
+      },
+      "quote": "exclude / obscure / conceal under 【反意語】",
+      "reason": "As currently attached to agency and symbolism, these selected examples do not establish clear opposites on the same lexical axis. Excluding a business differs from speaking for it; hiding facts or making wording unclear differs from a symbol standing for an idea. Useful contrasts need not be presented as lexical antonyms.",
+      "minimal_action": "Preserve these useful definitions/scores/examples in explicitly labelled contextual contrast notes unless the revised entry supplies a genuine same-axis selected sense. If exclude is used with an inclusion/presence reading, define the actual inclusion/exclusion relation and compatible roles. Do not invent antonyms to fill a quota.",
+      "sources": []
+    },
+    {
+      "id": "represent-A-09",
+      "area": "grammar_frames_alignment",
+      "severity": "minor",
+      "location": {
+        "lines": [
+          46,
+          143
+        ]
+      },
+      "quote": "represent a change/increase/risk / represent data as + 名詞 / represent + percentage/number",
+      "reason": "The first compressed alternatives produce a increase. The graph example is passive results-as-graph whereas its heading is active data-as-format. The dot example has a symbol as subject and ten people as the represented quantity, while its use gloss says a number explains what it shows. Legacy + and naked placeholder notation also obscures complete frames; the agentive passive is absent from the main grammar overview.",
+      "minimal_action": "Use full article-safe alternatives, e.g. represent a change / represent an increase / represent a risk. Match the graph heading to the passive example, and distinguish symbolic quantity representation from constituting a percentage. Correct subject-role wording for Each dot represents ten people. Include the existing agentive passive in sense 1 grammar and normalize placeholders without changing natural original sentences.",
+      "sources": []
+    },
+    {
+      "id": "represent-A-10",
+      "area": "sense_specific_aspect",
+      "severity": "minor",
+      "location": {
+        "lines": [
+          119,
+          143
+        ]
+      },
+      "quote": "【語法・注意】represent は「完全に同じ」という意味ではなく…",
+      "reason": "The entry lacks the useful contrast between normally stative symbolism/constitution and ongoing agency or depiction. A blanket no-progressive rule would be wrong, but no distinction is currently given.",
+      "minimal_action": "Add a short sense-limited note: symbolic/equivalent readings are normally not progressive, while an ongoing act of representing someone can be progressive. Avoid transferring no-passive/no-progressive labels from one source sense to every use of represent.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/represent",
+        "https://www.collinsdictionary.com/dictionary/english/represent"
+      ]
+    },
+    {
+      "id": "represent-A-11",
+      "area": "Japanese_agent_translation",
+      "severity": "minor",
+      "location": {
+        "lines": [
+          65,
+          68
+        ]
+      },
+      "quote": "その会社は現地代理店に代表されている。",
+      "reason": "The passive calque is unnatural for ordinary business agency. Local agent need not specifically be a retail agency; the point is acting for the company.",
+      "minimal_action": "Use a natural agency translation such as 現地の代理人がその会社の代理を務めている。 Preserve the English sentence. In the court example, 法廷で彼の弁護を担当した is also a clear natural rendering, without adding procedural claims.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/represent",
+        "https://www.merriam-webster.com/dictionary/represent"
+      ]
+    },
+    {
+      "id": "represent-A-12",
+      "area": "v5_format_and_core_placement",
+      "severity": "minor",
+      "location": {
+        "lines": [
+          15,
+          182
+        ]
+      },
+      "quote": "＃意味や関連情報の出力（日本語訳） / 【頻度】〈頻度: 8/10〉 / 共通コアは…",
+      "reason": "The legacy heading, frequency notation, equal UK/US duplication and missing required trailing spaces need current body-format normalization. The common-core explanation is embedded in etymology and names depiction despite missing substantive depiction coverage.",
+      "minimal_action": "Apply the supported current v5 body heading/spacing/notation while preserving original generation prompt_version metadata. After meaningful senses are corrected, reassess core eligibility and write a real 1–2 sentence shared kernel with exact sense-title branches if the resulting article meets the rule. Do not use a forced core to hide differences between agency, portrayal, symbolic reference and actual constitution.",
+      "sources": []
+    },
+    {
+      "id": "represent-A-13",
+      "area": "re_present_distinction",
+      "severity": "editorial",
+      "location": {
+        "lines": [
+          15,
+          26
+        ]
+      },
+      "quote": "re-「再び、強く」",
+      "reason": "The etymological gloss is supportable, but learners may infer that ordinary represent also means simply present again with the same pronunciation. Original dictionaries separately record re-present with /riː/ and a repeated-presentation meaning.",
+      "minimal_action": "A short spelling/pronunciation distinction in pronunciation, etymology or usage would be useful: re-present means 再び提示・提出する and begins with /ˌriː/. Do not require a large new sense block or merge the forms indiscriminately.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/re-present",
+        "https://www.merriam-webster.com/dictionary/represent",
+        "https://www.etymonline.com/word/represent"
+      ]
+    }
+  ],
+  "sense_and_construction_coverage_decisions": [
+    {
+      "unit": "agency, advocacy and competing for a group",
+      "current_status": "substantially present in 1",
+      "action": "Preserve; a sports example may help but no arbitrary requirement to create separate legal/political/sports blocks."
+    },
+    {
+      "unit": "symbolic reference",
+      "current_status": "present in 2",
+      "action": "Preserve and separate from actual constitution."
+    },
+    {
+      "unit": "actual constitution/equivalence and proportion",
+      "current_status": "misexplained in 2 and partly missing",
+      "action": "Required meaningful clarification/coverage."
+    },
+    {
+      "unit": "depiction and characterization, including object as and reflexive as",
+      "current_status": "missing despite incidental data-display example",
+      "action": "Required explicit meaning and frames."
+    },
+    {
+      "unit": "passive presence/inclusion",
+      "current_status": "missing; underrepresented formation bullet insufficient",
+      "action": "Required distinct construction coverage."
+    },
+    {
+      "unit": "formal stating/reporting a concern or proposition to a recipient",
+      "current_status": "missing",
+      "action": "Useful required formal frame coverage with correct limits."
+    },
+    {
+      "unit": "typifying, exemplifying, serving as a specimen",
+      "current_status": "missing/underexplained",
+      "action": "Concise appropriate note/example; not compulsory new numbering."
+    },
+    {
+      "unit": "stage portrayal/performance",
+      "current_status": "not covered",
+      "action": "MW and Collins attest it. A short theatre-limited note is appropriate; avoid inventing an archaic label or letting peripheral detail dominate ordinary meanings."
+    },
+    {
+      "unit": "objectless protest and differing slang uses",
+      "current_status": "not covered",
+      "action": "MW/Collins meanings and modernity differ. No compulsory detailed learner block or new region/frequency claim without a specific learning need."
+    },
+    {
+      "unit": "re-present repeated presentation",
+      "current_status": "not distinguished",
+      "action": "Optional concise orthographic/phonetic distinction, separately formed expression."
+    }
+  ],
+  "non_findings_and_uncertainty_limits": [
+    "The main represent IPA, stress position and representation stress shift are correct. Full schwa versus syllabic-n notation does not establish an error.",
+    "The Latin origin and related family words are valid. French mediation and intensive re- can be made more precise, but the broad original origin statement is not established false; Collins also records again in its etymological analysis.",
+    "No demonstrated global-English ordinal band contradiction in the selected existing scores. Sense 2 is currently conflated; assess any new separated senses editorially rather than recycling a whole-word frequency or inventing corpus counts.",
+    "Public defender is not defined in English by popular election, but 公選弁護人 is an attested Japanese translation variant in first-party indexed material. 公設弁護人 or a brief publicly funded defender gloss can improve clarity. Do not assert that the original Japanese necessarily claimed popular election or replace it automatically with Japan-specific 国選 doctrine.",
+    "The legal examples make only ordinary lexical claims; no legal-procedure expansion is needed.",
+    "Presence (存在、出席), present and representative are genuine related family items. Additional obscure relatives are not needed.",
+    "Indicate can remain a broader sign/evidence comparison if accurately qualified; the current selected definition/example is coherent. No mechanical purge merely because the words are not substitutable in all contexts.",
+    "Core design should be assessed after the missing major meanings are supplied. No forced mnemonic or exclusion solely because a sense is formal/legal is warranted."
+  ],
+  "correction_scope_assessment": {
+    "bounded_route_not_preapproved": true,
+    "reason": "This assessment exposes multiple material missing meanings and construction units, not merely typographical faults. Do not drop major coverage to preserve a targeted workflow. The coordinator should use the normal compact path if the actual corrected article entails broad reevaluation or a large sense reorganization; the final scope cannot be declared eligible before seeing it."
+  },
+  "sources": [
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/represent",
+      "basis": "Direct edited IPA, forms, definitions, construction labels and examples inspected."
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/represent",
+      "basis": "Direct edited definitions, theatre and intransitive/peripheral entries, re-present contrast and history inspected; automatic current web feed excluded."
+    },
+    {
+      "url": "https://www.collinsdictionary.com/dictionary/english/represent",
+      "basis": "Direct COBUILD, British and American edited sections read; source-specific sense divisions are evidence, not compulsory article architecture."
+    },
+    {
+      "url": "https://www.etymonline.com/word/represent",
+      "basis": "Direct origin, French/Latin route and re-present distinction read; no fabricated exact chronology."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/representation",
+      "basis": "Direct IPA /ˌreprɪzenˈteɪʃn/ and noun family definitions read; the article’s schwa-explicit ending is not treated as wrong."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/stand-for",
+      "basis": "Direct symbolic and supportive readings inspected."
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/misrepresent",
+      "basis": "Direct distinct inaccurate-account and bad-agent meanings inspected."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/re-present",
+      "basis": "Direct first-vowel pronunciation and repeated-presentation definition read."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/public-defender",
+      "basis": "Direct lexical definition supports publicly paid defence; not a rule that the individual was popularly elected."
+    },
+    {
+      "url": "https://www.jbaudit.go.jp/koryu/study/pdf/itaku_h27_2.pdf",
+      "basis": "First-party indexed table at printed p.184 gives 公選弁護人サービス / Public Defender Service. Direct PDF fetched, but Japanese text extraction is damaged; attempted screenshot returned cache miss. This limited evidence counsels against declaring the Japanese label categorically false."
+    }
+  ],
+  "source_access_limits": [
+    "MOJ PDF 000105603 direct fetch failed; first-party indexed content supports the contrasting 公設 term but no full PDF review is claimed.",
+    "JICA PDF 11798592 direct fetch timed out; its indexed Public Defender translation was not treated as a complete document verification.",
+    "Board of Audit PDF direct text is partly corrupt and screenshot returned cache miss. Only the explicit first-party indexed translation is reported; no institutional or current-law inference is made.",
+    "No automated validator, audio measurement or corpus count performed. Every supplied article line was read untruncated.",
+    "No reviewer B raw or author verdict read. Coordinator observations were independently adjudicated against the article and sources."
+  ]
+}

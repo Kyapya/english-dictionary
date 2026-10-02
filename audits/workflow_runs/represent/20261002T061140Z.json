@@ -1,0 +1,237 @@
+{
+  "workflow_contract_version": "compact_review_v1",
+  "run_id": "20261002T061140Z",
+  "headword": "represent",
+  "branch": "review/represent-20261002",
+  "started_at": "2026-10-02T06:11:40.341313+00:00",
+  "entry_path": "entries/r/represent.md",
+  "inventory_path": "audits/runs/r/represent/source_inventory.json",
+  "review_receipts": [
+    {
+      "role": "A",
+      "execution_id": "/root/review_dictionary_progress",
+      "model": "unknown",
+      "recorded_at": "2026-10-02T06:34:56.358125+00:00",
+      "request_path": "audits/workflow_runs/represent/20261002T061140Z/compact/review-A.round1.request.json",
+      "request_sha256": "f5f35e0d439a9314045ca3a5abbed7b6dee338ae91b97f8983ee399d4a30af80",
+      "raw_response_path": "audits/workflow_runs/represent/20261002T061140Z/compact/A-round1.raw.json",
+      "raw_response_sha256": "7c7af0b6861a7471590825a84d096747638ceefce5184f39dd0824a295b9ab0f",
+      "body_sha256": "380fa20295c5c89fc80cbeaca1cda204481e1d64d671ec6b1f1ac88b7af0fafc",
+      "area_keys": {
+        "pronunciation": "4482bdf1bef162df3797b05d948d1572faa3ea1f8ec42317b2da89ddeb6bb01f",
+        "etymology": "d70feed78bee07cae887ca57da83cf115a529156385b22514103551edc05c9a0",
+        "word_formation": "c9695fd0071abce573535a926ee5b426b49dc8b1b65943b69fbb7d687ac51485",
+        "core_image": "d630ac649083ba8afadf9620d273151faae50a2f821490dbbd8ebc9f0d4c4d0d",
+        "sense:1e4663194a6a4680f07b": "9117e4e0a74e5448da18791e41e6246de20b934b7ed613d36a12542aa2a2f917",
+        "sense:3cbf97ba26f6673756ac": "ad089ab37d06c60cc2c4c18dbfb5c0cc8209ecc9393b6242063837c3ed99024d",
+        "sense:f908de3e366dbfd74ab1": "e48cafb18c6e4d3684a99f61ad4a3a4a7f2c0132d96630dea4a517eff1bc0118",
+        "sense:04b90f814c91b3cfab49": "76632b5965dc016ccb420f9b4e4bbd30969052e6788c48d57854f901b68df2d3",
+        "sense:5615481a60ba9a7fdb4e": "02bcc2f644807d2168740663ba18e4cfd65e27deeec095454e40aaf256412ecb",
+        "sense:5ab66081182778906473": "213489c873cf319605b671408163a49aa4ee9b2e37868f0fb7dfc74d3974db4c"
+      },
+      "checked_areas": [
+        "pronunciation",
+        "etymology",
+        "word_formation",
+        "core_image",
+        "sense:1e4663194a6a4680f07b",
+        "sense:3cbf97ba26f6673756ac",
+        "sense:f908de3e366dbfd74ab1",
+        "sense:04b90f814c91b3cfab49",
+        "sense:5615481a60ba9a7fdb4e",
+        "sense:5ab66081182778906473"
+      ],
+      "unchecked_areas": [],
+      "findings": [
+        {
+          "area": "core_image",
+          "severity": "minor",
+          "impact": "共通核の具体化を同じ語句で比較するという現行v5の説明規則に対し、語義3と5だけ別の表現になり、各枝の共通部分がそろっていない。語義3では実際の相当・構成関係を保った説明が必要である。",
+          "evidence": "全文行36–42。1・2・4・6は「示す」を共通に使うが、3は「価値・割合との対応による位置づけ」、5は「集団の一部による存在の反映」。prompts/entry_spec_v5.md は説明句の共通部分を同じ語句でそろえることを要求する。Oxford represent の be equal to は実際に何かに当たる構成・相当義として記載され、本文の語義3も正しく区別している。https://www.oxfordlearnersdictionaries.com/definition/english/represent",
+          "action": "導入の1〜2文と六つの対応を保ち、枝3・5も共通の「示す」を含む短い体言止めにそろえる。3では変化・機会などに実際に当たることや構成比を示す説明とし、単なる記号対応に戻さない。現行の正確な見出し引用と番号は維持する。"
+        },
+        {
+          "area": "sense:5615481a60ba9a7fdb4e",
+          "severity": "minor",
+          "impact": "artist の訳に絵画への限定が加わり、収蔵作品を通して芸術家が含まれるという例の対象範囲が狭くなる。represent の受け身・収蔵品の意味自体は対応しているため、局所的な訳語修正でよい。",
+          "evidence": "全文行316–317: “Several local artists are represented in the collection.”／「そのコレクションには、地元の画家数人の作品が含まれている。」英語側には画家に限定する paintings 等がない。Oxford artist は美術作品の制作者を広く扱い、絵画・素描を典型とはするが、それだけに限定しない。https://www.oxfordlearnersdictionaries.com/definition/english/artist",
+          "action": "訳の「地元の画家数人」を「地元の芸術家数人」または「地元の美術家数人」にする。作品が収蔵されているという自然な訳し方と英語例は保つ。"
+        }
+      ],
+      "normalizations": []
+    },
+    {
+      "role": "B",
+      "execution_id": "/root/identify_unreviewed_entries",
+      "model": "unknown",
+      "recorded_at": "2026-10-02T06:35:52.421272+00:00",
+      "request_path": "audits/workflow_runs/represent/20261002T061140Z/compact/review-B.round1.request.json",
+      "request_sha256": "8941712dc197e92fa5c9aaa725aa475b620e375864feb41324c8601c6f240f6d",
+      "raw_response_path": "audits/workflow_runs/represent/20261002T061140Z/compact/B-round1.raw.json",
+      "raw_response_sha256": "6812610ebdbf2bb8fdee1000c73a100030211ef320c8dbf76fce631e8fe18bc3",
+      "body_sha256": "380fa20295c5c89fc80cbeaca1cda204481e1d64d671ec6b1f1ac88b7af0fafc",
+      "area_keys": {
+        "pronunciation": "4482bdf1bef162df3797b05d948d1572faa3ea1f8ec42317b2da89ddeb6bb01f",
+        "etymology": "d70feed78bee07cae887ca57da83cf115a529156385b22514103551edc05c9a0",
+        "word_formation": "c9695fd0071abce573535a926ee5b426b49dc8b1b65943b69fbb7d687ac51485",
+        "core_image": "d630ac649083ba8afadf9620d273151faae50a2f821490dbbd8ebc9f0d4c4d0d",
+        "sense:1e4663194a6a4680f07b": "9117e4e0a74e5448da18791e41e6246de20b934b7ed613d36a12542aa2a2f917",
+        "sense:3cbf97ba26f6673756ac": "ad089ab37d06c60cc2c4c18dbfb5c0cc8209ecc9393b6242063837c3ed99024d",
+        "sense:f908de3e366dbfd74ab1": "e48cafb18c6e4d3684a99f61ad4a3a4a7f2c0132d96630dea4a517eff1bc0118",
+        "sense:04b90f814c91b3cfab49": "76632b5965dc016ccb420f9b4e4bbd30969052e6788c48d57854f901b68df2d3",
+        "sense:5615481a60ba9a7fdb4e": "02bcc2f644807d2168740663ba18e4cfd65e27deeec095454e40aaf256412ecb",
+        "sense:5ab66081182778906473": "213489c873cf319605b671408163a49aa4ee9b2e37868f0fb7dfc74d3974db4c"
+      },
+      "checked_areas": [
+        "pronunciation",
+        "etymology",
+        "word_formation",
+        "core_image",
+        "sense:1e4663194a6a4680f07b",
+        "sense:3cbf97ba26f6673756ac",
+        "sense:f908de3e366dbfd74ab1",
+        "sense:04b90f814c91b3cfab49",
+        "sense:5615481a60ba9a7fdb4e",
+        "sense:5ab66081182778906473"
+      ],
+      "unchecked_areas": [],
+      "findings": [
+        {
+          "area": "sense:5615481a60ba9a7fdb4e",
+          "severity": "editorial",
+          "taxonomy": "scope_qualification",
+          "impact": "The collection example can be read correctly, but its Japanese translation unnecessarily narrows artists to painters even though the English does not specify a medium.",
+          "evidence": "Snapshot lines 314–317: Several local artists are represented in the collection. is translated with 地元の画家数人. Oxford artist includes creators of artworks in different media, not just painters: https://www.oxfordlearnersdictionaries.com/definition/english/artist . The collection context licenses artists’ works, but does not itself identify all of them as paintings.",
+          "action": "Prefer 地元の芸術家数人の作品 or another broad natural art-context equivalent. This is optional precision, not a claim that 画家 is never a possible translation of artist."
+        },
+        {
+          "area": "core_image",
+          "severity": "editorial",
+          "taxonomy": "scope_qualification",
+          "impact": "The constitution branch is understandable with the explicit correspondence qualification, but 価値・割合 foregrounds valuation and percentages more narrowly than the actual change/problem/classification use.",
+          "evidence": "Snapshot lines 36 and 39 describe sense 3 through 価値・割合; its own definition and examples also cover an actual change and a problem. Oxford represent sense 5 and Collins COBUILD sense 5 support this broader actual-status meaning: https://www.oxfordlearnersdictionaries.com/definition/english/represent and https://www.collinsdictionary.com/dictionary/english/represent .",
+          "action": "Optionally broaden the phrase to include 性質 or 位置づけ alongside 割合. Retain the useful explicit constitution distinction; this does not require deleting the core or creating another sense."
+        }
+      ],
+      "normalizations": []
+    },
+    {
+      "role": "A",
+      "execution_id": "/root/review_dictionary_progress",
+      "model": "unknown",
+      "recorded_at": "2026-10-02T06:47:14.004708+00:00",
+      "request_path": "audits/workflow_runs/represent/20261002T061140Z/compact/review-A.round2.request.json",
+      "request_sha256": "3127d99862e639b87a130d2718b75fa7b080b08da993eb0f8621f5e3e4e18fe6",
+      "raw_response_path": "audits/workflow_runs/represent/20261002T061140Z/compact/A-round2.raw.json",
+      "raw_response_sha256": "296d39d7407baeb23d71d894817483b60860c74583f3d9efed35dd55b349d01e",
+      "body_sha256": "338203a95e65df61e944d78abd90bcb42faf2d61443e3a0a388e69312e16df96",
+      "area_keys": {
+        "core_image": "938895bb886c1596fa5c6654f710747714d28e1844d9e283c8d7070b5c964167",
+        "sense:5615481a60ba9a7fdb4e": "9370bc0a0682afd9d77f0d09ba6859cff9655ca0f684d8e9ae35c7a515695298"
+      },
+      "checked_areas": [
+        "core_image",
+        "sense:5615481a60ba9a7fdb4e"
+      ],
+      "unchecked_areas": [
+        {
+          "area": "pronunciation",
+          "reason": "Unchanged dependency hash from the independently reviewed round-1 snapshot. Not reread completely in this focused round; reuse genuine prior coverage mechanically. Any limited local-context reading is not claimed as a new whole-area check."
+        },
+        {
+          "area": "etymology",
+          "reason": "Unchanged dependency hash from the independently reviewed round-1 snapshot. Not reread completely in this focused round; reuse genuine prior coverage mechanically. Any limited local-context reading is not claimed as a new whole-area check."
+        },
+        {
+          "area": "word_formation",
+          "reason": "Unchanged dependency hash from the independently reviewed round-1 snapshot. Not reread completely in this focused round; reuse genuine prior coverage mechanically. Any limited local-context reading is not claimed as a new whole-area check."
+        },
+        {
+          "area": "sense:1e4663194a6a4680f07b",
+          "reason": "Unchanged dependency hash from the independently reviewed round-1 snapshot. Not reread completely in this focused round; reuse genuine prior coverage mechanically. Any limited local-context reading is not claimed as a new whole-area check."
+        },
+        {
+          "area": "sense:3cbf97ba26f6673756ac",
+          "reason": "Unchanged dependency hash from the independently reviewed round-1 snapshot. Not reread completely in this focused round; reuse genuine prior coverage mechanically. Any limited local-context reading is not claimed as a new whole-area check."
+        },
+        {
+          "area": "sense:f908de3e366dbfd74ab1",
+          "reason": "Unchanged dependency hash from the independently reviewed round-1 snapshot. Not reread completely in this focused round; reuse genuine prior coverage mechanically. Any limited local-context reading is not claimed as a new whole-area check."
+        },
+        {
+          "area": "sense:04b90f814c91b3cfab49",
+          "reason": "Unchanged dependency hash from the independently reviewed round-1 snapshot. Not reread completely in this focused round; reuse genuine prior coverage mechanically. Any limited local-context reading is not claimed as a new whole-area check."
+        },
+        {
+          "area": "sense:5ab66081182778906473",
+          "reason": "Unchanged dependency hash from the independently reviewed round-1 snapshot. Not reread completely in this focused round; reuse genuine prior coverage mechanically. Any limited local-context reading is not claimed as a new whole-area check."
+        }
+      ],
+      "findings": [],
+      "normalizations": []
+    },
+    {
+      "role": "B",
+      "execution_id": "/root/identify_unreviewed_entries",
+      "model": "unknown",
+      "recorded_at": "2026-10-02T06:47:14.617560+00:00",
+      "request_path": "audits/workflow_runs/represent/20261002T061140Z/compact/review-B.round2.request.json",
+      "request_sha256": "e2c6170a469adcc38ea901e0a4ade3c4c44a928f9e5b956368ee120da3b41d61",
+      "raw_response_path": "audits/workflow_runs/represent/20261002T061140Z/compact/B-round2.raw.json",
+      "raw_response_sha256": "04a9d2c90062cfb5fe0d99a1a8ac6af5b6eaad981402d3d9bd8a6dbad6e4f0f2",
+      "body_sha256": "338203a95e65df61e944d78abd90bcb42faf2d61443e3a0a388e69312e16df96",
+      "area_keys": {
+        "core_image": "938895bb886c1596fa5c6654f710747714d28e1844d9e283c8d7070b5c964167",
+        "sense:5615481a60ba9a7fdb4e": "9370bc0a0682afd9d77f0d09ba6859cff9655ca0f684d8e9ae35c7a515695298"
+      },
+      "checked_areas": [
+        "core_image",
+        "sense:5615481a60ba9a7fdb4e"
+      ],
+      "unchecked_areas": [
+        {
+          "area": "pronunciation",
+          "reason": "Not reread in this focused round. Its dependency key matches round 1 exactly; the authentic prior full review supplies existing coverage, subject to the caller’s dependency validation."
+        },
+        {
+          "area": "etymology",
+          "reason": "Not reread in this focused round. Its dependency key matches round 1 exactly; the authentic prior full review supplies existing coverage, subject to the caller’s dependency validation."
+        },
+        {
+          "area": "word_formation",
+          "reason": "Not reread in this focused round. Its dependency key matches round 1 exactly; the authentic prior full review supplies existing coverage, subject to the caller’s dependency validation."
+        },
+        {
+          "area": "sense:1e4663194a6a4680f07b",
+          "reason": "Not reread in this focused round. Its dependency key matches round 1 exactly; the authentic prior full review supplies existing coverage, subject to the caller’s dependency validation."
+        },
+        {
+          "area": "sense:3cbf97ba26f6673756ac",
+          "reason": "Not reread in this focused round. Its dependency key matches round 1 exactly; the authentic prior full review supplies existing coverage, subject to the caller’s dependency validation."
+        },
+        {
+          "area": "sense:f908de3e366dbfd74ab1",
+          "reason": "Not reread in this focused round. Its dependency key matches round 1 exactly; the authentic prior full review supplies existing coverage, subject to the caller’s dependency validation."
+        },
+        {
+          "area": "sense:04b90f814c91b3cfab49",
+          "reason": "Not reread in this focused round. Its dependency key matches round 1 exactly; the authentic prior full review supplies existing coverage, subject to the caller’s dependency validation."
+        },
+        {
+          "area": "sense:5ab66081182778906473",
+          "reason": "Not reread in this focused round. Its dependency key matches round 1 exactly; the authentic prior full review supplies existing coverage, subject to the caller’s dependency validation."
+        }
+      ],
+      "findings": [],
+      "normalizations": []
+    }
+  ],
+  "resolutions": [],
+  "migration": null,
+  "status": "completed",
+  "stage": "publication_ready",
+  "completed_at": "2026-10-02T06:47:23.449405+00:00",
+  "completed_body_sha256": "338203a95e65df61e944d78abd90bcb42faf2d61443e3a0a388e69312e16df96",
+  "reuse_ledger_path": "audits/workflow_runs/represent/20261002T061140Z/compact/reuse_ledger.json",
+  "reuse_ledger_sha256": "cdd15eb32f05c936e8c04bb0dcb9ecfe88eaaa94feaa5e172fd330204a582215"
+}

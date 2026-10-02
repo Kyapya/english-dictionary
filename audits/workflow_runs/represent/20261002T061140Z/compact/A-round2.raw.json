@@ -1,0 +1,107 @@
+{
+  "schema_version": "compact_review_response_v1",
+  "checked_areas": [
+    "core_image",
+    "sense:5615481a60ba9a7fdb4e"
+  ],
+  "unchecked_areas": [
+    {
+      "area": "pronunciation",
+      "reason": "Unchanged dependency hash from the independently reviewed round-1 snapshot. Not reread completely in this focused round; reuse genuine prior coverage mechanically. Any limited local-context reading is not claimed as a new whole-area check."
+    },
+    {
+      "area": "etymology",
+      "reason": "Unchanged dependency hash from the independently reviewed round-1 snapshot. Not reread completely in this focused round; reuse genuine prior coverage mechanically. Any limited local-context reading is not claimed as a new whole-area check."
+    },
+    {
+      "area": "word_formation",
+      "reason": "Unchanged dependency hash from the independently reviewed round-1 snapshot. Not reread completely in this focused round; reuse genuine prior coverage mechanically. Any limited local-context reading is not claimed as a new whole-area check."
+    },
+    {
+      "area": "sense:1e4663194a6a4680f07b",
+      "reason": "Unchanged dependency hash from the independently reviewed round-1 snapshot. Not reread completely in this focused round; reuse genuine prior coverage mechanically. Any limited local-context reading is not claimed as a new whole-area check."
+    },
+    {
+      "area": "sense:3cbf97ba26f6673756ac",
+      "reason": "Unchanged dependency hash from the independently reviewed round-1 snapshot. Not reread completely in this focused round; reuse genuine prior coverage mechanically. Any limited local-context reading is not claimed as a new whole-area check."
+    },
+    {
+      "area": "sense:f908de3e366dbfd74ab1",
+      "reason": "Unchanged dependency hash from the independently reviewed round-1 snapshot. Not reread completely in this focused round; reuse genuine prior coverage mechanically. Any limited local-context reading is not claimed as a new whole-area check."
+    },
+    {
+      "area": "sense:04b90f814c91b3cfab49",
+      "reason": "Unchanged dependency hash from the independently reviewed round-1 snapshot. Not reread completely in this focused round; reuse genuine prior coverage mechanically. Any limited local-context reading is not claimed as a new whole-area check."
+    },
+    {
+      "area": "sense:5ab66081182778906473",
+      "reason": "Unchanged dependency hash from the independently reviewed round-1 snapshot. Not reread completely in this focused round; reuse genuine prior coverage mechanically. Any limited local-context reading is not claimed as a new whole-area check."
+    }
+  ],
+  "findings": [],
+  "reviewer": {
+    "execution_id": "/root/review_dictionary_progress",
+    "role": "A",
+    "model": "unknown",
+    "model_note": "The runtime model ID is unavailable."
+  },
+  "binding": {
+    "request_sha256": "3127d99862e639b87a130d2718b75fa7b080b08da993eb0f8621f5e3e4e18fe6",
+    "snapshot_sha256": "f7bc2c3db22932e24aa4f2267b02b1893daeebe7bfe36ca347fd5c2fef54a8a8",
+    "body_sha256": "338203a95e65df61e944d78abd90bcb42faf2d61443e3a0a388e69312e16df96",
+    "snapshot_entry_body_full_text_sha256": "52957e811e8b69b09076a5f67e33461bfed99da6cdc71c15f0fe5c731dec6d55",
+    "previous_body_sha256": "380fa20295c5c89fc80cbeaca1cda204481e1d64d671ec6b1f1ac88b7af0fafc",
+    "previous_raw_sha256": "7c7af0b6861a7471590825a84d096747638ceefce5184f39dd0824a295b9ab0f"
+  },
+  "coverage": {
+    "scope": "changed_areas_and_required_context",
+    "fully_reread_full_text_line_ranges": [
+      [
+        34,
+        43
+      ],
+      [
+        302,
+        362
+      ]
+    ],
+    "local_context_full_text_line_ranges": [
+      [
+        167,
+        175
+      ],
+      [
+        179,
+        199
+      ]
+    ],
+    "explanation": "Completely reread the current core and sense 5, including all seven standard example/translation pairs in sense 5. Read the unchanged constitution definition, examples and use note only as context for the revised core. No new full-entry audit is claimed."
+  },
+  "verification": {
+    "exact_documented_replacements": 4,
+    "each_old_string_occurs_once": true,
+    "four_replacements_reproduce_entire_current_snapshot_string": true,
+    "changed_dependency_area_ids": [
+      "core_image",
+      "sense:5615481a60ba9a7fdb4e"
+    ],
+    "other_eight_dependency_hashes_unchanged": true,
+    "prior_raw_unchanged": true
+  },
+  "resolution_notes": [
+    "The core now uses 示す consistently in its six short nominal branches; branch 3 and its contextual definition preserve actual classification/constitution and proportional inclusion rather than merely signifying a separate thing. Its introduction now accommodates qualities and positioning as well as percentages.",
+    "The collection translation now uses 地元の芸術家数人の作品, removing the unsupported narrowing to painters while retaining the intended inclusion through their work.",
+    "No new concrete linguistic or local consistency issue was identified in the two fully rechecked areas."
+  ],
+  "source_basis": {
+    "reused_direct_primary_reads_from_round1": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/represent",
+      "https://www.collinsdictionary.com/dictionary/english/represent",
+      "https://www.merriam-webster.com/dictionary/represent",
+      "https://www.oxfordlearnersdictionaries.com/definition/english/artist"
+    ],
+    "new_external_fetches_in_this_round": 0,
+    "note": "The changes raise no new factual uncertainty beyond the primary evidence directly inspected in round 1. The source inventory was not treated as a substitute for those independent reads."
+  },
+  "recorded_at": "2026-10-02T06:39:48.851003+00:00"
+}

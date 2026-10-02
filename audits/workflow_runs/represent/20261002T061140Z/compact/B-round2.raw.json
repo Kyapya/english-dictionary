@@ -1,0 +1,102 @@
+{
+  "schema_version": "compact_review_response_v1",
+  "checked_areas": [
+    "core_image",
+    "sense:5615481a60ba9a7fdb4e"
+  ],
+  "unchecked_areas": [
+    {
+      "area": "pronunciation",
+      "reason": "Not reread in this focused round. Its dependency key matches round 1 exactly; the authentic prior full review supplies existing coverage, subject to the caller’s dependency validation."
+    },
+    {
+      "area": "etymology",
+      "reason": "Not reread in this focused round. Its dependency key matches round 1 exactly; the authentic prior full review supplies existing coverage, subject to the caller’s dependency validation."
+    },
+    {
+      "area": "word_formation",
+      "reason": "Not reread in this focused round. Its dependency key matches round 1 exactly; the authentic prior full review supplies existing coverage, subject to the caller’s dependency validation."
+    },
+    {
+      "area": "sense:1e4663194a6a4680f07b",
+      "reason": "Not reread in this focused round. Its dependency key matches round 1 exactly; the authentic prior full review supplies existing coverage, subject to the caller’s dependency validation."
+    },
+    {
+      "area": "sense:3cbf97ba26f6673756ac",
+      "reason": "Not reread in this focused round. Its dependency key matches round 1 exactly; the authentic prior full review supplies existing coverage, subject to the caller’s dependency validation."
+    },
+    {
+      "area": "sense:f908de3e366dbfd74ab1",
+      "reason": "Not reread in this focused round. Its dependency key matches round 1 exactly; the authentic prior full review supplies existing coverage, subject to the caller’s dependency validation."
+    },
+    {
+      "area": "sense:04b90f814c91b3cfab49",
+      "reason": "Not reread in this focused round. Its dependency key matches round 1 exactly; the authentic prior full review supplies existing coverage, subject to the caller’s dependency validation."
+    },
+    {
+      "area": "sense:5ab66081182778906473",
+      "reason": "Not reread in this focused round. Its dependency key matches round 1 exactly; the authentic prior full review supplies existing coverage, subject to the caller’s dependency validation."
+    }
+  ],
+  "findings": [],
+  "reviewer": {
+    "execution_identity": "/root/identify_unreviewed_entries",
+    "role": "B",
+    "model": "unknown",
+    "model_disclosure": "The execution model identifier is unavailable."
+  },
+  "inspection": {
+    "scope": "focused normal-workflow recheck of two changed areas",
+    "snapshot_ranges_read": [
+      [
+        34,
+        42
+      ],
+      [
+        302,
+        361
+      ]
+    ],
+    "exact_replacements_verified": 4,
+    "other_eight_area_keys_unchanged": true,
+    "snapshot_file_digest_verified": true,
+    "body_digest_verified": true,
+    "source_inventory_canonical_object_digest_verified": true,
+    "canonical_digest_method": "review_dependency_v4.digest: sorted compact UTF-8 JSON, ensure_ascii=False",
+    "preserved_round1_entry_equals_original_snapshot": true,
+    "preserved_round1_inventory_matches_original_canonical_digest": true
+  },
+  "resolved_findings": [
+    {
+      "area": "core_image",
+      "resolution": "The introduction now includes 性質・位置づけ as well as percentages, and the constitution branch explicitly shows the relevant nature/proportion. Both adjusted branches express the shared 示す connection. This resolves the earlier narrower valuation wording without equating constitution with mere symbolism."
+    },
+    {
+      "area": "sense:5615481a60ba9a7fdb4e",
+      "resolution": "The collection translation now says 芸術家, preserving the breadth of artists. The English, works-based interpretation, inclusion meaning and local comparison notes remain coherent."
+    }
+  ],
+  "sources_reused_from_actual_independent_round1_reads": [
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/represent",
+      "use": "Constitution as actual status/proportion; passive presence to a degree. Already directly inspected in the immediately preceding full review."
+    },
+    {
+      "url": "https://www.collinsdictionary.com/dictionary/english/represent",
+      "use": "COBUILD actual-change constitution and passive inclusion. Already directly inspected in the preceding full review."
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/represent",
+      "use": "Constitution/correspondence and group inclusion. Already directly inspected in the preceding full review."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/artist",
+      "use": "Creators of artworks in different media; the added inventory fact agrees with the original page independently read in round 1."
+    }
+  ],
+  "limitations": [
+    "No fresh external page retrieval was needed for these four bounded wording changes; source reuse above refers to genuine direct reads, not author summaries.",
+    "The other eight areas are deliberately not asserted as newly checked. No new full-entry audit, scoped-final acceptance or publication verification is claimed.",
+    "Numerical scores are unchanged and remain per-sense editorial estimates."
+  ]
+}

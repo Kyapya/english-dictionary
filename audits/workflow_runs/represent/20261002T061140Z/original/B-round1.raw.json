@@ -1,0 +1,294 @@
+{
+  "schema_version": "compact_review_response_v1",
+  "assessment_kind": "full_entry_original_assessment",
+  "review_contract": "compact_review_v1",
+  "role": "B",
+  "word": "represent",
+  "repository_ref": "350e68893a0ab6f4016e209c5ddd27712ef45696",
+  "snapshot_body_sha256": "deb9244ca93215499e7d39a45c2b8c7628e658bb8f7ba6aceea659492efb3829",
+  "snapshot_file_sha256": "9ef95956b7957b7a9eed0e71ade7ea9b28a8dc8c748fe7a7b5ab76f11abd51b2",
+  "reviewer": "/root/identify_unreviewed_entries",
+  "model": "unknown",
+  "model_identity_note": "Actual execution model ID is unavailable; entry frontmatter is not reviewer identity.",
+  "checked_areas": [
+    "pronunciation",
+    "etymology",
+    "word_formation",
+    "sense_1",
+    "sense_2"
+  ],
+  "unchecked_areas": [],
+  "area_id_note": "The packet supplies full text without opaque requested area IDs; descriptive section IDs identify all inspected sections. The inline core statement is included in etymology coverage.",
+  "inspection": {
+    "full_entry_read": true,
+    "line_ranges": [
+      [
+        1,
+        182
+      ]
+    ],
+    "lines": 182,
+    "english_japanese_pairs_read": 18,
+    "sense_blocks": 2,
+    "hashes_independently_recomputed": true,
+    "packet_full_text_matches": true,
+    "reviewer_A_material_read": false
+  },
+  "findings": [
+    {
+      "id": "REPRESENT-B1",
+      "area": "sense_2",
+      "severity": "blocking",
+      "taxonomy": "missing_major_sense",
+      "location": "base.md lines 111–143",
+      "quote": "記号・数字・色・行為・作品などが、何かの意味や概念を示す / represents a major change",
+      "impact": "The entry merges actual constitution with symbolism and omits the common proportion construction. Learners cannot distinguish being a change or part of a total from merely signifying one.",
+      "evidence": "Oxford separates constitution/equivalence and percentage-of-total use; Collins likewise explains change/victory as actual identity. MW has constitute.",
+      "action": "Give the constitution/proportion meaning explicit separate learner treatment, with matched frames and examples. Move or correctly classify the existing policy-change example, add a proportion-of-total example, and restrict the current not-completely-the-same note to symbolism rather than this meaning.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/represent",
+        "https://www.collinsdictionary.com/dictionary/english/represent",
+        "https://www.merriam-webster.com/dictionary/represent"
+      ]
+    },
+    {
+      "id": "REPRESENT-B2",
+      "area": "sense_2",
+      "severity": "blocking",
+      "taxonomy": "missing_major_sense",
+      "location": "base.md entire meaning inventory; lines 113, 128–131, 138–141",
+      "quote": "表す、象徴する、意味する",
+      "impact": "Literal depiction of people/scenes and portrayal in an image are not taught. An abstract justice statue and a data graph do not establish the missing distinction.",
+      "evidence": "All three original dictionaries separately attest pictorial depiction; Oxford also supplies picture/map/data contexts.",
+      "action": "Add explicit depiction/portrayal treatment with a concrete person or scene example and appropriate active/passive frames. Distinguish a picture of a thing from a symbol of an abstract idea; existing graph material can be mapped coherently to presentation/depiction.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/represent",
+        "https://www.collinsdictionary.com/dictionary/english/represent",
+        "https://www.merriam-webster.com/dictionary/represent"
+      ]
+    },
+    {
+      "id": "REPRESENT-B3",
+      "area": "sense_2",
+      "severity": "blocking",
+      "taxonomy": "missing_major_sense",
+      "location": "base.md meaning inventory and line 119",
+      "quote": "be represented as + 形・記号",
+      "impact": "The as-pattern is restricted to graphical form, leaving characterization of people/things and self-presentation untaught.",
+      "evidence": "Oxford/Collins give characterization with O as a person or quality; Collins also lists to be, and MW includes reflexive self-presentation.",
+      "action": "Explicitly teach describing or presenting O as having a character/status, including an original contextual example and represent oneself as. Keep graphical encoding distinct; qualify register and avoid implying that the asserted characterization must be true.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/represent",
+        "https://www.collinsdictionary.com/dictionary/english/represent",
+        "https://www.merriam-webster.com/dictionary/represent"
+      ]
+    },
+    {
+      "id": "REPRESENT-B4",
+      "area": "sense_1",
+      "severity": "blocking",
+      "taxonomy": "missing_major_sense",
+      "location": "base.md lines 34, 38–70; inventory",
+      "quote": "underrepresented … 十分に代表されていない",
+      "impact": "A derivative is mentioned but the common be represented in/on meaning of presence/inclusion is missing; readers may assume an individual proxy must be appointed.",
+      "evidence": "Oxford and Collins have passive presence/inclusion uses; MW expressly includes people and perspectives from a group.",
+      "action": "Give presence/inclusion explicit treatment with be well/poorly represented in/on and a contextual example. Explain its distinction from having an agent and connect the existing underrepresented note.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/represent",
+        "https://www.collinsdictionary.com/dictionary/english/represent",
+        "https://www.merriam-webster.com/dictionary/represent"
+      ]
+    },
+    {
+      "id": "REPRESENT-B5",
+      "area": "sense_2",
+      "severity": "minor",
+      "taxonomy": "missing_major_sense",
+      "location": "base.md entire grammar inventory",
+      "quote": "No formal statement or to-person/that-clause frame is supplied.",
+      "impact": "The learner cannot parse a formal representation of concerns or a stated factual claim, despite this being a useful attested construction.",
+      "evidence": "Oxford lists represent concerns to an authority and represent (to somebody) that; MW/Collins also attest formal stating/protesting.",
+      "action": "Include concise qualified formal-statement coverage with complete to-person and that-clause frames and an original matched example. Do not infer universal legal warranty effects from the vocabulary.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/represent",
+        "https://www.merriam-webster.com/dictionary/represent",
+        "https://www.collinsdictionary.com/dictionary/english/represent"
+      ]
+    },
+    {
+      "id": "REPRESENT-B6",
+      "area": "sense_1",
+      "severity": "minor",
+      "taxonomy": "source_contradiction",
+      "location": "base.md lines 97–102",
+      "quote": "represent が正しく立場や事実を示す",
+      "impact": "The contrast falsely builds accuracy into represent, conflicting with ordinary biased or false representations.",
+      "evidence": "MW and Oxford allow unfair or false characterization; misrepresent explicitly adds misleading/incomplete presentation.",
+      "action": "Remove the guarantee of correctness. Preserve the useful misrepresent material as a qualified accuracy contrast under the appropriate depiction/characterization use or an explicit usage note.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/represent",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/represent",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/misrepresent"
+      ]
+    },
+    {
+      "id": "REPRESENT-B7",
+      "area": "sense_1",
+      "severity": "minor",
+      "taxonomy": "source_contradiction",
+      "location": "base.md lines 74–79",
+      "quote": "The flag stands for freedom.",
+      "impact": "The sole stand-for example and selected meaning illustrate symbolism, although placed among agency/advocacy synonyms; the definition mixes three senses under one score.",
+      "evidence": "The article’s flag example matches the symbolic meaning attested in all three represent entries, not acting on someone’s behalf.",
+      "action": "Move the symbolic comparison to the symbol meaning and narrow its definition there, preserving the example. If a stand-for agency comparison is retained separately, it needs its own matching definition/example and a per-sense score judgment.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/represent",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/represent",
+        "https://www.collinsdictionary.com/dictionary/english/represent"
+      ]
+    },
+    {
+      "id": "REPRESENT-B8",
+      "area": "sense_2",
+      "severity": "minor",
+      "taxonomy": "scope_qualification",
+      "location": "base.md lines 104–109 and 168–182",
+      "quote": "exclude / obscure / conceal under 反意語",
+      "impact": "The current blocks compare agency with exclusion and symbolism with obscuring/concealing, which can coexist rather than oppose each other on the selected sense axis.",
+      "evidence": "The current definitions/examples operate on participation or disclosure, while the chosen represent blocks describe agency or symbol relations.",
+      "action": "Reassess the relation axis after the major senses are repaired. Exclude can be compared with the inclusion meaning; retain obscure/conceal as explicit show/hide contrasts only where the selected presentation meaning warrants that axis, otherwise move them to usage. Preserve useful examples without claiming universal antonymy.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/represent",
+        "https://www.merriam-webster.com/dictionary/represent"
+      ]
+    }
+  ],
+  "source_verification": [
+    {
+      "url": "https://www.merriam-webster.com/dictionary/represent",
+      "access": "Direct original transitive/intransitive definitions, re-present entry and word history",
+      "checked": "Modern agency, sport, symbol, depiction, characterization, inclusion, exemplar and constitution meanings; lower-priority theatre/protest/slang uses also inventoried. Automatic recent examples were not used as sole authority."
+    },
+    {
+      "url": "https://www.collinsdictionary.com/dictionary/english/represent",
+      "access": "Direct COBUILD, British and both American dictionary sections",
+      "checked": "Core meanings, passive inclusion, constitution, as/to-be characterization, formal stating, depiction, inflections, register and history."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/represent",
+      "access": "Direct original entry, all ten numbered definitions and grammar frames",
+      "checked": "Pronunciation/forms; core meaning and construction distinctions; non-progressive qualifications for stative symbol/constitution; formal statement frames."
+    },
+    {
+      "url": "https://www.etymonline.com/word/represent",
+      "access": "Direct original history and linked-word summaries",
+      "checked": "French/Latin path, present-family connection and qualified intensive re- analysis. Existing again/intensive wording has dictionary support; no historical disproof is claimed."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/representation",
+      "access": "Direct original entry",
+      "checked": "Pronunciation stress, portrayal, representative action and formal plural-statements meanings. Syllabic-n versus schwa transcription is not treated as a substantive error."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/representational",
+      "access": "Direct original entry",
+      "checked": "Artistic depiction and general representing-related adjective meanings."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/under-represented",
+      "access": "Direct original entry",
+      "checked": "Insufficient representatives relative to expectation/need; confirms the usefulness of the missing inclusion/presence meaning."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/misrepresent",
+      "access": "Direct original entry",
+      "checked": "Misleading or incomplete presentation and as-construction."
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/representative",
+      "access": "Direct original adjective and noun entries",
+      "checked": "Representative person/agent and typical or characteristic adjective meanings; brief formation note is supported."
+    },
+    {
+      "url": "https://www.etymonline.com/word/presence",
+      "access": "Direct original history paragraph",
+      "checked": "Praesentia/praesentem family connection."
+    },
+    {
+      "url": "https://www.etymonline.com/word/present",
+      "access": "Direct original adjective and verb history paragraphs",
+      "checked": "Praesens/praesentare family supports present and presence links."
+    }
+  ],
+  "contract_observations": [
+    {
+      "area": "sense_1",
+      "location": "lines 46–68",
+      "observation": "Add the existing passive be represented by frame to the grammar overview and Japanese glosses to complete frames; normalize legacy plus/slash placeholders. The company-agent Japanese can be made more natural without changing agency meaning."
+    },
+    {
+      "area": "sense_2",
+      "location": "lines 119–135",
+      "observation": "Count-noun alternatives need complete articles (a change/an increase/a risk). The graph example is passive but its label is active; align them. The dot example represents ten people, so its label should identify what the symbol stands for rather than describe a percentage/number object."
+    },
+    {
+      "area": "sense_2",
+      "location": "grammar/usage",
+      "observation": "The stative symbol and constitution readings need appropriate usual non-progressive guidance, scoped so that dynamic representing/depicting uses remain possible."
+    },
+    {
+      "area": "word_formation",
+      "location": "line 34",
+      "observation": "Clarify underrepresented as insufficient numerical/group presence where appropriate, linked to the new presence/inclusion treatment; the current literal Japanese can suggest inadequate advocacy only."
+    },
+    {
+      "area": "pronunciation",
+      "location": "lines 15–18",
+      "observation": "The main IPA agrees with Oxford. The representation stress shift is correct; no forced phonetic rewrite is needed."
+    },
+    {
+      "area": "sense_1",
+      "location": "frontmatter and legacy formatting",
+      "observation": "Apply current body heading, frequency syntax, placeholders and line endings while preserving original prompt_version metadata as specifically directed."
+    }
+  ],
+  "independent_coverage_priorities": {
+    "required_explicit_meaning_units": [
+      "agency/advocacy including sports",
+      "symbol/sign relation",
+      "constitution/equivalence and proportions",
+      "visual depiction/data presentation",
+      "characterization including reflexive self-presentation",
+      "presence/inclusion of groups or types"
+    ],
+    "useful_concise_secondary_coverage": [
+      "exemplar/embodiment can be a qualified extension if clearly distinguished",
+      "formal statement to a person/authority and that-clause construction",
+      "re-present is separately pronounced/spelled and should not be conflated with ordinary represent"
+    ],
+    "not_forced_into_full_blocks": [
+      "theatrical staging/role-playing",
+      "archaic or highly specialized mental recalling/protest variants",
+      "context-limited slang intransitive representing/identity performance"
+    ],
+    "reason": "Repair the clear modern gaps first. Sources differ in splitting; the learner distinctions and complete frames matter more than mechanically reproducing any dictionary’s numbering."
+  },
+  "workflow_scope_assessment": {
+    "bounded_targeted_path_recommended": false,
+    "reason": "The original two-block inventory misses several material modern meanings and constructions. Repair likely needs genuine sense reorganization and multiple explicit units, beyond a small localized correction. Use the normal reevaluation route; do not omit major coverage merely to preserve targeted eligibility."
+  },
+  "coverage_notes": [
+    "All 182 lines and 18 example/translation pairs were inspected. Several core examples are usable but need correct semantic placement.",
+    "No numerical frequency changes are demanded by this original assessment. New or separated meanings must receive independent per-sense ordinal judgments, not inherited whole-word scores or fabricated corpus counts.",
+    "The public-defender translation was investigated rather than assumed wrong. First-party indexed Japanese government material attests both 公設 and 公選 usages; no claim that 公選 is nonexistent or necessarily means elected is made. A clear generic public-defense gloss may be editorially preferable, but this was not promoted to a false lexical-error finding.",
+    "The agency examples contain no detailed rule about appointment, legal eligibility or procedure, so no jurisdiction-specific legal rule was inferred."
+  ],
+  "limitations": [
+    "This is a full original assessment, not scoped acceptance or a publication verdict.",
+    "No pronunciation audio or measured corpus analysis was performed. Not every comparison term was separately fetched from a dictionary.",
+    "Public-defender Japanese references were first-party indexed text only: https://www.moj.go.jp/content/000105603.pdf and https://www.jbaudit.go.jp/koryu/study/pdf/itaku_h27_2.pdf. They were used only to avoid falsely rejecting an attested translation, not as current institutional guidance.",
+    "Low-priority theatrical/slang/historical variants were inventoried from major dictionaries but not independently expanded with domain-specific primary research."
+  ],
+  "unresolved_source_blockers": [],
+  "conclusion": "Eight concrete content findings, including four major coverage gaps, require correction. The normal reevaluation route is appropriate; the existing two-block text is not adequately covered by a small targeted repair."
+}

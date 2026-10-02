@@ -1,0 +1,153 @@
+{
+  "schema_version": "compact_review_response_v1",
+  "checked_areas": [
+    "pronunciation",
+    "etymology",
+    "word_formation",
+    "core_image",
+    "sense:1e4663194a6a4680f07b",
+    "sense:3cbf97ba26f6673756ac",
+    "sense:f908de3e366dbfd74ab1",
+    "sense:04b90f814c91b3cfab49",
+    "sense:5615481a60ba9a7fdb4e",
+    "sense:5ab66081182778906473"
+  ],
+  "unchecked_areas": [],
+  "findings": [
+    {
+      "area": "sense:5615481a60ba9a7fdb4e",
+      "severity": "editorial",
+      "taxonomy": "scope_qualification",
+      "impact": "The collection example can be read correctly, but its Japanese translation unnecessarily narrows artists to painters even though the English does not specify a medium.",
+      "evidence": "Snapshot lines 314–317: Several local artists are represented in the collection. is translated with 地元の画家数人. Oxford artist includes creators of artworks in different media, not just painters: https://www.oxfordlearnersdictionaries.com/definition/english/artist . The collection context licenses artists’ works, but does not itself identify all of them as paintings.",
+      "action": "Prefer 地元の芸術家数人の作品 or another broad natural art-context equivalent. This is optional precision, not a claim that 画家 is never a possible translation of artist."
+    },
+    {
+      "area": "core_image",
+      "severity": "editorial",
+      "taxonomy": "scope_qualification",
+      "impact": "The constitution branch is understandable with the explicit correspondence qualification, but 価値・割合 foregrounds valuation and percentages more narrowly than the actual change/problem/classification use.",
+      "evidence": "Snapshot lines 36 and 39 describe sense 3 through 価値・割合; its own definition and examples also cover an actual change and a problem. Oxford represent sense 5 and Collins COBUILD sense 5 support this broader actual-status meaning: https://www.oxfordlearnersdictionaries.com/definition/english/represent and https://www.collinsdictionary.com/dictionary/english/represent .",
+      "action": "Optionally broaden the phrase to include 性質 or 位置づけ alongside 割合. Retain the useful explicit constitution distinction; this does not require deleting the core or creating another sense."
+    }
+  ],
+  "reviewer": {
+    "execution_identity": "/root/identify_unreviewed_entries",
+    "role": "B",
+    "model": "unknown",
+    "model_disclosure": "The execution model identifier is unavailable."
+  },
+  "inspection": {
+    "scope": "complete immutable proposed article and independent original-source comparison",
+    "lines_read": [
+      1,
+      406
+    ],
+    "example_translation_pairs_read": 44,
+    "requested_areas_inspected": 10,
+    "snapshot_file_digest_verified": true,
+    "body_digest_verified": true,
+    "source_inventory_digest_verified": true,
+    "inventory_digest_method": "Canonical JSON object with ensure_ascii=False, sort_keys=True and separators=(comma,colon), independently checked against review_dependency_v4.digest. Raw file bytes have a different digest; that is serialization, not evidence of mutation.",
+    "request_and_snapshot_area_keys_equal": true,
+    "original_article_report_preserved": true,
+    "all_original_english_examples_claim": "All proposed examples were inspected. The prior original full assessment remains separate; this is a new full review of the normal workflow snapshot."
+  },
+  "source_verification": [
+    {
+      "url": "https://www.merriam-webster.com/dictionary/represent",
+      "access": "Direct original page opened independently in this review; relevant edited definition, pronunciation or origin text inspected."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/represent",
+      "access": "Direct original page opened independently in this review; relevant edited definition, pronunciation or origin text inspected."
+    },
+    {
+      "url": "https://www.collinsdictionary.com/dictionary/english/represent",
+      "access": "Direct original page opened independently in this review; relevant edited definition, pronunciation or origin text inspected."
+    },
+    {
+      "url": "https://www.etymonline.com/word/represent",
+      "access": "Direct original page opened independently in this review; relevant edited definition, pronunciation or origin text inspected."
+    },
+    {
+      "url": "https://www.etymonline.com/word/presence",
+      "access": "Direct original page opened independently in this review; relevant edited definition, pronunciation or origin text inspected."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/representation",
+      "access": "Direct original page opened independently in this review; relevant edited definition, pronunciation or origin text inspected."
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/representation",
+      "access": "Direct original page opened independently in this review; relevant edited definition, pronunciation or origin text inspected."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/representative_1",
+      "access": "Direct original page opened independently in this review; relevant edited definition, pronunciation or origin text inspected."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/representative_2",
+      "access": "Direct original page opened independently in this review; relevant edited definition, pronunciation or origin text inspected."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/representational",
+      "access": "Direct original page opened independently in this review; relevant edited definition, pronunciation or origin text inspected."
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/underrepresented",
+      "access": "Direct original page opened independently in this review; relevant edited definition, pronunciation or origin text inspected."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/misrepresent",
+      "access": "Direct original page opened independently in this review; relevant edited definition, pronunciation or origin text inspected."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/constitute",
+      "access": "Direct original page opened independently in this review; relevant edited definition, pronunciation or origin text inspected."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/make-up_1",
+      "access": "Direct original page opened independently in this review; relevant edited definition, pronunciation or origin text inspected."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/depict",
+      "access": "Direct original page opened independently in this review; relevant edited definition, pronunciation or origin text inspected."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/portray",
+      "access": "Direct original page opened independently in this review; relevant edited definition, pronunciation or origin text inspected."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/state_3",
+      "access": "Direct original page opened independently in this review; relevant edited definition, pronunciation or origin text inspected."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/assert",
+      "access": "Direct original page opened independently in this review; relevant edited definition, pronunciation or origin text inspected."
+    },
+    {
+      "url": "https://www.uscourts.gov/glossary",
+      "access": "Direct original page opened independently in this review; relevant edited definition, pronunciation or origin text inspected."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/artist",
+      "access": "Direct original definition and art examples inspected for the collection translation."
+    }
+  ],
+  "source_limits": [
+    "All 19 inventory source pages and one targeted artist page were directly opened; missing initial snippets were reopened at relevant lines before treating them as read.",
+    "For the US Courts glossary, only the relevant federal public defender entry was used to verify the example’s defense role; no universal appointment, eligibility or Japanese procedural equivalence was inferred.",
+    "The previous original review’s first-party indexed Japanese evidence for 公選/公設 terminology was not newly opened here and is not claimed as a new direct retrieval. The retained sentence makes no selection-process claim.",
+    "No source measures the displayed ordinal frequency numbers. They were assessed as editorial per-sense bands, without statistical precision claims.",
+    "Automatic current web-example feeds were not treated as edited dictionary definitions."
+  ],
+  "review_conclusions": {
+    "major_coverage": "Agency including sport and self-representation, symbolism/embodiment, constitution/proportion, concrete depiction and characterization, passive inclusion, and formal statement are now substantively covered. No blocking major omission remains in the inspected edition.",
+    "depiction_characterization": "The combined block distinguishes concrete depiction, data format, characterization and reflexive self-presentation through definitions, full frames and matched examples. It does not promise accuracy. The stated as/being/to be patterns are supported by the inspected Oxford, MW and Collins originals.",
+    "formal_clause": "Oxford explicitly provides represent (to somebody) that… alongside noun content to somebody. The content clause is preserved correctly; the optional classifier’s intransitive label is not a source contradiction. No general legal warranty or acceptance effect is asserted.",
+    "core": "The five presentation-related branches and the explicitly qualified constitution/correspondence branch form a defensible learning organization. Exact sense titles align. The narrower wording adjustment above is editorial.",
+    "peripheral_scope": "The short theatrical and separate re-present notes preserve useful peripheral distinctions. No independent major noun/adjective headword use was established. Slang identity/performance and specialized mental-representation extensions do not require forced additional blocks in this learner article.",
+    "frequency": "No clear global per-sense band contradiction was found that warrants changing numbers; no exact numerical ranking is certified by corpus evidence."
+  }
+}
