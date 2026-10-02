@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5  
 model: gpt-5.6-sol  
 created_at: 2026-06-14  
-updated_at: 2026-08-25  
+updated_at: 2026-10-02  
 checked: true  
 tags: []  
 ---  
@@ -29,11 +29,11 @@ tags: []
 
 ＃コアイメージ
 
-中心にあるのは「手掛かり・特徴・選択肢が前面に出ていて、特別な探索や複雑な推論をしなくても認識できる」という感覚である。そこから、単に分かりやすいことにも、候補として真っ先に浮かぶことにも、見えすぎて工夫がないという否定評価にも広がる。特許法の語義4も「当業者なら先行技術から容易に到達できる」という語彙的意味はこの核から導けるが、法的な判定基準や効果は制度固有なので語義4で個別に確認する。  
+中心にあるのは「手掛かり・特徴・選択肢が前面に出ていて、特別な探索や複雑な推論をしなくても認識できる」という感覚で、分かりやすさ、候補として真っ先に浮かぶこと、見えすぎて工夫がないという否定評価につながる。特許法の語義4も「当業者なら先行技術から容易に到達できる」という語彙的意味はこの核から導けるが、法的な判定基準や効果は制度固有なので語義4で個別に確認する。  
 
-・事実や手掛かりが前面に出ること → 「明らかな、すぐ分かる」（語義1）  
-・候補が真っ先に前面に出ること → 「当然の、まず思いつく」（語義2）  
-・展開や表現が見えすぎること → 「見え見えの、安直な、工夫のない」（語義3）  
+・事実や手掛かりが前面に出ること → 「明らかな、すぐ分かる、容易に見抜ける」（語義1）  
+・候補が真っ先に前面に出ること → 「当然の、まず思いつく、最も自然な候補である」（語義2）  
+・展開や表現が見えすぎること → 「見え見えの、安直な、工夫のない、繊細さに欠ける」（語義3）  
 ・先行技術から解決が前面に出ること → 「容易に想到できる、非自明性を欠く」（語義4）  
 
 ＃意味・用法・関連表現
@@ -46,7 +46,7 @@ tags: []
 
 【レジスター/領域】一般語。会話、報道、ビジネス、学術など幅広い。clear よりも「手掛かりが目立ち、見れば分かる」という含みが強く、相手の理解力に関わる場面では強く響くことがある。  
 
-【文法パターン】something + be・seem・become obvious＝〈事実・感情・問題など〉が明らかである／it + be・seem・become obvious + that 〈節〉＝～であることが明らかだ／something + be obvious to someone＝〈人〉にとって明らかだ／it + be obvious to someone + that 〈節〉＝〈人〉には～が明らかだ／it + be obvious from 〈evidence・statement・context〉 + that 〈節〉＝〈根拠〉から～が明らかだ／make something obvious・make it obvious + that 〈節〉＝何かを明白にする・態度などで～をはっきり示す／it + be obvious + 〈what・why・how・who節〉＝何・なぜ・どうかが明らかだ／an obvious reference to 〈source〉＝元ネタが容易に認識できる言及・引用／look beyond the obvious＝すぐ目につく表面的なものの先を見る。  
+【文法パターン】something + be・seem・become obvious＝〈事実・感情・問題など〉が明らかである・明らかに思われる・明らかになる／it + be・seem・become obvious + that 〈節〉＝～であることが明らかである・明らかに思われる・明らかになる／something + be obvious to someone＝〈人〉にとって明らかだ／it + be obvious to someone + that 〈節〉＝〈人〉には～が明らかだ／it + be obvious from 〈evidence・statement・context〉 + that 〈節〉＝〈根拠〉から～が明らかだ／make something obvious・make it obvious + that 〈節〉＝何かを明白にする・態度などで～をはっきり示す／it + be obvious + 〈what・why・how・who節〉＝何が・なぜ・どのように・誰が～かが明らかだ／an obvious reference to 〈source〉＝元ネタが容易に認識できる言及・引用／look beyond the obvious＝すぐ目につく表面的なものの先を見る。  
 
 【コロケーション】
 
@@ -93,7 +93,7 @@ tags: []
 ・an obvious reference to 〈source〉  
 用途: 元ネタや参照先が容易に認識できる言及・引用を表す。表現自体は中立にも使え、否定評価を必須としない。  
 例: The design includes an obvious reference to 1980s arcade games.  
-訳: そのデザインには1980年代のアーケードゲームだとすぐ分かる引用的要素がある。  
+訳: そのデザインには、1980年代のアーケードゲームを明らかに参照した要素が含まれている。  
 
 ・look beyond the obvious  
 用途: すぐ目につく表面的な説明・特徴だけで判断せず、より深い要因を見る。  
@@ -130,7 +130,7 @@ tags: []
 頻度: 〈7/10〉  
 違い: plain は plain to see、make it plain などの定着表現で自然で、率直・明白という語感を持つ。obvious の方が一般に幅広い名詞を直接修飾しやすい。  
 例: It was plain to see that the plan needed more work.  
-訳: その計画にはさらに検討が必要なのは一目瞭然だった。  
+訳: その計画にさらに検討が必要なことは、一目瞭然だった。  
 
 ・unmistakable  
 定義: 他のものと取り違えようがないほど明白な。  
@@ -206,6 +206,15 @@ tags: []
 
 【語法・注意】an obvious solution や the obvious choice は「それが唯一正しい／最善である」という意味ではない。むしろ「最初に目につく」「普通ならまず考える」候補を指すため、The obvious solution is not always the best one. のように最善策と対比できる。語義1の an obvious mistake は「容易に見つかる誤り」だが、語義2の an obvious choice は「候補として自然に浮かぶ選択」であり、同じ限定用法でも焦点が異なる。  
 
+以下の straightforward は、解決策の実行しやすさなどを表す対照用法であり、この語義の「まず思いつく候補」とは焦点が異なる。  
+
+・straightforward  
+定義: 複雑さがなく、理解・実行しやすい。  
+頻度: 〈8/10〉  
+違い: straightforward solution は解決策そのものが単純で扱いやすいことを示す。obvious solution は「思いつきやすさ」に重点があり、実行が簡単とは限らない。  
+例: There is a straightforward way to correct the error.  
+訳: その誤りを直す簡単で分かりやすい方法がある。  
+
 【類義語】
 
 ・natural  
@@ -221,13 +230,6 @@ tags: []
 違い: logical は根拠の筋道に焦点を置く。obvious は論理的でなくても、慣習・見た目・目立ちやすさから最初に浮かぶ候補に使える。  
 例: Expanding the existing service was the logical next step.  
 訳: 既存サービスを拡大するのが論理的な次の一手だった。  
-
-・straightforward  
-定義: 複雑さがなく、理解・実行しやすい。  
-頻度: 〈8/10〉  
-違い: straightforward solution は解決策そのものが単純で扱いやすいことを示す。obvious solution は「思いつきやすさ」に重点があり、実行が簡単とは限らない。  
-例: There is a straightforward way to correct the error.  
-訳: その誤りを直す簡単で分かりやすい方法がある。  
 
 【反意語】
 
@@ -339,7 +341,7 @@ tags: []
 
 4. 【形容詞・法律（特許法、特に米国）】容易に想到できる、非自明性を欠く
 
-【日本語訳・定義】特許法で、発明が先行技術に照らして当該技術分野の通常の知識・技能を持つ人物にとって容易に到達できると評価され、必要な inventive step・非自明性を欠くことを表す専門用法。法域ごとに判断枠組みは異なる。以下では、35 U.S.C. § 103 が obviousness を特許性要件として定める米国法を中心に説明する。単に「一般人にとって簡単」「発明後に見れば簡単」という意味ではない。  
+【日本語訳・定義】特許法で、発明が先行技術に照らして当該技術分野の通常の知識・技能を持つ人物にとって容易に到達できると評価され、必要な inventive step・非自明性を欠くことを表す専門用法。法域ごとに判断枠組みは異なる。以下では、35 U.S.C. § 103 が nonobviousness（非自明性）を特許性の要件として定める米国法を中心に説明する。単に「一般人にとって簡単」「発明後に見れば簡単」という意味ではない。  
 
 【頻度】〈3/10〉  
 
