@@ -1,0 +1,90 @@
+{
+  "schema_version": "coordinator_disposition_v1",
+  "word": "stuff",
+  "recorded_at_utc": "2026-10-02T18:40:36.764001+00:00",
+  "body_sha256": "3a2dc6329d21db0e8369bb5436ef856b8a98660667b0d2a1889342b342acba85",
+  "candidate_path": "/workspace/shared/dictionary-method-pilot-3words/candidate-v5/s/stuff.md",
+  "candidate_sha256": "9b4fa93889b61df234e611a0cec8f3058974f2bc98a36f1c840f03b3fe3c52e2",
+  "review_inputs": [
+    {
+      "role": "A",
+      "round": 1,
+      "raw_path": "/workspace/shared/dictionary-method-pilot-3words/official-reviews/stuff-A.round1.raw.json",
+      "raw_sha256": "d3d57f82bf2793fec581890e828bb4bf5c3ac7831e024b39cdb552cbe50a65f9",
+      "execution_id": "/root/pilot_dictionary_review_method/review_stuff_official_a",
+      "model": "unknown"
+    },
+    {
+      "role": "A",
+      "round": 2,
+      "raw_path": "/workspace/shared/dictionary-method-pilot-3words/official-reviews/stuff-A.round2.raw.json",
+      "raw_sha256": "d22636816ef0dafac253cb7178aba3f10c0ad54570b7541d450df2c036f00601",
+      "execution_id": "/root/pilot_dictionary_review_method/review_stuff_official_a",
+      "model": "unknown"
+    },
+    {
+      "role": "B",
+      "round": 1,
+      "raw_path": "/workspace/shared/dictionary-method-pilot-3words/official-reviews/stuff-B.round1.raw.json",
+      "raw_sha256": "eb99110b90459a1aa2ff1016abbe69277d299a4173c266cea9641b1e91b30fa0",
+      "execution_id": "/root/pilot_dictionary_review_method/review_stuff_official_b",
+      "model": "unknown"
+    },
+    {
+      "role": "B",
+      "round": 2,
+      "raw_path": "/workspace/shared/dictionary-method-pilot-3words/official-reviews/stuff-B.round2.raw.json",
+      "raw_sha256": "aac5577da2b641ed73df9fa9986ba39bab10b807c1495d613d9043f236289e95",
+      "execution_id": "/root/pilot_dictionary_review_method/review_stuff_official_b",
+      "model": "unknown"
+    }
+  ],
+  "resolutions": [
+    {
+      "role": "A",
+      "round": 1,
+      "finding_index": 0,
+      "area": "sense:f955d12065a249e23717",
+      "decision": "adopt",
+      "action": "Moved offensive dunking and defensive stopping into two concise, separately fielded sense blocks17/18, each with its real argument frames, collocations/examples/translations and useful comparison. Kept rare count-noun recognition explicitly peripheral. All headword examples are now in collocations. Added reciprocal distinctions among13/17/18.",
+      "verification": "Both official round2 reviewers inspected all18 current sense areas and returned no remaining findings."
+    },
+    {
+      "role": "A",
+      "round": 1,
+      "finding_index": 1,
+      "area": "sense:32aa7a32527eccbb1517",
+      "decision": "adopt_editorial",
+      "action": "Improved belongings Japanese to 持ち物は忘れずにお持ちください。",
+      "verification": "Covered in actual round2 sense1 inspection."
+    },
+    {
+      "role": "B",
+      "round": 1,
+      "finding_index": 0,
+      "area": "sense:6bb6cbd3b2be653d0a78",
+      "decision": "adopt",
+      "action": "Definition, grammar gloss, collocation-use line and usage note now permit rapid or voracious eating; retained the valid sandwich example.",
+      "verification": "B round2 explicitly confirms the scope qualification is corrected; A checked the updated sense as well."
+    }
+  ],
+  "coverage": {
+    "current_sense_areas_newly_checked_per_role": 18,
+    "unchanged_top_areas_reused_from_round1": [
+      "pronunciation",
+      "etymology",
+      "word_formation"
+    ],
+    "reuse_basis": "Official exact area-key comparison in publication/stuff/round2-dependency-diff.json; never relabeled as newly checked",
+    "remaining_findings": []
+  },
+  "unsubmitted_intermediate_repair": "Local v4 prose-example repair was corrected before any official round2 request; it is preserved as an unsubmitted draft, not a reviewed pass. V5 is the only round2 candidate.",
+  "candidate_changes_after_round2": false,
+  "disposition": "No further content correction required after genuine round2 checks and exact-key reuse; ready for the existing gate to evaluate. This is not itself a CI/publication claim.",
+  "learning_delta": {
+    "schema_version": "process_improvement_learning_delta_v2",
+    "reviewed": true,
+    "items": []
+  },
+  "learning_delta_rationale": "These corrections enforce existing requirements for full meaning scope, argument/example alignment, and collocation placement. The separate review-method proposal remains uninstalled and does not justify an automatic new rule, recall claim or versioned knowledge observation. No distinct new validated project action is selected in this disposition."
+}
