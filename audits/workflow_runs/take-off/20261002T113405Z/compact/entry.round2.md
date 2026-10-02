@@ -1,12 +1,12 @@
 ---
 headword: take off
 type: phrase
-status: checked
+status: draft
 prompt_version: entry_spec_v1
 model: unknown
 created_at: 2026-06-13
 updated_at: 2026-10-02
-checked: true
+checked: false
 tags: []
 ---
 

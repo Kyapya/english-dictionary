@@ -1,0 +1,33 @@
+{
+  "schema_version": "bounded_contract_adjudication_v1",
+  "reviewer": {
+    "execution_id": "/root/review_dictionary_progress",
+    "role": "A",
+    "model": "unknown"
+  },
+  "word": "take off",
+  "body_sha256": "ebe66a7d9d6452bc920849abb6ed8e86edbefe0192b615a7aada7b2cde9e64ec",
+  "prior_raw_sha256": "9e6f3d3d09a4dd42832ab64e8b3b8a92cba55570cf05bc82c69f479507414b33",
+  "question": "Whether v5 majority coverage permits omission when senses 1–9 share separation/departure and sense 10 has directly documented older copy/reproduce → humorous imitation history.",
+  "decision": "revise_prior_omission_judgment_add_core",
+  "reason": "The precise v5 historical-residual provision covers a modern lexical meaning explained by historical semantic development even when the current expression is not archaic. Etymonline documents the relevant copying-to-imitation development. This permits an explicit exclusion of sense 10 rather than invented feature extraction or a false homograph claim. The other nine meanings can be presented through removal/departure, with sudden growth through the familiar flight metaphor. The earlier clean report accepted omission too readily under that explicit majority/classification rule.",
+  "constraints": [
+    "Preserve the authentic original A response unchanged. This adjudication does not retroactively edit that response or pretend the core was reviewed there.",
+    "Include all nine applicable exact sense-title branches, and classify sense 10 once as a historical-residual exclusion in the core introduction under the current v5 layout.",
+    "Do not label contemporary British imitation as obsolete or claim a separate etymological homograph.",
+    "For growth, use the flight metaphor; do not imply that a business physically separates or must have previously stagnated.",
+    "The added current core requires genuine affected-area independent review, including any dependency changes; no presumed pass."
+  ],
+  "source_basis": [
+    {
+      "path": "prompts/entry_spec_v5.md",
+      "basis": "Majority requirement and historical-residual clause, including historical semantic change rather than only current archaism."
+    },
+    {
+      "url": "https://www.etymonline.com/word/takeoff",
+      "basis": "Directly read original history records older copying/reproduction followed by imitation/caricature."
+    }
+  ],
+  "no_B_report_read": true,
+  "recorded_at": "2026-10-02T11:46:16.092567+00:00"
+}

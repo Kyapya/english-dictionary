@@ -1,0 +1,192 @@
+{
+  "schema_version": "compact_review_response_v1",
+  "reviewer": {
+    "execution_identity": "/root/identify_unreviewed_entries",
+    "role": "B",
+    "model": "unknown",
+    "model_disclosure": "The actual execution model identifier is unavailable."
+  },
+  "checked_areas": [
+    "pronunciation",
+    "etymology",
+    "word_formation",
+    "sense:05bb0c3ebf520428450a",
+    "sense:615e984042885bd9435d",
+    "sense:853bfef65a4e8e622b52",
+    "sense:a1daef1f23b0271e0b11",
+    "sense:d5607fc9c399abde40b7",
+    "sense:73e444a5a4d2d54152e5",
+    "sense:2162104f4cea5ee3ebb3",
+    "sense:f68d3bf1504ae33cdb9a",
+    "sense:bfbf2c42a43cefce5074",
+    "sense:841b1f3c8383d52d91e4"
+  ],
+  "unchecked_areas": [],
+  "findings": [
+    {
+      "area": "etymology",
+      "severity": "minor",
+      "taxonomy": "scope_qualification",
+      "impact": "The omission of a core image is justified by the imitation exception without applying the specification’s majority criterion, potentially discarding a useful connection among most ordinary meanings.",
+      "evidence": "The article has no core section, while its etymology treats imitation as a separate copying history and editorial_scope.core says the shared separation image is omitted because of that exception. Current entry_spec_v5 lines279–328 require a defensible majority mapping plus justified exceptions, not derivability of all senses. The actual removal, flight, departure, leave, subtraction, escorting and withdrawal definitions support a separation/departure relation. Oxford explicitly marks the economy take-off noun example as figurative; Etymonline documents the older copy/reproduce-to-imitation path. These facts make a majority-based core and a qualified historical-residual treatment of10 plausible without labelling modern imitation archaic.",
+      "action": "Reassess the core using the majority test. A concise separation/departure explanation for1–9, with5 explicitly bridged through flight and10 separately explained through the inherited copying path, is defensible if the exact new wording preserves those distinctions. Alternatively document a substantive reason that the majority cannot be mapped. Do not invent feature extraction, call modern British usage obsolete, or use a contentless any-change-of-state formula. Review the actual new core if one is added.",
+      "sources": [
+        "prompts/entry_spec_v5.md:279",
+        "prompts/entry_spec_v5.md:307",
+        "prompts/entry_spec_v5.md:328",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/take-off_2",
+        "https://www.etymonline.com/word/takeoff"
+      ],
+      "location": "Etymology lines23–27 and the inventory rationale for the omitted core. No core_image area was supplied, so the finding is attached to the inspected etymology area."
+    }
+  ],
+  "inspection": {
+    "scope": "Full current immutable article and source-claim coverage under normal compact review B",
+    "lines_read": [
+      1,
+      668
+    ],
+    "numbered_units_read": 10,
+    "standard_example_translation_pairs_read": 75,
+    "all_original_English_examples_retained": 54,
+    "requested_areas_actually_inspected": 13,
+    "direct_inventory_source_pages_with_relevant_passages_inspected_this_round": 25,
+    "binding_verification": {
+      "snapshot_bytes": true,
+      "snapshot_equals_preserved_entry": true,
+      "body": true,
+      "canonical_inventory_object_digest": true,
+      "preserved_inventory_equals_requested_current_inventory": true,
+      "all_dependency_area_keys": true,
+      "dependency_snapshot_unambiguous": true
+    },
+    "no_reviewer_A_report_consulted": true,
+    "original_entry_report_preserved": true,
+    "hash_note": "Exact binding values are intentionally not copied into this response under the role-B prompt; they were independently verified and remain in the immutable request and caller receipt."
+  },
+  "coverage_notes": [
+    "The ten units provide proportionate modern coverage. Ordinary and reflexive departure, taking another person away, removal from participation/duties/equipment, service withdrawal, numerical reduction and humorous imitation are distinguished with appropriate object roles. No additional major lexical omission was identified.",
+    "The complete current examples and Japanese were inspected. The two-word verb, related noun spellings/stress, noun examples and contextual comparisons are now clearly labelled. Common jumping/hair and idiom extensions are proportionate; forcing full blocks for every peripheral noun or historical/slang meaning would not improve this review.",
+    "New comparative escort, withdraw and discontinue meanings were directly checked. The accent-object use is directly attested in the original teaching transcript, independently of the inventory’s summary. The eyes-off affirmative gloss is a reasonable compositional explanation, not a falsely quoted affirmative dictionary definition.",
+    "The per-defined-sense values are ordinal editorial judgments across global English. No measured corpus rank, percentage, exact occurrence count or mandatory fine numerical adjustment is claimed.",
+    "The original article report did not substitute for this full current-version inspection. A later response should cover genuinely changed dependencies; no separate publication-only targeted or final blind pass is implied."
+  ],
+  "sources": [
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/take-off_1",
+      "access": "Relevant original edited dictionary, etymology, institutional or first-party teaching passage directly inspected in this current review."
+    },
+    {
+      "url": "https://www.collinsdictionary.com/dictionary/english/take-off",
+      "access": "Relevant original edited dictionary, etymology, institutional or first-party teaching passage directly inspected in this current review."
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/take%20off",
+      "access": "Relevant original edited dictionary, etymology, institutional or first-party teaching passage directly inspected in this current review."
+    },
+    {
+      "url": "https://www.etymonline.com/word/take",
+      "access": "Relevant original edited dictionary, etymology, institutional or first-party teaching passage directly inspected in this current review."
+    },
+    {
+      "url": "https://www.etymonline.com/word/takeoff",
+      "access": "Relevant original edited dictionary, etymology, institutional or first-party teaching passage directly inspected in this current review."
+    },
+    {
+      "url": "https://www.etymonline.com/word/intake",
+      "access": "Relevant original edited dictionary, etymology, institutional or first-party teaching passage directly inspected in this current review."
+    },
+    {
+      "url": "https://www.etymonline.com/word/overtake",
+      "access": "Relevant original edited dictionary, etymology, institutional or first-party teaching passage directly inspected in this current review."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/take-off_2",
+      "access": "Relevant original edited dictionary, etymology, institutional or first-party teaching passage directly inspected in this current review."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/take_1",
+      "access": "Relevant original edited dictionary, etymology, institutional or first-party teaching passage directly inspected in this current review."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/off_1",
+      "access": "Relevant original edited dictionary, etymology, institutional or first-party teaching passage directly inspected in this current review."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/lift-off_1",
+      "access": "Relevant original edited dictionary, etymology, institutional or first-party teaching passage directly inspected in this current review."
+    },
+    {
+      "url": "https://www.faa.gov/air_traffic/publications/aim_html/chap5_section_2.html",
+      "access": "Relevant original edited dictionary, etymology, institutional or first-party teaching passage directly inspected in this current review."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/strip_2",
+      "access": "Relevant original edited dictionary, etymology, institutional or first-party teaching passage directly inspected in this current review."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/momentum",
+      "access": "Relevant original edited dictionary, etymology, institutional or first-party teaching passage directly inspected in this current review."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/escort_2",
+      "access": "Relevant original edited dictionary, etymology, institutional or first-party teaching passage directly inspected in this current review."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/withdraw",
+      "access": "Relevant original edited dictionary, etymology, institutional or first-party teaching passage directly inspected in this current review."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/discontinue",
+      "access": "Relevant original edited dictionary, etymology, institutional or first-party teaching passage directly inspected in this current review."
+    },
+    {
+      "url": "https://www.collinsdictionary.com/dictionary/english/take-off-after",
+      "access": "Relevant original edited dictionary, etymology, institutional or first-party teaching passage directly inspected in this current review."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/tip_2",
+      "access": "Relevant original edited dictionary, etymology, institutional or first-party teaching passage directly inspected in this current review."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/year",
+      "access": "Relevant original edited dictionary, etymology, institutional or first-party teaching passage directly inspected in this current review."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/edge_1",
+      "access": "Relevant original edited dictionary, etymology, institutional or first-party teaching passage directly inspected in this current review."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/mind_1",
+      "access": "Relevant original edited dictionary, etymology, institutional or first-party teaching passage directly inspected in this current review."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/eye_1",
+      "access": "Relevant original edited dictionary, etymology, institutional or first-party teaching passage directly inspected in this current review."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/market_1",
+      "access": "Relevant original edited dictionary, etymology, institutional or first-party teaching passage directly inspected in this current review."
+    },
+    {
+      "url": "https://inglespodcast.com/2014/02/11/aprender-ingles-con-reza-y-craig-14/",
+      "access": "Relevant original edited dictionary, etymology, institutional or first-party teaching passage directly inspected in this current review."
+    }
+  ],
+  "source_limits": [
+    "Cambridge US off /ɑːf/ was independently reconfirmed from its first-party indexed entry. The earlier direct page fetch failed; no direct-page or audio audition claim is made. This corroborates the preserved vowel variant while Oxford directly supports /ɔːf/.",
+    "The FAA original HTML supports the lexical runway use of lift off only. No flight-operation advice or current regulatory interpretation is inferred.",
+    "The take-off-medication interpretation is consistent with the general removal-from-treatment frame and independently corroborated by first-party indexed Royal Brompton/Harefield research reporting. Its direct page returned403; no direct access is claimed, and no treatment recommendation or clinical criterion is inferred.",
+    "Search-only third-party wordlists, forums and unrelated research leads were not adopted. No audio, proprietary corpus, website publication, queue mutation or remote write was performed."
+  ],
+  "additional_indexed_evidence": [
+    {
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/off",
+      "claim": "US /ɑːf/ pronunciation; first-party indexed text only."
+    },
+    {
+      "url": "https://www.rbht.nhs.uk/news/new-trial-highlights-need-lifelong-medication-dilated-cardiomyopathy",
+      "claim": "Lexical use of being taken off medications in reporting withdrawal of treatment; first-party indexed text, direct fetch403."
+    }
+  ]
+}
