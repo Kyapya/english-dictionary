@@ -1,0 +1,152 @@
+{
+  "schema_version": "compact_review_response_v1",
+  "checked_areas": [
+    "pronunciation",
+    "etymology",
+    "word_formation",
+    "usage_preamble",
+    "sense:06bcb53bd623339c0ed6",
+    "sense:c4ace1e340e349478d68"
+  ],
+  "unchecked_areas": [],
+  "findings": [
+    {
+      "area": "sense:c4ace1e340e349478d68",
+      "severity": "minor",
+      "taxonomy": "scope_qualification",
+      "impact": "The bilingual example can teach sister as specifically an older sister even though the English supplies no age relationship.",
+      "evidence": "Snapshot lines 190–191: Asked whom he trusted, he unhesitatingly named his sister. is translated with 自分の姉. The sibling definition at https://www.merriam-webster.com/dictionary/sister does not distinguish older from younger. The manner adverb and the rest of the pair are sound.",
+      "action": "Make the pair agree by adding older before sister in the original English, or use Japanese that does not specify relative age. No change to the unhesitatingly definition or score is needed."
+    }
+  ],
+  "reviewer": {
+    "execution_identity": "/root/identify_unreviewed_entries",
+    "role": "B",
+    "model": "unknown",
+    "model_disclosure": "The actual execution model identifier is unavailable."
+  },
+  "inspection": {
+    "snapshot_bindings_and_canonical_inventory_verified": true,
+    "current_dependency_keys_independently_recomputed": true,
+    "lines_read": [
+      1,
+      207
+    ],
+    "numbered_senses_read": 2,
+    "standard_english_japanese_pairs_read": 23,
+    "all_inline_examples_and_usage_notes_read": true,
+    "independent_principal_dictionaries": [
+      "Merriam-Webster",
+      "Oxford University Press",
+      "Collins"
+    ],
+    "reviewer_A_material_consulted": false,
+    "author_inventory_used_as_independent_proof": false
+  },
+  "coverage_notes": [
+    "The two main meanings are proportionate: ease/availability with explicit promptness, and willingness/no hesitation. Dictionary differences in splitting promptness do not require a third block here.",
+    "All requested areas and all examples were inspected. Common adjective/participle modification, modal/perfect and postverbal placement, negation and comparison, recall, physical change, acceptance and admission are covered. No material missing modern sense or construction was established.",
+    "The displayed common Oxford US/UK pronunciation and Middle English ready-plus-ly history are supported. Other dictionaries show legitimate schwa or final-vowel transcription variants; these do not invalidate the chosen form. No audio was auditioned.",
+    "Readiness is correctly identified as a related noun based on ready, not directly derived from readily. A core image is appropriately omitted for two numbered senses.",
+    "The selected comparisons and negative-scope guidance are sound aside from the one local translation finding. Scores are per-defined-sense global-English editorial bands; no corpus measurement or unsupported numerical replacement is claimed.",
+    "This is the actual independent current-snapshot compact review. It is not a targeted correction acceptance, and no response from the author or Reviewer A supplied a verdict."
+  ],
+  "sources": [
+    {
+      "url": "https://www.merriam-webster.com/dictionary/readily",
+      "access": "direct",
+      "inspected_support": "Edited ease/willingness definitions, examples and approximate historical first-use record."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/readily",
+      "access": "direct",
+      "inspected_support": "Two main meanings and displayed US/UK IPA."
+    },
+    {
+      "url": "https://www.collinsdictionary.com/dictionary/english/readily",
+      "access": "direct",
+      "inspected_support": "Edited learner/general definitions, promptness subdivision, grammar labels and regional IPA variants; automatic examples used only as attestation."
+    },
+    {
+      "url": "https://www.etymonline.com/word/readily",
+      "access": "direct",
+      "inspected_support": "Ready plus -ly; early willingness and later fourteenth-century ease; linked Old English prepared forms."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/ready_1",
+      "access": "direct",
+      "inspected_support": "Prepared and willing adjective meanings, ready-to and ready-for constructions and word origin."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/readiness",
+      "access": "direct",
+      "inspected_support": "Noun preparedness and willingness, for and to-do constructions."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/easily",
+      "access": "direct",
+      "inspected_support": "Ease meaning versus emphatic superlative and probability meanings."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/effortlessly",
+      "access": "direct",
+      "inspected_support": "Little or no effort and appearance of ease."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/smoothly",
+      "access": "direct",
+      "inspected_support": "Selected absence-of-problems meaning, distinguished from movement and speech manners."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/willingly",
+      "access": "direct",
+      "inspected_support": "Voluntary/no-objection manner without a compulsory immediate decision."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/gladly",
+      "access": "direct",
+      "inspected_support": "Willingness and happiness/gratitude readings."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/unhesitatingly",
+      "access": "direct",
+      "inspected_support": "Immediate and confident response; current Japanese definition is supported."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/reluctantly",
+      "access": "direct",
+      "inspected_support": "Hesitation arising from reluctance or doubts; acting reluctantly is not refusal."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/unwillingly",
+      "access": "direct",
+      "inspected_support": "Acting without wishing to, with pressure; selected attitude comparison is supported."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/readily",
+      "access": "first-party indexed text after direct 403",
+      "inspected_support": "Edited ease/quickness/willingness meanings, physical ionization example; explicitly marked corpus examples attest recall and comparative/positional uses."
+    },
+    {
+      "url": "https://www.collinsdictionary.com/dictionary/english-collocations/readily",
+      "access": "first-party indexed text after direct fetch error",
+      "inspected_support": "Collocation headings for availability, accessibility, apparentness, identification, admission and springing to mind; no generated example is claimed to be a dictionary quotation."
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/sister",
+      "access": "direct",
+      "inspected_support": "The sibling sense does not specify older versus younger; supports the concrete translation finding."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/uk/grammar/british-grammar/adverbs-forms",
+      "access": "first-party indexed text",
+      "inspected_support": "Adjective-to-adverb formation including y-to-i and gradable adverbs with more; standard contemporary instruction, not exhaustive historical morphology."
+    }
+  ],
+  "source_access_limits": [
+    "Cambridge readily returned HTTP 403 directly; its first-party indexed result was inspected and is labelled accordingly. Collins collocations also failed directly but its first-party indexed headings/text were accessible. Main lexical coverage is independently supported by three directly inspected principal dictionaries.",
+    "The additional Oxford sister_1 locator failed; Merriam-Webster sister was directly opened and established the relevant age-neutral meaning.",
+    "A guessed Cambridge comparison-page locator was inaccessible and supplied no evidence. The actual first-party indexed Adverbs: forms page and Cambridge readily corpus attestations support the adopted ordinary formation/comparison guidance.",
+    "Automatic corpus/web examples are attestation, not editor endorsement of their subject matter. No source is represented as having authored or certified the new English/Japanese pairs. No external state was changed."
+  ]
+}

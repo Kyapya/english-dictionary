@@ -8,7 +8,110 @@
   "started_at": "2026-10-02T14:09:29.808900+00:00",
   "entry_path": "entries/r/readily.md",
   "inventory_path": "audits/runs/r/readily/source_inventory.json",
-  "review_receipts": [],
+  "review_receipts": [
+    {
+      "role": "A",
+      "execution_id": "/root/review_dictionary_progress",
+      "model": "unknown",
+      "recorded_at": "2026-10-02T14:25:44.440053+00:00",
+      "request_path": "audits/workflow_runs/readily/20261002T140929Z/compact/review-A.round1.request.json",
+      "request_sha256": "ed788ccb81d6c7a5a83b77e8c953474cb6bbd9299b38e7bf03659f622089a362",
+      "raw_response_path": "audits/workflow_runs/readily/20261002T140929Z/compact/A-round1.raw.json",
+      "raw_response_sha256": "9f3f46f8671d7b5c4c76f36ccab05635347117c805d4edb8cf75a9723d88da58",
+      "body_sha256": "36b121f865b1dfd2ed88be38112c6f22d0a540fa4b188d638980b5c25f058c1e",
+      "area_keys": {
+        "pronunciation": "3c2f8c69fe3c523d077e72076322ce1682e04b132491b665491e8ea190eed730",
+        "etymology": "d513a86bfbffb267283d4e1b7b045901deea05263c3d3ecdb56de951c73d8d21",
+        "word_formation": "7ab2523b35d95b6c162a273bf391be489169e26c6c7159acfe1a2fc7d3a266a5",
+        "usage_preamble": "e273d13347f95dfe2ad9b0f1ddff0cef2b06acb7d36796e1a4f052c7680f8310",
+        "sense:06bcb53bd623339c0ed6": "bfacb20964bc52eef22364841ad4b7fce8510cb4bf11e4d380c62a79903e58b4",
+        "sense:c4ace1e340e349478d68": "58f8170b751cca28b5a0f1c6d50ccdf6077aeba54797be022f345102e73bddff"
+      },
+      "checked_areas": [
+        "pronunciation",
+        "etymology",
+        "word_formation",
+        "usage_preamble",
+        "sense:06bcb53bd623339c0ed6",
+        "sense:c4ace1e340e349478d68"
+      ],
+      "unchecked_areas": [],
+      "findings": [
+        {
+          "id": "readily-A-R1-01",
+          "area": "sense:c4ace1e340e349478d68",
+          "severity": "blocking",
+          "impact": "The Japanese teaches a relative age that the English does not specify.",
+          "evidence": "Lines190–191: his sister is translated 自分の姉. Sister alone can be an older or younger sister.",
+          "action": "Use an age-neutral Japanese equivalent, or change this newly authored English example to his older sister if 姉 is intended."
+        },
+        {
+          "id": "readily-A-R1-02",
+          "area": "sense:06bcb53bd623339c0ed6",
+          "severity": "minor",
+          "impact": "A learner copying the singular-subject construction gets incorrect agreement; the negative pattern also leaves the finite auxiliary implicit.",
+          "evidence": "Lines40,69: something + dissolve readily in 〈液体〉, contrasted with the correct example The powder dissolves readily in warm water. Lines40,79 advertise not readily 〈understand・accept〉 something while the example explicitly uses may not readily understand.",
+          "action": "Use something dissolves readily in 〈液体を表す名詞句〉 or a clearly labelled infinitival frame, and a complete may not readily 〈understand・accept〉 something negative frame matching the example. Preserve the correct example sentences."
+        },
+        {
+          "id": "readily-A-R1-03",
+          "area": "sense:06bcb53bd623339c0ed6",
+          "severity": "minor",
+          "impact": "The gloss unnecessarily limits the idiom to an intentional attempt to retrieve a memory, excluding ideas or associations that simply occur to someone.",
+          "evidence": "Line75: 名前や例などが、思い出そうとしてすぐ浮かぶこと. Oxford mind, come/spring to mind, covers remembering or thinking of something without requiring a deliberate search: https://www.oxfordlearnersdictionaries.com/definition/english/mind_1 .",
+          "action": "Describe names, examples or ideas coming easily/quickly to mind, without requiring 思い出そうとして. Keep the existing festival example."
+        },
+        {
+          "id": "readily-A-R1-04",
+          "area": "pronunciation",
+          "severity": "minor",
+          "impact": "The otherwise accurate pronunciation explanation is merged into the IPA display, contrary to the current v5 dedicated display and explanation format.",
+          "evidence": "Line15 combines 米・英: /ˈredɪli/ with the full syllable/stress/read comparison prose. Oxford directly supplies the selected common UK/US form: https://www.oxfordlearnersdictionaries.com/definition/english/readily .",
+          "action": "Keep the IPA on its own display line and move the explanation into correctly separated bullets. Preserve the three-syllable form as the selected standard transcription; do not imply other dictionary variants are impossible."
+        }
+      ],
+      "normalizations": []
+    },
+    {
+      "role": "B",
+      "execution_id": "/root/identify_unreviewed_entries",
+      "model": "unknown",
+      "recorded_at": "2026-10-02T14:28:20.077666+00:00",
+      "request_path": "audits/workflow_runs/readily/20261002T140929Z/compact/review-B.round1.request.json",
+      "request_sha256": "c7052eca22e20a15b1f0b334992060af3ee8e0dde2a9915d8f089bdde1d32143",
+      "raw_response_path": "audits/workflow_runs/readily/20261002T140929Z/compact/B-round1.raw.json",
+      "raw_response_sha256": "3409ffae633d06d719517923f76f6ec38202d27dbbe70c6918dde43b02151040",
+      "body_sha256": "36b121f865b1dfd2ed88be38112c6f22d0a540fa4b188d638980b5c25f058c1e",
+      "area_keys": {
+        "pronunciation": "3c2f8c69fe3c523d077e72076322ce1682e04b132491b665491e8ea190eed730",
+        "etymology": "d513a86bfbffb267283d4e1b7b045901deea05263c3d3ecdb56de951c73d8d21",
+        "word_formation": "7ab2523b35d95b6c162a273bf391be489169e26c6c7159acfe1a2fc7d3a266a5",
+        "usage_preamble": "e273d13347f95dfe2ad9b0f1ddff0cef2b06acb7d36796e1a4f052c7680f8310",
+        "sense:06bcb53bd623339c0ed6": "bfacb20964bc52eef22364841ad4b7fce8510cb4bf11e4d380c62a79903e58b4",
+        "sense:c4ace1e340e349478d68": "58f8170b751cca28b5a0f1c6d50ccdf6077aeba54797be022f345102e73bddff"
+      },
+      "checked_areas": [
+        "pronunciation",
+        "etymology",
+        "word_formation",
+        "usage_preamble",
+        "sense:06bcb53bd623339c0ed6",
+        "sense:c4ace1e340e349478d68"
+      ],
+      "unchecked_areas": [],
+      "findings": [
+        {
+          "area": "sense:c4ace1e340e349478d68",
+          "severity": "minor",
+          "taxonomy": "scope_qualification",
+          "impact": "The bilingual example can teach sister as specifically an older sister even though the English supplies no age relationship.",
+          "evidence": "Snapshot lines 190–191: Asked whom he trusted, he unhesitatingly named his sister. is translated with 自分の姉. The sibling definition at https://www.merriam-webster.com/dictionary/sister does not distinguish older from younger. The manner adverb and the rest of the pair are sound.",
+          "action": "Make the pair agree by adding older before sister in the original English, or use Japanese that does not specify relative age. No change to the unhesitatingly definition or score is needed."
+        }
+      ],
+      "normalizations": []
+    }
+  ],
   "resolutions": [],
   "migration": null,
   "status": "in_progress",

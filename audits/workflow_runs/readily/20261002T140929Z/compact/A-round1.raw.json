@@ -1,0 +1,161 @@
+{
+  "schema_version": "compact_review_response_v1",
+  "checked_areas": [
+    "pronunciation",
+    "etymology",
+    "word_formation",
+    "usage_preamble",
+    "sense:06bcb53bd623339c0ed6",
+    "sense:c4ace1e340e349478d68"
+  ],
+  "unchecked_areas": [],
+  "findings": [
+    {
+      "id": "readily-A-R1-01",
+      "area": "sense:c4ace1e340e349478d68",
+      "severity": "blocking",
+      "impact": "The Japanese teaches a relative age that the English does not specify.",
+      "evidence": "Lines190–191: his sister is translated 自分の姉. Sister alone can be an older or younger sister.",
+      "action": "Use an age-neutral Japanese equivalent, or change this newly authored English example to his older sister if 姉 is intended."
+    },
+    {
+      "id": "readily-A-R1-02",
+      "area": "sense:06bcb53bd623339c0ed6",
+      "severity": "minor",
+      "impact": "A learner copying the singular-subject construction gets incorrect agreement; the negative pattern also leaves the finite auxiliary implicit.",
+      "evidence": "Lines40,69: something + dissolve readily in 〈液体〉, contrasted with the correct example The powder dissolves readily in warm water. Lines40,79 advertise not readily 〈understand・accept〉 something while the example explicitly uses may not readily understand.",
+      "action": "Use something dissolves readily in 〈液体を表す名詞句〉 or a clearly labelled infinitival frame, and a complete may not readily 〈understand・accept〉 something negative frame matching the example. Preserve the correct example sentences."
+    },
+    {
+      "id": "readily-A-R1-03",
+      "area": "sense:06bcb53bd623339c0ed6",
+      "severity": "minor",
+      "impact": "The gloss unnecessarily limits the idiom to an intentional attempt to retrieve a memory, excluding ideas or associations that simply occur to someone.",
+      "evidence": "Line75: 名前や例などが、思い出そうとしてすぐ浮かぶこと. Oxford mind, come/spring to mind, covers remembering or thinking of something without requiring a deliberate search: https://www.oxfordlearnersdictionaries.com/definition/english/mind_1 .",
+      "action": "Describe names, examples or ideas coming easily/quickly to mind, without requiring 思い出そうとして. Keep the existing festival example."
+    },
+    {
+      "id": "readily-A-R1-04",
+      "area": "pronunciation",
+      "severity": "minor",
+      "impact": "The otherwise accurate pronunciation explanation is merged into the IPA display, contrary to the current v5 dedicated display and explanation format.",
+      "evidence": "Line15 combines 米・英: /ˈredɪli/ with the full syllable/stress/read comparison prose. Oxford directly supplies the selected common UK/US form: https://www.oxfordlearnersdictionaries.com/definition/english/readily .",
+      "action": "Keep the IPA on its own display line and move the explanation into correctly separated bullets. Preserve the three-syllable form as the selected standard transcription; do not imply other dictionary variants are impossible."
+    }
+  ],
+  "reviewer": {
+    "identity": "/root/review_dictionary_progress",
+    "role": "A",
+    "model": "unknown",
+    "model_identity_note": "Runtime model ID unavailable."
+  },
+  "bindings": {
+    "request_path": "/workspace/scratch/d98863f7be13/iknow-feasibility-readonly-repo/.git/dictionary-batches/workers/f52eda60856d42d8938ce487a95aa81a/audits/workflow_runs/readily/20261002T140929Z/compact/review-A.round1.request.json",
+    "request_file_sha256": "ed788ccb81d6c7a5a83b77e8c953474cb6bbd9299b38e7bf03659f622089a362",
+    "snapshot_path": "audits/workflow_runs/readily/20261002T140929Z/compact/snapshot-36b121f865b1dfd2-97243f1dd90e.json",
+    "snapshot_sha256": "eb1bdde1908004b99f87b09a88b09c386119f7cc0b19e91023df4671c0e67102",
+    "body_sha256": "36b121f865b1dfd2ed88be38112c6f22d0a540fa4b188d638980b5c25f058c1e",
+    "source_inventory_sha256": "97243f1dd90e1d1f05597c8cd5a074b58c1bb1c1669e1fb7572b877e6df6b2ff",
+    "area_keys": {
+      "pronunciation": "3c2f8c69fe3c523d077e72076322ce1682e04b132491b665491e8ea190eed730",
+      "etymology": "d513a86bfbffb267283d4e1b7b045901deea05263c3d3ecdb56de951c73d8d21",
+      "word_formation": "7ab2523b35d95b6c162a273bf391be489169e26c6c7159acfe1a2fc7d3a266a5",
+      "usage_preamble": "e273d13347f95dfe2ad9b0f1ddff0cef2b06acb7d36796e1a4f052c7680f8310",
+      "sense:06bcb53bd623339c0ed6": "bfacb20964bc52eef22364841ad4b7fce8510cb4bf11e4d380c62a79903e58b4",
+      "sense:c4ace1e340e349478d68": "58f8170b751cca28b5a0f1c6d50ccdf6077aeba54797be022f345102e73bddff"
+    }
+  },
+  "coverage": {
+    "full_article_lines": [
+      1,
+      207
+    ],
+    "standard_example_translation_pairs": 23,
+    "area_ranges": {
+      "pronunciation": [
+        13,
+        15
+      ],
+      "etymology": [
+        17,
+        21
+      ],
+      "word_formation": [
+        23,
+        26
+      ],
+      "usage_preamble": [
+        28,
+        30
+      ],
+      "sense:06bcb53bd623339c0ed6": [
+        32,
+        120
+      ],
+      "sense:c4ace1e340e349478d68": [
+        122,
+        207
+      ]
+    },
+    "notes": "All requested article areas, standard English/Japanese pairs, inline contrasts and construction alternatives inspected. Snapshot/body and source-inventory canonical hashes independently verified. No B report or author verdict was read. Source inventory included editorial coverage summaries; those were not adopted as reviewer acceptance."
+  },
+  "sources": [
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/readily",
+      "access": "direct original edited entry",
+      "basis": "Principal ease/quickness and willingness meanings plus selected UK/US IPA."
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/readily",
+      "access": "direct original edited entry",
+      "basis": "Principal definitions and approximate Middle English dating; automated recent examples not used as authoritative definitions."
+    },
+    {
+      "url": "https://www.collinsdictionary.com/dictionary/english/readily",
+      "access": "direct original edited COBUILD and general entries",
+      "basis": "Ease/promptness and willingness can be grouped as in this entry; smoothly is explicitly a sense-related comparison. Genuine pronunciation variants do not invalidate the selected Oxford form."
+    },
+    {
+      "url": "https://www.etymonline.com/word/readily",
+      "access": "direct original entry",
+      "basis": "Ready plus -ly, early willingness and later-fourteenth-century ease."
+    },
+    {
+      "url": "https://www.etymonline.com/word/ready",
+      "access": "direct original entry",
+      "basis": "Old English prepared/ready ancestry; speculative deeper roots are not adopted."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/ready_1",
+      "access": "direct original entry",
+      "basis": "Base adjective and prepared/willing distinction."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/readiness",
+      "access": "direct original entry",
+      "basis": "Related noun and preparedness/willingness meanings."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/mind_1",
+      "access": "direct original idiom entry",
+      "basis": "Come/spring to mind is broader than deliberate recall."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/unhesitatingly",
+      "access": "direct original edited definition",
+      "basis": "The current immediate/confident comparison is source-supported; no invented certainty-wording defect raised."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/gladly",
+      "access": "direct original edited entry",
+      "basis": "Willingly and happily/with thanks readings support the qualified comparison."
+    }
+  ],
+  "assessment_notes": [
+    "No major missing principal meaning established. Quickness remains represented rather than erased by the two-unit grouping.",
+    "Core omission is appropriate for two numbered senses under current v5.",
+    "No forced antonym for ease, no mechanical rejection of broader comparison synonyms, and no required numerical score changes. Scores are per selected sense, global-English editorial bands rather than measured counts.",
+    "No audio or corpus measurement performed; automatically selected example subject-matter claims are not adopted.",
+    "This is official normal compact review, not targeted acceptance; four genuine findings remain for author correction and affected-area recheck."
+  ]
+}
