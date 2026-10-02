@@ -1,0 +1,113 @@
+{
+  "schema_version": "compact_review_response_v1",
+  "checked_areas": [
+    "pronunciation",
+    "sense:06bcb53bd623339c0ed6",
+    "sense:c4ace1e340e349478d68"
+  ],
+  "unchecked_areas": [
+    {
+      "area": "etymology",
+      "reason": "Not reread in this focused round. Dependency hash is identical to round1; reuse the authentic prior accepted coverage mechanically."
+    },
+    {
+      "area": "word_formation",
+      "reason": "Not reread in this focused round. Dependency hash is identical to round1; reuse the authentic prior accepted coverage mechanically."
+    },
+    {
+      "area": "usage_preamble",
+      "reason": "Not reread in this focused round. Dependency hash is identical to round1; reuse the authentic prior accepted coverage mechanically."
+    }
+  ],
+  "findings": [],
+  "reviewer": {
+    "identity": "/root/review_dictionary_progress",
+    "role": "A",
+    "model": "unknown",
+    "model_identity_note": "Runtime model ID unavailable."
+  },
+  "bindings": {
+    "request_path": "/workspace/scratch/d98863f7be13/iknow-feasibility-readonly-repo/.git/dictionary-batches/workers/f52eda60856d42d8938ce487a95aa81a/audits/workflow_runs/readily/20261002T140929Z/compact/review-A.round2.request.json",
+    "request_file_sha256": "3b8f73b8d8f20ceb79985173535d242a7e0d348e7e7a3054d61c52d4b3e81f38",
+    "snapshot_path": "audits/workflow_runs/readily/20261002T140929Z/compact/snapshot-19a9b246e0509ca5-c0fb6f735e50.json",
+    "snapshot_sha256": "d0d5c2ec88188356ff2d6e6beed346762e3df0bb5546547085b17168cc7abb6f",
+    "body_sha256": "19a9b246e0509ca56ebf18178bf85bb7393dc97efbdd09f33ecb63e2becbe4e9",
+    "source_inventory_sha256": "c0fb6f735e506ff7f36a7ec55f75817dd231881e5c67139df3ca09fe5c86c975",
+    "area_keys": {
+      "pronunciation": "de9a933879b6cabd0c164280a5ec4fc2870df99d394478d258c3c6c7a2036f86",
+      "etymology": "d513a86bfbffb267283d4e1b7b045901deea05263c3d3ecdb56de951c73d8d21",
+      "word_formation": "7ab2523b35d95b6c162a273bf391be489169e26c6c7159acfe1a2fc7d3a266a5",
+      "usage_preamble": "e273d13347f95dfe2ad9b0f1ddff0cef2b06acb7d36796e1a4f052c7680f8310",
+      "sense:06bcb53bd623339c0ed6": "bdf99f54de3363bf2e48e4b20e74de9945e0c06e3efd1e39fdd04e192274a21c",
+      "sense:c4ace1e340e349478d68": "af275804e06e80d09702fe0863f47b0da4f007cb88f0df31795c80c60f23f4b1"
+    }
+  },
+  "coverage": {
+    "scope": "affected_areas_with_necessary_context",
+    "read_ranges": [
+      [
+        13,
+        18
+      ],
+      [
+        35,
+        123
+      ],
+      [
+        125,
+        210
+      ]
+    ],
+    "checked_area_ranges": {
+      "pronunciation": [
+        13,
+        18
+      ],
+      "sense:06bcb53bd623339c0ed6": [
+        35,
+        123
+      ],
+      "sense:c4ace1e340e349478d68": [
+        125,
+        210
+      ]
+    },
+    "standard_pairs_within_checked_senses": 23,
+    "notes": "Entire current pronunciation and both complete sense blocks, including all their examples/translations and local comparisons, were independently reread. The exact old-to-new textual transition and unchanged dependency hashes were checked. No fresh full coverage is claimed for etymology, formation or usage preamble."
+  },
+  "resolved_findings": [
+    {
+      "id": "readily-A-R1-01",
+      "resolution": "Older sister now explicitly supports the Japanese 姉; no unsupported age inference remains."
+    },
+    {
+      "id": "readily-A-R1-02",
+      "resolution": "The generic singular subject takes dissolves and the negative frame includes may not in both overview and collocation. They agree with the preserved examples."
+    },
+    {
+      "id": "readily-A-R1-03",
+      "resolution": "The mind gloss includes names/examples/ideas arising easily, without requiring an intentional memory search."
+    },
+    {
+      "id": "readily-A-R1-04",
+      "resolution": "IPA is on its own display line; syllable/stress and read spelling guidance are separate bullet items and remain accurate."
+    }
+  ],
+  "verification": {
+    "snapshot_body_inventory_hashes_verified": true,
+    "unchanged_area_dependencies_verified": [
+      "etymology",
+      "word_formation",
+      "usage_preamble"
+    ],
+    "original_raw_sha256": "9f3f46f8671d7b5c4c76f36ccab05635347117c805d4edb8cf75a9723d88da58",
+    "original_raw_preserved": true
+  },
+  "source_basis": "The corrected meanings are supported by independently read Oxford readily and mind idiom entries from round1. The selected IPA and unhesitatingly comparison were directly verified there. No additional source search was necessary for this local recheck. Subsequent direct Oxford ready/readiness passage inspection also corroborated the unchanged family meanings, but those article areas are not marked freshly checked here.",
+  "assessment_notes": [
+    "No remaining concrete finding in the three inspected current areas.",
+    "The source inventory’s added mind citation agrees with the independently accessed original idiom; editorial metadata does not constitute a linguistic verdict.",
+    "Per-sense frequency bands remain editorial, unchanged and without invented corpus counts.",
+    "This is normal compact affected-area review, not a publication-only final audit or targeted receipt."
+  ]
+}

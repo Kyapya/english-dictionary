@@ -1,0 +1,27 @@
+{
+  "workflow_contract_version": "compact_review_v1",
+  "role": "B",
+  "snapshot_path": "audits/workflow_runs/readily/20261002T140929Z/compact/snapshot-19a9b246e0509ca5-c0fb6f735e50.json",
+  "snapshot_sha256": "d0d5c2ec88188356ff2d6e6beed346762e3df0bb5546547085b17168cc7abb6f",
+  "body_sha256": "19a9b246e0509ca56ebf18178bf85bb7393dc97efbdd09f33ecb63e2becbe4e9",
+  "area_keys": {
+    "pronunciation": "de9a933879b6cabd0c164280a5ec4fc2870df99d394478d258c3c6c7a2036f86",
+    "etymology": "d513a86bfbffb267283d4e1b7b045901deea05263c3d3ecdb56de951c73d8d21",
+    "word_formation": "7ab2523b35d95b6c162a273bf391be489169e26c6c7159acfe1a2fc7d3a266a5",
+    "usage_preamble": "e273d13347f95dfe2ad9b0f1ddff0cef2b06acb7d36796e1a4f052c7680f8310",
+    "sense:06bcb53bd623339c0ed6": "bdf99f54de3363bf2e48e4b20e74de9945e0c06e3efd1e39fdd04e192274a21c",
+    "sense:c4ace1e340e349478d68": "af275804e06e80d09702fe0863f47b0da4f007cb88f0df31795c80c60f23f4b1"
+  },
+  "review_scope": {
+    "purpose": "Independent comparison of article claims with original external references and detection of missing major senses and unsupported generalization",
+    "taxonomy": [
+      "source_contradiction",
+      "insufficient_evidence",
+      "missing_major_sense",
+      "unsupported_generalization",
+      "scope_qualification"
+    ]
+  },
+  "source_inventory_path": "audits/runs/r/readily/source_inventory.json",
+  "source_inventory_sha256": "c0fb6f735e506ff7f36a7ec55f75817dd231881e5c67139df3ca09fe5c86c975"
+}
