@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra
 created_at: 2026-09-08
-updated_at: 2026-09-08
+updated_at: 2026-10-02
 checked: true
 tags: []
 ---
@@ -17,16 +17,12 @@ tags: []
 ＃語源
 
 中英語 *parlement* を経て、古フランス語 *parlement*「話すこと」にさかのぼり、その基になった *parler* は「話す」を意味する。英語では1300年ごろに「相談、正式な会議、集会」を表した。現在の綴りにある `ia` は、中世ラテン語 *parliamentum* に合わせた形の影響を受けている。  
+同じ古フランス語 *parler* に関係する英単語には、parley「交渉、会談」と parlour（米 parlor）「客間」がある。  
 
 ＃語形成
 
 ・parliamentary：形容詞。「議会の」「議会制の」のほか、`parliamentary procedure` では「議事手続きの」を表す。  
-
-＃コアイメージ
-
-`parliament` の中心は、「構成員が集まり、公的事項を審議して決定する制度的な立法機関」である。そこから、継続する制度そのものと、総選挙を区切りとして成立する特定回の議会体・存続期間を表す。  
-・法律や政策を審議する継続的な制度とその構成員全体 → 「議会、国会」（語義1）  
-・総選挙を区切りとして成立する特定回の議会体と存続期間 → 「特定期の議会、一議会期」（語義2）  
+・parliamentarian：名詞。「議員」のほか、「議事手続きの専門家」の意味もある。  
 
 ＃意味・用法・関連表現
 
@@ -69,7 +65,16 @@ tags: []
 
 【語法・注意】この語義は継続する制度、またはその制度を一つの行為主体として述べた集合を表す。総選挙ごとに成立する特定回の議会体と期間は語義2で扱う。  
 
+英国の Parliament は制度上、下院、上院、君主から成り、政府の活動を監視する役割も持つ。government「政府」と同義ではない。文脈によって Parliament が下院を指すこともあるが、制度全体を常に下院だけと同一視しない。  
+
 【類義語】
+
+・legislature  
+定義: 法律を制定・改正する権限を持つ議会・立法機関。  
+頻度: 〈7/10〉  
+違い: legislature は立法機関を表すやや改まった一般語で、名称が Parliament でない州議会などにも使える。parliament はその国・地域の制度上の名称として使われることが多い。  
+例: The state legislature approved the bill.  
+訳: 州議会はその法案を可決した。  
 
 ・legislative body  
 定義: 法律を制定する権限を持つ機関。  
@@ -100,7 +105,7 @@ tags: []
 
 【レジスター/領域】政治・議会制度。  
 
-【文法パターン】可算名詞として、総選挙を区切りとして成立する一つの議会体またはその存続期間を表す。  
+【文法パターン】`the current/next parliament`＝今期・次期の特定回の議会／`during this parliament`＝今議会期中に／`in the next parliament`＝次の議会期に／`the lifetime of a parliament`＝一つの議会の存続期間／`dissolve Parliament`＝英国などで議会を解散し、その回の議会を終える。  
 
 【コロケーション】
 
