@@ -27,11 +27,11 @@ tags: []
 
 ＃語形成
 
-・retains / retained / retaining：動詞 retain の三人称単数・過去形／過去分詞・現在分詞。retained は受動態のほか、retained earnings「利益剰余金」のような複合表現にも現れる。  
-・retention：名詞。「保持、保有、維持」「記憶保持」「水分・尿などの滞留」を表す。employee retention、memory retention、fluid retention のように対象を添える。米国の教育では grade retention「同じ学年の再履修」も使う。  
-・retentive / retentively / retentiveness：形容詞／副詞／名詞。「保持力のある、記憶力のよい／よく保持して／保持する力・性質」。特に記憶や物質を保持する性質について使う。  
-・retainer：名詞。専門家への依頼料・役務を確保する報酬や依頼契約、または物を所定位置に留める器具を表す。歯列矯正後に歯の位置を保つ保定装置も retainer という。人を指す場合は雇われて仕える人で、特に家に長く仕える使用人の意味は古風である。  
-・retaining：名詞の前で「所定の位置に保つための」を表す専門的な形容詞用法がある。retaining wall「擁壁」のように使い、動詞 retain の物理的な保持の意味とつながる。  
+・`retained earnings`：`retained`（過去分詞）と `earnings`（収益）から成る複合表現で、「利益剰余金」を表す。  
+・`retention`：名詞。「保持、保有、維持」「記憶保持」「水分・尿などの滞留」を表す。`employee retention`、`memory retention`、`fluid retention` のように対象を添える。米国の教育では `grade retention`「同じ学年の再履修」も使う。  
+・`retentive` / `retentively` / `retentiveness`：形容詞／副詞／名詞。「保持力のある、記憶力のよい／よく保持して／保持する力・性質」。特に記憶や物質を保持する性質について使う。  
+・`retainer`：名詞。専門家への依頼料・役務を確保する報酬や依頼契約、または物を所定位置に留める器具を表す。歯列矯正後に歯の位置を保つ保定装置も `retainer` という。人を指す場合は雇われて仕える人で、特に家に長く仕える使用人の意味は古風である。  
+・`retaining`：名詞の前で「所定の位置に保つための」を表す専門的な形容詞用法がある。`retaining wall`「擁壁」のように使い、動詞 `retain` の物理的な保持の意味とつながる。  
 
 ＃コアイメージ
 
@@ -75,7 +75,7 @@ retain の核は、対象を手元・内部・関係・状態の中にとどめ�
 ・retain a deposit  
 用途: 保証金や預かり金を返還せず手元に残す。  
 例: The landlord may retain part of the deposit to cover the repairs.  
-訳: 大家は修繕費に充てるため、保証金の一部を差し引いて保持することがある。  
+訳: 大家は修繕費に充てるため、保証金の一部を返さずに手元に残すことがある。  
 
 ・retain the custom of doing something  
 用途: 古い習慣や制度を廃止せず残す。  
@@ -102,7 +102,7 @@ retain の核は、対象を手元・内部・関係・状態の中にとどめ�
 例: The company retained part of its earnings to fund expansion.  
 訳: その会社は事業拡大の資金にするため、利益の一部を社内に残した。  
 
-【語法・注意】この語義の `retain` は、すでに持っているもの・すでにある状態や関係を、その後も失わずに保つことを表す。新たに手に入れる `acquire` や、状態を保つために継続的に管理する `maintain` とは焦点が異なる。`retain a deposit` のように金銭を手元に残す場合は、返還・支払いを控える含みがある。`retain rooms` は「部屋を引き続き自分の利用のために確保しておく」という意味にもなる。`retain one’s seat` は、政治の文脈では「議席を守る」を表す。  
+【語法・注意】この語義の `retain` は、すでに持っているもの・すでにある状態や関係を、その後も失わずに保つことを表す。新たに手に入れる `acquire` や、状態を保つために継続的に管理する `maintain` とは焦点が異なる。`retain a deposit` のように金銭を手元に残す場合は、返還・支払いを控える含みがある。`retain rooms` は「部屋を引き続き自分の利用のために確保しておく」という意味にもなる。`retain one's seat` は、政治の文脈では「議席を守る」を表す。  
 
 【類義語】
 
@@ -215,7 +215,7 @@ retain の核は、対象を手元・内部・関係・状態の中にとどめ�
 頻度: 〈10/10〉  
 違い: `hire` は一般的な採用・依頼を広く表す。専門家を目的語にした `retain` は、より硬く、正式に役務を確保することを表すが、単発の依頼を排除しない。  
 例: We hired a lawyer to review the contract.  
-訳: 私たちは契約を確認してもらうため弁護士を雇った。  
+訳: 私たちは契約の確認を弁護士に依頼した。  
 
 ・engage  
 定義: 専門家や業者に正式に仕事を依頼する。  
@@ -359,7 +359,7 @@ retain の核は、対象を手元・内部・関係・状態の中にとどめ�
 
 【レジスター/領域】医学、薬理、健康情報。生理的な調節や症状・病態を述べる用法。  
 
-【文法パターン】`〈体・患者〉 retain 〈fluid/urine/water〉`＝〈体・患者〉が〈液体・尿・水分〉を体内にためる／`retain 〈fluid〉 in 〈部位〉`＝〈液体〉を〈部位〉にためる／`be retaining fluid`＝体内に液体がたまっている。`retain water` は医学文脈ではこの語義になり得るが、土壌や容器が水を保つ語義3とも解釈できる。  
+【文法パターン】`〈体・患者〉 retain 〈fluid/urine/water〉`＝〈体・患者〉が〈液体・尿・水分〉を体内にためる／`retain 〈fluid〉 in 〈部位〉`＝〈液体〉を〈部位〉にためる／`be retaining fluid`＝体内に液体がたまっている。  
 
 【コロケーション】
 
@@ -369,9 +369,9 @@ retain の核は、対象を手元・内部・関係・状態の中にとどめ�
 訳: 薬によっては、体が体液をため込むことがある。  
 
 ・retain urine  
-用途: 尿を十分に排出できず、膀胱に残している状態を述べる。  
+用途: 尿を十分に排出できず、膀胱に尿が残っている状態を述べる。  
 例: The patient was retaining urine after the operation.  
-訳: その患者は手術後、尿を十分に排出できず、膀胱に残していた。  
+訳: その患者は手術後、尿を十分に排出できず、膀胱に尿が残った状態だった。  
 
 ・retain water  
 用途: 医学・健康文脈で、体内に水分をためる。  
@@ -383,9 +383,9 @@ retain の核は、対象を手元・内部・関係・状態の中にとどめ�
 例: The kidneys may retain sodium and water when blood flow is reduced.  
 訳: 血流が低下すると、腎臓がナトリウムと水分を保持することがある。  
 
-【語法・注意】医学用法の `retain` は、単に「吸収する」ことではなく、物質が体外へ出ずに体内に残ることを表す。`excrete` や `expel` は外へ出す側の語であり、`retain fluid` と方向が逆である。`eliminate` は除去・消失を広く表し、薬物では代謝と排泄の両方を含み得る。`fluid retention` や `urinary retention` は名詞表現としてよく使われる。`retain` は物質が体内に残ることを表し、その原因までは含まない。  
+【語法・注意】`retain water` は医学文脈ではこの語義になり得るが、土壌や容器が水を保つ語義3とも解釈できる。医学用法の `retain` は、単に「吸収する」ことではなく、物質が体外へ出ずに体内に残ることを表す。`excrete` や `expel` は外へ出す側の語であり、`retain fluid` と方向が逆である。`eliminate` は除去・消失を広く表し、薬物では代謝と排泄の両方を含み得る。`fluid retention` や `urinary retention` は名詞表現としてよく使われる。`retain` は物質が体内に残ることを表し、その原因までは含まない。  
 
-`accumulate` は量が次第に増えることを表す。Fluid accumulated around the lungs.「肺の周囲に液体がたまった」は蓄積に焦点があり、物質を体内にとどめる `retain` とは区別する。  
+`accumulate` は量が次第に増えることを表す。`Fluid accumulated around the lungs.`「肺の周囲に液体がたまった」は蓄積に焦点があり、物質を体内にとどめる `retain` とは区別する。  
 
 【類義語】
 
@@ -510,7 +510,7 @@ retain の核は、対象を手元・内部・関係・状態の中にとどめ�
 
 【レジスター/領域】主に米国の学校教育・教育行政。進級や学年の再履修を論じる比較的専門的な用法。  
 
-【文法パターン】retain a student in 〈学年〉＝生徒にその学年をもう一度履修させる／be retained in 〈学年〉＝その学年をもう一度履修することになる／retain someone in the same grade for another year＝さらに1年間、同じ学年にとどめる。  
+【文法パターン】`retain a student in 〈学年〉`＝生徒にその学年をもう一度履修させる／`be retained in 〈学年〉`＝その学年をもう一度履修することになる／`retain someone in the same grade for another year`＝さらに1年間、同じ学年にとどめる。  
 
 【コロケーション】
 
@@ -529,14 +529,14 @@ retain の核は、対象を手元・内部・関係・状態の中にとどめ�
 例: After reviewing his progress, the school decided to retain him in the same grade for another year.  
 訳: 学習の進み具合を検討した後、学校は彼にもう1年間同じ学年を履修させることにした。  
 
-【語法・注意】retain students だけでは、退学・転校を防いで在籍を続けてもらうという一般的な保持の意味にもなる。in third grade や進級についての文脈で、この教育用法を明確にする。  
+【語法・注意】`retain students` だけでは、退学・転校を防いで在籍を続けてもらうという一般的な保持の意味にもなる。`in third grade` や進級についての文脈で、この教育用法を明確にする。  
 
 【類義語】
 
 ・hold back  
 定義: 生徒を次の学年へ進ませず、同じ学年をもう一度履修させる。  
 頻度: 〈5/10〉  
-違い: この意味では retain より日常的な言い方。hold back には進歩を妨げるなど別の意味もあるため、学校・学年の文脈で使い分ける。目的語が代名詞なら hold them back のように back の前に置く。  
+違い: この意味では `retain` より日常的な言い方。`hold back` には進歩を妨げるなど別の意味もあるため、学校・学年の文脈で使い分ける。目的語が代名詞なら `hold them back` のように `back` の前に置く。  
 例: They decided to hold her back a year.  
 訳: 彼らは、彼女に同じ学年をもう1年履修させることにした。  
 
@@ -545,6 +545,6 @@ retain の核は、対象を手元・内部・関係・状態の中にとどめ�
 ・promote  
 定義: 生徒を次の学年に進級させる。  
 頻度: 〈5/10〉  
-違い: 同じ学年にとどめる retain に対して、次の学年へ進ませる方向の対立を表す。  
+違い: 同じ学年にとどめる `retain` に対して、次の学年へ進ませる方向の対立を表す。  
 例: The school promoted her to fourth grade.  
 訳: 学校は彼女を4年生に進級させた。  
