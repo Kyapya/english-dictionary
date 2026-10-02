@@ -1,0 +1,446 @@
+{
+  "schema_version": "full_entry_assessment_response_v1",
+  "word": "stuff",
+  "round": 1,
+  "assessment_scope": "full_current_entry",
+  "reviewer": {
+    "identity": "/root/review_dictionary_progress",
+    "role": "A",
+    "model": "unknown",
+    "model_identity_note": "Runtime model ID is unavailable; article generation metadata is not reviewer identity."
+  },
+  "entry_path": "entries/s/stuff.md",
+  "repository_ref": "1199d38065ed721df7d6f9d2dd70392b8ea79213",
+  "body_sha256": "af9975eb0e753f2cdd0b01d385a5147986ddd7b27445bef719eceab4b996add5",
+  "file_sha256": "106d96ce7ba6b04814c347ab4fa7c6e5bf99773b01b598b67ea518c5c3f26f60",
+  "packet_sha256": "760e685c8d6761c21f14449a9e94a5897bd20f4e2ab98f1e4b24d8bb98751f9e",
+  "coverage": {
+    "read_ranges": [
+      [
+        1,
+        210
+      ],
+      [
+        211,
+        408
+      ]
+    ],
+    "line_count": 408,
+    "numbered_blocks": 5,
+    "standard_example_translation_pairs": 46,
+    "checked_areas": [
+      {
+        "area": "pronunciation",
+        "lines": [
+          13,
+          18
+        ]
+      },
+      {
+        "area": "etymology",
+        "lines": [
+          20,
+          28
+        ]
+      },
+      {
+        "area": "word_formation",
+        "lines": [
+          30,
+          36
+        ]
+      },
+      {
+        "area": "core_image_embedded",
+        "lines": [
+          28,
+          28
+        ]
+      },
+      {
+        "area": "sense:1",
+        "lines": [
+          40,
+          116
+        ]
+      },
+      {
+        "area": "sense:2",
+        "lines": [
+          118,
+          189
+        ]
+      },
+      {
+        "area": "sense:3",
+        "lines": [
+          191,
+          262
+        ]
+      },
+      {
+        "area": "sense:4",
+        "lines": [
+          264,
+          335
+        ]
+      },
+      {
+        "area": "sense:5",
+        "lines": [
+          337,
+          408
+        ]
+      }
+    ],
+    "unchecked_areas": [],
+    "notes": "Every current line and all 46 standard English/Japanese pairs independently inspected. Current compact content/role contract and v5 rules applied; legacy checked status is not treated as linguistic evidence. This is an original full assessment, not an official normal-run receipt or targeted acceptance."
+  },
+  "verdict": "needs_correction",
+  "eligibility": {
+    "recommended_route": "normal_compact_reevaluation",
+    "reason": "Major contemporary noun families, multiple verb uses and lexical adjective/construction coverage are absent. Correcting them requires substantive meaning-inventory work beyond a bounded changed-entry correction. Do not omit major content to preserve targeted eligibility."
+  },
+  "findings": [
+    {
+      "id": "stuff-A-R1-01",
+      "severity": "blocking",
+      "area": "meaning_coverage",
+      "location": "senses 1–2, lines 40–189",
+      "quote": "映画・本・授業・発言・仕事などの中身や扱っている内容を、ざっくり評価したり指したりする語。",
+      "reason": "Everyday activities, tasks and events are not adequately taught by definitions limited to possessions/materials and the content of work or speech. Existing stuff like that is useful but does not teach have stuff to do or do stuff.",
+      "minimal_action": "Add an explicit activities/events/tasks reading with its constructions and an original matched pair; decide its boundary with the retained content reading rather than silently treating every instance as physical things.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/stuff_1",
+        "https://www.merriam-webster.com/dictionary/stuff",
+        "https://dictionary.cambridge.org/us/dictionary/english/stuff"
+      ]
+    },
+    {
+      "id": "stuff-A-R1-02",
+      "severity": "blocking",
+      "area": "meaning_coverage",
+      "location": "etymology line 24 and noun senses 1–3",
+      "quote": "後に「ある目的に使う材料」から「物一般」「中身」「能力・資質」へ意味が広がった。",
+      "reason": "Essence, character and capability are mentioned only as history and never explained in the meaning sections. Learners cannot interpret the stuff of dreams, what someone is made of, made of sterner stuff or the right stuff from the current noun explanations alone.",
+      "minimal_action": "Teach the essential material/qualities/capability family explicitly with appropriate frames and examples; do/strut one’s stuff can be concise idiom notes. Do not require one full block for every idiom.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/stuff_1",
+        "https://www.merriam-webster.com/dictionary/stuff",
+        "https://www.collinsdictionary.com/dictionary/english/stuff"
+      ]
+    },
+    {
+      "id": "stuff-A-R1-03",
+      "severity": "blocking",
+      "area": "meaning_coverage",
+      "location": "sense 4, lines 264–335",
+      "quote": "物を容器・場所・すき間などにぎゅっと入れること。料理では肉や野菜などに詰め物をする意味でも使う。",
+      "reason": "Padding cushions or toys and preparing a preserved animal are important established uses absent from this account. The stuffing action is broader than forcefully inserting loose objects, and stuffed animal has a relevant toy/preserved-animal ambiguity.",
+      "minimal_action": "Add concise padding and taxidermy coverage, complete object/with frames, and distinguish stuffed animal as a soft toy from an actual preserved animal. Avoid procedural taxidermy detail.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/stuff_2",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/stuffed-animal",
+        "https://www.merriam-webster.com/dictionary/stuff",
+        "https://www.collinsdictionary.com/dictionary/english/stuff"
+      ]
+    },
+    {
+      "id": "stuff-A-R1-04",
+      "severity": "blocking",
+      "area": "grammar_and_coverage",
+      "location": "sense 4 usage line 296; sense 5 lines 337–369",
+      "quote": "受け身の stuffed は「満員の」「満腹の」にも広がる。",
+      "reason": "The full-after-eating reading is a lexical adjective, not adequately classified as a passive verb. Sense 5 mixes be stuffed into a transitive/reflexive verb overview. The ordinary construction of feeding another person generously is also omitted.",
+      "minimal_action": "Identify the informal predicative adjective stuffed meaning full separately from eventive passive forms; retain the existing I am stuffed pair. Add stuff someone/oneself with food and its subject/object roles. Collins also attests an objectless eating use, which can be qualified briefly.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/stuffed",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/stuff_2",
+        "https://www.collinsdictionary.com/dictionary/english/stuff"
+      ]
+    },
+    {
+      "id": "stuff-A-R1-05",
+      "severity": "minor",
+      "area": "definition_scope",
+      "location": "sense 5 definition, line 339",
+      "quote": "大量の食べ物を急いで、または欲張って食べること。",
+      "reason": "Speed or greed is made a necessary part of the whole eating sense. Quantity, fullness and often excess are central; someone can stuff themselves over a leisurely meal. The separate stuff down construction can still imply rapid or effortful eating.",
+      "minimal_action": "Define the eating sense by eating a great deal or to excess, and present speed/greed as possible contextual overtones rather than a compulsory disjunction.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/stuff_2",
+        "https://www.collinsdictionary.com/dictionary/english/stuff"
+      ]
+    },
+    {
+      "id": "stuff-A-R1-06",
+      "severity": "blocking",
+      "area": "meaning_coverage_and_register",
+      "location": "verb coverage, senses 4–5",
+      "quote": "5. 【動詞/他動詞・再帰的】腹いっぱい食べる、食べ物を詰め込む。",
+      "reason": "Common dismissive/rejection expressions are absent, including get stuffed, stuff it and you can stuff something. Their meaning and social force cannot safely be inferred from literal filling or eating.",
+      "minimal_action": "Add a concise marked rejection/contempt use with natural examples and an explicit rude/offensive register distinction. Preserve any source-dependent regional qualification rather than generalizing all expressions globally.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/stuff_2",
+        "https://www.merriam-webster.com/dictionary/stuff",
+        "https://www.collinsdictionary.com/dictionary/english/stuff"
+      ]
+    },
+    {
+      "id": "stuff-A-R1-07",
+      "severity": "blocking",
+      "area": "meaning_coverage_and_grammar",
+      "location": "sense 4 and formation",
+      "quote": "stuff + 場所 + with + 物",
+      "reason": "Blocking openings/noses and stuffed up are not taught. The different Australian stuff up failure/spoil construction is also absent; it is not just a physical filling metaphor learners can mechanically apply.",
+      "minimal_action": "Add blocking usage and nasal stuffed-up guidance, then distinguish the regional mistake/spoil phrasal verb with separability and an original example. UNE page 66 independently supports the Australian usage; UsingEnglish supplies the separable frame.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/stuff",
+        "https://www.collinsdictionary.com/dictionary/english/stuff",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/stuffed-up",
+        "https://www.une.edu.au/__data/assets/pdf_file/0008/119465/2016-international-handbook.pdf",
+        "https://www.usingenglish.com/reference/phrasal-verbs/stuff.html"
+      ]
+    },
+    {
+      "id": "stuff-A-R1-08",
+      "severity": "editorial",
+      "area": "peripheral_coverage",
+      "location": "entire five-section inventory",
+      "quote": "＃意味や関連情報の出力（日本語訳）",
+      "reason": "The current inventory also omits attested marked branches that merit proportionate recognition: slang defeat/ruin, American sports uses, the ballot-box idiom and vulgar sexual use. Baseball noun stuff concerns pitch quality/movement, while the verb has distinct sports actions. These should not all be inflated into equally central everyday senses.",
+      "minimal_action": "During normal reevaluation add short clearly labelled peripheral notes where useful, with distinct meanings and sources. Prioritize common learner expressions; historical cloth/money/leather-manufacture details need not each become a full block. The ballot idiom should describe illicit extra voting, without procedural detail.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/stuff",
+        "https://www.collinsdictionary.com/dictionary/english/stuff",
+        "https://dictionary.cambridge.org/us/dictionary/english/stuff",
+        "https://www.merriam-webster.com/dictionary/stuff%20the%20ballot%20box"
+      ]
+    },
+    {
+      "id": "stuff-A-R1-09",
+      "severity": "minor",
+      "area": "lexical_relation_axis",
+      "location": "sense 1 antonyms, lines 111–116",
+      "quote": "stuff は雑多な物も含むが、essentials は必要なものに絞った言い方。",
+      "reason": "This explanation correctly describes a restriction to a subset, but the block labels essentials an antonym. Essential possessions are still stuff.",
+      "minimal_action": "Move the intact comparison and example to a labelled subset/selection contrast in usage; do not present essentials as a lexical opposite.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/stuff_1"
+      ]
+    },
+    {
+      "id": "stuff-A-R1-10",
+      "severity": "blocking",
+      "area": "lexical_relation_axis",
+      "location": "sense 2 antonyms, lines 175–189",
+      "quote": "stuff が中立的に内容を指すのに対し、nonsense は内容の価値を否定する。",
+      "reason": "A neutral broad content word has no polarity opposite in nonsense, and stuff itself can denote foolish or worthless talk. Empty talk is explicitly opposed only to good/useful stuff, not the headword sense as defined.",
+      "minimal_action": "Teach the attested nonsense reading or idiom and relocate the existing nonsense/empty-talk comparisons with their examples to explicit evaluative contrasts, unless a precisely narrowed selected axis is stated.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/stuff_1",
+        "https://www.merriam-webster.com/dictionary/stuff",
+        "https://www.collinsdictionary.com/dictionary/english/stuff"
+      ]
+    },
+    {
+      "id": "stuff-A-R1-11",
+      "severity": "minor",
+      "area": "lexical_relation_axis",
+      "location": "sense 3 antonyms, lines 248–262",
+      "quote": "物質としての stuff と反対に、中を満たすものがない状態を表す。",
+      "reason": "Void and emptiness describe absence or an unfilled space, whereas the selected stuff sense names a substance. A container context supplies a useful presence/absence contrast, not an ordinary lexical antonym relation.",
+      "minimal_action": "Keep the explanatory definitions and pairs in a labelled contextual comparison, or explicitly delimit the relation to the container presence/absence axis. Avoid implying that every material/substance has void as its antonym.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/stuff_1"
+      ]
+    },
+    {
+      "id": "stuff-A-R1-12",
+      "severity": "minor",
+      "area": "lexical_relation_format",
+      "location": "sense 5 comparisons, lines 373–378 and 403–408",
+      "quote": "・eat lightly",
+      "reason": "Eat a lot and eat lightly are freely composed explanatory phrases, not lexical comparison entries of the type required by v5. Their examples are useful and need not be lost.",
+      "minimal_action": "Move both phrases and examples to explanatory usage contrasts. Do not invent dictionary-like lexical frequency scores for free paraphrases.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/stuff_2"
+      ]
+    },
+    {
+      "id": "stuff-A-R1-13",
+      "severity": "minor",
+      "area": "lexical_relation_sense_scope",
+      "location": "cram line 315; devour line 388",
+      "quote": "無理に詰め込む、詰め込み勉強をする。",
+      "reason": "The cram comparison combines physical packing and exam preparation, while its example and selected stuff sense concern packing people into a car. The devour block likewise combines eating and reading under an eating comparison. This obscures what the shared frequency and similarity claim applies to.",
+      "minimal_action": "Keep each comparison focused on the illustrated selected sense; place a short separate note for studying/reading if useful. Preserve both existing English pairs. Do not demand score adjustments without a genuine band mismatch.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/stuff",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/stuff_2"
+      ]
+    },
+    {
+      "id": "stuff-A-R1-14",
+      "severity": "minor",
+      "area": "example_translation_alignment",
+      "location": "fill comparison, lines 311–312",
+      "quote": "訳: ボトルに水を入れて。",
+      "reason": "Fill the bottle with water asks for filling the bottle, but the Japanese merely asks for adding water and loses the result emphasized by the immediately preceding definition.",
+      "minimal_action": "Use a translation such as ボトルを水で満たして。",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/stuff_2"
+      ]
+    },
+    {
+      "id": "stuff-A-R1-15",
+      "severity": "minor",
+      "area": "pronunciation",
+      "location": "line 17",
+      "quote": "staff /stæf/ と混同しない。",
+      "reason": "The comparison presents /stæf/ without an accent label although the entry displays both US and UK pronunciations. Oxford gives staff with /æ/ in American and /ɑː/ in British English. Stuff itself /stʌf/ is sound.",
+      "minimal_action": "Qualify the staff comparison by accent, retaining the useful /ʌ/ distinction.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/staff_1"
+      ]
+    },
+    {
+      "id": "stuff-A-R1-16",
+      "severity": "minor",
+      "area": "idiom_coverage",
+      "location": "sense 2 the hard stuff, lines 135–138",
+      "quote": "用途: 難しい内容や本格的な部分を指す。",
+      "reason": "The example naturally has the literal difficult-material reading, so it is not incorrect. However, the established strong-alcohol meaning of the same expression is unmentioned, inviting overgeneralization from this sole gloss.",
+      "minimal_action": "Retain the course example and add a concise cross-sense warning or idiom note for strong alcoholic drinks, with its informal register.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/hard_1"
+      ]
+    },
+    {
+      "id": "stuff-A-R1-17",
+      "severity": "minor",
+      "area": "core_image_and_structure",
+      "location": "etymology line 28",
+      "quote": "共通コアは「中に入っているもの、何かを満たす材料」という発想で、物質・持ち物・内容・能力の意味につながる。",
+      "reason": "A learner mnemonic is embedded in etymology, has no exact-sense branch map and refers to capability that is not currently taught. Its claim of contents already inside something is also too narrow for loose possessions and unspecified tasks.",
+      "minimal_action": "After the actual normal-route inventory is settled, assess whether an honest useful current kernel meets v5. If retained, place it in the required core section with a short qualified introduction and exact-title branches. Omit it if the conditions fail; do not force opaque idioms into literal container semantics.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/stuff_1",
+        "https://www.merriam-webster.com/dictionary/stuff"
+      ]
+    },
+    {
+      "id": "stuff-A-R1-18",
+      "severity": "minor",
+      "area": "body_format_and_grammar_frames",
+      "location": "heading line 38; frequencies; grammar and collocation slots throughout",
+      "quote": "【文法パターン】stuff は通常不可算名詞／my stuff／all this stuff／stuff like that／the stuff for + 名詞／do not say many stuffs。",
+      "reason": "The current body uses legacy section/frequency notation, explanatory English inside a construction field and unexpanded O/+ placeholder frames. Current v5 expects actual usable patterns and current body syntax, although original generation metadata is v1.",
+      "minimal_action": "Apply current heading/frequency/IPA-line and spacing rules to the body, use complete construction alternatives with semantic 〈〉 slots, and move the many-stuffs warning into usage. Preserve prompt_version generation metadata unless the official normal workflow explicitly updates it with matching provenance. No blanket rewriting of correct examples is needed.",
+      "sources": []
+    }
+  ],
+  "frequency_assessment": {
+    "scope": "Each defined sense across English as a whole, not whole-word totals or relative ranking within the entry. Ordinal editorial estimates, not measured corpus counts.",
+    "decision": "No mandatory minor numerical tuning of retained scores. New and substantially separated senses require their own global-English ordinal judgments. Free explanatory phrases should not retain invented lexical-score status. Domain or dictionary inclusion is not corpus measurement."
+  },
+  "source_access": [
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/stuff_1",
+      "access": "Direct original edited definition/usage or relevant etymology/pronunciation inspected; automatically compiled recent examples were not used as editorial authority."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/stuff_2",
+      "access": "Direct original edited definition/usage or relevant etymology/pronunciation inspected; automatically compiled recent examples were not used as editorial authority."
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/stuff",
+      "access": "Direct original edited definition/usage or relevant etymology/pronunciation inspected; automatically compiled recent examples were not used as editorial authority."
+    },
+    {
+      "url": "https://www.collinsdictionary.com/dictionary/english/stuff",
+      "access": "Direct original edited definition/usage or relevant etymology/pronunciation inspected; automatically compiled recent examples were not used as editorial authority."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/stuffed",
+      "access": "Direct original edited definition/usage or relevant etymology/pronunciation inspected; automatically compiled recent examples were not used as editorial authority."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/stuffed-animal",
+      "access": "Direct original edited definition/usage or relevant etymology/pronunciation inspected; automatically compiled recent examples were not used as editorial authority."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/stuffed-up",
+      "access": "Direct original edited definition/usage or relevant etymology/pronunciation inspected; automatically compiled recent examples were not used as editorial authority."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/stuffed-shirt",
+      "access": "Direct original edited definition/usage or relevant etymology/pronunciation inspected; automatically compiled recent examples were not used as editorial authority."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/staff_1",
+      "access": "Direct original edited definition/usage or relevant etymology/pronunciation inspected; automatically compiled recent examples were not used as editorial authority."
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/stuff%20the%20ballot%20box",
+      "access": "Direct original edited definition/usage or relevant etymology/pronunciation inspected; automatically compiled recent examples were not used as editorial authority."
+    },
+    {
+      "url": "https://www.usingenglish.com/reference/phrasal-verbs/stuff.html",
+      "access": "Direct original edited definition/usage or relevant etymology/pronunciation inspected; automatically compiled recent examples were not used as editorial authority."
+    },
+    {
+      "url": "https://www.une.edu.au/__data/assets/pdf_file/0008/119465/2016-international-handbook.pdf",
+      "access": "Direct PDF text at printed page 66 (zero-based page 66), specifically the Australian slang entry for stuff up. The full 86-page handbook was not read."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/stuff",
+      "access": "First-party indexed original edited entry inspected; direct English page access failed. Supports identified meanings and labels, not a claim of successful direct-page access."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/hard_1",
+      "access": "First-party indexed original idiom text inspected for strong alcohol. No claim of direct full-page reading."
+    }
+  ],
+  "source_reconciliation": [
+    {
+      "topic": "etymology",
+      "conclusion": "The Middle English/Old French account is supported. Deeper proposed origins differ between dictionaries; no mandatory Greek derivation or categorical rejection of the existing history is justified."
+    },
+    {
+      "topic": "the hard stuff",
+      "conclusion": "The existing difficult-course-material example is valid. The finding concerns an omitted established alternative, not a false existing translation."
+    },
+    {
+      "topic": "regional stuff up",
+      "conclusion": "Independently opened both supplied original URLs after receiving them. UNE confirms Australian mistake usage; UsingEnglish explicitly marks the phrasal verb separable. Neither B’s raw report nor its verdict was opened."
+    },
+    {
+      "topic": "frequency",
+      "conclusion": "No empirical corpus was consulted; labels and proposed changes are ordinal editorial judgments only."
+    }
+  ],
+  "uncertainties_and_limits": [
+    {
+      "topic": "regional stuffed meaning exhausted, broken or in trouble",
+      "status": "Not independently confirmed from sufficiently strong first-party edited evidence in this pass; no mandatory major addition is imposed."
+    },
+    {
+      "topic": "stuff bag/stuff sack",
+      "status": "No established error claimed from a failed dictionary lookup. The bag-type explanation may be made more precise if independently sourced, but failure to retrieve does not establish nonexistence."
+    },
+    {
+      "topic": "source access",
+      "status": "Direct Cambridge English entry and some peripheral dictionary URLs failed; indexed Cambridge original evidence is labelled above. Victoria University of Wellington lip46.pdf was indexed but direct fetch returned 410; its full contents were not read or relied upon."
+    },
+    {
+      "topic": "phonetics and frequency",
+      "status": "No audio was played and no measured frequency result is claimed."
+    },
+    {
+      "topic": "read-only scope",
+      "status": "No article, repository or remote state changed. Only this authentic local report is written."
+    }
+  ],
+  "completed_at": "2026-10-02T10:00:08.773719+00:00"
+}

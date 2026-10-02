@@ -1,0 +1,288 @@
+{
+  "workflow_contract_version": "compact_review_v1",
+  "run_id": "20261002T094806Z",
+  "headword": "stuff",
+  "branch": "review/stuff-20261002",
+  "started_at": "2026-10-02T09:48:06.891617+00:00",
+  "entry_path": "entries/s/stuff.md",
+  "inventory_path": "audits/runs/s/stuff/source_inventory.json",
+  "review_receipts": [
+    {
+      "role": "A",
+      "execution_id": "/root/review_dictionary_progress",
+      "model": "unknown",
+      "recorded_at": "2026-10-02T10:14:35.221424+00:00",
+      "request_path": "audits/workflow_runs/stuff/20261002T094806Z/compact/review-A.round1.request.json",
+      "request_sha256": "81429fe39370f390ed906877d876eef14ae5233ff3157108bd4e114ee296e9fc",
+      "raw_response_path": "audits/workflow_runs/stuff/20261002T094806Z/compact/A-round1.raw.json",
+      "raw_response_sha256": "4c14a2b8f2a5532ed5ca0c12873256b878e7f734db44badd7c1d4f33e0b4a972",
+      "body_sha256": "6a2a723e9b2be83b6c9c3f7479a1b0266631b89610072f61aaaf2b3b5aed4f6c",
+      "area_keys": {
+        "pronunciation": "9bb087e0a86e406979b5f4c6818aa64a8853bf69cf50885e100168b5db01dcba",
+        "etymology": "2a8b9556a0b0e720d8c630f92ed490acbd2a3bb54cf151d5a4e5ed297c960708",
+        "word_formation": "cd157b92152e8b5a6bf0996a8c8b683e83f5cc90c0db63ca0a651d12755e4409",
+        "sense:32aa7a32527eccbb1517": "75f50530f124c6f408204f3edcb3623962325b7a08c4ac1a50e3454d7d873610",
+        "sense:828ce8cca59c7863341d": "8ef2bfc93f2139fecad9320a9311561b692ad17e5b7b321606f78499c1af033f",
+        "sense:d7849d4976e9bd82daf5": "f060bc77f675a60c930b361f5e08d6b10ee381519a2cf98645657dddc2da5b05",
+        "sense:25711a14bbe8f9080132": "41ad345dc8f55858bb98958ef32845ceae4b728308b71b989f5a42222ef6575d",
+        "sense:3ebffb8d2f6dacc1510f": "2dbaad29bf1b8853925c65c43c6a180637f98e08dd6c9bd566245b81d3ff2b19",
+        "sense:2bce90c1d62676f49eac": "b749836932385a97f11d804ca3270b0ce6a3d3b315ccb66fd2a882652bb5bd15",
+        "sense:63efc191100e7a378f45": "7e8e08878c2081327000a98cd530cb6f2ff19472614104a2d2c0f0a6047a3210",
+        "sense:6bb6cbd3b2be653d0a78": "7cf18bb9c569161a857f01a60c778947b630ada98eb32e56adfe3541dd406c88",
+        "sense:8cfbbc23d0246884a31c": "5075a788b30cdb0db062ccf853d82cf91570bca9f4bd64476bd0c4910710c57d",
+        "sense:f1d8f33cb748a3277923": "b6f5f91ebddd91a2779f6b99357ef948b0163d51ff9de3247ff192ae6bc82597",
+        "sense:f1ec7e38db949e7fb88e": "b0d831d9187faa2a21ac401ef47bdd9daab04cd0869e0d08408c17662294f48d",
+        "sense:84a6bed0f837cdc85ed5": "8552e80d125facf82b9a8fd08ae84f2a85aca51d8198ac483617a694cbbd30e7"
+      },
+      "checked_areas": [
+        "pronunciation",
+        "etymology",
+        "word_formation",
+        "sense:32aa7a32527eccbb1517",
+        "sense:828ce8cca59c7863341d",
+        "sense:d7849d4976e9bd82daf5",
+        "sense:25711a14bbe8f9080132",
+        "sense:3ebffb8d2f6dacc1510f",
+        "sense:2bce90c1d62676f49eac",
+        "sense:63efc191100e7a378f45",
+        "sense:6bb6cbd3b2be653d0a78",
+        "sense:8cfbbc23d0246884a31c",
+        "sense:f1d8f33cb748a3277923",
+        "sense:f1ec7e38db949e7fb88e",
+        "sense:84a6bed0f837cdc85ed5"
+      ],
+      "unchecked_areas": [],
+      "findings": [
+        {
+          "area": "sense:f1d8f33cb748a3277923",
+          "severity": "blocking",
+          "impact": "have＋目的語＋過去分詞の作用範囲が訳で変わり、収集家が自分で標本をケースに据えたという読みを生む。二つの作業を依頼した構文を正確に学べない。",
+          "evidence": "全文行601–602: The collector had the fox stuffed and mounted in a glass case.／その収集家はキツネを剥製にしてもらい、ガラスケースに据えた。英語の stuffed と mounted はともに had the fox の補語として並列されている。",
+          "action": "両方を使役・依頼の範囲に入れ、例えば「その収集家はキツネを剥製にして、ガラスケースに据えてもらった」とする。英語例は維持できる。"
+        },
+        {
+          "area": "sense:2bce90c1d62676f49eac",
+          "severity": "minor",
+          "impact": "英語が指定しない姉妹の年齢関係を訳が限定している。新作例文なので、局所的に英日をそろえればよい。",
+          "evidence": "全文行411–412: He wanted to give up, but his sister was made of sterner stuff.／彼は諦めたがっていたが、妹のほうはもっと根性があった。sister 単独では younger/older の区別がない。",
+          "action": "英語を his younger sister にするか、日本語で年齢関係を断定しない自然な表現にする。sterner stuff の資質・強さの意味は保つ。"
+        },
+        {
+          "area": "sense:6bb6cbd3b2be653d0a78",
+          "severity": "minor",
+          "impact": "自動詞用法は正しく説明されているが、文法一覧の最後だけ裸の見出し動詞になり、現行v5の句・構文フレームで提示する規則と対応していない。",
+          "evidence": "全文行481末尾: stuff＝たくさん食べる（目的語なし）。同じブロックの行505–508には sit and stuff と自然な自動詞例がある。entry_spec_v5.md の「文法パターンとコロケーション」は裸動詞の列挙を避け、句・構文フレームで示すことを要求する。",
+          "action": "一覧のこの項目だけを sit and stuff＝座ってたくさん食べる（stuff は目的語なし）など、既存例と対応する完全な句にする。自動詞用法を削除したり、他動詞へ変更したりする必要はない。"
+        }
+      ],
+      "normalizations": []
+    },
+    {
+      "role": "B",
+      "execution_id": "/root/identify_unreviewed_entries",
+      "model": "unknown",
+      "recorded_at": "2026-10-02T10:15:23.677307+00:00",
+      "request_path": "audits/workflow_runs/stuff/20261002T094806Z/compact/review-B.round1.request.json",
+      "request_sha256": "2819d9ded3d205dab2b7d74d8e18034d8c4d2c61a627d677d96ec8e23303648f",
+      "raw_response_path": "audits/workflow_runs/stuff/20261002T094806Z/compact/B-round1.raw.json",
+      "raw_response_sha256": "a4e939484c624984e901a37fafe2a97b2916fd893addc2cfd331276518a76539",
+      "body_sha256": "6a2a723e9b2be83b6c9c3f7479a1b0266631b89610072f61aaaf2b3b5aed4f6c",
+      "area_keys": {
+        "pronunciation": "9bb087e0a86e406979b5f4c6818aa64a8853bf69cf50885e100168b5db01dcba",
+        "etymology": "2a8b9556a0b0e720d8c630f92ed490acbd2a3bb54cf151d5a4e5ed297c960708",
+        "word_formation": "cd157b92152e8b5a6bf0996a8c8b683e83f5cc90c0db63ca0a651d12755e4409",
+        "sense:32aa7a32527eccbb1517": "75f50530f124c6f408204f3edcb3623962325b7a08c4ac1a50e3454d7d873610",
+        "sense:828ce8cca59c7863341d": "8ef2bfc93f2139fecad9320a9311561b692ad17e5b7b321606f78499c1af033f",
+        "sense:d7849d4976e9bd82daf5": "f060bc77f675a60c930b361f5e08d6b10ee381519a2cf98645657dddc2da5b05",
+        "sense:25711a14bbe8f9080132": "41ad345dc8f55858bb98958ef32845ceae4b728308b71b989f5a42222ef6575d",
+        "sense:3ebffb8d2f6dacc1510f": "2dbaad29bf1b8853925c65c43c6a180637f98e08dd6c9bd566245b81d3ff2b19",
+        "sense:2bce90c1d62676f49eac": "b749836932385a97f11d804ca3270b0ce6a3d3b315ccb66fd2a882652bb5bd15",
+        "sense:63efc191100e7a378f45": "7e8e08878c2081327000a98cd530cb6f2ff19472614104a2d2c0f0a6047a3210",
+        "sense:6bb6cbd3b2be653d0a78": "7cf18bb9c569161a857f01a60c778947b630ada98eb32e56adfe3541dd406c88",
+        "sense:8cfbbc23d0246884a31c": "5075a788b30cdb0db062ccf853d82cf91570bca9f4bd64476bd0c4910710c57d",
+        "sense:f1d8f33cb748a3277923": "b6f5f91ebddd91a2779f6b99357ef948b0163d51ff9de3247ff192ae6bc82597",
+        "sense:f1ec7e38db949e7fb88e": "b0d831d9187faa2a21ac401ef47bdd9daab04cd0869e0d08408c17662294f48d",
+        "sense:84a6bed0f837cdc85ed5": "8552e80d125facf82b9a8fd08ae84f2a85aca51d8198ac483617a694cbbd30e7"
+      },
+      "checked_areas": [
+        "pronunciation",
+        "etymology",
+        "word_formation",
+        "sense:32aa7a32527eccbb1517",
+        "sense:828ce8cca59c7863341d",
+        "sense:d7849d4976e9bd82daf5",
+        "sense:25711a14bbe8f9080132",
+        "sense:3ebffb8d2f6dacc1510f",
+        "sense:2bce90c1d62676f49eac",
+        "sense:63efc191100e7a378f45",
+        "sense:6bb6cbd3b2be653d0a78",
+        "sense:8cfbbc23d0246884a31c",
+        "sense:f1d8f33cb748a3277923",
+        "sense:f1ec7e38db949e7fb88e",
+        "sense:84a6bed0f837cdc85ed5"
+      ],
+      "unchecked_areas": [],
+      "findings": [
+        {
+          "area": "sense:25711a14bbe8f9080132",
+          "severity": "minor",
+          "taxonomy": "scope_qualification",
+          "impact": "The fill comparison may make learners infer that stuffing always foregrounds pushing an object into a space, although this block also teaches ordinary food and cushion filling.",
+          "evidence": "Snapshot line 327 says 「stuff は押し込む動作に焦点がある」 without limiting that contrast to the insertion use. The same block correctly includes food and padding at lines 266, 291–299. Oxford stuff verb senses 1 and 3 cover filling a container and adding a food filling, while sense 2 separately describes rapid/careless insertion: https://www.oxfordlearnersdictionaries.com/definition/english/stuff_2 . Oxford fill sense 1 supplies the broader making-full comparison: https://www.oxfordlearnersdictionaries.com/definition/english/fill_1 .",
+          "action": "Qualify this one comparison as the insertion use, or broaden it to 押し込む・詰め物をする動作. Keep the sound broad definition, existing examples and score; no block reorganization is required."
+        }
+      ],
+      "normalizations": []
+    },
+    {
+      "role": "A",
+      "execution_id": "/root/review_dictionary_progress",
+      "model": "unknown",
+      "recorded_at": "2026-10-02T10:18:04.217908+00:00",
+      "request_path": "audits/workflow_runs/stuff/20261002T094806Z/compact/review-A.round2.request.json",
+      "request_sha256": "e273f7bbcfc1a5af19fb2206090070f57685b540d5c6a4c00eaabfb4c16b6d05",
+      "raw_response_path": "audits/workflow_runs/stuff/20261002T094806Z/compact/A-round2.raw.json",
+      "raw_response_sha256": "26a7fa10c1cf1ca4ecde721562e8580ca4762da108e8682b21838a06ab42d7a7",
+      "body_sha256": "ace13642aeaf5cb78560c22ece51650a36a6aebbc022c582a5f8dc13787b13a8",
+      "area_keys": {
+        "sense:25711a14bbe8f9080132": "f1c04ab49fa339e19e2f778077e731532405bc6f69459bef728e8a4fc0f8eb21",
+        "sense:2bce90c1d62676f49eac": "8eebb90504759fa4c416d34afabc922e7baf2ab92942f6f81a02225d2da0b080",
+        "sense:6bb6cbd3b2be653d0a78": "a234139311af601f25d3319b455fada823a7ba7cdf11e432d21fc2134b541ec9",
+        "sense:f1d8f33cb748a3277923": "7e626566a177e6f66c7ebb7c9ff9fc979ba8fcc9bfa747c804abeef96d5618e6"
+      },
+      "checked_areas": [
+        "sense:25711a14bbe8f9080132",
+        "sense:2bce90c1d62676f49eac",
+        "sense:6bb6cbd3b2be653d0a78",
+        "sense:f1d8f33cb748a3277923"
+      ],
+      "unchecked_areas": [
+        {
+          "area": "pronunciation",
+          "reason": "Unchanged dependency hash from official full round 1; not reread in this focused round. Reuse genuine prior coverage mechanically."
+        },
+        {
+          "area": "etymology",
+          "reason": "Unchanged dependency hash from official full round 1; not reread in this focused round. Reuse genuine prior coverage mechanically."
+        },
+        {
+          "area": "word_formation",
+          "reason": "Unchanged dependency hash from official full round 1; not reread in this focused round. Reuse genuine prior coverage mechanically."
+        },
+        {
+          "area": "sense:32aa7a32527eccbb1517",
+          "reason": "Unchanged dependency hash from official full round 1; not reread in this focused round. Reuse genuine prior coverage mechanically."
+        },
+        {
+          "area": "sense:828ce8cca59c7863341d",
+          "reason": "Unchanged dependency hash from official full round 1; not reread in this focused round. Reuse genuine prior coverage mechanically."
+        },
+        {
+          "area": "sense:d7849d4976e9bd82daf5",
+          "reason": "Unchanged dependency hash from official full round 1; not reread in this focused round. Reuse genuine prior coverage mechanically."
+        },
+        {
+          "area": "sense:3ebffb8d2f6dacc1510f",
+          "reason": "Unchanged dependency hash from official full round 1; not reread in this focused round. Reuse genuine prior coverage mechanically."
+        },
+        {
+          "area": "sense:63efc191100e7a378f45",
+          "reason": "Unchanged dependency hash from official full round 1; not reread in this focused round. Reuse genuine prior coverage mechanically."
+        },
+        {
+          "area": "sense:8cfbbc23d0246884a31c",
+          "reason": "Unchanged dependency hash from official full round 1; not reread in this focused round. Reuse genuine prior coverage mechanically."
+        },
+        {
+          "area": "sense:f1ec7e38db949e7fb88e",
+          "reason": "Unchanged dependency hash from official full round 1; not reread in this focused round. Reuse genuine prior coverage mechanically."
+        },
+        {
+          "area": "sense:84a6bed0f837cdc85ed5",
+          "reason": "Unchanged dependency hash from official full round 1; not reread in this focused round. Reuse genuine prior coverage mechanically."
+        }
+      ],
+      "findings": [],
+      "normalizations": []
+    },
+    {
+      "role": "B",
+      "execution_id": "/root/identify_unreviewed_entries",
+      "model": "unknown",
+      "recorded_at": "2026-10-02T10:18:39.535642+00:00",
+      "request_path": "audits/workflow_runs/stuff/20261002T094806Z/compact/review-B.round2.request.json",
+      "request_sha256": "2d6cf438dea12764efb18f88446444f82038063cbd08ab4733d3686b6c688d97",
+      "raw_response_path": "audits/workflow_runs/stuff/20261002T094806Z/compact/B-round2.raw.json",
+      "raw_response_sha256": "d5e1f596beb4146b40227c441186d3207efd2bcff57d5448c7e078c28a5c4e7d",
+      "body_sha256": "ace13642aeaf5cb78560c22ece51650a36a6aebbc022c582a5f8dc13787b13a8",
+      "area_keys": {
+        "sense:25711a14bbe8f9080132": "f1c04ab49fa339e19e2f778077e731532405bc6f69459bef728e8a4fc0f8eb21",
+        "sense:2bce90c1d62676f49eac": "8eebb90504759fa4c416d34afabc922e7baf2ab92942f6f81a02225d2da0b080",
+        "sense:6bb6cbd3b2be653d0a78": "a234139311af601f25d3319b455fada823a7ba7cdf11e432d21fc2134b541ec9",
+        "sense:f1d8f33cb748a3277923": "7e626566a177e6f66c7ebb7c9ff9fc979ba8fcc9bfa747c804abeef96d5618e6"
+      },
+      "checked_areas": [
+        "sense:25711a14bbe8f9080132",
+        "sense:2bce90c1d62676f49eac",
+        "sense:6bb6cbd3b2be653d0a78",
+        "sense:f1d8f33cb748a3277923"
+      ],
+      "unchecked_areas": [
+        {
+          "area": "pronunciation",
+          "reason": "Not reread in this focused round. The dependency key is unchanged from the genuinely completed official B round 1; reuse that prior coverage rather than treating this response as a new check."
+        },
+        {
+          "area": "etymology",
+          "reason": "Not reread in this focused round. The dependency key is unchanged from the genuinely completed official B round 1; reuse that prior coverage rather than treating this response as a new check."
+        },
+        {
+          "area": "word_formation",
+          "reason": "Not reread in this focused round. The dependency key is unchanged from the genuinely completed official B round 1; reuse that prior coverage rather than treating this response as a new check."
+        },
+        {
+          "area": "sense:32aa7a32527eccbb1517",
+          "reason": "Not reread in this focused round. The dependency key is unchanged from the genuinely completed official B round 1; reuse that prior coverage rather than treating this response as a new check."
+        },
+        {
+          "area": "sense:828ce8cca59c7863341d",
+          "reason": "Not reread in this focused round. The dependency key is unchanged from the genuinely completed official B round 1; reuse that prior coverage rather than treating this response as a new check."
+        },
+        {
+          "area": "sense:d7849d4976e9bd82daf5",
+          "reason": "Not reread in this focused round. The dependency key is unchanged from the genuinely completed official B round 1; reuse that prior coverage rather than treating this response as a new check."
+        },
+        {
+          "area": "sense:3ebffb8d2f6dacc1510f",
+          "reason": "Not reread in this focused round. The dependency key is unchanged from the genuinely completed official B round 1; reuse that prior coverage rather than treating this response as a new check."
+        },
+        {
+          "area": "sense:63efc191100e7a378f45",
+          "reason": "Not reread in this focused round. The dependency key is unchanged from the genuinely completed official B round 1; reuse that prior coverage rather than treating this response as a new check."
+        },
+        {
+          "area": "sense:8cfbbc23d0246884a31c",
+          "reason": "Not reread in this focused round. The dependency key is unchanged from the genuinely completed official B round 1; reuse that prior coverage rather than treating this response as a new check."
+        },
+        {
+          "area": "sense:f1ec7e38db949e7fb88e",
+          "reason": "Not reread in this focused round. The dependency key is unchanged from the genuinely completed official B round 1; reuse that prior coverage rather than treating this response as a new check."
+        },
+        {
+          "area": "sense:84a6bed0f837cdc85ed5",
+          "reason": "Not reread in this focused round. The dependency key is unchanged from the genuinely completed official B round 1; reuse that prior coverage rather than treating this response as a new check."
+        }
+      ],
+      "findings": [],
+      "normalizations": []
+    }
+  ],
+  "resolutions": [],
+  "migration": null,
+  "status": "completed",
+  "stage": "publication_ready",
+  "completed_at": "2026-10-02T10:18:39.704493+00:00",
+  "completed_body_sha256": "ace13642aeaf5cb78560c22ece51650a36a6aebbc022c582a5f8dc13787b13a8",
+  "reuse_ledger_path": "audits/workflow_runs/stuff/20261002T094806Z/compact/reuse_ledger.json",
+  "reuse_ledger_sha256": "7f0b81e3bb5890fdbbb8845f743d18d8edac5900d4939b6a60b7874687e4be90"
+}

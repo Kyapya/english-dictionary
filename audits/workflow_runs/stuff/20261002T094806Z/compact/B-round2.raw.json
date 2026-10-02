@@ -1,0 +1,113 @@
+{
+  "schema_version": "compact_review_response_v1",
+  "checked_areas": [
+    "sense:25711a14bbe8f9080132",
+    "sense:2bce90c1d62676f49eac",
+    "sense:6bb6cbd3b2be653d0a78",
+    "sense:f1d8f33cb748a3277923"
+  ],
+  "unchecked_areas": [
+    {
+      "area": "pronunciation",
+      "reason": "Not reread in this focused round. The dependency key is unchanged from the genuinely completed official B round 1; reuse that prior coverage rather than treating this response as a new check."
+    },
+    {
+      "area": "etymology",
+      "reason": "Not reread in this focused round. The dependency key is unchanged from the genuinely completed official B round 1; reuse that prior coverage rather than treating this response as a new check."
+    },
+    {
+      "area": "word_formation",
+      "reason": "Not reread in this focused round. The dependency key is unchanged from the genuinely completed official B round 1; reuse that prior coverage rather than treating this response as a new check."
+    },
+    {
+      "area": "sense:32aa7a32527eccbb1517",
+      "reason": "Not reread in this focused round. The dependency key is unchanged from the genuinely completed official B round 1; reuse that prior coverage rather than treating this response as a new check."
+    },
+    {
+      "area": "sense:828ce8cca59c7863341d",
+      "reason": "Not reread in this focused round. The dependency key is unchanged from the genuinely completed official B round 1; reuse that prior coverage rather than treating this response as a new check."
+    },
+    {
+      "area": "sense:d7849d4976e9bd82daf5",
+      "reason": "Not reread in this focused round. The dependency key is unchanged from the genuinely completed official B round 1; reuse that prior coverage rather than treating this response as a new check."
+    },
+    {
+      "area": "sense:3ebffb8d2f6dacc1510f",
+      "reason": "Not reread in this focused round. The dependency key is unchanged from the genuinely completed official B round 1; reuse that prior coverage rather than treating this response as a new check."
+    },
+    {
+      "area": "sense:63efc191100e7a378f45",
+      "reason": "Not reread in this focused round. The dependency key is unchanged from the genuinely completed official B round 1; reuse that prior coverage rather than treating this response as a new check."
+    },
+    {
+      "area": "sense:8cfbbc23d0246884a31c",
+      "reason": "Not reread in this focused round. The dependency key is unchanged from the genuinely completed official B round 1; reuse that prior coverage rather than treating this response as a new check."
+    },
+    {
+      "area": "sense:f1ec7e38db949e7fb88e",
+      "reason": "Not reread in this focused round. The dependency key is unchanged from the genuinely completed official B round 1; reuse that prior coverage rather than treating this response as a new check."
+    },
+    {
+      "area": "sense:84a6bed0f837cdc85ed5",
+      "reason": "Not reread in this focused round. The dependency key is unchanged from the genuinely completed official B round 1; reuse that prior coverage rather than treating this response as a new check."
+    }
+  ],
+  "findings": [],
+  "reviewer": {
+    "execution_identity": "/root/identify_unreviewed_entries",
+    "role": "B",
+    "model": "unknown",
+    "model_disclosure": "Actual execution model identifier is unavailable."
+  },
+  "inspection": {
+    "scope": "Four affected areas of the immutable normal-workflow snapshot, including their complete local sense blocks and the four exact replacements",
+    "read_ranges": [
+      [
+        264,
+        352
+      ],
+      [
+        387,
+        428
+      ],
+      [
+        473,
+        547
+      ],
+      [
+        587,
+        618
+      ]
+    ],
+    "example_translation_pairs_rechecked": 30,
+    "requested_areas_actually_rechecked": 4,
+    "unchanged_requested_areas_not_reread": 11,
+    "snapshot_file_digest_verified": true,
+    "body_digest_verified": true,
+    "canonical_inventory_digest_verified": true,
+    "inventory_digest_method": "Independently recomputed using review_dependency_v4.digest.",
+    "all_current_dependency_keys_recomputed": true,
+    "exact_four_changed_dependency_keys_verified": true,
+    "four_replacements_replay_to_current_text_exactly": true,
+    "all_source_facts_unchanged": true,
+    "prior_official_B_raw_unchanged": true,
+    "receipt_note": "Exact request/snapshot/body/inventory bindings were independently verified. The caller adds hash receipt fields according to the compact B contract."
+  },
+  "resolution_notes": [
+    "The sense 4 fill comparison now covers ordinary food/product stuffing as well as insertion, resolving the sole B round-1 finding and agreeing with the directly inspected Oxford fill and stuff definitions.",
+    "The sense 6 example now explicitly says younger sister, making the retained Japanese 妹 precise. The idiomatic character meaning and other examples remain coherent.",
+    "The sense 8 grammar overview now displays sit and stuff, matching the existing example and making the objectless status of stuff explicit. It does not claim that sit is obligatory.",
+    "The sense 10 Japanese now leaves both preservation and mounting under もらった, matching the causative scope of had ... stuffed and mounted."
+  ],
+  "source_basis": {
+    "method": "The relevant original external pages were opened and inspected independently during the immediately preceding genuine full B round 1. Their text remains available in this review context; no new external-source access is claimed in this focused round. The inventory facts themselves were independently confirmed unchanged.",
+    "relevant_originals": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/stuff_2",
+      "https://www.oxfordlearnersdictionaries.com/definition/english/fill_1",
+      "https://www.oxfordlearnersdictionaries.com/definition/english/stuff_1",
+      "https://www.collinsdictionary.com/dictionary/english/stuff",
+      "https://www.merriam-webster.com/dictionary/mount"
+    ],
+    "limitations": "No new corpus measurement or audio inspection. Unchanged-area access limitations remain recorded in the immutable full round-1 response. This is affected-area coverage in the normal workflow, not a new complete-article audit or publication verdict."
+  }
+}

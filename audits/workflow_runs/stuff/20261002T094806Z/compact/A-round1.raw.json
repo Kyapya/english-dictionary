@@ -1,0 +1,186 @@
+{
+  "schema_version": "compact_review_response_v1",
+  "checked_areas": [
+    "pronunciation",
+    "etymology",
+    "word_formation",
+    "sense:32aa7a32527eccbb1517",
+    "sense:828ce8cca59c7863341d",
+    "sense:d7849d4976e9bd82daf5",
+    "sense:25711a14bbe8f9080132",
+    "sense:3ebffb8d2f6dacc1510f",
+    "sense:2bce90c1d62676f49eac",
+    "sense:63efc191100e7a378f45",
+    "sense:6bb6cbd3b2be653d0a78",
+    "sense:8cfbbc23d0246884a31c",
+    "sense:f1d8f33cb748a3277923",
+    "sense:f1ec7e38db949e7fb88e",
+    "sense:84a6bed0f837cdc85ed5"
+  ],
+  "unchecked_areas": [],
+  "findings": [
+    {
+      "area": "sense:f1d8f33cb748a3277923",
+      "severity": "blocking",
+      "impact": "have＋目的語＋過去分詞の作用範囲が訳で変わり、収集家が自分で標本をケースに据えたという読みを生む。二つの作業を依頼した構文を正確に学べない。",
+      "evidence": "全文行601–602: The collector had the fox stuffed and mounted in a glass case.／その収集家はキツネを剥製にしてもらい、ガラスケースに据えた。英語の stuffed と mounted はともに had the fox の補語として並列されている。",
+      "action": "両方を使役・依頼の範囲に入れ、例えば「その収集家はキツネを剥製にして、ガラスケースに据えてもらった」とする。英語例は維持できる。"
+    },
+    {
+      "area": "sense:2bce90c1d62676f49eac",
+      "severity": "minor",
+      "impact": "英語が指定しない姉妹の年齢関係を訳が限定している。新作例文なので、局所的に英日をそろえればよい。",
+      "evidence": "全文行411–412: He wanted to give up, but his sister was made of sterner stuff.／彼は諦めたがっていたが、妹のほうはもっと根性があった。sister 単独では younger/older の区別がない。",
+      "action": "英語を his younger sister にするか、日本語で年齢関係を断定しない自然な表現にする。sterner stuff の資質・強さの意味は保つ。"
+    },
+    {
+      "area": "sense:6bb6cbd3b2be653d0a78",
+      "severity": "minor",
+      "impact": "自動詞用法は正しく説明されているが、文法一覧の最後だけ裸の見出し動詞になり、現行v5の句・構文フレームで提示する規則と対応していない。",
+      "evidence": "全文行481末尾: stuff＝たくさん食べる（目的語なし）。同じブロックの行505–508には sit and stuff と自然な自動詞例がある。entry_spec_v5.md の「文法パターンとコロケーション」は裸動詞の列挙を避け、句・構文フレームで示すことを要求する。",
+      "action": "一覧のこの項目だけを sit and stuff＝座ってたくさん食べる（stuff は目的語なし）など、既存例と対応する完全な句にする。自動詞用法を削除したり、他動詞へ変更したりする必要はない。"
+    }
+  ],
+  "reviewer": {
+    "execution_id": "/root/review_dictionary_progress",
+    "role": "A",
+    "model": "unknown",
+    "model_note": "The runtime model ID is unavailable."
+  },
+  "binding": {
+    "request_sha256": "81429fe39370f390ed906877d876eef14ae5233ff3157108bd4e114ee296e9fc",
+    "snapshot_sha256": "178a22f4b07946a1b07f60eaebc59f8384595f4f2cefc1efbd7067e36d636222",
+    "body_sha256": "6a2a723e9b2be83b6c9c3f7479a1b0266631b89610072f61aaaf2b3b5aed4f6c",
+    "snapshot_entry_body_full_text_sha256": "baca55af3d782b6138cbc3cca6dcb4f4afa56f89527829ea5244494f8b824fc7",
+    "source_inventory_sha256": "e9588559efce8c1222cf6bc8708ec5e32b7a3c8e3502d020f2938434fd1134c9",
+    "source_inventory_file_sha256": "4f29c45816ab816873921556c050f6db2d74a3f3b69d983ca66e18cf03f4605c",
+    "hash_note": "Snapshot entry_body includes front matter. Body hash is post-front-matter splitlines joined with LF. Source inventory uses sorted-key UTF-8 compact JSON canonicalization; its raw file hash is separately recorded."
+  },
+  "coverage": {
+    "scope": "full_current_article",
+    "inspected_full_text_lines": [
+      1,
+      698
+    ],
+    "read_ranges": [
+      [
+        1,
+        230
+      ],
+      [
+        231,
+        470
+      ],
+      [
+        471,
+        698
+      ]
+    ],
+    "requested_areas_count": 15,
+    "numbered_senses": 12,
+    "standard_example_translation_pairs": 79,
+    "description": "Read every current line, all 79 standard pairs and inline examples. Examined all 15 requested areas, meaning coverage/boundaries, grammar, Japanese, relations, register, pronunciation, etymology and editorial per-sense frequency. All 46 original English examples remain, independently checked as a multiset. Inspected inventory source facts and complete claim-to-source-ID map, using original external references for specific checks. No B report or author verdict was read."
+  },
+  "focus_notes": [
+    "The expanded ordinary activities/content and essence/qualities/skills coverage addresses major learner needs. Twelve is a defensible pedagogical organization, not a required fixed count. The physical-object/substance distinction is explicitly explained rather than asserted to be disjoint dictionary meanings.",
+    "The blockage/state block declares both verb and adjective, distinguishes object roles and human/blocked-nose subjects, and supplies separate frames/examples. It does not silently classify the adjective as a passive event. A further block split is not necessary merely to increase the sense count.",
+    "Mount is defensible as a close comparison in the chosen specimen-preparation context. MW directly defines preparing a specimen for examination/display; the article explicitly limits the specialist comparison and distinguishes support/arrangement from stuffing material.",
+    "Core omission is defensible: a single contemporary filling mnemonic would distort the general unspecified things/activities and rejection/failure readings. The v5 requirement is useful semantic linkage, not a forced common history or invented homograph exclusion. No core area ID was requested because the section is absent.",
+    "The hard-stuff alcohol/drug note, objectless eating, regional stuff up, stuffed full adjective, toy/taxidermy distinction and concise sports branches are supported. Lower-priority historical and unverified regional branches need not each receive new numbered blocks.",
+    "Frequency scores are treated as global-English ordinal estimates for the selected meanings. No clear broad-band contradiction requires a numerical change in this snapshot; dictionary inclusion is not measured corpus frequency."
+  ],
+  "sources": [
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/stuff_1",
+      "access": "Direct first-party edited entry read during this word assessment",
+      "use": "Noun meanings and major idioms; no automated examples treated as authority."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/stuff_2",
+      "access": "Direct first-party edited entry read during this word assessment",
+      "use": "Filling, eating/feeding, taxidermy and marked rejection."
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/stuff",
+      "access": "Direct first-party edited entry read during this word assessment",
+      "use": "Noun/verb meaning inventory, history and sports branches."
+    },
+    {
+      "url": "https://www.collinsdictionary.com/dictionary/english/stuff",
+      "access": "Direct edited British/American sections, with current sports/blockage passages independently reopened",
+      "use": "Objectless eating, defeat/ruin, peripheral senses, and countable sports noun."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/stuffed",
+      "access": "Direct first-party edited entry read",
+      "use": "Full-after-eating adjective, predicative label and /stʌft/."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/stuffed-up",
+      "access": "Direct first-party edited entry read",
+      "use": "Blocked-nose human adjective."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/stuffed-animal",
+      "access": "Direct first-party edited entry read",
+      "use": "Toy/preserved-animal meanings and regional guidance."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/staff_1",
+      "access": "Direct IPA block read",
+      "use": "American/British staff vowel qualification."
+    },
+    {
+      "url": "https://www.etymonline.com/word/stuff",
+      "access": "Direct noun/verb history paragraphs read in this round",
+      "use": "Qualified French roots, uncertainty and meaning sequence."
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/overstuff",
+      "access": "Direct edited senses read; initial adjective URL exposed the verb entry",
+      "use": "Overfilling and thick furniture upholstery."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/stuffy",
+      "access": "Direct edited senses read in this round",
+      "use": "Air, formal attitude and especially North American nose reading."
+    },
+    {
+      "url": "https://enlightenedequipment.com/stuff-sack/",
+      "access": "Direct original product description read",
+      "use": "Established storage-bag term for outdoor quilts; no product recommendation or purchase."
+    },
+    {
+      "url": "https://www.collinsdictionary.com/dictionary/english/hard-stuff",
+      "access": "Direct edited definition read in this round",
+      "use": "Strong drugs and high-alcohol liquor; automated examples ignored."
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/mount",
+      "access": "Direct transitive specimen-preparation definition read",
+      "use": "Selected specialist comparison."
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/stuff%20the%20ballot%20box",
+      "access": "Direct edited phrase read during this word assessment",
+      "use": "Chiefly US fraudulent-voting idiom, lexical scope only."
+    },
+    {
+      "url": "https://www.usingenglish.com/reference/phrasal-verbs/stuff.html",
+      "access": "Direct original teaching entry read independently",
+      "use": "Australian mistake/spoil use and separability."
+    },
+    {
+      "url": "https://www.une.edu.au/__data/assets/pdf_file/0008/119465/2016-international-handbook.pdf",
+      "access": "Direct extracted text at printed page 66, not the full handbook",
+      "use": "Independent Australian stuff-up usage confirmation."
+    }
+  ],
+  "limits": [
+    "No audio audition, numerical corpus study or exhaustive historical survey.",
+    "Some earlier Cambridge access was indexed-only; the current judgments use the independently accessible sources identified above.",
+    "This is the official normal compact role-A response, not targeted acceptance or a publication decision.",
+    "Prior original-entry assessment remains unchanged. Only this local raw response is written."
+  ],
+  "recorded_at": "2026-10-02T10:13:47.685287+00:00"
+}

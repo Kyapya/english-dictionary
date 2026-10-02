@@ -1,0 +1,36 @@
+{
+  "workflow_contract_version": "compact_review_v1",
+  "role": "B",
+  "snapshot_path": "audits/workflow_runs/stuff/20261002T094806Z/compact/snapshot-ace13642aeaf5cb7-c49f2bb9342a.json",
+  "snapshot_sha256": "18893c8529ee6752ea85251984520e731df030368c7c127f135700aed58f41d5",
+  "body_sha256": "ace13642aeaf5cb78560c22ece51650a36a6aebbc022c582a5f8dc13787b13a8",
+  "area_keys": {
+    "pronunciation": "9bb087e0a86e406979b5f4c6818aa64a8853bf69cf50885e100168b5db01dcba",
+    "etymology": "2a8b9556a0b0e720d8c630f92ed490acbd2a3bb54cf151d5a4e5ed297c960708",
+    "word_formation": "cd157b92152e8b5a6bf0996a8c8b683e83f5cc90c0db63ca0a651d12755e4409",
+    "sense:32aa7a32527eccbb1517": "75f50530f124c6f408204f3edcb3623962325b7a08c4ac1a50e3454d7d873610",
+    "sense:828ce8cca59c7863341d": "8ef2bfc93f2139fecad9320a9311561b692ad17e5b7b321606f78499c1af033f",
+    "sense:d7849d4976e9bd82daf5": "f060bc77f675a60c930b361f5e08d6b10ee381519a2cf98645657dddc2da5b05",
+    "sense:25711a14bbe8f9080132": "f1c04ab49fa339e19e2f778077e731532405bc6f69459bef728e8a4fc0f8eb21",
+    "sense:3ebffb8d2f6dacc1510f": "2dbaad29bf1b8853925c65c43c6a180637f98e08dd6c9bd566245b81d3ff2b19",
+    "sense:2bce90c1d62676f49eac": "8eebb90504759fa4c416d34afabc922e7baf2ab92942f6f81a02225d2da0b080",
+    "sense:63efc191100e7a378f45": "7e8e08878c2081327000a98cd530cb6f2ff19472614104a2d2c0f0a6047a3210",
+    "sense:6bb6cbd3b2be653d0a78": "a234139311af601f25d3319b455fada823a7ba7cdf11e432d21fc2134b541ec9",
+    "sense:8cfbbc23d0246884a31c": "5075a788b30cdb0db062ccf853d82cf91570bca9f4bd64476bd0c4910710c57d",
+    "sense:f1d8f33cb748a3277923": "7e626566a177e6f66c7ebb7c9ff9fc979ba8fcc9bfa747c804abeef96d5618e6",
+    "sense:f1ec7e38db949e7fb88e": "b0d831d9187faa2a21ac401ef47bdd9daab04cd0869e0d08408c17662294f48d",
+    "sense:84a6bed0f837cdc85ed5": "8552e80d125facf82b9a8fd08ae84f2a85aca51d8198ac483617a694cbbd30e7"
+  },
+  "review_scope": {
+    "purpose": "Independent comparison of article claims with original external references and detection of missing major senses and unsupported generalization",
+    "taxonomy": [
+      "source_contradiction",
+      "insufficient_evidence",
+      "missing_major_sense",
+      "unsupported_generalization",
+      "scope_qualification"
+    ]
+  },
+  "source_inventory_path": "audits/runs/s/stuff/source_inventory.json",
+  "source_inventory_sha256": "c49f2bb9342a4a6ec826ca5b73b0163b8af33e3bc1e3f06902bbeac11fe41981"
+}
