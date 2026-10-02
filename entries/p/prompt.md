@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-5.6-sol
 created_at: 2026-08-25
-updated_at: 2026-08-26
+updated_at: 2026-10-02
 checked: true
 tags: []
 ---
@@ -13,8 +13,8 @@ tags: []
 ＃発音記号
 
 米: /prɑːmpt/｜英: /prɒmpt/。1音節で、米語では /ɑː/、英語では /ɒ/ を発音する。語頭に /pr/、語末に /mpt/ という子音連続があり、/m/ と /p/ の間や /p/ と /t/ の間に母音を入れない。  
-形容詞・動詞・名詞のいずれでも同じ1音節に強勢がある。三人称単数 prompts は米 /prɑːmpts/・英 /prɒmpts/ で語末に /ts/ が続く。過去形・過去分詞 prompted は米 /ˈprɑːmptɪd/・英 /ˈprɒmptɪd/、-ing形 prompting は米 /ˈprɑːmptɪŋ/・英 /ˈprɒmptɪŋ/ である。基語が /t/ で終わるため、-ed は /d/ ではなく /ɪd/ と発音する。  
-派生語 promptly は米 /ˈprɑːmptli/・英 /ˈprɒmptli/、promptness は米 /ˈprɑːmptnəs/・英 /ˈprɒmptnəs/。promptly の /tli/、promptness の /tnəs/ でも、prompt の末尾の /t/ を落とさない。ただし速い会話では子音連続の一部が弱く聞こえることがある。  
+形容詞・動詞・名詞のいずれでも同じ1音節に強勢がある。名詞の複数形・動詞の三人称単数現在形 prompts は米 /prɑːmpts/・英 /prɒmpts/ で語末に /ts/ が続く。過去形・過去分詞 prompted は米 /ˈprɑːmptɪd/・英 /ˈprɒmptɪd/、-ing形 prompting は米 /ˈprɑːmptɪŋ/・英 /ˈprɒmptɪŋ/ である。基語が /t/ で終わるため、-ed は /d/ ではなく /ɪd/ と発音する。  
+派生語 promptly は米 /ˈprɑːmptli/・英 /ˈprɒmptli/、promptness は米 /ˈprɑːmptnəs/・英 /ˈprɒmptnəs/。上記は /t/ を含む発音だが、子音連続には変異がある。米音では promptly /ˈprɑːmpli/、promptness /ˈprɑːmpnəs/ のように /t/ を発音しない形も辞書に載るため、「必ず /t/ を保つ」とはしない。  
 
 ＃語源
 
@@ -24,28 +24,28 @@ prompt は中英語の動詞 prompten と形容詞 prompt にさかのぼり、�
 
 ＃語形成
 
-promptly — 副詞「すぐに、速やかに、時間どおりに」。prompt の「遅れのない」という意味を文全体や動作へ適用する。  
-promptness — 名詞「迅速さ、時間を守ること」。応答・支払い・到着などに遅れがない性質を表す。  
-prompting — 名詞「促すこと、発話を助けること」。動詞 prompt の動名詞・現在分詞から生じ、教育・演劇・心理支援などで使う。  
-prompter — 名詞「演劇でせりふを助ける人、プロンプター」。動詞 prompt に人を表す -er が付いた語である。  
-promptitude — 名詞「即応性、迅速さ」。まれで硬い語で、一般学習では promptness のほうが普通である。  
-unprompted — 形容詞「促されていない、求められていない、自発的な」。un-「否定」を付け、質問や指示なしに行われたことを表す。  
-impromptu — 形容詞・副詞・名詞「即興の、即興で、即興作品」。prompt と同じラテン語 promptus 系統だが、prompt の接頭辞派生ではない。  
-command prompt — 複合名詞「コマンド入力を待つ画面表示、コマンドプロンプト」。prompt がコンピューターの入力待ち表示を表す複合表現である。  
-prompt engineering — 複合名詞「AIへの指示文を設計・改善すること」。生成システムから望ましい出力を引き出すための入力設計を表す。  
+・promptly — 副詞「すぐに、速やかに、時間どおりに」。prompt の「遅れのない」という意味を文全体や動作へ適用する。  
+・promptness — 名詞「迅速さ、時間を守ること」。応答・支払い・到着などに遅れがない性質を表す。  
+・prompting — 名詞「促すこと、発話を助けること」。動詞 prompt の動名詞・現在分詞から生じ、教育・演劇・心理支援などで使う。  
+・prompter — 名詞「演劇でせりふを助ける人、プロンプター」。動詞 prompt に人を表す -er が付いた語である。  
+・promptitude — 名詞「即応性、迅速さ」。まれで硬い語で、一般学習では promptness のほうが普通である。  
+・unprompted — 形容詞「促されていない、求められていない、自発的な」。un-「否定」を付け、質問や指示なしに行われたことを表す。  
+・impromptu — 形容詞・副詞・名詞「即興の、即興で、即興作品」。prompt と同じラテン語 promptus 系統だが、prompt の接頭辞派生ではない。  
+・command prompt — 複合名詞「コマンド入力を待つ画面表示、コマンドプロンプト」。prompt がコンピューターの入力待ち表示を表す複合表現である。  
+・prompt engineering — 複合名詞「AIへの入力・指示を設計・改善すること」。生成システムから望ましい出力を引き出すための入力設計を表す。  
 
 ＃コアイメージ
 
-prompt の共通核は、反応・発話・行動などを内側にとどめず、きっかけによって前へ出す、または待たせずに表れさせることである。時間の早さ、人の即応、原因による誘発、記憶の呼び出し、質問や入力の合図へ広がる。  
-・反応や行動が前へ出て遅れない状態 → 「迅速な、遅滞のない」（語義1）  
-・人が反応を前へ出す準備がある状態 → 「素早く応じる、時間を守る」（語義2）  
-・時点を前へ出して遅れなく行うこと → 「時間どおりに、すぐに」（語義3）  
-・出来事が反応や行動を前へ出す働き → 「促す、引き起こす」（語義4）  
-・手掛かりが発話を前へ出す働き → 「せりふを促す、思い出させる」（語義5）  
-・手掛かりとして発話や行動を前へ出すもの → 「せりふの合図、助け舟」（語義6）  
-・問いや課題が思考や回答を前へ出すもの → 「発想・回答を引き出す問い、課題」（語義7）  
-・画面が利用者の入力を前へ出させる表示 → 「入力を促す表示、コマンドプロンプト」（語義8）  
-・指示がAIの生成結果を前へ出させる入力 → 「AIに与える指示文、入力」（語義9）  
+prompt は、「必要なときにすぐ表に出る・出せる」というイメージから、遅れない応答と、反応・発話を引き出す働きを関連づけて覚えられる。形容詞・副詞では遅れのなさや時刻の正確さを表すが、動詞・名詞では常に即時性や促された行動の実現を含むわけではない。  
+・必要な対応が遅れず表れる状態 → 「迅速な、遅滞のない」（語義1）  
+・人がすぐ応じられる状態 → 「素早く応じる、時間を守る」（語義2）  
+・予定された時刻に遅れない実行 → 「時間どおりに、きっかり」（語義3）  
+・行動・反応を引き出すきっかけや働き → 「促す、引き起こす」（語義4）  
+・その場の発話を引き出す働き → 「せりふを促す、思い出させる」（語義5）  
+・発話や行動を引き出す具体的な手掛かり → 「せりふの合図、助け舟、思い出させる言葉」（語義6）  
+・思考や回答を引き出す問い・課題 → 「発想・回答を引き出す問い、課題、指示」（語義7）  
+・利用者の入力を引き出す表示 → 「入力を促す表示、コマンドプロンプト」（語義8）  
+・AIの生成・応答を引き出す入力 → 「AIに与える指示文、入力」（語義9）  
 
 ＃意味・用法・関連表現
 
@@ -76,7 +76,7 @@ prompt の共通核は、反応・発話・行動などを内側にとどめず�
 例: Prompt payment of the invoice would be appreciated.  
 訳: 請求書の速やかな支払いをお願いします。  
 
-・prompt attention to something  
+・prompt attention  
 用途: 問題や依頼を後回しにせず、すぐに扱うことを表す。  
 例: This safety issue requires prompt attention.  
 訳: この安全上の問題には迅速な対応が必要である。  
@@ -87,6 +87,8 @@ prompt の共通核は、反応・発話・行動などを内側にとどめず�
 訳: その子どもは転倒後、すぐに医療処置を受けた。  
 
 【語法・注意】prompt は「速い」という速度だけでなく、期待される対応を遅らせないという評価を含む。immediate は時間を置かないことをより強く示し、quick は動作や反応の速さに焦点を置く。timely は適切な時機に間に合うことを表す。prompt payment は必ずしも「即時払い」ではなく、妥当な期間内に速やかに払うという意味になり得る。副詞は通常 promptly を使い、The company responded prompt. とはしない。  
+
+商業の専門用法では、名詞 prompt が代金の支払期限や、その期限を定める契約を指すこともある。一般的な形容詞 prompt payment「速やかな支払い」とは品詞・意味を区別する。  
 
 【類義語】
 
@@ -135,7 +137,7 @@ prompt の共通核は、反応・発話・行動などを内側にとどめず�
 
 【レジスター/領域】標準語。会議、仕事、返答、接客、指示への対応などで使う。punctual に近い「時間を守る」用法と、ready・responsive に近い「すぐ応じる」用法がある。  
 
-【文法パターン】be prompt＝時間を守る・すぐ応じる／be prompt to do something＝すぐに〜する／be prompt in doing something＝〜するのが速やかである／be prompt when 〈doing something〉＝〜する際に遅れない／be prompt to respond/reply＝すぐに応答する  
+【文法パターン】be prompt＝時間を守る・すぐ応じる／be prompt to do something＝すぐに〜する／be prompt in doing something＝〜するのが速やかである／be prompt with 〈a reply / a payment〉＝返答・支払いが速やかである／be prompt when 〈doing something〉＝〜する際に遅れない／be prompt to respond/reply＝すぐに応答する  
 
 【コロケーション】
 
@@ -164,7 +166,12 @@ prompt の共通核は、反応・発話・行動などを内側にとどめず�
 例: He is prompt in paying his bills, even when the amount is disputed.  
 訳: 彼は金額に異議がある場合でも、請求書の支払いを遅らせない。  
 
-【語法・注意】人についての prompt は「反応が速い」と「時間に正確」の両方を取り得る。She was prompt to answer. は返答の速さ、She was prompt when she arrived for the meeting. は到着時の遅れのなさを表す。punctual は予定時刻への正確さ、responsive は連絡・要求への反応性、ready は準備や能力の状態を強調する。a prompt reply は自然だが、すぐ返事をする人を表すときは通常 be prompt とする。  
+・be prompt with something  
+用途: 返答や支払いなどを遅らせずに行うことを、名詞句を用いて述べる。  
+例: She is always prompt with her replies.  
+訳: 彼女はいつも返事が早い。  
+
+【語法・注意】人についての prompt は「反応が速い」と「時間に正確」の両方を取り得る。She was prompt to answer. は返答の速さ、She was prompt for the meeting. は会議に遅れず来たことを表す。punctual は予定時刻への正確さ、responsive は連絡・要求への反応性、ready は準備や能力の状態を強調する。a prompt reply は自然だが、すぐ返事をする人を表すときは通常 be prompt とする。  
 
 【類義語】
 
@@ -212,7 +219,7 @@ prompt の共通核は、反応・発話・行動などを内側にとどめず�
 例: She was hesitant to answer the unexpected question.  
 訳: 彼女は予想外の質問に答えるのをためらった。  
 
-3. 【副詞・主に英・くだけた】時間どおりに、すぐに
+3. 【副詞・主に英・くだけた】時間どおりに、きっかり
 
 【日本語訳・定義】promptly の短い形として、特にイギリス英語のくだけた用法や時刻表現で「時間どおりに」「遅れずに」を表す。一般的で中立な文章では promptly を使うほうが安全で、prompt を副詞として自由に使う用法は限定的である。  
 
@@ -220,7 +227,7 @@ prompt の共通核は、反応・発話・行動などを内側にとどめず�
 
 【レジスター/領域】主にイギリス英語のくだけた表現、または時刻を強調する定型表現。正式な文書や国際的な学習用英語では promptly が標準的である。  
 
-【文法パターン】at 〈時刻〉 prompt＝ちょうど〜時に／arrive/leave prompt＝時間どおりに到着する・出発する／〈主語〉 + be there prompt＝〜時に遅れずそこにいる  
+【文法パターン】at 〈時刻〉 prompt＝ちょうど〜時に／arrive/leave prompt＝時間どおりに到着する・出発する／〈主語〉 + be there prompt＝時間どおりにそこにいる  
 
 【コロケーション】
 
@@ -230,7 +237,7 @@ prompt の共通核は、反応・発話・行動などを内側にとどめず�
 訳: 開場はきっかり8時です。  
 
 ・arrive prompt  
-用途: 到着が遅れなかったことを、主に英語のくだけた用法で表す。  
+用途: 到着が遅れなかったことを、主にイギリス英語のくだけた用法で表す。  
 例: The doctor arrived prompt for the first appointment.  
 訳: その医師は最初の診察に時間どおり到着した。  
 
@@ -277,11 +284,13 @@ prompt の共通核は、反応・発話・行動などを内側にとどめず�
 
 【日本語訳・定義】人・出来事・情報などが、誰かに行動や決定をさせたり、反応・議論・調査などを引き起こしたりすることを表す。promptする側は意図的な説得者とは限らず、発言、証拠、事故、変化などが原因・きっかけになる場合も多い。結果を強制するというより、行動や反応が生じる方向へ動かす語である。  
 
+コンピューターでは、プログラムが人に入力を求める用法に加え、人や別のプログラムがAIに指示・入力を与える用法もある。後者の prompt a model to do は「モデルに～するよう指示する」で、期待した出力が得られたことまでは意味しない（名詞は語義9）。  
+
 【頻度】〈10/10〉  
 
 【レジスター/領域】標準語。会話、報道、ビジネス、研究、政策、心理・社会の説明で広く使う。受動態の be prompted by も非常に多い。  
 
-【文法パターン】prompt someone to do something＝人に〜するよう促す／prompt 〈a reaction/decision/change〉＝〈反応・決定・変化〉を引き起こす／prompt 〈an investigation/review/discussion〉＝〈調査・再検討・議論〉を促す／be prompted by something＝〜に促される・〜がきっかけで起こる／What prompted someone to do something?＝何が人に〜させたのか  
+【文法パターン】prompt someone to do something＝人に〜するよう促す／prompt 〈a reaction / a decision / a change〉＝〈反応・決定・変化〉を引き起こす／prompt 〈an investigation / a review / a discussion〉＝〈調査・再検討・議論〉を促す／be prompted by something＝〜に促される・〜がきっかけで起こる／What prompted someone to do something?＝何が人に〜させたのか／prompt a model to do something＝AIモデルに〜するよう指示する  
 
 【コロケーション】
 
@@ -295,12 +304,12 @@ prompt の共通核は、反応・発話・行動などを内側にとどめず�
 例: The question prompted a thoughtful response from the panel.  
 訳: その質問は、パネル参加者から思慮深い回答を引き出した。  
 
-・prompt a decision  
-用途: 情報や状況の変化が、決定を下すきっかけになることを表す。  
+・prompt someone to reconsider something  
+用途: 情報や状況の変化が、人に計画・判断などを再検討させるきっかけになることを表す。  
 例: The unexpected cost prompted the board to reconsider the plan.  
 訳: 予想外の費用を受けて、取締役会は計画を再検討した。  
 
-・prompt an investigation/review  
+・prompt an investigation / prompt a review  
 用途: 問題や証拠が調査・再検討を始める原因になることを示す。  
 例: The missing records prompted an internal investigation.  
 訳: 記録の欠落が内部調査のきっかけになった。  
@@ -310,7 +319,7 @@ prompt の共通核は、反応・発話・行動などを内側にとどめず�
 例: The sudden drop in sales prompted concern among investors.  
 訳: 売上の急落が投資家の懸念を招いた。  
 
-・be prompted by 〈a question/event/concern〉  
+・be prompted by 〈a question / an event / a concern〉  
 用途: 行動や発言が、特定のきっかけによって生じたと受動態で説明する。  
 例: The revision was prompted by customer feedback.  
 訳: その改訂は顧客からの意見をきっかけに行われた。  
@@ -320,17 +329,22 @@ prompt の共通核は、反応・発話・行動などを内側にとどめず�
 例: The app prompted me to enter a password.  
 訳: そのアプリは私にパスワードを入力するよう求めた。  
 
+・prompt a model to do something  
+用途: AIモデルに、ある作業をするよう指示を与える。  
+例: She prompted the model to summarize the report in three sentences.  
+訳: 彼女は、その報告書を3文で要約するようモデルに指示した。  
+
 ・What prompted you to do something?  
 用途: 相手がある選択や行動をすることになった理由・きっかけを尋ねる。  
 例: What prompted you to change careers?  
 訳: 何がきっかけで転職したのですか。  
 
-【語法・注意】人を目的語にする場合は prompt someone to do something とし、prompt someone do something とはしない。prompt something は物事を引き起こす構文で、質問を相手に投げかける「尋ねる」という意味ではない。force は相手の選択肢を奪う強制、motivate は内的な意欲づけ、provoke は強い反応や不快な反応を誘発する含みが出やすい。prompt は意図的な誘導にも非意図的な原因にも使える。be prompted by は原因を示し、結果が必ず実現したことまで保証しない場合がある。  
+【語法・注意】人を目的語にする場合は prompt someone to do something とし、prompt someone do something とはしない。prompt something は物事を引き起こす構文で、質問を相手に投げかける「尋ねる」という意味ではない。force は相手の選択肢を奪う強制、motivate は内的な意欲づけ、provoke は強い反応や不快な反応を誘発する含みが出やすい。prompt は意図的な誘導にも非意図的な原因にも使える。The revision was prompted by customer feedback. は、実際に行われた改訂のきっかけを述べる。一方、入力や応答を求める用法では、prompted the user/model to do と言っても、その要求が実行されたとは限らない。  
 
 【類義語】
 
 ・cause  
-定義: 出来事や状態を直接生じさせる。  
+定義: 出来事や状態の原因となり、それを生じさせる。  
 頻度: 〈10/10〉  
 違い: cause は因果関係を広く中立的に述べる。prompt は行動・決定・反応を引き出すきっかけや刺激に焦点があり、心理的・対人的な流れを示しやすい。  
 例: The leak caused serious damage to the building.  
@@ -344,9 +358,9 @@ prompt の共通核は、反応・発話・行動などを内側にとどめず�
 訳: その賞与がチームに早く終える意欲を与えた。  
 
 ・induce  
-定義: 理由、説得、影響によって人に行動や状態を生じさせる。  
+定義: ある作用や影響によって、状態・反応などを生じさせる。  
 頻度: 〈6/10〉  
-違い: induce はやや正式で、説得や働きかけの結果として行動させる含みがある。prompt はニュースや事故など非人間的な原因にも自然に使う。  
+違い: この induce はフォーマルで、生理的な状態や反応を引き起こす場面にも使う。prompt は特に行動・判断・反応のきっかけを表しやすい。induce someone to do には別に「人に働きかけて～させる」という用法もあり、induce も非人間的な原因を主語にできる。  
 例: The treatment induced temporary sleep.  
 訳: その治療は一時的な睡眠を引き起こした。  
 
@@ -389,13 +403,13 @@ prompt の共通核は、反応・発話・行動などを内側にとどめず�
 
 5. 【他動詞・自動詞／発話・演劇】せりふを促す、思い出させる
 
-【日本語訳・定義】人、特に俳優や発表者が忘れた言葉・次の発言を思い出せるように、単語、質問、手掛かりを与える。教育や面接で、答えを丸ごと教えるのではなく、本人が発話を続けられるよう助ける場合にも使う。自動詞では、相手が答えられるよう質問や短い促しを加える意味になる。  
+【日本語訳・定義】人、特に俳優や発表者が忘れた言葉・次の発言を思い出せるように、単語、質問、手掛かりを与える。教育や面接で、質問や手掛かりによって本人の発話を続けさせる場合にも使う。忘れていた内容を回復させる場合だけでなく、次に話すことを引き出す場合も含む。目的語を明示しない自動詞用法でも、俳優へのせりふの補助や、質問・短い言葉による発話の促しを表す。  
 
 【頻度】〈6/10〉  
 
 【レジスター/領域】標準語。演劇・映画、教育、面接、言語支援などで使う。一般的な「思い出させる」用法は remind と重なるが、発話や行動をその場で引き出す合図の性質が強い。  
 
-【文法パターン】prompt someone＝人に発話の助け舟を出す／prompt someone with 〈a word/question/hint〉＝〈語・質問・ヒント〉で人を促す／prompt someone for 〈an answer/detail〉＝人に答え・詳細を言うよう促す／be prompted＝促されて発言する／prompt someone to say something＝人が〜と言えるよう促す  
+【文法パターン】prompt someone＝人に発話の助け舟を出す／prompt someone with 〈a word / a question / a hint〉＝〈語・質問・ヒント〉で人を促す／prompt someone for 〈an answer / a detail〉＝人に答え・詳細を言うよう促す／be prompted＝促されて発言する／prompt someone to say something＝人が〜と言えるよう促す／「発言内容」, someone prompted＝人がそう言って発話を促した（目的語を明示しない形）  
 
 【コロケーション】
 
@@ -409,15 +423,15 @@ prompt の共通核は、反応・発話・行動などを内側にとどめず�
 例: The teacher prompted Maya with a simpler question.  
 訳: 先生は、より簡単な質問をしてマヤの発言を促した。  
 
-・prompt someone with 〈a word/line〉  
+・prompt someone with 〈a word / a line〉  
 用途: 忘れた単語やせりふの一部を与え、相手が続けられるようにする。  
 例: I prompted the child with the first word of the sentence.  
 訳: 私はその子に文の最初の単語を示して、続きを言えるようにした。  
 
-・prompt someone for 〈an answer/detail〉  
+・prompt someone for 〈an answer / a detail〉  
 用途: 相手が答えや詳しい情報を出すよう、質問や促しを重ねる。  
 例: The interviewer prompted the witness for more details.  
-訳: 面接官は証人にさらに詳しい説明を求めた。  
+訳: 聞き手は証人にさらに詳しい説明を求めた。  
 
 ・have to be prompted  
 用途: 自分からは発言できず、誰かの促しが必要だったことを表す。  
@@ -427,9 +441,14 @@ prompt の共通核は、反応・発話・行動などを内側にとどめず�
 ・prompt someone to continue  
 用途: 途中で止まった発表者や話者が、次の言葉を思い出して続けられるよう助ける。  
 例: A quiet hint prompted the speaker to continue.  
-訳: 小さなヒントが、話者が続ける助けになった。  
+訳: 小さなヒントが、話者が話し続ける助けになった。  
 
-【語法・注意】この用法の prompt someone to do は、行動の原因を述べる語義4と形が同じでも、「忘れた発話を助ける」という文脈で解釈される。俳優にせりふを丸ごと教えるというより、次の語や手掛かりを与えるのが中心である。prompt someone with 〈something〉 は手掛かりの内容を示し、prompt someone for 〈something〉 は相手から答え・情報を引き出そうとする。remind は記憶を呼び戻す一般語で、必ずしもその場の発話を促すとは限らない。  
+・「発言内容」, someone prompted  
+用途: 質問や短い言葉で相手の発話を促したことを、目的語を明示せずに述べる。  
+例: "What happened next?" the teacher prompted.  
+訳: 「次に何が起きたの？」と先生は話の続きを促した。  
+
+【語法・注意】この用法の prompt someone to do は、行動の原因を述べる語義4と形が同じでも、「その場の発話を助ける」という文脈で解釈される。俳優に次のせりふを伝えることも、質問や一部の語を手掛かりにして続きを引き出すこともある。prompt someone with 〈something〉 は手掛かりの内容を示し、prompt someone for 〈something〉 は相手から答え・情報を引き出そうとする。remind は記憶を呼び戻す一般語で、必ずしもその場の発話を促すとは限らない。  
 
 【類義語】
 
@@ -441,7 +460,7 @@ prompt の共通核は、反応・発話・行動などを内側にとどめず�
 訳: 舞台監督は俳優に登場の合図を出した。  
 
 ・remind  
-定義: 忘れていた情報や予定を思い出させる。  
+定義: 情報や予定を思い出させたり、これからすべきことを忘れないよう注意を促したりする。  
 頻度: 〈9/10〉  
 違い: remind は記憶の回復全般を表し、prompt はその場で言葉や答えを出せるよう手掛かりを与えることに焦点がある。  
 例: Please remind me to call the clinic tomorrow.  
@@ -450,7 +469,7 @@ prompt の共通核は、反応・発話・行動などを内側にとどめず�
 ・jog someone's memory  
 定義: 手掛かりによって人の記憶を軽く呼び起こす。  
 頻度: 〈6/10〉  
-違い: jog は完全に思い出せなかった記憶を、軽い刺激で思い出させるくだけた表現である。prompt は質問やせりふの補助という行為にも使う。  
+違い: jog は記憶を、軽い刺激で呼び起こすくだけた表現である。prompt は質問やせりふの補助という行為にも使う。  
 例: The old photograph jogged my memory.  
 訳: その古い写真が私の記憶を呼び起こした。  
 
@@ -476,7 +495,7 @@ prompt の共通核は、反応・発話・行動などを内側にとどめず�
 ・give someone a prompt  
 用途: 忘れたせりふや答えを続けられるよう、短い手掛かりを与える。  
 例: The actor lost her place and was given a prompt from backstage.  
-訳: その俳優はせりふの位置を見失い、舞台裏から助け舟を出してもらった。  
+訳: その俳優は次のせりふが分からなくなり、舞台裏から助け舟を出してもらった。  
 
 ・need a prompt  
 用途: 答えや発言を思い出すために、少しの手掛かりが必要だと述べる。  
@@ -517,7 +536,7 @@ prompt の共通核は、反応・発話・行動などを内側にとどめず�
 訳: 先生は完全な答えではなくヒントをくれた。  
 
 ・reminder  
-定義: 忘れていたことを思い出させるもの。  
+定義: 情報・予定・すべきことなどを思い出させるもの。  
 頻度: 〈8/10〉  
 違い: reminder は予定・義務・情報を思い出させるもの全般を指す。prompt はその場で発言・行動を引き出す短い合図に焦点がある。  
 例: The calendar alert was a useful reminder.  
@@ -565,7 +584,7 @@ prompt の共通核は、反応・発話・行動などを内側にとどめず�
 例: The artist drew from a creative prompt about forgotten objects.  
 訳: その芸術家は、忘れられた物についての創作課題から発想を得た。  
 
-【語法・注意】prompt は質問そのものだけでなく、回答の方向や形式を含む課題文も指す。answer a question と respond to a prompt は重なるが、prompt には「この条件・視点で何かを作る／述べる」という誘発の働きが出やすい。essay prompt は小論文の題名だけではなく、何を論じるべきかを示す設問全体を指すことが多い。語義6の prompt は忘れた言葉を助ける短い合図、語義7は複数の回答者から思考や文章を引き出す課題である。  
+【語法・注意】prompt は質問そのものだけでなく、回答の方向や形式を含む課題文も指す。answer a question と respond to a prompt は重なるが、prompt には「この条件・視点で何かを作る／述べる」という誘発の働きが出やすい。essay prompt は小論文の題名だけではなく、何を論じるべきかを示す設問全体を指すことが多い。語義6の prompt は忘れた言葉を助ける短い合図、語義7は思考や文章を引き出す課題で、対象は一人でも複数人でもよい。  
 
 【類義語】
 
@@ -605,7 +624,7 @@ prompt の共通核は、反応・発話・行動などを内側にとどめず�
 
 【レジスター/領域】コンピューター用語。command prompt、shell prompt、password prompt、login prompt などで使う。日常的なアプリ画面の入力要求にも使えるが、AIへの指示文とは別の用法である。  
 
-【文法パターン】at the command prompt＝コマンドプロンプト上で／display/show a prompt＝入力を促す表示を出す／enter something at the prompt＝プロンプトに〜を入力する／a prompt for 〈a password/input〉＝パスワード・入力を促す表示／return to the prompt＝入力待ちの表示に戻る  
+【文法パターン】at the command prompt＝コマンドプロンプト上で／display/show a prompt＝入力を促す表示を出す／enter something at the prompt＝プロンプトに〜を入力する／a prompt for 〈a password / input〉＝パスワード・入力を促す表示／return to the prompt＝入力待ちの表示に戻る  
 
 【コロケーション】
 
@@ -617,7 +636,7 @@ prompt の共通核は、反応・発話・行動などを内側にとどめず�
 ・a password prompt  
 用途: パスワードの入力を求める画面上の表示を表す。  
 例: The program displayed a password prompt before opening the file.  
-訳: そのプログラムはファイルを開く前にパスワード入力を表示した。  
+訳: そのプログラムはファイルを開く前に、パスワードの入力を求める表示を出した。  
 
 ・see the prompt  
 用途: システムが入力を受け付けられる状態になったことを示す表示を確認する。  
@@ -639,7 +658,16 @@ prompt の共通核は、反応・発話・行動などを内側にとどめず�
 例: The $ prompt indicates that the shell is ready for a command.  
 訳: $プロンプトは、シェルがコマンドを受け付けられる状態だと示す。  
 
-【語法・注意】command prompt は、入力待ちの記号を指す場合と、Windowsのコマンドライン環境そのものを指す場合がある。どちらでも、prompt は利用者が入力する command そのものではない。a prompt for a password は入力を求める表示、a prompt to an AI はAIに渡す指示文であり、前者は画面の要求、後者は利用者が作る入力という違いがある。可算名詞なので、特定の表示には the prompt、個別の入力要求には a prompt とする。  
+【語法・注意】小文字の command prompt は入力待ちの表示を指し、Windowsのコマンドライン環境・ウィンドウの名称は Command Prompt と大文字で書く。どちらでも、prompt は利用者が入力する command そのものではない。a prompt for a password は入力を求める表示、a prompt to an AI はAIに渡す指示文であり、前者は画面の要求、後者はAIへ与える入力という違いがある。可算名詞なので、特定の表示には the prompt、個別の入力要求には a prompt とする。  
+
+関連する対比として、入力を促す表示と操作のインターフェースを区別する。  
+
+・command line  
+定義: コマンドを文字で入力してコンピューターを操作するインターフェース。  
+頻度: 〈7/10〉  
+違い: command line は操作環境・方式を指し、prompt はその環境で入力を促す表示を指す。  
+例: The tool can be run from the command line.  
+訳: そのツールはコマンドラインから実行できる。  
 
 【類義語】
 
@@ -650,13 +678,6 @@ prompt の共通核は、反応・発話・行動などを内側にとどめず�
 例: The form displayed an input request for the account number.  
 訳: そのフォームは口座番号の入力を求めた。  
 
-・command line  
-定義: コマンドを文字で入力してコンピューターを操作するインターフェース。  
-頻度: 〈7/10〉  
-違い: command line は操作環境・方式を指し、prompt はその環境で入力を促す表示を指す。  
-例: The tool can be run from the command line.  
-訳: そのツールはコマンドラインから実行できる。  
-
 ・indicator  
 定義: 状態や利用可能な操作を示す表示。  
 頻度: 〈8/10〉  
@@ -666,7 +687,7 @@ prompt の共通核は、反応・発話・行動などを内側にとどめず�
 
 9. 【可算名詞・コンピューター／AI】AIに与える指示文、入力
 
-【日本語訳・定義】生成AIなどのシステムに対し、何を作るか、どの条件で答えるか、どの形式で出力するかを伝える文章・質問・指示を表す。短い問いから、背景、制約、出力形式を組み合わせた長い入力まで含む。prompt はAIが返した文章・画像そのものではなく、それを引き出すために利用者が与える入力である。  
+【日本語訳・定義】生成AIなどのシステムに対し、何を作るか、どの条件で答えるか、どの形式で出力するかなどを伝え、生成や応答を方向づける入力を表す。文章・質問・指示が典型的だが、対応するモデルでは画像・音声などを含むマルチモーダルな入力も prompt と呼ぶ。短い問いから、背景、制約、例、出力形式を組み合わせた入力まで含み、利用者が直接書いたものだけでなく、開発者やプログラムが用意する入力もある。  
 
 【頻度】〈7/10〉  
 
@@ -681,7 +702,7 @@ prompt の共通核は、反応・発話・行動などを内側にとどめず�
 例: Write a prompt that states the audience and the desired format.  
 訳: 想定読者と望ましい形式を明記したプロンプトを書きなさい。  
 
-・enter a prompt into 〈a model/tool〉  
+・enter a prompt into 〈a model / a tool〉  
 用途: AIシステムや生成ツールへ指示文を入力する。  
 例: She entered a prompt into the image generator to request a watercolor style.  
 訳: 彼女は水彩画風を求めるプロンプトを画像生成ツールに入力した。  
@@ -701,12 +722,12 @@ prompt の共通核は、反応・発話・行動などを内側にとどめず�
 例: Prompt engineering often involves testing different instructions and examples.  
 訳: プロンプトエンジニアリングでは、異なる指示や例を試すことが多い。  
 
-・a prompt that specifies 〈a format/constraint〉  
+・a prompt that specifies 〈a format / a constraint〉  
 用途: 出力形式や禁止事項などの条件を明示するプロンプトを表す。  
 例: A prompt that specifies a table format can make the output easier to compare.  
 訳: 表形式を指定するプロンプトを使うと、出力を比較しやすくなる。  
 
-【語法・注意】AI用法の prompt は、質問だけでなく役割、背景、制約、例、出力形式を含む指示全体を指せる。instruction は人や機械に与える指示一般、query は情報を尋ねる検索・質問に焦点があり、prompt はシステムから特定の応答や生成物を引き出す入力として使われる。prompt engineering は単に丁寧な英文を書くことではなく、入力と出力を試行しながら設計することを表す。AIが出力した結果を prompt と呼ばないようにする。  
+【語法・注意】AI用法の prompt は、質問だけでなく役割、背景、制約、例、出力形式を含む指示全体を指せる。instruction は人や機械に与える指示一般、query は情報を尋ねる検索・質問に焦点があり、prompt はシステムから特定の応答や生成物を引き出す入力として使われる。prompt engineering は単に丁寧な英文を書くことではなく、入力と出力を試行しながら設計することを表す。その応答を引き出すための prompt（入力）と、生成された response/output（出力）は区別する。ただし、生成された文章などを次の処理の prompt として使うことはあるため、どの処理に対する入力かで判断する。  
 
 【類義語】
 
@@ -720,7 +741,7 @@ prompt の共通核は、反応・発話・行動などを内側にとどめず�
 ・input  
 定義: システムに与えられるデータ、文字列、操作。  
 頻度: 〈9/10〉  
-違い: input はデータや操作を広く含む技術用語で、prompt は自然言語で生成や応答を方向づける入力を特に指す。  
+違い: input はデータや操作を広く含む技術用語で、prompt は生成や応答を方向づける入力としての役割を強調し、自然言語の指示だけでなく画像などを含む場合もある。  
 例: The model produces different results from the same input.  
 訳: そのモデルは同じ入力から異なる結果を生成する。  
 
@@ -734,6 +755,6 @@ prompt の共通核は、反応・発話・行動などを内側にとどめず�
 ・request  
 定義: 何かをしてほしいという依頼。  
 頻度: 〈10/10〉  
-違い: request は依頼の内容・意図に焦点がある。prompt はAIシステムへ渡す実際の入力文と、その構成・条件を指す技術用語になっている。  
+違い: request は依頼の内容・意図に焦点がある。prompt はAIシステムへ渡す実際の入力と、その構成・条件を指す技術用語になっている。  
 例: The application processed the user's request.  
 訳: そのアプリケーションは利用者の依頼を処理した。  
