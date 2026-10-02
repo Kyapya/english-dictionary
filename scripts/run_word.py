@@ -216,10 +216,11 @@ if __name__ == "__main__":
                 raise SystemExit(compact_workflow.main(arguments))
             raise SystemExit("Use scripts/compact_workflow.py for compact review requests and receipts")
     elif arguments and not arguments[0].startswith("-") and "--legacy" not in arguments:
-        word = slugify(arguments[0])
+        headword = " ".join(arguments[0].strip().split())
+        word = slugify(headword)
         if "--dry-run" in arguments:
             print(json.dumps({"workflow_contract_version": compact_workflow.VERSION,
-                              "headword": word,
+                              "headword": headword, "slug": word,
                               "stages": ["research_and_draft", "mechanical_validation",
                                          "independent_review_A", "independent_review_B",
                                          "resolve_findings", "affected_area_verification",
@@ -227,7 +228,7 @@ if __name__ == "__main__":
             raise SystemExit(0)
         entry = REPO_ROOT / "entries" / word[0] / (word + ".md")
         inventory = REPO_ROOT / "audits/runs" / word[0] / word / "source_inventory.json"
-        path = compact_workflow.start(word, entry, inventory)
+        path = compact_workflow.start(headword, entry, inventory)
         print(path.relative_to(REPO_ROOT))
         raise SystemExit(0)
     if "--legacy" in arguments:
