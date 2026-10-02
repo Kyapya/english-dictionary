@@ -1,0 +1,85 @@
+{
+  "schema_version": "compact_review_response_v1",
+  "checked_areas": [
+    "pronunciation",
+    "etymology",
+    "word_formation",
+    "usage_preamble",
+    "sense:0f41baa72269820115b7"
+  ],
+  "unchecked_areas": [],
+  "findings": [],
+  "reviewer": {
+    "identity": "/root/review_dictionary_progress",
+    "role": "A",
+    "model": "unknown",
+    "model_identity_note": "The runtime model ID is unavailable; no model is inferred from the article metadata."
+  },
+  "reviewed_at": "2026-10-02T03:57:44.004492+00:00",
+  "binding": {
+    "request_sha256": "c99d7f34884525c46e6178c81655571196b3d55c628134274bad7da9085bb3da",
+    "snapshot_sha256": "2ef66b25c11932a5c574e74ecfdbbf5359dd2da3d19a7f8a9949e5155f28c56f",
+    "body_sha256": "7ab4cb3f10ff82598c27bdb6b6d36d965b973cbd186888bc07d58431f55599bf",
+    "entry_text_sha256": "b5a02a37a8fbd59fcb65a1ddf112cb59fb33687af5b2dc76848e15e0ecdaacf1",
+    "hashes_independently_verified": true
+  },
+  "coverage": {
+    "all_snapshot_lines_read": true,
+    "lines_read": [
+      1,
+      163
+    ],
+    "example_translation_pairs_read": 18,
+    "collocation_pairs_read": 10,
+    "comparison_pairs_read": 8,
+    "source_inventory_or_other_reviewer_verdicts_read": false,
+    "content_contracts_read": [
+      "AGENTS.md",
+      "prompts/compact_review_contract_v1.json",
+      "prompts/compact_entry_content_v1.md",
+      "prompts/entry_spec_v5.md"
+    ]
+  },
+  "notes": [
+    "All five requested areas were independently inspected in the exact immutable snapshot. No unresolved concrete content finding was established; this is not a claim that every possible usage or historical citation was exhaustively audited.",
+    "The common modern adjective is coherently kept in one numbered block. The brief slang and old cross-shaped notes are appropriately limited peripheral readings under the compact content contract; they do not require padding into separate full blocks. A core image is unnecessary for the one principal numbered sense.",
+    "All 18 examples are grammatical and their Japanese translations preserve the relevant meaning. The ten collocation frames, attributive/predicative uses, to/for/in complements, infinitives, mandative clauses and role/importance constructions align with their examples and explanations.",
+    "The required-action that-clause explanation appropriately permits the plain form, should and variety/context-dependent indicative usage. The degree-expression note does not impose a false ban: Oxford lists very as a collocate and Collins includes an edited most crucial example.",
+    "Synonym comparisons distinguish importance, necessity and decisiveness without asserting universally nonoverlapping meanings. The antonyms are correctly described as scalar, and not crucial is not falsely equated with wholly unimportant.",
+    "The frequency introduction accurately labels the values as global-English per-sense editorial estimates. All nine headword/comparison scores were assessed in context; no clear broad-band contradiction or mandatory numerical change was established.",
+    "The main IPA and two-syllable explanation are valid. Oxford uses a syllabic-l style of transcription while Collins/MW support the supplied schwa style; this notational difference does not establish an error.",
+    "The history is source-qualified and separates etymological cross imagery from the modern lexical meaning. The two cognates are genuine Latin-crux relatives. Crucially is an attested derivative with both modifying and discourse uses."
+  ],
+  "sources": [
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/crucial",
+      "access": "Direct original dictionary entry read",
+      "basis": "Main meaning; to/for/in, that and infinitival frames; predicative linking verbs; degree collocations; comparative lexical distinctions; French/Latin history and crossroads explanation."
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/crucial",
+      "access": "Direct edited dictionary entry and word history read; automatic web example feed not used as authoritative evidence",
+      "basis": "Broad importance and decisive contexts; people as crucial participants; older cross-shaped meaning; pronunciation; 1706 dating and cognate links."
+    },
+    {
+      "url": "https://www.collinsdictionary.com/dictionary/english/crucial",
+      "access": "Direct edited COBUILD/British/American entries read; automatic sentence feed not relied on",
+      "basis": "Schwa pronunciation, broad importance, superlative use, crucially constructions, slang good sense and cross-shaped incision reading."
+    },
+    {
+      "url": "https://www.etymonline.com/word/crucial",
+      "access": "Direct etymological entry read",
+      "basis": "French/Latin route, early cross-shaped use and later crossroads/logical-test development."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/crucially",
+      "access": "Direct original dictionary entry read",
+      "basis": "Attested adverb modifying importance and highlighting an important point."
+    }
+  ],
+  "limits": [
+    "No measured corpus analysis, audio measurement or new medical-practice claim was made. Peripheral medical wording is treated as a lexical historical/specialist note, not advice or a claim of present clinical frequency.",
+    "No other reviewer work, author verdict or source-inventory assessment was read. Only the request, its immutable article snapshot and specified contracts were inspected locally.",
+    "No repository article or remote state was changed; this original response is the only trial file written by this reviewer."
+  ]
+}
