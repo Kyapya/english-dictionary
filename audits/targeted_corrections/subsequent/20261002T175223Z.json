@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/s/subsequent.md",
+  "created_at": "2026-10-02T17:52:23Z",
+  "base_body_sha256": "0ab4b0499fdd42fd6ad25a26d51f473f710137023f1297122d4485480fbb471e",
+  "head_body_sha256": "372d86fe5adb72faf4b0de5472a1d19019fb60bdd97609aaa9939f842c92ce5f",
+  "diff_sha256": "6d1d9df2e2c4a0da70b7f132752f9a80c8b4ab99423315da7e75825b77101003",
+  "user_request": "Apply the accepted local pilot findings while preserving the single sense: explicitly teach predicative be subsequent to with its example, qualify normal non-gradability, and integrate the misplaced adverbial later comparison into ordinary usage prose rather than a stranded lexical block. The user authorized the three-entry quality correction exercise and requested its execution.",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "fresh independent scoped reviewer",
+    "verdict": "pass",
+    "notes": "One fresh independent reviewer inspected both exact changed hunks and necessary local context under the targeted contract, without reading prior pilot reports or other entries. Both hunks passed with no findings. The reviewer independently verified the exact request/base/head/diff hashes and checked the predicative and normal non-gradability claims against Cambridge, Oxford and Merriam-Webster, recording the Cambridge direct-open limit. This is not a new audit of untouched text. Original raw response SHA256: 488159a797c134436d655761bda271fae67a46216f6be369966ece8294efd90f. Model identity was unavailable. PI was reviewed with no new item."
+  },
+  "pi_processing": {
+    "status": "no_applicable",
+    "event_id": "targeted:subsequent:6d1d9df2e2c4"
+  }
+}
