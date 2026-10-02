@@ -1,0 +1,411 @@
+{
+  "schema_version": "compact_review_response_v1",
+  "assessment_kind": "full_original_entry_source_assessment",
+  "word": "take off",
+  "reviewer": {
+    "execution_identity": "/root/identify_unreviewed_entries",
+    "role": "B",
+    "model": "unknown",
+    "model_disclosure": "The actual execution model identifier is unavailable."
+  },
+  "version": {
+    "repository_ref": "cb6506666257dd2fdb962874acdfd1db06229b49",
+    "file_sha256": "517c06f52bbe7c5aa21860ada79df2a5702dc0d537452146f6eb80a01547a7e4",
+    "body_sha256": "1388f056fb8a9577fa057ac51ceb31fcd8b082b2b1039d2f2606d12805ddc642",
+    "packet_sha256": "29bd0dd173a3c7842bfe1a4fb9e3cd845ca8312e7b4ec5126e0a9b158f5311fe",
+    "all_bindings_verified": true
+  },
+  "checked_areas": [
+    "pronunciation",
+    "etymology",
+    "word_formation",
+    "core_image",
+    "sense:1",
+    "sense:2",
+    "sense:3",
+    "sense:4",
+    "sense:5",
+    "sense:6"
+  ],
+  "unchecked_areas": [],
+  "area_identifier_note": "The original full-assessment packet supplies no opaque compact area IDs. Descriptive section IDs bind coverage; gaps are assigned to the nearest existing section. core_image covers the claimed image inside etymology, not an unseen separate section.",
+  "inspection": {
+    "lines_read": [
+      1,
+      475
+    ],
+    "numbered_blocks_read": 6,
+    "standard_example_translation_pairs_read": 54,
+    "all_current_text_and_pairs_inspected": true,
+    "direct_source_pages_with_relevant_original_passages_inspected": 25,
+    "no_reviewer_A_report_consulted": true
+  },
+  "findings": [
+    {
+      "id": "TAKE-OFF-B1",
+      "area": "sense:1",
+      "severity": "blocking",
+      "taxonomy": "missing_major_sense",
+      "location": "Coverage gap across all six blocks",
+      "quote": "The six blocks contain flight, removal, success, leave, deduction and imitation, but no ordinary departure.",
+      "impact": "A learner cannot interpret the everyday use meaning leave or set out, including the reflexive construction.",
+      "evidence": "Collins COBUILD sense3, Oxford take off2 and MW intransitive1a all record ordinary departure; Collins explicitly includes the reflexive variant.",
+      "action": "Add a clearly taught departure meaning with take off, destination/direction frames and take oneself off. Distinguish departure from flight; suddenness is common, not compulsory.",
+      "sources": [
+        "https://www.collinsdictionary.com/dictionary/english/take-off",
+        "https://www.oxfordlearnersdictionaries.com/us/definition/english/take-off_1",
+        "https://www.merriam-webster.com/dictionary/take%20off"
+      ]
+    },
+    {
+      "id": "TAKE-OFF-B2",
+      "area": "sense:2",
+      "severity": "blocking",
+      "taxonomy": "missing_major_sense",
+      "location": "Coverage gap: take somebody off to a place",
+      "quote": "Only clothing/accessory removal and imitation cover transitive human-related uses.",
+      "impact": "The article cannot explain taking another person away, which differs from going away oneself and from impersonation.",
+      "evidence": "Collins COBUILD sense6 independently records causative taking-away; Oxford lists the corresponding somebody/reflexive construction.",
+      "action": "Teach take somebody off to a place with a matched example; distinguish the agent and person moved, and do not make reluctance compulsory.",
+      "sources": [
+        "https://www.collinsdictionary.com/dictionary/english/take-off",
+        "https://www.oxfordlearnersdictionaries.com/us/definition/english/take-off_1"
+      ]
+    },
+    {
+      "id": "TAKE-OFF-B3",
+      "area": "sense:2",
+      "severity": "blocking",
+      "taxonomy": "missing_major_sense",
+      "location": "Coverage gap: withdrawal from service, participation, duties or equipment",
+      "quote": "The current removal block is limited to things worn or attached.",
+      "impact": "Common programme withdrawal, player substitution and removal from a task/support are left unexplained.",
+      "evidence": "Collins COBUILD sense8 covers withdrawn services/programmes; Oxford separately records sports/stage removal and taking a person off a job or equipment.",
+      "action": "Add proportionate withdrawal/removal coverage with the distinct object and complement frames. Show passive use and distinguish taking time off oneself. Do not compress every construction into the clothing definition.",
+      "sources": [
+        "https://www.collinsdictionary.com/dictionary/english/take-off",
+        "https://www.oxfordlearnersdictionaries.com/us/definition/english/take-off_1",
+        "https://www.merriam-webster.com/dictionary/take%20off"
+      ]
+    },
+    {
+      "id": "TAKE-OFF-B4",
+      "area": "sense:2",
+      "severity": "minor",
+      "taxonomy": "scope_qualification",
+      "location": "Lines114–144",
+      "quote": "衣服、靴、帽子、アクセサリー、カバーなどを身につけた状態・付いた状態から外すこと。",
+      "impact": "The physical removal explanation gives little guidance for ordinary removal from a surface or cutting away hair/body material.",
+      "evidence": "Oxford take verb remove section supplies the off-source construction; the phrasal entry explicitly includes hair/body removal.",
+      "action": "Extend the existing removal treatment with a concise take something off a surface/source frame and a cutting/removal qualification. This need not force another numbered block.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/us/definition/english/take-off_1",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/take_1"
+      ]
+    },
+    {
+      "id": "TAKE-OFF-B5",
+      "area": "sense:1",
+      "severity": "minor",
+      "taxonomy": "unsupported_generalization",
+      "location": "Line71, compared with58",
+      "quote": "航空機が主語の自動詞。",
+      "impact": "This categorical subject claim conflicts with the article’s own We took off example.",
+      "evidence": "Collins’s edited flight example also uses human we as the subject. The travelers or crew may stand for the departing flight.",
+      "action": "Say aircraft are typical subjects and travelers/crew may also be subjects; retain the intransitive analysis for this use.",
+      "sources": [
+        "https://www.collinsdictionary.com/dictionary/english/take-off"
+      ]
+    },
+    {
+      "id": "TAKE-OFF-B6",
+      "area": "sense:1",
+      "severity": "minor",
+      "taxonomy": "scope_qualification",
+      "location": "Lines82–86",
+      "quote": "定義: 垂直に離昇する、打ち上がる。",
+      "impact": "The definition makes vertical ascent a requirement of lift off, excluding ordinary runway usage.",
+      "evidence": "Oxford gives the familiar rocket/helicopter association; FAA Departure Procedures, Takeoff Obstacles item2 uses lift off for aircraft near a runway’s departure end.",
+      "action": "Define leaving the surface/rising into flight, with vertical rocket/helicopter use as a typical association rather than an exclusive condition. Preserve the rocket example.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/lift-off_1",
+        "https://www.faa.gov/air_traffic/publications/aim_html/chap5_section_2.html"
+      ]
+    },
+    {
+      "id": "TAKE-OFF-B7",
+      "area": "etymology",
+      "severity": "minor",
+      "taxonomy": "scope_qualification",
+      "location": "Line22",
+      "quote": "take は古英語系の語",
+      "impact": "This can imply a native Old English origin and omit the important borrowing history.",
+      "evidence": "Oxford take and Etymonline both trace the late Old English form to a Scandinavian/Old Norse source. Old English attestation itself is supported.",
+      "action": "Clarify late Old English tacan from Old Norse/Scandinavian taka; do not say that the Old English stage is nonexistent.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/take_1",
+        "https://www.etymonline.com/word/take"
+      ]
+    },
+    {
+      "id": "TAKE-OFF-B8",
+      "area": "etymology",
+      "severity": "minor",
+      "taxonomy": "insufficient_evidence",
+      "location": "Lines24–28; also the proposed common image",
+      "quote": "特徴を取り出してまねる",
+      "impact": "A proposed learning metaphor is presented inside etymology as though it established the historical development of imitation.",
+      "evidence": "Etymonline documents earlier copying/reproduction and later mimicry; it does not establish the stated extraction-of-features derivation.",
+      "action": "Use the documented copying/imitation history, or explicitly mark the image as a mnemonic. Do not force a single historical or modern kernel across every meaning without support.",
+      "sources": [
+        "https://www.etymonline.com/word/takeoff"
+      ]
+    },
+    {
+      "id": "TAKE-OFF-B9",
+      "area": "sense:2",
+      "severity": "minor",
+      "taxonomy": "unsupported_generalization",
+      "location": "Lines162–166",
+      "quote": "strip off は勢いや乱暴さがあり",
+      "impact": "A learner may incorrectly infer that removing clothes with strip off necessarily involves force or roughness.",
+      "evidence": "Oxford strip and Collins strip off give ordinary clothing-removal uses without requiring roughness; the current wet-shirt example does not establish it.",
+      "action": "Qualify any energetic/quick connotation as contextual or typical and remove mandatory roughness from the contrast. Keep the existing example.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/strip_2",
+        "https://www.collinsdictionary.com/dictionary/english/strip-off"
+      ]
+    },
+    {
+      "id": "TAKE-OFF-B10",
+      "area": "sense:3",
+      "severity": "minor",
+      "taxonomy": "unsupported_generalization",
+      "location": "Lines228–240",
+      "quote": "gain momentum は徐々に勢いがつく過程を表す。／flourish は安定した繁栄に焦点",
+      "impact": "The comparison turns pace/stability tendencies into defining requirements.",
+      "evidence": "Oxford momentum concerns increasing/developing impetus without a mandatory gradual pace; Oxford flourish explicitly includes quick successful development as well as sustained thriving.",
+      "action": "Distinguish increasing impetus and thriving from take off’s sudden onset; do not require gradualness or stability. Preserve examples and avoid arbitrary score changes.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/momentum",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/flourish_1"
+      ]
+    },
+    {
+      "id": "TAKE-OFF-B11",
+      "area": "sense:4",
+      "severity": "minor",
+      "taxonomy": "scope_qualification",
+      "location": "Heading258 and line290",
+      "quote": "【句動詞/他動詞】／take off work は米語で自然",
+      "impact": "The useful US objectless use is taught under an exclusively transitive label with only duration-object frames.",
+      "evidence": "Collins American meaning includes absenting oneself from work; Etymonline independently records the US school/work absence use.",
+      "action": "Retain the supported variant, but explicitly distinguish take a day/time off from objectless take off (work) and align the block label/grammar.",
+      "sources": [
+        "https://www.collinsdictionary.com/dictionary/english/take-off",
+        "https://www.etymonline.com/word/takeoff"
+      ]
+    },
+    {
+      "id": "TAKE-OFF-B12",
+      "area": "sense:5",
+      "severity": "minor",
+      "taxonomy": "unsupported_generalization",
+      "location": "Line363",
+      "quote": "数量目的語があるかで見分ける。",
+      "impact": "Both leave and deduction can contain numerical duration objects, so this diagnostic fails.",
+      "evidence": "The same article has take a week off work and take two seconds off the record; dictionary entries distinguish leave from subtraction by meaning and complement, not merely a number.",
+      "action": "Contrast a period of absence from work with an amount removed from a total/record; use the work/record or price complement and context.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/take%20off",
+        "https://www.oxfordlearnersdictionaries.com/us/definition/english/take-off_1"
+      ]
+    },
+    {
+      "id": "TAKE-OFF-B13",
+      "area": "sense:6",
+      "severity": "minor",
+      "taxonomy": "insufficient_evidence",
+      "location": "Line410",
+      "quote": "主に英式、演芸、会話、やや古めの表現。",
+      "impact": "The datedness label is not established by the inspected current edited references.",
+      "evidence": "Collins marks the imitation verb mainly British; Cambridge’s first-party indexed entry marks UK informal. Neither inspected passage supplies the asserted old-fashioned qualification.",
+      "action": "Keep supported regional/informal limits, and either source or remove the separate datedness claim. Do not infer obsolescence from a low editorial score.",
+      "sources": [
+        "https://www.collinsdictionary.com/dictionary/english/take-off",
+        "https://dictionary.cambridge.org/us/dictionary/english/take-off?q=take-off_1"
+      ]
+    },
+    {
+      "id": "TAKE-OFF-B14",
+      "area": "sense:6",
+      "severity": "minor",
+      "taxonomy": "scope_qualification",
+      "location": "Lines412 and431–434",
+      "quote": "do a takeoff of + 作品/人物／The sketch was a takeoff of a famous detective show.",
+      "impact": "A noun construction is counted as a transitive phrasal-verb frame, and the example uses be rather than the displayed do frame.",
+      "evidence": "Oxford and Collins separate the related noun and its parody meaning from the phrasal verb. The English example itself is sound.",
+      "action": "Move or clearly label the related-noun usage and give its actual be a takeoff of frame; preserve the original pair. Keep ordinary related noun coverage proportionate.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/us/definition/english/take-off_2",
+        "https://www.collinsdictionary.com/dictionary/english/takeoff"
+      ]
+    },
+    {
+      "id": "TAKE-OFF-B15",
+      "area": "sense:2",
+      "severity": "minor",
+      "taxonomy": "scope_qualification",
+      "location": "Relations in2,4,5,6: lines178–183,301–313,397–402,470–475",
+      "quote": "wear under antonyms; be off/call in sick under synonyms; charge and speak naturally under antonyms",
+      "impact": "These selected meanings describe a state, notification or contextual contrast rather than the same action or its direct reverse.",
+      "evidence": "Oxford wear denotes having clothing on; call in is communication; charge can ask a reduced price; naturally can mean relaxed/normal. None makes these automatically direct lexical opposites or synonyms of the selected take-off action.",
+      "action": "Preserve useful pairs in explicitly labelled state/notification/contextual comparisons. Retain direct pairs such as put on versus take off and add versus deduct. Speak naturally should not be presented as inherently incompatible with imitation. Be oneself can remain a qualified contextual contrast rather than forcing replacement words.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/wear_1",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/call-in_1",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/charge_2",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/naturally"
+      ],
+      "affected_areas": [
+        "sense:2",
+        "sense:4",
+        "sense:5",
+        "sense:6"
+      ]
+    }
+  ],
+  "recommended_workflow": "normal_compact_reevaluation",
+  "workflow_rationale": "Several material modern meanings and constructions are missing. Correcting this article requires genuine normal review of the expanded text rather than forcing the changes into targeted acceptance. This report is only the original-entry assessment.",
+  "coverage_adjudication": [
+    "Ordinary departure, reflexive departure, causative taking-away, service withdrawal, participant substitution and removal from duties/equipment warrant clear modern coverage. The final number of blocks should follow meaning and construction distinctions rather than a target count.",
+    "MW also explicitly records beginning a leap. A short sports/jumping extension is useful and can be placed proportionately; it does not automatically require a large independent block. Physical hair/body removal and removal from a surface likewise need concise guidance rather than inflated coverage.",
+    "The related noun takeoff/take-off is genuinely separate, with first-element stress and both spellings attested. Its aviation, growth and parody meanings are already mentioned. Preserve useful derived-word guidance and classify its example correctly; this phrase article need not duplicate every specialist noun sense.",
+    "Dictionary-recorded peripheral senses such as killing, robbing, branching and the noun power-transmission mechanism were considered. The general learner entry need not create a full block for each; any brief inclusion should carry an evidence-backed scope and avoid invented archaic or regional labels.",
+    "The displayed British and American off vowel variants are supported by Oxford and Cambridge, respectively; MW provides the phrasal stress pattern and the noun contrast. Cambridge support is indexed first-party text only because direct retrieval failed. No audio was auditioned.",
+    "The separable clothing/object pattern and pronoun-between guidance are sound for that particle construction. The expanded article must distinguish the off-source complement and reflexive/causative departure constructions instead of applying a blanket argument analysis.",
+    "The original 54 English/Japanese pairs were read. Beyond the identified scope/frame problems, no invented translation fault is asserted. The six original frequency scores and comparison scores are editorial per-sense bands; no exact numerical replacement or corpus precision is required by this review.",
+    "Current-v5 mechanical compliance requires modern body headings, fullwidth headings preserved, normalized frequency/placeholder notation and paragraph spacing. Remove headword-self formation duplication and put grammar in grammar fields. Preserve original prompt_version metadata unless the actual normal workflow legitimately changes it; format checking is separate from linguistic correctness.",
+    "No new universal core is prescribed. A mnemonic must be separated from history and honestly qualified for the imitation branch, or omitted when it fails the current core contract."
+  ],
+  "sources": [
+    {
+      "url": "https://www.merriam-webster.com/dictionary/take%20off",
+      "access": "Direct original page opened; relevant edited dictionary or official institutional passage inspected, not an assertion that the entire website was reviewed."
+    },
+    {
+      "url": "https://www.collinsdictionary.com/dictionary/english/take-off",
+      "access": "Direct original page opened; relevant edited dictionary or official institutional passage inspected, not an assertion that the entire website was reviewed."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/take_1",
+      "access": "Direct original page opened; relevant edited dictionary or official institutional passage inspected, not an assertion that the entire website was reviewed."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/us/definition/english/take-off_2",
+      "access": "Direct original page opened; relevant edited dictionary or official institutional passage inspected, not an assertion that the entire website was reviewed."
+    },
+    {
+      "url": "https://www.etymonline.com/word/take",
+      "access": "Direct original page opened; relevant edited dictionary or official institutional passage inspected, not an assertion that the entire website was reviewed."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/us/definition/english/take-off_1",
+      "access": "Direct original page opened; relevant edited dictionary or official institutional passage inspected, not an assertion that the entire website was reviewed."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/lift-off_1",
+      "access": "Direct original page opened; relevant edited dictionary or official institutional passage inspected, not an assertion that the entire website was reviewed."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/momentum",
+      "access": "Direct original page opened; relevant edited dictionary or official institutional passage inspected, not an assertion that the entire website was reviewed."
+    },
+    {
+      "url": "https://www.etymonline.com/word/takeoff",
+      "access": "Direct original page opened; relevant edited dictionary or official institutional passage inspected, not an assertion that the entire website was reviewed."
+    },
+    {
+      "url": "https://www.collinsdictionary.com/dictionary/english/strip-off",
+      "access": "Direct original page opened; relevant edited dictionary or official institutional passage inspected, not an assertion that the entire website was reviewed."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/strip_2",
+      "access": "Direct original page opened; relevant edited dictionary or official institutional passage inspected, not an assertion that the entire website was reviewed."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/impersonate",
+      "access": "Direct original page opened; relevant edited dictionary or official institutional passage inspected, not an assertion that the entire website was reviewed."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/wear_1",
+      "access": "Direct original page opened; relevant edited dictionary or official institutional passage inspected, not an assertion that the entire website was reviewed."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/flourish_1",
+      "access": "Direct original page opened; relevant edited dictionary or official institutional passage inspected, not an assertion that the entire website was reviewed."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/deduct",
+      "access": "Direct original page opened; relevant edited dictionary or official institutional passage inspected, not an assertion that the entire website was reviewed."
+    },
+    {
+      "url": "https://www.faa.gov/air_traffic/publications/aim_html/chap5_section_2.html",
+      "access": "Direct original page opened; relevant edited dictionary or official institutional passage inspected, not an assertion that the entire website was reviewed."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/call-in_1",
+      "access": "Direct original page opened; relevant edited dictionary or official institutional passage inspected, not an assertion that the entire website was reviewed."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/off_1",
+      "access": "Direct original page opened; relevant edited dictionary or official institutional passage inspected, not an assertion that the entire website was reviewed."
+    },
+    {
+      "url": "https://www.collinsdictionary.com/dictionary/english/takeoff",
+      "access": "Direct original page opened; relevant edited dictionary or official institutional passage inspected, not an assertion that the entire website was reviewed."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/touch-down",
+      "access": "Direct original page opened; relevant edited dictionary or official institutional passage inspected, not an assertion that the entire website was reviewed."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/discount_2",
+      "access": "Direct original page opened; relevant edited dictionary or official institutional passage inspected, not an assertion that the entire website was reviewed."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/subtract",
+      "access": "Direct original page opened; relevant edited dictionary or official institutional passage inspected, not an assertion that the entire website was reviewed."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/depart",
+      "access": "Direct original page opened; relevant edited dictionary or official institutional passage inspected, not an assertion that the entire website was reviewed."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/charge_2",
+      "access": "Direct original page opened; relevant edited dictionary or official institutional passage inspected, not an assertion that the entire website was reviewed."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/naturally",
+      "access": "Direct original page opened; relevant edited dictionary or official institutional passage inspected, not an assertion that the entire website was reviewed."
+    }
+  ],
+  "indexed_only_sources": [
+    {
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/take-off?q=take-off_1",
+      "supports": "UK informal imitation and ordinary removal/departure; direct open failed, first-party indexed text only."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/off",
+      "supports": "US /ɑːf/ and UK /ɒf/ plus removal examples; direct open failed, first-party indexed text only."
+    }
+  ],
+  "retrieval_limits": [
+    "The unsuffixed Oxford take-off starter failed; following the verified noun-entry link obtained the actual take-off_1 phrasal page. Duplicate anchor clicks returned the same page and are counted once.",
+    "Unsuffixed Oxford lift-off, strip-off and call-in starters, Oxford strip-off_1, MW lift-off and Etymonline take-off failed. Verified alternatives supplied the relevant content where used. Oxford strip_1 resolved to the noun, not the target verb; the actual strip_2 passage was used.",
+    "Oxford oneself did not supply the searched idiom passage; it is not counted as evidence for a be-oneself verdict. Search results from secondary sites, Reddit and historical research leads were not adopted.",
+    "The FAA HTML page was directly opened and used only as lexical evidence of runway lift-off. The FAA handbook PDF search result was not claimed to have been opened or visually inspected.",
+    "No audio, exhaustive corpus search, measured occurrence counts, medical practice advice, flight-operation validation or publication verification was performed."
+  ],
+  "conclusion": "Normal reevaluation is required: three blocking coverage findings and twelve local scope/evidence/construction findings. Original snapshot only; no corrected text or scoped acceptance is presumed."
+}
