@@ -1,0 +1,41 @@
+{
+  "schema_version": "compact_review_response_v1",
+  "checked_areas": [
+    "pronunciation",
+    "etymology",
+    "word_formation",
+    "sense:32aa7a32527eccbb1517",
+    "sense:828ce8cca59c7863341d",
+    "sense:d7849d4976e9bd82daf5",
+    "sense:25711a14bbe8f9080132",
+    "sense:3ebffb8d2f6dacc1510f",
+    "sense:2bce90c1d62676f49eac",
+    "sense:fc736ea7aaffac30536d",
+    "sense:6bb6cbd3b2be653d0a78",
+    "sense:8cfbbc23d0246884a31c",
+    "sense:f1d8f33cb748a3277923",
+    "sense:f1ec7e38db949e7fb88e",
+    "sense:f8077927313352c74bf0",
+    "sense:f955d12065a249e23717",
+    "sense:b4edb7655b820beaad7b",
+    "sense:aed4590d1b149a89c634",
+    "sense:b4e158476ebe9f0314f9"
+  ],
+  "unchecked_areas": [],
+  "findings": [
+    {
+      "area": "sense:f955d12065a249e23717",
+      "severity": "minor",
+      "impact": "語義13の注記は別用法であること自体は明示しているが、得点する側のダンクと守備側の阻止について、誰が何を目的語にして行うかを例文で学べない。直前の唯一のフレーム stuff 〈相手・相手チーム〉を米国の各プレーにも流用できるかが分からず、掲載済みの用法を自分で使うための情報が不足している。",
+      "evidence": "【語法・注意】に続く「周辺の別用法」で「ダンクする」「シュートを阻止する」「ボールを持つ相手の前進を止める」と可算名詞 a stuff を一括して紹介しているが、対応する文法パターン・中心例文はない。語義13の定義と唯一の見出し語例は試合全体での大差の勝利である。Cambridge はダンクする他動詞を米国用法として、Merriam-Webster はボール等をゴールへ押し込む用法とボール保持者を止める用法を区別しており、目的語と行為者の役割を分ける根拠がある（https://dictionary.cambridge.org/us/dictionary/english/stuff ; https://www.merriam-webster.com/dictionary/stuff）。",
+      "action": "米国のプレー用法を簡潔な独立の語義・用例単位へ移し、少なくともダンクの stuff the ball と守備の stuff 〈シュート／ボール保持者〉について、スポーツと行為者が分かる短い例文・訳を付ける。可算名詞を残す場合は対応する名詞用法も明示する。語義13の注意欄は、それらと試合全体での勝利との違いを示す短い参照にする。"
+    },
+    {
+      "area": "sense:32aa7a32527eccbb1517",
+      "severity": "editorial",
+      "impact": "類義語 belongings の日本語例に同じ「持つ」が重なり、英語の with you が示す、持ち物を置き去りにせず携行する意図がやや読み取りにくい。意味を逆転させる誤訳ではなく、任意の自然さの改善である。",
+      "evidence": "Please take your belongings with you. の訳が「お持ち物をお持ちください。」となっている。",
+      "action": "任意の推敲として「持ち物は忘れずにお持ちください。」など、携行する意図が自然に伝わる日本語へ整える。"
+    }
+  ]
+}
