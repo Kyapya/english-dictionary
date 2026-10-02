@@ -5,14 +5,14 @@ status: checked
 prompt_version: entry_spec_v5
 model: unknown
 created_at: 2026-08-23
-updated_at: 2026-08-23
+updated_at: 2026-10-02
 checked: true
 tags: []
 ---
 
 ＃発音記号
 
-米: /ˈprɪvəlɪdʒ/（/ˈprɪvlɪdʒ/ とも）｜英: /ˈprɪvəlɪdʒ/。基本形は3音節の `PRIV-uh-lij` で、第1音節に主強勢がある。米音では第2音節の弱母音を省いた2音節の発音も辞書に載るが、主強勢の位置は変わらない。語末の /dʒ/ は有声の破擦音で、綴りの `-lege` を「レッジ」と読む。名詞・動詞で基本の発音は同じである。複数形・三人称単数 privileges は /ˈprɪvəlɪdʒɪz/、過去形・過去分詞 privileged は /ˈprɪvəlɪdʒd/、-ing形 privileging は /ˈprɪvəlɪdʒɪŋ/。  
+米: /ˈprɪvəlɪdʒ/（/ˈprɪvlɪdʒ/ とも）｜英: /ˈprɪvəlɪdʒ/。基本形は3音節の `PRIV-uh-lij` で、第1音節に主強勢がある。米音では第2音節の弱母音を省いた2音節の発音も辞書に載るが、主強勢の位置は変わらない。語末の /dʒ/ は有声の破擦音で、綴りの `-lege` は /lɪdʒ/ で、母音は /e/ ではなく /ɪ/ である。名詞・動詞で基本の発音は同じである。複数形・三人称単数 privileges は /ˈprɪvəlɪdʒɪz/、過去形・過去分詞 privileged は /ˈprɪvəlɪdʒd/、-ing形 privileging は /ˈprɪvəlɪdʒɪŋ/。  
 
 ＃語源
 
@@ -21,21 +21,21 @@ tags: []
 
 ＃語形成
 
-・privileged：過去形・過去分詞から発達した形容詞。「特権を持つ、恵まれた」または「法的に開示から保護された」。後者は `privileged communication` のような法律用法である。  
-・privileging：動詞 *privilege* の現在分詞・動名詞。「特定の人・考えなどを特別扱いすること／しながら」。  
+・privileged：過去形・過去分詞から発達した形容詞。「特権を持つ、恵まれた」「限られた人だけが利用・入手できる」、または「法的に保護された」。法的な保護は `privileged communication` などに見られるが、情報が限られた人にだけ知られているという一般的な用法もある。  
+・privileging：動詞 *privilege* の現在分詞・動名詞。「特定の人・考えなどを特別扱いする、優先する」という動作や、その行為を表す。  
 ・underprivileged：*under-*「下に、不十分に」＋*privileged*。社会的・経済的に十分な機会や資源を与えられていない。*privilege* の単純な反意語というより、社会的条件を表す定着した形容詞である。  
-・privileges：名詞の複数形、または動詞 *privilege* の三人称単数現在形。複数形の名詞では制度・組織上の複数の特典を表しやすい。  
+・privileges：名詞の複数形、または動詞 *privilege* の三人称単数現在形。複数形の名詞では制度・組織上の複数の特典や、情報システム上の操作権限を表すことがある。  
 
 ＃コアイメージ
 
-現代英語の共通核は、「一部の人・立場・対象に、通常以上の権利・利益・保護・機会・重みが与えられること」である。必ず法的に成立した権利を指すわけではなく、社会的に見えにくい優位や、話者が感じる光栄も含む。  
-・特定の人・立場に与えられる特別な権利や便宜 → 「特権、特別な権利・便宜」（語義1）  
+多くの用法をつなぐ核は、「特定の人・立場・対象に、特別な権利・利益・保護・機会・重みが認められること」である。社会的な優位や光栄にも広がるが、憲法上の権利を指す用法では、一部の人だけへの優遇に限定されない。  
+・特定の人・立場に認められる権利や便宜 → 「特権、特別な権利・便宜」（語義1）  
 ・社会的な立場に伴う特別な優位 → 「社会的な特権、恵まれた立場・優位」（語義2）  
-・特別に与えられた機会への誇りや感謝 → 「光栄、特別な機会」（語義3）  
-・法的に特定の立場へ与えられる特別な保護 → 「法的特権、免除・免責、開示拒絶権」（語義4）  
-・人・考えなどへ特別な重みを与える行為 → 「特別扱いする、優先する」（語義5）  
-・特別な権利や優位を持つ人・立場 → 「特権を持つ、恵まれた」（語義6）  
-・法的な開示義務から特別に守られる情報など → 「法的に保護された、開示特権のある」（語義7）  
+・特別な機会への誇りや感謝 → 「光栄、特別な機会」（語義3）  
+・法により認められる権利・保護 → 「法的な権利・特権、免除・免責、開示拒絶権」（語義4）  
+・人・考えなどへ特別な重みを与える行為 → 「（人・考えなどを）特別扱いする、優先する」（語義5）  
+・特別な権利や優位を持つ人・立場 → 「privileged（人・立場が）特権を持つ、恵まれた」（語義6）  
+・法的な保護が及ぶ情報・通信など → 「privileged（情報・通信などが）法的に保護された、開示特権のある」（語義7）  
 
 ＃意味・用法・関連表現
 
@@ -61,7 +61,7 @@ tags: []
 例: Members have the privilege of using the library after hours.  
 訳: 会員には閉館後に図書館を利用する特典がある。  
 
-・grant/allow/extend a privilege to someone  
+・grant/allow/extend a privilege to someone / grant someone a privilege  
 用途: 人に特権・便宜を与えることを表す。*extend* はやや正式で、既存の特典を適用する含みがある。  
 例: The board granted the athlete the privilege of training with the senior team.  
 訳: 理事会はその選手に、上級チームと練習する特別な機会を与えた。  
@@ -81,7 +81,7 @@ tags: []
 例: Do not abuse the privilege of working remotely.  
 訳: リモート勤務を認められている特権を乱用してはいけない。  
 
-・lose/have privileges taken away  
+・lose privileges / have privileges taken away  
 用途: 規則違反などにより、複数の特典・自由を失うことを表す。*have privileges taken away* は「特権を取り上げられる」。  
 例: Students may lose computer privileges if they ignore the security rules.  
 訳: 学生はセキュリティ規則を無視すると、コンピューター利用の特典を失うことがある。  
@@ -91,10 +91,12 @@ tags: []
 例: The curator has the privilege of access to the restricted collection.  
 訳: その学芸員には、制限付きコレクションへのアクセス特権がある。  
 
-【語法・注意】この語義の *privilege* は通常可算名詞で、単数なら *a/the privilege*、複数なら複数の特典や自由を表す。`privilege` を「誰にでも認められる基本的な権利」の意味で無条件に使わず、一般性を強調するなら *right* のほうが自然なことが多い。ただし、法律上の特別な権利は語義4のように *privilege* と呼ばれる。  
+【語法・注意】この語義の *privilege* は通常可算名詞で、単数なら *a/the privilege*、複数なら複数の特典や自由を表す。`privilege` を「誰にでも認められる基本的な権利」の意味で無条件に使わず、一般性を強調するなら *right* のほうが自然なことが多い。ただし、憲法などが保障する基本的な権利を privileges と呼ぶ法律用法もある（語義4）。  
 
 `the privilege of + 動名詞` は、許可・便宜を表すときにも、話者が「光栄だ」と感じる機会を表すときにも使える。前者は限定された利用権、後者は語義3の定型的な丁寧表現であり、文脈で区別する。特権を与える側は *grant/allow a privilege to 人*、特権を受ける側は *have/enjoy a privilege* とする。  
 `privileges` は、会員・囚人・学生などに認められる複数の利用権を表すことが多い。*take away someone's privileges* は「人の特典・自由を取り上げる」で、単一の法的権利の取消しだけを指すとは限らない。  
+
+情報システムでは、user privileges「ユーザー権限」、administrative privileges「管理者権限」のように、許可されたアクセスや操作の範囲を指す。日常の「特典」や社会階級ではなく、システム上の権限として読む。  
 
 【類義語】
 
@@ -117,7 +119,7 @@ tags: []
 頻度: 〈6/10〉  
 違い: privilege より硬く、一般的な便宜よりも、君主・役職者・権限者が判断・行動できる権能を表しやすい。  
 例: Choosing the speaker is the chair's prerogative.  
-訳: 議長を選ぶのは議長の裁量権である。  
+訳: 発言者を選ぶのは議長の裁量権である。  
 
 ・benefit  
 定義: 行為・制度・立場などから得られる利益や便益。  
@@ -155,7 +157,7 @@ tags: []
 
 ・a life of privilege  
 用途: 富や地位に恵まれ、苦労や制約が比較的少ない生活を表す。  
-例: He grew up in a life of privilege and had little experience of financial insecurity.  
+例: He grew up enjoying a life of privilege and had little experience of financial insecurity.  
 訳: 彼は恵まれた環境で育ち、経済的不安をほとんど経験しなかった。  
 
 ・benefit from privilege  
@@ -178,6 +180,15 @@ tags: []
 社会的特権は、特定の人が誰かに個別に「与えた」権利とは限らない。したがって「特権を持つ人は必ず意識的に差別している」と一般化しない。*privilege* と *wealth* は重なり得るが同じではなく、富がなくても制度・文化上の優位が存在する場合がある。  
 `check your privilege` は「自分の社会的な立場が発言や見方に与える影響を自覚せよ」という批判的・促しの表現で、単なる「特権を確認する」という事務的な意味ではない。  
 
+関連する対比として、次の心理を区別する。  
+
+・entitlement  
+定義: 自分には特別な扱いを受ける資格があると考える態度。  
+頻度: 〈7/10〉  
+違い: privilege が実際の社会的優位を指すのに対し、ここでの entitlement は特別扱いを受けて当然だという心理を指す。実際に有利な立場にあることとは別である。  
+例: His sense of entitlement made him expect special treatment.  
+訳: 彼の特別扱いを受けて当然だという意識が、特別待遇を期待させた。  
+
 【類義語】
 
 ・advantage  
@@ -193,13 +204,6 @@ tags: []
 違い: privilege と近いが、privilege のような権力関係への批判や「当然視され見えにくい」含みは弱い。  
 例: Family connections can provide a social advantage.  
 訳: 家族の人脈は社会的な優位をもたらすことがある。  
-
-・entitlement  
-定義: 自分には特別な扱いを受ける資格があると考える態度、または制度上の受給権。  
-頻度: 〈7/10〉  
-違い: privilege が実際の社会的優位を指すのに対し、entitlement はその優位を当然視する心理や請求資格を指しやすい。  
-例: His sense of entitlement made him expect special treatment.  
-訳: 彼の特別扱いを受けて当然だという意識が、特別待遇を期待させた。  
 
 ・power  
 定義: 他者や制度に影響を及ぼし、結果を左右できる力。  
@@ -232,11 +236,11 @@ tags: []
 
 【レジスター/領域】丁寧な会話、式典、挨拶、スピーチ、公式文書などのフォーマルな表現。社交辞令として使われることもあるため、必ずしも強い個人的感情を意味しない。  
 
-【文法パターン】It is a privilege to 〈動詞〉＝～できて光栄だ／have the privilege of 〈動名詞〉＝～する機会を得て光栄だ／It was my privilege to 〈動詞〉＝私にとって～できたことは光栄だった／the privilege of meeting/serving/working with 〈人〉＝人に会う・仕える・一緒に働く光栄。  
+【文法パターン】It is a privilege to 〈動詞〉＝～できて光栄だ／have the privilege of 〈動名詞〉＝～する機会を得て光栄だ／It was my privilege to 〈動詞〉＝私にとって～できたことは光栄だった／the privilege of meeting 〈人〉／the privilege of serving 〈人〉／the privilege of working with 〈人〉＝人に会う・仕える・一緒に働く光栄。  
 
 【コロケーション】
 
-・It is a privilege to meet you  
+・It is a privilege to meet 〈人〉  
 用途: 初対面や改まった場で「お会いできて光栄です」と丁寧に述べる。  
 例: It is a privilege to meet the scientist whose work inspired us.  
 訳: 私たちに着想を与えたその科学者にお会いできて光栄です。  
@@ -296,15 +300,17 @@ tags: []
 例: The internship gave him an opportunity to study abroad.  
 訳: そのインターンシップは彼に海外で学ぶ機会を与えた。  
 
-4. 【名詞・可算・不可算・法律】法的特権、免除・免責、開示拒絶権
+4. 【名詞・可算・不可算・法律】法的な権利・特権、免除・免責、開示拒絶権
 
 【日本語訳・定義】法律や手続きにより、特定の立場・関係・行為について、通常なら負う義務、責任、証言・情報開示などを免除したり拒めるようにしたりする特別な保護。`attorney-client privilege` のように、特定の通信・情報を法的手続きで開示しなくてよい制度を指すことがある。また、職務上の行為について責任を問われない抗弁・免責を指す法分野もある。具体的な成立要件、放棄の効果、対象範囲は法域・制度ごとに異なる。  
+
+憲法上の文脈では、privileges and immunities などの形で、市民に保障される基本的な権利を含むこともある。この用法は「一部の人だけへの優遇」とは限らず、個々の条文に即して読む。  
 
 【頻度】〈6/10〉  
 
 【レジスター/領域】法律、裁判、証拠開示、政府・議会、弁護士・依頼人の通信などの専門用法。一般の *secret* や *confidentiality* と同義ではない。  
 
-【文法パターン】attorney-client/executive/parliamentary privilege＝弁護士・依頼人間／行政機関・議会の特権／assert/invoke/claim privilege＝特権を主張・援用する／waive privilege＝特権を放棄する／be protected by privilege＝特権によって保護される／privilege against self-incrimination＝自己負罪拒否特権。  
+【文法パターン】attorney-client privilege＝弁護士・依頼人間の秘匿特権／executive privilege＝行政特権／parliamentary privilege＝議会特権／assert/invoke/claim privilege＝特権を主張・援用する／waive privilege＝特権を放棄する／be protected by privilege＝特権によって保護される／privilege against self-incrimination＝自己負罪拒否特権。  
 
 【コロケーション】
 
@@ -319,7 +325,7 @@ tags: []
 訳: 大統領は内部メモの開示を拒むために行政特権を援用した。  
 
 ・parliamentary privilege  
-用途: 議員が議会活動に関連して持つ特別な権利・免責を表す。国によって内容が異なる。  
+用途: 議会や、その活動に関わる人々の権利・免責を表す。英国では議院全体に属し、議員のほか職員・証人などにも保護が及ぶ場合がある。国によって内容が異なる。  
 例: The committee reviewed the limits of parliamentary privilege.  
 訳: 委員会は議会特権の限界を検討した。  
 
@@ -334,7 +340,7 @@ tags: []
 訳: 依頼人は特権を放棄して、その助言を開示することを選んだ。  
 
 ・privilege against self-incrimination  
-用途: 自分に不利益な供述を強制されない権利を表す法律表現。国・制度により正式名称や範囲は異なる。  
+用途: 自分の刑事責任につながる供述を強制されない権利を表す法律表現。国・制度により正式名称や範囲は異なる。  
 例: The defendant invoked the privilege against self-incrimination.  
 訳: 被告人は自己負罪拒否特権を援用した。  
 
@@ -352,6 +358,15 @@ tags: []
 
 `assert/invoke/claim privilege` は、開示や回答を拒む法的根拠を主張する表現、`waive privilege` はその保護を放棄する表現である。`confidential` は事実上秘密に扱う性質、`privileged` は一定の法的保護が及ぶことを表し、両者は重なるが同義ではない。  
 米国の *attorney-client privilege*、行政の *executive privilege*、議会の *parliamentary privilege* などは、似た「特権」でも制度と対象が異なる。日本語訳は「特権」「秘匿特権」「免責」など、対象となる法的効果に合わせる。  
+
+関連する対比として、秘密保持の性質・義務を表す語も区別する。  
+
+・confidentiality  
+定義: 情報を秘密として扱い、第三者へ漏らさない性質・義務。  
+頻度: 〈7/10〉  
+違い: confidentiality は秘密保持の義務や性質に焦点があるが、privilege は裁判などで開示を拒める法的権利を含み得る。  
+例: The agreement imposes strict confidentiality obligations on both parties.  
+訳: その合意書は両当事者に厳格な秘密保持義務を課している。  
 
 【類義語】
 
@@ -375,13 +390,6 @@ tags: []
 違い: legal protection は説明的で広い語句、privilege は特定の関係・職位・手続きに結び付いた制度上の保護を指しやすい。  
 例: The statute provides legal protection for whistleblowers.  
 訳: その法律は内部告発者に法的保護を与える。  
-
-・confidentiality  
-定義: 情報を秘密として扱い、第三者へ漏らさない性質・義務。  
-頻度: 〈7/10〉  
-違い: confidentiality は秘密保持の義務や性質に焦点があるが、privilege は裁判などで開示を拒める法的権利を含み得る。  
-例: The agreement imposes strict confidentiality obligations on both parties.  
-訳: その合意書は両当事者に厳格な秘密保持義務を課している。  
 
 5. 【他動詞・フォーマル】（人・考えなどを）特別扱いする、優先する
 
@@ -425,10 +433,12 @@ tags: []
 例: The automated process may privilege efficiency over fairness.  
 訳: 自動化された手続きは、公平さより効率を優先する可能性がある。  
 
-【語法・注意】この動詞は通常他動詞で、`privilege people`、`privilege one account over another` のように目的語を取る。`privilege A over B` の *over* は「AをBの上に置く」という比較関係を示し、単なる `privilege A` よりも、何を犠牲にしているかが明確になる。  
+【語法・注意】この動詞は通常他動詞で、`privilege people`、`privilege one account over another` のように目的語を取る。`privilege A over B` の *over* は「AをBの上に置く」という比較関係を示し、単なる `privilege A` よりも、どちらを相対的に優先しているかが明確になる。  
 
 `favor` は人・案を支持する一般語、`prioritize` は順序や資源配分の優先を表す語、`privilege` は特別扱いによる非対称性や構造的な偏りを分析する語として使われやすい。したがって、日常会話で単に「好きだ」「先に処理する」と言う場合に過度に硬い *privilege* を使わない。  
 受動の `be privileged` は、制度によって有利に扱われる意味にも、語義6の形容詞「特権を持つ」にも読める。動詞の受動態として明確にしたい場合は、行為者・制度を示す `be privileged by the system` などを使う。  
+
+動詞には「特権・許可を与える」という用法もある。be privileged to do が制度上「～することを認められている」を表す場合は、光栄に感じるという意味とは区別する。privilege someone from 〈義務など〉 は「人を免除する」という硬い用法で、語義7の privileged from disclosure にもつながる。  
 
 【類義語】
 
@@ -458,7 +468,7 @@ tags: []
 頻度: 〈7/10〉  
 違い: elevate は対象を高く評価・位置付ける結果に焦点があり、privilege は他の対象との非対称な扱いや権利配分を含みやすい。  
 例: The campaign elevated climate issues on the public agenda.  
-訳: そのキャンペーンは気候問題を世論の議題で重く扱わせた。  
+訳: そのキャンペーンは、社会が取り組む課題としての気候問題の重要性を高めた。  
 
 【反意語】
 
@@ -515,7 +525,7 @@ tags: []
 
 【語法・注意】`privileged` は単に「金持ち」を意味しない。富が典型的な要因でも、教育、性別、人種、国籍、職位、制度上の権限など、他者より有利な条件全般に使える。批判的な文脈でも、形容詞だけから個人の性格や悪意を断定しない。  
 
-`be privileged to do` は社会階級の話ではなく、丁寧な「～できて光栄だ」という意味になり得る。一方、`a privileged background`、`the privileged few` は社会的な優位を表すことが多い。`privileged access` はシステムや施設の権限であり、必ず社会的階級を指すわけではない。  
+`be privileged to do` は、丁寧な「～できて光栄だ」のほか、制度上「～することを認められている」という意味にもなる（語義5）。一方、`a privileged background`、`the privileged few` は社会的な優位を表すことが多い。`privileged access` はシステムや施設の権限であり、必ず社会的階級を指すわけではない。  
 
 【類義語】
 
@@ -537,8 +547,8 @@ tags: []
 定義: 社会・組織で最も高い地位や影響力を持つ層に属する。  
 頻度: 〈8/10〉  
 違い: elite は上位集団への所属を示す名詞・形容詞で、privileged は上位層でなくても特別な利益や権限を持つ状態を表せる。  
-例: The elite athletes trained at a separate facility.  
-訳: その一流選手たちは別の施設で練習した。  
+例: The elite families controlled much of the region's wealth.  
+訳: その地域の富の多くは、上流階級の家々が支配していた。  
 
 ・favored  
 定義: 特別に好意的に扱われ、選ばれやすい。  
@@ -563,7 +573,7 @@ tags: []
 例: The charity provides meals for underprivileged children.  
 訳: その慈善団体は恵まれない子どもたちに食事を提供している。  
 
-7. 【形容詞・限定・法律】privileged（情報・通信などが）法的に保護された、開示特権のある
+7. 【形容詞・限定・叙述・法律】privileged（情報・通信などが）法的に保護された、開示特権のある
 
 【日本語訳・定義】法律上の privilege によって、通常なら開示・提出・証言を求められる場面でも保護される情報、通信、文書など。`privileged communication` は、秘密であるという事実だけでなく、一定の法的関係・目的・要件に基づき開示から保護される通信を指す。法域ごとの制度要件があるため、単に `secret` や `confidential` と置き換えられない。  
 
@@ -578,7 +588,7 @@ tags: []
 ・privileged communication  
 用途: 法的特権によって、訴訟などで開示から保護される通信を表す。  
 例: The lawyer marked the letter as a privileged communication.  
-訳: その弁護士は、その手紙を秘匿特権の対象となる通信として扱った。  
+訳: その弁護士は、その手紙に秘匿特権の対象となる通信であると表示した。  
 
 ・privileged information  
 用途: 法的特権によって開示が制限される情報を表す。  
@@ -600,9 +610,11 @@ tags: []
 例: The advice may be privileged from disclosure in the proceedings.  
 訳: その助言は、その手続きでは開示義務を免除される可能性がある。  
 
-【語法・注意】`privileged` は、語義6の「特権を持つ、恵まれた」と、ここでの「法的に開示から保護された」の二方向に分かれる。`privileged background` は通常社会的優位、`privileged communication` は法律上の保護であり、形だけでなく主語・名詞の種類が意味を決める。  
+【語法・注意】`privileged background` は通常社会的優位、法律文脈の `privileged communication` は法的な保護を表す。一方、`privileged information` には、法的特権の成立を主張せず「限られた人だけが知る情報」を表す一般的な用法もあるため、名詞の種類だけでなく文脈で判断する。  
 
 法律用法では、秘密保持契約があることや、弁護士が関与したことだけで自動的に privilege が成立するとは限らない。どの通信・文書が保護されるか、第三者への開示で放棄されるか、例外があるかは法域・制度で確認する。  
+
+法律用法には、発言・通信をした人が、その内容について名誉毀損などの責任を免れるという意味もある。これは内容を秘密にすることとは別の保護で、語義4の免責に対応する。  
 
 【類義語】
 
@@ -621,9 +633,9 @@ tags: []
 訳: そのデータは強力な暗号化システムによって保護されている。  
 
 ・secret  
-定義: 他人に知られないように隠された情報。  
+定義: 他人に知られないように隠された、秘密の。  
 頻度: 〈10/10〉  
-違い: secret は知られていないことに焦点があり、privileged は秘密でなくても法的に開示を拒める場合を含む。  
+違い: secret は知られていないこと、法律用法の privileged は法的な保護に焦点がある。弁護士との秘密通信が既に公になっている事実に関していても、通信自体は保護され得るが、その事実自体が弁護士に話しただけで開示不能になるわけではない。  
 例: The agreement was kept secret until the announcement.  
 訳: その合意は発表まで秘密にされた。  
 
