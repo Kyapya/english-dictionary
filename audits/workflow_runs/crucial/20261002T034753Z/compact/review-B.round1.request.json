@@ -1,0 +1,26 @@
+{
+  "workflow_contract_version": "compact_review_v1",
+  "role": "B",
+  "snapshot_path": "audits/workflow_runs/crucial/20261002T034753Z/compact/snapshot-7ab4cb3f10ff8259-083609d32f99.json",
+  "snapshot_sha256": "2ef66b25c11932a5c574e74ecfdbbf5359dd2da3d19a7f8a9949e5155f28c56f",
+  "body_sha256": "7ab4cb3f10ff82598c27bdb6b6d36d965b973cbd186888bc07d58431f55599bf",
+  "area_keys": {
+    "pronunciation": "188ea7cad867334930808b8498bc296052b7a8c343f33eec0bff784924a7eb25",
+    "etymology": "38ba2d701431fc7146c448289f86c32c57beb8c4183c6aa5fbb0fcf0da11f9b5",
+    "word_formation": "9e48d692313b063e8245732418ee4e0dd3b2e8009f9e6ee4216aba2f0c6f0c3f",
+    "usage_preamble": "87b0bcfdf22780d010c1a599d81d1039427572f6b7c3db25af0e0ee72664a97f",
+    "sense:0f41baa72269820115b7": "cf1ce2efebfc8581d0286aa19c54294e72e8cb81411d4ec50b5e759be37e203f"
+  },
+  "review_scope": {
+    "purpose": "Independent comparison of article claims with original external references and detection of missing major senses and unsupported generalization",
+    "taxonomy": [
+      "source_contradiction",
+      "insufficient_evidence",
+      "missing_major_sense",
+      "unsupported_generalization",
+      "scope_qualification"
+    ]
+  },
+  "source_inventory_path": "audits/runs/c/crucial/source_inventory.json",
+  "source_inventory_sha256": "083609d32f996a259c6ba32275d3a90b075184939fa6902a0c3342ecd9ccc1a7"
+}
