@@ -1,0 +1,75 @@
+{
+  "workflow_contract_version": "compact_review_v1",
+  "run_id": "20261002T034753Z",
+  "headword": "crucial",
+  "branch": "words/crucial-6e9eaf8f5e24",
+  "started_at": "2026-10-02T03:47:53.472913+00:00",
+  "entry_path": "entries/c/crucial.md",
+  "inventory_path": "audits/runs/c/crucial/source_inventory.json",
+  "review_receipts": [
+    {
+      "role": "A",
+      "execution_id": "/root/review_dictionary_progress",
+      "model": "unknown",
+      "recorded_at": "2026-10-02T03:58:09.391661+00:00",
+      "request_path": "audits/workflow_runs/crucial/20261002T034753Z/compact/review-A.round1.request.json",
+      "request_sha256": "c99d7f34884525c46e6178c81655571196b3d55c628134274bad7da9085bb3da",
+      "raw_response_path": "audits/workflow_runs/crucial/20261002T034753Z/compact/review-A.round1.raw.json",
+      "raw_response_sha256": "92ae3693434778211ec4a46613abf5a93bd72c4596210ae0e09e6d53cdac6ddb",
+      "body_sha256": "7ab4cb3f10ff82598c27bdb6b6d36d965b973cbd186888bc07d58431f55599bf",
+      "area_keys": {
+        "pronunciation": "188ea7cad867334930808b8498bc296052b7a8c343f33eec0bff784924a7eb25",
+        "etymology": "38ba2d701431fc7146c448289f86c32c57beb8c4183c6aa5fbb0fcf0da11f9b5",
+        "word_formation": "9e48d692313b063e8245732418ee4e0dd3b2e8009f9e6ee4216aba2f0c6f0c3f",
+        "usage_preamble": "87b0bcfdf22780d010c1a599d81d1039427572f6b7c3db25af0e0ee72664a97f",
+        "sense:0f41baa72269820115b7": "cf1ce2efebfc8581d0286aa19c54294e72e8cb81411d4ec50b5e759be37e203f"
+      },
+      "checked_areas": [
+        "pronunciation",
+        "etymology",
+        "word_formation",
+        "usage_preamble",
+        "sense:0f41baa72269820115b7"
+      ],
+      "unchecked_areas": [],
+      "findings": [],
+      "normalizations": []
+    },
+    {
+      "role": "B",
+      "execution_id": "/root/identify_unreviewed_entries",
+      "model": "unknown",
+      "recorded_at": "2026-10-02T04:00:01.028552+00:00",
+      "request_path": "audits/workflow_runs/crucial/20261002T034753Z/compact/review-B.round1.request.json",
+      "request_sha256": "0d7e870bf0257a168f43f6017382182df901df36d773fd9f933cedf1881383f9",
+      "raw_response_path": "audits/workflow_runs/crucial/20261002T034753Z/compact/review-B.round1.raw.json",
+      "raw_response_sha256": "173cc3d5163b3c9c0c93f42e126fe3017f771067792317e650fa4b7b2cacd4dc",
+      "body_sha256": "7ab4cb3f10ff82598c27bdb6b6d36d965b973cbd186888bc07d58431f55599bf",
+      "area_keys": {
+        "pronunciation": "188ea7cad867334930808b8498bc296052b7a8c343f33eec0bff784924a7eb25",
+        "etymology": "38ba2d701431fc7146c448289f86c32c57beb8c4183c6aa5fbb0fcf0da11f9b5",
+        "word_formation": "9e48d692313b063e8245732418ee4e0dd3b2e8009f9e6ee4216aba2f0c6f0c3f",
+        "usage_preamble": "87b0bcfdf22780d010c1a599d81d1039427572f6b7c3db25af0e0ee72664a97f",
+        "sense:0f41baa72269820115b7": "cf1ce2efebfc8581d0286aa19c54294e72e8cb81411d4ec50b5e759be37e203f"
+      },
+      "checked_areas": [
+        "pronunciation",
+        "etymology",
+        "word_formation",
+        "usage_preamble",
+        "sense:0f41baa72269820115b7"
+      ],
+      "unchecked_areas": [],
+      "findings": [],
+      "normalizations": []
+    }
+  ],
+  "resolutions": [],
+  "migration": null,
+  "status": "completed",
+  "stage": "publication_ready",
+  "completed_at": "2026-10-02T04:00:01.136583+00:00",
+  "completed_body_sha256": "7ab4cb3f10ff82598c27bdb6b6d36d965b973cbd186888bc07d58431f55599bf",
+  "reuse_ledger_path": "audits/workflow_runs/crucial/20261002T034753Z/compact/reuse_ledger.json",
+  "reuse_ledger_sha256": "e4e198985328b8da089230003634b890f3c3b4f5e925b58a9e0baf461590397e"
+}

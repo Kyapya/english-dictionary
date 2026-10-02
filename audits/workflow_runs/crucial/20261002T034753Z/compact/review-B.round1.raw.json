@@ -1,0 +1,104 @@
+{
+  "schema_version": "compact_review_response_v1",
+  "role": "B",
+  "word": "crucial",
+  "reviewer": "/root/identify_unreviewed_entries",
+  "execution_identity": "/root/identify_unreviewed_entries",
+  "model": "model ID unavailable",
+  "body_sha256": "7ab4cb3f10ff82598c27bdb6b6d36d965b973cbd186888bc07d58431f55599bf",
+  "snapshot_sha256": "2ef66b25c11932a5c574e74ecfdbbf5359dd2da3d19a7f8a9949e5155f28c56f",
+  "source_inventory_sha256": "083609d32f996a259c6ba32275d3a90b075184939fa6902a0c3342ecd9ccc1a7",
+  "checked_areas": [
+    "pronunciation",
+    "etymology",
+    "word_formation",
+    "usage_preamble",
+    "sense:0f41baa72269820115b7"
+  ],
+  "unchecked_areas": [],
+  "findings": [],
+  "inspection": {
+    "full_entry_read": true,
+    "line_ranges": [
+      "1-163"
+    ],
+    "english_japanese_pairs_read": 18,
+    "all_requested_areas_inspected": true,
+    "hashes_independently_recomputed": true,
+    "inventory_hash_method": "Canonical JSON SHA256, sorted keys, UTF-8, ensure_ascii=False, separators comma/colon, as defined by review_dependency_v4.digest. This is distinct from the raw file-byte SHA256.",
+    "reviewer_A_work_read": false,
+    "frequency_basis": "Per-defined-sense global-English ordinal editorial rubric; no corpus calculation or exact numerical validation claimed."
+  },
+  "coverage_assessment": [
+    "The major modern adjective meaning, both strong general importance and outcome-determining importance, is represented without an unsupported requirement that a crisis exist or that one factor alone determine an outcome. The single main block is defensible against independent learner and general dictionaries.",
+    "Attributive and predicative use, to/for noun complements, in + -ing, impersonal infinitives including their for-subject, that-clauses, common noun combinations, degree modification and comparison are covered. The ordinary lexical relations and all eighteen example/translation pairs were read and no material source conflict was found.",
+    "The pronunciation shown is an attested two-syllable schwa transcription. Oxford uses a syllabic-l style of transcription; this is not a contradiction that requires replacing the Collins-supported form.",
+    "The etymological explanation, two cognates and the two positions/functions of crucially are supported. Omission of a core-image section is appropriate for one numbered main sense.",
+    "The slang excellent and cross-shaped senses are visibly qualified in a peripheral note. The Collins Random House severe/trying sense was also independently observed; the available learner/general-source comparison does not establish a material modern coverage gap requiring an additional block. No high current medical frequency is asserted.",
+    "Frequency scores are explicit editorial estimates and show no clear regional/specialist scope conflict needing correction. Dictionary level/frequency labels were not converted into invented measured scores."
+  ],
+  "source_verification": [
+    {
+      "url": "https://www.merriam-webster.com/dictionary/crucial",
+      "access": "Direct readable original entry",
+      "checked": "General and decisive meanings, archaic shape meaning, edited grammar examples, synonyms, pronunciation and French/Latin origin with early eighteenth-century first use. Automatically aggregated current-web examples were not relied on."
+    },
+    {
+      "url": "https://www.collinsdictionary.com/dictionary/english/crucial",
+      "access": "Direct readable original entry",
+      "checked": "COBUILD and British/American dictionary sections: IPA, main importance meaning, comparison, crucially, slang very-good meaning, cross-shaped medical reading and separate severe/trying reading. Current niche frequency was not inferred."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/crucial",
+      "access": "Direct readable original entry",
+      "checked": "Main meaning; to/for/in-doing, that and infinitive frames; predicative verbs and degree modifiers; synonym distinction panel; signpost metaphor and historical development."
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/crux",
+      "access": "Direct readable original entry",
+      "checked": "Central/difficult-point glosses. Root-family connection also corroborated by the crucial entry."
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/crucify",
+      "access": "Direct readable original entry",
+      "checked": "Literal execution sense and Latin root-family explanation."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/unimportant",
+      "access": "Direct readable original entry",
+      "checked": "Ordinary negative-importance definition and relative degree. The non-exhaustive opposition to crucial is semantic analysis, not a claimed verbatim dictionary rule."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/insignificant",
+      "access": "Direct readable original entry",
+      "checked": "Ordinary size/value/importance meaning and separately attested statistical example; the entry does not infer a statistical conclusion."
+    },
+    {
+      "url": "https://learnenglish.britishcouncil.org/comment/120529",
+      "access": "Direct readable original page and dated LearnEnglish Team reply",
+      "checked": "Kirk Moore, 14 May 2018: essential-that necessity construction accepts bare subjunctive; should is also possible. This supports the construction class, not a direct crucial quotation."
+    },
+    {
+      "url": "https://learnenglish.britishcouncil.org/comment/126021",
+      "access": "Direct readable original page and dated LearnEnglish Team reply",
+      "checked": "Kirk Moore, 24 February 2019: for + actor + infinitive distinguished from a perspective adjunct. Combined with direct Oxford crucial-to-infinitive attestation."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/essential",
+      "access": "First-party indexed dictionary text; direct retrieval failed",
+      "checked": "Necessary meaning and the third-person indicative has in a necessity that-clause. No full-page direct-access claim."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/crucial",
+      "access": "First-party indexed dictionary text",
+      "checked": "The headword itself has the edited example: It is crucial that the problem is tackled immediately. This directly corroborates the qualified indicative allowance; no corpus or exact regional-distribution claim."
+    }
+  ],
+  "limitations": [
+    "No recorded-audio listening, phonetic experiment or quantified corpus study was performed.",
+    "The peripheral medical wording was assessed as a dictionary lexical reading, not as a claim about modern clinical practice.",
+    "Cambridge support was retrieved from first-party indexed text; direct essential-page retrieval failed. This did not leave a material claim unresolved because the indexed crucial headword supplies the relevant indicative example and the main meanings have several independently opened sources.",
+    "This is an independent B content/source assessment of the exact supplied snapshot. It is not a publication action or a claim that workflow/CI success proves linguistic correctness."
+  ],
+  "conclusion": "No warranted B findings in the five requested areas after the complete version-bound source comparison."
+}
