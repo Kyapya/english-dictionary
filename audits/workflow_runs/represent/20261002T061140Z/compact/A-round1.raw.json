@@ -1,0 +1,100 @@
+{
+  "schema_version": "compact_review_response_v1",
+  "checked_areas": [
+    "pronunciation",
+    "etymology",
+    "word_formation",
+    "core_image",
+    "sense:1e4663194a6a4680f07b",
+    "sense:3cbf97ba26f6673756ac",
+    "sense:f908de3e366dbfd74ab1",
+    "sense:04b90f814c91b3cfab49",
+    "sense:5615481a60ba9a7fdb4e",
+    "sense:5ab66081182778906473"
+  ],
+  "unchecked_areas": [],
+  "findings": [
+    {
+      "area": "core_image",
+      "severity": "minor",
+      "impact": "共通核の具体化を同じ語句で比較するという現行v5の説明規則に対し、語義3と5だけ別の表現になり、各枝の共通部分がそろっていない。語義3では実際の相当・構成関係を保った説明が必要である。",
+      "evidence": "全文行36–42。1・2・4・6は「示す」を共通に使うが、3は「価値・割合との対応による位置づけ」、5は「集団の一部による存在の反映」。prompts/entry_spec_v5.md は説明句の共通部分を同じ語句でそろえることを要求する。Oxford represent の be equal to は実際に何かに当たる構成・相当義として記載され、本文の語義3も正しく区別している。https://www.oxfordlearnersdictionaries.com/definition/english/represent",
+      "action": "導入の1〜2文と六つの対応を保ち、枝3・5も共通の「示す」を含む短い体言止めにそろえる。3では変化・機会などに実際に当たることや構成比を示す説明とし、単なる記号対応に戻さない。現行の正確な見出し引用と番号は維持する。"
+    },
+    {
+      "area": "sense:5615481a60ba9a7fdb4e",
+      "severity": "minor",
+      "impact": "artist の訳に絵画への限定が加わり、収蔵作品を通して芸術家が含まれるという例の対象範囲が狭くなる。represent の受け身・収蔵品の意味自体は対応しているため、局所的な訳語修正でよい。",
+      "evidence": "全文行316–317: “Several local artists are represented in the collection.”／「そのコレクションには、地元の画家数人の作品が含まれている。」英語側には画家に限定する paintings 等がない。Oxford artist は美術作品の制作者を広く扱い、絵画・素描を典型とはするが、それだけに限定しない。https://www.oxfordlearnersdictionaries.com/definition/english/artist",
+      "action": "訳の「地元の画家数人」を「地元の芸術家数人」または「地元の美術家数人」にする。作品が収蔵されているという自然な訳し方と英語例は保つ。"
+    }
+  ],
+  "reviewer": {
+    "execution_id": "/root/review_dictionary_progress",
+    "role": "A",
+    "model": "unknown",
+    "model_note": "The runtime model ID is unavailable."
+  },
+  "binding": {
+    "request_sha256": "f5f35e0d439a9314045ca3a5abbed7b6dee338ae91b97f8983ee399d4a30af80",
+    "snapshot_sha256": "96689421b3776c15b57b8ae22a95b460a4ff5635c2bc1ff8b606d5ec10ab800a",
+    "body_sha256": "380fa20295c5c89fc80cbeaca1cda204481e1d64d671ec6b1f1ac88b7af0fafc",
+    "snapshot_entry_body_full_text_sha256": "71373bd4eef959c47677f2aa5f97d6281560f203f9810994ad9c3b237b605656",
+    "hash_note": "The snapshot entry_body includes YAML front matter. The workflow body hash is computed from the post-front-matter splitlines joined with LF; the separate full-text hash above covers the exact snapshot string."
+  },
+  "coverage": {
+    "scope": "full_current_article",
+    "inspected_full_text_lines": [
+      1,
+      406
+    ],
+    "requested_areas_count": 10,
+    "standard_example_translation_pairs": 44,
+    "numbered_senses": 6,
+    "description": "Read every line, all standard example/translation pairs and inline constructions. Assessed pronunciation, etymology, derivation, mnemonic correspondence, sense boundaries, major coverage, grammar, examples, Japanese, lexical relations, register and per-sense editorial frequency bands. No reviewer B output or author verdict was read."
+  },
+  "focus_notes": [
+    "Block 4 coherently distinguishes visual/data depiction from characterization through the objects and complements. The false-characterization example and accuracy caveat prevent an implication that all representation is truthful. A separate numbered block is not necessary merely because source dictionaries divide headings differently.",
+    "The core can retain the six-way correspondence. The finding concerns consistent expression of the shared kernel, not an unsupported assertion that the constitution sense has a different etymology or must be excluded.",
+    "Oxford directly lists represent (to somebody) that, including a to-recipient followed by a that content clause. This supports the current formal construction. The classifier warning is not evidence for deleting it or relabelling this content-clause construction as objectless protest.",
+    "Scores were assessed as global-English per-defined-sense ordinal estimates. No exact corpus measurements were inferred and no clear broad-band contradiction was identified."
+  ],
+  "sources": [
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/represent",
+      "access": "Direct first-party page opened",
+      "use": "Principal meanings, formal recipient/content-clause grammar, progressive restrictions, IPA and etymological account."
+    },
+    {
+      "url": "https://www.collinsdictionary.com/dictionary/english/represent",
+      "access": "Direct first-party page opened",
+      "use": "Edited COBUILD, British and American sections: agency, constitution, symbolic and characterization distinctions; as/to be complements and brief theatrical use. Automatically selected examples were not used as editorial authority."
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/represent",
+      "access": "Direct first-party page opened",
+      "use": "Edited senses for depiction, characterization, inclusion, exemplification, formal statement, constitution and theatre; separate re-present. Peripheral slang/mental-image items were considered without forcing detailed extra blocks."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/artist",
+      "access": "Direct first-party page opened",
+      "use": "Scope of artist in the collection translation."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/re-present",
+      "access": "Direct first-party page opened",
+      "use": "Separate repeated-presentation spelling and initial long vowel."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/representation",
+      "access": "Direct first-party page opened; after an unsuccessful text find, direct open exposed the IPA and entry text",
+      "use": "Stress shift and noun family meaning. Syllabic-n versus explicit schwa notation is not treated as a pronunciation error."
+    }
+  ],
+  "limits": [
+    "This is the independent normal compact role-A review, not a targeted-correction acceptance or publication decision.",
+    "Public-defender wording was assessed lexically; no legal procedure or jurisdiction-specific guarantee was inferred.",
+    "No numerical corpus study, audio playback or exhaustive historical corpus search was performed."
+  ],
+  "recorded_at": "2026-10-02T06:34:17.489203+00:00"
+}

@@ -1,8 +1,8 @@
 {
   "schema_version": "source_inventory_compact_v1",
   "headword": "represent",
-  "input_body_sha256": "338203a95e65df61e944d78abd90bcb42faf2d61443e3a0a388e69312e16df96",
-  "recorded_at": "2026-10-02T06:37:16.362655+00:00",
+  "input_body_sha256": "380fa20295c5c89fc80cbeaca1cda204481e1d64d671ec6b1f1ac88b7af0fafc",
+  "recorded_at": "2026-10-02T06:29:02.556715+00:00",
   "source_first_audit": {
     "sources": [
       {
@@ -378,20 +378,6 @@
         ]
       },
       {
-        "id": "S-ARTIST",
-        "title": "Oxford: artist",
-        "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/artist",
-        "independence_group": "oxford_university_press",
-        "source_type": "learner_dictionary",
-        "facts": [
-          {
-            "id": "ARTIST",
-            "statement": "Artist includes creators of works of art in different media, not only painters.",
-            "source_detail": "Edited noun1 and mixed-media examples; the collection translation should preserve that breadth."
-          }
-        ]
-      },
-      {
         "id": "S-COURTS",
         "title": "United States Courts: legal glossary",
         "locator": "https://www.uscourts.gov/glossary",
@@ -639,7 +625,7 @@
       {
         "id": "C-012",
         "claim_type": "core_image",
-        "statement": "represent は、人・記号・描写・言葉などを通して、ある対象をその場に示すイメージで整理できる。語義3では物事をある性質・位置づけや割合に対応づけ、語義5では集団の一部がいることでその集団の存在を示す。",
+        "statement": "represent は、人・記号・描写・言葉などを通して、ある対象をその場に示すイメージで整理できる。語義3では物事をある価値や割合に対応づけ、語義5では集団の一部がいることでその集団の存在を示す。",
         "article_target_ids": [
           "core_image:001"
         ],
@@ -759,7 +745,7 @@
       {
         "id": "C-015",
         "claim_type": "core_image",
-        "statement": "・物事が当たる性質・割合を示す対応 → 「〜に当たる、〜を構成する、全体の割合を占める」（語義3）",
+        "statement": "・価値・割合との対応による位置づけ → 「〜に当たる、〜を構成する、全体の割合を占める」（語義3）",
         "article_target_ids": [
           "core_image:004"
         ],
@@ -839,7 +825,7 @@
       {
         "id": "C-017",
         "claim_type": "core_image",
-        "statement": "・集団の一部を通して存在を示す反映 → 「集団や場所に含まれている、存在が反映されている」（語義5）",
+        "statement": "・集団の一部による存在の反映 → 「集団や場所に含まれている、存在が反映されている」（語義5）",
         "article_target_ids": [
           "core_image:006"
         ],
@@ -3455,7 +3441,7 @@
       {
         "id": "C-124",
         "claim_type": "collocation",
-        "statement": "・be represented in a collection\n用途: ある種類の作品などが収蔵品の中に含まれる。\n例: Several local artists are represented in the collection.\n訳: そのコレクションには、地元の芸術家数人の作品が含まれている。",
+        "statement": "・be represented in a collection\n用途: ある種類の作品などが収蔵品の中に含まれる。\n例: Several local artists are represented in the collection.\n訳: そのコレクションには、地元の画家数人の作品が含まれている。",
         "article_target_ids": [
           "collocation:020"
         ],
@@ -3471,10 +3457,6 @@
           },
           {
             "source_fact_id": "CO-5",
-            "support_summary": "Supports the lexical/construction basis. Original examples, Japanese phrasing, mnemonic connections, comparisons and ordinal scores are authorial analysis to be independently assessed, not source quotations or measured frequencies."
-          },
-          {
-            "source_fact_id": "ARTIST",
             "support_summary": "Supports the lexical/construction basis. Original examples, Japanese phrasing, mnemonic connections, comparisons and ordinal scores are authorial analysis to be independently assessed, not source quotations or measured frequencies."
           }
         ],
@@ -4119,7 +4101,7 @@
         "purpose": "Check whether the original translation is attested; independent reviewers found official support."
       }
     ],
-    "distinct_adopted_sources": 20,
+    "distinct_adopted_sources": 19,
     "additional_page_access": "Direct opens/finds of main dictionaries and listed focused lexeme/origin pages; repeated find/open operations on the same page are not new sources.",
     "nonadopted_pages": [
       "Oxford state_2 was adjective, corrected to state_3 via official link",
