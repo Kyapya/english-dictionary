@@ -114,10 +114,124 @@
         }
       ],
       "normalizations": []
+    },
+    {
+      "role": "A",
+      "execution_id": "/root/review_dictionary_progress",
+      "model": "unknown",
+      "recorded_at": "2026-10-02T06:47:14.004708+00:00",
+      "request_path": "audits/workflow_runs/represent/20261002T061140Z/compact/review-A.round2.request.json",
+      "request_sha256": "3127d99862e639b87a130d2718b75fa7b080b08da993eb0f8621f5e3e4e18fe6",
+      "raw_response_path": "audits/workflow_runs/represent/20261002T061140Z/compact/A-round2.raw.json",
+      "raw_response_sha256": "296d39d7407baeb23d71d894817483b60860c74583f3d9efed35dd55b349d01e",
+      "body_sha256": "338203a95e65df61e944d78abd90bcb42faf2d61443e3a0a388e69312e16df96",
+      "area_keys": {
+        "core_image": "938895bb886c1596fa5c6654f710747714d28e1844d9e283c8d7070b5c964167",
+        "sense:5615481a60ba9a7fdb4e": "9370bc0a0682afd9d77f0d09ba6859cff9655ca0f684d8e9ae35c7a515695298"
+      },
+      "checked_areas": [
+        "core_image",
+        "sense:5615481a60ba9a7fdb4e"
+      ],
+      "unchecked_areas": [
+        {
+          "area": "pronunciation",
+          "reason": "Unchanged dependency hash from the independently reviewed round-1 snapshot. Not reread completely in this focused round; reuse genuine prior coverage mechanically. Any limited local-context reading is not claimed as a new whole-area check."
+        },
+        {
+          "area": "etymology",
+          "reason": "Unchanged dependency hash from the independently reviewed round-1 snapshot. Not reread completely in this focused round; reuse genuine prior coverage mechanically. Any limited local-context reading is not claimed as a new whole-area check."
+        },
+        {
+          "area": "word_formation",
+          "reason": "Unchanged dependency hash from the independently reviewed round-1 snapshot. Not reread completely in this focused round; reuse genuine prior coverage mechanically. Any limited local-context reading is not claimed as a new whole-area check."
+        },
+        {
+          "area": "sense:1e4663194a6a4680f07b",
+          "reason": "Unchanged dependency hash from the independently reviewed round-1 snapshot. Not reread completely in this focused round; reuse genuine prior coverage mechanically. Any limited local-context reading is not claimed as a new whole-area check."
+        },
+        {
+          "area": "sense:3cbf97ba26f6673756ac",
+          "reason": "Unchanged dependency hash from the independently reviewed round-1 snapshot. Not reread completely in this focused round; reuse genuine prior coverage mechanically. Any limited local-context reading is not claimed as a new whole-area check."
+        },
+        {
+          "area": "sense:f908de3e366dbfd74ab1",
+          "reason": "Unchanged dependency hash from the independently reviewed round-1 snapshot. Not reread completely in this focused round; reuse genuine prior coverage mechanically. Any limited local-context reading is not claimed as a new whole-area check."
+        },
+        {
+          "area": "sense:04b90f814c91b3cfab49",
+          "reason": "Unchanged dependency hash from the independently reviewed round-1 snapshot. Not reread completely in this focused round; reuse genuine prior coverage mechanically. Any limited local-context reading is not claimed as a new whole-area check."
+        },
+        {
+          "area": "sense:5ab66081182778906473",
+          "reason": "Unchanged dependency hash from the independently reviewed round-1 snapshot. Not reread completely in this focused round; reuse genuine prior coverage mechanically. Any limited local-context reading is not claimed as a new whole-area check."
+        }
+      ],
+      "findings": [],
+      "normalizations": []
+    },
+    {
+      "role": "B",
+      "execution_id": "/root/identify_unreviewed_entries",
+      "model": "unknown",
+      "recorded_at": "2026-10-02T06:47:14.617560+00:00",
+      "request_path": "audits/workflow_runs/represent/20261002T061140Z/compact/review-B.round2.request.json",
+      "request_sha256": "e2c6170a469adcc38ea901e0a4ade3c4c44a928f9e5b956368ee120da3b41d61",
+      "raw_response_path": "audits/workflow_runs/represent/20261002T061140Z/compact/B-round2.raw.json",
+      "raw_response_sha256": "04a9d2c90062cfb5fe0d99a1a8ac6af5b6eaad981402d3d9bd8a6dbad6e4f0f2",
+      "body_sha256": "338203a95e65df61e944d78abd90bcb42faf2d61443e3a0a388e69312e16df96",
+      "area_keys": {
+        "core_image": "938895bb886c1596fa5c6654f710747714d28e1844d9e283c8d7070b5c964167",
+        "sense:5615481a60ba9a7fdb4e": "9370bc0a0682afd9d77f0d09ba6859cff9655ca0f684d8e9ae35c7a515695298"
+      },
+      "checked_areas": [
+        "core_image",
+        "sense:5615481a60ba9a7fdb4e"
+      ],
+      "unchecked_areas": [
+        {
+          "area": "pronunciation",
+          "reason": "Not reread in this focused round. Its dependency key matches round 1 exactly; the authentic prior full review supplies existing coverage, subject to the caller’s dependency validation."
+        },
+        {
+          "area": "etymology",
+          "reason": "Not reread in this focused round. Its dependency key matches round 1 exactly; the authentic prior full review supplies existing coverage, subject to the caller’s dependency validation."
+        },
+        {
+          "area": "word_formation",
+          "reason": "Not reread in this focused round. Its dependency key matches round 1 exactly; the authentic prior full review supplies existing coverage, subject to the caller’s dependency validation."
+        },
+        {
+          "area": "sense:1e4663194a6a4680f07b",
+          "reason": "Not reread in this focused round. Its dependency key matches round 1 exactly; the authentic prior full review supplies existing coverage, subject to the caller’s dependency validation."
+        },
+        {
+          "area": "sense:3cbf97ba26f6673756ac",
+          "reason": "Not reread in this focused round. Its dependency key matches round 1 exactly; the authentic prior full review supplies existing coverage, subject to the caller’s dependency validation."
+        },
+        {
+          "area": "sense:f908de3e366dbfd74ab1",
+          "reason": "Not reread in this focused round. Its dependency key matches round 1 exactly; the authentic prior full review supplies existing coverage, subject to the caller’s dependency validation."
+        },
+        {
+          "area": "sense:04b90f814c91b3cfab49",
+          "reason": "Not reread in this focused round. Its dependency key matches round 1 exactly; the authentic prior full review supplies existing coverage, subject to the caller’s dependency validation."
+        },
+        {
+          "area": "sense:5ab66081182778906473",
+          "reason": "Not reread in this focused round. Its dependency key matches round 1 exactly; the authentic prior full review supplies existing coverage, subject to the caller’s dependency validation."
+        }
+      ],
+      "findings": [],
+      "normalizations": []
     }
   ],
   "resolutions": [],
   "migration": null,
-  "status": "in_progress",
-  "stage": "independent_reviews"
+  "status": "completed",
+  "stage": "publication_ready",
+  "completed_at": "2026-10-02T06:47:23.449405+00:00",
+  "completed_body_sha256": "338203a95e65df61e944d78abd90bcb42faf2d61443e3a0a388e69312e16df96",
+  "reuse_ledger_path": "audits/workflow_runs/represent/20261002T061140Z/compact/reuse_ledger.json",
+  "reuse_ledger_sha256": "cdd15eb32f05c936e8c04bb0dcb9ecfe88eaaa94feaa5e172fd330204a582215"
 }
