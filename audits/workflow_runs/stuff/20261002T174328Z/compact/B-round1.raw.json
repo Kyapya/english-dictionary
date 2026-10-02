@@ -1,0 +1,34 @@
+{
+  "schema_version": "compact_review_response_v1",
+  "checked_areas": [
+    "pronunciation",
+    "etymology",
+    "word_formation",
+    "sense:32aa7a32527eccbb1517",
+    "sense:828ce8cca59c7863341d",
+    "sense:d7849d4976e9bd82daf5",
+    "sense:25711a14bbe8f9080132",
+    "sense:3ebffb8d2f6dacc1510f",
+    "sense:2bce90c1d62676f49eac",
+    "sense:fc736ea7aaffac30536d",
+    "sense:6bb6cbd3b2be653d0a78",
+    "sense:8cfbbc23d0246884a31c",
+    "sense:f1d8f33cb748a3277923",
+    "sense:f1ec7e38db949e7fb88e",
+    "sense:f8077927313352c74bf0",
+    "sense:f955d12065a249e23717",
+    "sense:b4edb7655b820beaad7b",
+    "sense:aed4590d1b149a89c634",
+    "sense:b4e158476ebe9f0314f9"
+  ],
+  "unchecked_areas": [],
+  "findings": [
+    {
+      "area": "sense:6bb6cbd3b2be653d0a78",
+      "severity": "minor",
+      "impact": "Learners may infer that the food construction stuff down necessarily describes speed, overlooking its voracious-eating reading.",
+      "evidence": "Scope qualification: sense 8 repeatedly explains stuff down as 「食べ物を急いで口に詰め込む」 and concludes that it focuses on 「急いで食べ物を口に詰め込む食べ方」. Farlex Dictionary of Idioms, stuff down, sense 2, explicitly gives \"To eat something very quickly or voraciously.\" Original publisher-attributed entry text was recovered through the search index at https://idioms.thefreedictionary.com/stuffs%2Bsomething%2Bdown after direct-access failure. This is narrower article coverage, not a contradiction of the valid quick-eating example or an unresolved access blocker.",
+      "action": "In the definition and general usage note, allow 「急いで、またはむさぼるように食べる」 rather than making speed the sole contrast. Keep the sandwich example and its translation; they correctly illustrate the quick-eating reading."
+    }
+  ]
+}
