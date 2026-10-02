@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/o/overwhelm.md",
+  "created_at": "2026-10-02T15:50:51Z",
+  "base_body_sha256": "b5514f95fed9e0a3631c091c6005d823a3b2da5a21aaeca07f22ac8e4ce6d6d6",
+  "head_body_sha256": "eae3cc577665dc0d5f7f9398116ae361fdfe315ddc046a3f3c7641b7a06155d4",
+  "diff_sha256": "6bd13befacb25ecabd2caacbf9143af251c8d33c7627d9aa4863303517a78bd6",
+  "user_request": "Apply the user-identified local corrections: remove orphan pressure block in sense8, unrelated hills sentence in sense4 and hyphen note in sense6, adjective manageable from verb sense2, and defeat/subjugation reading from adjective sense5. Qualify wh pronunciation, use a physical covering translation for the levee without inferring breach, and explicitly label human-subject contrasts in sense1. Preserve eight senses and all other content; no unrelated full rewrite.",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "independent scoped reviewers A and B",
+    "verdict": "pass",
+    "notes": "Two independent reviewers inspected all eight exact changed hunks and necessary local context; no fresh full-entry audit was performed. Both verified the exact base/head/diff hashes and confirmed pronunciation and physical-covering claims against AHD and Oxford. A independently confirmed Notion/site parser roundtrip: eight senses, 249 blocks, no errors; sense8 notes reduced from eight fragments to one. Existing human-subject contrasts in sense1 remain under the expressly accepted user scope and are now labeled. No new process-improvement item beyond existing rules. Authentic raw review SHA256: A d85068b9dc41a701426d2663d59aac596981add22870da1cb4214d1e00400829; B 0424c083aefd41bced1cb173cc5c7f42ae4964e0d56745236e5fff325c74e942."
+  },
+  "pi_processing": {
+    "status": "no_applicable",
+    "event_id": "targeted:overwhelm:6bd13befacb2"
+  }
+}
