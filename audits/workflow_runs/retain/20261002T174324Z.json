@@ -54,10 +54,59 @@
         }
       ],
       "normalizations": []
+    },
+    {
+      "role": "B",
+      "execution_id": "/root/pilot_dictionary_review_method/review_retain_official_b",
+      "model": "unknown",
+      "recorded_at": "2026-10-02T18:16:05.189955+00:00",
+      "request_path": "audits/workflow_runs/retain/20261002T174324Z/compact/review-B.round1.request.json",
+      "request_sha256": "898d11266a72b171929096ee4ecc9971226d5c95108c25b1f3fa4cb1ba90de6f",
+      "raw_response_path": "audits/workflow_runs/retain/20261002T174324Z/compact/B-round1.raw.json",
+      "raw_response_sha256": "2180bb39d6368a99019d2f13c5d3fc8b8c4133ad6f022105d3526636a94f95a3",
+      "body_sha256": "e997266fad9df12306615c287bb163c2c46eaefdce99c6bc5980269fda7bb1c8",
+      "area_keys": {
+        "pronunciation": "aa4fc847ca8bbde67ece0a5391ed366dcaf5a22a92fbcfa74c7b8fe0ac477269",
+        "etymology": "6a3b738b3c656cb81a5399d27f7879982981e51cd126bdd92bd24710d3599b48",
+        "word_formation": "6c52e702a89be6fb8c3aa7cf637950c60c196051cf463d492074cfb36e427413",
+        "core_image": "dbbf45d91d83ccec6b8475d24a8967dcf59476dd73f92ce60adb38bf626bd8ab",
+        "sense:e0f5703d9bb360c5df8c": "662ab7103ef13711f8c6c3aa414ccc4d06060d51a88a12bcd1dd0f9379887ce2",
+        "sense:50e1cf8b1f940a8c5246": "c2eb7f6e094e9ea9a084c70eab71806de0a1c3d3d034ecfcea0d859e98d8a657",
+        "sense:d7b70209c432e3960d4a": "f6eab2d9bfd13b960482192dfe5df3325f113e901f87fab1a36bd43c1a1c7c09",
+        "sense:1e05a647151250566293": "1c06024a2fdd502390ef267a994458f998dcff67cd773c51821c5cca8f92b96b",
+        "sense:475596261e9bc197e2d1": "3e22fbc3199dbf7c8c760965149cd44479858d5b7f0da1c9cac700e56e717674",
+        "sense:037ab6268dea117b106d": "156a6ee56455ad33a197cc51539ca36ad298b3c2cdd7cf80b8d9aff0adaffd00"
+      },
+      "checked_areas": [
+        "pronunciation",
+        "etymology",
+        "word_formation",
+        "core_image",
+        "sense:e0f5703d9bb360c5df8c",
+        "sense:50e1cf8b1f940a8c5246",
+        "sense:d7b70209c432e3960d4a",
+        "sense:1e05a647151250566293",
+        "sense:475596261e9bc197e2d1",
+        "sense:037ab6268dea117b106d"
+      ],
+      "unchecked_areas": [],
+      "findings": [],
+      "normalizations": []
     }
   ],
-  "resolutions": [],
+  "resolutions": [
+    {
+      "finding_sha256": "d47bbc96ca7785bee2678815af0d6ce82b791ae360bf1f2350c2a45c235d16ca",
+      "decision": "decline",
+      "rationale": "The frequency-order preference is acknowledged, but the specification says 原則 rather than requiring a strict numerical sort. The physical retention block is deliberately followed by its physiological specialization; the complete memory block remains clearly labeled, listed in the core map and separately accessible. This coherent semantic grouping does not misstate meaning, omit a major use, misroute an example or disguise its 7/10 rating. Moving the blocks is a reasonable optional organization choice, not a necessary correction. Preserve the original raw minor finding and record this reasoned no-change decision; do not convert it into an absent finding.",
+      "source_path": "audits/workflow_runs/retain/20261002T174324Z/compact/coordinator-disposition.json"
+    }
+  ],
   "migration": null,
-  "status": "in_progress",
-  "stage": "independent_reviews"
+  "status": "completed",
+  "stage": "publication_ready",
+  "completed_at": "2026-10-02T18:16:05.386206+00:00",
+  "completed_body_sha256": "e997266fad9df12306615c287bb163c2c46eaefdce99c6bc5980269fda7bb1c8",
+  "reuse_ledger_path": "audits/workflow_runs/retain/20261002T174324Z/compact/reuse_ledger.json",
+  "reuse_ledger_sha256": "f60a529fd8fb931a65c558fa6831db47b35a74ca7b260f4971bda34a1be97b98"
 }
