@@ -5,35 +5,34 @@ status: checked
 prompt_version: entry_spec_v5
 model: codex-gpt-5
 created_at: 2026-09-10
-updated_at: 2026-09-10
+updated_at: 2026-10-02
 checked: true
 tags: []
 ---
 
 ＃発音記号
 
-米・英: /ˈsensəbl/。3音節で、第1音節に主強勢がある。第1音節の /sen/ を明瞭に発音し、第2音節は弱い /sə/、語尾は /bəl/ と続ける。強勢を後ろに移して「センシブゥル」のように発音しない。  
+米・英: /ˈsensəbl/  
+
+・通常3音節で、第1音節に主強勢がある。第1音節 /sen/ を明瞭にし、その後は弱く発音する。語尾は /bəl/、または /l/ 自体が音節の中心となる発音になる。  
+
+・上の表記は米英共通だが、第2音節を /sɪ/ と表す英音の辞書もある。強勢は語頭に置き、後ろの音節を強くしない。  
 
 ＃語源
 
 中英語後期に、古フランス語 sensible またはラテン語 sensibilis「感じ取れる、知覚できる」から英語に入った。ラテン語 sensibilis は sensus「感覚・知覚」に関係し、さらに sentire「感じる」にさかのぼる。  
-もともとの「感覚で捉えられる」という意味から、「心で気づいている」、さらに「道理をわきまえて適切に判断する」という意味へ広がった。衣服についての「実用的な」という用法は後の発達で、語源上の意味をそのまま現代の各用法に当てはめない。  
+
+英語では早くから、感覚で「捉えられる」側と「捉える能力がある」側の意味が使われ、道理にかなった判断や意識・認識を表す意味も発達した。衣服についての「実用的な」という用法は後の発達であり、各用法を一本の順序で機械的に導くのではなく、現代の意味と構文を区別して覚える。  
 
 ＃語形成
 
 ・sensibly：副詞。「分別をもって、現実的に、適切に」。判断や行動の仕方を表す。  
+
 ・sensibleness：名詞。「分別のあること、現実的であること」。sensible より使用頻度が低い。  
+
 ・insensible：接頭辞 in- を伴う関連語。「感じない、意識がない、気づかない」。sensible のすべての意味の単純な反意語ではない。  
-・sensitive、sensibility：同じラテン語の感覚・知覚の語族に属する関連語。ただし、sensitive は「影響を受けやすい・敏感な」、sensibility は「感受性・分別」という別の語として覚える。  
 
-＃コアイメージ
-
-「感覚・理解・判断を通して、対象をきちんと捉える」。この広い核から、対象を理解して妥当な判断をする用法、実用性を優先して選ぶ用法、対象が感覚や理解に届く用法、刺激を感覚として受け取る用法、事実や感情を意識に受け取る用法が生じる。  
-1の「対象を理解して妥当な判断をする」から、分別のある・道理にかなった・現実的なという意味になる。  
-2の「実用性を優先して選ぶ」から、衣服や靴などが実用的な、実用本位のという意味になる。  
-3の「対象が感覚・理解に届く」から、差や変化などが感じ取れる、はっきりしたという意味になる。  
-4の「外部刺激を感覚として受け取る」から、痛みや熱などを感じ取れるという意味になる。  
-5の「事実・感情を意識に受け取る」から、事実や恩恵などを意識している、深く感じているという意味になる。  
+・sensitive、sensibility：同じラテン語の感覚・知覚の語族に属する関連語。sensitive は「影響を受けやすい・敏感な」、sensibility は「感受性・感性・識別力」などを表す。sensible の「分別がある」に対応する普通の名詞として sensibility を使うわけではない。  
 
 ＃意味・用法・関連表現
 
@@ -45,7 +44,7 @@ tags: []
 
 【レジスター/領域】標準語で、会話にも文章にも使える基本語。practical は実行可能性、reasonable は道理・公平さ、rational は感情を抑えた論理性に焦点を置きやすいのに対し、sensible は日常の分別と現実感をまとめて表す。  
 
-【文法パターン】a sensible person/choice/decision/plan＝分別のある人・妥当な選択・判断・計画／sensible advice＝現実的で適切な助言／be sensible＝分別をもって行動する／be sensible about 〈money・risk・food〉＝〈お金・危険・食事〉について現実的に考える／it is sensible to do ＝～するのが妥当だ／it is sensible for someone to do ＝〈人〉が～するのが妥当だ／the sensible thing to do＝取るべき妥当な行動／be sensible enough to do ＝分別があるので～する。  
+【文法パターン】a sensible person/choice/decision/plan＝分別のある人・妥当な選択・判断・計画／sensible advice＝現実的で適切な助言／a sensible approach to 〈名詞・動名詞〉＝～への妥当な取り組み方／be sensible＝分別がある・分別をもって行動する／be sensible about 〈名詞・疑問詞節〉＝その問題や状況について現実的に考える／it is sensible to do ＝～するのが妥当だ／it is sensible for someone to do ＝〈人〉が～するのが妥当だ／the sensible thing to do＝取るべき妥当な行動／that/it is sensible of someone＝その人の行動・判断は分別がある／be sensible enough to do＝～するだけの分別がある  
 
 【コロケーション】
 
@@ -54,7 +53,7 @@ tags: []
 例: Taking the earlier train was a sensible decision.  
 訳: 早い方の電車に乗ったのは妥当な判断だった。  
 
-・a sensible approach to 〈problem〉  
+・a sensible approach to 〈問題・行動〉  
 用途: 問題に対して、現実的で無理のない取り組み方を示す。  
 例: We need a sensible approach to reducing unnecessary costs.  
 訳: 不要な費用を減らすには、現実的な取り組み方が必要だ。  
@@ -79,7 +78,7 @@ tags: []
 例: The sensible thing to do is wait until the weather improves.  
 訳: 天候が回復するまで待つのが妥当な行動だ。  
 
-・be sensible about 〈issue〉  
+・be sensible about 〈問題・状況〉  
 用途: 問題や資源について、感情的にならず現実的に考える。  
 例: Please be sensible about how much equipment you bring.  
 訳: どれだけ機材を持ってくるかは、現実的に考えてください。  
@@ -89,7 +88,12 @@ tags: []
 例: He was sensible enough to ask for help before the problem grew.  
 訳: 彼は問題が大きくなる前に助けを求めるだけの分別があった。  
 
-【語法・注意】人を主語にした be sensible は「分別をもって行動する」、物事を主語にした a sensible plan は「妥当で現実的な計画」を表す。sensible は必ずしも「賢さ」や高い知能を評価する語ではなく、その場の条件に合った判断をほめる語である。  
+・that is sensible of someone  
+用途: ある人の行動や判断について、分別があると評価する。  
+例: That was sensible of you.  
+訳: あなたがそうしたのは賢明でした。  
+
+【語法・注意】人についての be sensible は「分別がある」「分別をもって行動する」を表す。a sensible plan では sensible が名詞 plan を修飾し、「妥当で現実的な計画」を意味する。sensible は必ずしも高い知能を評価する語ではなく、その場の条件に合った判断を評価する語である。日常語の sensitive「敏感な、他人の気持ちに配慮できる」とは区別する。  
 
 【類義語】
 
@@ -117,7 +121,7 @@ tags: []
 ・prudent  
 定義: 将来の危険や損失を考えて慎重で賢明な。  
 頻度: 〈6/10〉  
-違い: prudent は特に危険・費用・将来の結果を避ける慎重さを含み、sensible より硬い。  
+違い: prudent は特に不要な危険や損失、不利な結果を避けようとする慎重さを表し、sensible より硬い。  
 例: It would be prudent to set aside some emergency savings.  
 訳: 緊急時のために貯蓄をいくらか取っておくのが賢明だろう。  
 
@@ -158,15 +162,15 @@ tags: []
 例: The design is attractive but impractical for daily use.  
 訳: そのデザインは魅力的だが、日常使用には実用的でない。  
 
-2. 【形容詞・衣類・靴】実用的な、実用本位の
+2. 【形容詞・衣類・靴など】実用的な、実用本位の
 
-【日本語訳・定義】衣服・靴・かばんなどが、流行や見た目よりも、歩きやすさ・丈夫さ・防寒性などの実用性を重視して作られたり選ばれたりしていることを表す。必ずしも醜い、古い、または質が低いという意味ではない。  
+【日本語訳・定義】衣服・靴・かばんや髪型などが、流行や見た目よりも、快適さ・扱いやすさ・用途への適合などの実用性を重視して作られたり選ばれたりしていることを表す。必ずしも醜い、古い、または質が低いという意味ではない。  
 
 【頻度】〈6/10〉  
 
 【レジスター/領域】標準語で、日常会話にも使う。sensible shoes は特に定着した組み合わせで、長時間歩く場面などに適した、派手さより快適さを優先した靴を指す。  
 
-【文法パターン】sensible shoes/clothes/footwear＝実用的な靴・衣服・履物／a sensible coat＝実用本位のコート／wear/choose sensible clothing＝実用的な服を着る・選ぶ／something is sensible for 〈weather・travel〉＝〈天候・旅行〉に適して実用的だ。  
+【文法パターン】sensible shoes/clothes/footwear＝実用的な靴・衣服・履物／a sensible coat＝実用本位のコート／a sensible hairstyle＝実用的な髪型／wear/choose sensible clothing＝実用的な服を着る・選ぶ／something is sensible for 〈天候・旅行〉＝その条件に合って実用的だ  
 
 【コロケーション】
 
@@ -178,7 +182,7 @@ tags: []
 ・sensible clothing  
 用途: 天候や活動に合い、実用性を優先した衣服を表す。  
 例: Pack sensible clothing for the cold and wet conditions.  
-訳: 寒くて雨の多い状況に合う実用的な服を荷造りしてください。  
+訳: 寒くて雨の多い環境に合う、実用的な服を荷物に入れてください。  
 
 ・sensible footwear  
 用途: 見た目より機能性を重視した履物を、やや説明的に表す。  
@@ -188,12 +192,17 @@ tags: []
 ・a sensible coat  
 用途: 防寒・耐久性・天候への対応を重視したコートを表す。  
 例: I bought a sensible coat rather than a delicate fashion jacket.  
-訳: 繊細なファッションジャケットではなく、実用的なコートを買った。  
+訳: 傷みやすいおしゃれなジャケットではなく、実用的なコートを買った。  
 
 ・choose sensible clothing  
 用途: 活動や天候に合わせて、見た目より使いやすさを基準に衣服を選ぶ。  
 例: Choose sensible clothing for the long flight.  
 訳: 長時間のフライトには実用的な服を選んでください。  
+
+・a sensible hairstyle  
+用途: 派手さよりも、手入れや日常生活での扱いやすさを重視した髪型を表す。  
+例: She chose a sensible hairstyle that was easy to maintain.  
+訳: 彼女は手入れしやすい実用的な髪型を選んだ。  
 
 【語法・注意】この用法では、sensible は人の判断を直接修飾するのではなく、実用性を重視して選ばれた物を評価する。fashionable は「流行している」、comfortable は「快適な」に焦点があり、sensible shoes が必ず fashionable でない、または完全に comfortable であるとは限らない。  
 
@@ -214,7 +223,7 @@ tags: []
 訳: その服はシンプルだが、機能性が非常に高い。  
 
 ・serviceable  
-定義: 十分に使える、丈夫で役に立つ。  
+定義: 必要な用途に十分使える、役に立つ。  
 頻度: 〈5/10〉  
 違い: serviceable は見た目の魅力より、必要な用途に耐えることを表すやや硬い語。sensible は選択の分別にも使える。  
 例: The hotel provides clean and serviceable furnishings.  
@@ -227,15 +236,15 @@ tags: []
 例: The building has a plain, utilitarian design.  
 訳: その建物は簡素で実用本位の設計になっている。  
 
-3. 【形容詞・形式的】感じ取れる、明確に分かる、かなりの
+3. 【形容詞・改まった／専門的】知覚できる、感覚で捉えられる、はっきりした、かなりの
 
-【日本語訳・定義】差・変化・増減・量などが、感覚や判断によって認識できる程度にはっきりしていることを表す。現代の一般会話での「分別のある」という意味より形式的で、sensible difference や sensible increase のように、無視できない程度を述べる。  
+【日本語訳・定義】物・感覚・差・変化などが、感覚や理解によって捉えられることを表す。sensible world のように感覚で知り得る物質的な世界を指す用法や、sensible difference / increase のように認識できる差・増加を述べる用法がある。「かなりの、無視できないほどの」という程度の意味もあるが、すべての例が量の大きさを表すわけではない。  
 
 【頻度】〈3/10〉  
 
-【レジスター/領域】形式的・書き言葉寄りで、一般会話では noticeable、clear、appreciable などが自然なことが多い。辞書によっては「知覚できる」「かなりの」という別項目として扱われる。  
+【レジスター/領域】感覚・物質世界については哲学などの専門文脈でも使う。一般会話で差や変化を述べるなら noticeable、clear、appreciable などが自然なことが多く、「かなりの」という程度の用法を古風とする辞書もある。sensible heat「顕熱」は現在も使う物理・空調などの専門用語である。  
 
-【文法パターン】a sensible difference＝感じ取れる明確な差／a sensible increase/decrease in something＝〈物事〉のかなりはっきりした増加・減少／a sensible change in something＝〈物事〉の認識できる変化／sensible 〈amount・degree〉＝無視できない程度の量・度合い。  
+【文法パターン】a sensible difference＝感じ取れる差／a sensible increase/decrease in something＝物事の認識できる増加・減少／a sensible change in something＝認識できる変化／a sensible amount/degree of something＝無視できない量・程度／the sensible world＝感覚で捉えられる世界／be sensible to the touch＝触って知覚できる／sensible heat＝顕熱  
 
 【コロケーション】
 
@@ -245,7 +254,7 @@ tags: []
 訳: ソフトウェアの更新によって、読み込み時間に明らかな違いが出た。  
 
 ・a sensible increase in something  
-用途: 数値や量が、認識できる程度に増えたことを形式的に表す。  
+用途: 数値や量が、認識できる程度に増えたことを改まった文体で表す。  
 例: The policy led to a sensible increase in public access.  
 訳: その政策によって、一般の利用可能性がはっきり増した。  
 
@@ -259,7 +268,21 @@ tags: []
 例: There has been a sensible change in the patient's condition.  
 訳: 患者の状態には、はっきり分かる変化があった。  
 
-【語法・注意】この用法の sensible は「妥当な」という意味ではなく、「感覚や判断に届くほど明らかな」という意味である。ただし、sensible amount は文脈によって「妥当な量」という1の意味にもなるため、差や増減の文脈で理解する。  
+・the sensible world  
+用途: 哲学などで、感覚によって知り得る世界を表す。  
+例: The essay distinguishes the sensible world from abstract ideas.  
+訳: その論考は、感覚で捉えられる世界と抽象的な観念を区別している。  
+
+・sensible heat  
+用途: 物理・空調などで、相変化を伴わず、温度の変化として現れる熱を表す。  
+例: The system stores energy as sensible heat.  
+訳: そのシステムはエネルギーを顕熱として蓄える。  
+
+【語法・注意】この語義では、対象を「知覚できる」と評価する。人や身体などが「知覚する能力を持つ」語義4とは、感じる側と感じ取られる側が逆である。sensible to the touch を「触って感じ取れる」の意味で使う場合もこちらに属する。sensible amount は文脈によって「妥当な量」という語義1にもなるため、文脈で判断する。  
+
+sensible heat「顕熱」は、物質の温度変化として現れる熱をいう。相変化に伴う latent heat「潜熱」と対比され、熱いと主観的に感じるかどうかだけで決まる用語ではない。  
+
+専門的な名詞用法として、sensible は「感覚で知覚できるもの」を表すこともある。音楽では sensible / sensible note が leading note「導音」の別名として使われることがあり、形容詞の意味とは区別する。  
 
 【類義語】
 
@@ -273,7 +296,7 @@ tags: []
 ・noticeable  
 定義: 見たり感じたりして気づくことができる、目立つ。  
 頻度: 〈8/10〉  
-違い: noticeable は日常的で、目や耳などで気づきやすいことに焦点がある。sensible のこの用法はより形式的で、量や程度にも使いやすい。  
+違い: noticeable は日常的で、目や耳などで気づきやすいことに焦点がある。sensible のこの用法はより改まった・専門的な文脈で使われる。  
 例: There was a noticeable improvement in her balance.  
 訳: 彼女のバランスには目立った改善があった。  
 
@@ -287,7 +310,7 @@ tags: []
 ・marked  
 定義: はっきりした、顕著な。  
 頻度: 〈7/10〉  
-違い: marked は変化や差が目立つことを簡潔に示す。sensible は、認識できる程度に達したことをやや控えめに述べる。  
+違い: marked は変化や差が顕著であることを強調する。sensible は感覚や理解で捉えられることを表し、文脈によってははっきりした程度も含む。  
 例: The study found a marked difference between the two groups.  
 訳: その研究は、2つのグループの間に顕著な差があることを見いだした。  
 
@@ -307,22 +330,22 @@ tags: []
 例: The difference in cost is negligible.  
 訳: 費用の差は取るに足りない。  
 
-4. 【形容詞・形式的／古風】（刺激などを）感じ取れる、知覚できる
+4. 【形容詞・改まった／古風】（刺激などを）感じ取れる、影響に反応しやすい
 
-【日本語訳・定義】痛み・熱・光などの外部刺激を、感覚器官や身体で受け取る能力があることを表す。現代の一般英語では sensitive to が普通で、sensible to は古風・形式的または専門的に響く。  
+【日本語訳・定義】人や身体の一部が刺激を感じ取る能力を持つこと、または物・心などが外からの影響を受けたり反応したりしやすいことを表す。熱・光に反応する器具や素材についても使われるが、このような sensible の用法は現在では古風で改まった響きを持つことが多い。  
 
 【頻度】〈2/10〉  
 
-【レジスター/領域】低頻度の形式的・古風な用法。一般学習者が自分の知覚について述べる場合は、通常 be sensitive to 〈刺激〉を使う。sensible to pain は「痛みを感じ取れる」であり、1の「分別のある」とは別の意味である。  
+【レジスター/領域】低頻度の改まった・古風な用法。単に感覚があると述べるなら can feel / can perceive、刺激に敏感・反応しやすいなら sensitive to / responsive to が現代英語で分かりやすい。sensible to pain は「痛みを感じ取れる」で、語義1の「分別のある」とは別である。  
 
-【文法パターン】be sensible to 〈pain・heat・light〉＝〈痛み・熱・光〉を感じ取れる／become sensible to 〈stimulus〉＝〈刺激〉を知覚するようになる／sensible to the touch＝触れて感じ取れる。  
+【文法パターン】be sensible to 〈痛み・熱・光〉＝刺激を感じ取れる・反応しやすい／become sensible to 〈刺激〉＝刺激を知覚する・反応するようになる  
 
 【コロケーション】
 
 ・be sensible to pain  
-用途: 痛みを感覚として受け取る能力があることを、形式的に表す。  
+用途: 痛みを感覚として受け取る能力があることを、改まった文体で表す。  
 例: The injured area remained sensible to pain after the procedure.  
-訳: 処置後も、負傷した部位は痛みを感じ取る状態だった。  
+訳: 処置後も、負傷した部位には痛みを感じる感覚が残っていた。  
 
 ・be sensible to heat  
 用途: 熱を感じ取ることができることを述べる。  
@@ -330,62 +353,62 @@ tags: []
 訳: その器具は近くの炎から出る熱を感知できる。  
 
 ・be sensible to light  
-用途: 光を感知する性質があることを、古風または技術的に表す。  
+用途: 光の影響を受けたり、それに反応したりする性質があることを、古風または技術的に表す。  
 例: The material is sensible to light and should be stored in the dark.  
-訳: その素材は光を感知する性質があるので、暗所で保管すべきだ。  
+訳: その素材は光に反応する性質があるので、暗所で保管すべきだ。  
 
-【語法・注意】現代英語の sensitive to は「刺激を感じやすい」だけでなく、「影響を受けやすい」「気を悪くしやすい」も表せる。一方、sensible to はこの語義では主に感覚的な知覚を述べ、一般的な「敏感な」の言い換えとして自由に使えるわけではない。  
+【語法・注意】現代の sensitive to は刺激の感じやすさや影響の受けやすさを表す。古風な sensible to にも知覚能力と外的影響への反応性の用法があるが、日常語で両者を自由に置き換えられるわけではない。とくに単に「痛みが分かる」と言うときは can feel pain が明確である。  
 
 【類義語】
 
-・sensitive to 〈stimulus〉  
+・sensitive to 〈刺激〉  
 定義: 〈刺激〉を感じ取る、またはその影響を受けやすい。  
-頻度: 〈10/10〉  
-違い: sensitive to は現代英語で普通の表現で、感覚的な知覚に加えて化学反応・感情・社会的影響にも使える。sensible to は形式的・古風で範囲が狭い。  
+頻度: 〈8/10〉  
+違い: sensitive to は現代英語の普通の表現で、刺激の感じやすさや影響の受けやすさを示す。sensible to はこの知覚・反応の意味では改まった・古風に響く。  
 例: Some people are highly sensitive to bright light.  
 訳: 明るい光に非常に敏感な人もいる。  
 
-・responsive to 〈stimulus〉  
+・responsive to 〈刺激〉  
 定義: 〈刺激〉に反応する、反応を示す。  
 頻度: 〈7/10〉  
-違い: responsive to は刺激を感じることより、それに反応や変化が生じることを強調する。sensible to はまず知覚可能性を表す。  
+違い: responsive to は刺激に反応や変化が生じることを直接表す。sensible to は古い用法では反応性も表せるが、感覚を受け取る能力を述べることもある。  
 例: The sensor is responsive to small changes in pressure.  
 訳: そのセンサーは圧力の小さな変化にも反応する。  
 
 【反意語】
 
-・insensible to 〈stimulus〉  
+・insensible to 〈刺激〉  
 定義: 〈刺激〉を感じない、意識しない。  
 頻度: 〈4/10〉  
 違い: insensible to は痛み・熱などを知覚できないことを表し、この用法の sensible to と直接対照をなす。  
 例: The tissue was insensible to light touch.  
-訳: その組織は軽く触れても感じなかった。  
+訳: その組織は、軽く触れられても感覚がなかった。  
 
-・impervious to 〈stimulus〉  
-定義: 〈刺激・影響〉を通さず、受け付けない。  
+・impervious to 〈刺激・影響〉  
+定義: 物質を通さない、または刺激・影響を受け付けない。  
 頻度: 〈5/10〉  
-違い: impervious to は単に知覚できないだけでなく、刺激や影響が作用しないことを強く表す。sensible to より遮断の含みが強い。  
+違い: impervious to は影響を受けないことや物質を通さないことを表す。sensible to の反応性とは対照的だが、単に感覚がないことと同じではない。  
 例: The coating is impervious to heat and moisture.  
-訳: そのコーティングは熱や湿気を通さない。  
+訳: そのコーティングは熱や湿気の影響を受けない。  
 
-5. 【形容詞・形式的／文学的・sensible of】～を意識している、～を深く感じている
+5. 【形容詞・改まった／文学的】～を意識している、～を感じている
 
-【日本語訳・定義】事実・危険・義務・誤り・親切などを心で認識し、強く意識していることを表す。通常 sensible of 〈名詞〉の形で使い、現代の会話では aware of、conscious of、grateful for などが自然なことが多い。  
+【日本語訳・定義】事実・危険・義務・誤り・親切や、熱などの感覚を認識していることを表す。sensible of 〈名詞〉の形がよく使われ、sensible that 〈節〉もある。恩恵や苦境について強く感じている場合もあるが、強い感情を必須とはしない。現代の会話では aware of、conscious of などが普通で、感謝を伝えるなら grateful for と表せる場合もある。  
 
 【頻度】〈3/10〉  
 
-【レジスター/領域】形式的・文学的で、古風な響きがある。sensible of the fact、sensible of one's error、sensible of someone's kindness のように、抽象的な事実や感情を意識していることに使う。  
+【レジスター/領域】改まった・文学的な用法。sensible of the fact、sensible of one's error、sensible of someone's kindness などで認識や実感を述べる。文脈によっては古風な響きがあり、単独で「意識がある」という意味にも使われる。  
 
-【文法パターン】be sensible of 〈fact・danger・duty・error〉＝〈事実・危険・義務・誤り〉を意識している／be sensible of 〈kindness・benefit〉＝〈親切・恩恵〉を深く感じている／be deeply/keenly sensible of something＝～を深く・強く意識している／sensible of the fact that 〈節〉＝～という事実を認識している。  
+【文法パターン】be sensible of 〈事実・危険・義務・誤り・感覚〉＝～を意識している／be sensible of 〈親切・恩恵〉＝～を感じている／be deeply/keenly sensible of something＝～を深く・強く意識している／be sensible of the fact that 〈節〉＝～という事実を認識している／be sensible that 〈節〉＝～と認識している  
 
 【コロケーション】
 
-・be sensible of 〈fact〉  
-用途: ある事実を心で認識していることを、形式的に表す。  
+・be sensible of a fact / the fact that 〈節〉  
+用途: ある事実を心で認識していることを、改まった文体で表す。  
 例: She was sensible of the fact that her decision affected the whole team.  
 訳: 彼女は、自分の決定がチーム全体に影響するという事実を意識していた。  
 
-・be sensible of one's error  
+・become sensible of one's error  
 用途: 自分の誤りに気づき、それを認識していることを表す。  
 例: He soon became sensible of his error and apologized.  
 訳: 彼はすぐに自分の誤りに気づき、謝罪した。  
@@ -400,16 +423,19 @@ tags: []
 例: The volunteers were keenly sensible of the risks involved.  
 訳: ボランティアたちは、そこに伴う危険を強く意識していた。  
 
-【語法・注意】sensible of は「～を意識している」であり、1の sensible「分別のある」とは意味が異なる。sensible to は4の「刺激を感じ取れる」と結びつきやすく、事実・恩恵への意識には sensible of を使う。現代的な文章では aware of や conscious of の方が普通である。  
+・be sensible that 〈節〉  
+用途: ある事実を認識していることを、改まった・文学的な表現で述べる。  
+例: She was sensible that the decision would affect everyone.  
+訳: 彼女は、その決定が全員に影響すると認識していた。  
 
-辞書によっては、名詞 sensible「感覚で知覚できるもの」や音楽の用語 sensible「導音」を載せることがあるが、いずれも非常にまれで、一般学習者がまず覚える形容詞の用法ではないため、本文の独立した語義には含めない。  
+【語法・注意】この sensible は「認識している」で、語義1の「分別のある」と区別する。That was sensible of you. のように人の判断を評価する of 構文は語義1であり、of が続くだけでこの語義と決まるわけではない。sensible of は抽象的な事実や恩恵だけでなく、熱などを感じていることにも使える。語義4の sensible to pain は刺激を感じる能力に焦点がある。普通の会話・文章では aware of や conscious of、単独の「意識がある」なら conscious の方が一般的である。  
 
 【類義語】
 
 ・aware of something  
 定義: 〈事実・状況・問題〉に気づいている、知っている。  
 頻度: 〈10/10〉  
-違い: aware of は現代英語で最も普通の「認識している」で、感情の深さを必ずしも含まない。sensible of は形式的で、強く感じている含みを持つことがある。  
+違い: aware of は現代英語で最も普通の「認識している」で、感情の深さを必ずしも含まない。sensible of は改まった言い方で、強く感じている含みを持つことがある。  
 例: Are you aware of the possible consequences?  
 訳: 起こりうる結果を認識していますか。  
 
@@ -423,7 +449,7 @@ tags: []
 ・cognizant of something  
 定義: 〈事実・問題・義務〉を十分に認識している。  
 頻度: 〈4/10〉  
-違い: cognizant of は非常に形式的で、事実を理解・把握していることに焦点がある。sensible of は認識に加えて感情的な受け止め方も表しうる。  
+違い: cognizant of は非常に改まった言い方で、事実を理解・把握していることに焦点がある。sensible of は認識に加えて感情的な受け止め方も表しうる。  
 例: The committee is cognizant of the need for further evidence.  
 訳: 委員会は、さらなる証拠が必要であることを十分に認識している。  
 
