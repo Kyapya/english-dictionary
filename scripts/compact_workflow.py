@@ -18,6 +18,7 @@ from typing import Any
 import review_dependency_v4 as dependencies
 import validate_entry
 import workflow_revision
+from slugify import slugify
 
 ROOT = Path(__file__).resolve().parents[1]
 CONTRACT_PATH = ROOT / "prompts/compact_review_contract_v1.json"
@@ -87,27 +88,60 @@ def research_errors(manifest: dict[str, Any], body_sha256: str, root: Path = ROO
     return errors
 
 
+def _queue_row(queue: Path, slug: str, entry_path: str) -> tuple[list[str], int | None, list[str]]:
+    lines = queue.read_text(encoding="utf-8").splitlines(keepends=True) if queue.is_file() else []
+    matching = [(index, line.rstrip("\r\n").split(",", 10))
+                for index, line in enumerate(lines[1:], 1)
+                if line.strip() and slugify(line.split(",", 1)[0]) == slug]
+    if len(matching) > 1:
+        raise ValueError("queue must contain at most one row for the entry slug")
+    if not matching:
+        return lines, None, []
+    index, columns = matching[0]
+    if len(columns) != 11 or columns[4] != entry_path:
+        raise ValueError("queue row does not match the reviewed entry")
+    return lines, index, columns
+
+
 def start(headword: str, entry: Path, inventory: Path, *, root: Path = ROOT,
           run_id: str | None = None) -> Path:
-    if not re.fullmatch(r"[a-z][a-z0-9-]*", headword):
-        raise ValueError("use a lowercase slug for the headword")
+    headword = " ".join(headword.strip().split())
+    if (len(headword) > 160 or not re.search(r"[A-Za-z]", headword)
+            or re.search(r"[^A-Za-z0-9 '\u2018\u2019\u02bc\u2032`.-]", headword)):
+        raise ValueError("use an English headword or short phrase")
+    slug = slugify(headword)
+    entry_relative = _relative(entry, root)
+    queue = root / "queue/words.csv"
+    lines, queue_index, columns = _queue_row(queue, slug, entry_relative)
+    fields = {}
+    if entry.is_file():
+        front, _ = validate_entry._split_front_matter(entry.read_text(encoding="utf-8"))
+        fields = validate_entry._front_matter_values(front or [])
+    # Display metadata stays with the existing article/queue. Only paths use
+    # the slug, including when a caller supplies a hyphenated spelling to resume.
+    headword = fields.get("headword") or (columns[0] if columns else headword)
+    entry_type = fields.get("type") or (columns[1] if columns else
+                                        "phrase" if " " in headword else "word")
+    if slugify(headword) != slug or entry_type not in {"word", "phrase"}:
+        raise ValueError("entry headword/type does not match the requested identity")
+    if columns and columns[1] != entry_type:
+        raise ValueError("queue type does not match the reviewed entry")
     branch = subprocess.check_output(["git", "-C", str(root), "branch", "--show-current"], text=True).strip()
     if branch in {"", "main", "master"}:
         raise ValueError("start on a dedicated word branch")
     run_id = run_id or datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
-    path = root / "audits/workflow_runs" / headword / f"{run_id}.json"
+    path = root / "audits/workflow_runs" / slug / f"{run_id}.json"
     if path.exists():
         raise FileExistsError("resume this run instead of resetting its history")
     manifest = {"workflow_contract_version": VERSION, "run_id": run_id,
-                "headword": headword, "branch": branch, "started_at": _now(),
-                "entry_path": _relative(entry, root), "inventory_path": _relative(inventory, root),
+                "headword": headword, "slug": slug, "type": entry_type,
+                "branch": branch, "started_at": _now(),
+                "entry_path": entry_relative, "inventory_path": _relative(inventory, root),
                 "review_receipts": [], "resolutions": [], "migration": None,
                 "status": "in_progress", "stage": "mechanical_validation"}
-    queue = root / "queue/words.csv"
     if queue.is_file():
-        lines = queue.read_text(encoding="utf-8").splitlines()
-        if not any(line.startswith(headword + ",") for line in lines[1:]):
-            fields = [headword, "word", "pending", "", manifest["entry_path"],
+        if queue_index is None:
+            fields = [headword, entry_type, "pending", "", manifest["entry_path"],
                       "entry_spec_v5", "unknown", _now()[:10], _now()[:10],
                       "false", "compact review pending"]
             with queue.open("a", encoding="utf-8") as handle:
@@ -420,6 +454,20 @@ def finalize(manifest: dict[str, Any], run_path: Path, *, root: Path = ROOT) -> 
     front, _ = validate_entry._split_front_matter(text)
     if front is None:
         raise ValueError("entry front matter missing")
+    queue_path = root / "queue/words.csv"
+    queue_update = None
+    if queue_path.exists():
+        lines, index, columns = _queue_row(queue_path, slugify(manifest["headword"]),
+                                           manifest["entry_path"])
+        if index is None:
+            raise ValueError("queue must contain exactly one existing headword row")
+        fields = validate_entry._front_matter_values(front)
+        if fields.get("type") != columns[1]:
+            raise ValueError("queue type does not match the reviewed entry")
+        columns[2], columns[8], columns[9] = "checked", _now()[:10], "true"
+        columns[10] = "compact review verified; original review records preserved"
+        lines[index] = ",".join(columns) + "\n"
+        queue_update = "".join(lines)
     text = re.sub(r"(?m)^status:.*$", "status: checked", text, count=1)
     text = re.sub(r"(?m)^checked:.*$", "checked: true", text, count=1)
     text = re.sub(r"(?m)^updated_at:.*$", "updated_at: " + _now()[:10], text, count=1)
@@ -428,22 +476,9 @@ def finalize(manifest: dict[str, Any], run_path: Path, *, root: Path = ROOT) -> 
     # silently changing the review evidence.
     if current(manifest, root)["body_sha256"] != gate["body_sha256"]:
         raise ValueError("entry body changed during finalization")
-    queue_path = root / "queue/words.csv"
-    if queue_path.exists():
-        lines = queue_path.read_text(encoding="utf-8").splitlines(keepends=True)
-        matching = [index for index, line in enumerate(lines)
-                    if line.startswith(manifest["headword"] + ",")]
-        if len(matching) != 1:
-            raise ValueError("queue must contain exactly one existing headword row")
-        index = matching[0]
-        columns = lines[index].rstrip("\r\n").split(",", 10)
-        if len(columns) != 11 or columns[4] != manifest["entry_path"]:
-            raise ValueError("queue row does not match the reviewed entry")
-        columns[2], columns[8], columns[9] = "checked", _now()[:10], "true"
-        columns[10] = "compact review verified; original review records preserved"
-        lines[index] = ",".join(columns) + "\n"
+    if queue_update is not None:
         temporary = queue_path.with_suffix(".csv.tmp")
-        temporary.write_text("".join(lines), encoding="utf-8")
+        temporary.write_text(queue_update, encoding="utf-8")
         temporary.replace(queue_path)
     manifest["status"] = "completed"
     manifest["stage"] = "publication_ready"
