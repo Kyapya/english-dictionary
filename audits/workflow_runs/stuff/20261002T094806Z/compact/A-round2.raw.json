@@ -1,0 +1,117 @@
+{
+  "schema_version": "compact_review_response_v1",
+  "checked_areas": [
+    "sense:25711a14bbe8f9080132",
+    "sense:2bce90c1d62676f49eac",
+    "sense:6bb6cbd3b2be653d0a78",
+    "sense:f1d8f33cb748a3277923"
+  ],
+  "unchecked_areas": [
+    {
+      "area": "pronunciation",
+      "reason": "Unchanged dependency hash from official full round 1; not reread in this focused round. Reuse genuine prior coverage mechanically."
+    },
+    {
+      "area": "etymology",
+      "reason": "Unchanged dependency hash from official full round 1; not reread in this focused round. Reuse genuine prior coverage mechanically."
+    },
+    {
+      "area": "word_formation",
+      "reason": "Unchanged dependency hash from official full round 1; not reread in this focused round. Reuse genuine prior coverage mechanically."
+    },
+    {
+      "area": "sense:32aa7a32527eccbb1517",
+      "reason": "Unchanged dependency hash from official full round 1; not reread in this focused round. Reuse genuine prior coverage mechanically."
+    },
+    {
+      "area": "sense:828ce8cca59c7863341d",
+      "reason": "Unchanged dependency hash from official full round 1; not reread in this focused round. Reuse genuine prior coverage mechanically."
+    },
+    {
+      "area": "sense:d7849d4976e9bd82daf5",
+      "reason": "Unchanged dependency hash from official full round 1; not reread in this focused round. Reuse genuine prior coverage mechanically."
+    },
+    {
+      "area": "sense:3ebffb8d2f6dacc1510f",
+      "reason": "Unchanged dependency hash from official full round 1; not reread in this focused round. Reuse genuine prior coverage mechanically."
+    },
+    {
+      "area": "sense:63efc191100e7a378f45",
+      "reason": "Unchanged dependency hash from official full round 1; not reread in this focused round. Reuse genuine prior coverage mechanically."
+    },
+    {
+      "area": "sense:8cfbbc23d0246884a31c",
+      "reason": "Unchanged dependency hash from official full round 1; not reread in this focused round. Reuse genuine prior coverage mechanically."
+    },
+    {
+      "area": "sense:f1ec7e38db949e7fb88e",
+      "reason": "Unchanged dependency hash from official full round 1; not reread in this focused round. Reuse genuine prior coverage mechanically."
+    },
+    {
+      "area": "sense:84a6bed0f837cdc85ed5",
+      "reason": "Unchanged dependency hash from official full round 1; not reread in this focused round. Reuse genuine prior coverage mechanically."
+    }
+  ],
+  "findings": [],
+  "reviewer": {
+    "execution_id": "/root/review_dictionary_progress",
+    "role": "A",
+    "model": "unknown",
+    "model_note": "The runtime model ID is unavailable."
+  },
+  "binding": {
+    "request_sha256": "e273f7bbcfc1a5af19fb2206090070f57685b540d5c6a4c00eaabfb4c16b6d05",
+    "snapshot_sha256": "18893c8529ee6752ea85251984520e731df030368c7c127f135700aed58f41d5",
+    "body_sha256": "ace13642aeaf5cb78560c22ece51650a36a6aebbc022c582a5f8dc13787b13a8",
+    "snapshot_entry_body_full_text_sha256": "2018f5861c2a7029fbe39b111c9ad479951c20f8bbe41152e2bb387ac2043b07",
+    "source_inventory_sha256": "c49f2bb9342a4a6ec826ca5b73b0163b8af33e3bc1e3f06902bbeac11fe41981",
+    "prior_raw_response_sha256": "4c14a2b8f2a5532ed5ca0c12873256b878e7f734db44badd7c1d4f33e0b4a972",
+    "transition_sha256": "c2ac159422218b7f01e7627bf4fcbce37ab5f31e0f02921ad8eda45c3108cd19"
+  },
+  "coverage": {
+    "scope": "changed_areas_and_necessary_context",
+    "full_current_text_line_count": 698,
+    "inspected_ranges": [
+      [
+        264,
+        353
+      ],
+      [
+        387,
+        429
+      ],
+      [
+        473,
+        548
+      ],
+      [
+        587,
+        619
+      ]
+    ],
+    "actually_rechecked_area_count": 4,
+    "unchanged_not_reread_area_count": 11,
+    "notes": "Each of the four changed areas was read completely. Independently verified the exact four-replacement transition, snapshot/body and canonical inventory hashes, preservation of the round-1 article and source inventory, and the unchanged original raw response. Current source facts are identical; only the four corresponding claims changed. This is normal compact affected-area review, not a new full audit or targeted-correction publication pass."
+  },
+  "resolution_notes": [
+    {
+      "area": "sense:25711a14bbe8f9080132",
+      "result": "The fill comparison now covers liquid filling and permits stuffing/padding food or products. It coheres with the broader current definition and existing examples, without an absolute claim that every stuff event requires forceful insertion."
+    },
+    {
+      "area": "sense:2bce90c1d62676f49eac",
+      "result": "The original newly authored sister sentence now says younger sister, matching 妹. The sterner-stuff meaning and comparative relationship are intact."
+    },
+    {
+      "area": "sense:6bb6cbd3b2be653d0a78",
+      "result": "The objectless item now uses sit and stuff, matching the existing intransitive example. It retains the true objectless reading and removes the bare-verb format defect."
+    },
+    {
+      "area": "sense:f1d8f33cb748a3277923",
+      "result": "剥製に仕上げてガラスケースに据えてもらった places both coordinated actions within the requested service, matching had the fox stuffed and mounted. The specimen and mount explanations remain coherent."
+    }
+  ],
+  "source_basis": "Previously independently read Oxford, Merriam-Webster and Collins edited filling/eating/specimen meanings remain applicable; these four local wording repairs introduce no new factual source claim. No B response was read.",
+  "frequency_note": "No scores changed. No measured corpus claim or numerical tuning was introduced.",
+  "recorded_at": "2026-10-02T10:17:30.575492+00:00"
+}

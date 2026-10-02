@@ -1,12 +1,12 @@
 ---
 headword: stuff
 type: word
-status: checked
+status: draft
 prompt_version: entry_spec_v1
 model: unknown
 created_at: 2026-06-13
 updated_at: 2026-10-02
-checked: true
+checked: false
 tags: []
 ---
 
@@ -324,7 +324,7 @@ stuff the ballot box は主に米語の選挙表現で、単に投票箱が票�
 ・fill  
 定義: 空間を満たす。  
 頻度: 〈9/10〉  
-違い: fill は液体なども含めて空間を満たすことを広く表す。stuff は物を押し込む場合や、料理・製品に詰め物をする場合に使う。  
+違い: fill は中を満たす結果に焦点があり、stuff は押し込む動作に焦点がある。  
 例: Fill the bottle with water.  
 訳: ボトルを水でいっぱいにして。  
 
@@ -408,7 +408,7 @@ stuff the ballot box は主に米語の選挙表現で、単に投票箱が票�
 
 ・be made of sterner stuff  
 用途: 困難に簡単には負けない人の強さを述べる。  
-例: He wanted to give up, but his younger sister was made of sterner stuff.  
+例: He wanted to give up, but his sister was made of sterner stuff.  
 訳: 彼は諦めたがっていたが、妹のほうはもっと根性があった。  
 
 ・have the right stuff  
@@ -478,7 +478,7 @@ stuff the ballot box は主に米語の選挙表現で、単に投票箱が票�
 
 【レジスター/領域】口語。stuff one’s face は特にくだけており、人をからかう・批判する響きが出やすい。  
 
-【文法パターン】stuff oneself with 〈食べ物〉＝腹いっぱい〜を食べる／stuff someone with 〈食べ物〉＝人に〜をたくさん食べさせる／stuff one’s face with 〈食べ物〉＝〜をがつがつ食べる／stuff down 〈食べ物〉＝食べ物を急いで詰め込む／sit and stuff＝座ってたくさん食べる（stuff は目的語なし）  
+【文法パターン】stuff oneself with 〈食べ物〉＝腹いっぱい〜を食べる／stuff someone with 〈食べ物〉＝人に〜をたくさん食べさせる／stuff one’s face with 〈食べ物〉＝〜をがつがつ食べる／stuff down 〈食べ物〉＝食べ物を急いで詰め込む／stuff＝たくさん食べる（目的語なし）  
 
 【コロケーション】
 
@@ -599,7 +599,7 @@ stuff the ballot box は主に米語の選挙表現で、単に投票箱が票�
 ・have 〈動物〉 stuffed  
 用途: 死んだ動物を剥製にする作業を頼む。  
 例: The collector had the fox stuffed and mounted in a glass case.  
-訳: その収集家はキツネを剥製に仕上げてガラスケースに据えてもらった。  
+訳: その収集家はキツネを剥製にしてもらい、ガラスケースに据えた。  
 
 ・a stuffed 〈動物〉  
 用途: 展示物が実物の動物の剥製であることを述べる。  

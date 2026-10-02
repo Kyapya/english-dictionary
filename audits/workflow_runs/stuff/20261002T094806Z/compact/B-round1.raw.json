@@ -1,0 +1,203 @@
+{
+  "schema_version": "compact_review_response_v1",
+  "checked_areas": [
+    "pronunciation",
+    "etymology",
+    "word_formation",
+    "sense:32aa7a32527eccbb1517",
+    "sense:828ce8cca59c7863341d",
+    "sense:d7849d4976e9bd82daf5",
+    "sense:25711a14bbe8f9080132",
+    "sense:3ebffb8d2f6dacc1510f",
+    "sense:2bce90c1d62676f49eac",
+    "sense:63efc191100e7a378f45",
+    "sense:6bb6cbd3b2be653d0a78",
+    "sense:8cfbbc23d0246884a31c",
+    "sense:f1d8f33cb748a3277923",
+    "sense:f1ec7e38db949e7fb88e",
+    "sense:84a6bed0f837cdc85ed5"
+  ],
+  "unchecked_areas": [],
+  "findings": [
+    {
+      "area": "sense:25711a14bbe8f9080132",
+      "severity": "minor",
+      "taxonomy": "scope_qualification",
+      "impact": "The fill comparison may make learners infer that stuffing always foregrounds pushing an object into a space, although this block also teaches ordinary food and cushion filling.",
+      "evidence": "Snapshot line 327 says 「stuff は押し込む動作に焦点がある」 without limiting that contrast to the insertion use. The same block correctly includes food and padding at lines 266, 291–299. Oxford stuff verb senses 1 and 3 cover filling a container and adding a food filling, while sense 2 separately describes rapid/careless insertion: https://www.oxfordlearnersdictionaries.com/definition/english/stuff_2 . Oxford fill sense 1 supplies the broader making-full comparison: https://www.oxfordlearnersdictionaries.com/definition/english/fill_1 .",
+      "action": "Qualify this one comparison as the insertion use, or broaden it to 押し込む・詰め物をする動作. Keep the sound broad definition, existing examples and score; no block reorganization is required."
+    }
+  ],
+  "reviewer": {
+    "execution_identity": "/root/identify_unreviewed_entries",
+    "role": "B",
+    "model": "unknown",
+    "model_disclosure": "The actual execution model identifier is unavailable."
+  },
+  "inspection": {
+    "scope": "Complete immutable normal-workflow article and independent original-source comparison",
+    "lines_read": [
+      1,
+      698
+    ],
+    "read_ranges": [
+      [
+        1,
+        240
+      ],
+      [
+        241,
+        480
+      ],
+      [
+        481,
+        698
+      ]
+    ],
+    "example_translation_pairs_read": 79,
+    "requested_areas_inspected": 15,
+    "snapshot_file_digest_verified": true,
+    "body_digest_verified": true,
+    "source_inventory_digest_verified": true,
+    "inventory_digest_method": "Independently imported review_dependency_v4.digest and recomputed the canonical inventory-object digest. Raw serialized file bytes were separately checked and intentionally differ.",
+    "all_area_keys_recomputed_and_equal": true,
+    "request_and_snapshot_area_keys_equal": true,
+    "original_english_examples_retained": 46,
+    "original_english_examples_total": 46,
+    "original_article_report_preserved": true,
+    "receipt_note": "Exact request/snapshot/body/inventory bindings were verified. Hash receipt fields are left to the caller as required by the compact B prompt."
+  },
+  "scope_notes": [
+    "The 12-block organization is proportionate to the expanded lexical coverage. The first and third noun blocks openly identify their pedagogical overlap; the major action, state, character, skill, taxidermy, rejection and failure readings are now distinguishable. No further numbered block is demanded merely to reach a count.",
+    "Block 9 explicitly differentiates the obstruction verb from the directly related nasal state adjective in its title, definition and frames. This combination does not conceal the agent/state contrast; keeping it is defensible. It is also clearly separated from the failure meaning in block 12.",
+    "The selected mount comparison is supported for preparation of animal specimens for display. It does not assert that all mounting is taxidermy or that every occurrence of stuff is interchangeable with mount.",
+    "Marked expressions distinguish angry rejection from abandoning a plan. The British qualification for get stuffed and nonexclusive Australian indication for failure stuff up are defensible. Low-priority technical and vulgar readings have useful concise labels rather than forced large blocks.",
+    "The optional unified core can remain absent: the proposed article preserves the meanings and does not force all contemporary readings through an unexplained filling metaphor.",
+    "All 79 example/translation pairs were inspected. All 46 original English examples were independently confirmed present. Numeric frequencies were assessed as global-English per-selected-sense editorial bands, not measured corpus statistics; no arbitrary exact replacement score is requested."
+  ],
+  "source_verification": [
+    {
+      "url": "https://www.merriam-webster.com/dictionary/stuff",
+      "access": "Direct original page opened independently during this review; relevant edited definition, usage, pronunciation, origin or specialist passage inspected."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/stuff_1",
+      "access": "Direct original page opened independently during this review; relevant edited definition, usage, pronunciation, origin or specialist passage inspected."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/stuff_2",
+      "access": "Direct original page opened independently during this review; relevant edited definition, usage, pronunciation, origin or specialist passage inspected."
+    },
+    {
+      "url": "https://www.collinsdictionary.com/dictionary/english/stuff",
+      "access": "Direct original page opened independently during this review; relevant edited definition, usage, pronunciation, origin or specialist passage inspected."
+    },
+    {
+      "url": "https://www.etymonline.com/word/stuff",
+      "access": "Direct original page opened independently during this review; relevant edited definition, usage, pronunciation, origin or specialist passage inspected."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/staff_1",
+      "access": "Direct original page opened independently during this review; relevant edited definition, usage, pronunciation, origin or specialist passage inspected."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/stuffed",
+      "access": "Direct original page opened independently during this review; relevant edited definition, usage, pronunciation, origin or specialist passage inspected."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/stuffed-up",
+      "access": "Direct original page opened independently during this review; relevant edited definition, usage, pronunciation, origin or specialist passage inspected."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/stuffed-animal",
+      "access": "Direct original page opened independently during this review; relevant edited definition, usage, pronunciation, origin or specialist passage inspected."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/stuffing",
+      "access": "Direct original page opened independently during this review; relevant edited definition, usage, pronunciation, origin or specialist passage inspected."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/stuffy",
+      "access": "Direct original page opened independently during this review; relevant edited definition, usage, pronunciation, origin or specialist passage inspected."
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/overstuffed",
+      "access": "Direct original page opened independently during this review; relevant edited definition, usage, pronunciation, origin or specialist passage inspected."
+    },
+    {
+      "url": "https://enlightenedequipment.com/stuff-sack/",
+      "access": "Direct original page opened independently during this review; relevant edited definition, usage, pronunciation, origin or specialist passage inspected."
+    },
+    {
+      "url": "https://www.collinsdictionary.com/dictionary/english/hard-stuff",
+      "access": "Direct original page opened independently during this review; relevant edited definition, usage, pronunciation, origin or specialist passage inspected."
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/the%20right%20stuff",
+      "access": "Direct original page opened independently during this review; relevant edited definition, usage, pronunciation, origin or specialist passage inspected."
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/stuff%20the%20ballot%20box",
+      "access": "Direct original page opened independently during this review; relevant edited definition, usage, pronunciation, origin or specialist passage inspected."
+    },
+    {
+      "url": "https://www.usingenglish.com/reference/phrasal-verbs/stuff.html",
+      "access": "Direct original page opened independently during this review; relevant edited definition, usage, pronunciation, origin or specialist passage inspected."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/full_1",
+      "access": "Direct original page opened independently during this review; relevant edited definition, usage, pronunciation, origin or specialist passage inspected."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/essence",
+      "access": "Direct original page opened independently during this review; relevant edited definition, usage, pronunciation, origin or specialist passage inspected."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/ability_1",
+      "access": "Direct original page opened independently during this review; relevant edited definition, usage, pronunciation, origin or specialist passage inspected."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/block_2",
+      "access": "Direct original page opened independently during this review; relevant edited definition, usage, pronunciation, origin or specialist passage inspected."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/ruin_1",
+      "access": "Direct original page opened independently during this review; relevant edited definition, usage, pronunciation, origin or specialist passage inspected."
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/mount",
+      "access": "Direct original page opened independently during this review; relevant edited definition, usage, pronunciation, origin or specialist passage inspected."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/forget",
+      "access": "Direct original page opened independently during this review; relevant edited definition, usage, pronunciation, origin or specialist passage inspected."
+    },
+    {
+      "url": "https://www.collinsdictionary.com/es/diccionario/ingles-espanol/stuff-up",
+      "access": "Direct original entry inspected for transitive particle construction and blocked-person/nose/pipe examples."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/fill_1",
+      "access": "Direct original edited filling definitions and patterns inspected for the single comparison finding."
+    },
+    {
+      "url": "https://www.mlb.com/news/mlb-releases-report-on-pitcher-injuries-2024?lctg=39995156",
+      "access": "Direct original lexical passage inspected: pitch stuff includes velocity, spin and movement. No medical conclusions adopted."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english-german/stuff-up",
+      "access": "First-party indexed PASSWORD entry inspected, including a separated hole/up example. Direct open returned an internal fetch error; no full-page access claimed."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/it/dizionario/inglese-italiano/stuff-up",
+      "access": "First-party indexed version corroborates the same PASSWORD example; direct open failed. This is the same source family, not an independent second dictionary."
+    }
+  ],
+  "source_access_limits": [
+    "Cambridge PASSWORD direct-page failures are preserved above; their indexed text is identified as such. The related blockage meaning and particle use are also directly supported by Collins edited American sense 28 and its original bilingual entry.",
+    "A Farlex stuff-up page was a search lead but its direct fetch failed; it is not recorded as a directly inspected original source.",
+    "Dictionary audio and pronunciation videos were not auditioned. Pronunciation review used printed IPA/forms and phonetic analysis.",
+    "No exhaustive corpus survey, institutional procedure, medical guidance or exact measured frequency claim was undertaken. Automatically compiled dictionary web examples were not substituted for edited definitions.",
+    "This is official normal compact role B coverage, not targeted-correction acceptance or a publication verdict. No Reviewer A report was consulted."
+  ]
+}
