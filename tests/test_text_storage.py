@@ -19,6 +19,12 @@ import review_preflight
 import start_words
 
 
+# Exact entry and blind-review bytes from a8f6d9e458ed71f11a0eb80d8da3bef5fd9dbe2d.
+# Keep this historical pair frozen; the live grant article can be reviewed again.
+FROZEN_GRANT = ROOT / "tests/fixtures/text_storage/grant-20260909.md"
+FROZEN_GRANT_BLIND = ROOT / "tests/fixtures/text_storage/grant-20260909.final_blind.json"
+
+
 class TextStorageTests(unittest.TestCase):
     def test_generated_json_bytes_do_not_depend_on_windows_newline_translation(self):
         value = {"headword": "grant", "notes": "日本語の監査\n次の行"}
@@ -61,11 +67,14 @@ class TextStorageTests(unittest.TestCase):
 
                 git("init")
                 (root / ".gitattributes").write_bytes((ROOT / ".gitattributes").read_bytes())
-                for relative in ("entries/g/grant.md", cycle + "/final_blind.json",
-                                 "prompts/check_pass_translation_v6.md"):
+                for relative, source in (
+                    ("entries/g/grant.md", FROZEN_GRANT),
+                    (cycle + "/final_blind.json", FROZEN_GRANT_BLIND),
+                    ("prompts/check_pass_translation_v6.md", ROOT / "prompts/check_pass_translation_v6.md"),
+                ):
                     path = root / relative
                     path.parent.mkdir(parents=True, exist_ok=True)
-                    path.write_bytes((ROOT / relative).read_bytes())
+                    path.write_bytes(source.read_bytes())
 
                 legacy = b'{\r\n  "sealed": true\r\n}\n'
                 historical = ["audits/legacy.json", "entries/z/legacy.md",
@@ -98,6 +107,21 @@ class TextStorageTests(unittest.TestCase):
                     self.assertEqual(git("show", "HEAD:" + relative), expected, relative)
                     self.assertEqual((clone / relative).read_bytes(), expected, relative)
                 self.assertNotIn(b"\r", (clone / "prompts/check_pass_translation_v6.md").read_bytes())
+
+    def test_frozen_grant_pair_stays_bound_and_rejects_changed_content(self):
+        blind = json.loads(FROZEN_GRANT_BLIND.read_text(encoding="utf-8"))
+        self.assertEqual(audit.body_sha256(FROZEN_GRANT), blind["input_body_sha256"])
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            entry = root / "grant.md"
+            raw = root / "final_blind.json"
+            entry.write_bytes(FROZEN_GRANT.read_bytes() + b"\nLater reviewed content.\n")
+            raw.write_bytes(FROZEN_GRANT_BLIND.read_bytes())
+            with self.assertRaisesRegex(ValueError, "final_blind.input_body_sha256 is stale"):
+                audit.seal_blind(entry, raw, root / "blind_seal.json", repo_root=root,
+                                 sealed_at="2026-09-10T13:00:00Z")
+            self.assertEqual(raw.read_bytes(), FROZEN_GRANT_BLIND.read_bytes())
+            self.assertFalse((root / "blind_seal.json").exists())
 
     def test_utf8_frozen_packet_ignores_legacy_windows_default_encoding(self):
         # Python 3.12 can run with the Windows locale codec instead of UTF-8.
