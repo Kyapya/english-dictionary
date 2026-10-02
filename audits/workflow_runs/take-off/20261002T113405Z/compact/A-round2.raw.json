@@ -1,0 +1,122 @@
+{
+  "schema_version": "compact_review_response_v1",
+  "checked_areas": [
+    "core_image",
+    "etymology"
+  ],
+  "unchecked_areas": [
+    {
+      "area": "pronunciation",
+      "reason": "Unchanged dependency hash from the genuine full round-1 review; not reread in this focused round. Eligible prior coverage must be reused mechanically, not counted as a fresh inspection."
+    },
+    {
+      "area": "word_formation",
+      "reason": "Unchanged dependency hash from the genuine full round-1 review; not reread in this focused round. Eligible prior coverage must be reused mechanically, not counted as a fresh inspection."
+    },
+    {
+      "area": "sense:05bb0c3ebf520428450a",
+      "reason": "Unchanged dependency hash from the genuine full round-1 review; not reread in this focused round. Eligible prior coverage must be reused mechanically, not counted as a fresh inspection."
+    },
+    {
+      "area": "sense:615e984042885bd9435d",
+      "reason": "Unchanged dependency hash from the genuine full round-1 review; not reread in this focused round. Eligible prior coverage must be reused mechanically, not counted as a fresh inspection."
+    },
+    {
+      "area": "sense:853bfef65a4e8e622b52",
+      "reason": "Unchanged dependency hash from the genuine full round-1 review; not reread in this focused round. Eligible prior coverage must be reused mechanically, not counted as a fresh inspection."
+    },
+    {
+      "area": "sense:a1daef1f23b0271e0b11",
+      "reason": "Unchanged dependency hash from the genuine full round-1 review; not reread in this focused round. Eligible prior coverage must be reused mechanically, not counted as a fresh inspection."
+    },
+    {
+      "area": "sense:d5607fc9c399abde40b7",
+      "reason": "Unchanged dependency hash from the genuine full round-1 review; not reread in this focused round. Eligible prior coverage must be reused mechanically, not counted as a fresh inspection."
+    },
+    {
+      "area": "sense:73e444a5a4d2d54152e5",
+      "reason": "Unchanged dependency hash from the genuine full round-1 review; not reread in this focused round. Eligible prior coverage must be reused mechanically, not counted as a fresh inspection."
+    },
+    {
+      "area": "sense:2162104f4cea5ee3ebb3",
+      "reason": "Unchanged dependency hash from the genuine full round-1 review; not reread in this focused round. Eligible prior coverage must be reused mechanically, not counted as a fresh inspection."
+    },
+    {
+      "area": "sense:f68d3bf1504ae33cdb9a",
+      "reason": "Unchanged dependency hash from the genuine full round-1 review; not reread in this focused round. Eligible prior coverage must be reused mechanically, not counted as a fresh inspection."
+    },
+    {
+      "area": "sense:bfbf2c42a43cefce5074",
+      "reason": "Unchanged dependency hash from the genuine full round-1 review; not reread in this focused round. Eligible prior coverage must be reused mechanically, not counted as a fresh inspection."
+    },
+    {
+      "area": "sense:841b1f3c8383d52d91e4",
+      "reason": "Unchanged dependency hash from the genuine full round-1 review; not reread in this focused round. Eligible prior coverage must be reused mechanically, not counted as a fresh inspection."
+    }
+  ],
+  "findings": [],
+  "reviewer": {
+    "execution_id": "/root/review_dictionary_progress",
+    "role": "A",
+    "model": "unknown",
+    "model_note": "Runtime model ID is unavailable."
+  },
+  "binding": {
+    "request_sha256": "80763ca3189852e89e17d7df6f876111d461aca32106bb40f08a825378985616",
+    "snapshot_sha256": "196075da88b0d2ed436d4ce0f2d15fa3c8938aea40c09f83f0836308282e698d",
+    "body_sha256": "c1aa027d6c2074cdcb4b0e3413beee02fff566fd30851359ab113338a9fae767",
+    "snapshot_entry_body_full_text_sha256": "ff320f5ad94d61d21641b08481efc2c8d4996de80cd5b3a1b83f0cbda5a60b45",
+    "source_inventory_sha256": "3f87758fa6672d4804d7610ff298154dcd3f87fe0b161def36561693d10de89c",
+    "prior_raw_sha256": "9e6f3d3d09a4dd42832ab64e8b3b8a92cba55570cf05bc82c69f479507414b33",
+    "prior_adjudication_sha256": "040ba415c34d4166552cd43cfdba589379aa8d7c7d0f74a0ef41f8850fa8b7de"
+  },
+  "coverage": {
+    "scope": "new_core_and_unchanged_etymology_context",
+    "inspected_ranges": [
+      [
+        21,
+        27
+      ],
+      [
+        35,
+        47
+      ]
+    ],
+    "necessary_context": "Unchanged adjacent formation and current sense titles used only to verify placement and exact branch correspondence; no new full sense/body audit claimed.",
+    "current_line_count": 682,
+    "checked_area_count": 2,
+    "unchecked_prior_coverage_area_count": 12,
+    "verification": "Independently verified snapshot/body/canonical inventory hashes, exact entry.round2 equality and one insertion of core-proposal.txt before the meaning section. All 13 original area hashes and all original claim records remain unchanged; only core_image is newly uncovered. The source map adds a previously directly read Oxford figurative-economy example. Original raw and addendum are unchanged."
+  },
+  "resolution_notes": [
+    "The actual introduction has two sentences and includes the explicit historical-residual classification of sense 10. It states that the current use is not thereby labelled archaic, matching the separate adjudication and documented copy/reproduce history.",
+    "Senses 1–9 are each represented once with exact current titles. The explanatory prefixes are short nominal phrases sharing separation as their common term, with no missing or duplicated branch.",
+    "Growth is explicitly a flight metaphor; it does not assert actual business detachment, a necessary prior period of stagnation, or extraction of someone’s features.",
+    "The unchanged etymology already distinguishes old copying/reproduction from mechanically deriving imitation out of physical removal. The inserted core and this history are mutually consistent.",
+    "The earlier omission acceptance is preserved as historical evidence, but its contract judgment is superseded by the separate addendum and this actual current-core inspection. This is not a retroactive alteration of the clean round-1 response."
+  ],
+  "source_basis": [
+    {
+      "url": "https://www.etymonline.com/word/takeoff",
+      "access": "Direct historical copy/reproduce→imitation paragraph independently read earlier in this word review and applied to this exact exclusion."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/take-off_2",
+      "access": "Direct edited figurative economy example was independently read during the noun review; supports flight metaphor without prior-stagnation entailment."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/us/definition/english/take-off_1",
+      "access": "Previously independently read complete edited construction/sense list; unchanged lexical meanings support the branch mapping."
+    },
+    {
+      "path": "prompts/entry_spec_v5.md",
+      "use": "Current majority, exact-title, nominal-branch and historically explained exclusion requirements."
+    }
+  ],
+  "limits": [
+    "Focused normal compact update only; no publication-only final review or targeted-correction receipt.",
+    "No B report read and no unissued preliminary request used.",
+    "Only the authentic local raw response is written; no entry or remote mutation."
+  ],
+  "recorded_at": "2026-10-02T11:52:20.303457+00:00"
+}

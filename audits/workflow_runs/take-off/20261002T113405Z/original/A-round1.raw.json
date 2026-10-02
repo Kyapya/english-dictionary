@@ -1,0 +1,387 @@
+{
+  "schema_version": "full_entry_assessment_response_v1",
+  "word": "take off",
+  "round": 1,
+  "assessment_scope": "full_current_entry",
+  "reviewer": {
+    "identity": "/root/review_dictionary_progress",
+    "role": "A",
+    "model": "unknown",
+    "model_identity_note": "Runtime model ID is unavailable."
+  },
+  "entry_path": "entries/t/take-off.md",
+  "repository_ref": "cb6506666257dd2fdb962874acdfd1db06229b49",
+  "body_sha256": "1388f056fb8a9577fa057ac51ceb31fcd8b082b2b1039d2f2606d12805ddc642",
+  "file_sha256": "517c06f52bbe7c5aa21860ada79df2a5702dc0d537452146f6eb80a01547a7e4",
+  "packet_sha256": "29bd0dd173a3c7842bfe1a4fb9e3cd845ca8312e7b4ec5126e0a9b158f5311fe",
+  "coverage": {
+    "read_ranges": [
+      [
+        1,
+        240
+      ],
+      [
+        241,
+        475
+      ]
+    ],
+    "line_count": 475,
+    "numbered_blocks": 6,
+    "standard_example_translation_pairs": 54,
+    "checked_areas": [
+      {
+        "area": "pronunciation",
+        "lines": [
+          13,
+          18
+        ]
+      },
+      {
+        "area": "etymology",
+        "lines": [
+          20,
+          28
+        ]
+      },
+      {
+        "area": "word_formation",
+        "lines": [
+          30,
+          35
+        ]
+      },
+      {
+        "area": "core_image_embedded",
+        "lines": [
+          28,
+          28
+        ]
+      },
+      {
+        "area": "sense:1",
+        "lines": [
+          39,
+          110
+        ]
+      },
+      {
+        "area": "sense:2",
+        "lines": [
+          112,
+          183
+        ]
+      },
+      {
+        "area": "sense:3",
+        "lines": [
+          185,
+          256
+        ]
+      },
+      {
+        "area": "sense:4",
+        "lines": [
+          258,
+          329
+        ]
+      },
+      {
+        "area": "sense:5",
+        "lines": [
+          331,
+          402
+        ]
+      },
+      {
+        "area": "sense:6",
+        "lines": [
+          404,
+          475
+        ]
+      }
+    ],
+    "unchecked_areas": [],
+    "notes": "All current lines and all 54 standard English/Japanese pairs read independently; inline construction claims assessed. Exact hashes and packet equality verified. Current rules hashes match previously read v5/compact contracts. This is a full original assessment, not a scoped acceptance or official normal-run receipt."
+  },
+  "verdict": "needs_correction",
+  "eligibility": {
+    "recommended_route": "normal_compact_reevaluation",
+    "reason": "Ordinary departure and major transitive removal/withdrawal construction groups are absent, requiring substantive inventory and argument-role work. These omissions should not be suppressed to fit targeted correction. The phrase-versus-slug pipeline issue is operational and does not change this linguistic assessment."
+  },
+  "findings": [
+    {
+      "id": "take-off-A-R1-01",
+      "severity": "blocking",
+      "area": "major_meaning_coverage",
+      "location": "entire six-block inventory",
+      "quote": "1. 【句動詞/自動詞】離陸する。",
+      "reason": "Ordinary departure is absent. The reflexive and causative departure constructions also have distinct argument roles that the current entry cannot teach.",
+      "minimal_action": "Add take off meaning leave/depart, with take off for/in a direction, and distinguish take oneself/somebody off to a place. Suddenness or reluctance may be typical but should not be mandatory.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/us/definition/english/take-off_1",
+        "https://www.collinsdictionary.com/dictionary/english/take-off",
+        "https://www.merriam-webster.com/dictionary/take%20off"
+      ]
+    },
+    {
+      "id": "take-off-A-R1-02",
+      "severity": "blocking",
+      "area": "major_meaning_coverage",
+      "location": "removal inventory, sense 2",
+      "quote": "衣服、靴、帽子、アクセサリー、カバーなどを身につけた状態・付いた状態から外すこと。",
+      "reason": "Removing a person from a role, equipment or playing field is missing, as is withdrawing a service, programme or product. These constructions change the object and complement roles materially.",
+      "minimal_action": "Add proportionate removal-from-role/equipment and withdrawal coverage with complete take someone/something off something frames; distinguish this from physically removing clothing. Use simple lexical examples rather than medical/legal procedural claims.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/us/definition/english/take-off_1",
+        "https://www.collinsdictionary.com/dictionary/english/take-off",
+        "https://www.merriam-webster.com/dictionary/take%20off"
+      ]
+    },
+    {
+      "id": "take-off-A-R1-03",
+      "severity": "minor",
+      "area": "removal_scope",
+      "location": "sense 2 definition and overview",
+      "quote": "take off your shoes。",
+      "reason": "The current removal definition is confined to attached possessions/covers. Taking off hair or a body part is an attested extension with learner value.",
+      "minimal_action": "Broaden the relevant removal coverage with a concise hair/cutting example or note, avoiding graphic detail or a compulsory new standalone block.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/us/definition/english/take-off_1"
+      ]
+    },
+    {
+      "id": "take-off-A-R1-04",
+      "severity": "minor",
+      "area": "subject_scope",
+      "location": "sense 1 usage, line 71",
+      "quote": "航空機が主語の自動詞。目的語は取らない。",
+      "reason": "The subject restriction contradicts the entry’s own We took off from Haneda example. Passengers or crew can be subjects metonymically.",
+      "minimal_action": "Say aircraft, flights, or the people travelling in them can be subjects in this intransitive flight use. Keep the valid We example.",
+      "sources": [
+        "https://www.collinsdictionary.com/dictionary/english/take-off",
+        "https://www.oxfordlearnersdictionaries.com/us/definition/english/take-off_1"
+      ]
+    },
+    {
+      "id": "take-off-A-R1-05",
+      "severity": "blocking",
+      "area": "construction_disambiguation",
+      "location": "sense 5 usage, line 363",
+      "quote": "take $10 off のように数量目的語があるかで見分ける。",
+      "reason": "Time-off expressions also have quantitative objects, such as two days. Quantity alone cannot distinguish a break from a reduction.",
+      "minimal_action": "Contrast taking two days off work with taking two seconds off a record, using the kind of quantity, off-complement and intended activity/total. Retain the existing monetary examples.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/take%20off",
+        "https://www.collinsdictionary.com/dictionary/english/take-off"
+      ]
+    },
+    {
+      "id": "take-off-A-R1-06",
+      "severity": "blocking",
+      "area": "part_of_speech_and_frame_alignment",
+      "location": "sense 6, lines 412 and 431–434",
+      "quote": "例: The sketch was a takeoff of a famous detective show.",
+      "reason": "This is a noun example inside an exclusively transitive phrasal-verb block, and it does not illustrate its do a takeoff heading.",
+      "minimal_action": "Preserve the pair in an explicitly labelled related-noun note/block and use a takeoff of or be a takeoff of as its actual frame. Keep verb impersonation examples under the phrasal verb.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/take-off_2",
+        "https://www.oxfordlearnersdictionaries.com/us/definition/english/take-off_1"
+      ]
+    },
+    {
+      "id": "take-off-A-R1-07",
+      "severity": "minor",
+      "area": "etymology",
+      "location": "line 22",
+      "quote": "take は古英語系の語で",
+      "reason": "Late Old English tacan is an attested stage, but the formulation hides the Scandinavian borrowing route and may imply native Old English origin.",
+      "minimal_action": "Specify Scandinavian/Old Norse into late Old English, without falsely saying take had no Old English stage.",
+      "sources": [
+        "https://www.etymonline.com/word/take"
+      ]
+    },
+    {
+      "id": "take-off-A-R1-08",
+      "severity": "minor",
+      "area": "etymology_and_core",
+      "location": "lines 24 and 28",
+      "quote": "「特徴を取り出してまねる」などへ広がった。",
+      "reason": "Feature extraction is presented as historical development without demonstrated historical support. The core is also embedded in etymology, with no current-sense mapping.",
+      "minimal_action": "Use the supported older copy/reproduce→imitate account if useful. After the full normal inventory is settled, assess an honest modern separation kernel under v5 and provide the required exact branches if it qualifies. Do not force the imitation meaning into invented physical extraction, and do not invent an exclusion category to make a core pass.",
+      "sources": [
+        "https://www.etymonline.com/word/takeoff"
+      ]
+    },
+    {
+      "id": "take-off-A-R1-09",
+      "severity": "minor",
+      "area": "pronunciation_and_formation",
+      "location": "lines 15–18,32–35",
+      "quote": "・take off（句動詞）— 動詞としては通常二語で書く。",
+      "reason": "The formation list repeats the headword and includes separability grammar. It teaches the noun spelling but omits the useful noun/verb stress distinction.",
+      "minimal_action": "Move headword spelling and separability into usage; retain the actual takeoff/take-off noun relationship. Add the noun’s initial stress with correctly labelled IPA, distinguish its spelling from the two-word verb, and avoid a universal single spelling preference.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/take-off_2",
+        "https://www.merriam-webster.com/dictionary/take%20off"
+      ]
+    },
+    {
+      "id": "take-off-A-R1-10",
+      "severity": "minor",
+      "area": "grammar_frame_alignment",
+      "location": "coat collocation, lines 129–132",
+      "quote": "・take off a coat",
+      "reason": "The fixed indefinite-article frame does not exactly match his coat in the example. More broadly, several overviews omit the separated noun-object alternative even while their usage notes correctly mention it.",
+      "minimal_action": "Use a suitable complete replaceable clothing frame or match the determiner, and give complete noun-object/pronoun-object alternatives for the relevant separable senses. Do not imply that all intransitive take-off meanings allow an object.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/us/definition/english/take-off_1",
+        "https://www.collinsdictionary.com/dictionary/english/take-off"
+      ]
+    },
+    {
+      "id": "take-off-A-R1-11",
+      "severity": "minor",
+      "area": "lexical_scope",
+      "location": "strip off comparison, lines 163–165",
+      "quote": "strip off は勢いや乱暴さがあり、take off より強い。",
+      "reason": "The wording makes speed/roughness obligatory. Removing clothing need not be rough or hurried, although forceful layer removal and emphatic contexts exist.",
+      "minimal_action": "Qualify speed/roughness as contextual and define the selected clothing-removal meaning accurately. Keep the wet-shirt example and its natural brisk translation.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/strip_2"
+      ]
+    },
+    {
+      "id": "take-off-A-R1-12",
+      "severity": "minor",
+      "area": "lexical_scope",
+      "location": "gain momentum, line 231",
+      "quote": "gain momentum は徐々に勢いがつく過程を表す。",
+      "reason": "Gradualness is not required by gaining momentum; momentum can increase rapidly. This creates a false categorical contrast with take off.",
+      "minimal_action": "Describe increasing momentum rather than necessarily gradual growth. The comparison can say it need not identify the sudden onset of success.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/momentum"
+      ]
+    },
+    {
+      "id": "take-off-A-R1-13",
+      "severity": "minor",
+      "area": "lexical_relation_axis",
+      "location": "wear, be off and call in sick comparison blocks",
+      "quote": "be off は状態を表し、take off は休みを取る行為を表す。",
+      "reason": "The entry itself identifies a state/action distinction. Calling in sick is a notification act; it is related to absence but not synonymous with taking leave. Wearing is a resulting/opposed state rather than the inverse dressing action.",
+      "minimal_action": "Retain these useful pairs as explicitly labelled state/action or associated-action contrasts, while keeping put on and genuine overlapping lexical comparisons. Do not treat all contextual relations as direct synonyms/antonyms.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/us/definition/english/take-off_1"
+      ]
+    },
+    {
+      "id": "take-off-A-R1-14",
+      "severity": "minor",
+      "area": "lexical_relation_axis",
+      "location": "sense 6 antonyms, lines 461–475",
+      "quote": "声や癖を作ってまねることの反対として使える。",
+      "reason": "Speaking naturally and being oneself do not logically oppose imitation: natural delivery or authentic self-expression can occur during an impression.",
+      "minimal_action": "Keep the examples as labelled contextual performance contrasts rather than unqualified lexical antonyms.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/us/definition/english/take-off_1",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/take-off_2"
+      ]
+    },
+    {
+      "id": "take-off-A-R1-15",
+      "severity": "minor",
+      "area": "lexical_relation_format",
+      "location": "leave the ground lines 89–94; speak naturally lines 470–475",
+      "quote": "動作を説明する表現で、take off より句動詞らしい慣用性は弱い。",
+      "reason": "Leave the ground and speak naturally are explanatory free phrases, yet are formatted and scored as lexical comparison entries.",
+      "minimal_action": "Move the intact pairs into explanatory usage notes; avoid treating free paraphrases as scored dictionary synonyms or antonyms.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/lift-off_1"
+      ]
+    },
+    {
+      "id": "take-off-A-R1-16",
+      "severity": "minor",
+      "area": "register_qualification",
+      "location": "imitation register, line 410",
+      "quote": "主に英式、演芸、会話、やや古めの表現。",
+      "reason": "The mainly British qualification is supported, but the blanket older-use label is not established by the directly checked current edited entries.",
+      "minimal_action": "Retain the regional/performative guidance and remove or specifically support the general やや古め claim. Do not replace it with a categorical claim that the expression is obsolete.",
+      "sources": [
+        "https://www.collinsdictionary.com/dictionary/english/take-off",
+        "https://www.oxfordlearnersdictionaries.com/us/definition/english/take-off_1"
+      ]
+    },
+    {
+      "id": "take-off-A-R1-17",
+      "severity": "minor",
+      "area": "body_format",
+      "location": "throughout legacy v1 body",
+      "quote": "＃意味や関連情報の出力（日本語訳）",
+      "reason": "The old heading, 〈頻度: n/10〉 labels, bare + placeholders and missing two-space line endings conflict with current v5 body syntax.",
+      "minimal_action": "Apply current body formatting and complete actual frames, preserving intentional fullwidth headings. Keep generation metadata/provenance honest; do not casually bump entry_spec_v1 merely because the body is modernized. No correct English examples need be removed. ",
+      "sources": []
+    }
+  ],
+  "frequency_assessment": {
+    "scope": "Each defined sense across English as a whole, not whole-word totals or relative ranking within the entry. Ordinal editorial estimates, not measured corpus counts.",
+    "decision": "No mandatory fine-grained changes to current broad scores established. Added or separated meanings need their own global-English ordinal bands; regional imitation3 is not contradicted by dictionary presence. Free paraphrases should lose unsupported lexical-score formatting."
+  },
+  "sources": [
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/us/definition/english/take-off_1",
+      "access": "Direct original phrasal-verb page read after the unsuffixed guessed URL failed; full edited meaning/construction list inspected."
+    },
+    {
+      "url": "https://www.collinsdictionary.com/dictionary/english/take-off",
+      "access": "Direct COBUILD and British/American edited phrasal-verb sections read; automatic recent examples not treated as editorial evidence."
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/take%20off",
+      "access": "Direct verb/noun sections read, including removal, breaks, withdrawal, departure, jumping and development; notation distinguished from noun takeoff."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/take-off_2",
+      "access": "Direct original noun definitions, IPA, countability and imitation construction read."
+    },
+    {
+      "url": "https://www.etymonline.com/word/take",
+      "access": "Direct original historical route paragraph read."
+    },
+    {
+      "url": "https://www.etymonline.com/word/takeoff",
+      "access": "Direct original copy/reproduce→imitation history paragraph read."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/strip_2",
+      "access": "Direct clothing-removal and layer-removal edited senses read."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/momentum",
+      "access": "Direct figurative definition and gain/build collocations read."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/lift-off_1",
+      "access": "Direct rocket/helicopter flight definition read."
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/liftoff",
+      "access": "Direct edited noun definition explicitly including vertical takeoff read; noun evidence is not misrepresented as a full phrasal-verb definition."
+    }
+  ],
+  "proportionate_coverage_notes": [
+    "A short jumping/takeoff-on-feet note is supported by MW and Oxford noun; it can be considered without forcing a large independent sports block.",
+    "Derivative noun takeoff/take-off should be grammatically separated and given appropriate stress, but the phrase headword does not require reproducing every specialist noun meaning.",
+    "Some general dictionaries include killing, copying, robbery and technical branching senses. These are peripheral to the demonstrated major gaps; no large set of unverified or unlabelled new blocks is demanded.",
+    "The familiar upward/vertical liftoff association has dictionary support; it is not reported as an established false meaning. If broadened, distinguish typical vehicles from a mathematically mandatory trajectory.",
+    "The old-English-stage wording is incomplete, not proof that no Old English stage existed.",
+    "Charge can oppose a discount in a specific extra-fee context but is not a universal opposite of deducting; keep that context explicit if retained. No blanket purge of broader genuine synonyms is requested."
+  ],
+  "limits": [
+    "No audio audition or numerical corpus analysis.",
+    "The unsuffixed Oxford take-off URL failed; the actual phrasal-verb and noun pages were directly accessed successfully.",
+    "No B raw or author verdict read.",
+    "Only this authentic local report is written; no entry, repository or remote state changed."
+  ],
+  "completed_at": "2026-10-02T11:10:13.017801+00:00"
+}

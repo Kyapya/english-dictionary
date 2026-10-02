@@ -1,0 +1,147 @@
+{
+  "schema_version": "compact_review_response_v1",
+  "checked_areas": [
+    "pronunciation",
+    "etymology",
+    "word_formation",
+    "sense:05bb0c3ebf520428450a",
+    "sense:615e984042885bd9435d",
+    "sense:853bfef65a4e8e622b52",
+    "sense:a1daef1f23b0271e0b11",
+    "sense:d5607fc9c399abde40b7",
+    "sense:73e444a5a4d2d54152e5",
+    "sense:2162104f4cea5ee3ebb3",
+    "sense:f68d3bf1504ae33cdb9a",
+    "sense:bfbf2c42a43cefce5074",
+    "sense:841b1f3c8383d52d91e4"
+  ],
+  "unchecked_areas": [],
+  "findings": [],
+  "reviewer": {
+    "execution_id": "/root/review_dictionary_progress",
+    "role": "A",
+    "model": "unknown",
+    "model_note": "The runtime model ID is unavailable."
+  },
+  "binding": {
+    "request_sha256": "2eb46f7292faf19478400787ab957a7bc7914dd14241a341a249f88e36ef220b",
+    "snapshot_sha256": "2c97c1e6ff857a44a0a73aee16284a29288f1622fa31bada0531d0447ea210ad",
+    "body_sha256": "ebe66a7d9d6452bc920849abb6ed8e86edbefe0192b615a7aada7b2cde9e64ec",
+    "snapshot_entry_body_full_text_sha256": "cc42d9744a5266ebba0247e7f8d10042d1712eee59e2603fac1931246e1a08fd",
+    "source_inventory_sha256": "16ca2a58e78283698df833bac6e51d2160bf65359b6789729a24ecf3693fbdef",
+    "source_inventory_file_sha256": "4274e8ba55c67a3de19ed1f92577696d6dbff43fe2177f994a795be35f4898d4",
+    "hash_note": "Verified snapshot raw bytes and post-front-matter body hash independently. Source inventory hash uses UTF-8 sorted-key compact JSON; its raw-file hash is distinct. The preserved entry.round1.md equals the snapshot string."
+  },
+  "coverage": {
+    "scope": "full_current_article",
+    "inspected_full_text_lines": [
+      1,
+      668
+    ],
+    "read_ranges": [
+      [
+        1,
+        235
+      ],
+      [
+        236,
+        470
+      ],
+      [
+        471,
+        668
+      ]
+    ],
+    "requested_areas_count": 13,
+    "numbered_senses": 10,
+    "standard_example_translation_pairs": 75,
+    "description": "Read the complete current article, every standard pair and inline construction. Assessed pronunciation, morphology/history, all meanings and major coverage, argument roles, separability, selected lexical relations, natural English/Japanese, register and ordinal per-sense scores. Independently compared the 54 original English examples as a multiset: none missing. Inspected all source facts and the full claim-to-source-ID map. No B report or author verdict was read."
+  },
+  "focus_notes": [
+    "The ten learner units separate departure, reflexive/causative movement, removing people from roles/equipment, and withdrawing services from physical removal and numerical subtraction. These differences concern actual subject/object roles and meanings. Flight/jump departure is explicitly defined and illustrated, without confusing ordinary human departure with flight.",
+    "The noun takeoff/take-off material is clearly labelled as related-noun usage, including a correctly framed a takeoff of example and a new during-takeoff pair. The current phrasal-verb entry need not reproduce every specialist noun submeaning.",
+    "The displayed verb and noun stress distinction is accurate. The noun examples of US/UK vowel notation are labelled examples; they do not claim that every American speaker has only the displayed /ɔː/ realization.",
+    "The core omission does not erase useful lexical coverage. A physical-separation mnemonic could help several branches, but presenting imitation as extraction of features or inventing a homograph/exclusion category would misteach the modern system. The explicit histories and construction-specific explanations are a defensible treatment under v5. No absent core area was claimed freshly checked.",
+    "The source-supported older copy/reproduce history is distinguished from a speculative contemporary derivation. The genuine late Old English stage is retained with Scandinavian origin.",
+    "Pronoun position, noun-object separation, off complements and reflexive constructions are explained through actual frames. A literal-headword classifier is not sufficient reason to reject inflected/separated phrases or examples with a genitive object.",
+    "The temporal-break versus record-reduction distinction no longer relies on quantity alone. State/action and contextual comparisons are labelled; the free paraphrases retain their examples without lexical-looking scores.",
+    "Current regional, medical and aviation notes stay lexical. No medical decision rule, legal guarantee or flight procedure is inferred from an example.",
+    "The independently read FAA runway passage supports broader verb lift-off usage. This supplements the narrower typical-rocket/helicopter dictionary presentation and does not require calling the previous vertical association fictitious.",
+    "No concrete residual requiring correction was found in this snapshot. Scores were judged as global-English ordinal estimates for the stated senses; no empirical frequency measurement or fine numerical tuning was imposed."
+  ],
+  "sources": [
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/us/definition/english/take-off_1",
+      "access": "Direct edited phrasal-verb definitions and full construction list independently read during this word assessment",
+      "use": "Removal, aircraft/people subjects, departure/reflexive, roles/equipment, service withdrawal, time off, subtraction and imitation."
+    },
+    {
+      "url": "https://www.collinsdictionary.com/dictionary/english/take-off",
+      "access": "Direct COBUILD and British/American edited sections independently read",
+      "use": "Major sense cross-check, especially people departure, causative movement, US absence and principally British imitation."
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/take%20off",
+      "access": "Direct edited verb/noun sections independently read",
+      "use": "Took/taken/taking forms, jumping, departure, breaks, withdrawal and proportionate noun coverage."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/take-off_2",
+      "access": "Direct edited noun definitions, IPA and countability independently read",
+      "use": "Noun stress, flight/jump and imitation notes."
+    },
+    {
+      "url": "https://www.etymonline.com/word/take",
+      "access": "Direct original historical paragraph read",
+      "use": "Scandinavian source and late Old English stage."
+    },
+    {
+      "url": "https://www.etymonline.com/word/takeoff",
+      "access": "Direct original historical paragraph read",
+      "use": "Older copy/reproduce and imitation relation; no feature-extraction claim."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/strip_2",
+      "access": "Direct edited clothing and layer senses read",
+      "use": "Qualified clothing-removal comparison."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/momentum",
+      "access": "Direct edited figurative meaning and gain collocation read",
+      "use": "No obligatory gradualness."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/lift-off_1",
+      "access": "Direct edited phrasal-verb definition read",
+      "use": "Typical rocket/helicopter context."
+    },
+    {
+      "url": "https://www.faa.gov/air_traffic/publications/aim_html/chap5_section_2.html",
+      "access": "Direct original Takeoff Obstacles item 2, relevant runway passage independently read in this round",
+      "use": "Attested lift off near a runway departure end. No operational instructions adopted."
+    },
+    {
+      "url": "https://www.collinsdictionary.com/dictionary/english/take-off-after",
+      "access": "Direct edited American informal phrase definition read in this round",
+      "use": "Pursuit construction and region qualification."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/year",
+      "access": "Direct edited take-years-off idiom read in this round",
+      "use": "Look/feel younger, distinct from taking years off life."
+    },
+    {
+      "url": "https://inglespodcast.com/2014/02/11/aprender-ingles-con-reza-y-craig-14/",
+      "access": "Direct original teaching transcript around lines 325–342 independently read in this round",
+      "use": "Accent as an object of humorous take-off imitation. Audio not auditioned."
+    }
+  ],
+  "limits": [
+    "This is the independent official normal compact role-A full response, not a targeted correction or a separate publication-only final check.",
+    "No audio listening, numerical corpus study or exhaustive historical-word catalogue.",
+    "Primary sources for unchanged ordinary dictionary content were read during the original assessment of this same word and remain applicable; targeted new source checks are identified above.",
+    "The entire FAA chapter and podcast were not exhaustively read; only the relevant original passages were inspected.",
+    "No entry, repository or remote state changed. The original-entry A report remains separate and immutable."
+  ],
+  "recorded_at": "2026-10-02T11:41:40.521414+00:00"
+}
