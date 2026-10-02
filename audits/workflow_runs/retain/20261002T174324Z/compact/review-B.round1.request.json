@@ -1,0 +1,31 @@
+{
+  "workflow_contract_version": "compact_review_v1",
+  "role": "B",
+  "snapshot_path": "audits/workflow_runs/retain/20261002T174324Z/compact/snapshot-e997266fad9df123-b85cd86c645c.json",
+  "snapshot_sha256": "4866d577f9df3c6ec8220b0174ac50f8f65c7545c96ac16708d12e6d06aa27e6",
+  "body_sha256": "e997266fad9df12306615c287bb163c2c46eaefdce99c6bc5980269fda7bb1c8",
+  "area_keys": {
+    "pronunciation": "aa4fc847ca8bbde67ece0a5391ed366dcaf5a22a92fbcfa74c7b8fe0ac477269",
+    "etymology": "6a3b738b3c656cb81a5399d27f7879982981e51cd126bdd92bd24710d3599b48",
+    "word_formation": "6c52e702a89be6fb8c3aa7cf637950c60c196051cf463d492074cfb36e427413",
+    "core_image": "dbbf45d91d83ccec6b8475d24a8967dcf59476dd73f92ce60adb38bf626bd8ab",
+    "sense:e0f5703d9bb360c5df8c": "662ab7103ef13711f8c6c3aa414ccc4d06060d51a88a12bcd1dd0f9379887ce2",
+    "sense:50e1cf8b1f940a8c5246": "c2eb7f6e094e9ea9a084c70eab71806de0a1c3d3d034ecfcea0d859e98d8a657",
+    "sense:d7b70209c432e3960d4a": "f6eab2d9bfd13b960482192dfe5df3325f113e901f87fab1a36bd43c1a1c7c09",
+    "sense:1e05a647151250566293": "1c06024a2fdd502390ef267a994458f998dcff67cd773c51821c5cca8f92b96b",
+    "sense:475596261e9bc197e2d1": "3e22fbc3199dbf7c8c760965149cd44479858d5b7f0da1c9cac700e56e717674",
+    "sense:037ab6268dea117b106d": "156a6ee56455ad33a197cc51539ca36ad298b3c2cdd7cf80b8d9aff0adaffd00"
+  },
+  "review_scope": {
+    "purpose": "Independent comparison of article claims with original external references and detection of missing major senses and unsupported generalization",
+    "taxonomy": [
+      "source_contradiction",
+      "insufficient_evidence",
+      "missing_major_sense",
+      "unsupported_generalization",
+      "scope_qualification"
+    ]
+  },
+  "source_inventory_path": "audits/workflow_runs/retain/20261002T174324Z/source_inventory.json",
+  "source_inventory_sha256": "b85cd86c645cc505d3eb20331c405ad812a105b8af05b6a1a4c13b8e7d54cf46"
+}
