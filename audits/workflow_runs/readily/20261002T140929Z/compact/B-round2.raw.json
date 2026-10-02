@@ -1,0 +1,99 @@
+{
+  "schema_version": "compact_review_response_v1",
+  "checked_areas": [
+    "pronunciation",
+    "sense:06bcb53bd623339c0ed6",
+    "sense:c4ace1e340e349478d68"
+  ],
+  "unchecked_areas": [
+    {
+      "area": "etymology",
+      "reason": "Not reread in this affected-area round. Its dependency key is unchanged from the genuine full B round 1; retain that prior coverage."
+    },
+    {
+      "area": "word_formation",
+      "reason": "Not reread in this affected-area round. Its dependency key is unchanged from the genuine full B round 1; retain that prior coverage."
+    },
+    {
+      "area": "usage_preamble",
+      "reason": "Not reread in this affected-area round. Its dependency key is unchanged from the genuine full B round 1; retain that prior coverage."
+    }
+  ],
+  "findings": [],
+  "reviewer": {
+    "execution_identity": "/root/identify_unreviewed_entries",
+    "role": "B",
+    "model": "unknown",
+    "model_disclosure": "The actual execution model identifier is unavailable."
+  },
+  "inspection": {
+    "scope": "complete_changed_areas_and_their_source_evidence",
+    "entry_version": "Immutable snapshot named by review-B.round2.request.json",
+    "inspected_ranges": [
+      {
+        "area": "pronunciation",
+        "snapshot_lines": [
+          13,
+          18
+        ]
+      },
+      {
+        "area": "sense:06bcb53bd623339c0ed6",
+        "snapshot_lines": [
+          35,
+          123
+        ]
+      },
+      {
+        "area": "sense:c4ace1e340e349478d68",
+        "snapshot_lines": [
+          125,
+          210
+        ]
+      }
+    ],
+    "standard_example_translation_pairs_read": 23,
+    "snapshot_binding_verified": true,
+    "body_binding_verified": true,
+    "canonical_inventory_binding_verified": true,
+    "current_entry_equals_snapshot": true,
+    "all_requested_dependency_keys_verified": true,
+    "unchanged_area_dependencies_verified": true,
+    "reviewer_A_response_read": false
+  },
+  "coverage_notes": [
+    "This response covers the entire three changed areas, not only the patch lines. Etymology, word formation and the frequency preamble are explicitly not newly assessed.",
+    "The original B1 sister-age finding is resolved by older sister, matching 姉. The revised dissolve and may not readily frames are grammatical and align with the preserved examples. The mind wording no longer requires deliberate retrieval. IPA and its explanation are separated without changing the supported selected pronunciation.",
+    "The new mind fact and its claim mappings were checked against the directly opened original Oxford idiom. The two main semantic units, promptness coverage, grammatical scope, comparison senses, examples and Japanese remain sound within this review. No additional material missing modern use was established.",
+    "Unchanged relation and grammatical-source evidence independently inspected in B1 was reused; it is not described as freshly reopened here. Current inventory mappings and statements were inspected, including the excluded redundant CO-REL fact. Author research-cost metadata is an author access record, not independent proof or my own browsing count.",
+    "Frequency numbers remain global-English judgments for each defined sense; no corpus measurement or exact numeric validation is asserted."
+  ],
+  "sources_opened_this_round": [
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/readily",
+      "access": "Direct original text",
+      "use": "Both pronunciation fields and two principal meanings."
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/readily",
+      "access": "Direct original text",
+      "use": "Independent willingness and ease definitions, agreement and comprehension examples; automatic web examples are not treated as editorial proof."
+    },
+    {
+      "url": "https://www.collinsdictionary.com/dictionary/english/readily",
+      "access": "Direct original text, including targeted in-page reading",
+      "use": "Verb/adjective syntax, negation, willingness/ease and separately recorded promptness; genuine pronunciation variants preserved as alternatives."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/mind_1",
+      "access": "Direct original text; come/spring to mind idiom inspected",
+      "use": "Supports remembering or thinking of something, without requiring intentional recall."
+    }
+  ],
+  "source_access_limits": [
+    "No audio was played; pronunciation review uses original transcriptions.",
+    "Cambridge readily and Collins collocations retain B1 indexed-only access limitations. They were not reopened in this round, and no new direct-access claim is made for them.",
+    "Other unchanged related-word sources retain the genuine B1 access record. The author inventory was treated as evidence locations and claims requiring assessment, not an independent verdict.",
+    "No fresh full-entry or publication-only acceptance is implied; the other three areas retain earlier verified dependency coverage."
+  ]
+}

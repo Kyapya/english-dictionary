@@ -110,10 +110,88 @@
         }
       ],
       "normalizations": []
+    },
+    {
+      "role": "A",
+      "execution_id": "/root/review_dictionary_progress",
+      "model": "unknown",
+      "recorded_at": "2026-10-02T14:31:39.367060+00:00",
+      "request_path": "audits/workflow_runs/readily/20261002T140929Z/compact/review-A.round2.request.json",
+      "request_sha256": "3b8f73b8d8f20ceb79985173535d242a7e0d348e7e7a3054d61c52d4b3e81f38",
+      "raw_response_path": "audits/workflow_runs/readily/20261002T140929Z/compact/A-round2.raw.json",
+      "raw_response_sha256": "6755b7e06969459c8df7c40fcbbe771a2676ef79171a40de224fba538d8b26da",
+      "body_sha256": "19a9b246e0509ca56ebf18178bf85bb7393dc97efbdd09f33ecb63e2becbe4e9",
+      "area_keys": {
+        "pronunciation": "de9a933879b6cabd0c164280a5ec4fc2870df99d394478d258c3c6c7a2036f86",
+        "sense:06bcb53bd623339c0ed6": "bdf99f54de3363bf2e48e4b20e74de9945e0c06e3efd1e39fdd04e192274a21c",
+        "sense:c4ace1e340e349478d68": "af275804e06e80d09702fe0863f47b0da4f007cb88f0df31795c80c60f23f4b1"
+      },
+      "checked_areas": [
+        "pronunciation",
+        "sense:06bcb53bd623339c0ed6",
+        "sense:c4ace1e340e349478d68"
+      ],
+      "unchecked_areas": [
+        {
+          "area": "etymology",
+          "reason": "Not reread in this focused round. Dependency hash is identical to round1; reuse the authentic prior accepted coverage mechanically."
+        },
+        {
+          "area": "word_formation",
+          "reason": "Not reread in this focused round. Dependency hash is identical to round1; reuse the authentic prior accepted coverage mechanically."
+        },
+        {
+          "area": "usage_preamble",
+          "reason": "Not reread in this focused round. Dependency hash is identical to round1; reuse the authentic prior accepted coverage mechanically."
+        }
+      ],
+      "findings": [],
+      "normalizations": []
+    },
+    {
+      "role": "B",
+      "execution_id": "/root/identify_unreviewed_entries",
+      "model": "unknown",
+      "recorded_at": "2026-10-02T14:36:06.522344+00:00",
+      "request_path": "audits/workflow_runs/readily/20261002T140929Z/compact/review-B.round2.request.json",
+      "request_sha256": "e844e3b9ea77e031b6e99049b05474219305742c5dc6010ba070ee9f7db964cd",
+      "raw_response_path": "audits/workflow_runs/readily/20261002T140929Z/compact/B-round2.raw.json",
+      "raw_response_sha256": "0c4c1b02f073faebc2abf2af370eecd946090bea9c0bb2e4e6bdd06ee955eccc",
+      "body_sha256": "19a9b246e0509ca56ebf18178bf85bb7393dc97efbdd09f33ecb63e2becbe4e9",
+      "area_keys": {
+        "pronunciation": "de9a933879b6cabd0c164280a5ec4fc2870df99d394478d258c3c6c7a2036f86",
+        "sense:06bcb53bd623339c0ed6": "bdf99f54de3363bf2e48e4b20e74de9945e0c06e3efd1e39fdd04e192274a21c",
+        "sense:c4ace1e340e349478d68": "af275804e06e80d09702fe0863f47b0da4f007cb88f0df31795c80c60f23f4b1"
+      },
+      "checked_areas": [
+        "pronunciation",
+        "sense:06bcb53bd623339c0ed6",
+        "sense:c4ace1e340e349478d68"
+      ],
+      "unchecked_areas": [
+        {
+          "area": "etymology",
+          "reason": "Not reread in this affected-area round. Its dependency key is unchanged from the genuine full B round 1; retain that prior coverage."
+        },
+        {
+          "area": "word_formation",
+          "reason": "Not reread in this affected-area round. Its dependency key is unchanged from the genuine full B round 1; retain that prior coverage."
+        },
+        {
+          "area": "usage_preamble",
+          "reason": "Not reread in this affected-area round. Its dependency key is unchanged from the genuine full B round 1; retain that prior coverage."
+        }
+      ],
+      "findings": [],
+      "normalizations": []
     }
   ],
   "resolutions": [],
   "migration": null,
-  "status": "in_progress",
-  "stage": "independent_reviews"
+  "status": "completed",
+  "stage": "publication_ready",
+  "completed_at": "2026-10-02T14:36:06.656399+00:00",
+  "completed_body_sha256": "19a9b246e0509ca56ebf18178bf85bb7393dc97efbdd09f33ecb63e2becbe4e9",
+  "reuse_ledger_path": "audits/workflow_runs/readily/20261002T140929Z/compact/reuse_ledger.json",
+  "reuse_ledger_sha256": "669ad864a3f5a98e8a278b865e196e2c1d87e9a6e9806245670067e9868f1d5a"
 }

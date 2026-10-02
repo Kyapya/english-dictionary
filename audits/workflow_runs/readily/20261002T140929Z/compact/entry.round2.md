@@ -1,12 +1,12 @@
 ---
 headword: readily
 type: word
-status: checked
+status: draft
 prompt_version: entry_spec_v5
 model: unknown
 created_at: 2026-10-02
 updated_at: 2026-10-02
-checked: true
+checked: false
 tags: []
 ---
 
