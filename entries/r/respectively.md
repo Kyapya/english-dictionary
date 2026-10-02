@@ -5,26 +5,29 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-5.6-luna-wm
 created_at: 2026-09-03
-updated_at: 2026-09-04
+updated_at: 2026-10-02
 checked: true
 tags: []
 ---
 
 ＃発音記号
 
-米: /rɪˈspɛktɪvli/｜英: /rɪˈspektɪvlɪ/。4音節で、強勢は第2音節の /ˈspɛk/（英音の辞書表記では /ˈspek/）にある。おおよそ ri-SPEK-tiv-ly と区切って発音し、第1音節の /rɪ/、第3音節の /ɪ/、語末の /li/（英音では /lɪ/）は弱くなりやすい。辞書の転写方式により、英音の母音を /ɛ/ と表すこともある。  
+米: /rɪˈspɛktɪvli/｜英: /rɪˈspektɪvli/  
+
+4音節で、強勢は第2音節の /ˈspɛk/（/ˈspek/ とも表記）にある。おおよそ ri-SPEK-tiv-ly と区切って発音し、第1・第3・第4音節は強勢を置かずに発音する。英音の語末を /lɪ/ とする辞書もあるが、/li/ は米英ともに記載される。/e/ と /ɛ/ の選択も辞書の転写方式によるため、これらを一律の米英差とは捉えない。  
+
 綴りの -tively は /tɪvli/ で、respectfully /rɪˈspɛktfəli/ のように /f/ を入れない。respectively は副詞、respective は形容詞で、respectively に活用語尾はない。  
 
 ＃語源
 
 respectively は、形容詞 respective に副詞接尾辞 -ly が付いた語である。respective は中英語を経て、中世ラテン語 respectivus「関係を持つ、考慮する」にさかのぼり、ラテン語 respicere「振り返って見る、考慮する」の過去分詞語幹 respect- と関係する。  
-「個々のものに関係する」という respective の意味に -ly が加わった形だが、「個々のものに関係する形で」から現代の「複数の対応項目を提示順に結び付ける」用法への発達は単純な一段階とは限らない。歴史資料には「比較的に」「敬意をもって」など現代の中心義とは異なる古い用法もあるが、ここでは現代標準語義を扱う。語源上は respect と関係するが、現代の respectively は「敬意をもって」という意味ではなく、respectfully とも別の語である。  
+
+「個々のものに関係する」という respective の意味に -ly が加わった形だが、「個々のものに関係する形で」から現代の「複数の対応項目を提示順に結び付ける」用法への発達は単純な一段階とは限らない。歴史資料には「敬意をもって」など現代の中心義とは異なる古い用法もあるが、ここでは現代標準語義を扱う。語源上は respect と関係するが、現代の respectively は「敬意をもって」という意味ではなく、respectfully とも別の語である。  
 
 ＃語形成
 
-・respective + -ly → respectively：形容詞 respective「それぞれの、各自の」に副詞接尾辞 -ly が付いた形。並列する項目を順番どおりに対応づける。  
 ・respective：形容詞「それぞれの、各自の」。their respective roles「それぞれの役割」のように名詞を修飾し、対応する複数の名詞句を必ずしも同時に並べるとは限らない。これは respectively の別品詞の語義ではなく、respectively がそこから作られた基底形である。  
-・respectfully：形容詞 respectful「礼儀正しい、敬意を示す」に -ly が付いた副詞。「謹んで、失礼ながら」の意味で、respect 系の語源を共有するが、respectively とは現代の意味・品詞・用法が異なる。  
+・respectfully：形容詞 respectful「礼儀正しい、敬意を示す」に -ly が付いた副詞。「謹んで、失礼ながら」の意味で、respectively と respect 系の語源を共有し、品詞も同じ副詞だが、現代の意味と用法が異なる。  
 
 ＃意味・用法・関連表現
 
@@ -36,7 +39,7 @@ respectively は、形容詞 respective に副詞接尾辞 -ly が付いた語�
 
 【レジスター/領域】標準語。英語全体で使われるが、説明文、学術・科学論文、統計、報告書、ニュース、ビジネス文書など書き言葉・フォーマルな説明で特に多い。会話でも使えるが、日常会話では対応関係が長い場合に別の言い方へ変えることがある。  
 
-【文法パターン】〈対象1〉 and 〈対象2〉 + be・動詞 + 〈対応項目1〉 and 〈対応項目2〉, respectively＝〈対象1〉には〈対応項目1〉、〈対象2〉には〈対応項目2〉／〈値1〉 and 〈値2〉 apply to 〈対象1〉 and 〈対象2〉, respectively＝〈値1〉と〈値2〉が〈対象1〉と〈対象2〉にそれぞれ当てはまる／〈対象1〉 and 〈対象2〉 respectively + 〈動詞句1〉 and 〈動詞句2〉＝〈対象1〉は〈動詞句1〉、〈対象2〉は〈動詞句2〉をそれぞれ行う（文が長くなりやすいため、通常は文末配置が明快）  
+【文法パターン】〈対象1〉 and 〈対象2〉 + 〈動詞〉 + 〈対応項目1〉 and 〈対応項目2〉, respectively＝〈対象1〉には〈対応項目1〉、〈対象2〉には〈対応項目2〉／〈値1〉 and 〈値2〉 apply to 〈対象1〉 and 〈対象2〉, respectively＝〈値1〉と〈値2〉が〈対象1〉と〈対象2〉にそれぞれ当てはまる／〈対象1〉 and 〈対象2〉 respectively + 〈動詞句1〉 and 〈動詞句2〉＝〈対象1〉は〈動詞句1〉、〈対象2〉は〈動詞句2〉をそれぞれ行う（文が長くなりやすいため、通常は文末配置が明快）  
 
 【コロケーション】
 
@@ -45,8 +48,8 @@ respectively は、形容詞 respective に副詞接尾辞 -ly が付いた語�
 例: Mia and Leo were 18 and 21 years old, respectively.  
 訳: ミアとレオは、それぞれ18歳と21歳だった。  
 
-・〈対象1〉 and 〈対象2〉 had 〈値1〉 and 〈値2〉, respectively  
-用途: 二つの対象について、売上、割合、得点などの数値を同じ順番で示す。  
+・〈二つの対象を示す名詞句〉 had sales of 〈額1〉 and 〈額2〉, respectively  
+用途: 二つの店・企業などの売上額を、対象が示された順番で対応させる。  
 例: The two stores had sales of $2 million and $1.4 million, respectively.  
 訳: その2店舗の売上は、それぞれ200万ドルと140万ドルだった。  
 
@@ -78,16 +81,11 @@ respectively は、形容詞 respective に副詞接尾辞 -ly が付いた語�
 【語法・注意】respectively は、通常、先に示した2つ以上の項目と、後から示す同数の対応項目を、同じ文または前後の明確な文脈で伴う。The two samples weighed 8 and 11 grams, respectively. なら、先に挙げた第1試料が8グラム、第2試料が11グラムという対応である。項目数や順番から対応関係が明確でない場合は、各対応を明示して書き直す。  
 
 多くの場合、対応する後半のリストの末尾、つまり文末または節末に置き、その直前にコンマを置くことが多いが、必須ではなく文体・配置による。文中の respectively も可能だが、The editor and the designer respectively checked the text and prepared the layout. のように、長い要素を挟むと対応関係が追いにくい。通常は The editor and the designer checked the text and prepared the layout, respectively. のように末尾へ置く方が明快である。  
-respectively は単なる「別々に」「個別に」を意味する語ではない。辞書で separately と説明される場合もあるが、学習上は「提示順に対応して、それぞれ」と理解すると誤用が少ない。対応する対象のリストを示さず、単に別々の処理を表したい ×We used compounds A and B, respectively. のような文では、respectively ではなく separately などを使う方が自然である。correspondingly は対応・連動、individually は個別処理、in turn は時間的な順番・交代を表す対照表現で、respectively の順序対応を含む類義語とは限らない。  
+
+「個別に、別々に」という用法を載せる辞書もあるが、現代の一般的な作文では、respectively を「提示順に対応して、それぞれ」と使うのが基本である。対応する別のリストが前後の文脈にもなく、単に二つの化合物を別々に使ったことを表したい場合は、×We used compounds A and B, respectively. ではなく、○We used compounds A and B separately. とする。correspondingly は対応・連動、individually は個別処理、in turn は時間的な順番・交代を表す対照表現で、respectively の順序対応を含む類義語とは限らない。  
+
 respective は形容詞で、それぞれの名詞を修飾する。The teams returned to their respective rooms. は「各チームが自分たちの部屋に戻った」で、二つのリストを順番に対応させる respectively とは異なる。respectfully は「礼儀正しく、敬意を示して」であり、順序や対応を表さない。  
 
-【類義語】
-
-・in the same order  
-定義: 先に示されたものと同じ順番で。  
-頻度: 〈8/10〉  
-違い: 順序対応を直接説明する説明的な言い換えだが、常に respectively と置換できるわけではない。文中で副詞として使える respectively より長いが、対応関係を初めて説明するときに分かりやすい。  
+説明的な言い換えの in the same order は「先に示されたものと同じ順番で」を表す。respectively より長いが、対応関係を初めて説明するときに分かりやすい。文の構造によっては、そのまま respectively と置き換えられない。  
 例: The figures refer to the three regions in the same order.  
 訳: その数値は、三つの地域に先に示したのと同じ順番で対応している。  
-
-
