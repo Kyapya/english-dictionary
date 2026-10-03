@@ -13,7 +13,7 @@ tags: []
 ＃発音記号
 
 米: /ɪnˈvɑːlv/｜英: /ɪnˈvɒlv/  
-2音節で、第2音節に強勢を置く。上の代表的表記では第2音節の母音が米 /ɑː/・英 /ɒ/ と異なり、米語では /ɔː/ の発音もある。語末の /lv/ の間に母音を挟まない。involved は語末が /lvd/、involves は /lvz/ となる。involving は語末の e を落として -ing を付ける。  
+2音節で、第2音節に強勢を置く。上の代表的表記では第2音節の母音が米 /ɑː/・英 /ɒ/ と異なり、米語では /ɔː/ の発音もある。語末の /lv/ の間に母音を挟まない。involved は語末が /lvd/、involves は /lvz/ となる。  
 
 ＃語源
 
@@ -23,7 +23,7 @@ tags: []
 
 ・involvement（名詞）: 「関与、参加、巻き込まれること」。involvement in a project「企画への関与」、involvement with an organization「組織との関わり」のように使う。  
 ・involved（過去形・過去分詞、形容詞）: 単なる動詞の活用に加え、「関わっている」「熱心な」「複雑な」「恋愛関係にある」という形容詞用法がある。語義4～7で区別する。  
-・involving（現在分詞・形容詞）: 目的語を続ける分詞用法のほか、作品などが「人を引き込む」という形容詞用法もある（語義8）。  
+・involving（現在分詞・形容詞）: 語末の e を落として -ing を付ける。目的語を続ける分詞用法のほか、作品などが「人を引き込む」という形容詞用法もある（語義8）。  
 ・uninvolved（形容詞）: 「関与していない、距離を置いている」。客観的な非関与と、気持ちの関わりが薄いことの両方を表せる。  
 ・self-involved（形容詞）: 「自分のことにばかりとらわれた」。否定的な評価を含み、「自分から参加した」という意味ではない。  
 
@@ -562,7 +562,7 @@ tags: []
 
 【頻度】〈5/10〉  
 
-【レジスター/領域】主に作品の紹介・批評。一般的な会話では engaging や interesting のほうが広く使う。  
+【レジスター/領域】主に作品の紹介・批評。一般的な会話では engaging や interesting のほうが広く使われる。  
 
 【文法パターン】an involving 〈story/film〉＝人を引き込む物語・映画／an emotionally involving 〈story/film〉＝感情面で引き込まれる物語・映画／something + be emotionally involving＝何かが感情面で人を引き込む／more involving than something＝何かより人を引き込む  
 
@@ -571,12 +571,12 @@ tags: []
 ・an involving 〈story/film〉（involve の形容詞形）  
 用途: 名詞の前で、受け手を引き込む作品を評価する。emotionally を添えると感情面の関わりを強調する。  
 例: It's an emotionally involving film about two estranged friends.  
-訳: 疎遠になった2人の友人を描く、感情を引き込まれる映画だ。  
+訳: 疎遠になった2人の友人を描く、心を強く引き付けられる映画だ。  
 
 ・be emotionally involving（involve の形容詞形）  
 用途: 叙述用法で、作品の人を引き込む性質を評価する。  
 例: The drama is visually simple but emotionally involving.  
-訳: そのドラマは映像的には簡素だが、感情を引き込む力がある。  
+訳: そのドラマは映像的には簡素だが、見る人の心を引き付ける。  
 
 【語法・注意】an involving story は「引き込まれる物語」、語義5の an involved story は「込み入った話」。a story involving two families では involving が two families を目的語に取る動詞の現在分詞で、「2つの家族が関係する話」という別の構造。emotionally involving の emotionally は -ly 副詞なので、通常両語の間にハイフンを付けない。  
 
