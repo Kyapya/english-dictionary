@@ -1,0 +1,254 @@
+---
+headword: extent
+type: word
+status: checked
+prompt_version: entry_spec_v5
+model: gpt-6-astra ultra
+created_at: 2026-10-03
+updated_at: 2026-10-03
+checked: true
+tags: []
+---
+
+＃発音記号
+
+米・英: /ɪkˈstent/  
+第2音節に強勢を置く。語末は /nt/ で、動詞 extend /ɪkˈstend/ の語末 /nd/ と区別する。  
+
+＃語源
+
+中英語で土地などの評価額を表した語にさかのぼり、アングロ・フランス語 extente、中世ラテン語 extenta を経て、ラテン語 extendere「外へ伸ばす」につながる。extendere は ex-「外へ」と tendere「伸ばす」から成る。現代の「程度・範囲・広がり」は、どこまで伸びているかを捉える語として理解できる。同じ語源系列には extend「伸ばす、拡張する」、extension「拡張、延長」、extensive「広範囲の」がある。  
+
+＃語形成
+
+・extend（動詞）: 「伸ばす、延長する、及ぶ」。extent と同じ語源系列だが、extent に語尾を付けた形ではない。名詞の extent と動詞の extend を綴りでも区別する。  
+・extension（名詞）: 「延長、拡張、延長部分」など。広がりの程度を測る extent に対し、延ばすことや延ばした部分を表す。  
+・extensive（形容詞）: 「広範囲に及ぶ、大規模な」。extensive damage「広範囲の被害」は形容詞＋名詞、the extent of the damage「被害の程度」は名詞句。  
+
+＃コアイメージ
+
+物事がどこまで及んでいるかという広がりを捉える。程度の大小、活動や権限の届く範囲、空間上の広さへと具体化する。  
+
+・程度として捉える広がり → 「程度、規模」（語義1）  
+
+・対象の範囲として捉える広がり → 「範囲、限界」（語義2）  
+
+・空間の広さとして捉える広がり → 「広さ、広がり」（語義3）  
+
+＃意味・用法・関連表現
+
+1. 【名詞・通常単数】程度、規模
+
+【日本語訳・定義】性質、変化、被害、理解などがどの程度であるか、どれほど大きいかを表す。「被害の程度」「変化の大きさ」のように訳す。extent 自体に「大きい」という意味はなく、limited extent なら限られた程度を表す。to を伴う句は「ある程度」「大いに」「～する範囲で」など、動作や判断の成立する程度を示す。  
+
+【頻度】〈8/10〉  
+
+【レジスター/領域】中立からやや改まった表現。説明、議論、報道、研究で広く使う。to some extent は会話でも普通。  
+
+【文法パターン】the extent of 〈状態/被害/変化〉＝何かの程度・規模／to some extent / to an extent / to a certain extent＝ある程度は／to a great extent / to a large extent＝大いに・かなりの程度まで／to a lesser extent / to a greater extent＝より小さい・大きい程度で／to the same extent as 〈比較対象〉＝～と同じ程度に／to what extent + 〈疑問文〉＝どの程度～か／the extent to which + 〈平叙文〉＝～する程度／to such an extent that + 〈結果の節〉＝～するほどまでに／to the extent that + 〈節〉＝～する限り・程度に応じて、または～するほどに／to the extent of 〈動名詞句〉＝～するほどに／to the extent possible＝可能な限り。  
+
+【コロケーション】
+
+・assess the extent of 〈damage/change〉  
+用途: 被害や変化がどの程度かを調べる。  
+例: Engineers are assessing the extent of the damage to the bridge.  
+訳: 技術者たちが橋の損傷の程度を調べている。  
+
+・to some extent  
+用途: 判断を部分的に認め、全面的な肯定を避ける。  
+例: To some extent, I agree with your criticism.  
+訳: あなたの批判には、ある程度は同意します。  
+
+・to a great extent  
+用途: 結果や状態に大きく関わっていることを述べる。  
+例: The success of the project depends to a great extent on clear communication.  
+訳: このプロジェクトが成功するかどうかは、意思疎通が明確にできるかに大きく左右される。  
+
+・to a lesser extent  
+用途: 二つ目の要因などが、先に述べたものより小さく関わることを示す。  
+例: The new schedule affects drivers and, to a lesser extent, office staff.  
+訳: 新しい勤務日程は運転手に影響し、それほどではないが事務職員にも影響する。  
+
+・to the same extent as 〈比較対象〉  
+用途: 作用や状態の程度を比較する。  
+例: The price increase did not affect every household to the same extent as ours.  
+訳: どの世帯も、私たちの世帯と同じくらい値上げの影響を受けたわけではない。  
+
+・to what extent  
+用途: 成立や影響の程度を問う。  
+例: To what extent can these results be applied to other age groups?  
+訳: これらの結果は、別の年齢層にどこまで当てはめられるのでしょうか。  
+
+・the extent to which 〈平叙文〉  
+用途: 「どの程度～するか」を名詞句にして、調べる対象などにする。  
+例: The study examines the extent to which sleep affects memory.  
+訳: この研究は、睡眠が記憶にどの程度影響するかを調べている。  
+
+・to such an extent that 〈結果の節〉  
+用途: 変化などが大きくなり、ある結果に至ったことを示す。  
+例: The river rose to such an extent that several roads were closed.  
+訳: 川の水位が大きく上がり、道路が何本か通行止めになるほどだった。  
+
+・to the extent that 〈条件・程度を示す節〉  
+用途: 何かが成り立つ範囲に限定して述べる。  
+例: This advice is useful only to the extent that it fits your circumstances.  
+訳: この助言が役に立つのは、あなたの状況に合う範囲に限られます。  
+
+・to the extent of 〈動名詞句〉  
+用途: 行動や状態が、さらに踏み込んだ段階にまで達することを述べる。  
+例: He distrusted his neighbours to the extent of refusing to speak to them.  
+訳: 彼は近所の人たちをひどく疑い、口をきくことさえ拒むほどだった。  
+
+・to the extent possible  
+用途: 実現できる範囲で最大限に行うことを述べる。  
+例: We will keep the original materials to the extent possible.  
+訳: 可能な限り、元の材料を残します。  
+
+【語法・注意】通常は the extent of、to an extent のように単数形で使う。to some extent は some があるため a を入れず、to a certain extent では a が必要。「ある程度」を in some extent とせず to some extent とする。the extent to which の to は「その程度まで」に対応し、the extent in which としない。the extent to which costs have risen「費用が上昇した程度」の内部は平叙文の語順。一方、直接疑問の To what extent have costs risen? では have が主語の前に出る。to such an extent that は結果を明示し、to the extent that は「～する限り」という限定にも「～するほど」という結果にもなるため、that だけで意味を決めない。to a large extent は「大部分は」に近いことがあるが、必ず全体を表すわけではない。複数の対象で程度が異なる場合は to varying extents「さまざまな程度で」のような複数形も使える。  
+
+【類義語】
+
+・degree  
+定義: 性質や状態の強さ・進み具合を、段階として捉えた程度。  
+頻度: 〈8/10〉  
+違い: extent と重なるが、degree は程度の段階に焦点を置く。to some degree は to some extent に近い。空間の広さは通常表さない。  
+例: The two tasks require different degrees of concentration.  
+訳: この二つの作業では、必要な集中力の程度が異なる。  
+
+・magnitude  
+定義: 物事の大きさや重大さ。  
+頻度: 〈6/10〉  
+違い: 改まった語で、規模の大きさを強く意識させやすい。extent のように to some extent という部分的な同意の句には使わない。  
+例: We underestimated the magnitude of the problem.  
+訳: 私たちは問題の大きさを過小評価していた。  
+
+・scale  
+定義: 出来事や活動の規模。  
+頻度: 〈8/10〉  
+違い: 全体としての量や大きさに焦点を置く。extent は、性質がどの程度成り立つかという抽象的な度合いにも使える。  
+例: The scale of the operation surprised us.  
+訳: その事業の規模に私たちは驚いた。  
+
+2. 【名詞・通常単数】範囲、限界
+
+【日本語訳・定義】権限、活動、知識、対象などがどこまで及ぶかという範囲、またはその外側の限界。語義1が「どれほどか」という程度に焦点を置くのに対し、ここでは「何をどこまで含むか」に焦点を置く。文脈によって両者は重なる。  
+
+【頻度】〈7/10〉  
+
+【レジスター/領域】中立から改まった表現。業務、制度、説明、議論で使う。  
+
+【文法パターン】the extent of someone's 〈authority/knowledge/involvement〉＝人の権限・知識・関与の及ぶ範囲／the full extent of 〈活動・対象〉＝～の全範囲／to the full extent of 〈能力・権限〉＝～の及ぶ限り最大限に／to the fullest extent permitted by 〈規則・法律〉＝～が認める最大限の範囲で／that + be + the extent of 〈活動・関係〉＝～はそれがすべて・それ以上はない。  
+
+【コロケーション】
+
+・the extent of someone's authority  
+用途: 人が決定・指示できる範囲を述べる。  
+例: The contract clearly defines the extent of the manager's authority.  
+訳: 契約には、その管理者の権限の範囲が明確に定められている。  
+
+・the full extent of someone's involvement  
+用途: 誰かの関与がどこまで及んでいるか、その全体を指す。  
+例: We do not yet know the full extent of her involvement in the project.  
+訳: 彼女がそのプロジェクトにどこまで関わっているのか、まだ全体は分かっていない。  
+
+・to the full extent of someone's abilities  
+用途: 持つ能力を発揮できる限り発揮することを述べる。  
+例: The course encourages students to develop to the full extent of their abilities.  
+訳: この授業は、生徒が持つ能力を最大限に伸ばせるよう促している。  
+
+・to the fullest extent permitted by law  
+用途: 法律の認める範囲で最大限に行うことを述べる定型表現。  
+例: The agreement protects confidential information to the fullest extent permitted by law.  
+訳: この契約は、法律が認める最大限の範囲で秘密情報を保護する。  
+
+・that is the extent of 〈活動・関係〉  
+用途: 述べた内容以上の活動や関係はないと限定する。  
+例: I sent her one email, and that is the extent of our contact.  
+訳: 彼女にはメールを一通送っただけで、やり取りはそれだけです。  
+
+【語法・注意】the extent of my knowledge は「知識の及ぶ範囲」であり、知っている事実の数だけを指すわけではない。That was the extent of our conversation. は「会話はそれだけだった」という限定になる。to the full extent of は「利用できる範囲いっぱいまで」を示し、beyond the extent of と述べる場合はその範囲を越える。to the fullest extent permitted by law は法律文書などにも現れるが、extent 自体が特定の法的手続きを意味するわけではない。日常的に単に「私の知る限り」と前置きするなら as far as I know が自然で、extent を機械的に入れない。  
+
+【類義語】
+
+・scope  
+定義: 活動、調査、権限などが対象とする範囲。  
+頻度: 〈7/10〉  
+違い: 扱う内容や対象の境界を示しやすい。extent は実際にどこまで及ぶか、その広がりの大きさにも焦点を置く。  
+例: Personal spending falls outside the scope of this review.  
+訳: 個人的な支出は、この調査の対象範囲外です。  
+
+・range  
+定義: 一つのまとまりに含まれる種類や値の幅。  
+頻度: 〈8/10〉  
+違い: 両端の間の幅や種類の多さを示しやすい。extent は種類の多様さを必ずしも含まない。  
+例: The job requires a broad range of skills.  
+訳: その仕事には幅広い技能が必要だ。  
+
+・reach  
+定義: 力、影響、サービスなどが届く範囲。  
+頻度: 〈7/10〉  
+違い: 届く先に焦点があり、影響力や配信範囲などとよく結び付く。extent は、すでに述べた活動の限界にも使える。  
+例: The internet has expanded the reach of local newspapers.  
+訳: インターネットによって、地方紙が情報を届けられる範囲が広がった。  
+
+3. 【名詞・可算〈通常単数〉／不可算】広さ、広がり
+
+【日本語訳・定義】土地、水面、氷などが空間をどこまで占めるか、その面積や長さ・広がり。the extent of the forest なら森林の広がる範囲、a vast extent of forest なら広大な森林地帯を指す。何かの広さを測る用法と、広がった区域そのものを取り出す用法がある。  
+
+【頻度】〈6/10〉  
+
+【レジスター/領域】地理、科学、描写など。in extent や an extent of land はやや改まった表現で、日常会話では size、area などがよく使われる。  
+
+【文法パターン】the extent of 〈森林・領土・氷など〉＝～が占める広さ／〈面積・長さ〉 + in extent＝広さ・長さが～の／of 〈great/limited〉 extent＝広がりが大きい・限られた／a vast extent of 〈land/forest/water〉＝広大な土地・森林・水面／at its greatest extent＝最も広がっていた時点で。  
+
+【コロケーション】
+
+・the extent of 〈forest/sea ice〉  
+用途: 地表や海面を覆う範囲を測ったり比較したりする。  
+例: Satellite images show the extent of the forest before the fire.  
+訳: 衛星画像には、火災前の森林の広がりが写っている。  
+
+・〈面積〉 in extent  
+用途: 土地などの広さを数値で述べる。  
+例: The reserve is approximately fifty square kilometres in extent.  
+訳: その保護区の広さは約50平方キロメートルです。  
+
+・of limited extent  
+用途: 空間的な広がりが限られていると説明する。  
+例: The survey identified a shallow deposit of limited extent.  
+訳: 調査で、広がりの限られた浅い鉱床が見つかった。  
+
+・a vast extent of 〈land/water〉  
+用途: 広大な区域を、一つの広がりとして描写する。  
+例: Beyond the village lay a vast extent of open land.  
+訳: 村の向こうには、開けた土地が広々と続いていた。  
+
+・at its greatest extent  
+用途: 領土などが最も大きく広がっていた時点を示す。  
+例: At its greatest extent, the empire stretched across three continents.  
+訳: 最も領土が広かった時代、その帝国は三つの大陸にまたがっていた。  
+
+【語法・注意】広さの数値に続けるのは in extent で、程度の to some extent とは前置詞が異なる。a vast extent of land の a は land ではなく extent に付く。不定冠詞付きの extent はひとまとまりの区域を取り出し、不可算的な extent は空間的な広がりを性質・量として扱う。複数の区域を述べる extensive tracts of land なども選択肢だが、日常的な「土地」を毎回 extents と訳すわけではない。length は長さ、area は面積を明確に指定するのに対し、extent がどの次元の広がりを示すかは対象と測定単位による。  
+
+【類義語】
+
+・area  
+定義: 場所が占める面積、またはある区域。  
+頻度: 〈9/10〉  
+違い: 二次元の面積を明示でき、日常語としても一般的。extent は長さや立体的な広がりも文脈に応じて表せる。  
+例: The lake covers an area of twelve square kilometres.  
+訳: その湖の面積は12平方キロメートルです。  
+
+・expanse  
+定義: 視界に広がる、まとまった広い空間。  
+頻度: 〈5/10〉  
+違い: 広々とした見た目を描写しやすい。extent は狭い範囲にも使え、測定や限界にも焦点を置ける。  
+例: We looked out over an expanse of blue water.  
+訳: 私たちは、見渡す限り広がる青い水面を眺めた。  
+
+・stretch  
+定義: ある方向に続く、ひと区切りの土地・水面・道など。  
+頻度: 〈7/10〉  
+違い: 長く続く部分として捉えやすい。extent は全体の面積や広がりにも使う。  
+例: This stretch of coast has no public roads.  
+訳: 海岸沿いのこの一帯には、公道がない。  
