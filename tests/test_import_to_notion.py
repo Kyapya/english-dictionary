@@ -248,7 +248,7 @@ class ImportToNotionTests(unittest.TestCase):
         heading_3_texts = [
             self.plain_text(block) for block in blocks if block["type"] == "heading_3"
         ]
-        self.assertEqual(heading_3_texts, ["日本語訳・定義", "コロケーション"])
+        self.assertEqual(heading_3_texts, ["日本語訳・定義", "コロケーション・構文例"])
         self.assertNotIn("能力などを確認するための試験。", heading_3_texts[0])
         self.assertTrue(
             any(

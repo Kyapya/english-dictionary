@@ -32,14 +32,14 @@ SUBHEADING_LABELS = (
     "【頻度】",
     "【レジスター/領域】",
     "【文法パターン】",
-    "【コロケーション】",
+    "【コロケーション・構文例】",
     "【語法・注意】",
     "【類義語】",
     "【反意語】",
 )
-GROUPED_ENTRY_SECTIONS = {"【コロケーション】", "【類義語】", "【反意語】"}
+GROUPED_ENTRY_SECTIONS = {"【コロケーション・構文例】", "【類義語】", "【反意語】"}
 GROUPED_ENTRY_SCHEMAS = {
-    "【コロケーション】": ("・", "用途:", "例:", "訳:"),
+    "【コロケーション・構文例】": ("・", "用途:", "例:", "訳:"),
     "【類義語】": ("・", "定義:", "頻度:", "違い:", "例:", "訳:"),
     "【反意語】": ("・", "定義:", "頻度:", "違い:", "例:", "訳:"),
 }
@@ -304,6 +304,11 @@ def _heading_block(
 
 
 def markdown_to_blocks(markdown: str) -> list[dict[str, Any]]:
+    # Both source labels produce the canonical Notion heading and identical cards.
+    markdown = re.sub(
+        r"^(\s*)【コロケーション】", r"\1【コロケーション・構文例】",
+        markdown, flags=re.MULTILINE,
+    )
     lines = markdown.splitlines()
     blocks: list[dict[str, Any]] = []
     grouped_section: str | None = None
