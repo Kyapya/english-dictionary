@@ -235,7 +235,7 @@ tags: []
 
 ・a comprehensive deductible  
 用途: この補償に適用される免責額。  
-例: The policy has a $500 comprehensive deductible.  
+例: The policy has a comprehensive deductible of 500 dollars.  
 訳: この保険では、盗難・災害などの車両補償に500ドルの免責額が設定されている。  
 
 【語法・注意】この用法では comprehensive を文字どおり「すべて込み」と解釈しない。collision coverage と組み合わせて区別され、動物との接触などは comprehensive に含まれることがあるため、「衝突ならすべて対象外」とも言い切れない。語義3のイギリスの総合保険とは補償区分が異なる。  
