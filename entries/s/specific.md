@@ -392,7 +392,7 @@ tags: []
 
 【語法・注意】specific heat capacity は熱容量を質量で割った量で、specific heat「比熱」とも呼ばれる。specific volume は体積を質量で割った量であり、密度とは逆数の関係。一方、specific gravity は基準物質との密度の比で、単位質量当たりの「重力」ではない。水を基準にする場合が多いが、対象や分野によって基準・温度条件が異なる。すべての specific 付き科学用語を一律に「1キログラム当たり」と訳さず、定義と単位を確認する。この分類的な意味では more specific として量の大小を比較しない。  
 
-7. 【形容詞・限定用法】従量制の、数量当たり定額の
+7. 【形容詞・限定／叙述用法】従量制の、数量当たり定額の
 
 【日本語訳・定義】関税などを、商品の価格の割合ではなく、重量、個数、容積などの単位当たりの一定額として定めること。例えば「1キログラム当たり一定額」という算定方式。  
 
@@ -400,7 +400,7 @@ tags: []
 
 【レジスター/領域】貿易、関税、経済。制度上の税率・適用品目をここで一律に定めるものではない。  
 
-【文法パターン】a specific duty＝従量税／a specific tariff＝従量関税／a specific duty of 〈金額〉 per 〈単位〉＝単位当たり～の従量税  
+【文法パターン】a specific duty＝従量税／a specific tariff＝従量関税／a specific duty of 〈金額〉 per 〈単位〉＝単位当たり～の従量税／〈duties/tariffs〉 + be specific＝関税が従量制である  
 
 【コロケーション】
 
@@ -414,7 +414,12 @@ tags: []
 例: A specific tariff does not automatically rise when the product's price increases.  
 訳: 従量関税の単位当たりの税額は、商品の価格が上がっても自動的には増えない。  
 
-【語法・注意】通常語の a specific tariff が単に「ある特定の関税」を意味する場合もあるため、per kilogram などの数量基準や ad valorem との対比を確認する。この専門義では「詳しい関税」ではない。specific は単位当たりの税額を表し、荷物全体に同じ総額がかかるという意味ではない。  
+・〈duties/tariffs〉 + be specific  
+用途: 関税の算定方式を、叙述用法で分類する。  
+例: These duties are specific rather than ad valorem: importers pay a fixed amount per kilogram.  
+訳: これらの関税は従価制ではなく従量制で、輸入業者は1キログラム当たり一定額を支払う。  
+
+【語法・注意】通常語の a specific tariff が単に「ある特定の関税」を意味する場合もあるため、per kilogram などの数量基準や ad valorem との対比を確認する。名詞の前だけでなく、duties are specific のように叙述用法でも使う。この専門義では「詳しい関税」ではなく、more specific で税額の大小を比べる用法でもない。specific は単位当たりの税額を表し、荷物全体に同じ総額がかかるという意味ではない。  
 
 【反意語】
 
