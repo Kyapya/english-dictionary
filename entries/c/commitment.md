@@ -28,7 +28,7 @@ commit「委ねる、引き受ける」に、行為・状態を表す -ment が�
 
 ＃コアイメージ
 
-人や組織が、ある対象・行動に継続的に関わると引き受け、自分の時間・力・資源をそこに向けるというイメージ。語義5は歴史的残存義で、他者を公的な管理下へ送るという語彙的意味は、この現代的な「自ら関与を引き受ける」核から導けないため、個別に参照する。  
+人や組織が、ある対象・行動への関与を引き受け、自分の時間・力・資源をそこに向けるというイメージ。語義5は、古い「公的な管理下へ送る」の意味を現在も法律・医療で用いる歴史的残存義であり、この現代的な「自ら関与を引き受ける」核からは語彙的意味を導けないため、個別に参照する。  
 
 ・関与を引き受けて力を注ぐ姿勢 → 「献身、真剣な取り組み」（語義1）  
 
@@ -60,7 +60,7 @@ commit「委ねる、引き受ける」に、行為・状態を表す -ment が�
 ・commitment to 〈-ing形〉  
 用途: 継続して取り組む行動を示す。  
 例: The volunteers have shown remarkable commitment to restoring the river.  
-訳: ボランティアたちは、川の環境を回復させる活動に並々ならぬ熱意を注いできた。  
+訳: ボランティアたちは、川の環境を回復させる活動に並々ならぬ献身を示してきた。  
 
 ・show commitment  
 用途: 行動から、真剣に関わる姿勢が見えることを述べる。  
@@ -77,7 +77,7 @@ commit「委ねる、引き受ける」に、行為・状態を表す -ment が�
 例: She approached the rehabilitation exercises with patience and commitment.  
 訳: 彼女は辛抱強く、真剣にリハビリの運動に取り組んだ。  
 
-【語法・注意】姿勢全般を表すときは不可算で、much commitment、a high level of commitment とする。一方、a strong commitment to education のように性質・対象を限定して a を付けることもある。ここでの to は前置詞なので、a commitment to improving access は正しい。語義2の a commitment to improve access も正しく、こちらは「改善すると約束する」という不定詞の構造になる。to の後ろは常に -ing形、と一律には覚えない。人との関係で commitment と言うと、真剣な交際を続ける意思や責任を引き受けることも表す。fear of commitment はそのような継続的関与への恐れを指すが、結婚だけに限定されない。  
+【語法・注意】姿勢全般を表すときは不可算で、much commitment、a high level of commitment とする。一方、a strong commitment to education のように性質・対象を限定して a を付けることもある。ここでの to は前置詞なので、a commitment to improving access は正しい。語義2の a commitment to improve access も正しく、こちらは「改善する」という約束・決意を示す不定詞を伴う。to の後ろは常に -ing形、と一律には覚えない。人との関係で commitment to someone は、その人と誠実に関わり続ける意思や責任を表し、恋愛では真剣な交際を続ける意思も指す。結婚に限らず、婚約自体を表す engagement とは区別する。fear of commitment は、そうした継続的な関与や責任を引き受けることへの恐れを指す。  
 
 【類義語】
 
@@ -144,7 +144,7 @@ commit「委ねる、引き受ける」に、行為・状態を表す -ment が�
 例: You can request a quotation without commitment.  
 訳: 契約の義務を負わずに見積もりを依頼できます。  
 
-【語法・注意】一つの約束なら a commitment、複数なら commitments。「～すると約束する」は make a commitment to do something が基本で、do a commitment とはしない。内容を名詞・動名詞で示す a commitment to the agreement、a commitment to reducing waste も使える。「約束」と語義1の「取り組む姿勢」は重なる場合があり、made、gave、honoured などは約束としての読みを強める。honour は英式、honor は米式。commitment to someone はその人への誠実な関与・責任を表し、必ずしも公的な婚約ではない。婚約自体は engagement と区別する。  
+【語法・注意】一つの約束なら a commitment、複数なら commitments。「～すると約束する」は make a commitment to do something が基本で、do a commitment とはしない。内容を名詞・動名詞で示す a commitment to the agreement、a commitment to reducing waste も使える。「約束」と語義1の「取り組む姿勢」は重なる場合があり、made、gave、honoured などは約束としての読みを強める。honour は英式、honor は米式。  
 
 【類義語】
 
@@ -197,9 +197,9 @@ commit「委ねる、引き受ける」に、行為・状態を表す -ment が�
 訳: さらに役割を引き受ける前に、実際にどれだけ自由な時間があるか確認しよう。  
 
 ・meet one's financial commitments  
-用途: 借入金の返済など、必要な支払いを続けることを述べる。  
+用途: 引き受けている支払い義務を果たすことを述べる。  
 例: After his hours were cut, he struggled to meet his financial commitments.  
-訳: 勤務時間を減らされてから、彼は必要な支払いをこなすのに苦労した。  
+訳: 勤務時間を減らされてから、彼は支払い義務を果たすのに苦労した。  
 
 ・a long-term commitment  
 用途: 一度の作業では終わらず、長く責任を持つ必要があることを示す。  
@@ -288,13 +288,13 @@ commit「委ねる、引き受ける」に、行為・状態を表す -ment が�
 例: The deployment of extra crews reduced the repair time.  
 訳: 追加の作業班を配置したことで、修理時間が短くなった。  
 
-5. 【名詞・可算／不可算】正式な収容・入院措置
+5. 【名詞・可算／不可算】正式な収容・治療措置
 
-【日本語訳・定義】人を刑務所や精神科施設などの公的な管理・治療下に置くこと。本人の「献身」ではなく、commit someone to an institution「人を施設に収容する」に対応する名詞用法。  
+【日本語訳・定義】人を刑務所などに収容したり、精神医療の制度に基づく管理・治療下に置いたりすること。施設への収容・入院を表す場合のほか、制度によっては外来治療の措置にも使う。本人の「献身」ではなく、commit someone to an institution「人を施設に収容する」などに対応する名詞用法。  
 
 【頻度】〈3/10〉  
 
-【レジスター/領域】法律・医療、主に米語。英語ではこの収容の意味に committal も用い、特に英式の用法として知られる。  
+【レジスター/領域】法律・医療、主に米語。収容・入院の意味では、特に英式英語で committal も使う。  
 
 【文法パターン】commitment to a psychiatric hospital＝精神科病院への入院措置／involuntary commitment＝本人の意思によらない収容・治療措置／a petition for commitment＝収容・治療措置を求める申立て  
 
@@ -305,10 +305,15 @@ commit「委ねる、引き受ける」に、行為・状態を表す -ment が�
 例: The hearing concerned his involuntary commitment to a psychiatric hospital.  
 訳: その審理では、本人の意思によらない精神科病院への入院措置が扱われた。  
 
+・involuntary commitment  
+用途: 精神医療の制度に基づき、本人の意思によらず管理・治療下に置く措置を指す。入院に限らない。  
+例: The report compared inpatient and outpatient forms of involuntary commitment.  
+訳: その報告書は、本人の意思によらない入院治療と外来治療の措置を比較した。  
+
 ・a petition for commitment  
 用途: 収容・治療措置を求める申立てを指し、措置そのものと区別する。  
 例: The judge reviewed the petition for involuntary commitment before the hearing.  
-訳: 裁判官は審理に先立ち、本人の意思によらない入院・治療措置を求める申立書を確認した。  
+訳: 裁判官は審理に先立ち、本人の意思によらない収容・治療措置を求める申立書を確認した。  
 
 【語法・注意】involuntary commitment は非自発的な措置だが、commitment 単独を常に「強制入院」と訳してはいけない。voluntary commitment という表現もある。また、米国の civil commitment には法域によって外来治療の措置も含まれるため、すべてを施設内への収容と決めつけない。ここでは語彙上の意味を示しており、措置の対象者・要件・手続きは各制度による。a petition for commitment は措置を求める申立てであり、その申立てだけで措置が確定したことにはならない。  
 
