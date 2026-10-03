@@ -32,7 +32,7 @@ tags: []
 
 ・後の出来事を先に予想として捉えること → 「予想する、見込む」（語義1）  
 
-・後の必要や問題を先に対応して扱うこと → 「先を読んで備える、先回りして対処する」（語義2）  
+・後で必要になることや問題を見越した事前の対応 → 「先を読んで備える、先回りして対処する」（語義2）  
 
 ・後の楽しみを先に気持ちで味わうこと → 「楽しみに待つ、心待ちにする」（語義3）  
 
@@ -106,7 +106,7 @@ tags: []
 例: The repairs took longer than anticipated.  
 訳: 修理には予想以上に時間がかかった。  
 
-【語法・注意】能動文で自分の行為を予想するときは anticipate doing が基本。×We anticipate to finish tomorrow. ではなく We anticipate finishing tomorrow. または We expect to finish tomorrow. とする。一方、報告文などには The project is anticipated to take a year. という受動の型があり、これを理由に能動の anticipate to do を作らない。anticipate someone/something doing では、-ing の前の語が後続する行為・状態の主語となる。I don't anticipate it being a problem.「それが問題になるとは思わない」のように、人以外も置ける。人については、改まった文で anticipate someone's doing も使える。that は省略できる。疑問詞節は平叙文の語順で、×anticipate how will they react ではなく anticipate how they will react とする。I don't anticipate any problems. は「問題は起こらないと思う」で、保証ではない。anticipated costs のような名詞前の分詞修飾と Costs are anticipated. という受動があり、get anticipated を expect の代わりの基本表現として覚える必要はない。「予想する」の意味を認めない古い語法観もあるが、現代英語では標準的な用法。語義2の事前行動や語義3の楽しみを、常に含むと説明しない。  
+【語法・注意】能動文で自分の行為を予想するときは anticipate doing が基本。×We anticipate to finish tomorrow. ではなく We anticipate finishing tomorrow. または We expect to finish tomorrow. とする。一方、報告文などには The project is anticipated to take a year. という受動の型があり、これを理由に能動の anticipate to do を作らない。anticipate someone/something doing では、-ing の前の語が後続する行為・状態の主語となる。I don't anticipate it being a problem.「それが問題になるとは思わない」のように、人以外も置ける。人については、改まった文で anticipate someone's doing も使える。that は省略できる。疑問詞節は平叙文の語順で、×anticipate how will they react ではなく anticipate how they will react とする。I don't anticipate any problems. は「問題は起こらないと思う」で、保証ではない。anticipated costs のような名詞前の分詞修飾と Costs are anticipated. という受動がある。「予想する」の意味を認めない古い語法観もあるが、現代英語では標準的な用法。語義2の事前行動や語義3の楽しみを、常に含むと説明しない。  
 
 【類義語】
 
@@ -146,14 +146,14 @@ tags: []
 
 【レジスター/領域】中立～やや改まった表現。接客、計画、議論、競技、リスクへの対応。  
 
-【文法パターン】anticipate someone's needs＝その人の必要を先読みして対応する／anticipate a 〈question/request〉＝質問・要望を先回りして扱う／anticipate 〈問題/出来事〉 by doing something＝何かをして問題・出来事に先に備える／anticipate someone's next move＝相手の次の動きを読んで対応する／anticipate 〈what/howなどで始まる間接疑問節〉＝何が必要かなどを先読みして備える  
+【文法パターン】anticipate someone's needs＝その人に何が必要かを先読みして対応する／anticipate a 〈question/request〉＝質問・要望を先回りして扱う／anticipate 〈問題/出来事〉 by doing something＝何かをして問題・出来事に先に備える／anticipate someone's next move＝相手の次の動きを読んで対応する／anticipate 〈what/howなどで始まる間接疑問節〉＝何が必要かなどを先読みして備える  
 
 【コロケーション】
 
 ・anticipate someone's needs  
 用途: 言われる前に必要なものや支援を用意する。  
 例: The staff anticipated our needs and brought an extra chair before we asked.  
-訳: スタッフは私たちの必要を察して、頼む前に椅子を一脚追加してくれた。  
+訳: スタッフは私たちが何を必要としているかを察して、頼む前に椅子を一脚追加してくれた。  
 
 ・anticipate a 〈question/request〉  
 用途: 予想される質問や要望に、あらかじめ答えたり対応したりする。  
@@ -166,7 +166,7 @@ tags: []
 訳: 主催者は入口をもう一つ開け、混雑に先回りして対応した。  
 
 ・anticipate someone's next move  
-用途: 相手の行動を読んで、自分の対応を先に整える。  
+用途: 相手の動きの予想を踏まえて対応する文脈で使う。  
 例: She anticipated her opponent's next move and blocked the attack.  
 訳: 彼女は対戦相手の次の動きを読み、その攻撃を防いだ。  
 
@@ -242,7 +242,7 @@ tags: []
 例: Tickets for the highly anticipated reunion concert sold out in minutes.  
 訳: 大きな期待を集めていた再結成公演のチケットは、数分で売り切れた。  
 
-【語法・注意】anticipate 単独では語義1との区別がつかないことがあり、eagerly、with pleasure、楽しみな出来事の内容などが解釈を支える。I anticipate difficulties. は通常「困難を予想する」で、「困難を楽しみにしている」ではない。I am anticipating a relaxing weekend. のような進行形も使える。anticipated は -ed 分詞で、「待っている人」ではなく「待たれているもの」を修飾する。人の気持ちを ×I am anticipated about the trip. とはせず、I am looking forward to the trip. とする。eagerly anticipated のように -ly 副詞と分詞を組み合わせるときは、通常ハイフンを入れない。  
+【語法・注意】anticipate 単独では語義1との区別がつかないことがあり、eagerly、with pleasure、楽しみな出来事の内容などが解釈を支える。I anticipate difficulties. は通常「困難を予想する」で、「困難を楽しみにしている」ではない。I am anticipating a relaxing weekend. のような進行形も使える。この「心待ちにする」意味での anticipated は、待ち望まれる側を表し、人がわくわくしている気持ち自体を表さない。人の気持ちを ×I am anticipated about the trip. とはせず、I am looking forward to the trip. とする。eagerly anticipated のように -ly 副詞と分詞を組み合わせるときは、通常ハイフンを入れない。  
 
 【類義語】
 

@@ -29,17 +29,17 @@ tags: []
 
 ＃コアイメージ
 
-一つの単位・要素を基準に、数や構成の重なりを捉える。形容詞では一つより多いことを表すが、数学・倍率の名詞では整数倍や比率というそれぞれの定義に従う。  
+基本は、複数のもの・要素を捉えること、または基準となる数・量の何倍かを捉えること。名詞では、倍数・倍率に加え、一度の妊娠から生まれる子どもや、一つの経営下にある店舗を指す用法がある。  
 
-・単位・要素の重なりを数や構成で捉えること → 「複数の、多数の、多重の」（語義1）  
+・一つの対象・場面に複数あるものや要素 → 「複数の、多数の、多重の」（語義1）  
 
-・単位・要素の重なりを整数倍で捉えた数 → 「倍数」（語義2）  
+・一つの数・量を整数倍して得られる数・量 → 「倍数」（語義2）  
 
-・単位・要素の重なりを基準量との比で捉えた値 → 「倍率、評価倍率」（語義3）  
+・一つの基準量に対する比率としての値 → 「倍率、評価倍率」（語義3）  
 
-・単位・要素の重なりを一度の妊娠で捉えた子ども → 「多胎児」（語義4）  
+・一つの妊娠から生まれる複数の子ども → 「多胎児」（語義4）  
 
-・単位・要素の重なりを同じ経営下で捉えた店 → 「チェーン店、チェーン小売業者」（語義5）  
+・一つの経営下にある多数の店やその事業者 → 「チェーン店、チェーン小売業者」（語義5）  
 
 ＃意味・用法・関連表現
 
@@ -63,7 +63,7 @@ tags: []
 ・multiple 〈roles/functions〉  
 用途: 一人・一つのものが、いくつもの役割や機能を持つことを述べる。  
 例: This small device performs multiple functions.  
-訳: この小さな機器は、いくつもの機能を果たす。  
+訳: この小さな機器は、いくつもの働きをする。  
 
 ・multiple injuries  
 用途: けがが複数箇所にあることや、複数のけがを負ったことを表す。  
@@ -278,7 +278,7 @@ tags: []
 ・parents of multiples  
 用途: 双子・三つ子などを育てる親について述べる。  
 例: The group offers practical support to parents of multiples.  
-訳: その団体は、多胎児の親に実用的な支援を提供している。  
+訳: その団体は、多胎児の親に子育てに役立つ支援を提供している。  
 
 ・expect multiples  
 用途: 一度の妊娠で複数の子を授かっていることを表す。  
@@ -305,21 +305,21 @@ tags: []
 
 【レジスター/領域】主に英。小売業の用語で、一般会話では古めかしく、現在は chain store や chain のほうが分かりやすい。  
 
-【文法パターン】a multiple＝チェーン店・チェーン小売業者／a multiple store＝チェーン店／the large multiples＝大手チェーン小売業者  
+【文法パターン】a multiple＝チェーン店・チェーン小売業者／the large multiples＝大手チェーン小売業者  
 
 【コロケーション】
 
-・a multiple store  
-用途: 同じ経営下の店舗群に属する店を指す。  
-例: The old directory distinguishes independent shops from multiple stores.  
-訳: その古い名簿は、独立した商店とチェーン店を区別している。  
+・a multiple  
+用途: 同じ経営下の店舗群に属する店を、名詞 multiple で指す。  
+例: The old directory lists the shop as a multiple rather than an independent retailer.  
+訳: その古い名簿には、その店は独立系の小売店ではなくチェーン店として載っている。  
 
 ・the large multiples  
 用途: 小売業界で、多店舗展開する大手事業者をまとめて指す。  
 例: Small retailers struggled to compete with the large multiples.  
 訳: 小規模な小売店は、大手チェーン小売業者との競争に苦戦した。  
 
-【語法・注意】語義1の multiple stores は「複数の店」で、同じ会社が経営しているとは限らない。これに対し、ここでの a multiple store は一つのチェーン店、the multiples はチェーン業者という名詞の用法。現代の一般的な文章で曖昧さを避けるなら chain store、retail chain などとする。単独店舗を持つ independent retailer「独立系小売業者」は対照表現だが、店の種類・経営形態の区別であり、ここでは反意語として固定しない。  
+【語法・注意】a multiple や the multiples では multiple 自体が名詞で、店や業者を指す。関連表現 multiple store「チェーン店」は store を中心語とする複合表現で、multiple 自体を名詞として使った例とは区別する。複数形 multiple stores は、語義1の形容詞による「複数の店」にも、小売用語 multiple store の複数形「チェーン店」にもなり、単数・複数だけで意味は決まらない。前者では同じ会社の経営下にあるとは限らず、どちらの意味かは文脈で判断する。現代の一般的な文章で曖昧さを避けるなら chain store、retail chain などとする。単独店舗を持つ independent retailer「独立系小売業者」は対照表現だが、店の種類・経営形態の区別であり、ここでは反意語として固定しない。  
 
 【類義語】
 
