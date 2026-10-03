@@ -20,6 +20,13 @@ context_free_cold, context_free_final_blind, confirm_remote_checkpoint,
 heartbeat_manifest, entry_workflow_guard, source_inventory_complete.
 """
 
+# Normal CLI execution exits before loading the historical audit engines.
+if __name__ == "__main__":
+    import sys
+    from simple_workflow import is_legacy_request, main as simple_main
+    if not is_legacy_request(sys.argv[1:]):
+        raise SystemExit(simple_main())
+
 from pathlib import Path
 from typing import Any
 
@@ -198,7 +205,7 @@ _parallel._v3.plan_payload = _dispatch_plan_payload
 
 
 if __name__ == "__main__":
-    # New runs use the compact contract. Existing manifests keep their pinned
+    # Explicit historical requests only. Existing manifests keep their pinned
     # v3 engine and audit requirements; no historical run changes version on
     # resume merely because the default changed.
     import json
@@ -206,16 +213,34 @@ if __name__ == "__main__":
     import compact_workflow
     from slugify import slugify
 
-    arguments = sys.argv[1:]
+    arguments = []
+    for argument in sys.argv[1:]:
+        arguments.extend(["--resume", argument.split("=", 1)[1]]
+                         if argument.startswith("--resume=") else [argument])
+    sys.argv[1:] = arguments
     if "--resume" in arguments:
-        location = Path(arguments[arguments.index("--resume") + 1])
+        position = arguments.index("--resume")
+        if position + 1 == len(arguments) or arguments[position + 1].startswith("--"):
+            raise SystemExit("--resume requires a saved run path")
+        location = Path(arguments[position + 1])
         if location.is_file() and json.loads(location.read_text(encoding="utf-8")).get(
             "workflow_contract_version"
         ) == compact_workflow.VERSION:
             if len(arguments) == 2:
                 raise SystemExit(compact_workflow.main(arguments))
             raise SystemExit("Use scripts/compact_workflow.py for compact review requests and receipts")
-    elif arguments and not arguments[0].startswith("-") and "--legacy" not in arguments:
+    elif "--compact" in arguments:
+        if "--legacy" in arguments:
+            raise SystemExit("Choose --compact or --legacy, not both")
+        import argparse
+        parser = argparse.ArgumentParser(description="Explicit legacy compact workflow")
+        parser.add_argument("headword")
+        parser.add_argument("--compact", action="store_true")
+        parser.add_argument("--dry-run", action="store_true")
+        parser.add_argument("--publish-mode", choices=("git", "connector"), default="connector")
+        parser.add_argument("--reviewer-mode", choices=("api", "handoff"), default="handoff")
+        options = parser.parse_args(arguments)
+        arguments = [options.headword] + (["--dry-run"] if options.dry_run else [])
         headword = " ".join(arguments[0].strip().split())
         word = slugify(headword)
         if "--dry-run" in arguments:

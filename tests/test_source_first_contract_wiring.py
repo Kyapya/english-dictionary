@@ -49,11 +49,12 @@ class SourceFirstContractWiringTests(unittest.TestCase):
         self.assertIn("| standard | 6 | 48 | 2 | 制限なし | 2 |", source)
         self.assertIn("安全停止", source)
 
-    def test_ci_runs_source_first_gate_for_changed_audits(self) -> None:
+    def test_normal_ci_does_not_require_source_first_audit(self) -> None:
         workflow = (ROOT / ".github" / "workflows" / "validate.yml").read_text(encoding="utf-8")
-        self.assertIn("source_first_audit_gate.py validate-changed", workflow)
+        self.assertNotIn("source_first_audit_gate.py", workflow)
+        self.assertIn("scripts/validate_repository.py", workflow)
 
-    def test_runtime_guard_is_wired_before_research_and_into_ci(self) -> None:
+    def test_runtime_guard_is_preserved_only_for_explicit_legacy_execution(self) -> None:
         agents = (ROOT / "AGENTS.md").read_text(encoding="utf-8")
         orchestrator = (ROOT / "scripts" / "run_word.py").read_text(encoding="utf-8")
         entry = (ROOT / "prompts" / "entry_spec_v5.md").read_text(encoding="utf-8")
@@ -63,11 +64,13 @@ class SourceFirstContractWiringTests(unittest.TestCase):
         self.assertNotIn("confirm-remote", agents)
         self.assertIn("confirm_remote_checkpoint", orchestrator)
         self.assertIn("heartbeat_manifest", orchestrator)
-        self.assertIn("draft保存20分", entry)
+        self.assertNotIn("draft保存20分", entry)
+        self.assertIn("複数の現行学習辞書", entry)
         self.assertIn("entry_workflow_guard", orchestrator)
         self.assertIn("source_inventory_complete", orchestrator)
         self.assertIn("record-research", source)
-        self.assertIn("entry_workflow_guard.py validate-changed", workflow)
+        self.assertNotIn("entry_workflow_guard.py", workflow)
+        self.assertIn("is_legacy_request", orchestrator)
 
 
 if __name__ == "__main__":

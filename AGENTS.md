@@ -1,48 +1,42 @@
-# English Dictionary project router
+# English Dictionary — 通常の作成・修正
 
-英単語の追加は1語でも複数語でも `scripts/start_words.py` から受ける。
-未完了の同一語runを発見した場合は新runを作らず同じrunを再開する。
-複数語受付・独立workspaceは `docs/multi_word_workflow.md` に従う。
+通常運用は **作成 → 形式確認 → 新規チャットで独立点検 → 必要箇所だけ修正 → 公開**。
+品質基準は維持し、工程を証明するための監査管理は通常作業から外す。
 
-## 新しい通常工程: compact_review_v1
+## 最初に読むもの
 
-1. `scripts/environment_preflight.py` を実行し、専用branchで
-   `scripts/start_word.py <word> --publish-mode connector --reviewer-mode handoff`
-   を起動する。通常Git pushの資格情報がないと分かっている環境では試さない。
-2. 主要辞書の独立した2系統以上を照合し、`prompts/compact_entry_content_v1.md`
-   に従って本文を執筆する。根拠はsource inventoryに対応付ける。
-   `source_inventory_v2` の固定件数上限は旧runのみに適用する。追加調査は未解決の
-   重要な主張に集中し、検索コストと採用資料数を別に記録する。
-3. `scripts/compact_workflow.py --resume <run> --request A` と `--request B`
-   で、同一本文から独立したレビュー依頼を作る。Aは本文の英日・語義・構文・例文・
-   語彙関係・発音等、Bは外部資料との照合・主要語義の欠落を確認する。
-   原応答を保存し、別の実行コンテキストで担当する。作成者の自己合格判定を渡さない。
-4. `--ingest A/B --request-path <path> --raw <path> --execution-id <id> --model <model>`
-   で受領する。形式だけの既知の別名は原応答を変えず派生記録で正規化する。
-   出所を確認できない原応答を機械的に合格へ補完しない。
-5. blockingを解消し、minorは一括修正または理由付き不採用、editorialは任意とする。
-   修正したareaだけのレビューを更新する。`--resume <run>` で未被覆・未解決を確認。
-   同一争点の修正後確認が2回続いても解消しない場合、限定裁定に切り替える。
-   主要用法を削って完了率を稼がない。
-6. 公開判定がpassなら `--finalize` でentry・queue・audit・runを同じ本文版に揃える。
-   CIとPRを確認し、承認済みならマージとNotion同期の状態まで確認する。
-   公開判定のためだけに別のLLM最終レビューを起動しない。
+- 作成者: このファイルと `prompts/entry_spec_v5.md`（完成物の内容・書式の正本）。
+- 点検者: `prompts/independent_entry_review.md`、同じ完成物基準、対象本文だけ。
+- 状態・公開・再開の詳細: `docs/workflow_integrity.md`。
 
-`prompts/compact_review_contract_v1.json` はA/Bのreview schema正本。
-対象内容の依存hashと本文版hashは `scripts/review_dependency_v4.py` で分離する。
-旧レビューのrawと現在版への機械的再利用記録は別々に保存する。
-出典・修正の未確認範囲はPASSにしない。本文形式と既存サイト・Notion互換性を守る。
+## 実行
 
-## 旧runと局所修正
+1. 最新mainと対象記事・未統合の作業を確認し、専用branchで作業する。
+   1語でも複数語でも `python scripts/start_words.py alpha "take off"` で対象を整理できる。
+   `scripts/start_word.py` / `scripts/run_word.py` も通常は同じ軽量な入口を使う。
+   これらは対象と手順を表示するだけで、記事生成・レビュー実行・run作成はしない。
+2. ルールに沿って本文を書く。必要な辞書・用例確認と執筆中の推敲は行う。
+   既存記事の局所修正では、依頼外の語義・構成を作り直さない。
+3. `python scripts/validate_entry.py <記事パス>` で形式を確認する。
+   作成者は、点検前の記事を `review_ready` / `checked: false` として渡す。
+4. 新規チャットまたは作成文脈を引き継がない別コンテキストで本文を点検する。
+   `python scripts/simple_workflow.py --review-entry <記事パス>` で引渡し文を作成できる。
+   このコマンドは点検依頼を組み立てるだけであり、独立点検の実行ではない。
+   実行できなければ未点検と明示し、自己点検で代用して合格扱いにしない。
+5. 指摘の妥当性を確認し、実際の誤り・重要な欠落・誤解を招く説明を修正する。
+   修正後は変更箇所と関連部分を確認する。好みの言い換えは任意であり、
+   固定回数の往復や、指摘件数のノルマは設けない。
+6. 独立点検と必要な修正が済んだ記事だけを `checked` / `true` にする。
+   front matterと `queue/words.csv` を揃え、形式・repository検証を実行する。
+   PRのCI成功と権限・承認範囲を確認してマージし、記事変更時はNotion同期も確認する。
+   通常Git pushの資格情報がない環境では認証済みコネクタを使う。
 
-旧 `workflow_contract_version` のrunは旧runner/validatorで読み、その工程を勝手に
-新版PASSへ書き換えない。`run_word.py --resume <legacy-run>` は旧版へ分岐する。
-旧7パス、cold、final blind、LLM final reviewは新規runの必須工程ではない。
-保存済みの旧runを移行する場合は `compact_workflow.py --migrate <old-run>` で
-原レビュー、採用済み指摘、最新版本文を機械照合し、別のmigration記録を作る。
-十分性を検証できない範囲は個別に確認する。旧版の運用詳細は
-`docs/legacy_workflow_integrity.md` に残す。
+## 通常作業に追加しないもの
 
-`checked` / `final` 記事の具体的な局所修正は
-`prompts/targeted_correction_review_v1.md` と `scripts/targeted_correction.py` を使う。
-全面改稿は通常工程。PIは専用LLM工程を作らず、関連する既存出力で取込む。
+必須の自己監査、A/Bレビュー、7パス、cold/final blind、最終LLM審査、
+source inventory、監査manifest、レビューhash・実行ID・時系列証明、
+heartbeat、固定の調査件数・工程回数、PI記録の作成義務は設けない。
+実際に調べること、重要な誤りを直すこと、未実施を未実施と報告することは省かない。
+
+旧run・原応答・失敗履歴は書き換えない。旧工程は `docs/legacy_workflows.md` に隔離する。
+古い指示・スクリプトが存在しても、新しい通常作業の追加要件にはしない。
