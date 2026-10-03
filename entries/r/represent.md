@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v1
 model: unknown
 created_at: 2026-06-14
-updated_at: 2026-10-02
+updated_at: 2026-10-03
 checked: true
 tags: []
 ---
@@ -36,7 +36,7 @@ present「提示する、現在の」と presence「存在、その場にいる�
 represent は、人・記号・描写・言葉などを通して、ある対象をその場に示すイメージで整理できる。語義3では物事をある性質・位置づけや割合に対応づけ、語義5では集団の一部がいることでその集団の存在を示す。  
 ・人・団体の立場を示す代理 → 「代表する、代理する、代弁する」（語義1）  
 ・意味・性質を具体的に示す象徴 → 「象徴する、意味を表す、性質を体現する」（語義2）  
-・物事が当たる性質・割合を示す対応 → 「〜に当たる、〜を構成する、全体の割合を占める」（語義3）  
+・物事の位置づけや全体に占める割合 → 「〜に当たる、〜を構成する、全体の割合を占める」（語義3）  
 ・対象の姿や性質を示す描写 → 「描写する、〜として描く・説明する」（語義4）  
 ・集団の一部を通して存在を示す反映 → 「集団や場所に含まれている、存在が反映されている」（語義5）  
 ・言葉によって内容を示す陳述 → 「意見・事情を申し述べる、〜だと表明する」（語義6）  
@@ -222,7 +222,7 @@ represent は、人・記号・描写・言葉などを通して、ある対象�
 
 【レジスター/領域】描写・説明の用法はややフォーマル。美術、報道、批評、学術、データの説明で使う。  
 
-【文法パターン】represent 〈人・場面・対象〉＝〜を描写する／represent 〈情報〉 as 〈形式〉＝情報を〜の形式で表す／be represented as 〈形式〉＝〜の形式で表される／represent 〈人・物〉 as 〈名詞句〉＝〜として描く・説明する／represent 〈人・物〉 as 〈形容詞〉＝〜という性質があると描く・説明する／represent 〈人・物〉 as being 〈形容詞〉＝〜という性質があると描く・説明する／represent 〈人・物〉 to be 〈名詞句〉＝〜であると説明する（硬い表現）／represent oneself as 〈名詞句〉＝自分を〜だと称する  
+【文法パターン】represent 〈人・場面・対象〉＝〜を描写する／represent 〈対象〉 + 〈-ing句〉＝対象が〜している姿を描く／represent 〈情報〉 as 〈形式〉＝情報を〜の形式で表す／be represented as 〈形式〉＝〜の形式で表される／represent 〈人・物〉 as 〈名詞句〉＝〜として描く・説明する／represent 〈人・物〉 as 〈形容詞〉＝〜という性質があると描く・説明する／represent 〈人・物〉 as being 〈形容詞〉＝〜という性質があると描く・説明する／represent 〈人・物〉 to be 〈名詞句〉＝〜であると説明する（硬い表現）／represent oneself as 〈名詞句〉＝自分を〜だと称する  
 
 【コロケーション】
 
@@ -230,6 +230,11 @@ represent は、人・記号・描写・言葉などを通して、ある対象�
 用途: 絵や彫刻などが具体的な場面を描く。  
 例: The painting represents a crowded market at dawn.  
 訳: その絵は夜明けの混雑した市場を描いている。  
+
+・represent 〈対象〉 + 〈-ing句〉  
+用途: 対象がある動作をしている姿を描く。  
+例: The painting represents children playing by a river.  
+訳: その絵は、子どもたちが川辺で遊んでいる姿を描いている。  
 
 ・be represented as a graph  
 用途: 結果などがグラフの形式で示されていることを述べる。  
@@ -305,9 +310,9 @@ represent は、人・記号・描写・言葉などを通して、ある対象�
 
 【頻度】〈7/10〉  
 
-【レジスター/領域】受け身の be represented が中心。集団構成、調査、社会的な参加、展示などの説明で使う。  
+【レジスター/領域】集団構成、調査、社会的な参加、展示などの説明で使う。  
 
-【文法パターン】〈集団〉 be represented in 〈組織・標本・場所〉＝その集団の人・物などが含まれる／〈集団〉 be represented on 〈委員会・名簿〉＝その集団の人などが委員会・名簿に含まれる／be well/poorly represented＝十分に含まれる・十分には含まれない／be equally represented＝等しく含まれる  
+【文法パターン】〈集団〉 be represented in 〈組織・標本・場所〉＝その集団の人・物などが含まれる／〈集団〉 be represented on 〈委員会・名簿〉＝その集団の人などが委員会・名簿に含まれる／〈集団〉 be represented at 〈会合・催し〉＝その集団の人などが参加している／be well/poorly represented＝十分に含まれる・十分には含まれない／be equally represented＝等しく含まれる  
 
 【コロケーション】
 
@@ -326,12 +331,17 @@ represent は、人・記号・描写・言葉などを通して、ある対象�
 例: Older residents were poorly represented in the sample.  
 訳: その標本では、高齢の住民があまり含まれていなかった。  
 
+・be well represented at a conference  
+用途: 会議の参加者にある集団の人が十分な人数含まれていることを述べる。  
+例: Young researchers were well represented at the conference.  
+訳: その会議には若手研究者が十分な人数参加していた。  
+
 ・be equally represented  
 用途: 複数の集団が同程度に含まれる。  
 例: The two age groups were equally represented in the study.  
 訳: その研究には、二つの年齢層が同じ割合で含まれていた。  
 
-【語法・注意】be represented by a lawyer は代理人を示す語義1である。ここでは in/on の後に集団・場所などを置き、well、poorly、equally などで含まれ方を述べる。underrepresented は、ある基準や期待に比べて存在・割合・意見の反映が不十分なことを表す。  
+【語法・注意】be represented by a lawyer は代理人を示す語義1である。この語義では in/on に続けて組織・標本・場所などを、at に続けて会合・催しなどを示せる。among 〈人々〉で、どの人々の中に含まれるかを示すこともある。well、poorly、equally などで含まれ方を述べる。underrepresented は、ある基準や期待に比べて存在・割合・意見の反映が不十分なことを表す。  
 
 以下の exclude は、誰かを参加や対象から外す行為との対照である。「代理を務める」の反意語としては扱わない。  
 
@@ -387,7 +397,7 @@ represent は、人・記号・描写・言葉などを通して、ある対象�
 例: The company represented to the regulator that all required records had been retained.  
 訳: その会社は、必要な記録はすべて保管されていると監督当局に説明した。  
 
-【語法・注意】represent someone は人を代理する語義1だが、represent something to someone は内容をその人に伝える構文である。that 節は表明の内容、to の後の名詞句は相手を示す。法律・契約の文章で使われても、語だけから一律の保証内容や法的効果を決めることはできない。  
+【語法・注意】代理の意味の represent someone（語義1）と異なり、represent something to someone は内容をその人に伝える構文である。that 節は表明の内容、to の後の名詞句は相手を示す。法律・契約の文章で使われても、語だけから一律の保証内容や法的効果を決めることはできない。  
 
 【類義語】
 
