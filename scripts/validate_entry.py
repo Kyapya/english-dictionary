@@ -713,7 +713,22 @@ def _check_v5_notation_warnings(lines: list[str]) -> list[str]:
     return warnings
 
 
+def _normalize_collocation_heading(text: str) -> str:
+    """Accept the canonical heading while retaining legacy validation rules.
+
+    Only structural labels at line starts are aliases; prose is never rewritten.
+    Line counts and trailing spaces are preserved for diagnostics.
+    """
+    return re.sub(
+        r"^(\s*)【コロケーション・構文例】",
+        r"\1【コロケーション】",
+        text,
+        flags=re.MULTILINE,
+    )
+
+
 def validate_text(text: str) -> list[str]:
+    text = _normalize_collocation_heading(text)
     errors: list[str] = []
     front_matter, body = _split_front_matter(text)
     if front_matter is None:
@@ -774,6 +789,7 @@ def validate_file(path: Path) -> list[str]:
 
 
 def validation_warnings(text: str) -> list[str]:
+    text = _normalize_collocation_heading(text)
     front_matter, body = _split_front_matter(text)
     if front_matter is None:
         return []

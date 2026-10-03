@@ -189,7 +189,12 @@ class LightweightContractTests(unittest.TestCase):
         old_body = old.split(start, 1)[1].split("## draft checkpoint後", 1)[0]
         new_body = new.split(start, 1)[1].split("## リポジトリへの保存", 1)[0]
         old_body = old_body.replace("生成前の独立棚卸しから決定する", "確認した語義と構文の関係から決定する")
-        self.assertEqual(new_body, old_body)
+        # The approved label expansion retains the historical content contract.
+        old_body = old_body.replace("【コロケーション】", "【コロケーション・構文例】")
+        old_body = old_body.replace("## 文法パターンとコロケーション", "## 文法パターンとコロケーション・構文例")
+        migration_note = "この欄は、典型的な語の組み合わせと、学習価値のある構文の例示を扱う。新規作成・修正時の正規見出しは `【コロケーション・構文例】` とする。既存の `【コロケーション】` は互換入力として受け付け、一括再保存を必須にしない。\n\n"
+        self.assertIn(migration_note, new_body)
+        self.assertEqual(new_body.replace(migration_note, ""), old_body)
         # Source research is still substantive; its administrative logging is not.
         start, end = "## 根拠確認", "## 語義・構文の網羅性"
         self.assertEqual(new.split(start, 1)[1].split(end, 1)[0],
