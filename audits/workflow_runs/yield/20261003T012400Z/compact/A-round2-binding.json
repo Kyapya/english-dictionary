@@ -1,0 +1,13 @@
+{
+  "request_path": "audits/workflow_runs/yield/20261003T012400Z/compact/review-A.request.json",
+  "request_sha256": "6d8589418acd66e4fceb42661d5e072bb35e102e5d1683a60577bd36702fa6db",
+  "snapshot_path": "audits/workflow_runs/yield/20261003T012400Z/compact/snapshot-e054df91c8d944ef-5183f17b33c4.json",
+  "snapshot_sha256_verified": "ccfbe249382c8c177928a0e7333565e653bc5c9ea76917ba3b579df2f5965d98",
+  "body_sha256": "e054df91c8d944efc66a09d2c451882f83a52e43f6f3197649c2748719a5b068",
+  "round2_body_exactly_equal": true,
+  "inventory_path": "audits/workflow_runs/yield/20261003T012400Z/source_inventory.v4.json",
+  "inventory_canonical_digest_verified": "5183f17b33c442c9ea33ad59bb88d4f688b3c006005bbd5a1ce6c485f7ad0f6b",
+  "scope": "Round2 semantic review of five listed areas remains applicable to byte-for-byte identical body. Round3 independently inspected the new sense2 BIS source mapping and original primary source; no other content rereview.",
+  "source_checked": "https://www.bis.org/speeches/20150512-negative-nominal-central-bank-policy-rates-where-lower-bound",
+  "source_result": "Avoidance section directly attests yield + investors + a return. Mapping to grammar_pattern:007 and collocation:010 supports recipient-object construction, without claiming corpus frequency or verbatim provenance for the constructed income example."
+}

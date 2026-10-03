@@ -1,0 +1,270 @@
+{
+  "workflow_contract_version": "compact_review_v1",
+  "run_id": "20261003T012400Z",
+  "headword": "yield",
+  "slug": "yield",
+  "type": "word",
+  "branch": "revise-yield-20261003",
+  "started_at": "2026-10-03T01:24:00.769312+00:00",
+  "entry_path": "entries/y/yield.md",
+  "inventory_path": "audits/workflow_runs/yield/20261003T012400Z/source_inventory.v4.json",
+  "review_receipts": [
+    {
+      "role": "A",
+      "execution_id": "/root/correct_yield_review_findings/review_yield_candidate_a",
+      "model": "unknown",
+      "recorded_at": "2026-10-03T01:34:09.639143+00:00",
+      "request_path": "audits/workflow_runs/yield/20261003T012400Z/compact/A-round1.request.json",
+      "request_sha256": "cf87bc45b1862ac41c911866224653f69d4b852138e6692784cd510775209ab7",
+      "raw_response_path": "audits/workflow_runs/yield/20261003T012400Z/compact/A-round1.raw.json",
+      "raw_response_sha256": "8aa99b1a48a5d443bb04c0df1053525459c3407b6719a9d02a4a6fa5a50901e2",
+      "body_sha256": "acb6ad8d54c9a1737ac09840b6d52635dad2145561209f58b1b348f5945610c0",
+      "area_keys": {
+        "pronunciation": "7527aca30798b432802cbff3757c49272d0143c6f510bc79289989a969e2549f",
+        "etymology": "00190747c52c4f9eed496e02502f16092b07e3d88562497ec965e44204d42103",
+        "word_formation": "b5a97a5af7731e2d2e7bf7ab62ea9995809a60823fd8e84e3ee09d3f9b5fe0af",
+        "core_image": "6ef7eff95e878e5d34661ed4fd09909a776db2ed0fa944b971a6993f27d6778e",
+        "sense:3c309abf0835fec811b3": "995e303d5c47ca161d894c783d3daf2ebe35c1757b8918fe73c74216f17bef40",
+        "sense:14dc268dd6dddc9bb22f": "bbbfab1355b45306e0bda55039721e2d1ed5c588f8fe8d3fdc647714ebdaf267",
+        "sense:50dac42a508d4abd3bb8": "32b7cdc34b7fa0085691992e6955a8a5d930272b599df261997e741b5a7d4d68",
+        "sense:a6ac4f0e7ddd8ae02c21": "218431241abeb3e2786dfe7c91d061942d603e5c6a67e98b43f126c8a11893b0",
+        "sense:c30c4399a09abef1a771": "80716aca425f56a41e27ca6b9cb0200d394e0e2a6c4bc6e5846414ac0e52bae0",
+        "sense:13edac2db56e863f3d3a": "73169c433cdf0defb8152203bebf8e2846aeda42d6a15eee24bc5f74fb718632",
+        "sense:4136eb2d73bf0521fa2d": "652e10c9b388c5baf799c9f1a98d5c5d8bf0231a2335f023e78809384fd97961",
+        "sense:3fe1341993e417b4ea60": "a6c142db6610614cacb261777d030c3f68f8d0094417e0007a798c6afc9a8573",
+        "sense:6b847210ed01208241b5": "546ea50b9c2e2eb66336a2d0677d8fd08855042fd9ac2442b54af62887dda356"
+      },
+      "checked_areas": [
+        "pronunciation",
+        "etymology",
+        "word_formation",
+        "core_image",
+        "sense:3c309abf0835fec811b3",
+        "sense:14dc268dd6dddc9bb22f",
+        "sense:50dac42a508d4abd3bb8",
+        "sense:a6ac4f0e7ddd8ae02c21",
+        "sense:c30c4399a09abef1a771",
+        "sense:13edac2db56e863f3d3a",
+        "sense:4136eb2d73bf0521fa2d",
+        "sense:3fe1341993e417b4ea60",
+        "sense:6b847210ed01208241b5"
+      ],
+      "unchecked_areas": [],
+      "findings": [
+        {
+          "area": "sense:14dc268dd6dddc9bb22f",
+          "severity": "minor",
+          "impact": "金融の on が表す投資額・投資対象との関係を、収益を受け取る相手と誤読させる可能性がある。例文自体とその訳は正しい。",
+          "evidence": "語義2【文法パターン】の「yield 〈収益・利息〉 on 〈投資・資産〉＝投資・資産に～の収益をもたらす」。同じ語義の例文 The fund yielded a 4 percent return on the initial investment. は「当初の投資額に対して4パーセントの収益」と正しく訳されている。",
+          "action": "パターンの和訳のみ「投資・資産に対して～の収益・利息を生む」などに直し、on の対象と収益の受取人を区別する。英語の構文は維持する。"
+        },
+        {
+          "area": "sense:50dac42a508d4abd3bb8",
+          "severity": "minor",
+          "impact": "relinquish が必ず自発的な放棄を表すと学習してしまう。圧力を受けて不本意に支配権などを手放す場合にも使えるため、yield との比較軸が狭すぎる。",
+          "evidence": "語義3【類義語】relinquish の定義「権利、地位、所有などを自ら手放す」。Cambridge の relinquish は責任・権利などを放棄する意味を自発性に限定せず、不本意に保持をやめる用法も記載している。https://dictionary.cambridge.org/dictionary/english/relinquish",
+          "action": "定義から「自ら」を削除して「権利、地位、所有などを手放す」とする。硬い語で保持の放棄に焦点を置くという現在の比較説明と例文は維持する。"
+        },
+        {
+          "area": "sense:6b847210ed01208241b5",
+          "severity": "editorial",
+          "impact": "頻度の編集上の適用範囲についての説明が語法欄の冒頭に置かれ、意味・用法の説明の流れを一時的に遮る。内容自体は有用で、削除する必要はない。",
+          "evidence": "語義9【語法・注意】の冒頭「名詞の頻度の目安は主に収量・金融上の利回りを念頭に置いたもので、化学・核分野などの限定用法が同じ頻度で使われることを意味しない」。",
+          "action": "任意で、この1文を同じ語義の【頻度】欄に移すか、「収量・金融用法を中心とする目安」のように短く添える。10段階の編集上の目安を実測コーパス頻度に変更しない。"
+        }
+      ],
+      "normalizations": []
+    },
+    {
+      "role": "B",
+      "execution_id": "/root/correct_yield_review_findings/verify_yield_candidate_b",
+      "model": "unknown",
+      "recorded_at": "2026-10-03T01:37:24.777072+00:00",
+      "request_path": "audits/workflow_runs/yield/20261003T012400Z/compact/B-round1.request.json",
+      "request_sha256": "acdadf1783a33e48b49c314f807f8619640899b9a71d8e310452699a06bf6d23",
+      "raw_response_path": "audits/workflow_runs/yield/20261003T012400Z/compact/B-round1.raw.json",
+      "raw_response_sha256": "3c7f304035cd2b9234521bce37fbc0589f7bcbcd30b04c045f9c7740c8777be4",
+      "body_sha256": "acb6ad8d54c9a1737ac09840b6d52635dad2145561209f58b1b348f5945610c0",
+      "area_keys": {
+        "pronunciation": "7527aca30798b432802cbff3757c49272d0143c6f510bc79289989a969e2549f",
+        "etymology": "00190747c52c4f9eed496e02502f16092b07e3d88562497ec965e44204d42103",
+        "word_formation": "b5a97a5af7731e2d2e7bf7ab62ea9995809a60823fd8e84e3ee09d3f9b5fe0af",
+        "core_image": "6ef7eff95e878e5d34661ed4fd09909a776db2ed0fa944b971a6993f27d6778e",
+        "sense:3c309abf0835fec811b3": "995e303d5c47ca161d894c783d3daf2ebe35c1757b8918fe73c74216f17bef40",
+        "sense:14dc268dd6dddc9bb22f": "bbbfab1355b45306e0bda55039721e2d1ed5c588f8fe8d3fdc647714ebdaf267",
+        "sense:50dac42a508d4abd3bb8": "32b7cdc34b7fa0085691992e6955a8a5d930272b599df261997e741b5a7d4d68",
+        "sense:a6ac4f0e7ddd8ae02c21": "218431241abeb3e2786dfe7c91d061942d603e5c6a67e98b43f126c8a11893b0",
+        "sense:c30c4399a09abef1a771": "80716aca425f56a41e27ca6b9cb0200d394e0e2a6c4bc6e5846414ac0e52bae0",
+        "sense:13edac2db56e863f3d3a": "73169c433cdf0defb8152203bebf8e2846aeda42d6a15eee24bc5f74fb718632",
+        "sense:4136eb2d73bf0521fa2d": "652e10c9b388c5baf799c9f1a98d5c5d8bf0231a2335f023e78809384fd97961",
+        "sense:3fe1341993e417b4ea60": "a6c142db6610614cacb261777d030c3f68f8d0094417e0007a798c6afc9a8573",
+        "sense:6b847210ed01208241b5": "546ea50b9c2e2eb66336a2d0677d8fd08855042fd9ac2442b54af62887dda356"
+      },
+      "checked_areas": [
+        "pronunciation",
+        "etymology",
+        "word_formation",
+        "core_image",
+        "sense:3c309abf0835fec811b3",
+        "sense:14dc268dd6dddc9bb22f",
+        "sense:50dac42a508d4abd3bb8",
+        "sense:a6ac4f0e7ddd8ae02c21",
+        "sense:c30c4399a09abef1a771",
+        "sense:13edac2db56e863f3d3a",
+        "sense:4136eb2d73bf0521fa2d",
+        "sense:3fe1341993e417b4ea60",
+        "sense:6b847210ed01208241b5"
+      ],
+      "unchecked_areas": [],
+      "findings": [
+        {
+          "area": "sense:a6ac4f0e7ddd8ae02c21",
+          "severity": "minor",
+          "impact": "The learner is told that argumentative yielding can be a partial concession, but the heading restricts the transitive construction to reflexives and no example teaches direct-object concession. This leaves yield a point liable to be misread as production or treated as ungrammatical.",
+          "evidence": "The candidate sense 4 heading is 自動詞・他動詞（再帰形） and its grammar patterns are yield to, refuse to yield and yield oneself to. Sense 3 includes yield ground but not conceding the validity of an argument. Collins, on its publisher page, Webster’s New World transitive sense 3, explicitly gives “to yield a point”: https://www.collinsdictionary.com/dictionary/english/yield . This is a small coverage gap within the already-covered concession family, not a demand for a new large numbered sense.",
+          "action": "Add a brief direct-object yield a point construction with the meaning 議論で相手の論点を認める／その点では譲歩する and a matching example. Place it under the existing concession/surrender material and ensure the applicable heading does not characterize all transitive concession as reflexive."
+        },
+        {
+          "area": "sense:14dc268dd6dddc9bb22f",
+          "severity": "minor",
+          "impact": "The financial double-object pattern is supportable, but its construction-level evidence is missing from the frozen inventory even though that inventory explicitly leaves it for independent review. Without adding the recovered evidence, later reviewers cannot reproduce the decision to retain this teaching pattern.",
+          "evidence": "The candidate teaches yield 〈投資家〉 + 〈income・a return〉 and has an original rental-properties/owner/income example. The inventory’s general produce-a-return facts do not attest two objects; research_accounting still says that the construction is subject to independent review. Independent checking found the exact financial syntax in James McAndrews’s May 2015 speech, published in full by BIS, in the Avoidance section: “yield investors a return close to zero”. Source: https://www.bis.org/speeches/20150512-negative-nominal-central-bank-policy-rates-where-lower-bound . A Hong Kong Board of Review primary decision, D23/13 paragraph 25(a), also has “yield the owner an income”: https://www.info.gov.hk/bor/en/decisions/docs/d2313.pdf . The latter text was retrieved through the search index; direct PDF opening failed, so that access limitation must be recorded. The BIS full-text attestation was successfully opened and inspected.",
+          "action": "Retain the valid double-object construction, add the BIS attestation as a narrowly mapped source fact supporting this grammar pattern, and update the inventory’s unresolved-review note. The indexed income attestation can be recorded with its access limitation, or independently fetched before being treated as fully inspected. Do not claim these examples establish the construction’s frequency."
+        }
+      ],
+      "normalizations": []
+    },
+    {
+      "role": "B",
+      "execution_id": "/root/correct_yield_review_findings/verify_yield_candidate_b",
+      "model": "unknown",
+      "recorded_at": "2026-10-03T01:41:36.407417+00:00",
+      "request_path": "audits/workflow_runs/yield/20261003T012400Z/compact/B-round2.request.json",
+      "request_sha256": "ae3bc2b84b553d8799ba64d7bce1965179d2731894e29b489d14956595fafc28",
+      "raw_response_path": "audits/workflow_runs/yield/20261003T012400Z/compact/B-round2.raw.json",
+      "raw_response_sha256": "a50ac1e6a0df325f9aa09c43fc6d8a36c8b28d585452ce45e68700389c9a9490",
+      "body_sha256": "e054df91c8d944efc66a09d2c451882f83a52e43f6f3197649c2748719a5b068",
+      "area_keys": {
+        "sense:14dc268dd6dddc9bb22f": "da12c3d992518eadee8377395aa1b2cc155844e1595eb6b26e0bd17478b376ee",
+        "sense:50dac42a508d4abd3bb8": "c4e556910427e476a7839cc1eeabb0318fb88e9049348ac9baa5bad47fbb66da",
+        "sense:a6ac4f0e7ddd8ae02c21": "218431241abeb3e2786dfe7c91d061942d603e5c6a67e98b43f126c8a11893b0",
+        "sense:c30c4399a09abef1a771": "a6342ea1ea41204cc92617afd61658dcb260a375d850d0ae76aac9f6d77bf5c0",
+        "sense:13edac2db56e863f3d3a": "e5da9067db147b11846152423bf1dc55a16523fad3c8a037339ed4e0e284d6f8",
+        "sense:6b847210ed01208241b5": "bece2edd3cb93cb694f12495645a16c5b704ca923116dd5057ab51df3b5fd86b"
+      },
+      "checked_areas": [
+        "sense:14dc268dd6dddc9bb22f",
+        "sense:50dac42a508d4abd3bb8",
+        "sense:a6ac4f0e7ddd8ae02c21",
+        "sense:c30c4399a09abef1a771",
+        "sense:13edac2db56e863f3d3a",
+        "sense:6b847210ed01208241b5"
+      ],
+      "unchecked_areas": [
+        {
+          "area": "pronunciation",
+          "reason": "Unchanged and outside this bounded recheck; rely on the earlier independent B receipt rather than infer a new check."
+        },
+        {
+          "area": "etymology",
+          "reason": "Unchanged and outside this bounded recheck; rely on the earlier independent B receipt rather than infer a new check."
+        },
+        {
+          "area": "word_formation",
+          "reason": "Unchanged and outside this bounded recheck; rely on the earlier independent B receipt rather than infer a new check."
+        },
+        {
+          "area": "core_image",
+          "reason": "Unchanged and outside this bounded recheck; rely on the earlier independent B receipt rather than infer a new check."
+        },
+        {
+          "area": "sense:3c309abf0835fec811b3",
+          "reason": "Unchanged and outside this bounded recheck; rely on the earlier independent B receipt rather than infer a new check."
+        },
+        {
+          "area": "sense:4136eb2d73bf0521fa2d",
+          "reason": "Unchanged and outside this bounded recheck; rely on the earlier independent B receipt rather than infer a new check."
+        },
+        {
+          "area": "sense:3fe1341993e417b4ea60",
+          "reason": "Unchanged and outside this bounded recheck; rely on the earlier independent B receipt rather than infer a new check."
+        }
+      ],
+      "findings": [],
+      "normalizations": []
+    },
+    {
+      "role": "A",
+      "execution_id": "/root/correct_yield_review_findings/review_yield_candidate_a",
+      "model": "unknown",
+      "recorded_at": "2026-10-03T01:41:52.128836+00:00",
+      "request_path": "audits/workflow_runs/yield/20261003T012400Z/compact/A-round2.request.json",
+      "request_sha256": "6d8589418acd66e4fceb42661d5e072bb35e102e5d1683a60577bd36702fa6db",
+      "raw_response_path": "audits/workflow_runs/yield/20261003T012400Z/compact/A-round2.raw.json",
+      "raw_response_sha256": "0568e58589f1d77e264e0f3f0af0a065454b24fc6530efcc38fbd77800753f3d",
+      "body_sha256": "e054df91c8d944efc66a09d2c451882f83a52e43f6f3197649c2748719a5b068",
+      "area_keys": {
+        "sense:14dc268dd6dddc9bb22f": "da12c3d992518eadee8377395aa1b2cc155844e1595eb6b26e0bd17478b376ee",
+        "sense:50dac42a508d4abd3bb8": "c4e556910427e476a7839cc1eeabb0318fb88e9049348ac9baa5bad47fbb66da",
+        "sense:c30c4399a09abef1a771": "a6342ea1ea41204cc92617afd61658dcb260a375d850d0ae76aac9f6d77bf5c0",
+        "sense:13edac2db56e863f3d3a": "e5da9067db147b11846152423bf1dc55a16523fad3c8a037339ed4e0e284d6f8",
+        "sense:6b847210ed01208241b5": "bece2edd3cb93cb694f12495645a16c5b704ca923116dd5057ab51df3b5fd86b"
+      },
+      "checked_areas": [
+        "sense:14dc268dd6dddc9bb22f",
+        "sense:50dac42a508d4abd3bb8",
+        "sense:c30c4399a09abef1a771",
+        "sense:13edac2db56e863f3d3a",
+        "sense:6b847210ed01208241b5"
+      ],
+      "unchecked_areas": [
+        {
+          "area": "pronunciation",
+          "reason": "今回の対象外。round2で実際に再確認した5領域以外は再審査しておらず、初回記録の再利用に委ねる。"
+        },
+        {
+          "area": "etymology",
+          "reason": "今回の対象外。round2で実際に再確認した5領域以外は再審査しておらず、初回記録の再利用に委ねる。"
+        },
+        {
+          "area": "word_formation",
+          "reason": "今回の対象外。round2で実際に再確認した5領域以外は再審査しておらず、初回記録の再利用に委ねる。"
+        },
+        {
+          "area": "core_image",
+          "reason": "今回の対象外。round2で実際に再確認した5領域以外は再審査しておらず、初回記録の再利用に委ねる。"
+        },
+        {
+          "area": "sense:3c309abf0835fec811b3",
+          "reason": "今回の対象外。round2で実際に再確認した5領域以外は再審査しておらず、初回記録の再利用に委ねる。"
+        },
+        {
+          "area": "sense:a6ac4f0e7ddd8ae02c21",
+          "reason": "今回の対象外。round2で実際に再確認した5領域以外は再審査しておらず、初回記録の再利用に委ねる。"
+        },
+        {
+          "area": "sense:4136eb2d73bf0521fa2d",
+          "reason": "今回の対象外。round2で実際に再確認した5領域以外は再審査しておらず、初回記録の再利用に委ねる。"
+        },
+        {
+          "area": "sense:3fe1341993e417b4ea60",
+          "reason": "今回の対象外。round2で実際に再確認した5領域以外は再審査しておらず、初回記録の再利用に委ねる。"
+        }
+      ],
+      "findings": [],
+      "normalizations": []
+    }
+  ],
+  "resolutions": [],
+  "migration": null,
+  "status": "completed",
+  "stage": "publication_ready",
+  "remote_checkpoint": {
+    "commit": "f14e7677dad1e6e9f16992879f543fe4332bc946",
+    "verified": true
+  },
+  "completed_at": "2026-10-03T01:41:52.258345+00:00",
+  "completed_body_sha256": "e054df91c8d944efc66a09d2c451882f83a52e43f6f3197649c2748719a5b068",
+  "reuse_ledger_path": "audits/workflow_runs/yield/20261003T012400Z/compact/reuse_ledger.json",
+  "reuse_ledger_sha256": "0c81f8369f5bb0ea73ee1cb6d54dc29534aeb71292eb85862efd42ba4580e659"
+}
