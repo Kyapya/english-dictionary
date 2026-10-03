@@ -145,7 +145,7 @@ tags: []
 例: The bird was standing and moving normally, apparently not injured.  
 訳: その鳥は普段どおりに立って動いており、けがはしていないようだった。  
 
-【語法・注意】`an apparently healthy child` では apparently が healthy を修飾する。`an apparently child` のように名詞へ直接付けず、形容詞なら `an apparent problem`「見かけ上の問題」のように apparent を使う。形容詞 apparent には「明らかな」の意味もあるが、apparently の基本は「聞くところでは／見たところでは〜らしい」であり、clearly・obviously と同じ確実性を表す語として使わない。明白さを述べたいときは clearly／obviously や `It is apparent that 〈節〉` を使う。`apparently not ready` は「見たところ準備ができていない」で、`not apparently ready` は「準備ができているようには見えない」。前者は否定内容を判断し、後者は準備ができているという見え方を否定するが、実際の解釈が近づく場合もある。語義1の「人の話によれば」とこの語義の「見たところ」は連続的で、情報源が示されなければ両方の読みが可能な文もある。actually「実際には」は外見・予想と実態を対比する表現で、apparently の意味を一律に否定する反意語ではない。  
+【語法・注意】`an apparently healthy child` では apparently が healthy を修飾する。`an apparently child` のように名詞へ直接付けず、形容詞なら `an apparent problem`「見かけ上の問題」のように apparent を使う。形容詞 apparent には「明らかな」の意味もあるが、apparently は、聞いた情報や見た様子に基づいて「どうやら〜らしい」「見たところでは」と述べる語で、clearly／obviously と同義の「明らかに」として覚えない。明白さそのものを述べたい場合は clearly／obviously や `It is apparent that 〈節〉` を使う。`apparently not ready` は「見たところ準備ができていない」で、`not apparently ready` は「準備ができているようには見えない」。前者は否定内容を判断し、後者は準備ができているという見え方を否定するが、実際の解釈が近づく場合もある。語義1の「人の話によれば」とこの語義の「見たところ」は連続的で、情報源が示されなければ両方の読みが可能な文もある。actually「実際には」は外見・予想と実態を対比する表現で、apparently の意味を一律に否定する反意語ではない。  
 
 【類義語】
 
