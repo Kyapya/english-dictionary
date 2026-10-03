@@ -1,0 +1,23 @@
+# Temporary development snapshot; removed before the refactor is merged.
+name: Refactor workspace snapshot
+on:
+  push:
+    branches: [refactor/lightweight-entry-workflow-20261003]
+    paths: [.github/workflows/refactor-workspace.yml]
+permissions:
+  contents: read
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Archive tracked repository files for local regression testing
+        run: git archive --format=tar.gz --output=workspace.tar.gz HEAD
+      - uses: actions/upload-artifact@v4
+        with:
+          name: refactor-workspace
+          path: workspace.tar.gz
+          retention-days: 1
