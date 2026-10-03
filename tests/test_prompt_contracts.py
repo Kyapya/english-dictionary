@@ -25,16 +25,16 @@ def _documented_pass_specifications(text: str) -> set[str]:
 
 
 class PromptContractTests(unittest.TestCase):
-    def test_entry_v5_complete_spec_keeps_all_quality_gates(self) -> None:
+    def test_entry_v5_keeps_quality_without_mandatory_self_audit(self) -> None:
         text = (REPO_ROOT / "prompts" / "entry_spec_v5.md").read_text(encoding="utf-8")
         required = (
-            "生成前の必須構文マトリクス",
-            "分詞形容詞の必須監査",
-            "再帰形・代名詞位置・語順交替の必須監査",
+            "構文説明に必要な要素",
+            "派生形・活用形・分詞形容詞",
+            "再帰形・代名詞位置・語順交替",
             "品詞境界とブロック整合",
             "最小対立の必須化",
             "コアイメージと歴史的語義",
-            "語義棚卸しと構文棚卸しを別々",
+            "語義と構文は別の観点",
             "行末に半角スペースをちょうど2個",
             "コロケーションエントリは次の4行固定",
             "類義語・反意語の各エントリは次の6行固定",
@@ -58,7 +58,9 @@ class PromptContractTests(unittest.TestCase):
         }
         for name, inserted_lines in additions.items():
             with self.subTest(name=name):
-                current = (REPO_ROOT / "prompts" / name).read_text(encoding="utf-8")
+                # Old process contracts are preserved in the explicit archive.
+                path = "legacy_entry_spec_v5.md" if name == "entry_spec_v5.md" else name
+                current = (REPO_ROOT / "prompts" / path).read_text(encoding="utf-8")
                 for line in inserted_lines:
                     self.assertEqual(current.count(line), 1)
                     current = current.replace(line, "")
@@ -182,14 +184,14 @@ class PromptContractTests(unittest.TestCase):
         self.assertIn("渡さない", text)
         self.assertIn("本文側target ID", text)
 
-    def test_agents_routes_to_the_orchestrator(self) -> None:
+    def test_agents_routes_to_the_lightweight_workflow(self) -> None:
         text = (REPO_ROOT / "AGENTS.md").read_text(encoding="utf-8")
         for marker in (
             "scripts/start_words.py",
-            "compact_review_v1",
-            "prompts/compact_entry_content_v1.md",
-            "prompts/compact_review_contract_v1.json",
-            "scripts/review_dependency_v4.py",
+            "scripts/simple_workflow.py",
+            "prompts/entry_spec_v5.md",
+            "prompts/independent_entry_review.md",
+            "docs/workflow_integrity.md",
         ):
             self.assertIn(marker, text)
         for removed_procedure in (
@@ -250,9 +252,9 @@ class PromptContractTests(unittest.TestCase):
 
     def test_readme_routes_instead_of_repeating_the_old_process_specs(self) -> None:
         text = (REPO_ROOT / "README.md").read_text(encoding="utf-8")
-        self.assertIn("compact_review_v1", text)
-        self.assertIn("scripts/compact_workflow.py", text)
-        self.assertIn("docs/legacy_workflow_integrity.md", text)
+        self.assertIn("新規チャットで独立点検", text)
+        self.assertIn("scripts/simple_workflow.py", text)
+        self.assertIn("docs/legacy_workflows.md", text)
         self.assertNotIn("prompts/check_spec_v5.md だけを全文", text)
         self.assertNotIn("scripts/content_audit.py start-cycle", text)
 
@@ -275,8 +277,12 @@ class PromptContractTests(unittest.TestCase):
         self.assertIn("independent_llm", orchestrator)
         self.assertIn("pull_request:", validate_workflow)
         self.assertIn("scripts/validate_repository.py", validate_workflow)
-        self.assertIn("scripts/content_audit.py validate-changed", validate_workflow)
-        self.assertIn("scripts/content_audit.py validate-sync", notion_workflow)
+        self.assertNotIn("scripts/content_audit.py", validate_workflow)
+        self.assertNotIn("scripts/content_audit.py", notion_workflow)
+        self.assertIn("scripts/validate_entry.py", notion_workflow)
+        self.assertIn("scripts/validate_repository.py", notion_workflow)
+        self.assertIn("scripts/import_to_notion.py", notion_workflow)
+        self.assertNotIn("--include-unchecked", notion_workflow)
         self.assertFalse((REPO_ROOT / "scripts" / "generate_entry.py").exists())
 
 

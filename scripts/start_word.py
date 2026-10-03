@@ -9,13 +9,17 @@ from pathlib import Path
 from typing import Any
 
 from slugify import slugify
-from entry_workflow_guard import is_legacy_time_stop
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 REMOTE = "origin"
 GUARD_MARKER = "scripts/start_word.py"
 RUNS_ROOT = "audits/workflow_runs"
+
+
+def is_legacy_time_stop(value: Any) -> bool:
+    from entry_workflow_guard import is_legacy_time_stop as historical_check
+    return historical_check(value)
 
 
 def _git(*args: str, check: bool = True) -> subprocess.CompletedProcess[str]:
@@ -226,6 +230,9 @@ def _print_block(status: str, headword: str, runs: list[dict[str, Any]]) -> None
 
 def main(argv: list[str] | None = None) -> int:
     args = list(sys.argv[1:] if argv is None else argv)
+    from simple_workflow import is_legacy_request, main as simple_main
+    if not is_legacy_request(args):
+        return simple_main(args, repo_root=REPO_ROOT)
     headword, allow_restart = _new_start_args(args)
     if headword is not None:
         try:

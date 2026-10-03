@@ -111,7 +111,7 @@ class PhraseWorkflowIdentityTests(unittest.TestCase):
             return list(csv.DictReader(stream))
 
     def start(self, headword: str) -> tuple[Path, dict]:
-        output = self.successful_cli("start_word", headword,
+        output = self.successful_cli("start_word", headword, "--compact",
                                      "--publish-mode", "connector",
                                      "--reviewer-mode", "handoff")
         run = self.root / output
@@ -149,7 +149,7 @@ class PhraseWorkflowIdentityTests(unittest.TestCase):
 
     def test_dry_run_keeps_phrase_display_headword_and_slug_without_writes(self) -> None:
         before = self.queue_path.read_bytes()
-        plan = json.loads(self.successful_cli("start_word", "take off", "--dry-run"))
+        plan = json.loads(self.successful_cli("start_word", "take off", "--compact", "--dry-run"))
         self.assertEqual(plan["headword"], "take off")
         self.assertEqual(plan["slug"], "take-off")
         self.assertEqual(plan["workflow_contract_version"], flow.VERSION)
@@ -208,7 +208,7 @@ class PhraseWorkflowIdentityTests(unittest.TestCase):
         self.write_queue([self.row("take off", "phrase", "entries/t/take-off.md"),
                           self.row("take-off", "word", "entries/t/take-off.md")])
         queue_before, entry_before = self.queue_path.read_bytes(), self.entry.read_bytes()
-        result = self.cli("start_word", "take off")
+        result = self.cli("start_word", "take off", "--compact")
         self.assertNotEqual(result.returncode, 0, result.stdout + result.stderr)
         self.assertEqual(self.queue_path.read_bytes(), queue_before)
         self.assertEqual(self.entry.read_bytes(), entry_before)
@@ -217,7 +217,7 @@ class PhraseWorkflowIdentityTests(unittest.TestCase):
     def test_wrong_queue_entry_path_is_rejected_before_mutation(self) -> None:
         self.write_queue([self.row("take off", "phrase", "entries/t/take.md")])
         queue_before, entry_before = self.queue_path.read_bytes(), self.entry.read_bytes()
-        result = self.cli("start_word", "take off")
+        result = self.cli("start_word", "take off", "--compact")
         self.assertNotEqual(result.returncode, 0, result.stdout + result.stderr)
         self.assertEqual(self.queue_path.read_bytes(), queue_before)
         self.assertEqual(self.entry.read_bytes(), entry_before)
@@ -300,7 +300,7 @@ class PhraseWorkflowIdentityTests(unittest.TestCase):
         queue_before = self.queue_path.read_bytes()
         for headword in ("take off", "take-off"):
             with self.subTest(headword=headword):
-                result = self.cli("start_word", headword)
+                result = self.cli("start_word", headword, "--compact")
                 self.assertEqual(result.returncode, 3, result.stdout + result.stderr)
                 payload = json.loads(result.stdout)
                 self.assertEqual(payload["status"], "resume_required")

@@ -282,7 +282,7 @@ class Queue:
         job["prepared_at"] = now()
         with self.lock():
             write(self.job_path(job["slug"]), job)
-        command = [sys.executable, "scripts/start_word.py", job["headword"],
+        command = [sys.executable, "scripts/start_word.py", job["headword"], "--compact",
                    "--publish-mode", job["publish_mode"], "--reviewer-mode", job["reviewer_mode"]]
         log = self.control / f"{job['job_id']}.start.log"
         with log.open("w", encoding="utf-8") as stream:
@@ -323,7 +323,7 @@ class Queue:
         text = (f"# Word assignment: {job['headword']}\n\n"
                 f"Work only in `{workspace}` on branch `{job['branch']}`.\n"
                 f"Resume `{relative}`; do not create a fresh run or reset any budget.\n"
-                "Read AGENTS.md here; follow the existing single-word orchestrator and its next_stage.\n"
+                "Read docs/legacy_workflows.md here; follow the pinned legacy orchestrator and its next_stage.\n"
                 "Keep every content/review/independence/publication gate unchanged.\n"
                 "Use this word only in the writer context; delegate reviews to independent contexts.\n"
                 "Publish this workspace's checkpoints through the selected transport.\n"
@@ -385,6 +385,11 @@ class Queue:
 
 
 def main(argv: list[str] | None = None) -> int:
+    arguments = list(sys.argv[1:] if argv is None else argv)
+    if "--legacy" not in arguments:
+        from simple_workflow import main as simple_main
+        return simple_main(arguments, repo_root=ROOT)
+    arguments.remove("--legacy")
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("words", nargs="*")
     parser.add_argument("--words-file", type=Path)
@@ -396,7 +401,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--set-max-active", type=int)
     parser.add_argument("--publish-mode", choices=("git", "connector"), default="connector")
     parser.add_argument("--reviewer-mode", choices=("api", "handoff"), default="handoff")
-    args = parser.parse_args(argv)
+    args = parser.parse_args(arguments)
     try:
         has_words = bool(args.words or args.words_file)
         if args.set_max_active is not None and (has_words or args.dispatch or args.status or args.recover or args.enqueue_only):
