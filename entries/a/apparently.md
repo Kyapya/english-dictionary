@@ -51,7 +51,7 @@ tags: []
 ・be apparently 〈形容詞〉  
 用途: 人から聞いた状態や評価を伝える。  
 例: I haven't spoken to Ken, but his sister says he's apparently happy in his new job.  
-訳: ケンとはまだ話していないけれど、妹の話では、新しい仕事に満足しているらしい。  
+訳: ケンとはまだ話していないけれど、ケンの妹の話では、新しい仕事に満足しているらしい。  
 
 ・have apparently 〈過去分詞〉  
 用途: すでに起きたことを、得られた情報に基づいて伝える。  
@@ -73,7 +73,7 @@ tags: []
 例: “Is the café open on Sundays?” “Apparently not. Aya said it closes every Sunday.”  
 訳: 「あのカフェは日曜も営業しているの？」「どうやら休みらしい。アヤが毎週日曜は閉まっているって言っていたよ。」  
 
-【語法・注意】文頭では後ろにコンマを置くことが多いが、短い文では省くこともある。文中では一般動詞の前、be動詞や最初の助動詞の後が基本的な置き場所になる。`Apparently not.` の not は省略された内容を否定し、「明らかではない」の意味ではない。`Apparently.` だけでも「そうらしい」と答えられる。`I thought the meeting was on Friday, but apparently it's on Thursday.` は「会議は金曜だと思っていたが、どうやら木曜らしい」で、思い込みの訂正を表すが、apparently 自体に「実際には」という断定の意味が必ずあるわけではない。`apparently that ...` だけでは節を導けないので、`Apparently, she's leaving.` のように主語と述語を続ける。相手の発言に強い調子で `Apparently!` と応じたり、`Apparently, I'm supposed to know everything.` と言ったりすると、皮肉や不満を帯びることもあるが、通常の伝聞に必須の含みではない。語義2の見た目・状況に基づく判断との境界は、文の位置ではなく情報源で決まることが多い。  
+【語法・注意】文頭では後ろにコンマを置くことが多いが、短い文では省くこともある。文中では一般動詞の前、be動詞や最初の助動詞の後が基本的な置き場所になる。`Apparently not.` の not は省略された内容を否定し、「明らかではない」の意味ではない。`Apparently.` だけでも「そうらしい」と答えられる。`I thought the meeting was on Friday, but apparently it's on Thursday.` は「会議は金曜だと思っていたが、どうやら木曜らしい」で、思い込みの訂正を表すが、apparently 自体に「実際には」という断定の意味が必ずあるわけではない。apparently 自体は接続詞 that を伴って節を導かない。`Apparently that she's leaving.` とはせず、`Apparently, she's leaving.` または `It appears that she's leaving.` とする。一方、`Apparently that's true.` は that が「それ」を指す代名詞なので使える。相手の発言に強い調子で `Apparently!` と応じたり、`Apparently, I'm supposed to know everything.` と言ったりすると、皮肉や不満を帯びることもあるが、通常の伝聞に必須の含みではない。語義2の見た目・状況に基づく判断との境界は、文の位置ではなく情報源で決まることが多い。  
 
 【類義語】
 
@@ -118,7 +118,7 @@ tags: []
 ・apparently need 〈名詞〉  
 用途: 状況から見て必要だと思われるものを述べる。  
 例: The door still won't close, so the lock apparently needs another adjustment.  
-訳: ドアがまだ閉まらないので、どうやら鍵の調整をもう一度する必要がある。  
+訳: ドアがまだ閉まらないので、どうやら鍵をもう一度調整する必要がありそうだ。  
 
 ・be apparently unaware of 〈名詞〉  
 用途: 振る舞いから、本人が気づいていないように見えることを表す。  
@@ -145,7 +145,7 @@ tags: []
 例: The bird was standing and moving normally, apparently not injured.  
 訳: その鳥は普段どおりに立って動いており、けがはしていないようだった。  
 
-【語法・注意】`an apparently healthy child` では apparently が healthy を修飾する。`an apparently child` のように名詞へ直接付けず、形容詞なら `an apparent problem`「見かけ上の問題」のように apparent を使う。`very apparently` で「とても明らかに」と言うより、明白さを強調したいなら `very clearly` が自然。apparently は情報に基づく判断を示し、obviously のように当然の事実として言い切る使い方と同じではない。文脈によって「明らかに」と訳せても、常に「確実に」と覚えない。`apparently not ready` は「見たところ準備ができていない」で、`not apparently ready` は「準備ができているようには見えない」。前者は否定内容を判断し、後者は準備ができているという見え方を否定するが、実際の解釈が近づく場合もある。語義1の「人の話によれば」とこの語義の「見たところ」は連続的で、情報源が示されなければ両方の読みが可能な文もある。actually「実際には」は外見・予想と実態を対比する表現で、apparently の意味を一律に否定する反意語ではない。  
+【語法・注意】`an apparently healthy child` では apparently が healthy を修飾する。`an apparently child` のように名詞へ直接付けず、形容詞なら `an apparent problem`「見かけ上の問題」のように apparent を使う。形容詞 apparent には「明らかな」の意味もあるが、apparently は、聞いた情報や見た様子に基づいて「どうやら〜らしい」「見たところでは」と述べる語で、clearly／obviously と同義の「明らかに」として覚えない。明白さそのものを述べたい場合は clearly／obviously や `It is apparent that 〈節〉` を使う。`apparently not ready` は「見たところ準備ができていない」で、`not apparently ready` は「準備ができているようには見えない」。前者は否定内容を判断し、後者は準備ができているという見え方を否定するが、実際の解釈が近づく場合もある。語義1の「人の話によれば」とこの語義の「見たところ」は連続的で、情報源が示されなければ両方の読みが可能な文もある。actually「実際には」は外見・予想と実態を対比する表現で、apparently の意味を一律に否定する反意語ではない。  
 
 【類義語】
 
