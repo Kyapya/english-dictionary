@@ -44,7 +44,7 @@ tags: []
 
 【レジスター/領域】やや改まった語。報道、論説、研究、ビジネスの文章で広く使われ、会話にも現れる。  
 
-【文法パターン】`considerable 〈不可算名詞／複数名詞〉`＝かなりの量・程度・数の～／`a considerable 〈単数可算名詞〉`＝相当な～／`a considerable amount of 〈不可算名詞〉`＝かなりの量の～／`a considerable number of 〈複数名詞〉`＝かなりの数の～／`〈物事〉 + be/seem + considerable`＝物事の規模・程度が相当である／`of considerable 〈importance/value〉`＝相当な重要性・価値のある／`at considerable risk`＝大きな危険を伴って／`be at considerable risk of 〈名詞／動名詞〉`＝～の危険性がかなり高い／`to a considerable extent`＝かなりの程度・範囲で／`some considerable time`＝相当な時間・期間。  
+【文法パターン】`considerable 〈不可算名詞/複数名詞〉`＝かなりの量・程度・数の～／`a considerable 〈単数可算名詞〉`＝相当な～／`a considerable amount of 〈不可算名詞〉`＝かなりの量の～／`a considerable number of 〈複数名詞〉`＝かなりの数の～／`〈物事〉 + be/seem + considerable`＝物事の規模・程度が相当である／`of considerable 〈importance/value〉`＝相当な重要性・価値のある／`at considerable risk`＝大きな危険を伴って／`be at considerable risk of 〈名詞/動名詞〉`＝～の危険性がかなり高い／`to a considerable extent`＝かなりの程度・範囲で／`some considerable time`＝相当な時間・期間。  
 
 【コロケーション】
 
@@ -78,7 +78,7 @@ tags: []
 例: The volunteers delivered food at considerable risk to themselves.  
 訳: ボランティアたちは自ら大きな危険を冒して食料を届けた。  
 
-・be at considerable risk of 〈名詞／動名詞〉  
+・be at considerable risk of 〈名詞/動名詞〉  
 用途: 人や物事が大きな危険にさらされている状態を述べる。  
 例: The old bridge is at considerable risk of collapse.  
 訳: その古い橋は、崩落する危険性がかなり高い。  
