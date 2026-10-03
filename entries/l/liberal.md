@@ -352,7 +352,7 @@ tags: []
 ・be liberal with one's criticism  
 用途: 批判を多く口にすることを、批判的に述べる。  
 例: He is liberal with his criticism but rarely offers practical help.  
-訳: 彼は批判ばかりよくするが、実際に手を貸すことはほとんどない。  
+訳: 彼は批判は惜しまないが、実際に手を貸すことはほとんどない。  
 
 ・be liberal in giving 〈援助・賞賛など〉  
 用途: 与えるという行為の惜しみなさを示す。  
@@ -361,8 +361,8 @@ tags: []
 
 ・a liberal donor  
 用途: 気前よく寄付をする人を、やや改まって指す。  
-例: Several liberal donors have supported the library with large, regular gifts.  
-訳: 何人もの気前のよい寄付者が、定期的な多額の寄付で図書館を支えてきた。  
+例: Although politically conservative, she was a liberal donor, often giving more than charities requested.  
+訳: 政治的には保守的だったが、彼女は気前のよい寄付者で、慈善団体が求める以上の額をしばしば寄付していた。  
 
 【語法・注意】この意味では with がよく使われ、liberal with praise は「よく褒める」、liberal about personal choices は語義3の「個人の選択に寛容」。liberal donor は政治的にリベラルな寄付者とも読めるため、金額や与え方の文脈が重要。人の与える態度がこの語義。語義6には a liberal amount のような量の多さに加え、be liberal with the oil「油をたっぷり使う」のように、人を主語にして使用量を述べる形もある。with だけで「与える」か「使う」かは決まらない。too liberal with advice なら「助言をしすぎる」で、助言が適切だという意味ではない。  
 
@@ -447,7 +447,7 @@ tags: []
 例: The essay contains a liberal sprinkling of quotations from letters.  
 訳: その随筆には、手紙からの引用がふんだんに散りばめられている。  
 
-【語法・注意】a liberal amount の amount は「量」を表す名詞で、a は amount に付く。liberal amounts なら複数の量や繰り返しの使用量をまとめて述べられる。make liberal use of は「自由主義的に使う」ではなく「ふんだんに使う」。動詞を直接修飾するなら apply the glue liberally のように副詞にする。量の程度を比較する a more liberal amount なども可能だが、名詞の前に置く形が中心。be liberal with the oil は叙述用法で「油をたっぷり使う」。語義5の be liberal with praise「惜しみなく褒める」と形は同じだが、材料の使用量が焦点であり、与える態度を述べるとは限らない。  
+【語法・注意】a liberal amount の amount は「量」を表す名詞で、a は amount に付く。複数形 liberal amounts も「多量の」を表し、必ずしも複数回の使用を意味しない。make liberal use of は「自由主義的に使う」ではなく「ふんだんに使う」。動詞を直接修飾するなら apply the glue liberally のように副詞にする。量の程度を比較する a more liberal amount なども可能だが、名詞の前に置く形が中心。be liberal with the oil は叙述用法で「油をたっぷり使う」。語義5の be liberal with praise「惜しみなく褒める」と形は同じだが、材料の使用量が焦点であり、与える態度を述べるとは限らない。  
 
 【類義語】
 
@@ -566,7 +566,7 @@ tags: []
 例: A literal translation would sound unnatural here.  
 訳: ここを直訳すると、不自然に聞こえるでしょう。  
 
-8. 【形容詞・主に限定】一般教養の、幅広い知性を育てる
+8. 【形容詞・主に限定】一般教養の、幅広い教養と思考力を育てる
 
 【日本語訳・定義】特定の職業技能の訓練だけに目的を限定せず、幅広い知識、思考力、判断力などを育てる教育に関わること。liberal education、liberal arts などの結び付きで使う。liberal arts は人文科学だけを指すとは限らず、社会科学、数学、自然科学を含むこともある。  
 
@@ -579,7 +579,7 @@ tags: []
 【コロケーション】
 
 ・a liberal education  
-用途: 専門技能だけでなく、幅広い知性を育てる教育を指す。  
+用途: 専門技能だけでなく、幅広い教養と思考力を育てる教育を指す。  
 例: A liberal education encourages students to connect ideas across different fields.  
 訳: リベラルアーツ教育は、生徒や学生が異なる分野の考えを結び付けるよう促す。  
 
@@ -610,13 +610,13 @@ tags: []
 ・general education  
 定義: 特定の専門領域だけでなく、広い基礎知識・能力を育てる教育。  
 頻度: 〈6/10〉  
-違い: 大学では共通の履修要件・基礎課程を指すことも多い。liberal education は、教育全体の目的や学び方を表し、特定の共通科目だけに限られない。  
+違い: liberal education という句全体に近い表現で、形容詞 liberal 単独の置換語ではない。general education は大学の共通の履修要件・基礎課程を指すことも多いが、liberal education は教育全体の目的や学び方を表し、特定の共通科目だけに限られない。  
 例: All students must complete the general education requirements.  
 訳: すべての学生は、一般教育の履修要件を満たさなければなりません。  
 
 ・broad-based  
 定義: 一つの狭い分野に限定せず、広い基盤を持つ。  
 頻度: 〈5/10〉  
-違い: broad-based education は幅広い教育として近いが、liberal education に結び付く知性・判断力の育成という理念まで必ず表すわけではない。  
+違い: broad-based education は幅広い教育として近いが、liberal education に結び付く教養・思考力・判断力の育成という理念まで必ず表すわけではない。  
 例: The course provides a broad-based introduction to the social sciences.  
-訳: その講座は、社会科学の幅広い基礎を学ぶ入門になっている。  
+訳: その講座は、社会科学の幅広い分野を扱う入門講座だ。  
