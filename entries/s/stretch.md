@@ -30,7 +30,7 @@ tags: []
 
 ＃コアイメージ
 
-長さ・広がり・使える範囲を伸ばすこと、またはそのように伸びた範囲が中心で、物体だけでなく時間や能力にも使う。語義16は野球の制度的専門義で、現在の投球姿勢の意味をこの核だけから導けないため、個別に参照する。  
+長さ・広がり・使える範囲を伸ばすこと、またはそのように伸びた範囲が中心で、物体だけでなく時間や能力にも使う。語義18は野球の制度的専門義で、現在の投球姿勢の意味をこの核だけから導けないため、個別に参照する。  
 
 ・物の長さや幅を伸ばすこと → 「引き伸ばす、伸びる、張る」（語義1）  
 
@@ -61,6 +61,10 @@ tags: []
 ・実現や解釈の限界まで範囲を伸ばすこと → 「無理のあること、難しい挑戦」（語義14）  
 
 ・相手に対する先行の幅を伸ばすこと → 「リードを広げる」（語義15）  
+
+・活動に使う能力や資源を最大限に伸ばすこと → 「全力で、余力を使い切って」（語義16）  
+
+・服役が続いて伸びる時間の範囲 → 「服役期間」（語義17）  
 
 ＃意味・用法・関連表現
 
@@ -708,13 +712,13 @@ tags: []
 
 11. 【名詞：可算／慣用表現】ひと続きの期間
 
-【日本語訳・定義】途中で区切られずに続く一定の期間。at a stretch は「一度に続けて」。口語の a stretch は刑務所で過ごす期間を指すこともある。  
+【日本語訳・定義】途中で区切られずに続く一定の期間。at a stretch は「一度に続けて」。  
 
 【頻度】〈8/10〉  
 
-【レジスター/領域】中立。時間・勤務・天候。刑期を表す用法は口語。  
+【レジスター/領域】中立。時間・勤務・天候。  
 
-【文法パターン】a stretch of 〈時間/活動/状態〉＝ひと続きの期間／for a long stretch＝長い間続けて／for 〈時間量〉 at a stretch＝その時間、休みなく続けて／in short/long stretches＝短い・長いまとまりに分けて／do/serve a 〈期間〉 stretch＝その期間服役する  
+【文法パターン】a stretch of 〈時間/活動/状態〉＝ひと続きの期間／for a long stretch＝長い間続けて／for 〈時間量〉 at a stretch＝その時間、休みなく続けて／in short/long stretches＝短い・長いまとまりに分けて  
 
 【コロケーション】
 
@@ -733,12 +737,7 @@ tags: []
 例: The baby slept in short stretches throughout the night.  
 訳: 赤ちゃんは夜通し、短い眠りを何度も繰り返した。  
 
-・serve a five-year stretch  
-用途: 口語で服役期間を述べる。  
-例: He served a five-year stretch for robbery.  
-訳: 彼は強盗罪で5年間服役した。  
-
-【語法・注意】at a stretch には冠詞 a が必要。for two hours at a stretch は一続きの2時間、for two hours a day は1日当たり合計2時間で、休みの有無は述べない。イギリス英語の at a stretch には「頑張れば何とか」という別の用法もある（語義14）。服役の用法は文脈が必要で、a five-year stretch だけなら一般的な5年間の期間にもなり得る。  
+【語法・注意】at a stretch には冠詞 a が必要。for two hours at a stretch は一続きの2時間、for two hours a day は1日当たり合計2時間で、休みの有無は述べない。イギリス英語の at a stretch には「頑張れば何とか」という別の用法もある（語義14）。口語で服役期間を指す用法は語義17で区別する。  
 
 【類義語】
 
@@ -763,15 +762,15 @@ tags: []
 例: She completed a six-month stint at the museum.  
 訳: 彼女は博物館での6か月の勤務を終えた。  
 
-12. 【名詞：可算／慣用表現】伸び、ストレッチ
+12. 【名詞：可算・不可算／慣用表現】伸び、ストレッチ
 
-【日本語訳・定義】体や筋肉を伸ばす一回の動作、またはその運動。at full stretch は文字どおり最大限に伸ばした状態を表し、比喩では人や組織が全力で働いている状態になる。  
+【日本語訳・定義】体や筋肉を伸ばす一回の動作・運動、または伸ばした状態。at full stretch は、身体を最大限に伸ばした状態を表す。  
 
 【頻度】〈7/10〉  
 
-【レジスター/領域】中立。運動、身体動作。work/be at full stretch は特にイギリス英語で使う。  
+【レジスター/領域】中立。運動、身体動作。  
 
-【文法パターン】have a stretch＝伸びをする／do stretches＝ストレッチ運動をする／a stretch for 〈筋肉/部位〉＝その部位を伸ばす運動／at full stretch＝目いっぱい伸ばして、全力稼働で  
+【文法パターン】have a stretch＝伸びをする／do stretches＝ストレッチ運動をする／a stretch for 〈筋肉/部位〉＝その部位を伸ばす運動／at full stretch＝身体を目いっぱい伸ばして  
 
 【コロケーション】
 
@@ -795,12 +794,7 @@ tags: []
 例: The goalkeeper reached the ball at full stretch.  
 訳: ゴールキーパーは体を目いっぱい伸ばしてボールに届いた。  
 
-・work at full stretch  
-用途: 人や組織が能力いっぱいで働くことを表す。  
-例: The repair team is working at full stretch.  
-訳: 修理チームは全力で作業している。  
-
-【語法・注意】個々の運動は a stretch / stretches、運動全般は stretching と表せる。日本語の「ストレッチをする」を一律に do stretch としない。at full stretch は冠詞なしの固定表現で、語義11の at a stretch「休みなく続けて」とは意味も冠詞も違う。  
+【語法・注意】個々の運動は a stretch / stretches と数えるが、at full stretch は身体を伸ばした状態を表す。運動全般は stretching とする。日本語の「ストレッチをする」を一律に do stretch としない。at full stretch は冠詞なしの固定表現で、語義11の at a stretch「休みなく続けて」とは意味も冠詞も違う。人・組織の全力稼働を述べる比喩は語義16。  
 
 【類義語】
 
@@ -991,7 +985,87 @@ tags: []
 例: A late goal narrowed the gap to one point.  
 訳: 終盤の得点で、差は1点に縮まった。  
 
-16. 【名詞：通常単数】セットポジション
+16. 【慣用表現：名詞を含む前置詞句】全力で、余力を使い切って
+
+【日本語訳・定義】at full stretch は、人や組織が持てる能力・労力・資源を最大限に使っている状態を表す。語義12の身体を目いっぱい伸ばす状態からの比喩で、仕事などの要求に応じる余力がほとんどないことを述べる。  
+
+【頻度】〈6/10〉  
+
+【レジスター/領域】主にイギリス英語。仕事、組織の稼働状況についての会話・報道。  
+
+【文法パターン】someone/organization + be at full stretch＝人・組織が能力や資源を最大限に使っている／work/operate at full stretch＝全力で働く・稼働する  
+
+【コロケーション】
+
+・be at full stretch  
+用途: 人員や資源の余力がない稼働状況を表す。  
+例: With several staff absent, the team is already at full stretch.  
+訳: 何人もの職員が休んでいるため、チームはすでに手いっぱいだ。  
+
+・work at full stretch  
+用途: 人や組織が能力いっぱいで働くことを表す。  
+例: The repair team is working at full stretch.  
+訳: 修理チームは全力で作業している。  
+
+【語法・注意】stretch は動詞ではなく、前置詞 at に続く名詞。at full stretch は冠詞を置かない。人・組織を主語にしても身体の伸びを意味するとは限らず、作業量などの文脈で判断する。語義11の at a stretch「休みなく続けて」は連続する時間を述べ、働く強度は指定しない。  
+
+【類義語】
+
+・at full capacity  
+定義: 利用できる能力・処理量の上限まで稼働して。  
+頻度: 〈6/10〉  
+違い: 設備・施設の処理能力にも使いやすい。at full stretch は人の労力や組織の余力にも焦点を置く。  
+例: The factory is operating at full capacity.  
+訳: 工場は最大能力で稼働している。  
+
+・flat out  
+定義: 全力で、できる限りの速さや努力で。  
+頻度: 〈6/10〉  
+違い: より口語的で、行動の速さや懸命さを示しやすい。at full stretch は人員・資源の余力がない状態にも使う。  
+例: We've been working flat out to meet the deadline.  
+訳: 締め切りに間に合わせるため、私たちは全力で働いている。  
+
+17. 【名詞：可算・通常単数】服役期間
+
+【日本語訳・定義】刑務所で服役して過ごす一定の期間。一般的な期間を表す語義11から、収監されている期間を指す口語的な用法として定着している。  
+
+【頻度】〈4/10〉  
+
+【レジスター/領域】口語。犯罪・服役についての会話や物語。正式な刑の名称ではない。  
+
+【文法パターン】do/serve a 〈数値＋単数の期間単位〉 stretch＝その期間服役する／a stretch in prison＝刑務所で過ごす服役期間  
+
+【コロケーション】
+
+・serve a five-year stretch  
+用途: 口語で服役した期間を述べる。  
+例: He served a five-year stretch for robbery.  
+訳: 彼は強盗罪で5年間服役した。  
+
+・a stretch in prison  
+用途: 刑務所にいた期間を名詞句で表す。  
+例: After a stretch in prison, he found work in a garage.  
+訳: しばらく服役した後、彼は自動車修理工場で仕事を見つけた。  
+
+【語法・注意】do a stretch / serve a stretch は「服役する」。a five-year stretch の five-year は名詞前の修飾なのでハイフンで結び、year は単数形にする。a five-year stretch だけなら一般的な5年間も表せるが、for robbery や in prison などが服役の読みを明確にする。判決内容や実際の収監期間が常に一致すると、この語だけからは判断できない。  
+
+【類義語】
+
+・prison term  
+定義: 刑として刑務所で過ごす期間。  
+頻度: 〈6/10〉  
+違い: stretch より中立的で、服役の意味を明示する。判決で定められた期間についても使える。  
+例: He received a three-year prison term.  
+訳: 彼は3年間の拘禁刑を言い渡された。  
+
+・time  
+定義: 刑務所で服役して過ごす期間。  
+頻度: 〈6/10〉  
+違い: この意味では不可算で、do time / serve time とする。stretch は a stretch と期間を一まとまりとして数える。  
+例: He served time for fraud.  
+訳: 彼は詐欺罪で服役した。  
+
+18. 【名詞：通常単数】セットポジション
 
 【日本語訳・定義】野球で、投手がワインドアップを使わずに投げる際の構え・投球方式を指す。日本語では通常「セットポジション」と訳す。  
 

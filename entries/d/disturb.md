@@ -23,7 +23,7 @@ tags: []
 
 ・disturbance（名詞）: 「妨害、騒ぎ、乱れ」。騒動は a disturbance と数え、静けさ・機能への妨害を一般的に述べる場合は不可算でも使う。  
 ・disturbing（現在分詞・形容詞）: 動詞の進行形に使うほか、「不安を起こさせる、心をかき乱す」という形容詞になる。語義5を参照。  
-・disturbed（過去形・過去分詞・形容詞）: 「妨げられた、乱された」のほか、「動揺している」「精神的に不安定な」という意味がある。a disturbed night は眠りが妨げられた夜で、精神状態を指すとは限らない。  
+・disturbed（過去形・過去分詞・形容詞）: 「妨げられた、乱された」のほか、「動揺している」「精神的に不安定な」という意味がある。a disturbed night「眠りが妨げられた夜」は語義1の睡眠への妨害とつながり、精神的不安定さを意味しない。  
 ・undisturbed（形容詞）: 「邪魔されていない、手つかずの」。undisturbed sleep「妨げられない眠り」、undisturbed soil「かき乱されていない土」のように、何が乱されていないかで訳が変わる。  
 ・disturbingly（副詞）: 「不安になるほど、気がかりなことに」。程度や事実に対する話者の懸念を示す。  
 
@@ -49,7 +49,7 @@ tags: []
 
 1. 【動詞：他動詞】邪魔する、妨げる
 
-【日本語訳・定義】人の仕事・休息・睡眠などの続いている活動や、静かな状態を邪魔する。相手を完全に中断させる場合に限らず、集中しにくくする、ゆっくり休めなくすることも含む。故意の妨害とは限らない。  
+【日本語訳・定義】人の仕事・休息・睡眠などの続いている活動や、静かな状態を邪魔する。相手の作業や休息を完全に中断させる場合に限らず、集中しにくくする、ゆっくり休めなくすることも含む。故意の妨害とは限らない。  
 
 【頻度】〈8/10〉  
 
@@ -82,14 +82,14 @@ tags: []
 ・Do not disturb.  
 用途: ホテルのドアや機器の設定で、入室・呼びかけ・通知などを控えるよう示す。  
 例: She hung a Do Not Disturb sign on the door.  
-訳: 彼女はドアに「起こさないでください」の札を掛けた。  
+訳: 彼女はドアに「邪魔しないでください」の札を掛けた。  
 
 ・disturb the peace  
 用途: 騒音や騒ぎによって平穏を損なうことを表す。  
 例: The shouting outside disturbed the peace of the neighbourhood.  
 訳: 外の怒鳴り声が、近隣の平穏を乱した。  
 
-【語法・注意】人や活動を直接目的語に取り、disturb to someone とはしない。Do not disturb. は相手や対象が分かる定型表示なので、目的語を明示しない。Sorry to disturb you. は通常、相手を不安にさせたというより「お邪魔してすみません」。disturb the peace は一般的な平穏の妨害にも、法律上の秩序違反の名称・記述にも使うが、具体的な成立要件は法域によって異なる。  
+【語法・注意】人や活動を直接目的語に取り、disturb to someone とはしない。Do not disturb. は相手や対象が分かる定型表示なので、目的語を明示しない。ホテルの札では「起こさないでください」とも訳すが、睡眠中に限らず入室や呼びかけを控えてほしいという表示。Sorry to disturb you. は通常、相手を不安にさせたというより「お邪魔してすみません」。disturb the peace は一般的な平穏の妨害にも、法律上の秩序違反の名称・記述にも使うが、具体的な成立要件は法域によって異なる。  
 
 【類義語】
 
@@ -122,7 +122,7 @@ tags: []
 
 【レジスター/領域】中立～やや改まった表現。感情、報道、評価。  
 
-【文法パターン】something + disturb someone＝何かが人を動揺させる／It disturbs someone that 〈平叙文〉＝～ということが人には気がかりだ／It disturbs someone to do something＝～して人が動揺する／What disturbs someone is ...＝人が気にかかるのは～だ／someone + be disturbed by something＝何かに動揺させられる  
+【文法パターン】something + disturb someone＝何かが人を動揺させる／It disturbs someone that 〈平叙文〉＝～ということが人には気がかりだ／It disturbs someone to do something＝～して人が動揺する／What disturbs someone is ...＝その人にとって気がかりなのは～だ／someone + be disturbed by something＝何かに動揺させられる  
 
 【コロケーション】
 
@@ -486,7 +486,7 @@ tags: []
 例: The old report described him as emotionally disturbed.  
 訳: その古い報告書は、彼に情緒面の問題があると記していた。  
 
-【語法・注意】人そのものを a disturbed person と呼ぶより、文脈に応じて a person with emotional difficulties など、抱えている問題を具体的に述べるほうが配慮のある表現になりやすい。disturbed だけで特定の病気や危険性を判断しない。a disturbed night は眠りが妨げられた夜、a disturbed family background は不安定でつらい家庭環境を表し、どちらもそのまま本人の診断を述べる表現ではない。  
+【語法・注意】人そのものを a disturbed person と呼ぶより、文脈に応じて a person with emotional difficulties など、抱えている問題を具体的に述べるほうが配慮のある表現になりやすい。disturbed だけで特定の病気や危険性を判断しない。a disturbed night は語形成欄で述べた睡眠の用法。a disturbed family background は不安定でつらい家庭環境を表し、本人の診断名ではない。  
 
 【類義語】
 
