@@ -3,11 +3,11 @@ headword: assess
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: unknown
-checked_by: independent cold review + final adjudication (compact workflow前の旧run)
-checked_at: 2026-08-14
+model: OpenAI assistant
+checked_by: GPT-6 Astra (medium reasoning); corrections checked by OpenAI assistant
+checked_at: 2026-10-03
 created_at: 2026-06-14
-updated_at: 2026-09-27
+updated_at: 2026-10-03
 checked: true
 tags: []
 ---
@@ -34,7 +34,11 @@ assesses は /əˈsesɪz/、assessed は /əˈsest/、assessing は /əˈsesɪŋ
 
 ＃コアイメージ
 
-対象を調べ、基準に照らして、性質・程度・価値・負担額を決めることが中心にある。判断材料は情報・観察・経験などである。対象の性質や適格性なら一般的な評価、量・金額・価値なら査定、税・料金などの負担やスポーツのペナルティなら正式に科す用法へ具体化する（それぞれ語義1・2・3）。  
+対象を調べ、基準に照らして、性質・程度・価値・負担を判断し、定めることが中心にある。判断材料は情報・観察・経験などである。  
+
+・対象を調べて性質・程度を判断すること → 「評価する、判断する」（語義1）  
+・対象を調べて金額・数量・価値を定めること → 「金額・数量・価値などを査定する」（語義2）  
+・対象を調べて税・料金・罰などの負担を定めること → 「税・料金・罰金などを算定・賦課する／反則に対するペナルティを科す」（語義3）  
 
 ＃意味・用法・関連表現
 
@@ -65,17 +69,17 @@ assesses は /əˈsesɪz/、assessed は /əˈsest/、assessing は /əˈsesɪŋ
 例: Engineers assessed the risk of flooding in the area.  
 訳: 技術者たちはその地域の洪水リスクを評価した。  
 
-・assess the extent of 〈damage・problem〉  
+・assess the extent of the damage／assess the extent of the problem  
 用途: 被害や問題がどの範囲・程度に及ぶかを評価する。金額の査定ではなく、広がりや規模の把握に焦点がある。  
 例: Officials assessed the extent of the damage caused by the storm.  
 訳: 当局者は、嵐による被害がどこまで及んでいるかを調べた。  
 
-・assess the severity of 〈injury・condition〉  
+・assess the severity of an injury／assess the severity of a condition  
 用途: けがや状態の深刻さを評価する。  
 例: The doctor assessed the severity of the injury before recommending treatment.  
 訳: 医師は治療を勧める前に、けがの深刻さを確認した。  
 
-・assess the impact of 〈change・project〉  
+・assess the impact of a change／assess the impact of a project  
 用途: 変化や計画が及ぼす影響を評価する。  
 例: The study assessed the impact of the new law on small businesses.  
 訳: その研究では、新しい法律が小規模企業に与える影響が検証された。  
@@ -100,7 +104,7 @@ assesses は /əˈsesɪz/、assessed は /əˈsest/、assessing は /əˈsesɪŋ
 例: The risk of infection was assessed as low.  
 訳: 感染リスクは低いと評価された。  
 
-・assess someone for 〈condition・eligibility〉  
+・assess someone for 〈病気・障害・適格性〉  
 用途: 人に特定の状態があるか、資格があるかを調べる。  
 例: The clinic assessed the child for dyslexia.  
 訳: 診療所で、その子にディスレクシア（読み書き障害）がないか検査した。  
@@ -122,10 +126,10 @@ assesses は /əˈsesɪz/、assessed は /əˈsest/、assessing は /əˈsesɪŋ
 
 ・carefully/accurately/fully assess  
 用途: 評価の慎重さ・正確さ・網羅性を副詞で強める。  
-例: We need to carefully assess the costs before making a decision.  
-訳: 決定を下す前に、費用を慎重に検討する必要がある。  
+例: We need to carefully assess the risks before making a decision.  
+訳: 決定を下す前に、リスクを慎重に評価する必要がある。  
 
-・be assessed on 〈coursework・exam〉  
+・be assessed on coursework／be assessed on an exam  
 用途: 教育で、学生の成績が課題や試験によって評価される。  
 例: Students are assessed on their coursework and a final exam.  
 訳: 学生は課題と期末試験で評価される。  
@@ -149,9 +153,9 @@ assesses は /əˈsesɪz/、assessed は /əˈsest/、assessing は /əˈsesɪŋ
 訳: 文脈を知らずに翻訳の質を判断するのは難しい。  
 
 ・appraise  
-定義: 人の業績・能力などを、正式な手続きで評価する。  
+定義: 人の業績・能力や物事の質などを調べて評価する。  
 頻度: 〈5/10〉  
-違い: appraise は人事考課（performance appraisal）のように、組織が人・業績を正式に評価する場面で使われやすい。assess はリスク・必要性・影響など、人以外の対象にも広く使う。  
+違い: appraise はやや改まった語で、質・能力・業績などを見定めることに焦点がある。人事考課（performance appraisal）でも使うが、正式な手続きは必須ではなく、人以外にも使える。assess はリスク・必要性・影響の見極めにも広く使う。  
 例: The manager appraised each employee's performance at the end of the year.  
 訳: 上司は年度末に各社員の業績を評価した。  
 
@@ -188,12 +192,12 @@ assesses は /əˈsesɪz/、assessed は /əˈsest/、assessing は /əˈsesɪŋ
 
 【コロケーション】
 
-・assess the cost of 〈repair・project〉  
+・assess the cost of repairs／assess the cost of a project  
 用途: 修理や計画に必要な費用を見積もる。  
 例: The insurance adjuster assessed the cost of repairing the storm damage.  
 訳: 保険の損害査定人は、嵐による被害の修理費を査定した。  
 
-・assess the value of 〈property・asset〉  
+・assess the value of property／assess the value of an asset  
 用途: 不動産や資産の金銭的価値を査定する。  
 例: Before the merger, independent valuers assessed the value of the company's assets.  
 訳: 合併前に、独立した評価の専門家がその会社の資産価値を査定した。  
@@ -246,9 +250,9 @@ assesses は /əˈsesɪz/、assessed は /əˈsest/、assessing は /əˈsesɪŋ
 訳: 主催者は参加者がどれくらいになるかを見積もろうとした。  
 
 ・value  
-定義: 人・物の価値や重要性を評価し、または金銭的価値を見積もる。  
-頻度: 〈8/10〉  
-違い: value は価値そのものに焦点があり、assess のようにリスク・深刻さ・影響・必要性の査定まで広く表さない。  
+定義: 物の金銭的価値を見積もり、評価額を定める。  
+頻度: 〈6/10〉  
+違い: この意味の value は金銭的価値に焦点があり、value something at 〈金額〉の形で評価額を示す。assess は損害額・費用・数量などの査定にも使う。「大切に思う」という value の別義とは区別する。  
 例: The painting was valued at $10,000 by an art expert.  
 訳: その絵画は美術の専門家によって1万ドルと評価された。  
 
@@ -269,12 +273,12 @@ assesses は /əˈsesɪz/、assessed は /əˈsest/、assessing は /əˈsesɪŋ
 例: The city assesses a tax on commercial property.  
 訳: その市は商業用不動産に税を課している。  
 
-・assess 〈member・customer〉 a fee  
+・assess each member a fee／assess each customer a fee  
 用途: 会員や顧客に料金・特別負担の額を決めて負担させる。  
 例: The club assessed each member a special fee to fund the repairs.  
 訳: そのクラブは修理費を賄うため、各会員に特別料金を課した。  
 
-・assess a fine on/against 〈person・organization〉  
+・assess a fine on/against a person／assess a fine on/against an organization  
 用途: 人や組織に罰金の額を決め、正式に科す。  
 例: The judge assessed a fine of $10,000 against the company for violating safety regulations.  
 訳: 裁判官は安全規制違反を理由に、その会社に1万ドルの罰金を科した。  
@@ -289,7 +293,7 @@ assesses は /əˈsesɪz/、assessed は /əˈsest/、assessing は /əˈsesɪŋ
 例: The team was assessed a 15-yard penalty for unsportsmanlike conduct.  
 訳: そのチームはスポーツマンシップに反する行為で、15ヤードのペナルティを科された。  
 
-・assess 〈person・organization〉 for 〈tax・unpaid tax〉  
+・assess a person for 〈tax・unpaid tax〉／assess an organization for 〈tax・unpaid tax〉  
 用途: 人や組織について、税額や未納税額を正式に査定する。  
 例: The tax authority assessed the company for back taxes.  
 訳: 税務当局はその会社について、未納分の税額を査定した。  
