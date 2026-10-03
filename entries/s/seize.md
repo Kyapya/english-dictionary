@@ -22,11 +22,11 @@ tags: []
 ＃語形成
 
 ・seizure（名詞）: 「押収、奪取」、また医療で「発作」。seizure of property「財産の差押え」と an epileptic seizure「てんかん発作」では対象・意味が異なる。  
-・seized（過去形・過去分詞）: seized goods「押収された品」のように名詞を修飾する。a seized engine では「部品が固着したエンジン」という結果状態を表す。独立した一般的な人物評価の形容詞ではない。  
+・seized（過去形・過去分詞）: seized goods「押収された品」のように名詞を修飾する。a seized engine は整備の文脈なら「部品が固着したエンジン」という結果状態を表すが、捜査の文脈では「押収されたエンジン」にもなる。独立した一般的な人物評価の形容詞ではない。  
 
 ＃コアイメージ
 
-人・物・機会・心などを強くとらえる、または動く部分が固くとらわれるというイメージ。語義12は制度的専門義で、神経学的な発作が起きるという医療上の語彙的意味は、この「とらえる・とらわれる」という核だけからは導けないため、個別に参照する。  
+人・物・機会・心などを強くとらえる、または固くまとまって動き・流れが妨げられるというイメージ。語義13は医療の専門義で、神経学的な発作が起きるという語彙的意味は、この核だけからは導けないため、個別に参照する。  
 
 ・手で対象を強くとらえること → 「ぐいとつかむ、つかみ取る」（語義1）  
 
@@ -44,11 +44,15 @@ tags: []
 
 ・使えそうな材料を即座にとらえること → 「飛びつく、すかさず取り上げる」（語義8）  
 
-・機械の動く部分が固くとらわれること → 「固着して動かなくなる」（語義9）  
+・機械の動く部分が固まって動きを失うこと → 「固着して動かなくなる」（語義9）  
 
-・体の動く部分が固くとらわれること → 「体の一部がこわばる」（語義10）  
+・体の動く部分が固まって動きを失うこと → 「体の一部がこわばる」（語義10）  
 
-・意味や要点を頭でとらえること → 「意味・要点を把握する」（語義11）  
+・チョコレートが固まって流れにくくなること → 「チョコレートがぼそぼそに固まる」（語義11）  
+
+・意味や要点を頭でとらえること → 「意味・要点を把握する」（語義12）  
+
+・案件を正式な取扱対象としてとらえる状態 → 「案件を審理・審議の対象としている」（語義14）  
 
 ＃意味・用法・関連表現
 
@@ -403,7 +407,7 @@ tags: []
 例: On seeing the empty stage, I was seized by an urge to sing.  
 訳: 誰もいない舞台を見て、急に歌いたい衝動に駆られた。  
 
-【語法・注意】Fear seized her. と She was seized by fear. は、感情が主語の能動形と、人が主語の受動形。She seized fear. では同じ意味にならない。by と with の両方が使われ、with は痛み・症状などにもよく結び付く。seize someone's imagination/attention「想像力・注意を強く引きつける」は語義7で扱い、この語義の「感情が人を襲う」と区別する。語義12の The patient is seizing. は医療上の自動詞であり、この受動構文とは別。  
+【語法・注意】Fear seized her. と She was seized by fear. は、感情が主語の能動形と、人が主語の受動形。She seized fear. では同じ意味にならない。by と with の両方が使われ、with は痛み・症状などにもよく結び付く。seize someone's imagination/attention「想像力・注意を強く引きつける」は語義7で扱い、この語義の「感情が人を襲う」と区別する。語義13の The patient is seizing. は医療上の自動詞であり、この受動構文とは別。  
 
 【類義語】
 
@@ -500,7 +504,7 @@ tags: []
 例: One careless remark was seized on by the media and repeated for days.  
 訳: 一つの不用意な発言がメディアに取り上げられ、何日も繰り返し報じられた。  
 
-【語法・注意】辞書では phrasal verb として掲載されることが多いが、on/upon の後ろに目的語を置く非分離型。seize on it は正しく、この意味の seize it on は誤り。受動形でも on/upon を残して The comment was seized on. とする。seize the opportunity「好機をつかむ」（語義2）と seize on the error「誤りに目を付けて利用する」は、直接目的語と前置詞目的語の違いを保つ。単に意味が理解できたという語義11の seize the meaning とも異なる。  
+【語法・注意】辞書では phrasal verb として掲載されることが多いが、on/upon の後ろに目的語を置く非分離型。seize on it は正しく、この意味の seize it on は誤り。受動形でも on/upon を残して The comment was seized on. とする。seize the opportunity「好機をつかむ」（語義2）と seize on the error「誤りに目を付けて利用する」は、直接目的語と前置詞目的語の違いを保つ。単に意味が理解できたという語義12の seize the meaning とも異なる。  
 
 【類義語】
 
@@ -557,7 +561,7 @@ tags: []
 例: When lenders lost confidence, the credit market seized up.  
 訳: 貸し手の間で不安が広がると、信用市場の資金の流れが止まった。  
 
-【語法・注意】The engine seized. は自動詞で、誰かがエンジンを押収したという意味ではない。The engine was seized. は文脈により「固着していた」という状態にも「押収された」という受動にもなる。a seized engine は固着したエンジン、an engine seized by the police は押収されたエンジンという読みが明確。機械の用法をすべて「焼き付く」と訳すと、熱以外の原因を取りこぼすので、原因不明なら「固着する、動かなくなる」が安全。seize up はここでは目的語を取らない。become/get seized のように機械の結果状態を表す形もあるが、通常は動作なら seize、状態なら be seized が簡潔。  
+【語法・注意】The engine seized. は自動詞で、誰かがエンジンを押収したという意味ではない。The engine was seized. は文脈により「固着していた」という状態にも「押収された」という受動にもなる。a seized engine は整備の文脈では通常「固着したエンジン」だが、捜査の文脈なら「押収されたエンジン」にもなる。名詞の前か後ろかだけで意味は決まらず、an engine seized by the police のように行為者を示すと押収の読みが明確になる。機械の用法をすべて「焼き付く」と訳すと、熱以外の原因を取りこぼすので、原因不明なら「固着する、動かなくなる」が安全。seize up はここでは目的語を取らない。become/get seized のように機械の結果状態を表す形もあるが、通常は動作なら seize、状態なら be seized が簡潔。  
 
 【類義語】
 
@@ -597,7 +601,7 @@ tags: []
 例: After sitting still for hours, I felt my leg muscles starting to seize up.  
 訳: 何時間もじっと座っていた後、脚の筋肉がこわばり始めるのを感じた。  
 
-【語法・注意】通常、動かしにくくなる体の部分を主語にする。My back seized up. は「背中がこわばった」、I was seized with back pain. は「背中の痛みに襲われた」（語義6）で、前者は動きにくさ、後者は痛みの発生が中心。医療文脈の He is seizing.「彼は発作を起こしている」（語義12）と混同しない。筋肉のこわばりの説明から、てんかんなどの診断を意味することはできない。  
+【語法・注意】通常、動かしにくくなる体の部分を主語にする。My back seized up. は「背中がこわばった」、I was seized with back pain. は「背中の痛みに襲われた」（語義6）で、前者は動きにくさ、後者は痛みの発生が中心。医療文脈の He is seizing.「彼は発作を起こしている」（語義13）と混同しない。筋肉のこわばりの説明から、てんかんなどの診断を意味することはできない。  
 
 【類義語】
 
@@ -615,7 +619,36 @@ tags: []
 例: My calf cramped up near the end of the swim.  
 訳: 泳ぎ終わるころに、ふくらはぎがつった。  
 
-11. 【動詞・他動詞】意味・要点を把握する
+11. 【動詞・自動詞／句動詞・自動詞／過去分詞の形容詞用法】チョコレートがぼそぼそに固まる
+
+【日本語訳・定義】溶かしたチョコレートがなめらかさを失って粘度が増し、粒や塊のある状態になる。少量の水分が混ざることや、加熱しすぎることなどで起こる、製菓での用法。seized chocolate はそのような状態になったチョコレートを指す。  
+
+【頻度】〈3/10〉  
+
+【レジスター/領域】料理・製菓。特にチョコレートを溶かす作業の説明。  
+
+【文法パターン】chocolate + seize＝チョコレートがぼそぼそに固まる／chocolate + seize up＝同じ変化を up 付きで表す／seized chocolate＝なめらかさを失って固まったチョコレート  
+
+【コロケーション】
+
+・chocolate + seize  
+用途: 溶かしたチョコレートに粒や塊が生じることを述べる。  
+例: The melted chocolate seized when a splash of water got into the bowl.  
+訳: ボウルに少量の水が入り、溶かしたチョコレートがぼそぼそに固まった。  
+
+・chocolate + seize up  
+用途: 製菓の手順や失敗の説明で、up 付きの形を使う。  
+例: Be careful with the steam, or the chocolate may seize up and turn grainy.  
+訳: 蒸気に気を付けないと、チョコレートが固まってざらざらになることがある。  
+
+・seized chocolate  
+用途: 結果状態を名詞の前の seized で表す。  
+例: The seized chocolate was thick and lumpy, with none of its earlier smoothness.  
+訳: 固まったチョコレートは重たい塊状で、先ほどまでのなめらかさがなくなっていた。  
+
+【語法・注意】動詞の seize/seize up はチョコレートを主語とする自動詞で、機械が固着する語義9とは対象・結果状態が異なる。冷えて普通に固まること全般ではなく、粒や塊ができてなめらかさを失う変化を表す。水分の量や配合が重要で、水が入れば量にかかわらず必ず起こるわけではない。適切な量の水分を加えてなめらかなソースなどにする場合もある。単なる冷却による硬化は harden や set で表せるが、この料理義と同じではない。  
+
+12. 【動詞・他動詞】意味・要点を把握する
 
 【日本語訳・定義】意味、意図、要点などを、頭で的確につかむ。現代の一般的な会話では grasp や understand のほうが普通で、seize は文章で出会う用法として知っておくとよい。  
 
@@ -637,7 +670,7 @@ tags: []
 例: He seized the point of the argument without needing a second explanation.  
 訳: 彼は二度説明してもらうことなく、その議論の要点をつかんだ。  
 
-【語法・注意】seize an idea はこの「考えを理解する」にもなり得るが、seize on an idea は通常、利用できる案に「飛びつく」（語義8）。理解と採用を同じにしない。さらに硬い表現 be seized of an issue は「問題を認識している・扱っている」で、seize an issue の普通の受動形ではない。国際機関の remain seized of the matter は「引き続きその案件を審議対象として扱う」という定型表現。古い土地法の be seised/seized of land「土地を法的に占有している」とは文脈を分ける。  
+【語法・注意】seize an idea はこの「考えを理解する」にもなり得るが、seize on an idea は通常、利用できる案に「飛びつく」（語義8）。理解と採用を同じにしない。裁判所・国際機関を主語とする be/remain seized of a matter は、単に「意味を理解する」ことではなく、案件を取扱対象としている状態を表す（語義14）。  
 
 【類義語】
 
@@ -655,7 +688,7 @@ tags: []
 例: I understand your concern, but the figures have been checked.  
 訳: ご心配はわかりますが、数値は確認済みです。  
 
-12. 【動詞・自動詞】発作を起こす
+13. 【動詞・自動詞】発作を起こす
 
 【日本語訳・定義】医療文脈で、人や動物が神経学的な seizure「発作」を起こす。一般的な「物をつかむ」でも、単に筋肉がこわばることでもない。  
 
@@ -682,3 +715,36 @@ tags: []
 違い: 同じ出来事を表す、一般の人にも意味が伝わりやすい表現。単独の seize より誤解されにくい。  
 例: He had a seizure while waiting for the test.  
 訳: 検査を待っている間に、彼は発作を起こした。  
+
+14. 【成句・be/remain seized/seised of】案件を審理・審議の対象としている
+
+【日本語訳・定義】裁判所に事件が提起され、その裁判所の取扱対象になっていること。また、国際機関・委員会などが案件を正式な審議・検討対象としていること。remain はその取扱いを継続することを表す。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】法律、裁判手続き、国際機関の決議など。硬い専門表現で、法律文書では seised の綴りも使う。  
+
+【文法パターン】the 〈court/tribunal〉 + be seized/seised of 〈a case/a dispute〉＝裁判所・裁判体に事件・紛争が係属している／the 〈council/committee〉 + remain seized/seised of the matter＝理事会・委員会などが引き続きその案件を扱う  
+
+【コロケーション】
+
+・be seized/seised of a dispute  
+用途: 裁判所に紛争が持ち込まれ、取扱対象となっていることを示す。  
+例: The court is seised of the dispute, but it has yet to decide whether it has jurisdiction.  
+訳: その紛争は裁判所に係属しているが、裁判所は自らに管轄権があるかをまだ判断していない。  
+
+・remain seized of the matter  
+用途: 国際機関などが案件を引き続き審議・検討対象とすることを述べる。  
+例: The Security Council decided to remain seized of the matter.  
+訳: 安全保障理事会は、その案件を引き続き審議対象とすることを決定した。  
+
+【語法・注意】主語は案件を扱う裁判所・機関で、of の後ろが案件。案件の意味を理解するという語義12や、物品を押収する語義4とは異なる。裁判所が seised となる時点や要件は制度によって異なり、この語だけで管轄権が確定したことや、本案の判断が済んだことを意味しない。一般の硬い文体で be seized of the importance of something が「～の重要性を認識している」を表す場合とも区別する。古い土地法の be seised/seized of land「土地を法的に占有している」も、この案件処理の用法とは別。  
+
+【類義語】
+
+・be before  
+定義: 案件が裁判所・機関の審理や検討の対象となっている。  
+頻度: 〈3/10〉  
+違い: seised は裁判所・機関を主語にするが、be before は案件を主語にし、before の後ろにそれを扱う裁判所・機関を置く。  
+例: The appeal is still before the court.  
+訳: その上訴は、まだ裁判所に係属している。  
