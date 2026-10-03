@@ -23,7 +23,7 @@ tags: []
 
 ・extend（動詞）: 「伸ばす、延長する、及ぶ」。extent と同じ語源系列だが、extent に語尾を付けた形ではない。名詞の extent と動詞の extend を綴りでも区別する。  
 ・extension（名詞）: 「延長、拡張、延長部分」など。広がりの程度を測る extent に対し、延ばすことや延ばした部分を表す。  
-・extensive（形容詞）: 「広範囲に及ぶ、大規模な」。extensive damage「広範囲の被害」は形容詞＋名詞、the extent of the damage「被害の程度」は名詞句。  
+・extensive（形容詞）: 「広範囲に及ぶ、大規模な」。extensive damage「広範囲の被害」では形容詞 extensive が damage を修飾し、the extent of the damage「被害の程度」では名詞 extent が句の中心になる。  
 
 ＃コアイメージ
 
@@ -45,7 +45,7 @@ tags: []
 
 【レジスター/領域】中立からやや改まった表現。説明、議論、報道、研究で広く使う。to some extent は会話でも普通。  
 
-【文法パターン】the extent of 〈状態/被害/変化〉＝何かの程度・規模／to some extent / to an extent / to a certain extent＝ある程度は／to a great extent / to a large extent＝大いに・かなりの程度まで／to a lesser extent / to a greater extent＝より小さい・大きい程度で／to the same extent as 〈比較対象〉＝～と同じ程度に／to what extent + 〈疑問文〉＝どの程度～か／the extent to which + 〈平叙文〉＝～する程度／to such an extent that + 〈結果の節〉＝～するほどまでに／to the extent that + 〈節〉＝～する限り・程度に応じて、または～するほどに／to the extent of 〈動名詞句〉＝～するほどに／to the extent possible＝可能な限り。  
+【文法パターン】the extent of 〈状態/被害/変化〉＝何かの程度・規模／to some extent / to an extent / to a certain extent＝ある程度は／to a great extent / to a large extent＝大いに・かなりの程度まで／to a lesser extent / to a greater extent＝より小さい・大きい程度で／to the same extent as 〈比較対象〉＝～と同じ程度に／to what extent + 〈疑問文の語順の節〉＝どの程度～かと直接問う／know to what extent + 〈平叙文の語順の節〉＝どの程度～かを知る〈間接疑問〉／the extent to which + 〈平叙文〉＝～する程度／to such an extent that + 〈結果の節〉＝～するほどまでに／to the extent that + 〈節〉＝～する限り・程度に応じて、または～するほどに／to the extent of 〈動名詞句〉＝～するほどに／to the extent possible＝可能な限り。  
 
 【コロケーション】
 
@@ -55,12 +55,12 @@ tags: []
 訳: 技術者たちが橋の損傷の程度を調べている。  
 
 ・to some extent  
-用途: 判断を部分的に認め、全面的な肯定を避ける。  
+用途: 動作・状態・判断などが、ある程度まで成り立つことを述べる。  
 例: To some extent, I agree with your criticism.  
 訳: あなたの批判には、ある程度は同意します。  
 
 ・to a great extent  
-用途: 結果や状態に大きく関わっていることを述べる。  
+用途: 動作・状態・判断などが、かなりの程度まで成り立つことを述べる。  
 例: The success of the project depends to a great extent on clear communication.  
 訳: このプロジェクトが成功するかどうかは、意思疎通が明確にできるかに大きく左右される。  
 
@@ -74,10 +74,15 @@ tags: []
 例: The price increase did not affect every household to the same extent as ours.  
 訳: どの世帯も、私たちの世帯と同じくらい値上げの影響を受けたわけではない。  
 
-・to what extent  
-用途: 成立や影響の程度を問う。  
+・to what extent 〈疑問文の語順の節〉  
+用途: 成立や影響の程度を直接問う。  
 例: To what extent can these results be applied to other age groups?  
 訳: これらの結果は、別の年齢層にどこまで当てはめられるのでしょうか。  
+
+・know to what extent 〈平叙文の語順の節〉  
+用途: 「どの程度～か」を間接疑問として文に組み込む。  
+例: We do not know to what extent the new rules will affect small businesses.  
+訳: 新しい規則が小規模事業者にどの程度影響するかは、分かっていません。  
 
 ・the extent to which 〈平叙文〉  
 用途: 「どの程度～するか」を名詞句にして、調べる対象などにする。  
@@ -104,7 +109,7 @@ tags: []
 例: We will keep the original materials to the extent possible.  
 訳: 可能な限り、元の材料を残します。  
 
-【語法・注意】通常は the extent of、to an extent のように単数形で使う。to some extent は some があるため a を入れず、to a certain extent では a が必要。「ある程度」を in some extent とせず to some extent とする。the extent to which の to は「その程度まで」に対応し、the extent in which としない。the extent to which costs have risen「費用が上昇した程度」の内部は平叙文の語順。一方、直接疑問の To what extent have costs risen? では have が主語の前に出る。to such an extent that は結果を明示し、to the extent that は「～する限り」という限定にも「～するほど」という結果にもなるため、that だけで意味を決めない。to a large extent は「大部分は」に近いことがあるが、必ず全体を表すわけではない。複数の対象で程度が異なる場合は to varying extents「さまざまな程度で」のような複数形も使える。  
+【語法・注意】通常は the extent of、to an extent のように単数形で使う。to some extent は some があるため a を入れず、to a certain extent では a が必要。「ある程度」を in some extent とせず to some extent とする。the extent to which の to は「その程度まで」に対応し、the extent in which としない。the extent to which costs have risen「費用が上昇した程度」の内部は平叙文の語順。直接疑問の To what extent have costs risen? では have が主語の前に出るが、We do not know to what extent costs have risen. のような間接疑問では costs have risen と平叙文の語順にする。to such an extent that は結果を明示し、to the extent that は「～する限り」という限定にも「～するほど」という結果にもなるため、that だけで意味を決めない。to a large extent は「大部分は」に近いことがあるが、必ず全体を表すわけではない。複数の対象で程度が異なる場合は to varying extents「さまざまな程度で」のような複数形も使える。  
 
 【類義語】
 
@@ -118,7 +123,7 @@ tags: []
 ・magnitude  
 定義: 物事の大きさや重大さ。  
 頻度: 〈6/10〉  
-違い: 改まった語で、規模の大きさを強く意識させやすい。extent のように to some extent という部分的な同意の句には使わない。  
+違い: 改まった語で、規模の大きさを強く意識させやすい。to some extent「ある程度」のように、成立する度合いを示す定型句には使わない。  
 例: We underestimated the magnitude of the problem.  
 訳: 私たちは問題の大きさを過小評価していた。  
 
@@ -244,7 +249,7 @@ tags: []
 頻度: 〈5/10〉  
 違い: 広々とした見た目を描写しやすい。extent は狭い範囲にも使え、測定や限界にも焦点を置ける。  
 例: We looked out over an expanse of blue water.  
-訳: 私たちは、見渡す限り広がる青い水面を眺めた。  
+訳: 私たちは、広々とした青い水面を眺めた。  
 
 ・stretch  
 定義: ある方向に続く、ひと区切りの土地・水面・道など。  
