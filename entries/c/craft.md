@@ -1,0 +1,638 @@
+---
+headword: craft
+type: word
+status: checked
+prompt_version: entry_spec_v5
+model: gpt-6-astra ultra
+created_at: 2026-10-03
+updated_at: 2026-10-03
+checked: true
+tags: []
+---
+
+＃発音記号
+
+米: /kræft/｜英: /krɑːft/  
+
+・1音節で、名詞・動詞・形容詞とも同じ発音。示した米英差は第1音節の母音で、米は /æ/、英は /ɑː/。英の表記は代表的な標準発音で、イングランド北部などでは /æ/ に近い母音を使う話者もいる。  
+
+・語頭 /kr/、語末 /ft/ の間に余分な母音を挟まない。crafts は米 /kræfts/・英 /krɑːfts/ で1音節。crafted は米 /ˈkræf.tɪd/・英 /ˈkrɑːf.tɪd/ で2音節となり、米英差は第1音節の母音だけで、第2音節 /tɪd/ は同じである。  
+
+＃語源
+
+古英語 cræft「力、能力、技能」に由来するゲルマン語系の語。古くから物理的な力だけでなく、技能や技を要する仕事を表した。ドイツ語 Kraft、オランダ語 kracht「力」は同系語である。英語の crafty「ずる賢い」、craftsman「職人」もこの語の系統に属する。  
+
+「船」の用法は歴史的に small craft などの表現で発達したが、技能・仕事の意味からどのように移ったかは確定していない。船を扱う技量や船の仕事に関係するという説明があり、現代語では「技能」から推測せず、別の意味として覚える。  
+
+＃語形成
+
+・craftsman／craftswoman／craftsperson：技能を持つ職人。craftsperson は性別を限定しない形で、複数は craftspeople。craftsman の複数は craftsmen。  
+
+・craftsmanship：不可算名詞で「職人の技能、優れた作り」。製品や作品に表れた技量を評価するときにも使う。  
+
+・crafter：手工芸・工作をする人。専門の職人に限らず、趣味で作る人にも使う。  
+
+・crafting：現在分詞・動名詞。「制作すること」、趣味の「手芸・工作」、ゲーム内の「アイテム製作」に使う。趣味の活動として目的語なしで使う動詞用法は語義7を参照。  
+
+・crafty／craftiness：形容詞「ずる賢い、巧みに立ち回る」と、その名詞「ずる賢さ」。crafty は手芸好き・手作り上手というくだけた用法もあるが、単に「腕のよい職人」をほめるなら skilled などが明確である。  
+
+・handcraft／handicraft：前者は「手作りする」という動詞など、後者は「手工芸、手工芸品」という名詞として使う。handcrafted は「手作りの」。  
+
+・aircraft／spacecraft／watercraft／hovercraft：それぞれ「航空機」「宇宙船」「船舶・水上の乗り物」「ホバークラフト」。乗り物を表す craft の系統で、標準的な複数形はそれぞれ単数形と同じ。  
+
+・stagecraft／statecraft／witchcraft：それぞれ「舞台制作・演出の技術」「国家統治の術」「魔術」。後半の -craft は技能・技法・営みに関係するが、複合語全体の慣用的な意味も確認する。  
+
+＃コアイメージ
+
+経験や工夫を生かし、何かを巧みに作る・行う技が中心にある。技そのもの、技を使う仕事・行為、その産物へとつながり、駆け引きに用いる技にもなる。語義5は歴史的残存義で、現在の「乗り物」という語彙的意味はこの核から自然に導けないため、個別に参照する。  
+
+・技を要する手仕事という活動 → 「手工芸、手芸、職人仕事」（語義1）  
+・技を要する仕事での熟練 → 「技能、技巧、職人技」（語義2）  
+・技を生かして行う制作 → 「巧みに作る、練り上げる」（語義3）  
+・技を生かして作った品物 → 「手工芸品、手作りの作品」（語義4）  
+・技を重視する小規模な生産 → 「職人の手法で作る、クラフトの」（語義6）  
+・技を使う手作りの活動 → 「手芸・工作をする」（語義7）  
+・技を人の欺きに用いる駆け引き → 「策略、ずる賢さ」（語義8）  
+
+＃意味・用法・関連表現
+
+1. 【名詞・可算／不可算】手工芸、手芸、職人仕事
+
+【日本語訳・定義】主に手や道具を使って物を作る、技能を要する活動・仕事を表す。織物、陶芸、木工などの職業的な技術にも、趣味の手芸や子どもの工作にも使う。個々の種類なら a craft／crafts、活動分野全体なら不可算の craft を使える。作品そのものを指す語義4とは区別する。  
+
+【頻度】〈7/10〉  
+
+【レジスター/領域】一般語。趣味、教育、伝統工芸、職業技能。  
+
+【文法パターン】a craft／traditional crafts＝一つの手工芸・複数の工芸分野／the craft of 〈活動を表す名詞・動名詞〉＝～という工芸・仕事／learn/practise a craft＝手工芸の一分野を学ぶ・実践する／do crafts＝手芸・工作をする／arts and crafts＝美術工芸、手芸・工作／craft 〈activities/supplies/workshops〉＝名詞を前から修飾し、工作活動・手芸用品・工芸講習会などを表す。  
+
+【コロケーション・構文例】
+
+・learn a craft  
+用途: 技能を要する手仕事の一分野を習得することを述べる。  
+例: He decided to learn a craft and enrolled in a pottery course.  
+訳: 彼は手工芸を一つ学ぼうと決め、陶芸教室に入った。  
+
+・traditional crafts  
+用途: 地域や世代に受け継がれた工芸の種類をまとめて述べる。  
+例: The center teaches traditional crafts such as basket weaving and wood carving.  
+訳: その施設では、かご編みや木彫りなどの伝統工芸を教えている。  
+
+・the craft of 〈pottery/bookbinding〉  
+用途: 特定の手仕事を技能のある専門的な活動として示す。  
+例: The workshop introduces visitors to the craft of bookbinding.  
+訳: その講習会では、来場者に製本の技を紹介する。  
+
+・do crafts  
+用途: 趣味や教育の場で手芸・工作をすることを述べる。  
+例: We do crafts at the kitchen table on rainy weekends.  
+訳: 雨の週末には、台所のテーブルで工作をする。  
+
+・arts and crafts  
+用途: 美術的な制作と手芸・工作をまとめて呼ぶ。  
+例: The summer program includes music, games, and arts and crafts.  
+訳: その夏のプログラムには、音楽、ゲーム、手芸・工作が含まれている。  
+
+・craft supplies  
+用途: 手芸・工作用の道具や材料を指す。  
+例: Please put the scissors and other craft supplies back in the box.  
+訳: はさみやほかの工作用品を箱に戻してください。  
+
+【語法・注意】この語義の複数形は crafts。Pottery is a craft.「陶芸は手工芸の一つだ」、We teach craft.「工芸を教える」のように可算・不可算を使い分ける。学校や地域によって art and craft と arts and crafts のどちらも見られる。  
+
+活動には do crafts、成果物には make crafts が使える。She enjoys doing crafts. は「手芸・工作が好き」で語義1、She sells her crafts online. は「手作りの作品を売る」で語義4。作る対象を一つ示すなら make a paper flower のように作品名を言うと明確である。  
+
+craft supplies の craft は、工芸分野を示す名詞の前置修飾である。語義6の craft beer「職人の手法による小規模生産のビール」とは意味の組み合わせが違い、「工作用のビール」という意味ではない。  
+
+craft は紙工作だけでなく、織物・陶芸・金工なども含む。craft と art の境界は重なるため、「craft は実用品だけ」「art は実用性がないものだけ」と一律に分けない。  
+
+【類義語】
+
+・handicraft  
+定義: 手の技能を使って物を作る活動・工芸。  
+頻度: 〈5/10〉  
+違い: 手作業を特に明示する。craft は職人技能のほか、文筆・演技などの仕事にも広がるため、意味範囲が広い。  
+例: The school offers lessons in traditional handicrafts.  
+訳: その学校では伝統的な手工芸を教えている。  
+
+・trade  
+定義: 習得した技能によって行う職業、特に熟練を要する手仕事。  
+頻度: 〈7/10〉  
+違い: 生計を立てる職業としての側面を重視する。craft は趣味や子どもの工作にも使える。  
+例: She learned a trade before starting her own business.  
+訳: 彼女は独立する前に手に職をつけた。  
+
+・art  
+定義: 技能を要する創作・表現の分野や技法。  
+頻度: 〈8/10〉  
+違い: 創造性・表現・美的な価値に焦点を置きやすい。この限定した意味で craft と重なり、両者を完全に排他的な分類とはできない。  
+例: The exhibition explores the art of glassmaking.  
+訳: その展覧会では、ガラス制作の芸術を取り上げている。  
+
+2. 【名詞・不可算／可算】技能、技巧、職人技
+
+【日本語訳・定義】特定の仕事や表現を巧みに行うための、経験に裏打ちされた技量・技術を表す。手仕事だけでなく、文章、演技、音楽、料理などにも使う。単なる生まれつきの才能より、身に付けて磨く技という見方が中心である。one's craft では、その人の専門的な仕事と必要な技能をひとまとまりに指す。技能を要する活動・仕事そのものを a craft と数える用法もあり、手工芸に限らない。  
+
+【頻度】〈7/10〉  
+
+【レジスター/領域】一般語。職業・創作・技能の評価に多い。  
+
+【文法パターン】〈技能を要する活動〉 + be a craft＝その活動を技能的な仕事と捉える／one's craft＝自分の専門の技／the craft of 〈活動〉＝～に必要な技巧／hone/master one's craft＝技を磨く・極める／a master of one's craft＝その道の熟練者／literary craft＝文芸上の技巧／with great craft＝高度な技巧をもって。  
+
+【コロケーション・構文例】
+
+・〈技能を要する活動〉 + be a craft  
+用途: 手工芸に限らず、習得する技を要する活動・仕事として捉える。  
+例: Writing is a craft that takes years to master.  
+訳: 文章を書くことは、習得に何年もかかる技を要する仕事である。  
+
+・hone one's craft  
+用途: すでにある技量を練習や経験でさらに磨く。  
+例: The comedian spent years honing her craft in small clubs.  
+訳: そのコメディアンは、小さなクラブで何年も芸を磨いた。  
+
+・master one's craft  
+用途: 専門的な仕事の技を十分に身に付ける。  
+例: Even after decades of practice, he felt he had not fully mastered his craft.  
+訳: 何十年も修練を積んだ後でも、彼は自分の技を完全には極めていないと感じていた。  
+
+・a master of one's craft  
+用途: その道で卓越した技量を持つ人を評価する。  
+例: The violin maker is widely regarded as a master of her craft.  
+訳: そのバイオリン製作者は、広く名人と認められている。  
+
+・the craft of storytelling  
+用途: 物語を効果的に組み立てて伝える技術を述べる。  
+例: The course focuses on the craft of storytelling rather than on publishing contracts.  
+訳: その講座は、出版契約よりも物語を語る技術に重点を置いている。  
+
+・literary craft  
+用途: 文学作品の構成・言葉遣いなどに表れる技巧を指す。  
+例: The novel combines emotional honesty with impressive literary craft.  
+訳: その小説は、率直な感情表現と見事な文学的技巧を兼ね備えている。  
+
+【語法・注意】技能一般としての craft は不可算で、great craft／considerable craft とする。一方、Writing is a craft. のように活動・仕事を一つの技能的分野と捉える場合は可算であり、a craft が常に手工芸だけを指すわけではない。one's craft や the writer's craft は、特定の専門技能・仕事のまとまりを単数形で示す定着した使い方であり、「いくつの技能があるか」を数えているわけではない。  
+
+a craft「一つの工芸分野」は語義1、craft「その仕事を巧みに行う技」はこの語義。He learned the craft of weaving. では活動分野と技能が重なり得るが、The poem shows great craft. では作品に表れた技巧を評価している。  
+
+この語義だけなら人を欺く意味はない。a politician's craft も政治的な手腕を指す場合があり、文脈を見ずに「悪だくみ」と決めない。意図を隠して相手を操る語義8では、欺き・ずるさの文脈が中心となる。  
+
+【類義語】
+
+・skill  
+定義: 経験や訓練によって物事をうまく行う能力。  
+頻度: 〈9/10〉  
+違い: 対象が非常に広く、個々の能力を skills と数えることも普通。craft は一つの仕事・制作分野を支える熟練のまとまりを感じさせる。  
+例: This repair requires considerable skill.  
+訳: この修理にはかなりの技能が必要だ。  
+
+・craftsmanship  
+定義: 職人が制作で示す技量、または製品に表れた優れた作り。  
+頻度: 〈6/10〉  
+違い: 物を作る技と仕上がりへの評価が特に強い。craft は文筆・演技などの実践全体にも広く使う。  
+例: We admired the craftsmanship of the carved wooden panels.  
+訳: 私たちは、彫刻を施した木製パネルの見事な作りに感心した。  
+
+・technique  
+定義: 特定の活動を行うための方法・技術。  
+頻度: 〈8/10〉  
+違い: 具体的なやり方や手順に焦点を置きやすい。craft は方法を使いこなす全体的な熟練を表す。  
+例: The teacher helped her improve her bowing technique.  
+訳: 先生は、彼女が弓の使い方を上達させるのを手伝った。  
+
+・expertise  
+定義: 特定分野についての高度な知識と技能。  
+頻度: 〈7/10〉  
+違い: 専門知識を強く含み、法律・科学・経営などにも広い。craft は実際に作る・演じる・行う技の側面を感じさせやすい。  
+例: We need someone with expertise in sound recording.  
+訳: 録音に関する専門知識と技能を持つ人が必要だ。  
+
+【反意語】
+
+・ineptitude  
+定義: ある仕事をうまく行う能力が欠けていること。  
+頻度: 〈4/10〉  
+違い: 熟練と未熟・無能という能力上の対立。craft の「工芸分野」「船」などに対する反意語ではない。  
+例: The repeated errors exposed the team's technical ineptitude.  
+訳: 度重なるミスによって、そのチームの技術的な未熟さが露呈した。  
+
+・clumsiness  
+定義: 手や体の扱い、作業の進め方が不器用であること。  
+頻度: 〈5/10〉  
+違い: 巧みさに対する不器用さという程度上の対立。craft が示す専門知識の全体ではなく、実行のぎこちなさに焦点がある。  
+例: His clumsiness with the tools made delicate work difficult.  
+訳: 彼は道具の扱いが不器用で、繊細な作業は難しかった。  
+
+3. 【動詞・他動詞】巧みに作る、練り上げる
+
+【日本語訳・定義】技能や工夫を用い、細部に気を配って物・文章・計画などを作り上げる。手作りの品だけでなく、演説、政策、物語、妥協案などにも使う。注意深い制作という見方を示すが、出来上がった物が必ず優秀・誠実であるとは限らない。ゲームでは、素材を組み合わせてアイテムを製作する操作にも使う。  
+
+【頻度】〈7/10〉  
+
+【レジスター/領域】一般語。工芸・創作・広告・ビジネス・ゲーム。単なる make より、工夫や作り込みに焦点がある。  
+
+【文法パターン】craft 〈品物・文章・計画〉＝～を作り上げる／craft something from/out of 〈素材〉＝素材から物を作る／craft 〈素材〉 into 〈完成品〉＝素材を～に作り変える／craft something for someone＝人のために作る／be crafted from 〈素材〉＝素材から作られる／be crafted by 〈作り手〉＝～によって作られる／be crafted to 〈動詞の原形〉＝～するよう意図して作られる／a carefully crafted 〈作品〉＝注意深く作られた作品。普通の他動詞で、目的語は動詞の後ろに置く。  
+
+【コロケーション・構文例】
+
+・craft a 〈plan/strategy/compromise〉  
+用途: 複数の条件を考慮し、計画・戦略・妥協案を練り上げる。  
+例: The two teams worked together to craft a compromise that both could accept.  
+訳: 二つのチームは、双方が受け入れられる妥協案を共同で練り上げた。  
+
+・craft a 〈speech/message/response〉  
+用途: 言葉や構成を慎重に選び、文章・発言を作る。  
+例: She spent the morning crafting a clear response to the complaint.  
+訳: 彼女は午前中をかけて、その苦情への分かりやすい返答を練り上げた。  
+
+・craft something from 〈素材〉  
+用途: 原料・材料を示して物の制作を述べる。  
+例: The artisan crafted a small bowl from a single piece of walnut.  
+訳: 職人は、クルミ材の一つの塊から小さな器を作り上げた。  
+
+・craft something out of 〈素材〉  
+用途: 手元の素材を使って形を作ることを述べる。  
+例: The children crafted tiny houses out of cardboard and paper.  
+訳: 子どもたちは、厚紙と紙で小さな家を作った。  
+
+・craft 〈素材〉 into 〈完成品〉  
+用途: 素材が別の形へ加工されることに焦点を置く。  
+例: She crafted the scrap wood into a set of toy animals.  
+訳: 彼女は端材を加工して、動物のおもちゃ一式を作った。  
+
+・craft something for someone  
+用途: 作った物を誰に向けたものとして制作するかを示す。  
+例: He crafted a wooden box for his sister.  
+訳: 彼は妹のために木箱を作った。  
+
+・be crafted by hand  
+用途: 手作業で制作されたことを明示する。  
+例: Each pendant is crafted by hand in a small workshop.  
+訳: それぞれのペンダントは、小さな工房で手作りされている。  
+
+・a carefully crafted 〈speech/story/agreement〉  
+用途: 作り込みのある文章・作品・合意文書を形容する。  
+例: A carefully crafted story can make a complex idea easier to understand.  
+訳: 丁寧に組み立てられた物語は、複雑な考えを理解しやすくすることがある。  
+
+・be crafted to 〈動詞の原形〉  
+用途: 制作に込められた意図・効果を示す。  
+例: The announcement was crafted to reassure customers without making unrealistic promises.  
+訳: その発表文は、非現実的な約束をせずに顧客を安心させるよう、慎重に作られた。  
+
+・craft 〈tools/weapons〉 from 〈素材〉  
+用途: ゲーム内で、素材から道具や装備を製作することを述べる。  
+例: In this game, players can craft tools from materials they collect.  
+訳: このゲームでは、プレイヤーは集めた素材から道具を作ることができる。  
+
+【語法・注意】規則変化で craft–crafted–crafted。名詞 crafts「工芸・工芸品」と、She crafts jewelry. の動詞 crafts「制作する」を区別する。She crafts jewelry. は制作物を目的語に取り、She does crafts. は do の目的語が活動名の crafts である。  
+
+craft a bowl from wood は「木から器を作る」、craft wood into a bowl は「木を器に作り変える」。from/out of の後ろは素材、into の後ろは完成した形であり、同じ順序のまま前置詞だけを入れ替えない。代名詞は craft it from wood のように直接目的語の位置へ置く。  
+
+受動態の be crafted と、名詞を修飾する crafted は、作られたという関係を保つ。The cabinet was crafted by a local carpenter. は作り手を伴う受動文。a well-crafted cabinet／The cabinet is well crafted. は作りのよさを評価する表現で、限定用法の well-crafted には通常ハイフンを付ける。carefully は -ly 副詞なので、a carefully crafted cabinet では通常ハイフンを使わない。  
+
+craft だけで「全工程を手作業で行った」とまでは断定しない。手作りを明示するなら craft by hand／handcraft を使う。また、a badly crafted argument「組み立ての悪い議論」も可能で、craft という動詞だけで完成品の高品質が保証されるわけではない。  
+
+ゲームの craft は製作操作を指すため、プレイヤーの高度な職人技を意味しない。現実の趣味で作る物を特定せず「手芸・工作をする」と言う用法は語義7に分ける。一般的な craft に、必須の再帰代名詞や分離可能な小辞はない。  
+
+【類義語】
+
+・make  
+定義: 物・作品・計画などを作る。  
+頻度: 〈10/10〉  
+違い: 最も広く中立的で、技能や細部への配慮は含意しない。craft は工夫して作り込むことを前面に出す。  
+例: We made a simple shelter from branches.  
+訳: 私たちは枝で簡単な避難小屋を作った。  
+
+・fashion  
+定義: 素材を工夫して一定の形に作り上げる。  
+頻度: 〈5/10〉  
+違い: 物の形を生み出すことに焦点を置く、やや文語的な動詞。craft は文章や戦略の練り上げにも広い。  
+例: She fashioned a handle from a bent strip of metal.  
+訳: 彼女は曲げた金属片から取っ手を作った。  
+
+・construct  
+定義: 部分を組み合わせ、構造のある物や考えを作る。  
+頻度: 〈8/10〉  
+違い: 組み立てや構造を強調し、建物・モデル・議論などに使う。craft は作り手の工夫や細部の仕上げを感じさせる。  
+例: The students constructed a model bridge from wooden sticks.  
+訳: 学生たちは木の棒で橋の模型を組み立てた。  
+
+・compose  
+定義: 文章・音楽などの作品を作る。  
+頻度: 〈7/10〉  
+違い: 言語・音楽の創作に重点があり、通常、木箱や道具の制作には使わない。craft は物理的な制作にも使える。  
+例: She composed a short melody for the ceremony.  
+訳: 彼女は式典のために短い旋律を作曲した。  
+
+・formulate  
+定義: 考え・方針・計画などを明確な形にまとめる。  
+頻度: 〈6/10〉  
+違い: 抽象的な内容の詳細を検討し、体系立ててまとめることに焦点がある。craft は実物の制作や言葉の細かな表現にも使える。  
+例: The committee formulated a new policy on remote work.  
+訳: 委員会は、在宅勤務に関する新しい方針を策定した。  
+
+4. 【名詞・主に複数形 crafts】手工芸品、手作りの作品
+
+【日本語訳・定義】手工芸・手芸・工作によって作られた品物を指す。展示・販売される伝統工芸品にも、家庭や教室で作った作品にも使う。活動の種類を指す語義1と形が同じため、売る・展示する・持ち帰るといった文脈が品物としての解釈を明確にする。  
+
+【頻度】〈6/10〉  
+
+【レジスター/領域】一般語。販売、観光、展示、教育。  
+
+【文法パターン】handmade/local crafts＝手作りの品・地元の工芸品／sell/buy crafts＝工芸品を売る・買う／display one's crafts＝自作の工芸品を展示する／a selection of crafts＝工芸品の取りそろえ。品物を総称して述べるとき、主に複数形を使う。  
+
+【コロケーション・構文例】
+
+・sell handmade crafts  
+用途: 手作りの品を商品として売ることを述べる。  
+例: She sells handmade crafts, including woven bags and painted boxes, at the weekend market.  
+訳: 彼女は週末の市場で、編んだバッグや絵付けした箱などの手工芸品を売っている。  
+
+・buy local crafts  
+用途: その地域で作られた工芸品を購入することを述べる。  
+例: Visitors can buy local crafts directly from the people who made them.  
+訳: 来場者は、地元の工芸品を作り手から直接買うことができる。  
+
+・display one's crafts  
+用途: 制作した作品を展示する。  
+例: The students displayed their crafts on a table near the entrance.  
+訳: 生徒たちは、入口近くのテーブルに自分たちの工作作品を並べた。  
+
+【語法・注意】一つの完成品を一般的に a craft と呼ぶより、a handmade item、a piece of craftwork、a wooden bowl など、物の種類に応じて言うと明確である。教育・工作の文脈の a craft は「一つの工作課題・制作活動」を指すこともある。  
+
+The shop sells crafts. の crafts は複数の品物であり、The shop sells craft. を同じ意味の標準的な置き換えにはしない。一方、craft as an art form のように分野としてまとめる不可算用法は語義1に属する。  
+
+three traditional crafts は普通「三つの伝統工芸の種類」であって、「工芸品が3点」とは限らない。a stall selling traditional crafts では販売される品物という解釈が自然になる。乗り物を指す複数の craft は語義5で、s を付けない。  
+
+【類義語】
+
+・handicrafts  
+定義: 手の技能を使って作られた工芸品。  
+頻度: 〈5/10〉  
+違い: この複数の品物の意味では craft と近く、伝統的な手作業を特に明示する。handicraft には活動を指す別の用法もある。  
+例: The market is known for its embroidered textiles and other handicrafts.  
+訳: その市場は、刺繍入りの織物やほかの手工芸品で知られている。  
+
+・handiwork  
+定義: 人が自分の手で作った物や、手作業の成果。  
+頻度: 〈5/10〉  
+違い: 普通は不可算で、誰の作かという点を強く感じさせる。crafts は種類や販売品の集まりにも使う。  
+例: The cushions are all my grandmother's handiwork.  
+訳: そのクッションは、どれも祖母の手作りだ。  
+
+・craftwork  
+定義: 手工芸による制作物、またはその仕事。  
+頻度: 〈4/10〉  
+違い: 普通は不可算で、制作や成果をまとめて表す。この欄では成果物の意味が crafts と重なる。  
+例: Several pieces of delicate craftwork were displayed in the cabinet.  
+訳: 繊細な工芸品が数点、飾り棚に展示されていた。  
+
+5. 【名詞・可算・単複同形】船、航空機、宇宙船
+
+【日本語訳・定義】水上・空中・宇宙を移動する乗り物を指す総称。船の場合は小型船を指すことが多いが、語自体が一定の大きさを厳密に定めるわけではない。具体的な種類は文脈や small、landing、unmanned などの修飾語で分かる。車など地上の乗り物全般を自由に指す語ではない。  
+
+【頻度】〈6/10〉  
+
+【レジスター/領域】報道・海事・航空・宇宙。boat や plane より改まった総称として使いやすい。  
+
+【文法パターン】a craft／two craft＝1隻・1機／2隻・2機／small/pleasure/rescue craft＝小型船・遊覧用の船・救助艇など／a landing craft＝上陸用舟艇／an unmanned craft＝無人の船・航空機・宇宙機。単数・複数で形は同じだが、冠詞・数詞・動詞の一致は実際の数に合わせる。  
+
+【コロケーション・構文例】
+
+・small craft  
+用途: 小型の船をまとめて述べる。  
+例: Small craft were advised to remain in the harbor because of strong winds.  
+訳: 強風のため、小型船には港内にとどまるよう呼びかけられた。  
+
+・a pleasure craft  
+用途: 娯楽・遊覧のための船を指す。  
+例: A pleasure craft was anchored just outside the marina.  
+訳: マリーナのすぐ外に、遊覧用の船が1隻停泊していた。  
+
+・rescue craft  
+用途: 救助に用いる艇などを指す。  
+例: Two rescue craft reached the damaged fishing boat before sunset.  
+訳: 救助艇2隻が、日没前に損傷した漁船のもとに到着した。  
+
+・a landing craft  
+用途: 人員・車両などを水上から岸へ運ぶ舟艇を指す。  
+例: The landing craft carried vehicles from the ship to the beach.  
+訳: その上陸用舟艇は、船から浜辺へ車両を運んだ。  
+
+・an unmanned craft  
+用途: 人が搭乗しない機体・船体を述べる。  
+例: The unmanned craft entered orbit and began transmitting images of the planet.  
+訳: その無人宇宙機は軌道に入り、惑星の画像の送信を始めた。  
+
+・the craft  
+用途: すでに話題にした船・航空機・宇宙船を受ける。  
+例: The pilot landed the experimental aircraft safely, and engineers inspected the craft immediately.  
+訳: 操縦士は実験機を無事に着陸させ、技術者たちは直ちにその機体を点検した。  
+
+【語法・注意】標準的には one craft、three craft とし、乗り物の複数を three crafts としない。The craft is ready. なら1隻・1機、The craft are ready. なら複数であり、craft の形だけでは数が分からない。数えられない名詞なのではなく、単複同形の可算名詞である。  
+
+語義1・4の crafts「工芸分野・工芸品」と区別する。aircraft と spacecraft も標準的には複数同形で、two aircraft／two spacecraft となる。craft 単独でも空中・宇宙の乗り物を指せるが、文脈がなければ aircraft／spacecraft のほうが種類を明確に伝えられる。  
+
+boat は水上の乗り物、aircraft は航空機であり、craft は両者などを含む総称。a craft を見て必ず「船」と訳すのではなく、pilot、orbit、harbor など周囲の語から判定する。  
+
+【類義語】
+
+・vessel  
+定義: 船舶を指す改まった総称。  
+頻度: 〈6/10〉  
+違い: 海事の船という意味で craft と重なるが、一般には航空機まで含めない。大きな船にも自然に使う。  
+例: The research vessel returned to port with new samples.  
+訳: その調査船は、新しい試料を持って港に戻った。  
+
+・boat  
+定義: 水上を移動する船、特に比較的小型の船。  
+頻度: 〈9/10〉  
+違い: 日常的で水上の乗り物に限定される。craft は改まった総称で、航空機や宇宙船にも使える。  
+例: We crossed the lake in a small boat.  
+訳: 私たちは小さな船で湖を渡った。  
+
+・aircraft  
+定義: 飛行機・ヘリコプターなどの航空機。  
+頻度: 〈8/10〉  
+違い: 空中を飛ぶ種類であることを明示する。craft より対象が限定されるが、同様に単複同形である。  
+例: Several aircraft were waiting for permission to take off.  
+訳: 数機の航空機が離陸許可を待っていた。  
+
+・spacecraft  
+定義: 宇宙空間を飛行する機体・宇宙船。  
+頻度: 〈6/10〉  
+違い: 宇宙用であることを明示する。craft だけなら、宇宙機かどうかは文脈で補う必要がある。  
+例: The spacecraft sent back images of the moon's surface.  
+訳: その宇宙機は月面の画像を送り返した。  
+
+6. 【形容詞・主に限定用法】職人の手法で作る、クラフトの
+
+【日本語訳・定義】飲食物やその生産者について、小規模な事業者が伝統的な技法や作り手の工夫を重視して生産することを表す。大量生産品と対比されやすく、品質・個性・作り方へのこだわりを感じさせる。ただし craft という語だけで、客観的な品質、手作業の割合、特定の認証や一律の生産量基準が保証されるわけではない。  
+
+【頻度】〈6/10〉  
+
+【レジスター/領域】飲食・小売・広告。craft beer、craft brewery などの組み合わせで定着している。  
+
+【文法パターン】craft 〈beer/gin/spirits〉＝クラフトビール・ジン・蒸留酒／a craft 〈brewery/distillery〉＝職人の手法を重視する小規模醸造所・蒸留所／craft 〈brewers/bakers〉＝そのような醸造業者・パン職人。普通は名詞の前に置き、very craft や more craft を一般的な程度表現として用いない。  
+
+【コロケーション・構文例】
+
+・craft beer  
+用途: 小規模で作り方・個性を重視したビールを指す。  
+例: The bar serves craft beer from several small local breweries.  
+訳: そのバーでは、地元の小さな醸造所数か所のクラフトビールを出している。  
+
+・a craft brewery  
+用途: クラフトビールを作る醸造所を指す。  
+例: A craft brewery opened in the former warehouse and began offering weekend tours.  
+訳: 以前の倉庫にクラフトビールの醸造所が開業し、週末の見学を始めた。  
+
+・craft spirits  
+用途: 小規模で製法を重視したジン・ウイスキーなどの蒸留酒をまとめて呼ぶ。  
+例: The shop specializes in craft spirits made by independent distillers.  
+訳: その店は、独立した蒸留業者が作るクラフト蒸留酒を専門に扱っている。  
+
+・craft bakers  
+用途: 伝統的な製法や職人の技を重視するパン職人・業者を指す。  
+例: Local craft bakers sell slow-fermented bread at the market.  
+訳: 地元のパン職人たちは、市場でゆっくり発酵させたパンを売っている。  
+
+【語法・注意】craft beer の craft は、この意味では形容詞として記述される。名詞の前置修飾と分析する場合もあるが、実用上は「工芸品」ではなく、生産のあり方を表す限定語として理解する。craft knife「工作用ナイフ」など、語義1の分野を示す名詞修飾とは区別する。  
+
+This beer is craft. のような省略的な述語用法は業界・会話で見られるが、学習上の基本は This is craft beer.。通常の性質形容詞のように、どの名詞にも自由に付けたり比較級を作ったりはしない。  
+
+a craft brewery の a は、可算名詞 brewery に付く。craft beer は飲料全体を指すとき不可算だが、two craft beers は「2種類のクラフトビール」または「2杯・2本」を意味し得る。これは beer の数え方であり、craft を複数形にするわけではない。  
+
+【類義語】
+
+・artisanal  
+定義: 職人が伝統的な方法や技能を用いて作る。  
+頻度: 〈5/10〉  
+違い: 職人の手法を明示し、飲食物以外にも使う。craft は beer、brewer など特定の分野・組み合わせに強く定着している。  
+例: The store sells artisanal cheese from small producers.  
+訳: その店では、小規模な生産者が職人の手法で作るチーズを売っている。  
+
+・small-batch  
+定義: 一度に少量ずつ製造する。  
+頻度: 〈5/10〉  
+違い: 重なるのは少量生産という面であり、伝統的な技法や職人の手作業を必ず意味しない。craft と完全には同義でない。  
+例: They produce small-batch chocolate using beans from a single farm.  
+訳: 彼らは一つの農園の豆を使い、チョコレートを少量ずつ製造している。  
+
+・handmade  
+定義: 主として手作業で作った。  
+頻度: 〈7/10〉  
+違い: 機械中心でない作り方を明示する。craft は生産規模や技能重視を示すが、全工程の手作業までは意味しない。  
+例: The bakery is known for its handmade pastries.  
+訳: そのパン店は手作りのペストリーで知られている。  
+
+【反意語】
+
+・mass-produced  
+定義: 規格化された工程で大量生産された。  
+頻度: 〈6/10〉  
+違い: 生産規模・方法の対立で、完全な補完関係ではない。craft とされる品にも機械を使うことがあり、少量生産なら必ず craft になるわけでもない。  
+例: The exhibition contrasts handmade furniture with mass-produced furniture.  
+訳: その展覧会は、手作りの家具と大量生産の家具を対比している。  
+
+7. 【動詞・自動詞】手芸・工作をする
+
+【日本語訳・定義】何を作るかを直接目的語で指定せず、手芸や工作をする活動そのものを述べる。趣味・イベントの文脈で使われ、熟練の職人であることは必要ない。他動詞の制作対象を背景に置いた活動用法で、抽象的な計画作成全般を目的語なしで表す用法ではない。  
+
+【頻度】〈5/10〉  
+
+【レジスター/領域】趣味・手芸店・工作イベント。一般的な説明では do crafts とも言う。  
+
+【文法パターン】someone + craft＝手芸・工作をする／craft with someone＝人と一緒に手作りをする／craft with 〈素材〉＝素材を使って工作する／people + craft together＝一緒に手芸・工作をする／love to craft＝手芸・工作をすることが好きである。with 以下は相手・材料などを表す付加的な要素で、直接目的語ではない。  
+
+【コロケーション・構文例】
+
+・love to craft  
+用途: 手芸・工作をすることが好きだと述べる。  
+例: I love to craft, especially when I can reuse old fabric.  
+訳: 私は手芸が好きで、特に古い布を再利用できると楽しい。  
+
+・craft with someone  
+用途: 誰かと一緒に手芸・工作を楽しむことを述べる。  
+例: She crafts with her friends every other Saturday.  
+訳: 彼女は隔週の土曜日に、友人たちと手芸をしている。  
+
+・craft with 〈素材〉  
+用途: 工作活動で使う材料を示す。  
+例: Today we'll craft with recycled paper and pieces of string.  
+訳: 今日は再生紙とひもの切れ端を使って工作します。  
+
+・craft together  
+用途: 手芸・工作を一緒にしようと誘ったり、共同の活動を述べたりする。  
+例: Bring your sewing project and let's craft together.  
+訳: 今作っている縫い物を持ってきて、一緒に手芸をしましょう。  
+
+【語法・注意】I craft with paper. は「紙を使って工作する」という活動用法。I craft flowers from paper. は flowers が直接目的語で、「紙から花を作る」という語義3である。完成品を明示する場合と、活動自体を述べる場合を区別する。  
+
+この自動詞用法は現在の趣味・手芸の文脈に見られるが、学習辞書には他動詞だけが載ることもある。自動詞用法から、計画を練っている意味の We are crafting. が文脈なしでも明確だとは考えず、We are crafting a plan. のように対象を示す。  
+
+【類義語】
+
+・do crafts  
+定義: 手芸・工作の活動をする。  
+頻度: 〈7/10〉  
+違い: 活動を表す名詞 crafts を do の目的語にした、より説明的な言い方。自動詞 craft と違い、文の中では do が動詞である。  
+例: They do crafts at the community center on Fridays.  
+訳: 彼らは金曜日に公民館で手芸・工作をしている。  
+
+8. 【名詞・不可算】策略、ずる賢さ
+
+【日本語訳・定義】本心を隠す、相手の考えを誘導するなど、巧みな駆け引きによって自分の目的を達する力・やり方を表す。単なる器用さではなく、人を欺く巧妙さに焦点がある。批判的な含みを持つことが多いが、物語などでは巧みな立ち回りへの感心を伴う場合もある。  
+
+【頻度】〈3/10〉  
+
+【レジスター/領域】文語的・改まった表現。文学、歴史叙述、人物評価。  
+
+【文法パターン】by craft＝策略によって／use craft to 〈動詞の原形〉＝目的のために策略を用いる／craft and guile＝策略とずる賢さ／resort to craft＝策略に訴える。不可算名詞であり、一つの具体的な計略を a craft と数えるのは普通ではない。  
+
+【コロケーション・構文例】
+
+・by craft  
+用途: 正面からの力よりも、欺きの巧妙さで目的を果たすことを述べる。  
+例: In the tale, the fox escapes by craft, tricking the hunters into following a false trail.  
+訳: その物語では、キツネは猟師たちを偽の足跡へ誘導し、策略によって逃れる。  
+
+・use craft to 〈動詞の原形〉  
+用途: 意図を隠し、相手を動かす手段を用いることを述べる。  
+例: The courtier used craft to turn the king against his rival without making a direct accusation.  
+訳: その廷臣は、直接非難せずに自分のライバルへの反感を王に抱かせるため、策略を用いた。  
+
+・craft and guile  
+用途: 巧妙な欺きや駆け引きによる立ち回りを強調する。  
+例: The character survives through craft and guile, concealing his identity from everyone he meets.  
+訳: その登場人物は、出会う人すべてに素性を隠し、策略とずる賢さで生き延びる。  
+
+【語法・注意】具体的な一つの策略なら a trick／a ruse／a scheme が普通で、この語義の craft は策略を使う巧妙さをまとめて表す。crafts とすると、普通は語義1・4の工芸・工芸品になる。  
+
+craft の語源・基本用法に技能が含まれるからといって、a skilled craftsperson「熟練職人」を「ずるい人」と解釈しない。逆に crafty は現代語でずる賢さを表しやすい。語義2の技巧との境界は、deceive、trick、conceal など、何のためにどう巧みに行動するかで判断する。  
+
+force「力ずく」は by craft と対照されることがあるが、欺く巧妙さと同じ意味軸の反対語ではなく、別の手段である。  
+
+【類義語】
+
+・cunning  
+定義: 相手の裏をかいたり目的を達したりする、ずる賢い巧妙さ。  
+頻度: 〈5/10〉  
+違い: この名詞用法では craft に近いが、文語的な craft より一般的で、人や動物の抜け目なさにも使う。  
+例: The fox relied on cunning rather than speed.  
+訳: そのキツネは、速さよりもずる賢さを頼りにした。  
+
+・guile  
+定義: 人を欺き、自分の目的に役立てる巧妙さ。  
+頻度: 〈4/10〉  
+違い: 本心を隠す欺きの側面を強く表す。craft には別に中立的な技巧の意味があるが、guile では欺きが中心である。  
+例: She saw through his charm and guile.  
+訳: 彼女は、彼の愛想のよさの裏にあるずる賢さを見抜いた。  
+
+・trickery  
+定義: だますための仕掛けや不正な手段を使うこと。  
+頻度: 〈5/10〉  
+違い: 技量・能力そのものより、実際に使う欺きの手段や行為に焦点がある。  
+例: The salesman obtained their agreement through trickery.  
+訳: その販売員は、だましの手口を使って彼らの同意を得た。  
