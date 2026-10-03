@@ -1,0 +1,43 @@
+{
+  "schema_version": "coordinator_disposition_v1",
+  "entry": "entries/y/yield.md",
+  "base_commit": "5d7d0f79b841fee97303af263740cb7020a14c77",
+  "adopted": [
+    "Corrected source-backed semantic direction, financial scope, register and Japanese translations",
+    "Cleaned formation and field placement",
+    "Retained attested double-object financial construction with matching example and source mapping",
+    "Added direct-object yield a point with local sense qualification",
+    "Applied author-review corrections without altering fixed review snapshots"
+  ],
+  "declined": [
+    {
+      "claim": "Move all yield up revealing examples to production",
+      "reason": "Oxford explicitly groups figurative secrets under surrender/transfer."
+    },
+    {
+      "claim": "Replace sense-level frequency with exact proposed numbers",
+      "reason": "No corpus basis for precise replacements; domain-scoped editorial estimates preserved."
+    },
+    {
+      "claim": "Renumber every sense to mechanically sort scores",
+      "reason": "Current grouping preserves continuous verb contrasts then noun. Specification says principally, not strictly; broad noun frequency remains an editorial grouping limitation."
+    },
+    {
+      "claim": "currently and annually are redundant",
+      "reason": "Current level and annual measurement period are different."
+    },
+    {
+      "claim": "yield without breaking is erroneous",
+      "reason": "Valid grammar; classifier warning does not invalidate English. No code or validator changes."
+    }
+  ],
+  "scope_limits": [
+    "Existing nine senses retained; no claim of exhaustive zero-defect assurance",
+    "Frequency values remain qualitative editorial estimates, not measured occurrence rates"
+  ],
+  "learning_delta": {
+    "schema_version": "process_improvement_learning_delta_v2",
+    "reviewed": true,
+    "items": []
+  }
+}

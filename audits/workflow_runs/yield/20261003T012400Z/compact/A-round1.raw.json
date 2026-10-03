@@ -1,0 +1,42 @@
+{
+  "schema_version": "compact_review_response_v1",
+  "checked_areas": [
+    "pronunciation",
+    "etymology",
+    "word_formation",
+    "core_image",
+    "sense:3c309abf0835fec811b3",
+    "sense:14dc268dd6dddc9bb22f",
+    "sense:50dac42a508d4abd3bb8",
+    "sense:a6ac4f0e7ddd8ae02c21",
+    "sense:c30c4399a09abef1a771",
+    "sense:13edac2db56e863f3d3a",
+    "sense:4136eb2d73bf0521fa2d",
+    "sense:3fe1341993e417b4ea60",
+    "sense:6b847210ed01208241b5"
+  ],
+  "unchecked_areas": [],
+  "findings": [
+    {
+      "area": "sense:14dc268dd6dddc9bb22f",
+      "severity": "minor",
+      "impact": "金融の on が表す投資額・投資対象との関係を、収益を受け取る相手と誤読させる可能性がある。例文自体とその訳は正しい。",
+      "evidence": "語義2【文法パターン】の「yield 〈収益・利息〉 on 〈投資・資産〉＝投資・資産に～の収益をもたらす」。同じ語義の例文 The fund yielded a 4 percent return on the initial investment. は「当初の投資額に対して4パーセントの収益」と正しく訳されている。",
+      "action": "パターンの和訳のみ「投資・資産に対して～の収益・利息を生む」などに直し、on の対象と収益の受取人を区別する。英語の構文は維持する。"
+    },
+    {
+      "area": "sense:50dac42a508d4abd3bb8",
+      "severity": "minor",
+      "impact": "relinquish が必ず自発的な放棄を表すと学習してしまう。圧力を受けて不本意に支配権などを手放す場合にも使えるため、yield との比較軸が狭すぎる。",
+      "evidence": "語義3【類義語】relinquish の定義「権利、地位、所有などを自ら手放す」。Cambridge の relinquish は責任・権利などを放棄する意味を自発性に限定せず、不本意に保持をやめる用法も記載している。https://dictionary.cambridge.org/dictionary/english/relinquish",
+      "action": "定義から「自ら」を削除して「権利、地位、所有などを手放す」とする。硬い語で保持の放棄に焦点を置くという現在の比較説明と例文は維持する。"
+    },
+    {
+      "area": "sense:6b847210ed01208241b5",
+      "severity": "editorial",
+      "impact": "頻度の編集上の適用範囲についての説明が語法欄の冒頭に置かれ、意味・用法の説明の流れを一時的に遮る。内容自体は有用で、削除する必要はない。",
+      "evidence": "語義9【語法・注意】の冒頭「名詞の頻度の目安は主に収量・金融上の利回りを念頭に置いたもので、化学・核分野などの限定用法が同じ頻度で使われることを意味しない」。",
+      "action": "任意で、この1文を同じ語義の【頻度】欄に移すか、「収量・金融用法を中心とする目安」のように短く添える。10段階の編集上の目安を実測コーパス頻度に変更しない。"
+    }
+  ]
+}

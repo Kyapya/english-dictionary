@@ -1,0 +1,35 @@
+{
+  "schema_version": "compact_review_response_v1",
+  "checked_areas": [
+    "pronunciation",
+    "etymology",
+    "word_formation",
+    "core_image",
+    "sense:3c309abf0835fec811b3",
+    "sense:14dc268dd6dddc9bb22f",
+    "sense:50dac42a508d4abd3bb8",
+    "sense:a6ac4f0e7ddd8ae02c21",
+    "sense:c30c4399a09abef1a771",
+    "sense:13edac2db56e863f3d3a",
+    "sense:4136eb2d73bf0521fa2d",
+    "sense:3fe1341993e417b4ea60",
+    "sense:6b847210ed01208241b5"
+  ],
+  "unchecked_areas": [],
+  "findings": [
+    {
+      "area": "sense:a6ac4f0e7ddd8ae02c21",
+      "severity": "minor",
+      "impact": "The learner is told that argumentative yielding can be a partial concession, but the heading restricts the transitive construction to reflexives and no example teaches direct-object concession. This leaves yield a point liable to be misread as production or treated as ungrammatical.",
+      "evidence": "The candidate sense 4 heading is 自動詞・他動詞（再帰形） and its grammar patterns are yield to, refuse to yield and yield oneself to. Sense 3 includes yield ground but not conceding the validity of an argument. Collins, on its publisher page, Webster’s New World transitive sense 3, explicitly gives “to yield a point”: https://www.collinsdictionary.com/dictionary/english/yield . This is a small coverage gap within the already-covered concession family, not a demand for a new large numbered sense.",
+      "action": "Add a brief direct-object yield a point construction with the meaning 議論で相手の論点を認める／その点では譲歩する and a matching example. Place it under the existing concession/surrender material and ensure the applicable heading does not characterize all transitive concession as reflexive."
+    },
+    {
+      "area": "sense:14dc268dd6dddc9bb22f",
+      "severity": "minor",
+      "impact": "The financial double-object pattern is supportable, but its construction-level evidence is missing from the frozen inventory even though that inventory explicitly leaves it for independent review. Without adding the recovered evidence, later reviewers cannot reproduce the decision to retain this teaching pattern.",
+      "evidence": "The candidate teaches yield 〈投資家〉 + 〈income・a return〉 and has an original rental-properties/owner/income example. The inventory’s general produce-a-return facts do not attest two objects; research_accounting still says that the construction is subject to independent review. Independent checking found the exact financial syntax in James McAndrews’s May 2015 speech, published in full by BIS, in the Avoidance section: “yield investors a return close to zero”. Source: https://www.bis.org/speeches/20150512-negative-nominal-central-bank-policy-rates-where-lower-bound . A Hong Kong Board of Review primary decision, D23/13 paragraph 25(a), also has “yield the owner an income”: https://www.info.gov.hk/bor/en/decisions/docs/d2313.pdf . The latter text was retrieved through the search index; direct PDF opening failed, so that access limitation must be recorded. The BIS full-text attestation was successfully opened and inspected.",
+      "action": "Retain the valid double-object construction, add the BIS attestation as a narrowly mapped source fact supporting this grammar pattern, and update the inventory’s unresolved-review note. The indexed income attestation can be recorded with its access limitation, or independently fetched before being treated as fully inspected. Do not claim these examples establish the construction’s frequency."
+    }
+  ]
+}
