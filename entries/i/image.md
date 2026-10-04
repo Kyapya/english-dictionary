@@ -487,8 +487,8 @@ tags: []
 
 ・the image of 〈集合〉 under 〈写像〉  
 用途: 集合の全要素から得られる像を述べる。  
-例: The image of the set {1, 2} under f(x) = x + 1 is {2, 3}.  
-訳: 関数 f(x) = x + 1 による集合 {1, 2} の像は {2, 3} である。  
+例: Under f(x) = x + 1, the image of the set consisting of 1 and 2 is the set consisting of 2 and 3.  
+訳: 関数 f(x) = x + 1 による、1と2からなる集合の像は、2と3からなる集合である。  
 
 ・the image of a function  
 用途: 定義域全体から得られる値の集合を指す。  
