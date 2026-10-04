@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra ultra
 created_at: 2026-10-03
-updated_at: 2026-10-03
+updated_at: 2026-10-04
 checked: true
 tags: []
 ---
@@ -34,14 +34,14 @@ primary「第一の、主要な」に副詞を作る -ly が付いた語。prima
 
 【レジスター/領域】一般の説明、仕事、報道、学術。mainly よりやや改まった印象を与えることがある。  
 
-【文法パターン】primarily + 〈一般動詞〉／be primarily + 〈名詞句/形容詞〉／be primarily concerned with 〈話題〉／be primarily responsible for 〈事柄〉／be designed primarily for 〈対象/目的〉／primarily because + 〈節〉／have primarily + 〈過去分詞〉／not primarily + 〈名詞句/形容詞/前置詞句〉／primarily, + 〈節〉  
+【文法パターン】primarily + 〈一般動詞〉／be primarily + 〈名詞句/形容詞〉／be primarily concerned with 〈話題〉／be primarily responsible for 〈事柄〉／be designed primarily for 〈対象/目的〉／primarily because + 〈節〉／have/has primarily 〈過去分詞〉／not primarily + 〈名詞句/形容詞/前置詞句〉／primarily, + 〈節〉  
 
 【コロケーション・構文例】
 
 ・primarily serve 〈対象〉  
 用途: 活動などが主に誰のためのものかを示す。  
 例: The new bus route primarily serves communities east of the river.  
-訳: 新しいバス路線は、主に川の東側の地域を結んでいる。  
+訳: 新しいバス路線は、主に川の東側の地域の交通を担っている。  
 
 ・be primarily + 〈名詞句〉  
 用途: 人や物の主要な性格・役割を説明する。  
@@ -68,8 +68,8 @@ primary「第一の、主要な」に副詞を作る -ly が付いた語。prima
 例: We chose this location primarily because it is close to the station.  
 訳: この場所を選んだ主な理由は、駅から近いことです。  
 
-・have primarily + 〈過去分詞〉  
-用途: これまでの活動などの中心を、完了形で述べる。  
+・have/has primarily 〈過去分詞〉  
+用途: 完了形で副詞を置く位置を示し、これまでの活動などの中心を述べる。  
 例: The researchers have primarily focused on changes in water temperature.  
 訳: 研究者たちはこれまで、主に水温の変化に注目してきた。  
 
@@ -83,7 +83,7 @@ primary「第一の、主要な」に副詞を作る -ly が付いた語。prima
 例: Primarily, we need to make the instructions easier to follow.  
 訳: まず重要なのは、手順をもっと分かりやすくすることだ。  
 
-【語法・注意】一般動詞の前、be の後、助動詞・完了の have の後が基本的な位置になる。They primarily work online.、They are primarily interested in design.、They have primarily worked online. のように使う。特定の句を焦点にするときは primarily for students、primarily because of the weather のように、その句の直前にも置ける。not primarily は「主な点ではそうではない」で、not at all「全く違う」とは異なる。primarily responsible は責任が中心的にあることを表し、primarily が responsible の程度を「とても」のように強めているわけではない。名詞を直接修飾する「主な理由」は the primary reason であり、the primarily reason とはしない。文頭の Primarily は「第一に重要なのは」という優先度を示せるが、単純な作業順序を「最初に、次に」と列挙するなら First, ... Then, ... が明確。時間的な「当初は」は語義2で別に扱う。  
+【語法・注意】一般動詞の前、be の後、助動詞・完了の have/has の後が基本的な位置になる。They primarily work online.、They are primarily interested in design.、They have primarily worked online. のように使う。特定の句を焦点にするときは primarily for students、primarily because of the weather のように、その句の直前にも置ける。not primarily は、ある性質・理由・対象が「中心である」という点を否定する。上の費用の例では、費用が主な問題であることを否定しており、費用も問題の一部である可能性は残る。費用が全く問題ではないと全面否定する表現ではない。primarily responsible は責任が中心的にあることを表し、primarily が responsible の程度を「とても」のように強めているわけではない。名詞を直接修飾する「主な理由」は the primary reason であり、the primarily reason とはしない。文頭の Primarily は「第一に重要なのは」という優先度を示せるが、単純な作業順序を「最初に、次に」と列挙するなら First, ... Then, ... が明確。時間的な「当初は」は語義2で別に扱う。  
 
 【類義語】
 
@@ -104,7 +104,7 @@ primary「第一の、主要な」に副詞を作る -ly が付いた語。prima
 ・principally  
 定義: 主要な点で、主として。  
 頻度: 〈6/10〉  
-違い: 重要性や中心性を強調する改まった語。primarily 同様、単に一番早い時点を意味するとは限らない。  
+違い: 重要性や中心性を強調する改まった語。この用法の primarily と同様、時間的な早さではなく、主要なものを示す。  
 例: The fund is intended principally to support small community projects.  
 訳: その基金は、主に地域の小規模な活動を支援するためのものだ。  
 
@@ -139,21 +139,16 @@ primary「第一の、主要な」に副詞を作る -ly が付いた語。prima
 
 【レジスター/領域】低頻度の文章語。現代の一般的な説明では originally や initially の方が意図を伝えやすい。  
 
-【文法パターン】primarily + 〈過去の身分/性質を表す名詞句〉, ... later ...／〈語〉 + primarily meant ... but later ...  
+【文法パターン】Primarily 〈名詞句〉, 〈主語〉 + 〈後の変化を表す述語〉  
 
 【コロケーション・構文例】
 
-・primarily + 〈過去の身分/性質を表す名詞句〉, ... later ...  
-用途: 当初の役割を、後に変わった役割と対比する。  
-例: Primarily a private residence, the building was later converted into a museum.  
-訳: もともと個人の住居だったその建物は、後に博物館へと改装された。  
+・Primarily 〈名詞句〉, 〈主語〉 + 〈後の変化を表す述語〉  
+用途: 文頭の名詞句で主節の主語を補足し、当初の役割と後の変化を対比する。例の括弧内は、「初めは」という意味を明示するための補足。  
+例: Primarily (that is, at first) a private residence, the building was later converted into a museum.  
+訳: 初めは個人の住居だったその建物は、後に博物館へと改装された。  
 
-・〈語〉 + primarily meant ... but later ...  
-用途: 語の初期の意味と後の意味変化を対比する。  
-例: In this fictional language, the word primarily meant "water" but later came to mean "river".  
-訳: この架空の言語では、その語は当初「水」を意味していたが、後に「川」を意味するようになった。  
-
-【語法・注意】この用法は残っているが、単に過去時制と組み合わせれば必ず「当初は」になるわけではない。語義1の「主に」と紛らわしいため、過去と後の変化をはっきり示す必要がある。自分で書くなら Originally a private residence, ... や The word originally meant ... とすると誤解が少ない。新しい点を順に列挙する firstly や、理由を挙げる in the first place と機械的に置き換えない。  
+【語法・注意】この用法は辞書にも載っているが、単に過去時制や later と組み合わせれば必ず「当初は」になるわけではない。上の例で時間的な意味を確定させているのは、説明を補う that is, at first である。この補足がなければ「主として個人の住居だった」とも読める。In this fictional language, the word primarily meant "water" but later came to mean "river". も、「主に『水』を意味していた」と解釈できるため、時間的な用法の明確な例とはならない。文頭の名詞句そのものが過去を表すのではなく、主節の時制や文脈によって過去の役割だと分かる。自分で書くなら Originally a private residence, ... や The word originally meant ... とすると誤解が少ない。新しい点を順に列挙する firstly や、理由を挙げる in the first place と機械的に置き換えない。  
 
 【類義語】
 
