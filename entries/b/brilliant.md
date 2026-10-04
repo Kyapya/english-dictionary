@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra ultra
 created_at: 2026-10-03
-updated_at: 2026-10-03
+updated_at: 2026-10-04
 checked: true
 tags: []
 ---
@@ -47,7 +47,7 @@ tags: []
 
 【レジスター/領域】一般、学術、芸術、仕事、スポーツ。  
 
-【文法パターン】a brilliant 〈scientist/musician/student〉／a brilliant 〈idea/solution/analysis〉／a brilliant performance／be brilliant at 〈分野/動名詞〉／be technically brilliant／be brilliant with 〈扱う対象〉  
+【文法パターン】a brilliant 〈scientist/musician/student〉／a brilliant 〈idea/solution/analysis〉／a brilliant performance／be brilliant at 〈分野/動名詞〉／be technically brilliant／be brilliant with 〈扱う対象〉／be really/absolutely/truly brilliant  
 
 【コロケーション・構文例】
 
@@ -81,7 +81,12 @@ tags: []
 例: He's brilliant with numbers and can spot an error in a spreadsheet immediately.  
 訳: 彼は数字に強く、表計算シートの誤りをすぐに見つけられる。  
 
-【語法・注意】限定・叙述の両方で使う。a brilliant student と The student is brilliant はどちらも可能。brilliant at doing は得意な活動、brilliant with numbers は扱う対象を示す。very/really brilliant、absolutely brilliant、more brilliant、the most brilliant などが使われるが、もともと強い評価語なので、程度表現を重ねすぎない。能力の評価と一般的な「最高だ」という感想は重なる場合もあるが、語義2では特別な知性・技能を認めているとは限らない。  
+・be really/absolutely/truly brilliant  
+用途: 知性や技能、その成果への賞賛をさらに強める。  
+例: Her analysis of the experimental data was truly brilliant.  
+訳: 彼女による実験データの分析は、実に見事だった。  
+
+【語法・注意】限定・叙述の両方で使う。a brilliant student と The student is brilliant はどちらも可能。brilliant at doing は得意な活動、brilliant with numbers は扱う対象を示す。知性・技能を強く褒める形容詞なので、さらに強調するときは really/absolutely/truly brilliant を基本に覚える。very brilliant があらゆる文脈で誤りというわけではないが、通常の強調では very clever と同じ感覚で very を付けない。比較・最上級には more brilliant、the most brilliant を使い、人物や発想などの優秀さを比べることもできる。能力の評価と一般的な「最高だ」という感想は重なる場合もあるが、語義2では特別な知性・技能を認めているとは限らない。  
 
 【類義語】
 
@@ -104,7 +109,7 @@ tags: []
 頻度: 〈6/10〉  
 違い: 人の才能に重点を置く。brilliant は人だけでなく、その人の発想・分析・演奏にも直接使える。  
 例: He is a gifted violinist with a remarkable ear for melody.  
-訳: 彼は旋律を捉える耳に優れた、才能豊かなバイオリニストだ。  
+訳: 彼は旋律に対する優れた感覚を持つ、才能豊かなバイオリニストだ。  
 
 ・ingenious  
 定義: 工夫が独創的で巧みである。  
@@ -171,7 +176,7 @@ tags: []
 例: The guide was brilliant with the children and made sure everyone felt included.  
 訳: ガイドは子供たちへの接し方がとてもよく、誰も仲間外れに感じないようにしてくれた。  
 
-【語法・注意】主にイギリス英語のくだけた会話で使うが、イギリス以外では通じないという意味ではない。単独の Brilliant! は形容詞を用いた感嘆・応答で、brilliant という名詞を意味しない。悪い知らせに Oh, brilliant. と言えば「やれやれ」「まったく最悪だ」のような皮肉にもなる。これは文脈による評価の反転であり、通常の語義が「悪い」というわけではない。be brilliant with children は接し方・対応のよさ、語義1の be brilliant with numbers は主に処理能力の高さを表す。  
+【語法・注意】主にイギリス英語のくだけた会話で使うが、イギリス以外では通じないという意味ではない。単独の Brilliant! は形容詞を用いた感嘆・応答で、brilliant という名詞を意味しない。悪い知らせに Oh, brilliant. と言えば「やれやれ」「まったく最悪だ」のような皮肉にもなる。これは文脈による評価の反転であり、通常の語義が「悪い」というわけではない。be brilliant with children は子供への接し方のよさを褒めるが、対人技能の高さを評価する語義1とも重なる。with numbers は数字を扱う能力を示すのが典型的だが、children と numbers だけで語義が決まるわけではない。具体的な技能に重点があるか、対応への満足・感謝を広く示しているかを文脈で判断する。  
 
 【類義語】
 
@@ -180,7 +185,7 @@ tags: []
 頻度: 〈10/10〉  
 違い: 米英とも日常的に広く使う。brilliant は特にイギリス英語のくだけた会話で強い好意や満足を示す。  
 例: The food was great, and the staff were friendly.  
-訳: 料理はとてもよく、店員も親切だった。  
+訳: 料理はとてもおいしく、店員も親切だった。  
 
 ・excellent  
 定義: 質や出来が非常によい。  
@@ -246,10 +251,10 @@ tags: []
 
 ・be more brilliant than 〈比較対象〉  
 用途: 光や輝きの強さを比較する。  
-例: The new lamp was more brilliant than the old one, making every detail visible.  
-訳: 新しいランプは古いものより明るく、細部まではっきり見えた。  
+例: One star was more brilliant than all the others in the clear night sky.  
+訳: 澄んだ夜空で、一つの星がほかのどの星よりも明るく輝いていた。  
 
-【語法・注意】限定・叙述の両方で使い、光の強さを比較する more brilliant も可能。a brilliant blue の a は名詞としての blue に付き、形容詞 brilliant が名詞化したわけではない。綴りは英 colours、米 colors。brilliant colours は光や色の鮮明さを表すので、単に派手で趣味が悪いという否定的評価は含まない。頭のよさは語義1、物や経験への一般的な賞賛は語義2と区別する。  
+【語法・注意】限定・叙述の両方で使い、光の強さを比較する more brilliant も可能。日常的にランプなどの明るさを比べるだけなら brighter が一般的で、more brilliant は際立つ輝きを描くのに向く。a brilliant blue の a は名詞としての blue に付き、形容詞 brilliant が名詞化したわけではない。綴りは英 colours、米 colors。brilliant colours は光や色の鮮明さを表すので、単に派手で趣味が悪いという否定的評価は含まない。頭のよさは語義1、物や経験への一般的な賞賛は語義2と区別する。  
 
 【類義語】
 
@@ -315,7 +320,7 @@ tags: []
 ・a brilliant victory  
 用途: 見事な勝利を評価する。  
 例: The team celebrated a brilliant victory over the defending champions.  
-訳: チームは前年の王者を破る見事な勝利を祝った。  
+訳: チームは前回の優勝チームを破る見事な勝利を祝った。  
 
 【語法・注意】career、success、victory などの名詞の前でよく使う。a brilliant scientist は語義1の能力の評価、a brilliant career はここでの経歴・業績の評価。a brilliant career ahead of someone なら、その人の将来の活躍を見込む表現であり、すでに成功したと断定しているわけではない。  
 
@@ -362,9 +367,9 @@ tags: []
 ・a brilliant sound  
 用途: 響きそのものの明るさを述べる。  
 例: These strings produce a brilliant sound with plenty of upper harmonics.  
-訳: この弦は高い倍音を豊かに含む、明るい響きを生む。  
+訳: この弦は高次の倍音を豊かに含む、明るい響きを生む。  
 
-【語法・注意】a brilliant performance だけなら通常は語義1・2の演奏に対する賞賛。この意味では tone、sound、音域や倍音などの文脈が、音色の説明だと分かる手掛かりになる。明るい音色がすべての曲に最適だという意味ではない。  
+【語法・注意】a brilliant performance だけなら通常は語義1・2の演奏に対する賞賛。この意味では tone、sound、音域や倍音などの文脈が、音色の説明だと分かる手掛かりになる。upper harmonics は高次の倍音、つまり基音の高い整数倍の周波数を持つ音の成分を指す。明るい音色がすべての曲に最適だという意味ではない。  
 
 【類義語】
 
