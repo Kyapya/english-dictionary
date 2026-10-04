@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra ultra
 created_at: 2026-10-03
-updated_at: 2026-10-03
+updated_at: 2026-10-04
 checked: true
 tags: []
 ---
@@ -28,11 +28,11 @@ tags: []
 
 ＃コアイメージ
 
-量・範囲・行動・利用できる人を、一定の枠の内側に収めること。制限する働きと、制限を受けた状態の両方に使われる。  
+量・範囲・行動・利用の条件を、一定の枠の内側に収めるというイメージ。restrict は動詞として制限する働きを表し、restricted はその過去形・過去分詞のほか、形容詞として制限された性質や状態も表す。  
 
-・枠の内側に収める働き → 「制限する、限定する」（語義1）  
-・枠の内側に収まった量や自由 → 「限られた、自由の少ない」（語義2）  
-・枠の内側に収まった利用資格 → 「許可された人に限られた、公開が制限された」（語義3）  
+・枠の内側に収める働き（restrict） → 「制限する、限定する」（語義1）  
+・枠の内側に収まった量や自由（restricted） → 「限られた、自由の少ない」（語義2）  
+・枠の内側に収まった利用条件（restricted） → 「利用が制限された、公開が制限された」（語義3）  
 
 ＃意味・用法・関連表現
 
@@ -44,7 +44,7 @@ tags: []
 
 【レジスター/領域】一般、仕事、報道、規則の説明。limit より制約を加える意味が前面に出やすい。  
 
-【文法パターン】restrict 〈量/活動/自由〉／restrict something to 〈上限/範囲〉／restrict access to 〈場所/情報〉／restrict something to 〈許可する人/場所〉／restrict someone to 〈場所/活動〉／restrict oneself to 〈量/対象〉／restrict oneself to doing／restrict someone's movements／restrict someone from doing／be restricted by 〈制約要因〉  
+【文法パターン】restrict 〈量/活動/自由〉／restrict something to 〈上限/範囲〉／restrict access to 〈場所/情報〉／restrict something to 〈許可する人/場所〉／restrict someone to 〈場所/活動〉／restrict oneself to 〈量/対象〉／restrict oneself to doing／restrict someone's movements／restrict someone from doing／be restricted to 〈場所/範囲〉／not be restricted to 〈場所/集団〉／be restricted to 〈許可された人/対象〉／be restricted by 〈制約要因〉  
 
 【コロケーション・構文例】
 
@@ -84,7 +84,7 @@ tags: []
 訳: 今のところ、私たちは数値の確認だけを行うことにします。  
 
 ・restrict someone's movements  
-用途: 身体や物の動ける範囲を狭める。  
+用途: 人の体の動かしやすさや、自由に移動できる範囲を制限する。  
 例: The thick jacket restricted my movements as I climbed the ladder.  
 訳: はしごを登るとき、厚い上着のせいで体を動かしにくかった。  
 
@@ -93,12 +93,27 @@ tags: []
 例: The agreement restricts employees from sharing internal documents with outsiders.  
 訳: その契約は、従業員が社外の人と内部文書を共有することを制限している。  
 
+・be restricted to 〈場所/範囲〉  
+用途: 被害や影響などが一定の範囲にとどまることを述べる。  
+例: The damage was restricted to the roof; the rooms below were unaffected.  
+訳: 被害は屋根だけにとどまり、下の部屋には影響がなかった。  
+
+・not be restricted to 〈場所/集団〉  
+用途: 問題や現象が一部の場所・集団だけに限られないと述べる。  
+例: These communication problems are not restricted to large organizations.  
+訳: こうした意思疎通の問題は、大きな組織だけに見られるものではない。  
+
+・be restricted to 〈許可された人/対象〉  
+用途: 利用や参加が認められる対象を示す。  
+例: The online discussion is restricted to registered members.  
+訳: そのオンラインの議論に参加できるのは、登録会員だけです。  
+
 ・be restricted by 〈制約要因〉  
 用途: 制約を受ける側を主語にして、その原因を示す。  
 例: Our choice of venue was restricted by the size of the audience.  
 訳: 観客の人数によって、選べる会場が限られていた。  
 
-【語法・注意】restrict something to something の to は前置詞。「質問することだけに限る」は restrict yourself to asking questions であり、to ask にはしない。一方、restrict someone from doing の from は制限される行為を示す。restrict visitors to the ground floor は1階を許可範囲とし、restrict visitors from entering the basement は地下への立入りを制限する。restrict access to the files の to the files は access に続く利用先であり、restrict access to staff の to staff は利用者を職員に限る意味になり得る。両方を示すなら restrict access to the files to staff のように区別する。能動の restrict oneself では主語に対応する myself、yourself、ourselves などを使う。be restricted to は通常の受動・状態表現で、再帰代名詞を省略した形ではない。restrict は他動詞なので「行動が制限された」は My movements were restricted. とし、My movements restricted. とはしない。restricted は語義2・3の形容詞にもなる。  
+【語法・注意】restrict something to something の to は前置詞。「質問することだけに限る」は restrict yourself to asking questions であり、to ask にはしない。一方、restrict someone from doing の from は制限される行為を示す。restrict visitors to the ground floor は1階を許可範囲とし、restrict visitors from entering the basement は地下への立入りを制限する。restrict access to the files の to the files は access に続く利用先であり、restrict access to staff の to staff は利用者を職員に限る意味になり得る。両方を示すなら restrict access to the files to staff のように区別する。能動の restrict oneself では主語に対応する myself、yourself、ourselves などを使う。be restricted to には動詞 restrict の受動用法があり、再帰代名詞を省略した形ではない。ただし、上の被害・現象の分布・参加資格の例のように、形容詞的な状態表現との境界が重なる場合もある。状態を述べることや、制限する主体が書かれていないことだけで形容詞とは判断しない。restrict は他動詞なので「行動が制限された」は My movements were restricted. とし、My movements restricted. とはしない。形容詞 restricted の明確な例としては、語義2の a restricted range、語義3の a restricted area を参照。  
 
 【類義語】
 
@@ -146,15 +161,15 @@ tags: []
 例: The project will expand access to digital learning materials.  
 訳: その事業は、デジタル教材を利用できる機会を広げる。  
 
-2. 【形容詞・限定/叙述】限られた、自由の少ない
+2. 【形容詞・限定/叙述（restricted）】限られた、自由の少ない
 
-【日本語訳・定義】restricted の形で、量・種類・空間・行動の自由などが限られている状態を表す。何かを制限する行為そのものより、利用できる幅や動ける余地が少ないという性質に重点がある。現象の発生・分布・影響が特定の範囲にとどまる場合にも使い、許可や禁止を伴うとは限らない。  
+【日本語訳・定義】ここでは restricted の形容詞用法を扱う。量・種類・空間・行動の自由などが限られ、利用できる幅や動ける余地が少ないことを表す。現象の発生・分布・影響が特定の範囲にとどまる場合にも使い、許可や禁止を伴うとは限らない。  
 
 【頻度】〈6/10〉  
 
 【レジスター/領域】一般、仕事、説明文。  
 
-【文法パターン】a restricted range of 〈物〉／in a restricted space／become more restricted／feel restricted by 〈制約要因〉／be restricted in one's 〈movements/choices〉／be restricted to 〈場所/範囲〉／not be restricted to 〈場所/集団〉  
+【文法パターン】a restricted range of 〈物〉／in a restricted space／become more restricted／feel restricted by 〈制約要因〉／be restricted in one's 〈movements/choices〉  
 
 【コロケーション・構文例】
 
@@ -178,17 +193,7 @@ tags: []
 例: She felt restricted by the rigid format of the assignment.  
 訳: 彼女は、課題の形式が厳格に決まっていて自由が利かないと感じた。  
 
-・be restricted to 〈場所/範囲〉  
-用途: 被害や影響などが一定の範囲にとどまることを述べる。  
-例: The damage was restricted to the roof; the rooms below were unaffected.  
-訳: 被害は屋根だけにとどまり、下の部屋には影響がなかった。  
-
-・not be restricted to 〈場所/集団〉  
-用途: 問題や現象が一部の場所・集団だけに限られないと述べる。  
-例: These communication problems are not restricted to large organizations.  
-訳: こうした意思疎通の問題は、大きな組織だけに見られるものではない。  
-
-【語法・注意】a restricted choice と The choice is restricted. のように限定・叙述の両方で使える。very restricted、more restricted のような程度表現も可能。形容詞を名詞の前に置く際、restricted range の間にハイフンは要らない。restricted の「制限されている」と restrictive の「制限を課す」を区別する。a restricted choice は選択肢が少ないこと、a restrictive rule は人の選択を狭める規則を表す。The damage was restricted to the roof. は被害の範囲、語義3の Access is restricted to staff. は許可の対象を示す。同じ be restricted to でも、主語と後続する対象から区別する。語義3の a restricted area は普通、単に面積の小さい区域という意味ではない。  
+【語法・注意】a restricted range のような限定用法と、Our options became more restricted. のような叙述用法がある。very restricted、more restricted のような程度表現も可能。restricted の「制限されている」と restrictive の「制限を課す」を区別する。a restricted choice は選択肢が少ないこと、a restrictive rule は人の選択を狭める規則を表す。語義1に示した The damage was restricted to the roof. は被害の範囲、Access is restricted to staff. は許可の対象を示すが、この意味の違いだけで受動か形容詞かが決まるわけではない。be restricted to の境界は語義1の説明を参照。語義3の a restricted area は普通、単に面積の小さい区域という意味ではない。  
 
 【類義語】
 
@@ -222,15 +227,15 @@ tags: []
 例: The design allows unrestricted movement of the arms.  
 訳: その設計により、腕を自由に動かせる。  
 
-3. 【形容詞・限定/叙述】許可された人に限られた、公開が制限された
+3. 【形容詞・限定/叙述（restricted）】利用が制限された、公開が制限された
 
-【日本語訳・定義】restricted の形で、場所・情報・サービスなどを利用できる人が、許可や一定の資格を持つ人に限られていること。区域なら立入りの制限、資料なら閲覧・配布の制限を表す。  
+【日本語訳・定義】ここでは restricted の形容詞用法で、場所・情報・サービスなどの利用や公開に、規則・条件による制限があることを表す。許可や資格を持つ人だけが利用できる場合に加え、利用時間・利用できる範囲・利用方法などが限られる場合も含む。区域なら立入りの制限、資料なら閲覧・配布の制限を表す。  
 
 【頻度】〈6/10〉  
 
 【レジスター/領域】施設の案内、組織内の規則、情報管理。文書の秘密区分としても使われるが、正式な分類名や基準は制度により異なる。  
 
-【文法パターン】a restricted area／a restricted document／restricted access to 〈場所/情報〉／be restricted to 〈許可された人/対象〉  
+【文法パターン】a restricted area／a restricted document／restricted access to 〈場所/情報〉／remain restricted to 〈許可された人/利用範囲〉  
 
 【コロケーション・構文例】
 
@@ -242,26 +247,26 @@ tags: []
 ・a restricted document  
 用途: 閲覧や配布に制限がある資料を指す。  
 例: This is a restricted document and must not be shared outside the project team.  
-訳: これは閲覧・配布が制限された文書であり、プロジェクトチームの外に共有してはいけません。  
+訳: これは閲覧・配布が制限された文書であり、プロジェクトチーム以外の人と共有してはいけません。  
 
 ・restricted access to 〈場所/情報〉  
-用途: 自由には利用できないことを説明する。  
+用途: 利用者・時間・範囲・方法などに制限があり、自由には利用できないことを説明する。  
 例: The archive provides restricted access to these private letters for approved researchers only.  
 訳: その記録保管庫では、許可を受けた研究者だけに、これらの私信の閲覧を認めている。  
 
-・be restricted to 〈許可された人/対象〉  
-用途: 利用や参加が認められる対象を示す。  
-例: The online discussion is restricted to registered members.  
-訳: そのオンラインの議論に参加できるのは、登録会員だけです。  
+・remain restricted to 〈許可された人/利用範囲〉  
+用途: 利用条件の制限が引き続きある状態を述べる。  
+例: Internet access remains restricted to work-related websites.  
+訳: インターネットの利用は、引き続き業務関連のサイトに限られている。  
 
-【語法・注意】restricted は「誰にも許されない」という意味ではなく、許可の範囲があることを示す。a restricted area の形が特によく使われ、Access is restricted. のような叙述も可能。資料に Restricted と表示されていても、それだけで全ての国・組織で同じ秘密区分になるとは限らない。語義1の The guard restricted access. は制限した行為、restricted access は制限付きの利用という性質を表す。語義2の restricted space「狭い空間」とは制限の対象が異なる。また、英国の交通関係で restricted area と言う場合は、速度・駐停車などに規制がある区域を指すこともある。この用法は、許可された人だけが入れる区域とは区別する。  
+【語法・注意】restricted は「誰にも許されない」とは限らず、誰が・いつ・何を・どのように利用できるかに制限があることを示す。a restricted area のような限定用法と、Access remains restricted. のような叙述用法がある。be restricted to は受動との境界が重なるため、語義1で構文と例をまとめて扱う。資料に Restricted と表示されていても、それだけで全ての国・組織で同じ秘密区分になるとは限らない。語義1の The guard restricted access. は制限した行為、restricted access は制限付きの利用という性質を表す。語義2の restricted space「狭い空間」とは制限の対象が異なる。また、英国の交通関係で restricted area と言う場合は、速度・駐停車などに規制がある区域を指すこともある。この用法は、許可された人だけが入れる区域とは区別する。  
 
 【類義語】
 
 ・off-limits  
 定義: 立入りや利用が認められていない。  
 頻度: 〈5/10〉  
-違い: 指定された人に対して禁止されている点が強い。restricted は、許可された人には利用可能という仕組みに重点がある。  
+違い: 指定された人に対して禁止されている点が強い。restricted は全面的な禁止に限らず、利用できる人・時間・範囲などに条件がある場合にも使う。  
 例: The workshop is off-limits to visitors while the machines are running.  
 訳: 機械の運転中、訪問者は作業場に立ち入れない。  
 
