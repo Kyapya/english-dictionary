@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra ultra
 created_at: 2026-10-03
-updated_at: 2026-10-03
+updated_at: 2026-10-04
 checked: true
 tags: []
 ---
@@ -28,7 +28,7 @@ tags: []
 
 ＃コアイメージ
 
-続いていた出来事・状態・行動に区切りが付き、それ以上続かなくなること。自ら止まる場合、その行為をやめる場合、停止そのものを名詞で捉える場合に分かれる。  
+続いていた出来事・状態・行動に区切りが付き、それ以上続かなくなること。語義1～3はこの動詞の基本義を構文別に整理したもので、語義4は停止そのものを捉える名詞用法。  
 
 ・続いていた出来事に付く区切り → 「やむ、止まる、終わる」（語義1）  
 ・続いていた行為や状態に付く区切り → 「～しなくなる、～するのをやめる」（語義2）  
@@ -150,7 +150,7 @@ tags: []
 ・cease to be + 〈名詞句/形容詞〉  
 用途: 以前の身分・状態・性質ではなくなることを表す。  
 例: The rule ceased to be relevant once the system changed.  
-訳: 制度が変わると、その規則は意味を持たなくなった。  
+訳: 制度が変わると、その規則は新しい状況にそぐわなくなった。  
 
 ・cease to exist  
 用途: 組織・仕組み・存在などがなくなることを述べる。  
@@ -162,7 +162,7 @@ tags: []
 例: Her ability to find simple solutions never ceases to amaze me.  
 訳: 彼女が簡単な解決策を見つける力には、いつも驚かされる。  
 
-【語法・注意】cease to work と cease working はどちらも「働く・動くのをやめる」で、stop working と stop to work のような意味の違いにはならない。stop to do は「～するために、それまでの行動を中断する」。存在・状態には cease to exist、cease to be important の形がよく使われる。cease someone to do の形で「人にやめさせる」とは言わず、stop someone from doing などを使う。never ceases to amaze は「驚かせることをやめない」から「いつも驚かされる」という肯定的な継続を表す。ただし文脈によっては、呆れや皮肉にもなる。It never ceases to amaze me how patient she is. のように、何に驚くかを後ろの節で示すこともできる。  
+【語法・注意】cease to work と cease working はどちらも「働く・動くのをやめる」で、stop working と stop to work のような意味の違いにはならない。stop to do は「～するために、それまでの行動を中断する」。存在・状態には cease to exist、cease to be important の形がよく使われる。cease someone to do の形で「人にやめさせる」とは言わず、stop someone from doing などを使う。never ceases to amaze は、驚かせることが途切れず、繰り返し驚かされることを表す。感心だけでなく、文脈によっては呆れや皮肉にもなる。It never ceases to amaze me how patient she is. のように、何に驚くかを後ろの節で示すこともできる。  
 
 【類義語】
 
@@ -174,9 +174,9 @@ tags: []
 訳: 彼は食事中に携帯電話を見るのをやめた。  
 
 ・no longer  
-定義: 以前はそうだったことが、今はそうではない。  
+定義: 以前は成立していた行為・状態が、問題にする時点ではもう成立していない。  
 頻度: 〈9/10〉  
-違い: 動詞ではなく副詞句で、no longer works のように否定的な状態変化を表す。cease to work は「動かなくなる」という変化を動詞で述べる。  
+違い: 動詞ではなく副詞句で、「もう～ない」を表す。no longer works は以前は動いていたものが現在は動かないという状態を述べ、ceased to work は「動かなくなった」という変化を述べる。  
 例: This key no longer opens the front door.  
 訳: この鍵では、もう玄関のドアは開かない。  
 
@@ -240,7 +240,7 @@ tags: []
 例: The commander ordered the soldiers to cease fire.  
 訳: 指揮官は兵士たちに射撃をやめるよう命じた。  
 
-【語法・注意】名詞目的語を取る They ceased production. と、語義2の -ing形を取る They ceased producing cars. を区別する。受動態は形式上可能だが、日常的には Production ceased. の自動詞形や Production was halted. の方が分かりやすいことが多い。目的語は活動を表す語が中心で、人を直接置いて cease him とすることはできない。Cease fire! は動詞 cease と名詞 fire の組合せで、a ceasefire「停戦」と品詞が異なる。finish the work は作業を完了することを表せるが、cease work は途中でも作業をやめることを表す。  
+【語法・注意】They ceased production. は名詞目的語、語義2の They ceased producing cars. は -ing形を取る。どちらも生産の停止を述べており、別々の基本義というより構文の違いとして捉える。受動態は形式上可能だが、日常的には Production ceased. の自動詞形や Production was halted. の方が分かりやすいことが多い。目的語は活動を表す語が中心で、人を直接置いて cease him とすることはできない。Cease fire! は動詞 cease と名詞 fire の組合せで、a ceasefire「停戦」と品詞が異なる。finish the work は作業を完了することを表せるが、cease work は途中でも作業をやめることを表す。  
 
 【類義語】
 
