@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra ultra
 created_at: 2026-10-03
-updated_at: 2026-10-03
+updated_at: 2026-10-04
 checked: true
 tags: []
 ---
@@ -13,7 +13,7 @@ tags: []
 ＃発音記号
 
 米: /pɚˈspektɪv/｜英: /pəˈspektɪv/  
-3音節で、第2音節に強勢を置く。第1音節は米音では /ɚ/、英音では /ə/ で、米音に r の響きがある。第2音節の母音は /e/、第3音節は /ɪ/。語末は /v/ で、/f/ にしない。  
+3音節で、第2音節に強勢を置く。第1音節の母音は米音では /ɚ/、英音では /ə/ で、米音に r の響きがある。第2音節の母音は /e/、第3音節の母音は /ɪ/。語末は /v/ で、/f/ にしない。  
 
 ＃語源
 
@@ -29,7 +29,7 @@ tags: []
 ある位置・立場から対象を捉え、物同士の位置や物事の関係を見ること。考え方の違い、全体の中での重要度、目に映る奥行きへとつながる。  
 
 ・ある立場から捉える物事の関係 → 「観点、見方」（語義1）  
-・全体から捉える物事の重要度 → 「釣り合いの取れた見方、広い視野」（語義2）  
+・全体から捉える物事の重要度 → 「釣り合いの取れた見方、重要度を適切に判断する感覚」（語義2）  
 ・見る位置から捉える奥行きの表現 → 「遠近法、遠近感、透視図」（語義3）  
 ・見る位置から捉える奥行きとの関係 → 「遠近法の、遠近法で描いた」（語義4）  
 ・見る位置から捉える広がりのある景色 → 「眺め、遠景」（語義5）  
@@ -110,7 +110,7 @@ tags: []
 例: Let's look at the problem from another angle.  
 訳: 別の角度からその問題を考えてみましょう。  
 
-2. 【名詞・不可算】釣り合いの取れた見方、広い視野
+2. 【名詞・不可算】釣り合いの取れた見方、重要度を適切に判断する感覚
 
 【日本語訳・定義】ある出来事や問題を全体の中に位置づけ、実際の大きさや重要度を釣り合いよく捉えること、またはその判断力。一つの失敗などを過大視せずに見る場合によく使うが、単に楽観的に考えたり問題を軽視したりすることではない。  
 
@@ -118,7 +118,7 @@ tags: []
 
 【レジスター/領域】一般、助言、報道、議論。  
 
-【文法パターン】keep something in perspective／put something in/into perspective／get something in/into perspective／gain perspective／lose perspective／a sense of perspective／get out of perspective  
+【文法パターン】keep something in perspective／put something in/into perspective／get something in/into perspective／gain perspective／lose perspective／a sense of perspective／things get out of perspective／let things get out of perspective  
 
 【コロケーション・構文例】
 
@@ -138,9 +138,9 @@ tags: []
 訳: その挫折を冷静に捉え直すには、数日が必要だった。  
 
 ・gain perspective  
-用途: 経験や時間によって広い視野を得る。  
+用途: 経験や時間を通して、物事を全体の中に位置づけ、重要度を適切に捉えられるようになる。  
 例: Taking a break helped me gain perspective and see that the disagreement was minor.  
-訳: 少し休んだことで視野が広がり、あの意見の食い違いは小さなものだと分かった。  
+訳: 少し休んだことで全体を冷静に捉えられるようになり、あの意見の食い違いは小さなものだと分かった。  
 
 ・lose perspective  
 用途: 一部のことに気を取られて全体の釣り合いが見えなくなる。  
@@ -152,7 +152,12 @@ tags: []
 例: Her sense of perspective helped the team stay calm after the mistake.  
 訳: 彼女が物事を釣り合いよく見ていたおかげで、ミスの後もチームは冷静でいられた。  
 
-【語法・注意】この意味の perspective は通常数えず、gain perspective、lose perspective とする。gain a new perspective は語義1の「新たな見方を得る」。put the figure into perspective は比較や背景を示して数値の意味を理解させる表現で、数値を小さく見せることに限定しない。in perspective はここでは「全体の中で適切に捉えられて」であり、語義3の「遠近法が合っている」とは文脈で区別する。  
+・let things get out of perspective  
+用途: 物事の重要度を釣り合いよく捉えられなくなることを表す。get の主語に当たるのは things。  
+例: After one bad review, I let things get out of perspective and thought my career was over.  
+訳: たった一度の悪い評価で、物事の重要度を見誤り、自分のキャリアは終わりだと思ってしまった。  
+
+【語法・注意】この意味の perspective は通常数えず、gain perspective、lose perspective とする。get out of perspective の主語は典型的に things、problems などの物事で、その重要度が釣り合いを欠いて捉えられることを表す。人が適切な判断力を失うことは I lost perspective のように述べる。I let things get out of perspective では、I は let の主語であり、get の主語に当たるのは things。gain a new perspective は語義1の「新たな見方を得る」。put the figure into perspective は比較や背景を示して数値の意味を理解させる表現で、数値を小さく見せることに限定しない。in perspective はここでは「全体の中で適切に捉えられて」であり、語義3の「遠近法が合っている」とは文脈で区別する。  
 
 【類義語】
 
@@ -286,9 +291,9 @@ tags: []
 訳: 私たちの部屋からは港が見える。  
 
 ・vista  
-定義: 遠くまで広がる美しい眺め。  
+定義: 遠くまで見渡せる眺め。特に美しい景色について使う。  
 頻度: 〈4/10〉  
-違い: 開けた景色の広がりや見応えを表しやすい。perspective は距離や見える位置関係にも注意を向ける。  
+違い: この意味の perspective と広く重なるが、vista は特に美しさや見応えを伴う眺めを表しやすい。どちらも改まった描写で使い、日常的な「眺め」には view が一般的。  
 例: A broad vista of fields opened beyond the gate.  
 訳: 門の向こうには、畑の広々とした眺めが開けていた。  
 
