@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra ultra
 created_at: 2026-10-03
-updated_at: 2026-10-03
+updated_at: 2026-10-04
 checked: true
 tags: []
 ---
@@ -21,7 +21,7 @@ tags: []
 
 ＃語形成
 
-・accessible: 形容詞。「近づける、利用できる、理解しやすい」。accessible to someone とする。  
+・accessible: 形容詞。「近づける、利用できる、理解しやすい」。誰にとって利用・理解できるかを示すときは accessible to someone。単独でも使え、accessible by car は交通手段、accessible via 〈経路〉は到達経路を示す。  
 ・inaccessible: 形容詞。「近づけない、利用できない」。技術的制約・立地・費用など理由は文脈で決まる。  
 ・accessibility: 名詞。「利用しやすさ、到達しやすさ」。障害の有無などにかかわらず利用できるようにする文脈でも使う。  
 ・access road: 複合名詞。「施設などへの進入路」。中心となる名詞は road なので a road、roads のように数えられる。  
@@ -34,7 +34,7 @@ tags: []
 ・対象に届いて利用できる機会 → 「利用・接近の機会や権利」（語義1）  
 ・対象に届いて利用する行為 → 「利用する、情報を取り出す」（語義2）  
 ・対象に届いて入るための経路 → 「入るための道、到達手段」（語義3）  
-・対象に届いて入る行為 → 「場所に入る、たどり着く」（語義4）  
+・対象に届く移動や内部への到達 → 「場所に入る、たどり着く」（語義4）  
 ・対象に届いて行う個々の処理 → 「データへのアクセス操作」（語義5）  
 
 ＃意味・用法・関連表現
@@ -118,7 +118,7 @@ tags: []
 
 2. 【動詞・他動詞】利用する、情報を取り出す
 
-【日本語訳・定義】情報・システム・サービス・資源などを利用できるようになること。また、情報を開く・取り出すなどして利用すること。コンピューター上のファイルを開く場合から、必要な支援や資金を利用する場合まで使える。  
+【日本語訳・定義】情報を開く・取り出す、システムに接続する、サービスや資源を利用すること。また、それらを利用できるようになること。ファイルの閲覧から、必要な支援や資金の利用まで使える。  
 
 【頻度】〈8/10〉  
 
@@ -156,14 +156,14 @@ tags: []
 ・access one's funds  
 用途: 自分の資金を引き出すなどして利用する。  
 例: Customers can access their funds through the mobile app.  
-訳: 顧客はモバイルアプリを通じて、自分の資金を引き出すなどの操作ができる。  
+訳: 顧客はモバイルアプリを通じて、自分の資金を引き出すなどして利用できる。  
 
 ・be accessed by 〈利用者〉  
 用途: 誰がファイルやサービスを使えるかを受動態で示す。  
 例: These records can be accessed only by authorized staff.  
 訳: これらの記録を閲覧できるのは、許可された職員だけです。  
 
-【語法・注意】目的語を直接続ける。他動詞なので access to information ではなく access information。名詞を使うなら gain access to information とする。受動態も普通に使う。accessed、accessing は通常の活用形で、「利用しやすい」は accessible。access a service は利用できるようになることに焦点があり、そのサービスのすべての機能を実際に使い終えたという意味ではない。一般的な相手への「連絡する」を access someone で置き換えず、contact someone や have access to someone を使い分ける。  
+【語法・注意】目的語を直接続ける。他動詞なので access to information ではなく access information。名詞を使うなら gain access to information とする。受動態も普通に使う。accessed、accessing は通常の活用形で、「利用しやすい」は accessible。新たに利用可能になることに限らず、すでに使えるファイルを開いたりサービスを利用したりする場合にも使う。接続・閲覧・利用のどこまでを指すかは、対象と文脈による。一般的な相手への「連絡する」を access someone で置き換えず、contact someone や have access to someone を使い分ける。  
 
 【類義語】
 
@@ -177,7 +177,7 @@ tags: []
 ・use  
 定義: 物・機能・サービスを目的のために使う。  
 頻度: 〈10/10〉  
-違い: 最も広い日常語。access は利用先に到達することや、利用可能になることに焦点を置く。  
+違い: use は、道具で作業するなど、何かを目的のために使う行為を広く表す。access は、情報を開く・システムに接続するなどして利用先に到達し、利用できることや利用する行為に焦点を置く。  
 例: You can use this app to edit photos.  
 訳: このアプリで写真を編集できます。  
 
@@ -196,7 +196,7 @@ tags: []
 
 【レジスター/領域】一般、案内、不動産、交通、施設設計。  
 
-【文法パターン】access to 〈場所〉／access via/through 〈経路〉／access by 〈交通手段〉／wheelchair access／an access 〈road/route/point〉／the only access to 〈場所〉  
+【文法パターン】access to 〈場所〉／access via/through 〈経路〉／access by 〈交通手段〉／wheelchair access／an access road／an access route／an access point／the only access to 〈場所〉  
 
 【コロケーション・構文例】
 
@@ -225,7 +225,7 @@ tags: []
 例: A fallen tree has blocked the access road to the campsite.  
 訳: 倒木でキャンプ場への進入路が塞がれている。  
 
-【語法・注意】通常は access を不可算として使い、a way in、an entrance などとは数え方が違う。特定の経路なら the only access のように the を付けられる。an access road の a は road に対応し、access 自体を数えているわけではない。交通案内の easy access は「行きやすい」という意味で、インターネットへの接続だけを指す語ではない。  
+【語法・注意】通常は access を不可算として使い、a way in、an entrance などとは数え方が違う。特定の経路なら the only access のように the を付けられる。an access road、an access route、an access point は複合名詞で、冠詞 an はそれぞれの中心名詞 road・route・point に対応する。access 自体を数えているわけではない。交通案内の easy access は「行きやすい」という意味で、インターネットへの接続だけを指す語ではない。  
 
 【類義語】
 
@@ -245,7 +245,7 @@ tags: []
 
 4. 【動詞・他動詞】場所に入る、たどり着く
 
-【日本語訳・定義】入口・通路・交通手段などを使って、場所や物の内部に到達すること。建物だけでなく、機器の内部など、作業対象に手が届くようにする場合にも使う。  
+【日本語訳・定義】入口・通路・交通手段などを使って、場所にたどり着いたり、中へ入ったりすること。機器の内部など、作業対象に手が届くようにする場合にも使う。  
 
 【頻度】〈6/10〉  
 
@@ -256,7 +256,7 @@ tags: []
 【コロケーション・構文例】
 
 ・access 〈場所・内部〉  
-用途: 到達して内部に入る、または作業できるようにする。  
+用途: 場所にたどり着く、中へ入る、または対象に手が届いて作業できるようにする。  
 例: Remove the cover to access the battery compartment.  
 訳: カバーを外すと電池収納部に手が届きます。  
 
@@ -282,7 +282,7 @@ tags: []
 ・reach  
 定義: 移動して場所や対象まで届く。  
 頻度: 〈9/10〉  
-違い: 到着・到達が中心で、内部に入ることは必ずしも含まない。access は入る・手を届かせるための経路を意識させる。  
+違い: reach は到着・到達そのものが中心。access は、場所へ行く・入る、対象に手を届かせるための経路や手段を意識させるが、常に内部へ入ることを意味するわけではない。  
 例: We reached the village just before sunset.  
 訳: 私たちは日没の直前に村に着いた。  
 
