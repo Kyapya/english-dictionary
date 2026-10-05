@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra ultra
 created_at: 2026-10-03
-updated_at: 2026-10-03
+updated_at: 2026-10-06
 checked: true
 tags: []
 ---
@@ -36,7 +36,7 @@ tags: []
 
 ＃コアイメージ
 
-もとの源・材料・根拠から、別のものを得る、または別のものが生じるという関係が核となる。何を主語にするかで、「人などが引き出す」と「結果が源に由来する」が分かれる。  
+もとの源・材料・根拠から、別のものを得る、または別のものが生じるという関係が核となる。何を主語にするかで、「人などが引き出す」と「結果が源に由来する」が分かれる。語義6は derived という形の形容詞用法であり、derive 自体を形容詞として使うわけではない。  
 
 ・源から得る利益・資源 → 「～から得る、引き出す」（語義1）  
 ・源から生じる物事 → 「～に由来する、～から派生する」（語義2）  
@@ -101,11 +101,11 @@ tags: []
 
 【語法・注意】derive A from B では A が得られるもの、B が源である。Plants derive energy from sunlight.「植物は太陽光からエネルギーを得る」と言い、Sunlight derives energy to plants. とは言わない。源を主語にするなら Sunlight provides energy for plants. などとする。  
 
-from は前置詞なので後ろは名詞句・代名詞・動名詞になる。derive pleasure from to read ではなく derive pleasure from reading とする。また、derive happiness は「幸福を得る」だが、derive happy とはしない。  
+from は前置詞なので後ろは名詞句・代名詞・動名詞になる。derive pleasure from to read ではなく derive pleasure from reading とする。  
 
 語義2の自動詞と対比すると、The company derives revenue from subscriptions. は「会社が収入を得る」、The revenue derives from subscriptions. は「収入が定期購読料に由来する」。Revenue is derived from subscriptions. は受動形で、得られるものを主語にしている。能動文の主語をそのまま受動形の主語にして The company is derived from subscriptions. とすると、収入の説明にはならない。  
 
-derive from を句動詞として載せる辞書もあるが、from は動かして分離する小辞ではない。代名詞なら derive it from them の語順であり、derive from them it にはしない。通常の用法に再帰代名詞は必要なく、「そこから得る」の意味で derive oneself from としない。  
+derive from を句動詞として載せる辞書もあるが、from は動かして分離する小辞ではない。代名詞なら derive it from them の語順になる。通常の用法に再帰代名詞は必要なく、「そこから得る」の意味で derive oneself from としない。  
 
 物質についての be derived from は「由来する、得られる」という出所の説明であり、天然であること、安全であること、抽出だけで作られることを保証しない。plant-derived などが名詞の前で一つの複合修飾語になるときはハイフンを使い、ingredients derived from plants の後置修飾ではその語順のまま書く。  
 
@@ -174,14 +174,14 @@ derive from を句動詞として載せる辞書もあるが、from は動かし
 ・derive from doing something  
 用途: ある行為が性質や結果の源であることを説明する。  
 例: The savings derive from using less fuel, rather than from cutting staff.  
-訳: その経費削減は、人員削減ではなく燃料の使用量を減らすことによって生じている。  
+訳: その節約分は、人員削減ではなく、燃料使用量の削減によるものだ。  
 
 ・be directly derived from 〈先行する作品・モデル〉  
 用途: 元となったものとの直接的な派生関係を示す。  
 例: Several scenes in the film are directly derived from the original novel.  
 訳: その映画のいくつかの場面は、原作小説を直接の基にしている。  
 
-【語法・注意】The name derives from a local legend. と The name is derived from a local legend. は、どちらも名称の由来を示せる。前者は自動詞、後者は受動形であり、derived をそのまま現在形にして The name derived from ... とすると、現在形ではなく過去形になる。  
+【語法・注意】The name derives from a local legend. と The name is derived from a local legend. は、どちらも名称の由来を示せる。前者は自動詞、後者は受動形である。  
 
 This word derives from Latin. では word 自体が由来する。語義1の This word derives its meaning from context. では its meaning が直接目的語で、word が文脈から意味を得るという他動詞構文である。from 以下だけを見ず、直接目的語の有無を確かめる。  
 
@@ -249,7 +249,7 @@ be derived from は由来・結果の状態にも使え、常に具体的な一�
 ・derive 〈結果〉 by doing something  
 用途: 導出の具体的な操作を示す。  
 例: You can derive the second equation by substituting the expression for x into the first.  
-訳: x の式を最初の式に代入することで、2番目の式を導ける。  
+訳: x を表す式を最初の方程式に代入することで、2番目の方程式を導ける。  
 
 ・be derived using 〈方法・道具〉  
 用途: 結果を主語にして、計算・推論に用いた方法を述べる。  
@@ -312,7 +312,7 @@ derive a formula は「式を導く」で、必ずしも微分することでは
 例: The noun "kindness" is derived by adding -ness to "kind".  
 訳: 名詞 kindness は、kind に -ness を付けて作られる。  
 
-【語法・注意】derive X from Y は「Y から X を作る」で、X と Y を逆にしない。語義2の Kindness derives from kind. は語の側から派生関係を述べ、ここでの We derive kindness from kind. は操作を行う側を主語にしている。  
+【語法・注意】derive X from Y は「Y から X を作る」で、X と Y を逆にしない。語義2の "Kindness" derives from "kind". は語の側から派生関係を述べ、ここでの We derive "kindness" from "kind". は操作を行う側を主語にしている。  
 
 この用法の派生と、cats の複数語尾などの屈折は、言語学では区別される。理論によって derive がより広い形式生成を指すことはあるが、一般的な語形成の説明で「語尾が付けばすべて派生語」と理解しない。  
 
@@ -342,7 +342,7 @@ derive a formula は「式を導く」で、必ずしも微分することでは
 
 【レジスター/領域】語源学・歴史言語学。一般的な会話では trace ... to などのほうが意味を明示しやすい。  
 
-【文法パターン】〈研究者・辞書〉 + derive 〈語・名称〉 from 〈推定される語源〉＝語源を～に求める／〈語・名称〉 + be derived from 〈推定語源〉 by 〈分析者〉＝～に由来すると分析される。受動形だけでは語義2・4とも重なるため、分析者や説への言及が解釈の手掛かりになる。  
+【文法パターン】〈研究者・辞書〉 + derive 〈語・名称〉 from 〈推定される語源〉＝語源を～に求める／〈語・名称〉 + be derived by 〈分析者〉 from 〈推定語源〉＝～に由来すると分析される。受動形だけでは語義2・4とも重なるため、分析者や説への言及が解釈の手掛かりになる。  
 
 【コロケーション・構文例】
 
@@ -356,10 +356,10 @@ derive a formula は「式を導く」で、必ずしも微分することでは
 例: Some historians derive the name from an older word for "hill", but the evidence is uncertain.  
 訳: 一部の歴史家はその名前が「丘」を表す古い語に由来すると考えているが、証拠は確かではない。  
 
-・be derived from 〈語源候補〉 by 〈分析者〉  
+・be derived by 〈分析者〉 from 〈語源候補〉  
 用途: どの語源説を誰が提示しているかを受動形で述べる。  
-例: The place-name is derived from an ancient river-name by one group of scholars.  
-訳: ある研究者のグループは、その地名の由来を古い川の名前に求めている。  
+例: The place-name is derived by some scholars from an ancient river-name, although this etymology is disputed.  
+訳: 一部の研究者は、その地名の由来を古い川の名前に求めているが、この語源説には異論がある。  
 
 【語法・注意】The word derives from Latin.「その語はラテン語に由来する」は語義2。The scholar derives the word from Latin.「その学者はその語の起源をラテン語に求める」はこの語義で、主語と直接目的語の関係が違う。  
 
@@ -374,7 +374,7 @@ derive a formula は「式を導く」で、必ずしも微分することでは
 例: The researchers traced the expression back to a nineteenth-century newspaper.  
 訳: 研究者たちは、その表現の由来を19世紀の新聞までさかのぼった。  
 
-6. 【形容詞・限定／叙述】派生的な
+6. 【形容詞 derived・限定／叙述】派生的な
 
 【日本語訳・定義】derived の専門的な形容詞用法。生物の形質・形質状態などについて、比較の基準となる祖先の状態にはなく、その後の進化で生じたものであることを表す。日常語の「～から得られた」だけではなく、祖先的な状態との対比が中心となる。  
 
@@ -403,7 +403,7 @@ derive a formula は「式を導く」で、必ずしも微分することでは
 
 【語法・注意】derived は「優れた」「より高度な」という価値判断ではない。構造の獲得だけでなく喪失も、基準とする祖先状態からの変化なら派生的であり得る。また、何を祖先・比較集団とするかによって、同じ特徴の位置付けが変わる。  
 
-The compound is derived from a plant. は由来を述べる受動形で語義1・2に属する。The character is derived. はこの生物学的な形容詞用法になり得る。後者を「出所を言い忘れた受動態」と決め付けない。derived trait にはハイフンを入れない。  
+The compound is derived from a plant. は由来を述べる受動形で語義1・2に属する。The character is derived. はこの生物学的な形容詞用法になり得る。derived trait にはハイフンを入れない。  
 
 【類義語】
 
