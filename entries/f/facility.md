@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra ultra
 created_at: 2026-10-03
-updated_at: 2026-10-03
+updated_at: 2026-10-06
 checked: true
 tags: []
 ---
@@ -126,7 +126,7 @@ tags: []
 
 【レジスター/領域】一般語。施設案内、宿泊、教育、職場など。  
 
-【文法パターン】〈sports/leisure/conference/cooking〉 facilities＝運動・余暇・会議・調理の設備／facilities for someone＝ある利用者向けの設備・サービス／facilities for 〈-ing〉＝活動を可能にする設備／have facilities＝設備が整っている／provide facilities＝設備・サービスを提供する／make use of the facilities＝用意された設備を利用する／a range of facilities＝さまざまな設備・サービス  
+【文法パターン】〈sports/leisure/conference/cooking〉 facilities＝運動・余暇・会議・調理の設備／facilities for someone＝ある利用者向けの設備・サービス／facilities for 〈-ing〉＝活動を可能にする設備／have facilities＝設備がある／provide facilities＝設備・サービスを提供する／make use of the facilities＝用意された設備を利用する／a range of facilities＝さまざまな設備・サービス  
 
 【コロケーション・構文例】
 
@@ -205,7 +205,7 @@ tags: []
 ・have a facility for 〈名詞〉  
 用途: 得意な分野を示す。  
 例: Our new interpreter has a remarkable facility for languages.  
-訳: 新しい通訳は、語学に非常に優れた才能がある。  
+訳: 新しい通訳には、語学の非常に優れた才能がある。  
 
 ・have a facility for 〈-ing〉  
 用途: 容易にできる具体的な行為を示す。  
@@ -220,12 +220,12 @@ tags: []
 ・someone’s facility for 〈-ing〉  
 用途: 誰に備わった能力かを所有格で示す。  
 例: Her facility for remembering faces is useful in this job.  
-訳: 顔を覚える彼女の能力は、この仕事に役立っている。  
+訳: 彼女が人の顔をすんなり覚えられることは、この仕事に役立っている。  
 
 ・with facility  
 用途: 作業を行う際の滑らかさ・容易さを表す。  
 例: The pianist moved between the two melodies with remarkable facility.  
-訳: そのピアニストは、二つの旋律を実に巧みに弾き分けた。  
+訳: そのピアニストは、二つの旋律の間を実に滑らかに行き来した。  
 
 ・develop facility in 〈活動・分野〉  
 用途: 練習によって巧みさを身につける。  
@@ -286,7 +286,7 @@ tags: []
 
 【頻度】〈6/10〉  
 
-【レジスター/領域】製品説明、情報技術、サービス案内。特に英語の業務的な文章で使われる。  
+【レジスター/領域】製品説明、情報技術、サービス案内。製品の仕様説明や業務文書などで使われる。  
 
 【文法パターン】a 〈search/recording〉 facility＝検索・録音などの機能／a facility for 〈-ing〉＝～する機能／a facility to 〈動詞原形〉＝～することのできる機能／have the facility to 〈動詞原形〉＝～する機能が備わっている／a facility on 〈機器・サービス〉＝そこに搭載された機能  
 
@@ -317,7 +317,7 @@ tags: []
 例: The timer facility on the camera is easy to use.  
 訳: そのカメラのタイマー機能は使いやすい。  
 
-【語法・注意】a facility for storing files は、システムなら「ファイル保存機能」、物理的な倉庫なら「書類を保管する施設」となり、主語・修飾語・文脈で語義1と分かれる。機能義では a facility to do も用いるが、人の技能を言う語義3では a facility for doing が代表的。日常的な製品紹介では feature や function も広く用いられる。facility は利用できる機能を述べる語で、その機能が無料か、標準装備か、追加オプションかは語だけでは決まらない。  
+【語法・注意】a facility for storing files は、システムなら「ファイル保存機能」、物理的な倉庫なら「書類を保管する施設」となり、主語・修飾語・文脈で語義1と分かれる。機能義では a facility to do も用いるが、人の技能を言う語義3では a facility for doing が代表的。日常的な製品紹介では feature や function も広く用いられる。これらは機能を指す場合に意味が重なり、以下の対比は焦点の違いを示す目安であって、厳密な置換の可否を決める規則ではない。facility は利用できる機能を述べる語で、その機能が無料か、標準装備か、追加オプションかは語だけでは決まらない。  
 
 【類義語】
 
