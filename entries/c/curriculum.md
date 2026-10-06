@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra ultra
 created_at: 2026-10-03
-updated_at: 2026-10-03
+updated_at: 2026-10-06
 checked: true
 tags: []
 ---
@@ -37,7 +37,7 @@ tags: []
 
 【レジスター/領域】教育分野の一般語。学校関係の会話、教育政策、大学や研修の案内に広く使う。  
 
-【文法パターン】a curriculum / the curriculum＝一つの課程／特定の課程／curricula / curriculums＝複数の課程／a curriculum for 〈対象者・課程〉＝～向けの学習課程／the 〈教科名〉 curriculum＝その教科の学習課程／in the curriculum＝教育課程に含まれて／on the curriculum＝教育課程に含まれて（主に英）／across the curriculum＝教科全体にわたって／a curriculum in 〈分野〉＝その分野の教育課程／curriculum + 〈計画・開発などを表す名詞〉＝教育課程の～  
+【文法パターン】a curriculum＝一つの課程／the curriculum＝特定の課程／several curricula / several curriculums＝複数の課程／a curriculum for 〈対象者・課程〉＝～向けの学習課程／the 〈教科名〉 curriculum＝その教科の学習課程／in the curriculum＝教育課程に含まれて／on the curriculum＝教育課程に含まれて（主に英）／across the curriculum＝教科全体にわたって／a curriculum in 〈分野〉＝その分野の教育課程／curriculum + 〈計画・開発などを表す名詞〉＝教育課程の～  
 
 【コロケーション・構文例】
 
@@ -89,14 +89,14 @@ tags: []
 ・curriculum development  
 用途: 教育課程の内容や構成を開発・改善する活動を指す。  
 例: Teachers should have a voice in curriculum development.  
-訳: 教育課程の開発では、教師が意見を述べる機会を持つべきだ。  
+訳: 教師も教育課程の開発に発言権を持つべきだ。  
 
 ・compare curricula（curriculum の複数形）  
 用途: 複数の学校・課程の学習内容を比較する。  
 例: We compared the curricula of three training programmes.  
 訳: 私たちは三つの研修プログラムのカリキュラムを比較した。  
 
-【語法・注意】単数形は curriculum、複数形は curricula または curriculums。These curricula are ... のように、curricula を主語にすると、are など複数主語に対応する動詞形を使う。curriculums を非標準扱いしない。可算名詞なので、一般的な単数の独立名詞句は a curriculum、the curriculum、our curriculum などとする。curriculum development では curriculum が名詞を前から修飾するため、curriculum 自体に冠詞は要らない。in the curriculum は米語で基本的だが英語でも使われ、on the curriculum は特に英国で用いる。地域差は排他的な規則ではない。across the curriculum は「時間割の向こう側」ではなく「教科横断で」。curriculum を「授業の時刻・教室を並べた時間割」と言いたい場面では timetable や class schedule を使う。syllabus は通常、特定の科目・講座の内容や要件を示す計画で、curriculum はより広い学習内容の体系を指しやすい。ただし curriculum にも一教科の学習計画という用法があるので、「必ず学校全体、syllabus は必ず一授業」と一律に分けない。hidden curriculum は、明文化された授業内容とは別に、学校生活や慣行を通して暗黙に身に付く価値観・行動様式を表す教育用語。the national curriculum は特定の国・地域の制度名として使う場合があり、内容や適用範囲は制度ごとに確認する。  
+【語法・注意】単数形は curriculum、複数形は curricula または curriculums。These curricula are ... のように、curricula を主語にすると、are など複数主語に対応する動詞形を使う。curriculums を非標準扱いしない。可算名詞なので、一般的な単数の独立名詞句は a curriculum、the curriculum、our curriculum などとする。curriculum development では curriculum が名詞を前から修飾するため、curriculum 自体に冠詞は要らない。in the curriculum は米語で基本的だが英国英語でも使われ、on the curriculum は特に英国で用いる。地域差は排他的な規則ではない。across the curriculum は「時間割の向こう側」ではなく「教科横断で」。curriculum を「授業の時刻・教室を並べた時間割」と言いたい場面では timetable や class schedule を使う。syllabus は通常、特定の科目・講座の内容や要件を示す計画で、curriculum はより広い学習内容の体系を指しやすい。ただし curriculum にも一教科の学習計画という用法があるので、「必ず学校全体、syllabus は必ず一授業」と一律に分けない。hidden curriculum は、明文化された授業内容とは別に、学校生活や慣行を通して暗黙に身に付く価値観・行動様式を表す教育用語。the national curriculum は特定の国・地域の制度名として使う場合があり、内容や適用範囲は制度ごとに確認する。  
 
 【類義語】
 
