@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra ultra
 created_at: 2026-10-03
-updated_at: 2026-10-04
+updated_at: 2026-10-06
 checked: true
 tags: []
 ---
@@ -13,7 +13,7 @@ tags: []
 ＃発音記号
 
 米・英: /ˈhɪs.tər.i/ または /ˈhɪs.tri/  
-第1音節に主強勢を置く。前者は3音節、後者は中央の弱母音 /ə/ が落ちた2音節の形で、どちらも使われる。3音節形の第2音節にある /r/ は次の母音につながり、英語でも発音する。複数形 histories は語末に /z/ を加える。  
+第1音節に主強勢を置く。前者は3音節で、後者はその第2音節の弱母音 /ə/ が落ちた2音節の形で、どちらも使われる。3音節形の第2音節にある /r/ は次の母音につながり、イギリス英語でも発音する。複数形 histories は語末に /z/ を加える。  
 
 ＃語源
 
@@ -31,7 +31,7 @@ tags: []
 
 ＃コアイメージ
 
-共通核は「過去に何が起き、どのような経過をたどったか」。出来事、その学習・記録、現在に影響する背景をつなぐ。語義7の natural history は歴史的残存義で、時間的な過去ではなく自然の観察・記述を表し、この核から語彙的意味を導けないため個別に参照する。  
+共通核は「過去に何が起き、どのような経過をたどったか」。出来事、その学習・記録、現在に影響する背景をつなぐ。語義7の natural history は古い意味が固定表現に残った「歴史的残存義」で、時間的な過去ではなく自然の観察・記述を表し、この核から語彙的意味を導けないため個別に参照する。  
 
 ・過去の出来事としての経過 → 「歴史、これまでの歩み」（語義1）  
 ・過去の出来事を調べる学問 → 「歴史学、歴史科目」（語義2）  
@@ -63,7 +63,7 @@ tags: []
 ・throughout history  
 用途: 過去の長い期間を通じた傾向を述べる。  
 例: People have used music to tell stories throughout history.  
-訳: 人々は歴史を通じて、物語を伝えるために音楽を使ってきた。  
+訳: 人々は歴史を通して、物語を伝えるために音楽を使ってきた。  
 
 ・the history of 〈国/組織/分野〉  
 用途: 特定の対象が発展してきた過程を述べる。  
@@ -121,7 +121,7 @@ tags: []
 
 【レジスター/領域】教育、研究、一般。科目名として History と大文字にする場合もある。  
 
-【文法パターン】study history／teach history／〈ancient/modern〉 history／art history／a degree in history／a history 〈teacher/class〉  
+【文法パターン】study history／teach history／〈ancient/modern〉 history／art history／a degree in history／a history 〈teacher/class〉／use oral history  
 
 【コロケーション・構文例】
 
@@ -155,7 +155,12 @@ tags: []
 例: Our history class is discussing how to evaluate old letters as evidence.  
 訳: 私たちの歴史の授業では、古い手紙を史料としてどう評価するかを話し合っている。  
 
-【語法・注意】一般的な科目は study history で、通常 study a history とはしない。a history of Rome はローマ史の著作にもなり、語義4。history teacher の history は名詞が別の名詞を修飾する用法。historical teacher は「歴史の先生」の通常の言い方ではない。歴史学は単なる年号の暗記を意味しない。natural history「博物学」は語義7の別の固定表現。  
+・use oral history  
+用途: 当事者への聞き取りを通じて過去を調べる研究方法を用いる。  
+例: The researchers used oral history to study how residents experienced the factory closure.  
+訳: 研究者たちは、住民が工場閉鎖をどう経験したかを調べるためにオーラル・ヒストリーの手法を用いた。  
+
+【語法・注意】一般的な科目は study history で、通常 study a history とはしない。a history of Rome はローマ史の著作にもなり、語義4。history teacher の history は名詞が別の名詞を修飾する用法。historical teacher は「歴史の先生」の通常の言い方ではない。歴史学は単なる年号の暗記を意味しない。oral history は聞き取りとその解釈を通じて過去を研究する分野・方法も指す。聞き取りから生まれた記録を指す用法は語義4。natural history「博物学」は語義7の別の固定表現。  
 
 【類義語】
 
@@ -166,7 +171,7 @@ tags: []
 例: The seminar examines the historiography of the revolution.  
 訳: その演習では、その革命が歴史学でどのように論じられてきたかを検討する。  
 
-3. 【名詞・可算／記録全体では不可算も】経歴、履歴、既往歴
+3. 【名詞・可算／履歴情報を不可算で扱うこともある】経歴、履歴、既往歴
 
 【日本語訳・定義】ある人・物・組織について、それまでに起きたことや行ってきたこと、その記録。a history of ... は特定の経験や問題が過去にあったことを表し、反復や継続を含むことも多い。  
 
@@ -189,7 +194,7 @@ tags: []
 訳: その会社はこれまでも支払いを遅らせてきた。  
 
 ・a history of doing  
-用途: 過去から続く行動傾向を動名詞で示す。  
+用途: 過去に重ねてきた行動・実績を動名詞で示す。現在も続いているとは限らない。  
 例: The organization has a history of supporting local artists.  
 訳: その団体は以前から地元の芸術家を支援してきた。  
 
@@ -228,7 +233,7 @@ tags: []
 例: The editor checked the version history of the document.  
 訳: 編集者は文書の変更履歴を確認した。  
 
-【語法・注意】a history of は悪い事柄だけに使うわけではなく、a history of innovation「革新を重ねてきた実績」にも使う。病歴は一度の発症にも使えるため、「必ず何度も繰り返した」という定義にはしない。of の後に行為を置くなら a history of missing deadlines とし、a history of miss deadlines とはしない。medical history は既往歴だけでなく治療などの関連情報も含み得る。family history of a disease は家族内での病気の履歴で、本人の診断と同じではない。履歴の集合を browsing history、個々の人などの記録を medical histories のように数えられる。  
+【語法・注意】a history of は悪い事柄だけに使うわけではなく、a history of innovation「革新を重ねてきた実績」にも使う。病歴は一度の発症にも使えるため、「必ず何度も繰り返した」という定義にはしない。of の後に行為を置くなら a history of missing deadlines とし、a history of miss deadlines とはしない。medical history は既往歴だけでなく治療などの関連情報も含み得る。family history of a disease は家族内での病気の履歴で、本人の診断と同じではない。一人分の病歴全体も a medical history のように一つの経歴・記録として数えられ、複数なら medical histories となる。一方、閲覧履歴を情報としてまとめて扱う場合は browsing history と無冠詞で用いる。可算性は記録された出来事の件数だけでは決まらず、someone’s history という所有格付きの形だけでも可算・不可算は判別できない。  
 
 【類義語】
 
@@ -281,11 +286,11 @@ tags: []
 訳: その資料館には、元工場労働者への聞き取りを収録した記録がある。  
 
 ・〈written/oral〉 history  
-用途: 記述・伝承の形態を示す。  
+用途: 書かれた歴史叙述と、聞き取りで得られた歴史の記録を示す。  
 例: The researchers compared oral history with written records.  
-訳: 研究者たちは、口述で伝えられた歴史と文書記録を照合した。  
+訳: 研究者たちは、聞き取りによる歴史の記録と文書記録を照合した。  
 
-【語法・注意】a history of a town は「町の歴史をまとめた本」にも「町がたどった経過」にもなるため、book、write などの文脈で判断する。histories は複数の著作・叙述を指せる。history と story は完全な「事実対虚構」ではない。story にも実話はあるが、history はこの語義では実際の過去を記述するものとして提示される。  
+【語法・注意】a history of a town は「町の歴史をまとめた本」にも「町がたどった経過」にもなるため、book、write などの文脈で判断する。histories は複数の著作・叙述を指せる。history と story は完全な「事実対虚構」ではない。story にも実話はあるが、history はこの語義では実際の過去を記述するものとして提示される。oral history は現代の歴史研究では当事者への聞き取りとその記録を中心とし、世代を超えて口伝えにされる oral tradition「口承・口伝」と同じではない。研究分野・方法を指す不可算用法は語義2。  
 
 【類義語】
 
@@ -310,7 +315,7 @@ tags: []
 例: The museum presents a narrative of the city’s growth.  
 訳: その博物館は、都市の発展を一つの物語として伝えている。  
 
-5. 【名詞・不可算／単数形】過去からのいきさつ、因縁
+5. 【名詞・不可算／関係の経緯は単数可算も】過去からのいきさつ、因縁
 
 【日本語訳・定義】人や集団の間に以前から存在する関係や共有した経験、とくに現在の感情や反応を説明する複雑ないきさつ。  
 
@@ -342,7 +347,7 @@ tags: []
 例: There is a lot of history between us, and rebuilding trust will take time.  
 訳: 私たちの間にはこれまでにいろいろあり、信頼を取り戻すには時間がかかる。  
 
-【語法・注意】悪い関係や元恋人同士を示唆することはあるが、それだけに限定されない。have history with someone は背景の共有を述べるため、「その人の歴史を所有している」と直訳しない。have a history of arguments は語義3の「口論してきた過去」で、with の後の相手と of の後の出来事を区別する。明確な一語の同義語は少ないため、機械的に関連語を並べない。  
+【語法・注意】悪い関係や元恋人同士を示唆することはあるが、それだけに限定されない。have history with someone は背景の共有を述べるため、「その人の歴史を所有している」と直訳しない。have a history of arguments は語義3の「口論してきた過去」で、with の後の相手と of の後の出来事を区別する。無冠詞の have history with someone は共有する過去をまとめて捉える。have a history together では一つの関係の経緯として捉えるため a が付く。  
 
 6. 【名詞・不可算／be history の慣用表現】過去のこと、もう終わったもの
 
@@ -376,7 +381,7 @@ tags: []
 例: If he leaks another confidential file, he’ll be history.  
 訳: また機密ファイルを漏らせば、彼はもうここにはいられない。  
 
-【語法・注意】That’s history. は「それは歴史の授業だ」ではない。You’re history. は状況によって「お前は終わりだ」「首だ」、さらに脅迫的な意味にもなり、単なる別れの挨拶には使わない。be ancient history の ancient は、実際に古代の出来事でなくても使える。語義1の make history は歴史に残る重要な出来事を表し、重要性を失うこの用法とは区別する。  
+【語法・注意】この慣用義での That’s history. は「もう過去のことだ」を表す。時間割の科目を指す場面なら「それは歴史の授業だ」という語義2の解釈も成り立つ。You’re history. は状況によって「お前は終わりだ」「首だ」、さらに脅迫的な意味にもなり、単なる別れの挨拶には使わない。be ancient history の ancient は、実際に古代の出来事でなくても使える。語義1の make history は歴史に残る重要な出来事を表し、重要性を失うこの用法とは区別する。  
 
 【類義語】
 
