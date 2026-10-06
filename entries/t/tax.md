@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra ultra
 created_at: 2026-10-04
-updated_at: 2026-10-04
+updated_at: 2026-10-06
 checked: true
 tags: []
 ---
@@ -17,7 +17,7 @@ tags: []
 
 ＃語源
 
-古フランス語 taxer を経て、ラテン語 taxare「評価する、金額を定める、非難する」にさかのぼる。名詞は「定められた負担金」、動詞は「税を課す」「力に負担をかける」などに発達した。ラテン語のさらに古い起源には説明の違いがあるため、現代の意味を単一の語根物語で決めつけない。  
+動詞は古フランス語 taxer などを経て、ラテン語 taxare「評価する、金額を定める、非難する」にさかのぼる。名詞は古フランス語 taxe や中世ラテン語 taxa などに由来し、同じ語源系列に属する。名詞は「定められた負担金」、動詞は「税を課す」「力に負担をかける」などに発達した。ラテン語のさらに古い起源には説明の違いがあるため、現代の意味を単一の語根物語で決めつけない。  
 同語源の task は、歴史的に「課された負担・仕事」の系統につながる。taxation「課税」、taxable「課税対象の」も同じ語族。taxonomy の tax-「配列」はギリシャ語系の別の連結形で、現代の tax に接尾辞を付けた単語ではない。  
 
 ＃語形成
@@ -28,31 +28,32 @@ tags: []
 ・tax-free〈形容詞・副詞〉非課税の、税金なしで。tax-free income、earn interest tax-free など。  
 ・pre-tax / after-tax〈形容詞〉税引前の／税引後の。pre-tax profit と after-tax profit は税の扱いが異なる。  
 ・overtax〈動詞・他動詞〉過度に課税する、能力などに過度の負担をかける。tax より「過度」を明示する。  
-・taxing〈形容詞〉骨の折れる、負担の大きい。単なる課税動作の進行形と区別し、語義4で扱う。  
-・taxed〈過去形・過去分詞〉課税された、負担をかけられた。heavily taxed income、sorely taxed patience など、修飾されるものと文脈で意味を判断する。  
+・taxing〈形容詞〉骨の折れる、負担の大きい。動詞 tax の現在分詞と同形で、課税や負担を表す進行形とも区別する。独立した形容詞の用法は語義4で扱う。  
 
 ＃コアイメージ
 
-共通核は「金銭・能力・労力にかかる負担」。税として求められる金銭と、力や余裕を大きく使わせる負担をつなぐ。語義7の訴訟費用の査定と語義8の非難は歴史的残存義で、金額を決定すること・人を責めること自体の語彙的意味はこの核から導けないため個別に参照する。  
+共通核は「金銭・能力・労力にかかる負担」。税として求められる金銭と、力や余裕を大きく使わせる負担をつなぐ。語義9は、訴訟費用の額を審査・確定する制度的専門義で、単に負担がかかるというこの核からは「額を査定する」という語彙的意味を導けない。語義10は、古い「非難する」の意味が残った歴史的残存義で、この核から人を責める行為の意味を導けないため、どちらも個別に参照する。両方とも現在使われる用法であり、廃語という意味ではない。  
 
-・金銭にかかる公的・組織的な負担 → 「税、税金、団体の賦課金」（語義1）  
-・金銭にかかる公的・組織的な負担を課すこと → 「課税する、税・賦課金を課す」（語義2）  
-・能力や労力に大きな負担をかけること → 「負担をかける、酷使する」（語義3）  
+・金銭にかかる公的な負担 → 「税、税金」（語義1）  
+・金銭にかかる公的な負担を課すこと → 「課税する、税を課す」（語義2）  
+・能力や労力に大きな負担をかけること → 「大きな負担をかける、力を大いに使わせる」（語義3）  
 ・能力や労力への負担が大きい性質 → 「骨の折れる、負担の大きい」（語義4）  
 ・能力や労力にかかる大きな負担 → 「重い負担」（語義5）  
 ・金銭的な負担に対応する車両税の手続き → 「車両税の手続きをする」（語義6）  
+・金銭にかかる団体内の負担 → 「団体の賦課金」（語義7）  
+・金銭にかかる団体内の負担を課すこと → 「団体の賦課金を課す」（語義8）  
 
 ＃意味・用法・関連表現
 
-1. 【名詞・可算／不可算】税、税金、団体の賦課金
+1. 【名詞・可算／不可算】税、税金
 
-【日本語訳・定義】国や自治体などの公的機関が、所得・財産・取引などに対して法に基づき負担を求める金銭。税金全体や税額は不可算、個々の税の種類や制度は可算として扱える。限られた組織の文脈では、団体が会員・加盟団体に課す運営費などの賦課金も指す。  
+【日本語訳・定義】国や自治体などの公的機関が、所得・財産・取引などに対して法に基づき負担を求める金銭。税金を金銭的な負担としてまとめて不可算の tax で表すほか、支払う税金全体を taxes とも表す。個々の税や課税制度は a tax のように可算として扱える。団体内の賦課金は語義7。  
 
 【頻度】〈9/10〉  
 
-【レジスター/領域】一般、生活、経済、行政。団体内の賦課金という用法は、労働組合などの組織運営に限定され、一般の税義より遭遇頻度が低い。  
+【レジスター/領域】一般、生活、経済、行政。  
 
-【文法パターン】pay tax／pay taxes／a tax on 〈対象〉／income tax／sales tax／raise taxes／before tax／after tax／include tax／do one’s taxes／a per capita tax  
+【文法パターン】pay tax／pay taxes／a tax on 〈対象〉／income tax／sales tax／raise taxes／before tax／after tax／include tax／do one’s taxes  
 
 【コロケーション・構文例】
 
@@ -106,12 +107,7 @@ tags: []
 例: I spent Sunday afternoon doing my taxes.  
 訳: 日曜日の午後は税金の申告作業をして過ごした。  
 
-・a per capita tax  
-用途: 団体の文脈で、人数に応じて課す運営費などの賦課金を示す。  
-例: The union pays a per capita tax to the federation based on its membership.  
-訳: その労働組合は、組合員数に応じた賦課金を連合組織に納めている。  
-
-【語法・注意】税の種類なら a tax、複数なら taxes。金額・制度一般なら tax を無冠詞で使える。pay tax は特に英語、pay taxes は特に米語でよく見られるが、地域だけで機械的に分けない。特定の税なら the tax。a tax on income の on は課税対象を示す。do one’s taxes は特に米語で税務申告の準備・処理を指し、単に税を支払う pay taxes とは異なる。tax return は申告書・申告、tax refund は還付金であり、return を「返金」と取り違えない。sales tax、VAT、消費税などは制度が異なるため、個々の制度を確認せず完全な同義語にしない。a tax cut は減税、a tax break は税負担を軽くする優遇措置。 労働組合などの per capita tax は政府への租税ではなく、団体内の賦課金を指す場合がある。ただし per capita tax 自体が常に団体内の金銭を指すわけではなく、支払先と文脈で区別する。  
+【語法・注意】個々の税は a tax、複数なら taxes。taxes は税の種類を列挙せず、支払う税金全体にも使う。金銭的負担をまとめる tax は無冠詞で使える。pay tax は特にイギリス英語、pay taxes は特に米語でよく見られるが、地域だけで機械的に分けない。特定の税なら the tax。a tax on income の on は課税対象を示す。do one’s taxes は特に米語で税務申告の準備・処理を指し、単に税を支払う pay taxes とは異なる。tax return は申告書・申告、tax refund は還付金であり、return を「返金」と取り違えない。sales tax、VAT、消費税などは制度が異なるため、個々の制度を確認せず完全な同義語にしない。a tax cut は減税、a tax break は税負担を軽くする優遇措置。 per capita tax は人数を基準に一人当たりの額を定める税・負担金で、団体内の賦課金を指す場合は語義7。支払先と文脈で区別する。  
 
 【類義語】
 
@@ -136,15 +132,15 @@ tags: []
 例: The tariff increased the cost of imported steel.  
 訳: その関税によって輸入鉄鋼のコストが上がった。  
 
-2. 【動詞・他動詞】課税する、税・賦課金を課す
+2. 【動詞・他動詞】課税する、税を課す
 
-【日本語訳・定義】国・自治体などが、人・組織・所得・財産・商品などを課税の対象とし、税負担を求める。限定的に、団体が会員・加盟団体へ運営費などの賦課金を課すことも表す。  
+【日本語訳・定義】国・自治体などが、人・組織・所得・財産・商品などを課税の対象とし、税負担を求める。団体内で賦課金を課す用法は語義8。  
 
 【頻度】〈8/10〉  
 
-【レジスター/領域】一般、経済、行政。団体内の賦課金を課す用法は、組織運営の文脈に限定される。  
+【レジスター/領域】一般、経済、行政。  
 
-【文法パターン】tax 〈人/所得/商品〉／tax someone on 〈所得など〉／tax something at 〈税率〉／be taxed on 〈所得など〉／be taxed as 〈課税上の分類〉／be heavily taxed／tax 〈members/affiliates〉  
+【文法パターン】tax 〈人/所得/商品〉／tax someone on 〈所得など〉／tax something at 〈税率〉／be taxed on 〈所得など〉／be taxed as 〈課税上の分類〉／be heavily taxed  
 
 【コロケーション・構文例】
 
@@ -178,12 +174,7 @@ tags: []
 例: Fuel is heavily taxed in that country.  
 訳: その国では燃料に重い税金が課されている。  
 
-・tax 〈members/affiliates〉  
-用途: 団体が会員や加盟団体に経費の負担を求める、限定的な用法。  
-例: Under its rules, the federation may tax affiliated unions to cover operating expenses.  
-訳: その連合組織は、規約に基づき、運営費を賄うため加盟組合に賦課金を課すことができる。  
-
-【語法・注意】「税を払う」なら通常 pay tax、「税を課す」なら tax。I tax my salary. は通常、自分の給与に自分で課税するという不自然な意味になるので、I pay tax on my salary. とする。例外的に英語の tax my car は語義6で、所有者側の手続きを表す。tax income と tax someone on their income では、直接目的語の役割が異なる。on は課税対象、at は税率、as は分類。個々の国の課税範囲・税率は単語の意味からは決まらない。  
+【語法・注意】「税を払う」なら通常 pay tax、「税を課す」なら tax。I tax my salary. は通常、自分の給与に自分で課税するという不自然な意味になるので、I pay tax on my salary. とする。例外的にイギリス英語の tax my car は語義6で、所有者側の手続きを表す。tax income と tax someone on their income では、直接目的語の役割が異なる。on は課税対象、at は税率、as は分類。個々の国の課税範囲・税率は単語の意味からは決まらない。taxed は過去形・過去分詞で、heavily taxed income では所得が課税を受けることを示す。  
 
 【類義語】
 
@@ -208,7 +199,7 @@ tags: []
 例: The authority assessed the additional tax due.  
 訳: 当局は追加で納めるべき税額を査定した。  
 
-3. 【動詞・他動詞】負担をかける、酷使する
+3. 【動詞・他動詞】大きな負担をかける、力を大いに使わせる
 
 【日本語訳・定義】人の能力・体力・忍耐・資源などを大きく使わせ、対応に相当の努力を必要とさせる。余裕や限界が試されることを含むが、必ず使い尽くすとは限らない。  
 
@@ -223,7 +214,7 @@ tags: []
 ・tax someone’s patience  
 用途: 忍耐に大きな負担をかける。  
 例: The repeated delays taxed everyone’s patience.  
-訳: 度重なる遅れで、皆の忍耐は限界に近づいた。  
+訳: 度重なる遅れで、皆の忍耐が厳しく試された。  
 
 ・tax someone’s strength  
 用途: 体力を大きく使わせる。  
@@ -255,7 +246,7 @@ tags: []
 例: She tried not to tax herself while recovering from the illness.  
 訳: 彼女は病気からの回復中、無理をしないようにした。  
 
-【語法・注意】tax patience や tax resources の目的語は能力・余裕であり、税金ではない。tax oneself は再帰目的語を取る形で、通常の tax someone と同じ「負担をかける」軸にある。Don’t tax yourself. は「無理をしないで」。be taxed by a difficult task は負担を受ける側の受動態で、oneself を省略した形ではない。tax は大きな負担を示すが、overtax の「過度に」や exhaust の「使い尽くす」と完全に同じではない。The task is taxing. は語義4の形容詞、The task is taxing our resources. は目的語を伴う動詞の進行形。  
+【語法・注意】tax patience や tax resources の目的語は能力・余裕であり、税金ではない。tax oneself は再帰目的語を取る形で、通常の tax someone と同じ「負担をかける」軸にある。Don’t tax yourself. は「無理をしないで」。be taxed by a difficult task は負担を受ける側の受動態で、oneself を省略した形ではない。tax は大きな負担を示すが、overtax の「過度に」や exhaust の「使い尽くす」と完全に同じではない。The task is taxing. は語義4の形容詞、The task is taxing our resources. は目的語を伴う動詞の進行形。sorely taxed patience の taxed は過去分詞で、忍耐が負担を受ける側を表す。  
 
 【類義語】
 
@@ -287,7 +278,7 @@ tags: []
 例: The extra work overtaxed an already exhausted team.  
 訳: 追加の仕事は、すでに疲れ切っていたチームに過度の負担をかけた。  
 
-4. 【形容詞・限定／叙述・taxing】骨の折れる、負担の大きい
+4. 【派生形 taxing・形容詞・限定／叙述】骨の折れる、負担の大きい
 
 【日本語訳・定義】仕事・活動・状況などが多くの精神的・身体的努力を必要とし、疲れや負担を感じさせる。  
 
@@ -437,11 +428,54 @@ tags: []
 ・be taxed until 〈時点〉  
 用途: 車について税の手続きが済んでいる期間を述べる。  
 例: The car is taxed until the end of November.  
-訳: その車は11月末まで車両税の手続きが済んでいる。  
+訳: その車は、11月末までの期間について車両税の手続きが済んでいる。  
 
 【語法・注意】I tax my car. では私が車に税を課すのではなく、所有者側として手続きをする。The government taxes cars. は通常、語義2の課税する側の用法。英国では支払額がなくても車両税の手続きが必要な場合があるため、tax a vehicle を常に「税金を実際に支払う」と限定しない。また、税の手続きだけで運転に必要な他の法的条件まで満たしたことにはならない。車検、保険、車両登録と同じ手続きだと訳さない。  
 
-7. 【動詞・他動詞・法律】訴訟費用を査定する
+7. 【名詞・可算／不可算】団体の賦課金
+
+【日本語訳・定義】団体が運営費などを賄うため、会員や加盟団体に課す金銭的な負担。政府への租税とは区別する。  
+
+【頻度】〈3/10〉  
+
+【レジスター/領域】労働組合などの組織運営。限られた団体・規約の文脈で使う。  
+
+【文法パターン】a per capita tax／pay per capita tax to 〈団体〉  
+
+【コロケーション・構文例】
+
+・a per capita tax  
+用途: 団体の文脈で、人数に応じて課す運営費などの賦課金を示す。  
+例: The union pays a per capita tax to the federation based on its membership.  
+訳: その労働組合は、組合員数に応じた賦課金を連合組織に納めている。  
+
+・pay per capita tax to 〈団体〉  
+用途: 団体に人数基準の賦課金を納めることを述べる。  
+例: Affiliated unions pay per capita tax to the federation each month.  
+訳: 加盟組合は毎月、人数に応じた賦課金を連合組織に納める。  
+
+【語法・注意】per capita は「一人当たりの」。a per capita tax は一つの賦課制度・負担金として数え、pay per capita tax では金銭的負担を不可算で捉える。per capita tax 自体が常に団体内の金銭を指すわけではなく、公的な税なら語義1。団体がその負担を課す動詞用法は語義8で、誰が誰に何を課せるかは各団体の規約による。  
+
+8. 【動詞・他動詞】団体の賦課金を課す
+
+【日本語訳・定義】団体が会員や加盟団体に、運営費などを賄うための金銭的負担を求める。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】労働組合などの組織運営。限られた団体・規約の文脈で使う。  
+
+【文法パターン】tax 〈members/affiliates〉  
+
+【コロケーション・構文例】
+
+・tax 〈members/affiliates〉  
+用途: 団体が会員や加盟団体に経費の負担を求める、限定的な用法。  
+例: Under its rules, the federation may tax affiliated unions to cover operating expenses.  
+訳: その連合組織は、規約に基づき、運営費を賄うため加盟組合に賦課金を課すことができる。  
+
+【語法・注意】直接目的語は賦課金を負担する会員・加盟団体。政府が課税する語義2と形は似るが、ここでは団体内の負担を表す。金銭そのものを目的語にするなら levy a tax on its members のように levy を使う。名詞の賦課金は語義7。  
+
+9. 【動詞・他動詞・法律】訴訟費用を査定する
 
 【日本語訳・定義】訴訟で負担・回収が認められる費用の額を、裁判所や権限のある担当者が審査して定める。  
 
@@ -479,7 +513,7 @@ tags: []
 例: The court will assess the recoverable costs.  
 訳: 裁判所は、回収が認められる訴訟費用を査定する。  
 
-8. 【動詞・他動詞＋前置詞・tax someone with】～したと非難する
+10. 【動詞・他動詞＋前置詞・tax someone with】～したと非難する
 
 【日本語訳・定義】人に過失・不正などがあると指摘して責める。with の後に非難の内容を置く。  
 
