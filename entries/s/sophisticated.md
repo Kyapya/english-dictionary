@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra ultra
 created_at: 2026-10-03
-updated_at: 2026-10-03
+updated_at: 2026-10-06
 checked: true
 tags: []
 ---
@@ -25,7 +25,6 @@ tags: []
 ・unsophisticated: 形容詞「単純な、洗練されていない、経験が浅い」。対象によって評価が変わり、必ずしも強い侮辱ではない。  
 ・sophisticate: 可算名詞では「世慣れた洗練された人」。動詞では「複雑にする、世慣れさせる」などを表すが、日常的な使用は形容詞 sophisticated より限られる。  
 ・sophisticating: sophisticate の現在分詞。sophisticated は同動詞の過去形・過去分詞でもあるが、以下の主要用法では独立した形容詞として扱う。  
-・highly sophisticated: 「高度に発達した、非常に洗練された」という組み合わせ。highly は -ly 副詞なので、通常 highly-sophisticated とハイフンを入れない。  
 
 ＃コアイメージ
 
@@ -90,7 +89,7 @@ tags: []
 例: The new sensor is more sophisticated than the one it replaces.  
 訳: 新しいセンサーは、交換前のものより高度だ。  
 
-【語法・注意】限定用法 a sophisticated device と叙述用法 The device is sophisticated. の両方で使える。very、highly、increasingly、more などで程度を表し、比較級は more sophisticated、最上級は most sophisticated。sophisticateder とはしない。be sophisticated enough to detect… の enough は形容詞の後に置く。見た目が複雑でも仕組みが高度とは限らないため、complicated と常に同じではない。また高度さは「最新」「誤りがない」「常に最善」を保証せず、sophisticated but unreliable「高度だが信頼性に欠ける」も成立する。高度なシステムを形容する場合、通常は形容詞であって、誰かに sophisticate された受動態だと毎回分析する必要はない。  
+【語法・注意】限定用法 a sophisticated device と叙述用法 The device is sophisticated. の両方で使える。very、highly、increasingly、more などで程度を表し、比較級は more sophisticated、最上級は most sophisticated。sophisticateder とはしない。highly sophisticated は「非常に高度な」という副詞と形容詞の組み合わせで、highly は -ly 副詞なので、通常 highly-sophisticated とハイフンを入れない。be sophisticated enough to detect… の enough は形容詞の後に置く。見た目が複雑でも仕組みが高度とは限らないため、complicated と常に同じではない。また高度さは「最新」「誤りがない」「常に最善」を保証せず、sophisticated but unreliable「高度だが信頼性に欠ける」も成立する。高度なシステムを形容する場合、通常は形容詞であって、誰かに sophisticate された受動態だと毎回分析する必要はない。  
 
 【類義語】
 
@@ -116,9 +115,9 @@ tags: []
 訳: 彼らは細部まで作り込んだ予備計画を立てた。  
 
 ・refined  
-定義: 改善を重ね、精度や質が高められている。  
+定義: 細かな改良によって、精度や質が高められている。  
 頻度: 〈6/10〉  
-違い: 元の方法を改良した結果に焦点がある。sophisticated は改良の過程を示さず、現状の高度さを述べられる。  
+違い: 細部を練った精緻さに焦点があり、sophisticated の高度さと重なる。改良の含みはあるが、必ずその過程や以前の方法との比較を話題にするわけではなく、現在の精度や質を評価する場合にも使う。  
 例: A more refined method produced less variable results.  
 訳: より精緻な方法によって、結果のばらつきが小さくなった。  
 
@@ -143,7 +142,7 @@ tags: []
 頻度: 〈8/10〉  
 違い: 機能や水準の程度上の対立。無駄がないという肯定的な評価にもなり得る。  
 例: We only need a basic spreadsheet for these records.  
-訳: この記録には基本的な表計算ソフトだけで十分だ。  
+訳: この記録を管理するには、簡単な表計算シートで十分だ。  
 
 2. 【形容詞・限定／叙述】世慣れた、教養と洗練のある
 
@@ -153,14 +152,14 @@ tags: []
 
 【レジスター/領域】一般語。人物・社交・文化に関する説明。  
 
-【文法パターン】a sophisticated 〈person/traveler/host〉＝世慣れた人・旅行者・もてなし手／be/seem sophisticated＝世慣れている・そう見える／look sophisticated＝外見や振る舞いが洗練されて見える／become/get more sophisticated＝社会経験を積んで世慣れてくる／socially sophisticated＝社交にたけている／be sophisticated about 〈社会的な事柄〉＝その事柄の実情に通じている  
+【文法パターン】a sophisticated 〈person/traveler/host〉＝世慣れた人・旅行者・客をもてなす人／be/seem sophisticated＝世慣れている・そう見える／look sophisticated＝外見や振る舞いが洗練されて見える／become/get more sophisticated＝社会経験を積んで世慣れてくる／socially sophisticated＝社交にたけている／be sophisticated about 〈社会的な事柄〉＝その事柄の実情に通じている  
 
 【コロケーション・構文例】
 
 ・a sophisticated traveler  
-用途: 旅や異文化に慣れた人を表す。  
+用途: 旅や異文化、社交の場に通じた人を表す。  
 例: A sophisticated traveler, she moved easily between formal dinners and crowded street markets.  
-訳: 旅慣れた彼女は、格式ある晩餐の席でも混雑した露店街でも、自然に振る舞った。  
+訳: 旅慣れ、異文化や社交にも通じた彼女は、格式ある晩餐の席でも混雑した露店街でも、自然に振る舞った。  
 
 ・seem sophisticated  
 用途: 話し方や経験から、世慣れた印象を受ける。  
@@ -349,8 +348,8 @@ tags: []
 
 ・sophisticated tastes  
 用途: 文化や食などへの好みの洗練を述べる。  
-例: Her sophisticated tastes in music include chamber works from several traditions.  
-訳: 彼女の洗練された音楽の好みには、さまざまな伝統の室内楽作品が含まれている。  
+例: She has sophisticated tastes in music and enjoys comparing different interpretations of the same work.  
+訳: 彼女は音楽の趣味が洗練されており、同じ作品の異なる解釈を聴き比べるのを楽しんでいる。  
 
 ・look sophisticated  
 用途: 見た目の印象を叙述する。  
