@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra ultra
 created_at: 2026-10-03
-updated_at: 2026-10-03
+updated_at: 2026-10-06
 checked: true
 tags: []
 ---
@@ -24,7 +24,7 @@ tags: []
 ・pleasantly: 副詞「心地よく、感じよく」。pleasantly surprised は「うれしい驚きを感じて」の意味で、驚き方が礼儀正しいということではない。  
 ・pleasantness: 不可算名詞「心地よさ、感じのよさ」。環境や人柄の性質をいう。  
 ・unpleasant: 形容詞「不快な、感じの悪い」。物事にも人にも使う。  
-・pleasantry: 名詞。複数形 pleasantries で、社交上の挨拶や軽い会話を指すことが多い。exchange pleasantries は「挨拶や世間話を交わす」。単に「楽しい物事」全般を表す名詞ではない。  
+・pleasantry: 名詞。複数形 pleasantries で、社交上の挨拶や軽い会話を指すことが多い。exchange pleasantries は「挨拶や世間話を交わす」。単数形では「軽い冗談・おどけた発言」を指すこともある。単に「楽しい物事」全般を表す名詞ではない。  
 
 ＃意味・用法・関連表現
 
@@ -36,7 +36,7 @@ tags: []
 
 【レジスター/領域】日常会話、旅行、生活、接客、一般文章。口語の nice より評価内容を明示しやすいが、堅い専門語ではない。  
 
-【文法パターン】a pleasant 〈experience/surprise/evening〉＝快い経験・うれしい驚き・楽しい夕べ／pleasant 〈weather/surroundings〉＝心地よい天候・環境／something + be/seem/feel + pleasant＝物事が心地よい・心地よく思える／It is pleasant (for someone) to do＝人が～するのは楽しい／something + be pleasant to do＝それを～すると心地よい／find something pleasant＝～を心地よいと感じる／be pleasant enough to do＝～できるほど心地よい  
+【文法パターン】a pleasant 〈experience/surprise/evening〉＝快い経験・うれしい驚き・楽しい夕べ／pleasant 〈weather/surroundings〉＝心地よい天候・環境／something + be/seem/feel + pleasant＝物事が心地よい・心地よく思える／It is pleasant (for someone) to do＝人が～するのは楽しい／something + be pleasant to do＝主語が不定詞内の動詞・前置詞の目的語に対応し、その対象に関わる行為が心地よい／something + be pleasant to listen to＝それを聞くと心地よい／〈場所〉 + be pleasant to work in＝そこで働くと快適だ／find something pleasant＝～を心地よいと感じる／be pleasant enough to do＝～できるほど心地よい  
 
 【コロケーション・構文例】
 
@@ -70,17 +70,22 @@ tags: []
 例: Her voice is pleasant to listen to, even in a noisy room.  
 訳: 彼女の声は、騒がしい部屋でも聞いていて心地よい。  
 
+・be pleasant to work in  
+用途: 主語が、働く場所に当たることを示す。  
+例: With plenty of natural light and fresh air, the room is pleasant to work in.  
+訳: 自然光がたっぷり入り、空気も新鮮なので、その部屋で働くのは快適だ。  
+
 ・find something pleasant  
 用途: ある対象を快いと評価する。  
 例: I found the scent pleasant rather than overpowering.  
 訳: 私にはその香りは強すぎず、心地よく感じられた。  
 
 ・be pleasant enough to do  
-用途: 心地よさが、ある行動を選べる程度にあると示す。  
+用途: ある行為ができるほど十分に心地よいことを示す。  
 例: The weather was pleasant enough to sit outside until sunset.  
 訳: 日が沈むまで外に座っていられるほど、天気は気持ちよかった。  
 
-【語法・注意】「自分がうれしい」は I'm pleased、「経験が楽しい」は The experience is pleasant のように区別する。I'm pleasant は普通、語義2の「私は感じのよい人だ」で、感情の満足を表す形ではない。The music is pleasant to listen to では music が listen to の目的語に当たるので、末尾の to を残し、さらに it は足さない。「会えてうれしい」は It is pleasant to meet you も成立するが、挨拶では Nice to meet you が定型的。比較には more pleasant / most pleasant と pleasanter / pleasantest があり、前者が広く使える。pleasant but dull のように、快さと刺激・面白さを区別できる。  
+【語法・注意】「自分がうれしい」は I'm pleased、「経験が楽しい」は The experience is pleasant のように区別する。I'm pleasant は普通、語義2の「私は感じのよい人だ」で、感情の満足を表す形ではない。The music is pleasant to listen to では music が前置詞 to の目的語に当たるので、末尾の to を残し、さらに it は足さない。The room is pleasant to work in でも room は前置詞 in の目的語に対応し、「その部屋で働くと快適だ」を表す。ここでも末尾の in を残し、in it とはしない。主語は必ずしも行為の直接の対象ではなく、このように行為の場所を表す場合もある。「会えてうれしい」は It is pleasant to meet you も成立するが、挨拶では Nice to meet you が定型的。比較には more pleasant / most pleasant と pleasanter / pleasantest があり、前者が広く使える。pleasant but dull のように、快さと刺激・面白さを区別できる。  
 
 【類義語】
 
@@ -124,7 +129,7 @@ tags: []
 ・disagreeable  
 定義: 感覚や気分に合わず、不快である。  
 頻度: 〈5/10〉  
-違い: pleasant と快・不快の程度上で対立し、unpleasant よりやや改まった響きがある。  
+違い: pleasant と快・不快という評価軸で反対に当たり、unpleasant よりやや改まった響きがある。  
 例: The medicine left a disagreeable taste in my mouth.  
 訳: その薬を飲むと口の中に不快な味が残った。  
 
