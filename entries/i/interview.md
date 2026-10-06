@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra ultra
 created_at: 2026-10-03
-updated_at: 2026-10-04
+updated_at: 2026-10-06
 checked: true
 tags: []
 ---
@@ -13,7 +13,7 @@ tags: []
 ＃発音記号
 
 米: /ˈɪn.tər.vjuː/｜英: /ˈɪn.tə.vjuː/  
-名詞・動詞とも3音節で、第1音節に主強勢を置く。第2音節の母音は弱く、米語では /r/ を伴うが、英語では次に子音 /v/ が来るため通常 /r/ を発音しない。第3音節の /vjuː/ は /v/ と /j/ を続け、間に日本語の母音を入れない。interviewed の語末は /d/、interviews の語末は /z/ で、どちらも音節数は増えない。  
+名詞・動詞とも3音節で、第1音節に主強勢を置く。第2音節の母音は弱く、米語では /r/ を伴うが、イギリス英語では次に子音 /v/ が来るため通常 /r/ を発音しない。第3音節の /vjuː/ は /v/ と /j/ を続け、間に日本語の母音を入れない。interviewed の語末は /d/、interviews の語末は /z/ で、どちらも音節数は増えない。  
 
 ＃語源
 
@@ -24,8 +24,6 @@ view は「見る」という要素と関係し、同じラテン語 videre「�
 
 ・interviewer〈名詞〉面接官、聞き手、取材する人。質問する側を表す。  
 ・interviewee〈名詞〉面接を受ける人、取材される人。語末の -ee に主強勢を置き、interviewer と役割が逆になる。  
-・interviewing〈現在分詞・動名詞〉面接・取材を行うこと。interviewing skills は面接や聞き取りの技術。  
-・interviewed〈過去形・過去分詞〉面接した、取材した。the people interviewed は「面接・取材された人々」で、独立した評価の意味を持つ形容詞ではない。  
 ・re-interview / reinterview〈動詞・他動詞〉再び面接・聞き取りをする。  
 
 ＃コアイメージ
@@ -70,7 +68,7 @@ view は「見る」という要素と関係し、同じラテン語 videre「�
 ・have an interview  
 用途: 面接の予定や経験を述べる。  
 例: I had an interview yesterday and expect to hear back next week.  
-訳: 昨日面接を受けたので、来週には返事が来ると思う。  
+訳: 昨日面接を受け、来週には返事が来ると思っている。  
 
 ・attend an interview  
 用途: 面接に出席することを述べる。  
@@ -89,8 +87,8 @@ view は「見る」という要素と関係し、同じラテン語 videre「�
 
 ・be invited for interview  
 用途: 特にイギリス英語で、選考手続きとして面接に呼ばれることを無冠詞で表す。  
-例: Shortlisted candidates will be invited for interview next month.  
-訳: 選考に残った候補者には、来月の面接の案内が送られる。  
+例: Shortlisted candidates will be invited for interview by email.  
+訳: 選考に残った候補者には、メールで面接の案内が送られる。  
 
 ・at an interview  
 用途: 面接という場での振る舞いを述べる。  
@@ -244,7 +242,7 @@ view は「見る」という要素と関係し、同じラテン語 videre「�
 例: Our hiring team is interviewing all day tomorrow.  
 訳: 採用チームは明日、一日中面接を行う。  
 
-【語法・注意】他動詞の interview someone では主語が質問する側、目的語が候補者。I interviewed the manager. は通常「私がその管理職を面接した」で、「管理職の面接を受けた」なら I was interviewed by the manager. とする。目的語を省いた We are interviewing next week. も採用側の意味になれる。一方、応募者主語の I’m interviewing for a job. は語義5で、目的語がないだけで常に採用側と決まるわけではない。interview someone to do で「相手に何かをするよう面接する」という補文を作らない。  
+【語法・注意】他動詞の interview someone では主語が質問する側、目的語が候補者。I interviewed the manager. は通常「私がその管理職を面接した」で、「管理職の面接を受けた」なら I was interviewed by the manager. とする。目的語を省いた We are interviewing next week. も採用側の意味になれる。一方、応募者主語の I’m interviewing for a job. は語義5で、目的語がないだけで常に採用側と決まるわけではない。interview someone to do で「相手に何かをするよう面接する」という補文を作らない。interviewing は現在分詞・動名詞で、interviewing skills は面接・聞き取りの技術。応募者が主語の進行形なら「面接を受けている」となることもあり、語義5を参照。interviewed は過去形・過去分詞で、the people interviewed は過去分詞が people を後ろから修飾する「面接・取材された人々」。  
 
 【類義語】
 
@@ -253,7 +251,7 @@ view は「見る」という要素と関係し、同じラテン語 videre「�
 頻度: 〈8/10〉  
 違い: 面接以外のテスト・観察も含み、質問する行為そのものは必須でない。  
 例: The exercise is designed to assess each candidate’s communication skills.  
-訳: その課題は、各候補者の伝達力を評価するために設計されている。  
+訳: その課題は、各候補者のコミュニケーション能力を評価するために設計されている。  
 
 ・screen  
 定義: 条件に合うかを調べて候補を絞る。  
@@ -342,7 +340,7 @@ view は「見る」という要素と関係し、同じラテン語 videre「�
 
 【頻度】〈6/10〉  
 
-【レジスター/領域】採用・選考。米語で特によく見られるが、英語でも使われる。  
+【レジスター/領域】採用・選考。米語で特によく見られるが、イギリス英語でも使われる。  
 
 【文法パターン】interview for 〈仕事/コース〉／interview with 〈人/組織〉／interview at 〈組織〉／someone + interview well／someone + interview badly  
 
