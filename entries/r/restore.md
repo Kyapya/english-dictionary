@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra ultra
 created_at: 2026-10-03
-updated_at: 2026-10-03
+updated_at: 2026-10-06
 checked: true
 tags: []
 ---
@@ -53,7 +53,7 @@ tags: []
 ・restore confidence in 〈組織/制度〉  
 用途: 一度損なわれた信頼を取り戻す。  
 例: The independent investigation helped restore confidence in the organization.  
-訳: 独立した調査は、その組織への信頼を回復させる助けになった。  
+訳: 独立した立場で行われた調査は、その組織への信頼回復に役立った。  
 
 ・restore someone's faith in 〈人/物〉  
 用途: 失いかけた信頼や期待を取り戻させる。  
@@ -72,8 +72,8 @@ tags: []
 
 ・restore 〈制度/権利〉  
 用途: 廃止・停止されていた仕組みや権利を再び有効にする。  
-例: The council voted to restore the free evening bus service.  
-訳: 議会は、無料の夜間バス運行を復活させることを議決した。  
+例: The new law restored voting rights to former prisoners.  
+訳: 新しい法律により、元受刑者の選挙権が回復した。  
 
 ・restore someone's sight  
 用途: 失われた視覚を回復させるという意味を表す。  
@@ -157,7 +157,7 @@ tags: []
 ・carefully restore a painting  
 用途: 美術品を慎重な作業で修復する。  
 例: The specialist carefully restored the painting, preserving the artist's original brushwork.  
-訳: 専門家は、画家が描いた元の筆跡を残しながら、その絵を慎重に修復した。  
+訳: 専門家は、画家本来の筆致を保ちながら、その絵を慎重に修復した。  
 
 ・a restored 〈建物/物〉  
 用途: 修復を終えた建物や物を名詞句で示す。  
@@ -284,8 +284,8 @@ tags: []
 
 ・be restored as 〈役職名〉  
 用途: 復帰後の役職を as で示す。  
-例: He was restored as team captain after a season on the sidelines.  
-訳: 1シーズンの間外れていた彼は、再びチームの主将に戻った。  
+例: He was restored as team captain a year after being stripped of the captaincy.  
+訳: 主将の役割を解かれてから1年後、彼は再び主将に復帰した。  
 
 【語法・注意】restore someone to power は人を権力の座に戻すこと、語義1の restore power to a village は村への電力供給を戻すこと。目的語の種類と to の後の語を一緒に見る。be restored as chair では as が戻った役割を示す。to office、to power はこの意味では通常無冠詞、to the throne は the を伴う。復職や復位に制度上の特定の手続きを必ず含む語ではない。  
 
@@ -339,7 +339,7 @@ tags: []
 訳: 博物館は、盗まれていたネックレスを正当な持ち主に返還した。  
 
 ・restore something to someone  
-用途: 返還される人を to で示す。  
+用途: 物を返す相手を to で示す。  
 例: Her father's letters were finally restored to her after decades in a private collection.  
 訳: 父の手紙は何十年もの間個人の所蔵品になっていたが、ついに彼女の手元に返された。  
 
