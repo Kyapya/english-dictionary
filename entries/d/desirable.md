@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra ultra
 created_at: 2026-10-03
-updated_at: 2026-10-03
+updated_at: 2026-10-06
 checked: true
 tags: []
 ---
@@ -23,7 +23,7 @@ tags: []
 
 ・desire: 動詞「強く望む」、名詞「欲求」。desire に -able が付く形として理解でき、綴りでは語末の e が落ちる。  
 ・desirability: 不可算名詞「望ましさ、魅力」。the desirability of a proposal は提案の望ましさをいう。  
-・desirably: 副詞「望ましいほどに、好ましい形で」。日常会話ではあまり多くない。  
+・desirably: 副詞「魅力的に、好ましい形で」。日常会話ではあまり多くない。  
 ・undesirable: 形容詞「望ましくない」。名詞では「好ましくない人物」として人を排除する響きがあり、用いる相手や文脈に注意する。  
 ・desirous: 形容詞「望んでいる」。形式的な desirous of something と、望まれる側を評価する desirable を区別する。  
 
@@ -182,7 +182,7 @@ tags: []
 ・feel desirable  
 用途: 自分が性的な魅力を持つと感じることを表す。  
 例: The romantic attention made him feel desirable again.  
-訳: 恋愛の相手として関心を向けられ、彼は自分にもまだ魅力があると感じた。  
+訳: 恋愛の相手として関心を向けられ、彼は自分に魅力があると再び感じた。  
 
 ・sexually desirable  
 用途: 一般的な適任性ではなく、性的な魅力だと明示する。  
@@ -232,7 +232,7 @@ tags: []
 
 3. 【名詞・可算・主に複数形】望ましいもの、あるとよい条件
 
-【日本語訳・定義】手に入れたい物や好ましい条件を、対象そのものとして指す。特に desirables は、購入・採用・計画などで「必須ではないが、あるとよいもの」の一覧に使われる。人についての用法もあるが、現代の一般的な文章では対象を明示するほうが分かりやすい。  
+【日本語訳・定義】望ましい人・物や好ましい条件を、対象そのものとして指す。名詞自体が「必須ではないもの」に限定されるわけではないが、購入・採用・計画などで essentials と対比すると「必須ではないが、あるとよいもの」を指す。人についての用法もあるが、現代の一般的な文章では対象を明示するほうが分かりやすい。  
 
 【頻度】〈3/10〉  
 
@@ -243,7 +243,7 @@ tags: []
 【コロケーション・構文例】
 
 ・a list of desirables  
-用途: 必須条件とは別に、希望する条件をまとめる。  
+用途: 手に入れたい物や希望する条件を一覧にまとめる。  
 例: We made a list of desirables for our next home, including a balcony.  
 訳: 私たちは次の住まいにあるとよい条件を一覧にし、バルコニーも入れた。  
 
@@ -255,9 +255,9 @@ tags: []
 ・one of the desirables  
 用途: 希望条件のうち一つを指す。  
 例: A second bathroom was one of the desirables, but it was not a requirement.  
-訳: 浴室がもう一つあるとよかったが、必須条件ではなかった。  
+訳: バスルームがもう一つあることは希望条件の一つだったが、必須ではなかった。  
 
-【語法・注意】desirables の -s は名詞の複数形。desirable features の desirable は形容詞なので desirables features とはしない。「望ましさ」という性質は不可算名詞 desirability を使う。desirables は文脈によって単に欲しい物全般を指すため、常に「必須ではない」と定義されるわけではないが、essentials との対比ではその意味が明確になる。  
+【語法・注意】desirables の -s は名詞の複数形。desirable features の desirable は形容詞なので desirables features とはしない。「望ましさ」という性質は不可算名詞 desirability を使う。desirables は文脈によって単に欲しい物全般を指すため、常に「必須ではない」と定義されるわけではないが、essentials との対比ではその意味が明確になる。上の例の bathroom は、特に米語では浴槽やシャワーのないトイレ・洗面室も指すため、「浴室」と限定しない。  
 
 【類義語】
 
