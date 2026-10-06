@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra ultra
 created_at: 2026-10-03
-updated_at: 2026-10-03
+updated_at: 2026-10-06
 checked: true
 tags: []
 ---
@@ -31,20 +31,20 @@ tags: []
 
 ・控えめな範囲にある量や規模 → 「ささやかな、大きくない」（語義1）  
 ・控えめな範囲にある自己の誇示 → 「謙虚な、控えめな」（語義2）  
-・控えめな範囲にある暮らしの装い → 「質素な、飾り気のない」（語義3）  
+・控えめな範囲にある暮らしの豪華さ → 「質素な、ぜいたくでない」（語義3）  
 ・控えめな範囲にある肌の露出や振る舞い → 「露出を控えた、慎みのある」（語義4）  
 
 ＃意味・用法・関連表現
 
 1. 【形容詞・限定／叙述】ささやかな、大きくない
 
-【日本語訳・定義】数量、金額、規模、程度などが、比較する状況に照らしてそれほど大きくないこと。小規模ながら一定の成果がある場合にも使い、必ず「不十分」「ごくわずか」を意味するわけではない。modest success は「一定の、控えめな成功」で、大成功とは区別される。  
+【日本語訳・定義】数量、金額、規模、程度などが、比較する状況に照らしてそれほど大きくないこと。目標が大それていないこと、要求が過大でないこと、主張を大きく言いすぎないことにも使う。小規模ながら一定の成果がある場合にも使い、必ず「不十分」「ごくわずか」を意味するわけではない。modest success は「ささやかな成功」で、大成功とは区別される。  
 
 【頻度】〈8/10〉  
 
 【レジスター/領域】一般文章、報道、ビジネス、日常会話。金額や実績を穏やかに評価する表現として広く使う。  
 
-【文法パターン】a modest 〈increase/budget/income/fee〉＝小幅な増加・限られた予算・多くない収入・比較的安い料金／a modest amount of 〈不可算名詞〉＝それほど多くない量の～／a modest number of 〈複数名詞〉＝それほど多くない数の～／modest 〈success/growth〉＝控えめな成功・成長／something + be/remain + modest＝量や規模が大きくない・大きくないままである／be modest in 〈size/scale/scope〉＝大きさ・規模・範囲が控えめである／of modest means＝収入・資産が多くない  
+【文法パターン】a modest 〈increase/budget/income/fee〉＝小幅な増加・限られた予算・多くない収入・比較的安い料金／a modest amount of 〈不可算名詞〉＝それほど多くない量の～／a modest number of 〈複数名詞〉＝それほど多くない数の～／modest 〈success/growth〉＝控えめな成功・成長／modest 〈aims/ambitions〉＝大それていない目標・願望／modest 〈requirements/demands〉＝過大ではない必要条件・要求／a modest claim＝大げさでない主張／something + be/remain + modest＝量や規模が大きくない・大きくないままである／be modest in 〈size/scale/scope〉＝大きさ・規模・範囲が控えめである／of modest means＝収入・資産が多くない  
 
 【コロケーション・構文例】
 
@@ -76,7 +76,7 @@ tags: []
 ・achieve modest success  
 用途: 大成功ではないが、一定の成果を上げることをいう。  
 例: The campaign achieved modest success in attracting new members.  
-訳: そのキャンペーンは、新しい会員を集めるうえで一定の成果を上げた。  
+訳: そのキャンペーンは、新しい会員を集めるうえでささやかな成果を上げた。  
 
 ・remain modest  
 用途: 数量や規模が引き続き大きくないことを述べる。  
@@ -86,12 +86,27 @@ tags: []
 ・be modest in scale  
 用途: 規模という側面を指定して、計画などが小規模であることを述べる。  
 例: The project is modest in scale but ambitious in its aims.  
-訳: その計画は規模は小さいが、目標は野心的だ。  
+訳: その計画の規模は小さいが、目標は野心的だ。  
 
 ・of modest means  
 用途: 人や家庭が経済的に豊かではないことを穏やかに表す。  
 例: The scholarship is intended for students from families of modest means.  
 訳: その奨学金は、経済的に豊かではない家庭の学生を対象としている。  
+
+・modest aims  
+用途: 目標が大それたものではないことを示す。  
+例: Our aims are modest: we hope to recruit ten new members this year.  
+訳: 私たちの目標は控えめで、今年は新たに10人の会員を集めたいと考えている。  
+
+・modest requirements  
+用途: 必要な設備や条件が過大ではないことを述べる。  
+例: Our requirements are modest: a desk, a chair, and an internet connection.  
+訳: 私たちが必要とするものは多くなく、机と椅子とインターネット接続だけだ。  
+
+・a modest claim  
+用途: 主張する効果や範囲を控えめに限定する。  
+例: The authors make only a modest claim: the method may help in some cases.  
+訳: 著者たちの主張は控えめで、その方法はいくつかの場合に役立つ可能性があるというにとどまる。  
 
 【語法・注意】modest は数値そのものを指定しない。同じ金額でも、大企業の予算としては modest、個人の出費としては large になり得る。a modest income は「多くない収入」で、「謙虚な収入」と直訳しない。modest gains は小幅ながら利益や改善があったことを示し、no gains とは違う。比較は通常 more modest / most modest を用いる。modest in scale は規模の控えめさ、語義2の modest about one's achievements は実績を誇らない態度を表す。modest growth の反対は strong growth や substantial growth などで、immodest growth を機械的に作らない。  
 
@@ -176,7 +191,7 @@ tags: []
 【類義語】
 
 ・humble  
-定義: 自分を特別に偉いとは考えず、他人に対してへりくだっている。  
+定義: 自分を特別に偉いとは考えず、尊大に構えない。  
 頻度: 〈8/10〉  
 違い: modest が能力や実績を誇らない態度に焦点を置くのに対し、humble は自己の重要性についての姿勢をより広く表す。  
 例: Despite her influence, she was humble and willing to learn from others.  
@@ -212,9 +227,9 @@ tags: []
 例: His arrogant manner made it difficult to ask questions.  
 訳: 彼の尊大な態度のせいで、質問しにくかった。  
 
-3. 【形容詞・限定／叙述】質素な、飾り気のない
+3. 【形容詞・限定／叙述】質素な、ぜいたくでない
 
-【日本語訳・定義】住まい、暮らし、設備などが豪華さやぜいたくさを前面に出さず、比較的簡素であること。小規模さと重なることもあるが、ここでは量そのものより生活ぶりや見せ方を評価する。粗悪であることや、所有者が貧しいことまでは意味しない。  
+【日本語訳・定義】住まい、暮らし、設備などが豪華さやぜいたくさを前面に出さず、つつましいこと。装飾や模様が少ないことまで必ずしも意味しない。小規模さと重なることもあるが、ここでは量そのものより生活ぶりや見せ方を評価する。粗悪であることや、所有者が貧しいことまでは意味しない。  
 
 【頻度】〈7/10〉  
 
@@ -244,7 +259,7 @@ tags: []
 例: The restaurant's decor remained modest, with bare wooden tables and white walls.  
 訳: そのレストランの内装は、飾りのない木のテーブルと白い壁という質素なままだった。  
 
-【語法・注意】a modest house は「小さめの家」（語義1）と「質素な家」の両方に解釈できる。広さを問題にするのか、豪華さを問題にするのかを文脈で判断する。modest furnishings は家具の飾り気のなさを、a modest number of chairs は椅子の数の少なさをいう。modest を建物に使っても、建物が人のように謙遜しているという意味ではない。  
+【語法・注意】a modest house は「小さめの家」（語義1）と「質素な家」の両方に解釈できる。広さを問題にするのか、豪華さを問題にするのかを文脈で判断する。modest furnishings は家具・調度品が豪華ではなく質素なことを、a modest number of chairs は椅子の数の少なさをいう。modest を建物に使っても、建物が人のように謙遜しているという意味ではない。  
 
 【類義語】
 
@@ -287,7 +302,7 @@ tags: []
 
 4. 【形容詞・限定／叙述】露出を控えた、慎みのある
 
-【日本語訳・定義】服装が肌や体の線を過度に見せず、または人や振る舞いが性的な注目を引くことを控えていると、ある文化・場面の基準から評価する表現。人については、着替えなどで体を人に見せたがらないこともいう。何を modest とするかは社会や個人で異なり、露出の多さと人の道徳的価値を客観的に結び付ける語ではない。  
+【日本語訳・定義】服装が肌や体の線を過度に見せず、または人の振る舞いや言葉遣いが慎ましいと、ある文化・場面の基準から評価する表現。性的な注目を引くことを控える意味が中心的だが、伝統的には振る舞いや話し方が礼節にかなうという広い意味にも使う。人については、着替えなどで体を人に見せたがらないこともいう。何を modest とするかは社会や個人で異なり、露出の多さと人の道徳的価値を客観的に結び付ける語ではない。  
 
 【頻度】〈5/10〉  
 
@@ -342,7 +357,7 @@ tags: []
 頻度: 〈6/10〉  
 違い: 服装の露出の程度という同じ軸上で反対になる。必ず道徳的な非難を含むわけではない。  
 例: The top was more revealing than he felt comfortable wearing.  
-訳: そのトップスは、彼が気兼ねなく着られると思う程度より露出が多かった。  
+訳: そのトップスは露出が多く、彼は着るのに抵抗を感じた。  
 
 ・immodest  
 定義: ある社会的基準から見て、服装や振る舞いに慎みがない。  
