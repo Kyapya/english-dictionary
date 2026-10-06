@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra ultra
 created_at: 2026-10-03
-updated_at: 2026-10-03
+updated_at: 2026-10-06
 checked: true
 tags: []
 ---
@@ -13,7 +13,7 @@ tags: []
 ＃発音記号
 
 米: /ˈdɑː.mə.neɪt/｜英: /ˈdɒm.ɪ.neɪt/  
-3音節で、第1音節に主強勢を置く。示した米英差は、第1音節の母音が米 /ɑː/・英 /ɒ/、第2音節の母音が米 /ə/・英 /ɪ/ である点。第3音節の -nate はともに /neɪt/。過去形・過去分詞 dominated は語末に /ɪd/ が加わり、dominating は語末の e を落として -ing を付ける。  
+3音節で、第1音節に主強勢を置く。ここで採用した表記では、第1音節の母音が米 /ɑː/・英 /ɒ/、第2音節の母音が米 /ə/・英 /ɪ/ と異なる。ただし、第2音節は弱母音の揺れや辞書の表記方針により、米音にも /ɪ/ と示されることがあり、米英を必ず区別する特徴ではない。第3音節の -nate はともに /neɪt/。過去形・過去分詞 dominated は語末に /ɪd/ が加わる。  
 
 ＃語源
 
@@ -24,31 +24,32 @@ tags: []
 ・domination: 主に不可算名詞「支配、圧倒的な優位」。他者や領域を支配する作用・状態に焦点がある。  
 ・dominant: 形容詞「支配的な、優勢な」。be dominant のように優位にある状態を述べる。動詞の原形 dominate と取り違えない。  
 ・dominance: 主に不可算名詞「優位、支配力」。market dominance は市場での優位を表す。  
-・dominating: 現在分詞のほか、形容詞「支配的な、圧倒的な」。語義5で扱う。  
-・-dominated: 複合形容詞の後半。「～が多数を占める、～に支配された」。male-dominated や family-dominated のように前半が支配的な側を表す。  
+・dominating: 語末の e を落として -ing を付けた現在分詞。形容詞「支配的な、圧倒的な」としての用法は、関連形容詞の語義5で扱う。  
+・-dominated: 複合形容詞の後半。「～が多数を占める、～に支配された」。male-dominated や family-dominated のように前半が支配的な側を表す。関連複合形容詞の語義6で、数の偏りと支配力の違いを扱う。  
 ・domineering: 同系の domineer に由来する形容詞「横柄に支配しようとする」。dominating より、相手に意志を押しつける否定的評価が強い。  
 
 ＃コアイメージ
 
-「ほかを上回る力・比重・存在感を持ち、全体の中で大きな位置を占める」という核。人への支配、競争の優位、話題や景観での目立ち方を区別する。  
+「ほかを上回る力・比重・存在感を持ち、全体の中で大きな位置を占める」という核。人への支配、競争の優位、話題や景観での目立ち方を区別する。語義1〜4は動詞 dominate、語義5・6は関連する形容詞形を扱う。  
 
-・上回る力による相手や領域への支配 → 「支配する、牛耳る／～に支配された、～が中心を占める」（語義1）  
+・上回る力による相手や領域への支配 → 「支配する、牛耳る」（語義1）  
 ・上回る力による競争での優位 → 「圧倒する、優位に立つ」（語義2）  
 ・上回る比重による全体の中心的な位置 → 「大きな部分を占める、中心となる」（語義3）  
 ・上回る高さや存在感による景観での突出 → 「ひときわ高くそびえる、景観を圧する」（語義4）  
 ・上回る力や存在感を備えた性質 → 「支配的な、圧倒的な」（語義5）  
+・上回る数や力を持つ集団が中心にある状態 → 「～に支配された、～が中心を占める」（語義6）  
 
 ＃意味・用法・関連表現
 
-1. 【動詞・他動詞／自動詞、複合形容詞・-dominated】支配する、牛耳る／～に支配された、～が中心を占める
+1. 【動詞・他動詞／自動詞】支配する、牛耳る
 
-【日本語訳・定義】動詞では、人、集団、地域、活動などに対して強い支配力や影響力を持ち、その動きや決定を大きく左右する。発言を独占する場合にも使う。正式な地位や法的な権限があるとは限らず、相手の自由を圧迫する否定的な含みが出ることもある。複合形容詞 -dominated は、前半に示す人や集団が支配する側・多数を占める側であるという状態を表す。  
+【日本語訳・定義】人、集団、地域、活動などに対して強い支配力や影響力を持ち、その動きや決定を大きく左右する。発言を独占する場合にも使う。正式な地位や法的な権限があるとは限らず、相手の自由を圧迫する否定的な含みが出ることもある。  
 
 【頻度】〈8/10〉  
 
 【レジスター/領域】一般文章、報道、政治、仕事、人間関係。支配の記述にも批判にも使える。  
 
-【文法パターン】dominate someone＝人を支配する／dominate 〈a region/an industry/a committee〉＝地域・業界・委員会を支配する／dominate the conversation＝会話を独占する／someone + dominate＝人が主導権を独占する／be dominated by someone/something＝人・組織などに支配される／a male-dominated 〈industry/profession〉＝男性が多数や中心を占める業界・職業（複合形容詞）／a family-dominated company＝一族が支配する会社（複合形容詞）  
+【文法パターン】dominate someone＝人を支配する／dominate 〈a region/an industry/a committee〉＝地域・業界・委員会を支配する／dominate the conversation＝会話を独占する／someone + dominate＝人が主導権を独占する／be dominated by someone/something＝人・組織などに支配される  
 
 【コロケーション・構文例】
 
@@ -77,17 +78,7 @@ tags: []
 例: The committee was dominated by its longest-serving member.  
 訳: その委員会は、最も在任期間の長い委員に牛耳られていた。  
 
-・a male-dominated profession  
-用途: 職業内で男性の割合や影響力が大きいことを述べる。  
-例: She entered a male-dominated profession and later became a senior manager.  
-訳: 彼女は男性中心の職業に就き、後に上級管理職になった。  
-
-・a family-dominated company  
-用途: 特定の一族が経営上の支配力を持つ会社を表す。  
-例: The family-dominated company appointed its first outside director.  
-訳: その一族経営の会社は、初めて社外取締役を任命した。  
-
-【語法・注意】他動詞では dominate the committee と直接目的語を取る。一般的な「委員会を支配する」の表現として dominate over the committee と前置詞を足す必要はない。over を伴う用法も存在するが、基本形は dominate someone/something。be dominated by は受動態で、by の後ろが支配する側となる。male-dominated は多数・影響力の偏りを示し、個々の男性が全員を意図的に支配しているとは限らない。名詞の前では a male-dominated industry とハイフンでつなぎ、通常の受動態なら the industry is dominated by men とする。「自制する」は control oneself が普通で、dominate oneself を基本表現として覚えない。形容詞は dominant なので The company is dominate ではなく The company is dominant、または The company dominates the industry とする。  
+【語法・注意】他動詞では dominate the committee と直接目的語を取る。一般的な「委員会を支配する」の表現として dominate over the committee と前置詞を足す必要はない。over を伴う用法も存在するが、基本形は dominate someone/something。be dominated by は受動態で、by の後ろが支配する側となる。複合形容詞 male-dominated などとの構造の違いは語義6で扱う。「自制する」は control oneself が普通で、dominate oneself を基本表現として覚えない。形容詞は dominant なので The company is dominate ではなく The company is dominant、または The company dominates the industry とする。  
 
 【類義語】
 
@@ -110,7 +101,7 @@ tags: []
 頻度: 〈6/10〉  
 違い: ほかの人に取り分や機会を残さない点を強調する。dominate は強い優位があっても、完全な独占を必ずしも意味しない。  
 例: One guest monopolized the discussion all evening.  
-訳: 一人の客が夜通し議論を独占していた。  
+訳: 一人の客が、その晩ずっと議論を独占していた。  
 
 2. 【動詞・他動詞／自動詞】圧倒する、優位に立つ
 
@@ -194,7 +185,7 @@ tags: []
 ・dominate the headlines  
 用途: ある出来事が報道の主な話題となる。  
 例: The election results dominated the headlines for several days.  
-訳: 選挙結果が数日間、新聞の見出しの中心を占めた。  
+訳: 選挙結果が数日間、主要なニュースとして大きく報じられた。  
 
 ・dominate the agenda  
 用途: 会議などで一つの問題が大きな比重を占める。  
@@ -308,7 +299,7 @@ tags: []
 例: The dark cliffs loomed over the narrow road.  
 訳: 黒い崖が狭い道の上に覆いかぶさるようにそびえていた。  
 
-5. 【形容詞・dominating・主に限定用法】支配的な、圧倒的な
+5. 【関連形容詞・dominating・主に限定用法】支配的な、圧倒的な
 
 【日本語訳・定義】人、性格、影響、存在感、演技や試合ぶりなどが、ほかを強く左右したり、他より際立って強かったりする。dominate の現在分詞からの形容詞用法で、性格については周囲を従わせがちな様子、競技では圧倒的な強さを表す。  
 
@@ -320,27 +311,27 @@ tags: []
 
 【コロケーション・構文例】
 
-・a dominating personality（dominate の形容詞形）  
+・a dominating personality（dominate の現在分詞 dominating の形容詞用法）  
 用途: 周囲の人を強く左右する性格を表す。  
 例: Her dominating personality left little room for other people's opinions.  
 訳: 彼女の支配的な性格のために、ほかの人が意見を述べる余地はほとんどなかった。  
 
-・a dominating presence（dominate の形容詞形）  
+・a dominating presence（dominate の現在分詞 dominating の形容詞用法）  
 用途: 場の雰囲気を大きく左右する存在感を述べる。  
 例: Even in silence, the actor had a dominating presence on stage.  
 訳: その俳優は黙っていても、舞台上で圧倒的な存在感を放っていた。  
 
-・a dominating influence（dominate の形容詞形）  
+・a dominating influence（dominate の現在分詞 dominating の形容詞用法）  
 用途: 判断や活動を強く左右する影響を示す。  
 例: His former coach remained a dominating influence in his career.  
 訳: 元コーチは、彼の競技人生に引き続き強い影響を及ぼしていた。  
 
-・a dominating performance（dominate の形容詞形）  
+・a dominating performance（dominate の現在分詞 dominating の形容詞用法）  
 用途: ほかの競技者を圧倒する試合ぶりを評価する。  
 例: She won the final with a dominating performance from start to finish.  
 訳: 彼女は最初から最後まで圧倒的な強さを見せ、決勝で勝利した。  
 
-・seem dominating（dominate の形容詞形）  
+・seem dominating（dominate の現在分詞 dominating の形容詞用法）  
 用途: 性格について、相手に支配的な印象を与えると述べる。  
 例: He can seem dominating, but he does listen when others disagree.  
 訳: 彼は支配的に見えることもあるが、ほかの人が反対すればきちんと耳を傾ける。  
@@ -385,3 +376,41 @@ tags: []
 違い: 対人場面での自己主張の強弱という軸で対立する。支配されている状態そのものを必ず意味するわけではない。  
 例: Her unassertive manner made it easy for others to interrupt her.  
 訳: 彼女は自己主張が控えめで、ほかの人に話を遮られやすかった。  
+
+6. 【関連複合形容詞・-dominated・限定／叙述】～に支配された、～が中心を占める
+
+【日本語訳・定義】組織や分野などで、複合語の前半に示す集団が数や影響力の点で中心にある状態を表す。male-dominated は男性の割合の高さや影響力の強さを、family-dominated は特定の一族が実権を握ることを表しやすい。人数が多いことと、意思決定を支配することは同一ではなく、何が優勢なのかを文脈から判断する。動詞 dominate の語義1・3に対応する複合形容詞の用法である。  
+
+【頻度】〈6/10〉  
+
+【レジスター/領域】報道、社会や職業の構成、組織の支配関係についての説明。  
+
+【文法パターン】a male-dominated 〈industry/profession〉＝男性が多数や中心を占める業界・職業／a family-dominated company＝一族が実権を握る会社／a profession + be/remain + male-dominated＝職業が男性中心である・そのままである  
+
+【コロケーション・構文例】
+
+・a male-dominated profession  
+用途: 職業内で男性の割合や影響力が大きいことを述べる。  
+例: She entered a male-dominated profession and later became a senior manager.  
+訳: 彼女は男性中心の職業に就き、後に上級管理職になった。  
+
+・a family-dominated company  
+用途: 特定の一族が経営上の支配力を持つ会社を表す。  
+例: The family-dominated company appointed its first outside director.  
+訳: 一族が実権を握るその会社は、初めて社外取締役を任命した。  
+
+・remain male-dominated  
+用途: 男性の割合が高い状態が続いていると述べる。  
+例: The profession remains male-dominated, with women making up only a tenth of its members.  
+訳: その職業は依然として男性中心で、女性は従事者の1割にすぎない。  
+
+【語法・注意】前半の male や family は支配的な側で、後ろの名詞がその影響を受ける分野や組織である。male-dominated は多数・影響力の偏りを示し、個々の男性が全員を意図的に支配しているとは限らない。family-dominated は、単に一族の人が働いているだけでなく、一族の支配力を示す。名詞の前では a male-dominated industry とハイフンでつなぎ、叙述用法でも The industry is male-dominated と書ける。通常の受動態 The industry is dominated by men とは語順・構造が異なる。a dominating personality（語義5）は周囲に強い影響を及ぼす性格で、-dominated の表す向きと区別する。  
+
+【類義語】
+
+・controlled  
+定義: 人や組織の管理・支配の下に置かれた。  
+頻度: 〈8/10〉  
+違い: -dominated の支配関係を表す用法と重なるが、controlled は管理や統制そのものに焦点がある。male-dominated が単に男性の人数の多さを表す場合には置き換えられない。  
+例: The family-controlled company rejected the takeover offer.  
+訳: 一族の支配下にあるその会社は、買収提案を拒否した。  
