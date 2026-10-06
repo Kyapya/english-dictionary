@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra ultra
 created_at: 2026-10-03
-updated_at: 2026-10-03
+updated_at: 2026-10-06
 checked: true
 tags: []
 ---
@@ -21,10 +21,11 @@ tags: []
 
 ＃語形成
 
-・harmful: 形容詞「有害な」。be harmful to 〈人・物〉 の形を取る。harmful effects は「有害な影響」。  
-・harmless: 形容詞「害のない」。harmless to 〈人・物〉 と言える。harmful と harmless は害の有無という軸で対照されるが、harmless は「有益な」とまでは意味しない。  
+・harmful: harm に接尾辞 -ful を付けた形容詞「有害な」。be harmful to 〈人・物〉 の形を取る。harmful effects は「有害な影響」。  
+・harmless: harm に「～のない」を表す接尾辞 -less を付けた形容詞「害のない」。harmless to 〈人・物〉 と言える。harmful と harmless は害の有無という軸で対照されるが、harmless は「有益な」とまでは意味しない。  
 ・harmlessly / harmfulness / harmlessness: 副詞「害を与えずに」／不可算名詞「有害性」／不可算名詞「無害性」。  
-・harmed / harming: 過去形・過去分詞／現在分詞。be harmed by 〈原因〉 は受動態で、get harmed も可能。一般的な性質として「有害な」は harming ではなく harmful を使う。unharmed は「害やけがを受けていない」という形容詞として定着している。  
+・harmed / harming: 過去形・過去分詞／現在分詞。一般的な性質として「有害な」は harming ではなく harmful を使う。  
+・unharmed: 否定の接頭辞 un- と harmed から成る形容詞「害やけがを受けていない」。  
 ・self-harm: 名詞「自傷、意図的に自分自身を傷つける行為」、または自動詞「意図的に自分自身を傷つける、自傷する」。通常の他動詞 harm oneself とは構造が異なり、harm oneself は偶発的に自分を傷つけることも表せる。  
 
 ＃コアイメージ
@@ -203,12 +204,12 @@ tags: []
 訳: 苗は異常な寒さで傷んだ。  
 
 ・get harmed  
-用途: 害を受ける出来事を、会話的に述べる。  
+用途: get を使う受動態で、害を受ける出来事を述べる。日常的なけがには get hurt / get injured もよく使う。  
 例: We closed the path so that no visitors would get harmed by falling branches.  
 訳: 落ちてくる枝で来園者がけがをしないよう、私たちは小道を閉鎖した。  
 
 ・harm oneself  
-用途: 主語自身が悪影響を受けるとき、再帰代名詞を目的語にする。  
+用途: 害を与える側と受ける側が同じ人・動物で、自分の行動などによって自分自身を傷つけることを述べる。  
 例: The trapped animal could harm itself if it panics.  
 訳: 閉じ込められた動物は、パニックになると自分の体を傷つけてしまうおそれがある。  
 
@@ -222,7 +223,7 @@ tags: []
 例: I promise I won't harm a hair of his head.  
 訳: 彼にはかすり傷一つ負わせないと約束する。  
 
-【語法・注意】harm は他動詞なので、harm the river とし、harm to the river を動詞の構文として使わない。to を伴う harm to the river は名詞句（語義1）。harm oneself の oneself は主語と同じ人・動物を指す目的語で、省くと同じ再帰の意味にはならない。この構文だけで故意の自傷を意味するとは限らない。be harmed by は通常の受動態で、「有害である」の be harmful to とは主語の役割が逆。The plants were harmed by the chemical. は植物が被害を受けた文、The chemical is harmful to the plants. は化学物質が有害だという文。名詞を前から修飾する場合は harmed plants も文法的には可能だが、被害の内容に合わせて damaged plants などと具体化するほうが自然なことが多い。harmed を新たな一般的評価形容詞として広げない。wouldn't harm a fly は wouldn't hurt a fly とも言う。「ハエにだけ危害を加えない」という意味ではない。harm a hair of someone's head は否定・警告・約束の文脈で用いる誇張表現で、髪の損傷だけを話しているわけではない。  
+【語法・注意】harm は他動詞なので、harm the river とし、harm to the river を動詞の構文として使わない。to を伴う harm to the river は名詞句（語義1）。harm oneself の oneself は主語と同じ人・動物を指す目的語で、省くと同じ再帰の意味にはならない。harm oneself は自分の行動などで自分を傷つけることを表す。単に害を受ける側を主語にする受動態 be harmed by 〈原因〉 とは構造が異なる。この構文だけで故意の自傷を意味するとは限らない。be harmed by は通常の受動態で、「有害である」の be harmful to とは主語の役割が逆。The plants were harmed by the chemical. は植物が被害を受けた文、The chemical is harmful to the plants. は化学物質が有害だという文。get harmed も受動態として可能で、get を使う受動態自体は会話的な傾向がある。ただし get harmed が日常のけがを述べる代表的な表現というわけではなく、そうした場面では get hurt / get injured もよく使う。名詞を前から修飾する場合は harmed plants も文法的には可能だが、被害の内容に合わせて damaged plants などと具体化するほうが自然なことが多い。harmed を新たな一般的評価形容詞として広げない。wouldn't harm a fly は wouldn't hurt a fly とも言う。「ハエにだけ危害を加えない」という意味ではない。harm a hair of someone's head は否定・警告・約束の文脈で用いる誇張表現で、髪の損傷だけを話しているわけではない。  
 
 【類義語】
 
@@ -243,7 +244,7 @@ tags: []
 ・injure  
 定義: 人や動物に身体的なけがを負わせる。  
 頻度: 〈7/10〉  
-違い: 身体のけがに焦点があり、経済・環境などへの広い悪影響を表す harm より対象が限られる。  
+違い: この身体的な意味では、経済・環境などへの広い悪影響を表す harm より対象が限られる。ただし injure には、評判・利益・感情などを損なう別の用法もある。  
 例: She injured her ankle during the match.  
 訳: 彼女は試合中に足首をけがした。  
 
