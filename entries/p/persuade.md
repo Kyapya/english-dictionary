@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra ultra
 created_at: 2026-10-03
-updated_at: 2026-10-03
+updated_at: 2026-10-06
 checked: true
 tags: []
 ---
@@ -25,15 +25,15 @@ tags: []
 ・persuasive: 形容詞「説得力のある」。a persuasive argument は「説得力のある議論」で、説得された側ではなく、相手を動かす力を表す。  
 ・persuasively / persuasiveness: 副詞「説得力をもって」／不可算名詞「説得力」。  
 ・persuadable: 形容詞「説得に応じる可能性のある」。persuasive「人を説得する力のある」とは方向が逆。  
-・persuaded / persuading: 過去形・過去分詞／現在分詞。persuading では末尾の e を落とす。be persuaded は受動や「納得している」という状態を表し、通常の限定修飾では a persuaded person より a person who has been persuaded のように内容を補う形が明確。  
+・persuaded / persuading: 過去形・過去分詞／現在分詞。persuading では末尾の e を落とす。  
 
 ＃コアイメージ
 
 「理由や働きかけによって、相手の判断・選択をある方向へ動かす」という核。実行を選ばせる場合、ある内容を信じさせる場合、予定した行為をやめる方向へ動かす場合に分かれる。  
 
-・判断・選択を実行する方向へ動かす働きかけ → 「説得して～させる、～する気にさせる」（語義1）  
-・判断・選択を信じる方向へ動かす働きかけ → 「納得させる、信じさせる」（語義2）  
-・判断・選択を断念する方向へ動かす働きかけ → 「説得して思いとどまらせる」（語義3）  
+・働きかけで相手に行動を選ばせること → 「説得して～させる、～する気にさせる」（語義1）  
+・働きかけで相手に内容を真実・妥当と認めさせること → 「納得させる、信じさせる」（語義2）  
+・働きかけで相手に予定した行動を断念させること → 「説得して思いとどまらせる」（語義3）  
 
 ＃意味・用法・関連表現
 
@@ -45,12 +45,12 @@ tags: []
 
 【レジスター/領域】会話・文章の一般語。仕事、交渉、勧誘などにも広く用いる。  
 
-【文法パターン】persuade someone to 〈動詞原形〉＝人を説得して～させる／persuade someone not to 〈動詞原形〉＝～しないよう説得する／persuade someone into 〈名詞/-ing〉＝人をその行動・参加へと説き入れる／persuade someone＝文脈上明らかな行動を取るよう説得する／be persuaded to 〈動詞原形〉＝説得されて～することにする／be persuaded into 〈名詞/-ing〉＝説得されてその行動に踏み切る／persuade oneself to 〈動詞原形〉＝自分に言い聞かせて～する気になる／persuade someone into 〈場所〉＝人を説得してその場所へ入らせる／persuade someone back to 〈場所〉＝説得して元の場所へ戻らせる  
+【文法パターン】persuade someone to 〈動詞原形〉＝人を説得して～させる／persuade someone not to 〈動詞原形〉＝～しないよう説得する／persuade someone into 〈名詞/-ing〉＝説得して行動・参加を承諾させる／persuade someone＝文脈上明らかな行動を取るよう説得する／be persuaded (by someone) to 〈動詞原形〉＝（人に）説得されて～することにする／be persuaded into 〈名詞/-ing〉＝説得されてその行動に踏み切る／persuade oneself to 〈動詞原形〉＝自分に言い聞かせて～する気になる／be easily persuaded to 〈動詞原形〉＝容易に説得されて～することにする  
 
 【コロケーション・構文例】
 
 ・persuade someone to 〈動詞原形〉  
-用途: する行動を to不定詞で示す。  
+用途: 相手にしてもらう行動を to不定詞で示す。  
 例: We persuaded the owner to repair the leaking roof.  
 訳: 私たちは家主を説得して、雨漏りする屋根を修理してもらった。  
 
@@ -74,10 +74,10 @@ tags: []
 例: I tried to persuade him, but he still refused to join us.  
 訳: 彼を誘って説得してみたが、それでも一緒に行くことを断られた。  
 
-・be persuaded to 〈動詞原形〉  
-用途: 説得を受けた側を主語にする。  
-例: The council was persuaded to keep the library open.  
-訳: 市議会は説得を受けて、図書館の運営を続けることにした。  
+・be persuaded (by someone) to 〈動詞原形〉  
+用途: 説得を受けた側を主語にし、by で説得した人を示す。  
+例: The council was persuaded by local residents to keep the library open.  
+訳: 市議会は地元住民に説得されて、図書館の運営を続けることにした。  
 
 ・be persuaded into 〈-ing〉  
 用途: 説得の結果、ある行動を選んだと述べる。  
@@ -89,17 +89,12 @@ tags: []
 例: I finally persuaded myself to ask for help.  
 訳: 私はようやく自分に言い聞かせて、助けを求める気になった。  
 
-・persuade someone into 〈場所〉  
-用途: 場所を表す into の目的語で、入る方向を示す。  
-例: With a promise of hot tea, we persuaded the shivering hiker into the cabin.  
-訳: 温かいお茶があると声をかけて、震えている登山者を小屋の中へと誘い入れた。  
+・be easily persuaded to 〈動詞原形〉  
+用途: 説得に応じるまでの容易さを述べる。  
+例: After a short talk with the coach, the players were easily persuaded to return to the training ground.  
+訳: コーチと少し話すと、選手たちはすんなりと説得に応じ、練習場へ戻ることにした。  
 
-・persuade someone back to 〈場所〉  
-用途: 説得によって戻る行動を引き出す。  
-例: The coach persuaded the disappointed players back to the training ground.  
-訳: コーチは落胆した選手たちを説得して、練習場へ戻らせた。  
-
-【語法・注意】人目的語の後に to不定詞を置くため、「彼に残るよう説得する」は persuade him to stay であり、persuade to him to stay ではない。into の後の動詞は -ing 形にする。persuade him into joining と persuade him to join はどちらも参加する方向で、out of joining は参加をやめる方向（語義3）。into the room のように場所が続けば移動を表し、into joining の「参加すること」と区別する。代名詞も persuade him into it の順で、persuade into him it とはしない。oneself は自分自身を説得する能動再帰形で、be persuaded は他から説得を受ける受動態。行動を表す persuade と信念を表す convince の区別は便利な傾向だが、convince someone to do も現代英語で広く使われる。  
+【語法・注意】人目的語の後に to不定詞を置くため、「彼に残るよう説得する」は persuade him to stay であり、persuade to him to stay ではない。into の後の動詞は -ing 形にする。persuade him into joining と persuade him to join はどちらも参加する方向で、out of joining は参加をやめる方向（語義3）。物理的な移動先を示す場所句が直接続く実例もあるが、文脈に左右される周辺的な用法である。作文では persuade someone to enter the room、persuade someone to return to the training ground のように移動動詞を明示する。代名詞も persuade him into it の順で、persuade into him it とはしない。oneself は自分自身を説得する能動再帰形で、be persuaded は他から説得を受ける受動態。行動を表す persuade と信念を表す convince の区別は便利な傾向だが、convince someone to do も現代英語で広く使われる。  
 
 【類義語】
 
@@ -170,7 +165,7 @@ tags: []
 訳: 試験的な調査によって、チームはその方法に価値があると納得した。  
 
 ・persuade oneself (that) 〈節〉  
-用途: 自分の考えを自分で納得させる。  
+用途: ある考えが正しいと自分に言い聞かせる。  
 例: He persuaded himself that the missing receipt did not matter.  
 訳: 彼は領収書をなくしたことは問題ではないと、自分に言い聞かせた。  
 
@@ -194,7 +189,7 @@ tags: []
 例: We were persuaded by the laboratory results, not by the sales pitch.  
 訳: 私たちが納得したのは、売り込みの説明ではなく実験結果を見たからだった。  
 
-【語法・注意】persuade someone that… と persuade someone of something を使い分ける。of の直後に平叙文を置く persuade me of it is safe は避け、persuade me that it is safe とする。persuade me of its safety なら名詞句なので成立する。語義1の persuade me to check は「確認するよう説得する」であり、persuade me that it is correct「正しいと納得させる」とは行動と信念が異なる。be persuaded of… は説得された結果の状態も表せるが、「納得している人」を常に persuaded person と限定修飾するわけではない。well persuaded などの硬い表現もあるが、一般的な「説得力のある」は persuaded でなく persuasive。  
+【語法・注意】persuade someone that… と persuade someone of something を使い分ける。of の直後に平叙文を置く persuade me of it is safe は避け、persuade me that it is safe とする。persuade me of its safety なら名詞句なので成立する。語義1の persuade me to check は「確認するよう説得する」であり、persuade me that it is correct「正しいと納得させる」とは行動と信念が異なる。受動態の by は説得した人や根拠・原因を示し、この信念義だけでなく語義1の行動義でも使える。to不定詞・that節・of句が表す説得の内容とは役割が異なる。be persuaded of… は説得された結果の状態も表せるが、「納得している人」を常に persuaded person と限定修飾するわけではない。well persuaded などの硬い表現もあるが、一般的な「説得力のある」は persuaded でなく persuasive。  
 
 【類義語】
 
@@ -221,7 +216,7 @@ tags: []
 
 3. 【動詞句・他動詞：persuade someone out of something】説得して思いとどまらせる
 
-【日本語訳・定義】人に理由を示すなどして、予定していた行動・選択を取りやめるようにする。out of の後には、断念する行為の -ing 形、計画などの名詞、または it が来る。物理的に外へ移動させる意味とは区別する。  
+【日本語訳・定義】人に理由を示すなどして、予定していた行動・選択を取りやめるようにする。out of の後には、断念する行為の -ing 形、計画などの名詞、または it が来る。語義1の行動への説得に関連し、not to do と意味が重なるが、out of が示す断念方向の構文をここで扱う。物理的に外へ移動させる意味とは区別する。  
 
 【頻度】〈5/10〉  
 
@@ -251,7 +246,7 @@ tags: []
 例: They were persuaded out of releasing the unfinished product.  
 訳: 彼らは説得を受けて、未完成の製品を発売するのを取りやめた。  
 
-【語法・注意】persuade him out of leaving は「去るのをやめさせる」で、persuade him into leaving「去るように仕向ける」（語義1）とは方向が逆。out of の後が the building のような場所なら「外へ出るよう説得する」という移動の用法になり、この断念義と同一視しない。代名詞は persuade her out of it の順で、persuade out of her it とはしない。be persuaded out of doing は受動態であり、自分自身を説得する persuade oneself out of doing とは構造が異なる。説得に成功したか不明なら try to persuade… とする。  
+【語法・注意】persuade him out of leaving は「去るのをやめさせる」で、persuade him into leaving「去るように仕向ける」（語義1）とは方向が逆。場所から外へ出るよう促すなら persuade him to leave the building と言える。out of doing が示す行動の断念と、場所からの移動を混同しない。代名詞は persuade her out of it の順で、persuade out of her it とはしない。be persuaded out of doing は受動態であり、自分自身を説得する persuade oneself out of doing とは構造が異なる。説得に成功したか不明なら try to persuade… とする。  
 
 【類義語】
 
