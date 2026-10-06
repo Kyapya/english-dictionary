@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra ultra
 created_at: 2026-10-03
-updated_at: 2026-10-03
+updated_at: 2026-10-06
 checked: true
 tags: []
 ---
@@ -21,11 +21,10 @@ tags: []
 
 ＃語形成
 
-・conveyance: 不可算名詞では「運搬、伝達、財産権の移転」、可算名詞では「乗り物、譲渡証書」など。意味ごとの文脈に注意する。  
+・conveyance: 不可算名詞では「運搬、伝達、財産権の移転」、可算名詞では「乗り物、譲渡証書」など。法律上の移転も、一件の譲渡として捉えれば a conveyance of land「土地の一件の譲渡」のように可算で使う。意味だけで可算・不可算を固定せず、行為を一般的に述べるのか、個別の一件として数えるのかに注意する。  
 ・conveyor: 可算名詞「搬送装置、運ぶ人・物」。conveyor belt は「ベルトコンベヤー」。  
 ・conveyancing: 主に不可算名詞「不動産の権利移転に関する法律事務」。単なる荷物の運搬とは違う。  
 ・conveyancer: 可算名詞「不動産の権利移転手続きを扱う専門家」。資格や業務範囲は地域の制度による。  
-・conveyed / conveying: 過去形・過去分詞／現在分詞。conveyed は y を残し、conveied とはしない。the meaning conveyed by a gesture の conveyed は「伝えられた」を表す分詞。  
 
 ＃コアイメージ
 
@@ -52,7 +51,7 @@ tags: []
 ・convey a message to someone  
 用途: 内容を目的語、受け手を to の後ろに置く。  
 例: The manager asked me to convey the message to the evening staff.  
-訳: 管理者は、その伝言を夜の勤務の職員に伝えるよう私に頼んだ。  
+訳: 管理者は、その伝言を夕方から夜にかけて勤務する職員に伝えるよう私に頼んだ。  
 
 ・convey one's thanks to someone  
 用途: 感謝の気持ちを、相手に届けるよう依頼したり報告したりする。  
@@ -104,7 +103,7 @@ tags: []
 例: She conveyed to the board her concerns about the project's long-term costs.  
 訳: 彼女は取締役会に、その事業の長期的な費用への懸念を伝えた。  
 
-【語法・注意】convey は通常「内容」を直接目的語にし、「受け手」は to で示す。「彼にその知らせを伝える」は convey the news to him で、convey him the news とはしない。tell him the news の語順をそのまま移さない。convey that のほか、convey the idea that / convey the impression that も使えるが、前者は節が直接内容を示し、後二者は idea・impression を that 節が具体化する。convey a feeling は感情を伝えることで、相手を必ずその感情にさせるとは限らない。convey to someone が単独で見えても、内容は通常、目的語・節または文脈中の what などで示される。「相手と意思疎通する」は communicate with someone が基本で、convey with someone としない。分詞 conveying はそのまま「魅力的な」などの性質を意味せず、conveying confidence なら「自信を伝える」という動詞的な働きである。  
+【語法・注意】convey は通常「内容」を直接目的語にし、「受け手」は to で示す。「彼にその知らせを伝える」は convey the news to him で、convey him the news とはしない。tell him the news の語順をそのまま移さない。convey that のほか、convey the idea that / convey the impression that も使えるが、前者は節が直接内容を示し、後二者は idea・impression を that 節が具体化する。convey a feeling は感情を伝えることで、相手を必ずその感情にさせるとは限らない。convey to someone が単独で見えても、内容は通常、目的語・節または文脈中の what などで示される。「相手と意思疎通する」は communicate with someone が基本で、convey with someone としない。conveyed は過去形・過去分詞、conveying は現在分詞・動名詞で、どちらも y を残す。conveyed を conveied としない。the meaning conveyed by a gesture は「身ぶりによって伝えられた意味」で、conveyed by a gesture が meaning を後ろから修飾する。conveying confidence では confidence が伝える内容を示す目的語となり、「自信を伝える」という働きを表す。  
 
 【類義語】
 
@@ -168,8 +167,8 @@ tags: []
 例: The pumps convey water through a network of underground pipes.  
 訳: ポンプは、地下に張り巡らされた配管を通して水を送る。  
 
-・convey sound through 〈媒体〉  
-用途: 音が媒体を通じて伝わる働きを述べる。  
+・convey sound through 〈媒体や経路〉  
+用途: 音が通る媒体や経路を through の後ろに示す。この例では管が音を伝え、through the wall が壁を通り抜ける経路を示す。  
 例: The metal pipe conveyed sound through the wall.  
 訳: 金属製の管を通って、音が壁の向こうへ伝わった。  
 
@@ -183,7 +182,7 @@ tags: []
 例: Electrical signals are conveyed along the cable to the control unit.  
 訳: 電気信号はケーブルを通じて制御装置に伝送される。  
 
-【語法・注意】この意味の convey someone to a place は人の移動を表す。語義1の convey a message to someone は内容の伝達なので、直接目的語の役割が違う。home はこの構文では副詞のため convey her home とし、convey her to home とはしない。convey water は水自体の移動、convey information は内容の伝達。sound や signals は実際の伝送を述べる場合と意味の伝達を述べる場合があるため、文脈で区別する。conveying equipment は「搬送用の設備」という機能を表す結合で、conveying 単独に別の評価的な意味があるわけではない。  
+【語法・注意】この意味の convey someone to a place は人の移動を表す。語義1の convey a message to someone は内容の伝達なので、直接目的語の役割が違う。home はこの構文では副詞のため convey her home とし、convey her to home とはしない。convey water は水自体の移動、convey information は内容の伝達。sound や signals は実際の伝送を述べる場合と意味の伝達を述べる場合があるため、文脈で区別する。conveying equipment は「搬送用の設備」という名詞句なら conveying が設備の用途を表す。一方、「設備を運ぶこと」の意味なら equipment は conveying の目的語で、前後の文脈から構造を判断する。  
 
 【類義語】
 
@@ -204,7 +203,7 @@ tags: []
 ・transmit  
 定義: 信号、音、エネルギーなどを媒体や装置を通じて送る。  
 頻度: 〈8/10〉  
-違い: 信号などの伝送に重点があり、人を会議場へ運ぶ意味では使わない。convey と重なるのは主に媒体を通じた移動の部分。  
+違い: ここでは媒体を通じた信号などの伝送を比べており、人を会議場へ運ぶ意味では使わない。ただし transmit には情報や恐れなどを人から人へ伝える意味もあり、語義1の convey とも重なる。  
 例: The cable transmits signals from the sensor to the computer.  
 訳: ケーブルはセンサーからコンピューターへ信号を送る。  
 
