@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra ultra
 created_at: 2026-10-03
-updated_at: 2026-10-03
+updated_at: 2026-10-06
 checked: true
 tags: []
 ---
@@ -248,7 +248,7 @@ tags: []
 頻度: 〈6/10〉  
 違い: 相手の事情や申し出を認めて退出を許す点に焦点がある。dismiss は指示する側から参加を終わらせる場合にも使う。  
 例: The teacher excused Maya so that she could attend her appointment.  
-訳: 教師は、マヤが予約の用事に行けるよう退出を許した。  
+訳: 教師は、マヤが予約していた用事を済ませられるよう退出を許した。  
 
 ・release  
 定義: 人を拘束・義務などから解放して自由にする。  
@@ -289,14 +289,14 @@ tags: []
 例: She could not dismiss the fear that she had left the door unlocked.  
 訳: ドアに鍵をかけ忘れたのではないかという不安が、彼女の頭から離れなかった。  
 
-【語法・注意】from one's mind の one's は、その考えを払いのける人に合わせる。dismiss it from my mind の it は直接目的語で、from は取り除く元を示す前置詞。語義1の dismiss his fears as irrational は「不合理だとして彼の不安を退ける」、この語義の dismiss my fears from my mind は「自分の不安を頭から追い払う」である。forget は自然に忘れる場合も含むが、dismiss は意識的に考えを退ける行為を描きやすい。cannot dismiss ... は、その考えや不安を頭から追い払えないことを表す。  
+【語法・注意】from one's mind の one's は、その考えを払いのける人に合わせる。dismiss it from my mind の it は直接目的語で、from は取り除く元を示す前置詞。語義1の dismiss his fears as irrational は「不合理だとして彼の不安を退ける」、この語義の dismiss my fears from my mind は「自分の不安を頭から追い払う」である。forget は自然に忘れる場合も含むが、dismiss は意識的に考えを退ける行為を描きやすい。この語義での cannot dismiss ... は「頭から追い払えない」だが、形だけで意味は決まらない。We cannot dismiss the possibility of an error. のように、語義1の「誤りの可能性を軽視・否定できない」を表す場合もある。  
 
 【類義語】
 
-・put out of one's mind  
+・put something out of one's mind  
 定義: あることを意識から追い出し、考えないようにする。  
 頻度: 〈7/10〉  
-違い: dismiss ... from one's mind より日常的で、考えの価値を否定する含みを避けやすい。  
+違い: dismiss ... from one's mind より日常的で、考えの価値を否定する含みを避けやすい。目的語は put と out の間に置く。  
 例: Try to put the argument out of your mind for now.  
 訳: 今はひとまず、その口論のことを考えないようにしてみて。  
 
@@ -470,7 +470,7 @@ tags: []
 ・eject  
 定義: 規則違反などを理由に、選手などを試合や競技場から退場させる。  
 頻度: 〈5/10〉  
-違い: 特にアメリカのスポーツ報道で使われ、野球やバスケットボールにも用いる。dismiss より強制的な退出を明確に表す。  
+違い: 特にアメリカのスポーツ報道で使われ、野球やバスケットボールにも用いる。この語義の dismiss も退場処分を表し、強制性の差で区別するものではない。  
 例: The player was ejected for arguing with the umpire.  
 訳: その選手は審判に抗議して退場処分になった。  
 
@@ -510,9 +510,9 @@ tags: []
 
 【類義語】
 
-・get out  
+・get someone out  
 定義: スポーツで相手をアウトにする。  
 頻度: 〈5/10〉  
-違い: クリケットでも使える、より日常的な言い方。dismiss と違って語順の変化があり、代名詞では get him out とする。  
+違い: クリケットでも使える、より日常的な言い方。人をアウトにする型は get the batter out／get him out。目的語なしの The batter got out. なら「打者がアウトになった」を表す。  
 例: They finally got the batter out with a catch at slip.  
 訳: スリップの位置での捕球によって、ようやくその打者をアウトにした。  
