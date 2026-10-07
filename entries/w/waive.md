@@ -57,7 +57,7 @@ tags: []
 
 ・waive a charge for someone  
 用途: 特定の利用者について料金を免除する。  
-例: We waive the delivery charge for customers who spend more than $100.  
+例: We waive the delivery charge for customers who spend more than 100 dollars.  
 訳: 100ドルを超えるお買い物をされたお客様については、配送料を免除しています。  
 
 ・waive a requirement  
