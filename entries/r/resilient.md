@@ -1,0 +1,200 @@
+---
+headword: resilient
+type: word
+status: checked
+prompt_version: entry_spec_v5
+model: gpt-6-astra ultra
+created_at: 2026-10-07
+updated_at: 2026-10-07
+checked: true
+tags: []
+---
+
+＃発音記号
+
+米: /rɪˈzɪljənt/｜英: /rɪˈzɪliənt/。ここに示した米音は3音節、英音は4音節で、どちらも第2音節 /zɪl/ に主強勢がある。相違はその後の部分で、米の第3音節 /jənt/ に対応する部分が、英では第3音節 /i/ と第4音節 /ənt/ に分かれる。第1音節はどちらも /rɪ/。s の文字は第2音節で有声の /z/ になる。  
+
+＃語源
+
+ラテン語 resilīre「跳ね返る、後ろへ跳ぶ」の現在分詞 resiliens に由来する。re-「後ろへ」と salīre「跳ぶ」が語源上の要素で、力を受けても元へ戻る弾力と、困難から立ち直る力がつながる。  
+同じ salīre の系統に salient「際立った」と assault「襲撃、襲撃する」がある。resilient の中を現代英語の silent「静かな」と結び付けて分析しない。  
+
+＃語形成
+
+・resilience：主に不可算名詞「回復力、しなやかな強さ、弾力性」。build resilience「回復力を育てる」、the resilience of a system「システムの耐障害性・回復力」、resilience to shocks「衝撃への強さ」のように使う。形容詞の resilient と名詞の resilience を区別する。  
+・resiliency：resilience と同じ性質を表す名詞の別形。一般的な回復力にも、材料・システムの特性にも使われる。文書内では、対象分野や組織で用いる形にそろえると読みやすい。  
+・resiliently：副詞「困難から立ち直って、しなやかに耐えて」。respond resiliently to setbacks のように使うが、日常的には show resilience のような表現も選べる。  
+・climate-resilient：複合形容詞「気候変動や気候上の影響に耐え、対応できる」。climate-resilient infrastructure「気候変動に強いインフラ」のように使い、単に温室効果ガス排出が少ないという意味ではない。  
+
+＃意味・用法・関連表現
+
+1. 【形容詞】回復力のある、逆境に強い、しなやかに対応できる
+
+【日本語訳・定義】困難、損害、失敗、変化などを受けても、比較的うまく立ち直ったり、適応して機能を保ったりできること。人・集団・企業・経済・システム・生物などに使う。元気や業績を取り戻す面に加え、組織や技術の文脈では、混乱に耐えて重要な機能を維持する面も含み得る。「まったく傷つかない」「何があっても失敗しない」という保証ではない。  
+
+【頻度】〈7/10〉  
+
+【レジスター/領域】一般語。人の立ち直り、職場、経済、災害対応、事業継続、情報システム、生態系などの説明に広く使う。多くは肯定的な評価だが、何が持ちこたえるかによって文全体の評価は変わる。  
+
+【文法パターン】a resilient 〈人・組織などを表す可算単数名詞〉、resilient 〈複数名詞・不可算名詞〉 の限定用法と、someone/something + be/become/remain/prove + resilient の叙述用法がある。be resilient to 〈衝撃・変化・障害を表す名詞句〉 は何に強いかを示す。be resilient in the face of 〈困難を表す名詞句〉、remain resilient after 〈出来事を表す名詞句〉 も使う。make someone/something + more resilient、be resilient enough to 〈動詞原形〉 が可能。very/highly/remarkably resilient、more/less resilient のような程度修飾・比較も自然に行う。  
+
+【コロケーション・構文例】
+
+・a resilient person  
+用途: 挫折を経験しても、立ち直る力のある人を述べる。  
+例: She is a resilient person who has rebuilt her career after several serious setbacks.  
+訳: 彼女は、何度も大きな挫折を経験しながらキャリアを築き直してきた、立ち直る力のある人だ。  
+
+・be resilient in the face of 〈困難を表す名詞句〉  
+用途: 難しい状況の中でも、しなやかに対応する様子を述べる。  
+例: The team has been resilient in the face of repeated delays, adapting its plans each time.  
+訳: チームは度重なる遅延にもその都度計画を調整し、しなやかに対応してきた。  
+
+・a resilient economy  
+用途: 外部からの打撃を受けても、経済活動を維持・回復できることを評価する。  
+例: A resilient economy can recover even when one of its major industries suffers a severe downturn.  
+訳: 回復力のある経済は、主要産業の一つが深刻に落ち込んでも持ち直すことができる。  
+
+・be resilient to 〈衝撃・障害を表す名詞句〉  
+用途: システムがどの種の障害に対応できるかを特定する。  
+例: The network is resilient to the failure of a single server because other servers can take over.  
+訳: そのネットワークは、ほかのサーバーが処理を引き継げるため、1台のサーバーの故障に強い。  
+
+・remain resilient after 〈出来事を表す名詞句〉  
+用途: 困難な出来事の後も、回復・適応する力が保たれていることを述べる。  
+例: The local community remained resilient after the flood, reopening shops and restoring essential services.  
+訳: 地域社会は洪水の後も立ち直る力を失わず、店を再開し、必要不可欠なサービスを復旧させた。  
+
+・make something more resilient  
+用途: 仕組みの変更によって、混乱に耐え、立ち直る力を高める。  
+例: Using several suppliers can make the business more resilient to disruptions.  
+訳: 複数の供給業者を利用することは、事業を混乱に強くするのに役立つ。  
+
+・be resilient enough to 〈動詞原形〉  
+用途: 困難に対応するだけの力が十分にあることを述べる。  
+例: The organization was resilient enough to recover after losing its largest client.  
+訳: その組織には、最大の顧客を失っても立て直せるだけの回復力があった。  
+
+・resilient plants  
+用途: 生物が不利な条件に耐え、持ち直せることを述べる。  
+例: These resilient plants recovered quickly after being damaged by strong winds.  
+訳: これらの生命力の強い植物は、強風で傷んだ後もすぐに持ち直した。  
+
+【語法・注意】resilient は形容詞なので The team is resilient.、名詞なら The team has resilience. とする。The team is resilience. とはしない。be resilient to shocks の to は前置詞で、対象は名詞句になる。「何から回復するか」を述べる recover from shocks の from を、そのまま resilient from shocks に移さない。after は出来事の後という時間関係、to はどんな負荷に対応できるかという関係を示す。resistant は影響を受けにくいこと、resilient は回復・適応を含む力に焦点を当てやすいが、resilient な仕組みは抵抗力も備え得るので、両者を「耐えること対回復すること」と絶対的に切り分けない。また resistant to change が「変化を受け入れない」という意味なら、適応力を褒める resilient とは別の評価になる。人を resilient と呼んでも、苦痛がない、すぐ立ち直らなければならない、支援が不要だという意味ではない。システムや生態系の専門的な resilience の定義は、その分野の基準で読む。  
+
+【類義語】
+
+・tough  
+定義: 困難や厳しい状況に耐える強さがある。  
+頻度: 〈7/10〉  
+違い: 耐える強さを広く表し、resilient ほど回復や柔軟な適応に焦点を当てない。人については、厳格・強硬という別の意味にもなり得る。  
+例: She is mentally tough and keeps working calmly under pressure.  
+訳: 彼女は精神的にタフで、プレッシャーの下でも落ち着いて仕事を続ける。  
+
+・robust  
+定義: 負荷や変動があっても、しっかり機能し続ける。  
+頻度: 〈6/10〉  
+違い: 頑健さや性能の維持を強調する。resilient は損なわれた後の回復や条件への適応も含めやすいが、対象分野によって意味範囲は重なる。  
+例: We need a robust process that continues to work when demand suddenly increases.  
+訳: 需要が急増しても機能し続ける、しっかりした業務プロセスが必要だ。  
+
+・adaptable  
+定義: 新しい条件や要求に合わせて変われる。  
+頻度: 〈6/10〉  
+違い: 変化への適応力が中心で、損害や逆境が先にあるとは限らない。resilient は困難・負荷の中でも回復・維持・適応できる力を表す。  
+例: The team is adaptable and can switch quickly between different kinds of projects.  
+訳: そのチームは適応力があり、種類の異なるプロジェクトにもすぐに切り替えて対応できる。  
+
+・hardy  
+定義: 厳しい気候や生活条件に耐えられる。  
+頻度: 〈5/10〉  
+違い: 植物・動物や、厳しい環境で暮らす人に使いやすい。resilient は心理、組織、経済、技術まで対象が広く、回復する力にも重点がある。  
+例: These hardy shrubs can survive the region's cold winters.  
+訳: これらの丈夫な低木は、その地域の寒い冬を越すことができる。  
+
+【反意語】
+
+・fragile  
+定義: 打撃や負荷で損なわれやすく、不安定な。  
+頻度: 〈6/10〉  
+違い: 逆境への強さ・弱さという程度上の対立で、経済や心理状態などに使える。fragile とされた対象が絶対に回復できないという意味ではなく、resilient のあらゆる構成要素を一語で否定する語ではない。  
+例: The recovery remains fragile and could be reversed by another shock.  
+訳: 回復は依然として不安定で、新たな打撃によって後退するおそれがある。  
+
+2. 【形容詞】弾力のある、元の形に戻りやすい
+
+【日本語訳・定義】素材や物体が、曲げられる・引き伸ばされる・押されるなどしても、力が取り除かれると元の形に戻りやすいこと。単に柔らかい、よく曲がるというだけでなく、永久的に変形したり破損したりせずに跳ね返る性質に焦点がある。ただし、どんな大きさの力にも耐えるという意味ではない。  
+
+【頻度】〈5/10〉  
+
+【レジスター/領域】素材、製品、工学、触感の説明。一般的な商品説明にも専門的な材料記述にも使う。  
+
+【文法パターン】resilient rubber/foam/material、a resilient 〈可算単数名詞〉 の限定用法と、〈素材・物体〉 + be/remain + resilient の叙述用法がある。highly/very resilient、more/less resilient、resilient enough to 〈動詞原形〉 のように程度や性能を表せる。resilient to repeated compression のように負荷への対応力を述べる用法もあるが、材料のどの性能を比べるかは試験条件によって異なる。  
+
+【コロケーション・構文例】
+
+・resilient foam  
+用途: 圧縮しても元の形へ戻るフォーム材を説明する。  
+例: The cushion contains resilient foam that regains its shape when you stand up.  
+訳: そのクッションには、立ち上がると元の形に戻る、弾力のあるフォーム材が入っている。  
+
+・a resilient material  
+用途: 変形からの回復が必要な部品に使う素材を述べる。  
+例: The seal needs a resilient material that can deform under pressure and then spring back.  
+訳: その密封部品には、圧力で変形しても、その後元に戻る弾力性のある素材が必要だ。  
+
+・remain resilient  
+用途: 使用後も弾力が維持されていることを評価する。  
+例: Even after repeated squeezing, the rubber remained resilient and returned to its original shape.  
+訳: 繰り返し握ってつぶしても、そのゴムは弾力を保ち、元の形に戻った。  
+
+・be resilient to repeated compression  
+用途: 繰り返す圧縮に対して、復元する性質を保てることを述べる。  
+例: The padding is resilient to repeated compression and does not stay flattened after use.  
+訳: その詰め物は繰り返し圧縮しても復元しやすく、使用後につぶれたままにはならない。  
+
+・be resilient enough to 〈動詞原形〉  
+用途: 目的に必要な復元力を備えていることを示す。  
+例: The strip is resilient enough to return to its original position after bending.  
+訳: その細長い部品には、曲げた後に元の位置へ戻れるだけの弾力がある。  
+
+【語法・注意】resilient と flexible「曲げやすい」を完全な同義語にしない。曲げられてもその形のまま残る素材は flexible であっても、その変形に関して resilient とは限らない。また hard「硬い」や rigid「曲がりにくい」も単純な反対語ではなく、硬さ、曲げやすさ、元に戻る性質は区別する。製品説明の resilient flooring は弾力性を持つ床材を指す用語として使われるが、その語だけで防水性や耐火性能まで保証するものではない。語義1の a resilient organization は機能や活動の回復で、この義の形状の復元をそのまま文字どおり当てはめない。  
+
+【類義語】
+
+・elastic  
+定義: 伸縮や変形を受けても、元の形に戻る性質がある。  
+頻度: 〈6/10〉  
+違い: 復元性を表す点で非常に近い。日常語では伸び縮みする物に使いやすく、resilient は押された後に跳ね返る素材にもよく使う。物理学の elastic は、伸びる場合だけに限定されない。  
+例: The elastic band returns to its original length when released.  
+訳: そのゴムバンドは、放すと元の長さに戻る。  
+
+・springy  
+定義: 押すと沈み、すぐ跳ね返るような弾力がある。  
+頻度: 〈5/10〉  
+違い: 足裏や手で感じる跳ね返りを描写しやすい。resilient は素材の特性を評価する、より改まった説明にも使える。  
+例: The new running surface feels firm but springy underfoot.  
+訳: 新しい走路は、足元でしっかりした硬さと弾力を感じる。  
+
+・flexible  
+定義: 壊れずに曲げたり折り曲げたりできる。  
+頻度: 〈7/10〉  
+違い: 曲げられるという範囲で重なる近義語。元の形に戻ることまでは含まないため、復元力が論点なら resilient や elastic の代わりにしない。  
+例: The flexible tube can bend around corners without breaking.  
+訳: その柔軟な管は、折れずに角に沿って曲げられる。  
+
+【反意語】
+
+・inelastic  
+定義: 弾力性に乏しく、伸縮や変形の後に元へ戻りにくい。  
+頻度: 〈3/10〉  
+違い: 弾性的な復元性の有無・程度という軸で対立する。この物理的な意味を、需要の価格反応を述べる経済学上の inelastic と区別する。  
+例: The inelastic material retained its new shape after the force was removed.  
+訳: その非弾性的な素材は、力を取り除いた後も変形した形を保っていた。  
+
+・brittle  
+定義: 力を加えると、しなって戻るよりも割れたり砕けたりしやすい。  
+頻度: 〈5/10〉  
+違い: 負荷に対して復元する性質と、破断しやすい性質の対立。resilient でない素材がすべて brittle なのではなく、変形したまま残る素材などもある。  
+例: The old plastic had become brittle and cracked when bent.  
+訳: その古いプラスチックはもろくなっており、曲げるとひびが入った。  
