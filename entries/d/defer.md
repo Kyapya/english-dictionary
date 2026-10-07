@@ -1,0 +1,326 @@
+---
+headword: defer
+type: word
+status: checked
+prompt_version: entry_spec_v5
+model: gpt-6-astra ultra
+created_at: 2026-10-07
+updated_at: 2026-10-07
+checked: true
+tags: []
+---
+
+＃発音記号
+
+米: /dɪˈfɝː/｜英: /dɪˈfɜː/。2音節で、第2音節に主強勢がある。第1音節の母音は共通して /ɪ/。第2音節の母音は米ではr音を含む /ɝː/、英では /ɜː/ で、ここに米英差がある。英でも後ろに母音が続くと、語末の綴りrに対応する /r/ が現れることがある。  
+過去形・過去分詞は deferred、現在分詞は deferring とrを重ねる。deferred の語尾 -ed は /d/ で、音節は増えない。deferring は3音節になり、強勢は第2音節のまま。  
+
+＃語源
+
+「延期する」と「人の判断に従う」は、歴史的には別系統の語が同じ綴りになったもの。「延期する」は古フランス語 differer を経て、ラテン語 differre「別々に運ぶ、異なる、延期する」にさかのぼり、dis-「離して」と ferre「運ぶ」の組み合わせ。「異なる」の differ と直接つながる。  
+「従う・委ねる」は古フランス語 deferer を経たラテン語 deferre「運び去る、持ち出す、判断に付す」の系統で、de- と ferre からなる。refer「参照する、照会する」、transfer「移す」も ferre に由来する関連語。現代の意味を「延期するから相手を尊重するようになった」と一本の物語にしない。  
+
+＃語形成
+
+・deferral / deferment は「延期、繰延べ、猶予」の名詞。個別の猶予は a deferral / a deferment、行為・制度は不可算的に表せる。payment deferral「支払猶予」、military deferment「兵役猶予」など、領域によりよく使う組み合わせが異なる。  
+・deferred は過去分詞で、deferred payment「後払い、繰延払い」、deferred admission「入学時期の延期を伴う入学」など、名詞の前でも使う。deferred admission は米国の入試では「合否判断の保留」を指すこともあるため、入学時期の延期か合否の保留かを文脈で確認する（語義4）。独立した強い評価義ではなく、延期・保留という元の動詞の意味に対応する。  
+・deferrable は形容詞で「延期できる、繰延べ可能な」。a deferrable expense「支出時期を後へ回せる費用」のように使う。  
+・deference は「敬意をもって相手の意向・判断を尊重すること」。in deference to someone「人に敬意を表して、その意向を尊重して」の形を取る。延期を表す deferral / deferment と取り違えない。  
+・deferential は「敬意を示す、うやうやしい」、deferentially は「うやうやしく」。相手に従う系統の派生語で、「延期された」という意味ではない。  
+
+＃コアイメージ
+
+延期の系統では「今は実施・確定せず、後の時点へ回す」が共通核。語義2・3は同綴異義の別系統で、相手の判断への服従・委任という語彙的意味はこの時間的な核から導けないため、個別に参照する。  
+
+・行為や判断を後へ回すこと → 「延期する、先送りする」（語義1）  
+
+・志願者の合否判断を後へ回すこと → 「志願者・出願の合否判断を後の選考へ持ち越す」（語義4）  
+
+・対象者の徴兵を後へ回すこと → 「人の徴兵・入隊を猶予する」（語義5）  
+
+＃意味・用法・関連表現
+
+1. 【動詞・主に他動詞、文脈により自動詞】延期する、先送りする
+
+【日本語訳・定義】決定・実施・支払などを今は行わず、後の時点へ回す。主語は人や組織、目的語は行為・判断・予定など。一般に意図的な先送りを表し、単に交通事情などで遅れる場合より、実施時期を後へ動かす判断に焦点がある。新しい実施日が確定しているとは限らず、中止や免除を意味しない。  
+
+【頻度】〈6/10〉  
+
+【レジスター/領域】やや硬い一般語。業務、会議、支払、教育、行政などで使う。  
+
+【文法パターン】defer something＝物事を延期する／defer doing something＝何かをすることを延期する／defer something until 〈時点〉・defer something for 〈期間〉＝その時点まで・その期間だけ延期する／defer something pending 〈確認・結果〉＝確認などが済むまで保留する／something + be deferred＝物事が延期される。defer something to 〈後の時期・会議〉も使えるが、toの後ろが人・組織なら語義3との区別が必要。対象が文脈上明らかな場合は defer / defer for 〈期間〉と目的語を置かずにも使う。  
+
+【コロケーション・構文例】
+
+・defer a decision on something  
+用途: 会議や審査で結論を先送りする。  
+例: The board deferred a decision on the expansion until the cost estimates were complete.  
+訳: 取締役会は、費用の見積もりがそろうまで拡張についての決定を延期した。  
+
+・defer doing something  
+用途: 延期する行為を動名詞で表す。  
+例: We deferred hiring another analyst until the new budget was approved.  
+訳: 新しい予算が承認されるまで、分析担当者をもう1人採用するのを見送った。  
+
+・defer payment until 〈時点〉  
+用途: 支払う時期を後へ回す。  
+例: The supplier agreed to defer payment until the end of November.  
+訳: 仕入先は、支払いを11月末まで猶予することに同意した。  
+
+・defer something for 〈期間〉  
+用途: どれだけ延期するかを示す。  
+例: The company deferred the launch for three weeks.  
+訳: 会社は発売を3週間延期した。  
+
+・defer something pending 〈確認・結果〉  
+用途: 必要な情報や判断を待つ間、実施を保留する。  
+例: The committee deferred approval pending an independent safety review.  
+訳: 委員会は、独立した安全審査が終わるまで承認を保留した。  
+
+・be deferred indefinitely  
+用途: 次の実施日を決めずに延期されたことを述べる。  
+例: The office relocation has been deferred indefinitely.  
+訳: オフィスの移転は、時期を決めずに延期されている。  
+
+・defer something to 〈後の時期・会議〉  
+用途: 案件を後の審議機会へ回す。  
+例: We deferred the budget discussion to the next meeting.  
+訳: 予算の話し合いを次の会議へ持ち越した。  
+
+・defer for 〈期間〉  
+用途: 延期する対象が共有されている文脈で、目的語を置かずに言う。  
+例: After receiving an offer of admission, she decided to defer for a year.  
+訳: 入学許可を受けた後、彼女は入学を1年延期することにした。  
+
+【語法・注意】「契約するのを延期する」は defer signing the contract。通常の学習用の形として、× defer to sign the contract ではなく動名詞を選ぶ。until Friday は延期先の時点、for two weeks は延期する期間。defer payment は支払時期を後へ回すのであり、料金を免除する waive the fee とは違う。deferred payment の deferred は名詞を修飾し、Payment was deferred. では受動態を作る。どちらもこの延期義で、very deferred のような程度表現は普通使わない。defer the decision until Monday「月曜まで決定を延ばす」と defer to her decision「彼女の決定を尊重して従う」は、目的語とtoの役割が異なる。入学の文脈で本人が defer for a year と言う場合は通常、入学時期の延期。大学側が人の合否を保留する語義4の She was deferred. とは、行為者と延期の対象が異なる。  
+
+【類義語】
+
+・postpone  
+定義: 予定していた行為・出来事を後の時点へ延期する。  
+頻度: 〈7/10〉  
+違い: defer と大きく重なるが、会議や催しなど予定の変更にも広く使う。延期先を示すことが多いが、必ず日付が確定しているわけではない。  
+例: The organizers postponed the conference until June.  
+訳: 主催者は会議を6月まで延期した。  
+
+・delay  
+定義: 物事の開始・進行・到着を遅らせる。  
+頻度: 〈9/10〉  
+違い: 意図的な先送りのほか、渋滞・不具合などによる遅れも表す。defer より原因や状況の範囲が広い。  
+例: A missing permit delayed construction.  
+訳: 許可が下りていなかったため、工事が遅れた。  
+
+・put off  
+定義: 予定や行為を後回しにする。  
+頻度: 〈8/10〉  
+違い: defer より会話的。面倒なことを先延ばしにする文脈にもよく使うが、いつも怠慢を含むわけではない。  
+例: We cannot put off replacing the old server any longer.  
+訳: 古いサーバーの交換をこれ以上先延ばしにはできない。  
+
+・shelve  
+定義: 計画・提案などをいったん棚上げする。  
+頻度: 〈5/10〉  
+違い: defer より、検討や実行を止めて脇へ置く点を強く表す。再開時期が不明で、そのまま実現しない場合もある。  
+例: The team shelved the proposal after losing its funding.  
+訳: チームは資金を失ったため、その提案を棚上げした。  
+
+【反意語】
+
+・bring forward  
+定義: 予定を当初より早い時期へ移す。  
+頻度: 〈6/10〉  
+違い: 実施時期を後へ動かすことに対する、時間方向の反対。日程変更の意味では特にイギリス英語でよく使う。  
+例: We brought the inspection forward by a week.  
+訳: 検査を1週間前倒しした。  
+
+・advance  
+定義: 予定・日付などを早める。  
+頻度: 〈5/10〉  
+違い: この日程変更義では defer と時間方向が反対。advance 全体の「進む、進める」と区別する。  
+例: The organizers advanced the opening date to April 2.  
+訳: 主催者は開幕日を4月2日に早めた。  
+
+2. 【動詞・自動詞＋前置詞to】相手の判断・意向を尊重して従う、相手に判断を任せる
+
+【日本語訳・定義】相手の知識・経験・権限・希望などを重く見て、自分の判断を押し通さず相手の判断や意向を受け入れる。defer to someone / something の形で使う。敬意・相手を立てる姿勢が典型的な含みだが、相手の意見に心から賛成していることまで保証しない。  
+
+【頻度】〈5/10〉  
+
+【レジスター/領域】やや硬い一般語。会議、専門的判断、丁寧な意見調整で使う。  
+
+【文法パターン】defer to someone＝人の判断に従う・人を立てる／defer to someone's judgment / wishes / expertise＝その判断・希望・専門知識を尊重する／defer to someone on 〈論点〉＝その点では相手の判断に任せる／defer to what / whatever 〈主語＋動詞〉＝相手の述べること・決めることなどに従う。toは前置詞であり、代名詞は defer to her / them の位置に置く。  
+
+【コロケーション・構文例】
+
+・defer to someone on 〈論点〉  
+用途: 自分より適任の人に、その論点の判断を任せる。  
+例: I'll defer to our engineer on the choice of materials.  
+訳: 材料の選定については、当社の技術者の判断に従います。  
+
+・defer to someone's judgment  
+用途: 相手の判断を尊重して受け入れる。  
+例: I still have reservations, but I will defer to your judgment.  
+訳: まだ懸念はありますが、あなたの判断に従います。  
+
+・defer to someone's wishes  
+用途: 自分の好みより相手の希望を優先する。  
+例: We deferred to the speaker's wishes and kept the session off the record.  
+訳: 講演者の意向を尊重し、その会合の内容は公表しないことにした。  
+
+・defer to someone's expertise  
+用途: 相手の専門知識を信頼して判断を委ねる。  
+例: The manager deferred to the archivist's expertise when choosing a storage method.  
+訳: 管理者は保存方法を選ぶ際、資料保存担当者の専門的判断に従った。  
+
+・defer to whatever 〈主語＋動詞〉  
+用途: 相手の決定内容を名詞節で受ける。  
+例: We will defer to whatever the review panel recommends.  
+訳: 審査委員会が何を推奨しても、その判断に従います。  
+
+【語法・注意】defer to her は「彼女の判断に従う」で、× defer her to のように分離しない。人が直接目的語になる入試の語義4・徴兵の語義5とは別構造。defer to a decision は「その決定に従う」、defer a decision は「決定を先送りする」。I'll defer to you. は会議で「この点はあなたにお任せします」という丁寧な発言になるが、業務を正式に移管したことまで表すとは限らない。過去形 deferred to でも、前置詞toは残る。単に従属するだけでなく、自分の判断より相手の判断を優先する点を押さえる。  
+
+【類義語】
+
+・yield to  
+定義: 相手の要求・意向・圧力などに譲る。  
+頻度: 〈6/10〉  
+違い: defer to にある敬意の含みを必要とせず、圧力に負けて譲る場合にも使う。  
+例: The company yielded to customer pressure and changed the policy.  
+訳: 会社は顧客からの圧力に譲歩し、方針を変えた。  
+
+・bow to  
+定義: 権威・圧力・判断などを受け入れて従う。  
+頻度: 〈5/10〉  
+違い: defer to より、抵抗をやめることや相手の優位を認めることが前面に出やすい。bow to someone's expertise では敬意を表すこともある。  
+例: The director bowed to the committee's decision.  
+訳: 責任者は委員会の決定に従った。  
+
+・go along with  
+定義: 提案や方針に同意して、それに合わせて行動する。  
+頻度: 〈7/10〉  
+違い: defer to より会話的で、専門性や権威を認める含みを持たずに協力・賛同を示せる。  
+例: I can go along with that proposal if we review it after a month.  
+訳: 1か月後に見直すのであれば、その提案に賛成できます。  
+
+3. 【動詞・他動詞】判断・案件などを他者に委ねる
+
+【日本語訳・定義】判断・質問・担当事項などを、別の人や組織に扱ってもらうために委ねる。defer something to someone の形で、委ねる対象が直接目的語になる。語義2と同じ意味系統だが、「誰に従うか」より「何を誰に任せるか」を明示する。  
+
+【頻度】〈3/10〉  
+
+【レジスター/領域】硬い表現。業務や公的なやり取りで見られるが、一般には leave something to someone / refer something to someone などの方が明瞭な場合も多い。  
+
+【文法パターン】defer 〈判断・案件〉 to someone / 〈組織〉＝その判断・案件を相手に委ねる／〈判断・案件〉 + be deferred to someone＝相手に委ねられる。直接目的語を代名詞にする場合は defer it to someone。  
+
+【コロケーション・構文例】
+
+・defer the final decision to someone  
+用途: 最終判断を行う相手を明示する。  
+例: The chair deferred the final decision to the full board.  
+訳: 議長は最終判断を取締役会全体に委ねた。  
+
+・defer a question to someone  
+用途: 自分では答えず、担当者に質問への対応を任せる。  
+例: The spokesperson deferred the technical question to the chief engineer.  
+訳: 広報担当者は、その技術的な質問への回答を主任技術者に委ねた。  
+
+【語法・注意】defer the decision to the board は「取締役会に決定を委ねる」、defer to the board は「取締役会の判断を尊重して従う」。また defer the decision to next month は語義1の「来月に延期する」。同じtoでも、その後ろが判断の受け手か、後の時点かで意味が変わる。低頻度だからといって他動詞の委任義を誤文としない一方、延期との曖昧さを避けたい文章では leave the decision to the board などと明示できる。  
+
+【類義語】
+
+・entrust  
+定義: 人を信頼して仕事・責任などを任せる。  
+頻度: 〈5/10〉  
+違い: entrust something to someone は信頼と責任の付与に重点がある。defer something to someone は、その案件を相手の判断・対応に回すことに重点がある。  
+例: They entrusted the negotiations to an experienced mediator.  
+訳: 彼らは交渉を経験豊かな仲介者に任せた。  
+
+・delegate  
+定義: 権限・仕事を他の人に委任する。  
+頻度: 〈6/10〉  
+違い: 組織内で任務・権限を割り振ることを明確に表す。質問への回答を譲るだけの場合まで、必ず delegate で言い換えられるわけではない。  
+例: The manager delegated routine approvals to the team leaders.  
+訳: 管理者は日常的な承認業務を各チームの責任者に委任した。  
+
+・refer  
+定義: 案件・質問などを、扱うべき相手に回す。  
+頻度: 〈7/10〉  
+違い: refer something to someone は照会・審査・対応のために回す意味。相手の意見に従うことや、その人に全権を与えることは必須ではない。  
+例: Please refer all billing questions to the accounts team.  
+訳: 請求についての質問は、すべて経理チームに回してください。  
+
+4. 【動詞・他動詞】志願者・出願の合否判断を後の選考へ持ち越す
+
+【日本語訳・定義】大学側が、早期の入学選考では志願者の合否を確定せず、通常選考など後の選考で再審査することにする。目的語は出願だけでなく志願者にもなる。保留の時点では合格が確定しておらず、不合格の決定とも異なる。  
+
+【頻度】〈3/10〉  
+
+【レジスター/領域】主に米国の大学入試。具体的な選考名や保留後の手順は大学によって異なる。  
+
+【文法パターン】〈大学・選考委員会〉 + defer an applicant / an application＝志願者・出願の合否を保留する／defer an application to the regular decision round＝出願の判断を通常選考へ持ち越す／〈志願者〉 + be deferred＝志願者が合否保留となる。be deferred from 〈早期選考〉 to 〈後の選考〉と選考段階を示すこともある。  
+
+【コロケーション・構文例】
+
+・defer an applicant  
+用途: 大学側を主語にし、合否を保留される人を直接目的語にする。  
+例: The university deferred several early applicants and planned to review their files again in the spring.  
+訳: 大学は早期出願者の一部の合否を保留し、春にその出願書類を再審査することにした。  
+
+・defer an application to the regular decision round  
+用途: 出願案件を後の選考へ回すことを明示する。  
+例: The admissions committee deferred her application to the regular decision round.  
+訳: 入学選考委員会は、彼女の出願の合否判断を通常選考へ持ち越した。  
+
+・be deferred in 〈早期選考〉  
+用途: 志願者を主語にし、早期の選考結果が保留だったと述べる。  
+例: He was deferred in the early round and will be considered again with the regular applicants.  
+訳: 彼は早期選考では合否が保留され、通常の出願者とともに再審査される。  
+
+・be deferred from 〈早期選考〉 to 〈後の選考〉  
+用途: どの選考段階からどこへ持ち越されたかを示す。  
+例: She was deferred from early action to the regular decision round.  
+訳: 彼女の合否判断は、早期選考から通常選考へ持ち越された。  
+
+【語法・注意】She was deferred in the early round. は、大学側が彼女の合否判断を保留したという受動態。She deferred enrollment for a year. は、本人が入学時期を1年延期したという語義1の能動態。deferred admission という語句も、資料によって合否保留と入学時期延期のどちらを指すかが異なるため、見かけだけで合格済みと判断しない。waitlist「補欠・入学待機者の一覧に入れる」とも同じ結果ではない。defer は後の選考での判断へ持ち越すことに焦点があり、その後に必要な手続きや合格の可能性までは一律に表さない。  
+
+【類義語】
+
+・hold over  
+定義: 処理・判断すべき案件を後の機会まで持ち越す。  
+頻度: 〈4/10〉  
+違い: 入試専用語ではなく、held over for later consideration と保留の扱いを説明する一般表現。人を直接目的語にした defer の制度的な意味を、出願案件について言い換える形になる。  
+例: Her application was held over for consideration in the regular round.  
+訳: 彼女の出願は、通常選考での審査へ持ち越された。  
+
+5. 【動詞・他動詞】人の徴兵・入隊を猶予する
+
+【日本語訳・定義】徴兵対象者を直接目的語に取り、その人の入隊・兵役への徴集を先へ延ばす。単にその人との面会を延期する意味ではない。猶予であって、兵役義務から永久に免除することと同一ではない。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】軍事・徴兵制度。特に米国の徴兵史などで見られる用法。  
+
+【文法パターン】defer someone＝人の徴兵を猶予する／someone + be deferred from military service / induction＝人の兵役・入隊が猶予される。人を直接目的語または受動態の主語にする点が、行為を目的語にする語義1と異なる。  
+
+【コロケーション・構文例】
+
+・defer 〈徴兵対象者〉  
+用途: 当局が対象者の徴兵を猶予したことを述べる。  
+例: The draft board deferred him for six months.  
+訳: 徴兵委員会は、彼の徴兵を6か月猶予した。  
+
+・be deferred from military service  
+用途: 兵役が猶予された人物について述べる。  
+例: The historical record states that he was deferred from military service while completing his studies.  
+訳: その歴史資料には、彼が学業を終える間、兵役を猶予されていたと記されている。  
+
+【語法・注意】人目的語の意味は領域で異なる。入試では語義4の合否保留、ここでは徴兵の猶予であり、一般的な人への依頼や判断の尊重へ広げない。defer him はこの制度的文脈では「彼の徴兵を猶予する」、defer to him は語義2の「彼の判断に従う」。具体的な猶予要件は国・時代・制度で異なる。歴史的な例文から、現在の米国で学生が一律に徴兵猶予を受けているとは推測しない。登録、入隊、徴兵猶予、兵役免除は別の事柄である。  
+
+【類義語】
+
+・grant a deferment  
+定義: 入隊・兵役などについて正式な猶予を認める。  
+頻度: 〈2/10〉  
+違い: 人を直接目的語にする defer と異なり、猶予という措置を名詞で明示する。兵役以外にも使えるため、何の猶予かを文脈で示す。  
+例: The board granted him a deferment from induction.  
+訳: 委員会は、彼に入隊の猶予を認めた。  
