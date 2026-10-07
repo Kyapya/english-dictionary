@@ -134,7 +134,7 @@ appraises /əˈpreɪzɪz/、appraised /əˈpreɪzd/、appraising /əˈpreɪzɪŋ
 
 ・appraise something at 〈金額〉  
 用途: 能動態で査定対象と評価額を示す。  
-例: The dealer appraised the collection at $18,000.  
+例: The dealer appraised the collection at 18,000 dollars.  
 訳: 業者はそのコレクションを1万8,000ドルと査定した。  
 
 ・be appraised at 〈金額〉  
@@ -154,10 +154,10 @@ appraises /əˈpreɪzɪz/、appraised /əˈpreɪzd/、appraising /əˈpreɪzɪŋ
 
 ・be appraised for 〈金額〉  
 用途: for を使って査定額を述べる用法を理解する。  
-例: The sculpture was appraised for $9,000, but no buyer offered that much.  
+例: The sculpture was appraised for 9,000 dollars, but no buyer offered that much.  
 訳: その彫刻は9,000ドルと査定されたが、その額を提示する買い手はいなかった。  
 
-【語法・注意】誤: They appraised the vase as $600. → 正: They appraised the vase at $600. 査定額の at と、査定者の by、目的の for を区別する。for は金額を導く実例もあるため、一律に「金額には使えない」とはしない。The house was appraised. は査定という行為を述べる受動態。the appraised value は「査定された価値」という過去分詞の限定用法で、ハイフンは不要。appraised は通常「査定済み」という動詞から予測できる意味で、seems appraised のような独立した性質の形容詞としては使いにくい。appraise は鑑定して真贋を確定することや、売買価格を合意することをそれ自体では意味しない。米国の不動産文脈では The house appraised for $300,000. のような物件主語の自動詞用法もあるが、査定者が目的語の物件を評価するこの他動詞とは構造が違う（語義5）。  
+【語法・注意】誤: They appraised the vase as 600 dollars. → 正: They appraised the vase at 600 dollars. 査定額の at と、査定者の by、目的の for を区別する。for は金額を導く実例もあるため、一律に「金額には使えない」とはしない。The house was appraised. は査定という行為を述べる受動態。the appraised value は「査定された価値」という過去分詞の限定用法で、ハイフンは不要。appraised は通常「査定済み」という動詞から予測できる意味で、seems appraised のような独立した性質の形容詞としては使いにくい。appraise は鑑定して真贋を確定することや、売買価格を合意することをそれ自体では意味しない。米国の不動産文脈では The house appraised for 300,000 dollars. のような物件主語の自動詞用法もあるが、査定者が目的語の物件を評価するこの他動詞とは構造が違う（語義5）。  
 
 【類義語】
 
@@ -179,7 +179,7 @@ appraises /əˈpreɪzɪz/、appraised /əˈpreɪzd/、appraising /əˈpreɪzɪŋ
 定義: 金額・数量などのおおよその値を見積もる。  
 頻度: 〈8/10〉  
 違い: 正式な現物査定を必須とせず、概算にも使う。appraise と違って estimate the cost のように費用の予測にも広く使う。  
-例: They estimated the collection's value at around $20,000.  
+例: They estimated the collection's value at around 20,000 dollars.  
 訳: 彼らはそのコレクションの価値を約2万ドルと見積もった。  
 
 3. 【動詞・他動詞】従業員の業績を正式に評価する
@@ -305,7 +305,7 @@ appraises /əˈpreɪzɪz/、appraised /əˈpreɪzd/、appraising /əˈpreɪzɪŋ
 
 ・a home + appraise for 〈金額〉  
 用途: 物件を主語にして、査定でついた金額を述べる。  
-例: The home appraised for $300,000.  
+例: The home appraised for 300,000 dollars.  
 訳: その住宅には30万ドルの査定額がついた。  
 
 ・a property + appraise for less than 〈比較額〉  
@@ -318,6 +318,6 @@ appraises /əˈpreɪzɪz/、appraised /əˈpreɪzd/、appraising /əˈpreɪzɪŋ
 例: The home appraised for more than the asking price.  
 訳: その住宅の査定額は売り出し価格を上回った。  
 
-【語法・注意】The specialist appraised the home at $300,000. は査定者主語の他動詞、The home was appraised at $300,000. は受動態、The home appraised for $300,000. は物件主語の自動詞である。最後の形を、単に受動態の was が自由に省略できる規則として覚えない。人の仕事ぶりについて同様に My performance appraised well. などと一般化せず、My performance was rated highly. などを使う。  
+【語法・注意】The specialist appraised the home at 300,000 dollars. は査定者主語の他動詞、The home was appraised at 300,000 dollars. は受動態、The home appraised for 300,000 dollars. は物件主語の自動詞である。最後の形を、単に受動態の was が自由に省略できる規則として覚えない。人の仕事ぶりについて同様に My performance appraised well. などと一般化せず、My performance was rated highly. などを使う。  
 
 査定額が売買価格と異なること自体は、この語の構文上も問題ない。融資や契約に及ぼす具体的な効果は条件によって異なり、appraise for の意味には含まれない。  
