@@ -76,7 +76,7 @@ approach「近づく」、proximity「近接」も prope に関係する同系�
 例: “You could at least have told me,” she reproached him.  
 訳: 「せめて教えてくれてもよかったでしょう」と、彼女は彼を責めた。  
 
-【語法・注意】直接目的語は基本的に責められる相手。reproach him for lying は「うそをついた彼を責める」で、*reproach him of lying としない。accuse him of lying は「うそをついたと彼を非難する・告発する」で、動詞が変わると前置詞も変わる。with は非難の内容を導き、「一緒に」という意味ではない。for の型が実用上の基本だが、with の型を誤り扱いしない。引用を伴う reproach は発話描写であり、*reproach someone to do something を「人に～するよう注意する」の一般型として使わない。reproached はこの動詞の過去形・過去分詞で、be reproached は受動。reproachful は「他者を責める態度の」で、「責められた」を表す形容詞ではない。  
+【語法・注意】直接目的語は基本的に責められる相手。reproach him for lying は「うそをついた彼を責める」で、reproach him of lying という誤った形にしない。accuse him of lying は「うそをついたと彼を非難する・告発する」で、動詞が変わると前置詞も変わる。with は非難の内容を導き、「一緒に」という意味ではない。for の型が実用上の基本だが、with の型を誤り扱いしない。引用を伴う reproach は発話描写であり、reproach someone to do something という誤った形を「人に～するよう注意する」の一般型として使わない。reproached はこの動詞の過去形・過去分詞で、be reproached は受動。reproachful は「他者を責める態度の」で、「責められた」を表す形容詞ではない。  
 
 【類義語】
 
@@ -144,7 +144,7 @@ approach「近づく」、proximity「近接」も prope に関係する同系�
 例: You acted on the information available and have nothing to reproach yourself with.  
 訳: あなたは当時得られた情報に基づいて行動したので、自分を責めることはありません。  
 
-【語法・注意】She reproached herself. は「彼女が自分を責めた」という能動の再帰構文。She was reproached. は「彼女が人から責められた」という受動構文で、意味上の非難する側が違う。再帰用法の herself などを省いて *She reproached for the mistake. としない。reproach oneself は自責を表すが、regret doing something は選択・機会についての後悔にも使え、自分に道徳的な非があるという判断までは必要ない。  
+【語法・注意】She reproached herself. は「彼女が自分を責めた」という能動の再帰構文。She was reproached. は「彼女が人から責められた」という受動構文で、意味上の非難する側が違う。再帰用法の herself などを省いて She reproached for the mistake. という誤った文にしない。reproach oneself は自責を表すが、regret doing something は選択・機会についての後悔にも使え、自分に道徳的な非があるという判断までは必要ない。  
 
 【類義語】
 
