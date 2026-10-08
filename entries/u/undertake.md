@@ -1,0 +1,451 @@
+---
+headword: undertake
+type: word
+status: checked
+prompt_version: entry_spec_v5
+model: gpt-6-astra xhigh
+created_at: 2026-10-08
+updated_at: 2026-10-08
+checked: true
+tags: []
+---
+
+＃発音記号
+
+米: /ˌʌndərˈteɪk/｜英: /ˌʌndəˈteɪk/。3音節で、第1音節に副強勢、第3音節 take に主強勢を置く。示した米英差は第2音節の母音の後の /r/ の有無。過去形 undertook は第3音節が /tʊk/、過去分詞 undertaken は /ˈteɪkən/ となり、後者は全体で4音節。undertakes の語尾は /s/。  
+
+現在分詞 undertaking と、名詞「仕事・確約・企業」の代表形は米 /ˌʌndərˈteɪkɪŋ/｜英 /ˌʌndəˈteɪkɪŋ/。全体で4音節、第1音節に副強勢、第3音節に主強勢があり、米英差は第2音節の /r/ の有無。「葬祭業」の名詞は米 /ˈʌndərteɪkɪŋ/｜英 /ˈʌndəteɪkɪŋ/ のように第1音節に主強勢を置く。ただし「仕事・確約・企業」の名詞にも第1音節に主強勢、第3音節に副強勢を置く発音があるため、語頭の強勢だけで「葬祭業」と決めない。  
+
+＃語源
+
+中英語の undertaken にさかのぼり、under- と take から成る。現代の「仕事や責任を自分で引き受ける」という意味は、under「下に」と take「取る」の逐語訳だけでは説明できない。take は古ノルド語 taka の系統で、同じ take を含む語に overtake「追い越す」、retake「取り直す、再び受ける」がある。接頭辞 under- と over- が対になる形でも、undertake a task と overtake a car が反対の動作になるわけではない。  
+
+＃語形成
+
+・undertook / undertaken＝過去形／過去分詞。take―took―taken と同じ変化を保つ。undergo―underwent―undergone「経験する、受ける」と混同しない。  
+・undertaking＝現在分詞・動名詞のほか、可算名詞「仕事・事業」「確約」「企業・事業体」、不可算名詞「葬祭業」として語彙化している。交通文脈では不可算で「内側からの追越し」も表す。  
+・undertaken＝通常は動詞の過去分詞。work undertaken by the team「そのチームが実施した仕事」のように名詞を後ろから説明できるが、独立した評価形容詞として「意欲的な」「有能な」などを意味するわけではない。  
+・undertaker＝可算名詞で、現代の普通の用法では「葬儀業者、葬儀屋」。仕事を引き受けた人一般を指すための語ではなく、プロジェクト担当者なら the person responsible for the project などと表す。  
+
+＃コアイメージ
+
+物事を自分の行うこととして受け持つ。動詞では仕事の引受け・実施や責任の確約、名詞では受け持つ仕事や確約そのもの、さらに事業を担う組織を表す。語義6は車の走行位置と追越しを表す用法で、「物事を自分の行うこととして受け持つ」という核から語彙的意味を導けないため、個別に参照する。語義7は歴史的残存義で、一般的な請負人を指した undertaker が葬儀業者へ特殊化した歴史を反映する。一般の仕事を引き受けるという核から「葬祭業」という対象までは導けないため、こちらも個別に参照する。  
+
+・行う仕事を受け持って進めること → 「仕事などを引き受ける、取り組む、実施する」（語義1）  
+・行う責任を受け持つと明言すること → 「行うと確約する、約束する」（語義2）  
+・行う対象として受け持つ仕事 → 「仕事、事業、企て」（語義3）  
+・行う責任を受け持つという約束 → 「確約、正式な約束」（語義4）  
+・行う事業を受け持つ組織 → 「企業、事業体」（語義5）  
+
+＃意味・用法・関連表現
+
+1. 【動詞：他動詞】仕事などを引き受ける、取り組む、実施する
+
+【日本語訳・定義】仕事・調査・事業・旅などを自分の行うこととして引き受け、取りかかる、または実行する。人や組織が主語になり、活動そのものが目的語になる。手間や責任を伴う活動に多いが、必ず困難・危険な仕事というわけではない。実際に取り組む面を表せても、完了・成功までは意味しない。  
+
+【頻度】〈7/10〉  
+
+【レジスター/領域】フォーマル。業務報告、研究、行政、計画説明でよく使う。日常の小さな行為では do、take on、carry out などが合うことも多い。  
+
+【文法パターン】undertake something＝仕事・活動を引き受けて行う／undertake the task of doing something＝何かをする仕事を引き受ける／undertake research into something＝ある対象の研究を行う／something is undertaken (by someone)＝活動が実施される／undertake to do something＝文脈によって、行うことを自ら課して着手する・試みる。to 不定詞は語義2の「確約する」にもなるため、形だけでは判定しない。  
+
+【コロケーション・構文例】
+
+・undertake a project  
+用途: 自分や組織が担当して進める計画・事業を述べる。  
+例: The studio undertook three restoration projects last year, but only one has been completed.  
+訳: その工房は昨年、三つの修復事業に取り組んだが、完成したのは一つだけだ。  
+
+・undertake the task of doing something  
+用途: 何を行う役目なのかを of の後の動名詞で示す。  
+例: Maya undertook the task of converting the handwritten records into a searchable database.  
+訳: マヤは手書きの記録を検索可能なデータベースに変換する仕事を引き受けた。  
+
+・undertake research into something  
+用途: 学術的・実務的な研究を実施する主体を述べる。  
+例: The institute is undertaking research into the effects of night-time noise on sleep.  
+訳: その研究所は、夜間の騒音が睡眠に与える影響を研究している。  
+
+・undertake an investigation into something  
+用途: 事故・問題などの調査に着手することを正式に述べる。  
+例: The operator undertook an investigation into the repeated signal failures.  
+訳: 運行会社は、繰り返し発生した信号障害の調査を行った。  
+
+・undertake training  
+用途: 研修・訓練を自ら行う活動として表す。  
+例: All new volunteers undertake basic safety training before working at the site.  
+訳: 新しいボランティアは全員、現場で働く前に基礎的な安全研修を受ける。  
+
+・undertake a journey  
+用途: 計画や負担を伴う旅に出ることを、やや改まって述べる。  
+例: The team undertook a five-day journey to reach the isolated weather station.  
+訳: 一行は孤立した気象観測所へたどり着くため、五日間の旅に出た。  
+
+・be undertaken by someone  
+用途: 仕事を主語にし、実施主体を by で示す。  
+例: The annual inspection will be undertaken by an independent engineering firm.  
+訳: 年次点検は、独立した技術会社が実施する予定だ。  
+
+・undertake to explain something  
+用途: 論文や著書などで、ある問題の説明に取り組むことを述べる。  
+例: In this essay, the author undertakes to explain why the two regions developed so differently.  
+訳: この論考で著者は、その二つの地域がこれほど異なる発展を遂げた理由を説明しようとしている。  
+
+【語法・注意】undertake a survey のように目的語を直接置く。「調査に取り組む」のつもりで undertake on a survey とはせず、前置詞を使うなら embark on a survey などとする。undertake は一語の動詞で、under take と分けたり、undertake up と小辞を足したりしない。目的語が代名詞でも undertake it。過去は undertook、完了・受動は has undertaken／was undertaken で、undertaked とはしない。 undertake は行う側に焦点がある。The team undertook an assessment. は「チームが評価を実施した」、The team underwent an assessment. は「チームが評価を受けた」。ただし undertake training は研修参加者にも使えるため、「undertake の主語は常に指導者、undergo の主語は常に受講者」という規則にはしない。前者は研修を自らの活動として行う面、後者は研修を受ける過程を経験する面を示す。 undertake the task は仕事を引き受けることを表し、undertake to finish the task は通常、その完了を約束する語義2になる。ただし上の論考の例のように、undertake to do が自ら課した試みを表す場合もある。相手への確約があるか、着手した内容の説明かを読む。undertaken は受動の過去分詞として扱い、人について「仕事を引き受ける気がある」の意味で I am undertaken. とはせず、I am willing to take it on. などとする。  
+
+【類義語】
+
+・take on  
+定義: 仕事や責任を新たに引き受ける。  
+頻度: 〈8/10〉  
+違い: 引受けや負担の追加に焦点があり、undertake より会話的。実際の調査実施などを記述する undertake の全用法とは重ならない。  
+例: I can't take on another assignment this week.  
+訳: 今週はこれ以上仕事を引き受けられない。  
+
+・carry out  
+定義: 計画・指示・調査などを実行する。  
+頻度: 〈8/10〉  
+違い: 実施に焦点があり、自分で責任を引き受ける段階は必ずしも示さない。代名詞目的語は carry it out とする。  
+例: The technicians carried out the tests according to the revised procedure.  
+訳: 技術者たちは改訂された手順に従って試験を実施した。  
+
+・conduct  
+定義: 調査・実験・面接などを組織立てて行う。  
+頻度: 〈8/10〉  
+違い: 活動の実施・進行管理に適し、undertake a journey のような旅への出発には通常使わない。  
+例: An external researcher conducted the interviews.  
+訳: 外部の研究者が聞き取り調査を行った。  
+
+・assume  
+定義: 責任・役職などを引き受ける。  
+頻度: 〈7/10〉  
+違い: assume responsibility／control のように役割・権限を担う点が中心。undertake research のような具体的な活動の実施と区別する。  
+例: Leah assumed responsibility for the regional office in April.  
+訳: リアは四月に地域事務所の責任者となった。  
+
+・embark on  
+定義: 新しい計画・活動に着手する。  
+頻度: 〈6/10〉  
+違い: 始まりや新たな段階への移行を強調する。undertake の直接目的語と異なり、名詞の前に on が必要。  
+例: The council embarked on a review of local bus services.  
+訳: 議会は地域のバスサービスの見直しに着手した。  
+
+2. 【動詞：他動詞・補文を取る】行うと確約する、約束する
+
+【日本語訳・定義】あることを行う責任を引き受けると、正式に約束する。自分で行うことのほか、組織としてある事態を実現することを保証する場合もある。単なる予定や希望より強い意思表示だが、語そのものが常に法的契約の成立や履行済みを意味するわけではない。  
+
+【頻度】〈6/10〉  
+
+【レジスター/領域】フォーマル。業務上の確約、交渉、公式声明、契約文など。法律文書に限定されない。  
+
+【文法パターン】undertake to do something＝自分が何かをすると確約する／undertake not to do something＝しないと確約する／undertake (that) + 〈節〉＝節の内容を確約する。to 不定詞の意味上の主語は通常 undertake の主語と同じで、that 節は別の主語も置ける。約束を受ける相手を人の直接目的語として挟む型を基本形にしない。  
+
+【コロケーション・構文例】
+
+・undertake to do something  
+用途: 自分や自社が行うことを正式に約束する。  
+例: At the meeting, the supplier undertook to replace all defective parts at no extra charge.  
+訳: 会議で供給業者は、不良部品をすべて追加料金なしで交換すると確約した。  
+
+・undertake not to do something  
+用途: ある行為をしないという約束を述べる。  
+例: Both sides undertook not to release the figures before the joint announcement.  
+訳: 双方は共同発表より前に数値を公表しないと約束した。  
+
+・undertake that + 〈節〉  
+用途: 実現を約束する事態を、主語と述語を備えた節で示す。  
+例: The company undertook that every applicant would receive a written response.  
+訳: 会社は、すべての応募者に書面で回答すると確約した。  
+
+・undertake to ensure that + 〈節〉  
+用途: 他の人・組織の行動や状態について、それが実現するよう責任を負うと約束する。  
+例: The organizer undertook to ensure that all speakers had access to the final schedule.  
+訳: 主催者は、すべての登壇者が最終日程を確認できるようにすると確約した。  
+
+【語法・注意】この意味では undertake to send the report の to は不定詞を導き、原形 send が続く。確約の基本形として undertake to sending the report とはしない。また「あなたに送ると約束した」は undertook you to send ではなく、undertook to send it to you、または promised you that ... とする。undertake oneself to do を基本構文として作らず、undertake to do か commit oneself to doing を使う。 undertook not to publish は「公表しないと約束した」、did not undertake to publish は「公表すると約束したわけではない」で、否定の範囲が違う。前者は不公表の確約、後者は公表の確約がなかったというだけで、公表しなかったとは限らない。語義1の undertook the review「見直しを引き受けた・実施した」と、ここでの undertook to complete the review「見直しを完了すると約束した」を区別する。 名詞目的語を取る実施義なら The review was undertaken by Lee. と普通に受動化できる。一方、約束する人を主語にした Lee was undertaken to complete it. は「リーが完了を確約した」の意味にならない。Lee undertook to complete it. と能動で表す。  
+
+【類義語】
+
+・promise  
+定義: 何かをする、またはあることが起こると約束する。  
+頻度: 〈9/10〉  
+違い: 日常的な約束にも広く使い、undertake より格式張らない。promise someone something／promise someone that ... と約束の相手を直接置ける。  
+例: I promised her that I would call as soon as I arrived.  
+訳: 到着したらすぐに電話すると彼女に約束した。  
+
+・pledge  
+定義: 行動・支援などを固く約束する。  
+頻度: 〈7/10〉  
+違い: 公的・厳粛な決意や支援の表明が目立つ。undertake は個別の仕事や履行内容を引き受ける確約にも合う。  
+例: The mayor pledged to publish the spending records each quarter.  
+訳: 市長は支出記録を四半期ごとに公表すると約束した。  
+
+・commit oneself to  
+定義: ある行動方針に自分を拘束する形で取り組むと決める。  
+頻度: 〈6/10〉  
+違い: 継続的な方針・関与にも使える。to は前置詞なので doing が続き、undertake to do とは形が違う。  
+例: The board committed itself to reducing waste across all offices.  
+訳: 理事会は、すべての事務所で廃棄物削減に取り組むと約束した。  
+
+・guarantee  
+定義: 結果・品質・履行などを確実なものとして保証する。  
+頻度: 〈8/10〉  
+違い: 保証する結果や確実性に重点がある。undertake to do は自分が行為の責任を引き受けることを表すため、単なる成功予測とは違う。  
+例: We cannot guarantee that the repair will extend the machine's life by five years.  
+訳: この修理によって機械の寿命が五年延びるとは保証できない。  
+
+3. 【名詞：可算 undertaking】仕事、事業、企て
+
+【日本語訳・定義】引き受けて行う一まとまりの仕事・計画・事業。相当な労力・規模・難しさのあるものに特に多いが、小さな仕事を指すこともできる。商業的な事業だけでなく、移転、修復、旅行、イベント運営などにも使う。語義4の「確約」、語義5の「企業・事業体」とは別で、行う活動そのものを指す。  
+
+【頻度】〈6/10〉  
+
+【レジスター/領域】ややフォーマル。業務・論説に加え、大変な仕事を評する日常的な発話でも使う。  
+
+【文法パターン】an undertaking／undertakings＝一つの仕事・複数の事業／a major undertaking＝大がかりな仕事／a joint undertaking＝共同事業／an undertaking for someone＝その人にとっての仕事／〈活動〉 + be + an undertaking＝その活動が一まとまりの仕事だと評価する。単数の可算名詞なので、通常は冠詞や所有格などが必要。  
+
+【コロケーション・構文例】
+
+・a major undertaking（undertake からの名詞）  
+用途: 仕事の規模や負担の大きさを示す。  
+例: Moving the laboratory while keeping essential experiments running was a major undertaking.  
+訳: 重要な実験を継続しながら研究室を移転するのは、大がかりな仕事だった。  
+
+・a joint undertaking（undertake からの名詞）  
+用途: 複数の人や組織が一緒に行う事業を表す。  
+例: The coastal survey is a joint undertaking by the university and the local museum.  
+訳: その沿岸調査は、大学と地元の博物館による共同事業だ。  
+
+・a risky undertaking（undertake からの名詞）  
+用途: 成功や安全に不確実性のある仕事・計画を評価する。  
+例: Restoring the bridge without closing it to traffic would be a risky undertaking.  
+訳: 通行止めにせずに橋を修復するのは、危険を伴う事業になるだろう。  
+
+・an ambitious undertaking（undertake からの名詞）  
+用途: 目標が高く、実現に大きな努力を要する計画を表す。  
+例: Digitizing the entire archive in a year is an ambitious undertaking for a team of six.  
+訳: 六人のチームで一年以内に全資料をデジタル化するのは、意欲的な事業だ。  
+
+・no small undertaking（undertake からの名詞）  
+用途: 否定を使って、かなり大変な仕事だと強調する。  
+例: Running a public festival entirely with volunteers is no small undertaking.  
+訳: 公開の祭りをすべてボランティアで運営するのは、並大抵の仕事ではない。  
+
+【語法・注意】They are undertaking a survey. では undertaking は進行形の一部で、その後の a survey が目的語。The survey is a major undertaking. では冠詞と形容詞を伴う可算名詞で、調査そのものを「大仕事」と評価している。an undertaking の an は最初の音が母音 /ʌ/ であるため。形容詞が入れば a major undertaking となる。 「仕事を行うこと」を一般的な動作として名詞化した the undertaking of the survey は、この可算名詞 a difficult undertaking「難しい仕事」と構造が異なる。前者は名詞化された行為で of が対象を導き、後者は仕事を一件として数える。名詞 undertaking の後の to 不定詞は語義4の確約を表すことが多く、特に give an undertaking to do は「行うと約束する」であって「仕事を渡す」ではない。  
+
+【類義語】
+
+・task  
+定義: 行うべき個別の仕事・作業。  
+頻度: 〈9/10〉  
+違い: 小さな日常作業にも広く使う。undertaking は、ひとまとまりの労力を要する仕事として捉えることが多い。  
+例: Checking the labels is the final task before shipment.  
+訳: ラベルの確認が出荷前の最後の作業だ。  
+
+・project  
+定義: 特定の目的を達成するための計画的な活動。  
+頻度: 〈9/10〉  
+違い: 目標・工程を持つ計画を指しやすい。undertaking は計画管理の枠組みを前提にせず、その仕事の負担や規模を述べられる。  
+例: The project has a fixed budget and a twelve-month schedule.  
+訳: その計画には決められた予算と十二か月の工程がある。  
+
+・enterprise  
+定義: 努力・積極性を要する事業や企て。  
+頻度: 〈6/10〉  
+違い: 新たな事業を起こす意欲や組織的な活動の含みがある。この語義では undertaking と近いが、enterprise も undertaking も企業そのものを指すことがあり、その用法は語義5で扱う。  
+例: The regional history series began as a small publishing enterprise.  
+訳: その地域史シリーズは、小さな出版事業として始まった。  
+
+・venture  
+定義: 利益や成果を期待して始める、危険や不確実性を伴う事業。  
+頻度: 〈7/10〉  
+違い: 冒険性・事業上のリスクが中心に出やすい。undertaking 自体には、そのようなリスクは必須ではない。  
+例: Their first commercial venture failed to attract enough customers.  
+訳: 二人が初めて手掛けた商業事業は、十分な顧客を集められなかった。  
+
+4. 【名詞：可算 undertaking】確約、正式な約束
+
+【日本語訳・定義】あることを行う、またはある事態を実現すると正式に約束すること、その約束。書面によるものも口頭によるものも指せる。法的な場面にも使うが、単語だけから契約の有効性、裁判所への提出、違反時の制裁などが決まるわけではない。  
+
+【頻度】〈5/10〉  
+
+【レジスター/領域】フォーマル。業務上の交渉、公式声明、法律文書など。  
+
+【文法パターン】give (someone) an undertaking to do something＝何かを行うと相手に確約する／give an undertaking that + 〈節〉＝節の内容を確約する／an undertaking from someone＝その人からの確約／honour an undertaking＝約束を守る／seek an undertaking＝確約を求める。約束を個別に数える場合は複数形 undertakings。  
+
+【コロケーション・構文例】
+
+・give someone an undertaking to do something（undertake からの名詞）  
+用途: 誰に何を約束したのかを述べる。  
+例: The builder gave us an undertaking to repair the damaged wall before handover.  
+訳: 建築業者は、引渡し前に損傷した壁を修理すると私たちに確約した。  
+
+・give an undertaking that + 〈節〉（undertake からの名詞）  
+用途: 完全文を使って確約の内容を示す。  
+例: The manager gave an undertaking that no staff member would lose pay during the closure.  
+訳: 管理責任者は、休業中に給与が減る従業員は一人も出ないと確約した。  
+
+・a written undertaking（undertake からの名詞）  
+用途: 口頭ではなく書面で示された約束を表す。  
+例: We requested a written undertaking from the venue that the room would be accessible by wheelchair.  
+訳: 私たちは会場側に、その部屋を車椅子で利用できるという書面での確約を求めた。  
+
+・honour an undertaking（undertake からの名詞）  
+用途: 一度した確約を履行することを述べる。  
+例: Despite the increase in costs, the company honoured its undertaking to keep the price unchanged.  
+訳: 費用が増えたにもかかわらず、会社は価格を据え置くという約束を守った。  
+
+・seek an undertaking（undertake からの名詞）  
+用途: 相手に明確な約束を求める。  
+例: The committee is seeking an undertaking that the survey results will be published in full.  
+訳: 委員会は、調査結果を全文公表するという確約を求めている。  
+
+【語法・注意】a major undertaking は通常、語義3の「大がかりな仕事」。give an undertaking はここでの「確約を与える」で、give a task「仕事を与える」とは違う。undertaking to do の to 不定詞、undertaking that ... の that 節は約束の内容を説明する。単数では give an undertaking とし、約束を一件示すつもりで give undertaking と冠詞を落とさない。 undertook to repair は動詞による「修理すると確約した」、gave an undertaking to repair は名詞を使った同じ内容の表し方。後者では give us an undertaking のように相手を置けるが、その形から前者を undertook us to repair と作らない。honour an undertaking の綴りは米国では honor an undertaking。確約した事実と、実際に履行した事実は分けて読む。  
+
+【類義語】
+
+・promise  
+定義: あることをする、またはしないという約束。  
+頻度: 〈9/10〉  
+違い: 家族・友人間の約束にも使う一般語。undertaking は正式に引き受ける意味合いが強い。  
+例: He kept his promise to call every week.  
+訳: 彼は毎週電話するという約束を守った。  
+
+・commitment  
+定義: 行動や支援などについて引き受けた責任・約束。  
+頻度: 〈8/10〉  
+違い: 個別の約束のほか、継続的な関与や責務も含む。undertaking は約束した具体的な内容を表しやすい。  
+例: We have a long-term commitment to maintaining the archive.  
+訳: 私たちには、その資料庫の維持管理を長期にわたって担う責務がある。  
+
+・assurance  
+定義: 相手を安心させるための保証・請合い。  
+頻度: 〈7/10〉  
+違い: 相手の不安を取り除く説明にも使い、自分が特定の行為を引き受ける undertaking と常に同じではない。  
+例: The technician gave me an assurance that the backup files were intact.  
+訳: 技術者は、バックアップファイルは無事だと私に請け合った。  
+
+・pledge  
+定義: 固く、しばしば公に行う約束・誓約。  
+頻度: 〈7/10〉  
+違い: 厳粛さや公的な決意を帯びやすい。undertaking は具体的な履行内容を正式に約束する場面にも使う。  
+例: The candidates signed a pledge to disclose all campaign donations.  
+訳: 候補者たちは、選挙運動への寄付をすべて公開するという誓約に署名した。  
+
+5. 【名詞：可算 undertaking】企業、事業体
+
+【日本語訳・定義】商業活動などを営む企業・事業体。語義3のような一件の仕事や活動そのものではなく、事業の担い手としての組織・経営単位を指す。雇用主になったり、資産を保有したり、買収の対象になったりする企業を述べる文脈で使う。  
+
+【頻度】〈4/10〉  
+
+【レジスター/領域】フォーマルなビジネス用語。企業・経営・投資に関する文章。日常会話では business や company のほうが一般的。  
+
+【文法パターン】a commercial undertaking＝商業活動を営む企業・事業体／associated undertakings＝関連する企業・事業体。単数は冠詞・所有格などを伴い、複数は undertakings。企業を数えたり、企業を主語にして雇用・経営などを述べたりできる。  
+
+【コロケーション・構文例】
+
+・a commercial undertaking（undertake からの名詞）  
+用途: 活動を営む企業そのものを、正式な文章で述べる。  
+例: The commercial undertaking employs eighty people and owns two warehouses near the port.  
+訳: その企業は八十人を雇用し、港の近くに二つの倉庫を所有している。  
+
+・associated undertakings（undertake からの名詞）  
+用途: 関連のある企業を複数の事業体として述べる。  
+例: The report lists three associated undertakings, each with its own management team.  
+訳: その報告書には、それぞれ独自の経営陣を持つ三つの関連企業が掲載されている。  
+
+【語法・注意】The undertaking employs eighty people. では undertaking は人を雇う企業を指す。一方、語義3の The move was a major undertaking. は移転という仕事を指し、経営組織を表さない。commercial undertaking も文脈次第で事業活動や計画を指せるため、commercial の有無だけで区別せず、雇用・資産・経営陣など、何について述べているかを読む。語義4の give an undertaking は確約を与えることで、企業を譲るという意味ではない。  
+
+【類義語】
+
+・business  
+定義: 商品やサービスの提供などを行う事業体。  
+頻度: 〈9/10〉  
+違い: 日常でも使う広い語。企業を指す undertaking は、より正式な経営・業務文書に寄る。business にも事業活動そのものを指す不可算用法がある。  
+例: She owns a small business that repairs commercial kitchen equipment.  
+訳: 彼女は業務用厨房機器を修理する小さな会社を経営している。  
+
+・enterprise  
+定義: 事業を営む企業・組織。  
+頻度: 〈7/10〉  
+違い: 企業という組織単位を述べる点で近く、undertaking と同じく活動・企ての別義もある。ここでは語義3の「企て」ではなく、経済活動の主体を指す。  
+例: The enterprise has offices in four cities and more than two hundred employees.  
+訳: その企業は四つの都市に事務所を持ち、二百人以上を雇用している。  
+
+6. 【動詞：自動詞・他動詞】車を内側から追い越す
+
+【日本語訳・定義】通常の追越し側とは反対の、低速車が走る側の車線を使って前の車を追い越す。主に英国の用法で、左側通行の英国では他車の左側を通ることを指す。仕事を「引き受ける」という意味ではない。  
+
+【頻度】〈3/10〉  
+
+【レジスター/領域】主に英国、くだけた交通用語。運転の説明や道路上の危険行為についての話で使う。  
+
+【文法パターン】undertake another vehicle＝他車を内側から追い越す／undertake＝追越し対象を明示せず、その運転行為を述べる／a vehicle is undertaken by another vehicle＝車が別の車に内側から追い越される。他動詞用法の目的語は追い越される車や、その運転者。  
+
+【コロケーション・構文例】
+
+・undertake another vehicle  
+用途: 内側を通って追い越す対象を示す。  
+例: The car moved into the left-hand lane and undertook the van ahead.  
+訳: その車は左車線へ移り、前のバンを左側から追い越した。  
+
+・undertake on a motorway  
+用途: 追い越す相手を言わず、高速道路での運転行為を述べる。  
+例: The instructor explained why drivers should not undertake on a motorway.  
+訳: 教官は、高速道路で左側から追い越すべきでない理由を説明した。  
+
+・be undertaken by another vehicle  
+用途: 追い越された車の側から出来事を述べる。  
+例: Our coach was undertaken by a small car that then moved back into the middle lane.  
+訳: 私たちの乗った長距離バスは小型車に左側から追い越され、その車はその後、中央車線へ戻った。  
+
+【語法・注意】道路の文脈で undertake a lorry とあれば「トラックを引き受ける」と即断しない。通常の追越しは overtake、内側からの追越しは undertake と対比されるが、overtake 自体は追い越す側を指定しないこともあり、overtake on the left という言い方もある。したがって overtake を undertake の単純な反意語にはしない。 undertaking はこの行為を指す不可算名詞にもなる。語義7の「葬祭業」とは文脈で区別する。また、この語が使われただけで「必ず違法」と定義しない。英国の Highway Code Rule 268 は左側追越しを避けるよう指示する一方、渋滞して隣接車線が近い速さで動くとき、自分の車線の流れに合わせた結果、右側の車線より先へ進む状況を区別している。語の意味と、個々の運転の適法性・安全性は同一ではない。  
+
+【類義語】
+
+・overtake  
+定義: 同じ方向へ進む人や車に追いつき、その前へ出る。  
+頻度: 〈8/10〉  
+違い: 追越し全般を表し、通常の追越し側を想定することが多いが、語そのものが常に右側を指定するわけではない。undertake は内側を通る点を特定する。  
+例: The bus overtook the slow-moving tractor when the road was clear.  
+訳: 道路が空いているとき、バスはゆっくり走るトラクターを追い越した。  
+
+・pass  
+定義: 前にいる車などの横を通って、その先へ出る。  
+頻度: 〈9/10〉  
+違い: 米国でも一般的な追越しの表現。左右は指定しないため、undertake の方向を明示するには pass on the left などと補う。  
+例: A delivery van passed us just before the next exit.  
+訳: 次の出口のすぐ手前で、配送用のバンが私たちを追い越した。  
+
+7. 【名詞：不可算 undertaking】葬祭業
+
+【日本語訳・定義】葬儀の手配や埋葬に関する業務を営むこと。undertaker「葬儀業者」に対応する職業・事業分野の名称で、個別の葬儀や、一般的な仕事の引受けを意味するわけではない。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】職業・業種の表現。一般の日常語としては出現が限られ、葬儀業者の仕事を説明する文脈で使う。  
+
+【文法パターン】work in undertaking＝葬祭業で働く／go into undertaking＝葬祭業に入る。不可算の業種名として使い、この意味で個々の葬儀を an undertaking／undertakings と数えない。  
+
+【コロケーション・構文例】
+
+・work in undertaking（undertake からの名詞）  
+用途: 葬儀に関わる職業分野を述べる。  
+例: After years of working in undertaking, she opened her own funeral business.  
+訳: 葬祭業で長年働いた後、彼女は自分の葬儀会社を開いた。  
+
+・go into undertaking（undertake からの名詞）  
+用途: その業種に就くことを述べる。  
+例: He went into undertaking after helping a relative run a funeral home.  
+訳: 親族の葬儀社経営を手伝った後、彼は葬祭業に就いた。  
+
+【語法・注意】この名詞は語頭に主強勢を置く代表発音を持つ。ただし、語義3・4・5の名詞にも語頭強勢の変異があるので、発音だけに頼らず funeral、burial、職業の文脈を確認する。a difficult undertaking は普通「困難な仕事」であって、「難しい葬儀」の直接の言い換えではない。undertaker も通常は「葬儀業者」で、担当者一般や交通義の追越しをする運転者を指す語として安易に作らない。  
+
+【類義語】
+
+・funeral directing  
+定義: 葬儀を手配し、その進行を取り仕切る業務。  
+頻度: 〈2/10〉  
+違い: funeral director の職務を直接示す表現で、undertaking にある「仕事・確約」との語義上の曖昧さを避けられる。  
+例: The course covers funeral directing and the practical support offered to bereaved families.  
+訳: その講座では、葬儀の手配・運営と、遺族に提供する実際的な支援を扱う。  
