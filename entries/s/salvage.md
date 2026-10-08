@@ -360,20 +360,20 @@ tags: []
 
 ・salvage from 〈損傷した財物〉  
 用途: 物を売って得た回収金額を示す。  
-例: Salvage from the damaged stock amounted to $8,000 after the auction.  
+例: Salvage from the damaged stock amounted to 8,000 dollars after the auction.  
 訳: 損傷した在庫の競売による回収額は、8,000ドルになった。  
 
 ・〈金額〉 in salvage  
 用途: 回収物の売却でいくら得たかを示す。  
-例: The insurer recorded $12,000 in salvage from the sale of the wrecked vehicles.  
+例: The insurer recorded 12,000 dollars in salvage from the sale of the wrecked vehicles.  
 訳: 保険会社は、事故車両の売却による回収額として12,000ドルを記録した。  
 
 ・net salvage  
 用途: 売却等の関連費用を考慮した正味の回収額を表す。  
-例: After removal and selling costs, the net salvage was only $600.  
+例: After removal and selling costs, the net salvage was only 600 dollars.  
 訳: 撤去費用と売却費用を差し引くと、正味の回収額は600ドルにすぎなかった。  
 
-【語法・注意】the salvage was stored in a warehouse なら語義4の物、the salvage amounted to $8,000 ならこの語義の金額。海難救助者への支払いを述べる pay salvage to the rescuers は語義5で、回収品の売却代金とは違う。  
+【語法・注意】the salvage was stored in a warehouse なら語義4の物、the salvage amounted to 8,000 dollars ならこの語義の金額。海難救助者への支払いを述べる pay salvage to the rescuers は語義5で、回収品の売却代金とは違う。  
 
 ・保険会社が回収額を扱う文脈が多いが、salvage という語だけから、物の所有権が必ず保険会社に移るとは判断しない。所有・処分・保険金精算の具体的な扱いは契約や制度による。subrogation は、保険者が被保険者の権利を代位行使して責任を負う第三者などから回収することを指し、残存物の売却とは区別する。  
 
