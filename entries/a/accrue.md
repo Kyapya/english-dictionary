@@ -1,0 +1,384 @@
+---
+headword: accrue
+type: word
+status: checked
+prompt_version: entry_spec_v5
+model: gpt-6-astra xhigh
+created_at: 2026-10-08
+updated_at: 2026-10-08
+checked: true
+tags: []
+---
+
+＃発音記号
+
+米・英: /əˈkruː/。2音節で、主強勢は第2音節。第1音節は弱い /ə/ で、末尾の /uː/ を長く発音する。  
+accrues /əˈkruːz/、accrued /əˈkruːd/ はともに2音節。accruing /əˈkruː.ɪŋ/ は3音節で、主強勢は第2音節のまま。  
+
+＃語源
+
+古フランス語の「増える」を表す acreistre の語形を経て、ラテン語 accrescere「大きくなる」にさかのぼる。ad-「～へ」と crescere「成長する」が基になり、現代の「時間や活動に伴って増える・生じる」という用法につながる。  
+同じ crescere の語族に increase「増える・増やす」、crescent「三日月」、accretion「徐々に付着して大きくなること」がある。「発生する」からといって、必ず現金が受け渡されることまでは表さない。  
+
+＃語形成
+
+・accrues / accrued / accruing：規則活用。accruing は語末の e を落として -ing を付ける。accrued の形容詞用法は語義4。  
+・accrual：名詞。「発生・累積」、会計では「発生額・未収未払の計上」、臨床研究では「参加者の集積」。accrual accounting は「発生主義会計」で、現金の受け払いだけを認識時点にする cash accounting と対照される。  
+
+＃コアイメージ
+
+時間の経過や活動の結果として、利益・知識・権利などが生じたり、新たな量・人数が加わったりすること。語義5は制度的専門義で、すでに生じた額を帳簿に認識する行為を表し、語彙的意味がこの核からは導けないため、個別に参照する。  
+
+・時間の経過に伴う額・知恵の蓄積 → 「発生する・積み上がる」（語義1）  
+
+・時間の経過に伴う額・権利・知識の獲得 → 「蓄積する・獲得する」（語義2）  
+
+・活動の結果として生じる利益の追加 → 「利益などがもたらされる」（語義3）  
+
+・時間の経過に伴う額・権利等の蓄積状態 → 「発生済みの・蓄積された」（語義4）  
+
+・法的要件の充足に伴う権利の発生 → 「請求権・訴訟原因が発生する」（語義6）  
+
+・研究活動に伴う登録参加者数の蓄積 → 「研究参加者を登録・集積する」（語義7）  
+
+＃意味・用法・関連表現
+
+1. 【動詞・自動詞】発生する・積み上がる
+
+【日本語訳・定義】利息、費用、債務などが時間の経過に伴って生じ、積み上がる。知恵・判断力などの抽象的なものが経験とともに育ち、蓄積することにも使う。主語は増えるもの自体。少しずつの増加や一定期間ごとの発生に向くが、増え方が常に一定とは限らない。受取利息にも支払利息にも使える。  
+
+【頻度】〈6/10〉  
+
+【レジスター/領域】やや硬い。特に金融、会計、雇用条件、ビジネス文書。知恵などの蓄積には一般的な論述でも使う。  
+
+【文法パターン】〈利息・費用など〉 + accrue＝その額が発生・累積する／〈利息など〉 + accrue on 〈元本・口座・債務〉＝その対象について発生する／〈利息など〉 + accrue at 〈率〉＝その率で発生する／〈知恵など〉 + accrue with experience＝経験とともに蓄積する。期間・頻度は over 〈期間〉、daily などで示す。自動詞なので、この構文自体を受動態にしない。  
+
+【コロケーション・構文例】
+
+・interest + accrue daily  
+用途: 利息が日ごとに生じる条件を示す。  
+例: Interest accrues daily, even when no payment is due that month.  
+訳: その月に支払いの期日がなくても、利息は毎日発生する。  
+
+・accrue on an outstanding balance  
+用途: 未返済残高を利息の発生対象として示す。  
+例: Interest continues to accrue on the outstanding balance.  
+訳: 未返済残高には引き続き利息が発生する。  
+
+・accrue at an annual rate of 〈割合〉  
+用途: 利息の発生率を説明する。  
+例: Under this agreement, interest accrues at an annual rate of 3 percent.  
+訳: この契約では、利息は年率3パーセントで発生する。  
+
+・charges + accrue over time  
+用途: 放置や継続によって費用が積み上がることを述べる。  
+例: Storage charges accrued over the next six months.  
+訳: その後の6か月間に保管料が積み上がった。  
+
+・wisdom + accrue with experience  
+用途: 経験に伴って知恵が育つことを述べる。  
+例: Practical wisdom can accrue with experience, but it does not come automatically.  
+訳: 実践的な知恵は経験とともに育ち得るが、自動的に身に付くものではない。  
+
+【語法・注意】Interest accrues. は「利息が発生する」という自動詞、The account accrues interest. は「その口座に利息が付く」という他動詞構文（語義2）。「利息が発生する」を Interest is accrued. と機械的に受動態にすると、会計上「利息が計上される」（語義5）とも読める。accrue は支払い・受け取りの実行を意味しない。また、accumulate と違い、通常の物理的な物の集積を何にでも表せるわけではなく、「棚にほこりが積もる」なら Dust accumulates on the shelf. が基本。  
+
+【類義語】
+
+・accumulate  
+定義: 量が徐々に増え、まとまってたまる。  
+頻度: 〈7/10〉  
+違い: 抽象的な額だけでなく、ほこりや物にも広く使う。accrue は時間に応じて生じる利息・権利などに特徴的。  
+例: Unpaid bills accumulated during the closure.  
+訳: 休業中に未払いの請求書がたまった。  
+
+・build up  
+定義: 量や強さが徐々に増す。  
+頻度: 〈8/10〉  
+違い: 日常的で、圧力、在庫、負債などに使える。accrue より「たまって大きくなる過程」を平易に表す。  
+例: Debt can build up surprisingly quickly.  
+訳: 負債は驚くほど速く膨らむことがある。  
+
+・mount  
+定義: 数量や程度が増大する。  
+頻度: 〈6/10〉  
+違い: costs mount のように負担の増大を強く感じさせやすい。accrue は規則的・中立的な発生にも使う。  
+例: Costs mounted as the repairs continued.  
+訳: 修理が続くにつれて費用がかさんだ。  
+
+2. 【動詞・他動詞】蓄積する・獲得する
+
+【日本語訳・定義】人・組織・口座などが、時間や活動に伴って金額、債務、休暇の権利などを自分の側に積み上げる。知識などを蓄積することにも使う。目的語は蓄積されるもの。利益を意図的に得る場合だけでなく、債務が増える場合にも使う。  
+
+【頻度】〈5/10〉  
+
+【レジスター/領域】やや硬い。特に金融、実務、雇用制度。知識の蓄積は研究・論述でも使う。  
+
+【文法パターン】someone/something + accrue 〈利息・債務・休暇・知識など〉。金額や期間を目的語内・副詞句で示せる。目的語を主語にした受動態も可能だが、会計上の「計上する」との区別は文脈による。二重目的語 accrue someone something を基本形にせず、利益の帰属先なら語義3の accrue to someone を使う。  
+
+【コロケーション・構文例】
+
+・accrue interest  
+用途: 口座や投資が利息を生むことを述べる。  
+例: The deposit will accrue interest until the withdrawal date.  
+訳: その預金には引き出し日まで利息が付く。  
+
+・accrue debts  
+用途: 組織などが債務を積み上げることを述べる。  
+例: The company accrued substantial debts during its expansion.  
+訳: その会社は事業拡大中に多額の債務を抱えるようになった。  
+
+・accrue paid leave  
+用途: 勤務に応じて有給休暇の権利を得ることを説明する。  
+例: Under this policy, employees accrue two days of paid leave each month.  
+訳: この制度では、従業員は毎月2日分の有給休暇を取得する権利を得る。  
+
+・have accrued 〈額・日数〉  
+用途: ある時点までに蓄積した量を述べる。  
+例: By the end of June, she had accrued ten days of vacation time.  
+訳: 6月末までに、彼女は10日分の休暇の権利をためていた。  
+
+・accrue knowledge  
+用途: 活動を通じて知識を蓄積することを述べる。  
+例: Researchers accrue knowledge through repeated experiments.  
+訳: 研究者は実験を繰り返して知識を蓄積する。  
+
+【語法・注意】accrue leave は休暇を「実際に取る」ことではなく、使える休暇を獲得・蓄積すること。実際に休むなら take leave。incur a debt は債務を「負う・発生させる」、accrue debt は債務が自分の側に積み上がる点を前面に出す。両者は重なる場合があり、incur が必ず一瞬、accrue が必ず長期間という区切りではない。The company accrued debts. と Debts accrued. はそれぞれ他動詞・自動詞で、主語の役割が違う。  
+
+【類義語】
+
+・accumulate  
+定義: 物や金額などを徐々に集めて蓄積する。  
+頻度: 〈7/10〉  
+違い: 対象が広く、単にたまった量にも使える。accrue は利息・勤務上の権利など、時間や活動に応じて生じるものに向く。  
+例: The business accumulated large cash reserves.  
+訳: その事業は多額の現金準備を蓄えた。  
+
+・earn  
+定義: 労働・活動・投資などの見返りとして得る。  
+頻度: 〈9/10〉  
+違い: 見返りを得る点が中心で、累積を必ずしも示さない。利息や休暇では重なるが、通常 earn debts とは言わない。  
+例: Employees earn additional leave after five years of service.  
+訳: 従業員は勤続5年で追加の休暇を得る。  
+
+・incur  
+定義: 費用・債務・損失などを負う、発生させる。  
+頻度: 〈6/10〉  
+違い: 負担・不利益との重なりに限る。accrue のように受取利息や休暇の蓄積には使わない。  
+例: We incurred extra costs when the shipment was delayed.  
+訳: 出荷が遅れたため、追加費用を負担することになった。  
+
+3. 【動詞・自動詞】利益などがもたらされる
+
+【日本語訳・定義】ある活動・状態の結果として、利益、利点、恩恵などが生じて特定の人・組織などに帰属する。主語は生じる利益などで、受益者は to、原因は from で示す。時間とともに額が増える語義1と重なることもあるが、ここでは結果・帰属が中心で、漸増を必須としない。  
+
+【頻度】〈5/10〉  
+
+【レジスター/領域】硬め。経済、政策、分析、論説。  
+
+【文法パターン】〈利益など〉 + accrue to someone＝その人に利益がもたらされる／〈利益など〉 + accrue from something＝そのことから利益が生じる／〈利益など〉 + accrue to someone from something＝原因と帰属先の両方を示す。to と from は必要に応じて一方または両方を省ける。  
+
+【コロケーション・構文例】
+
+・benefits + accrue to someone  
+用途: 恩恵が誰に及ぶかを述べる。  
+例: Most of the benefits will accrue to existing customers.  
+訳: 恩恵の大半は既存顧客にもたらされる。  
+
+・advantages + accrue from something  
+用途: 何が利点を生むかを述べる。  
+例: Significant advantages can accrue from sharing research facilities.  
+訳: 研究施設を共同利用することで大きな利点が生じ得る。  
+
+・benefits + accrue to someone from something  
+用途: 利益の帰属先と発生源を明示する。  
+例: The report examines the benefits that accrue to small firms from the new network.  
+訳: その報告書は、新しいネットワークが小規模企業にもたらす恩恵を検討している。  
+
+【語法・注意】Benefits accrue to employees. は「従業員に利益がもたらされる」。Employees accrue benefits. なら従業員が主語の他動詞で、「福利厚生上の権利などを蓄積・獲得する」という語義2が自然。to は前置詞なので、帰属先には名詞句を置く。原因を示す from と入れ替えると役割が変わる。This benefits employees. のように benefit を他動詞にすれば、恩恵を生むものを主語にできる。  
+
+【類義語】
+
+・arise  
+定義: ある事情から物事が生じる。  
+頻度: 〈7/10〉  
+違い: 利益以外に問題や機会にも広く使い、arise from が基本。accrue to のように受益者への帰属を直接示す語ではない。  
+例: New opportunities arose from the partnership.  
+訳: その提携から新しい機会が生まれた。  
+
+・result  
+定義: ある原因の結果として生じる。  
+頻度: 〈8/10〉  
+違い: result from は因果関係を明示するが、蓄積や利益の帰属を含まない。result in は後ろに結果を置く。  
+例: Several improvements resulted from the review.  
+訳: その見直しの結果、いくつかの改善が実現した。  
+
+・flow  
+定義: 利益などがある源から生じ、特定の先へもたらされる。  
+頻度: 〈5/10〉  
+違い: flow from / flow to は比喩的な「流れ」を描く。accrue はより硬く、得られる利益・権利に焦点を置く。  
+例: The savings will flow to consumers.  
+訳: 節減分は消費者に還元される。  
+
+4. 【形容詞・過去分詞由来・主に限定用法】発生済みの・蓄積された
+
+【日本語訳・定義】accrued の形で、時間や活動などに応じてすでに生じた額・権利、または蓄積した知識・技能などを表す。金融・会計では、利息や費用が発生済みで、まだ受領・支払いが済んでいない文脈で特によく使う。休暇なら獲得済みの休暇を指す。  
+
+【頻度】〈5/10〉  
+
+【レジスター/領域】特に金融、会計、雇用制度。知識・技能については硬めの一般的な記述。  
+
+【文法パターン】accrued 〈interest/expenses/income〉／accrued 〈leave/benefits/knowledge〉。通常は名詞の前に置き、ハイフンは不要。Interest has accrued. は語義1の完了形。Expenses are accrued at month-end. は語義5の受動態で、形容詞と同じ形でも働きが異なる。  
+
+【コロケーション・構文例】
+
+・accrued interest  
+用途: ある時点までに発生した利息を指す。  
+例: The statement shows the principal and the accrued interest separately.  
+訳: 明細書では元本と発生済み利息が別々に示されている。  
+
+・accrued expenses  
+用途: 発生しているが未払いの費用を指す。  
+例: Accrued expenses include wages earned in June but paid in July.  
+訳: 未払費用には、6月の勤務分として発生し、7月に支払われる賃金が含まれる。  
+
+・accrued income  
+用途: すでに獲得したがまだ受け取っていない収益を指す。  
+例: The accounts include accrued income for services already provided.  
+訳: その計算書類には、すでに提供したサービスに対応する未収収益が含まれている。  
+
+・accrued leave  
+用途: すでに得ている休暇の権利を指す。  
+例: Employees can check their accrued leave in the payroll system.  
+訳: 従業員は給与システムで、獲得済みの休暇を確認できる。  
+
+・accrued knowledge  
+用途: これまでに蓄積した知識を表す。  
+例: The project draws on the team's accrued knowledge of local conditions.  
+訳: そのプロジェクトは、現地の状況についてチームが蓄積してきた知識を活用している。  
+
+【語法・注意】accrued を一律に「未払いの」と置き換えると、休暇などでは意味が合わない。中心は「すでに発生・蓄積した」で、金銭の授受や使用の有無は対象・文脈に合わせて読む。accrued interest は支払期日前の利息でもよく、overdue interest「支払期日を過ぎた利息」と同じではない。very accrued のような程度表現、more accrued という比較、get accrued による通常の状態変化の表し方は基本にしない。  
+
+【類義語】
+
+・accumulated  
+定義: 徐々にたまった、蓄積された。  
+頻度: 〈6/10〉  
+違い: 物や知識にも使える広い語で、未払い・未受領の会計上の位置づけを含まない。  
+例: The team drew on its accumulated experience.  
+訳: チームは蓄積した経験を生かした。  
+
+・earned  
+定義: 労働や活動の対価として獲得した。  
+頻度: 〈7/10〉  
+違い: 収益・休暇などでは重なるが、獲得の根拠を強調する。費用の発生を earned expenses とは表さない。  
+例: Earned bonuses will be paid next month.  
+訳: 獲得済みの賞与は来月支払われる。  
+
+5. 【動詞・他動詞】発生額を計上する
+
+【日本語訳・定義】会計処理として、すでに発生した費用・収益を、その帰属する期間の帳簿に計上する。特に、現金の授受や請求書の到着を待たずに未計上分を認識する処理で使う。主語は企業・会計担当者など、目的語は計上する額や費用・収益。  
+
+【頻度】〈3/10〉  
+
+【レジスター/領域】会計の専門用法。  
+
+【文法パターン】accrue an expense／accrue revenue／accrue interest＝それぞれ費用・収益・利息の発生額を計上する／〈費用・収益〉 + be accrued＝計上される。for 〈期間〉、at 〈決算時点〉などで対象期間・処理時点を補う。  
+
+【コロケーション・構文例】
+
+・accrue an expense  
+用途: 未請求でも発生済みの費用を帳簿に認識する。  
+例: We need to accrue the electricity expense for September before the invoice arrives.  
+訳: 請求書が届く前に、9月分の電気代を計上する必要がある。  
+
+・accrue revenue  
+用途: 提供済みサービスなどの未計上収益を認識する。  
+例: The accountant accrued revenue for services completed but not yet billed.  
+訳: 会計担当者は、完了しているがまだ請求していないサービスの収益を計上した。  
+
+・be accrued at year-end  
+用途: 決算時点の未払計上を述べる。  
+例: Wages earned in December were accrued at year-end and paid in January.  
+訳: 12月の勤務分の賃金は年末に未払計上され、1月に支払われた。  
+
+【語法・注意】Interest accrues daily. は利息そのものが「発生する」（語義1）。We accrue interest expense monthly. は担当者が「月ごとに利息費用を計上する」。計上行為と現金支払いを区別し、accrue を pay の代わりにしない。認識時点や具体的な勘定処理は適用される会計基準・制度によるため、この語だけで税務上の損金算入条件などは決まらない。  
+
+【類義語】
+
+・recognize  
+定義: 費用・収益・資産・負債などを財務諸表に認識する。  
+頻度: 〈4/10〉  
+違い: 会計上の認識全般を表す広い語。accrue は発生済みの未計上額を当該期間に反映する場面で特に使う。  
+例: The company recognized the expense in September.  
+訳: 会社はその費用を9月に認識した。  
+
+6. 【動詞・自動詞】請求権・訴訟原因が発生する
+
+【日本語訳・定義】法的な請求や訴訟の基礎となる権利が、行使可能なものとして成立する。金額が徐々に増える意味とは区別する。特に米国の法的文脈で、請求の成立時点や出訴期限の起算に関して現れる。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】法律の専門用法。成立要件・起算規則は法域や請求の種類による。  
+
+【文法パターン】a claim + accrue／a cause of action + accrue／〈権利〉 + accrue to someone。when 節で成立時点を説明できる。claim などが主語であり、請求書を作成・提出するという他動詞ではない。  
+
+【コロケーション・構文例】
+
+・a cause of action + accrue  
+用途: 訴訟原因の成立時点を問題にする。  
+例: The court had to determine when the cause of action accrued.  
+訳: 裁判所は、その訴訟原因がいつ発生したかを判断しなければならなかった。  
+
+・a claim + accrue  
+用途: 請求権の成立と提訴を区別する。  
+例: The claim had accrued before the claimant filed the lawsuit.  
+訳: 請求権は、請求者が訴訟を起こす前にすでに発生していた。  
+
+【語法・注意】accrue は「勝訴する」「賠償金が支払われる」「訴えを提起する」のいずれでもない。多くの時効・出訴期限の議論で重要になるが、常に損害発生日や発見日から一律に起算するとは言えない。一般のビジネス上の「苦情が増える」は complaints accumulate などで表し、この法律用法と混ぜない。  
+
+【類義語】
+
+・arise  
+定義: 権利や請求などが生じる。  
+頻度: 〈4/10〉  
+違い: 法的文脈でも使うが、accrue のような特定の出訴期限の起算に結びつく専門的含意を常に持つわけではない。  
+例: The dispute concerns rights arising under the contract.  
+訳: その紛争は、契約に基づいて生じる権利に関するものだ。  
+
+7. 【動詞・他動詞】研究参加者を登録・集積する
+
+【日本語訳・定義】臨床研究などで患者・参加者を研究に登録して集め、参加者数を積み上げる。主語は研究機関・研究者・試験など、目的語は参加する人。一般的な金額・知識の蓄積とは対象と専門的な使い方が異なるため、研究の文脈で区別する。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】臨床研究・試験運営の専門用法。  
+
+【文法パターン】accrue patients/participants to a study／accrue 〈人数〉 participants／participants + be accrued to a study。to は登録・集積先の研究を示す前置詞。研究先が明らかな場合は省略できる。  
+
+【コロケーション・構文例】
+
+・accrue participants to a study  
+用途: 研究施設が参加者を研究に集めることを述べる。  
+例: Several hospitals helped accrue participants to the study.  
+訳: 複数の病院が、その研究への参加者の登録・集積に協力した。  
+
+・accrue 〈人数〉 participants  
+用途: 試験で集積した参加者数を示す。  
+例: The trial accrued 120 participants over two years.  
+訳: その試験では、2年間に120人の参加者が登録された。  
+
+・be accrued to a study  
+用途: 登録された参加者を主語にして述べる。  
+例: Participants were accrued to the study at three clinical sites.  
+訳: 参加者は3か所の臨床研究施設で、その研究に登録された。  
+
+【語法・注意】日常の「会議の参加者を集める」を何でも accrue で表すわけではない。また、参加者募集の告知、同意取得、適格性確認、治療開始はそれぞれ別の段階で、accrue がそのすべてを同一の手続きとして意味するわけではない。どの時点・条件で集積数に含めるかは研究や報告制度による。人を直接目的語にできるこの専門義を根拠に、語義2の金額の蓄積で accrue someone interest という二重目的語構文を作らない。  
+
+【類義語】
+
+・enroll  
+定義: 人を研究・試験などの参加者として登録する。  
+頻度: 〈4/10〉  
+違い: 個々の参加者の登録に焦点がある。accrue は一定期間に参加者数を集積する文脈に特徴的で、制度上の集計基準を無条件に同一視しない。英では enrol という綴りが基本。  
+例: The investigators enrolled eligible volunteers in the trial.  
+訳: 研究者たちは適格な志願者を試験に登録した。  
