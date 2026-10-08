@@ -1,0 +1,156 @@
+---
+headword: conversant
+type: word
+status: checked
+prompt_version: entry_spec_v5
+model: gpt-6-astra xhigh
+created_at: 2026-10-08
+updated_at: 2026-10-08
+checked: true
+tags: []
+---
+
+＃発音記号
+
+米: /kənˈvɜːrsənt/｜英: /kənˈvɜːsənt/。3音節で、第2音節に主強勢がある。米英の相違は第2音節の /r/ の有無。第1・第3音節の母音は弱い /ə/ で、語末を強く「サント」と読まない。辞書によって第3音節の弱母音を省いた /snt/ という表記もある。  
+
+＃語源
+
+古フランス語 converser の現在分詞に由来し、さらにラテン語 conversari「交際する、共に暮らす」にさかのぼる。もとは人や場所との日常的な関わりを表したが、現代の中心は、知識や経験があって対象をよく知っていること。  
+同系語に converse「会話する」、conversation「会話」、conversational「会話の」がある。現代の conversant がすべて「会話」に関する意味になるわけではない。  
+
+＃語形成
+
+・conversance / conversancy：名詞。「熟知、知識・経験があること」。いずれも低頻度で、一般的な文章では familiarity や knowledge が選ばれやすい。  
+
+＃意味・用法・関連表現
+
+1. 【形容詞・主に叙述／後置】よく知っている、知識・経験がある
+
+【日本語訳・定義】分野、規則、手順、事情などについて、知識や経験があり、内容になじんでいる。日本語の「精通している」と訳せる場面もあるが、必ず専門家並みであること、完全に理解していること、実際に巧みに行えることまで保証しない。主語は通常、人や人の集団。  
+
+【頻度】〈4/10〉  
+
+【レジスター/領域】改まった表現。採用条件、業務上の能力説明、学術・専門的な文章など。  
+
+【文法パターン】be/become conversant with something＝対象を知っている／知識を身に付ける。someone conversant with something＝その対象をよく知っている人。fully/well/thoroughly conversant with something のように程度を示せる。more/less conversant with something という比較も可能。通常は補語または名詞の後ろに置き、知識の対象を with で示す。  
+
+【コロケーション・構文例】
+
+・be conversant with 〈規則・手順〉  
+用途: 業務や活動に必要な決まりを把握していることを述べる。  
+例: All supervisors must be conversant with the emergency procedures.  
+訳: すべての監督者は緊急時の手順をよく理解していなければならない。  
+
+・become conversant with 〈システム・業務〉  
+用途: 経験や研修を通じて対象に慣れ、知識を得ることを表す。  
+例: It took me a few weeks to become conversant with the new accounting system.  
+訳: 新しい会計システムを理解して使い方に慣れるまで、数週間かかった。  
+
+・be fully conversant with 〈内容〉  
+用途: 必要な内容を十分に理解していることを強調する。  
+例: Before approving the proposal, make sure you are fully conversant with its financial implications.  
+訳: 提案を承認する前に、その財務上の影響を十分に理解していることを確認してください。  
+
+・someone conversant with 〈分野〉  
+用途: 人を表す語の後ろから専門知識の範囲を説明する。  
+例: We need someone conversant with both contract law and software licensing.  
+訳: 契約法とソフトウェアのライセンスの両方に詳しい人が必要だ。  
+
+・be less conversant with 〈分野〉 than someone  
+用途: 知識や経験の程度を比較する。  
+例: I am less conversant with the technical details than our engineers are.  
+訳: 私は技術上の細部については、当社のエンジニアほど詳しくない。  
+
+【語法・注意】形容詞なので I conversant with the rules. ではなく I am conversant with the rules. とする。知識の対象を示す基本形は with。in が分野名と結び付く実例もあるため「in は常に誤り」とはしないが、一般的な作文では conversant with the subject が安定した型になる。語義2の conversant in French は言語を会話で使う能力を示す。conversant with French grammar はフランス語の文法についての知識であり、同じ能力の主張ではない。conversational は「会話の／会話調の」で、a conversational style は「会話調の文体」。人が規則に詳しいという意味の conversant と交換しない。古い文献にある「日常的に交際している、関わっている」という用法を、現代の人物紹介での基本義にはしない。  
+
+【類義語】
+
+・familiar  
+定義: 対象について知識・経験があり、なじんでいる。  
+頻度: 〈9/10〉  
+違い: conversant より日常的で、専門知識だけでなく場所や製品へのなじみにも広く使う。対象を知っている側が主語なら familiar with、なじみのある対象が主語なら familiar to someone。後者の対象は人でもよい。  
+例: Are you familiar with this software?  
+訳: このソフトウェアについて、よく知っていますか。  
+
+・knowledgeable  
+定義: ある分野について豊富な知識を持っている。  
+頻度: 〈6/10〉  
+違い: 知識の豊かさに重点があり、knowledgeable about something が基本。conversant は知識・経験を通じた対象への理解を述べる。  
+例: She is knowledgeable about renewable energy.  
+訳: 彼女は再生可能エネルギーについて豊富な知識がある。  
+
+・versed  
+定義: ある分野をよく学び、十分な知識や経験がある。  
+頻度: 〈4/10〉  
+違い: well versed in something の形が典型で、十分な習熟を強調しやすい。conversant with の with をそのまま移さない。  
+例: The consultant is well versed in international trade regulations.  
+訳: そのコンサルタントは国際貿易の規制に精通している。  
+
+【反意語】
+
+・unfamiliar  
+定義: 対象を知らない、または十分になじんでいない。  
+頻度: 〈7/10〉  
+違い: 知識・経験によるなじみの程度という同じ軸で反対になる。人が主語なら unfamiliar with something。  
+例: New employees may be unfamiliar with the reporting process.  
+訳: 新入社員は報告の手順にまだなじみがないかもしれない。  
+
+・ignorant  
+定義: ある事実や分野について知識がない。  
+頻度: 〈6/10〉  
+違い: 知識の有無という軸で反対になる。ignorant of/about something と対象を示せるが、人を単に ignorant と呼ぶと侮蔑的になりやすい。  
+例: I was ignorant of the restrictions when I made the booking.  
+訳: 予約した時点では、その制限を知らなかった。  
+
+2. 【形容詞・主に叙述／後置】その言語で会話できる
+
+【日本語訳・定義】ある言語を会話に使える程度に知っている。とくに conversant in 〈言語〉の形。流暢さや正確さの程度、読み書きの力、資格試験の水準までは語自体から決まらない。  
+
+【頻度】〈3/10〉  
+
+【レジスター/領域】能力紹介などの改まった表現。とくに米語で見られる現代用法。  
+
+【文法パターン】be conversant in 〈言語〉＝その言語で会話できる。become conversant in 〈言語〉＝その言語で会話できるようになる。someone conversant in 〈言語〉のように後置できる。程度の比較は可能だが、特定の試験レベルや習熟段階を表す固定名称ではない。  
+
+【コロケーション・構文例】
+
+・be conversant in 〈言語〉  
+用途: その言語を会話で使えることを述べる。  
+例: Our guide is conversant in Japanese and Korean.  
+訳: 私たちのガイドは日本語と韓国語で会話できる。  
+
+・become conversant in 〈言語〉  
+用途: 学習の結果、会話に使えるようになることを表す。  
+例: After a year in Madrid, he became conversant in Spanish.  
+訳: マドリードで1年間暮らした後、彼はスペイン語で会話できるようになった。  
+
+・someone conversant in 〈言語〉  
+用途: 会話能力を条件に人を説明する。  
+例: The visitors were welcomed by a volunteer conversant in Arabic.  
+訳: 訪問者たちは、アラビア語で会話できるボランティアに迎えられた。  
+
+【語法・注意】conversant in Spanish と conversant with Spanish customs は、前者が言語運用、後者が文化についての知識である。conversant を fluent と同じ能力水準だと決め付けない。履歴書などで正確な能力を伝えるなら、日常会話、商談、読み書きなど、実際にできることを補う。can converse in Spanish は動詞 converse を使った説明、conversational Spanish は会話に使うスペイン語や会話能力を表す別の構造である。  
+
+【類義語】
+
+・fluent  
+定義: 言語を滑らかに、つかえずに話せる。  
+頻度: 〈7/10〉  
+違い: fluent in 〈言語〉は話し方の滑らかさを明確に含む。conversant は会話可能であることを示しても、その滑らかさまでは保証しない。  
+例: She is fluent in Portuguese and often leads meetings in it.  
+訳: 彼女はポルトガル語を流暢に話し、その言語で会議を進行することも多い。  
+
+・proficient  
+定義: 言語や技能を十分な能力で使いこなせる。  
+頻度: 〈5/10〉  
+違い: proficient in 〈言語〉は総合的な習熟を述べやすく、会話だけに限定されない。具体的にどの技能が優れているかは文脈による。  
+例: The role requires someone proficient in written English.  
+訳: この職務では、英語で十分に文章を書ける人が求められる。  
+
+・competent  
+定義: 必要なことをこなせるだけの能力がある。  
+頻度: 〈5/10〉  
+違い: competent in 〈言語〉は一定の実用能力を表し、卓越性までは含まない。conversant は特に会話ができることに焦点を当てられる。  
+例: He is competent in German, though he still struggles with regional accents.  
+訳: 彼はドイツ語を実用的に使えるが、地域特有のなまりにはまだ苦労している。  
