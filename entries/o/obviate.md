@@ -69,7 +69,7 @@ obvious「明らかな」は obviam を共有し、via「～経由で」はラ�
 例: The need for a second inspection was obviated by continuous monitoring.  
 訳: 継続的な監視によって、二度目の点検は必要なくなった。  
 
-【語法・注意】obviate the need は標準的な表現であり、「不要にするのだから need は常に冗長」と一律に訂正しない。obviate a procedure と obviate the need for a procedure はともに成立するが、後者は必要性がなくなる点を明確にする。×obviate us to submit the form ではなく、obviate the need for us to submit the form とする。×obviate to submit のように obviate へ直接 to 不定詞をつなげない。動名詞句は目的語にでき、obviate having to submit のように言える。does not obviate the need for ... は「～の必要がなくなるわけではない」という留保によく使う。不要になった行為が不可能になったとは限らず、preclude と機械的に置き換えない。  
+【語法・注意】obviate the need は標準的な表現であり、「不要にするのだから need は常に冗長」と一律に訂正しない。obviate a procedure と obviate the need for a procedure はともに成立するが、後者は必要性がなくなる点を明確にする。×obviate us to submit the form ではなく、obviate the need for us to submit the form とする。×obviate to submit のように obviate へ直接 to 不定詞をつなげない。動名詞句は目的語にでき、obviate having to submit のように言える。does not obviate the need for ... は「～の必要がなくなるわけではない」という留保によく使う。不要になった行為が不可能になったとは限らず、preclude と機械的に置き換えない。 一般的な言い換えとして render 〈目的語〉 unnecessary があり、obviate と違って unnecessary という結果の補語を置く。The extra storage space rendered frequent file deletion unnecessary. は「保存容量が増えたことで、頻繁にファイルを削除する必要がなくなった」。  
 
 【類義語】
 
@@ -86,13 +86,6 @@ obvious「明らかな」は obviam を共有し、via「～経由で」はラ�
 違い: dispense with は人が省く・なしで済ませる判断に焦点を置ける。obviate は、ある対策などがその必要をなくす因果関係を示す。  
 例: We can dispense with the printed agenda because everyone has a digital copy.  
 訳: 全員が電子版を持っているので、印刷した議題表は省ける。  
-
-・render unnecessary  
-定義: ある物事を必要のないものにする。  
-頻度: 〈5/10〉  
-違い: 結果状態を明示する硬い表現。render 〈目的語〉 unnecessary とし、obviate と違って unnecessary という補語が必要になる。  
-例: The extra storage space rendered frequent file deletion unnecessary.  
-訳: 保存容量が増えたことで、頻繁にファイルを削除する必要がなくなった。  
 
 【反意語】
 
