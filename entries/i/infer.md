@@ -3,9 +3,9 @@ headword: infer
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: gpt-6-astra xhigh
 created_at: 2026-10-06
-updated_at: 2026-10-07
+updated_at: 2026-10-09
 checked: true
 tags: []
 ---
@@ -29,7 +29,7 @@ inferred は米 /ɪnˈfɜːrd/・英 /ɪnˈfɜːd/ で、違いは第2音節の 
 
 ＃コアイメージ
 
-明示されていない結論と、その結論を導く手掛かりとのつながりが核にある。主語が推論する側か、手掛かりを示す側かで意味の向きが変わる。  
+明示されていない結論と、その結論を導く手掛かりとのつながりが核にあり、主語が推論する側か、手掛かりを示す側かで意味の向きが変わる。現代英語で作文するときの中心用法は語義1であり、語義2・3には容認度や使用場面の制限がある。  
 
 ・手掛かりから結論を導く主体の働き → 「推論する、根拠から推し量る」（語義1）  
 
@@ -137,8 +137,8 @@ inferred は米 /ɪnˈfɜːrd/・英 /ɪnˈfɜːd/ で、違いは第2音節の 
 
 ・infer that 〈節〉  
 用途: 発信者が暗に言っている内容を表す実例を理解する。容認度に注意する。  
-例: In his reply, he inferred that our team lacked experience, without saying so directly.  
-訳: 彼は返答の中で、はっきりそう言わずに、私たちのチームは経験不足だとほのめかした。  
+例: By calling our team “beginners”, he inferred that we lacked experience.  
+訳: 彼は私たちのチームを「初心者」と呼び、経験不足だとほのめかした。  
 
 ・infer 〈ほのめかす内容〉  
 用途: 文脈によって imply の意味で使われていることを読み取る。  

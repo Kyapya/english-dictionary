@@ -3,9 +3,9 @@ headword: attribute
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: gpt-6-astra xhigh
 created_at: 2026-10-06
-updated_at: 2026-10-07
+updated_at: 2026-10-09
 checked: true
 tags: []
 ---
@@ -30,15 +30,15 @@ tags: []
 
 ＃コアイメージ
 
-ある対象に、原因・出所・性質として何を結び付けて認識するか、という関係が中心にある。動詞は帰属先を判断すること、名詞は対象を特徴付ける性質やしるしを指す。  
+ある事柄をその原因・出所・持ち主に結び付けて認識する関係が中心にあり、名詞は対象を特徴付ける性質やしるしを指す。動詞 attribute A to B では、Aが結果・作品や発言・性質や意図、Bがそれぞれ原因・作者や出所・持ち主に当たる。  
 
-・対象に原因を結び付ける判断 → 「～を…に起因すると考える」（語義1）  
+・結果Aを原因Bによるものと見る判断 → 「～を…に起因するものと考える」（語義1）  
 
 ・対象に性質として結び付く特徴 → 「特性、資質」（語義2）  
 
-・対象に作者・出所を結び付ける判断 → 「～を…の作・発言とする」（語義3）  
+・作品・発言AをBに由来するものと見る判断 → 「～を…の作・発言とする」（語義3）  
 
-・対象に性質・意図を結び付ける判断 → 「～という性質・意図を…に帰する」（語義4）  
+・性質・意図AをBの持つものと見る判断 → 「～という性質・意図を…に帰する」（語義4）  
 
 ・対象に情報として結び付く特徴 → 「属性」（語義5）  
 
@@ -48,7 +48,7 @@ tags: []
 
 ＃意味・用法・関連表現
 
-1. 【動詞・他動詞】～を…に起因すると考える
+1. 【動詞・他動詞】～を…に起因するものと考える
 
 【日本語訳・定義】ある結果・出来事を、特定の原因や人の働きによって生じたものと判断・説明すること。直接目的語が結果、to の後ろが原因である。成功にも失敗にも使え、それ自体は賞賛・非難を意味しない。原因の帰属を述べる語であり、その因果関係が客観的に証明済みだとは限らない。  
 
@@ -144,7 +144,7 @@ tags: []
 例: She has the attributes needed for a demanding leadership role.  
 訳: 彼女は、負担の大きい指導的役割に必要な資質を備えている。  
 
-【語法・注意】attribute of the product の of は名詞の「製品の特性」を示す。一方、attribute the defect to the design は動詞で「欠陥を設計に起因すると考える」。名詞は第1音節、動詞は第2音節に強勢がある。誤: Flexibility is important attribute. → 正: Flexibility is an important attribute.。positive attributes、negative attributes のどちらも使え、attribute を「長所」に限定しない。哲学などで essential attribute「本質的属性」と使うことはあるが、日常の attribute 自体が常に本質的・不可欠だとは限らない。情報技術で値として扱う属性は語義5、具体的な象徴物は語義6と区別する。  
+【語法・注意】attribute of the product の of は名詞の「製品の特性」を示す。一方、attribute the defect to the design は動詞で「欠陥を設計に起因するものと考える」。名詞は第1音節、動詞は第2音節に強勢がある。誤: Flexibility is important attribute. → 正: Flexibility is an important attribute.。positive attributes、negative attributes のどちらも使え、attribute を「長所」に限定しない。哲学などで essential attribute「本質的属性」と使うことはあるが、日常の attribute 自体が常に本質的・不可欠だとは限らない。情報技術で値として扱う属性は語義5、具体的な象徴物は語義6と区別する。  
 
 【類義語】
 
@@ -322,7 +322,7 @@ tags: []
 例: The parser reports a duplicate attribute name in the XML element.  
 訳: パーサーは、XML要素内の属性名の重複を報告する。  
 
-【語法・注意】この語義は「～に起因すると考える」という動詞ではない。set an attribute は、名詞 attribute を目的語に取る set の構文である。HTMLの attribute と、対応するオブジェクトの property は関係していても常に同一とは限らない。すべてのコンピューター用語を一律に「プロパティ」と置き換えず、その言語・形式での用語を確認する。名詞 attribute は「値」そのものに限定されず、attribute name と attribute value を区別する。  
+【語法・注意】この語義は「～を…に起因するものと考える」という動詞ではない。set an attribute は、名詞 attribute を目的語に取る set の構文である。HTMLの attribute と、対応するオブジェクトの property は関係していても常に同一とは限らない。すべてのコンピューター用語を一律に「プロパティ」と置き換えず、その言語・形式での用語を確認する。名詞 attribute は「値」そのものに限定されず、attribute name と attribute value を区別する。  
 
 【類義語】
 
@@ -335,7 +335,7 @@ tags: []
 
 6. 【名詞・可算】持物、象徴的な標識
 
-【日本語訳・定義】美術・図像・文学などで、人物・神・聖人・身分などを見分けるために結び付けられる物やしるし。「持物」は「じもつ」と読み、描かれた人物の同定に役立つ象徴物を指す。語義2の内面的な性質とは異なり、具体的な物であることが多い。  
+【日本語訳・定義】美術・図像・文学などで、人物・神・聖人・身分などを見分けるために結び付けられる物やしるし。「持物」は「じもつ」と読み、描かれた人物の同定に役立つ象徴物を指す。語義2の性質・特徴とは異なり、人物などの同定に使われる具体的な物やしるしを指す。  
 
 【頻度】〈2/10〉  
 

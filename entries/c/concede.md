@@ -3,9 +3,9 @@ headword: concede
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: gpt-6-astra xhigh
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-09
 checked: true
 tags: []
 ---
@@ -439,7 +439,7 @@ tags: []
 訳: 彼らの守備は、枠内シュートを1本しか許さなかった。  
 
 ・let in  
-定義: ゴールキーパーやチームがゴールを決められる。  
+定義: ゴールキーパーやチームが、相手にゴールを決められて失点する。  
 頻度: 〈5/10〉  
 違い: concede より会話的で、特にゴールへの失点について使う。ペナルティーキックを与えること全般の言い換えにはならない。  
 例: The keeper let in a soft goal near the end.  
