@@ -1,0 +1,483 @@
+---
+headword: grapple
+type: word
+status: checked
+prompt_version: entry_spec_v5
+model: gpt-6-astra xhigh
+reasoning_effort: xhigh
+created_at: 2026-10-09
+updated_at: 2026-10-09
+checked: true
+tags: []
+---
+
+＃発音記号
+
+米・英: /ˈɡræpəl/  
+・2音節で、第1音節 /ɡræp/ に主強勢を置く。第1音節の母音 /æ/ は口を広めに開く短母音、第2音節の母音 /ə/ は弱い。第2音節を音節主音の /l/ として表す /ˈɡræpl/ という辞書表記もある。  
+・三人称単数形・名詞複数形は grapples /ˈɡræpəlz/、過去形・過去分詞は grappled /ˈɡræpəld/。語尾はそれぞれ /z/、/d/ で、余分な音節を加えない。現在分詞・動名詞は grappling /ˈɡræplɪŋ/。この発音では2音節で、第2音節の母音は /ɪ/。/ə/ を残す発音もある。  
+
+＃語源
+
+中英語で、物に引っ掛ける鉤を表した名詞にさかのぼる。古フランス語の grapil や grappelle など、「鉤」を表す語の系統に由来し、その先はゲルマン語系とされる。「しっかり引っ掛ける・つかむ」という物理的な意味が、人と組み合う用法や難題に取り組む比喩につながる。grapnel「小型の錨・引っ掛け鉤」は同系で、grape「ブドウ」もこの古い語群に関係する。ただし現代の grapple を「ブドウ」と結び付けて解釈することはできない。  
+
+＃語形成
+
+・grappler〔可算名詞〕組み技を行う選手、レスラーなど。a skilled grappler「組み技に巧みな選手」。問題に取り組む人すべてを日常的に grappler と呼ぶわけではない。  
+・grappling〔現在分詞・動名詞／不可算名詞〕grapple の語末の e を落として -ing を付ける。are grappling with a problem は動詞の進行形。組み技の活動・競技名としての名詞用法は語義8。  
+・grappling hook / grappling iron〔可算名詞〕引っ掛け鉤。grappling は道具の用途を示す複合語の一部で、「いま格闘している鉤」という意味ではない。通常はハイフンを付けない。  
+・grappled は通常の過去形・過去分詞。a grappled object「鉤などでつかまれた物」のような修飾も元の動詞の意味を保ち、独立した心理状態・評価を表す形容詞ではない。  
+
+＃コアイメージ
+
+「対象にしっかり組みつき、力をかけて離さず向き合う」というイメージが、相手との組み合い、難題への取り組み、手や装置による把持に具体化する。難題への取り組みでは成功まで、物の把持では対象の抵抗までを必ず含むわけではない。  
+
+・難題に組みつく取り組み → 「難題に取り組む・懸命に理解しようとする」（語義1）  
+・相手に組みつく争い → 「組み合う・つかみ合って争う」（語義2）  
+・人や物に組みつく手の把持 → 「人・物を手でしっかりつかむ」（語義3）  
+・物に組みつく道具の動作 → 「鉤・把持装置でつかむ・固定する」（語義4）  
+・物に組みつく道具 → 「引っ掛け鉤・把持装置」（語義5）  
+・相手や難題に組みつく一回の争い → 「組み合い・格闘」（語義6）  
+・相手に組みつく保持 → 「強いつかみ・押さえ込み」（語義7）  
+・相手に組みつく競技活動 → 「組み技・グラップリング」（語義8）  
+
+＃意味・用法・関連表現
+
+1. 【自動詞】難題に取り組む・懸命に理解しようとする
+
+【日本語訳・定義】問題、制約、判断、考えなどに向き合い、理解・解決・対処のために苦労して取り組む。人や組織が主語になり、作品などが難しいテーマを扱う場合にも使う。単に話題に触れるより難しさと取り組む過程を感じさせるが、解決済み・理解済みであることは含意しない。  
+
+【頻度】〈7/10〉  
+
+【レジスター/領域】一般。報道、業務、研究、内面の描写などでよく使う。  
+
+【文法パターン】grapple with something＝問題・事実などに取り組む／grapple with 〈疑問詞節〉＝どうするかなどを懸命に考える／grapple with the fact that…＝…という事実を受け止めようとする／grapple to do something＝あることをしようと苦心する／something + be grappled with＝問題などを主語にする前置詞受動。with は前置詞で、その後ろに対象を置く。to do は不定詞で、試みている動作を示す。be grappling… という進行形が自然。この意味では直接目的語を通常取らず、能動の grapple with が基本だが、with を残した be grappled with も可能。  
+
+【コロケーション・構文例】
+
+・grapple with a problem  
+用途: 解決が容易でない問題への取り組みを述べる。  
+例: The council is grappling with a shortage of affordable housing.  
+訳: 市議会は手ごろな価格の住宅が不足している問題に取り組んでいる。  
+
+・grapple with the question of 〈名詞〉  
+用途: 判断や制度設計に関わる難しい論点を示す。  
+例: The committee is still grappling with the question of eligibility.  
+訳: 委員会はいまだに、だれを対象とするかという問題で頭を悩ませている。  
+
+・grapple with how to do something  
+用途: 方法が分からず、どう実行するかを考え続ける。  
+例: We are grappling with how to explain the findings without oversimplifying them.  
+訳: 私たちは、結果を単純化しすぎずにどう説明するかに苦心している。  
+
+・grapple with the fact that…  
+用途: 受け入れにくい事実を理解・消化しようとする。  
+例: She is grappling with the fact that the project may never be completed.  
+訳: 彼女は、その計画が完成しないかもしれないという事実を受け止めようと苦闘している。  
+
+・grapple to understand something  
+用途: 内容を理解しようとして苦労していることを示す。  
+例: I grappled to understand why the two estimates differed so much.  
+訳: 私は、なぜ二つの見積もりがこれほど違うのか理解しようと頭をひねった。  
+
+・grapple to find 〈答え・解決策〉  
+用途: 答えや解決策を見いだそうと懸命に考える。  
+例: The team grappled to find a solution that everyone could accept.  
+訳: チームは全員が受け入れられる解決策を見つけようと苦心した。  
+
+・be grappled with  
+用途: 問題を主語にして、それへの取り組みを述べる。with を残す前置詞受動。  
+例: These unresolved issues must be grappled with before we can agree on a plan.  
+訳: 計画に合意する前に、これらの未解決の問題に真剣に取り組む必要がある。  
+
+【語法・注意】「問題に取り組む」は grapple with the problem が基本で、grapple the problem と直接目的語にする型を学習上の標準にしない。問題を主語にした The issue must be grappled with. は可能で、この意味で The issue must be grappled. と with を落とさない。一方、grapple to understand the problem も成立するので「必ず with が必要」とはしない。代名詞は grapple with it の位置で、grapple it with へ分離できない。grapple with は辞書で句動詞として扱われることもあるが、ここでの with は目的語を伴う前置詞である。grappled with the issue は取り組んだという過去の事実を述べるだけで、解決したとは限らない。grapple with someone は、相手の体をつかんでいる文脈なら語義2。「理解する」の達成を伝えたいなら grasp / understand、「問題を解決する」なら solve が対照表現になる。  
+
+【類義語】
+
+・wrestle with  
+定義: 難しい問題や判断に取り組み、答えを出そうと苦心する。  
+頻度: 〈6/10〉  
+違い: grapple with と同様に格闘の比喩で、選択や良心をめぐる内面的な葛藤にもよく使う。  
+例: He wrestled with the decision for several days.  
+訳: 彼はその決断をめぐって数日間悩んだ。  
+
+・tackle  
+定義: 問題や課題の処理に取りかかる。  
+頻度: 〈8/10〉  
+違い: 問題を直接目的語に取り、積極的に対処する点を出す。grapple with ほど理解や処理の難しさを前面に出す必要はない。  
+例: We need to tackle the backlog before it grows.  
+訳: 未処理の仕事が増える前に手を付ける必要がある。  
+
+・address  
+定義: 問題を取り上げ、対処の対象とする。  
+頻度: 〈8/10〉  
+違い: address the issue のように直接目的語を取る。取り組みの必要性や対応を示しやすく、苦闘していることまでは表さない。  
+例: The report addresses the causes of staff turnover.  
+訳: その報告書は従業員の離職の原因を取り上げている。  
+
+・contend with  
+定義: 困難、障害、不利な条件に対処する。  
+頻度: 〈6/10〉  
+違い: 外的な障害や厄介な条件を相手にする点が強い。grapple with は難しい考えを理解することにも広く使える。  
+例: Small firms must contend with rising costs.  
+訳: 小規模な企業はコストの上昇に対処しなければならない。  
+
+・cope with  
+定義: 負担や難しい状況の中で何とか対応する。  
+頻度: 〈8/10〉  
+違い: 状況をしのげるか、生活や仕事を維持できるかに焦点がある。grapple with は理解・解決へ向けて格闘する過程を示しやすい。  
+例: She is finding it hard to cope with the workload.  
+訳: 彼女はその仕事量に対応するのが難しいと感じている。  
+
+2. 【自動詞】組み合う・つかみ合って争う
+
+【日本語訳・定義】相手の体をつかんで力をかけ合い、近い距離で争う。人や動物が主語になり、競技、けんか、何かの奪い合いなどを表す。単に口論することや、離れた場所から攻撃することだけは通常指さない。  
+
+【頻度】〈5/10〉  
+
+【レジスター/領域】一般の動作描写、報道、スポーツ。  
+
+【文法パターン】grapple＝組み合う。複数主語なら相互の動作を表せる／grapple with someone＝ある相手と組み合う／grapple for something＝ある物・支配権を得ようとして組み合う／grapple with someone for something＝相手と、ある物をめぐって組み合う。with は相手、for は獲得目標。場所を示す on the floor なども加えられる。自動詞のこの型を通常の受動態にはしない。  
+
+【コロケーション・構文例】
+
+・grapple with an opponent  
+用途: 競技などで相手と体をつかみ合う。  
+例: The wrestler grappled with his opponent near the edge of the mat.  
+訳: そのレスラーはマットの端近くで相手と組み合った。  
+
+・grapple on the floor  
+用途: 相手が分かっているときに組み合う場所を示す。  
+例: The two men were grappling on the floor when the guards arrived.  
+訳: 警備員が来たとき、二人の男は床の上でつかみ合っていた。  
+
+・grapple for the ball  
+用途: ボールを手に入れようと体をつかみ合う。  
+例: The boys grappled for the ball until their coach separated them.  
+訳: 少年たちはコーチに引き離されるまで、ボールを奪い合ってつかみ合っていた。  
+
+・grapple with someone for control of something  
+用途: 相手と組み合いながら、物を支配しようとする。  
+例: She grappled with the intruder for control of the knife.  
+訳: 彼女はナイフを取り押さえようとして侵入者と組み合った。  
+
+【語法・注意】They grappled はそれだけでも組み合う動作を表せる。with 以下が常に必要なわけではない。grapple with him は「彼と組み合う」という自動詞型、grapple him to the ground は「彼をつかんで地面に倒す」という他動詞型で、後者は語義3。grapple for the ball の for を with に替えると、ボール自体を扱いかねているなど別の意味になり得る。grapple with a problem は身体的な格闘ではなく語義1であり、目的語と文脈で区別する。  
+
+【類義語】
+
+・wrestle  
+定義: 体をつかみ合い、相手を倒したり押さえたりしようとする。  
+頻度: 〈6/10〉  
+違い: 競技としてのレスリングも直接表す。grapple は組み合う動作に焦点があり、特定の競技に限らない。  
+例: The children wrestled on the grass.  
+訳: 子どもたちは芝生の上で取っ組み合った。  
+
+・scuffle  
+定義: 短い間、もみ合ったり乱暴に争ったりする。  
+頻度: 〈5/10〉  
+違い: 比較的小規模で乱れたもみ合いを表しやすい。grapple は相手をつかんで力をかけ合う動作をより明確に示す。  
+例: Two spectators scuffled near the exit.  
+訳: 二人の観客が出口近くでもみ合った。  
+
+・struggle  
+定義: 抵抗を受けながら力を尽くして動く、または争う。  
+頻度: 〈7/10〉  
+違い: 身を振りほどこうとする動作なども含む広い語。grapple は相手とのつかみ合いを特定する。  
+例: He struggled with the guard at the doorway.  
+訳: 彼は戸口で警備員ともみ合った。  
+
+3. 【他動詞】人・物を手でしっかりつかむ
+
+【日本語訳・定義】人や物を手や腕で力強くつかんで保持する。つかむ側が主語、つかまれる人・物が直接目的語になる。人や動物を対象にすると、組み付いて押さえたり制圧したりしようとする場面が多いが、物をつかむ場合に争いや道具は必要ない。grapple だけでは相手を倒したとは限らず、to the ground などが加わると到達した状態・場所を示す。  
+
+【頻度】〈4/10〉  
+
+【レジスター/領域】身体的な把持の描写。特に人を相手にする場合は、争い・取り押さえの場面で使う。  
+
+【文法パターン】grapple someone＝相手をしっかりつかむ・つかまえて組み付く／grapple something＝物を手でしっかりつかむ／grapple something with both hands＝両手で物をしっかりつかむ／grapple someone to the ground＝相手をつかんで地面に倒す／grapple someone around the waist＝腰の辺りを抱えるようにつかむ。代名詞は直接目的語の位置に置く。be grappled to the ground のような受動態も可能。  
+
+【コロケーション・構文例】
+
+・grapple an opponent  
+用途: 直接目的語で、つかまえる相手を示す。  
+例: He grappled his opponent, but she pulled free.  
+訳: 彼は相手につかみかかったが、彼女は振りほどいた。  
+
+・grapple something with both hands  
+用途: 装置を使わず、物を両手でしっかりつかむ動作を示す。  
+例: She grappled the heavy bag with both hands and pulled it onto her lap.  
+訳: 彼女は重いかばんを両手でしっかりつかみ、膝の上に引き寄せた。  
+
+・grapple someone to the ground  
+用途: 相手をつかみ、地面まで倒す動作を示す。  
+例: Two guards grappled the attacker to the ground.  
+訳: 二人の警備員が襲撃者をつかんで地面に倒した。  
+
+・grapple someone around the waist  
+用途: 相手のどこをつかんだかを述べる。  
+例: The defender grappled him around the waist as he ran past.  
+訳: 彼が走り抜けようとしたとき、守備の選手は彼の腰につかみかかった。  
+
+・be grappled to the ground  
+用途: 取り押さえられた側を主語にする。  
+例: The intruder was grappled to the ground before he reached the door.  
+訳: 侵入者はドアにたどり着く前につかまれて地面に倒された。  
+
+【語法・注意】grapple him と grapple with him はともに身体的な場面で成立するが、前者は「彼をつかまえる」、後者は「彼と組み合う」と参加者の示し方が違う。with がないことだけで誤りとしない。grapple the bag のように物を直接目的語にして手でつかむこともでき、装置の使用を必ず意味するわけではない。grapple something with both hands の with は手段を示し、grapple with something の対象を示す with とは違う。鉤・装置を使う場合は語義4。to the ground は句動詞の分離可能な小辞ではなく、到達点を示す句なので、grapple him to the ground が基本語順。この身体的他動詞型を、そのまま難題の grapple with it へ移さない。再帰代名詞を必要とする慣用型ではなく、grapple oneself を「奮闘する」の標準表現にしない。  
+
+【類義語】
+
+・seize  
+定義: 人や物を急に、または強くつかむ。  
+頻度: 〈7/10〉  
+違い: つかむ瞬間に重点があり、急に捕らえる動作にも使う。grapple は力強くつかむ感じを出し、人が相手なら組み付く場面にもなる。  
+例: The guard seized him by the arm.  
+訳: 警備員は彼の腕をつかんだ。  
+
+・grab  
+定義: 人や物に素早く手を伸ばしてつかむ。  
+頻度: 〈9/10〉  
+違い: より日常的で、軽く素早く取る動作にも使う。grapple は力を込めた把持を描き、人が相手なら取り押さえようと組み付く動作にもなる。  
+例: She grabbed his wrist before he could leave.  
+訳: 彼が立ち去る前に、彼女は彼の手首をつかんだ。  
+
+・wrestle  
+定義: 相手をつかみ、力をかけて倒したり移動させたりする。  
+頻度: 〈5/10〉  
+違い: wrestle someone to the ground の型では非常に近い。ただし、grapple が物を手でつかむだけの場面まで無条件に置き換えられるわけではなく、wrestle は抵抗や扱いにくさとの格闘を強く示す。  
+例: The officer wrestled the suspect to the floor.  
+訳: 警官は容疑者と組み合って床に倒した。  
+
+4. 【他動詞】鉤・把持装置でつかむ・固定する
+
+【日本語訳・定義】鉤、爪、開閉する機械装置などを使って物をしっかりつかみ、保持・固定する。人が操作する場合も、機械を主語にする場合もある。つかんだ後に引き上げたり運んだりすることは多いが、運搬の完了自体は grapple の意味ではない。  
+
+【頻度】〈3/10〉  
+
+【レジスター/領域】機械、林業、荷役、回収作業など。一般の「物をつかむ」より道具による把持を具体的に表す。  
+
+【文法パターン】grapple something＝鉤・装置で物をつかむ／grapple something with a hook＝鉤を手段として物をつかむ／something + be grappled＝物が装置でつかまれる。直接目的語は材木、漂流物、回収対象など。with は語義1・2の「取り組む対象・争う相手」ではなく手段を表す。  
+
+【コロケーション・構文例】
+
+・grapple a log  
+用途: 林業機械などで丸太をつかむ。  
+例: The machine grappled the log and lifted it onto the trailer.  
+訳: 機械は丸太をつかみ、トレーラーの上へ持ち上げた。  
+
+・grapple something with a hook  
+用途: 物をつかむために使った道具を示す。  
+例: The crew grappled the floating crate with a hook.  
+訳: 作業員たちは浮いている木箱に鉤を掛けてつかまえた。  
+
+・be grappled by a crane  
+用途: クレーンの把持動作を物の側から描く。  
+例: The wreckage was grappled by a crane and raised clear of the water.  
+訳: 残骸はクレーンにつかまれ、水面より上に引き上げられた。  
+
+【語法・注意】grapple the log with a mechanical claw では the log が直接目的語、with 以下が手段。grapple with the log なら、丸太を扱おうと苦労しているという読みになり得る。語義3には物を手でつかむ用法もあるため、物目的語というだけで装置義と決めず、主語・手段・文脈で区別する。まれに自動詞で「鉤を使う」という用法もあるが、通常の問題対処を表す with 型とは別である。機械の名称としての a grapple は語義5。  
+
+【類義語】
+
+・grip  
+定義: 物をしっかりつかんで保持する。  
+頻度: 〈7/10〉  
+違い: 手、摩擦面、装置など手段が広い。grapple は鉤や把持用の爪を使う場面をより具体的に示す。  
+例: The jaws grip the pipe firmly.  
+訳: そのつかみ部はパイプをしっかり保持する。  
+
+・grab  
+定義: 物をつかむ、取り込む。  
+頻度: 〈6/10〉  
+違い: 機械についても使える一般的な動詞。grapple は専用の把持装置を使う作業に合う。  
+例: The excavator grabbed a bundle of branches.  
+訳: 掘削機は枝の束をつかんだ。  
+
+・hook  
+定義: 鉤を掛けて物を引っ掛ける。  
+頻度: 〈6/10〉  
+違い: 鉤を掛ける方式に限定される。grapple は開閉する爪などで挟んでつかむ装置にも使う。  
+例: They hooked the chain onto the lifting eye.  
+訳: 彼らはチェーンを吊り上げ用の環に引っ掛けた。  
+
+5. 【可算名詞】引っ掛け鉤・把持装置
+
+【日本語訳・定義】物をつかんだり引っ掛けて保持したりする道具・装置。複数の鉤を備えた道具や、クレーン・掘削機などに取り付ける開閉式の爪を含む。機械全体ではなく、その把持部分・アタッチメントを指すことが多い。  
+
+【頻度】〈3/10〉  
+
+【レジスター/領域】機械、建設、林業、荷役、船舶などの道具名。  
+
+【文法パターン】a grapple / grapples＝一つ・複数の把持装置／a hydraulic grapple＝油圧式の把持装置／a grapple for something＝特定対象用の把持装置／a grapple attachment＝把持用アタッチメント。可算なので単数には冠詞・所有格などを付ける。  
+
+【コロケーション・構文例】
+
+・a hydraulic grapple  
+用途: 開閉を油圧で行う把持装置を指す。  
+例: The loader is fitted with a hydraulic grapple for moving logs.  
+訳: そのローダーには丸太を運ぶための油圧式把持装置が付いている。  
+
+・a grapple attachment  
+用途: 建設機械などに取り付ける部品として示す。  
+例: They replaced the bucket with a grapple attachment.  
+訳: 彼らはバケットを把持用アタッチメントに取り替えた。  
+
+・a grapple for handling scrap  
+用途: 装置が扱う対象と用途を示す。  
+例: The yard bought a new grapple for handling scrap.  
+訳: その作業場は金属くずを扱うための新しい把持装置を購入した。  
+
+【語法・注意】a grapple は装置、grapple the load は動詞で「荷をつかむ」。名詞の複数形 grapples と動詞の三人称単数形 grapples は同綴りだが、two grapples と the crane grapples the load では役割が違う。grappling hook / grapnel は鉤型の道具に焦点があり、どんな油圧式 grapple とも同一ではない。装置の具体的な形や操作方法は製品によって異なる。  
+
+【類義語】
+
+・grappling hook  
+定義: ロープなどの先に付け、物に引っ掛ける鉤。  
+頻度: 〈4/10〉  
+違い: grapple のうち鉤型の道具に重なる。開閉する大型の油圧式把持装置全般は指さない。  
+例: A grappling hook lay beside the coil of rope.  
+訳: ロープの束の横に引っ掛け鉤が置いてあった。  
+
+・grapnel  
+定義: 複数の爪を持つ小型の錨、または物を引っ掛ける鉤。  
+頻度: 〈2/10〉  
+違い: 船舶・回収用の鉤を指す専門的な語で、一般の機械式把持装置より範囲が狭い。  
+例: The crew lowered a grapnel to retrieve the cable.  
+訳: 乗組員はケーブルを回収するために引っ掛け鉤を下ろした。  
+
+・grab  
+定義: クレーンなどに付けて物をつかむ機械装置。  
+頻度: 〈3/10〉  
+違い: この機械名詞義で grapple と重なる。grab には「素早くつかむこと」という一般名詞義もあるので、文脈を確認する。  
+例: The crane's grab closed around the scrap metal.  
+訳: クレーンのつかみ装置が金属くずを挟んで閉じた。  
+
+6. 【可算名詞】組み合い・格闘
+
+【日本語訳・定義】相手につかみかかって争う一回の行為や局面。比喩的には、問題、考え、良心などと向き合って苦闘することも表す。争う出来事を名詞として捉え、つかんでいる状態そのものを指す語義7とは区別する。  
+
+【頻度】〈3/10〉  
+
+【レジスター/領域】描写的。身体的な争いにも比喩にも使うが、一般には動詞の grapple や名詞の struggle の方が使われる。  
+
+【文法パターン】a grapple with someone＝相手との組み合い／a grapple with something＝難題などとの格闘／in a grapple＝組み合いの最中で／a grapple for something＝ある物や支配権をめぐる格闘。出来事を一つと数える用法で、a brief grapple のように修飾できる。  
+
+【コロケーション・構文例】
+
+・a brief grapple with someone  
+用途: 短い身体的な組み合いを一つの出来事として述べる。  
+例: After a brief grapple with the guard, the man broke free and ran.  
+訳: 警備員と短く組み合った後、男は振りほどいて走り去った。  
+
+・be locked in a grapple  
+用途: 両者が組み合ったまま争っている状態を描く。  
+例: The two fighters were locked in a grapple on the mat.  
+訳: 二人の選手はマットの上でがっちり組み合っていた。  
+
+・a grapple with one's conscience  
+用途: 良心との内面的な格闘を描く。  
+例: After a long grapple with his conscience, he admitted that he had lied.  
+訳: 良心との長い葛藤の末、彼はうそをついたと認めた。  
+
+【語法・注意】a grapple with the guard は名詞句、grapple with the guard は動詞句。with の形が似ていても、冠詞、修飾語、文中の役割で見分ける。名詞の grapple に to 不定詞を付ければ、動詞の grapple to understand と同じ構文になるわけではない。比喩的な a grapple with one's conscience は「良心を理解できた」という達成を表さない。組み技という活動・競技全般は通常 grappling（語義8）とする。  
+
+【類義語】
+
+・struggle  
+定義: 相手や困難に抗して力を尽くす争い・苦闘。  
+頻度: 〈8/10〉  
+違い: 身体的・精神的な争いをともに広く表す。grapple は組み付いて争うイメージを保ち、名詞としてはより描写的。  
+例: Her struggle with self-doubt lasted for years.  
+訳: 自信のなさとの彼女の闘いは何年も続いた。  
+
+・scuffle  
+定義: 短いもみ合い、小競り合い。  
+頻度: 〈5/10〉  
+違い: 身体的な小規模の争いに重なり、良心や考えとの長い葛藤には通常使わない。  
+例: A scuffle broke out near the ticket counter.  
+訳: 切符売り場の近くでもみ合いが起きた。  
+
+・tussle  
+定義: 体を使った取っ組み合い、または何かをめぐる争い。  
+頻度: 〈5/10〉  
+違い: 比較的小規模の争いや、支配権をめぐる競り合いを表しやすい。grapple は相手や難題に組み付く局面を強調する。  
+例: The dispute became a tussle over control of the company.  
+訳: その対立は会社の経営権をめぐる争いになった。  
+
+7. 【可算名詞】強いつかみ・押さえ込み
+
+【日本語訳・定義】相手をつかんで離さない保持、特に格闘の中で相手の体を押さえるつかみ。語義6の「格闘という出来事」よりも、逃れようとしても外しにくいつかみ方・保持に焦点がある。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】格闘の描写。grip / hold に比べて低頻度。  
+
+【文法パターン】someone's grapple＝ある人のつかみ／a tight grapple＝強いつかみ／escape from someone's grapple＝相手のつかみから逃れる。保持を一つと捉える可算用法。  
+
+【コロケーション・構文例】
+
+・break someone's grapple  
+用途: 相手による強い保持を振りほどく。  
+例: The wrestler could not break her opponent's grapple.  
+訳: そのレスラーは相手のつかみを振りほどけなかった。  
+
+・escape from someone's grapple  
+用途: 押さえられている状態から抜け出す。  
+例: He twisted sideways and escaped from his opponent's grapple.  
+訳: 彼は横に体をひねり、相手の押さえ込みから抜け出した。  
+
+【語法・注意】ここでは「相手をつかんでいること・つかみ」を指し、a grapple attachment の装置義（語義5）とは違う。普段の説明なら grip や hold が分かりやすい。日本語の「握力」の数値をそのまま a grapple と呼ぶことはせず、grip strength を使う。  
+
+【類義語】
+
+・grip  
+定義: 手などでしっかりつかんでいること、その保持。  
+頻度: 〈8/10〉  
+違い: 最も広く使える対照語。grapple は特に格闘の中の強いつかみに使われる。  
+例: She loosened her grip on his arm.  
+訳: 彼女は彼の腕をつかむ力を緩めた。  
+
+・hold  
+定義: 人や物をつかんで保持すること、格闘での押さえ方。  
+頻度: 〈7/10〉  
+違い: a wrestling hold のように個々の技・保持方法にも使う。grapple はつかんで離さない様子を描写する語。  
+例: He managed to escape from the hold.  
+訳: 彼は何とかその押さえ込みから抜け出した。  
+
+8. 【不可算名詞：grappling】組み技・グラップリング
+
+【日本語訳・定義】相手の体をつかみ、組み合って制御する活動・技術の総称。また、その種の組み技を中心とする競技の名称。grapple の -ing 形が名詞として活動分野を指す用法で、個々の一回の組み合いを数える語義6とは異なる。  
+
+【頻度】〈4/10〉  
+
+【レジスター/領域】格闘技・スポーツ。競技名として使う場合と、複数の格闘技に含まれる組み技一般を指す場合がある。  
+
+【文法パターン】practise grappling / practice grappling＝組み技を練習する／grappling skills＝組み技の技術／a grappling class＝組み技の講習／grappling + be…＝活動・競技名を主語にする。不可算なので、活動全般に a や複数の -s を付けない。  
+
+【コロケーション・構文例】
+
+・practise grappling（grapple 由来の名詞用法）  
+用途: 組み技を練習する活動を述べる。米語では動詞を practice と綴る。  
+例: She practises grappling twice a week at a local gym.  
+訳: 彼女は地元のジムで週に2回、組み技を練習している。  
+
+・grappling skills（grapple 由来の名詞用法）  
+用途: 格闘技における組み技の技能を示す。  
+例: The coach praised his grappling skills but wanted him to improve his balance.  
+訳: コーチは彼の組み技の技術を褒めたが、バランスを改善してほしいと考えていた。  
+
+・a grappling class（grapple 由来の名詞用法）  
+用途: 組み技を学ぶ講習・クラスを指す。  
+例: The club offers a grappling class for beginners.  
+訳: そのクラブは初心者向けの組み技のクラスを開いている。  
+
+【語法・注意】Grappling is demanding. は活動名詞を主語にした文、They are grappling. は動詞の進行形。grappling with a difficult question のように with 以下を伴えば、問題に取り組む動詞の -ing 形にもなり、名詞的に働く場合でも直ちに競技名とは解釈しない。grappling hook は道具を表す複合語で、この競技名とは別。競技団体が用いる Grappling という名称と、格闘技一般でいう grappling の範囲は完全には一致しない。個々の競技のルールまでこの語だけから判断しない。  
+
+【類義語】
+
+・wrestling  
+定義: 相手と体を組み合わせ、倒したり押さえたりする競技・活動。  
+頻度: 〈6/10〉  
+違い: 組み合う活動として grappling と重なるが、wrestling は特定の競技体系やプロレスを指すこともあり、名称を無条件に置き換えられない。  
+例: He took up wrestling at school.  
+訳: 彼は学校でレスリングを始めた。  
