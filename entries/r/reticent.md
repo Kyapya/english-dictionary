@@ -1,0 +1,268 @@
+---
+headword: reticent
+type: word
+status: checked
+prompt_version: entry_spec_v5
+model: gpt-6-astra xhigh
+created_at: 2026-10-09
+updated_at: 2026-10-09
+checked: true
+tags: []
+---
+
+＃発音記号
+
+米・英: /ˈretɪsənt/。3音節で、第1音節に強勢がある。第1音節の母音 /e/ は辞書によって /ɛ/ とも表される。第2音節の母音は /ɪ/、第3音節は /sənt/ で、c は /s/ と読む。  
+第2音節の母音を /ə/ とする発音や、第3音節の /ə/ が弱まって /n/ が音節の中心になる発音もある。これらを単純に米音対英音の固定的な違いと考えない。  
+
+＃語源
+
+ラテン語 reticere「黙っている」の現在分詞 reticens、その語幹 reticent- に由来する。基になる tacere は「黙っている」の意で、re- はここでは意味を強める要素として説明される。「もう一度話す」という組み立てではない。  
+tacit「明言されない・暗黙の」、taciturn「寡黙な」も tacere の系統。共通するのは沈黙との関係だが、現代英語では tacit は了解や承認など、taciturn は人の寡黙な性向、reticent は特に情報や気持ちを話したがらない態度を表す。  
+
+＃語形成
+
+・reticence：主に不可算名詞。「口の重さ・話すことへのためらい」。reticence about one's past「過去について話したがらないこと」、overcome one's reticence「口の重さを乗り越えて話す」。  
+・reticently：副詞。「控えめに・口重く」。answer reticently「口重く答える」のように使う。  
+・reticency：reticence の別形の名詞。一般的な文章では reticence を基本にする。  
+
+＃コアイメージ
+
+「積極的に表へ出ず、控えめにとどまる」。話すこと、行動へ踏み出すこと、見た目や表現の目立ち方に、この控えめさが現れる。必ずしも意識的に自分を抑えているとは限らない。  
+
+・控えめにとどまる発言や情報開示 → 「口が重い・話すのを控える」（語義1）  
+・控えめにとどまる行動への意欲 → 「気が進まない・ためらっている」（語義2）  
+・控えめにとどまる表現や外観 → 「抑制された・控えめな」（語義3）  
+
+＃意味・用法・関連表現
+
+1. 【形容詞】口が重い・話すのを控える
+
+【日本語訳・定義】人が、自分の経験・感情・考えなどを進んで話そうとしない。普段から口数が少ない性向にも、特定の話題だけを明かしたがらない態度にも使う。組織を主語にすれば、情報を積極的に公表しないことを表す。内気、秘密主義、不誠実は理由としてあり得るが、この語だけの必須条件ではない。  
+
+【頻度】〈6/10〉  
+
+【レジスター/領域】やや改まった一般語。人物描写、報道、インタビュー、仕事上の情報開示。  
+
+【文法パターン】a reticent person＝口の重い人という限定用法／someone is/seems/remains reticent＝人の態度を述べる叙述用法／become reticent＝口が重くなる／be reticent about something＝ある話題を話したがらない／be reticent on 〈話題〉＝その問題について発言を控える／be reticent about doing something＝話す・明かす行為を控える場合のほか、語義2にもなる／be reticent to discuss/reveal 〈内容〉、be reticent to talk about something＝話すことへのためらいを明示する型。very/extremely/rather reticent、more/less reticent と程度・比較を表せる。  
+
+【コロケーション・構文例】
+
+・a reticent person  
+用途: 自分のことをあまり話さない人柄を表す。  
+例: He is a reticent person who rarely talks about his family.  
+訳: 彼は口が重く、家族のことをめったに話さない人だ。  
+
+・be reticent about one's personal life  
+用途: 私生活という特定の話題を明かしたがらないことを表す。  
+例: She is lively at work but reticent about her personal life.  
+訳: 彼女は職場では快活だが、私生活についてはあまり話したがらない。  
+
+・remain reticent on 〈話題〉  
+用途: 問われてもある問題への発言を控え続けることを表す。  
+例: The company remained reticent on the reasons for the director's departure.  
+訳: 会社は取締役の退任理由について、引き続き口を閉ざしていた。  
+
+・be reticent about revealing 〈情報〉  
+用途: 情報を開示することへのためらいを表す。  
+例: The witness was reticent about revealing the names of those involved.  
+訳: 証人は関係者の名前を明かすことに口が重かった。  
+
+・be reticent to discuss 〈話題〉  
+用途: 話すことへのためらいを不定詞で示す。  
+例: He was reticent to discuss his childhood with the interviewer.  
+訳: 彼はインタビュアーに子ども時代のことを話すのをためらっていた。  
+
+・become more reticent  
+用途: 以前より発言や情報開示が少なくなる変化を表す。  
+例: She became more reticent when the conversation turned to her former employer.  
+訳: 話題が以前の勤務先に移ると、彼女はますます口が重くなった。  
+
+【語法・注意】reticent は形容詞なので、誤: He reticents about his past. → 正: He is reticent about his past. とする。単に音がしない場所なら quiet、言葉にされない了解なら tacit を使う。a reticent colleague は「口の重い同僚」、tacit approval は「明言されない承認」で、品詞は同じでも修飾対象と意味が異なる。 be reticent about 〈話題〉 は、その話題について何も知らないという意味ではなく、進んで話さないという態度の描写。about doing の形だけで「その行為を実行したくない」と決めつけない。reticent about moving abroad は、海外移住の話を明かしたくない意味にも、移住自体に気が進まない語義2にもなり得るので、前後の発言や理由で判別する。 reticent to discuss のように発話を表す不定詞を伴う用法も実在する。to 不定詞を一律に誤りとはしない。ただし語法に保守的な読者には reticent about 〈話題〉 または reluctant to discuss 〈話題〉 が無難で、行動一般への拡張については語義2を参照する。  
+
+【類義語】
+
+・taciturn  
+定義: 普段から口数が少なく、あまり会話をしない。  
+頻度: 〈4/10〉  
+違い: reticent が特定の話題を語らない態度にも使えるのに対し、taciturn は人の持続的な寡黙さに重点がある。  
+例: My taciturn uncle usually lets others do the talking.  
+訳: 寡黙な叔父は、たいていほかの人に話を任せる。  
+
+・reserved  
+定義: 感情や考えをあまり表に出さず、対人態度が控えめな。  
+頻度: 〈7/10〉  
+違い: reticent より対象が広く、発言量だけでなく親しさの示し方や感情表現の抑制も表す。  
+例: She is friendly but rather reserved with strangers.  
+訳: 彼女は親切だが、初対面の人にはかなり控えめだ。  
+
+・uncommunicative  
+定義: 話や情報のやり取りをあまりしない。  
+頻度: 〈5/10〉  
+違い: reticent が話すことへの控えめな姿勢を描くのに対し、uncommunicative は相手との意思疎通が乏しいことをより直接的に表し、非協力的に響くことがある。  
+例: He became uncommunicative and answered every question with a shrug.  
+訳: 彼は口を利かなくなり、どの質問にも肩をすくめるだけだった。  
+
+・secretive  
+定義: 自分の情報や行動を人に知られないようにする。  
+頻度: 〈6/10〉  
+違い: reticent より、意図的に隠しているという含みが強い。口が重い人すべてが secretive とは限らない。  
+例: The team was secretive about the new design.  
+訳: チームは新しい設計について秘密にしていた。  
+
+【反意語】
+
+・communicative  
+定義: 自分の考えや情報を進んで人に伝える。  
+頻度: 〈5/10〉  
+違い: 情報や気持ちを伝える積極性という程度上の対立。話の量が多いことだけを意味しない。  
+例: He was unusually communicative about his plans.  
+訳: 彼は珍しく自分の計画についてよく話してくれた。  
+
+・talkative  
+定義: よくしゃべる、口数の多い。  
+頻度: 〈7/10〉  
+違い: 発言量という程度上の対立。talkative でも私生活だけは reticent という人はいるため、完全な補完関係ではない。  
+例: The normally talkative student said very little that morning.  
+訳: いつもはよくしゃべるその学生が、その朝はほとんど話さなかった。  
+
+2. 【形容詞】気が進まない・ためらっている
+
+【日本語訳・定義】人や組織が、ある行動を取ることに消極的で、進んで踏み出そうとしない。話す行為に限らず、参加、投資、採用などへのためらいも表す。完全に拒否した、実行できない、結局実行しなかったという結果までは含まない。  
+
+【頻度】〈4/10〉  
+
+【レジスター/領域】現代の一般文・報道・ビジネスに見られる拡張義。米語辞書で明示されるが、米語だけに限定されない。容認度には辞書や書き手による差がある。  
+
+【文法パターン】be/seem/remain reticent to do something＝ある行動に気が進まない／be reticent about doing something＝実行することに消極的な／a reticent 〈人・集団〉＝行動に消極的な人・集団。ただし何へのためらいかを文脈で示す。very/more/less reticent と程度を表せる。  
+
+【コロケーション・構文例】
+
+・be reticent to invest  
+用途: 資金を投じることへのためらいを表す。  
+例: With costs still rising, the owners are reticent to invest in another factory.  
+訳: 費用がなお上がる中、経営者たちは新たな工場への投資に消極的だ。  
+
+・remain reticent about adopting 〈方法・技術〉  
+用途: 新しい方式を実際に採用することへの消極性を表す。  
+例: The hospital remains reticent about adopting the software until its reliability has been demonstrated.  
+訳: その病院は、信頼性が実証されるまでは、そのソフトウェアの導入に慎重なままだ。  
+
+・be less reticent to participate  
+用途: 参加へのためらいが弱まることを比較で表す。  
+例: After watching the first round, newcomers were less reticent to participate in the game.  
+訳: 最初の一回を見て、新しく来た人たちはゲームに参加するのをあまりためらわなくなった。  
+
+・reticent buyers  
+用途: 購入に踏み切ろうとしない買い手を表す。  
+例: Lower prices may persuade reticent buyers to return to the market.  
+訳: 価格が下がれば、購入をためらっている買い手が市場に戻るかもしれない。  
+
+【語法・注意】reticent to do を誤りと断定するのは適切でない。Merriam-Webster はこの拡張義を掲載し、編集された文章でも定着していると説明する。一方、American Heritage は用法上の異論を示し、Oxford の学習辞典や COBUILD は話すことを控える意味を中心に説明する。あらゆる文章で同じように受け入れられると断定せず、行動への不本意を明瞭に伝えたい場合は reluctant to do が安定した選択になる。 語義1の They are reticent about their plans. は通常「計画を明かしたがらない」。この語義の They are reticent to expand because costs are high. は「費用が高いため拡張に消極的だ」。about か to かだけではなく、補語が話題を示すのか、実行する行動を示すのかを文脈と合わせて読む。about の直後に動詞を置くなら -ing 形とし、誤: reticent about invest → 正: reticent about investing とする。  
+
+【類義語】
+
+・reluctant  
+定義: ある行動をしたくない、または気が進まない。  
+頻度: 〈8/10〉  
+違い: 発話に限らない不本意を直接表す基本語で、reticent の拡張義に伴う語法上の異論を避けられる。  
+例: They were reluctant to sign a long-term contract.  
+訳: 彼らは長期契約を結ぶことに気が進まなかった。  
+
+・hesitant  
+定義: 自信や確信がなく、行動にためらいがある。  
+頻度: 〈7/10〉  
+違い: reticent の消極性と重なるが、hesitant は判断の不確かさや踏み出す前の迷いに焦点を置きやすい。  
+例: She was hesitant about accepting a job so far from home.  
+訳: 彼女は家からそれほど遠い仕事を引き受けるか迷っていた。  
+
+・unwilling  
+定義: あることをする意思がない、したがらない。  
+頻度: 〈8/10〉  
+違い: reticent より拒否の姿勢を明確に表しやすい。ためらいの程度を描くより、意思の欠如を述べる。  
+例: The landlord was unwilling to reduce the rent.  
+訳: 家主は家賃を下げる気がなかった。  
+
+【反意語】
+
+・willing  
+定義: ある行動をする意思があり、応じる用意がある。  
+頻度: 〈9/10〉  
+違い: 行動への意思という状態の反対。熱心に望んでいることまでは必要なく、reticent との間に程度差もある。  
+例: We are willing to try a different approach.  
+訳: 私たちは別の方法を試す用意がある。  
+
+・eager  
+定義: ある行動を強く望み、積極的に取り組もうとする。  
+頻度: 〈8/10〉  
+違い: 行動への意欲という程度上の対立で、単にためらいがない willing より積極性が強い。  
+例: The volunteers were eager to get started.  
+訳: ボランティアたちは早く始めたがっていた。  
+
+3. 【形容詞】抑制された・控えめな
+
+【日本語訳・定義】表現、外観、雰囲気などが強く自己主張せず、静かで控えめな印象を与える。作品や部屋など人以外にも使う。落ち着きや品位を評価することもあるが、必ず褒め言葉とは限らない。ワインの記述では、香りや風味がまだ強く現れていないことにもいう。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】文芸的・批評的な描写。美術、デザイン、雰囲気、ワイン評などの周辺的用法。  
+
+【文法パターン】a reticent 〈作品・外観を表す名詞〉＝抑制された印象のものという限定用法／reticent elegance＝控えめな優雅さ／something is/seems reticent＝作品・香りなどの印象を述べる叙述用法。rather/more reticent などで抑制の程度を表せる。行動を指定する to do はこの語義の中心的な型ではない。  
+
+【コロケーション・構文例】
+
+・a reticent painting  
+用途: 強い色や身ぶりで訴えかけない作品を描写する。  
+例: Beside the exuberant canvases, the small, reticent painting seemed almost to withdraw from view.  
+訳: 生気あふれる絵の隣で、その小さく抑制された絵は、ほとんど人目を避けているように見えた。  
+
+・reticent elegance  
+用途: 派手に示さない優雅さを批評的に表す。  
+例: The room's reticent elegance came from its plain walls and carefully chosen furniture.  
+訳: その部屋の控えめな優雅さは、飾り気のない壁と選び抜かれた家具から生まれていた。  
+
+・the aromas are reticent  
+用途: ワインの香りがあまり開いていないことを表す。  
+例: The aromas are reticent at first, but become more expressive as the wine warms.  
+訳: 最初は香りが控えめだが、ワインの温度が上がるにつれて、より豊かに感じられるようになる。  
+
+【語法・注意】人以外を修飾する reticent をすべて擬人化の誤りと考えない。この「抑制された」という意味は定着した周辺義。ただし日常的に「地味な服」「静かな部屋」と言うたびに reticent を使うと批評的な響きになる。understated design、a quiet room など、具体的な性質に合う基本語も選べる。ワインについても、reticent だけで欠陥、熟成不足、将来の品質を断定することはできない。  
+
+【類義語】
+
+・restrained  
+定義: 感情や表現を強く押し出さず、抑えた。  
+頻度: 〈6/10〉  
+違い: reticent より広く、演技や反応にも使え、表現の強度を抑える点を明確にする。  
+例: Her restrained performance made the final scene more moving.  
+訳: 彼女の抑制の利いた演技が、最後の場面をより感動的にした。  
+
+・understated  
+定義: 派手さを抑え、さりげなく表現された。  
+頻度: 〈6/10〉  
+違い: reticent の控えめな印象に近く、特にデザインやおしゃれ、優雅さへの肯定的評価と結びつきやすい。  
+例: The watch has an understated design with no unnecessary decoration.  
+訳: その時計は余分な飾りのない、さりげないデザインだ。  
+
+・subdued  
+定義: 色、光、音、感情などの強さが抑えられた。  
+頻度: 〈7/10〉  
+違い: reticent が控えめな印象全体を表すのに対し、subdued は知覚される強度の低さを具体的に示しやすい。  
+例: Subdued colors gave the gallery a calm atmosphere.  
+訳: 抑えた色使いが、画廊に落ち着いた雰囲気を与えていた。  
+
+【反意語】
+
+・showy  
+定義: 人目を引くほど派手で、目立つ。  
+頻度: 〈6/10〉  
+違い: 外観の目立ち方という程度上の対立。showy は派手すぎるという否定的評価を伴うことがある。  
+例: The entrance was dominated by a showy chandelier.  
+訳: 玄関では派手なシャンデリアがひときわ目を引いた。  
+
+・flamboyant  
+定義: 色や表現が大胆で華やかに目立つ。  
+頻度: 〈5/10〉  
+違い: 表現の強さ・華やかさという程度上の対立。reticent の静かな印象と対照的だが、華やかさを褒める場合もある。  
+例: The designer is known for flamboyant costumes in vivid colors.  
+訳: そのデザイナーは、鮮やかな色を使った華やかな衣装で知られている。  
