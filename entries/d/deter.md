@@ -3,9 +3,9 @@ headword: deter
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: gpt-6-astra xhigh
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-09
 checked: true
 tags: []
 ---
@@ -25,7 +25,7 @@ terrēre の系統には terror「恐怖」、terrible「ひどい、恐ろし�
 ・deterrence は通常不可算名詞で「抑止、抑止作用」。犯罪・安全保障の議論でも使い、nuclear deterrence は「核抑止」。起こり得る行動を思いとどまらせることが中心で、事後の処罰そのものとは異なる。  
 ・deterrent は可算名詞で「抑止するもの・要因」、形容詞で「抑止の」。a deterrent to theft「盗難の抑止要因」、a deterrent effect「抑止効果」のように使う。the nuclear deterrent は文脈上、抑止手段としての核戦力を指す。  
 ・undeterred は un- と過去分詞からできた形容詞で「ひるまない、くじけない」。remain undeterred、undeterred by criticism のように、困難があっても続ける態度を表す。  
-・deterred / deterring は基本的に動詞の過去分詞・現在分詞。deterred applicants は「応募を思いとどまった応募者たち」のように文脈で成立するが、単なる「落胆した人」を指す一般形容詞として広げない。抑止効果のあるものを形容する通常の形は deterrent。  
+・deterred / deterring は基本的に動詞の過去分詞・現在分詞。deterred potential applicants は「応募を考えていたが思いとどまった人たち」のように文脈で成立するが、単なる「落胆した人」を指す一般形容詞として広げない。抑止効果のあるものを形容する通常の形は deterrent。  
 
 ＃意味・用法・関連表現
 
@@ -73,8 +73,8 @@ terrēre の系統には terror「恐怖」、terrible「ひどい、恐ろし�
 
 ・be deterred by 〈要因〉（deter の受動態）  
 用途: 行動を控える側を主語にし、その理由を by で示す。  
-例: Several applicants were deterred by the lengthy selection process.  
-訳: 選考過程が長いため、応募を思いとどまった人が何人もいた。  
+例: Several potential applicants were deterred by the lengthy selection process.  
+訳: 応募を考えていたが、選考過程が長いため思いとどまった人が何人もいた。  
 
 ・be deterred from doing（deter someone from doing の受動態）  
 用途: 思いとどまる行動を明示する。  
@@ -95,7 +95,7 @@ terrēre の系統には terror「恐怖」、terrible「ひどい、恐ろし�
 
 人の目的語を必須と考えない。deter theft「盗難を抑止する」、deter investment「投資を抑える」のように行動名詞も置ける。また、Penalties should deter.「罰則は抑止効果を持つべきだ」のように、対象が共有されていると自動詞として使える。一方、I deter. だけで「私は思いとどまる」とは通常言わない。自分が抑止される側なら I am deterred、単に考えを変えるなら I decide against it などとする。  
 
-from 以下と by 以下は役割が違う。Applicants were deterred from applying by the fee. では、from applying が控える行動、by the fee が原因。過去分詞 deterred は受動や結果状態を表し、seem deterred のような状態描写もできるが、「悲しい、がっかりした」一般なら disappointed / discouraged を使う。  
+from 以下と by 以下は役割が違う。Potential applicants were deterred from applying by the fee. では、from applying が控える行動、by the fee が原因。過去分詞 deterred は受動や結果状態を表し、seem deterred のような状態描写もできるが、「悲しい、がっかりした」一般なら disappointed / discouraged を使う。  
 
 肯定の具体的な過去文 The warning deterred him from entering. は、普通は警告のため入るのをやめたと述べる。一方、deter crime のような総称的な表現や help / aim / try / may を伴う文は、犯罪が必ずゼロになったことを意味しない。抑止を試みたこと、一定の効果があること、全対象への完全な成功を区別する。  
 
@@ -174,7 +174,7 @@ dissuade は通常、理由を述べて人を説得し、行動をやめさせ�
 ・help deter corrosion  
 用途: 腐食を完全に止めると断定せず、抑制への寄与を述べる。  
 例: The report recommends a coating to help deter corrosion during storage.  
-訳: 報告書は、保管中の腐食を抑えるため、塗装を施すことを勧めている。  
+訳: 報告書は、保管中の腐食を抑えるのに役立つ塗装を施すことを勧めている。  
 
 【語法・注意】deter rust は標準辞書にも見られる用法で、「意思のないものには deter を使えない」という説明は強すぎる。ただし、何を防ぐ場合にも prevent を機械的に deter に替えられるわけではない。技術文で単に現象の抑制を明確に述べたい場合は inhibit corrosion、予防なら prevent corrosion も選べる。  
 

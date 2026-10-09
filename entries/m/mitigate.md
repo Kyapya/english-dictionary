@@ -3,9 +3,9 @@ headword: mitigate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: gpt-6-astra xhigh
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-09
 checked: true
 tags: []
 ---
@@ -30,7 +30,7 @@ mitigated /ˈmɪtɪɡeɪtɪd/、mitigating /ˈmɪtɪɡeɪtɪŋ/。mitigated の 
 
 ＃コアイメージ
 
-ある事柄の強さ・深刻さ・作用を弱めることが中心にある。主要用法では弱める対象は害や不利な評価だが、against を伴う一部の用法では、計画などの実現を妨げる作用を表すため、何を弱めるのかを確認する必要がある。  
+ある事柄の強さ・深刻さ・作用を弱めることが中心にあり、主要用法では害や不利な評価を弱める。語義8は militate against との混同から生じた用法で、語彙的意味がこの核から自然に導けないため、個別に参照する。  
 
 ・悪影響の強さを弱める働き → 「軽減する、緩和する」（語義1）  
 
@@ -45,8 +45,6 @@ mitigated /ˈmɪtɪɡeɪtɪd/、mitigating /ˈmɪtɪɡeɪtɪŋ/。mitigated の 
 ・土地の環境悪化を弱める改変 → 「土地の環境を改善する」（語義6）  
 
 ・悪影響の強さを弱める対策 → 「対策を取って軽減する」（語義7）  
-
-・計画などの実現を弱める妨害 → 「不利に働く、妨げる」（語義8）  
 
 ＃意味・用法・関連表現
 
@@ -272,9 +270,9 @@ mitigated /ˈmɪtɪɡeɪtɪd/、mitigating /ˈmɪtɪɡeɪtɪŋ/。mitigated の 
 訳: 弁護側は量刑審理で、刑の軽減を支持する証拠を提出した。  
 
 ・be mitigating（mitigate の分詞形容詞）  
-用途: 法律文脈で、証拠や事情が酌量に当たる性質を持つと述べる。  
+用途: 法律文脈で、証拠や事情が酌量の根拠となる性質を持つと述べる。  
 例: The court found that the evidence was mitigating.  
-訳: 裁判所は、その証拠は酌量に当たるものだと判断した。  
+訳: 裁判所は、その証拠が酌量の根拠となると判断した。  
 
 【語法・注意】責任の軽減と、行為自体がなかった・正当だったという判断を混同しない。何が酌量され、どの程度の効果を持つかは法域や制度によって異なり、mitigating factor と呼ばれただけで一定の減刑が決まるわけではない。一般の会話で Are there any mitigating circumstances? と言えば「酌むべき事情はありますか」。名詞の前で使うのが典型的で、The circumstances are mitigating factors. や There are mitigating circumstances. と表せる。一方、法律文脈の The evidence is mitigating. は成立する叙述用法で、証拠の性質を述べている。The measures are mitigating the damage. のように直接目的語を伴う動詞の進行形とは区別する。語義3の a mitigating measure は害を抑えるための対策、この語義の a mitigating factor は評価・処罰を軽くする事情である。  
 

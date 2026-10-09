@@ -3,9 +3,9 @@ headword: reconcile
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: gpt-6-astra xhigh
 created_at: 2026-10-06
-updated_at: 2026-10-07
+updated_at: 2026-10-09
 checked: true
 tags: []
 ---
@@ -339,7 +339,7 @@ reconciled /ˈrekənsaɪld/、reconciling /ˈrekənsaɪlɪŋ/。語末の e を�
 ・feel more reconciled to 〈状況〉  
 用途: 受容の程度が変化したことを示す。  
 例: After hearing the reasons, I felt more reconciled to the decision.  
-訳: 理由を聞いた後、私はその決定に以前より納得できるように感じた。  
+訳: 理由を聞いた後、私はその決定を以前より受け入れられると感じた。  
 
 【語法・注意】I reconciled myself to the delay. は語義4の他動詞・再帰構文。I am reconciled to the delay. は状態を述べる形で、be の後ろに myself を加えない。fully、more、not yet などで受容の程度を示せる。reconciled と to の間にハイフンは不要で、a reconciled-to-the-delay employee のような長い前置修飾より、an employee who is reconciled to the delay が明確。be reconciled with someone「相手と和解している」は語義2で、to との意味差に注意する。  
 

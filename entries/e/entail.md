@@ -3,9 +3,9 @@ headword: entail
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: gpt-6-astra xhigh
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-09
 checked: true
 tags: []
 ---
@@ -61,8 +61,8 @@ tailor「仕立屋」、detail「細部」、retail「小売り」は、いず�
 
 ・entail someone's doing  
 用途: 動名詞の意味上の主語を所有格で示す。  
-例: The assignment entails her spending two weeks at the overseas office.  
-訳: その業務では、彼女が海外事務所で2週間過ごす必要がある。  
+例: The assignment entails his spending two weeks at the overseas office.  
+訳: その業務では、彼が海外事務所で2週間過ごす必要がある。  
 
 ・entail 〈負担・変化〉 for someone  
 用途: 影響を受ける人・組織を for で示す。  
@@ -138,7 +138,7 @@ entail risk はリスクが存在することを述べるのであって、損�
 
 2. 【他動詞】論理的に含意する、必然的に導く
 
-【日本語訳・定義】命題・文・前提の集合が真であるなら、別の命題・文も必ず真になるという関係にある。単なる傾向、確率的な予測、話し手の遠回しな示唆とは異なる。自然言語の意味論では語や文の意味に基づく帰結を、形式論理では採用する体系・解釈の下での帰結を述べる。  
+【日本語訳・定義】命題・文・前提の集合が真であるなら、別の命題・文も必ず真になるという関係にある。単なる傾向、確率的な予測、話し手の遠回しな示唆とは異なる。自然言語の意味論では語や文の意味に基づく帰結を、形式論理では採用する論理体系における帰結を述べる。モデル理論的には、その体系で認められる解釈のうち、すべての前提が真になるどの解釈でも結論が真になることをいう。  
 
 【頻度】〈4/10〉  
 

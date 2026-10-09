@@ -3,9 +3,9 @@ headword: comply
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: gpt-6-astra xhigh
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-09
 checked: true
 tags: []
 ---
@@ -22,7 +22,7 @@ complete「完成させる」、complement「補完するもの」、compliment�
 ＃語形成
 
 ・compliance は通常不可算名詞で「遵守、要求への対応、適合」。compliance with the rules「規則の遵守」、in compliance with the rules「規則に従って」の形を取る。日本語の「コンプライアンス」より範囲が広く、依頼への対応や技術仕様への適合も表す。  
-・compliant は形容詞で「要求に従う、従順な」「基準に適合した」。a compliant supplier / a supplier that is compliant with the rules のように限定・叙述の両方で使う。人については「言いなりになる」という評価を帯びることもある。規格名を前に置く standards-compliant software のような複合形もある。  
+・compliant は形容詞で「要求に従う、従順な」「基準に適合した」。a compliant supplier / a supplier that is compliant with the rules のように限定・叙述の両方で使う。人については「言いなりになる」という評価を帯びることもある。基準・規格を表す語を前に置く standards-compliant software「規格に適合したソフトウェア」のような複合形もある。  
 ・non-compliance / noncompliance は「不遵守、不適合」、non-compliant / noncompliant は「従わない、適合しない」。ハイフンの有無に表記の幅がある。  
 ・complied、complying は基本的に動詞の活用形。「規則に適合した製品」を一般的に表すなら compliant products を使い、a complied product とはしない。  
 

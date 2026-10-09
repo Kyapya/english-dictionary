@@ -3,9 +3,9 @@ headword: preclude
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: gpt-6-astra xhigh
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-09
 checked: true
 tags: []
 ---
@@ -21,7 +21,7 @@ tags: []
 
 ＃語形成
 
-・preclusion は名詞で「排除、阻止」。特に法務では claim preclusion「請求についての再訴の遮断」、issue preclusion「争点についての再争いの遮断」などの専門表現になる。  
+・preclusion は名詞で「排除、阻止」。特に法務では claim preclusion「請求についての再訴の遮断」、issue preclusion「すでに判断された争点を再び争うことの遮断」などの専門表現になる。  
 ・preclusive は形容詞で「妨げる、排除する効力のある」。a preclusive effect「遮断する効果」のように、特に法的・学術的文脈で使う。  
 ・precluded / precluding は基本的に過去分詞・現在分詞。be precluded from doing は通常、行動を妨げられるという受動構文であり、独立した日常的な形容詞義を想定する必要はない。  
 
@@ -113,7 +113,7 @@ exclude は集団・範囲から「除外する」意味が中心。The rules ex
 ・rule out  
 定義: 選択肢・可能性などを除外する。  
 頻度: 〈8/10〉  
-違い: 証拠や判断によって候補から外す意味が強い。preclude は実行そのものを不可能にする事情にも使う。rule it out の語順になる。  
+違い: 証拠や判断によって候補から外す用法が典型的だが、事情によって実行の可能性を閉ざす意味でも使い、preclude と重なる。rule it out の語順になる。  
 例: The latest test rules out a fault in the power supply.  
 訳: 最新の検査結果から、電源の故障という可能性は除外できる。  
 
