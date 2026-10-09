@@ -3,16 +3,17 @@ headword: refute
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: gpt-6-astra xhigh
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-09
 checked: true
 tags: []
 ---
 
 ＃発音記号
 
-米・英: /rɪˈfjuːt/。2音節で、第2音節 /fjuːt/ に主強勢がある。第1音節の母音は /ɪ/。第2音節では /f/ の後に /j/ が入り、「フュート」に近い。refutes は /rɪˈfjuːts/、refuted は /rɪˈfjuːtɪd/、refuting は /rɪˈfjuːtɪŋ/。-ed は /ɪd/ で、過去形・過去分詞は3音節になる。refuse「拒否する」の語末 /z/ と区別する。  
+米・英: /rɪˈfjuːt/。  
+2音節で、第2音節 /fjuːt/ に主強勢がある。第1音節の母音は /ɪ/。第2音節では /f/ の後に /j/ が入り、「フュート」に近い。refutes は /rɪˈfjuːts/、refuted は /rɪˈfjuːtɪd/、refuting は /rɪˈfjuːtɪŋ/。-ed は /ɪd/ で、過去形・過去分詞は3音節になる。refuse「拒否する」の語末 /z/ と区別する。  
 
 ＃語源
 

@@ -3,16 +3,17 @@ headword: adverse
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: gpt-6-astra xhigh
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-09
 checked: true
 tags: []
 ---
 
 ＃発音記号
 
-米: /ædˈvɝːs/｜英: /ˈæd.vɜːs/。どちらも2音節。ここに示した代表形では、米は第2音節、英は第1音節に主強勢がある。第1音節の母音は共通して /æ/。第2音節の母音は米のr音を含む /ɝː/ と、英の /ɜː/ が異なる。語末の子音は両方とも無声の /s/。  
+米: /ædˈvɝːs/｜英: /ˈæd.vɜːs/。  
+どちらも2音節。ここに示した代表形では、米は第2音節、英は第1音節に主強勢がある。第1音節の母音は共通して /æ/。第2音節の母音は米のr音を含む /ɝː/ と、英の /ɜː/ が異なる。語末の子音は両方とも無声の /s/。  
 強勢には両地域で変異があり、米でも第1音節に強勢を置く形、英でも /ədˈvɜːs/ のように第2音節に強勢を置く形がある。後者では、第1音節の母音も弱い /ə/ に変わる。adverse を「米は必ず後ろ、英は必ず前」と固定しない。  
 
 ＃語源
@@ -47,7 +48,7 @@ adversary「対戦相手、敵」は同じ adversus の系統。averse「嫌っ�
 
 【レジスター/領域】やや硬い一般語。業務、報道、医療、経済、監査などで広く使う。  
 
-【文法パターン】an adverse effect / impact on something＝〜への悪影響／adverse 〈条件・反応・評価〉＝不利な・好ましくない〜／under adverse conditions＝悪条件のもとで／〈条件・影響など〉 + be / become adverse＝不利である・不利になる。highly / increasingly / more / less adverse などで程度を示せる。adverse to 〈利益など〉は「〜に不利な、〜に反する」で、人の好みを表す averse to とは別。adverse selection は経済・保険の定型表現で「逆選択」。  
+【文法パターン】an adverse effect / impact on something＝〜への悪影響／an adverse reaction to something＝〜に対する有害な・否定的な反応／adverse 〈条件・反応・評価〉＝不利な・好ましくない〜／under adverse conditions＝悪条件のもとで／〈条件・影響など〉 + be / become adverse＝不利である・不利になる。highly / increasingly / more / less adverse などで程度を示せる。adverse to 〈利益など〉は「〜に不利な、〜に反する」で、人の好みを表す averse to とは別。adverse selection は経済・保険の定型表現で「逆選択」。  
 
 【コロケーション・構文例】
 
@@ -93,8 +94,8 @@ adversary「対戦相手、敵」は同じ adversus の系統。averse「嫌っ�
 
 ・an adverse opinion  
 用途: 財務諸表監査で、不適正意見という種類の監査意見を表す。  
-例: The auditor expressed an adverse opinion because the financial statements as a whole did not present the company's position fairly.  
-訳: 財務諸表全体が会社の状態を適正に表示していなかったため、監査人は不適正意見を表明した。  
+例: The auditor expressed an adverse opinion because the financial statements as a whole did not present the company's financial position fairly.  
+訳: 財務諸表全体が会社の財政状態を適正に表示していなかったため、監査人は不適正意見を表明した。  
 
 ・adverse selection  
 用途: 経済・保険で、取引相手や加入者の構成が不利な方向に偏る「逆選択」を表す。  

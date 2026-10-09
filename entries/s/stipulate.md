@@ -3,9 +3,9 @@ headword: stipulate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: gpt-6-astra xhigh
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-09
 checked: true
 tags: []
 ---
@@ -221,7 +221,7 @@ tags: []
 
 ・stipulate that 〈節〉 for the sake of argument  
 用途: 仮の譲歩であることを明示する。  
-例: We can stipulate that demand will double for the sake of argument, but that does not establish profitability.  
+例: For the sake of argument, we can stipulate that demand will double, but that does not establish profitability.  
 訳: 議論のために需要が2倍になると認めることはできるが、それで採算性が示されるわけではない。  
 
 ・stipulate a definition  
@@ -269,7 +269,7 @@ tags: []
 ・stipulate leaves  
 用途: 托葉を持つ葉という形態を記載する。  
 例: The botanical description notes that the plant has stipulate leaves.  
-訳: その植物学的な記載には、その植物の葉には托葉があると書かれている。  
+訳: その植物学的な記載には、その植物が托葉のある葉を持つと書かれている。  
 
 ・be stipulate  
 用途: 葉に托葉があることを叙述する。  
