@@ -3,9 +3,9 @@ headword: discrepancy
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: gpt-6-astra xhigh
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-09
 checked: true
 tags: []
 ---
@@ -97,7 +97,7 @@ tags: []
 訳: 2つの機種には、重さにわずかな違いがある。  
 
 ・inconsistency  
-定義: 複数の説明・行動・情報などが互いに両立しないこと、またはその箇所。  
+定義: 説明・行動・情報などに整合性や一貫性がないこと、またはその具体的な箇所。  
 頻度: 〈7/10〉  
 違い: discrepancy が数値や対応関係のずれに使いやすいのに対し、inconsistency は同じ説明の内部矛盾や、時期による行動・基準の不統一も表す。  
 例: The editor pointed out an inconsistency in the timeline.  

@@ -3,9 +3,9 @@ headword: invoke
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: gpt-6-astra xhigh
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-09
 checked: true
 tags: []
 ---
@@ -28,7 +28,7 @@ tags: []
 
 ・invoker（名詞・可算）：呼び出す人・もの。特にコンピューターで、呼び出し元を指す。日常の一般的な「依頼者」なら requester など、文脈に合う語を使う。  
 
-・invoked / invoking（過去分詞／現在分詞）：通常は動詞の活用形。an invoked method「呼び出されたメソッド」、a rule frequently invoked by managers「管理者がよく援用する規則」のように修飾にも使うが、元の動詞と別の評価的な意味を持つ一般形容詞ではない。  
+・invoked/invoking（過去分詞／現在分詞）：通常は動詞の活用形。an invoked method「呼び出されたメソッド」、a rule frequently invoked by managers「管理者がよく援用する規則」のように修飾にも使うが、元の動詞と別の評価的な意味を持つ一般形容詞ではない。  
 
 ＃コアイメージ
 
@@ -484,7 +484,7 @@ tags: []
 
 ・be invoked  
 用途: 呼び出される超自然的な存在を主語にする。  
-例: In the story, the demon can be invoked only during the eclipse.  
+例: In the story, the demon can be invoked only during the solar eclipse.  
 訳: その物語では、その悪魔は日食の間にしか呼び出せない。  
 
 【語法・注意】invoke the spirit of cooperation のように協力の精神を持ち出す場合は、霊の召喚ではなく語義4などの比喩的用法として読む。invoke a spirit は call someone to a meeting の一般的な「人を呼ぶ」と置き換えられない。evoke にも歴史的・文学的な「霊を呼ぶ」という意味があるため、両語の意味がどの時代・用法でも完全に排他的だとはしない。現代の学習では、制度・権威・神への呼びかけを invoke、感情・記憶の喚起を evoke としてまず整理し、語義5とこの専門的な重なりを補足するとよい。  

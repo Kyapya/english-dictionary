@@ -3,16 +3,17 @@ headword: feasible
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: gpt-6-astra xhigh
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-09
 checked: true
 tags: []
 ---
 
 ＃発音記号
 
-米・英: /ˈfiːzəbəl/。3音節で、第1音節に主強勢がある。第1音節の母音は長い /iː/、第2・第3音節の母音は弱い /ə/。s は /s/ ではなく /z/ と発音する。語末の /əl/ は、母音を独立して強く発音せず、音節を担う l に近くなることもある。  
+米・英: /ˈfiːzəbəl/。  
+3音節で、第1音節に主強勢がある。第1音節の母音は長い /iː/、第2・第3音節の母音は弱い /ə/。s は /s/ ではなく /z/ と発音する。語末の /əl/ は、母音を独立して強く発音せず、音節を担う l に近くなることもある。  
 名詞 feasibility /ˌfiːzəˈbɪləti/ では第3音節に主強勢が移り、第1音節に第二強勢がある。feasible の強勢位置のまま読まない。  
 
 ＃語源
@@ -219,7 +220,7 @@ tags: []
 
 【レジスター/領域】一般辞書に載るが、中心的な実行可能性の用法より少ない。「もっともらしい」の意味での使用を好まない用法論もある。意味を明確にしたい文章では plausible、credible などが選びやすい。  
 
-【文法パターン】a feasible explanation/story＝もっともらしい説明・話／an explanation sounds/seems feasible＝説明がもっともらしく聞こえる・思える／a more/less feasible explanation＝よりもっともらしい／もっともらしさの低い説明。内容や説明を主語とし、人の行動能力を表すものではない。  
+【文法パターン】a feasible explanation/story＝もっともらしい説明・話／an explanation sounds/seems feasible＝説明がもっともらしく聞こえる・思える／a more/less feasible explanation＝もっともらしさがより高い・低い説明。内容や説明を主語とし、人の行動能力を表すものではない。  
 
 【コロケーション・構文例】
 

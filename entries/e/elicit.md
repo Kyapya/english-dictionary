@@ -3,16 +3,17 @@ headword: elicit
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: gpt-6-astra xhigh
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-09
 checked: true
 tags: []
 ---
 
 ＃発音記号
 
-米・英: /ɪˈlɪsɪt/。3音節で、第2音節に主強勢がある。第1・第2・第3音節の母音は、この表記ではいずれも /ɪ/。第1音節を /i/、第3音節を /ə/ と表す発音・辞書表記もある。c は /s/ と発音する。  
+米・英: /ɪˈlɪsɪt/。  
+3音節で、第2音節に主強勢がある。第1・第2・第3音節の母音は、この表記ではいずれも /ɪ/。第1音節を /i/、第3音節を /ə/ と表す発音・辞書表記もある。c は /s/ と発音する。  
 elicits /ɪˈlɪsɪts/、elicited /ɪˈlɪsɪtɪd/、eliciting /ɪˈlɪsɪtɪŋ/。elicited の -ed は /ɪd/ で1音節を加える。illicit「違法な、許されない」と同じ発音になることがあるため、音だけでなく綴りと品詞で区別する。  
 
 ＃語源
@@ -37,7 +38,7 @@ elicits /ɪˈlɪsɪts/、elicited /ɪˈlɪsɪtɪd/、eliciting /ɪˈlɪsɪtɪŋ/
 
 【レジスター/領域】やや改まった語。面談・会議・調査・研究・言語教育・要件収集など。日常会話の「聞き出す」は get someone to tell you、find out などでも表せる。  
 
-【文法パターン】elicit 〈情報・意見・回答〉＝それらを引き出す／elicit something from someone（長い目的語では elicit from someone 〈情報を表す名詞句〉 の語順も可能）＝人から何かを引き出す／be elicited from someone by 〈質問・方法〉＝人から質問などによって引き出される。教師向けの指示では elicit that 〈節〉＝〜という内容を学習者から引き出す、という補文も使う。  
+【文法パターン】elicit 〈情報・意見・回答〉＝それらを引き出す／elicit something from someone（長い目的語では elicit from someone 〈情報を表す名詞句〉 の語順も可能）＝人から何かを引き出す／be elicited from someone by 〈質問・方法〉＝人から質問などによって引き出される／elicit that 〈節〉＝〜という内容を学習者から引き出す（教師向けの指示で使う補文）。  
 
 【コロケーション・構文例】
 
@@ -123,7 +124,7 @@ elicits /ɪˈlɪsɪts/、elicited /ɪˈlɪsɪtɪd/、eliciting /ɪˈlɪsɪtɪŋ/
 ・elicit a strong reaction  
 用途: 出来事や表現が強い感情的・社会的反応を呼ぶ。  
 例: The proposed change elicited a strong reaction from employees.  
-訳: 提案された変更は、従業員から強い反応を引き起こした。  
+訳: 提案された変更は、従業員の強い反応を引き起こした。  
 
 ・elicit laughter from someone  
 用途: 意図の有無を問わず、人を笑わせる結果を描く。  
@@ -164,7 +165,7 @@ elicits /ɪˈlɪsɪts/、elicited /ɪˈlɪsɪtɪd/、eliciting /ɪˈlɪsɪtɪŋ/
 頻度: 〈7/10〉  
 違い: 連想や心に浮かぶものに強い。elicit は相手から現れる反応にも焦点があり、面談で具体的な情報を聞き出す語義1では evoke に置き換えにくい。  
 例: The music evoked memories of her childhood.  
-訳: その音楽は彼女に子ども時代の記憶を呼び起こした。  
+訳: その音楽は、彼女の子ども時代の記憶を呼び起こした。  
 
 ・provoke  
 定義: 強い反応・感情・議論などを引き起こす。  

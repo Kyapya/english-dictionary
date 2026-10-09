@@ -3,9 +3,9 @@ headword: complement
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: gpt-6-astra xhigh
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-09
 checked: true
 tags: []
 ---
@@ -32,7 +32,7 @@ tags: []
 
 ・complementation（名詞・不可算）：補完、文法上の補部の取り方、数学などで補を取る操作。分野ごとの専門的な意味があり、通常の「良い組み合わせ」を言うたびにこの名詞を使うわけではない。  
 
-・complementizer / complementiser（名詞・可算）：補文標識。言語学で、一定の従属節を導く that などを指す。-izer は主に米式、-iser は英式で使われる綴り。  
+・complementizer/complementiser（名詞・可算）：補文標識。言語学で、一定の従属節を導く that などを指す。-izer は主に米式、-iser は英式で使われる綴り。  
 
 ＃コアイメージ
 
@@ -112,7 +112,7 @@ tags: []
 例: As a co-leader, Maya complements Ben by turning his broad ideas into practical plans.  
 訳: 共同責任者として、マヤはベンの大まかな発想を具体的な計画に変えることで、彼の持ち味を補っている。  
 
-【語法・注意】「彼女の能力は私の能力を補う」は Her skills complement mine. とし、Her skills complement to mine. とはしない。一方、名詞なら Her skills are a complement to mine. となるので、to の有無は品詞で区別する（語義2）。complement each other の each other は相互関係を示し、再帰形 complement themselves に置き換えない。「彼をほめる」は compliment him、「仕事ぶりをほめる」は compliment him on his work。「彼の持ち味を補う」は complement him で、ほめ言葉を言ったという意味にはならない。complement と supplement はどちらも補うことを表せるが、前者は組み合わせや相補性、後者は追加・不足分の補充を前に出す。The handbook complements the training. は両者が役立ち合うという説明で、The handbook completes the training. なら研修を完成させるという別の主張になる。with の前後も区別し、We complemented the course with workshops. では workshops が追加要素、Workshops complemented the course. では同じ workshops が主語。be complemented by と be complemented with は受動構文であり、「補完された」を表す complemented を別の評価的な形容詞義と考える必要はない。限定用法の a well-complemented collection は文脈に応じた分詞表現で、通常の形容詞「相補的な」は complementary。complementing は通常の -ing 形で、句動詞を作る小辞はない。色彩用語の名詞「補色」は語義5、コンピューターの動詞「ビットを反転する」は語義10で、この一般義と区別する。  
+【語法・注意】「彼女の能力は私の能力を補う」は Her skills complement mine. とし、Her skills complement to mine. とはしない。一方、名詞なら Her skills are a complement to mine. となるので、to の有無は品詞で区別する（語義2）。complement each other の each other は相互関係を示し、再帰形 complement themselves に置き換えない。「彼をほめる」は compliment him、「仕事ぶりをほめる」は compliment him on his work。「彼の持ち味を補う」は complement him で、ほめ言葉を言ったという意味にはならない。complement と supplement はどちらも補うことを表せるが、前者は組み合わせや相補性、後者は追加・不足分の補充を前に出す。The handbook complements the training. は手引きが研修を補って役立つという説明で、The handbook completes the training. なら研修を完成させるという別の主張になる。with の前後も区別し、We complemented the course with workshops. では workshops が追加要素、Workshops complemented the course. では同じ workshops が主語。be complemented by と be complemented with は受動構文であり、「補完された」を表す complemented を別の評価的な形容詞義と考える必要はない。限定用法の a well-complemented collection は文脈に応じた分詞表現で、通常の形容詞「相補的な」は complementary。complementing は通常の -ing 形で、句動詞を作る小辞はない。色彩用語の名詞「補色」は語義5、コンピューターの動詞「ビットを反転する」は語義10で、この一般義と区別する。  
 
 【類義語】
 
@@ -152,7 +152,7 @@ tags: []
 
 【レジスター/領域】標準的だが、説明文・商品紹介・提案書などで特に使う。経済分野で組み合わせて利用される財を complements「補完財」と呼ぶ用法もある。  
 
-【文法パターン】a complement to 〈人・物・活動〉＝それを補うもの／a perfect / useful / natural complement to something＝組み合わせの評価を加える／as a complement to something＝補完するものとして／a complement to each other＝互いを補うもの／complements＝複数の補完要素、経済では補完財。  
+【文法パターン】a complement to 〈人・物・活動〉＝それを補うもの／a perfect / useful / natural complement to something＝組み合わせの評価を加える／as a complement to something＝補完するものとして／complements to each other＝互いを補うもの／complements＝複数の補完要素、経済では補完財。  
 
 【コロケーション・構文例】
 
@@ -164,16 +164,16 @@ tags: []
 ・a perfect complement to 〈物・料理〉  
 用途: ある物が別の物をよく引き立てると紹介する。  
 例: The crisp salad was a perfect complement to the creamy pasta.  
-訳: シャキシャキしたサラダは、クリーミーなパスタを引き立てる絶好の組み合わせだった。  
+訳: シャキシャキしたサラダは、クリーミーなパスタを引き立てる絶好の付け合わせだった。  
 
 ・as a complement to 〈活動〉  
 用途: 主要な活動に加えて行うものの位置付けを示す。  
 例: We offer practice sessions as a complement to the lectures.  
 訳: 私たちは講義を補完するものとして、演習を用意している。  
 
-・a complement to each other  
+・complements to each other  
 用途: 2人などが、互いに足りない持ち味を補う関係を述べる。  
-例: The two project leaders are a complement to each other, combining technical depth with clear communication.  
+例: The two project leaders are complements to each other, combining technical depth with clear communication.  
 訳: その2人のプロジェクト責任者は、深い技術知識とわかりやすい意思伝達を組み合わせ、互いを補う関係にある。  
 
 【語法・注意】通常は可算で、単数なら a complement や the complement のように限定する。This tool is complement to our system. は This tool is a complement to our system. とする。a complement to the meal の to は「何を引き立てるか」を示す。語義3の a full complement of staff の of は「一式を構成するのは何か」を示すため、前置詞だけを取り替えない。動詞 This sauce complements the meal. と名詞 This sauce is a complement to the meal. は同じ関係を違う構造で表している。a compliment は「ほめ言葉」であり、I took it as a compliment.「ほめ言葉だと受け取った」では i を使う。経済で complements と substitutes「代替財」を対比するのは利用・需要上の関係であり、一般の補完要素すべてに substitute が反意語となるわけではない。  
