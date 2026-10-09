@@ -338,7 +338,7 @@ model: gpt-6-astra xhigh
 例: The model treats balking and reneging as separate forms of customer loss.  
 訳: そのモデルでは、列への参加断念と参加後の途中離脱を、別々の顧客流出として扱っている。  
 
-【語法・注意】Customers are balking. は自動詞 balk の進行形で、この分野なら「客が列への参加を見送っている」。Balking reduces the number of customers who join the queue.「参加断念によって、列に加わる客の数が減る」では balking が主語になる名詞。対照語 reneging は「列に加わった後、サービスを受ける前に待つのをやめること」であり、同義語でも単純な反意語でもない。The customer balked without joining the queue.「その客は列に加わらずに断念した」と The customer reneged after waiting for ten minutes.「その客は10分待ってから列を離れた」を区別する。「加わる前か後か」は対象となる列について判断し、複数の窓口を順に利用する場合に、以前の別の列で待った経験まで否定するものではない。列の人数の上限や確率の計算方法はモデルによって異なり、balking という語だけでは決まらない。  
+【語法・注意】Customers are balking. は自動詞 balk の進行形で、この分野なら「客が列への参加を見送っている」。Balking reduces the number of customers who join the queue.「参加断念によって、列に加わる客の数が減る」では balking が主語になる名詞。対照語 reneging は、典型的には「列に加わった後、サービスを受ける前に待つのをやめること」であり、balking の同義語でも単純な反意語でもない。ただし、研究モデルによってはサービス中の離脱も含むため、適用範囲はモデルの定義を確認する。The customer balked without joining the queue.「その客は列に加わらずに断念した」と The customer reneged after waiting for ten minutes.「その客は10分待ってから列を離れた」を区別する。「加わる前か後か」は対象となる列について判断し、複数の窓口を順に利用する場合に、以前の別の列で待った経験まで否定するものではない。列の人数の上限や確率の計算方法はモデルによって異なり、balking という語だけでは決まらない。  
 
 8. 【名詞・主に不可算】baulk：玉突き台のボーク区域
 
