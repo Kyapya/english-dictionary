@@ -1,0 +1,265 @@
+---
+headword: incite
+type: word
+status: checked
+prompt_version: entry_spec_v5
+created_at: 2026-10-09
+updated_at: 2026-10-09
+checked: true
+model: gpt-6-astra xhigh
+---
+
+＃発音記号
+
+米・英: /ɪnˈsaɪt/  
+2音節で、第2音節 /saɪt/ に強勢がある。insight「洞察」/ˈɪnsaɪt/ とは強勢の位置が違う。  
+三人称単数は incites /ɪnˈsaɪts/、過去形・過去分詞は incited /ɪnˈsaɪtɪd/、-ing 形（現在分詞・動名詞）は inciting /ɪnˈsaɪtɪŋ/。incited の -ed は /ɪd/ と発音して1音節増え、inciting では語末の e を落とす。  
+
+＃語源
+
+フランス語 inciter を経て、ラテン語 incitare「駆り立てる」に由来する。in-「～へ」＋ citare「動かす、奮い立たせる」という形成で、「動きへと駆り立てる」という意味核がある。  
+同じ citare にさかのぼる語に cite「引用する、召喚する」と excite「興奮させる、刺激する」がある。語源を共有しても、現代の incite は特に行動をあおること、または行動・反応を生じさせることを表す。  
+
+＃語形成
+
+・incitement：名詞。「扇動、行動をあおること」。不可算・可算の両方があり、incitement to violence「暴力の扇動」、an incitement to hatred「憎悪をあおるもの」のように使う。発音は /ɪnˈsaɪtmənt/。  
+・inciter：可算名詞。「扇動する人」。incite より使用範囲の狭い語で、an inciter of violence「暴力をあおる者」など。  
+・incited / inciting：incited は過去形・過去分詞、inciting は -ing 形。過去分詞は完了形・受動・名詞修飾に、-ing 形は進行形・動名詞・名詞修飾に使われる。inciting incident は物語論で定着した名詞句として語義3に示す。  
+
+＃コアイメージ
+
+何かが動き出す方向へ刺激を与えること。行動する人を駆り立てる場合と、行動・反応そのものを生じさせる場合があり、物語の用語ではその働きをする出来事を指す。  
+
+・人に動き出す刺激を与える働き → 「人をあおって行動へ駆り立てる」（語義1）  
+・行動・反応に動き出す刺激を与える働き → 「行動・感情・反応を引き起こす」（語義2）  
+・物語に動き出す刺激を与える出来事 → 「物語を動かす契機」（語義3）  
+
+＃意味・用法・関連表現
+
+1. 【動詞・他動詞】人をあおって行動へ駆り立てる
+
+【日本語訳・定義】人や集団を刺激し、ある行動に向かわせる。怒りや興奮をあおって暴力・違法行為・対立へ駆り立てる文脈が典型的で、通常は批判的な響きがある。ただし、語そのものが常に悪意・違法性を含むわけではなく、硬い文章では努力などへの動機づけにも使える。主語は扇動する人のほか、発言・出来事・感情などにもなる。行動を促す働きに焦点があり、incite someone to do something と言うだけで、その人が実際に行動したとまでは確定しない。  
+
+【頻度】〈5/10〉  
+
+【レジスター/領域】やや硬い語。報道、政治・社会問題、暴力や対立の記述で使われる。肯定的・中立的な行動への使用は少なく、日常の励ましでは encourage や spur の方が一般的。  
+
+【文法パターン】incite someone＝人をあおる。行動内容は文脈から分かれば省ける／incite someone to 〈行動・状態を表す名詞〉＝人をその行動・状態へ駆り立てる／incite someone to do something＝人にある行動をするよう働きかける／be incited to 〈行動・状態を表す名詞〉／be incited to do something＝前2型の受動。原因・行為者は by someone/something で補える。to は名詞の前では前置詞、動詞の原形の前では不定詞の一部。  
+
+【コロケーション・構文例】
+
+・incite the crowd  
+用途: あおられる集団を目的語にし、具体的な行動は文脈に任せる。  
+例: The speakers tried to incite the crowd, but nobody moved.  
+訳: 演説者たちは群衆をあおろうとしたが、誰も動かなかった。  
+
+・incite someone to violence  
+用途: 行動する人を目的語にし、向かわせる行動を to の後に示す。  
+例: The posts incited his followers to violence.  
+訳: その投稿は彼の支持者たちを暴力へと駆り立てた。  
+
+・incite someone to do something  
+用途: 何をするようあおるのかを、to 不定詞で具体的に述べる。  
+例: The leader incited the crowd to attack the building.  
+訳: その指導者は群衆をあおり、建物を襲うよう仕向けた。  
+
+・be incited to violence  
+用途: あおられた側を主語にして述べる。  
+例: The crowd was incited to violence by a series of false reports.  
+訳: 群衆は一連の虚偽報道によって暴力へと駆り立てられた。  
+
+・be incited to do something  
+用途: 受動態でも、人が行う動作を to 不定詞で示す。  
+例: Several supporters were incited to threaten the referee online.  
+訳: 支持者の何人かは、オンラインで審判を脅すようあおられた。  
+
+・incite someone to greater effort  
+用途: 硬い文体で、より一層の努力への刺激を述べる。通常の否定的な用法より少ない。  
+例: The rivalry incited both researchers to greater effort.  
+訳: その競争意識は、両研究者をさらに努力するよう奮い立たせた。  
+
+【語法・注意】incite people to violence は people が行動者、violence が向かわせる行動。語義2の incite violence は violence 自体が目的語で、「暴力を引き起こす」に当たる。The speech incited the listeners to violence.「演説が聴衆を暴力へ駆り立てた」と The speech incited violence.「演説が暴力をあおった」は、焦点を置く対象が違う。  
+
+・誤: The message incited them attack the station.／正: The message incited them to attack the station. 人に行動を促す型では to 不定詞を使う。incite them attacking もこの型の代わりにはしない。  
+・to violence の to と同じつもりで、to attacking を自由に使わない。具体的動作を続ける基本形は incite someone to attack。代名詞も直接目的語なので incite them to violence と置く。  
+・incite は通常の他動詞で、incite to を分離可能な句動詞として扱わない。自分を奮い立たせることなら spur oneself on などが自然で、incite oneself に独立した日常的再帰慣用があるわけではない。  
+・be incited は受動を表す。the crowd incited by the speech のような後置修飾も可能だが、単に「興奮している」状態なら excited が適切。excite someone は興奮・関心を生じさせることで、特定行動への扇動とは一致しない。  
+・報道で incite / incitement が使われていても、その語だけで特定の犯罪の成立要件まで述べたことにはならない。ここでの説明は語彙上の意味であり、法的判断の基準ではない。  
+
+【類義語】
+
+・encourage  
+定義: 人がある行動をするよう励ます、促す。  
+頻度: 〈9/10〉  
+違い: 肯定的・中立的な促しにも広く使う。incite は強くあおる響きがあり、望ましくない行動の文脈が多い。  
+例: Her teacher encouraged her to apply for the scholarship.  
+訳: 先生は彼女に、その奨学金へ応募するよう勧めた。  
+
+・urge  
+定義: 人にある行動をするよう強く勧める。  
+頻度: 〈8/10〉  
+違い: 強い要請や勧告に焦点があり、怒りや興奮をあおることまでは含まない。  
+例: Officials urged residents to leave the area.  
+訳: 当局は住民に、その地域から退去するよう強く呼びかけた。  
+
+・goad  
+定義: しつこく刺激したり挑発したりして、人を行動へ追い立てる。  
+頻度: 〈4/10〉  
+違い: incite より、相手をいら立たせる圧力や挑発が前面に出やすい。goad someone into doing something の型が特徴的。  
+例: They goaded him into making an angry reply.  
+訳: 彼らはしつこく挑発して、彼に怒りに任せた返答をさせた。  
+
+・spur  
+定義: 人を刺激し、行動や努力を促す。  
+頻度: 〈6/10〉  
+違い: 向上や達成を後押しする文脈にも自然で、incite に多い扇動への批判的な評価を伴わない。  
+例: The early success spurred the team to work harder.  
+訳: 序盤の成功が、チームをさらに努力するよう奮い立たせた。  
+
+【反意語】
+
+・dissuade  
+定義: 説得によって、人がある行動をしないようにする。  
+頻度: 〈5/10〉  
+違い: 行動へ向かわせる incite に対し、行動から思いとどまらせる方向の対立。dissuade someone from doing something を使い、完全な補完関係ではない。  
+例: Her friends dissuaded her from confronting him alone.  
+訳: 友人たちは彼女を説得し、一人で彼に詰め寄るのを思いとどまらせた。  
+
+・deter  
+定義: 不利益や危険などによって、人に行動をためらわせる、断念させる。  
+頻度: 〈6/10〉  
+違い: 行動を促進する incite と行動を抑止する deter の方向が反対。説得ではなく、予想される結果が抑止力になることも多い。  
+例: The risk of injury deterred him from attempting the jump.  
+訳: けがをする危険があったため、彼はそのジャンプを試みるのをやめた。  
+
+2. 【動詞・他動詞】行動・感情・反応を引き起こす
+
+【日本語訳・定義】行動・感情・反応そのものを目的語にして、それを生じさせる、かき立てる。特に暴動・暴力・憎悪などの望ましくない集団的行動や感情によく使う。主語は人のほか、発言・報道・措置・出来事などにもなる。専門的な文章では生理的反応の誘発にも使われ、その場合は人の意思や道徳的な評価を表さない。  
+
+【頻度】〈5/10〉  
+
+【レジスター/領域】主に報道・社会問題を扱う硬い文章。生理的反応を目的語にする用法は医学・生物学に限られる低頻度の応用。  
+
+【文法パターン】incite 〈行動・感情・反応を表す名詞句〉＝その行動・感情・反応を引き起こす／be incited by someone/something＝その行動・感情・反応が何かによって引き起こされる。直接目的語の前に to や of を置かない。inciting 〈行動・感情を表す名詞句〉 は動詞の -ing 形に直接目的語を続けた形で、進行形や動名詞句に使う。  
+
+【コロケーション・構文例】
+
+・incite violence  
+用途: 暴力行為そのものの発生をあおる。  
+例: The mayor accused the group of inciting violence.  
+訳: 市長は、その団体が暴力をあおっていると非難した。  
+
+・incite a riot  
+用途: 可算名詞 riot を目的語にして、暴動を引き起こすことを述べる。  
+例: The false announcement could incite a riot.  
+訳: その虚偽の発表は暴動を引き起こしかねない。  
+
+・incite racial hatred  
+用途: 人種をめぐる憎悪をかき立てる行為を述べる。  
+例: The leaflet was written to incite racial hatred.  
+訳: そのビラは人種的な憎悪をあおるために書かれた。  
+
+・incite fear  
+用途: 出来事や情報が恐怖を生じさせることを述べる。  
+例: The fabricated report incited fear throughout the town.  
+訳: そのでっち上げの報道は、町全体に恐怖を広げた。  
+
+・be incited by something  
+用途: 引き起こされた行動を主語にし、原因を by の後に置く。  
+例: The unrest was incited by rumours of food shortages.  
+訳: その騒乱は食糧不足のうわさによって引き起こされた。  
+
+・incite an inflammatory response  
+用途: 医学・生物学の文章で、炎症反応を誘発することを述べる。  
+例: These particles can incite an inflammatory response in the surrounding tissue.  
+訳: これらの粒子は、周囲の組織に炎症反応を引き起こすことがある。  
+
+【語法・注意】語義1の incite someone to do something と異なり、この型の目的語は、あおられる人ではなく引き起こされる出来事・反応。incite a crowd「群衆をあおる」と incite a riot「暴動を引き起こす」を区別する。  
+
+・誤: The speech incited of violence.／正: The speech incited violence. ただし accused of inciting violence「暴力をあおったと非難された」の of は accuse の構文に属し、incite が要求するものではない。  
+・violence、hatred は通常ここでは不可算、riot は可算なので incite violence に対して incite a riot / incite riots となる。  
+・inciting violence は動詞 incite の -ing 形に直接目的語 violence を続けた形。accused of inciting violence では動名詞句として前置詞 of の補部になり、is inciting violence では進行形の現在分詞になる。派生名詞 incitement を使う場合は incitement to violence とする。a riot incited by false rumours では incited が過去分詞として riot を修飾する。incited 自体にハイフンは要らない。  
+・人を説得する意図のない出来事が原因にもなるため、incite の主語を意図的に扇動する人物だけに限定しない。医学的な incite an inflammatory response も「扇動」と訳さず、「誘発する、引き起こす」とする。  
+・instigate は行動の開始への働きかけ、abet は悪事などへの援助・助長にも及ぶ。incite と意味が重なる場面はあっても、開始・援助・扇動をいつでも同じこととして扱わない。  
+
+【類義語】
+
+・provoke  
+定義: 感情、反応、行動などを引き起こす。  
+頻度: 〈7/10〉  
+違い: incite より反応全般に広く、意図しない反発や議論にも使う。provoke anger は怒りを生じさせることで、必ずしも行動をあおらない。  
+例: The proposal provoked strong opposition.  
+訳: その提案は強い反対を招いた。  
+
+・foment  
+定義: 不満、反乱、対立などをかき立てる。  
+頻度: 〈4/10〉  
+違い: 否定的な感情や社会的混乱を育て、持続的にあおる響きが強い。生理反応などに広く使う incite の全範囲とは重ならない。  
+例: The broadcasts fomented resentment against the government.  
+訳: その放送は政府に対する反感をかき立てた。  
+
+・stir up  
+定義: 感情や争いをかき立てる。  
+頻度: 〈7/10〉  
+違い: incite より口語的で、stir up trouble のような日常的なもめ事にも使う。  
+例: His comments stirred up an old dispute.  
+訳: 彼の発言は、昔の争いを蒸し返した。  
+
+・trigger  
+定義: ある反応や出来事が始まるきっかけになる。  
+頻度: 〈8/10〉  
+違い: 発生のきっかけに焦点を置き、あおる意図や強い刺激を含意しない。生理反応にも使える。  
+例: The chemical triggered a reaction in the sample.  
+訳: その化学物質は試料内で反応を引き起こした。  
+
+【反意語】
+
+・inhibit  
+定義: 行動や反応の発生・進行を抑える。  
+頻度: 〈6/10〉  
+違い: 行動・反応を生じさせる incite に対して、その発生や進行を抑制する方向の反対。特に反応を目的語にする文脈で明確な対照となり、すべての扇動文脈の置換語ではない。  
+例: The treatment inhibited the inflammatory response.  
+訳: その処置は炎症反応を抑えた。  
+
+3. 【名詞句・可算】物語を動かす契機
+
+【日本語訳・定義】inciting incident で、物語の中心的な行動や葛藤を動き出させる出来事。主人公の日常を変えたり、目標に向かう理由を作ったりする契機を指す。inciting は「動きを引き起こす」という分詞修飾、中心の名詞は incident。暴力的な事件である必要はない。  
+
+【頻度】〈3/10〉  
+
+【レジスター/領域】脚本・小説の創作、物語構成の分析で使う用語。incite 単独の名詞用法ではない。  
+
+【文法パターン】an inciting incident＝物語を動かす一つの契機／the inciting incident＝その物語で特定される契機／the inciting incident in a story＝ある物語内の契機／inciting incidents＝複数の契機。文中では名詞句全体が主語・目的語・補語になり、複数形は incidents にする。  
+
+【コロケーション・構文例】
+
+・the inciting incident in a story（incite の分詞形を含む名詞句）  
+用途: 分析対象の物語を示し、中心的な行動の出発点を特定する。  
+例: The inciting incident in the story is the arrival of an unexpected letter.  
+訳: その物語を動かす契機は、思いがけない手紙が届くことだ。  
+
+・an inciting incident（incite の分詞形を含む名詞句）  
+用途: 脚本にどのような契機を置くかを論じる。  
+例: The script needs an inciting incident that gives the heroine a reason to leave home.  
+訳: その脚本には、主人公の女性が家を出る理由となる契機が必要だ。  
+
+【語法・注意】inciting incident は定着した2語の組み合わせで、通常ハイフンを付けない。誤: an incite incident／正: an inciting incident。inciting を過去分詞 incited に替えると、同じ物語論の用語にはならない。  
+
+・The inciting incident changes her plans. では名詞句が主語。一方、The speech is inciting violence. では is inciting が動詞の進行形であり、構造が違う。inciting だけを「物語の契機」という名詞として使わない。  
+・単に目を引く場面や、後半の山場をすべてこう呼ぶわけではない。中心的な展開を始動させる役割が重要。常に冒頭の第1文・第1場面に置かれるという意味も含まない。  
+
+【類義語】
+
+・catalyst  
+定義: 変化や行動を引き起こすきっかけとなる人・出来事。  
+頻度: 〈6/10〉  
+違い: ここでは比喩的な名詞用法。inciting incident が物語上の出来事を特定するのに対し、catalyst は現実の変化にも使い、人も指せる。  
+例: Her disappearance becomes the catalyst for his journey.  
+訳: 彼女の失踪が、彼の旅のきっかけになる。  
+
+・trigger  
+定義: 出来事や反応が始まる直接のきっかけ。  
+頻度: 〈7/10〉  
+違い: 名詞用法で、物語構成上の特定の役割までは指定しない。inciting incident は物語の中心的な展開を始める出来事として使う。  
+例: The discovery is the trigger for the investigation.  
+訳: その発見が捜査のきっかけになる。  
