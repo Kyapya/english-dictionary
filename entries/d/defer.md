@@ -3,9 +3,9 @@ headword: defer
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: gpt-6-astra xhigh
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-09
 checked: true
 tags: []
 ---
@@ -312,7 +312,7 @@ tags: []
 ・be deferred from military service  
 用途: 兵役が猶予された人物について述べる。  
 例: The historical record states that he was deferred from military service while completing his studies.  
-訳: その歴史資料には、彼が学業を終える間、兵役を猶予されていたと記されている。  
+訳: その歴史資料には、彼が学業を修了するまでの間、兵役を猶予されていたと記されている。  
 
 【語法・注意】人目的語の意味は領域で異なる。入試では語義4の合否保留、ここでは徴兵の猶予であり、一般的な人への依頼や判断の尊重へ広げない。defer him はこの制度的文脈では「彼の徴兵を猶予する」、defer to him は語義2の「彼の判断に従う」。具体的な猶予要件は国・時代・制度で異なる。歴史的な例文から、現在の米国で学生が一律に徴兵猶予を受けているとは推測しない。登録、入隊、徴兵猶予、兵役免除は別の事柄である。  
 

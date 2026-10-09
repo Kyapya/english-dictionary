@@ -3,9 +3,9 @@ headword: waive
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: gpt-6-astra xhigh
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-09
 checked: true
 tags: []
 ---
@@ -24,11 +24,11 @@ tags: []
 ・waivers はスポーツで、他チームが選手の契約上の権利を取得できるようにする制度・手続きを指す。place a player on waivers「選手をウェーバーにかける」、claim a player off waivers「ウェーバーで選手を獲得する」、clear waivers「他チームから獲得申請がないままウェーバー期間を終える」。  
 ・waivable は形容詞で「放棄可能な、免除可能な」。non-waivable / nonwaivable は「放棄・免除できない」。主に契約・規則の文章で使う。  
 ・waived は過去分詞で、a waived fee「免除された料金」のように名詞を修飾できる。通常は元の動詞の結果を示し、独立した感情・評価を表す形容詞ではない。  
-・waver「揺らぐ、迷う」は waiver と同音になるが、waive の派生動詞ではない。a waiver は名詞、They wavered. の waver は動詞。  
+・waver は「揺らぐ、迷う」を意味し、waiver と同音になるが、waive の派生動詞ではない。a waiver は名詞、They wavered. の waver は動詞。  
 
 ＃コアイメージ
 
-本来持っている権利や要求に固執せず、その行使を引っ込める。何を要求できる側なのかを主語と目的語で確認すると、「免除する」と「放棄する」を取り違えにくい。スポーツでは、選手を独占的に保有し続けるのではなく、他チームが契約上の権利を取得できるよう手続きを開く形で現れる。  
+本来持っている権利や要求に固執せず、その行使を引っ込める。スポーツでは、選手を独占的に保有し続けるのではなく、他チームが契約上の権利を取得できるよう手続きを開く形で現れる。  
 
 ・料金・条件を要求する権利の不行使 → 「料金・条件などを免除する、適用を見送る」（語義1）  
 
@@ -80,7 +80,7 @@ tags: []
 例: I contacted customer support and had the duplicate processing fee waived.  
 訳: カスタマーサポートに連絡し、重複して請求された処理手数料を免除してもらった。  
 
-【語法・注意】The bank waived the fee. の主語は請求する銀行。顧客が「自分の手数料を払わない」だけでは、普通 I waived the fee. と言わず、The fee was waived. / I had the fee waived. とする。「私の手数料を免除する」は waive my fee / waive the fee for me で、× waive me the fee は通常の形ではない。waive a fee は請求しないこと、refund a fee は支払済みの料金を返すこと、defer payment は支払時期を後へ延ばすこと。全額か一部か、今回だけか継続的かは、waive the fee in full / waive part of the fee / waive the fee this time のように明示する。「規則を免除する」は適用権限のある側が例外を認める意味で、利用者が単に規則に違反することではない。  
+【語法・注意】何を要求できる側なのかを主語と目的語で確認すると、「免除する」と「放棄する」を取り違えにくい。The bank waived the fee. の主語は請求する銀行。顧客が「自分の手数料を払わない」だけでは、普通 I waived the fee. と言わず、The fee was waived. / I had the fee waived. とする。「私の手数料を免除する」は waive my fee / waive the fee for me で、× waive me the fee は通常の形ではない。waive a fee は請求しないこと、refund a fee は支払済みの料金を返すこと、defer payment は支払時期を後へ延ばすこと。全額か一部か、今回だけか継続的かは、waive the fee in full / waive part of the fee / waive the fee this time のように明示する。「規則を免除する」は適用権限のある側が例外を認める意味で、利用者が単に規則に違反することではない。  
 
 【類義語】
 

@@ -3,16 +3,17 @@ headword: corroborate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: gpt-6-astra xhigh
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-09
 checked: true
 tags: []
 ---
 
 ＃発音記号
 
-米: /kəˈrɑː.bə.reɪt/｜英: /kəˈrɒb.ə.reɪt/。どちらも4音節で、第2音節に主強勢がある。ここに示した母音の米英差は第2音節の /ɑː/ と /ɒ/。第2・第3音節の境界は、この表記では米 /rɑː.bə/、英 /rɒb.ə/ と示しているが、子音 /b/ が増減するわけではない。第1音節の母音は /ə/、第4音節は /reɪt/。corroborated は /ɪd/、corroborating は /ɪŋ/ が加わって5音節になる。  
+米: /kəˈrɑː.bə.reɪt/｜英: /kəˈrɒb.ə.reɪt/。  
+どちらも4音節で、第2音節に主強勢がある。ここに示した母音の米英差は第2音節の /ɑː/ と /ɒ/。第2・第3音節の境界は、この表記では米 /rɑː.bə/、英 /rɒb.ə/ と示しているが、子音 /b/ が増減するわけではない。第1音節の母音は /ə/、第4音節は /reɪt/。corroborated は /ɪd/、corroborating は /ɪŋ/ が加わって5音節になる。  
 
 ＃語源
 

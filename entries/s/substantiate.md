@@ -3,9 +3,9 @@ headword: substantiate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: gpt-6-astra xhigh
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-09
 checked: true
 tags: []
 ---
@@ -41,7 +41,7 @@ substance「物質、実質」、substantial「相当な、実質的な」、sub
 【コロケーション・構文例】
 
 ・substantiate a claim  
-用途: 主張を支える根拠があることを述べる。  
+用途: 主張を裏付ける根拠の有無や十分さを述べる。  
 例: The manufacturer has not provided enough test data to substantiate its claim.  
 訳: 製造業者は、自社の主張を裏付けるのに十分な試験データを示していない。  
 
