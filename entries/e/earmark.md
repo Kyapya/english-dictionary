@@ -264,12 +264,12 @@ The warehouse is earmarked to be sold. の倉庫は「売られる」側なの�
 
 ・an earmark of 〈金額〉  
 用途: 特定事業への指定額を of で示す。  
-例: The congressional spending bill includes an earmark of $2 million for the local research center.  
+例: The congressional spending bill includes an earmark of 2 million dollars for the local research center.  
 訳: 連邦議会の歳出法案には、地元の研究施設向けに200万ドルを指定する予算項目が含まれている。  
 
 ・a 〈金額〉 earmark  
 用途: 金額を名詞 earmark の前に置く。  
-例: The representative secured a $500,000 earmark for repairs to the town's bridge.  
+例: The representative secured a 500,000-dollar earmark for repairs to the town's bridge.  
 訳: 下院議員は町の橋の修繕向けに、使途を指定した50万ドルの予算枠を確保した。  
 
 ・a ban on congressional earmarks  
