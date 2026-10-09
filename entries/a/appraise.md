@@ -3,16 +3,17 @@ headword: appraise
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: gpt-6-astra xhigh
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-09
 checked: true
 tags: []
 ---
 
 ＃発音記号
 
-米・英: /əˈpreɪz/。2音節で、第2音節に主強勢がある。第1音節の母音は弱い /ə/、第2音節の母音は二重母音 /eɪ/。語末は無声音 /s/ ではなく有声音 /z/ である。  
+米・英: /əˈpreɪz/。  
+2音節で、第2音節に主強勢がある。第1音節の母音は弱い /ə/、第2音節の母音は二重母音 /eɪ/。語末は無声音 /s/ ではなく有声音 /z/ である。  
 appraises /əˈpreɪzɪz/、appraised /əˈpreɪzd/、appraising /əˈpreɪzɪŋ/。appraised の -ed は /d/ で、音節を増やさない。apprise「知らせる」/əˈpraɪz/ とは、第2音節の母音 /eɪ/ と /aɪ/ が異なる。  
 
 ＃語源
@@ -71,7 +72,7 @@ appraises /əˈpreɪzɪz/、appraised /əˈpreɪzd/、appraising /əˈpreɪzɪŋ
 ・appraise someone  
 用途: 観察によって人の力量や様子を見定める。  
 例: The coach silently appraised the new player as she warmed up.  
-訳: コーチは、新しい選手が準備運動をする様子を黙って見定めた。  
+訳: コーチは、準備運動中の新しい選手を黙って見定めた。  
 
 ・appraise oneself objectively  
 用途: 自分の長所や限界について客観的に判断する。  

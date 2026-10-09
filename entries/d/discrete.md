@@ -3,9 +3,9 @@ headword: discrete
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: gpt-6-astra xhigh
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-09
 checked: true
 tags: []
 ---
@@ -26,9 +26,9 @@ tags: []
 
 ・discreteness（名詞・通常不可算）：別個であること、離散性。discreetness「慎重さ、控えめであること」とは異なる。  
 
-・discretize / discretise（他動詞）：数学・数値計算で、連続的な対象を離散的な形にする、離散化する。-ize は米国式で一般的、-ise は英国式で使われる形で、英国でも -ize を使う。  
+・discretize/discretise（他動詞）：数学・数値計算で、連続的な対象を離散的な形にする、離散化する。-ize は米国式で一般的、-ise は英国式で使われる形で、英国でも -ize を使う。  
 
-・discretization / discretisation（名詞）：離散化。連続的な時間や空間を計算用の点・区間などで表す操作に使う。  
+・discretization/discretisation（名詞）：離散化。連続的な時間や空間を計算用の点・区間などで表す操作に使う。  
 
 ＃意味・用法・関連表現
 
@@ -40,7 +40,7 @@ tags: []
 
 【レジスター/領域】改まった説明、業務設計、研究、分類、技術文書で使う。日常的な「別々の」には separate がより広く使われる。電子機器の discrete components「個別部品」、discrete GPU「独立型GPU」も、別体としてのまとまりに注目する用法。  
 
-【文法パターン】discrete 〈stages/tasks/units/categories〉＝別個に区別される段階・作業・単位・分類／a discrete 〈entity/event〉＝一つの独立したまとまり・個別の出来事／divide something into discrete 〈parts/stages〉＝別個の部分・段階に分ける／treat something as a discrete 〈unit/entity〉＝別単位として扱う／〈複数の部分・段階など〉 + be/remain + discrete＝別個である・あり続ける／〈対象〉 + be + discrete from 〈別の対象〉＝別の対象と区別されている／discrete components＝個別部品／a discrete GPU＝独立型GPU。限定・叙述の両方で使う。通常は程度を付けないが、分離の程度を比べる文脈では relatively/more discrete もあり得る。  
+【文法パターン】discrete 〈stages/tasks/units/categories〉＝別個に区別される段階・作業・単位・分類／a discrete 〈entity/event〉＝一つの独立したまとまり・個別の出来事／divide something into discrete 〈parts/stages〉＝別個の部分・段階に分ける／treat something as a discrete 〈unit/entity〉＝別単位として扱う／〈複数の部分・段階など〉 + be/remain + discrete＝別個である・あり続ける／〈対象〉 + be + discrete from 〈別の対象〉＝別の対象と区別されている／discrete components＝個別部品／a discrete GPU＝独立型GPU。形容詞 discrete は限定・叙述の両方で使う。通常は程度を付けないが、分離の程度を比べる文脈では relatively/more discrete もあり得る。  
 
 【コロケーション・構文例】
 
@@ -93,7 +93,7 @@ tags: []
 頻度: 〈9/10〉  
 違い: 日常語として広く使い、位置・管理・所有などの分離を表す。discrete は、個々のまとまりとして区別される点を改まって述べやすい。  
 例: Each department keeps separate records.  
-訳: 各部門は別々に記録を保管している。  
+訳: 各部門は、それぞれ別の記録を保管している。  
 
 ・distinct  
 定義: 他と明確に区別できる、異なる。  
@@ -126,7 +126,7 @@ tags: []
 
 【レジスター/領域】数学、統計、データ分析、数値計算、信号処理の専門語。語義1の「別個に区別できる」を専門的に具体化したものだが、分野に応じた定義を持つ。  
 
-【文法パターン】a discrete variable＝離散変数／a discrete random variable＝離散確率変数／a discrete distribution＝離散分布／discrete values＝個別の候補値／〈変数・量など〉 + be + discrete＝離散的である／at discrete time points＝離散的な時点で／a discrete-time signal＝離散時間信号／discrete mathematics＝離散数学。限定・叙述の両方で使い、専門的な分類として述べる場合は通常 very/more で程度を付けない。  
+【文法パターン】a discrete variable＝離散変数／a discrete random variable＝離散確率変数／a discrete distribution＝離散分布／discrete values＝個別の候補値／〈変数・量など〉 + be + discrete＝離散的である／at discrete time points＝離散的な時点で／a discrete-time signal＝離散時間信号／discrete mathematics＝離散数学。形容詞 discrete は限定・叙述の両方で使い、専門的な分類として述べる場合は通常 very/more で程度を付けない。  
 
 【コロケーション・構文例】
 

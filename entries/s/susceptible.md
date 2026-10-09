@@ -3,9 +3,9 @@ headword: susceptible
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: gpt-6-astra xhigh
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-09
 checked: true
 tags: []
 ---
@@ -87,7 +87,7 @@ tags: []
 訳: その研究では、影響を受けやすい人々の反応を対照群の反応と比較した。  
 
 ・be less susceptible to something  
-用途: 比較して影響が小さいことを述べ、完全な耐性とは区別する。  
+用途: 比較して影響を受けにくいことを述べ、完全な耐性とは区別する。  
 例: The new design is less susceptible to vibration, although it is not completely immune to it.  
 訳: 新設計は振動の影響を受けにくいが、まったく影響を受けないわけではない。  
 
@@ -161,7 +161,7 @@ tags: []
 ・a susceptible nature  
 用途: 人の感じやすい性質を描写する。  
 例: Beneath his confident manner was a surprisingly susceptible nature.  
-訳: 自信に満ちた態度の下には、意外なほど感じやすい性質があった。  
+訳: 自信に満ちた態度の裏には、意外なほど感情に左右されやすい一面があった。  
 
 ・a susceptible mind  
 用途: 感情的な訴えなどに影響されやすい心を示す。  
@@ -171,7 +171,7 @@ tags: []
 ・be susceptible to someone's charm  
 用途: 相手の魅力に心が動きやすいことを述べる。  
 例: She was less susceptible to his charm than he had expected.  
-訳: 彼の予想に反して、彼女は彼の魅力にはあまり心を動かされなかった。  
+訳: 彼女は、彼が予想していたほど彼の魅力に弱くはなかった。  
 
 ・be susceptible（感情的に影響されやすい）  
 用途: 文脈で感情の動きやすさが明らかなとき、補足なしで性質を述べる。  
@@ -318,7 +318,7 @@ tags: []
 
 【頻度】〈2/10〉  
 
-【レジスター/領域】この意味では、疫学・感染症の数理モデルなどで用いる専門的な名詞用法。一般向けの文章では susceptible people/individuals と名詞を補うほうが明確。  
+【レジスター/領域】この意味では、疫学・感染症の数理モデルなどで用いる専門的な名詞用法。一般向けの文章では susceptible people や susceptible individuals と名詞を補うほうが明確。  
 
 【文法パターン】a susceptible＝感受性のある1個体／susceptibles＝感受性個体の複数・総称／the number/proportion of susceptibles＝感受性者の数・割合。可算名詞なので、単数では冠詞などが必要。  
 

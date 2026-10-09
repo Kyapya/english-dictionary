@@ -3,9 +3,9 @@ headword: consecutive
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: gpt-6-astra xhigh
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-09
 checked: true
 tags: []
 ---
@@ -24,7 +24,7 @@ tags: []
 
 ・consecutively（副詞）：連続して、順番に。number the pages consecutively は「ページに連続した番号を付ける」。  
 
-・nonconsecutive / non-consecutive（形容詞）：連続しない、間を置いた。nonconsecutive days は、対象の日が毎日続くわけではないことを表す。  
+・nonconsecutive/non-consecutive（形容詞）：連続しない、間を置いた。nonconsecutive days は、対象の日が毎日続くわけではないことを表す。  
 
 ＃意味・用法・関連表現
 
@@ -67,13 +67,13 @@ tags: []
 
 ・be consecutive  
 用途: 複数の番号や日付が連続していることを、述語として説明する。  
-例: The page numbers are consecutive, but two pages have been printed twice.  
-訳: ページ番号は連続しているが、2ページが重複して印刷されている。  
+例: The page numbers are consecutive, with none missing.  
+訳: ページ番号は連続していて、抜けがない。  
 
 ・consecutive sentences  
 用途: 法律の文脈で、複数の刑を一つずつ順に執行することを表す。  
 例: The court imposed two consecutive prison sentences.  
-訳: 裁判所は、順次服役する2つの拘禁刑を科した。  
+訳: 裁判所は、順次執行される2つの拘禁刑を科した。  
 
 ・be consecutive to 〈別の刑〉  
 用途: 法律文書などで、ある刑と別の刑の執行順序を明示する。  

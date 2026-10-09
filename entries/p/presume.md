@@ -3,9 +3,9 @@ headword: presume
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: gpt-6-astra xhigh
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-09
 checked: true
 tags: []
 ---
@@ -49,7 +49,7 @@ presumes は語末に /z/、presumed は /d/ が加わり、どちらも音節�
 
 【レジスター/領域】標準的だが、think、guess より改まった響きが出やすい。会話・業務連絡・報道・研究で使う。  
 
-【文法パターン】presume (that) 〈節〉＝〜だと思う／presume someone/something to be 〈補語〉＝人・物が〜だと推定する／presume someone/something to have done something＝過去に〜したと推定する／presume someone/something + 〈形容詞〉＝〜をその状態だと推定する／be presumed to do/be/have done something＝〜する・である・したと推定される／be presumed dead＝死亡したと推定される／it is presumed that 〈節〉＝〜と推定される／I presume so/not＝そうだ／そうではないと思う／〈文〉, I presume?＝〜ですよね、と思いますが。  
+【文法パターン】presume (that) 〈節〉＝〜だと思う／presume someone/something to be 〈補語〉＝人・物が〜だと推定する／presume someone/something to have done something＝過去に〜したと推定する／presume someone/something + 〈形容詞〉＝〜をその状態だと推定する／be presumed to do/be/have done something＝〜する・である・したと推定される／be presumed dead＝死亡したと推定される／it is presumed that 〈節〉＝〜と推定される／I presume so＝そうだと思う／I presume not＝そうではないと思う／〈文〉, I presume?＝〜ですよね、と思いますが。  
 
 【コロケーション・構文例】
 
@@ -66,11 +66,11 @@ presumes は語末に /z/、presumed は /d/ が加わり、どちらも音節�
 ・presume someone to have done something  
 用途: 推定の時点より前の行為について述べる。  
 例: We presumed the visitors to have left before the alarm sounded.  
-訳: 私たちは、警報が鳴る前に来訪者たちは帰ったものと思っていた。  
+訳: 私たちは、来訪者たちが警報の鳴る前に帰ったものと思っていた。  
 
 ・be presumed to do something  
 用途: 人・物を主語にした受動態で、推定内容を示す。  
-例: The software is presumed to work on older devices, but we have not tested them yet.  
+例: The software is presumed to work on older devices, but we have not tested it on those devices yet.  
 訳: そのソフトは古い端末でも動くと考えられているが、まだ実機で検証していない。  
 
 ・be presumed dead  
@@ -81,7 +81,7 @@ presumes は語末に /z/、presumed は /d/ が加わり、どちらも音節�
 ・presume someone + 〈形容詞〉  
 用途: to be を置かず、推定される状態を補語で示す。  
 例: The rescue team presumed the climbers safe after receiving their message.  
-訳: 連絡を受けて、救助隊は登山者たちは無事だと考えた。  
+訳: 連絡を受けて、救助隊は登山者たちが無事だと考えた。  
 
 ・it is presumed that 〈節〉  
 用途: 推定する人を明示せず、改まった報告にする。  
@@ -262,7 +262,7 @@ presumes は語末に /z/、presumed は /d/ が加わり、どちらも音節�
 ・presume to speak for someone  
 用途: 代表する権限がないのに他人の意見を代弁することを批判する。  
 例: He presumed to speak for the whole team without consulting anyone.  
-訳: 彼は誰にも相談せず、出過ぎてチーム全体を代弁した。  
+訳: 彼は誰にも相談せず、チーム全体を代弁するという出過ぎたことをした。  
 
 ・presume to know something  
 用途: 十分な根拠・資格もなく、知っているつもりになる態度を述べる。  
@@ -319,7 +319,7 @@ presumes は語末に /z/、presumed は /d/ が加わり、どちらも音節�
 ・presume upon someone's good nature  
 用途: 相手が寛容なことを当てにする行為を批判する。  
 例: He kept arriving late, presuming upon his host's good nature.  
-訳: 彼は招待主の人のよさに甘え、何度も遅れて来た。  
+訳: 彼は招待してくれた人の厚意に甘え、何度も遅れて来た。  
 
 ・presume on a friendship  
 用途: 友人関係を理由に、当然以上のことを期待する。  
