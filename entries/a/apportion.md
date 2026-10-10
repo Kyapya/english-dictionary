@@ -3,9 +3,9 @@ headword: apportion
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -47,7 +47,7 @@ tags: []
 ・apportion resources among 〈組織・集団〉  
 用途: 限られた資源を複数の受け手に配分する。  
 例: The agency apportioned its emergency supplies among the affected towns.  
-訳: その機関は、被災した町々に備蓄の緊急物資を配分した。  
+訳: その機関は、被災した町々に緊急物資を配分した。  
 
 ・apportion a share of something to someone  
 用途: 全体のうちの取り分を特定の相手に与える。  
@@ -67,7 +67,7 @@ tags: []
 ・apportion blame among 〈関係者〉  
 用途: 失敗などへの責任の所在と割合を判断する。  
 例: The report apportioned blame among the contractor, the designer, and the inspection team.  
-訳: その報告書は、請負業者、設計者、検査チームのそれぞれに責任があるとした。  
+訳: その報告書は、請負業者、設計者、検査チームがそれぞれどの程度責任を負うかを判断した。  
 
 ・apportion blame for something to someone  
 用途: 何についての責任を誰に帰すのかを区別して述べる。  
@@ -75,7 +75,7 @@ tags: []
 訳: 遅延の責任をすべて新任の補佐担当者に負わせるのは不公平だろう。  
 
 ・be apportioned among 〈配分先〉  
-用途: 配分される側を主語にする。議席などの制度上の割当ても表せる。  
+用途: 配分される物・負担を主語にする。議席などの制度上の割当ても表せる。  
 例: Seats in the U.S. House of Representatives are apportioned among the states on the basis of population.  
 訳: 米国下院の議席は、人口に基づいて各州に配分される。  
 

@@ -3,9 +3,9 @@ headword: subscribe
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -135,7 +135,7 @@ scribe「書記」、describe「描写する」、transcribe「書き写す」�
 ・subscribe to a podcast  
 用途: ポッドキャストの新しい回を追うために登録する。  
 例: You can subscribe to the podcast through your usual listening app.  
-訳: 普段使っている音声アプリで、そのポッドキャストを登録できます。  
+訳: 普段使っている音声アプリで、そのポッドキャストに登録できます。  
 
 ・be subscribed to something  
 用途: 登録がすでに済んでいることを確認する。  
@@ -170,7 +170,7 @@ scribe「書記」、describe「描写する」、transcribe「書き写す」�
 頻度: 〈8/10〉  
 違い: フォームなどによる正式な登録を広く表す。subscribe と違い、一度だけの参加にも使う。  
 例: You need to register for the webinar before Friday.  
-訳: 金曜日までに、そのオンラインセミナーに登録する必要がある。  
+訳: 金曜日になる前に、そのオンラインセミナーに登録する必要がある。  
 
 【反意語】
 
@@ -217,7 +217,7 @@ scribe「書記」、describe「描写する」、transcribe「書き写す」�
 頻度: 〈7/10〉  
 違い: 口語的で、講座や行事など配信以外の登録にも広く使う。subscribe someone to a list は継続的な配信の受信者に加えることを表す。  
 例: With his permission, I signed him up for the introductory workshop.  
-訳: 本人の許可を得て、私は彼を入門ワークショップに申し込んだ。  
+訳: 本人の許可を得て、私は彼の入門ワークショップへの参加を申し込んだ。  
 
 ・register  
 定義: 人や情報を正式な利用者・参加者の記録に登録する。  
@@ -416,7 +416,7 @@ scribe「書記」、describe「描写する」、transcribe「書き写す」�
 
 【レジスター/領域】講座・ツアーなどの募集案内、金融、ややフォーマルな申込状況の説明。  
 
-【文法パターン】〈活動・サービス・証券募集〉 + be fully subscribed／a fully subscribed 〈講座・ツアー・発行など〉。定着した受動・過去分詞の形を中心に使う。fully は副詞なので、名詞前でも fully-subscribed とハイフンでつなぐ必要はない。  
+【文法パターン】〈活動・サービス・証券募集〉 + be fully subscribed／a fully subscribed 〈講座・ツアー・発行など〉。定着した受動・過去分詞の形を中心に使う。fully は -ly で終わる副詞なので、名詞前でも通常はハイフンを付けず、fully subscribed と書く。  
 
 【コロケーション・構文例】
 

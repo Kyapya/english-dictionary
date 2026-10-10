@@ -3,9 +3,9 @@ headword: acquaint
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -286,7 +286,7 @@ be acquainted with ... だけでは、誰かが説明したという受動の出
 
 【頻度】〈2/10〉  
 
-【レジスター/領域】主に米国の改まった表現。一般の紹介では introduce を使うほうが普通。語義3の be/get acquainted は、この他動詞の能動用法ほど地域・使用場面が限られない。  
+【レジスター/領域】主に米国の改まった表現。一般の紹介では introduce を使うほうが普通。語義3の be acquainted と get acquainted は、この他動詞の能動用法ほど地域・使用場面が限られない。  
 
 【文法パターン】acquaint someone with someone＝人を別の人に紹介する／be acquainted with someone by someone＝ある人の紹介によって相手と知り合う。with 句が人を指していても、著作や業績について知らせる文脈なら、面識ではなく語義1から解釈されることがある。  
 

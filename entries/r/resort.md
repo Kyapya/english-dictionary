@@ -3,9 +3,9 @@ headword: resort
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -124,7 +124,7 @@ tags: []
 ・resort to doing something  
 用途: 動作を手段として使うことを、前置詞 to の後の動名詞で示す。  
 例: When the scanner broke, we resorted to entering the figures by hand.  
-訳: スキャナーが壊れたので、私たちは数字を手入力するしかなかった。  
+訳: スキャナーが壊れたので、私たちはやむなく数字を手入力した。  
 
 ・have to resort to something  
 用途: 選びたくなかった方法が必要になったことを示す。  
@@ -181,7 +181,7 @@ tags: []
 
 【レジスター/領域】一般語。last resort は会話・報道・業務に広い。lender of last resort は金融の定着表現。  
 
-【文法パターン】as a last resort＝最後の手段として／in the last resort＝特に英国で as a last resort と同じく最後の手段として／be someone's last resort＝人にとって最後の頼みの綱である／a last resort for someone＝その人が最後に頼る手段・相手／someone's first resort＝最初に頼る手段・相手／of last resort＝名詞の後ろで最後の頼り先であることを示す。my/our/the を使う場合は a を重ねない。a/your last resort の to do は、その手段の内容を後続の述語で示す Our last resort is to appeal. などにも現れる。  
+【文法パターン】as a last resort＝最後の手段として／in the last resort＝特に英国で as a last resort と同じく最後の手段として／be someone's last resort＝人にとって最後の頼みの綱である／a last resort for someone＝その人が最後に頼る手段・相手／someone's first resort＝最初に頼る手段・相手／of last resort＝名詞の後ろで最後の頼り先であることを示す。my/our/the を使う場合は a を重ねない。Our last resort is to appeal. のように、be動詞の後の to不定詞で手段の内容を示すこともできる。  
 
 【コロケーション・構文例】
 
@@ -215,7 +215,7 @@ tags: []
 例: The lecture examined the central bank's role as a lender of last resort to banks.  
 訳: その講義では、銀行に対する最後の貸し手としての中央銀行の役割を検討した。  
 
-【語法・注意】as a last resort は通常「最後の手段として」で、a を落として as last resort としない。特に英国では in the last resort も同じ意味の定着した形であり、「最後の手段」を表す in を誤りとしない。一方、語義5には同じ in the last resort の「突き詰めれば、最終的には」という判断・総括の用法がある。our last resort なら所有格があるため a は付けない。Our last resort is to ask the supplier. の to ask は名詞を受ける説明部分で、動詞の resort to asking と同じ to ではない。語義1の resort は休暇の場所だが、ここでは手段や人を指す。a lender of last resort の lender は借り手ではなく貸し手で、中央銀行などの役割を表すが、個々の銀行への救済が自動的に保証されるという意味ではない。  
+【語法・注意】as a last resort は通常「最後の手段として」で、a を落として as last resort としない。特に英国では in the last resort も同じ意味の定着した形であり、「最後の手段」を表す in を誤りとしない。一方、語義5には同じ in the last resort の「突き詰めれば、最終的には」という判断・総括の用法がある。our last resort なら所有格があるため a は付けない。Our last resort is to ask the supplier. の to ask the supplier は主語の内容を示す補語で、to は不定詞の標識。動詞の resort to asking の前置詞 to とは異なる。語義1の resort は休暇の場所だが、ここでは手段や人を指す。a lender of last resort の lender は借り手ではなく貸し手で、中央銀行などの役割を表すが、個々の銀行への救済が自動的に保証されるという意味ではない。  
 
 【類義語】
 

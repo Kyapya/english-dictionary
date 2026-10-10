@@ -3,9 +3,9 @@ headword: entrust
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -133,7 +133,7 @@ entrusted は「任された、預けられた」という出来事や関係を�
 頻度: 〈6/10〉  
 違い: 組織内などで仕事・権限を他の担当者に任せることに向く。entrust は子どもや貴重品の保護・保管にも使え、対象がより広い。  
 例: The manager delegated routine purchasing decisions to her deputy.  
-訳: 管理職は日常的な購入判断を副担当者に委ねた。  
+訳: 管理職は日常的な購入判断を自身の代理を務める副責任者に委ねた。  
 
 ・confide  
 定義: 信頼する相手に秘密や個人的なことを打ち明ける。  
