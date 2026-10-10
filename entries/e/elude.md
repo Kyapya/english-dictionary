@@ -3,9 +3,9 @@ headword: elude
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -110,7 +110,7 @@ elude responsibility のように義務・責任を免れる用法もある。�
 
 2. 【動詞・他動詞・通常は受動態にしない】人がなかなか得られない、実現しない
 
-【日本語訳・定義】成功・勝利・平和・眠りなど、望む結果や状態を主語にして、それが人・組織などに得られないことを表す。日本語では人を主語にして「～をつかめない」「～が実現しない」と訳すと自然になる。獲得が難しい状況を表すが、必ず惜しいところまで近づいたことや、永久に達成できないことを意味するわけではない。  
+【日本語訳・定義】成功・勝利・平和・眠りなど、望む結果や状態を主語にして、それが人・組織などに得られないことを表す。日本語では、人を主語にした「～をつかめない」や、望む結果を主語にした「～が実現しない」と訳すと自然になる。獲得が難しい状況を表すが、必ず惜しいところまで近づいたことや、永久に達成できないことを意味するわけではない。  
 
 【頻度】〈6/10〉  
 
@@ -165,7 +165,7 @@ achieve success / win a title は対照表現だが、主語・目的語の関�
 ・remain unattainable  
 定義: 引き続き達成・獲得できない状態にある。  
 頻度: 〈4/10〉  
-違い: attain の否定形容詞を使い、達成可能性そのものの低さ・欠如を前面に出す。elude は、現在得られていなくても将来達成可能である場合に使える。  
+違い: attainable に否定の接頭辞 un- を付けた形容詞を使い、その条件下では達成・獲得できないことを前面に出す。elude は、現在得られていなくても将来達成可能である場合に使える。  
 例: Without reliable transport, regular attendance remained unattainable for some trainees.  
 訳: 安定した交通手段がなく、一部の研修生にとって継続的な出席は依然として実現できなかった。  
 

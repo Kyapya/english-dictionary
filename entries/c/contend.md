@@ -3,9 +3,9 @@ headword: contend
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -166,7 +166,7 @@ tags: []
 ・have 〈問題・障害〉 to contend with  
 用途: 問題を先に示し、対処すべき負担として提示する。  
 例: The restoration team had extensive water damage to contend with before it could reopen the building.  
-訳: 修復チームは、建物を再開する前に、広範囲に及ぶ浸水被害に対処しなければならなかった。  
+訳: 修復チームは、建物の利用を再開する前に、広範囲に及ぶ浸水被害に対処しなければならなかった。  
 
 ・have a lot to contend with  
 用途: 詳細をすべて列挙せず、多くの負担を抱える状態を述べる。  
@@ -181,7 +181,7 @@ tags: []
 ・contend with having to 〈動詞原形〉  
 用途: ある行動を強いられること自体を、対処すべき負担として表す。  
 例: Staff are contending with having to enter the same information into three separate systems.  
-訳: 職員は、同じ情報を3つの別々のシステムに入力しなければならない負担に苦労している。  
+訳: 職員は、同じ情報を3つの別々のシステムに入力しなければならないという負担を抱え、苦労している。  
 
 ・have to be contended with  
 用途: 対処が必要な問題を主語にした、やや硬い受動表現。  
@@ -305,7 +305,7 @@ tags: []
 
 【頻度】〈3/10〉  
 
-【レジスター/領域】硬い文章。法律上の議論、学術的・思想的な論争など。日常会話では argue for / support のほうが一般的。現代の法律文書にも残る用法で、単に古語とはしない。  
+【レジスター/領域】硬い文章。法律上の議論、学術的・思想的な論争など。日常会話では argue for や support のほうが一般的。現代の法律文書にも残る用法で、単に古語とはしない。  
 
 【文法パターン】contend for 〈支持する解釈・立場・原則〉＝…を支持して論じる／〈支持される解釈など〉 + be contended for (by someone)＝…が人によって主張される〔前置詞受動〕／the interpretation contended for by someone＝人が主張する解釈〔受動の分詞による後置修飾〕／the interpretation for which someone contends＝人が支持して主張する解釈〔前置詞を前に出した関係節〕。for は前置詞で、代名詞なら contend for it。その後ろの名詞を主語に出す受動でも for を残す。  
 
@@ -366,7 +366,7 @@ tags: []
 
 【頻度】〈3/10〉  
 
-【レジスター/領域】文語的・硬い表現。思想、宗教、政治上の対立を述べる文章や、文学的な語りなど。現代の普通の会話では argue / debate が基本。about を取る用法も実在し、非文とはしない。  
+【レジスター/領域】文語的・硬い表現。思想、宗教、政治上の対立を述べる文章や、文学的な語りなど。現代の普通の会話では argue や debate が基本。about を取る用法も実在し、非文とはしない。  
 
 【文法パターン】contend about 〈論点・疑問節〉、contend over 〈論点〉＝…をめぐって議論する／contend with someone over 〈論点〉、contend with someone about 〈論点・疑問節〉＝人と…について議論する／〈複数の人・立場〉 + contend＝文脈で話題が分かる場合の「論争する」。with は議論の相手、over/about は話題を導く前置詞で、話題を直接目的語にした形ではない。  
 

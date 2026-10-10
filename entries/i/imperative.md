@@ -3,9 +3,9 @@ headword: imperative
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -175,7 +175,7 @@ It is imperative for him to attend. は自然だが、He is imperative to attend
 ・the imperative to do something  
 用途: 避けられない要求の内容を不定詞で示す。  
 例: The team struggled to reconcile the imperative to cut costs with the need to retain experienced staff.  
-訳: チームは、経費削減という要請と、経験豊富な職員を確保する必要性を両立させるのに苦労した。  
+訳: チームは、経費削減という要請と、経験豊富な職員の雇用を維持する必要性を両立させるのに苦労した。  
 
 ・the imperative of doing something  
 用途: 実施すべき課題の内容を名詞的に示す。  
@@ -297,8 +297,8 @@ It is imperative that she be informed. の imperative は語義1の「不可欠�
 
 ・an imperative gesture  
 用途: 言葉以外の動作が強い指示を伝える場面を描く。  
-例: With an imperative gesture, the officer directed the waiting drivers to stop.  
-訳: 警官は有無を言わせぬ身ぶりで、待っている運転手たちに止まるよう指示した。  
+例: With an imperative gesture, the officer directed the approaching drivers to stop.  
+訳: 警官は有無を言わせぬ身ぶりで、近づいてくる運転手たちに止まるよう指示した。  
 
 ・become imperative  
 用途: 話し方が、穏やかな依頼から命令的なものへ変わることを描く。  

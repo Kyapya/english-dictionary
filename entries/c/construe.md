@@ -3,9 +3,9 @@ headword: construe
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -72,7 +72,7 @@ tags: []
 訳: 委員会は、彼が繰り返し質問したことを、単に粘り強いのではなく敵対的なものだと捉えた。  
 
 ・be construed as doing  
-用途: ある発言・対応に、本人の意図とは別の行為や立場を読み取られることを述べる。  
+用途: ある発言・対応が、特定の行為や立場を示すものと解釈されることを述べる。  
 例: Refusing to discuss the figures might be construed as concealing a problem.  
 訳: 数値についての話し合いを拒むと、問題を隠していると受け取られかねない。  
 
@@ -135,7 +135,7 @@ construe の「推し量る」という用法は、言動や文面の解釈と�
 頻度: 〈8/10〉  
 違い: 対象や場面の幅が広く、construe より日常的な説明にも使える。construe は特定の意味・意図を与える読み方に焦点があり、注意書きや法的解釈で特に目立つ。  
 例: Different readers may interpret the final paragraph differently.  
-訳: 読者によって、最後の段落を異なる意味に解釈するかもしれない。  
+訳: 読者によって、最後の段落の解釈が異なるかもしれない。  
 
 ・read  
 定義: 表情・言動・状況などから意味や意図を読み取る。  
@@ -273,7 +273,7 @@ construe の「推し量る」という用法は、言動や文面の解釈と�
 
 【頻度】〈1/10〉  
 
-【レジスター/領域】まれな伝統的文法用法。古い文献や古典語の批評・注釈での読解用に知っておくとよい。現代の一般的な文章では can be parsed / can be interpreted grammatically などで言い換える。  
+【レジスター/領域】まれな伝統的文法用法。古い文献や古典語の批評・注釈での読解用に知っておくとよい。現代の一般的な文章では can be parsed や can be interpreted grammatically などで言い換える。  
 
 【文法パターン】〈文・語の並び〉 + construe＝文法的に解釈できる／〈文・語の並び〉 + will not construe＝文法的な読みが成り立たない。能動形だが受け身に近い意味を持つ自動詞用法で、目的語を取らない。  
 

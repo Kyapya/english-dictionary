@@ -3,9 +3,9 @@ headword: sanction
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -95,7 +95,7 @@ tags: []
 訳: その罰は、初回の違反に対しては重すぎると考えられた。  
 
 ・embargo  
-定義: 特定の国・物品などとの貿易を禁止・制限する措置。  
+定義: 特定の国との貿易や、特定の物品の取引を禁止・制限する措置。  
 頻度: 〈5/10〉  
 違い: 国際制裁の一種になり得るが、貿易を止める措置を具体的に示す。sanctions は資産凍結など、貿易以外の措置も含み得る。  
 例: The government announced an embargo on arms exports to the region.  
@@ -116,7 +116,7 @@ tags: []
 
 【レジスター/領域】硬い。正式な意思決定、組織運営、社会的な承認の説明。  
 
-【文法パターン】official sanction／sanction for 〈計画・行為〉＝認められる対象／the sanction of 〈人・組織〉＝承認する主体／with/without someone's sanction＝その人の承認を得て／得ずに／with/without official sanction。不可算なので、通常は an official sanction と数えない。  
+【文法パターン】official sanction／sanction for 〈計画・行為〉＝認められる対象／the sanction of 〈人・組織〉＝承認する主体／with someone's sanction＝その人の承認を得て、without someone's sanction＝その人の承認を得ずに／with/without official sanction。不可算なので、通常は an official sanction と数えない。  
 
 【コロケーション・構文例】
 
