@@ -3,9 +3,9 @@ headword: onerous
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -43,7 +43,7 @@ tags: []
 
 【レジスター/領域】フォーマル。業務、行政、規制、契約条件、責任の評価。会話では demanding・hard・a lot of work などが使われることも多い。  
 
-【文法パターン】an onerous 〈task/duty/obligation〉＝重荷となる仕事・義務／onerous 〈requirements/regulations/terms〉＝負担の重い要件・規制・条件／the onerous task of doing＝～するという骨の折れる仕事／〈仕事・条件〉 + be/seem/become onerous＝負担が重い・重そうだ・重くなる／find 〈仕事など〉 + onerous＝仕事などを負担に感じる／be onerous for/on 〈人・組織〉＝その人などにとって負担が重い／it is onerous for someone to do＝その人が～するのは負担が大きい／more/less/particularly/unduly onerous＝より／比較的少なく／特に／不当に負担が重い。  
+【文法パターン】an onerous 〈task/duty/obligation〉＝重荷となる仕事・義務／onerous 〈requirements/regulations/terms〉＝負担の重い要件・規制・条件／the onerous task of doing＝～するという骨の折れる仕事／〈仕事・条件〉 + be/seem/become onerous＝負担が重い・重そうだ・重くなる／find 〈仕事など〉 + onerous＝仕事などを負担に感じる／be onerous for/on 〈人・組織〉＝その人などにとって負担が重い／it is onerous for someone to do＝その人が～するのは負担が大きい／more onerous＝より負担が重い／less onerous＝負担がより軽い／particularly onerous＝特に負担が重い／unduly onerous＝不当に負担が重い。  
 
 【コロケーション・構文例】
 

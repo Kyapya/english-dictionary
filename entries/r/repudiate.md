@@ -3,9 +3,9 @@ headword: repudiate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -165,7 +165,7 @@ repudium のさらに古い構成には不確かな点があるため、現代�
 【語法・注意】repudiate a policy は、単にその政策の存在を「なかったことにする」意味ではない。その政策を受け入れない姿勢を示すことであり、法律や規則が実際に廃止されたかは別の問題である。  
 
 ・「昔は信じていた」は one's former beliefs の former などから分かる。repudiate 自体が、どの対象でも過去の支持を必ず前提にするわけではない。  
-・語義1と語義2の違いは目的語の内容で判断する。repudiate the claim that the figures were altered は「改ざんしたという主張を否定する」、repudiate a policy of altering figures は「数値を書き換える方針を拒絶する」。後者は「書き換えが起きなかった」と言っているわけではない。  
+・語義1と語義2の違いは目的語の内容で判断する。repudiate the claim that the figures were altered は「数値が書き換えられたという主張を否定する」、repudiate a policy of altering figures は「数値を書き換える方針を拒絶する」。後者は「書き換えが起きなかった」と言っているわけではない。  
 ・依頼や誘いを丁寧に断る通常の表現には強すぎる。×I repudiate your invitation. を普通の欠席返事として使わず、I have to decline your invitation. などとする。意図的に相手を強く拒絶する場面なら語用上の効果は異なる。  
 
 【類義語】

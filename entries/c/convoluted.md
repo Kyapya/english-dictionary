@@ -3,9 +3,9 @@ headword: convoluted
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -35,7 +35,7 @@ volvere を共有する語に involve「巻き込む・伴う」、revolve「回
 
 【レジスター/領域】ややフォーマル。批評、報道、業務上の説明、制度・技術の評価。日常会話でも複雑さへの不満を述べるときに使う。  
 
-【文法パターン】a convoluted 〈explanation/argument/process/plot〉＝入り組んで分かりにくい説明・議論・手続き・筋書き／〈説明・仕組み〉 + be/seem/become/get convoluted＝複雑である・そう見える・複雑になる／a highly convoluted 〈名詞〉＝非常に複雑なもの／an overly convoluted 〈名詞〉＝過度に複雑なもの／more/less convoluted than 〈比較対象〉＝比較対象より複雑な／単純な／too convoluted for someone to follow＝その人には筋道を追えないほど複雑な。程度修飾と more・most による比較ができる。  
+【文法パターン】a convoluted 〈explanation/argument/process/plot〉＝入り組んで分かりにくい説明・議論・手続き・筋書き／〈説明・仕組み〉 + be/seem/become/get convoluted＝複雑である・そう見える・複雑になる／a highly convoluted 〈名詞〉＝非常に複雑なもの／an overly convoluted 〈名詞〉＝過度に複雑なもの／more convoluted than 〈比較対象〉＝比較対象より入り組んでいる／less convoluted than 〈比較対象〉＝比較対象ほど入り組んでいない／too convoluted for someone to follow＝その人には筋道を追えないほど複雑な。程度修飾と more・most による比較ができる。  
 
 【コロケーション・構文例】
 
