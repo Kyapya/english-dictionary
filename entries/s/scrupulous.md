@@ -3,9 +3,9 @@ headword: scrupulous
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -180,7 +180,7 @@ tags: []
 ・scrupulous honesty  
 用途: 小さな点でもごまかさない正直さを評価する。  
 例: Her scrupulous honesty earned the trust of both clients and colleagues.  
-訳: 彼女の徹底した正直さは、顧客と同僚の双方から信頼を得た。  
+訳: 彼女は徹底した正直さによって、顧客と同僚の双方から信頼を得た。  
 
 ・less scrupulous 〈人・組織〉  
 用途: 利益のために不正に手を染めやすい相手を控えめに批判する。  
@@ -259,7 +259,7 @@ tags: []
 ・scrupulous thoughts  
 用途: 自分の道徳性や罪について繰り返し生じる疑念を示す。  
 例: Her scrupulous thoughts centered on whether she had unknowingly offended God.  
-訳: 彼女の良心上の疑念は、知らず知らずのうちに神を冒瀆したのではないかという点に集中していた。  
+訳: 彼女の良心上の疑念は、知らず知らずのうちに神を怒らせてしまったのではないかという点に集中していた。  
 
 ・scrupulous behavior  
 用途: 宗教・道徳上の不安に関わる行動を述べる。  

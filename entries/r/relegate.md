@@ -3,9 +3,9 @@ headword: relegate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -143,7 +143,7 @@ delegate「委任する」と legate「特使・使節」も lēgāre に由来�
 
 ・relegate a team  
 用途: 成績や処分が降格をもたらしたことを能動形で示す。  
-例: The final defeat relegated the club to the second division.  
+例: The defeat in the final match relegated the club to the second division.  
 訳: 最終戦の敗北によって、そのクラブは2部に降格した。  
 
 ・be relegated from 〈部〉 to 〈部〉  

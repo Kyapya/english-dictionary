@@ -3,9 +3,9 @@ headword: salvage
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -153,7 +153,7 @@ tags: []
 ・salvage a relationship  
 用途: 崩れかけた関係を立て直す。  
 例: They sought outside advice to salvage their working relationship.  
-訳: 二人は仕事上の関係を立て直すため、第三者の助言を求めた。  
+訳: 彼らは仕事上の関係を立て直すため、第三者の助言を求めた。  
 
 ・salvage something from 〈失敗した試み〉  
 用途: 全体としては失敗しても、残せる成果を得る。  

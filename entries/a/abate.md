@@ -3,9 +3,9 @@ headword: abate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -79,7 +79,7 @@ batter「何度も打つ」と battle「戦い」も、歴史的には同じ「�
 例: The protests abated in intensity after the agreement was announced.  
 訳: 合意が発表されると、抗議活動の勢いは弱まった。  
 
-【語法・注意】この語義では弱まる現象が主語であり、The pressure abated.「圧力が弱まった」とする。The measures abated the pressure.「対策が圧力を弱めた」は他動詞の語義2。自動詞用法を The pressure was abated. と受動形にすると、外から弱められたという構造に変わる。abate は徐々に落ち着く場面でよく使うが、suddenly abated なども可能で、「必ずゆっくり」が語義の条件ではない。inflation abates は物価上昇率の低下を表し得るので、「物価が下がる」とは限らない。  
+【語法・注意】この語義では弱まる現象が主語であり、The pressure abated.「圧力が弱まった」とする。The measures abated the pressure.「対策が圧力を弱めた」は他動詞の語義2。The pressure was abated. は他動詞の語義2の受動態で、圧力が外から弱められたことを表す。abate は徐々に落ち着く場面でよく使うが、suddenly abated なども可能で、「必ずゆっくり」が語義の条件ではない。inflation abates は物価上昇率の低下を表し得るので、「物価が下がる」とは限らない。  
 
 【類義語】
 
@@ -208,7 +208,7 @@ batter「何度も打つ」と battle「戦い」も、歴史的には同じ「�
 頻度: 〈5/10〉  
 違い: 有害な現象を軽減するか悪化させるかという方向の対立。  
 例: Heavy traffic aggravated the air pollution.  
-訳: 激しい交通量が大気汚染を悪化させた。  
+訳: 交通量の多さが大気汚染を悪化させた。  
 
 ・intensify  
 定義: 強さ・程度を増す。  
@@ -246,7 +246,7 @@ batter「何度も打つ」と battle「戦い」も、歴史的には同じ「�
 
 ・rent + abate  
 用途: 契約による減免を賃料主語の自動詞で表す。  
-例: Under this lease, rent abates for any full day when the entire office is unusable.  
+例: Under this lease, rent abates in full for any full day when the entire office is unusable.  
 訳: この賃貸借契約では、事務所全体が終日使えない日は賃料が免除される。  
 
 【語法・注意】The landlord abates the rent. は他動詞、The rent is abated. は受動態、The rent abates. は自動詞。最後の形も契約上の減免を表し得るので、単なる賃料相場の下落と決めつけない。米国 IRS の penalty abatement には加算金の取り消しが含まれる。「軽減だから必ず一部を払う」とも「abate なら必ず全額免除」とも断定しない。具体的な対象・金額・条件を読む。defer payment は「支払いを延期する」で、負担自体を減免するこの語義と区別する。遺産分配の legacies abate は、資産不足などに伴い遺贈額が減るという自動詞用法で、語義1の「量が減る」に対応する。減額の順序や割合は適用法・遺言による。  
@@ -282,7 +282,7 @@ batter「何度も打つ」と battle「戦い」も、歴史的には同じ「�
 
 【レジスター/領域】法律。歴史的な制度説明や特定の法域の裁判文書。  
 
-【文法パターン】〈action/proceedings〉 + abate＝訴訟・手続きが停止・失効する／abate an action / proceedings＝訴訟・手続きを停止・失効させる／〈action/proceedings〉 + be abated＝停止・失効させられる。  
+【文法パターン】an action + abate＝訴訟が停止・失効する／proceedings + abate＝手続きが停止・失効する／abate an action＝訴訟を停止・失効させる／abate proceedings＝手続きを停止・失効させる／an action + be abated＝訴訟が停止・失効させられる／proceedings + be abated＝手続きが停止・失効させられる。  
 
 【コロケーション・構文例】
 
