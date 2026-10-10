@@ -3,9 +3,9 @@ headword: ratify
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -113,7 +113,7 @@ tags: []
 ・confirm  
 定義: 以前の決定・取り決めを、確定したものとして認める。  
 頻度: 〈7/10〉  
-違い: confirm an appointment のように、既存の取り決めを確かにする意味がある。ratify ほど、特定の権限者による正式な承認手続きに重点を置かない。  
+違い: confirm an appointment「面会の予約・約束を確認する」のように、既存の取り決めを確かにする意味もある。ratify ほど、特定の権限者による正式な承認手続きに重点を置かない。  
 例: The committee confirmed its earlier decision to proceed.  
 訳: 委員会は、続行するという先の決定を改めて確定した。  
 

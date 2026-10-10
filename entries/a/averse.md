@@ -3,9 +3,9 @@ headword: averse
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -53,7 +53,7 @@ tags: []
 訳: 彼女は、顧客データを外部の会社と共有することに抵抗がある。  
 
 ・be averse to the idea of doing something  
-用途: 提案や選択肢の内容に気が進まないと表現する。  
+用途: 提案や選択肢の内容に抵抗があると表現する。  
 例: The team was averse to the idea of replacing a system that still worked well.  
 訳: チームは、まだ十分に機能しているシステムを取り替えるという考えに抵抗を感じていた。  
 
@@ -95,7 +95,7 @@ tags: []
 頻度: 〈7/10〉  
 違い: 嫌いだからだけでなく、費用・手間・懸念などからためらう場合にも使う。reluctant to do が基本で、averse to doing とは後続形が違う。  
 例: He was reluctant to approve the plan without more information.  
-訳: 彼は追加の情報がないまま計画を承認することに気が進まなかった。  
+訳: 彼は追加の情報がないまま計画を承認する気にはなれなかった。  
 
 ・loath  
 定義: あることをするのをひどく嫌がる、非常に気が進まない。  

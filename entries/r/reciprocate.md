@@ -3,9 +3,9 @@ headword: reciprocate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -84,7 +84,7 @@ tags: []
 例: Her trust in the team was reciprocated.  
 訳: 彼女がチームを信頼していたのと同じように、チームも彼女を信頼していた。  
 
-【語法・注意】reciprocate her feelings の目的語は feelings であり、「彼女にお返しする」を reciprocate her とは普通言わない。誤: I reciprocated him for his help. → 正: I reciprocated his kindness.／I repaid him for his help.。reciprocate his gift with a book では his gift が受けたもの、a book が返すもの。by sending a book は返し方を行為として示す。直接目的語を置かない reciprocate with a book は語義2の自動詞の型。  
+【語法・注意】reciprocate her feelings の目的語は feelings であり、「彼女にお返しする」を reciprocate her とは普通言わない。誤: I reciprocated him for his help. → 正: I reciprocated his kindness.／I repaid him for his help. reciprocate his gift with a book では his gift が受けたもの、a book が返すもの。by sending a book は返し方を行為として示す。直接目的語を置かない reciprocate with a book は語義2の自動詞の型。  
 
 ・reciprocate は、必ず同じ品物を返すという意味ではない。相手の好意に別の親切で応じてもよい。ただし thank someone は感謝を述べるだけでも成立し、reciprocate は対応する感情・行為を返す点を含む。reciprocated feelings は「互いに抱いている感情」という分詞修飾で、別の感情の種類ではない。an unreciprocated love は「報われない恋、一方通行の愛情」。  
 

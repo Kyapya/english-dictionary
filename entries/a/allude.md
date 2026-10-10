@@ -3,9 +3,9 @@ headword: allude
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -85,7 +85,7 @@ tags: []
 ・what does someone allude to?／what is someone alluding to?  
 用途: 遠回しな発言が具体的に何を指すかを尋ねる。  
 例: What are you alluding to when you mention our recent mistakes?  
-訳: 最近の私たちのミスと言うとき、具体的に何をそれとなく指しているのですか。  
+訳: 私たちの最近のミスに触れるとき、具体的に何をそれとなく指しているのですか。  
 
 【語法・注意】標準的な書き方では、言及先を allude の直接目的語にせず allude to it とする。mention it と allude to it を対にして覚え、学習用の基本形で allude it や allude it to としない。to は前置詞なので、allude to changing the schedule「日程変更に触れる」が基本であり、allude to change the schedule を「日程変更に触れる」の不定詞構文として覚えない。内容を節で示すなら allude to the fact that the schedule has changed のようにする。allude that ... も実例には現れるが、標準的な学習用の型としては mention that ...、suggest that ...、allude to the fact that ... を意味に応じて選ぶ。  
 
