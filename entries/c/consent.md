@@ -3,9 +3,9 @@ headword: consent
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -179,7 +179,7 @@ written consent は書面という形式、informed consent は説明・理解�
 ・consent to someone's doing something  
 用途: 他人がする行為を認める。所有格は動名詞の意味上の主語を表す。  
 例: The composer consented to our using a short extract in the documentary.  
-訳: 作曲家は、私たちがドキュメンタリーで曲の一部を短く使うことを認めた。  
+訳: 作曲家は、私たちがドキュメンタリーで曲の短い一節を使うことを認めた。  
 
 ・consent to something being 〈過去分詞〉  
 用途: 物・記録などに加えられる処置への同意を示す。  
@@ -249,7 +249,7 @@ I consent. は文脈のある正式な同意表明として単独で使える。
 
 【頻度】〈5/10〉  
 
-【レジスター/領域】一般のやや改まった文章、報道、契約関係の説明、集団の判断・評価。by mutual/common/general consent の定型句が重要。  
+【レジスター/領域】一般のやや改まった文章、報道、契約関係の説明、集団の判断・評価。by mutual consent、by common consent、by general consent の定型句が重要。  
 
 【文法パターン】by mutual consent＝双方・当事者の合意によって／by common consent、by general consent＝一般の一致した意見では、皆の合意によって／by unanimous consent＝全員の同意によって。これらは前置詞句で、文頭・文末や文中の挿入句として使える。common/general は広い一致、unanimous は全員一致を明示する。government by consent は、人々の同意に基づく統治を表す定着表現。  
 

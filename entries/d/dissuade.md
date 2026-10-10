@@ -3,9 +3,9 @@ headword: dissuade
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -62,7 +62,7 @@ tags: []
 ・dissuade someone from believing 〈節〉  
 用途: 捨てるよう説得する信念の内容を、believing に続く節で具体化する。  
 例: The analyst tried to dissuade investors from believing that recent growth would continue indefinitely.  
-訳: そのアナリストは、最近の成長がいつまでも続くと信じないよう投資家たちに説いた。  
+訳: そのアナリストは、最近の成長がいつまでも続くと信じないよう、投資家たちを説得しようとした。  
 
 ・manage to dissuade someone  
 用途: 文脈上明らかな行動について、説得が成功したと述べる。  
@@ -95,7 +95,7 @@ tags: []
 頻度: 〈7/10〉  
 違い: talk someone out of doing の形で、話すことによる説得を明示する。dissuade より会話的。人の目的語は talk と out of の間に置く。  
 例: Her brother talked her out of buying a car she could barely afford.  
-訳: 兄は彼女に、無理をしなければ買えない車の購入を思いとどまらせた。  
+訳: 彼女の兄（または弟）は、彼女に、無理をしなければ買えない車の購入を思いとどまらせた。  
 
 ・deter  
 定義: 不利益・恐れ・困難などによって、行動を思いとどまらせる。  

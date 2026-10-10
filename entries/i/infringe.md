@@ -3,9 +3,9 @@ headword: infringe
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -24,7 +24,7 @@ fragment「断片」と fracture「破損、骨折」も、ラテン語 frangere
 
 ・infringement：名詞「違反、侵害」。行為一般では不可算、個別の違反・侵害では可算にもなる。copyright infringement は著作権侵害、an infringement of the rules は規則違反。  
 ・infringer：可算名詞「侵害者、違反者」。人だけでなく、侵害を行う企業などを指す場合もある。  
-・infringing：現在分詞。infringing copies は権利を侵害する複製物、infringing a patent は特許権を侵害すること。-ing は侵害する側を示す。  
+・infringing：現在分詞・動名詞。infringing copies は権利を侵害する複製物、infringing a patent は動名詞句として使えば特許権を侵害すること。-ing は侵害する側を示す。  
 ・infringed：過去形・過去分詞。infringed rights は侵害された権利で、侵害を受ける対象を表す。infringing と対象の向きを取り違えない。  
 ・non-infringing：形容詞的に「侵害に当たらない」。non-infringing use など、権利侵害に該当しない利用を表す。単に「営利目的ではない」という意味ではない。  
 
@@ -150,7 +150,7 @@ fragment「断片」と fracture「破損、骨折」も、ラテン語 frangere
 ・infringe someone's right to do something  
 用途: 何をする権利なのかを to 不定詞で具体化する。  
 例: Critics say the rule infringes workers' right to discuss their pay.  
-訳: 批判者たちは、その規則が労働者の賃金について話し合う権利を侵害すると述べている。  
+訳: 批判者たちは、その規則が、労働者が自分たちの賃金について話し合う権利を侵害すると述べている。  
 
 ・infringe copyright  
 用途: 著作権を侵害することを表す。  

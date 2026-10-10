@@ -3,9 +3,9 @@ headword: resign
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -236,7 +236,7 @@ I resigned myself to the delay. は不本意ながら受け入れる行為、I w
 ・a resigned sigh  
 用途: あきらめの気持ちが表れたため息を描く。  
 例: With a resigned sigh, she opened the form and began filling it in again.  
-訳: あきらめのため息をつきながら、彼女は用紙を開いてまた記入し始めた。  
+訳: あきらめのため息をつきながら、彼女はフォームを開いてまた記入し始めた。  
 
 ・a resigned smile  
 用途: 不本意なことを受け入れる笑みを表す。  

@@ -3,9 +3,9 @@ headword: convene
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -161,7 +161,7 @@ convene a court / a hearing は法廷・審理の場を開く語義1。convene s
 ・convene for 〈会合・目的を表す名詞句〉  
 用途: 集まる側を主語にして、会合の種類や目的を示す。  
 例: The delegates will convene for a final round of talks on Thursday.  
-訳: 代表団は木曜日、最終協議のために集まる。  
+訳: 代表者たちは木曜日、最終協議のために集まる。  
 
 ・convene to 〈動詞原形〉  
 用途: 会合で行う活動を目的の to 不定詞で示す。  

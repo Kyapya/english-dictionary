@@ -3,9 +3,9 @@ headword: elapse
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -77,7 +77,7 @@ tags: []
 例: Allow at least ten minutes to elapse before restarting the device.  
 訳: 装置を再起動する前に、少なくとも10分は待ってください。  
 
-【語法・注意】時間が主語になる点が重要。誤: I elapsed two hours on the report.／正: I spent two hours on the report.「報告書に2時間かけた」。Two hours elapsed.「2時間がたった」とでは、行為者と時間の文中の役割が異なる。誤: Three days have been elapsed.／正: Three days have elapsed.。過去分詞があるからといって受動態を作らない。通常は進行形より単純形・完了形を使うが、経過中であることを特に描く進行形まで一律に不可能とはしない。since は起点、before は後に起きる出来事、between A and B は二つの端点を示し、いずれも elapse の直接目的語ではない。The time allowed for questions has elapsed. は質問に割り当てた時間が過ぎたことを述べるが、The offer has expired. は申込み・提案の有効期間が終わったことを述べる。期限・資格・契約そのものを主語にして失効を言うときは、expire や lapse と使い分ける。  
+【語法・注意】時間が主語になる点が重要。誤: I elapsed two hours on the report.／正: I spent two hours on the report.「報告書に2時間かけた」。Two hours elapsed.「2時間がたった」とでは、行為者と時間の文中の役割が異なる。誤: Three days have been elapsed.／正: Three days have elapsed. 過去分詞があるからといって受動態を作らない。通常は進行形より単純形・完了形を使うが、経過中であることを特に描く進行形まで一律に不可能とはしない。since は起点、before は後に起きる出来事、between A and B は二つの端点を示し、いずれも elapse の直接目的語ではない。The time allowed for questions has elapsed. は質問に割り当てた時間が過ぎたことを述べるが、The offer has expired. は申込み・提案の有効期間が終わったことを述べる。期限・資格・契約そのものを主語にして失効を言うときは、expire や lapse と使い分ける。  
 
 【類義語】
 
@@ -177,7 +177,7 @@ tags: []
 【コロケーション・構文例】
 
 ・after an elapse of 〈期間〉  
-用途: 硬い記述で、相当の時間が過ぎた後の出来事を述べる。  
+用途: 硬い記述で、一定の期間が過ぎた後の出来事を述べる。  
 例: The correspondence resumed after an elapse of seven years.  
 訳: 7年の歳月を経て、文通が再開された。  
 
@@ -190,7 +190,7 @@ tags: []
 頻度: 〈6/10〉  
 違い: the passage of time の形がよく使われ、名詞 elapse より一般的。個々の間隔の計測より、時間が流れること自体に焦点を置きやすい。  
 例: The passage of time had softened their disagreement.  
-訳: 時間がたつにつれ、二人の対立は和らいでいた。  
+訳: 時間がたつにつれ、彼らの対立は和らいでいた。  
 
 ・lapse  
 定義: 二つの出来事の間にある時間の隔たり・経過。  

@@ -3,9 +3,9 @@ headword: withstand
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -192,7 +192,7 @@ withstand は一語で、with stand と分けない。stand with someone は「�
 
 【頻度】〈2/10〉  
 
-【レジスター/領域】まれな用法。文語的な叙述や宗教的な文章などで見られる。現代の一般的な作文では、語義1の他動詞型、または hold out / stand firm が使いやすい。  
+【レジスター/領域】まれな用法。文語的な叙述や宗教的な文章などで見られる。現代の一般的な作文では、語義1の他動詞型や、hold out、stand firm が使いやすい。  
 
 【文法パターン】someone + withstand、be able to withstand のように、耐える相手・対象を直接置かない。必要なら in times of hardship などの状況の付加部を加える。in は withstand が要求する補語ではなく、抵抗する相手を導く前置詞でもない。この自動詞用法に受動態はない。  
 
