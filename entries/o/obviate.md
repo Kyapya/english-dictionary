@@ -3,9 +3,9 @@ headword: obviate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -65,7 +65,7 @@ obvious「明らかな」は obviam を共有し、via「～経由で」はラ�
 訳: 仕入先の詳しい説明によって、それ以上問い合わせる必要がなくなった。  
 
 ・be obviated by 〈対策〉  
-用途: 不要になる必要・手続きを主語にした受動態を使う。  
+用途: 必要性や手続きを主語にした受動態を使う。  
 例: The need for a second inspection was obviated by continuous monitoring.  
 訳: 継続的な監視によって、二度目の点検は必要なくなった。  
 

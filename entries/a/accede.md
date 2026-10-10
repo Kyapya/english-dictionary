@@ -3,9 +3,9 @@ headword: accede
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -199,7 +199,7 @@ acceded /əkˈsiː.dɪd/ と acceding /əkˈsiː.dɪŋ/ は3音節。acceded の
 ・accede to office  
 用途: 高い役職への就任を硬い叙述で表す。  
 例: He acceded to office at a time of deep political division.  
-訳: 彼は政治的な分断が深まっていた時期に就任した。  
+訳: 彼は政治的な分断が深刻だった時期に就任した。  
 
 ・accede upon someone's death  
 用途: すでに分かっている王位を繰り返さず、継承の時点を述べる。  

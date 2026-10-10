@@ -3,9 +3,9 @@ headword: predicate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -22,7 +22,7 @@ preach「説教する」は同じ praedicare に由来する。predicament「苦
 
 ＃語形成
 
-・predicates / predicated / predicating：動詞の規則活用。predicating は末尾の e を落とす。名詞の複数形も predicates だが、語尾の発音は名詞の /kət/ を保つ。  
+・predicates / predicated / predicating：動詞の規則活用。predicating は末尾の e を落とす。名詞の複数形も predicates で、-cate の /kət/ を保ち、複数語尾 /s/ が付く。  
 ・predication：名詞。「叙述・述定」、すなわち主題に何かを当てはめて述べること。論理学・言語学で使う専門語で、過程は不可算、個々の述定は可算にもなる。  
 ・predicative：形容詞。「叙述的な・述語として働く」。文法の predicative use は、形容詞などが補語として主語や目的語について述べる使い方。  
 ・predicatively：副詞。「叙述的に・述語として」。be used predicatively のように使う。  
@@ -30,7 +30,7 @@ preach「説教する」は同じ praedicare に由来する。predicament「苦
 
 ＃意味・用法・関連表現
 
-1. 【動詞・他動詞、受動態が多い】根拠に置く・前提に基づかせる
+1. 【動詞・他動詞、受動態が多い】根拠を置く・前提に基づかせる
 
 【日本語訳・定義】計画、予測、判断、行動などを、ある事実・原則・想定を土台として成り立たせる。能動文では人・組織などが計画を何かに基づかせ、受動文では計画などが主語になる。根拠が実証済みの事実であるとは限らず、仮定や誤った前提も置ける。文脈によって、その前提が崩れると計画・主張も成り立たないという依存関係を示す。  
 
@@ -225,14 +225,14 @@ be predicated on a forecast は「ある予測を前提とする」で、predica
 頻度: 〈6/10〉  
 違い: attribute a quality to someone の形で、to が対象を示す。predicate a quality of someone は、その属性を述べるという論理・言語上の関係を強調する。  
 例: The study attributes different priorities to different age groups.  
-訳: その研究は、年代ごとに異なる優先事項を持つと見ている。  
+訳: その研究は、年代層ごとに優先事項が異なると見ている。  
 
 ・ascribe  
 定義: 性質・特徴を、特定の人や物に帰属させる。  
 頻度: 〈4/10〉  
 違い: attribute に近い硬い語で、ascribe something to someone/something。predicate のように述語表現を主題に結び付ける専門操作を必ずしも指さない。  
 例: The writer ascribes remarkable patience to the character.  
-訳: 作家は、その登場人物に並外れた忍耐力を持たせている。  
+訳: 作家は、その登場人物に並外れた忍耐力があると述べている。  
 
 5. 【名詞・可算】述語・属性や関係を表す表現
 

@@ -3,9 +3,9 @@ headword: perfunctory
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -34,7 +34,7 @@ tags: []
 
 【レジスター/領域】ややフォーマル。仕事の質、接客、挨拶、批評、人物描写。相手の対応を直接 perfunctory と呼ぶと批判になる。  
 
-【文法パターン】a perfunctory 〈単数の行為・反応〉＝形だけの行為など／perfunctory 〈不可算の注意・複数の質問〉＝十分でない注意など／〈行為・対応〉 + be/seem perfunctory＝その行為が形だけである・そう見える／someone + be perfunctory in 〈対応・行為〉＝その対応に熱意や注意を示さない。rather perfunctory のように程度を表せ、比較級・最上級は more/most perfunctory。merely/purely perfunctory は「単に形だけの／まったく形だけの」という限定・強調を表す。名詞修飾と補語のどちらでも使い、特定の前置詞や that 節を必須補語に取る形容詞ではない。  
+【文法パターン】a perfunctory 〈単数の行為・反応〉＝形だけの行為など／perfunctory 〈不可算の注意・複数の質問〉＝十分でない注意など／〈行為・対応〉 + be/seem perfunctory＝その行為が形だけである・そう見える／someone + be perfunctory in 〈対応・行為〉＝その対応に熱意や注意を示さない。rather perfunctory のように程度を表せ、比較級・最上級は more/most perfunctory。merely perfunctory は「単に形だけの」、purely perfunctory は「まったく形だけの」という限定・強調を表す。名詞修飾と補語のどちらでも使い、特定の前置詞や that 節を必須補語に取る形容詞ではない。  
 
 【コロケーション・構文例】
 
@@ -51,7 +51,7 @@ tags: []
 ・a perfunctory apology  
 用途: 謝罪の形は取っていても誠意が感じられないと述べる。  
 例: The company issued a perfunctory apology without addressing the customers' concerns.  
-訳: 会社は顧客の懸念に答えず、形だけの謝罪を出した。  
+訳: 会社は顧客の懸念に答えず、形だけの謝罪をした。  
 
 ・make a perfunctory effort to do something  
 用途: 行為を試みても、その努力が形だけにとどまると評価する。  

@@ -3,9 +3,9 @@ headword: ancillary
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -60,7 +60,7 @@ tags: []
 ・ancillary equipment  
 用途: 主要装置を補助する機器を指す。  
 例: The installation requires ancillary equipment for cooling and ventilation.  
-訳: その設備を設置するには、冷却と換気のための補助機器が必要だ。  
+訳: その設備には、冷却と換気のための補助機器が必要だ。  
 
 ・an ancillary role  
 用途: 主役を支える役割を述べる。  
@@ -77,7 +77,7 @@ tags: []
 例: The grant covers services ancillary to the research, including translation.  
 訳: その助成金は、翻訳を含む研究支援サービスの費用を賄う。  
 
-【語法・注意】ancillary to research の to は不定詞の to ではない。「研究を行うことを補助する」なら ancillary to conducting research とできるが、何が本体なのかを名詞で示す ancillary to the research の方が簡潔な場合が多い。補助関係を表す標準形は ancillary to で、同じ意味で一律に ancillary with としない。ancillary staff の ancillary は形容詞、the ancillaries の ancillaries は語義4の名詞。医療の ancillary services は、施設・制度によって検査や治療関連のサービスを含むこともあり、常に清掃・給食だけを指すわけではない。more ancillary のような比較は役割の中心性を比べる文脈なら可能だが、機器の分類に very ancillary を機械的に加えない。  
+【語法・注意】ancillary to research の to は不定詞の to ではない。「研究を行うことを補助する」なら ancillary to conducting research とできるが、何が本体なのかを名詞で示す ancillary to the research の方が簡潔な場合が多い。補助関係を表す標準形は ancillary to で、同じ意味で一律に ancillary with としない。ancillary staff の ancillary は形容詞、the ancillaries の ancillaries は名詞で、文脈により語義3の付属品・付加サービス、または語義4の補助職員を表す。医療の ancillary services は、施設・制度によって検査や治療関連のサービスを含むこともあり、常に清掃・給食だけを指すわけではない。more ancillary のような比較は役割の中心性を比べる文脈なら可能だが、機器の分類に very ancillary を機械的に加えない。  
 
 【類義語】
 
@@ -244,7 +244,7 @@ tags: []
 頻度: 〈8/10〉  
 違い: より平易で、追加料金を要するオプションにもよく使う。ancillary は業務上の項目区分として硬い響きがある。  
 例: Breakfast is an optional extra.  
-訳: 朝食は任意の追加サービスだ。  
+訳: 朝食は、希望者が追加料金を払って利用するサービスだ。  
 
 ・adjunct  
 定義: 主たるものに加えて、その働きを補う物や手段。  

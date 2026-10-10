@@ -3,9 +3,9 @@ headword: espouse
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -53,7 +53,7 @@ spouse「配偶者」と sponsor「後援者・後援する」も、この「約
 ・espouse the view that 〈節〉  
 用途: 支持する見解の内容を節で詳しく述べる。  
 例: She espouses the view that employees should have greater control over their schedules.  
-訳: 彼女は、従業員が勤務日程をより自由に決められるべきだという見解を支持している。  
+訳: 彼女は、従業員が勤務日程を決める裁量をもっと持つべきだという見解を支持している。  
 
 ・espouse the idea of doing something  
 用途: 行動案への賛同を述べる。  
@@ -88,7 +88,7 @@ espouse は採用・支持の姿勢を表し、制度を実施に移すなら im
 頻度: 〈8/10〉  
 違い: 選び取って採用することに重点がある。espouse は、その理念などへの賛同・支持という立場を表しやすい。  
 例: The board adopted a new policy on remote work.  
-訳: 取締役会は、在宅勤務に関する新しい方針を採用した。  
+訳: 取締役会は、リモート勤務に関する新しい方針を採用した。  
 
 ・embrace  
 定義: 考え・変化・価値観などを積極的に受け入れる。  

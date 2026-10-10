@@ -3,9 +3,9 @@ headword: moot
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -289,7 +289,7 @@ SNSで相互フォロー相手を指す名詞 moot は、mutual「相互の・�
 頻度: 〈5/10〉  
 違い: 対策が問題や必要をなくす点に重心がある。moot は問題が未解決でも、状況の変化で論じる実益が消えることを表せる。  
 例: The extra storage space obviated the need for a second warehouse.  
-訳: 保存スペースが増えたことで、二つ目の倉庫は必要なくなった。  
+訳: 保管スペースが増えたことで、二つ目の倉庫は必要なくなった。  
 
 5. 【形容詞・主に限定】模擬の・仮定上の
 
@@ -306,7 +306,7 @@ SNSで相互フォロー相手を指す名詞 moot は、mutual「相互の・�
 ・a moot case  
 用途: 仮定された事件を教材として扱う。  
 例: The students were given a moot case involving a fictional dispute between two software companies.  
-訳: 学生たちは、架空のソフトウェア会社2社の紛争を扱う模擬事件を与えられた。  
+訳: 学生たちは、ソフトウェア会社2社間の架空の紛争を扱う模擬事件を与えられた。  
 
 ・a moot hearing  
 用途: 練習のための審理を述べる。  
