@@ -3,9 +3,9 @@ headword: substantive
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -34,7 +34,7 @@ substance「物質、実体、中身」、substantial「かなりの、実質の
 
 【頻度】〈7/10〉  
 
-【レジスター/領域】改まった表現。文書の編集、会議、交渉、政策、研究、報道など。日常会話では meaningful / important / real など、意図に合う平易な語でも言える。  
+【レジスター/領域】改まった表現。文書の編集、会議、交渉、政策、研究、報道など。日常会話では meaningful、important、real など、意図に合う平易な語でも言える。  
 
 【文法パターン】substantive 〈changes / issues / discussions / evidence〉、a substantive 〈response / proposal / reason〉＝内容・論点・根拠に実質があることを示す／something + be / become / seem substantive＝実質的である／something substantive、nothing substantive＝不定代名詞の後ろに置く／make substantive changes to something＝内容に関わる変更を加える／give a substantive response to something＝論点に踏み込んで答える／a substantive reason for doing＝実質的な理由。限定用法が特に多いが、The changes are substantive. のような叙述用法も可能。議論・回答などについて more substantive / sufficiently substantive と内容の充実度を比較・修飾できる。to / on / for などは changes / response / discussions / reason との結合によるもので、substantive 自体に一律に必要な前置詞ではない。  
 
@@ -48,7 +48,7 @@ substance「物質、実体、中身」、substantial「かなりの、実質の
 ・a substantive issue  
 用途: 進め方だけでなく、本題となる問題を取り上げる。  
 例: After agreeing on the agenda, the committee turned to the substantive issue of funding.  
-訳: 議題の順序に合意した後、委員会は資金調達という本題に移った。  
+訳: 議事予定に合意した後、委員会は資金調達という本題に移った。  
 
 ・substantive discussions about something  
 用途: 挨拶や顔合わせにとどまらず、実際の問題について踏み込んで話す。  

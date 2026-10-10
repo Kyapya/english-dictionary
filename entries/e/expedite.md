@@ -3,9 +3,9 @@ headword: expedite
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -158,7 +158,7 @@ expedient「目的にかなう、便宜的な」、expedition「遠征、探検�
 
 【頻度】〈2/10〉  
 
-【レジスター/領域】まれな用法。公的・軍事的な文書や古めの叙述など。現代の通常の実務文では send / dispatch / issue で明確に言うことが多い。  
+【レジスター/領域】まれな用法。公的・軍事的な文書や古めの叙述など。現代の通常の実務文では send、dispatch、issue で明確に言うことが多い。  
 
 【文法パターン】expedite 〈書類・通知など〉 (to someone)＝書類などを発送・発出する／expedite 〈人員・部隊〉 to 〈場所〉＝そこへ送り出す。直接目的語を取る他動詞で、送り先を to で付けられる。be expedited to 〈場所・受取人〉という受動態も可能。語義1の「迅速化」と文脈によって重なるため、何がどこへ送られるかを確認する。  
 
@@ -167,7 +167,7 @@ expedient「目的にかなう、便宜的な」、expedition「遠征、探検�
 ・expedite 〈公文書〉 to someone  
 用途: 文語的な記述で、公文書を相手へ発送する。  
 例: The clerk expedited the signed documents to the provincial office by courier.  
-訳: 書記官は、署名済みの書類を使者便で地方事務所へ発送した。  
+訳: 書記官は、署名済みの書類を使者に託して地方事務所へ発送した。  
 
 ・expedite 〈部隊〉 to 〈場所〉  
 用途: 軍事的な叙述で、部隊を目的地へ送り出す。  

@@ -3,9 +3,9 @@ headword: compelling
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -169,7 +169,7 @@ compel「強いる、強く駆り立てる」の現在分詞から生まれた�
 ・a compelling performance  
 用途: 演技や上演が観客を引き付けると評価する。  
 例: The actor gave a compelling performance as a leader facing an impossible choice.  
-訳: その俳優は、どちらも選び難い決断を迫られる指導者を、目が離せない演技で表現した。  
+訳: その俳優は、非常に難しい選択を迫られる指導者を、目が離せない演技で表現した。  
 
 ・a compelling personality  
 用途: 人そのものの強い存在感や魅力を表す。  

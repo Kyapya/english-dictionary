@@ -3,9 +3,9 @@ headword: provision
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -162,7 +162,7 @@ provide「提供する、備える」と同じ系統で、vision「視覚、展�
 ・make provision for someone to do something  
 用途: 誰が何をできるように手配するのかを明示する。  
 例: The plan makes provision for employees to work remotely during the renovation.  
-訳: その計画は、改装中に従業員が在宅勤務できるように手配している。  
+訳: その計画は、改装中に従業員がリモート勤務できるように手配している。  
 
 ・make provisions to do something  
 用途: 実施予定の行動に向けて準備をすることを述べる。  

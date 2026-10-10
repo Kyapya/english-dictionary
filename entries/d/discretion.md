@@ -3,9 +3,9 @@ headword: discretion
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -121,7 +121,7 @@ discern「見分ける」、discreet「慎重な、口の堅い」、discrete「
 
 【頻度】〈6/10〉  
 
-【レジスター/領域】中立～やや改まった表現。機密性のある会話、対人配慮、慎重な行動。映像などの注意書きやことわざにも使う。age / years of discretion は主に古めの文章や制度的な文脈で見られる。  
+【レジスター/領域】中立～やや改まった表現。機密性のある会話、対人配慮、慎重な行動。映像などの注意書きやことわざにも使う。age of discretion および years of discretion は主に古めの文章や制度的な文脈で見られる。  
 
 【文法パターン】use / exercise discretion (in doing)＝発言・行動に慎重な判断を働かせる／with discretion＝慎重に、内密に／show discretion＝分別を示す／rely on someone's discretion＝相手の慎重さ・口の堅さを頼りにする／the utmost discretion＝最大限の慎重さ／be the soul of discretion＝非常に口が堅く慎重な人である。Viewer discretion is advised. は慎重な視聴判断を促す定型文。Discretion is the better part of valour. は危険を避ける分別を勧めることわざ。throw discretion to the winds＝分別をかなぐり捨てる／reach the age of discretion、reach years of discretion＝分別を持って自分で判断できるとみなされる年齢に達する。  
 
