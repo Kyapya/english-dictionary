@@ -3,9 +3,9 @@ headword: capitulate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -44,7 +44,7 @@ chapter「章」は capitulum、capital「主要な・首都の」は caput を�
 ・capitulate to pressure  
 用途: 外部からの圧力に抵抗しきれず折れることを述べる。  
 例: The publisher capitulated to pressure and withdrew the book.  
-訳: 出版社は圧力に屈して、その本を撤回した。  
+訳: 出版社は圧力に屈して、その本を取り下げた。  
 
 ・capitulate to someone's demands  
 用途: 特定の相手が突きつけた要求を受け入れる。  
@@ -104,7 +104,7 @@ chapter「章」は capitulum、capital「主要な・首都の」は caput を�
 頻度: 〈4/10〉  
 違い: 積極的な賛成とは限らない受容の態度に重点があり、それ以前に激しく対立していたとは限らない。capitulate は抵抗をやめる局面を際立たせる。  
 例: The board acquiesced in the director's decision.  
-訳: 理事会は理事長の決定を異議なく受け入れた。  
+訳: 理事会は理事の決定を異議なく受け入れた。  
 
 ・succumb  
 定義: 圧力や誘惑などに抗しきれず屈する。  

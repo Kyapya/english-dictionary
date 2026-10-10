@@ -3,9 +3,9 @@ headword: vie
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 ---
 
@@ -21,7 +21,7 @@ checked: true
 
 ＃語形成
 
-・vying：vie の現在分詞。be vying は進行形、vying factions「競い合う派閥」は分詞の修飾用法。Their constant vying for attention was tiring.「彼らが絶えず注目を競い合うのには、うんざりした」のように、競い合う行為を名詞的に表すこともある。いずれも、競争という動詞の意味を保つ。  
+・vying：vie の現在分詞。be vying は進行形、vying factions「競い合う派閥」は分詞の修飾用法。Their constant vying for attention was tiring.「彼らの絶え間ない注目の奪い合いには、疲れさせられた」のように、競い合う行為を名詞的に表すこともある。いずれも、競争という動詞の意味を保つ。  
 
 ・vier：-er による可算名詞で「競う人」。辞書に載る語だが一般的ではなく、通常は competitor や contender など、場面に合う語を使う。  
 

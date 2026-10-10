@@ -3,9 +3,9 @@ headword: inundate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -24,7 +24,7 @@ inundates の語末は /s/ で音節を増やさない。inundated は /ˈɪnʌn
 
 ・inundates / inundated / inundating：三人称単数現在形／過去形・過去分詞／現在分詞。語末の e を落として inundating とし、inundateing と綴らない。  
 ・inundated：過去分詞で、「大量の仕事などに圧倒された」「水で覆われた」という状態を表す修飾にも使う。an inundated office「大量の仕事などが押し寄せた事務所」、inundated farmland「浸水した農地」の意味は元の動詞と文脈から分かる。これだけで別の心理状態などを表す独立語義にはしない。  
-・inundation：名詞「浸水・冠水」「大量の流入」。現象としては不可算、個々の発生や一群の大量流入としては可算でも使う。coastal inundation「沿岸の浸水」、an inundation of applications「応募の殺到」のように使い、主動詞より硬い。英語ではこの名詞が動詞より先に記録されており、意味上対応する名詞だからといって、英語内で後から機械的に作られたと考えない。  
+・inundation：名詞「浸水・冠水」「大量の流入」。現象としては不可算、個々の発生や一群の大量流入としては可算でも使う。coastal inundation「沿岸の浸水」、an inundation of applications「応募の殺到」のように使い、動詞 inundate より硬い。英語ではこの名詞が動詞より先に記録されており、意味上対応する名詞だからといって、英語内で後から機械的に作られたと考えない。  
 
 ＃意味・用法・関連表現
 
@@ -140,7 +140,7 @@ offers of help や gifts でも使えるため、「迷惑な依頼だけ」と�
 ・inundate low-lying areas  
 用途: 水位の上昇によって低地が水に覆われると述べる。  
 例: Rising river water inundated low-lying areas overnight.  
-訳: 上昇した川の水が、一晩のうちに低地を水浸しにした。  
+訳: 増水した川の水が、一晩のうちに低地を水浸しにした。  
 
 ・inundate 〈場所〉 with water  
 用途: 水をもたらす原因を主語にし、水に覆われる場所を目的語にする。  

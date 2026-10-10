@@ -4,9 +4,9 @@ type: word
 status: checked
 prompt_version: entry_spec_v5
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 ---
 
 ＃発音記号
@@ -140,7 +140,7 @@ model: gpt-6-astra xhigh
 ・not relent in 〈取り組み〉  
 用途: 人・組織が、継続する活動や追求で手を緩めないことを述べる。  
 例: The researchers would not relent in their search for an explanation.  
-訳: 研究者たちは原因を突き止めようとする取り組みを少しも緩めなかった。  
+訳: 研究者たちは説明を見いだそうとする取り組みを少しも緩めなかった。  
 
 ・relent for a moment  
 用途: 勢いが弱まった短い時間、または一瞬も弱まらないことを示す。  

@@ -3,9 +3,9 @@ headword: delineate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -275,9 +275,9 @@ line「線」と linear「線状の・直線的な」は linea を共有する�
 訳: 拡大画像はぼやけがほとんどなく、縁がくっきりしている。  
 
 ・delineated lanes  
-用途: 線によって区画が示されている走行帯を述べる。  
+用途: 線によって通行用の区画が明示されていることを述べる。  
 例: The path has two clearly delineated lanes, one for cyclists and one for pedestrians.  
-訳: その道には、自転車用と歩行者用の二つの帯が明確に区切られている。  
+訳: その道は、自転車用と歩行者用の二つのレーンに明確に区切られている。  
 
 ・seem clearly delineated  
 用途: 輪郭の見え方を状態として述べる。  
