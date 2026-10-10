@@ -3,9 +3,9 @@ headword: provisional
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -24,7 +24,7 @@ provision「備え、用意」に形容詞を作る -al が付いた形で、フ
 
 ・provisionally：副詞。「暫定的に、仮に」。provisionally approve the plan「計画を暫定承認する」、provisionally agree on a date「日付について仮に合意する」のように使う。実際に当面有効なのか、まだ確認待ちなのかは動詞と文脈による。  
 
-・provisionals：名詞の複数形。ゴルフでは provisional ball を縮めた名詞が「暫定球」、郵趣では名詞化した語が「暫定発行の切手」を指す。形容詞に複数の -s を付けたものではない。  
+・provisionals：名詞の複数形。米国の公務員制度などでは「暫定任用者」、ゴルフでは provisional ball を縮めた名詞が「暫定球」、郵趣では名詞化した語が「暫定発行の切手」を指す。形容詞に複数の -s を付けたものではない。  
 
 ＃コアイメージ
 
@@ -38,6 +38,8 @@ provision「備え、用意」に形容詞を作る -al が付いた形で、フ
 
 ・通常の供給までの暫定的な切手 → 「暫定発行の切手」（語義4）  
 
+・正式な任用までの暫定的な人員 → 「暫定任用者」（語義5）  
+
 ＃意味・用法・関連表現
 
 1. 【形容詞・限定用法／叙述用法】暫定的な、正式なものが整うまでの
@@ -48,7 +50,7 @@ provision「備え、用意」に形容詞を作る -al が付いた形で、フ
 
 【レジスター/領域】やや改まった語。行政、報道、組織運営、業務上の承認・取り決めで使う。日常会話でも理解されるが、単に短期間という意味では temporary のほうが広く使われる。  
 
-【文法パターン】a provisional 〈government/system/arrangement〉＝暫定的な政府・制度・取り決め／provisional approval for something＝～に対する暫定承認／on a provisional basis＝暫定的な扱いで／something is provisional＝ある制度・取り決めなどは暫定的である／something remains provisional until 〈節〉＝～まで暫定的な状態が続く。名詞の前にも補語にも使える。主語は通常、措置・状態・取り決めなどであり、人に使う場合はその人の地位・任用などが暫定的だという文脈が必要。英国の a provisional driving licence／a provisional licence は運転を学ぶ段階の免許証を指す定着表現。主に状態の区分を表すが、highly provisional のように暫定性の強さを強調することもある。  
+【文法パターン】a provisional 〈government/system/arrangement〉＝暫定的な政府・制度・取り決め／provisional approval for something＝～に対する暫定承認／on a provisional basis＝暫定的な扱いで／something is provisional＝ある制度・取り決めなどは暫定的である／something remains provisional until 〈節〉＝～まで暫定的な状態が続く。名詞の前にも補語にも使える。主語は通常、措置・状態・取り決めなどであり、人に使う場合はその人の地位・任用などが暫定的だという文脈が必要。英国の a provisional driving licence（短く a provisional licence ともいう）は運転を学ぶ段階の免許証を指す定着表現。主に状態の区分を表すが、highly provisional のように暫定性の強さを強調することもある。  
 
 【コロケーション・構文例】
 
@@ -75,7 +77,7 @@ provision「備え、用意」に形容詞を作る -al が付いた形で、フ
 ・remain provisional until 〈節〉  
 用途: 正式な制度などへ移るまでの暫定性を補語で表す。  
 例: These arrangements will remain provisional until a permanent agreement is signed.  
-訳: 恒久的な合意が署名されるまで、これらの取り決めは暫定的なものとして続く。  
+訳: 恒久的な合意書に署名がなされるまで、これらの取り決めは暫定的なものとして続く。  
 
 ・a provisional driving licence  
 用途: 英国で、運転を学ぶ段階で所持する免許証を指す。  
@@ -253,3 +255,41 @@ provision「備え、用意」に形容詞を作る -al が付いた形で、フ
 【語法・注意】ここでは切手そのものを指すので、形容詞の「暫定的な」だけで訳を終えない。暫定発行であることは非公認・偽物であることを意味せず、発行主体や有効だった期間は個々の切手の歴史による。  
 
 名詞の複数 provisionals は、ゴルフの暫定球を指す語義3でも使われるため、収集・発行・郵便といった周囲の語から区別する。  
+
+5. 【名詞・可算・主に米国の公務員制度】暫定任用者
+
+【日本語訳・定義】正式な任用に向けた試験や選考などを待つ間、暫定的な資格で雇用・任用されている人を指す。米国の公務員制度などで使われ、将来その人自身が必ず正式任用されることは意味しない。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】主に米国の公務員人事・行政。ニューヨーク市などの任用制度で見られる専門的な名詞用法。一般の短期雇用者全般を日常的に呼ぶ語ではない。  
+
+【文法パターン】a provisional＝暫定任用者1人／work as a provisional＝暫定任用者として働く／employ provisionals＝暫定任用者を雇用する／replace provisionals with 〈正式任用者など〉＝暫定任用者をその人たちに交代させる。単数では a/the などを伴い、複数形は provisionals。  
+
+【コロケーション・構文例】
+
+・work as a provisional  
+用途: 公務員の任用上の身分を、単数の可算名詞で示す。  
+例: She works as a provisional in a New York City agency while awaiting the civil service examination for her title.  
+訳: 彼女は自分の職種の公務員試験を待ちながら、ニューヨーク市の行政機関で暫定任用者として働いている。  
+
+・employ provisionals  
+用途: 行政機関が暫定任用者を雇用していると述べる。  
+例: The city agency employs several provisionals because no appropriate civil service list is available.  
+訳: 適切な公務員任用候補者名簿がないため、その市の行政機関は数人の暫定任用者を雇用している。  
+
+・replace provisionals with permanent appointees  
+用途: 任用候補者名簿に基づく正式任用者への交代を述べる。  
+例: The agency plans to replace provisionals with permanent appointees selected from the new civil service list.  
+訳: その行政機関は、暫定任用者に代えて、新しい公務員任用候補者名簿から選ばれた正式任用者を配置する予定だ。  
+
+【語法・注意】a provisional は人を指す名詞で、a provisional employee や a provisional appointee の provisional は後続名詞を修飾する形容詞。ニューヨーク市では、適切な任用候補者名簿がない場合に、資格を確認した人を競争試験後の選考・任用まで暫定的に任用する制度がある。ただし、試験の実施、任用期間、正式任用の条件は制度ごとに確認する必要があり、単に一定期間働けば自動的に正式任用になるという意味ではない。同市の制度では temporary appointment と provisional appointment は別区分なので、日本語でどちらも「臨時」と訳せることを理由に同一視しない。語義3・4の名詞と異なり、この用法の指示対象は人である。  
+
+【類義語】
+
+・provisional appointee  
+定義: 暫定的な資格で任用された人。  
+頻度: 〈2/10〉  
+違い: 同じ人事上の身分を明示する表現。単独名詞 provisional よりも、任用された人を指すことが分かりやすく、人事規則などに使われる。  
+例: The personnel office explained the appointment conditions to each provisional appointee.  
+訳: 人事担当部署は、各暫定任用者に任用条件を説明した。  

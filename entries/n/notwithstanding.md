@@ -3,9 +3,9 @@ headword: notwithstanding
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -81,7 +81,7 @@ withstand の歴史的な with- は「対して」、stand は「立つ」の要
 ・notwithstanding 〈条項・規定を示す名詞句〉  
 用途: 別の規定があっても、今述べる扱いが適用されると示す。  
 例: Notwithstanding paragraph 3, late applications may be accepted in exceptional circumstances.  
-訳: 第3項の規定にかかわらず、例外的な事情がある場合には、期限後の申請を受け付けることがある。  
+訳: 第3項の規定にかかわらず、例外的な事情がある場合には、期限後の申請を受け付けることができる。  
 
 ・notwithstanding anything to the contrary in 〈文書〉  
 用途: 文書中の相反する定めに優先する扱いを述べる定型的な形。  
@@ -131,7 +131,7 @@ notwithstanding the fact that では the fact が名詞句の核になる。notw
 
 【頻度】〈3/10〉  
 
-【レジスター/領域】硬め・文章的。名詞句と組む語義1より限られ、会話や平易な説明では still / nevertheless / even so などが使いやすい。  
+【レジスター/領域】硬め・文章的。名詞句と組む語義1より限られ、会話や平易な説明では still、nevertheless、even so などが使いやすい。  
 
 【文法パターン】Notwithstanding, 〈主節〉＝文頭で「それでも」とつなぐ／〈主節〉 + notwithstanding＝文末で前の事情を受けて「それでも」と添える。直前の文と一文にする場合、セミコロンや but などで主節同士を適切につなぐ。通常、程度を比べたり very で修飾したりはしない。  
 

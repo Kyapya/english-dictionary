@@ -3,9 +3,9 @@ headword: requisite
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -173,7 +173,7 @@ tags: []
 ・the requisites of something  
 用途: 活動や性質の成立に必要な要素をまとめて述べる。  
 例: The guide discusses the basic requisites of clear scientific writing.  
-訳: その手引きは、明確な科学論文を書くための基本的な要件を論じている。  
+訳: その手引きは、科学分野の文章を明確に書くための基本的な要件を論じている。  
 
 ・office requisites  
 用途: 事務で使う必要な用品を、やや改まった商品分類などとして表す。  

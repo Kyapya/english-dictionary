@@ -3,9 +3,9 @@ headword: ambivalent
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -53,7 +53,7 @@ tags: []
 ・be ambivalent about whether to do something  
 用途: 選択を前に、気持ちの方向がまだ定まらないことを示す。  
 例: I'm still ambivalent about whether to accept the offer; I can't quite tell how I feel about moving.  
-訳: その申し出を受けるかどうか、まだ気持ちが定まらない。引っ越すことを自分がどう感じているのか、はっきりしない。  
+訳: その申し出を受けるかどうか、まだ気持ちが定まらない。引っ越すことについて自分がどう感じているのか、はっきりしない。  
 
 ・be ambivalent toward(s) someone  
 用途: 同じ相手への好意・尊敬と反感などが混在することを述べる。  
@@ -80,7 +80,7 @@ tags: []
 例: Even after the trial period, several employees remained deeply ambivalent about the new working arrangements.  
 訳: 試行期間が終わっても、何人もの従業員は新しい勤務形態に依然として強い割り切れなさを感じていた。  
 
-【語法・注意】ambivalent は「どうでもよい」とは限らない。I feel ambivalent about the plan. は「計画に複雑な気持ちがある」、I am indifferent to the plan. は「計画に関心がない」という対照になる。迷いの原因を必ず賛成50％・反対50％として説明する必要はなく、一般用法には気持ちがはっきりしない場合も含まれる。ただし、単に情報不足で事実が分からない「列車が何時に着くか分からない」には uncertain などを用いる。ambiguous は表現・状況が複数の解釈を許すことが中心で、Her answer was ambiguous.「彼女の答えはどちらとも取れた」は、その人の内心に相反する感情があったことを必ずしも意味しない。ambivalent response は、反応に割り切れない態度が表れたという点に焦点がある。行為を続ける基本形は about doing で、誤: I am ambivalent to accept the offer. → 正: I am ambivalent about accepting the offer.。toward と towards はどちらも使われる。気持ちが揺れていても決断・行動はできるため、「何も決めていない」と必ず訳すのも避ける。  
+【語法・注意】ambivalent は「どうでもよい」とは限らない。I feel ambivalent about the plan. は「計画に複雑な気持ちがある」、I am indifferent to the plan. は「計画に関心がない」という対照になる。迷いの原因を必ず賛成50％・反対50％として説明する必要はなく、一般用法には気持ちがはっきりしない場合も含まれる。ただし、単に情報不足で事実が分からない「列車が何時に着くか分からない」には uncertain などを用いる。ambiguous は表現・状況が複数の解釈を許すことが中心で、Her answer was ambiguous.「彼女の答えはどちらとも取れた」は、その人の内心に相反する感情があったことを必ずしも意味しない。ambivalent response は、反応に割り切れない態度が表れたという点に焦点がある。行為について述べる基本形は about doing で、誤: I am ambivalent to accept the offer. → 正: I am ambivalent about accepting the offer. toward と towards はどちらも使われる。気持ちが揺れていても決断・行動はできるため、「何も決めていない」と必ず訳すのも避ける。  
 
 【類義語】
 
