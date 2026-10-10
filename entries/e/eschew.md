@@ -3,9 +3,9 @@ headword: eschew
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -80,7 +80,7 @@ tags: []
 ・be eschewed by someone  
 用途: ある手段や慣行が、特定の人々によって意識的に避けられていると述べる。  
 例: Aggressive sales tactics are eschewed by the company, which relies on repeat customers.  
-訳: その会社は常連客を重視しており、強引な販売手法を避けている。  
+訳: その会社は常連客に支えられており、強引な販売手法を避けている。  
 
 【語法・注意】直接目的語を取るため、refrain from や abstain from の from を持ち込まない。誤: They eschew from using jargon.／正: They eschew using jargon. または They refrain from using jargon. eschew using jargon は他動詞と動名詞目的語、refrain from using jargon は自動詞・前置詞 from・動名詞の組み合わせである。  
 
@@ -123,7 +123,7 @@ eschewed は通常の過去分詞として、受動態や名詞の修飾に使�
 ・forgo  
 定義: 得られるものや実行できることを、あえて得ず・行わずに済ませる。  
 頻度: 〈5/10〉  
-違い: 楽しみ・利益・機会を見送ることに重点があり、対象を悪いものだと考えている必要はない。eschew も望ましいものを避ける場合に使えるが、選択を避ける方針の響きが強い。  
+違い: 楽しみ・利益・機会を見送ることに重点があり、対象を悪いものだと考えている必要はない。eschew も望ましいものを避ける場合に使えるが、その対象を採らない方針の響きが強い。  
 例: We decided to forgo dessert and catch the earlier train.  
 訳: 私たちはデザートをやめて、一本早い電車に乗ることにした。  
 
@@ -141,7 +141,7 @@ eschewed は通常の過去分詞として、受動態や名詞の修飾に使�
 頻度: 〈7/10〉  
 違い: 「意識的に避ける／積極的に受け入れる」という態度の方向の反対。方法・方針などを目的語とする場合の対立であり、eschew しないことが必ず embrace することを意味するわけではない。  
 例: The company embraced remote work as a permanent option.  
-訳: その会社は在宅勤務を恒常的な選択肢として積極的に受け入れた。  
+訳: その会社はリモート勤務を恒常的な選択肢として積極的に受け入れた。  
 
 ・adopt  
 定義: 方法・方針・慣行などを選んで取り入れる。  

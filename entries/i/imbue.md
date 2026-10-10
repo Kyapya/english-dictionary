@@ -3,9 +3,9 @@ headword: imbue
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -137,7 +137,7 @@ tags: []
 ・be deeply imbued with 〈信念・価値観〉  
 用途: 具体的な働きかけより、人物に深く根付いた信念に焦点を置く。  
 例: She is deeply imbued with the belief that public services should be accessible to everyone.  
-訳: 彼女には、公共サービスは誰もが利用できるべきだという信念が深く根付いている。  
+訳: 彼女には、公共サービスは誰もが利用できるものであるべきだという信念が深く根付いている。  
 
 ・become imbued with 〈感情・考え〉  
 用途: 経験などによって、考えや感情を強く帯びるようになる変化を述べる。  

@@ -3,9 +3,9 @@ headword: conflate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -112,7 +112,7 @@ conflate A and B と conflate A with B は、この語義では通常ほぼ同�
 頻度: 〈6/10〉  
 違い: 分類が粗雑であるという批判を表しやすい。conflate が概念の意味を混ぜたり同一視したりするのに対し、lump together は一つの区分にまとめる行為を前面に出す。  
 例: The study lumps together temporary workers and independent contractors.  
-訳: その研究は有期雇用の労働者と独立請負人をひとまとめにしている。  
+訳: その研究は一時的に雇われた労働者と独立請負人をひとまとめにしている。  
 
 【反意語】
 
@@ -160,7 +160,7 @@ conflate A and B と conflate A with B は、この語義では通常ほぼ同�
 ・conflate 〈複数の材料〉 into 〈一つの完成物〉  
 用途: 複数の原案・人物などを、明示した一つの形にまとめる。  
 例: The screenwriter conflated three minor characters into one supporting role.  
-訳: 脚本家は三人の脇役を一つの登場人物にまとめた。  
+訳: 脚本家は三人の脇役を一人の脇役にまとめた。  
 
 ・be conflated into 〈一つの完成物〉  
 用途: 元の複数の材料を主語にして、統合された結果を述べる。  

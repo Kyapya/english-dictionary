@@ -3,9 +3,9 @@ headword: belie
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -163,7 +163,7 @@ belie は通常、何を正しく表していないかを目的語で示す。�
 
 His skill belies his inexperience. のように能力と経験の少なさが対照される場合、経験不足という事実そのものを論理的に否定するとは限らない。「経験が少なければ不得手なはずだ」という予想を打ち消す読みもある。目的語の事実性は、語だけで一律に判定せず、外見・評価・主張のどの側面が否定されているかを読む。  
 
-belied は受動態の過去分詞、belying は目的語を取れる現在分詞である。誤: The evidence is believing the claim.／正: The evidence belies the claim. また、過去形は belied であり、ロープで確保する belay の過去形 belayed と取り違えない。  
+belied は過去形・過去分詞、belying は目的語を取れる現在分詞である。誤: The evidence is believing the claim.／正: The evidence belies the claim. また、過去形は belied であり、ロープで確保する belay の過去形 belayed と取り違えない。  
 
 【類義語】
 
@@ -186,7 +186,7 @@ belied は受動態の過去分詞、belying は目的語を取れる現在分�
 頻度: 〈6/10〉  
 違い: belie より、論争や論証の中で反駁する働きが前面に出る。単なる否定にも使われることがあるが、明確な文章では反証を伴う意味で使うと誤解が少ない。  
 例: The author refutes the accusation with dated correspondence.  
-訳: 著者は日付の入った書簡を示して、その非難に反証している。  
+訳: 著者は日付の入った書簡を示して、その非難の誤りを明らかにしている。  
 
 【反意語】
 

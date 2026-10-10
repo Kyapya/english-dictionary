@@ -3,9 +3,9 @@ headword: begrudge
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -136,7 +136,7 @@ not begrudge は「快く思わないわけではない・妬まない」。相�
 訳: こんな短い距離のタクシー移動に20ポンドも払うのは惜しい。  
 
 ・begrudge every penny  
-用途: 実際に出した費用を、一銭一銭惜しむ気持ちを強調する。  
+用途: 費用を一銭一銭惜しむ気持ちを強調する。  
 例: He paid the invoice, but begrudged every penny because the repairs had been poorly done.  
 訳: 彼は請求額を支払ったが、修理の出来が悪かったので、一銭たりとも気持ちよく払えなかった。  
 
@@ -160,7 +160,7 @@ not begrudge は「快く思わないわけではない・妬まない」。相�
 例: Even after the launch succeeded, he begrudged the team credit for its work.  
 訳: 発売が成功した後でさえ、彼はチームの働きを功績として認めることを渋った。  
 
-・not be begrudged  
+・should not be begrudged  
 用途: 必要な支出などを惜しむべきではない、と受動態で述べる。  
 例: The modest cost of regular maintenance should not be begrudged.  
 訳: 定期的な保守にかかるささやかな費用を惜しむべきではない。  
