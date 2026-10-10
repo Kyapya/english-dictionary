@@ -3,9 +3,9 @@ headword: commensurate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -55,7 +55,7 @@ tags: []
 訳: 経験と資格に見合った給与を提示します。  
 
 ・be commensurate with 〈責任・貢献〉  
-用途: 報酬などが担う責任や貢献に釣り合うと述べる。  
+用途: 報酬などが、責任の重さや貢献の程度に釣り合うと述べる。  
 例: Her compensation is not commensurate with the responsibilities she has taken on.  
 訳: 彼女の報酬は、引き受けている責任に見合っていない。  
 

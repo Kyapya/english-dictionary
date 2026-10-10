@@ -3,9 +3,9 @@ headword: amenable
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -47,7 +47,7 @@ menace「脅威」はこのラテン語の「脅し」の系統、demeanor「態
 
 【レジスター/領域】ややフォーマル。職場、提案、交渉、人柄の説明。丁寧な会話にも使える。  
 
-【文法パターン】someone/a team + be/seem/become amenable to 〈提案・変更などの名詞句〉／be amenable to 〈動名詞句〉／an amenable person／someone + be amenable。to は前置詞。比較相手や提案が明らかなら to 以下を省ける。限定・叙述の両方が可能で、very/quite/more/less amenable のように程度や比較を表せる。  
+【文法パターン】someone/a team + be/seem/become amenable to 〈提案・変更などの名詞句〉／be amenable to 〈動名詞句〉／an amenable person／someone + be amenable。to は前置詞。提案や依頼の内容が文脈から明らかなら、to 以下を省ける。限定・叙述の両方が可能で、very/quite/more/less amenable のように程度や比較を表せる。  
 
 【コロケーション・構文例】
 
@@ -222,7 +222,7 @@ menace「脅威」はこのラテン語の「脅し」の系統、demeanor「態
 ・conditions amenable to 〈生存・活動〉  
 用途: 生存や活動に適した条件を述べる。  
 例: The researchers are looking for conditions amenable to life on other planets.  
-訳: 研究者たちは、他の惑星で生命が生きられる条件を探している。  
+訳: 研究者たちは、他の惑星で生命が存在できる条件を探している。  
 
 ・an amenable environment  
 用途: 文脈から分かる活動や成長に好都合な環境を指す。  

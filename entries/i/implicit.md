@@ -3,9 +3,9 @@ headword: implicit
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: "OpenAI assistant (exact model not exposed)"
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -276,8 +276,8 @@ tags: []
 
 ・implicit memory  
 用途: 思い出そうとしなくても、過去の経験が後の反応に現れる記憶を説明する。  
-例: Faster recognition of previously seen words can provide evidence of implicit memory even when people do not recall seeing them.  
-訳: 以前見た単語だと本人が思い出せなくても、その単語をより速く認識できることは、潜在記憶の存在を示す証拠になり得る。  
+例: Faster identification of previously seen words can provide evidence of implicit memory even when people do not recall seeing them.  
+訳: 以前見たことを本人が思い出せなくても、その単語をより速く識別できることは、潜在記憶の存在を示す証拠になり得る。  
 
 ・implicit learning  
 用途: 規則を意識的に説明できなくても、経験からその規則を身に付ける学習を説明する。  

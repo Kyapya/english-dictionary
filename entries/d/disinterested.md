@@ -3,9 +3,9 @@ headword: disinterested
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -56,8 +56,8 @@ dis- と interest からできた、現在ではまれな動詞 disinterest「�
 
 ・remain disinterested  
 用途: 私情や自己利益を持ち込まず、判断の公平さを保つ。  
-例: Reviewers must remain disinterested and assess the work rather than their personal relationships with its authors.  
-訳: 審査者は私情に左右されず、著者との個人的な関係ではなく、作品そのものを評価しなければならない。  
+例: Reviewers must remain disinterested and assess the work on its merits rather than on the basis of their personal relationships with its authors.  
+訳: 審査者は私情に左右されず、著者との個人的な関係を基準にせず、作品そのものの価値に基づいて評価しなければならない。  
 
 ・disinterested generosity  
 用途: 見返りを求めない援助・寛大さを述べる。  

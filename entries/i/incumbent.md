@@ -3,9 +3,9 @@ headword: incumbent
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -77,7 +77,7 @@ tags: []
 訳: 現在の供給業者は、契約の延長に同意した。  
 
 ・serving  
-定義: 現にその役職に就き、職務を務めている。  
+定義: 現にその役職に就き、職務に従事している。  
 頻度: 〈5/10〉  
 違い: serving officer/member のように在職・勤務中であることを示す。incumbent は、その地位を誰が占めているかという対比に向き、退職していないことだけを述べる語ではない。  
 例: The committee includes two serving members of parliament.  
@@ -137,7 +137,7 @@ tags: []
 ・the incumbent of the benefice  
 用途: 英国国教会などの文脈で、特定の聖職に就いている聖職者を指す。  
 例: The incumbent of the benefice met parish representatives to discuss the service schedule.  
-訳: その聖職の在職者は、礼拝日程について話し合うために教区の代表者と会った。  
+訳: その聖職の在職者は、礼拝日程について話し合うために小教区の代表者と会った。  
 
 【語法・注意】可算名詞なので、通常 She is incumbent. ではなく She is the incumbent. とする。the incumbent の指す人・会社は文脈に依存し、必ず政治家とは限らない。a new incumbent は「新たにその職に就いた人」で、new と矛盾しない。predecessor「前任者」、successor「後任者」、challenger「挑戦者」、new entrant「新規参入者」は重要な対照表現だが、いずれも incumbent の完全な反意語ではない。challenger は競争に挑む立場を述べ、現在の在職者を除く全員を意味しない。教会用語の incumbent は benefice に関わる職位を指すため、すべての聖職者・補助聖職者を一律にこの語で呼ばない。個々の教会制度上の権限・身分まで、一般義の「在職者」から推測しない。  
 
