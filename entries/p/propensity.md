@@ -3,9 +3,9 @@ headword: propensity
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -44,7 +44,7 @@ tags: []
 
 【レジスター/領域】フォーマル。報道、ビジネス分析、心理・社会科学、技術的な説明など。一般会話では tendency が広く使われる。  
 
-【文法パターン】a propensity to do something＝～する傾向／a propensity for something＝ある行動・性質・対象に向かう傾向・好み／a propensity for doing something＝～する傾向／a propensity for someone/something to do something＝その人・物が～する傾向／someone's propensity to do something＝その人の～しやすさ／the propensity of someone/something to do something＝人・物の～しやすさ／a greater/lower propensity to do something＝より強い／弱い傾向。複数の性向を指す場合は propensities とする。  
+【文法パターン】a propensity to do something＝～する傾向／a propensity for something＝ある行動・性質・対象に向かう傾向・好み／a propensity for doing something＝～する傾向／a propensity for someone/something to do something＝その人・物が～する傾向／someone's propensity to do something＝その人の～しやすさ／the propensity of someone/something to do something＝人・物の～しやすさ／a greater propensity to do something＝より強い傾向、a lower propensity to do something＝より弱い傾向。複数の性向を指す場合は propensities とする。  
 
 【コロケーション・構文例】
 
@@ -61,7 +61,7 @@ tags: []
 ・a propensity for doing something  
 用途: 前置詞 for の後ろに動名詞を置き、傾向の内容を示す。  
 例: Her propensity for spotting inconsistencies made her an effective editor.  
-訳: 矛盾に気づきやすいという彼女の特性が、編集者として役立った。  
+訳: 矛盾に気づきやすいという特性のおかげで、彼女は編集者として力を発揮した。  
 
 ・a propensity for someone to do something  
 用途: 不定詞の意味上の主語を for の直後で明示する。  
@@ -76,7 +76,7 @@ tags: []
 ・a higher propensity to do something  
 用途: 集団間で行動の起こりやすさを比較する。  
 例: Repeat customers had a higher propensity to choose the annual plan.  
-訳: リピーターには、年間プランを選びやすい傾向があった。  
+訳: リピーターには、年間プランを選ぶ傾向がより強く見られた。  
 
 ・a low propensity for something  
 用途: 傾向が強いとは限らないことを示す。  
@@ -185,7 +185,7 @@ tags: []
 
 【頻度】〈2/10〉  
 
-【レジスター/領域】統計学・因果推論・疫学・社会科学。ここでは処置が二値、すなわち「受ける／受けない」である基本的な用法を扱う。  
+【レジスター/領域】統計学・因果推論・疫学・社会科学。ここでは処置が二値、すなわち「受けるか受けないか」である基本的な用法を扱う。  
 
 【文法パターン】a propensity score＝一つの傾向スコア／estimated propensity scores＝推定された複数の傾向スコア／propensity score matching＝傾向スコアマッチング。複数形は scores の側に付け、propensity は名詞を修飾する単数形のままにする。  
 

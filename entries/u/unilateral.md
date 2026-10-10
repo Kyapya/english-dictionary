@@ -3,9 +3,9 @@ headword: unilateral
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -251,7 +251,7 @@ uni-「一つ」と lateral「側の」からなる語で、新ラテン語 unil
 ・a unilateral account of 〈出来事〉  
 用途: 一方の立場だけから書かれた説明を指摘する。  
 例: The review criticized the book's unilateral account of the dispute, which omitted the workers' perspective.  
-訳: その書評は、労働者側の視点を省いた、その本の紛争についての一方的な説明を批判した。  
+訳: その書評は、その本による紛争の説明が労働者側の視点を省いて一方に偏っていることを批判した。  
 
 【語法・注意】a unilateral decision は通常「一方だけによる決定」、a unilateral view はこの語義では「一方の側面に偏った見方」。一人で書いた文章だから一面的とは限らず、複数人が作った説明でも偏ることはある。具体的な文脈がない unilateral approach は、語義1の単独行動を表す可能性もあるため、単に「偏った見方」と言いたければ one-sided view を使うと明確になる。  
 

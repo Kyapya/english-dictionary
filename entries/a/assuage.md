@@ -3,9 +3,9 @@ headword: assuage
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -236,7 +236,7 @@ suave「物腰が柔らかく洗練された」も suavis に由来する。swee
 ・be assuaged by 〈対応など〉  
 用途: なだめられる人・集団を主語にする。  
 例: The protesters were not assuaged by the promise of another consultation.  
-訳: もう一度協議すると約束しても、抗議する人々は収まらなかった。  
+訳: もう一度協議すると約束しても、抗議する人々は落ち着かなかった。  
 
 【語法・注意】assuage the critics「批判者たちをなだめる」と assuage their concerns「彼らの懸念を和らげる」はともに可能で、目的語の意味役割が異なる。「assuage の目的語は感情だけ」という規則にはしない。一方、人目的語が可能だからといって、×assuage someone of their fears とはせず、assuage someone's fears とする。  
 

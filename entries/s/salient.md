@@ -3,9 +3,9 @@ headword: salient
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -43,7 +43,7 @@ tags: []
 
 【レジスター/領域】フォーマル。報告書、論説、業務説明、学術・心理学。日常的な会話では main・important・noticeable などに言い換えることが多い。  
 
-【文法パターン】the salient points of 〈対象〉＝対象の要点／the salient features of 〈対象〉＝対象の主な特徴／the salient facts about 〈対象〉＝対象の重要な事実／a salient feature of 〈対象〉＝対象の際立った特徴／〈問題・特徴〉 + be/become/seem salient＝目立つ・重要である／especially/more/less salient＝特に／より／あまり目立たない・重要でない／the most salient 〈feature/point/difference〉＝最も際立った特徴・論点・違い／be salient to/for 〈人・集団〉＝その人々にとって目立つ・重要である／make 〈問題・特徴〉 + salient＝問題などを意識に上りやすくする。程度修飾・比較ができる。  
+【文法パターン】the salient points of 〈対象〉＝対象の要点／the salient features of 〈対象〉＝対象の主な特徴／the salient facts about 〈対象〉＝対象の重要な事実／a salient feature of 〈対象〉＝対象の際立った特徴／〈問題・特徴〉 + be/become/seem salient＝目立つ・重要である／especially salient＝特に目立つ・重要である／more salient＝より目立つ・重要である／less salient＝それほど目立たない・重要でない／the most salient 〈feature/point/difference〉＝最も際立った特徴・論点・違い／be salient to/for 〈人・集団〉＝その人々にとって目立つ・重要である／make 〈問題・特徴〉 + salient＝問題などを意識に上りやすくする。程度修飾・比較ができる。  
 
 【コロケーション・構文例】
 
@@ -216,7 +216,7 @@ tags: []
 
 【レジスター/領域】主に軍事・戦史。地形や構造の記述にも使う、専門的な名詞。  
 
-【文法パターン】a salient in 〈前線・防御線〉＝前線などの突出部／the tip/base of a salient＝突出部の先端／付け根／hold/defend a salient＝突出部を保持する・守る／the Ypres Salient＝イープル突出部のような歴史的名称／a rocky salient＝岩の突出部。複数形は salients。  
+【文法パターン】a salient in 〈前線・防御線〉＝前線などの突出部／the tip of a salient＝突出部の先端／the base of a salient＝突出部の付け根／hold/defend a salient＝突出部を保持する・守る／the Ypres Salient＝イープル突出部のような歴史的名称／a rocky salient＝岩の突出部。複数形は salients。  
 
 【コロケーション・構文例】
 

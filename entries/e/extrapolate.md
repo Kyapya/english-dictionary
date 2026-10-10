@@ -3,9 +3,9 @@ headword: extrapolate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -88,7 +88,7 @@ interpolate はさらにラテン語 interpolare にさかのぼり、その形�
 ・be extrapolated to 〈適用先〉  
 用途: 調査結果をほかの範囲へ適用できるかを論じる。  
 例: Results from the urban stores should not be extrapolated to rural outlets without further research.  
-訳: 都市部の店舗の結果を、追加調査なしに地方の店舗へ当てはめて考えるべきではない。  
+訳: 都市部の店舗の結果を、追加調査なしに農村部の店舗へ当てはめて考えるべきではない。  
 
 ・extrapolate cautiously  
 用途: 目的語を示さず、推論の行い方を述べる。  
