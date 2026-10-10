@@ -3,9 +3,9 @@ headword: redeem
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -408,7 +408,7 @@ redemption「買戻し・償還・救済」と ransom「身代金」は、とも
 ・something redeeming about someone/something  
 用途: 全面的には評価できない対象に、何かしら救いを見いだす。  
 例: There was something redeeming about her willingness to admit she was wrong.  
-訳: 自分が間違っていたと認めようとする彼女の姿勢には、どこか救われるものがあった。  
+訳: 自分が間違っていたと認めようとする彼女の姿勢は、彼女の評価を多少なりとも救うものだった。  
 
 【語法・注意】redeeming はこの語義では形容詞で、修飾される feature や quality が「欠点を補う側」になる。a redeemable character（語義10）は「更生の余地がある人物」、a redeeming quality は「人物の欠点を補う長所」。可能性を表す -able と役割が異なる。  
 
@@ -832,7 +832,7 @@ redemption「買戻し・償還・救済」と ransom「身代金」は、とも
 訳: 彼は、日没前に戻るという約束を破った。  
 
 ・renege on  
-定義: いったんした約束・合意を後から守らずに撤回する。  
+定義: いったんした約束・合意を後から守らない・反故にする。  
 頻度: 〈4/10〉  
 違い: 約束の履行に対する反対方向の行為で、後から翻すという否定的評価が強い。目的語の前に on が必要。  
 例: The organization reneged on its pledge to fund the repairs.  

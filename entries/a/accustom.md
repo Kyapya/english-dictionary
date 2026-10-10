@@ -3,9 +3,9 @@ headword: accustom
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -57,7 +57,7 @@ tags: []
 ・accustom someone to doing something  
 用途: 繰り返し行う活動に人を慣れさせる。  
 例: The course gradually accustoms students to speaking without prepared notes.  
-訳: その講座は、用意したメモを見ずに話すことに学生を少しずつ慣れさせる。  
+訳: その講座は、事前に用意したメモなしで話すことに学生を少しずつ慣れさせる。  
 
 ・accustom oneself to something  
 用途: 自分で新しい生活や状況に慣れていく。  
@@ -121,7 +121,7 @@ adapt や adjust は目的語なしでも I adapted to the routine.、I adjusted
 
 【頻度】〈7/10〉  
 
-【レジスター/領域】日常生活、仕事、社会状況、身体の適応などに広く使う。be/get used to ... よりやや改まった響きがある。  
+【レジスター/領域】日常生活、仕事、社会状況、身体の適応などに広く使う。be used to ... や get used to ... よりやや改まった響きがある。  
 
 【文法パターン】be accustomed to something/doing something＝慣れている／get accustomed to something/doing something、become accustomed to something/doing something＝慣れる／grow accustomed to something/doing something＝次第に慣れる。主語は慣れる側。a person accustomed to something/doing something のように、to 以下を伴う形容詞句を名詞の後ろに置ける。well/fully/quite accustomed to ... のような程度修飾や more/less accustomed to ... の比較が可能。慣れている対象が明らかなら、to 以下が省かれることもある。  
 

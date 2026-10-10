@@ -3,9 +3,9 @@ headword: deduce
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -99,7 +99,7 @@ deduce と deduct は、どちらも from を伴えるが役割が違う。deduc
 頻度: 〈7/10〉  
 違い: deduce と広く重なる。deduce は筋道立てた導出を前面に出しやすいが、一般語で両者を「必ず正しい推論／不確かな推測」に二分することはできない。  
 例: From the wording of the reply, I inferred that they were open to negotiation.  
-訳: 返信の言い回しから、相手には交渉の余地があると推察した。  
+訳: 返信の言い回しから、相手は交渉に応じる意向があると推察した。  
 
 ・conclude  
 定義: 検討や推論の結果、ある判断に至る。  

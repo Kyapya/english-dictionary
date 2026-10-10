@@ -3,9 +3,9 @@ headword: undertake
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -229,7 +229,7 @@ tags: []
 ・no small undertaking（undertake からの名詞）  
 用途: 否定を使って、かなり大変な仕事だと強調する。  
 例: Running a public festival entirely with volunteers is no small undertaking.  
-訳: 公開の祭りをすべてボランティアで運営するのは、並大抵の仕事ではない。  
+訳: 一般向けの祭りをすべてボランティアで運営するのは、並大抵の仕事ではない。  
 
 【語法・注意】They are undertaking a survey. では undertaking は進行形の一部で、その後の a survey が目的語。The survey is a major undertaking. では冠詞と形容詞を伴う可算名詞で、調査そのものを「大仕事」と評価している。an undertaking の an は最初の音が母音 /ʌ/ であるため。形容詞が入れば a major undertaking となる。 「仕事を行うこと」を一般的な動作として名詞化した the undertaking of the survey は、この可算名詞 a difficult undertaking「難しい仕事」と構造が異なる。前者は名詞化された行為で of が対象を導き、後者は仕事を一件として数える。名詞 undertaking の後の to 不定詞は語義4の確約を表すことが多く、特に give an undertaking to do は「行うと約束する」であって「仕事を渡す」ではない。  
 
@@ -261,7 +261,7 @@ tags: []
 頻度: 〈7/10〉  
 違い: 冒険性・事業上のリスクが中心に出やすい。undertaking 自体には、そのようなリスクは必須ではない。  
 例: Their first commercial venture failed to attract enough customers.  
-訳: 二人が初めて手掛けた商業事業は、十分な顧客を集められなかった。  
+訳: 彼らが初めて手掛けた商業事業は、十分な顧客を集められなかった。  
 
 4. 【名詞：可算 undertaking】確約、正式な約束
 
@@ -298,7 +298,7 @@ tags: []
 ・seek an undertaking（undertake からの名詞）  
 用途: 相手に明確な約束を求める。  
 例: The committee is seeking an undertaking that the survey results will be published in full.  
-訳: 委員会は、調査結果を全文公表するという確約を求めている。  
+訳: 委員会は、調査結果を省略せずにすべて公表するという確約を求めている。  
 
 【語法・注意】a major undertaking は通常、語義3の「大がかりな仕事」。give an undertaking はここでの「確約を与える」で、give a task「仕事を与える」とは違う。undertaking to do の to 不定詞、undertaking that ... の that 節は約束の内容を説明する。単数では give an undertaking とし、約束を一件示すつもりで give undertaking と冠詞を落とさない。 undertook to repair は動詞による「修理すると確約した」、gave an undertaking to repair は名詞を使った同じ内容の表し方。後者では give us an undertaking のように相手を置けるが、その形から前者を undertook us to repair と作らない。honour an undertaking の綴りは米国では honor an undertaking。確約した事実と、実際に履行した事実は分けて読む。  
 
@@ -363,7 +363,7 @@ tags: []
 頻度: 〈9/10〉  
 違い: 日常でも使う広い語。企業を指す undertaking は、より正式な経営・業務文書に寄る。business にも事業活動そのものを指す不可算用法がある。  
 例: She owns a small business that repairs commercial kitchen equipment.  
-訳: 彼女は業務用厨房機器を修理する小さな会社を経営している。  
+訳: 彼女は業務用厨房機器を修理する小さな会社の所有者だ。  
 
 ・enterprise  
 定義: 事業を営む企業・組織。  
