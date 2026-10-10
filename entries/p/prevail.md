@@ -3,9 +3,9 @@ headword: prevail
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -61,7 +61,7 @@ tags: []
 ・prevail over 〈相手・対立する力〉  
 用途: 人や考えが別の側より優勢になることを述べる。  
 例: In the final vote, commercial interests prevailed over environmental concerns.  
-訳: 最終投票では、商業上の利益が環境への懸念を上回った。  
+訳: 最終投票では、商業上の利益が環境への懸念より優先された。  
 
 ・prevail against 〈対戦相手〉  
 用途: 競技などで相手に勝つことを表す。  

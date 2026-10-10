@@ -3,9 +3,9 @@ headword: reproach
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -168,7 +168,7 @@ approach「近づく」、proximity「近接」も prope に関係する同系�
 
 【頻度】〈5/10〉  
 
-【レジスター/領域】ややフォーマル・文章語。above/beyond reproach は人柄・行動などが非の打ち所のないことを述べる定型表現。  
+【レジスター/領域】ややフォーマル・文章語。above reproach、beyond reproach は人柄・行動などが非の打ち所のないことを述べる定型表現。  
 
 【文法パターン】a look/word of reproach＝とがめるような視線・非難の一言／with reproach＝非難を込めて／reproaches for something＝あることへの非難の言葉／someone/something is above/beyond reproach＝非難すべき点がない。最後の型の reproach は不可算で、冠詞を付けない。  
 
@@ -239,7 +239,7 @@ approach「近づく」、proximity「近接」も prope に関係する同系�
 
 【頻度】〈2/10〉  
 
-【レジスター/領域】フォーマル・文学的。bring reproach on/upon ... のような連語で見られる。  
+【レジスター/領域】フォーマル・文学的。bring reproach on ...、bring reproach upon ... のような連語で見られる。  
 
 【文法パターン】bring reproach on/upon someone/something＝人・組織に不名誉をもたらす／a life of reproach＝恥辱に満ちた人生。reproach 自体は不可算。  
 

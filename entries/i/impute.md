@@ -3,9 +3,9 @@ headword: impute
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -77,7 +77,7 @@ compute「計算する」、repute「～と考える・評する」も putare �
 例: Selfish motives were imputed to the researcher without any supporting evidence.  
 訳: 裏付けとなる証拠もなく、その研究者には利己的な動機があるとされた。  
 
-【語法・注意】impute dishonesty to him は「不正直さを彼に帰する」で、直接目的語は帰属させる内容。blame him for the failure は「失敗の責任を彼に負わせる」で、直接目的語は人。この形を混ぜて impute him for the failure という誤った形にしない。to の前後を自由に入れ替える型ではなく、代名詞でも impute it to him。impute A to B という前置詞補語を伴う他動詞構文で、分離可能な小辞型の句動詞ではない。悪いことに偏る傾向はあるが、impute intelligence to a machine のような帰属まで誤用としない。再帰目的語を後ろに置く impute success to oneself も文法的には可能だが、reproach oneself「自分を責める」のような独立した心理義ではない。功績を自然にたたえる場面では credit が使われやすい。  
+【語法・注意】impute dishonesty to him は「不正直さを彼に帰する」で、直接目的語は帰属させる内容。blame him for the failure は「失敗の責任を彼に負わせる」で、直接目的語は人。この形を混ぜて impute him for the failure という誤った形にしない。to の前後を自由に入れ替える型ではなく、代名詞でも impute it to him。impute A to B という前置詞補語を伴う他動詞構文で、分離可能な小辞型の句動詞ではない。悪いことに偏る傾向はあるが、impute intelligence to a machine のような帰属まで誤用としない。帰属先を表す to oneself を後ろに置く impute success to oneself も文法的には可能だが、reproach oneself「自分を責める」のような独立した心理義ではない。功績を自然にたたえる場面では credit が使われやすい。  
 
 【類義語】
 
@@ -160,7 +160,7 @@ compute「計算する」、repute「～と考える・評する」も putare �
 ・impute a value to 〈非現金の便益〉  
 用途: 現金で受け取らない便益を金額で評価する。  
 例: The analysis imputes a monetary value to the use of the company apartment.  
-訳: その分析は、会社の住居を利用する便益に金銭的な価値を算定している。  
+訳: その分析は、会社の住居を利用する便益の金銭的な価値を算定している。  
 
 ・impute rental income  
 用途: 実際の家賃収入がなくても、住宅サービスの価値を計算に入れる。  

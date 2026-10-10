@@ -3,9 +3,9 @@ headword: conversant
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -33,7 +33,7 @@ tags: []
 
 【レジスター/領域】改まった表現。採用条件、業務上の能力説明、学術・専門的な文章など。  
 
-【文法パターン】be/become conversant with something＝対象を知っている／知識を身に付ける。someone conversant with something＝その対象をよく知っている人。fully/well/thoroughly conversant with something のように程度を示せる。more/less conversant with something という比較も可能。通常は補語または名詞の後ろに置き、知識の対象を with で示す。  
+【文法パターン】be conversant with something＝対象を知っている／become conversant with something＝対象について知識を身に付ける。someone conversant with something＝その対象をよく知っている人。fully/well/thoroughly conversant with something のように程度を示せる。more/less conversant with something という比較も可能。通常は補語または名詞の後ろに置き、知識の対象を with で示す。  
 
 【コロケーション・構文例】
 

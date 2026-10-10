@@ -3,9 +3,9 @@ headword: purport
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -184,7 +184,7 @@ portare を共有する語には report「報告する」、support「支える�
 
 【レジスター/領域】改まった書き言葉。批評、論説、文書の解釈など。  
 
-【文法パターン】the purport of 〈発言・文書・行為〉＝その全体的な意味・趣旨。understand/grasp/miss the purport of something＝趣旨を理解する／つかむ／つかみ損なう。the purport of something is that ...＝趣旨は～ということだ。of similar/the same purport＝同様の／同じ趣旨の。通常は the purport のように単数で扱い、日常的に数え上げる名詞にはしない。  
+【文法パターン】the purport of 〈発言・文書・行為〉＝その全体的な意味・趣旨。understand the purport of something＝趣旨を理解する／grasp the purport of something＝趣旨をつかむ／miss the purport of something＝趣旨をつかみ損なう。the purport of something is that ...＝趣旨は～ということだ。of similar purport＝同様の趣旨の／of the same purport＝同じ趣旨の。通常は the purport のように単数で扱い、日常的に数え上げる名詞にはしない。  
 
 【コロケーション・構文例】
 

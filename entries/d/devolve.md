@@ -3,9 +3,9 @@ headword: devolve
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -132,7 +132,7 @@ devolves の語尾は /vz/、devolved の語尾は /vd/。-s、-ed を付けて�
 ・devolve to a lower level  
 用途: 議論などの質が、以前より低い水準へ落ちることを表す。  
 例: The debate devolved to a lower level when both sides began trading insults.  
-訳: 双方が侮辱を応酬し始めると、討論の水準はさらに低下した。  
+訳: 双方が侮辱を応酬し始めると、討論の水準は低下した。  
 
 ・continue to devolve  
 用途: 悪化する過程を、結果を明示せず述べる。  
@@ -141,7 +141,7 @@ devolves の語尾は /vz/、devolved の語尾は /vd/。-s、-ed を付けて�
 
 【語法・注意】The talks devolved into an argument. は「会談が口論へと悪化した」。The authorities devolved power to the region. は語義1の「当局が地域へ権限を移した」で、権限移譲を批判しているとは限らない。誤: The discussion was devolved into insults. → 正: The discussion devolved into an exchange of insults. 自然に悪化した事態に、機械的に be を加えない。  
 
-・evolve into は時間をかけて別の形へ発達・変化することで、悪化を必須としない。The pilot project evolved into a successful service. は「試験事業が成功するサービスへと発展した」。ここを devolved into にすると、その変化を悪い方向と捉える特別な文脈が必要になる。生物に使われる「退化する」という表現を、進化が客観的な優劣の階段であることの根拠にしない。  
+・evolve into は時間をかけて別の形へ発達・変化することで、悪化を必須としない。The pilot project evolved into a successful service. は「試験事業は、成功を収めたサービスへと発展した」。ここを devolved into にすると、その変化を悪い方向と捉える特別な文脈が必要になる。生物に使われる「退化する」という表現を、進化が客観的な優劣の階段であることの根拠にしない。  
 ・into がある文をすべて悪化義と決めつけない。語義6の They devolved the agency into regional units. は、目的語を取る「組織を分割する」という別構造である。  
 
 【類義語】
@@ -205,7 +205,7 @@ devolves の語尾は /vz/、devolved の語尾は /vd/。-s、-ed を付けて�
 ・responsibility for 〈業務〉 + devolve on someone  
 用途: ある業務について、誰が責任を負うことになるかを述べる。  
 例: When the manager took leave, responsibility for the project devolved on her deputy.  
-訳: 管理職が休暇に入ると、そのプロジェクトの責任は副担当者に回った。  
+訳: 管理職が休暇に入ると、そのプロジェクトの責任はその管理職の代理に回った。  
 
 ・〈職務〉 + devolve upon someone  
 用途: 職務の引継ぎを改まった文体で示す。  

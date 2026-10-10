@@ -3,9 +3,9 @@ headword: avail
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -26,11 +26,11 @@ value「価値」と valid「有効な・妥当な」も、ラテン語 valēre 
 ・availability：名詞。「利用可能であること・入手のしやすさ・空き状況」。商品の在庫や人の予定などにも使う。名詞 avail の「効用」とは交換できない。  
 ・unavailable：形容詞。「利用できない・入手できない・都合がつかない」。available の反対であり、「使っても効果がない」とは限らない。  
 ・unavailing：形容詞。「効果のない・むだな」。改まった語で、unavailing efforts「実を結ばない努力」、Their efforts were unavailing.「彼らの努力は実を結ばなかった」のように使う。unavailable と区別する。  
-・availed / availing：動詞の過去形・過去分詞／現在分詞・動名詞。availed を available の代わりに「利用可能な」という形容詞として使わない。地域用法の受動形については語義3・4・7を参照。語義7には「利用する」でなく「提供する」という用法がある。  
+・availed / availing：動詞の過去形・過去分詞／現在分詞・動名詞。availed を available の代わりに「利用可能な」という形容詞として使わない。地域用法の受動形については語義3・4・7を参照。語義7には「利用する」でなく「提供する」という用法がある。地域的な再帰構文で本人が出向く用法は語義8を参照。  
 
 ＃コアイメージ
 
-共通するのは「目的に役立つこと・利益になること」。名詞はその効用、再帰構文と地域的な利用構文は役立つものを取り入れる行為、古風な動詞は役に立つ働きを表す。語義7の地域用法は、役立つものを利用できる状態にする提供側の行為を表す。語義2・3・4は中心的な意味が共通するが、構文と使用地域を混同しないため分けて扱う。  
+共通するのは「目的に役立つこと・利益になること」。名詞はその効用、語義2の再帰構文と地域的な利用構文は役立つものを取り入れる行為、古風な動詞は役に立つ働きを表す。語義7の地域用法は、役立つものを利用できる状態にする提供側の行為を表す。語義8では、本人が目的の場へ出向き、対応できる状態にする。語義2・3・4は中心的な意味が共通するが、構文と使用地域を混同しないため分けて扱う。  
 
 ・目的に役立つことの効用 → 「役に立つこと・効果」（語義1）  
 
@@ -41,6 +41,8 @@ value「価値」と valid「有効な・妥当な」も、ラテン語 valēre 
 ・目的に役立つ働きの成立 → 「役に立つ・効果がある」（語義6）  
 
 ・目的に役立つものの提供 → 「提供する・利用可能にする」（語義7）  
+
+・目的のため本人が対応できる状態にすること → 「指定場所へ出向く」（語義8）  
 
 ＃意味・用法・関連表現
 
@@ -254,7 +256,7 @@ available は状態を表す形容詞。The service is available to us. は「�
 ・avail of an opportunity  
 用途: 該当地域の英語で、機会を利用することを表す。  
 例: Local businesses can avail of an opportunity to meet potential suppliers at the exhibition.  
-訳: 地元企業は、その展示会で取引先候補と会う機会を利用できます。  
+訳: 地元企業は、その展示会で仕入先候補と会う機会を利用できます。  
 
 ・avail of it  
 用途: 利用対象を代名詞で受け、of の直後に置く。  
@@ -374,13 +376,13 @@ avail someone nothing は「その人に何も与えない」という物の授�
 
 7. 【動詞・他動詞／ケニアの英語など】提供する・利用可能にする
 
-【日本語訳・定義】人や組織が、情報・資料・資源などを相手に提供し、利用できる状態にする。主語は利用する側ではなく、提供する側。ケニアの行政・実務文書などで見られ、ウガンダの公的文書にも同種の用法がある。自分自身を目的語にした地域的な avail oneself は、自分が対応できるようにする、指定の場へ出向くという意味にもなる。  
+【日本語訳・定義】人や組織が、情報・資料・資源などを相手に提供し、利用できる状態にする。主語は利用する側ではなく、提供する側。ケニアの行政・実務文書などで見られ、ウガンダの公的文書にも同種の用法がある。本人が指定場所へ出向く再帰構文は語義8で扱う。  
 
 【頻度】〈2/10〉  
 
 【レジスター/領域】地域的な英語。ケニアなどの行政・業務上の通知や報告。英米を含む一般的な作文で、provide の代わりに無標で使う基本形ではない。  
 
-【文法パターン】avail something to someone＝物・情報などを相手に提供する。受け手が分かる場合は avail something だけでも使われる。something + be availed to someone＝物などが相手に提供される。再帰形 avail oneself at 〈場所〉 は、ケニアの通知などで「自分がその場所へ出向く」の意味になり、avail oneself of something「何かを利用する」とは別の型である。  
+【文法パターン】avail something to someone＝物・情報などを相手に提供する。受け手が分かる場合は avail something だけでも使われる。something + be availed to someone＝物などが相手に提供される。  
 
 【コロケーション・構文例】
 
@@ -394,14 +396,7 @@ avail someone nothing は「その人に何も与えない」という物の授�
 例: The requested documents were availed to the auditors before the meeting.  
 訳: 求められた書類は、会合前に監査担当者へ提供された。  
 
-・avail oneself at 〈場所〉  
-用途: ケニアの案内などで、指定場所へ出向くよう求める。  
-例: All selected participants should avail themselves at the training centre on Monday morning.  
-訳: 選ばれた参加者は全員、月曜の朝に研修センターへお越しください。  
-
 【語法・注意】語義3の Customers availed the service. はインド英語の「顧客がサービスを利用した」で、ここでの The office availed the documents to us. は「事務所が書類を私たちに提供した」。同じ直接目的語の型でも、主語の役割と情報・サービスが動く方向が異なる。受動形の the documents were availed も、地域や文脈によって「提供された」を意味し得る。地域外へ書くなら provide the documents to us や make the documents available to us が明快である。  
-
-avail oneself at 〈場所〉は、本人が来ることを求める地域用法。avail oneself of 〈機会・サービス〉から of 以下を自由に省いて作る構文ではない。一般向けの案内なら come to the training centre、協力できる状態を述べるなら make oneself available などを選ぶ。英語圏全体での推奨基本型にせず、該当地域の実務文書を読み違えないために区別する。  
 
 【類義語】
 
@@ -415,6 +410,34 @@ avail oneself at 〈場所〉は、本人が来ることを求める地域用法
 ・supply  
 定義: 必要とされる物・情報などを相手に供給する。  
 頻度: 〈8/10〉  
-違い: 必要量や求められたものを用意する点に焦点があり、地域的な提供義の avail より広く使われる。本人が出向くという再帰用法の言い換えにはしない。  
+違い: 必要量や求められたものを用意する点に焦点があり、地域的な提供義の avail より広く使われる。語義8の本人が出向くという再帰用法の言い換えにはしない。  
 例: The contractor supplied the technical specifications to the client.  
 訳: 請負業者は顧客に技術仕様書を提供した。  
+
+8. 【動詞・他動詞の再帰構文／ケニアの英語など】指定場所へ出向く
+
+【日本語訳・定義】人が、活動や用件のある場所へ自ら出向き、その場で対応できるようにする。主語と再帰代名詞は出向く本人を指す。語義7の物・情報の提供や、語義2の機会・サービスの利用とは区別する。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】ケニアの英語などの地域用法。案内、通知、活動報告など。英米を含む一般的な作文で、come や go の代わりに無標で使う基本形ではない。  
+
+【文法パターン】avail oneself at 〈場所〉＝本人がその場所へ出向く。主語に合わせて avail myself at…、avail yourself at…、avail themselves at… などとし、at の後ろに出向く場所を置く。avail oneself of something＝何かを利用する（語義2）とは別の型である。  
+
+【コロケーション・構文例】
+
+・avail oneself at 〈場所〉  
+用途: ケニアの案内などで、指定場所へ出向くよう求める。  
+例: All selected participants should avail themselves at the training centre on Monday morning.  
+訳: 選ばれた参加者は全員、月曜の朝に研修センターへお越しください。  
+
+【語法・注意】avail oneself at 〈場所〉は、本人がその場へ出向くことを表す地域用法。avail oneself of 〈機会・サービス〉から of 以下を自由に省いて作る構文ではない。一般向けの案内なら come to the training centre、協力できる状態を述べるなら make oneself available などを選ぶ。英語圏全体での推奨基本型にせず、該当地域の実務文書を読み違えないために区別する。  
+
+【類義語】
+
+・come  
+定義: 話し手や相手がいる場所、または話題の場所へ来る。  
+頻度: 〈10/10〉  
+違い: この地域的な avail oneself at と異なり、地域を限定せず日常の案内にも使える。行き先は通常 to で示し、再帰代名詞は不要。  
+例: Please come to the training centre on Monday morning.  
+訳: 月曜の朝に研修センターへお越しください。  
