@@ -3,9 +3,9 @@ headword: accountable
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -62,7 +62,7 @@ account「説明する、勘定」と count「数える」は、フランス語�
 ・hold someone accountable for something  
 用途: 担当者に結果や行動への責任を求める。  
 例: We will hold the supplier accountable for any missed delivery deadlines.  
-訳: 納期が守られなかった場合は、供給業者に責任を求める。  
+訳: 納期が守られなかった場合は、供給業者の責任を問う。  
 
 ・be held accountable by someone  
 用途: 誰が責任を問うのかを受動態で示す。  
@@ -124,7 +124,7 @@ account「説明する、勘定」と count「数える」は、フランス語�
 
 【頻度】〈2/10〉  
 
-【レジスター/領域】まれな文語的用法。古い文章や論述の読解で知っておく価値があるが、現代の実用文では explainable / explicable のほうが明確。  
+【レジスター/領域】まれな文語的用法。古い文章や論述の読解で知っておく価値があるが、現代の実用文では explainable または explicable のほうが明確。  
 
 【文法パターン】〈現象・相違〉 + be accountable＝理由を説明できる／be accountable as 〈原因として解釈できる事象〉＝その事象として説明がつく。主に事柄を主語にする叙述用法。easily accountable のように説明の容易さを修飾できるが、使用範囲が狭いため、これを基に新たな構文を無理に作らない。  
 

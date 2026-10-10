@@ -3,9 +3,9 @@ headword: stringent
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -83,7 +83,7 @@ tags: []
 例: The quality checks became increasingly stringent as the product approached release.  
 訳: 製品の発売が近づくにつれて、品質検査はますます厳しくなった。  
 
-【語法・注意】stringent standards は要求水準の厳しさを表すが、現実にその基準が守られていることまでは保証しない。The rules are stringent but poorly enforced.「規則は厳しいが、運用は徹底されていない」も自然に成立する。運用の厳しさなら The rules are stringently enforced. と副詞を使う。誤: The rules are stringent enforced. → 正: The rules are stringently enforced.。strict、rigorous、rigid と意味・用例は重なり、stringent だけが規則に使える、rigorous は検査に使えない、という区別はしない。人を「厳しい上司」と普通に評するなら a strict manager が基本で、stringent は要件や管理方法などに焦点を当てることが多い。ただし人を修飾する用例が絶対に不可能というわけではない。more stringent は「許される範囲がより狭い／要求がより厳しい」であり、数値が必ず大きくなることではない。許容排出量や誤差の上限なら、数値が小さいほうが stringent になり得る。stringent requirements for approval の for approval は requirements にかかり、形容詞が自由に for や to を要求するという規則ではない。  
+【語法・注意】stringent standards は要求水準の厳しさを表すが、現実にその基準が守られていることまでは保証しない。The rules are stringent but poorly enforced.「規則は厳しいが、運用は徹底されていない」も自然に成立する。運用の厳しさなら The rules are stringently enforced. と副詞を使う。誤: The rules are stringent enforced. → 正: The rules are stringently enforced. strict、rigorous、rigid と意味・用例は重なり、stringent だけが規則に使える、rigorous は検査に使えない、という区別はしない。人を「厳しい上司」と普通に評するなら a strict manager が基本で、stringent は要件や管理方法などに焦点を当てることが多い。ただし人を修飾する用例が絶対に不可能というわけではない。more stringent は「許される範囲がより狭い／要求がより厳しい」であり、数値が必ず大きくなることではない。許容排出量や誤差の上限なら、数値が小さいほうが stringent になり得る。stringent requirements for approval の for approval は requirements にかかり、形容詞が自由に for や to を要求するという規則ではない。  
 
 【類義語】
 

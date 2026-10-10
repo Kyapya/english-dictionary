@@ -3,9 +3,9 @@ headword: rectify
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -129,7 +129,7 @@ rectus はラテン語 regere「導く、まっすぐにする、統治する」
 ・amend  
 定義: 文書・規則などに変更を加え、内容を直す。  
 頻度: 〈6/10〉  
-違い: 修正文書や規則そのものを目的語にしやすい。rectify は誤り・不具合を正すことを明示するが、amend は変更であって、元が誤りだったとは限らない。  
+違い: 文書や規則そのものを目的語にしやすい。rectify は誤り・不具合を正すことを明示するが、amend は変更であって、元が誤りだったとは限らない。  
 例: We amended the contract to include the new delivery schedule.  
 訳: 新しい納品日程を含めるため、契約を修正した。  
 
