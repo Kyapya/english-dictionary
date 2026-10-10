@@ -4,9 +4,9 @@ type: word
 status: checked
 prompt_version: entry_spec_v5
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 ---
 
 ＃発音記号
@@ -44,7 +44,7 @@ model: gpt-6-astra xhigh
 
 【レジスター/領域】やや硬い語。報道、政治・社会問題、暴力や対立の記述で使われる。肯定的・中立的な行動への使用は少なく、日常の励ましでは encourage や spur の方が一般的。  
 
-【文法パターン】incite someone＝人をあおる。行動内容は文脈から分かれば省ける／incite someone to 〈行動・状態を表す名詞〉＝人をその行動・状態へ駆り立てる／incite someone to do something＝人にある行動をするよう働きかける／be incited to 〈行動・状態を表す名詞〉／be incited to do something＝前2型の受動。原因・行為者は by someone/something で補える。to は名詞の前では前置詞、動詞の原形の前では不定詞の一部。  
+【文法パターン】incite someone＝人をあおる。行動内容は文脈から分かれば省ける／incite someone to 〈行動・状態を表す名詞〉＝人をその行動・状態へ駆り立てる／incite someone to do something＝人にある行動をするよう働きかける／be incited to 〈行動・状態を表す名詞〉＝incite someone to 〈行動・状態を表す名詞〉の受動。原因・行為者は by someone/something で補える。to は前置詞／be incited to do something＝incite someone to do something の受動。原因・行為者は by someone/something で補える。to は不定詞の一部。  
 
 【コロケーション・構文例】
 
@@ -194,7 +194,7 @@ model: gpt-6-astra xhigh
 ・foment  
 定義: 不満、反乱、対立などをかき立てる。  
 頻度: 〈4/10〉  
-違い: 否定的な感情や社会的混乱を育て、持続的にあおる響きが強い。生理反応などに広く使う incite の全範囲とは重ならない。  
+違い: 否定的な感情や社会的混乱を育て、持続的にあおる響きが強い。生理反応の誘発にも使える incite の全範囲とは重ならない。  
 例: The broadcasts fomented resentment against the government.  
 訳: その放送は政府に対する反感をかき立てた。  
 

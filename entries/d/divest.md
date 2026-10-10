@@ -3,9 +3,9 @@ headword: divest
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -13,7 +13,7 @@ tags: []
 ＃発音記号
 
 米・英: /daɪˈvest/  
-2音節 /daɪ.vest/ で、第2音節 /vest/ に主強勢を置く。米語では第1音節を /dɪ/ または /də/ とする /dɪˈvest/、/dəˈvest/ もある。変わるのは第1音節の母音だけで、第2音節と主強勢の位置は同じ。/daɪ-/ を英語専用、/dɪ-/ を米語専用と厳密に分けない。  
+2音節 /daɪ.vest/ で、第2音節 /vest/ に主強勢を置く。米語では第1音節を /dɪ/ または /də/ とする /dɪˈvest/、/dəˈvest/ もある。変わるのは第1音節の母音だけで、第2音節と主強勢の位置は同じ。/daɪ-/ を英国英語専用、/dɪ-/ を米語専用と厳密に分けない。  
 divested は /daɪˈvestɪd/、divesting は /daɪˈvestɪŋ/ で3音節。-ed は /t/ の後なので /ɪd/。第1音節には原形と同じ発音の変異がある。  
 
 ＃語源

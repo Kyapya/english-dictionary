@@ -4,9 +4,9 @@ type: word
 status: checked
 prompt_version: entry_spec_v5
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 ---
 
 ＃発音記号
@@ -346,7 +346,7 @@ model: gpt-6-astra xhigh
 
 【頻度】〈1/10〉  
 
-【レジスター/領域】古風・文語的。古い文学や、意図的に格式を持たせた文章を読むための補助知識。現代の日常的な返済には pay off、義務の履行には fulfil / fulfill や discharge を使うのが普通。  
+【レジスター/領域】古風・文語的。古い文学や、意図的に格式を持たせた文章を読むための補助知識。現代の日常的な返済には pay off、義務の履行には fulfil（米綴り fulfill）や discharge を使うのが普通。  
 
 【文法パターン】acquit a debt＝債務を返済する／acquit an obligation＝義務を果たす／acquit oneself of one's duty＝自分の義務を果たす。再帰型では oneself と one's の人称を主語に合わせる。  
 

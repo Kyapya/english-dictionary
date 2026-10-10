@@ -3,9 +3,9 @@ headword: beset
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -212,7 +212,7 @@ My besetting sin is impatience. では、besetting は sin の前に置かれて
 ・be beset by enemies  
 用途: 戦闘場面で、四方から敵の攻撃を受けることを描く。  
 例: Beset by enemies on every side, the soldiers formed a defensive circle.  
-訳: 四方を敵に襲われ、兵士たちは円陣を組んで身を守った。  
+訳: 四方から敵に襲われ、兵士たちは円陣を組んで身を守った。  
 
 ・〈襲う動物〉 + beset + someone  
 用途: 物語などで、動物が人に群がって襲いかかる場面を描く。  
@@ -320,7 +320,7 @@ My besetting sin is impatience. では、besetting は sin の前に置かれて
 
 ・remain beset  
 用途: 氷による移動不能が続くことを報告する。  
-例: By morning, the vessel remained beset in the same stretch of ice.  
+例: In the morning, the vessel remained beset in the same stretch of ice.  
 訳: 朝になっても、その船は同じ氷域に閉じ込められたままだった。  
 
 ・a beset vessel  

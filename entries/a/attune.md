@@ -3,9 +3,9 @@ headword: attune
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -203,7 +203,7 @@ tune は tone「音・音調」と同じ語源系列で、ラテン語 tonus、�
 ・attune 〈計画・方法〉 to 〈目的・環境〉  
 用途: 実施する内容を、周囲の条件と調和させる。  
 例: We need to attune the training programme to the realities of remote work.  
-訳: 研修プログラムを、在宅勤務の実情に合うように整える必要がある。  
+訳: 研修プログラムを、リモートワークの実情に合うように整える必要がある。  
 
 ・be attuned to 〈目的・雰囲気〉  
 用途: 内容などが調整され、目的や雰囲気に合っていることを述べる。  

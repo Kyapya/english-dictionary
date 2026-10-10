@@ -3,9 +3,9 @@ headword: embroil
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -45,7 +45,7 @@ embroiled は /ɪmˈbrɔɪld/ で、-ed は /d/。embroils は /ɪmˈbrɔɪlz/�
 
 【レジスター/領域】やや硬い一般語。報道、政治、組織内の対立、法的紛争などの説明で使う。基本の意味・構文に大きな米英差はない。  
 
-【文法パターン】someone/something embroils someone/something in something＝原因が人・組織などを問題に巻き込む。embroil oneself in something＝自分を巻き込む、自ら厄介なことに関わる。問題が文脈で分かるときは embroil someone／embroil oneself と in 以下を省けるが、この能動の他動詞用法で目的語を落とさない。someone/something is embroiled in something by someone/something＝巻き込む働きを受動態で表す。get someone/something embroiled in something＝get＋目的語＋過去分詞で、相手が巻き込まれた状態になるようにする。embroil someone with someone＝人をある相手との対立に巻き込むという、文語的な with 型もある。この with は対立相手を示す。語義2の be/become embroiled は巻き込まれる側を主語にする。  
+【文法パターン】someone/something embroils someone/something in something＝原因が人・組織などを問題に巻き込む／embroil oneself in something＝自分を巻き込む、自ら厄介なことに関わる／embroil someone＝人を巻き込む。問題が文脈で分かるときは in 以下を省けるが、この能動の他動詞用法で目的語を落とさない／embroil oneself＝自分を巻き込む。問題が文脈で分かるときは in 以下を省けるが、この能動の他動詞用法で再帰目的語を落とさない／someone/something is embroiled in something by someone/something＝巻き込む働きを受動態で表す／get someone/something embroiled in something＝get＋目的語＋過去分詞で、相手が巻き込まれた状態になるようにする／embroil someone with someone＝人をある相手との対立に巻き込むという、文語的な with 型もある。この with は対立相手を示す。語義2の be embroiled と become embroiled は巻き込まれる側を主語にする。  
 
 【コロケーション・構文例】
 
@@ -84,7 +84,7 @@ embroiled は /ɪmˈbrɔɪld/ で、-ed は /d/。embroils は /ɪmˈbrɔɪlz/�
 例: The minister feared that the alliance would embroil the country with its neighbours.  
 訳: 大臣は、その同盟が自国を近隣諸国との対立に巻き込むことを恐れていた。  
 
-【語法・注意】「私は争いに巻き込まれた」なら I became embroiled in the dispute.。I embroiled the dispute. とすると、目的語は「争い」そのものになり、語義4の「争いを一層もつれさせた」の方向になる。誤: I embroiled in their argument. → 正: I embroiled myself in their argument.／I became embroiled in their argument.。前者は他動詞の再帰形、後者は状態変化であり、oneself を省略した同じ構文ではない。 in の後ろは巻き込まれる問題・活動。embroil someone with a scandal を通常の「不祥事に巻き込む」の型として使わず、embroil someone in a scandal とする。ただし、人を後ろに置く embroil someone with someone では with が対立相手を示す。状態の embroiled with someone も、相手との争い（語義2）や問題を伴う関係（語義3）を表せる。embroil in は分離可能な句動詞ではなく、目的語の後に in の補部を続ける。代名詞も embroil him in the dispute の位置に置く。 巻き込まれた事実と、その人が悪事をしたという判断は別。implicate someone in fraud は不正への関与を示す・疑わせるのに対し、embroil someone in a dispute は実際に争いの当事者にすることに焦点がある。  
+【語法・注意】「私は争いに巻き込まれた」なら I became embroiled in the dispute. I embroiled the dispute. とすると、目的語は「争い」そのものになり、語義4の「争いを一層もつれさせた」の方向になる。誤: I embroiled in their argument. → 正: I embroiled myself in their argument.／I became embroiled in their argument. 前者は他動詞の再帰形、後者は状態変化であり、oneself を省略した同じ構文ではない。 in の後ろは巻き込まれる問題・活動。embroil someone with a scandal を通常の「不祥事に巻き込む」の型として使わず、embroil someone in a scandal とする。ただし、人を後ろに置く embroil someone with someone では with が対立相手を示す。状態の embroiled with someone も、相手との争い（語義2）や問題を伴う関係（語義3）を表せる。embroil in は分離可能な句動詞ではなく、目的語の後に in の補部を続ける。代名詞も embroil him in the dispute の位置に置く。 巻き込まれた事実と、その人が悪事をしたという判断は別。implicate someone in fraud は不正への関与を示す・疑わせるのに対し、embroil someone in a dispute は実際に争いの当事者にすることに焦点がある。  
 
 【類義語】
 
@@ -93,7 +93,7 @@ embroiled は /ɪmˈbrɔɪld/ で、-ed は /d/。embroils は /ɪmˈbrɔɪlz/�
 頻度: 〈9/10〉  
 違い: 中立的・好意的な参加にも使える。embroil は争いや厄介さを伴う関与に限定される。  
 例: The team involved local residents in the planning process.  
-訳: チームは計画づくりに地域住民に参加してもらった。  
+訳: チームは地域住民に計画づくりに参加してもらった。  
 
 ・entangle  
 定義: 人や物事を、抜け出しにくい複雑な問題・関係に絡め取る。  
@@ -124,7 +124,7 @@ embroiled は /ɪmˈbrɔɪld/ で、-ed は /d/。embroils は /ɪmˈbrɔɪlz/�
 
 【レジスター/領域】やや硬い描写・報道。政治的対立、訴訟、組織の不祥事などで使うが、それらだけに限らない。  
 
-【文法パターン】someone/something is embroiled in something＝問題に深く関わっている。become/get embroiled in something＝その状態になる。be/become embroiled with someone (over something)＝ある相手と争いになっている／争いになる。with は対立相手、over は争点を示し、争点は省略できる。remain/seem embroiled in something＝その状態が続く／そう見える。対象が明らかなら be/become embroiled と補部を省ける。deeply/increasingly embroiled、more embroiled のように関与の深さを表せる。主に叙述用法で、名詞を修飾する場合は a company embroiled in litigation のような後置が分かりやすい。a deeply embroiled participant のような限定用法も可能だが、単純な an embroiled person を基本型として覚える必要はない。  
+【文法パターン】someone/something is embroiled in something＝問題に深く関わっている／become embroiled in something＝その状態になる／get embroiled in something＝その状態になる／be embroiled with someone (over something)＝ある相手と争いになっている。with は対立相手、over は争点を示し、争点は省略できる／become embroiled with someone (over something)＝ある相手と争いになる。with は対立相手、over は争点を示し、争点は省略できる／remain embroiled in something＝その状態が続く／seem embroiled in something＝そういう状態に見える／be embroiled＝問題に深く関わっている。対象が明らかなら補部を省ける／become embroiled＝その状態になる。対象が明らかなら補部を省ける。deeply embroiled、increasingly embroiled、more embroiled のように関与の深さを表せる。主に叙述用法で、名詞を修飾する場合は a company embroiled in litigation のような後置が分かりやすい。a deeply embroiled participant のような限定用法も可能だが、単純な an embroiled person を基本型として覚える必要はない。  
 
 【コロケーション・構文例】
 
@@ -156,7 +156,7 @@ embroiled は /ɪmˈbrɔɪld/ で、-ed は /d/。embroils は /ɪmˈbrɔɪlz/�
 ・a company embroiled in litigation  
 用途: 名詞の後ろから、巻き込まれている問題を具体的に説明する。  
 例: Investors were reluctant to buy shares in a company embroiled in litigation.  
-訳: 投資家たちは、訴訟の渦中にある会社の株を買うことに慎重だった。  
+訳: 投資家たちは、訴訟の渦中にある会社の株を買うことをためらっていた。  
 
 ・become embroiled with someone over something  
 用途: with で対立相手、over で争点を示す。  
@@ -186,7 +186,7 @@ embroiled は /ɪmˈbrɔɪld/ で、-ed は /d/。embroils は /ɪmˈbrɔɪlz/�
 頻度: 〈8/10〉  
 違い: embroiled より会話的で、争い以外に興奮や忙しさなどにも使える。問題への不本意な巻き込みにも適する。  
 例: Two innocent colleagues were caught up in the investigation.  
-訳: 無関係な同僚二人まで、その調査に巻き込まれた。  
+訳: 無実の同僚二人が、その調査に巻き込まれた。  
 
 3. 【形容詞・embroiled】厄介な関係に深く関わっている
 
@@ -248,7 +248,7 @@ embroiled は /ɪmˈbrɔɪld/ で、-ed は /d/。embroils は /ɪmˈbrɔɪlz/�
 
 【レジスター/領域】まれな文語的用法。一般辞書には収録されるが、現代の通常の会話・実務文では complicate や confuse の方が分かりやすい。現代の中心用法として優先してまねる必要はない。  
 
-【文法パターン】someone/something embroils something＝人・出来事などが事態を混乱させる。embroil matters／embroil affairs のように、混乱する対象を直接目的語にする。something is embroiled by something という受動態も作れる。in 以下を補って「何かに巻き込む」ことがこの語義の必須フレームではない。  
+【文法パターン】someone/something embroils something＝人・出来事などが事態を混乱させる／embroil matters＝事態を混乱させる。混乱する対象を直接目的語にする／embroil affairs＝諸事情を混乱させる。混乱する対象を直接目的語にする／something is embroiled by something＝事態が何かによって混乱させられる、という受動態も作れる。in 以下を補って「何かに巻き込む」ことがこの語義の必須フレームではない。  
 
 【コロケーション・構文例】
 
@@ -262,7 +262,7 @@ embroiled は /ɪmˈbrɔɪld/ で、-ed は /d/。embroils は /ɪmˈbrɔɪlz/�
 例: The disputed inheritance had embroiled the family's affairs for years.  
 訳: 相続をめぐる争いが、長年にわたってその一家の諸事を複雑にしていた。  
 
-【語法・注意】embroil the family in a dispute「一家を争いに巻き込む」（語義1）と embroil the family's affairs「一家の諸事を混乱させる」は、目的語の意味役割が違う。ここで「混乱させる」といっても、日常的な「説明が分からず人が混乱する」のすべてに使えるわけではない。誤: This explanation embroils me. を単に「この説明は私を混乱させる」のつもりで使う。→ 正: This explanation confuses me.。前者は語義1の「私を厄介なことに巻き込む」と読まれやすい。  
+【語法・注意】embroil the family in a dispute「一家を争いに巻き込む」（語義1）と embroil the family's affairs「一家の諸事を混乱させる」は、目的語の意味役割が違う。ここで「混乱させる」といっても、日常的な「説明が分からず人が混乱する」のすべてに使えるわけではない。誤: This explanation embroils me. を単に「この説明は私を混乱させる」のつもりで使う。→ 正: This explanation confuses me. 前者は語義1の「私を厄介なことに巻き込む」と読まれやすい。  
 
 【類義語】
 
