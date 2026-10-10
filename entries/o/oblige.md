@@ -3,9 +3,9 @@ headword: oblige
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -58,7 +58,7 @@ tags: []
 例: Under this contract, we are obliged by the confidentiality clause to protect customer data.  
 訳: この契約では、私たちは秘密保持条項により顧客データを保護する義務を負っている。  
 
-・oblige someone to pay something  
+・oblige someone to pay for something  
 用途: 費用負担や支払いが必要になる関係を示す。  
 例: Buying a ticket does not oblige you to pay for the optional workshop.  
 訳: チケットを買っても、任意参加の講習会の料金まで支払う義務は生じない。  
@@ -70,7 +70,7 @@ tags: []
 
 【語法・注意】誤: The rule obliges employees wearing badges.／正: The rule obliges employees to wear badges. 義務を負う employees を目的語に置き、行動は to 不定詞で続ける。「自分に義務がある」は I am obliged to ... といい、I oblige to ... をその代わりにしない。be obliged は通常の受動態または語義2の状態表現であり、oneself の省略形ではない。自分を拘束する意味で再帰目的語を組み立てることはできるが、日常の「義務がある」を oblige oneself で覚える必要はない。  
 
-be obliged to pay は「支払う義務・必要がある」で、感謝を示す be obliged to someone for something（語義4）と別構造。人に何かを頼んで手伝ってもらう語義3の oblige someone by doing とも区別する。行為名詞を直接取る oblige disclosure は実在するが、通常の実務文では require disclosure のほうが広く使われる。目的語を「常に人だけ」と限定するのも、行為名詞型をすべての動詞に広げるのも避ける。  
+be obliged to pay は「支払う義務・必要がある」で、感謝を示す be obliged to someone for something（語義4）と別構造。何かをして相手の頼みに応じる語義3の oblige someone by doing とも区別する。行為名詞を直接取る oblige disclosure は実在するが、通常の実務文では require disclosure のほうが広く使われる。目的語を「常に人だけ」と限定するのも、行為名詞型をすべての動詞に広げるのも避ける。  
 
 【類義語】
 
@@ -286,7 +286,7 @@ Would you oblige me by ...? は現代でも成立するが、日常の依頼で�
 ・I would be obliged if you could ...  
 用途: 「そうしてもらえるとありがたい」と丁寧に依頼する。  
 例: I would be obliged if you could confirm receipt of the documents.  
-訳: 書類を受領した旨、ご確認いただければ幸いです。  
+訳: 書類を受領した旨をお知らせいただければ幸いです。  
 
 【語法・注意】I am obliged to you for checking. の to は人を導く前置詞で、checking は for の目的語になる動名詞。I am obliged to check. の to は不定詞を導き、「私に確認する義務がある」（語義2）。形の似た2文でも意味役割が違う。誤: I am obliged for you to help me.（「助けてくれてありがとう」のつもり）／正: I am much obliged to you for helping me. 感謝には much obliged や very much obliged が定着しており、very obliged だけを基本形にしない。  
 

@@ -3,9 +3,9 @@ headword: reimburse
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -56,7 +56,7 @@ disburse「資金を支出する」と purse「財布」も bursa に由来す�
 訳: 講習会の材料を買った費用を、学校が払い戻してくれました。  
 
 ・reimburse reasonable expenses  
-用途: 規定の範囲内の経費を、費用目的語で表す。  
+用途: 妥当な範囲の経費を、費用目的語で表す。  
 例: The organizer agreed to reimburse reasonable accommodation expenses.  
 訳: 主催者は、妥当な範囲の宿泊費を払い戻すことに同意しました。  
 

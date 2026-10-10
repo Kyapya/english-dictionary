@@ -3,9 +3,9 @@ headword: abstain
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -75,7 +75,7 @@ contain「含む」、retain「保持する」、detain「引き留める」も 
 例: We attended the meeting but abstained on the vote because the revised figures had arrived too late.  
 訳: 私たちは会議には出席したが、修正後の数値が届くのが遅すぎたため、採決では棄権した。  
 
-【語法・注意】単独の I abstain. は採決の場で「棄権します」。from が常に必須なのではない。誤: She abstained the proposal. → 正: She abstained on the proposal. または She abstained from voting on the proposal.。前者の on は案件、後者の from voting は差し控える行為で、構造が異なる。棄権した人が会場にいなかったとは限らず、棄権を反対票や拒否権の行使と訳さない。定足数・必要賛成数への影響は各制度による。名詞の abstention は棄権の行為やその数を表せるが、abstinence は通常この採決用語には使わない。  
+【語法・注意】単独の I abstain. は採決の場で「棄権します」。from が常に必須なのではない。誤: She abstained the proposal. → 正: She abstained on the proposal. または She abstained from voting on the proposal. 前者の on は案件、後者の from voting は差し控える行為で、構造が異なる。棄権した人が会場にいなかったとは限らず、棄権を反対票や拒否権の行使と訳さない。定足数・必要賛成数への影響は各制度による。名詞の abstention は棄権の行為やその数を表せるが、abstinence は通常この採決用語には使わない。  
 
 【類義語】
 
@@ -132,7 +132,7 @@ contain「含む」、retain「保持する」、detain「引き留める」も 
 例: She tried cutting down on wine before deciding to abstain completely.  
 訳: 彼女はワインを飲む量を減らしてみた後、完全に飲まないことにした。  
 
-【語法・注意】誤: I abstain alcohol. → 正: I abstain from alcohol.。誤: He abstained to drink. → 正: He abstained from drinking.。to 不定詞は abstain が取る行為の補部にはしない。「相手に控えさせる」は abstain someone from ではなく、文意に応じて persuade someone to abstain from、prevent someone from などを使う。abstain from alcohol for a week は「1週間禁酒する」で、一生飲まないことを含意しない。また、cut down on alcohol「飲酒量を減らす」とは異なり、指定した対象・期間についてしない選択を表す。発言を控える場合は refrain from commenting もよく使い、abstain を飲食だけに限定しない。abstained は過去形・過去分詞だが、通常の英語で「禁酒している」を I am abstained. とは言わず、I abstain from alcohol. や I don't drink. とする。  
+【語法・注意】誤: I abstain alcohol. → 正: I abstain from alcohol. 誤: He abstained to drink. → 正: He abstained from drinking. to 不定詞は abstain が取る行為の補部にはしない。「相手に控えさせる」は abstain someone from ではなく、文意に応じて persuade someone to abstain from、prevent someone from などを使う。abstain from alcohol for a week は「1週間禁酒する」で、一生飲まないことを含意しない。また、cut down on alcohol「飲酒量を減らす」とは異なり、指定した対象・期間についてしない選択を表す。発言を控える場合は refrain from commenting もよく使い、abstain を飲食だけに限定しない。abstained は過去形・過去分詞だが、通常の英語で「禁酒している」を I am abstained. とは言わず、I abstain from alcohol. や I don't drink. とする。  
 
 【類義語】
 
@@ -179,7 +179,7 @@ contain「含む」、retain「保持する」、detain「引き留める」も 
 例: During the general strike, many factory workers abstained.  
 訳: ゼネストの間、多くの工場労働者が仕事を休んだ。  
 
-【語法・注意】一般的な英米語で病欠を伝えるなら I was absent from work yesterday. などが明確。abstain from work は、地域差を意識せず日常の欠勤連絡に広げない。職員・組合という主語だけで語義が決まるのではなく、投票の文脈なら同じ abstained が「棄権した」になる。語義1の棄権は出席したままでも可能で、この語義の不出勤と同一ではない。  
+【語法・注意】一般的な英米語で欠勤を伝えるなら I was absent from work yesterday. などが明確。abstain from work は、地域差を意識せず日常の欠勤連絡に広げない。職員・組合という主語だけで語義が決まるのではなく、投票の文脈なら同じ abstained が「棄権した」になる。語義1の棄権は出席したままでも可能で、この語義の不出勤と同一ではない。  
 
 【類義語】
 

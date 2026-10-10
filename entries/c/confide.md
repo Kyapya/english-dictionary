@@ -3,9 +3,9 @@ headword: confide
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -320,7 +320,7 @@ tags: []
 頻度: 〈7/10〉  
 違い: 他人に対する疑い・警戒の有無で対立し、積極的な疑念を表す。  
 例: She was suspicious of his sudden generosity.  
-訳: 彼女は彼が急に気前よくなったことを疑っていた。  
+訳: 彼女は彼の突然の気前のよさを不審に思っていた。  
 
 5. 【自動詞＋前置詞 in】信頼する、頼りにする
 

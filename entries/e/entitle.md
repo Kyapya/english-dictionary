@@ -3,9 +3,9 @@ headword: entitle
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -34,7 +34,7 @@ tags: []
 
 【レジスター/領域】一般・業務・契約・制度の説明。能動の entitle はやや改まった語で、be entitled to は日常の説明にも使う。法律で使われても、具体的な権利の成立条件や効力は個々の法・契約によって決まる。  
 
-【文法パターン】something + entitle + someone + to something＝何かが人に利益などを受ける権利を与える／something + entitle + someone + to do something＝何かが人に行動する権利を与える／someone + be entitled to something／someone + be entitled to do something＝その権利がある。最初の to は名詞句を導く前置詞、to do の to は不定詞の一部。someone + become entitled to something は資格を得る変化、someone + feel entitled to something／someone + feel entitled to do something は本人がそうした権利があると感じることを表す。受動形では必要に応じて by で根拠・付与者を示せる。権利を持つ者を表す the people entitled to ... のような名詞後置も使う。  
+【文法パターン】something + entitle + someone + to something＝何かが人に利益などを受ける権利を与える／something + entitle + someone + to do something＝何かが人に行動する権利を与える／someone + be entitled to something＝その権利がある／someone + be entitled to do something＝その権利がある。to something の to は名詞句を導く前置詞、to do の to は不定詞の一部。受動形では必要に応じて by で根拠・付与者を示せる。権利を持つ者を表す the people entitled to ... のような名詞後置も使う。／someone + become entitled to something＝資格を得る変化／someone + feel entitled to something＝本人が何かを受ける権利があると感じる／someone + feel entitled to do something＝本人がある行動を取る権利があると感じる。  
 
 【コロケーション・構文例】
 
@@ -113,7 +113,7 @@ tags: []
 【反意語】
 
 ・disqualify  
-定義: 人や組織から資格を失わせる、条件上不適格にする。  
+定義: 人や組織に資格を失わせる、条件上不適格にする。  
 頻度: 〈6/10〉  
 違い: 権利・資格を与える方向に対し、それを失わせたり取得できなくしたりする方向の対立。単に権利を与えないことより強い。  
 例: Providing false information may disqualify you from receiving the grant.  
@@ -134,7 +134,7 @@ tags: []
 
 【レジスター/領域】一般の文章・作品紹介・出版・報道。特に受動形と過去分詞による後置修飾がよく使われる。米英とも標準用法。  
 
-【文法パターン】entitle something + 〈題名〉＝作品などをその題名にする。目的語に続く題名は目的格補語で、to／as を挟まない／something + be entitled + 〈題名〉＝その題名が付いている／a 〈作品など〉 entitled + 〈題名〉＝～と題された作品など。引用符の中には単語だけでなく、句や文からなる題名も置ける。  
+【文法パターン】entitle something + 〈題名〉＝作品などをその題名にする。目的語に続く題名は目的格補語で、to や as を挟まない／something + be entitled + 〈題名〉＝その題名が付いている／a 〈作品など〉 entitled + 〈題名〉＝～と題された作品など。引用符の中には単語だけでなく、句や文からなる題名も置ける。  
 
 【コロケーション・構文例】
 
@@ -191,14 +191,14 @@ tags: []
 
 【レジスター/領域】一般・会話・人物評・社会的な議論。通常は批判的。専門的な心理診断名ではない。  
 
-【文法パターン】an entitled 〈人〉／an entitled attitude＝特別扱いを当然視する人・態度／someone + be／seem／become entitled＝そのような人物である・そう見える・そうなる。程度は so／very／increasingly entitled、比較は more／less entitled で表せる。someone + feel entitled to something／someone + feel entitled to do something は、要求内容や文脈が過剰な当然視を示す場合にこの評価と結び付く。entitled 単独で評価が成立するため、to 以下は必須ではない。  
+【文法パターン】an entitled 〈人〉＝特別扱いを当然視する人／an entitled attitude＝特別扱いを当然視する態度／someone + be entitled＝そのような人物である／someone + seem entitled＝そのような人物に見える／someone + become entitled＝そのような人物になる。程度は so entitled、very entitled、increasingly entitled、比較は more entitled、less entitled で表せる／someone + feel entitled to something＝何かを受ける権利があると感じる。要求内容や文脈が過剰な当然視を示す場合にこの評価と結び付く／someone + feel entitled to do something＝ある行動を取る権利があると感じる。要求内容や文脈が過剰な当然視を示す場合にこの評価と結び付く。entitled 単独で評価が成立するため、to 以下は必須ではない。  
 
 【コロケーション・構文例】
 
 ・an entitled customer  
 用途: 通常の規則や他人への配慮を無視して優遇を求める客を評する。  
 例: An entitled customer demanded to be served ahead of everyone waiting in line.  
-訳: 特別扱いを当然と思っている客が、列に並ぶ全員より先に対応するよう要求した。  
+訳: 特別扱いを当然と思っている客が、列に並ぶ全員より先に自分に対応するよう要求した。  
 
 ・an entitled attitude  
 用途: 人そのものではなく、過剰な当然視をする態度を表す。  
@@ -218,7 +218,7 @@ tags: []
 ・feel entitled to someone's time  
 用途: 他人の時間や労力を当然自分のために使えると思う姿勢を表す。  
 例: He felt entitled to his colleagues' time and kept calling them late at night about routine tasks.  
-訳: 彼は同僚の時間を自分のために使って当然だと思い、急ぎでもない仕事のことで夜遅くに何度も電話した。  
+訳: 彼は同僚の時間を自分のために使って当然だと思い、日常的な業務のことで夜遅くに何度も電話した。  
 
 【語法・注意】You're entitled. と補部なしで人物を評すると、通常は「あなたは特別扱いを当然視している」という批判になる。一方、You're entitled to a refund. は語義1の権利の説明であり、それ自体に非難はない。権利の話が既に共有されている文脈では entitled の補部を省くこともあるので、「補部なしなら必ず悪口」という絶対規則にはしない。feel entitled to ... でも、返金を求める正当な権利感と、他人の労力を当然視する態度を、具体的な要求内容・文脈で区別する。語義1の entitle の受動形に常にこの批判を読み込まない。entitled は1語で、名詞前でもハイフンは不要。誤: He is an entitle customer.／正: He is an entitled customer.。privileged は客観的に恵まれた立場、entitled は主にその人の当然視する態度で、恵まれた人が必ず entitled とは限らない。confident「自信がある」も、特別扱いを要求する態度を必ず含まない。  
 
