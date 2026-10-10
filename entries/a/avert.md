@@ -3,9 +3,9 @@ headword: avert
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -121,7 +121,7 @@ tags: []
 
 【頻度】〈5/10〉  
 
-【レジスター/領域】ややフォーマル、描写的な文章。eyes / gaze が中心で、thoughts は比較的文語的。  
+【レジスター/領域】ややフォーマル、描写的な文章。eyes と gaze が中心で、thoughts は比較的文語的。  
 
 【文法パターン】avert one's eyes＝目をそらす／avert one's gaze from someone/something＝人・物から視線をそらす／avert one's face＝顔をそむける／avert one's thoughts from something＝～から考えをそらす／with one's eyes averted＝目をそらした状態で／averted eyes＝そらした目。from 以下は、対象が文脈から分かるときには省略できる。  
 
@@ -157,7 +157,7 @@ tags: []
 例: Her averted eyes made it difficult for him to read her expression.  
 訳: 彼女が目をそらしていたため、彼はその表情を読み取りにくかった。  
 
-【語法・注意】誤: She averted from him. → 正: She averted her eyes from him.／She looked away from him.。avert を自動詞の look away と同じ形で使わない。また、通常は自分の目・視線を示す所有格を置き、avert herself を「目をそらす」の基本表現にはしない。avert your eyes from the accident は事故から目をそらすこと、avert the accident は事故を防ぐこと。from 以下の対象と、直接目的語を取り違えない。  
+【語法・注意】誤: She averted from him. → 正: She averted her eyes from him.／She looked away from him. avert を自動詞の look away と同じ形で使わない。また、通常は自分の目・視線を示す所有格を置き、avert herself を「目をそらす」の基本表現にはしない。avert your eyes from the accident は事故から目をそらすこと、avert the accident は事故を防ぐこと。from 以下の対象と、直接目的語を取り違えない。  
 
 ・with his eyes averted は with + 名詞句 + 過去分詞の構造で、avert に with が必須という意味ではない。averted eyes は動詞の結果を表す分詞修飾で、特定の性格や心理状態を独立に表す形容詞ではない。目をそらした理由は文脈から判断する。目を閉じるなら close one's eyes、凝視するなら stare at、目を合わせるなら make eye contact with と、実際の動作を区別する。  
 

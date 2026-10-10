@@ -3,9 +3,9 @@ headword: redundant
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -87,7 +87,7 @@ tags: []
 例: Now that the children can cook for themselves, he sometimes feels redundant in the kitchen.  
 訳: 子どもたちが自分で料理できるようになり、彼は台所で自分の出番がなくなったように感じることがある。  
 
-【語法・注意】redundant は形容詞なので、誤: This paragraph is redundancy. → 正: This paragraph is redundant.／This paragraph contains redundancy.。make the form redundant では the form が目的語、redundant がその結果を示す補語。人を目的語にする make someone redundant は、主に英国英語で人員整理を意味する語義2と区別する。人が feel redundant と述べても、一般に「自分は必要とされていないと感じる」だけで、失職したとは限らない。  
+【語法・注意】redundant は形容詞なので、誤: This paragraph is redundancy. → 正: This paragraph is redundant.／This paragraph contains redundancy. make the form redundant では the form が目的語、redundant がその結果を示す補語。人を目的語にする make someone redundant は、主に英国英語で人員整理を意味する語義2と区別する。人が feel redundant と述べても、一般に「自分は必要とされていないと感じる」だけで、失職したとは限らない。  
 
 ・redundant は単に「長い」ではない。長くても必要な説明なら redundant とは限らず、短い句でも意味が重なれば redundant になり得る。同じ語や意味の反復が強調・対比に役立つこともあるので、形だけで常に誤りと断定しない。obsolete は古くなって使われなくなったことに焦点を置くが、redundant な設備は新品でも、同機能の設備が余っていれば成立する。語義3の redundant power supplies は、故障に備えた有用な重複であることが多い。  
 
@@ -162,7 +162,7 @@ tags: []
 例: The programme provides retraining for redundant workers.  
 訳: その制度は、人員整理で職を失った労働者に再訓練を提供する。  
 
-【語法・注意】make someone redundant は make + 目的語 + 形容詞の構文であり、redundant 自体を動詞として使わない。誤: The company redundant him. → 正: The company made him redundant.。解雇される人を単独の a redundant と呼ばず、a redundant worker のように名詞を付ける。名詞 redundancy は人員整理・失職を指し、three redundancies は通常「人員削減3人分」のこと。  
+【語法・注意】make someone redundant は make + 目的語 + 形容詞の構文であり、redundant 自体を動詞として使わない。誤: The company redundant him. → 正: The company made him redundant. 解雇される人を単独の a redundant と呼ばず、a redundant worker のように名詞を付ける。名詞 redundancy は人員整理・失職を指し、three redundancies は通常「人員削減3人分」のこと。  
 
 ・The role is redundant. は「その職務はもう必要ない」という語義1の判断で、The employee was made redundant. は実際の雇用上の措置を述べる。redundant は「無能な人」という評価語ではない。英国の制度では人員整理に伴う給付・通知・協議などが問題になるが、対象者や条件があり、この英単語だけで給付の権利や解雇の適法性は判断できない。  
 

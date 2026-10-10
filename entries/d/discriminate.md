@@ -3,9 +3,9 @@ headword: discriminate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -146,8 +146,8 @@ tags: []
 
 ・discriminate between good and bad 〈複数名詞〉  
 用途: 質や適否の違いを判断する。  
-例: Training helps buyers discriminate between good and bad investments.  
-訳: 研修は、購入者が良い投資と悪い投資を見分ける助けとなる。  
+例: Training helps investors discriminate between good and bad investments.  
+訳: 研修は、投資家が良い投資と悪い投資を見分ける助けとなる。  
 
 【語法・注意】discriminate between A and B と、語義3の discriminate A from B は、どちらも識別を表せるが、前者は自動詞＋between、後者はAを直接目的語にした他動詞である。誤: discriminate between A from B → 正: discriminate between A and B／discriminate A from B。似た型を混ぜない。  
 
