@@ -3,9 +3,9 @@ headword: encroach
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -142,7 +142,7 @@ encroach は境界を越えて範囲に食い込む点に、impinge on は影響
 ・continue to encroach  
 用途: 侵入先が文脈で分かる場合に、前置詞句を省いて広がり続けることを表す。  
 例: We cleared the path last spring, but the brambles continue to encroach.  
-訳: 去年の春に小道を整備しましたが、キイチゴの茂みが今も入り込み続けています。  
+訳: この前の春に小道を整備しましたが、キイチゴの茂みが今も入り込み続けています。  
 
 ・be encroached on by 〈植物・開発など〉  
 用途: 場所を主語にして、何がそこへ広がっているかを示す。  

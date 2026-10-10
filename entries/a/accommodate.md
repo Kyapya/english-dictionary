@@ -3,9 +3,9 @@ headword: accommodate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -49,7 +49,7 @@ tags: []
 
 【レジスター/領域】一般・旅行・施設案内・設計・業務。日常会話の「泊める」より説明的な語感。  
 
-【文法パターン】accommodate someone/something＝人・物を収容する／〈施設〉 can accommodate 〈人数・物量〉＝その量を収容できる／accommodate someone in/at 〈宿泊場所〉＝その場所に宿泊させる／someone is accommodated in/at 〈宿泊場所〉＝その場所に宿泊場所を用意される／accommodate something within 〈空間〉＝その空間内に物を収める。受動態では収容される人・物が主語になる。  
+【文法パターン】accommodate someone/something＝人・物を収容する／〈施設〉 can accommodate 〈人数・物量〉＝その量を収容できる／accommodate someone in/at 〈宿泊場所〉＝その場所に宿泊させる／someone is accommodated in/at 〈宿泊場所〉＝その場所での宿泊を手配してもらう／accommodate something within 〈空間〉＝その空間内に物を収める。受動態では収容される人・物が主語になる。  
 
 【コロケーション・構文例】
 
@@ -350,7 +350,7 @@ to の後ろで行動を表すなら動名詞を使う。たとえば accommodat
 例: Our landlord was accommodating about the change in our moving date.  
 訳: 大家は、私たちの引っ越し日の変更に柔軟に対応してくれた。  
 
-【語法・注意】The hotel is accommodating. は「そのホテルは対応に融通が利く」という形容詞。The hotel is accommodating displaced residents. は目的語を伴う進行形で、「そのホテルはいま避難した住民を受け入れている」（語義1）。The residents are accommodated at the hotel. は受動態。accommodating・accommodated の形が似ていても、対応する側と対応を受ける側を逆にしない。an accommodating manager にハイフンは付けない。  
+【語法・注意】The hotel is accommodating. は「そのホテルは対応に融通が利く」という形容詞。The hotel is accommodating displaced residents. は目的語を伴う進行形で、「そのホテルはいま住まいを離れざるを得なくなった住民を受け入れている」（語義1）。The residents are accommodated at the hotel. は受動態。accommodating・accommodated の形が似ていても、対応する側と対応を受ける側を逆にしない。an accommodating manager にハイフンは付けない。  
 
 【類義語】
 

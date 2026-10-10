@@ -3,9 +3,9 @@ headword: dwindle
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -87,7 +87,7 @@ tags: []
 ・a dwindling number of 〈複数名詞〉（dwindle の現在分詞形）  
 用途: 数が減り続ける人・物について述べる。  
 例: A dwindling number of shops still offer repairs on the premises.  
-訳: 店内で修理を受け付ける店は、しだいに少なくなっている。  
+訳: 店内で修理を行う店は、しだいに少なくなっている。  
 
 ・a dwindling workforce（dwindle の現在分詞形）  
 用途: 人員の減少を、集団を表す単数名詞の修飾として示す。  

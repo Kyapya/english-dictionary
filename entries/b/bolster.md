@@ -3,9 +3,9 @@ headword: bolster
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -192,7 +192,7 @@ tags: []
 
 ・a bolster pillow  
 用途: 細長い枕・クッションという商品の種類を示す。  
-例: Two blue bolster pillows lay at either end of the sofa.  
+例: A blue bolster pillow lay at each end of the sofa.  
 訳: ソファの両端に青い細長いクッションが一つずつ置いてあった。  
 
 【語法・注意】誤: We bought bolster for the sofa. → 正: We bought a bolster for the sofa. または We bought bolsters for the sofa. a bolster は支える「物」、語義3の bolster someone は支える「動作」。日本語の抱き枕と重なる商品もあるが、抱えて寝る用途に限定しない。support の抽象的な不可算用法を移して、一般的な支援を much bolster と表さない。  

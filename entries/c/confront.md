@@ -3,9 +3,9 @@ headword: confront
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -73,7 +73,7 @@ front「前面」と frontal「前面の、正面からの」も frons/front- �
 例: We must confront the fact that our current business model is no longer sustainable.  
 訳: 私たちは、現在の事業モデルをもはや維持できないという事実に向き合わなければならない。  
 
-【語法・注意】誤: We must confront with the problem. → 正: We must confront the problem. または We are confronted with the problem.。前者は人が問題に向き合う能動形、後者は人が問題に直面している受動の形。The problem confronts us. では問題が主語で、語義3になる。「confront はいつも人が主語」と覚えない。confront a problem は必ずしも攻撃・口論ではなく、冷静に対処する場合にも使える。confront ourselves だけを「問題に向き合う」の決まった再帰構文とせず、自分の恐れなら confront our fears のように向き合う対象を置く。  
+【語法・注意】誤: We must confront with the problem. → 正: We must confront the problem. 別の意味では We are confronted with the problem. とも言える。前者は人が問題に向き合う能動形、後者は人が問題に直面している受動の形。The problem confronts us. では問題が主語で、語義3になる。「confront はいつも人が主語」と覚えない。confront a problem は必ずしも攻撃・口論ではなく、冷静に対処する場合にも使える。confront ourselves だけを「問題に向き合う」の決まった再帰構文とせず、自分の恐れなら confront our fears のように向き合う対象を置く。  
 
 【類義語】
 
