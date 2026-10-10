@@ -3,9 +3,9 @@ headword: relinquish
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -34,7 +34,7 @@ tags: []
 
 【レジスター/領域】硬めの一般語。組織、権限、所有、政治、報道でよく使い、希望や計画については改まった叙述になる。会話では give up が広く使われる。  
 
-【文法パターン】relinquish 〈権利・支配・所有・役割・希望〉＝それを手放す／relinquish something to someone＝物・権限などを相手に譲る／relinquish control of something＝その支配・管理権を手放す／relinquish one's role as 〈役職〉＝その役割を退く／relinquish a claim to something＝何かに対する権利の主張を取り下げる／relinquish hope of doing＝行えるという希望を捨てる／be relinquished by someone＝人によって放棄されるという受動態。  
+【文法パターン】relinquish 〈権利・支配・所有・役割・希望〉＝それを手放す／relinquish something to someone＝物・権限などを相手に譲る／relinquish control of something＝その支配・管理権を手放す／relinquish one's role as 〈役職〉＝その役割を退く／relinquish a claim to something＝何かに対する権利の主張を取り下げる／relinquish hope of doing＝～するという希望を捨てる／be relinquished by someone＝人によって放棄されるという受動態。  
 
 【コロケーション・構文例】
 
@@ -65,8 +65,8 @@ tags: []
 
 ・relinquish the lead  
 用途: スポーツなどで保持していた首位やリードを失う。  
-例: The runners exchanged places several times, but Lee never relinquished the lead.  
-訳: 選手たちの順位は何度も入れ替わったが、リーは一度も首位を明け渡さなかった。  
+例: The other runners exchanged places several times, but Lee never relinquished the lead.  
+訳: ほかの選手たちの順位は何度も入れ替わったが、リーは一度も首位を明け渡さなかった。  
 
 ・relinquish hope of doing  
 用途: それまで持ち続けていた希望を断念する。  
@@ -159,7 +159,7 @@ relinquish hope は希望を「捨てる」ことで、誰かに希望を譲渡�
 
 【頻度】〈4/10〉  
 
-【レジスター/領域】硬め・叙述的。会話では let go of / release を使うことが多い。  
+【レジスター/領域】硬め・叙述的。会話では let go of または release を使うことが多い。  
 
 【文法パターン】relinquish 〈つかんでいる物・人の手など〉＝直接その対象を放す／relinquish one's grip on something＝何かを握っている手を離す／relinquish one's hold on something＝何かを保持する手を離す／be relinquished＝つかまれていたものが放されるという受動態。  
 

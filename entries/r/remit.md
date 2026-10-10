@@ -3,9 +3,9 @@ headword: remit
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -126,7 +126,7 @@ outside my remit は「責任・権限の範囲外」であり、「私には能
 
 【頻度】〈6/10〉  
 
-【レジスター/領域】硬い業務・会計上の文言。請求書、支払案内、税の納付、送金業務など。日常会話では send money / pay が普通。  
+【レジスター/領域】硬い業務・会計上の文言。請求書、支払案内、税の納付、送金業務など。日常会話では send money や pay が普通。  
 
 【文法パターン】remit 〈金額・支払金・資金〉＝それを送金するという他動詞／remit something to someone / somewhere＝相手・場所へ送る／remit payment for 〈品物・サービス〉＝その代金を送って支払う／be remitted to someone＝送金されるという受動態／remit by 〈送金方法〉＝その方法で送金するという自動詞／remit promptly＝対象が文脈で明らかなとき、速やかに送金する。  
 

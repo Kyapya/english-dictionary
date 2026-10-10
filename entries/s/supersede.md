@@ -3,9 +3,9 @@ headword: supersede
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -85,7 +85,7 @@ tags: []
 ・be superseded as 〈役職・役割〉 by someone  
 用途: 役割を失う側から交代を述べる。  
 例: She was superseded as chief negotiator by a senior minister.  
-訳: 交渉責任者の役割は、彼女から上級閣僚に交代した。  
+訳: 交渉責任者は、彼女から上級閣僚に交代した。  
 
 ・a superseded 〈文書・版〉  
 用途: 現在の運用の基準ではなくなったものを修飾する。  
@@ -172,7 +172,7 @@ supersede は単に内容を「修正する」update / revise や情報を「補
 頻度: 〈6/10〉  
 違い: 判断を覆したり、通常の扱いを押し切ったりする力を示しやすい。supersede は他方に代わる・優先される関係に焦点を置くが、この用法では重なる。  
 例: The need to protect witnesses overrides the public's interest in immediate disclosure.  
-訳: 証人を保護する必要は、すぐに情報を公開してほしいという公衆の関心に優先する。  
+訳: 証人を保護する必要は、即時の情報公開によって得られる公共の利益に優先する。  
 
 ・take precedence over  
 定義: 他の事柄より先に、または重く扱われる。  

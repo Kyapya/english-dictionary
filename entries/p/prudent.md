@@ -3,9 +3,9 @@ headword: prudent
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -56,7 +56,7 @@ tags: []
 訳: 元のファイルを削除する前に、バックアップを確認しておくのが賢明だろう。  
 
 ・it is prudent for someone to do  
-用途: 誰にとってその行動が賢明かを明示する。  
+用途: 誰がその行動をするのが賢明かを明示する。  
 例: It may be prudent for new staff to ask a colleague to check their first report.  
 訳: 新人は最初の報告書を同僚に確認してもらうとよいかもしれない。  
 

@@ -3,9 +3,9 @@ headword: dispel
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -75,7 +75,7 @@ tags: []
 ・dispel the gloom  
 用途: 気分や場の重苦しさを晴らす。  
 例: News of the team's recovery dispelled the gloom in the office.  
-訳: チームの業績が回復したという知らせで、オフィスの重苦しい空気が晴れた。  
+訳: チームが立ち直ったという知らせで、オフィスの重苦しい空気が晴れた。  
 
 ・dispel something from someone's mind  
 用途: 人の心にある考えや不安を取り去ることを表す。  
@@ -87,7 +87,7 @@ tags: []
 例: Their doubts were dispelled by a careful examination of the original records.  
 訳: 元の記録を丁寧に調べたことで、彼らの疑念は払拭された。  
 
-【語法・注意】通常は dispel + 名詞句で、「～ではないと示す」を dispel that ... と直接つなげない。誤: The evidence dispelled that he was involved. → 正: The evidence dispelled the suspicion that he was involved.。後者の that 節は suspicion の内容を説明する。the notion that ... や rumours that ... でも同じ。目的語は取り除かれる疑念などで、安心する人ではない。誤: dispel the customers → 正: dispel the customers' fears、または reassure the customers。「疑念が自然に消えた」なら The doubts faded. などとし、通常 The doubts dispelled. とはしない。dismiss a concern は重要でないとして退けること、dispel a concern はその懸念を消し去ることに焦点があり、取り合わないだけで懸念が消えるとは限らない。結果志向の動詞だが、dispel some doubts、partly dispel the confusion、not fully dispel the fear のような限定ができる。「すべての疑いが永久に消滅する」を必須条件にしない。  
+【語法・注意】通常は dispel + 名詞句で、「～ではないと示す」を dispel that ... と直接つなげない。誤: The evidence dispelled that he was involved. → 正: The evidence dispelled the suspicion that he was involved. 後者の that 節は suspicion の内容を説明する。the notion that ... や rumours that ... でも同じ。目的語は取り除かれる疑念などで、安心する人ではない。誤: dispel the customers → 正: dispel the customers' fears、または reassure the customers。「疑念が自然に消えた」なら The doubts faded. などとし、通常 The doubts dispelled. とはしない。dismiss a concern は重要でないとして退けること、dispel a concern はその懸念を消し去ることに焦点があり、取り合わないだけで懸念が消えるとは限らない。結果志向の動詞だが、dispel some doubts、partly dispel the confusion、not fully dispel the fear のような限定ができる。「すべての疑いが永久に消滅する」を必須条件にしない。  
 
 【類義語】
 
