@@ -3,9 +3,9 @@ headword: redress
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -170,7 +170,7 @@ dress「服を着せる」と address「取り組む・宛てる」は同じ dre
 定義: 損失・被害を埋め合わせる補償、特に金銭。  
 頻度: 〈7/10〉  
 違い: 金銭による埋め合わせを強く連想させる。redress は決定の見直し・記録の訂正など、非金銭的な是正も含められる。  
-例: Passengers received compensation for the cancellation.  
+例: Passengers received compensation for the flight cancellation.  
 訳: 乗客は欠航に対する補償を受けた。  
 
 ・reparation  
