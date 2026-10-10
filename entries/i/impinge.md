@@ -3,9 +3,9 @@ headword: impinge
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -57,7 +57,7 @@ impact「衝撃・影響」は同じ impingere の過去分詞 impactus に由�
 ・impinge on someone's time  
 用途: 相手の時間を奪う・圧迫することを硬く表す。  
 例: I do not want this extra task to impinge on your time with your family.  
-訳: この追加作業で、あなたの家族と過ごす時間を削ることは望んでいない。  
+訳: この追加作業で、あなたが家族と過ごす時間を削ることは望んでいない。  
 
 ・impinge upon 〈権利・自由〉  
 用途: 制度や行動が権利を制約する懸念を述べる。  

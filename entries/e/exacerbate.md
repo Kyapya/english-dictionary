@@ -3,9 +3,9 @@ headword: exacerbate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -109,7 +109,7 @@ further exacerbate は「さらに」を強調する自然な組み合わせで�
 頻度: 〈6/10〉  
 違い: 強度の増加が中心で、良いこと・中立的なことにも使える。exacerbate は好ましくない方向への増大を表す。  
 例: The dispute intensified public anger.  
-訳: その争いは、世論の怒りを強めた。  
+訳: その争いは、人々の怒りを強めた。  
 
 ・inflame  
 定義: 怒り・対立などをあおって激しくする。  

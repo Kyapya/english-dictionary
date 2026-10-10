@@ -3,9 +3,9 @@ headword: tenuous
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -71,7 +71,7 @@ tags: []
 ・be tenuous at best  
 用途: 好意的に見積もっても根拠や関係が弱いと強調する。  
 例: The link between the two cases is tenuous at best.  
-訳: 二つの案件の関連性は、よく見ても弱いものだ。  
+訳: 二つの案件の関連性は、好意的に見積もっても弱いものだ。  
 
 【語法・注意】tenuous の後ろに特定の前置詞が一律に必要なのではない。connection between A and B、link to something の前置詞は、主に connection、link などの名詞に属する。The connection is tenuous. のように形容詞だけでも完結する。a tenuous argument は「裏付けが弱い議論」、a tentative conclusion は「まだ確定していない結論」、a tenable position は「根拠をもって擁護できる立場」。暫定的であることと、根拠が弱いことは別である。tenuous evidence の evidence は通常不可算なので、通常は a tenuous evidence としない。  
 
@@ -151,7 +151,7 @@ tags: []
 ・a tenuous peace  
 用途: 崩れる恐れのある平和を描写する。  
 例: A tenuous peace returned, but both sides kept their forces on alert.  
-訳: かろうじて平和が戻ったが、双方とも部隊の警戒態勢を維持した。  
+訳: 危うい平和が戻ったが、双方とも部隊の警戒態勢を維持した。  
 
 【語法・注意】a tenuous hold on power の on は hold に続く前置詞で、tenuous on power をひとまとまりの形容詞構文として覚えない。語義1の a tenuous argument は「正しさを支える根拠が弱い」、この語義の a tenuous position は「地位を維持できるか危うい」。関係については両義が近づくため、関連の確かさを論じているのか、関係の存続を論じているのかを文脈で読む。  
 
