@@ -3,9 +3,9 @@ headword: revert
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -375,7 +375,7 @@ Git の git revert は、通常、過去のコミットの変更効果を打ち�
 ・revert with 〈情報〉  
 用途: 返答に含める情報を with で示す。  
 例: Please revert with the revised figures once they are available.  
-訳: 修正後の数値が分かり次第、ご返信ください。  
+訳: 修正後の数値が分かり次第、その数値を添えてご返信ください。  
 
 ・revert by 〈期限〉  
 用途: 返事の期限を示す。  
