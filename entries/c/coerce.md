@@ -3,9 +3,9 @@ headword: coerce
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -181,7 +181,7 @@ coercion「強制」、coercive「強制的な」は同じ語根を共有する�
 頻度: 〈4/10〉  
 違い: coerce と服従を強いて得る点で重なるが、要求したものをきっちり取り立てることが中心。改まった語で、形容詞 exact「正確な」とは品詞が違う。  
 例: The ruler exacted obedience from his officials.  
-訳: その支配者は、役人たちに厳しく服従を要求した。  
+訳: その支配者は、役人たちに厳しく服従を要求し、従わせた。  
 
 3. 【動詞・他動詞・計算機】型・クラスを変換する
 

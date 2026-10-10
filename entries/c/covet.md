@@ -3,9 +3,9 @@ headword: covet
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -37,7 +37,7 @@ covetous は米・英 /ˈkʌvətəs/。3音節で第1音節に強勢があり、
 
 【頻度】〈5/10〉  
 
-【レジスター/領域】現代の硬めの一般語。報道、人物評、競争、採用、賞の紹介など。日常の軽い「欲しい」には want が普通で、covet は欲求を強く、時に大げさに見せる。目的語を置かない用法は道徳的な戒めなどで目にする周辺的な用法で、英語全体での頻度は〈2/10〉程度。本文の頻度数値は学習上の目安で、実測値ではない。  
+【レジスター/領域】現代の硬めの一般語。報道、人物評、競争、採用、賞の紹介など。日常の軽い「欲しい」には want が普通で、covet は欲求を強く、時に大げさに見せる。目的語を置かない用法は道徳的な戒めなどで目にする周辺的な用法で、英語全体での頻度は10段階で2程度。本文の頻度数値は学習上の目安で、実測値ではない。  
 
 【文法パターン】someone / an organization + covet something＝人・組織が対象を強く欲する／covet an opportunity to do＝ある行動をする機会を熱望する。to do は opportunity の内容を示す／have long coveted something＝長い間それを欲しがってきた／something + be coveted by someone＝対象がある人に欲しがられている受動態／covet＝目的語を示さず、他人の物をむやみに欲しがる。Do not covet. のような戒めにも使う。  
 
@@ -71,7 +71,7 @@ covetous は米・英 /ˈkʌvətəs/。3音節で第1音節に強勢があり、
 ・be coveted by someone  
 用途: 欲しがられている対象を主語にし、by の後に欲しがる側を示す。  
 例: The painting was coveted by a rival collector, but its owner refused to sell it.  
-訳: その絵は別の収集家が欲しがっていたが、所有者は売却を拒んだ。  
+訳: その絵はライバルの収集家が欲しがっていたが、所有者は売却を拒んだ。  
 
 ・Do not covet.  
 用途: 目的語を示さず、他人の物をむやみに欲しがる心そのものを戒める。  
@@ -135,7 +135,7 @@ covetous は米・英 /ˈkʌvətəs/。3音節で第1音節に強勢があり、
 訳: 3回のオーディションを経て、彼女はついに皆が憧れるその役を勝ち取った。  
 
 ・a highly coveted award  
-用途: 受賞を強く望まれる賞であることを強調する。  
+用途: 受賞を強く望む人の多い賞であることを強調する。  
 例: The studio received a highly coveted international design award.  
 訳: そのスタジオは、多くの人が受賞を切望する国際的なデザイン賞を受賞した。  
 
@@ -147,7 +147,7 @@ covetous は米・英 /ˈkʌvətəs/。3音節で第1音節に強勢があり、
 ・become highly coveted  
 用途: 人気や評価の変化によって、多くの人が欲しがる状態になることを述べる。  
 例: The original posters became highly coveted after the exhibition closed.  
-訳: 展覧会が閉幕すると、そのオリジナルのポスターは大いに人気を集めるようになった。  
+訳: 展覧会が閉幕すると、そのオリジナルのポスターは強く欲しがられるようになった。  
 
 【語法・注意】coveted は「欲しがられる」、covetous は「欲しがる」。a coveted watch は憧れの時計、a covetous glance はそれを欲しそうに見るまなざしで、同じ形容詞でも意味役割が逆になる。誤: She gave the watch a coveted glance. 正: She gave the watch a covetous glance. 「時計を欲しそうに見た」と言うなら後者にする。 名詞前の a coveted award にハイフンは不要。a highly coveted award も、-ly 副詞 highly と coveted の間をハイフンでつながない。become highly coveted は性質・状態の変化を述べる形で、get coveted を基本的な言い換えとして覚える必要はない。seem highly coveted も「強く望まれているように見える」という意味になるが、受賞記事などでは be coveted や名詞前の形が分かりやすい。 The prize is coveted by many researchers. は「多くの研究者がその賞を欲しがっている」という受動態として説明できる。by のない The prize is highly coveted. は、憧れの賞だという性質・状態に重点を置きやすい。形容詞と動詞の過去分詞の境界を、by の有無だけで機械的に決めない。 「欲しがられる」と「人の利益を快く思わない」は別である。begrudge someone something は後者を表し、She begrudged him the award. は「彼の受賞を快く思わなかった」。これだけでは、彼女自身がその賞を欲しがったとまでは断定しない。  
 

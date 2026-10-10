@@ -3,9 +3,9 @@ headword: thwart
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -81,7 +81,7 @@ tags: []
 ・try to thwart something  
 用途: 阻止しようとする意図・努力を表し、実際の成否は別に述べる。  
 例: They tried to thwart the merger, but it went ahead.  
-訳: 彼らは合併を阻止しようとしたが、合併は予定どおり進んだ。  
+訳: 彼らは合併を阻止しようとしたが、合併は実施された。  
 
 ・a thwarted attempt  
 用途: 過去分詞を名詞の前に置き、「阻まれた試み」と表す。  

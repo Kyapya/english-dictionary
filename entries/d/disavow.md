@@ -3,9 +3,9 @@ headword: disavow
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -144,7 +144,7 @@ vow「誓う、誓い」はラテン語 vovere の系統で、avow / disavow と
 ・disavow an earlier statement  
 用途: 自分が以前に述べた内容を、現在の立場として認めない。  
 例: In her new preface, the author disavowed an earlier statement defending censorship.  
-訳: 新しい序文で、著者は以前の検閲を擁護する発言を自分の立場としては認めないと述べた。  
+訳: 新しい序文で、著者は検閲を擁護する以前の発言を自分の立場としては認めないと述べた。  
 
 ・disavow a remark attributed to someone  
 用途: 自分が言ったとされる発言を、自分のものとして認めない。  

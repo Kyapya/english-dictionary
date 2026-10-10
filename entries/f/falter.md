@@ -3,9 +3,9 @@ headword: falter
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -260,7 +260,7 @@ fall「落ちる」や fault「欠点」と綴り・音が似ていても、そ�
 ・one's legs + falter  
 用途: 脚の力が頼りなくなることを描く。  
 例: After the long climb, her legs faltered as she stepped off the rock.  
-訳: 長い登りの後、岩から降りようとすると、彼女の脚はふらついた。  
+訳: 長い登りの後、岩から降りるとき、彼女の脚はふらついた。  
 
 ・falter near the finish line  
 用途: 走っている人や動物の足取りが乱れる場面を描く。  

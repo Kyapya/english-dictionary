@@ -3,9 +3,9 @@ headword: permeate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -29,7 +29,7 @@ permeates は米 /ˈpɜːrmieɪts/、英 /ˈpɜːmieɪts/ で3音節。permeated
 ・permeability：名詞「透過性、浸透性」。permeable である性質・程度を表す。透過の過程である permeation と同じではない。  
 ・impermeable / impermeability：形容詞「不透過性の」／名詞「不透過性」。ある物質を通さない性質を表す。単に「現在まだ染み込んでいない」という意味ではない。  
 ・semipermeable：形容詞「半透性の」。特定の物質は通すが、ほかの物質は通しにくい膜などをいう。何でも一定割合だけ通すという意味ではない。  
-・permeative：形容詞「浸透する性質のある」。低頻度の専門的な語で、日常的には permeating などを用いた説明で表すことも多い。  
+・permeative：形容詞「浸透する性質のある」。低頻度の語で、日常的には permeating などを用いた説明で表すことも多い。  
 
 ＃コアイメージ
 
@@ -315,7 +315,7 @@ down to は組織などの階層を背景にした方向表現で、permeate 自
 
 【レジスター/領域】膜分離、水処理、化学工学の専門語。日常語の動詞に対する、専門的な名詞用法。  
 
-【文法パターン】permeate＝透過物を物質として述べる／the permeate＝ある工程で得られた透過物／permeate from 〈膜・装置〉＝その膜・装置からの透過物／a permeate stream＝1つの透過側の流れ／permeate flow＝透過流量／the permeate side＝膜の透過側。流れを数える a permeate stream の可算名詞は stream。  
+【文法パターン】collect permeate＝透過物を回収する。permeate は物質として不可算で用いる／the permeate＝ある工程で得られた透過物／permeate from 〈膜・装置〉＝その膜・装置からの透過物／a permeate stream＝1つの透過側の流れ／permeate flow＝透過流量／the permeate side＝膜の透過側。流れを数える a permeate stream の可算名詞は stream。  
 
 【コロケーション・構文例】
 
