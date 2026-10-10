@@ -3,9 +3,9 @@ headword: absolve
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -77,7 +77,7 @@ solve「解決する」、dissolve「溶かす・解散する」、resolve「解
 【類義語】
 
 ・exonerate  
-定義: 人にかけられた非難・疑い・責任を晴らす。  
+定義: 人にかけられた疑いを晴らし、非難・責任から解放する。  
 頻度: 〈4/10〉  
 違い: 調査・証拠などによって潔白が明らかになる場面に向く。absolve は責任を負わなくてよいとすることにも使い、必ずしも事実上の無実の立証を中心にしない。  
 例: The new evidence exonerated the engineer.  
@@ -115,7 +115,7 @@ solve「解決する」、dissolve「溶かす・解散する」、resolve「解
 
 2. 【動詞：他動詞】義務を免除する
 
-【日本語訳・定義】人・組織などを、ある義務・約束・役割を果たす必要から解放する。何かをすでに悪く行った責任を否定する語義1とは異なり、これからの義務を免れさせることが中心になる。  
+【日本語訳・定義】人・組織などを、ある義務・約束・役割を果たす必要から解放する。すでに起きた出来事についての責任を扱う語義1とは異なり、これからの義務を免れさせることが中心になる。  
 
 【頻度】〈3/10〉  
 
