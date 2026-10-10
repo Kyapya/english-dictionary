@@ -3,9 +3,9 @@ headword: encumber
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -139,7 +139,7 @@ cumber「妨げる・負担をかける」と cumbersome「大きくて扱いに
 ・encumber oneself with unnecessary equipment  
 用途: 自分で不要な装備を持ち、身軽さを失うことを述べる。  
 例: We avoided encumbering ourselves with unnecessary equipment on the climb.  
-訳: 登山では、不要な装備を持って身動きを悪くしないようにした。  
+訳: 登山では、不要な装備を持って身動きが取りにくくならないようにした。  
 
 【語法・注意】encumber の目的語は通常、荷物に動きを妨げられる側である。The bag encumbered her. は「かばんが彼女の動きを妨げた」で、「彼女がかばんを運んだ」だけではない。単なる carry と違い、何らかの不自由さを伴う。encumber oneself は通常の再帰用法で、特別な別義の熟語ではない。荷物のない状態への変化は put down the bags などで表せるが、荷物を置く行為自体を encumber の一般的な反意語とはしない。  
 
@@ -212,7 +212,7 @@ cumber「妨げる・負担をかける」と cumbersome「大きくて扱いに
 訳: 配送用のバンが入口をふさいでいた。  
 
 ・obstruct  
-定義: 物を遮って通行・視界・使用を妨げる。  
+定義: 障害物などによって通行・視界・使用を妨げる。  
 頻度: 〈6/10〉  
 違い: 遮る障害の存在が中心で、encumber のように余分な物が場所を占める含みは必須でない。  
 例: The sign obstructed our view of the road.  

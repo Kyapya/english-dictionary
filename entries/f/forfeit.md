@@ -3,9 +3,9 @@ headword: forfeit
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -59,7 +59,7 @@ facere の系統を共有する語に fact「事実」と feasible「実行可�
 
 【レジスター/領域】一般、契約、ビジネス、報道。lose より、損失を招いた行為や条件が意識されやすい。  
 
-【文法パターン】forfeit something＝主語が金銭・権利などを失う／forfeit something to someone＝相手にその金銭・財産を失う／forfeit something by doing＝ある行為によって失う／forfeit something for 〈違反・不履行〉＝その理由で失う／forfeit the right to do something＝その行為をする権利を失う／be forfeited＝金銭・権利などが没収・喪失される受動態。right to do の不定詞は right にかかる。  
+【文法パターン】forfeit something＝主語が金銭・権利などを失う／forfeit something to someone＝金銭・財産を失い、それが相手に帰属する／forfeit something by doing＝ある行為によって失う／forfeit something for 〈違反・不履行〉＝その理由で失う／forfeit the right to do something＝その行為をする権利を失う／be forfeited＝金銭・権利などが没収・喪失される受動態。right to do の不定詞は right にかかる。  
 
 【コロケーション・構文例】
 
@@ -171,7 +171,7 @@ facere の系統を共有する語に fact「事実」と feasible「実行可�
 例: The captain chose to forfeit his team's second innings.  
 訳: 主将は自分のチームの第2イニングを放棄することを選んだ。  
 
-【語法・注意】They forfeited the match. は他動詞、They forfeited. は自動詞で、後者を目的語の欠落として誤りにしない。lose a match は普通に戦って負けた場合も含むが、forfeit は放棄・規則による負けという違いを示す。試合開始前だけに限定されず、試合後に違反が判明した場合もある。forfeit an innings は試合全体の敗北とは限らない。具体的な記録・点数・成立条件は競技規則で決まる。win by forfeit の forfeit は語義5の名詞で、勝つ側が forfeit するという意味ではない。  
+【語法・注意】They forfeited the match. は他動詞、They forfeited. は自動詞で、後者を目的語の欠落として誤りにしない。lose a match は普通に戦って負けた場合も含むが、forfeit は放棄・規則による負けという違いを示す。試合開始前だけに限定されず、試合後に違反が判明した場合もある。forfeit an innings は試合全体の敗北とは限らず、そのイニングの開始前に放棄することを指す。MCCの2026年版競技規則では試合の最終イニングは対象外。開始後の打ち切りを表す declare an innings closed とは区別する。具体的な記録・点数・成立条件は競技規則で決まる。win by forfeit の forfeit は語義5の名詞で、勝つ側が forfeit するという意味ではない。  
 
 【類義語】
 
@@ -261,7 +261,7 @@ facere の系統を共有する語に fact「事実」と feasible「実行可�
 
 【レジスター/領域】ゲーム、一般の文章、法律。pay a forfeit は特に英国で見られる。  
 
-【文法パターン】a forfeit / forfeits＝1つの罰・没収物／pay a forfeit＝罰金や代償を払う・ゲームの罰を受ける／a forfeit for 〈違反・失敗〉＝その行為への罰／a forfeit of 〈金額〉＝その金額の罰金／as a forfeit＝罰として。  
+【文法パターン】a forfeit＝1つの罰・没収物／forfeits＝複数の罰・没収物／pay a forfeit＝罰金や代償を払う・ゲームの罰を受ける／a forfeit for 〈違反・失敗〉＝その行為への罰／a forfeit of 〈金額〉＝その金額の罰金／as a forfeit＝罰として。  
 
 【コロケーション・構文例】
 
@@ -318,7 +318,7 @@ facere の系統を共有する語に fact「事実」と feasible「実行可�
 
 【レジスター/領域】主にスポーツ・競技。一般の権利喪失は硬い用法で、法律では forfeiture もよく使う。  
 
-【文法パターン】win/lose by forfeit＝不戦勝・不戦敗などの扱いで勝つ／負ける／a forfeit＝個別の試合放棄・失格負け／the forfeit of 〈試合・権利〉＝その喪失／a forfeit win/loss＝放棄・違反による勝ち／負けという競技上の複合表現。  
+【文法パターン】win/lose by forfeit＝不戦勝・不戦敗などの扱いで勝つ、または負ける／a forfeit＝個別の試合放棄・失格負け／the forfeit of 〈試合・権利〉＝その喪失／a forfeit win/loss＝放棄・違反による勝ち、または負けを表す競技上の複合表現。  
 
 【コロケーション・構文例】
 
@@ -373,7 +373,7 @@ facere の系統を共有する語に fact「事実」と feasible「実行可�
 
 【レジスター/領域】フォーマル。契約・規則、法律、文学。  
 
-【文法パターン】something + be/become forfeit＝財産・権利などが失われる状態にある／なる／something + be forfeit to someone＝相手に没収される・差し出すべき状態にある。通常は名詞の前に置かず、程度比較より権利・所有の状態を示す。  
+【文法パターン】something + be/become forfeit＝財産・権利などが失われる状態にある、またはその状態になる／something + be forfeit to someone＝相手に没収される・差し出すべき状態にある。通常は名詞の前に置かず、程度比較より権利・所有の状態を示す。  
 
 【コロケーション・構文例】
 

@@ -3,9 +3,9 @@ headword: oust
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -32,7 +32,7 @@ obstacle「障害」も obstare に由来する。stable「安定した」はラ
 
 ・対象を地位・場所から外す働き → 「追い出す、失脚させる」（語義1）  
 
-・対象を地位・場所から外す出来事 → 「追放、解任」（語義2）  
+・対象を地位・場所から外す出来事 → 「ousting：追放、解任」（語義2）  
 
 ・対象を勝ち残る競争から外す働き → 「敗退させる」（語義3）  
 
@@ -137,7 +137,7 @@ obstacle「障害」も obstare に由来する。stable「安定した」はラ
 例: The company reinstated the manager after the investigation.  
 訳: 調査後、会社はその管理職を復職させた。  
 
-2. 【名詞・通常不可算】追放、解任
+2. 【名詞・通常不可算】ousting：追放、解任
 
 【日本語訳・定義】ousting の形で、人などを地位・権力の座・場所から外す行為や出来事をいう。単なる動詞の進行形ではなく、the ousting of someone のように名詞句として使える。特定の解任を指す場合でも、基本的には行為を表す不可算名詞として扱う。  
 
@@ -226,7 +226,7 @@ obstacle「障害」も obstare に由来する。stable「安定した」はラ
 例: We were ousted by the eventual winners in the semi-final.  
 訳: 私たちは準決勝で、のちに優勝するチームに敗れて脱落した。  
 
-【語法・注意】語義1の政治的な oust を、そのまま「失脚させる」と訳さない。The team was ousted from the cup. はカップ戦からの敗退であり、チームの解散を意味しない。敗戦後もリーグ戦を続けられる場合の単なる「負ける」には lose、相手を破ることには defeat などを使う。oust では脱落の結果が必要だが、in an attempt to oust のように試みの中に置けば成功を主張しない。  
+【語法・注意】競技での oust を、語義1の政治的用法と同じ「失脚させる」と訳さない。The team was ousted from the cup. はカップ戦からの敗退であり、チームの解散を意味しない。敗戦後もリーグ戦を続けられる場合の単なる「負ける」には lose、相手を破ることには defeat などを使う。oust では脱落の結果が必要だが、in an attempt to oust のように試みの中に置けば成功を主張しない。  
 
 【類義語】
 
@@ -305,7 +305,7 @@ obstacle「障害」も obstare に由来する。stable「安定した」はラ
 
 5. 【動詞・他動詞】権限・管轄を排除する
 
-【日本語訳・定義】法律などが、裁判所その他の機関の権限・管轄を及ばなくする。oust jurisdiction のように、外される人ではなく権限そのものを直接目的語にする専門用法。具体的に何が審査・判断の対象から外れるかは、法域・条文・解釈によって異なる。  
+【日本語訳・定義】法律などが、裁判所その他の機関の権限・管轄が及ばないようにする。oust jurisdiction のように、外される人ではなく権限そのものを直接目的語にする専門用法。具体的に何が審査・判断の対象から外れるかは、法域・条文・解釈によって異なる。  
 
 【頻度】〈2/10〉  
 

@@ -3,9 +3,9 @@ headword: curtail
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -265,7 +265,7 @@ tags: []
 例: The restorer repaired the curtail of the stair railing without replacing the rest of the handrail.  
 訳: 修復担当者は手すりの残りの部分を取り替えずに、階段手すり下端の渦巻き状の端部を修理した。  
 
-【語法・注意】語義3の curtail step は段であり、本義の curtail は手すりの端である。同じ階段の上下に対応する部材でも、定義を一つに混ぜない。動詞の過去分詞を使った a curtailed visit「短縮された訪問」とも構造が異なる。  
+【語法・注意】語義3の curtail step は段であり、本義の curtail は手すりの端である。同じ階段の下端で対応する部材でも、定義を一つに混ぜない。動詞の過去分詞を使った a curtailed visit「短縮された訪問」とも構造が異なる。  
 
 【類義語】
 

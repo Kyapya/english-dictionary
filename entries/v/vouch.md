@@ -3,9 +3,9 @@ headword: vouch
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -76,7 +76,7 @@ invoke「助け・権威を求める、援用する」も vocare につながり
 ・vouch for that  
 用途: 前に出た話の内容を that で受けて保証する。  
 例: The route is difficult in winter; I can vouch for that from experience.  
-訳: その道は冬には大変だ。経験から、私にはそれがよく分かる。  
+訳: その道は冬には大変だ。自分の経験から、それは確かだと言える。  
 
 ・vouch that 〈主語〉 + 〈動詞句〉  
 用途: 自分が知っている事実を内容節で示す。  
@@ -109,7 +109,7 @@ invoke「助け・権威を求める、援用する」も vocare につながり
 頻度: 〈8/10〉  
 違い: 将来の結果や契約上の約束にも広く使う。vouch は自分の知識・経験を根拠にした請合いが中心。  
 例: I cannot guarantee that the delivery will arrive tomorrow.  
-訳: 配送が明日到着するとは保証できない。  
+訳: 荷物が明日到着するとは保証できない。  
 
 ・confirm  
 定義: 事実や情報が正しいと確認し、はっきり述べる。  

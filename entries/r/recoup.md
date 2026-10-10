@@ -3,9 +3,9 @@ headword: recoup
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -158,7 +158,7 @@ couper は coup「打撃」に関係し、coupon「切り取られた券・ク�
 ・recoup one's strength  
 用途: 消耗した体力を取り戻すことを、対象を明示して述べる。  
 例: She stopped to rest and recoup her strength before the final climb.  
-訳: 最後の登りに入る前に、彼女は立ち止まって休み、体力を回復させた。  
+訳: 最後の登りに入る前に、彼女は休んで体力を回復させるために立ち止まった。  
 
 ・recoup depleted resources  
 用途: 使い果たした人的・物的な資源を回復する。  
@@ -296,7 +296,7 @@ couper は coup「打撃」に関係し、coupon「切り取られた券・ク�
 頻度: 〈5/10〉  
 違い: 本義を表す通常の選択で、recoup より意味が明確。recuperate from an illness のようにも使う。  
 例: He stayed with his sister while recuperating from surgery.  
-訳: 彼は手術後の回復期間中、姉の家に滞在した。  
+訳: 彼は手術後の回復期間中、姉（または妹）の家に滞在した。  
 
 ・recover  
 定義: 病気・けが・消耗などから元の状態に戻る。  
