@@ -3,9 +3,9 @@ headword: disparage
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -54,7 +54,7 @@ disparages /dɪˈspærɪdʒɪz/ は4音節、disparaged /dɪˈspærɪdʒd/ は3�
 ・disparage someone’s achievements  
 用途: 成果の価値を低く扱う発言について述べる。  
 例: Some colleagues disparaged her achievements because the project had relied on a large team.  
-訳: 大勢のチームに支えられたプロジェクトだったからと、彼女の成果をたいしたことがないように言う同僚もいた。  
+訳: 大人数のチームに支えられたプロジェクトだったからと、彼女の成果をたいしたことがないように言う同僚もいた。  
 
 ・disparage a competitor  
 用途: 競争相手をけなす言動を問題にする。  
@@ -135,7 +135,7 @@ disparages /dɪˈspærɪdʒɪz/ は4音節、disparaged /dɪˈspærɪdʒd/ は3�
 
 【頻度】〈5/10〉  
 
-【レジスター/領域】ややフォーマル。発言や態度を評価する文章・会話。disparaging remarks/comments が重要。  
+【レジスター/領域】ややフォーマル。発言や態度を評価する文章・会話。disparaging remarks と disparaging comments が重要。  
 
 【文法パターン】a disparaging 〈発言・口調などの単数可算名詞〉／disparaging 〈発言などの複数名詞〉＝けなすような発言・口調／someone is disparaging about someone/something、someone is disparaging of someone/something＝人が～について見下した評価を示す／〈発言・態度〉 + be/seem/sound + disparaging＝発言・態度がけなすようだ。人主語では become/get disparaging about something のように態度の変化も表せる。rather/very disparaging、more/less disparaging のように程度・比較を表せる。  
 

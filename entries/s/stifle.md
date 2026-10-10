@@ -3,9 +3,9 @@ headword: stifle
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -81,7 +81,7 @@ tags: []
 ・feel stifled by 〈環境・制約〉  
 用途: 自分が自由に能力や考えを発揮できないという感覚を表す。  
 例: She felt stifled by a manager who insisted on checking every email she wrote.  
-訳: 書いたメールをすべて確認したがる上司の下で、彼女は自由を奪われていると感じていた。  
+訳: 彼女が書いたメールはすべて自分が確認すると言って譲らない上司の下で、彼女は自由を奪われていると感じていた。  
 
 ・feel stifled  
 用途: 原因が文脈から分かる場合に、圧迫された心理状態を述べる。  
@@ -97,7 +97,7 @@ tags: []
 
 The rules are stifling innovation. の stifling は innovation を目的語に取る動詞の現在分詞で、文全体は進行形。語義4の The rules are stifling. では stifling は「窮屈な」という形容詞で、目的語はない。I feel stifled. は抑えられる側の状態で、The environment is stifling. は圧迫する側の性質である。  
 
-be stifled by rules は通常の受動・状態表現で、再帰代名詞が省略された形ではない。stifle oneself を基本型として覚える必要はない。stifle innovation は「革新を批判する」だけでなく、その実行や発展を妨げることを表す。規制が存在するというだけで、必ず stifle と評価されるわけでもない。  
+be stifled by rules は通常の受動・状態表現で、再帰代名詞が省略された形ではない。stifle oneself を基本型として覚える必要はない。stifle innovation は、単に革新を批判することではなく、その実行や発展を妨げることを表す。規制が存在するというだけで、必ず stifle と評価されるわけでもない。  
 
 【類義語】
 

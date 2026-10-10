@@ -3,9 +3,9 @@ headword: proliferate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -75,7 +75,7 @@ prolific「多産な・多作な」も proles を共有する。同系の prolif
 ・proliferate unchecked  
 用途: 抑える仕組みが働かないまま増加する。  
 例: Fake product reviews were allowed to proliferate unchecked.  
-訳: 偽の商品レビューが歯止めなく増えるのを放置してしまった。  
+訳: 偽の商品レビューが歯止めなく増えるまま放置された。  
 
 【語法・注意】増えているものを主語にする。Services proliferated. は「サービスが増えた」、語義4の The platform proliferated services. は「そのプラットフォームがサービスを多数生み出した」という他動構造で、主語の役割が違う。通常の文章で「サービスが増えた」と言いたいのに Services were proliferated. と受動態にしない。広く自然に使えるのは自動用法だが、他動用法自体を誤りとはしない。  
 

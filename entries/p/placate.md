@@ -3,9 +3,9 @@ headword: placate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -201,7 +201,7 @@ The tone was placating. は「その口調はなだめるようだった」と�
 頻度: 〈5/10〉  
 違い: placating より和解や協調の方向を広く示す。相手の機嫌をなだめることだけでなく、双方の関係を改善する姿勢に使う。  
 例: The letter adopted a conciliatory tone.  
-訳: その手紙は融和的な口調を取っていた。  
+訳: その手紙は融和的な調子で書かれていた。  
 
 ・soothing  
 定義: 気持ちを落ち着かせ、苦痛や動揺を和らげる。  
