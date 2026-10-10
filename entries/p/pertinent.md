@@ -3,9 +3,9 @@ headword: pertinent
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -34,7 +34,7 @@ tags: []
 
 【レジスター/領域】フォーマル。会議、報告、研究、審査、改まった議論。日常会話では relevant のほうが広く使われる。  
 
-【文法パターン】a pertinent 〈question/remark/fact〉＝論点に即した質問・発言・事実／〈情報・発言〉 + be/seem pertinent to something＝ある問題に直接関係する・そう思われる／〈名詞〉 + pertinent to something＝ある問題に関係する名詞内容を後ろから限定する／keep something pertinent to 〈議題〉＝内容を議題に即したものに保つ／It is pertinent to note that 〈節〉＝この点に関連して、節の内容を指摘しておく意義がある。very、particularly、directly、more、most などで程度や関連の直接性を示せる。  
+【文法パターン】a pertinent 〈question/remark/fact〉＝論点に即した質問・発言・事実／〈情報・発言〉 + be/seem pertinent to something＝ある問題に直接関係する・そう思われる／〈名詞〉 + pertinent to something＝ある問題に関係する名詞内容を後ろから限定する／keep something pertinent to 〈議題〉＝内容を議題に即したものに保つ／It is pertinent to note that 〈節〉＝この点に関連して、節の内容を指摘しておく意義がある。pertinent 全般について、very、particularly、directly、more、most などで程度や関連の直接性を示せる。  
 
 【コロケーション・構文例】
 
