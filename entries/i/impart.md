@@ -3,9 +3,9 @@ headword: impart
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -308,7 +308,7 @@ confer a benefit on someone、bestow something on someone の on を、impart �
 ・impart to someone  
 用途: 古風な文体で、困窮する相手などに持ち物を分け与える。  
 例: Though their stores were small, they were willing to impart to the hungry.  
-訳: 蓄えは少なかったが、彼らは飢えている人々に進んで分け与えようとした。  
+訳: 蓄えは少なかったが、彼らは飢えている人々に分け与えることをいとわなかった。  
 
 【語法・注意】この to は前置詞で、the hungry は「飢えている人々」という名詞句。to 不定詞ではない。語義3の impart food to someone は分ける物 food を持つ他動詞型、ここでは impart to someone という自動詞型。同じ「分け与える」の意味だが、目的語の有無を区別する。  
 

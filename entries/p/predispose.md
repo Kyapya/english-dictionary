@@ -3,9 +3,9 @@ headword: predispose
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -182,7 +182,7 @@ dispose はフランス語を経て、ラテン語 disponere「配置する」�
 頻度: 〈6/10〉  
 違い: 防御の弱さや被害を受けやすい立場に焦点がある。predisposed は、特定の状態が生じる素地に焦点がある。  
 例: The guidance explains how to protect people who are vulnerable to severe illness.  
-訳: その指針では、重い病気の影響を受けやすい人を守る方法を説明している。  
+訳: その指針では、重い病気になるリスクが高い人を守る方法を説明している。  
 
 3. 【動詞・他動詞】～する傾向を生じさせる
 
