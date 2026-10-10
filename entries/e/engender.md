@@ -3,9 +3,9 @@ headword: engender
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -25,7 +25,7 @@ generate「生み出す」、generation「生成・世代」、generic「種類�
 
 ・engenderment：生み出すこと・発生を表す名詞。低頻度で、通常の文章では文脈に応じて creation、development、generation などを選ぶ。  
 ・engenderer：何かを生み出す人・ものを表す可算名詞。低頻度で、日常的な職業名ではない。  
-・engendered / engendering：通常は過去分詞／現在分詞。the hostility engendered by the decision「その決定によって生まれた敵意」のような修飾も、基本の因果義から理解できる。  
+・engendered は過去形・過去分詞、engendering は現在分詞・動名詞。the hostility engendered by the decision「その決定によって生まれた敵意」のような修飾も、基本の因果義から理解できる。  
 
 ＃コアイメージ
 

@@ -3,9 +3,9 @@ headword: surmise
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -37,7 +37,7 @@ surmises の語尾は /ɪz/、surmised の語尾は /d/。surmising は語末の
 
 【レジスター/領域】フォーマルな一般語。報告、論説、小説などで使う。会話でも使えるが、日常の簡単な推測には guess や suppose の方が普通。  
 
-【文法パターン】someone surmises (that) 〈主語＋動詞〉＝ある事柄が事実だろうと推測する。that は省略可能／someone surmises 〈what/where/why/how などで始まる疑問詞節〉＝何が起きたか、どこにいるか、なぜそうしたかなどを推測する。疑問詞節の内部は平叙文の語順／someone surmises something (from something)＝事情・理由などを推測する。from は推測の材料を示す任意の句／someone can only surmise＝推測するしかない。内容は文脈に委ねる／as someone might surmise＝推測できるように、という挿入的な言い方／“〈発話〉,” someone surmised＝推測した内容を直接話法で報告する／something can be surmised (from something)＝事情などを推測できる、という受動態。判断する人を主語にする能動形と、判断される内容を主語にする受動形を区別する。  
+【文法パターン】someone surmises (that) 〈主語＋動詞〉＝ある事柄が事実だろうと推測する。that は省略可能／someone surmises 〈what/where/why/how などで始まる疑問詞節〉＝何が起きたか、どこにいるか、なぜそうしたかなどを推測する。疑問詞節の内部は平叙文の語順／someone surmises something (from something)＝事情・理由などを推測する。from は推測の材料を示す任意の句／someone can only surmise＝推測するしかない。内容は文脈に委ねる／as someone might surmise＝推測できるとおり、という挿入的な言い方／“〈発話〉,” someone surmised＝推測した内容を直接話法で報告する／something can be surmised (from something)＝事情などを推測できる、という受動態。判断する人を主語にする能動形と、判断される内容を主語にする受動形を区別する。  
 
 【コロケーション・構文例】
 

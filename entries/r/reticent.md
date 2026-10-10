@@ -3,9 +3,9 @@ headword: reticent
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -66,7 +66,7 @@ tacit「明言されない・暗黙の」、taciturn「寡黙な」も tacere �
 ・be reticent about revealing 〈情報〉  
 用途: 情報を開示することへのためらいを表す。  
 例: The witness was reticent about revealing the names of those involved.  
-訳: 証人は関係者の名前を明かすことに口が重かった。  
+訳: 証人は関係者の名前を明かすのをためらっていた。  
 
 ・be reticent to discuss 〈話題〉  
 用途: 話すことへのためらいを不定詞で示す。  
@@ -174,7 +174,7 @@ tacit「明言されない・暗黙の」、taciturn「寡黙な」も tacere �
 頻度: 〈7/10〉  
 違い: reticent の消極性と重なるが、hesitant は判断の不確かさや踏み出す前の迷いに焦点を置きやすい。  
 例: She was hesitant about accepting a job so far from home.  
-訳: 彼女は家からそれほど遠い仕事を引き受けるか迷っていた。  
+訳: 彼女は自宅からそれほど遠い場所での仕事を引き受けるか迷っていた。  
 
 ・unwilling  
 定義: あることをする意思がない、したがらない。  
