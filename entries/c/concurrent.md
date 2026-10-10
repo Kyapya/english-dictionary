@@ -3,9 +3,9 @@ headword: concurrent
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -159,7 +159,7 @@ concur「意見が一致する・同時に起こる」は同じ語族。current�
 ・be concurrent  
 用途: 複数処理の関係を叙述する。  
 例: The two operations are concurrent, so their shared data requires careful coordination.  
-訳: 二つの処理は並行して進むため、共有データを慎重に調整する必要がある。  
+訳: 二つの処理は並行して進むため、共有データの扱いを慎重に調整する必要がある。  
 
 【語法・注意】一般的な区別では concurrent は複数処理が進行中であること、parallel は複数の処理資源で同じ瞬間に実行することに焦点がある。並列実行は並行実行の一形態になり得るが、単一プロセッサーでの切り替え実行まで parallel と断定しない。分野・製品が独自に定義する場合はその説明に従う。concurrent users は利用時間が重なる人の数であり、登録済みユーザー総数やCPUが同一瞬間に実行する命令数ではない。asynchronous「非同期」は待ち合わせ・応答の扱いに関する別の性質で、concurrent の単純な同義語・反意語ではない。  
 

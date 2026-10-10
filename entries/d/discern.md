@@ -3,9 +3,9 @@ headword: discern
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -209,7 +209,7 @@ tags: []
 ・discern the difference between 〈A〉 and 〈B〉  
 用途: 違いそのものを目的語にして述べる。  
 例: Only an expert could discern the difference between the original print and the replica.  
-訳: 原版の印刷物と複製の違いを見抜けるのは専門家だけだった。  
+訳: オリジナルの印刷物とその複製の違いを見抜けるのは専門家だけだった。  
 
 ・discern between 〈A〉 and 〈B〉  
 用途: 自動詞と between で、区別する二者を示す。  

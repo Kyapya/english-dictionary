@@ -3,9 +3,9 @@ headword: vindicate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -77,7 +77,7 @@ revenge、avenge、vindictive も歴史的に同じ語族だが、現代の vind
 ・vindicate someone's faith in someone  
 用途: 信頼して任せた判断が正しかったことを述べる。  
 例: His performance vindicated the board's faith in him.  
-訳: 彼の実績は、取締役会が彼を信頼したのは正しかったと示した。  
+訳: 彼の実績は、取締役会が彼を信頼した判断の正しさを示した。  
 
 ・vindicate a claim by presenting evidence  
 用途: 人が主語となり、自ら根拠を示して立証する場合を示す。  
@@ -167,7 +167,7 @@ revenge、avenge、vindictive も歴史的に同じ語族だが、現代の vind
 ・vindicate someone's reputation  
 用途: 名誉・評判を直接目的語にする名誉回復用法を示す。  
 例: The independent report vindicated her reputation by exposing the allegations as false.  
-訳: 独立した報告書は、疑惑が虚偽であると明らかにして彼女の名誉を回復した。  
+訳: 独立した報告書は、疑惑が虚偽であることを明らかにして彼女の名誉を回復した。  
 
 【語法・注意】vindicate someone は人を直接目的語に取り、vindicate for someone をこの意味の代わりにはしない。I vindicated myself. は自分が証拠などを示した能動再帰形、I was vindicated by the evidence. は証拠によって正しさが示された受動態で、同じ構造ではない。vindicate her reputation / honor は名誉・評判を直接目的語にするが、語義1の「判断が正しいと示す」ではなく、この名誉回復の語義。honor の英式綴りは honour。vindicate a person は正式な無罪判決そのものの名称ではなく、acquit a defendant より広い。逆に、裁判で acquitted になったことだけから、あらゆる批判が事実上覆されたとまでは決めない。be vindicated は正しさが示されたという記述だが、claim to be vindicated は本人の主張、feel vindicated は本人の受け止めである（語義3）。  
 

@@ -3,9 +3,9 @@ headword: abide
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -197,7 +197,7 @@ tags: []
 
 ・an abiding interest in something（abide 由来の形容詞）  
 用途: 長年持ち続ける関心を示す。  
-例: Her grandfather inspired an abiding interest in astronomy.  
+例: Her grandfather inspired in her an abiding interest in astronomy.  
 訳: 祖父の影響で、彼女は天文学に長く変わらぬ関心を持つようになった。  
 
 ・an abiding love of something（abide 由来の形容詞）  
