@@ -3,9 +3,9 @@ headword: qualify
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -246,7 +246,7 @@ tags: []
 頻度: 〈7/10〉  
 違い: 実行できるよう準備することが中心で、一定の資格基準に到達した、または正式な権利を得たとは限らない。  
 例: The workshop equips managers to handle difficult conversations.  
-訳: その講習は、管理者が難しい対話に対応するための力を身につけさせる。  
+訳: その講習は、管理者に難しい対話に対応するための力を身につけさせる。  
 
 ・certify  
 定義: 基準を満たすことを正式に認定する。  
@@ -277,7 +277,7 @@ tags: []
 
 【頻度】〈6/10〉  
 
-【レジスター/領域】主に専門職、教育、経歴。qualify as a professional という経歴表現は英国英語でよく見られるが、米国英語でも理解・使用される。qualify on / with a rifle などは軍・射撃技能認定の領域に限られる低頻度の用法。  
+【レジスター/領域】主に専門職、教育、経歴。qualify as a professional という経歴表現は英国英語でよく見られるが、米国英語でも理解・使用される。qualify on a rifle や qualify with a rifle などは軍・射撃技能認定の領域に限られる低頻度の用法。  
 
 【文法パターン】`someone + qualify as a 〈単数の職業名〉`＝その職業の資格を得る／`qualify in 〈専門分野〉`＝その分野で資格を得る／`qualify to 〈動詞原形〉`＝特定業務を行う資格を得る／`qualify on 〈銃器を表す名詞句〉`・`qualify with 〈銃器を表す名詞句〉`＝軍の射撃検定などで、その銃器について必要な技能基準に達する／`someone + qualify`＝資格・認定の内容を文脈から補う。自動詞であり、資格・認定を得る人が主語になる。  
 
@@ -373,7 +373,7 @@ tags: []
 ・`fail to qualify`  
 用途: 出場・進出条件に届かなかったことを示す。  
 例: Despite a strong finish, she failed to qualify by one place.  
-訳: 終盤は健闘したものの、彼女はあと1順位の差で予選を通過できなかった。  
+訳: 終盤は健闘したものの、彼女は予選通過にあと一つ順位が足りなかった。  
 
 【語法・注意】qualify for the final は決勝に進めることで、決勝に勝つ win the final とは別。「予選を通過した」は qualified でよく、was qualified と受動形にする必要はない。qualify third は「3回資格を得る」ではなく「予選3位になる」。予選順位と最終的な本戦の出走位置は、罰則などにより一致しないこともある。a qualifying round は予選ラウンドという形容詞用法（語義11）、during qualifying は予選という名詞用法（語義12）。disqualify は失格にすることであり、単に予選順位が足りない fail to qualify と同じではない。  
 
@@ -933,7 +933,7 @@ tags: []
 
 【頻度】〈2/10〉  
 
-【レジスター/領域】やや硬い文章・評論。現代の一般的な発信では describe / characterize のほうが広く使われる。  
+【レジスター/領域】やや硬い文章・評論。現代の一般的な発信では describe や characterize のほうが広く使われる。  
 
 【文法パターン】`qualify someone/something as 〈名詞句・形容詞〉`。主語は性質付けをする人・文章など、目的語は評価対象。受動態 `someone/something + be qualified as 〈名詞句・形容詞〉` も可能で、誰がどう評価するかを文脈から判断する。  
 

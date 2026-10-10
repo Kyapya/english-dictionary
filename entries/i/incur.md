@@ -3,9 +3,9 @@ headword: incur
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -84,7 +84,7 @@ tags: []
 ・incur the wrath of someone  
 用途: 強い怒りを買うことを、やや大げさ・文語的に表す。  
 例: The editor incurred the wrath of several readers by removing their favourite column.  
-訳: 編集者は人気のコラムを廃止して、何人もの読者の怒りを買った。  
+訳: 編集者は何人もの読者のお気に入りのコラムを廃止して、その読者たちの怒りを買った。  
 
 ・be incurred by someone  
 用途: 費用を負った側を、費用主語の受動態で明示する。  

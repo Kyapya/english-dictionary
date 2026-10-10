@@ -3,9 +3,9 @@ headword: recourse
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -33,7 +33,7 @@ tags: []
 
 【頻度】〈6/10〉  
 
-【レジスター/領域】フォーマル。契約・苦情対応・行政・報道・論説。日常会話の help / way to deal with ... より硬い。  
+【レジスター/領域】フォーマル。契約・苦情対応・行政・報道・論説。日常会話の help や way to deal with ... より硬い。  
 
 【文法パターン】have recourse to 〈人・制度・手段〉＝それに頼れる、または頼る／without recourse to 〈名詞・動名詞〉＝それに頼らずに／have no recourse / have little recourse＝利用できる救済手段がない・ほとんどない／someone's only recourse is to do something＝人に残された手段は～することだ／have no recourse but to do something＝～するほかに手段がない／recourse against 〈相手〉＝相手に対して取れる救済手段／recourse for 〈困っている人〉＝その人のための救済手段。to は頼る先、against は対応・請求の相手、for は救済を必要とする側を示す。  
 
@@ -52,7 +52,7 @@ tags: []
 ・have no legal recourse  
 用途: 法的に取り得る救済手段がないことを述べる。  
 例: The leaflet explains what customers can do if they believe they have no legal recourse.  
-訳: その案内には、法的な救済手段がないと思った顧客が何をできるかが説明されている。  
+訳: その案内には、法的な救済手段がないと思った顧客に何ができるかが説明されている。  
 
 ・someone's only recourse is to do something  
 用途: 残っている具体的な対応策を示す。  
@@ -139,7 +139,7 @@ recourse は名詞で、We recourse to the courts. を現代の標準的な用�
 ・have recourse to 〈借り手の資産〉  
 用途: 貸し手が担保以外にも回収を求められる範囲を述べる。  
 例: Under this loan agreement, the lender has recourse to the borrower's other assets if the collateral does not cover the debt.  
-訳: この融資契約では、担保で債務をまかなえない場合、貸し手は借り手のほかの資産にも回収を求めることができる。  
+訳: この融資契約では、担保で債務をまかなえない場合、貸し手は借り手のほかの資産からも債権を回収することができる。  
 
 ・a recourse loan  
 用途: 借り手が返済について人的責任を負う種類の融資を指す。  
