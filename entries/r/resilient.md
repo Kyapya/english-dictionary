@@ -3,9 +3,9 @@ headword: resilient
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -174,7 +174,7 @@ tags: []
 頻度: 〈5/10〉  
 違い: 足裏や手で感じる跳ね返りを描写しやすい。resilient は素材の特性を評価する、より改まった説明にも使える。  
 例: The new running surface feels firm but springy underfoot.  
-訳: 新しい走路は、足元でしっかりした硬さと弾力を感じる。  
+訳: 新しい走路は、踏むとしっかりした硬さが感じられるが、弾力もある。  
 
 ・flexible  
 定義: 壊れずに曲げたり折り曲げたりできる。  

@@ -3,9 +3,9 @@ headword: tenable
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -66,7 +66,7 @@ tenant「借り手、賃借人」、tenure「保有、在職期間・地位の�
 ・remain tenable  
 用途: 新しい情報や批判を受けても主張を支持できると述べる。  
 例: The hypothesis remains tenable despite the new evidence.  
-訳: 新しい証拠が出た後も、その仮説はなお擁護できる。  
+訳: 新しい証拠が出たにもかかわらず、その仮説はなお擁護できる。  
 
 ・be no longer tenable  
 用途: 新しい事実により、それまでの主張を維持できなくなったと述べる。  
@@ -310,7 +310,7 @@ tenant「借り手、賃借人」、tenure「保有、在職期間・地位の�
 【反意語】
 
 ・untenable  
-定義: 火災時に、人が必要な機能を保って滞在・活動・避難できる条件を失った。  
+定義: 火災時に、人が必要な機能を保って滞在・活動・避難できる環境条件にない。  
 頻度: 〈2/10〉  
 違い: 評価対象となる人の活動可能性という同じ軸で直接対立する。論理的に擁護できないという語義1や、軍事的に守れないという語義4とは異なる。  
 例: In the simulation, smoke made the corridor untenable before evacuation was complete.  

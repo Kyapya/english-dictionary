@@ -3,9 +3,9 @@ headword: circumvent
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: "OpenAI assistant (exact model not exposed)"
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -65,7 +65,7 @@ tags: []
 ・circumvent a restriction  
 用途: 制限の効果を避ける行為と、それに対する評価を示す。  
 例: The company denied that the arrangement was designed to circumvent a restriction on foreign ownership.  
-訳: 同社は、その仕組みが外国資本の保有制限を回避する目的で設けられたものだという見方を否定した。  
+訳: 同社は、その仕組みが外国人・外国企業による所有の制限を回避する目的で設けられたものだという見方を否定した。  
 
 ・circumvent something by 〈動名詞〉  
 用途: 技術的な制約に対して採った代替手段を明示する。  
@@ -187,7 +187,7 @@ tags: []
 
 3. 【動詞・他動詞】出し抜く、巧みに裏をかく
 
-【日本語訳・定義】人や集団を相手に、策略や機転でその働きかけをかわし、相手が目的を達成するのを妨げる。相手の許可・妨害・監督をすり抜ける場合にも使う。単に競争で勝つこと全般ではなく、巧みな回避・対抗の仕方を含む。  
+【日本語訳・定義】人や集団を相手に、策略や機転でその働きかけをかわし、相手が目的を達成するのを妨げる。相手の許可を得ずに済ませたり、相手の妨害・監督をすり抜けたりする場合にも使う。単に競争で勝つこと全般ではなく、巧みな回避・対抗の仕方を含む。  
 
 【頻度】〈3/10〉  
 

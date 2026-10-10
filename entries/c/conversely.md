@@ -3,9 +3,9 @@ headword: conversely
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -51,7 +51,7 @@ converse には「会話する」という動詞もあり、さらにさかの�
 ・〈主語〉, conversely, 〈述語〉  
 用途: 文中に置いて、別の対象の反対の傾向を示す。  
 例: The inland towns grew rapidly. The coastal villages, conversely, lost residents.  
-訳: 内陸の町々は急速に発展した。反対に、沿岸の村々では住民が減った。  
+訳: 内陸の町々では人口が急増した。反対に、沿岸の村々では住民が減った。  
 
 ・or, conversely, 〈対照的な内容〉  
 用途: 方向や考え方を反転させた選択肢を示す。  

@@ -3,9 +3,9 @@ headword: inadvertent
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -62,7 +62,7 @@ tags: []
 ・be entirely inadvertent  
 用途: 行為や結果に故意がなかったことを述べる。  
 例: The interruption was entirely inadvertent; I thought the meeting had ended.  
-訳: 話を中断させてしまったのは全く意図せずしたことで、会議は終わったと思っていました。  
+訳: 話を中断させてしまいましたが、全く意図したことではありません。会議は終わったと思っていました。  
 
 ・an inadvertent discovery  
 用途: 意図せず何かが見つかったことを表す。  
