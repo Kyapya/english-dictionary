@@ -3,9 +3,9 @@ headword: exert
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 ---
 
@@ -125,7 +125,7 @@ checked: true
 頻度: 〈10/10〉  
 違い: 対象も文体も広い中立語。exert は、とくに力・影響・権限を働かせることを改まった形で表す。  
 例: She used her influence to arrange a meeting.  
-訳: 彼女は影響力を使って、会談を実現させた。  
+訳: 彼女は影響力を使って、会談を手配した。  
 
 2. 【動詞・他動詞・再帰型】exert oneself：努力する、心身の力を使う
 

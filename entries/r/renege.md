@@ -4,9 +4,9 @@ type: word
 status: checked
 prompt_version: entry_spec_v5
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 ---
 
 ＃発音記号
@@ -25,6 +25,14 @@ model: gpt-6-astra xhigh
 ・renegue：renege の異綴り。対応する人の名詞は reneguer。通常の学習では renege・reneger を中心に覚える。  
 ・reneging：現在分詞・動名詞。reneging on a promise「約束を反故にすること」のように行為を名詞的に表せる。待ち行列の専門的な名詞的用法は語義4で扱う。  
 ・reneged：過去形・過去分詞。has reneged は能動の完了形、a promise that was reneged on は前置詞を残す受動形であり、独立した感情・性格の形容詞として覚える形ではない。  
+
+＃コアイメージ
+
+守るべき約束・取り決めに従わないことで、故意とは限らない。語義4は待ち行列での離脱を独自に定義する制度的専門義で、約束や取り決めへの違反を意味せず、この核から導けないため個別に参照する。  
+
+・約束・取り決めに従わない行為 → 「約束を反故にする、合意を守らない」（語義1）  
+・カードの取り決めに従わない行為 → 「リボークする、出すべきスートの札を出さない」（語義2）  
+・約束・取り決めに従わない行為の一件 → 「反故にする行為、リボーク」（語義3）  
 
 ＃意味・用法・関連表現
 
@@ -100,7 +108,7 @@ model: gpt-6-astra xhigh
 頻度: 〈6/10〉  
 違い: 特に金融・契約の文脈で義務不履行に焦点を当て、支払能力の不足でも起こる。renege on は個人的な約束にも広く使い、約束からの後退を描く。  
 例: The company defaulted on its loan after losing its largest customer.  
-訳: その会社は最大の顧客を失った後、融資の返済を履行できなくなった。  
+訳: その会社は最大の顧客を失った後、借入金の返済を履行しなかった。  
 
 【反意語】
 

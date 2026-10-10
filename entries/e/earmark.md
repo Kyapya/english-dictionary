@@ -3,9 +3,9 @@ headword: earmark
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -76,7 +76,7 @@ ear「耳」＋ mark「印」の複合語。家畜の耳に付ける識別印を
 例: These funds are specifically earmarked for staff training.  
 訳: これらの資金は職員研修に使うものと明確に指定されている。  
 
-【語法・注意】受動態が多いが、We earmarked the money for repairs. のような能動態も普通に使う。目的語を直接置く他動詞なので、「修理用にその資金を指定する」は earmark the money for repairs とし、earmark for the money としない。代名詞なら earmark it for repairs となる。for repairing the roof と to repair the roof はともに可能だが、for repair the roof は誤り。to 不定詞の資金が修理作業をするわけではなく、その行為を実施するための用途を表す。  
+【語法・注意】受動態が多いが、We earmarked the money for repairs. のような能動態も普通に使う。目的語を直接置く他動詞なので、「修理用にその資金を指定する」は earmark the money for repairs とし、earmark for the money としない。代名詞なら earmark it for repairs となる。for repairing the roof と to repair the roof はともに可能だが、for repair the roof は誤り。この to 不定詞は、資金そのものが修理作業をするという意味ではなく、資金の用途を表す。  
 
 指定と支払いは別であり、The money was earmarked but never spent.「資金は使途指定されたが、結局使われなかった」は矛盾しない。earmark 自体は法的な拘束力や会計上の処理を一定の形で保証しない。議会予算に限った語ではない。語義4の資金指定を表す名詞とは品詞を区別する。語義2の earmark the factory for closure は「工場を確保して閉鎖に使う」ではなく、工場自体を閉鎖対象にする意味になる。  
 

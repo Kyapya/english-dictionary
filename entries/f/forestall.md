@@ -3,9 +3,9 @@ headword: forestall
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -79,7 +79,7 @@ stall「家畜の区画・売店」は steall を共有し、forewarn「あら�
 ・be forestalled by 〈措置〉  
 用途: 予定されていた動きの側を主語にし、それを阻んだ措置を示す。  
 例: The planned takeover was forestalled by an agreement among the smaller shareholders.  
-訳: 少数株主たちの合意によって、予定されていた買収は先手を打って阻まれた。  
+訳: 少数株主たちの合意によって、予定されていた買収は実行前に阻止された。  
 
 【語法・注意】forestall は他動詞なので、forestall to the crisis ではなく forestall the crisis とする。forestall it のように代名詞も直接目的語になる。forestall criticism は批判という事態を防ぐ語義1、forestall the critics は批判する人の機先を制する語義2。anticipate a problem は問題を予測するだけでも成立するが、forestall a problem は先行する対処を含む。tried to forestall、measures intended to forestall のような形は目的や試みを表すため、実際に防げたとは限らない。forestall further deterioration はそれ以前の劣化を否定せず、進行の先を阻む。be forestalled は通常の受動態であり、forestalled plans も「阻まれた計画」という分詞修飾として読める。  
 
@@ -111,7 +111,7 @@ stall「家畜の区画・売店」は steall を共有し、forewarn「あら�
 頻度: 〈6/10〉  
 違い: forestall より口語的な句動詞で、すでに生じ始めた問題の進行を止める場合にもよく使う。  
 例: A quick phone call headed off a misunderstanding.  
-訳: すぐに電話を入れたことで、誤解が広がるのを防げた。  
+訳: すぐに電話を入れたことで、誤解を未然に防げた。  
 
 ・delay  
 定義: 出来事の時期や進行を遅らせる。  
