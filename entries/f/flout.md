@@ -3,9 +3,9 @@ headword: flout
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -46,17 +46,17 @@ tags: []
 ・flout the law  
 用途: 法律を軽んじて従わない行動の説明。  
 例: The company openly flouted the law by selling products it had been ordered to withdraw.  
-訳: その会社は、回収を命じられた製品を販売し、法律を公然と無視した。  
+訳: その会社は、販売停止を命じられた製品を販売し、法律を公然と無視した。  
 
 ・flout convention  
 用途: 社会や業界の慣習にあえて従わないこと。  
 例: She flouted convention by inviting junior staff to lead the discussion.  
-訳: 彼女は慣例にとらわれず、若手社員に議論の進行を任せた。  
+訳: 彼女は慣例にとらわれず、若手社員に議論の進行を依頼した。  
 
 ・flout authority  
 用途: 権威を尊重せず、指示や制約に従わない態度。  
 例: His refusal to follow even routine instructions was seen as an attempt to flout authority.  
-訳: 日常的な指示にさえ従わない彼の態度は、権威をものともしない姿勢を示すものと受け取られた。  
+訳: 日常的な指示にさえ従わない彼の態度は、権威を軽んじて逆らおうとする試みと受け取られた。  
 
 ・deliberately flout an order  
 用途: 命令を認識したうえで意図的に従わないこと。  

@@ -3,9 +3,9 @@ headword: spurn
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -213,7 +213,7 @@ tags: []
 
 【レジスター/領域】スポーツ報道、とくにサッカーの試合評で見かける用法。一般的な「申し出を拒む」という語義から直訳すると誤解しやすい。特定の国だけで成立する用法とは限定しない。  
 
-【文法パターン】spurn a chance＝好機をものにできない／spurn an opportunity to score＝得点機を逃す／spurn a close-range header＝近距離からのヘディングを得点につなげ損なう／a chance + be spurned＝好機が生かされずに終わる。選手・チームが主語、好機や決められなかったシュートなどが目的語。to score は opportunity を説明し、spurn が直接取る不定詞ではない。  
+【文法パターン】spurn a chance＝好機をものにできない／spurn an opportunity to score＝得点機を逃す／spurn a close-range header＝近距離からのヘディングを得点につなげ損なう／a chance + be spurned＝好機が生かされずに終わる。能動文では選手・チームが主語、好機や決められなかったシュートなどが目的語。受動文では好機などが主語になる。to score は opportunity を説明し、spurn が直接取る不定詞ではない。  
 
 【コロケーション・構文例】
 

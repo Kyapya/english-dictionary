@@ -4,9 +4,9 @@ type: word
 status: checked
 prompt_version: entry_spec_v5
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 ---
 
 ＃発音記号
@@ -370,7 +370,7 @@ model: gpt-6-astra xhigh
 
 【頻度】〈2/10〉  
 
-【レジスター/領域】農地・土地利用の歴史、考古学。考古学の baulk/balk は現行の専門用語であり、すべてを廃語とはしない。  
+【レジスター/領域】農地・土地利用の歴史、考古学。考古学の baulk と balk は現行の専門用語であり、すべてを廃語とはしない。  
 
 【文法パターン】an unploughed balk＝耕さず残した土地の帯／a balk between excavation units＝発掘区の間の未掘削の土壁／a baulk of earth＝残された土の壁・帯／複数 balks/baulks。baulk は異綴り。  
 
