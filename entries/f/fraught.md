@@ -3,10 +3,10 @@ headword: fraught
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 reasoning_effort: xhigh
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -224,7 +224,7 @@ tags: []
 
 【頻度】〈4/10〉  
 
-【レジスター/領域】とくにイギリス英語の会話・人物描写。米語でも理解・使用されるが、人については anxious / stressed なども広く使う。  
+【レジスター/領域】とくにイギリス英語の会話・人物描写。米語でも理解・使用されるが、人については anxious や stressed なども広く使う。  
 
 【文法パターン】someone + be / feel fraught＝不安で張り詰めている／someone + look / sound fraught＝見た様子・声が不安げである／someone + become / get fraught＝不安で余裕を失う／a fraught 〈人〉＝不安で張り詰めた人。with 以下は不要。rather / very / a little fraught、more / less fraught などで程度を調整できる。  
 
@@ -233,7 +233,7 @@ tags: []
 ・feel fraught  
 用途: 自分が不安やストレスで落ち着かないと述べる。  
 例: I felt rather fraught after a morning of conflicting demands.  
-訳: 相反する要求に振り回された午前中の後、私はかなり気が張っていた。  
+訳: 相反する要求に振り回された午前中の後、私はかなり不安で張り詰めていた。  
 
 ・look fraught  
 用途: 表情や様子から心配・緊張が見えると述べる。  
@@ -243,7 +243,7 @@ tags: []
 ・sound fraught  
 用途: 声や話し方が不安げに聞こえると述べる。  
 例: He sounded fraught on the phone, so I kept the conversation short.  
-訳: 電話の彼はかなり気が張っているようだったので、私は話を短く切り上げた。  
+訳: 電話口の彼はかなり不安で張り詰めているようだったので、私は話を短く切り上げた。  
 
 ・a fraught parent  
 用途: 不安を抱えた人を名詞の前から描写する。  

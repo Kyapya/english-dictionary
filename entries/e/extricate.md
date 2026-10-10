@@ -3,9 +3,9 @@ headword: extricate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -97,7 +97,7 @@ intricate「入り組んだ」と intrigue「興味を引く・陰謀を企て�
 頻度: 〈4/10〉  
 違い: extricate と近いが、複雑なつながりをほどく過程をより明確に連想させる。disentangle oneself from something の形も使う。  
 例: He gradually disentangled himself from the group's business affairs.  
-訳: 彼はその集団の事業上の問題から、少しずつ手を引いた。  
+訳: 彼はその集団の事業活動から、少しずつ手を引いた。  
 
 ・rescue  
 定義: 人や組織などを、深刻な窮地や悪い結果から救う。  

@@ -3,10 +3,10 @@ headword: grapple
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 reasoning_effort: xhigh
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -159,7 +159,7 @@ tags: []
 ・grapple with someone for control of something  
 用途: 相手と組み合いながら、物を支配しようとする。  
 例: She grappled with the intruder for control of the knife.  
-訳: 彼女はナイフを取り押さえようとして侵入者と組み合った。  
+訳: 彼女はナイフを確保しようとして侵入者と組み合った。  
 
 【語法・注意】They grappled はそれだけでも組み合う動作を表せる。with 以下が常に必要なわけではない。grapple with him は「彼と組み合う」という自動詞型、grapple him to the ground は「彼をつかんで地面に倒す」という他動詞型で、後者は語義3。grapple for the ball の for を with に替えると、ボール自体を扱いかねているなど別の意味になり得る。grapple with a problem は身体的な格闘ではなく語義1であり、目的語と文脈で区別する。  
 
@@ -410,7 +410,7 @@ tags: []
 
 【頻度】〈2/10〉  
 
-【レジスター/領域】格闘の描写。grip / hold に比べて低頻度。  
+【レジスター/領域】格闘の描写。grip や hold に比べて低頻度。  
 
 【文法パターン】someone's grapple＝ある人のつかみ／a tight grapple＝強いつかみ／escape from someone's grapple＝相手のつかみから逃れる。保持を一つと捉える可算用法。  
 
