@@ -3,9 +3,9 @@ headword: impervious
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -166,7 +166,7 @@ tags: []
 ・impervious surfaces  
 用途: 雨水の地下への浸透を妨げる地表面について述べる。  
 例: Rainwater runs off impervious surfaces such as roofs and paved parking lots.  
-訳: 雨水は屋根や舗装された駐車場などの不透水面を流れていく。  
+訳: 雨水は屋根や舗装された駐車場などの不透水面から流れ出る。  
 
 ・impervious cover  
 用途: 都市や流域で、不透水面による土地の被覆をまとめて述べる。  

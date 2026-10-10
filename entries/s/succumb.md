@@ -3,9 +3,9 @@ headword: succumb
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -197,7 +197,7 @@ recumbent「横たわった」、incumbent「現職の、義務として課さ�
 ・succumb to cancer  
 用途: がんによる死を述べる。  
 例: When the artist succumbed to cancer, her obituary appeared in newspapers around the world.  
-訳: その画家ががんで亡くなると、世界中の新聞に訃報が載った。  
+訳: その芸術家ががんで亡くなると、世界中の新聞に訃報が載った。  
 
 ・a plant + succumb to drought  
 用途: 植物が干ばつに耐えられず枯れる。  

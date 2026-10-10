@@ -3,9 +3,9 @@ headword: engross
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -44,7 +44,7 @@ engrossed は米 /ɪnˈɡroʊst/・英 /ɪnˈɡrəʊst/ で2音節のまま。-e
 
 【レジスター/領域】一般的な描写・書き言葉。会話でも使うが、単に busy と言うよりも集中の深さが伝わる。主要構文に大きな米英差はない。  
 
-【文法パターン】someone is engrossed in something／someone is engrossed in doing something＝対象・活動への没頭。someone is engrossed with something／someone is engrossed with doing something も可能。someone is engrossed in what 〈主語＋動詞〉／someone is engrossed with what 〈主語＋動詞〉＝していることなどへの没頭。someone is engrossed by something は注意を引き付ける原因を示し、語義2の受動態としても分析できる。someone becomes/gets/seems engrossed in something＝没頭する状態への変化・そのように見えること。対象が明らかなら someone is engrossed と補部を省ける。an engrossed reader／engrossed listeners の限定用法もある。deeply/completely/very engrossed、more engrossed、too engrossed to do something のように程度・比較を示せる。  
+【文法パターン】someone is engrossed in something＝対象への没頭／someone is engrossed in doing something＝活動への没頭／someone is engrossed with something＝with でも対象への没頭を示せる／someone is engrossed with doing something＝with でも活動への没頭を示せる／someone is engrossed in what 〈主語＋動詞〉＝していることなどへの没頭／someone is engrossed with what 〈主語＋動詞〉＝with でも、していることなどへの没頭を示せる／someone is engrossed by something＝注意を引き付ける原因を示す。語義2の受動態としても分析できる／someone becomes engrossed in something、someone gets engrossed in something＝没頭する状態への変化／someone seems engrossed in something＝没頭しているように見えること／someone is engrossed＝対象が明らかな場合に補部を省いた形／an engrossed reader、engrossed listeners＝限定用法。deeply engrossed、completely engrossed、very engrossed のように程度を、more engrossed のように比較を示せる／someone is too engrossed to do something＝没頭しすぎて、その行動ができない。  
 
 【コロケーション・構文例】
 
@@ -91,7 +91,7 @@ engrossed は米 /ɪnˈɡroʊst/・英 /ɪnˈɡrəʊst/ で2音節のまま。-e
 ・too engrossed to do something  
 用途: 集中が深いために、別の行動や反応をしないことを表す。  
 例: They seemed too engrossed to notice that the meeting had ended.  
-訳: 彼らはあまりに話に夢中で、会議が終わったことに気付いていないようだった。  
+訳: 彼らはあまりに夢中で、会議が終わったことに気付いていないようだった。  
 
 【語法・注意】in と with はどちらも正しい。by も可能で、「何に没頭しているか」という状態と「何によって注意を奪われたか」という受動的な捉え方が重なる。前置詞だけから形容詞か受動態かを一律に決めない。become/get/seem engrossed は状態・変化の構文で、いずれも単純な受動態の助動詞ではない。誤: I am engrossed to read the report.／正: I am engrossed in reading the report. ただし too engrossed to answer の to は程度の結果を示す不定詞であり、対象を示す in の代用ではない。語義3の an engrossing book は「人を引き付ける本」、an engrossed reader は「引き付けられている読者」。誤: I was engrossing in the book.／正: I was engrossed in the book. 自分が没頭していることを表すなら -ed を使う。単独の engrossed にハイフンは不要。  
 
@@ -187,7 +187,7 @@ engrossed は米 /ɪnˈɡroʊst/・英 /ɪnˈɡrəʊst/ で2音節のまま。-e
 頻度: 〈6/10〉  
 違い: この心理的な意味では近いが、absorb は液体・情報・費用などを取り込む意味にも広く使う。engross はそれらの意味の代用にはならない。  
 例: The difficult puzzle absorbed her for the rest of the evening.  
-訳: その難しいパズルに、彼女はその晩ずっと夢中になった。  
+訳: その難しいパズルに、彼女はその晩の残りの時間ずっと夢中になった。  
 
 ・fascinate  
 定義: 強い興味や好奇心を起こさせる。  
@@ -230,7 +230,7 @@ engrossed は米 /ɪnˈɡroʊst/・英 /ɪnˈɡrəʊst/ で2音節のまま。-e
 ・an engrossing problem  
 用途: 娯楽作品以外の、夢中で考えられる問題を表す。  
 例: Designing a bridge for that narrow valley proved an engrossing problem.  
-訳: あの狭い谷に架ける橋の設計は、考えれば考えるほど夢中になる課題だった。  
+訳: あの狭い谷に架ける橋の設計は、夢中になって取り組める課題だった。  
 
 ・become more engrossing  
 用途: 展開につれて、いっそう引き付けられる性質になることを述べる。  

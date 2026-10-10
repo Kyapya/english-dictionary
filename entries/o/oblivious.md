@@ -3,10 +3,10 @@ headword: oblivious
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 reasoning_effort: xhigh
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -80,12 +80,12 @@ tags: []
 ・be blissfully oblivious to something  
 用途: 悪い状況を知らないため、本人だけがのんきにしていると描く。  
 例: They enjoyed their picnic, blissfully oblivious to the argument at the next table.  
-訳: 隣のテーブルでの口論などつゆ知らず、二人はのんきにピクニックを楽しんでいた。  
+訳: 隣のテーブルでの口論などつゆ知らず、彼らはのんきにピクニックを楽しんでいた。  
 
 ・an oblivious 〈person/driver〉  
 用途: 無自覚な人を名詞の前の形容詞で描く。  
 例: An oblivious driver continued down the street with a bag on the roof of his car.  
-訳: 運転手は気付かないまま、車の屋根にかばんを載せて通りを走り続けた。  
+訳: 運転手は、車の屋根にかばんが載っていることに気付かず、通りを走り続けた。  
 
 ・become oblivious to something  
 用途: 慣れや集中によって、刺激が意識に上らなくなることを表す。  

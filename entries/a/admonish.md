@@ -3,9 +3,9 @@ headword: admonish
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -166,7 +166,7 @@ tags: []
 ・admonish someone against doing something  
 用途: ある行為をしないよう、硬い言い方で警告する。  
 例: The editor admonished the reporters against relying on a single source.  
-訳: 編集者は、情報源を一つだけに頼らないよう記者たちに戒めた。  
+訳: 編集者は、情報源を一つだけに頼らないよう記者たちを戒めた。  
 
 ・admonish someone about their obligations  
 用途: 果たすべき義務を真剣に思い起こさせる。  
