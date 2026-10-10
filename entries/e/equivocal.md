@@ -3,9 +3,9 @@ headword: equivocal
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -201,7 +201,7 @@ tags: []
 頻度: 〈6/10〉  
 違い: 判断の明瞭さという軸で対立する。conclusive ほど証明力そのものに限定されない。  
 例: The result was clear-cut: every participant preferred the revised design.  
-訳: 結果は明白で、参加者全員が改訂後のデザインを選んだ。  
+訳: 結果は明白で、参加者全員が改訂後のデザインのほうを好んだ。  
 
 3. 【形容詞・限定用法／叙述用法】疑わしい・問題のありそうな
 

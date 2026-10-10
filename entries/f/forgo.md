@@ -3,9 +3,9 @@ headword: forgo
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -72,7 +72,7 @@ tags: []
 ・〈収入・利益〉 + be forgone  
 用途: 得るのを諦めたものを主語にし、硬い報告文で示す。  
 例: Some short-term revenue was forgone to keep the service free during the trial.  
-訳: 試行中のサービスを無料にするため、短期的な収入の一部は得るのを諦めた。  
+訳: 試行期間中、サービスを無料に保つため、短期的な収入の一部の受け取りが見送られた。  
 
 【語法・注意】forgo taking a break は動名詞を目的語にする形で、×forgo to take a break とはしない。decide to forgo a break なら to は decide が導く不定詞の一部。過去は forwent、完了形は have forgone で、×have forwent ではない。forego は「なしで済ませる」の意味でも認められる綴りなので、常に誤字と扱わない。一方、the foregoing discussion「前述の議論」や a foregone conclusion「決まりきった結末」は「先にある」という別系統の意味で、×the forgoing discussion、×a forgone conclusion と機械的に置き換えない。forgo は必ずしも自由意思だけを表さず、be forced to forgo treatment「治療を断念せざるを得ない」のようにも使える。また、forgo dessert は今回取らない選択にも使え、一生やめるという意味ではない。  
 
