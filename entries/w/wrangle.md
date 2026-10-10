@@ -4,9 +4,9 @@ type: word
 status: checked
 prompt_version: entry_spec_v5
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 ---
 
 ＃発音記号
@@ -408,7 +408,7 @@ model: gpt-6-astra xhigh
 ・wrangle something through a doorway  
 用途: 大きくて扱いにくい物を、苦労して戸口の向こうへ運ぶこと。  
 例: We finally wrangled the bulky sofa through the narrow doorway.  
-訳: 私たちはようやく、そのかさばるソファーを狭い戸口から運び入れた。  
+訳: 私たちはようやく、そのかさばるソファーを狭い戸口に通して運んだ。  
 
 ・be wrangled into a vehicle  
 用途: 人や物が苦労して、時には力ずくで車内へ移されること。  
@@ -441,7 +441,7 @@ model: gpt-6-astra xhigh
 
 【レジスター/領域】北米、特に米国西部・カナダの牧場や乗馬の文脈。この地域性を、語義1の議論の意味全体へ広げない。  
 
-【文法パターン】wrangle horses/cattle＝馬・牛を集めて管理する／wrangle a herd＝群れを扱う／〈家畜〉 + be wrangled by someone＝受動態。家畜が直接目的語で、世話をする人を主語にする。  
+【文法パターン】wrangle horses/cattle＝馬・牛を集めて管理する／wrangle a herd＝群れを扱う／〈家畜〉 + be wrangled by someone＝受動態。能動態では家畜が直接目的語で、世話をする人が主語になる。受動態では家畜が主語になる。  
 
 【コロケーション・構文例】
 
@@ -479,7 +479,7 @@ model: gpt-6-astra xhigh
 
 【頻度】〈2/10〉  
 
-【レジスター/領域】限られた用法。一般の文章では argue someone into/out of doing や talk someone into/out of doing の方が伝わりやすい。単なる穏やかな提案より、相手を議論で動かす感じがある。  
+【レジスター/領域】限られた用法。一般の文章では、argue someone into doing、argue someone out of doing、talk someone into doing、talk someone out of doing の方が伝わりやすい。単なる穏やかな提案より、相手を議論で動かす感じがある。  
 
 【文法パターン】wrangle someone into 〈行動・状態〉＝議論してその行動・状態に向かわせる／wrangle someone into doing something＝議論して行動させる／wrangle someone out of doing something＝議論して行動をやめさせる／someone + be wrangled into doing something＝説き伏せられて行動する受動態。into・out of の後は名詞か-ing形で、人を表す目的語を動詞の直後に置く。  
 

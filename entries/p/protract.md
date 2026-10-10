@@ -3,9 +3,9 @@ headword: protract
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -135,7 +135,7 @@ tags: []
 
 【レジスター/領域】硬めの一般語。報道・業務・学術的な説明で使う。protracted illness も期間を述べる一般的な用法で、語義3の身体運動を意味しない。  
 
-【文法パターン】a protracted 〈dispute/conflict/illness〉＝長引いた争い・紛争・病気／protracted negotiations＝長期化した交渉／for a protracted period＝長い期間にわたって／something + be/become/seem protracted＝出来事・過程が長引いている／長期化する／長引いているように見える／an increasingly protracted 〈process/dispute〉＝ますます長期化する過程・争い。限定・叙述の両方が使え、より長引くという比較は more protracted、最上級は most protracted。  
+【文法パターン】a protracted 〈dispute/conflict/illness〉＝長引いた争い・紛争・病気／protracted negotiations＝長期化した交渉／for a protracted period＝長い期間にわたって／something + be protracted＝出来事・過程が長引いている／something + become protracted＝出来事・過程が長期化する／something + seem protracted＝出来事・過程が長引いているように見える／an increasingly protracted 〈process/dispute〉＝ますます長期化する過程・争い。限定・叙述の両方が使え、より長引くという比較は more protracted、最上級は most protracted。  
 
 【コロケーション・構文例】
 
@@ -157,11 +157,11 @@ tags: []
 ・for a protracted period  
 用途: 具体的な年数を示さず、ある状態の長い継続を述べる。  
 例: The building remained empty for a protracted period.  
-訳: その建物は長期間、空き家のままだった。  
+訳: その建物は長期間、使われないままだった。  
 
 ・become protracted  
 用途: 状態の変化として、長期化することを述べる。  
-例: What began as a brief inquiry soon became protracted.  
+例: What was intended to be a brief inquiry soon became protracted.  
 訳: 当初は短く済むはずだった調査が、ほどなく長期化した。  
 
 ・be more protracted than 〈比較対象〉  

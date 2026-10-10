@@ -3,9 +3,9 @@ headword: supplant
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -156,7 +156,7 @@ supplant は supplement「追加して補う」と区別する。New funds suppl
 
 【語法・注意】The new system supplanted the old one. は「新システムが旧システムに取って代わった」で、主語が代替物（語義1）。The agency supplanted the old system with a new one. は「その機関が旧システムを新しいものへ置き換えた」で、主語が実行主体（語義2）。いずれも直接目的語は旧来の側だが、主語の役割まで同じではない。  
 
-replace old A with new B とは新旧の並びが同じ。一方、substitute new B for old A では、直接目的語が導入する側、for の後が従来の側になる。The agency supplanted paper forms with an online form. に対応するのは The agency substituted an online form for paper forms.。supplant an online form for paper forms と機械的に移さず、supplant paper forms with an online form とする。  
+replace old A with new B とは新旧の並びが同じ。一方、substitute new B for old A では、直接目的語が導入する側、for の後が従来の側になる。The agency supplanted paper forms with an online form. に対応するのは The agency substituted an online form for paper forms. supplant an online form for paper forms と機械的に移さず、supplant paper forms with an online form とする。  
 
 supplant は、単に付属品を足す意味ではない。従来のものを残して新しいものを加えるなら supplement the existing system with new features「既存のシステムを新機能で補う」という対照表現を使う。with が両方に現れても、supplant は置き換え、supplement は補充である。  
 

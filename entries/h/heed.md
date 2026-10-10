@@ -3,9 +3,9 @@ headword: heed
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -25,7 +25,7 @@ heeds は /hiːdz/。過去形・過去分詞 heeded は /ˈhiːdɪd/、現在�
 
 ・heeds / heeded / heeding：規則活用。heeded は通常の過去形・過去分詞で、heeding は現在分詞または動名詞。be heeded は「注意を払われる」という受動態になる。  
 ・unheeded：un- と過去分詞 heeded からなる形容詞「注意を払われない、聞き入れられない」。警告・訴えなど、受け止めてもらえない側を表す。詳しくは語義3。  
-・heedless：heed と -less からなる形容詞「注意を払わない、意に介さない」。be heedless of the danger のように、注意しない側の態度を表す。叙述用法が中心だが、heedless behavior のような名詞修飾もできる。  
+・heedless：heed と -less からなる形容詞「注意を払わない、意に介さない」。be heedless of the danger のように、注意しない側の態度を表す。叙述用法のほか、heedless behavior のような名詞修飾にも使う。  
 ・heedlessly / heedlessness：heedless からできた副詞「注意を払わずに」と名詞「無頓着、不注意」。やや硬い表現。  
 ・heedful：heed と -ful からなる形容詞「注意深い、心に留めている」。be heedful of someone's advice の形で、注意を払う側を表す。硬く、日常会話では attentive や mindful なども使う。  
 
@@ -248,7 +248,7 @@ pay him no heed と pay no heed to him はともに「彼を取り合わない�
 ・an unheeded warning  
 用途: 聞き入れられなかった警告を名詞の前から修飾する。  
 例: An unheeded warning in the first report later proved crucial.  
-訳: 最初の報告書で顧みられなかった警告が、後に重大な意味を持つことになった。  
+訳: 最初の報告書に記されながら顧みられなかった警告は、後に極めて重要だったと分かった。  
 
 ・go unheeded  
 用途: 呼びかけなどに必要な反応が得られないことを示す。  
