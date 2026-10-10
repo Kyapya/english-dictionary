@@ -3,9 +3,9 @@ headword: deem
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -35,7 +35,7 @@ deems /diːmz/、deemed /diːmd/、deeming /ˈdiːmɪŋ/。deemed の -ed は /d
 
 【レジスター/領域】フォーマル。報告書、審査、ビジネス、規則、法律文書、論評。日常の軽い感想では think、consider の方が一般的。  
 
-【文法パターン】deem someone/something + 〈形容詞／名詞句〉＝対象を～と判断する／deem someone/something to be 〈形容詞／名詞句〉＝対象が～であるとみなす／deem it + 〈形容詞／名詞句〉 + to do something＝～することを…と考える／deem it + 〈形容詞〉 + that節＝～ということを…と考える／deem (that)節＝～だと判断する。受動は someone/something + be deemed + 〈形容詞／名詞句〉、be deemed to be 〈補語〉、be deemed to do something、be deemed to have done something。最後の形は判断の基準時より前の行為・状態を表す。〈名詞〉 deemed necessary、if deemed necessary、as deemed appropriate のように受動の一部を省いた形もある。  
+【文法パターン】deem someone/something + 〈形容詞・名詞句〉＝対象を～と判断する／deem someone/something to be 〈形容詞・名詞句〉＝対象が～であるとみなす／deem it + 〈形容詞・名詞句〉 + to do something＝～することを…と考える／deem it + 〈形容詞〉 + that節＝～ということを…と考える／deem (that)節＝～だと判断する。受動は someone/something + be deemed + 〈形容詞・名詞句〉、be deemed to be 〈補語〉、be deemed to do something、be deemed to have done something。最後の形は判断の基準時より前の行為・状態を表す。〈名詞〉 deemed necessary、if deemed necessary、as deemed appropriate のように受動の一部を省いた形もある。  
 
 【コロケーション・構文例】
 

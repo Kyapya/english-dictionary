@@ -3,9 +3,9 @@ headword: solicit
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -48,7 +48,7 @@ tags: []
 
 【レジスター/領域】硬め。ビジネス、調査、広報、寄付募集、報道。日常の軽いお願いでは ask for が普通。  
 
-【文法パターン】solicit 〈意見・情報・寄付・支援〉＝その内容を求める／solicit something from someone＝人から何かを求める／solicit someone for something＝人に何かを求めて働きかける／solicit someone＝相手に依頼・勧誘する〔内容は文脈で補う〕／solicit for something＝何かを求めて活動する〔自動詞〕／solicit donations for 〈目的・受益者〉＝その目的・受益者のために寄付を募る／〈求めるもの〉 + be solicited from someone＝人に求められる／〈求められる人〉 + be solicited for something＝何かを求められる。  
+【文法パターン】solicit 〈意見・情報・寄付・支援〉＝その内容を求める／solicit something from someone＝人から何かを求める／solicit someone for something＝人に何かを求めて働きかける／solicit someone＝相手に依頼・勧誘する〔内容は文脈で補う〕／solicit for something＝何かを求めて活動する〔自動詞〕／solicit donations for 〈目的・受益者〉＝その目的・受益者のために寄付を募る／〈求めるもの〉 + be solicited from someone＝人から募られる／〈求められる人〉 + be solicited for something＝何かを求められる。  
 
 【コロケーション・構文例】
 
@@ -268,7 +268,7 @@ tags: []
 ・solicit someone for paid sex  
 用途: 金銭を払って性的行為を求める側の働きかけを明示する。  
 例: The article described a man soliciting an adult sex worker for paid sex.  
-訳: その記事は、男性が成人の性産業従事者に金銭を払う性的行為を持ちかけたと伝えていた。  
+訳: その記事は、男性が成人の性産業従事者に、金銭を払って性的行為に応じてもらうことを持ちかけたと伝えていた。  
 
 ・be solicited by 〈性的サービスの提供者〉  
 用途: 性的な取引を持ちかけられた側を主語にする。  
