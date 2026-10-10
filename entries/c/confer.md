@@ -3,9 +3,9 @@ headword: confer
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -136,7 +136,7 @@ ferre を共有する語には transfer「移す」、refer「言及する／参
 頻度: 〈7/10〉  
 違い: award someone a prize、award a prize to someone とも言え、confer より目的語配置が柔軟。confer は称号・地位・権利を正式に付与する点が前に出る。  
 例: The association awarded her its annual research prize.  
-訳: 協会は彼女に年間研究賞を授与した。  
+訳: 協会は、毎年授与している研究賞を彼女に贈った。  
 
 ・grant  
 定義: 権限に基づき、権利・許可・資格などを与える。  
@@ -214,7 +214,7 @@ ferre を共有する語には transfer「移す」、refer「言及する／参
 頻度: 〈9/10〉  
 違い: confer より日常的で広い。give the company an advantage のように二重目的語にでき、正式・学術的な響きを加えない。  
 例: The clear instructions gave beginners more confidence.  
-訳: 分かりやすい説明によって、初心者は自信を持てた。  
+訳: 分かりやすい説明によって、初心者はより自信を持てた。  
 
 ・impart  
 定義: 性質・特徴・感じなどを対象に与える。  

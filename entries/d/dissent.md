@@ -3,9 +3,9 @@ headword: dissent
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -131,7 +131,7 @@ sentire を共有する語には assent「賛同する／賛同」、consent「�
 
 【レジスター/領域】フォーマル。会議、委員会、政治、司法など。単なる「私はそう思わない」には disagree が広く使える。  
 
-【文法パターン】dissent from 〈見解・決定・提案〉＝それに賛同しない。対象が明らかなら dissent だけでよい。dissent on 〈論点〉は異論のある論点を示す。裁判官については dissent from the majority opinion、dissent in part＝多数意見に反対する／一部について反対する。直接目的語を取る他動詞の型ではない。  
+【文法パターン】dissent from 〈見解・決定・提案〉＝それに賛同しない。対象が明らかなら dissent だけでよい。dissent on 〈論点〉は異論のある論点を示す。裁判官について dissent from the majority opinion＝多数意見に反対する／裁判官について dissent in part＝一部について反対する。直接目的語を取る他動詞の型ではない。  
 
 【コロケーション・構文例】
 

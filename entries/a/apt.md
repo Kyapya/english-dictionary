@@ -3,9 +3,9 @@ headword: apt
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -126,7 +126,7 @@ tags: []
 
 【レジスター/領域】一般からやや文章的。習慣、注意、予測。くだけた会話では likely や tend to による言い方も多い。  
 
-【文法パターン】someone/something + be apt to do something＝その動作をしがちだ、しそうだ／be apt to be 〈形容詞〉＝その状態になりがちだ／be more/less apt to do something＝その傾向・可能性がより高い／低い。否定の be not apt to do は「そうしそうにない」。後置修飾の 〈名詞〉 + apt to do something も可能。apt を直接動詞のように活用しない。  
+【文法パターン】someone/something + be apt to do something＝その動作をしがちだ、しそうだ／be apt to be 〈形容詞〉＝その状態になりがちだ／someone/something + be more apt to do something＝その動作をする傾向・可能性がより高い／someone/something + be less apt to do something＝その動作をする傾向・可能性がより低い。否定の be not apt to do は「そうしそうにない」。後置修飾の 〈名詞〉 + apt to do something も可能。apt を直接動詞のように活用しない。  
 
 【コロケーション・構文例】
 
@@ -207,9 +207,9 @@ tags: []
 
 【頻度】〈3/10〉  
 
-【レジスター/領域】やや文章的。教育、技能の習得、人物描写。an apt pupil / student が代表的。apt at で能力のある活動を示す叙述用法もあるが、日常の得意分野を述べるなら good at などが広く使われる。  
+【レジスター/領域】やや文章的。教育、技能の習得、人物描写。an apt pupil、an apt student が代表的。apt at で能力のある活動を示す叙述用法もあるが、日常の得意分野を述べるなら good at などが広く使われる。  
 
-【文法パターン】an apt pupil/student/learner＝飲み込みのよい生徒・学習者／someone + be/prove an apt pupil＝人が飲み込みのよい生徒である／だと分かる。特に apt が名詞の前にある形を覚える。比較や程度は a very apt pupil、a more apt student のように表せる。someone + be/prove apt at 〈活動〉、someone + be/prove apt at doing something は、特定の活動に才・適性があることを示す叙述用法。be an apt pupil は名詞句全体が補語で、be apt to do の傾向用法とは別構造。  
+【文法パターン】an apt pupil/student/learner＝飲み込みのよい生徒・学習者／someone + be an apt pupil＝人が飲み込みのよい生徒である／someone + prove an apt pupil＝人が飲み込みのよい生徒だと分かる。特に apt が名詞の前にある形を覚える。比較や程度は a very apt pupil、a more apt student のように表せる。someone + be/prove apt at 〈活動〉、someone + be/prove apt at doing something は、特定の活動に才・適性があることを示す叙述用法。be an apt pupil は名詞句全体が補語で、be apt to do の傾向用法とは別構造。  
 
 【コロケーション・構文例】
 

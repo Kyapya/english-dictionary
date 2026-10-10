@@ -3,9 +3,9 @@ headword: concur
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -209,7 +209,7 @@ agree to do something「～することを承諾・約束する」を、一般�
 ・〈複数の出来事〉 + concur  
 用途: 二つ以上の出来事の同時発生を硬く述べる。  
 例: The two events concurred in the same year.  
-訳: その二つの出来事は、同じ年に起こった。  
+訳: その二つの出来事は、同じ年の同じ時期に起こった。  
 
 ・〈出来事〉 + concur with 〈別の出来事〉  
 用途: ある出来事の発生時期を別の出来事に結びつける。  

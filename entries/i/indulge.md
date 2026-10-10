@@ -3,9 +3,9 @@ headword: indulge
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -161,7 +161,7 @@ indulges /ɪnˈdʌldʒɪz/、indulged /ɪnˈdʌldʒd/、indulging /ɪnˈdʌldʒ�
 頻度: 〈4/10〉  
 違い: やや硬く、欲求が満たされた満足感に焦点がある。indulge は抑えず許す側面が強く、悪い癖を助長する場面にも使う。  
 例: He bought the painting to gratify his desire to own an original work.  
-訳: 本物の作品を所有したいという願望を満たすため、彼はその絵を買った。  
+訳: オリジナルの作品を所有したいという願望を満たすため、彼はその絵を買った。  
 
 ・feed  
 定義: 感情や欲望に材料を与え、維持・増大させる。  
@@ -285,7 +285,7 @@ indulges /ɪnˈdʌldʒɪz/、indulged /ɪnˈdʌldʒd/、indulging /ɪnˈdʌldʒ�
 ・indulge in spreading rumors  
 用途: 好ましくない活動を動名詞で具体的に示す。  
 例: Instead of checking the facts, several members indulged in spreading rumors about their colleague.  
-訳: 数人のメンバーは事実を確かめず、同僚についてのうわさを広めることに走った。  
+訳: 数人のメンバーは事実を確かめず、同僚についてのうわさをむやみに広めた。  
 
 【語法・注意】indulge in speculation は動詞＋前置詞句であり、目的語を前置詞の前へ移した ×indulge speculation in とはしない。語義1の indulge in a dessert「デザートを楽しむ」と同じ表面形だが、ここでは参加する行為とその評価に焦点がある。「不正を楽しむ」と逐語訳して本人の感情まで断定しない。engage in と近いが、単に中立的な活動への参加を述べたいなら engage in、take part in の方が適することが多い。  
 
