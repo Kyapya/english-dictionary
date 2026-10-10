@@ -3,9 +3,9 @@ headword: plausible
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -66,7 +66,7 @@ tags: []
 例: It is plausible that some customers left because the sign-up process was too long.  
 訳: 登録手続きが長すぎたために離脱した顧客もいた、ということは十分考えられる。  
 
-・find 〈説明・主張〉 + plausible  
+・find 〈説明・主張〉 plausible  
 用途: 説明を検討した人の判断を示す。  
 例: The reviewers found the proposed explanation plausible but asked for more evidence.  
 訳: 審査担当者たちは提案された説明にもっともらしさを認めたが、さらに証拠を求めた。  
@@ -173,7 +173,7 @@ tags: []
 ・someone + sound plausible  
 用途: 話し手の説得力と、その話の裏付けを分けて評価する。  
 例: She sounded plausible, but the references she supplied were fake.  
-訳: 彼女はいかにも誠実そうに話したが、提出した推薦情報は偽物だった。  
+訳: 彼女はいかにも誠実そうに話したが、提出した推薦状は偽物だった。  
 
 【語法・注意】a plausible explanation「信じられそうな説明」は語義1で、欺きが必須ではない。a plausible liar や人についての He's very plausible. は、誠実そうに振る舞う巧みさに疑いを込めることが多い。同じ人名詞でも a plausible candidate「十分候補になりうる人」は候補としての妥当性を評価するため、この批判的用法とは限らない。相手の本当の誠実さをほめるなら honest、sincere、trustworthy などが適切。ただしそれらは人の実質的な性質を述べる語であり、「もっともらしく見せる巧みさ」と完全な反意関係にあるわけではない。  
 

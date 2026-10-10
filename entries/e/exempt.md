@@ -3,9 +3,9 @@ headword: exempt
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -66,7 +66,7 @@ tags: []
 ・〈人・物を表す名詞〉 exempt from 〈義務・規則〉  
 用途: 名詞の後ろに免除の内容を置いて対象を絞る。  
 例: Applicants exempt from the interview must still provide references.  
-訳: 面接を免除された応募者も、推薦情報は提出しなければならない。  
+訳: 面接を免除された応募者も、推薦状は提出しなければならない。  
 
 ・remain exempt  
 用途: 何からの免除かが既に明らかな文脈で、免除状態の継続を表す。  

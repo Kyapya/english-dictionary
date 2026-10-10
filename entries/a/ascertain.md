@@ -3,9 +3,9 @@ headword: ascertain
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -83,7 +83,7 @@ tags: []
 ・cannot be ascertained  
 用途: 情報が不足し、対象の事実を確定できないことを受動態で述べる。  
 例: The exact time of the failure cannot be ascertained from the available records.  
-訳: 現存する記録からは、障害が発生した正確な時刻を特定できない。  
+訳: 利用できる記録からは、障害が発生した正確な時刻を特定できない。  
 
 ・it + be ascertained that 〈主語＋動詞〉  
 用途: 確認された内容を、確認者よりも前面に出す。  

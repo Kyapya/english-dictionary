@@ -3,9 +3,9 @@ headword: precede
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -30,7 +30,7 @@ proceed「進む、続行する」は米・英 /prəˈsiːd/ で、第1音節の
 基準となる人・物・出来事よりも前に位置すること。時間、並び順、移動する人の位置に使い、precede A with B ではBをAの前に置く。  
 ・時間・順序の前側にある関係 → 「〜に先立つ、〜より前に来る」（語義1）  
 ・参照する箇所・時点の前側にある部分 → 「前の、先行する」（語義2）  
-・移動する人・物の前側にある位置 → 「〜の前を進む、〜に先に立って行く」（語義3）  
+・移動する人・物の前側にある位置 → 「〜の前を進む、〜の先に立って行く」（語義3）  
 ・話・行為の前側に何かを置く操作 → 「〜の前に…を置く、〜を…で始める」（語義4）  
 ・文脈上の基準の前側にある状態 → 「先行する、先にある」（語義5）  
 
@@ -169,8 +169,8 @@ proceed「進む、続行する」は米・英 /prəˈsiːd/ で、第1音節の
 定義: 現在または話題の基準より前の。  
 頻度: 〈9/10〉  
 違い: preceding より日常的で範囲が広く、previous experience のように特定の直前の一件でない経験にも使う。  
-例: Please compare these results with the previous version.  
-訳: これらの結果を前の版と比較してください。  
+例: Please compare this version with the previous version.  
+訳: この版を前の版と比較してください。  
 
 ・prior  
 定義: 特定の出来事や時点より前の。  
@@ -202,7 +202,7 @@ proceed「進む、続行する」は米・英 /prəˈsiːd/ で、第1音節の
 例: Subsequent tests confirmed the initial results.  
 訳: その後の試験で最初の結果が確認された。  
 
-3. 【動詞・他動詞】〜の前を進む、〜に先に立って行く
+3. 【動詞・他動詞】〜の前を進む、〜の先に立って行く
 
 【日本語訳・定義】人や集団などが、別の人や物の前に位置して移動する。主語が前を進み、目的語の人・物が後ろにいる。案内する目的で先に立つ場合もあるが、precede 自体は道を教える意図までは表さない。  
 
@@ -217,7 +217,7 @@ proceed「進む、続行する」は米・英 /prəˈsiːd/ で、第1音節の
 ・precede someone into 〈場所〉  
 用途: 別の人より先に入る動きを描写する。  
 例: The host preceded the guests into the dining room.  
-訳: 主人は客たちに先に立って食堂へ入った。  
+訳: 主人は客たちの先に立って食堂へ入った。  
 
 ・precede someone out of 〈場所〉  
 用途: 別の人の前を進んで退出する様子を示す。  

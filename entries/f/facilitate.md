@@ -3,9 +3,9 @@ headword: facilitate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -17,7 +17,7 @@ tags: []
 
 ＃語源
 
-フランス語 faciliter、イタリア語 facilitare を経て、ラテン語 facilis「容易な」にさかのぼる。その基に facere「する、作る」がある。「しやすくする」が現代義を覚える手掛かりになる。同じ facilis の系統に facility「設備、容易さ・能力」、facile「容易な、安易な」がある。ただし、facilitate 自体には、facile が持つことのある「浅薄な、安易すぎる」という否定的評価はない。  
+中期フランス語 faciliter（イタリア語 facilitare に由来）を経たと考えられ、ラテン語 facilis「容易な」にさかのぼる。その基に facere「する、作る」がある。「しやすくする」が現代義を覚える手掛かりになる。同じ facilis の系統に facility「設備、容易さ・能力」、facile「容易な、安易な」がある。ただし、facilitate 自体には、facile が持つことのある「浅薄な、安易すぎる」という否定的評価はない。  
 
 ＃語形成
 
@@ -60,7 +60,7 @@ tags: []
 ・facilitate access to 〈情報・サービスなど〉  
 用途: 必要なものにアクセスしやすくする。  
 例: The new portal facilitates access to training materials for remote staff.  
-訳: 新しいポータルによって、在宅勤務の職員が研修資料にアクセスしやすくなる。  
+訳: 新しいポータルによって、リモート勤務の職員が研修資料にアクセスしやすくなる。  
 
 ・facilitate communication between 〈当事者〉  
 用途: 複数の人・部署の間で情報をやり取りしやすくする。  
@@ -191,7 +191,7 @@ tags: []
 ・facilitate a workshop  
 用途: 参加型の研修・共同作業の進行役を務める。  
 例: An external consultant facilitated the workshop, guiding participants through three planning exercises.  
-訳: 外部のコンサルタントがワークショップの進行を担当し、参加者を3つの計画立案演習へと導いた。  
+訳: 外部のコンサルタントがワークショップの進行を担当し、参加者が3つの計画立案演習に取り組むのを支援した。  
 
 ・facilitate a group  
 用途: 集団を目的語にし、その話し合い・共同作業を支えることを述べる。  
@@ -252,7 +252,7 @@ tags: []
 
 3. 【他動詞】促通する、反応・伝達を生じやすくする
 
-【日本語訳・定義】神経伝達、反射、その他の反応が起こりやすくなるように働き、その強さや有効性を高める。生理学・神経科学で用いる専門義。例えば、先行する刺激などが、その後の刺激への応答を強めることを述べる。日本語では「促通する」と訳す。  
+【日本語訳・定義】神経伝達、反射、その他の反応を起こりやすくしたり、その強さや有効性を高めたりする。生理学・神経科学で用いる専門義。例えば、先行する刺激などが、その後の刺激への応答を強めることを述べる。日本語では「促通する」と訳す。  
 
 【頻度】〈3/10〉  
 

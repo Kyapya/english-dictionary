@@ -3,9 +3,9 @@ headword: prospective
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -239,7 +239,7 @@ tags: []
 ・prospective memory  
 用途: 後ですべき行為を覚えておき、適切な時に思い出す認知機能を表す。  
 例: Remembering to send a file after lunch is an example of prospective memory.  
-訳: 昼食後にファイルを送ることを忘れずに思い出すのは、展望記憶の一例である。  
+訳: 昼食後に、ファイルを送ることを思い出すのは、展望記憶の一例である。  
 
 【語法・注意】prospective thinking は「今後行われる予定の思考」ではなく、現在している思考が将来へ向いていることを表せる。将来を考えることと、楽観的であること・革新的であることは別で、危険や失敗を予測する考察も prospective になり得る。prospective memory は未来の出来事を既に経験として覚えていることではなく、意図した行為を後で思い出すこと。対になる retrospective memory は、既に起きた出来事や学んだ内容を思い出す記憶を指す。語義4の prospective study は研究の追跡方向を示すので、prospective memory の意味をそのまま当てはめない。prospective analysis は分野により研究方法を指すこともあるが、この語義の例では、内容として将来を見据えることを明示している。  
 
