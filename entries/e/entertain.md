@@ -3,9 +3,9 @@ headword: entertain
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -118,7 +118,7 @@ retain「保持する」、maintain「維持する」も tenere「保つ」に�
 
 【頻度】〈7/10〉  
 
-【レジスター/領域】家庭での招待、社交、ビジネス上の接待。この接待義自体は米英ともに使うが、entertain someone to lunch/dinner は英国寄りの型。  
+【レジスター/領域】家庭での招待、社交、ビジネス上の接待。この接待義自体は米英ともに使うが、entertain someone to lunch、entertain someone to dinner はどちらも英国寄りの型。  
 
 【文法パターン】entertain 〈guests/clients/friends〉＝客・顧客・友人をもてなす／entertain someone to 〈lunch/dinner/a meal〉＝食事でもてなす（英国寄り）／entertain at home＝自宅で客をもてなす／entertain regularly＝日常的に客を迎える。人を明示しない自動詞用法も普通。be entertaining someone は、もてなしの予定や進行中の行為を表せる。受動の someone is entertained (by someone) では客が主語になる。  
 
@@ -403,7 +403,7 @@ retain「保持する」、maintain「維持する」も tenere「保つ」に�
 頻度: 〈6/10〉  
 違い: 大切に守り続ける感情的な愛着を含む。entertain hopes は希望を持つことにとどまり、同程度の愛着を必ず含むわけではない。疑念一般の置き換えには向かない。  
 例: She cherished the hope of returning to the town where she grew up.  
-訳: 彼女は、生まれ育った町に戻るという希望を大切に抱き続けた。  
+訳: 彼女は、育った町に戻るという希望を大切に抱き続けた。  
 
 6. 【名詞：entertaining／不可算】客をもてなすこと
 

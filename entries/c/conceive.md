@@ -3,9 +3,9 @@ headword: conceive
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -242,7 +242,7 @@ tags: []
 ・try to conceive  
 用途: 子どもを望み、妊娠しようとしている状況を表す。  
 例: They had been trying to conceive for a year when they sought medical advice.  
-訳: 二人は1年間妊娠を望んで試みた後、医師に相談した。  
+訳: 二人が医師に相談した時点で、妊娠を目指した取り組みはすでに1年続いていた。  
 
 ・conceive a child  
 用途: もうける子を直接目的語で示す。  

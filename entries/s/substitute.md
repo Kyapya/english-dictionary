@@ -3,9 +3,9 @@ headword: substitute
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -289,7 +289,7 @@ substitutes の語尾は /s/、substituted の -ed は /ɪd/ で1音節増える
 ・a substitute for 〈材料〉  
 用途: 何の代用品かを for で示す。  
 例: The company is developing a plant-based substitute for leather.  
-訳: その会社は植物由来の革の代用品を開発している。  
+訳: その会社は、革に代わる植物由来の素材を開発している。  
 
 ・use something as a substitute for something  
 用途: あるものを代用品として使う。  
@@ -428,7 +428,7 @@ substitutes の語尾は /s/、substituted の -ed は /ɪd/ で1音節増える
 
 【レジスター/領域】化学、特に有機化学の構造・反応の説明。一般の代用品の使用や数学の代入とは、対象と操作が異なる。  
 
-【文法パターン】原子・原子団が対象：substitute 〈入れる原子・原子団〉 for 〈元の原子・原子団〉／substitute 〈元の原子・原子団〉 with・by 〈入れる原子・原子団〉。化合物・環が対象：substitute 〈化合物・環〉 with・by 〈置換基〉／〈化合物・環〉 + be substituted with・by 〈置換基〉。分詞修飾：a substituted compound／a substituted benzene ring＝置換基を持つ化合物・ベンゼン環。  
+【文法パターン】原子・原子団が対象：substitute 〈入れる原子・原子団〉 for 〈元の原子・原子団〉／substitute 〈元の原子・原子団〉 with・by 〈入れる原子・原子団〉。化合物・環が対象：substitute 〈化合物・環〉 with・by 〈置換基〉／〈化合物・環〉 + be substituted with・by 〈置換基〉。分詞修飾：a substituted compound＝置換基を持つ化合物／a substituted benzene ring＝置換基を持つベンゼン環。  
 
 【コロケーション・構文例】
 

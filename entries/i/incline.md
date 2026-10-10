@@ -3,9 +3,9 @@ headword: incline
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -224,7 +224,7 @@ recline「もたれる・背を倒す」と decline「減少する・断る」�
 ・be inclined to agree with someone  
 用途: 議論の相手への同意を控えめに述べる。  
 例: On the question of timing, I'm inclined to agree with the project manager.  
-訳: 時期の問題については、私はプロジェクト責任者の意見に賛成です。  
+訳: 時期の問題については、私はどちらかといえばプロジェクト責任者の意見に賛成です。  
 
 ・would be inclined to say that 〈節〉  
 用途: 判断を求められ、慎重に結論を示す。  
@@ -264,7 +264,7 @@ recline「もたれる・背を倒す」と decline「減少する・断る」�
 
 【レジスター/領域】一般的な描写、道路・地形、運動器具。slope よりやや改まった響きになることがある。  
 
-【文法パターン】a steep/gentle/slight incline＝急な／緩やかな／わずかな傾斜／up/down an incline＝坂を上って・下って／on an incline＝傾斜のある場所で／the incline of something＝その物・面の傾斜。坂を数えると inclines。単数なら冠詞・限定詞を伴う。  
+【文法パターン】a steep incline＝急な傾斜／a gentle incline＝緩やかな傾斜／a slight incline＝わずかな傾斜／up/down an incline＝坂を上って・下って／on an incline＝傾斜のある場所で／the incline of something＝その物・面の傾斜。坂を数えると inclines。単数なら冠詞・限定詞を伴う。  
 
 【コロケーション・構文例】
 
@@ -395,7 +395,7 @@ recline「もたれる・背を倒す」と decline「減少する・断る」�
 
 【レジスター/領域】描写、設計、物理・工学など。専門文脈でも基本の「傾いた」から理解できる。  
 
-【文法パターン】an inclined surface/plane＝傾斜した面・斜面／something is inclined at an angle of 〈数値〉 degrees＝指定の角度で傾いている／something is inclined to the horizontal＝水平面に対して傾いている／a slightly/steeply inclined 〈物・面〉＝わずかに／急に傾斜した物・面。角度や slightly・steeply で傾きを表し、more steeply inclined のように比較する。  
+【文法パターン】an inclined surface/plane＝傾斜した面・斜面／something is inclined at an angle of 〈数値〉 degrees＝指定の角度で傾いている／something is inclined to the horizontal＝水平面に対して傾いている／a slightly inclined 〈物・面〉＝わずかに傾斜した物・面／a steeply inclined 〈物・面〉＝急に傾斜した物・面。角度や slightly・steeply で傾きを表し、more steeply inclined のように比較する。  
 
 【コロケーション・構文例】
 
