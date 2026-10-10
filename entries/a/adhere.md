@@ -3,9 +3,9 @@ headword: adhere
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -153,7 +153,7 @@ tags: []
 ・fail to adhere  
 用途: 付着先を繰り返さず、接着がうまくいかないことを述べる。  
 例: We tested the tape on the plastic housing, but it failed to adhere.  
-訳: プラスチックの外装にそのテープを試しましたが、付きませんでした。  
+訳: プラスチックの外装にそのテープを貼ってみましたが、付きませんでした。  
 
 ・〈粒子など〉 + adhere to something  
 用途: 接着剤を使わない物質の付着を述べる。  

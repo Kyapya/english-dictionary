@@ -3,9 +3,9 @@ headword: contrive
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -140,7 +140,7 @@ contrives /kənˈtraɪvz/、contrived /kənˈtraɪvd/、contriving /kənˈtraɪv
 ・less contrived  
 用途: 修正によって自然さが増したことを比較する。  
 例: Without the explanatory speech, the reconciliation feels less contrived.  
-訳: 説明的なせりふがないほうが、その和解はわざとらしく感じられません。  
+訳: 説明的なせりふがないほうが、その和解のわざとらしさは薄れます。  
 
 【語法・注意】The scene was carefully contrived by the director. は「監督が注意深く仕組んだ」という受動の読みができ、必ずしも失敗作という意味ではない。一方、The scene seemed contrived. は形容詞による「不自然だった」という評価。carefully の有無だけで決まるのではなく、出来事の制作を述べる文脈か、出来栄えを評価する文脈かを読む。動詞 contrive の「工夫して成功する」という好意的な用例から、形容詞を単に「巧妙な」と訳すと批判を落としてしまう。a contrived scene の contrived 自体にハイフンは要らず、単語として綴る。contriving は現在分詞で、形容詞 contrived の「わざとらしい」と自由に交換しない。  
 
@@ -198,7 +198,7 @@ contrives /kənˈtraɪvz/、contrived /kənˈtraɪvd/、contriving /kənˈtraɪv
 ・contrive a plan  
 用途: 工夫を凝らして計画を立てる。  
 例: They contrived a plan to keep the clinic running during the renovation.  
-訳: 彼らは、改装中も診療所の運営を続けられるように計画を工夫しました。  
+訳: 彼らは、改装中も診療所の運営を続けるための計画を考え出しました。  
 
 ・contrive a way to do something  
 用途: 困難を解決する方法を考え出す。  

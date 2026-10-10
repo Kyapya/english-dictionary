@@ -3,9 +3,9 @@ headword: preempt
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-08
-updated_at: 2026-10-08
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -329,7 +329,7 @@ preempt と pre-empt は同じ語の綴りの違い。一般に米国では pree
 ・preempt resources for something  
 用途: 資源を自分側の用途に先取りする。  
 例: The flagship project preempted the available resources for its own expansion.  
-訳: 主力プロジェクトが、自らの拡大のために使える資源を先取りしてしまった。  
+訳: 主力プロジェクトが、利用可能な資源を自らの拡大のために先取りしてしまった。  
 
 ・be preempted by a small group  
 用途: 本来ほかの人も関われる活動が一部に占有される。  
@@ -338,7 +338,7 @@ preempt と pre-empt は同じ語の綴りの違い。一般に米国では pree
 
 【語法・注意】preempt a meeting room のような表現は「先に押さえて他の人に使わせない」という文脈で理解する。通常の中立的な部屋の予約なら reserve・book が基本で、preempt は単なる予約完了以上の含みを持ち得る。  
 
-・preempt a movement は「その運動が起こる前に阻止する」という語義1にも、「既にある運動を占有する」という本義にもなり得る。誰が参加し、誰が主導権を奪ったかなど、文脈で判断する。  
+・preempt a movement は「その運動が起こる前に阻止する」という語義1にも、「既にある運動を占有する」という語義5にもなり得る。誰が参加し、誰が主導権を奪ったかなど、文脈で判断する。  
 ・他者を締め出す響きはあるが、必ず違法取得や盗難を意味するわけではない。土地の preempt には先買権などによる取得の歴史的用法もあり、現代の一般的な土地購入手続きを表す語として流用しない。  
 
 【類義語】
