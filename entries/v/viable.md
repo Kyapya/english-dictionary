@@ -3,9 +3,9 @@ headword: viable
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -24,7 +24,7 @@ tags: []
 ・viability は不可算名詞で「実行可能性、存続可能性、生存・発育能力」。the viability of the project、commercial viability、cell viability のように使う。前二者は計画・事業、最後は細胞の生存性を表す。  
 ・viably は副詞で「成り立つ形で、存続可能な形で」。operate viably のように動詞を修飾するが、形容詞・名詞ほど一般的ではない。  
 ・unviable、nonviable、non-viable は「実行・存続が困難な、生存・発育できない」を表す否定形。nonviable と non-viable は綴りの違いで、どちらも使う。inviable も実在し、特に生物学の文脈で見られる。特定の一形だけを正しい否定形としない。  
-・minimum viable product は「実用上必要な最低限の機能を備え、初期の検証に用いる製品」で、略して MVP。製品開発の用語であり、スポーツの most valuable player「最優秀選手」とは別の展開形。  
+・minimum viable product は「顧客の反応や仮説を検証するために、必要最小限の労力で用意する製品・試作品など」で、略して MVP。製品開発の用語であり、スポーツの most valuable player「最優秀選手」とは別の展開形。  
 
 ＃意味・用法・関連表現
 
@@ -83,7 +83,7 @@ tags: []
 ・be viable for 〈用途・対象〉  
 用途: どの規模・用途について実用になるかを限定する。  
 例: The method is viable for small batches, but we have not tested it at factory scale.  
-訳: その方法は小ロットには実用になるが、工場規模ではまだ試していない。  
+訳: その方法は小ロットなら実用的に使えるが、工場規模ではまだ試していない。  
 
 ・it + be viable for someone to do something  
 用途: ある人・組織にとって、特定の行為が成り立つかを述べる。  
@@ -101,11 +101,11 @@ tags: []
 訳: その提案は、小規模な試験事業を行うに足る実現性がありそうだ。  
 
 ・a minimum viable product  
-用途: 最低限の機能で利用者の反応や製品の着想を検証する。  
+用途: 必要最小限の労力で利用者の反応や製品の着想を検証する。  
 例: We released a minimum viable product with only the booking feature so that we could test demand before building the full service.  
 訳: 本格的なサービスを作る前に需要を確かめるため、予約機能だけを備えた必要最小限の製品を公開した。  
 
-【語法・注意】viable は形容詞。誤: We need to viable the plan. → 正: We need to make the plan viable.／We need to assess the plan's viability.。前者は「成り立つようにする」、後者は「実行可能性を評価する」で、行為が異なる。feasible と viable は大きく重なり、「feasible は作れるだけ、viable は必ず長期的に利益が出る」という固定的な区別はしない。事業の文脈では、feasible が実施の可能性、viable が運営や成功の見込みを強調することはある。commercially／economically／financially はそれぞれ商業・経済・財務の観点を加えるが、実際の評価では範囲が重なる。politically viable は政治的に実現・支持を得る見込みがあるという意味で、採算性の話ではない。a viable candidate は選択・当選の見込みについての評価で、その人の人間的価値を決める表現ではない。plausible「もっともらしい」は説明の信頼性に関わり、a plausible explanation と a viable solution は評価する軸が異なる。viable には more viable、perfectly viable、barely viable などの程度表現があり、「可能か不可能かの二択なので比較できない」とはしない。ただし、どの条件を基準にするかは文脈で示す。viable to do を人に直接つないで We are viable to expand. とせず、It is viable for us to expand. や Expansion is viable. とする。a viable solution to the problem の to は solution に、a viable alternative to driving の to は alternative に結び付く。minimum viable product の viable は「最終品質が完成した」「利益が証明された」という意味ではなく、初期検証に必要な機能を満たすことに関わる。  
+【語法・注意】viable は形容詞。誤: We need to viable the plan. → 正: We need to make the plan viable.／We need to assess the plan's viability.。前者は「成り立つようにする」、後者は「実行可能性を評価する」で、行為が異なる。feasible と viable は大きく重なり、「feasible は作れるだけ、viable は必ず長期的に利益が出る」という固定的な区別はしない。事業の文脈では、feasible が実施の可能性、viable が運営や成功の見込みを強調することはある。commercially／economically／financially はそれぞれ商業・経済・財務の観点を加えるが、実際の評価では範囲が重なる。politically viable は政治的に実現・支持を得る見込みがあるという意味で、採算性の話ではない。a viable candidate は選択・当選の見込みについての評価で、その人の人間的価値を決める表現ではない。plausible「もっともらしい」は説明の信頼性に関わり、a plausible explanation と a viable solution は評価する軸が異なる。viable には more viable、perfectly viable、barely viable などの程度表現があり、「可能か不可能かの二択なので比較できない」とはしない。ただし、どの条件を基準にするかは文脈で示す。viable to do を人に直接つないで We are viable to expand. とせず、It is viable for us to expand. や Expansion is viable. とする。a viable solution to the problem の to は solution に、a viable alternative to driving の to は alternative に結び付く。minimum viable product の viable は「最終品質が完成した」「利益が証明された」という意味ではなく、初期検証に必要な条件を満たすことに関わり、実用機能を実装した製品に限らない。  
 
 【類義語】
 
@@ -175,7 +175,7 @@ tags: []
 
 【レジスター/領域】専門的。生物学、農学、生態学、医学。一般的な「健康な」「元気な」の代わりに人へ気軽に使う語ではない。  
 
-【文法パターン】viable 〈seeds/cells/embryos〉／viable tissue／a viable population of 〈生物の複数形〉／a viable pregnancy／a viable fetus。叙述用法は be viable、remain viable、be no longer viable、keep 〈細胞・組織など〉 + viable。生存の条件は viable under 〈条件〉、viable outside the uterus のように示す。試験では viable／nonviable と分類することが多く、比較したい場合は割合や生存性を具体的に示すと明確。  
+【文法パターン】viable 〈seeds/cells/embryos〉／viable tissue／a viable population of 〈生物の複数形〉／a viable pregnancy／a viable fetus。叙述用法は be viable、remain viable、be no longer viable、keep 〈細胞・組織など〉 + viable。生存の条件は viable under 〈条件〉、viable outside the uterus のように示す。試験では viable と nonviable に分類することが多く、比較したい場合は割合や生存性を具体的に示すと明確。  
 
 【コロケーション・構文例】
 
@@ -239,4 +239,4 @@ tags: []
 頻度: 〈2/10〉  
 違い: 生存・発育能力について viable と反対の状態を表す専門的な語。unviable や nonviable と意味が重なるが、日常の計画評価より生物学で見かけやすい。  
 例: The genetic cross produced inviable embryos that failed to develop.  
-訳: その遺伝的交配では、発育できない胚が生じた。  
+訳: その交配では、発育できない胚が生じた。  
