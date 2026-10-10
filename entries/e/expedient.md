@@ -3,9 +3,9 @@ headword: expedient
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -84,7 +84,7 @@ tags: []
 例: A shared spreadsheet was the most expedient way to collect the replies.  
 訳: 回答を集めるには、共有スプレッドシートが最も実際的な方法だった。  
 
-【語法・注意】find it expedient to do では it が形式目的語で、後ろの to不定詞が判断の対象。find expedient to do のように it を落とさない。It is expedient for us to wait. の for us は待つ人を表し、We are expedient to wait. とはしない。改まった文体の It is expedient that ... では、that節内に動詞原形（仮定法現在）、または should＋原形を使う形がある。expedient は「実行可能」だけをいう feasible、「長期的な危険も考えた賢明さ」をいう prudent、「手間がかからず便利な」をいう convenient と焦点が違う。expedite は動詞で「進行を速める」、expeditious は「手際よく迅速な」。expedient の古い「迅速な」という用法を、現在の基本義として当てはめない。比較表現 more/most expedient は使われ、絶対的な二択の形容詞とは限らない。実利を重んじる点から、文脈によって語義2の批判的な意味が前面に出る。  
+【語法・注意】find it expedient to do では it が形式目的語で、後ろの to不定詞が判断の対象。find expedient to do のように it を落とさない。It is expedient for us to wait. の for us は待つ人を表し、We are expedient to wait. とはしない。改まった文体の It is expedient that ... では、that節内に動詞原形（仮定法現在）、または should＋原形を使う形がある。expedient は「実行可能」だけをいう feasible、「危険や結果を慎重に考えた賢明さ」をいう prudent、「手間がかからず便利な」をいう convenient と焦点が違う。expedite は動詞で「進行を速める」、expeditious は「手際よく迅速な」。expedient の古い「迅速な」という用法を、現在の基本義として当てはめない。比較表現 more/most expedient は使われ、絶対的な二択の形容詞とは限らない。実利を重んじる点から、文脈によって語義2の批判的な意味が前面に出る。  
 
 【類義語】
 

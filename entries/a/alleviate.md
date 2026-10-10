@@ -3,9 +3,9 @@ headword: alleviate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -45,7 +45,7 @@ tags: []
 ・alleviate someone's concerns  
 用途: 説明や対策によって、人の懸念を軽くする。  
 例: Clearer information about the schedule helped alleviate customers' concerns.  
-訳: 日程についての分かりやすい情報が、顧客の懸念を和らげるのに役立った。  
+訳: 日程についてのより分かりやすい情報が、顧客の懸念を和らげるのに役立った。  
 
 ・alleviate the pressure on someone  
 用途: 仕事などで人にかかっている負担を軽減する。  

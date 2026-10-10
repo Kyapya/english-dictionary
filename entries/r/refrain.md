@@ -3,9 +3,9 @@ headword: refrain
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-07
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 checked: true
 tags: []
 ---
@@ -62,7 +62,7 @@ tags: []
 訳: 彼はトレーニング期間中、飲酒を控えることにした。  
 
 ・decide to refrain  
-用途: 直前に示された行為を繰り返さず、控えるという判断を述べる。  
+用途: 文脈で示された行為を控えるという判断を述べる。  
 例: I considered sending another message, but decided to refrain.  
 訳: もう一通メッセージを送ろうかと考えたが、控えることにした。  
 
@@ -118,7 +118,7 @@ tags: []
 
 【レジスター/領域】報道、論説、やや文語的な一般文章。  
 
-【文法パターン】a familiar/common/constant refrain＝繰り返し聞く言葉・主張／the refrain that 〈内容を表す節〉＝ある内容が繰り返されること／the refrain of "〈発言〉"＝引用された決まり文句／a refrain about 〈話題〉＝その話題についての繰り返される訴え／a refrain among 〈人々〉、a refrain from 〈発言者〉＝どの集団で、誰から繰り返されるかを示す。複数形は refrains。  
+【文法パターン】a familiar/common/constant refrain＝繰り返し聞く言葉・主張／the refrain that 〈内容を表す節〉＝～という繰り返される発言・主張／the refrain of "〈発言〉"＝引用された決まり文句／a refrain about 〈話題〉＝その話題についての繰り返される訴え／a refrain among 〈人々〉、a refrain from 〈発言者〉＝どの集団で、誰から繰り返されるかを示す。複数形は refrains。  
 
 【コロケーション・構文例】
 
