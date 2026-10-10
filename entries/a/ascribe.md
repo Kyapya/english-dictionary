@@ -3,9 +3,9 @@ headword: ascribe
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -23,7 +23,7 @@ describe「描写する」、prescribe「規定する・処方する」、subscr
 ＃語形成
 
 ・ascribed：過去形・過去分詞。「～に帰された」の通常の受動・分詞修飾のほか、社会学では「本人の選択や達成によらず与えられた」という形容詞になる。語義4参照。  
-・ascribing：現在分詞・動名詞。「帰すること・帰している」で、独立した一般名詞 ascribe を作る形ではない。  
+・ascribing：現在分詞・動名詞。「帰すること・帰している」を表す。  
 ・ascribable：形容詞。「～に帰することができる」。be ascribable to 〈原因〉が中心で、The difference is ascribable to timing. は「その違いは時期の違いによると考えられる」。be ascribed to は帰属判断を受動で述べ、be ascribable to はそのように判断できることを表す。  
 ・ascription：硬い名詞。「原因・作者・性質の帰属、帰属させる判断」。the ascription of 〈結果・作品・性質〉 to 〈原因・作者・対象〉の形を取る。行為一般は不可算、個別の判断なら an ascription・ascriptions と数える。社会学では本人の達成によらない地位の付与にも使う。  
 

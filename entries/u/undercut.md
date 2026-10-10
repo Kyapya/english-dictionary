@@ -3,9 +3,9 @@ headword: undercut
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -64,7 +64,7 @@ cutback「削減」と cutout「切り抜き・切り抜いたもの」も cut �
 ・be undercut by a rival  
 用途: より安く提供する側ではなく、競争を受ける側を主語にする。  
 例: We were undercut by a rival offering the same service at a lower monthly fee.  
-訳: 同じサービスをより低い月額料金で提供する競合に、価格で下回られた。  
+訳: 競合が同じサービスを当社より低い月額料金で提供していた。  
 
 【語法・注意】undercut a competitor と undercut a competitor's prices は、ともに価格比較を表す。cut our prices は「自社の従来価格を下げる」で、競合を下回ったとは限らない。by ten percent は相手より安い幅であり、価格を元の1割にする意味ではない。be undercut by a rival の by は行為者を示す。undercut は1語の動詞で、誤: under them cut／正: undercut them。通常の過去形は undercut で、undercutted としない。目的語を省く文があっても、具体的な比較相手を示す基本構文では直接目的語を使い、誤: undercut than our rivals／正: undercut our rivals。  
 
@@ -121,14 +121,14 @@ cutback「削減」と cutout「切り抜き・切り抜いたもの」も cut �
 ・undercut efforts to do something  
 用途: 取り組みの効果を弱める原因を述べる。  
 例: Conflicting advice undercut efforts to reassure residents.  
-訳: 助言が食い違い、住民を安心させるための取り組みが十分な効果を上げられなかった。  
+訳: 助言の食い違いが、住民を安心させるための取り組みの効果を弱めた。  
 
 ・undercut someone's ability to do something  
 用途: 行動する力や可能性を損なう。  
 例: The funding reduction undercut the team's ability to respond quickly.  
 訳: 資金削減は、チームが迅速に対応する能力を損なった。  
 
-・be undercut by 〈矛盾する言動〉  
+・be undercut by 〈効果を弱める要素〉  
 用途: ある印象や効果が別の要素によって弱まることを示す。  
 例: The speech's reassuring tone was undercut by the speaker's visible uncertainty.  
 訳: 話し手の目に見える自信のなさが、演説の安心感を与える調子を損ねていた。  

@@ -3,9 +3,9 @@ headword: enlist
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -63,7 +63,7 @@ list「一覧・名簿」、shortlist「最終候補者名簿」と同じ list �
 
 ・enlist the help of someone  
 用途: 協力を得る相手を of の後に示す。  
-例: The museum enlisted the help of local historians to identify the photographs.  
+例: The museum enlisted the help of local historians to establish the provenance of the photographs.  
 訳: 博物館は写真の来歴を特定するため、地元の歴史家たちに協力を仰いだ。  
 
 ・enlist the services of someone  
@@ -156,7 +156,7 @@ list「一覧・名簿」、shortlist「最終候補者名簿」と同じ list �
 ・enlist someone for 〈仕事・計画〉  
 用途: 特定の仕事の協力者として人を確保する。  
 例: The researchers enlisted volunteers for a sleep study.  
-訳: 研究者たちは睡眠研究のために協力者を募った。  
+訳: 研究者たちは睡眠研究のために協力者を集めた。  
 
 ・enlist someone as 〈役割〉  
 用途: 協力してもらう役割を明示する。  
