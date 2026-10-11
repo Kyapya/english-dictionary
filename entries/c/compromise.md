@@ -3,9 +3,9 @@ headword: compromise
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-10
-updated_at: 2026-10-10
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -463,7 +463,7 @@ tags: []
 ・an account has been compromised  
 用途: アカウントが不正に利用できる状態になったことを述べる。  
 例: The alert stated that the account had been compromised after an unauthorized login.  
-訳: その警告には、無断のログインによってアカウントが侵害されたと記されていた。  
+訳: その警告には、無断のログインの後にアカウントが侵害されたと記されていた。  
 
 ・a compromised device  
 用途: 侵害された機器を過去分詞で修飾する。  

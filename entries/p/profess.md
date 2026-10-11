@@ -3,9 +3,9 @@ headword: profess
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-10
-updated_at: 2026-10-10
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -268,7 +268,7 @@ tags: []
 定義: 宗教の教えや儀礼を実際に行う。  
 頻度: 〈6/10〉  
 違い: 信仰の実践を表す。信仰する立場を述べる profess だけでは、実践の程度は分からない。米綴りは practice。  
-例: He is free to practise his religion in private or with others.  
+例: He is free to practise his religion alone or with others.  
 訳: 彼は一人でも他の人々と共にでも、自分の宗教を実践する自由がある。  
 
 4. 【形容詞・主に限定】公言された、自称の〈professed〉
@@ -301,7 +301,7 @@ tags: []
 ・a professed expert  
 用途: 自分に専門知識があると称する人を述べる。  
 例: The interviewer asked the professed expert to explain the evidence behind his advice.  
-訳: 面接担当者は、専門家を自称するその人物に、助言の根拠となる証拠を説明するよう求めた。  
+訳: インタビューの聞き手は、専門家を自称するその人物に、助言の根拠となる証拠を説明するよう求めた。  
 
 【語法・注意】a professed supporter は名詞を修飾する形容詞、She professed her support. は過去形の動詞。Her support was openly professed. は表明する行為の受動態で、形容詞が主に名詞前に来るという説明と矛盾しない。「公言している支持者だ」を She is professed. だけで表すのは避け、She is a professed supporter. とする。become・get・seem の後ろに professed だけを置く形も、この「自称の」という意味の基本用法ではない。古い・硬い用法には「専門としている、熟練した」に近い professed もあり、すべての人名詞との組み合わせを「偽の専門家」とは訳さない。宗教の a professed member「誓願を立てた会員」は語義7。  
 
@@ -412,7 +412,7 @@ tags: []
 
 【レジスター/領域】宗教、修道共同体などの記録・案内。  
 
-【文法パターン】a professed member／newly professed members は人名詞を修飾する限定用法。someone is professed は身分・状態を述べる叙述用法にもなり、become professed はその状態への移行。通常、very professed／more professed のように程度を比較する形容詞ではない。ハイフンは付けない。  
+【文法パターン】a professed member／newly professed members は人名詞を修飾する限定用法。someone is professed は身分・状態を述べる叙述用法にもなり、become professed はその状態への移行。通常、very professed や more professed のように程度を比較する形容詞ではない。ハイフンは付けない。  
 
 【コロケーション・構文例】
 

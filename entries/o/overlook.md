@@ -3,9 +3,9 @@ headword: overlook
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-10
-updated_at: 2026-10-10
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -221,7 +221,7 @@ over と look の結合による語で、中英語から用いられている。
 例: The castle stands on a hill overlooking the town.  
 訳: その城は、町を見下ろす丘の上に立っている。  
 
-【語法・注意】正: The room overlooks the lake.／誤: The room overlooks at the lake. overlook 自体が目的語を取り、at・over を足さない。The balcony overlooks the garden.「バルコニーから庭が見える」と The garden is overlooked by the balcony.「庭はバルコニーから見下ろされる」では主語と視線の方向が逆。Our garden is overlooked. は、外から見通されるというプライバシー上の含みを持つことがあり、「庭からの景色がよい」とは限らない。主語は建物だけに限定されないが、人の一時的な動作には look down at／look out over もよく使う。  
+【語法・注意】正: The room overlooks the lake.／誤: The room overlooks at the lake. overlook 自体が目的語を取り、at・over を足さない。The balcony overlooks the garden.「バルコニーから庭が見える」と The garden is overlooked by the balcony.「庭はバルコニーから見下ろされる」では主語が異なるが、視線の方向はどちらもバルコニーから庭へ向かう。能動文は見る側の場所、受動文は見られる場所を主語にする。Our garden is overlooked. は、外から見通されるというプライバシー上の含みを持つことがあり、「庭からの景色がよい」とは限らない。主語は建物だけに限定されないが、人の一時的な動作には look down at／look out over もよく使う。  
 
 【類義語】
 
@@ -266,7 +266,7 @@ over と look の結合による語で、中英語から用いられている。
 ・overlook someone for a position  
 用途: 選考する側を主語にする。  
 例: The panel overlooked an experienced internal applicant for the position.  
-訳: 選考委員会は、その職について経験豊かな社内応募者を選ばなかった。  
+訳: 選考委員会は、その職の選考で、経験豊かな社内応募者を選ばなかった。  
 
 ・be overlooked in favour of someone else  
 用途: 代わりに誰が選ばれたかを示す。  
@@ -367,7 +367,7 @@ over と look の結合による語で、中英語から用いられている。
 頻度: 〈5/10〉  
 違い: 景観を見る場所だけでなく、監視・警戒のための見張り場にも使える。  
 例: A wooden platform marks the lookout at the top of the hill.  
-訳: 丘の頂上にある見晴らし台には、木製の足場が設けられている。  
+訳: 丘の頂上の展望地点には、目印となる木製の台がある。  
 
 ・vantage point  
 定義: 物事をよく見られる有利な位置。  

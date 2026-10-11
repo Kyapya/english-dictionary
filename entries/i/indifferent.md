@@ -3,9 +3,9 @@ headword: indifferent
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-10
-updated_at: 2026-10-10
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -85,7 +85,7 @@ tags: []
 頻度: 〈5/10〉  
 違い: indifferent よりも、広い範囲で反応や意欲が失われている状態を強調しやすい。  
 例: Repeated broken promises left the voters apathetic.  
-訳: 公約が何度も破られ、有権者は政治に無気力になっていた。  
+訳: 公約が何度も破られ、有権者の政治への関心や意欲は乏しかった。  
 
 ・unconcerned  
 定義: 心配や気遣いを示さない。  
@@ -147,7 +147,7 @@ tags: []
 ・be quite indifferent  
 用途: 文脈で示された選択について、自分には特に希望がないと述べる。  
 例: When asked to choose a color for the folders, I was quite indifferent.  
-訳: フォルダーの色を選ぶよう言われたが、私は特にどの色でもよかった。  
+訳: フォルダーの色を選ぶよう言われたが、私はどの色でもよかった。  
 
 【語法・注意】語義1の「関心がない」と連続する意味だが、選択肢を等しく評価することと、問題を気にかけないことは同一ではない。indifferent between A and B は A と B を比較する構文であり、indifferent to A and B「A にも B にも無関心」とは焦点が違う。ambivalent は典型的には相反する気持ちを抱くことなので、「どちらにもこだわらない」の単純な置き換えにはならない。日常の返事なら Either is fine.「どちらでも大丈夫です」のほうが、協力的な意図を伝えやすい。I'm indifferent. は状況によってそっけなく響く。  
 
