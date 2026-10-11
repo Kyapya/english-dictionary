@@ -1,0 +1,422 @@
+---
+headword: receipt
+type: word
+status: checked
+prompt_version: entry_spec_v5
+model: gpt-6-astra xhigh
+created_at: 2026-10-12
+updated_at: 2026-10-12
+checked: true
+tags: []
+---
+
+＃発音記号
+
+米・英: /rɪˈsiːt/  
+2音節で、第2音節に主強勢を置く。p は発音せず、第2音節は /siːt/。receipts は /rɪˈsiːts/。低頻度の動詞の過去形 receipted は /rɪˈsiː.tɪd/ で3音節になる。recipe「料理の作り方」とは綴りも発音も異なる。  
+
+＃語源
+
+中英語 receite、アングロフランス語の形を経て、中世ラテン語 recepta とラテン語 recipere「受け取る」の系統につながる。綴りの p はラテン語との関係を反映して加わったが、現代の発音には現れない。  
+
+同系語には receive「受け取る」、reception「受け入れ、受付」、recipient「受取人」、recipe「料理の作り方」がある。receipt に残る古い「調理法」の意味は、現代のレシートから作り方を推測するより、recipe と共有する歴史として覚える。  
+
+＃語形成
+
+・receipts：名詞の複数形。複数の領収書だけでなく、「収入額」「証拠」を表す定着した用法がある。  
+・receipted：動詞 receipt の過去形・過去分詞。a receipted bill は「領収済みと記された請求書」で、単に届いた請求書ではない。  
+・receipt book：複合名詞。現在の商業文脈では通常「領収書綴り」。古い料理文献では「料理法の本」の意味もあるため、時代・内容を確認する。  
+・read receipt：複合名詞。電子メールなどの「開封通知」。この複合語の read は /riːd/ とする辞書発音があり、過去分詞だから必ず /red/ と決めつけない。receipt の p はここでも発音しない。  
+・non-receipt：不可算名詞。「未受領、不着」。事務的な表現で、non-receipt of goods は商品の未受領を表す。  
+
+＃コアイメージ
+
+受け取ることと、その事実を確認できる記録が中心にある。記録という面から、口語では受け取りに限らない出来事の証拠にも広がる。語義8は歴史的残存義で、調理の指示という現在の意味はこの受領・記録の核から導けないため、個別に参照する。  
+
+・受け取りを確認できる記録 → 「領収書、受領証」（語義1）  
+
+・受け取りという行為・状態 → 「受領、受け取ること」（語義2）  
+
+・受け取りによって入った金額 → 「収入額、入金額」（語義3）  
+
+・受取証のように事実を確認できる記録 → 「証拠、裏付け」（語義4）  
+
+・受け取りを証明する記録の作成 → 「受領を記録する、受領証を出す」（語義5）  
+
+・受け取りを証明する書類の発行 → 「受領証を発行する」（語義6）  
+
+・代金の受け取りを書類に示す処理 → 「領収済みと記す」（語義7）  
+
+＃意味・用法・関連表現
+
+1. 【名詞・可算】領収書、受領証
+
+【日本語訳・定義】金銭・商品・情報などを受け取った事実を示す書面や電子的な記録。買い物では代金の支払いを示す「領収書、レシート」が中心だが、品物の受領証や電子メールの開封通知も含む。  
+
+【頻度】〈9/10〉  
+
+【レジスター/領域】一般・商取引・事務・電子通信。  
+
+【文法パターン】a receipt for 〈購入品・支払額など〉＝何について／いくらの領収書か／give/issue someone a receipt＝相手に領収書を渡す・発行する／ask for/get/keep a receipt＝領収書を求める・受け取る・保管する／a receipt from 〈店・発行者〉＝その発行者の領収書／a paper receipt＝紙の領収書／an electronic receipt＝電子の領収書／a delivery/read receipt＝配達受領証／開封通知。  
+
+【コロケーション・構文例】
+
+・ask for a receipt  
+用途: 支払いを示す書類を求める。  
+例: I asked for a receipt so that I could claim the travel expense.  
+訳: 旅費を精算できるよう、領収書を求めた。  
+
+・give someone a receipt for something  
+用途: 何の代金の領収書かを示す。  
+例: The receptionist gave me a receipt for the room deposit.  
+訳: 受付係は客室の予約金の領収書を私に渡した。  
+
+・keep the receipt  
+用途: 購入の証明として保管する。  
+例: Keep the receipt in case you need to return the headphones.  
+訳: ヘッドホンを返品する必要がある場合に備えて、レシートを保管しておいてください。  
+
+・a receipt for 〈金額〉  
+用途: 領収された金額を示す。  
+例: The charity emailed me a receipt for my 50-dollar donation.  
+訳: 慈善団体は私の50ドルの寄付に対する領収書をメールで送ってきた。  
+
+・an electronic receipt  
+用途: 紙ではない形式の領収書を示す。  
+例: An electronic receipt will appear in your account after payment.  
+訳: 支払い後、アカウントに電子領収書が表示される。  
+
+・a delivery receipt  
+用途: 物品を受け取った事実を記録する書類を指す。  
+例: The warehouse manager signed the delivery receipt after counting the boxes.  
+訳: 倉庫管理者は箱を数えた後、配達受領証に署名した。  
+
+・a read receipt  
+用途: メッセージが開かれたことを知らせる通知を指す。  
+例: The email program asked whether I wanted to send a read receipt.  
+訳: メールソフトは、開封通知を送るかどうかを私に尋ねた。  
+
+【語法・注意】1枚なら a receipt、複数なら receipts とする。a receipt for payment は支払いを証明する書類で、語義2の receipt of payment は「代金を受け取ること」。receipt を常に紙のレシートに限定しない。invoice は主に代金の請求、receipt は受領の証明で、発行目的が異なる。delivery receipt は受領記録であり、それだけで商品の品質に異議がないことや売買代金が支払済みであることまでは意味しない。read receipt も、通知が示す開封等と、内容を理解したことや賛同したことを同一視しない。  
+
+【類義語】
+
+・sales slip  
+定義: 商品購入時に渡される売上・支払いの記録票。  
+頻度: 〈5/10〉  
+違い: 主に米語で、店頭の購入記録に範囲が狭い。商品や情報全般の受領証を意味するとは限らない。  
+例: She attached the sales slip to the expense form.  
+訳: 彼女は売上票を経費申請書に添付した。  
+
+・acknowledgment  
+定義: 文書・品物・支払いなどを受け取ったことを知らせる確認。  
+頻度: 〈6/10〉  
+違い: 礼状・確認メールなども含み、金額や購入明細を備えた領収書とは限らない。英綴り acknowledgement もある。  
+例: We received an acknowledgment of our application by email.  
+訳: 申請の受領確認がメールで届いた。  
+
+・voucher  
+定義: 取引や支出の根拠となる証憑・伝票。  
+頻度: 〈5/10〉  
+違い: 経理上の証拠書類という義では重なるが、支払いの受領証に限らない。クーポン・金券の意味では receipt と異なる。  
+例: Each expense must be supported by an appropriate voucher.  
+訳: 各経費には適切な証憑が必要である。  
+
+2. 【名詞・不可算】受領、受け取ること
+
+【日本語訳・定義】金銭・商品・書類・通知などを受け取る行為、または受け取っている状態。物としての領収書ではなく、受領という出来事や状態を表す。  
+
+【頻度】〈7/10〉  
+
+【レジスター/領域】フォーマル・ビジネス・事務。日常会話では receiving や get を用いた節が多い。  
+
+【文法パターン】receipt of something＝何かの受領／on/upon receipt of something＝何かを受け取り次第・受領時に／acknowledge/confirm receipt of something＝受領したことを認める・確認する／be in receipt of something＝何かを受け取っている／within 〈期間〉 of receipt＝受領からその期間以内に／date of receipt＝受領日。  
+
+【コロケーション・構文例】
+
+・on receipt of payment  
+用途: 代金の受領を実施条件にする。  
+例: We will release the files on receipt of payment.  
+訳: 代金を受領次第、ファイルを提供する。  
+
+・upon receipt of something  
+用途: 書類などを受け取った時点を示す。  
+例: Upon receipt of the signed agreement, we will arrange the first session.  
+訳: 署名済みの合意書を受領次第、初回のセッションを手配する。  
+
+・acknowledge receipt of something  
+用途: 届いたことを正式に知らせる。  
+例: Please acknowledge receipt of this message.  
+訳: このメッセージを受領したことをお知らせください。  
+
+・confirm receipt of something  
+用途: 相手が受け取ったかを確かめる。  
+例: Could you confirm receipt of the replacement parts?  
+訳: 交換部品を受け取ったか確認していただけますか。  
+
+・be in receipt of something  
+用途: 給付等を受け取っている状態を事務的に述べる。  
+例: Applicants must state whether they are in receipt of any other financial assistance.  
+訳: 申請者は、ほかの金銭的援助を受けているかどうかを記載しなければならない。  
+
+・within 〈期間〉 of receipt  
+用途: 受領時点を起点として期限を定める。  
+例: Please report any missing items within five days of receipt.  
+訳: 不足品があれば、受領から5日以内に報告してください。  
+
+・the date of receipt  
+用途: 発送日ではなく受領日を指定する。  
+例: The clerk recorded the date of receipt on the application.  
+訳: 事務員は申請書に受領日を記録した。  
+
+【語法・注意】この義は不可算で、on receipt of the goods とし、通常 on a receipt of the goods とはしない。受領証1枚なら a receipt for the goods と構造も意味も変わる。acknowledge receipt は「受け取ったと認める」であり、内容に同意・承認したとは限らない。on/upon receipt は受領時・受領後の迅速な対応を表す定型句だが、秒単位の即時処理を語だけで保証するわけではない。be in receipt of は硬い表現で、単純な I received your email. をいつも I am in receipt of your email. にする必要はない。  
+
+【類義語】
+
+・receiving  
+定義: 物や情報などを受け取ること。  
+頻度: 〈9/10〉  
+違い: 動詞 receive の -ing 形で、動作として述べやすい。receipt of the goods に対して receiving the goods と直接目的語を取る。  
+例: After receiving the documents, we checked the signatures.  
+訳: 書類を受け取った後、署名を確認した。  
+
+・delivery  
+定義: 物品・書類などを受取先へ届けること。  
+頻度: 〈8/10〉  
+違い: 同じ受け渡しの出来事に関わるが、送り届ける側・到達を中心に表す。受領確認という意味そのものではない。  
+例: Delivery of the equipment is expected on Tuesday.  
+訳: 機器は火曜日に届く予定である。  
+
+3. 【名詞・複数形 receipts】収入額、入金額
+
+【日本語訳・定義】企業・政府・施設などが一定期間に受け取った金銭の額。売上金、税収、興行収入などを表す。費用を差し引いた利益と同じではなく、文脈によっては会計上の収益認識の額とも異なる。  
+
+【頻度】〈6/10〉  
+
+【レジスター/領域】ビジネス・会計・経済報道。通常は複数形。  
+
+【文法パターン】cash/sales/tax receipts＝現金収入・売上収入・税収／box-office/gate receipts＝興行収入・入場料収入／gross/net receipts＝総収入・所定の控除後の収入／receipts from 〈収入源〉＝その収入源からの入金額／receipts for 〈期間〉＝その期間の収入／receipts rise/fall＝収入額が増える・減る。  
+
+【コロケーション・構文例】
+
+・tax receipts  
+用途: 政府が受け取る税収を述べる。  
+例: Tax receipts rose despite the slowdown in economic growth.  
+訳: 経済成長の減速にもかかわらず、税収は増加した。  
+
+・box-office receipts  
+用途: 映画・演劇などの興行収入を示す。  
+例: The film's opening-weekend box-office receipts exceeded expectations.  
+訳: その映画の公開初週末の興行収入は予想を上回った。  
+
+・cash receipts  
+用途: 現金の流入額を示す。  
+例: The report compares cash receipts with cash payments for the quarter.  
+訳: その報告書は四半期の現金収入と現金支出を比較している。  
+
+・receipts from 〈収入源〉  
+用途: どこから入金があったかを示す。  
+例: Receipts from ticket sales covered the cost of hiring the venue.  
+訳: チケット販売による収入で、会場を借りる費用を賄えた。  
+
+・gross receipts  
+用途: 控除前の総収入額を示す。  
+例: The shop's gross receipts increased, but higher costs reduced its profit.  
+訳: その店の総収入は増加したが、費用の増加で利益は減った。  
+
+【語法・注意】Receipts were higher. のように通常は複数扱いにする。「領収書が増えた」のか「収入が増えた」のかは金額・売上・税などの文脈で見分ける。receipts は「受け取ったもの」という広い用法を持ち、図書館の new receipts のように受入資料を指すこともあるが、一般的な経済記事では受け取った金額が中心。net receipts の控除項目は文書によって異なり、必ず純利益と等しいとはいえない。支出を差し引いた利益なら profit と明示する。  
+
+【類義語】
+
+・revenue  
+定義: 事業活動や税などから得る収益・収入。  
+頻度: 〈8/10〉  
+違い: 日常的な経済説明では重なるが、会計では認識された収益を表し、現金を実際に受け取る時点と一致しないことがある。  
+例: Subscription revenue grew steadily during the year.  
+訳: 年間を通じて、定期購読による収益は着実に増加した。  
+
+・income  
+定義: 個人・組織に入る所得・収入。  
+頻度: 〈9/10〉  
+違い: 給与・利子などにも広い。会計上の income は文脈によって利益寄りにもなり、receipts と数字を無条件に同一視できない。  
+例: Rental income helps cover the maintenance costs.  
+訳: 賃貸収入は維持費を賄う助けになる。  
+
+・takings  
+定義: 店や興行などが営業で受け取った売上金。  
+頻度: 〈5/10〉  
+違い: 主に英国系の英語で、商店・興行のある日の売上などに多い。税収などへの適用は receipts より狭い。  
+例: Saturday's takings were the highest of the month.  
+訳: 土曜日の売上金は、その月で最も多かった。  
+
+4. 【名詞・主に複数形 receipts】証拠、裏付け
+
+【日本語訳・定義】発言・行動・取引などについて、実際に起きたことを示す記録や証拠。スクリーンショット、メッセージ、録音などを指し、買い物の領収書である必要はない。単なる主張に対して証拠を示すという含みがよくある。  
+
+【頻度】〈5/10〉  
+
+【レジスター/領域】くだけた表現・インターネット・芸能や政治をめぐる会話。特に米語で発達した用法。  
+
+【文法パターン】have the receipts＝裏付ける証拠を持っている／show/bring the receipts＝証拠を示す・持ち出す／receipts to prove 〈節など〉＝何かを証明する記録。  
+
+【コロケーション・構文例】
+
+・have the receipts  
+用途: 口頭の主張だけでなく記録があることを強調する。  
+例: She says she warned them in March, and she has the receipts: three dated emails.  
+訳: 彼女は3月に彼らへ警告したと言っており、その証拠も持っている。日付入りのメール3通だ。  
+
+・show the receipts  
+用途: 相手の主張を裏付ける記録の提示を求める。  
+例: If he really promised a refund, show the receipts.  
+訳: 彼が本当に返金を約束したのなら、証拠を見せて。  
+
+・bring the receipts  
+用途: 証拠をそろえて議論に持ち込むことを述べる。  
+例: The blogger brought the receipts, including screenshots of the deleted posts.  
+訳: そのブロガーは、削除された投稿のスクリーンショットを含む証拠を提示した。  
+
+【語法・注意】典型的には the receipts と複数形で用いるが、実際の領収書の束とは限らない。反論・暴露・自分の主張の正当化などの響きがあり、正式な法律文書では evidence、documents などを具体的に選ぶ。records やスクリーンショットを receipts と呼んだだけで、その真正さや証明力が保証されるわけではない。語義1の経費提出なら receipts は文字どおりの領収書と解釈する。  
+
+【類義語】
+
+・evidence  
+定義: 主張や事実を裏付ける情報・資料。  
+頻度: 〈9/10〉  
+違い: 中立的で範囲が広く、通常は不可算。口語的な「証拠を出せ」という receipts の調子は必須でない。  
+例: The messages provide evidence that the deadline was changed.  
+訳: そのメッセージは、締め切りが変更されたことの証拠になる。  
+
+・proof  
+定義: 何かが真実であることを示す十分な証拠。  
+頻度: 〈9/10〉  
+違い: 日常語では重なるが、一般に evidence より確実な裏付けという響きがある。通常は不可算。  
+例: Do you have proof that the payment was made?  
+訳: 支払いが行われた証拠はありますか。  
+
+5. 【動詞・他動詞】受領を記録する、受領証を出す
+
+【日本語訳・定義】受け取った金銭・品物などについて、受領証を発行したり、受領したことを書面・システム上で記録したりする。単に手元へ届くことを表す receive とは異なる。  
+
+【頻度】〈3/10〉  
+
+【レジスター/領域】事務・経理・物流。受領証を出す用法は特に米語。日常会話ではまれ。  
+
+【文法パターン】receipt 〈支払い・物品〉＝受領証を発行する・受領を記録する／〈支払い・物品〉 be receipted＝受領の記録がなされる。  
+
+【コロケーション・構文例】
+
+・receipt a payment  
+用途: 受領した支払いを記録し、証明する。  
+例: The cashier receipted the payment and gave the customer a copy.  
+訳: 出納係は支払いの受領証を作成し、顧客に控えを渡した。  
+
+・be receipted  
+用途: 入荷・受領が記録処理されたことを示す。  
+例: All incoming goods must be receipted in the inventory system before they are moved to storage.  
+訳: 入荷品はすべて、保管場所へ移す前に在庫システムで受領登録しなければならない。  
+
+【語法・注意】We received the goods. は「商品を受け取った」、We receipted the goods. は事務・物流上「商品の受領を記録した」で、同一の動作とは限らない。receipted goods を単に received goods の綴り違いだと考えない。基本的な文書では record the receipt of the goods と書けば処理内容が明確になる。語義7の receipt a bill は書類に支払済みの印を付ける用法で、目的語が異なる。  
+
+【類義語】
+
+・acknowledge  
+定義: 物や支払いを受け取ったことを知らせる・認める。  
+頻度: 〈7/10〉  
+違い: この受領確認の意味では近いが、必ず領収書を作るとは限らず、メールや口頭の確認にも使う。  
+例: The office acknowledged the payment in writing.  
+訳: 事務所は支払いの受領を書面で確認した。  
+
+6. 【動詞・自動詞】受領証を発行する
+
+【日本語訳・定義】金銭・物品などの受領に対して受領証を出す。対象を直接目的語にせず、必要なら for で何に対する証明かを補う低頻度の用法。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】主に米語・事務的・まれ。  
+
+【文法パターン】receipt＝受領証を出す／receipt for 〈受領した金銭・物品〉＝その受領について証明書を出す。  
+
+【コロケーション・構文例】
+
+・receipt for 〈受領した物品〉  
+用途: 受領証の対象を for で示す。  
+例: The clerk receipted for the parcels delivered to the depot.  
+訳: 事務員は配送拠点に届けられた小包の受領証を発行した。  
+
+【語法・注意】この for は低頻度の自動詞用法の補語で、receive for を一般的な「受け取る」に使えるという意味ではない。現在の通常の文章では issue a receipt for the parcels と明示するほうが分かりやすい。語義5の receipt the parcels は直接目的語を取る他動詞であり、自動詞と混同しない。  
+
+【類義語】
+
+・issue a receipt  
+定義: 受領を示す証明書を発行する。  
+頻度: 〈6/10〉  
+違い: receipt のこのまれな動詞義より透明な普通の表現で、対象は for で続けられる。  
+例: The office will issue a receipt for every payment.  
+訳: 事務所はすべての支払いについて領収書を発行する。  
+
+7. 【動詞・他動詞】領収済みと記す
+
+【日本語訳・定義】請求書・勘定書などに、代金を受け取ったことを示す記入や印を施す。請求書を受け取ることでも、新たに代金を請求することでもない。  
+
+【頻度】〈3/10〉  
+
+【レジスター/領域】事務・経理。特に receipted bill や receipted invoice の形で見られる。  
+
+【文法パターン】receipt a bill/an invoice＝請求書に領収済みと記す／a receipted bill/invoice＝領収済みと記された請求書／〈請求書〉 be receipted＝領収済みの記入がされる。  
+
+【コロケーション・構文例】
+
+・receipt an invoice  
+用途: 支払い後の記入処理を述べる。  
+例: After receiving the transfer, the supplier receipted the invoice and returned a copy.  
+訳: 送金を受け取った後、仕入先は請求書に領収済みと記し、控えを返した。  
+
+・a receipted bill  
+用途: 支払いを済ませた証拠となる請求書を指す。  
+例: Please attach a receipted bill as evidence that the repairs have been paid for.  
+訳: 修理代を支払った証拠として、領収済みの請求書を添付してください。  
+
+【語法・注意】a receipted invoice の receipted はこの動詞からの過去分詞で、a received invoice「受け取った請求書」と区別する。receipted という語だけを「請求済み」と訳すと、invoice と支払い確認の段階を取り違える。どの書類が手続き上有効かは制度・契約によるため、この英語表現だけで税務上の適格性を判断しない。  
+
+【類義語】
+
+・mark as paid  
+定義: 書類や取引記録に支払い済みの表示を付ける。  
+頻度: 〈6/10〉  
+違い: 同じ処理を明示的に述べる表現で、紙の請求書だけでなくデータ上の状態変更にも使える。  
+例: The accountant marked the bill as paid.  
+訳: 会計担当者はその請求書を支払済みとして記録した。  
+
+8. 【名詞・可算】料理の作り方、調理法
+
+【日本語訳・定義】料理の材料や作り方を記したもの。現在の一般的な recipe に相当する古い用法で、歴史的な料理書や古風な表現に残る。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】古風・歴史的な料理文献。現代の通常の料理説明では recipe。  
+
+【文法パターン】a receipt for 〈料理〉＝その料理の調理法／an old receipt＝古い調理法／a book of receipts＝調理法を集めた本。  
+
+【コロケーション・構文例】
+
+・an old receipt for 〈料理〉  
+用途: 古い料理文献にある作り方を指す。  
+例: The nineteenth-century notebook contains an old receipt for plum pudding.  
+訳: その19世紀の手帳には、プラムプディングの古い作り方が載っている。  
+
+・a book of receipts  
+用途: 歴史的な料理法の集成を指す。  
+例: The historian studied a household book of receipts for soups and preserves.  
+訳: その歴史家は、スープや保存食の作り方を集めた家庭の調理帳を研究した。  
+
+【語法・注意】a receipt for soup は、現代のレストランならスープ代の領収書とも読める。この古風な語義を説明するには、古い料理書・材料・調理手順などの文脈が必要。自分で現在のレシピを書く際には recipe を使い、receipt の誤綴りで代用しない。  
+
+【類義語】
+
+・recipe  
+定義: 料理に必要な材料と作り方を示す説明。  
+頻度: 〈9/10〉  
+違い: この意味の現代の標準的な語。receipt のような古風な響きはない。  
+例: This recipe uses fresh ginger instead of ground ginger.  
+訳: このレシピでは、粉末のショウガの代わりに生のショウガを使う。  
+
