@@ -51,7 +51,7 @@ chacier は現代英語の chase「追いかける」につながり、catch「�
 
 【レジスター/領域】一般・ビジネス・商取引。会話の buy に比べて事務的・フォーマル。  
 
-【文法パターン】purchase something＝何かを買う／purchase something from someone＝売り手から買う／purchase something for 〈金額〉＝その価格で買う／purchase something for someone＝人のために買う／purchase something at 〈価格・割引率など〉＝その条件で買う／〈商品など〉 be purchased＝購入される／purchase online＝オンラインで買う。最後の形などでは、購入対象が一般的・明白な場合に直接目的語を置かない。  
+【文法パターン】purchase something＝何かを買う／purchase something from someone＝売り手から買う／purchase something for 〈金額〉＝その価格で買う／purchase something for someone＝人のために買う／purchase something at 〈価格・割引率など〉＝その条件で買う／〈商品など〉 be purchased＝購入される／〈金額〉 + purchase + 〈商品・サービス〉＝その金額で買える／purchase online＝オンラインで買う。最後の形などでは、購入対象が一般的・明白な場合に直接目的語を置かない。  
 
 【コロケーション・構文例】
 
@@ -85,7 +85,7 @@ chacier は現代英語の chase「追いかける」につながり、catch「�
 例: Customers who purchase online can collect their orders at the store.  
 訳: オンラインで購入する顧客は、注文品を店舗で受け取ることができる。  
 
-・〈金額〉 purchase 〈商品・サービス〉  
+・〈金額〉 + purchase + 〈商品・サービス〉  
 用途: 金額を主語として、その金額で買えるものを示す。  
 例: Fifty dollars purchases a one-year membership.  
 訳: 50ドルで1年間の会員資格を購入できる。  
@@ -301,7 +301,7 @@ chacier は現代英語の chase「追いかける」につながり、catch「�
 頻度: 〈8/10〉  
 違い: purchase より一般的で、握る動作や接地の強さを直接表す。purchase は力を掛けられる有効な位置・掛かりも意識させる。  
 例: These soles provide a good grip on wet stone.  
-訳: この靴底は、濡れた石の上でもしっかり踏ん張れる。  
+訳: この靴底なら、濡れた石の上でもしっかり踏ん張れる。  
 
 ・foothold  
 定義: 足を置いて体を支えられる場所、または活動の足掛かり。  
@@ -362,7 +362,7 @@ chacier は現代英語の chase「追いかける」につながり、catch「�
 例: The campaign won greater freedom for the community.  
 訳: その運動によって、地域社会はより大きな自由を獲得した。  
 
-6. 【名詞・不可算／他動詞・法律】法定の相続によらない不動産取得、相続以外の方法で取得する
+6. 【名詞・不可算／他動詞・法律】法定の相続によらない不動産取得、descent（法定の相続による承継）以外の方法で取得する
 
 【日本語訳・定義】英米法系の伝統的な不動産法の語彙では、descent「法定の相続による承継」と対比して、それ以外の方法による不動産・権利の取得を purchase と呼ぶ。動詞ではそのように取得すること。売買だけを意味する日常語義より広く、金銭の支払いを必須としない専門的な用法である。  
 
@@ -370,7 +370,7 @@ chacier は現代英語の chase「追いかける」につながり、catch「�
 
 【レジスター/領域】法律専門語、特に伝統的な不動産法の説明。現代のすべての法律文書で同じ範囲になるとは限らない。  
 
-【文法パターン】名詞：acquire title by purchase＝相続以外の方法によって権原を取得する／purchase as opposed to descent＝法定の相続と対比した取得。動詞：purchase 〈不動産・権原〉＝この専門的な意味で取得する。いずれも文書内の定義と対比で読み分ける。  
+【文法パターン】名詞：acquire title by purchase＝descent（法定の相続による承継）以外の方法によって権原を取得する／purchase as opposed to descent＝法定の相続と対比した取得。動詞：purchase 〈不動産・権原〉＝この専門的な意味で取得する。いずれも文書内の定義と対比で読み分ける。  
 
 【コロケーション・構文例】
 
@@ -384,7 +384,7 @@ chacier は現代英語の chase「追いかける」につながり、catch「�
 例: In the treatise, a recipient may be said to purchase land even when the land is given as a gift.  
 訳: その法律書では、贈与で土地を受け取る場合でも、受贈者が土地を purchase すると表現されることがある。  
 
-【語法・注意】この意味の purchase を一律に「購入」と訳すと、贈与などで代金がない場合に誤訳になる。descent はここでは法律に基づく相続による承継を指すので、日本語の「相続」という日常語の範囲だけで対応させない。条文・契約ごとに purchase の定義が置かれる場合があり、語の辞書的説明だけから個別の権利移転や税務上の扱いを判断しない。機械・揚重の purchase とも別の専門領域である。  
+【語法・注意】この意味の purchase を一律に「購入」と訳すと、贈与などで代金がない場合に誤訳になる。descent はここでは法の作用による相続人への承継を指すので、日本語の「相続」という日常語の範囲だけで対応させない。遺言による取得でも purchase に分類される場合がある。条文・契約ごとに purchase の定義が置かれる場合があり、語の辞書的説明だけから個別の権利移転や税務上の扱いを判断しない。機械・揚重の purchase とも別の専門領域である。  
 
 【類義語】
 
@@ -398,7 +398,7 @@ chacier は現代英語の chase「追いかける」につながり、catch「�
 【反意語】
 
 ・descent  
-定義: 相続法に従って不動産や権利が相続人へ承継されること。  
+定義: 法の作用により、被相続人の不動産や権利が相続人へ承継されること。  
 頻度: 〈2/10〉  
 違い: この伝統的な取得方法の分類で、purchase と descent は対比される。日常的な売買の反対語ではなく、法的な取得根拠の対立。  
 例: The treatise distinguishes title by descent from title by purchase.  

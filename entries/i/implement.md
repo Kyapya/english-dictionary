@@ -212,7 +212,7 @@ tags: []
 ・an implement for 〈-ing〉  
 用途: 道具の用途を説明する。  
 例: This wooden implement is for pressing patterns into soft clay.  
-訳: この木製の道具は、柔らかい粘土に模様を押し付けるためのものだ。  
+訳: この木製の道具は、柔らかい粘土に押し当てて模様を付けるためのものだ。  
 
 【語法・注意】可算なので1点なら an implement、複数なら implements。equipment は通常不可算だが、implement は数えられる。名詞の第3音節は /mənt/。They implement the plan. の implement は動詞、They bought new implements. の implements は複数名詞である。農業用の implement はトラクターなどに取り付ける作業器具にも使うので、一律に「手持ちの道具」と限定しない。抽象的な「手段」は語義4。  
 

@@ -222,7 +222,7 @@ tags: []
 ・allocate blame to someone  
 用途: 責任を帰される人・組織を示す。  
 例: It would be unfair to allocate all the blame to the junior staff.  
-訳: 責任をすべて若手職員に帰すのは、公平ではないだろう。  
+訳: 責任をすべて職位の低い職員に帰すのは、公平ではないだろう。  
 
 ・allocate blame among 〈関係者〉  
 用途: 複数の関係者に責任を振り分ける。  

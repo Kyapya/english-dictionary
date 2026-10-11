@@ -416,7 +416,7 @@ tags: []
 ・renewed interest in something  
 用途: いったん弱まった関心が再び高まったことを示す。  
 例: The exhibition sparked renewed interest in the artist's early work.  
-訳: その展覧会は、その画家の初期作品への関心を再び呼び起こした。  
+訳: その展覧会は、その芸術家の初期作品への関心を再び呼び起こした。  
 
 ・with renewed enthusiasm  
 用途: 新たな意欲で取り組む様子を示す。  
