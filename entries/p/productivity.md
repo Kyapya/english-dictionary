@@ -119,7 +119,7 @@ productive「生産的な・実りの多い」に、性質・状態を名詞に�
 頻度: 〈3/10〉  
 違い: 成果を生む性質そのものを述べる語で、定量的な経済指標には productivity が定着している。創作や議論の実りについても使える。  
 例: The historian commented on the remarkable productiveness of the writer's final years.  
-訳: その歴史家は、その作家の晩年が驚くほど多作だったことに言及した。  
+訳: その歴史家は、その作家が晩年に驚くほど多作だったことに言及した。  
 
 2. 【名詞・通常不可算】生物生産力・生物生産速度
 

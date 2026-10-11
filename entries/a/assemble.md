@@ -237,7 +237,7 @@ tags: []
 例: A crowd assembled in front of the station.  
 訳: 駅前に群衆が集まった。  
 
-【語法・注意】自動詞なので、場所を直接目的語にして assemble the lobby「ロビーに集まる」とはしない。assemble in the lobby とする。他動詞の assemble the visitors「訪問者を集める」と区別する。The visitors assembled. は能動の集合、The visitors were assembled by the guide. はガイドが集めた受動で、動作主の情報が異なる。We are assembled here. は集まっている状態としても読める。通常の現在の予定なら We will assemble here.。together を添えることもあるが、集合という意味は assemble だけで含む。  
+【語法・注意】自動詞なので、場所を直接目的語にして assemble the lobby「ロビーに集まる」とはしない。assemble in the lobby とする。他動詞の assemble the visitors「訪問者を集める」と区別する。The visitors assembled. は能動の集合、The visitors were assembled by the guide. はガイドが集めた受動で、動作主の情報が異なる。We are assembled here. は集まっている状態としても読める。これから集合する予定を述べるなら、We will assemble here. とする。together を添えることもあるが、集合という意味は assemble だけで含む。  
 
 【類義語】
 
