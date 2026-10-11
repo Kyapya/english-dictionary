@@ -160,4 +160,4 @@ tags: []
 頻度: 〈3/10〉  
 違い: この専門用法では cargo に近いが、設計された薬物送達系で、機能を発揮させるために載せる中身という捉え方が強い。  
 例: The nanoparticles released their RNA payload inside the cells.  
-訳: そのナノ粒子は細胞内で搭載していたRNAを放出しました。  
+訳: そのナノ粒子は搭載していたRNAを細胞内で放出しました。  

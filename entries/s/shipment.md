@@ -68,7 +68,7 @@ tags: []
 ・split an order into two shipments  
 用途: 一つの注文を分割して発送すると説明する。  
 例: We split your order into two shipments because one item was out of stock.  
-訳: 商品の一つが在庫切れだったため、ご注文品を2回に分けて発送しました。  
+訳: 商品の一つが在庫切れだったため、ご注文品を二つの発送分に分けました。  
 
 【語法・注意】a shipment、two shipments と数える。a shipment of books は本の発送分であって本1冊ではない。shipment to Tokyo の to は送り先、shipment from Tokyo の from は送り元を表す。商品が「発送された」と言いたい場合、The shipment has arrived. では「到着した」になってしまうので、The goods have been shipped.「商品は発送されました」を使う。delivery は届け先への配送・引渡しに焦点があり、shipment は発送単位としての荷物に焦点があるが、同じ荷物を両語で指せる場合もある。  
 
