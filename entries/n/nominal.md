@@ -3,9 +3,9 @@ headword: nominal
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-10
-updated_at: 2026-10-10
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -322,7 +322,7 @@ tags: []
 ・a nominal capacity  
 用途: 容量の表示値と、実際に利用できる量や測定条件を区別する。  
 例: The tank's nominal capacity is 500 litres, but the operating instructions specify a lower fill level.  
-訳: タンクの公称容量は500リットルだが、操作説明書ではそれより低い充填水位が指定されている。  
+訳: タンクの公称容量は500リットルだが、操作説明書では、500リットルを入れたときより低い充填水位が指定されている。  
 
 【語法・注意】nominal は「おおよその」の訳になることもあるが、単なる目測の概算とは異なり、名称・表示・設計上の基準として使う値を指す。実測値との差や許容差は製品・規格ごとに異なり、この語だけでは決まらない。nominal diameter を常に内径と同じものだと判断しない。対照表現の actual/measured diameter は実際の直径・実測径を示すが、公称値と一致する場合もある。rated voltage「定格電圧」と nominal voltage「公称電圧」は技術文書で使い分けられることがあるため、常に置換可能とはしない。nominal value は語義6の額面や語義3の名目値にもなり、対象が抵抗器か債券か経済統計かで訳し分ける。  
 

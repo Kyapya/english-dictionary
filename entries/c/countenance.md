@@ -3,9 +3,9 @@ headword: countenance
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-10
-updated_at: 2026-10-10
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -67,14 +67,14 @@ tags: []
 ・be willing to countenance something  
 用途: 肯定の文脈で、条件や変更を受け入れる余地を示す。  
 例: The director was willing to countenance a short delay if it improved the quality of the work.  
-訳: 仕事の質が上がるのであれば、責任者は短期間の遅れを認めるつもりだった。  
+訳: 仕事の質が上がるのであれば、責任者は短期間の遅れを認める用意があった。  
 
 ・be countenanced by someone  
 用途: 受け入れられた案や措置を主語にして述べる。  
 例: Such an exception would never be countenanced by the review committee.  
 訳: そのような例外を審査委員会が認めることは決してないだろう。  
 
-【語法・注意】countenance は直接目的語を取る。誤: We cannot countenance to the proposal.／正: We cannot countenance the proposal.。consent to the proposal や approve of the proposal の前置詞を移さない。「人が行うことを認める」は、誤: They would not countenance him to leave early.／正: They would not countenance him leaving early.。allow なら They would not allow him to leave early. とし、補文の形を区別する。refuse to countenance にある to は refuse に続く不定詞の to であり、countenance の後ろに to 不定詞を要求するものではない。否定・拒否の文が多いが、肯定や受動を禁止する語ではない。countenance the possibility は、可能性を認めることであって、その出来事を望むことではない。名詞の「顔」は語義2であり、この動詞を「顔を向ける」と訳さない。  
+【語法・注意】countenance は直接目的語を取る。誤: We cannot countenance to the proposal.／正: We cannot countenance the proposal. consent to the proposal や approve of the proposal の前置詞を移さない。「人が行うことを認める」は、誤: They would not countenance him to leave early.／正: They would not countenance him leaving early. allow なら They would not allow him to leave early. とし、補文の形を区別する。refuse to countenance にある to は refuse に続く不定詞の to であり、countenance の後ろに to 不定詞を要求するものではない。否定・拒否の文が多いが、肯定や受動を禁止する語ではない。countenance the possibility は、可能性を認めることであって、その出来事を望むことではない。名詞の「顔」は語義2であり、この動詞を「顔を向ける」と訳さない。  
 
 【類義語】
 
@@ -227,7 +227,7 @@ tags: []
 頻度: 〈9/10〉  
 違い: 精神的な支持から具体的な援助まで広く含む。countenance は主に容認や後ろ盾となる態度を表す。  
 例: The campaign gained support from several respected scholars.  
-訳: その運動は、複数の著名な研究者から支持を得た。  
+訳: その運動は、複数の高く評価されている研究者から支持を得た。  
 
 4. 【名詞・不可算／慣用表現内】平静、落ち着いた表情
 
