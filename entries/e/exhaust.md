@@ -3,9 +3,9 @@ headword: exhaust
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-10
-updated_at: 2026-10-10
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -83,7 +83,7 @@ exhaustion「消耗、極度の疲労」と exhaustive「網羅的な」もこ�
 例: The volunteers were exhausted by the repeated trips up the stairs.  
 訳: ボランティアたちは、何度も階段を上り下りして疲れ果てた。  
 
-【語法・注意】「私は疲れた」を能動の I exhausted. とは普通言わない。正: I am exhausted.／誤: I exhausted.〈自分が疲れたという意味〉。I exhausted myself. は「自分で無理をして疲れ果てた」という他動詞の再帰形で、I was exhausted. の myself が省略された形ではない。The work exhausted me. は疲労を起こす動作、I felt exhausted. は語義2の状態。exhaust someone with questions「質問攻めにして疲れさせる」もあり、人を目的語にしたまま「質問を論じ尽くす」と読まない。排気の自動詞は語義11にあるため、語全体を「必ず他動詞」と決めつけない。  
+【語法・注意】「私は疲れた」を能動の I exhausted. とは普通言わない。正: I am exhausted.／誤: I exhausted.〈自分が疲れたという意味〉。I exhausted myself. は「自分で無理をして疲れ果てた」という他動詞の再帰形。I was exhausted. は、I exhausted myself. から myself を省略した形ではない。The work exhausted me. は疲労を起こす動作、I felt exhausted. は語義2の状態。exhaust someone with questions「質問攻めにして疲れさせる」もあり、人を目的語にしたまま「質問を論じ尽くす」と読まない。排気の自動詞は語義11にあるため、語全体を「必ず他動詞」と決めつけない。  
 
 【類義語】
 
@@ -215,7 +215,7 @@ exhaustion「消耗、極度の疲労」と exhaustive「網羅的な」もこ�
 
 【レジスター/領域】一般語。仕事、育児、旅行、人間関係など。  
 
-【文法パターン】an exhausting 〈活動・期間など〉＝ひどく疲れる活動など／someone/something + be/seem/become exhausting＝疲れさせる・そのように感じられる・そうなる／find someone/something exhausting＝人や物事を疲れると感じる／It is exhausting to do something＝何かをするのはひどく疲れる。限定・叙述の両方に使い、very/extremely exhausting、more exhausting than などの程度・比較表現も可能。  
+【文法パターン】an exhausting 〈活動・期間など〉＝ひどく疲れる活動など／someone/something + be/seem/become exhausting＝疲れさせる・そのように感じられる・そうなる／find someone/something exhausting＝その人や物事にひどく疲れさせられると感じる／It is exhausting to do something＝何かをするのはひどく疲れる。限定・叙述の両方に使い、very/extremely exhausting、more exhausting than などの程度・比較表現も可能。  
 
 【コロケーション・構文例】
 
@@ -564,7 +564,7 @@ exhaustion「消耗、極度の疲労」と exhaustive「網羅的な」もこ�
 ・replace the exhaust  
 用途: 排気装置を取り替える。  
 例: We replaced the exhaust, but the engine noise remained.  
-訳: 排気装置を交換したが、エンジンの異音は残った。  
+訳: 排気装置を交換したが、エンジンの騒音は残った。  
 
 【語法・注意】The exhaust is leaking. では通常「排気装置が漏れている」、Exhaust is entering the cabin. では「排気ガスが車内に入っている」。冠詞と述語から装置か気体かを見分ける。米語の muffler、英語の silencer は主に消音器を指し、排気系全体と常に同じ物ではない。a car exhaust では単数可算名詞なので、通常 a や所有格などを付ける。  
 

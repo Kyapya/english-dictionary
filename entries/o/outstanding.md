@@ -3,9 +3,9 @@ headword: outstanding
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-10
-updated_at: 2026-10-10
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -24,7 +24,7 @@ stand の要素を共有する語には standpoint「立場、観点」と stand
 ＃語形成
 
 ・outstandingly［副詞］非常に優秀に、際立って。perform outstandingly「抜群の出来を見せる」、outstandingly successful「大きな成功を収めた」。未払いを表す outstanding に機械的に -ly を付けて支払い状態の副詞にはしない。  
-・outstand［動詞］outstanding と形態上対応する語で、現在の一般的な作文では使用範囲が限られる。「彼女は傑出している」なら She is outstanding. または She stands out. が普通で、She outstands. を基本形として覚えない。  
+・outstand［動詞］：outstanding と形態上対応する語で、現在の一般的な作文では使用範囲が限られる。「彼女は傑出している」なら She is outstanding. または She stands out. が普通で、She outstands. を基本形として覚えない。  
 ・long-outstanding［複合形容詞］長期間未解決・未処理の。a long-outstanding dispute「長年未解決の争い」。outstanding 単独から必ず長期間の放置を読み取ることはできない。  
 
 ＃意味・用法・関連表現
@@ -122,7 +122,7 @@ stand の要素を共有する語には standpoint「立場、観点」と stand
 頻度: 〈7/10〉  
 違い: 卓越した水準と、期待ほどではない平凡な水準の程度上の対立。  
 例: The film had a strong cast but a mediocre script.  
-訳: その映画は出演者が豪華だったが、脚本はいまひとつだった。  
+訳: その映画は実力のある出演者がそろっていたが、脚本はいまひとつだった。  
 
 ・poor  
 定義: 品質や出来が悪い。  
@@ -156,7 +156,7 @@ stand の要素を共有する語には standpoint「立場、観点」と stand
 ・an outstanding invoice  
 用途: まだ支払いが済んでいない請求書を指す。  
 例: The accounts team sent a reminder about an outstanding invoice.  
-訳: 経理チームは、未払いの請求書について確認の連絡を送った。  
+訳: 経理チームは、未払いの請求書について、支払いを促す連絡を送った。  
 
 ・remain outstanding  
 用途: 一部支払ってもなお残額があることを述べる。  
@@ -171,7 +171,7 @@ stand の要素を共有する語には standpoint「立場、観点」と stand
 ・leave a balance outstanding  
 用途: 残額を未払いの状態にしておく。  
 例: We paid the first installment and left the remaining balance outstanding until June.  
-訳: 私たちは最初の分割金を支払い、残額は六月まで未払いのままにした。  
+訳: 私たちは初回の分割払い分を支払い、残額は六月まで未払いのままにした。  
 
 ・an outstanding check/cheque  
 用途: 振り出しても銀行でまだ決済されていない小切手を扱う。  

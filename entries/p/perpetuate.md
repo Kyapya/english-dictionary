@@ -3,9 +3,9 @@ headword: perpetuate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-10
-updated_at: 2026-10-10
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -59,7 +59,7 @@ perpetuates の語尾 -s は /s/、perpetuated の語尾 -ed は /ɪd/。perpetu
 ・perpetuate a stereotype  
 用途: 固定観念を繰り返し広め、根強く残すことを述べる。  
 例: Casting every scientist as a socially awkward man can perpetuate a stereotype.  
-訳: 科学者をいつも人付き合いの苦手な男性として描くと、固定観念を存続させることになり得る。  
+訳: 科学者を誰も彼も人付き合いの苦手な男性として描くと、固定観念を存続させることになり得る。  
 
 ・perpetuate the myth that 〈節〉  
 用途: 誤った通念の内容を that 節で示す。  
@@ -176,7 +176,7 @@ perpetuates の語尾 -s は /s/、perpetuated の語尾 -ed は /ɪd/。perpetu
 ・perpetuate the memory of someone  
 用途: ある人が忘れられないように記念事業などを行う。  
 例: The annual lecture was established to perpetuate the memory of the university's first librarian.  
-訳: 大学の初代図書館長を長く記憶にとどめるために、毎年の記念講演が設けられた。  
+訳: 大学の初代司書を長く記憶にとどめるために、毎年の記念講演が設けられた。  
 
 ・perpetuate someone's name  
 用途: 人の名を記録や命名によって後世に残す。  
@@ -191,7 +191,7 @@ perpetuates の語尾 -s は /s/、perpetuated の語尾 -ed は /ɪd/。perpetu
 ・someone's memory + be perpetuated in 〈作品・記録〉  
 用途: どの媒体に人の記憶が残るかを述べる。  
 例: Her memory is perpetuated in the songs she wrote for her hometown.  
-訳: 彼女の記憶は、故郷のために書いた歌の中に生き続けている。  
+訳: 彼女についての記憶は、彼女が故郷のために書いた歌の中に生き続けている。  
 
 【語法・注意】語義1の perpetuate a tradition は伝統そのものを続けること、本義の perpetuate someone's memory は人が記憶され続けるようにすること。perpetuate someone と人だけを直接目的語にすると、記憶・功績を残すという意図が明確になりにくいので、memory/name/legacy などを示す。褒めたたえる文脈が多いものの、perpetuate 自体に「称賛する」が必ず含まれるわけではない。  
 

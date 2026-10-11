@@ -3,9 +3,9 @@ headword: disparate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-10
-updated_at: 2026-10-10
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -36,7 +36,7 @@ desperate「必死の、絶望的な」の代表形 /ˈdespərət/ と混同し�
 
 【頻度】〈6/10〉  
 
-【レジスター/領域】改まった一般語。報道、研究、批評、データ・組織の統合など。disparate treatment/impact は法律・人事の文脈でも定着している。  
+【レジスター/領域】改まった一般語。報道、研究、批評、データ・組織の統合など。disparate treatment と disparate impact は法律・人事の文脈でも定着している。  
 
 【文法パターン】disparate sources/systems/views の限定用法、〈複数の対象〉 + be/seem/become + disparate の叙述用法。be disparate in 〈相違の観点〉 で何が違うかを示す。such disparate 〈複数名詞〉 as 〈具体例A〉 and 〈具体例B〉 で異質な例を並べる。widely/utterly/seemingly disparate、more/less disparate などの修飾・比較が可能。法律などの結合では disparate treatment of someone、have a disparate impact on someone/something のように、後続前置詞は treatment/impact 側の構造に従う。  
 

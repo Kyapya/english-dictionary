@@ -3,9 +3,9 @@ headword: incidental
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-10
-updated_at: 2026-10-10
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -330,7 +330,7 @@ tags: []
 ・background music  
 定義: 場面・会話・活動の背景に流れる音楽。  
 頻度: 〈7/10〉  
-違い: 劇や映画以外に、店内や作業中の音楽も含む。incidental music は劇的な作品への付随が中心。  
+違い: 劇や映画以外に、店内や作業中の音楽も含む。incidental music は劇や映画への付随が中心。  
 例: Soft background music played in the café.  
 訳: カフェでは穏やかなBGMが流れていた。  
 
@@ -406,7 +406,7 @@ tags: []
 ・discover something incidentally  
 用途: 別の調査中に情報が見つかる場合。  
 例: We discovered the missing letter incidentally while cataloguing the archive.  
-訳: 資料を目録に整理している途中で、私たちは行方不明になっていた手紙をたまたま見つけた。  
+訳: 資料の目録を作成している途中で、私たちは行方不明になっていた手紙をたまたま見つけた。  
 
 ・learn something incidentally  
 用途: 主目的の活動の副産物として学ぶ場合。  
