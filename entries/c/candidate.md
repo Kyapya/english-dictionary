@@ -80,7 +80,7 @@ tags: []
 ・a potential candidate  
 用途: 候補となる可能性のある人を示す。  
 例: The search committee contacted several potential candidates who had not applied.  
-訳: 選考委員会は、まだ応募していなかった複数の候補者に連絡した。  
+訳: 選考委員会は、まだ応募していなかった、候補になり得る複数の人に連絡した。  
 
 ・a candidate in an election  
 用途: 候補者が参加する選挙を示す。  
@@ -211,7 +211,7 @@ tags: []
 ・an exam candidate  
 用途: 試験を受ける人を明示する。  
 例: Each exam candidate must bring identification.  
-訳: 受験者は一人ずつ、身分証明書を持参しなければならない。  
+訳: 受験者は各自、身分証明書を持参しなければならない。  
 
 ・candidates taking an examination  
 用途: 受験中・受験予定の集団を説明する。  

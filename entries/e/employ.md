@@ -61,7 +61,7 @@ tags: []
 ・employ staff  
 用途: 組織が職員を雇用することを表す。  
 例: The company employs more than five hundred staff.  
-訳: その会社は500人以上の職員を雇用している。  
+訳: その会社は500人を超える職員を雇用している。  
 
 ・employ someone as 〈職種〉  
 用途: どんな仕事をさせるかを示す。  
@@ -406,7 +406,7 @@ tags: []
 【コロケーション・構文例】
 
 ・the employed  
-用途: 人々を集合的に指し、複数の動詞と結び付ける。  
+用途: 人々を集合的に指し、主語になる場合は複数扱いにして are・were などを用いる。  
 例: The employed were asked about their working hours.  
 訳: 就業者には労働時間について質問が行われた。  
 
