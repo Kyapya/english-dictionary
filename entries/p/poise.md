@@ -3,9 +3,9 @@ headword: poise
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-10
-updated_at: 2026-10-10
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -73,7 +73,7 @@ tags: []
 ・retain one's poise  
 用途: 難しい状況でも平静を失わない。  
 例: She retained her poise when the presentation screen went blank.  
-訳: 発表用の画面が真っ暗になっても、彼女は落ち着きを保った。  
+訳: 発表用の画面に何も映らなくなっても、彼女は落ち着きを保った。  
 
 ・lose one's poise  
 用途: 自信のある落ち着いた態度が崩れる。  
@@ -463,7 +463,7 @@ tags: []
 ・poise a pen above the paper  
 用途: 書き始める前にペンを構える。  
 例: She poised her pen above the paper, then waited for the speaker to begin.  
-訳: 彼女は紙の上にペンを構え、話し手が始めるのを待った。  
+訳: 彼女は紙の上にペンを構え、話し手が話し始めるのを待った。  
 
 ・poise something on one's hand  
 用途: 手の上で物の釣り合いを保つ。  

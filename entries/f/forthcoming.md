@@ -3,9 +3,9 @@ headword: forthcoming
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-10
-updated_at: 2026-10-10
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -57,7 +57,7 @@ tags: []
 ・one's forthcoming visit  
 用途: 人の到着そのものではなく、予定されている訪問を修飾する。  
 例: We are preparing a schedule for the director's forthcoming visit.  
-訳: 私たちは所長の近く予定されている訪問に向けて、日程を準備しています。  
+訳: 私たちは近く予定されている所長の訪問に向けて、日程を準備しています。  
 
 ・be forthcoming in 〈時期〉  
 用途: 本や論文について、出版予定の時期を述べる。  
@@ -103,7 +103,7 @@ tags: []
 頻度: 〈9/10〉  
 違い: 時間方向の対立。forthcoming events はこれからの催し、past events はすでに起きた出来事で、予定の取り消しを意味するわけではない。  
 例: The archive contains recordings of past conferences.  
-訳: その資料庫には過去の会議の録画が収められています。  
+訳: その資料庫には過去の会議の音声や映像の記録が収められています。  
 
 2. 【形容詞：主に叙述】提供される、出てくる、得られる
 
@@ -191,7 +191,7 @@ tags: []
 ・be forthcoming about one's plans  
 用途: 自分の計画について隠さず話す姿勢をいう。  
 例: She was forthcoming about her plans for the new department.  
-訳: 彼女は新しい部署で何をするつもりか、率直に話してくれました。  
+訳: 彼女は新しい部署に関する自分の計画について、率直に話してくれました。  
 
 ・be forthcoming with information  
 用途: 情報の提供に積極的であることを述べる。  

@@ -3,9 +3,9 @@ headword: intimate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-10
-updated_at: 2026-10-10
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -60,7 +60,7 @@ tags: []
 
 【レジスター/領域】一般。intimate friend は close friend より改まった響きがあり、文章でも使う。  
 
-【文法パターン】an intimate friend／an intimate friendship＝人・友情を前から修飾する。be on intimate terms with someone＝人と親しい間柄にある。become more intimate＝関係がより親密になる。be intimate with someone も成立するが、人との性的関係を表す語義3に読まれやすく、友情だけなら close to someone などが明確。very/more/less intimate と程度を表せる。  
+【文法パターン】an intimate friend＝親しい友人で、intimate が人を前から修飾する。an intimate friendship＝親密な友情で、intimate が友情を前から修飾する。be on intimate terms with someone＝人と親しい間柄にある。become more intimate＝関係がより親密になる。be intimate with someone も成立するが、人との性的関係を表す語義3に読まれやすく、友情だけなら close to someone などが明確。very/more/less intimate と程度を表せる。  
 
 【コロケーション・構文例】
 
@@ -133,7 +133,7 @@ tags: []
 
 【レジスター/領域】一般。伝記、報道、インタビュー、個人的な会話。  
 
-【文法パターン】intimate details of/about someone's life＝生活の私的な細部。an intimate conversation／intimate thoughts＝内面に踏み込む会話・思い。something is/feels too intimate to share＝人に明かすには私的すぎる。主に限定用法だが、The questions were too intimate. のような叙述用法もあり、very/more/too intimate と程度を表せる。  
+【文法パターン】intimate details of/about someone's life＝生活の私的な細部。an intimate conversation＝内面に踏み込む会話。intimate thoughts＝心の内にある私的な思い。something is/feels too intimate to share＝人に明かすには私的すぎる。主に限定用法だが、The questions were too intimate. のような叙述用法もあり、very/more/too intimate と程度を表せる。  
 
 【コロケーション・構文例】
 
@@ -199,7 +199,7 @@ tags: []
 
 【レジスター/領域】一般・改まった婉曲表現。健康や対人関係を扱う文章にも使うが、制度上の定義は文脈による。  
 
-【文法パターン】be/become/get intimate with someone＝人と性的な関係にある・なる。相手が明らかなら with someone を省ける。an intimate relationship／intimate contact＝性的な関係・接触を表す限定用法。physically/sexually intimate は身体的・性的な意味を明示する。more intimate は接触や関係の深まりを表せるが、必ず特定の行為の比較になるわけではない。  
+【文法パターン】be/become/get intimate with someone＝人と性的な関係にある・なる。相手が明らかなら with someone を省ける。an intimate relationship＝性的な関係を表す限定用法。intimate contact＝性的な接触を表す限定用法。physically/sexually intimate は身体的・性的な意味を明示する。more intimate は接触や関係の深まりを表せるが、必ず特定の行為の比較になるわけではない。  
 
 【コロケーション・構文例】
 
@@ -258,7 +258,7 @@ tags: []
 
 【レジスター/領域】一般。飲食店・宿泊・公演・催しの紹介。好意的な描写に多い。  
 
-【文法パターン】an intimate atmosphere/setting/venue＝雰囲気・場所を前から修飾する。an intimate dinner/concert＝親しく過ごせる食事・公演。a place feels/seems intimate＝場所を主語に叙述する。a more intimate setting／too intimate for a large reception のように比較・程度を表せる。  
+【文法パターン】an intimate atmosphere/setting/venue＝雰囲気・場所を前から修飾する。an intimate dinner/concert＝親しく過ごせる食事・公演。a place feels/seems intimate＝場所を主語に叙述する。a more intimate setting＝より親密な雰囲気の場で、比較を表す。too intimate for a large reception＝大規模なレセプションにはこぢんまりとしすぎていると、程度を表す。  
 
 【コロケーション・構文例】
 
@@ -324,7 +324,7 @@ tags: []
 
 【レジスター/領域】一般・改まった文章。実務経験、専門性、土地・文化の知識の評価。  
 
-【文法パターン】have/gain an intimate knowledge of something＝何かについて深い知識がある・得る。an intimate understanding of something／an intimate acquaintance with something＝深い理解・熟知。be intimate with a subject＝人が対象に精通している。知識を修飾する限定用法が中心で、with を伴う人主語の叙述用法は改まった表現。more intimate knowledge のような比較も可能。  
+【文法パターン】have/gain an intimate knowledge of something＝何かについて深い知識がある・得る。an intimate understanding of something＝何かに対する深い理解。an intimate acquaintance with something＝何かをよく知っていること。be intimate with a subject＝人が対象に精通している。知識を修飾する限定用法が中心で、with を伴う人主語の叙述用法は改まった表現。more intimate knowledge のような比較も可能。  
 
 【コロケーション・構文例】
 
@@ -461,7 +461,7 @@ tags: []
 
 【頻度】〈5/10〉  
 
-【レジスター/領域】改まった表現。報道、交渉、叙述文。日常会話では hint/suggest が使われやすい。  
+【レジスター/領域】改まった表現。報道、交渉、叙述文。日常会話では hint や suggest が使われやすい。  
 
 【文法パターン】intimate something＝意向・不満などの内容を目的語にする。intimate something to someone＝内容を相手に示唆する。intimate (to someone) that ...＝that節を伝える内容にする。that は省略可能。intimate to someone + 〈長い内容名詞句〉という語順もある。内容を主語にした受動態 be intimated (to someone) や、as previously intimated「以前ほのめかしたように」も使う。  
 
@@ -532,7 +532,7 @@ tags: []
 
 【レジスター/領域】改まった表現・文章語。伝記、人物紹介、政治報道など。  
 
-【文法パターン】an intimate of someone＝誰かの親しい友人。an intimate of someone's＝同じ関係を二重所有格で表す。one of someone's intimates＝親しい仲間の一人。someone's closest intimates／a circle of intimates＝複数の親しい人々。単数なら an/the や所有格などの限定語を伴う。  
+【文法パターン】an intimate of someone＝誰かの親しい友人。an intimate of someone's＝同じ関係を二重所有格で表す。one of someone's intimates＝親しい仲間の一人。someone's closest intimates＝ある人にとって最も親しい人々。a circle of intimates＝親しい人々の輪。単数なら an/the や所有格などの限定語を伴う。  
 
 【コロケーション・構文例】
 
@@ -572,7 +572,7 @@ tags: []
 頻度: 〈5/10〉  
 違い: 打ち明け話をするという役割が中心。intimate は私的に親しい関係をより広く表す。  
 例: Her sister has always been her closest confidant.  
-訳: 妹はずっと、彼女が最も心を許して相談できる相手だ。  
+訳: 彼女の姉（または妹）はずっと、彼女が最も心を許して相談できる相手だ。  
 
 ・companion  
 定義: 行動や時間を共にする相手。  
@@ -587,7 +587,7 @@ tags: []
 
 【頻度】〈2/10〉  
 
-【レジスター/領域】英語全体では低頻度。米英の一般文では非常に改まった響きがあり、この通知義を古風とする辞書もある。一方、インド英語の行政・業務文書では現在も「通知する」の意味で使われる。一般的な会話や国際的な業務メールで announce/notify の自由な代わりとして使う際は、地域と文体に注意する。  
+【レジスター/領域】英語全体では低頻度。米英の一般文では非常に改まった響きがあり、この通知義を古風とする辞書もある。一方、インド英語の行政・業務文書では現在も「通知する」の意味で使われる。一般的な会話や国際的な業務メールで announce や notify の自由な代わりとして使う際は、地域と文体に注意する。  
 
 【文法パターン】intimate something to someone＝内容を相手に通知する。intimate that ...＝内容を節で示す。be intimated to someone＝内容が相手に通知される。これらの基本形では目的語が知らせる内容で、通知先の人は to で導く。インド英語の行政文書などでは intimate someone about something＝人にある内容を通知する、someone is intimated about something＝人がその内容を通知される、という人目的語型と対応する受動態も使われる。  
 
@@ -644,7 +644,7 @@ tags: []
 
 【頻度】〈2/10〉  
 
-【レジスター/領域】低頻度・文章語。科学的・抽象的な記述に現れるが、通常の現代文では internal/intrinsic などのほうが明確な場合が多い。  
+【レジスター/領域】低頻度・文章語。科学的・抽象的な記述に現れるが、通常の現代文では internal や intrinsic などのほうが明確な場合が多い。  
 
 【文法パターン】the intimate structure/nature of something＝物事の内部構造・本質。主に名詞の前に置く限定用法。語義1の very intimate や be intimate with someone の構文を、この意味へ機械的に移さない。  
 
@@ -686,7 +686,7 @@ tags: []
 
 【レジスター/領域】小売・衣料品の商業表現。通常の会話では underwear、lingerie、nightwear などが明確。  
 
-【文法パターン】intimates＝複数形で商品群を表す。women's intimates／shop for intimates＝女性向け商品群・商品購入。an intimates collection/department＝複数形を保った名詞修飾。形容詞＋名詞の intimate apparel と意味領域が重なる。  
+【文法パターン】intimates＝複数形で商品群を表す。women's intimates＝女性向けの下着・寝間着類の商品群。shop for intimates＝下着・寝間着類を買い求める。an intimates collection/department＝複数形を保った名詞修飾。形容詞＋名詞の intimate apparel と意味領域が重なる。  
 
 【コロケーション・構文例】
 

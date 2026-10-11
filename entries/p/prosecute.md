@@ -3,9 +3,9 @@ headword: prosecute
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-10
-updated_at: 2026-10-10
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -17,7 +17,7 @@ tags: []
 
 ＃語源
 
-ラテン語 prosequi「追い続ける、付き従う」の分詞形 prosecut- に由来し、pro-「前へ」＋ sequi「従う、後を追う」からなる。現在も、訴追、訴訟、戦争、出願などを目的に向けて進める意味につながる。ただし、語源だけから「最後まで成功させる」と結果を読み込まない。同じ sequi の語族には sequence「連続、順序」、consequence「結果」、persecute「迫害する」がある。persecute は近い綴りでも、現代の中心義は別である。  
+ラテン語 prosequi「追い続ける、付き従う」の過去分詞語幹 prosecut- に由来し、pro-「前へ」＋ sequi「従う、後を追う」からなる。現在も、訴追、訴訟、戦争、出願などを目的に向けて進める意味につながる。ただし、語源だけから「最後まで成功させる」と結果を読み込まない。同じ sequi の語族には sequence「連続、順序」、consequence「結果」、persecute「迫害する」がある。persecute は近い綴りでも、現代の中心義は別である。  
 
 ＃語形成
 
@@ -250,7 +250,7 @@ tags: []
 ・be prosecuted with determination  
 用途: 活動を主語にして、推進する姿勢を述べる。  
 例: The campaign for universal literacy was prosecuted with determination.  
-訳: 誰もが読み書きをできるようにするための運動は、強い決意をもって進められた。  
+訳: 誰もが読み書きができるようにするための運動は、強い決意をもって進められた。  
 
 【語法・注意】prosecute a war「戦争を遂行する」と prosecute someone for war crimes「戦争犯罪で人を訴追する」は、目的語も for の有無も意味も異なる。prosecute an inquiry は、調査を遂行することであり、調査対象者を起訴したことにはならない。They prosecuted the campaign for years without achieving their goal. のように、長く活動しても目標未達成という文は成り立つ。したがって、過去形 prosecuted を必ず「完遂した」と訳す必要はない。古めの文章では商売・職業を営む意味にも広がるが、現在の普通の自己紹介で「仕事をする」を prosecute my job とするのは避ける。  
 
