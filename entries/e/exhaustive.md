@@ -25,7 +25,7 @@ exhaust「使い尽くす、論じ尽くす」と形容詞語尾 -ive に関係�
 ・exhaustiveness（不可算名詞）＝網羅性、漏れなく全体を扱っていること。the exhaustiveness of a search は調査範囲の完全さを表す。  
 ・non-exhaustive（形容詞）＝すべてを含むわけではない、網羅的ではない。a non-exhaustive list のように、例示が全部ではないことを明示する。  
 ・exhausting（関連形容詞）＝人をひどく疲れさせる。an exhausting journey は疲れる旅であり、exhaustive の言い換えではない。  
-・exhausted（関連形容詞）＝疲れ切った／使い尽くされた。an exhausted worker は疲労した人、exhausted supplies は尽きた供給物を指す。  
+・exhausted（関連形容詞）＝疲れ切った／使い尽くされた。an exhausted worker は疲労した人、exhausted supplies は使い尽くされた物資を指す。  
 ・exhaustible / inexhaustible（関連形容詞）＝使い尽くせる／尽きることのない。資源などの枯渇可能性を表し、情報の網羅性とは異なる。  
 
 ＃意味・用法・関連表現

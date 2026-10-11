@@ -75,7 +75,7 @@ tags: []
 ・as the name implies（imply の三人称単数形）  
 用途: 名称からうかがえる特徴を説明する。  
 例: As the name implies, the Quiet Zone is reserved for passengers who want to work or rest without conversation.  
-訳: 名前が示すとおり、クワイエット・ゾーンは、会話をせずに仕事や休息を取りたい乗客のための区画だ。  
+訳: 名前が示すとおり、クワイエット・ゾーンは、会話をせずに仕事をしたり休息を取ったりしたい乗客のための区画だ。  
 
 ・It is implied that 〈節〉（imply の受動形）  
 用途: 誰が伝えたかより、暗に伝わる内容を中心に述べる。  
@@ -122,7 +122,7 @@ tags: []
 
 【レジスター/領域】調査報告、分析、ニュース、一般的な議論。会話でも使う。  
 
-【文法パターン】〈結果・事実〉 + imply (that) 〈節〉＝結果等から～とうかがえる／imply 〈存在・傾向・程度〉＝存在・傾向等を示唆する／not necessarily imply something＝必ずしも～を意味しない／something + be implied by 〈結果・事実〉＝事実から示唆される。主語は証拠や状況、目的語はそこから考えられる内容。  
+【文法パターン】〈結果・事実〉 + imply (that) 〈節〉＝結果等から～とうかがえる／imply 〈存在・傾向・程度〉＝存在・傾向等を示唆する／not necessarily imply something＝必ずしも～を意味しない／something + be implied by 〈結果・事実〉＝事実から示唆される。能動形では主語が証拠や状況、目的語が示唆される内容。受動形では、示唆される内容を主語にし、証拠や状況を by の後に置く。  
 
 【コロケーション・構文例】
 
@@ -243,7 +243,7 @@ tags: []
 ・an implied threat（imply からの形容詞）  
 用途: 直接的な脅迫の言葉なしに伝わる脅しを表す。  
 例: I heard an implied threat in his warning that cooperation would be remembered.  
-訳: 「協力するかどうかは覚えておく」という彼の警告に、私は暗に脅す意図を感じた。  
+訳: 協力したことは忘れないという彼の警告に、私は暗黙の脅しを感じた。  
 
 ・implied criticism（imply からの形容詞）  
 用途: 言葉の表面には出ていない批判を表す。  
