@@ -438,7 +438,7 @@ tags: []
 
 ・charge it up  
 用途: 代名詞目的語を動詞と up の間に置く。  
-例: The speaker is almost flat, so I'll charge it up now.  
+例: The speaker's battery is almost flat, so I'll charge it up now.  
 訳: スピーカーの電池がほとんど空なので、今充電する。  
 
 ・fully charge something  
@@ -1486,8 +1486,8 @@ tags: []
 
 ・an explosive charge  
 用途: 装薬という物体を指す。  
-例: The museum display includes an empty shell casing that once held an explosive charge.  
-訳: 博物館の展示には、かつて装薬が入っていた空の砲弾ケースがある。  
+例: The museum display includes an empty cartridge case that once held an explosive charge.  
+訳: 博物館の展示には、かつて装薬が入っていた空の薬莢がある。  
 
 ・a furnace charge  
 用途: 炉に一度に入れる材料を指す。  

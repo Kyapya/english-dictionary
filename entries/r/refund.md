@@ -196,7 +196,7 @@ tags: []
 ・refund outstanding bonds  
 用途: 未償還の債券を新たな資金調達で借り換える。  
 例: The company plans to refund its outstanding bonds by issuing new debt.  
-訳: 会社は新たな債務を発行して、未償還の社債を借り換える計画だ。  
+訳: 会社は新たに債券を発行して、未償還の社債を借り換える計画だ。  
 
 ・refund 〈既存債券〉 with 〈新規債券〉  
 用途: 借換え元と新たな債券の関係を示す。  

@@ -21,7 +21,7 @@ tags: []
 
 ＃語形成
 
-・discounted：過去形・過去分詞。「値引きされた」「考慮から外された」など。a discounted ticket は値引きされた切符であり、discount ticket も名詞前で使える。  
+・discounted：過去形・過去分詞。「値引きされた」「考慮から外された」など。a discounted ticket は値引きされた切符であり、a discount ticket とも言える。  
 ・discounter：可算名詞。「安売り業者、ディスカウント店」。a discounter のように店舗・業者を指す。  
 ・discounting：動名詞・不可算名詞。「値引き販売」「割引計算」「手形などの割引」。分野により内容が変わる。  
 ・discount rate：複合名詞。「割引率」。現在価値計算に用いる率のほか、金融制度で別の特定金利を指すこともあるため、常に店頭の値引き率とは限らない。  

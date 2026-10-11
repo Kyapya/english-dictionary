@@ -369,7 +369,7 @@ tags: []
 ・cancel someone  
 用途: 人物への支持を取りやめることを述べる。  
 例: Some fans tried to cancel the singer after the offensive remarks.  
-訳: 不快な発言を受け、一部のファンはその歌手への支持を撤回するよう呼びかけた。  
+訳: 不快な発言を受け、一部のファンはその歌手を社会的に排斥しようとした。  
 
 ・cancel a brand  
 用途: 企業やブランドを対象にする。  
@@ -381,7 +381,7 @@ tags: []
 例: The comedian said he was afraid of getting canceled for a joke.  
 訳: そのコメディアンは、冗談を理由に排斥されるのが怖いと語った。  
 
-【語法・注意】cancel someone は人物への支持撤回、cancel on someone は相手との約束の取りやめ（語義2）。たとえば Fans canceled him. は「ファンが彼を支持しなくなった」、He canceled on his friend. は「彼が友人との約束を取りやめた」。この社会的用法の canceled は受動・結果状態を表すが、常に失職・発禁・永久追放が実現したことまでは含まない。  
+【語法・注意】cancel someone は人物への支持撤回、cancel on someone は相手との約束の取りやめ（語義2）。たとえば Fans canceled him. は「ファンが彼を支持しなくなった」、He canceled on his friend. は「彼が友人との約束を取りやめた」。この社会的用法の be/get canceled は受動・結果状態を表すが、常に失職・発禁・永久追放が実現したことまでは含まない。  
 
 【類義語】
 
