@@ -150,7 +150,7 @@ tags: []
 
 【レジスター/領域】古風・まれ。現代では expert、specialist、または a proficient 〈職業・技能を持つ人〉 の形で表すのが普通。  
 
-【文法パターン】a proficient in 〈技芸・分野〉＝その分野の熟達者／proficients＝熟達者たち。単数で人を指す可算名詞なので、通常は冠詞などが必要。形容詞の a proficient musician とは構造が異なる。  
+【文法パターン】a proficient in 〈技芸・分野〉＝その分野の熟達者／proficients＝熟達者たち。名詞 proficient を単数で使う場合は、通常は冠詞などが必要。形容詞の a proficient musician とは構造が異なる。  
 
 【コロケーション・構文例】
 

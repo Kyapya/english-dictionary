@@ -162,7 +162,7 @@ tags: []
 訳: その機械は、24時間連続で運転できるように設計されている。  
 
 ・uninterrupted  
-定義: 中断や妨害を受けずに続いた。  
+定義: 中断や妨害を受けずに続く。  
 頻度: 〈5/10〉  
 違い: 中断がないことを明示するため、continual より反復義との曖昧さが少ない。ある期間に限った継続にも使える。  
 例: I need two hours of uninterrupted work to finish the analysis.  
