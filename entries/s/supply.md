@@ -96,7 +96,7 @@ tags: []
 訳: その慈善団体は緊急避難所用に毛布を提供した。  
 
 ・supply 〈場所〉  
-用途: 供給内容が文脈で明らかな場合、場所を直接目的語にする。  
+用途: 供給先の場所を直接目的語にし、供給物を with の後ろに示す。供給物が文脈から明らかなら with 以下を省略できる。  
 例: The reservoir supplies three nearby towns with drinking water.  
 訳: その貯水池は近隣の3つの町に飲料水を供給している。  
 
@@ -115,7 +115,7 @@ tags: []
 例: The small garden supplies all the family's vegetable needs in summer.  
 訳: その小さな菜園は夏の間、家族が必要とする野菜をすべてまかなう。  
 
-【語法・注意】学習上の基本形は supply people with goods と supply goods to people。受け手と物を逆にした supply goods with people は意図した意味にならない。supply someone something も辞書に載るが、二重目的語形を基本形として広げるより with または to の形が確実。be supplied with では主語が受け手、with の後ろが供給物を示す。be supplied by の by の後ろは供給元を示す。The office is supplied with paper. は紙が供給されること、The office is supplied by a local firm. は地元業者が供給することを表す。supply は提供・供給の役割に焦点があり、具体的な配達の完了だけを指す deliver とは範囲が異なる。  
+【語法・注意】学習上の基本形は supply people with goods と supply goods to people。受け手と物を逆にした supply goods with people は意図した意味にならない。supply someone something も辞書に載るが、二重目的語形を基本形として広げるより with または to の形が確実。be supplied with では主語が受け手、with の後ろが供給物を示す。be supplied by の by の後ろは供給元を示す。The office is supplied with paper. は紙が供給されること、The office is supplied by a local firm. は地元業者が供給することを表す。supply は必要なものを提供・供給することに焦点がある。物品についての deliver は、相手へ届けることに焦点がある。  
 
 【類義語】
 
