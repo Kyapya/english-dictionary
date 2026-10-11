@@ -59,7 +59,7 @@ vacant「空いている」と同じ系統で、ラテン語 vacare「空いて�
 訳: 新しい支店で経理補助の担当者を1名募集しています。  
 
 ・a vacancy in 〈部署〉  
-用途: どの部門で人員が空いているかを示す。  
+用途: どの部門に欠員があるかを示す。  
 例: A vacancy in the marketing department will be advertised next week.  
 訳: マーケティング部門の欠員について、来週求人を出します。  
 
