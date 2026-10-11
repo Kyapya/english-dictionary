@@ -109,7 +109,7 @@ tags: []
 頻度: 〈6/10〉  
 違い: deposit が預け入れる行為や預金を指すのに対し、credit は入金側の記録を指し、返金なども含む。  
 例: The statement includes a credit of 40 dollars from the retailer.  
-訳: その明細には小売店からの40ドルの返金入金が含まれている。  
+訳: その明細には、小売店からの40ドルの入金が記録されている。  
 
 【反意語】
 
@@ -446,7 +446,7 @@ tags: []
 ・residue  
 定義: 処理や変化の後に残る物質。  
 頻度: 〈6/10〉  
-違い: deposit は付着・堆積、residue は取り除いた後にも残るものという観点。  
+違い: deposit は付着・堆積、residue は処理・変化や一部の除去の後に残るものという観点。  
 例: Rinse the container to remove the soap residue.  
 訳: 石けんの残留物を除くため、容器をすすいでください。  
 

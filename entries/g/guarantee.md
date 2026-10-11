@@ -25,7 +25,7 @@ tags: []
 
 ・guarantees：名詞の複数形、または動詞の三人称単数現在形。  
 ・guaranteed：過去形・過去分詞のほか、「確実な」「保証された」の形容詞用法がある。語義8・9で扱う。  
-・guaranteeing：現在分詞。guaranteing と e を落とさない。  
+・guaranteeing：現在分詞。末尾の ee を残して -ing を付ける。  
 ・guarantor：可算名詞。「保証人、保証する側」。特に他人の債務などを保証する人・組織を指す。  
 ・guaranty：名詞・動詞。特に法律・金融で使う同系の形。一般的な保証には guarantee が広く使われ、すべての場面で法的な意味が厳密に二分されるわけではない。  
 ・money-back guarantee：複合名詞。「返金保証」。money-back は名詞前の複合修飾語。  
@@ -204,7 +204,7 @@ tags: []
 ・you can guarantee that 〈節〉  
 用途: 経験などに基づく予測を述べる。  
 例: You can guarantee that someone will ask about the missing chart.  
-訳: あの図がないことは、きっと誰かが尋ねるだろう。  
+訳: あの図が見当たらないことについては、きっと誰かが尋ねるだろう。  
 
 【語法・注意】語義2の We guarantee to repair it. は修理を引き受ける約束。この語義の I guarantee it will rain. は雨を降らせる約束ではなく、強い予測。that は省略できる。強調表現なので、客観的な確実性が証明されているとは限らない。  
 
@@ -633,8 +633,8 @@ tags: []
 定義: 融資などに財務的な保証や裏付けを与える。  
 頻度: 〈5/10〉  
 違い: 金融の支援という点で重なるが、証券の引受けや保険の引受けなど独自の用法があり、guarantee と一律に同一ではない。  
-例: A public agency agreed to underwrite the loan.  
-訳: 公的機関がその融資の返済保証を引き受けることに同意した。  
+例: A public agency agreed to underwrite the loan by covering any repayments the borrower failed to make.  
+訳: 公的機関は、借り手が返済しなかった分を支払うことで、その融資の返済を保証することに同意した。  
 
 ・back  
 定義: 財務的に支援し、裏付けを与える。  
