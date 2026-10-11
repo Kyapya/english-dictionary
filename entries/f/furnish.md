@@ -3,9 +3,9 @@ headword: furnish
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-10
-updated_at: 2026-10-10
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -32,7 +32,7 @@ furniture「家具」は同じフランス語の動詞につながる語で、fu
 
 ＃コアイメージ
 
-共通するのは「ある場所や人の用に足りるものを備える・供給する」という関係。動詞は備える行為、furnished は家具が備わる状態、furnishings は室内や身の回りに備える品々を表す。  
+共通するのは「ある場所や人の用途に必要なものを備える・供給する」という関係。動詞は備える行為、furnished は家具が備わる状態、furnishings は室内や身の回りに備える品々を表す。  
 
 ・必要なものを室内の家具として備える行為 → 「家具を備える」（語義1）  
 
@@ -43,6 +43,8 @@ furniture「家具」は同じフランス語の動詞につながる語で、fu
 ・必要なものを室内に備えるための品々 → 「家具・室内調度品」（語義4）  
 
 ・必要なものを身支度のために備える品々 → 「衣料品・服飾小物」（語義5）  
+
+・製紙に必要なものとして供給する原料 → 「抄紙原料・紙料」（語義6）  
 
 ＃意味・用法・関連表現
 
@@ -291,8 +293,8 @@ furniture「家具」は同じフランス語の動詞につながる語で、fu
 
 ・soft furnishings  
 用途: 布製の室内装飾・生活用品をまとめて指す。  
-例: New curtains and cushions gave the room a fresh look without replacing any other soft furnishings.  
-訳: 新しいカーテンとクッションのおかげで、ほかの布製の室内用品を取り替えずに部屋の雰囲気が一新した。  
+例: New curtains and cushions gave the room a fresh look while the other soft furnishings remained unchanged.  
+訳: 新しいカーテンとクッションのおかげで、ほかの布製の室内用品はそのままでも、部屋の雰囲気が一新した。  
 
 ・period furnishings  
 用途: 特定の時代らしい様式の家具・調度品を表す。  
@@ -370,3 +372,46 @@ furniture「家具」は同じフランス語の動詞につながる語で、fu
 違い: この比較は北米のやや古風な商品名としての用法に限る。英国では針・糸・ボタンなどの裁縫用品を指すので、furnishings と一律には交換できない。  
 例: The old American catalog advertised haberdashery, including shirts and neckties.  
 訳: その古い米国のカタログには、シャツやネクタイなどの紳士用品の広告が載っていた。  
+
+6. 【名詞：通常不可算】抄紙原料・紙料
+
+【日本語訳・定義】製紙で、紙を作るために用意する繊維原料と水、必要に応じて加える填料などからなる混合物。完成した紙や家具ではなく、抄紙機に供給する原料を指す。原料の配合や種類を区別するときには可算扱いにもなる。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】製紙工業の専門用語。日常語の家具・調度品を表す furnishings とは別の名詞用法。  
+
+【文法パターン】papermaking furnish＝製紙用の原料／add 〈添加物〉 to the furnish＝紙料に添加物を加える／the composition of the furnish＝紙料の配合／different furnishes＝配合などが異なる複数種類の紙料。量として述べる場合は不可算、種類として区別する場合は a furnish や furnishes を用いる。  
+
+【コロケーション・構文例】
+
+・papermaking furnish  
+用途: 製紙に使う混合原料そのものを指す。  
+例: The papermaking furnish contains recycled fibers and water.  
+訳: この抄紙原料には再生繊維と水が含まれている。  
+
+・add 〈添加物〉 to the furnish  
+用途: 紙料に薬品や填料などを加える工程を述べる。  
+例: The mill adds a small amount of starch to the furnish.  
+訳: その工場では紙料に少量のでんぷんを加える。  
+
+・the composition of the furnish  
+用途: 原料の組成や配合について述べる。  
+例: The composition of the furnish affects the properties of the finished paper.  
+訳: 紙料の配合は、出来上がる紙の性質に影響する。  
+
+・different furnishes  
+用途: 配合の異なる紙料を種類として比較する。  
+例: The researchers tested two different furnishes, one with filler and one without.  
+訳: 研究者たちは、填料を含むものと含まないものの2種類の紙料を試験した。  
+
+【語法・注意】この furnish は物質を指す名詞で、動詞 furnish の目的語を省略した形ではない。名詞 furnish の複数形は furnishes であり、furnishings ではない。furnishes は動詞の三人称単数現在形と同じ綴りなので、文中の働きから判断する。原料を供給するという一般義とのつながりはあるが、製紙以外の材料全般を日常的に furnish と呼ぶわけではない。  
+
+【類義語】
+
+・stock  
+定義: 製紙工程で扱う、繊維を水に分散させた紙料。  
+頻度: 〈2/10〉  
+違い: この専門義で furnish と重なるが、stock は工程中の懸濁液や濃度に着目した表現にも多く、furnish は用いる原料の組合せ・配合にも焦点を置く。一般語の「在庫」とは区別する。  
+例: The stock is diluted before it reaches the headbox of the paper machine.  
+訳: 紙料は抄紙機のヘッドボックスに達する前に希釈される。  

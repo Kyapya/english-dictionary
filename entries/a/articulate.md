@@ -3,9 +3,9 @@ headword: articulate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-10
-updated_at: 2026-10-10
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -162,7 +162,7 @@ article「記事・条項・冠詞」と articular「関節の」もラテン語
 頻度: 〈7/10〉  
 違い: 発話の滑らかさや言語運用に重点があり、考えの明快な説明とは別の評価軸。  
 例: He is fluent in Spanish but finds formal presentations difficult.  
-訳: 彼はスペイン語を流暢に話すが、正式なプレゼンテーションは苦手だ。  
+訳: 彼はスペイン語を流暢に話すが、改まった場でのプレゼンテーションは苦手だ。  
 
 ・coherent  
 定義: 発言や説明の内容が筋道立っていて理解できる。  
@@ -331,7 +331,7 @@ article「記事・条項・冠詞」と articular「関節の」もラテン語
 例: A metal pin joins the two sections.  
 訳: 金属のピンが二つの部分をつないでいる。  
 
-6. 【動詞：他動詞・自動詞】音の出し方・つなぎ方をつけて演奏する
+6. 【動詞：他動詞・自動詞】音の出し方・つなぎ方を調整して演奏する
 
 【日本語訳・定義】音楽で、個々の音の始め方・切り方・つなぎ方を調整して、音符やフレーズを演奏・歌唱する。他動詞では音符・楽節などを目的語にする。単に音を大きくしたり、常に一音ずつ切り離したりする意味ではない。  
 

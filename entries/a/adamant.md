@@ -3,9 +3,9 @@ headword: adamant
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-10
-updated_at: 2026-10-10
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -87,7 +87,7 @@ diamond「ダイヤモンド」も、このギリシャ語に由来する同語�
 例: The more they pressed her to sign, the more adamant she became about seeking independent advice first.  
 訳: 署名するよう迫られれば迫られるほど、彼女はまず独立した立場の助言を求めるという態度を強めた。  
 
-【語法・注意】形容詞なので be などを伴う。正: She is adamant about staying.／誤: She adamants about staying.。about は前置詞で、後ろが動詞なら -ing にする。正: She is adamant about staying.／誤: She is adamant about to stay.。determined to stay は普通だが、同じ型の adamant to stay は標準的な学習用の形として勧めず、adamant about staying または adamant that she will stay とする。that 節は主張なら通常の時制を使い、要求なら動詞の原形や should を用いることがある。She is adamant that he left. は「彼は出ていったと断言している」、She is adamant that he leave/should leave. は「彼が出ていくべきだと譲らない」。主張内容の真偽を保証する表現ではない。adamant は強い意味を持つが、absolutely adamant、more adamant などを使えるので、程度修飾・比較が一切できないとはしない。名詞前も an adamant refusal のように可能。「断固反対する」では正: She is adamantly opposed to the plan.／誤: She is adamant opposed to the plan.。adamant about the plan だけでは賛成か反対かは確定せず、立場を明示する必要がある。  
+【語法・注意】述語として使う場合は、be などの連結動詞を伴う。正: She is adamant about staying.／誤: She adamants about staying.　about は前置詞で、後ろが動詞なら -ing にする。正: She is adamant about staying.／誤: She is adamant about to stay.　determined to stay は普通だが、同じ型の adamant to stay は標準的な学習用の形として勧めず、adamant about staying または adamant that she will stay とする。that 節は主張なら通常の時制を使い、要求なら動詞の原形や should を用いることがある。She is adamant that he left. は「彼は出ていったと断言している」、She is adamant that he leave/should leave. は「彼が出ていくべきだと譲らない」。主張内容の真偽を保証する表現ではない。adamant は強い意味を持つが、absolutely adamant、more adamant などを使えるので、程度修飾・比較が一切できないとはしない。名詞前も an adamant refusal のように可能。「断固反対する」では正: She is adamantly opposed to the plan.／誤: She is adamant opposed to the plan.　adamant about the plan だけでは賛成か反対かは確定せず、立場を明示する必要がある。  
 
 【類義語】
 
@@ -176,7 +176,7 @@ diamond「ダイヤモンド」も、このギリシャ語に由来する同語�
 ・a heart of adamant  
 用途: 文学的な比喩で、頼みや感情に動かされない心を表す。  
 例: The narrator describes the ruler as a man with a heart of adamant.  
-訳: 語り手はその支配者を、石のように心を動かさない男として描いている。  
+訳: 語り手はその支配者を、石のように情に動かされない男として描いている。  
 
 【語法・注意】She is adamant. の adamant は語義1の形容詞で、現代の日常語では「彼女は頑として譲らない」。a heart of adamant の adamant は前置詞 of の目的語となる物質名。人の頑固さそのものを通常 a person's adamant とは言わず、adamance/adamancy や firmness を使う。古い名詞の意味は歴史的な残存用法として覚え、一般的な金属・宝石の名称の代わりにはしない。  
 
