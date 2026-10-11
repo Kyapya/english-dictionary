@@ -3,9 +3,9 @@ headword: patronize
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-10
-updated_at: 2026-10-10
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -41,7 +41,7 @@ patron「支援者・ひいき客」に動詞を作る -ize を付けた語。pa
 
 【レジスター/領域】否定的評価。日常会話・職場・教育・接客・メディア批評。Don't patronize me. は、相手の態度に対するかなり直接的な抗議になり得る。  
 
-【文法パターン】patronize someone＝相手を直接目的語にする他動詞／patronize＝目的語を言わず、見下した接し方をするという自動詞／don't patronize someone＝その扱いをやめるよう求める／patronize someone by doing something＝どのような行為で見下して扱うかを示す／be patronized by someone＝相手から見下した扱いを受ける。主語は人だけでなく、番組・広告・文章などにもなる。  
+【文法パターン】patronize someone＝相手を直接目的語にする他動詞。能動態の主語は人だけでなく、番組・広告・文章などにもなる。／patronize＝目的語を言わず、見下した接し方をするという自動詞／don't patronize someone＝その扱いをやめるよう求める／patronize someone by doing something＝どのような行為で見下して扱うかを示す／be patronized by someone＝相手から見下した扱いを受ける。  
 
 【コロケーション・構文例】
 
@@ -86,7 +86,7 @@ patron「支援者・ひいき客」に動詞を作る -ize を付けた語。pa
 頻度: 〈5/10〉  
 違い: この意味では patronize と非常に近いが、condescend to someone という自動詞＋前置詞の形を取る。condescend to do は「わざわざしてやる」という別の構文。  
 例: Senior staff should not condescend to their younger colleagues.  
-訳: 年長の職員は、若い同僚に対して見下した態度を取るべきではない。  
+訳: 上級職員は、若い同僚に対して見下した態度を取るべきではない。  
 
 ・belittle  
 定義: 人やその能力・成果などを、実際より小さく価値の低いものとして扱う。  

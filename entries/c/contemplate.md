@@ -3,9 +3,9 @@ headword: contemplate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-10
-updated_at: 2026-10-10
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -292,7 +292,7 @@ temple「神殿・寺院」もラテン語 templum に由来する同語源の�
 頻度: 〈5/10〉  
 違い: 文学的で、regard someone with curiosity のように見る側の態度を示しやすい。contemplate は注意を留める時間や思索の響きが出る。  
 例: He regarded the sealed box with curiosity.  
-訳: 彼は好奇心をもって、その封をされた箱を見つめた。  
+訳: 彼は好奇心をもって、封がしてあるその箱を見つめた。  
 
 5. 【動詞句・他動詞型の慣用表現】自分のことばかり考え込む
 

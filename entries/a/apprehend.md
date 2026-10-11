@@ -3,9 +3,9 @@ headword: apprehend
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-10
-updated_at: 2026-10-10
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -78,7 +78,7 @@ comprehend「理解する」と prehensile「物をつかめる」は、同じ�
 例: The driver was apprehended by the police after a short pursuit.  
 訳: 運転手は短時間の追跡の末、警察に捕らえられた。  
 
-【語法・注意】人を直接目的語に取る。正: The officers apprehended him.／誤: The officers apprehended to him.。罪状や理由は for、事件との関連は in connection with で添えられる。apprehend には「捕まえて押さえる」という面があり、arrest は法的な逮捕を明示する標準語だが、報道では両者が同じ出来事を指すことも多い。apprehend だけから、令状の有無・正式な起訴・有罪判決まで推測しない。人なら語義1、意味や概念なら語義2が基本で、apprehend the suspect は「容疑者を理解する」という通常の言い方にはならない。The suspect was apprehended. は受動態で、The suspect was apprehensive.「容疑者は不安を感じていた」とは異なる。  
+【語法・注意】人を直接目的語に取る。正: The officers apprehended him.／誤: The officers apprehended to him.　罪状や理由は for、事件との関連は in connection with で添えられる。apprehend には「捕まえて押さえる」という面があり、arrest は法的な逮捕を明示する標準語だが、報道では両者が同じ出来事を指すことも多い。apprehend だけから、令状の有無・正式な起訴・有罪判決まで推測しない。人なら語義1、意味や概念なら語義2が基本で、apprehend the suspect は「容疑者を理解する」という通常の言い方にはならない。The suspect was apprehended. は受動態で、The suspect was apprehensive.「容疑者は不安を感じていた」とは異なる。  
 
 【類義語】
 
@@ -204,7 +204,7 @@ comprehend「理解する」と prehensile「物をつかめる」は、同じ�
 ・apprehend immediate unlawful violence  
 用途: イングランド・ウェールズの assault を論じる法律文で、差し迫った違法な暴力を受けると予期することを表す。  
 例: The court considered whether the gesture had caused her to apprehend immediate unlawful violence.  
-訳: 裁判所は、その身ぶりによって彼女が差し迫った違法な暴力を予期したかどうかを検討した。  
+訳: 裁判所は、その身ぶりによって彼女が差し迫った違法な暴力を受けると予期したかどうかを検討した。  
 
 【語法・注意】apprehend violence は「暴力を逮捕する」ではなく、「暴力が起こると予期する」。法律上の apprehend は文脈によって「予期・認識」に重点があり、「恐怖を感じた」と必ず訳すと強すぎる場合がある。assault の成立には他の要件も関わるため、この語だけで犯罪の成立を判定しない。日常の「～を心配している」には be apprehensive about something や fear that 〈節〉を用いる。古風な動詞用法が辞書にあることを理由に、apprehend を worry の一般的な代用語にはしない。  
 

@@ -3,9 +3,9 @@ headword: consolidate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-10
-updated_at: 2026-10-10
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -58,7 +58,7 @@ solid「固体の・しっかりした」、solidify「固まる・固める」�
 
 【レジスター/領域】ややフォーマル。ビジネス・政治・スポーツ報道・軍事・教育。日常会話では strengthen や build on what we have などに言い換えることもある。  
 
-【文法パターン】consolidate one's position as 〈役割〉＝その役割での地位を固める／consolidate one's hold on 〈支配対象〉＝支配を確かなものにする／consolidate 〈power/a lead/gains/knowledge〉＝権力・リード・成果・知識を定着、強化する／someone/an organization + consolidate＝基盤を固める。対象は直接目的語で、受動形 be consolidated も可能。  
+【文法パターン】consolidate one's position as 〈役割〉＝その役割での地位を固める／consolidate one's hold on 〈支配対象〉＝支配を確かなものにする／consolidate 〈power/a lead/gains/knowledge〉＝権力・リード・成果・知識を定着、強化する／someone/an organization + consolidate＝基盤を固める。他動詞用法では対象を直接目的語に取り、受動形 be consolidated も可能。  
 
 【コロケーション・構文例】
 
@@ -190,7 +190,7 @@ solid「固体の・しっかりした」、solidify「固まる・固める」�
 ・be consolidated with other shipments  
 用途: 物流で、貨物がほかの貨物と一緒に輸送されるようまとめられる。  
 例: Our boxes will be consolidated with other shipments before the container leaves the port.  
-訳: コンテナが出港する前に、私たちの箱はほかの貨物とまとめて積まれる。  
+訳: コンテナが港を出る前に、私たちの箱はほかの貨物とまとめて積まれる。  
 
 【語法・注意】consolidate A into B ではBはまとめた結果、consolidate A with B ではBは統合の相手なので、同じ前置詞として交換しない。受動の The offices were consolidated. と自動詞の The companies consolidated. はどちらも可能。into/with は目的語を前後に移せる小辞ではなく前置詞で、代名詞は consolidate them into one unit の位置に置く。集約先が二か所なら consolidate operations into two sites とも言えるため、「必ず一つになる」と狭く定義しない。企業の統合が法人の吸収合併・新設合併のどれに当たるかは法域と具体的手続きによる。債務の一本化は返済先や契約をまとめることで、元本の免除や総支払額の減少を保証しない。訴訟での consolidate cases/actions は「事件・訴訟を併合する」という専門的な用法であり、会社の合併や債務整理を意味しない。  
 
@@ -253,7 +253,7 @@ solid「固体の・しっかりした」、solidify「固まる・固める」�
 
 【頻度】〈6/10〉  
 
-【レジスター/領域】業務資料・組織運営・会計。会計以外でも consolidated list/report などは広く使う。  
+【レジスター/領域】業務資料・組織運営・会計。会計以外でも consolidated list や consolidated report などは広く使う。  
 
 【文法パターン】a consolidated 〈list/report/invoice〉＝一つにまとめた一覧・報告書・請求書／consolidated financial statements＝連結財務諸表／on a consolidated basis＝連結ベースで／〈組織・情報〉 + be consolidated＝統合された状態にある。主に名詞の前で使い、fully/partially consolidated のように統合の範囲・完了度を表せる。  
 

@@ -3,9 +3,9 @@ headword: stint
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-10
-updated_at: 2026-10-10
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -440,7 +440,7 @@ stunt「成長を妨げる」という動詞は語源的に関係する。名詞
 ・a little stint  
 用途: little stint と呼ばれる小型のシギを指す。  
 例: A little stint was feeding at the muddy edge of the lagoon.  
-訳: 小型のシギである little stint が、潟の泥の縁で餌を食べていた。  
+訳: ヨーロッパトウネンが、潟の泥の多い岸辺で餌を食べていた。  
 
 【語法・注意】ここでの little は、勤務期間が短いという意味を作っているのではなく、鳥の英名の一部。sandpiper はより広い鳥の名称なので、すべての sandpiper を stint と呼べるわけではない。  
   

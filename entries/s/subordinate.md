@@ -3,9 +3,9 @@ headword: subordinate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-10
-updated_at: 2026-10-10
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -52,6 +52,8 @@ order「順序・命令」、ordain「任命する・定める」、coordinate�
 ・弁済順位の関係で下位にある債務 → 「弁済順位が劣後する」（語義7）  
 
 ・弁済順位の関係で下位に置く行為 → 「弁済順位を劣後させる」（語義8）  
+
+・意味の包含関係で下位にある語 → 「下位語」（語義9）  
 
 ＃意味・用法・関連表現
 
@@ -391,7 +393,7 @@ order「順序・命令」、ordain「任命する・定める」、coordinate�
 
 【レジスター/領域】文法・英語教育・言語学。  
 
-【文法パターン】a subordinate clause＝一つの従属節／subordinate clauses＝従属節一般・複数の従属節／a clause subordinate to 〈別の節〉＝別の節に従属する節。通常は clause の前に置く。文法分類を表すため、very subordinate や more subordinate による単純な程度比較は基本としない。  
+【文法パターン】a subordinate clause＝一つの従属節／subordinate clauses＝従属節一般・複数の従属節／a clause subordinate to 〈別の節〉＝別の節に従属する節。通常は a subordinate clause のように clause の前に置く。to 以下を伴う a clause subordinate to … では、clause の後ろから修飾する。文法分類を表すため、very subordinate や more subordinate による単純な程度比較は基本としない。  
 
 【コロケーション・構文例】
 
@@ -480,7 +482,7 @@ order「順序・命令」、ordain「任命する・定める」、coordinate�
 
 【レジスター/領域】金融・契約・倒産法。専門的。  
 
-【文法パターン】subordinate 〈a debt/a claim〉 to 〈別の債務・債権〉＝前者の順位を後者より下げる／〈債務・債権〉 + be subordinated to 〈別の債務・債権〉＝前者の順位が後者に劣後する。主語は契約・裁判所・合意する当事者など、目的語は下位になる権利・債務。  
+【文法パターン】subordinate 〈a debt/a claim〉 to 〈別の債務・債権〉＝前者の順位を後者より下げる／〈債務・債権〉 + be subordinated to 〈別の債務・債権〉＝前者の順位が後者に劣後する。能動構文では、主語は契約・裁判所・合意する当事者など、目的語は下位になる権利・債務。受動構文では、その権利・債務が主語になる。  
 
 【コロケーション・構文例】
 
@@ -495,4 +497,41 @@ order「順序・命令」、ordain「任命する・定める」、coordinate�
 訳: 契約には、株主ローンが銀行借入債務に劣後すると定められている。  
 
 【語法・注意】subordinate A to B の向きは他の語義と同じで、A が後になる。単なる支払日の延期を述べる postpone payment とは異なる。be subordinated to は受動・結果的な表現、be subordinate to（語義7）は順位関係を述べる形容詞構文。語そのものから、劣後化に必要な手続き・同意者・法的効力を推定しない。  
-  
+
+9. 【名詞：可算】下位語
+
+【日本語訳・定義】言語学で、より一般的な語が表す意味範囲に含まれる、より具体的な語。例えば rose「バラ」は flower「花」の一種を表すため、その下位語となる。組織内の部下を指す語義2とは区別する。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】言語学・意味論の専門用語。日常会話ではなく、語の意味の分類を説明する場面で使う。  
+
+【文法パターン】a subordinate of 〈上位語〉＝ある語の下位語の一つ／the subordinates of 〈上位語〉＝ある語に属する下位語群／a superordinate and its subordinates＝上位語とその下位語群。単数では冠詞などを伴い、複数形は subordinates。  
+
+【コロケーション・構文例】
+
+・a subordinate of 〈上位語〉  
+用途: ある語が別の語の下位語であることを述べる。  
+例: In this semantic classification, "rose" is a subordinate of "flower."  
+訳: この意味分類では、rose は flower の下位語である。  
+
+・the subordinates of 〈上位語〉  
+用途: 一つの上位語に含まれる下位語群を示す。  
+例: The students listed "oak" and "pine" among the subordinates of "tree."  
+訳: 学生たちは tree の下位語として oak と pine を挙げた。  
+
+・a superordinate and its subordinates  
+用途: 上位語と下位語の意味関係を対にして説明する。  
+例: The diagram shows a superordinate and its subordinates: "vehicle" above "car" and "bus."  
+訳: 図は上位語とその下位語を示し、vehicle の下に car と bus を配置している。  
+
+【語法・注意】名詞では a subordinate of "flower" のように of を使う。形容詞の subordinate to と混同しない。意味の包含関係を表し、語の重要性が低いという評価ではない。上位語を表す superordinate は同じ関係を逆の側から示す対照語であり、意味そのものが反対の語ということではない。  
+
+【類義語】
+
+・hyponym  
+定義: 別の語の意味範囲に含まれる、より具体的な語。  
+頻度: 〈2/10〉  
+違い: 下位語という意味関係を直接指す専門語で、subordinate のような「部下」の一般義がない。  
+例: "Tulip" is a hyponym of "flower."  
+訳: tulip は flower の下位語である。  
