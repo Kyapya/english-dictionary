@@ -3,9 +3,9 @@ headword: precipitate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-10
-updated_at: 2026-10-10
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -401,7 +401,7 @@ precipitated /prɪˈsɪpɪteɪtɪd/ は5音節で、-ed は /ɪd/。precipitatin
 
 ・precipitate from solution  
 用途: 主語の物質が溶液から分離することを述べる。  
-例: The compound precipitated from solution as it cooled.  
+例: The compound precipitated from solution as the solution cooled.  
 訳: 溶液が冷えるにつれて、その化合物が析出した。  
 
 ・precipitate out of solution  

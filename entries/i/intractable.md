@@ -3,9 +3,9 @@ headword: intractable
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-10
-updated_at: 2026-10-10
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -67,7 +67,7 @@ tags: []
 ・remain intractable  
 用途: 努力の後も問題の解決が難しいままだと述べる。  
 例: The funding problem remained intractable despite months of negotiations.  
-訳: 数か月の交渉にもかかわらず、資金の問題は解決の難しいままだった。  
+訳: 数か月の交渉にもかかわらず、資金の問題は解決が難しいままだった。  
 
 ・prove intractable  
 用途: 実際に取り組んだ結果、手ごわさが明らかになる場合に使う。  
@@ -75,9 +75,9 @@ tags: []
 訳: 小さな日程調整の問題に見えたものが、実際には非常に解決しにくいと分かった。  
 
 ・a seemingly intractable problem  
-用途: 解決不能に近く見えても、それが外見上の判断だと限定する。  
+用途: 解決が非常に難しく見えても、それが外見上の判断だと限定する。  
 例: The new agreement resolved a seemingly intractable problem.  
-訳: 新たな合意によって、一見解決の見込みがなかった問題が解決した。  
+訳: 新たな合意によって、一見非常に解決しにくいと思われた問題が解決した。  
 
 ・become more intractable  
 用途: 時間の経過や事情の変化によって解決がさらに難しくなることを示す。  
