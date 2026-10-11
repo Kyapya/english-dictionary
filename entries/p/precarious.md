@@ -3,9 +3,9 @@ headword: precarious
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-10
-updated_at: 2026-10-10
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -57,7 +57,7 @@ tags: []
 ・earn a precarious living  
 用途: 収入が安定せず、生活の見通しを立てにくいことを表す。  
 例: For years, he earned a precarious living from short-term repair jobs.  
-訳: 彼は何年もの間、短期の修理仕事で不安定な生計を立てていました。  
+訳: 彼は何年もの間、短期の修理仕事による不安定な収入で生計を立てていました。  
 
 ・lead a precarious existence  
 用途: 生活そのものが安定や安全を欠くことを述べる。  
@@ -159,7 +159,7 @@ tags: []
 ・a precarious foothold  
 用途: 足を置く場所が不安定で、踏み外しそうなことをいう。  
 例: The climber found a precarious foothold on a narrow ledge.  
-訳: 登山者は狭い岩棚に、かろうじて足を掛けられる場所を見つけました。  
+訳: 登山者は狭い岩棚に、不安定で危なっかしい足場を見つけました。  
 
 ・a precarious pile of 〈複数名詞〉  
 用途: 積み重なった物が崩れそうな様子を描写する。  

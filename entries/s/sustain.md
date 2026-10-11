@@ -3,9 +3,9 @@ headword: sustain
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-10
-updated_at: 2026-10-10
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -23,7 +23,7 @@ tags: []
 ＃語形成
 
 ・sustains／sustained／sustaining：三人称単数現在形／過去形・過去分詞／-ing 形。綴りの n は重ねない。sustained には「衰えず続く」という形容詞用法もあり、語義4で扱う。  
-・sustaining：分詞のほか、「生命・気力などを支える」という形容詞的な用法。a sustaining meal「力のつく食事」、the sustaining power of friendship「友情の支える力」。sustained「継続している」と、支えを与える側を表す sustaining を区別する。  
+・sustaining：分詞のほか、「生命・気力などを支える」という形容詞的な用法。a sustaining meal「力のつく食事」、the sustaining power of friendship「友情が心を支える力」。sustained「継続している」と、支えを与える側を表す sustaining を区別する。  
 ・sustainable：形容詞「長期的に維持できる」。a sustainable pace「無理なく続けられるペース」。資源・環境の文脈では、環境への負荷や資源の消耗を抑えて続けられることを表す。sustain + -able で、常に環境問題の意味とは限らない。  
 ・sustainability／sustainably／unsustainable：名詞「持続可能性」、副詞「持続可能なやり方で」、形容詞「維持できない」。sustained growth は続く成長、sustainable growth は続けられる成長で、継続の性質と可能性を区別する。  
 ・self-sustaining：形容詞「外部の支援に頼らず存続できる」。a self-sustaining business／The business is self-sustaining. と限定・叙述の両方で使い、ハイフンを保つ。sustain oneself という動詞の再帰構文を、ハイフンでつないだ形ではない。  
@@ -60,11 +60,11 @@ tags: []
 
 【レジスター/領域】一般・やや改まった表現。ビジネス、経済、活動の評価、音楽など。  
 
-【文法パターン】sustain something＝活動・水準などを直接目的語に取る。sustain something for 〈期間〉／sustain something over 〈期間〉＝持続期間を添える。sustain someone's interest in something＝人のある対象への関心を保つ。be sustained by something＝ある要因によって継続が保たれる。sustain something at 〈水準〉＝一定の水準で保つ。sustain a note＝音を伸ばす。継続そのものを自動詞で述べる通常の文では continue/last を使う。  
+【文法パターン】sustain something＝活動・水準などを直接目的語に取る。sustain something for 〈期間〉＝どのくらい持続させるかを示す。sustain something over 〈期間〉＝どの期間にわたって持続させるかを示す。sustain someone's interest in something＝人のある対象への関心を保つ。be sustained by something＝ある要因によって継続が保たれる。sustain something at 〈水準〉＝一定の水準で保つ。sustain a note＝音を伸ばす。継続そのものを自動詞で述べる通常の文では continue/last を使う。  
 
 【コロケーション・構文例】
 
-・sustain economic growth  
+・sustain growth  
 用途: 経済や事業の成長が続くようにする。  
 例: The company needs repeat customers to sustain growth after the initial launch.  
 訳: その会社が発売直後の時期を過ぎても成長を続けるには、リピーターが必要だ。  
@@ -239,7 +239,7 @@ tags: []
 
 【レジスター/領域】改まった表現。報道、事故報告、業績・損害の記述。日常会話では get hurt、suffer なども使う。  
 
-【文法パターン】someone sustains an injury／someone sustains injuries＝人がけがをする。something sustains damage＝物が損傷を受ける。a company sustains a loss／a company sustains losses＝企業が損失を被る。sustain a defeat＝敗北を喫する。injuries/damage sustained in/during 〈出来事〉＝受けたけが・損傷を過去分詞で後置修飾する。受動態は Injuries were sustained by ... のように成立するが、主語を人にした通常の能動文が分かりやすい。  
+【文法パターン】someone sustains an injury＝人が一つのけがをする。someone sustains injuries＝人が複数のけがをする。something sustains damage＝物が損傷を受ける。a company sustains a loss＝企業が損失を被る。a company sustains losses＝企業が損失を被る（loss の複数形。損失額や被害をまとめて表すこともある）。sustain a defeat＝敗北を喫する。injuries/damage sustained in/during 〈出来事〉＝受けたけが・損傷を過去分詞で後置修飾する。受動態は Injuries were sustained by ... のように成立するが、主語を人にした通常の能動文が分かりやすい。  
 
 【コロケーション・構文例】
 
@@ -450,7 +450,7 @@ tags: []
 頻度: 〈7/10〉  
 違い: 人が苦難を長く我慢する場面に向く。構造物が重量を支えるという物理的な支持は中心義ではない。  
 例: The residents endured months of disruption.  
-訳: 住民たちは、生活が混乱した数か月を耐えた。  
+訳: 住民たちは、数か月にわたる生活の混乱に耐えた。  
 
 6. 【動詞・他動詞】証拠で裏付ける
 
@@ -545,7 +545,7 @@ tags: []
 
 【レジスター/領域】法律。英語圏の判決・裁判報道・法廷表現。具体的な手続きや効果は法域と対象による。  
 
-【文法パターン】a judge/court + sustain + 〈異議・主張・申立て〉＝判断する主体を主語にする。sustain an objection／sustain a claim／sustain a motion。sustain a decision/verdict＝既存の判断を維持する。an objection is sustained＝異議を主語にした受動態。Objection sustained.／Sustained. は裁判官の短い応答として使う。  
+【文法パターン】a judge/court + sustain + 〈異議・主張・申立て〉＝判断する主体を主語にする。sustain an objection＝異議を認める。sustain a claim＝主張を認める。sustain a motion＝申立てを認める。sustain a decision/verdict＝既存の判断を維持する。an objection is sustained＝異議を主語にした受動態。Objection sustained.＝「異議を認めます」という裁判官の短い応答。Sustained.＝同じ応答を一語で表す。  
 
 【コロケーション・構文例】
 

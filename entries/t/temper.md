@@ -3,9 +3,9 @@ headword: temper
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-10
-updated_at: 2026-10-10
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -103,7 +103,7 @@ tempers の語尾は /z/、tempered の -ed は /d/ で、いずれも音節は�
 ・lose one's temper with someone  
 用途: 相手に対して怒りを爆発させる。  
 例: I lost my temper with the agent after he interrupted me for the third time.  
-訳: 担当者が三度目に話を遮ったとき、私はつい腹を立ててしまった。  
+訳: 担当者が三度目に話を遮ったあと、私はその担当者に対してついかっとなってしまった。  
 
 ・keep one's temper  
 用途: 腹が立つ場面でも自制する。  
@@ -176,7 +176,7 @@ tempers の語尾は /z/、tempered の -ed は /d/ で、いずれも音節は�
 
 【頻度】〈6/10〉  
 
-【レジスター/領域】in a good/bad temper は特に英。性向や集団の気風を述べる用法は硬め・文語的。  
+【レジスター/領域】in a good temper と in a bad temper は特に英。性向や集団の気風を述べる用法は硬め・文語的。  
 
 【文法パターン】be in a 〈good/bad/better〉 temper／a person of 〈calm/even〉 temper／the temper of 〈the times/the electorate〉。気分を一つの状態として捉える場合は可算、of even temper のように性質として捉える場合は不可算。集団の傾向を特定するときは the temper of ... が典型。  
 
@@ -238,7 +238,7 @@ tempers の語尾は /z/、tempered の -ed は /d/ で、いずれも音節は�
 
 【頻度】〈7/10〉  
 
-【レジスター/領域】硬め。報道、評論、実務文書。能動も使うが、be tempered by/with がよく現れる。  
+【レジスター/領域】硬め。報道、評論、実務文書。能動も使うが、be tempered by と be tempered with がよく現れる。  
 
 【文法パターン】temper 〈criticism/expectations/enthusiasm〉／temper 〈A〉 with 〈B〉＝AをBによって和らげる／〈A〉 + be tempered by 〈影響・原因〉／〈A〉 + be tempered with 〈加味される要素〉。Aが直接目的語、Bは調整をもたらす要素。受動態が可能。  
 
@@ -262,7 +262,7 @@ tempers の語尾は /z/、tempered の -ed は /d/ で、いずれも音節は�
 ・temper enthusiasm with caution  
 用途: 熱意に慎重さを加える。  
 例: We should temper our enthusiasm with caution until the safety tests are complete.  
-訳: 安全性試験が終わるまでは、熱意だけでなく慎重さも持つべきだ。  
+訳: 安全性試験が終わるまでは、慎重さをもって熱意の行き過ぎを抑えるべきだ。  
 
 ・be tempered by uncertainty  
 用途: 不確実性が期待や喜びの強さを抑えることを述べる。  
@@ -364,7 +364,7 @@ tempers の語尾は /z/、tempered の -ed は /d/ で、いずれも音節は�
 例: The interview ended with a bad-tempered exchange about expenses.  
 訳: その面談は、経費をめぐる険悪な応酬で終わった。  
 
-【語法・注意】a short temper は名詞句、a short-tempered manager は形容詞による名詞修飾。正: She is short-tempered.／誤: She is short temper. これらの定着した複合語は叙述でも通常ハイフンを保つ。bare tempered だけを「気性が穏やかな」の意味にはしない。tempered steel の tempered は語義7の加工に由来する別の用法。bad-tempered は持続的性格にも一時的機嫌にもなり、even-tempered は「感情がない」ことではない。good-tempered と bad-tempered、even-tempered と quick-tempered は対照になるが、good と even は同義ではない。  
+【語法・注意】a short temper は名詞句、a short-tempered manager は形容詞による名詞修飾。正: She is short-tempered.／誤: She is short temper. これらの定着した複合語は叙述でも通常ハイフンを保つ。tempered 単独を「気性が穏やかな」の意味では使わない。tempered steel の tempered は語義7の加工に由来する別の用法。bad-tempered は持続的性格にも一時的機嫌にもなり、even-tempered は「感情がない」ことではない。good-tempered と bad-tempered、even-tempered と quick-tempered は対照になるが、good と even は同義ではない。  
 
 【類義語】
 

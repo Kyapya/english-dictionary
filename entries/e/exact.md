@@ -3,9 +3,9 @@ headword: exact
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-10
-updated_at: 2026-10-10
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -191,7 +191,7 @@ tags: []
 頻度: 〈6/10〉  
 違い: exact と重なる注意深さに加え、規則や倫理を誠実に守る含みが出やすい。  
 例: The researcher was scrupulous about acknowledging her sources.  
-訳: その研究者は出典を明示することを厳密に守っていました。  
+訳: その研究者は出典を明示する際、細心の注意を払っていました。  
 
 【反意語】
 
@@ -321,7 +321,7 @@ tags: []
 ・exact revenge on someone for something  
 用途: 報復の相手と理由を明示する。  
 例: In the novel, the former official plots to exact revenge on his rivals for his dismissal.  
-訳: その小説では、元役人が自分を解任した仕返しに、敵対者たちへの復讐を企てます。  
+訳: その小説では、元役人が解任されたことへの仕返しに、敵対者たちへの復讐を企てます。  
 
 ・exact one's revenge  
 用途: 復讐や雪辱を、誰のものかを示して述べる。  
@@ -416,7 +416,7 @@ tags: []
 
 【レジスター/領域】やや硬い一般表現。仕事、品質管理、専門技能、身体活動。  
 
-【文法パターン】exacting 〈work/standards/requirements〉＝労力を要する仕事・高い要求水準／an exacting 〈client/manager〉＝要求の厳しい顧客・管理職／be/become more exacting＝仕事などの要求がさらに厳しくなる／be physically exacting＝身体に大きな負荷を要求する。very・extremely・more・less などで程度を表せる。  
+【文法パターン】exacting 〈work/standards/requirements〉＝労力を要する仕事・高い要求水準／an exacting 〈client/manager〉＝要求の厳しい顧客・管理職／be/become more exacting＝仕事などの要求がさらに厳しくなる／be physically exacting＝身体に大きな負担をかける。very・extremely・more・less などで程度を表せる。  
 
 【コロケーション・構文例】
 

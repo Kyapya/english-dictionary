@@ -3,9 +3,9 @@ headword: pertain
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-10
-updated_at: 2026-10-10
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -216,4 +216,4 @@ tags: []
 頻度: 〈6/10〉  
 違い: その場を支配している状態・一般的な状況を表しやすい。pertain には、広く優勢であるという意味は必須ではない。  
 例: Similar working conditions prevail across the industry.  
-訳: 業界全体で、同じような労働条件が一般的になっている。  
+訳: 業界全体で、同じような労働条件が一般的に見られる。  
