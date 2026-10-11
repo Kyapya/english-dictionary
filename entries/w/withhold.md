@@ -3,9 +3,9 @@ headword: withhold
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -51,7 +51,7 @@ withdraw「引き下げる・撤回する」と withstand「抵抗する・耐�
 
 【レジスター/領域】やや硬い一般語。報道、業務連絡、契約、行政、意思決定。  
 
-【文法パターン】withhold something (from someone/something)＝物・情報・許可などを与えずにおく。from は受取人・提供先を示し、省略できる／withhold 〈payment/approval/judgment〉 until ...＝一定の時点・条件まで支払・承認・判断を保留する／something + be withheld (from someone)＝対象が提供されない。主語は個人・組織など、目的語は提供・表明する内容で、通常の受動態も使う。  
+【文法パターン】withhold something (from someone/something)＝物・情報・許可などを与えずにおく。from は受取人・提供先を示し、省略できる／withhold 〈payment/approval/judgment〉 until ...＝一定の時点・条件まで支払・承認・判断を保留する／something + be withheld (from someone)＝対象が提供されない。能動文では、主語は個人・組織など、目的語は提供・表明する内容で、通常の受動態も使う。  
 
 【コロケーション・構文例】
 
@@ -124,7 +124,7 @@ withdraw「引き下げる・撤回する」と withstand「抵抗する・耐�
 定義: 判断などをすぐに表明せず、後のために残しておく。  
 頻度: 〈6/10〉  
 違い: reserve judgment では判断保留が共通する。一般には将来の使用・決定に備える意味が強く、提供拒否全般には置き換えられない。  
-例: I will reserve judgment until the trial is over.  
+例: I will reserve judgment until the trial period is over.  
 訳: 試用が終わるまで判断を保留します。  
 
 【反意語】
@@ -320,7 +320,7 @@ withdraw「引き下げる・撤回する」と withstand「抵抗する・耐�
 ・an emotionally withholding parent  
 用途: 愛情や親しみをなかなか示さない親を描写する。  
 例: The novel portrays an emotionally withholding parent who rarely offers comfort.  
-訳: その小説は、めったに慰めの言葉をかけず、愛情をなかなか示さない親を描いている。  
+訳: その小説は、めったに人を慰めず、愛情をなかなか示さない親を描いている。  
 
 ・be emotionally withholding  
 用途: 人が相手に気持ちを示さない態度であると述べる。  

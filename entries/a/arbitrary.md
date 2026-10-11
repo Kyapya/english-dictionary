@@ -3,9 +3,9 @@ headword: arbitrary
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-10
-updated_at: 2026-10-10
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -205,7 +205,7 @@ tags: []
 例: A flaw in the file reader could allow arbitrary code execution when a malicious file is opened.  
 訳: ファイル読み取り機能の欠陥により、悪意あるファイルを開いた際に任意のコードが実行されるおそれがある。  
 
-【語法・注意】arbitrary は random「無作為な」と同じではない。Choose an arbitrary integer. は「整数を任意に一つ選ぶ」で、Choose a random integer. は確率的な選び方を意図する。任意に取った定数も、同じ議論の途中で値を自由に変更する変数にはならない。副詞の arbitrarily large/small は「必要に応じていくらでも大きい／小さい」という重要表現で、There are arbitrarily large prime numbers. は「どんな大きさの上限を置いても、それを超える素数がある」という意味。誤 arbitrary large numbers に対し、正 arbitrarily large numbers とする。an arbitrary large number なら arbitrary と large がともに number を修飾する別構造で、「大きい数を任意に一つ」という読みが可能。arbitrary code は「でたらめなコード」ではなく、実行側が選んだコード。実行に必要な条件や得られる権限は、arbitrary という語だけからは決まらない。  
+【語法・注意】arbitrary は random「無作為な」と同じではない。Choose an arbitrary integer. は「整数を任意に一つ選ぶ」で、Choose a random integer. は確率的な選び方を意図する。任意に取った定数も、同じ議論の途中で値を自由に変更する変数にはならない。副詞の arbitrarily large/small は「必要に応じていくらでも大きい／小さい」という重要表現で、There are arbitrarily large prime numbers. は「どんな大きさの上限を置いても、それを超える素数がある」という意味。「いくらでも大きい数」を表す場合は、arbitrary large numbers ではなく arbitrarily large numbers とする。an arbitrary large number なら arbitrary と large がともに number を修飾する別構造で、「大きい数を任意に一つ」という読みが可能。arbitrary code は「でたらめなコード」ではなく、実行側が選んだコード。実行に必要な条件や得られる権限は、arbitrary という語だけからは決まらない。  
 
 【類義語】
 
@@ -214,7 +214,7 @@ tags: []
 頻度: 〈6/10〉  
 違い: arbitrary は選択の一般性を表せるが、unspecified は単に指定・開示がないこと。値が不明でも、任意の値で成立するとは限らない。  
 例: The program waits for an unspecified number of seconds.  
-訳: そのプログラムは、秒数が指定されていない時間だけ待機する。  
+訳: そのプログラムは何秒間か待機するが、具体的な秒数は明示されていない。  
 
 ・any  
 定義: ある範囲のどれを取ってもよい、いずれのものでも。  

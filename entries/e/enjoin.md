@@ -3,9 +3,9 @@ headword: enjoin
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-10
-updated_at: 2026-10-10
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -15,7 +15,7 @@ tags: []
 米・英: /ɪnˈdʒɔɪn/  
 2音節で、第2音節に主強勢がある。第1音節の母音は /ɪ/、第2音節の母音は二重母音 /ɔɪ/。特に米語では /ɛnˈdʒɔɪn/ もあり、この異形で変わるのは第1音節の母音 /ɪ/ → /ɛ/ だけ。語末の /n/ を落とすと enjoy /ɪnˈdʒɔɪ/ に近くなるため、最後まで発音する。  
 enjoins /ɪnˈdʒɔɪnz/、enjoined /ɪnˈdʒɔɪnd/、enjoining /ɪnˈdʒɔɪnɪŋ/。  
--s は /z/、-ed は /d/ で、この二つでは音節数は増えない。enjoining は3音節で、n を重ねずに -ing を付ける。  
+活用語尾の -s は /z/、-ed は /d/ で、この二つでは音節数は増えない。enjoining は3音節で、n を重ねずに -ing を付ける。  
 
 ＃語源
 
@@ -71,7 +71,7 @@ join「結ぶ、加わる」、junction「接合点、分岐点」、conjunction
 ・enjoin the enforcement of 〈法令〉  
 用途: 法令自体の制定・廃止と、その執行の差止めを区別する。  
 例: The court enjoined the enforcement of the new ordinance while the challenge was pending.  
-訳: 裁判所は、異議を争う訴訟が係属している間、その新条例の執行を差し止めた。  
+訳: 裁判所は、その新条例に対する異議申立ての訴訟が係属している間、その新条例の執行を差し止めた。  
 
 ・seek to enjoin someone from doing something  
 用途: 当事者が裁判所に差止めを求めている段階を述べる。  
@@ -83,7 +83,7 @@ join「結ぶ、加わる」、junction「接合点、分岐点」、conjunction
 例: She felt enjoined by conscience from taking credit for another person's work.  
 訳: 彼女は、他人の仕事を自分の手柄にすることは良心が許さないと感じていた。  
 
-【語法・注意】from の後ろに動作を置く場合は -ing 形を使う。誤: enjoin them from sell the land。正: enjoin them from selling the land「彼らが土地を売るのを禁じる」。これに対し、語義2の enjoin them to sell the land は「土地を売るよう彼らに命じる」で、行動の向きが逆になる。ただし enjoin them to stop selling や enjoin them not to sell も販売をやめさせる指示なので、to があれば必ず実行を促す、と語だけで判定しない。 enjoin the sale は、裁判の文脈では通常「売却を差し止める」。一方、語義3の enjoin silence は「沈黙を命じる」であり、沈黙を禁止するのではない。直接目的語を取る形だけから、命令と禁止の向きを決めない。司法的な enjoin は法的に禁じることを表し、物理的に不可能にしたことや、相手が実際に従ったことまでは保証しない。seek to enjoin は申立て・要求の側の表現で、差止命令がすでに出たことにはならない。 enjoin enforcement は執行を止めるという意味で、法令を廃止する repeal や、無効と判断すること自体と同じではない。命令の対象、期間、認められる要件は個々の法制度・裁判による。また、司法文脈の enjoin / injunction が常に禁止だけを表すわけではなく、行為を命じる enjoin someone to do something は語義2で扱う。 an enjoined activity「差し止められた活動」、the party enjoined by the court「裁判所の命令を受けた当事者」の enjoined は、動詞の意味を受け継ぐ過去分詞による修飾。a temporarily enjoined sale のような前置修飾でも通常ハイフンは付けない。be enjoined も受動態を基本に読み、「結合している」という独立した形容詞の意味を読み込まない。to / from / on は構文を作る要素であり、enjoin の一部を移動させる分離型の句動詞ではない。  
+【語法・注意】from の後ろに動作を置く場合は -ing 形を使う。誤: enjoin them from sell the land。正: enjoin them from selling the land「彼らが土地を売るのを禁じる」。これに対し、語義2の enjoin them to sell the land は「土地を売るよう彼らに命じる」で、行動の向きが逆になる。ただし enjoin them to stop selling や enjoin them not to sell も販売をやめさせる指示なので、to があれば必ず実行を促す、と語だけで判定しない。 enjoin the sale は、裁判の文脈では通常「売却を差し止める」。一方、語義3の enjoin silence は「沈黙を命じる」であり、沈黙を禁止するのではない。直接目的語を取る形だけから、命令と禁止の向きを決めない。この語義の司法的な enjoin は法的に禁じることを表し、物理的に不可能にしたことや、相手が実際に従ったことまでは保証しない。seek to enjoin は申立て・要求の側の表現で、差止命令がすでに出たことにはならない。 enjoin enforcement は執行を止めるという意味で、法令を廃止する repeal や、無効と判断すること自体と同じではない。命令の対象、期間、認められる要件は個々の法制度・裁判による。また、司法文脈の enjoin / injunction が常に禁止だけを表すわけではなく、行為を命じる enjoin someone to do something は語義2で扱う。 an enjoined activity「差し止められた活動」、the party enjoined by the court「裁判所の命令を受けた当事者」の enjoined は、動詞の意味を受け継ぐ過去分詞による修飾。a temporarily enjoined sale のような前置修飾でも通常ハイフンは付けない。be enjoined も受動態を基本に読み、「結合している」という独立した形容詞の意味を読み込まない。to / from / on は構文を作る要素であり、enjoin の一部を移動させる分離型の句動詞ではない。  
 
 【類義語】
 

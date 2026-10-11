@@ -3,9 +3,9 @@ headword: retract
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-09
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -242,12 +242,12 @@ tags: []
 ・retract from 〈接触位置〉  
 用途: 部品が接触位置から後方へ移動する。  
 例: The probe retracts from the sample as soon as the measurement is complete.  
-訳: 測定が完了するとすぐ、探針は試料から引き戻る。  
+訳: 測定が完了するとすぐ、探針は試料から後方へ移動する。  
 
 ・〈筋肉〉 + retract  
 用途: 医学的な記述で、筋肉が縮んで引き寄せられる動きを述べる。  
 例: The scan showed that the torn muscle had retracted.  
-訳: 画像検査で、損傷した筋肉が縮んでいることが分かった。  
+訳: 画像検査で、断裂した筋肉が縮んでいることが分かった。  
 
 【語法・注意】語義2の retract the blade「刃を引っ込める」に対し、The blade retracts. は「刃が引っ込む」。構造上「引っ込める機能がある」という習性・能力を現在形で示すこともある。The animal retracts into its shell. を、再帰代名詞が抜けた誤文と考えない。retract oneself は「撤回する」の万能な型ではなく、発言を取り消すなら retract one's words または語義5の retract を使う。自動詞 retract を「撤回する」と訳すか「引っ込む」と訳すかは、主語が発言者なのか部品なのかにも左右される。  
 
