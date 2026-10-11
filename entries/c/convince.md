@@ -63,7 +63,7 @@ tags: []
 ・convince someone of 〈価値・事実〉  
 用途: 名詞句を使って、何を納得させるかを示す。  
 例: We need to convince the board of the value of further training.  
-訳: 私たちは、追加研修の価値を取締役会に納得してもらう必要がある。  
+訳: 私たちは、追加研修に価値があると取締役会に納得してもらう必要がある。  
 
 ・try to convince someone  
 用途: 説得の試みと、成功したかどうかを分ける。  
@@ -73,7 +73,7 @@ tags: []
 ・convince oneself that 〈節〉  
 用途: 自分自身の疑いを抑え、ある考えを信じるようにする。  
 例: She convinced herself that the criticism was unfair.  
-訳: 彼女は、その批判は不当だと自分に言い聞かせた。  
+訳: 彼女は、その批判は不当だと自分自身を納得させた。  
 
 ・convince oneself of 〈名詞〉  
 用途: 自分を確信させる対象を名詞句で述べる。  
@@ -357,7 +357,7 @@ tags: []
 頻度: 〈7/10〉  
 違い: 信じやすさの程度で対立するが、convincing の単純な否定より、内容自体の不自然さを強く示す。  
 例: The novel depends on an implausible coincidence.  
-訳: その小説は、ありそうにない偶然に筋立てを頼っている。  
+訳: その小説の筋立ては、ありそうにない偶然に頼っている。  
 
 5. 【形容詞・convincing・主に限定用法】圧倒的な、実力差を示す
 

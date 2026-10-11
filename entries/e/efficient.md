@@ -64,7 +64,7 @@ tags: []
 ・be efficient in doing something  
 用途: 行為の遂行における効率を述べる。  
 例: The team was efficient in handling routine requests, leaving more time for complex cases.  
-訳: チームは定型的な依頼を効率よく処理し、複雑な案件により多くの時間を残せた。  
+訳: チームは定型的な依頼を効率よく処理し、複雑な案件のための時間をより多く確保できた。  
 
 ・an efficient way to do something  
 用途: 目的を達成する際の無駄が少ない方法を提案する。  
@@ -91,7 +91,7 @@ tags: []
 例: Under these test conditions, the motor is ninety percent efficient.  
 訳: この試験条件では、そのモーターの効率は90パーセントだ。  
 
-【語法・注意】efficient を単に「速い」「安い」「効果がある」と覚えない。速くても材料を大量に無駄にすれば、資源使用の面では inefficient と評価され得る。effective は目的の達成、efficient はその達成に要する資源の無駄の少なさが中心で、an effective but inefficient process「成果は出るが無駄の多い工程」は矛盾しない。efficient at と efficient in はどちらも動名詞を続けられ、人と物で厳密に分かれるわけではない。「彼女は手際よく働く」は She works efficiently であり、She works efficient とはしない。「彼女は予約処理が手際よい」は She is efficient at handling bookings とし、She is efficient to handle bookings とはしない。it is efficient for someone to do は行為全体を評価する別構造。energy-efficient はエネルギー使用の効率を指し、大型機が小型機より消費総量まで少ないとは限らない。費用と成果の釣り合いを強調するなら cost-effective、費用の使い方の無駄の少なさなら cost-efficient が中心となる。  
+【語法・注意】efficient を単に「速い」「安い」「効果がある」と覚えない。速くても材料を大量に無駄にすれば、資源使用の面では inefficient と評価され得る。effective は目的の達成、efficient はその達成に要する資源の無駄の少なさが中心で、an effective but inefficient process「成果は出るが無駄の多い工程」は矛盾しない。efficient at と efficient in はどちらも動名詞を続けられ、人と物で厳密に分かれるわけではない。「彼女は手際よく働く」は She works efficiently であり、She works efficient とはしない。「彼女は予約処理が手際よい」は She is efficient at handling bookings とし、She is efficient to handle bookings とはしない。it is efficient for someone to do は行為全体を評価する別構造。energy-efficient はエネルギー使用の効率を指し、大型機が小型機より消費総量まで少ないとは限らない。費用と成果の釣り合いを強調するなら cost-effective、費用の使い方の無駄の少なさなら cost-efficient が中心となる。ただし、実際の用法では両者は大きく重なり、同義的にも使われる。  
 
 【類義語】
 

@@ -122,7 +122,7 @@ re-「再び」と動詞 mind「心に留める、覚えておく」からでき
 頻度: 〈7/10〉  
 違い: 記憶を再び明確にする点を強調する。短い通知だけでなく、記録の読み直しにもよく合う。  
 例: I reread the minutes to refresh my memory before the meeting.  
-訳: 会議の前に記憶を確かめるため、私は議事録を読み返した。  
+訳: 会議の前に以前の内容を思い出すため、私は議事録を読み返した。  
 
 2. 【動詞・他動詞・remind someone of someone/something】思い起こさせる、似ていて連想させる
 
@@ -173,7 +173,7 @@ re-「再び」と動詞 mind「心に留める、覚えておく」からでき
 訳: その音楽は、夏の長い夕暮れの思い出を呼び起こした。  
 
 ・bring back  
-定義: 忘れていた記憶や感情をよみがえらせる。  
+定義: 過去の記憶や感情をよみがえらせる。  
 頻度: 〈8/10〉  
 違い: 過去に経験したことが再び鮮明になる面を強調する。bring back memories のように記憶を目的語にする。  
 例: Returning to the school brought back memories of our first performance.  

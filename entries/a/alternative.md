@@ -160,7 +160,7 @@ tags: []
 
 ・alternative means of 〈名詞〉  
 用途: 交通・連絡などのための別の手段を述べる。  
-例: The outage forced us to find alternative means of communication.  
+例: The network outage forced us to find alternative means of communication.  
 訳: 通信障害のため、私たちは別の連絡手段を探さざるを得なかった。  
 
 【語法・注意】an alternative plan は形容詞＋名詞、an alternative to the plan は「その計画に代わる案」という名詞句。This plan is an alternative. も名詞である。「この計画は代わりの案だ」は、この形や This is an alternative plan. とするのが明確。単に「よりよい代替案」は a better alternative plan であり、この意味で a more alternative plan とする必要はない。米語の an alternate route は an alternative route と重なるが、on alternate days は「一日おきに」で、on alternative days に置き換えない。optional「選んでも選ばなくてもよい」とも異なり、alternative arrangements は別の手配であって、手配自体が任意だとは限らない。  

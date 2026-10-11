@@ -78,7 +78,7 @@ tags: []
 ・a mandatory minimum sentence  
 用途: 法律で義務づけられた刑の下限を指す。  
 例: The article discusses the difference between a mandatory minimum sentence and an advisory sentencing range.  
-訳: その記事は、義務的な最低刑と参考となる量刑範囲の違いを論じている。  
+訳: その記事は、法律で定められた刑の下限と参考となる量刑範囲の違いを論じている。  
 
 ・be no longer mandatory  
 用途: 義務がなくなったことを明確に伝える。  
