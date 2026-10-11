@@ -326,7 +326,7 @@ tags: []
 ・expected  
 定義: 来る・起こると見込まれる。  
 頻度: 〈8/10〉  
-違い: 予測であって正式な予定とは限らない。scheduled より確約や時間枠の意味が弱い。  
+違い: 予測であって正式な予定とは限らない。scheduled と異なり、日時が取り決められているとは限らない。  
 例: The expected arrival time is just after noon.  
 訳: 到着見込み時刻は、正午を少し過ぎた頃だ。  
 

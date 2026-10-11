@@ -479,7 +479,7 @@ tags: []
 
 【レジスター/領域】一般・環境・旅行・地理。  
 
-【文法パターン】a nature/wildlife/game reserve＝自然／野生生物／野生動物の保護区／a marine/forest reserve＝海洋／森林保護区／in/on a reserve＝保護区内で／establish/manage a reserve＝保護区を設ける・管理する。  
+【文法パターン】a nature reserve＝自然保護区／a wildlife reserve＝野生生物保護区／a game reserve＝野生動物保護区／a marine reserve＝海洋保護区／a forest reserve＝森林保護区／in/on a reserve＝保護区内で／establish/manage a reserve＝保護区を設ける・管理する。  
 
 【コロケーション・構文例】
 
@@ -586,7 +586,7 @@ tags: []
 
 【レジスター/領域】一般の人物・態度描写。やや文語的。  
 
-【文法パターン】with reserve＝控えめに・遠慮がちに／someone's natural/usual reserve＝その人の生来の／いつもの控えめな態度／break through someone's reserve＝相手を打ち解けさせる／a degree of reserve＝ある程度の慎み・距離。抽象的な性質として通常は不可算。  
+【文法パターン】with reserve＝控えめに・遠慮がちに／someone's natural reserve＝その人の生来の控えめな態度／someone's usual reserve＝その人のいつもの控えめな態度／break through someone's reserve＝相手を打ち解けさせる／a degree of reserve＝ある程度の慎み・距離。抽象的な性質として通常は不可算。  
 
 【コロケーション・構文例】
 
@@ -882,7 +882,7 @@ tags: []
 
 【レジスター/領域】カナダ・社会・歴史・行政。具体的な土地の地位や権利は制度・地域による。  
 
-【文法パターン】a First Nations reserve＝先住民共同体の居留地／on a reserve＝ある居留地で／live on reserve／live off reserve＝居留地内／外で暮らす。地域の行政・統計表現では on/off reserve と無冠詞にもなる。  
+【文法パターン】a First Nations reserve＝先住民共同体の居留地／on a reserve＝ある居留地で／live on reserve＝居留地内で暮らす／live off reserve＝居留地外で暮らす。地域の行政・統計表現では on/off reserve と無冠詞にもなる。  
 
 【コロケーション・構文例】
 

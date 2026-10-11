@@ -57,7 +57,7 @@ tags: []
 
 【レジスター/領域】一般・商取引・事務・電子通信。  
 
-【文法パターン】a receipt for 〈購入品・支払額など〉＝何について／いくらの領収書か／give/issue someone a receipt＝相手に領収書を渡す・発行する／ask for/get/keep a receipt＝領収書を求める・受け取る・保管する／a receipt from 〈店・発行者〉＝その発行者の領収書／a paper receipt＝紙の領収書／an electronic receipt＝電子の領収書／a delivery/read receipt＝配達受領証／開封通知。  
+【文法パターン】a receipt for 〈購入品・支払額など〉＝購入品や支払額に対する領収書／give/issue someone a receipt＝相手に領収書を渡す・発行する／ask for/get/keep a receipt＝領収書を求める・受け取る・保管する／a receipt from 〈店・発行者〉＝その発行者の領収書／a paper receipt＝紙の領収書／an electronic receipt＝電子の領収書／a delivery receipt＝配達受領証／a read receipt＝開封通知。  
 
 【コロケーション・構文例】
 
@@ -149,9 +149,9 @@ tags: []
 訳: このメッセージを受領したことをお知らせください。  
 
 ・confirm receipt of something  
-用途: 相手が受け取ったかを確かめる。  
+用途: 受領したことの確認・連絡を求める。  
 例: Could you confirm receipt of the replacement parts?  
-訳: 交換部品を受け取ったか確認していただけますか。  
+訳: 交換部品を受領したことを確認してお知らせいただけますか。  
 
 ・be in receipt of something  
 用途: 給付等を受け取っている状態を事務的に述べる。  
