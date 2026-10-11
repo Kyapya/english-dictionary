@@ -121,7 +121,7 @@ tags: []
 ・a discreet sign  
 用途: 必要な案内をしながら、景観や雰囲気を邪魔しない表示を述べる。  
 例: A discreet sign beside the door identifies the private dining room.  
-訳: ドアの横の控えめな表示が、個室の食事室であることを示している。  
+訳: ドアの横の控えめな表示が、食事用の個室であることを示している。  
 
 ・a discreet gesture  
 用途: 他の人の注意を引かずに意図を伝える合図を表す。  

@@ -196,7 +196,7 @@ tags: []
 例: Access to the old portal has been suspended with immediate effect.  
 訳: 旧ポータルへのアクセスは、即時停止となりました。  
 
-【語法・注意】The rule is in effect. は「規則が有効だ」で、The rule is effective.「規則に効果がある」と必ずしも同じではない。take effect / come into effect は対象自体が施行される形、put the rule into effect は誰かがそれを実施する形。enter into force などとの制度上の細かな使い分けは文書ごとに確認する。with effect from は特に改まった通知で使い、単なる日常の開始なら starting/from で足りることも多い。in effect には語義5の「実質的には」もあるため、文中で何を述べているかを見る。  
+【語法・注意】The rule is in effect. は「規則が有効だ」を表す。The rule is effective. は「規則に効果がある」とも「規則が有効である」とも解釈できるため、文脈で区別する。take effect / come into effect は対象自体が施行される形、put the rule into effect は誰かがそれを実施する形。enter into force などとの制度上の細かな使い分けは文書ごとに確認する。with effect from は特に改まった通知で使い、単なる日常の開始なら starting/from で足りることも多い。in effect には語義5の「実質的には」もあるため、文中で何を述べているかを見る。  
 
 【類義語】
 
@@ -410,7 +410,7 @@ tags: []
 ・effect a settlement  
 用途: 交渉によって争いの解決を実現する。  
 例: The mediator helped the parties effect a settlement before the hearing.  
-訳: 調停役は、審理前に当事者間の解決を実現する手助けをした。  
+訳: 調停役は、審理前に当事者間の和解を実現する手助けをした。  
 
 ・be effected through something  
 用途: 結果を実現した経路・手段を示す。  

@@ -174,7 +174,7 @@ tags: []
 
 3. 【動詞句：dispose of、目的語を取る非分離形】打ち負かす、退ける
 
-【日本語訳・定義】試合や競争で相手を破り、勝ち進むこと。相手を手際よく片づけたという、比較的楽な勝利の描写になりやすいが、常に短時間・無抵抗であることを意味するわけではない。  
+【日本語訳・定義】試合や競争で相手を破ること。相手を手際よく片づけたという、比較的楽な勝利の描写になりやすいが、常に短時間・無抵抗であることを意味するわけではない。  
 
 【頻度】〈4/10〉  
 
@@ -335,7 +335,7 @@ tags: []
 
 【レジスター/領域】改まった表現。not disposed to do、if you feel so disposed などにも使う。  
 
-【文法パターン】be/feel/seem disposed to do something＝～する気がある・そう見える／be disposed to/towards 〈行動傾向〉＝ある傾向がある／not be disposed to do something＝～する気はない／if someone + feel so disposed＝もしその気があれば。単独の disposed は通常、名詞の前に置かず述語側で使う。  
+【文法パターン】be/feel/seem disposed to do something＝～する気がある・そう見える／be disposed to/towards 〈行動傾向〉＝ある傾向がある／not be disposed to do something＝～する気はない／if someone feels so disposed＝もしその気があれば。単独の disposed は通常、名詞の前に置かず述語側で使う。  
 
 【コロケーション・構文例】
 
@@ -375,7 +375,7 @@ tags: []
 頻度: 〈8/10〉  
 違い: 協力や引き受ける意思を明確に表す。disposed は単なる傾向・気分も含む。  
 例: She is willing to cover the afternoon shift.  
-訳: 彼女は午後のシフトを代わってもよいと言っている。  
+訳: 彼女は午後のシフトを代わってもよいと思っている。  
 
 ・prone  
 定義: ある状態・行動に陥りがちである。  
@@ -415,7 +415,7 @@ tags: []
 ・be favourably disposed towards a proposal  
 用途: 提案に好意的な見方をしていると述べる。  
 例: The board seemed favourably disposed towards the proposal after the cost concerns were addressed.  
-訳: 費用面の懸念に対応すると、取締役会はその提案に好意的になったようだった。  
+訳: 費用面の懸念への対応後、取締役会はその提案に好意的な様子だった。  
 
 ・a well-disposed audience  
 用途: 話し手に好意的な聴衆を表す。  
