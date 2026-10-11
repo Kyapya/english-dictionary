@@ -101,7 +101,7 @@ machine「機械」に集合やまとまりを表す -ery が付いた語。mach
 訳: その保護具には手袋とヘルメットが含まれる。  
 
 ・plant  
-定義: 工業生産などに使う機械・設備一式。  
+定義: 工業生産などに使う機械・設備一式。不可算名詞。  
 頻度: 〈5/10〉  
 違い: machinery は機械類一般。plant は工業用の設備全体を表すことがあり、工場という場所の意味もある。  
 例: The firm leases construction plant to local contractors.  

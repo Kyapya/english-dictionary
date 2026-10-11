@@ -36,7 +36,7 @@ manufacture「製造する」に、行為の主体を表す -er が付いた語�
 
 【レジスター/領域】一般、ビジネス、製造、商品説明、取扱説明書。  
 
-【文法パターン】a manufacturer of 〈製品〉＝その製品の製造業者／a car manufacturer＝自動車メーカー／an automobile manufacturer＝自動車メーカー／a leading manufacturer＝大手の製造業者／the manufacturer's instructions＝そのメーカーの指示／buy something directly from the manufacturer＝その品をメーカーから直接買う／the manufacturer's warranty＝そのメーカーの保証／manufacturers of 〈製品〉＝その製品を作る複数の業者。  
+【文法パターン】a manufacturer of 〈製品〉＝その製品の製造業者／a car manufacturer＝自動車メーカー／an automobile manufacturer＝自動車メーカー／a leading manufacturer＝業界を代表する製造業者／the manufacturer's instructions＝そのメーカーの指示／buy something directly from the manufacturer＝その品をメーカーから直接買う／the manufacturer's warranty＝そのメーカーの保証／manufacturers of 〈製品〉＝その製品を作る複数の業者。  
 
 【コロケーション・構文例】
 

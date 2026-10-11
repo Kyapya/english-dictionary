@@ -66,7 +66,7 @@ equip「装備する」に名詞を作る -ment が付いた形。equip はフ�
 
 ・equipment for 〈活動〉  
 用途: 用途を前置詞 for で示す。  
-例: We rent equipment for outdoor events.  
+例: We rent out equipment for outdoor events.  
 訳: 私たちは屋外イベント用の機材を貸し出している。  
 
 ・the equipment needed to 〈動詞〉  
