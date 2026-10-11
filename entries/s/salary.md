@@ -24,7 +24,7 @@ tags: []
 ・salaried：形容詞。「定額給与を受ける」「給与の付く」。第1音節に強勢があり、米 /ˈsæl.ɚ.id/、英 /ˈsæl.ər.id/。salary に -ed が付き y が i に変わった形で、単なる受動の説明だけでは足りない定着した形容詞。語義2で扱う。  
 ・salary increase：名詞句。「昇給」。salary cut「減給」、salary freeze「給与据置き」も給与額の変化を表す。  
 ・salary cap：名詞句。「給与総額などの上限」。スポーツではチームの選手給与に関する制限を指すことが多いが、算入範囲や例外は制度による。  
-・salaryman：日本の会社員を指して用いられる英語の名詞。英語圏一般の会社員全体を指す中立的な基本語としては employee や office worker が適切。  
+・salaryman：日本の会社員、特に男性のホワイトカラー会社員を指して用いられる英語の名詞。英語圏一般の会社員全体を指す中立的な基本語としては employee や office worker が適切。  
 
 ＃コアイメージ
 
@@ -156,7 +156,7 @@ tags: []
 
 ・a salaried position（salary の形容詞形）  
 用途: 給与の支払われる職であることを示す。  
-例: The organization is replacing the volunteer coordinator role with a salaried position.  
+例: The organization is replacing the unpaid coordinator role with a salaried position.  
 訳: その団体は、無給だった調整担当の役割を、給与の付く職に切り替えようとしている。  
 
 ・be salaried（salary の形容詞形）  

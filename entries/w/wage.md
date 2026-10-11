@@ -20,10 +20,12 @@ tags: []
 
 ＃語形成
 
-・wages：名詞では「賃金」の複数形として定着し、通常は複数の動詞と結び付く。動詞 wage の三人称単数現在形でもある。  
-・waged・waging：動詞の活用形。waging は語末の e を落とす。a war waged overseas「海外で行われた戦争」の waged は動詞の過去分詞で、「賃金をもらう戦争」ではない。waged には「有給の」という別の形容詞用法もあり、語義3・4で扱う。  
+・wages：名詞では「賃金」の複数形として定着し、主語になる場合は通常複数扱いにして are・were などを用いる。動詞 wage の三人称単数現在形でもある。  
+・waged：動詞の過去形・過去分詞。a war waged overseas「海外で行われた戦争」の waged は動詞の過去分詞で、「賃金をもらう戦争」ではない。waged には「有給の」という別の形容詞用法もあり、語義3・4で扱う。  
+・waging：動詞の現在分詞。語末の e を落として -ing を付ける。  
 ・wage earner：名詞句。「賃金を得て働く人」。wage-earning は名詞前で「賃金を稼ぐ」の意味になる。  
-・low-wage・high-wage：名詞前の複合形容詞。「低賃金の」「高賃金の」。a low-wage job「低賃金の仕事」。  
+・low-wage：名詞前の複合形容詞。「低賃金の」。a low-wage job「低賃金の仕事」。  
+・high-wage：名詞前の複合形容詞。「高賃金の」。  
 ・wage bill：名詞句。「支払賃金総額」。通常、個人への請求書ではなく、組織などの賃金支出の総額を指す。  
 
 ＃コアイメージ
@@ -181,7 +183,7 @@ tags: []
 例: A coordinated campaign was waged against the proposed road through the park.  
 訳: 公園内を通る道路計画に対し、連携した反対運動が展開された。  
 
-【語法・注意】名詞 wage「賃金」と混同し、wage workers で「労働者に賃金を払う」としない。現代の通常の言い方は pay workers their wages。wage war は無冠詞の war、wage a war は特定の戦争を1つのものとして捉える表現。a campaign・a battle には単数の冠詞が必要。対象は on または against、支持する目標は for、実現したい行動は to 不定詞で示せる。declare war「宣戦する」と wage war「戦争を行う」は同じ行為ではない。wage a project のように一般的な業務すべてへ機械的に広げず、carry out a project などを使う。  
+【語法・注意】名詞 wage「賃金」と混同し、wage workers で「労働者に賃金を払う」としない。現代の通常の言い方は pay workers their wages。wage war は無冠詞の war、wage a war は特定の戦争を1つのものとして捉える表現。単数の campaign・battle には、通常 a・the・所有格などの限定詞が必要。対象は on または against、支持する目標は for、実現したい行動は to 不定詞で示せる。declare war「宣戦する」と wage war「戦争を行う」は同じ行為ではない。wage a project のように一般的な業務すべてへ機械的に広げず、carry out a project などを使う。  
 
 【類義語】
 
@@ -226,7 +228,7 @@ tags: []
 ・waged employment  
 用途: 無給活動などと区別して有給の仕事を述べる。  
 例: She returned to waged employment after several years of unpaid caregiving.  
-訳: 彼女は数年間無給で家族の介護をした後、有給の仕事に復帰した。  
+訳: 彼女は数年間、無給で介護などのケアを担った後、有給の仕事に復帰した。  
 
 ・waged work  
 用途: 金銭的な対価がある労働をひとまとまりに述べる。  
@@ -294,7 +296,7 @@ tags: []
 例: The community center welcomes both the waged and the unwaged.  
 訳: そのコミュニティーセンターは、賃金を受けている人も受けていない人も歓迎している。  
 
-【語法・注意】the waged は複数扱いで、waged に -s を加えない。1人なら a waged worker とし、a waged を「有給労働者1人」という意味では使わない。the waged are ... のように複数の動詞を使う。料金制度で対象者をどう定めるかは個別規定による。  
+【語法・注意】the waged は複数扱いで、waged に -s を加えない。1人なら a waged worker とし、a waged を「有給労働者1人」という意味では使わない。主語になる場合は複数扱いにし、the waged are ... のように言う。料金制度で対象者をどう定めるかは個別規定による。  
 
 【反意語】
 
