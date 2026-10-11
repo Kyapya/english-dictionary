@@ -204,7 +204,7 @@ tags: []
 例: She arranged herself comfortably in the armchair.  
 訳: 彼女は、肘掛け椅子で楽な姿勢になった。  
 
-【語法・注意】arrange the chairs は椅子を配置すること、arrange for chairs は椅子を用意する手配。同じ対象でも語義1と構文が異なる。代名詞なら arrange them in rows と置き、前置詞句より前が基本。arrange oneself は本人が自分の体勢を整える再帰構文。The guests arranged themselves around the table. は客自身が位置についたこと、The guests were arranged around the table. は誰かが客を配置した受動態で、同じ構文の省略ではない。arranged flowers は配置済みの状態を表す分詞で、程度なら beautifully/neatly arranged など、整え方を修飾する。  
+【語法・注意】arrange the chairs は椅子を配置すること、arrange for chairs は椅子を用意する手配。同じ対象でも語義1と構文が異なる。代名詞なら arrange them in rows と置き、前置詞句より前が基本。arrange oneself は本人が自分の体勢を整える再帰構文。The guests arranged themselves around the table. は客自身が位置についたこと、The guests were arranged around the table. は誰かが客を配置した受動態で、同じ構文の省略ではない。arranged flowers は配置済みの状態を表す分詞で、整え方を示すには beautifully/neatly arranged などとする。  
 
 【類義語】
 

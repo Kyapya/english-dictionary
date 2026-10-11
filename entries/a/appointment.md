@@ -56,7 +56,7 @@ tags: []
 
 【レジスター/領域】一般・ビジネス・医療・サービス。  
 
-【文法パターン】an appointment with someone＝人との面会予約／an appointment to do something＝何かをするための面会・訪問予約／an appointment for 〈日時・用件〉＝その日時・用件の予約／an appointment at 〈時刻・場所〉＝その時刻・場所での予約／make/book/schedule an appointment＝予約する／keep/miss/cancel an appointment＝約束どおり行く・行きそびれる・取り消す／by appointment only＝事前予約した場合のみ／a doctor's/dental appointment＝診察／歯科の予約。  
+【文法パターン】an appointment with someone＝人との面会予約／an appointment to do something＝何かをするための面会・訪問予約／an appointment for 〈日時・用件〉＝その日時・用件の予約／an appointment at 〈時刻・場所〉＝その時刻・場所での予約／make/book/schedule an appointment＝予約する／keep/miss/cancel an appointment＝約束どおり行く・行きそびれる・取り消す／by appointment only＝事前予約した場合のみ／a doctor's appointment＝診察の予約／a dental appointment＝歯科の予約。  
 
 【コロケーション・構文例】
 
@@ -217,7 +217,7 @@ tags: []
 
 【レジスター/領域】フォーマル・人事・学術・公職。  
 
-【文法パターン】hold an appointment＝職に就いている／accept/take up an appointment＝職を引き受ける・就任する／an appointment as 〈役職〉＝その役職／an appointment at 〈機関〉＝その機関の職／a permanent/temporary appointment＝恒久的・無期／臨時の職／an academic appointment＝大学等の職。具体的な雇用条件は文脈で確認する。  
+【文法パターン】hold an appointment＝職に就いている／accept/take up an appointment＝職を引き受ける・就任する／an appointment as 〈役職〉＝その役職／an appointment at 〈機関〉＝その機関の職／a permanent appointment＝恒久的・無期の職／a temporary appointment＝臨時の職／an academic appointment＝大学等の職。具体的な雇用条件は文脈で確認する。  
 
 【コロケーション・構文例】
 
@@ -286,7 +286,7 @@ tags: []
 ・a new appointment  
 用途: 新任者を人物として紹介する。  
 例: Our newest appointment joins us from a laboratory in Toronto.  
-訳: 最新の新任者は、トロントの研究所から私たちの組織に加わる。  
+訳: 今回新たに任命された人は、トロントの研究所から私たちの組織に加わる。  
 
 【語法・注意】a good appointment は「よい予約」の場合もあり得るが、この人事義では is の主語が人で、能力や適性が説明される。新任者が任命に賛成したという意味ではない。誤解を避けるなら appointee、new colleague など人物を直接示す語を使える。語義3の職は人そのものではなく、Our appointment is vacant. のような無理な言い換えで混同しない。  
 
@@ -297,7 +297,7 @@ tags: []
 頻度: 〈5/10〉  
 違い: 人物を直接表すため、任命行為・役職との多義的な曖昧さが少ない。  
 例: The appointee will report directly to the board.  
-訳: その任命された人は取締役会に直接報告することになる。  
+訳: その任命された人は、取締役会の直属となる。  
 
 ・hire  
 定義: 新たに雇われた人。  
@@ -314,7 +314,7 @@ tags: []
 
 【レジスター/領域】改まった描写・ホテル・不動産・自動車等の商品紹介。  
 
-【文法パターン】〈部屋・車など〉 with 〈形容詞〉 appointments＝そのような設備・調度を備えたもの／the appointments of/in 〈建物など〉＝そこにある設備・調度／luxurious/elegant appointments＝豪華／上品な調度。  
+【文法パターン】〈部屋・車など〉 with 〈形容詞〉 appointments＝そのような設備・調度を備えたもの／the appointments of/in 〈建物など〉＝そこにある設備・調度／luxurious appointments＝豪華な調度／elegant appointments＝上品な調度。  
 
 【コロケーション・構文例】
 

@@ -72,7 +72,7 @@ tags: []
 ・confirm to someone that 〈平叙文〉  
 用途: 確認内容の伝達先を明示する。  
 例: The organizer confirmed to us that the venue had changed.  
-訳: 主催者は、会場が変更されたことを私たちに確認して伝えた。  
+訳: 主催者は、会場が変更されたことを私たちに明言した。  
 
 ・confirm 〈wh節〉  
 用途: 確かめる情報を間接疑問で表す。  
@@ -430,7 +430,7 @@ tags: []
 ・a confirmed bachelor  
 用途: 独身生活を続ける志向が定着した男性をいう。  
 例: He describes himself as a confirmed bachelor with no plans to marry.  
-訳: 彼は、結婚するつもりのない独身主義者だと自分を説明している。  
+訳: 彼は自分のことを、結婚するつもりのない独身主義者だと述べている。  
 
 ・a confirmed pessimist  
 用途: 悲観的な考え方が定着した人をいう。  

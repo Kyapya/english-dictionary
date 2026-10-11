@@ -13,7 +13,7 @@ tags: []
 ＃発音記号
 
 米: /poʊstˈpoʊn/｜英: /pəʊstˈpəʊn/  
-2音節で、第2音節に主強勢を置く。この表記では第1・第2音節の母音がともに米音 /oʊ/、英音 /əʊ/ と異なる。英音では第1音節を弱めた /pəstˈpəʊn/ もある。postponed は末尾に /d/ を加え、postponing は末尾の e を落として -ing を付ける。  
+2音節で、第2音節に主強勢を置く。この表記では、第1音節・第2音節とも、母音は米音で /oʊ/、英音で /əʊ/ となる。英音では第1音節を弱めた /pəstˈpəʊn/ もある。postponed は末尾に /d/ を加え、postponing は末尾の e を落として -ing を付ける。  
 
 ＃語源
 
@@ -101,7 +101,7 @@ ponere を共通の語源にもつ語には position「位置」、opponent「�
 例: Another temporary repair would only postpone the inevitable replacement of the roof.  
 訳: もう一度応急修理をしても、避けられない屋根の交換を先延ばしにするだけだろう。  
 
-【語法・注意】行為を続けるときは postpone meeting the client のように -ing 形にし、通常 postpone to meet the client とはしない。postpone the meeting to Friday の to は日付を導く前置詞であり、to不定詞ではない。until Friday／to Friday は延期先、for two days は延期期間で、for Friday をこの「延期先」の意味に機械的に置き換えない。until 節で未来を述べる場合、通常は until the checks are complete のように現在形を使う。人の到着が遅れたなら The traffic delayed me.「渋滞で遅れた」が自然で、postponed me とは通常いわない。cancel は取りやめ、reschedule は再日程設定で、前倒しもあり得る。postpone indefinitely も字義上は無期限の延期で、必ず永久中止になったと訳さない。be postponed は受動態で、postpone 自体を予定主語の自動詞として The meeting postponed. とはしない。通常の意味に特有の再帰構文・分離可能な小辞はない。  
+【語法・注意】延期する行為を動詞で表すときは postpone meeting the client のように -ing 形にし、通常 postpone to meet the client とはしない。postpone the meeting to Friday の to は日付を導く前置詞であり、to不定詞ではない。until Friday／to Friday は延期先、for two days は延期期間で、for Friday をこの「延期先」の意味に機械的に置き換えない。until 節で未来を述べる場合、通常は until the checks are complete のように現在形を使う。人の到着が遅れたなら The traffic delayed me.「渋滞で遅れた」が自然で、postponed me とは通常いわない。cancel は取りやめ、reschedule は再日程設定で、前倒しもあり得る。postpone indefinitely も字義上は無期限の延期で、必ず永久中止になったと訳さない。be postponed は受動態で、postpone 自体を予定主語の自動詞として The meeting postponed. とはしない。通常の意味に特有の再帰構文・分離可能な小辞はない。  
 
 【類義語】
 

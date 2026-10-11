@@ -47,7 +47,7 @@ envoi のもとになった envoyer「送る」と関係する同系語には en
 
 【レジスター/領域】商取引・経理・物流。日常の買い物で使う bill や receipt より事務的。  
 
-【文法パターン】an invoice for 〈商品・作業・金額〉＝何について／いくらの請求書か／an invoice from 〈売り手〉＝売り手からの請求書／an invoice to 〈買い手〉＝買い手宛ての請求書／issue/send/submit an invoice＝発行・送付・提出する／raise/generate an invoice＝請求書を作成・起票する／pay/settle an invoice＝請求額を支払う／an outstanding/overdue invoice＝未払い／支払期限超過の請求書／〈金額・項目〉 on an invoice＝請求書に記載された金額・項目。  
+【文法パターン】an invoice for 〈商品・作業・金額〉＝何について、またはいくらの請求書か／an invoice from 〈売り手〉＝売り手からの請求書／an invoice to 〈買い手〉＝買い手宛ての請求書／issue/send/submit an invoice＝発行・送付・提出する／raise/generate an invoice＝請求書を作成・起票する／pay/settle an invoice＝請求額を支払う／an outstanding invoice＝未払いの請求書／an overdue invoice＝支払期限を過ぎた未払いの請求書／〈金額・項目〉 on an invoice＝請求書に記載された金額・項目。  
 
 【コロケーション・構文例】
 
@@ -74,7 +74,7 @@ envoi のもとになった envoyer「送る」と関係する同系語には en
 ・pay an invoice  
 用途: 書類に記載された請求額を支払う。  
 例: The customer paid the invoice within the agreed thirty-day period.  
-訳: 顧客は合意した30日間の期間内に請求額を支払った。  
+訳: 顧客は合意した30日間の期限内に請求額を支払った。  
 
 ・an invoice for 〈金額〉  
 用途: 請求書の金額を示す。  

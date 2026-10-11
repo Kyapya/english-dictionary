@@ -60,7 +60,7 @@ tags: []
 ・submit an application to 〈提出先〉  
 用途: 申請書の提出先を示す。  
 例: Please submit your application to the recruitment team by Friday.  
-訳: 金曜日までに採用チームへ申請書を提出してください。  
+訳: 金曜日までに採用チームへ応募書類を提出してください。  
 
 ・submit something for approval  
 用途: 承認を受けるために案などを提出する。  
@@ -298,7 +298,7 @@ tags: []
 訳: 報告書は、投資を増やすべきだと論じている。  
 
 ・maintain  
-定義: ある主張が正しいと言い続ける。  
+定義: ある主張が正しいと強く主張する、主張を維持する。  
 頻度: 〈6/10〉  
 違い: 反論されても立場を保つ含みが出やすい。submit にはその持続性は必須ではない。  
 例: The supplier maintained that the goods had arrived on time.  
@@ -364,7 +364,7 @@ tags: []
 ・be submitted by 〈対戦相手〉  
 用途: サブミッションで敗れた側を主語にする。  
 例: The defending champion was submitted by the challenger.  
-訳: 前回王者は、挑戦者に一本負けした。  
+訳: 現王者は、挑戦者に一本負けした。  
 
 【語法・注意】The fighter submitted. は自動詞で「その選手が降参した」。The fighter submitted his opponent. は他動詞で「その選手が相手にサブミッションで勝った」。人を直接目的語にするこの競技用法を、通常の「書類を提出する」の人目的語版だと解釈しない。勝敗の判定や技の扱いは競技規則による。  
 
