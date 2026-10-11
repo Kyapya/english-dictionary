@@ -101,7 +101,7 @@ tags: []
 頻度: 〈6/10〉  
 違い: 利益という点で重なるが、beneficial よりも比較・競争・取引での優位に焦点を置きやすい。  
 例: The longer contract is advantageous to suppliers who need predictable orders.  
-訳: 長期契約は、安定した受注を必要とする供給業者にとって有利だ。  
+訳: より期間の長い契約は、安定した受注を必要とする供給業者にとって有利だ。  
 
 ・useful  
 定義: ある目的に使えたり、実際に役立ったりする。  
@@ -162,7 +162,7 @@ tags: []
 ・the beneficial owner of something  
 用途: 財産の利益が帰属する者を指す。  
 例: The document identifies her as the beneficial owner of the shares held in the nominee's name.  
-訳: その書類は、名義人の名義で保有されている株式の実質的所有者を彼女と記載している。  
+訳: その書類は、彼女を、名義人の名義で保有されている株式の実質的所有者として記載している。  
 
 ・beneficial ownership of something  
 用途: 名義上の権原とは区別される利益の帰属を述べる。  
