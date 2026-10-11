@@ -3,9 +3,9 @@ headword: elaborate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-10
-updated_at: 2026-10-10
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -14,7 +14,7 @@ tags: []
 
 形容詞 米・英: /ɪˈlæbərət/  
 動詞 米・英: /ɪˈlæbəreɪt/  
-どちらも4音節で、第2音節に主強勢がある。違うのは第4音節の母音で、形容詞は /ə/、動詞は二重母音 /eɪ/。品詞が変わっても主強勢の位置は移動しない。  
+ここに示した発音では、どちらも4音節で、第2音節に主強勢がある。違うのは第4音節の母音で、形容詞は /ə/、動詞は二重母音 /eɪ/。品詞が変わっても主強勢の位置は移動しない。  
 動詞の三人称単数現在形 elaborates は /ɪˈlæbəreɪts/。過去形・過去分詞 elaborated は /ɪˈlæbəreɪtɪd/、現在分詞 elaborating は /ɪˈlæbəreɪtɪŋ/ で、ともに5音節になる。elaborated の語尾 -ed は /ɪd/。  
 
 ＃語源
@@ -134,7 +134,7 @@ labor/labour「労働」、laboratory「実験室」、collaborate「協力す�
 頻度: 〈6/10〉  
 違い: ぜいたくさや量の豊かさが中心。elaborate は費用の高さや豪華さを必ずしも表さない。  
 例: They held a lavish reception in the ballroom.  
-訳: 彼らは大広間で豪華な披露宴を開いた。  
+訳: 彼らは大広間で豪華なレセプションを開いた。  
 
 【反意語】
 
@@ -157,7 +157,7 @@ labor/labour「労働」、laboratory「実験室」、collaborate「協力す�
 頻度: 〈7/10〉  
 違い: 構成・手順の込み入り方という軸で対立し、取り扱いや理解の容易さを強調する。  
 例: The booking system is uncomplicated and quick to use.  
-訳: その予約システムは単純で、すぐに使える。  
+訳: その予約システムは単純で、短時間で操作できる。  
 
 2. 【動詞：自動詞・他動詞】詳しく説明する・さらに詳しく述べる
 

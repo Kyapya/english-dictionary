@@ -3,9 +3,9 @@ headword: prohibitive
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-10
-updated_at: 2026-10-10
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -190,7 +190,7 @@ tags: []
 頻度: 〈6/10〉  
 違い: 制約を加えても全面的には禁じないことがある。prohibitive は止める・認めないという方向が強い。  
 例: The restrictive rules allow visits only on two afternoons a week.  
-訳: その制限の厳しい規則では、訪問は週2回の午後しか認められていない。  
+訳: その制限の厳しい規則では、訪問は週2日の午後しか認められていない。  
 
 ・preventive  
 定義: 好ましくない出来事が起こるのを防ぐための。  

@@ -3,9 +3,9 @@ headword: complacent
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-09
-updated_at: 2026-10-10
+updated_at: 2026-10-11
 checked: true
 tags: []
 ---
@@ -59,7 +59,7 @@ tags: []
 ・seem complacent  
 用途: 言動や見解から、自己満足や油断が感じられると述べる。  
 例: His assessment seems complacent given the recent rise in defects.  
-訳: 最近の不良品の増加を考えると、彼の評価は楽観しすぎに思える。  
+訳: 最近の不具合の増加を考えると、彼の評価は楽観しすぎに思える。  
 
 ・a complacent attitude to something  
 用途: ある問題を重大視せず、改善は不要だと考える態度を批判する。  
