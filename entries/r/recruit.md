@@ -121,7 +121,7 @@ tags: []
 頻度: 〈6/10〉  
 違い: 軍隊への入隊や特定の協力を得る場面に結びつきやすい。recruit は企業の人材募集にも広く使う。  
 例: The charity enlisted local volunteers to distribute meals.  
-訳: 慈善団体は食事を配るため、地元のボランティアに協力を求めた。  
+訳: 慈善団体は食事を配るため、地元のボランティアの協力を得た。  
 
 ・take on  
 定義: 人を新たに雇い入れる。  
@@ -207,7 +207,7 @@ tags: []
 ・recruit for 〈役職・部門〉  
 用途: 直接目的語を置かずに募集対象を示す。  
 例: We are recruiting for several positions in customer support.  
-訳: 当社は顧客サポート部門の複数の職種で人材を募集している。  
+訳: 当社は顧客サポート部門の複数のポストで人材を募集している。  
 
 ・recruit from 〈集団〉  
 用途: 募集元の範囲を説明する。  
@@ -255,7 +255,7 @@ tags: []
 ・recruit someone for a task  
 用途: 頼んだ作業を for で示す。  
 例: She recruited her neighbours for the weekend clean-up.  
-訳: 彼女は週末の清掃を手伝ってもらおうと近所の人たちに声を掛けた。  
+訳: 彼女は近所の人たちに頼み、週末の清掃の協力者を集めた。  
 
 【語法・注意】recruit someone to do の形は語義1にもある。new staff to maintain equipment なら採用、my brother to carry boxes なら一時的な協力というように、対象と状況で区別する。報酬の支払いや、強制して従わせたことを必須としない。  
 
