@@ -119,7 +119,7 @@ manus 系では manual「手作業の、手引書」、manuscript「原稿」、
 頻度: 〈8/10〉  
 違い: maintain が継続的な維持に広く使えるのに対し、preserve は元の状態や価値を損なわず残すことを強調する。  
 例: The renovation preserved the building's original facade.  
-訳: その改修では建物の元の外観が保存された。  
+訳: その改修では建物の元のファサード（正面）が保存された。  
 
 2. 【他動詞】保守する、手入れする
 
@@ -163,7 +163,7 @@ manus 系では manual「手作業の、手引書」、manuscript「原稿」、
 例: A small team maintains the software used by the booking service.  
 訳: 少人数のチームが予約サービスで使われるソフトウェアを保守している。  
 
-【語法・注意】maintain は「点検する」inspect より広く、修理・更新を含み得るが、毎回すべてを実施したという意味ではない。repair は壊れた箇所を直すこと、restore は失われた状態・機能を取り戻すことで、日常的な保守と区別する。well-maintained は元の保守義から理解できる形容詞で、a well-maintained machine「よく整備された機械」のように使う。The machine is well maintained. は手入れの状態、The machine is maintained every month. は定期的な保守行為を示す。名詞を目的語にして maintain it といい、maintain on it とはしない。  
+【語法・注意】maintain は「点検する」inspect より広く、修理・更新を含み得るが、毎回すべてを実施したという意味ではない。repair は壊れた箇所を直すこと、restore は失われた状態・機能を取り戻すことで、日常的な保守と区別する。well-maintained は元の保守義から理解できる形容詞で、a well-maintained machine「よく整備された機械」のように使う。The machine is well maintained. は手入れの状態、The machine is maintained every month. は定期的な保守行為を示す。名詞句や代名詞を直接目的語に取り、maintain it といい、maintain on it とはしない。  
 
 【類義語】
 

@@ -301,7 +301,7 @@ tags: []
 頻度: 〈6/10〉  
 違い: 判断しながら進む比喩が強い。negotiate は難しさに対応し、うまく処理する側面を強調する。  
 例: An adviser helped us navigate the unfamiliar procedures.  
-訳: 助言者が、私たちが不慣れな手続きを進めるのを手伝った。  
+訳: 助言者は、私たちが不慣れな手続きを進めるのを手伝った。  
 
 ・handle  
 定義: 問題・仕事・状況などを扱い、処理する。  

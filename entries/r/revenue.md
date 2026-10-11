@@ -165,7 +165,7 @@ venire 系には avenue「大通り」（もとは近づいてくる道）、int
 ・a shortfall in revenue  
 用途: 歳入が想定額に届かないことを示す。  
 例: The council faces a shortfall in revenue this year.  
-訳: 議会は今年、歳入不足に直面している。  
+訳: その自治体は今年、歳入不足に直面している。  
 
 ・revenues and expenditure  
 用途: 財政の収入側と支出側を並べて述べる。  

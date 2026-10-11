@@ -59,7 +59,7 @@ tags: []
 ・inspect something closely  
 用途: 細部まで注意深く見る。  
 例: She inspected the painting closely to study the brushwork.  
-訳: 彼女は、筆遣いを調べるためにその絵を間近で詳しく見た。  
+訳: 彼女は、筆遣いを調べるためにその絵を詳しく見た。  
 
 ・inspect 〈設備〉 to see whether 〈節〉  
 用途: 点検で確認したい条件を節で示す。  
