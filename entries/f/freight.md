@@ -295,7 +295,7 @@ tags: []
 頻度: 〈8/10〉  
 違い: 船便に限らず小口配送にも使う広い動詞。freight は貨物運送としての扱いを強調する。  
 例: We ship online orders every weekday.  
-訳: 私たちはオンラインの注文品を毎平日発送しています。  
+訳: 私たちはオンラインの注文品を平日は毎日発送しています。  
 
 ・transport  
 定義: 人や物を場所から場所へ運ぶ。  
@@ -468,7 +468,7 @@ tags: []
 例: A local sponsor paid the freight for the community festival.  
 訳: 地元のスポンサーが地域のお祭りの費用を負担しました。  
 
-【語法・注意】pay は paid、paid と活用し、freight の前の the は定型の一部。語義3の pay the freight on the machinery は機械の運賃、ここでの pay the freight for the festival は祭りの費用全体を文脈に応じて指す。正式な予算・契約文では pay the costs など、何の費用か明示した表現が分かりやすい。  
+【語法・注意】pay は paid、paid と活用し、freight の前の the は定型の一部。語義3の pay the freight on the machinery は機械の運賃、ここでの pay the freight for the festival は祭りの費用全体を文脈に応じて指す。くだけた用法では、freight 自体が輸送以外の「費用・価格」を指すこともある。正式な予算・契約文では pay the costs など、何の費用か明示した表現が分かりやすい。  
 
 【類義語】
 

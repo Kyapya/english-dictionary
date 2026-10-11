@@ -22,7 +22,7 @@ tags: []
 ＃語形成
 
 ・suppliers：複数形。複数の供給者のほか、文脈上ひとつの供給会社を組織として呼ぶ表現にも現れる。  
-・supply：動詞「供給する」、名詞「供給・供給量」。人の supplier と行為・量の supply を区別する。  
+・supply：動詞「供給する」、名詞「供給・供給量」。供給主体を表す supplier と行為・量の supply を区別する。  
 ・supplier base：企業が取引する供給者の集合・供給者基盤。ひとつの供給者を意味しない。  
 ・supplier diversity：調達先の多様性や、それを高める取組。具体的な対象区分や要件は組織・制度による。  
 
@@ -78,7 +78,7 @@ tags: []
 ・a sole supplier  
 用途: 特定の調達範囲において供給元がひとつだけであることを示す。  
 例: Relying on a sole supplier for this component could delay production if its factory closes.  
-訳: この部品を唯一の供給業者に依存すると、その工場が閉鎖された場合に生産が遅れるおそれがある。  
+訳: この部品の調達で唯一の供給業者に依存すると、その工場が閉鎖された場合に生産が遅れるおそれがある。  
 
 【語法・注意】単数では a supplier、所有格の our supplier など限定詞が必要。of は供給物、to は供給先を示し、a supplier of steel to carmakers は「自動車メーカーに鉄鋼を供給する業者」。a supplier for the project の for は、その事業向けに選んだ供給者という目的・用途を示す。supplier は供給する役割、vendor は売る役割に焦点があり、同じ会社が両方に当たることも多い。「supplier は必ずメーカー、vendor は必ず小売店」と覚えない。suppliers は通常複数だが、英語では the suppliers で取引先の会社側をまとめて指すこともあり、会社数は文脈で判断する。buyer「買い手」は取引上の対照役であり、supplier の性質を否定する反意語ではない。  
 
@@ -103,7 +103,7 @@ tags: []
 頻度: 〈7/10〉  
 違い: 流通段階で再販売・配送を担う役割を示す。supplier は流通段階を指定せず、製造者自身でもよい。  
 例: The manufacturer appointed a distributor for the region.  
-訳: その製造会社はその地域の販売代理店を指定した。  
+訳: その製造会社はその地域の販売業者を指定した。  
 
 ・purveyor  
 定義: 特定の物品やサービスを提供・販売する人や店。  
