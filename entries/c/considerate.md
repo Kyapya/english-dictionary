@@ -38,7 +38,7 @@ tags: []
 
 【レジスター/領域】中立。日常の人間関係、接客、職場での態度、注意書き、感謝などに使う。  
 
-【文法パターン】a considerate 〈person/host/colleague〉＝思いやりのある人・主人役・同僚／a considerate 〈gesture/action〉＝配慮のある気遣い・行動／be considerate of someone＝人に配慮する／be considerate of someone's 〈feelings/needs〉＝人の気持ち・必要に配慮する／be considerate towards/toward someone＝人に配慮ある態度で接する／it is/was considerate of someone to do something＝人が～したのは配慮のあることだ／be considerate enough to do something＝配慮して～してくれる。主語は人、または配慮を示す行為・対応。very/highly/extremely considerate、not very considerate、more/less considerate と程度を示せる。be considerate は普段の性質にも、Be considerate.「配慮してください」という具体的な行動要求にも使う。  
+【文法パターン】a considerate 〈person/host/colleague〉＝思いやりのある人・主人役・同僚／a considerate 〈gesture/action〉＝配慮のある気遣い・行動／be considerate of someone＝人に配慮する／be considerate of someone's 〈feelings/needs〉＝人の気持ち・必要に配慮する／be considerate towards/toward someone＝人に配慮ある態度で接する／it is/was considerate of someone to do something＝人が～したのは配慮のあることだ／be considerate enough to do something＝配慮して～してくれる。この enough to do の主語は通常、～する人。considerate 単独の叙述用法では、配慮を示す行為・対応も主語にできる。very/highly/extremely considerate、not very considerate、more/less considerate と程度を示せる。be considerate は普段の性質にも、Be considerate.「配慮してください」という具体的な行動要求にも使う。  
 
 【コロケーション・構文例】
 
