@@ -1,0 +1,111 @@
+---
+headword: respective
+type: word
+status: checked
+prompt_version: entry_spec_v5
+model: gpt-6-astra xhigh
+created_at: 2026-10-11
+updated_at: 2026-10-11
+checked: true
+tags: []
+---
+
+＃発音記号
+
+米・英: /rɪˈspek.tɪv/  
+3音節で、第2音節の /spek/ に主強勢を置く。第1音節と第3音節の母音はいずれも /ɪ/。語末は /tɪv/ で、respect の後ろに /ɪv/ が続く形になる。  
+
+＃語源
+
+中世ラテン語 respectivus に由来し、ラテン語 respicere「振り返って見る、考慮する」の語幹 respect- とつながる。re-「後ろへ」と specere「見る」が背景にあり、英語にはフランス語 respectif の影響もある。「関係している」という古い意味を背景に、現代では複数の人・物にそれぞれ属するものを対応づける。同じ系統の respect「尊重する、関係」と、共通の語根 specere を持つ inspect「詳しく調べる」、prospect「見通し」も参照できる。ただし、現代の respective に「敬意を示す」という意味を当てはめない。  
+
+＃語形成
+
+・respectively: 副詞「それぞれ、前に挙げた順に対応して」。二組の項目を同じ順で対応づけるときに使う。名詞の前に置く形容詞 respective とは働きが異なる。  
+・irrespective: 否定の接頭辞 ir- を伴う形。現代では主に irrespective of 〈条件〉「～にかかわらず」という形で使う。「それぞれでない」を意味する単純な反意語としては使えない。  
+
+＃意味・用法・関連表現
+
+1. 【形容詞・限定】それぞれの、各自の
+
+【日本語訳・定義】複数の人・物・集団について、それぞれに属するもの、関係するもの、当てはまるものを区別して指す。すでに述べた、または文脈から分かる対象と、修飾する名詞との対応を示す。their respective offices は「彼らそれぞれの事務所」、the respective costs of two plans は「二つの計画それぞれの費用」。単に物が複数あるというだけでなく、どの人・物に何が対応するかに注意を向ける。対応する値や性質が必ず互いに異なるとは限らない。  
+
+【頻度】〈6/10〉  
+
+【レジスター/領域】やや改まった一般文章、報道、説明文、ビジネス、学術的な比較。会話でも使うが、対応関係が明らかなときは their、our、own などだけで済むことも多い。  
+
+【文法パターン】their/our respective 〈複数名詞〉＝彼ら・私たちそれぞれの～／the respective 〈複数名詞〉 of A and B＝AとBそれぞれの～／in their respective 〈fields/countries/departments〉＝それぞれの分野・国・部署で／return to their respective 〈homes/offices/seats〉＝それぞれの家・事務所・席へ戻る／at their respective rates＝それぞれに当てはまる率・速度で／the respective importance of A and B＝AとBそれぞれの重要性。現代の中心用法では名詞の前に置き、be respective のような叙述用法や very respective、more respective のような程度・比較表現には通常しない。  
+
+【コロケーション・構文例】
+
+・their respective roles  
+用途: 関係者それぞれに割り当てられた役割を指す。  
+例: The producer and the editor discussed their respective roles in the project.  
+訳: プロデューサーと編集者は、その企画におけるそれぞれの役割について話し合った。  
+
+・in their respective fields  
+用途: 人や組織を、それぞれが活動する分野と対応づける。  
+例: Both researchers have developed useful tools in their respective fields.  
+訳: 二人の研究者は、それぞれの分野で役立つ道具を開発してきた。  
+
+・the respective merits of A and B  
+用途: 二つの候補などを比べ、それぞれにどのような長所があるかを述べる。  
+例: We compared the respective merits of renting and buying the equipment.  
+訳: 私たちは、その機器を借りる場合と買う場合のそれぞれの長所を比較した。  
+
+・return to their respective seats  
+用途: 複数の人が自分に対応する席へ戻ることをいう。  
+例: After the group exercise, the participants returned to their respective seats.  
+訳: グループでの実習が終わると、参加者はそれぞれの席に戻った。  
+
+・in their respective countries  
+用途: 各人・組織に関係する国を対応づけ、その国での状況を述べる。  
+例: The two companies sell the product under different names in their respective countries.  
+訳: その二社は、それぞれの国で、その製品を異なる名前で販売している。  
+
+・at their respective rates  
+用途: 異なる対象に当てはまる率や速度を個別に適用する。  
+例: The two savings accounts earn interest at their respective rates.  
+訳: その二つの預金口座には、それぞれの利率で利息が付く。  
+
+・the respective costs of A and B  
+用途: 選択肢ごとに対応する費用を示す。  
+例: The report sets out the respective costs of repairing and replacing the roof.  
+訳: その報告書は、屋根を修理する場合と交換する場合のそれぞれの費用を示している。  
+
+・the respective importance of A and B  
+用途: 不可算名詞を修飾して、各要素についてその重要性を論じる。  
+例: The study examines the respective importance of price and convenience in customer decisions.  
+訳: その研究は、顧客の判断において価格と利便性がそれぞれどれほど重要かを調べている。  
+
+【語法・注意】名詞の前に置く形容詞なので、「彼らの役割はそれぞれだ」を The roles are respective. とは普通いわない。They each have a different role.「それぞれ異なる役割がある」など、伝えたい内容に合わせて書く。ただし respective 自体は different と同義ではない。複数の人や物への対応が前提でも、後続名詞が必ず複数形になるわけではなく、the respective importance のように不可算名詞も使える。「それぞれ」の対応先を読み手が特定できない文では、respective だけを足しても明確にならない。形容詞と副詞の最小対立は、The teams discussed their respective budgets.「各チームはそれぞれの予算について話し合った」と The budgets for Team A and Team B are 800 dollars and 1,200 dollars, respectively.「AチームとBチームの予算は、それぞれ800ドルと1,200ドルだ」。前者の respective は budgets を修飾し、後者の respectively はAに800、Bに1,200という順番の対応を示す。副詞を名詞の前の形容詞として使う their respectively budgets は誤りで、their respective budgets とする。respectful「敬意を示す」、respectable「立派な、社会的にきちんとした」とも区別する。古い文章では respective が「敬意を示す」などの意味で現れることがあるが、現代の通常表現には使わない。shared「共有の」、joint「共同の」は各自への割り当てと対比できる表現だが、respective のあらゆる用例に対応する反意語ではない。  
+
+【類義語】
+
+・individual  
+定義: 全体を一括せず、一人・一つずつに関する、個々の。  
+頻度: 〈8/10〉  
+違い: individual は各対象を独立した単位として扱うことに重点がある。respective は、すでに分かっている人・物と、その人・物に属するものとの対応に重点がある。  
+例: The trainer adjusted the exercises to suit individual needs.  
+訳: トレーナーは、一人ひとりの必要に合わせて運動の内容を調整した。  
+
+・own  
+定義: ほかの人のものや共有のものではなく、当人自身に属する。  
+頻度: 〈10/10〉  
+違い: 所有格の後で本人との帰属を強調し、一人についても使える。respective は複数の対象を念頭に置くため、my own room の own を respective に単純には置き換えられない。  
+例: Each student was given a locker of their own.  
+訳: 学生には一人ずつ、自分用のロッカーが与えられた。  
+
+・corresponding  
+定義: 別の物の位置・役割・性質などに対応する。  
+頻度: 〈6/10〉  
+違い: 図と説明、二つの制度などの間の対応を広く表せる。respective は、各人・各物にそれぞれ帰属するという分配的な関係を示す。  
+例: Match each symbol with its corresponding description.  
+訳: それぞれの記号を、対応する説明と組み合わせなさい。  
+
+・separate  
+定義: 一緒にまとめられず、別々になっている。  
+頻度: 〈9/10〉  
+違い: 分離していることや共同ではないことを直接表す。respective は帰属先を区別する語であり、物理的に離れていることや性質の違いまでは必ずしも表さない。  
+例: The two clubs keep separate accounts.  
+訳: その二つのクラブは、会計を別々に管理している。  
