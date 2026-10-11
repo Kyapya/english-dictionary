@@ -135,7 +135,7 @@ tags: []
 ・be sensitive to people's needs  
 用途: 相手が何を必要としているかに気づいて配慮する。  
 例: A good supervisor is sensitive to the needs of employees returning after a long absence.  
-訳: よい上司は、長い休職から戻った従業員が何を必要としているかを理解し、配慮する。  
+訳: よい上司は、長期間仕事を休んだ後に戻った従業員が何を必要としているかを理解し、配慮する。  
 
 ・a sensitive approach  
 用途: 相手の気持ちや事情を大切にした対応を評価する。  
@@ -213,7 +213,7 @@ tags: []
 
 【レジスター/領域】日常的な身体・製品の説明、材料・環境・情報処理・市場の説明など。文脈に応じて「敏感な」「影響されやすい」「反応する」と訳す。  
 
-【文法パターン】be sensitive to 〈light/heat/touch/changes〉＝光・熱・接触・変化に反応しやすい／bacteria + be sensitive to an antibiotic＝細菌がある抗生物質に感受性を示す／sensitive 〈skin/teeth/materials〉＝刺激に弱い肌・歯・材料／〈刺激・条件を表す語〉-sensitive＝その条件に左右される／highly/extremely sensitive to something＝～に非常に敏感な／more/less sensitive＝より・それほどは敏感でない。to は通常前置詞で、後ろに名詞句を置く。the sensitivity of A to B の形では、影響を受けるものが A、刺激・条件が B。  
+【文法パターン】be sensitive to 〈light/heat/touch/changes〉＝光・熱・接触・変化に反応しやすい／bacteria + be sensitive to an antibiotic＝細菌がある抗生物質に感受性を示す／sensitive 〈skin/teeth/materials〉＝刺激に弱い肌・歯・材料／〈刺激・条件を表す語〉-sensitive＝その条件に左右される／highly/extremely sensitive to something＝～に非常に敏感な／more sensitive＝より敏感な／less sensitive＝敏感さが低い。to は通常前置詞で、後ろに名詞句を置く。the sensitivity of A to B の形では、影響を受けるものが A、刺激・条件が B。  
 
 【コロケーション・構文例】
 

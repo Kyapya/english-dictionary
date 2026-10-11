@@ -45,7 +45,7 @@ tags: []
 
 【レジスター/領域】一般、ビジネス、報道、説明文。価格・給与・製品性能・経験などの比較に多い。  
 
-【文法パターン】comparable + 〈名詞〉／be comparable to/with someone/something＝相手と同程度である／be comparable in 〈size/quality/value〉＝その点で同程度である／be of comparable 〈size/quality/value〉＝同程度の大きさ・質・価値である。程度の近さを quite、broadly、roughly などで調整できる。more comparable は「より近い／より比較に適した」で、単に「より優れた」ではない。  
+【文法パターン】comparable + 〈名詞〉／be comparable to/with someone/something＝相手と同程度である／be comparable in 〈size/quality/value〉＝その点で同程度である／be of comparable 〈size/quality/value〉＝同程度の大きさ・質・価値である。程度の近さを quite、broadly、roughly などで調整できる。more comparable は「より近い、またはより比較に適した」で、単に「より優れた」ではない。  
 
 【コロケーション・構文例】
 
@@ -122,8 +122,8 @@ tags: []
 
 ・comparable data  
 用途: 調査方法や対象の条件がそろったデータを示す。  
-例: The new survey questions make it difficult to obtain comparable data from earlier years.  
-訳: 調査の質問が新しくなったため、過去の年と比較できるデータを得るのが難しい。  
+例: The new survey questions make it difficult to obtain data comparable with those from earlier years.  
+訳: 調査の質問が新しくなったため、過去年のデータと比較できるデータを得るのが難しい。  
 
 ・be directly comparable  
 用途: 調整なしで数値を比較できるかを述べる。  
@@ -178,7 +178,7 @@ tags: []
 ・recent comparables  
 用途: 最近の市場状況を反映する比較対象を述べる。  
 例: Recent comparables suggest that the asking price is unusually high.  
-訳: 最近の類似物件の取引事例を見ると、その売り出し価格はかなり高いと考えられる。  
+訳: 最近の類似物件の取引事例を見ると、その売り出し価格は相場に比べて高いと考えられる。  
 
 【語法・注意】この名詞は比較評価という専門的な文脈で読む。We made a comparison.「比較を行った」の comparison を comparable に変えない。口頭や実務では comps と略すことがある。語義1・2の形容詞は複数名詞を修飾しても comparable のままで、comparable houses を comparables houses にはしない。  
 

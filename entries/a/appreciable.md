@@ -63,7 +63,7 @@ tags: []
 ・without any appreciable loss of something  
 用途: 実際に問題となるほどの損失を伴わないと述べる。  
 例: The images were compressed without any appreciable loss of quality.  
-訳: 画質を目立って落とすことなく、画像を圧縮できた。  
+訳: 画質を目立って落とすことなく、画像が圧縮された。  
 
 ・be appreciable  
 用途: 増加・差・効果そのものを主語にして程度を評価する。  

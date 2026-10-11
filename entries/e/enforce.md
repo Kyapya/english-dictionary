@@ -46,7 +46,7 @@ tags: []
 
 【レジスター/領域】法律、規則、行政、職場、学校、ITなど。公的な取締りに限らず、組織内のルールにも使う。  
 
-【文法パターン】enforce a 〈law/rule/ban〉／enforce an agreement／enforce compliance with 〈規則〉／enforce a contract／enforce one's rights／enforce something against/on someone＝対象者などに対して執行する。受動は 〈規則など〉 + be enforced。厳密さを strictly、rigorously、consistently などで示す。  
+【文法パターン】enforce a 〈law/rule/ban〉／enforce an agreement／enforce compliance with 〈規則〉／enforce a contract／enforce one's rights／enforce something against/on someone＝対象者などに対して執行する。受動は 〈規則など〉 + be enforced。厳格さを strictly、rigorously、一貫した運用を consistently などで示す。  
 
 【コロケーション・構文例】
 
@@ -130,7 +130,7 @@ tags: []
 ・enforce silence  
 用途: 人々が静かにしている状態を強制する。  
 例: The supervisor tried to enforce silence throughout the examination.  
-訳: 監督者は、試験中ずっと静かにするよう徹底させようとした。  
+訳: 監督者は、試験中ずっと静粛を守らせようとした。  
 
 ・enforce cooperation  
 用途: 自発的とは限らない協力を強いて実現させる。  

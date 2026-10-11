@@ -13,7 +13,7 @@ tags: []
 ＃発音記号
 
 米・英: /ɪnˈten.sɪv/  
-3音節で、第2音節 /ten/ に主強勢がある。語末 -sive は /sɪv/ で、/s/ は無声音、/v/ は有声音。intense /ɪnˈtens/ は2音節で、intensive には第3音節 /sɪv/ がある。extensive /ɪkˈsten.sɪv/ とは語頭の子音連続も異なる。  
+3音節で、第2音節 /ten/ に主強勢がある。語末 -sive は /sɪv/ で、/s/ は無声音、/v/ は有声音。intense /ɪnˈtens/ は2音節で、intensive には第3音節 /sɪv/ がある。extensive /ɪkˈsten.sɪv/ とは、第1音節末から第2音節初頭の子音も異なる。  
 
 ＃語源
 
@@ -252,7 +252,7 @@ tags: []
 【反意語】
 
 ・extensive  
-定義: 値が系の大きさ・物質量に応じて変わる、示量性の。  
+定義: 同じ状態・組成では、値が物質量に比例する、示量性の。  
 頻度: 〈2/10〉  
 違い: 系の規模への依存性という同じ専門的な軸で対立する。  
 例: Volume is an extensive property.  
@@ -277,8 +277,8 @@ tags: []
 
 ・use something as an intensive  
 用途: ある語が強調語として使われていることを述べる。  
-例: The grammar book treats “very” in “the very same answer” as an intensive.  
-訳: その文法書は、the very same answer の very を強調語として扱っている。  
+例: In “the very same answer,” “very” is used as an intensive.  
+訳: the very same answer では、very が強調語として使われている。  
 
 【語法・注意】強調用法と再帰用法は、同じ形でも役割が違う。She introduced herself. の herself は「彼女が紹介した対象」で、introduced の目的語。She herself introduced the speaker. の herself は「彼女自身が」を強調し、目的語は the speaker である。強調用法の herself を除いても She introduced the speaker. という基本の文は成立する。by herself「一人で／独力で」とも別構造。形容詞の intensive pronouns は pronouns が複数形になり、名詞として強調語を数えるときだけ intensives とする。  
 
