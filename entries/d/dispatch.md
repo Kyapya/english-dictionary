@@ -176,7 +176,7 @@ dispatches は /dɪˈspætʃ.ɪz/、dispatched は /dɪˈspætʃt/、dispatching
 ・on dispatch  
 用途: 発送時点で生じる処理を示す。  
 例: Your card will be charged on dispatch.  
-訳: 発送時にカードへ請求されます。  
+訳: 発送時にカードに代金が請求されます。  
 
 ・a dispatch date  
 用途: 配達日とは別に発送日を指定する。  

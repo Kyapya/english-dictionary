@@ -28,7 +28,7 @@ tags: []
 ・deliverable：形容詞では「納入・実現できる」。可算名詞では、業務・契約で提出すべき成果物を指し、複数形 deliverables がよく使われる。  
 ・deliverance：危険・苦難からの救済・解放。単なる荷物の配達には使わない。  
 ・deliverer：届ける人、または救い出す人。後者は宗教・文語で見られる。  
-・redeliver：再配達する。語頭の re- に「再び」を加える。  
+・redeliver：再配達する。語頭に re- を付け、「再び」の意味を加える。  
 
 ＃コアイメージ
 
@@ -135,7 +135,7 @@ tags: []
 
 2. 【動詞・他動詞】サービスを提供する・実施する
 
-【日本語訳・定義】医療・教育・支援・情報・エネルギーなどを、利用者が受けられる形で提供する。計画や準備だけでなく、提供活動そのものに焦点を置く。商品を製造して顧客へ納めることにも使う。  
+【日本語訳・定義】医療・教育・支援・情報・エネルギーなどを、利用者が受けられる形で提供する。計画や準備だけでなく、提供活動そのものに焦点を置く。製品を顧客へ納入することにも使う。  
 
 【頻度】〈8/10〉  
 
@@ -166,11 +166,11 @@ tags: []
 訳: そのプラットフォームは携帯端末に動画コンテンツを配信する。  
 
 ・deliver a product to a customer  
-用途: 製品の完成から顧客への納入までを業務上の結果として述べる。  
+用途: 顧客への製品納入を業務上の実績として述べる。  
 例: The manufacturer delivered its first electric bus to a customer last month.  
 訳: その製造会社は先月、同社初の電気バスを顧客に納入した。  
 
-【語法・注意】deliver training は「研修の資料を配達する」とは限らず、研修を実施すること。deliver a service は可算の個別サービスを、deliver services は複数種類や継続的な業務を表せる。deliver quality service の service は不可算でもよい。商品では語義1の物理的配達と重なるが、製造業の納入実績を述べる場合には製品を完成させ顧客へ渡す業務全体が焦点になる。能力や予定を述べる can deliver、will deliver は提供完了を保証する表現ではない。  
+【語法・注意】deliver training は「研修の資料を配達する」とは限らず、研修を実施すること。deliver a service は可算の個別サービスを、deliver services は複数種類や継続的な業務を表せる。deliver quality service の service は不可算でもよい。商品では語義1の物理的配達と重なる。製造業では完成品の納入実績を述べることにも使うが、deliver 自体が製造工程まで意味するわけではない。能力や予定を述べる can deliver、will deliver は提供完了を保証する表現ではない。  
 
 【類義語】
 
@@ -327,7 +327,7 @@ tags: []
 
 【レジスター/領域】一般、式典、教育、演劇、司法。give より改まった響きがある。  
 
-【文法パターン】deliver a speech＝演説する／deliver a lecture on something＝ある 主題について講義する／deliver a sermon＝説教する／deliver a verdict＝評決を言い渡す／deliver a warning＝警告を発する／deliver one's lines＝自分の台詞を言う。  
+【文法パターン】deliver a speech＝演説する／deliver a lecture on something＝ある主題について講義する／deliver a sermon＝説教する／deliver a verdict＝評決を言い渡す／deliver a warning＝警告を発する／deliver one's lines＝自分の台詞を言う。  
 
 【コロケーション・構文例】
 
@@ -780,9 +780,9 @@ tags: []
 【類義語】
 
 ・hold forth  
-定義: ある 主題について長々と話す。  
+定義: ある主題について長々と話す。  
 頻度: 〈4/10〉  
-違い: 長い一方的な話という点で重なり、on で 主題を示せる。deliver oneself of は自分の意見・演説という発言内容を of の後ろに置く。  
+違い: 長い一方的な話という点で重なり、on で主題を示せる。deliver oneself of は自分の意見・演説という発言内容を of の後ろに置く。  
 例: He held forth on the failings of modern architecture.  
 訳: 彼は現代建築の欠点について長々と論じた。  
 
