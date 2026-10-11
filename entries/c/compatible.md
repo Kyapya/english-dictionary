@@ -118,7 +118,7 @@ tags: []
 ・be compatible with a policy  
 用途: 計画や行動が方針に反しないと述べる。  
 例: The proposed changes are compatible with our policy of reducing waste.  
-訳: 提案された変更は、廃棄物を減らすという当社の方針に沿っています。  
+訳: 提案された変更は、廃棄物を減らすという当社の方針と矛盾しません。  
 
 ・be compatible with doing  
 用途: 二つの行動・目的を両立できるか述べる。  
@@ -193,7 +193,7 @@ tags: []
 
 【コロケーション・構文例】
 
-・be compatible with someone  
+・be compatible as roommates  
 用途: 特定の相手と気が合うと述べる。  
 例: I enjoy working with her, but I don't think we'd be compatible as roommates.  
 訳: 彼女と一緒に働くのは楽しいけれど、同居人としては相性がよくないと思う。  
@@ -211,7 +211,7 @@ tags: []
 ・be sexually compatible  
 用途: 親密な関係で性的な好み・希望などが合うと述べる。  
 例: They care about each other but are not sexually compatible.  
-訳: 二人は互いを大切に思っているが、性的な相性は合わない。  
+訳: 二人は互いを大切に思っているが、性的な相性はよくない。  
 
 【語法・注意】誰に対しても感じがよいという性質ではなく、相手との組合せを評価する語。friendly は人当たりのよさ、compatible は二人の相性であり、friendly でも互いの生活習慣が合わない場合は compatible とは限らない。We're compatible. だけでも成立し、with each other を常に付ける必要はない。恋愛について「お似合い」と訳せることはあるが、見た目が釣り合うという意味に限定しない。  
 
@@ -238,7 +238,7 @@ tags: []
 頻度: 〈6/10〉  
 違い: 相性という同じ軸での反対。互いを嫌っていることまでは必須でない。  
 例: They remained friends but realised they were incompatible as partners.  
-訳: 二人は友人関係を保ったが、パートナーとしては相性が合わないと気付いた。  
+訳: 二人は友人関係を保ったが、パートナーとしては相性がよくないと気付いた。  
 
 4. 【形容詞・限定／叙述】適合する、相容性のある
 
