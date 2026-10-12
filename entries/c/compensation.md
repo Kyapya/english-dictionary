@@ -97,7 +97,7 @@ tags: []
 例: Her compensation claim is still being reviewed.  
 訳: 彼女の補償請求は、まだ審査中だ。  
 
-【語法・注意】通常は some compensation、adequate compensation、an amount of compensation と言う。誤: They paid me a compensation. → 正: They paid me compensation.。個々の支払を数えるなら a compensation payment、two compensation payments が明確。語義3の「利点」では a compensation や compensations が自然なので、語全体を「複数形不可」としない。  
+【語法・注意】通常は some compensation、adequate compensation、an amount of compensation と言う。誤: They paid me a compensation. → 正: They paid me compensation. 個々の支払を数えるなら a compensation payment、two compensation payments が明確。語義3の「利点」では a compensation や compensations が自然なので、語全体を「複数形不可」としない。  
 
 claim compensation と claim for compensation は構造が異なり、前者の compensation は直接目的語、後者は for の目的語である。pay compensation to someone と pay someone compensation はどちらも可能。for は補償の対象、from は受領元で、compensation from the insurer for the loss「損失に対する保険会社からの補償」のように併用できる。  
 
@@ -331,7 +331,7 @@ a compensation circuit の a は circuit に付く。補正という機能全般
 ・physiological compensation  
 用途: 身体の機能が不足を補うことを、専門用語として示す。  
 例: The lecture explains how physiological compensation can mask an underlying impairment.  
-訳: その講義では、生理的な代償作用がどのように背景にある機能障害を表面化させにくくすることがあるかを説明する。  
+訳: その講義では、生理的な代償作用が背景にある機能障害を表面化しにくくしうる仕組みを説明している。  
 
 ・cardiac compensation  
 用途: 心臓の代償機構を論じる。  

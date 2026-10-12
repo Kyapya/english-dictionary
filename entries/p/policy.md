@@ -54,7 +54,7 @@ tags: []
 ・adopt a policy  
 用途: 新たな方針を選んで取り入れる。  
 例: The board adopted a policy on remote work.  
-訳: 取締役会は、在宅勤務に関する方針を採用した。  
+訳: 取締役会は、リモート勤務に関する方針を採用した。  
 
 ・implement a policy  
 用途: 決めた方針を実行に移す。  
