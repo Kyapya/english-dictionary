@@ -229,7 +229,7 @@ tags: []
 頻度: 〈9/10〉  
 違い: 通常不可算で、据え付けられた設備にも持ち運べる道具にも使う。  
 例: The laboratory has modern testing equipment.  
-訳: その研究室には最新の試験機器がある。  
+訳: その研究室には近代的な試験機器がある。  
 
 ・apparatus  
 定義: 特定の目的に使う器具・装置。  
@@ -396,5 +396,3 @@ tags: []
 違い: 地位を与える決定に焦点があり、就任式を含むとは限らない。  
 例: Her appointment as director was announced yesterday.  
 訳: 彼女の理事への任命は昨日発表された。  
-
-

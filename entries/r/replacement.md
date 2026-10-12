@@ -172,7 +172,7 @@ place を共有する placement「配置」、displacement「移動、排除」�
 頻度: 〈6/10〉  
 違い: 一時的な代役という性質が強い。replacement は恒久的な後任にも使う。  
 例: A stand-in hosted the programme while the regular presenter was away.  
-訳: 正式な司会者が不在の間、代役がその番組の司会を務めた。  
+訳: いつもの司会者が不在の間、代役がその番組の司会を務めた。  
 
 3. 【名詞・可算・不可算】置換術
 
