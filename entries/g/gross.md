@@ -436,7 +436,7 @@ tags: []
 例: He earns 3,200 dollars net a month.  
 訳: 彼の月収は手取りで3,200ドルだ。  
 
-7. 【句動詞・他動詞】gross out：気持ち悪がらせる、うんざりさせる
+7. 【句動詞・他動詞】gross out：気持ち悪がらせる、嫌悪感を抱かせる
 
 【日本語訳・定義】不快な物・言動などが人に強い嫌悪を感じさせる。主語が嫌悪の原因、目的語がそれを感じる人になる。  
 
@@ -468,7 +468,7 @@ tags: []
 例: We were grossed out by the smell when we opened the fridge.  
 訳: 冷蔵庫を開けたとき、私たちはそのにおいに気持ち悪くなった。  
 
-【語法・注意】分離可能で、gross the audience out / gross out the audience の両方が使える。代名詞は gross them out とし、誤: gross out them。能動形は通常、人を表す目的語が必要。単に「自分が嫌悪を感じた」なら I was grossed out. とする。状態を述べる形容詞は語義8。gross someone と out を落とすと、この句動詞の意味にならない。  
+【語法・注意】分離可能で、gross the audience out / gross out the audience の両方が使える。代名詞は gross them out とし、誤: gross out them。能動形は通常、人を表す目的語が必要。単に「自分が嫌悪を感じた」なら I was grossed out. とする。状態を述べる形容詞は語義8。out を落として gross someone とすると、この句動詞の意味にならない。  
 
 【類義語】
 
@@ -803,11 +803,11 @@ tags: []
 
 15. 【形容詞】ひどく太った、かさばって見苦しい
 
-【日本語訳・定義】体などが大きく太り、見るに堪えないという侮蔑的な評価を伴う古めの表現。体格を中立的に記述する語ではない。  
+【日本語訳・定義】体などが大きく太り、見るに堪えないという侮蔑的な評価を伴う表現。体格を中立的に記述する語ではない。  
 
 【頻度】〈3/10〉  
 
-【レジスター/領域】古め・文学的。人の体について使うと侮辱的。  
+【レジスター/領域】侮蔑的。人の体について使うと侮辱的。  
 
 【文法パターン】grow gross＝ひどく太る／a gross body＝太って見苦しい体  
 
@@ -819,7 +819,7 @@ tags: []
 訳: その架空の男爵は、晩年にはひどく太って体が重くなった。  
 
 ・a gross body  
-用途: 古めの侮蔑的な身体描写に使う。  
+用途: 侮蔑的な身体描写に使う。  
 例: The old novel describes the villain’s gross body and heavy breathing.  
 訳: その古い小説は、悪役の太って見苦しい体と荒い息遣いを描写している。  
 
