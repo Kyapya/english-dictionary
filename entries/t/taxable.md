@@ -80,7 +80,7 @@ tax「課税する」に -able「～され得る、～の対象となる」が�
 ・be taxable in 〈法域〉  
 用途: どの国などで課税されるかを示す。  
 例: They asked whether the same income could be taxable in both countries.  
-訳: 二人は、同じ所得が両国で課税対象になることがあるか尋ねた。  
+訳: 彼らは、同じ所得が両国で課税対象になることがあるか尋ねた。  
 
 ・fully taxable  
 用途: 支払金などの全額が対象になること。  

@@ -125,7 +125,7 @@ tags: []
 ・a baggage allowance  
 用途: 運賃などに含まれる荷物の許容量。  
 例: Check your baggage allowance before packing.  
-訳: 荷造りの前に、持ち込める荷物の量を確認してください。  
+訳: 荷造りの前に、許容される荷物の量を確認してください。  
 
 ・an allowance of 〈数量〉  
 用途: 利用できる量を指定する。  
@@ -215,7 +215,7 @@ tags: []
 頻度: 〈7/10〉  
 違い: 見込みという行為ではなく、余分に残した幅に焦点がある。  
 例: We left a margin of two days in case the shipment was late.  
-訳: 出荷が遅れた場合に備えて2日の余裕を取った。  
+訳: 荷物が遅れた場合に備えて2日の余裕を取った。  
 
 4. 【名詞・不可算／可算・慣用表現】事情の酌量、大目に見ること
 
