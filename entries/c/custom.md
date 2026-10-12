@@ -164,7 +164,7 @@ tags: []
 ・custom furniture  
 用途: 空間や注文に合わせる家具。  
 例: We ordered custom furniture to fit the unusually narrow room.  
-訳: 私たちは、そのとても細長い部屋に合う特注家具を注文した。  
+訳: 私たちは、その通常より幅の狭い部屋に合う特注家具を注文した。  
 
 ・custom software  
 用途: 特定の業務要件に対応するソフトウェア。  
@@ -254,11 +254,11 @@ tags: []
 
 【レジスター/領域】旅行、貿易、行政。  
 
-【文法パターン】customs（Customs とも）＝税関という組織・その職員。／customs officers＝税関職員。／customs authorities＝税関当局。／a customs declaration＝税関への申告・申告書。／customs regulations＝税関関連の規則。  
+【文法パターン】Customs is responsible for 〈業務〉＝税関がその業務を担当している。／customs officers＝税関職員。／customs authorities＝税関当局。／a customs declaration＝税関への申告・申告書。／customs regulations＝税関関連の規則。  
 
 【コロケーション・構文例】
 
-・customs  
+・Customs is responsible for 〈業務〉  
 用途: 機関としての税関。  
 例: Customs is responsible for examining the imported goods in this case.  
 訳: この件では、税関がその輸入品の検査を担当している。  
@@ -266,7 +266,7 @@ tags: []
 ・customs officers  
 用途: 個々の担当職員。  
 例: Customs officers asked the importer to provide invoices for the shipment.  
-訳: 税関職員は、輸入者にその貨物の送り状を提出するよう求めた。  
+訳: 税関職員は、輸入者にその貨物の仕入書（インボイス）を提出するよう求めた。  
 
 ・customs authorities  
 用途: 当局による対応。  
@@ -441,7 +441,7 @@ tags: []
 
 9. 【名詞・可算/不可算】法的な慣習、慣習法の基礎となる慣行
 
-【日本語訳・定義】長く行われ、法的な効力を持つものとして認められる慣行、またはそうした慣習。一般の風習を意味する場合とは異なり、法的な規範としての位置付けが問題になる。  
+【日本語訳・定義】法的な効力を持つものとして認められる慣行、またはそうした慣習。一般の風習を意味する場合とは異なり、法的な規範としての位置付けが問題になる。  
 
 【頻度】〈4/10〉  
 
@@ -466,7 +466,7 @@ tags: []
 例: The court distinguished a social habit from a custom with the force of law.  
 訳: 裁判所は、社会的な習慣と法的効力を持つ慣習を区別した。  
 
-【語法・注意】何度も行われたというだけで、あらゆる慣習が自動的に法律になるわけではない。法的な成立要件・効果は法域と制度による。国際法では、一般慣行に加えてそれが法として受け入れられていることが重要で、単なる礼儀・便宜上の習慣とは区別される。customary law は「慣習法」を明示する形。custom と common law は常に同義ではない。  
+【語法・注意】何度も行われたというだけで、あらゆる慣習が自動的に法律になるわけではない。法的な成立要件・効果は法域と制度による。国際法では、一般慣行に加えてそれが法として受け入れられていることが重要で、単なる礼儀・便宜上の習慣とは区別される。国際法では、慣行が一般的であれば一定の存続期間は必須ではない。customary law は「慣習法」を明示する形。custom と common law は常に同義ではない。  
 
 【類義語】
 

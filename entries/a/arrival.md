@@ -20,7 +20,7 @@ tags: []
 
 ＃語形成
 
-・arrive：自動詞。「到着する、ある状態に達する」。arrival は名詞なので、動作を文の述語にするときは arrive を使う。  
+・arrive：自動詞。「到着する、ある状態に達する」。arrival は名詞なので、動作を文の述語にするときは arrive を使う。形の上では arrive の語幹＋名詞語尾 -al に対応し、語末の e は残らない。これは現代の形の対応で、フランス語を経て借用された歴史とは区別する。  
 ・arrivals：複数形。「到着者、到着便」など。空港の案内表示では到着口・到着区域を示すこともある。  
 ・arrival time：複合名詞。「到着時刻」。名詞 arrival が time を修飾する。  
 ・new arrival：複合的な名詞表現。「新しく来た人・物」。文脈によって新生児や新入荷商品も指す。  
@@ -155,7 +155,7 @@ tags: []
 ・international arrivals  
 用途: 空港で到着便や到着旅客をまとめて示す。  
 例: All international arrivals have been redirected to Terminal 2.  
-訳: すべての国際線到着便が、第2ターミナルに変更された。  
+訳: すべての国際線到着便の到着ターミナルが、第2ターミナルに変更された。  
 
 ・the new arrival  
 用途: 生まれた赤ちゃんを指す。  
@@ -406,14 +406,14 @@ tags: []
 ・someone's arrival as 〈地位・評価〉  
 用途: 実力ある存在として認められること。  
 例: The award confirmed her arrival as a major literary talent.  
-訳: その受賞は、彼女が文壇の大きな才能として認められたことを確かなものにした。  
+訳: その受賞は、彼女が有力な文学者として認められたことを確かなものにした。  
 
 ・announce one's arrival  
 用途: 優れた成果で存在感を示す。  
 例: With its first international design award, the small studio announced its arrival on the world stage.  
 訳: 初の国際デザイン賞を受賞し、その小さなスタジオは世界の舞台で実力を印象付けた。  
 
-【語法・注意】arrival at a conclusion は名詞表現で、動詞なら arrive at a conclusion。arrival は成功の意味でも、具体的な職への任命を必ず含まない。語義4の arrival as finance director「財務責任者としての就任」と、この語義の arrival as a major talent「大きな才能としての認知」を区別する。announce one's arrival も、到着通知という字義的な使い方があるため、賞・成果・評価などが意味を決める。  
+【語法・注意】arrival at a conclusion は名詞表現で、動詞なら arrive at a conclusion。arrival は成功の意味でも、具体的な職への任命を必ず含まない。語義4の arrival as finance director「財務責任者としての就任」と、この語義の arrival as a major talent「実力ある人物としての認知」を区別する。announce one's arrival も、到着通知という字義的な使い方があるため、賞・成果・評価などが意味を決める。  
 
 【類義語】
 
