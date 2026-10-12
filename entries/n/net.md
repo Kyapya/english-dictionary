@@ -642,7 +642,7 @@ tags: []
 例: After the agreed discount, the equipment costs 9,000 dollars net.  
 訳: 合意した値引きを適用すると、その機器の価格は正味9,000ドルとなる。  
 
-【語法・注意】通常、金額・重量の後ろに置く。net pay は形容詞、earn $3,000 net は副詞として区別する。net の価格表示で税や送料を含むか、追加割引が可能かは取引条件で確認し、net 一語から決めない。  
+【語法・注意】通常、金額・重量の後ろに置く。net pay は形容詞、earn 3,000 dollars net は副詞として区別する。net の価格表示で税や送料を含むか、追加割引が可能かは取引条件で確認し、net 一語から決めない。  
 
 【反意語】
 
@@ -852,7 +852,7 @@ tags: []
 例: After the openings and closures, we net out with ten additional stores.  
 訳: 出店と閉店を差し引くと、最終的に店舗は10店増える。  
 
-【語法・注意】Net out the fees. は語義14の他動詞で「手数料を差し引く」。The amount nets out at $100. はここで扱う自動詞で「差引き100ドルになる」。前置詞 at / to / with の後ろの内容は到達額・結果で、控除する直接目的語ではない。一般向けには amount to / leave / result in などを文脈に応じて使ってもよい。  
+【語法・注意】Net out the fees. は語義14の他動詞で「手数料を差し引く」。The amount nets out at 100 dollars. はここで扱う自動詞で「差引き100ドルになる」。前置詞 at / to / with の後ろの内容は到達額・結果で、控除する直接目的語ではない。一般向けには amount to / leave / result in などを文脈に応じて使ってもよい。  
 
 【類義語】
 
