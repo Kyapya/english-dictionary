@@ -144,7 +144,7 @@ tags: []
 例: They get competitive whenever someone starts keeping score.  
 訳: 誰かが得点を付け始めると、彼らはいつも競争心をむき出しにする。  
 
-【語法・注意】a competitive athlete は「勝ちたがる選手」か、語義3の「上位を争える選手」かを文脈で判断する。competitive を competent「有能な」と混同しない。very、highly、fiercely、too などで程度を表せる。with は相手、about は競争心を抱く事柄を示す。  
+【語法・注意】a competitive athlete は、語義1の「競技・大会に参加する選手」、語義2の「勝ちたがる選手」、語義3の「上位を争える選手」のどれかを文脈で判断する。competitive を competent「有能な」と混同しない。very、highly、fiercely、too などで程度を表せる。with は相手、about は競争心を抱く事柄を示す。  
 
 【類義語】
 
@@ -169,7 +169,7 @@ tags: []
 頻度: 〈5/10〉  
 違い: この意味では競争心の強弱という同じ軸で対立する。語義3の「競争力がない」とは区別する。  
 例: She is unusually uncompetitive and is happy to let others take the prize.  
-訳: 彼女は珍しいほど勝ち負けにこだわらず、ほかの人が賞を取っても喜んでいる。  
+訳: 彼女は珍しいほど勝ち負けにこだわらず、ほかの人に賞を譲ることも快く受け入れる。  
 
 3. 【形容詞・限定用法・叙述用法】競争力のある・他に引けを取らない
 
