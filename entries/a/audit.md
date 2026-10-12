@@ -87,7 +87,7 @@ tags: []
 ・examination  
 定義: 会計記録などの内容を詳しく調べること。  
 頻度: 〈7/10〉  
-違い: audit より広い一般語。会計の正式な監査であることは、financial examination など周囲の表現で示す。  
+違い: audit より広い一般語。financial examination は財務に関する検査を示すが、正式な会計監査と同一とは限らない。  
 例: The examination of the expense records revealed several errors.  
 訳: 経費記録の精査で、いくつかの誤りが見つかった。  
 
@@ -123,7 +123,7 @@ tags: []
 ・have 〈会計記録〉 audited  
 用途: 外部などに監査を依頼する。  
 例: The trustees had the annual accounts audited before publishing them.  
-訳: 理事たちは年次決算書を公表する前に監査を受けた。  
+訳: 理事たちは年次決算書を公表する前に、その決算書を監査してもらった。  
 
 ・be audited by 〈実施者〉  
 用途: 監査される記録や主体を主語にする。  
@@ -332,7 +332,7 @@ tags: []
 ・audit a class  
 用途: 授業を聴講する。  
 例: She is auditing a statistics class to refresh her knowledge.  
-訳: 彼女は知識を学び直すために統計の授業を聴講している。  
+訳: 彼女は統計の知識を復習するために、その授業を聴講している。  
 
 ・get permission to audit a course  
 用途: 許可がある場面を述べる。  
