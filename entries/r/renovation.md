@@ -79,7 +79,7 @@ tags: []
 例: Several classrooms are in urgent need of renovation.  
 訳: いくつかの教室は、早急な改修を必要としている。  
 
-【語法・注意】工事という活動全体なら renovation、まとまった一回の工事なら a renovation、複数の工事や改修箇所なら renovations とする。可算用法では複数形がよく使われるが、a major renovation も自然。under renovation は通常無冠詞で、under a renovation とはしない。renovation of the building は建物全体を対象にし、renovations to the building はそこに施す改修に焦点を置きやすいが、厳密な工事規模の区別ではない。日本語の「リノベーション」のように大規模な用途変更だけに限定されず、小規模な改善にも使える。新しく建てること自体は construction、新築のため壊して建て直すことは rebuilding と区別する。remodeling は形や間取りを変える側面、restoration は元の状態に戻す側面が強い。reform を住宅の「リフォーム」の意味でそのまま使わない。  
+【語法・注意】工事という活動全体なら renovation、まとまった一回の工事なら a renovation、複数の工事や改修箇所なら renovations とする。可算用法では複数形がよく使われるが、a major renovation も自然。under renovation は通常無冠詞で、under a renovation とはしない。renovation of the building は建物全体を対象にし、renovations to the building はそこに施す改修に焦点を置きやすいが、厳密な工事規模の区別ではない。英語の renovation は、大規模な工事や用途変更に限定されず、小規模な改善にも使える。新しく建てること自体は construction、新築のため壊して建て直すことは rebuilding と区別する。remodeling は形や間取りを変える側面、restoration は元の状態に戻す側面が強い。reform を住宅の「リフォーム」の意味でそのまま使わない。  
 
 【類義語】
 
