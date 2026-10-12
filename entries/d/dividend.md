@@ -87,7 +87,7 @@ divide「分ける」、division「分割、除法」、divisor「除数」は�
 例: The fund automatically reinvests dividends.  
 訳: そのファンドは配当を自動的に再投資する。  
 
-【語法・注意】一回の配当や特定額は a dividend、継続的・複数回の配当は dividends とする。cash dividend と stock dividend は支払形態の違い。interest「利息」は資金の貸借・預入れなどに対する金銭で、dividend の同義語ではない。capital gain「売却益」、profit「会社の利益」とも区別する。declare は決定・公表であり、支払い済みという意味ではない。  
+【語法・注意】一回の配当や特定額には a dividend、複数の配当には dividends を使う。継続的な配当制度・支払い・配当水準を指して the dividend / its dividend と単数形にすることもある。cash dividend と stock dividend は支払形態の違い。interest「利息」は資金の貸借・預入れなどに対する金銭で、dividend の同義語ではない。capital gain「売却益」、profit「会社の利益」とも区別する。declare は決定・公表であり、支払い済みという意味ではない。  
 
 【類義語】
 
@@ -194,7 +194,7 @@ divide「分ける」、division「分割、除法」、divisor「除数」は�
 ・pay a dividend to creditors  
 用途: 清算における債権者への分配をいう。  
 例: The liquidator expects to pay a dividend to creditors later this year.  
-訳: 清算人は今年の後半に債権者への配当を支払う見込みだ。  
+訳: 清算人は今年中に債権者への配当を支払う見込みだ。  
 
 ・a dividend of 〈額〉 in the pound  
 用途: 英国の表現で債権額に対する配当割合を示す。  
@@ -235,7 +235,7 @@ divide「分ける」、division「分割、除法」、divisor「除数」は�
 
 【レジスター/領域】数学・算数の専門用法。  
 
-【文法パターン】the dividend in a division＝割り算の被除数／divide the dividend by the divisor＝被除数を除数で割る／a dividend of 〈数〉＝その数を被除数とすること。  
+【文法パターン】the dividend in a division＝割り算の被除数／divide the dividend by the divisor＝被除数を除数で割る／a dividend of 〈数〉＝〈数〉という値の被除数。  
 
 【コロケーション・構文例】
 

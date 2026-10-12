@@ -118,7 +118,7 @@ satis を共有する同根語には satisfy「満足させる」と satiate「�
 頻度: 〈7/10〉  
 違い: 日常の具体的な持ち物に使いやすく、資産としての評価額や会計分類を前面に出さない。  
 例: He packed his most valuable possessions in one suitcase.  
-訳: 彼は最も大切な持ち物を一つのスーツケースに詰めた。  
+訳: 彼は最も価値の高い持ち物を一つのスーツケースに詰めた。  
 
 2. 【名詞・可算】有用な人・強み・長所
 
@@ -269,7 +269,7 @@ satis を共有する同根語には satisfy「満足させる」と satiate「�
 ・recruit someone as an asset  
 用途: 協力者となる人物を確保することを述べる。  
 例: The agency recruited the engineer as an asset because of his access to classified files.  
-訳: その機関は、その技師が機密文書にアクセスできるため、情報協力者として獲得した。  
+訳: その機関は、その技師が機密文書にアクセスできるため、彼を情報協力者として獲得した。  
 
 ・protect an asset  
 用途: 情報提供者の身元や安全を守ることを述べる。  

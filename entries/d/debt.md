@@ -182,7 +182,7 @@ tags: []
 例: The report examines household indebtedness.  
 訳: その報告書は、家計が債務を抱える状況を検討している。  
 
-3. 【名詞・可算・通常単数／慣用表現では無冠詞】恩義・恩恵・借り
+3. 【名詞・可算・通常単数】恩義・恩恵・借り
 
 【日本語訳・定義】人から受けた助力や親切に報いるべきだと感じること、または知的・芸術的な成果などが先人に負っている恩恵。「恩がある」「おかげをこうむっている」という比喩で、金銭の返済義務ではない。  
 
@@ -219,7 +219,7 @@ tags: []
 例: The film owes a clear debt to early German cinema.  
 訳: その映画は、初期のドイツ映画から明らかに影響を受けている。  
 
-【語法・注意】owe you a debt と owe a debt to you の両方が可能。be in your debt では所有格 your が入り、通常 be in your a debt とはしない。repay a debt of gratitude は恩返しをすることで、現金を支払うとは限らない。in debt to someone は金銭にも恩義にも使えるため、金額や助力の内容を読む。語義2の bare in debt は金銭上の状態を表すのが普通。  
+【語法・注意】owe you a debt と owe a debt to you の両方が可能。be in your debt では所有格 your が入り、通常 be in your a debt とはしない。repay a debt of gratitude は恩返しをすることで、現金を支払うとは限らない。in debt to someone は金銭にも恩義にも使えるため、金額や助力の内容を読む。所有格を伴う in your debt と、所有格を伴わない in debt を区別する。後者は金銭上の状態を表すのが普通。  
 
 【類義語】
 
