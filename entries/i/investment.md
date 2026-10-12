@@ -40,7 +40,7 @@ invest に、行為・結果・状態などを表す接尾辞 -ment が付いた
 
 【レジスター/領域】中立。経済、金融、企業活動。  
 
-【文法パターン】investment in something＝対象への投資／make an investment in something＝対象に投資を行う／an investment of 〈金額〉＝その金額の投資／attract investment＝投資を呼び込む／return on investment＝投資に対する収益・効果／recoup an investment＝投資した金を回収する。  
+【文法パターン】investment in something＝対象への投資／make an investment in something＝対象に投資を行う／an investment of 〈金額〉＝その金額の投資／attract investment＝投資を呼び込む／return on investment＝投資に対する収益・効果／recoup an investment＝投資した金を回収する／be worth the investment＝その出費をする価値がある。  
 
 【コロケーション・構文例】
 
@@ -73,6 +73,11 @@ invest に、行為・結果・状態などを表す接尾辞 -ment が付いた
 用途: 投じた額の回収をいう。  
 例: It took five years to recoup the initial investment.  
 訳: 初期投資を回収するのに5年かかった。  
+
+・be worth the investment  
+用途: 役立つ購入への出費に見合う価値を述べる。  
+例: The quieter fan was worth the investment.  
+訳: そのより静かな扇風機は、費用をかけて買っただけの価値があった。  
 
 【語法・注意】in は投資先、of は額や投入物、on は return on investment などで見返りの基準を示す。誤り an investment on the company → 通常は an investment in the company。investment は支出を広く表す expenditure と同じではなく、将来の利益・効果を見込む。capital investment「設備などへの資本投資」、foreign direct investment「外国直接投資」は定着した複合表現。制度ごとの集計範囲は語そのものだけでは決まらない。  
 
@@ -129,7 +134,7 @@ invest に、行為・結果・状態などを表す接尾辞 -ment が付いた
 例: The report lists every asset in the investment portfolio.  
 訳: 報告書には投資ポートフォリオ内の全資産が記載されている。  
 
-【語法・注意】語義1の investment が「いくら投じたか」を指すのに対し、ここでは「何を保有しているか」を指す。Our investments fell in value. は「保有する投資資産の価値が下がった」で、投資の行為が減ったという意味ではない。good investment、safe investment は評価を添えた表現で、investment 自体が安全性を表すわけではない。  
+【語法・注意】語義1の investment が「資金を投じることや、その額」を指すのに対し、ここでは「何を保有しているか」を指す。Our investments fell in value. は「保有する投資資産の価値が下がった」で、投資の行為が減ったという意味ではない。good investment、safe investment は評価を添えた表現で、investment 自体が安全性を表すわけではない。  
 
 【類義語】
 
@@ -155,24 +160,19 @@ invest に、行為・結果・状態などを表す接尾辞 -ment が付いた
 
 【レジスター/領域】中立から会話的。道具、設備、日用品など。  
 
-【文法パターン】a good investment＝買う価値のある物／a worthwhile investment＝代金に見合う役立つ買物／be worth the investment＝その出費をする価値がある。  
+【文法パターン】a good investment＝買う価値のある物／a worthwhile investment＝代金に見合う役立つ買物。  
 
 【コロケーション・構文例】
 
 ・a good investment  
 用途: 役立つ購入品を評価する。  
 例: For daily cooking, a sharp knife is a good investment.  
-訳: 毎日の料理には、よく切れる包丁は買う価値がある。  
+訳: 毎日の料理に使うなら、よく切れる包丁は買う価値がある。  
 
 ・a worthwhile investment  
 用途: 長く役立つ買物をいう。  
 例: The waterproof coat proved a worthwhile investment on the trip.  
 訳: その防水コートは旅行中、買っただけの価値があるとわかった。  
-
-・be worth the investment  
-用途: 支出に見合う有用性を述べる。  
-例: The quieter fan was worth the investment.  
-訳: その静かな扇風機は、費用をかけて買っただけの価値があった。  
 
 【語法・注意】A good dictionary is an investment. のような評価は、辞書を転売する計画を意味しない。語義2との違いは、物の種類だけでなく購入の目的にある。a poor investment といえば、結果的に費用に見合わなかった買物にもなる。  
 
