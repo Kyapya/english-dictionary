@@ -82,10 +82,10 @@ competition「競争」、competitor「競争相手」は同じラテン語の�
 例: The company now competes in the international market.  
 訳: その会社は現在、国際市場で競争している。  
 
-・compete on price  
-用途: 価格を主な競争条件にする。  
+・compete on quality  
+用途: 品質を競争条件にする。  
 例: We compete on quality rather than on price.  
-訳: 当社は価格よりも品質で競争している。  
+訳: 当社は価格ではなく品質で競争している。  
 
 ・compete to do something  
 用途: 共通の目標に向かって他者と競う。  
@@ -199,7 +199,7 @@ competition「競争」、competitor「競争相手」は同じラテン語の�
 ・competing companies（compete の形容詞形）  
 用途: 同じ事業領域で競争する企業を示す。  
 例: Competing companies announced similar services within a week of each other.  
-訳: 競合する企業が、互いに1週間以内の間隔で、似たサービスを発表した。  
+訳: 競合する企業が、1週間以内の間隔で似たサービスを発表した。  
 
 ・competing products（compete の形容詞形）  
 用途: 同じ用途などで選択の対象になる製品を示す。  

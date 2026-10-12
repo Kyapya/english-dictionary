@@ -81,7 +81,7 @@ compete「競争する」、competition「競争」、competitive「競争を伴
 ・outperform a competitor  
 用途: 相手との成果や性能の差を述べる。  
 例: The new processor outperforms its closest competitor on this test.  
-訳: その新しいプロセッサーは、この試験で最も近い競合製品を上回る性能を示す。  
+訳: その新しいプロセッサーは、この試験で最も直接競合する製品を上回る性能を示す。  
 
 【語法・注意】個々の相手を数えるので a competitor、several competitors とする。the competition は相手側を集合的に表す別の名詞用法。「競争が激しい」は Competition is intense.、「競争相手が多い」は There are many competitors. と区別する。company's competitors と companies' competitors は所有者の単複が異なる。  
 
