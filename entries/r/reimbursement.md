@@ -92,7 +92,7 @@ tags: []
 
 【語法・注意】for は「何の支出・損失に対する支払か」、of は「何の費用・金額を払い戻すか」を示す。reimbursement for travel expenses と reimbursement of travel expenses はどちらも自然で、全く別の制度を意味するわけではない。from the employer は支払元、to employees は受取人を示す。  
 
-reimbursement は名詞。誤: The company will reimbursement me. → 正: The company will reimburse me.「会社が私に払い戻す」。受け取る側なら I will receive reimbursement. または I will be reimbursed.。I will reimburse the company. では、私が会社へ金を返すことになる。  
+reimbursement は名詞。誤: The company will reimbursement me. → 正: The company will reimburse me.「会社が私に払い戻す」。受け取る側なら I will receive reimbursement. または I will be reimbursed. I will reimburse the company. では、私が会社へ金を返すことになる。  
 
 receive reimbursement は不可算の一般的な形だが、a reimbursement、several reimbursements も、個別の支払を数える場合に使える。full がなければ全額とは限らず、申請を表す apply for、claim、request は、承認や実際の入金まで意味しない。上の insurer の例も承認した段階であり、払い込み完了と同一視しない。  
 
