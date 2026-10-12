@@ -153,7 +153,7 @@ tags: []
 ・repair a relationship with someone  
 用途: 悪化した関係を改善する。  
 例: She hopes to repair her relationship with her sister.  
-訳: 彼女は姉妹との関係を修復したいと願っている。  
+訳: 彼女は姉（または妹）との関係を修復したいと願っている。  
 
 ・repair someone’s reputation  
 用途: 傷ついた評判を回復させる。  

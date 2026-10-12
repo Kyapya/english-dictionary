@@ -13,7 +13,7 @@ tags: []
 ＃発音記号
 
 名詞の基本形 米・英: /ˈdiːfekt/｜動詞 米・英: /dɪˈfekt/  
-いずれも2音節。基本形では名詞は第1音節、動詞は第2音節に主強勢があり、第1音節の母音も名詞 /iː/ と動詞 /ɪ/ で異なる。ただし、米語では名詞にも /dɪˈfekt/ があり、強勢だけで必ず品詞を判別できるわけではない。名詞の複数形 defects と動詞の三人称単数形 defects は、どちらも語尾が /ts/。defected の -ed は /ɪd/ で3音節になる。  
+いずれも2音節。基本形では名詞は第1音節、動詞は第2音節に主強勢があり、第1音節の母音も名詞 /iː/ と動詞 /ɪ/ で異なる。ただし、名詞にも /dɪˈfekt/ という発音が米英ともにあり、強勢だけで必ず品詞を判別できるわけではない。名詞の複数形 defects と動詞の三人称単数形 defects は、どちらも語尾が /ts/。defected の -ed は /ɪd/ で3音節になる。  
 
 ＃語源
 
@@ -155,7 +155,7 @@ dēficere は de- と facere「行う、作る」からなる。deficient「不�
 例: Customers may defect if the new fees are too high.  
 訳: 新しい料金が高すぎると、顧客が他社へ乗り換えるかもしれない。  
 
-【語法・注意】自動詞なので、defect the party ではなく defect from the party、defect another company ではなく defect to another company とする。from は離れる側、to は移る側。どちらか、または両方を省略して、文脈で補うこともできる。defect は通常受動態にせず、They have defected.「彼らは離反した」と完了形を使う。亡命の意味でも、難民認定・庇護申請の受理などの法的手続きが完了したことは表さない。普通の転職に中立的な説明をしたいなら join another company や move to another company が使える。defect には元の組織の立場から見た「離反」の響きが出ることがある。  
+【語法・注意】自動詞なので、defect the party ではなく defect from the party、defect another company ではなく defect to another company とする。from は離れる側、to は移る側。どちらか、または両方を省略して、文脈で補うこともできる。defect は自動詞なので通常の受動態にはしない。They have defected.「彼らは離反した」は能動態の現在完了形で、文脈に応じて単純過去の They defected. なども使う。亡命の意味でも、難民認定・庇護申請の受理などの法的手続きが完了したことは表さない。普通の転職に中立的な説明をしたいなら join another company や move to another company が使える。defect には元の組織の立場から見た「離反」の響きが出ることがある。  
 
 【類義語】
 
