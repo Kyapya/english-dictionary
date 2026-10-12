@@ -296,7 +296,7 @@ tags: []
 頻度: 〈7/10〉  
 違い: interesting の否定を直接表し、boring より淡い評価になりやすい。  
 例: The details were uninteresting to most readers.  
-訳: その細部は大半の読者には興味を引かないものだった。  
+訳: その細部は大半の読者の興味を引かなかった。  
 
 4. 【形容詞：interested、限定・叙述】興味がある、関心を持つ
 
@@ -345,7 +345,7 @@ tags: []
 例: The short demonstrations kept the students interested.  
 訳: 短い実演によって、学生たちの関心が保たれた。  
 
-【語法・注意】誤り I am interesting in music. → 正しくは I am interested in music.。in の後は動名詞だが、interested to hear、interested to learn なども成立するので、不定詞を一律禁止しない。また、不定詞があっても常に「これから知りたい」ではなく、I was interested to learn that ... は知った内容への反応にもなる。interested in buying は購入に関心があるだけで、購入済みではない。be、seem、become、get などと結び、very、more などで程度を示せる。利害関係を示す an interested party は語義11。自ら注意を向けて関わる能動再帰構文 interest oneself in は語義14。  
+【語法・注意】誤り I am interesting in music. → 正しくは I am interested in music.。in の後に動詞を続ける場合は動名詞にするが、interested to hear、interested to learn なども成立するので、不定詞を一律禁止しない。また、不定詞があっても常に「これから知りたい」ではなく、I was interested to learn that ... は知った内容への反応にもなる。interested in buying は購入に関心があるだけで、購入済みではない。be、seem、become、get などと結び、very、more などで程度を示せる。利害関係を示す an interested party は語義11。自ら注意を向けて関わる能動再帰構文 interest oneself in は語義14。  
 
 【類義語】
 

@@ -159,7 +159,7 @@ tags: []
 例: The library extended the loan period for research materials.  
 訳: 図書館は、研究資料の貸出期間を延長した。  
 
-【語法・注意】on loan には通常冠詞を置かず、on a loan へ置き換えない。from は元の提供者、to は利用先を示すので、on loan from the museum と on loan to the museum は向きが逆になる。a loan of money は語義1、the loan of a camera は本義。loan 自体は名詞なので、主語と時制を伴って「貸した」と言うなら語義4の loaned を使う。  
+【語法・注意】on loan には通常冠詞を置かず、on a loan へ置き換えない。from は元の提供者、to は利用先を示すので、on loan from the museum と on loan to the museum は向きが逆になる。a loan of money は語義1、the loan of a camera は本義。この語義の loan は名詞なので、主語と時制を伴って「貸した」と言うなら語義4の loaned を使う。  
 
 3. 【名詞・可算／不可算】期限付き移籍・一時的な派遣
 
@@ -285,7 +285,7 @@ tags: []
 ・loan someone out to a club  
 用途: 代名詞を out の前に置いて移籍先を示す。  
 例: His club loaned him out to a team where he could play more regularly.  
-訳: 彼の所属クラブは、もっと定期的に出場できるチームへ彼を期限付きで移籍させた。  
+訳: 彼の所属クラブは、もっと頻繁に出場できるチームへ彼を期限付きで移籍させた。  
 
 ・be loaned to a club  
 用途: 選手側を主語にして移籍を述べる。  
