@@ -72,7 +72,7 @@ tags: []
 
 ・an allowance of 〈金額〉  
 用途: 金額を of で続ける。  
-例: Each trainee receives an allowance of $200 a week.  
+例: Each trainee receives an allowance of 200 dollars a week.  
 訳: 研修生には一人当たり週200ドルが支給される。  
 
 ・give someone an allowance  
@@ -276,7 +276,7 @@ tags: []
 
 ・a trade-in allowance  
 用途: 古い品を引き取る代わりの控除額。  
-例: The dealer offered a $2,000 trade-in allowance for my old car.  
+例: The dealer offered a 2,000-dollar trade-in allowance for my old car.  
 訳: 販売店は私の古い車を下取りに出せば2,000ドルを差し引くと提示した。  
 
 ・an allowance for 〈理由〉  
