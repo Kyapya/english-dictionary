@@ -84,7 +84,7 @@ tags: []
 例: The heater must be properly installed before use.  
 訳: その暖房器具は使用前に適切に設置されていなければならない。  
 
-【語法・注意】install a machine は「機械を設置する」で、機械を組み立てる assemble、操作する operate、始動させる start と同じではない。目的語を取るため、「技師が機器を設置した」は The technician installed the equipment.。受動態の be installed は設置の出来事にも設置済みの状態にも使える。英国では instal という綴りもあるが、install が一般的で、どちらの綴りでも installed・installing は l が2つ。  
+【語法・注意】install a machine は「機械を設置する」で、機械を組み立てる assemble、操作する operate、始動させる start と同じではない。目的語を取るため、「技師が機器を設置した」は「The technician installed the equipment.」となる。受動態の be installed は設置の出来事にも設置済みの状態にも使える。英国では instal という綴りもあるが、install が一般的で、どちらの綴りでも installed・installing は l が2つ。  
 
 【類義語】
 
