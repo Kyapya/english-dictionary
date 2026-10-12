@@ -144,7 +144,7 @@ tags: []
 例: Some shops charge less than the suggested retail price.  
 訳: 希望小売価格より安く販売する店もある。  
 
-【語法・注意】主に名詞の前で使い、普通は very retail や more retail と程度を付けない。価格の種類を対比して Is that price retail or wholesale? と述語に置くことはできる。retail sales は「小売売上」であり、必ず「小売店の特売」ではない。retail outlet の outlet は販売拠点で、必ずアウトレット割引店とは限らない。英語では recommended retail price、米語では suggested retail price もよく用いるが、地域で完全に排他的ではない。  
+【語法・注意】主に名詞の前で使い、普通は very retail や more retail と程度を付けない。価格の種類を対比して Is that price retail or wholesale? と述語に置くことはできる。retail sales は「小売売上」であり、必ず「小売店の特売」ではない。retail outlet の outlet は販売拠点で、必ずアウトレット割引店とは限らない。英国英語では recommended retail price、米語では suggested retail price もよく用いるが、地域で完全に排他的ではない。  
 
 【反意語】
 
@@ -175,7 +175,7 @@ tags: []
 ・retail for 〈価格〉  
 用途: 商品の小売価格を for で示す。  
 例: The headphones retail for 90 dollars.  
-訳: そのヘッドホンは小売で90ドルで売られている。  
+訳: そのヘッドホンの小売価格は90ドルだ。  
 
 ・retail from 〈最低価格〉  
 用途: 価格帯の下限を述べる。  
