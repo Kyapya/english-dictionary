@@ -111,7 +111,7 @@ tags: []
 頻度: 〈7/10〉  
 違い: 広告だけでなく、対象顧客や売り方の設計を含む販売活動に焦点がある。  
 例: The company markets the software to independent retailers.  
-訳: その会社は個人経営の小売店向けにそのソフトウェアを販売している。  
+訳: その会社は独立系の小売業者向けにそのソフトウェアを販売している。  
 
 2. 【動詞・他動詞】募集・開催などを告知する
 
@@ -238,9 +238,9 @@ tags: []
 
 【頻度】〈6/10〉  
 
-【レジスター/領域】一般。知らせなくてもよい事柄を目立たせるという批判的な含みを持つこともある。  
+【レジスター/領域】一般。外見・振る舞いなどが性質を示す用法は文語的。知らせなくてもよい事柄を目立たせるという批判的な含みを持つこともある。  
 
-【文法パターン】advertise the fact that 〈節〉＝その事実を広く知らせる／advertise one's presence＝自分の存在を人に気づかせる／advertise one's ignorance＝自分の無知を人目にさらす／advertise 〈性質・状態〉＝その性質・状態を目立つ形で示す  
+【文法パターン】advertise the fact that 〈節〉＝その事実を広く知らせる／advertise one's presence＝人が自分の存在に気づくようにする／advertise one's ignorance＝自分の無知を人目にさらす／advertise 〈性質・状態〉＝その性質・状態を目立つ形で示す  
 
 【コロケーション・構文例】
 
@@ -250,9 +250,9 @@ tags: []
 訳: 彼はその建物を所有しているという事実を広くは知らせていない。  
 
 ・advertise one's presence  
-用途: 自分がそこにいることを気づかせる。  
+用途: 自分がそこにいることに気づかせる。  
 例: She cleared her throat to advertise her presence.  
-訳: 彼女は自分がいることを気づかせるために軽くせき払いをした。  
+訳: 彼女は自分がいることに気づかせるために軽くせき払いをした。  
 
 ・advertise one's ignorance  
 用途: 知らないことを人に示してしまう。  

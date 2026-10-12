@@ -170,8 +170,8 @@ tags: []
 
 ・expand something to 〈到達規模〉  
 用途: 拡大後の規模を示す。  
-例: The college expanded the course to twelve weeks.  
-訳: その大学は講座の期間を12週間に延ばした。  
+例: The college expanded the course to twelve weeks by adding two new modules.  
+訳: その大学は新しい学習単元を2つ加え、講座を12週間の内容に拡充した。  
 
 ・expand one’s vocabulary  
 用途: 語彙の幅を増やす。  

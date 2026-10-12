@@ -242,7 +242,7 @@ tags: []
 ・be promoted to the rank of captain  
 用途: 階級の上昇を述べる。  
 例: She was promoted to the rank of captain last year.  
-訳: 彼女は昨年、大尉に昇進した。  
+訳: 彼女は昨年、大尉に昇進した。（ここでは陸軍の階級を想定）  
 
 ・get promoted  
 用途: 口語的に昇進を述べる。  

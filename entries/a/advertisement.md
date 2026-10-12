@@ -133,7 +133,7 @@ tags: []
 
 ・be a walking advertisement for something  
 用途: 人が良さを体現する。  
-例: With her fluent conversations, she is a walking advertisement for the language course.  
+例: With her ability to converse fluently, she is a walking advertisement for the language course.  
 訳: 彼女は流暢に会話し、その語学講座の良さを身をもって示している。  
 
 ・be no advertisement for something  
@@ -186,7 +186,7 @@ tags: []
 ・the advertisement of vacancies  
 用途: 個々の広告でなく募集を告知する行為を指す。  
 例: The guidelines cover the advertisement of vacancies.  
-訳: その指針は欠員募集の告知について扱っている。  
+訳: その指針は欠員募集の告知を扱っている。  
 
 ・public advertisement of something  
 用途: 公に知らせる過程を述べる。  
@@ -196,7 +196,7 @@ tags: []
 ・without advertisement  
 用途: 告知行為がないことを表す。  
 例: The position was filled without public advertisement.  
-訳: その職は公の募集告知をせずに人員が決まった。  
+訳: その職に就く人は、公に募集を告知せずに決まった。  
 
 【語法・注意】この用法では advertisement を行為として捉え、通常は複数形にしない。The advertisement of the vacancy took place on Monday. は欠員募集の告知という行為を述べ、An advertisement for the vacancy appeared on Monday. は個々の広告が出たことを述べる。of を伴うだけで必ず不可算になるわけではなく、文全体で行為か広告物かを判定する。  
 
