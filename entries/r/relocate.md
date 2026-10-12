@@ -143,7 +143,7 @@ re-「再び」と locate「場所を定める、位置を見つける」から�
 ・relocate 〈行事〉 to 〈場所〉  
 用途: 開催場所の変更。  
 例: Heavy rain forced the organizers to relocate the ceremony to the main hall.  
-訳: 大雨のため、主催者は式典の会場を大ホールへ移さざるを得なかった。  
+訳: 大雨のため、主催者は式典の会場をメインホールへ移さざるを得なかった。  
 
 【語法・注意】移す対象を直接目的語にし、relocate the office、relocate them のように置く。目的語を使わない自動詞（語義1）とは区別する。relocate a factory は工場の操業場所を移す意味になり、建物を丸ごと運ぶことを必ずしも意味しない。一方、relocate a historic house では建物そのものの移設を表す場合もある。be relocated は通常の受動態で、移される側が主語となる。relocated staff のような分詞修飾もできるが、very relocated のように程度を付けるのは普通でない。get relocated は転居・配置変更を受ける出来事を口語的に述べ得るが、be relocated のほうが文書では一般的。relocate someone to ... は場所の変更で、役職だけを変える promote や transfer と同じ意味とは限らない。  
 
