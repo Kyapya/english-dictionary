@@ -49,7 +49,7 @@ tags: []
 
 【レジスター/領域】一般、不動産、事業、契約。  
 
-【文法パターン】a lease on 〈物件・車〉／a lease for 〈物件・設備〉＝その対象の賃貸借契約。sign a lease＝契約書に署名する。renew a lease＝契約を更新する。the terms of a lease＝契約条件。under a lease＝賃貸借契約に基づいて。for lease＝賃貸用の、借り手募集中の。  
+【文法パターン】a lease on 〈物件・車〉＝その対象の賃貸借契約。／a lease for 〈物件・設備〉＝その対象の賃貸借契約。sign a lease＝契約書に署名する。renew a lease＝契約を更新する。the terms of a lease＝契約条件。under a lease＝賃貸借契約に基づいて。for lease＝賃貸用の、借り手募集中の。  
 
 【コロケーション・構文例】
 
@@ -81,7 +81,7 @@ tags: []
 ・for lease  
 用途: 物件案内や募集広告。  
 例: A sign in the window says that the store is for lease.  
-訳: 窓の掲示には、その店舗が貸し出し中だと書かれている。  
+訳: 窓の掲示には、その店舗の借り手を募集中だと書かれている。  
 
 【語法・注意】lease は契約、rent は通常「賃料」または「借りる・貸す行為」。pay the rent と sign the lease を区別する。a three-year lease は3年間の契約で、year は単数形。lease は期間・条件を定めた契約を意識させやすいが、「必ず長期、rent は必ず短期」という区別ではない。break a lease は契約を途中で終了・違反する文脈に使われるが、違約金や適法な解除の要件までは語自体から決まらない。署名・更新の法的効果も個別の契約と法域による。lessor は貸し手、lessee は借り手を表す契約上の語。  
 
@@ -173,7 +173,7 @@ tags: []
 
 【レジスター/領域】一般、不動産、事業。  
 
-【文法パターン】lease something to someone＝相手に物を貸す。lease someone something＝相手に物を貸す。lease something out／lease out something＝物を貸し出す。lease it out＝それを貸し出す。lease to someone＝文脈上の物件・設備をその相手に貸す。something + be leased to someone＝物がその相手に貸される。  
+【文法パターン】lease something to someone＝相手に物を貸す。lease someone something＝相手に物を貸す。lease something out＝物を貸し出す。／lease out something＝物を貸し出す。lease it out＝それを貸し出す。lease to someone＝文脈上の物件・設備をその相手に貸す。something + be leased to someone＝物がその相手に貸される。  
 
 【コロケーション・構文例】
 
@@ -190,7 +190,7 @@ tags: []
 ・lease something out  
 用途: 所有・保有する物を貸し出す。  
 例: The company no longer needs the warehouse and plans to lease it out.  
-訳: その会社は倉庫を使わなくなったため、貸し出す予定だ。  
+訳: その会社は倉庫がもう必要なくなり、貸し出す予定だ。  
 
 ・lease to 〈借り手〉  
 用途: 物件が明らかな場合の目的語省略。  
@@ -235,7 +235,7 @@ tags: []
 
 【レジスター/領域】一般、比喩。on life は特にアメリカ英語、of life は特にイギリス英語。  
 
-【文法パターン】give someone/something a new lease on life＝人・物を再び活気づける。give someone/something a new lease of life＝同じ意味の主に英国の形。get a new lease on life／take on a new lease of life＝新たな活力・存続の機会を得る。  
+【文法パターン】give someone/something a new lease on life＝人・物を再び活気づける。give someone/something a new lease of life＝同じ意味の主に英国の形。get a new lease on life＝新たな活力・存続の機会を得る。／take on a new lease of life＝新たな活力・存続の機会を得る。  
 
 【コロケーション・構文例】
 
