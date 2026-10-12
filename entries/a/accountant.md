@@ -69,7 +69,7 @@ tags: []
 例: The job advertisement asks for a qualified accountant with management experience.  
 訳: その求人広告では、管理職経験のある有資格の会計士を求めている。  
 
-【語法・注意】職業を単数で述べるときは an が必要で、誤: She is accountant. → 正: She is an accountant. accountant を一律に「公認会計士」と訳さない。CPA や chartered accountant は資格名であり、資格制度・業務範囲は国や団体による。bookkeeper は日々の記帳、auditor は記録や手続きの監査、tax adviser は税務助言に焦点があり、実際の職務は重なることもある。古い文献の「説明責任を負う者」や形容詞用法は、現代の通常の職業名とは別の歴史用法。  
+【語法・注意】修飾語を付けずに「会計士である」と職業を述べるときは、通常 an accountant とする。誤: She is accountant. → 正: She is an accountant. accountant を一律に「公認会計士」と訳さない。CPA や chartered accountant は資格名であり、資格制度・業務範囲は国や団体による。bookkeeper は日々の記帳、auditor は記録や手続きの監査、tax adviser は税務助言に焦点があり、実際の職務は重なることもある。古い文献の「説明責任を負う者」や形容詞用法は、現代の通常の職業名とは別の歴史用法。  
 
 【類義語】
 

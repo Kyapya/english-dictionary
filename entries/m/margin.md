@@ -267,7 +267,7 @@ tags: []
 頻度: 〈8/10〉  
 違い: 最も一般的な表現の一つで、room for improvement のように可能性にも使う。  
 例: The deadline leaves no room for delay.  
-訳: 締め切りまでに遅れが生じる余地はない。  
+訳: 締め切りがあるため、少しも遅れる余裕はない。  
 
 ・cushion  
 定義: 急な変化や損失を吸収する余裕。  
@@ -549,7 +549,7 @@ tags: []
 頻度: 〈7/10〉  
 違い: margin より一般的で、道路や土地の周りを述べるのにも使う。  
 例: Trees border the driveway.  
-訳: 車道沿いに木が並んでいる。  
+訳: 建物へ通じる車用の私道沿いに木が並んでいる。  
 
 ・edge  
 定義: 縁に別の素材・物を付ける。  
@@ -580,7 +580,7 @@ tags: []
 例: Under this arrangement, the two positions are margined separately.  
 訳: この仕組みでは、二つの持ち高の証拠金は別々に計算・管理される。  
 
-【語法・注意】margined、margining と活用し、be margined は受動態。一般の資金提供や利益の確保をすべて margin と言うわけではない。金融の文章以外では provide margin for ... などと具体的に述べる。語義10の物理的な縁取りと区別する。  
+【語法・注意】margined、margining と活用し、be margined は受動態。一般の資金提供や利益の確保をすべて margin と言うわけではない。語義10の物理的な縁取りと区別する。  
 
 【類義語】
 

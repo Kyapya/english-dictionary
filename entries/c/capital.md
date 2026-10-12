@@ -28,7 +28,7 @@ tags: []
 
 ＃意味・用法・関連表現
 
-1. 【名詞・不可算】資本、事業資金
+1. 【名詞・通常不可算】資本、事業資金
 
 【日本語訳・定義】事業や生産、投資のために利用できる金銭・設備などの資源や、その価値。経済学では生産に使う蓄積された設備など、会計では出資や純資産に関わる額を指す場合もあり、常に現金だけではない。  
 
@@ -36,7 +36,7 @@ tags: []
 
 【レジスター/領域】事業、金融、経済、会計。  
 
-【文法パターン】raise capital＝資金を調達する。invest capital in 〈事業・資産〉＝そこに資本を投じる。access to capital＝資金を調達・利用できること。working capital＝運転資本。venture capital＝ベンチャー企業への投資資金。equity capital＝自己資本・出資による資本。  
+【文法パターン】raise capital＝資金を調達する。invest capital in 〈事業・資産〉＝そこに資本を投じる。access to capital＝資金を調達・利用できること。working capital＝運転資本。venture capital＝ベンチャー企業への投資資金。equity capital＝自己資本。  
 
 【コロケーション・構文例】
 
@@ -66,11 +66,11 @@ tags: []
 訳: その新興企業は、次の成長段階に向けたベンチャー投資資金を確保した。  
 
 ・equity capital  
-用途: 借入れと区別した出資資本。  
+用途: 借入資本と区別した自己資本。  
 例: The expansion was funded with equity capital rather than a bank loan.  
-訳: その拡張は銀行借入れではなく、出資による資本で賄われた。  
+訳: その拡張は銀行借入れではなく、自己資本で賄われた。  
 
-【語法・注意】通常は不可算で enough capital、a large amount of capital とする。a capital は通常、首都や大文字などの別義になる。会計の capital が常に「資本金」だけを指すとは限らない。working capital は日常の事業資金を指すほか、会計指標では一般に流動資産から流動負債を引いた額を指す。income は一定期間に得る所得・収入、capital はある時点で保有・利用する資源という区別が基本。土地や労働と区別される経済学上の capital も、一般の財産の意味と同一範囲ではない。  
+【語法・注意】通常は不可算で enough capital、a large amount of capital とする。a capital は通常、首都や大文字などの別義になる。ただし、金額を特定して a starting capital of 100,000 pounds（10万ポンドの開業資金）のように単数形で使うこともある。会計の capital が常に「資本金」だけを指すとは限らない。equity capital は出資額だけでなく、利益剰余金も含み得る。working capital は日常の事業資金を指すほか、会計指標では一般に流動資産から流動負債を引いた額を指す。income は一定期間に得る所得・収入、capital はある時点で保有・利用する資源という区別が基本。土地や労働と区別される経済学上の capital も、一般の財産の意味と同一範囲ではない。  
 
 【類義語】
 
@@ -84,7 +84,7 @@ tags: []
 ・finance  
 定義: 事業などを実行するための資金。  
 頻度: 〈7/10〉  
-違い: 資金の調達・提供という側面に着目しやすく、finance for ... と結び付く。  
+違い: 資金の調達・提供という側面に着目しやすく、finance for ... と結び付く。この意味では特にイギリス英語で使われ、北米では通常 financing を使う。  
 例: The firm obtained finance for the expansion.  
 訳: その会社は拡張のための資金を確保した。  
 
