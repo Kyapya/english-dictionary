@@ -129,7 +129,7 @@ tags: []
 ・a deficit of 〈不足量〉  
 用途: 基準から不足する量を示す。  
 例: Rainfall ended the year with a deficit of 100 millimeters.  
-訳: 年間降水量は100ミリメートル不足したまま年を終えた。  
+訳: 年末時点で、年間降水量は基準より100ミリメートル少なかった。  
 
 ・a trust deficit  
 用途: 十分な信頼が得られていない状態。  

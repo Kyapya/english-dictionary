@@ -287,7 +287,7 @@ tags: []
 例: She baked turnovers filled with spinach and cheese.  
 訳: 彼女はホウレンソウとチーズを包んだ折り畳みパイを焼いた。  
 
-【語法・注意】複数は turnovers。turnover は具を包む折り返しの形に着目した名称で、あらゆる pie や pastry の同義語ではない。通常は単数に a を付けるが、母音で始まる修飾語があれば an apple turnover となる。  
+【語法・注意】複数は turnovers。turnover は具を包む折り返しの形に着目した名称で、あらゆる pie や pastry の同義語ではない。不定冠詞を付ける場合、直後の語が子音で始まる発音なら a、母音で始まる発音なら an を使う。例：a turnover、an apple turnover。  
 
 【類義語】
 
@@ -339,7 +339,7 @@ tags: []
 ・renewal  
 定義: 古いものが新しいものへ置き換わること。  
 頻度: 〈5/10〉  
-違い: 生体の更新にも使えるが、turnover のような速度・循環の測定を必須としない。  
+違い: 生体の更新にも使えるが、turnover は成分の喪失と補充が続く過程やその速さに着目する。  
 例: The process supports the renewal of the tissue.  
 訳: その過程は組織の更新を支えている。  
 
