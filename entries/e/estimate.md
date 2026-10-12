@@ -75,7 +75,7 @@ tags: []
 ・estimate something from 〈情報〉  
 用途: 推定の根拠となる資料を示す。  
 例: Researchers estimated the building's age from the materials used.  
-訳: 研究者たちは、使われた材料から建物の年代を推定した。  
+訳: 研究者たちは、使われた材料から建物の築年数を推定した。  
 
 ・estimate that 〈主語＋動詞〉  
 用途: 推定内容を節で述べる。  
@@ -392,7 +392,7 @@ tags: []
 ・a high estimate of something  
 用途: 能力・価値を高く見ていると述べる。  
 例: She had a high estimate of his ability to lead the team.  
-訳: 彼女は、彼のチームを率いる能力を高く評価していた。  
+訳: 彼女は、彼がチームを率いる能力を高く評価していた。  
 
 ・revise one's estimate of someone  
 用途: 新たな情報を受けて人物評価を見直す。  
