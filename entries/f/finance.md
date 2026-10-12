@@ -27,7 +27,7 @@ finances は名詞の複数形・動詞の三人称単数現在形ともに語�
 ・financially：金銭的に・財務上という副詞。  
 ・financing：資金の調達・提供や、その仕組みを表す名詞。動詞の -ing 形でもある。  
 ・financier：大規模な資金の運用・提供などに携わる金融家・資金提供者を表す可算名詞。  
-・refinance：借入れなどの資金調達条件を組み直す、借り換えるという他動詞。  
+・refinance：借入れなどの資金調達条件を組み直す、借り換えるという動詞（他動詞・自動詞）。  
 ・self-financing：自らの収入などで必要資金をまかなうという形容詞。  
 
 ＃コアイメージ
@@ -86,7 +86,7 @@ finances は名詞の複数形・動詞の三人称単数現在形ともに語�
 例: Please send the report to the finance department.  
 訳: その報告書を財務部に送ってください。  
 
-【語法・注意】分野・学問としては不可算で、study a finance ではなく study finance とする。finance department の finance は名詞が別の名詞を修飾する形。financial も形容詞だが、定着した名称を自由に置き換えられるとは限らない。personal finance は資金管理という分野・活動、my finances は自分の具体的な資金事情で、後者は語義3。  
+【語法・注意】分野・学問としては不可算で、study a finance ではなく study finance とする。finance department の finance は名詞が別の名詞を修飾する形。financial も形容詞だが、定着した名称を自由に置き換えられるとは限らない。personal finance は資金管理という分野・活動、my finances は自分の具体的な資金事情で、後者は語義3。関連語 accounting は取引の記録・集計・報告を行う会計業務で、資金調達・運用を扱う finance と区別する。  
 
 【類義語】
 
@@ -103,13 +103,6 @@ finances は名詞の複数形・動詞の三人称単数現在形ともに語�
 違い: 金融分野のうち銀行に関わる部分。企業内部の財務などまで含む finance より範囲が狭い。  
 例: He has ten years of experience in banking.  
 訳: 彼には銀行業務の経験が10年ある。  
-
-・accounting  
-定義: 組織などの金銭的取引を記録・集計・報告する会計業務。  
-頻度: 〈8/10〉  
-違い: 財務実務と重なるが、記録・報告に重点がある。資金調達や投資判断を広く扱う finance と同一ではない。  
-例: The software simplifies accounting for small firms.  
-訳: そのソフトウェアは小規模企業の会計業務を簡単にする。  
 
 2. 【名詞・不可算】資金・資金調達
 
