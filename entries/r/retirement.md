@@ -132,7 +132,7 @@ tags: []
 ・save for retirement  
 用途: 退職後の生活に備える。  
 例: They started saving for retirement in their thirties.  
-訳: 二人は30代で退職後に備えた貯蓄を始めた。  
+訳: 彼らは30代で退職後に備えた貯蓄を始めた。  
 
 ・come out of retirement  
 用途: 引退状態から現役に戻る。  
@@ -147,9 +147,9 @@ tags: []
 ・during retirement  
 用途: 退職後の期間を時間枠として示す。  
 例: Their housing needs may change during retirement.  
-訳: 退職後の生活の中で、二人の住まいに求める条件が変わるかもしれない。  
+訳: 退職後の生活の中で、彼らの住まいに求める条件が変わるかもしれない。  
 
-【語法・注意】通常は in retirement で、in the retirement とはしない。a happy retirement のように性質を付けて一人の引退生活を捉えると a が付く。come out of retirement は引退が撤回・中断され得ることを示し、「絶対に二度と活動しない」を定義上の条件にはしない。retirement は pension「年金」の直接の言い換えではなく、retirement income「退職後の収入」なら年金以外の収入も含み得る。  
+【語法・注意】通常は in retirement で、in the retirement とはしない。a happy retirement のように性質を付けて一人の引退生活を捉えると a が付く。come out of retirement は引退が撤回・中断され得ることを示し、「絶対に二度と活動しない」を定義上の条件にはしない。この語義の retirement は pension「年金」の直接の言い換えではなく、retirement income「退職後の収入」なら年金以外の収入も含み得る。  
 
 【類義語】
 
@@ -180,7 +180,7 @@ tags: []
 ・a retirement community  
 用途: 退職者向けに設けられた住まいの集まり。  
 例: They chose a retirement community with shared gardens.  
-訳: 二人は共同庭園のある退職者向けの住宅地を選んだ。  
+訳: 彼らは共同庭園のある退職者向けの住宅地を選んだ。  
 
 ・retirement planning  
 用途: 将来の暮らしや資金の計画。  
@@ -190,7 +190,7 @@ tags: []
 ・retirement income  
 用途: 現役を離れた後の収入。  
 例: Rental payments provide part of their retirement income.  
-訳: 家賃収入が、二人の退職後の収入の一部になっている。  
+訳: 家賃収入が、彼らの退職後の収入の一部になっている。  
 
 【語法・注意】この用法は名詞の前に置き、the home is retirement のような叙述にはしない。very retirement や more retirement という程度比較もしない。a retired teacher は「教師本人が退職した」、a retirement home は「退職後の人向けの施設」で構造が違う。施設の介護・医療サービスは名称だけでは決まらず、retirement home を一律に nursing home「介護施設」と同一視しない。  
 
@@ -228,7 +228,7 @@ tags: []
 ・planned retirement  
 用途: 計画上の運用終了。  
 例: The utility postponed the planned retirement of the power station.  
-訳: 電力会社は、その発電所の予定していた運用終了を延期した。  
+訳: 電力会社は、その発電所の運用終了予定を延期した。  
 
 【語法・注意】of の後は退役させる対象で、行為者ではない。対象ごとの終了を数えるなら aircraft retirements などの複数形もある。retirement は使用終了、decommissioning は正式な運用停止とその処置を意識させる。退役後に保存・展示されることもあり、必ず破壊・処分を伴うわけではない。  
 

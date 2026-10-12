@@ -77,7 +77,7 @@ tags: []
 ・household income  
 用途: 個人ではなく世帯全体の収入を示す。  
 例: Their household income fell when one partner reduced their working hours.  
-訳: 夫婦の一方が勤務時間を減らしたため、世帯収入が下がった。  
+訳: パートナーの一方が勤務時間を減らしたため、世帯収入が下がった。  
 
 ・gross income  
 用途: 控除前の額であることを示す。  
