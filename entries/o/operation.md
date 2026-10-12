@@ -519,5 +519,3 @@ tags: []
 違い: 答えを求める作業全体を指し、一つの calculation が複数の operations を含むこともある。  
 例: The calculation requires both multiplication and addition.  
 訳: その計算には乗法と加法の両方が必要だ。  
-
-
