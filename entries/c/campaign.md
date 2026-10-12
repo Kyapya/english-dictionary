@@ -17,7 +17,7 @@ tags: []
 
 ＃語源
 
-フランス語 campagne「開けた土地・野外での軍事行動」から入った語で、イタリア語 campagna を経た系統の、後期ラテン語 campania「平地」、ラテン語 campus「野原」にさかのぼる。野外で行う一連の軍事行動という用法から、目的に向けて継続する組織的活動にも広がった。camp「野営地」と campus「大学などの構内」も campus に由来する同根語。動詞 campaign は名詞を動詞として使うようになったもの。  
+フランス語 campagne「開けた土地・野外での軍事行動」から入った語で、おそらくイタリア語 campagna を経て、後期ラテン語 campania「平地」、ラテン語 campus「野原」にさかのぼる。野外で行う一連の軍事行動という用法から、目的に向けて継続する組織的活動にも広がった。camp「野営地」と campus「大学などの構内」も campus に由来する同根語。動詞 campaign は名詞を動詞として使うようになったもの。  
 
 ＃語形成
 
@@ -55,7 +55,7 @@ tags: []
 
 【レジスター/領域】一般・ビジネス・政治・社会活動。  
 
-【文法パターン】a campaign for something＝あるものを求める運動／a campaign against something＝あるものに反対する運動／a campaign to do 〈目的〉＝その目的を実現するための活動／launch a campaign＝活動を開始する／run a campaign＝活動を運営する／an advertising campaign＝広告キャンペーン／an election campaign＝選挙運動／a smear campaign＝組織的な中傷活動／on the campaign trail＝支持を求めて選挙運動で各地を回って  
+【文法パターン】a campaign for something＝あるものを求める運動／a campaign against something＝あるものに反対する運動／a campaign to 〈動詞原形＋必要な補語〉＝その目的を実現するための活動／launch a campaign＝活動を開始する／run a campaign＝活動を運営する／an advertising campaign＝広告キャンペーン／an election campaign＝選挙運動／a smear campaign＝組織的な中傷活動／on the campaign trail＝支持を求めて選挙運動で各地を回って  
 
 【コロケーション・構文例】
 
@@ -69,7 +69,7 @@ tags: []
 例: The group led a campaign against the closure of the library.  
 訳: その団体は図書館の閉鎖に反対する運動を主導した。  
 
-・a campaign to do 〈目的〉  
+・a campaign to 〈動詞原形＋必要な補語〉  
 用途: 目標を不定詞で示す。  
 例: The school launched a campaign to reduce food waste.  
 訳: その学校は食品廃棄物を減らすための活動を始めた。  
@@ -139,7 +139,7 @@ tags: []
 
 【レジスター/領域】一般・政治・社会活動。  
 
-【文法パターン】campaign for someone＝人を支持する運動をする／campaign for something＝あるものの実現を求めて運動する／campaign against someone or something＝人や物事に反対して運動する／campaign to do 〈目的〉＝その目的を実現するために運動する／campaign on 〈政策・争点〉＝その政策・争点を掲げて活動する／campaign on behalf of someone＝人のために活動する／campaign in 〈場所〉＝その場所で運動する／campaign for mayor＝市長職を目指して選挙活動をする  
+【文法パターン】campaign for someone＝人を支持する運動をする／campaign for something＝あるものの実現を求めて運動する／campaign against someone or something＝人や物事に反対して運動する／campaign to 〈動詞原形＋必要な補語〉＝その目的を実現するために運動する／campaign on 〈政策・争点〉＝その政策・争点を掲げて活動する／campaign on behalf of someone＝人のために活動する／campaign in 〈場所〉＝その場所で運動する／campaign for mayor＝市長職を目指して選挙活動をする  
 
 【コロケーション・構文例】
 
@@ -158,7 +158,7 @@ tags: []
 例: Residents are campaigning against the proposed car park.  
 訳: 住民たちは計画されている駐車場に反対して運動している。  
 
-・campaign to do 〈目的〉  
+・campaign to 〈動詞原形＋必要な補語〉  
 用途: 運動の目的を不定詞で示す。  
 例: They campaigned to keep the local swimming pool open.  
 訳: 彼らは地元のプールを閉鎖させないために運動した。  
@@ -269,8 +269,8 @@ tags: []
 定義: 特定の目的で遠方へ派遣される軍の遠征。  
 頻度: 〈5/10〉  
 違い: 部隊を遠方へ送ることに焦点があり、すべての戦役に遠征が伴うわけではない。  
-例: The military expedition returned before winter.  
-訳: その軍事遠征隊は冬になる前に帰還した。  
+例: The military expedition ended before winter.  
+訳: その軍事遠征は冬になる前に終わった。  
 
 4. 【名詞・可算】シーズン・大会を通じた戦い
 

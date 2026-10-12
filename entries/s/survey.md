@@ -127,11 +127,11 @@ tags: []
 
 【レジスター/領域】一般・社会調査・業務・学術。  
 
-【文法パターン】survey 〈人・組織〉＝人・組織を調査する／survey someone about 〈話題〉＝人に話題について調査する／survey 〈意見・行動〉＝意見・行動を調べる／be surveyed＝調査を受ける／those surveyed＝調査対象となった人々  
+【文法パターン】survey 〈人・組織〉＝人・組織を調査する／survey someone about 〈話題〉＝人を対象に、話題について調査する／survey 〈意見・行動〉＝意見・行動を調べる／be surveyed＝調査を受ける／those surveyed＝調査対象となった人々  
 
 【コロケーション・構文例】
 
-・survey 〈対象人数〉  
+・survey 〈人数を含む対象者の名詞句〉  
 用途: 調査対象者の人数を明示する。  
 例: Researchers surveyed 600 office workers.  
 訳: 研究者たちは会社員600人を調査した。  
@@ -139,7 +139,7 @@ tags: []
 ・survey someone about 〈話題〉  
 用途: 回答者と質問の内容を区別する。  
 例: We surveyed visitors about the new exhibition.  
-訳: 私たちは来場者に新しい展示について調査した。  
+訳: 私たちは来場者を対象に、新しい展示について調査した。  
 
 ・survey public attitudes  
 用途: 個々の人ではなく、調べる態度を目的語にする。  
@@ -462,7 +462,7 @@ tags: []
 例: The buyer decided to have a survey done.  
 訳: 買い手は建物調査をしてもらうことにした。  
 
-【語法・注意】米国ではこの意味に home inspection がよく対応するが、調査の名称・範囲・資格要件は制度やサービスごとに異なる。survey 自体が一定の法的保証や価格査定まで含むとは考えない。土地の境界を測る land survey は語義6で、建物の状態調査とは別。  
+【語法・注意】英国では full structural survey が包括的な building survey の呼称として使われることもある。米国ではこの意味に home inspection がよく対応するが、調査の名称・範囲・資格要件は制度やサービスごとに異なる。survey 自体が一定の法的保証や価格査定まで含むとは考えない。土地の境界を測る land survey は語義6で、建物の状態調査とは別。  
 
 【類義語】
 

@@ -168,7 +168,7 @@ tags: []
 訳: その講義は宇宙の膨張を裏付ける証拠を説明した。  
 
 ・the rate of expansion  
-用途: 広がり方の速さを示す。  
+用途: 膨張によって大きさが増す割合を示す。  
 例: The rate of expansion depends on the material and the temperature change.  
 訳: 膨張の割合は材料と温度変化によって異なる。  
 
