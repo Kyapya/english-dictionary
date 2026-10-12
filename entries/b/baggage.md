@@ -84,8 +84,8 @@ tags: []
 
 ・baggage tag  
 用途: 荷物の識別や行き先の確認。  
-例: Keep the baggage tag until you have collected your suitcase.  
-訳: スーツケースを受け取るまで、手荷物の識別札を保管してください。  
+例: Make sure the baggage tag shows the correct destination.  
+訳: 手荷物の識別札に正しい目的地が記載されていることを確認してください。  
 
 【語法・注意】通常は不可算で、a baggage、two baggages ではなく a piece of baggage、two pieces of baggage。動詞は My baggage is missing. のように単数扱い。baggage claim や baggage allowance の baggage は名詞による前置修飾で、baggages にしない。luggage と大きく重なり、英国の日常的な旅行の話では luggage がよく使われる一方、baggage は空港表示・運送条件でも定着している。「luggage は空のかばん、baggage は中身入り」と一律に区別することはできない。checked、carry-on、excess などは荷物の扱いを示すもので、具体的な個数・重量・費用を決める規則ではない。  
 
