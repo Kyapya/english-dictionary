@@ -255,7 +255,7 @@ tags: []
 ・come to an accommodation over 〈争点〉  
 用途: 争点を明示して交渉の結果を述べる。  
 例: The neighbours came to an accommodation over use of the shared driveway.  
-訳: 隣人同士は、共用の車道の使い方について折り合いをつけた。  
+訳: 隣人同士は、共用の車の進入路の使い方について折り合いをつけた。  
 
 【語法・注意】with の後ろは交渉相手、between の後ろは双方の当事者、over の後ろは争点。accommodation with the union は通常「労組との合意」で、宿泊施設の設備を表す accommodation with a kitchen とは異なる。ある合意を一つの結果として示すときは an accommodation、融和や調整を一般に述べるときは不可算でも使える。語義3の配慮は一方から提供できるが、この語義は対立や相違を調整する点が中心。  
 
@@ -271,7 +271,7 @@ tags: []
 ・settlement  
 定義: 紛争などを解決する合意。  
 頻度: 〈7/10〉  
-違い: 対立を決着させる面が強く、継続的な折り合いだけを表す accommodation より終結を意識させやすい。  
+違い: 対立を決着させる面が強く、折り合いや利害調整を表す accommodation より終結を意識させやすい。  
 例: The dispute ended with a negotiated settlement.  
 訳: 紛争は、交渉による和解で終結した。  
 

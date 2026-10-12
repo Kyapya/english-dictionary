@@ -60,7 +60,7 @@ tags: []
 ・plan an itinerary  
 用途: 訪問順・移動・滞在を組み立てる。  
 例: We planned an itinerary that leaves a free afternoon in each city.  
-訳: 各都市で午後に自由時間が取れる旅程を組んだ。  
+訳: 各都市で午後を自由に過ごせる日を設けた旅程を組んだ。  
 
 ・follow an itinerary  
 用途: 決めた経路・予定に沿って旅をする。  
