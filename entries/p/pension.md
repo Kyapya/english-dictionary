@@ -23,7 +23,7 @@ tags: []
 
 ・pensioner：可算名詞。「年金受給者」。特に英語の英国用法で高齢の年金受給者を指すことが多い。すべての retiree「退職者」が必ず同じ資格を持つとは限らない。  
 ・pensionable：形容詞。「年金受給資格につながる、年金計算の対象となる」。pensionable service「年金算定の対象となる勤務期間」、pensionable earnings「年金算定の対象となる報酬」。  
-・pensioned：動詞の過去形・過去分詞。「年金を与えられた」。a pensioned officer「年金受給中の元将校」のように名詞を修飾することもある。  
+・pensioned：動詞の過去形・過去分詞。能動態の過去形は「年金を与えた」。過去分詞は完了形にも受動態にも使い、受動態では「年金を与えられた」となる。a pensioned officer「年金受給中の元将校」のように名詞を修飾することもある。  
 
 ＃意味・用法・関連表現
 
@@ -52,7 +52,7 @@ tags: []
 ・live on a pension  
 用途: 生活費の源を述べる。  
 例: They live on a small pension and some savings.  
-訳: 二人は少額の年金といくらかの貯金で暮らしている。  
+訳: 彼らは少額の年金といくらかの貯金で暮らしている。  
 
 ・a pension of 〈金額〉  
 用途: 給付額と支給間隔を示す。  
@@ -107,7 +107,7 @@ tags: []
 
 【レジスター/領域】特に英、雇用・人物描写。  
 
-【文法パターン】pension someone off＝人を年金付きで退職させる。pension off 〈従業員など〉＝同じ意味の非分離形。pension them off＝代名詞は中央。be pensioned off＝年金付きで退職させられる。  
+【文法パターン】pension someone off＝人を年金付きで退職させる。pension off 〈従業員など〉＝名詞目的語を off の後に置く形。pension them off＝代名詞は中央。be pensioned off＝年金付きで退職させられる。  
 
 【コロケーション・構文例】
 
@@ -124,7 +124,7 @@ tags: []
 ・be pensioned off  
 用途: 本人を主語にして処遇を述べる。  
 例: She had no wish to be pensioned off while she could still do the job.  
-訳: まだ仕事ができるうちに、年金を与えられて引退させられるつもりは彼女にはなかった。  
+訳: 彼女は、まだ仕事ができる間は、年金を与えられて退職させられることを望んでいなかった。  
 
 【語法・注意】名詞なら pension the manager off と pension off the manager の両方が可能。代名詞は pension him off とし、pension off him にはしない。pension someone は語義3の「年金を与える」、off を伴うこの形は「職務から退かせる」ことまで表す。単なる解雇一般なら dismiss、本人が自分で引退するなら retire が基本。  
 
@@ -166,7 +166,7 @@ tags: []
 例: The poet was pensioned by the king.  
 訳: その詩人は国王から定期的な扶持を与えられていた。  
 
-【語法・注意】現代の通常の説明では grant someone a pension、pay someone a pension も使う。pensioned は受動態の過去分詞で、pension「宿泊施設」の形容詞ではない。語義2の pension someone off は職務から退かせることを含み、この単純な支給義とは区別する。  
+【語法・注意】現代の通常の説明では grant someone a pension、pay someone a pension も使う。上の be pensioned の pensioned は受動態の過去分詞で、pension「宿泊施設」の形容詞ではない。語義2の pension someone off は職務から退かせることを含み、この単純な支給義とは区別する。  
 
 【類義語】
 
@@ -324,6 +324,6 @@ tags: []
 ・full board  
 定義: 宿泊に1日3食を含める条件。  
 頻度: 〈5/10〉  
-違い: 英語の宿泊案内で一般的な表現で、半食付きの half board と対照される。  
+違い: 英語の宿泊案内で一般的な表現で、通常1日2食付きの half board と対照される。  
 例: We booked full board for the week.  
 訳: 私たちはその1週間、1日3食付きで宿泊を予約した。  

@@ -156,7 +156,7 @@ tags: []
 ・a net loss of 〈数量〉  
 用途: 獲得分などを相殺した後の減少を述べる。  
 例: Despite winning new customers, the firm recorded a net loss of 200 accounts.  
-訳: 新規顧客を獲得したものの、その会社の顧客口座数は差引きで200件減った。  
+訳: 新規顧客を獲得したものの、その会社の取引先は差引きで200件減った。  
 
 ・a net exporter of 〈品目〉  
 用途: 輸入より輸出が多い状態を述べる。  
@@ -792,8 +792,8 @@ tags: []
 
 ・net 〈費用など〉 out  
 用途: 代名詞目的語を小辞の前に置く。  
-例: Those costs are already included, so do not net them out twice.  
-訳: その費用はすでに計算に織り込まれているので、二重に差し引かないでください。  
+例: Those costs have already been deducted, so do not net them out again.  
+訳: その費用はすでに差し引かれているので、もう一度差し引かないでください。  
 
 ・net 〈金額A〉 off against 〈金額B〉  
 用途: 英国系の会計表現で相殺を述べる。  
