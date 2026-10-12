@@ -197,7 +197,7 @@ demands は語末が /ndz/、demanded は語尾が /ɪd/ となって3音節。d
 頻度: 〈8/10〉  
 違い: 受け入れを譲らない態度に重点があり、insist on something・insist that の型を取る。  
 例: She insisted on receiving a written explanation.  
-訳: 彼女は書面による説明を受けることを譲らなかった。  
+訳: 彼女は書面による説明を求めて譲らなかった。  
 
 ・require  
 定義: 規則・立場などから必要な行動や条件を求める。  
@@ -343,7 +343,7 @@ demands は語末が /ndz/、demanded は語尾が /ɪd/ となって3音節。d
 
 【レジスター/領域】一般・仕事・学術。  
 
-【文法パターン】〈仕事・状況〉 + demand 〈能力・行動〉＝仕事・状況が能力・行動を必要とする／demand a lot of someone＝人に多くの力を必要とさせる／be demanded of someone＝人に能力・対応が求められる／as the situation demands＝状況が必要とするように  
+【文法パターン】〈仕事・状況〉 + demand 〈能力・行動〉＝仕事・状況が能力・行動を必要とする／demand a lot of someone＝人に多くの努力・能力を求める／be demanded of someone＝人に能力・対応が求められる／as the situation demands＝状況が必要とするように  
 
 【コロケーション・構文例】
 
@@ -405,16 +405,16 @@ demands は語末が /ndz/、demanded は語尾が /ɪd/ となって3音節。d
 
 【レジスター/領域】会話を描く文章・小説・報道。  
 
-【文法パターン】“〈質問〉,” someone demanded＝人が強い調子で質問した／demand of someone＝人に強い調子で問いかける  
+【文法パターン】“〈質問〉?” someone demanded＝人が強い調子で質問した／“〈質問〉?” someone demanded of someone＝人が相手に強い調子で問いかけた  
 
 【コロケーション・構文例】
 
-・“〈質問〉,” someone demanded  
+・“〈質問〉?” someone demanded  
 用途: 引用した質問の強い口調を示す。  
 例: “Why was I not told?” she demanded.  
 訳: 「どうして私には知らされなかったの？」と彼女は強い調子で尋ねた。  
 
-・demand of someone  
+・“〈質問〉?” someone demanded of someone  
 用途: 質問の相手を明示する。  
 例: “Where is the missing file?” he demanded of the assistant.  
 訳: 「なくなったファイルはどこだ？」と彼は助手に問い詰めた。  

@@ -150,7 +150,7 @@ tags: []
 ・a promotion on 〈商品〉  
 用途: 対象商品を示す。  
 例: There is a promotion on selected backpacks this week.  
-訳: 今週は対象のバックパックで販促企画が行われている。  
+訳: 今週は一部のバックパックを対象に販促企画が行われている。  
 
 ・an in-store promotion  
 用途: 販売場所で行う企画を示す。  
@@ -380,7 +380,7 @@ tags: []
 
 ・a promotion to a knight  
 用途: 個別の昇格を数える。  
-例: A promotion to a knight gave White an immediate check.  
+例: With a promotion to a knight, White immediately put Black in check.  
 訳: ナイトへの昇格によって、白はすぐにチェックをかけた。  
 
 【語法・注意】昇格先はクイーンだけではなく、キングやポーンには替えられない。駒の交換はその手の一部で、味方の駒が先に取られていることを条件とはしない。underpromotion はクイーン以外への昇格を表す用語で、人事上の「十分でない昇進」ではない。  
