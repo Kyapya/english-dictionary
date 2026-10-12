@@ -191,7 +191,7 @@ tags: []
 ・projections on 〈物〉  
 用途: 表面上の突起を指す。  
 例: The tiny projections on the seed help it attach to animal fur.  
-訳: その種の小さな突起は、動物の毛にくっつくのに役立つ。  
+訳: その種子の小さな突起は、種子が動物の毛にくっつくのに役立つ。  
 
 ・a bony projection  
 用途: 骨にある突起を述べる。  

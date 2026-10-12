@@ -259,7 +259,7 @@ final「最後の」と finite「有限の」も finis にさかのぼる同根�
 ・hold financials  
 用途: 保有する株式の種類を述べる。  
 例: The portfolio holds fewer financials than it did last year.  
-訳: その運用資産は、昨年より保有している金融株が少ない。  
+訳: その運用資産に含まれる金融株は、昨年より少ない。  
 
 ・financials rise  
 用途: 市場の業種別の動きを述べる。  
@@ -330,7 +330,7 @@ final「最後の」と finite「有限の」も finis にさかのぼる同根�
 ・remain financial  
 用途: 未納のない会員資格の状態を維持する。  
 例: Members need to renew their subscriptions to remain financial.  
-訳: 会員は会費を納めた状態を保つため、会費の支払いを更新する必要がある。  
+訳: 会員は会費を納めた状態を保つため、次の期間の会費を納める必要がある。  
 
 【語法・注意】a financial member と a finance committee member「財務委員会の委員」は別の表現。この意味では通常、支払い済みかどうかを示し、比較級や very で程度を付けない。会費納入によって投票できるかなどの具体的な権利は団体の規則によるため、financial だけから決めない。  
 
