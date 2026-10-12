@@ -16,7 +16,7 @@ tags: []
 
 ＃語源
 
-中英語 deduccioun にさかのぼり、アングロ・フランス語を経た形と、ラテン語 deductio「導き去ること」に由来する語である。ラテン語 deducere「導き下ろす、連れ去る」の語族で、de-「下へ、離して」と ducere「導く」を含む。  
+中英語 deduccioun にさかのぼる。ラテン語 deductio「導き去ること」に由来し、アングロ・フランス語を経た経路もある。ラテン語 deducere「導き下ろす、連れ去る」の語族で、de-「下へ、離して」と ducere「導く」を含む。  
 現代英語では、金額を「差し引く」系列は deduct、事実から結論を「導く」系列は deduce と対応する。歴史的に同じ語族だからといって、現代の控除を推論の一種と説明したり、推論を単なる引き算と説明したりしない。conduct「導く、行う」と introduce「紹介する、導入する」も ducere に関係する同根語である。  
 
 ＃語形成
@@ -180,7 +180,7 @@ tax deduction の訳は文脈に応じて「所得控除」「経費の控除」
 
 ・make a deduction from the evidence  
 用途: 証拠を根拠として、個別の結論に至る。  
-例: She made the deduction from the evidence that someone had entered through the window.  
+例: From the evidence, she made the deduction that someone had entered through the window.  
 訳: 彼女は、証拠から、誰かが窓から入ったという結論を導いた。  
 
 ・deductions about 〈事柄〉  
@@ -278,4 +278,4 @@ induction「帰納」は観察例などから一般化する方法、abduction�
 頻度: 〈4/10〉  
 違い: deduction のうち演繹的な思考過程であることを明示する複合表現。金額の控除という意味にはならない。  
 例: Deductive reasoning can preserve truth from premises to a conclusion.  
-訳: 演繹的推論は、前提の真を結論へ保つことができる。  
+訳: 演繹的推論では、推論の形式が妥当なら、前提が真であるときに結論も真であることを保証できる。  
