@@ -644,7 +644,7 @@ claim a prize は、競争で賞を獲得する意味にも、当選した賞品
 ・claim 〈数〉 lives  
 用途: 災害などによる死者数を報じる。  
 例: The flood claimed twelve lives and destroyed hundreds of homes.  
-訳: 洪水で12人が亡くなり、何百もの住宅が倒壊した。  
+訳: 洪水で12人が亡くなり、何百もの住宅が破壊された。  
 
 ・claim another victim  
 用途: 同じ原因で新たな死者が出たことを述べる。  
@@ -738,7 +738,7 @@ claim attention は注目を「引く」と訳す場合も、対応の注意を�
 
 【レジスター/領域】一般の会話、紹介記事。someone's claim to fame、a town's claim to fame の形が多い。  
 
-【文法パターン】someone's claim to fame＝その人が知られる理由、自慢できる点／something's main claim to fame＝その物・場所の主な名物・特徴／someone's claim to fame + be doing something＝その人の自慢はその経験・行為である／have a claim to fame＝注目される理由がある。  
+【文法パターン】someone's claim to fame＝その人が知られる理由、自慢できる点／something's main claim to fame＝その物・場所の主な名物・特徴／someone's claim to fame + be + 〈動名詞句〉＝その人の自慢はその経験・行為である／have a claim to fame＝注目される理由がある。  
 
 【コロケーション・構文例】
 
@@ -752,12 +752,12 @@ claim attention は注目を「引く」と訳す場合も、対応の注意を�
 例: The village's main claim to fame is its annual lantern festival.  
 訳: その村を有名にしているのは、毎年開かれる灯籠祭りだ。  
 
-・someone's claim to fame + be doing something  
+・someone's claim to fame + be + 〈動名詞句〉  
 用途: 小さな経験を冗談めいた自慢として述べる。  
 例: My only claim to fame is appearing in the background of a television drama.  
 訳: 私の唯一の自慢は、テレビドラマの背景に映ったことがあるくらいです。  
 
-【語法・注意】ここでの claim は実際の金銭請求でも、「自分は有名だ」という発言そのものでもない。to は前置詞で、名詞 fame と結び付いた定着表現。my claim to fame の my は限定語として必要な役割を果たし、単数 claim を裸のまま使っているわけではない。  
+【語法・注意】ここでの claim は実際の金銭請求でも、「自分は有名だ」という発言そのものでもない。to は前置詞で、名詞 fame と結び付いた定着表現。someone's claim to fame + be + 〈動名詞句〉では、be の後は「～すること」を表す動名詞句で、進行形ではない。my claim to fame の my は限定語として必要な役割を果たし、単数 claim を裸のまま使っているわけではない。  
 
 「大きな名声を得たこと」だけに限定せず、only や modest などがあれば控えめ・冗談の響きを読む。signature dish「看板料理」などは特定対象の関連表現であり、claim to fame 全般の類義語ではない。  
 
@@ -812,7 +812,7 @@ dependent としての申告がどの税制上の優遇に結び付くか、誰�
 ・claim 〈番号〉  
 用途: 請求項を番号で特定する。  
 例: Claim 1 describes a device with two separate sensors.  
-訳: 請求項1は、2つの独立したセンサーを備える装置を記載している。  
+訳: 請求項1は、2つの別個のセンサーを備える装置を記載している。  
 
 ・the scope of a claim  
 用途: 特許で保護を求める範囲を論じる。  
