@@ -604,7 +604,7 @@ tags: []
 例: The contract gives the performer a percentage of the gross.  
 訳: その契約では、出演者に総収入の一定割合を支払うことになっている。  
 
-【語法・注意】個々の収入額は a gross、複数なら grosses。この複数形は数量単位の gross と違う。a gross of $1 million は100万ドルの総収入であり、100万ドルの純利益ではない。文脈がなければ名詞 gross の意味が分かりにくいので、一般的な文では gross income / gross revenue と明示してもよい。  
+【語法・注意】個々の収入額は a gross、複数なら grosses。この複数形は数量単位の gross と違う。a gross of 1 million dollars は100万ドルの総収入であり、100万ドルの純利益ではない。文脈がなければ名詞 gross の意味が分かりにくいので、一般的な文では gross income / gross revenue と明示してもよい。  
 
 【類義語】
 

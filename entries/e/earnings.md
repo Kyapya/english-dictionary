@@ -157,7 +157,7 @@ earn「稼ぐ」に名詞を作る -ing と複数語尾 -s が付いた形。ear
 例: Management lowered its earnings forecast because of higher costs.  
 訳: 経営陣は費用の増加を理由に利益予想を下方修正した。  
 
-【語法・注意】この意味でも earnings are と複数扱いにする。ただし earnings per share は一つの指標として単数扱いすることがあり、報告では Earnings per share was $1.20. という形も使う。earnings を常に「税引後純利益」と断定すると earnings before tax などを誤読する。修飾語と公表資料の定義を確認する。米国企業の決算で net earnings は net income と同義に使われる。retained earnings は現金の保管残高ではなく会計上の累積利益の項目である。EPS は実際に受け取る配当額ではない。adjusted earnings の調整内容は会社や指標で異なる。  
+【語法・注意】この意味でも earnings are と複数扱いにする。ただし earnings per share は一つの指標として単数扱いすることがあり、報告では Earnings per share was 1.20 dollars. という形も使う。earnings を常に「税引後純利益」と断定すると earnings before tax などを誤読する。修飾語と公表資料の定義を確認する。米国企業の決算で net earnings は net income と同義に使われる。retained earnings は現金の保管残高ではなく会計上の累積利益の項目である。EPS は実際に受け取る配当額ではない。adjusted earnings の調整内容は会社や指標で異なる。  
 
 【類義語】
 
