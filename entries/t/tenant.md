@@ -12,7 +12,7 @@ tags: []
 
 ＃発音記号
 
-米・英: /ˈtenənt/。2音節で第1音節に強勢。第2音節の母音は弱い /ə/。tenet /ˈtenɪt/「信条、主義」とは、語末部分の /n/ の有無や母音が異なる。複数形 tenants は /ˈtenənts/、過去形・過去分詞 tenanted は /ˈtenəntɪd/。  
+米・英: /ˈtenənt/。2音節で第1音節に強勢。第2音節の母音は弱い /ə/。tenet /ˈtenɪt/「信条、主義」とは、語末の /nt/ と /t/ を区別する。tenet の第2音節の母音には /ə/ の発音もある。複数形 tenants は /ˈtenənts/、過去形・過去分詞 tenanted は /ˈtenəntɪd/。  
 
 ＃語源
 
@@ -227,7 +227,7 @@ tags: []
 ・the tenants of 〈場所〉  
 用途: 場所にすむ生き物をまとめて描写する。  
 例: At dusk, the winged tenants of the cave began to emerge.  
-訳: 夕暮れになると、洞窟にすむ翼のある生き物たちが出てきた。  
+訳: 夕暮れになると、洞窟にすむ翼のある生き物たちが出てき始めた。  
 
 【語法・注意】この文語的な義を理由に、一般の物件契約の tenant から賃貸借の意味を取り除かない。owl、winged、cave など、通常の借主ではないことが分かる文脈で理解する。普通に人の居住を述べるなら resident、動物が生息することなら inhabitant などが明瞭。  
 
@@ -255,7 +255,7 @@ tags: []
 
 【レジスター/領域】法律、財産法。用語の具体的な範囲・効果は法域と制度による。  
 
-【文法パターン】a life tenant／a tenant for life＝生涯を基準とする期間の権利を持つ保有者。tenants in common＝tenancy in common という共有形態の保有者たち。joint tenants＝joint tenancy という共同保有形態の当事者たち。  
+【文法パターン】a life tenant（a tenant for life とも）＝生涯を基準とする期間の権利を持つ保有者。tenants in common＝tenancy in common という共有形態の保有者たち。joint tenants＝joint tenancy という共同保有形態の当事者たち。  
 
 【コロケーション・構文例】
 

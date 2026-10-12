@@ -179,7 +179,7 @@ tags: []
 
 ・social amenities（amenity の複数形）  
 用途: 礼儀としての挨拶や気遣い。  
-例: Even during the dispute, they preserved the social amenities of greeting one another politely.  
+例: Even during the dispute, they maintained the social amenities, greeting one another politely.  
 訳: 対立している間も、互いに丁寧に挨拶するという社交上の礼儀は保たれていた。  
 
 ・exchange amenities（amenity の複数形）  
