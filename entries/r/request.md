@@ -150,7 +150,7 @@ request は demand より圧力の弱い、丁寧な表現になりやすいが�
 
 【レジスター/領域】フォーマル・ビジネス・公的な案内。日常会話では ask for、ask someone to が一般的。  
 
-【文法パターン】request something＝物・情報などを求める／request something from someone＝相手に物・情報などを求める／request that 〈主語〉 + 〈動詞の原形〉＝あることをするよう要請する／request that 〈主語〉 + should + 〈動詞の原形〉＝あることをするよう要請する、主に英国英語でも使う形／request to do something＝自分が何かをすることを願い出る／request someone to do something＝人に何かをするよう要請する／be requested to do something＝何かをするよう求められる／be requested not to do something＝何かをしないよう求められる／request permission to do something＝何かをする許可を求める  
+【文法パターン】request something＝物・情報などを求める／request something from someone＝相手に物・情報などを求める／request that 〈主語〉 + 〈動詞の原形〉＝あることをするよう要請する／request that 〈主語〉 + should + 〈動詞の原形〉＝あることをするよう要請する、英国英語ではこの形も使う／request to do something＝自分が何かをすることを願い出る／request someone to do something＝人に何かをするよう要請する／be requested to do something＝何かをするよう求められる／be requested not to do something＝何かをしないよう求められる／request permission to do something＝何かをする許可を求める  
 
 【コロケーション・構文例】
 
@@ -319,7 +319,7 @@ request to speak では話すのは依頼する主語、request her to speak で
 ・be much in request  
 用途: 古風な語り口で、人の人気や需要の高さを表す。  
 例: His services were much in request among wealthy families.  
-訳: 彼の仕事は、裕福な家庭の間で引っ張りだこだった。  
+訳: 彼の仕事は、裕福な家庭から大いに求められていた。  
 
 【語法・注意】on request「求めに応じて」と取り違えない。in request は、依頼を提出中という意味ではない。現在の業務文書では His services were in high demand. のように書くほうが一般的。  
 
