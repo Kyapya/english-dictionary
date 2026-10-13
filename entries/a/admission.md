@@ -322,7 +322,7 @@ tags: []
 ・admission to the hospital  
 用途: 入院先の病院を伴って述べる。  
 例: Admission to the hospital was arranged for the following morning.  
-訳: その病院への入院は、翌朝に手配された。  
+訳: 翌朝にその病院へ入院するよう手配された。  
 
 ・on admission  
 用途: 記録・説明の時点を入院時に置く。  
