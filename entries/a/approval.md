@@ -54,7 +54,7 @@ prove「証明する」と probe「詳しく調べる」は、同じラテン語
 ・seek someone's approval  
 用途: 人から認められたいという気持ちを述べる。  
 例: He no longer seeks his older brother's approval for every choice he makes.  
-訳: 彼はもう、何を選ぶにも兄の賛同を求めることはない。  
+訳: 彼はもう、何かを選ぶたびに兄の賛同を求めるようなことはしない。  
 
 ・win someone's approval  
 用途: 態度や行動が好意的に評価されることを述べる。  

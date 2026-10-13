@@ -72,7 +72,7 @@ receive「受け取る」と capture「捕らえる」も、ラテン語 capere 
 ・acceptance of 〈贈り物〉  
 用途: 物を受け取ることを改まって述べる。  
 例: Acceptance of gifts from suppliers is discouraged.  
-訳: 仕入先から贈り物を受け取ることは推奨されていない。  
+訳: 仕入先から贈り物を受け取ることは、控えるよう求められている。  
 
 ・acceptance of responsibility for something  
 用途: 責任を自分のものとして引き受けることを表す。  
@@ -160,7 +160,7 @@ receive「受け取る」と capture「捕らえる」も、ラテン語 capere 
 ・widespread acceptance of 〈考え・方法〉  
 用途: 受容の広がりを示す。  
 例: Widespread acceptance of remote work has changed recruitment practices.  
-訳: 在宅勤務が広く受け入れられたことで、採用の慣行が変わった。  
+訳: リモートワークが広く受け入れられたことで、採用の慣行が変わった。  
 
 ・acceptance among 〈集団〉  
 用途: どの人々の間で認められているのかを示す。  
@@ -235,7 +235,7 @@ receive「受け取る」と capture「捕らえる」も、ラテン語 capere 
 
 ・acceptance by 〈人・集団〉  
 用途: 受け入れる側を by で示す。  
-例: Acceptance by his new colleagues mattered more to him than the office title.  
+例: Acceptance by his new colleagues mattered more to him than his job title.  
 訳: 新しい同僚たちに受け入れられることの方が、彼には職場での肩書より重要だった。  
 
 ・seek acceptance  
