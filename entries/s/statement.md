@@ -510,14 +510,14 @@ tags: []
 ・a statement of the theme  
 用途: どの楽器などが主題を提示するかを述べる。  
 例: The first statement of the theme is played by the cellos.  
-訳: 主題の最初の提示はチェロ群によって演奏される。  
+訳: 主題は、最初にチェロ群の演奏によって提示される。  
 
 ・the opening statement of 〈主題〉  
 用途: 冒頭の提示を指す。  
 例: The opening statement of the melody is quiet and restrained.  
 訳: その旋律の冒頭の提示は、静かで抑制が利いている。  
 
-【語法・注意】政治的なメッセージを音楽で表すという語義4とは別で、ここでは主題が音楽的に現れることをいう。statement 自体は必ずしも「最初の提示」を意味せず、first・opening がその位置を指定する。楽曲全体の形式を表す exposition とも、常に同じ範囲ではない。  
+【語法・注意】政治的なメッセージを音楽で表すという語義4とは別で、ここでは主題が音楽的に現れることをいう。statement 自体は必ずしも「最初の提示」を意味せず、first・opening がその位置を指定する。ソナタ形式やフーガなどの提示部を指す exposition とも、常に同じ範囲ではない。  
 
 【類義語】
 
@@ -550,7 +550,7 @@ tags: []
 例: In Northern Ireland, a pupil may have a statement specifying the support needed.  
 訳: 北アイルランドでは、児童・生徒に必要な支援を明記した認定書がある場合がある。  
 
-【語法・注意】一般の「声明」や保護者が書く personal statement ではない。2026年時点で、イングランドでは EHC plans、ウェールズでは IDPs への制度移行が行われている。一方、北アイルランドの現行案内では statement が使われるため、この教育制度義全体を廃語扱いしない。同じ英国でも制度は一律ではなく、地域と文書の時点を確認する。対応する動詞は語義11。  
+【語法・注意】一般の「声明」や保護者が書く personal statement ではない。2026年時点の現行制度では、イングランドは EHC plans、ウェールズは IDPs を用いる。一方、北アイルランドの現行案内では statement が使われるため、この教育制度義全体を廃語扱いしない。同じ英国でも制度は一律ではなく、地域と文書の時点を確認する。対応する動詞は語義11。  
 
 11. 【動詞・他動詞・しばしば受動態】教育的ニーズの認定書を作成する
 
