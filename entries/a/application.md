@@ -49,7 +49,7 @@ apply「適用する・申請する」と applicable「適用できる」は同�
 ・submit an application to 〈機関〉 for something  
 用途: 提出先と求めるものを一つの文で区別する。  
 例: The group submitted an application to the council for a grant.  
-訳: その団体は議会に助成金の申請を提出した。  
+訳: その団体は地方自治体に助成金の申請を提出した。  
 
 ・an application to do something  
 用途: 許可・参加などを求める行為を不定詞で示す。  
@@ -255,7 +255,7 @@ apply「適用する・申請する」と applicable「適用できる」は同�
 頻度: 〈7/10〉  
 違い: 遵守を確保する働きかけに焦点がある。application は規則を事例に当てはめることで、違反への対応を必ずしも含まない。  
 例: Enforcement of the parking rules is the council's responsibility.  
-訳: 駐車規則を守らせることは議会の責任である。  
+訳: 駐車規則を守らせることは地方自治体の責任である。  
 
 ・implementation  
 定義: 決定した制度・方針を実施すること。  
@@ -406,12 +406,12 @@ apply「適用する・申請する」と applicable「適用できる」は同�
 ・require application  
 用途: 才能や興味だけでなく、継続的な努力が要ると述べる。  
 例: Learning to play the instrument requires patience and application.  
-訳: その楽器の演奏を習得するには、忍耐と専心する努力が必要だ。  
+訳: その楽器の演奏を習得するには、忍耐とひたむきな努力が必要だ。  
 
 ・a lack of application  
 用途: 課題への取り組みが十分でないことを指摘する。  
 例: The trainer attributed the poor results to a lack of application.  
-訳: トレーナーは、成績が振るわなかった原因を取り組む努力の不足だとした。  
+訳: トレーナーは、成績が振るわなかった原因を、十分に努力していなかったことだとした。  
 
 【語法・注意】この意味では不可算で、普通 an application や applications と数えない。application to her work は「仕事への専念」で、job application「仕事への応募」ではない。特に diligence、patience、talent などとの並列・対比が手掛かりになる。動詞なら apply oneself to something で、本人が力を注ぐことを再帰代名詞で表す。名詞 application 自体に再帰代名詞を付ける必要はない。  
 

@@ -448,7 +448,7 @@ attach「付ける」と detach「取り外す」は、このフランス語系�
 ・an attachment of earnings order  
 用途: 給与から債務返済分を控除する裁判所命令を指す。  
 例: Under the attachment of earnings order, the employer deducted money from her wages to repay the debt.  
-訳: 給与からの控除を命じる裁判所命令に基づき、雇用主は債務の返済のために彼女の給与から金額を差し引いた。  
+訳: 給与からの控除を命じる裁判所命令に基づき、雇用主は彼女の給与から債務の返済分を差し引いた。  
 
 【語法・注意】attachment は行為・措置を不可算で捉えることも、個別の命令を可算で指すこともある。a writ of attachment の中心名詞は writ。米国では訴訟中の保全や判決の執行に関係する文脈で使われるが、すべての attachment が同じ要件・時点で行われるわけではない。イングランド・ウェールズなどの attachment of earnings order では、earnings は会社の利益ではなく債務者の給与を指す。雇用主による給与からの控除を命じるもので、単なる給与明細の添付ではない。日本法の「仮差押え」「差押え」などの特定制度へ無条件に一対一対応させない。命令の発出、実際の執行、最終的な権利判断も区別する。  
 
