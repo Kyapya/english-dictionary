@@ -178,8 +178,8 @@ document の主強勢は第1音節だが、documentation では -ation の /eɪ/
 
 ・documentation of 〈主張〉  
 用途: 根拠資料をそろえる作業を述べる。  
-例: The editor requested better documentation of the claims.  
-訳: 編集者は、それらの主張をもっと十分な資料で裏付けるよう求めた。  
+例: Documentation of the claims took several days.  
+訳: それらの主張を資料で裏付ける作業には数日かかった。  
 
 【語法・注意】of の後は記録・裏付けの対象で、作業者は documentation by the research team のように by で示せる。documentation of the agreement は「合意を文書化すること」と「合意を示す資料」の両方になり得る。took several days のような述語なら作業の読みが明確になる。記録する媒体は文章だけとは限らず、写真や図を組み込む場合もある。単語そのものは承認・契約成立・公表を意味しない。  
 

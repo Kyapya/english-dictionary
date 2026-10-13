@@ -171,5 +171,5 @@ announce「知らせる・発表する」に対応する名詞。語の歴史に
 定義: 必要な情報を関係する相手に知らせること。  
 頻度: 〈7/10〉  
 違い: 特定の相手へ通知が届くことや通知手続きに焦点がある。announcement は人々に向けた発表という捉え方が中心。  
-例: Notification of the change will be sent by email.  
-訳: 変更の通知はメールで送られます。  
+例: Notification of all applicants will be completed by Friday.  
+訳: すべての応募者への通知は金曜日までに完了する予定です。  

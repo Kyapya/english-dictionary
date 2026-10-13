@@ -236,7 +236,7 @@ tags: []
 ・document a claim with 〈根拠資料〉  
 用途: 主張を支える資料を示す。  
 例: The historian documented the claim with letters from the archive.  
-訳: その歴史家は公文書館の書簡でその主張を裏付けた。  
+訳: その歴史家は保存資料に含まれる書簡でその主張を裏付けた。  
 
 ・document the findings  
 用途: 調査結果に検証可能な根拠を付ける。  
