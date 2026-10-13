@@ -166,7 +166,7 @@ lesson「授業、課」と legible「読みやすい、判読できる」も le
 例: Please stop lecturing and listen to what I'm saying.  
 訳: 説教はやめて、私が言っていることを聞いてください。  
 
-【語法・注意】目的語の人は注意を受ける側。lecture me は「私に説教する」という意味になりやすいため、日本語の軽い「使い方をレクチャーして」の直訳として使うと意図がずれる。説明してほしいなら explain how to use it、実際に見せてほしいなら show me how to use it が適する。about と on はどちらもこの意味に使い、前置詞だけで講義義と分けない。語義5の lecture students on a scientific topic は中立的な他動詞用法もあるため、人が直接目的語なら必ず説教、という判定も誤り。lecture someone to do something「人に～するよう教え諭す」という型もあるが、一般的な作文では lecture someone about doing something や tell someone to do something で内容を明確にできる。  
+【語法・注意】目的語の人は注意を受ける側。lecture me は「私に説教する」という意味になりやすいため、日本語の軽い「使い方をレクチャーして」の直訳として使うと意図がずれる。説明してほしいなら explain how to use it、実際に見せてほしいなら show me how to use it が適する。about と on はどちらもこの意味に使い、前置詞だけで講義義と分けない。語義5の lecture students on a scientific topic は中立的な他動詞用法もあるため、人が直接目的語なら必ず説教、という判定も誤り。lecture someone to do something「人に～するよう教え諭す」という型も一部の学習辞書に載る。作文では、行為について説教するなら lecture someone about doing something、何かをするよう指示するなら tell someone to do something と、伝えたい内容に応じて使い分ける。  
 
 【類義語】
 
@@ -273,7 +273,7 @@ lesson「授業、課」と legible「読みやすい、判読できる」も le
 ・lecture to 〈聴衆〉  
 用途: 話す相手を前置詞句で示す。  
 例: The researcher lectured to an audience of engineering students about bridge design.  
-訳: その研究者は、工学を学ぶ学生の聴衆に橋の設計について講義した。  
+訳: その研究者は、工学を学ぶ学生たちを聴衆として、橋の設計について講義した。  
 
 ・lecture at 〈教育機関〉  
 用途: 講義を行う場所・所属先を述べる。  
