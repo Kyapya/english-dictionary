@@ -161,8 +161,8 @@ tags: []
 定義: 特定の行為や立入りを認める許可証。  
 頻度: 〈7/10〉  
 違い: 許可対象が定まった証書・証明としてよく使う。authorization は本人による個別の許可文書なども含められる。  
-例: The inspector checked the contractor's work permit.  
-訳: 検査官は請負業者の作業許可証を確認した。  
+例: The inspector checked the contractor's work permit for maintenance work.  
+訳: 検査官は請負業者の保守作業の許可証を確認した。  
 
 ・license  
 定義: 特定の活動や使用を公的に認める免許・許可証。  

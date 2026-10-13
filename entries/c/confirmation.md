@@ -232,7 +232,7 @@ firm「しっかりした」と affirm「断言する・確認する」も、ラ
 ・prepare for confirmation  
 用途: 信仰上の儀礼を受ける準備を述べる。  
 例: The parish offers classes for adults preparing for confirmation.  
-訳: その教区は、堅信の準備をしている成人向けのクラスを開いている。  
+訳: その小教区は、堅信の準備をしている成人向けのクラスを開いている。  
 
 ・a confirmation service  
 用途: 教会で行われる式を指す。  
