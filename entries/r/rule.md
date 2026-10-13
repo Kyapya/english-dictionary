@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra xhigh
 created_at: 2026-10-13
-updated_at: 2026-10-13
+updated_at: 2026-10-14
 checked: true
 tags: []
 ---
@@ -110,7 +110,7 @@ tags: []
 例: If we accept their funding, we will have to play by their rules.  
 訳: 彼らの資金提供を受け入れるなら、その決めた条件に従って行動しなければならない。  
 
-【語法・注意】名詞は a rule、the rules。follow/obey the rules は守る側、enforce the rules は守らせる側で、どちらも「遵守する」と訳さない。of は体系、for は用途・行為、on は対象を示しやすいが、機械的な使い分けではない。bend/stretch the rules は規則を曲げて扱うこと、break the rules は違反することで、前者が必ず正当化されるわけではない。play by the rules は競技の規則を守るほか、人付き合い・仕事で公正に振る舞う意味になる。play by someone's rules はその人の条件に合わせる意味で、その条件が公正だと保証する表現ではない。work to rule は特に英国系の労働争議の表現で、単に「まじめに規則を守って働く」ではない。名詞化した a work-to-rule ではハイフンを使う。宗教の a monastic rule は会則・生活規則の体系、法律の a court rule は裁判所の規則や命令を指し得るが、具体的な効力は制度・文脈による。  
+【語法・注意】名詞は a rule、the rules。follow/obey the rules は「規則を守る・遵守する」、enforce the rules は「規則を適用して守らせる」で、後者を「遵守する」と訳さない。of は体系、for は用途・行為、on は対象を示しやすいが、機械的な使い分けではない。bend/stretch the rules は規則を曲げて扱うこと、break the rules は違反することで、前者が必ず正当化されるわけではない。play by the rules は競技の規則を守るほか、人付き合い・仕事で公正に振る舞う意味になる。play by someone's rules はその人の条件に合わせる意味で、その条件が公正だと保証する表現ではない。work to rule は特に英国系の労働争議の表現で、単に「まじめに規則を守って働く」ではない。名詞化した a work-to-rule ではハイフンを使う。宗教の a monastic rule は会則・生活規則の体系、法律の a court rule は裁判所の規則や命令を指し得るが、具体的な効力は制度・文脈による。  
 
 【類義語】
 
@@ -1033,7 +1033,7 @@ tags: []
 
 【レジスター/領域】文具、学校、事務。  
 
-【文法パターン】ruled paper＝罫線入りの紙／a ruled notebook＝罫線入りのノート／a page is ruled＝ページに罫線がある／narrow-ruled paper＝罫線の間隔が狭い紙。  
+【文法パターン】ruled paper＝罫線入りの紙／a ruled notebook＝罫線入りのノート／a sheet is ruled＝用紙に罫線がある／narrow-ruled paper＝罫線の間隔が狭い紙。  
 
 【コロケーション・構文例】
 
@@ -1047,10 +1047,10 @@ tags: []
 例: I bought a ruled notebook for taking lecture notes.  
 訳: 私は講義のメモを取るために、罫線入りのノートを買った。  
 
-・a page is ruled  
+・a sheet is ruled  
 用途: 紙面に線があるという性質を述べる。  
-例: Every page is ruled on both sides.  
-訳: すべてのページの両面に罫線が入っている。  
+例: Every sheet is ruled on both sides.  
+訳: すべての用紙の両面に罫線が入っている。  
 
 【語法・注意】ruled paper は限定用法、the paper is ruled は叙述用法。the page was ruled by hand のように行為者・方法を述べれば受動態としても読める。通常、罫線の有無を very ruled のような程度で表さない。rule paper ではなく ruled paper。narrow-ruled、wide-ruled のような複合形にはハイフンが付く。  
 
