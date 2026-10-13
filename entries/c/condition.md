@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra xhigh
 created_at: 2026-10-13
-updated_at: 2026-10-13
+updated_at: 2026-10-14
 checked: true
 tags: []
 ---
@@ -23,7 +23,7 @@ tags: []
 
 ・conditional は「条件付きの」。a conditional offer、be conditional on something と使う。心理的に学習されたという conditioned とは区別する。  
 ・unconditional は「無条件の」。条件の有無を表す語で、身体の状態がよいという意味ではない。  
-・conditioning は不可算名詞で、心理・社会的な「条件づけ」（語義7）と身体の「体力づくり、調整」（語義10）を区別する。  
+・conditioning は不可算名詞で、心理・社会的な「条件づけ」（語義7）と身体の「体力づくり、調整」とその結果の体力・仕上がり（語義10）を区別する。  
 ・conditioner は髪などをよい状態に保つための製品。air conditioner は空調装置、air-conditioned は「空調のある」という複合形容詞。  
 
 ＃コアイメージ
@@ -39,7 +39,7 @@ tags: []
 ・状態や反応を身につける過程そのもの → 「条件づけ、習慣形成」（語義7）  
 ・状態や出来事のあり方を形づくる働き → 「左右する、規定する」（語義8）  
 ・状態をよいものに整える働き → 「状態を整える、手入れする、鍛える」（語義9）  
-・状態を身体的に整える訓練そのもの → 「体力づくり、身体の調整」（語義10）  
+・状態を身体的に整える訓練とその成果 → 「体力づくり、身体の調整とその成果」（語義10）  
 ・状態や反応が経験によって身についた性質 → 「学習された、条件づけられた」（語義11）  
 ・状態や出来事の成立を条件に結び付ける働き → 「条件付きにする」（語義12）  
 
@@ -83,7 +83,7 @@ tags: []
 訳: 彼女の病状は昨日よりよくなっている。  
 
 ・be out of condition  
-用途: 運動不足などで体力が落ちていることを述べる。  
+用途: 運動不足などで体力が落ちていることを述べる。主に英国英語。  
 例: After months without exercise, I was badly out of condition.  
 訳: 何か月も運動をしていなかったので、私はひどく体力が落ちていた。  
 
@@ -224,7 +224,7 @@ tags: []
 ・working conditions  
 用途: 仕事をする際の環境や待遇を表す。  
 例: The staff asked for better working conditions and more predictable hours.  
-訳: 職員たちは労働環境の改善と、勤務時間がもっと予測できることを求めた。  
+訳: 職員たちは労働環境の改善と、勤務時間をもっと事前に把握しやすくすることを求めた。  
 
 ・weather conditions  
 用途: 屋外の活動に影響する気象の状態を述べる。  
@@ -443,7 +443,7 @@ tags: []
 
 【レジスター/領域】心理学、教育、社会・文化についての議論。  
 
-【文法パターン】social conditioning＝社会の影響による条件づけ／classical conditioning＝刺激の結び付きによる古典的条件づけ／through conditioning＝条件づけを通じて／the effects of conditioning＝条件づけの影響。  
+【文法パターン】social conditioning＝社会の影響による条件づけ／classical conditioning＝刺激の結び付きによる古典的条件づけ／operant conditioning＝行動の結果によって、その行動の生じやすさが変わるオペラント条件づけ／through conditioning＝条件づけを通じて／the effects of conditioning＝条件づけの影響。  
 
 【コロケーション・構文例】
 
@@ -456,6 +456,11 @@ tags: []
 用途: 刺激同士の結び付きによって反応が学習される心理学上の過程を指す。  
 例: The lecturer used a simple diagram to explain classical conditioning.  
 訳: 講師は簡単な図を使って古典的条件づけを説明した。  
+
+・operant conditioning  
+用途: 行動に続く結果によって、その行動の生じやすさが変わる心理学上の過程を指す。  
+例: The rat learned to press the lever through operant conditioning.  
+訳: そのラットは、オペラント条件づけによってレバーを押すことを学んだ。  
 
 ・through conditioning  
 用途: 反応を身につける手段・過程として条件づけを示す。  
@@ -601,9 +606,9 @@ tags: []
 例: She trains her legs with a combination of cycling and strength exercises.  
 訳: 彼女は自転車と筋力トレーニングを組み合わせて脚を鍛えている。  
 
-10. 【名詞・不可算、conditioning】体力づくり、身体の調整
+10. 【名詞・不可算、conditioning】体力づくり、身体の調整とその成果
 
-【日本語訳・定義】運動などによって、身体を活動に適した状態に整え、体力・持久力などを高めること。心理的な反応を学習させる語義7とは異なり、身体の準備・鍛錬が中心。  
+【日本語訳・定義】運動などによって、身体を活動に適した状態に整え、体力・持久力などを高めること。心理的な反応を学習させる語義7とは異なり、身体の準備・鍛錬が中心。その訓練によって得られた体力・身体の仕上がりも表す。  
 
 【頻度】〈5/10〉  
 
@@ -633,7 +638,7 @@ tags: []
 例: The course includes conditioning for long-distance cycling.  
 訳: その講習には、長距離の自転車走行に備える体力づくりも含まれている。  
 
-【語法・注意】不可算名詞で、a conditioning programme の a は programme に付く。strength and conditioning coach では conditioning は名詞として分野を示す。The coach is conditioning the players. の conditioning は目的語を取る動詞の進行形で、語義9。身体の状態そのものは condition（語義1）、それを整える訓練は conditioning と区別する。  
+【語法・注意】不可算名詞で、a conditioning programme の a は programme に付く。strength and conditioning coach では conditioning は名詞として分野を示す。The coach is conditioning the players. の conditioning は目的語を取る動詞の進行形で、語義9。condition は身体の状態一般、conditioning はそれを整える訓練、またはその結果としての体力・仕上がりを表す。  
 
 【類義語】
 

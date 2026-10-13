@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra xhigh
 created_at: 2026-10-13
-updated_at: 2026-10-13
+updated_at: 2026-10-14
 checked: true
 tags: []
 ---
@@ -28,14 +28,15 @@ regulate「規則によって管理する、調整する」と同じ語族の名
 
 ＃コアイメージ
 
-活動・状態を一定の基準や範囲に合わせることが核。守るべき規定、その管理作用、規定に合ったもの、競技の規定時間へとつながる。  
+活動・状態を一定の基準や範囲に合わせることが核。守るべき規定、その管理作用、規定に合ったもの、競技の規定時間やゴルフの基準打数へとつながる。  
 
 ・基準に合わせるための個別の定め → 「規定、規則」（語義1）  
 ・基準に合わせて活動を管理する作用 → 「規制、統制」（語義2）  
 ・基準に合わせて働き・状態を保つ作用 → 「調整、制御」（語義3）  
 ・基準に合った服装・用具の性質 → 「規定どおりの、規格に合った」（語義4）  
 ・基準として競技に定められた時間 → 「正規の試合時間」（語義5）  
-・基準に合うことから捉えた普通の型 → 「お決まりの、普通の」（語義6）  
+・グリーンに到達するまでの基準打数 → 「パーより2打少ない打数以内で」（語義6）  
+・基準に合うことから捉えた普通の型 → 「お決まりの、普通の」（語義7）  
 
 ＃意味・用法・関連表現
 
@@ -47,7 +48,7 @@ regulate「規則によって管理する、調整する」と同じ語族の名
 
 【レジスター/領域】行政、業務、安全、施設、組織の運営。  
 
-【文法パターン】regulations on something＝対象についての規定／regulations governing something＝活動などを規律する規定／comply with regulations＝規定を遵守する／conform to regulations＝規定に適合する／enforce regulations＝規定を施行して守らせる／violate regulations＝規定に違反する／under the regulations＝規定に従えば／be against regulations＝規定に反する／regulations come into force＝規定が施行される／relax regulations＝規定を緩和する。  
+【文法パターン】regulations on something＝対象についての規定／regulations governing something＝活動などを規律する規定／comply with regulations＝規定を遵守する／conform to regulations＝規定に適合する／enforce regulations＝規定を適用して守らせる／violate regulations＝規定に違反する／under the regulations＝規定に従えば／be against regulations＝規定に反する／regulations come into force＝規定が施行される／relax regulations＝規定を緩和する。  
 
 【コロケーション・構文例】
 
@@ -340,7 +341,7 @@ regulate「規則によって管理する、調整する」と同じ語族の名
 例: Neither team scored during regulation time.  
 訳: 正規の試合時間中は、どちらのチームも得点しなかった。  
 
-【語法・注意】in regulation はこの文脈で「規則の中で」ではない。the regulations は規則の集合（語義1）、regulation はここでは無冠詞の時間概念。延長戦は overtime（主に米）や extra time（競技・地域による）で、この語と対照的な時間区分だが、単純な反意語ではない。  
+【語法・注意】in regulation はこの文脈で「規則の中で」ではない。the regulations は規則の集合（語義1）、regulation はここでは無冠詞の時間概念。延長戦は overtime（主に米）や extra time（競技・地域による）で、この語と対照的な時間区分だが、単純な反意語ではない。ゴルフの in regulation は時間ではなく打数を表す（語義6）。  
 
 【類義語】
 
@@ -348,8 +349,8 @@ regulate「規則によって管理する、調整する」と同じ語族の名
 定義: 延長を含めない通常の試合時間。  
 頻度: 〈4/10〉  
 違い: 特に英国系のサッカー報道などで用いる。regulation は米国のスポーツ報道でよく見られる。  
-例: The match ended in a draw after normal time.  
-訳: その試合は、通常の試合時間が終わった時点では引き分けだった。  
+例: The score was level at the end of normal time.  
+訳: 通常の試合時間が終了した時点で、得点は同点だった。  
 
 ・regular time  
 定義: 試合に定められた通常の時間。  
@@ -358,7 +359,31 @@ regulate「規則によって管理する、調整する」と同じ語族の名
 例: They failed to find a winning goal in regular time.  
 訳: 彼らは通常の試合時間内に決勝点を挙げられなかった。  
 
-6. 【形容詞・名詞前】お決まりの、普通の
+6. 【前置詞句・in regulation】パーより2打少ない打数以内で
+
+【日本語訳・定義】ゴルフで、ホールのパー（基準打数）より2打少ない打数以内に、ボールをグリーンに乗せて。パー3なら1打、パー4なら2打以内、パー5なら3打以内で到達することを表す。  
+
+【頻度】〈3/10〉  
+
+【レジスター/領域】ゴルフ、競技の記録・統計。  
+
+【文法パターン】hit a green in regulation＝パーより2打少ない打数以内でグリーンに乗せる／reach the green in regulation＝パーより2打少ない打数以内でグリーンに到達する。  
+
+【コロケーション・構文例】
+
+・hit a green in regulation  
+用途: 基準内の打数でグリーンに乗せたことを述べる。  
+例: He hit twelve greens in regulation during the round.  
+訳: 彼はそのラウンドで、12ホールのグリーンにパーより2打少ない打数以内で乗せた。  
+
+・reach the green in regulation  
+用途: ホールのパーに応じた基準内の打数でグリーンに到達したことを述べる。  
+例: She reached the green in regulation on the par-four hole.  
+訳: 彼女はそのパー4のホールで、2打以内にグリーンに乗せた。  
+
+【語法・注意】この in regulation は、語義5の「正規の試合時間内に」と異なる。greens in regulation（GIR）は、この基準でグリーンに乗せたホール数やその割合を表す統計名。グリーンに乗るまでの打数を示し、その後に2パットで入れたことや、最終スコアがパーだったことまでは意味しない。  
+
+7. 【形容詞・名詞前】お決まりの、普通の
 
 【日本語訳・定義】正式な規則で決まっているとは限らないが、ある場面で予想される典型的な型に合っている。規定のように皆が同じ型に従っているという見方から、時に軽い皮肉や画一的という含みを持つ。  
 

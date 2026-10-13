@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra xhigh
 created_at: 2026-10-13
-updated_at: 2026-10-13
+updated_at: 2026-10-14
 checked: true
 tags: []
 ---
@@ -153,14 +153,14 @@ comply に -ance が付いた名詞。comply はラテン語 complere「満た�
 訳: 合意に見えたものは、ただ受け身で従っていただけだった。  
 
 ・compliance with someone’s wishes  
-用途: 他人の希望に合わせすぎる様子を述べる。  
+用途: 他人の希望に従うことを述べる。この例では、合わせすぎる様子を示す。  
 例: Her constant compliance with his wishes left little room for her own plans.  
 訳: 彼の望みにいつも従っていたため、彼女が自分の計画を進める余地はほとんどなかった。  
 
 ・expect compliance  
-用途: 相手の自発的な判断を求めず従わせる姿勢を述べる。  
+用途: 相手が要求に従うことを期待する。この例では、異議を嫌う姿勢を示す。  
 例: He expected compliance from his colleagues and disliked being questioned.  
-訳: 彼は同僚が言うことに従うのを当然と考え、疑問を向けられるのを嫌った。  
+訳: 彼は同僚が自分の言うことに従うのを当然と考え、自分の判断に疑問を呈されるのを嫌った。  
 
 【語法・注意】従うことへの評価は文脈による。unquestioning、passive、blind などがあると批判的な読みが明確になる。語義1の compliance with safety standards を一律に「安全基準への盲従」としない。compliant も人の性質と製品の適合では評価が違う。  
 
