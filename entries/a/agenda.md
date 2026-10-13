@@ -25,7 +25,7 @@ agent「行為者、代理人」と action「行動」も agere の系統に属�
 
 ・agenda item：複合名詞。「議題の一項目」。議題一覧全体を表す agenda と区別する。  
 ・agenda-setting：複合名詞・限定形容詞。「何を論点・課題とするかの設定、その設定に関わる」。agenda-setting power は論点を決める影響力。  
-・hidden agenda：定着した名詞句。「表に出していない意図・目的」。単なる非公開の議事次第とは限らない。  
+・hidden agenda：定着した名詞句。「表に出していない意図・目的」。ここでいう慣用義は、単に非公開にされた議事次第を指すものではない。  
 
 ＃コアイメージ
 
@@ -86,7 +86,7 @@ agent「行為者、代理人」と action「行動」も agere の系統に属�
 例: We need to stick to the agenda if we are to finish by noon.  
 訳: 正午までに終えるには、予定の議題に沿って進める必要がある。  
 
-【語法・注意】an agenda は一つの一覧、an agenda item はその中の一項目。We have three agendas. は通常「議題が三つある」ではなく、三つの別々の一覧・方針があるという意味になる。三つの議題なら three items on the agenda とする。「議題に載っている」は on the agenda で、in the agenda としない。agenda は事前に扱う項目、minutes は会議で話し合われたことや決定の記録。会議後の議事録を agenda と呼ばない。agenda が掲載順を示すのに対し、語義2の high on the agenda は一般に優先度を表す。  
+【語法・注意】an agenda は一つの一覧、an agenda item はその中の一項目。We have three agendas. は通常「議題が三つある」ではなく、三つの別々の一覧・方針があるという意味になる。三つの議題なら three items on the agenda とする。「議題に載っている」は on the agenda で、in the agenda としない。agenda は事前に扱う項目、minutes は会議で話し合われたことや決定の記録。会議後の議事録を agenda と呼ばない。会議の agenda は議題一覧で、扱う順序を示すこともあるが、語義2の high on the agenda は一般に優先度を表す。  
 
 【類義語】
 
