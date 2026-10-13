@@ -71,8 +71,8 @@ tags: []
 例: The website has no official connection with the university.  
 訳: そのウェブサイトは、大学と公式な関係を持っていない。  
 
-・a connection to 〈出来事〉  
-用途: 出来事への関与・関連を示す。  
+・a connection to 〈対象〉  
+用途: 対象への関与・関連を示す。  
 例: Investigators asked about his connection to the missing documents.  
 訳: 調査員たちは、紛失した書類と彼との関係について尋ねた。  
 
@@ -158,7 +158,7 @@ tags: []
 ・lose the connection  
 用途: 通話・通信が途切れることを述べる。  
 例: We lost the connection halfway through the call.  
-訳: 私たちは通話の途中で接続が切れた。  
+訳: 通話の途中で接続が切れた。  
 
 ・a poor connection  
 用途: 相手の声などを受信しにくい状態を述べる。  
@@ -502,8 +502,8 @@ tags: []
 
 ・a drug connection  
 用途: 犯罪の文脈で供給する人物を指す。  
-例: In the novel, the detective identifies the suspect's drug connection.  
-訳: その小説では、刑事が容疑者の薬物の入手先を突き止める。  
+例: In the novel, the detective discovers that the suspect's drug connection is a local dealer.  
+訳: その小説では、刑事が、容疑者の薬物の入手先は地元の密売人だと突き止める。  
 
 【語法・注意】a drug connection は薬物との抽象的な関連ではなく、供給者を指す文脈で使われる。通常の business connections を、この犯罪上の意味で解釈しない。人脈の用法と違って単数形も自然で、周囲に drug、supplier などの手掛かりが必要になる。  
 
