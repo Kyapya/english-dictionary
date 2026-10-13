@@ -750,7 +750,7 @@ tags: []
 頻度: 〈7/10〉  
 違い: 次の便や時刻上の接続に重点がある。transfer は交通機関を替える行為を指す。  
 例: The late arrival left us only ten minutes to make our connection.  
-訳: 到着が遅れ、私たちには乗り継ぎに間に合うまで10分しかなかった。  
+訳: 到着が遅れ、私たちには乗継便に間に合うための時間が10分しか残っていなかった。  
 
 13. 【名詞・可算】送迎、接続区間の移動
 
@@ -936,7 +936,7 @@ tags: []
 ・something + transfer well from 〈元の場面〉 to 〈新しい場面〉  
 用途: 条件が変わっても方法が有効かを示す。  
 例: This teaching method transfers well from small classes to larger groups.  
-訳: この教授法は少人数授業からより大きな集団にも、うまく応用できる。  
+訳: 少人数授業で使うこの教授法は、より大きな集団にもうまく応用できる。  
 
 ・something + does not transfer automatically  
 用途: 以前の成功が別の場面で保証されないと述べる。  
