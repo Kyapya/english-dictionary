@@ -60,7 +60,7 @@ replicate「複製する、再現する」と imply「暗に示す」は、さ�
 【コロケーション・構文例】
 
 ・not reply  
-用途: 相手や対象が文脈で分かるときに、返答することを述べる。  
+用途: 相手や対象が文脈で分かるときに、返答しないことを述べる。  
 例: I called her name, but she did not reply.  
 訳: 私は彼女の名前を呼んだが、彼女は返事をしなかった。  
 
@@ -103,7 +103,7 @@ replicate「複製する、再現する」と imply「暗に示す」は、さ�
 
 reply は自動詞だけではない。reply that the office is closed や直接話法では、返す内容を続ける他動詞用法がある。to someone は相手、that 節や引用は内容、with a smile は返答の形。reply to do something のように、不定詞だけで「〜と返答する」を表さない。  
 
-reply は response より具体的な言葉のやり取りに向くことが多いが、笑顔やうなずきでの返答も可能。行動での応酬は語義3に示す。reply back は口語で見かけるが、reply 自体に「返す」が含まれるので、通常は reply だけで十分。reply と replay「再生する」を綴り・意味ともに区別する。  
+reply は respond より具体的な言葉のやり取りに向くことが多いが、笑顔やうなずきでの返答も可能。行動での応酬は語義3に示す。reply back は口語で見かけるが、reply 自体に「返す」が含まれるので、通常は reply だけで十分。reply と replay「再生する」を綴り・意味ともに区別する。  
 
 【類義語】
 
@@ -236,7 +236,7 @@ a reply は、内容のある説明だけでなく “Yes.” だけの短い返
 
 【語法・注意】with の後ろは返した行動・手段を表す名詞句、by の後ろは行為を表す動名詞。reply to the attack with force は「攻撃に武力で応じる」で、force が直接目的語になる他動詞構文ではない。reply in kind の kind は「親切」の意味ではなく、「同じ種類・方法」を表す。  
 
-行動で応じる reply は成立するため、response だけが言葉以外を表せるわけではない。ただし、センサーの応答や植物の生理反応まで、一般に reply で表すわけではない。相手側の働きかけに「返す」と捉えられる行動に向く。語義1の reply with a smile は会話での合図、ここでの reply with two goals は競技上の行動。  
+行動で応じる reply は成立するため、respond だけが言葉以外を表せるわけではない。ただし、センサーの応答や植物の生理反応まで、一般に reply で表すわけではない。相手側の働きかけに「返す」と捉えられる行動に向く。語義1の reply with a smile は会話での合図、ここでの reply with two goals は競技上の行動。  
 
 【類義語】
 

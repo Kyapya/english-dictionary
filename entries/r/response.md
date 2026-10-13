@@ -121,7 +121,7 @@ reply と意味が重なるが、response は調査回答や幅広い反応・�
 頻度: 〈6/10〉  
 違い: response のうち受領の確認に範囲が限られ、質問の中身に回答しているとは限らない。英国では acknowledgement とも綴る。  
 例: We received an acknowledgment of our application.  
-訳: 私たちは、申請を受け付けたという通知を受け取った。  
+訳: 私たちは、申請の受領確認通知を受け取った。  
 
 2. 【名詞・可算・不可算】反応・対応
 

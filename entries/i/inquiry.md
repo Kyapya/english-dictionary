@@ -253,7 +253,7 @@ a line of inquiry は「問い合わせの列」ではなく、調べていく�
 ・at inquiries（inquiry の複数形）  
 用途: 施設内の案内窓口で尋ねる場所を示す。  
 例: Ask at inquiries for a map of the station.  
-訳: 駅の地図は、案内窓口で尋ねてください。  
+訳: 案内窓口で、駅の地図が欲しいと伝えてください。  
 
 ・go to inquiries（inquiry の複数形）  
 用途: 情報を得るために案内窓口へ行く。  
