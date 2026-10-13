@@ -206,7 +206,7 @@ a delayed response は「すぐには出なかった返答・反応」。人が�
 
 【レジスター/領域】呼びかけ、広告、依頼、一般的な説明。  
 
-【文法パターン】〈人・組織〉 + delay＝すぐに行動せず時間を置く／don't delay＝ぐずぐずせず、すぐに行動せよ／delay in doing something＝ある行動に取りかかるのを遅らせる／someone + delay any longer＝それ以上行動を遅らせる。  
+【文法パターン】〈人・組織〉 + delay＝すぐに行動せず時間を置く／don't delay＝ぐずぐずせず、すぐに行動せよ／delay in doing something＝ある行動に取りかかるのを遅らせる／someone + cannot delay any longer＝これ以上行動を遅らせることはできない。  
 
 【コロケーション・構文例】
 
@@ -218,9 +218,9 @@ a delayed response は「すぐには出なかった返答・反応」。人が�
 ・delay in doing something  
 用途: どの行動が遅いのかを in 以下で示す。  
 例: The agency delayed in responding to our request.  
-訳: その機関は、私たちの依頼への対応に時間をかけた。  
+訳: その機関は、私たちの依頼への対応が遅れた。  
 
-・delay any longer  
+・cannot delay any longer  
 用途: これ以上待つ余地がないことを表す。  
 例: We cannot delay any longer; the deadline is tomorrow.  
 訳: もうこれ以上ぐずぐずしてはいられない。締め切りは明日だ。  
@@ -292,7 +292,7 @@ a delayed response は「すぐには出なかった返答・反応」。人が�
 ・without further delay  
 用途: これ以上の時間を置かずに行う。  
 例: Please return the signed form without further delay.  
-訳: これ以上遅れないよう、署名済みの用紙を返送してください。  
+訳: これ以上先延ばしせず、署名済みの用紙を返送してください。  
 
 ・delays on 〈路線・道路〉  
 用途: 交通情報で、その区間の遅れを知らせる。  
