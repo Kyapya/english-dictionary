@@ -208,7 +208,7 @@ workplace「職場」と workshop は work を、repair shop「修理店・修�
 頻度: 〈9/10〉  
 違い: 発展させる過程全般を表し、他人との共同検討を必要としない。workshop は参加者の反応や試行を利用する方法に焦点がある。  
 例: She developed the concept into a full proposal.  
-訳: 彼女はその構想を発展させ、正式な提案書にまとめた。  
+訳: 彼女はその構想を発展させ、内容の整った提案書にまとめた。  
 
 ・refine  
 定義: 細部を調整して、案・技法などをよりよくする。  
