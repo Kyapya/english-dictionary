@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra xhigh
 created_at: 2026-10-13
-updated_at: 2026-10-13
+updated_at: 2026-10-14
 checked: true
 tags: []
 ---
@@ -59,7 +59,7 @@ tags: []
 ・an obligation to someone  
 用途: 義務を負う相手を明示する。  
 例: The organization has an obligation to the people it serves.  
-訳: その団体には、サービスを提供する人々に対して果たすべき務めがある。  
+訳: その団体には、サービスを受ける人々に対して果たすべき務めがある。  
 
 ・an obligation on someone to do something  
 用途: 義務を課される側と行為を示す。  

@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra xhigh
 created_at: 2026-10-13
-updated_at: 2026-10-13
+updated_at: 2026-10-14
 checked: true
 tags: []
 ---
@@ -312,7 +312,7 @@ responsible に対応する抽象名詞で、-ible に終わる形容詞から -
 ・personal responsibility  
 用途: 自分の行動を自分で引き受ける姿勢を述べる。  
 例: The program encourages personal responsibility rather than dependence on reminders.  
-訳: そのプログラムは、注意してもらうことに頼らず、自分で責任を持って行動する姿勢を促す。  
+訳: そのプログラムは、やるべきことを思い出させる声かけや通知に頼らず、自分で責任を持って行動する姿勢を促す。  
 
 ・encourage responsibility  
 用途: 責任感を育てる目的を述べる。  

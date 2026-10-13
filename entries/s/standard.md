@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra xhigh
 created_at: 2026-10-13
-updated_at: 2026-10-13
+updated_at: 2026-10-14
 checked: true
 tags: []
 ---
@@ -52,7 +52,7 @@ tags: []
 
 1. 【形容詞・限定用法／叙述用法】通常の・標準仕様の
 
-【日本語訳・定義】特別な変更や追加をしていない、普通に使われる形式・仕様・方法であること。広く使われていることは示すが、最高品質であることまでは意味しない。  
+【日本語訳・定義】普通に用いられる形式・仕様・方法であること。製品では、特別仕様に対する通常仕様を指す。広く使われていることは示すが、最高品質であることまでは意味しない。  
 
 【頻度】〈9/10〉  
 
@@ -141,7 +141,7 @@ tags: []
 
 【レジスター/領域】日常・仕事・教育・社会。  
 
-【文法パターン】the standard of 〈仕事・技能〉＝その仕事・技能の水準／a high standard of 〈サービス等〉＝高い水準のサービス等／raise standards＝水準を上げる／maintain high standards＝高い水準を維持する／be up to standard＝求められる水準に達している／be below standard＝求められる水準に達していない／to a high standard＝高い水準に仕上がるように／standard of living＝生活水準  
+【文法パターン】the standard of 〈仕事・技能〉＝その仕事・技能の水準／a high standard of 〈サービス等〉＝高い水準のサービス等／raise standards＝水準を上げる／maintain high standards＝高い水準を維持する／be up to standard＝求められる水準に達している／be below standard＝求められる水準に達していない／to a high standard＝高い品質水準で／standard of living＝生活水準  
 
 【コロケーション・構文例】
 
@@ -171,9 +171,9 @@ tags: []
 訳: 音質は要求される水準を下回っていた。  
 
 ・to a high standard  
-用途: どのような仕上がりになるよう作業したかを示す。  
+用途: 作業や仕上がりの品質水準を示す。  
 例: The apartment was renovated to a high standard.  
-訳: そのアパートは質の高い仕上がりになるよう改装された。  
+訳: そのアパートは質の高い仕上がりに改装された。  
 
 ・standard of living  
 用途: 収入や物質的な快適さに関わる生活の水準を述べる。  
@@ -219,7 +219,7 @@ tags: []
 
 ・by today’s standards  
 用途: 今日の基準との比較を示す。  
-例: By today’s standards, the first laptop was extremely heavy.  
+例: By today’s standards, early laptops were extremely heavy.  
 訳: 今日の基準で見ると、初期のノートパソコンは非常に重かった。  
 
 ・by someone’s standards  
@@ -774,7 +774,7 @@ tags: []
 ・manual  
 定義: 手動で変速する車。  
 頻度: 〈5/10〉  
-違い: 名詞の manual は同じ車種を指す。説明書という別の名詞義と、手動のという形容詞義を区別する。  
+違い: 車を指す名詞の manual は主に英国英語で使われ、手動変速の車を指す。説明書という別の名詞義と、手動のという形容詞義を区別する。  
 例: He rented a manual for the weekend.  
 訳: 彼は週末用にマニュアル車を借りた。  
 
