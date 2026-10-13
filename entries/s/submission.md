@@ -286,7 +286,7 @@ submit「提出する・従う」と submissive「従順な」は同じ語族。
 ・hear submissions on something  
 用途: 裁判官が特定の論点に関する主張を聴く。  
 例: The judge will hear submissions on costs after the decision.  
-訳: 裁判官は判断を示した後、費用についての主張を聴く予定だ。  
+訳: 裁判官は判断を示した後、訴訟費用についての主張を聴く予定だ。  
 
 ・a submission that 〈節〉  
 用途: 法廷で述べた主張の内容を that 節で示す。  
