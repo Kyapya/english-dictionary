@@ -370,4 +370,4 @@ tags: []
 頻度: 〈4/10〉  
 違い: 同じ判定勝ちを、一般的な動詞 beat を使って明示する。動詞 decision よりも意味を読み取りやすい表現。  
 例: She beat the defending champion on points.  
-訳: 彼女は前回優勝者に判定勝ちした。  
+訳: 彼女は王者に判定勝ちした。  
