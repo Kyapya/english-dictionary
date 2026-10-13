@@ -102,7 +102,7 @@ tags: []
 頻度: 〈7/10〉  
 違い: 団体の代表者会議、業界大会、ファンの集まりなどに多い。conference は討議・発表の面が前に出やすいが、名称の慣習も影響する。  
 例: The city expects thousands of visitors for the gaming convention.  
-訳: その市は、ゲームの大会に何千人もの来場者を見込んでいる。  
+訳: その市は、ゲームのコンベンションに何千人もの来場者を見込んでいる。  
 
 ・symposium  
 定義: 特定の専門的テーマについて発表・討議する集会。  
@@ -188,7 +188,7 @@ tags: []
 頻度: 〈8/10〉  
 違い: 利害や条件の調整を含む。conference は情報交換や相談だけでも成立する。  
 例: Negotiations over the lease continued into the evening.  
-訳: 賃貸契約をめぐる交渉は、夕方まで続いた。  
+訳: 賃貸契約をめぐる交渉は、夕方になっても続いた。  
 
 3. 【名詞・可算】競技連盟、リーグ内の区分
 

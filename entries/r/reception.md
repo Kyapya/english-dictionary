@@ -342,7 +342,7 @@ tags: []
 例: She finished the game with six receptions for eighty yards.  
 訳: 彼女は、その試合で6回パスを捕り、80ヤードを獲得した。  
 
-【語法・注意】three receptions のように数える。相手チームの前方パスを守備側が捕る interception「インターセプト」と区別する。レシーブ後に走って得た距離が統計に含まれることもあるので、for eighty yards を「80ヤード飛んだパスを捕った」とは訳さない。誰がどのように捕球を成立させたかの細かな競技規則は、reception という語だけから決まらない。  
+【語法・注意】three receptions のように数える。相手チームの前方パスを守備側が捕る interception「インターセプト」と区別する。獲得ヤードには通常、捕球後に走って進んだ分や下がった分も反映されるので、for eighty yards を「80ヤード飛んだパスを捕った」とは訳さない。誰がどのように捕球を成立させたかの細かな競技規則は、reception という語だけから決まらない。  
 
 【類義語】
 
