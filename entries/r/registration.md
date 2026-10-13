@@ -107,7 +107,7 @@ register「記録簿、登録する」と registry「登録所、登録簿」は
 例: We received forty registrations in the first hour.  
 訳: 最初の1時間で40件の参加登録があった。  
 
-【語法・注意】手続き一般は Registration is required. のように不可算で使う。一件ずつ数える場合は a registration、several registrations とでき、常に不可算とは限らない。of は登録対象、for は参加先、with は登録を受け付ける機関、as は身分・区分を示す。the registration of volunteers for the event のように組み合わせられる。registration は申請から承認までのどの段階を指すかが文脈で異なるため、application「申請」と approval「承認」を自動的に同一視しない。on-site registration は会場での当日登録、advance registration は事前登録。受付で本人確認だけをする check-in と、新たに登録する registration も区別する。車両では登録の有効状態や期間にも使い、six months' registration は「6か月分の車両登録」。特に豪州では registration が登録費用を指すこともあるが、税・保険・手数料の具体的な内訳は地域の制度による。  
+【語法・注意】手続き一般は Registration is required. のように不可算で使う。一件ずつ数える場合は a registration、several registrations とでき、常に不可算とは限らない。of は登録対象、for は参加先、with は登録を受け付ける機関、as は身分・区分を示す。the registration of volunteers for the event のように組み合わせられる。registration は申請から承認までのどの段階を指すかが文脈で異なるため、application「申請」と approval「承認」を自動的に同一視しない。on-site registration は会場・現地での登録（催事では当日登録を指すことが多い）、advance registration は事前登録。催事では、到着・来場を知らせて受付を済ませる check-in と、参加者として登録する registration を区別する。車両では登録の有効状態や期間にも使い、six months' registration は「6か月分の車両登録」。特に豪州では registration が登録費用を指すこともあるが、税・保険・手数料の具体的な内訳は地域の制度による。  
 
 【類義語】
 
