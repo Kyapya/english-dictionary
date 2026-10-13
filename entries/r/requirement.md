@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra xhigh
 created_at: 2026-10-13
-updated_at: 2026-10-13
+updated_at: 2026-10-14
 checked: true
 tags: []
 ---
@@ -16,7 +16,7 @@ tags: []
 
 ＃語源
 
-動詞 require に、行為・状態・結果などを表す名詞語尾 -ment が付いた語。require は古フランス語の語形を経て、ラテン語 requirere「求める、必要とする」にさかのぼる。re- はこの語では強意的で、quaerere は「探す、求める」。requirement を常に「再び要求すること」と解釈しない。  
+動詞 require に、行為・状態・結果などを表す名詞語尾 -ment が付いた語。require は古フランス語の語形を経て、ラテン語 requirere「求める、必要とする」にさかのぼる。re- と quaerere「探す、求める」から成る。requirement を常に「再び要求すること」と解釈しない。  
 同じ quaerere の語族に inquire「尋ねる、調べる」と quest「探求」がある。requisite「必要なもの、必要な」も require と近い語源の系列に属する。  
 
 ＃語形成
@@ -161,7 +161,7 @@ tags: []
 頻度: 〈9/10〉  
 違い: requirement より日常的で、人の基本的な必要や困り事にも広い。複数の needs は必要事項全体を指す。  
 例: The service was designed around the needs of older residents.  
-訳: そのサービスは高齢の住民の必要に合わせて設計された。  
+訳: そのサービスは高齢の住民のニーズに合わせて設計された。  
 
 ・demand  
 定義: 仕事・状況などによって必要となる労力、資源、対応。  
