@@ -124,7 +124,7 @@ tags: []
 ・award someone a certificate  
 用途: 教育機関などが証明書を授与する。  
 例: The college awarded him a certificate after he passed the assessment.  
-訳: 大学は、彼が評価試験に合格した後、証明書を授与した。  
+訳: 大学は、彼が評価試験に合格した後、彼に証明書を授与した。  
 
 ・hold a valid certificate  
 用途: 現在有効な認定資格を持つことを述べる。  
@@ -164,13 +164,13 @@ tags: []
 
 【レジスター/領域】買い物・贈答。特に北米。  
 
-【文法パターン】a gift certificate for 〈金額〉＝金額分の商品券／a gift certificate for 〈サービス〉＝サービスを受けるためのギフト券／redeem a gift certificate＝商品券・ギフト券を使用する  
+【文法パターン】a gift certificate for 〈金額〉＝金額分の商品券（a fifty-dollar gift certificate なら50ドル分の商品券）／a gift certificate for 〈サービス〉＝サービスを受けるためのギフト券／redeem a gift certificate＝商品券・ギフト券を使用する  
 
 【コロケーション・構文例】
 
-・a gift certificate for 〈金額〉  
-用途: 利用できる額を示す。  
-例: I bought a gift certificate for fifty dollars.  
+・a fifty-dollar gift certificate  
+用途: 利用できる額が50ドルであることを示す。  
+例: I bought a fifty-dollar gift certificate.  
 訳: 私は50ドル分の商品券を買った。  
 
 ・a gift certificate for 〈サービス〉  

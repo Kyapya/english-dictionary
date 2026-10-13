@@ -24,7 +24,7 @@ memorable「記憶に残る」、memory「記憶」も、ラテン語 memor「�
 ・memo：memorandum の短縮形。社内連絡文や備忘メモに広く使う可算名詞で、複数形は memos。  
 ・memoranda：memorandum のラテン語型の複数形。別の種類の文書を表す語ではない。  
 ・memorandums：memorandum の英語式の複数形。memoranda と同様に正しい。  
-・memorandum of understanding：合意した理解・協力の枠組みなどを記す覚書。MOU と略される。表題だけで法的拘束力の有無は決まらない。  
+・memorandum of understanding：当事者間の了解や協力の枠組みなどを記す覚書。MOU と略される。表題だけで法的拘束力の有無は決まらない。  
 
 ＃コアイメージ
 
@@ -121,7 +121,7 @@ memorable「記憶に残る」、memory「記憶」も、ラテン語 memor「�
 
 ・submit a memorandum to someone  
 用途: 検討する側へ文書を提出する。  
-例: The association submitted a memorandum to the committee on access to public transport.  
+例: The association submitted a memorandum on access to public transport to the committee.  
 訳: 協会は公共交通機関の利用しやすさに関する意見書を委員会に提出した。  
 
 ・a memorandum setting out something  
