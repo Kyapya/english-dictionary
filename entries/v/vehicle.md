@@ -182,7 +182,7 @@ a vehicle for expression は表現をするための手段、a vehicle of expres
 頻度: 〈7/10〉  
 違い: 何を通って相手へ届くかに焦点がある。vehicle は組織・活動など目的の実現を担うものにも広く使う。  
 例: Staff need a confidential channel for raising concerns.  
-訳: 職員には、懸念を秘密を守って伝えられる経路が必要だ。  
+訳: 職員には、秘密が守られる形で懸念を伝えられる経路が必要だ。  
 
 ・instrument  
 定義: 目的の実現に用いる道具・手段。  
@@ -263,7 +263,7 @@ special-purpose vehicle は SPV と略される。具体的な法人形態、法
 ・a star vehicle  
 用途: スター中心の映画・舞台を指す。  
 例: The film works as a star vehicle, even though the plot is thin.  
-訳: 筋書きは薄いが、その映画はスターの魅力を見せる作品としては成立している。  
+訳: 筋書きの内容は乏しいが、その映画はスターの魅力を見せる作品としては成立している。  
 
 ・a vehicle for someone's talents  
 用途: 発揮される能力を明示する。  

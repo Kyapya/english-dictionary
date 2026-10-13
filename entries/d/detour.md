@@ -198,7 +198,7 @@ digression は話・文章の脱線に特に合う。detour は経歴や学習�
 ・detour via 〈経由地〉  
 用途: 迂回の経由地点を明示する。  
 例: Drivers must detour via the next exit while the ramp is closed.  
-訳: ランプが閉鎖されている間、運転者は次の出口経由で迂回しなければならない。  
+訳: ランプ（道路の接続路）が閉鎖されている間、運転者は次の出口経由で迂回しなければならない。  
 
 ・〈説明・議論〉 + detour into 〈別の話題〉  
 用途: 話の流れが一時的に別の分野へ移る。  
