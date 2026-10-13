@@ -87,7 +87,7 @@ guidebook「案内書」と guidepost「道しるべ」も guide を共有する
 例: Under the guidelines, reviewers should declare potential conflicts of interest.  
 訳: その指針では、審査者は利益相反の可能性を申告するべきとされている。  
 
-【語法・注意】guidelines は複数形なので These guidelines are helpful. とする。一式を一つと捉えるなら This set of guidelines is helpful.。一つの指針だけを指す a guideline も誤りではない。on・about は話題、for は対象者や用途を示すが、guidelines for online meetings のように用途と主題が重なる場合もある。guideline と rule を、必ず任意か必ず強制かという二択にしない。guidelines require、mandatory guidelines のような表現も成立し、具体的な効力は文書を確認する。guidance は通常不可算で、three guidances ではなく three guidelines、または some guidance とする。  
+【語法・注意】guidelines は複数形なので These guidelines are helpful. とする。一式を一つと捉えるなら This set of guidelines is helpful. 一つの指針だけを指す a guideline も誤りではない。on・about は話題、for は対象者や用途を示すが、guidelines for online meetings のように用途と主題が重なる場合もある。guideline と rule を、必ず任意か必ず強制かという二択にしない。guidelines require、mandatory guidelines のような表現も成立し、具体的な効力は文書を確認する。guidance は通常不可算で、three guidances ではなく three guidelines、または some guidance とする。  
 
 【類義語】
 

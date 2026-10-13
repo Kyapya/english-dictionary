@@ -247,7 +247,7 @@ prototype「原型、試作品」は prōtos を、collagen「コラーゲン」
 頻度: 〈8/10〉  
 違い: 最も広い語で、外交文書に限らない。protocol は特定の形式・名称の合意文書を指す。  
 例: The governments reached an agreement on transport links.  
-訳: 両政府は、交通の接続について合意に達した。  
+訳: 両政府は、交通網の接続について合意に達した。  
 
 ・treaty  
 定義: 国家間などで結ばれる正式な条約。  

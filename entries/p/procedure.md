@@ -120,7 +120,7 @@ proceed「進む、続行する」は同じ procedere の系統。precede「先�
 
 【レジスター/領域】法律、政治、組織運営。制度を扱う改まった文章で使う。  
 
-【文法パターン】court procedure＝裁判所での手続きの方式／parliamentary procedure＝議会の議事運営／rules of procedure＝手続き・議事運営の規則／a matter of procedure＝手続きに関する問題。  
+【文法パターン】court procedure＝裁判所での手続きの方式／parliamentary procedure＝議会・団体の会議の議事運営／rules of procedure＝手続き・議事運営の規則／a matter of procedure＝手続きに関する問題。  
 
 【コロケーション・構文例】
 
@@ -130,7 +130,7 @@ proceed「進む、続行する」は同じ procedere の系統。precede「先�
 訳: その講座では、学生に裁判所の手続きの基礎を教える。  
 
 ・parliamentary procedure  
-用途: 議会の討議や採決を進める方式を指す。  
+用途: 議会や団体の会議で、討議や採決を進める方式を指す。  
 例: The chair has extensive knowledge of parliamentary procedure.  
 訳: 議長は議会の議事運営について幅広い知識を持っている。  
 
@@ -142,7 +142,7 @@ proceed「進む、続行する」は同じ procedere の系統。precede「先�
 ・a matter of procedure  
 用途: 議論の中身とは区別して、進め方の問題を取り上げる。  
 例: The disagreement concerns a matter of procedure rather than the proposal itself.  
-訳: 意見の相違は、提案そのものよりも手続き上の問題に関わっている。  
+訳: 意見の相違は、提案そのものではなく、手続き上の問題に関わっている。  
 
 【語法・注意】制度的な進め方をまとめて指す court procedure などでは、通常、不可算。具体的な個別手続きを数える court procedures は語義1とつながる。rules of procedure の複数は rules に付く。procedure を「訴訟」とだけ覚えると広すぎ、狭すぎの両方が起きる。proceedings は実際に行われる法的手続きや審理を指し、procedure はその進め方を指すのが中心。制度上どの行為が必須か、違反がどのような効果を持つかは、この語の意味だけでは分からない。  
 
