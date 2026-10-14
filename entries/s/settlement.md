@@ -146,7 +146,7 @@ tags: []
 
 ・in settlement of 〈請求・債務〉  
 用途: 送る金額が何への支払いなのかを示す。  
-例: We have transferred $480 in settlement of invoice 217.  
+例: We have transferred 480 dollars in settlement of invoice 217.  
 訳: 請求書217番の支払いとして、480ドルを振り込みました。  
 
 ・in full settlement of 〈請求・口座残高〉  
@@ -332,7 +332,7 @@ tags: []
 
 ・a settlement of 〈金額〉  
 用途: 支払われた額を明示する。  
-例: The claimant accepted a settlement of $12,000.  
+例: The claimant accepted a settlement of 12,000 dollars.  
 訳: 請求者は、1万2,000ドルの和解金を受け入れました。  
 
 ・pay a settlement to someone  
@@ -340,7 +340,7 @@ tags: []
 例: The company paid a settlement to the affected residents.  
 訳: 会社は、被害を受けた住民に和解金を支払いました。  
 
-【語法・注意】a settlement of $12,000 や a $12,000 settlement は金額を示す。合意を指すか金銭を指すかは、reach/sign と receive/pay などの動詞や周囲の文脈で判断する。settlement money とすれば金銭であることが明確。金額の提示や受領だけから、どの権利を放棄したか、どの請求が解決したかまでは読み取れない。  
+【語法・注意】a settlement of 12,000 dollars や a 12,000-dollar settlement は金額を示す。合意を指すか金銭を指すかは、reach/sign と receive/pay などの動詞や周囲の文脈で判断する。settlement money とすれば金銭であることが明確。金額の提示や受領だけから、どの権利を放棄したか、どの請求が解決したかまでは読み取れない。  
 
 【類義語】
 
