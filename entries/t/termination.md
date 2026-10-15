@@ -95,7 +95,7 @@ tags: []
 例: The power failure caused the abrupt termination of the process.  
 訳: 停電によって処理が突然終了した。  
 
-【語法・注意】termination 自体を必ず「期間途中の解除」と限定しない。early termination が途中終了を明示する。expiration/expiry は期間満了に焦点があり、cancellation は申込み・予約などの取り消しにも広く使う。completion は作業を最後まで終えることを含むので、途中打ち切りの termination と同一ではない。notice of termination は通知であって、その時点で終了の効力が発生したとは限らない。termination clause の条件や終了後の義務は各文書で確認する。  
+【語法・注意】termination 自体を必ず「期間途中の解除」と限定しない。early termination が途中終了を明示する。expiration/expiry は期間満了に焦点があり、cancellation は申込み・予約などの取り消しにも広く使う。completion は作業を最後までやり遂げることを表すが、termination は完遂したかどうかを表さない。notice of termination は通知であって、その時点で終了の効力が発生したとは限らない。termination clause の条件や終了後の義務は各文書で確認する。  
 
 【類義語】
 
@@ -139,7 +139,7 @@ tags: []
 ・initiation  
 定義: 活動・過程を始めること。  
 頻度: 〈6/10〉  
-違い: 過程の開始と終了という方向で対立する。単なる継続は反対語ではない。  
+違い: 過程の開始と終了という方向で対立する。  
 例: The initiation of the project required board approval.  
 訳: 事業の開始には取締役会の承認が必要だった。  
 

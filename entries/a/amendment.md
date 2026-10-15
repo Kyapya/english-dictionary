@@ -105,7 +105,7 @@ tags: []
 ・addendum  
 定義: 文書の後に追加する補遺・追補。  
 頻度: 〈4/10〉  
-違い: 追加部分や付属文書に焦点があり、元の文言を削除・置換する amendment と範囲が違う。  
+違い: 追加部分や付属文書に焦点がある。amendment は既存の内容への変更に焦点があり、追加・削除・置換を含む。  
 例: The report includes an addendum on methodology.  
 訳: 報告書には方法論に関する補遺が付いている。  
 
@@ -146,7 +146,7 @@ tags: []
 例: The proposal would require a constitutional amendment.  
 訳: その提案の実現には憲法改正が必要となる。  
 
-【語法・注意】propose・introduce は提出、adopt・pass は採用・可決、reject は否決。amendment は成立前の案にも成立後の変更にも使うので、常に「施行済みの改正」と訳さない。英国議会の table an amendment は「修正案を正式に提出する」。table の米英差があるため、議会文脈を見ずに同じ訳に固定しない。法案への修正の採用と、法律全体の成立・施行は別の段階。米国憲法の番号付き修正条項は語義3を参照。  
+【語法・注意】propose は提案、introduce は正式な提出。adopt・pass は採用・可決、reject は否決。amendment は成立前の案にも成立後の変更にも使うので、常に「施行済みの改正」と訳さない。英国議会の table an amendment は「修正案を正式に提出する」。table の米英差があるため、議会文脈を見ずに同じ訳に固定しない。法案への修正の採用と、法律全体の成立・施行は別の段階。米国憲法の番号付き修正条項は語義3を参照。  
 
 【類義語】
 

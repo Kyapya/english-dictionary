@@ -65,7 +65,7 @@ tags: []
 訳: デザインの所有権に関する条項を確認してください。  
 
 ・an escape clause  
-用途: 条件次第で契約などから離脱できる条項。  
+用途: 一定の条件下で、契約上の義務から解放されたり、契約を終了したりできることを定める条項。  
 例: The agreement includes an escape clause for either party.  
 訳: その契約には、いずれの当事者も利用できる離脱条項がある。  
 

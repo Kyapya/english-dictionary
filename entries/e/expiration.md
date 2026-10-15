@@ -155,4 +155,4 @@ tags: []
 頻度: 〈5/10〉  
 違い: 空気の出入りの方向が反対。inspiration と同様に吸う側を指し、日常的な説明にも用いる。  
 例: The exercise begins with a gentle inhalation through the nose.  
-訳: その運動は、鼻から穏やかに息を吸うことから始めます。  
+訳: その運動は、鼻から穏やかに息を吸うことから始まります。  

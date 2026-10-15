@@ -18,7 +18,7 @@ tags: []
 ＃語源
 
 renew「新しくする、再び始める」に、動作・結果を表す名詞接尾辞 -al が付いた語。renew は re-「再び」と、中英語 newen「新しくする」に由来する。ここでの -al は national のような形容詞を作る接尾辞として読むのではなく、名詞を作る形である。  
-同系の基礎語は new。さらに古い語源ではラテン語 novus「新しい」とつながり、novel「新奇な」、renovate「改修する」と歴史的な関係がある。  
+同系の基礎語は new。new とラテン語 novus「新しい」は共通の印欧祖語に遡り、novus に由来する novel「新奇な」、renovate「改修する」とも歴史的に関係がある。  
 
 ＃語形成
 
@@ -29,11 +29,11 @@ renew「新しくする、再び始める」に、動作・結果を表す名詞
 
 ＃コアイメージ
 
-既存のものを、もう一度新たに続けられる状態にすること。期間を更新する、途絶えた働きを戻す、活力や構成部分を新たにする、という違いで捉える。  
+既存のものを、もう一度新たに続けられる状態にすること。期間を更新する、活動や誓いを改めて新たにする、活力や構成部分を新たにする、という違いで捉える。  
 
 ・既存の有効期間を新たにすること → 「契約・資格などの更新」（語義1）  
 
-・既存の活動や関心を新たにすること → 「活動・関心などの再開、再燃」（語義2）  
+・既存の活動や関心、誓いを新たにすること → 「活動・関心などの再開・再燃、誓いなどの再確認」（語義2）  
 
 ・既存の地域や組織の活力を新たにすること → 「再生、刷新、活力の回復」（語義3）  
 
@@ -49,7 +49,7 @@ renew「新しくする、再び始める」に、動作・結果を表す名詞
 
 【レジスター/領域】ビジネス、行政手続き、一般。  
 
-【文法パターン】renewal of a contract／a contract renewal／apply for renewal／be due for renewal／be up for renewal／come up for renewal／on renewal／subject to renewal。  
+【文法パターン】renewal of a contract／a contract renewal／apply for renewal／be due for renewal／be up for renewal／come up for renewal／on renewal／subject to renewal  
 
 【コロケーション・構文例】
 
@@ -111,15 +111,15 @@ renew「新しくする、再び始める」に、動作・結果を表す名詞
 例: Funding is essential for the continuation of the service.  
 訳: サービス継続には資金が不可欠だ。  
 
-2. 【名詞・主に不可算／単数形も可】活動・関心などの再開、再燃
+2. 【名詞・主に不可算／単数形も可】活動・関心などの再開・再燃、誓いなどの再確認
 
-【日本語訳・定義】途絶えたり弱まったりした活動・関係・関心などが、再び始まることや強くなること。  
+【日本語訳・定義】途絶えたり弱まったりした活動・関係・関心などが、再び始まることや強くなること。また、既存の誓いなどを改めて述べ、確認すること。  
 
 【頻度】〈6/10〉  
 
 【レジスター/領域】フォーマル、報道、一般的な説明。  
 
-【文法パターン】the renewal of 〈活動・関係〉／a renewal of interest in something／renewal of hostilities／renewal of efforts to do。  
+【文法パターン】the renewal of 〈活動・関係〉／a renewal of interest in something／renewal of hostilities／renewal of efforts to do／renewal of vows＝誓いを改めて述べ、確認すること  
 
 【コロケーション・構文例】
 
@@ -136,14 +136,19 @@ renew「新しくする、再び始める」に、動作・結果を表す名詞
 ・the renewal of hostilities  
 用途: 敵対行為・戦闘の再開。  
 例: Observers warned of a possible renewal of hostilities.  
-訳: 監視団は戦闘が再開する可能性を警告した。  
+訳: 情勢を見守る人々は、戦闘が再開する可能性を警告した。  
 
 ・the renewal of efforts to do  
 用途: 取り組みを再び進めること。  
 例: The agreement led to the renewal of efforts to reduce waste.  
 訳: その合意により、廃棄物削減への取り組みが再び進められた。  
 
-【語法・注意】the renewal of ... のような不可算的な過程表現が多いが、a renewal of interest のように一つの新たな高まりとして単数形で示すこともある。renewal を常に「望ましい再生」と読まない。hostilities や violence の renewal は悪化を意味し得る。renewal of interest では関心が完全に消えていた必要はなく、弱まっていた関心の復活にも使う。  
+・renewal of vows  
+用途: 結婚の誓いなどを改めて述べ、確認すること。  
+例: They celebrated their anniversary with a renewal of vows.  
+訳: 二人は、結婚の誓いを改めて述べる式で結婚記念日を祝った。  
+
+【語法・注意】the renewal of ... のような不可算的な過程表現が多いが、a renewal of interest のように一つの新たな高まりとして単数形で示すこともある。renewal を常に「望ましい再生」と読まない。hostilities や violence の renewal は悪化を意味し得る。renewal of interest では関心が完全に消えていた必要はなく、弱まっていた関心の復活にも使う。renewal of vows／vow renewal は誓いを改めて述べ、確認することで、誓いや関係が途絶えたり弱まったりしていた必要はない。有効期間の更新とも区別する。  
 
 【類義語】
 
@@ -176,7 +181,7 @@ renew「新しくする、再び始める」に、動作・結果を表す名詞
 
 【レジスター/領域】都市計画、社会、自然、精神的な表現。  
 
-【文法パターン】urban renewal／economic renewal／a process of renewal／a sense of renewal／renewal of 〈地域・組織〉。  
+【文法パターン】urban renewal／economic renewal／a process of renewal／a sense of renewal／renewal of 〈地域・組織〉  
 
 【コロケーション・構文例】
 
@@ -233,7 +238,7 @@ renew「新しくする、再び始める」に、動作・結果を表す名詞
 
 【レジスター/領域】保守、工学、主に業務・技術文書。  
 
-【文法パターン】renewal of 〈設備・部材〉／track renewal／equipment renewal／a renewal programme。  
+【文法パターン】renewal of 〈設備・部材〉／track renewal／equipment renewal／a renewal programme  
 
 【コロケーション・構文例】
 
