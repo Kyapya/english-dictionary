@@ -177,7 +177,7 @@ tags: []
 ・requisition something for 〈公的用途〉  
 用途: 徴発後の用途を示す。  
 例: The authorities requisitioned the warehouse for emergency storage.  
-訳: 当局は緊急物資の保管用に、その倉庫を接収した。  
+訳: 当局は緊急時の保管場所として、その倉庫を接収した。  
 
 ・requisition something as 〈使用上の役割〉  
 用途: どのような施設などとして使うかを示す。  

@@ -75,7 +75,7 @@ out「外へ」と lay「置く」の組み合わせで、「外へ出して使�
 例: The renovation demanded a substantial outlay of time and effort.  
 訳: 改装には相当な時間と労力の投入が必要でした。  
 
-【語法・注意】an outlay・several outlays は一件ずつの支出、little outlay は支出を量として捉えた言い方。of は金額や投入する資源、on・for は支出対象や目的を導く。outlay は利益が得られることも、後で返してもらえることも保証しない。The outlay was high. は名詞、We outlaid the money. は語義2の動詞。「支出」だからといって、会計上の expense とすべて同じ扱いになるわけではない。  
+【語法・注意】an outlay・several outlays は支出や支出額を一まとまりとして数えた言い方で、一まとまりに複数の支払いを含むこともある。little outlay は支出を量として捉えた言い方。of は金額や投入する資源、on・for は支出対象や目的を導く。outlay は利益が得られることも、後で返してもらえることも保証しない。The outlay was high. は名詞、We outlaid the money. は語義2の動詞。「支出」だからといって、会計上の expense とすべて同じ扱いになるわけではない。  
 
 【類義語】
 
