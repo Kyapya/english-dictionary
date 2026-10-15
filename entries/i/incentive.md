@@ -169,7 +169,7 @@ incentive の核は、ある行動を選んだり続けたりする方向へ人�
 
 ・receive an incentive of 〈金額〉  
 用途: 支給される報奨金の額を示す。  
-例: Employees who complete the programme receive an incentive of $300.  
+例: Employees who complete the programme receive an incentive of 300 dollars.  
 訳: そのプログラムを修了した従業員には、300ドルの奨励金が支給されます。  
 
 ・earn a cash incentive  

@@ -139,7 +139,7 @@ tags: []
 
 ・a sales quota  
 用途: 営業担当者などへ課す販売数量・売上額の基準を指す。  
-例: Each representative has a quarterly sales quota of $150,000.  
+例: Each representative has a quarterly sales quota of 150,000 dollars.  
 訳: 各営業担当者には、四半期15万ドルの販売目標が課されています。  
 
 ・set a quota for someone  
