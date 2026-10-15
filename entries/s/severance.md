@@ -65,7 +65,7 @@ tags: []
 
 ・〈金額〉 in severance  
 用途: 給付として受け取る金額を示す。  
-例: He was offered $8,000 in severance when the branch closed.  
+例: He was offered 8,000 dollars in severance when the branch closed.  
 訳: 支店の閉鎖に伴い、彼には8,000ドルの退職手当が提示されました。  
 
 ・〈期間〉' severance pay  
