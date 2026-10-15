@@ -3,7 +3,7 @@ headword: personnel
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (Work feedback corrections)
 created_at: 2026-10-15
 updated_at: 2026-10-15
 checked: true
@@ -43,7 +43,7 @@ tags: []
 訳: 全職員は安全説明会に出席しなければなりません。  
 
 ・〈人数〉 personnel  
-用途: 要員の人数を数える。  
+用途: 特に業務・行政の文脈で要員の人数を数える。  
 例: Twenty additional personnel were assigned to the project.  
 訳: そのプロジェクトに20人の要員が追加で配属されました。  
 
@@ -72,7 +72,7 @@ tags: []
 例: Access to personnel records is restricted.  
 訳: 人事記録へのアクセスは制限されています。  
 
-【語法・注意】人を指す personnel は、語尾が -s でなくても All personnel are ready. と複数で受ける。「1人の従業員」を a personnel、「数人の従業員」を personnels とするのは通常の英語では避ける。一方、20 personnel は可能なので、単に「不可算だから数字を直接付けられない」と覚えない。the number of personnel is の単数動詞は中心語 number に合わせたもの。personnel と personal の混同に注意し、「人員不足」は a personnel shortage、「個人的な問題」は a personal problem。「職員」と「人事部」の区別は All personnel have received the form.「全職員が用紙を受け取った」と語義2の Contact personnel.「人事部に連絡して」で確認する。  
+【語法・注意】人を指す personnel は、語尾が -s でなくても All personnel are ready. と複数で受ける。「1人の従業員」を a personnel、「数人の従業員」を personnels とするのは通常の英語では避ける。一方、20 personnel のように人数を直接付ける用法も、特に業務・行政の文脈では可能なので、単に「不可算だから数字を直接付けられない」と覚えない。the number of personnel is の単数動詞は中心語 number に合わせたもの。personnel と personal の混同に注意し、「人員不足」は a personnel shortage、「個人的な問題」は a personal problem。「職員」と「人事部」の区別は All personnel have received the form.「全職員が用紙を受け取った」と語義2の Contact personnel.「人事部に連絡して」で確認する。  
 
 【類義語】
 

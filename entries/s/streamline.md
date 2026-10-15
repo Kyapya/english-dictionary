@@ -3,7 +3,7 @@ headword: streamline
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (Work feedback corrections)
 created_at: 2026-10-15
 updated_at: 2026-10-15
 checked: true
@@ -38,11 +38,13 @@ stream「流れ」と line「線」から成り、流体の流れの向きを表
 
 ・流れに沿う形を思わせる滑らかな外観 → 「すっきりと滑らかな外観の」（語義5）  
 
-・流れを整える組織自身の合理化活動 → 「合理化を進める・業務を簡素化する」（語義6）  
+・流れに沿う形を思わせる外観へのデザイン → 「外観をすっきり滑らかに整える」（語義6）  
 
-・流れの瞬間的な向きに沿う線 → 「流線」（語義7）  
+・流れを整える組織自身の合理化活動 → 「合理化を進める・業務を簡素化する」（語義7）  
 
-・流れに適した物体の輪郭線 → 「流線形の輪郭・滑らかな外形の線」（語義8）  
+・流れの瞬間的な向きに沿う線 → 「流線」（語義8）  
+
+・流れに適した物体の輪郭線 → 「流線形の輪郭・滑らかな外形の線」（語義9）  
 
 ＃意味・用法・関連表現
 
@@ -307,7 +309,7 @@ stream「流れ」と line「線」から成り、流体の流れの向きを表
 例: The desk looks more streamlined without the bulky side panels.  
 訳: かさばる側板がないと、その机はよりすっきりして見えます。  
 
-【語法・注意】語義4と違い、streamlined furniture は必ず空気抵抗の小さい家具を意味するわけではない。look・appearance・silhouette や装飾についての文脈なら外観の意味。語義2の efficient「効率的な」とも区別し、すっきりした外観だけで機能の良さを断定しない。  
+【語法・注意】語義4と違い、streamlined furniture は必ず空気抵抗の小さい家具を意味するわけではない。look・appearance・silhouette や装飾についての文脈なら外観の意味。語義2の efficient「効率的な」とも区別し、すっきりした外観だけで機能の良さを断定しない。外観を整える他動詞 streamline は語義6。  
 
 【類義語】
 
@@ -325,7 +327,47 @@ stream「流れ」と line「線」から成り、流体の流れの向きを表
 例: The page has an uncluttered layout.  
 訳: そのページは、すっきりしたレイアウトになっています。  
 
-6. 【動詞・自動詞】合理化を進める・業務を簡素化する
+6. 【動詞・他動詞】外観をすっきり滑らかに整える
+
+【日本語訳・定義】家具や製品などを、流れるような滑らかな輪郭を持つ外観にデザインする。実際に空気や水の抵抗を減らすことを目的とするとは限らない。  
+
+【頻度】〈3/10〉  
+
+【レジスター/領域】製品・家具・デザイン。  
+
+【文法パターン】streamline 〈家具・製品〉／streamline the design of 〈製品〉。  
+
+【コロケーション・構文例】
+
+・streamline furniture  
+用途: 家具を滑らかですっきりした輪郭にデザインする。  
+例: The designer streamlined the furniture, replacing elaborate ornament with smooth, flowing lines.  
+訳: デザイナーは凝った装飾を滑らかに流れる線に置き換え、家具の外観をすっきり整えました。  
+
+・streamline the design of 〈製品〉  
+用途: 製品の外観を滑らかにまとめる。  
+例: They streamlined the design of the lamp to give it a cleaner silhouette.  
+訳: よりすっきりしたシルエットになるよう、ランプのデザインを整えました。  
+
+【語法・注意】語義3の抵抗低減と違い、見た目の輪郭を整える用法。streamline furniture は家具のデザインを指し、streamline furniture production は語義1の生産工程の効率化を指す。The designer streamlined the desk. はデザインを変えた動作で、The desk looks streamlined. は語義5の外観上の性質を述べる。  
+
+【類義語】
+
+・restyle  
+定義: 外観やスタイルを変える。  
+頻度: 〈3/10〉  
+違い: 新しいスタイルにすることが中心で、滑らかですっきりした輪郭にするとは限らない。  
+例: The company restyled the chair with a new back and curved legs.  
+訳: その会社は背もたれを新しくし、脚を曲線形にして、椅子のスタイルを変えました。  
+
+・redesign  
+定義: 設計・デザインをやり直す。  
+頻度: 〈5/10〉  
+違い: 外観だけでなく機能や構造も対象になり、すっきりした輪郭にする方向性は含まない。  
+例: They redesigned the handle to make it easier to grip.  
+訳: 握りやすくするために、取っ手の設計をやり直しました。  
+
+7. 【動詞・自動詞】合理化を進める・業務を簡素化する
 
 【日本語訳・定義】会社や組織が、自らの業務・構成を効率化する。何を効率化するかを目的語として明示せず、取り組み全体を述べる用法。  
 
@@ -358,7 +400,7 @@ stream「流れ」と line「線」から成り、流体の流れの向きを表
 例: The agency reorganized after the merger.  
 訳: その機関は合併後に組織を再編しました。  
 
-7. 【名詞・可算】流線
+8. 【名詞・可算】流線
 
 【日本語訳・定義】ある瞬間の流体の速度の向きに、各点で接するように描く線。気体や液体がどの方向へ流れているかを表す。  
 
@@ -387,9 +429,9 @@ stream「流れ」と line「線」から成り、流体の流れの向きを表
 
 【語法・注意】線なので a streamline・several streamlines と数える。streamlines はここでは動詞「効率化する」ではない。粒子一つが時間の経過とともにたどる軌跡は pathline「流跡線」で、streamline「ある瞬間の速度方向を結んだ線」とは概念が異なる。定常流では一致するが、非定常流では一般に一致しない。流線は乱れのない流れだけに定義されるものではない。  
 
-8. 【名詞・可算】流線形の輪郭・滑らかな外形の線
+9. 【名詞・可算】流線形の輪郭・滑らかな外形の線
 
-【日本語訳・定義】空気や水の抵抗を小さくするように整えられた物体の輪郭、またはそのように滑らかに続く外形の線。語義7の流体内部に描く線とは区別する。  
+【日本語訳・定義】空気や水の抵抗を小さくするように整えられた物体の輪郭、またはそのように滑らかに続く外形の線。語義8の流体内部に描く線とは区別する。  
 
 【頻度】〈2/10〉  
 

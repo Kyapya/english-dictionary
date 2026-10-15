@@ -3,7 +3,7 @@ headword: benchmark
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (Work feedback corrections)
 created_at: 2026-10-15
 updated_at: 2026-10-15
 checked: true
@@ -32,13 +32,15 @@ bench「台・支え」と mark「印」の複合語。測量で高さを比べ�
 
 ・比較のよりどころに照らす対象評価 → 「基準や他の対象と比較して評価する」（語義2）  
 
-・比較のよりどころに照らす評価活動 → 「他社や基準に照らして比較評価を行う」（語義3）  
+・比較のよりどころにする他社事例の研究 → 「自社の改善の手本として他社の製品・業務を研究する」（語義3）  
 
-・比較のよりどころとなる性質 → 「比較の基準となる・基準に関わる」（語義4）  
+・比較のよりどころに照らす評価活動 → 「他社や基準に照らして比較評価を行う」（語義4）  
 
-・比較のよりどころを与える試験 → 「性能比較用の試験・評価課題」（語義5）  
+・比較のよりどころとなる性質 → 「比較の基準となる・基準に関わる」（語義5）  
 
-・比較のよりどころとなる既知の高さ → 「水準点・測量の基準標」（語義6）  
+・比較のよりどころを与える試験 → 「性能比較用の試験・評価課題」（語義6）  
+
+・比較のよりどころとなる既知の高さ → 「水準点・測量の基準標」（語義7）  
 
 ＃意味・用法・関連表現
 
@@ -79,7 +81,7 @@ bench「台・支え」と mark「印」の複合語。測量で高さを比べ�
 例: The fund's annual return exceeded its benchmark.  
 訳: そのファンドの年間リターンは、比較指標のリターンを上回りました。  
 
-【語法・注意】単数では a benchmark・the benchmark とする。benchmark は target「目標」や minimum requirement「最低要件」と同義ではない。品質水準として meet a benchmark と言える場面もあるが、基準が過去の平均なら「必ず達成すべき値」という意味はない。baseline は変化を測る出発点、milestone は進行上の重要な節目で、比較の物差しという役割とは異なる。金融の benchmark は指数・金利など文脈によって指すものが変わり、必ず株価指数とは限らない。  
+【語法・注意】独立した名詞として単数で使う場合は、通常 a・the・this・our などの限定詞を伴う。benchmark は target「目標」や minimum requirement「最低要件」と同義ではない。品質水準として meet a benchmark と言える場面もあるが、基準が過去の平均なら「必ず達成すべき値」という意味はない。baseline は変化を測る出発点、milestone は進行上の重要な節目で、比較の物差しという役割とは異なる。金融の benchmark は指数・金利など文脈によって指すものが変わり、必ず株価指数とは限らない。  
 
 【類義語】
 
@@ -141,7 +143,7 @@ bench「台・支え」と mark「印」の複合語。測量で高さを比べ�
 例: The company benchmarks itself against leading manufacturers.  
 訳: その会社は、自社を主要メーカーと比較して評価しています。  
 
-【語法・注意】比較する対象を直接目的語に置き、相手や基準を against で示す。benchmark our costs against theirs のように同じ種類のものを比べると明確。名詞の a benchmark for quality と動詞の benchmark quality against a standard を混同しない。benchmarked は比較評価済みという意味で、優秀さや合格をそれだけで保証しない。benchmarking は測定・比較の活動であり、単なる他社の模倣という意味ではない。benchmark oneself against 〈相手〉は主体自身を目的語にする再帰形で、企業なら itself、私たちなら ourselves を使う。語義3の benchmark against 〈相手〉は目的語なしで比較活動を述べる別のフレーム。  
+【語法・注意】この語義では評価される対象を直接目的語に置き、相手や基準を against で示す。自社の改善の参考として調べる他社側を直接目的語にする用法は語義3。benchmark our costs against theirs のように同じ種類のものを比べると明確。名詞の a benchmark for quality と動詞の benchmark quality against a standard を混同しない。benchmarked は比較評価済みという意味で、優秀さや合格をそれだけで保証しない。benchmarking は測定・比較の活動であり、単なる他社の模倣という意味ではない。benchmark oneself against 〈相手〉は主体自身を目的語にする再帰形で、企業なら itself、私たちなら ourselves を使う。語義4の benchmark against 〈相手〉は目的語なしで比較活動を述べる別のフレーム。  
 
 【類義語】
 
@@ -157,7 +159,7 @@ bench「台・支え」と mark「印」の複合語。測量で高さを比べ�
 頻度: 〈8/10〉  
 違い: 他の対象や既定の数値との比較を必須としない。  
 例: The panel evaluated the proposal on its merits.  
-訳: 委員会は提案そのものの長所を基に評価しました。  
+訳: 委員会は、提案そのものの内容に即して評価しました。  
 
 ・test  
 定義: 試して性能・性質などを調べる。  
@@ -166,7 +168,40 @@ bench「台・支え」と mark「印」の複合語。測量で高さを比べ�
 例: Engineers tested the device in extreme heat.  
 訳: 技術者たちは極端な高温下でその装置を試験しました。  
 
-3. 【動詞・自動詞】他社や基準に照らして比較評価を行う
+3. 【動詞・他動詞】自社の改善の手本として他社の製品・業務を研究する
+
+【日本語訳・定義】自社の製品や仕事の進め方を改善するため、競合他社などの製品・業務慣行を参考事例として調べる。直接目的語は、改善される自社側ではなく、手本や比較材料として研究する他社側を表す。  
+
+【頻度】〈4/10〉  
+
+【レジスター/領域】経営・製品開発・業務改善。  
+
+【文法パターン】benchmark competitors' products・business practices／benchmark 〈他社の製品・業務〉 to improve 〈自社の製品・業務〉／〈参考にする他社の製品・業務〉 + be benchmarked。  
+
+【コロケーション・構文例】
+
+・benchmark competitors' business practices  
+用途: 自社の改善に役立てるため、競合他社の仕事の進め方を調べる。  
+例: We benchmarked competitors' business practices to identify ways to improve our own.  
+訳: 自社の業務を改善する方法を見つけるため、競合他社の業務慣行を調べました。  
+
+・benchmark competitors' products  
+用途: 他社製品を研究し、自社製品の改善の参考にする。  
+例: The design team benchmarked competitors' products to improve its own product design.  
+訳: 設計チームは、自社の製品設計を改善するために競合他社の製品を調べました。  
+
+【語法・注意】benchmark our service against theirs なら語義2で、直接目的語は評価される自社のサービス。benchmark their service to improve ours なら本語義で、直接目的語は参考として研究する他社のサービス。後者で他社のサービス自体を改善するという意味にはならない。受動態でも、研究される他社側が主語になる。研究結果を活用することは含意されるが、そのまま模倣することや、改善が実現したことまでは意味しない。  
+
+【類義語】
+
+・study  
+定義: 対象を詳しく調べ、理解しようとする。  
+頻度: 〈8/10〉  
+違い: benchmark は自社の改善に役立つ比較・参考事例として調べる。study は研究の対象・目的がもっと広い。  
+例: The team studied a rival's customer service methods.  
+訳: チームは競合会社の顧客対応の方法を詳しく調べました。  
+
+4. 【動詞・自動詞】他社や基準に照らして比較評価を行う
 
 【日本語訳・定義】会社や組織などが、自らの仕事・製品・業務の改善のために、他の組織や基準との比較評価を行う。何を評価するかを直接目的語として示さず、比較する活動を述べる。  
 
@@ -199,7 +234,7 @@ bench「台・支え」と mark「印」の複合語。測量で高さを比べ�
 例: Before choosing, take time to compare.  
 訳: 選ぶ前に、時間を取って比較してください。  
 
-4. 【形容詞・限定用法／名詞の前置修飾】比較の基準となる・基準に関わる
+5. 【形容詞・限定用法／名詞の前置修飾】比較の基準となる・基準に関わる
 
 【日本語訳・定義】数値・製品・試験などが比較の基準として使われること、または基準を設定・測定することに関わることを表す。benchmark rate は参照される基準金利、benchmark test は比較評価のための試験。  
 
@@ -242,7 +277,7 @@ bench「台・支え」と mark「印」の複合語。測量で高さを比べ�
 例: Keep one sample as the reference specimen.  
 訳: 比較用の基準試料として、一つ保存しておいてください。  
 
-5. 【名詞・可算】性能比較用の試験・評価課題
+6. 【名詞・可算】性能比較用の試験・評価課題
 
 【日本語訳・定義】機器・ソフトウェア・AIモデルなどを、一定の条件や課題で測り、性能を比較できるようにする試験やその課題群。何を実行して測るかに焦点があり、語義1の「比較の基準値」そのものとは区別される。  
 
@@ -285,7 +320,7 @@ bench「台・支え」と mark「印」の複合語。測量で高さを比べ�
 例: The performance test measured response time under load.  
 訳: その性能試験は、負荷がかかった状態での応答時間を測定しました。  
 
-6. 【名詞・可算】水準点・測量の基準標
+7. 【名詞・可算】水準点・測量の基準標
 
 【日本語訳・定義】高さが定められ、他の地点の高さを測る際の基準として使われる固定した標識・点。岩盤・構造物・標柱などに設けられる。  
 
