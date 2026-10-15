@@ -63,7 +63,7 @@ consign「送る・委ねる」に、行為やその対象を表す -ment が付
 ・inspect a consignment  
 用途: まとめて送られた貨物を検査する。  
 例: Customs officers inspected the consignment before releasing it.  
-訳: 税関職員は、貨物を引き渡す前に検査しました。  
+訳: 税関職員は、貨物の引取りを許可する前に、その貨物を検査しました。  
 
 ・send 〈商品〉 in separate consignments  
 用途: 一括でなく、複数の荷口に分けて発送する。  
@@ -132,7 +132,7 @@ consign「送る・委ねる」に、行為やその対象を表す -ment が付
 例: The consignment agreement specifies when the artist will be paid.  
 訳: その委託販売契約は、画家への支払時期を定めています。  
 
-【語法・注意】方式を表す定型句は on consignment で、通常は a を入れない。a consignment は語義1の貨物、on consignment は「委託販売で」。consignment shop は店舗の業態を表す複合名詞であり、consignment 自体が「中古」の意味になるわけではない。支払方法、所有権、返品や損失の負担まで、この単語だけで決まるものではない。  
+【語法・注意】方式を表す定型句は on consignment で、通常は a を入れない。a consignment は語義1の貨物、on consignment は「委託販売で」。consignment shop は店舗の業態を表す複合名詞であり、consignment 自体が「中古」の意味になるわけではない。委託販売では、通常、売れるまで商品の所有権は委託者に残る。具体的な支払条件、返品条件、損失の負担や法的な扱いは、契約や適用法による。  
 
 【類義語】
 
@@ -191,6 +191,6 @@ consign「送る・委ねる」に、行為やその対象を表す -ment が付
 ・delivery  
 定義: 品物を指定の受取先まで届けること。  
 頻度: 〈9/10〉  
-違い: 到着・引き渡しに焦点があり、送り出す段階だけの consignment と同じとは限らない。  
+違い: 到着・引き渡しに焦点がある。consignment は発送や相手に委ねる行為を表し、必ずしも配達の完了を意味しない。  
 例: Delivery to the office is included in the price.  
 訳: オフィスまでの配達は料金に含まれています。  

@@ -47,7 +47,7 @@ remit「送金する」に -ance が付いた名詞。remit はラテン語 remi
 ・a remittance for 〈料金〉  
 用途: 送られるお金の支払目的を示す。  
 例: Please include your customer number with your remittance for the annual fee.  
-訳: 年会費をご送金の際は、顧客番号をお知らせください。  
+訳: 年会費をご送金の際は、顧客番号を添えてください。  
 
 ・send a remittance to 〈受取人〉  
 用途: 送金先を示す。  
@@ -76,7 +76,7 @@ remit「送金する」に -ance が付いた名詞。remit はラテン語 remi
 訳: 初回のお支払いは来月が期限です。  
 
 ・transfer  
-定義: 口座や人の間で移される一件の資金。  
+定義: 口座や人の間で行う一件の資金移動。  
 頻度: 〈7/10〉  
 違い: 資金移動という処理に焦点があり、自分の口座間の移動にも使う。remittance は相手へ届ける支払金や仕送りを意識する。  
 例: The transfer from my savings account arrived this morning.  

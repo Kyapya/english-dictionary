@@ -300,7 +300,7 @@ tags: []
 例: Our firm decided not to bid the project because the schedule was too tight.  
 訳: 当社は日程が厳しすぎるため、その案件への入札を見送ることにした。  
 
-【語法・注意】bid on は「入札を続ける」という句動詞ではなく、on 以下が対象。bid against の against は競争相手を示す。語義4の bid a price と、bid for / on a contract の前置詞構文を区別する。米の業務文体では bid a job / bid a project と案件を直接目的語にする形も使う。We bid on the project. は自動詞＋前置詞句、We bid the project. は他動詞＋案件の目的語で、どちらも案件への入札参加を表す。We bid a lower price. では直接目的語が提示額で、語義4に当たる。入札参加と落札は別で、won the contract が受注成功を示す。  
+【語法・注意】bid on は「入札を続ける」という句動詞ではなく、on 以下が対象。bid against の against は競争相手を示す。語義4の bid a price と、bid for / on a contract の前置詞構文を区別する。米の業務文体では bid a job / bid a project と案件を直接目的語にする形も使う。受注希望側を主語にした We bid on the project. と We bid the project. は、どちらも案件への入札参加を表す。前者は自動詞＋前置詞句、後者は他動詞＋案件の目的語。ただし、発注側が主語の bid a project は「案件を入札にかける」という別の意味にもなる（語義17）。We bid a lower price. では直接目的語が提示額で、語義4に当たる。入札参加と落札は別で、won the contract が受注成功を示す。  
 
 【類義語】
 
@@ -599,7 +599,7 @@ tags: []
 例: It’s your bid; everyone is waiting.  
 訳: あなたがビッドする番です。皆が待っています。  
 
-【語法・注意】競売由来の用語だが、通常は金銭の購入入札ではない。ブリッジの one spade を単純に「1回勝つ」と読み替えず、ゲーム固有の宣言として覚える。bid と pass などの位置づけはゲームの規則に従い、すべての発話を同じ宣言内容としない。  
+【語法・注意】競売由来の用語だが、通常は金銭の購入入札ではない。ブリッジの one spade を単純に「1回勝つ」と読み替えず、ゲーム固有の宣言として覚える。ブリッジの数字は6を超えて取るトリック数を示し、one spade は、形式上、スペードを切り札として計7トリックを取るという宣言である。bid と pass などの位置づけはゲームの規則に従い、すべての発話を同じ宣言内容としない。  
 
 【類義語】
 
@@ -636,7 +636,7 @@ tags: []
 
 13. 【名詞・可算】招待・出場枠
 
-【日本語訳・定義】主に米英語で、学生団体への入会の招待、または競技大会に参加するために与えられる招待・出場枠。何かを得ようと自分から行う試みではなく、参加を認める側から与えられるもの。  
+【日本語訳・定義】主に米英語で、人に参加・加入を認めて与える招待。特に学生団体への入会の招待や、競技大会への招待・出場枠に使う。何かを得ようと自分から行う試みではなく、参加を認める側から与えられるもの。  
 
 【頻度】〈4/10〉  
 
@@ -673,7 +673,7 @@ tags: []
 ・invitation  
 定義: 人に参加・加入などを求める招待。  
 頻度: 〈9/10〉  
-違い: 一般的な招待に使える。bid は学生団体や大会の制度的な文脈に限られる。  
+違い: 一般的な招待に使える。この意味の bid は、特に学生団体への入会や大会への招待で使われる。  
 例: She accepted an invitation to join the association.  
 訳: 彼女はその協会への加入の招待を受け入れた。  
 
@@ -794,3 +794,36 @@ tags: []
 違い: この意味では同じく口語的。stretch は一般には「ひと続きの期間」も指すため、in prison などで文脈を明確にする。  
 例: She served a long stretch in prison.  
 訳: 彼女は長い間、刑務所で服役した。  
+
+17. 【他動詞】案件・契約を入札にかける
+
+【日本語訳・定義】発注する側が、工事や契約などについて業者からの入札を募る。自ら受注を目指して価格を提示する語義5とは、主語の役割が逆になる。  
+
+【頻度】〈3/10〉  
+
+【レジスター/領域】主に米の業務文体、公共調達・建設。  
+
+【文法パターン】〈発注者〉 bid 〈案件・契約〉／〈案件・契約〉 be bid＝入札にかけられる。  
+
+【コロケーション・構文例】
+
+・bid 〈案件〉  
+用途: 発注者が業者からの入札を募る。  
+例: The city plans to bid the bridge project next spring and invite local contractors to submit proposals.  
+訳: 市は来春、橋の工事を入札にかけ、地元業者から提案を募る予定だ。  
+
+・〈契約〉 be bid  
+用途: 契約を入札にかける側の文脈を、受動態で示す。  
+例: The council announced that the maintenance contract would be bid again to attract more contractors.  
+訳: 議会は、より多くの業者に応募してもらうため、保守契約を再び入札にかけると発表した。  
+
+【語法・注意】この意味でも過去形・過去分詞は bid。The city bid the project. は市が入札を募ったことを表し、市が受注希望者として参加したとは限らない。入札を募る意味を明確にするには put the project out to bid とも言う。主語が発注側か受注希望側かを、周囲の募集・応募の説明で見分ける。入札にかける行為だけでは、落札者の決定や契約締結を意味しない。  
+
+【類義語】
+
+・put out to tender  
+定義: 案件などについて正式な入札を募る。  
+頻度: 〈4/10〉  
+違い: 特に英の調達文脈で使い、put a contract out to tender のように案件を目的語にする。bid a contract は主語次第で応募側・募集側の読みが分かれるが、この句は募集側の行為を示す。  
+例: The authority put the cleaning contract out to tender.  
+訳: 当局は清掃契約を入札にかけた。  
