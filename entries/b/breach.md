@@ -106,7 +106,7 @@ tags: []
 訳: 検査で、安全規程への違反が複数見つかりました。  
 
 ・infringement  
-定義: 権利や規則を侵害・違反すること。  
+定義: 権利を侵害したり、規則に違反したりすること。  
 頻度: 〈6/10〉  
 違い: copyright infringement のように知的財産権の侵害で特によく使う。breach の物理的な破れ目には対応しない。  
 例: The publisher investigated a possible copyright infringement.  
