@@ -329,7 +329,7 @@ retention の核は、対象を外へ出したり失ったりせず、手元・�
 
 ・a self-insured retention  
 用途: 被保険者側が負担する保有額を示す。  
-例: The policy includes a self-insured retention of $50,000.  
+例: The policy includes a self-insured retention of 50,000 dollars.  
 訳: その保険契約には、被保険者側が負担する5万ドルの自己保有額が設けられています。  
 
 【語法・注意】誰が保有するかを確認する。企業の risk retention は企業自身の負担、再保険の retention は元受保険会社に残る負担を表す。retention は保有額・保有割合などで定められ、すべてが deductible「免責金額」と制度上同じではない。self-insured retention の適用、費用負担、保険会社が支払う条件は契約次第であり、単語だけから一律の請求処理を導かない。留保金を預かる語義5と違い、ここで残すのは損失への負担である。  
