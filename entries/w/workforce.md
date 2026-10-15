@@ -3,7 +3,7 @@ headword: workforce
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (Work feedback corrections)
 created_at: 2026-10-15
 updated_at: 2026-10-15
 checked: true
@@ -139,7 +139,7 @@ work「仕事」と force「集団としての力・人員」の複合語。個�
 定義: 就業者と、所定の条件を満たす失業者を合わせた労働力人口。  
 頻度: 〈7/10〉  
 違い: 経済統計で定義された範囲を明示しやすい。英綴りは labour force。workforce は一般文でも使い、働いている人々だけを指す場合もある。  
-例: The report measures changes in labor force participation.  
+例: The report measures changes in the labor force participation rate.  
 訳: その報告書は労働力参加率の変化を測定しています。  
 
 ・working population  

@@ -3,7 +3,7 @@ headword: milestone
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (Work feedback corrections)
 created_at: 2026-10-15
 updated_at: 2026-10-15
 checked: true
@@ -138,7 +138,7 @@ mile「マイル」と stone「石」の複合語で、道のりを示す石の�
 ・a milestone payment  
 用途: 所定の段階への到達に結び付いた支払いを指す。  
 例: The contract provides for a milestone payment after the prototype is approved.  
-訳: 契約では、試作品の承認後に段階払いを行うことになっています。  
+訳: 契約では、試作品の承認後に、その段階に対応する支払いを行うことになっています。  
 
 【語法・注意】milestone は task「作業」そのものとは区別する。例えば「試験を実施する」は作業、「試験完了」は節目。工程表では通常、期間を持たない時点として表すが、ツールによっては期間のある作業を milestone として設定できる。日常の業務表現では、期限付きの中間目標を広く指すこともある。deadline は締切、deliverable は提出・引渡し対象の成果物、benchmark は比較の物差し。milestone を達成しても計画全体が完了したとは限らない。meet は「到達・達成する」で、人と会う意味ではない。  
 
@@ -160,7 +160,7 @@ mile「マイル」と stone「石」の複合語で、道のりを示す石の�
 
 3. 【名詞・可算】マイル標・里程標
 
-【日本語訳・定義】道路沿いなどに置かれ、ある場所まで・ある場所からの距離をマイル単位で示す石の標識。歴史的な石柱などを指す字義。  
+【日本語訳・定義】道路沿いなどに置かれ、ある場所まで・ある場所からの距離をマイル単位で示す標識。歴史的な石柱など、主に石製の距離標を指す字義だが、鋳鉄製の例もある。  
 
 【頻度】〈3/10〉  
 
@@ -180,7 +180,7 @@ mile「マイル」と stone「石」の複合語で、道のりを示す石の�
 例: We found a milestone showing the distance to York.  
 訳: 私たちはヨークまでの距離を示す里程標を見つけました。  
 
-【語法・注意】距離を示す標識であって、単に方向を示す道しるべ全般ではない。現代の道路の距離標には mile marker・milepost も使う。milestone は stone を含むため、字義では石製の標識を特に指す。millstone は l が二つで「ひき臼の石」。a millstone around someone's neck は重荷であり、「人生の節目」と取り違えない。  
+【語法・注意】距離を示す標識であって、単に方向を示す道しるべ全般ではない。現代の道路の距離標には mile marker・milepost も使う。字義では石製の距離標を中心に指すが、歴史的な鋳鉄製の標識にも milestone が使われる。millstone は l が二つで「ひき臼の石」。a millstone around someone's neck は重荷であり、「人生の節目」と取り違えない。  
 
 【類義語】
 

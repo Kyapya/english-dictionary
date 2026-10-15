@@ -3,7 +3,7 @@ headword: turnaround
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (Work feedback corrections)
 created_at: 2026-10-15
 updated_at: 2026-10-15
 checked: true
@@ -46,6 +46,8 @@ tags: []
 ・次の引受先へ企画を回せる状態 → 「制作企画を他社へ引き継げる状態」（語義8）  
 
 ・次の反復へ回すための音楽上のつなぎ → 「次の反復へつなぐ進行・フレーズ」（語義9）  
+
+・次の勤務へ戻るまでの休息 → 「勤務間の休息時間」（語義10）  
 
 ＃意味・用法・関連表現
 
@@ -406,9 +408,9 @@ tags: []
 例: The studio put the project into turnaround rather than proceed with production.  
 訳: スタジオは製作を進めず、その企画を他の引受先へ回せる扱いにしました。  
 
-【語法・注意】in turnaround はこの意味では無冠詞の状態表現。  
+【語法・注意】in turnaround はこの意味では無冠詞の状態表現。同じ制作現場でも、勤務間の休息を指す turnaround は語義10。  
 
-単なる撮影中断や予定の遅れとは限らず、他社での企画実現を目指す余地がある。権利移転が自動的・無条件に完了したという意味ではない。開発費の返済、期限、既存契約の扱いなどは個々の取り決めで異なるので、一般定義から特定の条件を推測しない。  
+単なる撮影中断や予定の遅れを指すのではなく、他社での企画実現を目指す余地がある状態を表す。権利移転が自動的・無条件に完了したという意味ではない。開発費の返済、期限、既存契約の扱いなどは個々の取り決めで異なるので、一般定義から特定の条件を推測しない。  
 
 9. 【名詞・可算】次の反復へつなぐ進行・フレーズ
 
@@ -440,3 +442,46 @@ tags: []
 【語法・注意】必ず2小節や特定のコード進行と決まっているわけではない。次の反復へつなぐ働きが中心で、曲をその場で終わらせる終止形と一律に同じものとはしない。  
 
 この文脈の chorus は曲の形式・コード進行の一巡を指し、必ず歌のサビや合唱ではない。語義1の処理時間、語義3の方針の逆転とは別の定着した専門用法。  
+
+10. 【名詞・不可算／可算】勤務間の休息時間
+
+【日本語訳・定義】映画・テレビなどの制作現場で、一回の勤務が終わってから次の勤務が始まるまでの休息のための時間。日々の勤務間だけでなく、勤務週の間の休息期間にも使う。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】映画・テレビなどの制作現場の勤務管理・労働協約。  
+
+【文法パターン】daily・weekend turnaround／minimum turnaround／a 〈数値〉-hour turnaround／turnaround between shifts。  
+
+【コロケーション・構文例】
+
+・daily turnaround  
+用途: 日々の勤務終了から次の勤務までの休息時間を指す。  
+例: The production manager checked each crew member's daily turnaround before setting the next call time.  
+訳: 制作管理者は次の集合時刻を決める前に、スタッフ一人ひとりの勤務間の休息時間を確認しました。  
+
+・minimum turnaround  
+用途: 確保すべき最低限の勤務間休息を示す。  
+例: We moved the next call later to preserve the minimum turnaround.  
+訳: 最低限の勤務間休息を確保するため、次の集合時刻を遅らせました。  
+
+・a 〈数値〉-hour turnaround  
+用途: 具体的な休息期間の長さを述べる。  
+例: The schedule allows a twelve-hour turnaround between the crew's shifts.  
+訳: その予定では、スタッフの勤務と次の勤務の間に12時間の休息時間を取れます。  
+
+・weekend turnaround  
+用途: 勤務週の間に確保する休息期間を指す。  
+例: The production manager checked the weekend turnaround before scheduling Monday's call.  
+訳: 制作管理者は月曜日の集合時刻を決める前に、勤務週の間の休息期間を確認しました。  
+
+【語法・注意】minimum turnaround のように時間・制度を一般的に述べる使い方と、a twelve-hour turnaround のように個別の期間を数える使い方がある。勤務終了と次の勤務開始の間の時間であり、撮影の所要時間や語義8の企画の引き継ぎとは異なる。最低時間、起点・終点、移動時間の扱いなどは適用される契約によって異なる。例文の時間数を業界共通の規則とは考えない。休息期間の全体が睡眠時間になるわけでもない。  
+
+【類義語】
+
+・rest period  
+定義: 仕事などから離れて休息するための時間。  
+頻度: 〈5/10〉  
+違い: 勤務間の休息にも使うが、仕事の途中の休憩なども含められる。ここでの turnaround は勤務終了から次の勤務までの間隔に焦点がある。  
+例: The crew had a rest period before returning to the set.  
+訳: スタッフは現場へ戻る前に休息時間を取りました。  

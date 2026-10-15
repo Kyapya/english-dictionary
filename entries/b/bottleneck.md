@@ -3,7 +3,7 @@ headword: bottleneck
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (Work feedback corrections)
 created_at: 2026-10-15
 updated_at: 2026-10-15
 checked: true
@@ -21,7 +21,8 @@ bottle「瓶」と neck「首・細くなった部分」の複合語。瓶の首
 ＃語形成
 
 ・bottlenecks：名詞の複数形、または動詞の三人称単数現在形。  
-・bottlenecked・bottlenecking：動詞の過去形・過去分詞、現在分詞。be bottlenecked by 〈原因〉は「その原因で流れを妨げられる」。  
+・bottlenecked：動詞の過去形・過去分詞。be bottlenecked by 〈原因〉は「その原因で流れを妨げられる」。  
+・bottlenecking：動詞の現在分詞。  
 ・bottleneck effect：複合名詞。集団遺伝学の「ボトルネック効果」。単なる業務上の遅延とは区別する。  
 
 ＃コアイメージ

@@ -3,7 +3,7 @@ headword: credential
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (Work feedback corrections)
 created_at: 2026-10-15
 updated_at: 2026-10-15
 checked: true
@@ -220,7 +220,7 @@ tags: []
 
 【レジスター/領域】主に北米。教育・専門職の認定・医療機関の資格審査・取材手続き。受動態でよく使う。  
 
-【文法パターン】credential someone／credential someone as 〈役割〉／be credentialed by 〈認定主体〉／be credentialed in 〈専門分野〉。活用は credential―credentialed―credentialed、credentialing。credentialled／credentialling の綴りもある。  
+【文法パターン】credential someone／credential someone as 〈役割〉／be credentialed by 〈認定主体〉／be credentialed in 〈専門分野〉。活用は credential―credentialed―credentialed、credentialing。credentialled と credentialling の綴りもある。  
 
 【コロケーション・構文例】
 

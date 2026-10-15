@@ -3,7 +3,7 @@ headword: probation
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: OpenAI assistant (Work feedback corrections)
 created_at: 2026-10-15
 updated_at: 2026-10-15
 checked: true
@@ -103,7 +103,7 @@ tags: []
 ・be on probation  
 用途: 新しい職で試用期間中であることを示す。  
 例: New recruits are on probation for their first three months.  
-訳: 新規採用者は、最初の3か月間は試用期間となります。  
+訳: 新規採用者は、最初の3か月間は試用期間中です。  
 
 ・a period of probation  
 用途: 契約などで試用の期間を示す。  
