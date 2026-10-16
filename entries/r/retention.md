@@ -265,7 +265,7 @@ retention の核は、対象を外へ出したり失ったりせず、手元・�
 例: The examination confirmed urinary retention despite the patient's ability to pass small amounts of urine.  
 訳: 患者は少量の尿を出せていましたが、検査で尿閉が確認されました。  
 
-【語法・注意】urinary retention は完全に一滴も排尿できない場合だけでなく、膀胱を十分に空にできない場合を含む。尿そのものが作られない anuria「無尿」とは異なる。fluid retention は体液が余分に残ること、edema は組織への体液蓄積によるむくみ・浮腫を指すので、いつでも完全に同じ語として置き換えない。土壌の water retention は語義1の保水で、異常・病気という意味を含まない。  
+【語法・注意】urinary retention は完全に一滴も排尿できない場合だけでなく、膀胱を十分に空にできない場合を含む。anuria「無尿」は尿量がほぼなくなる状態を指し、尿生成の低下や尿路閉塞などで起こる。膀胱を十分に空にできない urinary retention とは同義ではない。fluid retention は体液が余分に残ること、edema は組織への体液蓄積によるむくみ・浮腫を指すので、いつでも完全に同じ語として置き換えない。土壌の water retention は語義1の保水で、異常・病気という意味を含まない。  
 
 5. 【名詞・不可算／可算】支払留保・留保金
 

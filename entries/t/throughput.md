@@ -122,7 +122,7 @@ through「通り抜けて」と put「入れる・通す」を組み合わせた
 
 ・throughput per unit  
 用途: 販売1単位から得られる貢献額を示す。  
-例: With a selling price of 90 dollars and direct material cost of 30, dollars throughput per unit is 60 dollars in this model.  
+例: With a selling price of 90 dollars and direct material cost of 30 dollars, throughput per unit is 60 dollars in this model.  
 訳: このモデルでは、販売価格が90ドル、直接材料費が30ドルなら、1単位当たりのスループット利益は60ドルです。  
 
 ・throughput per bottleneck hour  

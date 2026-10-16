@@ -41,7 +41,7 @@ attrition の主要な核は、損失や接触の積み重ねで、数・力・�
 
 【レジスター/領域】人事・経営・教育・調査研究。人員削減の意味は特に米国英語で発達し、英国では natural wastage も使うが、現在のビジネス英語では attrition も広く使われる。  
 
-【文法パターン】staff attrition／employee attrition／reduce the workforce through attrition／natural attrition／an attrition rate of 〈割合〉／attrition among 〈集団〉／customer attrition／participant attrition。  
+【文法パターン】staff attrition／employee attrition／reduce the workforce through attrition／natural attrition／an attrition rate of 〈割合〉／attrition among 〈集団〉／customer attrition／participant attrition  
 
 【コロケーション・構文例】
 
@@ -122,7 +122,7 @@ attrition の主要な核は、損失や接触の積み重ねで、数・力・�
 
 【レジスター/領域】軍事・報道・評論・比喩的な競争の描写。language attrition「言語能力の減退」のように専門分野でも使う。  
 
-【文法パターン】a war of attrition／a battle of attrition／a strategy of attrition／win by attrition／attrition of 〈能力・資源〉／language attrition。  
+【文法パターン】a war of attrition／a battle of attrition／a strategy of attrition／win by attrition／attrition of 〈能力・資源〉／language attrition  
 
 【コロケーション・構文例】
 
@@ -142,7 +142,7 @@ attrition の主要な核は、損失や接触の積み重ねで、数・力・�
 訳: 指揮官たちは、敵軍を消耗させる戦略を採用しました。  
 
 ・win by attrition  
-用途: 相手の力や資源が尽きることで勝つ。  
+用途: 相手の力や資源を徐々に消耗させて勝つ。  
 例: The larger company hoped to win by attrition during the prolonged price war.  
 訳: 大手企業は、長引く価格競争で相手を消耗させて勝つことを狙っていました。  
 
@@ -184,7 +184,7 @@ attrition の主要な核は、損失や接触の積み重ねで、数・力・�
 
 【レジスター/領域】工学・地理・地質・歯科。日常的な消耗品の劣化なら wear and tear などがより一般的。  
 
-【文法パターン】attrition of 〈物体・粒子〉／by attrition／dental attrition／attrition between 〈接触する物〉。  
+【文法パターン】attrition of 〈物体・粒子〉／by attrition／dental attrition／attrition between 〈接触する物〉  
 
 【コロケーション・構文例】
 
@@ -229,7 +229,7 @@ attrition の主要な核は、損失や接触の積み重ねで、数・力・�
 
 【レジスター/領域】神学・宗教史。一般的な後悔や、現代のビジネスでいう消耗とは異なる専門義。  
 
-【文法パターン】attrition and contrition／attrition arising from fear／the distinction between attrition and perfect contrition。  
+【文法パターン】attrition and contrition／attrition arising from fear／the distinction between attrition and perfect contrition  
 
 【コロケーション・構文例】
 

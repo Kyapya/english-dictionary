@@ -158,7 +158,7 @@ incentive の核は、ある行動を選んだり続けたりする方向へ人�
 
 【レジスター/領域】給与・人事・営業。金額や支給を述べる文脈で、一般的な「誘因」から金銭の意味に限定される。  
 
-【文法パターン】pay someone an incentive／receive an incentive of 〈金額〉／earn a cash incentive／an incentive for meeting 〈目標〉／financial incentives。cash や金額・支払いを伴わせると、報奨金そのものを指すことが明確。  
+【文法パターン】pay someone an incentive／receive an incentive of 〈金額〉／earn a cash incentive／an incentive for meeting 〈目標〉／financial incentives  
 
 【コロケーション・構文例】
 
@@ -182,7 +182,7 @@ incentive の核は、ある行動を選んだり続けたりする方向へ人�
 例: The team received a financial incentive for meeting the delivery target.  
 訳: チームは納品目標を達成したことで、報奨金を受け取りました。  
 
-【語法・注意】an incentive が常に現金を表すわけではないので、語義1と区別するには cash・payment・金額などの文脈を確認する。benefit「福利厚生・利益」や compensation「報酬・補償」はより広く、追加の報奨であることを必ずしも示さない。報奨金が支払われた時点で達成済みでも、制度として将来の行動を促す目的があれば incentive と呼べる。金額を示す of と、報奨の対象行動を示す for を区別する。  
+【語法・注意】cash や金額・支払いを伴わせると、報奨金そのものを指すことが明確。an incentive が常に現金を表すわけではないので、語義1と区別するには cash・payment・金額などの文脈を確認する。benefit「福利厚生・利益」や compensation「報酬・補償」はより広く、追加の報奨であることを必ずしも示さない。報奨金が支払われた時点で達成済みでも、制度として将来の行動を促す目的があれば incentive と呼べる。金額を示す of と、報奨の対象行動を示す for を区別する。  
 
 【類義語】
 
@@ -208,7 +208,7 @@ incentive の核は、ある行動を選んだり続けたりする方向へ人�
 
 【レジスター/領域】人事・経営・販売促進。辞書によって形容詞、または名詞 incentive の修飾用法として扱う。  
 
-【文法パターン】incentive + 〈報酬・制度を表す名詞〉／incentive pay／an incentive scheme／an incentive programme／incentive travel。通常は名詞の前に置き、very incentive・more incentive のように形容詞の程度比較はしない。  
+【文法パターン】incentive + 〈報酬・制度を表す名詞〉／incentive pay／an incentive scheme／an incentive programme／incentive travel  
 
 【コロケーション・構文例】
 
@@ -232,7 +232,7 @@ incentive の核は、ある行動を選んだり続けたりする方向へ人�
 例: The agency arranges incentive travel for corporate sales teams.  
 訳: その旅行会社は、企業の営業チーム向けに報奨旅行を手配しています。  
 
-【語法・注意】incentive pay の incentive は後続名詞を修飾する。The payment is an incentive. は冠詞を伴う名詞句で語義1・2に属し、形容詞の叙述用法の例ではない。「その支払いは励みになる」なら The payment provides an incentive. などとし、通常 The payment is incentive. とはしない。more incentive pay の more は報奨給の量に関わり、incentive の比較級ではない。incentive scheme は英国でよく使われ、米国では incentive plan・incentive program も一般的。incentive travel を単なる出張と混同しない。  
+【語法・注意】通常は名詞の前に置き、very incentive・more incentive のように形容詞の程度比較はしない。incentive pay の incentive は後続名詞を修飾する。The payment is an incentive. は冠詞を伴う名詞句で語義1・2に属し、形容詞の叙述用法の例ではない。「その支払いは励みになる」なら The payment provides an incentive. などとし、通常 The payment is incentive. とはしない。more incentive pay の more は報奨給の量に関わり、incentive の比較級ではない。incentive scheme は英国でよく使われ、米国では incentive plan・incentive program も一般的。incentive travel を単なる出張と混同しない。  
 
 【類義語】
 
