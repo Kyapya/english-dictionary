@@ -145,7 +145,7 @@ tags: []
 ・set a quota for someone  
 用途: 誰がどれだけ達成すべきかを設定する。  
 例: The manager set a daily quota of 40 completed inspections for the team.  
-訳: 管理者は、チームに1日40件の検査を完了する定量を設定しました。  
+訳: 管理者は、チームに1日40件の検査を完了するノルマを設定しました。  
 
 ・meet one's quota  
 用途: 課された基準に達することを述べる。  

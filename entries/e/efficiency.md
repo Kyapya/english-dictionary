@@ -29,7 +29,7 @@ tags: []
 
 ＃コアイメージ
 
-核は「投入した時間・資源を、むだを抑えて成果につなげること」。語義4は efficiency apartment の短縮として定着した歴史的残存義で、住戸を指す語彙的意味はこの核だけから導けないため、個別に参照する。  
+核は「投入した時間・資源を、むだを抑えて成果につなげること」。語義4は efficiency apartment の短縮として定着した住居を表す用法で、住戸を指す語彙的意味はこの核だけから導けないため、個別に参照する。  
 
 ・むだを抑えて成果につなげる能力 → 「効率・能率・手際のよさ」（語義1）  
 
@@ -84,7 +84,7 @@ tags: []
 ・an efficiency drive  
 用途: 組織が進める効率化の取り組みを指す。  
 例: The agency launched an efficiency drive to reduce repetitive paperwork.  
-訳: その機関は、重複する書類作業を減らすための効率化運動を始めました。  
+訳: その機関は、繰り返し行う書類作業を減らすための効率化運動を始めました。  
 
 【語法・注意】一般的な性質としては improve efficiency とし、improve an efficiency とは通常しない。特定対象なら the efficiency of the process。形容詞を置く文は The process is efficient.、名詞を置く文は The process has high efficiency. で、The process is efficiency. は不可。efficiency はむだの少なさ、effectiveness は目的を達成する有効性。素早く安価に大量の案内を送れても、相手に行動してもらえなければ効率がよくても有効性は低いことがある。productivity は投入に対する産出量を重視し、単なる総生産量とも異なる。ruthless efficiency は情け容赦ない手際を表し、efficiency 自体が倫理的な称賛を含むわけではない。薬の効き目には通常 efficacy・effectiveness を使い、efficiency へ機械的に置き換えない。  
 
