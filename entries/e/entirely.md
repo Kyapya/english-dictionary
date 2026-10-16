@@ -200,3 +200,4 @@ entire「全体の、完全な」に、副詞を作る -ly が付いた語。ent
 違い: 完成・実行・記録などの完全性で対立する。entirely の資金源や原因の限定用法を、そのまま否定する語ではない。  
 例: The form was incompletely filled out.  
 訳: その用紙には記入漏れがあった。  
+
