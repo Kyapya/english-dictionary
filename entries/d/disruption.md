@@ -1,0 +1,230 @@
+---
+headword: disruption
+type: word
+status: checked
+prompt_version: entry_spec_v5
+model: gpt-6-astra
+created_at: 2026-10-16
+updated_at: 2026-10-16
+checked: true
+tags: []
+---
+
+＃発音記号
+
+米・英: /dɪsˈrʌp.ʃən/  
+3音節で第2音節に主強勢。第1音節は /dɪs/、第2音節は /rʌp/、第3音節は /ʃən/。disrupt の末尾 /pt/ に対し、名詞 disruption の該当部分は /pʃ/ となる。  
+
+＃語源
+
+中世ラテン語 disruptio「引き裂くこと・分裂」にさかのぼり、その基になるラテン語 disrumpere は dis-「離れて」と rumpere「壊す」からなる。同じ rumpere 系に rupture「破裂・断裂」と interrupt「中断する」がある。物理的なまとまりを壊すことから、活動の流れや既存の仕組みが崩れることにも使われる。  
+
+＃語形成
+
+・disrupt（他動詞）: 活動・供給・秩序などを乱す。ビジネスでは業界の仕組みを大きく変える。  
+・disruptive（形容詞）: 進行を妨げる、混乱を起こす。disruptive technology では既存市場を変える技術を指すことがある。  
+・disruptor / disrupter（可算名詞）: 秩序を乱す人・もの。ビジネスでは既存の市場を大きく変える企業・サービスなど。  
+・disruptively（副詞）: 進行を妨げるように、既存の秩序を乱す形で。  
+
+＃コアイメージ
+
+続いていた流れや保たれていたまとまりが崩れ、それまでの状態を維持できなくなること。困った中断にも、既存市場を変える動きにも、物理的な構造の破壊にも使える。  
+
+・まとまりが崩れる業務や生活の流れ → 「中断・混乱・支障」（語義1）  
+
+・まとまりが崩れる既存市場の仕組み → 「業界の構造変化・創造的な破壊」（語義2）  
+
+・まとまりが崩れる細胞などの構造 → 「破壊・断裂」（語義3）  
+
+＃意味・用法・関連表現
+
+1. 【名詞・不可算／可算】中断・混乱・支障
+
+【日本語訳・定義】活動・供給・生活などの通常の流れが乱され、いつもどおりに続けにくくなること。中断や遅れ、それによる混乱を指す。全面的な停止とは限らず、影響の大小や意図の有無も文脈によって異なる。  
+
+【頻度】〈8/10〉  
+
+【レジスター/領域】一般、報道、ビジネス、公共交通、顧客向け案内。  
+
+【文法パターン】disruption to 〈サービス・生活など〉＝それに生じる支障／disruption of 〈活動・供給〉＝活動・供給が乱されること／disruptions in 〈供給・サービス〉＝その過程で起こる中断／cause disruption＝混乱を起こす／minimize disruption＝支障を最小限にする／without disruption＝支障なく／a disruption to 〈予定・日課〉＝一つの中断・支障／supply chain disruption＝供給網の混乱。  
+
+【コロケーション・構文例】
+
+・disruption to 〈サービス・生活など〉  
+用途: 何に影響や支障が出るのかを to で示す。  
+例: The repairs may cause some disruption to train services.  
+訳: 修理により、列車の運行に多少の乱れが生じる可能性がある。  
+
+・disruption of 〈活動・供給〉  
+用途: 何の通常の流れが乱されるかを of で示す。  
+例: Disruption of the water supply forced the restaurant to close for the day.  
+訳: 水の供給が途絶えたため、そのレストランは当日の営業を取りやめざるを得なかった。  
+
+・disruptions in 〈供給・サービス〉  
+用途: 供給やサービスの過程で起きる複数の支障を述べる。  
+例: The manufacturer prepared for possible disruptions in the supply of spare parts.  
+訳: そのメーカーは、交換部品の供給に生じ得る支障に備えた。  
+
+・cause disruption  
+用途: 原因となる出来事が、通常の進行を乱すことを述べる。  
+例: The unexpected office closure caused considerable disruption.  
+訳: 予期せぬ事務所の閉鎖によって、大きな混乱が生じた。  
+
+・minimize disruption  
+用途: 作業に伴う利用者や業務への影響を抑える。  
+例: We will install the new equipment overnight to minimize disruption.  
+訳: 業務への支障を最小限にするため、新しい機器は夜間に設置します。  
+
+・without disruption  
+用途: 活動やサービスを通常どおり続けられることを示す。  
+例: The team completed the move without disruption to customer support.  
+訳: チームは、顧客サポートに支障を出さずに移転を終えた。  
+
+・a disruption to 〈予定・日課〉  
+用途: 特定の中断や予定の乱れを一件として捉える。  
+例: The sudden change was a major disruption to our delivery schedule.  
+訳: その急な変更は、当社の配送日程に大きな支障をもたらした。  
+
+・supply chain disruption  
+用途: 物資の調達から配送までの流れに生じる混乱を述べる。  
+例: Supply chain disruption delayed the arrival of essential components.  
+訳: 供給網の混乱で、不可欠な部品の到着が遅れた。  
+
+【語法・注意】混乱や影響全体をまとめるなら不可算の disruption、個々の出来事なら a disruption や disruptions が使える。some disruption、little disruption、severe disruption は不可算として自然。disruption to rail services と disruption of rail services はどちらも使え、to は影響先、of は乱される活動そのものを示しやすいが、固定的な意味の分担ではない。動詞 disrupt the service に対し、名詞では disruption to/of the service とする。disruption は名詞なので The works may disruption traffic. とは言わず、The works may disrupt traffic. とする。outage は供給・機能が使えない停止に焦点があり、disruption は遅延や予定の乱れまで含む。inconvenience「不便」は利用者が受ける不便さであり、必ず活動が乱れたことを意味するわけではない。business disruption は通常、業務への支障を指し、語義2の革新による市場変化とは文脈で区別する。  
+
+【類義語】
+
+・interruption  
+定義: 続いていた活動や供給が途中で途切れること。  
+頻度: 〈8/10〉  
+違い: 流れが一時的に切れる点が中心。disruption は停止しなくても、運営や予定が乱れて支障が生じることを含む。  
+例: There was a brief interruption in the video call.  
+訳: ビデオ通話が短時間途切れた。  
+
+・disturbance  
+定義: 平穏・秩序・通常の状態を乱すこと。  
+頻度: 〈7/10〉  
+違い: 騒音や騒ぎ、睡眠や平穏への影響を表しやすい。disruption は業務・交通・供給などの進行に支障を与える面を強調する。  
+例: The hotel apologized for the disturbance caused by the construction noise.  
+訳: ホテルは、工事の騒音で迷惑をかけたことを謝罪した。  
+
+・dislocation  
+定義: 経済や社会の仕組みが大きく乱されること。  
+頻度: 〈4/10〉  
+違い: 制度・地域社会・産業などの大きな構造的混乱を表す硬い語。disruption は小規模な日程の乱れにも使える。  
+例: The factory closures caused economic dislocation in the region.  
+訳: 工場の閉鎖によって、その地域の経済に大きな混乱が生じた。  
+
+・upheaval  
+定義: 生活や組織などを大きく揺るがす急激な変化・混乱。  
+頻度: 〈6/10〉  
+違い: 影響の大きさと、それまでの状態が変わってしまうことを強調する。disruption は短時間の軽い支障にも使える。  
+例: The relocation caused considerable upheaval for the staff and their families.  
+訳: その転勤により、職員とその家族の生活は大きく変わり、混乱した。  
+
+2. 【名詞・主に不可算】業界の構造変化・創造的な破壊
+
+【日本語訳・定義】新しい技術・製品・事業モデルなどが、業界や市場の既存の仕組みを大きく変えること。革新を推進する立場から肯定的に述べる場合も、既存企業への脅威として述べる場合もある。単なる業務停止や小さな改善とは異なる。  
+
+【頻度】〈5/10〉  
+
+【レジスター/領域】ビジネス、経営、技術、スタートアップ関連の報道・論説。  
+
+【文法パターン】digital disruption＝デジタル技術による既存市場の変化／technological disruption＝技術革新による構造変化／disruption of 〈業界・事業モデル〉＝その仕組みを変えること／disruption in 〈業界〉＝その業界に起きる構造変化／respond to disruption＝市場の構造変化に対応する。  
+
+【コロケーション・構文例】
+
+・digital disruption  
+用途: デジタル技術によって従来の商習慣や収益構造が変わることを述べる。  
+例: Digital disruption has forced traditional publishers to rethink how they reach readers.  
+訳: デジタル技術による業界の構造変化で、従来型の出版社は読者への届け方を見直さざるを得なくなった。  
+
+・technological disruption  
+用途: 新技術が既存の事業の仕組みを揺さぶることを示す。  
+例: The strategy considers technological disruption from low-cost automated services.  
+訳: その戦略では、低価格の自動化サービスがもたらす技術的な構造変化を考慮している。  
+
+・disruption of 〈業界・事業モデル〉  
+用途: どの業界や仕組みが新しい競争によって変わるかを示す。  
+例: The report examines the disruption of traditional retail by direct-to-consumer brands.  
+訳: その報告書は、消費者に直接販売するブランドが従来の小売業をどう変えているかを検討している。  
+
+・disruption in 〈業界〉  
+用途: 構造変化が生じる業界を in で示す。  
+例: New payment platforms are driving disruption in the financial services industry.  
+訳: 新しい決済プラットフォームが、金融サービス業界の構造変化を推し進めている。  
+
+・respond to disruption  
+用途: 新規事業者や新技術による市場変化への対応を述べる。  
+例: Established firms must respond to disruption from cheaper subscription services.  
+訳: 既存企業は、より安価な定額制サービスがもたらす市場変化に対応しなければならない。  
+
+【語法・注意】digital disruption を単純に「デジタル機器の障害」と訳さない。この語義では、新しい技術や事業モデルが既存企業の競争条件を変えることが中心。語義1の disruption caused by a system failure はシステム故障による業務の支障である。肯定的に用いられることはあるが、disruption だけで全員に有益な変化と保証するわけではない。経営理論の disruptive innovation「破壊的イノベーション」は、従来十分にサービスを受けていなかった市場などに入り、既存企業に挑戦していく過程を扱う。一般のビジネス記事では disruption をより広い業界変化に使うため、すべての革新を理論上の破壊的イノベーションと同一視しない。  
+
+【類義語】
+
+・transformation  
+定義: 事業や産業のあり方が大きく変わること。  
+頻度: 〈7/10〉  
+違い: 変化の大きさに焦点があり、既存企業への挑戦や従来の仕組みを崩すことは必須ではない。disruption はその既存の秩序が揺さぶられる面を強調する。  
+例: Online platforms accelerated the transformation of the travel industry.  
+訳: オンラインプラットフォームが、旅行業界の変革を加速させた。  
+
+・upheaval  
+定義: 市場や産業の既存の構造を大きく揺るがす変化。  
+頻度: 〈5/10〉  
+違い: 大きな動揺・混乱を強調する。disruption は革新的な事業機会として前向きに語られることもある。  
+例: The rise of new competitors triggered upheaval in the telecommunications market.  
+訳: 新たな競争相手の台頭で、通信市場に大きな変動が起きた。  
+
+・revolution  
+定義: 技術や産業の仕組みを根本から変える大きな変革。  
+頻度: 〈6/10〉  
+違い: 変革の根本性・規模を強く押し出す。disruption は特定の既存市場や企業の立場を変えることにも使い、業界全体の革命を必ず意味しない。  
+例: Affordable sensors brought a revolution in industrial monitoring.  
+訳: 手頃な価格のセンサーが、産業分野の監視技術に革命的な変化をもたらした。  
+
+3. 【名詞・通常不可算】破壊・断裂
+
+【日本語訳・定義】物理的に一体となっていた構造が壊れたり引き裂かれたりすること。生物学・実験技術では、細胞や膜などの構造を壊すことを指す。必要な実験操作を表す場合もあり、常に望ましくない事故を意味するわけではない。  
+
+【頻度】〈3/10〉  
+
+【レジスター/領域】専門。生物学、実験技術など。  
+
+【文法パターン】cell disruption＝細胞破砕／disruption of 〈膜・構造〉＝その物理的構造の破壊／mechanical disruption＝機械的な力による破砕。  
+
+【コロケーション・構文例】
+
+・cell disruption  
+用途: 細胞の構造を壊して内部成分を取り出す段階などを述べる。  
+例: Cell disruption releases proteins into the surrounding solution.  
+訳: 細胞を破砕すると、タンパク質が周囲の溶液中へ放出される。  
+
+・disruption of 〈膜・構造〉  
+用途: 物理的に壊れる対象を of で示す。  
+例: The images showed disruption of the cell membranes after treatment.  
+訳: 画像では、処理後に細胞膜の構造が壊れていることが確認された。  
+
+・mechanical disruption  
+用途: 力を加えて構造を壊すことを述べる。  
+例: The laboratory compared two methods of mechanical disruption of plant cells.  
+訳: その研究室は、植物細胞を機械的に破砕する2つの方法を比較した。  
+
+【語法・注意】cell disruption は、一般的な業務の混乱を表す語義1とは訳し分ける。一方、disruption of cell function は「細胞機能の阻害・乱れ」であり、構造自体の物理的破壊を必ず意味しない。of 以下が膜や構造を指すか、働きや過程を指すかを確認する。disruption は破壊・断裂に焦点があり、何かが完全に溶けることや、全成分が分解されることまで自動的に意味しない。  
+
+【類義語】
+
+・rupture  
+定義: 膜などが裂けたり破れたりすること。  
+頻度: 〈4/10〉  
+違い: 裂け目や破れが生じることを強調する。disruption は構造がまとまりを失うことをより広く表せる。  
+例: Rupture of the membrane allowed the contents to escape.  
+訳: 膜が破れたことで、内容物が外へ出た。  
+
+・lysis  
+定義: 細胞の膜などが壊れ、細胞内容物が放出されること。  
+頻度: 〈3/10〉  
+違い: 細胞を対象とする生物学の専門語で、cell disruption と重なる。disruption は細胞以外の物理的な構造にも使える。  
+例: The researchers measured protein release after cell lysis.  
+訳: 研究者たちは、細胞溶解後のタンパク質の放出量を測定した。  
