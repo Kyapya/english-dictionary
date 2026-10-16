@@ -17,7 +17,7 @@ tags: []
 
 ＃語源
 
-中英語を経て、古フランス語 replenir「満たす・再び満たす」の語幹 repleniss- に由来する。re- は「再び」や強意、後半はラテン語 plenus「満ちた」にさかのぼる。古い英語では単に「十分に満たす」という意味もあったが、現代の中心は、減ったものを補って量や力を戻すこと。同じ plenus 系に replete「満ちた」、plenty「十分な量」がある。  
+中英語を経て、古フランス語 replenir「満たす・再び満たす」の語幹 repleniss- に由来する。re- は「再び」や強意、後半はラテン語 plenus「満ちた」にさかのぼる。古い英語では単に「十分に満たす」という意味もあったが、現代の中心は、減ったものを補って量や力を戻すこと。「満ちる・満たす」に関わる同根語に replete「満ちた」、plenty「十分な量」がある。  
 
 ＃語形成
 
@@ -92,7 +92,7 @@ tags: []
 ・replenish itself  
 用途: 自然の仕組みなどによって自ら回復することを表す。  
 例: The soil needs time to replenish itself between crops.  
-訳: 土壌が力を取り戻すには、作物を育てる間に時間を置く必要がある。  
+訳: 土壌が力を取り戻すには、一作を終えて次の作物を育てるまでに時間を置く必要がある。  
 
 【語法・注意】目的語を直接置く他動詞が基本で、「在庫を補充する」は replenish the inventory とし、replenish to the inventory とはしない。replenish the water supply は補充するものが目的語、replenish the tank with water は補充先が目的語で、with 以下は中身を示す。目的語と中身の関係を逆にしない。stock は在庫全体として不可算にも、種類別の蓄えを stocks と複数形にもできる。replenish は「補う」のであり、partially replenish や gradually replenish のように、完全回復に達しない段階にも使える。資金や体力への用法も、減った蓄えを戻すという同じ中心義で理解できる。be replenished は受動態として使え、with は補充物、by は補充する人・原因を導く。freshly replenished shelves「補充したばかりの棚」の replenished は動詞から予測できる状態表現で、独自の評価的な形容詞義ではない。replenish itself は主語が自らの蓄えを回復する再帰構文で、is replenished は外から補充される受動構文。後者を itself を省略した形とは考えない。replenish は日常の人について「元気になる」と言う最も普通の語ではなく、単に休んで回復するなら recover や recharge one's batteries も使う。  
 
@@ -113,7 +113,7 @@ tags: []
 訳: 会議の前に給水器の水を補充してもらえますか。  
 
 ・top up  
-定義: 減った量に少し足し、必要な水準まで補う。  
+定義: 減った分を足し、必要な水準まで補う。  
 頻度: 〈6/10〉  
 違い: 特に英語圏の英国系用法で、飲み物・燃料・残高などへの追加を表す。replenish より口語的で、もともと残っている量への継ぎ足しを意識しやすい。  
 例: I topped up the printer's paper tray before leaving.  

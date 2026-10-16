@@ -113,7 +113,7 @@ tags: []
 
 【レジスター/領域】一般、職場、行事運営。日常の大きな旅行や引っ越しにも使う。  
 
-【文法パターン】the logistics of 〈計画・行為を表す名詞／動名詞句〉＝それを実施する段取り／the logistics for 〈行事〉＝その行事に向けた手配／handle the logistics＝段取りを担当する／work out the logistics＝具体的な手配を詰める／the logistics are/is 〈形容詞〉＝段取りがその状態にある。  
+【文法パターン】the logistics of 〈計画・行為を表す名詞または動名詞句〉＝それを実施する段取り／the logistics for 〈行事〉＝その行事に向けた手配／handle the logistics＝段取りを担当する／work out the logistics＝具体的な手配を詰める／the logistics are/is 〈形容詞〉＝段取りがその状態にある。  
 
 【コロケーション・構文例】
 
@@ -192,12 +192,12 @@ tags: []
 ・logistics operations  
 用途: 部隊を支える具体的な兵站活動を指す。  
 例: The exercise tested logistics operations under winter conditions.  
-訳: その演習では、冬季の条件下での兵站活動を試した。  
+訳: その演習では、冬季の条件下での兵站活動を検証した。  
 
 ・a logistics unit  
 用途: 補給・輸送などを担当する部隊を指す。  
 例: A logistics unit delivered food and fuel to the troops.  
-訳: 兵站部隊が部隊に食料と燃料を届けた。  
+訳: 兵站部隊が兵士たちに食料と燃料を届けた。  
 
 【語法・注意】この意味でも logistics は一つずつ数える名詞ではなく、a logistics unit の a は unit に付く。logistics support と logistical support はどちらも使われる。logistics support は民間の輸送支援にも使えるため、単独で必ず軍事用語と判断せず、troops、battalion などの文脈を確認する。日本語の「後方」は任務上の支援を表しており、必ず安全な後方地域で行うという意味を語そのものに含めない。  
 

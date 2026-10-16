@@ -13,7 +13,7 @@ tags: []
 ＃発音記号
 
 米: /liˈeɪ.zɑːn/｜英: /liˈeɪ.zən/  
-上記は3音節で、第2音節 /eɪ/ に主強勢がある。米英差は第3音節の母音 /ɑː/ と /ə/。米語には /ˈliː.ə.zɑːn/ もあり、この形では第1音節の母音が /iː/、第2音節の母音が /ə/ になり、主強勢も第1音節へ移る。複数形 liaisons の語尾は /z/。綴りは liaison で、liason と i を一つ落とさない。  
+上記は3音節で、第2音節 /eɪ/ に主強勢がある。ここに示した米英の発音形では、第3音節の母音が /ɑː/ と /ə/ で異なる。米語には /ˈliː.ə.zɑːn/ もあり、この形では第1音節の母音が /iː/、第2音節の母音が /ə/ になり、主強勢も第1音節へ移る。複数形 liaisons の語尾は /z/。綴りは liaison で、liason と i を一つ落とさない。  
 
 ＃語源
 
@@ -71,7 +71,7 @@ tags: []
 ・maintain a close liaison with someone  
 用途: 継続的な連絡関係を保つことを述べる。  
 例: The office maintains a close liaison with the regional transport agency.  
-訳: その事務所は、地域の交通機関と緊密な連絡関係を保っている。  
+訳: その事務所は、地域の交通担当機関と緊密な連絡関係を保っている。  
 
 ・be responsible for liaison with someone  
 用途: 誰が連絡調整を担当するか説明する。  
@@ -183,14 +183,14 @@ tags: []
 
 【レジスター/領域】文章語、報道、文学。日常の恋人関係には relationship などが一般的。  
 
-【文法パターン】have a liaison with someone＝人と情事・恋愛関係を持つ／a romantic / sexual liaison＝恋愛関係・性的関係／a secret liaison＝秘密の情事／end a liaison＝情事を終わらせる。  
+【文法パターン】have a liaison with someone＝人と情事に及ぶ・恋愛関係を持つ／a romantic / sexual liaison＝恋愛関係・性的関係／a secret liaison＝秘密の情事／end a liaison＝情事を終わらせる。  
 
 【コロケーション・構文例】
 
 ・have a liaison with someone  
 用途: 誰との親密な関係かを示す。  
 例: The novel reveals that the ambassador had a liaison with a married journalist.  
-訳: その小説では、大使が既婚の記者と情事を持っていたことが明かされる。  
+訳: その小説では、大使が既婚の記者と関係を持っていたことが明かされる。  
 
 ・a romantic liaison  
 用途: 恋愛上の関係であることを明示する。  
