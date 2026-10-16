@@ -453,3 +453,4 @@ exact「正確な、厳密な」に、副詞を作る -ly が付いた語。exac
 違い: not exactly より強く明示的に否定する表現。後ろに形容詞や名詞句を置く。  
 例: The instructions were anything but clear.  
 訳: その説明書は、分かりやすいとは到底いえなかった。  
+
