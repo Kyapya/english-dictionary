@@ -1,0 +1,288 @@
+---
+headword: whom
+type: word
+status: review_ready
+prompt_version: entry_spec_v5
+model: gpt-6-astra xhigh
+created_at: 2026-10-17
+updated_at: 2026-10-17
+checked: false
+---
+
+＃発音記号
+
+米・英: /huːm/  
+
+・1音節で、母音は who /huː/ と同じ /uː/。語末では唇を閉じて /m/ を発音する。who との重要な違いは、この語末の /m/ である。  
+・綴りの w は発音しない。強調しない連続発話では /h/ が弱まることもあるが、学習時は上の形を基本にするとよい。  
+
+＃語源
+
+古英語 hwā「誰」の与格形 hwām に由来する。もともと「誰に」などを表した形が、格変化の整理に伴って、動詞の目的語と前置詞の目的語の両方に使われる形になった。現代英語では who の目的格に当たるが、一般的な会話では目的語にも who を使うことが多い。  
+
+直接関係する語は who「誰、～する人」と whose「誰の、その人の」。ドイツ語の wer「誰が」と wem「誰に」にも、同じゲルマン語系の代名詞の格の対立が残っている。英語の whom を、意味の似た別の名詞から作られた語として覚える必要はない。  
+
+＃語形成
+
+・whomever：whom に ever を加えた形。「誰を選んでも」「～する人なら誰でも」などを表し、改まった格の区別では節内の目的語に使う。日常的には目的語にも whoever が広く使われる。  
+・whomsoever：whomever に相当する、さらに古風・形式的な形。普通の会話の第一選択にはしない。  
+
+＃コアイメージ
+
+「人を、動詞や前置詞の目的語として指す形」。その人の身元を尋ねるか、先に出た人を説明するか、条件に当てはまる人を指すかで使い方が変わる。これは文法上の役割であり、現実の動作の受け手だけに限られるわけではない。  
+
+・目的語となる人への説明の付加 → 「その人を・その人に」（語義1）  
+
+・目的語となる人の身元への疑問 → 「誰を・誰に」（語義2）  
+
+・目的語となる関係者への呼びかけ → 「関係者各位」（語義3）  
+
+・目的語となる人の自由な選択 → 「～する人なら誰でも」（語義4）  
+
+＃意味・用法・関連表現
+
+1. 【関係代名詞・目的格】その人を・その人に
+
+【日本語訳・定義】人を表す先行詞を受け、その人が関係節の中で動詞または前置詞の目的語になることを示す。「私が会った人」のように人物を絞り込む用法と、「彼女には以前会ったことがあるが」のように補足情報を加える用法がある。日本語の助詞は、英語の動詞・前置詞の意味に応じて「を・に・と・について」などになる。  
+
+【頻度】〈7/10〉  
+
+【レジスター/領域】主に書き言葉・改まった文体。前置詞の直後や some of whom などでは特に重要。日常会話の制限用法では who、that、または関係代名詞を省略する形が普通。  
+
+【文法パターン】〈人を表す先行詞〉 + whom + 〈主語〉 + 〈動詞〉＝動詞の目的語／〈人を表す先行詞〉 + whom + 〈主語〉 + 〈動詞〉 + 〈前置詞〉＝前置詞の目的語を前に出し、前置詞を後ろに残す／〈人を表す先行詞〉 + 〈前置詞〉 + whom + 〈主語〉 + 〈動詞〉＝前置詞も一緒に前へ出す／〈人〉, whom + 〈主語〉 + 〈動詞〉,＝補足情報を加える非制限用法／〈複数の人〉, some/both/all/none of whom + 〈述語〉＝集団の一部・全部について補足／〈人〉 + whom + 〈主語〉 + expect/believe + to 〈動詞原形〉＝目的格の人が不定詞の意味上の主語でもある。  
+
+【コロケーション・構文例】
+
+・the person whom 〈主語〉 + 〈動詞〉  
+用途: 動詞の目的語となる人物を、関係節で絞り込む。  
+例: The person whom you met yesterday is our legal adviser.  
+訳: あなたが昨日会った人は、私たちの法律顧問です。  
+
+・someone whom 〈主語〉 + can trust  
+用途: 信頼できる人物が必要であることを述べる。  
+例: We need someone whom the whole team can trust.  
+訳: チーム全員が信頼できる人が必要です。  
+
+・the colleague whom 〈主語〉 + 〈動詞〉 + about  
+用途: about を後ろに残して、話題にした人物を示す。  
+例: She is the colleague whom I was telling you about.  
+訳: 彼女が、私があなたに話していた同僚です。  
+
+・with whom 〈主語〉 + 〈動詞〉  
+用途: with を前に出して、一緒に活動した相手を示す。  
+例: He is the consultant with whom we worked last year.  
+訳: 彼は、私たちが昨年一緒に仕事をしたコンサルタントです。  
+
+・to whom 〈主語〉 + 〈動詞〉  
+用途: 行為の受け手・送付先などを示す。  
+例: Please identify the person to whom the payment was made.  
+訳: 支払先の人物を特定してください。  
+
+・〈人名〉, whom 〈主語〉 + 〈動詞〉,  
+用途: すでに特定された人物について、補足情報を加える。  
+例: Maria, whom I had met only once before, greeted me warmly.  
+訳: マリアとは以前一度しか会ったことがありませんでしたが、彼女は私を温かく迎えてくれました。  
+
+・some of whom  
+用途: 先に出た集団の一部について補足する。  
+例: The course attracted thirty students, some of whom had no previous experience.  
+訳: その講座には30人の学生が集まり、そのうち何人かは未経験でした。  
+
+・both of whom  
+用途: 先に出た二人の両方に当てはまる情報を加える。  
+例: I spoke to two assistants, both of whom recommended the same model.  
+訳: 店員二人に相談したところ、二人とも同じモデルを勧めてくれました。  
+
+・one of whom  
+用途: 集団の中の一人について補足する。  
+例: Three engineers inspected the machine, one of whom had designed it.  
+訳: 技術者三人が機械を点検しましたが、そのうちの一人はその機械の設計者でした。  
+
+・none of whom  
+用途: 先に出た集団の誰にも当てはまらないことを示す。  
+例: There were several witnesses, none of whom could identify the driver.  
+訳: 目撃者は数人いましたが、誰も運転手を特定できませんでした。  
+
+・whom 〈主語〉 + expect to 〈動詞原形〉  
+用途: 不定詞の意味上の主語となる人物を、目的格で表す。  
+例: She is the candidate whom we expect to win the election.  
+訳: 彼女は、私たちが選挙に勝つと予想している候補者です。  
+
+【語法・注意】格を区別する改まった文体では、関係節内の主語なら who、目的語なら whom とする。the man who saw me は「私を見た男性」、the man whom I saw は「私が見た男性」。whom を単に「who の丁寧形」として主語にも使わない。  
+
+・制限用法で動詞や後置された前置詞の目的語なら、関係代名詞は省略できる。the person whom I met → the person I met、the person whom I spoke to → the person I spoke to。  
+・前置詞を whom の前に置いた場合は省略できない。○ the person to whom I spoke／× the person to I spoke。that にも置き換えられない。  
+・非制限用法では省略せず、that も使わない。○ Maria, whom I met yesterday, ...／× Maria, I met yesterday, ...／× Maria, that I met yesterday, ...。目的語の who を用いる Maria, who I met yesterday, ... は使える。  
+・the person whom I spoke to は文法的である。前置詞を文末に置くことを誤りとせず、会話的な the person I spoke to、改まった the person to whom I spoke と文体を使い分ける。  
+・some of whom 全体が後続節の主語でも、whom 自体は of の目的格である。one of whom was... は単数、both of whom were... は複数となる。all of whom、many of whom、neither of whom なども同じ仕組みで、改まった標準形では of who や of that にしない。  
+・whom と同じ人を指す目的語を重ねない。× the person whom I met him／○ the person whom I met。  
+・the person who I thought was responsible では who が was responsible の主語。the person whom I believed to be responsible では、通常の語順に戻すと I believed him to be responsible となる。この違いを、whom の直後に別の主語があるかどうかだけで判断しない。  
+・所有関係なら whose を使う。× the person whom car was stolen／○ the person whose car was stolen「車を盗まれた人」。人として扱うペットなどに who/whom を用いる場合もあるが、一般の物を説明する基本形は which または that。  
+
+【類義語】
+
+・who  
+定義: 人を説明する関係節を導き、主語にも、一般的な現代英語では目的語にも使う代名詞。  
+頻度: 〈10/10〉  
+違い: whom より日常的。前置詞を関係代名詞の直前に置く改まった構文では whom を使う。  
+例: She is the researcher who I mentioned earlier.  
+訳: 彼女が、私が先ほど言及した研究者です。  
+
+・that  
+定義: 人や物を絞り込む制限用法の関係節を導く代名詞。  
+頻度: 〈10/10〉  
+違い: 日常的な制限用法では whom と重なるが、コンマで区切る非制限用法や、前置詞の直後では使えない。  
+例: He is the person that everyone trusts.  
+訳: 彼は誰もが信頼している人物です。  
+
+2. 【疑問代名詞・目的格】誰を・誰に
+
+【日本語訳・定義】動詞や前置詞の目的語となる人物の身元を尋ねる。「誰を」「誰に」「誰と」「誰について」など。直接の疑問文だけでなく、「誰を選んだか分からない」のような間接疑問や、「誰に連絡すべきか」を表す whom to contact のような形にも使う。単数・複数のどちらの人物も尋ねられる。  
+
+【頻度】〈6/10〉  
+
+【レジスター/領域】フォーマル。案内・業務文書・改まった質問など。会話では目的語にも who が広く使われ、それ自体は誤りではない。  
+
+【文法パターン】Whom + 〈助動詞〉 + 〈主語〉 + 〈動詞〉?＝動詞の目的語を尋ねる／〈前置詞〉 + whom + 〈助動詞またはbe動詞〉 + 〈主語〉...?＝前置詞を先頭に置く／Whom + 〈助動詞〉 + 〈主語〉 + 〈動詞〉 + 〈前置詞〉?＝前置詞を後ろに残す／ask/know/wonder + whom + 〈主語〉 + 〈動詞〉＝倒置しない間接疑問／know/decide + whom to 〈動詞原形〉＝誰を対象に行動すべきか／depend on + whom + 〈主語〉 + 〈動詞〉＝誰を選ぶかなどによって決まる／To whom?＝短く「誰に」と聞き返す。  
+
+【コロケーション・構文例】
+
+・Whom should I contact?  
+用途: 問い合わせる相手を改まった形で尋ねる。  
+例: Whom should I contact about the application?  
+訳: その申請については誰に連絡すればよいでしょうか。  
+
+・To whom should 〈主語〉 + be addressed?  
+用途: 文書の宛先を尋ねる。  
+例: To whom should the letter be addressed?  
+訳: その手紙は誰宛てにすればよいですか。  
+
+・By whom was 〈主語〉 + 〈過去分詞〉?  
+用途: 受動文で、誰がその行為をしたのか尋ねる。  
+例: By whom was the document signed?  
+訳: その文書に署名したのは誰ですか。  
+
+・Whom were you speaking to?  
+用途: 前置詞を文末に残し、会話の相手を尋ねる。  
+例: Whom were you speaking to at the reception?  
+訳: レセプションでは誰と話していたのですか。  
+
+・Whom do you think 〈主語〉 + 〈動詞〉?  
+用途: 後続の節で目的語となる人物を尋ねる。  
+例: Whom do you think they will nominate?  
+訳: 彼らは誰を指名すると思いますか。  
+
+・Whom do you expect to 〈動詞原形〉?  
+用途: expect の後の不定詞の意味上の主語を尋ねる。  
+例: Whom do you expect to win the award?  
+訳: 誰がその賞を受賞すると予想していますか。  
+
+・ask whom 〈主語〉 + 〈動詞〉  
+用途: 誰を対象にしたかという質問を、間接疑問で伝える。  
+例: She asked whom I had invited to the reception.  
+訳: 彼女は、私がレセプションに誰を招待したのか尋ねました。  
+
+・know whom to contact  
+用途: 連絡すべき相手を知っているか尋ねる。  
+例: Do you know whom to contact in an emergency?  
+訳: 緊急時に誰に連絡すべきか知っていますか。  
+
+・decide whom to interview  
+用途: 面接する相手を決める。  
+例: The panel must decide whom to interview first.  
+訳: 審査委員会は、最初に誰を面接するか決めなければなりません。  
+
+・depend on whom 〈主語〉 + 〈動詞〉  
+用途: 結果が、ある人物を対象とする選択・判断によって変わると述べる。  
+例: The outcome may depend on whom the voters believe.  
+訳: 結果は、有権者が誰を信じるかによって決まる可能性があります。  
+
+・To whom?  
+用途: 直前の発言で明示されなかった相手を聞き返す。  
+例: “I sent a copy of the report.” “To whom?”  
+訳: 「報告書の写しを送りました」「誰にですか」  
+
+【語法・注意】who/whom を選ぶには、その人物を普通の語順の文に戻して考えるとよい。They chose him. なら Whom did they choose?、He called. なら Who called?。ただし単に日本語が「誰が」か「誰を」かを見る方法では正しく判断できない。  
+
+・Whom do you expect to win? は I expect him to win. に対応する。日本語では「誰が勝つと思うか」でも、英語では him に対応する目的格。一方 Who do you think will win? は I think he will win. に対応し、who が will win の主語なので、改まった文章で格を区別するなら whom にしない。  
+・主語を尋ねる Who is responsible? や Who is calling? を、丁寧にしようとして Whom is responsible?、Whom is calling? に変えない。  
+・直接疑問では Whom did she invite?、間接疑問では I asked whom she had invited.。× I asked whom had she invited. のように間接疑問で倒置しない。  
+・whom to contact の to は不定詞の標識、to whom の to は前置詞。I don’t know whom to speak to. では、最初の to が不定詞、最後の to が speak to の前置詞である。  
+・前置詞のすぐ後ろに見えても、後続節全体が前置詞の補語なら、節内部の役割を見る。It depends on who calls first. では who が calls の主語なので、on を理由に whom に変えない。  
+・Whom did you speak to? も To whom did you speak? も使える。会話では Who did you speak to? が普通で、前置詞を最後に置くことは誤りではない。  
+・単純に人物の身元を尋ねるときは who/whom、候補の範囲を限定して「どの人」と尋ねるときは which person も使える。whom は名詞を直接修飾する限定詞ではないので、× whom person とはしない。  
+・語義1との違いは、I know whom she invited. が「誰を招待したか」という疑問の答えを知っていることを表すのに対し、I know the person whom she invited. は「彼女が招待した人物」と知り合いであることを表す点にある。  
+
+【類義語】
+
+・who  
+定義: 人の身元を尋ねる疑問代名詞。現代英語では主語・目的語の両方に広く使う。  
+頻度: 〈10/10〉  
+違い: whom より日常的で、間接疑問や who to ask のような形にも使える。改まった前置詞前置の構文では whom が標準形。  
+例: I’m not sure who to ask for help.  
+訳: 誰に助けを求めればよいのか分かりません。  
+
+3. 【関係代名詞を含む定型句：To whom it may concern】関係者各位
+
+【日本語訳・定義】具体的な宛先の氏名が分からない、または特定の一人宛てではない正式な書簡・証明書などの冒頭で、関係する相手に呼びかける表現。「ご担当者様」「関係者各位」など、文書の用途に合う日本語にする。  
+
+【頻度】〈5/10〉  
+
+【レジスター/領域】フォーマルな書簡・証明書・推薦状など。会話の挨拶ではない。  
+
+【文法パターン】To whom it may concern: + 〈本文〉＝文書の冒頭に置く固定的な呼びかけ。本文は通常、改行して続ける。文書の慣例によってコロンの代わりにコンマを用いることもある。  
+
+【コロケーション・構文例】
+
+・To whom it may concern:  
+用途: 特定の受取人を指定しない証明文の冒頭に置く。  
+例: To whom it may concern: This letter confirms that Ms. Lee worked for our company for five years.  
+訳: ご担当者様。本書は、リー氏が当社に5年間勤務したことを証明するものです。  
+
+【語法・注意】whom it may concern は「この文書が関係する人」という、先行詞を明示しない関係表現。whom は concern の目的語に当たる。concern はここでは「心配させる」ではなく、「関係する」という意味である。  
+
+・定型句なので、通常 To who it may concern に変えない。また、直接の質問ではないため、To whom may it concern? のように倒置しない。  
+・受取人の氏名・役職・部署が分かっていれば、それを宛名に使うほうが相手を明確にできる。この句は、あらゆる業務メールに付ける万能の敬称ではない。  
+
+4. 【関係代名詞・先行詞のない自由選択表現】～する人なら誰でも
+
+【日本語訳・定義】Invite whom you like. のように、明示的な先行詞を置かず、条件に合う人物を自由に選ぶことを表す用法。whom を含むまとまり全体が「あなたの好きな人」などに相当し、主文の目的語になる。この単純形の用法は限られており、現代では whoever/whomever や、先行詞を示す anyone whom などを使うことも多い。  
+
+【頻度】〈3/10〉  
+
+【レジスター/領域】whom を用いる形は硬い文体。特に like、want、choose などと自由選択を表す構文で見られる。  
+
+【文法パターン】invite whom you like＝好きな人なら誰でも招待する／choose whom you want＝望む人を自由に選ぶ。whom は like/want などの目的語に当たり、whom を含む節全体は invite/choose の目的語となる。  
+
+【コロケーション・構文例】
+
+・invite whom you like  
+用途: 招く人物の選択を相手に任せる。  
+例: You may invite whom you like to the reception.  
+訳: レセプションには、あなたの好きな人を招待して構いません。  
+
+・choose whom you want  
+用途: 選択条件を制限せず、望む人物を選ばせる。  
+例: Choose whom you want as your partner.  
+訳: あなたが望む人をパートナーに選んでください。  
+
+【語法・注意】「先行詞なしの whom は、どんな関係節でも自由に作れる」と一般化しない。普通に「私が昨日会った人」と言うなら the person whom I met yesterday などとし、whom だけで一般的な名詞句の代わりをさせない。  
+
+・choose whom to invite は語義2の「誰を招待するかを決める」という間接疑問。invite whom you like は、この語義の「好きな人を招待する」という自由選択で、構造と意味が異なる。  
+・whoever/whomever を使うときも、格を区別する文体では節内部を見る。Give it to whoever needs it. では whoever が needs の主語、Invite whomever you like. では whomever が like の目的語。外側の to や invite だけを基準に決めない。  
+
+【類義語】
+
+・whomever  
+定義: 条件に合う人物なら誰でも、という自由選択を目的格で表す代名詞。  
+頻度: 〈4/10〉  
+違い: ever によって自由選択を明示する。単純形 whom より幅広い自由関係表現に使えるが、やはり硬い響きがある。  
+例: You may invite whomever you wish.  
+訳: あなたが望む人なら誰を招待しても構いません。  
+
+・whoever  
+定義: 条件に合う人なら誰でも、という意味で人物を指す代名詞。  
+頻度: 〈8/10〉  
+違い: 主語に使うほか、一般的な現代英語では目的語にも広く使う。whom/whomever より日常的。  
+例: Choose whoever you like.  
+訳: あなたの好きな人を選んでください。  
