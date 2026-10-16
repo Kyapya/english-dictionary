@@ -17,7 +17,7 @@ tags: []
 
 ＃語源
 
-absentee「不在者」に、慣行・状態などを表す -ism を付けた語。初期には、とりわけアイルランドなどで領地を離れて暮らす地主の不在を指し、後に労働者や生徒の欠勤・欠席にも使われた。absent はラテン語 abesse「離れた所にいる」に由来し、ab-「離れて」と esse「ある」が背景にある。absence「不在」と absentee「不在者」もこの系統。  
+absentee「不在者」に、慣行・状態などを表す -ism を付けた語。初期には、とりわけアイルランドなどで領地を離れて暮らす地主の不在を指し、後に労働者や生徒の欠勤・欠席にも使われた。absent はフランス語を経て、ラテン語 abesse「離れた所にいる」の現在分詞 absens（語幹 absent-）に由来する。ab-「離れて」と esse「ある」が背景にある。absence「不在」と absentee「不在者」もこの系統。  
 
 ＃語形成
 
@@ -43,7 +43,7 @@ absentee「不在者」に、慣行・状態などを表す -ism を付けた語
 ・absenteeism from work  
 用途: 職場を繰り返し休むことを述べる。  
 例: The survey examined the causes of absenteeism from work.  
-訳: その調査では、職場で欠勤が生じる原因を調べた。  
+訳: その調査では、欠勤の原因を調べた。  
 
 ・absenteeism among 〈集団〉  
 用途: どの集団の欠勤・欠席を扱うか示す。  

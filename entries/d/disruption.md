@@ -58,7 +58,7 @@ tags: []
 ・disruption of 〈活動・供給〉  
 用途: 何の通常の流れが乱されるかを of で示す。  
 例: Disruption of the water supply forced the restaurant to close for the day.  
-訳: 水の供給が途絶えたため、そのレストランは当日の営業を取りやめざるを得なかった。  
+訳: 水の供給に支障が生じたため、そのレストランは当日の営業を取りやめざるを得なかった。  
 
 ・disruptions in 〈供給・サービス〉  
 用途: 供給やサービスの過程で起きる複数の支障を述べる。  
@@ -120,7 +120,7 @@ tags: []
 頻度: 〈6/10〉  
 違い: 影響の大きさと、それまでの状態が変わってしまうことを強調する。disruption は短時間の軽い支障にも使える。  
 例: The relocation caused considerable upheaval for the staff and their families.  
-訳: その転勤により、職員とその家族の生活は大きく変わり、混乱した。  
+訳: その移転により、職員とその家族の生活は大きく変わり、混乱した。  
 
 2. 【名詞・主に不可算】業界の構造変化・創造的な破壊
 
@@ -142,7 +142,7 @@ tags: []
 ・technological disruption  
 用途: 新技術が既存の事業の仕組みを揺さぶることを示す。  
 例: The strategy considers technological disruption from low-cost automated services.  
-訳: その戦略では、低価格の自動化サービスがもたらす技術的な構造変化を考慮している。  
+訳: その戦略では、低価格の自動化サービスがもたらす技術による事業構造の変化を考慮している。  
 
 ・disruption of 〈業界・事業モデル〉  
 用途: どの業界や仕組みが新しい競争によって変わるかを示す。  

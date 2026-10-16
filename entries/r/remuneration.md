@@ -13,7 +13,7 @@ tags: []
 ＃発音記号
 
 米・英: /rɪˌmjuː.nəˈreɪ.ʃən/  
-5音節で、第4音節 /reɪ/ に主強勢、第2音節 /mjuː/ に副強勢がある。綴りは re-mu-ne-ra-tion で、m と n の順を逆にした renumeration と混同しない。  
+5音節で、第4音節 /reɪ/ に主強勢、第2音節 /mjuː/ に副強勢がある。綴りは re-mu-ne-ra-tion で、報酬の意味で renumeration と綴らない。renumeration は「数え直すこと」を表すまれな別語。  
 
 ＃語源
 
@@ -22,7 +22,7 @@ tags: []
 ＃語形成
 
 ・remunerate（他動詞）: 仕事・役務に対して人に報酬を払う。remunerate someone for 〈仕事〉。硬い語で、日常には pay が多い。  
-・remunerative（形容詞）: 十分な報酬・利益をもたらす。remunerative work は「実入りのよい仕事」で、単に有給であることより収益性を表す。  
+・remunerative（形容詞）: 報酬・収入をもたらす。また、実入りのよい、利益になる。remunerative work は「報酬を得られる仕事」で、文脈によっては「実入りのよい仕事」を表す。  
 ・remuneration package（複合名詞）: 給与・賞与・給付などをまとめた報酬条件。  
 
 ＃意味・用法・関連表現

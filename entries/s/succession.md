@@ -17,7 +17,7 @@ tags: []
 
 ＃語源
 
-古フランス語 succession、およびラテン語 successio「後に続くこと・他人の地位に入ること」に由来する。動詞 succedere は sub-「後に・近くに」と cedere「進む」が背景にあり、同じ系統に succeed「後に続く・成功する」と successor「後継者」がある。「成功」の success も同系統だが、現代の succession 自体は通常「成功」を意味しない。  
+古フランス語 succession、およびラテン語 successio「後に続くこと・他人の地位に入ること」に由来する。動詞 succedere は sub-「近くに」と cedere「進む」が背景にあり、同じ系統に succeed「後に続く・成功する」と successor「後継者」がある。「成功」の success も同系統だが、現代の succession 自体は通常「成功」を意味しない。  
 
 ＃語形成
 
@@ -88,7 +88,7 @@ tags: []
 例: The film shows the succession of the seasons in a mountain village.  
 訳: その映画は、山村で季節が順に移り変わる様子を描いている。  
 
-【語法・注意】a succession of delays は「相次ぐ遅れ」という名詞句、in succession は「続けて」という副詞的な前置詞句である。誤: three years in a succession → 正: three years in succession。in succession は連続する回・期間を示し、必ずしも秒単位で間を置かないことではない。短い時間間隔を明示するのは in quick / rapid succession。a succession of は次々に続くことを表すが、それぞれに因果関係があるとは限らない。語義2の in succession to someone「人の後任として」は to 以下を伴う別の構文であり、単なる「連続して」ではない。  
+【語法・注意】a succession of delays は「相次ぐ遅れ」という名詞句、in succession は「続けて」という副詞的な前置詞句である。誤: three years in a succession → 正: three years in succession。in succession は連続する回・期間を示し、必ずしも短い時間間隔で続くことを意味しない。短い時間間隔を明示するのは in quick / rapid succession。a succession of は次々に続くことを表すが、それぞれに因果関係があるとは限らない。語義2の in succession to someone「人の後任として」は to 以下を伴う別の構文であり、単なる「連続して」ではない。  
 
 【類義語】
 
@@ -169,7 +169,7 @@ tags: []
 頻度: 〈4/10〉  
 違い: 新しい人物の就位・就任に焦点を置く。succession は前任者からの引き継ぎや、継承順位も表す。  
 例: The ceremony marked her accession to the throne.  
-訳: その式典は彼女の王位継承を記念するものだった。  
+訳: その式典は彼女の即位を記念するものだった。  
 
 ・handover  
 定義: 仕事や責任をほかの人へ引き渡すこと。  
