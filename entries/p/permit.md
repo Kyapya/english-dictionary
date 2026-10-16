@@ -1,12 +1,12 @@
 ---
 headword: permit
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra xhigh
 created_at: 2026-10-17
 updated_at: 2026-10-17
-checked: false
+checked: true
 ---
 
 ＃発音記号
@@ -422,7 +422,7 @@ checked: false
 
 【頻度】〈2/10〉  
 
-【レジスター/領域】非常にフォーマルで、現代では低頻度。法律文、学術文、古風な文章などで見られる。通常の会話では allow、admit of、leave room for などへの言い換えが自然である。  
+【レジスター/領域】非常にフォーマルで、現代では低頻度。法律文、学術文、古風な文章などで見られる。通常の会話では allow、leave room for などへの言い換えが自然である。  
 
 【文法パターン】something + permit of something＝対応・解釈などを許容する／something + permit of no 〈名詞〉＝余地を認めない／something + permit of only one 〈単数名詞〉＝一つだけ可能にする  
 
