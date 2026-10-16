@@ -1,12 +1,12 @@
 ---
 headword: epic
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra xhigh
 created_at: 2026-10-17
 updated_at: 2026-10-17
-checked: false
+checked: true
 ---
 
 ＃発音記号
