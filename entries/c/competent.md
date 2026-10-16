@@ -1,0 +1,554 @@
+---
+headword: competent
+type: word
+status: checked
+prompt_version: entry_spec_v5
+model: gpt-6-astra xhigh
+created_at: 2026-10-17
+updated_at: 2026-10-17
+checked: true
+---
+
+＃発音記号
+
+米: /ˈkɑːmpətənt/, /ˈkɑːmpɪtənt/｜英: /ˈkɒmpɪtənt/  
+
+3音節で、第1音節に強勢がある。ここに示した米英差は、第1音節の母音が米 /ɑː/、英 /ɒ/ であることと、第2音節の母音が米では /ə/ または /ɪ/、ここに示した英音では /ɪ/ であること。第3音節は共通して /tənt/ で、強い「テント」のように発音しない。  
+
+＃語源
+
+中英語の competent「適切な、十分な」は、アングロフランス語・ラテン語に由来し、ラテン語 competens「適合する、適切な」にさかのぼる。これは competere の現在分詞で、com-「一緒に」と petere「向かう、求める」を含む。現代の「必要な能力を備える」とのつながりは「要求や役割に適合する」という意味にあり、「競争に勝つから有能」という意味ではない。  
+
+compete「競争する」と competition「競争」も、同じラテン語 competere にさかのぼる語族。ただし現代英語では competent「必要な能力がある」と competitive「競争力がある・競争心が強い」は別の意味を持つ。  
+
+＃語形成
+
+・competence：名詞「能力、適格性、権限」。一般的な遂行能力は通常不可算で、competence in 〈分野〉、competence as 〈役割〉など。特定の能力・権限を数える用法もある。  
+・competency：名詞。competence と広く重なる。人事・教育では individual competencies「個々の職務能力」のように、具体的な技能・行動特性を数える用法が目立つが、両語を可算・不可算だけで厳密に分けることはできない。  
+・competently：副詞「適切な技能で、手際よく、必要な水準で」。handle a task competently のように動作を修飾する。  
+・incompetent：形容詞「能力が足りない、不適格な」。一般的な仕事の能力と、法律上の資格・能力のどちらを否定するかは文脈による。  
+・incompetence：名詞「能力不足、無能、不適格」。一般的には不可算。  
+
+＃コアイメージ
+
+「その役割や働きに必要な能力・条件を備えている」。仕事なら遂行能力、法律なら当該行為の資格や権限、生物なら特定の機能を果たす能力が問題になる。人についても、卓越性まで必ず含むわけではないが、優秀さを否定する語でもない。  
+
+・必要な条件を備える仕事の担い手 → 「必要な能力がある・有能な」（語義1）  
+
+・必要な条件を備える技能・仕事の出来 → 「手堅い・まずまずの」（語義2）  
+
+・必要な条件を備える法的行為の当事者 → 「法的な能力・資格がある」（語義3）  
+
+・必要な条件を備える決定・審理の主体 → 「権限・管轄がある」（語義4）  
+
+・必要な条件を備える裁判上の証拠 → 「証拠として法的に適格な」（語義5）  
+
+・必要な条件を備える外来DNAの受け手 → 「DNAを取り込む能力がある」（語義6）  
+
+・必要な条件を備える生物学的反応の主体 → 「特定の反応・発達が可能な」（語義7）  
+
+・必要な条件を備える荷重・応力の受け手 → 「荷重・変形に耐える」（語義8）  
+
+＃意味・用法・関連表現
+
+1. 【形容詞・限定／叙述】必要な能力がある・有能な
+
+【日本語訳・定義】人や組織が、ある仕事・活動・役割を適切に行えるだけの知識、技能、経験、判断力などを備えている。「きちんと仕事をこなせる」「任せられる」「力量がある」といった肯定的な評価。必要な水準に達していることが中心で、天才的・卓越的であることまでは必ずしも表さない。  
+
+【頻度】〈8/10〉  
+
+【レジスター/領域】中立～ややフォーマル。職務評価、採用、教育、専門職の評価などで広く使う。  
+
+【文法パターン】a competent 〈職業・役割名〉＝必要な力量を持つ人／be/become/seem/feel competent＝能力がある・身に付く・そう見える・そう感じる／be competent at 〈活動・-ing形〉＝その活動ができる／be competent in 〈分野・言語〉＝その分野に十分通じている／be competent with 〈道具・機器〉＝適切に扱える／be competent to do＝～を行う能力がある／be competent as 〈役割〉＝その役割を果たせる／be competent enough to do＝～できるだけの能力がある。very、highly、reasonably などで程度を示し、比較級・最上級は more competent、most competent。  
+
+【コロケーション・構文例】
+
+・a highly competent 〈職業・役割名〉  
+用途: 専門家や担当者の高い遂行能力を評価する。  
+例: She is a highly competent engineer who can explain complex problems clearly.  
+訳: 彼女は複雑な問題を分かりやすく説明できる、非常に有能な技術者だ。  
+
+・be competent at doing  
+用途: 特定の作業を適切にこなせると述べる。  
+例: He is competent at handling customer complaints.  
+訳: 彼は顧客からの苦情に適切に対応できる。  
+
+・be competent in 〈分野・言語〉  
+用途: 特定分野や言語について十分な知識・技能があることを示す。  
+例: All applicants must be competent in English.  
+訳: 応募者は全員、十分な英語力を備えている必要がある。  
+
+・be competent with 〈道具・機器〉  
+用途: 道具やシステムを扱う能力を示す。  
+例: You need to be competent with spreadsheet software.  
+訳: 表計算ソフトを適切に使える必要がある。  
+
+・be competent to do  
+用途: 作業や判断を適切に行う能力があると述べる。  
+例: The firm is competent to carry out the work safely.  
+訳: その会社には、その作業を安全に実施する能力がある。  
+
+・be competent as 〈役割〉  
+用途: 能力を評価する役割を限定する。  
+例: She is competent as a researcher but has little teaching experience.  
+訳: 彼女は研究者として十分な能力があるが、教えた経験は少ない。  
+
+・become fully competent  
+用途: 学習・訓練を通じ、必要な能力を十分に身に付ける。  
+例: It took several months for the new operators to become fully competent.  
+訳: 新しい担当者たちが十分な操作能力を身に付けるまで、数か月かかった。  
+
+・be competent enough to do  
+用途: 特定の仕事を任せるための能力水準に達していることを示す。  
+例: After the training, she was competent enough to manage the system on her own.  
+訳: 研修後、彼女は一人でそのシステムを管理できるだけの能力を身に付けていた。  
+
+・a culturally competent 〈専門職・組織〉  
+用途: 相手の文化・言語・価値観の違いを理解し、適切に対応できる専門職などを表す。  
+例: The course aims to develop culturally competent healthcare professionals.  
+訳: その講座は、文化の違いを理解して適切に対応できる医療専門職の育成を目指している。  
+
+【語法・注意】competent at は活動、in は分野・言語、with は道具などを扱う能力、as は役割を示すのが典型。ただし at と in などに重なりがあり、すべてを排他的な規則として覚えない。competent at managing、competent to manage は自然だが、competent to managing とはしない。形容詞なので「能力がある」は He is competent. であり、He competents. とは言わない。  
+
+competent は人柄全体への賛辞ではなく、通常はある仕事・分野についての評価。highly competent、very competent は明確な高評価になる。一方、merely competent は「必要水準に達するだけ」、more than competent は「単に合格水準という以上に有能だ」。語義2の控えめな評価を、すべての competent に当てはめて「優秀ではない」と決め付けない。  
+
+qualified は資格、訓練、経験などの条件を満たすことに重点があり、competent は実際の遂行能力を評価するのが中心。ただし qualified も実力・経験を含めて使えるため、「資格証明書の有無だけ」を表す語ではない。confident は本人の自信、competent は能力を表し、自信があっても能力があるとは限らない。  
+
+安全規則などの competent person は、制度上の定義を持つ場合がある。例えば米国OSHAの建設分野では、危険を認識する能力に加え、是正措置を取る権限が要件となる。一般語の「有能な人」と読んだり、世界共通の資格名だと考えたりせず、当該規則の定義を確認する。  
+
+【類義語】
+
+・capable  
+定義: ある行為を行う能力・力量がある。  
+頻度: 〈8/10〉  
+違い: competent より広く、潜在的に何ができるかも表す。capable of doing の構文が基本で、competent to do と形が異なる。  
+例: She is capable of solving the problem without help.  
+訳: 彼女は助けを借りずにその問題を解決できる。  
+
+・skilled  
+定義: 訓練や経験によって技能を身に付けている。  
+頻度: 〈8/10〉  
+違い: competent より、習得した技能や熟練に焦点がある。専門技術・手作業・交渉などと結び付きやすい。  
+例: We hired a skilled carpenter to repair the stairs.  
+訳: 階段を修理するために、腕のよい大工に依頼した。  
+
+・proficient  
+定義: 特定の技能・言語・技術に十分習熟している。  
+頻度: 〈6/10〉  
+違い: competent より具体的な技能の習熟度を強調しやすい。proficient in、proficient at の形で使う。  
+例: Applicants should be proficient in French.  
+訳: 応募者にはフランス語に十分習熟していることが求められる。  
+
+・qualified  
+定義: 仕事を行うのに必要な資格・訓練・経験などを備えている。  
+頻度: 〈7/10〉  
+違い: competent の遂行能力に対し、役割に必要な条件を満たすことに重点がある。法的な有資格者を指す場合もある。  
+例: Only qualified electricians should inspect the wiring.  
+訳: 配線の点検は、必要な資格を持つ電気技師が行うべきだ。  
+
+・expert  
+定義: 特定分野で非常に高度な技能・知識を持つ。  
+頻度: 〈7/10〉  
+違い: competent より高い専門性を明確に表す。必要水準を満たすだけなら expert とは限らない。  
+例: An expert negotiator helped resolve the dispute.  
+訳: 交渉にきわめて長けた人物が、紛争解決を助けた。  
+
+【反意語】
+
+・incompetent  
+定義: 仕事に必要な技能・知識・判断力が足りない。  
+頻度: 〈6/10〉  
+違い: 必要な遂行能力があるかどうかという軸での直接的な反対。人に向けると強い否定的評価になる。  
+例: The review found that the team was badly managed by an incompetent supervisor.  
+訳: 調査では、能力の足りない上司によってチームの管理が不適切に行われていたと分かった。  
+
+・inept  
+定義: 技能や判断が乏しく、物事の扱いがひどく下手な。  
+頻度: 〈5/10〉  
+違い: 能力の程度上の対立。incompetent より、実際の行動の不器用さ・まずさを強く感じさせる。  
+例: An inept manager turned a small problem into a crisis.  
+訳: 手際の悪い管理職が、小さな問題を危機に変えてしまった。  
+
+2. 【形容詞・限定／叙述】手堅い・まずまずの
+
+【日本語訳・定義】技能や仕事の出来が十分な水準にあるものの、際立って優れているという評価までは与えない用法。演技、翻訳、文章などの成果にも、人の技能にも使われる。「手堅い」「まずまず」「無難」と訳せる。語義1とつながるが、ここでは比較や批評の文脈で控えめな評価が前面に出る。  
+
+【頻度】〈6/10〉  
+
+【レジスター/領域】中立～ややフォーマル。批評、レビュー、成績・業績の評価など。  
+
+【文法パターン】a competent 〈performance/translation〉／a competent piece of work／do a competent job＝必要水準の仕事をする／〈成果・人〉 + be competent＝手堅い水準である／be technically competent＝技術面では水準に達している／competent but 〈対照的な評価〉＝手堅いが～。perfectly、merely などの副詞や後続する対比によって、評価の強さが変わる。  
+
+【コロケーション・構文例】
+
+・a competent performance  
+用途: 演技や演奏の基本的な出来を認めつつ、突出した評価を控える。  
+例: The cast gave a competent performance, though it lacked energy.  
+訳: 出演者たちの演技は手堅かったが、活気に欠けていた。  
+
+・do a competent job  
+用途: 仕事を必要な水準でこなしたと評価する。  
+例: The team did a competent job, but there was little to distinguish its proposal.  
+訳: チームの仕事はまずまずだったが、提案には目立った特色がなかった。  
+
+・be technically competent  
+用途: 技術面での水準と、表現力など別の評価軸を分ける。  
+例: The film is technically competent but emotionally flat.  
+訳: その映画は技術的にはしっかりしているが、感情的な深みに乏しい。  
+
+・a perfectly competent 〈成果〉  
+用途: 問題のない水準であることを、控えめに評価する。  
+例: It's a perfectly competent translation, but the author's humour rarely comes through.  
+訳: 翻訳としては十分しっかりしているが、原作者のユーモアはあまり伝わってこない。  
+
+・a competent but unremarkable 〈成果〉  
+用途: 水準は満たすが、際立った長所がないことを明示する。  
+例: The reviewer described it as a competent but unremarkable novel.  
+訳: 評者は、それを手堅いが特に目立ったところのない小説だと評した。  
+
+【語法・注意】competent は常に皮肉や低評価になるわけではない。perfectly competent も「問題なく十分な能力がある」と相手を擁護する場面では肯定的に響く。「優秀というほどではない」という読みがどこまで強いかは、merely、but、比較対象、期待水準などから判断する。highly competent を無条件に「凡庸な」と訳すのは誤り。  
+
+成果を評する a competent translation は、「翻訳が人間のような能力を持つ」という意味ではなく、適切な技能が作品に表れているという評価。competent を「十分な」一般の代用語として、competent water や competent time とすることは通常できない。量が足りるなら enough water、sufficient time などを使う。  
+
+【類義語】
+
+・adequate  
+定義: 目的や要求を満たすだけの質がある。  
+頻度: 〈7/10〉  
+違い: competent と同様に控えめな評価になるが、技能の表れより、必要な用を足せることに焦点がある。  
+例: The explanation was adequate, though not especially clear.  
+訳: 説明は一応十分だったが、特に分かりやすくはなかった。  
+
+・satisfactory  
+定義: 要求・期待を満たし、受け入れられる水準にある。  
+頻度: 〈6/10〉  
+違い: competent より人の技能との結び付きが弱く、結果・状態・進捗の評価にも広く使う。  
+例: The repairs were completed to a satisfactory standard.  
+訳: 修理は満足できる水準で完了した。  
+
+・workmanlike  
+定義: 技術的にはきちんとしているが、特別な独創性や華やかさはない。  
+頻度: 〈3/10〉  
+違い: competent に生じる「手堅いが卓越してはいない」という評価を、より明確に表す。  
+例: The report was a workmanlike account of the events.  
+訳: その報告書は、出来事を手堅くまとめたものだった。  
+
+・solid  
+定義: 内容や出来がしっかりしていて、安定した水準にある。  
+頻度: 〈7/10〉  
+違い: competent より会話的で、堅実さを肯定的に評価しやすい。必ずしも平凡だという含みはない。  
+例: She delivered a solid presentation.  
+訳: 彼女は内容のしっかりしたプレゼンテーションをした。  
+
+【反意語】
+
+・inadequate  
+定義: 目的に必要な質・内容・能力が足りない。  
+頻度: 〈7/10〉  
+違い: 必要水準を満たすかどうかという評価軸での反対。  
+例: The analysis was inadequate for such an important decision.  
+訳: その分析は、それほど重要な決定のためには不十分だった。  
+
+・substandard  
+定義: 定められた、または期待される品質水準を下回る。  
+頻度: 〈5/10〉  
+違い: competent の「水準を満たす」に対する程度上の反対で、仕事・製品・サービスの質に使う。  
+例: The contractor was asked to replace the substandard work.  
+訳: 施工業者は、基準を満たさない施工部分をやり直すよう求められた。  
+
+3. 【形容詞・法律上の能力／資格・限定／叙述】法的な能力・資格がある
+
+【日本語訳・定義】人が、特定の法的行為や手続きに参加するために必要な能力・資格を持っている。裁判を受ける能力、同意する能力、証言する資格などを表すが、それぞれの判断基準は同じではない。一般的な仕事の腕前や、知能の高さを評価する語義1とは区別する。  
+
+【頻度】〈4/10〉  
+
+【レジスター/領域】法律、司法、医療倫理。具体的な定義・判断手続きは法域と対象行為による。  
+
+【文法パターン】be competent to stand trial＝裁判を受ける能力がある／be competent to consent＝同意する能力がある／be competent to testify＝証言する資格・能力がある／a competent witness＝法的に証人となり得る人／a mentally competent adult＝必要な判断能力を持つ成人／find someone competent to do＝その能力・資格があると認定する。特定の法的資格の有無をいう場合、通常の more competent による仕事の上手下手とは分けて考える。  
+
+【コロケーション・構文例】
+
+・be competent to stand trial  
+用途: 被告人が現在の裁判手続きに参加する能力を述べる。  
+例: The court found the defendant competent to stand trial.  
+訳: 裁判所は、被告人に裁判を受ける能力があると認定した。  
+
+・be competent to give consent  
+用途: 特定の決定について同意する能力を示す。  
+例: The assessment considered whether the patient was competent to give consent.  
+訳: その評価では、患者に同意する能力があるかが検討された。  
+
+・be competent to testify  
+用途: 証人として証言する法的な資格・能力を述べる。  
+例: The judge ruled that the witness was competent to testify.  
+訳: 裁判官は、その証人には証言する法的な資格・能力があると判断した。  
+
+・a competent witness  
+用途: 証言の信頼性とは別に、証人となる資格を表す。  
+例: She was a competent witness, although the jury did not believe her account.  
+訳: 彼女には証人としての資格があったが、陪審はその説明を信用しなかった。  
+
+【語法・注意】competent to stand trial は、例えば米国連邦法では、現在の手続きの性質・結果を理解し、適切に自分の弁護を助けられるかという問題に関わる。犯行時の責任能力、無罪か有罪か、証言が真実か、とはそれぞれ別の問題。日本語の「責任能力がある」を一律に competent と置き換えない。  
+
+competent witness は「信用できる証人」とは限らない。competence は証人となる資格、credibility は供述の信用性で、米国連邦証拠規則も原則として人の証人適格を認めつつ、別の規則や一定の民事事件での州法との関係を定めている。単語だけから年齢・病歴などの一律の失格条件を読み込まない。  
+
+capacity と competence は分野により重なったり区別されたりする。「capacity は必ず医療者の判断、competence は必ず裁判所の判断」と全法域に共通する規則のようには扱わない。裁判・同意・遺言・証言など、何についての能力なのかを確認する。一般の会話で他人を mentally incompetent と決め付けると、強い侮辱になり得る。  
+
+【類義語】
+
+・of sound mind  
+定義: 判断を行える健全な精神状態にある。  
+頻度: 〈4/10〉  
+違い: 遺言・契約などで見られる伝統的な表現。精神状態に焦点があり、すべての competent witness や訴訟能力の法的基準をそのまま置き換えるものではない。  
+例: The document states that she was of sound mind when she signed it.  
+訳: その文書には、署名時に彼女が健全な判断のできる状態だったと記されている。  
+
+【反意語】
+
+・incompetent  
+定義: 対象となる法的行為・手続きに必要な能力や資格を欠く。  
+頻度: 〈4/10〉  
+違い: 特定の行為について competent であるかどうかという直接的な対立。一般的な「無能」と訳すと、法的意味が失われる。  
+例: The defendant was found incompetent to stand trial at that time.  
+訳: 被告人は、その時点では裁判を受ける能力がないと認定された。  
+
+4. 【形容詞・法律／行政上の権限・限定／叙述】権限・管轄がある
+
+【日本語訳・定義】裁判所、行政機関、担当官などが、ある事項を審理・決定・処理するための正式な権限や管轄を持っている。「所管の」「権限ある」「管轄権を有する」と訳す。能力や手際のよさではなく、その案件を扱える制度上の立場を表す。  
+
+【頻度】〈4/10〉  
+
+【レジスター/領域】フォーマル。法令、条約、行政・規制文書など。  
+
+【文法パターン】the competent authority＝所管当局／a competent court/tribunal＝管轄権のある裁判所・審判機関／a court of competent jurisdiction＝当該事件について管轄権を持つ裁判所／be competent to hear 〈事件・上訴〉＝審理する権限がある／be competent to decide 〈事項〉＝決定する権限がある。通常は権限の有無を問題にし、very competent を使うと語義1の能力評価に読まれやすい。  
+
+【コロケーション・構文例】
+
+・the competent authority  
+用途: 申請や事項を扱う正式な担当機関を示す。  
+例: The application was forwarded to the competent authority.  
+訳: 申請書は所管当局へ転送された。  
+
+・the competent national authorities  
+用途: 国際的な文書などで、各国の所管機関を表す。  
+例: The agreement provides for cooperation between the competent national authorities.  
+訳: その協定は、各国の所管当局間の協力について定めている。  
+
+・a court of competent jurisdiction  
+用途: 事件や紛争を扱う管轄権のある裁判所を明示する。  
+例: The contract refers disputes to a court of competent jurisdiction.  
+訳: その契約は、紛争を管轄権のある裁判所で扱うことを定めている。  
+
+・be competent to hear 〈事件・上訴〉  
+用途: 裁判所などの審理権限を述べる。  
+例: The tribunal held that it was competent to hear the appeal.  
+訳: その審判所は、当該上訴を審理する権限があると判断した。  
+
+・be competent to decide 〈事項〉  
+用途: 事項を決定する正式な権限を示す。  
+例: The committee is not competent to decide questions outside its statutory remit.  
+訳: その委員会には、法定の所管範囲外の問題を決定する権限がない。  
+
+【語法・注意】competent authority は「優秀な当局」という褒め言葉ではない。a competent lawyer は通常、語義1の「有能な弁護士」であり、法律分野の名詞が続くだけで権限義になるわけではない。be competent to decide も、人が判断する能力を持つのか、機関が決定権を持つのかを文脈で区別する。  
+
+日常の「担当部署」には the relevant department、the department responsible for ... などが自然。competent department をどの職場にも使える定型訳にしない。権限がないことを明確にするなら lacks jurisdiction、has no authority などと言え、incompetent court だけでは「能力のない裁判所」という批判にも聞こえる。  
+
+【類義語】
+
+・authorized  
+定義: 特定の行為を行う許可・権限を正式に与えられた。  
+頻度: 〈7/10〉  
+違い: competent の所管・管轄と重なるが、個別の行為への許可に焦点を置きやすい。  
+例: Only authorized officials may approve the request.  
+訳: 権限を与えられた職員だけが、その申請を承認できる。  
+
+・empowered  
+定義: 決定・行動を行う権限を付与された。  
+頻度: 〈5/10〉  
+違い: 権限が与えられている点を強調する。competent はその事項を扱う所管主体であることを表しやすい。  
+例: The commission is empowered to investigate complaints.  
+訳: その委員会には、苦情を調査する権限が与えられている。  
+
+【反意語】
+
+・unauthorized  
+定義: 対象の行為を行う正式な許可・権限がない。  
+頻度: 〈6/10〉  
+違い: 権限の有無という軸で対立する。ただし管轄権がないことを厳密に述べる場合は、lack jurisdiction などの表現が明確。  
+例: An unauthorized official cannot issue that permit.  
+訳: 権限のない職員は、その許可証を発行できない。  
+
+5. 【形容詞・証拠法・限定／叙述】証拠として法的に適格な
+
+【日本語訳・定義】証拠や証言が、その手続きで証拠として考慮されるための法的な条件を満たしている。「適格な証拠」「採用可能な証拠」などと訳す。米国の法律英語でよく見られるが、competent evidence の厳密な範囲は法域・手続きによって異なる。  
+
+【頻度】〈3/10〉  
+
+【レジスター/領域】法律、訴訟、行政審査。一般的な「出来がよい」という評価とは異なる専門用法。  
+
+【文法パターン】competent evidence＝法的に適格な証拠／competent testimony＝法的に適格な証言／competent proof of something＝～について法的に適格な立証資料・証明／be competent evidence of something＝～を示す適格な証拠となる。ここでは技能の程度ではなく、証拠としての適格性を表す。  
+
+【コロケーション・構文例】
+
+・competent evidence  
+用途: 裁判などで扱う法的に適格な証拠を示す。  
+例: The judge asked whether there was competent evidence to support the allegation.  
+訳: 裁判官は、その主張を裏付ける法的に適格な証拠があるかを尋ねた。  
+
+・competent testimony  
+用途: 提出された証言自体の証拠としての適格性を述べる。  
+例: The court ruled that the statement did not constitute competent testimony.  
+訳: 裁判所は、その供述は法的に適格な証言には当たらないと判断した。  
+
+・competent proof of something  
+用途: 特定の事実に関する法的な立証資料を表す。  
+例: The claimant submitted the records as competent proof of ownership.  
+訳: 申立人は、所有権についての法的に適格な証明資料として、その記録を提出した。  
+
+・be competent evidence of something  
+用途: 資料が何を示す適格証拠になるかを述べる。  
+例: The court treated the receipts as competent evidence of payment.  
+訳: 裁判所は、その領収書を支払いを示す適格な証拠として扱った。  
+
+【語法・注意】competent evidence を一律に「決定的な証拠」「有罪を証明するのに十分な証拠」と訳さない。証拠として採用できるかという admissibility、争点を証明する力である probative value、結論を支える量・質が足りるかという sufficiency は区別される。文脈によって competent evidence に関連性や一定の証明力まで求める用法もあるため、法的文章では周囲の定義を確認する。  
+
+competent witness は語義3の証人本人の資格、competent testimony は証言そのものの適格性。人が証人となれることは、その人が述べたすべての内容が採用されることや、裁判官・陪審が信用することを保証しない。irrelevant「無関係な」は不適格となる理由になり得るが、competent のあらゆる用法に対応する反意語ではない。  
+
+【類義語】
+
+・admissible  
+定義: 裁判などで証拠として受け入れることが法律上認められる。  
+頻度: 〈5/10〉  
+違い: competent evidence の採用可能性という意味に特に近い。証拠の説得力や、立証に十分な量があることまでは意味しない。  
+例: The recording was ruled admissible in court.  
+訳: その録音は、裁判で証拠として採用できると判断された。  
+
+【反意語】
+
+・inadmissible  
+定義: 証拠として採用することが法律上認められない。  
+頻度: 〈5/10〉  
+違い: 証拠の採用可能性という軸での直接的な対立。  
+例: The judge ruled the document inadmissible.  
+訳: 裁判官は、その文書を証拠として採用できないと判断した。  
+
+・incompetent  
+定義: 証拠法上の適格性を欠く。  
+頻度: 〈2/10〉  
+違い: 法律分野では competent evidence に対応する反対語。一般的な人の能力不足という意味で読まない。  
+例: Counsel objected that the testimony was incompetent evidence.  
+訳: 代理人は、その証言は適格性を欠く証拠だとして異議を述べた。  
+
+6. 【形容詞・分子生物学／微生物学・限定／叙述】DNAを取り込む能力がある
+
+【日本語訳・定義】細菌などの細胞が、外来DNAを取り込み、形質転換の受け手となれる状態にある。「形質転換受容能を持つ」「コンピテントな」と訳し、competent cells は「コンピテントセル」。自然にこの能力を持つ場合と、実験のために取り込み可能な状態にした場合がある。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】分子生物学、微生物学、遺伝子工学。一般語の「有能な細胞」という評価ではない。  
+
+【文法パターン】competent cells、competent bacteria＝DNAを取り込める細胞・細菌／naturally competent bacteria＝自然にDNA取り込み能を持つ細菌／chemically competent cells＝化学的方法で取り込み可能な状態にした細胞／make 〈細胞〉 + competent＝細胞を取り込み可能な状態にする／〈細胞〉 + be/become competent＝その能力を持つ・獲得する。  
+
+【コロケーション・構文例】
+
+・competent cells  
+用途: DNAを導入する実験で、受容能を持つ細胞を示す。  
+例: The laboratory ordered competent cells for its cloning experiments.  
+訳: その研究室は、クローニング実験用のコンピテントセルを注文した。  
+
+・naturally competent bacteria  
+用途: 自然にDNA取り込み能を持つ細菌を表す。  
+例: The study examined DNA uptake in naturally competent bacteria.  
+訳: その研究では、自然に形質転換受容能を持つ細菌のDNA取り込みを調べた。  
+
+・chemically competent cells  
+用途: 化学的方法で受容能を与えた細胞を区別する。  
+例: The experiment used chemically competent cells.  
+訳: その実験には、化学的方法で調製したコンピテントセルが使われた。  
+
+・make 〈細胞〉 competent  
+用途: 細胞をDNA取り込み可能な状態にすることを述べる。  
+例: The method was developed to make the cells competent for transformation.  
+訳: その方法は、細胞を形質転換可能な状態にするために開発された。  
+
+【語法・注意】competent は、DNA取り込みの能力・状態を示す語で、すでにDNAが導入されたことや、すべての細胞が必ず形質転換に成功することまでは意味しない。transformed cells「形質転換した細胞」と区別する。細胞が competent になることと、実際にDNAを取り込むことは別段階。  
+
+competent の後ろに to take up DNA や for transformation が付くことがある。electrocompetent は電気的方法によるDNA導入に用いる受容能を示す関連形。語義7の immunologically competent「免疫応答能力がある」とは、何をする能力かが異なるので、どの生物学分野でも「DNAを取り込める」と訳すことはできない。  
+
+7. 【形容詞・免疫学／発生生物学・限定／叙述】特定の反応・発達が可能な
+
+【日本語訳・定義】細胞・組織などが、特定の生物学的反応や発達を行える状態にある。免疫学では抗原に応答する能力、発生生物学では誘導シグナルに応じる能力などを指す。「応答能がある」「発生能力がある」など、対象機能に合わせて訳す。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】免疫学、発生生物学などの専門用法。  
+
+【文法パターン】immunologically competent cells＝免疫応答能力を持つ細胞／developmentally competent 〈細胞・胚など〉＝特定の発生過程を進める能力がある／be/become competent to respond to 〈シグナル〉＝そのシグナルに反応できる・できるようになる。機能や反応対象を副詞・補語で特定する。  
+
+【コロケーション・構文例】
+
+・immunologically competent cells  
+用途: 抗原に対する免疫応答能力を持つ細胞を示す。  
+例: The paper discusses the role of immunologically competent cells in the response.  
+訳: その論文は、免疫応答能力を持つ細胞がその反応で果たす役割を論じている。  
+
+・developmentally competent 〈胚・細胞〉  
+用途: 発生を進める能力を持つことを示す。  
+例: The researchers assessed whether the embryos were developmentally competent.  
+訳: 研究者たちは、その胚に発生を進める能力があるかを評価した。  
+
+・become competent to respond to 〈シグナル〉  
+用途: 組織が特定の誘導に反応する能力を獲得することを示す。  
+例: At this stage, the tissue becomes competent to respond to the inductive signal.  
+訳: この段階で、その組織は誘導シグナルに反応できるようになる。  
+
+【語法・注意】特定のシグナルに competent であることは、あらゆる刺激に反応できることを意味しない。また反応する能力があることと、実際に反応が起きたことは別。単に健康な細胞だという評価や、語義6のDNA取り込み能と一括りにしない。  
+
+免疫学には immunocompetent「免疫応答能力を備えた」という複合語もある。一方、responsive「反応する」、viable「生存可能な」は、それだけでは competent が表す特定の反応能・発生能と同一ではないため、実験文脈で安易に置き換えない。  
+
+【類義語】
+
+・immunocompetent  
+定義: 免疫応答を行う能力を備えた。  
+頻度: 〈2/10〉  
+違い: immunologically competent に近い専門語で、細胞のほか個体にも使う。発生時の誘導シグナルへの応答能やDNA取り込み能一般を示す語ではない。  
+例: The study compared responses in immunocompetent and immunocompromised mice.  
+訳: その研究では、免疫機能が正常なマウスと低下したマウスの反応を比較した。  
+
+8. 【形容詞・地質学／岩盤工学・限定／叙述】荷重・変形に耐える
+
+【日本語訳・定義】岩石・岩盤・地層が、与えられた条件下で荷重を支えたり、変形や崩壊に抵抗したりする性質を持つ。「堅固な」「支持力のある」「コンピテントな」と訳す。岩盤工学では荷重や掘削に対する安定性、構造地質学では周囲の岩層に対する相対的な変形抵抗が問題になる。  
+
+【頻度】〈1/10〉  
+
+【レジスター/領域】地質学、岩盤工学、鉱業、トンネル工学。一般の人の能力とは対象が異なる専門用法。  
+
+【文法パターン】competent rock／competent bedrock／a competent layer＝荷重・変形に抵抗する岩石・基盤岩・地層／〈岩石・地層〉 + be competent＝その抵抗性を持つ／more competent than 〈比較する岩層〉＝比較対象より変形に抵抗する／less competent than 〈比較する岩層〉＝比較対象より変形しやすい。比較や relatively などの修飾が可能。  
+
+【コロケーション・構文例】
+
+・competent rock  
+用途: 掘削や荷重に耐える性質の岩石を示す。  
+例: The survey found competent rock beneath the weathered surface layer.  
+訳: 調査では、風化した表層の下に堅固な岩盤が確認された。  
+
+・competent bedrock  
+用途: 構造物を支持する基盤岩の性質を述べる。  
+例: The piles extend down to competent bedrock.  
+訳: 杭は、十分な支持力を持つ基盤岩まで達している。  
+
+・more competent than 〈比較する岩層〉  
+用途: 岩層間で変形抵抗を比較する。  
+例: The sandstone bed is more competent than the surrounding shale.  
+訳: その砂岩層は、周囲の頁岩より変形に抵抗する。  
+
+【語法・注意】competent rock を、どんな荷重・温度・圧力の下でも崩れない岩石だと理解しない。条件や周囲の岩石との比較に依存する。また competent は「一切変形しない」の意味ではなく、比較的強い岩層も褶曲・破断し得る。工学的な支持力と、地質学的な相対的変形抵抗は関連するが、測定条件まで同じではない。  
+
+【反意語】
+
+・incompetent  
+定義: 同じ条件下で、相対的に荷重・変形への抵抗が小さい。  
+頻度: 〈1/10〉  
+違い: 岩石・地層の力学的性質という同一軸での反対。人の無能力を表す語義とは区別する。  
+例: The incompetent layers deformed more readily than the adjacent sandstone beds.  
+訳: 変形抵抗の小さい地層は、隣接する砂岩層よりも容易に変形した。  
