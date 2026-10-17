@@ -340,7 +340,7 @@ tags: []
 ・relief in equity  
 用途: 衡平法上の救済を述べる。  
 例: The claimant sought relief in equity rather than monetary damages alone.  
-訳: 原告は、金銭賠償だけでなく衡平法上の救済を求めた。  
+訳: 原告は、金銭賠償だけを求めるのではなく、衡平法上の救済を求めた。  
 
 ・at law and in equity  
 用途: 法律文書で二つの救済体系を区別して並べる。  
