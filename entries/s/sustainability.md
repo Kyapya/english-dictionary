@@ -200,4 +200,4 @@ feasibility は「実施できるか」、viability は「現実に機能・成�
 頻度: 〈3/10〉  
 違い: 同じ条件・期間での継続可能性の有無という状態上の対立。現時点で実行できないことや、すでに終了したことを必ず意味するわけではない。  
 例: The budget review exposed the unsustainability of relying on short-term grants for permanent staff.  
-訳: 予算の検討で、常勤職員の費用を短期の助成金に頼り続けることはできないと明らかになりました。  
+訳: 予算の検討で、雇用期間の定めのない職員の費用を短期の助成金に頼り続けることはできないと明らかになりました。  
