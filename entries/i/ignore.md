@@ -409,7 +409,7 @@ checked: true
 
 【レジスター/領域】コンピューター・機器・技術文書。一般義の「取り合わない」を処理に適用する。  
 
-【文法パターン】ignore 〈input/commands/files〉＝入力・命令・ファイルなどを対象外にする／ignore case／ignore whitespace＝大文字小文字・空白の違いを区別しない／〈システム〉 + be configured to ignore something＝処理対象から外す設定になる／something + be ignored by the system＝システムで所定の処理を受けない／something + can be safely ignored＝対応しなくても問題がない  
+【文法パターン】ignore 〈input/commands/files〉＝入力・命令・ファイルなどを対象外にする／ignore case／ignore whitespace＝大文字小文字・空白の違いを区別しない／〈システム〉 + be configured to ignore something＝処理対象から外す設定になる／something + be ignored by the system＝システムで所定の処理を受けない／something + can be safely ignored by 〈システム〉＝システムが処理対象から外しても問題がない  
 
 【コロケーション・構文例】
 
@@ -429,19 +429,19 @@ checked: true
 訳: 一時ファイルを無視するよう、そのツールを設定できる。  
 
 ・ignore an error  
-用途: エラーへの通常の対処を行わない。具体的な挙動は仕様による。  
-例: Do not ignore this error unless you understand its cause.  
-訳: 原因を理解している場合を除き、このエラーを無視しないでください。  
+用途: プログラムが特定のエラーに対する通常の処理を省く。具体的な挙動は仕様による。  
+例: The program ignores this error and continues processing the remaining files.  
+訳: そのプログラムはこのエラーを無視し、残りのファイルの処理を続ける。  
 
 ・be ignored by the system  
 用途: 入力、設定、操作などがシステムによって処理されない  
 例: Any changes made after the deadline will be ignored by the system.  
 訳: 期限後に行われた変更は、システムによって処理されません。  
 
-・can be safely ignored  
-用途: 警告、メッセージ、差異などに対応しなくても結果へ影響しないことを示す  
-例: This warning can be safely ignored in the test environment.  
-訳: テスト環境では、この警告は無視しても問題ありません。  
+・can be safely ignored by 〈システム〉  
+用途: システムが特定の入力や差異を処理対象から外しても結果へ影響しないことを示す  
+例: These extra spaces can be safely ignored by the parser without changing the result.  
+訳: これらの余分な空白は、解析プログラムが無視しても結果は変わらない。  
 
 ・tell the application to ignore something  
 用途: アプリケーションが特定の項目を処理しないよう設定する  
@@ -458,7 +458,7 @@ checked: true
 例: Enable this option to ignore whitespace when comparing the files.  
 訳: ファイル比較で空白の違いを無視するには、このオプションを有効にしてください。  
 
-【語法・注意】ignore は delete「削除する」とは異なる。ignore a file なら、検索・同期・監視・追跡などのうち何を省くかを文脈で判断する。Git の .gitignore は未追跡ファイルを対象外にする指定であり、既に追跡されているファイルにはその指定だけで効果が及ばない。ignore an error も「表示も記録も修正も一切しない」とは限らず、どの反応を行わないかは実装次第。suppress a warning は表示を抑えること、handle an error は対処することで、同義ではない。ignore case の case は文字の大文字・小文字。Ignore というボタン表示は、対象が文脈で分かる命令形と読め、独立した名詞義を作る必要はない。  
+【語法・注意】ignore は delete「削除する」とは異なる。ignore a file なら、検索・同期・監視・追跡などのうち何を省くかを文脈で判断する。Git の .gitignore は未追跡ファイルを対象外にする指定であり、既に追跡されているファイルにはその指定だけで効果が及ばない。ignore an error も「表示も記録も修正も一切しない」とは限らず、どの反応を行わないかは実装次第。suppress a warning は警告の表示などを抑えること。ignore a warning は人が対応しない意味にも、設定により表示を抑える意味にもなり、後者では suppress と重なる。handle an error はエラーに対処することで、ignore と同義ではない。ignore case の case は文字の大文字・小文字。Ignore というボタン表示は、対象が文脈で分かる命令形と読め、独立した名詞義を作る必要はない。  
 
 【類義語】
 

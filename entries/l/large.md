@@ -526,7 +526,7 @@ largesse「惜しみない贈与、気前のよさ」は同語源。enlarge「�
 
 【レジスター/領域】主に報道・警察関連の説明。動物にも使う。  
 
-【文法パターン】be/remain at large／still be at large／a criminal/suspect/animal at large／escape and remain at large。  
+【文法パターン】be/remain at large／still be at large／a criminal/suspect at large／an animal at large／escape and remain at large。  
 
 【コロケーション・構文例】
 
@@ -843,8 +843,8 @@ largesse「惜しみない贈与、気前のよさ」は同語源。enlarge「�
 
 ・an at-large member  
 用途: 特定地区ではなく組織や地域全体を代表する委員・議員を表す  
-例: The board includes three at-large members.  
-訳: その理事会には全体選出の委員が三人いる。  
+例: The board includes three at-large members elected by the entire membership.  
+訳: その理事会には、全会員による投票で選出された全体代表の委員が三人いる。  
 
 ・an at-large seat  
 用途: 特定の小選挙区に割り当てられていない全体選出議席を表す  
@@ -861,7 +861,7 @@ largesse「惜しみない贈与、気前のよさ」は同語源。enlarge「�
 例: Two representatives are elected at large.  
 訳: 二人の代表者が区域全体から選出される。  
 
-【語法・注意】名詞の前では at-large とハイフンを入れる。be elected at large では通常、ハイフンを入れない。  
+【語法・注意】名詞の前では at-large とハイフンを入れる。be elected at large では通常、ハイフンを入れない。役職名の at-large member だけでは選挙・任命の別までは決まらない。  
 
 ・全体選出という選出範囲を示し、比例代表制などの特定の投票・議席配分方式を意味するわけではない。区域・団体ごとの制度で具体的内容が決まる。  
 
