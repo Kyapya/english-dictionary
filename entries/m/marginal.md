@@ -1,12 +1,12 @@
 ---
 headword: marginal
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: OpenAI assistant
 created_at: 2026-10-17
 updated_at: 2026-10-17
-checked: false
+checked: true
 tags: []
 ---
 
@@ -156,7 +156,7 @@ tags: []
 例: The movement remained marginal for years before gaining national attention.  
 訳: その運動は全国的に注目されるまで、何年も周辺的な存在だった。  
 
-【語法・注意】marginal groups は少人数であることだけを述べる minority groups と同一ではない。marginalized groups は「周縁に追いやられた集団」で、そうした状態を生んだ排除の過程をより強く意識させる。be marginal to the discussion の to は「どの議論に対して周辺的か」を示す前置詞。語義1の marginal importance は重要性の程度が低いこと、この語義の marginal role は中心的な役割ではないことに重点がある。人や文化への評価では、話者の立場や文脈に注意する。  
+【語法・注意】marginal groups は社会・活動の中心から外れている点に焦点を置く。minority groups と重なる場合もあるが同一ではなく、minority も文脈によって社会的立場を含む。marginalized groups は「周縁に追いやられた集団」で、そうした状態を生んだ排除の過程をより強く意識させる。be marginal to the discussion の to は「どの議論に対して周辺的か」を示す前置詞。語義1の marginal importance は重要性の程度が低いこと、この語義の marginal role は中心的な役割ではないことに重点がある。人や文化への評価では、話者の立場や文脈に注意する。  
 
 【類義語】
 

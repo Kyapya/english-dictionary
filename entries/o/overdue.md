@@ -1,12 +1,12 @@
 ---
 headword: overdue
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: OpenAI assistant
 created_at: 2026-10-17
 updated_at: 2026-10-17
-checked: false
+checked: true
 tags: []
 ---
 
@@ -75,7 +75,7 @@ over-「超えて」と due「支払うべき、期日が来た」から成る�
 例: The family is waiting for the arrival of an overdue baby.  
 訳: 家族は、予定日を過ぎてもまだ生まれていない赤ちゃんの誕生を待っている。  
 
-【語法・注意】The bill is due today. は「今日が支払期限」、The bill is overdue. は「支払期限を過ぎても未払い」。outstanding や unpaid は未払いでも期限前の場合があり、必ずしも overdue ではない。overdue invoice は通常、請求書の送付ではなく支払いの遅れを指す。two weeks overdue は two weeks と複数形にし、two weeks は遅れの長さ。for を用いる be overdue for an inspection の for は「何をすべきか」を示す。期限を述べる due on Friday を overdue on Friday に単純に置き換えると、「金曜が期限」ではなく「金曜にはすでに期限超過」となる。overdue は形容詞なので The payment overdue. ではなく The payment is overdue. とする。同音の overdo「やり過ぎる」とは綴り・品詞・意味が異なる。  
+【語法・注意】The bill is due today. は「今日が支払期限」、The bill is overdue. は「支払期限を過ぎても未払い」。outstanding や unpaid は未払いでも期限前の場合があり、必ずしも overdue ではない。overdue invoice は通常、請求書の送付ではなく支払いの遅れを指す。two weeks overdue は two weeks と複数形にし、two weeks は遅れの長さ。for を用いる be overdue for an inspection の for は「何をすべきか」を示す。期限を述べる due on Friday を overdue on Friday に単純に置き換えると、「金曜が期限」ではなく「金曜にはすでに期限超過」となる。overdue は形容詞なので The payment overdue. ではなく The payment is overdue. とする。米国発音では同音になる overdo「やり過ぎる」とは綴り・品詞・意味が異なる。  
 
 【類義語】
 
