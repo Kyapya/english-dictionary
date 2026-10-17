@@ -1,12 +1,12 @@
 ---
 headword: arrears
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: OpenAI assistant
 created_at: 2026-10-16
-updated_at: 2026-10-16
-checked: false
+updated_at: 2026-10-17
+checked: true
 tags: []
 ---
 
@@ -47,7 +47,7 @@ tags: []
 
 【レジスター/領域】一般・会計・金融・労務。支払案内や報道では普通だが、日常会話では overdue payments などでも説明できる。  
 
-【文法パターン】rent/mortgage/tax arrears＝家賃・住宅ローン・税金の滞納額／arrears of 〈rent/pay〉＝家賃・給与の未払額／arrears on 〈a loan/the mortgage〉＝借入れ・住宅ローンに関する滞納額／arrears of 〈金額〉＝一定額の滞納金／pay off/clear the arrears＝滞納分を完済する／recover the arrears＝支払いを受ける側が滞納金を回収する／the arrears + amount to + 〈金額〉＝滞納額がその金額に上る。  
+【文法パターン】rent/mortgage/tax arrears＝家賃・住宅ローン・税金の滞納額／arrears of 〈rent/pay〉＝家賃・給与の未払額／arrears on 〈a loan/the mortgage〉＝借入れ・住宅ローンに関する滞納額／arrears of 〈金額〉＝一定額の滞納金／pay off/clear the arrears＝滞納分を完済する／recover the arrears＝支払いを受ける側が滞納金を回収する／the arrears + amount to 〈金額〉＝滞納額がその金額に上る。  
 
 【コロケーション・構文例】
 
