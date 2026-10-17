@@ -1,0 +1,141 @@
+---
+headword: reiterate
+type: word
+status: review_ready
+prompt_version: entry_spec_v5
+model: OpenAI assistant
+created_at: 2026-10-17
+updated_at: 2026-10-17
+checked: false
+tags: []
+---
+
+＃発音記号
+
+米・英: /riˈɪt.ə.reɪt/  
+4音節で第2音節に主強勢。第1音節の /i/ と第2音節の /ɪ/ を一つに潰さない。reiterated は語尾に /ɪd/ が加わる。reiteration は /ˌriː.ɪt.əˈreɪ.ʃən/ で -ra- に主強勢が移る。  
+
+＃語源
+
+ラテン語 reiterare「繰り返す」の過去分詞 reiteratus に由来する。re-「再び」と iterare「繰り返す」から成り、iterare は iterum「再び」に関連する。iterate、iteration と同系列。語源上すでに反復を表す要素を重ねているが、現代英語では「少なくとも何回繰り返す」といった回数制限はない。  
+
+＃語形成
+
+・reiteration: 名詞「繰り返し、再表明」。行為一般は不可算、個々の再表明は a reiteration of the policy のように可算。  
+・reiterative: 形容詞「反復する、繰り返しの多い」。硬い語で、日常的には repetitive などが広く使われる。  
+・reiterated: 過去形・過去分詞。a reiterated demand は「繰り返し表明された要求」で、動詞の意味を保つ。  
+・iterate: 同語源の動詞。一般に「反復する」、技術・開発では処理や試作を繰り返す意味で使う。  
+
+＃意味・用法・関連表現
+
+1. 【動詞・他動詞】繰り返し述べる、改めて強調する
+
+【日本語訳・定義】既に述べた主張、方針、要求などをもう一度述べる。相手に理解・記憶してもらうための強調に多いが、いら立ちや非難を必ず表すわけではない。同じ趣旨を再表明すればよく、一字一句同じである必要も、何度も繰り返す必要もない。現代の中心は言語的な再表明であり、動作一般の反復には repeat が通常使いやすい。  
+
+【頻度】〈6/10〉  
+
+【レジスター/領域】硬め。会議、声明、報道、業務メール、議論。  
+
+【文法パターン】reiterate 〈主張・要求・方針〉＝それを再表明する／reiterate that 〈節〉＝～と改めて述べる／reiterate 〈内容〉 to someone＝相手に内容を改めて伝える／reiterate 〈疑問詞節〉＝重要性などを改めて述べる／Let me reiterate that 〈節〉＝改めて申し上げると／To reiterate, 〈文〉＝繰り返しになりますが。受動態 be reiterated by someone、直接話法の “…,” she reiterated. も可能。  
+
+【コロケーション・構文例】
+
+・reiterate a commitment to 〈名詞・動名詞〉  
+用途: 既存の方針や取り組みを継続する意思を示す。  
+例: The company reiterated its commitment to reducing waste.  
+訳: 会社は廃棄物削減への取り組みを続ける決意を改めて表明した。  
+
+・reiterate that 〈節〉  
+用途: 大事な条件や立場を改めて明確にする。  
+例: She reiterated that the deadline would not change.  
+訳: 彼女は締め切りは変わらないと改めて述べた。  
+
+・reiterate a request  
+用途: 既に出した依頼を再び伝える。  
+例: We reiterated our request for a written explanation.  
+訳: 私たちは書面による説明を求める要請を改めて伝えた。  
+
+・reiterate 〈内容〉 to someone  
+用途: 内容と伝える相手を両方示す。  
+例: The director reiterated the safety requirements to the contractors.  
+訳: 部長は請負業者に安全要件を改めて伝えた。  
+
+・reiterate how important 〈節〉  
+用途: 重要性を改めて強調する。  
+例: He reiterated how important it was to keep accurate records.  
+訳: 彼は正確な記録を残すことがいかに重要かを改めて強調した。  
+
+・Let me reiterate that 〈節〉  
+用途: 会議や説明で要点を言い直す。  
+例: Let me reiterate that these figures are estimates.  
+訳: 改めて申し上げますが、これらの数値は推計値です。  
+
+・To reiterate, 〈文〉  
+用途: 既出の要点を独立した文で再提示する。  
+例: To reiterate, no decision has been made yet.  
+訳: 繰り返しになりますが、決定はまだ下されていません。  
+
+【語法・注意】「私にその点を再度伝える」は reiterate the point to me で、reiterate me the point という二重目的語構文を基本形にしない。reiterate to do を「～するよう繰り返し言う」の形にせず、reiterate that someone should do と内容を節にする。reiterate its commitment to improving service の to improving は名詞 commitment に続く前置詞句で、reiterate の不定詞補語ではない。again を添えることも実際にはあるが、反復の意味が重なるため通常は省ける。I reiterate that... は事務的・強い口調に聞こえることがある。相手が聞き取れなかった場合の単純な「もう一度言って」は Could you repeat that? が自然。証券記事の reiterate a rating は既存の投資評価を改めて示す用法で、この再表明の意味から理解できる。  
+
+【類義語】
+
+・repeat  
+定義: 言葉や動作を再び行う。  
+頻度: 〈9/10〉  
+違い: 会話でも普通に使い、発言以外の反復にも広く使う。reiterate は主張の再表明に偏る。  
+例: Could you repeat the address?  
+訳: 住所をもう一度言っていただけますか。  
+
+・restate  
+定義: 内容を改めて述べる。  
+頻度: 〈6/10〉  
+違い: 分かりやすく言い換えて述べ直す場合にも適する。reiterate は同じ立場や要点の反復に焦点がある。  
+例: Please restate the question in simpler terms.  
+訳: 質問をもっと簡単な言葉で言い直してください。  
+
+・reaffirm  
+定義: 信念、支持、約束などを改めて明確に認める。  
+頻度: 〈6/10〉  
+違い: 立場や決意が変わらないと確かめる面が強い。reiterate は単に要求をもう一度言う場合にも使う。  
+例: The board reaffirmed its support for the project.  
+訳: 取締役会はその事業への支持を改めて表明した。  
+
+・emphasize  
+定義: 重要な点を強調する。  
+頻度: 〈8/10〉  
+違い: 初めて述べる内容も強調できる。reiterate は既出の内容を再び述べる。  
+例: The trainer emphasized the importance of rest.  
+訳: 指導者は休息の重要性を強調した。  
+
+2. 【動詞・他動詞】動作・音型などを反復する
+
+【日本語訳・定義】発言以外の動作や音のまとまりなどを、再び行う・繰り返し現す。現代の一般的な会話では少なく、文学的な叙述や音楽などの記述に見られる。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】硬い文章、文学・芸術の記述。  
+
+【文法パターン】reiterate 〈動作・音型〉＝その動作・音型を反復する／〈音型など〉 + be reiterated＝繰り返される。反復する人だけでなく、楽器・作品なども主語になれる。  
+
+【コロケーション・構文例】
+
+・reiterate a musical phrase  
+用途: 楽曲内の音型の反復を描写する。  
+例: The piano reiterates the same short musical phrase throughout the passage.  
+訳: その部分を通して、ピアノは同じ短い楽句を繰り返す。  
+
+・reiterate a gesture  
+用途: 文学的な叙述でしぐさの反復を描く。  
+例: Without speaking, she reiterated the gesture of refusal.  
+訳: 彼女は言葉を発さず、拒絶のしぐさを繰り返した。  
+
+【語法・注意】日常の指示で「その動作を繰り返して」は Repeat the movement. が普通。reiterate の中心用法は語義1の発言・立場の再表明で、この低頻度の意味から、すべての repeat を reiterate に置き換えない。  
+
+【類義語】
+
+・repeat  
+定義: 同じ動作や音型などを再び行う・現す。  
+頻度: 〈9/10〉  
+違い: 日常的で対象が広い。reiterate の非言語的な反復は硬い記述に偏る。  
+例: Repeat the movement five times.  
+訳: その動作を5回繰り返してください。  
