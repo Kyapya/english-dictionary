@@ -327,7 +327,7 @@ begin to realize that ... の that節は realize に続いている。begin that
 ・stop  
 定義: 続けていた動作をやめる。  
 頻度: 〈10/10〉  
-違い: stop doing と begin doing は開始・停止の対立。stop to do は「～するために立ち止まる」で、別構文。  
+違い: stop doing と begin doing は開始・停止の対立。stop to do は「～するために、それまでしていたことをいったんやめる」で、別構文。  
 例: She stopped writing when the timer rang.  
 訳: タイマーが鳴ると、彼女は書くのをやめた。  
 
@@ -708,7 +708,7 @@ The meeting is beginning. の beginning は動詞で「会議が始まりつつ�
 
 【頻度】〈5/10〉  
 
-【レジスター/領域】主に教育・学習・技能習得。特に米語の講座名・教材説明でよく見られる。  
+【レジスター/領域】主に教育・学習・技能習得。講座名・教材説明などで使われる。  
 
 【文法パターン】a beginning 〈学習者・活動者〉／beginning 〈学習者の複数形〉／beginning 〈科目名〉／a beginning 〈course/class〉。この「初級の」の意味では通常名詞の前に置き、very beginning や more beginning で程度を表さない。  
 
