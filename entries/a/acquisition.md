@@ -32,25 +32,25 @@ tags: []
 
 ＃コアイメージ
 
-それまで持っていなかったものを、自分の側に取り込む。知識や情報を得る過程、事業や資産を買い入れる取引、取り込んだ品物そのものに焦点が移る。  
+それまで持っていなかったものを、自分の側に取り込む。物品・資産や知識・情報を得る過程、事業や資産を買い入れる取引、得た品物や新たに加わった人に焦点が移る。  
 
-・知識や情報を自分の側に取り込む過程 → 「取得・獲得・習得」（語義1）  
+・物品や知識を自分の側に取り込む過程 → 「取得・獲得・習得」（語義1）  
 
 ・事業や資産を自分の側に取り込む取引 → 「買収・資産の取得」（語義2）  
 
-・所有物を自分の側に取り込んだ結果 → 「取得した物・収集品」（語義3）  
+・物や人を自分の側に取り込んだ結果 → 「取得した物・新たに加わった人」（語義3）  
 
 ＃意味・用法・関連表現
 
 1. 【名詞・不可算】取得・獲得・習得
 
-【日本語訳・定義】知識、技能、言語、情報、権利などを、それまで持っていなかった人や組織が得ること。また、顧客を新たに獲得すること。結果だけでなく、その獲得に至る過程を表す。対象によって「取得」「獲得」「習得」と訳し分ける。努力、金銭の支払い、長い時間の経過のいずれも、語そのものの必須条件ではない。  
+【日本語訳・定義】物品、資産、知識、技能、言語、情報、権利などを、それまで持っていなかった人や組織が得ること。また、顧客を新たに獲得すること。結果だけでなく、その獲得に至る過程を表す。対象によって「取得」「獲得」「習得」と訳し分ける。物品や資産の取得は購入に限らず、寄贈や交換による取得にも使う。企業買収は語義2を参照する。努力、金銭の支払い、長い時間の経過のいずれも、語そのものの必須条件ではない。  
 
 【頻度】〈7/10〉  
 
 【レジスター/領域】やや改まった標準語。教育、研究、情報処理、マーケティング、行政文書などで使う。日常会話では getting や learning のほうが平易なことが多い。  
 
-【文法パターン】the acquisition of 〈知識・技能・権利など〉＝～の取得・習得／language acquisition＝言語習得／skill acquisition＝技能習得／data acquisition＝データ取得／customer acquisition＝新規顧客の獲得／acquisition through 〈手段・経験〉＝その手段を通じた獲得／facilitate the acquisition of 〈知識・技能など〉＝その習得を促す。  
+【文法パターン】the acquisition of 〈物品・資産・知識・技能・権利など〉＝～の取得・習得／the acquisition of land by donation＝寄贈による土地の取得／language acquisition＝言語習得／skill acquisition＝技能習得／data acquisition＝データ取得／customer acquisition＝新規顧客の獲得／acquisition through 〈手段・経験〉＝その手段を通じた獲得／facilitate the acquisition of 〈知識・技能など〉＝その習得を促す。  
 
 【コロケーション・構文例】
 
@@ -78,6 +78,11 @@ tags: []
 用途: 習得の経路を through で示す。  
 例: The study focused on vocabulary acquisition through extensive reading.  
 訳: その研究は、多読を通じた語彙習得に焦点を当てた。  
+
+・the acquisition of land by donation  
+用途: 購入以外の方法による土地の取得を述べる。  
+例: The acquisition of land by donation allowed the park to expand.  
+訳: 寄贈による土地の取得で、公園を拡張できた。  
 
 【語法・注意】この意味の acquisition は通常不可算で、skills acquisition や the acquisition of skills は複数の技能を扱っても acquisitions にはしない。the は of 句などで特定した過程を指すときに自然だが、Language acquisition takes time. のような一般論では無冠詞にできる。言語教育では acquisition と learning を特定の理論の中で区別することがあるが、一般英語で「無意識の習得だけ」を acquisition の定義にしてはいけない。customer acquisition は顧客との関係を新たに得ることで、顧客という人を所有する意味ではない。talent acquisition は人材の採用・確保を指す業務表現。data acquisition はデータの取得工程であり、取得後の分析まで自動的に含むわけではない。  
 
@@ -151,7 +156,7 @@ tags: []
 例: She advises mid-sized companies on mergers and acquisitions.  
 訳: 彼女は中堅企業に合併・買収の助言をしている。  
 
-【語法・注意】an acquisition は一件の取引、acquisitions は複数の取引。acquisition strategy のように取得活動を一般化すると不可算的に扱う。the acquisition of A by B は「B が A を取得」であり、主客を逆にしない。A's acquisition of B も A が買い手。acquisition と merger は重なる場面があるが、前者は取得する側と取得対象、後者は組織が一つになることに焦点がある。「acquisition は必ず敵対的」「merger は必ず対等」という区別は誤り。買収対象の法人やブランドが存続する場合もあり、acquisition だけから法人の消滅、全株式の取得、現金払いを推定できない。個別案件の法的構造や承認要件は、国・制度・契約による。  
+【語法・注意】an acquisition は一件の取引、acquisitions は複数の取引。買収という活動・成長手段を一般的に述べるときは、growth through acquisition のように不可算で使う。acquisition strategy の acquisition は strategy を修飾する名詞であり、この形だけから可算・不可算は判断できない。the acquisition of A by B は「B が A を取得」であり、主客を逆にしない。A's acquisition of B も A が買い手。acquisition と merger は重なる場面があるが、前者は取得する側と取得対象、後者は組織が一つになることに焦点がある。「acquisition は必ず敵対的」「merger は必ず対等」という区別は誤り。買収対象の法人やブランドが存続する場合もあり、acquisition だけから法人の消滅、全株式の取得、現金払いを推定できない。個別案件の法的構造や承認要件は、国・制度・契約による。  
 
 【類義語】
 
@@ -192,15 +197,15 @@ tags: []
 例: The divestiture of the retail division was completed in June.  
 訳: 小売部門の売却は6月に完了した。  
 
-3. 【名詞・可算】取得した物・収集品
+3. 【名詞・可算】取得した物・新たに加わった人
 
-【日本語訳・定義】新たに買ったり譲り受けたりして、所有物や収蔵品に加わったもの。美術館、図書館、収集家などの新しい収集品に使うことが多い。日常の買い物を少し大げさに「新しい獲物」「手に入れた品」と言うこともある。購入品に限らず寄贈品にも使える。  
+【日本語訳・定義】新たに買ったり譲り受けたりして、所有物や収蔵品に加わったもの。美術館、図書館、収集家などの新しい収集品に使うことが多い。日常の買い物を少し大げさに「新しい獲物」「手に入れた品」と言うこともある。購入品に限らず寄贈品にも使える。また、スポーツチームなどが新たに獲得した選手・人材本人も指す。  
 
 【頻度】〈6/10〉  
 
-【レジスター/領域】文化施設、収集、やや改まった一般文。日常品に使う場合は、楽しげな調子や軽い気取りを帯びることがある。  
+【レジスター/領域】文化施設、収集、スポーツ・人材獲得、やや改まった一般文。日常品に使う場合は、楽しげな調子や軽い気取りを帯びることがある。  
 
-【文法パターン】a new acquisition＝新たに取得した品／one's latest acquisition＝その人・組織が最近手に入れた品／an acquisition for 〈施設・収集対象〉＝そのために取得した品／recent acquisitions＝最近の収蔵品・購入品／an acquisition from 〈入手先〉＝その入手先から得た品。  
+【文法パターン】a new acquisition＝新たに取得した品／one's latest acquisition＝その人・組織が最近手に入れた品、または新たに獲得した人材／an acquisition for 〈施設・収集対象〉＝そのために取得した品／recent acquisitions＝最近の収蔵品・購入品／an acquisition from 〈入手先〉＝その入手先から得た品。  
 
 【コロケーション・構文例】
 
@@ -224,7 +229,12 @@ tags: []
 例: The bronze figure is a recent acquisition from a private collection.  
 訳: その青銅像は、個人コレクションから最近取得したものだ。  
 
-【語法・注意】この意味では物を数えるので、単数形には an、the、所有格などが必要。The painting is a recent acquisition. では絵そのものを指し、The acquisition of the painting took months. では絵を得る過程・取引を指す。new acquisitions は「新しい品」ではなく「最近入手した品」なので、何百年も前の作品にも使える。企業報道の our latest acquisition は語義2の買収先企業を指す場合があるため、何が加わったかを文脈で判断する。  
+・a team's latest acquisition  
+用途: チームが新たに獲得した選手本人を紹介する。  
+例: The team's latest acquisition is a talented young goalkeeper.  
+訳: そのチームが新たに獲得したのは、才能ある若いゴールキーパーだ。  
+
+【語法・注意】この意味では取得した物や獲得した人を数えるので、単数形には an、the、所有格などが必要。The painting is a recent acquisition. では絵そのものを指し、The acquisition of the painting took months. では絵を得る過程・取引を指す。new acquisitions は「新しい品」ではなく「最近入手した品」なので、何百年も前の作品にも使える。人を指す場合も、その人を所有物とする意味ではなく、チーム・組織への加入を表す。語義1の talent acquisition は採用活動で、この語義の an acquisition は獲得した人材本人。企業報道の our latest acquisition は語義2の買収先企業を指す場合があるため、何が加わったかを文脈で判断する。  
 
 【類義語】
 

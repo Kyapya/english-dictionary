@@ -28,6 +28,16 @@ tags: []
 
 ・post-merger：形容詞「合併後の」。post-merger integration のように、合併が成立した後の業務や組織の統合作業を表す。  
 
+＃コアイメージ
+
+別々だったものが一つにまとまること。組織や要素の統合のほか、法律では一方が他方に吸収され、独立した扱いを失うことに具体化する。  
+
+・一つにまとまる企業・組織 → 「合併・組織の統合」（語義1）  
+
+・一つにまとまる性質・要素 → 「融合・一体化」（語義2）  
+
+・一つにまとまる権利・合意・犯罪 → 「法律上の吸収・統合」（語義3）  
+
 ＃意味・用法・関連表現
 
 1. 【名詞・可算／不可算】合併・組織の統合
@@ -179,3 +189,42 @@ tags: []
 違い: 液滴や物質などが自然にまとまる過程にも使う専門的・文語的な語。merger より日常性が低い。  
 例: The coalescence of small droplets produced larger drops.  
 訳: 小さな液滴が合体して、より大きな滴になった。  
+
+3. 【名詞・主に不可算／法律】法律上の吸収・統合
+
+【日本語訳・定義】権利・合意・犯罪などが別のものに吸収され、法的に独立した扱いを失うこと。契約では先行する合意を最終的な契約書にまとめること、刑法では軽い犯罪がそれを包含する重い犯罪に吸収されることなどを指す。  
+
+【頻度】〈3/10〉  
+
+【レジスター/領域】主に英米法の専門文書。契約・刑法・財産法などで具体的な対象と効果が異なる。  
+
+【文法パターン】a merger clause＝完全合意条項／merger of offenses＝犯罪の吸収／the doctrine of merger＝吸収・統合の法理。  
+
+【コロケーション・構文例】
+
+・a merger clause  
+用途: 契約書を当事者間の最終的かつ完全な合意とする条項を指す。  
+例: The contract contains a merger clause stating that it is the entire agreement between the parties.  
+訳: その契約書には、当事者間の完全な合意をその契約書が示すと定める完全合意条項がある。  
+
+・merger of offenses  
+用途: 包含関係にある犯罪の吸収を述べる。  
+例: The court considered merger of offenses before imposing sentence.  
+訳: 裁判所は、量刑に先立って犯罪の吸収を検討した。  
+
+・the doctrine of merger  
+用途: 対象となる法律分野を明確にして吸収の法理を述べる。  
+例: The lawyer explained how the doctrine of merger applies to lesser included offenses.  
+訳: 弁護士は、より重い犯罪に包含される軽い犯罪に吸収の法理がどう適用されるかを説明した。  
+
+【語法・注意】merger clause の merger は名詞の前置修飾で、「企業合併契約の条項」という意味ではない。integration clause、entire agreement clause とも呼ばれる。犯罪の merger を「複数事件を一緒に審理すること」だけと捉えない。例えば米国ペンシルベニア州法では、同一の犯罪行為に由来し、一方の犯罪の全構成要件が他方に含まれる場合の量刑上の吸収を定める。条項の効力・例外、犯罪の吸収要件は法域・分野による。語義1の企業合併とは区別する。  
+
+【類義語】
+
+・integration clause  
+定義: 契約書が当事者間の最終的かつ完全な合意であると示す条項。  
+頻度: 〈3/10〉  
+違い: 契約の merger clause とほぼ同義。犯罪や財産権の吸収には使わない。  
+例: The parties added an integration clause to the written contract.  
+訳: 当事者は、書面による契約に完全合意条項を加えた。  
+
