@@ -68,8 +68,8 @@ depreciate「価値を下げる・低く評価する」に対応する名詞。d
 
 ・depreciation on 〈保有資産〉  
 用途: 保有する物に生じる経済的な損失を述べる。  
-例: Depreciation on the vehicle was greater than the annual maintenance cost.  
-訳: その車の価値の目減りは、年間の整備費を上回った。  
+例: Depreciation on the vehicle, measured by the fall in its resale value over the year, was greater than the annual maintenance cost.  
+訳: その車の年間の再販売価値の下落で測った目減り額は、年間の整備費を上回った。  
 
 ・a rate of depreciation  
 用途: 一定期間の価値下落の割合を比較する。  
