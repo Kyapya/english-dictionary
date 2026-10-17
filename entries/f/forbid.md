@@ -15,27 +15,27 @@ checked: true
 
 ＃語源
 
-古英語 forbēodan「禁止する」に由来し、否定・阻止を表す接頭要素 for- と bēodan「命じる・告げる」から成る。現代の前置詞 for と bid をその場で組み合わせた語ではない。bid の「命じる」という語義、ドイツ語からの借用語 verboten「厳禁の」と歴史的に関連する。現在の「禁止する」が中心で、事情が許さない用法や、接近をためらわせる forbidding にもつながる。  
+古英語 forbēodan「禁止する」に由来し、否定・阻止を表す接頭要素 for- と bēodan「命じる・告げる」から成る。現代の前置詞 for と bid をその場で組み合わせた語ではない。bid の「命じる」という語義、ドイツ語からの借用語 verboten「厳禁の」と歴史的に関連する。現在の「禁止する」が中心で、事情が許さない用法や、接近や着手をためらわせる forbidding にもつながる。  
 
 ＃語形成
 
-・forbade：標準的な過去形。forbad も古い形として記録される。  
+・forbade：標準的な過去形。異形として forbad もある。  
 
 ・forbidden：過去分詞、および「禁止された・禁断の」という形容詞。  
 
-・forbidding：現在分詞、および「近寄りがたい」という形容詞。  
+・forbidding：現在分詞、および「近寄りがたい・威圧的な・手ごわい」という形容詞。  
 
 ・forbiddingly：副詞「近寄りがたい様子で・威圧的に」。  
 
 ＃コアイメージ
 
-行為や接近の前に「通さない」という制止を置く。権限による禁止、禁止状態、近寄る気をそぐ印象、禁止を願う表現、事情による制約がつながる。語義6は歴史的残存義で、呪われた状態という語彙的意味はこの現代的な核から自然には導けないため、個別に参照する。  
+行為や接近の前に「通さない」という制止を置く。権限による禁止、禁止状態、接近や着手をためらわせる印象、禁止を願う表現、事情による制約がつながる。語義6は歴史的残存義で、呪われた状態という語彙的意味はこの現代的な核から自然には導けないため、個別に参照する。  
 
 ・行為を通さないという命令 → 「～を禁じる・～してはならないと命じる」（語義1）  
 
 ・行為を通さないという規則上の状態 → 「forbidden：禁止された・禁断の」（語義2）  
 
-・接近を通さないという外見の印象 → 「forbidding：近寄りがたい・威圧的な」（語義3）  
+・接近や着手を通さないという印象 → 「forbidding：近寄りがたい・威圧的な・手ごわい」（語義3）  
 
 ・出来事を通さないよう求める願い → 「God forbid：そんなことになりませんように」（語義4）  
 
@@ -125,7 +125,7 @@ checked: true
 例: I knew my father would forbid me going out so late.  
 訳: そんな遅い時間に出かけることは父に禁じられるだろうと分かっていた。  
 
-【語法・注意】forbid to do だけでは行為を目的語にできない。×The rules forbid to smoke. は ○The rules forbid smoking.、人を示すなら ○The rules forbid visitors to smoke. とする。from の後は -ing で、×from to smoke とはしない。forbid someone to do と from doing はいずれも標準的で、前者だけが命令、後者だけが物理的阻止という区別はない。forbid someone doing も実在するが、学習者は to do／from doing を基本にすると明確。二重目的語は access、entry、alcohol などで用いられるが、すべての目的語で自由に交替するわけではない。目的語が明らかな場合の I forbid it.「絶対にだめだ」は it を保つ。not forbid は禁止の不在であり、積極的な承認とは限らない。I forbid you to ... は強く権威的に響くので、日常の穏当な案内では You are not allowed to ... などを使う。forbid oneself to do は自分に課す禁止として作れるが、基本の他動詞構文に再帰目的語を置いたものである。禁止状態を表す形容詞 forbidden は語義2、威圧的な外観を表す forbidding は語義3。  
+【語法・注意】forbid to do だけでは行為を目的語にできない。×The rules forbid to smoke. は ○The rules forbid smoking.、人を示すなら ○The rules forbid visitors to smoke. とする。from の後は -ing で、×from to smoke とはしない。forbid someone to do と from doing はいずれも標準的で、前者だけが命令、後者だけが物理的阻止という区別はない。forbid someone doing も実在するが、学習者は to do／from doing を基本にすると明確。二重目的語は access、entry、alcohol などで用いられるが、すべての目的語で自由に交替するわけではない。目的語が明らかな場合の I forbid it.「絶対にだめだ」は it を保つ。not forbid は禁止の不在であり、積極的な承認とは限らない。I forbid you to ... は強く権威的に響くので、日常の穏当な案内では You are not allowed to ... などを使う。forbid oneself to do は自分に課す禁止として作れるが、基本の他動詞構文に再帰目的語を置いたものである。禁止状態を表す形容詞 forbidden は語義2、近寄りがたい・手ごわい印象を表す forbidding は語義3。  
 
 【類義語】
 
@@ -246,15 +246,15 @@ checked: true
 例: Pets are allowed in this room.  
 訳: この部屋にはペットを入れてよい。  
 
-3. 【形容詞】forbidding：近寄りがたい・威圧的な
+3. 【形容詞】forbidding：近寄りがたい・威圧的な・手ごわい
 
-【日本語訳・定義】人の顔つき・態度や、建物・風景などが、怖そう、冷たそう、手ごわそうに見え、近づく気をそぐさま。実際に接近を禁止していることや、その人が本当に不親切であることまでは表さない。  
+【日本語訳・定義】人の顔つき・態度や、建物・風景などが、怖そう、冷たそう、手ごわそうに見え、近づく気をそぐさま。課題などが手ごわく、取り組む気をそぐ場合にも使う。実際に接近や着手を禁止していることや、その人が本当に不親切であることまでは表さない。  
 
 【頻度】〈5/10〉  
 
-【レジスター/領域】描写的。日常の外見描写から文学まで。  
+【レジスター/領域】描写的。日常の外見描写や課題の難しさの評価から文学まで。  
 
-【文法パターン】a forbidding 〈外観・人・場所〉＝威圧感のある対象／someone/something + look/seem/be forbidding＝近寄りがたい印象を与える／a more/less forbidding 〈対象〉＝威圧感の程度を比較する  
+【文法パターン】a forbidding 〈外観・人・場所〉＝威圧感のある対象／a forbidding task＝取り組む気をそぐ手ごわい課題／someone/something + look/seem/be forbidding＝近寄りがたい・手ごわい印象を与える／a more/less forbidding 〈対象〉＝威圧感・手ごわさの程度を比較する  
 
 【コロケーション・構文例】
 
@@ -278,14 +278,19 @@ checked: true
 例: The new entrance gives the courthouse a less forbidding appearance.  
 訳: 新しい入口のおかげで、その裁判所の外観は以前ほど威圧的ではなくなった。  
 
-【語法・注意】forbidding は現在分詞と同形だが、この意味では形容詞で、very／rather／more／less などの程度修飾ができる。He is forbidding us to enter. は目的語 us と to enter を取る動詞の進行形「私たちが入るのを禁じている」。He looks forbidding. は外見の評価「近寄りがたく見える」。語義2の forbidden「禁止された」と混同しない。  
+・a forbidding task  
+用途: 難しそうで、取り組む気をそぐ課題を表す。  
+例: Rebuilding the entire database was a forbidding task.  
+訳: データベース全体を作り直すのは、ひるんでしまうほど手ごわい課題だった。  
+
+【語法・注意】forbidding は現在分詞と同形だが、この意味では形容詞で、very／rather／more／less などの程度修飾ができる。He is forbidding us to enter. は目的語 us と to enter を取る動詞の進行形「私たちが入るのを禁じている」。He looks forbidding. は外見の評価「近寄りがたく見える」。The task seemed forbidding at first.「その課題は初め、手ごわく感じられた。」では課題への評価になる。語義2の forbidden「禁止された」と混同しない。  
 
 【類義語】
 
 ・intimidating  
 定義: 相手をおじけづかせる。  
 頻度: 〈7/10〉  
-違い: 見た目だけでなく能力・地位・課題の難しさにも使える。  
+違い: 相手をおじけづかせる心理的な作用に重点がある。forbidding も外見だけでなく課題の難しさに使えるが、接近や着手をためらわせる印象を描く。  
 例: Speaking to such a large audience was intimidating.  
 訳: あれほど大勢を前に話すのは気後れした。  
 
@@ -299,7 +304,7 @@ checked: true
 ・daunting  
 定義: 難しそうで気力をくじくような。  
 頻度: 〈6/10〉  
-違い: 特に仕事・課題の困難さによる印象で、冷たい外見とは異なる。  
+違い: 特に仕事・課題の困難さで気力がくじかれる印象に重点がある。forbidding と課題の意味で重なるが、人の冷たい表情や近寄りがたい外観一般を表す語ではない。  
 例: The amount of paperwork was daunting.  
 訳: 書類仕事の量には気が遠くなった。  
 
