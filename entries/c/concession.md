@@ -1,12 +1,12 @@
 ---
 headword: concession
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: OpenAI assistant
 created_at: 2026-10-16
-updated_at: 2026-10-16
-checked: false
+updated_at: 2026-10-17
+checked: true
 tags: []
 ---
 
@@ -22,7 +22,7 @@ tags: []
 
 ＃語形成
 
-・concede：動詞「認める・譲歩する・敗北を認める」。concede a point、concede that 〈節〉、concede defeat など。名詞 concession をそのまま動詞として使わない。  
+・concede：動詞「認める・譲歩する・敗北を認める」。concede a point、concede that 〈節〉、concede defeat など。「認める・譲歩する・敗北を認める」という意味の動詞には concede を使う。  
 
 ・concessionary：形容詞「割引の・優遇された」。特に concessionary fares「割引運賃」など。  
 

@@ -1,12 +1,12 @@
 ---
 headword: disclosure
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: OpenAI assistant
 created_at: 2026-10-16
-updated_at: 2026-10-16
-checked: false
+updated_at: 2026-10-17
+checked: true
 tags: []
 ---
 
