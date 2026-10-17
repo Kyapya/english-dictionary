@@ -31,13 +31,15 @@ tags: []
 
 ＃コアイメージ
 
-基準への適合や事実の真実性を、正式な認定・証明として示すこと。その働き自体、得られた資格、内容を証明する陳述という形で使われる。  
+基準への適合や事実の真実性を、正式な認定・証明として示すこと。その働き自体、得られた資格、内容を証明する陳述、集団訴訟の要件を満たすとの認定という形で使われる。  
 
 ・基準への適合を正式に示す手続き → 「認証・資格認定」（語義1）  
 
 ・基準への適合を正式に示す資格 → 「認定資格・個別の認証」（語義2）  
 
 ・事実の真実性を正式に示す証明 → 「正式な証明・証明書」（語義3）  
+
+・訴訟要件への適合を正式に示す認定 → 「集団訴訟としての認定」（語義4）  
 
 ＃意味・用法・関連表現
 
@@ -265,3 +267,40 @@ certification を一律に notarization「公証」と訳さない。例えば�
 違い: 証明文書そのものを指す可算名詞。certification は証明行為にも使え、特定の文書名には birth certificate のように certificate が定着している。  
 例: The museum issued a certificate of authenticity for the print.  
 訳: 博物館は、その版画について真正性を証明する書類を発行しました。  
+
+4. 【名詞・主に不可算／米国法律】集団訴訟としての認定
+
+【日本語訳・定義】class certification は、裁判所が、訴訟を集団訴訟として進めるための要件を満たすと認めること。請求内容が正しい、または原告が勝訴するとの判断そのものではない。  
+
+【頻度】〈3/10〉  
+
+【レジスター/領域】米国の民事訴訟。集団訴訟の手続きに関する専門用法。  
+
+【文法パターン】class certification＝集団訴訟としての認定／seek class certification＝その認定を求める／grant/deny class certification＝その認定を認める・拒む／a motion for class certification＝認定を求める申立て。  
+
+【コロケーション・構文例】
+
+・seek class certification  
+用途: 集団訴訟として扱うよう求める。  
+例: The plaintiffs sought class certification in the consumer lawsuit.  
+訳: 原告らは、その消費者訴訟を集団訴訟として認定するよう求めました。  
+
+・grant class certification  
+用途: 裁判所が集団訴訟としての認定を認める。  
+例: The court granted class certification after reviewing the requirements of Rule 23.  
+訳: 裁判所は、規則23条の要件を検討した後、集団訴訟としての認定を認めました。  
+
+・deny class certification  
+用途: 裁判所が集団訴訟としての認定を拒む。  
+例: The court denied class certification.  
+訳: 裁判所は、集団訴訟としての認定を認めませんでした。  
+
+・a motion for class certification  
+用途: 認定を求める申立てという手続き上の形を示す。  
+例: The judge scheduled a hearing on the motion for class certification.  
+訳: 裁判官は、集団訴訟としての認定申立てについて審理の日程を設定しました。  
+
+【語法・注意】class certification は通常、無冠詞の不可算表現。  
+
+職業資格の取得（語義1・2）や事実の真実性の証明（語義3）とは区別する。米国連邦裁判所では連邦民事訴訟規則23条が認定を規律し、認定命令は終局判決前に変更・取り消しが可能。認定の拒否と請求自体の棄却を同一視しない。州の制度や個別事件の認定要件・効果を、この語の意味だけから一律に推測しない。  
+
