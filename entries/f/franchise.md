@@ -96,7 +96,7 @@ tags: []
 
 2. 【名詞・可算】フランチャイズ加盟店・加盟事業
 
-【日本語訳・定義】語義1の権利に基づいて運営される個々の店舗や事業。建物だけでなく、その運営事業全体を指す場合もある。チェーン本部の直営店であるとは限らず、加盟者が所有・運営する店にも使う。  
+【日本語訳・定義】語義1の権利に基づいて運営される個々の店舗や事業。建物だけでなく、その運営事業全体を指す場合もある。通常、本部とは別の加盟事業者が権利を得て運営する店舗・事業を指し、本部の直営店とは区別する。  
 
 【頻度】〈6/10〉  
 
@@ -257,9 +257,14 @@ tags: []
 
 【レジスター/領域】ビジネス、商業運営。受動形も多い。  
 
-【文法パターン】franchise 〈事業・店舗〉＝フランチャイズ方式で展開する／franchise 〈事業〉 to someone＝人にその運営権を与える／franchise something out to someone＝事業の運営権を外部に与える／franchise it out＝代名詞目的語を out の前に置く／be franchised (out) to someone＝人に運営を任されている／a franchised outlet＝加盟店。  
+【文法パターン】franchise someone＝人・事業者に加盟権・販売権を与える／franchise 〈事業・店舗〉＝フランチャイズ方式で展開する／franchise 〈事業〉 to someone＝人にその運営権を与える／franchise something out to someone＝事業の運営権を外部に与える／franchise it out＝代名詞目的語を out の前に置く／be franchised (out) to someone＝人に運営を任されている／a franchised outlet＝加盟店。  
 
 【コロケーション・構文例】
+
+・franchise someone  
+用途: 権利を受ける人・事業者を直接目的語にする。  
+例: The manufacturer franchised several local dealers.  
+訳: そのメーカーは複数の地元販売業者に販売権を与えた。  
 
 ・franchise a business  
 用途: 本部側がフランチャイズ方式を採用することを述べる。  
@@ -382,7 +387,7 @@ tags: []
 訳: 旧憲法は選挙権を財産所有者に限定していた。  
 
 ・universal adult franchise  
-用途: 成人の広い層を対象とする選挙権の原則を述べる。  
+用途: 財産・性別などによる制限を設けず、原則としてすべての成人市民に選挙権を認めることを述べる。  
 例: Universal adult franchise became a central demand of the reform movement.  
 訳: 普通成人選挙権は、その改革運動の中心的な要求となった。  
 
@@ -410,3 +415,41 @@ tags: []
 違い: give someone the vote や win the vote でこの意味になる。a vote「一票」や a vote on the proposal「提案への採決」とは区別する。  
 例: The campaign sought the vote for all adult citizens.  
 訳: その運動は、すべての成人市民に選挙権を求めた。  
+
+8. 【名詞・可算】保険金支払いの基準額・フランチャイズ免責
+
+【日本語訳・定義】保険で、損害が所定の金額・割合の基準を満たさなければ補償せず、満たせばその基準額を差し引かずに補償対象の損害を支払う方式、またはその基準額。支払いは約款や保険金額の限度に従う。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】保険、特に海上保険の専門用語。営業権・加盟店の意味とは異なる。  
+
+【文法パターン】a franchise of 〈金額・割合〉＝その金額・割合の支払基準／below the franchise＝その基準未満で／a franchise deductible＝フランチャイズ方式の免責。  
+
+【コロケーション・構文例】
+
+・a franchise of 〈金額〉  
+用途: 保険約款上の損害額の基準を示す。  
+例: The marine insurance policy specifies a franchise of $1,000 for these losses.  
+訳: その海上保険の約款では、これらの損害について1,000ドルのフランチャイズ免責額が定められています。  
+
+・below the franchise  
+用途: 保険金が支払われない基準未満の損害を述べる。  
+例: The insurer made no payment because the covered loss was below the franchise.  
+訳: 補償対象の損害がフランチャイズ免責額に達していなかったため、保険会社は支払いをしませんでした。  
+
+・a franchise deductible  
+用途: 一定の基準を満たせば基準額を差し引かない免責方式を指す。  
+例: With a $1,000 franchise deductible, a covered loss of $1,500 is paid in full, subject to the policy limit.  
+訳: フランチャイズ免責額が1,000ドルなら、補償対象の1,500ドルの損害は、保険金額の限度内で全額支払われます。  
+
+【語法・注意】通常の控除型 deductible は支払額から所定額を差し引くが、この方式の franchise は支払いの有無を分ける基準となる。基準をちょうど満たす場合の扱い、割合の計算対象、補償範囲や限度額は約款で確認する。基準を超えれば契約上補償されない損害まで支払われる、という意味ではない。a franchise of $1,000 だけでは商業契約とも紛らわしいので、insurance、loss、policy などの文脈を読む。  
+
+【類義語】
+
+・franchise deductible  
+定義: 基準未満の損害を補償せず、基準を満たすとその額を差し引かずに支払う免責方式。  
+頻度: 〈2/10〉  
+違い: 保険用語であることを明示できる複合表現。単独の franchise にある加盟店・選挙権などの意味とは混同しにくい。  
+例: The policy uses a franchise deductible rather than an ordinary deductible.  
+訳: その保険契約は、通常の控除型免責ではなくフランチャイズ方式の免責を採用しています。  
