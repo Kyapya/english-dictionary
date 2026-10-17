@@ -34,13 +34,13 @@ tags: []
 
 1. 【名詞・可算／不可算】免除・適用除外・免責
 
-【日本語訳・定義】通常なら課される義務、負担、税、要件、規則などについて、特定の人・物・場合を適用対象から外すこと、外されている状態、またはそのような扱いを認める個別の取り決め。試験、手数料、申告義務、規制などに広く使う。免除は規則自体が定める場合も、個別に認める場合もあり、必ず本人の申請や特別な裁量判断を必要とするという意味ではない。  
+【日本語訳・定義】通常なら課される義務、負担、税、要件、規則などについて、特定の人・物・場合を適用対象から外すこと、外されている状態、またはそのような扱いを認める個別の取り決め。試験、手数料、申告義務、規制などに広く使う。米国法では、債務者の一定の財産を差押え・破産時の換価などの対象から保護する扱いも含む。免除は規則自体が定める場合も、個別に認める場合もあり、必ず本人の申請や特別な裁量判断を必要とするという意味ではない。  
 
 【頻度】〈7/10〉  
 
 【レジスター/領域】行政、税務、法務、教育、雇用、事業運営などで使う標準的な制度・説明語。会話でも、支払いや義務を免除してもらう場面で使える。  
 
-【文法パターン】exemption from 〈税・義務・規則〉＝それからの免除／exemption from 〈動名詞〉＝その行為を行う義務の免除／an exemption for 〈対象者・対象物〉＝その人・物に適用される免除／the exemption of 〈対象〉 from 〈義務〉＝対象をその義務から除外すること／apply for/seek an exemption＝免除を申請する・求める／grant someone an exemption＝誰かに免除を認める／qualify for exemption＝免除の条件を満たす／claim an exemption＝免除の適用を申し出る・主張する／a blanket/partial/temporary exemption＝一律・部分的・一時的な免除／an exemption clause＝免責条項。  
+【文法パターン】exemption from 〈税・義務・規則〉＝それからの免除／exemption from 〈動名詞〉＝その行為を行う義務の免除／an exemption for 〈対象者・対象物〉＝その人・物に適用される免除／the exemption of 〈対象〉 from 〈義務〉＝対象をその義務から除外すること／apply for/seek an exemption＝免除を申請する・求める／grant someone an exemption＝誰かに免除を認める／qualify for exemption＝免除の条件を満たす／claim an exemption＝免除の適用を申し出る・主張する／claim an exemption for 〈財産〉＝財産について執行・換価からの保護の適用を申し出る（米国法）／a blanket/partial/temporary exemption＝一律・部分的・一時的な免除／an exemption clause＝免責条項。  
 
 【コロケーション・構文例】
 
@@ -84,6 +84,11 @@ tags: []
 例: The company claimed an exemption from the disclosure requirement, but the regulator rejected its claim.  
 訳: 会社は開示義務の適用除外を主張したが、規制当局はその主張を認めなかった。  
 
+・claim an exemption for 〈財産〉  
+用途: 米国の破産手続きで、財産を換価などから保護する規定の適用を申し出る。  
+例: The debtor claimed an exemption for her car in the bankruptcy proceedings.  
+訳: 債務者は破産手続きで、自分の車について財産保護の適用を申し出た。  
+
 ・a blanket exemption  
 用途: 該当する範囲全体への一律の免除を表す。  
 例: The association requested a blanket exemption for all of its members.  
@@ -94,7 +99,7 @@ tags: []
 例: The lawyer reviewed the exemption clause to determine which liabilities it covered.  
 訳: 弁護士は、その免責条項がどの責任を対象とするかを確かめるため、内容を検討した。  
 
-【語法・注意】免除という状態・仕組みは不可算で grant exemption、個別の免除や規定は可算で grant an exemption、several exemptions とする。from は原則として免除される負担・規則、for は免除を受ける人・物を示すので、an exemption for students from the fee は「学生に対する料金免除」。from の後ろで動作を表すなら from taking the test と動名詞にし、from take や from to take とはしない。apply for an exemption は申請、qualify for exemption は条件充足、grant an exemption は免除を認めること、claim an exemption は適用を申し出る・主張することで、どれも同じ手続きではない。exception は「通常の規則・傾向と違うケース」一般で、免除の許可を伴わなくても使える。an exception to the rule は規則の例外、an exemption from the fee は料金を払う義務の免除。no exception「例外なし」と no exemption「免除なし」も区別する。exemption clause は契約の免責・責任制限に関わる語で、条項が存在すれば必ず有効になるとは限らない。税、試験、開示義務などの具体的な成立条件・効果は、それぞれの制度で決まる。  
+【語法・注意】免除という状態・仕組みは不可算で grant exemption、個別の免除や規定は可算で grant an exemption、several exemptions とする。from は原則として免除される負担・規則、for は免除を受ける人・物を示すので、an exemption for students from the fee は「学生に対する料金免除」。from の後ろで動作を表すなら from taking the test と動名詞にし、from take や from to take とはしない。apply for an exemption は申請、qualify for exemption は条件充足、grant an exemption は免除を認めること、claim an exemption は適用を申し出る・主張することで、どれも同じ手続きではない。exception は「通常の規則・傾向と違うケース」一般で、免除の許可を伴わなくても使える。an exception to the rule は規則の例外、an exemption from the fee は料金を払う義務の免除。no exception「例外なし」と no exemption「免除なし」も区別する。exemption clause は契約の免責・責任制限に関わる語で、条項が存在すれば必ず有効になるとは限らない。税、試験、開示義務などの具体的な成立条件・効果は、それぞれの制度で決まる。米国の強制執行・破産の文脈での財産保護は、債務そのものの免責（discharge）や税の免除とは異なる。対象財産・保護される価値の限度・例外は適用法によって異なり、申し出れば財産全体やあらゆる債権者に対して必ず保護されるという意味ではない。  
 
 【類義語】
 
