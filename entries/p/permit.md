@@ -77,7 +77,7 @@ checked: true
 ・permit doing something  
 用途: 行為者を置かず、行為そのものを認める。  
 例: The library permits eating in the designated lounge.  
-訳: 図書館では指定ラウンジでの飲食を認めている。  
+訳: 図書館では指定ラウンジでの食事を認めている。  
 
 ・permit someone access to something  
 用途: 人に閲覧・利用を認める二重目的語。  
@@ -129,7 +129,7 @@ checked: true
 例: If you will permit, I would like to add a brief comment.  
 訳: お許しいただけるなら、短い意見を一つ付け加えたいと思います。  
 
-【語法・注意】×permit someone do は ○permit someone to do、行為者を置かない ×permit to smoke は ○permit smoking とする。let someone do には to がないが、permit には必要。二重目的語は permit someone access／entry／contact などに多く、任意の物に自由に使えるわけではない。permit oneself a smile は自制を緩めて「思わず少し笑う・微笑を浮かべる」ことを許す描写で、公的手続きとは関係しない。能動で主語と許可の相手が同じときは oneself を使うが、I was permitted to leave. は普通の受動態であり、再帰代名詞を省略した形ではない。not permitted は規則上の禁止によく使う。行為が許されていることから、その実行や話者の賛成までは推定できない。Permit me to ... は丁寧でも儀礼的・格式張った響きがある。permitted は過去分詞として the permitted use／the maximum permitted level など名詞の前にも置ける。permitted だけで必ず上限を意味するわけではなく、a permitted level は認められた水準を指す。許可の内容が文脈で明らかな if you will permit のような自動詞的用法もある。日常では if I may がより簡潔である。  
+【語法・注意】×permit someone do は ○permit someone to do、行為者を置かない ×permit to smoke は ○permit smoking とする。let someone do には to がないが、permit には必要。二重目的語は permit someone access／entry／contact などに多く、任意の物に自由に使えるわけではない。permit oneself a smile は、自制を緩めて自分に微笑を浮かべることを許す描写で、公的手続きとは関係しない。能動で主語と許可の相手が同じときは oneself を使うが、I was permitted to leave. は普通の受動態であり、再帰代名詞を省略した形ではない。not permitted は規則上の禁止によく使う。行為が許されていることから、その実行や話者の賛成までは推定できない。Permit me to ... は丁寧でも儀礼的・格式張った響きがある。permitted は過去分詞として the permitted use／the maximum permitted level など名詞の前にも置ける。permitted だけで必ず上限を意味するわけではなく、a permitted level は認められた水準を指す。許可の内容が文脈で明らかな if you will permit のような自動詞的用法もある。日常では if I may がより簡潔である。  
 
 【類義語】
 
