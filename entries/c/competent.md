@@ -49,6 +49,8 @@ compete「競争する」と competition「競争」も、同じラテン語 com
 
 ・必要な条件を備える荷重・応力の受け手 → 「荷重・変形に耐える」（語義8）  
 
+・必要な条件を備える逆流防止の弁 → 「十分に閉じて逆流を防ぐ」（語義9）  
+
 ＃意味・用法・関連表現
 
 1. 【形容詞・限定／叙述】必要な能力がある・有能な
@@ -407,8 +409,8 @@ capacity と competence は分野により重なったり区別されたりす�
 
 ・be competent evidence of something  
 用途: 資料が何を示す適格証拠になるかを述べる。  
-例: The court treated the receipts as competent evidence of payment.  
-訳: 裁判所は、その領収書を支払いを示す適格な証拠として扱った。  
+例: The receipts were competent evidence of payment.  
+訳: その領収書は、支払いを示す適格な証拠だった。  
 
 【語法・注意】competent evidence を一律に「決定的な証拠」「有罪を証明するのに十分な証拠」と訳さない。証拠として採用できるかという admissibility、争点を証明する力である probative value、結論を支える量・質が足りるかという sufficiency は区別される。文脈によって competent evidence に関連性や一定の証明力まで求める用法もあるため、法的文章では周囲の定義を確認する。  
 
@@ -552,3 +554,36 @@ competent の後ろに to take up DNA や for transformation が付くことが�
 違い: 岩石・地層の力学的性質という同一軸での反対。人の無能力を表す語義とは区別する。  
 例: The incompetent layers deformed more readily than the adjacent sandstone beds.  
 訳: 変形抵抗の小さい地層は、隣接する砂岩層よりも容易に変形した。  
+
+9. 【形容詞・医学・限定／叙述】十分に閉じて逆流を防ぐ
+
+【日本語訳・定義】心臓弁・静脈弁などが十分に閉じ、血液の逆流を防ぐ機能を備えている。「閉鎖機能が保たれた」「逆流を防げる」と訳す。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】循環器医学、心臓血管外科などの専門用法。  
+
+【文法パターン】a competent valve＝閉鎖機能が保たれた弁／〈弁〉 + be/remain competent＝逆流を防ぐ機能がある・保たれる。限定用法・叙述用法の両方で使い、ここでは仕事の能力の高低ではなく弁の閉鎖機能を述べる。  
+
+【コロケーション・構文例】
+
+・a competent valve  
+用途: 十分に閉じて血液の逆流を防ぐ弁を示す。  
+例: A competent valve prevents blood from flowing backward.  
+訳: 閉鎖機能が保たれた弁は、血液の逆流を防ぐ。  
+
+・remain competent  
+用途: 修復後などにも、弁の閉鎖機能が保たれていることを述べる。  
+例: The repaired mitral valve remained competent at follow-up.  
+訳: 経過観察時にも、修復した僧帽弁の閉鎖機能は保たれていた。  
+
+【語法・注意】competent valve は、逆流を防ぐための閉鎖機能についての表現。「正常な弁」とだけ覚えて、狭窄など他の異常がすべてないと解釈しない。語義6のDNA取り込み能や語義7の免疫・発生の応答能とは、対象機能が異なる。  
+
+【反意語】
+
+・incompetent  
+定義: 弁が十分に閉じず、血液の逆流を許す。  
+頻度: 〈2/10〉  
+違い: 弁の閉鎖機能が保たれているかどうかという同一軸での反対。人の能力不足という意味ではない。  
+例: The scan showed an incompetent valve with backward flow of blood.  
+訳: 検査画像では、閉鎖不全のある弁と血液の逆流が認められた。  
