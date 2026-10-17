@@ -134,7 +134,7 @@ exclusive「他を除く・特定の相手に限られた」に、性質を表�
 
 【レジスター/領域】高級品、旅行、ホテル、広告、ブランド論。好意的・販売促進的な評価を伴うことが多い。  
 
-【文法パターン】a sense/air of exclusivity＝特別な人だけに開かれた感じ／the exclusivity of 〈商品・場所〉＝商品・場所の限定性／maintain/preserve exclusivity＝限定的な価値を維持する／lose its exclusivity＝特別感が薄れる。  
+【文法パターン】a sense of exclusivity＝特別な人だけに開かれた感じ／an air of exclusivity＝限られた人だけのものという雰囲気／the exclusivity of 〈商品・場所〉＝商品・場所の限定性／maintain/preserve exclusivity＝限定的な価値を維持する／lose its exclusivity＝特別感が薄れる。  
 
 【コロケーション・構文例】
 
@@ -158,7 +158,7 @@ exclusive「他を除く・特定の相手に限られた」に、性質を表�
 例: The resort lost some of its exclusivity as large tour groups began to arrive.  
 訳: 大規模な団体旅行客が訪れるようになり、そのリゾートの特別感はいくらか薄れた。  
 
-【語法・注意】この意味は段階的で、a degree of exclusivity や lose some of its exclusivity と表現できる。語義1の契約上の独占が有無・範囲を問題にするのに対し、ここでは利用者の感じる限定感が焦点。expensive であるだけで exclusivity があるとは限らず、広く誰でも買える高額品もある。a sense of exclusivity の a は sense に付く冠詞で、exclusivity 自体を可算にしているわけではない。luxury は快適さ・ぜいたくさ、exclusivity はアクセスできる人が限られることを強調する。  
+【語法・注意】この意味は段階的で、a degree of exclusivity や lose some of its exclusivity と表現できる。語義1の契約上の独占が有無・範囲を問題にするのに対し、ここでは利用者の感じる限定感が焦点。expensive であるだけで exclusivity があるとは限らず、広く誰でも買える高額品もある。a sense of exclusivity の a は sense に付く冠詞で、exclusivity 自体を可算にしているわけではない。luxury は快適さ・ぜいたくさ、exclusivity はアクセスできる人が限られることを強調する。関連語 prestige は社会的評価・威信を表し、利用者が限られること自体を意味しない。  
 
 【類義語】
 
@@ -168,13 +168,6 @@ exclusive「他を除く・特定の相手に限られた」に、性質を表�
 違い: この語義では exclusivity と非常に近い。exclusiveness は集団の閉鎖性を述べる文脈にも使えるので、評価は周囲の語で判断する。  
 例: The hotel's appeal lies partly in its exclusiveness.  
 訳: そのホテルの魅力の一部は、限られた人だけが利用するという点にある。  
-
-・prestige  
-定義: 社会的な評価の高さ・名声。  
-頻度: 〈6/10〉  
-違い: exclusivity の特別な価値と重なることはあるが、利用者の少なさではなく評価・威信を指す。  
-例: The award added to the institution's prestige.  
-訳: その受賞によって、機関の名声はさらに高まった。  
 
 ・rarity  
 定義: 存在数や遭遇機会が少ないという性質。  
