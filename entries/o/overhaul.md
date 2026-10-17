@@ -1,0 +1,370 @@
+---
+headword: overhaul
+type: word
+status: checked
+prompt_version: entry_spec_v5
+model: OpenAI assistant
+created_at: 2026-10-16
+updated_at: 2026-10-17
+checked: true
+tags: []
+---
+
+＃発音記号
+
+動詞は、米: /ˌoʊ.vɚˈhɑːl/｜英: /ˌəʊ.vəˈhɔːl/。名詞は、米: /ˈoʊ.vɚˌhɑːl/｜英: /ˈəʊ.vəˌhɔːl/。どちらも3音節で、動詞は第3音節に主強勢、第1音節に副強勢、名詞は第1音節に主強勢、第3音節に副強勢があるのが基本。米英差は、第1音節の /oʊ/ と /əʊ/、第2音節の r の響きを伴う /ɚ/ と伴わない /ə/、第3音節の /ɑː/ と /ɔː/ にある。米音の第3音節には /ɔː/ を用いる発音もあり、米国では動詞にも名詞と同じ強勢型が見られる。名詞・動詞の基本的な強勢差を押さえつつ、地域・話者による変異として扱う。  
+
+＃語源
+
+over- と haul「引っ張る」を組み合わせた語。初期には船の滑車装置の綱を緩める航海用語として使われ、その後、詳しく点検して整備する意味が定着した。「追いつく・追い抜く」の意味には、歴史的に overhale という形との関係がある。整備義から「修理したので相手を抜く」と説明するのは誤り。同じ haul を含む語には haulier「運送業者・主に英」と haulage「貨物の陸上輸送・主に英」があるが、これらは overhaul の派生語ではなく、haul を共有する語である。  
+
+＃語形成
+
+・overhauls：動詞の三人称単数現在形、または名詞の複数形。The firm overhauls engines. では動詞、two engine overhauls では名詞。  
+・overhauled：動詞の過去形・過去分詞。an overhauled engine「整備済みのエンジン」のような名詞修飾にも使うが、独立した別の評価義を持つ形容詞として覚える必要はない。  
+・overhauling：現在分詞・動名詞。overhauling the system では system を目的語に取る動名詞、an overhaul of the system では of で対象を示す名詞になり、構造が異なる。  
+・engine overhaul：名詞の複合表現。「エンジンの分解整備」。overhaul は一語で書き、over haul や over-haul に分けない。  
+
+＃コアイメージ
+
+主要な整備・改革義の核は、「対象を全体的に調べ、必要な部分へ広く手を入れること」。物理的な機械にも、抽象的な制度や方法にも使う。語義5は歴史的残存義で、「全体を見直して手を入れる」という核から追いつく・追い抜く意味は導けないため、個別に参照する。  
+
+・全体に手を入れる制度・方法の改革 → 「抜本的な見直し・大幅な改革」（語義1）  
+
+・全体に手を入れる制度・方法への働きかけ → 「抜本的に見直す・大幅に改革する」（語義2）  
+
+・全体に手を入れる機械・設備への働きかけ → 「総点検して整備する・分解修理する」（語義3）  
+
+・全体に手を入れる機械・設備の整備作業 → 「総点検・分解整備」（語義4）  
+
+＃意味・用法・関連表現
+
+1. 【名詞・可算】抜本的な見直し・大幅な改革
+
+【日本語訳・定義】制度、仕組み、組織運営、計画などの全体を調べ、改善のために広く変更を加えること。また、その一まとまりの改革。個々の小さな修正よりも範囲の広い見直しを示す。改善を目的とする響きはあるが、改革が成功することや、従来の要素をすべて捨てることまでは意味しない。  
+
+【頻度】〈6/10〉  
+
+【レジスター/領域】報道・政治・経営・行政・業務改善。比喩的な「仕組みの大修理」として広く使う。  
+
+【文法パターン】an overhaul of 〈制度・方法〉／a major overhaul／a radical overhaul／undergo an overhaul／call for an overhaul／give 〈制度・方法〉 an overhaul／a long-overdue overhaul。単数では通常 an／the などを伴い、別々の改革は overhauls と数える。  
+
+【コロケーション・構文例】
+
+・an overhaul of 〈制度・方法〉  
+用途: 改革する対象を名詞の of 句で示す。  
+例: The report recommends an overhaul of the admissions process.  
+訳: その報告書は入学者選考の仕組みを抜本的に見直すよう勧告しています。  
+
+・a radical overhaul  
+用途: 改革の程度や範囲が大きいことを強調する。  
+例: The committee proposed a radical overhaul of the funding rules.  
+訳: 委員会は資金配分ルールの抜本改革を提案しました。  
+
+・undergo an overhaul  
+用途: 制度・仕組みを主語にして、大きな見直しを受けることを表す。  
+例: The company's complaints procedure is undergoing an overhaul.  
+訳: その会社の苦情処理手続きは、現在大幅に見直されています。  
+
+・call for an overhaul  
+用途: 全体的な改革の必要性を訴える。  
+例: Staff representatives called for an overhaul of the promotion system.  
+訳: 従業員代表は昇進制度の抜本的な見直しを求めました。  
+
+・give 〈制度・方法〉 an overhaul  
+用途: give を使って、対象へ一まとまりの見直しを施すことを述べる。  
+例: We gave our booking process a major overhaul to reduce errors.  
+訳: 入力ミスを減らすため、予約手続きを大幅に見直しました。  
+
+・a long-overdue overhaul  
+用途: 以前から必要だったのに遅れていた改革を評価する。  
+例: The new policy is the first step in a long-overdue overhaul of staff training.  
+訳: 新方針は、長らく先送りされてきた職員研修の抜本的な見直しへの第一歩です。  
+
+【語法・注意】動詞の overhaul the system に対応する名詞句は an overhaul of the system。誤: an overhaul the system → 正: an overhaul of the system。an overhaul to the system という結合も実例はあるが、対象を示す基本形としては of を覚える。overhaul はそれ自体に大きく手を入れる含みがあり、major／radical／complete はその程度をさらに示す。ただし「全部を交換する」と同義ではない。a failed overhaul「失敗した改革」のように結果を否定できる。give the system an overhaul は、動詞 give の目的語に名詞 overhaul が入った構文であり、overhaul 自身が二重目的語を取るわけではない。overhaul は通常可算で、一般的な単数の叙述なら The system needs an overhaul. とする。辞書的な反意語ではないが、a minor adjustment「小さな調整」と対照させると変更規模が分かりやすい。  
+
+【類義語】
+
+・reform  
+定義: 制度や慣行の問題点を改めること。  
+頻度: 〈7/10〉  
+違い: 社会・制度上の望ましくない点の改善を強調し、個別の改革にも使う。overhaul は対象の仕組み全体に広く手を入れる規模感が強い。  
+例: The proposal includes reforms to the inspection process.  
+訳: その提案には検査手続きの改革が含まれています。  
+
+・restructuring  
+定義: 組織や仕組みの構成を組み替えること。  
+頻度: 〈6/10〉  
+違い: 部門、役割、資金などの構造の変更が中心。overhaul は構造変更に限らず、手順・規則・運用の広い見直しにも使う。  
+例: The restructuring combined three regional teams into one.  
+訳: その組織再編で、三つの地域チームが一つになりました。  
+
+・revamp  
+定義: よくするために大きく作り直すこと。  
+頻度: 〈5/10〉  
+違い: overhaul と近いが、revamp は比較的くだけた響きで、外見・体裁や企画の刷新にも使いやすい。  
+例: The website received a revamp with clearer navigation and new images.  
+訳: ウェブサイトは、分かりやすいナビゲーションと新しい画像を取り入れて刷新されました。  
+
+・revision  
+定義: 計画・文章・規則などを検討して修正すること。  
+頻度: 〈7/10〉  
+違い: 一部の修正も含み、変更規模を必ずしも示さない。overhaul は広範囲の変更を想定させる。  
+例: A minor revision to the schedule solved the problem.  
+訳: 日程を少し修正すると問題は解決しました。  
+
+2. 【動詞・他動詞】抜本的に見直す・大幅に改革する
+
+【日本語訳・定義】制度、方法、組織の運営、計画などを詳しく検討し、よりよくするために大きく変更する。人や組織が改革の主体で、仕組み・手順・方針などが対象になる。単に現状を調べて報告するより、変更・再構成まで進める意味で使うことが多い。  
+
+【頻度】〈6/10〉  
+
+【レジスター/領域】報道・政治・ビジネス・組織運営。名詞の改革義と同じ意味領域の他動詞。  
+
+【文法パターン】overhaul 〈制度・方法〉／overhaul the way + 〈主語＋動詞〉／completely overhaul 〈仕組み〉／〈制度〉 + be overhauled／overhaul 〈手順〉 to 〈目的を表す動詞〉。受動態は自然。目的を示す to 不定詞は overhaul の必須補語ではない。  
+
+【コロケーション・構文例】
+
+・overhaul 〈制度・方法〉  
+用途: 改革する制度・方法を直接目的語に置く。  
+例: The university plans to overhaul its examination system.  
+訳: 大学は試験制度を抜本的に見直す予定です。  
+
+・overhaul the way + 〈主語＋動詞〉  
+用途: 「どのように行うか」という方法全体を見直す。  
+例: The charity overhauled the way it distributed emergency supplies.  
+訳: その慈善団体は緊急物資の配布方法を抜本的に見直しました。  
+
+・completely overhaul 〈仕組み〉  
+用途: 変更が広範囲に及ぶことを強調する。  
+例: We completely overhauled our recruitment process after reviewing applicants' feedback.  
+訳: 応募者の意見を検討した後、採用手続きを全面的に見直しました。  
+
+・〈制度〉 + be overhauled  
+用途: 改革の対象を主語にする受動態。  
+例: The grant application process was overhauled to make the criteria clearer.  
+訳: 助成金の申請手続きは、審査基準を明確にするため大幅に見直されました。  
+
+・overhaul 〈手順〉 to 〈目的を表す動詞〉  
+用途: 改革の対象に加えて、その目的を示す。  
+例: The firm overhauled its approval procedures to shorten waiting times.  
+訳: その会社は待ち時間を短くするため、承認手順を抜本的に見直しました。  
+
+【語法・注意】他動詞なので、誤: overhaul of the policy → 正: overhaul the policy。名詞なら an overhaul of the policy とする。the way it operates のようなまとまりは目的語の名詞句であり、overhaul が直接 that 節を取るという意味ではない。誤: overhaul that the system is slow → 正: overhaul the slow system。通常は動詞に対象を添え、The system was overhauled. の受動形で対象の変化を示す。overhaul は一語の動詞で、句動詞のように over と haul を分離しない。代名詞目的語は overhaul it。overhauled procedures は「見直された手順」という過去分詞の名詞修飾で、特殊な形容詞義ではない。改革の中身を示さず人そのものを overhaul すると、一般的な「その人を指導する」の意味にはならず、不自然または特殊な比喩になる。  
+
+【類義語】
+
+・reform  
+定義: 制度や慣行の問題点を改める。  
+頻度: 〈7/10〉  
+違い: 問題の是正を重視し、変更規模は文脈次第。overhaul は広く見直して大きく変えることを示す。  
+例: The government promised to reform the licensing rules.  
+訳: 政府は許認可の規則を改めると約束しました。  
+
+・restructure  
+定義: 組織や制度の構造を組み替える。  
+頻度: 〈6/10〉  
+違い: 構成要素の配置や関係を変える点に焦点がある。overhaul は構造以外の手順・内容を大きく修正する場合も含む。  
+例: The company restructured its sales department.  
+訳: 会社は営業部門を再編しました。  
+
+・revamp  
+定義: 既存の物や仕組みを新しい形へ大きく作り直す。  
+頻度: 〈6/10〉  
+違い: overhaul よりくだけた調子で、見た目や商品企画の刷新にも使う。どちらも単なる点検だけを述べる語ではない。  
+例: The museum revamped its online exhibition.  
+訳: 博物館はオンライン展示を刷新しました。  
+
+3. 【動詞・他動詞】総点検して整備する・分解修理する
+
+【日本語訳・定義】機械、車両、設備などを詳しく調べ、必要な清掃・修理・調整・部品交換を行って、よく使える状態に整える。大掛かりな整備では分解を伴うことが多く「分解修理する」と訳せるが、一般語として常にすべての部品を分解・交換することを保証するわけではない。故障後だけでなく、予定された整備にも使う。  
+
+【頻度】〈5/10〉  
+
+【レジスター/領域】機械・自動車・設備保全・航空・船舶など。単純な日常点検より、徹底した整備を表す。  
+
+【文法パターン】overhaul 〈機械・設備〉／have 〈機械〉 overhauled／〈機械〉 + be overhauled by 〈整備者〉／〈機械〉 + need to be overhauled／a recently overhauled 〈機械〉。対象を直接目的語に取り、受動態もよく使う。  
+
+【コロケーション・構文例】
+
+・overhaul 〈機械・設備〉  
+用途: 機械を詳しく調べて本格的に整備する。  
+例: The workshop will overhaul the engine and replace the worn seals.  
+訳: 整備工場はエンジンを分解整備し、摩耗したシールを交換します。  
+
+・have 〈機械〉 overhauled  
+用途: 所有者が整備業者などに機械を整備してもらうことを述べる。  
+例: We had the generator overhauled before the winter season.  
+訳: 冬を迎える前に、発電機を総点検して整備してもらいました。  
+
+・〈機械〉 + be overhauled by 〈整備者〉  
+用途: 受動態で、整備される物と担当者を示す。  
+例: The pumps were overhauled by a specialist maintenance team.  
+訳: ポンプは専門の保守チームによって総点検・整備されました。  
+
+・〈機械〉 + need to be overhauled  
+用途: 使い続けるために本格的な整備が必要なことを示す。  
+例: The compressor needs to be overhauled before it can return to service.  
+訳: その圧縮機は、再び運転する前に総点検・整備が必要です。  
+
+・a recently overhauled 〈機械〉  
+用途: 整備を受けた物を、過去分詞で名詞の前から説明する。  
+例: The boat is fitted with a recently overhauled diesel engine.  
+訳: その船には、最近分解整備されたディーゼルエンジンが搭載されています。  
+
+【語法・注意】repair は特定の故障・損傷の修理でも使うが、overhaul は全体を調べて広く整備する響きがある。オイル交換だけを当然に overhaul と呼ぶわけではない。点検して必要な整備を行うので、すでに故障していることは前提ではない。have the engine overhauled は have + 目的語 + 過去分詞の使役構文で、所有者自身が整備するとは限らない。I overhauled the engine. は通常、自分が整備を行ったことを述べる。目的語の後に前置詞を挟まず、overhaul it とする。be overhauled は作業を受ける受動態で、an overhauled engine はその結果を示す名詞修飾。分野ごとの正式な整備基準・認定要件まで一般語の定義から推定してはならない。  
+
+【類義語】
+
+・repair  
+定義: 故障や損傷を直す。  
+頻度: 〈9/10〉  
+違い: 一箇所の不具合を直す場合にも使う。overhaul は点検と広範囲の整備をまとめて表す。  
+例: The mechanic repaired a leak in the fuel line.  
+訳: 整備士は燃料配管の漏れを修理しました。  
+
+・service  
+定義: 機械や車両を定期点検し、必要な保守を行う。  
+頻度: 〈6/10〉  
+違い: 日常的・定期的な保守を含む。overhaul は通常、それより本格的に調べて整備する作業を想定させる。  
+例: We service the heating equipment every autumn.  
+訳: 毎年秋に暖房機器の点検整備をしています。  
+
+・recondition  
+定義: 使用した機械や部品を良好な作動状態へ戻す。  
+頻度: 〈4/10〉  
+違い: 使用状態の回復を強調する。overhaul はそのために全体を詳しく調べて手を入れる作業に焦点がある。  
+例: The supplier reconditions used industrial motors.  
+訳: その供給業者は中古の産業用モーターを再生整備しています。  
+
+・refurbish  
+定義: 既存の物を清掃・補修・交換などでよい状態へ整える。  
+頻度: 〈5/10〉  
+違い: 外観、内装、備品の更新も含み、建物や家具にも使う。overhaul は機械の機能・作動部分への本格的な整備を強調しやすい。  
+例: The operator refurbished the train's passenger compartments.  
+訳: 運行会社は列車の客室を改装しました。  
+
+4. 【名詞・可算／整備工程として不可算的にも使用】総点検・分解整備
+
+【日本語訳・定義】機械や設備の状態を詳しく調べ、必要な修理・調整などを施す大掛かりな整備。また、その一回の作業。日本語の「オーバーホール」に対応する代表的な用法。故障箇所だけの応急修理より、機械全体や重要部分を整えることに焦点がある。  
+
+【頻度】〈5/10〉  
+
+【レジスター/領域】機械・自動車・設備保全・運輸。個別の整備は可算で、技術文書では整備工程として無冠詞でも使う。  
+
+【文法パターン】an overhaul of 〈機械・設備〉／an engine overhaul／undergo a complete overhaul／carry out an overhaul／send 〈機械〉 for overhaul／between overhauls／overhaul costs。通常の可算形と、for overhaul のような工程を示す無冠詞の結合を区別する。  
+
+【コロケーション・構文例】
+
+・an overhaul of 〈機械・設備〉  
+用途: 整備する機械・設備を of で示す。  
+例: An overhaul of the cooling system revealed several worn valves.  
+訳: 冷却装置の総点検・整備で、いくつかのバルブの摩耗が見つかりました。  
+
+・undergo a complete overhaul  
+用途: 機械などを主語にして、全面的な整備を受けることを述べる。  
+例: The locomotive underwent a complete overhaul during the winter.  
+訳: その機関車は冬の間に全面的な分解整備を受けました。  
+
+・carry out an overhaul  
+用途: 整備を担当する人や業者の作業を示す。  
+例: Our engineers carried out an overhaul of the hydraulic system.  
+訳: 当社の技術者が油圧装置の総点検・整備を行いました。  
+
+・send 〈機械〉 for overhaul  
+用途: 機器を整備工程へ送ることを、無冠詞の名詞で表す。  
+例: The damaged pump was removed and sent for overhaul.  
+訳: 損傷したポンプは取り外され、総点検・整備に送られました。  
+
+・between overhauls  
+用途: 一回の本格整備から次回までの期間を述べる。  
+例: Routine inspections are carried out between overhauls.  
+訳: 分解整備と次の分解整備の間にも、通常の点検を行います。  
+
+・overhaul costs  
+用途: 本格整備にかかる費用を示す名詞修飾。  
+例: The estimate includes labour, replacement parts, and other overhaul costs.  
+訳: 見積額には、人件費、交換部品代、その他の分解整備費用が含まれています。  
+
+【語法・注意】一般的には The engine needs an overhaul. と可算名詞として言う。技術的な工程の表現では send an engine for overhaul／after overhaul のように無冠詞でも使い、すべての文脈で an が必須というわけではない。複数回なら regular overhauls。名詞の主強勢は通常、語頭にある。the overhaul of the engine の of the engine は名詞を説明する句で、動詞なら overhaul the engine と前置詞なしになる。inspection は調べることに重点があり、修理を必ず含まない。overhaul は必要な整備まで行うまとまりを表すが、整備済みという語だけから新品であることや全部品交換を読み取らない。  
+
+【類義語】
+
+・servicing  
+定義: 機械や車両の点検・調整などの保守作業。  
+頻度: 〈6/10〉  
+違い: 通常の定期保守を広く含む。overhaul は本格的・広範囲の整備を指しやすい。  
+例: Regular servicing can extend the life of the boiler.  
+訳: 定期的な保守点検で、ボイラーの寿命を延ばせることがあります。  
+
+・repair  
+定義: 故障や損傷を直す作業。  
+頻度: 〈8/10〉  
+違い: 一つの部品や箇所だけを直す場合にも使える。overhaul は対象の状態を詳しく調べ、広く手を入れる整備を表す。  
+例: The repair took two hours because only one part was damaged.  
+訳: 損傷していたのは一つの部品だけだったので、修理は2時間で済みました。  
+
+・reconditioning  
+定義: 使用済みの機械を良好な作動状態へ回復させる整備。  
+頻度: 〈4/10〉  
+違い: 機能を回復させる結果を重視する。overhaul は徹底的な点検・修理という作業のまとまりを重視するが、実際の工程は重なることが多い。  
+例: The unit will be available again after reconditioning.  
+訳: その装置は再生整備後、再び使えるようになります。  
+
+5. 【動詞・他動詞】追いつく・追い抜く
+
+【日本語訳・定義】競争などで先行している相手との差を縮め、追いつく、または追い抜く。実際のレースだけでなく、得点・順位・実績などで先行する相手を上回る場合にも使う。文脈によって追いつく段階までを指すこともあるが、競技報道では追い抜く意味がよく現れる。  
+
+【頻度】〈3/10〉  
+
+【レジスター/領域】特に英国の競技・レース報道。改修義ほど一般的ではなく、日常の交通場面では overtake／pass のほうが普通。現代にも使われる低頻度の用法で、廃語ではない。  
+
+【文法パターン】overhaul 〈先行する相手〉／overhaul the leader／overhaul a rival in the standings／〈先行者〉 + be overhauled by 〈追走者〉。他動詞で、目的語に追いつく相手を置く。名詞の通常の overhaul からこの意味を類推しない。  
+
+【コロケーション・構文例】
+
+・overhaul the leader  
+用途: レースで首位の選手に追いつき、追い抜く。  
+例: She overhauled the leader on the final bend and won by a metre.  
+訳: 彼女は最後のカーブで先頭の選手を抜き、1メートル差で優勝しました。  
+
+・overhaul 〈先行する相手〉  
+用途: 具体的な競争相手に追いつくことを述べる。  
+例: The chasing boat steadily closed the gap and overhauled its rival before the finish.  
+訳: 追走していたボートは着実に差を詰め、ゴール前に相手を追い抜きました。  
+
+・overhaul a rival in the standings  
+用途: レースの位置ではなく、順位表上で先行する相手を上回る。  
+例: Three successive wins allowed the club to overhaul its rival in the standings.  
+訳: 3連勝によって、そのクラブは順位表でライバルを上回りました。  
+
+・〈先行者〉 + be overhauled by 〈追走者〉  
+用途: 先行していた人が後ろから追い抜かれることを受動態で示す。  
+例: The defending champion was overhauled by two runners in the final hundred metres.  
+訳: 前回王者は最後の100メートルで2人の走者に追い抜かれました。  
+
+【語法・注意】overhaul someone だけでは文脈が重要で、The runner overhauled her rival. は「ライバルを追い抜いた」、The mechanic overhauled the engine. は「エンジンを整備した」。競争義でも対象に前置詞を置かず、overhaul him とする。catch up with him の with を持ち込んで overhaul with him とはしない。「追いつく」と「追い抜く」の幅があるため、訳は before the finish／won などの文脈と合わせて決める。この意味から「追い越し一回」を an overhaul と一般化しない。overtake には「感情・出来事が人を襲う」という別義もあるが、その別義まで overhaul で置き換えられるわけではない。  
+
+【類義語】
+
+・overtake  
+定義: 先にいる相手に追いついて追い越す。  
+頻度: 〈7/10〉  
+違い: 競技以外に車両の追い越しでも普通に使う。overhaul は特に競技報道で、後方から差を詰める展開を描きやすい。  
+例: A cyclist overtook us on the hill.  
+訳: 坂道で自転車の人が私たちを追い越しました。  
+
+・catch up with  
+定義: 先にいる相手との距離や進度の差をなくして追いつく。  
+頻度: 〈8/10〉  
+違い: 並ぶところまでで、追い抜くことは含まない。overhaul は追いつく意味でも使うが、競技では追い抜く意味になりやすい。  
+例: He caught up with the front group but could not get past them.  
+訳: 彼は先頭集団に追いつきましたが、追い抜くことはできませんでした。  
+
+・pass  
+定義: 前方にいる人や車などを追い越す。  
+頻度: 〈8/10〉  
+違い: 日常的で幅広い語。overhaul より、後ろから追い上げる過程よりも相手の前へ出る動きを簡潔に述べる。  
+例: She passed two runners just before the finish line.  
+訳: 彼女はゴール直前で2人の走者を抜きました。  
+
