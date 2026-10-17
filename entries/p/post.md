@@ -212,13 +212,6 @@ checked: true
 
 【類義語】
 
-・post  
-定義: オンラインに掲載された個別の投稿。  
-頻度: 〈10/10〉  
-違い: この意味の posting と重なる。SNSでは post が特に一般的。  
-例: Her latest post explains the new schedule.  
-訳: 彼女の最新の投稿は新しい予定を説明している。  
-
 ・listing  
 定義: 一覧やサイトに載せられた個別の掲載情報。  
 頻度: 〈7/10〉  
@@ -755,7 +748,7 @@ checked: true
 例: She works as a postdoctoral researcher in molecular biology.  
 訳: 彼女は分子生物学の博士研究員として働いている。  
 
-【語法・注意】postwar のような一語形と post-election のようなハイフン形があり、慣用・辞書・編集方針に従う。数字には通常 post-2000 のようにハイフンを付ける。post-2000 は2000年より後の期間を指すため、2000年自体を含むかどうかが重要なデータでは年の範囲を明記する。post- を含む語が常に出来事の完全な終了を主張するわけではなく、post-pandemic などは社会状況の区切り方にも依存する。普通の文で「会議の後で」と言うなら after the meeting が広く自然。専門的な複合語では空間上の「後方の」も表し、postorbital は「眼窩の後方にある」という意味になる。  
+【語法・注意】postwar のような一語形と post-election のようなハイフン形があり、慣用・辞書・編集方針に従う。数字には通常 post-2000 のようにハイフンを付ける。post-2000 は2000年より後の期間を指すため、2000年自体を含むかどうかが重要なデータでは年の範囲を明記する。post- を含む語が常に出来事の完全な終了を主張するわけではなく、post-pandemic などは社会状況の区切り方にも依存する。普通の文で「会議の後で」と言うなら after the meeting が広く自然。独立した前置詞 post the meeting「会議の後に」もあるが、接頭辞とは構造が異なり、使用域にも注意が必要（語義32）。専門的な複合語では空間上の「後方の」も表し、postorbital は「眼窩の後方にある」という意味になる。  
 
 【反意語】
 
@@ -1536,7 +1529,7 @@ checked: true
 
 【コロケーション・構文例】
 
-・post  
+・〈騎手〉 + post  
 用途: 騎手が主語になり、乗り方を述べる。  
 例: The instructor asked the beginners to post rather than sit.  
 訳: 指導者は初心者たちに、座り続けず軽速歩をするよう指示した。  
@@ -1576,3 +1569,39 @@ checked: true
 例: The labelled structure lies posterior to the eye socket.  
 訳: 名称が付された構造は眼窩の後方にある。  
 
+32. 【前置詞】～の後に
+
+【日本語訳・定義】出来事や時期を表す名詞句の前に独立して置き、それより後の時点・期間を示す。接頭辞 post- と意味は近いが、ここでは名詞句全体を目的語に取る。  
+
+【頻度】〈3/10〉  
+
+【レジスター/領域】比較的くだけた用法。一般的な文章や正式な出版物では after が無難。  
+
+【文法パターン】post 〈出来事・時期の名詞句〉＝その後に。post the merger のように、冠詞を含む名詞句を直接続ける。名詞の前に付いて複合語を作る post-merger とは区別する。  
+
+【コロケーション・構文例】
+
+・post the merger  
+用途: 合併後の変化を述べる。  
+例: Sales recovered post the merger.  
+訳: 合併後、売上は回復した。  
+
+【語法・注意】Sales recovered post the merger. の post は「～の後に」という前置詞。一方、post-merger sales の post- は「合併後の」という複合修飾語を作る接頭辞（語義11）。前置詞用法を常に誤りとする必要はないが、広く自然で曖昧さの少ない表現は after the merger。接頭辞のハイフンをどんな語でも外せば自然な前置詞句になる、とは考えない。  
+
+【類義語】
+
+・after  
+定義: ある出来事や時点より後に。  
+頻度: 〈10/10〉  
+違い: 会話から正式な文章まで広く使える標準的な前置詞。この post より使用域が広い。  
+例: Sales increased after the merger.  
+訳: 合併後、売上は増えた。  
+
+【反意語】
+
+・before  
+定義: ある出来事や時点より前に。  
+頻度: 〈10/10〉  
+違い: 基準となる出来事に対して、時間的な前後の方向が反対になる。  
+例: Sales had fallen before the merger.  
+訳: 合併前、売上は落ち込んでいた。  

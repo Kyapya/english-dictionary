@@ -76,6 +76,12 @@ thorough「徹底した」は歴史的に through の別形に由来し、現在
 
 ・職業上の歩みを経て終点に達した評価 → 「もう終わりで・再起の見込みがなくて」（語義20）  
 
+・審査や交渉を経て成立へつながる到達 → 「承認されて・成立して」（語義21）  
+
+・対象の各部分を経て確認へつながる点検 → 「～を順に調べて・～の中を探して」（語義22）  
+
+・資源の使用を経て残量の減少へ至る消費 → 「～を消費して・～を使い切って」（語義23）  
+
 ＃意味・用法・関連表現
 
 1. 【前置詞】～を通って・～を通り抜けて・～越しに
@@ -331,7 +337,7 @@ thorough「徹底した」は歴史的に through の別形に由来し、現在
 例: The government struggled to get the bill through Parliament.  
 訳: 政府はその法案を議会で可決させるのに苦労した。  
 
-【語法・注意】She is going through a difficult period. は現在その最中にいるので、既に切り抜けたとは限らない。get through an exam は「試験に合格する」にもなるが、試験を終えることを述べる文脈もある。合否だけを明確にするなら pass が使える。put her through a test は「彼女に試験を受けさせる」、put her through to the manager は「電話を部長につなぐ」（語義12）。be through the worst の through は worst を直接目的語に取る前置詞で、作業完了の be through with ...（語義9）と形が違う。法案の例は語彙的に承認を得る意味であり、法律の施行までを保証しない。go through などには動詞との組み合わせ全体に固有の意味もあるため、あらゆる目的語を「経験する」だけで訳さない。  
+【語法・注意】She is going through a difficult period. は現在その最中にいるので、既に切り抜けたとは限らない。get through an exam は「試験に合格する」にもなるが、試験を終えることを述べる文脈もある。合否だけを明確にするなら pass が使える。put her through a test は「彼女に試験を受けさせる」、put her through to the manager は「電話を部長につなぐ」（語義12）。be through the worst の through は worst を直接目的語に取る前置詞で、作業完了の be through with ...（語義9）と形が違う。法案の例は語彙的に承認を得る意味であり、法律の施行までを保証しない。go through などには動詞との組み合わせ全体に固有の意味もあるため、あらゆる目的語を「経験する」だけで訳さない。The deal went through.「取引が成立した」は through の後に目的語を置かない副詞用法（語義21）。go through the accounts「帳簿を調べる」は語義22、go through one’s savings「貯金を使い切る」は語義23。  
 
 【類義語】
 
@@ -565,7 +571,7 @@ thorough「徹底した」は歴史的に through の別形に由来し、現在
 例: I listened to the recording all the way through before replying.  
 訳: 返事をする前に、私は録音を最初から最後まで聞いた。  
 
-【語法・注意】名詞目的語では think the problem through と think through the problem の両方が使え、短い代名詞なら think it through が基本形。もっとも、段階をたどって考える構造の think through it も実際に使われるため、一律に誤りとはしない。see it through「それをやり遂げる」と see through it「その偽り・からくりを見抜く」は語順と意味が異なる。後者の through は対象を直接受け、前者の it は see の目的語になる。read through the report も可能だが、「読む・目を通す」の詳しさは文脈によるため、語順だけで精読の有無を決めない。  
+【語法・注意】名詞目的語では think the problem through と think through the problem の両方が使え、短い代名詞なら think it through が基本形。think through it という語順も実際に使われるが、学習上の基本形は think it through として押さえる。see it through「それをやり遂げる」と see through it「その偽り・からくりを見抜く」は語順と意味が異なる。後者の through は対象を直接受け、前者の it は see の目的語になる。read through the report も可能だが、「読む・目を通す」の詳しさは文脈によるため、語順だけで精読の有無を決めない。go through the receipts「領収書を順に調べる」や look through a drawer「引き出しの中を探す」は語義22を参照。  
 
 【類義語】
 
@@ -620,7 +626,7 @@ thorough「徹底した」は歴史的に through の別形に由来し、現在
 例: Please wait a moment; I’m not through yet.  
 訳: 少し待ってください。まだ終わっていません。  
 
-【語法・注意】through はこの用法では動詞ではないため、作業を終えた人について I’m through with the report. とする。I finished the report. と同じように、be を落とした I through ... とはしない。また、a through report を「完成した報告書」の意味で使わない。Are you through? は単なる確認にもなるが、強い口調では「話はもう終わったのか」といら立ちを示す。人を with の後に置いても、担当者が「その人への聞き取り・対応を済ませた」という文脈なら作業完了を表せるので、必ず絶交の意味になるわけではない。物・仕事でも「もううんざりでやめる」という文脈なら語義14になる。  
+【語法・注意】through はこの用法では動詞ではないため、作業を終えた人について I’m through with the report. とする。I finished the report. と同じように、be を落とした I through ... とはしない。また、a through report を「完成した報告書」の意味で使わない。Are you through? は単なる確認にもなるが、強い口調では「話はもう終わったのか」といら立ちを示す。人を with の後に置いても、担当者が「その人への聞き取り・対応を済ませた」という文脈なら作業完了を表せるので、必ず絶交の意味になるわけではない。物・仕事でも「もううんざりでやめる」という文脈なら語義14になる。be through with something はその物を使い切ったことまでは表さない。go through all the supplies「物資をすべて使い切る」は消費を表す別の構文（語義23）。  
 
 【類義語】
 
@@ -1156,3 +1162,140 @@ thorough「徹底した」は歴史的に through の別形に由来し、現在
 違い: この用法では through に非常に近い。通常の「完成した・済んだ」という意味とは文脈で区別する。  
 例: After the defeat, commentators declared him finished as a leader.  
 訳: 敗北後、論評する人々は彼は指導者として終わったと断じた。  
+
+21. 【副詞】承認されて・成立して
+
+【日本語訳・定義】法案・提案が承認されることや、取引・契約が必要な手続きを経て成立することを表す。案件自体を主語にする go through と、人などが案件を成立させる get/push something through を区別する。  
+
+【頻度】〈7/10〉  
+
+【レジスター/領域】一般。政治・取引・事務手続き。  
+
+【文法パターン】〈法案・取引など〉 + go through＝承認される・成立する／get/push something through＝案件を通す・承認させる。後者の名詞目的語は小辞の前後に置けるが、通常の代名詞は get/push it through とする。  
+
+【コロケーション・構文例】
+
+・〈取引〉 + go through  
+用途: 取引が成立したことを伝える。  
+例: The deal finally went through after months of negotiations.  
+訳: 数か月の交渉の末、その取引はようやく成立した。  
+
+・〈法案〉 + go through  
+用途: 法案が承認を得たことを述べる。  
+例: The bill went through despite strong opposition.  
+訳: 強い反対にもかかわらず、その法案は可決された。  
+
+・get a proposal through  
+用途: 提案の承認を取り付ける。  
+例: We revised the proposal and finally got it through.  
+訳: 私たちは提案を修正し、ようやく承認を得た。  
+
+・push a bill through  
+用途: 法案の承認に向けて積極的に働きかける。  
+例: The government pushed the bill through before the summer recess.  
+訳: 政府は夏季休会前にその法案を押し通した。  
+
+【語法・注意】The deal went through. では through は目的語を取らない副詞。get the bill through Parliament のように通過する機関を後ろに置く形は前置詞用法（語義4）。get it through の it は get の目的語であり、go through it の it とは位置も役割も異なる。承認・成立を表しても、その後の施行・履行まで完了したとは限らない。push は承認を得るための強い働きかけを示しやすいが、不正な手続きだったとまでは含意しない。  
+
+【類義語】
+
+・pass  
+定義: 法案・提案などが承認される。  
+頻度: 〈8/10〉  
+違い: 法案・動議の可決を直接表す動詞。取引の成立全般には go through のほうが広く使える。  
+例: The motion passed by a narrow margin.  
+訳: その動議は僅差で可決された。  
+
+【反意語】
+
+・fall through  
+定義: 計画・取引などが実現せず、立ち消えになる。  
+頻度: 〈6/10〉  
+違い: 取引・計画が成立するかしないかという結果上の対立。単に審議中であることとは違う。  
+例: The sale fell through when the buyer withdrew.  
+訳: 買い手が撤退したため、売買は立ち消えになった。  
+
+22. 【前置詞：go/look through ... などで】～を順に調べて・～の中を探して
+
+【日本語訳・定義】書類・項目・容器の中身などに順に目を向け、内容を確認したり、必要な物・情報を探したりする。go through は点検や詳しい検討にも使い、look through は中を見て探す場合にも使う。  
+
+【頻度】〈8/10〉  
+
+【レジスター/領域】一般。確認・点検・探索。  
+
+【文法パターン】go through 〈書類・項目・所持品〉＝順に調べる／look through 〈書類・容器・所持品〉 (for something)＝中を見て確認する・探す／go through something with someone＝人と一緒に内容を順に確認する。この用法では対象を through の後に置き、代名詞も go/look through it/them とする。  
+
+【コロケーション・構文例】
+
+・go through the receipts  
+用途: 書類を一つずつ確認する。  
+例: She went through the receipts to check which expenses had been reimbursed.  
+訳: 彼女は、どの経費が精算済みか確認するため、領収書を一枚ずつ調べた。  
+
+・look through a drawer for something  
+用途: 容器の中から探し物を見つけようとする。  
+例: I looked through the kitchen drawer for the spare key.  
+訳: 私は予備の鍵を探して、台所の引き出しの中を調べた。  
+
+・go through something with someone  
+用途: 手順・内容を一緒に確認する。  
+例: Could you go through the instructions with me before I start?  
+訳: 始める前に、手順を私と一緒に一つずつ確認してもらえますか。  
+
+【語法・注意】go through the accounts は帳簿の点検であり、語義4の「経験する」ではない。look through a drawer は中身を探すことで、look through a window「窓越しに見る」（語義1）とは対象によって意味が変わる。代名詞は go through them とし、この意味で go them through とはしない。確認したからといって、探していた物が見つかったことまでは表さない。read the report through「報告書を最後まで読む」（語義8）は読了が中心で、ここでは点検・探索という行為に重点がある。  
+
+【類義語】
+
+・examine  
+定義: 内容や状態を詳しく調べる。  
+頻度: 〈8/10〉  
+違い: 検査・分析の詳しさに焦点がある。他動詞で、対象を直接続ける。  
+例: The accountant examined the records for errors.  
+訳: 会計担当者は記録に誤りがないか詳しく調べた。  
+
+・search  
+定義: 物や情報を見つけるために場所などを調べる。  
+頻度: 〈9/10〉  
+違い: 探索が中心。search the drawer for a key のように、調べる場所を直接目的語にする。  
+例: We searched the office for the missing file.  
+訳: 私たちは紛失したファイルを探して事務所を調べた。  
+
+23. 【前置詞：go through ... で】～を消費して・～を使い切って
+
+【日本語訳・定義】資金・食料・物資などを使って減らすことを表す。限られた蓄え全体を目的語にすると「使い切る」、量や期間を示すと「その量を消費する」となる。多さや速さに驚く文脈で使われやすいが、無駄遣いとは限らない。  
+
+【頻度】〈7/10〉  
+
+【レジスター/領域】一般・口語的。支出や物資の消費。  
+
+【文法パターン】go through 〈資金・食料・物資〉＝消費する・使い切る／go through 〈数量〉 + a day/week など＝一定期間にその量を消費する。対象は through の後に置き、代名詞も go through it/them とする。  
+
+【コロケーション・構文例】
+
+・go through all one’s savings  
+用途: 蓄えをすべて使い切ったことを述べる。  
+例: We went through all our savings in six months.  
+訳: 私たちは半年で貯金をすべて使い切った。  
+
+・go through 〈数量〉 a week  
+用途: 消費量の多さやペースを示す。  
+例: Our office goes through five boxes of paper a week.  
+訳: 私たちの事務所では、週に紙を5箱使う。  
+
+【語法・注意】go through the supplies は物資を消費することであり、経験の go through a crisis（語義4）とは目的語の意味が異なる。We went through it in a day. の it が燃料なら「1日で使い切った」。一方、I’m through with the equipment.（語義9）は「その機器はもう使い終わった」であり、機器がなくなった意味ではない。数量＋期間の構文は消費ペースを示すので、手元の在庫全体がゼロになったとは限らない。  
+
+【類義語】
+
+・use up  
+定義: 残っている物をすべて使い切る。  
+頻度: 〈8/10〉  
+違い: 残量がなくなることを明確に表す。代名詞は use it up とし、go through it と語順が違う。  
+例: We used up the last of the milk this morning.  
+訳: 今朝、残っていた牛乳をすべて使い切った。  
+
+・consume  
+定義: 資源・物資などを消費する。  
+頻度: 〈7/10〉  
+違い: go through より改まった語で、量や効率の客観的な説明にも使う。全量の消尽は必須ではない。  
+例: The old heater consumes a lot of electricity.  
+訳: その古い暖房器具は大量の電力を消費する。  
