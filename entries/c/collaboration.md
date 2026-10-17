@@ -176,7 +176,7 @@ tags: []
 
 【レジスター/領域】戦争、占領、歴史、政治。非難的。現代英語でも歴史叙述や報道に現れる。  
 
-【文法パターン】collaboration with the enemy＝敵への協力／collaboration with 〈占領勢力〉＝占領勢力への協力／wartime collaboration＝戦時中の利敵協力／be accused of collaboration＝利敵協力をしたと非難・告発される。  
+【文法パターン】collaboration with the enemy＝敵への協力／collaboration with 〈占領勢力〉＝占領勢力への協力／wartime collaboration＝戦時中の協力（敵への協力を指す文脈では利敵協力）／be accused of collaboration＝利敵協力をしたと非難・告発される。  
 
 【コロケーション・構文例】
 
@@ -200,7 +200,7 @@ tags: []
 例: After the occupation ended, several officials were accused of collaboration.  
 訳: 占領が終わった後、数人の官僚が敵に協力したと非難された。  
 
-【語法・注意】通常は不可算で、a collaboration として一件の制作企画を数える語義1・2とは異なる。with the enemy や wartime といった語がこの意味を明確にする。be accused of は主張・疑惑を表すため、これだけで協力の事実が立証されたとは訳さない。treason は国家への裏切りを指し、法制度によっては犯罪名にもなるので、collaboration の自動的な言い換えにはしない。collusion は秘密の不正な共謀であり、敵への協力が必ず秘密であるとも限らない。  
+【語法・注意】通常は不可算で、a collaboration として一件の制作企画を数える語義1・2とは異なる。with the enemy は協力相手が敵であることを明示する。wartime collaboration は味方どうしの戦時協力にも使うため、この語義かどうかは協力相手と文脈で判断する。be accused of は主張・疑惑を表すため、これだけで協力の事実が立証されたとは訳さない。treason は国家への裏切りを指し、法制度によっては犯罪名にもなるので、collaboration の自動的な言い換えにはしない。collusion は秘密の不正な共謀であり、敵への協力が必ず秘密であるとも限らない。  
 
 【類義語】
 
