@@ -1,12 +1,12 @@
 ---
 headword: equity
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: OpenAI assistant
 created_at: 2026-10-16
-updated_at: 2026-10-16
-checked: false
+updated_at: 2026-10-17
+checked: true
 tags: []
 ---
 
@@ -264,7 +264,7 @@ tags: []
 例: Equity markets fell after the earnings announcement.  
 訳: 決算発表後、株式市場は下落した。  
 
-【語法・注意】Equities are risky. のように複数扱いにする。「公正さが重要だ」の Equity is important. とは数も意味も異なる。equities を常に「複数の公平性」と訳さない。equity market は単数名詞 equity が market を修飾する形で、一般的な形は equities market ではなく equity market。個々の株数には ten shares のほうが明確で、ten equities は「10株」と同じ意味になるとは限らない。  
+【語法・注意】Equities are risky. のように複数扱いにする。「公正さが重要だ」の Equity is important. とは数も意味も異なる。equities を常に「複数の公平性」と訳さない。equity market は単数名詞 equity が market を修飾する一般的な形。金融分野では equities market も使われる。個々の株数には ten shares のほうが明確で、ten equities は「10株」と同じ意味になるとは限らない。  
 
 【類義語】
 

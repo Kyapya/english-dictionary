@@ -1,12 +1,12 @@
 ---
 headword: innovative
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: OpenAI assistant
 created_at: 2026-10-16
-updated_at: 2026-10-16
-checked: false
+updated_at: 2026-10-17
+checked: true
 tags: []
 ---
 
@@ -98,7 +98,7 @@ innovate「新しい方法を取り入れる」に形容詞を作る -ive が付
 例: The new system is more innovative than the old one, but it is also harder to maintain.  
 訳: 新しいシステムは従来のものより革新的だが、その分保守も難しい。  
 
-【語法・注意】名詞の前でも補語でも使える。an innovative engineer は「新しい工夫をする技術者」、an innovative engine は「新しい工夫を盛り込んだエンジン」で、同じ中心義を人と物に適用した違い。new との違いは、a new printer が単に新品・新発売のプリンターでもよいのに対し、an innovative printer は方式や設計に新しい工夫があること。innovative but impractical のように「革新的だが実用的ではない」と両立する。比較は通常 more/most innovative とし、*innovativer とはしない。動詞の仕方を修飾するなら They think innovatively. とし、*They think innovative. とはしない。an innovative approach to reducing waste の to は前置詞なので、*an innovative approach to reduce waste を同じ形の構文として覚えない。innovative to do を一律の型とせず、an innovative way to do や It was innovative of them to do ... など、名詞や評価構文の働きを区別する。  
+【語法・注意】名詞の前でも補語でも使える。an innovative engineer は「新しい工夫をする技術者」、an innovative engine は「新しい工夫を盛り込んだエンジン」で、同じ中心義を人と物に適用した違い。new との違いは、a new printer が単に新品・新発売のプリンターでもよいのに対し、an innovative printer は方式や設計に新しい工夫があること。innovative but impractical のように「革新的だが実用的ではない」と両立する。比較は通常 more/most innovative とし、*innovativer とはしない。動詞の仕方を修飾するなら They think innovatively. とし、*They think innovative. とはしない。an innovative approach to reducing waste の to は前置詞。一方、an innovative approach to reduce waste は目的を表す不定詞として使われることがあり、同じ構造とは区別する。innovative to do を一律の型とせず、an innovative way to do や It was innovative of them to do ... など、名詞や評価構文の働きを区別する。  
 
 【類義語】
 
