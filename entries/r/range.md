@@ -790,7 +790,7 @@ rank「列、階級」と arrange「整える、手配する」は同じ語源�
 
 【レジスター/領域】家庭、住宅設備、料理。一般的な調理器具の名称としては特に北米英語。英国の伝統的用法は歴史的な生活描写などにも現れる。  
 
-【文法パターン】a gas/electric/induction range／a kitchen range／cook something on the range／install/replace a range／a range cooker。  
+【文法パターン】a gas range／an electric range／an induction range／a kitchen range／cook something on the range／install/replace a range／a range cooker。  
 
 【コロケーション・構文例】
 
