@@ -1,0 +1,144 @@
+---
+headword: stakeholder
+type: word
+status: checked
+prompt_version: entry_spec_v5
+model: OpenAI assistant
+created_at: 2026-10-16
+updated_at: 2026-10-17
+checked: true
+tags: []
+---
+
+＃発音記号
+
+米: /ˈsteɪkˌhoʊl.dər/｜英: /ˈsteɪkˌhəʊl.də/  
+
+3音節で、第1音節に主強勢、第2音節に第二強勢がある。ここに示した米英差は、第2音節の母音 /oʊ/ と /əʊ/、第3音節末の /r/ の有無。英語の非r音性の発音でも、後ろに母音が続くと語末の r が現れることがある。複数形 stakeholders の語尾は /z/。  
+
+＃語源
+
+stake「賭け金・利害にかかわる持ち分」と holder「保有する人」の複合語。初期の意味は、賭けの参加者から金を預かる人だった。現代の組織論では、自分の利害や関与を持つ人という意味で広く使う。同じ stake の系統に stakeholding「利害を持つこと・その仕組み」があり、holder と同じ hold の系統には shareholder「株式を保有する人」、landholder「土地を保有する人」がある。「杭」の stake と賭け金の stake の歴史的な関係には不確かな点があり、杭に金を置いたという話を確定した由来として覚える必要はない。  
+
+＃語形成
+
+・stakeholding：不可算名詞「利害を持つこと・持ち分の保有」。経営・政策などの文脈に多く、具体的な保有持分を指す用法もある。  
+
+・multi-stakeholder：形容詞「多様な利害関係者がかかわる」。a multi-stakeholder initiative など。複数の種類の関係者が参加する仕組みを述べる。  
+
+＃意味・用法・関連表現
+
+1. 【名詞・可算】利害関係者・関係当事者
+
+【日本語訳・定義】組織・事業・政策などにかかわり、その活動や結果によって利益、不利益、その他の影響を受ける人・集団・組織。出資者だけでなく、従業員、顧客、取引先、地域住民なども含み得る。何かが自分たちにとって重要だという関係に焦点があり、計画への賛成、経営への参加、法的な決定権までは意味しない。投資の文脈では、企業に持ち分を持つ出資者を狭く指すこともある。  
+
+【頻度】〈7/10〉  
+
+【レジスター/領域】ビジネス、プロジェクト運営、行政、政策、報道。日常会話では、具体的に residents、customers、staff などと言う方が明確な場面もある。  
+
+【文法パターン】a stakeholder in 〈組織・事業〉＝その組織・事業の利害関係者／key stakeholders＝主要な利害関係者／internal/external stakeholders＝組織内部・外部の利害関係者／identify the stakeholders＝利害関係者を特定する／consult stakeholders about 〈計画・問題〉＝その件について関係者の意見を聞く／engage with stakeholders＝関係者と対話・協働する／stakeholder engagement＝利害関係者との継続的なかかわり／stakeholder interests＝利害関係者の利益・関心事項。  
+
+【コロケーション・構文例】
+
+・a stakeholder in 〈事業・組織〉  
+用途: 何に対して利害を持つかを示す。  
+例: Residents near the station are stakeholders in the redevelopment project.  
+訳: 駅の近くの住民は、再開発事業の利害関係者である。  
+
+・key stakeholders  
+用途: 決定や実施にとくに重要な関係者を指す。  
+例: The project manager met with key stakeholders before revising the schedule.  
+訳: プロジェクト責任者は、日程を修正する前に主要な関係者と会った。  
+
+・internal and external stakeholders  
+用途: 組織の内外にいる関係者を区別する。  
+例: The survey gathered feedback from both internal and external stakeholders.  
+訳: その調査では、組織内外の両方の利害関係者から意見を集めた。  
+
+・identify the stakeholders  
+用途: 計画の影響が及ぶ相手や、関与する相手を洗い出す。  
+例: We need to identify the stakeholders before deciding who to invite.  
+訳: 誰を招くか決める前に、利害関係者を特定する必要がある。  
+
+・consult stakeholders about 〈計画・問題〉  
+用途: 決定前などに関係者の意見を聞く。  
+例: The agency consulted stakeholders about the proposed safety standards.  
+訳: その機関は、安全基準の案について関係者の意見を聞いた。  
+
+・engage with stakeholders  
+用途: 単に通知するよりも継続的な対話・参加を重視する。  
+例: The design team engaged with stakeholders throughout the planning process.  
+訳: 設計チームは、計画の過程を通じて関係者と対話を重ねた。  
+
+・stakeholder engagement  
+用途: 関係者の参加や対話を活動名として述べる。  
+例: The budget includes funding for stakeholder engagement and public workshops.  
+訳: その予算には、利害関係者との対話や公開ワークショップのための資金が含まれている。  
+
+・stakeholder interests  
+用途: 関係者が重視する利益や関心事項をまとめて述べる。  
+例: The committee must balance competing stakeholder interests.  
+訳: 委員会は、互いに対立する利害関係者の利益を調整しなければならない。  
+
+【語法・注意】可算名詞なので、単数では a stakeholder、the stakeholder、a major stakeholder のように限定する。複数の関係者なら stakeholders。stakeholder engagement の stakeholder は後ろの名詞を修飾し、通常は単数形にする。a stakeholder in the project が基本で、単に前置詞を落として a stakeholder the project とはしない。  
+
+shareholder は「株主」で、株式の保有が条件になる。stakeholder はそれより広く、株を持たない従業員や影響を受ける住民も含められる。逆に、投資記事で a major stakeholder とあれば、大口の出資者・持分保有者を指す可能性があるので文脈を確認する。stakeholder であるだけで、利益を受ける beneficiary、実務に参加する participant、計画を支援する sponsor だとは限らない。建設に反対する住民も stakeholder になり得る。具体的に誰を含めるかは対象の事業・制度によって異なるため、「すべての人」という無限定の訳にはしない。  
+
+【類義語】
+
+・interested party  
+定義: ある事柄に利害や実質的な関心を持つ人・組織。  
+頻度: 〈6/10〉  
+違い: stakeholder と近いが、個別の手続き、取引、争いなどについても使いやすい。interested は単に「面白がっている」とは限らない。法的文脈では範囲が別に定められることがある。  
+例: Interested parties were invited to comment on the proposal.  
+訳: 利害関係のある当事者は、その提案に意見を述べるよう招かれた。  
+
+・shareholder  
+定義: 会社の株式を保有する人・組織。  
+頻度: 〈7/10〉  
+違い: 出資者を指す狭い文脈で stakeholder と重なる。株式保有という条件があり、地域住民や顧客一般を含む stakeholder の代わりにはならない。米語では stockholder も使う。  
+例: Shareholders received the annual report electronically.  
+訳: 株主は、年次報告書を電子形式で受け取った。  
+
+2. 【名詞・可算】賭け金・係争金などの預かり人
+
+【日本語訳・定義】賭けの結果や契約条件の履行、権利関係の確定などを待つ間、関係する当事者のために金銭・財産を預かる人・組織。賭けでは参加者の賭け金を預かり、結果に従って渡す人を指す。法律・契約では、複数の当事者に関係する財産や預託金を保管する立場を表す。ここでは、自分がその事業に出資しているという意味ではない。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】賭けの説明、法律・契約、とくに金銭の預託や権利の争いに関する文書。賭け金の預かり人は古くからの意味だが、法律上の用法は現代にも残る。  
+
+【文法パターン】act as a stakeholder＝預かり人を務める／hold 〈金銭〉 as stakeholder＝預かり人の立場で金銭を保管する／appoint a stakeholder＝預かり人を選任する／a stakeholder holding 〈金銭・財産〉＝その金銭・財産を保管する者。  
+
+【コロケーション・構文例】
+
+・act as a stakeholder  
+用途: 賭け金などを預かる立場を明示する。  
+例: A trusted friend acted as a stakeholder and kept the wagers until the race was over.  
+訳: 信頼されている友人が預かり人を務め、レースが終わるまで賭け金を保管した。  
+
+・hold 〈金銭〉 as stakeholder  
+用途: 契約などで金銭を保管する資格・立場を示す。  
+例: The contract stated that the solicitor would hold the deposit as stakeholder.  
+訳: 契約には、その弁護士が預かり人として手付金を保管すると記されていた。  
+
+・appoint a stakeholder  
+用途: 当事者間で金銭を預かる担当者を決める。  
+例: The bettors appointed a stakeholder to hold the money until the result was confirmed.  
+訳: 賭けの参加者は、結果が確認されるまで金を保管する預かり人を選んだ。  
+
+・a stakeholder holding 〈財産〉  
+用途: 保管している財産と、競合する権利主張との関係を示す。  
+例: The stakeholder holding the disputed funds sought directions from the court.  
+訳: 係争中の資金を保管する預かり人は、裁判所に指示を求めた。  
+
+【語法・注意】as a stakeholder のほか、職務・資格を示す法律文書では as stakeholder と無冠詞にする。語義1の「利害関係者」とは、金を保管している役割が違う。hold a deposit as stakeholder は、売り手の代理人として自由に受領することと同じではない。英国の不動産取引では売り手側の弁護士が stakeholder となることもあるため、「当事者と一切かかわりのない人物」とまで断定しない。保管・払出しの条件や責任は契約と適用法による。bookmaker「賭けを受け付ける胴元」、mediator「仲裁・調停のため話合いを助ける人」は、金銭を預かる役割そのものを表す語ではない。  
+
+【類義語】
+
+・escrow agent  
+定義: 合意された条件が満たされるまで、当事者のために金銭や書類などを保管する者。  
+頻度: 〈3/10〉  
+違い: 条件付きの取引上の預託では stakeholder と重なるが、特定の escrow の仕組みを示す。賭け金の預かり人一般や、あらゆる法域の stakeholder を自動的に言い換える語ではない。  
+例: The escrow agent retained the funds until the agreed conditions were met.  
+訳: エスクローの預託管理者は、合意された条件が満たされるまで資金を保管した。  
