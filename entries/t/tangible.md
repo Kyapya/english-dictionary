@@ -23,7 +23,7 @@ tags: []
 ・tangibly：副詞「はっきり実感できる形で」。tangibly improve「目に見える形で改善する」。  
 ・tangibility：不可算名詞「有形性・具体的に把握できる性質」。  
 ・intangible：反対形成の形容詞「無形の・明確に測りにくい」。否定の接頭辞は in-。  
-・tangibles：名詞 tangible の複数形。「有形の物・有形資産」で、語義3を参照。  
+・tangibles：名詞 tangible の複数形。「有形の物・有形資産」や「具体的に把握できる事柄」で、語義3を参照。  
 
 ＃コアイメージ
 
@@ -31,7 +31,7 @@ tags: []
 
 ・確かにつかめる成果や事実 → 「具体的な・はっきり実感できる」（語義1）  
 ・確かにつかめる物理的実体 → 「触れられる・有形の」（語義2）  
-・確かにつかめる物や資産の総称 → 「有形の物・有形資産」（語義3）  
+・確かにつかめる物・資産・事柄の総称 → 「有形の物・有形資産・具体的な事柄」（語義3）  
 
 ＃意味・用法・関連表現
 
@@ -67,7 +67,7 @@ tags: []
 例: The benefits became more tangible when monthly costs began to fall.  
 訳: 月々の費用が下がり始めると、利点がよりはっきり実感できるようになった。  
 
-・make 〈抽象的な内容〉 + tangible  
+・make 〈抽象的な内容〉 tangible  
 用途: 抽象的な説明を具体化する。  
 例: The case study makes the risks tangible for new employees.  
 訳: その事例研究によって、新入社員はリスクを具体的につかめる。  
@@ -198,15 +198,15 @@ tags: []
 例: The study also considers non-physical aspects of well-being.  
 訳: その研究は、幸福の非物理的な側面も考慮する。  
 
-3. 【名詞・可算・通常複数】有形の物・有形資産
+3. 【名詞・可算・通常複数】有形の物・有形資産・具体的な事柄
 
-【日本語訳・定義】実体を持つ物、特に土地や機械などの有形資産。通常 tangibles と複数形でまとめていう。形容詞 tangible の名詞用法で、抽象的な性質を表す tangibility とは異なる。  
+【日本語訳・定義】実体を持つ物、特に土地や機械などの有形資産。また、物理的な物に限らず、具体的に確認・評価できる利益や能力などの事柄も指す。通常 tangibles と複数形でまとめていう。形容詞 tangible の名詞用法で、抽象的な性質を表す tangibility とは異なる。  
 
 【頻度】〈3/10〉  
 
-【レジスター/領域】主に事業・資産評価。tangible assets と明示する形の方が一般に分かりやすい。  
+【レジスター/領域】事業・資産評価のほか、政治・スポーツなどで具体的な利益や能力を論じる文章。資産を指す場合は tangible assets と明示する形の方が一般に分かりやすい。  
 
-【文法パターン】tangibles＝有形の物・資産の総称／the company's tangibles＝その会社の有形資産／tangibles and intangibles＝有形・無形の資産や要素。単数 a tangible も可能だが、通常は a tangible asset など対象名詞を示す。  
+【文法パターン】tangibles＝有形の物・資産、または具体的に把握できる事柄の総称／focus on tangibles＝具体的な利益・事柄に注目する／the company's tangibles＝その会社の有形資産／tangibles and intangibles＝有形・無形の資産や要素。単数 a tangible も可能だが、通常は a tangible asset など対象名詞を示す。  
 
 【コロケーション・構文例】
 
@@ -220,14 +220,19 @@ tags: []
 例: The valuation considered both tangibles and intangibles.  
 訳: その評価では、有形資産と無形資産の両方を考慮した。  
 
-【語法・注意】Tangible assets are costly. の tangible は形容詞、The tangibles are costly. の tangibles は複数名詞。名詞でも動詞は通常 are とする。一般の成果については tangibles を機械的に使わず、tangible results と書く方が明確。  
+・focus on tangibles  
+用途: 抽象的な理念より、具体的に確認できる利益や事柄を重視する。  
+例: Voters focused on tangibles such as tax credits.  
+訳: 有権者は、税額控除などの具体的な利益に注目した。  
+
+【語法・注意】Tangible assets are costly. の tangible は形容詞、The tangibles are costly. の tangibles は複数名詞。名詞でも動詞は通常 are とする。具体的な利益・能力を指す名詞用法は語義1に対応し、物理的な資産だけに限定されない。一般の成果については tangibles を機械的に使わず、tangible results と書く方が明確。  
 
 【類義語】
 
 ・tangible assets  
 定義: 物理的実体のある資産。  
 頻度: 〈5/10〉  
-違い: tangibles の資産としての意味を明示する定着した表現。一般の物を広く指す用法までは含まない。  
+違い: tangibles の資産としての意味を明示する定着した表現。一般の物や、具体的な利益・能力を広く指す用法までは含まない。  
 例: The report lists the business's tangible assets separately.  
 訳: その報告書は、事業の有形資産を別項目で列挙している。  
 

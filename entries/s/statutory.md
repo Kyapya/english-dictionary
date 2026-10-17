@@ -32,13 +32,13 @@ statute「制定法・法令」に形容詞を作る -ory が結び付いた語�
 
 1. 【形容詞：主に限定・叙述も可】法定の・法律に基づく・法律で定められた
 
-【日本語訳・定義】権利、義務、金額、期限、権限、機関などが、制定法によって定められたり、認められたり、設けられたりしていることを表す。義務なら「法律上しなければならない」、権利なら「法律上認められている」、機関なら「法律を根拠に設立された」となる。単に重要・推奨・社内規則上必須という意味ではない。また、法律に基づく権限があることと、その権限を必ず行使しなければならないことは同じではない。  
+【日本語訳・定義】権利、義務、金額、期限、権限、機関などが、制定法によって定められたり、認められたり、設けられたりしていることを表す。義務なら「法律上しなければならない」、権利なら「法律上認められている」、機関なら「法律を根拠に設立された」となる。犯罪について、制定法によって犯罪と定められていることも表す。単に重要・推奨・社内規則上必須という意味ではない。また、法律に基づく権限があることと、その権限を必ず行使しなければならないことは同じではない。  
 
 【頻度】〈6/10〉  
 
 【レジスター/領域】法律、行政、雇用、消費者向け案内、企業会計など。硬めの語だが、雇用条件・返品案内・事業報告など実務の文章でも使われる。英米ともに使うが、具体的な制度名や権利の内容は国・地域によって異なる。  
 
-【文法パターン】a statutory 〈requirement/obligation〉＝法定の要件・義務／a statutory duty to 〈動詞原形〉＝ある行為をする法的義務／a statutory right to 〈動詞原形〉＝ある行為をする法定の権利／a statutory right to 〈名詞〉＝あるものに対する法定の権利／statutory authority to 〈動詞原形〉＝ある行為をする法定の権限／the statutory 〈minimum/maximum〉＝法定の下限・上限／within the statutory time limit＝法定期限内に／statutory accounts＝法定の計算書類／a statutory audit＝法定監査／a statutory body＝法律に基づき設けられた機関／something + be + statutory＝義務・権利などが法律に基づく。to は duty・right・authority に続く要素であり、statutory が人を主語にして直接不定詞を取るという型ではない。原則として程度を表さず、very statutory や more statutory は通常使わない。  
+【文法パターン】a statutory 〈requirement/obligation〉＝法定の要件・義務／a statutory duty to 〈動詞原形〉＝ある行為をする法的義務／a statutory right to 〈動詞原形〉＝ある行為をする法定の権利／a statutory right to 〈名詞〉＝あるものに対する法定の権利／statutory authority to 〈動詞原形〉＝ある行為をする法定の権限／the statutory 〈minimum/maximum〉＝法定の下限・上限／within the statutory time limit＝法定期限内に／statutory accounts＝法定の計算書類／a statutory audit＝法定監査／a statutory body＝法律に基づき設けられた機関／statutory rape＝法定の性的同意年齢に達しない相手との性交を犯罪として扱う法律用語／something + be + statutory＝義務・権利などが法律に基づく。to は duty・right・authority に続く要素であり、statutory が人を主語にして直接不定詞を取るという型ではない。原則として程度を表さず、very statutory や more statutory は通常使わない。  
 
 【コロケーション・構文例】
 
@@ -97,7 +97,12 @@ statute「制定法・法令」に形容詞を作る -ory が結び付いた語�
 例: Some of these obligations are statutory; others arise from the contract.  
 訳: これらの義務には、法律に基づくものもあれば、契約から生じるものもある。  
 
-【語法・注意】statutory と mandatory は着眼点が異なる。statutory training は法律で義務付けられた研修、mandatory training は受講が必須の研修で、後者は会社の決定による場合もある。a statutory power は「法律に基づく権限」であり、行使するかどうかの裁量を伴うこともあるため、statutory＝「裁量が一切ない」としない。contractual「契約上の」も対照表現であり、同じ権利が法律と契約の両方に根拠を持つこともある。discretionary「裁量による」は決定の余地、voluntary「任意の」は強制の有無を表すため、statutory の万能な反意語ではない。 a statutory right to leave の leave が名詞なら「休暇への法定の権利」、a statutory right to leave the premises なら to leave は不定詞で「その建物から退出する法定の権利」。語順だけでなく、名詞と動詞を見分ける。人を主語にして「法律で提出が必要だ」と言うなら They are legally required to submit the form. とし、*They are statutory to submit the form. とはしない。statutory accounts の accounts は銀行口座ではなく計算書類。対象企業や提出先・監査義務は制度によって異なり、statutory accounts という語だけからすべての企業に同じ監査義務があるとは判断できない。  
+・statutory rape  
+用途: 主に北米の法律・報道で、性的同意年齢に関する犯罪を指す定型句。  
+例: The article discusses how statutory rape laws differ across US states.  
+訳: その記事は、性的同意年齢未満の相手との性交を処罰する法律が、米国の州によってどう異なるかを論じている。  
+
+【語法・注意】statutory rape は、法定の性的同意年齢に達しない相手との性交を犯罪として扱うもので、暴行・脅迫がなくても成立し得る。対象年齢、当事者間の年齢差などの成立要件や正式な罪名は法域によって異なり、「未成年者との性交はすべて一律に成立する」という意味ではない。statutory と mandatory は着眼点が異なる。statutory training は法律で義務付けられた研修、mandatory training は受講が必須の研修で、後者は会社の決定による場合もある。a statutory power は「法律に基づく権限」であり、行使するかどうかの裁量を伴うこともあるため、statutory＝「裁量が一切ない」としない。contractual「契約上の」も対照表現であり、同じ権利が法律と契約の両方に根拠を持つこともある。discretionary「裁量による」は決定の余地、voluntary「任意の」は強制の有無を表すため、statutory の万能な反意語ではない。 a statutory right to leave の leave が名詞なら「休暇への法定の権利」、a statutory right to leave the premises なら to leave は不定詞で「その建物から退出する法定の権利」。語順だけでなく、名詞と動詞を見分ける。人を主語にして「法律で提出が必要だ」と言うなら They are legally required to submit the form. とし、*They are statutory to submit the form. とはしない。statutory accounts の accounts は銀行口座ではなく計算書類。対象企業や提出先・監査義務は制度によって異なり、statutory accounts という語だけからすべての企業に同じ監査義務があるとは判断できない。  
 
 【類義語】
 

@@ -16,7 +16,7 @@ tags: []
 
 ＃語源
 
-中英語の「支払いの残り・未払金」を表す複数形に由来し、さらに古フランス語系の arere「後ろに・遅れて」へさかのぼる。そのもとはラテン語 ad「～へ」と retro「後ろへ」。rear「後方」、retro- を含む retrospect「回顧」も、歴史的に「後ろ」の意味につながる。現代の arrears には「期限より後に取り残された未払い」と「仕事の対象期間が終わった後に払う方式」があり、後者を滞納と取り違えないことが重要。  
+中英語の「支払いの残り・未払金」を表す複数形に由来し、さらに古フランス語系の arere「後ろに・遅れて」へさかのぼる。そのもとはラテン語 ad「～へ」と retro「後ろへ」。rear「後方」、retro- を含む retrospect「回顧」も、歴史的に「後ろ」の意味につながる。現代の arrears には「期限より後に取り残された未払い」と「仕事の対象期間の末または終了後に払う方式」があり、後者を滞納と取り違えないことが重要。  
 
 ＃語形成
 
@@ -31,7 +31,7 @@ tags: []
 
 ・基準より後ろに遅れた支払い状態 → 「支払いを滞納して」（語義2）  
 
-・基準より後ろに置く支払時点 → 「後払いで・対象期間の終了後に」（語義3）  
+・基準より後ろに置く支払時点 → 「後払いで・対象期間の末または終了後に」（語義3）  
 
 ・基準より後ろに残った未処理の仕事 → 「たまった仕事・未処理分」（語義4）  
 
@@ -86,7 +86,7 @@ tags: []
 例: The arrears now amount to more than $5,000.  
 訳: 滞納額は、今では5,000ドルを超えています。  
 
-【語法・注意】通常は複数形として扱い、The arrears are substantial. のように複数の動詞を続ける。特定の滞納分なら the arrears、種類の一般的な説明なら rent arrears とする。「滞納が三件」は three arrears と数えるより three overdue payments。debt は借金全体、outstanding balance は未払いの残高で、どちらも期限超過とは限らない。arrears は督促手数料や延滞利息そのものの名称ではなく、それらが合計額に含まれるかは明細・契約による。arrears of pay「未払い賃金」と pay in arrears「後払いで支払う」は別構造で、後者は語義3のとおり通常の支払方式も表す。  
+【語法・注意】通常は複数扱いで、主語にすると The arrears are substantial. のように are など複数主語に対応する動詞形を使う。特定の滞納分なら the arrears、種類の一般的な説明なら rent arrears とする。「滞納が三件」は three arrears と数えるより three overdue payments。debt は借金全体、outstanding balance は未払いの残高で、どちらも期限超過とは限らない。arrears は督促手数料や延滞利息そのものの名称ではなく、それらが合計額に含まれるかは明細・契約による。arrears of pay「未払い賃金」と pay in arrears「後払いで支払う」は別構造で、後者は語義3のとおり通常の支払方式も表す。  
 
 【類義語】
 
@@ -182,15 +182,15 @@ tags: []
 例: All tenants are now up to date with their payments.  
 訳: 現在は、どの借り主にも期日を過ぎた未払いがありません。  
 
-3. 【前置詞句・in arrears】後払いで・対象期間の終了後に
+3. 【前置詞句・in arrears】後払いで・対象期間の末または終了後に
 
-【日本語訳・定義】労働やサービスの対象期間が終わってから、その期間分の金銭を支払う方式で。あらかじめ決められた期日どおりの支払いにも使うため、滞納・遅配を必ず意味するわけではない。給与、利息、契約上の料金などの支払時点を説明する。  
+【日本語訳・定義】労働やサービスの対象期間の末、またはその終了後に、その期間分の金銭を支払う方式で。あらかじめ決められた期日どおりの支払いにも使うため、滞納・遅配を必ず意味するわけではない。給与、利息、契約上の料金などの支払時点を説明する。  
 
 【頻度】〈6/10〉  
 
 【レジスター/領域】給与・契約・金融。特に英国の給与・支払条件でよく見られ、米国の金融文書でも使う。  
 
-【文法パターン】pay someone in arrears＝相手に対象期間の後で支払う／pay 〈wages/interest〉 in arrears＝賃金・利息を後払いする／be paid monthly in arrears＝毎月、その対象期間の後で支払われる／be payable quarterly in arrears＝四半期ごとに後払いする条件である。monthly/quarterly は支払周期、in arrears は対象期間と支払時点の前後関係を表す。  
+【文法パターン】pay someone in arrears＝相手に対象期間の末または終了後に支払う／pay 〈wages/interest〉 in arrears＝賃金・利息を後払いする／be paid monthly in arrears＝毎月、その対象期間の末または終了後に支払われる／be payable quarterly in arrears＝四半期ごとに後払いする条件である。monthly/quarterly は支払周期、in arrears は対象期間と支払時点の前後関係を表す。  
 
 【コロケーション・構文例】
 
@@ -205,7 +205,7 @@ tags: []
 訳: 職員の給与は、その月に行った仕事の分を毎月後払いする方式です。  
 
 ・pay interest in arrears  
-用途: 利息の計算対象期間が終わってから支払うことを述べる。  
+用途: 利息の計算対象期間の末、またはその終了後に支払うことを述べる。  
 例: Under this agreement, the borrower pays interest in arrears at the end of each quarter.  
 訳: この契約では、借り手は各四半期の終わりに、その期間分の利息を後払いします。  
 
