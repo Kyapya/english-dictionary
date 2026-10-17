@@ -211,7 +211,7 @@ tags: []
 例: The manual describes negotiation by indorsement and delivery for instruments payable to an identified person.  
 訳: その手引きは、特定の者に支払われる証券について、裏書と引渡しによる譲渡を説明している。  
 
-【語法・注意】negotiation of a contract は通常「契約内容の交渉」だが、negotiation of a bill of exchange は「為替手形の譲渡」を指し得る。後ろの名詞を見ずにすべて「交渉」としない。米国UCC型の意味では、単なる物理的な受渡しすべてが negotiation になるわけではなく、受取人が holder となることがポイント。発行に当たる issue、支払に向けた presentment、裏書という行為の indorsement はそれぞれ別概念で、互いに置き換えられない。特定人払の証券では原則として裏書と占有移転を要するが、法令上の例外もある。銀行文脈の negotiate a check が「小切手を換金する」を指す場合もあるため、換金の実務全体と、この法令上の譲渡を常に同一視しない。信用状の negotiation「買取」は語義4で、別の定義に従う。  
+【語法・注意】negotiation of a contract は通常「契約内容の交渉」だが、negotiation of a bill of exchange は「為替手形の譲渡」を指し得る。後ろの名詞を見ずにすべて「交渉」としない。米国UCC型の意味では、単なる物理的な受渡しすべてが negotiation になるわけではなく、受取人が holder となることがポイント。発行に当たる issue、支払に向けた presentment、裏書という行為の indorsement はそれぞれ別概念で、互いに置き換えられない。特定人払の証券では原則として裏書と占有移転を要するが、法令上の例外もある。名詞の negotiation にも「小切手などの換金・買取」という用法がある（語義5）。換金の実務全体と、この法令上の譲渡を常に同一視しない。信用状の negotiation「買取」は語義4で、別の定義に従う。  
 
 【類義語】
 
@@ -249,7 +249,7 @@ tags: []
 例: The training session distinguishes negotiation by a nominated bank from the mere examination of documents.  
 訳: その研修では、指定銀行による買取と、単なる書類審査を区別している。  
 
-【語法・注意】この語義では、銀行が書類を受け取ることや審査することだけで negotiation が完了するわけではない。UCP 600の定義にある買取と資金前渡し、または前渡しの合意が重要。draft はここでは「草案」でなく「為替手形」。documents も交渉用の提案資料ではなく、信用状取引で呈示する書類を指す。語義3の「所持人となるための譲渡」と関係する金融用法だが、制度上の定義を混ぜない。available by negotiation と transferable「譲渡可能な」は同じ条件ではない。discounting「割引」も関連する取引だが、negotiation の必須の言い換えではない。  
+【語法・注意】この語義では、銀行が書類を受け取ることや審査することだけで negotiation が完了するわけではない。UCP 600の定義にある買取と資金前渡し、または前渡しの合意が重要。draft はここでは「草案」でなく「為替手形」。documents も交渉用の提案資料ではなく、信用状取引で呈示する書類を指す。語義3の「所持人となるための譲渡」と関係する金融用法だが、制度上の定義を混ぜない。小切手の換金・買取を指す語義5とも、取引の対象・条件を区別する。available by negotiation と transferable「譲渡可能な」は同じ条件ではない。discounting「割引」も関連する取引だが、negotiation の必須の言い換えではない。  
 
 【類義語】
 
@@ -260,7 +260,45 @@ tags: []
 例: The bank reviewed the documents before agreeing to their purchase.  
 訳: 銀行は書類の買取に同意する前に、それらを審査した。  
 
-5. 【名詞・主に不可算】障害物・難所の通過
+5. 【名詞・不可算】小切手などの換金・買取
+
+【日本語訳・定義】小切手などと引き換えに金銭を受け取ること、または銀行などがそれを買い取って資金を渡すこと。外国小切手を扱う銀行実務では、外国の銀行からの入金を待つ collection「取立」と区別して、取立完了前に資金を交付する方法を指すことがある。  
+
+【頻度】〈3/10〉  
+
+【レジスター/領域】金融・銀行実務。特に外国小切手の処理方法の説明で使う。具体的な取扱条件は銀行や商品によって異なる。  
+
+【文法パターン】cheque negotiation＝小切手の換金・買取／the negotiation of a cheque＝小切手を換金・買取すること／a negotiation fee＝換金・買取の手数料。cheque は英式、check は米式の綴り。  
+
+【コロケーション・構文例】
+
+・cheque negotiation  
+用途: 小切手を換金・買取する銀行のサービスや処理方法を指す。  
+例: The bank offers cheque negotiation as an alternative to collection.  
+訳: その銀行は、取立に代わる方法として小切手の買取を提供している。  
+
+・the negotiation of a cheque  
+用途: 換金・買取の対象を of で示す。  
+例: The bank advanced the funds through the negotiation of a foreign cheque before receiving payment from the bank abroad.  
+訳: その銀行は、外国の銀行からの入金を受ける前に、外国小切手の買取によって資金を前渡しした。  
+
+・a negotiation fee  
+用途: 小切手の換金・買取にかかる手数料を示す。  
+例: The bank charged a negotiation fee for cashing the foreign cheque.  
+訳: その銀行は、外国小切手の換金に買取手数料を課した。  
+
+【語法・注意】ここでは資金を得る処理に焦点がある。語義3は受取人が holder となる法的な譲渡、語義4は信用状取引における指定銀行の買取であり、三つの定義を同一視しない。外国小切手の買取で資金が先に交付されても、最終的な支払確定を必ず意味するわけではなく、銀行の条件により資金の返還を求められる場合がある。collection との区別や資金交付の時期を、あらゆる小切手の換金に共通する条件として一般化しない。  
+
+【類義語】
+
+・cashing  
+定義: 小切手などと引き換えに金銭を受け取ること・換金。  
+頻度: 〈5/10〉  
+違い: 換金という行為を平易に述べる。negotiation は銀行の処理方法として使われ、外国小切手では取立完了前の資金交付を指す場合がある。  
+例: The leaflet explains the procedure for cashing a cheque.  
+訳: その案内には、小切手を換金する手順が説明されている。  
+
+6. 【名詞・主に不可算】障害物・難所の通過
 
 【日本語訳・定義】人・車両・ロボットなどが、段差、障害物、曲がり角、難しい地形などに対処しながら、そこを通り抜けたり越えたりすること。negotiate an obstacle「障害物をうまく通過する」の名詞形。単に障害物と話し合うという比喩ではなく、移動を表す定着した用法。  
 

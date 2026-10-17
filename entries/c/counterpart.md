@@ -30,7 +30,7 @@ tags: []
 
 【レジスター/領域】報道、外交、ビジネス、比較説明、学術的な文章。人にも物にも使える標準的な名詞。  
 
-【文法パターン】someone's counterpart＝その人に対応する立場の人／someone's counterpart in/at 〈国・組織〉＝その国・組織の同じ役割の人／the counterpart of/to 〈人・物〉＝その人・物に相当するもの／a 〈地域・属性〉 counterpart＝その地域・属性側の対応物／have no direct counterpart＝直接対応するものがない／the modern counterpart of 〈過去のもの〉＝その現代版／compared with its/their counterparts＝対応するものと比較すると。  
+【文法パターン】someone's counterpart＝その人に対応する立場の人／someone's counterpart in 〈国・組織〉＝その国・組織の対応する人／someone's counterpart at 〈組織〉＝その組織の対応する人／the counterpart of/to 〈人・物〉＝その人・物に相当するもの／a 〈地域・属性〉 counterpart＝その地域・属性側の対応物／have no direct counterpart＝直接対応するものがない／the modern counterpart of 〈過去のもの〉＝その現代版／compared with its/their counterparts＝対応するものと比較すると。  
 
 【コロケーション・構文例】
 
