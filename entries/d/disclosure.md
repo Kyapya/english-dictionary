@@ -261,4 +261,4 @@ financial disclosure は「財務情報を明らかにする行為」なら語�
 頻度: 〈4/10〉  
 違い: とくに米国の法律用語で、文書・情報の開示だけでなく、質問や証言を得る手段なども含み得る。各制度の disclosure と全面的に同義ではない。  
 例: The parties discussed the scope of discovery at the pretrial conference.  
-訳: 当事者双方は、公判前協議で証拠開示・収集の範囲を話し合った。  
+訳: 当事者双方は、審理前協議で証拠開示・収集の範囲を話し合った。  

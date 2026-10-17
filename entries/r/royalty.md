@@ -103,7 +103,7 @@ tags: []
 ・fee  
 定義: サービスや権利の利用に対して支払う料金・報酬。  
 頻度: 〈9/10〉  
-違い: 支払い全般に使える広い語で、知的財産の利用や継続的な売上との関係を示さない。  
+違い: サービス・利用・参加などへの料金や報酬を広く表し、知的財産の利用や継続的な売上との関係を必ずしも示さない。  
 例: The illustrator charged a separate fee for adapting the image.  
 訳: イラストレーターは画像の加工に別料金を請求した。  
 
@@ -196,7 +196,7 @@ tags: []
 例: She joined the ranks of sporting royalty after winning her third world title.  
 訳: 3度目の世界タイトルで、彼女はスポーツ界の偉大な人物たちの一人としての地位を確立した。  
 
-【語法・注意】分野を示す語が前に来るのが典型で、music royalty は音楽界の大物、music royalties は音楽使用料となる。royalty の単複はここでも重要。He is royalty. は文脈がなければ本物の王族とも取れるため、比喩の分野を補うと明確。elite と違って統計上の上位集団を中立的に分類するというより、特別な尊敬・名声を印象的に述べる。すべての famous people を指す語ではない。  
+【語法・注意】分野を示す語が前に来るのが典型で、人を指す不可算の music royalty は「音楽界の大物」、収入を表す music royalties は「音楽使用料」。ただし、使用料にも a music royalty のような単数形や、music royalty payments のような名詞の前置修飾があるため、単複だけで意味を決めない。He is royalty. は文脈がなければ本物の王族とも取れるため、比喩の分野を補うと明確。elite と違って統計上の上位集団を中立的に分類するというより、特別な尊敬・名声を印象的に述べる。すべての famous people を指す語ではない。  
 
 【類義語】
 
