@@ -230,7 +230,7 @@ absolute「完全な、制限のない」に副詞語尾 -ly が付いた語。a
 
 【語法・注意】very tired と absolutely exhausted、very cold と absolutely freezing のように、極端な意味を持つ形容詞は absolutely とよく結び付く。ただし absolutely beautiful のように評価を強める用法もあり、「限界点のある形容詞だけ」という分類では説明しきれない。  
 
-・absolutely は very のように任意の程度を強める語ではない。「たくさん歩いた」なら walked a lot とし、walked absolutely とはしない。一方、You can absolutely walk there. なら「そこまで歩いて行くことは十分可能だ」と、行為の量ではなく可能性を強く肯定できる。  
+・absolutely は、どんな語にも付けて程度や量を強められるわけではない。「たくさん歩いた」なら walked a lot とし、walked absolutely とはしない。一方、You can absolutely walk there. なら「そこまで歩いて行くことは十分可能だ」と、行為の量ではなく可能性を強く肯定できる。  
 ・助動詞の前後の位置だけで意味が機械的に決まるわけではない。You absolutely must go. は必要性を強調し、You can absolutely do it. は実行可能だと力強く励ます。何を強調するかは、助動詞の意味・文脈・強勢にもよる。  
 ・I absolutely agree. と I agree absolutely. はどちらも成立する。前者は動詞の前で強め、後者は「全面的に」という点を後から強める。後者を一律に誤りや不自然な語順とはしない。  
 ・absolutely love は「好き」が非常に強いという意味。必ずしも偽りのない気持ちを保証するわけではなく、誠実さを特に言うなら genuinely love などが適する。  
@@ -362,7 +362,7 @@ absolute「完全な、制限のない」に副詞語尾 -ly が付いた語。a
 例: In this fictional kingdom, the monarch rules absolutely, with no parliament to limit her power.  
 訳: この架空の王国では、君主は権力を制限する議会なしに、絶対的な権力で統治しています。  
 
-【語法・注意】絶対王政という体制を説明する用法であり、支配者が残酷であることまで必ず意味するわけではない。また、全領土を実際に掌握しているかという支配範囲とも区別する。歴史上の特定の君主の権力を評価する際には、具体的な制度や時代背景が必要。  
+【語法・注意】絶対王政などで、支配者が制限のない権力を行使することを説明する用法であり、支配者が残酷であることまで必ず意味するわけではない。また、全領土を実際に掌握しているかという支配範囲とも区別する。歴史上の特定の君主の権力を評価する際には、具体的な制度や時代背景が必要。  
 
 5. 【副詞・非相対的な評価】他との比較によらず、絶対量で
 
