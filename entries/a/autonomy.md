@@ -28,6 +28,16 @@ tags: []
 
 ・autonomic：形容詞。主に autonomic nervous system「自律神経系」で使う生理学の語。autonomous と入れ替えて職場の自主性を表す語ではない。  
 
+＃コアイメージ
+
+「外部からの統制に全面的に依存せず、自分側で働きを保つこと」が核。人の自己決定、組織の自治、生体の一部分の独立した成長・反応に広がる。独立の対象や範囲は文脈ごとに異なり、外部との関係が一切ないことを意味しない。  
+
+・外部統制に依存しない個人の判断・行動 → 「自主性・自律性・自己決定権」（語義1）  
+
+・外部統制に依存しない地域・組織の運営 → 「自治・自治権」（語義2）  
+
+・外部統制に依存しない生体の一部の働き → 「生体の一部分の自律性」（語義3）  
+
 ＃意味・用法・関連表現
 
 1. 【名詞・不可算】自主性・自律性・自己決定権
@@ -77,12 +87,12 @@ tags: []
 例: The discussion focused on bodily autonomy and informed choice.  
 訳: 議論は身体に関する自己決定と、十分な情報に基づく選択に焦点を当てた。  
 
-【語法・注意】通常は不可算なので、「もっと自主性」は more autonomy であり、more autonomies ではない。have autonomy は一般的に裁量があること、have the autonomy to decide は具体的な判断の自由を示す形で、the が付いても可算名詞になったわけではない。autonomy to decide の to は不定詞で、autonomy in deciding の in は前置詞。誤った autonomy to deciding と区別する。名詞の They have autonomy.「彼らには自主性がある」に対し、形容詞は They are autonomous.「彼らは自律している」。They are autonomy. とはしない。patient autonomy「患者の自己決定」、bodily autonomy は倫理・制度の議論に現れるが、この語だけから具体的な法的権利の範囲を判断しない。哲学の moral autonomy は自分の理性に基づく道徳的な自己決定を指し、単なる好き勝手な行動とは区別する。  
+【語法・注意】通常は不可算なので、「もっと自主性」は more autonomy であり、more autonomies ではない。have autonomy は一般的に裁量があること、have the autonomy to decide は具体的な判断の自由を示す形で、the が付いても可算名詞になったわけではない。autonomy to decide の to は不定詞で、autonomy in deciding の in は前置詞。誤った autonomy to deciding と区別する。名詞の They have autonomy.「彼らには自主性がある」に対し、形容詞は They are autonomous.「彼らは自律している」。They are autonomy. とはしない。patient autonomy「患者の自己決定」、bodily autonomy は倫理・制度の議論に現れるが、この語だけから具体的な法的権利の範囲を判断しない。哲学の moral autonomy は自分の理性に基づく道徳的な自己決定を指し、単なる好き勝手な行動とは区別する。細胞などの成長・反応に関する生物学的な自律性は語義3を参照する。  
 
 【類義語】
 
 ・independence  
-定義: 他者の支配や援助に頼らないこと。  
+定義: 他者の支配を受けないこと、または他者の援助に依存しないこと。  
 頻度: 〈8/10〉  
 違い: autonomy は意思決定の裁量に焦点がある。independence は生活・財政面で援助を受けないことにも広がる。  
 例: Moving out gave him greater independence.  
@@ -136,7 +146,7 @@ tags: []
 訳: その提案では地方行政機関により大きな自治権を認めることになる。  
 
 ・autonomy from 〈上位機関・統制〉  
-用途: 自律的な運営を妨げていた統制主体を示す。  
+用途: どの機関や統制から独立して運営するかを示す。  
 例: The university sought greater autonomy from government control.  
 訳: その大学は、政府の統制を減らし、より大きな自治を得ようとした。  
 
@@ -186,3 +196,34 @@ tags: []
 違い: 最終的な統治権限を問題にする。限定された分野の自治を指せる autonomy より、権限の根本的な所在に焦点がある。  
 例: The debate concerned national sovereignty.  
 訳: その議論は国家主権に関するものだった。  
+
+3. 【名詞・不可算】生体の一部分の自律性
+
+【日本語訳・定義】細胞・組織など、生体の一部分が、個体全体などからの制御に依存せず成長・反応する性質や能力。人の意思や自己決定権ではなく、生物学的な働きの独立性を指す。どの働きが、どの制御や外部からの供給に依存しないのかは研究の文脈による。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】医学・生物学、細胞の増殖や反応を扱う専門文献。患者の選択を尊重する patient autonomy は語義1であり、この生理学的な意味とは異なる。  
+
+【文法パターン】cell autonomy＝細胞の自律性／autonomy in cell proliferation＝細胞増殖における自律性／growth factor autonomy＝増殖因子への依存からの自律性。性質・能力を指し、通常は不可算で使う。  
+
+【コロケーション・構文例】
+
+・cell autonomy  
+用途: 細胞の働きが周囲からの影響にどの程度依存するかを論じる。  
+例: The experiment tested cell autonomy by comparing cells grown alone with cells grown in mixed cultures.  
+訳: その実験では、単独で培養した細胞と混合培養した細胞を比較して、細胞の自律性を調べた。  
+
+・autonomy in cell proliferation  
+用途: 細胞の増殖が外部の制御からどの程度独立しているかを述べる。  
+例: The study examined autonomy in cell proliferation under different culture conditions.  
+訳: その研究は、異なる培養条件下での細胞増殖の自律性を調べた。  
+
+・growth factor autonomy  
+用途: 細胞増殖における増殖因子への依存性を論じる。  
+例: The researchers investigated the acquisition of growth factor autonomy in cultured cells.  
+訳: 研究者たちは、培養細胞が増殖因子に依存しなくなる性質を獲得する過程を調べた。  
+
+【語法・注意】生物学的な autonomy は、細胞に意思や法的権利があるという意味ではない。また、特定の制御から独立していても、栄養や周囲の環境を一切必要としないとは限らない。自律性が観察されたというだけで悪性腫瘍だと決まるわけでもない。autonomic nervous system「自律神経系」は別の定着した名称で、autonomy のすべての生物学的用法を自律神経の働きと解釈しない。  
+
+

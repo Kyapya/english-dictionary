@@ -30,6 +30,16 @@ tags: []
 
 ・allocative：形容詞。経済学の allocative efficiency「配分効率」のように、資源の配分に関係することを表す専門的な形。  
 
+＃コアイメージ
+
+「対象を特定の行き先・用途・取り分に割り当てること」が核。資源を配る過程、そこで決まる量、事件を審理する場の選定へとつながる。語義3の具体的な手続きや判断基準は法制度により定まる。  
+
+・資源を用途や相手に割り当てる過程 → 「配分・割り当て」（語義1）  
+
+・資源を用途や相手に割り当てた一定量 → 「割当分・配分額・割当枠」（語義2）  
+
+・事件を審理する裁判所に割り当てる過程 → 「審理裁判所を決める手続き」（語義3）  
+
 ＃意味・用法・関連表現
 
 1. 【名詞・主に不可算】配分・割り当て
@@ -84,7 +94,7 @@ tags: []
 例: The company changed its cost allocation method to reflect how each department uses shared services.  
 訳: その会社は、各部門による共通サービスの利用状況を反映するように、費用配賦の方法を変更した。  
 
-【語法・注意】allocation は名詞なので「資金を配分する」を allocation funds とはせず、allocate funds とする。名詞なら allocation of funds。to は受領者・到達先、for は使用目的を示すが、allocation to education と allocation for education のように同じ対象を異なる角度から表せる場合もある。among は複数の集団内への配分、between は配分先を個別に区別する関係を示し、between が必ず二者だけに限られるわけではない。過程は不可算が基本だが、a fair allocation of resources のように一つの配分の仕方・取り決めとして可算化できる。語義2の an allocation of $5,000 は、方法ではなく割り当てられた額。asset allocation は資産区分間の配分で、個々の銘柄を選ぶことそのものとは区別する。memory allocation は同じ「資源を用途に割り当てる」意味の専門的な対象であり、独立した「記憶」という意味ではない。cost allocation は会計上の費用の帰属・配賦を表し、部門に支出可能な予算を与えることや、現金を送金することとは区別する。  
+【語法・注意】allocation は名詞なので「資金を配分する」を allocation funds とはせず、allocate funds とする。名詞なら allocation of funds。to は受領者・到達先、for は使用目的を示すが、allocation to education と allocation for education のように同じ対象を異なる角度から表せる場合もある。among は複数の集団内への配分、between は配分先を個別に区別する関係を示し、between が必ず二者だけに限られるわけではない。過程は不可算が基本だが、a fair allocation of resources のように一つの配分の仕方・取り決めとして可算化できる。語義2の an allocation of $5,000 は、方法ではなく割り当てられた額。asset allocation は資産区分間の配分で、個々の銘柄を選ぶことそのものとは区別する。memory allocation は同じ「資源を用途に割り当てる」意味の専門的な対象であり、独立した「記憶」という意味ではない。cost allocation は会計上の費用の帰属・配賦を表し、部門に支出可能な予算を与えることや、現金を送金することとは区別する。刑事手続で審理裁判所の適否を判断する allocation は語義3を参照する。  
 
 【類義語】
 
@@ -189,3 +199,29 @@ tags: []
 違い: allocation は制限や不足を必須としない。ration は必要物資の限定された配給分という含みが強い。  
 例: The hikers saved part of their daily water ration.  
 訳: 登山者たちは、一日分の水の割当量の一部を残しておいた。  
+
+3. 【名詞・不可算】審理裁判所を決める手続き
+
+【日本語訳・定義】イングランド・ウェールズの刑事手続で、いずれの裁判所でも審理可能な犯罪（either-way offence）について、治安判事裁判所と刑事法院のどちらで審理するのが適切かを判断する手続き。事件の複雑さや予想される刑などを考慮する。有罪・無罪や、実際に科す刑そのものを決めることではない。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】イングランド・ウェールズの刑事司法・法律文書。ここではこの法域の審理裁判所の選定に限定する。  
+
+【文法パターン】an allocation decision＝審理裁判所の適否についての判断／allocation guidelines＝その判断に用いる指針。手続きとしての allocation は不可算で、an allocation decision の冠詞は可算名詞 decision に付く。  
+
+【コロケーション・構文例】
+
+・an allocation decision  
+用途: 刑事事件をどの裁判所で審理するのが適切かという判断を述べる。  
+例: The magistrates considered the likely sentence when making their allocation decision.  
+訳: 治安判事らは、審理裁判所について判断する際、予想される刑を考慮した。  
+
+・allocation guidelines  
+用途: 審理裁判所の適否を判断するための司法指針を指す。  
+例: The magistrates referred to the allocation guidelines when deciding whether the case was suitable for summary trial.  
+訳: 治安判事らは、その事件が治安判事裁判所での略式審理に適しているかを判断する際、裁判所選定の指針を参照した。  
+
+【語法・注意】allocation は審理する場の適否の判断であり、conviction「有罪判決」や sentencing「量刑」とは別。治安判事裁判所で審理可能と判断されても、被告人の同意などに関する手続きが続くため、その判断だけで審理裁判所が最終確定すると一般化しない。民事にも allocation to a track「事件を所定の審理区分に振り分けること」があり、法律文書の allocation を常に刑事の裁判所選定と訳してはいけない。語義1の資源配分と同じ「割り当て」の意味核を持つが、対象と制度上の手続きが異なる。  
+
+
