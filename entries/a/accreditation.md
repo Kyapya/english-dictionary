@@ -31,13 +31,13 @@ accredit「正式に認める・資格を与える」に、動作や状態を表
 
 1. 【名詞・主に不可算】正式な認定・適格性の認定
 
-【日本語訳・定義】教育機関・教育課程・試験所などが所定の基準を満たす、または特定の業務を適切に行う能力があると、認定主体が正式に認めること。その手続きや認定された状態を指す。単なる評判のよさではなく、認定主体と基準のある評価を背景にするのが典型。認定の対象・範囲・基準は制度ごとに異なり、常に政府が認めること、すべての活動で最高水準であることを意味するわけではない。  
+【日本語訳・定義】教育機関・教育課程・試験所・専門職の個人などが所定の基準を満たす、または特定の業務を適切に行う能力があると、認定主体が正式に認めること。その手続きや認定された状態を指す。教育では、過去の学習成果を評価し、現在の課程で正式に認めることにも使う。単なる評判のよさではなく、認定主体と基準のある評価を背景にするのが典型。認定の対象・範囲・基準は制度ごとに異なり、常に政府が認めること、すべての活動で最高水準であることを意味するわけではない。  
 
 【頻度】〈5/10〉  
 
 【レジスター/領域】フォーマル。教育、専門職、試験・検査、品質保証、医療機関など。特定の制度上の名称として使われることが多い。  
 
-【文法パターン】gain/obtain/receive accreditation＝認定を受ける／accreditation from 〈認定主体〉＝その主体からの認定／accreditation by 〈認定主体〉＝その主体による認定／grant/award accreditation to 〈機関・課程〉＝対象に認定を与える／accreditation of 〈対象〉＝その対象の認定／apply for accreditation＝認定を申請する／accreditation for 〈対象業務〉＝その業務についての認定／accreditation to 〈規格名〉＝その規格に基づく認定／retain/maintain/lose accreditation＝認定を維持する・失う／withdraw/suspend accreditation＝認定を取り消す・停止する／the scope of accreditation＝認定対象の範囲。  
+【文法パターン】gain/obtain/receive accreditation＝認定を受ける／accreditation from 〈認定主体〉＝その主体からの認定／accreditation by 〈認定主体〉＝その主体による認定／grant/award accreditation to 〈機関・課程・専門職の個人〉＝対象に認定を与える／accreditation of 〈対象〉＝その対象の認定／apply for accreditation＝認定を申請する／accreditation for 〈対象業務〉＝その業務についての認定／accreditation to 〈規格名〉＝その規格に基づく認定／retain/maintain/lose accreditation＝認定を維持する・失う／withdraw/suspend accreditation＝認定を取り消す・停止する／the scope of accreditation＝認定対象の範囲／accreditation of prior learning＝既修学習の認定。  
 
 【コロケーション・構文例】
 
@@ -91,11 +91,21 @@ accredit「正式に認める・資格を与える」に、動作や状態を表
 例: The university has institutional accreditation, but the new program is still seeking programmatic accreditation.  
 訳: その大学は機関全体としての認定を受けていますが、新しい課程はまだ課程別認定の取得を目指しています。  
 
+・gain accreditation from 〈専門職団体〉  
+用途: 個人の専門能力が認定されたことを述べる。  
+例: The counsellor gained accreditation from her professional association.  
+訳: そのカウンセラーは、所属する専門職団体から専門能力の認定を受けました。  
+
+・accreditation of prior learning  
+用途: 過去の学習成果を、現在の課程の単位や履修免除などにつなげて認定する。  
+例: She applied for accreditation of prior learning based on skills acquired at work.  
+訳: 彼女は仕事で身につけた技能を根拠に、既修学習の認定を申請しました。  
+
 【語法・注意】基本は不可算で、gain accreditation、lose accreditation のように使う。複数の独立した認定・制度を区別する場合には accreditations も使われるが、通常の「認定を受けた」を機械的に got an accreditation としない。gain accreditation と be accredited は、前者が「認定を得る」という名詞句を含む表現、後者が「認定されている」という受動・状態の表現。×The school is accreditation. は、○The school has accreditation. または ○The school is accredited. とする。accreditation from/by 〈機関〉 は認定主体、accreditation of 〈機関〉 は認定対象を示す。  
 
-certification との区別は分野を指定して理解する。適合性評価では、certification が製品・サービス・管理システムなどの要求への適合の認証、accreditation が認証機関・試験所などの能力の認定を指すのが基本。例えばISO 9001の認証を受けた管理システムと、ISO/IEC 17025に基づいて特定の試験・校正能力を認定された試験所は、評価対象が異なる。accreditation を「認証機関だけの認定」とするのも狭すぎる。教育や専門職では別の制度上の使い分けがあるため、「認定は組織、認証は個人」と一律に対応させない。  
+certification との区別は分野を指定して理解する。適合性評価では、certification が製品・サービス・管理システムなどの要求への適合の認証、accreditation が認証機関・試験所などの能力の認定を指すのが基本。例えばISO 9001の認証を受けた管理システムと、ISO/IEC 17025に基づいて特定の試験・校正能力を認定された試験所は、評価対象が異なる。accreditation を「認証機関だけの認定」とするのも狭すぎる。教育や専門職では別の制度上の使い分けがあるため、「認定は組織、認証は個人」と一律に対応させない。個人の専門能力の認定はこの語義に含み、語義2の催事・派遣先などで活動する立場の認定とは区別する。  
 
-full accreditation は、その制度における正式な認定を示し、必ずしも最高順位や無欠陥を意味しない。institutional accreditation があっても、個別課程の認定や専門職の免許取得資格が自動的にすべて認められるとは限らない。米国の高等教育では、教育省が個々の大学を直接認定するのではなく、認定機関を認める仕組みがある。「認定主体の承認」と「学校の認定」は区別する。日本語の「設置認可」「免許」「単位認定」も、制度を確認せず accreditation と置き換えない。withdrawal of accreditation は既存認定の取り消し、denial of accreditation は認定しない決定で、単なる未取得とは異なる。  
+full accreditation は、その制度における正式な認定を示し、必ずしも最高順位や無欠陥を意味しない。institutional accreditation があっても、個別課程の認定や専門職の免許取得資格が自動的にすべて認められるとは限らない。米国の高等教育では、教育省が個々の大学を直接認定するのではなく、認定機関を認める仕組みがある。「認定主体の承認」と「学校の認定」は区別する。日本語の「設置認可」「免許」「単位認定」も、制度を確認せず accreditation と置き換えない。ただし英国の教育などの accreditation of prior learning（APL）は、既修学習の成果を評価して単位・履修免除などに結び付ける認定を指す。職務経験も根拠になり得るが、経験しただけで自動的に認定されるわけではない。withdrawal of accreditation は既存認定の取り消し、denial of accreditation は認定しない決定で、単なる未取得とは異なる。  
 
 【類義語】
 
@@ -122,7 +132,7 @@ full accreditation は、その制度における正式な認定を示し、必�
 
 2. 【名詞・主に不可算】公式資格の付与・代表者や記者としての認定
 
-【日本語訳・定義】人を、正式な代表者・外交使節・記者などとして認め、その立場で活動する資格を与えること、またはその資格・身分。会議や大会では、取材・参加・特定区域への入場などを可能にする認定を指す。語義1の教育・技術上の品質評価とは異なり、その場でどの立場で活動できるかが中心となる。  
+【日本語訳・定義】人を、正式な代表者・外交使節・記者などとして認め、その立場で活動する資格を与えること、またはその資格・身分。会議や大会では、取材・参加・特定区域への入場などを可能にする認定を指す。語義1の機関・専門職の能力や学習成果の評価とは異なり、その場でどの立場で活動できるかが中心となる。  
 
 【頻度】〈4/10〉  
 
