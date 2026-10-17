@@ -64,7 +64,7 @@ checked: true
 ・insist on someone doing something  
 用途: 特定の人がその行為をするよう強く求める  
 例: She insisted on me staying for lunch.  
-訳: 彼女は私に昼食まで残るよう強く勧めた。  
+訳: 彼女は私に、残って昼食を食べていくよう強く勧めた。  
 
 ・insist on someone’s doing something  
 用途: 人が行う行為を強く求める。所有格を使う形はやや形式的  
@@ -111,7 +111,7 @@ checked: true
 例: A written guarantee was insisted on before any money changed hands.  
 訳: 金銭を受け渡す前に、書面による保証が強く求められた。  
 
-【語法・注意】名詞を直接目的語にして ×insist a refund とはせず、○insist on a refund とする。×insist to pay／×insist paying は ○insist on paying、×insist me to stay は ○insist that I stay／○insist on me staying。on は前置詞で、その後ろに名詞・代名詞・-ing を置き、×insist it on のように分離しない。upon はより改まった変形。要求の that 節は、主語に関係なく原形を使う仮定法現在と、should を使う形が代表的で、原形は特に米語で、should は特に英語でよく使われるが、両者を米英の排他的な規則にしない。否定は that she not leave／that she should not leave、受動は that the report be rewritten。特に英語では通常の直説法形で要求を表すこともあるため、that she apologizes を文脈なしに一律誤文とはしない。主張の語義2との区別には節の形と意味の両方を見る。on me staying と on my staying はともに可能で、所有格は改まった書き方に多い。insist on paying で払うのは通常主語の人だが、insist on the work being completed なら求めるのは仕事の完成であり、主語が実行者とは限らない。人を主語とする ×I was insisted to stay は使わず、They insisted that I stay. とする。一方、A written guarantee was insisted on. のような前置詞を残す受動態は可能。要求が通ったという結果までは含まない。  
+【語法・注意】名詞を直接目的語にして ×insist a refund とはせず、○insist on a refund とする。×insist to pay／×insist paying は ○insist on paying、×insist me to stay は ○insist that I stay／○insist on me staying。on は前置詞で、その後ろに名詞・代名詞・-ing を置き、×insist it on のように分離しない。upon はより改まった変形。要求の that 節は、主語に関係なく原形を使う仮定法現在と、should を使う形が代表的で、原形は特に米語で、should は特にイギリス英語でよく使われるが、両者を米英の排他的な規則にしない。否定は that she not leave／that she should not leave、受動は that the report be rewritten。特にイギリス英語では通常の直説法形で要求を表すこともあるため、that she apologizes を文脈なしに一律誤文とはしない。主張の語義2との区別には節の形と意味の両方を見る。on me staying と on my staying はともに可能で、所有格は改まった書き方に多い。insist on paying で払うのは通常主語の人だが、insist on the work being completed なら求めるのは仕事の完成であり、主語が実行者とは限らない。人を主語とする ×I was insisted to stay は使わず、They insisted that I stay. とする。一方、A written guarantee was insisted on. のような前置詞を残す受動態は可能。要求が通ったという結果までは含まない。  
 
 【類義語】
 
@@ -199,7 +199,7 @@ checked: true
 例: He insisted to the investigators that he had never seen the document.  
 訳: 彼は捜査担当者に、その書類は一度も見たことがないと強く主張した。  
 
-【語法・注意】She insisted that he leave. は代表的には要求「彼に立ち去るよう求めた」、She insisted that he had left. は事実の主張「彼はすでに立ち去ったと言った」。ただし、形だけで常に意味が決まるわけではない。例えば we leave の leave は原形と現在形が同形であり、また特に英語では要求に直説法形も使われる。be の原形を使う that he be present は要求の典型、that he was present は「彼がその場にいた」という事実の主張の典型である。報道の insists は発言者の立場を伝えるのであって、その内容の正しさを記者が認定したとは限らない。直接引用の “I saw it,” she insisted. もこの用法。insist to me that ... の to me は相手を示す前置詞句で、×insist me that ... と人を直接目的語にはしない。語義1の insist that ... との品詞分類は辞書で差もあるが、節を取れることと、普通の人・物名詞を直接置けないことは区別する。  
+【語法・注意】She insisted that he leave. は代表的には要求「彼に立ち去るよう求めた」、She insisted that he had left. は事実の主張「彼はすでに立ち去ったと言った」。ただし、形だけで常に意味が決まるわけではない。例えば we leave の leave は原形と現在形が同形であり、また特にイギリス英語では要求に直説法形も使われる。be の原形を使う that he be present は要求の典型、that he was present は「彼がその場にいた」という事実の主張の典型である。報道の insists は発言者の立場を伝えるのであって、その内容の正しさを記者が認定したとは限らない。直接引用の “I saw it,” she insisted. もこの用法。insist to me that ... の to me は相手を示す前置詞句で、×insist me that ... と人を直接目的語にはしない。語義1の insist that ... との品詞分類は辞書で差もあるが、節を取れることと、普通の人・物名詞を直接置けないことは区別する。  
 
 【類義語】
 
@@ -225,7 +225,7 @@ checked: true
 訳: 彼は現場にはいなかったと主張している。  
 
 ・contend  
-定義: 議論や論争の中で、根拠を伴う立場として主張する  
+定義: 主に議論や論争の中で、あることが真実・正しいと主張する  
 頻度: 〈5/10〉  
 違い: contend は法律、学術、論説などの形式的な議論で使われやすい。insist は日常的な主張にも使え、感情的な強さを伴うことがある。  
 例: The authors contend that the policy will increase inequality.  
