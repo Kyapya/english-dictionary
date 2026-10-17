@@ -26,6 +26,14 @@ tags: []
 ・indispensability：不可算名詞「不可欠であること」。the indispensability of reliable data「信頼できるデータの不可欠性」。  
 ・indispensably：副詞「欠かせないほどに・不可欠な形で」。一般文では形容詞を使った be indispensable のほうがよく使われる。  
 
+＃コアイメージ
+
+「それなしでは済ませられない」。人・物・条件の必要性から、欠かせない物そのもの、訴訟を進めるうえでの当事者の必要性へつながるが、法律上の判断基準は語義3で別に確認する。  
+
+・それなしでは済ませられない人・物・条件 → 「不可欠な・なくてはならない」（語義1）  
+・それなしでは済ませられない物や人そのもの → 「必需品・欠かせない人や物」（語義2）  
+・それなしでは済ませられない訴訟当事者 → 「訴訟に不可欠な」（語義3）  
+
 ＃意味・用法・関連表現
 
 1. 【形容詞・限定／叙述】不可欠な・なくてはならない
@@ -84,7 +92,7 @@ tags: []
 
 She is indispensable to us. の to は前置詞で、後ろは us という名詞句。「～するのに不可欠な」は indispensable for doing something を基本にする。a tool indispensable to analyse the data と直接不定詞をつなぐより、a tool indispensable for analysing the data、または a tool that is essential for analysing the data のように、目的を明確にする。行為そのものの必要性なら It is essential to check the data. が一般的で、indispensable を essential の全構文に機械的に代入しない。  
 indispensable は「必要性」、irreplaceable は「代わりが利かないこと」に重点がある。An indispensable tool can be replaced with an identical one.「不可欠な道具でも同じ物と交換できる」は矛盾しない。No one is indispensable. は「誰も必要ない」ではなく、「誰にでも代わりはいる」という意味で、相手に直接言うと冷たい響きになることがある。  
-indispensable requirements のような表現は、免除や省略ができない要件を表すが、語だけから法律上の具体的な手続きや強制力を推定しない。可算名詞の単数形では an indispensable resource のように冠詞が必要。名詞用法は語義2を参照。  
+indispensable requirements のような表現は、免除や省略ができない要件を表すが、語だけから法律上の具体的な手続きや強制力を推定しない。可算名詞の単数形には通常、冠詞・所有格・指示詞などの限定詞が必要。an indispensable resource、my indispensable assistant、this indispensable resource など。名詞用法は語義2を参照。  
 
 【類義語】
 
@@ -178,3 +186,30 @@ indispensable requirements のような表現は、免除や省略ができな�
 違い: 宣伝や会話で使う口語的な可算名詞。厳密な必需品ではなく、魅力的だから欲しいという評価にも使う。  
 例: The reviewer called the guide a must-have for first-time visitors.  
 訳: 評者は、そのガイドを初めて訪れる人にとってぜひ持っておきたい一冊だと評した。  
+
+3. 【形容詞・限定／叙述、法律／米国】訴訟に不可欠な
+
+【日本語訳・定義】主に indispensable party で、その権利・利害が訴訟の争点に深く関わり、不在のまま訴訟を進めるべきではないと判断される当事者を表す。米国連邦民事訴訟では、必要な当事者を加えられない場合に規則19(b)の諸要素を検討し、訴訟継続より却下が適切との結論に関係する伝統的な呼称。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】米国の訴訟法・判例・法律解説。一般義1の「欠かせない人」を、単に重要な証人や有能な弁護士という意味で当てはめない。  
+
+【文法パターン】an indispensable party＝訴訟に不可欠な当事者／〈当事者〉 + be deemed indispensable＝当事者が訴訟に不可欠と判断される。party は政党・集まりではなく訴訟当事者を指す。この分類用法では通常、程度比較をしない。  
+
+【コロケーション・構文例】
+
+・an indispensable party  
+用途: 加えることのできない当事者の不在が、訴訟の却下につながったことを述べる。  
+例: The court dismissed the action because an indispensable party could not be joined.  
+訳: 裁判所は、訴訟に不可欠な当事者を加えられなかったため、訴えを却下した。  
+
+・be deemed indispensable  
+用途: 当事者を加えられない場合の検討を経た判断を示す。  
+例: After considering the Rule 19(b) factors, the court deemed the absent party indispensable.  
+訳: 規則19(b)の諸要素を検討した後、裁判所はその不在の当事者を訴訟に不可欠と判断した。  
+
+【語法・注意】必要な当事者が欠ければ自動的に却下されるわけではない。連邦民事訴訟規則19では、まず(a)により加える必要性を判断し、加えられない場合に(b)で不利益、その軽減可能性、判決の適切さ、却下時の原告の救済手段などを検討する。  
+
+現行規則本文から indispensable は削除されており、2007年委員会注記は、(b)の判断後の結論を表すだけの重複的な用語だったと説明している。判例や解説に残る呼称を、現行規則の独立した要件と読み違えない。  
+

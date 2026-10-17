@@ -227,16 +227,7 @@ discretion「判断・裁量」に形容詞語尾 -ary が付いた語。discret
 例: The table presents defense and nondefense discretionary spending separately.  
 訳: その表は、防衛と非防衛の裁量的歳出を別々に示している。  
 
-【語法・注意】mandatory spending は一般に給付要件や算定式などに基づいて決まる義務的歳出で、discretionary spending との違いは予算上の決まり方にある。discretionary だから政府担当者が私的に自由に使えるわけではなく、法律による統制がある。すべてが必ず一年限りの資金とも限らない。「任意だから不要」「mandatory は一切変更できない」という読み方は誤り。語義2の消費者の discretionary spending と、同じ綴りでも判断主体・制度を区別する。  
-
-【類義語】
-
-・appropriated  
-定義: 歳出法などによって資金が配分された。  
-頻度: 〈3/10〉  
-違い: 配分行為を示す関連の近義表現。mandatory の一部にも歳出法上の配分が関わるため、discretionary と完全には一致しない。  
-例: The agency must use appropriated funds for their authorized purposes.  
-訳: その機関は、配分された資金を認められた目的に使わなければならない。  
+【語法・注意】mandatory spending は一般に給付要件や算定式などに基づいて決まる義務的歳出で、discretionary spending との違いは予算上の決まり方にある。discretionary だから政府担当者が私的に自由に使えるわけではなく、法律による統制がある。すべてが必ず一年限りの資金とも限らない。「任意だから不要」「mandatory は一切変更できない」という読み方は誤り。語義2の消費者の discretionary spending と、同じ綴りでも判断主体・制度を区別する。関連表現の appropriated funds は「法により資金が配分された財源」を指す。義務的歳出にも appropriated mandatory spending があるため、appropriated は discretionary の同義語ではない。  
 
 【反意語】
 
