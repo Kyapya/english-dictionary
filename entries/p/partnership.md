@@ -129,7 +129,7 @@ partnership と呼ばれていても、双方の権限・仕事量・利益が�
 
 【レジスター/領域】ビジネス、会社・事業の組織形態、法律、会計、税務。制度上の定義、法人格、責任、課税などは国・地域と組織の種類によって異なる。  
 
-【文法パターン】go into partnership with someone＝相手と共同経営を始める／set up/form a partnership＝共同経営の事業体をつくる／take someone into partnership＝共同経営者として迎える／be admitted to partnership＝共同経営者の地位に迎え入れられる／a partner in a partnership＝共同事業体の共同経営者／a partnership agreement＝共同経営の合意書／dissolve a partnership＝共同経営関係・共同事業体を解消する。  
+【文法パターン】go into partnership with someone＝相手と共同経営を始める／set up/form a partnership＝共同経営の事業体をつくる／take someone into partnership＝共同経営者として迎える／be admitted to partnership＝共同経営者の地位に迎え入れられる／a partner in a partnership＝共同事業体の共同経営者／a partnership agreement＝共同経営の合意・契約（書面の場合は合意書・契約書）／dissolve a partnership＝共同経営関係・共同事業体を解消する。  
 
 【コロケーション・構文例】
 
@@ -161,7 +161,7 @@ partnership と呼ばれていても、双方の権限・仕事量・利益が�
 ・a partnership agreement  
 用途: 共同経営者の関係や利益配分などを決める合意を指す。  
 例: Their partnership agreement explains how major business decisions are made.  
-訳: 彼らの共同経営の合意書には、事業上の重要な決定をどう行うかが定められている。  
+訳: 彼らの共同経営の合意では、事業上の重要な決定をどう行うかが定められている。  
 
 ・dissolve a partnership  
 用途: 共同経営関係や共同事業体を解消することを述べる。  
@@ -261,7 +261,7 @@ civil partnership や domestic partnership は、国・地域によって法的�
 例: The bowler broke the partnership by dismissing the captain.  
 訳: そのボウラーは主将をアウトにして、打者2人の組合せを崩した。  
 
-【語法・注意】a 60-run partnership の run は数詞と組み合わせて前から修飾するため単数形にし、ハイフンでつなぐ。a partnership of 60 runs では runs は複数形。これは打者一人が60ランを打ったという意味ではない。third-wicket は「3人目の打者と組む」と単純に対応する表現ではなく、何番目のウィケットについての組合せかを示す。テニスやブリッジなどでも partnership は競技上の組合せに使えるが、得点数を伴うここでの用法はクリケットのもの。  
+【語法・注意】a 60-run partnership の run は数詞と組み合わせて前から修飾するため単数形にし、ハイフンでつなぐ。a partnership of 60 runs では runs は複数形。これは打者一人が60ランを打ったという意味ではない。third-wicket は「3人目の打者と組む」と単純に対応する表現ではなく、何番目のウィケットについての組合せかを示す。負傷などによる途中退場はアウトとは限らず、打者の組合せが変わっても失ったウィケット数が増えない場合がある。テニスやブリッジなどでも partnership は競技上の組合せに使えるが、得点数を伴うここでの用法はクリケットのもの。  
 
 【類義語】
 
