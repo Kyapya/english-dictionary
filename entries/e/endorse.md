@@ -1,12 +1,12 @@
 ---
 headword: endorse
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: OpenAI assistant
 created_at: 2026-10-17
-updated_at: 2026-10-17
-checked: false
+updated_at: 2026-10-18
+checked: true
 tags: []
 ---
 
@@ -191,7 +191,7 @@ tags: []
 例: The bank returned the cheque because it had not been endorsed by the payee.  
 訳: 受取人の裏書がなかったため、銀行はその小切手を返却した。  
 
-【語法・注意】endorse a check は小切手への「賛同」ではない。裏書の方式、署名以外の記載、モバイル入金の条件などは金融機関・法域・取引によって異なるため、「裏面に署名すれば必ず換金できる」とは限らない。振出人の署名、受取人の裏書、銀行の決済は別の行為。譲渡相手を指定する endorse a check to someone は語義4。  
+【語法・注意】endorse a check は小切手への「賛同」ではない。裏書の方式、署名以外の記載、モバイル入金の条件などは金融機関・法域・取引によって異なるため、「裏面に署名すれば必ず換金できる」とは限らない。振出人の署名、受取人の裏書、銀行の決済は別の行為。譲渡相手を指定する endorse a check to someone は語義4。for deposit は入金目的を示す。小切手に記す “for deposit only” は入金に用途を限定する文言で、単なる目的説明とは区別する。  
 
 【類義語】
 
@@ -257,7 +257,7 @@ tags: []
 例: The officer endorsed the date on the certificate.  
 訳: 担当官は証明書に日付を記入した。  
 
-【語法・注意】endorse the document は文脈によって「文書の内容を支持する」とも「文書に付記する」とも読める。with the date、on the certificate などの記載内容が区別の手掛かりになる。付記だけで許可・承認が成立するとは限らず、制度上の効果を推測して訳さない。  
+【語法・注意】endorse the document は文脈によって「文書の内容を支持する」とも「文書に付記する」とも読める。with the date、on the certificate などの記載内容が区別の手掛かりになる。付記だけで許可・承認が成立するとは限らず、制度上の効果を推測して訳さない。書類によっては、署名・押印などで確認や証明の記録を付す場合にも用いる。その制度上の効果は書類と手続きによる。  
 
 【類義語】
 
