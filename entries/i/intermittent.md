@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: OpenAI assistant
 created_at: 2026-10-17
-updated_at: 2026-10-17
+updated_at: 2026-10-18
 checked: true
 tags: []
 ---
@@ -67,7 +67,7 @@ tags: []
 例: The article explains several forms of intermittent fasting without recommending one.  
 訳: その記事は特定の方法を勧めることなく、いくつかの間欠的断食の方式を説明している。  
 
-【語法・注意】intermittent service「途切れながら提供されるサービス」は、必ずしも「一時的なサービス」ではない。temporary service は提供期間の限定を表し、その間は連続していてもよい。sporadic は発生が散発的で規則性に乏しい点、intermittent は途中で切れて再び起こる点に重点があるが、intermittent/sporadic rain のように重なる。periodic は一定周期の反復を表す対照表現で、intermittent と常に反対になるわけではない。intermittent fasting のような計画的な反復もあるため「必ず不規則」と覚えない。intermittent pain は痛みの出現に間があるという意味で、痛みの軽さを保証しない。形容詞を動詞修飾に使う We communicate intermittent. は避け、We communicate intermittently. とする。  
+【語法・注意】intermittent service「途切れながら提供されるサービス」は、必ずしも「一時的なサービス」ではない。temporary service は提供期間の限定を表し、その間は連続していてもよい。sporadic は発生が散発的で規則性に乏しい点、intermittent は途中で切れて再び起こる点に重点があるが、intermittent/sporadic rain のように重なる。periodic は主におおむね規則的な反復に焦点を当てるが、「ときどき繰り返し起こる」意味でも使い、必ず厳密な一定周期とは限らない。intermittent と常に反対になるわけではない。intermittent fasting のような計画的な反復もあるため「必ず不規則」と覚えない。intermittent pain は痛みの出現に間があるという意味で、痛みの軽さを保証しない。形容詞を動詞修飾に使う We communicate intermittent. は避け、We communicate intermittently. とする。  
 
 【類義語】
 
@@ -114,3 +114,36 @@ tags: []
 違い: 継続状態の反対で、特定の期間に中断がなかったことを強調する。  
 例: We need two hours of uninterrupted access to the equipment.  
 訳: 私たちには、その装置を中断なく2時間使えることが必要だ。  
+
+2. 【形容詞：限定・叙述】一年の一部だけ流れる・水をたたえる
+
+【日本語訳・定義】河川・湖などが、季節などに応じて一年の一部だけ流れたり水をたたえたりし、乾く時期があること。一般的な動作の中断だけでなく、水域の性質を述べる用法。  
+
+【頻度】〈3/10〉  
+
+【レジスター/領域】地理・水文学・環境。  
+
+【文法パターン】an intermittent stream＝一年の一部だけ流れる川／an intermittent lake＝水をたたえる時期と乾く時期がある湖／〈河川・湖〉 + be intermittent＝通年の流水・湛水ではない。名詞の前でも補語でも使う。  
+
+【コロケーション・構文例】
+
+・be intermittent  
+用途: 川が通年流れるわけではなく、乾く時期があると述べる。  
+例: The stream is intermittent and usually dries up in summer.  
+訳: その川は通年流れる川ではなく、たいてい夏には干上がる。  
+
+・an intermittent lake  
+用途: 一年の一部だけ水をたたえる湖を説明する。  
+例: The map shows an intermittent lake that is dry for part of the year.  
+訳: その地図には、一年の一部は干上がっている湖が示されている。  
+
+【語法・注意】必ず夏に干上がるという意味ではなく、水のある時期は気候や水域による。ephemeral との厳密な境界や、法令・調査で用いる日数などの分類条件は制度によって異なるため、この語だけから決めない。  
+
+【反意語】
+
+・perennial  
+定義: 河川について、一年を通して流れる。  
+頻度: 〈3/10〉  
+違い: 一年の一部だけ流れるか、通年流れるかという流水期間の軸で対立する。個別の分類基準は資料に従う。  
+例: The survey distinguishes perennial streams from streams that dry up seasonally.  
+訳: その調査は、通年流れる川と季節的に干上がる川を区別している。  
