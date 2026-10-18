@@ -1,18 +1,18 @@
 ---
 headword: scrutinize
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: OpenAI assistant
 created_at: 2026-10-17
-updated_at: 2026-10-17
-checked: false
+updated_at: 2026-10-18
+checked: true
 tags: []
 ---
 
 ＃発音記号
 
-米: /ˈskruːtənaɪz/｜英: /ˈskruːtɪnaɪz/。3音節で第1音節に主強勢。示した米英差は第2音節の母音 /ə/ と /ɪ/。米音ではこの音節の /t/ が弾き音になることもある。語頭の /skr/ の間に母音を挟まない。scrutinized の語尾は /zd/、scrutinizes の語尾は /zɪz/。英国では scrutinise という綴りも一般的で、発音・意味は同じ。  
+米: /ˈskruːtənaɪz/｜英: /ˈskruːtɪnaɪz/（/ˈskruːtənaɪz/ も）。3音節で第1音節に主強勢。代表形で示した米英差は第2音節の母音 /ə/ と /ɪ/。英音でも第2音節を /ə/ とする発音がある。米音では第2音節の /t/ が弾き音 [ɾ] になり、[ˈskruːɾənaɪz] と発音されることもある。語頭の /skr/ の間に母音を挟まない。scrutinized の語尾は /zd/、scrutinizes の語尾は /zɪz/。英国では scrutinise という綴りも一般的で、発音・意味は同じ。  
 
 ＃語源
 
@@ -83,7 +83,7 @@ tags: []
 ・inspect  
 定義: 状態・品質・基準への適合などを点検する。  
 頻度: 〈7/10〉  
-違い: 実物や施設の点検、公式の検査によく使い、scrutinize は文書・主張の細部にも使う。  
+違い: inspect は状態・欠陥・基準への適合を点検する目的に焦点があり、scrutinize は細部に向ける注意の強さを強調する。inspect も書類に使える。  
 例: The engineer inspected the bridge for damage.  
 訳: 技師は橋に損傷がないか点検した。  
 
