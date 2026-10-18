@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: OpenAI assistant
 created_at: 2026-10-16
-updated_at: 2026-10-17
+updated_at: 2026-10-18
 checked: true
 tags: []
 ---
@@ -130,7 +130,7 @@ tags: []
 訳: その授業では、学生に専門的な文章を一般向けに要約させ、言語面で情報を橋渡しする力を育てる。  
 
 ・cultural mediation  
-用途: 異なる文化背景を持つ人々の相互理解を助けることを指す。  
+用途: 文化背景の異なる人々の相互理解や、来館者による作品・展示の理解を橋渡しする活動を指す。  
 例: The museum uses cultural mediation to help visitors understand the social context of the exhibits.  
 訳: その博物館は、展示品の社会的背景を来館者が理解できるよう、文化理解を橋渡しする活動を行っている。  
 
