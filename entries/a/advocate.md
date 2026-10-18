@@ -1,12 +1,12 @@
 ---
 headword: advocate
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: OpenAI assistant
 created_at: 2026-10-17
-updated_at: 2026-10-17
-checked: false
+updated_at: 2026-10-18
+checked: true
 tags: []
 ---
 
@@ -52,7 +52,7 @@ tags: []
 
 【レジスター/領域】やや硬い。政策、社会問題、業務上の提案、学術的議論。  
 
-【文法パターン】advocate 〈方針・方法・改革〉＝それを提唱する／advocate doing something＝～することを勧める／advocate someone doing something＝その人が～することを支持する／advocate that someone do something＝～するよう提唱する／advocate that someone should do something＝～するよう提唱する。that 節では提案を表す原形や should を使える。be advocated by someone という受動態も使う。  
+【文法パターン】advocate 〈方針・方法・改革〉＝それを提唱する／advocate doing something＝～することを勧める／advocate someone doing something＝その人が～することを支持する／advocate that someone do something＝～するよう提唱する／advocate that someone should do something＝～するよう提唱する。that 節では提案を表す原形を使い、特にイギリス英語では should を用いる形も使える。be advocated by someone という受動態も使う。  
 
 【コロケーション・構文例】
 
@@ -77,7 +77,7 @@ tags: []
 訳: 委員会は、その会社が調査結果を公表するよう提唱した。  
 
 ・advocate that someone should do something  
-用途: 提案内容を should を使って述べる。  
+用途: 提案内容を should を使って述べる。特にイギリス英語で用いられる形。  
 例: She advocated that the council should consult local residents.  
 訳: 彼女は、議会が地域住民の意見を聞くべきだと主張した。  
 
@@ -199,7 +199,7 @@ tags: []
 
 【頻度】〈6/10〉  
 
-【レジスター/領域】社会活動、福祉、医療、教育、職場。特に米語で目立つが、米語だけの構文ではない。  
+【レジスター/領域】社会活動、福祉、医療、教育、職場。アメリカ英語・イギリス英語の双方で使われる。  
 
 【文法パターン】advocate for someone/something＝人・制度などのために声を上げる／advocate for oneself＝自分の権利・必要を自ら伝える／advocate on behalf of someone＝人を代表して擁護する。対象が既知なら advocate 単独でも使える。for は前置詞で、その後に目的語を置く。  
 
@@ -295,7 +295,7 @@ tags: []
 
 5. 【名詞・可算】弁護士、法廷弁護人
 
-【日本語訳・定義】法廷などで依頼者の立場を弁護・代理する法律専門家。特にスコットランドなどでは、法制度上の特定の資格・職務の名称として使う。一般的な「擁護者」から法律の場面へ対象が限定された用法。  
+【日本語訳・定義】法廷などで依頼者の立場を弁護・代理する法律専門家。特にスコットランドなどでは、法制度上の特定の資格・職務の名称として使う。一般的な「擁護者」と意味の核を共有するが、ここでは法律の場面に限定される。  
 
 【頻度】〈3/10〉  
 
