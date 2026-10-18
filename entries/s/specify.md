@@ -1,12 +1,12 @@
 ---
 headword: specify
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: OpenAI assistant
 created_at: 2026-10-17
-updated_at: 2026-10-17
-checked: false
+updated_at: 2026-10-18
+checked: true
 tags: []
 ---
 
@@ -49,7 +49,7 @@ tags: []
 ・specify that 〈節〉  
 用途: 契約や説明書に明記された条件を述べる。  
 例: The contract specifies that payment is due within thirty days.  
-訳: 契約には、支払期限は30日以内と明記されている。  
+訳: 契約には、30日以内に支払うことが明記されている。  
 
 ・specify 〈疑問詞節〉  
 用途: 担当者や方法について、どの点が明記されているかを示す。  
@@ -76,7 +76,7 @@ tags: []
 例: Unless otherwise specified, all prices include delivery.  
 訳: 別段の記載がない限り、価格にはすべて配送料が含まれる。  
 
-【語法・注意】「サイズを明示する」は specify the size であり、specify about the size はこの他動詞構文の代わりにしない。「誰かに～するよう指示する」のつもりで specify someone to do とせず、specify that someone must do または instruct someone to do とする。specify how to install it の how to は疑問詞付き不定詞であり、単独の specify to install it とは異なる。specify what is required は間接疑問なので what is required の語順を保つ。specified は a specified period と the period specified in the agreement の両方で使えるが、「特定の」というだけの specific と常に交換できるわけではない。specify は「明示」、identify は「何であるかを突き止める・識別」が中心で、調査して特定する意味を自動的に含まない。  
+【語法・注意】「サイズを明示する」は specify the size であり、specify about the size はこの他動詞構文の代わりにしない。「誰かに～するよう指示する」のつもりで specify someone to do とせず、specify that someone must do または instruct someone to do とする。specify how to install it の how to は疑問詞付き不定詞であり、単独の specify to install it とは異なる。specify when payment is due のような間接疑問では平叙文の語順を使い、specify when is payment due とはしない。specified は a specified period と the period specified in the agreement の両方で使えるが、「特定の」というだけの specific と常に交換できるわけではない。specify は「明示」、identify は「何であるかを突き止める・識別」が中心で、調査して特定する意味を自動的に含まない。  
 
 【類義語】
 
@@ -111,6 +111,6 @@ tags: []
 ・define  
 定義: 意味、範囲、条件を明確に定める。  
 頻度: 〈8/10〉  
-違い: 境界や概念そのものを定める点が中心で、既存の条件を明記する specify と重なるが同一ではない。  
+違い: 境界や概念そのものを定める点が中心。specify は対象・条件・数値などを具体的に明示する点に焦点があり、両者は重なる場合もある。  
 例: The policy defines each team's responsibilities.  
 訳: その方針は各チームの責任範囲を定めている。  
