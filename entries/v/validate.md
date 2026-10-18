@@ -1,12 +1,12 @@
 ---
 headword: validate
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: OpenAI assistant
 created_at: 2026-10-17
-updated_at: 2026-10-17
-checked: false
+updated_at: 2026-10-18
+checked: true
 tags: []
 ---
 
@@ -16,7 +16,7 @@ tags: []
 
 ＃語源
 
-中世ラテン語 validare「法的に有効にする」の過去分詞語幹 validat- に由来する。基になるラテン語 validus「強い、有効な」は valere「強い、価値がある」の系統。valid「有効な」、value「価値」、evaluate「評価する」も関係する。現代の意味は、証拠で妥当性を確かめること、正式な効力・承認を与えること、人や感情の価値を認めることに広がっている。  
+中世ラテン語 validare「法的に有効にする」の過去分詞語幹 validat- に由来する。基になるラテン語 validus「強い、有効な」は valere「強い、価値がある」の系統。valid「有効な」、value「価値」、evaluate「評価する」も関係する。現代の意味は、証拠で妥当性を確かめること、正式な効力・承認を与えること、人や感情、活動などの価値を認めることに広がっている。  
 
 ＃語形成
 
@@ -34,7 +34,7 @@ tags: []
 
 ・妥当性を正式に認めること → 「正式に認める、有効にする」（語義2）  
 
-・妥当性を人や感情に認めること → 「価値を認める、気持ちを受け止める」（語義3）  
+・価値を人や感情、活動などに認めること → 「価値を認める、気持ちを受け止める」（語義3）  
 
 ・妥当性を認められた人の状態 → 「認めてもらえたと感じる」（語義4）  
 
@@ -173,7 +173,7 @@ tags: []
 頻度: 〈5/10〉  
 違い: 条約・協定・決定の正式な承認に特化し、券の有効化には使わない。  
 例: The members voted to ratify the agreement.  
-訳: 会員はその協定を正式承認することに投票した。  
+訳: 会員たちは、その協定の正式承認に賛成票を投じた。  
 
 ・authorize  
 定義: 権限に基づき行為などを許可する。  
@@ -200,13 +200,13 @@ tags: []
 
 3. 【動詞・他動詞】価値を認める、気持ちを受け止める
 
-【日本語訳・定義】人の価値や、その人の感情・経験・考えを、無視すべきものではなく理解できる・意味のあるものとして認める。相手に「自分の感じ方や存在は尊重されている」と伝える働きがある。感情を認めることは、その人の事実認識や行動すべてに同意することとは限らない。  
+【日本語訳・定義】人や、その人の感情・経験・考え、また活動・生き方などの価値や意義を認めたり裏づけたりする。人や感情を対象とする場合は、相手に「自分の感じ方や存在は尊重されている」と伝える働きがある。感情を認めることは、その人の事実認識や行動すべてに同意することとは限らない。  
 
 【頻度】〈6/10〉  
 
-【レジスター/領域】人間関係、心理、相談、支援に関する一般語。  
+【レジスター/領域】人間関係、心理、相談、支援、仕事・人生の評価に関する一般語。  
 
-【文法パターン】validate someone＝その人の価値を認める／validate someone's feelings/experience＝感情・経験を正当なものとして受け止める／validate someone as 〈役割・存在〉＝その立場の人として価値を認める／validate oneself＝自分の価値を自分で認める。受動態可。  
+【文法パターン】validate someone＝その人の価値を認める／validate someone's feelings/experience＝感情・経験を正当なものとして受け止める／validate someone as 〈役割・存在〉＝その立場の人として価値を認める／validate oneself＝自分の価値を自分で認める／validate someone's work/career＝仕事・経歴の価値を裏づける。受動態可。  
 
 【コロケーション・構文例】
 
@@ -229,6 +229,11 @@ tags: []
 用途: 他者だけに頼らず自分の価値を認める。  
 例: He is learning to validate himself rather than depend entirely on praise from others.  
 訳: 彼は他人からの称賛に全面的に頼るのでなく、自分で自分の価値を認めることを学んでいる。  
+
+・validate someone's work  
+用途: 評価や成果が、その仕事に価値があることを裏づける。  
+例: For her, the award validated years of work on the project.  
+訳: 彼女にとって、その受賞は、長年そのプロジェクトに取り組んできたことに価値があったと示すものだった。  
 
 【語法・注意】validate her と validate her feelings はともに可能だが、前者は人としての価値、後者は特定の感情が対象。verify her feelings とすると、気持ちが本当か検査するように聞こえ、心理的に受け止める意味の代わりにはなりにくい。語義4の feel validated は受け手の状態、語義5の a validating response は相手に承認された感覚を与える応答を表す。  
 
