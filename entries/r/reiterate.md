@@ -1,19 +1,19 @@
 ---
 headword: reiterate
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: OpenAI assistant
 created_at: 2026-10-17
-updated_at: 2026-10-17
-checked: false
+updated_at: 2026-10-18
+checked: true
 tags: []
 ---
 
 ＃発音記号
 
 米・英: /riˈɪt.ə.reɪt/  
-4音節で第2音節に主強勢。第1音節の /i/ と第2音節の /ɪ/ を一つに潰さない。reiterated は語尾に /ɪd/ が加わる。reiteration は /ˌriː.ɪt.əˈreɪ.ʃən/ で -ra- に主強勢が移る。  
+4音節で第2音節に主強勢。第1音節の /i/ と第2音節の /ɪ/ を一つに潰さない。reiterated は語尾に /ɪd/ が加わる。reiteration は /riˌɪt.əˈreɪ.ʃən/ で、第2音節に副強勢、第4音節の /reɪ/ に主強勢がある。  
 
 ＃語源
 
@@ -60,7 +60,7 @@ tags: []
 例: The director reiterated the safety requirements to the contractors.  
 訳: 部長は請負業者に安全要件を改めて伝えた。  
 
-・reiterate how important 〈節〉  
+・reiterate how important 〈主語〉 + be ...  
 用途: 重要性を改めて強調する。  
 例: He reiterated how important it was to keep accurate records.  
 訳: 彼は正確な記録を残すことがいかに重要かを改めて強調した。  
@@ -94,7 +94,7 @@ tags: []
 訳: 質問をもっと簡単な言葉で言い直してください。  
 
 ・reaffirm  
-定義: 信念、支持、約束などを改めて明確に認める。  
+定義: 信念、支持、約束などを改めて明確に表明する。  
 頻度: 〈6/10〉  
 違い: 立場や決意が変わらないと確かめる面が強い。reiterate は単に要求をもう一度言う場合にも使う。  
 例: The board reaffirmed its support for the project.  
