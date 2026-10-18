@@ -139,7 +139,7 @@ increment「増加分・増分」に形容詞を作る -al が付いた語。inc
 ・incremental benefits of 〈施策〉  
 用途: 基準案に対して上積みされる便益を評価する。  
 例: The incremental benefits of the premium plan do not justify its higher price for our team.  
-訳: 私たちのチームにとって、上位プランの追加的なメリットは値上がり分に見合わない。  
+訳: 私たちのチームにとって、上位プランの追加的なメリットは、下位プランとの価格差に見合わない。  
 
 ・be incremental  
 用途: 売上などが既存分の付け替えでなく、純粋な上積みであると述べる。  
