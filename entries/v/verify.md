@@ -1,12 +1,12 @@
 ---
 headword: verify
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: OpenAI assistant
 created_at: 2026-10-17
-updated_at: 2026-10-17
-checked: false
+updated_at: 2026-10-18
+checked: true
 tags: []
 ---
 
@@ -30,13 +30,13 @@ tags: []
 
 1. 【動詞・他動詞】真偽・正確さを確かめる、裏づける
 
-【日本語訳・定義】情報・数値・身元・主張などについて、調査、証拠との照合、試験などにより、事実であるか、正確であるか、実在するかを確かめる。また、証拠や試験結果が事実を裏づけることを表す。確認作業を指す場合と、確認が成立した結果を指す場合がある。  
+【日本語訳・定義】情報・数値・身元・主張などについて、調査、証拠との照合、試験などにより、事実であるか、正確であるか、実在するかを確かめる。また、人がある内容を事実だと証言・表明したり、証拠や試験結果がその内容を裏づけたりすることも表す。確認作業を指す場合と、確認が成立した結果を指す場合がある。  
 
 【頻度】〈7/10〉  
 
 【レジスター/領域】一般的な事務・報道・研究・技術の語。check より硬く、根拠のある確認を連想させる。  
 
-【文法パターン】verify someone/something＝人の身元・物事の真偽などを確認する／verify that 〈節〉＝～であることを確かめる／verify whether 〈節〉＝～かどうかを確かめる／verify something against 〈記録・基準〉＝記録などと照合する／verify something with 〈情報源・照会先〉＝情報源に当たって確認する／verify something by 〈手段を表す -ing〉＝その手段で確認する／be verified as 〈状態・分類〉＝～であると確認される。受動態可。  
+【文法パターン】verify someone/something＝人の身元・物事の真偽などを確認する／verify something＝内容を事実だと述べて裏づける・証拠が内容を裏づける／verify that 〈節〉＝～であることを確かめる・事実だと述べて裏づける／verify whether 〈節〉＝～かどうかを確かめる／verify something against 〈記録・基準〉＝記録などと照合する／verify something with 〈情報源・照会先〉＝情報源に当たって確認する／verify something by 〈手段を表す -ing〉＝その手段で確認する／be verified as 〈状態・分類〉＝～であると確認される。受動態可。  
 
 【コロケーション・構文例】
 
@@ -85,6 +85,16 @@ tags: []
 例: The signature was verified as authentic by an expert.  
 訳: その署名は専門家により本物と確認された。  
 
+・verify that 〈節〉（証言・表明）  
+用途: 証人などが内容を事実だと述べて裏づける。  
+例: Two eyewitnesses verified that the driver had stopped at the red light.  
+訳: 2人の目撃者が、運転手は赤信号で停止していたと証言して裏づけた。  
+
+・〈証拠・試験結果〉 + verify something  
+用途: 証拠や結果が予測・主張の正しさを裏づける。  
+例: The test results verified the team's prediction.  
+訳: 試験結果はチームの予測が正しかったことを裏づけた。  
+
 【語法・注意】verify that it is correct は正しいことを確かめる内容を示し、verify whether it is correct は正しいかどうかを調べる問いを示す。verify me のような人目的語も認証の文脈で可能だが、一般的には verify my identity の方が対象を明確にできる。verify oneself も本人確認の文脈で見られるが、「確かめる」の意味で常に再帰形が必要なわけではない。verified / unverified は確認の状態を述べ、unverified reports は虚偽と確定した報道ではない。confirm は事実確認のほか予約・意向の確定にも使うが、verify a reservation は通常「予約の存在や内容を調べる」。工学では verify を要求・仕様への適合、validate を用途への適切さの確認として区別することがあるものの、一般語では重なる。認証済みアカウントの verified は各サービスの認証状態を表し、発言すべての正しさを保証しない。  
 
 【類義語】
@@ -132,7 +142,7 @@ tags: []
 
 【レジスター/領域】法律。特に米国の訴訟書面など。  
 
-【文法パターン】verify 〈complaint/petition/pleading〉＝訴状・申立書・訴答書面の内容について正式に真実性を申し立てる／verify a pleading under oath＝宣誓のもとで訴答書面の真実性を申し立てる／a pleading verified by 〈申立人〉＝その者が真実性を申し立てた書面。受動態可。  
+【文法パターン】verify a 〈complaint/petition/pleading〉＝訴状・申立書・訴答書面の内容について正式に真実性を申し立てる／verify a pleading under oath＝宣誓のもとで訴答書面の真実性を申し立てる／a pleading verified by 〈申立人〉＝その者が真実性を申し立てた書面。受動態可。  
 
 【コロケーション・構文例】
 
