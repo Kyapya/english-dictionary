@@ -285,8 +285,8 @@ cumulate「積み重ねる」と同じ語族で、ラテン語 cumulare「山積
 定義: 複数の刑期が同時並行で執行される。  
 頻度: 〈4/10〉  
 違い: 刑期の執行が重なるか、順に積み重なるかという同一軸上の反対。  
-例: The court ordered the sentences to run concurrently.  
-訳: 裁判所は各刑期を同時並行で執行するよう命じた。  
+例: The court imposed concurrent prison sentences.  
+訳: 裁判所は、同時並行で執行される複数の拘禁刑を言い渡した。  
 
 6. 【形容詞：限定・cumulative voting】持ち票を集中・配分できる累積投票の
 

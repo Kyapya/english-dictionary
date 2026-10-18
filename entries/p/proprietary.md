@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: OpenAI assistant
 created_at: 2026-10-17
-updated_at: 2026-10-17
+updated_at: 2026-10-18
 checked: true
 tags: []
 ---
@@ -151,6 +151,13 @@ tags: []
 
 【語法・注意】proprietary interest の interest は「興味」ではなく「権利・利害・持分」。proprietary trading は「秘密の取引」や「特許技術による取引」ではない。proprietary rights は知的財産だけに限らない。claim を述べたことと、権利が裁判所に認められたことを混同しない。日常的な「これは私の物だ」には It belongs to me. が普通で、proprietary を無理に使わない。  
 
+対照表現: possessory  
+定義: 財産の占有に関する。  
+頻度: 〈2/10〉  
+違い: 法律用語で「占有」を中心とし、「所有」とは同じでない。権利の種類を確認して使い分ける。  
+例: The judgment distinguishes possessory rights from ownership.  
+訳: その判決は、占有上の権利と所有権を区別している。  
+
 【類義語】
 
 ・ownership  
@@ -159,13 +166,6 @@ tags: []
 違い: ownership rights のように所有関係を直接表す。形容詞ではないので The rights are ownership. とはしない。  
 例: The contract clarifies ownership rights.  
 訳: その契約は所有上の権利を明確にしている。  
-
-・possessory  
-定義: 財産の占有に関する。  
-頻度: 〈2/10〉  
-違い: 法律用語で「占有」を中心とし、「所有」とは同じでない。権利の種類を確認して使い分ける。  
-例: The judgment distinguishes possessory rights from ownership.  
-訳: その判決は、占有上の権利と所有権を区別している。  
 
 3. 【形容詞・主に限定】我が物顔の・所有者然とした
 
