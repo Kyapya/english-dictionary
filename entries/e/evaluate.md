@@ -1,12 +1,12 @@
 ---
 headword: evaluate
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: OpenAI assistant
 created_at: 2026-10-17
-updated_at: 2026-10-17
-checked: false
+updated_at: 2026-10-18
+checked: true
 tags: []
 ---
 
@@ -24,7 +24,7 @@ evaluation から生じた逆成語とされる。evaluation はフランス語 
 ・evaluative【形容詞】評価に関わる、価値判断を含む。evaluative comments「評価的なコメント」。  
 ・evaluator【可算名詞】評価者、式を評価するプログラムなど。  
 ・re-evaluate / reevaluate【他動詞】再評価する。前の判断を見直すが、評価が上がるとは限らない。  
-・evaluated / evaluating【分詞】評価された／評価している。an evaluated proposal は過去の評価を表し、「高く評価された」とは限らない。  
+・evaluated / evaluating【分詞】評価された／評価している。an evaluated proposal は「評価を受けた提案」を表し、「高く評価された」とは限らない。  
 
 ＃コアイメージ
 
@@ -46,7 +46,7 @@ evaluation から生じた逆成語とされる。evaluation はフランス語 
 
 【レジスター/領域】一般的な業務・学術・教育用語。日常の会話では assess、judge、look at などが文脈に応じて使われる。  
 
-【文法パターン】evaluate someone/something＝人・物・状況を評価する／evaluate someone on 〈評価項目〉＝その項目を基準に人を評価する／evaluate something against 〈基準〉＝基準と照らし合わせて評価する／evaluate whether/how 〈節〉＝～か・どの程度～かを検討する／evaluate something as 〈形容詞・名詞句〉＝～だと評価する／be evaluated for 〈目的・適性〉＝その目的・適性について評価を受ける。受動態が普通に使える。  
+【文法パターン】evaluate someone/something＝人・物・状況を評価する／evaluate someone on 〈評価項目〉＝その項目を基準に人を評価する／evaluate something against 〈基準〉＝基準と照らし合わせて評価する／evaluate whether/how 〈節〉＝～か・どの程度～かを検討する／evaluate something as 〈形容詞・名詞句〉＝～だと評価する／be evaluated for 〈評価項目・適性・用途〉＝その項目や適性・用途について評価を受ける。受動態が普通に使える。  
 
 【コロケーション・構文例】
 
@@ -85,7 +85,7 @@ evaluation から生じた逆成語とされる。evaluation はフランス語 
 例: Most participants evaluated the workshop as effective.  
 訳: 参加者の大半は、その研修会を効果的だったと評価した。  
 
-・be evaluated for 〈適性・用途〉  
+・be evaluated for 〈評価項目・適性・用途〉  
 用途: 特定の役割などに適するかを判断する。  
 例: Candidates will be evaluated for their suitability for the role.  
 訳: 候補者は、その職務への適性を評価される。  
