@@ -68,7 +68,7 @@ precede「先行する」、precedence「優先・先行」は同じ語族。pre
 ・It is unprecedented for someone to do something  
 用途: 誰が何をしたかを不定詞節で具体化する。  
 例: It is unprecedented for the association to cancel its annual conference.  
-訳: その協会が年次総会を中止するのは前例がない。  
+訳: その協会が年次大会を中止するのは前例がない。  
 
 ・an almost unprecedented 〈出来事〉  
 用途: 完全に初めてとは言い切らず、先例の極端な少なさを示す。  
