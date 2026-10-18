@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: OpenAI assistant
 created_at: 2026-10-17
-updated_at: 2026-10-17
+updated_at: 2026-10-18
 checked: true
 tags: []
 ---
@@ -68,7 +68,7 @@ impend「差し迫る」の -ing 形から発達した形容詞。impend はラ�
 例: The harbor authority warned boat owners of an impending storm.  
 訳: 港湾当局は、近づいている嵐について船の所有者に警告した。  
 
-【語法・注意】名詞前の an impending crisis が基本。A crisis is impending. も存在するが、文語的な自動詞 impend の進行形として分析でき、叙述用法では A crisis is imminent. が学びやすい対応表現。「叙述位置には絶対に置けない」とはしない。impending は時間的接近、pending は未決・保留の状態を表す。an impending decision「間もなく下る決定」と a pending decision「まだ下っていない決定」は焦点が異なり、pending だけでは決定が近いとは言えない。an impending marriage のような好ましい出来事も可能で、「不吉」は必須条件ではない。inevitable「避けられない」とも異なり、迫っている事態が対策によって回避されることはある。  
+【語法・注意】名詞前の an impending crisis が基本。A crisis is impending. も存在するが、文語的な自動詞 impend の進行形として分析でき、叙述用法では A crisis is imminent. が学びやすい対応表現。「叙述位置には絶対に置けない」とはしない。impending は出来事の時間的な接近を表す。pending を「未決・保留」の意味で用いる場合、an impending decision「間もなく下る決定」と a pending decision「まだ下っていない決定」は焦点が異なり、後者だけでは決定が近いとは限らない。ただし pending にも「間近に起こる」の意味があり、その用法では impending と重なる。an impending marriage のような好ましい出来事も可能で、「不吉」は必須条件ではない。inevitable「避けられない」とも異なり、迫っている事態が対策によって回避されることはある。  
 
 【類義語】
 
