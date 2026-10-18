@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: OpenAI assistant
 created_at: 2026-10-17
-updated_at: 2026-10-17
+updated_at: 2026-10-18
 checked: true
 tags: []
 ---
@@ -50,7 +50,7 @@ tags: []
 訳: 予期せぬ事情により、明日の講習会は延期になりました。  
 
 ・unforeseen expenses  
-用途: 予算に含めていなかった出費。  
+用途: 事前に具体的に予期していなかった出費。  
 例: We set aside a small reserve for unforeseen expenses.  
 訳: 予期しない出費に備えて、少額の予備費を確保した。  
 
