@@ -193,8 +193,8 @@ evaluation から生じた逆成語とされる。evaluation はフランス語 
 
 ・evaluate to True  
 用途: 式の評価結果が真偽値 True であると述べる。  
-例: In Python, the expression 3 < 5 evaluates to True.  
-訳: Python では、式 3 < 5 の評価結果は True になる。  
+例: In Python, the expression True or False evaluates to True.  
+訳: Pythonでは、式 True or False の評価結果は True になる。  
 
 ・evaluate to an empty string  
 用途: 数値以外の評価結果を示す。  
