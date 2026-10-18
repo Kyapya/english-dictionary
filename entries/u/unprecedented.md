@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: OpenAI assistant
 created_at: 2026-10-17
-updated_at: 2026-10-17
+updated_at: 2026-10-18
 checked: true
 tags: []
 ---
@@ -22,7 +22,7 @@ precede「先行する」、precedence「優先・先行」は同じ語族。pre
 
 ＃語形成
 
-・precedent：可算名詞「先例・前例」。set a precedent「先例を作る」、without precedent「前例がない」。  
+・precedent：名詞「先例・前例」（可算・不可算）。set a precedent「先例を作る」、without precedent「前例がない」。  
 ・unprecedentedly：副詞「前例のないほどに」。unprecedentedly high「かつてないほど高い」のように形容詞を修飾する。  
 ・precedented：形容詞「先例のある」。実在するが、日常文では unusual の反対のように頻繁に使う語ではない。否定形 unprecedented のほうが一般的。  
 
