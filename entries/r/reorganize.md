@@ -143,7 +143,7 @@ re-「再び」と organize「組織する、整える」の組み合わせ。or
 ・reorganize as 〈新しい組織形態〉  
 用途: 改組後の組織の形を示す。  
 例: The partnership reorganized as a corporation.  
-訳: その共同事業体は株式会社へと組織を変更した。  
+訳: その共同事業体は法人（corporation）の形態へと改組した。  
 
 ・reorganize under Chapter 11  
 用途: 米国の法的再建手続きの文脈で、事業再建を進めることを述べる。  
