@@ -13,7 +13,7 @@ tags: []
 ＃発音記号
 
 米・英: /dɪˈfɔːlt/。2音節で、第2音節に強勢を置く発音。名詞、特に「既定値・設定」の意味では /ˈdiːfɔːlt/ という第1音節に強勢を置く発音もある。この別形では第1音節の母音も /ɪ/ から /iː/ に変わる。  
-英語には第2音節の母音を /ɒ/ とする /dɪˈfɒlt/、米語には /ɑː/ とする /dɪˈfɑːlt/ もある。これらは第2音節の母音の違いであり、品詞を必ず区別するものではない。過去形・過去分詞は defaulted、現在分詞は defaulting で、defaulted の語尾は /ɪd/。  
+英国英語には第2音節の母音を /ɒ/ とする /dɪˈfɒlt/、米国英語には /ɑː/ とする /dɪˈfɑːlt/ もある。これらは第2音節の母音の違いであり、品詞を必ず区別するものではない。過去形・過去分詞は defaulted、現在分詞は defaulting で、defaulted の語尾は /ɪd/。  
 
 ＃語源
 
@@ -59,6 +59,8 @@ tags: []
 ・債務・支払いを対象とする義務の不履行 → 「債務・支払いを履行しない」（語義13）  
 
 ・応答・防御がない場合の当事者への処分 → 「当事者を訴訟上の懈怠として扱う」（語義14）  
+
+・不履行となった債務について貸し手が行う扱い・記録 → 「口座・債務を不履行として扱う」（語義15）  
 
 ＃意味・用法・関連表現
 
@@ -462,7 +464,7 @@ tags: []
 ・a default  
 用途: 結果を一件の棄権・失格として数える。  
 例: The referee recorded the result as a default, not a completed match.  
-訳: 主審は、その結果を試合完了ではなく棄権・失格による決着として記録した。  
+訳: レフェリーは、その結果を試合完了ではなく棄権・失格による決着として記録した。  
 
 ・award a match to someone by default  
 用途: 運営側の裁定を述べる。  
@@ -679,7 +681,7 @@ tags: []
 ・default a player  
 用途: 審判などが選手に処分を下す。  
 例: The referee defaulted the player for a serious code violation.  
-訳: 主審は、重大な行動規範違反を理由にその選手を失格にした。  
+訳: レフェリーは、重大な行動規範違反を理由にその選手を失格にした。  
 
 ・be defaulted from a tournament  
 用途: どの大会から除かれたかを述べる。  
@@ -691,7 +693,7 @@ tags: []
 例: The player was defaulted for refusing to continue the match.  
 訳: その選手は試合の続行を拒否したため、失格にされた。  
 
-【語法・注意】defaulted はここでは他動詞の過去分詞で、処分を受ける選手が受動文の主語になる。He defaulted.「本人が棄権した」（語義10）と He was defaulted.「失格にされた」を区別する。処分権者、違反の程度、ほかの種目や賞金への影響は競技規則によるため、この動詞だけで決まらない。a defaulted player は処分済みの選手を指す分詞的な修飾である。  
+【語法・注意】defaulted はここでは他動詞の過去分詞で、処分を受ける選手が受動文の主語になる。He defaulted.「本人が棄権した」（語義10）と He was defaulted.「失格にされた」を区別する。処分権者、違反の程度、ほかの種目や賞金への影響は競技規則によるため、この動詞だけで決まらない。a defaulted player は処分済みの選手を指す分詞的な修飾である。テニスでは referee と chair umpire は異なる役職なので、referee を一律に「主審」と訳さない。  
 
 【類義語】
 
@@ -774,4 +776,29 @@ tags: []
 違い: 記録する手続きに焦点がある定着表現。相手方は against someone で示す。  
 例: The clerk entered a default after reviewing the plaintiff’s affidavit.  
 訳: 書記官は、原告の宣誓供述書を確認した後、懈怠を記録した。  
+
+15. 【動詞・他動詞】口座・債務を不履行として扱う
+
+【日本語訳・定義】貸し手などが、口座や債務を不履行の状態として扱い、記録する。借り手が返済をしないという語義13とは異なり、扱いを決める貸し手側が主語になる。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】英国の信用情報・債権管理実務。限定的な用法。  
+
+【文法パターン】a lender defaults an account＝貸し手が口座を不履行として扱う／an account is defaulted＝口座が不履行として扱われる。目的語や受動文の主語には、口座・債務などを置く。  
+
+【コロケーション・構文例】
+
+・default an account  
+用途: 貸し手側が口座を不履行として扱うことを述べる。  
+例: The lender defaulted the account after several missed payments.  
+訳: 貸し手は、支払いが数回行われなかった後、その口座を不履行として扱った。  
+
+・an account is defaulted  
+用途: 不履行として扱われた口座を受動文で示す。  
+例: She disputed the date on which her account had been defaulted.  
+訳: 彼女は、自分の口座が不履行扱いとされた日付に異議を唱えた。  
+
+【語法・注意】英国の金融実務に見られる用法であり、すべての国・制度で同じ手続きや日数を表すわけではない。The borrower defaulted on the account. は借り手の不履行を述べるのに対し、The lender defaulted the account. は貸し手側の扱いを述べる。通知を送ること、信用情報に登録すること、債権を譲渡することはそれぞれ別の行為なので、この動詞だけで全部が行われたとは判断しない。  
+
 
