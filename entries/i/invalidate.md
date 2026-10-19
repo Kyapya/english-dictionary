@@ -33,7 +33,7 @@ invalid「無効な」と、動詞を作る -ate に対応する語。歴史的�
 
 ・有効性を失わせる公的効力の否定 → 「無効にする・効力を失わせる」（語義2）  
 
-・妥当性を認めない感情への対応 → 「感情や経験を否定する」（語義3）  
+・妥当性を認めない感情への対応 → 「感情や経験を否定する・否定されたと感じる」（語義3）  
 
 ・有効性を失わせる使用対象からの除外 → 「データや認証情報を無効化する」（語義4）  
 
@@ -181,7 +181,7 @@ invalid「無効な」と、動詞を作る -ate に対応する語。歴史的�
 例: Please validate your ticket before boarding.  
 訳: 乗車前に券の有効化手続きをしてください。  
 
-3. 【動詞・他動詞】感情や経験を否定する
+3. 【動詞・他動詞／形容詞的な過去分詞】感情や経験を否定する・否定されたと感じる
 
 【日本語訳・定義】人の感情・経験・受け止め方を、理解できるもの、尊重すべきものとして認めず、間違い・大げさ・取るに足りないものとして扱う。人そのものを目的語にして、気持ちや存在を認めない扱いをすることもいう。感情が実際に存在しないと証明する意味ではなく、相手への応答や扱い方を表す。一般に批判的な含みを持つが、否定する意図があったことまでは必須でない。  
 
@@ -213,7 +213,7 @@ invalid「無効な」と、動詞を作る -ate に対応する語。歴史的�
 例: She felt invalidated by his repeated dismissal of her worries.  
 訳: 心配を何度も取り合ってもらえず、彼女は気持ちを否定されたと感じた。  
 
-【語法・注意】invalidate someone's feelings は語義1の「反証する」と区別する。相手の感情を理解できるものとして認めることと、その人の事実認識や行動に同意することは同じではない。feel invalidated は feel の後に過去分詞を置く結果状態の表現で、feel invalid の「自分が無効だと感じる」とは通常言い換えない。invalidate yourself と自分自身を目的語にすることもあるが、invalidate your own feelings とすると対象が明確になる。  
+【語法・注意】invalidate someone's feelings は語義1の「反証する」と区別する。相手の感情を理解できるものとして認めることと、その人の事実認識や行動に同意することは同じではない。feel invalidated の invalidated は、連結動詞 feel の補語として、気持ちを認めてもらえない状態を表す過去分詞の形容詞的用法。invalidate を他動詞として用いる構文や、be invalidated という受動態とは構造が異なり、feel invalid の「自分が無効だと感じる」とは通常言い換えない。invalidate yourself と自分自身を目的語にすることもあるが、invalidate your own feelings とすると対象が明確になる。  
 
 【類義語】
 
@@ -255,7 +255,7 @@ invalid「無効な」と、動詞を作る -ate に対応する語。歴史的�
 
 【レジスター/領域】情報技術、ソフトウェア、システム運用。  
 
-【文法パターン】invalidate the cache＝キャッシュを無効化する／invalidate cached 〈data/responses〉＝保存済みのデータ・応答を無効にする／invalidate a session/token＝セッション・トークンを無効にする／〈対象〉 + be invalidated＝無効化される。  
+【文法パターン】invalidate the cache＝キャッシュを無効化する／invalidate cached 〈data/responses〉＝保存済みのデータ・応答を無効にする／invalidate a 〈session/token〉＝セッション・トークンを無効にする／〈対象〉 + be invalidated＝無効化される。  
 
 【コロケーション・構文例】
 
