@@ -14,7 +14,7 @@ tags: []
 
 動詞：米: /ˌriːˈstrʌk.tʃɚ/｜英: /ˌriːˈstrʌk.tʃə/  
 名詞：米: /ˈriː.strʌk.tʃɚ/｜英: /ˈriː.strʌk.tʃə/  
-いずれも3音節。動詞は第2音節 /strʌk/ に主強勢、第1音節 /riː/ に第二強勢があり、名詞は第1音節 /riː/ に主強勢がある。米英の違いは第3音節で、米音の /ɚ/ は r の響きを伴い、英音の /ə/ は単独発音では r を発音しない。英音でも後ろに母音が続くと r が現れることがある。restructured の -ed は /d/ で、通常、音節は増えない。  
+いずれも3音節。ここに示した発音では、動詞は第2音節 /strʌk/ に主強勢、第1音節 /riː/ に第二強勢があり、名詞は第1音節 /riː/ に主強勢がある。米英の違いは第3音節で、米音の /ɚ/ は r の響きを伴い、英音の /ə/ は単独発音では r を発音しない。英音でも後ろに母音が続くと r が現れることがある。restructured の -ed は /d/ で、通常、音節は増えない。  
 
 ＃語源
 
@@ -268,7 +268,7 @@ re-「再び」と structure「構造を作る」の組み合わせ。structure 
 例: Successive restructures left employees uncertain about their roles.  
 訳: 再編が相次いだため、従業員は自分の役割が分からなくなっていた。  
 
-【語法・注意】動詞 restructure the department に対し、名詞では a restructure of the department とする。名詞の主強勢は第1音節に置く発音があるため、動詞と区別する。名詞としての使用を誤りと決めつけない。一回の再編は a restructure、複数回は restructures。過程を総体として述べる不可算用法もあるが、その場合には restructuring もよく使われる。restructure は再編そのものを指し、a restructuring plan は再編計画、restructuring costs は再編費用であって同じ対象ではない。  
+【語法・注意】動詞 restructure the department に対し、名詞では a restructure of the department とする。名詞には第1音節に主強勢を置く発音もあるが、強勢だけで常に動詞と名詞を区別できるわけではない。名詞としての使用を誤りと決めつけない。一回の再編は a restructure、複数回は restructures。過程を総体として述べる不可算用法もあるが、その場合には restructuring もよく使われる。restructure は再編そのものを指し、a restructuring plan は再編計画、restructuring costs は再編費用であって同じ対象ではない。  
 
 【類義語】
 
