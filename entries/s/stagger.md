@@ -28,7 +28,7 @@ tags: []
 
 ＃意味・用法・関連表現
 
-1. 【動詞・自動詞】よろめく、ふらつきながら歩く
+1. 【動詞・自動詞／他動詞】よろめく、ふらつきながら歩く
 
 【日本語訳・定義】バランスを失いかけながら立つ・歩く・移動する。疲労、けが、重い荷物、酔い、足場の悪さなどで身体が安定しない様子を表す。実際に転ぶことや、酔っていることは必須ではない。  
 
@@ -36,7 +36,7 @@ tags: []
 
 【レジスター/領域】一般語。会話、小説、事故・スポーツなどの描写。  
 
-【文法パターン】someone + stagger＝人がよろめく／stagger to 〈場所〉・stagger into 〈場所〉・stagger out of 〈場所〉＝ふらつきながら移動する／someone + stagger back＝よろめいて後退する／stagger under 〈荷物・重さ〉＝重さによろめく／stagger to one's feet＝よろめきながら立ち上がる。方向を表す語句は任意だが、移動先を伝えるときに加える。  
+【文法パターン】stagger 〈歩数・距離〉＝その歩数・距離をふらつきながら進む／someone + stagger＝人がよろめく／stagger to 〈場所〉・stagger into 〈場所〉・stagger out of 〈場所〉＝ふらつきながら移動する／someone + stagger back＝よろめいて後退する／stagger under 〈荷物・重さ〉＝重さによろめく／stagger to one's feet＝よろめきながら立ち上がる。方向を表す語句は任意だが、移動先を伝えるときに加える。  
 
 【コロケーション・構文例】
 
@@ -65,7 +65,12 @@ tags: []
 例: The runner staggered to her feet and waved away the stretcher.  
 訳: その走者はよろめきながら立ち上がり、担架は要らないと手で合図した。  
 
-【語法・注意】この語義では場所を直接目的語にしない。「ドアまでふらつきながら歩いた」は staggered to the door で、× staggered the door ではない。stagger into the room の into は移動先、stagger under a heavy load の under は重荷との関係を表す。通常は自由な方向・状況の組み合わせで、stagger in / out / back をすべて独立した句動詞として暗記する必要はない。He was staggering. は「彼はふらついていた」という進行形で、He was staggered.「彼は仰天していた」（語義3）とは違う。stagger oneself という再帰形は、この意味を表す標準的な形ではない。  
+・stagger 〈歩数〉  
+用途: よろめきながら進んだ歩数を直接示す。  
+例: He staggered a few steps before grabbing the railing.  
+訳: 彼は数歩よろめきながら進み、手すりにつかまった。  
+
+【語法・注意】歩数や移動距離を直接目的語に取る用法もあるが、目的地の場所名をそのまま直接目的語にはしない。「ドアまでふらつきながら歩いた」は staggered to the door で、× staggered the door ではない。stagger into the room の into は移動先、stagger under a heavy load の under は重荷との関係を表す。通常は自由な方向・状況の組み合わせで、stagger in / out / back をすべて独立した句動詞として暗記する必要はない。He was staggering. は「彼はふらついていた」という進行形で、He was staggered.「彼は仰天していた」（語義3）とは違う。stagger oneself という再帰形は、この意味を表す標準的な形ではない。  
 
 【類義語】
 
@@ -350,7 +355,7 @@ tags: []
 例: The holes are staggered in alternating rows across the panel.  
 訳: パネルの穴は、列ごとに交互に位置をずらして配置されている。  
 
-【語法・注意】stagger the rows は通常「列をずらして配置する」で、列の全要素を一律に同じ距離だけ移動するという意味ではない。space the seats evenly「座席の間隔を均等にする」とは別の条件で、間隔が均等でも前後の座席が一直線なら staggered とは限らない。時間をずらす語義5とは目的語で判別する。配置の状態を表す staggered と、物がふらついている様子を表す staggering も区別する。  
+【語法・注意】stagger the rows は通常「列をずらして配置する」で、列の全要素を一律に同じ距離だけ移動するという意味ではない。space the seats evenly「座席の間隔を均等にする」とは別の条件で、間隔が均等でも前後の座席が一直線なら staggered とは限らない。時間をずらす語義5との区別では、目的語に加えて、時刻・位置・運用などの文脈も手掛かりにする。配置の状態を表す staggered と、物がふらついている様子を表す staggering も区別する。  
 
 【類義語】
 
