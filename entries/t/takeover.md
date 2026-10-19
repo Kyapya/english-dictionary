@@ -54,7 +54,7 @@ tags: []
 ・a takeover of 〈会社〉 by 〈取得者〉  
 用途: 買収される会社と買収する側を区別する。  
 例: The takeover of the publisher by an overseas group was completed in June.  
-訳: その出版社の海外企業グループによる買収は、6月に完了した。  
+訳: 海外企業グループによるその出版社の買収は、6月に完了した。  
 
 ・〈取得者〉's takeover of 〈会社〉  
 用途: 取得者を文の前提にして買収を述べる。  
@@ -152,7 +152,7 @@ tags: []
 ・coup  
 定義: 小集団などが政権を突然、非合法的に奪うこと。  
 頻度: 〈6/10〉  
-違い: 政治権力の奪取に範囲が狭く、会社・アカウント・通常の運営交代には使わない。  
+違い: 主に急な政治権力の奪取を表すが、boardroom coup のように企業内部の急な権力交代にも使う。通常の企業買収や平穏な担当交代を広く表す語ではない。  
 例: The attempted coup failed when the army refused to support it.  
 訳: 軍が支持を拒んだため、クーデターの試みは失敗した。  
 
