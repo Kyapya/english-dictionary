@@ -1,12 +1,12 @@
 ---
 headword: obsolete
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: GPT-6
 created_at: 2026-10-19
 updated_at: 2026-10-19
-checked: false
+checked: true
 tags: []
 ---
 
@@ -101,7 +101,7 @@ tags: []
 ・antiquated  
 定義: 非常に古く、現代には不適切と思われる。  
 頻度: 〈5/10〉  
-違い: 古さや不便さへの批判が強い。obsolete と違い、古くても現役で使用されている制度・設備を批判する場合にもよく使う。  
+違い: 古さや不便さへの批判が強い。obsolete も現役で使われている物に使えるが、antiquated は非常に古く、今の用途に不適切だという評価を強めやすい。  
 例: Staff spend hours entering data into an antiquated system.  
 訳: 職員は、ひどく古いシステムへのデータ入力に何時間も費やしている。  
 

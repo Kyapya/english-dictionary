@@ -1,12 +1,12 @@
 ---
 headword: dismantle
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: GPT-6
 created_at: 2026-10-19
 updated_at: 2026-10-19
-checked: false
+checked: true
 tags: []
 ---
 
@@ -216,7 +216,7 @@ tags: []
 ・be dismantled by 〈反証・分析〉  
 用途: 主張が証拠や分析によって崩されたと述べる。  
 例: The claim that the product was harmless was dismantled by independent test results.  
-訳: その製品は無害だという主張は、独立した機関による試験結果によって覆された。  
+訳: その製品は無害だという主張は、独立して行われた試験の結果によって覆された。  
 
 【語法・注意】dismantle an argument は、議論を理解するために単に分析することではなく、その成立を崩す方向を含む。analyze an argument は中立的な分析で、結論としてその議論を支持することもある。The claim was dismantled by the new evidence. のように、証拠を原因として受動態にもできる。否定・試み・条件の文では実際の論駁成功を断言しないが、通常の肯定文で dismantled と述べれば、説明が有効に崩されたと評価している。  
 

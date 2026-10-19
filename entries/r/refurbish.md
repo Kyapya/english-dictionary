@@ -1,12 +1,12 @@
 ---
 headword: refurbish
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: GPT-6
 created_at: 2026-10-19
 updated_at: 2026-10-19
-checked: false
+checked: true
 tags: []
 ---
 
@@ -42,7 +42,7 @@ re-「再び」＋ furbish「磨く、きれいにする」から成る。furbis
 ・refurbish a building  
 用途: 既存の建物に改修を施す。  
 例: The council plans to refurbish the library while keeping its original façade.  
-訳: 市議会は、元の外観を残しながら図書館を改修する計画だ。  
+訳: 市議会は、元の正面外観を残しながら図書館を改修する計画だ。  
 
 ・refurbish 〈家具/機器〉  
 用途: 古くなった物を手入れして再びよい状態にする。  

@@ -1,12 +1,12 @@
 ---
 headword: phase
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: GPT-6
 created_at: 2026-10-19
 updated_at: 2026-10-19
-checked: false
+checked: true
 tags: []
 ---
 
@@ -285,13 +285,6 @@ phenomenon「現象」と phantom「幻影」も、さかのぼると「現れ�
 
 【類義語】
 
-・stage  
-定義: 行動や変化を段階に分けて実施する。  
-頻度: 〈5/10〉  
-違い: この用法では phase と近いが、stage には催しを開催するなど別の主要義もあるため、目的語で判断する。  
-例: The company staged the move to minimize disruption.  
-訳: 会社は混乱を最小限に抑えるため、移転を段階的に実施した。  
-
 ・stagger  
 定義: 複数の実施時刻・時期を互いにずらす。  
 頻度: 〈6/10〉  
@@ -533,7 +526,7 @@ phenomenon「現象」と phantom「幻影」も、さかのぼると「現れ�
 
 10. 【名詞・可算】交流電力系統の相
 
-【日本語訳・定義】交流の電力系統で、他と位相の関係を持つ電圧・電流、またはそれに対応する回路の区分。一つの相を single phase、三つの相を持つ方式を three-phase と呼ぶ。語義8の「位相」という量と関係するが、ここでは系統を構成する相を数える。  
+【日本語訳・定義】交流の電力系統で、他と位相の関係を持つ電圧・電流、またはそれに対応する回路の区分。一相の交流を用いる方式を single-phase、三相の交流を用いる方式を three-phase と呼ぶ。語義8の「位相」という量と関係するが、ここでは系統を構成する相を数える。  
 
 【頻度】〈3/10〉  
 
