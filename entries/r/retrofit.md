@@ -166,15 +166,15 @@ retro-「後ろへ、さかのぼって」と fit「取り付ける」に結び�
 例: We added a second monitor to the workstation.  
 訳: 作業用パソコンに2台目のモニターを追加した。  
 
-3. 【名詞：可算】後付け改修、改修による追加装備
+3. 【名詞：可算／不可算】後付け改修、改修による追加装備
 
-【日本語訳・定義】既存の機械・建物などに新設備・機能を加える改修、またはその改修によって追加された装備。a retrofit は一件の改修・追加装備、retrofits は複数件を表す。とくに建物の耐震補強、省エネルギー改修、設備の更新などに使う。  
+【日本語訳・定義】既存の機械・建物などに新設備・機能を加える改修、またはその改修によって追加された装備。a retrofit は一件の改修・追加装備、retrofits は複数件を表す。建築・省エネルギー分野では、改修活動全般を不可算名詞の retrofit で表す用法もある。とくに建物の耐震補強、省エネルギー改修、設備の更新などに使う。  
 
 【頻度】〈5/10〉  
 
 【レジスター/領域】建築、エネルギー、製造、設備計画。  
 
-【文法パターン】a retrofit of 〈建物・設備〉＝その対象の後付け改修／a retrofit to 〈設備〉＝その設備に加える改修／a seismic/energy retrofit＝耐震・省エネルギー改修／carry out/complete a retrofit＝改修を実施・完了する／be available as a retrofit＝後付け装備として提供される／a retrofit kit＝後付け改修用キット。retrofit program、retrofit costs など、名詞の前で改修の種類・用途を表す使い方もある。  
+【文法パターン】home retrofit＝住宅の改修活動（不可算）／a retrofit of 〈建物・設備〉＝その対象の後付け改修／a retrofit to 〈設備〉＝その設備に加える改修／a seismic/energy retrofit＝耐震・省エネルギー改修／carry out/complete a retrofit＝改修を実施・完了する／be available as a retrofit＝後付け装備として提供される／a retrofit kit＝後付け改修用キット。retrofit program、retrofit costs など、名詞の前で改修の種類・用途を表す使い方もある。  
 
 【コロケーション・構文例】
 
@@ -208,7 +208,12 @@ retro-「後ろへ、さかのぼって」と fit「取り付ける」に結び�
 例: The rear-view camera is available as a retrofit for earlier vehicles.  
 訳: その後方確認用カメラは、旧型の車両向けの後付け装備として提供されている。  
 
-【語法・注意】They planned a retrofit. の retrofit は名詞、They will retrofit the building. は動詞である。a retrofit kit の retrofit は後付け用途を示す前置修飾で、すでに改修されたことを表す a retrofitted unit とは異なる。辞書によって、このような名詞前の用法を形容詞として扱うこともある。工程全般を言うときは retrofitting も使え、the cost of retrofitting the building は「その建物を改修する費用」。名詞の retrofit は通常1語で書き、retro-fit と分ける必要はない。seismic retrofit は工事の目的を表す語であり、それだけで特定の法令・基準への適合や耐震性能の保証を示すものではない。  
+・home retrofit  
+用途: 住宅の性能を改善する改修活動全般を述べる。  
+例: Home retrofit can reduce energy use in existing buildings.  
+訳: 住宅の改修は、既存の建物のエネルギー使用量を減らすことができる。  
+
+【語法・注意】They planned a retrofit. の retrofit は名詞、They will retrofit the building. は動詞である。a retrofit kit の retrofit は後付け用途を示す前置修飾で、すでに改修されたことを表す a retrofitted unit とは異なる。辞書によって、このような名詞前の用法を形容詞として扱うこともある。建築分野の home retrofit などでは retrofit 自体が活動全般を表す不可算用法を取る。工程全般を言うときは retrofitting も使え、the cost of retrofitting the building は「その建物を改修する費用」。名詞の retrofit は通常1語で書き、retro-fit と分ける必要はない。seismic retrofit は工事の目的を表す語であり、それだけで特定の法令・基準への適合や耐震性能の保証を示すものではない。  
 
 【類義語】
 
