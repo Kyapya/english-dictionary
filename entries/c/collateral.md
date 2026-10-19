@@ -154,7 +154,7 @@ tags: []
 ・be collateral to something  
 用途: 主題との副次的な関係を叙述する。  
 例: Questions about office space are collateral to the main dispute over funding.  
-訳: オフィスの広さの問題は、資金をめぐる主な争いに付随するものだ。  
+訳: 事務所用スペースをめぐる問題は、資金をめぐる主な争いに付随するものだ。  
 
 ・collateral consequences  
 用途: ある決定・出来事に伴う二次的な結果を述べる。  
