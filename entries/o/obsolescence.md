@@ -80,7 +80,7 @@ obsolescent「廃れつつある」と結びつく名詞で、-ent に対応す�
 例: The campaign calls for repairable products instead of products with built-in obsolescence.  
 訳: その運動は、陳腐化があらかじめ組み込まれた製品に代えて、修理できる製品を求めている。  
 
-【語法・注意】obsolescence は名詞、obsolete と obsolescent は形容詞なので、The equipment is obsolescence. ではなく The equipment is obsolete. または The equipment is approaching obsolescence. とする。of の後には陳腐化する対象を置く。obsolescence of skills は「技能の陳腐化」であり、人そのものの価値が失われるという意味ではない。-escence という形から「陳腐化の途中だけ」と限定しない。planned obsolescence は意図を含む表現であり、単に故障した、更新が終了したという事実だけから「計画的だった」と断定できない。wear and tear は使用による物理的な摩耗・損耗で、obsolescence とは原因・意味の軸が異なる。modernization「近代化」や innovation「革新」は陳腐化を防いだり起こしたりする行為であって、この名詞の直接の反意語ではない。  
+【語法・注意】obsolescence は名詞、obsolete と obsolescent は形容詞なので、The equipment is obsolescence. ではなく The equipment is obsolete. または The equipment is approaching obsolescence. とする。of の後には陳腐化する対象を置く。obsolescence of skills は「技能の陳腐化」であり、人そのものの価値が失われるという意味ではない。-escence という形から「陳腐化の途中だけ」と限定しない。planned obsolescence は意図を含む表現であり、単に故障した、更新が終了したという事実だけから「計画的だった」と断定できない。wear and tear は使用による物理的な摩耗・損耗で、ここで述べた技術・需要の変化による旧式化とは意味の軸が異なる。資産評価でのより広い分類は語義2を参照。modernization「近代化」や innovation「革新」は陳腐化を防いだり起こしたりする行為であって、この名詞の直接の反意語ではない。 保守・調達の obsolescence management では、単なる旧式化とは別に、必要な品目が製造元から従来の仕様で入手できなくなる移行を指す専門用法がある。IEC 62402:2019はこの意味を採用しており、対象には製品だけでなくサービスやソフトウェア支援も含まれる。稼働・使用中でも供給終了に直面し得るため、「誰も使っていない」「性能が古い」「価値が下がった」と同一視しない。  
 
 【類義語】
 
@@ -100,7 +100,7 @@ obsolescent「廃れつつある」と結びつく名詞で、-ent に対応す�
 
 2. 【名詞：不可算】機能・経済条件の不適合による減価
 
-【日本語訳・定義】資産評価で、設計・設備・用途の不適合や、周囲の市場・立地などの外部条件によって、資産の効用・価値が低下すること。functional obsolescence は資産自体の設計・機能上の問題、economic obsolescence や external obsolescence は外部条件による不利を指す。物理的な損耗とは区別され、比較的新しい建物や、まだ稼働中の設備にも起こり得る。  
+【日本語訳・定義】資産評価で、設計・設備・用途の不適合や、周囲の市場・立地などの外部条件によって、資産の効用・価値が低下すること。functional obsolescence は資産自体の設計・機能上の問題、economic obsolescence や external obsolescence は外部条件による不利を指す。狭義には物理的な損耗と区別され、比較的新しい建物や、まだ稼働中の設備にも起こり得る。ただし評価基準によって用語の範囲は異なり、IVSの分類では物理的劣化による効用低下も physical obsolescence として含める。  
 
 【頻度】〈3/10〉  
 
@@ -130,13 +130,13 @@ obsolescent「廃れつつある」と結びつく名詞で、-ent に対応す�
 例: The equipment valuation included an allowance for obsolescence because newer machines used much less energy.  
 訳: 新型機は消費エネルギーが大幅に少ないため、その設備の評価では陳腐化による減価が考慮された。  
 
-【語法・注意】この用法の obsolescence は「古くて使われていないこと」だけを意味しない。設計の不適切さや外部条件による価値低下も含み、物が新品であること・稼働していることとは両立する。資産評価での depreciation は物理的劣化や obsolescence を含む広い減価を指すことがある。一方、会計の depreciation は費用配分としての減価償却を指し、同一の概念として訳さない。an allowance for obsolescence も、この語句だけで特定の会計引当金や税務上の控除を意味するわけではない。分類・算定・税務上の扱いは適用する評価基準や制度に従い、語の意味から一律の処理方法を導かない。  
+【語法・注意】この用法の obsolescence は「古くて使われていないこと」だけを意味しない。設計の不適切さや外部条件による価値低下も含み、物が新品であること・稼働していることとは両立する。資産評価での depreciation は広い減価を指すことがあり、obsolescence を狭義に使う場合には物理的劣化と並べて区別する。一方、IVSのように physical obsolescence も含める分類では、両語の範囲を単純な大小関係だけで捉えない。一方、会計の depreciation は費用配分としての減価償却を指し、同一の概念として訳さない。an allowance for obsolescence も、この語句だけで特定の会計引当金や税務上の控除を意味するわけではない。分類・算定・税務上の扱いは適用する評価基準や制度に従い、語の意味から一律の処理方法を導かない。  
 
 【類義語】
 
 ・depreciation  
 定義: 資産評価における価値の減少・減価。  
 頻度: 〈5/10〉  
-違い: この評価上の意味では、obsolescence より広く、摩耗などによる価値低下も含められる。会計上の費用配分という別義とは区別する。  
+違い: 評価上の広い減価を表し、摩耗などによる価値低下も含められる。obsolescence を物理的劣化と区別するか、その劣化まで含めるかは採用する評価基準によるため、常に一方が広いとは限らない。会計上の費用配分という別義とは区別する。  
 例: The appraisal separated depreciation due to physical damage from depreciation due to poor design.  
 訳: その鑑定では、物理的な損傷による減価と、設計の悪さによる減価を分けていた。  
