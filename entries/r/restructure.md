@@ -1,12 +1,12 @@
 ---
 headword: restructure
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: GPT-6
 created_at: 2026-10-19
 updated_at: 2026-10-19
-checked: false
+checked: true
 tags: []
 ---
 
@@ -28,7 +28,7 @@ re-「再び」と structure「構造を作る」の組み合わせ。structure 
 
 ＃コアイメージ
 
-「すでにある全体の組み立て方を変える」が共通核。組織や文章の構成、組織自身の変化、債務の条件、再編という出来事に具体化する。改善を目指すことは多いが、改善の成功や人員削減は必須ではない。  
+「すでにある全体や要素の組み立て方を変える」が共通核で、組織・文章・物の構造、組織自身の変化、債務の条件、再編という出来事、肉片を組み合わせる加工に具体化する。改善を目指すことは多いが、改善の成功や人員削減は必須ではない。  
 
 ・組み立て方を変える対象への働きかけ → 「再編する、構成を組み直す」（語義1）  
 
@@ -38,17 +38,19 @@ re-「再び」と structure「構造を作る」の組み合わせ。structure 
 
 ・組み立て方を変える過程・出来事 → 「再編、再構築」（語義4）  
 
+・組み立て方を変える肉片の加工 → 「肉を再構成・成形する」（語義5）  
+
 ＃意味・用法・関連表現
 
 1. 【動詞・他動詞】再編する、構成を組み直す
 
-【日本語訳・定義】組織、制度、業務、文章などの部分同士の関係や、全体の組み立て方を変える。通常は効率・機能・分かりやすさの改善を目指すが、変更が成功したことまでは意味しない。単なる名称変更より、仕組みや構成の変更に焦点がある。  
+【日本語訳・定義】組織、制度、業務、文章、物の構造などについて、部分同士の関係や全体の組み立て方を変える。通常は効率・機能・分かりやすさの改善を目指すが、変更が成功したことまでは意味しない。単なる名称変更より、仕組みや構成の変更に焦点がある。  
 
 【頻度】〈6/10〉  
 
-【レジスター/領域】一般的な説明、ビジネス、行政、教育、文章の編集。やや改まった語だが、会社に限定されない。  
+【レジスター/領域】一般的な説明、ビジネス、行政、教育、文章の編集、物質・材料の説明。やや改まった語だが、会社に限定されない。  
 
-【文法パターン】restructure 〈組織・制度・文章〉＝～の構成を組み直す／restructure 〈組織など〉 into 〈新しい構成単位〉＝～を新しい単位に再編する／restructure 〈業務など〉 around 〈中心原理・目的〉＝～を中心に組み直す／restructure the way 〈主語＋動詞〉＝～のやり方を組み直す／restructure itself＝組織などが自らの構成を変える／be restructured＝再編される  
+【文法パターン】restructure 〈組織・制度・文章・材料〉＝～の構成を組み直す／restructure 〈材料〉 at the molecular level＝材料の構造を分子レベルで組み替える／restructure 〈組織など〉 into 〈新しい構成単位〉＝～を新しい単位に再編する／restructure 〈業務など〉 around 〈中心原理・目的〉＝～を中心に組み直す／restructure the way 〈主語＋動詞〉＝～のやり方を組み直す／restructure itself＝組織などが自らの構成を変える／be restructured＝再編される  
 
 【コロケーション・構文例】
 
@@ -86,6 +88,11 @@ re-「再び」と structure「構造を作る」の組み合わせ。structure 
 用途: 再編の対象を主語に置く。  
 例: The course was restructured to include more practical work.  
 訳: その授業は、実習を増やすように構成が組み直された。  
+
+・restructure 〈材料〉 at the molecular level  
+用途: 物質の内部構造を組み替える変化を述べる。  
+例: The treatment restructured the material at the molecular level.  
+訳: その処理によって、材料の構造が分子レベルで組み替えられた。  
 
 【語法・注意】「会社を再編する」は restructure the company であり、目的語の前に of を置かない。restructure itself の itself は能動文の目的語で、be restructured は受動態。語義2の The company is restructuring. は自動詞で「会社が再編を進めている」、The company is being restructured. は受動の進行形で「会社が再編されている」となる。日本語の「リストラ」は解雇を指すことが多いが、英語の restructure は人員削減を必ず含まない。個人を解雇するという意味で restructure an employee とは言わず、lay off an employee などを使う。restructured は a restructured course や The course has been restructured. のように、変更の結果・受動を表し、独立した評価的意味を持つ形容詞として覚える必要はない。  
 
@@ -285,4 +292,29 @@ re-「再び」と structure「構造を作る」の組み合わせ。structure 
 違い: 不具合の修正や全面的な改善を強調する。restructure は構成の組み替えを表し、改修全般とは範囲が異なる。  
 例: The overhaul of the admissions system reduced delays.  
 訳: 入学選考制度の全面的な見直しによって、遅延が減った。  
+
+5. 【動詞・他動詞】肉を再構成・成形する
+
+【日本語訳・定義】肉の小片や端材などを組み合わせ、ステーキ状など一定の形を持つ肉製品に加工する。食品加工で使う専門用法で、素材となる肉の組み立て方を変えることに焦点がある。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】専門、食品加工、食肉製品。一般英語全体では低頻度。  
+
+【文法パターン】restructure meat＝肉を組み合わせて成形する／restructure 〈肉の小片〉 into 〈肉製品〉＝肉片を組み合わせて～に成形する／restructured meat＝再構成・成形された肉、成形肉  
+
+【コロケーション・構文例】
+
+・restructure 〈肉の小片〉 into 〈肉製品〉  
+用途: 加工前の肉片と、成形後の製品を示す。  
+例: The processor restructures small pieces of beef into steaks.  
+訳: 加工業者は牛肉の小片を組み合わせ、ステーキ状に成形する。  
+
+・restructured meat  
+用途: 肉片を組み合わせて成形した製品を述べる。  
+例: The study compared intact beef with restructured meat.  
+訳: その研究では、一枚肉の牛肉と成形肉を比較した。  
+
+【語法・注意】restructured は他動詞 restructure の過去分詞で、restructured meat では加工による結果を名詞の前から示す。into は成形後の製品を示す。grind や mince は肉を細かくする操作、restructure は材料を組み合わせて製品の構造を作る操作に焦点がある。この語だけから、特定の添加物の使用、品質の優劣、安全性の有無は判断できない。  
+
 

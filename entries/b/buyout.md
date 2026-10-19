@@ -1,12 +1,12 @@
 ---
 headword: buyout
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: GPT-6
 created_at: 2026-10-19
 updated_at: 2026-10-19
-checked: false
+checked: true
 tags: []
 ---
 
@@ -50,7 +50,7 @@ tags: []
 
 【レジスター/領域】ビジネス・金融・財産取引。以下の頻度は語義ごとの一般英語での遭遇度の目安で、コーパスの実測値ではない。  
 
-【文法パターン】a buyout of 〈会社・持分〉 by 〈買い手〉＝買い取り対象と買い手を示す／a buyout of someone＝その人の持分の買い取り／a management/employee buyout＝経営陣・従業員による買収／a leveraged buyout＝負債を多く使う買収／a buyout offer＝買い取り提案／a lease buyout＝リース対象物の買い取り。of・by の句は対象・当事者が明らかなら省略する。  
+【文法パターン】a buyout of 〈会社・持分〉 by 〈買い手〉＝買い取り対象と買い手を示す／a buyout of someone＝その人の持分の買い取り／a management buyout＝経営陣による買収／an employee buyout＝従業員による買収／a leveraged buyout＝負債を多く使う買収／a buyout offer＝買い取り提案／a lease buyout＝リース対象物の買い取り。of・by の句は対象・当事者が明らかなら省略する。  
 
 【コロケーション・構文例】
 
@@ -133,7 +133,7 @@ tags: []
 
 ・offer someone a buyout  
 用途: 雇用主から従業員への退職条件の提示を述べる。  
-例: The newspaper offered senior employees a buyout to reduce staffing costs.  
+例: The newspaper offered long-serving employees a buyout to reduce staffing costs.  
 訳: その新聞社は人件費を減らすため、長年勤めた従業員に希望退職の優遇措置を提示した。  
 
 ・offer a buyout to 〈従業員〉  
@@ -184,7 +184,7 @@ tags: []
 
 【レジスター/領域】契約・スポーツ報道・賃貸・年金。とくに米国の文脈で目にする。  
 
-【文法パターン】a buyout of someone's contract＝その人の契約を金銭で終了させること／negotiate/agree to a buyout＝解消条件を交渉する・受け入れる／a buyout clause in 〈契約〉＝金銭による解消などを定める条項／a buyout payment＝解消のための支払い／a lump-sum pension buyout＝将来の年金給付に代わる一時金による清算。  
+【文法パターン】a buyout of someone's contract＝その人の契約を金銭で終了させること／negotiate a buyout＝解消条件を交渉する／agree to a buyout＝解消条件に同意する／a buyout clause in 〈契約〉＝金銭による解消などを定める条項／a buyout payment＝解消のための支払い／a lump-sum pension buyout＝将来の年金給付に代わる一時金による清算。  
 
 【コロケーション・構文例】
 

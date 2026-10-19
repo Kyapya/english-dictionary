@@ -1,12 +1,12 @@
 ---
 headword: decentralize
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: GPT-6
 created_at: 2026-10-19
 updated_at: 2026-10-19
-checked: false
+checked: true
 tags: []
 ---
 
@@ -189,7 +189,7 @@ centralize「中心に集める」に、逆方向・除去を表す de- が対�
 
 3. 【形容詞・限定／叙述】decentralized：分権的な、分散型の
 
-【日本語訳・定義】権限や機能が一つの中心だけに集中せず、複数の部門・地域・参加者などに分かれている。decentralize の過去分詞に由来し、ここでは再編の出来事より、組織・仕組みの構造的な特徴を述べる。  
+【日本語訳・定義】権限や機能が一つの中心だけに集中せず、複数の部門・地域・参加者などに分かれている。decentralize の過去分詞に由来し、ここでは再編の出来事より、組織・仕組みの構造的な特徴を述べる。当初から分散型として設計された場合にも使い、以前に中央へ集中していたとは限らない。  
 
 【頻度】〈5/10〉  
 

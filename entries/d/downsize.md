@@ -1,12 +1,12 @@
 ---
 headword: downsize
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: GPT-6
 created_at: 2026-10-19
 updated_at: 2026-10-19
-checked: false
+checked: true
 tags: []
 ---
 
@@ -34,7 +34,7 @@ down「下へ、小さい方向へ」と size「大きさ」の結合による�
 
 ・規模を小さくする組織自身の変化 → 「縮小する、人員を減らす」（語義2）  
 
-・規模を小さくする住まいへの移行 → 「小さな住まいに移る」（語義3）  
+・規模を小さくする住まい・物への移行 → 「より小さな住まい・物へ替える」（語義3）  
 
 ・規模を小さくするための雇用打ち切り → 「人員削減のために解雇する」（語義4）  
 
@@ -176,7 +176,7 @@ down「下へ、小さい方向へ」と size「大きさ」の結合による�
 例: The company expanded rapidly after winning several major contracts.  
 訳: その会社は、複数の大型契約を獲得した後、急速に拡大した。  
 
-3. 【動詞・自動詞】小さな住まいに移る
+3. 【動詞・自動詞】より小さな住まい・物へ替える
 
 【日本語訳・定義】人・世帯が、現在より小さな住居へ移る。子どもの独立、退職、維持の負担、費用などが典型的な背景だが、特定の年齢や経済的困窮は意味に含まれない。文脈によっては、車などをより小さなものへ替えることにも使う。  
 
@@ -188,7 +188,7 @@ down「下へ、小さい方向へ」と size「大きさ」の結合による�
 
 【コロケーション・構文例】
 
-・downsize  
+・someone + downsize  
 用途: 住まいの話で、移転先を明示せず住み替えを述べる。  
 例: Now that the children have left home, we're thinking of downsizing.  
 訳: 子どもたちが独立したので、私たちは小さな住まいへの引っ越しを考えている。  

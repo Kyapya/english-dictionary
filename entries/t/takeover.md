@@ -1,12 +1,12 @@
 ---
 headword: takeover
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: GPT-6
 created_at: 2026-10-19
 updated_at: 2026-10-19
-checked: false
+checked: true
 tags: []
 ---
 
@@ -104,7 +104,7 @@ tags: []
 頻度: 〈8/10〉  
 違い: 支配権の変化を含意せず、少数の株式や日常の物品にも使う一般語。  
 例: The purchase of a small stake did not give the investor control of the company.  
-訳: 少額の出資持分を購入しただけでは、その投資家は会社の支配権を得られなかった。  
+訳: 少数持分を購入しただけでは、その投資家は会社の支配権を得られなかった。  
 
 2. 【名詞・可算中心】支配権の掌握、乗っ取り
 
