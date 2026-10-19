@@ -175,7 +175,7 @@ tags: []
 ・be procured by 〈手段・働きかけ〉  
 用途: 実現した結果を主語にして、その手段を述べる。  
 例: The witness's agreement to testify was procured by threats.  
-訳: 証人から証言の同意を取り付けるために脅迫が用いられた。  
+訳: 脅迫によって、証人から証言するという同意が取り付けられた。  
 
 【語法・注意】procure the payment は「支払いが行われるようにする」で、主語が必ず自分で支払うとは限らない。procure that 〈節〉 を、話者自身の目的を示す普通の procure to do に置き換えない。procure someone to do は人を明示する硬い構文で、一般会話では arrange for someone to do や get someone to do を文意に応じて使う。契約の procure を常に「努力さえすればよい」、または常に「本人が履行を保証し、同じ責任を負う」と決めつけない。義務の程度・当事者・効果は、修飾語、条項全体、準拠法による。語義1の procure a loan は資金を得ること、procure the repayment of a loan は返済が行われるようにすることで、対象と行為の向きが異なる。  
 
