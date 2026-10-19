@@ -126,9 +126,7 @@ tags: []
 例: He discharged himself against medical advice before the assessment was complete.  
 訳: 彼は診察・評価が終わる前に、医療側の助言に反して自分の判断で退院した。  
 
-【語法・注意】「私は退院した」の標準的な形は I was discharged. または I left hospital.。× I discharged from hospital. と、通常の患者の退院を自動詞で表さない。I discharged myself. は目的語が myself の能動再帰形であり、I was discharged. の受動態とは構造も意味の焦点も異なる。自己退院の可否や手続きまで、この語から判断することはできない。  
-from は出る施設、to は退院後の行き先を示す。home は副詞として使うため be discharged home とし、通常 × be discharged to home とはしない。英語の from hospital に対して、米語では from the hospital が普通。英語でも特定の病院を指す from the hospital は使える。  
-be discharged は通常の受動態、get discharged は出来事をくだけて述べる形。a recently discharged patient は過去分詞による名詞修飾で、very discharged のような程度表現にはしない。名詞の hospital discharge は語義2、分泌物の discharge は語義6。  
+【語法・注意】「私は退院した」の標準的な形は I was discharged. または I left hospital.。× I discharged from hospital. と、通常の患者の退院を自動詞で表さない。I discharged myself. は目的語が myself の能動再帰形であり、I was discharged. の受動態とは構造も意味の焦点も異なる。自己退院の可否や手続きまで、この語から判断することはできない。 from は出る施設、to は退院後の行き先を示す。home は副詞として使うため be discharged home とし、通常 × be discharged to home とはしない。英語の from hospital に対して、米語では from the hospital が普通。英語でも特定の病院を指す from the hospital は使える。 be discharged は通常の受動態、get discharged は出来事をくだけて述べる形。a recently discharged patient は過去分詞による名詞修飾で、very discharged のような程度表現にはしない。名詞の hospital discharge は語義2、分泌物の discharge は語義6。  
 
 【類義語】
 
@@ -187,8 +185,7 @@ be discharged は通常の受動態、get discharged は出来事をくだけて
 例: The report compares hospital discharges across the three districts.  
 訳: その報告書は、3地区の病院の退院件数を比較している。  
 
-【語法・注意】after discharge の discharge は過程を表す不可算名詞なので、通常は冠詞を置かない。after her discharge のように所有格で特定することもできる。a delayed discharge「遅れた退院」のように一つの事例として捉える用法もある。「退院した」という述語には名詞をそのまま置かず、She was discharged. とする。  
-discharge instructions は退院時の指示、discharge planning は退院計画の策定で、discharge は名詞修飾。medical discharge は軍務を健康上の理由で離れることも指すため、必ず「退院」と訳すわけではない。語義8も参照。  
+【語法・注意】after discharge の discharge は過程を表す不可算名詞なので、通常は冠詞を置かない。after her discharge のように所有格で特定することもできる。a delayed discharge「遅れた退院」のように一つの事例として捉える用法もある。「退院した」という述語には名詞をそのまま置かず、She was discharged. とする。 discharge instructions は退院時の指示、discharge planning は退院計画の策定で、discharge は名詞修飾。medical discharge は軍務を健康上の理由で離れることも指すため、必ず「退院」と訳すわけではない。語義8も参照。  
 
 【類義語】
 
@@ -245,8 +242,7 @@ discharge instructions は退院時の指示、discharge planning は退院計�
 例: The report identifies where cooling water is discharged into the sea.  
 訳: 報告書は、冷却水が海へ放出される場所を示している。  
 
-【語法・注意】discharge water は「水を出す」、discharge a patient は語義1の「患者を退院させる」で、目的語の意味種類が解釈を決める。from は排出元、into は内部へ入る排出先。単に方向・地点を示す to / at が使われる文脈もあるが、川や海への放出では into が基本。  
-主語が企業・施設なら人為的な排出、傷なら身体からの排液を指す。discharge と書かれているだけで「垂れ流す」「漏洩する」「汚染する」と否定的に訳さない。The factory discharges wastewater. の discharges は動詞、wastewater discharges は語義5の名詞複数である。  
+【語法・注意】discharge water は「水を出す」、discharge a patient は語義1の「患者を退院させる」で、目的語の意味種類が解釈を決める。from は排出元、into は内部へ入る排出先。単に方向・地点を示す to / at が使われる文脈もあるが、川や海への放出では into が基本。 主語が企業・施設なら人為的な排出、傷なら身体からの排液を指す。discharge と書かれているだけで「垂れ流す」「漏洩する」「汚染する」と否定的に訳さない。The factory discharges wastewater. の discharges は動詞、wastewater discharges は語義5の名詞複数である。  
 
 【類義語】
 
@@ -303,8 +299,7 @@ discharge instructions は退院時の指示、discharge planning は退院計�
 例: The wound continued to discharge during the examination.  
 訳: 診察中も傷から排液が続いていた。  
 
-【語法・注意】The pipe discharges water into the ditch. は water を目的語に取る他動詞、The pipe discharges into the ditch. は目的語のない自動詞。どちらも自然だが、into の後ろの名詞は前置詞の目的語である。Water is discharged from the pipe. は語義3の受動態であり、この自動詞の受動態ではない。  
-人を主語にした一般的な「退院する」「除隊する」に、この自動詞構文を流用しない。通常は She was discharged from hospital. のように受動態を使う。  
+【語法・注意】The pipe discharges water into the ditch. は water を目的語に取る他動詞、The pipe discharges into the ditch. は目的語のない自動詞。どちらも自然だが、into の後ろの名詞は前置詞の目的語である。Water is discharged from the pipe. は語義3の受動態であり、この自動詞の受動態ではない。 人を主語にした一般的な「退院する」「除隊する」に、この自動詞構文を流用しない。通常は She was discharged from hospital. のように受動態を使う。  
 
 【類義語】
 
@@ -361,8 +356,7 @@ discharge instructions は退院時の指示、discharge planning は退院計�
 例: The study tracked industrial discharges into the bay over ten years.  
 訳: その研究は、湾への産業排出を10年間にわたって追跡した。  
 
-【語法・注意】discharge of water は名詞の「水の排出」、discharge water は他動詞の「水を排出する」。名詞には of が必要になる構文があるが、それを動詞へ移さない。discharge into the river では名詞か動詞かが形だけで決まらないため、the discharge や plants discharge のように文全体で判定する。  
-spill / leakage と違って事故や漏れを必須としない。sewage discharge は下水の排出、discharge pipe は排出管であり、前から修飾する discharge は名詞。  
+【語法・注意】discharge of water は名詞の「水の排出」、discharge water は他動詞の「水を排出する」。名詞には of が必要になる構文があるが、それを動詞へ移さない。discharge into the river では名詞か動詞かが形だけで決まらないため、the discharge や plants discharge のように文全体で判定する。 spill / leakage と違って事故や漏れを必須としない。sewage discharge は下水の排出、discharge pipe は排出管であり、前から修飾する discharge は名詞。  
 
 【類義語】
 
@@ -419,8 +413,7 @@ spill / leakage と違って事故や漏れを必須としない。sewage discha
 例: The examination revealed a thick discharge in the ear canal.  
 訳: 診察で、外耳道内に粘りのある分泌物が見つかった。  
 
-【語法・注意】病院で discharge と聞いても、退院の話か分泌物の話かは前後で決まる。her discharge from hospital は語義2の「彼女の退院」、discharge from her ear は「耳からの分泌物」。名詞を主語にした The discharge has stopped. は「排液が止まった」であり、患者の退院を取り消したという意味ではない。  
-液体として some discharge / a small amount of discharge が普通。a discharge も使えるが、何回分かを数えるように機械的に複数形にしない。色や量などは記述のための情報であり、discharge という語や一つの形容詞だけで病名は決まらない。  
+【語法・注意】病院で discharge と聞いても、退院の話か分泌物の話かは前後で決まる。her discharge from hospital は語義2の「彼女の退院」、discharge from her ear は「耳からの分泌物」。名詞を主語にした The discharge has stopped. は「排液が止まった」であり、患者の退院を取り消したという意味ではない。 液体として some discharge / a small amount of discharge が普通。a discharge も使えるが、何回分かを数えるように機械的に複数形にしない。色や量などは記述のための情報であり、discharge という語や一つの形容詞だけで病名は決まらない。  
 
 【類義語】
 
@@ -470,9 +463,7 @@ spill / leakage と違って事故や漏れを必須としない。sewage discha
 例: The judge discharged the jury after it failed to reach a verdict.  
 訳: 陪審団が評決に達しなかったため、裁判官は陪審団を解散させた。  
 
-【語法・注意】discharge the jury は陪審団を任務から解くことで、被告人を釈放することや無罪を言い渡すこととは異なる。discharge the defendant は語義18。The jury discharged. ではなく、通常は The jury was discharged. とする。  
-discharge someone from duty「人の任務を解く」と discharge one's duty「自分の義務を果たす」（語義9）では、直接目的語が人か義務かによって意味が変わる。前者を「任務を遂行させる」と訳さない。  
-英語は honourably / dishonourably、米語は honorably / dishonorably。除隊の種類や資格上の効果は制度ごとに異なるため、discharge 一語を「満期除隊」「懲戒免職」と限定しない。a discharged soldier も理由をそれだけでは示さない。  
+【語法・注意】discharge the jury は陪審団を任務から解くことで、被告人を釈放することや無罪を言い渡すこととは異なる。discharge the defendant は語義18。The jury discharged. ではなく、通常は The jury was discharged. とする。 discharge someone from duty「人の任務を解く」と discharge one's duty「自分の義務を果たす」（語義9）では、直接目的語が人か義務かによって意味が変わる。前者を「任務を遂行させる」と訳さない。 英語は honourably / dishonourably、米語は honorably / dishonorably。除隊の種類や資格上の効果は制度ごとに異なるため、discharge 一語を「満期除隊」「懲戒免職」と限定しない。a discharged soldier も理由をそれだけでは示さない。  
 
 【類義語】
 
@@ -529,8 +520,7 @@ discharge someone from duty「人の任務を解く」と discharge one's duty�
 例: She kept her military discharge papers with her other service records.  
 訳: 彼女は除隊書類をほかの軍歴書類と一緒に保管していた。  
 
-【語法・注意】receive a discharge は除隊という処分・許可を受けること。receive discharge papers は書類を受け取ることに焦点がある。どちらも自動的に同じ時点・同じ手続きを表すとは限らない。米語の綴りは honorable / dishonorable。medical discharge はこの語義では「病院からの退院」ではない。  
-除隊と任務完了の関係は文脈次第で、除隊すれば必ず任務をすべて果たしたことになるわけではない。discharge of duties「職務の遂行」（語義11）とは区別する。  
+【語法・注意】receive a discharge は除隊という処分・許可を受けること。receive discharge papers は書類を受け取ることに焦点がある。どちらも自動的に同じ時点・同じ手続きを表すとは限らない。米語の綴りは honorable / dishonorable。medical discharge はこの語義では「病院からの退院」ではない。 除隊と任務完了の関係は文脈次第で、除隊すれば必ず任務をすべて果たしたことになるわけではない。discharge of duties「職務の遂行」（語義11）とは区別する。  
 
 【類義語】
 
@@ -580,9 +570,7 @@ discharge someone from duty「人の任務を解く」と discharge one's duty�
 例: She continued to discharge her duties as chair throughout the investigation.  
 訳: 調査の間も、彼女は議長としての職務を遂行し続けた。  
 
-【語法・注意】discharge one's duty は「義務を果たす」、discharge someone from duty は語義7の「人を任務から解く」。She discharged her duties. は彼女が遂行したこと、She was discharged from her duties. は彼女が任務を解かれたことを表す。from の有無だけでなく、目的語と主語の役割を確認する。  
-obligation to do something の to不定詞は obligation を説明する。× discharge to report → discharge the obligation to report。また、discharge a duty はその場で責任を遂行することなので、病院の discharge と混同して「退院の義務」と読まない。  
-faithfully / properly / effectively などが遂行の仕方を示す。discharge responsibilities carelessly のような評価も可能で、discharge 自体が「見事に」や「誠実に」を必ず含むわけではない。金銭債務の弁済は語義10、法律上の義務そのものの解除は語義20。  
+【語法・注意】discharge one's duty は「義務を果たす」、discharge someone from duty は語義7の「人を任務から解く」。She discharged her duties. は彼女が遂行したこと、She was discharged from her duties. は彼女が任務を解かれたことを表す。from の有無だけでなく、目的語と主語の役割を確認する。 obligation to do something の to不定詞は obligation を説明する。× discharge to report → discharge the obligation to report。また、discharge a duty はその場で責任を遂行することなので、病院の discharge と混同して「退院の義務」と読まない。 faithfully / properly / effectively などが遂行の仕方を示す。discharge responsibilities carelessly のような評価も可能で、discharge 自体が「見事に」や「誠実に」を必ず含むわけではない。金銭債務の弁済は語義10、法律上の義務そのものの解除は語義20。  
 
 【類義語】
 
@@ -643,8 +631,7 @@ faithfully / properly / effectively などが遂行の仕方を示す。discharg
 例: The company continued to discharge its payment obligations on time.  
 訳: 会社は引き続き支払義務を期限どおりに果たした。  
 
-【語法・注意】discharge a debt は単独では、支払いによる弁済か、法制度による免責かが文脈によって変わる。ここでは売却代金・返済・全額支払いなどが弁済を明確にしている。The debt was discharged in bankruptcy. は通常、語義20の免責の意味であり、「破産手続きで全額を返した」とは限らない。  
-日常会話では pay off a debt がわかりやすい。discharge は直接目的語を取り、× discharge for the debt とはしない。部分弁済を明示する場合には discharge part of a debt のように対象範囲を限定する。  
+【語法・注意】discharge a debt は単独では、支払いによる弁済か、法制度による免責かが文脈によって変わる。ここでは売却代金・返済・全額支払いなどが弁済を明確にしている。The debt was discharged in bankruptcy. は通常、語義20の免責の意味であり、「破産手続きで全額を返した」とは限らない。 日常会話では pay off a debt がわかりやすい。discharge は直接目的語を取り、× discharge for the debt とはしない。部分弁済を明示する場合には discharge part of a debt のように対象範囲を限定する。  
 
 【類義語】
 
@@ -696,8 +683,7 @@ faithfully / properly / effectively などが遂行の仕方を示す。discharg
 例: The receipt confirms the discharge of the debt by payment in full.  
 訳: その領収書は、全額支払いによって債務が弁済されたことを確認するものだ。  
 
-【語法・注意】the discharge of duties は「職務を果たすこと」、discharge from duties は「職務を解かれること」。of と from が対象の役割を変える。the discharge of a debt だけでは弁済か法的免責かが曖昧になり得るため、by payment、in bankruptcy などの周囲を確認する。免責についての名詞は語義21。  
-この過程名詞は通常不可算で、職務の件数が複数でも × three discharges of duties のようには数えない。名詞の後ろに義務を直接置く × the discharge duties ではなく、the discharge of duties とする。  
+【語法・注意】the discharge of duties は「職務を果たすこと」、discharge from duties は「職務を解かれること」。of と from が対象の役割を変える。the discharge of a debt だけでは弁済か法的免責かが曖昧になり得るため、by payment、in bankruptcy などの周囲を確認する。免責についての名詞は語義21。 この過程名詞は通常不可算で、職務の件数が複数でも × three discharges of duties のようには数えない。名詞の後ろに義務を直接置く × the discharge duties ではなく、the discharge of duties とする。  
 
 【類義語】
 
@@ -754,9 +740,7 @@ faithfully / properly / effectively などが遂行の仕方を示す。discharg
 例: The indicator showed that the battery was fully discharged.  
 訳: 表示灯は、電池が完全に放電したことを示していた。  
 
-【語法・注意】The equipment discharges the battery. は他動詞、The battery discharges. は自動詞。The battery is discharged. は文脈によって「放電させられる」という受動態か「放電した状態にある」という結果状態である。a discharged battery も結果を示す過去分詞で、fully / partly が状態の程度を表す。  
-discharge を単に「電池が壊れる」と訳さない。dead battery は使える電力がないという日常的表現で、故障を含む文脈もあるが、放電そのものと同一ではない。また、放電と電流による感電を混同しない。electric shock は人などが電流の影響を受けること。  
-charge と discharge の対立はこの電気的用法に限ったもの。退院、職務遂行などすべての語義で charge が反意語になるわけではない。  
+【語法・注意】The equipment discharges the battery. は他動詞、The battery discharges. は自動詞。The battery is discharged. は文脈によって「放電させられる」という受動態か「放電した状態にある」という結果状態である。a discharged battery も結果を示す過去分詞で、fully / partly が状態の程度を表す。 discharge を単に「電池が壊れる」と訳さない。dead battery は使える電力がないという日常的表現で、故障を含む文脈もあるが、放電そのものと同一ではない。また、放電と電流による感電を混同しない。electric shock は人などが電流の影響を受けること。 charge と discharge の対立はこの電気的用法に限ったもの。退院、職務遂行などすべての語義で charge が反意語になるわけではない。  
 
 【類義語】
 
@@ -822,8 +806,7 @@ charge と discharge の対立はこの電気的用法に限ったもの。退�
 例: The results differed at higher discharge rates.  
 訳: 放電率が高い条件では結果が異なった。  
 
-【語法・注意】an electrical discharge は物理現象、an electric shock は人などが電流を受けること。放電が起きたというだけで、誰かが感電したとは限らない。discharge rate はこの文脈では放電率だが、水理分野では排出流量の意味にもなるため、周囲の名詞や単位を確認する。  
-名詞の discharge は代表的には第1音節に強勢がある。battery discharge の discharge を過去分詞 discharged と混同しない。  
+【語法・注意】an electrical discharge は物理現象、an electric shock は人などが電流を受けること。放電が起きたというだけで、誰かが感電したとは限らない。discharge rate はこの文脈では放電率だが、水理分野では排出流量の意味にもなるため、周囲の名詞や単位を確認する。 名詞の discharge は代表的には第1音節に強勢がある。battery discharge の discharge を過去分詞 discharged と混同しない。  
 
 【反意語】
 
@@ -866,8 +849,7 @@ charge と discharge の対立はこの電気的用法に限ったもの。退�
 例: Police are investigating whether a gun was discharged during the disturbance.  
 訳: 警察は、騒動の最中に銃が発射されたかどうかを調べている。  
 
-【語法・注意】The officer discharged the gun. は人が撃つ他動詞、The gun discharged. は銃が発射される自動詞、The gun was discharged. は受動態。自動詞は意図した人を主語にしない。× He discharged at the target. のように、shoot の自動詞構文をそのまま当てはめない。  
-discharge a firearm の目的語は銃器、discharge a round の目的語は発射される弾であり、どちらも自然。discharge someone をこの意味で「人を撃つ」と解釈しない。fire a gun に比べて硬いが、発射回数や故意・過失は動詞そのものでは決まらない。  
+【語法・注意】The officer discharged the gun. は人が撃つ他動詞、The gun discharged. は銃が発射される自動詞、The gun was discharged. は受動態。自動詞は意図した人を主語にしない。× He discharged at the target. のように、shoot の自動詞構文をそのまま当てはめない。 discharge a firearm の目的語は銃器、discharge a round の目的語は発射される弾であり、どちらも自然。discharge someone をこの意味で「人を撃つ」と解釈しない。fire a gun に比べて硬いが、発射回数や故意・過失は動詞そのものでは決まらない。  
 
 【類義語】
 
@@ -964,8 +946,7 @@ discharge a firearm の目的語は銃器、discharge a round の目的語は発
 例: She challenged the decision after being discharged from her job.  
 訳: 彼女は解雇された後、その決定に異議を申し立てた。  
 
-【語法・注意】discharge someone from employment の from は終了する雇用関係、for は理由を示す。be discharged from hospital は語義1の退院であり、病院職員の解雇を自動的に意味しない。職員の雇用終了なら be discharged from one's job at the hospital などと明示する。  
-日常会話では fire や dismiss が普通で、discharge は硬い。resign「辞職する」は本人が辞めること、lay off は典型的には事業上の都合で人員を減らすことで、理由を問わない discharge と常に同じではない。  
+【語法・注意】discharge someone from employment の from は終了する雇用関係、for は理由を示す。be discharged from hospital は語義1の退院であり、病院職員の解雇を自動的に意味しない。職員の雇用終了なら be discharged from one's job at the hospital などと明示する。 日常会話では fire や dismiss が普通で、discharge は硬い。resign「辞職する」は本人が辞めること、lay off は典型的には事業上の都合で人員を減らすことで、理由を問わない discharge と常に同じではない。  
 
 【類義語】
 
@@ -1026,8 +1007,7 @@ discharge a firearm の目的語は銃器、discharge a round の目的語は発
 例: The panel reviewed a discharge for alleged misconduct.  
 訳: 審査委員会は、不正行為の疑いを理由とする解雇を審査した。  
 
-【語法・注意】wrongful discharge は法的な文脈の表現で、どの解雇が該当するかは法域・契約などで異なる。単に本人が不満を持つ解雇すべてを指すわけではなく、英法の wrongful dismissal や unfair dismissal と制度上まったく同一と決めつけない。  
-退院・除隊にも同じ discharge を使うため、employee / employer / employment などで文脈を確認する。the employee's discharge は雇用主による解雇の意味になり得るが、the employee discharged the debt は語義10の債務弁済である。  
+【語法・注意】wrongful discharge は法的な文脈の表現で、どの解雇が該当するかは法域・契約などで異なる。単に本人が不満を持つ解雇すべてを指すわけではなく、英法の wrongful dismissal や unfair dismissal と制度上まったく同一と決めつけない。 退院・除隊にも同じ discharge を使うため、employee / employer / employment などで文脈を確認する。the employee's discharge は雇用主による解雇の意味になり得るが、the employee discharged the debt は語義10の債務弁済である。  
 
 【類義語】
 
@@ -1079,8 +1059,7 @@ discharge a firearm の目的語は銃器、discharge a round の目的語は発
 例: After admitting the minor offence, he was conditionally discharged by the court.  
 訳: 軽微な犯罪を認めた後、彼は裁判所から条件付きの放免処分を受けた。  
 
-【語法・注意】discharge the defendant と acquit the defendant は常に同じではない。acquit は当該起訴について有罪としない司法判断を表す。英国の conditional discharge は犯罪が認められた場合にも用いられるため、×「条件付きで無罪となった」と一律に訳さない。処分の概要は語義19。  
-discharge the jury は語義7の「陪審団を任務から解く」で、陪審員を刑事上の拘束から解くことではない。また、be discharged from prison と be released on parole は同一でなく、後者には仮釈放という制度上の意味がある。  
+【語法・注意】discharge the defendant と acquit the defendant は常に同じではない。acquit は当該起訴について有罪としない司法判断を表す。英国の conditional discharge は犯罪が認められた場合にも用いられるため、×「条件付きで無罪となった」と一律に訳さない。処分の概要は語義19。 discharge the jury は語義7の「陪審団を任務から解く」で、陪審員を刑事上の拘束から解くことではない。また、be discharged from prison と be released on parole は同一でなく、後者には仮釈放という制度上の意味がある。  
 
 【類義語】
 
@@ -1134,8 +1113,7 @@ discharge the jury は語義7の「陪審団を任務から解く」で、陪審
 例: He received a conditional discharge after pleading guilty.  
 訳: 彼は有罪を認めた後、条件付きの放免処分を受けた。  
 
-【語法・注意】イングランド・ウェールズでは、absolute discharge は裁判所が刑罰を科さない処分、conditional discharge は所定の期間中に再び犯罪を行った場合に、元の犯罪についても量刑の対象となり得る処分。いずれも acquittal「無罪判決」とは違う。discharge を受けても、賠償や費用負担などの命令が併せて出る場合があり、「あらゆる不利益や義務が消える」とは限らない。  
-同じ名称でも他国の制度・記録上の効果は同一ではない。日本語の「執行猶予」「不起訴」「仮釈放」にそのまま置き換えず、対象制度を確認する。a conditional discharge と処分を一件として数える一方、before discharge from custody のように釈放という過程を不可算で述べることもある。  
+【語法・注意】イングランド・ウェールズでは、absolute discharge は裁判所が刑罰を科さない処分、conditional discharge は所定の期間中に再び犯罪を行った場合に、元の犯罪についても量刑の対象となり得る処分。いずれも acquittal「無罪判決」とは違う。discharge を受けても、賠償や費用負担などの命令が併せて出る場合があり、「あらゆる不利益や義務が消える」とは限らない。 同じ名称でも他国の制度・記録上の効果は同一ではない。日本語の「執行猶予」「不起訴」「仮釈放」にそのまま置き換えず、対象制度を確認する。a conditional discharge と処分を一件として数える一方、before discharge from custody のように釈放という過程を不可算で述べることもある。  
 
 【類義語】
 
@@ -1178,9 +1156,7 @@ discharge the jury は語義7の「陪審団を任務から解く」で、陪審
 例: The contract was discharged by agreement before any work began.  
 訳: 作業が始まる前に、契約上の義務は当事者の合意によって終了した。  
 
-【語法・注意】米国の bankruptcy discharge は、対象債務について債務者の個人的な支払責任を免除する制度上の効果を表す。すべての債務が対象になるとは限らず、財産に付いた有効な担保権などが当然にすべて消えるわけでもない。「帳簿から借金を削除する」「借金を全額返済する」と機械的に訳さない。  
-The debtor discharged the debt by paying it in full. は語義10の弁済、The debt was discharged in bankruptcy. はこの法律用法。主語・目的語だけでは判別できないため、by payment / in bankruptcy などを確認する。discharge a contract は契約上の義務が終了することを表し、必ずしも最初から無効だったことや契約違反があったことを意味しない。  
-discharge someone from an obligation の目的語は人、discharge an obligation の目的語は義務。後者は語義9の「履行する」とも読める。discharge の一語から、誰がどの申請を行うか、どの条件で免責が認められるかまで推測しない。  
+【語法・注意】米国の bankruptcy discharge は、対象債務について債務者の個人的な支払責任を免除する制度上の効果を表す。すべての債務が対象になるとは限らず、財産に付いた有効な担保権などが当然にすべて消えるわけでもない。「帳簿から借金を削除する」「借金を全額返済する」と機械的に訳さない。 The debtor discharged the debt by paying it in full. は語義10の弁済、The debt was discharged in bankruptcy. はこの法律用法。主語・目的語だけでは判別できないため、by payment / in bankruptcy などを確認する。discharge a contract は契約上の義務が終了することを表し、必ずしも最初から無効だったことや契約違反があったことを意味しない。 discharge someone from an obligation の目的語は人、discharge an obligation の目的語は義務。後者は語義9の「履行する」とも読める。discharge の一語から、誰がどの申請を行うか、どの条件で免責が認められるかまで推測しない。  
 
 【類義語】
 
@@ -1237,8 +1213,7 @@ discharge someone from an obligation の目的語は人、discharge an obligatio
 例: The document records the guarantor's discharge from liability.  
 訳: その文書は、保証人の責任が解除されたことを記録している。  
 
-【語法・注意】discharge of debts が弁済を指す場合は語義11、破産での免責を指す場合はこちら。名詞だけから実際の支払いを推定しない。discharge of contract も「契約違反」「契約書の破棄」「契約が最初から無効」のどれかと同義ではなく、義務が終了したという結果を述べる。  
-米国の破産制度では、免責と事件の終結・却下は別の概念。a bankruptcy discharge を a dismissal of the bankruptcy case と言い換えない。a discharge order は決定・命令、その写しは a copy of the discharge order であり、手続きと書面を区別する。  
+【語法・注意】discharge of debts が弁済を指す場合は語義11、破産での免責を指す場合はこちら。名詞だけから実際の支払いを推定しない。discharge of contract も「契約違反」「契約書の破棄」「契約が最初から無効」のどれかと同義ではなく、義務が終了したという結果を述べる。 米国の破産制度では、免責と事件の終結・却下は別の概念。a bankruptcy discharge を a dismissal of the bankruptcy case と言い換えない。a discharge order は決定・命令、その写しは a copy of the discharge order であり、手続きと書面を区別する。  
 
 【類義語】
 
@@ -1288,8 +1263,7 @@ discharge someone from an obligation の目的語は人、discharge an obligatio
 例: The vessel is scheduled to discharge at the next port.  
 訳: その船は次の港で荷下ろしをする予定だ。  
 
-【語法・注意】discharge cargo は貨物を外へ出す、discharge a ship は船から荷を下ろす。後者を「船そのものを下ろす」と読まない。from は貨物の出される船、at は荷下ろしの場所を示す。  
-旅客が自分で「降りる」ことを普通に言うなら get off / disembark を使う。The ferry discharged its passengers. ではフェリー・運航側が主語であり、× The passengers discharged from the ferry. と機械的に入れ替えない。貨物を下ろす discharge は、廃棄・投棄するという意味ではない。  
+【語法・注意】discharge cargo は貨物を外へ出す、discharge a ship は船から荷を下ろす。後者を「船そのものを下ろす」と読まない。from は貨物の出される船、at は荷下ろしの場所を示す。 旅客が自分で「降りる」ことを普通に言うなら get off / disembark を使う。The ferry discharged its passengers. ではフェリー・運航側が主語であり、× The passengers discharged from the ferry. と機械的に入れ替えない。貨物を下ろす discharge は、廃棄・投棄するという意味ではない。  
 
 【類義語】
 
@@ -1416,9 +1390,7 @@ discharge someone from an obligation の目的語は人、discharge an obligatio
 例: The discharge of the pump was measured in litres per minute.  
 訳: そのポンプの吐出量は毎分のリットル数で測定された。  
 
-【語法・注意】現象・変量としては不可算だが、a discharge of ... のように特定の流量を数値で示すときは a を伴う。文脈によっては異なる地点・条件での流量を discharges と複数にする。  
-流量の単位は m³/s などの「体積／時間」であり、m/s で表す流速とも、一定期間に流れた総体積とも異なる。専門文書の discharge rate はこの流量を指すことがあるが、電池の文脈では放電の速さを指す。  
-discharge pressure の discharge は「吐出側の」を表す名詞修飾で、圧力そのものを流量と同一視しない。  
+【語法・注意】現象・変量としては不可算だが、a discharge of ... のように特定の流量を数値で示すときは a を伴う。文脈によっては異なる地点・条件での流量を discharges と複数にする。 流量の単位は m³/s などの「体積／時間」であり、m/s で表す流速とも、一定期間に流れた総体積とも異なる。専門文書の discharge rate はこの流量を指すことがあるが、電池の文脈では放電の速さを指す。 discharge pressure の discharge は「吐出側の」を表す名詞修飾で、圧力そのものを流量と同一視しない。  
 
 【類義語】
 
@@ -1463,8 +1435,7 @@ discharge pressure の discharge は「吐出側の」を表す名詞修飾で�
 例: The court order was discharged at the next hearing.  
 訳: その裁判所の命令は次の審理で取り消された。  
 
-【語法・注意】目的語は injunction や order であり、人を放免する discharge the defendant とは異なる。discharge an obligation は義務を果たす意味にもなるが、discharge an injunction を「差止命令に従う」と読まない。  
-apply to have ... discharged は解除を求める行為で、解除が認められたことまでは表さない。名詞形では the discharge of an injunction のようにいう。解除の条件や遡及的な効果は法域と命令の種類によるため、語だけから判断しない。  
+【語法・注意】目的語は injunction や order であり、人を放免する discharge the defendant とは異なる。discharge an obligation は義務を果たす意味にもなるが、discharge an injunction を「差止命令に従う」と読まない。 apply to have ... discharged は解除を求める行為で、解除が認められたことまでは表さない。名詞形では the discharge of an injunction のようにいう。解除の条件や遡及的な効果は法域と命令の種類によるため、語だけから判断しない。  
 
 【類義語】
 
@@ -1504,8 +1475,7 @@ apply to have ... discharged は解除を求める行為で、解除が認めら
 例: The character discharges a stream of invective at everyone who questions him.  
 訳: その登場人物は、自分に異を唱える人すべてに悪罵を浴びせる。  
 
-【語法・注意】discharge someone だけで「人に怒りをぶつける」とはならない。放出する感情や言葉を目的語にし、言葉の向かう相手を示す場合は at someone などを添える。  
-この語義は感情を表す一般的な動詞ではない。穏やかな謝意なら express one's gratitude のような表現を選び、あらゆる感情名詞に機械的に discharge を使わない。  
+【語法・注意】discharge someone だけで「人に怒りをぶつける」とはならない。放出する感情や言葉を目的語にし、言葉の向かう相手を示す場合は at someone などを添える。 この語義は感情を表す一般的な動詞ではない。穏やかな謝意なら express one's gratitude のような表現を選び、あらゆる感情名詞に機械的に discharge を使わない。  
 
 【類義語】
 
@@ -1545,5 +1515,5 @@ apply to have ... discharged は解除を求める行為で、解除が認めら
 例: A member moved to discharge the committee from consideration of the resolution.  
 訳: ある議員が、その委員会を決議案の審議から解く動議を提出した。  
 
-【語法・注意】目的語は基本的に委員会で、from consideration of ... が審議対象を示す。委員を解雇することでも、委員会の構成員全員を罷免することでもない。  
-名詞を使った discharge petition は、委員会段階にある案件について審議解除を求める署名請願を指す。署名が集まること、審議解除の手続きを進めること、法案が可決・成立することは別であり、petition という語だけで後の段階まで完了したとは読まない。具体的な要件は議院の規則による。  
+【語法・注意】目的語は基本的に委員会で、from consideration of ... が審議対象を示す。委員を解雇することでも、委員会の構成員全員を罷免することでもない。 名詞を使った discharge petition は、委員会段階にある案件について審議解除を求める署名請願を指す。署名が集まること、審議解除の手続きを進めること、法案が可決・成立することは別であり、petition という語だけで後の段階まで完了したとは読まない。具体的な要件は議院の規則による。  
+ 

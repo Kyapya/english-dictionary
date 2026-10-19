@@ -94,9 +94,7 @@ tags: []
 例: His occasional lapses into French amused the English-speaking audience.  
 訳: 彼が時々ついフランス語で話しだすのを、英語話者の聴衆は面白がった。  
 
-【語法・注意】単数では a lapse、複数では lapses とする。a lapse of concentration と a lapse in concentration はともに使い、of を「唯一正しい前置詞」としない。一方、a lapse in security、a security lapse が典型で、全組合せを機械的に of と in で交換できるわけではない。judgment は米式で一般的で、英式では judgement も広く使う。  
-
-【語法・注意】lapse は「一時的・局所的」と捉える表現だが、結果が小さいとは限らない。a serious lapse in judgment のように重大さを明示できる。また、意図的な倫理違反を a lapse と呼ぶと責任を軽く見せる効果が生じることがある。an occasional lapse into French は話す言語の切替えであり、「フランス語は悪い言語だ」という評価ではない。名詞 a lapse into silence と動詞 lapse into silence は構造が異なる。  
+【語法・注意】単数では a lapse、複数では lapses とする。a lapse of concentration と a lapse in concentration はともに使い、of を「唯一正しい前置詞」としない。一方、a lapse in security、a security lapse が典型で、全組合せを機械的に of と in で交換できるわけではない。judgment は米式で一般的で、英式では judgement も広く使う。 lapse は「一時的・局所的」と捉える表現だが、結果が小さいとは限らない。a serious lapse in judgment のように重大さを明示できる。また、意図的な倫理違反を a lapse と呼ぶと責任を軽く見せる効果が生じることがある。an occasional lapse into French は話す言語の切替えであり、「フランス語は悪い言語だ」という評価ではない。名詞 a lapse into silence と動詞 lapse into silence は構造が異なる。  
 
 【類義語】
 
@@ -136,7 +134,7 @@ tags: []
 
 【レジスター/領域】事務・ビジネス・法律・保険。免許や定期購読について日常でも使う。  
 
-【文法パターン】membership + lapse＝会員資格が切れる／permission + lapse＝許可が失効する／a policy + lapse＝保険契約が失効する／an agreement + lapse＝合意の効力が切れる／let something lapse＝更新などをせず失効させる／allow something to lapse＝失効するままにする／lapse for non-payment＝未払いで失効する／lapse unless 〈節〉＝条件が満たされなければ失効する。let の後は原形、allow の後は目的語＋to 不定詞。  
+【文法パターン】membership + lapse＝会員資格が切れる／permission + lapse＝許可が失効する／a policy + lapse＝保険契約が失効する／an agreement + lapse＝合意の効力が切れる／let something lapse＝更新などをせず失効させる／allow something to lapse＝失効するままにする／lapse for non-payment＝未払いで失効する／〈主語〉 + lapse unless 〈節〉＝条件が満たされなければ失効する。let の後は原形、allow の後は目的語＋to 不定詞。  
 
 【コロケーション・構文例】
 
@@ -170,11 +168,7 @@ tags: []
 例: The bequest may lapse if the beneficiary dies before the testator, subject to any applicable anti-lapse rule.  
 訳: 受遺者が遺言者より先に亡くなった場合、適用される失効防止規定がなければ、その遺贈は失効することがある。  
 
-【語法・注意】基本は The policy lapsed. という自動詞の形。一般向けには「契約を失効させた」を I let the policy lapse. または I allowed the policy to lapse. とする。let the policy to lapse は不可。他動詞 lapse the policy も専門的な用法として存在するが、語義11の限定された使い方と区別する。一般的な自動詞の lapse をそのまま受動態にして The policy was lapsed. としない。  
-
-【語法・注意】expire は定められた期間の終了、lapse は継続・更新されないことによる効力喪失に焦点を置くため、同じ契約に両方が使えることはある。revoke は権限のある主体などが正式に取り消す他動詞で、The authority revoked the permit. と The permit lapsed. では主体の役割が異なる。lapse は意図的に放置する場合もあり、「必ず払い忘れた」を意味しない。  
-
-【語法・注意】保険の失効時期や猶予期間は契約・制度によって異なり、「支払期日を1日過ぎれば必ず失効する」という意味ではない。a bequest lapses の bequest は遺言による贈与で、遺言書全体や遺産そのものと同一ではない。受遺者の先死亡による失効には法域や遺言内容による例外がある。例えば英国の Wills Act 1837 第33条には、一定の子孫への遺贈を失効させない規定があるため、先死亡から一律に失効を推論しない。  
+【語法・注意】基本は The policy lapsed. という自動詞の形。一般向けには「契約を失効させた」を I let the policy lapse. または I allowed the policy to lapse. とする。let the policy to lapse は不可。他動詞 lapse the policy も専門的な用法として存在するが、語義11の限定された使い方と区別する。一般的な自動詞の lapse をそのまま受動態にして The policy was lapsed. としない。 expire は定められた期間の終了、lapse は継続・更新されないことによる効力喪失に焦点を置くため、同じ契約に両方が使えることはある。revoke は権限のある主体などが正式に取り消す他動詞で、The authority revoked the permit. と The permit lapsed. では主体の役割が異なる。lapse は意図的に放置する場合もあり、「必ず払い忘れた」を意味しない。 保険の失効時期や猶予期間は契約・制度によって異なり、「支払期日を1日過ぎれば必ず失効する」という意味ではない。a bequest lapses の bequest は遺言による贈与で、遺言書全体や遺産そのものと同一ではない。受遺者の先死亡による失効には法域や遺言内容による例外がある。例えば英国の Wills Act 1837 第33条には、一定の子孫への遺贈を失効させない規定があるため、先死亡から一律に失効を推論しない。  
 
 【類義語】
 
@@ -207,7 +201,7 @@ tags: []
 
 【レジスター/領域】一般的な叙述・報道。意識状態の描写や、行動・言語の切替えについて使う。  
 
-【文法パターン】lapse into 〈状態を表す名詞〉＝その状態に入る／lapse into doing something＝いつの間にかある行動をしだす／lapse back into 〈以前の状態・習慣〉＝以前の状態へ戻る／someone + lapse＝文脈上の悪い行動・不調へ戻る。into は後ろに名詞句・動名詞を取る前置詞で、目的語を動詞と into の間へ移動させない。通常この構文を受動態にはしない。  
+【文法パターン】lapse into 〈状態を表す名詞〉＝その状態に入る／lapse into doing something＝いつの間にかある行動をしだす／〈主語〉 + lapse back into 〈以前の状態・習慣〉＝以前の状態へ戻る／someone + lapse＝文脈上の悪い行動・不調へ戻る。into は後ろに名詞句・動名詞を取る前置詞で、目的語を動詞と into の間へ移動させない。通常この構文を受動態にはしない。  
 
 【コロケーション・構文例】
 
@@ -246,9 +240,7 @@ tags: []
 例: He had stopped checking his phone during meals, but occasionally lapsed.  
 訳: 彼は食事中にスマートフォンを見るのをやめていたが、時々また見てしまうことがあった。  
 
-【語法・注意】移る先を明示する場合は into が重要で、lapse to sleep ではなく lapse into sleep、lapse into to speak ではなく lapse into speaking とする。代名詞でも lapse into it の順。lapse into silence は「沈黙という状態に移る」、語義5の The conversation lapsed. は「会話そのものが途切れる」で、主語と焦点が違う。  
-
-【語法・注意】悪い状態への移行が多いが、lapse into French や lapse into sleep の対象を一律に「悪化」と訳さない。back や old habits があれば「以前へ戻る」が明確になるが、初めての昏睡にも lapse into a coma と言えるため、「再び」は lapse into 自体の必須の意味ではない。語義9の lapse from a religion は離れる元を from で示す別の構文。  
+【語法・注意】移る先を明示する場合は into が重要で、lapse to sleep ではなく lapse into sleep、lapse into to speak ではなく lapse into speaking とする。代名詞でも lapse into it の順。lapse into silence は「沈黙という状態に移る」、語義5の The conversation lapsed. は「会話そのものが途切れる」で、主語と焦点が違う。 悪い状態への移行が多いが、lapse into French や lapse into sleep の対象を一律に「悪化」と訳さない。back や old habits があれば「以前へ戻る」が明確になるが、初めての昏睡にも lapse into a coma と言えるため、「再び」は lapse into 自体の必須の意味ではない。語義9の lapse from a religion は離れる元を from で示す別の構文。  
 
 【類義語】
 

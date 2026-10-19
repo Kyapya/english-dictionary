@@ -86,12 +86,7 @@ tags: []
 例: The movement's stated aim was to abolish poverty, not merely to make it less severe.  
 訳: その運動が掲げた目標は、貧困を軽減するだけでなく根絶することだった。  
 
-【語法・注意】「廃止する」は abolish something、「廃止される」は something is abolished。× The rule abolished last year. → The rule was abolished last year. のように、対象を主語にした自動詞用法と取り違えない。× abolish of the rule → abolish the rule。of が必要なのは名詞の the abolition of the rule。  
-制度をやめる対象は直接目的語にする。× abolish to wear uniforms → abolish the requirement to wear uniforms「制服着用の義務を撤廃する」。the requirement の後ろの to不定詞は「どんな義務か」を説明しており、abolish が直接 to不定詞を取っているわけではない。  
-abolish a post は「ポストそのものをなくす」、dismiss the director は「その責任者を解任する」。後者ではポストが残ることもある。人そのものを目的語にして「解雇する」という意味では使わない。予約や1回の会合を中止する場合は cancel a booking / a meeting が普通で、abolish は継続的な制度・慣行をなくす場面に合う。  
-abolish は「一切元に戻せない」という意味ではない。制度を廃止した後に再導入することもあり得る。一方、suspend a tax「税の適用を一時停止する」や reduce a tax「税を引き下げる」は、その税自体を廃止するとは限らない。completely / entirely / altogether は、全面的な廃止と部分的な変更を対比して強調する。  
-abolish poverty のような拡張用法は、問題の完全な解消を目標として強く打ち出す。これを根拠に、日常的な不快感や汚れなど何にでも「消す」の訳で使えるとは考えない。通常は eliminate a problem、remove a stain など対象に合う動詞を選ぶ。法律の制定・改廃手続きや効果は法域によって異なり、abolish という動詞だけでは特定の手続きまで決まらない。  
-abolished は the abolished tax のような限定用法と The tax was abolished. のような受動態に現れる。通常は very abolished のように程度を付けず、abolishing にも独立した一般形容詞としての用法はない。否定・疑問・完了・進行は普通の他動詞と同じく使えるが、is abolishing は廃止の過程・進行中の政策を表し、廃止が完了したとまでは述べない。  
+【語法・注意】「廃止する」は abolish something、「廃止される」は something is abolished。× The rule abolished last year. → The rule was abolished last year. のように、対象を主語にした自動詞用法と取り違えない。× abolish of the rule → abolish the rule。of が必要なのは名詞の the abolition of the rule。 制度をやめる対象は直接目的語にする。× abolish to wear uniforms → abolish the requirement to wear uniforms「制服着用の義務を撤廃する」。the requirement の後ろの to不定詞は「どんな義務か」を説明しており、abolish が直接 to不定詞を取っているわけではない。 abolish a post は「ポストそのものをなくす」、dismiss the director は「その責任者を解任する」。後者ではポストが残ることもある。人そのものを目的語にして「解雇する」という意味では使わない。予約や1回の会合を中止する場合は cancel a booking / a meeting が普通で、abolish は継続的な制度・慣行をなくす場面に合う。 abolish は「一切元に戻せない」という意味ではない。制度を廃止した後に再導入することもあり得る。一方、suspend a tax「税の適用を一時停止する」や reduce a tax「税を引き下げる」は、その税自体を廃止するとは限らない。completely / entirely / altogether は、全面的な廃止と部分的な変更を対比して強調する。 abolish poverty のような拡張用法は、問題の完全な解消を目標として強く打ち出す。これを根拠に、日常的な不快感や汚れなど何にでも「消す」の訳で使えるとは考えない。通常は eliminate a problem、remove a stain など対象に合う動詞を選ぶ。法律の制定・改廃手続きや効果は法域によって異なり、abolish という動詞だけでは特定の手続きまで決まらない。 abolished は the abolished tax のような限定用法と The tax was abolished. のような受動態に現れる。通常は very abolished のように程度を付けず、abolishing にも独立した一般形容詞としての用法はない。否定・疑問・完了・進行は普通の他動詞と同じく使えるが、is abolishing は廃止の過程・進行中の政策を表し、廃止が完了したとまでは述べない。  
 
 【類義語】
 

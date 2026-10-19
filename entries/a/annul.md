@@ -34,7 +34,7 @@ tags: []
 
 【レジスター/領域】法律、行政、婚姻、報道。日常的な予定の取り消しよりも正式で制度的。  
 
-【文法パターン】annul a 〈marriage/contract/decision〉＝婚姻・契約・決定を無効にする／annul an election＝選挙を無効にする／〈対象〉 + be annulled by 〈判断主体〉＝正式に無効とされる／have/get one's marriage annulled＝婚姻を無効・取消しとする手続きを受ける。have/get は annul 自体の目的語構文ではなく、〈目的語〉 + 過去分詞を取る使役・結果の構文。  
+【文法パターン】annul a 〈marriage/contract/decision〉＝婚姻・契約・決定を無効にする／annul an election＝選挙を無効にする／〈対象〉 + be annulled by 〈判断主体〉＝正式に無効とされる／have/get one's marriage annulled＝婚姻を無効・取消しとする手続きを受ける。have/get は annul 自体の目的語構文ではなく、〈目的語〉 + 〈過去分詞〉を取る使役・結果の構文。  
 
 【コロケーション・構文例】
 

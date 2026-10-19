@@ -93,15 +93,7 @@ tags: []
 例: The buyer sought to revoke acceptance of the machine because of a serious defect discovered after delivery.  
 訳: 買主は、引渡し後に重大な欠陥が見つかったため、その機械の受領承認を撤回しようとした。  
 
-【語法・注意】revoke the licence は「免許を取り消す」であり、保持者をそのまま目的語にした revoke the driver ではない。正しくは revoke the driver's licence。「本人から権利を取り上げる」も revoke someone's rights のように権利を目的語にする。代名詞なら revoke it とし、revoke to it とはしない。  
-
-【語法・注意】revoke permission to enter では、to enter は permission の内容を示す。「入るのをやめる」の意味で revoke to enter や revoke entering とはしない。取り消す内容が節なら、revoke the decision to close the office のように、まず取り消される名詞を明示する。定着した再帰表現として revoke oneself を使うこともない。  
-
-【語法・注意】The agency revoked the permit. は「機関が許可を取り消した」という他動詞の能動文、The permit was revoked. はその受動文。The permit expired. は「許可の期限が切れた」という自動詞の文で、取消しの行為者を表さない。The permit lapsed. は「更新などによって維持されず、効力が失われた」。三者は同じ出来事を常に言い換えられるわけではない。revoked は取消し後の状態を示す名詞修飾にも使えるが、a very revoked permit のような程度修飾は普通しない。  
-
-【語法・注意】revoke は効力を取り消すことに焦点があり、一時停止を表す suspend とは区別する。ただし revoke 自体が「二度と回復できない」を保証するわけではなく、復活の可否や新規申請の要否は制度による。法律全般を廃止するなら repeal a law が典型で、個別の許可や決定には revoke がよく使われる。免許の名詞は英式 licence、米式 license。  
-
-【語法・注意】申込み・同意・遺言などについて、いつ誰がどの手続きで有効に撤回できるかは、revoke の語義だけでは決まらない。revoke an offer は申込者側の「撤回」、reject an offer は相手側の「拒絶」。また、物品売買の revoke acceptance は物品を受け入れた判断の撤回であり、契約の申込みを承諾することとは別。米国の UCC §2-608 では契約不適合、価値への重大な影響、時期、売主への通知などが問題となり、単なる気変わりによる返品と同一視しない。  
+【語法・注意】revoke the licence は「免許を取り消す」であり、保持者をそのまま目的語にした revoke the driver ではない。正しくは revoke the driver's licence。「本人から権利を取り上げる」も revoke someone's rights のように権利を目的語にする。代名詞なら revoke it とし、revoke to it とはしない。 revoke permission to enter では、to enter は permission の内容を示す。「入るのをやめる」の意味で revoke to enter や revoke entering とはしない。取り消す内容が節なら、revoke the decision to close the office のように、まず取り消される名詞を明示する。定着した再帰表現として revoke oneself を使うこともない。 The agency revoked the permit. は「機関が許可を取り消した」という他動詞の能動文、The permit was revoked. はその受動文。The permit expired. は「許可の期限が切れた」という自動詞の文で、取消しの行為者を表さない。The permit lapsed. は「更新などによって維持されず、効力が失われた」。三者は同じ出来事を常に言い換えられるわけではない。revoked は取消し後の状態を示す名詞修飾にも使えるが、a very revoked permit のような程度修飾は普通しない。 revoke は効力を取り消すことに焦点があり、一時停止を表す suspend とは区別する。ただし revoke 自体が「二度と回復できない」を保証するわけではなく、復活の可否や新規申請の要否は制度による。法律全般を廃止するなら repeal a law が典型で、個別の許可や決定には revoke がよく使われる。免許の名詞は英式 licence、米式 license。 申込み・同意・遺言などについて、いつ誰がどの手続きで有効に撤回できるかは、revoke の語義だけでは決まらない。revoke an offer は申込者側の「撤回」、reject an offer は相手側の「拒絶」。また、物品売買の revoke acceptance は物品を受け入れた判断の撤回であり、契約の申込みを承諾することとは別。米国の UCC §2-608 では契約不適合、価値への重大な影響、時期、売主への通知などが問題となり、単なる気変わりによる返品と同一視しない。  
 
 【類義語】
 

@@ -176,7 +176,7 @@ adjourned は通常の過去形・過去分詞として扱い、be adjourned は
 
 【レジスター/領域】フォーマルな会議・議会・法廷の用法。Shall we adjourn? などを通常の仕事の場で使うと、改まった、または少し大げさな響きになることもある。  
 
-【文法パターン】〈会議・裁判所・委員会〉 + adjourn＝会議などが休会・散会する／we + adjourn＝参加者が休憩・散会する／adjourn until 〈再開日時〉＝その日時まで休会する／adjourn for lunch＝昼食休憩に入る／adjourn for 〈期間〉＝その期間休会する／adjourn for the day＝その日の活動を終える／adjourn at 〈時刻〉＝その時刻に散会する／adjourn sine die＝再開日を定めず閉会する／move to adjourn＝散会することを動議として提案する。  
+【文法パターン】〈会議・裁判所・委員会〉 + adjourn＝会議などが休会・散会する／we + adjourn＝参加者が休憩・散会する／〈主語〉 + adjourn until 〈再開日時〉＝その日時まで休会する／adjourn for lunch＝昼食休憩に入る／adjourn for 〈期間〉＝その期間休会する／adjourn for the day＝その日の活動を終える／adjourn at 〈時刻〉＝その時刻に散会する／〈主語〉 + adjourn sine die＝再開日を定めず閉会する／move to adjourn＝散会することを動議として提案する。  
 
 【コロケーション・構文例】
 

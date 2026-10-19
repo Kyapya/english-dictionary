@@ -53,7 +53,7 @@ tags: []
 
 【レジスター/領域】日常・事務・ビジネス・法律・情報システムなどで広く使う。食品の期限についての用法は、特に米式でよく見られる。  
 
-【文法パターン】something + expire＝期限が切れる／expire on 〈日付〉＝その日に期限が切れる／expire at 〈時刻・時点〉＝その時点で切れる／expire in 〈残り期間〉＝その期間後に切れる／expire after 〈経過期間〉＝その期間が経つと切れる／be due to expire、be about to expire＝満了予定・満了間近である／time + expire＝所定の時間が尽きる。期限切れを生じる物や時間を主語にし、通常は直接目的語を取らない。  
+【文法パターン】something + expire＝期限が切れる／expire on 〈日付〉＝その日に期限が切れる／expire at 〈時刻・時点〉＝その時点で切れる／expire in 〈残り期間〉＝その期間後に切れる／〈主語〉 + expire after 〈経過期間〉＝その期間が経つと切れる／be due to expire、be about to expire＝満了予定・満了間近である／time + expire＝所定の時間が尽きる。期限切れを生じる物や時間を主語にし、通常は直接目的語を取らない。  
 
 【コロケーション・構文例】
 
@@ -107,15 +107,7 @@ tags: []
 例: Your session has expired; please sign in again.  
 訳: セッションの有効期限が切れました。もう一度ログインしてください。  
 
-【語法・注意】期限切れを普通に述べるなら The contract expired. または The contract has expired. とする。has expired は自動詞の現在完了であり、一般的な期限到来を The contract has been expired. と受動態にしない。一方、The card is expired. は語義2の形容詞による状態の表現。情報システムで意図的に失効処理する他動詞用法は語義3として区別する。  
-
-【語法・注意】expire in three days は「あと3日で切れる」、expire after three days は「開始・発行などから3日経つと切れる」。expires next month のように next を伴う時の句には前置詞を付けない。日付表示などでは Expires 31 October. のように on が省略されることがある。境界時刻やその日を含むかどうかは個々の利用条件で決まり、expire on という形だけで細部まで確定しない。  
-
-【語法・注意】The licence expired. は期限到来、The licence lapsed. は更新などで効力が維持されなかったこと、The authority revoked the licence. は当局による取消しを表す。expire と lapse が同じ出来事に使える場合はあるが、revoke は取消しを行う側が主語になる他動詞。免許の名詞は英式 licence、米式 license。  
-
-【語法・注意】time expired は「割り当てられた時間が尽きた」で、three hours elapsed は単に「3時間が経過した」。終了点が問題でない時間経過には elapse や pass を選ぶ。renew a contract、extend a deadline は期限切れを防いだり変更したりする対照表現であり、expire の出来事と単純な反意関係にあるわけではない。  
-
-【語法・注意】食品について expire と言う場合も、中心は表示された期限を過ぎること。腐敗を直接表す spoil や go bad とは同一ではない。食品の日付表示には品質・販売・安全など異なる意味があり、expire の語義だけで食べられるかどうかを判断しない。薬などにも expires の表示があるが、具体的な使用可否は製品の表示・指示に従う問題である。  
+【語法・注意】期限切れを普通に述べるなら The contract expired. または The contract has expired. とする。has expired は自動詞の現在完了であり、一般的な期限到来を The contract has been expired. と受動態にしない。一方、The card is expired. は語義2の形容詞による状態の表現。情報システムで意図的に失効処理する他動詞用法は語義3として区別する。 expire in three days は「あと3日で切れる」、expire after three days は「開始・発行などから3日経つと切れる」。expires next month のように next を伴う時の句には前置詞を付けない。日付表示などでは Expires 31 October. のように on が省略されることがある。境界時刻やその日を含むかどうかは個々の利用条件で決まり、expire on という形だけで細部まで確定しない。 The licence expired. は期限到来、The licence lapsed. は更新などで効力が維持されなかったこと、The authority revoked the licence. は当局による取消しを表す。expire と lapse が同じ出来事に使える場合はあるが、revoke は取消しを行う側が主語になる他動詞。免許の名詞は英式 licence、米式 license。 time expired は「割り当てられた時間が尽きた」で、three hours elapsed は単に「3時間が経過した」。終了点が問題でない時間経過には elapse や pass を選ぶ。renew a contract、extend a deadline は期限切れを防いだり変更したりする対照表現であり、expire の出来事と単純な反意関係にあるわけではない。 食品について expire と言う場合も、中心は表示された期限を過ぎること。腐敗を直接表す spoil や go bad とは同一ではない。食品の日付表示には品質・販売・安全など異なる意味があり、expire の語義だけで食べられるかどうかを判断しない。薬などにも expires の表示があるが、具体的な使用可否は製品の表示・指示に従う問題である。  
 
 【類義語】
 
@@ -179,9 +171,7 @@ tags: []
 例: By the time the letter arrived, the offer was already expired.  
 訳: 手紙が届いたときには、その提示はすでに有効期限が切れていた。  
 
-【語法・注意】The card has expired. は現在完了の動詞で「期限が切れた」、The card is expired. は形容詞述語で「期限切れの状態だ」。後者を見て、一般義の expire が「カードを期限切れにする」という他動詞だと判断しない。事務的な期限通知では has expired が広く使われる。become/get expired を基本形にするより、expire または go out of date と表す方が明確。seem expired と程度を評価することも通常の用法ではない。  
-
-【語法・注意】期限の有無は普通二分されるので very expired、more expired は通常の程度比較ではない。long-expired「とうに期限切れの」のように、期限切れからの時間を示す表現は可能。an expiring contract は満了が近い契約、an expired contract は満了後の契約。expired air は呼吸の語義5に属する「吐き出された空気」であり、期限切れの空気ではない。  
+【語法・注意】The card has expired. は現在完了の動詞で「期限が切れた」、The card is expired. は形容詞述語で「期限切れの状態だ」。後者を見て、一般義の expire が「カードを期限切れにする」という他動詞だと判断しない。事務的な期限通知では has expired が広く使われる。become/get expired を基本形にするより、expire または go out of date と表す方が明確。seem expired と程度を評価することも通常の用法ではない。 期限の有無は普通二分されるので very expired、more expired は通常の程度比較ではない。long-expired「とうに期限切れの」のように、期限切れからの時間を示す表現は可能。an expiring contract は満了が近い契約、an expired contract は満了後の契約。expired air は呼吸の語義5に属する「吐き出された空気」であり、期限切れの空気ではない。  
 
 【類義語】
 
@@ -254,9 +244,7 @@ tags: []
 例: The keys are expired by the server once their time to live has elapsed.  
 訳: 生存時間が過ぎると、それらのキーはサーバーによって失効処理される。  
 
-【語法・注意】The key expired. は語義1の自動詞で「キーの期限が切れた」、The server expired the key. はこの語義の他動詞で「サーバーがキーを失効処理した」。同じ expired でも、The key is expired. だけなら結果状態を示す形容詞とも解釈できる。実際に削除するか、利用不能の印を付けるかなどはシステムによる。Redis の EXPIRE のようなコマンド名は期限を設定する操作を指す場合もあり、コマンド実行とその場での削除を同一視しない。  
-
-【語法・注意】IT分野での他動詞用法があることと、一般的な契約終了を The landlord expired the lease. と表現してよいことは別。契約を終わらせるなら terminate the lease、期限を設定するなら set an expiry date、自然に満了するなら the lease expires と、意図と分野に合う形を選ぶ。  
+【語法・注意】The key expired. は語義1の自動詞で「キーの期限が切れた」、The server expired the key. はこの語義の他動詞で「サーバーがキーを失効処理した」。同じ expired でも、The key is expired. だけなら結果状態を示す形容詞とも解釈できる。実際に削除するか、利用不能の印を付けるかなどはシステムによる。Redis の EXPIRE のようなコマンド名は期限を設定する操作を指す場合もあり、コマンド実行とその場での削除を同一視しない。 IT分野での他動詞用法があることと、一般的な契約終了を The landlord expired the lease. と表現してよいことは別。契約を終わらせるなら terminate the lease、期限を設定するなら set an expiry date、自然に満了するなら the lease expires と、意図と分野に合う形を選ぶ。  
 
 【類義語】
 
@@ -282,7 +270,7 @@ tags: []
 
 【レジスター/領域】文学的・古風・非常に形式的な言い方。医療の記録などにも見られるが、日常会話や遺族への言葉では距離がある、または不自然に感じられやすい。文脈によっては大げさなユーモアになる。  
 
-【文法パターン】〈人・動物〉 + expire＝死ぬ／expire at 〈時刻・年齢〉＝その時・年齢で息を引き取る／expire after 〈出来事・期間〉＝その後に死ぬ。直接目的語を取らず、受動態にはしない。  
+【文法パターン】〈人・動物〉 + expire＝死ぬ／expire at 〈時刻・年齢〉＝その時・年齢で息を引き取る／〈主語〉 + expire after 〈出来事・期間〉＝その後に死ぬ。直接目的語を取らず、受動態にはしない。  
 
 【コロケーション・構文例】
 
@@ -358,9 +346,7 @@ tags: []
 例: The concentration of carbon dioxide in the expired air was recorded.  
 訳: 呼出された空気中の二酸化炭素濃度が記録された。  
 
-【語法・注意】The participant expired slowly. は自動詞、The participant expired air. は他動詞、The air was expired. はその受動態。語義1の The passport has expired. と違い、この専門義には本当に他動詞構文がある。expired air は「期限切れの空気」ではなく「吐き出された空気」で、an expired passport の expired と語義を混同しない。  
-
-【語法・注意】呼吸の文脈なしに The patient expired. とだけ言うと、死亡の意味に取られやすい。一般の人への説明なら breathe out または exhale が明確。名詞 expiration も呼気を意味し、期限満了の expiration と区別する。この語義の過去分詞は呼出の結果を表すもので、very expired air のような程度修飾は通常しない。  
+【語法・注意】The participant expired slowly. は自動詞、The participant expired air. は他動詞、The air was expired. はその受動態。語義1の The passport has expired. と違い、この専門義には本当に他動詞構文がある。expired air は「期限切れの空気」ではなく「吐き出された空気」で、an expired passport の expired と語義を混同しない。 呼吸の文脈なしに The patient expired. とだけ言うと、死亡の意味に取られやすい。一般の人への説明なら breathe out または exhale が明確。名詞 expiration も呼気を意味し、期限満了の expiration と区別する。この語義の過去分詞は呼出の結果を表すもので、very expired air のような程度修飾は通常しない。  
 
 【類義語】
 
