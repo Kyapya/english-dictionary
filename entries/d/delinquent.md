@@ -1,12 +1,12 @@
 ---
 headword: delinquent
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-19
 updated_at: 2026-10-19
-checked: false
+checked: true
 tags: []
 ---
 
@@ -24,6 +24,20 @@ tags: []
 ・delinquency：非行、義務の不履行、支払いの延滞を表す名詞。一般状態は不可算、個々の延滞事例などは delinquencies と数える。  
 ・juvenile delinquency：少年非行を表す定着した複合名詞。法的な範囲は制度により異なる。  
 ・nondelinquent：延滞していない、または非行のないという形容詞。金融・研究などで使い、何の分類かを文脈で明示する。  
+
+＃コアイメージ
+
+守るべき規範や果たすべき義務を果たしていないことが核。行動上の規範、支払い、職務のどれが問題かで意味が分かれ、名詞では該当する人や、金融用法では組織も指す。  
+
+・行動規範を守らない人や行動の性質 → 「非行のある・非行に関する」（語義1）  
+
+・行動規範を守らない人 → 「非行少年・非行者」（語義2）  
+
+・支払義務を期日どおりに果たさない状態 → 「支払いが延滞した・滞納している」（語義3）  
+
+・職務上の義務を果たさない状態 → 「義務を怠っている」（語義4）  
+
+・支払義務を期日どおりに果たさない人・組織 → 「滞納者」（語義5）  
 
 ＃意味・用法・関連表現
 
@@ -338,7 +352,7 @@ tags: []
 
 【レジスター/領域】特に北米の金融・税務・行政。事務的な分類や報道。  
 
-【文法パターン】a tax delinquent＝税金の滞納者／credit delinquents＝信用取引の支払いを延滞している人々／identify delinquents＝滞納者を特定する。個々の人・組織を数え、複数形は delinquents。  
+【文法パターン】a tax delinquent＝税金の滞納者／credit delinquents＝借入れ・クレジットの支払いを延滞している人々／identify delinquents＝滞納者を特定する。個々の人・組織を数え、複数形は delinquents。  
 
 【コロケーション・構文例】
 
@@ -350,7 +364,7 @@ tags: []
 ・credit delinquents  
 用途: 金融の支払いが遅れている人を分類する。  
 例: The report distinguished credit delinquents from borrowers whose payments were current.  
-訳: その報告書は、信用取引の延滞者と、返済に遅れのない借り手を区別した。  
+訳: その報告書は、借入れ・クレジットの延滞者と、返済に遅れのない借り手を区別した。  
 
 ・identify delinquents  
 用途: 支払記録から滞納者を把握する。  

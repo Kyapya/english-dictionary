@@ -1,12 +1,12 @@
 ---
 headword: pledge
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-19
 updated_at: 2026-10-19
-checked: false
+checked: true
 tags: []
 ---
 
@@ -234,7 +234,7 @@ tags: []
 
 【レジスター/領域】フォーマル。政治、組織の声明、荘重な誓約。  
 
-【文法パターン】pledge oneself to 〈目的・活動・組織〉＝その対象に尽力すると誓う／pledge oneself to doing something＝行動を続けることに身を拘束する／pledge oneself to do something＝行うことを誓約する／pledge someone to 〈義務・行動〉＝人にその義務を誓約させる／be pledged to 〈目的・義務〉＝その目的・義務を誓っている／be pledged to do something＝行うと誓っている。再帰代名詞は主語に応じて myself、herself、itself などにする。  
+【文法パターン】pledge oneself to 〈目的・活動・組織〉＝その対象に尽力すると誓う／pledge oneself to doing something＝その行動を行うことに自らを誓約で結び付ける／pledge oneself to do something＝行うことを誓約する／pledge someone to 〈義務・行動〉＝人にその義務を誓約させる／be pledged to 〈目的・義務〉＝その目的・義務を誓っている／be pledged to do something＝行うと誓っている。再帰代名詞は主語に応じて myself、herself、itself などにする。  
 
 【コロケーション・構文例】
 
@@ -244,7 +244,7 @@ tags: []
 訳: ボランティアたちは、その湿地の保護に尽くすと誓った。  
 
 ・pledge oneself to doing something  
-用途: 行動を名詞的に示して、自らの継続的な関与を誓う。  
+用途: 誓約する行動を、前置詞 to の後の -ing 形で示す。  
 例: The organization pledged itself to improving access to education.  
 訳: その組織は、教育を受ける機会の改善に取り組むと誓約した。  
 
@@ -435,7 +435,7 @@ tags: []
 例: The pledge agreement identifies the securities offered as collateral.  
 訳: その担保差入れ契約には、担保として提供される有価証券が特定されている。  
 
-【語法・注意】a pledge は個々の担保物や担保差入れを数えられるが、状態を示す in pledge は無冠詞の定型句。a pledge of shares は株式の担保提供で、a pledge of $500 to a charity「慈善団体への500ドルの寄付約束」とは別義。英語の pledge / security interest と日本法の質権・担保権の対応は、法域と対象を確認して訳す。借り手側は pledgor、受け手側は pledgee。担保の設定・占有・第三者への効力・実行手続きは別問題であり、pledge の語だけでは決まらない。redeem は担保を取り戻す対照的な行為だが、この名詞の反意語ではない。  
+【語法・注意】a pledge は個々の担保物や担保差入れを数えられるが、状態を示す in pledge は無冠詞の定型句。a pledge of shares は株式の担保提供で、a pledge of $500 to a charity「慈善団体への500ドルの寄付約束」とは別義。英語の pledge / security interest と日本法の質権・担保権の対応は、法域と対象を確認して訳す。担保を差し入れる側は pledgor、受け入れる側は pledgee。pledgor は借り手本人とは限らない。担保の設定・占有・第三者への効力・実行手続きは別問題であり、pledge の語だけでは決まらない。redeem は担保を取り戻す対照的な行為だが、この名詞の反意語ではない。  
 
 【類義語】
 
