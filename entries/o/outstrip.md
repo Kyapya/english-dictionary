@@ -1,12 +1,12 @@
 ---
 headword: outstrip
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: GPT-6
 created_at: 2026-10-19
 updated_at: 2026-10-19
-checked: false
+checked: true
 tags: []
 ---
 
@@ -180,7 +180,7 @@ out-「上回って」と、古い strip「速く動く」に由来するとさ�
 
 【頻度】〈3/10〉  
 
-【レジスター/領域】物語・スポーツ描写。現代でも使えるが日常会話では outrun、pull ahead of などが多い。  
+【レジスター/領域】物語・スポーツ描写。現代でも使える。走る速さを明示するなら outrun、前に出る動きなら pull ahead of とも言える。  
 
 【文法パターン】outstrip 〈走者・乗り物・追跡者〉＝速さで引き離す／be outstripped by 〈走者〉＝速さでしのがれる。  
 
@@ -203,7 +203,7 @@ out-「上回って」と、古い strip「速く動く」に由来するとさ�
 ・outrun  
 定義: 相手より速く走る。  
 頻度: 〈5/10〉  
-違い: 走る速さを明示し、outstrip より日常的。  
+違い: 走る速さを明示する。前に出る動きを述べる pull ahead of とも焦点が異なる。  
 例: The dog could outrun every child in the park.  
 訳: その犬は公園のどの子供よりも速く走れた。  
 

@@ -1,12 +1,12 @@
 ---
 headword: underpin
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: GPT-6
 created_at: 2026-10-19
 updated_at: 2026-10-19
-checked: false
+checked: true
 tags: []
 ---
 
@@ -27,7 +27,7 @@ under「下に」と pin「留める・支える」に関係する形成。構�
 
 ＃コアイメージ
 
-共通するのは、物事を下支えする土台を与えること。抽象的な活動にも実際の建築物にも使い、名詞ではその土台や支持工事を指す。  
+共通するのは、物事を下支えする土台を与えること。抽象的な活動や実際の建築物に加え、衣服では外側の装いの下層となるものを指す。  
 
 ・土台を与える、活動・主張への支え → 「基礎として支える・裏付ける」（語義1）  
 
@@ -36,6 +36,8 @@ under「下に」と pin「留める・支える」に関係する形成。構�
 ・土台を与える、抽象的な根拠・基盤 → 「根本的な基盤・根拠」（語義3）  
 
 ・土台を与える、工事・支持構造 → 「基礎補強工事・下部の支持構造」（語義4）  
+
+・土台を与える、装いの下層となる衣類 → 「下着・下に着る衣類」（語義5）  
 
 ＃意味・用法・関連表現
 
@@ -182,7 +184,7 @@ under「下に」と pin「留める・支える」に関係する形成。構�
 例: The treaty provided a legal underpinning for cooperation.  
 訳: その条約は協力のための法的基盤を与えた。  
 
-【語法・注意】the principles underpinning the policy の underpinning は動詞の分詞で「政策を支える」。the underpinnings of the policy は名詞で「政策の基盤」。underpinnings は複数扱いにする。古い俗語で脚や下着を指す underpinnings も辞書には見られるが、現代の一般的な基盤の意味と混同しない。  
+【語法・注意】the principles underpinning the policy の underpinning は動詞の分詞で「政策を支える」。the underpinnings of the policy は名詞で「政策の基盤」。underpinnings は複数扱いにする。衣服の下層としての下着を指す用法は語義5。身体を下支えするものに見立てて脚を指す underpinnings もあるが、比喩的で文脈を選ぶ用法であり、日常的な脚の名称 legs と区別する。衣服の意味まで一律に古い俗語としない。  
 
 【類義語】
 
@@ -232,3 +234,31 @@ under「下に」と pin「留める・支える」に関係する形成。構�
 違い: 支持構造という点で重なるが、既存基礎の補強工事自体を表す語ではない。  
 例: The house rests on a concrete foundation.  
 訳: その家はコンクリートの基礎の上に建っている。  
+
+5. 【名詞：underpinnings；複数】下着・下に着る衣類
+
+【日本語訳・定義】外側の服の下に着用する衣類。コルセット、スリップなどを含む下着を、装いの下層をなすものとして呼ぶ。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】服飾・衣装史・ファッション。単なる古い俗語に限られない。  
+
+【文法パターン】underpinnings + 〈複数形の動詞〉＝下着類を複数として述べる／silk underpinnings＝絹の下着類。  
+
+【コロケーション・構文例】
+
+・silk underpinnings  
+用途: 素材と複数扱いを明示する。  
+例: Her silk underpinnings were displayed beside the evening gown.  
+訳: 彼女の絹の下着類は、イブニングドレスの隣に展示されていた。  
+
+【語法・注意】この用法では通常複数形を使い、these underpinnings are のように複数一致する。動詞 underpin の現在分詞や、理論の基盤を指す語義3とは別の服飾用法。すべてが補整機能を持つとは限らない。  
+
+【類義語】
+
+・underwear  
+定義: 外側の服の下に着る衣類。  
+頻度: 〈7/10〉  
+違い: 一般的な総称で通常不可算。複数形 underpinnings との数の扱いが異なる。  
+例: The underwear was made of soft cotton.  
+訳: その下着は柔らかな綿でできていた。  

@@ -1,12 +1,12 @@
 ---
 headword: outbid
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: GPT-6
 created_at: 2026-10-19
 updated_at: 2026-10-19
-checked: false
+checked: true
 tags: []
 ---
 
@@ -24,6 +24,16 @@ out-「相手を上回って」と bid「値を付ける・申し出る」の組
 ・outbids：三人称単数現在形。  
 ・outbid／outbidding：過去形・過去分詞／現在分詞。-ing では d を重ねる。辞書によって過去分詞 outbidden も載るが、通常の学習・実用には outbid を用いる。  
 ・outbidder：より高い値を付けた人。一般的な人の名称には bidder がよく使われる。  
+
+＃コアイメージ
+
+共通するのは、同じ競争で相手より上位・有利な申し出をすること。金銭、約束・条件、カードのビッドでは、何を基準に上回るかが異なる。  
+
+・申し出で上回る、提示金額の競争 → 「より高い値を付ける・競り勝つ」（語義1）  
+
+・申し出で上回る、約束・条件の競争 → 「より魅力的な約束・条件を示してしのぐ」（語義2）  
+
+・申し出で上回る、カードのビッド順位 → 「カードで相手より上位のビッドをする」（語義3）  
 
 ＃意味・用法・関連表現
 
@@ -64,16 +74,9 @@ out-「相手を上回って」と bid「値を付ける・申し出る」の組
 例: The two bidders kept outbidding each other until the price doubled.  
 訳: 二人の入札者は互いの提示額を上回り続け、価格は2倍になった。  
 
-【語法・注意】「その絵を高値で競り落とす」は outbid someone for the painting。outbid the painting と取得物をそのまま相手にしない。bid more than someone は自然だが、outbid than someone は誤り。by は差額、for は対象を示す。公共調達で低価格を提示して勝つなら underbid が適切な場合があり、outbid を「入札で勝つ」一般に広げない。be outbid は通常の受動形で、独立した評価形容詞ではない。  
+【語法・注意】「その絵を高値で競り落とす」は outbid someone for the painting。outbid the painting と取得物をそのまま相手にしない。bid more than someone は自然だが、outbid than someone は誤り。by は差額、for は対象を示す。公共調達で低価格を提示して勝つなら underbid が適切な場合があり、outbid を「入札で勝つ」一般に広げない。be outbid は通常の受動形で、独立した評価形容詞ではない。 金額以外の条件を含む有利な申し出を明確に表すなら make a more attractive offer than を使える。例: The buyer tried to make a more attractive offer than its rival by promising a faster closing. 訳: その買い手は、より早い決済を約束して競合より有利な申し出をしようとした。  
 
 【類義語】
-
-・outoffer  
-定義: 相手より有利な申し出をする。  
-頻度: 〈2/10〉  
-違い: 金額に限らず条件面を含められる。outbid より低頻度。  
-例: The buyer tried to outoffer its rival by promising a faster closing.  
-訳: その買い手は、より早い決済を約束して競合より有利な申し出をしようとした。  
 
 ・top  
 定義: 既に示された額などを上回る。  
@@ -120,7 +123,7 @@ out-「相手を上回って」と bid「値を付ける・申し出る」の組
 例: The candidate outbid her rival by promising free transport as well as free meals.  
 訳: その候補者は無料の食事に加え無料の交通手段も約束し、対立候補をしのいだ。  
 
-【語法・注意】比喩でも提示する約束・条件を文脈で示す。単に成績がよいなら outperform、量が多いなら outstrip。政策を実行したことまでは含意しない。カードゲームで相手より上位のビッドをする用例もあるが、これは入札の順位を競う語義1に対応し、金銭を払うという意味ではない。  
+【語法・注意】比喩でも提示する約束・条件を文脈で示す。単に成績がよいなら outperform、量が多いなら outstrip。政策を実行したことまでは含意しない。カードで上位のビッドをする用法は語義3を参照。金銭を払う語義1とは、比較する基準が異なる。  
 
 【類義語】
 
@@ -130,3 +133,31 @@ out-「相手を上回って」と bid「値を付ける・申し出る」の組
 違い: 申し出の競り上げに限らない。  
 例: The parties sought to outdo one another with ambitious promises.  
 訳: 各党は野心的な公約で互いを上回ろうとした。  
+
+3. 【動詞：他動詞】カードで相手より上位のビッドをする
+
+【日本語訳・定義】ブリッジなどの競りのあるカードゲームで、相手のビッドより順位の高いビッドをする。支払金額の比較ではなく、ゲームで定められたビッドの順位を競う。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】カードゲーム、特にブリッジのビディング。  
+
+【文法パターン】outbid an opponent＝相手より上位のビッドをする／outbid someone by bidding 〈ビッド〉＝そのビッドをすることで相手を上回る。  
+
+【コロケーション・構文例】
+
+・outbid someone by bidding 〈ビッド〉  
+用途: by + -ing が手段を表すことを示す。  
+例: West outbid South by bidding one spade after South had opened one heart.  
+訳: サウスが1ハートでオープンした後、ウエストは1スペードとビッドしてサウスを上回った。  
+
+【語法・注意】例の by bidding one spade は「1スペードとビッドすることで」という手段で、語義1の by five thousand dollars のような金額差ではない。同じレベルならスートなどの順位で上回れる。札を出す段階で味方の勝ち札を上位札で取る overtake とも区別する。  
+
+【類義語】
+
+・bid higher than  
+定義: カードで相手より上位のビッドをする。  
+頻度: 〈3/10〉  
+違い: 比較を分解して明示する句。ゲームでの順位を表し、現金の支払額を意味しない。  
+例: West bid higher than South in the auction.  
+訳: 競りでウエストはサウスより上位のビッドをした。  

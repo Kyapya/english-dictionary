@@ -1,12 +1,12 @@
 ---
 headword: override
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: GPT-6
 created_at: 2026-10-19
 updated_at: 2026-10-19
-checked: false
+checked: true
 tags: []
 ---
 
@@ -209,8 +209,8 @@ overrode の第3音節は米 /roʊd/、英 /rəʊd/。overridden の後半は /�
 例: The command-line option overrides the saved value with a temporary setting.  
 訳: そのコマンドラインオプションは、保存値に代えて一時的な設定を優先適用する。  
 
-・be overridden by 〈入力〉（override の過去分詞）  
-用途: 優先する入力を示す。  
+・be overridden by 〈操作員〉（override の過去分詞）  
+用途: 優先操作を行う人を示す。  
 例: The scheduled command can be overridden by an authorized operator.  
 訳: 予定された指令は、権限のある操作員が優先操作によって変更できる。  
 
@@ -487,14 +487,14 @@ overrode の第3音節は米 /roʊd/、英 /rəʊd/。overridden の後半は /�
 例: The assignor retained an override when it transferred the oil and gas lease.  
 訳: 譲渡人は石油・ガスのリースを移転する際、追加ロイヤルティ権益を留保した。  
 
-・an override on a lease  
-用途: 対象のリースを明示する。  
+・an override + burden + a lease  
+用途: 追加ロイヤルティ権益がリースに負担を課すことを示す。  
 例: The buyer asked whether an override burdened the lease.  
 訳: 買い手は、そのリースに追加ロイヤルティ権益の負担が付いているか尋ねた。  
 
 【語法・注意】完全形は overriding royalty interest。開発・生産費用を負担しない権益として説明されるが、控除・存続期間・税務などの細部は契約と法域による。永久の鉱物所有権や、語義9の営業手数料と同一にしない。資料によって略称の使い方が異なるため、契約では定義条項を確認する。  
 
-11. 【形容詞：overriding；限定・叙述】登記簿に現れなくても権原を拘束する
+11. 【形容詞：overriding；主に限定】登記簿に現れなくても権原を拘束する
 
 【日本語訳・定義】イングランド・ウェールズの土地登記制度で、登記簿に記載されていなくても登録された権原や取得者を拘束する一定の権利・利益についていう。overriding interest という専門表現が中心。  
 
@@ -588,8 +588,8 @@ overrode の第3音節は米 /roʊd/、英 /rəʊd/。overridden の後半は /�
 
 ・override a subagent  
 用途: 古めの専門的な動詞用法を示す。  
-例: Under the arrangement, the regional agent overrode each subagent in the district.  
-訳: その取り決めでは、地域代理人は地区内の各下位代理人の売上から上乗せ手数料を受け取った。  
+例: Under the arrangement, the regional agent overrode each subagent in the district, receiving a commission on each subagent’s sales.  
+訳: その取り決めでは、地域代理人は地区内の各下位代理人について、その売上に応じた上乗せ手数料を受け取った。  
 
 【語法・注意】この用法は一般的な「代理人の判断を覆す」と紛らわしい。実務では receive an override on a subagent’s sales と明記する方が安全に意味を伝えられる。現代の出現頻度を広く確認できる資料は限られるため、一般語として頻用しない。  
 

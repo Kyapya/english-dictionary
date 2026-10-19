@@ -1,12 +1,12 @@
 ---
 headword: oversee
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: GPT-6
 created_at: 2026-10-19
 updated_at: 2026-10-19
-checked: false
+checked: true
 tags: []
 ---
 
@@ -193,8 +193,8 @@ tags: []
 
 ・oversee the accounts  
 用途: 古い文章で会計記録の検査を表す。  
-例: The steward oversaw the accounts and found several errors.  
-訳: 管理人は会計記録を調べ、いくつかの誤りを見つけた。  
+例: The steward oversaw the accounts line by line, checking every sum, and found several errors.  
+訳: 管理人は会計記録を一行ずつ調べ、すべての金額を確認して、いくつかの誤りを見つけた。  
 
 【語法・注意】現代では oversee the accounts は会計業務の監督と解釈されやすい。細かく調べたことを明示するには examine the accounts とする。古い辞書にあることを理由に、日常の中心表現として使わない。  
 

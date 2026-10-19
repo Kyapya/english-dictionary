@@ -1,12 +1,12 @@
 ---
 headword: underwrite
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: GPT-6
 created_at: 2026-10-19
 updated_at: 2026-10-19
-checked: false
+checked: true
 tags: []
 ---
 
@@ -107,7 +107,7 @@ under「下に」と write「書く」から成り、元来は書面の下に書
 頻度: 〈7/10〉  
 違い: 名称の掲示や広報上の関係を伴いやすいが必須ではない。  
 例: Several shops sponsored the school concert.  
-訳: いくつかの店が学校の演奏会を協賛した。  
+訳: いくつかの店が学校の演奏会に協賛した。  
 
 ・guarantee  
 定義: 義務の履行や費用負担を保証する。  
@@ -246,7 +246,7 @@ under「下に」と write「書く」から成り、元来は書面の下に書
 例: All loans in the pool were underwritten to the lender’s published criteria.  
 訳: その融資プールの全案件は、貸し手が公表した基準に従って審査された。  
 
-【語法・注意】underwrite a loan と guarantee a loan は同じではない。前者は通常、与信審査・引受判断、後者は返済保証。approve は審査結果として承認する行為、fund/disburse は資金を出す行為であり、各段階を区別する。審査基準は機関・商品・法域による。  
+【語法・注意】融資審査の文脈では underwrite a loan は信用リスクを審査・判断することをいい、返済を保証する guarantee a loan とは区別する。ただし、別の文脈では underwrite が金融上の保証・損失負担を意味することもある（語義1）。approve は審査結果として承認する行為、fund/disburse は資金を出す行為であり、各段階を区別する。審査基準は機関・商品・法域による。  
 
 【類義語】
 

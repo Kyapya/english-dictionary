@@ -1,12 +1,12 @@
 ---
 headword: overrun
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: GPT-6
 created_at: 2026-10-19
 updated_at: 2026-10-19
-checked: false
+checked: true
 tags: []
 ---
 
@@ -23,8 +23,6 @@ tags: []
 ＃語形成
 
 ・overruns／overran／overrun／overrunning：三人称単数現在／過去形／過去分詞／現在分詞。過去分詞を overran にしない。-ing では n を重ねる。  
-・overrun：名詞への品詞転換で「超過・余剰」など。名詞の複数形は overruns。  
-・overrun：分詞形容詞として be overrun with/by が定着している。通常の動作受動と状態を区別する。  
 ・overrunning clutch：一方の部材が他方より速く回ると空転できるクラッチ。エンジンが車輪に回される overrun とは、装置と運転状態の違いがある。  
 
 ＃コアイメージ
@@ -55,9 +53,9 @@ tags: []
 
 ・範囲を越える、組版の次の行への移動 → 「組版を繰り越す・組み直す」（語義12）  
 
-・範囲を越える、記憶領域外への書込み → 「記憶領域の境界を越えて書き込む」（語義15）  
+・範囲を越える、記憶領域外への読書き → 「記憶領域の境界を越えてアクセスする」（語義15）  
 
-・範囲を越える、記憶領域の越境エラー → 「バッファーなどの領域外書込み」（語義16）  
+・範囲を越える、記憶領域の読書きエラー → 「バッファーなどの領域外アクセス」（語義16）  
 
 ・範囲を越える、受信・処理能力の超過 → 「受信・処理が追いつかないことによるデータ超過」（語義17）  
 
@@ -265,7 +263,7 @@ tags: []
 例: The station seemed overrun with lost passengers.  
 訳: 駅は道に迷った乗客であふれているように見えた。  
 
-【語法・注意】with は満たしている内容を示し、by は押し寄せる主体を示しやすい。get overrun もくだけた状態変化の表現として使える。a weed-overrun garden のような複合形はハイフンでまとめられるが、be overrun with weeds にハイフンは入れない。通常は very overrun より completely overrun、increasingly overrun とする。  
+【語法・注意】with は満たしている内容を示し、by は押し寄せる主体を示しやすい。get overrun もくだけた状態変化の表現として使える。a weed-overrun garden のような複合形はハイフンでまとめられるが、be overrun with weeds にハイフンは入れない。通常は very overrun より completely overrun、increasingly overrun とする。 overrun は分詞形容詞として be overrun with/by の形でも定着しており、通常の動作受動と状態を区別する。  
 
 【類義語】
 
@@ -490,7 +488,7 @@ tags: []
 例: The overrun on the bridge project reduced funding for other repairs.  
 訳: 橋の事業の費用超過で、ほかの修理に使える資金が減った。  
 
-【語法・注意】an overrun of $10,000 は超過分が1万ドルであり、総費用ではない。cost overrun と budget overrun はよく使うが、overrun 単独では何の超過かを文脈で決める。名詞は動詞と強勢が異なる。  
+【語法・注意】an overrun of $10,000 は超過分が1万ドルであり、総費用ではない。cost overrun と budget overrun はよく使うが、overrun 単独では何の超過かを文脈で決める。名詞は動詞と強勢が異なる。 動詞から名詞への品詞転換で「超過・余剰」などを表し、名詞の複数形は overruns。  
 
 【類義語】
 
@@ -648,15 +646,15 @@ tags: []
 
 【語法・注意】ここでは通常不可算で、時間超過の an overrun と区別する。coasting は惰性で進む広い語で、エンジンと車輪が切り離されている場合もあるため、完全な同義語にしない。  
 
-15. 【動詞：他動詞】記憶領域の境界を越えて書き込む
+15. 【動詞：他動詞】記憶領域の境界を越えてアクセスする
 
-【日本語訳・定義】プログラムや入力が、確保されたバッファーなどの範囲を越えてデータを書き込み、隣接領域に及ぶ。  
+【日本語訳・定義】プログラムなどが、確保されたバッファーや配列の有効範囲を越えてメモリーにアクセスする。範囲外の読出しと書込みの両方を含む。  
 
 【頻度】〈3/10〉  
 
 【レジスター/領域】計算機・ソフトウェアの不具合。  
 
-【文法パターン】overrun a buffer/an array＝バッファー・配列の範囲を越える／overrun the end of a buffer＝バッファーの末尾を越えて書き込む。  
+【文法パターン】overrun a buffer/an array＝バッファー・配列の範囲を越える／overrun the end of a buffer＝バッファーの末尾を越えて読み書きする。  
 
 【コロケーション・構文例】
 
@@ -667,34 +665,39 @@ tags: []
 
 ・overrun the end of an array  
 用途: 境界の行き過ぎを明示する。  
-例: The loop overran the end of the array by one element.  
+例: The loop overran the end of the array by one element while writing the results.  
 訳: そのループは配列の末尾を1要素分越えて書き込んだ。  
+
+・overrun a buffer while reading  
+用途: 書込みを伴わない領域外の読出しを示す。  
+例: The parser overran the buffer while reading the final field.  
+訳: パーサーは最後のフィールドを読み取る際、バッファーの範囲外まで読み出した。  
 
 【語法・注意】受信速度に処理が追いつかない語義17とは区別する。エラーや脆弱性の原因となるが、すべての overrun が悪用されたことや、同じ結果になることを意味しない。整数の数値範囲の overflow とも別。  
 
-16. 【名詞：可算】バッファーなどの領域外書込み
+16. 【名詞：可算】バッファーなどの領域外アクセス
 
-【日本語訳・定義】割り当てられたメモリー領域を越えて書き込む不具合・その発生。buffer overrun はこの意味で buffer overflow とも呼ばれる。  
+【日本語訳・定義】割り当てられたメモリー領域の有効範囲を越えて読み出したり書き込んだりする不具合・その発生。書込みによる buffer overrun は buffer overflow とも呼ばれるが、読出しも含む overrun 全体をそれと同義にしない。  
 
 【頻度】〈4/10〉  
 
 【レジスター/領域】計算機・セキュリティ。  
 
-【文法パターン】a buffer overrun＝バッファー越境書込み／a heap overrun＝ヒープの越境書込み／detect an overrun＝越境を検出する。  
+【文法パターン】a buffer overrun＝バッファーの領域外アクセス／a heap overrun＝ヒープ領域の範囲外アクセス／detect an overrun＝領域外アクセスを検出する。  
 
 【コロケーション・構文例】
 
 ・a buffer overrun  
 用途: 不具合を名詞で示す。  
-例: The test detected a buffer overrun in the image reader.  
+例: The test detected a buffer overrun caused by an unchecked write in the image reader.  
 訳: 試験は画像読込み処理のバッファー越境書込みを検出した。  
 
 ・a heap overrun  
 用途: メモリーの種類を示す。  
-例: The crash was traced to a heap overrun.  
+例: The crash was traced to a heap overrun during a write operation.  
 訳: クラッシュの原因はヒープ領域の越境書込みだと突き止められた。  
 
-【語法・注意】stack overflow は再帰などでスタック容量を使い切る別の現象にも使うため、すべてを buffer overrun と同一にしない。stack-based buffer overrun はスタック上のバッファーを越える書込み。  
+【語法・注意】stack overflow は再帰などでスタック容量を使い切る別の現象にも使うため、すべてを buffer overrun と同一にしない。stack-based buffer overrun はスタック上のバッファーの範囲を越える読出し・書込み。buffer overflow との同義関係は、ここでは書込みの文脈に限る。  
 
 【類義語】
 
@@ -727,7 +730,7 @@ tags: []
 例: The driver checked the overrun flag after receiving the packet.  
 訳: ドライバーはパケット受信後にオーバーランフラグを確認した。  
 
-【語法・注意】どのデータを捨てる・上書きするかは機器の仕様による。「必ず新しいデータが古いデータを上書きする」と一律に定義しない。メモリーの範囲外へ書く語義16とは異なり、確保された領域内でも処理の遅れで生じる。  
+【語法・注意】どのデータを捨てる・上書きするかは機器の仕様による。「必ず新しいデータが古いデータを上書きする」と一律に定義しない。メモリーの範囲外へ読み書きする語義15・16とは異なり、確保された領域内でも処理の遅れで生じる。  
 
 【反意語】
 
@@ -738,7 +741,7 @@ tags: []
 例: The audio stream paused because of a buffer underrun.  
 訳: バッファーのデータ不足で音声ストリームが一時停止した。  
 
-18. 【名詞：不可算】空気混入などによる体積増加率
+18. 【名詞：通常不可算；数値で特定すると可算的】空気混入などによる体積増加率
 
 【日本語訳・定義】アイスクリームなどの製造で、元のミックスに空気を混ぜ込むなどして増えた体積を、元の体積に対する割合で表したもの。  
 
@@ -764,7 +767,7 @@ tags: []
 
 19. 【名詞：可算】滑走路端の先に設けたオーバーラン区域
 
-【日本語訳・定義】滑走路末端の先に用意された区域。FAAの用語集では軍用航空の runway overrun として、滑走路延長中心線上にある安定処理・舗装された区域を定義する。  
+【日本語訳・定義】滑走路末端の先に用意された区域。FAAの用語集では軍用航空の runway overrun として、滑走路延長中心線上にある安定処理または舗装された区域を定義する。  
 
 【頻度】〈2/10〉  
 
