@@ -81,7 +81,7 @@ tags: []
 ・challenge the court's jurisdiction  
 用途: 裁判所にその事件を扱う権限があるかを争う。  
 例: Before addressing the allegations, the defendant challenged the court's jurisdiction.  
-訳: 被告は、主張された事実に反論する前に、裁判所の管轄権を争った。  
+訳: 被告は、主張された事実について対応する前に、裁判所の管轄権を争った。  
 
 ・subject-matter jurisdiction  
 用途: 特に米国法の説明で、事件の種類・事項についての権限を区別する。  
