@@ -1,12 +1,12 @@
 ---
 headword: conglomerate
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: GPT-6
 created_at: 2026-10-19
 updated_at: 2026-10-19
-checked: false
+checked: true
 tags: []
 ---
 
@@ -428,7 +428,7 @@ agglomerate「塊になる・集積させる」と、専門語 glomerulus「糸�
 例: The basal layer is conglomerate, with abundant rounded clasts.  
 訳: 最下部の層は礫岩質で、丸みを帯びた礫を豊富に含んでいる。  
 
-【語法・注意】専門文では conglomeratic「礫岩質の」も用いる。conglomerate を含む名詞句では、企業・一般的な集合・地質のどの意味なのか、rock、bed、pebble などの周囲の語を見る。地質用法を「企業の」と訳さない。  
+【語法・注意】専門文では conglomeratic「礫岩質の」も用いる。conglomerate を含む名詞句では、企業・一般的な集合・地質のどの意味なのか、rock、bed、pebble などの周囲の語を見る。地質用法を「企業の」と訳さない。be conglomerate の形も、文脈によっては不可算名詞の conglomerate を補語とした「礫岩である」という分析が可能で、この形だけで形容詞とは断定しない。  
 
 【類義語】
 

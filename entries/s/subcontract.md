@@ -1,12 +1,12 @@
 ---
 headword: subcontract
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: GPT-6
 created_at: 2026-10-19
 updated_at: 2026-10-19
-checked: false
+checked: true
 tags: []
 ---
 
@@ -211,8 +211,8 @@ contract はラテン語 contrahere「引き寄せる・まとめる」の過去
 
 ・〈受託側〉 + subcontract  
 用途: 担当業務が分かる文脈で受託側の活動を述べる。  
-例: We do not bid for entire construction projects; we subcontract and install the ventilation systems.  
-訳: 私たちは建設工事全体の入札には参加せず、下請けとして換気システムを設置している。  
+例: We do not bid for entire construction projects; we subcontract for the main builders and install the ventilation systems.  
+訳: 私たちは建設工事全体の入札には参加せず、元請けの建設業者の下請けとして換気システムを設置している。  
 
 【語法・注意】「下請けをしている」を誤解なく述べるには work as a subcontractor for 〈元請け〉 も使える。subcontract for 〈会社〉 を subcontract 〈会社〉 として会社を直接目的語にしない。語義3と同じ自動詞でも、ここでは仕事を受ける側が主語になる。  
 

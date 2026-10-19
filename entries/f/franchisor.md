@@ -1,12 +1,12 @@
 ---
 headword: franchisor
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: GPT-6
 created_at: 2026-10-19
 updated_at: 2026-10-19
-checked: false
+checked: true
 tags: []
 ---
 
@@ -26,19 +26,19 @@ franchise「事業権などを与える」に、行為をする側を表す -or 
 ・franchiser：franchisor の異綴り。権利を与える側を表す。  
 ・franchisee：可算名詞。「フランチャイズの権利を与えられた事業者」。語末の -ee が受け手を示す。  
 ・franchising：名詞。「フランチャイズ方式による事業展開」。通常は不可算。  
-・franchisor–franchisee relationship：複合表現。「本部と加盟事業者の関係」。二者の関係を表し、雇用関係や親子会社関係をそれだけで意味しない。  
+・franchisor–franchisee relationship：複合表現。「フランチャイズ権を与える側と受ける側の関係」。商業では本部と加盟事業者の関係を表し、雇用関係や親子会社関係をそれだけで意味しない。  
 
 ＃意味・用法・関連表現
 
-1. 【名詞・可算】フランチャイズ本部、フランチャイズ権を与える事業者
+1. 【名詞・可算】フランチャイズ権を与える側、フランチャイズ本部
 
-【日本語訳・定義】他の事業者に、商号・商標を使った営業や商品販売などのフランチャイズ権を与える人・会社・組織。飲食店などの事業方式を提供する形では「フランチャイズ本部」と訳すことが多い。商品流通を中心とする形も含み、あらゆる契約で同じ経営方式や支援内容を提供するという意味ではない。  
+【日本語訳・定義】他の事業者にフランチャイズ権を与える人・会社・組織・公的機関。商業では、商号・商標を使った営業や商品販売などの権利を与える側を指す。飲食店などの事業方式を提供する形では「フランチャイズ本部」と訳すことが多い。商品流通を中心とする形も含み、あらゆる契約で同じ経営方式や支援内容を提供するという意味ではない。  
 
 【頻度】〈4/10〉  
 
-【レジスター/領域】ビジネス・流通・事業契約。頻度は英語全体を基準とする学習上の目安で、コーパスの実測値ではない。  
+【レジスター/領域】ビジネス・流通・事業契約・公共サービスの運営権。頻度は英語全体を基準とする学習上の目安で、コーパスの実測値ではない。  
 
-【文法パターン】a franchisor＝フランチャイズ権を与える一事業者／become a franchisor＝フランチャイズを提供する側になる／an agreement with the franchisor＝本部との契約／pay royalties to the franchisor＝本部へロイヤルティーを支払う／support from the franchisor＝本部からの支援／the franchisor's approval＝本部の承認／the franchisor–franchisee relationship＝本部と加盟事業者の関係  
+【文法パターン】a franchisor＝フランチャイズ権を与える一主体／become a franchisor＝フランチャイズを提供する側になる／an agreement with the franchisor＝本部との契約／pay royalties to the franchisor＝本部へロイヤルティーを支払う／support from the franchisor＝本部からの支援／the franchisor's approval＝本部の承認／the franchisor–franchisee relationship＝本部と加盟事業者の関係／〈政府・公共機関〉 + be the franchisor＝政府・公共機関が運営権を与える側である  
 
 【コロケーション・構文例】
 
@@ -77,7 +77,12 @@ franchise「事業権などを与える」に、行為をする側を表す -or 
 例: Clear communication can improve the franchisor–franchisee relationship.  
 訳: 明確な意思疎通は、本部と加盟事業者の関係を改善する助けになる。  
 
-【語法・注意】単数は a franchisor、複数は franchisors。The company is a franchisor. は「その会社は権利を与える側だ」、The company is a franchisee. は「その会社は権利を受ける側だ」で、どちらも可算名詞を補語にした文。後者を「本部」と訳さない。franchisor は本部の建物や部署ではなく、契約上の事業主体を指す。franchisee が子会社とは限らないため、単に parent company「親会社」と置き換えない。加盟金、継続的な使用料、研修、営業地域、価格への関与などは契約・方式・法域によって異なる。licensor は許諾する側一般を表し、franchisor はフランチャイズという事業関係を特定する。franchisee は対になる当事者であり、性質が反対の反意語としては扱わない。  
+・〈政府・公共機関〉 + be the franchisor  
+用途: 過去の公共サービスの運営権制度で、権利を与える側を述べる。  
+例: In that rail-franchising scheme, the government was the franchisor.  
+訳: その鉄道運営権制度では、政府が運営権を付与する側だった。  
+
+【語法・注意】単数は a franchisor、複数は franchisors。The company is a franchisor. は「その会社は権利を与える側だ」、The company is a franchisee. は「その会社は権利を受ける側だ」で、どちらも可算名詞を補語にした文。後者を「本部」と訳さない。franchisor は本部の建物や部署ではなく、権利を与える主体を指す。［公共サービス］鉄道などの運営権を事業者に与える制度では、政府や公共機関が franchisor と呼ばれることもある。上の鉄道の例は過去の制度を想定した用例であり、現在の各国の制度を一律に説明するものではない。franchisee が子会社とは限らないため、単に parent company「親会社」と置き換えない。加盟金、継続的な使用料、研修、営業地域、価格への関与などは契約・方式・法域によって異なる。licensor は許諾する側一般を表し、franchisor は商業や公共サービスのフランチャイズ権を与える関係を特定する。franchisee は対になる当事者であり、性質が反対の反意語としては扱わない。  
 
 【類義語】
 
