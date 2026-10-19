@@ -253,7 +253,7 @@ tags: []
 頻度: 〈8/10〉  
 違い: behind on payments の形で使う日常的な表現で、制度上の分類を指定しない。  
 例: We fell behind on the bills when our income dropped.  
-訳: 収入が減ったとき、私たちは請求への支払いが遅れるようになった。  
+訳: 収入が減ったとき、私たちは請求された料金の支払いが遅れるようになった。  
 
 【反意語】
 
