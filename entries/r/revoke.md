@@ -162,8 +162,8 @@ tags: []
 
 ・revoke on the third trick  
 用途: 何回目のトリックで違反したかを述べる。  
-例: A heart was led on the third trick, but West revoked by playing a club while still holding a heart.  
-訳: 3トリック目はハートから始まったが、ウエストはまだハートを持っていたのにクラブを出してリボークした。  
+例: West revoked on the third trick by playing a club when a heart had been led, despite still holding a heart.  
+訳: 3トリック目にハートがリードされたが、ウエストはまだハートを持っていたのにクラブを出し、リボークした。  
 
 ・revoke accidentally  
 用途: 意図的な不正ではなく、誤って規則に反したことを述べる。  
