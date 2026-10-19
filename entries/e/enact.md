@@ -282,4 +282,4 @@ legislation は通常不可算なので、× enact a legislation ではなく en
 頻度: 〈9/10〉  
 違い: 中立的な表現で、劇のように描写する含みはない。be enacted は文語的な場面描写に向く。  
 例: The reunion took place outside the station.  
-訳: 再会は駅の外で起こった。  
+訳: 再会したのは駅の外だった。  
