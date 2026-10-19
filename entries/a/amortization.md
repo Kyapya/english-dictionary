@@ -13,6 +13,7 @@ tags: []
 ＃発音記号
 
 米: /ˌæm.ər.təˈzeɪ.ʃən/｜英: /əˌmɔː.taɪˈzeɪ.ʃən/  
+以下の英米差は代表的な発音表記についての説明で、辞書・話者による異形もある。  
 5音節で、米英とも第4音節 /zeɪ/ に主強勢がある。第1音節の母音は米 /æ/・英 /ə/、第2音節は米 /ər/・英 /ɔː/、第3音節は米 /tə/・英 /taɪ/。米音では第2音節の r を発音する。第二強勢は米では第1音節、英では第2音節に置く。語末は /ʃən/。  
 
 ＃語源
@@ -75,7 +76,7 @@ amortize「分割返済する、償却する」と同じ系列の名詞で、中
 例: The agreement requires annual principal amortization of $50,000.  
 訳: 契約では、年間5万ドルの元本償還が求められている。  
 
-【語法・注意】過程は通常不可算だが、a twenty-year amortization のように特定の償還方式を一つとして扱う可算用法もある。返済を1回、2回と数えるなら通常は payments、repayments、installments を使い、機械的に amortizations としない。amortization schedule の schedule は名詞の中心なので an を付ける。amortization は返済総額が毎回同じ方式だけを意味しない。固定金利・返済総額一定の代表的な方式では、初期ほど利息の比率が高く、後半ほど元本返済の比率が高くなる。償還期間と融資契約の満期までの期間が一致するとは限らず、満期に残額を一括で払う設計もある。negative amortization は、通常の元本減少と逆の現象を指す定着表現（語義3）。  
+【語法・注意】過程は通常不可算だが、a twenty-year amortization のように特定の償還方式を一つとして扱う可算用法もある。返済を1回、2回と数えるなら通常は payments、repayments、installments を使い、機械的に amortizations としない。an amortization schedule は、可算名詞 schedule を中心とする単数の名詞句を、不特定の一件として示すため不定冠詞を使う。a ではなく an となるのは、その直後の amortization が母音で始まるため。amortization は返済総額が毎回同じ方式だけを意味しない。固定金利・返済総額一定の代表的な方式では、初期ほど利息の比率が高く、後半ほど元本返済の比率が高くなる。償還期間と融資契約の満期までの期間が一致するとは限らず、満期に残額を一括で払う設計もある。negative amortization は、通常の元本減少と逆の現象を指す定着表現（語義3）。  
 
 【類義語】
 
@@ -102,13 +103,13 @@ amortize「分割返済する、償却する」と同じ系列の名詞で、中
 
 2. 【名詞・不可算中心】償却、償却額
 
-【日本語訳・定義】資産の取得原価などを、複数の会計期間へ計画的に配分して処理すること。また、その処理による当期の費用や累計額。無形資産についてよく使われる。市場価格の下落そのものや、代金の分割払いを指すわけではない。  
+【日本語訳・定義】資産の取得原価などを複数の期間へ配分して処理すること。会計上の費用配分に加え、税務上、一定の資本的支出を所定期間にわたって控除・回収する用法もある。また、その処理による当期の費用や累計額。無形資産についてよく使われる。市場価格の下落そのものや、代金の分割払いを指すわけではない。  
 
 【頻度】〈4/10〉  
 
 【レジスター/領域】会計、決算資料、財務分析、税務。具体的な対象・償却方法・期間は適用制度による。  
 
-【文法パターン】the amortization of 〈資産・原価〉＝～の償却／amortization expense＝償却費／accumulated amortization＝償却累計額／straight-line amortization＝定額法による償却／an amortization period of 〈期間〉＝償却期間／depreciation and amortization＝減価償却と償却  
+【文法パターン】tax amortization＝税務上の期間配分による原価回収／bond premium amortization＝債券の額面超過額の期間配分／the amortization of 〈資産・原価〉＝～の償却／amortization expense＝償却費／accumulated amortization＝償却累計額／straight-line amortization＝定額法による償却／an amortization period of 〈期間〉＝償却期間／depreciation and amortization＝減価償却と償却  
 
 【コロケーション・構文例】
 
@@ -142,7 +143,17 @@ amortize「分割返済する、償却する」と同じ系列の名詞で、中
 例: The report presents depreciation and amortization separately from cash operating expenses.  
 訳: その報告書は、減価償却費と償却費を、現金支出を伴う営業費用と分けて示している。  
 
-【語法・注意】過程・費用の総体は通常不可算。個別の費用額を明示するなら an amortization charge、複数なら amortization charges とすると分かりやすい。会計上の amortization は、当期に現金が出ていくことを必ずしも伴わない。depreciation と対比すると無形資産の償却を指すことが多いが、語の適用範囲は制度や文脈による。IFRS の IAS 38 では、耐用年数が有限の無形資産と、耐用年数を確定できない無形資産を区別し、後者は償却せず減損テストの対象とする。「すべての無形資産が必ず償却される」と一般化しない。減損、時価への評価替え、税務上の損金算入も、amortization と同一の処理ではない。EBITDA の A は amortization であり、語義1の借入元本返済額を意味しない。  
+・tax amortization  
+用途: 税務上の期間配分による原価回収を述べる。  
+例: Tax amortization allows these qualifying costs to be recovered over a prescribed period.  
+訳: 税務上の償却では、これらの対象費用を所定の期間にわたって回収できる。  
+
+・bond premium amortization  
+用途: 債券の額面超過額の期間配分を述べる。  
+例: The report shows the bond premium amortization separately from principal repayments.  
+訳: 報告書では、債券プレミアムの償却を元本の返済とは分けて示している。  
+
+【語法・注意】過程・費用の総体は通常不可算。個別の費用額を明示するなら an amortization charge、複数なら amortization charges とすると分かりやすい。会計上の amortization は、当期に現金が出ていくことを必ずしも伴わない。depreciation と対比すると無形資産の償却を指すことが多いが、語の適用範囲は制度や文脈による。IFRS の IAS 38 では、耐用年数が有限の無形資産と、耐用年数を確定できない無形資産を区別し、後者は償却せず減損テストの対象とする。「すべての無形資産が必ず償却される」と一般化しない。減損や時価への評価替えは、この期間配分とは別の処理。税務上の amortization は、例えば米国税務で一定の資本的支出を所定期間にわたって控除・回収する方法を指すが、税務上の控除一般と同義ではない。EBITDA の A は amortization であり、語義1の借入元本返済額を意味しない。 債券を額面より高く取得した場合の bond premium amortization は、その超過額を期間に配分し、帳簿価額や利息の扱いを調整する用法。借り手が元本を返済する語義1とは異なり、会計・税務上の方法や条件は適用制度による。  
 
 【類義語】
 
@@ -205,8 +216,8 @@ amortize「分割返済する、償却する」と同じ系列の名詞で、中
 
 ・the amortization of 〈処理負担〉 over 〈操作列〉  
 用途: 高負荷の処理を多くの操作へ配分して評価する。  
-例: In this implementation, the amortization of resizing costs over many insertions gives a constant bound per insertion.  
-訳: この実装では、サイズ変更の負荷を多数の挿入操作に配分して評価すると、挿入一回当たりの計算量を定数で抑えられる。  
+例: In this implementation, the amortization of resizing costs over many insertions gives a constant amortized bound per insertion.  
+訳: この実装では、サイズ変更の負荷を多数の挿入操作に配分して評価すると、挿入一回当たりの償却計算量を定数で抑えられる。  
 
 ・through amortization  
 用途: 操作列全体を使う評価方法を示す。  
