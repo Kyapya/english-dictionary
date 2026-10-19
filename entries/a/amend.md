@@ -46,7 +46,7 @@ tags: []
 
 【レジスター/領域】事務、ビジネス、法律、政治、文章編集。change より改まった語。  
 
-【文法パターン】amend a 〈document/law/contract〉＝文書・法律・契約を修正する／amend 〈記載内容〉 from 〈元の形〉 to 〈変更後の形〉＝記載を変更する／amend 〈文書〉 to include 〈追加内容〉＝内容を含めるよう修正する／amend 〈文書〉 to read 〈変更後の文言〉＝記載がその文言になるよう修正する／amend 〈文書〉 by adding/deleting 〈内容〉＝追加・削除によって修正する／〈文書〉 + be amended＝修正される／〈法令・規則〉 + as amended＝改正された形での法令・規則。to不定詞は修正の目的・結果を表し、to の後の名詞は変更後の内容を表す。  
+【文法パターン】amend a 〈document/law/contract〉＝文書・法律・契約を修正する／amend 〈記載内容〉 from 〈元の形〉 to 〈変更後の形〉＝記載を変更する／amend 〈文書〉 to include 〈追加内容〉＝内容を含めるよう修正する／amend 〈文書〉 to read 〈変更後の文言〉＝記載がその文言になるよう修正する／amend 〈文書〉 by adding/deleting 〈内容〉＝追加・削除によって修正する／〈文書〉 + be amended＝修正される／〈法令・規則〉 as amended＝改正された形での法令・規則。to不定詞は修正の目的・結果を表し、to の後の名詞は変更後の内容を表す。  
 
 【コロケーション・構文例】
 
@@ -80,7 +80,7 @@ tags: []
 例: The committee amended the proposal by deleting the final paragraph.  
 訳: 委員会は最後の段落を削除して、その提案を修正した。  
 
-・〈法令・規則〉 + as amended  
+・〈法令・規則〉 as amended  
 用途: 元の制定時の文面ではなく、改正を反映した形を指す。  
 例: The policy must comply with the regulations as amended.  
 訳: その方針は、改正後の規則に適合していなければならない。  
@@ -158,7 +158,7 @@ as amended は as it has been amended などを縮めた形に対応する。an 
 ・mend  
 定義: 行いや関係などをよい状態に直す。  
 頻度: 〈4/10〉  
-違い: mend one's ways も定着した表現で、amend one's ways より日常的に使いやすい。物を修繕する意味もあるが、この欄では行いを直す用法。  
+違い: mend one's ways も、行いを改めることを表す定着した表現。物を修繕する意味もあるが、この欄では行いを直す用法。  
 例: He finally decided to mend his ways.  
 訳: 彼はついに行いを改めようと決めた。  
 
