@@ -1,12 +1,12 @@
 ---
 headword: expire
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-19
 updated_at: 2026-10-19
-checked: false
+checked: true
 tags: []
 ---
 
@@ -87,8 +87,8 @@ tags: []
 例: I renewed my membership because it was about to expire.  
 訳: 会員資格の期限が間もなく切れるので、更新した。  
 
-・have already expired  
-用途: すでに期限が過ぎていることを現在完了で述べる。  
+・had already expired  
+用途: 過去の基準時点より前に、すでに期限が切れていたことを過去完了で述べる。  
 例: The coupon had already expired when I tried to use it.  
 訳: 使おうとしたときには、そのクーポンはすでに期限が切れていた。  
 
@@ -171,7 +171,7 @@ tags: []
 例: By the time the letter arrived, the offer was already expired.  
 訳: 手紙が届いたときには、その提示はすでに有効期限が切れていた。  
 
-【語法・注意】The card has expired. は現在完了の動詞で「期限が切れた」、The card is expired. は形容詞述語で「期限切れの状態だ」。後者を見て、一般義の expire が「カードを期限切れにする」という他動詞だと判断しない。事務的な期限通知では has expired が広く使われる。become/get expired を基本形にするより、expire または go out of date と表す方が明確。seem expired と程度を評価することも通常の用法ではない。 期限の有無は普通二分されるので very expired、more expired は通常の程度比較ではない。long-expired「とうに期限切れの」のように、期限切れからの時間を示す表現は可能。an expiring contract は満了が近い契約、an expired contract は満了後の契約。expired air は呼吸の語義5に属する「吐き出された空気」であり、期限切れの空気ではない。  
+【語法・注意】The card has expired. は現在完了の動詞で「期限が切れた」、The card is expired. は形容詞述語で「期限切れの状態だ」。後者を見て、一般義の expire が「カードを期限切れにする」という他動詞だと判断しない。事務的な期限通知では has expired が広く使われる。become/get expired を基本形にするより、expire または go out of date と表す方が明確。期限切れらしいという判断には The card seems to have expired. などを使う。seem は見かけ・判断を表すもので、very や more のような程度修飾とは区別する。 期限の有無は普通二分されるので very expired、more expired は通常の程度比較ではない。long-expired「とうに期限切れの」のように、期限切れからの時間を示す表現は可能。an expiring contract は満了が近い契約、an expired contract は満了後の契約。expired air は呼吸の語義5に属する「吐き出された空気」であり、期限切れの空気ではない。  
 
 【類義語】
 

@@ -1,12 +1,12 @@
 ---
 headword: discharge
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
-model: unknown
+model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-19
 updated_at: 2026-10-19
-checked: false
+checked: true
 tags: []
 ---
 
@@ -107,7 +107,7 @@ tags: []
 訳: 医師は検査結果を確認した後、患者を退院させた。  
 
 ・be discharged from hospital  
-用途: 患者を主語にして退院を述べる。英語では hospital が無冠詞になることがある。  
+用途: 患者を主語にして退院を述べる。イギリス英語では hospital が無冠詞になることがある。  
 例: She was discharged from hospital on Monday but will continue treatment at home.  
 訳: 彼女は月曜日に退院したが、自宅で治療を続ける。  
 
@@ -126,7 +126,7 @@ tags: []
 例: He discharged himself against medical advice before the assessment was complete.  
 訳: 彼は診察・評価が終わる前に、医療側の助言に反して自分の判断で退院した。  
 
-【語法・注意】「私は退院した」の標準的な形は I was discharged. または I left hospital.。× I discharged from hospital. と、通常の患者の退院を自動詞で表さない。I discharged myself. は目的語が myself の能動再帰形であり、I was discharged. の受動態とは構造も意味の焦点も異なる。自己退院の可否や手続きまで、この語から判断することはできない。 from は出る施設、to は退院後の行き先を示す。home は副詞として使うため be discharged home とし、通常 × be discharged to home とはしない。英語の from hospital に対して、米語では from the hospital が普通。英語でも特定の病院を指す from the hospital は使える。 be discharged は通常の受動態、get discharged は出来事をくだけて述べる形。a recently discharged patient は過去分詞による名詞修飾で、very discharged のような程度表現にはしない。名詞の hospital discharge は語義2、分泌物の discharge は語義6。  
+【語法・注意】「私は退院した」の標準的な形は I was discharged. または I left hospital.。× I discharged from hospital. と、通常の患者の退院を自動詞で表さない。I discharged myself. は目的語が myself の能動再帰形であり、I was discharged. の受動態とは構造も意味の焦点も異なる。自己退院の可否や手続きまで、この語から判断することはできない。 from は出る施設、to は退院後の行き先を示す。home を副詞として使う be discharged home が基本。医療記録や退院先の分類では be discharged to home も使われるため、一律に誤用とはしない。イギリス英語の from hospital に対して、アメリカ英語では from the hospital が普通。イギリス英語でも、特定の病院を指す from the hospital は使える。 be discharged は通常の受動態、get discharged は出来事をくだけて述べる形。a recently discharged patient は過去分詞による名詞修飾で、very discharged のような程度表現にはしない。名詞の hospital discharge は語義2、分泌物の discharge は語義6。  
 
 【類義語】
 
@@ -287,7 +287,7 @@ tags: []
 ・discharge into a drainage ditch  
 用途: 管や水路の排出先を示す。  
 例: The outlet pipe discharges into a drainage ditch behind the building.  
-訳: 排出管は、建物の裏の排水溝につながっている。  
+訳: その排出管は、建物の裏の排水溝へ排水を流している。  
 
 ・discharge from a pipe  
 用途: 流れ出る物質を主語にして排出元を述べる。  

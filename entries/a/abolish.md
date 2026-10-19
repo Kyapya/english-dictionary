@@ -1,12 +1,12 @@
 ---
 headword: abolish
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: unknown
 created_at: 2026-10-19
 updated_at: 2026-10-19
-checked: false
+checked: true
 tags: []
 ---
 

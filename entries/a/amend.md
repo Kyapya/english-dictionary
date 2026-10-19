@@ -1,12 +1,12 @@
 ---
 headword: amend
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-19
 updated_at: 2026-10-19
-checked: false
+checked: true
 tags: []
 ---
 
@@ -151,7 +151,7 @@ as amended は as it has been amended などを縮めた形に対応する。an 
 例: The officials acknowledged the problem but did little to amend the situation.  
 訳: 当局者は問題を認めたが、状況を改善するためにはほとんど何もしなかった。  
 
-【語法・注意】amend one's ways の ways は複数形で、所有格も必要。単に × amend way としない。「埋め合わせをする」の make amends とも区別する。He amended his ways. は自分の行いを変えたこと、He made amends for the damage. は損害に対する償いをしたことで、片方から他方まで行ったとは限らない。日常的な「状況をよくする」には improve the situation や put things right が普通。歴史的には自動詞の「改心する」もあるが、一般的な現代文では他動詞の定型を優先する。  
+【語法・注意】amend one's ways の ways は複数形で、所有格も必要。単に × amend way としない。「埋め合わせをする」の make amends とも区別する。He amended his ways. は自分の行いを変えたこと、He made amends for the damage. は損害に対する償いをしたことで、片方から他方まで行ったとは限らない。日常的な「状況をよくする」には improve the situation や put things right が普通。自動詞の「自ら改まる・改心する」も辞書に載るが、現代の一般的な作文では amend one's ways などの他動詞の定型を優先する。  
 
 【類義語】
 
