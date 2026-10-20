@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: GPT-6
 created_at: 2026-10-19
-updated_at: 2026-10-19
+updated_at: 2026-10-20
 checked: true
 tags: []
 ---
@@ -25,6 +25,14 @@ tags: []
 ・obsolescence（名詞、不可算）＝陳腐化する過程、または陳腐化した状態。obsolete と obsolescent の両方に対応し得る。  
 ・obsoletes / obsoleted / obsoleting（動詞の活用形）＝三人称単数現在／過去・過去分詞／現在分詞。-ing では末尾の e を落とす。obsoleted の -ed は /ɪd/ となる。  
 ・obsoleted（過去分詞）＝新技術などによって旧式化された、廃止対象にされた。形容詞 obsolete「旧式である」と、変化を受けたことを表す過去分詞を区別する。  
+
+＃コアイメージ
+
+語義1・2の共通核は、現用のものとしての通用性・必要性を失うこと。物そのものの消滅や故障とは限らない。ただし、語義3の「痕跡的な、退化的な、不明瞭な」は、このコアイメージだけでは説明できない。生物の形態記述では、部位の発達の程度や輪郭の明瞭さを表すため、現在使われているかどうかとは分けて理解する。  
+
+・現用のものとしての通用性・必要性を失った状態 → 「時代遅れの、廃れた、もはや使われない」（語義1）  
+
+・現用のものとしての通用性・必要性を失わせる変化 → 「旧式化させる、時代遅れにする」（語義2）  
 
 ＃意味・用法・関連表現
 
@@ -50,12 +58,12 @@ tags: []
 例: These skills could become obsolete if the entire process is automated.  
 訳: 工程全体が自動化されれば、これらの技能は必要とされなくなるかもしれない。  
 
-・make 〈O〉 + obsolete  
+・make 〈O〉 obsolete  
 用途: 新しい技術などが従来の道具・方法の必要性を失わせると述べる。  
 例: The new tracking system made our handwritten delivery log obsolete.  
 訳: 新しい追跡システムの導入で、手書きの配送記録は不要になった。  
 
-・render 〈O〉 + obsolete  
+・render 〈O〉 obsolete  
 用途: 改まった文章で旧式化の原因と結果を結びつける。  
 例: Changes in the file format rendered the old conversion tool obsolete.  
 訳: ファイル形式の変更により、従来の変換ツールは役に立たなくなった。  
@@ -184,3 +192,36 @@ tags: []
 違い: 実際の交換・交代を表す平易な語。交換前のものが時代遅れであるとは限らず、obsolete より理由の範囲が広い。  
 例: We replaced the damaged sensor with an identical one.  
 訳: 破損したセンサーを同じ型のものに交換した。  
+
+3. 【形容詞：限定・叙述】痕跡的な、退化的な、不明瞭な
+
+【日本語訳・定義】動植物の器官や部分が、関連する生物の対応部分などと比べて十分に発達していない、著しく縮小している、またははっきり認めにくい状態。形態を記述する専門用法で、その部分が現在使われないことや、特定の進化の経緯を必ず述べるわけではない。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】生物学、植物学、分類・形態の記述。一般の技術や製品についての「時代遅れ」と区別する。  
+
+【文法パターン】an obsolete 〈organ/part〉＝痕跡的・不明瞭な器官や部分／〈部位〉 + be obsolete＝部位が痕跡的・不明瞭である。  
+
+【コロケーション・構文例】
+
+・obsolete teeth  
+用途: 形態記述で、歯状の突起がほとんど認められないことを示す。  
+例: The leaf margin has obsolete teeth that are difficult to distinguish.  
+訳: その葉の縁には、判別しにくいほど不明瞭な鋸歯がある。  
+
+・〈部位〉 + be obsolete  
+用途: 器官や部分の縮小・不明瞭さを述べる。  
+例: In this specimen, one petal is nearly obsolete.  
+訳: この標本では、花弁の1枚がほとんど痕跡的になっている。  
+
+【語法・注意】obsolete equipment の「もはや現用でない」という意味を、そのまま植物の器官に当てはめない。形態記述の teeth は葉の縁などの歯状部分を指すことがあり、人や動物の歯とは限らない。部位が小さい・不明瞭だという記述だけから、機能が完全にない、あるいは祖先がどのような形だったとまでは断定できない。  
+
+【類義語】
+
+・rudimentary  
+定義: 器官・部分が未発達で、基本的・不完全な形にとどまる。  
+頻度: 〈3/10〉  
+違い: 発達の程度が低いことに重点がある。obsolete はこの専門義では、縮小して痕跡的・不明瞭であることも表す。  
+例: The organ remains rudimentary in the adult.  
+訳: 成体でもその器官は未発達なままである。  
