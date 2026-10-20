@@ -5,14 +5,14 @@ status: checked
 prompt_version: entry_spec_v5
 model: OpenAI assistant
 created_at: 2026-10-17
-updated_at: 2026-10-18
+updated_at: 2026-10-20
 checked: true
 tags: []
 ---
 
 ＃発音記号
 
-米・英: /ˈkjuː.mjə.lə.tɪv/。4音節で第1音節に主強勢を置く。米では第3音節を /leɪ/ とする /ˈkjuː.mjə.leɪ.tɪv/ も使われる。どちらも主強勢は第1音節で、示した二つの形の違いは第3音節の母音。  
+米・英: /ˈkjuː.mjə.lə.tɪv/。4音節で第1音節に主強勢を置く。米では第3音節を /leɪ/ とする /ˈkjuː.mjəˌleɪ.tɪv/ も使われる。どちらも主強勢は第1音節で、この米音の別形には第3音節の /leɪ/ に副強勢も置かれる。示した二つの形は、第3音節の母音と副強勢の有無が異なる。  
 
 ＃語源
 
@@ -121,7 +121,7 @@ cumulate「積み重ねる」と同じ語族で、ラテン語 cumulare「山積
 ・a cumulative total of 〈数量〉  
 用途: 複数期間などを通算した量を示す。  
 例: By September, the program had trained a cumulative total of 2,400 employees.  
-訳: 9月までに、その研修プログラムを修了した従業員は累計2,400人に達していた。  
+訳: 9月までに、そのプログラムで研修を受けた従業員は累計2,400人に達していた。  
 
 ・cumulative sales  
 用途: 特定月だけでなく、開始からの売上の合計を示す。  
