@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: OpenAI assistant
 created_at: 2026-10-17
-updated_at: 2026-10-17
+updated_at: 2026-10-20
 checked: true
 tags: []
 ---
@@ -114,15 +114,15 @@ tags: []
 例: Continuous monitoring revealed a fault that brief checks had missed.  
 訳: 継続的な監視によって、短時間の点検では見逃されていた不具合が分かった。  
 
-2. 【形容詞：限定・叙述】散発性の・家族性ではない
+2. 【形容詞：限定・叙述】散発性の
 
-【日本語訳・定義】医学で、家族内での発症の集積や、疾患リスクを高める遺伝性の要因が確認されない症例・病型を指す。sporadic cancer などで、単なる発生頻度ではなく、家族性・遺伝性との区別を表す。具体的な分類基準は疾患によって異なり、sporadic と呼ばれても、発症に遺伝子変化が関与しないという意味ではない。  
+【日本語訳・定義】医学で、単なる発生頻度ではなく、疾患ごとの成因や家族性などに基づく分類を表す。sporadic cancer は、当該がんの家族歴やリスクを高める遺伝性のDNA変化がない人に生じるがんを指す。一方、クロイツフェルト・ヤコブ病（CJD）では、原因が十分に解明されていない自然発症の病型を指し、医療行為などを通じて生じる医原性の病型とも区別する。「非遺伝性ならすべて散発性」「散発性ならすべて原因不明」と全疾患に一般化しない。  
 
 【頻度】〈3/10〉  
 
 【レジスター/領域】医学・遺伝学。専門的な病型の説明。  
 
-【文法パターン】sporadic 〈cancer/disease〉＝散発性のがん・疾患／a sporadic case of 〈疾患名〉＝散発性の症例／〈症例・病型〉 + be sporadic rather than familial＝家族性ではなく散発性である。分類用法なので通常 very sporadic や more sporadic と程度比較しない。  
+【文法パターン】sporadic 〈cancer/disease〉＝散発性のがん・疾患／a sporadic case of 〈疾患名〉＝散発性の症例／〈症例・病型〉 + be sporadic rather than familial＝家族性ではなく散発性である。sporadic CJD＝散発性クロイツフェルト・ヤコブ病。分類用法なので通常 very sporadic や more sporadic と程度比較しない。  
 
 【コロケーション・構文例】
 
@@ -140,6 +140,11 @@ tags: []
 用途: 頻度ではなく病型の分類を明示する。  
 例: The study examined whether the cases were sporadic rather than familial.  
 訳: その研究では、症例が家族性ではなく散発性かどうかを調べた。  
+
+・sporadic CJD  
+用途: 疾患固有の成因分類を述べる。  
+例: The review distinguishes sporadic CJD from familial and iatrogenic forms.  
+訳: その総説は、散発性CJDを家族性および医原性の病型と区別している。  
 
 【語法・注意】語義1の sporadic cases「散発的に発生した症例」とは判断軸が異なる。この意味で sporadic を intermittent と置き換えると、「症状などが途切れながら起こる」という別の説明になってしまう。familial「家族性」と hereditary「遺伝性」は関連するが同一ではなく、家族内の集積には共有環境なども関わり得る。sporadic cancer を「遺伝子に異常がないがん」と訳さない。この欄は医学文書の読み方であり、家族歴だけから個人の病型を判定する基準ではない。  
 
