@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: OpenAI assistant
 created_at: 2026-10-17
-updated_at: 2026-10-18
+updated_at: 2026-10-20
 checked: true
 tags: []
 ---
@@ -101,7 +101,7 @@ over-「超えて」と due「支払うべき、期日が来た」から成る�
 ・delinquent  
 定義: 支払うべき金銭を期限までに払っていない。  
 頻度: 〈5/10〉  
-違い: 特に米英語の金融・徴収で使うフォーマルな語。この意味では債務や口座を指し、列車の到着などには使わない。  
+違い: 特に米英語の金融・徴収で使うフォーマルな語。この意味では支払いの滞った債務・口座だけでなく、滞納している人も表せる。列車の到着などには使わない。  
 例: The agency sent notices to customers with delinquent accounts.  
 訳: その機関は、支払いが滞っている口座の顧客に通知を送った。  
 
