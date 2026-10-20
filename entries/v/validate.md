@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: OpenAI assistant
 created_at: 2026-10-17
-updated_at: 2026-10-18
+updated_at: 2026-10-20
 checked: true
 tags: []
 ---
@@ -206,7 +206,7 @@ tags: []
 
 【レジスター/領域】人間関係、心理、相談、支援、仕事・人生の評価に関する一般語。  
 
-【文法パターン】validate someone＝その人の価値を認める／validate someone's feelings/experience＝感情・経験を正当なものとして受け止める／validate someone as 〈役割・存在〉＝その立場の人として価値を認める／validate oneself＝自分の価値を自分で認める／validate someone's work/career＝仕事・経歴の価値を裏づける。受動態可。  
+【文法パターン】validate someone＝その人の価値を認めたり、気持ち・見方を受け止めたりする／validate someone's feelings/experience＝感情・経験を正当なものとして受け止める／validate someone as 〈役割・存在〉＝その立場の人として価値を認める／validate oneself＝自分の価値を自分で認める／validate someone's work/career＝仕事・経歴の価値を裏づける。受動態可。  
 
 【コロケーション・構文例】
 
@@ -235,7 +235,7 @@ tags: []
 例: For her, the award validated years of work on the project.  
 訳: 彼女にとって、その受賞は、長年そのプロジェクトに取り組んできたことに価値があったと示すものだった。  
 
-【語法・注意】validate her と validate her feelings はともに可能だが、前者は人としての価値、後者は特定の感情が対象。verify her feelings とすると、気持ちが本当か検査するように聞こえ、心理的に受け止める意味の代わりにはなりにくい。語義4の feel validated は受け手の状態、語義5の a validating response は相手に承認された感覚を与える応答を表す。  
+【語法・注意】validate her は承認を受ける人を目的語にし、文脈によってその人の感情や見方を受け止めることも表す。validate her feelings は、受け止める対象が感情であることを明示する。人目的語を人としての価値だけに限定しない。verify her feelings とすると、気持ちが本当か検査するように聞こえ、心理的に受け止める意味の代わりにはなりにくい。語義4の feel validated は受け手の状態、語義5の a validating response は相手に承認された感覚を与える応答を表す。  
 
 【類義語】
 
