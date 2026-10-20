@@ -1,12 +1,12 @@
 ---
 headword: novate
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: OpenAI assistant
 created_at: 2026-10-20
 updated_at: 2026-10-20
-checked: false
+checked: true
 tags: []
 ---
 
@@ -103,7 +103,7 @@ tags: []
 
 2. 【可算名詞句：novated lease】雇用主が借り手の権利・義務を引き受ける車両リース
 
-【日本語訳・定義】主にオーストラリアで、従業員などの借り手、雇用主、リース会社の合意により、車両リースにおける借り手の権利・義務の全部または一部を雇用主が引き受ける仕組み。給与パッケージの一部として利用される。novated は novate の過去分詞に由来し、lease を形容詞的に修飾するが、この項目では定着した名詞句 novated lease 全体を扱う。  
+【日本語訳・定義】主にオーストラリアで、従業員などの借り手、雇用主、リース会社の合意により、車両リースにおける借り手の権利・義務の全部または一部を雇用主が引き受ける仕組み。給与パッケージの一部として利用される。現金給与の一部を車両の便益へ振り替える仕組みもあり、雇用主がリース料を支払うことは、その費用を従業員の給与とは別に追加負担することを必ずしも意味しない。novated は novate の過去分詞に由来し、lease を形容詞的に修飾するが、この項目では定着した名詞句 novated lease 全体を扱う。  
 
 【頻度】〈2/10〉  
 
