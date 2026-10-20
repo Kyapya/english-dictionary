@@ -1,12 +1,12 @@
 ---
 headword: lien
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: OpenAI assistant
 created_at: 2026-10-20
 updated_at: 2026-10-20
-checked: false
+checked: true
 tags: []
 ---
 
@@ -25,7 +25,7 @@ tags: []
 ＃語形成
 
 ・liens：法律の可算名詞の複数形。語尾は /z/ で、/ˈliːənz/ または /liːnz/。  
-・lienholder / lien holder：担保権・留置権を持つ者。権利の対象となる財産の所有者ではなく、権利を有する側を表す。  
+・lienholder / lien holder：担保権・留置権を持つ者。財産に対する担保権を有する側を表す。単なる財産所有者という意味ではないが、車両登録などの制度では legal owner という名称を併用する場合もある。  
 ・lien-free：形容詞「担保権などの負担がない」。a lien-free vehicle など。借金一般がまったくないという意味ではなく、その財産に lien がないことを述べる。  
 ・lienal：解剖学の形容詞「脾臓の」。語義3の系列であり、担保権についての形容詞ではない。  
 
@@ -172,14 +172,14 @@ tags: []
 
 【レジスター/領域】解剖学・医学の専門用語、器官名を示す図譜や用語資料。一般的な英語で脾臓を述べる場合は spleen を用いる。  
 
-【文法パターン】the lien＝特定の身体・標本の脾臓／the 〈surface/capsule〉 of the lien＝脾臓の表面・被膜。器官を指す名詞であり、法律文書の a lien on property とは別系統。  
+【文法パターン】lien (spleen)＝器官名のラベルとして脾臓を示す。ここでは図譜・用語資料に現れる名称の読み取りを扱い、現代英語の説明文で頻用される結合を提示するものではない。法律文書の a lien on property とは別系統。  
 
 【コロケーション・構文例】
 
-・the visceral surface of the lien  
-用途: 解剖図の説明で、専門的な器官名を使って脾臓の臓側面を示す。  
-例: The diagram shows the visceral surface of the lien.  
-訳: その解剖図は、脾臓の臓側面を示している。  
+・lien (spleen)  
+用途: 解剖図に記された器官名を読み取る。引用符内は図のラベル。  
+例: The organ is labelled “lien (spleen)” in the anatomical diagram.  
+訳: その器官は、解剖図で「lien（脾臓）」と表示されている。  
 
 【語法・注意】専門用語として載っていることと、一般的な診療説明や日常会話で標準的に選ばれることは別。脾臓について相手に伝える際は spleen が基本になる。lienal はこの器官に関する形容詞であり、lienholder のような法律用語とは結び付けない。「財産を結び付ける」というコアイメージからこの意味を導くことはできない。  
 
