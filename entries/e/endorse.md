@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: OpenAI assistant
 created_at: 2026-10-17
-updated_at: 2026-10-18
+updated_at: 2026-10-20
 checked: true
 tags: []
 ---
@@ -26,6 +26,10 @@ tags: []
 ・endorsee: 可算名詞「被裏書人」。金融・法律で、裏書による譲渡の相手を指す。  
 ・endorsed: 過去形・過去分詞。endorsed products、an endorsed cheque などは、対応する動詞の受動的意味を保つ。  
 ・indorse: endorse の異綴り。特に米国の法律文書で裏書の意味に見られる。日常的な支持表明では endorse が一般的。  
+
+＃コアイメージ
+
+本記事では、すべての語義を一つのコアイメージで説明していない。「支持・推薦する」というイメージだけでは、署名・譲渡・記録の付加を扱う語義3〜7や、症状・回答について述べる語義8は説明できない。語源上のつながりがあっても、現代の各用法で行うことや対象は異なるため、それぞれの語義と構文を区別して理解する。  
 
 ＃意味・用法・関連表現
 
