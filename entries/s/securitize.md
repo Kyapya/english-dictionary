@@ -1,0 +1,115 @@
+---
+headword: securitize
+type: word
+status: checked
+prompt_version: entry_spec_v5
+model: OpenAI
+created_at: 2026-10-21
+updated_at: 2026-10-21
+checked: true
+---
+
+＃発音記号
+
+米: /sɪˈkjʊrətaɪz/｜英: /sɪˈkjʊərətaɪz/  
+両方とも4音節で、第2音節に主強勢がある。ここに示した発音の米英差は第2音節の母音部分で、米は /ʊ/、英は /ʊə/。後続する /r/ は両方にある。英国英語では securitise とも綴り、発音は変わらない。  
+
+＃語源
+
+security に動詞を作る -ize が付いた語。金融では security の「証券」という意味に対応し、「資産・債権を証券という形にする」と理解できる。一方、安全保障研究では security の「安全保障」に対応して、問題を安全保障の枠組みで扱うことを指す。同じ語族には security（安全・安全保障・証券）、secure（安全な／確保する）がある。  
+この2義は、一つの「安全にする」というコアイメージでは説明できない。証券化しても資産が無リスクになるわけではなく、安全保障化しても対象が安全になるとは限らないため、各分野の意味を分けて覚える。  
+
+＃語形成
+
+・securitizes／securitized／securitizing：三人称単数現在形／過去形・過去分詞／現在分詞。securitizing は語末の e を落とす。  
+・securitise／securitises／securitised／securitising：英国で使われる -ise 系の綴り。-ize 系も英国で使われる。  
+・securitization（英では securitisation とも）：名詞。金融では「証券化」、安全保障研究では「安全保障化」。過程を指すときは通常不可算だが、個々の証券化取引などを数える用法もある。  
+・securitizer（英では securitiser とも）：可算名詞。証券化を行う機関・主体、または安全保障化を行う主体。分野で意味を判断する。  
+
+＃意味・用法・関連表現
+
+1. 【他動詞】証券化する
+
+【日本語訳・定義】典型的には、貸付債権、売掛債権、将来の収益などをもとに、市場で売買できる証券を組成・発行する形へ転換する。典型的には複数の債権をまとめ、それらから生じる支払いを裏付けとする証券を投資家に販売する。主語は銀行・金融機関・企業などで、目的語は証券化の対象となる資産や収益。資金調達やリスク移転に使われるが、「安全性を保証する」という意味ではない。  
+
+【頻度】〈3/10〉  
+
+【レジスター/領域】金融・証券市場の専門語。金融記事、企業報告書、経済研究で使われ、日常会話の「安全にする」には使わない。  
+
+【文法パターン】securitize 〈資産・債権・将来収益〉＝対象を証券化する／securitize 〈資産・債権〉 by issuing 〈証券〉＝証券の発行によって対象を証券化する／be securitized＝資産・債権などが証券化される。受動態では必要に応じて by 〈実行主体〉を続ける。  
+
+【コロケーション・構文例】
+
+・securitize mortgage loans  
+用途: 住宅ローンなどの貸付債権を証券化する。  
+例: The lender plans to securitize a pool of mortgage loans.  
+訳: その貸し手は、まとめた住宅ローン債権を証券化する予定だ。  
+
+・securitize credit card receivables  
+用途: カード利用者から将来回収する債権を対象にする。  
+例: The bank securitizes credit card receivables to raise funds.  
+訳: その銀行は、資金を調達するためにクレジットカード債権を証券化している。  
+
+・securitize future royalties  
+用途: 将来の印税・使用料収入を裏付けとする証券化を述べる。  
+例: The company securitized its future royalties by issuing bonds backed by those payments.  
+訳: その会社は、将来の使用料収入を裏付けとする債券を発行して、その収入を証券化した。  
+
+・be securitized  
+用途: 債権を主語にして、証券化された事実を述べる。  
+例: These auto loans were securitized last year.  
+訳: これらの自動車ローン債権は昨年、証券化された。  
+
+【語法・注意】目的語の loans は、この文脈では借り手の「借金」というより、貸し手が保有する「貸付債権」を指す。securitize the loans は「貸付債権を証券化する」という他動詞構文であり、secure the loan with collateral は「担保を付けて融資の返済を保証する」という別の他動詞構文。The bank securitized the loans. は「銀行は貸付債権を証券化した」、The borrower secured the loan with property. は「借り手は不動産を担保に入れた」で、同義ではない。securitized assets は過去分詞による限定修飾で「証券化された資産」。The assets were securitized. は通常、証券化の実行を述べる受動態であり、単に「資産が安全になった」ではない。securitized 自体にハイフンは付けない。上の定義と例文は、証券を発行する典型的な仕組みを中心に説明している。金融規制上の securitization には、証券発行を伴わず、保証やクレジット・デフォルト・スワップなどを使って信用リスクを移す合成型の仕組みも含まれる。この動詞だけから資産の売却・会計上の除外・リスクの完全移転まで必ず生じるとは判断できない。語義2のような社会問題の位置づけとも区別する。  
+
+【類義語】
+
+・monetize  
+定義: 資産や権利などから金銭を得られるようにする。  
+頻度: 〈5/10〉  
+違い: 証券化による資金化という面では重なるが、売却・利用料収入なども含む広い語。証券の組成・発行を必須としない。  
+例: The company monetized its patent portfolio through licensing agreements.  
+訳: その会社は、ライセンス契約を通じて保有特許から収益を得た。  
+
+2. 【他動詞】安全保障問題として位置づける・安全保障化する
+
+【日本語訳・定義】社会的・政治的な問題や人々を、安全保障上の脅威や保護の必要性に関わるものとして位置づけ、安全保障の論理で扱う。典型的には、ある集団・社会などの存続への重大な脅威を強調し、通常と異なる優先順位や特別な対処を正当化しようとする過程をいう。対象そのものを危険から守ることや、脅威を除去することを意味するわけではない。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】国際関係論・安全保障研究・政治分析の専門語。学術的な記述・分析に用いられる。  
+
+【文法パターン】securitize 〈問題・政策領域〉＝その問題を安全保障上の問題として扱う／securitize 〈人・集団〉＝その人々を安全保障の枠組みに位置づける／be securitized＝問題や人々が安全保障の枠組みで扱われる。能動文の主語は政府・政治家・組織など、安全保障化を行う主体。  
+
+【コロケーション・構文例】
+
+・securitize migration  
+用途: 移民・人の移動を安全保障の問題として分析する。  
+例: The article examines how politicians securitize migration by presenting it as a threat to national survival.  
+訳: その論文は、政治家が人の移動を国家の存続への脅威として示し、どのように安全保障化するかを検討している。  
+
+・securitize public health  
+用途: 公衆衛生を安全保障の枠組みで扱うことを述べる。  
+例: The study asks whether efforts to securitize public health have changed spending priorities.  
+訳: その研究は、公衆衛生を安全保障化しようとする取り組みが、支出の優先順位を変えたかを問うている。  
+
+・securitize refugees  
+用途: 難民が安全保障の枠組みに位置づけられる過程を論じる。  
+例: The authors criticize policies that securitize refugees by portraying them as threats to the state.  
+訳: 著者らは、難民を国家への脅威と描くことで安全保障化する政策を批判している。  
+
+・be securitized  
+用途: 問題を主語にして、安全保障化された位置づけを述べる。  
+例: The researchers argue that water scarcity has been securitized through official claims about national survival.  
+訳: 研究者らは、水不足が国家の存続に関する公式の主張を通じて安全保障化されたと論じている。  
+
+【語法・注意】語義1の securitize mortgage loans が「債権を証券化する」のに対し、securitize migration は「移民をめぐる問題を安全保障化する」。目的語と分野が解釈を決める。人・集団が目的語の場合、その人々を「脅威」とする用法がある一方、その人々を「脅威から保護すべき対象」とする分析もあるため、必ず前後の文脈を読む。secure the border は「国境の安全を確保する」で、securitize migration と同義ではない。また militarize（軍事化する）とは異なり、軍隊の投入を必須としない。コペンハーゲン学派の古典的な議論では、安全保障上の脅威として語る試みと、聞き手に受け入れられた安全保障化を区別する。研究上の立場で成立条件が異なるため、発言があるだけで理論上の「成功」と断定しない。専門文脈では対象が明らかなときに目的語を出さず securitize と述べることもあるが、初学者は対象を明示すると誤解が少ない。  
+
+【反意語】
+
+・desecuritize  
+定義: 問題を安全保障上の特別な問題として扱う枠組みから外す。  
+頻度: 〈2/10〉  
+違い: 安全保障化を進める方向に対し、それを解く方向で対立する専門語。安全保障化を終える具体的方法や成立条件は理論によって異なり、単に安全対策を撤廃することではない。  
+例: The proposal seeks to desecuritize migration and return it to ordinary political debate.  
+訳: その提案は、人の移動を安全保障の枠組みから外し、通常の政治的議論へ戻すことを目指している。  
