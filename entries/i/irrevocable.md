@@ -1,12 +1,12 @@
 ---
 headword: irrevocable
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: OpenAI assistant
 created_at: 2026-10-20
 updated_at: 2026-10-20
-checked: false
+checked: true
 tags: []
 ---
 
@@ -21,7 +21,7 @@ tags: []
 
 ＃語形成
 
-・irrevocably：副詞「取り消せない形で、後戻りできないほどに」。irrevocably changed のように変化の戻しにくさにも使う。  
+・irrevocably：副詞「取り消せない形で、後戻りできないほどに」。irrevocably changed のように、変化が元に戻せないことも表す。  
 ・irrevocability：通常不可算名詞「撤回不能であること」。法律・契約などで性質を名詞として述べる。  
 ・revocable：形容詞「撤回・取消しが可能な」。irrevocable と同じ取消可能性の軸で対立する。  
 ・revoke／revocation：動詞「正式に取り消す」／名詞「取消し」。irrevocable は形容詞で、動詞の過去分詞ではない。  
