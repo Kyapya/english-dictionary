@@ -118,9 +118,9 @@ out-「上回って」と weigh「重さがある・重さを量る」から成�
 ・be outweighed by someone  
 用途: 軽い側を主語にする。  
 例: She was outweighed by every other competitor in the open event.  
-訳: 体重区分のないその競技では、彼女はほかのどの出場者よりも軽かった。  
+訳: そのオープン大会では、彼女はほかのどの出場者よりも体重が軽かった。  
 
-【語法・注意】by ten kilograms は差であり、主語の総重量ではない。outweigh は「量ってみる」動作ではないので、荷物の重量を測るなら weigh the luggage。weight は名詞で、動詞の綴りを outweight にしない。  
+【語法・注意】by ten kilograms は差であり、主語の総重量ではない。outweigh は「量ってみる」動作ではないので、荷物の重量を測るなら weigh the luggage。名詞 weight「重さ」と動詞 weigh を区別し、outweigh に t を付けない。weight にも「重りを付ける・重み付けする」という動詞用法はあるが、この重量比較の動詞とは別である。  
 
 【類義語】
 
