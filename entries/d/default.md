@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-19
-updated_at: 2026-10-19
+updated_at: 2026-10-20
 checked: true
 tags: []
 ---
@@ -32,15 +32,15 @@ tags: []
 
 履行・参加・別の指定などがないことを起点に、その欠如や、それに応じた状態・扱いを表す。未指定時の設定や習慣的な選択は、利用者が義務違反をしたという意味ではない。  
 
-・別の指定がない場合の選択肢 → 「既定値・標準設定・自然に採用される選択肢」（語義1）  
+・未指定時や習慣的に採られる選択肢 → 「既定値・標準設定・自然に採用される選択肢」（語義1）  
 
-・別の指定がない場合の選択肢の性質 → 「既定の・通常採用される」（語義2）  
+・未指定時や習慣的に採られる選択肢の性質 → 「既定の・通常採用される」（語義2）  
 
-・別の指定がない場合の選択動作 → 「既定で～になる・自然に～を選ぶ」（語義3）  
+・未指定時の設定や、自然に採る選択動作 → 「既定で～になる・自然に～を選ぶ」（語義3）  
 
-・義務の不履行という状態 → 「債務不履行・義務の不履行」（語義4）  
+・義務の不履行という状態 → 「債務・義務の不履行、怠慢」（語義4）  
 
-・当事者による義務の不履行 → 「返済・契約義務を履行しない」（語義5）  
+・当事者による義務の不履行 → 「返済・義務・約束を履行しない」（語義5）  
 
 ・応答・防御がない場合の訴訟上の状態 → 「訴訟上の応答・防御の懈怠」（語義6）  
 
@@ -255,15 +255,15 @@ tags: []
 例: They resorted to borrowing money to cover the repairs.  
 訳: 彼らは修理費を賄うため、やむなく借金に頼った。  
 
-4. 【名詞・可算／不可算】債務不履行・義務の不履行
+4. 【名詞・可算／不可算】債務・義務の不履行、怠慢
 
-【日本語訳・定義】返済・利払いなどの支払義務、または契約上・法律上果たすべき義務を履行しないこと。金融では債務不履行を指すが、契約によっては金銭の未払い以外の約束違反も含む。個々の不履行事例は可算、状態・現象としては不可算で使う。  
+【日本語訳・定義】行うべきことを行わないことや、責務・約束を果たさないこと。一般的な不作為・怠慢にも使い、法的な義務違反だけに限らない。金融では返済・利払いなどの債務不履行を指し、契約では金銭の未払い以外の約束違反も含み得る。個々の不履行事例は可算、状態・現象としては不可算で使う。  
 
 【頻度】〈7/10〉  
 
-【レジスター/領域】金融・経済・契約・法律。一般の単なる失敗より、義務との関係が強い。  
+【レジスター/領域】金融・経済・契約・法律が中心。一般的な怠慢・不履行を述べる改まった用法もある。  
 
-【文法パターン】a default on 〈債務・支払い〉＝その不履行／be in default on a loan＝ローンの不履行状態にある／go into default＝不履行状態になる／a default under an agreement＝契約に基づく不履行／the risk of default＝不履行の危険性／an event of default＝契約で不履行事由と定められた事象。  
+【文法パターン】a default on 〈債務・支払い〉＝その不履行／be in default on a loan＝ローンの不履行状態にある／go into default＝不履行状態になる／a default under an agreement＝契約に基づく不履行／the risk of default＝不履行の危険性／an event of default＝契約で不履行事由と定められた事象／default in doing＝行うべきことを怠ること。  
 
 【コロケーション・構文例】
 
@@ -297,6 +297,11 @@ tags: []
 例: The contract lists several events of default, including nonpayment.  
 訳: その契約は、未払いを含む複数の不履行事由を列挙している。  
 
+・default in doing  
+用途: 金銭以外の、行うべきことを怠った事実を述べる。  
+例: The committee's default in checking the dates caused unnecessary confusion.  
+訳: 委員会が日程の確認を怠ったため、不必要な混乱が生じた。  
+
 【語法・注意】in default は通常無冠詞で、a default は一つの事例を数える。default は insolvency「支払能力の不足」と同義ではなく、資力があっても義務を果たさなければ生じ得る。delinquency「延滞」との区別、治癒期間、通知や手続き、期限の利益の喪失・担保実行などの効果は契約と制度に依存する。「一度支払いが遅れると、どの契約でも直ちに財産を失う」と一般化してはならない。in default of payment は文脈により「支払いをしない場合に」で、語義8の欠如表現とも接する。名詞 This is a default. と動詞 They defaulted on the loan.（語義5）を区別する。  
 
 【類義語】
@@ -322,15 +327,15 @@ tags: []
 例: The dispute concerned nonperformance of the delivery obligations.  
 訳: その紛争は、納入義務の不履行をめぐるものだった。  
 
-5. 【動詞・自動詞】返済・契約義務を履行しない
+5. 【動詞・自動詞】返済・義務・約束を履行しない
 
-【日本語訳・定義】人・企業・政府などが、負っている返済・利払い・契約上の義務を果たさない。金融で頻出し、支払不能による場合もあるが、意図的か、資力があるかまでは動詞自体で決まらない。  
+【日本語訳・定義】人・企業・政府などが、負っている義務や引き受けた約束を果たさない。金融では返済・利払いの不履行に多く使うが、法的契約によらない約束にも使える。支払不能による場合もあり、意図的か、資力があるかまでは動詞自体で決まらない。  
 
 【頻度】〈7/10〉  
 
-【レジスター/領域】金融・経済・契約・報道。  
+【レジスター/領域】金融・経済・契約・報道が中心。一般的な約束不履行にも使うが、日常の説明では fail to do や not keep a promise などが明確。  
 
-【文法パターン】someone defaults＝人・組織が不履行を起こす／default on a loan＝ローンの返済を履行しない／default on payments＝支払義務を履行しない／default on an agreement＝契約上の約束を守らない／default in the performance of 〈義務〉＝その義務の履行を怠る。on/in は前置詞で、後続語句を前に移動して分離しない。  
+【文法パターン】someone defaults＝人・組織が義務・約束を果たさない／default on a loan＝ローンの返済を履行しない／default on payments＝支払義務を履行しない／default on an agreement＝契約上の約束を守らない／default in the performance of 〈義務〉＝その義務の履行を怠る。on/in は前置詞で、後続語句を前に移動して分離しない。  
 
 【コロケーション・構文例】
 
@@ -358,6 +363,11 @@ tags: []
 用途: 支払い対象が明らかなときに単独で使う。  
 例: The lender may lose money if a borrower defaults.  
 訳: 借り手が債務不履行を起こすと、貸し手は損失を被る可能性がある。  
+
+・〈約束をした人〉 + default  
+用途: 法的契約ではない約束を果たさなかったことを述べる。  
+例: He had promised to water the plants while we were away, but he defaulted.  
+訳: 彼は私たちの留守中に植物へ水をやると約束していたが、果たさなかった。  
 
 【語法・注意】通常は default on a loan とする。default a loan という他動詞用法も実在するが、使用域が限られるため語義13に分ける。default on it は可能だが default it on とはしない。自動詞のため、この形そのものを be defaulted にしない。a defaulting borrower「不履行中の借り手」や a defaulted loan「不履行となった融資」は動詞に対応する分詞的修飾で、単に「標準設定の借り手・融資」という意味にはならない。They defaulted. と They are in default. は行為・出来事を動詞で述べるか、状態を名詞句で述べるかの違いがある。  
 
