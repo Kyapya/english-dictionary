@@ -74,7 +74,7 @@ out-「相手を上回って」と bid「値を付ける・申し出る」の組
 例: The two bidders kept outbidding each other until the price doubled.  
 訳: 二人の入札者は互いの提示額を上回り続け、価格は2倍になった。  
 
-【語法・注意】「その絵を高値で競り落とす」は outbid someone for the painting。outbid the painting と取得物をそのまま相手にしない。bid more than someone は自然だが、outbid than someone は誤り。by は差額、for は対象を示す。公共調達で低価格を提示して勝つなら underbid が適切な場合があり、outbid を「入札で勝つ」一般に広げない。be outbid は通常の受動形で、独立した評価形容詞ではない。 金額以外の条件を含む有利な申し出を明確に表すなら make a more attractive offer than を使える。例: The buyer tried to make a more attractive offer than its rival by promising a faster closing. 訳: その買い手は、より早い決済を約束して競合より有利な申し出をしようとした。  
+【語法・注意】「その絵について相手より高い値を付ける」は outbid someone for the painting。outbid the painting と取得物をそのまま相手にしない。bid more than someone は自然だが、outbid than someone は誤り。by は差額、for は対象を示す。公共調達で低価格を提示して勝つなら underbid が適切な場合があり、outbid を「入札で勝つ」一般に広げない。be outbid は通常の受動形で、独立した評価形容詞ではない。 金額以外の条件を含む有利な申し出を明確に表すなら make a more attractive offer than を使える。例: The buyer tried to make a more attractive offer than its rival by promising a faster closing. 訳: その買い手は、より早い決済を約束して競合より有利な申し出をしようとした。  
 
 【類義語】
 
@@ -123,7 +123,7 @@ out-「相手を上回って」と bid「値を付ける・申し出る」の組
 例: The candidate outbid her rival by promising free transport as well as free meals.  
 訳: その候補者は無料の食事に加え無料の交通手段も約束し、対立候補をしのいだ。  
 
-【語法・注意】比喩でも提示する約束・条件を文脈で示す。単に成績がよいなら outperform、量が多いなら outstrip。政策を実行したことまでは含意しない。カードで上位のビッドをする用法は語義3を参照。金銭を払う語義1とは、比較する基準が異なる。  
+【語法・注意】比喩でも提示する約束・条件を文脈で示す。単に成績がよいなら outperform、量が多いなら outstrip。政策を実行したことまでは含意しない。カードで上位のビッドをする用法は語義3を参照。金額を提示する語義1とは、比較する基準が異なる。  
 
 【類義語】
 
