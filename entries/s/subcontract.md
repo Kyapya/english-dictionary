@@ -48,13 +48,13 @@ contract はラテン語 contrahere「引き寄せる・まとめる」の過去
 
 1. 【動詞：他動詞】仕事を下請けに出す・再委託する
 
-【日本語訳・定義】自分が契約で引き受けた仕事の全部または一部を、別の個人・会社との契約によってその相手に行ってもらう。目的語は外に出す仕事・サービス・製造工程などで、委託先は to で示す。  
+【日本語訳・定義】自分が契約で引き受けた仕事の全部または一部を、別の個人・会社との契約によってその相手に行ってもらう。目的語が仕事・サービス・製造工程などなら、委託先は to で示す。依頼先の人・会社を目的語にして、その相手を下請けとして使うことも表す。  
 
 【頻度】〈5/10〉  
 
 【レジスター/領域】ビジネス・建設・製造・ITなど。業務上の標準的な表現。  
 
-【文法パターン】subcontract 〈業務〉 to 〈委託先〉＝業務を相手に再委託する／subcontract 〈業務〉 out to 〈委託先〉、subcontract out 〈業務〉 to 〈委託先〉＝out で外に出すことを明確にする／subcontract it out＝代名詞目的語は out の前／〈業務〉 + be subcontracted to 〈委託先〉＝業務を主語にする受動態。to の句と out は文脈上不要なら省略できる。  
+【文法パターン】subcontract 〈業務〉 to 〈委託先〉＝業務を相手に再委託する／subcontract 〈業務〉 out to 〈委託先〉、subcontract out 〈業務〉 to 〈委託先〉＝out で外に出すことを明確にする／subcontract it out＝代名詞目的語は out の前／〈業務〉 + be subcontracted to 〈委託先〉＝業務を主語にする受動態。to の句と out は文脈上不要なら省略できる。subcontract 〈人・会社〉 to do＝その相手に下請けとして仕事を依頼する。  
 
 【コロケーション・構文例】
 
@@ -83,7 +83,12 @@ contract はラテン語 contrahere「引き寄せる・まとめる」の過去
 例: Maintenance of the client’s equipment was subcontracted to a specialist provider.  
 訳: 顧客の設備の保守は専門業者に再委託された。  
 
-【語法・注意】out を使う形は分離可能で、subcontract the work out と subcontract out the work の両方が成立するが、代名詞なら subcontract it out とする。単に「人を雇う」なら hire someone、下請け業者を使うなら hire a subcontractor が明確。下請けに出すことは、元の契約そのものを相手へ譲渡することと同じではない。許可の要否や責任の範囲は契約・制度によって異なり、この動詞だけでは決まらない。 本記事の頻度は英語全体での語義別の目安であり、実測値ではない。  
+・subcontract 〈人・会社〉 to do  
+用途: 下請けとして依頼する相手を目的語にし、任せる仕事を不定詞で示す。  
+例: We subcontracted a local firm to install the security cameras.  
+訳: 私たちは防犯カメラの設置を地元の会社に下請けとして依頼した。  
+
+【語法・注意】out を使う形は分離可能で、subcontract the work out と subcontract out the work の両方が成立するが、代名詞なら subcontract it out とする。単に「人を雇う」なら hire someone。subcontract 〈人・会社〉は、下請けとして仕事を依頼する意味であり、雇用一般を表すわけではない。下請けに出すことは、元の契約そのものを相手へ譲渡することと同じではない。許可の要否や責任の範囲は契約・制度によって異なり、この動詞だけでは決まらない。 本記事の頻度は英語全体での語義別の目安であり、実測値ではない。  
 
 【類義語】
 
@@ -214,7 +219,7 @@ contract はラテン語 contrahere「引き寄せる・まとめる」の過去
 例: We do not bid for entire construction projects; we subcontract for the main builders and install the ventilation systems.  
 訳: 私たちは建設工事全体の入札には参加せず、元請けの建設業者の下請けとして換気システムを設置している。  
 
-【語法・注意】「下請けをしている」を誤解なく述べるには work as a subcontractor for 〈元請け〉 も使える。subcontract for 〈会社〉 を subcontract 〈会社〉 として会社を直接目的語にしない。語義3と同じ自動詞でも、ここでは仕事を受ける側が主語になる。  
+【語法・注意】「下請けをしている」を誤解なく述べるには work as a subcontractor for 〈元請け〉 も使える。この受託義の subcontract for 〈会社〉から for を省くと、語義1の「その会社に下請けとして依頼する」という別の読みになり得る。語義3と同じ自動詞でも、ここでは仕事を受ける側が主語になる。  
 
 5. 【動詞：他動詞】仕事を下請けとして請け負う
 
