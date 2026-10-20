@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: GPT-6
 created_at: 2026-10-19
-updated_at: 2026-10-19
+updated_at: 2026-10-20
 checked: true
 tags: []
 ---
@@ -23,7 +23,7 @@ tags: []
 ＃語形成
 
 ・overruns／overran／overrun／overrunning：三人称単数現在／過去形／過去分詞／現在分詞。過去分詞を overran にしない。-ing では n を重ねる。  
-・overrunning clutch：一方の部材が他方より速く回ると空転できるクラッチ。エンジンが車輪に回される overrun とは、装置と運転状態の違いがある。  
+・overrunning clutch：被駆動側が駆動側より速く回るなど、所定の相対回転方向で空転できる一方向クラッチ。エンジンが車輪に回される overrun とは、装置と運転状態の違いがある。  
 
 ＃コアイメージ
 
@@ -677,7 +677,7 @@ tags: []
 
 16. 【名詞：可算】バッファーなどの領域外アクセス
 
-【日本語訳・定義】割り当てられたメモリー領域の有効範囲を越えて読み出したり書き込んだりする不具合・その発生。書込みによる buffer overrun は buffer overflow とも呼ばれるが、読出しも含む overrun 全体をそれと同義にしない。  
+【日本語訳・定義】割り当てられたメモリー領域の有効範囲を越えて読み出したり書き込んだりする不具合・その発生。書込みによる buffer overrun は buffer overflow とも呼ばれる。両語が含む操作の範囲には資料による違いがあり、用語だけで読出しか書込みかを一律に区別しない。  
 
 【頻度】〈4/10〉  
 
@@ -697,12 +697,12 @@ tags: []
 例: The crash was traced to a heap overrun during a write operation.  
 訳: クラッシュの原因はヒープ領域の越境書込みだと突き止められた。  
 
-【語法・注意】stack overflow は再帰などでスタック容量を使い切る別の現象にも使うため、すべてを buffer overrun と同一にしない。stack-based buffer overrun はスタック上のバッファーの範囲を越える読出し・書込み。buffer overflow との同義関係は、ここでは書込みの文脈に限る。  
+【語法・注意】stack overflow は再帰などでスタック容量を使い切る別の現象にも使うため、すべてを buffer overrun と同一にしない。stack-based buffer overrun はスタック上のバッファーの範囲を越える読出し・書込み。buffer overflow は範囲外の書込みを指すことが多いが、範囲外の読出しも含める資料がある。名称だけで操作の種類を確定せず、その資料の定義や具体的な処理を確認する。  
 
 【類義語】
 
 ・buffer overflow  
-定義: バッファーの容量を越えて書き込む不具合。  
+定義: バッファーの範囲外アクセス。典型的には越境書込みを指すが、資料によって読出しも含む。  
 頻度: 〈4/10〉  
 違い: このメモリー書込みの文脈ではほぼ同義。通信の受信 overrun と区別する。  
 例: A buffer overflow corrupted adjacent data.  
@@ -816,3 +816,4 @@ tags: []
 違い: 航海に限らず、時間超過との混同なく使える。  
 例: The ship was running ahead of schedule.  
 訳: 船は予定より早く航行していた。  
+
