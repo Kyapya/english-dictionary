@@ -1,12 +1,12 @@
 ---
 headword: subrogate
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: OpenAI assistant
 created_at: 2026-10-20
 updated_at: 2026-10-20
-checked: false
+checked: true
 tags: []
 ---
 
@@ -143,7 +143,7 @@ a subrogated insurer は「代位した保険者」という過去分詞の限�
 例: After reviewing the evidence, the insurer decided not to subrogate.  
 訳: 証拠を検討した後、保険会社は代位求償を行わないと決めた。  
 
-【語法・注意】「保険会社が相手に請求する」からといって、相手をそのまま語義1の人目的語に入れない。subrogate the insurer to the owner's rights は保険会社を権利者の地位に入れる構文で、the insurer subrogates against the contractor は保険会社が施工業者へ請求する構文である。実務上の省略表現に頼らず、学習者が相手を明確にするなら against を用いる。  
+【語法・注意】「保険会社が相手に請求する」からといって、相手をそのまま語義1の人目的語に入れない。subrogate the insurer to the owner's rights は保険会社を権利者の地位に入れる構文で、the insurer subrogates against the contractor は保険会社が施工業者へ請求する構文である。米国の保険実務には、回収先の保険会社などを直接目的語にする用例もあるため、人・組織目的語を見ただけで常に「代位させる相手」と判断しない。ここで学ぶ構文では、請求先を明示するため against を用いる。  
 
 専門文書の subrogate to someone's rights は、語義1の be subrogated to someone's rights に近い内容を能動の自動詞で表すものだが、一般辞書では他動詞用法が中心なので、権利に代位する地位を明示するときは受動形が基本になる。subrogate against someone の against someone を直接目的語にした受動態へ機械的に変えない。保険者などが代位した「地位」を述べるなら be subrogated to ...、代位に基づく「回収活動」を述べるなら subrogate against ... と区別する。訴訟以外の交渉・回収もあり得るため、常に「訴える」と訳すのは狭すぎる。waive subrogation rights は権利を放棄する対照表現だが、subrogate の辞書的な反意語ではない。  
 
@@ -255,7 +255,7 @@ claim はここでは請求権・請求を指し、保険証券や領収書と�
 
 【レジスター/領域】古い文体・非常に硬い文章。現代の中心的な法律・保険用法より周辺的。  
 
-【文法パターン】subrogate someone in someone else's place＝他者の代わりにその人を据える／subrogate someone or something for someone or something else＝前者を後者の代わりに置く。直接目的語が新しく入れる側になる。  
+【文法パターン】subrogate someone in someone else's place＝他者の代わりにその人を据える。直接目的語が新しく入れる側になる。ここでは人を置き換える構文に限定して例示する。  
 
 【コロケーション・構文例】
 
@@ -264,25 +264,20 @@ claim はここでは請求権・請求を指し、保険証券や領収書と�
 例: The council was empowered to subrogate another officer in his place.  
 訳: 評議会は、彼の代わりに別の役人を据える権限を与えられていた。  
 
-・subrogate something for something else  
-用途: 古い文体で、考え方などを別のものに置き換えることを述べる。  
-例: The writer subrogates reason for tradition as the source of authority.  
-訳: その著者は、権威の根拠として伝統に代えて理性を据えている。  
-
-【語法・注意】これらの例は古い文体の用法を示すもので、現在の人事連絡で普通に使う言い方ではない。法的な請求権を引き継ぐ語義1とは対象領域を区別するが、「他者の位置に入れる」という語彙的なつながりは保たれている。surrogate は同語源だが、現代では名詞・形容詞としての用法が広く、subrogate と品詞・使用域まで自由に交換できるわけではない。  
+【語法・注意】この例は古い文体の用法を示すもので、現在の人事連絡で普通に使う言い方ではない。法的な請求権を引き継ぐ語義1とは対象領域を区別するが、「他者の位置に入れる」という語彙的なつながりは保たれている。surrogate は同語源だが、現代では名詞・形容詞としての用法が広く、subrogate と品詞・使用域まで自由に交換できるわけではない。  
 
 【類義語】
 
 ・substitute  
 定義: ある人・物を、別の人・物の代わりに据える、用いる。  
 頻度: 〈7/10〉  
-違い: 現代の通常の置き換えに使える。substitute A for B と、この語義の subrogate A for B は同じ方向だが、subrogate は非常に硬く古めかしい。  
+違い: 現代の通常の置き換えに使える。substitute A for B では A が新しく入る側で、この語義の subrogate A in B's place に対応する。subrogate は非常に硬く古めかしい。  
 例: The director substituted an experienced actor for the injured performer.  
 訳: 演出家は、けがをした出演者の代わりに経験豊富な俳優を起用した。  
 
 ・replace  
 定義: 人・物を別の人・物と入れ替える。  
 頻度: 〈9/10〉  
-違い: 日常的で使用範囲が広い。replace A with B では A が取り替えられる側、B が新しく入る側であり、subrogate B for A とは目的語の方向が逆になる。  
+違い: 日常的で使用範囲が広い。replace A with B では A が取り替えられる側、B が新しく入る側であり、subrogate B in A's place とは目的語の方向が逆になる。  
 例: The council replaced the retiring officer with a younger colleague.  
 訳: 評議会は、退任する役人を、より若い同僚に交代させた。  
