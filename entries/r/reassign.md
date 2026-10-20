@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: GPT-6
 created_at: 2026-10-19
-updated_at: 2026-10-19
+updated_at: 2026-10-20
 checked: true
 tags: []
 ---
@@ -23,12 +23,12 @@ re-「再び」と assign「割り当てる、指定する、譲渡する」の�
 
 ・reassigned: 過去形・過去分詞。a reassigned employee「配置転換された従業員」のように、変更の結果を表す名詞修飾にも使う。  
 ・reassigning: 現在分詞。be reassigning duties は「職務分担を変更している」。  
-・reassignment: 名詞「再割当て、配置転換、再指定」。a reassignment は一件の変更、reassignment は変更の過程・制度も表す。  
+・reassignment: 名詞「再割当て、配置転換、再指定」。a reassignment は一件の変更、reassignment は変更の過程・制度も表す。sex reassignment / gender reassignment などの専門表現では、性別移行に関わる用法もある（語義6）。  
 ・assign: 基になる他動詞「割り当てる、指定する、譲渡する」。reassign は以前の指定を改めて行うことを示す。  
 
 ＃コアイメージ
 
-「人・物・情報について、担当・対応・帰属を指定し直す」が共通核。人の配属、仕事や物の割当先、分類先、変数と値の対応、権利の帰属に具体化する。専門分野ごとの具体的な効果は、それぞれの語義で区別する。  
+語義1〜5の共通核は「人・物・情報について、担当・対応・帰属を指定し直す」。人の配属、仕事や物の割当先、分類先、変数と値の対応、権利の帰属に具体化する。ただし、語義6に含まれる身体的特徴の変更は、このコアイメージだけでは説明できない。指定や対応関係を変えることと、身体そのものの特徴を変えることは異なるため、医療上の意味と法律上の定義を語義6で個別に確認する。  
 
 ・指定し直す人の担当・配属 → 「配置転換する、担当を変える」（語義1）  
 
@@ -136,7 +136,7 @@ re-「再び」と assign「割り当てる、指定する、譲渡する」の�
 例: The hotel reassigned the room to another guest after the cancellation.  
 訳: キャンセル後、ホテルはその部屋を別の宿泊客に割り当て直した。  
 
-・reassign someone + 〈仕事・物〉  
+・reassign someone 〈仕事・物〉  
 用途: 割り当てる相手を先に示す二重目的語構文。  
 例: The coordinator reassigned me the same task after the first attempt failed.  
 訳: 最初の試みが失敗した後、調整役は私に同じ仕事を改めて割り当てた。  
@@ -265,4 +265,29 @@ re-「再び」と assign「割り当てる、指定する、譲渡する」の�
 違い: 権利移転全般を表す広い語で、再度の移転とは限らない。reassign は以前の譲渡に続く再譲渡を示す。  
 例: The agreement transferred ownership of the patent to the buyer.  
 訳: その契約により、特許権は買い手に移転した。  
+
+6. 【動詞・他動詞】性別移行に関わる身体的属性などを変更する
+
+【日本語訳・定義】医療や関連する法制度の文脈で、人の性に関わる身体的特徴などを変更する過程について用いる。reassign a person's sex などの形で現れ、本人のジェンダーを他者が決め直すという意味ではない。単なる書類上の分類変更と、医療的な処置とを一律に同じ行為として扱わない。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】医療・法制度の説明。sex reassignment や gender reassignment という名詞表現でも現れる。対象者に用いる呼称は本人の希望を尊重する。  
+
+【文法パターン】reassign a person's sex＝人の性に関わる属性を変更する／a process of reassigning a person's sex＝そのような変更の過程。  
+
+【コロケーション・構文例】
+
+・reassign a person's sex  
+用途: 医療的な処置について書かれた資料の表現を述べる。  
+例: The older paper discussed operations to reassign a patient's sex.  
+訳: その古い論文は、患者の身体的な性の特徴を変更する手術について論じていた。  
+
+・a process of reassigning a person's sex  
+用途: 法律文中で用いられる表現を示す。  
+例: The British statute refers to a process of reassigning a person's sex.  
+訳: その英国法令は、人の性に関わる属性を変更する過程に言及している。  
+
+【語法・注意】医療文脈での処置の説明と、法律上の保護対象の定義を混同しない。英国の Equality Act 2010 第7条の gender reassignment による保護は、手術や医療処置を受けた人だけに限定されない。これを、特定の身体的処置や法的な性別変更が完了したという意味に読み替えない。関連する表現には gender-affirming care や transition もあるが、ケアの内容・過程・法的定義が常に同一ではなく、機械的に置き換えない。  
+
 
