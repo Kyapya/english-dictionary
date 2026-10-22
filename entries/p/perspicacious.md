@@ -1,4 +1,5 @@
 ---
+# Sync recovery on 2026-10-22 for this interrupted entry
 headword: perspicacious
 type: word
 status: checked
