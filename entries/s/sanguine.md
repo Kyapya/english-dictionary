@@ -1,4 +1,5 @@
 ---
+# Sync recovery on 2026-10-22 for this interrupted entry
 headword: sanguine
 type: word
 status: checked
