@@ -1,0 +1,143 @@
+---
+headword: prevaricate
+type: word
+status: checked
+prompt_version: entry_spec_v5
+model: OpenAI
+created_at: 2026-10-22
+updated_at: 2026-10-22
+checked: true
+tags: []
+---
+
+＃発音記号
+
+米・英: /prɪˈværɪkeɪt/  
+末尾の副強勢を示す辞書表記: /prɪˈværɪˌkeɪt/  
+
+4音節で第2音節に主強勢がある。二つの表記の違いは、第4音節に副強勢を示すかどうか。第1音節の /prɪ/、第2音節の母音 /æ/、第3音節の弱母音 /ɪ/、第4音節の /keɪt/ は共通する。動詞の -ate を /ət/ にしない。ここでは Oxford と Collins のIPA表記を示しており、すべての話者に一つだけの発音を割り当てるものではない。  
+
+＃語源
+
+ラテン語 praevaricari にさかのぼり、prae- と varicari「脚を開く・またぐ」、さらに varus「脚の曲がった」の系列に関係する。語源資料には結託するという意味や、英語の古い「道を外れる・違反する」の用法も出てくるが、現在の全用法を身体の動作そのものとして読まない。  
+
+同根の関連語には prevarication「ごまかし・言い逃れ」と prevaricator「言い逃れをする人」がある。綴りの var を現代英語 vary とそのまま組み合わせて、語の成立を説明しない。  
+
+＃語形成
+
+・prevaricates / prevaricated / prevaricating：三人称単数現在／過去形・過去分詞／-ing形。-ing の前では最後の e を落とす。  
+・prevarication：行為としてのごまかしなら不可算的に、個々の言い逃れなら可算的に使う。  
+・prevaricator：言い逃れや虚偽を述べる人を表す可算名詞。  
+・prevaricative / prevaricatory：関連形容詞として辞書に載る。実際の頻度順位は本稿では測定していない。  
+
+＃コアイメージ
+
+正面から向き合うのを避け、かわすという捉え方が通じる。真実を避ける発言と、用法上の注意が必要な決断の先延ばしは、同じ場面・地域で無条件に置き換えない。  
+
+・真実と向き合わずかわす発言 → 「言い逃れする・真実を避けてごまかす」（語義1）  
+・真実と向き合わずかわす引用 → 「〜と言い逃れる」（語義2）  
+・決断と向き合わずかわす態度 → 「決断をためらう・先延ばしする〔用法に注意〕」（語義3）  
+
+＃意味・用法・関連表現
+
+1. 【動詞I】言い逃れする・真実を避けてごまかす
+
+【日本語訳・定義】はっきり答えずに真実を避けたり、相手を誤解させるように話したり書いたりすること。虚偽を述べる意味まで含めて使う辞書もある。  
+
+【頻度】〈3/10〉  
+
+【レジスター/領域】語自体は改まった文体。言動への批評に使う。頻度は学習上の目安で、実測値ではない。  
+
+【文法パターン】prevaricate about something＝何かについて言い逃れする／stop prevaricating＝ごまかすのをやめる。  
+
+【コロケーション・構文例】
+
+・prevaricate about something  
+用途: ごまかして答える話題を示す。  
+例: The spokesperson prevaricated about the reason for the delay.  
+訳: 広報担当者は、遅れの理由について言葉を濁した。  
+
+・stop prevaricating（prevaricate の -ing形）  
+用途: はっきり答えずかわすことをやめるよう求める。  
+例: Please stop prevaricating and answer the question.  
+訳: ごまかすのをやめて、質問に答えてください。  
+
+【語法・注意】人や組織など、発言・記述をする主体を主語にする自動詞。about の後ろに話題を置ける。on を伴う実例もあるが、どちらも粒子を伴う固定句動詞というより話題を示す前置詞として読む。話題を常に直接目的語にするわけではなく、prevaricate the question を普通の「質問をかわす」の型として使わない。  
+
+この語義は通常の直接目的語を取らない自動詞なので、その型の受動態にはしない。固定した再帰熟語や二重目的語構文は本稿では確認していない。引用を伴う語義2とは構造を分ける。  
+
+lie より、論点を曖昧にしたり真実をかわしたりすることを意識させるが、「直接的な嘘の意味には絶対に使わない」とまでは言えない。率直に答えること・真実を述べることと対比されるものの、すべての枝で一語の固定反意語があると考えない。  
+
+【類義語】
+
+・lie  
+定義: 意図して嘘をつく。  
+頻度: 〈8/10〉  
+違い: 虚偽や不正直さを直接非難する語。prevaricate は、真実をかわし論点をごまかすという含みで、非難の直接性を弱めることがある。  
+例: She lied about the number of tickets sold.  
+訳: 彼女は、売れたチケットの枚数について嘘をついた。  
+
+・equivocate  
+定義: 複数の意味に取れる言い方などで、明確な答えを避ける。  
+頻度: 〈3/10〉  
+違い: 言葉の曖昧さを利用する点に焦点がある。prevaricate は真実を避ける言動を、より広く表せる。  
+例: Asked for a clear yes or no, he continued to equivocate.  
+訳: はっきり賛否を答えるよう求められても、彼は曖昧な返答を続けた。  
+
+・evade  
+定義: 質問や論点などを巧みに避ける。  
+頻度: 〈5/10〉  
+違い: evade the question のように、質問を直接目的語に取る。他動詞の型を prevaricate にそのまま移さない。また、避けることが必ず虚偽の発言とは限らない。  
+例: The speaker evaded the question by changing the subject.  
+訳: その話し手は、話題を変えて質問をかわした。  
+
+2. 【動詞T・引用を伴う】〜と言い逃れる
+
+【日本語訳・定義】言い逃れするような発言をし、その発言内容を引用して示す。  
+
+【頻度】〈1/10〉  
+
+【レジスター/領域】改まった語り・物語中の発言描写。  
+
+【文法パターン】“...,” someone prevaricated＝「……」と誰かが言い逃れした。  
+
+【コロケーション・構文例】
+
+・“...,” someone prevaricated  
+用途: 引用発言が、はっきり答えない言い逃れであることを示す。  
+例: He knew the answer. “It's difficult to say,” he prevaricated.  
+訳: 彼は答えを知っていた。「何とも言いにくいですね」と、彼は言い逃れした。  
+
+【語法・注意】Oxford の (+ speech) と American Heritage の他動詞用法に対応する、引用を伴う伝達動詞の型。人を主語とし、どのような発言かを引用で示す。引用用法があるからといって、任意の話題名詞や人を直接目的語にしてよいわけではない。  
+
+この引用を普通の受動文へ変える型、二重目的語、目的語に不定詞や形容詞補語を加える型は、本稿では確認していない。語義1の about を取る自動詞と、引用内容を添えるこの型を区別する。根拠: https://www.oxfordlearnersdictionaries.com/definition/english/prevaricate ／ https://ahdictionary.com/word/search.html?q=prevaricate  
+
+3. 【動詞I】決断をためらう・先延ばしする〔用法に注意〕
+
+【日本語訳・定義】決断をはっきりさせず、ためらったり先延ばししたりするという用法。  
+
+【頻度】〈1/10〉  
+
+【レジスター/領域】英国の用例に見られるが、特に米語では問題視される使い方。  
+
+【文法パターン】prevaricate for a period before deciding＝決断するまでしばらくためらう・先延ばしする。  
+
+【コロケーション・構文例】
+
+・prevaricate for a period before deciding  
+用途: 決断を先延ばしする読み方を、使用域に注意して理解する。  
+例: The committee prevaricated for weeks before choosing a venue.  
+訳: 委員会は、会場を決めるまで何週間も決断を先延ばしにした。  
+
+【語法・注意】決断する人や団体を主語とする自動詞として使われる。for は期間、before は後に起きる決断などを示す。通常の直接目的語を取る受動態や、固定の再帰構文としては扱わない。  
+
+American Heritage はこの用法を Usage Problem とし、英国での使用と米語での反発を区別して説明する。ここでは実在する用法として読めるよう収録するが、一般的な procrastinate の無条件の言い換えとして推奨しない。過去の用法調査の割合を、現在の話者全体の割合として扱わない。https://ahdictionary.com/word/search.html?q=prevaricate  
+
+【類義語】
+
+・procrastinate  
+定義: すべきことを先延ばしにする。  
+頻度: 〈5/10〉  
+違い: 行動の先延ばしを直接表し、発言で真実をごまかすことを必須としない。prevaricate の中心的な語義1・2と同義ではない。  
+例: He procrastinated instead of completing the form.  
+訳: 彼は書類を仕上げずに、先延ばしにしていた。  
