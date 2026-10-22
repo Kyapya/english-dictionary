@@ -61,7 +61,7 @@ tags: []
 例: The bird spread its resplendent feathers in the sunlight.  
 訳: その鳥は、日光の中できらびやかな羽を広げた。  
 
-【語法・注意】人、衣装、鳥、花で彩られた場所などを、名詞の前や be / look などの補語で表す。強い評価を含む形容詞だが、more / most resplendent のように華麗さを比較することはできる。「強い意味だから比較不能」と一律にしない。個々の程度副詞との典型的な結合頻度を、この説明だけから決めない。  
+【語法・注意】人、衣装、鳥、花で彩られた場所などを、名詞の前や be / look などの補語で表す。強い評価を含む形容詞だが、more / most resplendent のように華麗さを比較することはできる。「強い意味だから比較不能」と一律にしない。  
 
 in は衣装・色・羽毛などをまとった状態、with は花などの彩りを与えるものを示す用例がある。in と with を、どの名詞相手にも機械的に交換しない。補語句を伴わない resplendent feathers のような形も成立する。  
 
@@ -114,7 +114,7 @@ in は衣装・色・羽毛などをまとった状態、with は花などの彩
 例: In her account, that period was more resplendent than the decades that followed.  
 訳: 彼女の記述では、その時代は、それに続く数十年間よりも輝かしいものとして描かれている。  
 
-【語法・注意】virtues のような抽象名詞を前から修飾するほか、時代を補語で評し、more ... than ... で比較する実例もある。ただし、これだけであらゆる抽象名詞との構文や個々の程度副詞の典型性を確認したことにはならない。衣装を示す in や、花で彩られた状態の with を、そのまま抽象名詞の必須の型にしない。  
+【語法・注意】virtues のような抽象名詞を前から修飾するほか、時代を補語で評し、more ... than ... で比較する用法もある。衣装を示す in や、花で彩られた状態の with を、そのまま抽象名詞にも必須の型としない。  
 
-物理的な反射や発光の仕組みを述べる語義ではなく、称賛の修辞である。単に普通以上の品質だという評価まで、すべてこの語で表せるとはしない。用例の根拠: Collins の American English 欄 https://www.collinsdictionary.com/dictionary/english/resplendent 。時代の比較用例: Richard Martin, Metropolitan Museum（2004）https://www.metmuseum.org/essays/american-ingenuity-sportswear-1930s-1970s 。  
+物理的な反射や発光の仕組みを述べる語義ではなく、称賛の修辞である。単に普通以上の品質だという評価まで、すべてこの語で表せるとはしない。  
  

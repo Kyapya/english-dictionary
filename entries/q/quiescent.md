@@ -69,7 +69,7 @@ quiescence と acquiescence「黙認・受入れ」を取り違えない。
 例: The project remained in a quiescent state during the winter.  
 訳: その計画は、冬の間は動きのない状態にとどまっていた。  
 
-【語法・注意】人・場所・物事などの名詞を前から修飾し、それらを主語にする補語にもなる。一般的な静けさや活動度には程度差があるが、この枝の個々の very / more / most の典型度は本稿では未確認。in a quiescent state の in は state を核とする名詞句を導き、quiescent が常に in 補語を要求するのではない。  
+【語法・注意】人・場所・物事などの名詞を前から修飾し、それらを主語にする補語にもなる。in a quiescent state の in は state を核とする名詞句を導き、quiescent 自体に必ず続く補語ではない。  
 
 一時的な休止の含みを持つことがあるが、必ず再開するという予測ではない。対象のあらゆる機能が完全に停止した、死んだ、という意味にも一律にしない。  
 
@@ -108,7 +108,7 @@ quiescence と acquiescence「黙認・受入れ」を取り違えない。
 例: The historian describes the decade as a quiescent period between two major upheavals.  
 訳: その歴史家は、その十年間を二つの大きな動乱の間の平穏な時期と述べている。  
 
-【語法・注意】時期・社会などの名詞を前から修飾し、それらを主語にする補語にもなる。remarkably を伴う叙述の引用例はあるが、すべての程度副詞や比較形の典型度を実証したものではない。政治面などの領域は politically のような副詞で限定できる。固定の前置詞補語は常に必須ではない。  
+【語法・注意】時期・社会などの名詞を前から修飾し、それらを主語にする補語にもなる。remarkably でその平穏さを強調したり、politically で政治面という領域に限定したりできる。  
 
 騒乱がないことは、社会が道徳的に望ましいことや、人々が体制へ積極的に同意していることまで意味しない。  
 
@@ -129,7 +129,7 @@ quiescence と acquiescence「黙認・受入れ」を取り違えない。
 例: The report describes the disease as quiescent rather than progressive.  
 訳: その報告は、その疾患を進行性ではなく非活動性と記述している。  
 
-【語法・注意】疾患を表す名詞の前、またはその疾患を主語とする叙述・目的語補語で使う。状態を分類する用法として読み、この枝で very / more を付ける基本型は本稿では示さない。describe ... as の as は describe の構文であり、quiescent 固有の必須補語ではない。  
+【語法・注意】疾患を表す名詞の前、またはその疾患を主語とする叙述・目的語補語で使う。病状を分類する用法なので、通常の静けさの程度を比べる very / more を機械的に移さない。describe ... as の as は describe の構文であり、quiescent 固有の必須補語ではない。  
 
 治癒した・病気が消滅したという意味ではない。再び活動する可能性があることと、必ず再発するということも別。この語だけで個別の診断や予後を判定するものではない。  
 
@@ -150,9 +150,9 @@ quiescence と acquiescence「黙認・受入れ」を取り違えない。
 例: The notes refer to quiescent gallstones that caused no symptoms.  
 訳: その記録は、症状を生じさせていなかった無症状の胆石に言及している。  
 
-【語法・注意】病変などの名詞を前から修飾する用法が辞書にある。この枝固有の叙述用法の典型例は本稿では未確認。無症状という分類へ、一般の静けさの more / very を機械的に転用しない。固定の前置詞補語は常に必須ではない。  
+【語法・注意】病変などの名詞を前から修飾する。無症状という分類へ、一般の静けさの more / very を機械的に転用しない。  
 
-語義3の病状の非活動・非進行と、この語義の症状の不在は別の軸である。症状がないことだけで、疾患の活動性や治癒の有無を同じように判定しない。二つの医療義の区別は Merriam-Webster Medical による。https://www.merriam-webster.com/dictionary/quiescent  
+語義3の病状の非活動・非進行と、この語義の症状の不在は別の軸である。症状がないことだけで、疾患の活動性や治癒の有無を同じように判定しない。  
 
 5. 【形容詞】細胞が増殖を休止した
 
@@ -171,7 +171,7 @@ quiescence と acquiescence「黙認・受入れ」を取り違えない。
 例: The diagram distinguishes quiescent cells from actively dividing cells.  
 訳: その図は、増殖を休止している細胞と、活発に分裂している細胞を区別している。  
 
-【語法・注意】cells などを前から修飾し、細胞を主語とする補語でも使う。細胞状態を分類する用法として扱い、一般義の比較級をそのまま移さない。この枝の個々の程度修飾・比較形の典型例は本稿では未確認。固定の前置詞補語は常に必須ではない。  
+【語法・注意】cells などを前から修飾し、細胞を主語にする補語でも使う。細胞状態を分類する用法なので、一般義の比較級をそのまま移さない。  
 
 死細胞や代謝が完全にゼロの細胞という意味ではない。また、再開能力を保つことと、すべての細胞が将来必ず増殖を再開することは同じではない。ここでは細胞状態の語義だけを扱い、治療の効果や方法を説明していない。根拠: https://www.cancer.gov/ccg/blog/2018/responses-to-cancer-therapies-are-complex  
 
@@ -192,7 +192,7 @@ quiescence と acquiescence「黙認・受入れ」を取り違えない。
 例: The data sheet lists the quiescent current separately from the shutdown current.  
 訳: そのデータシートは、静止電流をシャットダウン電流とは別に記載している。  
 
-【語法・注意】current などの名詞を前から修飾する関係的な用法。ここで current を主語として be quiescent とする典型例は確認していない。low quiescent current の low は電流値の低さをいうのであり、「より quiescent である」という形容詞比較の証拠ではない。固定の前置詞補語は常に必須ではない。  
+【語法・注意】current などの名詞を前から修飾する関係的な用法。low quiescent current の low は電流値の低さをいい、quiescent 自体の程度比較ではない。  
 
 無負荷・非スイッチングなどの状態に伴う電流を指すことがあるが、定義する動作状態は部品や仕様書によって異なる。電源が切れていることや、電流がゼロであることと同一にしない。メーカー資料でも quiescent current と shutdown current が区別される。根拠: https://www.ti.com/document-viewer/lit/html/SSZT118/GUID-F94006BD-D988-4D54-9FEA-AE291C53A9C4  
 
@@ -223,11 +223,11 @@ quiescence と acquiescence「黙認・受入れ」を取り違えない。
 例: The study contrasts star-forming galaxies with quiescent galaxies.  
 訳: その研究は、星形成を行う銀河と、星形成の乏しい銀河を対比している。  
 
-【語法・注意】天体・天体現象を表す名詞を前から修飾する。紅炎を主語にした叙述の資料もあるが、上の太陽の作例を含め、各対象の文型頻度をすべて確認したものではない。技術的な状態分類へ一般義の more / most を機械的に移さず、比較するなら活動の判定軸を定める。固定の前置詞補語は常に必須ではない。  
+【語法・注意】天体・天体現象を表す名詞を前から修飾する。紅炎を主語に、補語として性質を述べる用法もある。技術的な状態分類へ一般義の more / most を機械的に移さず、比較するなら活動の判定軸を区別する。  
 
 黒点活動、紅炎の大規模な動き、銀河の星形成は別の現象である。銀河の用例を「黒点がない銀河」と訳さない。quiescent galaxy の活動軸も文脈によって異なり、上の作例は星形成の対比で読む。宇宙の対象の全運動・全機能が停止したという意味ではない。  
 
-紅炎の根拠: https://www.spaceweather.gov/content/space-weather-glossary 。銀河の語例: https://www.eso.org/public/news/eso1516/ 。後者は2015年の用語例で、最新宇宙論を総括する説明ではない。  
+太陽・紅炎・銀河など、何を低活動と評価するかに応じて読み分ける。単一の分類から、天体のすべての活動がないと判断しない。  
 
 8. 【形容詞】文字が発音されない
 
@@ -248,7 +248,5 @@ quiescence と acquiescence「黙認・受入れ」を取り違えない。
 
 【語法・注意】letter などを前から修飾し、文字を主語にする補語の用例もある。発音されるかどうかを分類する用法へ、一般の静けさの very / more を一律に移さない。特定の前置詞補語は常に必須ではない。一般向けには silent の方が平易だが、この用法をすべて廃語とはしない。  
 
-歴史的な辞書には「発音されない文字」を指す名詞の記録もある。ただし、本稿では現代一般語の独立した名詞用法として推奨せず、その名詞独自の現代発音や複数屈折の典型例も確認済みとはしない。形容詞の現代発音と歴史的名詞の記録を同一視しない。  
-
-用語の根拠は B. A. Hathaway の1888年の教材、および Tian Hattingh, Biblical Hebrew for All, vol. 1（2020）, §9.1。歴史的名詞の根拠は Webster 1828 の再録で、原版画像の照合ではない。https://www.gutenberg.org/files/14403/14403-h/14403-h.htm ／ https://www.biblical-hebrew-for-all.com/ws/media-library/e5902feb011a4120bb74a338afc6df4a/bhfa-vol1-web-pdf.pdf ／ https://webstersdictionary1828.com/Dictionary/quiescent  
+古い名詞用法には「発音されない文字」という意味もあるが、現代の一般的な名詞として無条件に使うことは勧めない。形容詞の発音を、そのまま古い名詞の発音と決めつけない。  
  
