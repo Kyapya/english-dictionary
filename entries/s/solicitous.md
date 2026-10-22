@@ -114,7 +114,7 @@ a solicitous inquiry about his journey の about は、inquiry が何につい�
 例: She grew solicitous about the uncertain future.  
 訳: 彼女は、不確かな将来を心配するようになった。  
 
-【語法・注意】人の不安な状態を補語で述べ、about で気にかかる対象を示す。単に親切な対応をする語義1とは重なりうるが、ここでは不安の内面に焦点がある。この枝の名詞前の用例や、個々の程度副詞・比較形については、確認できた典型的な型として本稿では挙げないが、不可能と断定するものではない。気遣い義の very の用例だけで、この枝の典型性まで確定しない。  
+【語法・注意】人の不安な状態を補語で述べ、about で気にかかる対象を示す。単に親切な対応をする語義1とは重なりうるが、ここでは不安の内面に焦点がある。  
 
 【類義語】
 
@@ -147,7 +147,7 @@ a solicitous inquiry about his journey の about は、inquiry が何につい�
 例: She was solicitous in her care of the manuscript, checking each page for damage.  
 訳: 彼女は原稿の扱いに細心の注意を払い、傷みがないか各ページを確認した。  
 
-【語法・注意】人を表す名詞の前に置き、in で注意を向ける行動・範囲を示す用法がある。例文のように人の状態を補語でも述べる。細心さの強弱と、他者を親切に扱う気遣いの強弱を常に同じと考えない。この枝固有の程度副詞・比較形の典型性は、本稿では確認済みの型として示さない。to 不定詞を常に必要とする形容詞でもない。  
+【語法・注意】人を表す名詞の前に置き、in で注意を向ける行動・範囲を示す用法がある。人の状態を補語でも述べられる。細心さの強弱と、他者を親切に扱う気遣いの強弱を常に同じと考えない。to 不定詞が必ず必要な形容詞でもない。  
 
 【類義語】
 
@@ -180,7 +180,7 @@ a solicitous inquiry about his journey の about は、inquiry が何につい�
 例: The courtier was solicitous of royal favour and eager to secure a place at court.  
 訳: その廷臣は王の寵愛を強く望み、宮廷での地位を得ようと熱心だった。  
 
-【語法・注意】人を主語にした補語に、to 不定詞や、欲求の対象を表す of 句が続く。ここでの to 不定詞を、他者の安否を気遣う用法に常に付く構文として教えない。名詞前の型や、この古風な枝での個々の程度副詞・比較形は、本稿で実例確認できた型としては挙げない。  
+【語法・注意】人を主語にした補語に、to 不定詞や、欲求の対象を表す of 句が続く。ここでの to 不定詞を、他者の安否を気遣う用法にも常に付く構文と考えない。  
 
 同じ of でも、solicitous of the visitors は人への配慮、solicitous of royal favour は得たいものへの願望として読む。前置詞だけで語義を決めず、目的語の意味と前後を見る。現代の学習では、この欲求の意味に eager を使う方が分かりやすい場面が多い。  
 
@@ -192,3 +192,4 @@ a solicitous inquiry about his journey の about は、inquiry が何につい�
 違い: この欲求の意味で近い、一般的な現代語。solicitous の相手を気遣う用法全体の言い換えではない。  
 例: The young writer was eager to find a publisher.  
 訳: その若い作家は、出版社を見つけたいと熱望していた。  
+ 

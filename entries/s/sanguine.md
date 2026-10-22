@@ -19,7 +19,7 @@ tags: []
 
 ＃語源
 
-フランス語系の形を経て、ラテン語 sanguineus、さらに sanguis（語幹 sanguin-）「血」にさかのぼる。古い四体液説では血が優勢な気質を快活さなどと結び付け、その歴史から楽観的という意味が発達した。現在の医学的事実や血液型による性格判定ではない。同根語には sanguinary「血に飢えた・血なまぐさい」や consanguinity「血縁」があるが、現代の中心義が同じ同義語というわけではない。関連語の語源根拠: Merriam-Webster consanguineous：https://www.merriam-webster.com/dictionary/consanguineous 。  
+フランス語系の形を経て、ラテン語 sanguineus、さらに sanguis（語幹 sanguin-）「血」にさかのぼる。古い四体液説では血が優勢な気質を快活さなどと結び付け、その歴史から楽観的という意味が発達した。現在の医学的事実や血液型による性格判定ではない。同根語には sanguinary「血に飢えた・血なまぐさい」や consanguinity「血縁」があるが、現代の中心義が同じ同義語というわけではない。  
 
 ＃語形成
 
@@ -116,9 +116,7 @@ tags: []
 例: The designer compared sanguine on the color chart with the fabric sample.  
 訳: そのデザイナーは、色見本の血赤色と布の見本を比べた。  
 
-【語法・注意】形容詞は色合い・顔色などを名詞の前で修飾する。顔色を主語にした叙述用法も文学作品で確認できる。顔色の赤みを比較する more sanguine complexion という形は、Cavendish の1656年の作品にも見られるが、これだけで現代のあらゆる色彩表現に同じ比較が普通だとはしない。very など個々の程度副詞についても、楽観性を表す語義1の型を根拠なく転用しない。名詞は色名として扱い、材料や個々の作品を指す語義3と読み分ける。紋章学では赤紫系の色名として使うが、すべての赤色を同一としたり、一定のRGB値に固定したりしない。顔色の用法は健康そうな赤みという外見を表すが、それだけで実際の健康状態を診断する語ではない。  
-
-顔色の叙述用例: Brontë『Villette』（1853）第8章 https://www.gutenberg.org/cache/epub/9182/pg9182-images.html 。顔色比較の用例: Cavendish『Natures Pictures』（1656）、Dorman校訂版（2018）本文75頁 https://etheses.whiterose.ac.uk/id/eprint/23063/1/Dorman%20-%20Margaret%20Cavendish%27s%20Natures%20Pictures%20-%20Volume%201.pdf 。  
+【語法・注意】形容詞は色合い・顔色などを名詞の前で修飾し、顔色を主語に叙述することもある。文学的な描写では more sanguine complexion と赤みを比較する用法もあるが、現代のあらゆる色彩表現の基本形として一律に勧めない。名詞は色名として扱い、材料や個々の作品を指す語義3と読み分ける。紋章学では赤紫系の色名として使うが、すべての赤色を同一としたり、一定のRGB値に固定したりしない。顔色の用法は健康そうな赤みという外見を表すが、それだけで実際の健康状態を診断する語ではない。  
 
 【類義語】
 
@@ -156,7 +154,7 @@ tags: []
 例: The catalogue discusses a series of sanguines depicting musicians.  
 訳: その図録は、音楽家たちを描いた一連の赤色チョーク作品を論じている。  
 
-【語法・注意】材料を表す in sanguine と、作品を数える sanguines を区別する。辞書には赤色鉛筆・クレヨンを指す説明もあるが、ここに挙げた作品の複数形を、そのまま道具の本数を数える型の根拠にしない。血液そのものを画材にするという意味ではない。根拠: National Portrait Gallery 用語集：https://www.npg.org.uk/collections/explore/glossary-of-art-terms/sanguine1 。作品を数える専門的用例: Met『Fragonard: Drawing Triumphant』（2016）59頁：https://resources.metmuseum.org/resources/metpublications/pdf/Fragonard%5FDrawing%5FTriumphant.pdf 。  
+【語法・注意】材料を表す in sanguine と、作品を数える sanguines を区別する。赤色鉛筆・クレヨンを指す場合もあるが、作品を数える複数形を、そのまま道具の本数を数える型と同一にしない。血液そのものを画材にするという意味ではない。  
 
 4. 【形容詞】血に関する・血から成る
 
@@ -175,7 +173,7 @@ tags: []
 例: An old anatomical description traces the course of the sanguine vessels.  
 訳: ある古い解剖学の記述は、血管の走行をたどっている。  
 
-【語法・注意】血との関係を示す用法で、ここでは血管を表す名詞の前の修飾を示す。同じ意味の叙述用法については、確認できた型として提示しない。very や more を使って血液量の大小を表す意味とは区別し、具体的な量を語自体から推測しない。特定の前置詞補語を必須とするものでもない。さらに辞書には「血なまぐさい・残忍な」に関わる枝もあるが、古風・まれというラベルは辞書間で異なる。これらを現代の楽観的という意味と同じ頻度・語感で並べず、逆に血に関わる全用法を一括して廃語ともしない。  
+【語法・注意】血との関係を示す用法で、ここでは血管を表す名詞の前で使う。very や more で血液量の大小を表す意味とは区別し、具体的な量を語自体から推測しない。さらに「血なまぐさい・残忍な」という意味もあるが、古風・まれという位置づけには辞書間の差がある。現代の楽観的という意味と同じ頻度・語感で並べず、逆に血に関わる全用法を一括して廃語ともしない。  
 
 5. 【形容詞・歴史】多血質の
 
@@ -199,5 +197,5 @@ tags: []
 例: The treatise classifies the cheerful character as sanguine under its theory of bodily humours.  
 訳: その論書は、体液についての自らの学説に従い、その快活な人物を多血質に分類している。  
 
-【語法・注意】気質・体質を名詞の前で修飾し、人を分類する補語にもなる。分類名としては、どの類型に属するかを述べる。この歴史的分類そのものについて very や more/less を使う型は、本稿で確認できた型としては示さないが、不可能と断定するものでもない。現代の more sanguine で楽観性を比べる語義1の用法とは分ける。特定の前置詞を常に要求する語ではない。現代の sanguine temperament が単に楽観的な気質を意味する場合まで、すべて古語と判断しない。また、この歴史的説明から実際の血液量や血液型で性格が決まるとは結論しない。分類を補語で述べる歴史資料の例: Culpeper 英訳『Galen’s Art of Physick』（1652）抜粋 https://www.history.org.uk/files/download/19172/1499425449/Culpeper%5Fon%5FTemperament.pdf 。  
+【語法・注意】気質・体質を名詞の前で修飾し、人を分類する補語にもなる。分類名としては、どの類型に属するかを述べる。現代の more sanguine で楽観性を比べる語義1とは分ける。現代の sanguine temperament が単に楽観的な気質を意味する場合まで、すべて古語と判断しない。この歴史的説明から、実際の血液量や血液型で性格が決まるとは結論しない。  
  
