@@ -1,0 +1,215 @@
+---
+headword: accretion
+type: word
+status: checked
+prompt_version: entry_spec_v5
+model: OpenAI
+created_at: 2026-10-22
+updated_at: 2026-10-22
+checked: true
+tags: []
+---
+
+＃発音記号
+
+米・英: /əˈkriːʃn/  
+別表記の例: /əˈkriːʃən/  
+
+3音節で第2音節の /kriː/ に主強勢がある。第3音節を /ʃn/ とする表記では n が音節の中心となり、母音字がないから全体が2音節になるわけではない。/ʃən/ は第3音節の弱母音を明示する表記。ここでは長母音の記号をそろえた代表形を示している。  
+
+＃語源
+
+ラテン語 accretio にさかのぼり、accrescere「増大する」に関係する。ad-「…へ」と crescere「成長する」が結び付いた系統。同根語には accrue「生じる・蓄積する」と crescent「三日月」があり、crescent も成長することに関わるラテン語から来ている。ただし現代の金融用語で、accretion と accrual を同じ処理名として置き換えない。  
+
+＃語形成
+
+・accretions：可算用法の複数形。加わった部分や堆積物などを数える。  
+・accrete：動詞。「付加して増える・付加して増やす」。自動詞・他動詞の用法がある。歴史的には accretion からの逆成で、名詞が後から accrete＋-ion によって作られたと説明しない。  
+・accretive：形容詞。「付加によって増大する・増加をもたらす」。金融の用例では、どの指標の増加かを文脈で確認する。  
+・accretionary：形容詞。「付加による・付加作用に関する」。地学などで使う。  
+
+＃コアイメージ
+
+もとのものに何かが加わり、量やまとまりが増えること。物質、陸地、知識、数値などで加わるものは異なり、金融の簿価増加は必ず現金や市場価格が増えたことを意味するわけではない。  
+
+・付加による量や規模の増大 → 「徐々の付加・増大」（語義1）  
+・付加による新たな部分 → 「付加物・堆積物」（語義2）  
+・物質の付加による天体の成長 → 「天体への物質の取り込み」（語義3）  
+・土砂や地塊の付加による成長 → 「陸地や大陸への付加」（語義4）  
+・金額の付加による指標の増大 → 「金融・会計上の数値の増加」（語義5）  
+
+＃意味・用法・関連表現
+
+1. 【名詞・不可算】徐々の付加・増大
+
+【日本語訳・定義】物質、情報などが少しずつ加わることで、量やまとまりが大きくなる過程。単に内部から膨らむことだけでなく、付加されていく点に焦点がある。  
+
+【頻度】〈3/10〉  
+
+【レジスター/領域】改まった説明・専門的な文章。頻度は学習上の目安で、実測値ではない。  
+
+【文法パターン】the accretion of knowledge＝知識の徐々の蓄積／slow accretion＝ゆっくりした付加／accretion over time＝時間とともに進む付加。  
+
+【コロケーション・構文例】
+
+・the accretion of knowledge  
+用途: 知識が積み重なる過程を述べる。  
+例: The course emphasized the gradual accretion of knowledge through observation.  
+訳: その授業は、観察を通じて知識が徐々に積み重なることを重視した。  
+
+・slow accretion  
+用途: 付加がゆっくり進むことを明示する。  
+例: The collection grew by slow accretion rather than a single large purchase.  
+訳: その収集品は、一度の大きな購入ではなく、少しずつ追加されることで増えた。  
+
+・accretion over time  
+用途: 時間経過に伴う積み重なりに注目する。  
+例: The rules developed through accretion over time.  
+訳: その規則は、時間をかけて少しずつ付け加えられることで発展した。  
+
+【語法・注意】過程を述べるこの用法は不可算。of の後には加わる物質や内容を置け、付加先だけを示す一つの前置詞に固定しない。比喩的な知識・規則・文章の発達にも使える。ゆっくりした変化を描くことが多いが、専門領域の accretion すべてが日常感覚で遅いとは限らない。  
+
+【類義語】
+
+・accumulation  
+定義: 物や量がたまり、積み重なること。  
+頻度: 〈6/10〉  
+違い: 蓄積を広く表す。accretion は既存のものへ付加して増大するという見方を意識させる。  
+例: The accumulation of small errors distorted the final result.  
+訳: 小さな誤りの積み重なりが、最終結果をゆがめた。  
+
+・growth  
+定義: 大きさ、量、規模などが増すこと。  
+頻度: 〈9/10〉  
+違い: 増大を広く述べ、外からの付加を必須としない。accretion は増える仕方をより具体的に表す。  
+例: The report tracked the growth of the archive.  
+訳: その報告書は、資料庫の規模が拡大する様子を追った。  
+
+2. 【名詞・可算】付加物・堆積物
+
+【日本語訳・定義】付加や蓄積によって加わった部分、層、物など。物理的な付着物だけでなく、後から文章などに付け加えられたものにも使う。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】改まった描写・文章批評など。  
+
+【文法パターン】accretions of grime＝こびりついた汚れの層／editorial accretions＝編集上の後の追加／later accretions＝後から加わった部分。  
+
+【コロケーション・構文例】
+
+・accretions of grime  
+用途: たまって付着した汚れを、加わった物として述べる。  
+例: The inscription was hidden beneath accretions of grime.  
+訳: その碑文は、積み重なってこびりついた汚れの下に隠れていた。  
+
+・editorial accretions  
+用途: 原文に後から加わった編集上の追加をいう。  
+例: The scholar distinguished the original text from editorial accretions.  
+訳: その研究者は、原文と編集による後の追加を区別した。  
+
+・later accretions  
+用途: 後の時代に加わった部分を指す。  
+例: Later accretions changed the shape of the original story.  
+訳: 後から付け加えられた部分によって、もとの物語の形が変わった。  
+
+【語法・注意】数えられる付加物として使い、複数形は accretions。一般義の過程としての accretion と混同しない。後の追加であること自体から、偽造や質の低下が必ずあったとは判断しない。  
+
+【類義語】
+
+・addition  
+定義: もとのものに加えられた部分や物。  
+頻度: 〈8/10〉  
+違い: 追加を述べる平易で広い語。accretion は付着・蓄積や、次第に付け加わったという見方を含みやすい。  
+例: The final chapter was a later addition.  
+訳: 最終章は、後から加えられたものだった。  
+
+3. 【名詞・不可算】天体への物質の取り込み
+
+【日本語訳・定義】天文学でいう「降着」。重力によって物質が取り込まれ、星や惑星などの天体が成長したり、ブラックホールなどへ物質が流れ込んだりする過程。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】天文学・宇宙物理学。  
+
+【文法パターン】accretion onto a star＝星への物質の取り込み／an accretion disk＝降着円盤。  
+
+【コロケーション・構文例】
+
+・accretion onto a star  
+用途: 物質が取り込まれる先を示す。  
+例: The model describes accretion onto a young star.  
+訳: そのモデルは、若い星への物質の取り込みを記述している。  
+
+・an accretion disk  
+用途: 取り込まれる物質が天体などの周囲を回転する円盤を指す。  
+例: The illustration shows an accretion disk around the central object.  
+訳: その図は、中心の天体の周囲にある降着円盤を示している。  
+
+【語法・注意】accretion disk 全体では可算の disk が中心で、accretion はそれを名詞として修飾する。ブラックホールだけの語ではなく、星が単に内部から膨張することの一般名でもない。根拠: NASA Universe Glossary：https://science.nasa.gov/universe/glossary/ 。  
+
+4. 【名詞・不可算】陸地や大陸への付加
+
+【日本語訳・定義】土砂などが加わって陸地が成長すること、また島や地塊が大陸縁などへ付け加わること。地学では一種類の堆積過程だけに限定されない。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】地学・地形の説明。土地境界の法的な扱いとは区別が必要。  
+
+【文法パターン】coastal accretion＝海岸への付加・陸地の増大／terrane accretion＝地塊の付加。  
+
+【コロケーション・構文例】
+
+・coastal accretion  
+用途: 海岸の陸地が付加によって増えることを述べる。  
+例: The survey mapped areas of coastal accretion as well as erosion.  
+訳: その調査は、侵食した区域だけでなく、海岸の陸地が付加によって増えた区域も地図に示した。  
+
+・terrane accretion  
+用途: 地塊が付け加わる地学的な過程を述べる。  
+例: The lecture explained how terrane accretion can enlarge a continent.  
+訳: その講義は、地塊の付加によって大陸がどのように拡大し得るかを説明した。  
+
+【語法・注意】terrane は特徴ある地質を持つ地塊を指し、単に地形をいう terrain と綴り・意味を混同しない。土砂が少しずつたまる場合だけでなく、地塊の付加にも accretion を使う。土地法では、自然で徐々の変化と急激な変化などの扱いが法域によって異なる。地形が増えれば世界中で所有権も自動的に移る、とは一般化しない。根拠: NPS Accreted Terranes：https://www.nps.gov/subjects/geology/plate-tectonics-accreted-terranes.htm 。England and Wales の境界に関する限定例: HM Land Registry PG40 supplement 3：https://www.gov.uk/government/publications/hm-land-registry-plans-boundaries-pg40s3/land-registry-plans-boundaries-practice-guide-40-supplement-3 。  
+
+5. 【名詞・不可算】金融・会計上の数値の増加
+
+【日本語訳・定義】金融・会計で、帳簿価額や利益指標などが増加すること。割引で取得した債券の簿価増加と、買収などによる1株当たり利益等の増加では、何がどのように増えるかが異なるため、結合する語を確認する。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】債券会計・企業金融・買収分析など。個別の計算方法や制度の適用は別途確認する。  
+
+【文法パターン】accretion of discount＝割引額の償却による簿価増加／EPS accretion＝1株当たり利益の増加／earnings accretion＝利益指標の増加／accretion-dilution analysis＝指標の増加・希薄化の分析。  
+
+【コロケーション・構文例】
+
+・accretion of discount  
+用途: 割引で取得した証券の帳簿価額が増える処理を述べる。  
+例: The schedule records the accretion of the bond's discount over its life.  
+訳: その計算表は、債券の存続期間にわたる割引額の償却による簿価増加を記録している。  
+
+・EPS accretion  
+用途: 取引などにより、1株当たり利益が増えることを述べる。  
+例: The company forecast EPS accretion from the proposed acquisition.  
+訳: その会社は、提案された買収によって1株当たり利益が増加すると予測した。  
+
+・earnings accretion  
+用途: 増加の対象が利益に関わる指標であることを示す。  
+例: The presentation specified the measure used to calculate earnings accretion.  
+訳: その説明資料は、利益指標の増加を計算する際に使う指標を明示した。  
+
+・accretion-dilution analysis  
+用途: 買収などによる指標の増加と低下を比較する分析をいう。  
+例: The accretion-dilution analysis compared standalone and post-acquisition earnings per share.  
+訳: その増加・希薄化分析は、単独の場合と買収後の場合の1株当たり利益を比較した。  
+
+【語法・注意】accretion of discount は帳簿価額の話であり、その日の市場価格上昇や売却益を保証しない。企業買収の EPS accretion 分析では、同じ予測期の単独状態と買収を織り込んだ状態を比較する場合がある。利益総額が増えても、株数が変われば EPS が増えるとは限らない。一方、企業の実績報告で買収前の年度との比較を用いる例もあり、すべての用例が同一の比較基準だとはしない。earnings accretion が調整後EPSや別の1株当たり指標を指すこともあるため、通常の会計上のEPSと無断で同一視しない。expected / forecast の有無や前提条件を読み、予測を実績と取り違えない。この金融用法まで、必ず長期間に少しずつ増えると限定しない。accrued interest「未収・経過利息」などと、同根だから同じ処理名だとは考えない。根拠: MSRB用語集2013年版：https://www.msrb.org/sites/default/files/2022-08/MSRB-Glossary-of-Municipal-Securities-Terms-Third_Edition-August-2013.pdf 。企業の用語使用例: SouthState 2024年買収説明資料：https://s201.q4cdn.com/481248838/files/doc_events/2024/May/20/ssb_ex99-2_ibtx-presentation-final.pdf 、OFX 2024年度決算説明資料：https://www.ofx.com/wp-content/uploads/2024/05/FY24-OFX-Group-Results-Presentation.pdf 。これらを現在の全会計基準・税法の共通ルールや投資収益の保証として扱わない。  
+
+【反意語】
+
+・dilution  
+定義: この分析では、取引などにより1株当たり指標などが低下すること。  
+頻度: 〈4/10〉  
+違い: EPSなど、同じ指標・比較基準で見た増加と低下が対立する。dilution の語を、どの文脈でも利益総額の減少や株価下落と読み替えない。  
+例: The model showed EPS dilution despite an increase in total earnings.  
+訳: そのモデルでは、利益総額が増えていても、1株当たり利益は低下していた。  
