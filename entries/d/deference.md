@@ -1,0 +1,146 @@
+---
+headword: deference
+type: word
+status: checked
+prompt_version: entry_spec_v5
+model: OpenAI
+created_at: 2026-10-22
+updated_at: 2026-10-22
+checked: true
+tags: []
+---
+
+＃発音記号
+
+米・英: /ˈdefərəns/  
+2音節形の辞書記載例: /ˈdefrəns/  
+
+主強勢は第1音節。上の代表形は3音節で、第2音節の /ə/ を省いた /ˈdefrəns/ という2音節形も Merriam-Webster に載る。動詞 defer の語末強勢と混同しない。形容詞 deferential /ˌdefəˈrenʃl/ では第3音節の -ren- に主強勢がある。  
+
+＃語源
+
+フランス語 déférence に由来し、相手の判断を尊重する意味の defer に関係する。Merriam-Webster や Collins は、この系統をラテン語 deferre「運び下ろす・委ねる」に結び付け、延期する意味の defer の系統と区別している。同じ英語の綴りでも、deference を単に「延期」と解釈しない。英語内で初めて defer に -ence を付けて作られたと、借用の歴史を単純化することも避ける。  
+
+＃語形成
+
+・defer：動詞。defer to someone の形では、人の判断を尊重して譲る。「予定を延期する」という別の用法と構文を区別する。  
+・deferential：形容詞。「敬意を示す・うやうやしい」。deferential toward someone、a deferential tone など。主強勢が名詞から移る。  
+・deferentially：副詞。「敬意を示して・うやうやしく」。応答や振る舞いの仕方を述べる。  
+
+＃意味・用法・関連表現
+
+1. 【名詞・不可算】敬意を示して譲ること・尊重する態度
+
+【日本語訳・定義】相手の判断、希望、立場などを尊重し、自分の主張や行動を控えたり、相手を優先したりすること。また、そのような敬意のある態度をいう。年長者や上位者に対して使うことが多いが、それらの相手だけに限定されない。  
+
+【頻度】〈4/10〉  
+
+【レジスター/領域】改まった対人関係の説明、組織や社会の慣習など。頻度は学習上の目安で、実測値ではない。  
+
+【文法パターン】in deference to someone＝人を尊重して／in deference to something＝物事を尊重して／out of deference to someone＝人への敬意から／show deference to someone＝人に敬意を示す／treat someone with deference＝人をうやうやしく扱う／deference toward(s) someone＝人への敬意ある態度。  
+
+【コロケーション・構文例】
+
+・in deference to someone's wishes  
+用途: 相手の希望を尊重し、自分の行動を調整することをいう。  
+例: In deference to her wishes, we kept the gathering small.  
+訳: 彼女の希望を尊重し、私たちは集まりの規模を小さくした。  
+
+・out of deference to someone  
+用途: 敬意が行動を控える理由になっていることを示す。  
+例: He waited until the senior researcher had finished speaking, out of deference to her.  
+訳: 彼は上級研究員への敬意から、彼女が話し終えるまで待った。  
+
+・show deference to someone  
+用途: 相手の立場や判断に敬意を払う態度を述べる。  
+例: The team showed deference to the engineer's experience without accepting every proposal uncritically.  
+訳: チームは技術者の経験に敬意を払ったが、すべての提案を無批判に受け入れたわけではなかった。  
+
+・treat someone with deference  
+用途: 人を敬意のこもった態度で扱うことをいう。  
+例: The younger members treated the retired founder with deference.  
+訳: 若い会員たちは、引退した創設者にうやうやしく接した。  
+
+・in deference to local customs  
+用途: 人だけでなく、その場の慣習を尊重した行動を述べる。  
+例: The visitors adjusted their plans in deference to local customs.  
+訳: 訪問者たちは、土地の慣習を尊重して予定を調整した。  
+
+【語法・注意】不可算名詞として使い、much deference、little deference、excessive deference などとする。in/out of deference to の to は前置詞なので、後ろには敬意や配慮の対象を置く。動詞では defer to her judgment とするが、defer the meeting は「会議を延期する」であり、同じ意味ではない。敬意を示しても全面的な賛成や服従まで必ず伴うわけではない。excessive deference のように過度の遠慮・追従を批判する場合や、表面的に敬意を示す場合もあり、常に心からの称賛を表す語とは限らない。  
+
+【類義語】
+
+・respect  
+定義: 相手の価値や立場を認め、大切に扱うこと。  
+頻度: 〈9/10〉  
+違い: 心の中の評価から具体的な配慮まで広い。deference は、相手の判断や希望を尊重して譲る振る舞いを特に意識させる。  
+例: She expressed respect for his experience while disagreeing with his conclusion.  
+訳: 彼女は彼の結論には反対しながらも、その経験には敬意を示した。  
+
+・regard  
+定義: 相手を大切に思い、高く評価する気持ち。  
+頻度: 〈6/10〉  
+違い: 好意的な評価や配慮が中心で、判断を譲る行動までは必須ではない。deference は行動上の敬意や遠慮を表しやすい。  
+例: The staff held their former manager in high regard.  
+訳: 職員たちは、以前の管理職を高く評価していた。  
+
+・reverence  
+定義: 深い敬意や畏敬の念。  
+頻度: 〈4/10〉  
+違い: 敬意の深さや畏れを伴う感情を強調する。deference は判断や希望に譲る点に焦点があり、単なる敬意の強さの順位で比較しない。  
+例: The community spoke of the teacher with reverence.  
+訳: その地域の人々は、その教師について深い敬意を込めて語った。  
+
+【反意語】
+
+・disrespect  
+定義: 相手への敬意を欠いた態度や扱い。  
+頻度: 〈5/10〉  
+違い: 敬意を示すかどうかという軸で対立する。ただし、相手に譲らず反対すること自体が、常に disrespect になるわけではない。  
+例: Questioning the decision was not intended as disrespect.  
+訳: その決定に疑問を呈したのは、敬意を欠くつもりからではなかった。  
+
+・defiance  
+定義: 権威や要求に従わず、公然と反抗する姿勢。  
+頻度: 〈5/10〉  
+違い: 相手の意向に譲るか抗うかという行動の軸で対立する。内心の敬意が完全にないことまでは必要としない。  
+例: The refusal was seen as an act of defiance against the board.  
+訳: その拒否は、理事会に対する反抗的な行為と見なされた。  
+
+2. 【名詞・不可算】判断の尊重（司法審査など）
+
+【日本語訳・定義】裁判所などが判断する際、行政機関や下級審などの判断に重みを与えて尊重すること。単に相手をうやうやしく扱う態度ではなく、他の判断を審査するときにどこまでそれを尊重するかという制度上の関係をいう。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】法律・司法審査。具体的な内容は、法域、対象となる判断、適用される審査基準によって異なる。  
+
+【文法パターン】judicial deference＝司法上の判断の尊重／deference to an agency's findings＝行政機関の認定の尊重／the degree of deference＝判断を尊重する程度。  
+
+【コロケーション・構文例】
+
+・judicial deference  
+用途: 裁判所が他の判断を尊重するという制度上の論点を示す。  
+例: The course examines the reasons for judicial deference.  
+訳: その授業では、裁判所が他の機関などの判断を尊重する理由を検討する。  
+
+・deference to an agency's findings  
+用途: 尊重の対象が行政機関による認定であることを示す。  
+例: The judgment explains the limits of deference to the agency's findings.  
+訳: その判決は、当該行政機関の認定を尊重することの限界を説明している。  
+
+・the degree of deference  
+用途: 判断を尊重するか否かだけでなく、その程度を論じる。  
+例: The article compares the degree of deference given to different kinds of administrative decisions.  
+訳: その論文は、行政上の決定の種類ごとに、その判断がどの程度尊重されるかを比較している。  
+
+【語法・注意】一般義の「相手の判断を尊重する」とつながるが、法律上は感情的な敬意や無条件の服従を意味しない。法律の解釈、事実認定、政策上の決定などを区別する必要がある。米国では、連邦最高裁が2024年の Loper Bright 判決で、行政機関による制定法解釈に関する Chevron の審査枠組みを覆した。ただし同判決は、政策決定や事実認定についての抑制的な審査、適法な権限委任の尊重まで一律に否定していない。deference の法律用法すべてがなくなったとも、行政解釈が常に裁判所を拘束するとも理解しない。ここでは特定判決の区別を示しており、各国の現行制度や個別事件の結論を一般化しない。根拠: [米最高裁 Loper Bright 判決・多数意見14、16–18、35頁](https://www.supremecourt.gov/opinions/23pdf/22-451_7m58.pdf)。  
+
+【類義語】
+
+・respect  
+定義: 他の判断や見解に重要性を認め、尊重すること。  
+頻度: 〈8/10〉  
+違い: 一般的な尊重にも使う広い語。deference の法律用法では、審査の際に他の判断へどれだけ重みを置くかが問題になる。相手の専門性に respect があっても、法的な問題を自ら独立に検討することとは両立する。  
+例: Respect for the agency's expertise did not prevent the court from examining the legal question independently.  
+訳: 裁判所は、行政機関の専門性を尊重しながらも、法的な問題を独立に検討した。  
