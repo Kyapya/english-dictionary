@@ -171,5 +171,5 @@ tags: []
 例: The chapter distinguishes fastidious microorganisms from those with simpler nutritional needs.  
 訳: その章は、複雑な栄養条件を要する微生物と、栄養要求がより単純なものとを区別している。  
 
-【語法・注意】清潔好きな微生物、病原性の強い微生物、増殖が速い微生物という意味ではない。語義は増殖に必要な栄養条件についてのもので、具体的な生物の性質をこの形容詞だけから推測しない。根拠: [CDC 用語集・Fastidious](https://www.cdc.gov/infection-control/hcp/environmental-control/glossary.html)。  
+【語法・注意】清潔好きな微生物、病原性の強い微生物、増殖が速い微生物という意味ではない。語義は増殖に必要な栄養条件についてのもので、具体的な生物の性質をこの形容詞だけから推測しない。根拠: CDC 用語集・Fastidious：https://www.cdc.gov/infection-control/hcp/environmental-control/glossary.html。  
  
