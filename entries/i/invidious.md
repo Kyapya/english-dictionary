@@ -125,7 +125,7 @@ tags: []
 例: The chair had the invidious task of deciding whose appeal to reject.  
 訳: 議長には、誰の申し立てを退けるか決めるという、反感を買いかねない役目があった。  
 
-【語法・注意】in the invidious position of doing の of の後には動名詞を使う。position はここでは場所ではなく立場。invidious position にいる人自身が不公平・悪意ある人物という意味ではなく、状況や役目の厄介さを評価している。単に肉体的にきつい作業を invidious とするのは意味がずれやすい。  
+【語法・注意】立場・役目などを名詞の前で修飾するほか、補語にも置ける。particularly invidious で立場のつらさを強調したり、more invidious と反感を招きかねない難しさを比較したりできる。in the invidious position of doing の of の後には動名詞を使う。position はここでは場所ではなく立場。invidious position にいる人自身が不公平・悪意ある人物という意味ではなく、状況や役目の厄介さを評価している。単に肉体的にきつい作業を invidious とするのは意味がずれやすい。  
 
 【類義語】
 
