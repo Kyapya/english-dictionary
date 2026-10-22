@@ -117,5 +117,5 @@ tags: []
 例: Fatuous love in Sternberg's theory combines passion with commitment but lacks intimacy.  
 訳: Sternberg の理論における fatuous love は、情熱とコミットメントを組み合わせるが、親密さを欠く。  
 
-【語法・注意】この用法は love を名詞の前から修飾する理論上の名称であり、一般義の more fatuous のような程度比較と、構成要素による分類を混同しない。この理論の decision/commitment は、愛するという決定や関係を維持するコミットメントに関わる要素。日常語での「愚かな愛」という非難と、理論上の構成要素による区分を混同しない。一般の文章に fatuous love が出てきたら必ずこの理論を指すとも限らず、文脈の確認が必要。特定の二人の関係や将来を、この語だけから評価・予測しない。根拠: Sternberg, A Triangular Theory of Love（1986）, 124頁：https://pzacad.pitzer.edu/~dmoore/psych199/1986_sternberg_trianglelove.pdf。  
+【語法・注意】この用法は love を名詞の前から修飾する理論上の名称であり、一般義の more fatuous のような程度比較と、構成要素による分類を混同しない。この理論の decision/commitment は、愛するという決定や関係を維持するコミットメントに関わる要素。日常語での「愚かな愛」という非難と、理論上の構成要素による区分を混同しない。一般の文章に fatuous love が出てきたら必ずこの理論を指すとも限らず、文脈の確認が必要。特定の二人の関係や将来を、この語だけから評価・予測しない。根拠: Sternberg, A Triangular Theory of Love（1986）, 124頁：https://pzacad.pitzer.edu/%7Edmoore/psych199/1986%5Fsternberg%5Ftrianglelove.pdf。  
  
