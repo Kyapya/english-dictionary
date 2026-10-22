@@ -1,4 +1,5 @@
 ---
+# Sync recovery on 2026-10-22 for this interrupted entry
 headword: lugubrious
 type: word
 status: checked
