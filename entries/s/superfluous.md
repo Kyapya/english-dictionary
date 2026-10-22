@@ -70,7 +70,7 @@ tags: []
 例: After the merger, the second reception desk was superfluous to requirements.  
 訳: 合併後は、二つ目の受付カウンターは必要なくなった。  
 
-【語法・注意】名詞の前にも補語にも置ける。superfluous information と The information is superfluous. のどちらも可能。information は不可算なので、通常は a superfluous information としない。語の意味は必要性との関係で決まり、同じ説明でも初心者には必要、専門家には superfluous ということがある。extra は追加分を中立的に述べられるが、superfluous はそれを必要としないという評価を含む。人について使うと「あなたは要らない」という冷たい響きになり得るため、業務上の役割が余ることと、人としての価値を混同しない。completely superfluous のような強調ができる。-ous で終わる形容詞であり、名詞として「余分なもの」を単独で指す一般的な使い方はしない。  
+【語法・注意】意味の中心は必要性の有無だが、more superfluous のように、ある文脈での余分さ・不要さを比較する表現もある。名詞の前にも補語にも置ける。superfluous information と The information is superfluous. のどちらも可能。information は不可算なので、通常は a superfluous information としない。語の意味は必要性との関係で決まり、同じ説明でも初心者には必要、専門家には superfluous ということがある。extra は追加分を中立的に述べられるが、superfluous はそれを必要としないという評価を含む。人について使うと「あなたは要らない」という冷たい響きになり得るため、業務上の役割が余ることと、人としての価値を混同しない。completely superfluous のような強調ができる。-ous で終わる形容詞であり、名詞として「余分なもの」を単独で指す一般的な使い方はしない。  
 
 【類義語】
 
