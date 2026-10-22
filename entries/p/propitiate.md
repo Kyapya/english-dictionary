@@ -1,0 +1,103 @@
+---
+headword: propitiate
+type: word
+status: checked
+prompt_version: entry_spec_v5
+model: OpenAI
+created_at: 2026-10-22
+updated_at: 2026-10-22
+checked: true
+tags: []
+---
+
+＃発音記号
+
+米・英: /prəˈpɪʃieɪt/  
+米の別形・別表記: /proʊˈpɪʃiˌeɪt/、/prəˈpɪʃiˌeɪt/  
+英の別表記: /prəˈpɪʃɪˌeɪt/  
+
+4音節で第2音節に主強勢がある。米の別形では、第1音節の母音が /ə/ でなく /oʊ/ になる。英国の別表記では、第3音節の弱母音が /i/ でなく /ɪ/。第2音節の母音 /ɪ/ と第4音節の /eɪt/ は共通し、別表記では第4音節にも副強勢を示す。/ʃ/ の後の弱母音と、続く /eɪ/ を区別して数える。これらを英米で一意に固定した違いとはしない。  
+
+＃語源
+
+ラテン語 propitiare「好意的にする」にさかのぼり、propitius「好意的な・恵み深い」に由来する。同根語には propitious「好意的な・成功に都合のよい」と propitiatory「相手をなだめ、好意を得ようとする」がある。  
+
+propitious は好都合な状況や好意的な態度などを、propitiatory は相手をなだめる目的などを表し、単なる同義語ではない。さらに遠い語源を pro- と petere に結び付ける分析は推定を含むため、確定した分解としない。  
+
+＃語形成
+
+・propitiates / propitiated / propitiating：三人称単数現在／過去形・過去分詞／-ing形。-ing の前で最後の e を落とす。  
+・propitiation：名詞。相手をなだめ、好意を得る行為は不可算的に表す。宗教的な犠牲・供物など、なだめるためのものを指す用法もあり、名詞全体を行為の意味だけに限定しない。  
+・propitiator：その行為をする人を表す関連名詞。  
+・propitiatory / propitiative：関連形容詞。なだめるための行為・態度などをいう。  
+
+＃意味・用法・関連表現
+
+1. 【動詞T】神・人をなだめて好意を得る
+
+【日本語訳・定義】神や人などの怒り・敵意を和らげたり、それが生じるのを避けたりして、好意を得る・取り戻すこと。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】改まった語。宗教的な記述だけでなく、人間関係や集団への対応にも使う。頻度は学習上の目安で、実測値ではない。  
+
+【文法パターン】propitiate someone with something＝何かを差し出すなどして相手をなだめる／propitiate someone by -ing＝何かすることで相手の機嫌を和らげる／be propitiated with something＝何かによってなだめられる。  
+
+【コロケーション・構文例】
+
+・propitiate the spirits with gifts  
+用途: 供物などで霊的な存在の好意を得ようとすることを描く。  
+例: The villagers hoped to propitiate the spirits with gifts.  
+訳: 村人たちは、贈り物で精霊をなだめ、好意を得たいと願った。  
+
+・propitiate someone by -ing  
+用途: 人や集団の機嫌を和らげる方法を示す。  
+例: He tried to propitiate the disappointed audience by offering an extra performance.  
+訳: 彼は追加の公演を申し出て、失望した観客たちの機嫌を和らげようとした。  
+
+・be propitiated with something  
+用途: なだめられる側を主語にし、手段も示す。  
+例: The dissatisfied members were propitiated with a series of concessions.  
+訳: 不満を抱く会員たちは、一連の譲歩によってなだめられた。  
+
+【語法・注意】基本は他動詞で、神・霊・人・集団など、好意を向ける主体を直接目的語にする。相手を常に to somebody で導く自動詞として扱わない。with は供物や譲歩などの手段、by -ing は方法を示せる。受動態の by + 人で行為者を表す場合とは役割を区別する。  
+
+受動態は通常の他動詞として作れる。資料中の受動例には自動収集例もあり、上の作例の頻度や、受動の全型を編集例で実証したという意味ではない。固定した再帰熟語、二重目的語、目的語に不定詞・形容詞補語を加える型、定型句動詞は本稿では確認していない。  
+
+「怒りをなだめる」という日本語から、抽象名詞を無制限に直接目的語にしない。普通の「空腹を満たす」には appease hunger などが使えるが、propitiate hunger を同じ基本型として勧めない。特に強い存在の好意を得る場面で使われることはあるものの、常に特定の上下関係だけに限定されるわけではない。  
+
+すでに激怒した後だけでなく、怒りを未然に避けるための行為にも使う。宗教的な対象なら、単に祈る・崇拝することではなく、なだめたり好意を得ようとしたりする働きに焦点がある。語の使用は、その宗教的な効果が実証されていると主張することとは別。  
+
+propitious「好都合な」と propitiatory「なだめるための」を混同しない。相手に好意を持ってもらおうとする行為を形容するなら、後者が対応する。  
+
+【類義語】
+
+・appease  
+定義: 要求を満たしたり譲歩したりして、なだめる・満たす。  
+頻度: 〈5/10〉  
+違い: 要求への対応に焦点があり、人だけでなく hunger のような対象にも使う。propitiate は、好意を向ける相手の怒り・敵意を避けることに焦点がある。  
+例: The extra food appeased their hunger.  
+訳: 追加の食べ物が、彼らの空腹を満たした。  
+
+・placate  
+定義: 不満や怒りを和らげる。  
+頻度: 〈4/10〉  
+違い: 相手の不満・恨みを鎮めることを意識させる。propitiate は、好意を得る・敵意を避ける点にも焦点があるが、意味は大きく重なる。  
+例: The manager tried to placate the angry customers.  
+訳: 管理者は、怒っている客たちをなだめようとした。  
+
+・mollify  
+定義: 怒りや傷ついた感情を和らげる。  
+頻度: 〈3/10〉  
+違い: 強い感情を柔らげることに焦点がある。propitiate の神の好意を得るという宗教的な読み方とは、使用場面が一致しないこともある。  
+例: Her apology mollified the disappointed volunteers.  
+訳: 彼女の謝罪は、失望したボランティアたちの気持ちを和らげた。  
+
+【反意語】
+
+・anger  
+定義: 人などを怒らせる。  
+頻度: 〈7/10〉  
+違い: 相手の怒りを和らげるか生じさせるかという軸で対照になる。propitiate の好意を得るという含みを、どの文でも完全に反転する一語だとは限らない。  
+例: The abrupt refusal angered the committee.  
+訳: そのそっけない拒絶は、委員会の人々を怒らせた。  
