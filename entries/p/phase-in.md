@@ -44,7 +44,7 @@ phase の究極語源はギリシャ語 phasis「現れること」や phainein�
 
 【レジスター/領域】企業運営、政策、制度や技術の導入。受動態で導入対象を主語にすることも多い。  
 
-【文法パターン】phase in + 〈名詞目的語〉／phase + 〈名詞目的語〉 + in／phase it in／be phased in。導入主体が主語、導入する対象が目的語。  
+【文法パターン】phase in 〈名詞目的語〉／phase + 〈名詞目的語〉 + in／phase it in／be phased in。導入主体が主語、導入する対象が目的語。  
 
 【コロケーション・構文例】
 
@@ -168,7 +168,7 @@ phase の究極語源はギリシャ語 phasis「現れること」や phainein�
 
 【レジスター/領域】税などの制度説明。時間に沿った一般的な導入と、条件に沿った適用の拡大を区別する。  
 
-【文法パターン】a rule + phase in + 〈適用対象〉／a credit + be phased in as earnings rise。制度側を主語にする他動詞と、適用対象を主語にする受動態。  
+【文法パターン】a rule + phase in 〈適用対象〉／a credit + be phased in as earnings rise。制度側を主語にする他動詞と、適用対象を主語にする受動態。  
 
 【コロケーション・構文例】
 
