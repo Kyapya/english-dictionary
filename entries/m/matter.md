@@ -4,7 +4,7 @@ type: word
 status: checked
 prompt_version: entry_spec_v5
 created_at: 2026-10-25
-updated_at: 2026-10-25
+updated_at: 2026-10-26
 checked: true
 tags: []
 ---
@@ -301,6 +301,13 @@ tags: []
 例: Every opinion counts in this discussion.  
 訳: この議論では、一人ひとりの意見が大切だ。  
 
+・make a difference  
+定義: 結果や状況に影響を与え、違いを生む。  
+頻度: 〈8/10〉  
+違い: matter が重要さを直接述べるのに対し、この句は影響や違いを生む点に焦点を当てる。肯定形でも、重要な意味や影響を持つという点で両者は重なり、必ず測定できる変化が必要なわけではない。make no difference と doesn't matter は、選択しても違いがなく問題にならない場面で重なる。ただし、大切に思うという matter のすべてを、具体的な変化が起きるという意味に限定しない。  
+例: It makes no difference to me whether we meet on Tuesday or Wednesday.  
+訳: 火曜日に会うか水曜日に会うかは、私にはどちらでもかまわない。  
+
 7. 【名詞句／副詞的前置詞句】〜次第の問題・〜に関わる事柄
 
 【日本語訳・定義】a matter of の後ろに名詞や -ing 形を置き、その問題が何にかかっているか、どのような性質の事柄かを示す。具体的な内容によって「〜次第」「〜の問題」「〜に関わること」と訳す。as a matter of principle などの as 句は、行為の方針・根拠を示す。  
@@ -429,7 +436,7 @@ tags: []
 例: No matter how difficult the question is, we will consider it carefully.  
 訳: その問いがどれほど難しくても、私たちは慎重に検討する。  
 
-【語法・注意】No matter what you choose, ... の部分だけでは、通常は主節まで含んだ文は完結しない。It doesn't matter what you choose. は語義6の動詞を使った独立した文であり、機械的に it doesn't を削れば何でも同じ構文になるわけではない。no matter how hard... の how は形容詞・副詞の程度を導く。ここでの譲歩構文と、動詞 matter の that節を混同しない。  
+【語法・注意】No matter what you choose, ... の部分だけでは、通常は主節まで含んだ文は完結しない。It doesn't matter what you choose. は語義6の動詞を使った独立した文であり、機械的に it doesn't を削れば何でも同じ構文になるわけではない。no matter how hard... の how は形容詞・副詞の程度を導く。ここでの譲歩構文と、動詞 matter の that節を混同しない。whatever には譲歩節を導く用法のほか、Choose whatever you prefer.「好きなものを選んで」のように、選ぶ対象を示す用法もある。この目的語の whatever you prefer を、そのまま no matter what you prefer に置き換えない。  
 
 【類義語】
 
@@ -439,6 +446,20 @@ tags: []
 違い: 前置詞句で名詞句などを後ろに置く。no matter の疑問詞節と意味が近くても、後続要素をそのまま同じ形で入れ替えられるとは限らない。  
 例: The service is available regardless of age.  
 訳: そのサービスは、年齢を問わず利用できる。  
+
+・whatever  
+定義: 何を〜しても・どのようなことが起きても。  
+頻度: 〈9/10〉  
+違い: 譲歩の意味では no matter what と重なり、条件が変わっても主節が成り立つことを示す。whatever には「〜するものは何でも」という対象を指す用法もあるため、あらゆる whatever を no matter what に換えられるわけではない。  
+例: Whatever you decide, we will respect your choice.  
+訳: あなたがどのように決めても、私たちはその選択を尊重する。  
+
+・even if  
+定義: たとえ〜であっても。  
+頻度: 〈9/10〉  
+違い: ある条件を認めても主節が変わらないことを示し、no matter whether と近い働きをする。ただし no matter what の what は節内の目的語などにもなるため、疑問詞をすべて if に取り替えれば同じ構文になるわけではない。  
+例: Even if the weather is bad, the meeting will go ahead indoors.  
+訳: たとえ天気が悪くても、会合は屋内で予定どおり行われる。  
 
 11. 【副詞句】実際には・実を言うと
 
@@ -472,6 +493,13 @@ tags: []
 違い: 同様に実際の事実を示す副詞で、短く使える。as a matter of fact は句として事実を取り出す言い方。  
 例: I actually enjoyed the long walk.  
 訳: 実のところ、私はその長い散歩を楽しんだ。  
+
+・in fact  
+定義: 実際には・事実として。  
+頻度: 〈9/10〉  
+違い: as a matter of fact と意味の重なりが大きく、実際の事情を示す点を共有する。両句を「一方は訂正専用、他方は補足専用」と区分せず、前後の話から訂正か補足かを判断する。in fact には冠詞を入れない。  
+例: The journey was not tiring. In fact, I found it quite relaxing.  
+訳: その旅は疲れるものではなかった。実際、かなりくつろげると感じた。  
 
 12. 【副詞句】その点では〜も・ついでに言えば
 
