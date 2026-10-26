@@ -108,6 +108,13 @@ part、particle と同じ「部分」の語源系列に関係する。ただし�
 例: Please give a specific example.  
 訳: 具体的な例を挙げてください。  
 
+・individual  
+定義: 集団や全体の中の一人一人・一つ一つに関する。  
+頻度: 〈8/10〉  
+違い: individual はまとめて扱わず個別に見ることに重点を置く。particular は、ほかの候補ではなく、取り上げているその対象を特定することに重点を置く。each individual item と each particular item のように重なる場合もある。  
+例: We considered each individual request.  
+訳: 私たちは、一つ一つの依頼を個別に検討した。  
+
 【反意語】
 
 ・general  
@@ -181,6 +188,15 @@ part、particle と同じ「部分」の語源系列に関係する。ただし�
 【語法・注意】形容詞・副詞・動詞などを修飾できる。not particularly は「特にそうではない」「それほどでもない」と程度を弱める言い方で、必ず正反対の性質を断言するわけではない。in particular は対象の取り立てに使いやすく、どの位置でもparticularlyとそのまま交換できるわけではない。  
 
 程度を強めるだけでなく、一般論の中から具体的な指示対象を取り立てる場合にも使う。この対象指定は強調の読みと重なるため、ここでは同じ語義の用法として扱う。  
+
+【類義語】
+
+・especially  
+定義: 他のものと比べて特に・とりわけ。  
+頻度: 〈8/10〉  
+違い: particularly と多くの場面で重なり、程度の強調にも対象の取り立てにも使える。二語の間に常に成り立つ強さの差はない。ここでの意味では、particularly useful を especially useful にしても中心的な意味は変わらない。  
+例: The map is especially useful when you are walking around the old town.  
+訳: その地図は、旧市街を歩いて回るときに特に役立つ。  
 
 4. 【形容詞：主に名詞の前】特別な・格別の
 
@@ -282,6 +298,15 @@ part、particle と同じ「部分」の語源系列に関係する。ただし�
 
 【語法・注意】通常複数だからといって単数が存在しないわけではない。in every particular のように、一つ一つの細部を捉える単数形もある。個人情報の particulars も、文脈で求められる具体的項目を指す。  
 
+【類義語】
+
+・detail  
+定義: 全体を成す個々の細かな事実・部分。  
+頻度: 〈8/10〉  
+違い: 情報を表す複数形 details は particulars と重なる。detail は建物や絵の細部などにも広く使え、particulars は具体的に示す事実や項目のまとまりに使われやすい。details が常に重要でない情報というわけではない。  
+例: Please send me the details of the meeting.  
+訳: 会議の詳しい情報を送ってください。  
+
 7. 【形容詞：主に名詞の前】詳細な・細部まで正確な
 
 【日本語訳・定義】個々の細部を具体的に取り上げ、精密に述べた。  
@@ -367,6 +392,15 @@ part、particle と同じ「部分」の語源系列に関係する。ただし�
 訳: 付録は、各結論を支える事実を一つ一つ具体的に示している。  
 
 【語法・注意】目的語を直接取る。単に長く話すことではなく、個々の事項を特定・明示することが中心。  
+
+【類義語】
+
+・detail  
+定義: 事実や内容を細部まで詳しく述べる。  
+頻度: 〈6/10〉  
+違い: particularize のこの用法と同様、説明する内容を直接目的語に取れる。particularize は個々の事項を特定して示すことに重点があり、detail は詳しい内容を述べることを広く表す。語義11の目的語を取らない particularize まで、同じ構文のまま置換できるという意味ではない。  
+例: The report details the changes made to the design.  
+訳: その報告書は、設計に加えられた変更を詳しく説明している。  
 
 11. 【自動詞：particularize】詳しく述べる
 
