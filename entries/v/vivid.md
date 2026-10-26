@@ -4,7 +4,7 @@ type: word
 status: checked
 prompt_version: entry_spec_v5
 created_at: 2026-10-25
-updated_at: 2026-10-25
+updated_at: 2026-10-26
 checked: true
 tags: []
 ---
@@ -138,6 +138,20 @@ tags: []
 
 【類義語】
 
+・detailed  
+定義: 細部や情報が豊富な、細かな点まで扱った。  
+頻度: 〈7/10〉  
+違い: detailed は情報や細部の多さ・細かさに焦点を当て、vivid は受け手に生き生きとした像を与える点に焦点を当てる。詳しくても臨場感の乏しい説明はあり、両語は同じ評価ではない。detailed は文章だけでなく、画像や彫刻などにも使う。  
+例: The report gives a detailed description of every stage of the process.  
+訳: その報告書には、工程の各段階が細かく説明されている。  
+
+・picturesque  
+定義: 言葉で、特徴や魅力の際立つ情景を描く。  
+頻度: 〈3/10〉  
+違い: この描写義では、vivid が対象の生きた実感を強く伝えるのに対し、picturesque は目立った特徴や魅力を組み合わせて印象的な情景を示すことに焦点を当てる。場所自体が絵になるという別の用法とは区別する。  
+例: Her picturesque account of the village brought its winding lanes and flower-filled balconies to mind.  
+訳: 村の情景を印象豊かに描いた彼女の話から、曲がりくねった路地や花でいっぱいのバルコニーが思い浮かんだ。  
+
 ・graphic  
 定義: 細部まで目に浮かぶように具体的・写実的である。  
 頻度: 〈6/10〉  
@@ -151,6 +165,13 @@ tags: []
 違い: 実物への外見上の似方が中心。vivid は言語表現による臨場感にも広く使う。  
 例: The museum displayed a lifelike model of a wolf.  
 訳: 博物館には、本物そっくりのオオカミの模型が展示されていた。  
+
+・realistic  
+定義: 現実の姿や状況に即して、実物らしく表現した。  
+頻度: 〈7/10〉  
+違い: realistic は表現が現実の物事にどれほど似ているかを捉え、vivid は受け手に浮かぶ像の鮮明さ・生きた実感を捉える。両方を満たす描写もあるが、現実にはあり得ない場面も vivid に描ける。ここでは、計画などが実現可能だという realistic の別義を扱わない。  
+例: The novel gives a realistic portrayal of life in a small factory town.  
+訳: その小説は、小さな工業の町での暮らしを現実に即して描いている。  
 
 ・evocative  
 定義: 記憶・感情・心像などを強く呼び起こす。  
@@ -254,7 +275,7 @@ tags: []
 例: The novel reveals the writer's wonderfully vivid imagination.  
 訳: その小説からは、作者の驚くほど生き生きとした想像力がうかがえる。  
 
-【語法・注意】日本語では「想像力が豊かな」と訳せるが、単にアイデアの数が多いという意味に狭めない。また、知能や推論の正しさを直接評価する語ではない。恐ろしい可能性まで鮮明に想像してしまう場合にも使え、常にほめ言葉とは限らない。  
+【語法・注意】日本語では「想像力が豊かな」と訳せるが、単にアイデアの数が多いという意味に狭めない。また、知能や推論の正しさを直接評価する語ではない。恐ろしい可能性まで鮮明に想像してしまう場合にも使え、常にほめ言葉とは限らない。関連する imaginative は、an imaginative child や an imaginative idea のように、人や発想に新しさ・創意があることを好意的に評価する。a vivid imagination が強調する像の鮮明さと、発想の独創性を同じものと考えない。  
 
 【類義語】
 
@@ -334,3 +355,10 @@ tags: []
 違い: 快活さや魅力を肯定的に述べる点が中心で、vivid の心像・色の語義には置き換えられない。  
 例: Our guide was vivacious and kept the whole group engaged.  
 訳: ガイドは快活で魅力的で、参加者全員を引きつけていた。  
+
+・dynamic  
+定義: 活力があり、強い個性を持つ。  
+頻度: 〈6/10〉  
+違い: 人物について、vivid と活力や強い存在感の点で重なる。dynamic は活力と強い個性を好意的に評価する語で、vivid の色や心像の鮮明さという意味までは共有しない。人物義同士に、常に置き換えを妨げる厳密な境界があるわけではない。  
+例: The team needs a dynamic leader who can inspire its members.  
+訳: チームには、メンバーを奮い立たせられる、活力と強い個性を備えたリーダーが必要だ。  
