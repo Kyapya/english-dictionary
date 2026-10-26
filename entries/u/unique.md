@@ -4,7 +4,7 @@ type: word
 status: checked
 prompt_version: entry_spec_v5
 created_at: 2026-10-25
-updated_at: 2026-10-25
+updated_at: 2026-10-26
 checked: true
 tags: []
 ---
@@ -137,6 +137,13 @@ uniquely は米・英 /juˈniːkli/、uniqueness は米・英 /juˈniːknəs/。
 例: It is unusual to see the square so quiet at noon.  
 訳: 正午にその広場がこれほど静かなのは珍しい。  
 
+・distinctive  
+定義: 他と区別できるような、際立った特徴を持つ。  
+頻度: 〈7/10〉  
+違い: distinctive は見分けにつながる特徴に焦点があり、唯一の一例だと主張する語ではない。この意味の unique は特別さ・独特さを強く述べるが、厳密な唯一性で使う unique とは区別する。  
+例: The station has a distinctive red roof.  
+訳: その駅には、見分けのつく特徴的な赤い屋根がある。  
+
 3. 【形容詞】特有の・固有の
 
 【日本語訳・定義】ある人・場所・物などだけに属する、またはそれに特有で、ほかには同じ形では見られない。  
@@ -165,6 +172,15 @@ uniquely は米・英 /juˈniːkli/、uniqueness は米・英 /juˈniːknəs/。
 訳: その問題は、小さな会社だけに特有のものではない。  
 
 【語法・注意】ここでの to は前置詞で、後ろには名詞句を置く。unique to this island は島への固有性、unique in having ... はある特徴を持つ点での唯一性を示す。個体ごとの違いをいう unique to each person と、一人だけが持つことをいう unique to one person も文脈で区別する。  
+
+【類義語】
+
+・peculiar to  
+定義: 特定の人・場所・種類などに特有の。  
+頻度: 〈5/10〉  
+違い: peculiar to も、ある対象だけに属する性質を示し、unique to と重なる。「peculiar なら他にもある」と一律には分けない。peculiar 単独には奇妙さを述べる別義もあるが、この固有性の用法で必ず不快な奇妙さを意味するわけではない。  
+例: The report examines problems peculiar to coastal towns.  
+訳: その報告書は、沿岸の町に特有の問題を検討している。  
 
 4. 【形容詞、情報・識別】一意の・重複しない
 
