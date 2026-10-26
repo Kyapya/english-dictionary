@@ -476,5 +476,70 @@ class ValidateEntryTests(unittest.TestCase):
         self.assertEqual(validate_file(path), [])
 
 
+class DerivedFormAndTerminalNoteTests(unittest.TestCase):
+    def check_pattern(self, pattern, label="名詞：definition", formation="definition"):
+        from validate_entry import _check_v3_collocation_headword
+        lines = [
+            "＃語形成", "", f"・{formation}：語族の説明。", "",
+            "＃意味・用法・関連表現", "", f"1. 【{label}】定義", "",
+            "【コロケーション】", "", f"・{pattern}", "用途: 説明。",
+            "例: Example.", "訳: 例。",
+        ]
+        return _check_v3_collocation_headword(lines, "define")
+
+    def test_explicit_current_sense_form(self):
+        self.assertEqual(self.check_pattern("a definition of something"), [])
+        self.assertEqual(self.check_pattern("different definitions"), [])
+        self.assertEqual(self.check_pattern("by definition", "副詞句：by definition"), [])
+        self.assertEqual(self.check_pattern("a defining feature", "形容詞：defining", "defining"), [])
+
+    def test_plural_spelling_change(self):
+        self.assertEqual(self.check_pattern("several obscurities", "名詞：obscurity", "obscurity"), [])
+
+    def test_unrelated_or_undeclared_pattern_still_fails(self):
+        self.assertTrue(self.check_pattern("a description of something"))
+        self.assertTrue(self.check_pattern("a definition", "名詞", "definition"))
+        self.assertTrue(self.check_pattern("a definition", "名詞：definition", "defining"))
+        self.assertTrue(self.check_pattern("redefinition", "名詞：definition"))
+        self.assertTrue(self.check_pattern("definitionally", "名詞：definition"))
+
+    def test_prose_is_not_a_form_declaration(self):
+        self.assertTrue(self.check_pattern("a description", "名詞：description", "definition：description"))
+
+    def test_form_scope_resets_at_next_sense(self):
+        from validate_entry import _check_v3_collocation_headword
+        lines = ["＃語形成", "・definition：説明。", "＃意味・用法・関連表現",
+                 "1. 【名詞：definition】定義", "2. 【他動詞】定義する",
+                 "【コロケーション】", "・a definition", "用途: 説明。", "例: Example.", "訳: 例。"]
+        self.assertTrue(_check_v3_collocation_headword(lines, "define"))
+
+    def terminal_text(self):
+        # Keep a complete normal v5 article; omit optional relation sections.
+        return VALID_V5_MARKDOWN.split("【類義語】", 1)[0].rstrip("\n")
+
+    def test_complete_terminal_usage_note_with_or_without_newline(self):
+        from validate_entry import validate_text
+        for ending in ("", "\n", "\n\n"):
+            with self.subTest(ending=repr(ending)):
+                self.assertEqual(validate_text(self.terminal_text() + ending), [])
+
+    def test_terminal_note_keeps_other_format_guards(self):
+        from validate_entry import validate_text
+        text = self.terminal_text()
+        self.assertTrue(any("exactly two spaces" in x for x in validate_text(text.rstrip(" "))))
+        no_preblank = text.replace("\n\n【語法・注意】", "\n【語法・注意】")
+        self.assertTrue(any("one blank line before" in x for x in validate_text(no_preblank)))
+        doubled = text.replace("\n\n【語法・注意】", "\n\n\n【語法・注意】")
+        self.assertTrue(any("consecutive blank lines" in x for x in validate_text(doubled)))
+        empty = text.split("【語法・注意】", 1)[0] + "【語法・注意】  "
+        self.assertTrue(validate_text(empty))
+
+    def test_interior_note_and_terminal_heading_not_exempt(self):
+        from validate_entry import _check_v5_blank_lines
+        self.assertTrue(_check_v5_blank_lines(["", "【語法・注意】説明。  ", "次の内容。  "]))
+        self.assertTrue(_check_v5_blank_lines(["", "【類義語】"]))
+        self.assertTrue(_check_v5_blank_lines(["", "1. 【名詞】意味"]))
+
+
 if __name__ == "__main__":
     unittest.main()

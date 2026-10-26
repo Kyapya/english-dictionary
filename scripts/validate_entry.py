@@ -444,19 +444,66 @@ def _check_v3_frequencies(lines: list[str]) -> list[str]:
     return errors
 
 
+def _declared_family_forms(lines: list[str]) -> set[str]:
+    """Read explicitly named forms, not English words in explanatory prose.
+
+    This establishes article-local scope only; the independent content review
+    still has to verify the linguistic relationship to the headword.
+    """
+    forms: set[str] = set()
+    in_formation = False
+    for line in lines:
+        stripped = line.strip()
+        if stripped.startswith("＃"):
+            in_formation = stripped == "＃語形成"
+        elif in_formation:
+            match = re.match(r"・([A-Za-z]+(?:-[A-Za-z]+)*)(?=[：:（(])", stripped)
+            if match:
+                forms.add(match.group(1).casefold())
+    return forms
+
+
+def _contains_form(text: str, form: str) -> bool:
+    return re.search(rf"(?<![A-Za-z]){re.escape(form)}(?![A-Za-z])", text, re.I) is not None
+
+
+def _regular_plural_forms(form: str) -> set[str]:
+    forms = {form, form + "s"}
+    if re.search(r"[^aeiou]y$", form):
+        forms.add(form[:-1] + "ies")
+    if form.endswith(("s", "x", "z", "ch", "sh")):
+        forms.add(form + "es")
+    return forms
+
+
 def _check_v3_collocation_headword(lines: list[str], headword: str) -> list[str]:
     errors: list[str] = []
     if not headword:
         return errors
     expected = headword.casefold()
+    declared_forms = _declared_family_forms(lines)
+    sense_forms: set[str] = set()
     for marker_index, line in enumerate(lines):
+        if SENSE_PATTERN.match(line.strip()):
+            # A form must be declared in this sense's grammatical label, not
+            # merely mentioned in a definition, example, or another sense.
+            label = re.search(r"【([^】]+)】", line)
+            sense_forms = set()
+            if label:
+                for form in declared_forms:
+                    if _contains_form(label.group(1), form):
+                        sense_forms.update(_regular_plural_forms(form))
+        elif line.strip().startswith("＃"):
+            sense_forms = set()
         if not line.strip().startswith("【コロケーション】"):
             continue
         content = _section_lines(lines, marker_index)
         complete_length = len(content) - (len(content) % 4)
         for offset in range(0, complete_length, 4):
             line_index, pattern = content[offset]
-            if expected not in pattern.casefold():
+            if expected not in pattern.casefold() and not any(
+                _contains_form(pattern, form) for form in sense_forms
+            ):
                 errors.append(
                     f"line {line_index + 1}: collocation pattern must include headword: {headword}"
                 )
@@ -529,7 +576,14 @@ def _check_v5_blank_lines(lines: list[str]) -> list[str]:
             errors.append(
                 f"line {index + 1}: v5 independent blocks require one blank line before"
             )
-        if index + 1 >= len(lines) or lines[index + 1].strip():
+        terminal_usage_note = (
+            index == len(lines) - 1
+            and stripped.startswith("【語法・注意】")
+            and bool(stripped.removeprefix("【語法・注意】").strip())
+        )
+        if not terminal_usage_note and (
+            index + 1 >= len(lines) or lines[index + 1].strip()
+        ):
             errors.append(
                 f"line {index + 1}: v5 independent blocks require one blank line after"
             )
