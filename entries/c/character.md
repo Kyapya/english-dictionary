@@ -4,7 +4,7 @@ type: word
 status: checked
 prompt_version: entry_spec_v5
 created_at: 2026-10-25
-updated_at: 2026-10-25
+updated_at: 2026-10-26
 checked: true
 tags: []
 ---
@@ -246,6 +246,36 @@ char と actor を組み合わせた語ではない。現代の character actor 
 
 【語法・注意】in character が常に「役になりきって」ではない。informal in character のように形容詞を伴う場合、ここでは「性質として形式ばらない」の意。物事に personality があると言う擬人的な表現とは区別する。  
 
+【類義語】
+
+・nature  
+定義: 物事がもともと持つ性質・本質。  
+頻度: 〈8/10〉  
+違い: nature は物事の基本的なあり方に焦点を置き、character はその物事や種類を特徴づける性質を捉える。similar in nature と similar in character のように重なる場合も多く、本質と表面的特徴の厳密な二分ではない。  
+例: Their complaints differed in detail but were similar in nature.  
+訳: 彼らの苦情は細部こそ違ったが、性質は似ていた。  
+
+・quality  
+定義: 人や物を特徴づける性質・特性。  
+頻度: 〈8/10〉  
+違い: この意味の quality は個々の性質を述べる広い語で、良い性質に限らない。character は特徴的なあり方や全体的な性格を述べやすい。quality の「品質の良さ」という別義を、この比較へそのまま持ち込まない。  
+例: The voice had a warm, reassuring quality.  
+訳: その声には、温かく安心させる響きがあった。  
+
+・property  
+定義: 物に備わる、特徴的な性質・特性。  
+頻度: 〈7/10〉  
+違い: property は物質などが持つ性質を、個別の特徴として説明する際に使う。character は全体の性質・特色にも使い、町の雰囲気などを自由に property と置き換えるわけではない。この比較で property は所有物や不動産を意味しない。  
+例: Elasticity is an important property of this material.  
+訳: 弾性は、この素材の重要な性質だ。  
+
+・attribute  
+定義: 人や物に備わるものとして捉えられる特質。  
+頻度: 〈6/10〉  
+違い: attribute は個々の特質に焦点があり、対象について認めたり帰属させたりする性質を述べる。character はその対象らしい性質や全体的なあり方を捉える。attribute と呼ぶだけで、その特質が客観的に証明されたことになるわけではない。  
+例: Patience is a useful attribute for a teacher.  
+訳: 忍耐力は、教師にとって役立つ資質だ。  
+
 5. 【名詞：不可算】人格的な強さ・高潔さ
 
 【日本語訳・定義】困難に立ち向かう精神的な強さ、誠実さ、信念を保つ力など、評価される人格的資質。  
@@ -274,6 +304,8 @@ char と actor を組み合わせた語ではない。現代の character actor 
 訳: 人々は彼を、高潔で思いやりのある人物として記憶している。  
 
 【語法・注意】show a character とすると通常は、ある人物・文字を示すなど別の構造になる。この不可算義の character は、目立つ個性や話の面白さだけではない。good character/bad character と修飾する場合は、資質の良し悪しを明示して評価する。  
+
+関連語 integrity は、誠実さや道徳的な原則を守る姿勢に焦点を置く。この意味の character と重なるが、逆境で粘り強く戦う精神的な強さなど、character の評価範囲すべてを integrity で表すわけではない。性格一般をいう語義1の character も、常に高潔さを意味するわけではない。  
 
 6. 【名詞：不可算】独特の味わい・個性
 
