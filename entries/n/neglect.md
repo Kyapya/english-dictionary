@@ -4,7 +4,7 @@ type: word
 status: checked
 prompt_version: entry_spec_v5
 created_at: 2026-10-25
-updated_at: 2026-10-25
+updated_at: 2026-10-26
 checked: true
 tags: []
 ---
@@ -140,6 +140,13 @@ tags: []
 例: I overlooked a small error in the final paragraph.  
 訳: 最後の段落にあった小さな誤りを、私は見落とした。  
 
+・disregard  
+定義: 注意を払わず、考慮に入れない。  
+頻度: 〈6/10〉  
+違い: disregard は、知っていても意に介さないという意図的な扱いを示しやすい。neglect は必要な対応・注意の不足に焦点があり、故意にも不注意にもよる。どちらも、無視された内容自体が正しいと保証する語ではない。  
+例: He disregarded the warning and continued with the plan.  
+訳: 彼は警告を意に介さず、計画を進めた。  
+
 3. 【動詞・to不定詞補文】～し忘れる・～するのを怠る
 
 【日本語訳・定義】neglect to do の形で、すべき行為をしないままにすること。不注意・失念による場合も、行わなかった点を遠回しに指摘する場合もある。  
@@ -242,6 +249,8 @@ tags: []
 訳: その本は、地域史の中で長く顧みられてこなかった分野を探究している。  
 
 【語法・注意】対象の質が悪いという意味ではなく、十分に関心・世話を受けていないこと。優れた作品でも neglected と言える。by句を伴う be neglected は、出来事の受動にも状態の説明にもなり得るため、by の有無だけで区別しない。  
+
+人について feel neglected と feel slighted を比べると、前者は十分に気にかけてもらえないと感じること、後者は軽んじられた・失礼に扱われたと感じることに焦点がある。例えば、He felt slighted when the chair dismissed his contribution without discussion. は「議長が彼の意見を議論もせず退けたとき、彼は軽んじられたと感じた」。無視されたため両方を感じることもあるが、世話や関心の不足と、敬意を欠く扱いとは同一ではない。  
 
 6. 【名詞・不可算】放置・荒廃した状態
 
