@@ -4,7 +4,7 @@ type: word
 status: checked
 prompt_version: entry_spec_v5
 created_at: 2026-10-25
-updated_at: 2026-10-25
+updated_at: 2026-10-26
 checked: true
 tags: []
 ---
@@ -104,6 +104,13 @@ pecuniary「金銭上の」、impecunious「金のない」も、家畜・財産
 例: Our neighbour has an eccentric collection of mechanical toys.  
 訳: 隣人は、風変わりな機械仕掛けのおもちゃのコレクションを持っている。  
 
+・odd  
+定義: 普通の状態や予想から外れて、妙に感じられる。  
+頻度: 〈7/10〉  
+違い: この意味では peculiar と広く重なる。odd はちょっとした違和感にも使え、peculiar はその対象の独特な様子を意識させることがあるが、奇妙さの強さを二語だけで一律に順位付けはできない。  
+例: It's odd that the lights are on when nobody is home.  
+訳: 誰も家にいないのに明かりがついているのは妙だ。  
+
 2. 【形容詞】特有の・独自の
 
 【日本語訳・定義】ある人・物・集団・場所などに固有の、またはとくに特徴的な。必ずしも奇妙だという批判ではない。  
@@ -142,6 +149,13 @@ pecuniary「金銭上の」、impecunious「金のない」も、家畜・財産
 例: The response was characteristic of her cautious approach.  
 訳: その反応には、彼女の慎重な姿勢がよく表れていた。  
 
+・unique to  
+定義: 特定の対象だけに見られる。  
+頻度: 〈6/10〉  
+違い: 他にはないという限定を明示する。peculiar to も同じ限定を表せるが、その対象ならではの特徴に重点を置く場合もある。「peculiar to は他にもある、unique to は他にはない」という固定的な対立にはしない。  
+例: This combination of features is unique to the new model.  
+訳: この機能の組合せは、新型モデルだけのものだ。  
+
 3. 【副詞：peculiarly】とりわけ・特に
 
 【日本語訳・定義】通常以上に、または格別に。性質の強さや程度を強調する。  
@@ -165,6 +179,15 @@ pecuniary「金銭上の」、impecunious「金のない」も、家畜・財産
 訳: 若い植物は、急激な温度変化の影響をとりわけ受けやすい。  
 
 【語法・注意】especially/particularly に近い強調用法。必ずしも不可解な異常を述べるわけではない。  
+
+【類義語】
+
+・particularly  
+定義: 特に・とりわけ。性質や程度を強調する。  
+頻度: 〈8/10〉  
+違い: particularly difficult のように、格別の程度を述べるこの意味の peculiarly と重なる。particularly 自体は「妙に」という評価を表さず、peculiarly の奇妙さの意味まで一律に置き換えられるわけではない。  
+例: The last question was particularly difficult.  
+訳: 最後の問題は、特に難しかった。  
 
 4. 【形容詞】特別な・格別の
 
