@@ -4,7 +4,7 @@ type: word
 status: checked
 prompt_version: entry_spec_v5
 created_at: 2026-10-25
-updated_at: 2026-10-25
+updated_at: 2026-10-26
 checked: true
 tags: []
 ---
@@ -130,6 +130,20 @@ tags: []
 例: The revised design offers only a marginal improvement.  
 訳: 修正した設計による改善は、ごくわずかにとどまる。  
 
+・tiny  
+定義: 量・差などが非常に小さい。  
+頻度: 〈7/10〉  
+違い: tiny は小ささを強く打ち出す。slight difference と tiny difference は重なるが、tiny は物の寸法にも広く使う一方、slight はそのまま全対象へ置き換えられない。程度の境界が数値で決まるわけではない。  
+例: A tiny change in the settings altered the result.  
+訳: 設定のごくわずかな変更で、結果が変わった。  
+
+・negligible  
+定義: 小さく、考慮するほどではない。  
+頻度: 〈6/10〉  
+違い: negligible は考慮しなくてよいほどだという評価を含む。slight は程度が小さいことを表し、その差や影響が重要でないとは限らない。  
+例: The difference in cost was negligible.  
+訳: 費用の差は、無視できるほど小さかった。  
+
 【反意語】
 
 ・considerable  
@@ -225,6 +239,8 @@ tags: []
 
 【語法・注意】in the slightest を無条件に肯定の「ほんの少し」として使うのではなく、この慣用義では否定との組合せを押さえる。not を落とすと同じ意味にはならない。語義1の the slightest noise は名詞句であり、この副詞句とは構造が違う。  
 
+程度を全面的に否定する not at all と意味が重なるが、not … in the slightest は「最小限さえない」と強調する。not at all には礼への応答など別の使い方もあるため、どの場面でも in the slightest に置き換えるわけではない。  
+
 4. 【形容詞】小柄でほっそりした
 
 【日本語訳・定義】人の体つきが小さく細いことを表す。繊細に見える含みはあり得るが、病弱・低体重・美しさを必ず意味するわけではない。  
@@ -269,6 +285,13 @@ tags: []
 違い: 小柄であることは含まない。背が高くて thin な人もいる。  
 例: He is tall and thin.  
 訳: 彼は背が高く、痩せている。  
+
+・slim  
+定義: 体つきがほっそりしている。  
+頻度: 〈7/10〉  
+違い: slim は体の細さに焦点があり、slight は細さに加えて体格の小ささも捉えやすい。細身であるだけで、身長が低い、身体が弱いと必ず判断できるわけではない。  
+例: He is tall and slim, with long arms.  
+訳: 彼は背が高く細身で、腕が長い。  
 
 5. 【他動詞】人を軽んじる・ないがしろにする
 
@@ -375,6 +398,8 @@ tags: []
 
 【語法・注意】They slighted her は行為者が主語、She was slighted by them は受動態、She felt slighted は本人の感情を中心に述べる。feel は受動態を作る助動詞ではない。slighted を形容詞 slight「わずかな」の過去形と考えない。  
 
+feel neglected は、世話や関心を十分に向けてもらえないと感じること。feel slighted は敬意を欠く扱いを受けたという気持ちに焦点がある。関心を向けられないことが軽視にも感じられる場合は重なるが、世話の不足と侮辱的な扱いを同じものとして決めつけない。  
+
 8. 【形容詞】内容の乏しい・取るに足りない
 
 【日本語訳・定義】作品・話題などが、真剣に取り上げるだけの内容や重要性に乏しいと評価する。物理的に短い・小さいことだけではない。  
@@ -398,6 +423,15 @@ tags: []
 訳: その論考は、大げさな題名のわりに内容が乏しく思えた。  
 
 【語法・注意】slight novel は単に短い小説という意味ではない。短くても中身の濃い作品はあり得る。この評価義を、人の体格を描く語義4に持ち込んで「細身の人は重要でない」と解釈しない。  
+
+【類義語】
+
+・trivial  
+定義: 重要性や深刻さに乏しく、真剣に考えるほどではない。  
+頻度: 〈7/10〉  
+違い: trivial は問題・細部などを取るに足りないと評価する一般的な語。この意味の slight は、作品や内容の実質・重みの乏しさを述べる批評に使われ、単なる長さの短さではない。  
+例: The discussion became bogged down in trivial details.  
+訳: 話し合いは、取るに足りない細部にとらわれて進まなくなった。  
 
 9. 【形容詞：slighting】人を見下す・侮蔑的な
 
