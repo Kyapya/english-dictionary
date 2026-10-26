@@ -157,6 +157,15 @@ tags: []
 
 【語法・注意】general practice はこの例では通常の慣行を表す。医療分野で使われる同じ形の専門表現とは区別する。as a general rule「通常は」は rule の記事で扱う関連表現で、例外を排除する絶対的な規則という意味ではない。  
 
+【類義語】
+
+・usual  
+定義: 多くの場合に起こる・行われる、または普段使われる・選ばれる。  
+頻度: 〈8/10〉  
+違い: general は多数の事例に見られる全般的な傾向を述べるのに適する。usual は一人の習慣やいつもの物にも使え、my usual seat は「私のいつもの席」であって、my general seat とは普通いわない。通常の慣行を表す general practice と usual practice は重なる。  
+例: I took my usual seat near the window.  
+訳: 私は、窓際のいつもの席に座った。  
+
 3. 【形容詞】概略的な・細部に立ち入らない
 
 【日本語訳・定義】対象の大きな特徴や主要な部分を扱い、個々の細部までは示さない。説明が十分か不十分かという評価は、求められる詳しさによって変わる。  
@@ -200,6 +209,13 @@ tags: []
 例: The reply was vague about the delivery date.  
 訳: その返答は、納品日について曖昧だった。  
 
+・overall  
+定義: 関係する各部分を含め、全体として捉えた。  
+頻度: 〈7/10〉  
+違い: general が細部に立ち入らない概略性を表すのに対し、overall は部分をまとめた全体への視点を強調する。general picture と overall picture は重なるが、overall cost は費用の総額を指せるので、単に大まかな費用という意味にしない。形容詞の overall は名詞の前で使う。  
+例: The diagram shows the overall structure of the system.  
+訳: その図は、システムの全体構造を示している。  
+
 【反意語】
 
 ・specific  
@@ -232,6 +248,15 @@ tags: []
 訳: 普段は事前に予約するほうが好きだが、今日は予約せずに行ってみることにした。  
 
 【語法・注意】文頭でも文末でも使えるが、どの語句をまとめて論じているかによって解釈が変わる。people in general のように名詞の後ろで集団全体を指す用法とは区別する。always のように例外がないことを断言する表現ではない。  
+
+【類義語】
+
+・generally  
+定義: 多くの場合に・通常は。  
+頻度: 〈8/10〉  
+違い: 通常の傾向を述べる in general と重なるが、generally は動詞の前などにも置ける。in general を同じ位置へ機械的に移すのではなく、文全体に添える形を基本に考える。また generally には、語義6の広い共有や語義13の概括的な説明という別の読みもある。  
+例: I generally leave home before eight.  
+訳: 私は、たいてい8時前に家を出る。  
 
 5. 【副詞句：in general】全般に・全体として
 
@@ -674,6 +699,8 @@ tags: []
 
 【語法・注意】英国では generalised とも綴る。形は generalize の過去分詞と同じだが、ここでは説明や議論の性質を示す形容詞として扱う。主に名詞の前に置く。  
 
+general description と generalized description は、細部に踏み込まない説明という点で重なる。ただし general の全用法を generalized へ置換できるわけではなく、一般の人々を表す the general public を the generalized public とは普通いわない。  
+
 21. 【形容詞：generalized、主に名詞の前】広範囲に及ぶ・全身性の
 
 【日本語訳・定義】特定の一部分だけに限られず、広い範囲に及ぶ。医学的な語彙では、局所に限らず全身に広がることを表す場合がある。  
@@ -721,6 +748,15 @@ tags: []
 訳: その演説には大まかな一般論はあったが、具体的な提案はなかった。  
 
 【語法・注意】この意味では generalities という複数形が多い。具体性を求める場面では批判的に使われやすいが、単語だけで意図的な嘘だと断定するものではない。  
+
+【類義語】
+
+・generalization  
+定義: 個々の例から、より広い範囲に当てはまる内容として述べた判断。  
+頻度: 〈5/10〉  
+違い: generality は、細部に踏み込まない一般的な言明であることに重点を置く。generalization は、個々の例から判断を広げることに重点を置く。大ざっぱな一般化が generality にもなるなど重なりはあるが、どちらも必ず虚偽という意味ではない。  
+例: That generalization is based on only three cases.  
+訳: その一般的な判断は、たった三つの事例に基づいている。  
 
 23. 【名詞：generality、不可算】一般性・概括性
 
