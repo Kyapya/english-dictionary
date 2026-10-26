@@ -4,7 +4,7 @@ type: word
 status: checked
 prompt_version: entry_spec_v5
 created_at: 2026-10-25
-updated_at: 2026-10-25
+updated_at: 2026-10-26
 checked: true
 tags: []
 ---
@@ -79,6 +79,8 @@ tags: []
 
 限定用法で an eminent researcher とするのが典型で、通常の修飾語を後ろへ移した a researcher eminent は避ける。eminent researcher と imminent danger「差し迫った危険」を混同しない。程度の比較には more/most eminent を使い、単純な形容詞変化として eminenter を作らない。  
 
+「有名な」と訳せる語でも、notorious は悪い評判・好ましくない事柄で知られることを表しやすい。専門的な評価や敬意を込める eminent と、知名度だけで入れ替えない。ただし、notorious が常に犯罪者を意味するわけでも、eminent が人格上の問題のない人だけに使えるわけでもない。  
+
 【類義語】
 
 ・distinguished  
@@ -101,6 +103,13 @@ tags: []
 違い: 知名度そのものが中心で、優れた業績や尊敬は必須ではない。eminent の専門分野での高い評価と区別する。  
 例: The actor became famous after a television appearance.  
 訳: その俳優はテレビ出演をきっかけに有名になった。  
+
+・renowned  
+定義: 広く知られ、名声・称賛を得ている。  
+頻度: 〈6/10〉  
+違い: renowned は称賛を伴う名声に焦点があり、eminent は分野内で高く評価される人物の地位・卓越を捉える。両者が重なることも多く、常にどちらの人物のほうが優れているという固定的な順位ではない。  
+例: Renowned musicians from several countries performed at the festival.  
+訳: 複数の国から名高い音楽家たちが、その祭典に出演した。  
 
 【反意語】
 
