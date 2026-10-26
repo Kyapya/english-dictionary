@@ -4,7 +4,7 @@ type: word
 status: checked
 prompt_version: entry_spec_v5
 created_at: 2026-10-25
-updated_at: 2026-10-25
+updated_at: 2026-10-26
 checked: true
 tags: []
 ---
@@ -137,6 +137,20 @@ tags: []
 例: No one could predict the outcome of the negotiations.  
 訳: 交渉がどのような結果になるか、誰にも予測できなかった。  
 
+・impact  
+定義: 人や物事に及ぼす大きな影響。  
+頻度: 〈8/10〉  
+違い: impact は影響の強さに焦点を当て、consequence は先行する行為・出来事から生じる結果に焦点を当てる。consequence が常に小さな影響、impact が常に悪影響という区分ではなく、同じ出来事を異なる焦点で述べる場合もある。  
+例: The factory closure had a major impact on the town's economy.  
+訳: 工場の閉鎖は、町の経済に大きな影響を及ぼした。  
+
+・implication  
+定義: 行為や決定などから生じ得る影響・結果。  
+頻度: 〈7/10〉  
+違い: この意味では implications と複数で使うことが多く、ある事柄が何につながり得るかを検討する場面に向く。consequence も将来の可能な結果に使えるため、implication は未来専用、consequence は既に起きた結果専用とはしない。ここでは言外の含みという別義を区別する。  
+例: We need to consider the implications of the new rule for small businesses.  
+訳: 新しい規則が小規模な事業者に及ぼし得る影響を、検討する必要がある。  
+
 ・repercussion  
 定義: ある出来事から生じる、通常は悪い間接的な影響。  
 頻度: 〈5/10〉  
@@ -225,6 +239,13 @@ tags: []
 違い: 直接的・自然に従う帰結という点を強調する、改まった専門寄りの語。consequence はより広く結論を指せる。  
 例: This result is a corollary of the previous theorem.  
 訳: この結果は、前の定理から導かれる系である。  
+
+・conclusion  
+定義: 情報を考え合わせて到達した判断・結論。  
+頻度: 〈8/10〉  
+違い: conclusion は考察の末の判断を広く表し、その判断が必ず論理的に正しいとは限らない。logical consequence は、前提から何が導かれるかという関係に重点がある。両語は論証の結論を指す場合に重なるが、文章の末尾という conclusion の別義とは区別する。  
+例: After reviewing the evidence, we reached the conclusion that the two events were unrelated.  
+訳: 証拠を検討した結果、私たちは二つの出来事に関連はないという結論に達した。  
 
 ・inference  
 定義: 既知の情報から推論して導かれた内容。  
