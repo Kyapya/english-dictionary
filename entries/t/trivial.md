@@ -4,7 +4,7 @@ type: word
 status: checked
 prompt_version: entry_spec_v5
 created_at: 2026-10-25
-updated_at: 2026-10-25
+updated_at: 2026-10-26
 checked: true
 tags: []
 ---
@@ -79,6 +79,20 @@ tags: []
 違い: 比較的小さいと述べる語で、考慮する価値がないとまで切り捨てるとは限らない。  
 例: The draft needs a few minor changes before publication.  
 訳: その草稿は、公開前に小さな変更がいくつか必要だ。  
+
+・unimportant  
+定義: 重要でない。  
+頻度: 〈8/10〉  
+違い: 重要性が低いことを直接述べる基本語で、trivial のこの語義と重なる。trivial は些細で重く扱うに及ばないという評価を示しやすいが、どちらも話者の判断を含み得る。trivial の数学・命名の専門義まで unimportant に言い換えない。  
+例: The exact colour is unimportant as long as the label is easy to read.  
+訳: ラベルが読みやすければ、細かな色の違いは重要ではない。  
+
+・inconsequential  
+定義: 重要でなく、考慮するほどではない。  
+頻度: 〈5/10〉  
+違い: 重要性や考慮する価値が乏しいという点で trivial と強く重なる。語形から「結果がまったく生じない」とは解釈せず、また trivial の容易さという語義まで同じ意味だとしない。  
+例: We removed several inconsequential details from the summary.  
+訳: 私たちは、重要でない細部をいくつか概要から省いた。  
 
 ・negligible  
 定義: 無視できるほど小さい。  
@@ -163,6 +177,13 @@ tags: []
 例: The instructions are easy to follow.  
 訳: その手順説明は、簡単に理解して実行できる。  
 
+・simple  
+定義: 複雑でなく、理解・実行しやすい。  
+頻度: 〈9/10〉  
+違い: simple は複雑さのなさや理解しやすさを広く表す。trivial はこの語義では、処理や考察がごく容易だという捉え方になる。単純で分かりやすい計画でも実行に時間がかかることはあり、simple だけで仕事の重要性や所要時間まで決まるわけではない。  
+例: The plan is simple, but carrying it out will take several months.  
+訳: 計画は単純だが、実行には数か月かかる。  
+
 ・straightforward  
 定義: 複雑でなく、進め方や理解の筋道が明確な。  
 頻度: 〈7/10〉  
@@ -236,7 +257,7 @@ tags: []
 例: The reviewer found the novel's conversations trivial, full of the same worn-out observations.  
 訳: 評者は、その小説の会話を、使い古された同じような意見ばかりで陳腐だと感じた。  
 
-【語法・注意】一般によくあることを中立的に述べる ordinary と違い、この用法では内容への否定的評価を伴い得る。語義3の浅さとも重なるが、ここでは目新しさのなさを明示する。  
+【語法・注意】ordinary は一般によくあることを中立的に述べられる一方、面白みのない凡庸さを否定的に評価する意味もある。ordinary は常に中立、trivial だけが否定的という区分にはしない。ここでの trivial は、語義3の浅さとも重なるが、目新しさのなさに焦点を当てる。  
 
 5. 【形容詞・限定／叙述】自明な・最も単純な場合の
 

@@ -4,7 +4,7 @@ type: phrase
 status: checked
 prompt_version: entry_spec_v5
 created_at: 2026-10-25
-updated_at: 2026-10-25
+updated_at: 2026-10-26
 checked: true
 tags: []
 ---
@@ -115,6 +115,13 @@ make は古英語 macian の系列、difference はフランス語を経たラ�
 違い: 好ましい変化を意味する。make a difference の好影響の文脈では近いが、中立的・好ましくない影響まで一律に置き換えられない。  
 例: The revised layout improved readability.  
 訳: レイアウトを修正したことで、読みやすくなった。  
+
+・make an impact  
+定義: 人や物事に強い影響を与える。  
+頻度: 〈7/10〉  
+違い: impact により影響の強さが前面に出る。make a difference も big や all the などを伴えば強い寄与を表すため、常に make an impact より弱いとは限らない。影響先には make an impact on... を使い、make a difference to... の to をそのまま移さない。  
+例: The exhibition made a strong impact on the visitors.  
+訳: その展覧会は、来訪者に強い影響を与えた。  
 
 2. 【動詞句・他動詞構文】決め手となる・大きく状況を変える
 
