@@ -4,7 +4,7 @@ type: word
 status: checked
 prompt_version: entry_spec_v5
 created_at: 2026-10-25
-updated_at: 2026-10-25
+updated_at: 2026-10-26
 checked: true
 tags: []
 ---
@@ -127,6 +127,13 @@ tags: []
 違い: 個々を数えるだけでなく、数式や演算による算出を広く含む。  
 例: We calculated the total cost, including delivery.  
 訳: 配送料を含めた総費用を計算した。  
+
+・add up  
+定義: 数や金額を足し合わせ、合計を求める。  
+頻度: 〈8/10〉  
+違い: count と合計を求める点で重なるが、add up は加算に焦点がある。count の数詞を順に唱える用法や、拍を取る用法まで同じように置き換えられるわけではない。  
+例: Add up the amounts on these receipts.  
+訳: これらの領収書の金額を合計してください。  
 
 2. 【動詞・自動詞】数を順に唱える・拍を数える
 
@@ -377,6 +384,15 @@ tags: []
 
 【語法・注意】a count of 248 は数えた結果の値。語義10の for a count of three は、ゆっくり数を唱える長さを示す。blood count などの検査名・測定値の意味から、正常範囲や診断を推定しない。  
 
+【類義語】
+
+・total  
+定義: 全体を合わせた数や量・総計。  
+頻度: 〈9/10〉  
+違い: count は数えた結果の値という捉え方で、total は全体を合わせた値に焦点を当てる。数え上げた総数については両者が重なる。count の数える行為という別義まで、すべて名詞 total に置き換えるわけではない。  
+例: The total was 248 completed questionnaires.  
+訳: 記入済みの質問票は、合計248枚だった。  
+
 10. 【名詞・可算／単数定型】数唱の単位・時間や動作の区切り
 
 【日本語訳・定義】a/the count of... の形で、数唱を基準にした継続時間や動作のタイミングを示す。for a count of... は数える間の長さ、on the count of... は指定した数に達した時点を指す。踊りなどで拍・動きの時間を区切る単位としては、eight counts のように数えられる。  
@@ -519,6 +535,13 @@ tags: []
 違い: 支えや手段としての依存を広く表す。count on は、当てにできるものとして予定・判断に入れるという捉え方になりやすい。  
 例: The team relies on accurate information from local staff.  
 訳: チームは、現地職員からの正確な情報を頼りにしている。  
+
+・depend on  
+定義: 人や物を信頼し、支えとして頼る。  
+頻度: 〈9/10〉  
+違い: この信頼・依存の意味では count on や rely on と広く重なる。count on は当てにする対象を見込む言い方だが、depend on なら必ずそれなしでは生きられず、count on なら軽い期待にすぎない、といった強さの区分にはしない。ここでは条件によって決まるという depend on の別義を扱わない。  
+例: You can depend on me to keep the documents safe.  
+訳: 書類を安全に保管することなら、私を頼りにしていいですよ。  
 
 16. 【前置詞動詞】〜を見込む・〜すると期待する
 
