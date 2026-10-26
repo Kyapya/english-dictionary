@@ -4,7 +4,7 @@ type: word
 status: checked
 prompt_version: entry_spec_v5
 created_at: 2026-10-25
-updated_at: 2026-10-25
+updated_at: 2026-10-26
 checked: true
 tags: []
 ---
@@ -99,6 +99,20 @@ tags: []
 例: She is a well-known researcher in this field.  
 訳: 彼女は、この分野でよく知られた研究者だ。  
 
+・common  
+定義: よく起こる、または広く見られる。  
+頻度: 〈9/10〉  
+違い: common は頻度・分布に焦点があり、familiar は見聞きした経験によるなじみや認識に焦点がある。広く見られるものが人々によく知られている場合は重なるが、個人に見覚えがあるだけで世間でも common だとは限らない。  
+例: This error is common in handwritten forms.  
+訳: この間違いは、手書きの用紙によく見られる。  
+
+・ordinary  
+定義: 通常の範囲にあり、特別ではない。  
+頻度: 〈9/10〉  
+違い: ordinary は通常の種類・状態かどうかを述べ、familiar は知っている・なじみがあるかを述べる。見慣れた独特の建物なら familiar でも ordinary とは限らず、別の土地で普通のものでも自分には unfamiliar なことがある。  
+例: To local residents, the building looks quite ordinary.  
+訳: 地元の住民には、その建物はごく普通のものに見える。  
+
 【反意語】
 
 ・unfamiliar  
@@ -191,6 +205,20 @@ tags: []
 例: They remained close friends after moving to different cities.  
 訳: 別々の都市に移ってからも、二人は親しい友人のままだった。  
 
+・friendly  
+定義: 互いに好意的で、友好的な関係にある。  
+頻度: 〈8/10〉  
+違い: on friendly terms は相手との関係が良好であることを示し、親密な付き合いまで必ず意味するわけではない。on familiar terms は気心が知れて打ち解けている点を捉える。friendly には単に親切・愛想がよいという別義もあり、その意味では初対面の相手への態度にも使える。  
+例: She remains on friendly terms with her former colleagues.  
+訳: 彼女は、以前の同僚たちと今も友好的な関係を保っている。  
+
+・intimate  
+定義: 関係や付き合いが非常に親密な。  
+頻度: 〈6/10〉  
+違い: intimate は非常に近い関係や私的なつながりを強調する。familiar は日常の付き合いによる気軽さ・打ち解けた関係を示し、常に深い私的関係まで意味するわけではない。  
+例: The book describes the intimate friendship between the two writers.  
+訳: その本は、二人の作家の非常に親密な友情を描いている。  
+
 4. 【形容詞・限定／叙述】気取らない・打ち解けた調子の
 
 【日本語訳・定義】話し方や文章などが、改まらず、親しい相手に向けるような自然で気軽な調子であること。  
@@ -209,6 +237,15 @@ tags: []
 訳: その随筆は、古い友人に話しかけるような、打ち解けた文体を用いている。  
 
 【語法・注意】a familiar style は「以前から知っている文体」という語義1の読みも可能。気取らない調子をいうのか、見覚えがあるのかは文脈で判断する。くだけた文体が、どの場面でも適切だという意味ではない。  
+
+【類義語】
+
+・informal  
+定義: 言葉や文章が、改まらず日常的な会話に向く。  
+頻度: 〈8/10〉  
+違い: informal は言葉の改まりの程度を広く表し、familiar は親しい相手に話すような打ち解けた調子を捉える。文体として重なる場合は多い。どちらも調子を述べる用法では、話し手と相手が実際に親しい間柄だと保証するものではない。  
+例: The newsletter uses informal language to explain the changes.  
+訳: そのニュースレターは、変更点を説明するのに、くだけた言葉を使っている。  
 
 5. 【形容詞・限定／叙述】なれなれしい・親しげすぎる
 
@@ -233,6 +270,15 @@ tags: []
 訳: 初対面なのに彼がなれなれしく振る舞うのを、彼女は不快に思った。  
 
 【語法・注意】with があるだけで知識を表す語義2と決めない。人への接し方や個人的な質問の文脈では、この評価義になり得る。過度の親しさは、必ず身体接触や性的な言動を伴うという意味ではない。  
+
+【類義語】
+
+・presumptuous  
+定義: 自信過剰で、他人への敬意を欠いた。  
+頻度: 〈4/10〉  
+違い: familiar のこの意味は相手との距離を詰めすぎることに焦点がある。presumptuous は、相手の意向を確かめず勝手に判断するなど、出過ぎた態度を広く批判でき、親しげな振る舞いだけに限らない。  
+例: It was presumptuous of him to speak on her behalf without asking.  
+訳: 断りもなく彼女に代わって意見を述べるのは、彼の出過ぎた行為だった。  
 
 6. 【名詞・可算】使い魔
 
