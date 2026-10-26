@@ -4,7 +4,7 @@ type: word
 status: checked
 prompt_version: entry_spec_v5
 created_at: 2026-10-25
-updated_at: 2026-10-25
+updated_at: 2026-10-26
 checked: true
 tags: []
 ---
@@ -71,7 +71,7 @@ tags: []
 例: The report examines the decision's significance for regional trade.  
 訳: その報告書は、その決定が地域貿易にとって持つ重要性を検討している。  
 
-【語法・注意】be of significance の significance は名詞で、of significance 全体が形容詞に近い働きをする。be significant では形容詞を使う。very significance とはせず great significance または very significant とする。of は重要さを評価する対象、for/to は関係先を示すが、for は未来専用、to は個人専用といった区別にはしない。  
+【語法・注意】be of significance の significance は名詞で、of significance 全体が形容詞に近い働きをする。be significant では形容詞を使う。very significance とはせず great significance または very significant とする。of は重要さを評価する対象、for/to は関係先を示すが、for は未来専用、to は個人専用といった区別にはしない。関連する relevance は、話題・状況とのつながりや、人々の生活・仕事にとっての有用性を表す。議論と関係があることと、その中で重要な意味や重みを持つことは同じではない。ただし有用性と重要性が重なる場面もあり、両語を常に無関係な意味として切り離さない。  
 
 【類義語】
 
