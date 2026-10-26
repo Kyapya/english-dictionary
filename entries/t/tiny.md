@@ -4,7 +4,7 @@ type: word
 status: checked
 prompt_version: entry_spec_v5
 created_at: 2026-10-25
-updated_at: 2026-10-25
+updated_at: 2026-10-26
 checked: true
 tags: []
 ---
@@ -166,6 +166,20 @@ tiny problem は問題の小ささを述べるほか、深刻な問題をわざ�
 例: The instruments detected a minute change in temperature.  
 訳: 測定器は、極めてわずかな温度変化を検出した。  
 
+・slight  
+定義: 差・変化などの程度が小さい、わずかな。  
+頻度: 〈8/10〉  
+違い: slight は小さな程度・変化を述べる基本的な語。tiny はその小ささを強く捉える。a slight difference と a tiny difference は重なるが、tiny の物体の寸法義すべてを slight に置き換えることはできない。  
+例: There was a slight improvement in the response time.  
+訳: 応答時間には、わずかな改善があった。  
+
+・negligible  
+定義: 小さくて、考慮するほどではない。  
+頻度: 〈6/10〉  
+違い: negligible は考慮する必要がないほどだという評価まで含む。tiny は量・程度の小ささを示し、ごく少量でも結果を左右する場合があるため、常に negligible と同じではない。  
+例: The additional cost was negligible compared with the total budget.  
+訳: 予算全体と比べると、追加費用は無視できるほど小さかった。  
+
 3. 【程度表現：a tiny bit】ほんの少し・わずかに
 
 【日本語訳・定義】a tiny bit 全体で、形容詞・比較級や動作の程度がわずかであることを表す。tiny 単独が副詞になるのではなく、bit を中心とする句が程度を示す。  
@@ -206,6 +220,15 @@ tiny problem は問題の小ささを述べるほか、深刻な問題をわざ�
 【語法・注意】tiny nervous のように tiny だけで形容詞を強めない。a tiny bit nervous では bit を含む句全体が nervous を修飾する。a tiny bit of cheese では of 以下が物の量の対象で、同じ表面形でも働きが異なる。  
 
 the tiniest bit は、現実に複数の量を測って一番小さいものを選んだと主張する表現とは限らない。小ささを強調して「ほんのわずか」と述べる定着した使い方である。  
+
+【類義語】
+
+・slightly  
+定義: 程度や差が少しだけ、わずかに。  
+頻度: 〈8/10〉  
+違い: slightly は一語の副詞で、a tiny bit は句全体で程度を表す。a tiny bit は会話的に、ごく小さいことを強く示しやすい。slightly larger と a tiny bit larger は重なるが、tiny larger と tiny だけを副詞にしない。  
+例: Please move the table slightly to the left.  
+訳: テーブルを少し左へ動かしてください。  
 
 4. 【慣用名詞句：the patter of tiny feet】赤ちゃんの誕生・子どもを迎えること
 
