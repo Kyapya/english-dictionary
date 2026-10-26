@@ -4,7 +4,7 @@ type: word
 status: checked
 prompt_version: entry_spec_v5
 created_at: 2026-10-25
-updated_at: 2026-10-25
+updated_at: 2026-10-26
 checked: true
 tags: []
 ---
@@ -71,6 +71,20 @@ tags: []
 違い: 主に英国の日常的な表現で、come around という対応形もある。意識の回復に焦点がある。revive の植物・体力回復全体には置き換えられない。  
 例: When he came round, he asked where he was.  
 訳: 意識を取り戻すと、彼はここはどこかと尋ねた。  
+
+・come to  
+定義: 意識を取り戻す。  
+頻度: 〈6/10〉  
+違い: この意味では come round と同じく意識回復を表す。revive の元気・生気の回復より範囲が狭く、植物が元気になる場合には使わない。この句の to の後ろに目的語を置く必要はない。  
+例: When she came to, she recognized the room.  
+訳: 意識を取り戻すと、彼女はその部屋に見覚えがあると気づいた。  
+
+・recover  
+定義: 病気などから回復し、通常の状態に戻る。  
+頻度: 〈8/10〉  
+違い: recover は健康などの通常の状態への回復を広く表し、recover from a cold のように何から回復するかを from で示せる。revive は失われたり弱まったりした意識・生気が戻る点を捉える。recover consciousness では回復する本人が主語で、取り戻す意識が目的語になる。revive someone では回復させる側が主語で、回復する人が目的語になるため、目的語の役割を取り違えない。  
+例: She is recovering from a bad cold.  
+訳: 彼女は、ひどい風邪から回復しつつある。  
 
 2. 【動詞・他動詞】意識を回復させる・元気づける
 
@@ -154,6 +168,13 @@ tags: []
 違い: 下落後の反発に焦点がある。revive は活動や人気が再び生き返るような変化を広く述べる。  
 例: Sales rebounded in the final quarter.  
 訳: 売上は最終四半期に持ち直した。  
+
+・recover  
+定義: 悪化した経済などが、通常の状態を取り戻していく。  
+頻度: 〈7/10〉  
+違い: recover は悪化からの回復を広く述べ、revive は活動が再び活発になる点を捉える。経済の回復では両語が重なるため、急回復と緩やかな回復などの速さで一律に区分しない。  
+例: The economy began to recover after a long recession.  
+訳: 長い不況の後、経済は回復し始めた。  
 
 4. 【動詞・他動詞】復興させる・再開する
 
@@ -270,6 +291,13 @@ tags: []
 違い: 改まった文章にも使う語で、火をもう一度燃え立たせる比喩がある。愛情・情熱・関心などとの結び付きが強い。revive は記憶の想起にも使う。  
 例: The trip rekindled her love of the sea.  
 訳: その旅行で、彼女の海への愛着が再び強くなった。  
+
+・refresh someone's memory  
+定義: 人に忘れかけていたことを思い出させる。  
+頻度: 〈6/10〉  
+違い: 記録を見たり説明を聞いたりして記憶を確かめ直す場面に使う。revive memories は以前の思い出をよみがえらせることを述べ、revive の関心・恐れの再燃まで、この memory を含む句で言い換えるわけではない。  
+例: Reading the minutes refreshed my memory of the discussion.  
+訳: 議事録を読むと、その話し合いの内容を思い出した。  
 
 7. 【動詞・他動詞】再演する
 
