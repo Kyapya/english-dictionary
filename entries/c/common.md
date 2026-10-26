@@ -4,7 +4,7 @@ type: word
 status: checked
 prompt_version: entry_spec_v5
 created_at: 2026-10-25
-updated_at: 2026-10-25
+updated_at: 2026-10-26
 checked: true
 tags: []
 ---
@@ -100,16 +100,30 @@ tags: []
 例: Bicycles parked outside cafés are a common sight in the town.  
 訳: カフェの外に自転車が止めてあるのは、その町ではよく見る光景だ。  
 
-【語法・注意】common in は、その事柄が見られる範囲を示す。語義2の common to は、複数の対象が共通して持つことを示すため、一律に交換しない。形式主語 it の構文では、for の後ろの名詞句が、後続する不定詞節の主語を示す。人の行為だけでなく、物の状態についても使える。「普通に起こる」ことは「そうするべきだ」という規範ではない。動植物名の common も、よく知られた種類・一般的な種類を指すのに使われるが、その名前だけで今の生息数や保全状態までは分からない。  
+【語法・注意】common in は、その事柄が見られる範囲を示す。語義2の common to は、複数の対象が共通して持つことを示すため、一律に交換しない。形式主語 it の構文では、for の後ろの名詞句が、後続する不定詞節の主語を示す。人の行為だけでなく、物の状態についても使える。「普通に起こる」ことは「そうするべきだ」という規範ではない。popular には多くの人に好まれる「人気のある」という意味もあるが、common は、よくあるというだけで好まれているとは限らない。動植物名の common も、よく知られた種類・一般的な種類を指すのに使われるが、その名前だけで今の生息数や保全状態までは分からない。  
 
 【類義語】
 
 ・frequent  
-定義: 短い間に何度も起こる。  
+定義: 繰り返しよく起こる。  
 頻度: 〈7/10〉  
 違い: 時間的な繰り返しに焦点を当てる。common は、存在する場所や人々の広がりについても使う。  
 例: Frequent interruptions made it hard to concentrate.  
 訳: 何度も中断されたため、集中しづらかった。  
+
+・usual  
+定義: たいていの場合に起こる・行われる、いつもの。  
+頻度: 〈9/10〉  
+違い: usual は、その人や状況でいつもどうなのかという基準に焦点を当てる。common は、同じような事例が頻繁にあることや広く分布することを述べる。いつもの行動と世間でよく見られる行動は重なる場合もあるが、同じ観点ではない。  
+例: She took her usual route to the station.  
+訳: 彼女は、いつもの道を通って駅へ向かった。  
+
+・popular  
+定義: 考え・信念・意見などが、多くの人々に共有されている。  
+頻度: 〈7/10〉  
+違い: この意味の popular は、人々の間で受け入れられたり広まったりしていることを述べ、common の広く見られるという意味と重なる。popular misconception のように、広まった誤った認識も表せる。common は、行為上の間違いや自然現象など、考え・意見に限らず広く使える。ここでは「人気があって好かれる」という popular の別義と区別する。  
+例: The article challenges a popular belief about language learning.  
+訳: その記事は、言語学習について広く信じられている考えに疑問を投げかけている。  
 
 ・widespread  
 定義: 広い地域・範囲に及んでいる。  
@@ -186,6 +200,13 @@ tags: []
 違い: 共同で持つ状態を直接表す。common にある「頻繁な」「ありふれた」という別義までは含まない。  
 例: The building has a shared kitchen on each floor.  
 訳: その建物には、各階に共用キッチンがある。  
+
+・mutual  
+定義: 二人以上に共通している・共有されている。  
+頻度: 〈7/10〉  
+違い: mutual friend や mutual interest のような共有の意味では common と重なる。一方 mutual respect は互いが相手に向ける敬意という相互性を表し、common が単に同じものを持つという意味であることと区別する。mutual を相互性だけの語と決め、共有義を誤用とすることも避ける。  
+例: Their mutual interest in local history brought them together.  
+訳: 地域の歴史への共通の関心が、二人を結びつけた。  
 
 3. 【名詞句・不可算】常識・実際的な判断力
 
