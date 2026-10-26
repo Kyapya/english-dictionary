@@ -4,7 +4,7 @@ type: word
 status: checked
 prompt_version: entry_spec_v5
 created_at: 2026-10-25
-updated_at: 2026-10-25
+updated_at: 2026-10-26
 checked: true
 tags: []
 ---
@@ -96,6 +96,8 @@ tags: []
 
 emphasize は、強調した内容が正しい、相手を説得できた、何度も繰り返したという結果をそれだけで保証しない。否定形 does not emphasize... は、その点を重点としていないという意味で、反対していることや完全に削除したことまでは含まない。  
 
+関連表現との違いとして、insist that 〈節〉 は「本当だと言い張る」場合と「そうするよう強く求める」場合を区別する。前者は、特に疑われても主張を保つことに焦点があり、emphasize の重要性を際立たせる働きと同一ではない。後者は要求であり、単に注意点を強調するだけの emphasize でそのまま言い換えない。例えば、He insisted that the door was locked. は「ドアには鍵がかかっていた、と彼は言い張った」、He insisted that the door be locked. は「ドアに鍵をかけるよう彼は強く求めた」。後者の be は要求節で使う原形。ここで示した二例の対照を、すべての時制・地域の用法に機械的に当てはめない。どちらも、相手が信じたことや実際に要求に従ったことまで保証するものではない。  
+
 【類義語】
 
 ・stress  
@@ -118,6 +120,27 @@ emphasize は、強調した内容が正しい、相手を説得できた、何�
 違い: 反復が中心である。初めて言う内容でも emphasize でき、反復せず強調することもできる。  
 例: He reiterated his request after receiving no reply.  
 訳: 返事がなかったので、彼はもう一度同じ依頼を伝えた。  
+
+・point out  
+定義: ある事実や点を述べて、相手に知らせたり注意を向けさせたりする。  
+頻度: 〈8/10〉  
+違い: point out は気づいてほしい点を指摘すること、emphasize はその点に特別な重みを置くことに焦点がある。指摘しながら重要性を強調する場合は重なるが、point out 自体が強い念押しを必ず表すわけではない。  
+例: She pointed out that the two figures referred to different years.  
+訳: 彼女は、その二つの数値が別々の年についてのものだと指摘した。  
+
+・underline  
+定義: ある内容の重要性を強調し、はっきりと示す。  
+頻度: 〈6/10〉  
+違い: 比喩的な underline は、この意味の emphasize と近い。underline には文字の下に実際の線を引く意味もあるが、重要性を示す用法で線を引く必要はない。emphasize だけでは具体的に下線を引いたとは分からない。  
+例: The missed deadline underlined the need for a clearer schedule.  
+訳: 締切に間に合わなかったことで、もっと明確な日程が必要だとはっきりした。  
+
+・underscore  
+定義: ある内容や重要性を明確に示し、強調する。  
+頻度: 〈6/10〉  
+違い: この比喩義では emphasize や underline と大きく重なり、常に強さが異なるとはいえない。出来事が重要性を示す場合にも使える。underscore には線を引く用法もあるが、比喩義で表記上の線を意味するわけではない。  
+例: Their quick response underscored their commitment to the project.  
+訳: 素早い対応は、その企画に対する彼らの真剣な取り組みをはっきり示した。  
 
 【反意語】
 
