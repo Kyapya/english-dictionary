@@ -3,9 +3,9 @@ headword: commitment
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: unknown
 created_at: 2026-10-03
-updated_at: 2026-10-03
+updated_at: 2026-10-27
 checked: true
 tags: []
 ---
@@ -84,7 +84,7 @@ commit「委ねる、引き受ける」に、行為・状態を表す -ment が�
 ・dedication  
 定義: 重要だと思う活動に、時間と力を惜しまず注ぐこと。  
 頻度: 〈7/10〉  
-違い: commitment が関わり続ける意思・責任も含むのに対し、dedication は実際に力を注ぐ献身的な姿勢を特に強調する。  
+違い: dedication は献身的に力を注ぐ側面、commitment は関与を引き受け続ける意思・責任の側面を強調しやすい。dedication も心構えを表し、commitment も行動で示されるため、意思だけか実行済みかという二分ではない。  
 例: The garden has survived thanks to the dedication of local volunteers.  
 訳: 地域のボランティアの献身的な活動のおかげで、その庭は維持されてきた。  
 
@@ -149,16 +149,16 @@ commit「委ねる、引き受ける」に、行為・状態を表す -ment が�
 【類義語】
 
 ・promise  
-定義: 何かをする、またはしないと相手に伝える約束。  
+定義: 何かをする、またはしないという約束。相手への約束だけでなく、自分自身への約束にも使う。  
 頻度: 〈9/10〉  
 違い: 日常的で対象範囲が広い。commitment は責任や継続的な実行の意思を、より改まって強調しやすい。  
 例: I made a promise to call my grandmother every Sunday.  
 訳: 毎週日曜日に祖母へ電話すると約束した。  
 
 ・pledge  
-定義: 強い決意を示す、正式または公的な約束。  
+定義: 強い決意を示す、厳粛な約束・誓約。  
 頻度: 〈7/10〉  
-違い: commitment より、明言・宣言された厳粛な約束を強調しやすい。  
+違い: 明言・宣言された厳粛な約束を強調しやすく、公約などにも使うが、公的な場面だけに限らない。commitment との違いを私的か公的かだけで決めない。  
 例: The mayor repeated her pledge to publish all council expenses.  
 訳: 市長は、議会の全支出を公表するという公約を改めて述べた。  
 
@@ -315,7 +315,7 @@ commit「委ねる、引き受ける」に、行為・状態を表す -ment が�
 例: The judge reviewed the petition for involuntary commitment before the hearing.  
 訳: 裁判官は審理に先立ち、本人の意思によらない収容・治療措置を求める申立書を確認した。  
 
-【語法・注意】involuntary commitment は非自発的な措置だが、commitment 単独を常に「強制入院」と訳してはいけない。voluntary commitment という表現もある。また、米国の civil commitment には法域によって外来治療の措置も含まれるため、すべてを施設内への収容と決めつけない。ここでは語彙上の意味を示しており、措置の対象者・要件・手続きは各制度による。a petition for commitment は措置を求める申立てであり、その申立てだけで措置が確定したことにはならない。  
+【語法・注意】involuntary commitment は非自発的な措置だが、commitment 単独を常に「強制入院」と訳してはいけない。voluntary commitment という表現もある。また、米国の civil commitment には法域によって外来治療の措置も含まれるため、すべてを施設内への収容と決めつけない。ここでは語彙上の意味を示しており、措置の対象者・要件・手続きは各制度による。a petition for commitment は措置を求める申立てであり、その申立てだけで措置が確定したことにはならない。 hospital admission は病院に受け入れられて入院することを広く述べ、特定の制度上の措置を表す commitment と常に同じではない。入院場面では重なることがあるが、admission だけで強制性や特定の法的命令を示すわけではなく、commitment のすべてが入院に限られるわけでもない。  
 
 【類義語】
 
