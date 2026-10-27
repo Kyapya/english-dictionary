@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: unknown
 created_at: 2026-08-23
-updated_at: 2026-10-02
+updated_at: 2026-10-27
 checked: true
 tags: []
 ---
@@ -115,9 +115,9 @@ tags: []
 訳: その手当は雇用契約に基づく受給権である。  
 
 ・prerogative  
-定義: 職位・権限を持つ人に固有の裁量権や特別な権能。  
+定義: 個人・集団・職位などに属する特別な権利や裁量。  
 頻度: 〈6/10〉  
-違い: privilege より硬く、一般的な便宜よりも、君主・役職者・権限者が判断・行動できる権能を表しやすい。  
+違い: 一般的な便宜より、その人・立場に属する判断や行動の権利に焦点がある。職位に伴う権能に使うほか、本人が自分で選ぶ権利にも使うため、公的な地位を必須としない。  
 例: Choosing the speaker is the chair's prerogative.  
 訳: 発言者を選ぶのは議長の裁量権である。  
 
@@ -127,6 +127,13 @@ tags: []
 違い: benefit は特定者だけに与えられる権利でなくてもよいが、privilege は受け手が限定されることや特別扱いの含みが出やすい。  
 例: Flexible hours are a major benefit of the job.  
 訳: 柔軟な勤務時間はその仕事の大きな利点である。  
+
+・perk  
+定義: 仕事や立場などに付随して得られる利点・特典。特に給与に加えて受ける利益。  
+頻度: 〈6/10〉  
+違い: 特別に認められた権利・利用許可に焦点を置く privilege に対し、perk は付随する好ましい特典をくだけて述べる。仕事以外の立場の利点にも使い、金銭かどうかを一律の境界にしない。  
+例: Free gym membership is one of the perks of this job.  
+訳: 無料でジムの会員になれることは、この仕事の特典の一つだ。  
 
 2. 【名詞・不可算・社会】社会的な特権、恵まれた立場・優位
 
@@ -189,6 +196,15 @@ tags: []
 例: His sense of entitlement made him expect special treatment.  
 訳: 彼の特別扱いを受けて当然だという意識が、特別待遇を期待させた。  
 
+次の power は社会的優位と関係する影響力との対照として扱う。意味が重なる文脈はあっても、両者を常に同じ概念とはしない。  
+
+・power  
+定義: 他者や制度に影響を及ぼし、結果を左右できる力。  
+頻度: 〈10/10〉  
+違い: power は他者や結果へ影響を及ぼせる能力、ここでの privilege は有利な扱い・機会を受けやすい立場に焦点がある。両者が重なることはあるが、影響力を実際に行使しているかどうかだけで区別しない。  
+例: Political power can shape which issues receive public attention.  
+訳: 政治的権力は、どの問題が世間の注目を受けるかを左右し得る。  
+
 【類義語】
 
 ・advantage  
@@ -204,13 +220,6 @@ tags: []
 違い: privilege と近いが、privilege のような権力関係への批判や「当然視され見えにくい」含みは弱い。  
 例: Family connections can provide a social advantage.  
 訳: 家族の人脈は社会的な優位をもたらすことがある。  
-
-・power  
-定義: 他者や制度に影響を及ぼし、結果を左右できる力。  
-頻度: 〈10/10〉  
-違い: power は実際に行使できる影響力に焦点があるが、privilege は行使しなくても有利な扱いや機会を受けやすい立場を含む。  
-例: Political power can shape which issues receive public attention.  
-訳: 政治的権力は、どの問題が世間の注目を受けるかを左右し得る。  
 
 【反意語】
 
@@ -275,7 +284,7 @@ tags: []
 ・honor  
 定義: 誇りや敬意を伴う名誉、または名誉ある機会。  
 頻度: 〈9/10〉  
-違い: honor は名誉そのものや、名誉を与える行為にも使える。privilege は「その機会を持てたこと」を丁寧に表す定型性が強い。  
+違い: 名詞 honor は名誉そのものや、授けられる栄誉も表す。ここでは名誉ある機会という点で重なり、privilege は「その機会を持てたこと」を丁寧に表す。  
 例: It was an honor to speak at the ceremony.  
 訳: 式典で話せたことは光栄でした。  
 
@@ -296,7 +305,7 @@ tags: []
 ・opportunity  
 定義: 何かをするのに適した機会や可能性。  
 頻度: 〈10/10〉  
-違い: opportunity は感情的な敬意や特別扱いを含まない中立語で、privilege は機会を光栄・特別なものとして評価する。  
+違い: opportunity は機会を表す中立語で、感情的な敬意や特別扱いを必須とはしない。privilege はこの語義では、その機会を光栄・特別なものとして評価する。  
 例: The internship gave him an opportunity to study abroad.  
 訳: そのインターンシップは彼に海外で学ぶ機会を与えた。  
 
@@ -315,7 +324,7 @@ tags: []
 【コロケーション】
 
 ・attorney-client privilege  
-用途: 弁護士と依頼人の、法律上保護される一定の秘密通信を表す米国法中心の表現。  
+用途: 弁護士と依頼人の一定の秘密通信を、法的手続きでの開示から保護する特権を指す米国法中心の表現。通信そのものではなく、その保護を述べる。  
 例: The lawyer argued that the email was protected by attorney-client privilege.  
 訳: その弁護士は、そのメールが弁護士・依頼人間の秘匿特権によって保護されると主張した。  
 
@@ -368,6 +377,15 @@ tags: []
 例: The agreement imposes strict confidentiality obligations on both parties.  
 訳: その合意書は両当事者に厳格な秘密保持義務を課している。  
 
+以下は法的な保護を広く述べる表現との対照であり、privilege という特定の保護と常に同じではない。  
+
+・legal protection  
+定義: 法律によって不利益、責任、開示などから守られること。  
+頻度: 〈8/10〉  
+違い: legal protection は説明的で広い語句、privilege は特定の関係・職位・手続きに結び付いた制度上の保護を指しやすい。  
+例: The statute provides legal protection for whistleblowers.  
+訳: その法律は内部告発者に法的保護を与える。  
+
 【類義語】
 
 ・immunity  
@@ -383,13 +401,6 @@ tags: []
 違い: exemption は特定の義務・規則から外れることに焦点があり、privilege はその免除を含む特別な法的地位・保護を表す。  
 例: The law grants an exemption from the reporting requirement.  
 訳: その法律は報告義務の免除を認めている。  
-
-・legal protection  
-定義: 法律によって不利益、責任、開示などから守られること。  
-頻度: 〈8/10〉  
-違い: legal protection は説明的で広い語句、privilege は特定の関係・職位・手続きに結び付いた制度上の保護を指しやすい。  
-例: The statute provides legal protection for whistleblowers.  
-訳: その法律は内部告発者に法的保護を与える。  
 
 5. 【他動詞・フォーマル】（人・考えなどを）特別扱いする、優先する
 
@@ -475,7 +486,7 @@ tags: []
 ・marginalize  
 定義: 人・集団・考えを中心的な機会、権力、議論から周縁へ追いやる。  
 頻度: 〈7/10〉  
-違い: privilege が特定の対象を有利な中心へ置くのに対し、marginalize は別の対象を中心から外す反対方向の行為を表す。  
+違い: 同じ対象について、privilege は有利に扱う方向、marginalize は中心的な機会や議論から外す方向を表す。  
 例: The process marginalizes applicants who lack stable internet access.  
 訳: その手続きは安定したインターネット環境を持たない応募者を周縁化する。  
 
@@ -616,7 +627,7 @@ tags: []
 
 法律用法には、発言・通信をした人が、その内容について名誉毀損などの責任を免れるという意味もある。これは内容を秘密にすることとは別の保護で、語義4の免責に対応する。  
 
-【類義語】
+以下は法律義の privileged と混同しやすい関連概念の対照である。秘密性、技術的な保護、開示の禁止・不能を、法的な開示保護と区別する。  
 
 ・confidential  
 定義: 秘密として扱われ、許可なく第三者へ伝えるべきでない。  
@@ -642,6 +653,6 @@ tags: []
 ・non-disclosable  
 定義: 開示してはならない、または開示できない。  
 頻度: 〈4/10〉  
-違い: non-disclosable は結果として開示できないことを説明する語で、privileged のように特定の法的関係や証拠法上の制度を示すとは限らない。  
+違い: non-disclosable は開示の禁止・不能を表し、privileged は特定の法的保護を表す。後者だけから、任意の開示も常に禁止されるとは判断せず、放棄や開示の条件は適用制度を確認する。  
 例: The contract lists several non-disclosable details.  
 訳: その契約書には開示してはならない詳細がいくつか記載されている。  
