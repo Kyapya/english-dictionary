@@ -3,9 +3,9 @@ headword: intense
 type: word  
 status: checked  
 prompt_version: entry_spec_v5  
-model: gpt-5.6-luna-wm  
+model: unknown  
 created_at: 2026-09-06  
-updated_at: 2026-09-06  
+updated_at: 2026-10-27  
 checked: true  
 tags: []  
 ---
@@ -23,7 +23,7 @@ tags: []
 ・intensity（名詞）— 強度、激しさ。感覚・感情・作用などがどの程度強いかを表す。  
 ・intensify（動詞）— 強まる、強める。自動詞では「強まる」、他動詞では「～を強める」と使う。  
 ・intensely（副詞）— 強く、激しく。感情や注意の向け方を強調することもある。  
-・intensive（形容詞）— 短期間に多くの努力・作業・活動を集中的に行う、または非常に詳細な。intense と重なる場合があるが、intensive は計画された投入量や客観的な集中を表しやすい。  
+・intensive（形容詞）— 多くの努力・活動・資源を集中的に投入する、または徹底的な。短期集中の講座にも使うが、すべての用法で期間の短さや計画性が必須となるわけではない。intense との比較は語義2で扱う。  
 
 ＃コアイメージ
 
@@ -98,7 +98,7 @@ tags: []
 ・powerful  
 定義: 物理的・心理的な力や、他者への影響が大きい。  
 頻度: 〈8/10〉  
-違い: powerful は力や影響を及ぼす側に焦点があり、intense は痛み・感情・圧力のように受け手が強く感じる対象にも広く使う。  
+違い: powerful は力や影響の大きさ、intense は程度・強度の高さを前面に出す。感情などで両語が重なることもあり、作用を及ぼす側か受ける側かだけで使い分ける規則ではない。  
 例: a powerful effect  
 訳: 強力な効果。  
 
@@ -158,20 +158,20 @@ tags: []
 訳: チームはサービスを復旧させるために全力を尽くした。  
 
 ・intense study/training  
-用途: 勉強や訓練が非常に厳しく、参加者が強い負荷を感じることを表す。  
+用途: 勉強や訓練に強い努力・集中が向けられていることを表す。厳しさや負荷の感じ方は文脈による。  
 例: After months of intense study, she passed the examination.  
 訳: 何か月もの厳しい勉強の末、彼女は試験に合格した。  
 
-【語法・注意】`intense` と `intensive` はどちらも短期間に多くの活動が行われる場合に使える。`intense training` は訓練のきつさや緊迫感を、`intensive training` は短期間に多くの訓練を計画的に詰め込む性質を表しやすい。したがって、`intensive course`、`intensive investigation`、`intensive farming` のように、方法や投入を客観的・組織的に述べる場合は `intensive` が自然である。`intense` を「短時間である」という意味だけで覚えると、活動の激しさという中心を取り違える。会話では、試合・映画・体験などについて `That was intense!`「すごかった／きつかった」のように、緊迫感や負荷の大きさを叙述用法で述べることも多い。  
+【語法・注意】`intense` は活動の強さ・激しさに、`intensive` は活動や資源の集中的な投入・徹底性に焦点を置きやすい。`intensive course` は短期集中の講座に使うことがあるが、`intensive farming` などまで一律に短期間の活動と解釈しない。訓練では両語が重なる場合もあり、`intense` なら主観的な苦しさ、`intensive` なら計画的な活動と機械的に二分しない。`intense` を「短時間である」という意味だけで覚えると、活動の激しさという中心を取り違える。会話では、試合・映画・体験などについて `That was intense!`「すごかった／きつかった」のように、緊迫感や負荷の大きさを叙述用法で述べることも多い。  
 
 【類義語】
 
 ・fierce  
 定義: 競争、対立、議論などが激しく、しばしば攻撃性や敵対性を帯びている。  
 頻度: 〈6/10〉  
-違い: fierce は競争・対立の敵対的な激しさを強調し、intense は敵意のない活動や努力の高い負荷にも使える。  
-例: fierce competition  
-訳: 激しい競争。  
+違い: fierce は競い合いや対抗の激しさを強調するが、実際の敵意や攻撃性は必須ではない。intense は競争に限らず、努力・集中などの強さにも広く使える。  
+例: The two companies faced fierce competition for the contract.  
+訳: その2社は契約をめぐって激しい競争に直面した。  
 
 ・strenuous  
 定義: 大きな力や体力を必要とし、非常にきつい。  
@@ -257,14 +257,14 @@ tags: []
 ・emotional  
 定義: 感情を強く感じたり、感情が表に出たりする。  
 頻度: 〈8/10〉  
-違い: emotional は感情が関わることに焦点があり、intense は感情が必ずしも中心でない集中・圧力・存在感にも使える。  
+違い: この emotional は感情の高まりや表出に焦点があり、intense は感情が必ずしも中心でない集中・圧力・存在感にも使える。  
 例: an emotional speech  
 訳: 感情のこもったスピーチ。  
 
 ・focused  
 定義: 注意や努力が一つの対象にしっかり向けられている。  
 頻度: 〈8/10〉  
-違い: focused は集中の方向と持続に焦点があり、intense は集中に加えて感情や雰囲気の強さも表せる。  
+違い: focused は注意が対象へ向いていることに焦点があり、持続時間の長さは必須ではない。intense は集中に加えて感情や雰囲気の強さも表せる。  
 例: a focused expression  
 訳: 集中した表情。  
 
