@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: unknown
 created_at: 2026-08-05
-updated_at: 2026-10-02
+updated_at: 2026-10-27
 checked: true
 tags: []
 ---
@@ -33,7 +33,7 @@ tags: []
 
 1. 【副詞】約・およそ・ほぼ（数値・数量・程度を近似して示す）
 
-【日本語訳・定義】厳密な値ではないが、実際の数・量・時間・距離・割合などに近い値を示す。数値の上下どちらもあり得るため、通常は「その値より少ない」という意味を含まない。数字だけでなく、二つの値・大きさ・程度、形状、関係、状態などが完全には一致しないが近いことを、`approximately equal`、`approximately proportional`、`approximately rectangular`、`approximately correct` のように表すこともある。  
+【日本語訳・定義】厳密な値として断定せず、実際の数・量・時間・距離・割合などに近い値として示す。数値の上下どちらもあり得るため、通常は「その値より少ない」という意味を含まない。数字だけでなく、二つの値・大きさ・程度、形状、関係、状態などについて、完全一致を保証せず近似として捉えることを、`approximately equal`、`approximately proportional`、`approximately rectangular`、`approximately correct` のように表すこともある。  
 
 【頻度】〈9/10〉  
 
@@ -99,25 +99,25 @@ tags: []
 訳: 計算された値は3.14とほぼ等しい。  
 
 ・approximately + 〈形容詞〉  
-用途: 形状、関係、状態などが完全ではないが近似的であることを示す。  
+用途: 形状、関係、状態などを、厳密な一致を保証せず近似として表す。  
 例: The island is approximately rectangular in shape.  
 訳: その島はおおむね長方形の形をしている。  
 
-【語法・注意】数値の前では `approximately 100` のように置き、`approximately the same size` では `the` を落とさない。approximately は値が基準値の上下どちらにもなり得ることを示すが、`nearly/almost 100` は基準値にまだ達していない側の含みが出やすい。about/around はより会話的で、roughly は概算の粗さを強調しやすい。approximately の後には具体的な数値、割合、測定値などを置くのが基本で、`approximately several people` や `approximately many people` のように、すでに漠然とした数量語に付けるのは不自然。approximately は概数を示すだけでなく、`approximately correct`、`approximately proportional`、`approximately rectangular` のように、正確さ・関係・形状などの近さにも使える。`approximately equal to` は数学的な完全一致ではなく近似的な等価を表す。`approx.` は表、メモ、計算などの省略に向くが、通常の散文では approximately と綴る。形容詞 approximate と混同して `an approximately number` とは言わず、概数を名詞句で表すときは `an approximate number`、数字を伴って表すときは `approximately 100` とする。`the approximately 100 people who attended` のように、`approximately + 数値` のまとまりが名詞の前に来る形は書き言葉で使われる。  
+【語法・注意】数値の前では `approximately 100` のように置き、`approximately the same size` では `the` を落とさない。approximately は値が基準値の上下どちらにもなり得ることを示すが、`nearly/almost 100` は基準値にまだ達していない側の含みが出やすい。about/around はより会話的で、roughly は概算の粗さを強調しやすい。approximately の後には具体的な数値、割合、測定値などを置くのが基本で、`approximately several people` や `approximately many people` のように、すでに漠然とした数量語に付けるのは不自然。approximately は概数を示すだけでなく、`approximately correct`、`approximately proportional`、`approximately rectangular` のように、正確さ・関係・形状などの近さにも使える。about や around との数値用法での重なりを、すべての形容詞へ広げない。例えば `approximately rectangular`「おおむね長方形の」を、語だけ交換して `around rectangular` としない。`approximately equal to` は近似として等しいと述べ、厳密な等号を主張しない。ただし、実際に完全一致している可能性まで否定する表現ではない。`approx.` は表、メモ、計算などの省略に向くが、通常の散文では approximately と綴る。形容詞 approximate と混同して `an approximately number` とは言わず、概数を名詞句で表すときは `an approximate number`、数字を伴って表すときは `approximately 100` とする。`the approximately 100 people who attended` のように、`approximately + 数値` のまとまりが名詞の前に来る形は書き言葉で使われる。  
 
 【類義語】
 
 ・about  
-定義: 数値、数量、時間などが提示された値に近いことを示す最も一般的な語。  
+定義: 数値、数量、時間などが提示された値に近いことを示す。  
 頻度: 〈10/10〉  
-違い: approximately より会話的で、日常会話の概数に最も自然。前置詞「〜について」などの別用法もある。  
+違い: about は日常会話の概数で使いやすく、approximately は報告・説明にもよく使う。ただし、数値の前で近い意味でも、形容詞の前などで常に置き換えられるわけではない。前置詞「〜について」などの別用法もある。  
 例: The repair will take about two hours.  
 訳: 修理には約2時間かかる。  
 
 ・around  
 定義: 数値、時刻、数量の前後の範囲を示す。  
 頻度: 〈10/10〉  
-違い: approximately と同じ概数用法を持つが、より会話的で、空間的な「周囲に・近くに」の意味も持つ。  
+違い: around は数値前の概数では approximately と重なるが、形状・関係を述べる形容詞の前まで一律に置き換えない。会話で使いやすく、空間的な「周囲に・近くに」という別用法もある。  
 例: There were around 200 people at the event.  
 訳: その催しには約200人いた。  
 
@@ -143,9 +143,9 @@ tags: []
 訳: 気温は30度近くだった。  
 
 ・nearly  
-定義: ある数値、時点、状態にほとんど達しているが、通常はまだ完全には達していないことを示す。数値や数量では、示された基準値の少し手前、つまり通常はその値未満であることを表す。  
+定義: ある数値、時点、状態にほとんど達しているが、通常はまだ完全には達していないことを示す。正の人数や所要時間などでは基準値より少ない量を表しやすいが、到達前であることと数値が常に基準未満であることは同じではない。  
 頻度: 〈9/10〉  
-違い: approximately と違って、基準値にまだ達していないという含みがあるため、approximately 100 の置き換えには必ずしもならない。  
+違い: approximately は基準の両側を許す近似、nearly は基準への未達に焦点を置く。温度が0度へ下がるなど、近づく方向が異なる場合は未達でも数値が基準より大きいことがあり、常に「未満」と機械的に訳さない。  
 例: The journey took nearly three hours.  
 訳: その旅には3時間近くかかった。  
 
