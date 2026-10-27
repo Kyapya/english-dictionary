@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v1
 model: unknown
 created_at: 2026-06-13
-updated_at: 2026-10-02
+updated_at: 2026-10-27
 checked: true
 tags: []
 ---
@@ -209,7 +209,7 @@ leave the ground は動作をそのまま説明する表現である。
 ・land  
 定義: 着陸する。  
 頻度: 〈8/10〉  
-違い: take off が地面を離れる動作なら、land は地面に戻る動作。  
+違い: take off が地面・水面を離れる方向なら、land は空中から地面・水面へ降りる方向。元の出発地点へ帰ることは必要ない。  
 例: The plane landed safely.  
 訳: 飛行機は無事に着陸した。  
 
@@ -268,7 +268,7 @@ take off after someone「人を追う」は特に米国の口語で使う。take
 ・leave  
 定義: 人や乗り物が、その場所から去る。  
 頻度: 〈10/10〉  
-違い: leave は中立的に去ることを表し、急な動きや勢いを含まない。場所を直接目的語にする leave the office も使える。  
+違い: leave は中立的に去ることを表し、急な動きや勢いを必ずしも含まない。場所を直接目的語にする leave the office も使える。  
 例: We left before the meeting ended.  
 訳: 私たちは会議が終わる前に立ち去った。  
 
@@ -309,7 +309,7 @@ take off after someone「人を追う」は特に米国の口語で使う。take
 例: I need to take off work tomorrow for an appointment.  
 訳: 用事があるので、明日は仕事を休む必要がある。  
 
-【語法・注意】take a day off と take off a day の両方が使える。期間が分かる代名詞なら take it off のように置けるが、何を指すかが不明確なら take the day off などと明示する。休む理由が娯楽とは限らず、病気・家族の世話なども含む。  
+【語法・注意】take a day off と take off a day の両方が使える。期間が分かる代名詞なら take it off のように置けるが、何を指すかが不明確なら take the day off などと明示する。休む理由が娯楽とは限らず、病気・家族の世話なども含む。 take leave は休暇取得を表すが、take one’s leave は別れを告げて立ち去るという改まった表現である。たとえば He took his leave. は「彼は別れを告げて立ち去った」で、仕事の休暇を取ったという意味ではない。  
 
 take two days off work は「仕事を2日休む」、take two seconds off a record は「記録を2秒縮める」（語義6）。どちらにも数量があるため、数量目的語の有無だけでは区別できない。off の後の対象と、休業か減少かという文脈を確認する。  
 
@@ -350,7 +350,7 @@ take two days off work は「仕事を2日休む」、take two seconds off a rec
 ・work  
 定義: 働く、勤務する。  
 頻度: 〈10/10〉  
-違い: take time off が仕事から離れることなら、work は勤務すること。  
+違い: 仕事を休む文脈では、休みを取る take time off と勤務する work が対照になる。仕事以外の活動から休む場合まで共通する反対語ではない。  
 例: I have to work this weekend.  
 訳: 今週末は働かなければならない。  
 
@@ -393,7 +393,7 @@ take two days off work は「仕事を2日休む」、take two seconds off a rec
 ・boom  
 定義: 急に盛んになる、急成長する。  
 頻度: 〈6/10〉  
-違い: boom は経済・市場・人気の急拡大に使いやすい。  
+違い: boom は経済や市場などの活況・急拡大を描く。take off は勢いがついて伸び始める変化を強調しやすいが、boom が開始を表せない、take off が開始の一瞬にしか使えないという区分ではない。  
 例: Online sales boomed during the period.  
 訳: その期間にオンライン販売が急増した。  
 
@@ -416,14 +416,14 @@ take two days off work は「仕事を2日休む」、take two seconds off a rec
 ・decline  
 定義: 衰える、減少する。  
 頻度: 〈7/10〉  
-違い: take off が上昇の始まりなら、decline は下落や衰退を表す。  
+違い: 売上や事業の増加・発展を表す take off に対し、decline は減少・衰退という逆方向を表す。どちらでもない横ばいの状態もある。  
 例: Sales declined after the recall.  
 訳: リコール後、売上は減少した。  
 
 ・stall  
 定義: 進展が止まる、失速する。  
 頻度: 〈5/10〉  
-違い: stall は成長や計画が止まること。  
+違い: take off が勢いづくことを表すのに対し、stall は進展が止まることを表す。停止の対照であって、必ず減少・衰退するという意味ではない。  
 例: The project stalled because of funding problems.  
 訳: 資金問題でそのプロジェクトは停滞した。  
 
@@ -459,7 +459,7 @@ take two days off work は「仕事を2日休む」、take two seconds off a rec
 例: They took 20 percent off the final bill.  
 訳: 彼らは最終請求額から20パーセント引いた。  
 
-【語法・注意】take $10 off the price では $10 が引く量、the price が引かれる元の価格である。take 20 percent off は「20パーセントにする」ではなく「20パーセント減らす」。時間を目的語にしても、記録・所要時間を短くするならこの語義である。  
+【語法・注意】take $10 off the price では $10 が引く量、the price が引かれる元の価格である。take 20 percent off は「20パーセントにする」ではなく「20パーセント減らす」。 deduct/subtract five from the total は、five が引く量、the total が元の総量で、take five off the total と対応する。discount the price by 20 percent では、目的語 the price が下げる対象、by 以下が値下げの割合を示す。単語だけを置き換えて目的語の役割まで同じだとは考えない。時間を目的語にしても、記録・所要時間を短くするならこの語義である。  
 
 take years off someone は「その人を若く見せる・若い気分にする」という慣用句。一方、take years off someone’s life は、苦労や恐怖で寿命が縮むように感じさせるという別の表現になる。take the edge off something は「苦痛・空腹などの強さを和らげる」で、具体的な数値を引くとは限らない。  
 
@@ -597,7 +597,7 @@ take years off someone は「その人を若く見せる・若い気分にする
 例: The series was taken off the air after one season.  
 訳: そのシリーズは1シーズンで放送が打ち切られた。  
 
-【語法・注意】The train took off なら列車が勢いよく出発したなどの自動詞の読みになるが、The operator took the train off は運行者が便をやめた他動詞の読みになる。take it off の it は off の前に置く。人を仕事から外す語義8と、番組・便などの提供をやめるこの語義を区別する。  
+【語法・注意】The train took off なら列車が勢いよく出発したなどの自動詞の読みになるが、The operator took the train off は運行者が便をやめた他動詞の読みになる。take it off の it は off の前に置く。人を仕事から外す語義8と、番組・便などの提供をやめるこの語義を区別する。 cancel も予定やサービスの取り消しに使うが、提供中の一覧から外すという捉え方は必須ではない。take off や discontinue が必ず永久終了を表すわけでも、cancel が一回限りの予定にしか使えないわけでもない。  
 
 【類義語】
 
@@ -670,13 +670,13 @@ take years off someone は「その人を若く見せる・若い気分にする
 ・mimic  
 定義: 声・動作・表情などをまねる。  
 頻度: 〈6/10〉  
-違い: mimic は声や動作の再現に焦点がある。  
+違い: mimic は声や動作などの特徴を似せて再現することに焦点があり、面白く演じる目的は必須ではない。この take off は、人の特徴を面白く再現する英国的な言い方。  
 例: He mimicked her accent.  
 訳: 彼は彼女のなまりをまねた。  
 
 ・do an impression of  
 定義: 人のものまねをする。  
 頻度: 〈5/10〉  
-違い: do an impression of は会話で分かりやすく、芸としてのものまねに自然。  
+違い: 人の特徴を演じて見せるという点で take off と近い。do an impression of someone のように対象を of で導くのに対し、take someone off は人を直接目的語にする。職業的な演芸である必要はない。  
 例: She did an impression of the mayor.  
 訳: 彼女は市長のものまねをした。  
