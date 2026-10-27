@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v2
 model: unknown
 created_at: 2026-07-21
-updated_at: 2026-10-02
+updated_at: 2026-10-27
 checked: true
 tags: []
 ---
@@ -69,13 +69,15 @@ through と thorough「徹底した」は歴史的には同じ系統の形であ
 例: He remained calm throughout the interview.  
 訳: 彼は面接の間ずっと冷静だった。  
 
-【語法・注意】throughout は標準的には前置詞・副詞であり、形容詞として名詞を直接修飾する用法はない。前置詞 throughout の後ろには通常、名詞句を置く。主語と定形動詞から成る通常の節を、そのまま続けることはしない。throughout I was staying there ではなく、throughout my stay there または the whole time I was staying there とする。what happens here「ここで起きること」のように名詞相当のまとまりなら、throughout what happens here という形で後ろに置ける。  
+【語法・注意】throughout は標準的には前置詞・副詞であり、形容詞として名詞を直接修飾する用法はない。前置詞 throughout の後ろには通常、名詞句を置く。主語と定形動詞から成る通常の節を、そのまま続けることはしない。throughout I was staying there ではなく、throughout my stay there または the whole time I was staying there とする。名詞相当の節を後ろに置く場合も、時間義ではその内容を期間として捉えられる必要がある。throughout what remained of the winter「冬の残りの期間を通して」のように、what で始まるまとまりが期間を指す形は使える。名詞相当であるだけで、どの内容でも自然につながるわけではない。  
 
 during は期間中の一時点だけの出来事にも、期間全体にわたる状態にも使えるが、throughout は全期間を覆うことを明示する。I woke up during the night. は「夜中に目が覚めた」、I kept waking up throughout the night. は「一晩中何度も目が覚めた」である。  
 
 状態動詞では継続、反復可能な動作では期間内での反復を表すことが多い。ただし throughout 自体が「絶え間なく」を必ず意味するわけではなく、It rained throughout the week. は一週間の各日に雨が降ったという解釈も可能である。  
 
 throughout the whole/entire period の whole/entire は意味上重なるが、全期間であることを強調する自然な表現である。  
+
+時間の through も、through the night のように期間中の継続や終わりまで及ぶことを表す。She worked through the night.「彼女は夜通し働いた」の through は空間を通り抜ける意味ではない。throughout the night と重なる場合もあるが、throughout は期間全体への広がりを明示する。米語の Monday through Friday は「月曜から金曜まで（金曜を含む）」という終点を含む範囲で、throughout Friday「金曜の一日を通して」とは構造も指す期間も異なる。  
 
 【類義語】
 
@@ -96,7 +98,7 @@ throughout the whole/entire period の whole/entire は意味上重なるが、�
 ・for the duration of  
 定義: ～が続く全期間にわたって。  
 頻度: 〈5/10〉  
-違い: 全期間という点は throughout と重なるが、より明示的で硬く、規則・契約・公的な説明で使われやすい。  
+違い: for the duration of は状態・活動がその期間続くことを明示し、規則などの説明にも使う。throughout は期間の各所に分布する反復にも焦点を当てられるため、全期間という意味が近くても、反復を述べる文で機械的に置き換えない。  
 例: Visitors must wear their badges for the duration of the conference.  
 訳: 来場者は会議の全期間にわたって名札を着けなければならない。  
 
@@ -217,8 +219,8 @@ in every part of は、throughout の意味をそのまま説明する言い換�
 
 ・be used throughout  
 用途: ある素材・物が文脈上の対象の各所で使われていることを表す。  
-例: Natural materials are used throughout.  
-訳: 全体を通して自然素材が使われている。  
+例: The house has three floors, and natural materials are used throughout.  
+訳: その家は3階建てで、全体に自然素材が使われている。  
 
 ・be decorated throughout  
 用途: 建物などの内側全体が装飾されていることを表す。場所ごとに全く同じ仕上げであるとは限らない。  
@@ -234,13 +236,13 @@ in every part of は、throughout の意味をそのまま説明する言い換�
 ・everywhere  
 定義: どこでも、至る所に。  
 頻度: 〈10/10〉  
-違い: everywhere は場所が広範囲に分散していることを一般的に表す。throughout は文脈で定まる一つの対象の内部全体に焦点を置く。  
+違い: everywhere は「どこでも・至る所に」を表し、その範囲は一つの建物内にも限定できる。throughout は文脈で定まる対象の全体への広がりを前面に出すため、対象が一つか広域かだけで区別しない。  
 例: We looked everywhere for the missing key.  
 訳: 私たちはなくした鍵を至る所で捜した。  
 
 ・all over  
 定義: 一面に、至る所に。  
 頻度: 〈9/10〉  
-違い: 副詞としての all over は会話的で、散在や表面上の広がりを表しやすい。throughout は対象内部の全範囲をやや客観的に述べる。  
+違い: 副詞としての all over は会話的で、散在や表面上の広がりを表しやすい。throughout は対象内部を含む全範囲への分布・状態に焦点を置く。  
 例: Toys were scattered all over.  
 訳: おもちゃが至る所に散らばっていた。  
