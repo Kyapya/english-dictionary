@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v1
 model: unknown
 created_at: 2026-06-14
-updated_at: 2026-06-14
+updated_at: 2026-10-27
 checked: true
 tags: []
 ---
@@ -69,6 +69,22 @@ tags: []
 
 【語法・注意】interpretation は「客観的な意味そのもの」ではなく、人が意味を読み取る行為や結果を指す。translation は言語を移すこと、interpretation は意味づけの幅が広い。
 
+以下は、解釈の正確さや、意味と解釈の関係を考えるための対照表現であり、interpretation の反意語ではない。
+
+・misinterpretation
+定義: 誤った解釈。
+頻度: 〈5/10〉
+違い: interpretation 自体は解釈が正しいかどうかを決めない。misinterpretation はそのうち誤った読み取りを明示する語で、解釈そのものの反対ではない。
+例: The rumor was based on a misinterpretation.
+訳: そのうわさは誤解に基づいていた。
+
+・literal meaning
+定義: 文字どおりの意味。
+頻度: 〈6/10〉
+違い: literal meaning は文字どおりの意味内容を指し、それも interpretation の対象になり得る。文字どおりに解釈することも可能で、両者は反対ではない。
+例: The literal meaning of the phrase is quite different.
+訳: その表現の文字どおりの意味はまったく異なる。
+
 【類義語】
 
 ・explanation
@@ -92,25 +108,9 @@ tags: []
 例: My understanding is that the meeting was canceled.
 訳: 私の理解では、会議は中止になったはずだ。
 
-【反意語】
+2. 【名詞】通訳。
 
-・misinterpretation
-定義: 誤った解釈。
-頻度: 〈5/10〉
-違い: interpretation が中立的な解釈なら、misinterpretation は不正確な読み取り。
-例: The rumor was based on a misinterpretation.
-訳: そのうわさは誤解に基づいていた。
-
-・literal meaning
-定義: 文字どおりの意味。
-頻度: 〈6/10〉
-違い: interpretation が文脈や視点を含むのに対し、literal meaning は表面上の意味。
-例: The literal meaning of the phrase is quite different.
-訳: その表現の文字どおりの意味はまったく異なる。
-
-2. 【名詞】通訳、口頭翻訳。
-
-【日本語訳・定義】話された言葉を別の言語に口頭で伝えること。職業・サービスとしての通訳を指す。
+【日本語訳・定義】音声言語や手話で表された内容を、別の言語で伝えること。音声による通訳だけでなく、手話が関わる通訳も含み、職業や有料サービスであることは必要条件ではない。
 
 【頻度】〈頻度: 6/10〉
 
@@ -140,30 +140,25 @@ tags: []
 例: The city provides interpretation for residents who do not speak English.
 訳: 市は英語を話さない住民に通訳を提供している。
 
-【語法・注意】書かれた文章を別の言語に訳すのは translation、話し言葉を口頭で訳すのは interpretation（または interpreting）と区別する。ただし日常会話では口頭の通訳も translation と言うことが多い。通訳者は interpreter。
+【語法・注意】書かれた文章を別の言語に訳すときには translation を使う。音声言語や手話の通訳には interpreting が使われ、interpretation もこの意味で使われる。一方、translation は広く別言語に訳すことを述べ、口頭での訳にも使われるため、常に書面だけを指すとは考えない。通訳者は interpreter。
+
+rendering は、別の言語に訳された文章やその訳し方を述べる語にもなる。ここでは訳出された表現との対照であり、通訳する行為や職業そのものの同義語としては扱わない。芸術上の演奏・演技を指す rendering は語義3で比較する。
 
 【類義語】
 
 ・interpreting
 定義: 通訳する行為。
 頻度: 〈6/10〉
-違い: interpreting は通訳という行為・職業分野の名称として通訳の専門家の間で好まれる。interpretation も同じ意味で広く使われ、特に米で多く、interpretation services のようなサービス名にもよく現れる。
+違い: interpreting は通訳という行為や活動分野を明示する名称。interpretation もこの意味で使われるが、解釈・説明という別の意味もあるため、文脈で区別する。
 例: She works in medical interpreting.
 訳: 彼女は医療通訳の仕事をしている。
 
 ・translation
-定義: 翻訳、訳文。
+定義: ある言語の内容を別の言語で伝えること、またその訳。
 頻度: 〈8/10〉
-違い: translation は主に書き言葉の翻訳に使うが、広く訳す行為にも使われる。
-例: The translation was accurate.
-訳: その翻訳は正確だった。
-
-・rendering
-定義: 表現、訳し方。
-頻度: 〈4/10〉
-違い: rendering は訳文や表現結果を指す硬い語。
-例: This rendering sounds natural.
-訳: この訳し方は自然に聞こえる。
+違い: 通訳の文脈で訳す行為や訳された内容を述べる場合に重なる。translation は書面の翻訳も含む広い語なので、専門的な通訳活動を指す interpreting と常に同一視しない。
+例: The interpreter gave an accurate translation of the speaker's answer.
+訳: 通訳者は、話し手の答えを正確に訳して伝えた。
 
 3. 【名詞】（演奏・演技・演出などの）解釈、表現。
 
@@ -194,7 +189,7 @@ tags: []
 ・rendition
 定義: 曲や役などの演奏・歌唱・演技の仕方。
 頻度: 〈5/10〉
-違い: rendition は特定の曲や役の実際の演奏・歌唱を指し、interpretation はその背後にある解釈の方向性に焦点がある。
+違い: rendition は特定の曲や役を実際に演じたものに焦点があり、interpretation は作品をどう捉え、どう表現するかに重点がある。ただし interpretation も実際に表現された演奏・演技を指すため、内面と実演を排他的に分ける区別ではない。
 例: She sang a moving rendition of the national anthem.
 訳: 彼女は国歌を感動的に歌い上げた。
 
@@ -204,3 +199,10 @@ tags: []
 違い: performance は行為や出来栄え全般を指し、解釈の独自性には必ずしも焦点がない。
 例: The actor's performance was powerful.
 訳: その俳優の演技には迫力があった。
+
+・rendering
+定義: 作品や役の演奏・演技、またその表現の仕方。
+頻度: 〈5/10〉
+違い: この芸術用法では interpretation と重なり、作品がどのように実演されたかに焦点がある。別言語への訳し方を指す rendering とは対象を区別する。
+例: Her rendering of the final scene was deeply moving.
+訳: 彼女による最後の場面の演技は、深く心を動かすものだった。
