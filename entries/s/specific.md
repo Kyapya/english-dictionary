@@ -3,9 +3,9 @@ headword: specific
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: unknown
 created_at: 2026-10-03
-updated_at: 2026-10-03
+updated_at: 2026-10-27
 checked: true
 tags: []
 ---
@@ -82,7 +82,7 @@ tags: []
 例: I chose the blue one for no specific reason.  
 訳: 特に理由もなく、青いほうを選んだ。  
 
-【語法・注意】通常は名詞の前に置くが、something、anything、nothing のような不定代名詞では something specific と後ろに置く。specific people、specific areas のように複数も修飾できる。「特定の」と「具体的な」（語義2）は重なる場合があるが、a specific person はまず「特定の人物」であり、「説明が具体的な人」という意味ではない。a specific plan は、文脈により「ある特定の計画」にも「内容の明確な計画」にもなる。specific そのものに複数語尾を付けて specific needs を specifics needs としてはいけない。  
+【語法・注意】通常は名詞の前に置くが、something、anything、nothing のような不定代名詞では something specific と後ろに置く。specific people、specific areas のように複数も修飾できる。「特定の」と「具体的な」（語義2）は重なる場合があるが、a specific person はまず「特定の人物」であり、「説明が具体的な人」という意味ではない。a specific plan は、文脈により「ある特定の計画」にも「内容の明確な計画」にもなる。specific そのものに複数語尾を付けて specific needs を specifics needs としてはいけない。 special との比較では、specific は対象を個別に絞ること、special は通常と区別された役割・扱い・性質に焦点を置く。special が常に「優秀な・珍しい」を意味するわけではない。a specific purpose は「どの目的かが絞られている」、a special purpose は「通常とは区別した特別な用途がある」という違いで、同じ用途に両方が当てはまる場合もある。  
 
 【類義語】
 
@@ -94,9 +94,9 @@ tags: []
 訳: 特にご希望の席はありますか。  
 
 ・certain  
-定義: ある一つ・いくつかの対象を指しつつ、詳細を明言しない。  
+定義: 具体的に名指し・列挙せず、ある対象や対象全体のうちの一部を指す。  
 頻度: 〈8/10〉  
-違い: a certain person は「ある人物」と特定しながら名前を伏せるのに適し、specific は対象が絞られている点をより強調する。  
+違い: certain files は全体のうちの一部を指し、a certain person のように名前を明かさず対象を示す用法もある。specific は対象を他と区別して絞る点を強調する。certain に必ず意図的な秘密保持があるわけではない。  
 例: Certain files can only be opened by the administrator.  
 訳: 一部のファイルは、管理者しか開くことができない。  
 
@@ -195,6 +195,13 @@ tags: []
 例: She sent a detailed account of the repairs.  
 訳: 彼女は修理内容の詳しい報告を送った。  
 
+・concrete  
+定義: 抽象的な一般論ではなく、個別の事実・事例・行動などとして示される。  
+頻度: 〈7/10〉  
+違い: concrete は抽象的でないこと、specific は対象や内容を絞って明確にすることに焦点がある。具体例では重なるが、単に説明を長く詳しくすることとは違う。  
+例: The report gives concrete examples of how the policy affects families.  
+訳: その報告書は、政策が家族にどのような影響を与えるかを具体例で示している。  
+
 【反意語】
 
 ・vague  
@@ -262,7 +269,7 @@ tags: []
 ・exclusive to  
 定義: ある人・場所・範囲だけに限られ、ほかには認められない・存在しない。  
 頻度: 〈6/10〉  
-違い: specific to より排他的な限定を強く示し、販売権・利用資格などにもよく使う。  
+違い: exclusive to は他を含めない限定を示し、販売権・利用資格などにも使う。specific to が「その範囲だけに限られる」意味なら重なるが、「その対象用に特化した」意味では必ずしも排他的ではない。単純な強弱の順位にはしない。  
 例: The discount is exclusive to members.  
 訳: その割引は会員限定だ。  
 
@@ -333,9 +340,9 @@ tags: []
 訳: その用紙には、車両の詳細情報を記入するよう求められている。  
 
 ・particularities  
-定義: ある対象に特有の細かな特徴。  
+定義: ある対象の細かな特徴や個別の事情・詳細。  
 頻度: 〈3/10〉  
-違い: specifics が具体的事項全般を指すのに対し、particularities は個別の特徴・特殊性に焦点を当てるため、単なる日時や金額の一覧には通常使わない。  
+違い: particularities はその対象の特徴や細かな事情に目を向ける語で、具体的な詳細を指す範囲で specifics と重なる。特徴の唯一性が必須なのではなく、扱う情報と文脈によって選ぶ。一般的に詳細を求めるなら details や specifics が使いやすい。  
 例: The design reflects the particularities of the local climate.  
 訳: その設計には、地域の気候の特性が反映されている。  
 
@@ -454,6 +461,6 @@ tags: []
 ・remedy  
 定義: 病気や症状を改善・緩和するための薬・手段。  
 頻度: 〈6/10〉  
-違い: specific より現代的で範囲が広く、特定の病気にだけ作用することや完治を含意しない。  
+違い: remedy は治療・緩和の手段を広く表す。名詞 specific は特定の病気に適した薬という位置付けに焦点があるが、それだけで他の病気には作用しないことや完治を保証するわけではない。  
 例: The booklet discussed traditional remedies for minor ailments.  
 訳: その冊子は、軽い不調に対する伝統的な治療法を取り上げていた。  
