@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v1
 model: unknown
 created_at: 2026-06-14
-updated_at: 2026-09-30
+updated_at: 2026-10-27
 checked: true
 tags: []
 ---
@@ -68,7 +68,17 @@ mainly は main + -ly から作られ、「主要な部分として、主とし�
 例: The diet mainly consists of rice and vegetables.
 訳: その食事は主に米と野菜で構成されている。
 
-【語法・注意】mainly は主な部分や理由を示し、only のように他の可能性を排除しない。mostly とも大きく意味が重なり、両語に一定の割合の境界はない。「ほぼすべて」を明確に言うなら almost all などを使う。primarily は「主として」という意味で使え、文脈によっては「第一に」という重要性も示す。mainly を置く位置によって、何が「主」であるかが変わる。
+【語法・注意】mainly は主な部分や理由を示し、only のように他の可能性を排除しない。mostly とも大きく意味が重なり、両語に一定の割合の境界はない。「ほぼすべて」を明確に言うなら almost all などを使う。primarily は「主として」という意味で使え、文脈によっては「第一に」という重要性も示す。mainly を置く位置によって、何が「主」であるかが変わる。 usually は、あることが通常・たいてい成立するという頻度に焦点を置く。mainly は主な部分・対象・用途などに焦点があり、習慣の説明で「たいていは」と訳せても、単純に同じ頻度副詞として扱わない。たとえば I mainly work at home. は主な仕事場所が自宅であること、I usually work at home. は普段は自宅で働くことを述べる。mainly も「多くの場合」を述べることがあり、同じ状況を表せる場合もある。両語を常に交換不能とするのではなく、何に焦点を当てているかを確認する。
+
+以下の partly は部分の捉え方についての対照表現で、mainly の反意語ではない。
+
+・partly
+定義: 部分的に、一部は。
+頻度: 〈8/10〉
+違い: 同じ原因や構成について、mainly は主な部分、partly は一部を示す。ただし、partly だけではその部分が小さいとは限らず、厳密な反意語ではない。
+例: The delay was partly my fault.
+訳: 遅れは部分的には私の責任だった。
+
 
 【類義語】
 
@@ -92,13 +102,4 @@ mainly は main + -ly から作られ、「主要な部分として、主とし�
 違い: largely は割合や程度を示し、形容詞と組み合わせて「おおむね〜だ」と述べるときにも使う。
 例: The project was largely successful.
 訳: そのプロジェクトはおおむね成功した。
-
-【反意語】
-
-・partly
-定義: 部分的に、一部は。
-頻度: 〈8/10〉
-違い: 同じ原因や構成について、mainly は主な部分、partly は一部を示す。ただし、partly だけではその部分が小さいとは限らず、厳密な反意語ではない。
-例: The delay was partly my fault.
-訳: 遅れは部分的には私の責任だった。
 
