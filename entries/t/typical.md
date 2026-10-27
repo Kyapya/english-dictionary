@@ -4,7 +4,7 @@ type: word
 status: checked
 prompt_version: entry_spec_v5
 created_at: 2026-10-25
-updated_at: 2026-10-25
+updated_at: 2026-10-26
 checked: true
 tags: []
 ---
@@ -111,6 +111,13 @@ type、typify と同じ語族に属する。ただし、歴史上も英語の ty
 例: The machine is operating within its normal temperature range.  
 訳: その機械は、通常の温度範囲内で稼働している。  
 
+・common  
+定義: 頻繁に起こる、または多くの場所・例で見られる。  
+頻度: 〈9/10〉  
+違い: common は頻度や分布、typical は種類の特徴をよく示すことに焦点がある。よく見られる特徴が典型的でもある場合は重なるが、単に数が多いことと、ある種類をよく表すことは判断の軸が異なる。  
+例: This spelling error is common among beginners.  
+訳: この綴りの間違いは、初心者によく見られる。  
+
 2. 【形容詞：通常は名詞の前】いつもの・通常の
 
 【日本語訳・定義】特別な日や例外的な場合ではなく、普段どうなっているかを示す。  
@@ -134,6 +141,15 @@ type、typify と同じ語族に属する。ただし、歴史上も英語の ty
 訳: 普段の朝、そのカフェには80人ほどの客が来る。  
 
 【語法・注意】一回だけの特殊な出来事ではなく、普段の様子を例として示す。数値と一緒に使っても、それが厳密な算術平均だとは限らない。  
+
+【類義語】
+
+・usual  
+定義: たいていの場合に起こる、または普段行われる。  
+頻度: 〈9/10〉  
+違い: usual は普段の習慣・あり方に焦点があり、この意味の typical と近い。a typical day は普段の一日を例として示す言い方で、my usual seat は自分がいつも座る特定の席を指す。usual のすべての結合を typical に置き換えるわけではない。  
+例: We took our usual route to the station.  
+訳: 私たちは、いつもの道を通って駅へ向かった。  
 
 3. 【形容詞】いかにもその人らしい・お決まりの
 
@@ -163,6 +179,8 @@ type、typify と同じ語族に属する。ただし、歴史上も英語の ty
 訳: プリンターがまた止まった。まったく、いつもこうだ。  
 
 【語法・注意】It is typical of you to … は行為によって褒め言葉にも批判にもなる。Typical! だけの発話はしばしば苛立ちを表すが、typical の全用法が否定的なのではない。  
+
+in character も、振る舞いが普段の性格に合っていることを表し、この人物らしさの typical と重なる。ただし、in character には演技で「役になりきって」という用法もある。一方、Typical! という苛立ちの一言を in character にそのまま置き換えても、同じ慣用的な発話にはならない。  
 
 4. 【形容詞、生物学】分類群の特徴をよく備えた
 
