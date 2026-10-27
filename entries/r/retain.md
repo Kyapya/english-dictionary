@@ -3,9 +3,9 @@ headword: retain
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-5.6-luna-wm
+model: unknown
 created_at: 2026-08-25
-updated_at: 2026-10-02
+updated_at: 2026-10-27
 checked: true
 tags: []
 ---
@@ -102,7 +102,7 @@ retain の核は、対象を手元・内部・関係・状態の中にとどめ�
 例: The company retained part of its earnings to fund expansion.  
 訳: その会社は事業拡大の資金にするため、利益の一部を社内に残した。  
 
-【語法・注意】この語義の `retain` は、すでに持っているもの・すでにある状態や関係を、その後も失わずに保つことを表す。新たに手に入れる `acquire` や、状態を保つために継続的に管理する `maintain` とは焦点が異なる。`retain a deposit` のように金銭を手元に残す場合は、返還・支払いを控える含みがある。`retain rooms` は「部屋を引き続き自分の利用のために確保しておく」という意味にもなる。`retain one's seat` は、政治の文脈では「議席を守る」を表す。  
+【語法・注意】この語義の `retain` は、すでに持っているもの・すでにある状態や関係を、その後も失わずに保つことを表す。新たに手に入れる `acquire` や、状態・水準を維持することに焦点を置く `maintain` とは異なる。maintain が管理や努力を伴う文脈は多いが、人の意図的な働きかけが常に必要というわけではない。`retain a deposit` のように金銭を手元に残す場合は、返還・支払いを控える含みがある。`retain rooms` は「部屋を引き続き自分の利用のために確保しておく」という意味にもなる。`retain one's seat` は、政治の文脈では「議席を守る」を表す。  
 
 【類義語】
 
@@ -114,23 +114,23 @@ retain の核は、対象を手元・内部・関係・状態の中にとどめ�
 訳: 記録のためにその領収書を取っておいてよい。  
 
 ・maintain  
-定義: 状態、水準、制度、機能などを意図的に保つ。  
+定義: 状態、水準、制度、機能などを維持する。  
 頻度: 〈9/10〉  
-違い: `maintain` は保つための継続的な管理や努力に焦点があり、`retain` は失わずに持ち続けることに焦点がある。  
+違い: `maintain` は状態・水準などを維持することに、`retain` は対象を失わず持ち続けることに焦点がある。maintain は物・装置などにも使い、人の継続的な管理や努力を必ず表すわけではない。  
 例: The company maintains high safety standards.  
 訳: その会社は高い安全基準を維持している。  
 
 ・preserve  
 定義: 物・状態・価値などを損傷や変化から守って残す。  
 頻度: 〈8/10〉  
-違い: `preserve` は劣化・破壊・変化を防ぐ積極的な保全を表し、`retain` は必ずしも保全作業を含まない。  
+違い: `preserve` は損傷・劣化・望ましくない変化から状態などを守って残すことを表す。人の保全作業にも自然条件による保存にも使うため、積極的な作業の有無だけを retain との境界にしない。  
 例: The project aims to preserve the historic landscape.  
 訳: その計画は歴史的景観を保存することを目指している。  
 
 ・withhold  
 定義: 金銭の支払いや、情報・許可などの提供を意図的に差し控える。  
 頻度: 〈7/10〉  
-違い: `withhold` は支払い・提供をしないことに焦点があり、`retain` は自分の側に残して持ち続けることに焦点がある。  
+違い: 金銭などを手元に残す場面で重なるが、withhold は支払い・提供を差し控えることに焦点がある。情報を相手に渡さない withhold と、情報を保存・記憶しておく retain は同じではない。  
 例: The bank withheld the payment until the documents were verified.  
 訳: 銀行は書類が確認されるまで支払いを保留した。  
 
@@ -170,7 +170,7 @@ retain の核は、対象を手元・内部・関係・状態の中にとどめ�
 【コロケーション】
 
 ・retain key employees  
-用途: 重要な従業員を辞めさせず、組織にとどめる。  
+用途: 重要な従業員の離職を防ぎ、雇用関係を維持する。  
 例: The company increased salaries to retain key employees.  
 訳: その会社は重要な従業員をつなぎ留めるために給与を引き上げた。  
 
@@ -317,7 +317,7 @@ retain の核は、対象を手元・内部・関係・状態の中にとどめ�
 ・preserve  
 定義: 状態、品質、価値などを変化や損傷から守る。  
 頻度: 〈8/10〉  
-違い: `preserve` は保全のための働きに焦点があり、`retain heat/moisture` は外へ逃がさない保持に焦点がある。  
+違い: `preserve` は状態・品質などが損なわれず残ることに、`retain heat/moisture` は熱・水分を失わない保持に焦点がある。preserve 自体が人による積極的な保全作業を必須とするわけではない。  
 例: The coating preserves the wood's natural color.  
 訳: その塗装は木材本来の色を保つ。  
 
@@ -364,9 +364,9 @@ retain の核は、対象を手元・内部・関係・状態の中にとどめ�
 【コロケーション】
 
 ・retain 〈fluid/fluids〉  
-用途: 体が体液を体内にとどめる。病態や薬の作用による過剰な保持を述べる場合にも使う。  
-例: Some medications can cause the body to retain fluid.  
-訳: 薬によっては、体が体液をため込むことがある。  
+用途: 体が体液を体内にとどめている状態を述べる。  
+例: The medical report noted that the patient was retaining fluid.  
+訳: 医療報告には、その患者の体内に体液がたまっていると記されていた。  
 
 ・retain urine  
 用途: 尿を十分に排出できず、膀胱に尿が残っている状態を述べる。  
@@ -380,8 +380,8 @@ retain の核は、対象を手元・内部・関係・状態の中にとどめ�
 
 ・retain sodium and water  
 用途: 生理・薬理の説明で、ナトリウムと水分を体内に保持する。  
-例: The kidneys may retain sodium and water when blood flow is reduced.  
-訳: 血流が低下すると、腎臓がナトリウムと水分を保持することがある。  
+例: The study measured how much sodium and water the body retained.  
+訳: その研究では、体が保持したナトリウムと水分の量を測定した。  
 
 【語法・注意】`retain water` は医学文脈ではこの語義になり得るが、土壌や容器が水を保つ語義3とも解釈できる。医学用法の `retain` は、単に「吸収する」ことではなく、物質が体外へ出ずに体内に残ることを表す。`excrete` や `expel` は外へ出す側の語であり、`retain fluid` と方向が逆である。`eliminate` は除去・消失を広く表し、薬物では代謝と排泄の両方を含み得る。`fluid retention` や `urinary retention` は名詞表現としてよく使われる。`retain` は物質が体内に残ることを表し、その原因までは含まない。  
 
@@ -406,9 +406,9 @@ retain の核は、対象を手元・内部・関係・状態の中にとどめ�
 訳: 腎臓は尿中に老廃物を排出する。  
 
 ・eliminate  
-定義: 薬物などを代謝・排泄によって消失させる。  
+定義: 薬物などを代謝や排泄によって消失させる。  
 頻度: 〈5/10〉  
-違い: 薬物についての `eliminate` は、代謝と排泄によって体内から消失することを表す。体内に残す `retain` とは方向が逆で、排泄だけに限定されない。  
+違い: 薬物についての `eliminate` は、代謝や排泄によって体内から消失することを表し、排泄だけに限定されない。薬物ごとに各経路の寄与は異なり、常に両方が働くとは断定しない。体内に残す retain とは方向が逆になる。  
 例: The body gradually eliminates the drug.  
 訳: 体は代謝や排泄によって、その薬を徐々に除去する。  
 
@@ -425,7 +425,7 @@ retain の核は、対象を手元・内部・関係・状態の中にとどめ�
 
 【頻度】〈7/10〉  
 
-【レジスター/領域】教育、学習、心理、仕事の訓練、文章語。`remember` より硬く、学習成果や記憶保持の程度を客観的に述べる文脈で多い。  
+【レジスター/領域】教育、学習、心理、仕事の訓練、文章語。`remember` より硬く、学習成果や記憶保持の程度を述べる説明的な文脈で多い。  
 
 【文法パターン】`retain 〈information/facts/knowledge/details〉`＝〈情報・事実・知識・詳細〉を記憶にとどめる／`retain what 〈人〉 learned/read`＝〈人〉が学んだ・読んだことを記憶に保つ／`be able to retain 〈情報〉`＝〈情報〉を保持できる／`retain little of 〈内容〉`＝内容をほとんど記憶していない／`retain much of 〈内容〉`＝内容を多く記憶している。  
 
@@ -461,7 +461,7 @@ retain の核は、対象を手元・内部・関係・状態の中にとどめ�
 例: The witness retained a clear memory of the conversation.  
 訳: その証人には会話の記憶がはっきり残っていた。  
 
-【語法・注意】`retain information` は、情報が後まで記憶に残ることを表す。意識的に暗記する `memorize` や、記憶から取り出す `recall` とは、記憶について注目する側面が異なる。単に「覚えている」と日常的に言うなら `remember` が自然な場合が多い。`retain` は情報を頭の中に保持する意味であり、記憶の正確さや理解の深さまで必ず保証しない。  
+【語法・注意】`retain information` は、情報が後まで記憶に残ることを表す。記憶に入れて覚える `memorize` や、記憶から取り出す `recall` とは、記憶について注目する側面が異なる。単に「覚えている」と日常的に言うなら `remember` が自然な場合が多い。`retain` は情報を頭の中に保持する意味であり、記憶の正確さや理解の深さまで必ず保証しない。  
 
 【類義語】
 
@@ -475,7 +475,7 @@ retain の核は、対象を手元・内部・関係・状態の中にとどめ�
 ・keep in mind  
 定義: 情報や注意点を心に留めておく。  
 頻度: 〈9/10〉  
-違い: `keep in mind` は意識的に念頭に置く口語的な表現で、`retain` は学習・記憶の保持を客観的に述べやすい。  
+違い: `keep in mind` は注意点などを念頭に置く日常的な表現で、`retain` は学習した情報などを後まで失わず保持する側面に焦点がある。客観的な測定があるかどうかで分ける語ではない。  
 例: Keep in mind that the deadline is firm.  
 訳: 締め切りは変更されないことを覚えておきなさい。  
 
@@ -536,7 +536,7 @@ retain の核は、対象を手元・内部・関係・状態の中にとどめ�
 ・hold back  
 定義: 生徒を次の学年へ進ませず、同じ学年をもう一度履修させる。  
 頻度: 〈5/10〉  
-違い: この意味では `retain` より日常的な言い方。`hold back` には進歩を妨げるなど別の意味もあるため、学校・学年の文脈で使い分ける。目的語が代名詞なら `hold them back` のように `back` の前に置く。  
+違い: この意味では `retain` より日常的な言い方。`hold back` には進歩を妨げるなど別の意味もあるため、学校・学年の文脈で使い分ける。名詞目的語は `hold a student back` と `hold back a student` の両方の位置に置ける。代名詞目的語は `hold them back` のように back の前に置き、通常 `hold back them` とはしない。  
 例: They decided to hold her back a year.  
 訳: 彼らは、彼女に同じ学年をもう1年履修させることにした。  
 
