@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: unknown
 created_at: 2026-08-11
-updated_at: 2026-10-02
+updated_at: 2026-10-27
 checked: true
 tags: []
 ---
@@ -48,7 +48,7 @@ tags: []
 
 1. 【他動詞】（感情・経験・刺激などが）人の心や感覚を圧倒する、強く感動させる；対処・反応を難しくする
 
-【日本語訳・定義】感情、出来事、景色、愛情、音・においなどの刺激が人や感覚に非常に強い影響を与え、その対象が平静に考えたり、抵抗したり、どう反応するか判断したりすることを難しくする。悲しみ・恐怖のような苦痛だけでなく、喜び・感謝・感動のような肯定的な感情にも使える。感情・経験・刺激を主語にするほか、*overwhelm someone with kindness* のように、その影響を与える人を主語にすることもある。  
+【日本語訳・定義】感情、出来事、景色、愛情、音・においなどの刺激が、人の心や感覚を圧倒するほど強い影響を与える。平静さを失ったり、どう反応するか戸惑ったりする場合もあるが、判断・応答ができなくなることまで必ず意味するわけではない。悲しみ・恐怖のような苦痛だけでなく、喜び・感謝・感動のような肯定的な感情にも使える。感情・経験・刺激を主語にするほか、*overwhelm someone with kindness* のように、その影響を与える人を主語にすることもある。  
 
 【頻度】〈9/10〉  
 
@@ -89,12 +89,12 @@ tags: []
 訳: 療養中、友人たちの惜しみない親切に、彼女は胸がいっぱいになった。  
 
 ・the response/support + overwhelm + someone  
-用途: 予想以上の反応・支援が人を感動させ、言葉を失わせるほどになる。  
+用途: 予想以上の反応・支援が人の心を強く動かす。言葉を失うこともあるが、それを必ず意味するわけではない。  
 例: The support from people we had never met overwhelmed us.  
 訳: 会ったこともない人々からの支援に、私たちは胸を打たれた。  
 
 ・completely overwhelm someone  
-用途: 感情または状況の強さが、人の平静な反応や判断を完全に奪う。  
+用途: 感情または状況にすっかり圧倒されることを強調する。判断・応答の能力がすべて失われるという意味ではない。  
 例: The unexpected news completely overwhelmed her.  
 訳: 予想外の知らせは彼女を完全に圧倒した。  
 
@@ -103,16 +103,16 @@ tags: []
 【類義語】
 
 ・overcome  
-定義: 強い感情などが人を圧倒し、平静さや抵抗力を失わせる。  
+定義: 強い感情などが人を圧倒し、その心を占める。  
 頻度: 〈9/10〉  
-違い: 感情に「負ける・支配される」結果に焦点がある。*overwhelm* より文学的に響くことがあり、目的語を人に取る能動文も使える。  
+違い: 強い感情に支配されることに焦点があり、悲しみだけでなく安堵や喜びにも使う。目的語を人に取る能動文も使える。必ず外面的に取り乱すという意味ではない。  
 例: She was overcome with sadness when she heard the news.  
 訳: 彼女はその知らせを聞いて悲しみに打ちのめされた。  
 
 ・overpower  
-定義: 力、感情、感覚などが強すぎて相手を制御する。  
+定義: 力、感情、感覚などが非常に強く、相手の抵抗や他の刺激を上回る。  
 頻度: 〈8/10〉  
-違い: 物理的な力や感覚の強さにも使いやすく、感情面では *overwhelm* より「制御する力」に焦点がある。  
+違い: 物理的な抵抗を抑える場合だけでなく、強いにおいが味を感じにくくするように、他の刺激を圧倒する場合にも使う。常に人の行動を制御するという意味ではない。  
 例: The smell of smoke overpowered my sense of taste.  
 訳: 煙のにおいが強すぎて、味が分からなくなった。  
 
@@ -205,14 +205,14 @@ tags: []
 例: The influx of patients overwhelmed local medical services.  
 訳: 患者の流入が地域の医療サービスの対応能力を超えた。  
 
-【語法・注意】この意味の中心は「忙しい」ではなく「処理能力・資源を超える」である。*overload* は機械・人に過剰な負荷をかける技術的な語、*inundate* は連絡・依頼などを大量に送りつける硬い語、*swamp* は処理不能にするという結果を強く示す口語的な語である。*overwhelm someone with information* は「情報を一度に多く与えすぎる」で、情報の内容が感情的である必要はない。量や流入を主語にする能動文では、*The workload overwhelmed me.* のように直接目的語を置く。*be overwhelmed with/by* のうち、人・集団の対処しきれない状態は語義5も参照するが、サービスやシステムの処理能力超過を述べる受動態はこの語義で扱う。*overwhelm to someone*、*overwhelm someone of work* とはせず、*overwhelm someone with work* とする。  
+【語法・注意】この意味の中心は「忙しい」ではなく「処理能力・資源を超える」である。*overload* は機械・人に容量を超える負荷をかけることに焦点があり、技術的な場面にも日常の仕事にも使う語、*inundate* は連絡・依頼などを大量に送りつける硬い語、*swamp* は処理不能にするという結果を強く示す口語的な語である。*overwhelm someone with information* は「情報を一度に多く与えすぎる」で、情報の内容が感情的である必要はない。量や流入を主語にする能動文では、*The workload overwhelmed me.* のように直接目的語を置く。*be overwhelmed with/by* のうち、人・集団の対処しきれない状態は語義5も参照するが、サービスやシステムの処理能力超過を述べる受動態はこの語義で扱う。*overwhelm to someone*、*overwhelm someone of work* とはせず、*overwhelm someone with work* とする。  
 
 【類義語】
 
 ・overload  
 定義: 人・機械・システムに許容量を超える負荷をかける。  
 頻度: 〈8/10〉  
-違い: 負荷・容量の超過という技術的・運用的な意味が明確。*overwhelm* より、原因と容量の関係を客観的に述べやすい。  
+違い: 負荷と受け入れられる容量との関係に焦点がある。機械だけでなく人にも使い、数値による容量測定を必ず前提とするわけではない。  
 例: Too many simultaneous requests overloaded the server.  
 訳: 同時に多すぎるリクエストがサーバーに過負荷をかけた。  
 
@@ -233,7 +233,7 @@ tags: []
 ・overburden  
 定義: 人・組織・制度に過大な負担を負わせる。  
 頻度: 〈6/10〉  
-違い: 一時的な殺到よりも、責任・費用・仕事などの重い負担を継続的に負わせる含みがある。  
+違い: 責任・費用・仕事・心配事などを負担として重くのしかからせることに焦点がある。長期的な負担にも使うが、継続期間の長さは必須条件ではない。  
 例: The new rules could overburden small businesses.  
 訳: 新しい規則は小規模企業に過大な負担を負わせる可能性がある。  
 
@@ -300,7 +300,16 @@ tags: []
 例: The visiting team was completely overwhelmed in the second half.  
 訳: アウェーチームは後半に完全に圧倒された。  
 
-【語法・注意】制圧される出来事を述べる受動態は、この語義で扱う。*overwhelmed* が形容詞として表す状態は語義5も参照し、主語が人か組織かだけで受動態と形容詞を区別しない。*defeat* は勝敗の事実を広く表す中立語、*overpower* はより強い力で制御・制圧すること、*overwhelm* は力・人数・勢いの差によって相手が抵抗できないほどの一方的な結果を強調する。*crush* はさらに強く、相手を完全に打ちのめす口語的・比喩的な響きがある。*overwhelm someone with numbers* のように手段を *with* で示せるが、受動態では *be overwhelmed by superior numbers* が自然である。スポーツでは必ずしも相手を物理的に傷つける意味ではなく、試合を圧倒するという比喩である。  
+【語法・注意】制圧される出来事を述べる受動態は、この語義で扱う。*overwhelmed* が形容詞として表す状態は語義5も参照し、主語が人か組織かだけで受動態と形容詞を区別しない。*defeat* は勝敗の事実を広く表す中立語、*overpower* はより強い力で制御・制圧すること、*overwhelm* は力・人数・勢いの差によって相手が抵抗できないほどの一方的な結果を強調する。*crush* は、相手の抵抗や自信まで打ち砕くような強い響きを持つ。ただし、常に *overwhelm* より強いと順位付けできるわけではない。*overwhelm someone with numbers* のように手段を *with* で示せるが、受動態では *be overwhelmed by superior numbers* が自然である。スポーツでは必ずしも相手を物理的に傷つける意味ではなく、試合を圧倒するという比喩である。  
+
+以下の *resist* は抵抗する行為との対照であり、必ず圧倒を防げることを意味しない。  
+
+・resist  
+定義: 攻撃、圧力、支配などに逆らい、抵抗する。  
+頻度: 〈9/10〉  
+違い: 対抗する行為を表し、成功して耐え抜くことまでは保証しない。抵抗した末に圧倒される場合もあるため、*overwhelm* の直接的な反意語ではなく、行為と結果の対照として読む。  
+例: The defenders resisted the attack for several hours.  
+訳: 守備隊は数時間にわたって攻撃に抵抗した。  
 
 【類義語】
 
@@ -321,37 +330,30 @@ tags: []
 ・crush  
 定義: 相手を完全に打ち負かす、惨敗させる。  
 頻度: 〈9/10〉  
-違い: 非常に強く、口語的・比喩的。*overwhelm* より勝敗の決定的な大差や相手の惨敗を強く感じさせる。  
+違い: 相手を打ち砕くような徹底した敗北を強調する。*overwhelm* も一方的な勝利に使うため、語だけで強さを固定的に順位付けせず、得点差や文脈と合わせて読む。  
 例: The underdogs crushed the league leaders 5–0.  
 訳: 劣勢と見られていたチームが、首位チームを5対0で完膚なきまでに破った。  
 
 ・rout  
 定義: 敵軍やチームを完全に打ち破り、敗走・大敗させる。  
 頻度: 〈5/10〉  
-違い: 軍事・スポーツで、相手が秩序を失って逃げるほどの決定的敗北を表す硬い語。  
+違い: 軍事では敗走、スポーツや選挙では大敗という、決定的な敗北に焦点がある。試合・選挙で文字どおり逃走や秩序の崩壊が起きることを意味するわけではない。  
 例: The army routed the invading force.  
 訳: その軍隊は侵攻軍を敗走させた。  
 
 ・dominate  
-定義: 競争や試合で相手を長時間・全面的に支配する。  
+定義: 競争や試合で相手を上回り、優位に進める。  
 頻度: 〈9/10〉  
-違い: 一回の決定的な打撃より、優位な状態を継続することに焦点がある。  
+違い: 相手より優勢に進めることに焦点がある。試合の一部だけにも使え、長時間・試合全体の支配や最終的な勝利が必須というわけではない。  
 例: The midfielder dominated the game from start to finish.  
 訳: そのミッドフィールダーは試合開始から終了まで試合を支配した。  
 
 【反意語】
 
-・resist  
-定義: 攻撃、圧力、支配に逆らい、持ちこたえる。  
-頻度: 〈9/10〉  
-違い: *overwhelm* が抵抗を崩すのに対し、相手の力に屈せず対抗する過程を表す。  
-例: The defenders resisted the attack for several hours.  
-訳: 守備隊は数時間にわたって攻撃に抵抗した。  
-
 ・withstand  
 定義: 強い力、攻撃、圧力を受けても耐え抜く。  
 頻度: 〈7/10〉  
-違い: 攻撃を退けるとは限らないが、*overwhelm* の圧力を受けても崩れないことを表す。  
+違い: 抵抗する行為だけでなく、加わった力に耐えることを表す。攻撃を退ける意味とは異なり、物理的な力にも使う。下の波と防壁の例は、語義4の物理的な圧倒との対照にもなる。  
 例: The barrier withstood the force of the waves.  
 訳: その防壁は波の力に耐えた。  
 
@@ -370,7 +372,7 @@ tags: []
 
 【レジスター/領域】文語的・文学的、または報道・災害描写。一般会話では頻度が低い。水による浸水・水没を具体的に説明する場合は *flood* や *submerge*、雪・土砂に埋まる場合は *bury* などを使い分ける。  
 
-【文法パターン】*wave/floodwater + overwhelm + boat/town/land*＝波・洪水が船・町・土地をのみ込む／*be overwhelmed by 〈water/flooding〉*＝水に覆われる／*overwhelm a levee/barrier*＝水の量・勢いが堤防・防壁の防護能力を超える／*darkness/silence + overwhelm + place*＝暗闇・静けさが場所を包む  
+【文法パターン】*wave/floodwater + overwhelm + boat/town/land*＝波・洪水が船・町・土地をのみ込む／*be overwhelmed by 〈water/flooding〉*＝水に覆われる／*overwhelm a levee/barrier*＝ここでは水が堤防・防壁を覆う（防護能力を超える意味とは文脈で区別）／*darkness/silence + overwhelm + place*＝暗闇・静けさが場所を包む  
 
 【コロケーション】
 
@@ -390,9 +392,9 @@ tags: []
 訳: 雪崩が山間の村をのみ込んだ。  
 
 ・overwhelm a levee/barrier  
-用途: 水の量や勢いが堤防・防壁の能力を超える。  
-例: The river rose rapidly and overwhelmed the temporary levee.  
-訳: 川の水位が急上昇し、仮設の堤防をのみ込んだ。  
+用途: この項目では、水が堤防・防壁そのものを覆う物理的な場面を表す。防護機能を圧倒するという意味で使われる場合とは区別する。  
+例: Floodwater overwhelmed the low barrier, leaving it completely submerged.  
+訳: 洪水が低い防壁をのみ込み、防壁は完全に水没した。  
 
 ・be overwhelmed by the sea  
 用途: 海水に覆われる、または海の力にのみ込まれることを文学的に表す。  
@@ -404,7 +406,7 @@ tags: []
 例: As the last lights disappeared, darkness overwhelmed the valley.  
 訳: 最後の明かりが消えると、暗闇が谷を包み込んだ。  
 
-【語法・注意】水や雪などに物理的に覆われる出来事を表す受動態は、この語義で扱う。この物理義は他動詞で、*The wave overwhelmed the boat.* のように対象を直接目的語に取る。水が対象を覆う意味では *flood* が最も一般的、完全に水中へ入れる意味では *submerge*、周囲から包む意味では *engulf* が使いやすい。力・数で相手を制圧する語義3とは、目的語が建物・土地・船などで、覆う物理的な出来事である点が異なる。  
+【語法・注意】水や雪などに物理的に覆われる出来事を表す受動態は、この語義で扱う。この物理義は他動詞で、*The wave overwhelmed the boat.* のように対象を直接目的語に取る。水が対象を覆う意味では *flood* が最も一般的、完全に水中へ入れる意味では *submerge*、周囲から包む意味では *engulf* が使いやすい。語義3の制圧と区別する際は、目的語が建物かどうかではなく、実際に覆われる出来事か、防護・抵抗の能力を超えられることかを見る。物理的に覆われることと防護機能を超えられることは、同時に起きる場合もある。ただし、防壁が水没すること自体は構造の破壊を意味しない。  
 
 【類義語】
 
@@ -444,7 +446,7 @@ tags: []
 
 【レジスター/領域】標準的で非常に一般的。日常会話、仕事、育児、医療、心理、報道で使う。特に自分の状態を説明する *I feel overwhelmed.* が頻出する。  
 
-【文法パターン】*feel overwhelmed*＝圧倒されていると感じる／*be overwhelmed*＝圧倒されている／*seem overwhelmed*＝圧倒されているように見える／*become/get overwhelmed*＝圧倒された状態になる／*be overwhelmed by 〈原因〉*＝原因に圧倒されている／*be overwhelmed with 〈仕事・感情〉*＝仕事・感情でいっぱいである／*an overwhelmed 〈人・チーム〉*＝圧倒されている人・チーム／*be emotionally overwhelmed*＝感情的に圧倒されている／*be completely/totally overwhelmed*＝完全に手に負えない状態である  
+【文法パターン】*feel overwhelmed*＝圧倒されていると感じる／*be overwhelmed*＝圧倒されている／*seem overwhelmed*＝圧倒されているように見える／*become/get overwhelmed*＝圧倒された状態になる／*be overwhelmed by 〈原因〉*＝原因に圧倒されている／*be overwhelmed with 〈仕事・感情〉*＝仕事・感情でいっぱいである／*an overwhelmed 〈人・チーム〉*＝圧倒されている人・チーム／*be emotionally overwhelmed*＝感情的に圧倒されている／*be completely/totally overwhelmed*＝すっかり圧倒されている（感動か対処困難かは文脈による）  
 
 【コロケーション】
 
@@ -459,12 +461,12 @@ tags: []
 訳: 複数の締切が重なると、彼女は仕事に追われてしまう。  
 
 ・be overwhelmed with emotion  
-用途: 強い感情が一気にこみ上げ、平静に反応できない。  
+用途: 強い感情がこみ上げ、胸がいっぱいになるような状態を表す。反応できない場合もあるが、それを必ず意味するわけではない。  
 例: He was overwhelmed with emotion during the farewell ceremony.  
 訳: 彼は送別式の間、感情がこみ上げて胸がいっぱいになった。  
 
 ・be overwhelmed by the response/support  
-用途: 予想以上の反応や支援に感動し、言葉を失う。  
+用途: 予想以上の反応や支援に強く心を動かされる。言葉を失うこともあるが、感謝を述べるなどの応答ができる場合もある。  
 例: The author said she was overwhelmed by the readers' support.  
 訳: その作家は読者の支援に胸がいっぱいになったと語った。  
 
@@ -502,19 +504,19 @@ tags: []
 ・overburdened  
 定義: 責任、仕事、費用などを過大に負わされている。  
 頻度: 〈6/10〉  
-違い: 継続的で重い負担を強調する硬い語。*overwhelmed* より感情的な圧倒を表しにくい。  
+違い: 抱えた負担の重さに焦点があり、仕事だけでなく心配や罪悪感にも使える。長期継続は必須ではない。喜びに胸がいっぱいという場合と、重荷を抱える場合を区別する。  
 例: Many small clinics are overburdened by paperwork.  
 訳: 多くの小規模診療所が書類業務に過重な負担を負わされている。  
 
 ・swamped  
 定義: 仕事や依頼が殺到して、処理しきれない。  
 頻度: 〈7/10〉  
-違い: 口語的で、目の前の仕事に追われている感じが強い。感動や喜びには使わない。  
+違い: この仕事・依頼の語義では、目の前の対応に追われる感じが強い。喜びで胸がいっぱいという *overwhelmed* と、そのまま置き換える意味ではない。  
 例: I am swamped with emails today.  
 訳: 今日はメールに追われている。  
 
 ・overcome  
-定義: 強い感情に打ちのめされ、平静を保てない。  
+定義: 悲しみや喜び、安堵などの強い感情に圧倒されている。  
 頻度: 〈9/10〉  
 違い: 感情面に限定されやすく、仕事や情報の処理不能には通常 *overwhelmed* を使う。  
 例: She was overcome with relief after the surgery.  
@@ -552,7 +554,7 @@ tags: []
 
 6. 【形容詞・現在分詞形（overwhelming）／限定・叙述】非常に強い・大きい、圧倒的な、抗しがたい
 
-【日本語訳・定義】*overwhelming* は、力、規模、数、程度、証拠、支持、感情などが非常に大きく強く、相手が抵抗したり、無視したり、冷静に判断したりすることが難しいほどであることを表す。否定的なものだけでなく、*overwhelming support*「圧倒的な支持」のように肯定的なものにも使う。*overwhelming majority* は「圧倒的多数」であり、必ずしも感情的な圧力を意味しない。  
+【日本語訳・定義】*overwhelming* は、力、規模、数、程度、証拠、支持、感情などが非常に大きく強いことや、他を大きく上回ることを表す。状況によっては抗しがたい強さや対処の困難さを表すが、常に冷静な判断を失わせるという意味ではない。否定的なものだけでなく、*overwhelming support*「圧倒的な支持」のように肯定的なものにも使う。*overwhelming majority* は「圧倒的多数」であり、必ずしも感情的な圧力を意味しない。  
 
 【頻度】〈10/10〉  
 
@@ -602,7 +604,7 @@ tags: []
 例: Standing on the summit for the first time was overwhelming.  
 訳: 初めて山頂に立った経験は圧倒されるほど強烈だった。  
 
-【語法・注意】*overwhelming* は「圧倒する原因・性質」、*overwhelmed* は「圧倒された人の状態」である。*The evidence was overwhelming.* は証拠の説得力が極めて強い、*The lawyer was overwhelmed by the evidence.* は弁護士がその証拠に圧倒された、という違いになる。*overwhelming majority* は割合の大きさ、*overwhelming desire* は心理的な強さ、*overwhelming amount* は量の多さを表す。*very overwhelming* も文法的だが、通常は *extremely*、*almost*、*quite* など文脈に合う程度副詞を選ぶ。  
+【語法・注意】*overwhelming* は「圧倒する原因・性質」、*overwhelmed* は「圧倒された人の状態」である。*The evidence was overwhelming.* は証拠の説得力が極めて強い、*The lawyer was overwhelmed by the evidence.* は弁護士がその証拠に圧倒された、という違いになる。*overwhelming majority* は割合の大きさ、*overwhelming desire* は心理的な強さ、*overwhelming amount* は量の多さを表す。 *overwhelming evidence* と *compelling evidence* はいずれも強い説得力を評価する表現だが、その語だけで結論の正しさや反証不能性が保証されるわけではない。*very overwhelming* も文法的だが、通常は *extremely*、*almost*、*quite* など文脈に合う程度副詞を選ぶ。  
 
 【類義語】
 
@@ -616,7 +618,7 @@ tags: []
 ・intense  
 定義: 感情、活動、痛み、経験などの程度が非常に強い。  
 頻度: 〈9/10〉  
-違い: 強度を客観的に述べる広い語で、*overwhelming* のように処理不能・抗しがたい含みは必須ではない。  
+違い: 強度の高さを表す広い語で、本人の感情・経験に基づく評価にも使う。*overwhelming* が表すような対処の困難さや圧倒的な優勢までは必須ではない。  
 例: The course involved intense physical training.  
 訳: その課程には激しい身体訓練が含まれていた。  
 
@@ -734,7 +736,7 @@ tags: []
 ・predominantly  
 定義: 大部分が、主として。  
 頻度: 〈7/10〉  
-違い: 構成比の大きさを客観的に示す語で、*overwhelmingly* のような圧倒的な大差や強調は必須ではない。  
+違い: 全体のうち主要な部分を占めることに焦点がある。*overwhelmingly* のような圧倒的な差の強調は必須ではなく、正確な割合の測定を保証する語でもない。  
 例: The audience was predominantly made up of students.  
 訳: 聴衆の大部分は学生で構成されていた。  
 
@@ -812,7 +814,7 @@ tags: []
 ・stress  
 定義: 負担や困難によって心身に生じる緊張・ストレス。  
 頻度: 〈10/10〉  
-違い: 原因・長期的な負担を広く表す一般語。*overwhelm* は、その負荷が多すぎて処理不能に感じる状態に焦点がある。  
+違い: ここでは負担に伴う心身の緊張を表し、短期の出来事にも使う。名詞の *overwhelm* は、負荷や感情が自分の対処能力を超えたと感じる状態に焦点がある。  
 例: Prolonged stress can affect sleep and concentration.  
 訳: 長期的なストレスは睡眠や集中力に影響を与え得る。  
 
@@ -826,7 +828,7 @@ tags: []
 ・overload  
 定義: 許容量を超える負荷、またはその状態。  
 頻度: 〈8/10〉  
-違い: 仕事・情報・システムの容量超過を客観的・技術的に表し、感情的な圧倒感には通常 *overwhelm* の方が自然である。  
+違い: 受け入れられる量を超える負荷に焦点があり、人の情報処理にもシステムにも使う。名詞の *overwhelm* は圧倒された感覚を状態として述べる用法だが、文体による制約があるため、感情の話なら常にこちらが自然と決めつけない。  
 例: Information overload makes it difficult to focus.  
 訳: 情報過多は集中することを難しくする。  
 
