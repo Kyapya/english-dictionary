@@ -3,11 +3,9 @@ headword: assess
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: OpenAI assistant
-checked_by: GPT-6 Astra (medium reasoning); corrections checked by OpenAI assistant
-checked_at: 2026-10-03
+model: unknown
 created_at: 2026-06-14
-updated_at: 2026-10-03
+updated_at: 2026-10-27
 checked: true
 tags: []
 ---
@@ -134,7 +132,7 @@ assesses は /əˈsesɪz/、assessed は /əˈsest/、assessing は /əˈsesɪŋ
 例: Students are assessed on their coursework and a final exam.  
 訳: 学生は課題と期末試験で評価される。  
 
-【語法・注意】日本語の「評価する」は「高く評価する（＝褒める・価値を認める）」の意味でも使うが、assess にこの意味はない。「彼の努力を評価する」は appreciate・recognize などで表し、assess his efforts とすると「努力の程度を見極める」という中立的な意味になる。日本語の「高く評価する（価値を認める・重んじる）」に近いのは value である（例：I value your opinion.）。assess は通常、目的語または whether・what・how で始まる節を取る他動詞である。assess は何らかの観点に沿って評価することが多いが、明確な基準や体系的な手順がなくても使える。assess someone for 〈病気・障害〉は、その状態があるかを調べることであり、診断や治療の承認そのものを意味しない。assess 〈O〉 as 〈名詞・形容詞〉の as は、評価対象を特定の分類・性質・状態として示す。  
+【語法・注意】日本語の「評価する」は「高く評価する（＝褒める・価値を認める）」の意味でも使うが、assess にこの意味はない。「彼の努力を評価する」は appreciate・recognize などで表し、assess his efforts とすると「努力の程度・質・効果などを判断する」という、語自体は肯定的評価を含まない意味になる。日本語の「高く評価する（価値を認める・重んじる）」に近いのは value である（例：I value your opinion.）。assess は通常、目的語または whether・what・how で始まる節を取る他動詞である。assess は何らかの観点に沿って評価することが多いが、明確な基準や体系的な手順がなくても使える。assess someone for 〈病気・障害〉は、その状態があるかを調べることであり、診断や治療の承認そのものを意味しない。assess 〈O〉 as 〈名詞・形容詞〉の as は、評価対象を特定の分類・性質・状態として示す。  
 
 【類義語】
 
@@ -174,9 +172,9 @@ assesses は /əˈsesɪz/、assessed は /əˈsest/、assessing は /əˈsesɪŋ
 訳: 彼女は発表をする前に、彼がどう反応しそうかを探ろうとした。  
 
 ・review  
-定義: 計画・業務・結果・判断などを後から調べ、見直す。  
+定義: 計画・資料・業務・結果などを調べ、検討する。見直し・再検討にも使う。  
 頻度: 〈10/10〉  
-違い: review は既にある内容を再検討することに焦点がある。assess は初めて状況や能力を評価する場合にも、再検討する場合にも使える。  
+違い: review は資料や内容を検討する過程に、assess は質・程度・必要性などの評価に焦点を置く。review は担当者が資料を初めて審査する場合にも使えるため、初回か再評価かだけで両語を分けない。  
 例: The board reviewed the policy after receiving new evidence.  
 訳: 理事会は新しい証拠を受けて、その方針を見直した。  
 
@@ -229,9 +227,9 @@ assesses は /əˈsesɪz/、assessed は /əˈsest/、assessing は /əˈsesɪŋ
 訳: 建設業者はその工事に3週間かかると見積もった。  
 
 ・appraise  
-定義: 不動産・美術品などの市場価値を専門的に査定する。  
+定義: 不動産・美術品などの金銭的価値を査定する。  
 頻度: 〈5/10〉  
-違い: appraise は専門家が市場価値などを評価する語で、assess は損害・費用・影響・程度にも広く使う。  
+違い: この appraise は物の金銭的価値を見定めることに焦点があり、専門家による査定にも使うが、評価者の資格を語自体が要求するわけではない。assess は損害・費用・影響・程度にも広く使う。  
 例: The bank required an expert to appraise the house.  
 訳: その銀行は、専門家による住宅の査定を求めた。  
 
@@ -245,7 +243,7 @@ assesses は /əˈsesɪz/、assessed は /əˈsest/、assessing は /əˈsesɪŋ
 ・gauge  
 定義: 手掛かりから、数量・規模をおおよそ見積もる。  
 頻度: 〈6/10〉  
-違い: gauge は限られた手掛かりから数量・規模の見当をつけることに焦点がある。assess は調査に基づいて金額・価値を査定し、報告・判断に用いる。  
+違い: この gauge は数量・規模の見当をつけることに焦点があり、assess は金額・価値などを判断して査定する。どちらも調査情報を使い得るため、情報量の少なさや、結果を報告に使うかどうかで区別しない。  
 例: The organizers tried to gauge how many people would attend.  
 訳: 主催者は参加者がどれくらいになるかを見積もろうとした。  
 
@@ -305,7 +303,7 @@ assesses は /əˈsesɪz/、assessed は /əˈsest/、assessing は /əˈsesɪŋ
 ・charge  
 定義: 料金・費用を請求し、または人に支払う義務を負わせる。  
 頻度: 〈10/10〉  
-違い: charge は請求・徴収や支払い義務に焦点がある。assess は制度上の負担額を査定し、文脈によっては課す手続きまで含む。  
+違い: charge は料金の請求や支払い義務に焦点があり、assess は負担額の査定・決定や賦課に焦点がある。charge も assess も、実際に支払い・回収が完了したことまでは意味しない。  
 例: The hotel charged us a service fee.  
 訳: そのホテルは私たちにサービス料を請求した。  
 
@@ -319,7 +317,7 @@ assesses は /əˈsesɪz/、assessed は /əˈsest/、assessing は /əˈsesɪŋ
 ・impose  
 定義: 税・罰・規則・負担などを人や組織に公式に課す。  
 頻度: 〈9/10〉  
-違い: impose は金銭以外の規則・制限・義務にも広く使える。assess は金額の査定を伴う場合が多く、税・料金・罰金で使われる。  
+違い: impose は金銭以外の規則・制限・義務にも広く使える。税・料金の assess は負担額の査定・決定に関わるが、スポーツの assess a penalty は金額の算定ではなく罰則を科すことを表す。  
 例: The regulator imposed a penalty on the company.  
 訳: 規制当局はその会社に罰則を科した。  
 
