@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: unknown
 created_at: 2026-08-21
-updated_at: 2026-10-01
+updated_at: 2026-10-27
 checked: true
 tags: []
 ---
@@ -90,9 +90,9 @@ device には、目的や特定の効果に向けて人が考案・配置した�
 【類義語】
 
 ・machine  
-定義: 動力を使って作業を行う機械。  
+定義: 力や運動の伝達・変換、電気・電子的な働きなどによって仕事をする機械。  
 頻度: 〈10/10〉  
-違い: device よりも、複数の部品が動いて仕事をする機械という含みが強い。device は機械的な動作をしない器具や仕掛けにも使える。  
+違い: 動く部品を備えた機械が典型的だが、コンピューターも指す。また、てこのような単純機械にも使う。モーターや複数の可動部品が常に必要というわけではない。device は特定の機能を持つ器具・仕掛けという広い分類に焦点がある。  
 例: The machine sorts the packages automatically.  
 訳: その機械は荷物を自動で仕分ける。  
 
@@ -104,23 +104,23 @@ device には、目的や特定の効果に向けて人が考案・配置した�
 訳: その装置は高高度実験用に設計された。  
 
 ・appliance  
-定義: 家庭で使う電気・ガスなどの機器。  
+定義: 特定の用途に使う機器・器具。特に家庭や職場で使う電気・ガス機器。  
 頻度: 〈7/10〉  
-違い: device が用途を問わないのに対し、appliance は refrigerator や washing machine のような家庭用機器に範囲が寄る。  
+違い: 日常的には refrigerator や washing machine などの家電を指しやすい。ただし家庭用途だけに限らず、医療用の矯正器具などにも使う。device との違いを「家庭用か、それ以外か」だけで分けない。  
 例: The kitchen has energy-efficient appliances.  
 訳: そのキッチンには省エネ型の家電がある。  
 
 ・instrument  
-定義: 測定、操作、治療などに使う精密な器具。  
+定義: 測定、操作、治療などの作業に使う器具。  
 頻度: 〈8/10〉  
-違い: device よりも、測定・観測・医療・専門作業のための精密な道具という焦点が強い。  
+違い: 測定・観測・医療など、専門作業の器具という焦点が強く、精密な作業を連想させやすい。ただし、精密さがすべての用法で必須というわけではない。  
 例: The surgeon checked each instrument before the operation.  
 訳: 外科医は手術前に各器具を確認した。  
 
 ・tool  
 定義: 作業を行うために人が使う道具または手段。  
 頻度: 〈10/10〉  
-違い: tool は人が作業するための道具・手段という側面が強い。device は自動的に機能する装置や、物理的でない仕掛けにも使える。  
+違い: tool は作業に利用する道具・手段という側面に焦点がある。手持ち道具だけでなく機械の加工部分やソフトウェアにも使うため、「tool は手動・物理的、device は自動・抽象的」とは分けられない。  
 例: This tool makes it easier to cut thick wire.  
 訳: この道具を使うと太い針金を切りやすい。  
 
@@ -139,7 +139,7 @@ device には、目的や特定の効果に向けて人が考案・配置した�
 
 【レジスター/領域】標準語。IT、通信、家電、オンラインサービス、職場の情報管理で非常に一般的。日常語でも使うが、文脈によっては smartphone や computer より広い分類語になる。  
 
-【文法パターン】a mobile・portable・wireless device＝携帯・持ち運び可能・無線の端末／connect・pair a device with/to 〈機器・ネットワーク〉＝端末を～と接続・ペアリングする／a device is compatible with 〈OS・ソフトウェア〉＝端末が～に対応する／access・use 〈サービス・データ〉 from a device＝端末から～へアクセスする／a device driver＝デバイスドライバー  
+【文法パターン】a mobile・portable・wireless device＝携帯・持ち運び可能・無線の端末／connect a device to 〈機器・ネットワーク〉＝端末を～に接続する／pair a device with another device＝端末を別の機器とペアリングする／a device is compatible with 〈OS・ソフトウェア〉＝端末が～に対応する／access 〈サービス・データ〉 from a device＝端末から～へアクセスする／use 〈サービス〉 on a device＝端末でサービスを利用する／a device driver＝デバイスドライバー  
 
 【コロケーション】
 
@@ -183,7 +183,7 @@ device には、目的や特定の効果に向けて人が考案・配置した�
 例: The company has a strict bring-your-own-device policy.  
 訳: その会社には私物端末の持ち込み利用に関する厳格な方針がある。  
 
-【語法・注意】IT文脈の device は、単なる「便利な小道具」ではなく、単体の端末や周辺機器などのハードウェアを分類する語になりやすい。外部のシステムに接続していない状態でも device と呼べる。phone と言えば電話機、computer と言えばコンピューター全体を指すのに対し、device はそれらを含む広い分類語である。device は通常可算で、複数の機器なら devices とする。storage device、mobile device のように、device の前の修飾語で機器の種類を具体化する。device driver はこれとは構造が異なり、device が driver を修飾する複合語で、機器を扱うためのソフトウェアを指す。  
+【語法・注意】IT文脈の device は、単なる「便利な小道具」ではなく、単体の端末や周辺機器などのハードウェアを分類する語になりやすい。外部のシステムに接続していない状態でも device と呼べる。phone と言えば電話機、computer と言えばコンピューター全体を指すのに対し、device はそれらを含む広い分類語である。device は通常可算で、複数の機器なら devices とする。storage device、mobile device のように、device の前の修飾語で機器の種類を具体化する。device driver はこれとは構造が異なり、device が driver を修飾する複合語で、機器を扱うためのソフトウェアを指す。 access ... from a device は機器をアクセス元として述べる。一方、data from a device はその機器から得たデータという意味にもなるため、from のかかり先を確認する。  
 
 【類義語】
 
@@ -250,9 +250,9 @@ device には、目的や特定の効果に向けて人が考案・配置した�
 訳: その条約は核爆発装置の実験を禁じている。  
 
 ・plant/place a device  
-用途: 爆発装置を人目につかない場所へ仕掛けることを表す。  
-例: Investigators believe someone planted the device overnight.  
-訳: 捜査員は誰かが一晩のうちにその装置を仕掛けたと考えている。  
+用途: 爆発装置を設置することを表す。plant はひそかに仕掛ける含みを持ちやすいが、place 自体は人目を避けることを必須としない。  
+例: Investigators believe someone planted the explosive device overnight.  
+訳: 捜査員は誰かが一晩のうちにその爆発装置を仕掛けたと考えている。  
 
 ・detonate/set off a device  
 用途: 爆発装置を起爆することを表す。意図的な場合にも、偶発的な場合にも使える。  
@@ -271,14 +271,7 @@ device には、目的や特定の効果に向けて人が考案・配置した�
 
 【語法・注意】この語義の device は「装置」という一般語の意味を残すが、爆発・起爆・撤去などの動詞や explosive、nuclear などの修飾語で爆発物だと分かる。device 単独は、報道で種類や性能を断定せずに述べる中立的な呼び方になり得る。bomb は日常的で直接的、explosive device は爆発性を明示する公式表現、IED は即席爆発装置という特定の種類である。  
 
-【類義語】
-
-・bomb  
-定義: 爆発するように作られた爆弾。  
-頻度: 〈9/10〉  
-違い: device より直接的で一般的な語。device は報道・捜査で種類をぼかした公式表現になりやすい。  
-例: The bomb was found in an abandoned vehicle.  
-訳: その爆弾は放置された車の中で見つかった。  
+以下は、爆発性の物質という見方や攻撃・防御という用途との対照である。材料・性質・用途の分類を、装置そのものの呼び方と区別する。  
 
 ・explosive  
 定義: 爆発する物質または爆発物。  
@@ -294,10 +287,19 @@ device には、目的や特定の効果に向けて人が考案・配置した�
 例: The device was designed as a weapon.  
 訳: その装置は兵器として設計された。  
 
+【類義語】
+
+・bomb  
+定義: 爆発するように作られた爆弾。  
+頻度: 〈9/10〉  
+違い: device より直接的で一般的な語。device は報道・捜査で種類をぼかした公式表現になりやすい。  
+例: The bomb was found in an abandoned vehicle.  
+訳: その爆弾は放置された車の中で見つかった。  
+
 ・IED  
 定義: 即席爆発装置。  
 頻度: 〈6/10〉  
-違い: IED は improvised explosive device の略で、device より即席の製造・設置であることを限定する専門語。  
+違い: IED は improvised explosive device の略で、即席爆発装置という特定の種類を示す。爆発装置を広く指す device 全体とは同じ範囲ではない。  
 例: The report described how the IED had been discovered.  
 訳: その報告書はその即席爆発装置がどのように発見されたかを述べていた。  
 
@@ -362,7 +364,7 @@ device には、目的や特定の効果に向けて人が考案・配置した�
 ・technique  
 定義: 特定の作業・技能・効果のための技法。  
 頻度: 〈9/10〉  
-違い: technique は技能や実践上のやり方に焦点があり、device は記憶術や広告上の工夫などにも使う。  
+違い: technique は技能や実践上のやり方に焦点があり、device は効果を生む工夫・仕掛けとして捉える。記憶術や広告など、同じ分野でどちらも使えるため、対象分野だけでは分けられない。  
 例: The artist learned a new painting technique.  
 訳: その芸術家は新しい絵画技法を学んだ。  
 
@@ -437,8 +439,8 @@ device には、目的や特定の効果に向けて人が考案・配置した�
 定義: 相手をだましたり、意外な方法で目的を達成したりする手口。  
 頻度: 〈10/10〉  
 違い: trick は日常的で直接的。device はやや硬く、手口の仕組みや意図を分析する響きが強い。  
-例: The trick was to ask the question before anyone noticed.  
-訳: その手口は、誰も気付かないうちに質問することだった。  
+例: The forged letter was a trick to convince them that the offer was genuine.  
+訳: その偽造された手紙は、申し出が本物だと彼らに信じ込ませるための策略だった。  
 
 ・ruse  
 定義: 相手をだますための策略・口実。  
@@ -464,7 +466,7 @@ device には、目的や特定の効果に向けて人が考案・配置した�
 ・scheme  
 定義: 何かを実現するための計画、または人をだます企て。  
 頻度: 〈9/10〉  
-違い: scheme は複数の手順を含む計画全体を指しやすい。device は計画の中の一つの仕掛けや、効果を生む方法に焦点を置ける。  
+違い: この例では欺く企てだが、scheme には中立的な計画の意味もある。計画全体を指しやすい scheme に対し、device はその中の一つの仕掛けや効果を生む方法に焦点を置ける。  
 例: The company devised a scheme to hide its debts.  
 訳: その会社は負債を隠すための計画を考案した。  
 
@@ -593,6 +595,15 @@ device には、目的や特定の効果に向けて人が考案・配置した�
 
 【語法・注意】heraldry では象徴的な紋章の意匠を指すが、紋章以外の標章や装飾図案にも使う。標語を device と呼ぶ用法もある。crest は厳密な紋章学では兜の上などに置かれる特定部分を指す。一方、一般用法では家系・組織の標章を広く crest と呼ぶこともあり、どちらの意味かを文脈から判断する。現代の一般文脈で組織のマークを言うなら emblem、logo、insignia の方が自然なことが多い。  
 
+以下は、意匠そのものと、それを表示する身に付ける記章との対照である。  
+
+・badge  
+定義: 所属、資格、身分などを示す小さな記章。  
+頻度: 〈8/10〉  
+違い: badge は身に付ける小型の記章に焦点があり、device のような歴史的・紋章的意匠全般より具体的で日常的。  
+例: The guide wore a badge with the museum’s name.  
+訳: その案内係は博物館名の入ったバッジを付けていた。  
+
 【類義語】
 
 ・emblem  
@@ -615,13 +626,6 @@ device には、目的や特定の効果に向けて人が考案・配置した�
 違い: 紋章学上の crest は特定の部分を指し、device より対象が限定される。次の family crest は家系の標章を表す一般的な用法である。  
 例: The family crest appears on the silverware.  
 訳: その家の紋章が銀食器に描かれている。  
-
-・badge  
-定義: 所属、資格、身分などを示す小さな記章。  
-頻度: 〈8/10〉  
-違い: badge は身に付ける小型の記章に焦点があり、device のような歴史的・紋章的意匠全般より具体的で日常的。  
-例: The guide wore a badge with the museum’s name.  
-訳: その案内係は博物館名の入ったバッジを付けていた。  
 
 8. 【名詞・複数・慣用句】自分の裁量に任せられた状態
 
@@ -653,9 +657,18 @@ device には、目的や特定の効果に向けて人が考案・配置した�
 ・be happy/content to be left to one's own devices  
 用途: 他人の指示を受けず自由にしていたいという態度を表す。  
 例: She is perfectly content to be left to her own devices.  
-訳: 彼女は完全に自分の裁量に任せてもらって構わないと思っている。  
+訳: 彼女は、自分の裁量に任せてもらうことに十分満足している。  
 
 【語法・注意】own と所有格が必須で、leave someone to their devices や leave someone to their own device とは通常言わない。主語が単数でも devices は複数形のまま使う。leave は「見捨てる」とは限らず、監督を控えて自由に任せる意味にもなる。一方、文脈によっては「放っておかれて自分で何とかする」という含みが出る。  
+
+以下は自由に組み立てた説明的な表現との対照であり、固定した類義の慣用句として挙げるものではない。  
+
+・let somebody do as they wish  
+定義: 人が望むように行動することを許す。  
+頻度: 〈8/10〉  
+違い: do as they wish は望む行動を許可する意味を直接述べる。own devices は指示・監督を控える状況にも使え、許可の明示は必須ではない。  
+例: The parents let their children do as they wished during the holiday.  
+訳: その親たちは休暇中、子どもたちが望むように行動するのを許した。  
 
 【類義語】
 
@@ -679,10 +692,3 @@ device には、目的や特定の効果に向けて人が考案・配置した�
 違い: fend for themselves は困難の中で自力で切り抜ける含みが強く、own devices より厳しい状況を示しやすい。  
 例: The hikers were left to fend for themselves after the guide was injured.  
 訳: ガイドが負傷した後、ハイカーたちは自力で対処するしかなかった。  
-
-・let somebody do as they wish  
-定義: 人が望むように行動することを許す。  
-頻度: 〈8/10〉  
-違い: do as they wish は望む行動を許可する意味を直接述べる。own devices は指示・監督を控える状況にも使え、許可の明示は必須ではない。  
-例: The parents let their children do as they wished during the holiday.  
-訳: その親たちは休暇中、子どもたちが望むように行動するのを許した。  
