@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v1
 model: unknown
 created_at: 2026-06-13
-updated_at: 2026-10-02
+updated_at: 2026-10-27
 checked: true
 tags: []
 ---
@@ -129,6 +129,13 @@ tags: []
 【語法・注意】物を指す語義1と、行動・出来事・話題を指すこの語義は、目的語や前後の文脈で区別する。and stuff や and stuff like that は列挙の最後で「など、そういうもの」を表す。small stuff は些細なこと、kids’ stuff は子ども向けのことや非常に簡単なことを指し得る。stuff and nonsense は、話をばかげていると退ける古風な決まり文句。the hard stuff は酒などを指す慣用句にもなる（語義3）。  
 
 【類義語】
+
+・things  
+定義: 行うことや用事などを、個々に数えられる事柄として指す。  
+頻度: 〈10/10〉  
+違い: stuff to do と things to do は、やることを指す点で重なる。stuff は不可算でくだけたまとめ方、things は可算名詞の複数形である。情報の内容を表す content と同じ対象範囲ではない。  
+例: I have a few things to do before dinner.  
+訳: 夕食の前に、いくつかやることがある。  
 
 ・content  
 定義: 文章・動画・授業などの内容。  
@@ -283,7 +290,7 @@ stuff the ballot box は主に米語の選挙表現で、単に投票箱が票�
 ・cram  
 定義: 狭い場所へ無理に詰め込む。  
 頻度: 〈6/10〉  
-違い: cram は無理やり詰める感じが stuff よりさらに強い。  
+違い: cram は空間に対して中身が多く、窮屈に詰め込むことを強調する。stuff も強引な詰め込みを表せるため、強さの固定順位ではない。stuff は料理や製品へ適量の詰め物を入れる場合にも使う。  
 例: They crammed six people into the car.  
 訳: 彼らは車に6人を無理やり詰め込んだ。  
 
@@ -299,7 +306,7 @@ stuff the ballot box は主に米語の選挙表現で、単に投票箱が票�
 ・unpack  
 定義: 荷物を解く、詰めた物を取り出す。  
 頻度: 〈6/10〉  
-違い: pack や stuff された物を取り出す方向の動作。  
+違い: 荷物を容器へ詰める場面では、詰めた物を取り出すという逆方向を表す。料理やクッションの詰め物を取り除くことまで、一般に unpack と呼ぶわけではない。  
 例: I need to unpack my suitcase.  
 訳: スーツケースの荷物を出さないといけない。  
 
@@ -375,19 +382,19 @@ stuff the ballot box は主に米語の選挙表現で、単に投票箱が票�
 ・essence  
 定義: 物事をその物事たらしめる本質的な性質。  
 頻度: 〈6/10〉  
-違い: essence は本質を直接名づけるやや硬い語。the stuff of は材料になぞらえる表現で、文ごとの置き換えはできない。  
+違い: 本質的な性質という範囲で近いが、essence は夢や伝説の題材、役割への適性、困難に耐える強さのすべてを表すわけではない。材料になぞらえる the stuff of と、文ごとにそのまま置き換えられる表現ではない。  
 例: The essay captures the essence of their friendship.  
 訳: その随筆は、二人の友情の本質を捉えている。  
 
 7. 【名詞・不可算】知識、技量、持ち味、投球の質
 
-【日本語訳・定義】ある分野についての知識や、実際に示すことのできる能力・持ち味を表す。know one’s stuff は詳しいこと、do one’s stuff は得意なことを実行すること、strut one’s stuff は技量や魅力を自信たっぷりに見せることを表す。野球では、投手が投げる球の速さや変化などの質も指す。  
+【日本語訳・定義】ある分野についての知識や、実際に示すことのできる能力・持ち味を表す。know one’s stuff は詳しいこと、do one’s stuff は得意なことや、その人のおなじみの活動を行うこと、strut one’s stuff は技量や魅力を自信たっぷりに見せることを表す。野球では、投手が投げる球の速さや変化などの質も指す。  
 
 【頻度】〈6/10〉  
 
 【レジスター/領域】口語的な慣用表現。投球の stuff は特に米国の野球用語。  
 
-【文法パターン】know one’s stuff＝その分野に詳しい／do one’s stuff＝得意なことをやってみせる／strut one’s stuff＝技量・魅力を誇らしげに披露する／have good stuff＝よい球質・投球能力がある（野球）  
+【文法パターン】know one’s stuff＝その分野に詳しい／do one’s stuff＝得意なこと・おなじみの活動を行う／strut one’s stuff＝技量・魅力を誇らしげに披露する／have good stuff＝よい球質・投球能力がある（野球）  
 
 【コロケーション】
 
@@ -397,7 +404,7 @@ stuff the ballot box は主に米語の選挙表現で、単に投票箱が票�
 訳: マヤに聞いて。彼女は本当に詳しいから。  
 
 ・do one’s stuff  
-用途: 得意な技能を発揮する。  
+用途: その人が得意とする作業や、その人のおなじみの活動を行う。  
 例: We gave the mechanic some space and let her do her stuff.  
 訳: 私たちは整備士に作業場所を空け、腕を振るってもらった。  
 
@@ -411,7 +418,7 @@ stuff the ballot box は主に米語の選挙表現で、単に投票箱が票�
 例: The pitcher had good stuff, but he struggled to throw strikes.  
 訳: その投手は球自体はよかったが、ストライクを取るのに苦労していた。  
 
-【語法・注意】所有格は主体に合わせ、I know my stuff、she knows her stuff のようにする。strut one’s stuff は見せつけるような自信を含み、単に知識がある know one’s stuff とは違う。野球の stuff は球の速さ・変化などの質を指し、よい stuff があっても制球がよいとは限らない。  
+【語法・注意】所有格は主体に合わせ、I know my stuff、she knows her stuff のようにする。 do one’s stuff は、必ず高度な技能を披露するという意味ではないが、単に割り当てられた仕事なら何でも指せるわけではなく、その人の得意なこと・おなじみの活動との結び付きがある。strut one’s stuff は見せつけるような自信を含み、単に知識がある know one’s stuff とは違う。野球の stuff は球の速さ・変化などの質を指し、よい stuff があっても制球がよいとは限らない。  
 
 【類義語】
 
@@ -461,12 +468,21 @@ stuff the ballot box は主に米語の選挙表現で、単に投票箱が票�
 
 【語法・注意】人が自分で食べる能動形 stuff oneself と、別の人に食べさせる stuff someone を区別する。目的語を置かずに食べる意味で使う形もある。stuff down は急いで食べたり、むさぼるように食べたりする言い方で、食べる量だけを表すものではない。代名詞は stuff it down の順にする。満腹という結果の形容詞は語義5。量を中立的に述べるなら eat a lot、食事の量を控えるなら eat lightly と言える。  
 
+以下は、たくさん食べることと食事を差し控えることを比べる対照表現であり、食べる量の同じ尺度に沿った反意語ではない。  
+
+・fast  
+定義: 断食する、食べない。  
+頻度: 〈5/10〉  
+違い: stuff oneself が大量に食べるなら、fast は意図的に食べないこと。  
+例: Some people fast during religious holidays.  
+訳: 宗教的な祝日に断食する人もいる。  
+
 【類義語】
 
 ・gorge  
 定義: 大量に食べる、むさぼり食う。  
 頻度: 〈4/10〉  
-違い: gorge は食べすぎの否定的な響きが stuff oneself より強い。  
+違い: gorge は大量に食べることを前面に出すが、楽しんでたっぷり食べる描写にも、食べすぎを批判する描写にも使う。stuff oneself と比べて、常に否定的な評価が強いという順位ではない。  
 例: They gorged on cake.  
 訳: 彼らはケーキをたらふく食べた。  
 
@@ -476,15 +492,6 @@ stuff the ballot box は主に米語の選挙表現で、単に投票箱が票�
 違い: devour は勢いよく食べ尽くすことに焦点がある。  
 例: The kids devoured the pizza.  
 訳: 子どもたちはピザをぺろりと平らげた。  
-
-【反意語】
-
-・fast  
-定義: 断食する、食べない。  
-頻度: 〈5/10〉  
-違い: stuff oneself が大量に食べるなら、fast は意図的に食べないこと。  
-例: Some people fast during religious holidays.  
-訳: 宗教的な祝日に断食する人もいる。  
 
 9. 【動詞・他動詞／形容詞】ふさぐ、鼻などが詰まった
 
@@ -558,7 +565,7 @@ stuff the ballot box は主に米語の選挙表現で、単に投票箱が票�
 ・mount  
 定義: 動物などの標本を、観察・展示できる形に整える。  
 頻度: 〈3/10〉  
-違い: この専門用法では剥製の製作にも使う。mount は標本の支持・配置を含む仕上げを広く指し、stuff は内部を詰めて外形を保つことを強調する。  
+違い: mount は死んだ動物や骨格などを観察・展示できる標本として整えることを指し、単に完成品を台座へ固定する場合だけではない。stuff は動物を剥製にする言い方で、mount の骨格標本などの範囲まで同じではない。実際の製作方法を、この二語だけで一律に区分しない。  
 例: The taxidermist mounted the deer for display.  
 訳: 剥製師は、そのシカを展示用の剥製に仕上げた。  
 
@@ -596,7 +603,7 @@ stuff the ballot box は主に米語の選挙表現で、単に投票箱が票�
 【類義語】
 
 ・forget it  
-定義: 要求や提案に対して、だめだと強く拒む定型句。  
+定義: 要求や提案を拒むときに使う定型句。  
 頻度: 〈6/10〉  
 違い: この拒絶用法では Stuff it! に近いが、卑俗さは比較的弱い。別の文脈では「気にしないで」という慰めにもなる。  
 例: “Will you lend me your car?” “Forget it.”  
@@ -814,8 +821,8 @@ stuff the ballot box は主に米語の選挙表現で、単に投票箱が票�
 【類義語】
 
 ・block  
-定義: 相手のシュートや進路をさえぎる。  
+定義: バスケットボールで相手のシュートをさえぎる。  
 頻度: 〈7/10〉  
-違い: block はシュートや進路の阻止を表す一般的な語。stuff は米国のスポーツで使われるくだけた言い方である。  
+違い: ここではバスケットボールのシュート阻止について stuff と重なる。アメリカンフットボールの block には相手選手を遮って味方の進路を確保する用法もあるため、守備側が走者の前進を止める stuff と一律には置き換えない。  
 例: The defender blocked the shot.  
 訳: 守備の選手がそのシュートをブロックした。  
