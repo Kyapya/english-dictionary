@@ -3,9 +3,9 @@ headword: extent
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: unknown
 created_at: 2026-10-03
-updated_at: 2026-10-03
+updated_at: 2026-10-27
 checked: true
 tags: []
 ---
@@ -114,9 +114,9 @@ tags: []
 【類義語】
 
 ・degree  
-定義: 性質や状態の強さ・進み具合を、段階として捉えた程度。  
+定義: 性質や状態の強さ・進み具合・水準として捉えた程度。  
 頻度: 〈8/10〉  
-違い: extent と重なるが、degree は程度の段階に焦点を置く。to some degree は to some extent に近い。空間の広さは通常表さない。  
+違い: degree は性質の強さ・水準に焦点を置き、区切られた段階だけでなく連続的な程度にも使う。to some degree は to some extent に近いが、範囲・量を指す extent といつでも交換できるわけではない。対象の意味と構文を確認し、空間の広さを表す extent と区別する。  
 例: The two tasks require different degrees of concentration.  
 訳: この二つの作業では、必要な集中力の程度が異なる。  
 
@@ -245,7 +245,7 @@ tags: []
 訳: その湖の面積は12平方キロメートルです。  
 
 ・expanse  
-定義: 視界に広がる、まとまった広い空間。  
+定義: まとまって広がっている広い空間。  
 頻度: 〈5/10〉  
 違い: 広々とした見た目を描写しやすい。extent は狭い範囲にも使え、測定や限界にも焦点を置ける。  
 例: We looked out over an expanse of blue water.  
