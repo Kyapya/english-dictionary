@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v4
 model: unknown
 created_at: 2026-08-02
-updated_at: 2026-10-01
+updated_at: 2026-10-27
 checked: true
 tags: []
 ---
@@ -187,7 +187,7 @@ tags: []
 ・chaos  
 定義: 秩序や統制がほとんど失われた状態。  
 頻度: 〈7/10〉  
-違い: *mess* より規模と無秩序の程度が強く、個人的な小さな失敗より広い混乱に使いやすい。  
+違い: *chaos* は秩序・統制の欠如を強調し、*mess* は対処しにくい状態全体を否定的に評価する。*chaos* は個人の生活や小さな場所にも使え、規模や深刻さが常に *mess* を上回るという順位ではない。  
 例: The sudden closure caused chaos across the network.  
 訳: 突然の閉鎖によってネットワーク全体が大混乱に陥った。  
 
@@ -349,9 +349,9 @@ tags: []
 【類義語】
 
 ・canteen  
-定義: 職場、学校、軍施設などの食堂・売店。  
+定義: 職場、学校、軍施設などで食事を提供する食堂。  
 頻度: 〈6/10〉  
-違い: 特にイギリス英語で民間施設にも広く使え、階級別共同体を含意する *mess* より一般的である。  
+違い: ここでは *canteen* の食堂義を比較しており、民間施設にも広く使える。*mess* は軍の食堂やそこで食事を共にする集団にも使うが、食堂を指すたびに階級別共同体の意味まで含むわけではない。  
 例: Staff can buy lunch in the canteen.  
 訳: 職員は食堂で昼食を買える。  
 
@@ -426,10 +426,10 @@ tags: []
 例: He baked a fresh batch of rolls.  
 訳: 彼はロールパンを新しく一回分焼いた。  
 
-・lot  
-定義: くだけた表現で、多数・多量の人や物。  
+・a lot of  
+定義: 名詞の前に置き、多数・多量の人や物を表す。  
 頻度: 〈10/10〉  
-違い: 現代英語で地域を問わず使える一般的な数量表現で、*a mess of* の古風・地域的な響きがない。  
+違い: *a lot of + 名詞* は一般的な数量表現で、*a mess of* の地域的な響きがない。この意味では冠詞 *a* と前置詞 *of* を含む形として覚える。  
 例: We had a lot of trouble finding the address.  
 訳: 私たちはその住所を見つけるのに大変苦労した。  
 
@@ -460,7 +460,7 @@ tags: []
 例: He was afraid he might mess himself before reaching the bathroom.  
 訳: 彼はトイレに着く前に粗相をしてしまうのではないかと心配していた。  
 
-【語法・注意】他動詞 *mess + O* は使用範囲が限られ、一般には *mess up + O* または *mess + O + up* の方が明確で自然である。特にイギリス英語では *Don't mess up my hair.* が普通。*mess on* と *mess oneself* は文脈依存の婉曲表現なので、正確さが必要なら *defecate* や *soil oneself* などを使う。排尿して衣服をぬらす場合は通常 *wet oneself* と言い、*mess oneself* と区別する。最小対立は、*mess oneself*＝「衣服の中で粗相する」、*mess oneself up*＝「自分の心身・人生を損なう」。*up* の有無で意味が全く異なる。*mess* は規則活用し、過去形・過去分詞は *messed* である。
+【語法・注意】他動詞 *mess + O* は使用範囲が限られ、一般には *mess up + O* または *mess + O + up* の方が明確で自然である。特にイギリス英語では *Don't mess up my hair.* が普通。*mess on* と *mess oneself* は文脈依存の婉曲表現である。*defecate* は排便という行為を明示し、*soil oneself* は衣服を汚す結果を婉曲に述べるため、同じ種類の「正確な言い換え」として一括しない。排尿して衣服をぬらす場合は通常 *wet oneself* と言い、*mess oneself* と区別する。排便を表す *mess oneself* と、心身への悪影響を表す *mess oneself up* は区別する。ただし *mess oneself up* も文脈によって外見を汚す・乱す意味になり得るため、*up* の有無だけで常に心理的損傷と決めない。*mess* は規則活用し、過去形・過去分詞は *messed* である。
 
 【類義語】
 
@@ -543,7 +543,7 @@ tags: []
 ・botch  
 定義: 技能不足や不注意によって仕事を不格好にやり損なう。  
 頻度: 〈5/10〉  
-違い: 他動詞として失敗した作業・修理などを目的語に取り、完成結果の質の悪さを強調する。  
+違い: 他動詞として作業・修理などを目的語に取り、やり方や出来栄えの悪さを強調する。作業が最後まで完成していることは必須ではない。  
 例: The first repair was badly botched.  
 訳: 最初の修理はひどくやり損なわれていた。  
 
@@ -551,8 +551,8 @@ tags: []
 定義: 物事の価値・機能・成功の可能性を大きく損なう。  
 頻度: 〈9/10〉  
 違い: *mess up* より結果の深刻さ・不可逆性が強いことが多く、単なる一回のミスには強すぎる場合がある。  
-例: The leak ruined the wooden floor.  
-訳: 水漏れで木の床が台無しになった。  
+例: The booking error ruined our plans for the weekend.  
+訳: 予約の手違いで、週末の計画が台無しになった。  
 
 9. 【句動詞・他動詞・くだけた表現】mess up：物・場所・髪などを散らかす、乱す、汚す
 
@@ -633,7 +633,7 @@ tags: []
 例: Our schedule got completely messed up by the delay.  
 訳: 遅延のせいで私たちの日程は完全に狂ってしまった。  
 
-【語法・注意】叙述用法では通常ハイフンを付けず *The system is messed up.* と書く。名詞の前では複合形容詞として *a messed-up system* のようにハイフンを付ける。*The system was messed up by an incorrect update.* は文脈によって「誤った更新がシステムを壊した」という句動詞の受動態とも、「システムが壊れた状態だった」という形容詞とも分析できる。
+【語法・注意】叙述用法では通常ハイフンを付けず *The system is messed up.* と書く。名詞の前では複合形容詞として *a messed-up system* のようにハイフンを付ける。*The system was messed up by an incorrect update.* は文脈によって「誤った更新がシステムを壊した」という句動詞の受動態とも、「システムが壊れた状態だった」という形容詞とも分析できる。 *messy* は散らかりや込み入った状況を表し、*messed up* と重なる場合があるが、*a messy desk*「散らかった机」と *a messed-up payment system*「正常に機能しない決済システム」のように、散らかりと機能不全を常に同じ語で言い換えられるわけではない。
 
 【類義語】
 
@@ -685,7 +685,7 @@ tags: []
 例: Some children get messed up by years of instability.  
 訳: 長年の不安定な環境によって心が傷つく子どももいる。  
 
-【語法・注意】*She is messed up.* は状態を表す形容詞、*The experience messed her up.* は経験が悪影響を与えた能動の句動詞である。人に用いると強く断定的なので、具体的な症状を意味する *distressed*、*anxious*、*traumatized* などと置き換えられるか検討する。限定用法は *a messed-up child* のようにハイフンを付ける。
+【語法・注意】*She is messed up.* は状態を表す形容詞、*The experience messed her up.* は経験が悪影響を与えた能動の句動詞である。人に用いると強く断定的なので、具体的な症状を意味する *distressed*、*anxious*、*traumatized* などと置き換えられるか検討する。限定用法は *a messed-up child* のようにハイフンを付ける。 *She is messed up.* だけでは語義13の酩酊もあり得るため、心理状態なら *emotionally* や経験の文脈、酩酊なら *on alcohol/drugs* などで区別する。*be/get messed up by...* は句動詞の受動態としても読め、*be/get* や *by* だけで形容詞と一意に決まるわけではない。
 
 【類義語】
 
@@ -734,17 +734,17 @@ tags: []
 
 ・a seriously messed-up rule  
 用途: 不当または非常識な規則を名詞の前から強く批判する。  
-例: That is a seriously messed-up rule.  
-訳: それは本当にひどく不当な規則だ。  
+例: The company has a seriously messed-up rule: employees are punished for reporting harassment.  
+訳: その会社には、ハラスメントを報告した従業員を罰するという、本当にひどく不当な規則がある。  
 
 【語法・注意】この用法を「混乱している」とだけ訳すと、話者の強い否定評価を落としてしまう。*That's messed up.* は文脈に応じて「それはひどい」「そんなの間違っている」「理不尽だ」「不快だ」などに近い。叙述用法なのでハイフンは不要だが、名詞の前では *a messed-up rule* とする。
 
 【類義語】
 
 ・wrong  
-定義: 道徳、規則、事実、判断などの点で正しくない。  
+定義: 行為や人の扱いなどが道徳的に正しくない。  
 頻度: 〈10/10〉  
-違い: 最も広く中立的にも使え、*messed up* ほど驚きや嫌悪を必ずしも示さない。  
+違い: ここでは行為への道徳的評価を比較しており、*wrong* は *messed up* ほど驚きや嫌悪を必ずしも示さない。計算や事実が単に誤っているという別義では、そのまま対応しない。  
 例: It was wrong to hide the information from them.  
 訳: 彼らにその情報を隠したのは間違っていた。  
 
@@ -827,7 +827,7 @@ tags: []
 【コロケーション】
 
 ・mess someone up emotionally  
-用途: 出来事や関係が人の感情・心理に長く悪影響を与えることを表す。  
+用途: 出来事や関係が人の感情・心理に悪影響を与えることを表す。影響の持続期間は文脈による。  
 例: The years of uncertainty messed him up emotionally.  
 訳: 何年にもわたる不安定な状況が、彼の心に深い悪影響を与えた。  
 
@@ -860,7 +860,7 @@ tags: []
 ・damage  
 定義: 人の健康、能力、評判などを損なう。  
 頻度: 〈9/10〉  
-違い: より中立的で正式な文脈にも使え、心理・身体・社会的損害の種類を補語で明示しやすい。  
+違い: *damage* は正式な文脈にも使え、健康・能力・評判など、損なわれるものを直接目的語に置ける。*mess someone up* は影響を受ける人を目的語にするため、単語だけを同じ位置で置き換えない。  
 例: Prolonged stress can damage your health.  
 訳: 長期的なストレスは健康を損なうことがある。  
 
@@ -913,16 +913,16 @@ tags: []
 【類義語】
 
 ・tamper with  
-定義: 許可なく物・証拠・機器などへ変更を加える。  
+定義: 物・証拠・機器などを、不適切・有害な仕方でいじったり変更したりする。  
 頻度: 〈6/10〉  
-違い: 不正・危険・無断という含意が *mess with* より明確で、警告文や法的文脈にも使う。  
+違い: *tamper with* は不適切な介入という評価が前面に出る。無断の操作にも使うが、許可がないことだけが意味の必要条件ではない。*mess with* は気軽ないじり方にも使える。  
 例: Do not tamper with the smoke detector.  
 訳: 煙感知器を勝手にいじらないでください。  
 
 ・meddle with  
-定義: 自分に関係のない事柄へ余計に介入する。  
+定義: 自分が手を出すべきでない事柄や物を、余計にいじったり変更したりする。  
 頻度: 〈5/10〉  
-違い: 人の問題へのおせっかいな干渉を明示し、物を試しに調整する中立的な用法には向かない。  
+違い: *meddle with* は余計・不適切だという評価を伴い、人の事柄にも物への操作にも使う。*meddle in* も事柄への干渉に使えるため、*with* は物だけ、*in* は人の事柄だけという固定的な二分にはしない。  
 例: He was accused of meddling with the investigation.  
 訳: 彼は捜査に余計な介入をしたとして非難された。  
 
@@ -984,11 +984,11 @@ tags: []
 訳: 生徒たちは廊下でふざけていた。  
 
 ・play around  
-定義: 気軽に試す、または真剣でない態度で楽しむ。  
+定義: ふざけたり、気ままに遊んだりする。  
 頻度: 〈7/10〉  
-違い: 実験的に試す意味では *mess around* より否定的評価が弱く、創作・設定変更にも使いやすい。  
-例: I played around with several color combinations.  
-訳: 私はいくつかの色の組み合わせを気軽に試した。  
+違い: ここでは *with* を伴わない遊び・ふざけの用法を比較する。*mess around* も楽しく遊ぶ場面に使え、否定的かどうかは文脈による。物を試す *play around with* は語義17で比較する。  
+例: The children played around in the garden until dinner.  
+訳: 子どもたちは夕食まで庭で気ままに遊んだ。  
 
 ・waste time  
 定義: 有益な結果につながらないことに時間を使う。  
@@ -999,7 +999,7 @@ tags: []
 
 17. 【句前置詞動詞・自動詞・くだけた表現】mess around/about with something：物をいじる、あれこれ試す
 
-【日本語訳・定義】機械、設定、素材、考え、デザインなどを、明確な手順や完成形を決めずに触ったり変えたりして試す。好奇心からの気軽な試行にも、不用意な操作への軽い非難にも使える。目的物は *with* の後ろに置く。
+【日本語訳・定義】機械、設定、素材、考え、デザインなどを、気軽に触ったり変えたりしてあれこれ試す。進め方は探索的でも、改善目標や完成の意図を持っている場合もある。目的を定めない遊びや、成果につながらない行動として批判される文脈もある。好奇心からの気軽な試行にも、不用意な操作への軽い非難にも使える。目的物は *with* の後ろに置く。
 
 【頻度】〈7/10〉
 
@@ -1010,7 +1010,7 @@ tags: []
 【コロケーション】
 
 ・mess around with a new design  
-用途: 完成形を決めず、デザインを試行錯誤することを表す。  
+用途: デザインを気軽に試行錯誤することを表す。完成の目標がある場合にも使える。  
 例: I spent the weekend messing around with a new design.  
 訳: 私は週末、新しいデザインをあれこれ試して過ごした。  
 
@@ -1031,21 +1031,21 @@ tags: []
 ・tinker with  
 定義: 機械、仕組み、計画などに小さな変更を加えながら試す。  
 頻度: 〈6/10〉  
-違い: *mess around with* より、改善や調整を意図した細かな作業を示しやすい。  
+違い: *tinker with* は細かな変更・調整に焦点があり、改善を意図する場面で使いやすい。*mess around with* と重なる試行もあり、目標の有無だけで分かれるわけではない。  
 例: She spent the evening tinkering with the program.  
 訳: 彼女は夜をそのプログラムの細かな調整に費やした。  
 
 ・experiment with  
 定義: 結果を確かめるため、方法、材料、考えなどを試す。  
 頻度: 〈7/10〉  
-違い: より中立的で目的意識があり、*mess around with* の「気軽に・行き当たりばったりに」という含意が弱い。  
+違い: *experiment with* は方法や材料を試して結果を確かめることに焦点がある。*mess around with* は取り組み方の気軽さ・探索性を表すが、目標がないことを必須とするわけではない。  
 例: The chef experimented with several spices.  
 訳: その料理人はいくつかの香辛料を試した。  
 
 ・play around with  
 定義: 遊びや試行として、選択肢、設定、考えなどを気軽に変えてみる。  
 頻度: 〈7/10〉  
-違い: *mess around with* より肯定的・創造的に響きやすく、不用意にいじるという非難が弱い。  
+違い: *play around with* は遊び感覚の試行を表し、創作にも使いやすい。*mess around with* も中立的・楽しい試行に使えるため、一方が常に肯定的、他方が常に否定的とは限らない。  
 例: Try playing around with the font size.  
 訳: フォントサイズをいろいろ変えて試してみて。  
 
@@ -1081,9 +1081,9 @@ tags: []
 【類義語】
 
 ・have an affair with  
-定義: 配偶者・交際相手以外の人と継続的な恋愛・性的関係を持つ。  
+定義: 人と恋愛・性的関係を持つ。秘密の関係や不貞を指すことが多い。  
 頻度: 〈7/10〉  
-違い: *mess around with* より関係の継続性と不貞を明確に示す。  
+違い: *have an affair with* は恋愛・性的な関係そのものに焦点があり、不貞との結び付きが強い。ただし、既存のパートナーの存在や一定の継続期間が必須ではない。*mess around with* も性的文脈では重なるが、ふざけるという別の読みもある。  
 例: He had an affair with a colleague.  
 訳: 彼は同僚と不倫関係を持った。  
 
@@ -1180,7 +1180,16 @@ tags: []
 例: We got everything packed before lunch, no messing.  
 訳: 昼食前にすべての荷造りができた。手間取らずに済んだ。  
 
-【語法・注意】この *messing* は動作を表す普通の進行形ではなく、「ふざけ・無駄・面倒」をまとめて指す名詞的な固定用法である。アメリカ英語で同じ意図を明確に伝えるなら、文脈に応じて *no fooling around*、*no nonsense*、*no kidding* などを使う方が自然なことが多い。完了した行動に添える用法では *without any fuss* や *with no trouble* も近い。
+【語法・注意】この *messing* は動作を表す普通の進行形ではなく、「ふざけ・無駄・面倒」をまとめて指す名詞的な固定用法である。アメリカ英語で同じ意図を明確に伝えるなら、文脈に応じて *no fooling around*、*no nonsense*、*no kidding* などを使う方が自然なことが多い。完了した行動に添える用法では *without any fuss* や *with no trouble* も近い。 *no kidding* は「冗談ではない」と念を押す発話機能での対照であり、迅速・実務的という評価まで一律に代替しない。
+
+以下の no kidding は、冗談ではないと念を押す場面で重なる対照表現であり、no messing の全用法を置き換える類義語ではない。  
+
+・no kidding  
+定義: 冗談ではないことを示す、または驚きへの強い同意を表す。  
+頻度: 〈8/10〉  
+違い: *no kidding* は冗談ではないことを確認する場面で *no messing* と重なるが、驚きへの応答にも使う別の表現である。迅速さや手際のよさまで言い換えることはできず、単純な意味の包含関係ではない。  
+例: No kidding—this warning is serious.  
+訳: 冗談ではない。この警告は深刻だ。  
 
 【類義語】
 
@@ -1198,9 +1207,3 @@ tags: []
 例: She takes a no-nonsense approach to management.  
 訳: 彼女は経営に実務的で無駄のない姿勢で臨む。  
 
-・no kidding  
-定義: 冗談ではないことを示す、または驚きへの強い同意を表す。  
-頻度: 〈8/10〉  
-違い: アメリカ英語で一般的だが、時間の無駄や手加減まで排除する *no messing* より意味が狭い。  
-例: No kidding—this warning is serious.  
-訳: 冗談ではない。この警告は深刻だ。  
