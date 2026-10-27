@@ -3,9 +3,9 @@ headword: considerable
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: unknown
 created_at: 2026-10-03
-updated_at: 2026-10-03
+updated_at: 2026-10-27
 checked: true
 tags: []
 ---
@@ -185,23 +185,37 @@ tags: []
 例: Despite its brevity, the novel is a considerable work of literature.  
 訳: 短いながらも、その小説は重要な文学作品である。  
 
-【語法・注意】`a considerable artist` は芸術家という人物を評価するが、`an artist of considerable talent` は才能の程度を述べるため語義1に当たる。人物について広く分かりやすく述べるなら、`an important artist`、`a distinguished artist` なども使える。「思いやりのある芸術家」は `a considerate artist` で、別の評価になる。  
+【語法・注意】`a considerable artist` は芸術家という人物を評価するが、`an artist of considerable talent` は才能の程度を述べるため語義1に当たる。人物について広く分かりやすく述べるなら、`an important artist`、`a distinguished artist` なども使える。「思いやりのある芸術家」は `a considerate artist` で、別の評価になる。 `major` も重要人物・主要な作品の評価に使えるが、`a major improvement` のように変化の規模・効果にも使うため、「major は重要性だけ、considerable は量だけ」と分けない。  
 
 【類義語】
 
 ・important  
-定義: 人物が、役割・地位・影響力などの点で重要な存在であること。  
+定義: 人物・作品・物事などが、役割・影響・意義などの点で重要であること。  
 頻度: 〈9/10〉  
-違い: considerable の人物評より一般的で、影響力だけでなく役割や地位の重要性にも広く使える。  
+違い: considerable の硬い人物・作品評より一般的で、役割・影響・意義の重要性を広く表せる。単に数量が大きいという意味ではない。  
 例: She became an important figure in the movement.  
 訳: 彼女はその運動の重要人物になった。  
 
 ・distinguished  
 定義: 業績や能力が優れており、高く評価されていること。  
 頻度: 〈6/10〉  
-違い: considerable より、優れた実績に対する評価・敬意が明確に表れる。  
+違い: considerable は、その人物が重要な存在だという評価に使う。distinguished は優れた実績・能力への高い評価を示し、単に目立つ・広く知られているだけとは異なる。  
 例: The prize was presented by a distinguished scientist.  
 訳: その賞は高名な科学者から授与された。  
+
+・notable  
+定義: 人物・作品・出来事などが、特に注目に値すること。  
+頻度: 〈7/10〉  
+違い: 人物の重要性だけでなく、作品・改善・例外などの注目すべき特徴にも使う。重要性を評価する considerable と重なるが、単に量が相当あることとは区別する。noteworthy も「注目に値する」という近い語で、両者の強さを一律に順位付けはしない。  
+例: The collection includes several notable works by young artists.  
+訳: そのコレクションには、若い芸術家による注目すべき作品がいくつか含まれている。  
+
+・prominent  
+定義: ある分野・集団でよく知られ、目立った地位を占めること。  
+頻度: 〈7/10〉  
+違い: 人物については知名度や目立つ存在であることに焦点がある。業績・重要性とも重なるが、considerable による価値・重要性の評価を、単に有名かどうかだけで捉えない。  
+例: She is a prominent figure in local politics.  
+訳: 彼女は地元の政治でよく知られた有力人物だ。  
 
 3. 【名詞・不可算】相当の量、多くのもの
 
