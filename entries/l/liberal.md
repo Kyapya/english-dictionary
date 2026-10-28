@@ -3,9 +3,9 @@ headword: liberal
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: unknown
 created_at: 2026-10-03
-updated_at: 2026-10-03
+updated_at: 2026-10-27
 checked: true
 tags: []
 ---
@@ -544,9 +544,9 @@ tags: []
 訳: その映画は、小説を自由に翻案したものです。  
 
 ・lenient  
-定義: 規則の適用や処罰が厳しすぎず、寛大な。  
+定義: 規則の適用や処罰が厳しくなく、寛大な。  
 頻度: 〈6/10〉  
-違い: 人への扱いや罰の軽さに焦点を置く。liberal は解釈の幅や許容範囲も表し、単に罰を軽くする意味ではない。  
+違い: 人への扱いや罰の軽さに焦点を置く。寛大さが適切かどうかまでは表さず、too lenient なら寛大すぎると批判する。liberal は解釈の幅や許容範囲も表し、単に罰を軽くする意味ではない。  
 例: The school takes a lenient approach to minor mistakes.  
 訳: その学校は、軽微な間違いに対して寛大に対応している。  
 

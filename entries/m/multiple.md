@@ -3,9 +3,9 @@ headword: multiple
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: unknown
 created_at: 2026-10-03
-updated_at: 2026-10-03
+updated_at: 2026-10-28
 checked: true
 tags: []
 ---
@@ -102,6 +102,8 @@ tags: []
 
 【語法・注意】基本は multiple reasons、multiple users のような名詞の前の位置。「複数の学生」は ×multiple student ではなく multiple students。一方、a multiple birth のように、後ろの名詞自体が一つの複合的な出来事を指す場合は単数になり、multiple ownership のような不可算名詞との結合もある。数が二つの場合も含められるが、正確な個数が重要なら two、three などを使う。「多い」という日本語だけに引かれて、あらゆる不可算名詞に付けるわけではなく、「多額のお金」は much money や a lot of money が普通。通常は very multiple や more multiple で数の多さを表さず、many more options「さらに多くの選択肢」のように言う。叙述用法はあるが、日常的には There are several reasons. が The reasons are multiple. より平易。multiple-choice の multiple は選択肢が複数あることを示し、正解を必ず複数選ぶ意味ではない。multiple sclerosis は「多発性硬化症」という病名であり、単なる「複数のけが」の言い換えではない。  
 
+関連する repeated「繰り返される」と compound「複合の」も、そのまま multiple と置き換えられるとは限らない。multiple attempts は試みが複数あること、repeated attempts は試みを繰り返すことに焦点を置く。一方、multiple users「複数の利用者」を repeated users と言い換えて同じ意味にはできない。compound は複数の要素が組み合わさって一つを構成することを表し、例えば a compound sentence は主節を二つ以上含む一つの「重文」、multiple sentences は「複数の文」である。この二つの句では、構成要素の数と、独立した文の数を区別する。ただし multiple 自体も複数要素を持つ構成を表せるので、どの文脈でも「別々のもの」を意味するという対立ではない。  
+
 【類義語】
 
 ・several  
@@ -110,6 +112,13 @@ tags: []
 違い: multiple より日常的で、一般に「いくつか」の感覚。multiple は二つの場合や多数の場合、複数要素を持つ構成にも使う。  
 例: Several people stayed behind to help.  
 訳: 数人が手伝うために残った。  
+
+・a few  
+定義: 少数だがいくつかの、数人の。可算名詞の複数形を伴う。  
+頻度: 〈9/10〉  
+違い: a few は数が少ないことを含む。multiple は一つより多いことを示すが、それだけで少数に限定しない。a few options は「いくつかの選択肢」、multiple options は個数を限定しない「複数の選択肢」である。  
+例: We still have a few options to consider.  
+訳: 私たちには、まだ検討できる選択肢がいくつかある。  
 
 ・numerous  
 定義: 数が多い、多数ある。  
@@ -199,7 +208,7 @@ tags: []
 
 【語法・注意】前置詞は of。×a multiple by six ではなく a multiple of six とする。a multiple of six「6の倍数」と multiply by six「6を掛ける」は品詞も構造も違う。18 is a multiple of 6. に対応する逆向きの関係は 6 is a factor of 18.「6は18の約数」であり、factor を単純な反意語として扱わない。least common multiple は LCM と略し、lowest common multiple ともいう。整数倍を扱うこの用法では、exact は端数なく割り切れることを強調する語である。ただし、金融などで単に比率を表す語義3では整数に限られない。0や負の数を含めるかは、問題で指定された数の範囲も確認する。  
 
-【類義語】
+関連する数学用語との比較として、次の product も区別しておく。  
 
 ・product  
 定義: 数や量を掛け合わせて得られる結果、積。  
@@ -303,7 +312,7 @@ tags: []
 
 【頻度】〈2/10〉  
 
-【レジスター/領域】主に英。小売業の用語で、一般会話では古めかしく、現在は chain store や chain のほうが分かりやすい。  
+【レジスター/領域】主に英。小売業の用語。一般の読者に店や事業者の種類を明確に伝えるなら、chain store や retail chain と具体的に言い表せる。  
 
 【文法パターン】a multiple＝チェーン店・チェーン小売業者／the large multiples＝大手チェーン小売業者  
 
@@ -319,14 +328,14 @@ tags: []
 例: Small retailers struggled to compete with the large multiples.  
 訳: 小規模な小売店は、大手チェーン小売業者との競争に苦戦した。  
 
-【語法・注意】a multiple や the multiples では multiple 自体が名詞で、店や業者を指す。関連表現 multiple store「チェーン店」は store を中心語とする複合表現で、multiple 自体を名詞として使った例とは区別する。複数形 multiple stores は、語義1の形容詞による「複数の店」にも、小売用語 multiple store の複数形「チェーン店」にもなり、単数・複数だけで意味は決まらない。前者では同じ会社の経営下にあるとは限らず、どちらの意味かは文脈で判断する。現代の一般的な文章で曖昧さを避けるなら chain store、retail chain などとする。単独店舗を持つ independent retailer「独立系小売業者」は対照表現だが、店の種類・経営形態の区別であり、ここでは反意語として固定しない。  
+【語法・注意】a multiple や the multiples では multiple 自体が名詞で、店や業者を指す。関連表現 multiple store「チェーン店」は store を中心語とする複合表現で、multiple 自体を名詞として使った例とは区別する。複数形 multiple stores は、語義1の形容詞による「複数の店」にも、小売用語 multiple store の複数形「チェーン店」にもなり、単数・複数だけで意味は決まらない。前者では同じ会社の経営下にあるとは限らず、どちらの意味かは文脈で判断する。現代の一般的な文章で曖昧さを避けるなら chain store、retail chain などとする。independent retailer「独立系小売業者」は経営上の独立性に着目した対照表現で、店舗数が一つとは限らない。店舗数と経営形態は別の軸なので、ここでは反意語として固定しない。  
 
 【類義語】
 
 ・chain store  
 定義: 同じ会社が経営する一連の店舗の一つ。  
 頻度: 〈6/10〉  
-違い: 現代の英米双方で通じる一般的な表現。古めの英語 multiple store の、店舗を指す用法に対応する。  
+違い: 英米双方で使われる一般的な表現。multiple や multiple store のうち、個々の店舗を指す用法に対応する。  
 例: A national chain store opened beside the station.  
 訳: 駅のそばに、全国展開するチェーン店が開店した。  
 
