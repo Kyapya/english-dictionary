@@ -3,9 +3,9 @@ headword: respectively
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-5.6-luna-wm
+model: unknown
 created_at: 2026-09-03
-updated_at: 2026-10-02
+updated_at: 2026-10-29
 checked: true
 tags: []
 ---
@@ -83,6 +83,8 @@ respectively は、形容詞 respective に副詞接尾辞 -ly が付いた語�
 多くの場合、対応する後半のリストの末尾、つまり文末または節末に置き、その直前にコンマを置くことが多いが、必須ではなく文体・配置による。文中の respectively も可能だが、The editor and the designer respectively checked the text and prepared the layout. のように、長い要素を挟むと対応関係が追いにくい。通常は The editor and the designer checked the text and prepared the layout, respectively. のように末尾へ置く方が明快である。  
 
 「個別に、別々に」という用法を載せる辞書もあるが、現代の一般的な作文では、respectively を「提示順に対応して、それぞれ」と使うのが基本である。対応する別のリストが前後の文脈にもなく、単に二つの化合物を別々に使ったことを表したい場合は、×We used compounds A and B, respectively. ではなく、○We used compounds A and B separately. とする。correspondingly は対応・連動、individually は個別処理、in turn は時間的な順番・交代を表す対照表現で、respectively の順序対応を含む類義語とは限らない。  
+
+対照表現: each も「それぞれ」と訳せるが、集団の一人ひとり・一つひとつに述べた内容が当てはまることを示し、二つのリストを提示順に対応させる印ではない。例: Aya and Ben each received two tickets. 訳: アヤとベンは、それぞれチケットを2枚ずつ受け取った。一方、Aya and Ben received two and three tickets, respectively. なら「アヤは2枚、ベンは3枚のチケットを受け取った」で、各人と受け取る枚数を順に対応させる。each を使うと常に同じ結果になるという意味ではなく、この例では共通の数量 two tickets を各人に当てはめている。  
 
 respective は形容詞で、それぞれの名詞を修飾する。The teams returned to their respective rooms. は「各チームが自分たちの部屋に戻った」で、二つのリストを順番に対応させる respectively とは異なる。respectfully は「礼儀正しく、敬意を示して」であり、順序や対応を表さない。  
 
