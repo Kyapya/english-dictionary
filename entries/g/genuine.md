@@ -3,9 +3,9 @@ headword: genuine
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-5.6-luna-wm
+model: unknown
 created_at: 2026-08-27
-updated_at: 2026-10-01
+updated_at: 2026-10-29
 checked: true
 tags: []
 ---
@@ -54,7 +54,7 @@ tags: []
 訳: その博物館は、手紙の署名が本物だと確認した。  
 
 ・`genuine leather/gold/diamond`  
-用途: 人工素材や模造品ではなく、表示された材質そのものであることを表す。  
+用途: 表示された材質の本物であり、その材質に似せた別のものではないことを表す。ここでの例は、革に似せた素材ではなく本革を指す。  
 例: The label says that the bag is made of genuine leather.  
 訳: その表示には、そのバッグが本革製だと書かれている。  
 
@@ -200,7 +200,7 @@ tags: []
 ・heartfelt  
 定義: 強い本心から出た、心のこもった。  
 頻度: 〈6/10〉  
-違い: `heartfelt` は感情の深さや温かさを強く示し、感謝・同情・謝罪などに向く。`genuine` は感情が本物かどうかをより中立に述べる。  
+違い: `heartfelt` は感情が本心から出ていることに加え、その強さや深さを強調する。感謝・同情・謝罪だけでなく、切実な嘆願などにも使える。`genuine` は感情が本物かどうかに焦点があり、強い感情であることまでは必ずしも表さない。  
 例: The family received heartfelt messages from the community.  
 訳: その家族は地域の人々から心のこもったメッセージを受け取った。  
 
