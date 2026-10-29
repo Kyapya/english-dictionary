@@ -3,16 +3,16 @@ headword: conservation
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-5.6-luna-wm
+model: unknown
 created_at: 2026-08-27
-updated_at: 2026-10-01
+updated_at: 2026-10-29
 checked: true
 tags: []
 ---
 
 ＃発音記号
 
-米: /ˌkɑːnsərˈveɪʃən/、英: /ˌkɒnsəˈveɪʃən/。4音節で、主強勢は第3音節の `-va-` /veɪ/、第1音節に弱い副強勢がある。語末の `-tion` は /ʃən/ と発音する。  
+米: /ˌkɑːnsərˈveɪʃən/、英: /ˌkɒnsəˈveɪʃən/。4音節で、主強勢は第3音節の `-va-` /veɪ/、第1音節に弱い副強勢がある。語末の `-tion` は /ʃən/ と発音する。ここで示した米英の表記では、第1音節の母音が米 /ɑː/・英 /ɒ/ と異なり、第2音節では米語に /r/ があるのに対し、示した英語の発音には /r/ がない。  
 `conservation` の `-serva-` と `conversation` の `-versa-` は、つづり上 `s` と `v` の位置が入れ替わっている。音も異なり、前者の該当部分は /sərˈveɪ/、後者の該当部分は米音で /vərˈseɪ/ と発音する（全体ではそれぞれ /ˌkɑːnsərˈveɪʃən/、/ˌkɑːnvərˈseɪʃən/）。  
 `conservationist` は /ˌkɑːnsərˈveɪʃənɪst/（米）で、基本的に `conservation` と同じ主強勢を保つ。  
 
@@ -86,6 +86,8 @@ tags: []
 `preservation` は対象を変化させずに残すことに焦点が置かれやすく、`conservation` は保護・管理によって資源・環境を長期的に保つことを表し、持続可能な利用を伴うこともある。この違いは傾向であり、両語の意味範囲は重なる。`sustainability` は環境、経済、社会の仕組みを将来も維持できることに焦点があり、`conservation` と重なるが同義ではない。  
 `energy conservation` は資源の節約なら電力・燃料などのエネルギー使用を減らす対策を指すが、`the conservation of energy`、`a conservation law`、`an isolated system` と結びつけば通常は語義3の物理学用法である。  
 
+`saving` とも比較する。`energy conservation` はエネルギーを無駄にしないための取り組みを表すのに対し、`energy savings` は使用せずに済んだエネルギーの量・削減分を表せる。`a saving of 〈量・金額〉` のように数えられる名詞で使い、時間や費用の節約分にも広く使う。活動とその成果の違いであって、常に置き換えられるわけではない。例: The conservation measures produced energy savings of 15 percent. 訳: その省エネルギー対策によって、エネルギー使用量が15％削減された。なお、文脈によって複数形の `savings` は「貯蓄」を意味するが、`energy savings` を貯金とは訳さない。  
+
 対照表現: `exploitation` は資源などの開発・利用を表し、中立的にも使う（この語義の頻度: 〈7/10〉）。`conservation` と必ず対立するわけではなく、過剰・無制限な利用という文脈で保全と対比される。 例: Uncontrolled exploitation of the forest has reduced the river’s water quality. 訳: 森林の無制限な開発・利用によって、その川の水質が低下した。  
 
 対照表現: `depletion` は資源や蓄えが減少・消耗することを表し、程度によっては枯渇を指す（この語義の頻度: 〈6/10〉）。ほとんど残らないことや保全の失敗は必須ではない。`conservation` が抑えようとする減少の過程・結果であり、保全活動そのものの直接の反意語とは区別する。 例: The depletion of the aquifer forced farmers to reduce irrigation. 訳: 帯水層の枯渇によって、農家は灌漑を減らさざるを得なかった。  
@@ -137,7 +139,7 @@ tags: []
 
 【レジスター/領域】専門語・標準語。美術館、文書館、図書館、文化財行政、建築保存、博物館学で使う。米国英語では `art conservation`、`heritage conservation`、`architectural conservation` などの形が多い。自然環境の保全なら語義1である。  
 
-【文法パターン】`conservation of 〈artwork/manuscript/building〉`＝～の保存修復／`art/heritage conservation`＝美術品・文化遺産の保存／`conservation treatment`＝保存修復処置／`conservation work`＝保存修復作業／`a conservation laboratory`＝保存修復研究室／`conservation and restoration`＝保存修復と復元  
+【文法パターン】`conservation of 〈artworks/manuscripts/buildings〉`＝～の保存修復／`art/heritage conservation`＝美術品・文化遺産の保存／`conservation treatment`＝保存修復処置／`conservation work`＝保存修復作業／`a conservation laboratory`＝保存修復研究室／`conservation and restoration`＝保存修復と復元  
 
 【コロケーション】
 
