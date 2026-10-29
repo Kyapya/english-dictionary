@@ -3,9 +3,9 @@ headword: consistent
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-5.6-luna-wm
+model: unknown
 created_at: 2026-08-25
-updated_at: 2026-10-01
+updated_at: 2026-10-29
 checked: true
 tags: []
 ---
@@ -50,7 +50,7 @@ consistent に共通するイメージは、比べる対象が重要な水準・
 
 【文法パターン】`be/remain/become consistent`＝一貫している／`consistent in 〈名詞〉`＝〈態度・扱いなど〉の点で一貫している／`consistent in doing ...`＝〜する点で一貫している／`a consistent 〈person/player/performer〉`＝安定して同じ水準を示す人・選手・実演者  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・`be consistent in one's treatment of 〈people〉`  
 用途: 人によって扱いを変えず、同じ基準で接する。  
@@ -108,7 +108,7 @@ consistent に共通するイメージは、比べる対象が重要な水準・
 ・uniform  
 定義: 全体にわたって同じで、ばらつきがない。  
 頻度: 〈7/10〉  
-違い: `uniform` は構成要素の間の均一性を強調し、物の外観・品質・分布にも使う。`consistent` は時間をまたぐ行動や方針にも使える。  
+違い: `uniform` は外観・品質・分布などが全体でそろうことや、同じ状態を保つことに焦点を置く。`consistent` は行動が同じ基準に沿うことや、複数回の成果のぶれが少ないことにも使う。両者を空間と時間だけで区別しない。  
 例: The samples were not uniform in color or texture.  
 訳: その試料は色も質感も均一ではなかった。  
 
@@ -145,7 +145,7 @@ consistent に共通するイメージは、比べる対象が重要な水準・
 
 【文法パターン】`remain/stay consistent`＝一定の状態を保つ／`consistent over 〈period〉`＝期間を通じて安定した／`consistent across/between/among 〈groups/areas〉`＝集団・地域間で同じ傾向の／`consistent 〈growth/quality/results/performance〉`＝安定した成長・品質・結果・成果  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・`remain consistent over time`  
 用途: 時間が経っても水準や性質が大きく変わらない。  
@@ -196,9 +196,23 @@ consistent に共通するイメージは、比べる対象が重要な水準・
 ・uniform  
 定義: 複数の部分や試料が同じ性質・水準をもつ。  
 頻度: 〈7/10〉  
-違い: `uniform` は同一時点での全体の均一性を強調する。`consistent` は時間の経過や試行の反復にも自然である。  
+違い: `uniform` は部分間の均一性や、形・程度・やり方が変わらないことに焦点を置く。同じ時点の比較だけでなく、時間を通じた不変にも使える。`consistent` は完全に同じ値でなくても、複数の結果が同じ傾向や水準を示すことを表せる。  
 例: The paint provides a uniform finish.  
 訳: その塗料は均一な仕上がりをもたらす。  
+
+・constant  
+定義: 時間がたっても、ある状態・水準が変わらない。  
+頻度: 〈8/10〉  
+違い: この意味の `constant` は温度などの値・状態が一定であることに焦点を置く。`consistent` は多少の変動があっても、結果の傾向や品質にむらが少ないことを表せる。ただし `constant complaints` のように、`constant` が「絶えず繰り返される」という別の意味で使われる場合もある。  
+例: The temperature remained constant throughout the experiment.  
+訳: 実験中、温度はずっと一定だった。  
+
+・continuous  
+定義: 途中で中断することなく、途切れずに続く。  
+頻度: 〈9/10〉  
+違い: この意味の `continuous` は続き方に中断がないこと、`consistent` は品質・傾向・基準などにむらや食い違いが少ないことに焦点を置く。途切れず続いていても、その強さや質が一定とは限らない。  
+例: The engine produced a continuous but uneven hum.  
+訳: エンジンは、途切れないものの強弱のあるうなり音を出していた。  
 
 ・reproducible  
 定義: 同じ手順や条件で繰り返したとき、同様の結果を得られる。  
@@ -233,7 +247,7 @@ consistent に共通するイメージは、比べる対象が重要な水準・
 
 【文法パターン】`an internally consistent 〈argument/account〉`＝内部に矛盾のない議論・説明／`〈argument/account〉 be internally consistent`＝議論・説明の内部が整合している／`be consistent with 〈fact/evidence/policy〉`＝事実・証拠・方針と矛盾しない／`be consistent with what ...`＝〜することと整合する／`findings/results consistent with 〈cause〉`＝原因と一致する所見・結果／`consistent with 〈principle/standard〉`＝原則・基準に沿った  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・`an argument is internally consistent`  
 用途: 議論の内部に食い違いがないことを示す。前提の正しさまで保証するわけではない。  
@@ -302,12 +316,12 @@ consistent に共通するイメージは、比べる対象が重要な水準・
 例: The design is in keeping with the building's traditional style.  
 訳: そのデザインは建物の伝統的な様式に合っている。  
 
-・coherent with  
-定義: 他の要素と論理的につながり、全体として筋が通っている。  
+・coherent  
+定義: 説明や議論の各部分がよくつながり、全体として筋が通って理解しやすい。  
 頻度: 〈5/10〉  
-違い: `coherent` は説明や議論の内部の筋道に焦点がある。`consistent with` は、別の事実・基準との不一致がないことまで広く表せる。  
-例: The conclusion is coherent with the assumptions of the model.  
-訳: その結論はモデルの仮定と論理的に整合している。  
+違い: `coherent` は説明が整理され、各部分がつながって理解できることに焦点がある。`consistent` は内部に矛盾がないことにも、外部の事実・基準と食い違わないことにも使う。筋道が分かる説明でも、外部の証拠と一致するとは限らない。  
+例: Her account was coherent, but some details conflicted with the evidence.  
+訳: 彼女の説明は筋が通って分かりやすかったが、細部のいくつかは証拠と食い違っていた。  
 
 【反意語】
 
@@ -335,7 +349,7 @@ consistent に共通するイメージは、比べる対象が重要な水準・
 
 【文法パターン】`a consistent estimator of 〈parameter〉`＝〈母数〉の一致推定量／`an estimator is consistent for 〈parameter〉`＝推定量が〈母数〉に対して一致性をもつ／`consistency as sample size increases`＝標本数の増加に伴う一致性  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・`a consistent estimator of 〈parameter〉`  
 用途: 標本数を増やすと真の母数へ確率収束する推定量を指す。  
@@ -391,7 +405,7 @@ consistent に共通するイメージは、比べる対象が重要な水準・
 
 【文法パターン】`a consistent system/set of 〈equations/statements〉`＝無矛盾な方程式系・命題集合／`〈equations〉 are consistent`＝方程式に共通解がある／`a consistent formal system`＝矛盾を導かない形式体系  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・`a consistent system of equations`  
 用途: 連立方程式が少なくとも1つの共通解をもつことを表す。  
@@ -448,3 +462,4 @@ consistent に共通するイメージは、比べる対象が重要な水準・
 違い: 数学・論理における `consistent` の直接的な反対語である。一般義の「一貫しない」と同じ形だが、ここでは形式的な判定を指す。  
 例: The equations are inconsistent and have no common solution.  
 訳: その方程式は無矛盾でなく、共通解をもたない。  
+
