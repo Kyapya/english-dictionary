@@ -3,9 +3,9 @@ headword: publicity
 type: word  
 status: checked  
 prompt_version: entry_spec_v5  
-model: gpt-5.6-luna-wm  
+model: unknown  
 created_at: 2026-09-02  
-updated_at: 2026-10-02  
+updated_at: 2026-10-29  
 checked: true  
 tags: []  
 ---
@@ -69,6 +69,8 @@ tags: []
 【語法・注意】現代の一般用法ではこの語義の publicity は通常不可算で、a publicity や publicities は一般に避け、a lot of publicity、the publicity surrounding the case のように使う。publicity は注目・報道を表し、好評や長期的な名声を必ず含むわけではない。good/bad/negative/unwanted publicity のように評価を添えられる。  
 
 この語義での publicity about 〈話題〉は話題に関する注目・報道、publicity for 〈対象〉（結果読み）は対象が受ける注目・報道を指す。対象に注目を集める活動読みの publicity for 〈対象〉は語義2で扱う。結果として受けた注目を明確にするなら gain/receive publicity for のように動詞で示す。注目・報道とは別に、「公開性、公然性」を表す用法もあり、手続きなどが一般に開かれていることを論じる文脈で使われる。  
+
+対照表現: popularity は、多くの人に好かれたり、楽しまれたり、支持されたりしている人気を表す。publicity は世間の注目・報道に焦点があり、注目が増えても支持が増えるとは限らない。例: The controversy brought the actor more publicity but reduced his popularity. 訳: その論争で俳優への世間の注目は増えたが、彼の人気は落ちた。人気があることと、話題になっていることを区別する。  
 
 【類義語】
 
