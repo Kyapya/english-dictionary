@@ -3,9 +3,9 @@ headword: grant
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra
+model: unknown
 created_at: 2026-09-09
-updated_at: 2026-10-01
+updated_at: 2026-10-29
 checked: true
 tags: []
 ---
@@ -82,7 +82,7 @@ tags: []
 例: The old lighthouse keeper granted the child one last wish.  
 訳: その年老いた灯台守は、その子の最後の願いを一つかなえた。  
 
-【語法・注意】`grant someone something` と `grant something to someone` の両方が使える。`grant someone permission/access` は自然だが、許可の対象を表す名詞を `grant someone to do` と直接続けない。動作そのものを許可する場合は `grant someone permission to do`、または `allow someone to do` とする。  
+【語法・注意】`grant someone something` と `grant something to someone` の両方が使える。`grant someone permission/access` は自然だが、許可の対象を表す名詞を `grant someone to do` と直接続けない。動作そのものを許可する場合は `grant someone permission to do`、または `allow someone to do` とする。改まった語の `permit` も `permit someone to do` と続けられる。`They permitted us to use the room.` と `They granted us permission to use the room.` はどちらも「彼らは私たちにその部屋を使う許可を与えた」となるが、grant の文では permission という名詞が必要になる。permit は行為を許すこと、grant は許可や権利を認めて与えることに焦点がある。また `if time permits` は「時間が許せば」という条件の意味で、この permits を grants に置き換えることはできない。  
 
 `grant` は、相手の要求が当然に認められるというより、権限者が判断して認めるという視点を含む。したがって `The request was granted` は「申請・要求が承認された」であり、単に誰かが物を渡したという意味ではない。  
 
