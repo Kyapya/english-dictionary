@@ -3,9 +3,9 @@ headword: constitute
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra
+model: unknown
 created_at: 2026-09-08
-updated_at: 2026-10-01
+updated_at: 2026-10-29
 checked: true
 tags: []
 ---
@@ -74,6 +74,8 @@ constitute の共通核は、要素・行為・組織・人を、ある全体・
 訳: その委員会は5つの異なる分野の専門家で構成されている。  
 
 【語法・注意】能動の `A, B, and C constitute X` では A・B・C が部分、X が全体である。`X consists of A, B, and C` や `X is composed of A, B, and C` では向きが逆になり、X が全体、A・B・C が部分になる。  
+
+対照表現: include は「全体がある部分を含む」と述べ、挙げた部分だけで全体を言い尽くすとは限らない。例: The team includes three engineers. 訳: そのチームには技術者3人が含まれる。この文だけでは、ほかの構成員がいるかどうかは確定しない。一方、Three engineers constitute the team. は「技術者3人がそのチームを構成する」で、3人をチーム全体の構成員として示す。これは全体を直接目的語に置く構文の比較であり、constitute 35 percent of the team のように割合を目的語に置く場合とは区別する。  
 
 構成関係を述べるこの意味では、通常は進行形にしない。例えば割合を述べるなら `Online sales constitute 35 percent of revenue.` とし、通常 `are constituting` とはしない。  
 
