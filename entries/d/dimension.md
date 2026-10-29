@@ -3,9 +3,9 @@ headword: dimension
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-5.6-luna-wm
+model: unknown
 created_at: 2026-08-30
-updated_at: 2026-10-01
+updated_at: 2026-10-29
 checked: true
 tags: []
 ---
@@ -58,7 +58,7 @@ dimension は、空間的な広がりを基に、対象の大きさや構成面�
 
 【レジスター/領域】標準的な一般語。日常の買い物、引っ越し、建築、製造、設計、数学・測定で広く使う。  
 
-【文法パターン】the dimension of 〈物体・空間〉＝物体・空間の一方向の寸法／measure/check a dimension＝寸法を測る・確認する／the 〈長さ・幅・高さ〉 dimension＝長さ・幅・高さ方向の寸法／in one/two/three dimensions＝1・2・3次元で／a dimension of 〈数値〉＝〈数値〉の寸法  
+【文法パターン】the dimension of 〈物体・空間〉＝物体・空間の一方向の寸法／measure/check a dimension＝寸法を測る・確認する／the 〈長さ・幅・高さ〉 dimension＝長さ・幅・高さ方向の寸法／a dimension of 〈数値〉＝〈数値〉の寸法  
 
 【コロケーション】
 
@@ -76,11 +76,6 @@ dimension は、空間的な広がりを基に、対象の大きさや構成面�
 用途: 窓、入口、穴などの一方向の大きさを表す。  
 例: The dimension of the opening is too small for the replacement part.  
 訳: その開口部の寸法は交換部品には小さすぎる。  
-
-・in three dimensions  
-用途: 長さ・幅・高さを持つ通常の立体空間で扱うことを表す。  
-例: The software lets students view the molecule in three dimensions.  
-訳: そのソフトウェアを使うと、学生は分子を三次元で見ることができる。  
 
 ・a dimension of 〈数値・単位〉  
 用途: 特定方向の測定値を示す。  
@@ -231,6 +226,8 @@ size は全体の大きさ、dimension は具体的な測定軸・数値。What 
 
 通常、dimension to 〈対象〉では to の後ろに、側面が加わる問題・活動・経験などを置く。dimension of 〈対象〉では、対象を構成する一側面として述べる。どちらも可能な場合があるが、前置詞を機械的に入れ替えず、add a dimension to、the social dimension of のような定着した組合せで覚える。  
 
+対照表現: factor は、ここでは結果や判断を生じさせたり、それに影響したりする要因を表す。dimension が「対象のどの側面を見るか」に焦点を置くのに対し、factor は「何が結果や判断に影響するか」に焦点を置く。同じ事柄を両方の観点から捉えることはできるが、単なる置き換えではない。例: We examined the financial dimension of the project, and cost was a major factor in our decision. 訳: 私たちはその計画の財務面を検討し、費用は判断に大きく影響する要因となった。  
+
 【類義語】
 
 ・aspect  
@@ -326,14 +323,19 @@ size は全体の大きさ、dimension は具体的な測定軸・数値。What 
 
 【レジスター/領域】数学、幾何学、物理学、コンピューターグラフィックス、データ分析。専門用語として標準的。一般説明でも three dimensions、higher dimensions はよく使う。  
 
-【文法パターン】one/two/three dimensions＝1・2・3次元／an n-dimensional space＝n次元空間／the dimension of 〈空間・ベクトル空間〉＝～の次元／locate/represent 〈点・対象〉 in 〈次元〉＝～次元で位置を定める・表す／higher/extra dimensions＝高次元・余剰次元  
+【文法パターン】one/two/three dimensions＝1・2・3次元／in one/two/three dimensions＝1・2・3次元で／an n-dimensional space＝n次元空間／the dimension of 〈空間・ベクトル空間〉＝～の次元／locate/represent 〈点・対象〉 in 〈次元〉＝～次元で位置を定める・表す／higher/extra dimensions＝高次元・余剰次元  
 
 【コロケーション】
 
 ・a three-dimensional space  
 用途: 長さ・幅・高さの三つの独立方向を持つ空間を表す。  
 例: The robot maps its position in a three-dimensional space.  
-訳: そのロボットは自分の位置を三次元の地図上に示す。  
+訳: そのロボットは、三次元空間内での自分の位置を図示する。  
+
+・in three dimensions  
+用途: 長さ・幅・高さを持つ通常の立体空間で扱うことを表す。  
+例: The software lets students view the molecule in three dimensions.  
+訳: そのソフトウェアを使うと、学生は分子を三次元で見ることができる。  
 
 ・in two dimensions  
 用途: 平面上の図形やデータを、二つの独立方向で扱う。  
