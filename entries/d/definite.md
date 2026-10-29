@@ -3,9 +3,9 @@ headword: definite
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: codex-gpt-5
+model: unknown
 created_at: 2026-09-19
-updated_at: 2026-10-01
+updated_at: 2026-10-29
 checked: true
 tags: []
 ---
@@ -23,7 +23,7 @@ definite は16世紀初頭の英語で「固定された、確かな」の意味
 ・definitely：副詞。「確実に、間違いなく、はっきりと」。話者の確信を表す文副詞としても、動詞句・形容詞などについて確かさを強調する副詞としても使う。  
 ・definiteness：名詞。「明確さ、確定性、定性」。文法では名詞句の指示対象が特定可能である性質を表す。  
 ・indefinite：接頭辞 in-「否定」を伴う関連形。「不確定な、漠然とした、不定の」。definite の単純な反意語になる用法と、文法用語としての用法がある。  
-・definitive：同じラテン語幹系統の形容詞。「決定的な、最終的な」。definite よりも最終判断・決着の含みが強く、単なる語尾違いとして置き換えない。  
+・definitive：同じラテン語幹系統の形容詞。「決定的な、最終的な」のほか、書物・作品などが「決定版とされる」という意味もある。definite と単なる語尾違いとして置き換えない。  
 ・define / definition：同じ語源にさかのぼる動詞・名詞。「境界を定める」「定義」。definite の直接の活用形ではないが、「曖昧さを境界づける」という意味のつながりがある。  
 
 ＃コアイメージ
@@ -105,7 +105,7 @@ definite の共通核は、「境界・同一性・判断を曖昧さから切�
 例: I'll call the station and find out for definite whether the train is running.  
 訳: 駅に電話して、その列車が運行しているかはっきり確かめるよ。  
 
-【語法・注意】certain は事実・未来・話者の確信を広く表す。definite は答え・計画・日付などの内容が決まっていることを強調しやすいが、人を主語にして確信を示す用法もある。この人の用法は主に be definite about ... / be definite that ... という叙述形で使い、単に a definite person として「確信している人」を表すのは普通ではない。for definite は「確実に」というくだけた定型表現である。final は「それ以上変更しない最終段階」、firm は意思・態度の強さに焦点があるため、definite と完全には交換できない。`I have no definite plans.` は「将来の予定が一切ない」ではなく「決まった予定はない」という意味である。definite と definitely、definite と definitive を品詞や意味を考えずに置き換えない。綴りは definite であり、definate ではない。  
+【語法・注意】certain は事実・未来・話者の確信を広く表す。definite は答え・計画・日付などの内容が決まっていることを強調しやすいが、人を主語にして確信を示す用法もある。この人の用法は主に be definite about ... / be definite that ... という叙述形で使い、単に a definite person として「確信している人」を表すのは普通ではない。for definite は「確実に」というくだけた定型表現である。final は「それ以上変更しない最終段階」、firm は意思・態度の強さに焦点があるため、definite と完全には交換できない。`I have no definite plans.` は「将来の予定が一切ない」ではなく「決まった予定はない」という意味である。definite と definitely、definite と definitive を品詞や意味を考えずに置き換えない。a definite answer は曖昧でない・確かな答え、a definitive answer は問題に最終的な決着をつける答えという焦点の違いがあるが、文脈によって意味は重なる。また a definitive guide は「その分野の決定版とされる案内書」という評価であり、definite に替えてもこの評価は表せない。definitive は、必ずしも時間的に最後に出されたものだけを指すわけではない。綴りは definite であり、definate ではない。  
 
 【類義語】
 
@@ -335,6 +335,22 @@ definite の共通核は、「境界・同一性・判断を曖昧さから切�
 
 【語法・注意】`a definite amount` は「量が決まっている」ことを示すが、必ずしも聞き手がその数値を知っているとは限らない。`specific` は「その特定のもの」という選択に、`exact` は誤差のない数値・内容に焦点がある。`definite information` は具体的で明確な情報（文脈によっては確かな情報）、`definite plans` は決定済みの予定というように、名詞によって「具体的」と「確定した」のどちらが前面に出るかが変わる。`definite integral` は「確実な積分」ではなく、積分区間が定まった数学用語である。  
 
+関連する対照表現：次の2語は、内容が定まっているかとは別に、明示されているか、上限があるかを表す。definite と直接反対になるとは限らない。  
+
+・unspecified  
+定義: 必要な内容や条件が明示されていない。  
+頻度: 〈7/10〉  
+違い: unspecified は情報が指定されていないことに焦点があり、definite は情報の境界や内容が明らかであることを表す。  
+例: The shipment was delayed for unspecified reasons.  
+訳: その発送は理由が明示されないまま遅れた。  
+
+・unlimited  
+定義: 数量・範囲・期間などに上限がない。  
+頻度: 〈8/10〉  
+違い: unlimited は上限の不存在を示し、definite は上限や範囲が定められていることを示す。ただし、definite が必ず有限量を意味するわけではない。  
+例: The plan offers unlimited data usage.  
+訳: そのプランはデータ通信を無制限で提供する。  
+
 【類義語】
 
 ・specific  
@@ -381,13 +397,6 @@ definite の共通核は、「境界・同一性・判断を曖昧さから切�
 例: The meeting was postponed for an indefinite period.  
 訳: 会議は無期限に延期された。  
 
-・unspecified  
-定義: 必要な内容や条件が明示されていない。  
-頻度: 〈7/10〉  
-違い: unspecified は情報が指定されていないことに焦点があり、definite は情報の境界や内容が明らかであることを表す。  
-例: The shipment was delayed for unspecified reasons.  
-訳: その発送は理由が明示されないまま遅れた。  
-
 ・vague  
 定義: 表現・考え・範囲などがぼんやりして具体性に欠ける。  
 頻度: 〈9/10〉  
@@ -395,13 +404,6 @@ definite の共通核は、「境界・同一性・判断を曖昧さから切�
 例: His answer was too vague to be useful.  
 訳: 彼の答えは曖昧すぎて役に立たなかった。  
 
-・unlimited  
-定義: 数量・範囲・期間などに上限がない。  
-頻度: 〈8/10〉  
-違い: unlimited は上限の不存在を示し、definite は上限や範囲が定められていることを示す。ただし、definite が必ず有限量を意味するわけではない。  
-例: The plan offers unlimited data usage.  
-訳: そのプランはデータ通信を無制限で提供する。  
-  
 4. 【形容詞・文法用語】定の、特定できる
 
 【日本語訳・定義】文法で、名詞句の指示対象が、既出、状況上の唯一性、修飾語、共有知識などによって聞き手・読み手に特定可能であることを表す。英語では the が definite article「定冠詞」であり、対象が必ず世界に一つしかないこと、単数であること、以前に必ず言及されたことだけを意味するわけではない。  
