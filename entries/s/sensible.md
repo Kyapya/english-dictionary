@@ -3,9 +3,9 @@ headword: sensible
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: codex-gpt-5
+model: unknown
 created_at: 2026-09-10
-updated_at: 2026-10-02
+updated_at: 2026-10-29
 checked: true
 tags: []
 ---
@@ -42,7 +42,7 @@ tags: []
 
 【頻度】〈9/10〉  
 
-【レジスター/領域】標準語で、会話にも文章にも使える基本語。practical は実行可能性、reasonable は道理・公平さ、rational は感情を抑えた論理性に焦点を置きやすいのに対し、sensible は日常の分別と現実感をまとめて表す。  
+【レジスター/領域】標準語で、会話にも文章にも使える基本語。practical は実行可能性、reasonable は道理・公平さ、rational は理由や論理に基づく判断に焦点を置きやすいのに対し、sensible は日常の分別と現実感をまとめて表す。  
 
 【文法パターン】a sensible person/choice/decision/plan＝分別のある人・妥当な選択・判断・計画／sensible advice＝現実的で適切な助言／a sensible approach to 〈名詞・動名詞〉＝～への妥当な取り組み方／be sensible＝分別がある・分別をもって行動する／be sensible about 〈名詞・疑問詞節〉＝その問題や状況について現実的に考える／it is sensible to do ＝～するのが妥当だ／it is sensible for someone to do ＝〈人〉が～するのが妥当だ／the sensible thing to do＝取るべき妥当な行動／that/it is sensible of someone＝その人の行動・判断は分別がある／be sensible enough to do＝～するだけの分別がある  
 
@@ -93,7 +93,7 @@ tags: []
 例: That was sensible of you.  
 訳: あなたがそうしたのは賢明でした。  
 
-【語法・注意】人についての be sensible は「分別がある」「分別をもって行動する」を表す。a sensible plan では sensible が名詞 plan を修飾し、「妥当で現実的な計画」を意味する。sensible は必ずしも高い知能を評価する語ではなく、その場の条件に合った判断を評価する語である。日常語の sensitive「敏感な、他人の気持ちに配慮できる」とは区別する。  
+【語法・注意】人についての be sensible は「分別がある」「分別をもって行動する」を表す。a sensible plan では sensible が名詞 plan を修飾し、「妥当で現実的な計画」を意味する。sensible は必ずしも高い知能を評価する語ではなく、その場の条件に合った判断を評価する語である。日常語の sensitive「敏感な、他人の気持ちに配慮できる」とは区別する。sensible は判断の妥当さ、sensitive は刺激への反応のしやすさや感情への気づきを評価するので、同じ人が両方の性質を持つこともある。たとえば She is sensible about money. は「彼女はお金について分別のある判断をする」、She is sensitive about money. は「彼女はお金のことを気にしやすい」という違いになる。後者が「金銭感覚がしっかりしている」という意味になるわけではない。  
 
 【類義語】
 
