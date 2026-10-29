@@ -3,9 +3,9 @@ headword: appropriate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: codex-gpt-5
+model: unknown
 created_at: 2026-09-21
-updated_at: 2026-09-26
+updated_at: 2026-10-29
 checked: true
 tags: []
 ---
@@ -30,12 +30,12 @@ Late Middle English。ラテン語 appropriatus（appropriare「自分のもの�
 
 語源 proprius「自分に固有の」（proper・property と同根）から、「特定の持ち主・目的にぴったり属する」ことが共通核にある。形容詞では、ものがその場・目的・相手に属するようにふさわしいことを表し、動詞では、ものを特定の目的や自分に属させることを表す。  
 ・その場・目的・相手にぴったり属する状態 → 「ふさわしい、適切な」（語義1）  
-・資金を公的に特定の目的へ属させる行為 → 「正式に割り当てる、充当する」（語義2）  
+・資金などを特定の目的へ取り分ける行為 → 「正式に割り当てる、充当する」（語義2）  
 ・他者のものを自分に属させる行為 → 「自分のものとして取り込む」（語義3）  
 
 ＃意味・用法・関連表現
 
-1. 【形容詞・限定用法／叙述用法】特定の状況・目的・人に適していて、社会的にも許容される。
+1. 【形容詞・限定用法／叙述用法】特定の状況・目的・人にふさわしい、適切な。
 
 【日本語訳・定義】状況・目的・年齢・相手などにふさわしい、適切な。  
 
@@ -43,7 +43,7 @@ Late Middle English。ラテン語 appropriatus（appropriare「自分のもの�
 
 【レジスター/領域】一般語。会話から公的・専門的な文章まで広く使う。  
 
-【文法パターン】appropriate for 〈purpose/person/situation〉／appropriate to 〈circumstances/age/needs〉／be, seem, consider, think appropriate／it is appropriate to do／it is appropriate that...  
+【文法パターン】appropriate for 〈purpose/person/situation〉／appropriate to 〈circumstances/age/needs〉／be/seem appropriate／consider/think 〈対象〉 appropriate／it is appropriate to do／it is appropriate that...  
 
 【コロケーション】
 
@@ -94,7 +94,7 @@ Late Middle English。ラテン語 appropriatus（appropriare「自分のもの�
 ・suitable  
 定義: 目的・条件・人に合っていて使える。  
 頻度: 〈9/10〉  
-違い: appropriate が場面や社会通念に照らした妥当さを表すのに対し、suitable は目的・条件に実用上合っていることに焦点を置く。  
+違い: suitable と appropriate は、特定の目的・人・場面に合うという意味で大きく重なる。appropriate は行動や発言の場面上の妥当さを述べる場合にもよく使うが、社会的な礼儀だけを表す語ではない。suitable も服装や話すタイミングなどに使えるため、「appropriate は社会的、suitable は実用的」と二分しない。たとえば a suitable time と an appropriate time は、どちらも「ふさわしい時」を表せる。  
 例: This room is suitable for small meetings.  
 訳: この部屋は小規模な会議に適している。  
 
@@ -131,13 +131,13 @@ Late Middle English。ラテン語 appropriatus（appropriare「自分のもの�
 ・unsuitable  
 定義: 目的・条件・人に合わず、使うのに適していない。  
 頻度: 〈6/10〉  
-違い: inappropriate より、実用上の不適合や条件不足に焦点を置きやすい。  
+違い: unsuitable は用途・対象・場面に合わないことを表し、inappropriate と意味が重なる。実用面だけでなく服装・内容・人選などにも使うため、社会的な不適切さを表せないわけではない。  
 例: The surface is unsuitable for outdoor use.  
 訳: その表面は屋外での使用には適していない。  
 
-2. 【動詞・他動詞／フォーマル】公的な権限で、金・予算・資源などを特定の目的のために割り当てる、充当する。
+2. 【動詞・他動詞／フォーマル】金・予算・資源などを特定の目的のために割り当てる、充当する。
 
-【日本語訳・定義】公的な資金・資源を目的のために取り分ける、正式に割り当てる。  
+【日本語訳・定義】資金・資源などを特定の目的のために取り分ける、割り当てる。公的予算の正式な充当に多く使うが、公的機関の行為だけに限るわけではない。  
 
 【頻度】〈4/10〉  
 
@@ -167,7 +167,7 @@ Late Middle English。ラテン語 appropriatus（appropriare「自分のもの�
 例: Congress appropriated $2 billion for disaster relief.  
 訳: 議会は災害救援に20億ドルを計上した。  
 
-【語法・注意】公的機関などが目的を定めて予算や資源を取り分ける語。実際に支払う・使い切るという意味ではない。他者のものを自分に取り込む語義3とは、権限の有無と、何に属させるか（公的な目的か自分か）が異なる。  
+【語法・注意】目的を定めて資金や資源を取り分ける語で、実際に支払う・使い切るという意味ではない。語義2は特定用途への充当、語義3は他者のものを自分のものとして取り込むことに焦点がある。語義3の無断・不当性は必須ではないため、権限の有無だけで二つの用法を判別しない。  
 
 【類義語】
 
@@ -236,7 +236,7 @@ Late Middle English。ラテン語 appropriatus（appropriare「自分のもの�
 例: The campaign appropriated cultural material without consulting the community.  
 訳: そのキャンペーンは地域社会に相談せず文化的素材を取り込んだ。  
 
-【語法・注意】無断使用・横取りの含みが文脈から生じやすいが、必須ではない。appropriation art（既存の図像を意図的に借用する美術）や、否定的な呼称を当事者側が取り込んで使い直す用法のように中立的・肯定的な使い方もある。misappropriate は不正・違法な流用であることが語自体で明確になる。公的な目的への正式な充当は語義2で、目的と権限の有無が境界になる。  
+【語法・注意】無断使用・横取りの含みが文脈から生じやすいが、必須ではない。appropriation art（既存の図像を意図的に借用する美術）や、否定的な呼称を当事者側が取り込んで使い直す用法のように中立的・肯定的な使い方もある。misappropriate は不正・違法な流用であることが語自体で明確になる。特定の目的への資金などの充当は語義2で扱う。語義3との違いは、用途への充当を述べているのか、自分のものとして取り込むことを述べているのかという文脈から判断する。  
 
 【類義語】
 
