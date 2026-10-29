@@ -3,9 +3,9 @@ headword: assume
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-5.6-luna-wm
+model: unknown
 created_at: 2026-08-27
-updated_at: 2026-09-28
+updated_at: 2026-10-29
 checked: true
 tags: []
 ---
@@ -54,7 +54,7 @@ assume の共通核は、事実・責任・役割・性質・外観を、自分�
 
 【文法パターン】`assume (that) ...`＝～だと思う・仮定する／`assume 〈人・物〉 to be ...`＝人・物を～だと考える／`〈人・物〉 is assumed to be ...`＝～だと考えられている、想定されている／`it is (widely) assumed that ...`＝（広く）～だと考えられている／`assume 〈事柄〉`＝～を前提とする／`I assume so.`＝そうだと思う／`let's assume (that) ...`＝～だと仮定しよう／`assuming (that) ...`＝～だとすれば  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・`assume that ...`  
 用途: 確認していない判断を、正しいものとして受け入れる。  
@@ -97,17 +97,31 @@ assume の共通核は、事実・責任・役割・性質・外観を、自分�
 
 【類義語】
 
+・think  
+定義: ～だと思う、ある意見・判断を持つ。  
+頻度: 〈10/10〉  
+違い: この意味の think は意見・判断を広く表す日常的な語で、十分に確認しないまま何かを前提として採用するという意味を必ずしも含まない。assume は、その内容を前提として受け入れる点に焦点がある。  
+例: I think this plan will work, but we should test it first.  
+訳: この計画はうまくいくと思うが、まず試すべきだ。  
+
+・believe  
+定義: あることを真実だと思う、信じる。  
+頻度: 〈10/10〉  
+違い: believe は内容を真実だと思っているという判断・信念を表し、assume は確認せず前提として受け入れる点に焦点を置く。believe にも完全には確信していない用法があるため、単語だけで証拠の十分さや確実さが決まるわけではない。議論のための assume では、仮の条件として置く場合もある。  
+例: I believe her account, although I haven't checked every detail.  
+訳: 細部をすべて確認したわけではないが、彼女の説明を信じている。  
+
 ・suppose  
 定義: ～だと思う、仮に～だとする。  
 頻度: 〈10/10〉  
-違い: `suppose` は日常会話で軽い推測や仮定を広く表し、`I suppose ...` は「たぶん～だろう」程度の控えめな推測になる。`assume` は確認しないまま前提として受け入れる点に焦点がある。  
+違い: `suppose` は日常的な推測や仮定に使う。`I suppose ...` は控えめな推測だけでなく、しぶしぶの同意や発言を和らげる働きもあり、文脈で判断する。`assume` は確認しないまま前提として受け入れる点に焦点がある。  
 例: I suppose the meeting will end soon.  
 訳: 会議はそろそろ終わるだろう。  
 
 ・presume  
-定義: ある程度の根拠に基づき、～だと推定する。  
+定義: ～だろうと考える、推定する。  
 頻度: 〈7/10〉  
-違い: `presume` は状況証拠や通常の成り行きから「おそらくそうだ」と判断する含みがあり、`assume` は根拠の有無を問わず前提として受け入れる点に焦点がある。  
+違い: `presume` は状況や通常の成り行きからそうだろうと考える見込み・確信を示しやすく、`assume` は前提として受け入れる点に焦点がある。用法は重なり、`assume` にも状況上の根拠があり得るため、「根拠なしの assume／根拠ありの presume」という絶対的な区別ではない。どちらも、語だけで内容が証明済みだと保証するわけではない。  
 例: We presumed that the shop was closed because all the lights were off.  
 訳: 明かりがすべて消えていたので、私たちは店が閉まっているのだろうと思った。  
 
@@ -137,7 +151,7 @@ assume の共通核は、事実・責任・役割・性質・外観を、自分�
 
 【文法パターン】`assume responsibility for 〈仕事・人〉`＝～の責任を引き受ける／`assume no responsibility/liability for ...`＝～について責任を負わない／`assume an obligation/duty`＝義務を負う／`assume control of 〈組織・状況〉`＝～を掌握する／`assume power`＝権力を握る／`assume command of 〈部隊・船〉`＝～の指揮を執る／`assume a risk / the risk of ...`＝リスクを引き受ける／`assume a debt/mortgage`＝債務・住宅ローンを引き継ぐ  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・`assume responsibility for 〈人・仕事〉`  
 用途: 人や仕事について責任を担う立場になる。  
@@ -225,7 +239,7 @@ assume の共通核は、事実・責任・役割・性質・外観を、自分�
 
 【文法パターン】`assume office`＝就任する／`assume the role of 〈役割〉`＝～の役割を引き受ける／`assume the position/post of 〈役職〉`＝～の職に就く／`assume the presidency`＝大統領職・会長職などに就く／`assume the throne`＝王位に就く  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・`assume office`  
 用途: 公職・役職に正式に就任することを改まって述べる。  
@@ -303,7 +317,7 @@ assume の共通核は、事実・責任・役割・性質・外観を、自分�
 
 【文法パターン】`assume a form/shape`＝形・姿をとる／`assume greater importance`＝より大きな重要性を帯びる／`assume (a) new significance`＝新たな意味を帯びる／`assume a different character`＝異なる性質を帯びる／`assume 〈形容詞〉 proportions`＝～な規模になる／`assume a sitting/standing position`＝座位・立位をとる  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・`assume a new form / many forms`  
 用途: 物事が新しい形・あり方をとる。  
@@ -379,7 +393,7 @@ assume の共通核は、事実・責任・役割・性質・外観を、自分�
 
 【文法パターン】`assume an air/attitude of 〈名詞〉`＝～の態度を装う／`assume a 〈形容詞〉 expression`＝～な表情を作る／`assume a false name/identity`＝偽名・偽の身元を名乗る／`assume the guise of 〈人物〉`＝～に扮する、～を装う  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・`assume an air of confidence`  
 用途: 本当の内面とは別に、自信があるような態度をとる。  
