@@ -3,9 +3,9 @@ headword: variation
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: codex-gpt-5
+model: unknown
 created_at: 2026-09-10
-updated_at: 2026-10-02
+updated_at: 2026-10-29
 checked: true
 tags: []
 ---
@@ -315,7 +315,7 @@ language variation は地域・社会集団などによる言語の違いを述�
 ・a set of variations on 〈主題・旋律を表す名詞句〉  
 用途: 1つの主題と、それに続く複数の変奏からなる一作品・一組を表す。個々の変奏が独立した別作品であることを必須としない。  
 例: The concert opened with a set of variations on a folk melody.  
-訳: その演奏会は民謡の旋律による変奏曲集で幕を開けた。  
+訳: その演奏会は民謡の旋律を主題とする一連の変奏で幕を開けた。  
 
 ・theme and variations  
 用途: 主題を最初に示し、その後に複数の変奏を続ける形式を指す。  
