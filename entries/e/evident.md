@@ -3,9 +3,9 @@ headword: evident
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra-wm
+model: unknown
 created_at: 2026-09-09
-updated_at: 2026-09-09
+updated_at: 2026-10-29
 checked: true
 tags: []
 ---
@@ -35,7 +35,7 @@ tags: []
 
 【レジスター/領域】標準語だが、日常会話でも多用される obvious や clear よりやや形式的。報告書、学術文、ニュース、ビジネスの説明で多く、感情や特徴が外から読み取れることにも使う。  
 
-【文法パターン】something + be・seem・become・remain evident＝事実・状態などが明らかである／it + be・become + evident + that 〈節〉＝～であることが明らかだ／something + be evident to someone＝〈人〉にとって明らかだ／it + be evident to someone + that 〈節〉＝〈人〉には～が明らかだ／it + be evident from 〈data・evidence・behavior〉 + that 〈節〉＝〈データ・証拠・行動〉から～が明らかだ／something + be evident in 〈expression・results・pattern〉＝感情・特徴などが〈表情・結果・パターン〉に表れている／make something evident＝何かを明白にする／make it evident + that 〈節〉＝～であることを明らかにする／evident + 〈change・difference・sign・need〉＝明らかな〈変化・違い・兆候・必要性〉。  
+【文法パターン】something + be・seem・become・remain evident＝事実・状態などが明らかである／it + be・become + evident + that 〈節〉＝～であることが明らかだ／something + be evident to someone＝〈人〉にとって明らかだ／it + be evident to someone + that 〈節〉＝〈人〉には～が明らかだ／it + be evident from 〈data・evidence・behavior〉 + that 〈節〉＝〈データ・証拠・行動〉から～が明らかだ／something + be evident in 〈表情・行動・結果などを表す名詞句〉＝感情・特徴などが〈表情・結果・パターン〉に表れている／make something evident＝何かを明白にする／make it evident + that 〈節〉＝～であることを明らかにする／evident + 〈change・difference・sign・need〉＝明らかな〈変化・違い・兆候・必要性〉。  
 
 【コロケーション】
 
@@ -54,7 +54,7 @@ tags: []
 例: It was evident from the audit results that several invoices had been duplicated.  
 訳: 監査結果から、複数の請求書が重複していたことは明らかだった。  
 
-・be evident in 〈expression・behavior・pattern〉  
+・be evident in 〈表情・行動・結果などを表す名詞句〉  
 用途: 感情や特徴が表情・行動・結果などに現れていることを表す。  
 例: Her disappointment was evident in the way she avoided eye contact.  
 訳: 彼女が目を合わせようとしなかったことに、失望がはっきり表れていた。  
@@ -90,7 +90,7 @@ evident は「観察や情報から明らかだ」という評価であり、必
 ・obvious  
 定義: 見たり考えたりすれば容易に分かる、明白な。  
 頻度: 〈10/10〉  
-違い: obvious は日常的で、証拠がなくても直観的に分かることに使える。evident は兆候や状況から判断できることをやや形式的に述べる。  
+違い: obvious は会話でも広く使われ、evident はやや形式的な説明に多い。どちらも観察や状況から明らかだと述べることができ、「証拠があるかないか」で二語を区別するわけではない。意味は大きく重なるが、定着した組み合わせや文体によって選択が変わる。  
 例: It was obvious from his expression that he was disappointed.  
 訳: 表情から、彼が失望しているのは明らかだった。  
 
@@ -104,7 +104,7 @@ evident は「観察や情報から明らかだ」という評価であり、必
 ・apparent  
 定義: 観察や状況から、そうだと見て取れる・思われる。  
 頻度: 〈8/10〉  
-違い: apparent は名詞の前（`an apparent error`）では「一見そう見える」の含みを持ち、実際には異なる可能性を残すことが多い。`It became apparent that ...` のような叙述用法では evident に近い「明らかな」の意味になるが、evident は兆候から明らかだという判断をより直接に表す。  
+違い: apparent には evident に近い「明らかな」と、「そう見えるが実際は異なる可能性がある」の二つの意味がある。後者は `an apparent error` のような名詞の前で多く、前者は `It became apparent that ...` のような叙述用法で多いが、位置だけで意味が決まるわけではない。evident は「明らかだ」という判断を直接表し、apparent のように語自体の別の意味として「見かけ上の」を表すわけではない。  
 例: It soon became apparent that the schedule was unrealistic.  
 訳: その予定が現実的でないことは、まもなく明らかになった。  
 
