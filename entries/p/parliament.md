@@ -3,9 +3,9 @@ headword: parliament
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra
+model: unknown
 created_at: 2026-09-08
-updated_at: 2026-10-02
+updated_at: 2026-10-29
 checked: true
 tags: []
 ---
@@ -66,6 +66,8 @@ tags: []
 【語法・注意】この語義は継続する制度、またはその制度を一つの行為主体として述べた集合を表す。総選挙ごとに成立する特定回の議会体と期間は語義2で扱う。  
 
 英国の Parliament は制度上、下院、上院、君主から成り、政府の活動を監視する役割も持つ。government「政府」と同義ではない。文脈によって Parliament が下院を指すこともあるが、制度全体を常に下院だけと同一視しない。  
+
+対照表現: Congress は米国などの立法機関の名称として使われ、米国の Congress は Senate「上院」と House of Representatives「下院」から成る連邦議会を指す。例: Congress debated the proposed changes to the law. 訳: 連邦議会は、その法律への変更案を審議した。議会という機能には共通点があるが、英国の Parliament の名称を Congress に、米国の Congress の名称を Parliament に自由に置き換えるわけではない。また、普通名詞の congress には学術・団体などの大会や会議という意味もあり、その用法は立法機関としての parliament と区別する。  
 
 【類義語】
 
