@@ -3,9 +3,9 @@ headword: criterion
 type: word  
 status: checked  
 prompt_version: entry_spec_v5  
-model: gpt-5.6-luna-wm  
+model: unknown  
 created_at: 2026-08-25  
-updated_at: 2026-10-01  
+updated_at: 2026-10-29  
 checked: true  
 tags: []  
 ---  
@@ -38,7 +38,7 @@ tags: []
 
 【文法パターン】a/the criterion for 〈名詞・動名詞〉＝〈名詞・動名詞〉の判断・選定基準／a criterion of 〈success・quality・validity〉＝成功・品質・妥当性などを測る基準／meet・fulfill・satisfy a criterion＝基準・条件を満たす／judge・evaluate something by・according to a criterion＝基準に照らして評価する／one criterion is that 〈節〉＝一つの基準は～ということだ。 criterion for は目的・選定・行為との結びつき、criterion of は成功・品質などの評価対象との結びつきを示しやすい。  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・a criterion for 〈名詞・動名詞〉  
 用途: ある行為・選定・判断に用いる基準を示す。  
@@ -80,23 +80,37 @@ tags: []
 例: Low maintenance cost was one criterion among several.  
 訳: 維持費の低さは、複数ある基準の一つだった。  
 
-【語法・注意】可算名詞なので、単数は a criterion・one criterion、標準的な複数は criteria である。正式な文章では This criterion is important.「この基準は重要だ」、These criteria are important.「これらの基準は重要だ」のように数を一致させる。criteria を単数として criteria is とする用法も現代英語で増えているが、正式な標準用法としては異論が残るため、学習者が標準的な書き言葉で使う場合は criterion を選ぶ。criterions という -s 複数も存在するが、通常の複数としては criteria が自然である。criterion は standard よりも、特定の判断で使う一つのテスト・要素に焦点があり、standard は権威によって定められた規則・水準や模範まで広く指せる。factor は判断に影響する要素だが、明示的な評価基準とは限らず、condition は満たす必要のある条件に焦点がある。criterion-referenced test の criterion は「テスト」そのものではなく、結果を照らし合わせる基準を指す。  
+【語法・注意】可算名詞なので、単数は a criterion・one criterion、標準的な複数は criteria である。正式な文章では This criterion is important.「この基準は重要だ」、These criteria are important.「これらの基準は重要だ」のように数を一致させる。criteria を単数として criteria is とする用法も現代英語で増えているが、正式な標準用法としては異論が残るため、学習者が標準的な書き言葉で使う場合は criterion を選ぶ。criterions という -s 複数も存在するが、通常の複数としては criteria が自然である。criterion は判断に用いる基準・判定要素を指し、standard と意味が重なる。standard は品質や達成度の水準、行動の規範・模範にも使い、必ずしも外部の権威が定めたものに限らない。factor は判断に影響する要素でも、明示された評価基準とは限らない。condition や requirement は、選抜・参加などの文脈では満たすべき条件に焦点を置く。criterion も必須条件を指せるが、候補を比較するための観点にも使う。英語の test には試験・検査のほか「判断のよりどころ」という意味があり、この意味では criterion と重なる。ただし criterion-referenced test の test は試験そのもの、criterion は結果を照らし合わせる基準を指すので、同じものではない。  
 
 【類義語】
 
 ・standard  
 定義: 判断や行動のよりどころとなる規則・水準・模範。  
 頻度: 〈10/10〉  
-違い: criterion は特定の評価で使う一つの基準・判定要素を指しやすいのに対し、standard は権威や慣行によって定められた水準・規則という含みが強い。  
+違い: criterion と standard はともに判断基準を表し、意味が重なる。criterion は何をよりどころに判定するかに焦点を置き、standard は求める品質・達成水準や規範・模範にも広く使う。standard を公的機関が定めた基準だけに限定しない。  
 例: The company has a high standard for customer service.  
 訳: その会社は顧客サービスに高い基準を設けている。  
 
 ・benchmark  
-定義: 性能や成果を比較するための基準点・目標値。  
+定義: 性能や成果などを比較・評価するときの参照基準。  
 頻度: 〈8/10〉  
-違い: benchmark は実績を数値や既存の水準と比較する含みが強く、criterion は選定や判定に使う要素全般を指せる。  
-例: Response time is a useful benchmark for the new system.  
-訳: 応答時間は新しいシステムの有用な比較基準になる。  
+違い: benchmark は何と比べて評価するかという参照点に焦点があり、criterion は何を基準に判断するかという観点・条件を広く指す。benchmark は達成目標として使われることもあるが、必ず目標値を意味するわけではなく、数値以外の作品・実績なども比較の基準になりうる。  
+例: We used the old system's response time as a benchmark for the new one.  
+訳: 旧システムの応答時間を、新システムを評価するための比較基準にした。  
+
+・yardstick  
+定義: 程度や成果などを測り、判断するときの物差しとなる基準。  
+頻度: 〈6/10〉  
+違い: criterion の比較的くだけた言い換えとして使え、量や程度を測る物差しという比喩が出やすい。benchmark とも重なるが、数量以外の評価に使えないという制約ではない。  
+例: We used last year's results as a yardstick for judging this year's performance.  
+訳: 昨年の結果を、今年の成績を判断する物差しとして使った。  
+
+・touchstone  
+定義: 質や真価、本物かどうかを見極めるための試金石・判断基準。  
+頻度: 〈5/10〉  
+違い: criterion が判定の観点・条件を広く表すのに対し、この意味の touchstone は、価値や誠実さなどの真価を見抜く手がかりという含みがある。単に数量を測る基準より、目に見えない性質を試す文脈に合う。  
+例: How a company handles complaints is a touchstone of its commitment to customers.  
+訳: 会社が苦情にどう対応するかは、顧客をどれほど大切にしているかを見極める試金石になる。  
 
 ・factor  
 定義: 判断や結果に影響を与える要素。  
@@ -111,6 +125,13 @@ tags: []
 違い: condition は必要条件・前提条件に焦点があり、criterion は必ずしも合否を決める条件ではなく、比較や評価の尺度にも使える。  
 例: One condition of the agreement is that payment be made in advance.  
 訳: その契約の条件の一つは、代金を前払いすることだ。  
+
+・requirement  
+定義: 必要とされるもの、満たすことを求められる条件・要件。  
+頻度: 〈9/10〉  
+違い: 選抜・参加の文脈で requirement は満たすべき要件に焦点を置く。criterion は必須要件にも使える一方、候補を比較して評価するための観点にも使える。両者が重なる場合もあり、criterion なら任意、requirement なら重要という単純な区別ではない。  
+例: A valid passport is a requirement for this trip.  
+訳: この旅行には有効なパスポートが必要だ。  
 
 ・measure  
 定義: 価値・程度・成果などを測る手段や尺度。  
@@ -136,7 +157,7 @@ tags: []
 
 【文法パターン】a criterion of 〈identity・truth・validity〉＝同一性・真理・妥当性などを見分ける基準／a defining・diagnostic criterion of 〈category・condition〉＝分類や状態を特徴づける指標／a criterion for identifying・classifying something＝何かを同定・分類する基準。第1語義と形は同じだが、ここでは性質そのものが特徴・判定特性として前面に出る。  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・a criterion of personal identity  
 用途: 哲学で、人格・個人の同一性を判定する特徴や基準を表す。  
