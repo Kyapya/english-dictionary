@@ -3,9 +3,9 @@ headword: principal
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra
+model: unknown
 created_at: 2026-09-08
-updated_at: 2026-10-02
+updated_at: 2026-10-29
 checked: true
 tags: []
 ---
@@ -109,6 +109,13 @@ tags: []
 違い: `leading` は人・企業・研究機関などの実績や影響力を強調しやすい。`principal` は実績評価を必須とせず、対象内での中心性を示す。  
 例: She is a leading expert on marine ecosystems.  
 訳: 彼女は海洋生態系の第一人者である。  
+
+・major  
+定義: 規模・重要性・影響などが大きい。  
+頻度: 〈9/10〉  
+違い: major は重要さや影響の大きさを示し、それが唯一の最重要項目だとは限らない。principal は、ある範囲で主となるものを指すやや硬い語である。意味が重なる場合も多く、principal でも principal causes や one of the principal causes のように主要なものを複数挙げられるため、単数か複数かだけで二語を区別しない。  
+例: Poor communication was a major factor in the project's failure.  
+訳: 意思疎通の不十分さは、その計画が失敗した大きな要因の一つだった。  
 
 【反意語】
 
