@@ -3,9 +3,9 @@ headword: scope
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-5.6-sol
+model: unknown
 created_at: 2026-09-01
-updated_at: 2026-10-02
+updated_at: 2026-10-29
 checked: true
 tags: []
 ---
@@ -52,7 +52,7 @@ tags: []
 
 【レジスター/領域】標準的な一般語。会話、仕事、教育、政策、評価で使う。scope for improvement は特に頻度が高く、やや客観的・分析的に「改善の余地」を述べる。  
 
-【文法パターン】scope for 〈名詞・動名詞〉＝～の余地・機会／scope for somebody to do＝人が～する余地／give/allow somebody scope to do＝人に～する余地を与える／have plenty of scope for＝～の余地が十分にある／have little scope for＝～の余地がほとんどない／within somebody's scope＝人の裁量・能力の範囲内で  
+【文法パターン】scope for 〈名詞・動名詞〉＝～の余地・機会／scope for somebody to do＝人が～する余地／give/allow somebody scope to do＝人に～する余地を与える／have plenty of scope for＝～の余地が十分にある／have little scope for＝～の余地がほとんどない  
 
 【コロケーション】
 
@@ -76,14 +76,25 @@ tags: []
 例: The assignment offers students considerable scope for creativity.  
 訳: その課題には、学生が創造性を発揮するかなりの余地がある。  
 
-・within somebody's scope  
-用途: ある人の能力、担当、裁量で処理できる範囲内であることを表す。  
-例: Choosing the colors is within my scope, but changing the wiring is not.  
-訳: 色を選ぶのは私の裁量内だが、配線を変えるのは範囲外だ。  
-
 【語法・注意】この語義の scope は通常不可算で、×a scope for improvement とはせず plenty of scope for improvement のように使う。scope for 〈名詞〉と scope for somebody to do を区別する。前者は改善・創造性などの活動の余地、後者は特定の人が行為をする余地である。  
 
 room は会話でより直接的に「余地」を表し、scope は計画・仕事・能力を評価する分析的な響きがある。opportunity は実際に利用できる機会を指しやすいのに対し、scope は機会が残されている可能性・裁量に焦点を置く。  
+
+対照表現: 以下の constraint と restriction は、行動の余地を狭める条件・制限を表す。scope の量的な反対そのものではなく、余地に影響する要因として区別する。  
+
+・constraint  
+定義: 行動、選択、発展を制限する条件・制約。  
+頻度: 〈8/10〉  
+違い: constraint は自由に使える余地を狭める制約そのものを表し、scope はその制約の中で残る可能性・裁量を表す。制約が存在していても、活動の余地がなくなるとは限らない。  
+例: Time was the main constraint on the design team.  
+訳: 時間が設計チームにとって主な制約だった。  
+
+・restriction  
+定義: 行動や利用を制限する規則・制限。  
+頻度: 〈8/10〉  
+違い: restriction は外から課される禁止・制限に焦点がある。ここでの scope は、そうした条件のもとで活動できる余地を表し、禁止・制限そのものとは区別する。  
+例: The venue has strict restrictions on outside food.  
+訳: その会場には外部からの食べ物に関する厳しい制限がある。  
 
 【類義語】
 
@@ -107,22 +118,6 @@ room は会話でより直接的に「余地」を表し、scope は計画・仕
 違い: opportunity は利用可能な具体的な機会に焦点がある。scope は機会が実現するとは限らず、活動の余地・広がりを表す。  
 例: The internship gave him an opportunity to work with a research team.  
 訳: そのインターンシップは、彼に研究チームと働く機会を与えた。  
-
-【反意語】
-
-・constraint  
-定義: 行動、選択、発展を制限する条件・制約。  
-頻度: 〈8/10〉  
-違い: constraint は自由に使える余地を狭める制約そのものを表し、scope はその制約の中で残る可能性・裁量を表す。程度上の対立である。  
-例: Time was the main constraint on the design team.  
-訳: 時間が設計チームにとって主な制約だった。  
-
-・restriction  
-定義: 行動や利用を制限する規則・制限。  
-頻度: 〈8/10〉  
-違い: restriction は外から課される禁止・制限に焦点がある。scope は制限そのものだけでなく、許される側の余地にも使う。  
-例: The venue has strict restrictions on outside food.  
-訳: その会場には外部からの食べ物に関する厳しい制限がある。  
 
 2. 【名詞・不可算】主題・活動・調査などが扱う範囲、対象領域
 
@@ -190,6 +185,13 @@ range は数値・種類・距離などの幅を広く表し、scope は計画�
 例: We do not yet know the full extent of the damage.  
 訳: 被害の全容はまだ分かっていない。  
 
+・scale  
+定義: 活動、計画、問題などの大きさ・規模・広がり。  
+頻度: 〈9/10〉  
+違い: scale は活動量や全体の大きさに、scope は扱う主題・業務・対象の範囲に焦点を置く。同じ対象分野のまま実施件数を増やすことと、扱う分野そのものを増やすことは区別できる。ただし、両語とも広がりに使え、規模と対象範囲が一緒に拡大する場合もある。  
+例: We increased the scale of the survey without changing its scope.  
+訳: 私たちは調査の対象範囲を変えずに、実施規模を拡大した。  
+
 ・purview  
 定義: 人・組織・制度が扱う、判断する権限・範囲。  
 頻度: 〈5/10〉  
@@ -215,6 +217,11 @@ range は数値・種類・距離などの幅を広く表し、scope は計画�
 【文法パターン】within/outside/beyond one's scope＝自分の能力・担当範囲内／範囲外／the scope of 〈役割・権限〉＝役割・権限の及ぶ範囲／fall within somebody's scope＝人の担当範囲に入る／extend the scope of 〈権限・サービス〉＝権限・サービスの範囲を広げる／request access scopes＝アクセス権限の範囲を要求する  
 
 【コロケーション】
+
+・within somebody's scope  
+用途: ある人の能力、担当、裁量で処理できる範囲内であることを表す。  
+例: Choosing the colors is within my scope, but changing the wiring is not.  
+訳: 色を選ぶのは私の裁量内だが、配線を変えるのは範囲外だ。  
 
 ・outside my scope  
 用途: 自分の技能、担当、権限では扱えないことを簡潔に示す。  
