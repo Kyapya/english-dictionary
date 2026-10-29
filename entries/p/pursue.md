@@ -3,9 +3,9 @@ headword: pursue
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-5.6-luna-wm
+model: unknown
 created_at: 2026-08-26
-updated_at: 2026-10-02
+updated_at: 2026-10-29
 checked: true
 tags: []
 ---
@@ -51,7 +51,7 @@ pursue の核は、対象の後を追いながら、前へ進み続けること�
 
 【文法パターン】pursue 〈人・動物・乗り物〉＝～を追跡する／pursue 〈対象〉 through/across 〈場所〉＝場所を通って～を追跡する／〈対象〉 be pursued by 〈追跡者〉＝対象が～に追われる／〈追跡者〉 pursue＝追跡者が後を追う（対象が文脈から分かる自動詞用法）  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・pursue a suspect  
 用途: 警察などが容疑者を追跡することを表す。  
@@ -134,7 +134,7 @@ pursue の核は、対象の後を追いながら、前へ進み続けること�
 
 【文法パターン】pursue 〈a goal / a dream / an aim〉＝目標・夢・目的を追求する／pursue a career＝職業を目指す、キャリアを築く／pursue a degree＝学位取得を目指す／pursue 〈the goal of doing something〉＝～するという目標を追求する／pursue 〈happiness/knowledge〉＝幸福・知識を追い求める  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・pursue a goal  
 用途: 設定した目標の達成に向けて努力を続けることを表す。  
@@ -162,6 +162,8 @@ pursue の核は、対象の後を追いながら、前へ進み続けること�
 訳: 多くの人は、自分にとってそれが何を意味するかを定義しないまま幸福を追い求める。  
 
 【語法・注意】この語義の pursue は、対象の実現に向けて努力を継続する含みがあり、単なる希望や願望を表す want とは異なる。seek は見つける・得ることを目指す幅広い語、strive for は努力の強さを強調する語である。pursue の目的語には通常名詞句を置き、pursue to do something とは言わない。動作を表すなら pursue the goal of doing something、seek to do something、work to do something などにする。pursue a career は、職業を目標として求めるだけでなく、その仕事に従事してキャリアを築く意味にもなる。実際に活動に取り組む用法は語義3とつながる。  
+
+対照表現の achieve は、目標を実現した結果に焦点を置く。pursue a goal は目標の達成に向けて取り組むこと、achieve a goal はその目標を達成することを表す。They pursued the goal for years but never achieved it.「彼らは何年もその目標を追い続けたが、達成することはなかった」のように、pursue と述べても実現に成功したとは限らない。追求の過程と達成した結果を区別する。  
 
 【類義語】
 
@@ -212,7 +214,7 @@ pursue の核は、対象の後を追いながら、前へ進み続けること�
 
 【文法パターン】pursue 〈a policy / a strategy / a course〉＝方針・戦略・進路に沿って進める／pursue an interest＝関心のある活動に取り組む／pursue one’s studies＝学業に取り組む／pursue research＝研究に取り組む／pursue 〈a matter / a claim / a case〉＝問題・請求・案件を追及する／pursue legal action＝法的措置を進める／pursue 〈案件・活動〉 further＝～をさらに追及する／"〈発言〉," 〈話者〉 pursued＝話者が発言を続けた（硬い物語文など）  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・pursue a policy  
 用途: 採用した政策・方針を継続して実行することを表す。  
@@ -295,7 +297,7 @@ pursue の核は、対象の後を追いながら、前へ進み続けること�
 
 【文法パターン】pursue a course＝進路を取る／pursue a route＝経路をたどる／pursue a line of inquiry/reasoning＝調査・推論の筋道をたどる／pursue 〈方向〉＝その方向へ進む  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・pursue a northerly course  
 用途: 船などが北向きの航路を進むことを表す。  
@@ -373,7 +375,7 @@ pursue の核は、対象の後を追いながら、前へ進み続けること�
 
 【文法パターン】pursue 〈人〉 romantically＝人に恋愛的に働きかける／pursue 〈a relationship〉＝関係を求める／〈人〉 be pursued by 〈相手〉＝人が相手から交際を求められる  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・pursue someone romantically  
 用途: 人に恋愛関係を求めて働きかけることを明示する。  
@@ -455,7 +457,7 @@ woo には、恋愛とは別に、人に働きかけて支持を得ようとす�
 
 【文法パターン】〈人〉 be pursued by 〈memories / fear / guilt〉＝人が記憶・恐怖・罪悪感に追われる／pursue 〈人〉 in dreams＝夢の中でも人につきまとう／〈人〉 be relentlessly pursued by 〈不安・不運〉＝人が不安・不運に執拗につきまとわれる  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・be pursued by memories  
 用途: 過去の記憶が何度も意識に戻り、人を苦しめることを表す。  
