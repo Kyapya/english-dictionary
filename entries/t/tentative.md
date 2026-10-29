@@ -3,9 +3,9 @@ headword: tentative
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: codex-gpt-5
+model: unknown
 created_at: 2026-09-21
-updated_at: 2026-10-02
+updated_at: 2026-10-29
 checked: true
 tags: []
 ---
@@ -79,7 +79,7 @@ tags: []
 例: The police made a tentative identification of the vehicle from the video.  
 訳: 警察は映像からその車両を暫定的に特定した。  
 
-【語法・注意】tentative は「その場しのぎの」「短期間の」と同義ではない。a tentative date は期間が短い日付ではなく、まだ変更され得る候補日である。a tentative agreement も正式な契約・最終合意とは限らず、final、confirmed、settled などで確定段階を示す。uncertain は結果や真偽が不確かなことを広く表すのに対し、tentative は計画・判断などをいったん置いているが確定させていないことに焦点がある。preliminary は作業・調査の初期段階であること、provisional は正式なものに代わる仮の状態であることを強調しやすい。名詞 tentative（複数形 tentatives）として「未確定な事柄・予定」を表す用例もある。一部のイベント予約・会場管理・業務システムでは、名詞やステータス名として「仮押さえ」「暫定予約」などを表す。一般には a tentative booking、a tentative date、a tentative arrangement など、形容詞として使うのが基本である。  
+【語法・注意】tentative は「その場しのぎの」「短期間の」と同義ではない。a tentative date は期間が短い日付ではなく、まだ変更され得る候補日である。期間の限定に焦点を置く temporary とも区別する。a temporary arrangement は「一定期間だけ使う取り決め」、a tentative arrangement は「まだ確定していない取り決め」であり、一時的な取り決めでも内容は確定している場合がある。逆に、長期計画でも内容が仮なら tentative と呼べる。a tentative agreement も正式な契約・最終合意とは限らず、final、confirmed、settled などで確定段階を示す。uncertain は結果や真偽が不確かなことを広く表すのに対し、tentative は計画・判断などをいったん置いているが確定させていないことに焦点がある。preliminary は作業・調査の初期段階であること、provisional は正式なものに代わる仮の状態であることを強調しやすい。名詞 tentative（複数形 tentatives）として「未確定な事柄・予定」を表す用例もある。一部のイベント予約・会場管理・業務システムでは、名詞やステータス名として「仮押さえ」「暫定予約」などを表す。一般には a tentative booking、a tentative date、a tentative arrangement など、形容詞として使うのが基本である。  
 
 関連副詞 tentatively は、agree・approve・accept・identify などを修飾して、合意・承認・受諾・特定がまだ暫定的であることを示す。  
 
@@ -188,7 +188,7 @@ tags: []
 例: She was tentative about speaking up in front of the whole team.  
 訳: 彼女はチーム全員の前で発言することをためらっていた。  
 
-【語法・注意】この意味の tentative は、計画が未確定という語義1と異なり、行為者の態度や動作の仕方を描写する。a tentative smile は「仮の笑顔」ではなく、相手の反応を確かめるような笑顔である。hesitant は決断・発言・行動に踏み切ることをためらっている状態を直接表し、cautious は危険や失敗を避けるための用心深さを表す。cautious は必ずしも自信のなさを含まない。tentative steps は文字どおり歩く場合も、計画・改革への初期行動を比喩的に表す場合もある。  
+【語法・注意】この意味の tentative は、計画が未確定という語義1と異なり、行為者の態度や動作の仕方を描写する。a tentative smile は「仮の笑顔」ではなく、相手の反応を確かめるような笑顔である。一方、a tentative answer は、答えの内容が仮であるという語義1と、返答に自信のなさが表れるという語義2の両方に関わりうる。数字が未確認のため自信なく答える場合のように、内容の未確定性と態度のためらいが重なることもある。hesitant は決断・発言・行動に踏み切ることをためらっている状態を直接表し、cautious は危険や失敗を避けるための用心深さを表す。cautious は必ずしも自信のなさを含まない。tentative steps は文字どおり歩く場合も、計画・改革への初期行動を比喩的に表す場合もある。  
 
 関連副詞 tentatively は、ask・suggest・reply などを修飾して、ためらいや自信のなさを表す。  
 
