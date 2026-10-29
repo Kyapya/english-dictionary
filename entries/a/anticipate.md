@@ -3,9 +3,9 @@ headword: anticipate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: unknown
 created_at: 2026-10-03
-updated_at: 2026-10-03
+updated_at: 2026-10-29
 checked: true
 tags: []
 ---
@@ -54,7 +54,7 @@ tags: []
 
 【文法パターン】anticipate 〈出来事/変化〉＝出来事・変化を予想する／anticipate doing something＝自分たちが何かをすることを見込む／anticipate someone/something doing something＝人・物が何かをすることや、ある状態になることを予想する／anticipate that 〈平叙文〉＝～だろうと予想する／anticipate 〈what/howなどで始まる間接疑問節〉＝何が・どのように起こるかを予想する／something + be anticipated＝何かが予想される／It is anticipated that 〈平叙文〉＝～だろうと予想される／something + be anticipated to do something＝何かが～すると見込まれる／as anticipated＝予想どおりに／〈比較表現〉 + than anticipated＝予想したよりも～  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・anticipate 〈problems/delays/changes〉  
 用途: 予想する問題や変化を直接目的語にする。  
@@ -108,6 +108,8 @@ tags: []
 
 【語法・注意】能動文で自分の行為を予想するときは anticipate doing が基本。×We anticipate to finish tomorrow. ではなく We anticipate finishing tomorrow. または We expect to finish tomorrow. とする。一方、報告文などには The project is anticipated to take a year. という受動の型があり、これを理由に能動の anticipate to do を作らない。anticipate someone/something doing では、-ing の前の語が後続する行為・状態の主語となる。I don't anticipate it being a problem.「それが問題になるとは思わない」のように、人以外も置ける。人については、改まった文で anticipate someone's doing も使える。that は省略できる。疑問詞節は平叙文の語順で、×anticipate how will they react ではなく anticipate how they will react とする。I don't anticipate any problems. は「問題は起こらないと思う」で、保証ではない。anticipated costs のような名詞前の分詞修飾と Costs are anticipated. という受動がある。「予想する」の意味を認めない古い語法観もあるが、現代英語では標準的な用法。語義2の事前行動や語義3の楽しみを、常に含むと説明しない。  
 
+対照表現の hope は、実現の可能性を認めながら、望ましい結果の実現を願うことに焦点を置く。高い確率で実現すると確信している必要はない。日本語ではどちらも「期待する」と訳せる場合があるが、望んでいることと、起こるだろうと見込むことは同じではない。We hope to finish by Friday. は「金曜日までに終えたいと考えている」、We anticipate finishing by Friday. は「金曜日までに終えると見込んでいる」という違いがある。前者を単なる予測、後者を単なる希望として理解しない。hope to do に対して、能動の anticipate は anticipate doing とする点にも注意する。  
+
 【類義語】
 
 ・expect  
@@ -148,7 +150,7 @@ tags: []
 
 【文法パターン】anticipate someone's needs＝その人に何が必要かを先読みして対応する／anticipate a 〈question/request〉＝質問・要望を先回りして扱う／anticipate 〈問題/出来事〉 by doing something＝何かをして問題・出来事に先に備える／anticipate someone's next move＝相手の次の動きを読んで対応する／anticipate 〈what/howなどで始まる間接疑問節〉＝何が必要かなどを先読みして備える  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・anticipate someone's needs  
 用途: 言われる前に必要なものや支援を用意する。  
@@ -210,7 +212,7 @@ tags: []
 
 【文法パターン】eagerly anticipate 〈楽しみな出来事〉＝出来事を心待ちにする／anticipate doing something＝何かをするのを楽しみにする／anticipate someone doing something＝誰かが何かをするのを楽しみにする／something + be eagerly anticipated＝何かが心待ちにされる／an eagerly anticipated 〈作品/催し〉＝待ち望まれた作品・催し／a highly anticipated 〈作品/催し〉＝大いに期待されている作品・催し  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・eagerly anticipate 〈楽しみな出来事〉  
 用途: eagerly により、待ち遠しく感じていることを明示する。  
@@ -286,7 +288,7 @@ tags: []
 
 【文法パターン】anticipate someone＝他者より先に行う／anticipate someone in doing something＝何かをする点で他者に先んじる／anticipate 〈後の発想/展開〉＝後の発想・展開を先取りする／〈後の発想〉 + be anticipated by 〈先行する人/作品〉＝後の発想が先行する人・作品に既に示されている  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・anticipate someone  
 用途: 同じことをしようとした別の人より、先に済ませたことを表す。  
@@ -343,7 +345,7 @@ tags: []
 
 【文法パターン】anticipate 〈後で述べる内容〉＝後の内容を先に述べる／not anticipate＝話を先に進めすぎない／But I anticipate.＝だが、話が先に進みすぎた  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・anticipate 〈後で述べる内容〉  
 用途: 話の結末などを、本来の順序より早く語る。  
@@ -376,7 +378,7 @@ tags: []
 
 【文法パターン】〈先行技術の文献〉 + anticipate a claim＝先行文献が請求項の新規性を失わせる／a claim + be anticipated by 〈先行技術の文献〉＝請求項が先行文献によって新規性を欠く／reject a claim as anticipated＝請求項を新規性欠如として拒絶する  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・〈先行技術の文献〉 + anticipate a claim  
 用途: 先行文献と請求項の新規性との関係を述べる。  
