@@ -3,9 +3,9 @@ headword: pose
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-5.6-luna-wm
+model: unknown
 created_at: 2026-08-27
-updated_at: 2026-10-02
+updated_at: 2026-10-29
 checked: true
 tags: []
 ---
@@ -51,7 +51,7 @@ tags: []
 
 【レジスター/領域】標準語。報道、行政、科学、医療、安全管理、ビジネスで特に多い。`threat`、`risk`、`danger` では害の可能性、`problem`、`challenge`、`obstacle` では対処の難しさに焦点が移る。  
 
-【文法パターン】`〈人・事物・状況〉 pose a threat/risk/danger to 〈対象〉`＝〈対象〉に危険をもたらす／`〈事物・状況〉 pose a problem/challenge for 〈人・組織〉`＝〈人・組織〉に問題・課題を生じさせる／`pose a hazard to 〈対象〉`＝対象に危険をもたらす／`pose an obstacle/a barrier to 〈活動・進行〉`＝活動・進行の障害となる  
+【文法パターン】`〈人・事物・状況〉 pose a threat/risk/danger to 〈対象〉`＝〈対象〉に危険をもたらす／`〈事物・状況〉 pose a problem/challenge for 〈人・組織〉`＝〈人・組織〉に問題・課題を生じさせる／`pose a challenge to 〈theory/assumption〉`＝理論・前提の妥当性を揺るがす／`pose a hazard to 〈対象〉`＝対象に危険をもたらす／`pose an obstacle/a barrier to 〈活動・進行〉`＝活動・進行の障害となる  
 
 【コロケーション】
 
@@ -80,6 +80,11 @@ tags: []
 例: The steep terrain posed a major challenge to the rescue team.  
 訳: 険しい地形は救助隊に大きな課題を突きつけた。  
 
+・`pose a challenge to 〈theory/assumption〉`  
+用途: 結果や証拠が既存の理論・前提の妥当性を揺るがし、その維持を難しくすることを表す。  
+例: The results pose a serious challenge to the assumption that demand is stable.  
+訳: その結果は、需要は安定しているという前提に重大な疑問を投げかける。  
+
 ・`the threat/risk posed by 〈cause〉`  
 用途: ある原因がもたらす危険や問題を、名詞句の中で説明する。  
 例: Officials assessed the risks posed by the overloaded electrical system.  
@@ -87,7 +92,7 @@ tags: []
 
 【語法・注意】`pose` はこの用法では主語に危険や問題の原因となる人・事物・状況を置く。危険が及ぶ対象には `to`、問題を抱える人などには `for` を使うのが代表的で、`challenge to` などの組み合わせもある。`*pose someone a threat` とせず、`pose a threat to someone` とする。  
 
-`pose a threat` は「脅迫する」という意図を必須とせず、`threaten` より客観的・報告的である。`pose a problem` は「問題を引き起こす」の意味なら語義1だが、問題を議論の対象として提示する意味にもなり得る。その場合は語義2で、周囲に `for discussion`、`the question of` などが現れやすい。`pose as` は「〜を装う」という別構文であり、ここには含めない。  
+`pose a threat` は「脅迫する」という意図を必須としない。`threaten` にも、自然現象などが人や環境を危険にさらす用法があり、意図的な脅しだけを表すわけではない。`pose a threat to 〈対象〉` に対し、`threaten 〈対象〉` と直接目的語を取れる点にも注意する。`pose a problem` は「問題を引き起こす」の意味なら語義1だが、問題を議論の対象として提示する意味にもなり得る。その場合は語義2で、周囲に `for discussion`、`the question of` などが現れやすい。`pose as` は「〜を装う」という別構文であり、ここには含めない。  
 
 【類義語】
 
@@ -115,7 +120,7 @@ tags: []
 ・threaten  
 定義: 危害や不利益を及ぼすおそれがある、または脅す。  
 頻度: 〈8/10〉  
-違い: `threaten` は危険の切迫性や、場合によっては意図的な脅しを強く示す。`pose` は自然現象や制度上の問題にも使う客観的な表現である。  
+違い: `threaten` は相手を脅す行為にも、自然現象などが対象を危険にさらすことにも使う。後者は `pose a threat to` と意味が重なり、常に危険が目前に迫っているという違いがあるわけではない。`pose` は `threat`・`risk`・`problem` などの名詞を目的語にして、もたらされる危険や問題を示す。  
 例: Rising sea levels threaten coastal communities.  
 訳: 海面上昇は沿岸地域社会を脅かしている。  
 
@@ -127,7 +132,7 @@ tags: []
 
 【レジスター/領域】標準語・やや硬い表現。会議、研究、教育、評論、報道で広く使う。質問を普通に尋ねる日常会話では `ask`、論点を持ち出す場合は `raise` もよく使う。  
 
-【文法パターン】`pose a question to 〈person/group〉`＝〈人・集団〉に質問を提起する／`pose the question of whether 〈節〉`＝〜かどうかという問題を提起する／`pose a problem/issue for discussion`＝議論のために問題・論点を提示する／`pose a challenge to 〈theory/assumption〉`＝理論・前提に対する反論となる論点を提示する／`pose a dilemma for 〈decision-maker〉`＝意思決定者に難しい選択を突きつける  
+【文法パターン】`pose a question to 〈person/group〉`＝〈人・集団〉に質問を提起する／`pose the question of whether 〈節〉`＝〜かどうかという問題を提起する／`pose a problem/issue for discussion`＝議論のために問題・論点を提示する／`pose a dilemma for 〈decision-maker〉`＝意思決定者に難しい選択を突きつける  
 
 【コロケーション】
 
@@ -150,11 +155,6 @@ tags: []
 用途: 解決・検討すべき問題を議論の場に提示することを表す。  
 例: The teacher posed a problem for discussion before explaining the formula.  
 訳: その教師は公式を説明する前に、議論する問題を提示した。  
-
-・`pose a challenge to 〈theory/assumption〉`  
-用途: 新しい証拠や議論が、既存の理論・前提を再検討させる論点になることを表す。  
-例: The results pose a serious challenge to the assumption that demand is stable.  
-訳: その結果は、需要は安定しているという前提に重大な疑問を投げかける。  
 
 【語法・注意】この用法の `pose` は、質問や問題を検討の前に置く表現で、`ask` より形式的である。`raise a question` は疑問や論点を持ち出すこと、`propose` は計画・案を提案することに重点がある。`pose a problem` は語義1の「問題を引き起こす」と形が同じなので、`for discussion` や議論を行う主語があれば語義2、被害や障害を受ける対象があれば語義1と判断しやすい。  
 
@@ -248,7 +248,7 @@ tags: []
 ・arrange  
 定義: 人や物を、見た目や目的に合うように整えて配置する。  
 頻度: 〈9/10〉  
-違い: `arrange` は複数の人・物の全体的な並べ方を表す。`pose` は特にモデルの身体の向きや姿勢を決める。  
+違い: ここでの `arrange` は順序・配置・見た目を整えることに焦点があり、複数の物を並べる場合だけでなく、髪の形を整える場合などにも使う。`pose` は特に撮影や制作のためにモデルの身体の向きや姿勢を決める。  
 例: The assistant arranged the flowers around the sculpture.  
 訳: アシスタントは彫刻の周りに花を配置した。  
 
@@ -357,7 +357,7 @@ tags: []
 
 【語法・注意】`pose as` の `as` は省略できず、後ろには通常、人物・役割・組織などを表す名詞句を置く。`*pose to be a doctor` ではなく、`pose as a doctor` または `pretend to be a doctor` とする。`pretend to be` は冗談や子どものごっこにも使えるが、`pose as` は身元や資格を偽って人を欺く場面に結びつきやすい。`impersonate` は特定の人物や公的役割になりすます行為そのものに焦点があり、`pose as` はその立場を装って相手を欺く文脈を強く示す。  
 
-`pose as` は目的語を直接取らず、`as` の後ろに装う対象を置く自動詞構文である。  
+`pose as` は目的語を直接取らず、`as` の後ろに装う対象を置く自動詞構文である。対して `impersonate` は人を直接目的語にする。例: The comedian impersonated the mayor on stage. 訳: そのコメディアンは舞台で市長の物まねをした。この例は娯楽のための物まねであり、市長本人だと信じさせる `pose as the mayor` とは区別する。  
 
 【類義語】
 
@@ -371,7 +371,7 @@ tags: []
 ・impersonate 〈person/official〉  
 定義: 特定の人物や公的役割の話し方・身分などをまねて本人のように振る舞う。  
 頻度: 〈5/10〉  
-違い: `impersonate` は本人の身元や役割の再現に焦点があり、詐欺・違法行為の文脈で使われやすい。`pose as` はより広く、専門家や購入者などの立場を装う場合にも使う。  
+違い: `impersonate` は誰かになりすます行為だけでなく、観客を楽しませるために声や振る舞いをまねることにも使う。`pose as` は専門家や購入者などの立場を装って相手にそう信じさせる場面に結びつきやすく、単なる物まねと同じではない。  
 例: The caller was charged with impersonating a government official.  
 訳: その電話の発信者は政府職員になりすましたとして起訴された。  
 
@@ -485,7 +485,7 @@ tags: []
 訳: 彼の労働者への心配は、単なる見せかけだった。  
 
 ・`a pose of confidence`  
-用途: 本当の自信があるかどうかにかかわらず、自信があるように見せる態度を表す。  
+用途: 内心の不安などを隠して、自信があるように見せる態度を表す。  
 例: Her pose of confidence disappeared when the questions became technical.  
 訳: 質問が専門的になると、彼女の自信ありげな見せかけは消えた。  
 
