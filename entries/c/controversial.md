@@ -3,9 +3,9 @@ headword: controversial
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: codex-gpt-5
+model: unknown
 created_at: 2026-09-12
-updated_at: 2026-10-01
+updated_at: 2026-10-29
 checked: true
 tags: []
 ---
@@ -70,7 +70,7 @@ tags: []
 訳: その広告キャンペーンは一部では物議を醸しているが、若い視聴者には人気がある。  
 
 ・it remains controversial whether ...  
-用途: 判断が現在も決着していないことを述べる。  
+用途: ある事柄についての判断をめぐり、今も意見が対立していることを述べる。  
 例: It remains controversial whether the policy reduced inequality.  
 訳: その政策が格差を縮小したかどうかは、今も議論が分かれている。  
 
@@ -103,9 +103,9 @@ tags: []
 訳: その地図は争われている国境を別の色で示している。  
 
 ・debatable  
-定義: 議論の余地があり、結論を一つに決めにくい。  
+定義: 異なる見方が成り立ち、正しさや妥当性に議論・疑問の余地がある。  
 頻度: 〈7/10〉  
-違い: debatable は主張や判断の妥当性を論じられることに焦点があり、controversial より感情的な反発や大きな社会的対立を含まない場合が多い。  
+違い: debatable は、主張や判断を確かなものとして受け入れられるかに焦点がある。That's debatable. は「それには疑問の余地がある」という異議にもなり、単に話し合う機会があるという意味ではない。controversial は強い意見の対立を起こす・起こしやすいことに焦点があり、debatable だからといって大きな論争が実際に起きているとは限らない。  
 例: Whether the change improved efficiency is debatable.  
 訳: その変更が効率を高めたかどうかは議論の余地がある。  
 
