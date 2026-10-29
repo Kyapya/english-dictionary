@@ -3,9 +3,9 @@ headword: premise
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-5.6-sol
+model: unknown
 created_at: 2026-08-29
-updated_at: 2026-10-02
+updated_at: 2026-10-29
 checked: true
 tags: []
 ---
@@ -96,6 +96,13 @@ tags: []
 例: Our cost estimate is based on the assumption that fuel prices will remain stable.  
 訳: 私たちの費用見積もりは、燃料価格が安定したままだという仮定に基づいている。  
 
+・hypothesis  
+定義: 事実や現象を説明するためなどに提示され、検討・検証の対象となる仮説。  
+頻度: 〈7/10〉  
+違い: `hypothesis` は正しいかを調べる説明・仮説に焦点があり、`premise` は議論や推論の出発点として使う役割に焦点がある。同じ仮説をある推論の前提にすることもできるため、「未証明なら hypothesis、証明済みなら premise」という区別ではない。  
+例: The team tested the hypothesis that the new layout would reduce errors.  
+訳: そのチームは、新しい配置にすれば誤りが減るという仮説を検証した。  
+
 ・presupposition  
 定義: 発言・理論・考えの背後ですでに成り立つものとして想定されている前提。  
 頻度: 〈5/10〉  
@@ -158,7 +165,7 @@ tags: []
 ・plot  
 定義: 物語で起きる出来事の筋、展開。  
 頻度: 〈9/10〉  
-違い: `plot` は出来事の連鎖そのもの。`premise` はその連鎖を生み出す基本条件・着想である。  
+違い: 通常、`plot` は出来事の連鎖や展開に、`premise` はその土台となる基本条件・着想に焦点を置く。ただし、作品の主要な筋立てを要約するときには意味が重なることもある。  
 例: The plot becomes more complicated after the second episode.  
 訳: 物語の筋は第2話以降さらに複雑になる。  
 
@@ -327,8 +334,8 @@ tags: []
 定義: 理論・制度・主張などを、ある原理・根拠の上に築く。  
 頻度: 〈5/10〉  
 違い: `be founded on ...` は基礎となる原理・価値・事実にも使え、`premised on` より「築かれている」という比喩が強い。  
-例: The organization was founded on the principle of equal access.  
-訳: その組織は、平等なアクセスという原則に基づいて設立された。  
+例: The criticism was founded on a misunderstanding of the report.  
+訳: その批判は、報告書の誤解に基づいていた。  
 
 ・predicate  
 定義: 主張・判断などを、ある条件・事実・前提に依存させる。  
