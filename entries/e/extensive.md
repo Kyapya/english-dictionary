@@ -3,9 +3,9 @@ headword: extensive
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-5.6-luna-wm
+model: unknown
 created_at: 2026-08-25
-updated_at: 2026-08-25
+updated_at: 2026-10-29
 checked: true
 tags: []
 ---
@@ -52,7 +52,7 @@ extensive の共通核は、対象の外へ広がる範囲・量・作用の及�
 
 【文法パターン】extensive + 〈area/grounds/land/forest/property〉＝広い面積の〈地域・敷地・土地・森林・物件〉／extensive + 〈travels/tour/network〉＝広い地域に及ぶ旅行・巡回・ネットワーク／be extensive in area＝面積が広い  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・extensive grounds  
 用途: 建物に付属する敷地や庭が広大であることを表す。  
@@ -139,7 +139,7 @@ extensive は名詞の前に置く限定用法が多い。述語位置の The gr
 
 【文法パターン】extensive + 〈damage/repairs/injuries/testing〉＝大規模な〈被害・修理・負傷・検査〉／extensive + 〈powers/changes/use〉＝広範な権限・変更・利用／be extensive＝被害・損傷などが大きい  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・extensive damage  
 用途: 事故、災害、攻撃などによる損害が大きいことを表す。  
@@ -152,9 +152,9 @@ extensive は名詞の前に置く限定用法が多い。述語位置の The gr
 訳: その古い建物は再開前に大規模な修理を必要としている。  
 
 ・extensive injuries  
-用途: けがが広範囲に及び、重い処置を要することを表す。  
+用途: けがが広い範囲や多くの部位に及ぶことを表す。この形容詞だけで重症度や必要な処置まで確定するわけではない。  
 例: The driver sustained extensive injuries in the collision.  
-訳: その運転手は衝突事故で広範囲に及ぶ重傷を負った。  
+訳: その運転手は衝突事故で広範囲にわたるけがを負った。  
 
 ・extensive testing  
 用途: 検査・試験を多くの条件や段階で大規模に行うことを表す。  
@@ -200,6 +200,13 @@ extensive は名詞の前に置く限定用法が多い。述語位置の The gr
 例: The city launched a large-scale renovation project.  
 訳: その都市は大規模な改修計画を開始した。  
 
+・widespread  
+定義: 広い地域や多くの場所・人々に広がっている。  
+頻度: 〈8/10〉  
+違い: `widespread damage` は被害が各地に分布し、多くの場所に及ぶことに焦点を置く。`extensive damage` は被害全体の範囲・規模が大きいことに焦点を置く。意味は重なり、`extensive` なら必ず一続きの範囲を指すという区別ではない。  
+例: The storm caused widespread damage across the region.  
+訳: その嵐は地域の各地に被害をもたらした。  
+
 ・severe  
 定義: 被害・症状・状況などの程度が非常に深刻な。  
 頻度: 〈9/10〉  
@@ -240,7 +247,7 @@ extensive は名詞の前に置く限定用法が多い。述語位置の The gr
 
 【文法パターン】extensive + 〈research/knowledge/experience〉 in/of 〈分野〉＝〈分野〉に関する幅広い研究・知識・経験／an extensive range/selection of 〈items〉＝幅広い種類の〈項目〉／extensive discussion/commentary on 〈topic〉＝〈話題〉に関する広範な議論・論評／be extensive＝内容の範囲が広い  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・extensive research into/on 〈topic〉  
 用途: ある問題・分野について多くの資料や角度から行う広範な研究を表す。  
@@ -350,7 +357,7 @@ extensive reading は教育用語として「多読」を指すことがある�
 
 【文法パターン】extensive farming/agriculture＝粗放農業／extensive livestock farming＝粗放畜産／extensive grazing＝粗放放牧／an extensive farming system＝粗放的な農業体系  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・extensive farming  
 用途: 広い土地に比較的少ない投入・労働を用いる農業方式を表す。  
@@ -425,7 +432,7 @@ extensive reading は教育用語として「多読」を指すことがある�
 
 【文法パターン】an extensive property/quantity＝示量性の性質・量／an extensive variable＝示量変数／be extensive＝系の大きさに応じて増える／extensive with respect to 〈system size〉＝〈系の大きさ〉に関して示量性である  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・an extensive property  
 用途: 系の大きさや物質量に応じて値が変わる物理量を表す。  
@@ -491,7 +498,7 @@ extensive reading は教育用語として「多読」を指すことがある�
 
 【文法パターン】an extensive definition of 〈term〉＝〈語〉の外延的定義／be extensive rather than intensional＝内包的でなく外延的である  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・an extensive definition of 〈term〉  
 用途: 語の意味属性ではなく、その語が適用される対象を示す定義を表す古風・専門的な用法。  
