@@ -3,9 +3,9 @@ headword: respectively
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-5.6-luna-wm
+model: unknown
 created_at: 2026-09-03
-updated_at: 2026-10-02
+updated_at: 2026-10-29
 checked: true
 tags: []
 ---
@@ -16,7 +16,9 @@ tags: []
 
 4音節で、強勢は第2音節の /ˈspɛk/（/ˈspek/ とも表記）にある。おおよそ ri-SPEK-tiv-ly と区切って発音し、第1・第3・第4音節は強勢を置かずに発音する。英音の語末を /lɪ/ とする辞書もあるが、/li/ は米英ともに記載される。/e/ と /ɛ/ の選択も辞書の転写方式によるため、これらを一律の米英差とは捉えない。  
 
-綴りの -tively は /tɪvli/ で、respectfully /rɪˈspɛktfəli/ のように /f/ を入れない。respectively は副詞、respective は形容詞で、respectively に活用語尾はない。  
+綴りの -tively は /tɪvli/ で、respectfully /rɪˈspɛktfəli/ のように /f/ を入れない。respectively は副詞、対照表現: each も「それぞれ」と訳せるが、集団の一人ひとり・一つひとつに述べた内容が当てはまることを示し、二つのリストを提示順に対応させる印ではない。例: Aya and Ben each received two tickets. 訳: アヤとベンは、それぞれチケットを2枚ずつ受け取った。一方、Aya and Ben received two and three tickets, respectively. なら「アヤは2枚、ベンは3枚のチケットを受け取った」で、各人と受け取る枚数を順に対応させる。each を使うと常に同じ結果になるという意味ではなく、この例では共通の数量 two tickets を各人に当てはめている。  
+
+respective は形容詞で、respectively に活用語尾はない。  
 
 ＃語源
 
