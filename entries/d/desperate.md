@@ -3,9 +3,9 @@ headword: desperate
 type: word  
 status: checked  
 prompt_version: entry_spec_v5  
-model: gpt-5.6-sol  
+model: unknown  
 created_at: 2026-08-31  
-updated_at: 2026-10-01  
+updated_at: 2026-10-29  
 checked: true  
 tags: []  
 ---  
@@ -84,7 +84,7 @@ desperate の中心には、「希望や余裕がほとんどなく、事態を�
 ・despairing  
 定義: 希望を失い、絶望を感じたり示したりしている。  
 頻度: 〈6/10〉  
-違い: despairing は内面的な絶望の表出に焦点があり、desperate のように危険を顧みない行動まで必ず含むわけではない。  
+違い: despairing は希望を失った気持ちやその表出に焦点があり、desperate は追い詰められ、危険も顧みず何かをしようとする心理を強く示す。ただし、desperate と述べても、実際に危険な行動を取ったとは限らない。  
 例: He gave me a despairing look when the plan failed.  
 訳: 計画が失敗すると、彼は私に絶望したような顔を向けた。  
 
@@ -154,6 +154,8 @@ desperate の中心には、「希望や余裕がほとんどなく、事態を�
 訳: その収監者は医療措置を求めて必死に懇願した。  
 
 【語法・注意】desperate attempt は「必死の試み」であって、必ずしも無謀・違法という意味ではない。last-ditch attempt は「最後の手段」という時間的・戦略的な面を直接強調する。desperate attempt は切迫感やなりふり構わない努力に重点があり、最後の試みでない場合にも使える。take desperate measures も、手段が必ず非倫理的・暴力的だと決めつけない。  
+
+対照表現: determined は、目標を実現するという決意が固く、簡単には諦めないことを表す。a determined effort は決意を持って取り組む努力、a desperate effort は追い詰められた状況での必死の努力に焦点がある。強い決意があっても、絶望や無謀さを伴うとは限らない。同じ人が両方の状態になることもあり、互いに反意語ではない。例: She remained calm and determined to finish the project. 訳: 彼女は落ち着きを保ち、その計画をやり遂げる決意を固く持っていた。  
 
 【類義語】
 
