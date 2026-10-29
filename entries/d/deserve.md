@@ -3,9 +3,9 @@ headword: deserve
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-5.6-luna-wm
+model: unknown
 created_at: 2026-08-25
-updated_at: 2026-10-01
+updated_at: 2026-10-29
 checked: true
 tags: []
 ---
@@ -48,7 +48,7 @@ tags: []
 
 【文法パターン】`〈人・物〉 deserve 〈reward/praise/attention〉`＝人・物が報酬・称賛・注意などを受けるに値する／`deserve something for 〈名詞・動名詞〉`＝～を理由にある扱いを受けるに値する／`〈人・物〉 deserve 〈blame/punishment/criticism〉`＝人・物が非難・罰・批判などを受けるに値する／`〈人・物〉 deserve a rest/a chance/a mention`＝休息・機会・言及を受けるに値する／`〈人・物〉 deserve better`＝もっとよい扱いを受けるに値する／`What have I done to deserve this?`＝自分が何をしたからこんな扱いを受けるのかという不満・冗談めいた反語／`one good turn deserves another`＝親切には親切で報いるべきだということわざ  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・deserve praise/credit/respect for 〈something/doing〉  
 用途: 努力、貢献、態度などに対する称賛・評価・尊敬が妥当だと述べる。  
@@ -97,6 +97,8 @@ tags: []
 
 【語法・注意】`deserve` の目的語は「受けるに値するもの」であり、よいものだけに限られない。`deserve praise` は「称賛されて当然」、`deserve punishment` は「罰を受けて当然」である。  
 
+対照表現の `need` は必要性を表す。`You need a rest.` は「休息が必要だ」という状態・必要性の判断、`You deserve a rest.` は「休んでよいだけの理由がある、休息を取って当然だ」という扱いの妥当性の評価である。同じ人に両方が当てはまることもあり、必要であることと、受けるに値することは別の観点である。  
+
 `be entitled to` は権利・資格・契約上の請求可能性に焦点を置くのに対し、`deserve` は行為や性質に照らした評価に焦点を置く。したがって、`deserve a reward` と言えても、法的にその報酬を請求できるとは限らない。  
 主語は人だけでなく、提案、報告、研究、問題、作品などにもなる。無生物主語の `The proposal deserves attention.` は自然だが、提案が意志をもって注意を要求するという意味ではない。  
 `deserve` 自体は通常進行形にせず、`The issue is deserving of attention.` の `deserving` は形容詞として扱う。否定は `doesn't deserve`、助動詞の後は `should deserve` のように原形にする。  
@@ -106,7 +108,7 @@ tags: []
 ・merit  
 定義: 称賛、注意、検討、処置などを受けるだけの価値がある。  
 頻度: 〈7/10〉  
-違い: `merit` は硬めで、特に「検討・注意・処置に値する」という評価に使う。`deserve` より日常会話での人への報い・罰の判断には使いにくい。  
+違い: `merit` は改まった語で、「検討・注意・処置に値する」という評価にも使う。称賛だけに限らず、批判などに値することも表せる。`deserve` との違いを、よい結果か悪い結果かで区別しない。  
 例: The findings merit further investigation.  
 訳: その調査結果は、さらなる検討に値する。  
 
@@ -148,7 +150,7 @@ tags: []
 
 【文法パターン】`〈人・物〉 deserve to do`＝人・物が〜するのに値する／`〈人・物〉 deserve to be 〈過去分詞〉`＝人・物が〜されるに値する／`〈人・物〉 deserve to have 〈名詞〉`＝人・物が〜を持つ・受けるに値する／`〈人・物〉 don't deserve to be 〈過去分詞〉`＝人・物が〜されるいわれはない  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・deserve to win  
 用途: 試合や競争で、実力・内容から勝つのが妥当だったと述べる。  
@@ -196,7 +198,7 @@ tags: []
 ・merit  
 定義: ある結果、評価、処置を受けるに値する。  
 頻度: 〈7/10〉  
-違い: `merit` は硬めで、`deserve to be considered` のような「検討に値する」と相性がよい。人が勝つ・昇進するという日常的な結果には `deserve` の方が自然である。  
+違い: `merit` は硬めで、検討・注目などに値するという評価によく使う。標準的な学習文型では `deserve to be considered` に対して `merit consideration` のように表し、後続の形まで同じとは考えない。`deserve to win` のような形から、動詞だけを `merit` に替えて同じ文型になると考えない。  
 例: The proposal merits serious consideration.  
 訳: その提案は真剣に検討する価値がある。  
 
@@ -231,7 +233,7 @@ tags: []
 
 【文法パターン】`〈点・問題・特徴〉 deserve mentioning/noting`＝点・問題・特徴が言及・注記される価値がある／`〈問題・不一致〉 deserve looking into`＝問題・不一致が調査される価値がある／`〈論点〉 deserve discussing`＝論点が議論される価値がある／`〈物事〉 deserve 〈V-ing〉` は多くの場合 `〈物事〉 deserve to be 〈過去分詞〉` と言い換えられる  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・deserve mentioning  
 用途: 重要な点を、文章や説明の中で言及する価値があると述べる。  
@@ -259,19 +261,21 @@ tags: []
 人が自分で何かをする価値があると言いたい場合は、`deserve to do` を使う。`The researcher deserves to present the results.` は「研究者は結果を発表するに値する」であり、`The results deserve presenting.` とは主語の役割が異なる。  
 `deserve doing` は `enjoy doing` のように一般的な動名詞目的語を取る構文とは性質が異なる。受動の意味を明確にしたい場合は、`deserve to be discussed` のようにする。  
 
+`need discussing` も主語が議論される側になるが、「議論する必要がある」という必要性に焦点を置く。`deserve discussing` は、対象の重要性などから議論するに値するという評価である。形が似ていても、`need` と `deserve` を意味まで同じものとして置き換えない。  
+
 【類義語】
 
 ・be worth + -ing  
 定義: ある行為をするだけの価値がある。  
 頻度: 〈9/10〉  
-違い: `be worth + -ing` は「試す・読む・調べるなどの行為に時間や労力をかける価値がある」という実用的な評価に強い。`deserve mentioning` は、対象が言及されるのが妥当だという評価に寄る。  
+違い: `be worth + -ing` は「行為に時間や労力をかける価値がある」という評価に強く、`deserve` は対象がその扱いを受けるのが妥当だという評価に寄る。「読む価値がある」なら `be worth reading`、「読まれるに値する」なら `deserve to be read` のように、意味と後続の形を対応させる。`be worth to read` と機械的に置き換えない。なお `It is worth someone’s while to do` は別の構文である。  
 例: The report is worth reading before the meeting.  
 訳: その報告書は会議前に読む価値がある。  
 
 ・merit  
 定義: 検討、議論、調査などを受ける価値がある。  
 頻度: 〈7/10〉  
-違い: `merit` は硬く簡潔で、動名詞より名詞目的語の `merit consideration` の形が特に自然である。  
+違い: `merit` は改まった語で、名詞目的語を取る `merit consideration` のほか、`merit doing something` の形も使う。下の `merit looking into` では、主語が調査する側ではなく調査される対象になる。  
 例: The complaint merits looking into.  
 訳: その苦情は調査する価値がある。  
 
