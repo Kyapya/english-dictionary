@@ -3,9 +3,9 @@ headword: commission
 type: word  
 status: checked  
 prompt_version: entry_spec_v5  
-model: gpt-5  
+model: unknown  
 created_at: 2026-09-07  
-updated_at: 2026-10-01  
+updated_at: 2026-10-29  
 checked: true  
 tags: []  
 ---
@@ -142,14 +142,14 @@ tags: []
 例: The broker charges a small commission on each trade.  
 訳: その証券会社は取引ごとに少額の手数料を請求する。  
 
-【語法・注意】earn $2,000 in commission の in commission は得た歩合の総額を表し、work on commission の on commission は報酬方式を表す。charge/pay a commission では同じ金銭を、業者側は報酬、顧客側は費用として捉えることがある。commission は bonus と異なり通常は個々の売上・取引に結び付き、fee より仲介・売買との関連が強い。  
+【語法・注意】earn $2,000 in commission の in commission は得た歩合の総額を表し、work on commission の on commission は報酬方式を表す。charge/pay a commission では同じ金銭を、業者側は報酬、顧客側は費用として捉えることがある。販売員への commission は通常、売上・成約に応じた報酬を指す。bonus は通常の報酬に追加して支払う金額で、売上目標の達成などを条件にする場合もあるため、「成果連動なら必ず commission」とは区別できない。また、取引手数料としての commission には定額の場合もあり、fee より仲介・売買との関連が強い。  
 
 【類義語】
 
 ・bonus  
 定義: 通常の給与などに加えて支払われる追加報酬。  
 頻度: 〈8/10〉  
-違い: bonus は会社業績、個人評価、季節など多様な基準で支払われる。commission は特定の売上・取引成果に直接連動する。  
+違い: bonus は通常の給与などへの上乗せという位置付けを表し、会社業績・個人評価・売上目標などを基準にすることがある。販売員への commission は通常、売上・成約に応じた報酬として設計される。どちらも成果に連動し得るため、支払条件を見て区別する。  
 例: Employees received an annual bonus after the company exceeded its targets.  
 訳: 会社が目標を上回った後、従業員は年次賞与を受け取った。  
 
@@ -163,7 +163,7 @@ tags: []
 ・royalty  
 定義: 著作物、特許、資源などの利用・販売に応じて権利者へ支払われる使用料。  
 頻度: 〈6/10〉  
-違い: royalty は権利の利用対価であり、販売仲介の報酬である commission とは受取理由が異なる。  
+違い: royalty は権利の利用対価であり、仲介・販売・取引処理などの報酬・手数料を表す commission とは支払われる理由が異なる。  
 例: The author receives a royalty on every copy sold.  
 訳: 著者は販売された一冊ごとに印税を受け取る。  
 
@@ -534,12 +534,11 @@ tags: []
 例: The hospital's backup generator was commissioned into service last week.  
 訳: その病院の非常用発電機は先週、正式に運用開始となった。  
 
-・commissioning tests  
-用途: 設備を本運用へ移す前に性能・安全性を確認する試験を表す。  
+【語法・注意】工学で commission は単に電源を入れることではなく、設置済み設備が設計どおり安全に作動するかを検証し、文書化して運用側へ引き渡す工程を含み得る。船舶では正式な就役行為を指し、工学上の commissioning では実運用前の検証工程を指すことがある。  
+
+関連する名詞表現: commissioning tests は、運用準備の工程を表す commissioning が tests を修飾した「試運転試験・運用準備のための試験」で、動詞 commission の目的語を取る構文ではない。  
 例: The turbine passed all commissioning tests before commercial operation began.  
 訳: そのタービンは商業運転開始前に、すべての試運転試験に合格した。  
-
-【語法・注意】工学で commission は単に電源を入れることではなく、設置済み設備が設計どおり安全に作動するかを検証し、文書化して運用側へ引き渡す工程を含み得る。船舶では正式な就役行為を指し、工学上の commissioning では実運用前の検証工程を指すことがある。  
 
 【類義語】
 
