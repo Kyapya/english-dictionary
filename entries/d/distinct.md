@@ -3,9 +3,9 @@ headword: distinct
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-5.6-sol
+model: unknown
 created_at: 2026-08-25
-updated_at: 2026-10-01
+updated_at: 2026-10-29
 checked: true
 tags: []
 ---
@@ -50,7 +50,7 @@ distinct の共通核は、あるものの境界や特徴がほかに埋もれ�
 
 【文法パターン】`a distinct 〈type/category/group/stage〉`＝別個の〈種類・分類・集団・段階〉／`〈A〉 + be distinct from 〈B〉`＝AはBとは明確に異なる／`as distinct from 〈B〉`＝Bではなく、それとは区別して／`two/several distinct 〈objects/ideas〉`＝二つまたはいくつかの別個の〈対象・考え〉  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・be distinct from 〈something else〉  
 用途: 二つの対象・概念が同一ではなく、区別すべきものであると明示する。  
@@ -140,7 +140,7 @@ distinct の共通核は、あるものの境界や特徴がほかに埋もれ�
 
 【文法パターン】`a distinct 〈sound/smell/taste/outline/feature〉`＝はっきり分かる〈音・匂い・味・輪郭・特徴〉／`〈sound/shape/feature〉 + be/become/remain distinct`＝〈音・形・特徴〉がはっきりしている  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・a distinct 〈sound/voice/accent〉  
 用途: 音声や話し方の特徴が耳ではっきり認識できることを表す。  
@@ -200,9 +200,9 @@ distinct の共通核は、あるものの境界や特徴がほかに埋もれ�
 訳: 金曜日までに明確な返答が必要だ。  
 
 ・discernible  
-定義: 注意すれば知覚・認識できる程度に見分けられる。  
+定義: 知覚したり、違いや意味を認識したりできる。  
 頻度: 〈4/10〉  
-違い: discernible は「辛うじてでも識別可能か」という閾値を意識させ、しばしば改まった表現である。distinct は通常、特徴がより明瞭に現れていることを示す。  
+違い: discernible は識別可能であることに焦点を置き、見えにくいものを見分ける場面にも使う。barely discernible なら「辛うじて識別できる」だが、discernible 単独を常に「辛うじて」と訳す必要はない。distinct は、輪郭や特徴が明瞭に認められることを強調する。  
 例: A faint pattern was discernible beneath the top layer of paint.  
 訳: 上塗りの下に、かすかな模様が見分けられた。  
 
@@ -238,7 +238,7 @@ distinct の共通核は、あるものの境界や特徴がほかに埋もれ�
 
 3. 【形容詞・主に限定】明らかな、はっきり認められる、格別な
 
-【日本語訳・定義】可能性、印象、利点、変化、傾向、不足などが、無視できないほどはっきり存在する、または認められることを表す。知覚対象の輪郭ではなく、程度・存在・判断が明白であることが中心である。`a distinct possibility` は現実に考慮すべき可能性を示すが、必ず起こることまでは意味しない。名誉・貢献などについては「格別な・際立った」という評価を強めることもある。  
+【日本語訳・定義】可能性、印象、利点、変化、傾向、不足などが、はっきり存在する、または明確に認められることを表す。知覚対象の輪郭ではなく、程度・存在・判断が明白であることが中心である。`a distinct possibility` は現実に考慮すべき可能性を示すが、必ず起こることまでは意味しない。名誉・貢献などについては「格別な・際立った」という評価を強めることもある。  
 
 【頻度】〈8/10〉  
 
@@ -246,7 +246,7 @@ distinct の共通核は、あるものの境界や特徴がほかに埋もれ�
 
 【文法パターン】`a distinct 〈possibility/chance/risk〉`＝はっきり存在する〈可能性・見込み・危険〉／`a distinct 〈advantage/disadvantage/improvement/change〉`＝明白な〈利点・不利・改善・変化〉／`have/get the distinct impression that 〈節〉`＝〜だという強い印象を持つ／`show a distinct 〈tendency/preference/lack〉`＝明らかな〈傾向・好み・不足〉を示す／`a distinct honor`＝格別な光栄  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・a distinct possibility that 〈節〉  
 用途: ある出来事が現実に起こり得るため、無視せず考慮すべきだと述べる。  
@@ -285,6 +285,22 @@ distinct の共通核は、あるものの境界や特徴がほかに埋もれ�
 
 【語法・注意】この語義は主に名詞の前で使い、`a distinct possibility`、`a distinct advantage` のように程度を強める。`distinct` 自体が「確実な」を意味するわけではないため、`a distinct possibility` を「確実に起こること」と訳さない。可能性が明確に存在するという意味であり、その確率は文脈で決まる。`the distinct impression that ...` は話者の強い印象であって、内容の真実性を保証しない。`distinct lack of ...` は不足が目立つことを表し、しばしば否定的評価を伴う。この評価を、`distinct advantage` のような中立・肯定的表現へ一般化しない。  
 
+対照表現として、程度や重要性の小ささを表す slight・negligible と区別する。ある違いを明瞭に認められることと、その違いが大きい、または重要であることは別の観点である。  
+
+・slight  
+定義: 差、可能性、変化、利点などの程度が小さい。  
+頻度: 〈9/10〉  
+違い: slight は程度の小ささ、distinct は存在や違いが明確に認められることに焦点を置く。小さな変化でも、はっきり見分けられることはある。a slight chance は低い見込みを表し、a distinct possibility は現実的な可能性の存在を強調するが、後者が特定の確率を定めるわけではない。  
+例: There is only a slight chance of rain.  
+訳: 雨が降る可能性はわずかしかない。  
+
+・negligible  
+定義: 影響、差、危険、可能性などが無視できるほど小さい。  
+頻度: 〈6/10〉  
+違い: negligible は大きさや重要性が無視できるほど小さいことを表す。測定上の違いが明瞭でも、その実務的な影響は無視できる場合があるため、distinct の直接的な反対語とは限らない。  
+例: The change had a negligible effect on total costs.  
+訳: その変更が総費用に与えた影響は無視できるほど小さかった。  
+
 【類義語】
 
 ・clear  
@@ -315,22 +331,6 @@ distinct の共通核は、あるものの境界や特徴がほかに埋もれ�
 例: The regional gap is most pronounced among older workers.  
 訳: 地域差は高年齢の労働者の間で最も顕著である。  
 
-【反意語】
-
-・slight  
-定義: 差、可能性、変化、利点などの程度が小さく、目立たない。  
-頻度: 〈9/10〉  
-違い: distinct が無視しにくい明確な程度を示すのに対し、slight は存在しても程度が小さいことを示す。  
-例: There is only a slight chance of rain.  
-訳: 雨が降る可能性はわずかしかない。  
-
-・negligible  
-定義: 影響、差、危険、可能性などが無視できるほど小さい。  
-頻度: 〈6/10〉  
-違い: distinct が考慮に値する存在・程度を示すのに対し、negligible は実務上考慮しなくてよいほど小さいことを表す。  
-例: The change had a negligible effect on total costs.  
-訳: その変更が総費用に与えた影響は無視できるほど小さかった。  
-
 4. 【形容詞・数学／データ処理】相異なる、重複しない
 
 【日本語訳・定義】集合の要素、数、組合せ、データ値、行などについて、同じものとして等しくない、または重複を除けば別々に数えられることを表す。数学では複数の対象が互いに等しくないこと、データ処理では同一値・同一行を一つにまとめた結果を説明する。  
@@ -341,7 +341,7 @@ distinct の共通核は、あるものの境界や特徴がほかに埋もれ�
 
 【文法パターン】`distinct 〈values/elements/points/solutions〉`＝互いに異なる〈値・要素・点・解〉／`〈objects〉 + be pairwise distinct`＝任意の二つが互いに異なる／`the number of distinct 〈values/categories〉`＝重複を除いた〈値・分類〉の数／`SELECT DISTINCT 〈column/list〉`＝SQLで重複行を除いて選択する  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・distinct 〈values/elements〉  
 用途: 同じ値・要素を重複して数えず、互いに異なるものだけを対象にする。  
@@ -419,7 +419,7 @@ distinct の共通核は、あるものの境界や特徴がほかに埋もれ�
 
 【文法パターン】`distinct 〈petals/sepals/stamens〉`＝互いに合着していない〈花弁・がく片・雄しべ〉／`〈floral parts〉 + be distinct`＝〈花の各器官〉が分離している／`〈number〉 + distinct 〈floral parts〉`＝合着せず個別に数えられる〈数〉個の器官  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・distinct 〈petals/sepals〉  
 用途: 同じ花冠・がくを構成する花弁・がく片が、互いに合着していないことを記載する。  
