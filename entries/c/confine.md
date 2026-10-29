@@ -3,9 +3,9 @@ headword: confine
 type: word  
 status: checked  
 prompt_version: entry_spec_v5  
-model: gpt-5  
+model: unknown  
 created_at: 2026-09-06  
-updated_at: 2026-10-01  
+updated_at: 2026-10-29  
 checked: true  
 tags: []  
 ---
@@ -170,6 +170,13 @@ tags: []
 違い: detain は一時的な身柄拘束や事情聴取のための留置に焦点がある。confine は場所の境界内に置かれる状態を強く示す。  
 例: Police detained the suspect for questioning.  
 訳: 警察は事情聴取のため容疑者を拘束した。  
+
+・contain  
+定義: 火災や有害な物質などの拡大・拡散を食い止める。  
+頻度: 〈7/10〉  
+違い: この意味の contain は、被害や危険が広がるのを抑える点に焦点がある。confine A to B／within B は、AをBの境界内にとどめる範囲を明示する。火などを一定区域内に抑える場合は重なるが、contain には単に「中に含む」という別の意味もあり、その用法まで confine と置き換えられるわけではない。  
+例: Firefighters contained the fire before it spread to the nearby warehouses.  
+訳: 消防隊は、火が近くの倉庫に燃え広がる前に延焼を食い止めた。  
 
 【反意語】
 
