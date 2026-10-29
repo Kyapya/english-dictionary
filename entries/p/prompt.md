@@ -3,9 +3,9 @@ headword: prompt
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-5.6-sol
+model: unknown
 created_at: 2026-08-25
-updated_at: 2026-10-02
+updated_at: 2026-10-29
 checked: true
 tags: []
 ---
@@ -59,7 +59,7 @@ prompt は、「必要なときにすぐ表に出る・出せる」というイ�
 
 【文法パターン】prompt 〈action/response/reply/payment/attention〉＝迅速な〈行動・応答・返答・支払い・対応〉／a prompt reply to something＝〜への迅速な返答  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・prompt action  
 用途: 問題や危険に対して、遅らせずに対応することを表す。  
@@ -139,7 +139,7 @@ prompt は、「必要なときにすぐ表に出る・出せる」というイ�
 
 【文法パターン】be prompt＝時間を守る・すぐ応じる／be prompt to do something＝すぐに〜する／be prompt in doing something＝〜するのが速やかである／be prompt with 〈a reply / a payment〉＝返答・支払いが速やかである／be prompt when 〈doing something〉＝〜する際に遅れない／be prompt to respond/reply＝すぐに応答する  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・be prompt to respond  
 用途: 連絡や問題提起に対して、すぐ反応する人の性質を表す。  
@@ -183,11 +183,11 @@ prompt は、「必要なときにすぐ表に出る・出せる」というイ�
 訳: 大雨にもかかわらず、その列車は時間どおりだった。  
 
 ・responsive  
-定義: 要求、連絡、変化などにすぐ反応する。  
+定義: 要求、連絡、変化などに、素早く前向きに反応する。  
 頻度: 〈7/10〉  
-違い: responsive は反応のしやすさや積極性に焦点があり、promptのような期限・時刻の含みはない。  
+違い: responsive は要求や意見に応じる姿勢・反応性に焦点を置き、対応の速さを含むこともある。prompt は応答や行動が遅れない点を強調する。responsive を「集合時刻に遅れない」という punctual の意味と同一視しない。  
 例: The support team is responsive to customer feedback.  
-訳: そのサポートチームは顧客の意見にすぐ対応する。  
+訳: そのサポートチームは顧客の意見に素早く、前向きに対応する。  
 
 ・ready  
 定義: 必要なときにすぐ行動・応答できる状態にある。  
@@ -229,7 +229,7 @@ prompt は、「必要なときにすぐ表に出る・出せる」というイ�
 
 【文法パターン】at 〈時刻〉 prompt＝ちょうど〜時に／arrive/leave prompt＝時間どおりに到着する・出発する／〈主語〉 + be there prompt＝時間どおりにそこにいる  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・at eight o'clock prompt  
 用途: 開始・集合の時刻が正確に8時であることを、くだけて強調する。  
@@ -292,7 +292,7 @@ prompt は、「必要なときにすぐ表に出る・出せる」というイ�
 
 【文法パターン】prompt someone to do something＝人に〜するよう促す／prompt 〈a reaction / a decision / a change〉＝〈反応・決定・変化〉を引き起こす／prompt 〈an investigation / a review / a discussion〉＝〈調査・再検討・議論〉を促す／be prompted by something＝〜に促される・〜がきっかけで起こる／What prompted someone to do something?＝何が人に〜させたのか／prompt a model to do something＝AIモデルに〜するよう指示する  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・prompt someone to take action  
 用途: 人や組織が行動を起こすきっかけになることを表す。  
@@ -357,6 +357,20 @@ prompt は、「必要なときにすぐ表に出る・出せる」というイ�
 例: The bonus motivated the team to finish early.  
 訳: その賞与がチームに早く終える意欲を与えた。  
 
+・encourage  
+定義: 人を励ましたり、行動を勧めて後押ししたりする。  
+頻度: 〈9/10〉  
+違い: encourage は自信・意欲を支えたり、ある行動をよい選択として勧めたりする点に焦点を置く。prompt は必ずしも励ましではなく、出来事が行動を引き出すきっかけになる場合にも使う。encourage investment のように物事を促進する用法もあるため、encourage を人への励ましだけに限定しない。  
+例: The teacher encouraged Mina to share her ideas.  
+訳: 先生はミナに、自分の考えを話すよう後押しした。  
+
+・urge  
+定義: 人にある行動をするよう強く勧めたり、要請したりする。  
+頻度: 〈8/10〉  
+違い: urge は相手にしてほしい行動を強く勧める・求める働きかけに焦点がある。prompt はより広く、出来事や情報が行動の理由・きっかけになることも表す。urge someone to do と言っても、相手が実際にその行動をしたとは限らない。  
+例: The manager urged the team to check the figures again.  
+訳: 部長はチームに、数値をもう一度確認するよう強く促した。  
+
 ・induce  
 定義: ある作用や影響によって、状態・反応などを生じさせる。  
 頻度: 〈6/10〉  
@@ -411,7 +425,7 @@ prompt は、「必要なときにすぐ表に出る・出せる」というイ�
 
 【文法パターン】prompt someone＝人に発話の助け舟を出す／prompt someone with 〈a word / a question / a hint〉＝〈語・質問・ヒント〉で人を促す／prompt someone for 〈an answer / a detail〉＝人に答え・詳細を言うよう促す／be prompted＝促されて発言する／prompt someone to say something＝人が〜と言えるよう促す／「発言内容」, someone prompted＝人がそう言って発話を促した（目的語を明示しない形）  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・prompt an actor  
 用途: 俳優が忘れたせりふを言えるよう、舞台袖などから言葉を与える。  
@@ -490,7 +504,7 @@ prompt は、「必要なときにすぐ表に出る・出せる」というイ�
 
 【文法パターン】give someone a prompt＝人に助け舟を出す／need a prompt＝促し・ヒントが必要である／with a prompt from someone＝〜からの促しを受けて／a prompt from offstage＝舞台袖からのせりふの合図／a verbal prompt＝口頭の促し  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・give someone a prompt  
 用途: 忘れたせりふや答えを続けられるよう、短い手掛かりを与える。  
@@ -552,7 +566,7 @@ prompt は、「必要なときにすぐ表に出る・出せる」というイ�
 
 【文法パターン】respond to a prompt＝課題・問いに答える／a prompt for 〈writing/discussion/reflection〉＝〈作文・議論・内省〉を促す課題／use something as a prompt＝〜をきっかけ・題材として使う／a prompt that asks someone to do something＝人に〜するよう求める指示文／write an answer to the prompt＝課題文への答えを書く  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・a writing prompt  
 用途: 文章を書き始めるために、題材・視点・条件などを与える課題を表す。  
@@ -626,7 +640,7 @@ prompt は、「必要なときにすぐ表に出る・出せる」というイ�
 
 【文法パターン】at the command prompt＝コマンドプロンプト上で／display/show a prompt＝入力を促す表示を出す／enter something at the prompt＝プロンプトに〜を入力する／a prompt for 〈a password / input〉＝パスワード・入力を促す表示／return to the prompt＝入力待ちの表示に戻る  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・at the command prompt  
 用途: コマンド入力を待つ端末画面で操作することを表す。  
@@ -695,7 +709,7 @@ prompt は、「必要なときにすぐ表に出る・出せる」というイ�
 
 【文法パターン】write/enter a prompt＝プロンプトを書く・入力する／give an AI a prompt＝AIにプロンプトを与える／a prompt for 〈a task〉＝〜用の指示文／a prompt that asks the system to do something＝システムに〜させる指示文／prompt engineering＝プロンプト設計・改善  
 
-【コロケーション】
+【コロケーション・構文例】
 
 ・write a prompt  
 用途: AIから望ましい出力を得るための指示文を作成する。  
