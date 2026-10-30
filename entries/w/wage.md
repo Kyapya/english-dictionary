@@ -3,9 +3,9 @@ headword: wage
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: unknown
 created_at: 2026-10-12
-updated_at: 2026-10-12
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -20,9 +20,8 @@ tags: []
 
 ＃語形成
 
-・wages：名詞では「賃金」の複数形として定着し、主語になる場合は通常複数扱いにして are・were などを用いる。動詞 wage の三人称単数現在形でもある。  
-・waged：動詞の過去形・過去分詞。a war waged overseas「海外で行われた戦争」の waged は動詞の過去分詞で、「賃金をもらう戦争」ではない。waged には「有給の」という別の形容詞用法もあり、語義3・4で扱う。  
-・waging：動詞の現在分詞。語末の e を落として -ing を付ける。  
+・waged（形容詞）：「賃金を受ける、有給の」。a waged worker「賃金を受けて働く人」、waged work「有給の仕事」のように、人や仕事の性質を表す。名詞 wage「賃金」に関連する形容詞であり、動詞 wage「戦争などを行う」の過去分詞と同じ綴りでも、意味・働きを区別する。詳しくは語義3。  
+・the waged（形容詞の名詞的用法）：形容詞 waged に the を付け、「賃金を受けて働く人々」を集団として指す。複数扱いで、waged に -s は付けない。詳しくは語義4。  
 ・wage earner：名詞句。「賃金を得て働く人」。wage-earning は名詞前で「賃金を稼ぐ」の意味になる。  
 ・low-wage：名詞前の複合形容詞。「低賃金の」。a low-wage job「低賃金の仕事」。  
 ・high-wage：名詞前の複合形容詞。「高賃金の」。  
@@ -138,7 +137,7 @@ tags: []
 
 2. 【動詞・他動詞】戦争・運動・闘いを行う、展開する
 
-【日本語訳・定義】戦争、闘争、組織的な運動などを始めて継続的に行う。目的語は war・campaign・battle・struggle などで、実際の武力行使にも、社会問題などへの比喩的な闘いにも使う。単に開始を告知するだけでなく、取り組みを実行することに焦点がある。  
+【日本語訳・定義】戦争、闘争、組織的な運動などを継続的に行う。目的語は war・campaign・battle・struggle などで、実際の武力行使にも、社会問題などへの比喩的な闘いにも使う。単に開始を告知するだけでなく、取り組みを実行することに焦点がある。  
 
 【頻度】〈7/10〉  
 
@@ -183,7 +182,7 @@ tags: []
 例: A coordinated campaign was waged against the proposed road through the park.  
 訳: 公園内を通る道路計画に対し、連携した反対運動が展開された。  
 
-【語法・注意】名詞 wage「賃金」と混同し、wage workers で「労働者に賃金を払う」としない。現代の通常の言い方は pay workers their wages。wage war は無冠詞の war、wage a war は特定の戦争を1つのものとして捉える表現。単数の campaign・battle には、通常 a・the・所有格などの限定詞が必要。対象は on または against、支持する目標は for、実現したい行動は to 不定詞で示せる。declare war「宣戦する」と wage war「戦争を行う」は同じ行為ではない。wage a project のように一般的な業務すべてへ機械的に広げず、carry out a project などを使う。  
+【語法・注意】動詞の活用は wages（三人称単数現在形）、waged（過去形・過去分詞）、waging（現在分詞）。waging は語末の e を落として -ing を付ける。a war waged overseas「海外で行われた戦争」の waged は過去分詞で、語義3の「有給の」という形容詞とは異なる。名詞 wage「賃金」と混同し、wage workers で「労働者に賃金を払う」としない。現代の通常の言い方は pay workers their wages。wage war は無冠詞の war、wage a war は特定の戦争を1つのものとして捉える表現。単数の campaign・battle には、通常 a・the・所有格などの限定詞が必要。対象は on または against、支持する目標は for、実現したい行動は to 不定詞で示せる。declare war「宣戦する」と wage war「戦争を行う」は同じ行為ではない。wage a project のように一般的な業務すべてへ機械的に広げず、carry out a project などを使う。  
 
 【類義語】
 
@@ -274,7 +273,7 @@ tags: []
 例: The placement involves twenty hours of unpaid work each week.  
 訳: その実習には、毎週20時間の無給の仕事が含まれる。  
 
-4. 【名詞・the waged・複数扱い】賃金を受けて働く人々
+4. 【形容詞の名詞的用法・the waged・複数扱い】賃金を受けて働く人々
 
 【日本語訳・定義】仕事の対価として定期的な賃金を受けている人々を、集団として指す。waged という形容詞に the を付けた定着した名詞的用法。  
 
