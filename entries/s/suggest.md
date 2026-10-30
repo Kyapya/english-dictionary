@@ -3,9 +3,9 @@ headword: suggest
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: unknown
 created_at: 2026-10-06
-updated_at: 2026-10-06
+updated_at: 2026-10-30
 checked: true
 tags: []
 ---
@@ -34,11 +34,11 @@ tags: []
 
 ・行動案を意識に上らせること → 「提案する、～してはどうかと言う」（語義1）  
 
-・適任の候補を意識に上らせること → 「候補として挙げる、勧める」（語義2）  
+・目的に合う候補を意識に上らせること → 「候補として挙げる、勧める」（語義2）  
 
 ・証拠から推論を意識に上らせること → 「示唆する、～と思わせる」（語義3）  
 
-・見解を遠回しに意識に上らせること → 「ほのめかす、～という見方を示す」（語義4）  
+・見解を遠回しに、または断定を控えて意識に上らせること → 「ほのめかす、～という見方を示す」（語義4）  
 
 ・連想による像や着想を意識に上らせること → 「連想させる、発想のきっかけになる」（語義5）  
 
@@ -374,7 +374,7 @@ What are you suggesting? は、行動案を尋ねるなら語義1、含みを問
 頻度: 〈8/10〉  
 違い: suggest と広く重なるが、言葉に含まれる意味を焦点化しやすい。suggest の「仮説として控えめに述べる」よりも、間接的な伝達が前面に出る。  
 例: His reply implied that the invitation was no longer open.  
-訳: 彼の返事には、もう招待するつもりはないという含みがあった。  
+訳: 彼の返事には、その招待はもう有効ではないという含みがあった。  
 
 ・hint  
 定義: ごく間接的な手掛かりを与えてほのめかす。  
@@ -442,7 +442,7 @@ A story suggested by an incident の by 以下は発想のきっかけであり�
 頻度: 〈6/10〉  
 違い: suggest より鮮明な感覚・感情の喚起を述べやすい。芸術や文章の効果の説明によく合う。  
 例: The melody evoked memories of summer evenings at home.  
-訳: その旋律は、故郷で過ごした夏の夕方の記憶を呼び起こした。  
+訳: その旋律は、家で過ごした夏の夕方の記憶を呼び起こした。  
 
 ・recall  
 定義: ある物が別の物や過去の経験を思い起こさせる。  
@@ -485,7 +485,7 @@ A story suggested by an incident の by 以下は発想のきっかけであり�
 例: When we compared the two maps, several possibilities suggested themselves.  
 訳: 2枚の地図を比べると、いくつかの可能性が思い浮かんだ。  
 
-【語法・注意】この「案が浮かぶ」という能動構文では、主語と同じものを指す itself・themselves が必要。A solution suggested to me. と再帰代名詞を落とさず、A solution suggested itself to me. とする。一方、A solution was suggested to me. は受動態で「誰かから解決策を提案された」であり、itself を省略した同じ構文ではない。  
+【語法・注意】この「案が浮かぶ」という能動構文では、主語と同じものを指す itself・themselves が必要。A solution suggested to me. と再帰代名詞を落とさず、A solution suggested itself to me. とする。一方、A solution was suggested to me. は受動態で、解決策が提案・示唆されたことを述べる。人から提案を受けたのか、出来事などから着想を得たのかは文脈による。いずれも itself を省略した同じ構文ではない。  
 
 単数主語なら itself、複数主語なら themselves。人が「私は思いついた」と言うときに I suggested myself. とするとこの意味にならず、語義2の「自分を候補に挙げた」と解釈され得る。I thought of a solution. または A solution suggested itself to me. とする。後ろの to someone は思い浮かんだ人を示し、文脈で分かれば省略できる。  
 
