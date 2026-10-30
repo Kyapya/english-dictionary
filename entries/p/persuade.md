@@ -3,9 +3,9 @@ headword: persuade
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: unknown
 created_at: 2026-10-03
-updated_at: 2026-10-06
+updated_at: 2026-10-30
 checked: true
 tags: []
 ---
@@ -140,7 +140,7 @@ tags: []
 頻度: 〈6/10〉  
 違い: 実行を促すことと抑えることの方向上の対立。説得に限定されず、費用や危険も主語にできる。  
 例: The high fee deterred many people from applying.  
-訳: 高額の料金が、多くの人に申し込みをためらわせた。  
+訳: 料金が高かったため、多くの人が申し込みを見送った。  
 
 2. 【動詞・他動詞】納得させる、信じさせる
 
