@@ -5,14 +5,14 @@ status: checked
 prompt_version: entry_spec_v5
 model: unknown
 created_at: 2026-09-19
-updated_at: 2026-10-29
+updated_at: 2026-10-30
 checked: true
 tags: []
 ---
 
 ＃発音記号
 
-米: /ˈdefənət/｜英: /ˈdefɪnət/。通常は3音節で、第1音節に主強勢がある。米語では第2音節の母音を弱い /ə/、英語では /ɪ/ と示すことが多い。語末は /nət/ で、綴りの -ite を finite のような /aɪt/ や /eɪt/ と読まない。definitely は米 /ˈdefənətli/・英 /ˈdefɪnətli/ のように発音し、語尾の -ly が加わる。  
+米: /ˈdefənət/｜英: /ˈdefɪnət/。通常は3音節で、第1音節に主強勢がある。米語では第2音節の母音を弱い /ə/、英語では /ɪ/ と示すことが多い。語末は /nət/ で、綴りの -ite を finite の語末と同じ /aɪt/ にしたり、/eɪt/ と読んだりしない。definitely は米 /ˈdefənətli/・英 /ˈdefɪnətli/ のように発音し、語尾の -ly が加わる。  
 
 ＃語源
 
@@ -100,8 +100,18 @@ definite の共通核は、「境界・同一性・判断を曖昧さから切�
 例: She was definite that she had locked the door before leaving.  
 訳: 彼女は、出かける前にドアに鍵をかけたと確信を持って言った。  
 
-・know・say・find out for definite  
-用途: くだけた表現で、確実に知っていることや、はっきり確認することを表す。  
+・know for definite  
+用途: くだけた表現で、あることを確実に知っていると述べる。  
+例: I know for definite that the shop is closed today.  
+訳: その店が今日は休みだということは、確実に分かっている。  
+
+・say for definite  
+用途: くだけた表現で、確実なこととして言う、断言することを表す。can't say for definite なら「確かなことは言えない、断言できない」。  
+例: I can't say for definite whether I'll be free on Saturday.  
+訳: 土曜日に時間が空いているかどうか、確かなことは言えない。  
+
+・find out for definite  
+用途: くだけた表現で、調べたり尋ねたりして、はっきり確かめることを表す。  
 例: I'll call the station and find out for definite whether the train is running.  
 訳: 駅に電話して、その列車が運行しているかはっきり確かめるよ。  
 
