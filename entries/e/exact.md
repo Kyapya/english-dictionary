@@ -3,9 +3,9 @@ headword: exact
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: OpenAI assistant (exact model not exposed)
+model: unknown
 created_at: 2026-10-10
-updated_at: 2026-10-11
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -349,7 +349,7 @@ tags: []
 頻度: 〈6/10〉  
 違い: 通常は自動詞で、retaliate against someone・retaliate for something とする。個人的な復讐心より対抗措置に焦点を置くことも多い。  
 例: The company retaliated against its competitor by cutting prices.  
-訳: その会社は値下げによって競合相手に対抗しました。  
+訳: その会社は、競合相手への報復として値下げしました。  
 
 6. 【動詞：他動詞・比喩】重い負担・損害を与える、高い代償を強いる
 
@@ -445,7 +445,7 @@ tags: []
 例: The role became more exacting as the team expanded.  
 訳: チームが拡大するにつれて、その役割にはより多くが求められるようになりました。  
 
-【語法・注意】an exact measurement は「正確な測定値」で、an exacting task は「正確さなどを要求する仕事」。日本語の「厳密な」だけで混同しない。The work is exacting. は形容詞で「仕事が厳しい」。The lender is exacting payment. は目的語 payment を取る動詞の進行形で「貸し手が支払いを取り立てている」。形容詞の叙述でも be を要し、正: The work is exacting.／誤: The work exacting. とする。a physically exacting task は -ly 副詞による修飾なので通常ハイフンを入れない。  
+【語法・注意】an exact measurement は「正確な測定値」で、an exacting task は「正確さなどを要求する仕事」。日本語の「厳密な」だけで混同しない。The work is exacting. は形容詞で「仕事が厳しい」。The lender is exacting payment. は目的語 payment を取る動詞の進行形で「貸し手が支払いを取り立てている」。この例では形容詞を述語につなぐ動詞が必要なので、正: The work is exacting.／誤: The work exacting. とする。become exacting のように、be 以外の連結動詞も使える。a physically exacting task は -ly 副詞による修飾なので通常ハイフンを入れない。  
 
 【類義語】
 
