@@ -3,9 +3,9 @@ headword: interview
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: unknown
 created_at: 2026-10-03
-updated_at: 2026-10-06
+updated_at: 2026-10-30
 checked: true
 tags: []
 ---
@@ -229,8 +229,8 @@ view は「見る」という要素と関係し、同じラテン語 videre「�
 
 ・be interviewed by someone  
 用途: 面接官を by で示す。  
-例: I was interviewed by the head of the laboratory.  
-訳: 私は研究室の責任者による面接を受けた。  
+例: I was interviewed for a research position by the head of the laboratory.  
+訳: 私は研究職の採用選考で、研究室の責任者による面接を受けた。  
 
 ・interview 〈candidates/applicants〉  
 用途: 採用側が複数の応募者を面接する。  
@@ -242,7 +242,7 @@ view は「見る」という要素と関係し、同じラテン語 videre「�
 例: Our hiring team is interviewing all day tomorrow.  
 訳: 採用チームは明日、一日中面接を行う。  
 
-【語法・注意】他動詞の interview someone では主語が質問する側、目的語が候補者。I interviewed the manager. は通常「私がその管理職を面接した」で、「管理職の面接を受けた」なら I was interviewed by the manager. とする。目的語を省いた We are interviewing next week. も採用側の意味になれる。一方、応募者主語の I’m interviewing for a job. は語義5で、目的語がないだけで常に採用側と決まるわけではない。interview someone to do で「相手に何かをするよう面接する」という補文を作らない。interviewing は現在分詞・動名詞で、interviewing skills は面接・聞き取りの技術。応募者が主語の進行形なら「面接を受けている」となることもあり、語義5を参照。interviewed は過去形・過去分詞で、the people interviewed は過去分詞が people を後ろから修飾する「面接・取材された人々」。  
+【語法・注意】この語義の interview someone では主語が質問する側、目的語が候補者。I interviewed the manager. では私が質問する側であり、文脈によって「その管理職を面接した」「その管理職に取材した」と解釈できる。採用面接で「管理職の面接を受けた」なら I was interviewed by the manager. とする。目的語を省いた We are interviewing next week. も採用側の意味になれる。一方、応募者主語の I’m interviewing for a job. は語義5で、目的語がないだけで常に採用側と決まるわけではない。interview someone to do で「相手に何かをするよう面接する」という補文を作らない。interviewing は現在分詞・動名詞で、interviewing skills は面接・聞き取りの技術。応募者が主語の進行形なら「面接を受けている」となることもあり、語義5を参照。interviewed は過去形・過去分詞で、the people interviewed は過去分詞が people を後ろから修飾する「面接・取材された人々」。  
 
 【類義語】
 
@@ -265,7 +265,7 @@ view は「見る」という要素と関係し、同じラテン語 videre「�
 頻度: 〈9/10〉  
 違い: interview より広い一般語で、正式な面接や採用目的は意味に含まれない。  
 例: The panel questioned each candidate about their previous work.  
-訳: 面接担当者たちは、候補者一人ひとりに前職の仕事について質問した。  
+訳: 面接担当者たちは、候補者一人ひとりに、以前に取り組んだ仕事について質問した。  
 
 4. 【動詞・他動詞】取材する、聞き取りをする
 
