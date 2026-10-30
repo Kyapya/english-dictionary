@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-10
-updated_at: 2026-10-11
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -254,14 +254,14 @@ stand の要素を共有する語には standpoint「立場、観点」と stand
 ・outstanding orders  
 用途: 商品をまだ納め終えていない注文を指す。  
 例: The warehouse will clear all outstanding orders before accepting new ones.  
-訳: 倉庫は新しい注文を受け付ける前に、未出荷の注文をすべて処理する予定だ。  
+訳: 倉庫は新しい注文を受け付ける前に、まだ履行し終えていない注文をすべて処理する予定だ。  
 
 ・an outstanding arrest warrant  
 用途: 発付され、まだ執行されずに残っている逮捕令状を指す。  
 例: The police checked whether there was an outstanding arrest warrant for the driver.  
 訳: 警察は、その運転者に未執行の逮捕令状が出ていないかを確認した。  
 
-【語法・注意】an outstanding problem は通常「未解決の問題」で、「優れた問題」ではない。outstanding work は文脈次第で語義1の「素晴らしい仕事」にもなるため、進捗なら still outstanding / work that remains to be done などで明確にする。まだ終わっていなくても期限前なら outstanding を使え、overdue「期限を過ぎた」とは区別する。outstanding warrant は未執行で有効に残る令状を指すが、それだけで有罪判決や逮捕の完了を意味しない。失効・取消しなどの制度上の扱いは法域や令状の種類による。  
+【語法・注意】an outstanding problem は通常「未解決の問題」で、「優れた問題」ではない。outstanding work は文脈次第で語義1の「素晴らしい仕事」にもなるため、進捗なら still outstanding / work that remains to be done などで明確にする。まだ終わっていなくても期限前なら outstanding を使え、overdue「期限を過ぎた」とは区別する。outstanding warrant は未執行のまま残っている令状を指す。それだけで有罪判決や逮捕の完了を意味せず、令状が法的に有効かどうかまでこの語だけで判断することはできない。失効・取消しなどの制度上の扱いは法域や令状の種類による。  
 
 【類義語】
 
