@@ -3,9 +3,9 @@ headword: entertain
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: OpenAI assistant (exact model not exposed)
+model: unknown
 created_at: 2026-10-08
-updated_at: 2026-10-11
+updated_at: 2026-10-30
 checked: true
 tags: []
 ---
@@ -23,7 +23,7 @@ retain「保持する」、maintain「維持する」も tenere「保つ」に�
 ＃語形成
 
 ・entertains / entertained / entertaining：三人称単数現在形／過去形・過去分詞／現在分詞。語幹の末尾を変えずに -s、-ed、-ing を付ける。  
-・entertaining：形容詞「楽しくて面白い」（語義3）。不可算名詞「客をもてなすこと」（語義6）にもなる。進行形の動詞との区別は後続要素で確認する。  
+・entertaining：形容詞「楽しくて面白い」（語義3）。不可算名詞「客をもてなすこと」（語義6）にもなる。進行形の動詞との区別には、目的語などの後続要素に加え、文脈や主語の役割も手掛かりにする。  
 ・entertained：過去分詞。「楽しませてもらっている・退屈せずにいる」という受動・結果状態は語義1で扱う。entertaining「人を楽しませる性質の」と役割が逆になる。  
 ・entertainingly：副詞「面白く・楽しく」。話し方や書き方などを修飾する。  
 ・entertainment：名詞「娯楽・余興・催し」「もてなし・接待」。活動一般は不可算が基本で、個々の催しを指す可算用法もある。client entertainment は「顧客接待」であり、必ずしも舞台公演ではない。  
@@ -289,7 +289,7 @@ retain「保持する」、maintain「維持する」も tenere「保つ」に�
 訳: 一時は書店を開くことを考えてみたが、事業計画を作るまでには至らなかった。  
 
 ・entertain the possibility that 〈節〉  
-用途: 今まで想定していなかった可能性を思考の中に入れる。  
+用途: ある可能性を考慮の対象にする。以前から認識していた可能性にも使える。  
 例: We must entertain the possibility that the original estimate was wrong.  
 訳: 当初の見積もりが間違っていた可能性も考慮しなければならない。  
 
