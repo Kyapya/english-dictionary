@@ -3,9 +3,9 @@ headword: prescribe
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: OpenAI assistant (exact model not exposed)
+model: unknown
 created_at: 2026-10-07
-updated_at: 2026-10-10
+updated_at: 2026-10-30
 checked: true
 tags: []
 ---
@@ -69,7 +69,7 @@ tags: []
 ・be prescribed something  
 用途: 患者を主語にして、処方を受けたことを述べる。  
 例: I was prescribed a short course of medication.  
-訳: 私は短期間分の薬を処方された。  
+訳: 私は短期間の薬物療法を処方された。  
 
 ・be prescribed to treat something  
 用途: 薬がどの病気・症状を治療する目的で処方されるかを述べる。  
@@ -239,7 +239,7 @@ tags: []
 ・acquire by prescription  
 定義: 所有権などを、時効の成立によって取得する。  
 頻度: 〈2/10〉  
-違い: 権利取得の結果を明示する句。prescribe は、文脈によって時効取得を主張することや、そのための期間が進行することも表す。  
+違い: 権利取得の結果を明示する句。prescribe は時効取得を主張する意味でも使う。commence to prescribe では句全体で時効取得に向けた期間の進行開始を表し、開始の意味は commence が担う。  
 例: The dispute concerns ownership allegedly acquired by prescription.  
 訳: その争いは、時効によって取得したと主張される所有権に関するものだ。  
 
