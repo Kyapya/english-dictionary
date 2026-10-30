@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra xhigh
 created_at: 2026-10-11
-updated_at: 2026-10-11
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -24,8 +24,6 @@ tags: []
 ・contribution: 名詞「寄付・拠出、貢献、寄稿」。個々の寄付や寄稿は可算で、make a contribution to 〈名詞〉 の形をよく使う。  
 ・contributor: 可算名詞「寄付者、寄稿者、貢献者、要因」。人だけでなく、a major contributor to pollution「汚染の大きな要因」のように物・活動も指す。  
 ・contributory: 形容詞「一因となる、拠出を伴う」。a contributory factor は「一因」、a contributory pension scheme は加入者などが掛金を拠出する年金制度。制度の条件は語だけでは決まらない。  
-・contributing: 現在分詞。a contributing factor「一因となる要素」、a contributing editor「寄稿編集者」のように名詞の前でも用いる。前者は原因義、後者は出版義に対応する。  
-・contributed: 過去形・過去分詞。contributed funds「拠出された資金」のような限定用法も、基本的には動詞の受動的な意味を保つ。  
 
 ＃コアイメージ
 
@@ -96,7 +94,7 @@ tags: []
 例: Most of the materials were contributed to the project by local businesses.  
 訳: 資材の大半は、地元企業からそのプロジェクトに提供された。  
 
-【語法・注意】contribute money to the fund は「資金を基金に出す」、contribute to the fund は「基金に拠出する」。to の後が提供先であり、contribute the fund とすると基金自体を提供する意味になり得る。「彼らに資金を出す」は contribute money to them とし、contribute them money という二重目的語にはしない。to/toward/towards は前置詞で、contribute to buying new equipment のように後ろの動詞は -ing 形にする。have something to contribute の to は不定詞であり、別構造。会議の contribute は「出席する」だけではなく意見などを加えること。「協力したい」のつもりで contribute myself とせず、contribute や contribute my time を使う。共同活動に一部を出すことが中心だが、ほかの提供者の存在や、全体に占める小さな割合を常に明示する必要はない。  
+【語法・注意】活用形は contributes、contributed、contributing。contributed funds「拠出された資金」は過去分詞による名詞の修飾で、提供される側を表す。活用形が存在することと、派生語が作られることは区別する。contribute money to the fund は「資金を基金に出す」、contribute to the fund は「基金に拠出する」。to の後が提供先であり、contribute the fund とすると基金自体を提供する意味になり得る。「彼らに資金を出す」は contribute money to them とし、contribute them money という二重目的語にはしない。to/toward/towards は前置詞で、contribute to buying new equipment のように後ろの動詞は -ing 形にする。have something to contribute の to は不定詞であり、別構造。会議の contribute は「出席する」だけではなく意見などを加えること。「協力したい」のつもりで contribute myself とせず、contribute や contribute my time を使う。共同活動に一部を出すことが中心だが、ほかの提供者の存在や、全体に占める小さな割合を常に明示する必要はない。  
 
 【類義語】
 
@@ -108,9 +106,9 @@ tags: []
 訳: その店は、避難所に毛布を寄付した。  
 
 ・chip in  
-定義: 口語で、ほかの人と一緒に少額の金銭や助力を出す。  
+定義: 口語で、ほかの人と一緒に金銭や助力を出す。  
 頻度: 〈7/10〉  
-違い: contribute よりくだけており、共同の贈り物や食事代などの分担によく合う。  
+違い: contribute よりくだけており、共同の贈り物や食事代などの分担によく合う。金額が少額であることを必須条件にはしない。  
 例: We all chipped in to buy a farewell gift.  
 訳: 私たちはみんなでお金を出し合って、送別の品を買った。  
 
@@ -268,3 +266,4 @@ tags: []
 違い: この用法では内容提供が重なるが、著者本人の寄稿とは限らず、通信社などの供給業務にも使う。  
 例: The agency supplies photographs to newspapers worldwide.  
 訳: その通信社は、世界各地の新聞に写真を提供している。  
+
