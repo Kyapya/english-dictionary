@@ -3,9 +3,9 @@ headword: network
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: unknown
 created_at: 2026-10-04
-updated_at: 2026-10-04
+updated_at: 2026-10-30
 checked: true
 tags: []
 ---
@@ -60,7 +60,7 @@ net「網」と work「作られたもの、細工」の複合語。もとは糸
 
 ・同じ背景を持つ男性のつながりによる互助 → 「同窓・身内の男性人脈」（語義10）  
 
-・放送局のつながりを使う番組送出 → 「系列局で同時放送する」（語義11）  
+・放送局のつながりを使う番組送出 → 「系列局で放送する」（語義11）  
 
 ・糸や線のつながりによる網状の作り → 「網細工、網地」（語義12）  
 
@@ -429,7 +429,7 @@ net「網」と work「作られたもの、細工」の複合語。もとは糸
 
 7. 【名詞・不可算：networking】人脈形成、交流活動
 
-【日本語訳・定義】仕事や専門活動のために人とつながり、関係を育てる活動。動詞 network からできた活動名詞で、行為を一つの活動分野・機会として述べる。  
+【日本語訳・定義】人とつながり、関係を育てる活動。特に仕事や専門活動に役立つ人脈形成についてよく使う。動詞 network からできた活動名詞で、行為を一つの活動分野・機会として述べる。  
 
 【頻度】〈7/10〉  
 
@@ -563,7 +563,7 @@ net「網」と work「作られたもの、細工」の複合語。もとは糸
 例: Wireless networking allows staff to move between rooms without losing access.  
 訳: 無線ネットワークにより、職員は接続を保ったまま部屋を移動できる。  
 
-【語法・注意】The network is down. は「通信網が停止している」、She studies networking. は「彼女はネットワーク技術を学んでいる」。後者の networking を、仕事上の「人脈作り」（語義7）と取り違えない。技術の活動名詞なので通常不可算で、networking equipments ではなく networking equipment とする。  
+【語法・注意】The network is down. は「通信網が停止している」、She studies networking. は「彼女はネットワーク技術を学んでいる」。後者の networking を、仕事上の「人脈作り」（語義7）と取り違えない。networking は技術や活動を表す名詞として通常不可算。networking equipment では equipment が名詞句の中心であり、equipment も通常不可算なので networking equipments とはしない。  
 
 10. 【名詞句・通常単数：the old-boy network】同窓・身内の男性人脈
 
@@ -598,7 +598,7 @@ net「網」と work「作られたもの、細工」の複合語。もとは糸
 例: The board was criticized for operating like an old boys' club.  
 訳: その取締役会は、男性の身内集団のように運営されていると批判された。  
 
-11. 【動詞・他動詞】系列局で同時放送する
+11. 【動詞・他動詞】系列局で放送する
 
 【日本語訳・定義】テレビ・ラジオ番組を放送ネットワークに流し、複数地域の局で放送する。番組を目的語に取り、受動形で全国・広域に放送されることを述べる場合が多い。  
 
@@ -606,7 +606,7 @@ net「網」と work「作られたもの、細工」の複合語。もとは糸
 
 【レジスター/領域】放送業界。特に英国式用法。  
 
-【文法パターン】network 〈番組〉＝系列局へ番組を送る／be networked nationally＝全国の系列局で放送される／be networked across 〈地域〉＝地域全体でネット放送される／a nationally networked program＝全国ネットの番組。  
+【文法パターン】network 〈番組〉＝系列局へ番組を送る／be networked nationally＝全国の系列局で放送される／be networked across 〈地域〉＝その地域の系列局で放送される／a nationally networked program＝全国ネットの番組。  
 
 【コロケーション・構文例】
 
@@ -621,11 +621,11 @@ net「網」と work「作られたもの、細工」の複合語。もとは糸
 訳: その番組は地方で制作されたが、全国ネットで放送された。  
 
 ・be networked across 〈地域〉  
-用途: 番組の同時放送範囲を示す。  
+用途: 番組を流す放送網の地域的な範囲を示す。  
 例: The evening bulletin is networked across the country.  
-訳: 夕方のニュースは全国で同時放送されている。  
+訳: 夕方のニュースは全国の系列局で放送されている。  
 
-【語法・注意】network the computers（語義8）は機器を接続し、network the program は番組を系列局で放送する。目的語が機器か番組かで意味が変わる。networked drama の networked は放送の過去分詞であり、必ずしも「インターネット配信された」という意味ではない。  
+【語法・注意】network the computers（語義8）は機器を接続し、network the program は番組を系列局で放送する。目的語が機器か番組かで意味が変わる。networked drama の networked は放送の過去分詞であり、必ずしも「インターネット配信された」という意味ではない。同じ番組を複数局で同時放送する場面にも使うが、放送網への番組供給を述べる用法もある。放送時刻がそろっているかは文脈で確認する。  
 
 【類義語】
 
