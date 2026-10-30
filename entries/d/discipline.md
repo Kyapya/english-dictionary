@@ -3,9 +3,9 @@ headword: discipline
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: unknown
 created_at: 2026-10-03
-updated_at: 2026-10-06
+updated_at: 2026-10-30
 checked: true
 tags: []
 ---
@@ -275,7 +275,7 @@ tags: []
 ・discipline a child  
 用途: 不適切な行動に対し、子どもを叱るなどして正す。  
 例: When she disciplined her son for hitting his younger brother, she explained why the behaviour was unacceptable.  
-訳: 息子が弟をたたいたため、彼女は叱ったうえで、なぜその行動がいけないのかを説明した。  
+訳: 弟をたたいた息子の行動を正す際、彼女はなぜその行動がいけないのかを説明した。  
 
 ・be disciplined by 〈組織/責任者〉  
 用途: 処分される人を主語にする。  
@@ -477,7 +477,7 @@ tags: []
 ・a form of discipline  
 用途: 罰や懲戒の一つの方法を示す。  
 例: The school uses temporary loss of privileges as a form of discipline.  
-訳: その学校は、懲戒の一つとして、一定期間一部の活動などへの参加を認めない措置を取っている。  
+訳: その学校は、懲戒の一つとして、生徒に認めている特典を一定期間取り上げる措置を取っている。  
 
 【語法・注意】この意味でも通常不可算で、a discipline を「一件の処分」とするのは一般的ではない。個別の措置なら a disciplinary measure、a penalty などを使う。discipline だけで解雇・停学などの処分内容は決まらない。disciplinary action も組織でよく使う表現。学校や家庭の文脈では「しつけ」と「罰」が重なるため、文脈が実際の処置を指すか、継続的な指導全体を指すかで語義1と区別する。  
 
