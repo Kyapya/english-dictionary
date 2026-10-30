@@ -3,9 +3,9 @@ headword: harm
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: unknown
 created_at: 2026-10-03
-updated_at: 2026-10-06
+updated_at: 2026-10-30
 checked: true
 tags: []
 ---
@@ -46,7 +46,7 @@ tags: []
 
 【レジスター/領域】会話・文章の一般語。環境、健康、社会、事業の影響を述べる場面にも使う。  
 
-【文法パターン】harm to 〈被害を受ける対象〉＝～への害／do harm to someone/something＝～に害を与える／do someone/something harm＝～に害を与える／cause harm to someone/something＝～に害をもたらす／cause someone/something harm＝～に害をもたらす／inflict harm on someone/something＝～に危害を加える／come to harm＝被害に遭う／harm + come to someone/something＝～に害が及ぶ／mean someone no harm＝人に危害を加えるつもりはない／mean no harm＝悪意はない／wish someone no harm＝人の不幸を望まない／in harm's way＝危険にさらされて／out of harm's way＝危険を及ぼしたり受けたりしない場所に／no harm done＝大したことはなかった、気にしなくてよい／no harm, no foul＝実害はないので気にしない（主に米・口語）  
+【文法パターン】harm to 〈被害を受ける対象〉＝～への害／do harm to someone/something＝～に害を与える／do someone/something harm＝～に害を与える／cause harm to someone/something＝～に害をもたらす／cause someone/something harm＝～に害をもたらす／inflict harm on someone/something＝～に危害を加える／do more harm than good＝よい効果より悪い影響を多くもたらす／come to harm＝被害に遭う／harm + come to someone/something＝～に害が及ぶ／mean someone no harm＝人に危害を加えるつもりはない／mean no harm＝悪意はない／wish someone no harm＝人の不幸を望まない／in harm's way＝危険にさらされて／out of harm's way＝危険を及ぼしたり受けたりしない場所に／no harm done＝大したことはなかった、気にしなくてよい／no harm, no foul＝実害はないので気にしない（主に米・口語）  
 
 【コロケーション・構文例】
 
@@ -273,7 +273,7 @@ tags: []
 
 3. 【名詞を含む否定・疑問の慣用構文】～しても差し支えない、～してみてはどうか
 
-【日本語訳・定義】ある行動に大きな悪影響はなさそうだとして、許容したり、試すことを勧めたりする。実際の損害を否定する語義1から発達した会話的な用法で、控えめな助言や「少しはそうしたら」という促しにもなる。  
+【日本語訳・定義】ある行動に大きな悪影響はなさそうだとして、許容したり、試すことを勧めたりする。害がないという語義1の意味を、行動の許容や提案に用いる会話的な用法で、控えめな助言や「少しはそうしたら」という促しにもなる。  
 
 【頻度】〈7/10〉  
 
