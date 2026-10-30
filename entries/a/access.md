@@ -3,9 +3,9 @@ headword: access
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: unknown
 created_at: 2026-10-03
-updated_at: 2026-10-04
+updated_at: 2026-10-30
 checked: true
 tags: []
 ---
@@ -84,7 +84,7 @@ tags: []
 ・internet access  
 用途: インターネットを利用できる環境。  
 例: Internet access is included in the room rate.  
-訳: インターネットの利用料金は宿泊費に含まれています。  
+訳: 宿泊費にはインターネットの利用も含まれています。  
 
 ・have direct access to someone  
 用途: 間に人を挟まず、特定の人物と接触できる。  
@@ -258,7 +258,7 @@ tags: []
 ・access 〈場所・内部〉  
 用途: 場所にたどり着く、中へ入る、または対象に手が届いて作業できるようにする。  
 例: Remove the cover to access the battery compartment.  
-訳: カバーを外すと電池収納部に手が届きます。  
+訳: 電池収納部に手が届くように、カバーを外してください。  
 
 ・access 〈場所〉 via 〈経路〉  
 用途: どの経路を通って入るかを示す。  
