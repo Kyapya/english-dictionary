@@ -3,9 +3,9 @@ headword: dominate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: unknown
 created_at: 2026-10-03
-updated_at: 2026-10-06
+updated_at: 2026-10-30
 checked: true
 tags: []
 ---
@@ -274,7 +274,7 @@ tags: []
 例: The small square is dominated by a tall clock tower.  
 訳: 小さな広場には高い時計塔がそびえ、ひときわ目を引く。  
 
-【語法・注意】この意味では建物や山が主語になるため、「町を政治的に支配する」と直訳しない。高い位置から見下ろすことと、実際に眺望を持つ人の視点は別である。dominate the skyline は高さ・存在感を示すが、周囲の何倍の高さかは指定しない。語義3の「割合や話題の中心」と区別しつつ、景観での存在感という連続性も押さえる。  
+【語法・注意】能動態では建物や山が主語になり、場所や景観を目的語に取る。受動態では場所が主語となり、建物や山は by の後ろに置かれる。いずれも地形や建物の位置・存在感を述べるため、「町を政治的に支配する」とは解釈しない。高い位置から見下ろすことと、実際に眺望を持つ人の視点は別である。dominate the skyline は高さ・存在感を示すが、周囲の何倍の高さかは指定しない。語義3の「割合や話題の中心」と区別しつつ、景観での存在感という連続性も押さえる。  
 
 【類義語】
 
