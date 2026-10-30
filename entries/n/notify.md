@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra xhigh
 created_at: 2026-10-11
-updated_at: 2026-10-11
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -23,8 +23,6 @@ tags: []
 
 ・notification: 可算・不可算名詞「通知、通知すること」。個々の通知書やアプリの通知は可算で、通知という行為は不可算にもなる。  
 ・notifiable: 形容詞「届け出る義務のある」。notifiable diseases「届出対象の疾病」などで使い、何が対象かは制度による。「知らせることができる」だけの一般的な意味とは区別する。  
-・notified / notifying / notifies: 過去形・過去分詞／現在分詞／三人称単数現在形。子音字＋y のため notified、notifies では y を i に変えるが、notifying では y を残す。  
-・notified parties: 「通知を受けた関係者」。notified の限定用法は、通常は通知を受けたという受動の意味を保つ。単に「事情に詳しい」の informed と同じ形容詞として広げない。  
 
 ＃意味・用法・関連表現
 
@@ -85,7 +83,7 @@ tags: []
 例: The revised meeting date was notified to all committee members.  
 訳: 変更後の会議日程が、委員全員に正式に通知された。  
 
-【語法・注意】日常的な作文の基本は notify the customer of the change と notify the customer that the date has changed。notify someone about 〈事柄〉＝人に～について知らせる、も使える。notify the customer the change のように人と内容をそのまま並べない。notify to the customer だけで「顧客に通知する」とはせず、人を目的語にして notify the customer とする。ただし、notify the change to the customer という「内容＋to＋宛先」の正式な構文は実在するため、「notify は人しか目的語に取れない」「to は使えない」と断定しない。この物目的語型は特に行政・規程・正式な通知の文章に合い、通常の顧客メールでは人目的語型のほうが使いやすい。be notified of/by の of は内容、by は通知者・通知手段を導くため、Employees were notified of the closure by management. は「従業員が経営陣から閉鎖の通知を受けた」。書面は in writing、手段は by email などとする。Please notify us if ... の if は「もし～なら」の条件を導き、that 節で通知内容を述べる形と区別する。notify は知らせる行為であり、相手の記憶を促す remind、許可を求める apply、同意を得る obtain approval と同じではない。  
+【語法・注意】notified、notifying、notifies は活用形。子音字＋y のため notified、notifies では y を i に変えるが、notifying では y を残す。notified parties「通知を受けた関係者」は過去分詞による名詞の修飾で、通知を受けたという受動の意味を保つ。単に「事情に詳しい」という informed の形容詞用法と同一視しない。日常的な作文の基本は notify the customer of the change と notify the customer that the date has changed。notify someone about 〈事柄〉＝人に～について知らせる、も使える。notify the customer the change のように人と内容をそのまま並べない。notify to the customer だけで「顧客に通知する」とはせず、人を目的語にして notify the customer とする。ただし、notify the change to the customer という「内容＋to＋宛先」の正式な構文は実在するため、「notify は人しか目的語に取れない」「to は使えない」と断定しない。この物目的語型は特に行政・規程・正式な通知の文章に合い、通常の顧客メールでは人目的語型のほうが使いやすい。be notified of/by の of は内容、by は通知者・通知手段を導くため、Employees were notified of the closure by management. は「従業員が経営陣から閉鎖の通知を受けた」。書面は in writing、手段は by email などとする。Please notify us if ... の if は「もし～なら」の条件を導き、that 節で通知内容を述べる形と区別する。notify は知らせる行為であり、相手の記憶を促す remind、許可を求める apply、同意を得る obtain approval と同じではない。  
 
 【類義語】
 
@@ -130,3 +128,4 @@ tags: []
 違い: notify より注意喚起の面が強い。alert someone to something の形を取り、通知内容が必ず悪いこととは限らないが、対応すべき変化を意識させる。  
 例: The dashboard alerts users to unusual activity.  
 訳: ダッシュボードは、不審な動きがあると利用者に注意を促す。  
+
