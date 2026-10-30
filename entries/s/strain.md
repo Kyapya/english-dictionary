@@ -3,9 +3,9 @@ headword: strain
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: unknown
 created_at: 2026-10-02
-updated_at: 2026-10-16
+updated_at: 2026-10-30
 checked: true
 ---
 
@@ -35,7 +35,7 @@ checked: true
 
 ＃コアイメージ
 
-多くの語義では、「張り・伸び・変形」と、それを人の働きや許容範囲に重ねた「力や余裕を目いっぱい使うこと」が意味をつなぐ。語義17は変形の程度を表す側につながり、張力・外力・限界超過を必須としない。<br>語義3は別語源の同綴異義で、「生物の系統」という意味はこの核から導けないため個別に参照する。語義13は、気質・性質の用法を同綴異義、文体・調子の用法を歴史的残存義として整理するが、現在の「性質・調子」という意味はいずれもこの核から直接導かない。語義8・15は歴史的残存義で、現在の「液体と固体を分ける操作」「音楽の調べ」という意味そのものはこの核から導けないため個別に参照する。これは現在のろ過用法を古語とする意味ではなく、音楽義の歴史的な成立過程も断定しない。  
+多くの語義では、「張り・伸び・変形」と、それを人の働きや許容範囲に重ねた「力や余裕を目いっぱい使うこと」が意味をつなぐ。語義17は変形の程度を表す側につながり、張力・外力・限界超過を必須としない。<br>語義3は別語源の同綴異義で、「生物の系統」という意味はこの核から導けないため個別に参照する。語義8は、古くからある「こし分ける」意味を現在の負荷の意味から直接推測しにくいため、ここでは歴史的残存義として別に覚える。現在のろ過用法を古語とする意味ではない。<br>語義13の「性質・調子」と語義15の「音楽の調べ」は、同綴異義としてまとめる辞書と、張る意味からの歴史的な展開を説明する資料とで扱いが異なる。本記事では、この二つの語義を同綴異義・歴史的残存義のどちらか一方に確定せず、現在の「負荷」の意味から直接導かない用法として個別に参照する。音楽義の具体的な成立経路も断定しない。  
 
 ・力や余裕への重い負荷 → 「負担・重圧・心身の緊張」（語義1）  
 
@@ -406,8 +406,8 @@ checked: true
 
 ・strain oneself  
 用途: 人全体について、無理をして体を痛めるという。  
-例: Don't strain yourself trying to move that cabinet alone.  
-訳: あの戸棚を一人で動かそうとして、体を痛めないで。  
+例: He strained himself lifting a heavy cabinet and needed treatment for an injured back muscle.  
+訳: 彼は重い戸棚を持ち上げて体を痛め、背中の筋肉の損傷で治療を受ける必要があった。  
 
 【語法・注意】strain oneself には語義5の「大いに努力する」もあり、ここでは身体を痛める意味を扱う。Don't strain yourself. は文脈により、けがへの注意にも、単に「そんなに無理をしなくていい」という助言にもなる。strain myself は自分自身に無理をさせる能動再帰形。My back was strained. は部位を主語にする受動・結果状態で、myself が省略された形ではない。a strained muscle の strained は「痛めた」という結果を表し、語義10の対人関係の「ぎくしゃくした」とは違う。sprain と strain の医学上の区別は語義7。  
 
@@ -512,9 +512,9 @@ checked: true
 訳: 私たちはラズベリーソースから種をこし取った。  
 
 ・strain off 〈液体〉  
-用途: 余分な液体を分けて取り除く。  
-例: There was excess juice in the bowl, so I strained it off.  
-訳: ボウルに余分な果汁があったので、私はそれをこして除いた。  
+用途: 液体を固形物からこし分けて取り出す。  
+例: The cooked berries had released plenty of juice, so I strained it off.  
+訳: 煮たベリーから果汁がたっぷり出ていたので、私はそれをこし分けた。  
 
 ・strain 〈液体〉 from 〈固形物〉  
 用途: 液体の取り出し元を from で示す。  
@@ -910,7 +910,7 @@ checked: true
 
 ・be straining at the leash to do something  
 用途: 実行の機会を強く待ち望む。  
-例: After weeks of rehearsal, the cast were straining at the leash to perform.  
+例: After weeks of rehearsal, the actors were straining at the leash to perform.  
 訳: 何週間も稽古を重ねた役者たちは、早く舞台に立ちたくてうずうずしていた。  
 
 【語法・注意】語義14の字義的な犬の動作とは別に覚える。to 不定詞は望む行動を示す。the leash はこの慣用表現の一部で、leash を任意の名詞に替えて同じ意味になるわけではない。進行形が使いやすいが、時制を変えられない固定文ではない。  
