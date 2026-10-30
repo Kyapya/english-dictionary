@@ -3,9 +3,9 @@ headword: deliberate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: unknown
 created_at: 2026-10-10
-updated_at: 2026-10-10
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -24,7 +24,6 @@ deliberates の語尾は /reɪts/、deliberated は /reɪtɪd/、deliberating �
 
 ＃語形成
 
-・deliberates／deliberated／deliberating：動詞の活用形。deliberated は過去形・過去分詞で、形容詞 deliberate「意図的な」とは形も発音も異なる。  
 ・deliberately：副詞「意図的に・わざと」、または「ゆっくり慎重に」。行動の意図か動作の仕方かを文脈で区別する。  
 ・deliberation：名詞「熟慮・審議」。過程としては不可算、会議や陪審などの審議は deliberations と複数形でも表す。with deliberation では「落ち着いて慎重に」という動作の仕方を表すこともある。  
 ・deliberative：形容詞「慎重に考える・審議の」。a deliberative assembly「審議機関」、a deliberative process「熟議の過程」などに使い、deliberate lie の「意図的な」とは交換しない。  
@@ -143,7 +142,7 @@ deliberates の語尾は /reɪts/、deliberated は /reɪtɪd/、deliberating �
 
 2. 【形容詞：限定・叙述】ゆっくり慎重な・落ち着いた
 
-【日本語訳・定義】動作・話し方・進み方などが、急がず、一つ一つを確かめるように落ち着いている。単に速度が低いというだけでなく、慎重で一定した運び方が中心になる。ただし外から見える動作の描写としても使うため、実際にどれほど考えているかや、なぜ遅いかまで必ず示すわけではない。  
+【日本語訳・定義】動作・話し方・進み方などが、急がず、一つ一つを確かめるように落ち着いている。単に速度が低いというだけでなく、急がず慎重に進める運び方が中心になる。ただし外から見える動作の描写としても使うため、実際にどれほど考えているかや、なぜ遅いかまで必ず示すわけではない。  
 
 【頻度】〈6/10〉  
 
@@ -339,7 +338,7 @@ deliberates の語尾は /reɪts/、deliberated は /reɪtɪd/、deliberating �
 例: These issues will be deliberated on by the full committee tomorrow.  
 訳: これらの問題は、明日の委員会全体会合で審議される。  
 
-【語法・注意】deliberate on the issue は自動詞に前置詞 on を付けた形で、on を自由に後ろへ移す句動詞ではない。deliberate the issue も正しい他動詞構文なので、「on がなければ誤り」としない。代名詞でも deliberate on it と、改まった他動詞の deliberate it が可能だが、日常的には consider it が使われやすい。直接目的語の受動形 The matter was deliberated by the committee. と、前置詞を残した The matter was deliberated on by the committee. を混同しない。「赴任するか検討する」なら正: deliberate whether to move abroad。誤: deliberate to move abroad。この意味で to不定詞を直接目的語のように続ける形は基本構文にしない。whether/how などが導く節は疑問文の倒置をしない。He deliberated. は一人でも成立し、再帰代名詞 himself は必要ない。deliberating は進行形・現在分詞、deliberated は過去形・過去分詞であり、形容詞 deliberate「意図的な」や deliberative「審議の」と交換しない。陪審が何時間審議すべきか、全員一致が必要かなどの制度条件は、この動詞の意味に含まれない。  
+【語法・注意】deliberate on the issue は自動詞に前置詞 on を付けた形で、on を自由に後ろへ移す句動詞ではない。deliberate the issue も正しい他動詞構文なので、「on がなければ誤り」としない。代名詞でも deliberate on it と、改まった他動詞の deliberate it が可能だが、日常的には consider it が使われやすい。直接目的語の受動形 The matter was deliberated by the committee. と、前置詞を残した The matter was deliberated on by the committee. を混同しない。「赴任するか検討する」なら正: deliberate whether to move abroad。誤: deliberate to move abroad。この意味で to不定詞を直接目的語のように続ける形は基本構文にしない。whether/how などが導く節は疑問文の倒置をしない。He deliberated. は一人でも成立し、再帰代名詞 himself は必要ない。deliberates は三人称単数現在形、deliberated は過去形・過去分詞、deliberating は現在分詞形である。進行形は is deliberating のように be と現在分詞を組み合わせて作る。これらの動詞の活用形を、形容詞 deliberate「意図的な」や deliberative「審議の」と交換しない。陪審が何時間審議すべきか、全員一致が必要かなどの制度条件は、この動詞の意味に含まれない。  
 
 【類義語】
 
