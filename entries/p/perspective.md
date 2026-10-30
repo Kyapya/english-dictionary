@@ -3,9 +3,9 @@ headword: perspective
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: unknown
 created_at: 2026-10-03
-updated_at: 2026-10-04
+updated_at: 2026-10-30
 checked: true
 tags: []
 ---
@@ -59,7 +59,7 @@ tags: []
 訳: 私の立場からすると、準備に余分な時間をかけたかいがあった。  
 
 ・from the perspective of 〈人/集団〉  
-用途: 他の人や集団の立場に立って考える。  
+用途: 誰の立場から考えるかを示す。  
 例: We examined the timetable from the perspective of passengers who work at night.  
 訳: 私たちは夜間に働く乗客の立場から時刻表を検討した。  
 
@@ -123,7 +123,7 @@ tags: []
 【コロケーション・構文例】
 
 ・keep something in perspective  
-用途: 問題を全体の中で捉え、必要以上に重く見ない。  
+用途: 問題を全体の中に位置づけ、重要度を釣り合いよく捉える。  
 例: Try to keep one disappointing result in perspective; your work has improved a lot this year.  
 訳: 今回一度の残念な結果だけで判断しないようにしよう。今年はずいぶん上達しているのだから。  
 
@@ -133,7 +133,7 @@ tags: []
 訳: 修理代を新品の購入費と比べると、その出費をどう評価すべきかが見えてきた。  
 
 ・get something in perspective  
-用途: 混乱や不安から距離を置き、問題を適切に捉え直す。  
+用途: 比較や背景を踏まえ、物事の重要度を適切に捉え直す。  
 例: I needed a few days to get the setback in perspective.  
 訳: その挫折を冷静に捉え直すには、数日が必要だった。  
 
