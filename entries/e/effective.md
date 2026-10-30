@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra xhigh
 created_at: 2026-10-11
-updated_at: 2026-10-11
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -28,8 +28,8 @@ tags: []
 
 ＃コアイメージ
 
-名目や可能性にとどまらず、実際の働き・作用として成り立つことが中心にある。目的の実現、規則の効力、実質的な支配、表現の印象、電気的な作用、稼働できる兵力へと具体化する。  
-・実際の働きとして目的に届くこと → 「効果的な、有効な」（語義1）  
+名目だけでなく、実際の働き・作用を持つこと、またはそれを果たせることが中心にある。目的の実現、規則の効力、実質的な支配、表現の印象、電気的な作用、稼働できる兵力へと具体化する。  
+・実際の働きとして目的に届く力 → 「効果的な、有効な」（語義1）  
 ・実際の働きとして規則が適用されること → 「有効な、施行されている」（語義2）  
 ・実際の働きとして名目を超えて成立すること → 「実質的な、事実上の」（語義3）  
 ・実際の働きとして印象を生み出すこと → 「印象的な、表現効果のある」（語義4）  
@@ -47,7 +47,7 @@ tags: []
 
 【レジスター/領域】一般語。仕事、教育、政策、広告、研究などで広く使う。治療などの医学文脈でも使うが、語そのものに特定の試験条件は含まれない。  
 
-【文法パターン】an effective 〈方法・道具・人〉／something・someone + be・prove effective／be effective in doing something・be effective at doing something＝その行為で成果を上げる／be effective against 〈問題・脅威〉＝それに対して効く／be effective as 〈役割〉＝その用途を果たす／an effective way to do something・an effective means of doing something／make effective use of something。very・highly・more・less・equally で程度や比較を示せる。  
+【文法パターン】an effective 〈方法・道具・人〉／something・someone + be・prove effective／be effective in doing something・be effective at doing something＝その行為で成果を上げる／be effective against 〈問題・脅威〉＝それに対して効く／be effective as 〈役割〉＝その用途を果たす／be effective for doing something＝その目的の達成に役立つ／be effective for 〈人・集団〉＝その人々に有効である／an effective way to do something・an effective means of doing something／make effective use of something。very・highly・more・less・equally で程度や比較を示せる。  
 
 【コロケーション・構文例】
 
@@ -76,6 +76,16 @@ tags: []
 例: A printed checklist can be effective as a final reminder before departure.  
 訳: 印刷したチェックリストは、出発前の最終確認を促すものとして役立つ。  
 
+・be effective for doing something  
+用途: 何を達成するために役立つかを示す。  
+例: This exercise is effective for building confidence in new speakers.  
+訳: この練習は、話すことに慣れていない人が自信をつけるのに役立つ。  
+
+・be effective for 〈人・集団〉  
+用途: 方法や道具が、どの利用者にとって有効かを示す。  
+例: This visual guide is especially effective for beginners.  
+訳: この視覚的なガイドは、初心者にとって特に役立つ。  
+
 ・an effective means of doing something  
 用途: やや硬い文体で有効な手段を述べる。  
 例: Peer review is an effective means of identifying gaps in an argument.  
@@ -91,7 +101,7 @@ tags: []
 例: The temporary barrier proved effective during the overnight test.  
 訳: その仮設の防護柵は、一晩の試験で有効に機能した。  
 
-【語法・注意】effective は「目的に届くか」、efficient は「時間・費用・エネルギーなどを無駄にしないか」が中心。成果は出るが手間が大きい方法は effective but inefficient と言える。an effective manager は成果を上げる管理者、an efficient manager は無駄なく仕事を進める管理者で、両方を兼ねることもある。This method is effective to reduce errors と目的を直接続けるより、This method is effective in reducing errors、または This is an effective way to reduce errors とする。後者の to 不定詞は way を説明する。医学研究では efficacy と effectiveness を試験条件と実際の使用条件で区別することがあるが、その専門的な区分を一般英語の effective に一律に当てはめない。語義1での The measure is effective は効くという評価であり、The measure is in effect は施行・実施中という状態を表す。  
+【語法・注意】effective は「目的に届くか」、efficient は「時間・費用・エネルギーなどを無駄にしないか」が中心。成果は出るが手間が大きい方法は effective but inefficient と言える。an effective manager は成果を上げる管理者、an efficient manager は無駄なく仕事を進める管理者で、両方を兼ねることもある。This method is effective to reduce errors と目的を直接続けるより、This method is effective in reducing errors、または This is an effective way to reduce errors とする。後者の to 不定詞は way を説明する。for は役立つ目的や対象となる利用者を示し、for doing は in/at doing と意味が重なる場合もある。against は対処する問題・脅威、as は果たす役割を示すため、前置詞を機械的に置き換えない。医学研究では efficacy と effectiveness を試験条件と実際の使用条件で区別することがあるが、その専門的な区分を一般英語の effective に一律に当てはめない。語義1での The measure is effective は効くという評価であり、The measure is in effect は施行・実施中という状態を表す。  
 
 【類義語】
 
@@ -202,7 +212,7 @@ tags: []
 ・valid  
 定義: 正式な要件を満たし、認められる状態にある。  
 頻度: 〈8/10〉  
-違い: 資格・書類・契約などが有効と認められることを表す。effective が問う適用開始とは観点が異なり、有効な契約でも履行の開始日が先の場合がある。  
+違い: 資格・書類・契約などが有効と認められることを表す。effective は実際に効力を持つか、その効力がいつ生じるかに焦点を置く。両語が重なる場合もあるが、いずれも契約の履行開始日とは区別する。  
 例: Your pass is valid for thirty days.  
 訳: そのパスの有効期間は30日間だ。  
 
@@ -375,6 +385,11 @@ tags: []
 用途: 作戦に投入可能な兵員を数える。  
 例: The report listed five hundred effective troops and another sixty awaiting equipment.  
 訳: 報告書には、出動可能な兵員500人と、別に装備を待つ60人が記載されていた。  
+
+・remain effective  
+用途: 病気などで軍務に就けない者と対比し、なお任務に投入できる状態を述べる。  
+例: Only half the battalion remained effective, as the rest were too ill for duty.  
+訳: 残りの兵員は病気が重く軍務に就けなかったため、大隊の半数だけが引き続き任務に投入できる状態だった。  
 
 【語法・注意】effective troops は文脈によっては語義1「戦果を上げる兵員」とも読める。人員表・装備状況の記述では、この「軍務に使える」という意味を考える。非戦闘員や負傷者などを含むかどうかは、資料が採用する集計基準による。  
 
