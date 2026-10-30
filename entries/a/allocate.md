@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra xhigh
 created_at: 2026-10-11
-updated_at: 2026-10-11
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -23,7 +23,6 @@ tags: []
 
 ・allocation: 名詞「割当て、配分」。過程は不可算、個々の割当額・割当分は可算。the allocation of resources、an annual allocation のように使う。  
 ・reallocate: 他動詞「再配分する」。既存の割当てを見直し、ほかの用途・受け手へ振り向け直す。  
-・allocated: 過去形・過去分詞。allocated funds「割り当てられた資金」のように名詞を修飾するが、基本的に動詞の受動的意味を保つ。  
 ・unallocated: 形容詞「未配分の」。unallocated funds、unallocated space など、まだ用途や受け手が決まっていない資源に使う。  
 ・allocator: 可算名詞「配分を行う人・機構」。コンピューターではメモリー領域の割当てを行う仕組みにも使う。  
 
@@ -106,7 +105,7 @@ tags: []
 例: The system allocates more memory to the program when demand increases.  
 訳: 需要が増えると、そのシステムはプログラムにより多くのメモリーを割り当てる。  
 
-【語法・注意】allocate a room to her と allocate her a room はどちらも可能。代名詞で物を受けるなら allocate it to her が明確で、allocate her it は避ける。to は受け手・配分先、for は目的を示すことが多いが、allocate funds to the project と allocate funds for the project のように重なる場面もある。「to は人、for は物」とは覚えない。allocate money to buy equipment の to は目的の不定詞で、allocate money to the department の前置詞とは構造が違う。among は集団内の分配、between は個別に区別される対象間の分配を表し、between を必ず2者に限定する規則ではない。allocate staff to a project は人員配置、allocate work to staff は仕事の割当て。allocate yourself time の再帰代名詞は受け手で、「自分を配置する」という意味ではない。割り当てるだけで、購入・送金・利用の完了までは表さない。  
+【語法・注意】allocated は過去形・過去分詞で、活用形である。allocated funds「割り当てられた資金」は過去分詞による名詞の修飾で、資金が割当てを受けたという受動の意味を保つ。allocate a room to her と allocate her a room はどちらも可能。代名詞で物を受けるなら allocate it to her が明確で、allocate her it は避ける。to は受け手・配分先、for は目的を示すことが多いが、allocate funds to the project と allocate funds for the project のように重なる場面もある。「to は人、for は物」とは覚えない。allocate money to buy equipment の to は目的の不定詞で、allocate money to the department の前置詞とは構造が違う。among は集団内の分配、between は個別に区別される対象間の分配を表し、between を必ず2者に限定する規則ではない。allocate staff to a project は人員配置、allocate work to staff は仕事の割当て。allocate yourself time の再帰代名詞は受け手で、「自分を配置する」という意味ではない。割り当てるだけで、購入・送金・利用の完了までは表さない。  
 
 【類義語】
 
@@ -253,4 +252,5 @@ tags: []
 違い: 日常的で直接的。blame someone for something のように、責める相手が直接目的語になる。  
 例: The passengers blamed the airline for the confusion.  
 訳: 乗客たちは、その混乱を航空会社のせいだとした。  
+
 
