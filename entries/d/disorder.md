@@ -3,9 +3,9 @@ headword: disorder
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: unknown
 created_at: 2026-10-06
-updated_at: 2026-10-06
+updated_at: 2026-10-30
 checked: true
 tags: []
 ---
@@ -189,7 +189,7 @@ tags: []
 頻度: 〈6/10〉  
 違い: in disarray がよく使われ、物の配置にも組織の統制の崩れにも使える。disorder と近いが、医療的な疾患の意味はない。  
 例: Their travel plans were in disarray after the cancellation.  
-訳: 運休で彼らの旅行計画は混乱していた。  
+訳: そのキャンセルで、彼らの旅行計画は混乱していた。  
 
 ・chaos  
 定義: 秩序がなく、物事を把握・制御しにくい混乱状態。  
