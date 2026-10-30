@@ -3,9 +3,9 @@ headword: enhance
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: unknown
 created_at: 2026-10-03
-updated_at: 2026-10-03
+updated_at: 2026-10-30
 checked: true
 tags: []
 ---
@@ -147,7 +147,7 @@ tags: []
 ・intensify  
 定義: 強さ・程度をいっそう大きくする。  
 頻度: 〈7/10〉  
-違い: よい方向への改善を含めず、熱・対立・痛みなどの強まりにも使う。enhance の「作用を増強する」面と重なる。  
+違い: よい方向への改善を必ずしも含意せず、熱・対立・痛みなどの強まりにも使う。enhance の「作用を増強する」面と重なる。  
 例: The new evidence intensified the debate.  
 訳: 新たな証拠によって議論はいっそう激しくなった。  
 
