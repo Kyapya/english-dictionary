@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra xhigh
 created_at: 2026-10-11
-updated_at: 2026-10-11
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -25,16 +25,16 @@ tags: []
 ・enforceable（形容詞）＝法的に執行できる、守らせることができる。単に現時点で守られているという意味ではない。  
 ・unenforceable（形容詞）＝執行できない、実効的に守らせられない。違法であるという意味と同一ではない。  
 ・enforcer（可算名詞）＝規則・要求などを実行させる人。文脈によって取締り担当者、組織の強制役など。  
-・enforced（過去分詞・形容詞）＝執行された／強いられた。形容詞としての語義3も参照。  
+・enforced（形容詞）＝強いられた、やむを得ない。語義3を参照。動詞の過去形・過去分詞と同形だが、語義1の「執行された」という受動的な用法とは区別する。  
 ・reinforce（動詞）＝補強する、強める。現代語では enforce と使い分ける。  
 
 ＃コアイメージ
 
 中心にあるのは「力や権限を働かせて、ある行動や状態を成立させること」。法令の遵守、協力や沈黙の強制、外的事情によって強いられた状態につながる。力は物理的暴力とは限らず、規則・権限・仕組みや、本人には変えられない事情でもよい。  
 
-・力や権限で規則の遵守を成立させること → 「守らせる、執行する、履行させる」（語義1）  
-・力や権限で特定の行動を成立させること → 「強制する、強いて実現させる」（語義2）  
-・外からの力で状態が成立したこと → 「強いられた、やむを得ない」（語義3）  
+・力による規則の遵守の確保 → 「守らせる、執行する、履行させる」（語義1）  
+・力による特定の行動の実現 → 「強制する、強いて実現させる」（語義2）  
+・力による本人の意思に反する状態の成立 → 「強いられた、やむを得ない」（語義3）  
 
 ＃意味・用法・関連表現
 
@@ -123,7 +123,7 @@ tags: []
 
 【レジスター/領域】やや改まった文章、組織・教育・政治・社会の説明。日常の「人に～させる」には force や make が広く使われる。  
 
-【文法パターン】enforce + 〈silence/cooperation/obedience〉／enforce something on someone＝行動や状態などを人に強いる。目的語は主に強制される行動・状態で、通常の force someone to do と構文が異なる。受動も可能だが、外的事情による状態の形容詞 enforced は語義3を参照。  
+【文法パターン】enforce 〈silence/cooperation/obedience〉／enforce something on someone＝行動や状態などを人に強いる。目的語は主に強制される行動・状態で、通常の force someone to do と構文が異なる。受動も可能だが、外的事情による状態の形容詞 enforced は語義3を参照。  
 
 【コロケーション・構文例】
 
@@ -180,7 +180,7 @@ tags: []
 
 【レジスター/領域】やや改まった文章、報道、スポーツ、生活・仕事の説明。  
 
-【文法パターン】an enforced + 〈absence/break/stay〉／enforced + 〈inactivity/isolation〉／a period of enforced + 〈inactivity/absence〉。名詞の前で使うことが多い。The break was enforced rather than voluntary. のような叙述用法も可能だが、The rule was enforced. は普通、語義1の動詞の受動と解釈する。  
+【文法パターン】an enforced 〈absence/break/stay〉／enforced 〈inactivity/isolation〉／a period of enforced 〈inactivity/absence〉。名詞の前で使うことが多い。The break was enforced rather than voluntary. のような叙述用法も可能だが、The rule was enforced. は普通、語義1の動詞の受動と解釈する。  
 
 【コロケーション・構文例】
 
