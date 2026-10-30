@@ -3,9 +3,9 @@ headword: reveal
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: unknown
 created_at: 2026-10-03
-updated_at: 2026-10-06
+updated_at: 2026-10-30
 checked: true
 tags: []
 ---
@@ -321,7 +321,7 @@ tags: []
 訳: その雑誌は、彼女の政治家時代の内情がよく分かるインタビューを掲載した。  
 
 ・be particularly revealing  
-用途: 他の情報よりも、隠れた事情をよく示す点を指摘する。  
+用途: 隠れた事情をとりわけよく示していることを指摘する。  
 例: His refusal to answer the simplest question was particularly revealing.  
 訳: 彼がいちばん簡単な質問に答えようとしなかったことは、特に内情をよく示していた。  
 
