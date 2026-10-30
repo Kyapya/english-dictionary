@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: OpenAI assistant (exact model not exposed)
 created_at: 2026-10-10
-updated_at: 2026-10-11
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -21,8 +21,7 @@ over と look の結合による語で、中英語から用いられている。
 
 ＃語形成
 
-・overlooked：過去形・過去分詞。「見落とされた、十分に評価されていない」という状態を表す修飾語にもなる。an overlooked detail、a frequently overlooked writer のように使い、be overlooked や get overlooked とも結び付く。場所が主語なら「外から見下ろされる」という受動の意味にもなる。  
-・overlooking：現在分詞。a balcony overlooking the river のように、場所の位置や眺めを後ろから説明できる。「現在ちょうど見落としている」という意味に固定しない。  
+・overlooked：過去分詞に由来する形容詞用法では、「見落とされた、十分に注目・検討されていない」という状態を表す。an overlooked detail、a frequently overlooked writer のように名詞を修飾する。動詞の過去形・過去分詞と同形だが、すべての overlooked が形容詞とは限らず、場所が主語の be overlooked は「外から見下ろされる」という受動態にもなる。  
 ・overlooker：可算名詞。特に英国の古い工場などの文脈では「職長、監督者」。現代一般の役職名としては supervisor などのほうが普通で、語義6の監督義と関係する。  
 
 ＃意味・用法・関連表現
@@ -160,8 +159,8 @@ over と look の結合による語で、中英語から用いられている。
 定義: 失敗・失礼・欠点などを、事情を考慮して許す。  
 頻度: 〈8/10〉  
 違い: 理由を認めて責任を軽く見る含みがあり、単に問題にしない overlook と重なるが同一ではない。  
-例: The manager excused the delay because the train service had stopped.  
-訳: 電車が止まっていたため、上司は遅刻を許した。  
+例: The manager excused my late arrival because the train service had stopped.  
+訳: 電車が止まっていたため、上司は私の遅刻を許した。  
 
 ・forgive  
 定義: 過ちや害を与えた人への怒り・恨みを手放し、許す。  
@@ -192,7 +191,7 @@ over と look の結合による語で、中英語から用いられている。
 
 【レジスター/領域】一般、旅行、宿泊施設、不動産、景観描写。  
 
-【文法パターン】〈建物・部屋・高台〉 + overlook + 〈場所〉／someone overlooks 〈場所〉 from 〈高い位置〉。a room overlooking 〈場所〉 は能動の現在分詞による後置修飾。〈見られる場所〉 + be overlooked by 〈建物など〉 は受動態。be overlooked は外から見通せる状態も表す。  
+【文法パターン】〈建物・部屋・高台〉 + overlook + 〈場所〉／someone overlooks 〈場所〉 from 〈高い位置〉。a room overlooking 〈場所〉 は能動の現在分詞による後置修飾で、場所の位置や眺めを説明する。overlooking は動詞の活用形であり、「現在ちょうど見落としている」という意味に固定しない。〈見られる場所〉 + be overlooked by 〈建物など〉 は受動態。be overlooked は外から見通せる状態も表す。  
 
 【コロケーション・構文例】
 
@@ -309,8 +308,8 @@ over と look の結合による語で、中英語から用いられている。
 定義: 候補の中から人や物を選ぶ。  
 頻度: 〈8/10〉  
 違い: 候補者を選ばずに過ぎることに対し、選ぶという選考上の方向で対立する。  
-例: The committee selected her for the fellowship.  
-訳: 委員会は彼女を研究奨励金の受給者に選んだ。  
+例: The committee selected her to receive the research grant.  
+訳: 委員会は彼女を研究助成金の受給者に選んだ。  
 
 ・choose  
 定義: 複数の可能性の中から選ぶ。  
