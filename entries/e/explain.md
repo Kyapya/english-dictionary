@@ -3,9 +3,9 @@ headword: explain
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: unknown
 created_at: 2026-10-06
-updated_at: 2026-10-06
+updated_at: 2026-10-30
 checked: true
 tags: []
 ---
@@ -100,7 +100,7 @@ tags: []
 訳: その記事は暗号化を分かりやすい言葉で解説している。  
 
 ・explain something in detail  
-用途: 内容を省略せず、詳しく説明する。  
+用途: 内容の細部まで詳しく説明する。  
 例: The next chapter explains the process in detail.  
 訳: 次の章では、その過程を詳しく説明する。  
 
@@ -231,8 +231,8 @@ tags: []
 
 ・explain something in terms of something  
 用途: ある現象の原因を、特定の要因や枠組みから説明する。  
-例: The researchers explained the decline in terms of reduced access to food.  
-訳: 研究者たちは、餌を得にくくなったことから個体数の減少を説明した。  
+例: The researchers explained the decline in the bird population in terms of reduced access to food.  
+訳: 研究者たちは、餌を得にくくなったことから鳥の個体数の減少を説明した。  
 
 ・be unable to explain something  
 用途: 現象の存在は分かっていても、その原因を示せない。  
@@ -378,7 +378,7 @@ tags: []
 例: "You used my account without asking. Explain yourself."  
 訳: 「私に断りもなくアカウントを使ったね。どういうことか説明して」。  
 
-【語法・注意】この能動構文では、再帰代名詞が自分の行動を指す直接目的語になる。explain myself to you は「あなたに自分の行動を釈明する」、explain the rule to myself は「自分自身に規則を説明する」で、後者の myself は to の後ろにある受け手。語順と意味役割が違う。  
+【語法・注意】この能動構文では、再帰代名詞は主語と同じ人物を指し、直接目的語になる。explain oneself 全体で、その人自身の行動や発言の理由を説明するという意味を表す。explain myself to you は「あなたに自分の行動を釈明する」、explain the rule to myself は「自分自身に規則を説明する」で、後者の myself は to の後ろにある受け手。語順と意味役割が違う。  
 
 ・Explain yourself. は、単に「分かりやすく説明してください」と頼むつもりで使うと、相手を問い詰める響きになりやすい。語義5にも同じ形はあるが、意図を明確にするなら Could you explain what you mean? のように内容を示す。自分の性格や経歴を紹介することは、通常 introduce oneself や describe oneself で表す。  
 ・oneself を受動態の主語にして I was explained. としても、「私は釈明した」や「私は説明を受けた」にはならない。通常は能動の再帰構文を保ち、行動を主語にするなら My actions were explained to the committee. のように別の構文にする。  
