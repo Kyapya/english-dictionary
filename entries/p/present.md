@@ -3,9 +3,9 @@ headword: present
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: unknown
 created_at: 2026-10-03
-updated_at: 2026-10-03
+updated_at: 2026-10-30
 checked: true
 tags: []
 ---
@@ -249,7 +249,7 @@ tags: []
 ・live in the present  
 用途: 過去や未来にとらわれず今を生きる。  
 例: She is learning to live in the present instead of worrying about the future.  
-訳: 彼女は将来を心配するばかりでなく、今を大切にすることを学びつつある。  
+訳: 彼女は将来を心配する代わりに、今を大切にすることを学びつつある。  
 
 ・from 〈過去の時点〉 to the present  
 用途: 過去から現在までの期間。  
@@ -597,7 +597,7 @@ tags: []
 ・present a 〈形容詞〉 image  
 用途: 特定の印象を与える。  
 例: The new website presents a more professional image.  
-訳: 新しいウェブサイトは、以前より仕事の確かさを感じさせる。  
+訳: 新しいウェブサイトは、以前よりプロフェッショナルな印象を与える。  
 
 【語法・注意】present oneself as は「自分を～として見せる」。語義14の present oneself at/to/for「出向いて名乗る」と区別する。受動の be presented as は「～として描かれる」で、必ずしも虚偽を意味しない。a well-presented report は整理や見せ方のよい報告書、The report is well presented. はその叙述表現で、通常後者にはハイフンを置かない。  
 
