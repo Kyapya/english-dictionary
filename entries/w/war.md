@@ -3,9 +3,9 @@ headword: war
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: unknown
 created_at: 2026-10-04
-updated_at: 2026-10-04
+updated_at: 2026-10-30
 checked: true
 tags: []
 ---
@@ -184,7 +184,7 @@ World War I、World War II は固有の戦争名で通常大文字。the First W
 頻度: 〈8/10〉  
 違い: 一つの場所・局面での戦いに焦点がある。war は通常、複数の戦闘を含む大きな争い全体を指す。  
 例: The army won the battle but could not hold the city.  
-訳: その軍は戦闘には勝ったが、都市を維持できなかった。  
+訳: その軍は戦闘には勝ったが、その都市の支配を維持できなかった。  
 
 【反意語】
 
@@ -197,7 +197,7 @@ World War I、World War II は固有の戦争名で通常大文字。the First W
 
 2. 【名詞・可算／不可算】激しい争い、競争、対立
 
-【日本語訳・定義】人・組織・国家・考えなどが激しく張り合い、相手に勝とうとすること。実際の武力戦争に見立てた表現で、商売上の競争、論争、心理的な駆け引き、内面的な葛藤などを含む。通常の disagreement より激しい・長引く争いとして描くが、誇張の場合もある。  
+【日本語訳・定義】人・組織・国家の間、あるいは相いれない考えや感情の間に、激しい争いや対立があること。競争では相手に勝とうとする場合が多いが、内面的な葛藤では自分の中の思いや判断が対立する。実際の武力戦争に見立てた表現で、商売上の競争、論争、心理的な駆け引き、内面的な葛藤などを含む。通常の disagreement より激しい・長引く争いとして描くが、誇張の場合もある。  
 
 【頻度】〈8/10〉  
 
@@ -294,7 +294,7 @@ lose the battle but win the war は反対に「一時的には負けても、最
 頻度: 〈7/10〉  
 違い: 友好的・健全な競争にも使える。war は激しい対立や相手を打ち負かす姿勢を前面に出す。  
 例: A friendly rivalry developed between the two teams.  
-訳: 2つのチームの間には、互いを高める競争関係が生まれた。  
+訳: 2つのチームの間には、友好的な競争関係が生まれた。  
 
 ・struggle  
 定義: 困難・反対勢力に対して続ける闘い。  
