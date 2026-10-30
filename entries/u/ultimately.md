@@ -3,9 +3,9 @@ headword: ultimately
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: unknown
 created_at: 2026-10-03
-updated_at: 2026-10-06
+updated_at: 2026-10-30
 checked: true
 tags: []
 ---
@@ -141,7 +141,7 @@ He ultimately became responsible for the project. は「最終的にその計画
 
 【レジスター/領域】一般語。議論、説明、組織の責任関係、原因や語源の説明に多い。  
 
-【文法パターン】Ultimately, 〈節〉＝本質的な判断や最も重要な点を示す文副詞／be ultimately responsible for 〈対象〉＝最終責任を負う／ultimately depend on 〈要因〉＝根本的に左右される／be ultimately up to someone＝最終判断はその人にある／ultimately derive from 〈根源〉＝中間の段階をたどった先の起源に由来する。文中では動詞句や述語を修飾し、文頭では結論の枠組みを示す。  
+【文法パターン】Ultimately, 〈節〉＝本質的な判断や最も重要な点を示す文副詞／be ultimately responsible for 〈対象〉＝最終責任を負う／ultimately depend on 〈要因〉＝根本的に左右される／be ultimately up to someone＝最終判断はその人にある／ultimately derive from 〈根源〉＝最も根本の起源に由来する。文中では動詞句や述語を修飾し、文頭では結論の枠組みを示す。  
 
 【コロケーション・構文例】
 
