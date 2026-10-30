@@ -3,16 +3,16 @@ headword: qualify
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: OpenAI assistant (exact model not exposed)
+model: unknown
 created_at: 2026-10-07
-updated_at: 2026-10-10
+updated_at: 2026-10-30
 checked: true
 tags: []
 ---
 
 ＃発音記号
 
-米: /ˈkwɑː.lə.faɪ/｜英: /ˈkwɒl.ɪ.faɪ/。3音節で、第1音節に主強勢がある。ここに示した米英表記の違いは、第1音節の母音が米 /ɑː/・英 /ɒ/、第2音節の母音が米 /ə/・英 /ɪ/ であること。第3音節の /aɪ/ は共通する。米音の第2音節を /ɪ/ とする発音・辞書表記もある。  
+米: /ˈkwɑː.lə.faɪ/｜英: /ˈkwɒl.ɪ.faɪ/。3音節で、第1音節に主強勢がある。ここに示した米英表記では、第1音節の母音が米 /ɑː/・英 /ɒ/、第2音節の母音が米 /ə/・英 /ɪ/ と異なる。/l/ と音節区切りの位置も表記上は異なるが、この区切りの違いだけから別の音を発音すると考えない。第3音節の /aɪ/ は共通する。米音の第2音節を /ɪ/ とする発音・辞書表記もある。  
 `qualifies` の語尾は /z/、`qualified` の語尾は /d/ で、いずれも3音節のまま。`qualifying` は /ɪŋ/ が続く4音節となり、最後の部分は /faɪ.ɪŋ/。形容詞・名詞になった qualified / qualifying も、対応する分詞形と同じ発音をする。  
 
 ＃語源
@@ -50,7 +50,7 @@ tags: []
 ・条件への当てはまりの営業上の見極め → 「見込み客の適合性を見極める」（語義13）  
 ・条件への当てはまりを限定する文言 → 「限定・留保を加える」（語義14）  
 ・条件への当てはまりを絞る語句の修飾 → 「語句を修飾する」（語義15）  
-・条件への当てはまりとして示す性質付け → 「～と形容する、性質付ける」（語義16）  
+・条件への当てはまりを話者が言葉で示す性質付け → 「～と形容する、性質付ける」（語義16）  
 ・条件への当てはまりによる法的職務権限の取得 → 「所定の就任手続きを済ませ、職務上の権限を得る」（語義17）  
 
 ＃意味・用法・関連表現
@@ -527,7 +527,7 @@ tags: []
 
 【レジスター/領域】報道、ビジネス、論評。感情・評価を慎重に述べる表現。  
 
-【文法パターン】`qualified support / approval / praise / enthusiasm`／`a qualified success`／`a qualified endorsement`。主に名詞の前で使い、`someone's support + be qualified` のような叙述も可能。only / somewhat / heavily などで限定の度合いを示す。資格の優秀さを表す highly qualified とは意味が違う。  
+【文法パターン】`qualified support / approval / praise / enthusiasm`／`a qualified success`／`a qualified endorsement`。主に名詞の前で使い、`someone's support + be qualified` のような叙述も可能。somewhat / heavily などは限定の度合いを示す。only は「それにとどまる」という限定を添える語で、程度を直接示す副詞とは働きが異なる。資格の優秀さを表す highly qualified とは意味が違う。  
 
 【コロケーション・構文例】
 
