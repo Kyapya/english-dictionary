@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra xhigh
 created_at: 2026-10-11
-updated_at: 2026-10-11
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -22,7 +22,6 @@ re-「再び」と動詞 mind「心に留める、覚えておく」からでき
 ＃語形成
 
 ・reminder: 可算名詞「思い出させるもの、注意喚起の通知、督促」。a reminder to do「～するよう促す通知」、a reminder of something「～を思い起こさせるもの」などの形を取る。  
-・reminded / reminding / reminds: 過去形・過去分詞／現在分詞／三人称単数現在形。reminded は通常、注意を促された・思い出させられたという動詞の意味を保ち、独立した性質を表す形容詞として広く使うわけではない。  
 ・email reminder / payment reminder: 複合名詞「リマインドのメール」／「支払いの督促・確認通知」。前の名詞は通知手段または対象を表す。  
 
 ＃意味・用法・関連表現
@@ -42,7 +41,7 @@ re-「再び」と動詞 mind「心に留める、覚えておく」からでき
 ・remind someone to 〈動詞原形〉  
 用途: 忘れずにしてほしい行動を to不定詞で示す。  
 例: Please remind me to attach the invoice before I send the email.  
-訳: メールを送る前に請求書を添付するよう、私に念を押してください。  
+訳: メールを送る前に請求書を添付するのを忘れないよう、声をかけてください。  
 
 ・remind someone not to 〈動詞原形〉  
 用途: してはいけない行動を念押しする。  
@@ -99,7 +98,7 @@ re-「再び」と動詞 mind「心に留める、覚えておく」からでき
 例: “The annual inventory is next week.” “Don't remind me.”  
 訳: 「年次棚卸しは来週だよ」「その話は勘弁してよ」。  
 
-【語法・注意】remember は本人が覚えている・思い出す動詞、remind は人に思い出させる動詞。I remembered to call her. は「私は忘れず彼女に電話した」、The note reminded me to call her. は「メモを見て、彼女に電話することを思い出した」。後者は電話を実際にかけたことまで保証しない。「私に知らせて思い出させて」は Remind me. で、Remember me. ではない。remind to call と人目的語を落とさず、remind me to call とする。過去の行為を覚えているなら remember doing、用事を思い出させるなら remind someone to do であり、remind me calling としない。wh節は remind me where the file is のように平叙文の語順で、where is the file ではない。about と of は予定の再確認では重なるが、語義2の類似・連想を表す remind me of my father の of を about に替えない。remind myself は能動再帰形で、I was reminded は受動態。Please remind me. のように人目的語だけを残すことは可能。Let me remind you ... は丁寧な形でも強い念押しになり得るため、相手が既に承知している事情や口調に配慮する。  
+【語法・注意】reminded は過去形・過去分詞、reminding は現在分詞、reminds は三人称単数現在形。これらは動詞の活用形で、派生語ではない。reminded は通常、注意を促された・思い出させられたという動詞の意味を保つ。remember は本人が覚えている・思い出す動詞、remind は人に思い出させる動詞。I remembered to call her. は「私は忘れず彼女に電話した」、The note reminded me to call her. は「メモを見て、彼女に電話することを思い出した」。後者は電話を実際にかけたことまで保証しない。「私に知らせて思い出させて」は Remind me. で、Remember me. ではない。remind to call と人目的語を落とさず、remind me to call とする。過去の行為を覚えているなら remember doing、用事を思い出させるなら remind someone to do であり、remind me calling としない。wh節は remind me where the file is のように平叙文の語順で、where is the file ではない。about と of は予定の再確認では重なるが、語義2の類似・連想を表す remind me of my father の of を about に替えない。remind myself は能動再帰形で、I was reminded は受動態。Please remind me. のように人目的語だけを残すことは可能。Let me remind you ... は丁寧な形でも強い念押しになり得るため、相手が既に承知している事情や口調に配慮する。  
 
 【類義語】
 
@@ -192,3 +191,4 @@ re-「再び」と動詞 mind「心に留める、覚えておく」からでき
 違い: この喚起義は remind より文章的。The design recalls ... のように思い起こされる内容を目的語にし、人が自分で思い出す一般的な recall の用法と区別する。  
 例: The building's curved windows recall the design of early passenger ships.  
 訳: その建物の曲線的な窓は、初期の客船のデザインを思い起こさせる。  
+
