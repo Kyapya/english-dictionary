@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra xhigh
 created_at: 2026-10-11
-updated_at: 2026-10-11
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -22,7 +22,6 @@ tags: []
 ＃語形成
 
 ・alternatively: 副詞「あるいは、別の案としては」。前の案と異なる選択肢を提示する。alternately「交互に」と区別する。  
-・alternatives: 可算名詞の複数形「選択肢、代替案」。形容詞には複数語尾を付けず、alternative plans とする。  
 ・alternative rock / alternative medicine: 複合表現「オルタナティブ・ロック」／「代替医療」。それぞれ主流の音楽・通常医療との関係を表すが、安全性や有効性を保証する名称ではない。  
 
 ＃コアイメージ
@@ -94,7 +93,7 @@ tags: []
 例: At that price, the refurbished model is a viable alternative.  
 訳: その価格なら、再生品のモデルは現実的な選択肢になる。  
 
-【語法・注意】比較元を示す基本形は an alternative to the plan。「その人にとっての選択肢」は an alternative for that person で、to と for の役割が違う。to の後に動詞を置くなら an alternative to driving のように -ing 形にし、an alternative to drive とはしない。一方、The alternative is to drive. の to は不定詞であり、構造が異なる。単数可算なので We need an alternative. とし、We need alternative. とはしない。three alternatives も正しい。「選べる自由」は freedom of choice といい、alternative だけでは通常その意味にならない。no alternative but to は強い必要性の表現だが、実際に世界中の選択肢が尽きたというより、その場で受け入れられる案がないという判断を表すことも多い。  
+【語法・注意】alternatives は可算名詞の複数形であり、派生語ではない。形容詞には複数語尾を付けず、alternative plans とする。比較元を示す基本形は an alternative to the plan。「その人にとっての選択肢」は an alternative for that person で、to と for の役割が違う。to の後に動詞を置くなら an alternative to driving のように -ing 形にし、an alternative to drive とはしない。一方、The alternative is to drive. の to は不定詞であり、構造が異なる。単数可算なので We need an alternative. とし、We need alternative. とはしない。three alternatives も正しい。「選べる自由」は freedom of choice といい、alternative だけでは通常その意味にならない。no alternative but to は強い必要性の表現だが、実際に世界中の選択肢が尽きたというより、その場で受け入れられる案がないという判断を表すことも多い。  
 
 【類義語】
 
