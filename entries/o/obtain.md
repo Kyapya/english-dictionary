@@ -3,9 +3,9 @@ headword: obtain
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: unknown
 created_at: 2026-10-03
-updated_at: 2026-10-04
+updated_at: 2026-10-30
 checked: true
 tags: []
 ---
@@ -13,7 +13,7 @@ tags: []
 ＃発音記号
 
 米・英: /əbˈteɪn/  
-2音節で、第2音節に強勢を置く。第1音節の母音は弱い /ə/、第2音節は二重母音 /eɪ/。obtained は /əbˈteɪnd/ で、-ed は /d/、obtains は /əbˈteɪnz/ で、-s は /z/ になる。  
+2音節で、第2音節に強勢を置く。第1音節の母音は弱い /ə/、第2音節の母音は二重母音 /eɪ/。obtained は /əbˈteɪnd/ で、-ed は /d/、obtains は /əbˈteɪnz/ で、-s は /z/ になる。  
 
 ＃語源
 
