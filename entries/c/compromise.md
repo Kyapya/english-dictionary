@@ -3,9 +3,9 @@ headword: compromise
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: OpenAI assistant (exact model not exposed)
+model: unknown
 created_at: 2026-10-10
-updated_at: 2026-10-11
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -13,7 +13,7 @@ tags: []
 ＃発音記号
 
 米: /ˈkɑːmprəmaɪz/｜英: /ˈkɒmprəmaɪz/  
-名詞・動詞とも3音節で、第1音節に主強勢を置く。上の表記の米英差は第1音節の母音だけで、米 /ɑː/、英 /ɒ/。第2音節は /ə/、第3音節は /aɪ/ で、語末は /z/。名詞から動詞になっても主強勢は移動しない。compromises の語尾は /ɪz/、compromised の語尾は /d/、compromising では語末の e を落として -ing を付ける。  
+名詞・動詞とも3音節で、第1音節に主強勢を置く。上の表記の米英差は第1音節の母音だけで、米 /ɑː/、英 /ɒ/。第2音節の母音は /ə/、第3音節の母音は /aɪ/ で、語末は /z/。名詞から動詞になっても主強勢は移動しない。compromises の語尾は /ɪz/、compromised の語尾は /d/、compromising では語末の e を落として -ing を付ける。  
 
 ＃語源
 
