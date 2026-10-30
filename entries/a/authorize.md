@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra xhigh
 created_at: 2026-10-11
-updated_at: 2026-10-11
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -221,7 +221,12 @@ tags: []
 例: Remote access is authorized only during scheduled maintenance.  
 訳: 遠隔アクセスが許可されているのは、予定された保守作業の間だけだ。  
 
-【語法・注意】名詞前の authorized にハイフンは付けない。状態を表す The access is authorized. と、承認行為を述べる The access was authorized by the director yesterday. は形が近く、後者は通常の受動態。become authorized to do は権限を得る変化を示せるが、get authorized は手続き上の許可を得るというくだけた言い方になりやすい。原則として程度の大小を表さず、very authorized や more authorized を標準的な比較として用いない。authorized は安全性・品質・正しさまで保証する語ではなく、公認伝記にも誤りや偏りはあり得る。  
+・be authorized to do  
+用途: 特定の行為をする権限が現在あるかを確認する。  
+例: Are you authorized to approve these requests?  
+訳: これらの申請を承認する権限がありますか。  
+
+【語法・注意】名詞前の authorized にハイフンは付けない。状態を表す The access is authorized. と、承認行為を述べる The access was authorized by the director yesterday. は形が近く、後者は通常の受動態。ただし、受動態にも状態を表す解釈があるので、状態を述べているという理由だけで形容詞と断定はしない。be authorized to do は語義2の受動態との境界が重なり、この語義では権限がある状態に焦点を当てている。become authorized to do は権限を得る変化を示せるが、get authorized は手続き上の許可を得るというくだけた言い方になりやすい。原則として程度の大小を表さず、very authorized や more authorized を標準的な比較として用いない。authorized は安全性・品質・正しさまで保証する語ではなく、公認伝記にも誤りや偏りはあり得る。  
 
 【類義語】
 
@@ -254,4 +259,5 @@ tags: []
 違い: 必要な許可があるかないかという同一軸の対立。必ずしも犯罪であることまで意味しない。  
 例: The system blocks unauthorized access to customer records.  
 訳: そのシステムは、顧客記録への無許可アクセスを遮断する。  
+
 
