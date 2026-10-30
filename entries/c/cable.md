@@ -3,9 +3,9 @@ headword: cable
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: unknown
 created_at: 2026-10-04
-updated_at: 2026-10-04
+updated_at: 2026-10-30
 checked: true
 tags: []
 ---
@@ -63,7 +63,7 @@ tags: []
 訳: 電源ケーブルが短すぎてコンセントまで届かない。  
 
 ・a length of cable  
-用途: 端子付きの製品1本ではなく、必要な長さの配線材を指す。  
+用途: 必要な長さの、一続きの配線材として述べる。  
 例: We need another length of cable to finish the installation.  
 訳: 設置を終えるには、もう一続きのケーブルが必要だ。  
 
@@ -328,7 +328,7 @@ tags: []
 例: The last houses in the village finally got cabled up.  
 訳: 村で最後まで残っていた家々にも、ようやくケーブルが引かれた。  
 
-【語法・注意】受動形が多いが、作業者を主語にした能動形も使える。cable up は名詞目的語なら cable up the equipment と cable the equipment up、代名詞なら cable it up とする。cable up it とはしない。be cabled to a router は「ルーターに有線接続されている」という受動・結果状態で、再帰代名詞の省略ではない。語義9の cable the crate to the deck は鋼索による固定であり、電気的な接続ではない。  
+【語法・注意】受動形が多いが、作業者を主語にした能動形も使える。cable up は名詞目的語なら cable up the equipment と cable the equipment up、代名詞なら cable it up とする。cable up it とはしない。be cabled to a router は「ルーターに有線接続されている」という受動・結果状態で、再帰代名詞の省略ではない。語義9の cable the crate to the deck は索による固定であり、電気的な接続ではない。  
 
 【類義語】
 
@@ -469,7 +469,7 @@ tags: []
 ・telegraph  
 定義: 電信で情報を伝える。  
 頻度: 〈3/10〉  
-違い: 電信という方式に焦点があり、海底ケーブルや海外宛てには限定されない。現代には別に「意図などをそれとなく示す」という比喩義もある。  
+違い: 電信という方式に焦点があり、海底ケーブルや海外宛てには限定されない。現代には別に「意図などを手掛かりによって伝える」という比喩義もあり、次の行動が意図せず相手に読まれる場合にも使う。  
 例: They telegraphed the result to the capital.  
 訳: 彼らは結果を首都へ打電した。  
 
@@ -480,7 +480,7 @@ tags: []
 例: He wired his parents to say that he had arrived safely.  
 訳: 彼は無事に到着したと両親に電報で知らせた。  
 
-9. 【動詞・他動詞】鋼索で固定する
+9. 【動詞・他動詞】索で固定する
 
 【日本語訳・定義】物を丈夫な索・ワイヤーロープでつなぎ留める。電気や信号を通す接続ではなく、物理的に動かないよう支える・固定することを表す。  
 
@@ -495,21 +495,21 @@ tags: []
 ・cable 〈物〉 to 〈固定先〉  
 用途: 索を使った固定作業を述べる。  
 例: The workers cabled the heavy crate to the ship's deck.  
-訳: 作業員は重い木箱を船の甲板に鋼索で固定した。  
+訳: 作業員は重い木箱を船の甲板に索で固定した。  
 
 ・be cabled together  
 用途: 複数の物が索で結ばれた状態を述べる。  
 例: The floating sections were cabled together to keep them from drifting apart.  
 訳: 浮体部分は離れて漂流しないよう、互いに索でつながれていた。  
 
-【語法・注意】語義5と同じ cable A to B でも、固定する物と使う索によって意味が変わる。cable a camera to a monitor は通常「有線接続する」、cable a crate to a deck は「鋼索で固定する」。一般的な説明では secure something with a cable と言う方が手段と目的を明示できる。  
+【語法・注意】語義5と同じ cable A to B でも、固定する物と使う索によって意味が変わる。cable a camera to a monitor は通常「有線接続する」、cable a crate to a deck は「索で固定する」。一般的な説明では secure something with a cable と言う方が手段と目的を明示できる。  
 
 【類義語】
 
 ・lash  
 定義: 綱などを何度か掛けて物をしっかり縛り付ける。  
 頻度: 〈4/10〉  
-違い: 縛り方・固定の強さに焦点があり、鋼索の使用に限定されない。  
+違い: 縛り方・固定の強さに焦点があり、使用する綱などの材質は限定しない。  
 例: They lashed the boxes to the rack.  
 訳: 彼らは箱を荷台にしっかり縛り付けた。  
 
