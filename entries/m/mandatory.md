@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra xhigh
 created_at: 2026-10-11
-updated_at: 2026-10-11
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -199,30 +199,35 @@ tags: []
 
 【語法・注意】この意味の power は「力」ではなく国家、administration は統治・行政を指す。mandatory power を「義務的な権力」と訳さない。国際連盟の委任統治と、後の国際連合の信託統治は区別する。Mandatory Palestine のような歴史上の地名表現で大文字になることもあるが、mandatory が常に固有名詞というわけではない。  
 
-4. 【可算名詞・歴史】受任者、委任統治国
+4. 【可算名詞・法律・歴史】受任者、委任統治国
 
-【日本語訳・定義】委任を受けた者、特に国際連盟から委任統治を託された国を指す名詞。現代の一般的な「必須」という形容詞からは、直接この意味を推測しにくい。  
+【日本語訳・定義】委任を受けた者を指す専門的な名詞。歴史の文脈では、特に国際連盟から委任統治を託された国を指す。現代の一般的な「必須」という形容詞からは、直接この意味を推測しにくい。  
 
 【頻度】〈1/10〉  
 
-【レジスター/領域】主に歴史・国際法史。現代の一般文で人を「必須の人」と呼ぶために使う名詞ではない。  
+【レジスター/領域】法律・歴史。一般の受任者は法律などの専門文脈、委任統治国は国際連盟に関する歴史記述で使う。一般文で人を「必須の人」と呼ぶ名詞ではない。  
 
 【文法パターン】a mandatory／the mandatory／〈数詞〉 mandatories。複数形は -y を -ies に変える。  
 
 【コロケーション・構文例】
+
+・a mandatory（受任者）  
+用途: 専門的な法律文脈で、委任を受けた人物を指す。  
+例: She was appointed as a mandatory to act on his behalf.  
+訳: 彼女は、彼に代わって行為をする受任者として選任された。  
 
 ・the mandatory  
 用途: 歴史記述で、すでに特定された委任統治国を指す。  
 例: The report describes the annual statement submitted by the mandatory to the League of Nations.  
 訳: その報告書は、委任統治国が国際連盟に提出した年次報告について説明している。  
 
-【語法・注意】a mandatory power では mandatory は形容詞、the mandatory ではそれ自体が国を指す名詞。mandatary という名詞形もあり、受任者を指す法律・歴史上の用語として使われる。日常の「必須事項」は a requirement、「必須科目」は a required course などが明確で、この歴史名詞を一般的な名詞化の手本にしない。  
+【語法・注意】a mandatory power では mandatory は形容詞。上の国際連盟の例で the mandatory が国を指すときは、それ自体が名詞である。一般の受任者を述べる文脈では、the mandatory が特定の人物を指すこともある。mandatary という名詞形もあり、受任者を指す法律・歴史上の用語として使われる。日常の「必須事項」は a requirement、「必須科目」は a required course などが明確で、この専門的な名詞を一般的な名詞化の手本にしない。  
 
 【類義語】
 
 ・mandatary  
 定義: 委任を受けた者、歴史上の委任統治国。  
 頻度: 〈1/10〉  
-違い: この名詞義で mandatory に対応する別形。一般的な形容詞「必須の」の代わりに用いる語ではない。  
-例: The treaty specified the duties of the mandatary.  
-訳: その条約は、受任者の義務を定めていた。  
+違い: 受任者を指す法律用語や委任統治国を指す歴史用語として、mandatory に対応する別形。一般的な形容詞「必須の」の代わりには用いない。  
+例: The document specified the duties of the mandatary appointed to act on her behalf.  
+訳: その文書は、彼女に代わって行為をするために選任された受任者の義務を定めていた。  
