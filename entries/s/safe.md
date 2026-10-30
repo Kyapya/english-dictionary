@@ -3,9 +3,9 @@ headword: safe
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: unknown
 created_at: 2026-10-04
-updated_at: 2026-10-04
+updated_at: 2026-10-30
 checked: true
 tags: []
 ---
@@ -94,7 +94,7 @@ tags: []
 ・be as safe as houses  
 用途: 安全性を慣用的に強調する。  
 例: With the documents locked away, they should be as safe as houses.  
-訳: 書類には鍵が掛けてあるので、まず安全なはずだ。  
+訳: 書類は施錠して保管してあるので、まず安全なはずだ。  
 
 ・be safe in the knowledge that 〈節〉  
 用途: ある事実に支えられた安心を述べる。  
@@ -150,7 +150,7 @@ tags: []
 
 【レジスター/領域】一般  
 
-【文法パターン】a safe 〈place/distance/route〉＝安全な場所・距離・経路／be safe for someone/something＝人・物にとって安全である／something is safe to 〈他動詞〉＝その物にその行為をしても安全である／it is safe to do something＝その行為は安全である／it is safe for someone to do something＝その人がその行為をしても安全である／be safe enough to do something＝その行為ができる程度に安全である／make something safe＝危険のない状態にする  
+【文法パターン】a safe 〈place/distance/route〉＝安全な場所・距離・経路／be safe for someone/something＝人・物にとって安全である／something is safe to do＝主語が不定詞内の動詞・前置詞の目的語に対応し、その対象に関わる行為が安全である／it is safe to do something＝その行為は安全である／it is safe for someone to do something＝その人がその行為をしても安全である／be safe enough to do something＝その行為ができる程度に安全である／make something safe＝危険のない状態にする  
 
 【コロケーション・構文例】
 
@@ -189,7 +189,7 @@ tags: []
 例: The crew made the damaged walkway safe before reopening it.  
 訳: 作業員たちは損傷した通路を安全な状態にしてから再開した。  
 
-【語法・注意】The water is safe to drink. では water は drink の目的語に相当するので、後ろに it を足さない。It is safe for us to drink the water. では形式主語 it を使い、行為者 us を for で示す。safe enough は形容詞の後ろに enough を置き、enough safe とはしない。比較は safer / safest が基本。quite safe / relatively safe なども可能で、安全の判断は程度や条件を持つ。safe sex はリスクを減らす性行動を指す表現で、絶対的な無危険を保証する名称ではない。  
+【語法・注意】The water is safe to drink. では water は drink の目的語に相当するので、後ろに it を足さない。The ladder is safe to stand on. では ladder が前置詞 on の目的語に対応するため、末尾の on を残す。It is safe for us to drink the water. では形式主語 it を使い、行為者 us を for で示す。safe enough は形容詞の後ろに enough を置き、enough safe とはしない。比較は safer / safest が基本。quite safe / relatively safe なども可能で、安全の判断は程度や条件を持つ。safe sex はリスクを減らす性行動を指す表現で、絶対的な無危険を保証する名称ではない。  
 
 【類義語】
 
