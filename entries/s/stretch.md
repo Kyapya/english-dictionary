@@ -3,9 +3,9 @@ headword: stretch
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: unknown
 created_at: 2026-10-03
-updated_at: 2026-10-03
+updated_at: 2026-10-30
 checked: true
 tags: []
 ---
@@ -273,7 +273,7 @@ tags: []
 
 【レジスター/領域】中立。描写、地理、歴史、報道。  
 
-【文法パターン】something + stretch from 〈起点〉 to 〈終点〉＝ある地点・時点から別の地点・時点まで続く／something + stretch across 〈場所〉＝その場所を横切るように広がる／something + stretch along 〈場所〉＝その場所に沿って続く／something + stretch for 〈距離/期間〉＝その距離・期間にわたって続く／something + stretch into 〈次の期間〉＝次の期間まで続く／something + stretch back to 〈過去の時点〉＝歴史などがその時点まで遡る／something + stretch out ahead＝前方に広がる  
+【文法パターン】something + stretch from 〈起点〉 to 〈終点〉＝ある地点・時点から別の地点・時点まで続く／something + stretch across 〈場所〉＝その場所を横切るように広がる／something + stretch along 〈場所〉＝その場所に沿って続く／something + stretch for 〈距離/期間〉＝その距離・期間にわたって続く／something + stretch into 〈次の期間〉＝次の期間に入っても続く／something + stretch back to 〈過去の時点〉＝歴史などがその時点まで遡る／something + stretch out ahead＝前方に広がる  
 
 【コロケーション】
 
@@ -293,9 +293,9 @@ tags: []
 訳: 車の列は何マイルにもわたって続いていた。  
 
 ・stretch into 〈次の期間〉  
-用途: 出来事が次の時間帯や期間まで続くことを表す。  
+用途: 出来事が次の時間帯や期間に入っても続いていることを表す。  
 例: The discussion stretched into the evening.  
-訳: 議論は夕方まで続いた。  
+訳: 議論は夕方になっても続いていた。  
 
 ・stretch back to 〈過去の時点〉  
 用途: 起源や記録を過去へ遡って示す。  
