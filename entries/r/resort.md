@@ -3,9 +3,9 @@ headword: resort
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: OpenAI assistant (exact model not exposed)
+model: unknown
 created_at: 2026-10-08
-updated_at: 2026-10-11
+updated_at: 2026-10-30
 checked: true
 tags: []
 ---
@@ -33,7 +33,7 @@ tags: []
 ・解決を求めて手段へ向かう行為 → 「手段に頼る、訴える」（語義2）  
 ・解決を求めて向かう頼り先 → 「頼りにする手段・相手」（語義3）  
 ・解決を求めて手段へ向かうこと → 「手段に頼ること、使用」（語義4）  
-・判断を求めて最後に行き着く先 → 「結局は、最終的には」（語義5）  
+・判断や責任を突き詰めて最後に行き着く先 → 「結局は、最終的には」（語義5）  
 
 ＃意味・用法・関連表現
 
@@ -139,7 +139,7 @@ tags: []
 ・be resorted to  
 用途: 硬い文章で、採用する手段を主語にする。  
 例: Such drastic measures should be resorted to only after careful consideration.  
-訳: そのような抜本的措置に訴えるのは、慎重に検討した後に限るべきだ。  
+訳: そのような思い切った措置に訴えるのは、慎重に検討した後に限るべきだ。  
 
 【語法・注意】「人員を減らすことに頼る」なら resort to reducing staff。「to の後だから原形」と考えた resort to reduce staff は、この補語の形として不適切。resort to it の it は手段を指し、to の後に置く。語義4の without resort to force は不可算名詞 resort、without resorting to force は動名詞 resorting を使う別構造で、どちらも「力に訴えずに」。resort to humor のように役立つ手段にも使えるが、単に普段から使うという中立的な use と完全に同じではない。古い文章では resort to a place が「ある場所に通う・赴く」を表すこともあるが、現代の旅行案内で「リゾートへ行く」を言いたいなら go to a resort とする。  
 
