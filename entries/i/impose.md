@@ -3,9 +3,9 @@ headword: impose
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: unknown
 created_at: 2026-10-03
-updated_at: 2026-10-06
+updated_at: 2026-10-30
 checked: true
 tags: []
 ---
@@ -23,7 +23,7 @@ tags: []
 
 ・imposition: 規則・税などを課すことを表す場合は主に不可算。an imposition は、相手の負担になる頼み事や行為を指す。  
 ・self-imposed: 自分で自分に課した。a self-imposed deadline は「自分で決めて守ろうとしている締切」で、外から強制されたものではない。  
-・reimpose / re-impose: 一度撤廃した制限などを再び課す。他動詞で、reimpose restrictions のように使う。  
+・reimpose / re-impose: 以前に課していた規則や制限などを再び課す。他動詞で、reimpose restrictions のように使う。  
 ・imposing: 現在分詞のほか、「堂々とした、威容のある」という形容詞にもなる。impose 自体の形容詞義ではなく、関連形容詞として語義6で扱う。  
 ・imposingly: 堂々と、威容を見せて、という副詞。外観や態度の描写で使う。  
 
@@ -166,7 +166,7 @@ tags: []
 
 【類義語】
 
-・place on  
+・place 〈a burden/constraints〉 on someone/something  
 定義: 負担・要求・制約などを人や物にかける。  
 頻度: 〈7/10〉  
 違い: place a burden on ... のように使い、この意味の impose に近いが、より広い文脈で中立的に述べられる。  
@@ -274,7 +274,7 @@ tags: []
 ・impose on someone's hospitality  
 用途: もてなしや宿泊の世話に甘えすぎることを表す。  
 例: I cannot keep imposing on your hospitality every time I visit the city.  
-訳: この街に来るたびに、いつまでもあなたのお世話になるわけにはいきません。  
+訳: この街を訪れるたびに、あなたのご厚意に甘え続けるわけにはいきません。  
 
 ・impose on someone for 〈a favor/help〉  
 用途: 頼み事などで相手に無理をさせる。  
