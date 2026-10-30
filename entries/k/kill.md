@@ -3,9 +3,9 @@ headword: kill
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: unknown
 created_at: 2026-10-04
-updated_at: 2026-10-04
+updated_at: 2026-10-30
 checked: true
 tags: []
 ---
@@ -542,7 +542,7 @@ tags: []
 ・kill two birds with one stone by doing something  
 用途: 二つの目的を達成する方法を示す。  
 例: We killed two birds with one stone by holding the training session in our new office.  
-訳: 新しい事務所で研修を行い、研修と新事務所の紹介を一度に済ませた。  
+訳: 新しい事務所で研修を行うことで、一石二鳥になった。  
 
 【語法・注意】birds は複数、stone は one の後で単数。手段は with、何をするかは by doing で示す。kill を時制・主語に合わせて killed、kills、killing にできる。慣用句としてよく知られているため短縮形もあるが、基本形を保つと誤解が少ない。  
 
@@ -1319,7 +1319,7 @@ tags: []
 
 28. 【動詞・他動詞】球の勢いを止めてコントロールする
 
-【日本語訳・定義】サッカーなどで、来た球の勢いを吸収し、足元などで扱える状態に止める。強く打って得点する語義25とは異なる。  
+【日本語訳・定義】サッカーなどで、来た球の勢いを吸収し、足元などで扱える状態に止める。相手が返せない攻撃を決める語義25とは異なる。  
 
 【頻度】〈3/10〉  
 
