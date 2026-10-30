@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra xhigh
 created_at: 2026-10-11
-updated_at: 2026-10-11
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -146,7 +146,7 @@ tags: []
 例: Printing a new copy after every minor change is wasteful.  
 訳: 小さな変更のたびに新しいものを印刷するのは無駄が多い。  
 
-2. 【形容詞・主に限定・哲学】結果を直接生み出す、作用因となる
+2. 【形容詞・主に限定・哲学】結果を生み出す、作用因となる
 
 【日本語訳・定義】何かを実際に生じさせる原因・作用を表す。主に efficient cause「作用因、能動因」という定着した組み合わせで使い、結果を生む働き手・起点を指す。  
 
