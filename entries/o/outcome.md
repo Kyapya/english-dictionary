@@ -3,9 +3,9 @@ headword: outcome
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: unknown
 created_at: 2026-10-03
-updated_at: 2026-10-03
+updated_at: 2026-10-30
 checked: true
 tags: []
 ---
@@ -47,7 +47,7 @@ out「外へ」と come「来る」からできた名詞で、ある過程から
 ・an outcome for 〈影響を受ける人/集団〉  
 用途: 誰にとっての結果なのかを示す。  
 例: The agreement offers a better outcome for both sides.  
-訳: その合意によって、双方にとってよりよい結果が得られる。  
+訳: その合意によって、双方にとってよりよい結果が期待できる。  
 
 ・a positive outcome  
 用途: よい結果を評価する。outcome 単独では肯定的とは限らない。  
@@ -89,7 +89,7 @@ out「外へ」と come「来る」からできた名詞で、ある過程から
 例: The study compared patient outcomes at the two hospitals.  
 訳: その研究では、2つの病院の患者の治療結果を比較した。  
 
-【語法・注意】基本は可算名詞で、単数なら an outcome、the outcome、this outcome などにする。1つの出来事全体の結末には単数、複数の可能性や個別の成果には複数を使う。of は結果を生む出来事、for はその結果の影響を受ける相手を導く。outcome from も出所を示せるが、基本形としては the outcome of the meeting を覚えるとよい。the outcome is that ... の that 節は be 動詞の補語であり、動詞を落とした the outcome that ... と同じ構造ではない。a successful outcome と a negative outcome の両方が成立する。教育の learning outcomes は将来の到達目標も指すので、必ず達成済みというわけではない。output は作った物や実施量、outcome はそこから得られた結果を指す区別があり、たとえば研修の実施回数は output、受講者の技能向上は outcome と整理できる。outcome は通常の動詞として使わず、「結果になる」は result in ...、turn out ... などにする。  
+【語法・注意】基本は可算名詞で、単数なら an outcome、the outcome、this outcome などにする。1つの出来事全体の結末には単数、複数の可能性や個別の成果には複数を使う。of は結果を生む出来事、for はその結果の影響を受ける相手を導く。outcome from も出所を示せるが、基本形としては the outcome of the meeting を覚えるとよい。the outcome is that ... の that 節は be 動詞の補語であり、動詞を落とした the outcome that ... と同じ構造ではない。a successful outcome と a negative outcome の両方が成立する。教育の learning outcomes は将来の到達目標も指すので、必ず達成済みというわけではない。output は作った物や実施量、outcome はそこから得られた結果を指す区別があり、たとえば研修の実施回数は output、受講者の技能向上は outcome と整理できる。outcome は通常の動詞として使わない。「～という結果をもたらす」は result in 〈結果を表す名詞句〉、「結局～という状態になる」は turn out to be 〈補語〉など、後続する形に合わせて表す。  
 
 【類義語】
 
