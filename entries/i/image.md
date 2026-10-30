@@ -3,9 +3,9 @@ headword: image
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: unknown
 created_at: 2026-10-04
-updated_at: 2026-10-04
+updated_at: 2026-10-30
 checked: true
 tags: []
 ---
@@ -30,7 +30,7 @@ tags: []
 
 ＃コアイメージ
 
-対象そのものとは別に、目・心・表現・データなどに現れる「対応する像」。実物そっくりである必要はなく、受け取られ方や、別の形での表し方まで含む。数学でも写像による対応先という点はつながるが、集合としての厳密な意味は語義8で区別する。  
+目・心・表現・データなどに現れる、対象に対応する「像」。実物そっくりである必要はなく、受け取られ方や、別の形での表し方まで含む。数学でも写像による対応先という点はつながるが、対応先が元の要素と同じ場合もある。集合としての厳密な意味は語義8で区別する。  
 ・対象を視覚的に表した像 → 「画像、映像、像」（語義1）  
 ・対象を社会が受け取る像 → 「世間の印象、対外的なイメージ」（語義2）  
 ・対象を心に思い浮かべる像 → 「心に浮かぶ像、心象」（語義3）  
@@ -81,7 +81,7 @@ tags: []
 ・capture an image  
 用途: カメラなどが画像を記録することを述べる。  
 例: The camera captured a sharp image of the bird in flight.  
-訳: カメラは飛んでいる鳥を鮮明な画像に捉えた。  
+訳: カメラは飛んでいる鳥の鮮明な画像を記録した。  
 
 ・a mirror image of something  
 用途: 左右が反転した対応を示す。  
@@ -633,7 +633,7 @@ tags: []
 例: In the mural, wisdom is imaged as a woman holding a lamp.  
 訳: その壁画では、知恵がランプを持つ女性の姿で表されている。  
 
-【語法・注意】普通の説明なら depict / portray / represent が一般的。「企業の印象を良くする」という意味の image up と混同しない。image something in words は他者に示す表現、語義12の image something in one's mind は心の中で思い浮かべる行為。  
+【語法・注意】普通の説明なら depict / portray / represent が一般的。日本語の「イメージアップする」を image up と直訳しない。企業の印象を良くするなら improve the company's image などと表す。image something in words は他者に示す表現、語義12の image something in one's mind は心の中で思い浮かべる行為。  
 
 【類義語】
 
