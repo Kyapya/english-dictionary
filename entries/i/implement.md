@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra xhigh
 created_at: 2026-10-11
-updated_at: 2026-10-11
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -24,8 +24,18 @@ tags: []
 
 ・implementation: 名詞「実施、導入、実装」。過程は主に不可算で、ソフトウェアなどの特定の実装方式・実装物は可算にもなる。  
 ・implementer / implementor: 可算名詞「実施者、実装を行う人・組織」。後者の綴りも使われる。  
-・implemented: 過去形・過去分詞。a fully implemented system「全面的に導入されたシステム」のように修飾にも使う。動詞から離れた評価義としては扱わない。  
-・implementing: 現在分詞。an implementing agency「実施機関」のように、制度・事業を実行する主体を修飾する。  
+
+＃コアイメージ
+
+「目的を実際に果たすための手立て」が手掛かり。名詞は作業を支える道具や手段を指し、動詞は計画・仕様に具体的な手立てを与えて実行へ移すことを表す。単語の中心を整理するための見方で、動詞の目的語が道具そのものだという意味ではない。  
+
+・目的を果たす手立てとして計画を実行すること → 「実施する、実行に移す、導入する」（語義1）  
+
+・目的を果たす手立てとして仕様を動く形にすること → 「実装する」（語義2）  
+
+・目的を果たす手立てとなる器具 → 「道具、用具、器具」（語義3）  
+
+・目的を果たす手立てとなる人・仕組み → 「目的を実現する手段、道具となる人・物」（語義4）  
 
 ＃意味・用法・関連表現
 
@@ -66,6 +76,11 @@ tags: []
 例: The warehouse is implementing a new system for tracking returns.  
 訳: その倉庫では、返品を追跡する新しいシステムの導入を進めている。  
 
+・be implemented in 〈場所・組織〉  
+用途: 計画や制度が実施される場所・組織を示す。  
+例: The new policy was implemented in all regional offices.  
+訳: 新しい方針は、すべての地域事務所で実施された。  
+
 ・be implemented in stages  
 用途: 一度に全面実施せず、段階を分ける。  
 例: The reforms will be implemented in stages over two years.  
@@ -76,7 +91,7 @@ tags: []
 例: The safety measures were fully implemented, but regular monitoring remains necessary.  
 訳: 安全対策は全面的に実施されたが、引き続き定期的な監視が必要だ。  
 
-【語法・注意】implement a policy は「方針を実施する」、formulate a policy は「方針を立案する」、approve a policy は「方針を承認する」。implement は enforce「規則を守らせる」とも異なり、制度を動かすための仕組みの導入などを含む。「計画を実行する」は implement the plan とし、implement of the plan とはしない。名詞なら implementation of the plan。通常は物事を目的語に取り、implement someone to do の形で人に実行させる意味にはしない。implement to reduce costs だけでは何を実施するかが欠けるため、implement measures to reduce costs とする。ソフトウェアを職場へ導入する場合と、機能をコードとして作る語義2は、同じ system が目的語でも文脈により区別する。  
+【語法・注意】implemented は過去形・過去分詞、implementing は現在分詞で、動詞の活用形である。a fully implemented system「全面的に導入されたシステム」は過去分詞による修飾、an implementing agency「実施機関」は実行主体を表す現在分詞による修飾。implement a policy は「方針を実施する」、formulate a policy は「方針を立案する」、approve a policy は「方針を承認する」。implement は enforce「規則を守らせる」とも異なり、制度を動かすための仕組みの導入などを含む。「計画を実行する」は implement the plan とし、implement of the plan とはしない。名詞なら implementation of the plan。通常は物事を目的語に取り、implement someone to do の形で人に実行させる意味にはしない。implement to reduce costs だけでは何を実施するかが欠けるため、implement measures to reduce costs とする。ソフトウェアを職場へ導入する場合と、機能をコードとして作る語義2は、同じ system が目的語でも文脈により区別する。  
 
 【類義語】
 
@@ -211,8 +226,8 @@ tags: []
 
 ・an implement for 〈-ing〉  
 用途: 道具の用途を説明する。  
-例: This wooden implement is for pressing patterns into soft clay.  
-訳: この木製の道具は、柔らかい粘土に押し当てて模様を付けるためのものだ。  
+例: She picked up a wooden implement for pressing patterns into soft clay.  
+訳: 彼女は、柔らかい粘土に押し当てて模様を付ける木製の道具を手に取った。  
 
 【語法・注意】可算なので1点なら an implement、複数なら implements。equipment は通常不可算だが、implement は数えられる。名詞の第3音節は /mənt/。They implement the plan. の implement は動詞、They bought new implements. の implements は複数名詞である。農業用の implement はトラクターなどに取り付ける作業器具にも使うので、一律に「手持ちの道具」と限定しない。抽象的な「手段」は語義4。  
 
@@ -292,4 +307,5 @@ tags: []
 違い: 道具として操作することより、考えや目的を運ぶ働きを前面に出す。  
 例: The newsletter became a vehicle for sharing practical advice.  
 訳: そのニュースレターは、実用的な助言を共有する媒体となった。  
+
 
