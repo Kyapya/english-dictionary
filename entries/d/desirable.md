@@ -3,9 +3,9 @@ headword: desirable
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: unknown
 created_at: 2026-10-03
-updated_at: 2026-10-06
+updated_at: 2026-10-30
 checked: true
 tags: []
 ---
@@ -60,7 +60,7 @@ tags: []
 訳: そのアパートは駅に近い、とても魅力的な場所にある。  
 
 ・be desirable to someone  
-用途: 誰がその物を魅力的に感じるかを示す。  
+用途: 誰がその物を魅力的に感じるかを示す。例文では make＋目的語＋形容詞で、そのように感じさせる要因も述べる。  
 例: The flexible schedule makes the job desirable to many applicants.  
 訳: 勤務時間の融通が利くため、その仕事は多くの応募者にとって魅力的だ。  
 
@@ -187,7 +187,7 @@ tags: []
 ・sexually desirable  
 用途: 一般的な適任性ではなく、性的な魅力だと明示する。  
 例: The advertisement presents youth as the key to being sexually desirable.  
-訳: その広告は、若さこそが性的な魅力の鍵であるかのように見せている。  
+訳: その広告は、若さを性的な魅力の鍵として示している。  
 
 【語法・注意】desirable は「欲望を抱いている」ではなく「欲望を抱かせる」。She feels desirable は「自分に魅力があると感じる」で、She feels desire「欲求を感じる」とは違う。a desirable business partner は事業上の適任性を表し得るため、partner だけで性的な意味が決まるわけではない。語義1との区別は周囲の表現と文脈で判断する。外見の評価を求められていない職場などでは、人を desirable と評するのは不適切になり得る。  
 
