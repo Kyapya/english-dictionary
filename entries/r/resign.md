@@ -3,9 +3,9 @@ headword: resign
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: OpenAI assistant (exact model not exposed)
+model: unknown
 created_at: 2026-10-08
-updated_at: 2026-10-11
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -24,9 +24,8 @@ sign「印、署名する」と signature「署名」も signum「印」、signa
 ＃語形成
 
 ・resignation：名詞「辞職、辞任」と「あきらめ、受容」。辞任の出来事は可算・不可算の両方で使い、resignations は複数人の辞任など。あきらめの態度は不可算で、with resignation「仕方がないと受け入れて」。letter of resignation は辞表。  
-・resigned：過去形・過去分詞のほか、形容詞「仕方がないと受け入れた、あきらめた」。形容詞としての限定用法・叙述用法は語義3で扱う。  
+・resigned（形容詞）：「仕方がないと受け入れた、あきらめた」。a resigned sigh や be resigned to ... のように、あきらめの表れや受容した状態を表す。動詞の過去形・過去分詞と同じ綴りだが、心理状態を表す独立した用法として語義3で扱う。  
 ・resignedly：副詞「あきらめた様子で、観念して」。態度や発言の様子を表し、「辞職して」という意味ではない。  
-・resigning：現在分詞。resigning from a committee は委員を辞めること、a resigning director は辞任する取締役。語義3の resigned が表す心理状態と区別する。  
 ・re-sign：sign から作られる別の動詞。「再び署名する、再契約する」。re-sign a document は書類に再署名する、a club re-signs a player はクラブが選手と再契約する、a player re-signs with a club は選手がクラブと再契約すること。目的語の人を解雇する意味ではない。  
 
 ＃コアイメージ
@@ -97,7 +96,7 @@ sign「印、署名する」と signature「署名」も signum「印」、signa
 例: Ken resigned to start his own consulting business.  
 訳: ケンは自分のコンサルティング事業を始めるために辞職した。  
 
-【語法・注意】resign from the board は取締役会の一員という立場を辞すること、resign as chair は会長・議長などの役職を辞すること。後者だけでは組織そのものを去ったとは限らない。resign his post も正しいため、from を常に必須にしない。一方、会社名を直接置く resign the company を基本型にせず、resign from the company とする。over は辞める職ではなく理由・争点を示す。一般的な理由なら because of や due to なども使える。  
+【語法・注意】resigning は動詞の現在分詞で、resigning from a committee は委員を辞めること、a resigning director は辞任する取締役を表す。名詞を修飾していても、語義3の resigned のような独立した心理状態の形容詞とは区別する。resign from the board は取締役会の一員という立場を辞すること、resign as chair は会長・議長などの役職を辞すること。後者だけでは組織そのものを去ったとは限らない。resign his post も正しいため、from を常に必須にしない。一方、会社名を直接置く resign the company を基本型にせず、resign from the company とする。over は辞める職ではなく理由・争点を示す。一般的な理由なら because of や due to なども使える。  
 
 辞める本人が主語になるので、「会社が彼を解雇した」は The company dismissed him. または The company fired him. とし、The company resigned him. としない。He was forced to resign. は force が受動態で、resign 自体は自動詞。人が「辞職させられた」を He was resigned. と訳さず、この型などを使う。He has resigned. は辞職した事実、He is resigned to the change. は変更を仕方がないと受け入れている心理状態を表す。両者は構造も意味も異なり、後者は語義3の形容詞の用法である。  
 
@@ -158,7 +157,7 @@ re-sign との対照にも注意する。The coach resigned. は監督が辞任�
 訳: 私は報告書を最初から書き直すしかないと観念した。  
 
 ・resign oneself to not doing something  
-用途: 希望していたことができないと受け入れる。  
+用途: 望んでいた行為をしないことを、不本意ながら受け入れる。実行が不可能なのか、断念したのかなどは文脈による。  
 例: She had resigned herself to not attending the ceremony.  
 訳: 彼女は式典への出席をあきらめていた。  
 
