@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra xhigh
 created_at: 2026-10-11
-updated_at: 2026-10-11
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -36,7 +36,7 @@ tags: []
 
 ・概念や前提に含まれる条件・帰結 → 「必然的に伴う、含意する」（語義3）  
 
-・表現に含まれる明言されない内容の性質 → 「暗に示された、暗黙の」（語義4）  
+・明言されずに含まれる内容の性質 → 「暗に示された、暗黙の」（語義4）  
 
 ＃意味・用法・関連表現
 
@@ -230,20 +230,20 @@ tags: []
 
 4. 【形容詞：implied、限定中心・叙述も可】暗に示された、暗黙の
 
-【日本語訳・定義】意味・批判・脅し・了解などが、直接言葉にされていないのに、表現や行動から読み取れること。imply の過去分詞が、内容の性質を表す形容詞として定着したもの。法律文書にも使われるが、暗黙の了解があれば必ず契約や同意が法的に成立する、という意味ではない。  
+【日本語訳・定義】意味・批判・脅し・了解などが、直接言葉にされていないのに、表現や行動から読み取れること。imply の過去分詞が、内容の性質を表す形容詞として定着したもの。法律では、当事者が明示していなくても法の適用によって認められる内容を表す場合もある。暗黙の了解があれば必ず契約や同意が法的に成立する、という意味ではない。  
 
 【頻度】〈6/10〉  
 
 【レジスター/領域】標準的な文章語。会話の解釈、批評、ビジネス、法律用語など。  
 
-【文法パターン】an implied 〈threat/promise/criticism〉＝暗に示された脅し・約束・批判／the implied meaning of something＝言外に含まれる意味／〈内容〉 + be implied rather than stated＝明言されず暗に示されている。限定用法が特に多く、通常 very implied のような程度修飾はしない。  
+【文法パターン】an implied 〈threat/promise〉＝暗に示された脅し・約束／implied criticism＝暗に示された批判／the implied meaning of something＝言外に含まれる意味／〈内容〉 + be implied rather than stated＝明言されず暗に示されている。an implied warranty は法律上の「黙示の保証」。限定用法が特に多く、通常 very implied のような程度修飾はしない。  
 
 【コロケーション・構文例】
 
 ・an implied threat（imply からの形容詞）  
 用途: 直接的な脅迫の言葉なしに伝わる脅しを表す。  
-例: I heard an implied threat in his warning that cooperation would be remembered.  
-訳: 協力したことは忘れないという彼の警告に、私は暗黙の脅しを感じた。  
+例: I sensed an implied threat when my manager responded to my complaint by mentioning my upcoming performance review.  
+訳: 上司が私の不満に対して、近く行われる私の勤務評価を持ち出してきたとき、私は暗黙の脅しを感じた。  
 
 ・implied criticism（imply からの形容詞）  
 用途: 言葉の表面には出ていない批判を表す。  
@@ -260,7 +260,12 @@ tags: []
 例: In the final scene, forgiveness is implied rather than stated.  
 訳: 最後の場面では、許しは言葉にされず、暗に示されている。  
 
-【語法・注意】He implied a threat. は動詞の能動文、an implied threat は形容詞で名詞を修飾した形。The threat was implied by his words. は、語義1の受動文としても説明できる。形容詞用法を implying threat としない。implied consent、implied terms、implied warranty は法律等の定着表現だが、何から推認できるか、どのような効力があるかは制度・法域・状況で異なる。一般的な「言わなかったから同意した」という推測に置き換えない。  
+・an implied warranty（法律用語）  
+用途: 明示的な約束とは別に、適用法によって認められる保証を述べる。  
+例: The buyer relied on an implied warranty rather than an express promise from the seller.  
+訳: 買主は、売主の明示的な約束ではなく、黙示の保証を根拠とした。  
+
+【語法・注意】He implied a threat. は動詞の能動文、an implied threat は形容詞で名詞を修飾した形。The threat was implied by his words. は、語義1の受動文としても説明できる。形容詞用法を implying threat としない。implied consent、implied terms、implied warranty は法律等の定着表現だが、すべてが当事者の言動からの推認だけで成立するわけではない。たとえば米国の商品取引でいう implied warranty には、州法によって認められる保証がある。何から推認されるか、法によってどのような内容が認められるか、その成立条件や効力は制度・法域・状況で異なる。一般的な「言わなかったから同意した」という推測に置き換えない。  
 
 【類義語】
 
