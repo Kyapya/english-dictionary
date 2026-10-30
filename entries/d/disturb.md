@@ -3,9 +3,9 @@ headword: disturb
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra ultra
+model: unknown
 created_at: 2026-10-03
-updated_at: 2026-10-03
+updated_at: 2026-10-30
 checked: true
 tags: []
 ---
@@ -399,7 +399,7 @@ tags: []
 【コロケーション】
 
 ・feel vaguely disturbed  
-用途: 漠然とした、または軽い不安や違和感を述べる。  
+用途: 漠然とした不安や違和感を述べる。感情の弱さだけを表すものではない。  
 例: I felt vaguely disturbed by his unusual silence.  
 訳: 彼がいつになく黙っていることに、何となく不安を覚えた。  
 
