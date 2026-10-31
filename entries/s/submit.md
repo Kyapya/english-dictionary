@@ -3,9 +3,9 @@ headword: submit
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: root-authored revision; independent review requested gpt-6.1-sol medium
 created_at: 2026-10-12
-updated_at: 2026-10-12
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -21,11 +21,10 @@ tags: []
 
 ＃語形成
 
-・submission: 名詞「提出、提出物、服従」。提出・服従という行為は不可算、個々の提出物や意見書は可算。格闘技では「降参、一本勝ちをもたらす技」の文脈でも使う。  
+・submission: 名詞「提出、提出物、服従」。提出・服従という行為は不可算、個々の提出物や意見書は可算。格闘技では「降参」や、その勝敗、降参を狙う技を指す文脈でも使う。  
 ・submissive: 形容詞「従順な、言いなりの」。提出済みという意味にはならず、人の態度や性格を表す。  
 ・resubmit: 他動詞「再提出する」。resubmitted / resubmitting と t を重ねる。  
 ・submitter: 可算名詞「提出者、投稿者」。フォームや審査手続きで使う。  
-・submitted / submitting: 基本的には過去分詞・現在分詞。submitted documents は提出された書類で、submissive と区別する。  
 
 ＃コアイメージ
 
@@ -92,7 +91,7 @@ tags: []
 例: All entries must be submitted electronically by noon.  
 訳: 応募作品はすべて、正午までに電子形式で提出しなければならない。  
 
-【語法・注意】提出物を直接目的語に置く。submit the report to her / submit it to her が基本で、「彼女に報告書を提出する」を submit her the report とは通常言わない。to は提出先、for は目的を表し、submit the plan to the board for approval と併用できる。by Friday は金曜日を期限とし、until Friday は同じ意味にならない。Click Submit. の Submit は画面のボタン名で、通常の名詞「提出」は submission。文脈が明白なら Please submit by Friday. のような目的語省略もあるが、他動詞用法の省略であり語義2の服従とは別。  
+【語法・注意】submitted / submitting は基本的に動詞の活用形。submitted documents は提出された書類で、態度を表す形容詞 submissive と区別する。提出物を直接目的語に置く。submit the report to her / submit it to her が基本で、「彼女に報告書を提出する」を submit her the report とは通常言わない。to は提出先、for は目的を表し、submit the plan to the board for approval と併用できる。by Friday は金曜日を期限とし、until Friday は同じ意味にならない。Click Submit. の Submit は画面のボタン名で、通常の名詞「提出」は submission。文脈が明白なら Please submit by Friday. のような目的語省略もあるが、他動詞用法の省略であり語義2の服従とは別。  
 
 【類義語】
 
@@ -149,7 +148,7 @@ tags: []
 例: After months of resistance, the rebels were forced to submit.  
 訳: 数か月にわたる抵抗の末、反乱勢力は屈服を余儀なくされた。  
 
-【語法・注意】submit to の to は前置詞。代名詞なら submit to them とする。submit themselves to the rules と submit to the rules は、再帰目的語を取る他動詞構文と自動詞構文の対応であり、再帰代名詞が常に必要なわけではない。submit the rules は語義1なら「規則を提出する」で、従う意味にはならない。be forced to submit は force の受動態で、submit 自体を受動にしたものではない。格闘技で選手が submit するのは降参することで、語義6の submit an opponent とは主語の勝敗が逆になる。  
+【語法・注意】submit to の to は前置詞。代名詞なら submit to them とする。submit themselves to the rules と submit to the rules は、再帰目的語を取る他動詞構文と自動詞構文の対応であり、再帰代名詞が常に必要なわけではない。submit the rules は語義1なら「規則を提出する」で、従う意味にはならない。be forced to submit は force の受動態で、submit 自体を受動にしたものではない。格闘技で自動詞として選手が submit する場合は降参を表し、語義6の submit an opponent とは主語の勝敗が逆になる。  
 
 【類義語】
 
@@ -366,7 +365,7 @@ tags: []
 例: The defending champion was submitted by the challenger.  
 訳: 現王者は、挑戦者に一本負けした。  
 
-【語法・注意】The fighter submitted. は自動詞で「その選手が降参した」。The fighter submitted his opponent. は他動詞で「その選手が相手にサブミッションで勝った」。人を直接目的語にするこの競技用法を、通常の「書類を提出する」の人目的語版だと解釈しない。勝敗の判定や技の扱いは競技規則による。  
+【語法・注意】The fighter submitted. は単独では通常、自動詞で「その選手が降参した」と読む。The fighter submitted his opponent. は他動詞で「その選手が相手にサブミッションで勝った」。人を直接目的語にするこの競技用法を、通常の「書類を提出する」の人目的語版だと解釈しない。ただし、前後から相手が分かる場面では他動詞の目的語が省略されることもあるため、目的語が書かれていないという理由だけで負けた側とは断定しない。勝敗の判定や技の扱いは競技規則による。  
 
 【類義語】
 
