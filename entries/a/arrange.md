@@ -3,9 +3,9 @@ headword: arrange
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: root-authored revision; independent review requested gpt-6.1-sol medium
 created_at: 2026-10-12
-updated_at: 2026-10-12
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -25,7 +25,7 @@ tags: []
 ・arranger: 可算名詞「手配する人、編曲者」。音楽では曲を演奏用に編み直す人。  
 ・rearrange: 他動詞「並べ直す、予定を組み直す、再編曲する」。arrange のやり直し。  
 ・prearrange: 他動詞「前もって取り決める」。prearranged meeting は事前に取り決めた会合。  
-・arranged / arranging: 基本的には過去分詞・現在分詞。carefully arranged flowers は丁寧に生けられた花。arranged marriage は親などが相手選び・縁談を整える結婚をいう定着した名詞句。  
+・arranged marriage: 分詞と名詞の結合からなる定着した名詞句。親などが相手選び・縁談を整える結婚をいう。単なる結婚式の手配ではない。  
 
 ＃コアイメージ
 
@@ -47,7 +47,7 @@ tags: []
 
 【レジスター/領域】一般、ビジネス、旅行、日程調整。  
 
-【文法パターン】他動詞: arrange something＝物事を手配する／他動詞: arrange something for 〈日時・人〉＝～の日時に・人のために手配する／自動詞: arrange for something＝実現に必要な手配をする／arrange to do something＝自分が～する段取りをつける／arrange for someone/something to do something＝人・物が～するよう手配する／arrange with someone to do something＝人と～する取り決めをする／arrange (with someone) that 〈節〉＝～となるよう取り決める／arrange 〈wh節・wh語＋to不定詞〉＝いつ・どうするかなどを取り決める／as arranged＝取り決めたとおりに  
+【文法パターン】他動詞: arrange something＝物事を手配する／他動詞: arrange something for 〈日時・人〉＝～の日時に・人のために手配する／自動詞: arrange for something＝実現に必要な手配をする／arrange to do something＝自分が～する段取りをつける／arrange for someone/something to do something＝人・物が～するよう手配する／arrange with someone to do something＝人と～する取り決めをする／arrange with someone about something＝人と～について段取りをつける／arrange (with someone) that 〈節〉＝～となるよう取り決める／arrange 〈wh節〉＝いつ・どうするかなどを取り決める／arrange 〈wh語〉 to do something＝いつ・どう～するかなどを取り決める／be arranged by someone＝人によって手配される／as arranged＝取り決めたとおりに  
 
 【コロケーション・構文例】
 
@@ -91,6 +91,11 @@ tags: []
 例: I arranged with Maya to meet her at the station.  
 訳: 私は、駅でマヤと会うことを本人と取り決めた。  
 
+・arrange with someone about something  
+用途: 相談する相手と、取り決めの対象を示す。  
+例: I arranged with my sister about looking after the dog while I was away.  
+訳: 私は、留守中の犬の世話について姉と段取りをつけた。  
+
 ・arrange that 〈節〉  
 用途: 実現する事態を節で示す。  
 例: We arranged that the visitors could use the meeting room until six.  
@@ -106,12 +111,17 @@ tags: []
 例: Let us arrange when the next inspection will take place.  
 訳: 次の点検をいつ行うか決めましょう。  
 
+・be arranged by someone  
+用途: 行事などを誰が手配したか示す。  
+例: The visit was arranged by the local history society.  
+訳: その訪問は、地元の歴史研究会によって手配された。  
+
 ・as arranged  
 用途: 既に取り決めた内容どおりであると述べる。  
 例: The driver arrived at seven, as arranged.  
 訳: 運転手は、取り決めたとおり7時に到着した。  
 
-【語法・注意】arrange to meet は主語が会う段取り、arrange for someone to meet は指定された人が会う段取り。通常、arrange someone to do ではなく arrange for someone to do とする。arrange with someone は相談・合意の相手を示し、to不定詞の行為者は内容から読む。I arranged with Maya to meet her. では会う主体は I だが、I arranged with a driver to collect me. なら迎えるのは driver と理解される。曖昧さを避けるには arrange with someone for someone else to do、または that節で行為者を明示する。arrange a meeting for Friday の for は日時、arrange for a meeting は会議が実現するための手配。arrange a loan は資金調達を手配することで、自分が貸主だとは限らない。受動態は The meeting was arranged by our assistant. のように作れる。arranged marriage は縁談を親などが整える結婚であり、単なる結婚式の手配という意味ではない。  
+【語法・注意】arranged / arranging は、それぞれ過去形・過去分詞と現在分詞・動名詞として使う活用形。arrange to meet は主語が会う段取り、arrange for someone to meet は指定された人が会う段取り。通常、arrange someone to do ではなく arrange for someone to do とする。arrange with someone は相談・合意の相手を示し、to不定詞の行為者は内容から読む。I arranged with Maya to meet her. では会う主体は I だが、I arranged with a driver to collect me. なら迎えるのは driver と理解される。曖昧さを避けるには arrange with someone for someone else to do、または that節で行為者を明示する。arrange a meeting for Friday の for は日時、arrange for a meeting は会議が実現するための手配。arrange a loan は資金調達を手配することで、自分が貸主だとは限らない。受動態は The meeting was arranged by our assistant. のように作れる。arranged marriage は縁談を親などが整える結婚であり、単なる結婚式の手配という意味ではない。  
 
 【類義語】
 
@@ -199,12 +209,17 @@ tags: []
 例: We arranged the samples on the table so that the labels were visible.  
 訳: ラベルが見えるように、私たちは試料を机の上に並べた。  
 
+・arrange something around 〈場所〉  
+用途: 一つの場所を囲む配置を示す。  
+例: We arranged the chairs around the fireplace.  
+訳: 私たちは、暖炉を囲むように椅子を並べた。  
+
 ・arrange oneself  
 用途: 自分の体勢や姿勢を整える。  
 例: She arranged herself comfortably in the armchair.  
 訳: 彼女は、肘掛け椅子で楽な姿勢になった。  
 
-【語法・注意】arrange the chairs は椅子を配置すること、arrange for chairs は椅子を用意する手配。同じ対象でも語義1と構文が異なる。代名詞なら arrange them in rows と置き、前置詞句より前が基本。arrange oneself は本人が自分の体勢を整える再帰構文。The guests arranged themselves around the table. は客自身が位置についたこと、The guests were arranged around the table. は誰かが客を配置した受動態で、同じ構文の省略ではない。arranged flowers は配置済みの状態を表す分詞で、整え方を示すには beautifully/neatly arranged などとする。  
+【語法・注意】arrange the chairs は椅子を配置すること、arrange for chairs は椅子を用意する手配。同じ対象でも語義1と構文が異なる。代名詞なら arrange them in rows と置き、前置詞句より前が基本。arrange oneself は本人が自分の体勢を整える再帰構文。The guests arranged themselves around the table. は客自身が位置についたこと、The guests were arranged around the table. は誰かが客を配置した受動態で、同じ構文の省略ではない。carefully arranged flowers は「丁寧に生けられた花」。arranged flowers は配置済みの状態を表す分詞で、整え方を示すには beautifully/neatly arranged などとする。  
 
 【類義語】
 
@@ -245,15 +260,15 @@ tags: []
 例: The wind disarranged the papers on the desk.  
 訳: 風が、机の上の書類の並びを乱した。  
 
-3. 【動詞・他動詞】編曲する
+3. 【動詞・他動詞／自動詞】編曲する
 
-【日本語訳・定義】既存の曲を、別の楽器・声・編成・様式などで演奏できるように音楽的に組み直す。演奏する曲目や奏者を手配することとは異なる。新たに曲を作る compose とも区別する。  
+【日本語訳・定義】既存の曲を、別の楽器・声・編成・様式などで演奏できるように音楽的に組み直す。演奏する曲目や奏者を手配することとは異なる。新たに曲を作る compose とも区別する。目的語を置かず、職業・活動として編曲を行うことも表す。  
 
 【頻度】〈5/10〉  
 
 【レジスター/領域】音楽。  
 
-【文法パターン】arrange 〈曲〉＝曲を編曲する／arrange 〈曲〉 for 〈楽器・編成〉＝～用に編曲する／arrange 〈曲〉 in 〈様式〉＝～の様式で編曲する／be arranged by 〈編曲者〉＝～が編曲したものである  
+【文法パターン】他動詞: arrange 〈曲〉＝曲を編曲する／自動詞: arrange (for 〈演奏者・編成〉)＝（～向けに）編曲を行う／arrange 〈曲〉 for 〈楽器・編成〉＝～用に編曲する／arrange 〈曲〉 in 〈様式〉＝～の様式で編曲する／be arranged by 〈編曲者〉＝～が編曲したものである  
 
 【コロケーション・構文例】
 
@@ -271,6 +286,11 @@ tags: []
 用途: 曲の演奏様式を変えて編曲する。  
 例: He arranged the traditional tune in a jazz style.  
 訳: 彼は、その伝統的な旋律をジャズ風に編曲した。  
+
+・arrange for 〈演奏者・編成〉  
+用途: 曲を特定せず、編曲の活動先・対象を述べる。  
+例: She composes and arranges for jazz bands.  
+訳: 彼女は、ジャズバンド向けに作曲や編曲をしている。  
 
 ・be arranged by 〈編曲者〉  
 用途: 編曲者を曲の作曲者と区別して示す。  
@@ -292,8 +312,8 @@ tags: []
 定義: 楽曲を管弦楽の各楽器に割り当てて編成する。  
 頻度: 〈4/10〉  
 違い: 管弦楽への配分を強調する。arrange はピアノ独奏や合唱向けなど、管弦楽以外も含む。  
-例: He orchestrated the piano score for a small ensemble.  
-訳: 彼は、そのピアノ譜を小編成の合奏用にオーケストレーションした。  
+例: He orchestrated the piano score for a chamber orchestra.  
+訳: 彼は、そのピアノ譜を室内管弦楽団用にオーケストレーションした。  
 
 ・transcribe  
 定義: 楽曲を別の楽器・編成で演奏できるよう書き換える。  
@@ -301,4 +321,3 @@ tags: []
 違い: この音楽義では原曲への比較的忠実な移し替えを表しやすい。arrange は様式や構成の大きな変更も含む。  
 例: The violin piece was transcribed for flute.  
 訳: そのバイオリン曲は、フルート用に編曲された。  
-
