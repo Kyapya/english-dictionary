@@ -3,9 +3,9 @@ headword: maintain
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: root-authored revision; independent review requested gpt-6.1-sol medium
 created_at: 2026-10-11
-updated_at: 2026-10-11
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -229,6 +229,11 @@ manus 系では manual「手作業の、手引書」、manuscript「原稿」、
 例: The committee maintains the position that the records should remain public.  
 訳: 委員会は、その記録を引き続き公開すべきだという立場を堅持している。  
 
+・it is maintained that 〈節〉  
+用途: 主張する人を前面に出さず、その主張内容を述べる。  
+例: In the report, it is maintained that the new system will reduce costs.  
+訳: その報告書では、新しいシステムによって費用が削減されると主張されている。  
+
 【語法・注意】maintain that she is innocent は「無実だと主張する」であり、「無実と証明する」ではない。語義1の maintain a position は役職・地位などを保つ意味にもなるため、主張義では position that ... のように内容を示す。maintain は原則として「人に何かをするよう命じる」動詞ではないので、maintain someone to do は避ける。主張内容を that 節で示す場合も、maintain about that ... とはしない。  
 
 【類義語】
@@ -289,6 +294,11 @@ manus 系では manual「手作業の、手引書」、manuscript「原稿」、
 用途: どれだけの収入で生活を支えるかを示す。  
 例: He struggled to maintain himself and his son on a single income.  
 訳: 彼は一人分の収入で自分と息子の生活を支えるのに苦労した。  
+
+・be maintained by 〈収入・援助者〉  
+用途: 誰の援助やどの収入によって生活を支えられるかを示す。  
+例: During his studies, he was maintained by his parents, who paid for his food and accommodation.  
+訳: 在学中、彼は食費と住居費を負担してくれる両親に養われていた。  
 
 【語法・注意】maintain oneself の oneself は主語と同じ人を指す目的語で、She maintained herself. は「自活した」。She was maintained by her family. は家族に養われる受動態で、再帰代名詞を省略した形ではない。「家族を大切にする」「精神的に励ます」だけならこの maintain は使わず、care for や support の適切な意味を選ぶ。扶養についての法的義務が成立するかどうかは、maintain という語だけからは判断できない。  
 
