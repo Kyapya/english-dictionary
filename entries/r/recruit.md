@@ -3,10 +3,9 @@ headword: recruit
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra
-reasoning_effort: xhigh
+model: root-authored revision; independent review requested gpt-6.1-sol medium
 created_at: 2026-10-12
-updated_at: 2026-10-12
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -21,28 +20,31 @@ tags: []
 
 ＃語形成
 
-・recruits / recruited / recruiting：三人称単数現在・過去形と過去分詞・現在分詞。recruits は名詞の複数形でもある。  
 ・recruitment：募集・採用・加入者を集める活動。通常は不可算。生物学では細胞などの動員にも使う。  
 ・recruiter：採用担当者・人材紹介担当者・入隊を勧誘する担当者。可算名詞。  
-・recruiting：募集・採用活動を表す動名詞。recruiting agency「人材紹介会社」などの前置修飾にも使う。  
+・recruiting：名詞化した形で「募集・採用活動」を表す不可算名詞。recruiting agency「人材紹介会社」のように、活動を表す形が名詞の前に置かれることもある。進行形で使う単なる現在分詞とは文中の働きを区別する。  
 
 ＃コアイメージ
 
-核は「新たな人や働き手を、集団・活動に加える」。集める行為、加わった人、これから迎える候補、働きに加える生体の構成要素を区別すると理解しやすい。  
+核は「集団・活動・一定の区分に、新たな人や要素を加える」。加える行為、加わったもの、迎える候補を区別すると、組織への加入、生体内の動員、生態学での加入を整理しやすい。  
 
-・新たな人を集団に迎える働き → 「人を募集する・採用する・加入させる」（語義1）  
+・新たな一員を集団に迎える働き → 「人を募集する・採用する・加入させる」（語義1）  
 
-・新たな人として集団に加わった一員 → 「新入社員・新加入者・新兵」（語義2）  
+・新たな一員として集団に加わった人 → 「新入社員・新加入者・新兵」（語義2）  
 
-・新たな人を集める活動への従事 → 「募集・採用活動をする」（語義3）  
+・新たな一員を集める活動への従事 → 「募集・採用活動をする」（語義3）  
 
-・新たな人を一時の作業に迎える働き → 「手伝ってくれる人を頼んで集める」（語義4）  
+・新たな一員を一時の作業に迎える働き → 「手伝ってくれる人を頼んで集める」（語義4）  
 
-・新たな人で集団を作り補う働き → 「人を集めて組織する・人員を補強する」（語義5）  
+・新たな一員で集団を作り補う働き → 「人を集めて組織する・人員を補強する」（語義5）  
 
-・新たな人として集団に迎える候補 → 「勧誘対象の選手」（語義6）  
+・新たな一員として集団に迎える候補 → 「勧誘対象の選手」（語義6）  
 
-・新たな働き手を生体活動に加える働き → 「細胞・運動単位などを動員する」（語義7）  
+・新たな一員を生体活動に加える働き → 「細胞・運動単位などを動員する」（語義7）  
+
+・新たな一員として生物の区分に加わる個体 → 「新規加入個体」（語義8）  
+
+・新たな一員として個体群などに加わる変化 → 「加入する」（語義9）  
 
 ＃意味・用法・関連表現
 
@@ -98,7 +100,7 @@ tags: []
 例: The young swimmer was recruited by several universities but had not chosen one yet.  
 訳: その若い水泳選手は複数の大学から勧誘されていたが、進学先はまだ決めていなかった。  
 
-【語法・注意】recruit は「募集するだけで、採用は含まない」と限定しない。逆に、are recruiting や try to recruit は採用完了を意味しない。recruit someone for a job の for は目的・募集対象、from は出身・募集元、as は役割、into/to は加入先を示す。recruit a researcher は研究者を採用すること、recruit participants for research は研究参加者を集めることであり区別する。就職する人の側を主語にして「応募する」と言うなら apply for a job。recruited employees の recruited は採用されたことを表す分詞で、新しい評価的意味を加えない。  
+【語法・注意】動詞の三人称単数現在形は recruits、過去形・過去分詞は recruited、現在分詞は recruiting。recruits は名詞の複数形でもある。単なる活用・複数形は、派生語とは区別する。recruit は「募集するだけで、採用は含まない」と限定しない。逆に、are recruiting や try to recruit は採用完了を意味しない。recruit someone for a job の for は目的・募集対象、from は出身・募集元、as は役割、into/to は加入先を示す。recruit a researcher は研究者を採用すること、recruit participants for research は研究参加者を集めることであり区別する。就職する人の側を主語にして「応募する」と言うなら apply for a job。recruited employees の recruited は採用されたことを表す分詞で、新しい評価的意味を加えない。  
 
 【類義語】
 
@@ -296,20 +298,20 @@ tags: []
 
 ・recruit a team  
 用途: 活動を担うチームを人員確保から作る。  
-例: The director recruited a team of engineers to develop the prototype.  
-訳: 責任者は技術者を集め、試作品を開発するチームを組織した。  
+例: The director recruited a new team of engineers, bringing together specialists from several firms.  
+訳: 責任者は複数の会社から専門家を集め、技術者の新しいチームを組織した。  
 
 ・recruit an army  
-用途: 兵員の募集によって軍を編成する。  
-例: The king recruited an army to defend the northern border.  
-訳: 王は北の国境を守るため、兵を募って軍を編成した。  
+用途: 既存の軍隊に新しい兵員を補充する。  
+例: After the campaign, the king recruited his army to replace the men it had lost.  
+訳: 戦役の後、王は減った兵員を新たに募って補充した。  
 
 ・recruit a task force  
 用途: 特別の課題に取り組む人員を集める。  
 例: The agency recruited a task force of specialists to investigate the failures.  
 訳: その機関は障害を調査するため、専門家を集めて特別チームを作った。  
 
-【語法・注意】recruit new members は加入者が目的語、recruit a team は加入者を集めて作る集団が目的語。チーム全体を別の会社に雇い入れる文脈でも recruit a team は成立するため、例文では of engineers to develop のように編成の目的を明確にするとよい。既存組織の構成を変更するだけなら reorganize。  
+【語法・注意】recruit new members は加入者が目的語、recruit a team は加入者を集めて作る集団が目的語。チーム全体を別の会社に雇い入れる文脈でも recruit a team は成立するため、新しく編成したことを明示したい場合は、複数の場所から人を集めたことなど、文脈を添えて区別する。既存組織の構成を変更するだけなら reorganize。  
 
 【類義語】
 
@@ -410,3 +412,55 @@ tags: []
 例: The damaged tissue releases signals that attract immune cells.  
 訳: 損傷した組織は、免疫細胞を引き寄せる信号を放出する。  
 
+8. 【名詞・可算】新規加入個体
+
+【日本語訳・定義】生態学で、個体群や定められた成長段階の区分に新たに加わる個体。魚類では漁獲対象の大きさや産卵に参加する段階への加入、森林では新たに成立した実生などを指す。何を加入の基準とするかによって対象は変わり、常に生まれたばかりの個体だけを指すわけではない。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】専門。水産資源・森林・個体群の生態学。  
+
+【文法パターン】new recruits to 〈資源集団〉＝その集団に新たに加わる個体／the number of recruits＝新規加入個体の数／seedling recruits＝新規に成立した実生個体  
+
+【コロケーション・構文例】
+
+・new recruits to 〈資源集団〉  
+用途: どの区分に加入する魚なのかを示す。  
+例: The researchers measured the size of new recruits to the spawning stock.  
+訳: 研究者たちは、産卵親魚群に新たに加入する個体の大きさを測定した。  
+
+・the number of recruits  
+用途: 評価対象に新たに加わる個体数を述べる。  
+例: The survey estimated the number of recruits entering the fishable stock.  
+訳: その調査は、漁獲対象となる資源集団に新たに加入する個体数を推定した。  
+
+・seedling recruits  
+用途: 森林などで、新たに成立した実生を個体として数える。  
+例: The survey counted seedling recruits in each forest plot.  
+訳: その調査では、森林の各調査区で新規に成立した実生個体を数えた。  
+
+【語法・注意】人間の新加入者を表す語義2と同じく、集団などへの新規加入を捉える専門用法。recruitment はこの加入や加入量を表す。すべての研究が同じ年齢・体長・成熟段階を基準にするわけではなく、植物でも発芽・定着や一定の大きさへの成長などを文脈で区別する。人の採用や、細胞・運動単位の動員とは対象を区別する。  
+
+9. 【動詞・自動詞】加入する
+
+【日本語訳・定義】魚や植物などが、個体群や一定の成長段階の区分に新たに加わる。加入する生物自体を主語にし、into や to で加入先を示す。募集する組織を主語にする語義3とは、主語の役割が異なる専門的な用法。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】専門。魚類・植物などの生態、個体群研究。  
+
+【文法パターン】〈魚〉 + recruit into 〈個体群〉＝魚が個体群に新たに加入する／〈樹木〉 + recruit to the canopy＝樹木が成長して林冠の一員になる  
+
+【コロケーション・構文例】
+
+・〈魚〉 + recruit into 〈個体群〉  
+用途: 加入する魚自身を主語にして、個体群の構成員になることを述べる。  
+例: The study tracks how many young fish recruit into the local population each year.  
+訳: その研究は、毎年どれだけの若い魚が地元の個体群に加入するかを追跡している。  
+
+・〈樹木〉 + recruit to the canopy  
+用途: 樹木が成長し、森林の上部を覆う林冠を構成する一員になることを述べる。  
+例: The researchers tracked which seedlings eventually recruited to the canopy.  
+訳: 研究者たちは、どの実生が最終的に林冠を構成する樹木へと育ったかを追跡した。  
+
+【語法・注意】この分野の fish recruit into a population を、就職した人についての I recruited into the company にそのまま広げない。通常の人の入社は join the company または be recruited by the company。生物が新たに加わることを表すので、研究者が勧誘したり移植したりしたことを必須としない。to the canopy のような用法では、すでにいる樹木が成長して新しい層に加わる。  
