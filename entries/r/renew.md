@@ -3,9 +3,9 @@ headword: renew
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: root-authored revision; independent review requested gpt-6.1-sol medium
 created_at: 2026-10-11
-updated_at: 2026-10-11
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -33,21 +33,21 @@ tags: []
 
 核は、すでにあるものに新たな有効性・活動・力を与え、もう一度続けられる状態にすること。古い物の交換も、役割を担う部分を新しくして続けるというつながりで理解できる。  
 
-・有効期間を新たにする手続き → 「更新する、有効期間を延ばす」（語義1）  
+・新たな有効期間を与える手続き → 「更新する、有効期間を延ばす」（語義1）  
 
-・有効期間を新たにする継続 → 「更新する、更新される」（語義2）  
+・新たな有効期間へ移る継続 → 「更新する、更新される」（語義2）  
 
-・活動や関係を新たにする再始動 → 「再開する、再び取り組む」（語義3）  
+・新たな活動や関係の始動 → 「再開する、再び取り組む」（語義3）  
 
-・表明を新たにする言い直し → 「改めて表明する、再び求める」（語義4）  
+・新たな表明による意思の再提示 → 「改めて表明する、再び求める」（語義4）  
 
-・活力や信頼を新たにする回復 → 「よみがえらせる、回復させる」（語義5）  
+・新たな活力や信頼の回復 → 「よみがえらせる、回復させる」（語義5）  
 
-・部材や中身を新たにする交換 → 「取り替える、新しくする」（語義6）  
+・新たな部材や中身への交換 → 「取り替える、新しくする」（語義6）  
 
-・活動や力が新たになった状態 → 「新たな、再び強まった」（語義7）  
+・新たな活動や力を備えた状態 → 「新たな、再び強まった」（語義7）  
 
-・構成要素が新たになる自己更新 → 「再生する、新たになる」（語義8）  
+・新たな構成要素による自己更新 → 「再生する、新たになる」（語義8）  
 
 ＃意味・用法・関連表現
 
@@ -217,7 +217,7 @@ tags: []
 訳: 彼らは損傷したポンプを交換した後、生産を再開した。  
 
 ・revive  
-定義: 弱まったり途絶えたりした活動や関係を復活させる。  
+定義: 弱まったり途絶えたりした活動・関係・関心などを復活させる。  
 頻度: 〈7/10〉  
 違い: renew より、ほとんど失われていた活力や存在感を取り戻す面を強調する。  
 例: The festival revived interest in traditional music.  
@@ -240,7 +240,7 @@ tags: []
 
 【レジスター/領域】報道・声明・公的な発言・儀礼。要求や誓いの再表明によく使う。  
 
-【文法パターン】renew a request for something＝改めて何かを求める／renew calls for something＝改めて要求を表明する／renew an appeal to someone to do＝人に改めて行動を訴える／renew a promise to do＝約束を改めて表明する／renew one's commitment to 〈名詞・動名詞〉＝取り組む決意を新たにする。  
+【文法パターン】renew a request for something＝改めて何かを求める／renew calls for something＝改めて要求を表明する／renew an appeal to someone to do＝人に改めて行動を訴える／renew a promise to do＝約束を改めて表明する／renew one's commitment to 〈名詞・動名詞〉＝取り組む決意を改めて表明する。  
 
 【コロケーション・構文例】
 
@@ -261,15 +261,20 @@ tags: []
 
 ・renew one's commitment to 〈名詞・動名詞〉  
 用途: 取り組みを続ける意思を改めて示す。  
-例: The company renewed its commitment to reducing waste.  
-訳: 会社は、廃棄物削減に取り組む決意を改めて示した。  
+例: In its annual report, the company renewed its commitment to reducing waste.  
+訳: 会社は年次報告書で、廃棄物削減に取り組む決意を改めて示した。  
 
 ・renew one's wedding vows  
 用途: 結婚の誓いを再び述べる。  
 例: They renewed their wedding vows on their twentieth anniversary.  
 訳: 2人は結婚20周年に、結婚の誓いを改めて交わした。  
 
-【語法・注意】renew calls の calls は電話ではなく「要求・呼び掛け」。renew a request は依頼を改めて述べたということで、依頼が承認されたことを意味しない。renew one's commitment to doing の to は前置詞なので動名詞が続く。renew one's wedding vows は誓いの再表明であり、結婚の法的有効期間を延長するという意味ではない。  
+・renew a promise to do  
+用途: 以前の約束を改めて表明する。  
+例: The mayor renewed her promise to improve public transport.  
+訳: 市長は、公共交通を改善するという約束を改めて表明した。  
+
+【語法・注意】renew calls の calls は電話ではなく「要求・呼び掛け」。renew a request は依頼を改めて述べたということで、依頼が承認されたことを意味しない。renew one's commitment to doing の to は前置詞なので動名詞が続く。口に出さず決意そのものを新たにする場合にも使えるが、ここでは声明などで意思を改めて示す用法を扱う。renew one's wedding vows は誓いの再表明であり、結婚の法的有効期間を延長するという意味ではない。  
 
 【類義語】
 
@@ -326,6 +331,11 @@ tags: []
 例: The organization renewed itself by bringing in new leaders and ideas.  
 訳: その組織は、新しい指導者や考え方を取り入れることで活力を取り戻した。  
 
+・be renewed by something  
+用途: 何かをきっかけに希望や信頼などがよみがえることを示す。  
+例: Our confidence was renewed by the success of the first trial.  
+訳: 最初の試験が成功したことで、私たちは自信を取り戻した。  
+
 【語法・注意】renew someone's confidence は自信を回復させること、renew a promise は語義4の約束の再表明。目的語により中心的な意味が変わる。renew oneself は主語と同一の対象を目的語に取る他動詞構文で、The organization was renewed. という受動態とは構造が違う。宗教的な文章で「精神を新たにする、再生させる」と訳される場合もこの回復・刷新の系統にあるが、一般的な使用が宗教を前提とするわけではない。  
 
 【類義語】
@@ -357,7 +367,7 @@ tags: []
 
 【頻度】〈5/10〉  
 
-【レジスター/領域】保守・建築・技術・生物学。部材の交換という使い方は特に英国の記述で見られる。  
+【レジスター/領域】保守・建築・技術・生物学。  
 
 【文法パターン】renew 〈配線・部材・中身など〉＝新しいものに替える／〈部材など〉 need renewing＝交換が必要である／〈組織・細胞など〉 renew themselves＝自ら更新・再生する／〈対象〉 be renewed regularly＝定期的に交換・更新される。  
 
@@ -409,7 +419,7 @@ tags: []
 
 【レジスター/領域】一般・報道・書き言葉。意欲・関心だけでなく、戦闘・批判など好ましくない出来事にも使える。  
 
-【文法パターン】renewed 〈関心・努力・活動など〉＝新たな・再び起きたもの／with renewed 〈活力・決意〉＝新たな活力・決意をもって／renewed interest in something＝何かへの再び高まった関心。通常は名詞の前に置き、very renewed や renewed-er のような程度・比較表現は普通使わない。  
+【文法パターン】renewed 〈関心・努力・活動など〉＝新たな・再び起きたもの／with renewed 〈活力・決意〉＝新たな活力・決意をもって／renewed interest in something＝何かへの再び高まった関心／feel renewed＝活力を取り戻したと感じる。活動や関心を修飾する場合は通常、名詞の前に置き、very renewed や renewed-er のような程度・比較表現は普通使わない。  
 
 【コロケーション・構文例】
 
@@ -432,6 +442,11 @@ tags: []
 用途: 再開した戦闘を報道する。  
 例: Renewed fighting forced residents to leave the area.  
 訳: 再び始まった戦闘により、住民たちはその地域を離れざるを得なくなった。  
+
+・feel renewed  
+用途: 人が心身の活力を取り戻したと感じることを述べる。  
+例: After a restful holiday, I felt renewed and ready to return to work.  
+訳: ゆっくり休暇を過ごした後、私は元気を取り戻し、仕事に戻る気になった。  
 
 【語法・注意】renewed interest の renewed は関心の状態を修飾する形容詞で、The news renewed their interest. の renewed は過去形の動詞。renewed だけに「改善した」という肯定評価はなく、renewed criticism は「再燃した批判」。名詞前の renewed には通常ハイフンを付けない。I feel renewed. のように人が活力を取り戻した叙述用法もあるが、renewed fighting と同じ「再開」を人に当てはめない。The contract was renewed by the company. は語義1の受動態であり、「会社が新たになった」という形容詞文ではない。  
 
