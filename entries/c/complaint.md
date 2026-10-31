@@ -3,9 +3,9 @@ headword: complaint
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: root-authored revision; independent review requested gpt-6.1-sol medium
 created_at: 2026-10-12
-updated_at: 2026-10-12
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -23,23 +23,22 @@ tags: []
 
 ＃語形成
 
-・complain：動詞。「苦情を言う、不調を訴える」。complaint は名詞であり、主語の後へそのまま動詞として置かない。  
-・complainant：可算名詞。「申立人、苦情の申し立てをする人」。公式な手続きや報告で使う中立的な名称。  
-・complainer：可算名詞。「不平を言う人」。文脈によって、文句が多いという否定的な評価を伴う。  
+・complainant：complain と同じ語族の可算名詞。「申立人、苦情の申し立てをする人」。公式な手続きや報告で使う中立的な名称。  
+・complainer：動詞 complain に -er を付けた可算名詞。「不平を言う人」。文脈によって、文句が多いという否定的な評価を伴う。  
 ・complaints department：複合名詞。「苦情対応部門」。英語では複数形 complaints を名詞前に置く表現が定着している。  
 ・complaint form：複合名詞。「苦情申立書、苦情記入用紙」。記入用紙自体であり、内容の正当性が認められたことを意味しない。  
 
 ＃コアイメージ
 
-問題・不満・不調として訴えられることが中心。個々の訴え、その表明行為、訴えの対象となる身体の問題、正式な手続き上の訴えへと整理できる。  
+問題・不満・不調として訴えられることが中心。個々の訴え、その表明行為、訴えの対象となる健康上の問題、正式な手続き上の訴えへと整理できるが、語義3は病気・不調そのものも指し、本人が実際に口にしたことは必須ではない。  
 
 ・問題として訴える内容 → 「苦情、不満点」（語義1）  
 
 ・問題として訴える行為 → 「不平を言うこと、不満の表明」（語義2）  
 
-・身体の問題として訴える内容 → 「不調、病気、症状」（語義3）  
+・問題として訴える健康上の不調 → 「不調、病気、症状」（語義3）  
 
-・正式な手続きで問題を訴える内容 → 「法的な申立て、訴状」（語義4）  
+・問題として訴える正式な申立て → 「法的な申立て、訴状」（語義4）  
 
 ＃意味・用法・関連表現
 
@@ -51,7 +50,7 @@ tags: []
 
 【レジスター/領域】日常・顧客対応・職場  
 
-【文法パターン】make a complaint to someone about something＝人に何かについて苦情を言う／a complaint from someone＝人からの苦情／a complaint against someone＝人に対する苦情／a complaint that 〈節〉＝その内容を訴える苦情／handle complaints＝苦情に対応する／have no complaints about something＝何かに不満がない／my only complaint is that 〈節〉＝唯一の不満点はそのことである  
+【文法パターン】make a complaint to someone about something＝人に何かについて苦情を言う／a complaint from someone＝人からの苦情／a complaint against someone＝人に対する苦情／a complaint that 〈節〉＝その内容を訴える苦情／handle complaints＝苦情に対応する／lodge a complaint＝正式に苦情を申し立てる／have no complaints about something＝何かに不満がない／my only complaint is that 〈節〉＝唯一の不満点はそのことである  
 
 【コロケーション・構文例】
 
@@ -79,6 +78,11 @@ tags: []
 用途: 対応業務を述べる。  
 例: The new team handles complaints about delayed deliveries.  
 訳: 新しいチームは配達の遅れに関する苦情に対応している。  
+
+・lodge a complaint  
+用途: 組織の窓口などへ正式に苦情を申し立てる。裁判所への訴状に限らない。  
+例: She lodged a complaint with the hotel about the broken air conditioner.  
+訳: 彼女は壊れたエアコンについて、ホテルに正式な苦情を申し立てた。  
 
 ・have no complaints about something  
 用途: 特に不満がないことを述べる。  
@@ -154,7 +158,7 @@ tags: []
 例: He wrote a letter of complaint after the airline lost his luggage.  
 訳: 航空会社が荷物を紛失した後、彼は苦情の手紙を書いた。  
 
-【語法・注意】without complaint は苦情という行為を不可算で示す。without a complaint は個別の一件もなかったことに焦点がある。a letter of complaint の a は letter に付く冠詞で、complaint を可算にしているわけではない。不満を心の中で感じることだけなら dissatisfaction などを使い、complaint は表明との結び付きが強い。  
+【語法・注意】without complaint は苦情という行為を不可算で示す。without a complaint は苦情を一件として捉える形で、不平ひとつ言わないことを強調できる。両者が同じ場面を表すこともあり、実際の苦情の件数だけで使い分けるわけではない。a letter of complaint の a は letter に付く冠詞で、complaint を可算にしているわけではない。不満を心の中で感じることだけなら dissatisfaction などを使い、complaint は表明との結び付きが強い。  
 
 【類義語】
 
@@ -181,7 +185,7 @@ tags: []
 
 3. 【名詞・可算】不調、病気、症状
 
-【日本語訳・定義】身体の不調や病気、または患者が訴える症状。日常の illness よりやや改まった響きがあり、特定の部位の比較的軽い不調に使うことが多いが、軽症に限定されない。医療記録では患者の訴えを指すこともあり、確定した診断名とは限らない。  
+【日本語訳・定義】健康上の不調や病気、または患者が訴える症状。日常の illness よりやや改まった響きがあり、特定の部位の比較的軽い不調に使うことが多いが、軽症に限定されない。医療記録では患者の訴えを指すこともあり、確定した診断名とは限らない。  
 
 【頻度】〈5/10〉  
 
@@ -211,7 +215,7 @@ tags: []
 例: The patient’s chief complaint was dizziness when standing up.  
 訳: 患者の主訴は、立ち上がるときのめまいだった。  
 
-【語法・注意】chief complaint は診療上の「主訴」であり、「医療への一番大きな苦情」ではない。a complaint about the doctor は医師への苦情、a stomach complaint は胃の不調というように構造と対象が異なる。患者が訴える不調という意味を持つが、complaint という語自体が仮病や根拠のない訴えを意味するわけではない。  
+【語法・注意】chief complaint は診療上の「主訴」で、受診した主な理由を記すものであり、「医療への一番大きな苦情」ではない。症状だけでなく既知の診断やほかの受診理由も記載され得るため、この見出しだけで確定診断の有無は判断しない。a complaint about the doctor は医師への苦情、a stomach complaint は胃の不調というように構造と対象が異なる。患者が訴える不調という意味を持つが、complaint という語自体が仮病や根拠のない訴えを意味するわけではない。  
 
 【類義語】
 
@@ -223,9 +227,9 @@ tags: []
 訳: その診療所はさまざまな一般的な病気を診療している。  
 
 ・symptom  
-定義: 本人が感じる、または病気に伴って現れる症状。  
+定義: 本人が感じたり経験したりする不調・症状。  
 頻度: 〈8/10〉  
-違い: complaint が不調全体や患者の訴えを指すのに対し、symptom は病気などに伴う個々の現れに焦点を置く。  
+違い: complaint が不調全体や患者の訴えを指すのに対し、symptom は病気などに伴う個々の自覚的な現れに焦点を置く。厳密な医療用語では、診察や検査で客観的に確認する sign「徴候」と区別する。  
 例: The doctor asked when the symptoms had started.  
 訳: 医師は症状がいつ始まったかを尋ねた。  
 
@@ -273,7 +277,7 @@ tags: []
 例: The court dismissed the complaint for lack of jurisdiction.  
 訳: 裁判所は管轄権がないとしてその訴えを退けた。  
 
-【語法・注意】complaint は主張や申立てであり、違法性・有罪がすでに認定されたことではない。米国連邦の civil complaint は民事訴訟の開始に用いられ、criminal complaint は犯罪を構成するとされる基本的事実を記す文書である。criminal complaint を常に indictment「大陪審による起訴状」と同一視しない。file with は提出先、complaint against は相手を示す。普通の顧客苦情を filed と言っても、それだけで訴訟になったとは限らない。  
+【語法・注意】complaint は主張や申立てであり、違法性・有罪がすでに認定されたことではない。米国連邦の civil complaint は民事訴訟の開始に用いられ、criminal complaint は、犯罪を構成するとされる基本的事実を文書に記し、宣誓を伴って行う申立てである。criminal complaint を常に indictment「大陪審による起訴状」と同一視しない。file with は提出先、complaint against は相手を示す。普通の顧客苦情を filed と言っても、それだけで訴訟になったとは限らない。  
 
 【類義語】
 
@@ -290,3 +294,4 @@ tags: []
 違い: 特に労使関係などで使う。必ず裁判所へ出す訴状であるとは限らない。  
 例: The union filed a grievance under the collective agreement.  
 訳: 労働組合は労働協約に基づいて苦情を申し立てた。  
+
