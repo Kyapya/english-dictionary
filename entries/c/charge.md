@@ -3,9 +3,9 @@ headword: charge
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: root-authored revision; independent review requested gpt-6.1-sol medium
 created_at: 2026-10-12
-updated_at: 2026-10-12
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -21,9 +21,8 @@ tags: []
 
 ＃語形成
 
-・charges：名詞の複数形「料金、罪状など」、または動詞の三人称単数現在形。文中の役割と目的語で区別する。  
-・charged：過去形・過去分詞のほか、「帯電した」「感情のこもった、緊迫した」という形容詞にもなる。電気義と感情義は下記で分ける。  
-・charging：現在分詞・動名詞。「請求すること」「充電」「突進」など。a charging station は充電設備・充電所。  
+・charged：動詞から転じた形容詞。「帯電した、充電された」「感情のこもった、緊迫した」。電気的な状態と感情を帯びた性質を、下記の語義11・18で分ける。  
+・charging station：複合名詞。「充電設備、充電所」。charging は機器などを充電する用途を表す。  
 ・charger：可算名詞。日常では「充電器」。文学・歴史文脈では騎士などが乗る「軍馬」を指す別の用法もある。  
 ・recharge：動詞。「再充電する」。recharge one's batteries は比喩的に休養して元気を取り戻すことにも使う。  
 ・chargeable：形容詞。「料金を請求できる、料金がかかる」など。chargeable expenses は請求対象となる経費。  
@@ -85,7 +84,7 @@ tags: []
 例: The courier charges extra for weekend deliveries.  
 訳: 配送業者は週末の配達に追加料金を取る。  
 
-【語法・注意】charge は請求側、pay は支払側。The hotel charged me 100 dollars. と I paid the hotel 100 dollars. は視点が逆になる。charge someone with fraud は語義4の告発であり、料金には通常 for を使う。charge something to an account は語義6の請求先への付け替え。料金義の charge someone 〈金額〉 to do something では、to 以下を行うのは利用者の場合も、修理などの作業をする提供者の場合もある。誰が行うかはサービスの内容と文脈で判断する。charge someone to do something は格式ある命令文脈では語義30の「命じる」にもなるため、金額や対象行為で判別する。  
+【語法・注意】動詞の三人称単数現在形は charges、過去形・過去分詞は charged、現在分詞・動名詞は charging。名詞の複数形も charges で、「料金」「罪状」などを文脈で区別する。charge は請求側、pay は支払側。The hotel charged me 100 dollars. と I paid the hotel 100 dollars. は視点が逆になる。charge someone with fraud は語義4の告発であり、料金には通常 for を使う。charge something to an account は語義6の請求先への付け替え。料金義の charge someone 〈金額〉 to do something では、to 以下を行うのは利用者の場合も、修理などの作業をする提供者の場合もある。誰が行うかはサービスの内容と文脈で判断する。charge someone to do something は格式ある命令文脈では語義32の「命じる」にもなるため、金額や対象行為で判別する。  
 
 【類義語】
 
@@ -224,12 +223,17 @@ tags: []
 例: I left the shop in my assistant's charge for the afternoon.  
 訳: 午後は店を助手に任せた。  
 
+・have charge of something  
+用途: 管理する責任を持っていることを述べる。  
+例: The curator has charge of the museum's collection.  
+訳: その学芸員は博物館のコレクションの管理を任されている。  
+
 ・the person in charge  
 用途: 責任者を名詞句で指す。  
 例: Please ask the person in charge before moving the equipment.  
 訳: 機材を動かす前に責任者に確認してください。  
 
-【語法・注意】She is in charge of the children. は「彼女が子どもを世話する」、The children are in her charge. は「子どもが彼女の世話を受ける」。in the charge of の the の有無で関係が変わる。take charge of は自ら管理を引き受ける表現、be charged with doing は語義11の「任務を与えられる」という受動態。担当は日本語の「チャージする」を機械的に動詞にせず、be in charge of を使う。under someone's charge も「その人の管理下で」。  
+【語法・注意】She is in charge of the children. は「彼女が子どもを世話する」、The children are in her charge. は「子どもが彼女の世話を受ける」。in the charge of の the の有無で関係が変わる。take charge of は自ら管理を引き受ける表現、be charged with doing は語義12の「任務を与えられる」という受動態。担当は日本語の「チャージする」を機械的に動詞にせず、be in charge of を使う。under someone's charge も「その人の管理下で」。  
 
 【類義語】
 
@@ -286,7 +290,7 @@ tags: []
 例: Police charged him with two counts of theft.  
 訳: 警察は彼を2件の窃盗の罪に問うた。  
 
-【語法・注意】charge someone with theft に対し、accuse someone of theft。charge someone of theft は基本構文ではない。be charged with は be convicted of「有罪判決を受ける」と別で、逮捕 arrest とも同一の行為ではない。charge を日本語の特定の制度上の「起訴」と一律に対応させず、報道対象の制度・段階に応じて訳す。with の後が investigating the incident「事件を調査すること」なら、語義11の任務付与の可能性がある。  
+【語法・注意】charge someone with theft に対し、accuse someone of theft。charge someone of theft は基本構文ではない。be charged with は be convicted of「有罪判決を受ける」と別で、逮捕 arrest とも同一の行為ではない。charge を日本語の特定の制度上の「起訴」と一律に対応させず、報道対象の制度・段階に応じて訳す。with の後が investigating the incident「事件を調査すること」なら、語義12の任務付与の可能性がある。  
 
 【類義語】
 
@@ -359,15 +363,15 @@ tags: []
 例: The defendant pleaded not guilty to both counts.  
 訳: 被告人は2件の罪状のどちらについても無罪を主張した。  
 
-6. 【動詞・他動詞・自動詞】勘定に付ける、カード・掛けで買う
+6. 【動詞・他動詞】勘定に付ける、カードに請求する
 
-【日本語訳・定義】購入代金などを特定の人・口座・カードの負担として記録する。また、客が現金でその場に払う代わりに、カードや掛け払いを利用して購入する。客が主語になる用法と請求を処理する側が主語になる用法の両方がある。  
+【日本語訳・定義】購入代金などを特定の人・口座・カードの負担として記録する。請求を処理する側が主語となり、費用や請求をかけるカードなどを目的語に取る。  
 
 【頻度】〈7/10〉  
 
-【レジスター/領域】会計処理・買い物・ホテル。目的語だけでカード払いを表す用法は特に北米英語。  
+【レジスター/領域】会計処理・買い物・ホテル。  
 
-【文法パターン】charge something to someone's account＝代金を人の勘定に付ける／charge something to 〈カード・部屋番号など〉＝カード・部屋付けの請求にする／charge something＝それをカード・掛けで買う／charge 〈カード〉＝カードに請求をかける／pay cash or charge＝現金で払うか掛け・カードにするか。  
+【文法パターン】charge something to someone's account＝代金を人の勘定に付ける／charge something to 〈カード・部屋番号など〉＝カード・部屋付けの請求にする／charge 〈カード〉＝カードに請求をかける。  
 
 【コロケーション・構文例】
 
@@ -381,31 +385,47 @@ tags: []
 例: Could you charge dinner to room 412?  
 訳: 夕食代を412号室の部屋付けにしていただけますか。  
 
-・charge something  
-用途: 買い手がカードなどで購入することを述べる。  
-例: I paid cash for lunch but charged the train tickets.  
-訳: 昼食代は現金で払い、列車の切符はカードで買った。  
-
 ・charge 〈カード〉  
 用途: 販売側がカードへ請求することを示す。  
 例: We will charge your card when the order ships.  
 訳: ご注文の商品を発送する際にカードへ請求します。  
-
-・pay cash or charge  
-用途: 目的語を省いて支払方法を対比する。  
-例: At this store, customers can pay cash or charge.  
-訳: この店では、客は現金でも掛け払いでも購入できる。  
 
 【語法・注意】charge me 50 dollars は「私に50ドルを請求する」、charge it to my account は「その代金を私の勘定に付ける」。to の後は負担先で、for の後に請求対象を置く語義1と区別する。I'll charge it. の主語は買い手で「カード・掛けにする」の意味になり、常に請求者とは限らない。カードの決済方式や支払時期は契約による。交通系カードなどに残高を「チャージする」は通常 top up または add money to を使い、この用法と混同しない。  
 
 【類義語】
 
 ・debit  
-定義: 口座の借方に記入し、口座から金額を差し引く処理をする。  
+定義: この銀行口座の文脈では、口座から金額を差し引く処理をする。  
 頻度: 〈5/10〉  
-違い: charge より口座記帳の専門性が高い。カードで買うという客側の一般表現としては通常使わない。  
+違い: charge が請求を付けることを表すのに対し、銀行口座を debit する場合は残高からの差引きに焦点がある。会計一般の debit「借方記入」が常に資産の減少を表すわけではない。  
 例: The bank debited my account for the annual fee.  
 訳: 銀行は年会費を私の口座から引き落とした。  
+
+7. 【動詞・他動詞・自動詞】カード・掛けで買う
+
+【日本語訳・定義】買い手が、その場で現金を払う代わりにカードや掛け払いで購入する。購入品を目的語にする場合と、目的語なしで支払い方法を述べる場合がある。  
+
+【頻度】〈7/10〉  
+
+【レジスター/領域】買い物。特に北米英語。  
+
+【文法パターン】charge something＝それをカード・掛けで買う／pay cash or charge＝現金で払うか、カード・掛けにするか。  
+
+【コロケーション・構文例】
+
+・charge something  
+用途: 買い手がカードなどで購入することを述べる。  
+例: I paid cash for lunch but charged the train tickets.  
+訳: 昼食代は現金で払い、列車の切符はカードで買った。  
+
+・pay cash or charge  
+用途: 目的語を省いて支払方法を対比する。  
+例: At this store, customers can pay cash or charge.  
+訳: この店では、客は現金でも掛け払いでも購入できる。  
+
+【語法・注意】I'll charge it. の主語は買い手で、販売者として相手に請求するという意味とは限らない。支払い方法を明確にするなら pay by credit card などを使う。後払いの条件や時期は契約による。  
+
+【類義語】
 
 ・buy on credit  
 定義: 購入代金を後払いの信用取引にする。  
@@ -414,7 +434,7 @@ tags: []
 例: They bought the furniture on credit rather than paying cash.  
 訳: 彼らは家具を現金で払わず、後払いで購入した。  
 
-7. 【動詞・他動詞】充電する、帯電させる
+8. 【動詞・他動詞】充電する、帯電させる
 
 【日本語訳・定義】電池や機器に電気的なエネルギーを蓄えさせ、使用できる状態にする。また物体に電荷を持たせる。操作する人・装置などが主語、充電・帯電する対象が目的語となる。  
 
@@ -456,7 +476,7 @@ tags: []
 例: Rubbing the plastic rod with a cloth charged it by friction.  
 訳: プラスチックの棒を布でこすると、摩擦によって帯電した。  
 
-【語法・注意】I am charging the phone. は人が充電する他動詞、The phone is charging. は語義8の機器が充電されている自動詞。be charged は受動態または結果状態で、必ず満充電とは限らないため、満充電には fully charged を使う。charge up the battery と charge the battery up は両方可能だが、代名詞では charge it up。charge up it は不可。電池への充電と静電気の帯電は対象と現象が異なる。  
+【語法・注意】I am charging the phone. は人が充電する他動詞、The phone is charging. は語義9の機器が充電されている自動詞。be charged は受動態または結果状態で、必ず満充電とは限らないため、満充電には fully charged を使う。charge up the battery と charge the battery up は両方可能だが、代名詞では charge it up。charge up it は不可。電池への充電と静電気の帯電は対象と現象が異なる。  
 
 【類義語】
 
@@ -483,7 +503,7 @@ tags: []
 例: The test device slowly discharged the battery.  
 訳: 試験装置は電池をゆっくり放電させた。  
 
-8. 【動詞・自動詞】充電される、電気が蓄えられる
+9. 【動詞・自動詞】充電される、電気が蓄えられる
 
 【日本語訳・定義】電池・電子機器などが充電を受け、使用可能な電気を蓄える。主語は充電される物で、動詞自体は能動形を取る。  
 
@@ -535,7 +555,7 @@ tags: []
 例: The battery discharges slowly when the device is idle.  
 訳: 機器を使っていないときにも、電池はゆっくり放電する。  
 
-9. 【名詞・可算・不可算】電荷、充電量、充電
+10. 【名詞・可算・不可算】電荷、充電量、充電
 
 【日本語訳・定義】物体が持つ正・負の電気的性質やその量を指す物理用語。日常の機器では電池に蓄えられた電気や残量、充電することも表す。  
 
@@ -588,7 +608,7 @@ tags: []
 例: The screen dims to conserve battery power.  
 訳: 電池を長持ちさせるため、画面が暗くなる。  
 
-10. 【形容詞・限定・叙述】帯電した、充電された
+11. 【形容詞・限定・叙述】帯電した、充電された
 
 【日本語訳・定義】charged の形で、物体が電荷を持つ状態、または電池などが充電された状態を表す。単に形容詞になっただけで満充電を意味するわけではない。  
 
@@ -610,6 +630,11 @@ tags: []
 例: The sphere is positively charged.  
 訳: その球は正に帯電している。  
 
+・be negatively charged  
+用途: 負の電荷を持つ状態を叙述する。  
+例: The particle is negatively charged.  
+訳: その粒子は負に帯電している。  
+
 ・a fully charged battery  
 用途: 名詞前で満充電を明示する。  
 例: Keep a fully charged battery ready for the inspection camera.  
@@ -620,7 +645,7 @@ tags: []
 例: The tablet is fully charged and ready to use.  
 訳: タブレットは満充電で、すぐに使える。  
 
-【語法・注意】charged の形容詞は a charged particle、The particle is charged. の両方に使える。正負の符号には positively、negatively、電池の充電程度には partly、fully などを使う。fully charged battery では -ly 副詞の後にハイフンを付けない。感情の強さを表す a charged atmosphere は語義17。get charged は文脈により料金請求・告発・充電などになるため、単独で意味を固定しない。  
+【語法・注意】charged の形容詞は a charged particle、The particle is charged. の両方に使える。正負の符号には positively、negatively、電池の充電程度には partly、fully などを使う。fully charged battery では -ly 副詞の後にハイフンを付けない。感情の強さを表す a charged atmosphere は語義18。get charged は文脈により料金請求・告発・充電などになるため、単独で意味を固定しない。  
 
 【反意語】
 
@@ -638,7 +663,7 @@ tags: []
 例: Replace the discharged battery with a fresh one.  
 訳: 放電した電池を新しいものに交換してください。  
 
-11. 【動詞・他動詞】任務を与える、責任を負わせる
+12. 【動詞・他動詞】任務を与える、責任を負わせる
 
 【日本語訳・定義】人・組織に特定の仕事や責任を正式に与える。受動態の be charged with が多く、誰かを非難しているとは限らない。  
 
@@ -690,7 +715,7 @@ tags: []
 例: The manager assigned the task to Leo.  
 訳: 管理者はその仕事をレオに割り当てた。  
 
-12. 【動詞・他動詞】非難する、問題だと主張する
+13. 【動詞・他動詞】非難する、問題だと主張する
 
 【日本語訳・定義】人・組織が不正や不適切な行為をしたと公に主張する。また that 節で、方針などに問題があると強く述べる。刑事上の正式な容疑を必ずしも伴わない。  
 
@@ -719,8 +744,8 @@ tags: []
 
 ・be charged with 〈非難の内容〉  
 用途: 批判を受ける側を主語にする。  
-例: The report was charged with political bias by several commentators.  
-訳: その報告書は複数の論評者から政治的に偏っていると批判された。  
+例: The committee was charged with political bias by several commentators.  
+訳: その委員会は複数の論評者から政治的に偏っていると批判された。  
 
 【語法・注意】この charge は発言者の主張を報告する語で、本文の書き手が非難内容を事実と認定しているわけではない。charge that は批判的な主張に多く、中立的に何でも言う say の単純な代わりではない。with には非難内容、that には節を続ける。警察・検察が犯罪を正式に示す語義4とは文脈で分ける。  
 
@@ -747,7 +772,7 @@ tags: []
 例: The committee criticized the lack of consultation.  
 訳: 委員会は意見聴取が不十分だったことを批判した。  
 
-13. 【名詞・可算】非難、問題だという主張
+14. 【名詞・可算】非難、問題だという主張
 
 【日本語訳・定義】人・組織・計画などに不正や欠点があるとする主張。正式な刑事手続きでの罪状に限らず、政治や一般の論争で使う。  
 
@@ -804,7 +829,7 @@ tags: []
 例: Their conversation soon turned into an exchange of accusations.  
 訳: 彼らの会話はすぐに非難の応酬になった。  
 
-14. 【動詞・他動詞・自動詞】突進する、襲いかかる
+15. 【動詞・他動詞・自動詞】突進する、襲いかかる
 
 【日本語訳・定義】人・動物・集団が勢いよく前進し、相手に向かって攻撃する。直接目的語を取る charge someone と、at を使う charge at someone、目的語なしの charge がある。  
 
@@ -836,7 +861,7 @@ tags: []
 例: The basketball referee called a foul when the forward charged the defender.  
 訳: フォワードが守備選手に突っ込んだとき、バスケットボールの審判はファウルを宣告した。  
 
-【語法・注意】charge someone と charge at someone はどちらも相手への突進を表す。必ず接触に成功したことまで意味しない。攻撃でなく急いで移動する用法は語義15。スポーツの charge は競技によって接触・反則の範囲が異なるため、語自体をすべての競技で必ず違反と説明しない。charging という動名詞はバスケットボールなどの反則名にもなる。  
+【語法・注意】charge someone と charge at someone はどちらも相手への突進を表す。必ず接触に成功したことまで意味しない。攻撃でなく急いで移動する用法は語義16。スポーツの charge は競技によって接触・反則の範囲が異なるため、語自体をすべての競技で必ず違反と説明しない。charging という動名詞はバスケットボールなどの反則名にもなる。  
 
 【類義語】
 
@@ -861,9 +886,9 @@ tags: []
 例: The dog lunged at the stranger but was held back by its leash.  
 訳: 犬は見知らぬ人に飛びかかったが、リードに引き止められた。  
 
-15. 【動詞・自動詞】勢いよく走る、慌ただしく動き回る
+16. 【動詞・自動詞】勢いよく走る、慌ただしく動き回る
 
-【日本語訳・定義】人などが特定の方向へ勢いよく急いで移動する。必ずしも攻撃する意図はなく、慌ただしさや落ち着きのなさを伴うことが多い。  
+【日本語訳・定義】人などが特定の方向へ勢いよく急いで移動する。また、charge ahead with の形などで、計画や活動を勢いよく進める。攻撃の意図は必須ではなく、文脈によって慌ただしさや拙速さを伴う。  
 
 【頻度】〈6/10〉  
 
@@ -918,7 +943,7 @@ tags: []
 例: He raced down the corridor to catch the elevator.  
 訳: 彼はエレベーターに間に合うよう廊下を駆け抜けた。  
 
-16. 【名詞・可算】突進、突撃、攻勢
+17. 【名詞・可算】突進、突撃、攻勢
 
 【日本語訳・定義】人・動物・部隊などが勢いよく前方へ進む攻撃。比喩的には目標に向けて集団が積極的に動くことにも使い、lead the charge はその先頭に立つことを表す。  
 
@@ -973,7 +998,7 @@ tags: []
 例: There was a sudden rush toward the doors.  
 訳: 人々が突然、扉に向かってどっと押し寄せた。  
 
-17. 【形容詞・限定・叙述】感情のこもった、緊迫した
+18. 【形容詞・限定・叙述】感情のこもった、緊迫した
 
 【日本語訳・定義】charged の形で、言葉・場面・問題などが強い感情や含意に満ちている、または強い反応を引き起こす性質を持つことを表す。感情は怒りに限らず、期待・悲しみ・政治的対立なども含む。  
 
@@ -1010,7 +1035,7 @@ tags: []
 例: The discussion became highly charged when funding cuts were mentioned.  
 訳: 予算削減の話が出ると、議論は非常に感情的になった。  
 
-【語法・注意】a charged atmosphere と The atmosphere was charged. はともに形容詞用法。emotionally charged、politically charged は -ly 副詞の後にハイフンを置かない。more emotionally charged のように程度比較もできる。be charged with emotion は状態で、任務を与える受動態・罪に問う受動態とは別。物理的な「帯電した」は語義10、本人が元気で興奮している charged up は語義19。  
+【語法・注意】a charged atmosphere と The atmosphere was charged. はともに形容詞用法。emotionally charged、politically charged は -ly 副詞の後にハイフンを置かない。more emotionally charged のように程度比較もできる。be charged with emotion は状態で、任務を与える受動態・罪に問う受動態とは別。物理的な「帯電した」は語義11、本人が元気で興奮している charged up は語義20。  
 
 【類義語】
 
@@ -1035,7 +1060,7 @@ tags: []
 例: The campaign used emotive language to win support.  
 訳: その運動は支持を得るため、感情に訴える言葉を使った。  
 
-18. 【句動詞・他動詞・分離可能】奮い立たせる、興奮させる
+19. 【句動詞・他動詞・分離可能】奮い立たせる、興奮させる
 
 【日本語訳・定義】charge up の形で、人・集団に活力や興奮を与える。充電の比喩で、演説・音楽・期待する出来事などが主語になる。  
 
@@ -1062,7 +1087,7 @@ tags: []
 例: The early success charged them up for the next stage of the project.  
 訳: 出だしの成功で、彼らはプロジェクトの次の段階へ向けて意欲を高めた。  
 
-【語法・注意】charge up the crowd と charge the crowd up は両方可能で、代名詞は charge them up。人が主語になる They are charged up. は語義19の高揚した状態。電池が目的語なら語義7の充電であり、人を奮い立たせる意味とは区別する。単独の charge にも感情を与える比喩はあるが、この口語義では up を伴う形が明確。  
+【語法・注意】charge up the crowd と charge the crowd up は両方可能で、代名詞は charge them up。人が主語になる They are charged up. は語義20の高揚した状態。電池が目的語なら語義8の充電であり、人を奮い立たせる意味とは区別する。単独の charge にも感情を与える比喩はあるが、この口語義では up を伴う形が明確。  
 
 【類義語】
 
@@ -1080,7 +1105,7 @@ tags: []
 例: The new volunteers energized the campaign.  
 訳: 新たなボランティアがその運動に活力を与えた。  
 
-19. 【分詞形容詞・限定・叙述】興奮した、やる気に満ちた
+20. 【分詞形容詞・限定・叙述】興奮した、やる気に満ちた
 
 【日本語訳・定義】charged up の形で、人が高揚し、活力ややる気に満ちている状態を表す。電池の充電完了とは別の、人の心理状態に関する慣用的な意味。  
 
@@ -1112,7 +1137,7 @@ tags: []
 例: A charged-up audience greeted the band with loud cheers.  
 訳: 大いに盛り上がった観客が、大歓声でバンドを迎えた。  
 
-【語法・注意】叙述では They are charged up.、名詞前では a charged-up team のようにハイフンを置く。very charged up、more charged up のように程度を表せる。a charged atmosphere は語義17の感情・緊張を帯びた場の性質で、必ずしも前向きな活力を示さない。charge someone up は語義18の働きかけ、get charged up は本人の状態変化。  
+【語法・注意】叙述では They are charged up.、名詞前では a charged-up team のようにハイフンを置く。very charged up、more charged up のように程度を表せる。a charged atmosphere は語義18の感情・緊張を帯びた場の性質で、必ずしも前向きな活力を示さない。charge someone up は語義19の働きかけ、get charged up は本人の状態変化。  
 
 【類義語】
 
@@ -1146,7 +1171,7 @@ tags: []
 例: He felt listless after a sleepless night.  
 訳: 眠れない夜を過ごして、彼は気力が出なかった。  
 
-20. 【動詞・他動詞】費用として計上する、負担させる
+21. 【動詞・他動詞】費用として計上する、負担させる
 
 【日本語訳・定義】金額を、特定の勘定・部門などに属する費用や負担として記録する。顧客に支払いを求めることではなく、帳簿上の帰属や処理に焦点を置く。  
 
@@ -1163,8 +1188,8 @@ tags: []
 例: The accountant charged the travel expenses to the sales department.  
 訳: 会計担当者は出張費を営業部の負担として計上した。  
 
-・charge 〈費用〉 to 〈勘定〉  
-用途: 帳簿上の費用計上先を示す。  
+・be charged to 〈勘定〉  
+用途: 費用を主語にして、帳簿上の計上先を示す。  
 例: The depreciation was charged to the profit and loss account.  
 訳: 減価償却費は損益勘定に計上された。  
 
@@ -1173,7 +1198,7 @@ tags: []
 例: The company charged the impairment loss against earnings for the year.  
 訳: 会社はその減損損失を当期の利益に対する損失として計上した。  
 
-【語法・注意】charge the cost to a department は社内の負担先への計上、charge a customer for a service は対外的な請求。to・against の目的語が誰かのカードなのか費用勘定なのかで語義を区別する。charge off は語義22の、費用・損失として処理する句動詞。この語だけで、どの時点でどの会計処理をすべきかは決まらない。  
+【語法・注意】charge the cost to a department は社内の負担先への計上、charge a customer for a service は対外的な請求。to・against の目的語が誰かのカードなのか費用勘定なのかで語義を区別する。charge off は語義23の、費用・損失として処理する句動詞。このブロックは費用・部門負担としての処理を扱う。ただし、charge to 〈勘定〉という形自体は費用処理だけに限らない。資産勘定への計上を表す場合もあり、すべてを即時の費用計上と解釈しない。この語だけで、どの時点でどの会計処理をすべきかは決まらない。  
 
 【類義語】
 
@@ -1191,7 +1216,7 @@ tags: []
 例: The company expensed the software subscription costs.  
 訳: 会社はソフトウェアの利用料を費用処理した。  
 
-21. 【名詞・可算】計上された費用、借方記入
+22. 【名詞・可算】計上された費用、借方記入
 
 【日本語訳・定義】口座・帳簿に費用や負担として記録された金額。企業決算では損失処理などによって利益を減らす費用項目も表す。  
 
@@ -1236,7 +1261,7 @@ tags: []
 例: The statement shows a debit for the monthly membership fee.  
 訳: 明細書には月額会費の引き落としが記載されている。  
 
-22. 【句動詞・他動詞・分離可能】費用・損失として処理する
+23. 【句動詞・他動詞・分離可能】費用・損失として処理する
 
 【日本語訳・定義】charge off の形で、資産としていたものや回収不能と判断した債権などを、費用・損失として帳簿上処理する。とくに銀行の貸倒償却に使う。  
 
@@ -1263,6 +1288,11 @@ tags: []
 例: After reviewing the account, the lender decided to charge it off.  
 訳: 口座を確認した後、貸し手はそれを貸倒れとして処理することにした。  
 
+・be charged off  
+用途: 債権を主語にして、貸倒れとして処理されることを述べる。  
+例: The unpaid loan was charged off after the bank's review.  
+訳: その未返済の貸付債権は、銀行の審査後に貸倒れとして処理された。  
+
 【語法・注意】名詞目的語は charge off the debt と charge the debt off の両方、代名詞は charge it off。charge off it とはしない。名詞は a charge-off。米国の債権文脈では、charge-off は会計上の処理で、これだけで借り手の債務免除を意味しない。具体的な回収・報告・税務の扱いは別途確認が必要。charge off down the road のような移動表現では、charge が「勢いよく走る」、off が離れる方向を表し、会計の句動詞と別になる。  
 
 【類義語】
@@ -1274,7 +1304,7 @@ tags: []
 例: The retailer wrote off the damaged inventory.  
 訳: 小売業者は破損した在庫を損失として処理した。  
 
-23. 【名詞・可算】世話を任された人
+24. 【名詞・可算】世話を任された人
 
 【日本語訳・定義】教師・保護者・指導者などが世話や指導の責任を持つ人。子ども・生徒などに多く、複数形 charges もよく使う。  
 
@@ -1314,7 +1344,7 @@ tags: []
 例: Each pupil received individual feedback.  
 訳: 生徒はそれぞれ個別の講評を受けた。  
 
-24. 【名詞・通常単数】感情を引き起こす力、強い感情
+25. 【名詞・通常単数】感情を引き起こす力、強い感情
 
 【日本語訳・定義】作品・言葉・記憶などに込められた、人の感情を強く動かす力や緊張感。電気の力になぞらえる比喩で、単に楽しいとは限らない。  
 
@@ -1336,7 +1366,7 @@ tags: []
 例: For many residents, the name of the old factory carries an emotional charge.  
 訳: 多くの住民にとって、その古い工場の名前は強い感情を呼び起こす。  
 
-【語法・注意】an emotional charge は作品・言葉などが持つ力、get a charge out of something は語義25の楽しさ・高揚感を得る慣用表現。charged atmosphere の charged は語義17の形容詞で、この名詞そのものではない。  
+【語法・注意】an emotional charge は作品・言葉などが持つ力、get a charge out of something は語義26の楽しさ・高揚感を得る慣用表現。charged atmosphere の charged は語義18の形容詞で、この名詞そのものではない。  
 
 【類義語】
 
@@ -1347,7 +1377,7 @@ tags: []
 例: The story has particular resonance for people who grew up in the area.  
 訳: その物語は、その地域で育った人たちにはとりわけ深く響く。  
 
-25. 【名詞・可算・慣用表現】楽しさ、高揚感
+26. 【名詞・可算・慣用表現】楽しさ、高揚感
 
 【日本語訳・定義】get a charge out of something の形を中心に、何かを体験して得る楽しさ・興奮を表す。料金を払ったり請求したりする意味ではない。  
 
@@ -1369,7 +1399,7 @@ tags: []
 例: Hearing the crowd sing along gave the band a real charge.  
 訳: 観客が一緒に歌うのを聞いて、バンドは大いに気分が高まった。  
 
-【語法・注意】a charge を取る固定表現として覚える。get charge out of ではなく get a charge out of。out of の後は名詞または動名詞で、get a charge out of to do とはしない。語義24の emotional charge は作品などの性質で、本人が楽しんでいるとは限らない。  
+【語法・注意】a charge を取る固定表現として覚える。get charge out of ではなく get a charge out of。out of の後は名詞または動名詞で、get a charge out of to do とはしない。語義25の emotional charge は作品などの性質で、本人が楽しんでいるとは限らない。  
 
 【類義語】
 
@@ -1387,7 +1417,7 @@ tags: []
 例: Winning the award was a huge thrill for the team.  
 訳: 賞を受けたことは、チームにとって大きな喜びだった。  
 
-26. 【名詞・可算・通常単数】与えられた任務、務め
+27. 【名詞・可算・通常単数】与えられた任務、務め
 
 【日本語訳・定義】人・組織に正式に任された仕事や果たすべき責任。語義3の管理という状態とは異なり、具体的な任務の内容を示す。  
 
@@ -1409,7 +1439,7 @@ tags: []
 例: The commission fulfilled its charge by delivering a detailed report.  
 訳: 委員会は詳細な報告書を提出し、任務を果たした。  
 
-【語法・注意】Her charge is to protect the records. の charge は「彼女の任務」で、Her charge is a young child. なら語義23の「世話をする相手」。be in charge of は担当・管理の立場を表す。日常的な仕事の割当てなら task や assignment の方が平易。  
+【語法・注意】Her charge is to protect the records. の charge は「彼女の任務」で、Her charge is a young child. なら語義24の「世話をする相手」。be in charge of は担当・管理の立場を表す。日常的な仕事の割当てなら task や assignment の方が平易。  
 
 【類義語】
 
@@ -1427,7 +1457,7 @@ tags: []
 例: Her next assignment is to train the new staff.  
 訳: 彼女の次の担当業務は新人職員の研修だ。  
 
-27. 【動詞・他動詞】充填する、装填する、満たす
+28. 【動詞・他動詞】充填する、装填する、満たす
 
 【日本語訳・定義】容器・装置に必要な量の物質を入れる。古い武器の説明では火薬の装填、格式ある乾杯ではグラスに飲み物を満たす意味にもなる。  
 
@@ -1454,7 +1484,7 @@ tags: []
 例: Please charge your glasses for a toast to our hosts.  
 訳: 主催者の皆様への乾杯のため、グラスにお飲み物をお注ぎください。  
 
-【語法・注意】日常的にコップへ水を入れるなら fill the glass が平易。charge は技術的な充填や定型的な乾杯の言葉などに限られやすい。charge a battery は語義7の充電で、ここでの物質の充填と分ける。charge with 〈感情〉という比喩的な「満たす」もあり、The atmosphere was charged with tension. のような状態表現は語義17で扱う。  
+【語法・注意】日常的にコップへ水を入れるなら fill the glass が平易。charge は技術的な充填や定型的な乾杯の言葉などに限られやすい。charge a battery は語義8の充電で、ここでの物質の充填と分ける。charge with 〈感情〉という比喩的な「満たす」もあり、The atmosphere was charged with tension. のような状態表現は語義18で扱う。  
 
 【類義語】
 
@@ -1472,7 +1502,7 @@ tags: []
 例: The operator loaded raw material into the machine.  
 訳: 作業員は原料を機械に投入した。  
 
-28. 【名詞・可算】装薬、充填物、一回分の装入量
+29. 【名詞・可算】装薬、充填物、一回分の装入量
 
 【日本語訳・定義】一度に使用・装入する量の爆薬や材料。とくに爆薬・装薬を指す用法があり、機械や炉に入れる一回分の材料にも使う。  
 
@@ -1505,15 +1535,15 @@ tags: []
 例: The furnace can process one load of metal at a time.  
 訳: その炉は一度に1回分の金属を処理できる。  
 
-29. 【名詞・可算】命令、訓示、陪審への説示
+30. 【名詞・可算】命令、訓示
 
-【日本語訳・定義】権限を持つ人が行う指示・命令。法律では、裁判官が陪審に適用法などについて与える説明・指示を指す。  
+【日本語訳・定義】権限を持つ人が、人や集団に行動方針や務めを示す指示・命令。  
 
 【頻度】〈3/10〉  
 
-【レジスター/領域】格式ある文章。陪審への説示は法律、とくに米国の法廷文脈。  
+【レジスター/領域】格式ある文章・組織の訓示。  
 
-【文法パターン】a charge to someone＝人への訓示・指示／the judge's charge to the jury＝裁判官の陪審への説示／deliver a charge＝訓示・説示を行う。  
+【文法パターン】a charge to someone＝人への訓示・指示／deliver a charge＝訓示を行う。  
 
 【コロケーション・構文例】
 
@@ -1522,21 +1552,9 @@ tags: []
 例: The president's charge to the new committee emphasized fairness and transparency.  
 訳: 会長から新委員会への訓示では、公正さと透明性が強調された。  
 
-・the judge's charge to the jury  
-用途: 裁判官による陪審への説明・指示を指す。  
-例: The judge's charge to the jury explained the legal standards they had to apply.  
-訳: 裁判官の陪審への説示は、適用すべき法的基準を説明した。  
-
-【語法・注意】charge to the jury は陪審員が犯罪をしたという告発ではない。charge against someone は人に対する非難・罪状を示す。ここでの charge は指示の内容・発言であり、評決 verdict そのものではない。法域ごとの裁判制度の違いを、この語だけから推測しない。  
+【語法・注意】ここでは、権威ある立場から人に与える指示・訓示を表す。charge against someone は人への非難や罪状で、charge to someone と取り違えない。陪審への法的な説明・指示は語義31で扱う。  
 
 【類義語】
-
-・instruction  
-定義: 人が行うべきことについての指示。  
-頻度: 〈8/10〉  
-違い: charge より広く、権威的・格式的でない日常の指示にも使う。jury instructions は陪審への説示を表す定着した言い方。  
-例: The jury received written instructions from the judge.  
-訳: 陪審は裁判官から書面による説示を受けた。  
 
 ・command  
 定義: 権限を持つ者からの命令。  
@@ -1545,15 +1563,43 @@ tags: []
 例: The officer gave a command to halt.  
 訳: 将校は停止を命じた。  
 
-30. 【動詞・他動詞】厳命する、説示する
+31. 【名詞・可算】陪審への説示
 
-【日本語訳・定義】権威を持つ立場から人に行動を指示・命令する。法廷では、裁判官が陪審に法の適用などを説明することを指す。  
+【日本語訳・定義】裁判官が陪審に、事件を判断する際に用いる法律や法的基準について与える説明・指示。陪審の評決そのものを指すのではない。  
 
 【頻度】〈3/10〉  
 
-【レジスター/領域】格式ある表現・文学。陪審への説示は法律、とくに米国の法廷文脈。  
+【レジスター/領域】法律。とくに米国の法廷文脈。  
 
-【文法パターン】charge someone to do something＝人に何かをするよう厳命する／charge someone not to do something＝人に何かをしないよう厳命する／charge the jury＝陪審に説示する／charge the jury on 〈法的論点〉＝その法的論点について陪審に説示する。  
+【文法パターン】the judge's charge to the jury＝裁判官の陪審への説示／deliver a charge to the jury＝陪審への説示を行う。  
+
+【コロケーション・構文例】
+
+・the judge's charge to the jury  
+用途: 裁判官による陪審への説明・指示を指す。  
+例: The judge's charge to the jury explained the legal standards they had to apply.  
+訳: 裁判官の陪審への説示は、適用すべき法的基準を説明した。  
+
+【語法・注意】ここでの charge to the jury は陪審員への告発ではない。一般の命令を表す command と同じものとして扱わず、法域や裁判制度による違いにも注意する。  
+
+【類義語】
+
+・instruction  
+定義: 裁判官が陪審に与える、法の適用や判断についての説明・指示。  
+頻度: 〈4/10〉  
+違い: この法廷の意味では charge と重なる。jury instructions と複数形で、陪審に示す法的な説明・指示を表すことが多い。  
+例: The jury received written instructions from the judge.  
+訳: 陪審は裁判官から書面による説示を受けた。  
+
+32. 【動詞・他動詞】厳命する
+
+【日本語訳・定義】権威を持つ立場から人に行動を強く指示・命令する。  
+
+【頻度】〈3/10〉  
+
+【レジスター/領域】格式ある表現・文学。  
+
+【文法パターン】charge someone to do something＝人に何かをするよう厳命する／charge someone not to do something＝人に何かをしないよう厳命する。  
 
 【コロケーション・構文例】
 
@@ -1567,21 +1613,9 @@ tags: []
 例: The commander charged the officers not to reveal the plan.  
 訳: 指揮官は将校たちに、計画を漏らさないよう厳命した。  
 
-・charge the jury on 〈法的論点〉  
-用途: 法廷で裁判官が説明する内容を示す。  
-例: The judge charged the jury on the standard of proof before deliberations began.  
-訳: 評議が始まる前に、裁判官は陪審に立証の基準について説示した。  
-
-【語法・注意】charge someone to do はこの意味ではかなり格式があり、日常の指示には tell、instruct などが平易。The site charges users to download reports. では料金を取る語義1になり、主語・行為・金額の有無で判断する。charge the jury は陪審への説示で、陪審員を罪に問う charge a juror with a crime とは違う。  
+【語法・注意】charge someone to do はこの意味ではかなり格式があり、日常の指示には tell、instruct などが平易。The site charges users to download reports. では料金を取る語義1になり、主語・行為・金額の有無で判断する。語義33の charge the jury は陪審への説示で、陪審員を罪に問う charge a juror with a crime とは違う。  
 
 【類義語】
-
-・instruct  
-定義: 人に行うべきことを指示する。  
-頻度: 〈7/10〉  
-違い: charge より日常の業務指示にも使いやすく、法廷での説明にも使える。  
-例: The judge instructed the jury to disregard the comment.  
-訳: 裁判官は陪審に、その発言を考慮しないよう指示した。  
 
 ・enjoin  
 定義: 権威をもって行動を命じる。  
@@ -1590,7 +1624,35 @@ tags: []
 例: The leader enjoined the members to act with restraint.  
 訳: 指導者は構成員に、節度をもって行動するよう命じた。  
 
-31. 【句動詞・他動詞・分離可能】キック・シュートを体で阻む
+33. 【動詞・他動詞】陪審に説示する
+
+【日本語訳・定義】裁判官が陪審に、事件に適用する法律や判断基準などを説明し、指示する。  
+
+【頻度】〈3/10〉  
+
+【レジスター/領域】法律。とくに米国の法廷文脈。  
+
+【文法パターン】charge the jury＝陪審に説示する／charge the jury on 〈法的論点〉＝その論点について陪審に説示する。  
+
+【コロケーション・構文例】
+
+・charge the jury on 〈法的論点〉  
+用途: 法廷で裁判官が説明する内容を示す。  
+例: The judge charged the jury on the standard of proof before deliberations began.  
+訳: 評議が始まる前に、裁判官は陪審に立証の基準について説示した。  
+
+【語法・注意】charge the jury は裁判官による法的説明を表す。陪審員個人を犯罪の罪に問う charge a juror with a crime とは目的と構文が異なる。  
+
+【類義語】
+
+・instruct  
+定義: 裁判官が陪審に、判断の際に従うべき法律や基準を説明・指示する。  
+頻度: 〈4/10〉  
+違い: 陪審への説示では charge と重なるが、具体的にどう判断・行動すべきかを to 不定詞などで続けて述べやすい。  
+例: The judge instructed the jury to disregard the comment.  
+訳: 裁判官は陪審に、その発言を考慮しないよう指示した。  
+
+34. 【句動詞・他動詞・分離可能】キック・シュートを前に出て阻む
 
 【日本語訳・定義】charge down の形で、ラグビー・サッカー・ホッケーなどで相手の蹴ったり打ったりしたボールに向かって出て、それを体などで阻止する。  
 
@@ -1612,7 +1674,7 @@ tags: []
 例: The shot looked dangerous, but a defender charged it down.  
 訳: 危険なシュートに見えたが、守備選手が体を張って阻止した。  
 
-【語法・注意】charge down the kick と charge the kick down は可能で、代名詞は charge it down。charge down the stairs「階段を駆け下りる」は語義15の移動で、down が経路を示す。こちらでは charge the stairs down と入れ替えない。名詞 charge-down はブロックの動作を指す。競技ごとの反則判定は語の意味と別に確認する。  
+【語法・注意】charge down the kick と charge the kick down は可能で、代名詞は charge it down。charge down the stairs「階段を駆け下りる」は語義16の移動で、down が経路を示す。こちらでは charge the stairs down と入れ替えない。名詞 charge-down はブロックの動作を指す。競技ごとの反則判定は語の意味と別に確認する。  
 
 【類義語】
 
@@ -1623,7 +1685,7 @@ tags: []
 例: The goalkeeper blocked the shot with her leg.  
 訳: ゴールキーパーは脚でシュートを止めた。  
 
-32. 【名詞・可算】財産上の担保権、担保負担
+35. 【名詞・可算】財産上の担保権、担保負担
 
 【日本語訳・定義】債務の履行を確保するため、財産に設定される担保上の権利・負担を表す法律用語。特にイギリスの金融・不動産文書で使う。  
 
@@ -1668,7 +1730,7 @@ tags: []
 例: The legal documents describe the mortgage over the property.  
 訳: 法的書類には、その不動産に設定された抵当について記載されている。  
 
-33. 【動詞・他動詞】財産を担保に入れる
+36. 【動詞・他動詞】財産を担保に入れる
 
 【日本語訳・定義】財産に債務を担保する権利・負担を設定する。主語は財産を担保に供する者や、その内容を定める契約などになる。  
 
@@ -1690,7 +1752,7 @@ tags: []
 例: The property is charged to the lender under the mortgage agreement.  
 訳: その不動産は、抵当契約に基づいて貸し手のために担保設定されている。  
 
-【語法・注意】charge the property はこの法的文脈で担保負担を設定することで、物件の料金を請求するという日常義とは違う。単なる請求先の指定である charge the bill to the owner とも区別する。名詞の a charge over the property は語義32。具体的な権利内容・手続きは法域・文書により異なる。  
+【語法・注意】charge the property はこの法的文脈で担保負担を設定することで、物件の料金を請求するという日常義とは違う。単なる請求先の指定である charge the bill to the owner とも区別する。名詞の a charge over the property は語義35。具体的な権利内容・手続きは法域・文書により異なる。  
 
 【類義語】
 
@@ -1707,3 +1769,4 @@ tags: []
 違い: charge と同じく担保に供する方向を表すが、法律上の方式や対象は必ずしも同じではない。  
 例: The borrower pledged the shares as collateral.  
 訳: 借り手はその株式を担保に差し入れた。  
+
