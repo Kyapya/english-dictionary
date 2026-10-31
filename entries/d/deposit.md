@@ -3,21 +3,21 @@ headword: deposit
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: root-authored revision; independent review requested gpt-6.1-sol medium
 created_at: 2026-10-12
-updated_at: 2026-10-12
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
 
 ＃発音記号
 
-米: /dɪˈpɑː.zɪt/｜英: /dɪˈpɒz.ɪt/  
+米: /dɪˈpɑːzɪt/｜英: /dɪˈpɒzɪt/  
 名詞・動詞とも3音節で、第2音節に主強勢を置く。主な米英差は第2音節の母音で、米 /ɑː/、英 /ɒ/。第3音節の母音はここでは /ɪ/ とし、米語には /ə/ とする辞書表記もある。deposited の語尾は /ɪd/、deposits の語尾は /s/。  
 
 ＃語源
 
-ラテン語 deponere「下に置く、預ける」の過去分詞 depositus に由来する名詞・動詞の系統。de-「下へ」と ponere「置く」が背景にあり、金銭を預ける意味と物質が置き残される意味の両方につながる。  
+ラテン語 deponere「下に置く、預ける」の過去分詞 depositus と、その中性形を名詞として使った depositum「預けたもの」にさかのぼる。de-「下へ・離して」と ponere「置く」が背景にあり、金銭を預ける意味と物質が置き残される意味の両方につながる。  
 
 同系語には depose「退位させる、証言する」、position「位置」、opponent「対抗者」がある。これらの現代的意味がすべて deposit の用法になるわけではない。  
 
@@ -25,10 +25,9 @@ tags: []
 
 ・depositor：可算名詞。「預金者、寄託者」。預ける側を表す。  
 ・depository：可算名詞。「保管所、預託機関」。人を表す depositor と区別する。  
-・deposition：名詞。「堆積、析出」のほか、法律では「宣誓証言」、政治では「退位させること」。銀行への日常的な入金には通常 deposit を使う。  
+・deposition：名詞。「堆積、析出」のほか、米国法などでは「法廷外で記録される宣誓証言」、政治では「退位させること、公職からの解任」。銀行への日常的な入金には通常 deposit を使う。  
 ・deposit account：複合名詞。「預金口座」。口座の具体的種類や引出し条件は商品ごとに異なる。  
 ・direct deposit：複合名詞。給与などの「口座への直接振込」。直接窓口で現金を渡すことではない。  
-・deposited：過去形・過去分詞。deposited funds「預け入れられた資金」などは元の動詞から理解できる限定用法で、通常ハイフンを付けない。  
 
 ＃コアイメージ
 
@@ -53,6 +52,8 @@ tags: []
 ・物質を置き残してためる作用 → 「堆積させる、析出させる」（語義9）  
 
 ・物質が置き残されてたまる変化 → 「堆積する、析出する」（語義10）  
+
+・立候補の条件として金銭を預けるもの → 「選挙の供託金」（語義11）  
 
 ＃意味・用法・関連表現
 
@@ -235,7 +236,7 @@ tags: []
 
 【レジスター/領域】日常・銀行・経理  
 
-【文法パターン】deposit money in 〈口座〉＝口座にお金を預け入れる／deposit funds into 〈口座〉＝口座へ資金を入れる／deposit a check＝小切手を入金する／have something deposited into 〈口座〉＝何かを口座へ入金してもらう  
+【文法パターン】deposit money in 〈口座〉＝口座にお金を預け入れる／deposit funds into 〈口座〉＝口座へ資金を入れる／deposit a check＝小切手を入金する／be deposited into 〈口座〉＝口座へ入金される／have something deposited into 〈口座〉＝何かを口座へ入金してもらう  
 
 【コロケーション・構文例】
 
@@ -254,12 +255,17 @@ tags: []
 例: You can deposit the check using the bank app.  
 訳: 銀行のアプリでその小切手を入金できます。  
 
+・be deposited into 〈口座〉  
+用途: 資金を主語にし、その入金先を述べる。  
+例: The refund was deposited into my account yesterday.  
+訳: 返金額は昨日、私の口座に振り込まれた。  
+
 ・have something deposited into 〈口座〉  
 用途: 給与などを入金してもらう手配を述べる。  
 例: He has his salary deposited into the same account every month.  
 訳: 彼は毎月、給与を同じ口座へ振り込んでもらっている。  
 
-【語法・注意】口座は deposit の直接目的語ではなく、in や into の後に置く。「口座に入金する」は deposit money into the account であり、deposit the account ではない。deposit someone money ではなく、deposit money into someone’s account とする。check は米綴り、cheque は英綴り。目的語が文脈上明らかなときには省かれることもある。  
+【語法・注意】deposited は過去形・過去分詞で、deposited funds「預け入れられた資金」のような名詞修飾も元の動詞から理解できる。通常ハイフンは付けず、単なる活用形を独立した派生語とはしない。口座は deposit の直接目的語ではなく、in や into の後に置く。「口座に入金する」は deposit money into the account であり、deposit the account ではない。deposit someone money ではなく、deposit money into someone’s account とする。check は米綴り、cheque は英綴り。目的語が文脈上明らかなときには省かれることもある。  
 
 【類義語】
 
@@ -400,9 +406,9 @@ tags: []
 例: Could you drop me off outside the library?  
 訳: 図書館の前で降ろしてもらえますか。  
 
-7. 【名詞・可算または不可算】堆積物、沈殿物、付着物
+7. 【名詞・主に可算】堆積物、沈殿物、付着物
 
-【日本語訳・定義】水・空気などから分離して表面や底にたまった物質や層。泥、鉱物成分、脂肪などに用い、見える汚れだけを指すわけではない。ひとかたまりや種類を数える場合は可算、物質として捉える場合は不可算。  
+【日本語訳・定義】運ばれたり、分離・沈着したりして、表面や底、体内などにたまった物質や層。泥、鉱物成分、脂肪などに用い、見える汚れだけを指すわけではない。層や集まりを一つと数えて a deposit とし、複数なら deposits とする。  
 
 【頻度】〈6/10〉  
 
@@ -437,9 +443,9 @@ tags: []
 【類義語】
 
 ・sediment  
-定義: 液体中の粒子が沈んでできる沈殿物や堆積物。  
+定義: 液体中から沈んだり、水・風・氷河などに運ばれてたまったりした粒子状の沈殿物・堆積物。  
 頻度: 〈6/10〉  
-違い: deposit より沈降した粒子に焦点があり、医学の脂肪沈着などにはそのまま使えない。  
+違い: 砂や泥などの粒子状物質に焦点があり、液体中で沈む場合に限らない。deposit は表面に付く鉱物成分や体内の脂肪沈着などにも使い、範囲がより広い。  
 例: A layer of sediment covered the bottom of the jar.  
 訳: 瓶の底を沈殿物の層が覆っていた。  
 
@@ -581,6 +587,35 @@ tags: []
 ・precipitate  
 定義: 溶液中から固体として析出する。  
 頻度: 〈3/10〉  
-違い: 化学的な固体の分離に限定され、風で砂が積もる場合などには使わない。  
+違い: ここでの析出義は、溶液から固体が分離することに焦点がある。deposit は風で砂が積もるような物質の蓄積にも使える。precipitate のほかの意味まで、この比較に含めているわけではない。  
 例: Crystals precipitated from the cooling solution.  
 訳: 冷えていく溶液から結晶が析出した。  
+
+11. 【名詞・可算】選挙の供託金
+
+【日本語訳・定義】英国の議会選挙などで、立候補に際して納める金銭。選挙後の得票など、制度上の条件によって返還や没収が決まる。賃貸物件の損傷を担保する保証金とは目的が異なる。  
+
+【頻度】〈3/10〉  
+
+【レジスター/領域】政治・選挙報道。ここでは英国の議会選挙に関する用語として扱う。  
+
+【文法パターン】pay an election deposit＝選挙の供託金を納める／lose one's deposit＝供託金を没収される／have one's deposit returned＝供託金の返還を受ける  
+
+【コロケーション・構文例】
+
+・pay an election deposit  
+用途: 立候補に伴う金銭の納付を述べる。  
+例: She paid an election deposit when standing for Parliament.  
+訳: 彼女は議会選挙に立候補する際、供託金を納めた。  
+
+・lose one's deposit  
+用途: 選挙での得票が少なく、供託金が返還されないことを述べる。  
+例: The candidate received so few votes that he lost his deposit.  
+訳: その候補者は得票が少なすぎたため、供託金を没収された。  
+
+・have one's deposit returned  
+用途: 返還に必要な得票条件を満たしたことを述べる。  
+例: Although she did not win the seat, she received enough votes to have her deposit returned.  
+訳: 彼女は議席を獲得できなかったが、供託金の返還を受けるのに十分な票を得た。  
+
+【語法・注意】lose one's deposit は、ここでは財布などを落としてお金をなくすことではない。当選しなくても返還条件を満たす場合があるため、「落選したら必ず没収」とは解釈しない。必要額や返還条件は国・選挙の種類によって異なり、日本の供託制度と同じ条件を当てはめない。  
