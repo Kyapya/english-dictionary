@@ -3,9 +3,9 @@ headword: discount
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: root-authored revision; independent review requested gpt-6.1-sol medium
 created_at: 2026-10-12
-updated_at: 2026-10-12
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -13,7 +13,7 @@ tags: []
 ＃発音記号
 
 名詞・形容詞: 米・英 /ˈdɪs.kaʊnt/。動詞: 米・英 /ˈdɪs.kaʊnt/ または /dɪsˈkaʊnt/。  
-2音節で、第1音節の母音は /ɪ/、第2音節は /aʊ/。名詞・形容詞は第1音節に主強勢を置く。動詞は辞書・語義・話者によって強勢が異なり、値引き義を前強勢、考慮から外す義を後強勢で示す辞書もある。「動詞だから必ず後強勢」とは覚えない。discounted は -ed を /ɪd/ と発音するため3音節になる。  
+2音節で、第1音節の母音は /ɪ/、第2音節の母音は /aʊ/。名詞・形容詞は第1音節に主強勢を置く。動詞は辞書・語義・話者によって強勢が異なり、値引き義を前強勢、考慮から外す義を後強勢で示す辞書もある。「動詞だから必ず後強勢」とは覚えない。discounted は -ed を /ɪd/ と発音するため3音節になる。  
 
 ＃語源
 
@@ -21,9 +21,8 @@ tags: []
 
 ＃語形成
 
-・discounted：過去形・過去分詞。「値引きされた」「考慮から外された」など。a discounted ticket は値引きされた切符であり、a discount ticket とも言える。  
 ・discounter：可算名詞。「安売り業者、ディスカウント店」。a discounter のように店舗・業者を指す。  
-・discounting：動名詞・不可算名詞。「値引き販売」「割引計算」「手形などの割引」。分野により内容が変わる。  
+・discounting：動詞から名詞化した不可算名詞。「値引き販売」「割引計算」「手形などの割引」。分野により内容が変わる。  
 ・discount rate：複合名詞。「割引率」。現在価値計算に用いる率のほか、金融制度で別の特定金利を指すこともあるため、常に店頭の値引き率とは限らない。  
 ・discounted cash flow：複合名詞。「割引キャッシュフロー」。将来の金銭の流れを現在価値に直して評価する際の用語。  
 
@@ -158,7 +157,7 @@ tags: []
 例: Small retailers cannot afford to discount as aggressively as large chains.  
 訳: 小規模な小売店には、大手チェーンほど積極的に値引きする余裕がない。  
 
-【語法・注意】by 20 percent は20パーセント「分」下げること、to 20 dollars は20ドル「に」下げること。discount the price と discount the product はどちらも成立する。受動形の be discounted と、名詞前の discounted prices も使う。自動詞用法は売り手が値引きを行う意味で、The price discounted. を「価格が下がった」の基本形として使わず、The price fell. または The price was discounted. とする。  
+【語法・注意】by 20 percent は20パーセント「分」下げること、to 20 dollars は20ドル「に」下げること。discount the price と discount the product はどちらも成立する。過去形・過去分詞は discounted。受動形の be discounted と、名詞前の discounted prices も使う。a discounted ticket は値引きされた切符で、a discount ticket とも言える。語義3では discounted が「考慮から外された」を表す場合もある。自動詞用法は売り手が値引きを行う意味で、The price discounted. を「価格が下がった」の基本形として使わず、The price fell. または The price was discounted. とする。  
 
 【類義語】
 
@@ -304,6 +303,11 @@ tags: []
 例: The website offers office supplies at discount prices.  
 訳: そのサイトは事務用品を割引価格で販売している。  
 
+・a discount retailer  
+用途: 低価格で商品を販売する小売業者を指す。  
+例: The discount retailer sells household goods at low prices.  
+訳: その安売り小売業者は家庭用品を低価格で販売している。  
+
 ・a discount airline  
 用途: 安い運賃を売りにする航空会社を指す。  
 例: We flew with a discount airline to keep travel costs down.  
@@ -360,6 +364,11 @@ tags: []
 用途: 計算に使う割引率を示す。  
 例: In this exercise, the future receipts are discounted at an annual rate of five percent.  
 訳: この演習では、将来の受取額を年率5パーセントで現在価値に割り引く。  
+
+・be discounted back to 〈基準時点〉  
+用途: 将来の金額を、指定した評価時点の価値に換算する。  
+例: The projected cash flows were discounted back to the start of the project.  
+訳: 予測キャッシュフローは、事業開始時点の価値に割り引かれた。  
 
 【語法・注意】この at は割引「率」で、店頭の discount by 20 percent という値引き幅とは区別する。計算に用いる率・期間・前提によって評価額は変わる。discounted cash flow の discounted はこの動詞の過去分詞。現在価値換算は店が値引きしたことや、将来額が実際に減額されることを意味しない。  
 
@@ -432,6 +441,11 @@ tags: []
 例: The exporter discounted the bill with its bank to obtain cash before maturity.  
 訳: 輸出業者は満期前に現金を得るため、取引銀行でその手形を割り引いてもらった。  
 
+・a bill is discounted  
+用途: 手形を主語にし、満期前に割引で資金化されることを述べる。  
+例: The bill of exchange was discounted by the bank before it matured.  
+訳: その為替手形は、満期前に銀行によって割り引かれた。  
+
 【語法・注意】discount goods は商品を値引きして売ること、discount a bill of exchange は手形を満期前に割り引いて資金化すること。この bill はレストランの請求書ではなく、金融上の手形を指す。invoice discounting は請求書に基づく債権を利用した別の資金調達表現であり、商品代金を単に安くする意味ではない。取引の要件や負担は契約により異なる。  
 
 【類義語】
@@ -449,7 +463,7 @@ tags: []
 
 【頻度】〈4/10〉  
 
-【レジスター/領域】金融市場・経済報道に多い。金融以外の計算・計画を表す用法は改まった低頻度表現。  
+【レジスター/領域】金融市場・経済報道に多い。金融以外では、将来の事情を計算・計画に先取りして含める文脈でも用いる。  
 
 【文法パターン】discount 〈予想される事情〉 in 〈計画・計算〉＝将来の事情を計画・計算に先取りして考慮する／〈市場・価格〉 + discount + 〈将来の出来事〉＝その将来事象を価格に織り込む／already discount 〈予想される変化〉＝予想される変化をすでに織り込む／be discounted in 〈価格など〉＝価格などに織り込まれている。  
 
@@ -487,3 +501,4 @@ tags: []
 違い: 金融価格に限らず、計画や予算にも広く使う。discount の先取り義より平易で、将来の事情でなくてもよい。  
 例: The budget factors in a possible increase in fuel costs.  
 訳: その予算は燃料費が上がる可能性を織り込んでいる。  
+
