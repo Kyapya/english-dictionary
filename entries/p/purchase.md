@@ -3,9 +3,9 @@ headword: purchase
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: root-authored revision; independent review requested gpt-6.1-sol medium
 created_at: 2026-10-11
-updated_at: 2026-10-11
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -39,7 +39,7 @@ chacier は現代英語の chase「追いかける」につながり、catch「�
 
 ・対価を払って手に入れた対象 → 「購入品、買ったもの」（語義3）  
 
-・犠牲を対価として手に入れる獲得 → 「代償を払って手に入れる」（語義5）  
+・犠牲という対価を払って手に入れる獲得 → 「代償を払って手に入れる」（語義5）  
 
 ＃意味・用法・関連表現
 
@@ -51,7 +51,7 @@ chacier は現代英語の chase「追いかける」につながり、catch「�
 
 【レジスター/領域】一般・ビジネス・商取引。会話の buy に比べて事務的・フォーマル。  
 
-【文法パターン】purchase something＝何かを買う／purchase something from someone＝売り手から買う／purchase something for 〈金額〉＝その価格で買う／purchase something for someone＝人のために買う／purchase something at 〈価格・割引率など〉＝その条件で買う／〈商品など〉 be purchased＝購入される／〈金額〉 + purchase + 〈商品・サービス〉＝その金額で買える／purchase online＝オンラインで買う。最後の形などでは、購入対象が一般的・明白な場合に直接目的語を置かない。  
+【文法パターン】purchase something＝何かを買う／purchase something from someone＝売り手から買う／purchase something for 〈金額〉＝その価格で買う／purchase something for someone＝人のために買う／purchase something at 〈価格〉＝その価格で買う／purchase something at a discount＝割引価格で買う／〈商品など〉 be purchased＝購入される／〈金額〉 + purchase + 〈商品・サービス〉＝その金額で買える／purchase online＝オンラインで買う。最後の形などでは、購入対象が一般的・明白な場合に直接目的語を置かない。  
 
 【コロケーション・構文例】
 
@@ -69,6 +69,11 @@ chacier は現代英語の chase「追いかける」につながり、catch「�
 用途: 購入の受益者を示す。  
 例: The office purchased adjustable chairs for its staff.  
 訳: 事務所は職員のために調節可能な椅子を購入した。  
+
+・purchase something at 〈価格〉  
+用途: 商品を買う際に適用される価格を示す。  
+例: We purchased the remaining tickets at the regular price.  
+訳: 私たちは残りのチケットを通常価格で購入した。  
 
 ・purchase something at a discount  
 用途: 割引価格で購入することを示す。  
@@ -242,7 +247,7 @@ chacier は現代英語の chase「追いかける」につながり、catch「�
 例: He returned the purchase because one of the parts was missing.  
 訳: 部品が1つ欠けていたので、彼は購入品を返品した。  
 
-【語法・注意】I made two purchases. だけでは「2回の購入」か「2つの買い物」かが文脈によって決まる。I carried my purchases home. は運ぶ対象なので購入品の意味。a good purchase は価格・品質などの点で良い買い物だった物を指せるが、purchase 自体に「お買い得」という意味が常にあるわけではない。個々の購入品は可算で、many purchases とする。  
+【語法・注意】I made two purchases. だけでは「2回の購入取引」か「2つの購入品」かが文脈によって決まる。I carried my purchases home. は運ぶ対象なので購入品の意味。a good purchase は価格・品質などの点で良い買い物だった物を指せるが、purchase 自体に「お買い得」という意味が常にあるわけではない。個々の購入品は可算で、many purchases とする。  
 
 【類義語】
 
@@ -291,6 +296,11 @@ chacier は現代英語の chase「追いかける」につながり、catch「�
 用途: 比喩的に、働き掛けや考え方が影響を及ぼす足掛かりを得る。  
 例: The proposal gradually gained purchase with the public.  
 訳: その提案は次第に、一般の人々の間で影響力を持つようになった。  
+
+・have little/no purchase  
+用途: 滑りやすく、力を掛けるための接触が十分に得られないことを示す。  
+例: On the smooth, wet surface, her boots had little purchase.  
+訳: 滑らかで濡れた面では、彼女のブーツは十分に踏ん張りが利かなかった。  
 
 【語法・注意】get purchase on the rock は岩を購入することではなく、岩にしっかり手足を掛けること。purchase the rock なら語義1の動詞で、岩を買うという別の意味になる。物理的な purchase は grip と近く、力を有効に伝える支点・接触に注目する。専門的な機械・航海の文献では、てこの機械的な利得や、滑車などの揚重装置を purchase と呼ぶ用法もある。現代の一般的な文章では、まずここで扱う「掛かり・足掛かり」を理解すればよい。  
 
