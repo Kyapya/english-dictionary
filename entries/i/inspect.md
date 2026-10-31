@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra xhigh
 created_at: 2026-10-11
-updated_at: 2026-10-11
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -24,8 +24,6 @@ tags: []
 ・inspection: 名詞「点検、検査、視察」。行為一般は不可算、個々の検査は可算。carry out an inspection、on closer inspection「さらに詳しく調べてみると」など。  
 ・inspector: 可算名詞「検査官、点検担当者、視察官」。誰が何を調べる役職かは組織による。  
 ・reinspect / re-inspect: 他動詞「再検査する、再点検する」。検査を繰り返す意味。  
-・inspected: 過去形・過去分詞。inspected goods「検査済みの商品」のように修飾にも使うが、検査に合格したことまでは語だけで決まらない。  
-・inspecting: 現在分詞。an inspecting officer は検査・視察を行う職員であり、点検される側ではない。  
 
 ＃意味・用法・関連表現
 
@@ -64,12 +62,17 @@ tags: []
 ・inspect 〈設備〉 to see whether 〈節〉  
 用途: 点検で確認したい条件を節で示す。  
 例: We inspected the doors to see whether the seals were still intact.  
-訳: 私たちは、密閉材がまだ傷んでいないかを確かめるためにドアを点検した。  
+訳: 私たちは、すき間をふさぐシール材がまだ傷んでいないかを確かめるためにドアを点検した。  
 
 ・have 〈機器〉 inspected  
 用途: 専門家などに点検を依頼する。  
 例: We had the lift inspected after it stopped unexpectedly.  
 訳: エレベーターが突然停止したため、私たちは点検してもらった。  
+
+・be inspected before/after 〈名詞・-ing〉  
+用途: 検査が行われるタイミングを示す。  
+例: The equipment is inspected before each use.  
+訳: その機器は、使用するたびに事前に点検される。  
 
 ・inspect the documents  
 用途: 文書の内容・状態などを細かく確認する。  
@@ -81,7 +84,7 @@ tags: []
 例: Before buying the house, they had it inspected for structural defects.  
 訳: その家を買う前に、彼らは構造上の欠陥がないか専門家に調べてもらった。  
 
-【語法・注意】inspect the equipment for damage は「設備に損傷がないか調べる」、inspect the damage は「存在する損傷の状態を調べる」。for の有無で目的語の役割が変わる。対象は直接目的語に取り、inspect about the machine としない。have the machine inspected の machine は点検される側で、have the technician inspect the machine では technician が点検する側。inspect は物や状態を慎重に確かめる語なので、計算の答えや綴りの単純な確認には check が自然。診察全般を言うなら examine a patient が通常で、inspect a wound のような特定部位の目視確認と区別する。米語の have a house inspected に対応して、イギリス英語の不動産取引では have a house surveyed も使うが、検査の範囲・制度が同一とは限らない。inspected goods は検査した商品であって、passed inspection「検査に合格した」と同じではない。  
+【語法・注意】inspected は過去形・過去分詞、inspecting は現在分詞で、動詞の活用形である。an inspecting officer は検査・視察を行う職員であり、点検される側ではない。inspect the equipment for damage は「設備に損傷がないか調べる」、inspect the damage は「存在する損傷の状態を調べる」。for の有無で目的語の役割が変わる。対象は直接目的語に取り、inspect about the machine としない。have the machine inspected の machine は点検される側で、have the technician inspect the machine では technician が点検する側。inspect は物や状態を慎重に確かめる語なので、計算の答えや綴りの単純な確認には check が自然。診察全般を言うなら examine a patient が通常で、inspect a wound のような特定部位の目視確認と区別する。米語の have a house inspected に対応して、イギリス英語の不動産取引では have a house surveyed も使うが、検査の範囲・制度が同一とは限らない。inspected goods は検査した商品であって、passed inspection「検査に合格した」と同じではない。  
 
 【類義語】
 
@@ -186,4 +189,5 @@ tags: []
 違い: 書類や実績に基づく検討も含み、現地での検査を必ずしも伴わない。inspect は対象を直接確かめる側面が強い。  
 例: The board reviewed the hospital's performance over the previous year.  
 訳: 理事会は、病院の前年の実績を検討した。  
+
 
