@@ -3,9 +3,9 @@ headword: confirm
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: root-authored revision; independent review requested gpt-6.1-sol medium
 created_at: 2026-10-12
-updated_at: 2026-10-12
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -22,7 +22,7 @@ tags: []
 ＃語形成
 
 ・confirmation: 名詞「確認、裏付け、正式承認、堅信礼など」。行為・裏付けは不可算、個々の確認通知などは可算にもなる。  
-・confirmed: 過去形・過去分詞。「確認済みの」という状態は語義5、「根っからの」という独立した形容詞義は語義6。  
+・confirmed: 分詞に由来する形容詞。「確認済みの、確定した」は語義5、「根っからの、筋金入りの」は語義6。動詞の過去形・過去分詞としての用法とは区別する。  
 ・unconfirmed: 形容詞「未確認の」。否定された、誤りと判明したという意味ではない。  
 ・reconfirm: 他動詞「再確認する」。既にある予約・予定・事実などを改めて確かめる。  
 ・confirmatory: 形容詞「確認・裏付けとなる」。confirmatory evidence のように、研究や専門的文章で使う。  
@@ -31,19 +31,19 @@ tags: []
 
 「物事を確かなものとして固める」が核。情報の確かさ、予定の確定、正式な地位、心の確信、習慣の定着などへ広がる。宗教用法では信仰上の立場を確かめる儀式を指し、儀式の内容は伝統ごとに異なる。  
 
-・確かさを情報や判断に与えること → 「確認する、裏付ける」（語義1）  
+・確かなものとして情報や判断を固めること → 「確認する、裏付ける」（語義1）  
 
-・確かさを予定や参加に与えること → 「確定する、確約する」（語義2）  
+・確かなものとして予定や参加を固めること → 「確定する、確約する」（語義2）  
 
-・確かさを人事や決定に正式に与えること → 「正式に承認する、地位を確定する」（語義3）  
+・確かなものとして人事や決定を正式に固めること → 「正式に承認する、地位を確定する」（語義3）  
 
-・確かさを心の信念や決意に加えること → 「確信を強める、強固にする」（語義4）  
+・確かなものとして心の信念や決意を固めること → 「確信を強める、強固にする」（語義4）  
 
-・確かさが情報や予定に与えられた状態 → 「確認済みの、確定した」（語義5）  
+・確かなものとして情報や予定が固まった状態 → 「確認済みの、確定した」（語義5）  
 
-・確かさが習慣や性向に定着した状態 → 「根っからの、筋金入りの」（語義6）  
+・確かなものとして習慣や性向が固まった状態 → 「根っからの、筋金入りの」（語義6）  
 
-・確かさを信仰上の立場に儀式で与えること → 「堅信礼などを施す」（語義7）  
+・確かなものとして信仰上の立場を儀式で固めること → 「堅信礼などを施す」（語義7）  
 
 ＃意味・用法・関連表現
 
@@ -55,11 +55,11 @@ tags: []
 
 【レジスター/領域】一般、ビジネス、報道、研究。  
 
-【文法パターン】confirm something＝内容を確認する・裏付ける／confirm (that) 〈平叙文〉＝～だと確認する／confirm (to someone) that 〈平叙文〉＝人に～だと伝えて確認する／confirm 〈wh節〉＝何・いつ・どちらかなどを確認する／confirm whether 〈平叙文〉＝～かどうか確認する／confirm receipt of something＝受領を確認して知らせる／be confirmed by 〈資料・検査など〉＝～によって裏付けられる  
+【文法パターン】confirm something＝内容を確認する・裏付ける／confirm (that) 〈平叙文〉＝～だと確認する／it is confirmed that 〈平叙文〉＝～だと確認されている／confirm (to someone) that 〈平叙文〉＝人に～だと伝えて確認する／confirm 〈wh節〉＝何・いつ・どちらかなどを確認する／confirm whether 〈平叙文〉＝～かどうか確認する／confirm receipt of something＝受領を確認して知らせる／be confirmed by 〈資料・検査など〉＝～によって裏付けられる  
 
 【コロケーション・構文例】
 
-・confirm the details  
+・confirm the delivery address  
 用途: 詳細が正しいか確認する。  
 例: Could you confirm the delivery address before we dispatch the order?  
 訳: 注文品を発送する前に、配送先住所を確認していただけますか。  
@@ -68,6 +68,11 @@ tags: []
 用途: 確認した事実を節で示す。  
 例: The supplier confirmed that all five boxes had been shipped.  
 訳: 供給業者は、5箱すべてを発送済みであることを確認した。  
+
+・it is confirmed that 〈平叙文〉  
+用途: 確認済みの事実を、確認者を示さず伝える。  
+例: It has been confirmed that the missing files were deleted by mistake.  
+訳: 行方不明のファイルは誤って削除されたことが確認されている。  
 
 ・confirm to someone that 〈平叙文〉  
 用途: 確認内容の伝達先を明示する。  
@@ -155,7 +160,7 @@ tags: []
 
 【レジスター/領域】一般、旅行、予約、ビジネス。  
 
-【文法パターン】confirm 〈予約・注文・予定〉＝～を確定する／confirm attendance＝出席を確約する／confirm (that) someone is coming＝来ることを確約する／confirm something in writing＝書面で確認・確約する／confirm＝文脈上明らかな予約・参加を確定する／to be confirmed＝後日確定、未確定  
+【文法パターン】confirm 〈予約・注文・予定〉＝～を確定する／confirm attendance＝出席を確約する／confirm (that) someone is coming＝来ることを確約する／it is confirmed that 〈予定を示す平叙文〉＝～という予定が確定している／confirm something in writing＝書面で確認・確約する／confirm＝文脈上明らかな予約・参加を確定する／to be confirmed＝後日確定、未確定  
 
 【コロケーション・構文例】
 
@@ -178,6 +183,11 @@ tags: []
 用途: 参加予定を節で表す。  
 例: All three speakers have confirmed that they are coming.  
 訳: 講演者3人全員が、来ることを確約している。  
+
+・it is confirmed that 〈予定を示す平叙文〉  
+用途: 正式に決まった予定を受動態で伝える。  
+例: It has been confirmed that the ceremony will take place on Friday.  
+訳: 式典は金曜日に行われることが正式に決まっている。  
 
 ・confirm something in writing  
 用途: 後から参照できる書面で予定を確約する。  
@@ -376,6 +386,11 @@ tags: []
 例: This is the first confirmed sighting of the bird in the area this year.  
 訳: これは、今年その地域で初めて確認された、その鳥の目撃例だ。  
 
+・be confirmed  
+用途: 予約が確定している状態を述べる。  
+例: Your booking is confirmed, so you do not need to contact us again.  
+訳: ご予約は確定していますので、再度ご連絡いただく必要はありません。  
+
 ・remain confirmed  
 用途: 予定が引き続き確定状態にあると述べる。  
 例: Your reservation remains confirmed despite the change in arrival time.  
@@ -417,13 +432,13 @@ tags: []
 
 6. 【形容詞・confirmed・主に限定用法】根っからの、筋金入りの
 
-【日本語訳・定義】人の習慣、性向、生き方などが長く定着しており、簡単には変わりそうにないことを表す。a confirmed bachelor / pessimist など、人を表す名詞の前で使う。悪い性質に限らず、愛好や主義についても使える。  
+【日本語訳・定義】人の習慣、性向、生き方などが長く定着しており、簡単には変わりそうにないことを表す。a confirmed bachelor / pessimist など、人を表す名詞の前でよく使う。confirmed habit / tendency のように、定着した習慣や傾向そのものも修飾する。悪い性質に限らず、愛好や主義についても使える。  
 
 【頻度】〈4/10〉  
 
 【レジスター/領域】一般の文章、人物描写。やや改まった、または軽い誇張を含むことがある。  
 
-【文法パターン】a confirmed 〈人を表す名詞〉＝根っからの～／become/remain a confirmed 〈人を表す名詞〉＝筋金入りの～になる・であり続ける  
+【文法パターン】a confirmed 〈人を表す名詞〉＝根っからの～／a confirmed habit/tendency＝定着した習慣・傾向／become/remain a confirmed 〈人を表す名詞〉＝筋金入りの～になる・であり続ける  
 
 【コロケーション・構文例】
 
@@ -442,12 +457,17 @@ tags: []
 例: As a confirmed coffee drinker, she rarely chooses tea.  
 訳: 根っからのコーヒー党なので、彼女が紅茶を選ぶことはめったにない。  
 
+・a confirmed habit  
+用途: 簡単には変わりそうにない習慣をいう。  
+例: Checking her phone before breakfast had become a confirmed habit.  
+訳: 朝食前に携帯電話を見ることは、彼女のすっかり定着した習慣になっていた。  
+
 ・remain a confirmed optimist  
 用途: 性向が変わらないことを述べる。  
 例: Despite several setbacks, he remains a confirmed optimist.  
 訳: 何度か挫折しても、彼は根っからの楽観主義者のままだ。  
 
-【語法・注意】この意味の confirmed は人を表す名詞の前で使うのが基本。He is confirmed. だけでは「筋金入りだ」という意味にならず、確認された・堅信礼を受けたなど別の読みになる。He is a confirmed optimist. の confirmed は名詞句内の限定修飾である。定着した性向をいうので、very confirmed を通常の程度表現として覚えない。a confirmed bachelor は古い文脈では同性愛を遠回しに示すこともあるが、現代の一例だけからその人の性的指向を推測しない。  
+【語法・注意】この意味の confirmed は、人や習慣・傾向を表す名詞の前で使うのが基本。He is confirmed. だけでは「筋金入りだ」という意味にならず、確認された・堅信礼を受けたなど別の読みになる。He is a confirmed optimist. の confirmed は名詞句内の限定修飾である。定着した性向をいうので、very confirmed を通常の程度表現として覚えない。a confirmed bachelor は古い文脈では同性愛を遠回しに示すこともあるが、現代の一例だけからその人の性的指向を推測しない。  
 
 【類義語】
 
@@ -500,5 +520,3 @@ tags: []
 訳: 彼は、大聖堂で主教から堅信礼を受けた。  
 
 【語法・注意】「確認する」という業務上の意味とは異なる。be confirmed はここでは儀式を受ける受動態で、語義6の「習慣が定着した」という形容詞ではない。baptize「洗礼を授ける」、ordain「聖職者に任ずる」と同一の儀式ではないため、類義語として置き換えない。主教の例は主教が施行する教派の文脈であり、すべての宗派に共通の条件だと一般化しない。  
-
-
