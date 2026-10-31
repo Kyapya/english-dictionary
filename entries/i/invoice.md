@@ -3,9 +3,9 @@ headword: invoice
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: root-authored revision; independent review requested gpt-6.1-sol medium
 created_at: 2026-10-12
-updated_at: 2026-10-12
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -23,19 +23,22 @@ envoi のもとになった envoyer「送る」と関係する同系語には en
 
 ＃語形成
 
-・invoicing：動名詞・不可算名詞。「請求書の発行、請求処理」。invoicing software は請求書作成・管理用ソフトウェア。  
-・invoiced：過去形・過去分詞。the invoiced amount「請求書に記載して請求された金額」のように使い、支払済みとは限らない。  
+・invoicing：invoice から名詞化した不可算名詞。「請求書の発行、請求処理」。invoicing software は請求書作成・管理用ソフトウェア。  
 ・electronic invoice／e-invoice：複合名詞。「電子請求書」。電子形式であることを示し、特定の国の税務要件を満たすことまで語だけで保証しない。  
 ・pro forma invoice：複合名詞。「仮送り状、見積送り状」。取引前の見積りや輸出入手続きなどに使われ、通常の確定した支払請求書と同一視しない。  
 ・commercial invoice：複合名詞。「商業送り状」。国際取引で品名・数量・価格などを示す書類。必要事項は取引や制度により異なる。  
 
 ＃コアイメージ
 
-現代の中心義は、提供した商品・サービスの明細と代金を示して請求することにある。語義3は歴史的残存義で、書類ではなく「発送商品そのもの」を指すため、この請求書の核からは導けず、個別に参照する。  
+商品・サービスの明細と代金を示す書類が中心にあり、その書類で請求する行為にも広がる。送り荷を指す語義4では、書類の名称でそこに記載された商品一式を表す。  
 
-・商品やサービスの明細と代金を示す書類 → 「請求書、送り状」（語義1）  
+・明細と代金を示す請求の書類 → 「請求書、送り状」（語義1）  
 
-・商品やサービスの明細と代金を示す請求 → 「請求書を発行する、請求する」（語義2）  
+・明細と代金を示す請求の対象への発行 → 「請求書を発行する、請求する」（語義2）  
+
+・明細と代金を示す請求の事務処理 → 「請求書を作成・提出する」（語義3）  
+
+・明細と代金を示す書類に対応する商品一式 → 「積送品、送り荷」（語義4）  
 
 ＃意味・用法・関連表現
 
@@ -80,6 +83,16 @@ envoi のもとになった envoyer「送る」と関係する同系語には en
 用途: 請求書の金額を示す。  
 例: We received an invoice for 480 dollars from the repair company.  
 訳: 修理会社から480ドルの請求書が届いた。  
+
+・an outstanding invoice  
+用途: 支払いがまだ済んでいない請求書を指し、期限超過とは限らない。  
+例: This invoice is still outstanding, but payment is not due until next Friday.  
+訳: この請求書はまだ未払いだが、支払期限は来週の金曜日だ。  
+
+・〈金額・項目〉 on an invoice  
+用途: 請求書に記載されている情報を示す。  
+例: The amount on the invoice does not match the agreed price.  
+訳: 請求書に記載された金額が合意した価格と一致しない。  
 
 ・an overdue invoice  
 用途: 支払期限を過ぎても未払いの請求書を指す。  
@@ -134,7 +147,7 @@ envoi のもとになった envoyer「送る」と関係する同系語には en
 
 【レジスター/領域】ビジネス・経理。主に取引先への請求方法を扱う。  
 
-【文法パターン】invoice someone＝人・会社に請求書を発行する／invoice someone for 〈商品・作業・金額〉＝その代金・金額を請求する／invoice 〈商品・サービス〉＝それについて請求書を発行する／invoice 〈商品・サービス〉 at 〈価格・単価〉＝その価格で請求する／someone be invoiced for something＝相手が請求を受ける／something be invoiced separately＝対象が別途請求される。  
+【文法パターン】invoice someone＝人・会社に請求書を発行する／invoice someone for 〈商品・作業・金額〉＝その代金・金額を請求する／invoice 〈商品・サービス〉＝それについて請求書を発行する／invoice something to someone＝商品などを相手宛てに請求書に載せる／invoice 〈商品・サービス〉 at 〈価格・単価〉＝その価格で請求する／someone be invoiced for something＝相手が請求を受ける／something be invoiced separately＝対象が別途請求される。  
 
 【コロケーション・構文例】
 
@@ -168,7 +181,17 @@ envoi のもとになった envoyer「送る」と関係する同系語には en
 例: Customers are invoiced for any services used beyond their monthly allowance.  
 訳: 顧客には、月間利用枠を超えて使用したサービスの料金が請求される。  
 
-【語法・注意】invoice は直接目的語を取り、invoice the customer とする。invoice to the customer をこの基本形の代わりにせず、前置詞 to を使うなら send an invoice to the customer とする。商品などを直接目的語にする invoice the goods もあり、「人だけを目的語にする」とは限らない。代金の対象・金額は for、単価は at で示す。invoiced／invoicing と綴り、語末 e は -ing の前で落とす。an invoiced amount は「請求された金額」、a receipted invoice は「領収済みと記された請求書」で、処理の段階が違う。名詞の an invoice と動詞の invoice someone を同じ構文として覚えない。  
+・invoice something to someone  
+用途: 請求対象の商品などを目的語にし、to で請求先を示す。  
+例: Please invoice the equipment to our head office.  
+訳: 機器代は当社の本社宛てに請求してください。  
+
+・be invoiced separately  
+用途: 商品や料金を主語にして、別途請求されることを述べる。  
+例: Shipping costs will be invoiced separately.  
+訳: 送料は別途請求されます。  
+
+【語法・注意】invoice は直接目的語を取り、invoice the customer とする。この形では請求先の直前に to を置かない。書類の送付先を表すなら send an invoice to the customer とする。ただし、商品などを目的語にした invoice the goods to the customer は使える。invoice someone for the goods では相手が目的語、invoice the goods to someone では商品が目的語になる。商品などを直接目的語にする invoice the goods もあり、「人だけを目的語にする」とは限らない。代金の対象・金額は for、単価は at で示す。過去形・過去分詞は invoiced、現在分詞・動名詞は invoicing と綴り、語末 e は -ing の前で落とす。the invoiced amount の invoiced は、請求されたことを表す過去分詞の名詞修飾である。an invoiced amount は「請求された金額」、a receipted invoice は「領収済みと記された請求書」で、処理の段階が違う。名詞の an invoice と動詞の invoice someone を同じ構文として覚えない。  
 
 【類義語】
 
@@ -186,24 +209,48 @@ envoi のもとになった envoyer「送る」と関係する同系語には en
 例: The museum charges ten dollars for admission.  
 訳: その博物館は入場料として10ドルを徴収している。  
 
-3. 【名詞・可算】積送品、送り荷
+3. 【動詞・自動詞】請求書を作成・提出する
 
-【日本語訳・定義】一つの送り状に記載されるような、まとめて発送された商品の一組。書類を指す語から商品そのものへ移った用法で、現在の通常のビジネス英語ではまれ。  
+【日本語訳・定義】請求先や請求対象を直接目的語にせず、請求書を作成・提出する業務を行う。  
+
+【頻度】〈4/10〉  
+
+【レジスター/領域】ビジネス・経理。請求の時期・周期・方法を述べる場面。  
+
+【文法パターン】someone + invoice + monthly＝毎月請求書を発行する／invoice in advance＝前もって請求書を発行する。  
+
+【コロケーション・構文例】
+
+・invoice monthly  
+用途: 請求業務を行う周期を、目的語を置かずに述べる。  
+例: We invoice monthly rather than after each delivery.  
+訳: 当社では納品のたびではなく、毎月請求書を発行している。  
+
+・invoice in advance  
+用途: 商品の提供や作業の実施に先立って請求書を出すことを述べる。  
+例: For this service, we invoice in advance.  
+訳: このサービスについては、当社は事前に請求書を発行する。  
+
+【語法・注意】語義2の invoice the customer では請求先が直接目的語になるが、この用法では目的語を置かず請求業務自体を述べる。請求を先に行っても、実際に入金されたことまでは意味しない。  
+
+4. 【名詞・可算】積送品、送り荷
+
+【日本語訳・定義】一つの送り状に記載されるような、まとめて発送された商品の一組。書類の名称で、そこに対応する商品そのものを指す用法。  
 
 【頻度】〈2/10〉  
 
-【レジスター/領域】古い商業用法・歴史的な商取引文書。現代の文章では通常 consignment や shipment を使う。  
+【レジスター/領域】商取引。書類ではなく商品自体を指す周辺的な用法。現代の文章では通常 consignment や shipment を使う。  
 
 【文法パターン】an invoice of 〈商品〉＝その商品の一口の送り荷／receive an invoice of 〈商品〉＝送り荷を受け取る。  
 
 【コロケーション・構文例】
 
 ・an invoice of 〈商品〉  
-用途: 歴史的な商業文体で、荷物自体を指す。  
+用途: 商取引の文脈で、書類ではなく荷物自体を指す。  
 例: The merchant unpacked an invoice of silk and displayed the cloth in his shop.  
 訳: 商人は絹の送り荷を開梱し、その布を店内に並べた。  
 
-【語法・注意】この例では unpacked と cloth により書類ではなく実物の商品だと分かる。現在の業務メールで We received your invoice. とあれば、普通は語義1の「請求書を受け取りました」である。このまれな義を日常の書類処理に持ち込まない。  
+【語法・注意】この例では unpacked と、その後に布を店内に並べる文脈により書類ではなく実物の商品だと分かる。現在の業務メールで We received your invoice. とあれば、普通は語義1の「請求書を受け取りました」である。書類処理の文脈と取り違えない。  
 
 【類義語】
 
@@ -213,4 +260,3 @@ envoi のもとになった envoyer「送る」と関係する同系語には en
 違い: 現代の物流で使える普通の語で、invoice のように請求書と誤解されにくい。  
 例: A consignment of fabric arrived at the warehouse this morning.  
 訳: 今朝、生地の送り荷が倉庫に到着した。  
-
