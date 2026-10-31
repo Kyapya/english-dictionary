@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra xhigh
 created_at: 2026-10-11
-updated_at: 2026-10-11
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -26,19 +26,18 @@ tags: []
 ・negotiable: 形容詞「交渉で変更可能な」。金融では「譲渡・流通可能な」、道などでは「通行可能な」という別の用法がある。  
 ・non-negotiable: 形容詞「交渉の余地がない、譲れない」。金融文書では流通・譲渡に関する意味になり、個別の法的効果を一般義から推測しない。  
 ・renegotiate: 他動詞・自動詞「再交渉する」。既にある条件を改めて協議する。  
-・negotiated / negotiating: 過去分詞・現在分詞。a negotiated settlement「交渉による解決」、negotiating skills「交渉力」などに使うが、元の動詞と無関係な状態を示すものではない。  
 
 ＃コアイメージ
 
-「相手や難しい条件に対応しながら、物事を進める」が主要な一般義を結ぶ手掛かり。話合いでは合意へ、道や問題では通過・処理へ向かう。語義5・6は制度的専門義で、証書の権利移転・換金という語彙的意味はこの核から導けないため、個別に参照する。  
+「相手や条件に対応しながら、物事を進める」が主要な一般義を結ぶ手掛かり。話合いでは合意へ、道や問題では通過・処理へ向かう。交渉が必ず難航するわけではなく、条件が複雑であることも必須ではない。語義5・6は制度的専門義で、証書の権利移転・換金という語彙的意味はこの核から導けないため、個別に参照する。  
 
-・難しい条件に対応して話合いを進めること → 「交渉する、協議する」（語義1）  
+・条件に対応して話合いを進めること → 「交渉する、協議する」（語義1）  
 
-・難しい条件に対応して合意内容をまとめること → 「交渉で取り決める、条件を詰める」（語義2）  
+・条件に対応して合意内容をまとめること → 「交渉で取り決める、条件を詰める」（語義2）  
 
-・難しい条件に対応して道を進むこと → 「うまく通り抜ける、切り抜けて進む」（語義3）  
+・条件に対応して道を進むこと → 「うまく通り抜ける、切り抜けて進む」（語義3）  
 
-・難しい条件に対応して問題への対処を進めること → 「うまく対処する、切り抜ける」（語義4）  
+・条件に対応して問題への対処を進めること → 「うまく対処する、切り抜ける」（語義4）  
 
 ＃意味・用法・関連表現
 
@@ -94,7 +93,7 @@ tags: []
 例: The seller refused to negotiate until a written offer was submitted.  
 訳: 売り手は、書面の申し出が提出されるまで交渉を拒んだ。  
 
-【語法・注意】相手は negotiate with the manager、求めるものは negotiate for a discount、議題は negotiate over the price。negotiate the manager で「管理者と交渉する」とはしない。negotiate for a discount は値引きを求める行為、negotiate a discount は語義2で値引き条件を交渉して取り決めること。on behalf of は代表する側、with は交渉相手を示す。negotiate between A and B は間に立つ役割だが、negotiate 自体が常に中立の第三者として仲裁するという意味ではない。話合いの拒否・中断は交渉とは対照的な行動だが、単純な反意語にはしない。  
+【語法・注意】negotiated は過去形・過去分詞、negotiating は現在分詞。a negotiated settlement「交渉による解決」は過去分詞による修飾、negotiating skills「交渉力」は -ing 形による修飾である。活用形が存在することと、新たな派生語が作られることは区別する。相手は negotiate with the manager、求めるものは negotiate for a discount、議題は negotiate over the price。negotiate the manager で「管理者と交渉する」とはしない。negotiate for a discount は値引きを求める行為、negotiate a discount は語義2で値引き条件を交渉して取り決めること。on behalf of は代表する側、with は交渉相手を示す。negotiate between A and B は間に立つ役割だが、negotiate 自体が常に中立の第三者として仲裁するという意味ではない。話合いの拒否・中断は交渉とは対照的な行動だが、単純な反意語にはしない。  
 
 【類義語】
 
@@ -389,4 +388,5 @@ tags: []
 違い: 主にイギリス系の金融文書で使う硬い語。cash より範囲・場面が限られ、交渉の一般義はない。  
 例: The instructions explain where the traveller's cheque can be encashed.  
 訳: 説明書には、そのトラベラーズチェックをどこで現金化できるかが記されている。  
+
 
