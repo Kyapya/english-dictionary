@@ -3,9 +3,9 @@ headword: revenue
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: root-authored revision; independent review requested gpt-6.1-sol medium
 created_at: 2026-10-11
-updated_at: 2026-10-11
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -23,7 +23,6 @@ venire 系には avenue「大通り」（もとは近づいてくる道）、int
 
 ＃語形成
 
-・revenues：複数形。収益・歳入を複数の流れや集計額として述べるときに使うが、1つの企業の総収益についても使える。  
 ・revenue stream：可算の複合名詞。「継続的な収益源」。a new revenue stream のように stream を数える。  
 ・revenue-generating：複合形容詞。「収益を生む」。a revenue-generating service のように名詞の前で使う。  
 ・revenue growth：複合名詞。「収益・売上の伸び」。revenue が名詞として growth を修飾している。  
@@ -31,11 +30,13 @@ venire 系には avenue「大通り」（もとは近づいてくる道）、int
 
 ＃コアイメージ
 
-主要な核は、企業や政府などに、事業・財産・税などの収入源から生じる収入。語義3は制度的専門義で、金銭ではなく徴税機関を指すため、この収入という核から語彙的意味をそのまま導くことはできず、別に覚える。  
+核は、企業や政府などに入ってくる収入。通常は金銭を指すが、the Revenue では、その公的収入を徴収する担当機関へと指す対象が移る。収入と、その徴収主体を結び付けた呼び方として区別する。  
 
-・事業や財産から生じる収入 → 「収益、売上高、収入」（語義1）  
+・入ってくる収入の事業・財産による獲得 → 「収益、売上高、収入」（語義1）  
 
-・税などの公的収入源から生じる収入 → 「歳入、税収」（語義2）  
+・入ってくる収入の税などによる公的な確保 → 「歳入、税収」（語義2）  
+
+・入ってくる収入からその徴収主体への指示の移行 → 「徴税当局」（語義3）  
 
 ＃意味・用法・関連表現
 
@@ -47,7 +48,7 @@ venire 系には avenue「大通り」（もとは近づいてくる道）、int
 
 【レジスター/領域】ビジネス・会計・経済報道。日常の個人の給料を言うなら salary、earnings、income などが普通。  
 
-【文法パターン】revenue from 〈収入源〉＝その収入源からの収益／generate revenue＝収益を生む／revenue of 〈金額〉＝その金額の収益／〈金額〉 in revenue＝収益としてその金額／an increase in revenue＝収益の増加／annual revenues＝年間収益／a source of revenue＝収益源。金額・期間などで特定する an annual revenue of ... のような単数可算的な使い方もある。  
+【文法パターン】revenue from 〈収入源〉＝その収入源からの収益／generate revenue＝収益を生む／revenue of 〈金額〉＝その金額の収益／〈金額〉 in revenue＝収益としてその金額／an increase in revenue＝収益の増加／annual revenues＝年間収益／a source of revenue＝収益源／recognize revenue＝会計上、収益を認識・計上する。金額・期間などで特定する an annual revenue of ... のような単数可算的な使い方もある。  
 
 【コロケーション・構文例】
 
@@ -91,7 +92,7 @@ venire 系には avenue「大通り」（もとは近づいてくる道）、int
 例: The accountant explained that receiving cash does not always mean recognizing revenue at the same time.  
 訳: 会計担当者は、現金の受領と収益の計上が必ずしも同時になるわけではないと説明した。  
 
-【語法・注意】基本は much revenue / less revenue で、1件の入金を a revenue、複数の入金を revenues と機械的に数えない。Revenue is rising. と Revenues are rising. はどちらも使えるが、動詞の数を合わせる。revenue は費用控除後の profit と同じではなく、収益増と赤字は両立する。net revenue も何を差し引いた指標かを確認し、net profit と自動的に同一視しない。income は広義の収入にも、企業の利益を指す用語にもなる。会計上の収益と cash receipts「現金収入」は時点・範囲が一致しない場合があり、IFRS 15 では顧客への約束した財・サービスの移転に応じた収益認識を扱う。具体的な処理は適用基準と取引条件による。expenses「費用」は対照する会計概念だが、revenue の否定や単純な反対語ではない。  
+【語法・注意】revenues は複数形で、収益・歳入を複数の流れや集計額として述べるときに使うが、1つの企業の総収益についても使える。基本は much revenue / less revenue で、1件の入金を a revenue、複数の入金を revenues と機械的に数えない。Revenue is rising. と Revenues are rising. はどちらも使えるが、動詞の数を合わせる。revenue は費用控除後の profit と同じではなく、収益増と赤字は両立する。net revenue も何を差し引いた指標かを確認し、net profit と自動的に同一視しない。income は広義の収入にも、企業の利益を指す用語にもなる。会計上の収益と cash receipts「現金収入」は時点・範囲が一致しない場合があり、IFRS 15 では顧客への約束した財・サービスの移転に応じた収益認識を扱う。具体的な処理は適用基準と取引条件による。expenses「費用」は対照する会計概念だが、revenue の否定や単純な反対語ではない。  
 
 【類義語】
 
