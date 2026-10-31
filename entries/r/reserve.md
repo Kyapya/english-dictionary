@@ -3,9 +3,9 @@ headword: reserve
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: root-authored revision; independent review requested gpt-6.1-sol medium
 created_at: 2026-10-12
-updated_at: 2026-10-12
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -24,8 +24,7 @@ tags: []
 ＃語形成
 
 ・reservation：名詞。「予約、留保・懸念」。make a reservation は予約すること、have reservations about something は疑念を持つこと。  
-・reserved：過去形・過去分詞、および形容詞。「予約・確保済みの」と「感情をあまり表に出さない」を区別する。  
-・reserves：名詞の複数形では「備蓄、準備資産、埋蔵量、予備兵力」など。三人称単数の動詞とも同じ綴り。  
+・reserved：分詞に由来する形容詞。語義5の「予約済みの、確保された」と、語義6の「控えめな、打ち解けない」を区別する。動詞の過去形・過去分詞としての用法とは別に扱う。  
 ・reservist：可算名詞。「予備役軍人」。スポーツの控え選手の普通の呼び名ではない。  
 ・unreserved：形容詞。「留保のない、無条件の」。unreserved support は全面的な支持。座席については「予約されていない、自由席の」の意味もある。  
 ・unreservedly：副詞。「留保なく、全面的に」。正式な謝罪・支持・推薦などに使う。  
@@ -43,11 +42,11 @@ tags: []
 
 ・資金需要のために取っておく資産 → 「準備金、準備資産、積立金」（語義4）  
 
-・特定の利用者のために取ってある状態 → 「予約済みの、確保された」（語義5）  
+・特定の利用者のために取っておく状態 → 「予約済みの、確保された」（語義5）  
 
 ・自分の感情を表に出し切らない性質 → 「控えめな、打ち解けない」（語義6）  
 
-・自然保護のために利用を限る区域 → 「自然保護区、保全区域」（語義7）  
+・自然保護のために取っておく区域 → 「自然保護区、保全区域」（語義7）  
 
 ・判断をすぐに表に出さない行為 → 「判断を保留する」（語義8）  
 
@@ -63,11 +62,13 @@ tags: []
 
 ・賛同を全面的には出さない留保 → 「留保、ためらい」（語義14）  
 
-・先住民のために用途を定めた土地 → 「先住民の居留地」（語義15）  
+・先住民の利用のために取っておく土地 → 「先住民の居留地」（語義15）  
 
-・公共利用のために用途を定めた土地 → 「公共の運動・レクリエーション用地」（語義16）  
+・公共利用のために取っておく土地 → 「公共の運動・レクリエーション用地」（語義16）  
 
 ・特別な品として選び分けたワイン → 「特選ワイン、リザーブ」（語義17）  
+
+・指定の利用のために取っておく図書館資料 → 「指定資料としての取り置き」（語義18）  
 
 ＃意味・用法・関連表現
 
@@ -219,13 +220,13 @@ tags: []
 
 3. 【名詞・可算・不可算、複数形も多い】備蓄、予備、余力、埋蔵量
 
-【日本語訳・定義】必要になったときに使えるように残っている量・蓄え、または予備として保持されている状態。食料・燃料だけでなく、体力・忍耐などの余力にも使う。石油・鉱物などでは、将来利用し得る埋蔵資源の量を指す。  
+【日本語訳・定義】必要になったときに使えるように残っている量・蓄え、または予備として保持されている状態。食料・燃料だけでなく、体力・忍耐などの余力にも使う。石油・鉱物などでは、既知の資源のうち、評価時点の経済条件や技術・操業条件などのもとで採取・回収できると判断される量を指す。単に地中に存在する資源すべてではない。  
 
 【頻度】〈8/10〉  
 
 【レジスター/領域】一般・ビジネス・資源・科学。埋蔵量の厳密な分類は専門的。  
 
-【文法パターン】a reserve of something＝何かの蓄え／reserves of 〈物質・能力〉＝蓄え・余力／food/fuel/oil reserves＝食料備蓄・燃料備蓄・石油埋蔵量／in reserve＝予備として残して／draw on/use up reserves＝蓄えを利用する・使い果たす／on reserve＝図書館などで取り置き・利用制限の対象となって。  
+【文法パターン】a reserve of something＝何かの蓄え／reserves of 〈物質・能力〉＝蓄え・余力／food/fuel/oil reserves＝食料備蓄・燃料備蓄・石油埋蔵量／in reserve＝予備として残して／draw on/use up reserves＝蓄えを利用する・使い果たす。  
 
 【コロケーション・構文例】
 
@@ -245,21 +246,16 @@ tags: []
 訳: 彼女は長い交渉の間、内に蓄えた忍耐力を発揮した。  
 
 ・oil reserves  
-用途: 地中に存在して利用対象となる石油の量を述べる。  
-例: The survey identified oil reserves beneath the seabed.  
-訳: 調査によって、海底下の石油埋蔵資源が確認された。  
+用途: 経済的に回収できると評価された石油の埋蔵量を述べる。  
+例: The survey identified commercially recoverable oil reserves beneath the seabed.  
+訳: 調査によって、海底下に商業的に回収可能な石油埋蔵量が確認された。  
 
 ・use up one's reserves  
 用途: 蓄えていた量を使い果たす。  
 例: By the final stage of the climb, he had used up most of his energy reserves.  
 訳: 登山の最終段階までに、彼は蓄えていた体力の大半を使っていた。  
 
-・on reserve  
-用途: 図書館で特定の利用のために確保された資料を指す。  
-例: The textbook is on reserve at the library and may be borrowed for two hours.  
-訳: その教科書は図書館の指定図書として確保されており、2時間借りることができる。  
-
-【語法・注意】a reserve of food のように一つの蓄えとして数え、food reserves のように複数形でも使う。in reserve の reserve は無冠詞の固定表現で、in a reserve では通常「ある保護区・居留地の中で」という別義になる。on reserve は図書館で特定利用者の取り置きや授業用の利用制限資料を指し、具体的な貸出条件は図書館による。oil reserves はすでにタンクに貯蔵した石油だけではなく地下の埋蔵量にも使うが、確認埋蔵量などの専門分類を単語だけから決めない。体力の reserves は比喩で、無限の能力や実際の成功までは含意しない。  
+【語法・注意】reserves は名詞の複数形で「備蓄、準備資産、埋蔵量、予備兵力」などを表し、動詞の三人称単数現在形とも同じ綴り。a reserve of food のように一つの蓄えとして数え、food reserves のように複数形でも使う。in reserve の reserve は無冠詞の固定表現で、in a reserve では通常「ある保護区・居留地の中で」という別義になる。図書館の on reserve は、単なる未使用の備蓄ではなく利用対象・貸出条件を限定した資料を指すため、語義18で扱う。oil reserves は文脈により備蓄を指すこともあるが、資源評価では経済的な回収可能性を伴う埋蔵量を指す。resources はより広い資源を指し、両者を同一視しない。reserves だけで proved reserves「確認埋蔵量」など特定の確実性区分まで決まるわけではなく、評価条件によって量も変わる。体力の reserves は比喩で、無限の能力や実際の成功までは含意しない。  
 
 【類義語】
 
@@ -286,13 +282,13 @@ tags: []
 
 4. 【名詞・可算、通常複数形 reserves】準備金、準備資産、積立金
 
-【日本語訳・定義】将来の支払い・損失・不測の必要などに備えて確保される資金・資産。中央銀行の外貨・金などの保有、金融機関の準備、企業の積立てなどに使う。会計上は資本・利益の一部を区分したものを指すこともあり、すべてが別口座の現金の山というわけではない。  
+【日本語訳・定義】支払い・決済・不測の必要などに備えて保有する資金・資産や、会計上区分された積立金などを指す。中央銀行の外貨・金の保有、金融機関が中央銀行に持つ決済用の預金、企業の現金準備などがある。一方、会計上の reserves は資本・利益の一部の区分を指すこともあり、すべてを別口座の現金や損失吸収用の自己資本と考えない。  
 
 【頻度】〈7/10〉  
 
 【レジスター/領域】金融・会計・経済報道。制度により指す範囲が異なる。  
 
-【文法パターン】cash/foreign exchange/gold reserves＝現金準備・外貨準備・金準備／build up/draw on reserves＝準備資金を積み増す・取り崩して使う／a reserve for 〈将来の支出・損失〉＝そのための準備金／capital/revenue reserves＝会計上の資本・利益に関係する積立金等。  
+【文法パターン】cash/foreign exchange/gold reserves＝現金準備・外貨準備・金準備／hold reserves at the central bank＝中央銀行に準備預金を保有する／build up/draw on reserves＝準備資金を積み増す・取り崩して使う／a reserve for 〈将来の支出・損失〉＝そのための準備金／capital/revenue reserves＝会計上の資本・利益に関係する積立金等。  
 
 【コロケーション・構文例】
 
@@ -306,6 +302,11 @@ tags: []
 例: The central bank reported an increase in foreign exchange reserves.  
 訳: 中央銀行は外貨準備の増加を報告した。  
 
+・hold reserves at the central bank  
+用途: 銀行が決済などに使う中央銀行への預金を示す。  
+例: Commercial banks hold reserves at the central bank to settle payments.  
+訳: 民間銀行は、支払いの決済のため中央銀行に準備預金を保有する。  
+
 ・build up reserves  
 用途: 将来に備える資金を増やすことを示す。  
 例: The charity is building up reserves to protect essential services.  
@@ -316,7 +317,7 @@ tags: []
 例: The board approved a reserve for major repairs to the building.  
 訳: 理事会は建物の大規模修繕に備える積立金を承認した。  
 
-【語法・注意】reserves をすべて「利益」や「現金」と訳さない。cash reserves は流動性のある資金、foreign exchange reserves は外貨準備、会計上の capital reserves などは財務諸表の分類というように、修飾語と分野で訳を決める。reserve と provision「引当金」には制度・会計基準ごとの区別があり、両者を常に同じ科目としない。必要額・積立義務・使用条件などは reserve の辞書的意味から推測せず、対象制度で確認する。米国の Federal Reserve は中央銀行制度の固有名で、一般名詞の準備金とそのまま置き換えない。  
+【語法・注意】reserves をすべて「利益」や「現金」と訳さない。cash reserves は流動性のある資金、foreign exchange reserves は外貨準備、会計上の capital reserves などは財務諸表の分類というように、修飾語と分野で訳を決める。銀行が中央銀行に保有する reserves は決済などに使う資産で、銀行の自己資本そのものではない。reserve と provision「引当金」には制度・会計基準ごとの区別があり、両者を常に同じ科目としない。必要額・積立義務・使用条件などは reserve の辞書的意味から推測せず、対象制度で確認する。米国の Federal Reserve は中央銀行制度の固有名で、一般名詞の準備金とそのまま置き換えない。  
 
 【類義語】
 
@@ -424,6 +425,11 @@ tags: []
 用途: 特定の話題を積極的に明かさない態度を示す。  
 例: He is reserved about his private life.  
 訳: 彼は私生活についてあまり話さない。  
+
+・become more reserved  
+用途: 感情や考えを以前より表に出さなくなる変化を示す。  
+例: After moving to a new school, he became more reserved and spoke less in class.  
+訳: 転校後、彼は以前よりも打ち解けなくなり、授業中に話すことも減った。  
 
 ・more reserved than someone  
 用途: 感情・考えの表し方を比較する。  
@@ -536,7 +542,7 @@ tags: []
 
 【レジスター/領域】一般の改まった判断・論評。法廷では判決を後に回す用法もある。  
 
-【文法パターン】reserve judgment/judgement＝判断を保留する／reserve one's judgment on/about something＝対象についての判断を保留する／reserve judgment until 〈時点・節〉＝その時点まで判断を控える／〈裁判所・裁判官〉 reserve judgment＝判決を留保する。  
+【文法パターン】reserve judgment/judgement＝判断を保留する／reserve one's judgment on/about something＝対象についての判断を保留する／reserve judgment until 〈時点・節〉＝その時点まで判断を控える／〈裁判所・裁判官〉 + reserve judgment＝判決を留保する。  
 
 【コロケーション・構文例】
 
@@ -555,7 +561,7 @@ tags: []
 例: She reserved judgment until both candidates had answered the same questions.  
 訳: 彼女は両候補者が同じ質問に答え終えるまで、判断を保留した。  
 
-・〈裁判官〉 reserve judgment  
+・〈裁判官〉 + reserve judgment  
 用途: 審理後、その場で判決を言い渡さないことを示す。  
 例: After hearing the final arguments, the judge reserved judgment.  
 訳: 最終弁論を聞いた後、裁判官は判決を留保した。  
@@ -963,6 +969,28 @@ tags: []
 例: This reserve wine is part of the producer's special-selection range.  
 訳: このリザーブワインは、その生産者の特選シリーズの一つである。  
 
-【語法・注意】食事の際の reserve を必ず「備蓄」と訳さず、製品の区分・表示かを確かめる。長い熟成や選別したブドウなどを特色にすることがあるが、reserve の一語から一定の熟成年数、最高品質、自社畑産などを一律に推定しない。生産者のシリーズ名としても使われ、条件は原産地・制度・生産者によって確認する。ブレンド用に保管された原酒を指す reserve wines の用法もあるが、それは語義3の蓄えという意味が中心で、販売ラベル上の特選品と同一ではない。  
+【語法・注意】食事の際の reserve を必ず「備蓄」と訳さず、製品の区分・表示かを確かめる。長い熟成や選別したブドウなどを特色にすることがあるが、reserve の一語から一定の熟成年数、最高品質、自社畑産などを一律に推定しない。生産者のシリーズ名としても使われ、条件は原産地・制度・生産者によって確認する。ブレンド用に保管された過去年のワインを指す reserve wines の用法もあるが、それは語義3の蓄えという意味が中心で、販売ラベル上の特選品と同一ではない。  
 
+18. 【名詞・主に on reserve】指定資料としての取り置き
 
+【日本語訳・定義】図書館で、授業の履修者など特定の利用に供するため、通常とは異なる閲覧・貸出条件のもとで資料を確保しておくこと。on reserve は、資料がこの扱いになっている状態を表す。未使用の備蓄ではなく、対象者が必要な資料を利用できるようにする仕組みに焦点がある。  
+
+【頻度】〈4/10〉  
+
+【レジスター/領域】図書館、特に大学の授業用資料。具体的な貸出時間・閲覧場所は図書館による。  
+
+【文法パターン】be on reserve＝指定資料として確保されている／put/place something on reserve＝資料を指定資料として確保する  
+
+【コロケーション・構文例】
+
+・on reserve  
+用途: 図書館で特定の利用のために確保された資料を指す。  
+例: The textbook is on reserve at the library and may be borrowed for two hours.  
+訳: その教科書は図書館の指定図書として確保されており、2時間借りることができる。  
+
+・place something on reserve  
+用途: 授業などで使う資料を指定資料にする。  
+例: The lecturer asked the library to place three copies of the book on reserve for the course.  
+訳: 講師は、その授業用にその本を3冊、指定資料として確保するよう図書館に依頼した。  
+
+【語法・注意】on reserve を一律に「貸出禁止」と訳さない。短時間の貸出や館内利用など、条件は図書館・資料によって異なる。例文の2時間はその場面の条件であり、一般規則ではない。in reserve「予備として」と区別し、一般利用者の通常の予約・取り置きをすべてこの授業用資料の制度と同一視しない。  
