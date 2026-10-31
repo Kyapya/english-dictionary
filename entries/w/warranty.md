@@ -3,9 +3,9 @@ headword: warranty
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: root-authored revision; independent review requested gpt-6.1-sol medium
 created_at: 2026-10-12
-updated_at: 2026-10-12
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -23,8 +23,6 @@ tags: []
 
 ＃語形成
 
-・warranties：名詞の複数形。語尾の y を ies にする。a warranty、two warranties と数える。  
-・warrantied / warrantying：低頻度の動詞 warranty の過去形・過去分詞と現在分詞。過去形は -ied、-ing 形は y を残す。  
 ・warrantor：可算名詞。「保証を与える者」。主に法律・商業の用語。  
 ・extended warranty：複合名詞。「延長保証」。期間や対象の拡張を表すが、サービス契約との制度上の区別は法域と契約内容による。  
 ・warranty claim：複合名詞。「保証に基づく修理・交換などの請求」。損害全般の請求を無条件に指すわけではない。  
@@ -45,7 +43,7 @@ tags: []
 
 1. 【名詞・可算。under warranty などでは無冠詞】製品保証、保証書
 
-【日本語訳・定義】商品に一定期間内の不具合が生じたときに修理・交換などに応じるという販売者・メーカーの保証。また、その保証内容を記した文書。作業の品質が不十分な場合にやり直す保証にも使う。書面で示されることが多いが、保証の適用対象や対応方法は内容による。  
+【日本語訳・定義】商品の品質や性能について責任を持ち、不具合などがあれば修理・交換・返金などに応じるという販売者・メーカーの保証。また、その保証内容を記した文書。作業の品質が不十分な場合にやり直す保証にも使う。保証期間や条件を書面で示すことが多いが、適用対象や対応方法は内容による。  
 
 【頻度】〈8/10〉  
 
@@ -95,7 +93,7 @@ tags: []
 例: The leaflet says that using the wrong power supply may void the warranty.  
 訳: その説明書には、不適切な電源を使うと保証が無効になる場合があると書かれている。  
 
-【語法・注意】保証一般の状態は under warranty と無冠詞にする。under the warranty は特定の保証契約に基づくことを示す。a two-year warranty の year は名詞前の複合修飾語なので単数。guarantee も書面による製品保証を表せるため、「warranty は書面、guarantee は口約束」と二分しない。warranty が必ず無料・無期限・全損傷対応という意味でもない。例文の保証条件は架空の製品についての説明であり、すべての契約で同じ条件や法的有効性を主張するものではない。  
+【語法・注意】名詞の複数形は語尾の y を ies にした warranties で、a warranty、two warranties と数える。通常の複数形であり、派生語ではない。保証が適用される状態を表す定型表現 under warranty では、通常、冠詞を置かない。under the warranty は特定の保証契約に基づくことを示す。a two-year warranty の year は名詞前の複合修飾語なので単数。guarantee も書面による製品保証を表せるため、「warranty は書面、guarantee は口約束」と二分しない。warranty が必ず無料・無期限・全損傷対応という意味でもない。例文の保証条件は架空の製品についての説明であり、すべての契約で同じ条件や法的有効性を主張するものではない。  
 
 【類義語】
 
@@ -121,7 +119,7 @@ tags: []
 
 【レジスター/領域】法律・契約。内容と効果は法域・契約により異なる  
 
-【文法パターン】a warranty that 〈節〉＝その内容が正しいという契約上の保証／an express warranty＝明示された保証／an implied warranty＝黙示の保証／a warranty of title＝権原の保証／breach of warranty＝保証違反  
+【文法パターン】a warranty that 〈節〉＝その内容が正しいという契約上の保証／an express warranty＝明示された保証／an implied warranty＝黙示の保証／a warranty of title＝権原の保証／breach of warranty＝保証違反／a condition or a warranty＝契約条項の分類上の condition か warranty か  
 
 【コロケーション・構文例】
 
@@ -150,7 +148,12 @@ tags: []
 例: The buyer alleged a breach of warranty concerning the condition of the machinery.  
 訳: 買主は、機械の状態に関する保証違反があったと主張した。  
 
-【語法・注意】法律文書の representations and warranties は通常「表明および保証」。representation と warranty の法的な役割・救済がいつでも同一とは限らない。warranty of title の title は「題名」ではなく権原。implied warranty の存在から、warranty は常に保証書そのものを意味すると考えてはいけない。ここでは語彙の意味を示しており、違反時の解除権や損害賠償の成立を一律に決めない。  
+・a condition or a warranty  
+用途: 英法の契約条項の分類で、違反時の救済に関わる区別を述べる。  
+例: The court considered whether the delivery term was a condition or a warranty.  
+訳: 裁判所は、その引渡条項が条件条項（condition）か保証条項（warranty）かを検討した。  
+
+【語法・注意】法律文書の representations and warranties は通常「表明および保証」。representation と warranty の法的な役割・救済がいつでも同一とは限らない。warranty of title の title は「題名」ではなく権原。implied warranty の存在から、warranty は常に保証書そのものを意味すると考えてはいけない。英法で契約条項を condition、warranty、innominate term に分類する場合、condition の違反は原則として契約終了を選ぶ根拠になるのに対し、warranty の違反だけでは通常その権利は生じず、損害賠償などが問題になる。契約に明示された終了権などは別に検討されるため、保証一般にこの分類や効果を機械的に当てはめない。  
 
 【類義語】
 
@@ -208,11 +211,11 @@ tags: []
 
 4. 【動詞・他動詞】保証を付ける
 
-【日本語訳・定義】メーカーや販売業者が、商品・部品・作業について warranty を与える。名詞から転用された低頻度の動詞で、特に米国の商業文脈に見られる。一般的には guarantee や provide a warranty の方が広く通じる。  
+【日本語訳・定義】メーカーや販売業者が、商品・部品・作業について warranty を与える。名詞から転用された低頻度の動詞で、製品サポートなどの商業文脈に見られる。一般的には guarantee や provide a warranty の方が広く通じる。  
 
 【頻度】〈3/10〉  
 
-【レジスター/領域】主に米国の商業表現  
+【レジスター/領域】商業表現  
 
 【文法パターン】warranty something for 〈期間〉＝対象に所定期間の保証を付ける／warranty something against 〈不具合〉＝対象に不具合に対する保証を付ける／be warrantied for 〈期間〉＝所定期間の保証が付いている  
 
@@ -233,7 +236,7 @@ tags: []
 例: The repaired unit is warrantied for ninety days.  
 訳: 修理済みの機器には90日間の保証が付いている。  
 
-【語法・注意】過去形・過去分詞は warrantied、現在分詞は warrantying。warranted は別の動詞 warrant の過去形・過去分詞で、「正当な、根拠のある」という形容詞用法もあるため混同しない。a warrantied part は保証付き部品を表す受動的な限定用法で、ハイフンは不要。  
+【語法・注意】過去形・過去分詞は warrantied と -ied にし、現在分詞 warrantying では y を残す。これらは動詞の活用形である。warranted は別の動詞 warrant の過去形・過去分詞で、「正当な、根拠のある」という形容詞用法もあるため混同しない。a warrantied part は保証付き部品を表す受動的な限定用法で、ハイフンは不要。  
 
 【類義語】
 
@@ -250,3 +253,4 @@ tags: []
 違い: 契約書などに見られる改まった動詞。warrant には「正当化する」という別義がある。  
 例: The seller warrants that the goods conform to the specification.  
 訳: 売主は商品が仕様に適合することを保証する。  
+
