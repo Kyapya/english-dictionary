@@ -47,7 +47,7 @@ tags: []
 
 【レジスター/領域】一般、ビジネス、旅行、日程調整。  
 
-【文法パターン】他動詞: arrange something＝物事を手配する／他動詞: arrange something for 〈日時・人〉＝～の日時に・人のために手配する／自動詞: arrange for something＝実現に必要な手配をする／arrange to do something＝自分が～する段取りをつける／arrange for someone/something to do something＝人・物が～するよう手配する／arrange with someone to do something＝人と～する取り決めをする／arrange with someone about something＝人と～について段取りをつける／arrange (with someone) that 〈節〉＝～となるよう取り決める／arrange 〈wh節〉＝いつ・どうするかなどを取り決める／arrange 〈wh語〉 to do something＝いつ・どう～するかなどを取り決める／be arranged by someone＝人によって手配される／as arranged＝取り決めたとおりに  
+【文法パターン】arrange something＝物事を手配する／arrange something for 〈日時・人〉＝～の日時に・人のために手配する／arrange for something＝物事が実現・確保されるよう手配する／arrange to do something＝自分が～する段取りをつける／arrange for someone/something to do something＝人・物が～するよう手配する／arrange with someone to do something＝人と～する取り決めをする／arrange with someone about something＝人と～について段取りをつける／arrange (with someone) that 〈節〉＝～となるよう取り決める／arrange 〈wh節〉＝いつ・どうするかなどを取り決める／arrange 〈wh語〉 to do something＝いつ・どう～するかなどを取り決める／be arranged by someone＝人によって手配される／as arranged＝取り決めたとおりに  
 
 【コロケーション・構文例】
 
@@ -121,7 +121,7 @@ tags: []
 例: The driver arrived at seven, as arranged.  
 訳: 運転手は、取り決めたとおり7時に到着した。  
 
-【語法・注意】arranged / arranging は、それぞれ過去形・過去分詞と現在分詞・動名詞として使う活用形。arrange to meet は主語が会う段取り、arrange for someone to meet は指定された人が会う段取り。通常、arrange someone to do ではなく arrange for someone to do とする。arrange with someone は相談・合意の相手を示し、to不定詞の行為者は内容から読む。I arranged with Maya to meet her. では会う主体は I だが、I arranged with a driver to collect me. なら迎えるのは driver と理解される。曖昧さを避けるには arrange with someone for someone else to do、または that節で行為者を明示する。arrange a meeting for Friday の for は日時、arrange for a meeting は会議が実現するための手配。arrange a loan は資金調達を手配することで、自分が貸主だとは限らない。受動態は The meeting was arranged by our assistant. のように作れる。arranged marriage は縁談を親などが整える結婚であり、単なる結婚式の手配という意味ではない。  
+【語法・注意】arranged / arranging は、それぞれ過去形・過去分詞と現在分詞・動名詞として使う活用形。この手配の意味では、arrange something と arrange for something は重なることが多い。arrange transportation / arrange for transportation は、どちらも「移動手段を手配する」。前者は手配する対象を直接目的語にし、後者はその対象が実現・確保されるようにするという形で述べる。たとえば arrange a meeting は会議自体の段取りを整える見方、arrange for a meeting は会議が開かれるよう準備する見方になる。ただし、この焦点の違いは文脈に左右され、同じ手配をどちらでも表せる場合が多い。自分で行うか他人に頼むかを必ず区別するものではない。ただし、arrange the chairs「椅子を並べる」は語義2、arrange for chairs「椅子が用意されるよう手配する」はこの語義1で、配置の意味まで同じになるわけではない。arrange something と arrange to do something も、手配する内容が重なることはあるが、後ろに置く形と主語の役割が違う。arrange a meeting は名詞で会議という手配対象を示し、手配した人自身が会議に出るとは限らない。arrange to meet someone は動詞で会う行動を示し、会うのは arrange の主語である。arrange to meet は主語が会う段取り、arrange for someone to meet は指定された人が会う段取り。通常、arrange someone to do ではなく arrange for someone to do とする。arrange with someone は相談・合意の相手を示し、to不定詞の行為者は内容から読む。I arranged with Maya to meet her. では会う主体は I だが、I arranged with a driver to collect me. なら迎えるのは driver と理解される。曖昧さを避けるには arrange with someone for someone else to do、または that節で行為者を明示する。arrange a meeting for Friday の for は日時、arrange for a meeting は会議が実現するための手配。arrange a loan は資金調達を手配することで、自分が貸主だとは限らない。受動態は The meeting was arranged by our assistant. のように作れる。arranged marriage は縁談を親などが整える結婚であり、単なる結婚式の手配という意味ではない。  
 
 【類義語】
 
@@ -268,7 +268,7 @@ tags: []
 
 【レジスター/領域】音楽。  
 
-【文法パターン】他動詞: arrange 〈曲〉＝曲を編曲する／自動詞: arrange (for 〈演奏者・編成〉)＝（～向けに）編曲を行う／arrange 〈曲〉 for 〈楽器・編成〉＝～用に編曲する／arrange 〈曲〉 in 〈様式〉＝～の様式で編曲する／be arranged by 〈編曲者〉＝～が編曲したものである  
+【文法パターン】arrange 〈曲〉＝曲を編曲する／arrange (for 〈演奏者・編成〉)＝（～向けに）編曲を行う／arrange 〈曲〉 for 〈楽器・編成〉＝～用に編曲する／arrange 〈曲〉 in 〈様式〉＝～の様式で編曲する／be arranged by 〈編曲者〉＝～が編曲したものである  
 
 【コロケーション・構文例】
 
