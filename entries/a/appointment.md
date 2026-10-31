@@ -3,9 +3,9 @@ headword: appointment
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: root-authored revision; independent review requested gpt-6.1-sol medium
 created_at: 2026-10-12
-updated_at: 2026-10-12
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -23,7 +23,7 @@ tags: []
 
 ＃語形成
 
-・appoint：他動詞。「任命する」。appoint someone as director／appoint someone to the board のように役職や所属を示す。  
+・appoint：appointment の語基に当たる他動詞。「任命する」。appoint someone as director／appoint someone to the board のように役職や所属を示す。  
 ・appointee：可算名詞。「任命された人」。任命行為や職そのものとは区別する。  
 ・reappointment：可算・不可算名詞。「再任」。診療予約を変更することは通常 rescheduling と表す。  
 ・well-appointed：形容詞。「設備・調度が整った」。a well-appointed room は快適に設備が整った部屋で、「予約がうまく取れた部屋」ではない。  
@@ -38,13 +38,13 @@ tags: []
 
 ・人に役割を定めて割り当てる行為 → 「任命、就任」（語義2）  
 
-・人に定めて割り当てられた役職 → 「任命された職、役職」（語義3）  
+・人に定めて割り当てる役職 → 「任命された職、役職」（語義3）  
 
-・役職を定めて割り当てられた人 → 「任命された人、新任者」（語義4）  
+・役職を定めて割り当てる相手 → 「任命された人、新任者」（語義4）  
 
-・供給者としての役割を定める認定 → 「王室御用達の認定」（語義6）  
+・供給者の役割を定めて割り当てる認定 → 「王室御用達の認定」（語義6）  
 
-・財産の帰属先を定める権限の行使 → 「財産の帰属先・受益者の指定」（語義7）  
+・財産の帰属先を定めて割り当てる行為 → 「財産の帰属先・受益者の指定」（語義7）  
 
 ＃意味・用法・関連表現
 
@@ -56,7 +56,7 @@ tags: []
 
 【レジスター/領域】一般・ビジネス・医療・サービス。  
 
-【文法パターン】an appointment with someone＝人との面会予約／an appointment to do something＝何かをするための面会・訪問予約／an appointment for 〈日時・用件〉＝その日時・用件の予約／an appointment at 〈時刻・場所〉＝その時刻・場所での予約／make/book/schedule an appointment＝予約する／keep/miss/cancel an appointment＝約束どおり行く・行きそびれる・取り消す／by appointment only＝事前予約した場合のみ／a doctor's appointment＝診察の予約／a dental appointment＝歯科の予約。  
+【文法パターン】an appointment with someone＝人との面会予約／an appointment to do something＝何かをするための面会・訪問予約／an appointment for someone to do something＝人が～するための予約／an appointment for 〈日時・用件〉＝その日時・用件の予約／an appointment at 〈時刻・場所〉＝その時刻・場所での予約／make/book/schedule an appointment＝予約する／keep/miss/cancel an appointment＝約束どおり行く・行きそびれる・取り消す／by appointment only＝事前予約した場合のみ／a doctor's appointment＝診察の予約／a dental appointment＝歯科の予約。  
 
 【コロケーション・構文例】
 
@@ -70,6 +70,11 @@ tags: []
 例: We have an appointment to view the apartment on Thursday.  
 訳: 木曜日にそのアパートを内見する予約をしている。  
 
+・an appointment for someone to do something  
+用途: 予約した行動を誰がするのか明示する。  
+例: I made an appointment for my daughter to see the dentist.  
+訳: 娘が歯科医の診察を受ける予約を取った。  
+
 ・an appointment for 〈日時〉  
 用途: 予約を入れた日時を示す。  
 例: The clinic offered me an appointment for Monday morning.  
@@ -79,6 +84,11 @@ tags: []
 用途: 約束の時刻を示す。  
 例: I have an appointment at three, so I need to leave by two thirty.  
 訳: 3時に予約があるので、2時半までには出なければならない。  
+
+・an appointment at 〈場所〉  
+用途: 診察・面会が行われる場所を示す。  
+例: My appointment at the clinic is on Friday morning.  
+訳: クリニックでの診察の予約は金曜日の午前だ。  
 
 ・a dental appointment  
 用途: 歯科の診察・処置の予約を指す。  
@@ -110,7 +120,7 @@ tags: []
 例: I booked an appointment for a hearing test.  
 訳: 聴力検査を予約した。  
 
-【語法・注意】1件なら an appointment とする。make an appointment は予約を取ること、keep an appointment はその約束を守ることであり、keep を単に「予約を保管する」と訳さない。相手には with、日時には for／at、目的の行為には to不定詞を使う。appointment to see the manager は面会、appointment as manager は語義2の任命である。友人と気軽に遊ぶ約束なら plans、arrangements、meet を使った文が多く、appointment はやや事務的に響く。レストランのテーブルやホテルの部屋の確保は通常 reservation／booking。by appointment は予約制だが、by appointment to the King のような王室関連表現は語義6。医療の予約を表す doctor's appointment と doctor appointment はどちらも使われ、所有格だから医師本人の予定だとは限らない。  
+【語法・注意】1件なら an appointment とする。make an appointment は予約を取ること、keep an appointment はその約束を守ることであり、keep を単に「予約を保管する」と訳さない。相手には with、日時には for／at、目的の行為には to不定詞を使う。an appointment for someone to do something では for の後の人が to 以下の行動をする人で、予約を取る人と同一とは限らない。appointment to see the manager は面会、appointment as manager は語義2の任命である。友人と気軽に遊ぶ約束なら plans、arrangements、meet を使った文が多く、appointment はやや事務的に響く。レストランのテーブルやホテルの部屋の確保は通常 reservation／booking。by appointment は予約制だが、by appointment to the King のような王室関連表現は語義6。医療の予約を表す doctor's appointment と doctor appointment はどちらも使われ、所有格だから医師本人の予定だとは限らない。  
 
 【類義語】
 
@@ -272,7 +282,7 @@ tags: []
 
 【頻度】〈5/10〉  
 
-【レジスター/領域】人事・組織運営。特に英国系のビジネス英語で見られる。  
+【レジスター/領域】人事・組織運営。人物を任命の結果として指す表現。  
 
 【文法パターン】someone be a good/suitable appointment＝人がよい人選・適任者である／a new/recent appointment＝新任者／welcome a new appointment＝新任者を迎える。人を指すか任命行為を指すかは述語と文脈で区別する。  
 
@@ -419,4 +429,3 @@ tags: []
 違い: 法律用法で意味が一部重なるが、指定権の行使による配分に限らない広い語。  
 例: The will sets out the disposition of the remaining property.  
 訳: その遺言書は、残余財産の処分方法を定めている。  
-
