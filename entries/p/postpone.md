@@ -3,17 +3,17 @@ headword: postpone
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: root-authored revision; independent review requested gpt-6.1-sol medium
 created_at: 2026-10-12
-updated_at: 2026-10-12
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
 
 ＃発音記号
 
-米: /poʊstˈpoʊn/｜英: /pəʊstˈpəʊn/  
-2音節で、第2音節に主強勢を置く。この表記では、第1音節・第2音節とも、母音は米音で /oʊ/、英音で /əʊ/ となる。英音では第1音節を弱めた /pəstˈpəʊn/ もある。postponed は末尾に /d/ を加え、postponing は末尾の e を落として -ing を付ける。  
+米: /poʊs(t)ˈpoʊn/｜英: /pəʊs(t)ˈpəʊn/  
+2音節で、第2音節に主強勢を置く。この表記では、第1音節・第2音節とも、母音は米音で /oʊ/、英音で /əʊ/ となる。第1音節末の (t) は /t/ を発音しない形もあることを示す。英音には第1音節の母音を /ə/ に弱めた /pəs(t)ˈpəʊn/ もあり、その場合も第2音節の母音は /əʊ/ のまま。postponed は末尾に /d/ を加え、postponing は末尾の e を落として -ing を付ける。  
 
 ＃語源
 
@@ -24,7 +24,6 @@ ponere を共通の語源にもつ語には position「位置」、opponent「�
 ＃語形成
 
 ・postponement：可算・不可算名詞。「延期」。the postponement of the meeting は会議を延期すること、repeated postponements は繰り返された延期。  
-・postponed：過去形・過去分詞。a postponed match「延期された試合」のような限定用法もあるが、通常は動詞の意味を引き継ぎ、別の性格評価を表す形容詞ではない。  
 ・prepone：postpone と対になるように作られた動詞。「予定を前倒しする」。主にインド英語で、国際的な連絡では move something to an earlier date などの明示的表現も使える。  
 
 ＃コアイメージ
@@ -41,13 +40,13 @@ ponere を共通の語源にもつ語には position「位置」、opponent「�
 
 1. 【動詞・他動詞】延期する、先送りする
 
-【日本語訳・定義】予定していた出来事、行動、判断などを、それより後の時点に行うことにする。会議の日程変更だけでなく、出発、購入、決断などを先へ延ばす場合にも使う。延期後の日時が決まっているとは限らず、実施そのものを取りやめる意味でもない。  
+【日本語訳・定義】出来事や行動などが実現する時点を、予定・予想されていた時点より後にする。中心は会議、出発、購入、判断などの意図的な延期だが、postpone the inevitable のように、避けられない事態の発生を遅らせる場合にも使う。後の日時が決まっているとは限らず、実施や発生そのものがなくなる意味でもない。  
 
 【頻度】〈8/10〉  
 
 【レジスター/領域】一般・ビジネス・報道。日常会話でも使うが、put off よりやや改まった響きがある。  
 
-【文法パターン】postpone something＝予定・行動などを延期する／postpone doing something＝何かをするのを延期する／postpone something until 〈時点・節〉＝その時点・出来事の成立まで延ばす／postpone something to 〈新しい日時〉＝新しい日時へ移す／postpone something for 〈期間〉＝その期間だけ延ばす／postpone something from 〈元の日時〉 to 〈新しい日時〉＝変更前後を示す／something be postponed＝何かが延期される。理由は because of 〈原因〉 などで補う。  
+【文法パターン】postpone something＝予定・行動などを延期する／postpone doing something＝何かをするのを延期する／postpone something until 〈時点〉＝その時点まで延ばす／postpone something until 〈節〉＝その出来事の成立まで延ばす／postpone something to 〈新しい日時〉＝新しい日時へ移す／postpone something for 〈期間〉＝その期間だけ延ばす／postpone something from 〈元の日時〉 to 〈新しい日時〉＝変更前後を示す／something be postponed＝何かが延期される。理由は because of 〈原因〉 などで補う。  
 
 【コロケーション・構文例】
 
@@ -101,7 +100,7 @@ ponere を共通の語源にもつ語には position「位置」、opponent「�
 例: Another temporary repair would only postpone the inevitable replacement of the roof.  
 訳: もう一度応急修理をしても、避けられない屋根の交換を先延ばしにするだけだろう。  
 
-【語法・注意】延期する行為を動詞で表すときは postpone meeting the client のように -ing 形にし、通常 postpone to meet the client とはしない。postpone the meeting to Friday の to は日付を導く前置詞であり、to不定詞ではない。until Friday／to Friday は延期先、for two days は延期期間で、for Friday をこの「延期先」の意味に機械的に置き換えない。until 節で未来を述べる場合、通常は until the checks are complete のように現在形を使う。人の到着が遅れたなら The traffic delayed me.「渋滞で遅れた」が自然で、postponed me とは通常いわない。cancel は取りやめ、reschedule は再日程設定で、前倒しもあり得る。postpone indefinitely も字義上は無期限の延期で、必ず永久中止になったと訳さない。be postponed は受動態で、postpone 自体を予定主語の自動詞として The meeting postponed. とはしない。通常の意味に特有の再帰構文・分離可能な小辞はない。  
+【語法・注意】postponed は過去形・過去分詞。a postponed match「延期された試合」のように名詞を修飾する場合も、通常は動詞の延期の意味を引き継ぐ。延期する行為を動詞で表すときは postpone meeting the client のように -ing 形にし、通常 postpone to meet the client とはしない。postpone the meeting to Friday の to は日付を導く前置詞であり、to不定詞ではない。until Friday／to Friday は延期先、for two days は延期期間で、for Friday をこの「延期先」の意味に機械的に置き換えない。until 節で未来を述べる場合、通常は until the checks are complete のように現在形を使う。人の到着が遅れたなら The traffic delayed me.「渋滞で遅れた」が自然で、postponed me とは通常いわない。cancel は取りやめ、reschedule は再日程設定で、前倒しもあり得る。postpone indefinitely も字義上は無期限の延期で、必ず永久中止になったと訳さない。be postponed は受動態で、postpone 自体を予定主語の自動詞として The meeting postponed. とはしない。通常の意味に特有の再帰構文・分離可能な小辞はない。  
 
 【類義語】
 
@@ -165,7 +164,7 @@ ponere を共通の語源にもつ語には position「位置」、opponent「�
 
 2. 【動詞・他動詞】後置する
 
-【日本語訳・定義】文法上、語句を通常の位置より後ろ、特に修飾する語の後ろや文末に配置する。日程の延期ではなく、文中の配列に関する専門的な用法。  
+【日本語訳・定義】文法上、語句を文中の後方、特に修飾する語の後ろや文末に配置する。日程の延期ではなく、文中の配列に関する専門的な用法。  
 
 【頻度】〈2/10〉  
 
@@ -193,7 +192,7 @@ ponere を共通の語源にもつ語には position「位置」、opponent「�
 定義: 語句を別の語句の後ろに置く。  
 頻度: 〈2/10〉  
 違い: 文法上の後置をより直接的に示し、日程延期との曖昧さが小さい。  
-例: The rule postposes the modifier to the noun.  
+例: The rule postposes the modifier after the noun.  
 訳: その規則は修飾語を名詞の後ろに置く。  
 
 【反意語】
@@ -232,4 +231,3 @@ ponere を共通の語源にもつ語には position「位置」、opponent「�
 違い: 重要度・支配関係での劣位を明示し、現在の正式な文章でもこの意味を表しやすい。  
 例: The policy subordinates short-term gains to long-term stability.  
 訳: その方針は短期的な利益より長期的な安定を優先している。  
-
