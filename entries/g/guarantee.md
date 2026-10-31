@@ -3,9 +3,9 @@ headword: guarantee
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: root-authored revision; independent review requested gpt-6.1-sol medium
 created_at: 2026-10-12
-updated_at: 2026-10-12
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -23,40 +23,38 @@ tags: []
 
 ＃語形成
 
-・guarantees：名詞の複数形、または動詞の三人称単数現在形。  
-・guaranteed：過去形・過去分詞のほか、「確実な」「保証された」の形容詞用法がある。語義8・9で扱う。  
-・guaranteeing：現在分詞。末尾の ee を残して -ing を付ける。  
+・guaranteed：過去分詞から形容詞への転換。「確実な」「保証された」という状態を表す用法を語義8・9で扱う。動詞の過去形・過去分詞としての活用とは区別する。  
 ・guarantor：可算名詞。「保証人、保証する側」。特に他人の債務などを保証する人・組織を指す。  
 ・guaranty：名詞・動詞。特に法律・金融で使う同系の形。一般的な保証には guarantee が広く使われ、すべての場面で法的な意味が厳密に二分されるわけではない。  
 ・money-back guarantee：複合名詞。「返金保証」。money-back は名詞前の複合修飾語。  
 
 ＃コアイメージ
 
-約束・責任・条件によって、物事が確かなものになるという核を持つ。人が引き受ける「保証」と、条件が結果を確かにする「確実性」の両側から理解すると整理しやすい。  
+物事を「確かなもの」として、約束・責任・言葉・条件で支えることが核になる。実現を引き受ける保証、強く言い切る確信、結果を確実にする条件を区別し、保証や断言があるだけで現実の成功まで証明されたとは考えない。  
 
-・言葉や規定で確かにする約束 → 「確約、保障」（語義1）  
+・確かなものとして与える約束 → 「確約、保障」（語義1）  
 
-・言葉や責任で確かにする行為 → 「保証する、確約する」（語義2）  
+・確かなものとして引き受ける行為 → 「保証する、確約する」（語義2）  
 
-・強い確信で確かだと言う行為 → 「断言する、請け合う」（語義3）  
+・確かなものとして言い切る行為 → 「断言する、請け合う」（語義3）  
 
-・結果を確かにする根拠や見込み → 「確実にするもの、確証」（語義4）  
+・確かなものとして見る根拠や見込み → 「確実にするもの、確証」（語義4）  
 
-・条件が結果を確かにする作用 → 「確実にする、確保する」（語義5）  
+・確かなものとして実現させる作用 → 「確実にする、確保する」（語義5）  
 
-・製品の品質を確かにする約束 → 「製品保証、保証書」（語義6）  
+・確かなものとして製品品質に与える約束 → 「製品保証、保証書」（語義6）  
 
-・製品の品質に責任を持つ行為 → 「製品などに保証を付ける」（語義7）  
+・確かなものとして製品品質を引き受ける行為 → 「製品などに保証を付ける」（語義7）  
 
-・結果が確かだと見なされる状態 → 「必ず…する、確実な」（語義8）  
+・確かなものとして見込まれる結果の状態 → 「必ず…する、確実な」（語義8）  
 
-・約束によって確保された状態 → 「保証された、確約された」（語義9）  
+・確かなものとして約束で支えられた状態 → 「保証された、確約された」（語義9）  
 
-・他人の履行に責任を持つ約束 → 「債務保証、履行保証」（語義10）  
+・確かなものとして他人の履行を支える約束 → 「債務保証、履行保証」（語義10）  
 
-・他人の履行に責任を持つ行為 → 「債務や履行を保証する」（語義11）  
+・確かなものとして他人の履行を支える行為 → 「債務や履行を保証する」（語義11）  
 
-・履行を確かにするための財産 → 「担保、保証のための財産」（語義12）  
+・確かなものとして履行を支える財産 → 「担保、保証のための財産」（語義12）  
 
 ＃意味・用法・関連表現
 
@@ -68,7 +66,7 @@ tags: []
 
 【レジスター/領域】一般・ビジネス・公式な取り決め  
 
-【文法パターン】give someone a guarantee that 〈節〉＝その内容を人に確約する／a guarantee of something＝何かの保障／a written guarantee＝書面による確約／a constitutional guarantee＝憲法上の保障  
+【文法パターン】give someone a guarantee that 〈節〉＝その内容を人に確約する／a guarantee of something＝何かの保障／a written guarantee＝書面による確約／a guarantee to do something＝何かをするという確約／a constitutional guarantee＝憲法上の保障  
 
 【コロケーション・構文例】
 
@@ -87,12 +85,17 @@ tags: []
 例: We requested a written guarantee that the information would remain confidential.  
 訳: 私たちは、情報の機密が守られるという書面による確約を求めた。  
 
+・a guarantee to do something  
+用途: 名詞 guarantee に不定詞を続け、確約した行為を示す。  
+例: The council gave a guarantee to keep the library open.  
+訳: 地方議会は図書館の運営を続けると確約した。  
+
 ・a constitutional guarantee  
 用途: 権利を保障する規定を述べる。  
 例: The article discusses the constitutional guarantee of freedom of expression.  
 訳: その論文は、表現の自由の憲法上の保障を論じている。  
 
-【語法・注意】give a guarantee は保証を与える行為。語義4の no guarantee of success は、誰かが約束をしたかではなく成功の確実性を否定する場合が多い。保証が存在することと、約束が現実に守られることは同一ではない。guarantee を「保証人」と訳さない。  
+【語法・注意】名詞の複数形 guarantees は、同形の動詞の三人称単数現在形と文の中で区別する。新しい派生語ではない。give a guarantee は保証を与える行為。語義4の no guarantee of success は、誰かが約束をしたかではなく成功の確実性を否定する場合が多い。保証が存在することと、約束が現実に守られることは同一ではない。この語義の guarantee は約束を指すので、「保証人」と訳さない。  
 
 【類義語】
 
@@ -125,7 +128,7 @@ tags: []
 
 【レジスター/領域】一般・ビジネス・公式な約束  
 
-【文法パターン】guarantee something＝何かを保証する／guarantee someone something＝人に何かを保証する／guarantee (someone) that 〈節〉＝人にその内容を確約する／guarantee to do＝自分が…すると確約する／guarantee something to be 〈形容詞〉＝何かがその状態だと保証する  
+【文法パターン】guarantee something＝何かを保証する／guarantee someone something＝人に何かを保証する／guarantee (someone) that 〈節〉＝人にその内容を確約する／guarantee to do＝自分が…すると確約する／guarantee something to be 〈形容詞〉＝何かがその状態だと保証する／be guaranteed something＝何かを保証してもらう  
 
 【コロケーション・構文例】
 
@@ -154,7 +157,12 @@ tags: []
 例: The dealer guarantees every signature to be genuine.  
 訳: その販売業者は、すべての署名が本物であると保証している。  
 
-【語法・注意】guarantee someone something の someone は保証を受ける相手。guarantee to do の行為者は主語なので、We guarantee to reply. は「私たちが返信すると確約する」。相手が返信すると請け合うなら We guarantee that they will reply. とする。「人に…させるつもりを保証する」の意味で guarantee someone to do を機械的に作らない。主語が券・条件などなら、約束ではなく結果を確保する語義5になりやすい。  
+・be guaranteed something  
+用途: 保証を受ける人を主語にする受動態で、与えられるものを続ける。  
+例: Every participant is guaranteed a full refund if the organizer cancels the event.  
+訳: 主催者がイベントを中止した場合、参加者全員に全額返金が保証されている。  
+
+【語法・注意】動詞の過去形・過去分詞は guaranteed、現在分詞は末尾の ee を残した guaranteeing。guarantee someone something の someone は保証を受ける相手。guarantee to do の行為者は主語なので、We guarantee to reply. は「私たちが返信すると確約する」。相手が返信すると請け合うなら We guarantee that they will reply. とする。「人に…させるつもりを保証する」の意味で guarantee someone to do を機械的に作らない。主語が券・条件などなら、約束ではなく結果を確保する語義5になりやすい。  
 
 【類義語】
 
@@ -224,7 +232,7 @@ tags: []
 例: I swear I left the keys on the shelf.  
 訳: 鍵を棚に置いたのは本当だよ。  
 
-4. 【名詞・可算または不可算】確実にするもの、確証
+4. 【名詞・主に可算】確実にするもの、確証
 
 【日本語訳・定義】ある結果が確かだと考える根拠や、結果の確実性。特に no guarantee of、no guarantee that で「必ずそうなるとは限らない」を表す。誰かの約束がないという意味だけではない。  
 
@@ -256,7 +264,7 @@ tags: []
 例: They continued the experiment without any guarantee of success.  
 訳: 彼らは成功の保証がないまま実験を続けた。  
 
-【語法・注意】no guarantee は「起こらない」という断定ではなく、「起こると確約できない」。Success is not guaranteed. との意味上の対応がある。guarantee of は名詞、guarantee that は完全な節を続ける。語義1の約束としての guarantee と、内容や主語から区別する。  
+【語法・注意】no guarantee は「起こらない」という断定ではなく、「起こると確約できない」。Success is not guaranteed. との意味上の対応がある。名詞 guarantee に続く of の後ろには名詞句を、that の後ろには完全な節を置く。語義1の約束としての guarantee と、内容や主語から区別する。  
 
 【類義語】
 
@@ -276,7 +284,7 @@ tags: []
 
 5. 【動詞・他動詞】確実にする、確保する
 
-【日本語訳・定義】ある条件・行動・制度が、結果の実現や利益・権利の確保につながる。主語は人に限らず、券・勝利・対策など。結果はよいことにも悪いことにもなる。  
+【日本語訳・定義】ある条件・行動・制度が、結果の実現や利益・権利の確保を確実にする。主語は人に限らず、券・勝利・対策など。結果はよいことにも悪いことにもなる。  
 
 【頻度】〈8/10〉  
 
@@ -373,7 +381,7 @@ tags: []
 例: Keep the guarantee with the purchase receipt.  
 訳: 保証書は購入時の領収書と一緒に保管してください。  
 
-【語法・注意】この語義では warranty と重なる。guarantee が口頭に限る、法的拘束力を持たない、といった説明は誤り。under guarantee は特にイギリス英語の製品案内で見られ、under warranty も一般的。money-back guarantee は返金条件を示すが、無条件の返金をこの名称だけで決めつけない。  
+【語法・注意】この語義では warranty と重なる。guarantee が口頭に限る、法的拘束力を持たない、といった説明は誤り。under guarantee は製品案内などで用いられ、under warranty も一般的。money-back guarantee は返金を約束するが、申請期限や対象商品などの条件まで、この名称だけでは分からない。  
 
 【類義語】
 
@@ -545,7 +553,7 @@ tags: []
 
 10. 【名詞・可算】債務保証、履行保証
 
-【日本語訳・定義】別の人や組織が債務の支払い・義務の履行をしない場合に、保証する側が責任を引き受ける約束。口語の「きっと返すよ」という予測とは異なる。具体的な責任の範囲は取り決めと適用法による。  
+【日本語訳・定義】他の人や組織の債務・義務の履行を裏付けるため、保証する側が一定の条件の下で責任を引き受ける約束。典型的には、主たる債務者が支払いや履行をしない場合に備える。口語の「きっと返すよ」という予測とは異なる。具体的な責任の範囲は取り決めと適用法による。  
 
 【頻度】〈5/10〉  
 
@@ -575,7 +583,7 @@ tags: []
 例: The parent company gave a guarantee for the subsidiary’s debt.  
 訳: 親会社は子会社の債務に保証を付けた。  
 
-【語法・注意】保証する人・組織は guarantor。現代の一般語として guarantee を「保証人」に使わない。専門辞書には guarantee を「保証を受ける者」とする低頻度義もあるが、これは guarantor と逆の側である。guarantee は約束そのものを指し、必ずしも物的担保があるわけではない。担保として差し入れる財産は語義12。  
+【語法・注意】保証する人・組織は guarantor。現代の一般語として guarantee を「保証人」に使わない。辞書には guarantee が「保証する者」または「保証を受ける者」を指す用法も収録されているが、当事者の向きが逆になるため、専門文書で人を指す場合はその文書の定義を確認する。保証する側を現代の一般的な文章で明示するなら guarantor を使う。guarantee は約束そのものを指し、必ずしも物的担保があるわけではない。担保として差し入れる財産は語義12。銀行保証には、基礎となる取引とは独立し、条件に適合する請求や書類の提示によって支払う demand guarantee もある。すべての銀行保証について、取引上の実際の不履行の立証が支払いの前提だとは限らない。  
 
 【類義語】
 
@@ -595,7 +603,7 @@ tags: []
 
 11. 【動詞・他動詞】債務や履行を保証する
 
-【日本語訳・定義】他人や組織が債務・義務を果たさない場合に責任を負うと約束する。目的語は loan、debt、payment など。保証をすること自体が、すでに返済したことを意味するわけではない。  
+【日本語訳・定義】他人や組織の債務・義務の履行を裏付け、取り決めた条件の下で責任を負うと約束する。目的語は loan、debt、payment など。保証をすること自体が、すでに返済したことを意味するわけではない。  
 
 【頻度】〈5/10〉  
 
@@ -625,7 +633,7 @@ tags: []
 例: She guaranteed to pay the debt if the borrower defaulted.  
 訳: 借り手が債務不履行になった場合、彼女がその債務を支払うと保証した。  
 
-【語法・注意】guarantee a loan は通常、貸す行為そのものではなく返済の保証。a guaranteed loan は保証のある融資で、必ず借りられる融資という意味に限定されない。語義2の一般的な確約と構文が重なるが、この語義では第三者の不履行と保証責任という背景が重要。  
+【語法・注意】guarantee a loan は通常、貸す行為そのものではなく返済の保証。a guaranteed loan は保証のある融資で、必ず借りられる融資という意味に限定されない。語義2の一般的な確約と構文が重なるが、この語義では第三者の債務・義務と保証責任という背景が重要。支払いの条件は保証の種類によるため、語義10の独立した銀行保証についての注意も参照。  
 
 【類義語】
 
@@ -645,7 +653,7 @@ tags: []
 
 12. 【名詞・可算】担保、保証のための財産
 
-【日本語訳・定義】約束や債務の履行を確保するために差し入れる価値のあるもの。人の保証約束を表す語義10とは異なり、具体的な財産を指す。金融では security や collateral の方が明確になる場合が多い。  
+【日本語訳・定義】約束や債務の履行を確保するために差し入れる、または差し入れると約束する金銭・財産。人の保証約束を表す語義10とは異なり、具体的な財産を指す。金融では security や collateral の方が明確になる場合が多い。  
 
 【頻度】〈4/10〉  
 
@@ -682,3 +690,4 @@ tags: []
 違い: この意味では通常不可算。金融の securities「有価証券」と区別する。  
 例: The equipment was offered as security for the debt.  
 訳: その機材が債務の担保として差し入れられた。  
+
