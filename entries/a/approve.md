@@ -3,9 +3,9 @@ headword: approve
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: root-authored revision; independent review requested gpt-6.1-sol medium
 created_at: 2026-10-12
-updated_at: 2026-10-12
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -21,7 +21,7 @@ tags: []
 
 ＃語形成
 
-・approval: 名詞「賛成、承認」。通常は不可算だが、個別の許認可なら approvals と数える。approval of a plan と approval for a project では何を認めるかと何のための許可かが異なる。  
+・approval: 名詞「賛成、承認」。通常は不可算だが、個別の許認可なら approvals と数える。approval of a plan と approval for a project は、どちらも計画への承認を表せる。of は承認の対象、for は計画などを進めるための許可を意識させやすいが、意味は重なる。  
 ・disapprove / disapproval: 動詞「よくないと思う、承認しない」と名詞「不賛成、不承認」。個人的な不賛成は disapprove of が基本。  
 ・approved: 過去形・過去分詞のほか、形容詞「認可された、認められた」。語義4。  
 ・approving / approvingly: 形容詞「賛意を示す」と副詞「賛成・称賛の気持ちを示して」。形容詞は語義5。  
@@ -31,15 +31,15 @@ tags: []
 
 「よい・適切だという判断を与える」が核。正式な決定、個人の意見、適格性の認定、認められた状態、賛意を示す様子を区別する。  
 
-・よいという判断を計画に正式に与えること → 「承認する、可決する」（語義1）  
+・よい・適切という判断を計画に正式に与えること → 「承認する、可決する」（語義1）  
 
-・よいという判断を個人の意見として持つこと → 「よいと思う、賛成する」（語義2）  
+・よい・適切という判断を個人の意見として持つこと → 「よいと思う、賛成する」（語義2）  
 
-・適切という判断を資格・用途に与えること → 「適格と認める、認定する」（語義3）  
+・よい・適切という判断を資格・用途に与えること → 「適格と認める、認定する」（語義3）  
 
 ・よい・適切という判断を得た状態 → 「認可された、認められた」（語義4）  
 
-・よいという判断を態度に示すこと → 「賛意を示す、好意的な」（語義5）  
+・よい・適切という判断を態度に示すこと → 「賛意を示す、好意的な」（語義5）  
 
 ＃意味・用法・関連表現
 
