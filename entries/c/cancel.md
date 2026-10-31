@@ -3,9 +3,9 @@ headword: cancel
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: root-authored revision; independent review requested gpt-6.1-sol medium
 created_at: 2026-10-12
-updated_at: 2026-10-12
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -23,41 +23,38 @@ tags: []
 
 ＃語形成
 
-・canceled / canceling：米語で通常使う過去形・過去分詞と現在分詞。  
-・cancelled / cancelling：イギリス英語で通常使う形。米語でも認められ、ll 形が米語では誤りということではない。記事内では米語の l 形を基本とする。  
 ・cancellation：名詞。「取消し、中止」のほか、予約取消しで生じた空きも表す。米英とも ll 形が一般的で、米語には cancelation もある。  
 ・cancellable / cancelable：形容詞。「取消し可能な」。どの条件で取り消せるかは、語そのものでは決まらない。  
 ・noise-canceling / noise-cancelling：名詞前の複合形容詞。「騒音を打ち消す」。語義4の効果の相殺につながる。  
 ・cancel culture：複合名詞。「キャンセル・カルチャー」。問題視された言動などを理由に人・組織への支持を公に撤回する動向を指し、語義6に関係する。  
-・canceled / cancelled の限定用法：a canceled flight「欠航便」、a canceled check「支払済み小切手」など。通常ハイフンは不要で、どの意味かは修飾される名詞から判断する。  
 
 ＃コアイメージ
 
-予定・効力・作用・支持などを取り去り、それまでの形で先へ進めないことが中心。相殺では反対方向の作用により、全体として効果が残らなくなる。語義13は歴史的残存義で、差し替えて入れる紙葉そのものの意味はこの取消しの核から導けないため、個別に参照する。  
+予定・効力・作用・支持などを取り去り、それまでの形で先へ進めないことが中心で、相殺では反対方向の作用により、全体として効果が残らなくなる。語義13は歴史的残存義で、差し替えて入れる紙葉そのものの意味はこの取消しの核から導けないため、個別に参照する。  
 
-・予定していた行為を取り去ること → 「中止する、取り消す」（語義1）  
+・予定した行為を残さない決定 → 「中止する、取り消す」（語義1）  
 
-・自分の参加や利用予定を取り去ること → 「予定を取りやめる、解約する」（語義2）  
+・自分の参加・利用予定を残さない決定 → 「予定を取りやめる、解約する」（語義2）  
 
-・契約などの効力を取り去ること → 「無効にする、債務を免除する」（語義3）  
+・契約や支払義務を残さない処理 → 「無効にする、債務を免除する」（語義3）  
 
-・反対の作用で効果を取り去ること → 「相殺する、打ち消す」（語義4）  
+・反対の作用で効果を残さない操作 → 「相殺する、打ち消す」（語義4）  
 
-・反対の作用で効果が消えること → 「相殺し合う」（語義5）  
+・反対の作用で正味の効果を残さない状態 → 「相殺し合う」（語義5）  
 
-・人や組織への支持を取り去ること → 「支持を撤回する、社会的に排斥する」（語義6）  
+・支持や関わりを残さない対応 → 「支持を撤回する、社会的に排斥する」（語義6）  
 
-・使用済みとして効力を取り去ること → 「消印を押す、使用済みとする」（語義7）  
+・再使用の効力を残さない処理 → 「消印を押す、使用済みとする」（語義7）  
 
-・同じ因数などを式から取り去ること → 「約分する、消去する」（語義8）  
+・共通因数や同じ項を残さない操作 → 「約分する、消去する」（語義8）  
 
-・同じ因数などが式から消えること → 「約分できる、消去される」（語義9）  
+・共通因数や同じ項を残さない式の状態 → 「約分できる、消去される」（語義9）  
 
-・不要な記載を取り去ること → 「線を引いて消す、削除する」（語義10）  
+・不要な記載を残さない訂正 → 「線を引いて消す、削除する」（語義10）  
 
-・予定や処理を取り消す行為 → 「取消し、中止」（語義11）  
+・予定や処理を残さない取消し行為 → 「取消し、中止」（語義11）  
 
-・使用済みとして効力を消す印 → 「消印、抹消印」（語義12）  
+・再使用の効力を残さない印 → 「消印、抹消印」（語義12）  
 
 ＃意味・用法・関連表現
 
@@ -113,7 +110,7 @@ tags: []
 例: The flight was canceled due to heavy snow.  
 訳: 大雪のため、その便は欠航になった。  
 
-【語法・注意】目的語は予定や注文そのものなので cancel the meeting とする。cancel to meet を「会う約束を取り消す」の基本構文にしない。postpone は後へ延ばすこと、cancel は予定を取り消すこと。canceled flight は通常「欠航便」で、delayed flight「遅延便」と区別する。画面の Cancel は「取消し」の操作名だが、過去の変更や決済が必ず元に戻ることまで意味しない。  
+【語法・注意】過去形・過去分詞と現在分詞は、米語では通常 canceled / canceling、英国英語では通常 cancelled / cancelling。米語でも ll 形は認められる。これらは活用形で、この記事では米語の l 形を基本とする。目的語は予定や注文そのものなので cancel the meeting とする。cancel to meet を「会う約束を取り消す」の基本構文にしない。postpone は後へ延ばすこと、cancel は予定を取り消すこと。canceled flight は通常「欠航便」で、delayed flight「遅延便」と区別する。画面の Cancel は「取消し」の操作名だが、過去の変更や決済が必ず元に戻ることまで意味しない。  
 
 【類義語】
 
@@ -259,17 +256,22 @@ tags: []
 例: The court annulled the disputed decision.  
 訳: 裁判所は争われていた決定を無効とした。  
 
-4. 【句動詞・他動詞。分離可能】相殺する、打ち消す
+4. 【動詞・他動詞。cancel out は分離可能】相殺する、打ち消す
 
-【日本語訳・定義】cancel out で、ある効果・利点・利益などを反対方向の作用によってなくす。予定そのものを取り消すのではなく、その働きや差し引きの結果をゼロに近づける。程度を示す語があれば部分的な相殺にもなる。  
+【日本語訳・定義】cancel または cancel out で、ある効果・利点・利益などを反対方向の作用によってなくす。予定そのものを取り消すのではなく、その働きを打ち消し、差し引きの効果が残らないようにする。程度を示す語があれば部分的な相殺にもなる。  
 
 【頻度】〈7/10〉  
 
 【レジスター/領域】一般・ビジネス・科学  
 
-【文法パターン】cancel out something＝何かを打ち消す／cancel something out＝何かを打ち消す／cancel it out＝それを打ち消す／cancel each other out＝互いの効果を打ち消す／partly cancel out something＝何かを部分的に相殺する  
+【文法パターン】cancel something＝何かを打ち消す／cancel out something＝何かを打ち消す／cancel something out＝何かを打ち消す／cancel it out＝それを打ち消す／cancel each other out＝互いの効果を打ち消す／partly cancel out something＝何かを部分的に相殺する  
 
 【コロケーション・構文例】
+
+・cancel something（out なし）  
+用途: out を付けずに、反対方向の効果による相殺を表す。  
+例: In this model, the two effects cancel each other.  
+訳: このモデルでは、2つの効果は互いに打ち消し合う。  
 
 ・cancel out something  
 用途: 効果を目的語にして述べる。  
@@ -315,23 +317,28 @@ tags: []
 訳: そのコーティングは表面の臭いを中和する。  
 
 ・counteract  
-定義: 好ましくない作用に対抗して弱める。  
+定義: 反対の作用によって、影響を弱めたり打ち消したりする。  
 頻度: 〈6/10〉  
-違い: cancel out のように完全に相殺された結果を必ずしも含まない。  
+違い: 好ましくない影響への対抗によく使うが、好悪が語の必須条件ではない。cancel out のように完全に相殺された結果も必ずしも含まない。  
 例: The new measures are intended to counteract the rise in costs.  
 訳: 新しい対策は費用の上昇を抑えることを目的としている。  
 
-5. 【句動詞・自動詞】相殺し合う
+5. 【動詞・自動詞。out を伴うこともある】相殺し合う
 
-【日本語訳・定義】cancel out で、複数の力・影響・増減などが反対方向に働き、全体の効果を残さなくする。相殺する対象を目的語に置かず、相反するもの全体を主語にする。  
+【日本語訳・定義】cancel または cancel out で、複数の力・影響・増減などが反対方向に働き、全体の効果を残さなくする。相殺する対象を目的語に置かず、相反するもの全体を主語にする。  
 
 【頻度】〈6/10〉  
 
 【レジスター/領域】一般・経済・科学  
 
-【文法パターン】〈相反する複数の効果〉 + cancel out＝それらが相殺し合う／〈損益など〉 + largely cancel out＝それらがほぼ相殺し合う  
+【文法パターン】〈相反する複数の効果〉 + cancel＝それらが相殺し合う／〈相反する複数の効果〉 + cancel out＝それらが相殺し合う／〈損益など〉 + largely cancel out＝それらがほぼ相殺し合う  
 
 【コロケーション・構文例】
+
+・〈相反する複数の効果〉 + cancel  
+用途: out を付けず、相反する作用をまとめて主語にして相殺を述べる。  
+例: In this model, the effects of the two adjustments cancel completely.  
+訳: このモデルでは、2つの調整の効果が完全に相殺し合う。  
 
 ・〈相反する複数の効果〉 + cancel out  
 用途: 目的語なしで釣合いを述べる。  
@@ -381,7 +388,7 @@ tags: []
 例: The comedian said he was afraid of getting canceled for a joke.  
 訳: そのコメディアンは、冗談を理由に排斥されるのが怖いと語った。  
 
-【語法・注意】cancel someone は人物への支持撤回、cancel on someone は相手との約束の取りやめ（語義2）。たとえば Fans canceled him. は「ファンが彼を支持しなくなった」、He canceled on his friend. は「彼が友人との約束を取りやめた」。この社会的用法の be/get canceled は受動・結果状態を表すが、常に失職・発禁・永久追放が実現したことまでは含まない。  
+【語法・注意】この語義での cancel someone は人物への支持撤回、cancel on someone は相手との約束の取りやめ（語義2）。たとえば Fans canceled him. は「ファンが彼を支持しなくなった」、He canceled on his friend. は「彼が友人との約束を取りやめた」。この社会的用法はオンラインに限らない。be/get canceled は受動・結果状態を表すが、常に失職・発禁・永久追放が実現したことまでは含まない。  
 
 【類義語】
 
@@ -406,7 +413,7 @@ tags: []
 例: Several sponsors shunned the event after the controversy.  
 訳: 論争の後、複数のスポンサーがその行事への関与を避けた。  
 
-7. 【動詞・他動詞】消印を押す、使用済みとする
+7. 【動詞・他動詞。過去分詞の限定用法も含む】消印を押す、使用済みとする
 
 【日本語訳・定義】切手・券・小切手などに印や処理を施し、使用済みで再使用できないことを示す。郵便では「消印を押す」、銀行の canceled check では通常「支払済み小切手」と訳す。  
 
@@ -414,7 +421,7 @@ tags: []
 
 【レジスター/領域】郵便・銀行・収集  
 
-【文法パターン】cancel a stamp＝切手に消印を押す／cancel a check＝小切手を支払済みとして処理する／a canceled check＝支払済み小切手  
+【文法パターン】cancel a stamp＝切手に消印を押す／cancel a check＝小切手を支払済みとして処理する／be canceled after payment＝支払い後に使用済みとして処理される／a canceled check＝支払済み小切手（過去分詞の限定用法）  
 
 【コロケーション・構文例】
 
@@ -428,12 +435,17 @@ tags: []
 例: The bank canceled the check after the payment had been processed.  
 訳: 銀行は支払いの処理後、その小切手を支払済みとして処理した。  
 
-・a canceled check  
-用途: 支払いの記録となる過去分詞の限定用法を示す。  
+・be canceled after payment（cancel の受動態）  
+用途: 支払処理が済んだ小切手を主語にし、使用済みとされたことを述べる。  
+例: The check was canceled after the bank had paid it.  
+訳: 銀行がその小切手の支払いを済ませた後、小切手は支払済みとして処理された。  
+
+・a canceled check（過去分詞の限定用法）  
+用途: 使用済みという状態を名詞の前から示す。通常ハイフンは付けない。  
 例: She requested a copy of the canceled check as proof of payment.  
 訳: 彼女は支払証明として、支払済み小切手の写しを求めた。  
 
-【語法・注意】check は米綴り、cheque は英綴り。canceled check は通常、支払いが処理された小切手であり、「不渡り小切手」ではない。発行前などに無効とする voided check や、支払停止の依頼とも区別する。postmark は差出地・日付などを示す郵便印で、切手の再使用を防ぐ cancel と役割が重なることはあるが、概念は完全には同一でない。  
+【語法・注意】check は米綴り、cheque は英綴り。canceled check は通常、支払いが処理された小切手であり、「不渡り小切手」ではない。発行前などに無効とする voided check や、支払停止の依頼とも区別する。postmark は郵便施設の場所・日付などを示す郵便印で、切手の再使用を防ぐ cancel と役割が重なることはあるが、機能上は区別できる。ただし両語を同じ意味で使う場合もあり、常に別々の印を指すとは限らない。  
 
 【類義語】
 
@@ -468,10 +480,10 @@ tags: []
 
 ・cancel out 〈同じ項〉  
 用途: 相殺される項を目的語にする。  
-例: Cancel out the matching terms before collecting the remaining ones.  
-訳: 残りの項をまとめる前に、対応する同じ項を消去しなさい。  
+例: Cancel out the identical terms on opposite sides of the equation before collecting the remaining ones.  
+訳: 残りの項をまとめる前に、方程式の両辺にある同じ項を消去しなさい。  
 
-【語法・注意】分数では共通する「因数」、等式では両辺の同じ「項」を区別する。加算の中に同じ数字が見えるという理由だけで約分はできない。cancel the factor は操作する人が主語、The factors cancel. は語義9の自動詞。  
+【語法・注意】分数では共通する「因数」、等式では両辺の同じ「項」を区別する。因数を割って消す際は、その因数がゼロでないことが必要であり、式を簡単にしても元の式で除外されていた値を勝手に含めない。加算の中に同じ数字が見えるという理由だけで約分はできない。cancel the factor は操作する人が主語、The factors cancel. は語義9の自動詞。  
 
 【類義語】
 
@@ -617,7 +629,7 @@ tags: []
 例: The envelope bears a machine cancel with wavy lines.  
 訳: その封筒には波線の機械消印が付いている。  
 
-【語法・注意】動詞 cancel a stamp は押印する行為、名詞 a cancel は残った印。postmark は差出地や日付を示す役割を指し、cancel は切手を使用済みとする役割に焦点がある。  
+【語法・注意】動詞 cancel a stamp は押印する行為、名詞 a cancel は残った印。postmark は郵便施設の場所や日付を示す役割を指し、cancel は切手を使用済みとする役割に焦点がある。  
 
 【類義語】
 
@@ -653,3 +665,4 @@ tags: []
 【語法・注意】leaf は本の紙1枚で、通常その表裏に2ページがある。  
 
 誤りを別紙で知らせる errata slip「正誤表」とは違い、ここでは元の紙葉を置き換える。日常の「予約取消し」の名詞としてこの専門義を流用しない。  
+
