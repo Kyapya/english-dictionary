@@ -3,9 +3,9 @@ headword: fee
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: gpt-6-astra xhigh
+model: root-authored revision; independent review requested gpt-6.1-sol medium
 created_at: 2026-10-12
-updated_at: 2026-10-12
+updated_at: 2026-10-31
 checked: true
 tags: []
 ---
@@ -17,18 +17,26 @@ tags: []
 
 ＃語源
 
-中英語を経て、アングロフランス語の fé、fief の系統に由来し、さらにゲルマン語の「家畜、財産」を表す語群につながる。「封建的な土地保有」の歴史と、「仕事や権利に対する支払い」の意味の両方を持つ。現代の不動産法で使う fee を、手数料から直接推測しないことが大切である。  
+中英語では、古英語 feoh「家畜、財産、金銭」と、アングロフランス語 fee「土地保有、封建的な義務や支払い」の系統が合流・相互影響したと説明される。後者は古フランス語の fief と関係し、両系統はさらにゲルマン語の「家畜、財産」を表す語群に関係するとされるが、フランス語系の遠い起源には推定が含まれる。土地保有や役務への報酬の歴史的なつながりはあるが、現代の不動産法で使う fee を「手数料」から直接推測しないことが大切である。  
 
 同系語には fief「封土」と feudal「封建制度の」がある。feudal は「封土」を表す中世ラテン語の系統を経た語で、fee に接尾辞を付けた現代英語の派生語ではない。  
 
 ＃語形成
 
-・fees：可算名詞の複数形。複数の料金項目のほか、legal fees「弁護士費用」、school fees「学費」のように一連の支払いをまとめて表す。  
 ・fee-paying：複合形容詞。「料金を払う」。fee-paying students は学費を払う学生。主に英国で fee-paying school といえば、保護者などが授業料を直接払う学校を指し、学校が料金を支払うという意味ではない。  
 ・fee-based：複合形容詞。「利用料・報酬を徴収する方式の」。a fee-based service は有料サービス。特定業界の報酬分類を述べるときは、これだけで手数料以外の収入が一切ないと決めつけない。  
 ・fee-free：複合形容詞・副詞。「手数料のかからない」「手数料なしで」。どの手数料が無料なのかは対象サービスで決まり、商品代金や利息まで必ず無料になるわけではない。  
 ・fee waiver：複合名詞。「料金の免除」。waiver は免除そのもの、fee は免除の対象となる料金を表す。  
-・feed、feeing：低頻度の動詞 fee の活用形。feed は過去形・過去分詞、feeing は現在分詞で、主要な独立形容詞として覚える必要はない。  
+
+＃コアイメージ
+
+支払いに関する語義では「仕事・サービス・利用などへの対価」が核になる。語義2は制度的専門義である相続可能な土地権原、語義3は歴史的残存義である封土そのものを指し、いずれも語彙的意味がこの支払いの核から導けないため、個別に参照する。  
+
+・対価として定める金額 → 「料金、手数料、報酬」（語義1）  
+
+・対価を働いた人に渡す行為 → 「報酬・心付けを与える」（語義4）  
+
+・対価を約束して人を雇う行為 → 「賃金を払って雇う」（語義5）  
 
 ＃意味・用法・関連表現
 
@@ -124,7 +132,7 @@ tags: []
 例: The lawyer explained how the contingency fee would be calculated if the claim succeeded.  
 訳: 弁護士は、請求が認められた場合に成功報酬をどう計算するか説明しました。  
 
-【語法・注意】単数なら a fee、the fee、my fee などとし、複数なら fees。一般的な「料金が高い」は The fees are high. または The fee is high. とする。legal fees の legal は通常「法律サービスの」で、「法的に認められた料金」だけを意味しない。for は料金の対象、of は金額、to は支払先を示すため、a fee for the course、a fee of 100 euros、pay the fee to the school を区別する。pay a fee to enter the race の to enter は「大会に出るために」という目的を示す自然な形であり、a fee for entering the race と両立する。a fee for enter the race は不可。fee はあらゆる支払いの総称ではない。乗客の運賃は通常 fare、商品の売価は price、雇用関係に基づく定期給与は salary、時給などの賃金は wages とする。専門家の fee と会社員の salary は同じ「報酬」と訳せても典型的な契約関係が異なる。commission は取引成立や売上などに応じる手数料・歩合で、fee と重なることもある。英国の tuition fees に対し、米国では授業料自体を tuition と呼ぶことが多く、tuition and fees では fees が授業料以外の諸費用を指し得る。nominal fee は「ごく少額の料金」、non-refundable fee は「返金不可の料金」。fee だけで返金可否は分からない。古い文献では心付けを fee と呼ぶこともあるが、現代では tip が普通。成功報酬の許容範囲や負担する費用は制度・契約によって異なり、no win, no fee という表示だけから一切の支出がないとは判断しない。  
+【語法・注意】単数なら a fee、the fee、my fee などとし、複数なら fees。fees は新しい派生語ではなく複数形で、複数の料金項目のほか、legal fees「弁護士費用」、school fees「学費」のように一連の支払いをまとめて表す。一般的な「料金が高い」は The fees are high. または The fee is high. とする。legal fees の legal は通常「法律サービスの」で、「法的に認められた料金」だけを意味しない。for は料金の対象、of は金額、to は支払先を示すため、a fee for the course、a fee of 100 euros、pay the fee to the school を区別する。pay a fee to enter the race の to enter は「大会に出るために」という目的を示す自然な形であり、a fee for entering the race と両立する。a fee for enter the race は不可。fee はあらゆる支払いの総称ではない。乗客の運賃は通常 fare、商品の売価は price、雇用関係に基づく定期給与は salary、時給などの賃金は wages とする。専門家の fee と会社員の salary は同じ「報酬」と訳せても典型的な契約関係が異なる。commission は取引成立や売上などに応じる手数料・歩合で、fee と重なることもある。英国の tuition fees に対し、米国では授業料自体を tuition と呼ぶことが多く、tuition and fees では fees が授業料以外の諸費用を指し得る。nominal fee は「ごく少額の料金」、non-refundable fee は「返金不可の料金」。fee だけで返金可否は分からない。古い文献では心付けを fee と呼ぶこともあるが、現代では tip が普通。成功報酬の許容範囲や負担する費用は制度・契約によって異なり、no win, no fee という表示だけから一切の支出がないとは判断しない。  
 
 【類義語】
 
@@ -259,7 +267,7 @@ tags: []
 例: Before leaving the inn, the gentleman fees each servant who has attended him.  
 訳: 宿を出る前に、その紳士は世話をしてくれた使用人一人ひとりに心付けを渡します。  
 
-【語法・注意】目的語は受取人。料金を払う日常的な表現として fee the bill を使わず、pay the bill または pay a fee とする。語義1の名詞 fee と本義の動詞 fee を混同しない。過去形・過去分詞は feed で、feeed とは綴らない。現代の実用英語では pay someone、tip someone を優先する。  
+【語法・注意】目的語は受取人。料金を払う日常的な表現として fee the bill を使わず、pay the bill または pay a fee とする。語義1の名詞 fee と本義の動詞 fee を混同しない。過去形・過去分詞は feed、現在分詞は feeing。これらは動詞の活用形であり、feed を feeed とは綴らない。現代の実用英語では pay someone、tip someone を優先する。  
 
 【類義語】
 
@@ -279,11 +287,11 @@ tags: []
 
 5. 【動詞・他動詞】賃金を払って雇う
 
-【日本語訳・定義】人を、報酬を支払う取り決めで雇い入れる。特にスコットランドの古い雇用慣行に関わる文脈で使われる。  
+【日本語訳・定義】人を、報酬を支払う取り決めで雇い入れる。主にスコットランドの用法で、農場などの働き手を雇う文脈に現れる。  
 
 【頻度】〈1/10〉  
 
-【レジスター/領域】主にスコットランド。地域的で古風な雇用表現。  
+【レジスター/領域】主にスコットランド。地域的な雇用表現。  
 
 【文法パターン】fee someone＝人を雇い入れる／fee someone for 〈期間〉＝ある期間、人を雇う  
 
@@ -301,13 +309,14 @@ tags: []
 ・hire  
 定義: 人を報酬を払って雇い入れる。  
 頻度: 〈9/10〉  
-違い: fee の地域的・古風な雇用義に対応する現代の一般語で、農作業に限らず各種の雇用に使う。  
+違い: fee の地域的な雇用義に対応する一般語で、農作業に限らず各種の雇用に使う。  
 例: The farm hired two workers for the harvest.  
 訳: その農場は収穫期のために働き手を2人雇いました。  
 
 ・employ  
 定義: 人を仕事に就かせ、雇用する。  
 頻度: 〈8/10〉  
-違い: fee のような地域的・古風な響きはなく、雇い入れることに加えて雇用状態を継続していることにも使う。  
+違い: fee のような地域的な限定がなく、雇い入れることに加えて雇用状態を継続していることにも使う。  
 例: The estate employed several gardeners throughout the year.  
 訳: その大邸宅では、一年を通して庭師を数人雇っていました。  
+
